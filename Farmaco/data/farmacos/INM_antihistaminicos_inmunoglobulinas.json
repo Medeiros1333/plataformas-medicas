@@ -1,0 +1,552 @@
+[
+  {
+    "id": "INM-cetirizina",
+    "nombre": "Cetirizina",
+    "sinonimos": [
+      "Levocetirizina"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antihistamínico H1",
+    "subclase": "Segunda generación, metabolito activo de la hidroxizina",
+    "vs_clase": [
+      "**El antiH1 de 2.ª generación de inicio más rápido** (1 h) y muy eficaz en urticaria.",
+      "**Algo más SEDANTE** que bilastina o desloratadina (10%).",
+      "**Eliminación renal**: ajustar en ERC; autorizada desde los 2 años."
+    ],
+    "mecanismo": "Agonista inverso selectivo del receptor H1 periférico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica y urticaria",
+        "dosis": "10 mg (niños 2-6 años: 2,5 mg/12 h; 6-12 años: 5 mg/12 h)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "En urticaria crónica hasta 4 veces la dosis"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg por la noche si somnolencia.",
+      "titulacion": "Hasta 40 mg en urticaria crónica refractaria.",
+      "duracion": "Según síntomas.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "Escaso paso a SNC.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "8-10 h.",
+      "ajuste_renal": "FG 30-50: 5 mg/24 h; FG <30: 5 mg/48 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Alcohol y depresores del SNC",
+          "efecto": "Sedación aditiva",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia leve",
+        "Sequedad de boca, cefalea"
+      ],
+      "graves": [
+        "Retención urinaria (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "ERC terminal",
+      "Hipersensibilidad a hidroxizina"
+    ],
+    "perlas": [
+      "Si seda, cambiar a bilastina o desloratadina antes de abandonar el antiH1."
+    ],
+    "embarazo_lactancia": "De los más estudiados en el embarazo (con loratadina).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "INM-bilastina",
+    "nombre": "Bilastina",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antihistamínico H1",
+    "subclase": "Segunda generación no sedante, sin metabolismo",
+    "vs_clase": [
+      "**NO sedante** incluso a dosis altas (sustrato de la P-gp en la barrera): útil en conductores y profesiones de riesgo.",
+      "**Debe tomarse en AYUNAS** (1 h antes o 2 h después de comer o de zumos de fruta).",
+      "**No se metaboliza**: sin interacciones por CYP ni ajuste renal."
+    ],
+    "mecanismo": "Antagonista selectivo H1 periférico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica y urticaria",
+        "dosis": "20 mg (niños 6-11 años: 10 mg)",
+        "posologia": "Cada 24 h en ayunas",
+        "via": "VO",
+        "nota": "Hasta 80 mg en urticaria crónica"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg en ayunas.",
+      "titulacion": "Hasta x4 en urticaria.",
+      "duracion": "Según síntomas.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "**Reducida un 30% con comida o zumo de pomelo.**",
+      "distribucion": "No atraviesa la barrera (P-gp).",
+      "metabolismo": "**No se metaboliza.**",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "14,5 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Zumos de fruta, comida",
+          "efecto": "Menor absorción",
+          "gravedad": "baja",
+          "manejo": "Tomar en ayunas"
+        },
+        {
+          "con": "Inhibidores de P-gp (ketoconazol, ciclosporina)",
+          "efecto": "Aumento de niveles",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea"
+      ],
+      "graves": [
+        "Muy raros"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Si «no le hace efecto», comprobar que no la toma con el desayuno."
+    ],
+    "embarazo_lactancia": "Sin datos suficientes; preferir loratadina o cetirizina.",
+    "micro_relacionado": [],
+    "fuente": "Ficha técnica; Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "INM-desloratadina",
+    "nombre": "Desloratadina (y loratadina)",
+    "sinonimos": [
+      "Loratadina"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antihistamínico H1",
+    "subclase": "Segunda generación, metabolito activo de la loratadina",
+    "vs_clase": [
+      "**No sedante** y con **jarabe pediátrico desde el año** (desloratadina) o los 2 años (loratadina).",
+      "**La loratadina es el antiH1 con MÁS datos de seguridad en el EMBARAZO.**",
+      "Puede tomarse con o sin comida."
+    ],
+    "mecanismo": "Antagonista selectivo H1 periférico; la desloratadina es el metabolito activo de la loratadina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica y urticaria",
+        "dosis": "5 mg (loratadina 10 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Niños: 1,25-2,5 mg según edad"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única diaria.",
+      "titulacion": "Hasta x4 en urticaria crónica.",
+      "duracion": "Según síntomas.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Escaso paso a SNC.",
+      "metabolismo": "Hepático (CYP3A4/2D6 para loratadina).",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "27 h.",
+      "ajuste_renal": "Precaución en grave.",
+      "ajuste_hepatico": "Precaución en grave.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes a dosis habituales",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, boca seca"
+      ],
+      "graves": [
+        "Raros"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Gestante con rinitis o urticaria: loratadina o cetirizina."
+    ],
+    "embarazo_lactancia": "Loratadina: compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "INM-dexclorfeniramina",
+    "nombre": "Dexclorfeniramina",
+    "sinonimos": [
+      "Difenhidramina, clorfenamina (primera generación)"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antihistamínico H1",
+    "subclase": "Primera generación, SEDANTE, disponible por vía parenteral",
+    "vs_clase": [
+      "**Primera generación con forma IV/IM**: el antiH1 de las **reacciones alérgicas agudas en urgencias** (siempre DESPUÉS de la adrenalina en la anafilaxia).",
+      "**SEDANTE y ANTICOLINÉRGICO** (atraviesa la barrera): somnolencia, boca seca, retención urinaria; evitar en ancianos.",
+      "Útil por la noche cuando el prurito impide dormir."
+    ],
+    "mecanismo": "Antagonista H1 con efecto central y antimuscarínico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Reacción alérgica aguda, urticaria aguda extensa, coadyuvante en anafilaxia",
+        "dosis": "5 mg",
+        "posologia": "Cada 6-8 h (máx. 20 mg/día)",
+        "via": "IV / IM",
+        "nota": "Niños 0,15 mg/kg/día"
+      },
+      {
+        "patologia": "Prurito nocturno",
+        "dosis": "2-6 mg",
+        "posologia": "Por la noche",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según gravedad.",
+      "titulacion": "—",
+      "duracion": "24-72 h.",
+      "fin": "Pasar a antiH1 de 2.ª generación.",
+      "via": "IV, IM, VO.",
+      "monitorizacion": "Sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "**Atraviesa la barrera hematoencefálica.**",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "20 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol, benzodiacepinas, opioides",
+          "efecto": "Sedación intensa",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Anticolinérgicos",
+          "efecto": "Carga anticolinérgica",
+          "gravedad": "media",
+          "manejo": "Evitar en ancianos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**",
+        "Boca seca"
+      ],
+      "graves": [
+        "Delirium en ancianos",
+        "Retención urinaria",
+        "Excitación paradójica en niños"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Retención urinaria",
+      "Neonatos"
+    ],
+    "perlas": [
+      "Nunca sustituye a la adrenalina en la anafilaxia."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "INM-hidroxizina",
+    "nombre": "Hidroxizina",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Antihistamínico H1",
+    "subclase": "Primera generación sedante con efecto ansiolítico",
+    "vs_clase": [
+      "**Antipruriginoso potente y ANSIOLÍTICO** (sin dependencia de benzodiacepinas).",
+      "**PROLONGA el QT**: máximo 100 mg/día en adultos (50 mg en ancianos); evitar con otros fármacos que lo alarguen.",
+      "Su metabolito activo es la **cetirizina**."
+    ],
+    "mecanismo": "Antagonista H1 central y periférico con efecto ansiolítico por bloqueo 5-HT2 y H1 central.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prurito intenso (dermatitis atópica, urticaria)",
+        "dosis": "25 mg",
+        "posologia": "Cada 8-24 h (preferentemente por la noche)",
+        "via": "VO",
+        "nota": "Máx. 100 mg/día"
+      },
+      {
+        "patologia": "Ansiedad leve-moderada (alternativa a benzodiacepinas)",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "25 mg por la noche.",
+      "titulacion": "—",
+      "duracion": "Corta.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "ECG si riesgo de QT largo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "SNC.",
+      "metabolismo": "Hepático a cetirizina.",
+      "eliminacion": "Renal.",
+      "vida_media": "14-20 h (más en ancianos).",
+      "ajuste_renal": "Mitad de dosis.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Depresores del SNC",
+          "efecto": "Sedación",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Boca seca"
+      ],
+      "graves": [
+        "**Prolongación del QT**",
+        "Confusión en ancianos"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo",
+      "Embarazo (1.er trimestre)",
+      "Porfiria"
+    ],
+    "perlas": [
+      "Paciente con prurito que no duerme: hidroxizina nocturna + antiH1 no sedante por el día."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "INM-inmunoglobulina-anti-d",
+    "nombre": "Inmunoglobulina anti-D",
+    "sinonimos": [
+      "Gammaglobulina anti-Rh"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunoglobulina",
+    "subclase": "Inmunoglobulina hiperinmune anti-RhD",
+    "vs_clase": [
+      "**Previene la ALOINMUNIZACIÓN Rh** de la madre Rh negativa (enfermedad hemolítica del recién nacido en embarazos posteriores).",
+      "**Profilaxis en la semana 28 y en las 72 h posparto** (si el recién nacido es Rh+) y tras cualquier evento sensibilizante.",
+      "**No sirve si la madre ya está sensibilizada** (Coombs indirecto anti-D positivo)."
+    ],
+    "mecanismo": "Anticuerpos anti-D que eliminan los hematíes fetales Rh+ de la circulación materna antes de que se genere una respuesta inmune.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis en gestante Rh negativa no sensibilizada",
+        "dosis": "300 µg (1.500 UI)",
+        "posologia": "Semana 28 y en las 72 h tras el parto de un recién nacido Rh+",
+        "via": "IM",
+        "nota": "Ajustar a la hemorragia feto-materna (test de Kleihauer)"
+      },
+      {
+        "patologia": "Eventos sensibilizantes (aborto, ectópico, amniocentesis, traumatismo, sangrado)",
+        "dosis": "50-300 µg según edad gestacional",
+        "posologia": "Dosis única en 72 h",
+        "via": "IM",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Grupo, Rh y Coombs indirecto.",
+      "titulacion": "—",
+      "duracion": "Dosis puntuales.",
+      "fin": "—",
+      "via": "IM (o IV).",
+      "monitorizacion": "Coombs indirecto."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "3-4 semanas.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas de virus vivos (triple vírica, varicela)",
+          "efecto": "Menor respuesta",
+          "gravedad": "baja",
+          "manejo": "Revacunar o comprobar serología a los 3 meses"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local"
+      ],
+      "graves": [
+        "Anafilaxia (rara)",
+        "Hemólisis (si se da a Rh+)"
+      ]
+    },
+    "contraindicaciones": [
+      "Madre Rh positiva",
+      "Madre ya sensibilizada"
+    ],
+    "perlas": [
+      "Toda gestante Rh negativa con sangrado vaginal necesita anti-D en 72 h."
+    ],
+    "embarazo_lactancia": "Indicada.",
+    "micro_relacionado": [],
+    "fuente": "Protocolos SEGO; Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "INM-inmunoglobulina-antitetanica",
+    "nombre": "Inmunoglobulinas hiperinmunes (antitetánica, anti-hepatitis B, antirrábica)",
+    "sinonimos": [
+      "Gammaglobulina antitetánica",
+      "IgHB"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunoglobulina",
+    "subclase": "Inmunoglobulinas hiperinmunes específicas (inmunización pasiva)",
+    "vs_clase": [
+      "**Inmunización PASIVA inmediata** frente a una exposición concreta (tétanos, VHB, rabia), **junto con la vacuna** en lugares distintos.",
+      "**Antitetánica en heridas de riesgo** con vacunación incompleta o desconocida; **IgHB en el recién nacido de madre HBsAg+** (en 12 h).",
+      "No sustituyen a la vacunación."
+    ],
+    "mecanismo": "Anticuerpos específicos que neutralizan la toxina o el virus antes de que se establezca la infección.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Herida tetanígena con vacunación incompleta (<3 dosis) o desconocida",
+        "dosis": "250 UI (500 UI si herida muy contaminada o >24 h)",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "nota": "Con vacuna Td en otro brazo"
+      },
+      {
+        "patologia": "Recién nacido de madre HBsAg positiva",
+        "dosis": "0,5 mL (100-200 UI)",
+        "posologia": "Dosis única en las primeras 12 h",
+        "via": "IM",
+        "nota": "Con la primera dosis de vacuna"
+      },
+      {
+        "patologia": "Profilaxis postexposición de la rabia (no vacunados)",
+        "dosis": "20 UI/kg",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "nota": "Infiltrando la herida y el resto IM; con vacuna"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "3-4 semanas.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas de virus vivos",
+          "efecto": "Menor respuesta vacunal",
+          "gravedad": "baja",
+          "manejo": "Separar 3 meses"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local, fiebre"
+      ],
+      "graves": [
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Trombocitopenia grave (vía IM)"
+    ],
+    "perlas": [
+      "Herida tetanígena: la inmunoglobulina depende de la vacunación previa, no de la herida en sí."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "ANA-clostridium-tetani",
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  }
+]

@@ -7,7 +7,7 @@
     ],
     "area": "URG",
     "nivel": 2,
-    "clase": "Quelante de metales pesados",
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
     "subclase": "Agentes quelantes",
     "mecanismo": "Todos actúan por el mismo principio: aportan grupos donadores de electrones (sulfhidrilo, amino, carboxilo) que forman con el metal un COMPLEJO estable, hidrosoluble y NO tóxico, que se elimina por la orina o por la bilis. La clave del mecanismo está en la competencia: el quelante debe unir el metal con más avidez que las enzimas del organismo a las que este ha secuestrado, y de ahí que cada metal tenga su quelante preferente. El DIMERCAPROL y el SUCCÍMERO aportan grupos SULFHIDRILO, que es exactamente lo que el arsénico, el mercurio y el plomo bloquean en las enzimas. El EDTA CÁLCICO intercambia su calcio por el plomo, y su formulación con calcio no es un detalle sino una precaución vital: el EDTA sódico produciría una hipocalcemia mortal. La DEFEROXAMINA es un sideróforo bacteriano que capta hierro férrico y forma ferrioxamina, que tiñe la orina de color vino rosado. El problema común a todos ellos es que NO son selectivos: arrastran también zinc, cobre y otros oligoelementos esenciales.",
     "espectro": null,
@@ -138,6 +138,11 @@
     ],
     "embarazo_lactancia": "La quelación se realiza solo cuando la intoxicación amenaza la vida de la madre: los quelantes atraviesan la placenta y arrastran oligoelementos esenciales para el feto. El succímero y la deferoxamina tienen algo más de experiencia; la penicilamina es teratógena y está contraindicada salvo en la enfermedad de Wilson, donde se mantiene a la dosis mínima.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 57; protocolos de toxicología clínica sobre metales pesados"
+    "fuente": "Katzung 15.ª ed., cap. 57; protocolos de toxicología clínica sobre metales pesados",
+    "vs_clase": [
+      "**Quelantes específicos de metales**: deferoxamina (hierro), dimercaprol/succímero/EDTA cálcico (plomo, arsénico, mercurio), penicilamina (Wilson).",
+      "**Elección según el metal y la gravedad** (encefalopatía saturnina: dimercaprol + EDTA).",
+      "Nefrotoxicidad e hipotensión según el quelante; la deferoxamina tiñe la orina «vino rosado»."
+    ]
   }
 ]

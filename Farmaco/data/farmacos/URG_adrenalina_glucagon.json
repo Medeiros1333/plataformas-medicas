@@ -137,7 +137,7 @@
     "sinonimos": [],
     "area": "URG",
     "nivel": 2,
-    "clase": "Hormona pancreática",
+    "clase": "Antídoto farmacológico (receptor o mecanismo)",
     "subclase": "Agonista del receptor de glucagón, antídoto",
     "mecanismo": "Se une a su propio receptor, acoplado a la proteína Gs, y eleva el AMPc intracelular SIN pasar por el receptor betaadrenérgico. De ahí sus dos usos: en la HIPOGLUCEMIA moviliza el glucógeno hepático por glucogenólisis y estimula la gluconeogénesis; en la intoxicación por BETABLOQUEANTES restaura la contractilidad y la frecuencia cardiacas por una vía que el bloqueo del receptor beta no puede cerrar. Además relaja la musculatura lisa digestiva, lo que se aprovecha en endoscopia y en la impactación esofágica.",
     "espectro": null,
@@ -238,6 +238,11 @@
     ],
     "embarazo_lactancia": "No atraviesa la placenta de forma significativa y se considera seguro en la hipoglucemia grave de la embarazada. Al ser un péptido, se destruye en el tubo digestivo del lactante: compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 41 y 58; protocolos de toxicología del hospital"
+    "fuente": "Katzung 15.ª ed., caps. 41 y 58; protocolos de toxicología del hospital",
+    "vs_clase": [
+      "**Antídoto de BETABLOQUEANTES y calcioantagonistas** (activa la adenilato ciclasa sin el receptor beta).",
+      "**Tratamiento de la HIPOGLUCEMIA grave sin vía IV** (1 mg IM/SC o 3 mg intranasal); ineficaz sin glucógeno (alcohol, ayuno).",
+      "**Vómitos** frecuentes (proteger la vía aérea)."
+    ]
   }
 ]

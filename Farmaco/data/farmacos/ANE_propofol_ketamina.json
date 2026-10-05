@@ -5,7 +5,7 @@
     "sinonimos": [],
     "area": "ANE",
     "nivel": 1,
-    "clase": "Anestésico general",
+    "clase": "Hipnótico y sedante intravenoso",
     "subclase": "Hipnótico intravenoso potenciador del receptor GABA-A",
     "mecanismo": "Potencia la acción del GABA sobre el receptor GABA-A, prolongando la apertura del canal de cloro e hiperpolarizando la neurona; a concentraciones altas activa el receptor por sí mismo. El resultado es una hipnosis profunda de instauración casi inmediata. Su comportamiento clínico lo determina la LIPOFILIA extrema: alcanza el cerebro en un brazo-cerebro (unos 30 segundos) y el despertar tras un bolo único no se debe a que el fármaco se haya eliminado, sino a su REDISTRIBUCIÓN al músculo y a la grasa. Ese mismo hecho explica su otra cara: con perfusiones prolongadas los tejidos se saturan y la vida media contexto-dependiente se alarga, aunque mucho menos que con otros hipnóticos, lo que lo hace idóneo para la sedación en cuidados intensivos. NO tiene ningún efecto analgésico, y olvidarlo lleva a sedar profundamente a un paciente que sigue teniendo dolor.",
     "espectro": null,
@@ -129,7 +129,12 @@
     ],
     "embarazo_lactancia": "Se usa habitualmente en la anestesia obstétrica, incluida la cesárea; atraviesa la placenta y puede producir depresión neonatal transitoria si se administran dosis altas antes del pinzamiento. Compatible con la lactancia: se puede amamantar en cuanto la madre esté despierta y orientada.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedación en cuidados intensivos"
+    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedación en cuidados intensivos",
+    "vs_clase": [
+      "**Despertar RÁPIDO y limpio** (sin resaca): el hipnótico de inducción y sedación más usado; **antiemético**.",
+      "**HIPOTENSIÓN y depresión respiratoria** marcadas: precaución en el paciente inestable (preferir etomidato o ketamina).",
+      "**Síndrome de infusión de propofol** (acidosis, rabdomiólisis) con dosis altas prolongadas; emulsión lipídica (triglicéridos, contaminación)."
+    ]
   },
   {
     "id": "ANE-ketamina",
@@ -137,7 +142,7 @@
     "sinonimos": [],
     "area": "ANE",
     "nivel": 1,
-    "clase": "Anestésico general y analgésico",
+    "clase": "Hipnótico y sedante intravenoso",
     "subclase": "Antagonista no competitivo del receptor NMDA",
     "mecanismo": "Bloquea de forma no competitiva el receptor NMDA del glutamato, produciendo una ANESTESIA DISOCIATIVA: el paciente queda desconectado funcionalmente del entorno, con los ojos a menudo abiertos, catalepsia, amnesia y una analgesia intensa, pero manteniendo los reflejos protectores de la vía aérea y el impulso respiratorio. Es el único anestésico que es a la vez potente analgésico. A diferencia de todos los demás, ESTIMULA el sistema simpático por inhibición de la recaptación de catecolaminas, de modo que sube la tensión y la frecuencia cardiacas en lugar de bajarlas: eso lo convierte en el inductor del paciente en shock. Ese mismo mecanismo tiene un límite importante que hay que conocer: en el paciente con las catecolaminas endógenas AGOTADAS por un shock prolongado, el efecto simpaticomimético no aparece y queda al descubierto su depresión miocárdica DIRECTA, con hipotensión brusca. Su acción sobre el NMDA explica además su efecto antidepresivo rápido y su papel en la hiperalgesia y la tolerancia opioides.",
     "espectro": null,
@@ -261,6 +266,11 @@
     ],
     "embarazo_lactancia": "Se emplea en anestesia obstétrica cuando la situación hemodinámica lo aconseja, evitándola en la preeclampsia por su efecto hipertensor. Atraviesa la placenta. Compatible con la lactancia una vez recuperada la conciencia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedoanalgesia en urgencias"
+    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedoanalgesia en urgencias",
+    "vs_clase": [
+      "**Anestesia DISOCIATIVA con ANALGESIA potente** y **conservación de reflejos de vía aérea y respiración**.",
+      "**Estimula el simpático: mantiene o sube la PA y es BRONCODILATADORA** (asma, shock).",
+      "**Reacciones de emergencia (alucinaciones)**, sialorrea; la esketamina intranasal tiene indicación en depresión resistente."
+    ]
   }
 ]

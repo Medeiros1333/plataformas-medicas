@@ -1,0 +1,273 @@
+[
+  {
+    "id": "DER-adapaleno",
+    "nombre": "Adapaleno",
+    "sinonimos": ["Adapaleno/peróxido de benzoilo"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Retinoide",
+    "subclase": "Retinoide tópico de tercera generación",
+    "vs_clase": [
+      "**El retinoide TÓPICO mejor tolerado** (menos irritante y fotoestable): base del tratamiento del acné comedoniano e inflamatorio leve-moderado.",
+      "**Combinado con peróxido de benzoilo** potencia el efecto y evita resistencias.",
+      "Se aplica por la noche; **mejoría a las 8-12 semanas** (empeoramiento inicial posible)."
+    ],
+    "mecanismo": "Agonista selectivo de los receptores RAR-beta/gamma: normaliza la queratinización folicular (comedolítico) y es antiinflamatorio.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Acné comedoniano o inflamatorio leve-moderado", "dosis": "1 aplicación (gel 0,1-0,3%)", "posologia": "Cada 24 h por la noche", "via": "tópica", "nota": "Mantenimiento tras el control" }
+    ],
+    "esquema": { "inicio": "Días alternos la primera semana si irritación.", "titulacion": "—", "duracion": "Meses; mantenimiento.", "fin": "—", "via": "Tópica.", "monitorizacion": "Irritación." },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "Biliar (mínimo).", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Otros irritantes tópicos (alcoholes, exfoliantes)", "efecto": "Irritación", "gravedad": "baja", "manejo": "Evitar" } ] },
+    "efectos_adversos": { "frecuentes": ["Sequedad, eritema, descamación", "Fotosensibilidad leve"], "graves": ["Dermatitis irritativa intensa"] },
+    "contraindicaciones": ["Embarazo (por precaución)", "Eccema activo en la zona"],
+    "perlas": ["Aplicar en toda la zona (no solo en los granos): previene las lesiones nuevas."],
+    "embarazo_lactancia": "Evitar en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-tretinoina-topica",
+    "nombre": "Tretinoína tópica",
+    "sinonimos": ["Ácido retinoico tópico"],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Retinoide",
+    "subclase": "Retinoide tópico de primera generación",
+    "vs_clase": [
+      "**Primer retinoide tópico: el más IRRITANTE y FOTOLÁBIL** (aplicar por la noche, se degrada con la luz y con el peróxido de benzoilo).",
+      "**Efecto antienvejecimiento cutáneo** (fotoenvejecimiento) además del acné.",
+      "**La tretinoína oral** es otro fármaco: tratamiento de la leucemia promielocítica aguda."
+    ],
+    "mecanismo": "Agonista de todos los receptores RAR: normaliza la queratinización y aumenta el recambio epidérmico.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Acné comedoniano; fotoenvejecimiento", "dosis": "1 aplicación (crema 0,025-0,1%)", "posologia": "Cada 24 h por la noche", "via": "tópica", "nota": "Fotoprotección diaria" }
+    ],
+    "esquema": { "inicio": "Concentración baja.", "titulacion": "Subir según tolerancia.", "duracion": "Meses.", "fin": "—", "via": "Tópica.", "monitorizacion": "Irritación." },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "—", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Peróxido de benzoilo (simultáneo)", "efecto": "Lo oxida e inactiva", "gravedad": "baja", "manejo": "Aplicar en momentos distintos" } ] },
+    "efectos_adversos": { "frecuentes": ["**Irritación, descamación**", "Fotosensibilidad"], "graves": ["Dermatitis irritativa"] },
+    "contraindicaciones": ["Embarazo", "Eccema o quemadura solar en la zona"],
+    "perlas": ["Si irrita mucho, cambiar a adapaleno."],
+    "embarazo_lactancia": "Contraindicada en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-acitretina",
+    "nombre": "Acitretina",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Retinoide",
+    "subclase": "Retinoide sistémico de segunda generación",
+    "vs_clase": [
+      "**Retinoide oral para la PSORIASIS** (pustulosa, eritrodérmica, palmoplantar) y trastornos de la queratinización; **no inmunosupresor**.",
+      "**TERATÓGENO con persistencia de 3 AÑOS** (se reesterifica a etretinato con alcohol): **anticoncepción hasta 3 años tras suspender** (la isotretinoína, 1 mes).",
+      "**No se usa en el acné.**"
+    ],
+    "mecanismo": "Agonista de receptores de retinoides que normaliza la proliferación y diferenciación de queratinocitos.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Psoriasis pustulosa, eritrodérmica o palmoplantar", "dosis": "25-50 mg", "posologia": "Cada 24 h con comida", "via": "VO", "nota": "Útil con fototerapia (re-PUVA)" }
+    ],
+    "esquema": { "inicio": "Lípidos, transaminasas, prueba de embarazo; anticoncepción.", "titulacion": "Según respuesta.", "duracion": "Meses.", "fin": "**Anticoncepción 3 años después.**", "via": "VO.", "monitorizacion": "Lípidos y transaminasas cada 1-3 meses." },
+    "farmacocinetica": { "absorcion": "Mejor con comida grasa.", "distribucion": "Lipófila.", "metabolismo": "Hepático; **etretinato con alcohol**.", "eliminacion": "Biliar y renal.", "vida_media": "50 h (etretinato 120 días).", "ajuste_renal": "Evitar en grave.", "ajuste_hepatico": "Contraindicada.", "interacciones": [ { "con": "Alcohol", "efecto": "Formación de etretinato (teratogenia prolongada)", "gravedad": "alta", "manejo": "Abstinencia de alcohol" }, { "con": "Tetraciclinas", "efecto": "Hipertensión intracraneal", "gravedad": "alta", "manejo": "Contraindicado" }, { "con": "Metotrexato", "efecto": "Hepatotoxicidad", "gravedad": "alta", "manejo": "Evitar" } ] },
+    "efectos_adversos": { "frecuentes": ["**Queilitis, sequedad de piel y mucosas**", "Alopecia", "Hipertrigliceridemia"], "graves": ["**Teratogenicidad**", "Hepatotoxicidad", "Hipertensión intracraneal", "Hiperostosis"] },
+    "contraindicaciones": ["**Mujer en edad fértil sin anticoncepción eficaz durante y 3 años después**", "Hepatopatía, ERC grave", "Hiperlipidemia grave"],
+    "perlas": ["Prohibido donar sangre hasta 3 años después."],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-peroxido-benzoilo",
+    "nombre": "Peróxido de benzoilo",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiacneico tópico no retinoide",
+    "subclase": "Agente oxidante bactericida",
+    "vs_clase": [
+      "**Bactericida frente a Cutibacterium acnes SIN generar resistencias**: siempre debe acompañar a cualquier antibiótico tópico u oral en el acné.",
+      "**DECOLORA la ropa, toallas y el pelo.**",
+      "Irritación dosis-dependiente (el 2,5% es tan eficaz como el 10%)."
+    ],
+    "mecanismo": "Libera radicales de oxígeno que destruyen C. acnes; leve efecto comedolítico.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Acné inflamatorio leve-moderado", "dosis": "1 aplicación (gel 2,5-5%)", "posologia": "Cada 12-24 h", "via": "tópica", "nota": "Con retinoide o antibiótico tópico" }
+    ],
+    "esquema": { "inicio": "Concentración baja.", "titulacion": "—", "duracion": "Meses.", "fin": "—", "via": "Tópica.", "monitorizacion": "Irritación." },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "A ácido benzoico.", "eliminacion": "Renal (mínimo).", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Tretinoína (simultánea)", "efecto": "La inactiva", "gravedad": "baja", "manejo": "Separar" } ] },
+    "efectos_adversos": { "frecuentes": ["Sequedad, irritación", "Decoloración de tejidos"], "graves": ["Dermatitis de contacto alérgica (rara)"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Ningún antibiótico para el acné sin peróxido de benzoilo."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-acido-azelaico",
+    "nombre": "Ácido azelaico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Antiacneico tópico no retinoide",
+    "subclase": "Ácido dicarboxílico antibacteriano y despigmentante",
+    "vs_clase": [
+      "**Útil en el acné Y en la ROSÁCEA papulopustulosa** y en la **hiperpigmentación postinflamatoria y el melasma**.",
+      "**Seguro en el EMBARAZO.**",
+      "Poco irritante; escozor transitorio."
+    ],
+    "mecanismo": "Antibacteriano frente a C. acnes, comedolítico e inhibidor de la tirosinasa.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Acné leve-moderado (incluido en el embarazo) y rosácea papulopustulosa", "dosis": "1 aplicación (crema 20% o gel 15%)", "posologia": "Cada 12 h", "via": "tópica", "nota": "Mejoría en 4-8 semanas" }
+    ],
+    "esquema": { "inicio": "Cada 24 h la primera semana si escuece.", "titulacion": "—", "duracion": "Meses.", "fin": "—", "via": "Tópica.", "monitorizacion": "—" },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "Renal (mínimo).", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Escozor, prurito"], "graves": ["Hipopigmentación (rara)"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Gestante con acné: ácido azelaico, peróxido de benzoilo o clindamicina tópica."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-clindamicina-topica",
+    "nombre": "Clindamicina tópica",
+    "sinonimos": ["Eritromicina tópica"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiacneico tópico no retinoide",
+    "subclase": "Antibiótico tópico",
+    "vs_clase": [
+      "**Antiinflamatorio y antibacteriano en el acné papulopustuloso**, pero **NUNCA en monoterapia** (resistencias rápidas de C. acnes).",
+      "**Combinaciones fijas con peróxido de benzoilo o tretinoína.**",
+      "Duración limitada (≤12 semanas)."
+    ],
+    "mecanismo": "Inhibe la síntesis proteica de C. acnes (50S) y reduce la quimiotaxis de neutrófilos.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Acné inflamatorio leve-moderado (con peróxido de benzoilo)", "dosis": "1 aplicación (1%)", "posologia": "Cada 12-24 h", "via": "tópica", "nota": "≤12 semanas" }
+    ],
+    "esquema": { "inicio": "Siempre con peróxido de benzoilo.", "titulacion": "—", "duracion": "≤12 semanas.", "fin": "Mantener con retinoide.", "via": "Tópica.", "monitorizacion": "Respuesta." },
+    "farmacocinetica": { "absorcion": "Mínima (4-5%).", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "—", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Eritromicina tópica", "efecto": "Antagonismo", "gravedad": "baja", "manejo": "No combinar" } ] },
+    "efectos_adversos": { "frecuentes": ["Sequedad, irritación"], "graves": ["Colitis por C. difficile (excepcional)"] },
+    "contraindicaciones": ["Antecedente de colitis por antibióticos o EII"],
+    "perlas": ["Antibiótico tópico solo = fábrica de resistencias."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-hidrocortisona-topica",
+    "nombre": "Hidrocortisona tópica",
+    "sinonimos": ["Hidrocortisona acetato 1%"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Corticoide tópico",
+    "subclase": "Potencia BAJA (grupo I)",
+    "vs_clase": [
+      "**Potencia BAJA: la más segura en CARA, párpados, pliegues, genitales y lactantes.**",
+      "Útil en dermatitis leves, intertrigo y eccema facial.",
+      "Insuficiente en dermatosis gruesas (psoriasis en placas, liquen)."
+    ],
+    "mecanismo": "Glucocorticoide antiinflamatorio, antiproliferativo y vasoconstrictor de baja potencia.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Eccema leve en cara, pliegues o lactantes; dermatitis del pañal inflamatoria", "dosis": "1 aplicación (crema 0,5-1%)", "posologia": "Cada 12-24 h", "via": "tópica", "nota": "1-2 semanas" }
+    ],
+    "esquema": { "inicio": "Capa fina.", "titulacion": "—", "duracion": "1-2 semanas.", "fin": "Reducir frecuencia progresivamente.", "via": "Tópica.", "monitorizacion": "Atrofia (raro con baja potencia)." },
+    "farmacocinetica": { "absorcion": "Mayor en piel fina y oclusión.", "distribucion": "Local.", "metabolismo": "Cutáneo y hepático.", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Oclusión (pañal)", "efecto": "Aumenta la absorción", "gravedad": "baja", "manejo": "Ciclos cortos" } ] },
+    "efectos_adversos": { "frecuentes": ["Escasos"], "graves": ["Atrofia o dermatitis perioral con uso prolongado (raro)"] },
+    "contraindicaciones": ["Infección cutánea no tratada (tiña, herpes)", "Rosácea"],
+    "perlas": ["En la cara de un lactante, nunca subir de potencia sin indicación dermatológica."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-metilprednisolona-aceponato",
+    "nombre": "Metilprednisolona aceponato tópica",
+    "sinonimos": ["Prednicarbato", "Mometasona furoato"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Corticoide tópico",
+    "subclase": "Potencia MEDIA-ALTA con bajo índice de atrofia",
+    "vs_clase": [
+      "**Corticoide de «nueva generación»: potencia media-alta con MENOS ATROFIA y efectos sistémicos** (se metaboliza en la piel).",
+      "**Una sola aplicación diaria**; utilizable en niños y en la cara por periodos cortos.",
+      "De elección en los brotes de dermatitis atópica."
+    ],
+    "mecanismo": "Diéster que se activa en la piel y se inactiva al absorberse (alto índice terapéutico).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Brote de dermatitis atópica o eccema", "dosis": "1 aplicación (0,1%)", "posologia": "Cada 24 h", "via": "tópica", "nota": "1-2 semanas; después 2 días/semana (proactivo)" }
+    ],
+    "esquema": { "inicio": "Capa fina, 1 vez al día.", "titulacion": "—", "duracion": "1-2 semanas.", "fin": "Pauta proactiva.", "via": "Tópica.", "monitorizacion": "Atrofia." },
+    "farmacocinetica": { "absorcion": "Baja.", "distribucion": "Local.", "metabolismo": "**Cutáneo (inactivación rápida).**", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Oclusión", "efecto": "Aumenta la absorción", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Escozor leve"], "graves": ["Atrofia, estrías (uso prolongado)"] },
+    "contraindicaciones": ["Infecciones cutáneas no tratadas", "Rosácea y dermatitis perioral"],
+    "perlas": ["Una aplicación diaria es suficiente: dos no aumentan la eficacia."],
+    "embarazo_lactancia": "Compatible en zonas limitadas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-betametasona-topica",
+    "nombre": "Betametasona tópica (valerato o dipropionato)",
+    "sinonimos": ["Betametasona/ácido salicílico", "Calcipotriol/betametasona"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Corticoide tópico",
+    "subclase": "Potencia ALTA",
+    "vs_clase": [
+      "**Potencia ALTA**: dermatosis de tronco y extremidades (psoriasis, eccema liquenificado, liquen).",
+      "**Con CALCIPOTRIOL**: tratamiento tópico de primera línea de la **psoriasis en placas**.",
+      "**Evitar en cara y pliegues** (atrofia, estrías, rosácea esteroidea)."
+    ],
+    "mecanismo": "Glucocorticoide fluorado de alta potencia.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Psoriasis en placas (con calcipotriol) y eccema crónico de tronco/extremidades", "dosis": "1 aplicación (0,05-0,1%)", "posologia": "Cada 24 h", "via": "tópica", "nota": "4 semanas y después pauta de mantenimiento" }
+    ],
+    "esquema": { "inicio": "Capa fina.", "titulacion": "—", "duracion": "2-4 semanas.", "fin": "**Retirada gradual** (rebote).", "via": "Tópica.", "monitorizacion": "Atrofia, estrías." },
+    "farmacocinetica": { "absorcion": "Moderada; alta en pliegues.", "distribucion": "Local.", "metabolismo": "Hepático (absorbido).", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Oclusión y grandes superficies", "efecto": "Absorción sistémica (supresión suprarrenal)", "gravedad": "media", "manejo": "Evitar" } ] },
+    "efectos_adversos": { "frecuentes": ["Atrofia, telangiectasias", "Estrías"], "graves": ["Supresión suprarrenal (grandes superficies)", "Psoriasis pustulosa de rebote"] },
+    "contraindicaciones": ["Cara, pliegues, genitales (relativa)", "Infecciones cutáneas", "Rosácea"],
+    "perlas": ["Psoriasis: nunca corticoide sistémico (brote pustuloso al retirarlo); sí tópico."],
+    "embarazo_lactancia": "Uso limitado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-clobetasol",
+    "nombre": "Clobetasol propionato",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Corticoide tópico",
+    "subclase": "Potencia MUY ALTA (grupo IV)",
+    "vs_clase": [
+      "**El corticoide tópico MÁS POTENTE**: liquen escleroso genital, liquen plano, psoriasis palmoplantar o del cuero cabelludo, penfigoide localizado.",
+      "**Máximo 2-4 semanas y ≤50 g/semana**: el mayor riesgo de atrofia y supresión suprarrenal.",
+      "**De elección en el LIQUEN ESCLEROSO VULVAR** (excepción a la regla de no usar alta potencia en genitales)."
+    ],
+    "mecanismo": "Glucocorticoide de muy alta potencia.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Liquen escleroso genital", "dosis": "1 aplicación (0,05%)", "posologia": "Cada 24 h 1 mes, a días alternos 1 mes, 2 veces/semana 1 mes", "via": "tópica", "nota": "Después mantenimiento" },
+      { "patologia": "Psoriasis palmoplantar o del cuero cabelludo resistente", "dosis": "1 aplicación (0,05%)", "posologia": "Cada 12-24 h", "via": "tópica", "nota": "≤2-4 semanas" }
+    ],
+    "esquema": { "inicio": "Capa fina.", "titulacion": "—", "duracion": "≤4 semanas (salvo liquen escleroso).", "fin": "Descenso gradual.", "via": "Tópica.", "monitorizacion": "Atrofia, cortisol si grandes superficies." },
+    "farmacocinetica": { "absorcion": "Alta.", "distribucion": "Local y sistémica.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Oclusión", "efecto": "Absorción sistémica", "gravedad": "media", "manejo": "Evitar" } ] },
+    "efectos_adversos": { "frecuentes": ["Atrofia, estrías, telangiectasias"], "graves": ["**Supresión suprarrenal**", "Cushing iatrogénico", "Rebote al suspender"] },
+    "contraindicaciones": ["Cara, pliegues (salvo indicación)", "Niños <12 años", "Infecciones cutáneas", "Rosácea"],
+    "perlas": ["Un tubo de 30 g mal usado en la cara puede producir dermatitis perioral y rosácea esteroidea."],
+    "embarazo_lactancia": "Evitar uso extenso.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  }
+]

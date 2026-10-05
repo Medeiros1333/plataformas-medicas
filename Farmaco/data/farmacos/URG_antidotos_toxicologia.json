@@ -8,7 +8,7 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Antídoto del paracetamol",
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
     "subclase": "Precursor del glutatión y donante de grupos tiol",
     "mecanismo": "Repone las reservas de GLUTATIÓN hepático aportando cisteína, su aminoácido limitante. En la sobredosis de paracetamol, las vías de conjugación se saturan y el CYP2E1 genera un exceso del metabolito tóxico NAPQI, que agota el glutatión y se une covalentemente a las proteínas del hepatocito produciendo necrosis centrolobulillar. La N-acetilcisteína actúa por tres vías: repone glutatión, actúa ella misma como sustrato tiol que conjuga directamente el NAPQI, y en fases tardías mejora la microcirculación y el aporte de oxígeno hepático, lo que explica que siga siendo útil incluso cuando el daño ya está establecido.",
     "espectro": null,
@@ -113,7 +113,12 @@
     ],
     "embarazo_lactancia": "Segura y de uso obligado en la gestante intoxicada: atraviesa la placenta y protege también al hígado fetal. La demora en administrarla es más peligrosa que el fármaco. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 58; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+    "fuente": "Katzung 15.ª ed., cap. 58; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis",
+    "vs_clase": [
+      "**Antídoto del PARACETAMOL**: repone glutatión; casi 100% eficaz en las primeras 8 h.",
+      "**Iniciar sin esperar** si la hora es desconocida o hay daño hepático; nomograma de Rumack-Matthew a las 4 h.",
+      "**Reacciones anafilactoides** con la carga IV (pausar y reanudar más lento)."
+    ]
   },
   {
     "id": "URG-atropina",

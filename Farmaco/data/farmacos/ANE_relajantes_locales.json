@@ -7,7 +7,7 @@
     ],
     "area": "ANE",
     "nivel": 1,
-    "clase": "Bloqueante neuromuscular",
+    "clase": "Visión de clase: bloqueantes neuromusculares",
     "subclase": "Despolarizantes y no despolarizantes, con su agente de reversión",
     "mecanismo": "Actúan sobre el receptor nicotínico de la placa motora por dos mecanismos opuestos. La SUCCINILCOLINA es DESPOLARIZANTE: se une al receptor y lo activa, pero al no ser degradada por la acetilcolinesterasa lo mantiene despolarizado, de modo que tras una fase inicial de fasciculaciones la membrana queda inexcitable. De ahí sus dos efectos característicos: las FASCICULACIONES visibles y la salida de POTASIO de la célula muscular, que es inocua en el paciente normal y letal en el quemado, el denervado o el inmovilizado, donde los receptores extraunionales proliferan y la hiperpotasemia puede ser masiva. El ROCURONIO y el CISATRACURIO son NO DESPOLARIZANTES: antagonistas competitivos que simplemente impiden que la acetilcolina se una, sin activar nada, por lo que no hay fasciculaciones ni liberación de potasio. Ninguno de ellos tiene efecto hipnótico ni analgésico. El SUGAMMADEX no actúa sobre el receptor: es una ciclodextrina modificada que ENCAPSULA físicamente la molécula de rocuronio en el plasma y la retira de la circulación, revirtiendo incluso un bloqueo profundo en dos o tres minutos.",
     "espectro": null,
@@ -123,7 +123,8 @@
     ],
     "embarazo_lactancia": "No atraviesan la placenta de forma significativa por su alta polaridad, por lo que no afectan al feto y se usan con normalidad en la cesárea. El sulfato de magnesio, frecuente en obstetricia, POTENCIA el bloqueo y obliga a reducir la dosis. Compatibles con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 27; guías de manejo de la vía aérea difícil y de monitorización neuromuscular"
+    "fuente": "Katzung 15.ª ed., cap. 27; guías de manejo de la vía aérea difícil y de monitorización neuromuscular",
+    "vision_clase": true
   },
   {
     "id": "ANE-anestesicos-locales",
@@ -131,7 +132,7 @@
     "sinonimos": [],
     "area": "ANE",
     "nivel": 1,
-    "clase": "Anestésico local",
+    "clase": "Visión de clase: anestésicos locales",
     "subclase": "Bloqueantes de los canales de sodio dependientes de voltaje",
     "mecanismo": "Bloquean los canales de sodio dependientes de voltaje DESDE DENTRO del axón, impidiendo la propagación del potencial de acción. Para llegar a su diana deben atravesar la membrana en su forma NO IONIZADA (liposoluble) y actuar después en su forma ionizada: de ahí un hecho clínico decisivo, en el TEJIDO INFECTADO el pH ácido ioniza el fármaco, impide su entrada y el bloqueo FALLA, que es la razón por la que anestesiar un absceso resulta tan difícil. El bloqueo es uso-dependiente y sigue un orden por tipo de fibra: primero las fibras pequeñas y amielínicas (dolor y temperatura), después el tacto y la propiedad y por último las fibras motoras gruesas. Ese gradiente permite la analgesia epidural del parto sin bloqueo motor. La toxicidad sistémica sigue el mismo orden en el sistema nervioso: primero se bloquean las neuronas inhibidoras (de ahí las convulsiones) y después las excitadoras (coma y parada respiratoria).",
     "espectro": null,
@@ -255,6 +256,7 @@
     ],
     "embarazo_lactancia": "De uso rutinario en obstetricia: la analgesia epidural del parto y la anestesia intradural de la cesárea son sus indicaciones más frecuentes. La embarazada es MÁS sensible a la toxicidad (mayor gasto cardiaco, menor unión a proteínas), por lo que las dosis se reducen. Compatibles con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 26; guías ASRA sobre toxicidad sistémica por anestésicos locales"
+    "fuente": "Katzung 15.ª ed., cap. 26; guías ASRA sobre toxicidad sistémica por anestésicos locales",
+    "vision_clase": true
   }
 ]

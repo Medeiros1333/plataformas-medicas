@@ -5,7 +5,7 @@
     "sinonimos": [],
     "area": "ANE",
     "nivel": 2,
-    "clase": "Sedante",
+    "clase": "Hipnótico y sedante intravenoso",
     "subclase": "Agonista alfa-2 adrenérgico selectivo",
     "mecanismo": "Es un agonista muy selectivo del receptor ALFA-2 adrenérgico (unas ocho veces más selectivo que la clonidina). Actúa en el LOCUS COERULEUS, el núcleo pontino que regula el despertar, reduciendo la liberación de noradrenalina. El resultado es una sedación que reproduce las vías del SUEÑO NO REM FISIOLÓGICO, y de ahí su rasgo distintivo: el paciente parece dormido pero se DESPIERTA con facilidad al hablarle, colabora y vuelve a dormirse, sin depresión respiratoria significativa. Ningún otro sedante consigue esto. Además tiene efecto analgésico propio a nivel medular y simpaticolítico, lo que reduce el consumo de opioides. El precio de ese mecanismo son sus dos efectos cardiovasculares característicos: BRADICARDIA e HIPOTENSIÓN por reducción del tono simpático central, y una HIPERTENSIÓN transitoria si se administra un bolo rápido, por estimulación de los receptores alfa-2 postsinápticos del músculo liso vascular antes de que actúe el efecto central.",
     "espectro": null,
@@ -118,6 +118,11 @@
     ],
     "embarazo_lactancia": "Datos limitados; se usa cuando el beneficio lo justifica. Atraviesa la placenta. Se considera compatible con la lactancia por su vida media corta y su baja biodisponibilidad oral en el lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 9; guías PADIS sobre dolor, agitación y delirium en el paciente crítico"
+    "fuente": "Katzung 15.ª ed., cap. 9; guías PADIS sobre dolor, agitación y delirium en el paciente crítico",
+    "vs_clase": [
+      "**Sedación «despertable» SIN depresión respiratoria** (agonista alfa-2): el paciente coopera y puede extubarse con ella.",
+      "**Menos delirium** que las benzodiacepinas en UCI; útil en abstinencia alcohólica como coadyuvante.",
+      "**Bradicardia e hipotensión** (hipertensión transitoria con bolo); no produce amnesia ni anestesia profunda."
+    ]
   }
 ]

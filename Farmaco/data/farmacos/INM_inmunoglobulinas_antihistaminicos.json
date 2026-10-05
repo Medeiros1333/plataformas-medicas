@@ -8,7 +8,7 @@
     ],
     "area": "INM",
     "nivel": 2,
-    "clase": "Hemoderivado inmunomodulador",
+    "clase": "Inmunoglobulina",
     "subclase": "Inmunoglobulina G policlonal humana obtenida de plasma de miles de donantes",
     "mecanismo": "Tiene dos usos con mecanismos completamente distintos, y la dosis los separa. A dosis SUSTITUTIVA (400-600 mg/kg al mes) simplemente REPONE los anticuerpos que el paciente inmunodeficiente no fabrica: es terapia de reemplazo. A dosis INMUNOMODULADORA (2 g/kg por ciclo, es decir de tres a cinco veces más) actúa por mecanismos activos: SATURA el receptor Fc de los macrófagos del bazo (que es como frena la destrucción de plaquetas en la trombopenia inmune), induce el receptor inhibidor FcgammaRIIB, neutraliza autoanticuerpos mediante anticuerpos antiidiotipo, consume complemento activado y modula la red de citocinas. Que un mismo producto sirva para reponer y para inmunomodular según la dosis es una de las rarezas más útiles de la terapéutica.",
     "espectro": null,
@@ -122,7 +122,12 @@
     ],
     "embarazo_lactancia": "Seguras en el embarazo y de uso establecido en indicaciones como la trombopenia inmune gestacional y la profilaxis de la enfermedad hemolítica. Compatibles con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 55; guías de la AAAAI sobre uso de inmunoglobulinas; guías de la AHA sobre enfermedad de Kawasaki"
+    "fuente": "Katzung 15.ª ed., cap. 55; guías de la AAAAI sobre uso de inmunoglobulinas; guías de la AHA sobre enfermedad de Kawasaki",
+    "vs_clase": [
+      "**Inmunoglobulina POLIVALENTE a dosis altas (IGIV)**: inmunomoduladora (PTI, Guillain-Barré, Kawasaki, miastenia) y sustitutiva en las inmunodeficiencias.",
+      "**Kawasaki: 2 g/kg con AAS en los primeros 10 días** (previene aneurismas coronarios).",
+      "**Fracaso renal (con sacarosa), trombosis y meningitis aséptica**; anafilaxia en déficit de IgA con anticuerpos anti-IgA."
+    ]
   },
   {
     "id": "INM-antihistaminicos-h1",
@@ -132,7 +137,7 @@
     ],
     "area": "INM",
     "nivel": 1,
-    "clase": "Antialérgico",
+    "clase": "Visión de clase: antihistamínicos H1",
     "subclase": "Agonistas inversos del receptor H1 de la histamina",
     "mecanismo": "No son antagonistas simples sino AGONISTAS INVERSOS: estabilizan el receptor H1 en su conformación inactiva y reducen su actividad basal. Al bloquear H1 impiden los efectos de la histamina liberada por el mastocito: vasodilatación, aumento de la permeabilidad capilar (habón y edema), estimulación de las terminaciones nerviosas sensitivas (PRURITO y estornudo) y contracción del músculo liso. La división en generaciones es puramente farmacocinética y lo explica todo: los de PRIMERA generación son lipófilos, atraviesan la barrera hematoencefálica y bloquean además receptores muscarínicos, alfa-adrenérgicos y serotoninérgicos, de donde salen la sedación y los efectos anticolinérgicos; los de SEGUNDA generación son más hidrófilos y además sustrato de la glicoproteína P, que los expulsa activamente del cerebro, por lo que no sedan ni tienen efectos anticolinérgicos relevantes.",
     "espectro": null,
@@ -250,6 +255,7 @@
     ],
     "embarazo_lactancia": "La LORATADINA y la CETIRIZINA son las opciones con más experiencia acumulada y se consideran seguras en el embarazo; la dexclorfeniramina también tiene un historial prolongado. Compatibles con la lactancia, prefiriendo los de segunda generación para evitar la sedación del lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 16; guías EAACI/GA2LEN sobre urticaria y ARIA sobre rinitis alérgica"
+    "fuente": "Katzung 15.ª ed., cap. 16; guías EAACI/GA2LEN sobre urticaria y ARIA sobre rinitis alérgica",
+    "vision_clase": true
   }
 ]

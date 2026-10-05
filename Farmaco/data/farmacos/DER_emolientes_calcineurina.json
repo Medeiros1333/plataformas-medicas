@@ -7,7 +7,7 @@
     ],
     "area": "DER",
     "nivel": 1,
-    "clase": "Restaurador de la barrera cutánea",
+    "clase": "Emoliente y restaurador de la barrera cutánea",
     "subclase": "Oclusivos, humectantes y queratolíticos suaves",
     "mecanismo": "No son cosmética: son el tratamiento de fondo de la dermatitis atópica, cuya alteración primaria es un DEFECTO DE BARRERA (con frecuencia por mutaciones de la FILAGRINA) que permite la pérdida de agua transepidérmica y la entrada de alérgenos e irritantes que desencadenan la inflamación. Los emolientes actúan por tres mecanismos complementarios: los OCLUSIVOS (vaselina, dimeticona, lanolina) forman una película hidrófoba que impide la evaporación; los HUMECTANTES (urea, glicerina, ácido hialurónico) captan agua y la retienen en el estrato córneo; y los reponedores de LÍPIDOS (ceramidas, colesterol, ácidos grasos) restituyen el cemento intercelular que falta. Al restaurar la barrera se rompe el círculo de sequedad, picor, rascado e inflamación, y por eso reducen de forma demostrada el número de brotes y la cantidad de corticoide necesaria.",
     "espectro": null,
@@ -109,7 +109,8 @@
     ],
     "embarazo_lactancia": "Totalmente seguros. Se evita el ácido salicílico en superficies extensas y se limpia la zona del pezón antes de la toma.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica"
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica",
+    "clase_unica": "Los emolientes son productos de cuidado de la barrera cutánea, no una familia farmacológica con principios activos diferenciados."
   },
   {
     "id": "DER-inhibidores-calcineurina-topicos",
@@ -117,7 +118,7 @@
     "sinonimos": [],
     "area": "DER",
     "nivel": 2,
-    "clase": "Inmunomodulador tópico",
+    "clase": "Visión de clase: inhibidores tópicos de la calcineurina",
     "subclase": "Inhibidores de la calcineurina de aplicación cutánea",
     "mecanismo": "Se unen a la inmunofilina FKBP-12 e inhiben la CALCINEURINA en el linfocito T cutáneo, bloqueando la transcripción de interleucina 2 y de otras citocinas inflamatorias, igual que hace el tacrolimus sistémico en el trasplante. La diferencia clave con los corticoides no está en la potencia antiinflamatoria sino en lo que NO hacen: no actúan sobre el fibroblasto ni sobre el queratinocito, y por tanto NO producen ATROFIA CUTÁNEA, ni estrías, ni telangiectasias, ni glaucoma. Esa ausencia de atrofia es toda su razón de ser y define su lugar terapéutico: las zonas donde el corticoide no puede usarse de forma prolongada, es decir, la CARA, los PÁRPADOS, los PLIEGUES y los genitales. Su tamaño molecular grande limita la absorción a través de la piel íntegra, lo que explica su escasa exposición sistémica incluso en aplicaciones extensas.",
     "espectro": null,
@@ -223,6 +224,7 @@
     "micro_relacionado": [
       "VIR-virus-herpes-simple"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica"
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica",
+    "vision_clase": true
   }
 ]

@@ -7,7 +7,7 @@
     ],
     "area": "NML",
     "nivel": 2,
-    "clase": "Inmunomodulador biológico",
+    "clase": "Visión de clase: biológicos del asma grave",
     "subclase": "Anticuerpos monoclonales frente a mediadores de la inflamación tipo 2",
     "mecanismo": "Bloquean puntos distintos de la misma cascada, la inflamación TIPO 2, y el punto elegido determina qué paciente responde. El OMALIZUMAB se une a la IgE libre e impide su unión al receptor de alta afinidad del mastocito y del basófilo, evitando la desgranulación: es el fármaco del asma ALÉRGICA con sensibilización demostrada. El MEPOLIZUMAB neutraliza la INTERLEUCINA 5, la citocina que recluta, madura y mantiene vivo al eosinófilo; el BENRALIZUMAB va un paso más allá y se une al receptor de IL-5 induciendo la destrucción del eosinófilo por citotoxicidad celular, con lo que lo elimina casi por completo de la sangre. El DUPILUMAB bloquea la subunidad alfa del receptor de IL-4, común a la IL-4 y a la IL-13, y por tanto apaga la vía tipo 2 más arriba: de ahí que sirva además en dermatitis atópica, poliposis nasal y esofagitis eosinofílica. La consecuencia práctica de todo esto es que la elección del biológico no depende de la gravedad del asma sino del BIOMARCADOR: IgE y sensibilización, eosinófilos en sangre y óxido nítrico exhalado.",
     "espectro": null,
@@ -113,7 +113,8 @@
     ],
     "embarazo_lactancia": "El OMALIZUMAB es el que tiene más experiencia acumulada en el embarazo, con un registro específico y sin señales de alarma; se puede mantener si el asma lo justifica. Con los demás los datos son limitados. Un asma mal controlada perjudica al feto más que el fármaco. Como IgG, atraviesan la placenta en el tercer trimestre.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 20; guías GINA y GEMA sobre asma grave"
+    "fuente": "Katzung 15.ª ed., cap. 20; guías GINA y GEMA sobre asma grave",
+    "vision_clase": true
   },
   {
     "id": "NML-oxigenoterapia",
@@ -123,7 +124,7 @@
     ],
     "area": "NML",
     "nivel": 1,
-    "clase": "Gas medicinal",
+    "clase": "Gas medicinal (oxígeno)",
     "subclase": "Tratamiento de la hipoxemia",
     "mecanismo": "Aumenta la fracción inspirada de oxígeno para elevar la presión arterial de oxígeno y, con ella, el contenido arterial de oxígeno y su aporte a los tejidos. Es un FÁRMACO, con dosis, indicaciones, objetivos y toxicidad, y tratarlo como una medida de confort es la fuente de casi todos los problemas. Dos mecanismos explican su cara tóxica. El primero es la HIPERCAPNIA en el paciente con EPOC retenedor: la teoría clásica del impulso hipóxico es solo una parte, y hoy se sabe que pesa más la pérdida de la VASOCONSTRICCIÓN PULMONAR HIPÓXICA, que redistribuye el flujo hacia alvéolos mal ventilados y empeora el desequilibrio ventilación-perfusión, junto con el efecto Haldane. El segundo es la toxicidad por RADICALES LIBRES con fracciones inspiradas altas y mantenidas, que produce atelectasias por reabsorción y daño alveolar. De ahí que la hiperoxia no sea inocua: en el infarto, en el ictus y en la parada recuperada se ha asociado a peores resultados.",
     "espectro": null,
@@ -244,6 +245,12 @@
     ],
     "embarazo_lactancia": "Seguro y de uso habitual. En la gestante los objetivos de saturación son algo más altos, ya que la curva de disociación fetal y la reserva de oxígeno son menos tolerantes a la hipoxemia materna.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 58; guías de la British Thoracic Society sobre uso de oxígeno en el adulto"
+    "fuente": "Katzung 15.ª ed., cap. 58; guías de la British Thoracic Society sobre uso de oxígeno en el adulto",
+    "clase_unica": "El oxígeno es el único gas medicinal de uso habitual fuera de quirófano y UCI; no tiene alternativas de su clase.",
+    "vs_clase": [
+      "**Fármaco con DOSIS (FiO2 o L/min) y OBJETIVO**: SpO2 94-98% en general y **88-92% en hipercápnicos** (EPOC).",
+      "**Oxigenoterapia crónica domiciliaria ≥16 h/día** si PaO2 ≤55 mmHg (o ≤60 con cor pulmonale o poliglobulia): única medida que aumenta la supervivencia en EPOC.",
+      "**Riesgo de narcosis hipercápnica** en EPOC y de **incendio** en fumadores."
+    ]
   }
 ]

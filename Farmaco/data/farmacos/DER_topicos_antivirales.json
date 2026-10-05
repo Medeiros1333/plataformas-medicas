@@ -7,7 +7,7 @@
     ],
     "area": "DER",
     "nivel": 2,
-    "clase": "Inmunomodulador tópico antiviral y antitumoral",
+    "clase": "Inmunomodulador tópico",
     "subclase": "Agonista de los receptores tipo Toll 7 y 8",
     "mecanismo": "No tiene actividad antivírica ni citotóxica DIRECTA: actúa activando los receptores TLR7 y TLR8 de las células dendríticas y de los monocitos de la piel, lo que desencadena la producción local de interferón alfa, factor de necrosis tumoral e interleucinas, y con ello una respuesta inmunitaria celular TH1 dirigida contra las células infectadas o displásicas. Es decir, no destruye la lesión: hace que el sistema inmunitario del propio paciente la reconozca y la elimine. De ahí que la INFLAMACIÓN local intensa no sea un efecto adverso indeseado sino la señal de que el fármaco está funcionando.",
     "espectro": "Lesiones por virus del papiloma humano (condilomas acuminados, genotipos 6 y 11), molusco contagioso, y lesiones cutáneas displásicas o neoplásicas: queratosis actínica y carcinoma basocelular superficial.",
@@ -111,6 +111,11 @@
     "micro_relacionado": [
       "VIR-virus-papiloma-humano"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de infecciones por papilomavirus"
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de infecciones por papilomavirus",
+    "vs_clase": [
+      "**Inmunomodulador INNATO (TLR7/8)**: induce interferón en la piel → **condilomas, queratosis actínicas y carcinoma basocelular superficial**.",
+      "**Reacción inflamatoria local intensa** (es el mecanismo, no un fracaso): pausar si es excesiva.",
+      "No se usa en dermatitis atópica (a diferencia de los anticalcineurínicos)."
+    ]
   }
 ]

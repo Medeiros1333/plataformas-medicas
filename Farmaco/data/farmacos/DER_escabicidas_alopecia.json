@@ -7,7 +7,7 @@
     ],
     "area": "DER",
     "nivel": 1,
-    "clase": "Antiparasitario externo",
+    "clase": "Visión de clase: escabicidas y pediculicidas",
     "subclase": "Piretroide tópico y lactona macrocíclica oral",
     "mecanismo": "La PERMETRINA es un piretroide sintético que actúa sobre los canales de SODIO del artrópodo, manteniéndolos abiertos y produciendo despolarización mantenida, parálisis y muerte del ácaro y del piojo. Su selectividad es excelente porque los mamíferos metabolizan rápidamente los piretroides por esterasas cutáneas y hepáticas y sus canales de sodio son mucho menos sensibles. La IVERMECTINA actúa sobre los canales de CLORO dependientes de glutamato, exclusivos de invertebrados, hiperpolarizando la célula y produciendo parálisis flácida; no atraviesa la barrera hematoencefálica del mamífero adulto porque la glicoproteína P la expulsa, y esa es la razón de su seguridad. Un dato que ordena todo el manejo de la sarna: el PRURITO no lo produce el ácaro directamente sino una reacción de HIPERSENSIBILIDAD retardada a sus antígenos, y por eso persiste SEMANAS después de que el parásito haya muerto.",
     "espectro": "Sarcoptes scabiei, Pediculus humanus capitis y corporis, Phthirus pubis. La ivermectina cubre además Strongyloides, oncocercosis y Demodex.",
@@ -118,7 +118,8 @@
     ],
     "embarazo_lactancia": "La PERMETRINA tópica es el tratamiento de ELECCIÓN en la embarazada y en la lactante por su absorción mínima. La IVERMECTINA oral se evita en el embarazo por datos limitados; en la lactancia se considera aceptable. Limpiar el pezón antes de la toma.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 53 y 61; guías de la OMS y de la AEDV sobre escabiosis"
+    "fuente": "Katzung 15.ª ed., caps. 53 y 61; guías de la OMS y de la AEDV sobre escabiosis",
+    "vision_clase": true
   },
   {
     "id": "DER-minoxidil-finasterida",
@@ -126,7 +127,7 @@
     "sinonimos": [],
     "area": "DER",
     "nivel": 2,
-    "clase": "Tratamiento de la alopecia",
+    "clase": "Visión de clase: alopecia androgénica",
     "subclase": "Vasodilatador abridor de canales de potasio e inhibidor de la 5-alfa-reductasa",
     "mecanismo": "El MINOXIDIL es un abridor de los canales de POTASIO dependientes de ATP: fue desarrollado como antihipertensivo y su efecto sobre el pelo se descubrió como reacción adversa. En el folículo prolonga la fase ANÁGENA (de crecimiento), acorta la telógena y aumenta el tamaño del folículo miniaturizado, probablemente por vasodilatación local y por estimulación directa de la papila dérmica; requiere ser sulfatado por la enzima folicular SULFOTRANSFERASA para activarse, y la variabilidad de esa enzima explica por qué hay respondedores y no respondedores. La FINASTERIDA inhibe la 5-ALFA-REDUCTASA tipo 2, bloqueando la conversión de testosterona en DIHIDROTESTOSTERONA, que es la hormona responsable de la miniaturización folicular en la alopecia androgénica; reduce la dihidrotestosterona sérica en torno a un 70% sin bajar la testosterona, que incluso sube ligeramente.",
     "espectro": null,
@@ -232,6 +233,7 @@
     ],
     "embarazo_lactancia": "La FINASTERIDA está CONTRAINDICADA en la mujer en edad fértil por teratogenia sobre el feto varón, y las embarazadas no deben manipular los comprimidos. El MINOXIDIL tópico se desaconseja en el embarazo y la lactancia por datos limitados y por su absorción sistémica, aunque baja.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 11 y 40; guías de la AEDV sobre alopecia androgénica"
+    "fuente": "Katzung 15.ª ed., caps. 11 y 40; guías de la AEDV sobre alopecia androgénica",
+    "vision_clase": true
   }
 ]

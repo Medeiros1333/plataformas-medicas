@@ -7,7 +7,7 @@
     ],
     "area": "URG",
     "nivel": 2,
-    "clase": "Antídoto inmunológico (fragmentos Fab)",
+    "clase": "Antídoto farmacológico (receptor o mecanismo)",
     "subclase": "Fragmentos Fab de inmunoglobulina ovina específicos frente a la digoxina",
     "mecanismo": "Son fragmentos Fab (la porción de unión al antígeno de un anticuerpo, sin la porción Fc) obtenidos de oveja inmunizada, con una afinidad por la DIGOXINA muy superior a la del receptor de la bomba sodio-potasio ATPasa. Al administrarlos, secuestran la digoxina LIBRE del plasma, y ese descenso brusco crea un gradiente que extrae la digoxina desde el tejido, incluido el miocardio, hacia el compartimento vascular: el complejo Fab-digoxina, inactivo, se elimina después por la orina. La consecuencia es doble y explica todo el manejo posterior. La primera es terapéutica: la bomba sodio-potasio se libera, el potasio vuelve a entrar en la célula y la HIPERPOTASEMIA de la intoxicación aguda se corrige sola en horas. La segunda es analítica: la digoxinemia MEDIDA se dispara, porque los métodos habituales cuantifican la digoxina total (libre más unida al Fab), de modo que un nivel altísimo tras el antídoto NO significa fracaso sino todo lo contrario.",
     "espectro": null,
@@ -118,6 +118,11 @@
     ],
     "embarazo_lactancia": "Se emplea sin restricción ante una intoxicación digitálica con riesgo vital para la madre, y se ha usado con éxito en la gestante. Los datos son escasos pero la alternativa es una arritmia potencialmente mortal.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 13 y 58; protocolos de toxicología clínica sobre intoxicación digitálica"
+    "fuente": "Katzung 15.ª ed., caps. 13 y 58; protocolos de toxicología clínica sobre intoxicación digitálica",
+    "vs_clase": [
+      "**Antídoto ESPECÍFICO de la DIGOXINA** (fragmentos Fab): revierte arritmias e hiperpotasemia en 30-60 min.",
+      "**Indicado en arritmias graves, K >5-6 o ingesta masiva**; dosis según digoxinemia o cantidad ingerida.",
+      "**Tras darlo, la digoxinemia medida no es valorable** (mide el complejo); riesgo de hipopotasemia y de descompensar la IC o la FA."
+    ]
   }
 ]

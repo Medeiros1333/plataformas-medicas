@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ANE-etomidato",
+    "nombre": "Etomidato",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Hipnótico y sedante intravenoso",
+    "subclase": "Hipnótico imidazólico de máxima estabilidad hemodinámica",
+    "vs_clase": [
+      "**El hipnótico con MENOR repercusión HEMODINÁMICA**: de elección en la intubación del paciente **inestable** (shock, cardiopatía grave).",
+      "**Inhibe la 11-beta-hidroxilasa suprarrenal**: supresión de cortisol durante 24-48 h tras una sola dosis (debate en sepsis).",
+      "**Sin efecto analgésico**; mioclonías y dolor a la inyección."
+    ],
+    "mecanismo": "Modulador positivo del receptor GABA-A.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Inducción para intubación de secuencia rápida en paciente hemodinámicamente inestable", "dosis": "0,2-0,3 mg/kg", "posologia": "Bolo único", "via": "IV", "nota": "Con bloqueante neuromuscular" }
+    ],
+    "esquema": { "inicio": "Bolo en 30-60 s.", "titulacion": "—", "duracion": "Dosis única (no en perfusión).", "fin": "Efecto 3-5 min.", "via": "IV.", "monitorizacion": "PA, SpO2, ECG." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Redistribución rápida.", "metabolismo": "Esterasas hepáticas y plasmáticas.", "eliminacion": "Renal.", "vida_media": "2-5 h (efecto 3-5 min).", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Opioides, benzodiacepinas", "efecto": "Potencian la hipnosis", "gravedad": "media", "manejo": "Reducir dosis" } ] },
+    "efectos_adversos": { "frecuentes": ["Mioclonías", "Dolor a la inyección", "Náuseas y vómitos posoperatorios"], "graves": ["**Supresión suprarrenal**", "Laringoespasmo (raro)"] },
+    "contraindicaciones": ["Perfusión continua", "Insuficiencia suprarrenal conocida (relativa)"],
+    "perlas": ["Shock + necesidad de intubar: etomidato o ketamina; el propofol hunde la PA."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 25"
+  },
+  {
+    "id": "ANE-lidocaina",
+    "nombre": "Lidocaína",
+    "sinonimos": ["Lidocaína con adrenalina", "Parche de lidocaína 5%"],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico local",
+    "subclase": "Amida de acción intermedia; también antiarrítmico IB",
+    "vs_clase": [
+      "**Inicio RÁPIDO y duración INTERMEDIA (1-2 h; 2-4 h con adrenalina)**: el anestésico de la infiltración, suturas y bloqueos cortos.",
+      "**También ANTIARRÍTMICO de clase IB** (taquicardia ventricular) y **tópico** (gel, parche 5% para neuralgia postherpética).",
+      "**Dosis máxima 4,5 mg/kg (7 mg/kg con adrenalina)**: toxicidad neurológica antes que cardiaca."
+    ],
+    "mecanismo": "Bloquea los canales de sodio dependientes de voltaje desde el interior del axón, impidiendo la conducción nerviosa.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Anestesia por infiltración y bloqueos nerviosos", "dosis": "1-2% (máx. 4,5 mg/kg; 7 mg/kg con adrenalina)", "posologia": "Dosis única", "via": "SC / perineural", "nota": "Con adrenalina prolonga el efecto (no en dedos, pene ni nariz tradicionalmente)" },
+      { "patologia": "Taquicardia ventricular / FV refractaria (alternativa a amiodarona)", "dosis": "1-1,5 mg/kg, después 1-4 mg/min", "posologia": "Bolo + perfusión", "via": "IV", "nota": "—" },
+      { "patologia": "Neuralgia postherpética localizada", "dosis": "1-3 parches al 5%", "posologia": "12 h puestos y 12 h de descanso", "via": "transdérmica", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Aspirar antes de inyectar.", "titulacion": "—", "duracion": "Dosis única.", "fin": "—", "via": "SC, perineural, IV, tópica.", "monitorizacion": "Síntomas de toxicidad (parestesias peribucales, acúfenos)." },
+    "farmacocinetica": { "absorcion": "Según vascularización de la zona.", "distribucion": "Amplia.", "metabolismo": "**Hepático (CYP1A2/3A4).**", "eliminacion": "Renal.", "vida_media": "1,5-2 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Reducir (IV).", "interacciones": [ { "con": "Betabloqueantes, amiodarona, cimetidina", "efecto": "Aumentan sus niveles (IV)", "gravedad": "media", "manejo": "Reducir perfusión" } ] },
+    "efectos_adversos": { "frecuentes": ["Dolor a la infiltración (tamponar con bicarbonato)"], "graves": ["**Toxicidad sistémica (LAST)**: parestesias, convulsiones, arritmias", "Metahemoglobinemia (prilocaína/benzocaína más)"] },
+    "contraindicaciones": ["Alergia a amidas (muy rara)", "Bloqueo AV avanzado (uso IV)"],
+    "perlas": ["Intoxicación por anestésicos locales: emulsión lipídica al 20% IV."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 14 y 26"
+  },
+  {
+    "id": "ANE-bupivacaina",
+    "nombre": "Bupivacaína",
+    "sinonimos": ["Levobupivacaína"],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico local",
+    "subclase": "Amida de acción larga y alta potencia",
+    "vs_clase": [
+      "**Acción LARGA (4-8 h)**: anestesia **intradural (raquídea)**, epidural y bloqueos prolongados.",
+      "**El anestésico local más CARDIOTÓXICO** (bloqueo de sodio de disociación lenta): arritmias y parada difíciles de revertir; **nunca IV ni en bloqueo de Bier**.",
+      "**Bloqueo diferencial** a concentraciones bajas (analgesia epidural del parto)."
+    ],
+    "mecanismo": "Bloqueo de canales de sodio con alta liposolubilidad y unión prolongada.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Anestesia intradural", "dosis": "7,5-15 mg (hiperbara 0,5%)", "posologia": "Dosis única", "via": "intratecal", "nota": "—" },
+      { "patologia": "Analgesia epidural del parto", "dosis": "0,0625-0,125% con fentanilo", "posologia": "Perfusión o bolos", "via": "epidural", "nota": "Máx. 2 mg/kg" }
+    ],
+    "esquema": { "inicio": "Dosis de prueba en epidural.", "titulacion": "—", "duracion": "Según procedimiento.", "fin": "—", "via": "Intratecal, epidural, perineural.", "monitorizacion": "ECG, PA, signos neurológicos." },
+    "farmacocinetica": { "absorcion": "Según zona.", "distribucion": "Muy liposoluble.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "2,7 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Otros anestésicos locales", "efecto": "Toxicidad aditiva", "gravedad": "alta", "manejo": "Sumar dosis" } ] },
+    "efectos_adversos": { "frecuentes": ["Hipotensión (bloqueo simpático neuroaxial)"], "graves": ["**Cardiotoxicidad grave** (FV, asistolia)", "Convulsiones", "Bloqueo espinal total"] },
+    "contraindicaciones": ["Vía IV", "Anestesia regional IV (bloqueo de Bier)"],
+    "perlas": ["Parada por bupivacaína: RCP prolongada + emulsión lipídica 1,5 mL/kg."],
+    "embarazo_lactancia": "Uso habitual en obstetricia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 26"
+  },
+  {
+    "id": "ANE-ropivacaina",
+    "nombre": "Ropivacaína",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Anestésico local",
+    "subclase": "Amida de acción larga, enantiómero S puro",
+    "vs_clase": [
+      "**Duración larga como la bupivacaína pero MENOS CARDIOTÓXICA** (enantiómero S).",
+      "**Mayor bloqueo SENSITIVO que motor**: ideal para analgesia posoperatoria y del parto con deambulación.",
+      "Algo menos potente."
+    ],
+    "mecanismo": "Bloqueo de canales de sodio con selectividad relativa por fibras sensitivas.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Bloqueos periféricos y analgesia epidural posoperatoria", "dosis": "0,2-0,75% (máx. 3 mg/kg)", "posologia": "Bolo o perfusión 6-14 mL/h al 0,2%", "via": "epidural / perineural", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Dosis de prueba.", "titulacion": "—", "duracion": "Según procedimiento.", "fin": "—", "via": "Epidural, perineural.", "monitorizacion": "Bloqueo motor, PA." },
+    "farmacocinetica": { "absorcion": "Según zona.", "distribucion": "—", "metabolismo": "CYP1A2.", "eliminacion": "Renal.", "vida_media": "1,8 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Fluvoxamina (CYP1A2)", "efecto": "Aumento de niveles", "gravedad": "media", "manejo": "Evitar perfusiones prolongadas" } ] },
+    "efectos_adversos": { "frecuentes": ["Hipotensión", "Náuseas"], "graves": ["Toxicidad sistémica (menor que bupivacaína)"] },
+    "contraindicaciones": ["Vía IV"],
+    "perlas": ["Bloqueo de nervio periférico de larga duración con el menor riesgo cardiaco."],
+    "embarazo_lactancia": "Uso habitual en obstetricia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 26"
+  },
+  {
+    "id": "ANE-rocuronio",
+    "nombre": "Rocuronio",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Bloqueante neuromuscular y su reversor",
+    "subclase": "No despolarizante aminoesteroideo de inicio rápido",
+    "vs_clase": [
+      "**No despolarizante de INICIO RÁPIDO (60 s a 1,2 mg/kg)**: alternativa a la succinilcolina en la intubación de secuencia rápida.",
+      "**Revertible de forma inmediata con SUGAMMADEX** (incluso en bloqueo profundo).",
+      "**Sin hiperpotasemia** (utilizable en quemados, inmovilizados, neuromusculares)."
+    ],
+    "mecanismo": "Antagonista competitivo del receptor nicotínico de la placa motora.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Intubación de secuencia rápida", "dosis": "1-1,2 mg/kg", "posologia": "Bolo", "via": "IV", "nota": "Duración 45-70 min" },
+      { "patologia": "Relajación de mantenimiento", "dosis": "0,6 mg/kg; 0,1-0,2 mg/kg de mantenimiento", "posologia": "Bolos o perfusión", "via": "IV", "nota": "Monitorización TOF" }
+    ],
+    "esquema": { "inicio": "Tras hipnótico.", "titulacion": "Según TOF.", "duracion": "Según cirugía.", "fin": "Reversión con sugammadex o neostigmina.", "via": "IV.", "monitorizacion": "Tren de cuatro (TOF)." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Extracelular.", "metabolismo": "Mínimo.", "eliminacion": "**Biliar** y renal.", "vida_media": "1,2 h.", "ajuste_renal": "Prolongación leve.", "ajuste_hepatico": "Efecto prolongado.", "interacciones": [ { "con": "Aminoglucósidos, magnesio, halogenados", "efecto": "Potencian el bloqueo", "gravedad": "media", "manejo": "Monitorizar TOF" } ] },
+    "efectos_adversos": { "frecuentes": ["Dolor a la inyección"], "graves": ["**Anafilaxia** (causa frecuente de anafilaxia perioperatoria)", "Parálisis residual"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Siempre con sedación: un paciente relajado y despierto es una catástrofe."],
+    "embarazo_lactancia": "Uso en cesárea.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "ANE-succinilcolina",
+    "nombre": "Succinilcolina (suxametonio)",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Bloqueante neuromuscular y su reversor",
+    "subclase": "Despolarizante de acción ultracorta",
+    "vs_clase": [
+      "**El único DESPOLARIZANTE: inicio en 30-60 s y duración de 5-10 min** (vía aérea difícil prevista).",
+      "**HIPERPOTASEMIA grave** (sube 0,5 mEq/L; mucho más en quemados, inmovilizados, lesión medular, distrofias): contraindicada ahí.",
+      "**Desencadenante de HIPERTERMIA MALIGNA**; **apnea prolongada en déficit de pseudocolinesterasa**; fasciculaciones y bradicardia."
+    ],
+    "mecanismo": "Agonista nicotínico que despolariza la placa de forma mantenida (bloqueo fase I) y la hace inexcitable.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Intubación de secuencia rápida", "dosis": "1-1,5 mg/kg", "posologia": "Bolo único", "via": "IV", "nota": "IM 3-4 mg/kg si no hay vía (laringoespasmo)" }
+    ],
+    "esquema": { "inicio": "Tras hipnótico.", "titulacion": "—", "duracion": "5-10 min.", "fin": "Recuperación espontánea.", "via": "IV, IM.", "monitorizacion": "ECG (K, bradicardia), temperatura y CO2 espirado." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "—", "metabolismo": "**Pseudocolinesterasa plasmática.**", "eliminacion": "—", "vida_media": "<1 min.", "ajuste_renal": "Precaución por K.", "ajuste_hepatico": "Efecto prolongado si baja colinesterasa.", "interacciones": [ { "con": "Inhibidores de colinesterasa (donepezilo, neostigmina, organofosforados)", "efecto": "Bloqueo muy prolongado", "gravedad": "media", "manejo": "Preferir rocuronio" } ] },
+    "efectos_adversos": { "frecuentes": ["Fasciculaciones, mialgias", "Bradicardia (niños, segunda dosis)"], "graves": ["**Hiperpotasemia y parada**", "**Hipertermia maligna**", "Apnea prolongada"] },
+    "contraindicaciones": ["Hiperpotasemia, quemados >24 h, inmovilización prolongada, lesión medular, miopatías", "Antecedente personal o familiar de hipertermia maligna"],
+    "perlas": ["Hipertermia maligna: dantroleno 2,5 mg/kg IV y retirar el halogenado."],
+    "embarazo_lactancia": "Uso en cesárea.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "ANE-cisatracurio",
+    "nombre": "Cisatracurio",
+    "sinonimos": ["Atracurio"],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Bloqueante neuromuscular y su reversor",
+    "subclase": "No despolarizante bencilisoquinolínico",
+    "vs_clase": [
+      "**Eliminación por DEGRADACIÓN DE HOFMANN** (espontánea, dependiente de pH y temperatura): **independiente del riñón y del hígado**.",
+      "**De elección en insuficiencia renal o hepática** y en perfusión en UCI (SDRA).",
+      "**No se revierte con sugammadex** (sí con neostigmina); casi sin liberación de histamina (a diferencia del atracurio)."
+    ],
+    "mecanismo": "Antagonista competitivo del receptor nicotínico.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Relajación neuromuscular en insuficiencia renal o hepática", "dosis": "0,15 mg/kg; mantenimiento 1-3 µg/kg/min", "posologia": "Bolo y perfusión", "via": "IV", "nota": "Inicio lento (3-5 min)" },
+      { "patologia": "SDRA moderado-grave en UCI", "dosis": "0,15 mg/kg bolo + 37,5 mg/h", "posologia": "Perfusión 48 h", "via": "IV", "nota": "Con sedación profunda" }
+    ],
+    "esquema": { "inicio": "Tras hipnótico.", "titulacion": "Según TOF.", "duracion": "Según indicación.", "fin": "Neostigmina + atropina/glicopirronio.", "via": "IV.", "monitorizacion": "TOF." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "—", "metabolismo": "**Hofmann.**", "eliminacion": "Laudanosina (renal).", "vida_media": "22-29 min.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Aminoglucósidos, magnesio", "efecto": "Potencian el bloqueo", "gravedad": "media", "manejo": "TOF" } ] },
+    "efectos_adversos": { "frecuentes": ["Bradicardia (rara)"], "graves": ["Miopatía del paciente crítico (con corticoides)", "Anafilaxia"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Renal y hepático a la vez: cisatracurio."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "ANE-sugammadex",
+    "nombre": "Sugammadex",
+    "sinonimos": ["Neostigmina (reversor clásico)"],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Bloqueante neuromuscular y su reversor",
+    "subclase": "Reversor encapsulador de aminoesteroides",
+    "vs_clase": [
+      "**ENCAPSULA rocuronio y vecuronio**: revierte incluso el bloqueo PROFUNDO en 2-3 min (situación «no intubable, no ventilable»).",
+      "**No revierte cisatracurio ni succinilcolina.**",
+      "**Reduce la eficacia de los ANTICONCEPTIVOS hormonales** (como olvidar una píldora): método barrera 7 días."
+    ],
+    "mecanismo": "Gamma-ciclodextrina modificada que forma un complejo 1:1 con el rocuronio plasmático.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Reversión del bloqueo por rocuronio", "dosis": "2 mg/kg (moderado), 4 mg/kg (profundo), 16 mg/kg (inmediato)", "posologia": "Bolo único", "via": "IV", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Según TOF.", "titulacion": "—", "duracion": "Dosis única.", "fin": "—", "via": "IV.", "monitorizacion": "TOF ≥0,9." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Extracelular.", "metabolismo": "No se metaboliza.", "eliminacion": "**Renal** (complejo).", "vida_media": "2 h.", "ajuste_renal": "No recomendado con FG <30.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Anticonceptivos hormonales (incluidos progestágenos)", "efecto": "Pérdida de eficacia", "gravedad": "media", "manejo": "Método adicional 7 días" }, { "con": "Toremifeno, ácido fusídico", "efecto": "Desplazan el rocuronio (recurarización)", "gravedad": "media", "manejo": "Vigilar" } ] },
+    "efectos_adversos": { "frecuentes": ["Disgeusia"], "graves": ["**Anafilaxia**", "Bradicardia grave"] },
+    "contraindicaciones": ["Hipersensibilidad", "FG <30 (relativa)"],
+    "perlas": ["Avisar a la mujer en edad fértil tras la anestesia sobre la interacción con su anticonceptivo."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "URG-azul-metileno",
+    "nombre": "Azul de metileno",
+    "sinonimos": ["Metiltioninio"],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
+    "subclase": "Reductor de la metahemoglobina",
+    "vs_clase": [
+      "**Antídoto de la METAHEMOGLOBINEMIA** adquirida (anestésicos locales tópicos, dapsona, nitritos, nitratos).",
+      "**INEFICAZ y peligroso en el déficit de G6PD** (hemólisis): ahí, ácido ascórbico o exanguinotransfusión.",
+      "**IMAO débil: síndrome SEROTONINÉRGICO** con ISRS; coloración azul de orina y piel."
+    ],
+    "mecanismo": "Cofactor de la NADPH-metahemoglobina reductasa: reduce la metahemoglobina (Fe3+) a hemoglobina (Fe2+).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Metahemoglobinemia sintomática o >20-30%", "dosis": "1-2 mg/kg", "posologia": "IV en 5 min; repetir a la hora si es necesario", "via": "IV", "nota": "Máx. 7 mg/kg" },
+      { "patologia": "Shock vasopléjico refractario (rescate)", "dosis": "1-2 mg/kg", "posologia": "Bolo y perfusión", "via": "IV", "nota": "Uso fuera de ficha" }
+    ],
+    "esquema": { "inicio": "Cooximetría.", "titulacion": "Repetir según metahemoglobina.", "duracion": "Dosis puntuales.", "fin": "—", "via": "IV.", "monitorizacion": "Metahemoglobina (la pulsioximetría falla), hemólisis." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "—", "metabolismo": "Reducción a azul de leucometileno.", "eliminacion": "Renal y biliar.", "vida_media": "5-6 h.", "ajuste_renal": "Precaución.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "ISRS, IRSN, clomipramina, linezolid", "efecto": "**Síndrome serotoninérgico**", "gravedad": "alta", "manejo": "Evitar o vigilar estrechamente" } ] },
+    "efectos_adversos": { "frecuentes": ["Orina azul-verdosa", "Interferencia con la pulsioximetría"], "graves": ["Hemólisis (G6PD)", "Síndrome serotoninérgico", "Metahemoglobinemia paradójica a dosis altas"] },
+    "contraindicaciones": ["Déficit de G6PD", "Metahemoglobinemia por cianuro (tratamiento con nitritos)"],
+    "perlas": ["SpO2 que se queda en ~85% sin respuesta al oxígeno y sangre «chocolate»: metahemoglobinemia."],
+    "embarazo_lactancia": "Usar si es vital.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58"
+  },
+  {
+    "id": "URG-pralidoxima",
+    "nombre": "Pralidoxima",
+    "sinonimos": ["Obidoxima"],
+    "area": "URG",
+    "nivel": 3,
+    "clase": "Antídoto farmacológico (receptor o mecanismo)",
+    "subclase": "Reactivador de la acetilcolinesterasa (oxima)",
+    "vs_clase": [
+      "**Reactiva la colinesterasa** inhibida por ORGANOFOSFORADOS (antes del «envejecimiento» del enlace): actúa sobre los efectos **NICOTÍNICOS** (debilidad muscular) que la atropina no corrige.",
+      "**Siempre junto a ATROPINA**; ineficaz en carbamatos (no necesaria).",
+      "Cuanto antes, mejor."
+    ],
+    "mecanismo": "Oxima que desplaza el grupo fosfato unido a la acetilcolinesterasa.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Intoxicación por organofosforados con síntomas nicotínicos", "dosis": "30 mg/kg en 30 min, después 8-10 mg/kg/h", "posologia": "Carga + perfusión", "via": "IV", "nota": "Con atropina hasta secar secreciones" }
+    ],
+    "esquema": { "inicio": "Tras atropina y descontaminación.", "titulacion": "—", "duracion": "24-48 h o hasta mejoría.", "fin": "—", "via": "IV.", "monitorizacion": "Fuerza, respiración, colinesterasa." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "No atraviesa bien la barrera.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "1-2 h.", "ajuste_renal": "Reducir.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Atropina", "efecto": "Sinergia deseada", "gravedad": "baja", "manejo": "Asociar siempre" } ] },
+    "efectos_adversos": { "frecuentes": ["Visión borrosa, mareo"], "graves": ["Debilidad y apnea con infusión rápida", "Hipertensión"] },
+    "contraindicaciones": ["Intoxicación por carbamatos (relativa)"],
+    "perlas": ["La atropina seca los bronquios; la pralidoxima devuelve la fuerza al diafragma."],
+    "embarazo_lactancia": "Usar si es vital.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 7 y 58"
+  }
+]

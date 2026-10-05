@@ -126,7 +126,12 @@
     ],
     "embarazo_lactancia": "ABSOLUTAMENTE CONTRAINDICADA en el embarazo: el riesgo de malformaciones graves supera el 30% en las gestaciones expuestas. Requiere anticoncepción eficaz desde un mes antes hasta un mes después del tratamiento y pruebas de embarazo mensuales. Contraindicada en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 61; programa de prevención de embarazos de la AEMPS para retinoides orales"
+    "fuente": "Katzung 15.ª ed., cap. 61; programa de prevención de embarazos de la AEMPS para retinoides orales",
+    "vs_clase": [
+      "**El único fármaco que actúa sobre los 4 factores del acné** (incluida la glándula sebácea): de elección en acné **grave, nodular o con cicatrices**.",
+      "**TERATÓGENO**: programa de prevención de embarazo, anticoncepción hasta **1 mes** tras suspender.",
+      "**Dosis acumulada 120-150 mg/kg** para reducir recaídas; sequedad mucocutánea, lípidos y transaminasas."
+    ]
   },
   {
     "id": "DER-tratamiento-topico-acne",
@@ -136,7 +141,7 @@
     ],
     "area": "DER",
     "nivel": 1,
-    "clase": "Antiacneico tópico",
+    "clase": "Visión de clase: tratamiento tópico del acné",
     "subclase": "Retinoides tópicos, agente oxidante y antibióticos tópicos",
     "mecanismo": "Los RETINOIDES TÓPICOS (tretinoína, adapaleno, tazaroteno) normalizan la queratinización del infundíbulo folicular, deshacen el MICROCOMEDÓN (que es la lesión primaria de la que nacen todas las demás) e impiden que se formen nuevos; tienen además efecto antiinflamatorio y estimulan la síntesis de colágeno dérmico, de donde procede su segundo uso como despigmentantes y antienvejecimiento. El PERÓXIDO DE BENZOILO libera radicales libres de oxígeno que matan a Cutibacterium acnes por un mecanismo oxidativo INESPECÍFICO, contra el que la bacteria NO puede desarrollar resistencia: esa es su gran virtud y la razón por la que se asocia siempre a los antibióticos tópicos, a los que protege de la aparición de resistencias. Los ANTIBIÓTICOS TÓPICOS (clindamicina, eritromicina) reducen la población bacteriana y la inflamación, pero NUNCA deben usarse solos, porque seleccionan resistencias con rapidez.",
     "espectro": "Cutibacterium acnes (peróxido de benzoilo y antibióticos tópicos).",
@@ -253,6 +258,7 @@
     ],
     "embarazo_lactancia": "El TAZAROTENO está contraindicado en el embarazo. La tretinoína y el adapaleno tópicos tienen absorción sistémica mínima y no se han asociado de forma consistente a malformaciones, pero se recomienda evitarlos por precaución y usar en su lugar peróxido de benzoilo, ácido azelaico o eritromicina tópica. Compatibles con la lactancia evitando la zona del pezón.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 61; guías de la AEDV y del Global Alliance sobre tratamiento del acné"
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la AEDV y del Global Alliance sobre tratamiento del acné",
+    "vision_clase": true
   }
 ]

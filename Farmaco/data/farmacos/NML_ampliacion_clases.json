@@ -1,0 +1,1103 @@
+[
+  {
+    "id": "NML-formoterol",
+    "nombre": "Formoterol",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Agonista beta-2 adrenérgico inhalado",
+    "subclase": "LABA de inicio RÁPIDO (12 h)",
+    "vs_clase": [
+      "**LABA de inicio RÁPIDO (1-3 min)**, como un SABA, pero con 12 h de duración: por eso es la base de la **estrategia MART** (con budesonida).",
+      "**Nunca en monoterapia en el asma** (siempre con corticoide inhalado).",
+      "Dosis máxima diaria 48-72 µg (por taquicardia e hipopotasemia)."
+    ],
+    "mecanismo": "Agonista beta-2 de acción prolongada con alta eficacia intrínseca y moderada lipofilia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC (monoterapia o con LAMA)",
+        "dosis": "12 µg",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "—"
+      },
+      {
+        "patologia": "Asma (siempre asociado a corticoide inhalado)",
+        "dosis": "4,5-12 µg",
+        "posologia": "Cada 12 h y a demanda en MART",
+        "via": "inhalada",
+        "nota": "En combinación con budesonida o beclometasona"
+      }
+    ],
+    "esquema": {
+      "inicio": "Técnica inhalatoria.",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Inhalada.",
+      "monitorizacion": "Control de síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Pulmonar; parte se deglute.",
+      "distribucion": "—",
+      "metabolismo": "Glucuronidación.",
+      "eliminacion": "Renal.",
+      "vida_media": "10 h (efecto 12 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar en asma"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Arritmias",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Temblor, palpitaciones",
+        "Calambres"
+      ],
+      "graves": [
+        "Hipopotasemia",
+        "Arritmias",
+        "Muerte asmática si se usa sin ICS"
+      ]
+    },
+    "contraindicaciones": [
+      "Monoterapia en asma"
+    ],
+    "perlas": [
+      "Su inicio rápido permite usarlo como rescate (en combinación con ICS)."
+    ],
+    "embarazo_lactancia": "Utilizable con ICS.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-salmeterol",
+    "nombre": "Salmeterol",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Agonista beta-2 adrenérgico inhalado",
+    "subclase": "LABA de inicio LENTO (12 h)",
+    "vs_clase": [
+      "**Inicio LENTO (15-30 min)**: **no sirve de rescate** ni para MART.",
+      "**Agonista PARCIAL muy lipófilo**: efecto de 12 h por anclaje en la membrana.",
+      "**Interacción con inhibidores potentes del CYP3A4** (ketoconazol, ritonavir): QT y taquicardia."
+    ],
+    "mecanismo": "Agonista beta-2 parcial con cadena lateral lipófila que lo ancla cerca del receptor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma (con ICS) y EPOC",
+        "dosis": "50 µg",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Habitualmente en combinación con fluticasona"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Inhalada.",
+      "monitorizacion": "Síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Pulmonar.",
+      "distribucion": "Lipófilo.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Fecal.",
+      "vida_media": "5,5 h (efecto 12 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, ritonavir, claritromicina",
+          "efecto": "Aumento de niveles: QT largo, taquicardia",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Temblor, cefalea",
+        "Palpitaciones"
+      ],
+      "graves": [
+        "Broncoespasmo paradójico",
+        "Muerte asmática en monoterapia (SMART)"
+      ]
+    },
+    "contraindicaciones": [
+      "Monoterapia en asma",
+      "Uso como rescate"
+    ],
+    "perlas": [
+      "El estudio SMART (salmeterol sin ICS) aumentó las muertes por asma: siempre con corticoide."
+    ],
+    "embarazo_lactancia": "Utilizable con ICS.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-indacaterol",
+    "nombre": "Indacaterol (y olodaterol)",
+    "sinonimos": [
+      "Olodaterol",
+      "Vilanterol"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Agonista beta-2 adrenérgico inhalado",
+    "subclase": "Ultra-LABA de 24 h",
+    "vs_clase": [
+      "**Acción de 24 h: una sola inhalación diaria** (ultra-LABA).",
+      "**Indicado en EPOC** (no en monoterapia en asma).",
+      "**Tos postinhalación** frecuente y transitoria."
+    ],
+    "mecanismo": "Agonista beta-2 de acción ultraprolongada con inicio rápido (5 min).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC (monoterapia o con LAMA: indacaterol/glicopirronio)",
+        "dosis": "150-300 µg",
+        "posologia": "Cada 24 h",
+        "via": "inhalada",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Técnica del Breezhaler.",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Inhalada.",
+      "monitorizacion": "Síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Pulmonar.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4, UGT1A1.",
+      "eliminacion": "Fecal.",
+      "vida_media": "40-56 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Antagonismo",
+          "gravedad": "media",
+          "manejo": "Preferir cardioselectivos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Tos tras la inhalación**",
+        "Nasofaringitis"
+      ],
+      "graves": [
+        "Arritmias en cardiópatas"
+      ]
+    },
+    "contraindicaciones": [
+      "Asma en monoterapia"
+    ],
+    "perlas": [
+      "Comodidad de una toma: mejora la adherencia en la EPOC."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-budesonida-inhalada",
+    "nombre": "Budesonida inhalada (y nebulizada)",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado",
+    "subclase": "ICS de potencia media con gran experiencia",
+    "vs_clase": [
+      "**El ICS con MÁS experiencia en el EMBARAZO y en niños**; disponible en **suspensión para nebulizar**.",
+      "**Primer paso hepático alto**: baja biodisponibilidad sistémica.",
+      "**Menos neumonías en la EPOC** que la fluticasona."
+    ],
+    "mecanismo": "Glucocorticoide tópico de alta afinidad que reduce la inflamación eosinofílica bronquial.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente (monoterapia de fondo en dosis baja)",
+        "dosis": "200-400 µg (dosis baja) a 800 µg/día",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Enjuagar la boca"
+      },
+      {
+        "patologia": "Crup (nebulizada)",
+        "dosis": "2 mg",
+        "posologia": "Dosis única",
+        "via": "nebulizada",
+        "nota": "Si no tolera VO"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja-media según escalón.",
+      "titulacion": "Cada 3 meses.",
+      "duracion": "Indefinida en asma persistente.",
+      "fin": "Desescalar en control.",
+      "via": "Inhalada, nebulizada.",
+      "monitorizacion": "Control, candidiasis, talla en niños."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral 10% (primer paso 90%).",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Más exposición en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat, itraconazol",
+          "efecto": "Cushing iatrogénico",
+          "gravedad": "alta",
+          "manejo": "Evitar (preferir beclometasona)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Candidiasis oral, disfonía"
+      ],
+      "graves": [
+        "Supresión suprarrenal a dosis altas",
+        "Reducción leve del crecimiento en niños"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "En la gestante asmática, el ICS de referencia es la budesonida."
+    ],
+    "embarazo_lactancia": "De elección.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-beclometasona",
+    "nombre": "Beclometasona dipropionato",
+    "sinonimos": [
+      "Beclometasona/formoterol",
+      "Beclometasona/formoterol/glicopirronio"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado",
+    "subclase": "ICS profármaco en partícula extrafina",
+    "vs_clase": [
+      "**Partícula EXTRAFINA** (cartucho presurizado): llega a la vía aérea pequeña con dosis menores.",
+      "**Profármaco activado en el pulmón** y **menos dependiente del CYP3A4**: ICS preferido con **ritonavir/cobicistat**.",
+      "Con formoterol permite **MART** (como budesonida/formoterol)."
+    ],
+    "mecanismo": "Profármaco hidrolizado por esterasas pulmonares a beclometasona-17-monopropionato (activo).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente y EPOC (combinación)",
+        "dosis": "100-200 µg (extrafina) hasta 800 µg/día",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Con formoterol: 100/6 µg 1-2 inhalaciones/12 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según escalón.",
+      "titulacion": "Cada 3 meses.",
+      "duracion": "Indefinida.",
+      "fin": "Desescalar.",
+      "via": "Inhalada.",
+      "monitorizacion": "Control, candidiasis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Pulmonar.",
+      "distribucion": "—",
+      "metabolismo": "Esterasas; CYP3A4 en menor grado.",
+      "eliminacion": "Fecal.",
+      "vida_media": "2,7 h (metabolito activo).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4",
+          "efecto": "Menor riesgo de Cushing que con fluticasona",
+          "gravedad": "baja",
+          "manejo": "Opción preferida"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Disfonía, candidiasis"
+      ],
+      "graves": [
+        "Supresión suprarrenal a dosis muy altas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Paciente VIH con ritonavir que necesita ICS: beclometasona."
+    ],
+    "embarazo_lactancia": "Utilizable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-fluticasona-inhalada",
+    "nombre": "Fluticasona propionato inhalada",
+    "sinonimos": [
+      "Fluticasona furoato"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado",
+    "subclase": "ICS de alta potencia",
+    "vs_clase": [
+      "**El ICS más POTENTE por microgramo** (100 µg ≈ 200 µg de budesonida).",
+      "**Más NEUMONÍAS en la EPOC** que la budesonida.",
+      "**Interacción grave con ritonavir/cobicistat** (Cushing, insuficiencia suprarrenal al retirar)."
+    ],
+    "mecanismo": "Glucocorticoide de muy alta afinidad y lipofilia con primer paso hepático casi completo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente",
+        "dosis": "100-250 µg (hasta 1.000 µg/día)",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Enjuague bucal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según escalón.",
+      "titulacion": "Cada 3 meses.",
+      "duracion": "Indefinida.",
+      "fin": "Desescalar.",
+      "via": "Inhalada.",
+      "monitorizacion": "Control, candidiasis, neumonías."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral <1%.",
+      "distribucion": "Retención pulmonar.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Fecal.",
+      "vida_media": "8 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat, itraconazol",
+          "efecto": "**Síndrome de Cushing iatrogénico**",
+          "gravedad": "alta",
+          "manejo": "Contraindicado: cambiar a beclometasona"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Candidiasis, disfonía"
+      ],
+      "graves": [
+        "Neumonía en EPOC",
+        "Supresión suprarrenal"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con ritonavir o cobicistat"
+    ],
+    "perlas": [
+      "A igualdad de control, usar la dosis mínima de ICS."
+    ],
+    "embarazo_lactancia": "Utilizable (se prefiere budesonida).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-roflumilast",
+    "nombre": "Roflumilast",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Antiinflamatorio oral de la vía aérea",
+    "subclase": "Inhibidor selectivo de la fosfodiesterasa 4",
+    "vs_clase": [
+      "**Solo EPOC**: reduce exacerbaciones en el fenotipo **bronquitis crónica con FEV1 <50%** y exacerbaciones pese a tratamiento inhalado.",
+      "**NO es broncodilatador.**",
+      "**Diarrea, náuseas, PÉRDIDA DE PESO e insomnio/depresión**: iniciar con 250 µg 4 semanas."
+    ],
+    "mecanismo": "Inhibe la PDE4 de las células inflamatorias, aumentando el AMPc y reduciendo la inflamación neutrofílica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC con bronquitis crónica y exacerbaciones frecuentes",
+        "dosis": "250 µg 4 semanas, después 500 µg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Añadido a broncodilatadores"
+      }
+    ],
+    "esquema": {
+      "inicio": "250 µg.",
+      "titulacion": "A las 4 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender si pérdida de peso importante o síntomas psiquiátricos.",
+      "via": "VO.",
+      "monitorizacion": "Peso, estado de ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "80%.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4 y CYP1A2 (N-óxido activo).",
+      "eliminacion": "Renal.",
+      "vida_media": "17 h (metabolito 30 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Rifampicina",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Teofilina",
+          "efecto": "Sin beneficio añadido",
+          "gravedad": "baja",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea, náuseas**",
+        "**Pérdida de peso**",
+        "Cefalea, insomnio"
+      ],
+      "graves": [
+        "Depresión e ideación suicida"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia hepática moderada-grave",
+      "Antecedente de depresión con ideación suicida"
+    ],
+    "perlas": [
+      "EPOC caquéctico: mala elección (adelgaza)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-teofilina",
+    "nombre": "Teofilina",
+    "sinonimos": [
+      "Aminofilina (IV)"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Antiinflamatorio oral de la vía aérea",
+    "subclase": "Metilxantina (broncodilatador débil)",
+    "vs_clase": [
+      "**Broncodilatador ORAL débil** con leve efecto antiinflamatorio: hoy tercera línea en EPOC y asma.",
+      "**MARGEN TERAPÉUTICO ESTRECHO** (5-15 mg/L): arritmias y convulsiones en la toxicidad.",
+      "**Interacciones masivas por CYP1A2**: ciprofloxacino, eritromicina, fluvoxamina la elevan; **el TABACO la reduce** (al dejar de fumar sube)."
+    ],
+    "mecanismo": "Inhibición inespecífica de fosfodiesterasas y antagonismo de la adenosina; estímulo del diafragma y del centro respiratorio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC o asma grave no controlados con inhalados",
+        "dosis": "200-300 mg (retard)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "dosis_objetivo": "Teofilinemia 5-15 mg/L"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja.",
+      "titulacion": "Según niveles a los 3-5 días.",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "VO (aminofilina IV en desuso).",
+      "monitorizacion": "**Niveles plasmáticos**, FC, ECG."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "—",
+      "metabolismo": "**CYP1A2 (cinética saturable).**",
+      "eliminacion": "Renal.",
+      "vida_media": "8 h (4 h en fumadores; más en IC y cirrosis).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "Ciprofloxacino, eritromicina, claritromicina, fluvoxamina, alopurinol",
+          "efecto": "**Toxicidad (convulsiones, arritmias)**",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis y medir niveles"
+        },
+        {
+          "con": "Dejar de fumar",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Rifampicina, fenitoína",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, insomnio, temblor",
+        "Taquicardia"
+      ],
+      "graves": [
+        "**Arritmias ventriculares**",
+        "**Convulsiones**",
+        "Hipopotasemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Arritmias no controladas",
+      "Epilepsia no controlada"
+    ],
+    "perlas": [
+      "Toxicidad por teofilina: carbón activado repetido y hemodiálisis si es grave."
+    ],
+    "embarazo_lactancia": "Usar si es necesario con niveles.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-carbocisteina",
+    "nombre": "Carbocisteína",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Mucolítico",
+    "subclase": "Mucorregulador",
+    "vs_clase": [
+      "**Mucorregulador con efecto ANTIOXIDANTE**: reduce las exacerbaciones de EPOC en algunos estudios (PEACE).",
+      "Útil en EPOC con hipersecreción crónica.",
+      "**Precaución con úlcera péptica.**"
+    ],
+    "mecanismo": "Modifica la síntesis de sialomucinas (moco menos viscoso) y tiene efecto antioxidante.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC con hipersecreción y exacerbaciones",
+        "dosis": "750 mg",
+        "posologia": "Cada 8 h (después cada 12 h)",
+        "via": "VO",
+        "nota": "Reevaluar a los 3-6 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "750 mg/8 h.",
+      "titulacion": "Reducir tras mejoría.",
+      "duracion": "Reevaluar.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Exacerbaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "Pulmón.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "1,5 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antitusígenos",
+          "efecto": "Retención de secreciones",
+          "gravedad": "baja",
+          "manejo": "Evitar asociación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas"
+      ],
+      "graves": [
+        "Hemorragia digestiva (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera péptica activa"
+    ],
+    "perlas": [
+      "No asociar a antitusígenos: impiden expulsar el moco que se fluidifica."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-ambroxol",
+    "nombre": "Ambroxol",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Mucolítico",
+    "subclase": "Secretolítico (metabolito de la bromhexina)",
+    "vs_clase": [
+      "**Estimula la producción de SURFACTANTE** y el aclaramiento mucociliar.",
+      "**Efecto anestésico local** (pastillas para el dolor de garganta).",
+      "**Reacciones cutáneas graves** (raras): suspender ante exantema."
+    ],
+    "mecanismo": "Aumenta la secreción serosa y de surfactante y despolimeriza las mucopolisacáridos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Bronquitis aguda o crónica con moco espeso",
+        "dosis": "30 mg",
+        "posologia": "Cada 8 h (2-3 días), después cada 12 h",
+        "via": "VO",
+        "nota": "Niños: según edad"
+      }
+    ],
+    "esquema": {
+      "inicio": "30 mg/8 h.",
+      "titulacion": "—",
+      "duracion": "Corta.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Pulmón.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "10 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Antibióticos (amoxicilina)",
+          "efecto": "Aumenta su concentración en el moco",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Alteración del gusto"
+      ],
+      "graves": [
+        "Stevens-Johnson / NET (raros)",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "La evidencia de beneficio clínico de los mucolíticos en procesos agudos es escasa."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-acetilcisteina-mucolitica",
+    "nombre": "N-acetilcisteína oral (uso mucolítico)",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Mucolítico",
+    "subclase": "Mucolítico tiólico y antioxidante",
+    "vs_clase": [
+      "**Rompe los puentes disulfuro del moco** y tiene **efecto antioxidante** (precursor del glutatión): a 600 mg/12 h reduce exacerbaciones de EPOC en algunos estudios.",
+      "**Misma molécula que el antídoto del paracetamol**, a dosis mucho menores.",
+      "**Nebulizada puede provocar BRONCOESPASMO** (asociar broncodilatador)."
+    ],
+    "mecanismo": "Grupo tiol libre que reduce los enlaces disulfuro de las mucoproteínas; aporta cisteína para la síntesis de glutatión.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC con hipersecreción y exacerbaciones",
+        "dosis": "600 mg",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Reevaluar a los 3-6 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "600 mg/24 h.",
+      "titulacion": "Hasta 600 mg/12 h.",
+      "duracion": "Reevaluar.",
+      "fin": "—",
+      "via": "VO (sobres, efervescentes).",
+      "monitorizacion": "Exacerbaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 10%.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "6 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Nitroglicerina",
+          "efecto": "Potencia la vasodilatación (hipotensión, cefalea)",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, olor sulfuroso"
+      ],
+      "graves": [
+        "Broncoespasmo (nebulizada)",
+        "Anafilactoide (IV, antídoto)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Su uso en la tos aguda con moco no tiene beneficio demostrado."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-omalizumab",
+    "nombre": "Omalizumab",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Biológico del asma grave",
+    "subclase": "Anticuerpo anti-IgE",
+    "vs_clase": [
+      "**Anti-IgE**: para el **asma ALÉRGICA grave** (sensibilización a aeroalérgeno perenne) con IgE 30-1.500 UI/mL.",
+      "**Dosis según peso e IgE total** (tabla).",
+      "**Indicado también en la URTICARIA crónica espontánea** (300 mg/4 semanas) y la poliposis nasal."
+    ],
+    "mecanismo": "Se une a la IgE libre e impide su unión al receptor FcεRI de mastocitos y basófilos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma alérgica grave no controlada",
+        "dosis": "75-600 mg (según peso e IgE)",
+        "posologia": "Cada 2-4 semanas",
+        "via": "SC",
+        "nota": "Reevaluar a las 16 semanas"
+      },
+      {
+        "patologia": "Urticaria crónica espontánea refractaria a antiH1",
+        "dosis": "300 mg",
+        "posologia": "Cada 4 semanas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Primeras dosis con observación (anafilaxia).",
+      "titulacion": "—",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Control del asma, exacerbaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC lenta.",
+      "distribucion": "—",
+      "metabolismo": "Catabolismo del complejo IgE.",
+      "eliminacion": "Hepática (SRE).",
+      "vida_media": "26 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción local, cefalea"
+      ],
+      "graves": [
+        "**Anafilaxia** (0,1-0,2%, incluso tardía)",
+        "Infecciones parasitarias (zonas endémicas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "La IgE total no sirve para monitorizar (sube por los complejos)."
+    ],
+    "embarazo_lactancia": "Datos favorables (registro EXPECT).",
+    "micro_relacionado": [],
+    "fuente": "GEMA 5.4; Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-mepolizumab",
+    "nombre": "Mepolizumab",
+    "sinonimos": [
+      "Reslizumab"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Biológico del asma grave",
+    "subclase": "Anticuerpo anti-IL-5",
+    "vs_clase": [
+      "**Anti-IL-5**: para el **asma grave EOSINOFÍLICA** (eosinófilos ≥150-300/µL).",
+      "**Dosis FIJA de 100 mg mensual**; indicado también en **granulomatosis eosinofílica con poliangeítis** (300 mg), síndrome hipereosinofílico y poliposis nasal.",
+      "Reduce exacerbaciones y permite retirar corticoides orales."
+    ],
+    "mecanismo": "Bloquea la IL-5, citocina clave en la maduración y supervivencia de los eosinófilos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma grave eosinofílica no controlada",
+        "dosis": "100 mg",
+        "posologia": "Cada 4 semanas",
+        "via": "SC",
+        "nota": "Reevaluar a las 16 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras optimizar tratamiento inhalado.",
+      "titulacion": "—",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Exacerbaciones, eosinófilos."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC 80%.",
+      "distribucion": "—",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "16-22 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, reacción local"
+      ],
+      "graves": [
+        "Herpes zóster",
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección helmíntica no tratada"
+    ],
+    "perlas": [
+      "Antes de un anti-IL-5, descartar y tratar parasitosis (estrongiloides)."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "GEMA 5.4"
+  },
+  {
+    "id": "NML-benralizumab",
+    "nombre": "Benralizumab",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Biológico del asma grave",
+    "subclase": "Anticuerpo anti-receptor de IL-5 (depleción eosinofílica)",
+    "vs_clase": [
+      "**DEPLECIONA los eosinófilos casi por completo** (citotoxicidad mediada por NK) en lugar de solo bloquear la IL-5.",
+      "**Pauta CADA 8 SEMANAS** tras 3 dosis iniciales cada 4.",
+      "Asma grave eosinofílica."
+    ],
+    "mecanismo": "Anticuerpo frente a la cadena alfa del receptor de IL-5 con afinidad aumentada por el FcγRIIIa: apoptosis de eosinófilos y basófilos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma grave eosinofílica no controlada",
+        "dosis": "30 mg",
+        "posologia": "Cada 4 semanas × 3, después cada 8 semanas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras optimizar inhalados.",
+      "titulacion": "—",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Exacerbaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC 58%.",
+      "distribucion": "—",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "15 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, faringitis"
+      ],
+      "graves": [
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección helmíntica no tratada"
+    ],
+    "perlas": [
+      "Comodidad: 6 inyecciones al año en mantenimiento."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "GEMA 5.4"
+  },
+  {
+    "id": "NML-dupilumab",
+    "nombre": "Dupilumab",
+    "sinonimos": [
+      "Tezepelumab (anti-TSLP)"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Biológico del asma grave",
+    "subclase": "Anticuerpo anti-receptor IL-4α (bloquea IL-4 e IL-13)",
+    "vs_clase": [
+      "**Bloquea IL-4 e IL-13**: eficaz en asma T2 con eosinófilos o **FeNO elevado** y en **asma corticodependiente**.",
+      "**Indicaciones múltiples**: **dermatitis atópica moderada-grave**, poliposis nasal, esofagitis eosinofílica, EPOC eosinofílica.",
+      "**CONJUNTIVITIS** y **eosinofilia transitoria** propias."
+    ],
+    "mecanismo": "Anticuerpo frente a la subunidad alfa del receptor de IL-4, compartida con el de IL-13.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma grave T2 / corticodependiente",
+        "dosis": "400-600 mg de carga, después 200-300 mg",
+        "posologia": "Cada 2 semanas",
+        "via": "SC",
+        "nota": "—"
+      },
+      {
+        "patologia": "Dermatitis atópica moderada-grave",
+        "dosis": "600 mg de carga, después 300 mg",
+        "posologia": "Cada 2 semanas",
+        "via": "SC",
+        "nota": "Con emolientes y corticoide tópico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga.",
+      "titulacion": "—",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Eosinófilos, conjuntivitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC 64%.",
+      "distribucion": "—",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "Proteólisis (mediada por diana).",
+      "vida_media": "No lineal.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Evitar",
+          "gravedad": "baja",
+          "manejo": "Vacunar antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Conjuntivitis**",
+        "Reacción local",
+        "Herpes oral"
+      ],
+      "graves": [
+        "**Eosinofilia** (rara: vasculitis eosinofílica)",
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección helmíntica no tratada"
+    ],
+    "perlas": [
+      "Asma grave + dermatitis atópica o poliposis: dupilumab trata las dos cosas."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "GEMA 5.4"
+  }
+]

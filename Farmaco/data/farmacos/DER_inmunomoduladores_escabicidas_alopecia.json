@@ -1,0 +1,249 @@
+[
+  {
+    "id": "DER-tacrolimus-topico",
+    "nombre": "Tacrolimus tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Inmunomodulador tópico",
+    "subclase": "Inhibidor tópico de la calcineurina (pomada)",
+    "vs_clase": [
+      "**Antiinflamatorio SIN ATROFIA**: de elección en dermatitis atópica de **cara, párpados y pliegues** y como **mantenimiento proactivo** (2 veces/semana).",
+      "**Más potente que el pimecrolimus** (0,1% adultos; 0,03% desde los 2 años).",
+      "**Escozor y sensación de calor** las primeras aplicaciones; fotoprotección."
+    ],
+    "mecanismo": "Inhibe la calcineurina de los linfocitos T cutáneos, bloqueando la producción de IL-2 y citocinas inflamatorias.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Dermatitis atópica moderada-grave (cara y pliegues) y mantenimiento", "dosis": "1 aplicación (0,03-0,1%)", "posologia": "Cada 12 h hasta control; después 2 veces por semana", "via": "tópica", "nota": "—" },
+      { "patologia": "Vitíligo facial, dermatitis seborreica rebelde (fuera de ficha)", "dosis": "1 aplicación (0,1%)", "posologia": "Cada 12 h", "via": "tópica", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Sobre piel seca.", "titulacion": "—", "duracion": "Brote y mantenimiento proactivo.", "fin": "—", "via": "Tópica.", "monitorizacion": "Infecciones cutáneas." },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "—", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Alcohol", "efecto": "Rubor facial", "gravedad": "baja", "manejo": "Avisar" } ] },
+    "efectos_adversos": { "frecuentes": ["**Escozor, quemazón** inicial", "Foliculitis"], "graves": ["Infecciones herpéticas (eccema herpético)"] },
+    "contraindicaciones": ["Infección cutánea activa", "Inmunodepresión", "<2 años"],
+    "perlas": ["Alternativa para ahorrar corticoide en la cara del atópico."],
+    "embarazo_lactancia": "Evitar uso extenso.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-pimecrolimus",
+    "nombre": "Pimecrolimus",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Inmunomodulador tópico",
+    "subclase": "Inhibidor tópico de la calcineurina (crema)",
+    "vs_clase": [
+      "**Menos potente que el tacrolimus**: para dermatitis atópica **LEVE-moderada**.",
+      "**Crema (mejor tolerada en zonas húmedas y en la cara)**; desde los 2 años.",
+      "Sin atrofia."
+    ],
+    "mecanismo": "Inhibidor de la calcineurina de los linfocitos T y mastocitos cutáneos.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Dermatitis atópica leve-moderada (cara, párpados)", "dosis": "1 aplicación (crema 1%)", "posologia": "Cada 12 h", "via": "tópica", "nota": "Al primer signo de brote" }
+    ],
+    "esquema": { "inicio": "—", "titulacion": "—", "duracion": "Brote.", "fin": "—", "via": "Tópica.", "monitorizacion": "—" },
+    "farmacocinetica": { "absorcion": "Mínima.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "—", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Escozor"], "graves": ["Infecciones cutáneas víricas"] },
+    "contraindicaciones": ["Infección cutánea activa", "<2 años"],
+    "perlas": ["Escozor menor que el tacrolimus: útil en párpados."],
+    "embarazo_lactancia": "Evitar uso extenso.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-permetrina-adulto",
+    "nombre": "Permetrina 5% crema",
+    "sinonimos": ["Permetrina 1% (pediculosis)"],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Escabicida y pediculicida",
+    "subclase": "Piretroide tópico",
+    "vs_clase": [
+      "**Escabicida de PRIMERA elección** (también en embarazo y desde los 2 meses): 2 aplicaciones separadas 7-14 días.",
+      "**Pediculicida al 1%** (resistencias crecientes de piojos).",
+      "Muy poco absorbida."
+    ],
+    "mecanismo": "Bloquea los canales de sodio de la membrana nerviosa del parásito (parálisis).",
+    "espectro": "Sarcoptes scabiei, Pediculus humanus capitis.",
+    "indicaciones": [
+      { "patologia": "Escabiosis", "dosis": "30 g (1 aplicación de cuello a pies)", "posologia": "Dejar 8-12 h; repetir a los 7-14 días", "via": "tópica", "nota": "Tratar convivientes a la vez" },
+      { "patologia": "Pediculosis capitis", "dosis": "1 aplicación (1%)", "posologia": "10 min y aclarar; repetir a los 7-10 días", "via": "tópica", "nota": "Lendrera" }
+    ],
+    "esquema": { "inicio": "Piel limpia y seca.", "titulacion": "—", "duracion": "2 aplicaciones.", "fin": "—", "via": "Tópica.", "monitorizacion": "Prurito residual (2-4 semanas)." },
+    "farmacocinetica": { "absorcion": "<2%.", "distribucion": "Local.", "metabolismo": "Ésteres hidrolizados.", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Prurito y escozor"], "graves": ["Dermatitis de contacto (rara)"] },
+    "contraindicaciones": ["Hipersensibilidad a piretroides"],
+    "perlas": ["El prurito persiste semanas tras la curación: no repetir tratamientos sin nuevas lesiones."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-benzoato-bencilo",
+    "nombre": "Benzoato de bencilo",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Escabicida y pediculicida",
+    "subclase": "Escabicida tópico clásico",
+    "vs_clase": [
+      "**Alternativa barata y eficaz a la permetrina** en la escabiosis.",
+      "**Muy IRRITANTE** (escozor intenso): diluir en niños; evitar en lactantes.",
+      "3 aplicaciones en 3 días consecutivos (pautas variables)."
+    ],
+    "mecanismo": "Neurotóxico para el ácaro.",
+    "espectro": "Sarcoptes scabiei.",
+    "indicaciones": [
+      { "patologia": "Escabiosis (alternativa)", "dosis": "1 aplicación (10-25%)", "posologia": "Cada 24 h 2-3 días; repetir a la semana", "via": "tópica", "nota": "Diluir al 12,5% en niños" }
+    ],
+    "esquema": { "inicio": "Tras ducha.", "titulacion": "—", "duracion": "2-3 días.", "fin": "—", "via": "Tópica.", "monitorizacion": "Irritación." },
+    "farmacocinetica": { "absorcion": "Escasa.", "distribucion": "Local.", "metabolismo": "Ácido hipúrico.", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["**Escozor intenso**, dermatitis irritativa"], "graves": ["Convulsiones en lactantes (ingesta o gran absorción)"] },
+    "contraindicaciones": ["Lactantes", "Piel erosionada extensa"],
+    "perlas": ["Evitar el contacto con ojos y mucosas."],
+    "embarazo_lactancia": "Usar con precaución.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-dimeticona",
+    "nombre": "Dimeticona (pediculicida)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Escabicida y pediculicida",
+    "subclase": "Pediculicida de acción física (silicona)",
+    "vs_clase": [
+      "**Mecanismo FÍSICO (asfixia del piojo): no genera resistencias** → primera línea en la pediculosis.",
+      "**No neurotóxico**: utilizable en niños pequeños y embarazadas.",
+      "**Inflamable** (no secar con secador ni acercar a llama)."
+    ],
+    "mecanismo": "Silicona que recubre el piojo, obstruye sus espiráculos y altera su balance hídrico.",
+    "espectro": "Pediculus humanus capitis.",
+    "indicaciones": [
+      { "patologia": "Pediculosis capitis", "dosis": "1 aplicación (4%) sobre el cabello seco", "posologia": "8 h (o según producto) y lavar; repetir a los 7 días", "via": "tópica", "nota": "Lendrera" }
+    ],
+    "esquema": { "inicio": "Cabello seco.", "titulacion": "—", "duracion": "2 aplicaciones.", "fin": "—", "via": "Tópica.", "monitorizacion": "Revisión con lendrera." },
+    "farmacocinetica": { "absorcion": "No se absorbe.", "distribucion": "Local.", "metabolismo": "—", "eliminacion": "—", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Irritación leve"], "graves": ["Riesgo de incendio"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Revisar a todos los convivientes y tratar solo a los que tengan piojos vivos."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-minoxidil",
+    "nombre": "Minoxidil tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Fármaco de la alopecia androgénica",
+    "subclase": "Vasodilatador abridor de canales de K (tópico)",
+    "vs_clase": [
+      "**Útil en VARONES Y MUJERES** (2% o 5%).",
+      "**Efecto mientras se usa**: al suspender se pierde lo ganado en 3-6 meses; **caída inicial transitoria** (efluvio).",
+      "**Hipertricosis facial** (sobre todo mujeres) y dermatitis por el propilenglicol (espuma sin él)."
+    ],
+    "mecanismo": "Prolonga la fase anágena y aumenta el tamaño del folículo (apertura de canales de potasio, efecto vascular).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Alopecia androgénica masculina y femenina", "dosis": "1 mL (solución 5%; 2% en mujeres) o espuma", "posologia": "Cada 12 h (espuma 5% cada 24 h en mujeres)", "via": "tópica", "nota": "Valorar a los 6 meses" }
+    ],
+    "esquema": { "inicio": "Avisar del efluvio inicial.", "titulacion": "—", "duracion": "**Indefinida.**", "fin": "Pérdida del efecto.", "via": "Tópica.", "monitorizacion": "Fotos a los 6-12 meses." },
+    "farmacocinetica": { "absorcion": "1-2%.", "distribucion": "Local.", "metabolismo": "Sulfotransferasa folicular (activación).", "eliminacion": "Renal.", "vida_media": "No relevante.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Antihipertensivos", "efecto": "Hipotensión (raro tópico)", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Prurito, descamación", "**Hipertricosis facial**"], "graves": ["Taquicardia, edemas (absorción sistémica, rara)"] },
+    "contraindicaciones": ["Embarazo y lactancia", "Cuero cabelludo irritado"],
+    "perlas": ["Sin respuesta a los 6 meses: valorar finasterida (varón) o minoxidil oral."],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-minoxidil-oral",
+    "nombre": "Minoxidil oral a dosis bajas",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Fármaco de la alopecia androgénica",
+    "subclase": "Vasodilatador oral a dosis bajas (uso fuera de ficha)",
+    "vs_clase": [
+      "**Dosis 10-50 veces menores que las antihipertensivas** (0,25-5 mg): más cómodo y a menudo **más eficaz** que el tópico.",
+      "**Efectos cardiovasculares**: taquicardia, edemas, hipotensión postural; **hipertricosis** frecuente.",
+      "Uso fuera de ficha técnica en alopecia; antiguamente antihipertensivo de rescate."
+    ],
+    "mecanismo": "Abridor de canales de K del músculo liso vascular; en el folículo prolonga la fase anágena.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Alopecia androgénica (masculina y femenina) y efluvio telógeno crónico", "dosis": "0,25-1 mg (mujeres) o 2,5-5 mg (varones)", "posologia": "Cada 24 h", "via": "VO", "nota": "Fuera de ficha" }
+    ],
+    "esquema": { "inicio": "PA y FC basales.", "titulacion": "Según respuesta y tolerancia.", "duracion": "Indefinida.", "fin": "Pérdida del efecto.", "via": "VO.", "monitorizacion": "PA, FC, edemas." },
+    "farmacocinetica": { "absorcion": "90%.", "distribucion": "—", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "4 h.", "ajuste_renal": "Precaución.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Antihipertensivos", "efecto": "Hipotensión", "gravedad": "media", "manejo": "Vigilar" } ] },
+    "efectos_adversos": { "frecuentes": ["**Hipertricosis**", "Edemas leves", "Taquicardia"], "graves": ["Derrame pericárdico (dosis altas)"] },
+    "contraindicaciones": ["Cardiopatía significativa", "Feocromocitoma", "Embarazo"],
+    "perlas": ["Mujer con alopecia que no tolera el tópico: minoxidil oral 0,25-1 mg."],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Revisiones dermatológicas recientes; Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "DER-finasterida",
+    "nombre": "Finasterida",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Fármaco de la alopecia androgénica",
+    "subclase": "Inhibidor de la 5-alfa-reductasa tipo 2",
+    "vs_clase": [
+      "**Antiandrógeno para la alopecia androgénica MASCULINA (1 mg)** y la **hiperplasia benigna de próstata (5 mg)**.",
+      "**Reduce el PSA un 50%** (multiplicar por 2 para interpretarlo).",
+      "**Teratógena (feto varón)**: las mujeres embarazadas no deben manipular comprimidos rotos; **disfunción sexual** y alerta por **depresión**."
+    ],
+    "mecanismo": "Inhibe la 5-alfa-reductasa tipo 2, reduciendo la conversión de testosterona en dihidrotestosterona (DHT).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Alopecia androgénica masculina", "dosis": "1 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Valorar a los 6-12 meses" },
+      { "patologia": "Hiperplasia benigna de próstata (próstata >40 mL)", "dosis": "5 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Reduce el tamaño prostático y la retención; efecto en 6 meses" }
+    ],
+    "esquema": { "inicio": "PSA basal en HBP.", "titulacion": "—", "duracion": "Indefinida.", "fin": "Pérdida del efecto.", "via": "VO.", "monitorizacion": "PSA (corregido), función sexual, ánimo." },
+    "farmacocinetica": { "absorcion": "65%.", "distribucion": "—", "metabolismo": "CYP3A4.", "eliminacion": "Biliar y renal.", "vida_media": "6 h (efecto prolongado).", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["**Disminución de la libido, disfunción eréctil**", "Ginecomastia"], "graves": ["Depresión e ideación suicida (alerta)", "Cáncer de próstata de alto grado (asociación)"] },
+    "contraindicaciones": ["Mujeres (sobre todo embarazadas)", "Niños"],
+    "perlas": ["Varón con finasterida y PSA 2: el valor real equivale a 4."],
+    "embarazo_lactancia": "Contraindicada en mujeres.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "DER-dutasterida",
+    "nombre": "Dutasterida",
+    "sinonimos": ["Dutasterida/tamsulosina"],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Fármaco de la alopecia androgénica",
+    "subclase": "Inhibidor de la 5-alfa-reductasa tipos 1 y 2",
+    "vs_clase": [
+      "**Inhibe AMBAS isoenzimas** (1 y 2): reduce la DHT >90% (finasterida ~70%).",
+      "**Indicada en la HBP** (combinada con tamsulosina); en alopecia, uso fuera de ficha en algunos países (más eficaz que finasterida).",
+      "**Vida media de 5 SEMANAS**: no donar sangre hasta 6 meses después."
+    ],
+    "mecanismo": "Inhibición dual de la 5-alfa-reductasa.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Hiperplasia benigna de próstata", "dosis": "0,5 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Con tamsulosina en combinación fija" },
+      { "patologia": "Alopecia androgénica masculina refractaria a finasterida (fuera de ficha)", "dosis": "0,5 mg", "posologia": "Cada 24 h (o mesoterapia)", "via": "VO", "nota": "—" }
+    ],
+    "esquema": { "inicio": "PSA basal.", "titulacion": "—", "duracion": "Indefinida.", "fin": "—", "via": "VO.", "monitorizacion": "PSA corregido, función sexual." },
+    "farmacocinetica": { "absorcion": "60%.", "distribucion": "—", "metabolismo": "CYP3A4.", "eliminacion": "Fecal.", "vida_media": "**5 semanas.**", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Inhibidores potentes del CYP3A4", "efecto": "Aumento de niveles", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Disfunción sexual", "Ginecomastia"], "graves": ["Depresión (alerta de clase)"] },
+    "contraindicaciones": ["Mujeres y niños", "Insuficiencia hepática grave"],
+    "perlas": ["Las mujeres embarazadas no deben manipular las cápsulas rotas (absorción cutánea)."],
+    "embarazo_lactancia": "Contraindicada en mujeres.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  }
+]

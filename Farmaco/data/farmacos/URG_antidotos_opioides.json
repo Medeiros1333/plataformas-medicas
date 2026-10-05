@@ -7,7 +7,7 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Antídoto: antagonista opioide puro",
+    "clase": "Antídoto farmacológico (receptor o mecanismo)",
     "subclase": "Antagonista competitivo de los receptores mu, kappa y delta",
     "mecanismo": "Antagonista COMPETITIVO puro, sin actividad agonista intrínseca, que desplaza al opioide de los receptores mu (y en menor medida kappa y delta). Al ser competitivo, su efecto depende de la relación de concentraciones: un opioide muy potente o muy abundante puede requerir dosis repetidas o crecientes. Su vida media es CORTA (30-80 minutos), más breve que la de casi todos los opioides que antagoniza, y de esa asimetría deriva el riesgo central de su uso: la RENARCOTIZACIÓN.",
     "espectro": null,
@@ -122,7 +122,12 @@
     ],
     "embarazo_lactancia": "Puede utilizarse en la gestante con intoxicación opioide cuando peligra su vida, sabiendo que puede desencadenar abstinencia materna y fetal y contracciones. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 31; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+    "fuente": "Katzung 15.ª ed., cap. 31; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis",
+    "vs_clase": [
+      "**Antagonista opioide PURO**: revierte depresión respiratoria y coma por opioides en 1-2 min.",
+      "**Vida media CORTA (30-90 min)**: re-narcosis con opioides de acción larga (metadona) → perfusión.",
+      "**Titular en el dependiente** (0,04-0,1 mg) para no precipitar abstinencia; vía intranasal para no sanitarios."
+    ]
   },
   {
     "id": "URG-flumazenilo",
@@ -132,7 +137,7 @@
     ],
     "area": "URG",
     "nivel": 2,
-    "clase": "Antídoto: antagonista de las benzodiacepinas",
+    "clase": "Antídoto farmacológico (receptor o mecanismo)",
     "subclase": "Antagonista competitivo del sitio benzodiacepínico del receptor GABA-A",
     "mecanismo": "Antagonista competitivo del sitio de unión de las benzodiacepinas en el receptor GABA-A. Desplaza a la benzodiacepina e impide que potencie la acción del GABA, revirtiendo la sedación y la depresión respiratoria. No antagoniza a los barbitúricos, al alcohol ni a los opioides, que actúan en otros sitios del receptor o en otras dianas. Su vida media es CORTA (40-80 minutos), más breve que la de la mayoría de las benzodiacepinas.",
     "espectro": null,
@@ -241,6 +246,11 @@
     ],
     "embarazo_lactancia": "Datos escasos; se reserva a situaciones en que la vida materna está en riesgo. Precaución durante la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis",
+    "vs_clase": [
+      "**Antagonista benzodiacepínico**: útil sobre todo en la **sedación IATROGÉNICA** (endoscopia).",
+      "**Contraindicado en consumidores crónicos, epilépticos o coingesta de tricíclicos** (convulsiones).",
+      "**Vida media corta**: re-sedación frecuente."
+    ]
   }
 ]

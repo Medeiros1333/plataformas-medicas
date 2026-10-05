@@ -7,7 +7,7 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Descontaminante digestivo",
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
     "subclase": "Adsorbente de superficie",
     "mecanismo": "Carbón tratado para generar una superficie porosa enorme (unos 1000 m² por gramo) que ADSORBE el tóxico en la luz intestinal por fuerzas de van der Waals, impidiendo que se absorba. No lo neutraliza ni lo destruye: lo secuestra y lo arrastra con las heces. En dosis repetidas añade un segundo mecanismo, la llamada diálisis gastrointestinal: interrumpe la circulación ENTEROHEPÁTICA y ENTEROENTÉRICA del tóxico ya absorbido, que difunde de nuevo hacia la luz intestinal y allí queda atrapado, acelerando su eliminación del organismo.",
     "espectro": null,
@@ -103,6 +103,11 @@
     ],
     "embarazo_lactancia": "Seguro: no se absorbe y por tanto no alcanza ni al feto ni a la leche. Es la descontaminación de elección en la embarazada intoxicada.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 58; posicionamiento de la AACT y la EAPCCT sobre carbón activado"
+    "fuente": "Katzung 15.ª ed., cap. 58; posicionamiento de la AACT y la EAPCCT sobre carbón activado",
+    "vs_clase": [
+      "**Descontaminante, no antídoto**: adsorbe el tóxico en la luz intestinal; útil en la **primera 1-2 h** (1 g/kg).",
+      "**No adsorbe alcoholes, metales (hierro, litio), ácidos ni álcalis.**",
+      "**Contraindicado sin vía aérea protegida** (aspiración) y en íleo."
+    ]
   }
 ]

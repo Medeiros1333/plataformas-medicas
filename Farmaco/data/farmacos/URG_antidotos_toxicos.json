@@ -7,7 +7,7 @@
     ],
     "area": "URG",
     "nivel": 2,
-    "clase": "Antídoto de los alcoholes tóxicos",
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
     "subclase": "Inhibidores de la alcohol deshidrogenasa",
     "mecanismo": "El METANOL y el ETILENGLICOL son en sí mismos poco tóxicos: lo que mata son sus METABOLITOS. La ALCOHOL DESHIDROGENASA convierte el metanol en formaldehído y después en ÁCIDO FÓRMICO, que inhibe la citocromo oxidasa y destruye el nervio óptico; y el etilenglicol en glicolaldehído, ácido glicólico y finalmente ÁCIDO OXÁLICO, que precipita como oxalato cálcico en el túbulo renal produciendo fracaso renal e hipocalcemia. El tratamiento consiste, por tanto, en IMPEDIR ESA CONVERSIÓN. El FOMEPIZOL inhibe competitivamente la alcohol deshidrogenasa con una afinidad entre 500 y 1000 veces mayor que la del etanol; el ETANOL hace lo mismo por simple competencia de sustrato, ya que la enzima lo prefiere al metanol. La consecuencia clínica es elegante: el alcohol tóxico queda sin metabolizar y se elimina lentamente sin causar daño, o se retira por hemodiálisis.",
     "espectro": null,
@@ -108,7 +108,12 @@
     ],
     "embarazo_lactancia": "Se emplean sin restricción ante una intoxicación con riesgo vital. El fomepizol es preferible al etanol también en la gestante, por evitar la exposición fetal al alcohol.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 58; protocolos de toxicología clínica sobre alcoholes tóxicos"
+    "fuente": "Katzung 15.ª ed., cap. 58; protocolos de toxicología clínica sobre alcoholes tóxicos",
+    "vs_clase": [
+      "**Bloquean la ALCOHOL DESHIDROGENASA**: impiden la formación de los metabolitos tóxicos de metanol y etilenglicol.",
+      "**Fomepizol de elección** (sin ebriedad ni hipoglucemia); etanol si no está disponible.",
+      "**Hemodiálisis** si acidosis grave, alteración visual o fracaso renal."
+    ]
   },
   {
     "id": "URG-hidroxocobalamina-emulsion-lipidica",
@@ -118,7 +123,7 @@
     ],
     "area": "URG",
     "nivel": 2,
-    "clase": "Antídoto del cianuro y de los cardiotóxicos liposolubles",
+    "clase": "Antídoto de tóxicos metabólicos y descontaminación",
     "subclase": "Quelante del cianuro y sumidero lipídico",
     "mecanismo": "La HIDROXOCOBALAMINA es una forma de vitamina B12 cuyo átomo de COBALTO tiene una enorme afinidad por el ion CIANURO: se une a él formando CIANOCOBALAMINA, un compuesto inocuo que se elimina por la orina. Con ello libera la citocromo oxidasa mitocondrial, que el cianuro había bloqueado impidiendo la respiración celular. Su gran ventaja sobre los antídotos clásicos es que NO produce metahemoglobina, lo que la hace segura en el intoxicado por HUMO DE INCENDIO, que además tiene monóxido de carbono y no puede permitirse perder capacidad transportadora de oxígeno. La EMULSIÓN LIPÍDICA actúa por un mecanismo completamente distinto y no específico: crea un COMPARTIMENTO LIPÍDICO en el plasma que secuestra los fármacos muy LIPÓFILOS, extrayéndolos del tejido cardiaco y nervioso donde están ejerciendo su toxicidad; se propone además un efecto metabólico directo aportando ácidos grasos al miocardio isquémico.",
     "espectro": null,
@@ -227,6 +232,11 @@
     ],
     "embarazo_lactancia": "Se emplean sin restricción ante una intoxicación con riesgo vital para la madre. La hidroxocobalamina es una forma de vitamina B12 y se considera segura.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 58; guías ASRA sobre toxicidad por anestésicos locales; protocolos de manejo del síndrome de inhalación de humo"
+    "fuente": "Katzung 15.ª ed., cap. 58; guías ASRA sobre toxicidad por anestésicos locales; protocolos de manejo del síndrome de inhalación de humo",
+    "vs_clase": [
+      "**Hidroxocobalamina 5 g IV: antídoto del CIANURO** (incendios con humo, nitroprusiato): se une al cianuro formando cianocobalamina.",
+      "**Emulsión lipídica al 20%**: «sumidero» de tóxicos liposolubles (anestésicos locales, bupivacaína; rescate en betabloqueantes, calcioantagonistas).",
+      "La hidroxocobalamina **colorea de rojo** piel y orina e interfiere con la cooximetría."
+    ]
   }
 ]

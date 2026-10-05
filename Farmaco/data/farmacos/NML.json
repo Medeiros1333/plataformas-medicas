@@ -7,7 +7,7 @@
     ],
     "area": "NML",
     "nivel": 1,
-    "clase": "Broncodilatador beta-2 agonista de acción corta (SABA)",
+    "clase": "Agonista beta-2 adrenérgico inhalado",
     "subclase": "Medicación de rescate",
     "vs_clase": [
       "**El SABA de referencia**, con todas las vías: cartucho presurizado con cámara, nebulizado e IV.",
@@ -375,7 +375,7 @@
     ],
     "area": "NML",
     "nivel": 2,
-    "clase": "Antagonista de los receptores de leucotrienos",
+    "clase": "Antiinflamatorio oral de la vía aérea",
     "subclase": "Antiinflamatorio no esteroideo de la vía aérea",
     "mecanismo": "Antagonista selectivo del receptor CysLT1 de los cisteinil-leucotrienos (LTC4, LTD4, LTE4), mediadores derivados del ácido araquidónico por la vía de la 5-LIPOOXIGENASA. Esos leucotrienos producen broncoconstricción potente, secreción de moco, edema de la mucosa y reclutamiento de eosinófilos. Bloquear su receptor tiene un efecto antiinflamatorio modesto pero muy específico, que resulta especialmente útil en los fenotipos donde esa vía predomina: asma inducida por ejercicio, asma con rinitis alérgica y ENFERMEDAD RESPIRATORIA EXACERBADA POR AAS, en la que los AINE desvían el araquidónico hacia la vía de los leucotrienos.",
     "espectro": null,
@@ -470,6 +470,11 @@
     ],
     "embarazo_lactancia": "Puede mantenerse en el embarazo si era eficaz antes de la gestación y el asma lo requiere, aunque hay menos datos que con los corticoides inhalados. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de asma"
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de asma",
+    "vs_clase": [
+      "**Antileucotrieno ORAL**: útil en el **asma inducida por ejercicio o por AAS** y con **rinitis alérgica asociada**; menos eficaz que el ICS.",
+      "**Comprimido diario por la noche, también en niños** (4-5 mg).",
+      "**Alerta neuropsiquiátrica** (pesadillas, agresividad, ideación suicida), sobre todo en niños."
+    ]
   }
 ]
