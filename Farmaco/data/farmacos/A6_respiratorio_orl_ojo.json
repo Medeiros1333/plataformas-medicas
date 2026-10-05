@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "NML-mometasona-nasal",
+    "nombre": "Mometasona intranasal",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide intranasal",
+    "subclase": "Corticoide de biodisponibilidad sistémica mínima (<0,1%)",
+    "vs_clase": [
+      "**Biodisponibilidad sistémica PRÁCTICAMENTE NULA**: de elección en **niños** (desde los 3 años) y uso prolongado.",
+      "**UNA aplicación al día**; indicada también en la **poliposis nasal** y la rinosinusitis crónica.",
+      "Efecto pleno en **días** (no es un descongestionante inmediato)."
+    ],
+    "mecanismo": "Glucocorticoide tópico que reduce la inflamación eosinofílica, el edema y la hipersecreción de la mucosa nasal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica estacional y perenne",
+        "dosis": "2 pulverizaciones (50 µg cada una) en cada fosa (200 µg/día)",
+        "posologia": "Cada 24 h",
+        "via": "IN",
+        "nota": "Niños 3-11 años: 1 pulverización por fosa"
+      },
+      {
+        "patologia": "Poliposis nasal",
+        "dosis": "2 pulverizaciones (50 µg cada una) por fosa (400 µg/día)",
+        "posologia": "Cada 12 h",
+        "via": "IN",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar 1-2 semanas antes de la estación polínica.",
+      "titulacion": "Bajar a la dosis mínima eficaz.",
+      "duracion": "Toda la estación o continua en la perenne.",
+      "fin": "—",
+      "via": "Intranasal (dirigir hacia fuera, lejos del tabique).",
+      "monitorizacion": "Epistaxis, crecimiento en niños con uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica <0,1%.",
+      "distribucion": "Mucosa nasal.",
+      "metabolismo": "Hepático extenso (CYP3A4).",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat",
+          "efecto": "Cushing iatrogénico (más con fluticasona)",
+          "gravedad": "media",
+          "manejo": "Preferir mometasona o budesonida y vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Epistaxis leve, sequedad, escozor"
+      ],
+      "graves": [
+        "Perforación septal (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección nasal no tratada",
+      "Cirugía o traumatismo nasal reciente"
+    ],
+    "perlas": [
+      "Aplicar con la mano contraria a la fosa (spray derecho con la mano izquierda) evita el tabique y la epistaxis."
+    ],
+    "embarazo_lactancia": "Compatible (budesonida con más datos).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20 y 39"
+  },
+  {
+    "id": "NML-fluticasona-nasal",
+    "nombre": "Fluticasona intranasal",
+    "sinonimos": [
+      "Azelastina/fluticasona"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide intranasal",
+    "subclase": "Corticoide de alta potencia tópica",
+    "vs_clase": [
+      "**Mejora también los síntomas OCULARES** de la rinoconjuntivitis alérgica.",
+      "Disponible **combinada con AZELASTINA** (antihistamínico nasal): **acción rápida** + efecto antiinflamatorio, la combinación más eficaz.",
+      "**Interacción importante con RITONAVIR/cobicistat**: síndrome de Cushing e insuficiencia suprarrenal."
+    ],
+    "mecanismo": "Glucocorticoide tópico de alta afinidad por el receptor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica",
+        "dosis": "2 pulverizaciones (27,5-50 µg) en cada fosa",
+        "posologia": "Cada 24 h (bajar a 1 al controlar)",
+        "via": "IN",
+        "nota": "Combinación con azelastina: 1 pulverización por fosa cada 12 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "Dosis mínima eficaz.",
+      "duracion": "Según estación.",
+      "fin": "—",
+      "via": "Intranasal.",
+      "monitorizacion": "Epistaxis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica <2%.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4** (primer paso).",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat, itraconazol",
+          "efecto": "Cushing iatrogénico e insuficiencia suprarrenal al retirarlo",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar mometasona o budesonida"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Epistaxis, cefalea, sequedad"
+      ],
+      "graves": [
+        "Supresión suprarrenal con inhibidores de CYP3A4"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con ritonavir o cobicistat (relativa)"
+    ],
+    "perlas": [
+      "Paciente con VIH en tratamiento con ritonavir y rasgos cushingoides: revisar si usa fluticasona nasal o inhalada."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20"
+  },
+  {
+    "id": "NML-budesonida-nasal",
+    "nombre": "Budesonida intranasal",
+    "sinonimos": [
+      "Beclometasona nasal"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Corticoide intranasal",
+    "subclase": "Corticoide con mayor experiencia en el embarazo",
+    "vs_clase": [
+      "**El corticoide intranasal con MÁS DATOS de seguridad en el EMBARAZO**.",
+      "Biodisponibilidad algo mayor que mometasona y fluticasona (aún baja).",
+      "Útil también en **lavados nasales** de alto volumen en la rinosinusitis crónica (fuera de ficha)."
+    ],
+    "mecanismo": "Glucocorticoide tópico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rinitis alérgica (incluido el embarazo)",
+        "dosis": "64 µg por fosa (2 pulverizaciones de 32 µg)",
+        "posologia": "Cada 24 h (o 1 pulverización por fosa cada 12 h)",
+        "via": "IN",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Según síntomas.",
+      "fin": "—",
+      "via": "Intranasal.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica ~30% de lo absorbido (primer paso intenso).",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes de CYP3A4",
+          "efecto": "Efectos sistémicos",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Epistaxis, irritación"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección nasal activa"
+    ],
+    "perlas": [
+      "Rinitis del embarazo: lavados salinos primero; si alergia, budesonida nasal."
+    ],
+    "embarazo_lactancia": "De elección en el embarazo dentro de la clase.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39"
+  },
+  {
+    "id": "NML-oximetazolina",
+    "nombre": "Oximetazolina nasal",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Descongestionante nasal",
+    "subclase": "Agonista alfa tópico de acción larga",
+    "vs_clase": [
+      "**Acción de 8-12 h**: 2 aplicaciones al día.",
+      "**RINITIS MEDICAMENTOSA (efecto rebote)** si se usa **más de 3-5 días**.",
+      "También en la **epistaxis anterior** (vasoconstricción local con algodón empapado)."
+    ],
+    "mecanismo": "Agonista alfa-1 y alfa-2 que contrae los vasos de capacitancia de la mucosa nasal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Congestión nasal aguda (resfriado, sinusitis)",
+        "dosis": "1-2 pulverizaciones (0,05%) por fosa",
+        "posologia": "Cada 12 h",
+        "via": "IN",
+        "nota": "Máximo 3-5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "**≤3-5 días**.",
+      "fin": "—",
+      "via": "Intranasal.",
+      "monitorizacion": "Congestión de rebote."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local, algo sistémica.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "Renal.",
+      "vida_media": "Efecto 8-12 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, sequedad",
+        "**Congestión de rebote**"
+      ],
+      "graves": [
+        "Depresión del SNC y bradicardia en lactantes por absorción"
+      ]
+    },
+    "contraindicaciones": [
+      "Niños <6 años",
+      "Rinitis seca o atrófica",
+      "Glaucoma de ángulo cerrado"
+    ],
+    "perlas": [
+      "Rinitis medicamentosa: retirar el descongestionante y cubrir con corticoide intranasal."
+    ],
+    "embarazo_lactancia": "Evitar uso prolongado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "NML-xilometazolina",
+    "nombre": "Xilometazolina nasal",
+    "sinonimos": [
+      "Fenilefrina nasal"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Descongestionante nasal",
+    "subclase": "Agonista alfa tópico de acción intermedia",
+    "vs_clase": [
+      "**Acción algo más corta (6-10 h)**: hasta 3 aplicaciones al día.",
+      "**Concentración pediátrica (0,05%)** a partir de los 6 años (según el país, desde los 2).",
+      "Mismo **riesgo de rebote** que la oximetazolina: ≤5 días."
+    ],
+    "mecanismo": "Agonista alfa-adrenérgico tópico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Congestión nasal aguda",
+        "dosis": "1-2 pulverizaciones (0,1%) por fosa",
+        "posologia": "Cada 8-12 h (máximo 3 al día)",
+        "via": "IN",
+        "nota": "Máximo 5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "≤5 días.",
+      "fin": "—",
+      "via": "Intranasal.",
+      "monitorizacion": "Rebote."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "Renal.",
+      "vida_media": "Efecto 6-10 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO, tricíclicos",
+          "efecto": "Hipertensión",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, estornudos",
+        "Congestión de rebote"
+      ],
+      "graves": [
+        "Hipertensión, palpitaciones (absorción)"
+      ]
+    },
+    "contraindicaciones": [
+      "Niños pequeños (según concentración)",
+      "Cirugía transesfenoidal reciente"
+    ],
+    "perlas": [
+      "Los descongestionantes tópicos alivian, pero no acortan el resfriado."
+    ],
+    "embarazo_lactancia": "Evitar uso prolongado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "NML-pseudoefedrina",
+    "nombre": "Pseudoefedrina",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Descongestionante nasal",
+    "subclase": "Simpaticomimético ORAL",
+    "vs_clase": [
+      "**ORAL y sistémica**: **no produce rebote**, pero sí **HTA, taquicardia, insomnio y retención urinaria**.",
+      "Precursor de metanfetamina: **venta restringida** en muchos países.",
+      "La **fenilefrina oral** que la sustituye en muchos combinados **no es eficaz** por vía oral (primer paso)."
+    ],
+    "mecanismo": "Simpaticomimético mixto que libera noradrenalina y estimula receptores alfa de la mucosa nasal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Congestión nasal (resfriado, sinusitis, rinitis)",
+        "dosis": "60 mg (o 120 mg de liberación prolongada)",
+        "posologia": "Cada 4-6 h (prolongada cada 12 h); máximo 240 mg/día",
+        "via": "VO",
+        "nota": "Pocos días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Revisar PA y antecedentes cardiovasculares.",
+      "titulacion": "—",
+      "duracion": "≤7 días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "PA, palpitaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, completa.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal (pH dependiente).",
+      "vida_media": "5-8 h.",
+      "ajuste_renal": "Reducir dosis.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Antihipertensivos, betabloqueantes",
+          "efecto": "Menor control de la PA",
+          "gravedad": "media",
+          "manejo": "Evitar en HTA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Insomnio**, nerviosismo",
+        "Taquicardia"
+      ],
+      "graves": [
+        "**Crisis hipertensiva**, arritmias, ictus",
+        "Retención urinaria"
+      ]
+    },
+    "contraindicaciones": [
+      "HTA grave o no controlada, cardiopatía isquémica",
+      "Tratamiento con IMAO",
+      "Glaucoma de ángulo cerrado",
+      "Hipertiroidismo",
+      "Niños <12 años"
+    ],
+    "perlas": [
+      "Antigripales combinados con pseudoefedrina: preguntar siempre por HTA y prostatismo."
+    ],
+    "embarazo_lactancia": "Evitar (reduce la producción de leche).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "NML-dextrometorfano",
+    "nombre": "Dextrometorfano",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Antitusígeno",
+    "subclase": "Antitusígeno central no opioide (antagonista NMDA)",
+    "vs_clase": [
+      "**Antitusígeno CENTRAL sin efecto analgésico ni adictivo a dosis terapéuticas** (isómero de un opioide sin acción mu).",
+      "**SÍNDROME SEROTONINÉRGICO** con IMAO e ISRS; **abuso recreativo** a dosis altas (disociativo).",
+      "**Metabolismo CYP2D6**: niveles altos con fluoxetina, paroxetina, bupropión."
+    ],
+    "mecanismo": "Eleva el umbral del reflejo tusígeno en el bulbo (antagonista NMDA y agonista sigma-1).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tos seca molesta (resfriado, bronquitis)",
+        "dosis": "15-30 mg",
+        "posologia": "Cada 6-8 h (máximo 120 mg/día)",
+        "via": "VO",
+        "nota": "No en tos productiva"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Pocos días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "SNC.",
+      "metabolismo": "**CYP2D6** (dextrorfano activo).",
+      "eliminacion": "Renal.",
+      "vida_media": "3-6 h (mucho más en metabolizadores lentos).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Síndrome serotoninérgico grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "ISRS, IRSN, tramadol, linezolid",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Evitar o vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, náuseas, somnolencia"
+      ],
+      "graves": [
+        "Síndrome serotoninérgico",
+        "Efectos disociativos a dosis altas"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con IMAO",
+      "Niños <6 años",
+      "Tos productiva o asma"
+    ],
+    "perlas": [
+      "La evidencia de los antitusígenos en la tos del resfriado es pobre: la miel es una alternativa razonable en >1 año."
+    ],
+    "embarazo_lactancia": "Compatible a dosis habituales.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31"
+  },
+  {
+    "id": "NML-cloperastina",
+    "nombre": "Cloperastina",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 3,
+    "clase": "Antitusígeno",
+    "subclase": "Antitusígeno central con acción antihistamínica",
+    "vs_clase": [
+      "**Doble acción**: central sobre el reflejo de la tos **y antihistamínica H1** (útil si hay **goteo posnasal**).",
+      "**Sedación leve** y efectos anticolinérgicos (más que el dextrometorfano).",
+      "**Sin riesgo serotoninérgico** ni de abuso."
+    ],
+    "mecanismo": "Inhibe el centro de la tos y bloquea receptores H1 periféricos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tos seca no productiva",
+        "dosis": "10-20 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Pocos días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Somnolencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "SNC.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol y depresores del SNC",
+          "efecto": "Sedación",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, boca seca"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Niños <2 años",
+      "Tos productiva"
+    ],
+    "perlas": [
+      "Tos nocturna con goteo posnasal: un antitusígeno con acción antihistamínica ayuda a dormir."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "NML-levodropropizina",
+    "nombre": "Levodropropizina",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 3,
+    "clase": "Antitusígeno",
+    "subclase": "Antitusígeno periférico",
+    "vs_clase": [
+      "**Acción PERIFÉRICA** (receptores sensitivos de la vía aérea): **sin sedación central** ni depresión respiratoria.",
+      "Eficacia similar a la de los antitusígenos centrales con **mejor tolerancia**.",
+      "Contraindicada si hay **broncorrea** o alteración del aclaramiento mucociliar."
+    ],
+    "mecanismo": "Inhibe la activación de las fibras C sensitivas de la vía aérea y la liberación de neuropéptidos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tos seca no productiva",
+        "dosis": "60 mg",
+        "posologia": "Cada 8 h (separadas ≥6 h)",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "≤7 días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "1-2 h.",
+      "ajuste_renal": "Evitar en insuficiencia grave.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Sedantes",
+          "efecto": "Leve potenciación",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, somnolencia leve"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Broncorrea",
+      "Insuficiencia hepática grave",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Antitusígeno de elección cuando no se quiere sedar al paciente."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed."
+  },
+  {
+    "id": "OFT-olopatadina",
+    "nombre": "Olopatadina colirio",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antialérgico ocular",
+    "subclase": "Antihistamínico H1 y estabilizador de mastocitos",
+    "vs_clase": [
+      "**Doble acción** (antihistamínica inmediata + estabilizadora de mastocitos): **de elección en la conjuntivitis alérgica**.",
+      "**Una o dos gotas al día** según concentración; alivio del picor en minutos.",
+      "Bien tolerada; también se puede usar con lentillas (retirar al instilar)."
+    ],
+    "mecanismo": "Bloquea receptores H1 conjuntivales e inhibe la desgranulación mastocitaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Conjuntivitis alérgica",
+        "dosis": "1 gota (0,1%) en cada ojo afectado",
+        "posologia": "Cada 12 h (0,2%: cada 24 h)",
+        "via": "oftálmica",
+        "nota": "Durante la exposición al alérgeno"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Mientras dure la exposición.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros colirios",
+          "efecto": "Lavado",
+          "gravedad": "baja",
+          "manejo": "Separar 5 min"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, cefalea, disgeusia"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Picor ocular bilateral, lagrimeo y estacionalidad: conjuntivitis alérgica; nada de antibiótico ni corticoide."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "OFT-ketotifeno-colirio",
+    "nombre": "Ketotifeno colirio",
+    "sinonimos": [
+      "Epinastina",
+      "Cromoglicato sódico colirio"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Antialérgico ocular",
+    "subclase": "Antihistamínico H1 y estabilizador de mastocitos",
+    "vs_clase": [
+      "**Doble acción** como la olopatadina; **dosis cada 12 h**.",
+      "Disponible **sin receta** en muchos países y en **monodosis sin conservantes**.",
+      "El **cromoglicato** (pariente) solo estabiliza mastocitos: **preventivo**, tarda días y se aplica 4 veces al día."
+    ],
+    "mecanismo": "Antagonista H1 y estabilizador de la membrana mastocitaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Conjuntivitis alérgica",
+        "dosis": "1 gota (0,025%)",
+        "posologia": "Cada 12 h",
+        "via": "oftálmica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Según exposición.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, hiperemia transitoria"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Guardar el colirio en la nevera alivia más el picor al instilarlo."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "OFT-azelastina-colirio",
+    "nombre": "Azelastina colirio",
+    "sinonimos": [
+      "Azelastina nasal"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Antialérgico ocular",
+    "subclase": "Antihistamínico H1 tópico",
+    "vs_clase": [
+      "**Existe también en spray NASAL**: un mismo principio para la **rinoconjuntivitis**.",
+      "**Inicio rápido** (minutos); **sabor amargo** si pasa a la faringe por el conducto lagrimal.",
+      "Desde los 4 años."
+    ],
+    "mecanismo": "Antagonista H1 con cierta acción estabilizadora de mastocitos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Conjuntivitis alérgica",
+        "dosis": "1 gota (0,05%)",
+        "posologia": "Cada 12 h (hasta cada 6 h)",
+        "via": "oftálmica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Según exposición.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor",
+        "**Sabor amargo**"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Ocluir el punto lagrimal 1 minuto reduce el sabor amargo."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "OFT-pilocarpina",
+    "nombre": "Pilocarpina colirio",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Hipotensor ocular",
+    "subclase": "Agonista muscarínico (miótico)",
+    "vs_clase": [
+      "**MIÓTICO**: contrae el esfínter del iris y **abre el ángulo**: útil en el **cierre angular agudo** (tras bajar la PIO con otros fármacos).",
+      "**Ya no es de uso crónico en el glaucoma** (visión borrosa, miopía inducida, mala visión nocturna).",
+      "**Cefalea frontal** por espasmo ciliar; la pilocarpina oral trata la **boca seca del Sjögren**."
+    ],
+    "mecanismo": "Agonista colinérgico muscarínico: miosis y contracción del músculo ciliar que aumenta el drenaje trabecular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Glaucoma agudo por cierre angular",
+        "dosis": "1 gota (1-2%)",
+        "posologia": "2-3 veces separadas 15 min; después cada 6 h",
+        "via": "oftálmica",
+        "nota": "Cuando la PIO ya baja (con PIO muy alta el esfínter isquémico no responde)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras acetazolamida y colirios hipotensores.",
+      "titulacion": "—",
+      "duracion": "Hasta la iridotomía láser.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PIO."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local; algo sistémica.",
+      "distribucion": "—",
+      "metabolismo": "Plasmático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Efecto 4-8 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Bradicardia aditiva",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Miosis, visión borrosa, **cefalea frontal**"
+      ],
+      "graves": [
+        "Desprendimiento de retina (miopes)",
+        "Efectos colinérgicos sistémicos (sudoración, broncoespasmo)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uveítis (empeora la inflamación y las sinequias)",
+      "Glaucoma maligno"
+    ],
+    "perlas": [
+      "Ojo rojo doloroso, pupila media arreactiva, visión de halos y vómitos: cierre angular agudo → oftalmólogo urgente."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 7"
+  },
+  {
+    "id": "INF-ciprofloxacino-otico",
+    "nombre": "Ciprofloxacino ótico",
+    "sinonimos": [
+      "Ciprofloxacino + fluocinolona ótico"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antiinfeccioso ótico",
+    "subclase": "Quinolona ótica",
+    "vs_clase": [
+      "**De elección en la OTITIS EXTERNA** (cubre Pseudomonas y S. aureus).",
+      "**NO OTOTÓXICO**: el único seguro si hay **perforación timpánica** o drenajes transtimpánicos.",
+      "Combinado con corticoide (fluocinolona, hidrocortisona) alivia antes el dolor y el edema."
+    ],
+    "mecanismo": "Inhibición de la ADN girasa bacteriana a concentraciones locales muy altas.",
+    "espectro": "Cubre: Pseudomonas aeruginosa, Staphylococcus aureus, enterobacterias. No cubre: hongos.",
+    "indicaciones": [
+      {
+        "patologia": "Otitis externa aguda difusa",
+        "dosis": "0,25 mL (monodosis) o 4-6 gotas (0,3%)",
+        "posologia": "Cada 12 h",
+        "via": "ótica",
+        "nota": "7 días"
+      },
+      {
+        "patologia": "Otitis media con drenaje transtimpánico o perforación",
+        "dosis": "4 gotas",
+        "posologia": "Cada 12 h",
+        "via": "ótica",
+        "nota": "7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Limpiar el conducto; mecha si está muy edematoso.",
+      "titulacion": "—",
+      "duracion": "7 días (máximo 10).",
+      "fin": "—",
+      "via": "Ótica (calentar en la mano, tumbado 5 min).",
+      "monitorizacion": "Respuesta en 48-72 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prurito, molestia local"
+      ],
+      "graves": [
+        "Otomicosis con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a quinolonas",
+      "Infección vírica o fúngica del conducto"
+    ],
+    "perlas": [
+      "Otitis externa en diabético anciano con dolor intenso y tejido de granulación: otitis externa maligna (Pseudomonas) → antibiótico sistémico y TC."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de infecciones de oído"
+  },
+  {
+    "id": "INF-ofloxacino-otico",
+    "nombre": "Ofloxacino ótico",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antiinfeccioso ótico",
+    "subclase": "Quinolona ótica",
+    "vs_clase": [
+      "**Equivalente al ciprofloxacino ótico**, **sin corticoide asociado**.",
+      "**Seguro con perforación timpánica** (no ototóxico); aprobado en la **otitis media crónica supurada**.",
+      "**Una vez al día** en algunas indicaciones."
+    ],
+    "mecanismo": "Quinolona tópica.",
+    "espectro": "Cubre: Pseudomonas aeruginosa, Staphylococcus aureus, Haemophilus, Moraxella.",
+    "indicaciones": [
+      {
+        "patologia": "Otitis externa aguda y otitis media crónica supurada",
+        "dosis": "10 gotas (0,3%)",
+        "posologia": "Cada 12-24 h",
+        "via": "ótica",
+        "nota": "7-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Limpieza del conducto.",
+      "titulacion": "—",
+      "duracion": "7-14 días.",
+      "fin": "—",
+      "via": "Ótica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prurito, sabor amargo (si perforación)"
+      ],
+      "graves": [
+        "Otomicosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a quinolonas"
+    ],
+    "perlas": [
+      "Oído que supura crónicamente: aspirar y gotas de quinolona, no antibiótico oral."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46"
+  },
+  {
+    "id": "INF-polimixina-neomicina-otica",
+    "nombre": "Polimixina B + neomicina + hidrocortisona ótica",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antiinfeccioso ótico",
+    "subclase": "Combinación de aminoglucósido, polimixina y corticoide",
+    "vs_clase": [
+      "**Clásica y barata** para la otitis externa con tímpano íntegro.",
+      "**OTOTÓXICA** (neomicina): **CONTRAINDICADA si hay PERFORACIÓN timpánica** o se desconoce el estado del tímpano.",
+      "**Dermatitis de contacto por neomicina** frecuente (5-15%)."
+    ],
+    "mecanismo": "Neomicina (síntesis proteica), polimixina B (membrana externa de gramnegativos) e hidrocortisona (antiinflamatorio).",
+    "espectro": "Cubre: Pseudomonas aeruginosa (polimixina), Staphylococcus aureus y enterobacterias (neomicina).",
+    "indicaciones": [
+      {
+        "patologia": "Otitis externa aguda con tímpano íntegro",
+        "dosis": "4 gotas",
+        "posologia": "Cada 6-8 h",
+        "via": "ótica",
+        "nota": "7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar la integridad del tímpano.",
+      "titulacion": "—",
+      "duracion": "7 días (máximo 10).",
+      "fin": "—",
+      "via": "Ótica.",
+      "monitorizacion": "Reacción alérgica local."
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable con tímpano íntegro.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dermatitis de contacto (neomicina)**",
+        "Escozor"
+      ],
+      "graves": [
+        "**Ototoxicidad** si hay perforación"
+      ]
+    },
+    "contraindicaciones": [
+      "Perforación timpánica o tubos transtimpánicos",
+      "Alergia a aminoglucósidos"
+    ],
+    "perlas": [
+      "Otitis externa que empeora con gotas: pensar en alergia a la neomicina o en hongos."
+    ],
+    "embarazo_lactancia": "Compatible (tópico).",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 45"
+  }
+]

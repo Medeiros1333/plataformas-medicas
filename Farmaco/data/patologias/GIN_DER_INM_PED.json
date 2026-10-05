@@ -511,7 +511,7 @@
           },
           {
             "nombre": "Ciclopirox 8% laca",
-            "ref": "DER-azoles-topicos",
+            "ref": "DER-ciclopirox",
             "dosis": "1 aplicación",
             "via": "tópica",
             "intervalo": "Cada 24 h",
@@ -541,6 +541,46 @@
     "resumen": "Infección superficial por S. aureus y/o S. pyogenes con costras melicéricas (o ampollas en el ampolloso). **Localizado: antibiótico tópico.** Extenso, ampolloso múltiple o con brotes: antibiótico oral antiestafilocócico.",
     "objetivo": "Curación en 7-10 días; evitar contagio.",
     "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Mupirocina pomada al 2%",
+            "ref": "DER-mupirocina",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 8 h tras retirar costras",
+            "duracion": "5-7 días",
+            "nota": "Impétigo localizado"
+          },
+          {
+            "nombre": "Ácido fusídico crema al 2%",
+            "ref": "DER-acido-fusidico",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa. Resistencias si se repite"
+          },
+          {
+            "nombre": "Cefalexina (extenso o ampolloso)",
+            "ref": "INF-cefalexina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "7 días"
+          },
+          {
+            "nombre": "Cloxacilina (extenso)",
+            "ref": "INF-cloxacilina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h, en ayunas",
+            "duracion": "7 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
       {
         "titulo": "Niño (y adulto) localizado",
         "poblacion": "Pediatría",
@@ -694,13 +734,13 @@
         "titulo": "Adulto",
         "farmacos": [
           {
-            "nombre": "Corticoide intranasal (mometasona, fluticasona, budesonida)",
-            "sin_ficha": true,
-            "dosis": "2 pulsaciones por fosa nasal",
+            "nombre": "Corticoide intranasal (mometasona; o fluticasona, budesonida)",
+            "dosis": "2 pulverizaciones (50 µg cada una) por fosa nasal",
             "via": "IN",
             "intervalo": "Cada 24 h",
             "duracion": "Toda la estación (o continuo en perenne)",
-            "nota": "Efecto máximo en 1-2 semanas; técnica dirigida hacia fuera"
+            "nota": "Efecto máximo en 1-2 semanas; técnica dirigida hacia fuera",
+            "ref": "NML-mometasona-nasal"
           },
           {
             "nombre": "Antihistamínico H1 de 2.ª generación",

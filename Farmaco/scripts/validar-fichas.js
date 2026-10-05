@@ -17,7 +17,7 @@ const arrNoVacio = v => Array.isArray(v) && v.length > 0 && v.every(noVacio);
 // La unidad puede venir abreviada o escrita con todas sus letras: el fentanilo y los
 // vasoactivos se pautan en "microgramos", no en "mcg". El validador debe reconocer la
 // unidad que el clinico escribe de verdad, no imponer una abreviatura (ver hallazgo #25).
-const TIENE_UNIDAD = /\d\s*(microgramos?|miligramos?|mg|g|mcg|µg|ug|UI|U|mL|ml|L|mEq|mmol|%|gotas?|comprimidos?|caps?|pulsaci[oó]n(es)?|inhalaci[oó]n(es)?|puff|parches?|ap[oó]sitos?|sobres?|viales?|ampollas?|aplicaci[oó]n(es)?|cm|mm)/i;
+const TIENE_UNIDAD = /\d\s*(microgramos?|miligramos?|mg|g|mcg|µg|ug|UI|U|mL|ml|L|mEq|mmol|%|gotas?|comprimidos?|caps?|pulsaci[oó]n(es)?|pulverizaci[oó]n(es)?|inhalaci[oó]n(es)?|puff|parches?|ap[oó]sitos?|sobres?|viales?|ampollas?|aplicaci[oó]n(es)?|cm|mm)/i;
 // 'bucal' (mucosa yugal) e 'intestinal' se añadieron al incorporar el midazolam bucal
 // pediátrico y el gel intestinal de levodopa: el validador debe seguir a las formas de
 // administración reales de cada área nueva, no al revés (ver hallazgo #12).

@@ -1,0 +1,408 @@
+[
+  {
+    "id": "GIN-estradiol",
+    "nombre": "Estradiol (terapia hormonal de la menopausia)",
+    "sinonimos": [
+      "Estrógenos conjugados",
+      "Estriol vaginal"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Terapia hormonal de la menopausia",
+    "subclase": "Estrógeno",
+    "vs_clase": [
+      "**El tratamiento MÁS EFICAZ de los SOFOCOS** y del síndrome genitourinario de la menopausia.",
+      "**Con ÚTERO: SIEMPRE asociado a un GESTÁGENO** (si no, hiperplasia y cáncer de endometrio). Sin útero: estrógeno solo.",
+      "**Vía TRANSDÉRMICA** = **sin aumento del riesgo de trombosis** (evita el primer paso hepático); la **vaginal a dosis bajas** apenas se absorbe y no precisa gestágeno."
+    ],
+    "mecanismo": "Sustituye el estradiol ovárico: estabiliza el centro termorregulador hipotalámico, trofiza el epitelio vaginal y uretral y frena la pérdida ósea.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síntomas vasomotores del climaterio",
+        "dosis": "Parche 25-50 µg/24 h (o gel 0,5-1,5 mg, o oral 1-2 mg)",
+        "posologia": "Parche cada 3-4 días; gel y oral cada 24 h",
+        "via": "transdérmica o VO",
+        "nota": "Más un gestágeno si conserva el útero"
+      },
+      {
+        "patologia": "Síndrome genitourinario de la menopausia (atrofia vaginal)",
+        "dosis": "10 µg (comprimido vaginal) o 0,5 mg de estriol en crema",
+        "posologia": "Cada 24 h 2 semanas; después 2 veces por semana",
+        "via": "vaginal",
+        "nota": "No necesita gestágeno"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Ventana de oportunidad**: <60 años o <10 años desde la menopausia. Valorar riesgo de cáncer de mama, trombosis y cardiovascular.",
+      "titulacion": "Dosis mínima eficaz.",
+      "duracion": "La necesaria para los síntomas, reevaluando cada año (no hay un límite fijo).",
+      "fin": "Retirada gradual para reducir el rebote de sofocos.",
+      "via": "Transdérmica (preferible si hay riesgo trombótico), oral o vaginal.",
+      "monitorizacion": "Mamografía según cribado, sangrado vaginal anómalo (biopsia), PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (primer paso hepático: aumenta factores de coagulación y triglicéridos) o transdérmica (sin primer paso).",
+      "distribucion": "Unida a SHBG.",
+      "metabolismo": "Hepático (CYP3A4); circulación enterohepática.",
+      "eliminacion": "Renal (conjugados).",
+      "vida_media": "Variable según vía.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Inductores (carbamazepina, rifampicina, hipérico)",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "Preferir vía transdérmica o ajustar"
+        },
+        {
+          "con": "Levotiroxina",
+          "efecto": "El estrógeno oral aumenta la TBG: puede necesitar más levotiroxina",
+          "gravedad": "baja",
+          "manejo": "TSH a las 6-8 semanas"
+        },
+        {
+          "con": "Lamotrigina",
+          "efecto": "Reduce sus niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar crisis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mastalgia",
+        "Sangrado irregular",
+        "Cefalea, náuseas"
+      ],
+      "graves": [
+        "**Tromboembolia venosa** (oral)",
+        "**Cáncer de mama** (con gestágeno, tras años de uso)",
+        "Ictus (oral)",
+        "Cáncer de endometrio sin gestágeno"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama o de endometrio",
+      "Sangrado vaginal no diagnosticado",
+      "Trombosis venosa o arterial previa (la oral)",
+      "Hepatopatía activa",
+      "Porfiria"
+    ],
+    "perlas": [
+      "Mujer con sofocos, útero y obesidad: estradiol transdérmico + progesterona micronizada (el perfil más seguro)."
+    ],
+    "embarazo_lactancia": "No indicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; Harrison 20.ª ed., cap. de menopausia y terapia hormonal"
+  },
+  {
+    "id": "GIN-progesterona-micronizada",
+    "nombre": "Progesterona micronizada",
+    "sinonimos": [
+      "Didrogesterona",
+      "Medroxiprogesterona oral"
+    ],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Terapia hormonal de la menopausia",
+    "subclase": "Gestágeno natural",
+    "vs_clase": [
+      "**Gestágeno de elección para PROTEGER el ENDOMETRIO** en la terapia con estrógenos: **menos riesgo de cáncer de mama y de trombosis** que los gestágenos sintéticos.",
+      "**Somnolencia**: tomar **por la noche** (útil si hay insomnio).",
+      "Usos en obstetricia: **soporte de fase lútea** y **prevención del parto pretérmino con cérvix corto** (vaginal)."
+    ],
+    "mecanismo": "Transforma el endometrio proliferativo en secretor y contrarresta la proliferación inducida por el estrógeno.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Protección endometrial en terapia estrogénica (mujer con útero)",
+        "dosis": "100 mg continuo, o 200 mg 12-14 días al mes",
+        "posologia": "Cada 24 h por la noche",
+        "via": "VO",
+        "nota": "Pauta continua: sin sangrado; cíclica: sangrado por deprivación"
+      },
+      {
+        "patologia": "Prevención del parto pretérmino con cérvix corto (≤25 mm)",
+        "dosis": "200 mg",
+        "posologia": "Cada 24 h",
+        "via": "vaginal",
+        "nota": "Desde el diagnóstico hasta la semana 34-36"
+      }
+    ],
+    "esquema": {
+      "inicio": "Junto al estrógeno.",
+      "titulacion": "—",
+      "duracion": "Mientras dure el estrógeno.",
+      "fin": "—",
+      "via": "Oral o vaginal.",
+      "monitorizacion": "Sangrado anómalo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (micronizada), con primer paso; vaginal con efecto uterino directo.",
+      "distribucion": "Unida a albúmina y transcortina.",
+      "metabolismo": "Hepático (metabolitos neuroactivos sedantes).",
+      "eliminacion": "Renal.",
+      "vida_media": "16-18 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "Valorar vía vaginal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia, mareo**",
+        "Mastalgia, hinchazón"
+      ],
+      "graves": [
+        "Ictericia colestásica (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama",
+      "Sangrado vaginal no diagnosticado",
+      "Hepatopatía grave"
+    ],
+    "perlas": [
+      "Si la progesterona da sueño, mejor: se toma al acostarse."
+    ],
+    "embarazo_lactancia": "Usada en el embarazo (indicaciones obstétricas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-tibolona",
+    "nombre": "Tibolona",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 3,
+    "clase": "Terapia hormonal de la menopausia",
+    "subclase": "Esteroide sintético con acción estrogénica, progestágena y androgénica",
+    "vs_clase": [
+      "**Un solo fármaco con tres acciones**: estrogénica (sofocos, hueso), progestágena (protege el endometrio) y **androgénica** (**mejora la LIBIDO**).",
+      "**No precisa gestágeno añadido** y apenas produce mastalgia.",
+      "**MÁS RIESGO de ICTUS** en mayores de 60 años (LIFT) y aumenta la recurrencia del cáncer de mama."
+    ],
+    "mecanismo": "Sus metabolitos activan de forma tejido-selectiva receptores de estrógenos, progesterona y andrógenos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síntomas del climaterio en mujeres posmenopáusicas (>12 meses de la última regla)",
+        "dosis": "2,5 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Útil si hay disminución de la libido"
+      }
+    ],
+    "esquema": {
+      "inicio": ">12 meses desde la última regla (si no, sangrado irregular).",
+      "titulacion": "—",
+      "duracion": "Reevaluar cada año.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Sangrado, PA, mamografía."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático a 3 metabolitos activos.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "45 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumenta el efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        },
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Menor eficacia",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado irregular",
+        "Aumento de peso, edemas",
+        "Hirsutismo leve"
+      ],
+      "graves": [
+        "**Ictus** (>60 años)",
+        "Recidiva del cáncer de mama"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama actual o previo",
+      "Antecedente de ictus o enfermedad cardiovascular",
+      "Trombosis previa",
+      "Sangrado vaginal no diagnosticado"
+    ],
+    "perlas": [
+      "Mujer joven posmenopáusica con sofocos y libido baja sin riesgo vascular: la tibolona es una opción."
+    ],
+    "embarazo_lactancia": "No indicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-doxilamina-piridoxina",
+    "nombre": "Doxilamina-piridoxina",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Antiemético",
+    "subclase": "Antihistamínico H1 + vitamina B6 (náuseas del embarazo)",
+    "vs_clase": [
+      "**De PRIMERA línea en las NÁUSEAS y VÓMITOS del EMBARAZO**, con amplia experiencia de seguridad fetal.",
+      "**Liberación retardada**: tomar **al acostarse** para cubrir las náuseas matutinas; efecto en horas, no inmediato.",
+      "**Somnolencia** (antihistamínico): precaución al conducir."
+    ],
+    "mecanismo": "La doxilamina bloquea receptores H1 y muscarínicos del centro del vómito; la piridoxina tiene un efecto antiemético propio poco conocido.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Náuseas y vómitos del embarazo",
+        "dosis": "10/10 mg (2 comprimidos); hasta 4 comprimidos al día",
+        "posologia": "2 al acostarse; si no basta, añadir 1 por la mañana y 1 a media tarde",
+        "via": "VO",
+        "nota": "Tomar en ayunas con agua"
+      }
+    ],
+    "esquema": {
+      "inicio": "2 comprimidos al acostarse.",
+      "titulacion": "Añadir dosis matutina y vespertina según síntomas.",
+      "duracion": "Mientras persistan los síntomas (habitualmente hasta la semana 16-20).",
+      "fin": "Reducir progresivamente.",
+      "via": "Oral.",
+      "monitorizacion": "Peso, cetonuria, hidratación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, retardada (cubierta entérica).",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "10-12 h (doxilamina).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Alcohol, depresores del SNC",
+          "efecto": "Sedación aditiva",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Otros anticolinérgicos",
+          "efecto": "Efectos anticolinérgicos aditivos",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**",
+        "Boca seca, estreñimiento"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Uso de IMAO"
+    ],
+    "perlas": [
+      "Hiperémesis (pérdida de peso >5%, cetonuria, deshidratación): ingreso, sueroterapia y tiamina antes de la glucosa."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de enfermedades médicas durante el embarazo"
+  },
+  {
+    "id": "GIN-medroxiprogesterona-depot",
+    "nombre": "Acetato de medroxiprogesterona de depósito (anticonceptivo inyectable)",
+    "sinonimos": [
+      "DMPA"
+    ],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Gestágeno inyectable trimestral",
+    "vs_clase": [
+      "**Inyección cada 12-13 SEMANAS**: muy eficaz y discreta; **sin estrógenos** (válida en migraña con aura, riesgo trombótico moderado, lactancia).",
+      "**PÉRDIDA de DENSIDAD ÓSEA** reversible con el uso prolongado y **AUMENTO DE PESO**.",
+      "**RETRASO de la fertilidad** de hasta 6-12 meses tras suspender; amenorrea frecuente."
+    ],
+    "mecanismo": "Inhibe la ovulación (supresión del pico de LH), espesa el moco cervical y atrofia el endometrio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción",
+        "dosis": "150 mg IM (o 104 mg SC)",
+        "posologia": "Cada 12-13 semanas",
+        "via": "IM o SC",
+        "nota": "Primera dosis en los 5 primeros días del ciclo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Días 1-5 del ciclo (si no, método de barrera 7 días).",
+      "titulacion": "—",
+      "duracion": "Reevaluar a los 2 años por el efecto óseo.",
+      "fin": "Retraso del retorno de la fertilidad.",
+      "via": "IM o SC.",
+      "monitorizacion": "Peso, patrón de sangrado, salud ósea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Depósito de liberación lenta.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (CYP3A4).",
+      "eliminacion": "Renal.",
+      "vida_media": "50 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Probablemente sin pérdida de eficacia relevante",
+          "gravedad": "baja",
+          "manejo": "Uno de los métodos preferidos con inductores"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sangrado irregular, después amenorrea**",
+        "**Aumento de peso**",
+        "Cefalea, cambios de ánimo"
+      ],
+      "graves": [
+        "**Pérdida de densidad mineral ósea**"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama",
+      "Sangrado vaginal no diagnosticado",
+      "Hepatopatía grave",
+      "Osteoporosis o alto riesgo de fractura (relativa)"
+    ],
+    "perlas": [
+      "Mujer que desea embarazo en el próximo año: mejor otro método (retraso de la fertilidad)."
+    ],
+    "embarazo_lactancia": "Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  }
+]

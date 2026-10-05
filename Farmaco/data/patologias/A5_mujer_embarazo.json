@@ -1,0 +1,330 @@
+[
+  {
+    "id": "PAT-climaterio",
+    "nombre": "Climaterio y síntomas de la menopausia",
+    "sinonimos": ["Menopausia", "Sofocos", "Síndrome genitourinario de la menopausia", "Atrofia vaginal"],
+    "area": "GIN",
+    "resumen": "La **terapia hormonal** es lo más eficaz para los sofocos; el balance es favorable si se inicia **antes de los 60 años o en los 10 años siguientes a la menopausia** y no hay contraindicaciones (cáncer de mama, trombosis, enfermedad cardiovascular, hepatopatía). **Con útero, añadir siempre gestágeno.** Para la atrofia vaginal aislada: **estrógeno vaginal** a dosis bajas. Si hay contraindicación: alternativas no hormonales.",
+    "objetivo": "Aliviar los síntomas con la menor dosis y el menor riesgo.",
+    "escenarios": [
+      {
+        "titulo": "Síntomas vasomotores, mujer con útero",
+        "farmacos": [
+          { "nombre": "Estradiol transdérmico", "ref": "GIN-estradiol", "dosis": "Parche 25-50 µg/24 h (o gel 0,5-1,5 mg)", "via": "transdérmica", "intervalo": "Parche cada 3-4 días; gel cada 24 h", "duracion": "Reevaluar cada año", "nota": "Sin aumento del riesgo trombótico" },
+          { "nombre": "Progesterona micronizada", "ref": "GIN-progesterona-micronizada", "dosis": "100 mg continuo (o 200 mg 12-14 días al mes)", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "Mientras dure el estrógeno" },
+          { "nombre": "Tibolona", "ref": "GIN-tibolona", "dosis": "2,5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar cada año", "nota": "Alternativa. Si hay baja libido; no si >60 años o riesgo vascular" }
+        ]
+      },
+      {
+        "titulo": "Síntomas vasomotores sin útero",
+        "farmacos": [
+          { "nombre": "Estradiol (sin gestágeno)", "ref": "GIN-estradiol", "dosis": "Parche 25-50 µg/24 h u oral 1-2 mg", "via": "transdérmica o VO", "intervalo": "Parche cada 3-4 días; oral cada 24 h", "duracion": "Reevaluar cada año" }
+        ]
+      },
+      {
+        "titulo": "Contraindicación de hormonas (p. ej., cáncer de mama)",
+        "farmacos": [
+          { "nombre": "Venlafaxina", "ref": "PSQ-venlafaxina", "dosis": "37,5-75 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a las 4-8 semanas", "nota": "Segura con tamoxifeno" },
+          { "nombre": "Gabapentina", "ref": "NEU-gabapentina", "dosis": "300 mg (hasta 900 mg)", "via": "VO", "intervalo": "Por la noche, o repartida cada 8 h", "duracion": "Reevaluar a las 4-8 semanas", "nota": "Útil si predominan los sofocos nocturnos" },
+          { "nombre": "Paroxetina (dosis baja)", "ref": "PSQ-paroxetina", "dosis": "7,5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar", "nota": "Alternativa. NO con tamoxifeno (inhibe CYP2D6)" }
+        ]
+      },
+      {
+        "titulo": "Síndrome genitourinario (sequedad, dispareunia, ITU recurrente)",
+        "farmacos": [
+          { "nombre": "Estrógeno vaginal", "ref": "GIN-estradiol", "dosis": "10 µg (comprimido) o 0,5 mg de estriol en crema", "via": "vaginal", "intervalo": "Cada 24 h 2 semanas; después 2 veces por semana", "duracion": "Continuo", "nota": "No necesita gestágeno" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ropa por capas, evitar desencadenantes (alcohol, picantes, calor), ejercicio, perder peso",
+      "Hidratantes y lubricantes vaginales",
+      "Prevención ósea y cardiovascular: calcio y vitamina D en la dieta, ejercicio, dejar de fumar"
+    ],
+    "claves": [
+      "**Sangrado vaginal en una mujer posmenopáusica: estudio endometrial.**",
+      "La terapia hormonal no se indica para prevenir la enfermedad cardiovascular ni la demencia."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de menopausia y terapia hormonal; Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "PAT-dismenorrea",
+    "nombre": "Dismenorrea",
+    "sinonimos": ["Dolor menstrual", "Reglas dolorosas"],
+    "area": "GIN",
+    "resumen": "**Primaria**: dolor cólico en hipogastrio que empieza con la regla, desde la adolescencia, sin patología pélvica; por **exceso de prostaglandinas** → **AINE** (empezar 1-2 días antes o al inicio del sangrado) y, si no basta o se desea anticoncepción, **anticonceptivos hormonales**. **Secundaria** (inicio tardío, dispareunia, sangrado anómalo, infertilidad): descartar **endometriosis**, adenomiosis, miomas, EPI.",
+    "objetivo": "Controlar el dolor y no pasar por alto una endometriosis.",
+    "escenarios": [
+      {
+        "titulo": "Dismenorrea primaria",
+        "farmacos": [
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400-600 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Los 2-3 primeros días de la regla", "nota": "Mejor si se empieza antes de que el dolor sea intenso" },
+          { "nombre": "Naproxeno", "ref": "REU-naproxeno", "dosis": "500 mg de inicio; después 250 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Los 2-3 primeros días", "nota": "Alternativa" },
+          { "nombre": "Dexketoprofeno", "ref": "REU-dexketoprofeno", "dosis": "25 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "Los 2-3 primeros días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Refractaria a AINE o deseo de anticoncepción",
+        "farmacos": [
+          { "nombre": "Anticonceptivo combinado (pauta continua o ampliada)", "ref": "GIN-etinilestradiol-levonorgestrel", "dosis": "30 µg/150 µg", "via": "VO", "intervalo": "Cada 24 h (sin descanso o con descansos cada 3 meses)", "duracion": "Continuo" },
+          { "nombre": "DIU de levonorgestrel", "ref": "GIN-diu-levonorgestrel", "dosis": "52 mg", "via": "intrauterina", "intervalo": "Inserción única", "duracion": "Hasta 8 años", "nota": "Alternativa. Muy útil en la adenomiosis y el sangrado abundante" },
+          { "nombre": "Desogestrel (contraindicación de estrógenos)", "ref": "GIN-desogestrel", "dosis": "75 µg", "via": "VO", "intervalo": "Cada 24 h continuo", "duracion": "Continuo", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Calor local en el abdomen, ejercicio regular",
+      "Ecografía y valoración ginecológica si hay datos de dismenorrea secundaria o no responde a 3 meses de tratamiento"
+    ],
+    "claves": [
+      "**Dismenorrea que no responde a AINE ni a anticonceptivos: sospechar endometriosis.**",
+      "Los AINE también reducen el sangrado menstrual abundante (20-40%)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos menstruales y dolor pélvico; Katzung 15.ª ed., cap. 36"
+  },
+  {
+    "id": "PAT-vaginosis-bacteriana",
+    "nombre": "Vaginosis bacteriana",
+    "sinonimos": ["Gardnerella", "Vaginosis"],
+    "area": "INF",
+    "resumen": "Flujo grisáceo, homogéneo, con **olor a pescado** (sobre todo tras el coito), **sin inflamación**. Criterios de Amsel (3 de 4): flujo típico, pH >4,5, prueba de aminas positiva, **células clave** (clue cells). Es un desequilibrio de la flora (Gardnerella, anaerobios), **no una ITS**: **no se trata a la pareja** masculina. Tratar a las sintomáticas y a las embarazadas sintomáticas.",
+    "objetivo": "Resolver los síntomas y reducir las recurrencias.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento (también en el embarazo)",
+        "farmacos": [
+          { "nombre": "Metronidazol oral", "ref": "INF-metronidazol", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7 días", "nota": "Evitar alcohol hasta 24 h después" },
+          { "nombre": "Metronidazol gel vaginal al 0,75%", "ref": "INF-metronidazol", "dosis": "5 g (un aplicador)", "via": "vaginal", "intervalo": "Cada 24 h al acostarse", "duracion": "5 días", "nota": "Alternativa" },
+          { "nombre": "Clindamicina crema vaginal al 2%", "ref": "INF-clindamicina", "dosis": "5 g (un aplicador)", "via": "vaginal", "intervalo": "Cada 24 h al acostarse", "duracion": "7 días", "nota": "Alternativa. Debilita los preservativos de látex" },
+          { "nombre": "Tinidazol", "ref": "INF-tinidazol", "dosis": "2 g", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2 días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Recurrente (≥3 episodios al año)",
+        "farmacos": [
+          { "nombre": "Metronidazol gel vaginal (supresión)", "ref": "INF-metronidazol", "dosis": "5 g al 0,75%", "via": "vaginal", "intervalo": "2 veces por semana", "duracion": "4-6 meses", "nota": "Tras un tratamiento completo de 10 días" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar duchas vaginales y jabones irritantes",
+      "Preservativo (reduce las recurrencias)"
+    ],
+    "claves": [
+      "**Flujo con olor a pescado y pH >4,5 sin prurito: vaginosis; con prurito y pH normal: candidiasis.**",
+      "Tricomoniasis: flujo espumoso, cérvix en fresa, sí es ITS (tratar a la pareja)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de transmisión sexual"
+  },
+  {
+    "id": "PAT-anticoncepcion",
+    "nombre": "Anticoncepción: elección del método y pauta",
+    "sinonimos": ["Planificación familiar", "Métodos anticonceptivos", "Píldora"],
+    "area": "GIN",
+    "resumen": "Elegir según **eficacia, contraindicaciones (criterios de elegibilidad de la OMS)** y preferencias. Los **métodos de larga duración (DIU, implante)** son los más eficaces en uso real (<1% de fallo). **Los combinados (estrógeno + gestágeno) están contraindicados** en: migraña con aura, ≥35 años fumadora de ≥15 cigarrillos/día, HTA no controlada, trombosis previa o trombofilia, <6 semanas posparto con lactancia, cáncer de mama, hepatopatía grave. En esos casos: **solo gestágeno o DIU**.",
+    "objetivo": "Un método eficaz, seguro y aceptado por la mujer.",
+    "escenarios": [
+      {
+        "titulo": "Métodos de larga duración (los más eficaces)",
+        "farmacos": [
+          { "nombre": "Implante de etonogestrel", "ref": "GIN-implante-etonogestrel", "dosis": "68 mg", "via": "SC (subdérmico)", "intervalo": "Inserción única", "duracion": "3 años (eficaz hasta 5)", "nota": "El método reversible más eficaz; sangrado irregular" },
+          { "nombre": "DIU de levonorgestrel", "ref": "GIN-diu-levonorgestrel", "dosis": "52 mg", "via": "intrauterina", "intervalo": "Inserción única", "duracion": "Hasta 8 años", "nota": "Reduce el sangrado menstrual" }
+        ]
+      },
+      {
+        "titulo": "Anticoncepción hormonal combinada",
+        "farmacos": [
+          { "nombre": "Etinilestradiol/levonorgestrel", "ref": "GIN-etinilestradiol-levonorgestrel", "dosis": "30 µg/150 µg (o 20/100 µg)", "via": "VO", "intervalo": "Cada 24 h, 21 días y 7 de descanso (o continua)", "duracion": "Continuo", "nota": "De elección entre las combinadas: menor riesgo trombótico" },
+          { "nombre": "Etinilestradiol/drospirenona", "ref": "GIN-etinilestradiol-drospirenona", "dosis": "20-30 µg/3 mg", "via": "VO", "intervalo": "Cada 24 h (24+4 o 21+7)", "duracion": "Continuo", "nota": "Alternativa. Acné o síndrome premenstrual; algo más de riesgo trombótico" },
+          { "nombre": "Anillo vaginal", "ref": "GIN-anillo-vaginal", "dosis": "1 anillo (15 µg de etinilestradiol + 120 µg de etonogestrel al día)", "via": "vaginal", "intervalo": "3 semanas puesto y 1 de descanso", "duracion": "Continuo", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Solo gestágeno (contraindicación de estrógenos, lactancia)",
+        "farmacos": [
+          { "nombre": "Desogestrel", "ref": "GIN-desogestrel", "dosis": "75 µg", "via": "VO", "intervalo": "Cada 24 h sin descanso", "duracion": "Continuo", "nota": "Margen de olvido de 12 h" },
+          { "nombre": "Medroxiprogesterona de depósito", "ref": "GIN-medroxiprogesterona-depot", "dosis": "150 mg IM (o 104 mg SC)", "via": "IM o SC", "intervalo": "Cada 12-13 semanas", "duracion": "Reevaluar a los 2 años", "nota": "Alternativa. Pérdida ósea y retraso de la fertilidad" }
+        ]
+      },
+      {
+        "titulo": "Anticoncepción de urgencia",
+        "farmacos": [
+          { "nombre": "Ulipristal acetato", "ref": "GIN-ulipristal", "dosis": "30 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Hasta 120 h tras el coito", "nota": "Más eficaz que el levonorgestrel; el DIU de cobre es el método de urgencia más eficaz" },
+          { "nombre": "Levonorgestrel", "ref": "GIN-levonorgestrel-urgencia", "dosis": "1,5 mg (3 mg si IMC >30 o inductores)", "via": "VO", "intervalo": "Dosis única", "duracion": "Hasta 72 h tras el coito", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "DIU de cobre: no hormonal, 10-12 años de duración, también como anticoncepción de urgencia (hasta 5 días)",
+      "Preservativo: el único que protege de las ITS (doble método)",
+      "Iniciar «el mismo día» (quick start) descartando embarazo y con método de barrera 7 días"
+    ],
+    "claves": [
+      "**Migraña con aura = contraindicación absoluta de estrógenos (riesgo de ictus).**",
+      "Los inductores enzimáticos (rifampicina, carbamazepina, fenitoína) reducen la eficacia de la píldora: usar DIU o medroxiprogesterona."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS"
+  },
+  {
+    "id": "PAT-sindrome-ovario-poliquistico",
+    "nombre": "Síndrome de ovario poliquístico",
+    "sinonimos": ["SOP", "Ovario poliquístico"],
+    "area": "END",
+    "resumen": "Diagnóstico (Rotterdam, 2 de 3): **oligo/anovulación**, **hiperandrogenismo** clínico o bioquímico y **ovarios poliquísticos** en la ecografía, tras excluir otras causas (hipotiroidismo, hiperprolactinemia, hiperplasia suprarrenal no clásica). Se asocia a **resistencia a la insulina**, diabetes, dislipemia e hiperplasia endometrial. El tratamiento depende del objetivo: ciclos y protección endometrial, hirsutismo o fertilidad.",
+    "objetivo": "Regular los ciclos, tratar el hiperandrogenismo, conseguir el embarazo si se desea y reducir el riesgo metabólico.",
+    "escenarios": [
+      {
+        "titulo": "Irregularidad menstrual e hiperandrogenismo (sin deseo gestacional)",
+        "farmacos": [
+          { "nombre": "Anticonceptivo combinado", "ref": "GIN-etinilestradiol-drospirenona", "dosis": "20-30 µg/3 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo", "nota": "Regula los ciclos, protege el endometrio y mejora acné e hirsutismo" },
+          { "nombre": "Espironolactona (hirsutismo tras 6 meses de anticonceptivo)", "ref": "CAR-espironolactona", "dosis": "50-100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "≥6 meses", "nota": "Siempre con anticoncepción eficaz (feminiza al feto varón)" }
+        ]
+      },
+      {
+        "titulo": "Alteraciones metabólicas",
+        "farmacos": [
+          { "nombre": "Metformina", "ref": "END-metformina", "dosis": "500 mg al inicio; 1500-2000 mg/día", "via": "VO", "intervalo": "Repartida en 2-3 tomas con comidas", "duracion": "Continuo", "nota": "Mejora la sensibilidad a la insulina y algo los ciclos" },
+          { "nombre": "Semaglutida (obesidad)", "ref": "END-semaglutida", "dosis": "0,25 mg subiendo hasta 2,4 mg", "via": "SC", "intervalo": "Una vez por semana", "duracion": "Continuo", "nota": "Suspender ≥2 meses antes de buscar embarazo" }
+        ]
+      },
+      {
+        "titulo": "Deseo gestacional (inducción de la ovulación)",
+        "farmacos": [
+          { "nombre": "Letrozol", "ref": "ONC-letrozol", "dosis": "2,5 mg (hasta 7,5 mg)", "via": "VO", "intervalo": "Cada 24 h, días 3-7 del ciclo", "duracion": "Hasta 6 ciclos", "nota": "De primera línea (más nacidos vivos que el clomifeno); uso fuera de ficha, con control ecográfico" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pérdida de peso del 5-10% (restaura la ovulación en muchas mujeres)",
+      "Cribado de diabetes, dislipemia, HTA y apnea del sueño",
+      "Métodos cosméticos para el hirsutismo (láser)"
+    ],
+    "claves": [
+      "**Amenorrea prolongada sin gestágeno: riesgo de hiperplasia y cáncer de endometrio.**",
+      "Virilización rápida o testosterona muy alta: descartar tumor ovárico o suprarrenal."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del aparato reproductor femenino; Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "PAT-hipertension-embarazo",
+    "nombre": "Hipertensión en el embarazo y preeclampsia",
+    "sinonimos": ["Preeclampsia", "Eclampsia", "HTA gestacional", "Síndrome HELLP"],
+    "area": "GIN",
+    "resumen": "HTA ≥140/90. **Preeclampsia**: HTA desde la semana 20 con proteinuria o daño orgánico (plaquetas <100 000, transaminasas altas, creatinina elevada, edema pulmonar, cefalea o alteraciones visuales). **Grave** (≥160/110 o daño orgánico): ingreso, antihipertensivo IV, **sulfato de magnesio** (prevención de la eclampsia) y finalizar la gestación según edad gestacional. **IECA, ARA-II y aliskireno están contraindicados** (fetotóxicos). Prevención con **AAS** en mujeres de alto riesgo.",
+    "objetivo": "PA 110-140/85; prevenir la eclampsia, el ictus y el daño fetal.",
+    "escenarios": [
+      {
+        "titulo": "HTA crónica o gestacional no grave",
+        "farmacos": [
+          { "nombre": "Labetalol", "ref": "CAR-labetalol", "dosis": "100-400 mg (máximo 2400 mg/día)", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Hasta el posparto" },
+          { "nombre": "Nifedipino de liberación prolongada", "ref": "CAR-nifedipino", "dosis": "30-60 mg (máximo 120 mg/día)", "via": "VO", "intervalo": "Cada 24 h (o cada 12 h)", "duracion": "Hasta el posparto", "nota": "Alternativa" },
+          { "nombre": "Metildopa", "ref": "CAR-metildopa", "dosis": "250-500 mg (máximo 3 g/día)", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Hasta el parto", "nota": "Alternativa. Cambiar en el posparto (depresión)" }
+        ]
+      },
+      {
+        "titulo": "HTA grave (≥160/110) — urgencia",
+        "farmacos": [
+          { "nombre": "Labetalol IV", "ref": "CAR-labetalol", "dosis": "20 mg; después 40 mg y 80 mg", "via": "IV", "intervalo": "Cada 10-20 min (máximo 300 mg)", "duracion": "Hasta PA <160/110", "nota": "Evitar en asma e insuficiencia cardiaca" },
+          { "nombre": "Nifedipino oral de liberación inmediata", "ref": "CAR-nifedipino", "dosis": "10-20 mg", "via": "VO", "intervalo": "Cada 20-30 min (máximo 50 mg en 1 h)", "duracion": "Hasta PA objetivo", "nota": "Alternativa. Tragado, nunca sublingual" },
+          { "nombre": "Hidralazina IV", "ref": "CAR-hidralazina", "dosis": "5-10 mg", "via": "IV", "intervalo": "Cada 20 min (máximo 30 mg)", "duracion": "Hasta PA objetivo", "nota": "Alternativa. Taquicardia e hipotensión materna" }
+        ]
+      },
+      {
+        "titulo": "Preeclampsia grave: prevención y tratamiento de la eclampsia",
+        "farmacos": [
+          { "nombre": "Sulfato de magnesio", "ref": "GIN-sulfato-magnesio", "dosis": "4-6 g de carga; después 1-2 g/h", "via": "IV", "intervalo": "Carga en 15-20 min y perfusión", "duracion": "24 h posparto", "nota": "Vigilar reflejos rotulianos, frecuencia respiratoria (>12) y diuresis; antídoto: gluconato cálcico 1 g IV" }
+        ]
+      },
+      {
+        "titulo": "Prevención en mujeres de alto riesgo",
+        "farmacos": [
+          { "nombre": "Ácido acetilsalicílico", "ref": "HEM-acido-acetilsalicilico", "dosis": "150 mg (75-162 mg según la guía)", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "Desde la semana 11-16 hasta la 36", "nota": "Preeclampsia previa, HTA crónica, diabetes, ERC, enfermedad autoinmune, gestación múltiple o cribado de riesgo positivo" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Control de PA, proteinuria, plaquetas, transaminasas y creatinina; ecografía de crecimiento fetal",
+      "Finalizar la gestación: preeclampsia a término (≥37 semanas) o grave según estado materno-fetal; corticoides para maduración pulmonar si <34 semanas",
+      "Seguimiento cardiovascular a largo plazo (riesgo aumentado de por vida)"
+    ],
+    "claves": [
+      "**IECA, ARA-II, aliskireno, espironolactona y atenolol: evitar en el embarazo.**",
+      "Convulsión en una gestante ≥20 semanas: eclampsia → magnesio, no benzodiacepinas de primera línea."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades médicas durante el embarazo; Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "PAT-itu-embarazo",
+    "nombre": "Bacteriuria asintomática e infección urinaria en el embarazo",
+    "sinonimos": ["Bacteriuria asintomática", "Cistitis en el embarazo", "Pielonefritis gestacional"],
+    "area": "INF",
+    "resumen": "En la embarazada **se cribra y se trata la bacteriuria asintomática** (urocultivo en el primer trimestre), porque sin tratamiento evoluciona a pielonefritis en el 20-30% y se asocia a parto pretérmino. Elegir antibióticos seguros según antibiograma y **urocultivo de control** tras el tratamiento. **Evitar quinolonas, tetraciclinas y cotrimoxazol** (primer trimestre y a término). Pielonefritis: **ingreso** y antibiótico IV.",
+    "objetivo": "Erradicar la bacteriuria y prevenir la pielonefritis y el parto pretérmino.",
+    "escenarios": [
+      {
+        "titulo": "Bacteriuria asintomática y cistitis",
+        "farmacos": [
+          { "nombre": "Fosfomicina trometamol", "ref": "INF-fosfomicina", "dosis": "3 g", "via": "VO", "intervalo": "Dosis única (en cistitis, valorar segunda dosis a las 72 h)", "duracion": "1 día" },
+          { "nombre": "Cefuroxima axetilo", "ref": "INF-cefuroxima", "dosis": "250 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-7 días", "nota": "Alternativa" },
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "500/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Alternativa" },
+          { "nombre": "Nitrofurantoína", "ref": "INF-nitrofurantoina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-7 días", "nota": "Alternativa. Evitar a término (≥38 semanas: hemólisis neonatal)" }
+        ]
+      },
+      {
+        "titulo": "Pielonefritis gestacional",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1-2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Hasta 48 h afebril; completar 10-14 días por vía oral según antibiograma" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Urocultivo de control 1-2 semanas tras el tratamiento y periódicamente después",
+      "Profilaxis antibiótica continua hasta el parto si hay recurrencias o tras una pielonefritis"
+    ],
+    "claves": [
+      "**En el embarazo la bacteriuria asintomática SÍ se trata (fuera del embarazo, no).**",
+      "Estreptococo del grupo B en orina: tratar y profilaxis intraparto obligatoria."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias; Katzung 15.ª ed., cap. 46"
+  },
+  {
+    "id": "PAT-nauseas-vomitos-embarazo",
+    "nombre": "Náuseas y vómitos del embarazo e hiperémesis gravídica",
+    "sinonimos": ["Hiperémesis gravídica", "Vómitos del embarazo"],
+    "area": "GIN",
+    "resumen": "Muy frecuentes en el primer trimestre (pico en la semana 9) y suelen ceder hacia la 16-20. **Hiperémesis gravídica**: vómitos persistentes con **pérdida de peso >5%**, cetonuria y deshidratación o alteraciones electrolíticas → ingreso. Descartar embarazo molar o múltiple, hipertiroidismo, infección urinaria. Escalera: medidas dietéticas → **doxilamina-piridoxina** → metoclopramida u ondansetrón → hospital.",
+    "objetivo": "Controlar los síntomas, mantener la hidratación y el peso, y prevenir la encefalopatía de Wernicke.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          { "nombre": "Doxilamina-piridoxina", "ref": "GIN-doxilamina-piridoxina", "dosis": "10/10 mg: 2 comprimidos (hasta 4 al día)", "via": "VO", "intervalo": "Al acostarse; añadir por la mañana y por la tarde si hace falta", "duracion": "Mientras persistan los síntomas" }
+        ]
+      },
+      {
+        "titulo": "Segunda línea",
+        "farmacos": [
+          { "nombre": "Metoclopramida", "ref": "DIG-metoclopramida", "dosis": "10 mg", "via": "VO, IM o IV", "intervalo": "Cada 8 h", "duracion": "≤5 días seguidos (riesgo de distonía)" },
+          { "nombre": "Ondansetrón", "ref": "DIG-ondansetron", "dosis": "4-8 mg", "via": "VO o IV", "intervalo": "Cada 8-12 h", "duracion": "Según síntomas", "nota": "Alternativa. Preferible tras la semana 10 (posible pequeño aumento de fisuras orales)" }
+        ]
+      },
+      {
+        "titulo": "Hiperémesis gravídica (hospital)",
+        "farmacos": [
+          { "nombre": "Suero salino 0,9% con cloruro potásico", "ref": "NFR-salino-isotonico", "dosis": "1-2 L en las primeras horas", "via": "IV", "intervalo": "Perfusión según volemia", "duracion": "Hasta tolerar la vía oral", "nota": "Corregir potasio y magnesio" },
+          { "nombre": "Tiamina", "ref": "HEM-tiamina", "dosis": "100 mg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Mientras haya vómitos", "nota": "Antes de cualquier suero glucosado (encefalopatía de Wernicke)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Comidas pequeñas y frecuentes, secas, ricas en hidratos de carbono; evitar olores y grasas",
+      "Jengibre (evidencia modesta); acupresión en P6",
+      "Retirar temporalmente el hierro oral si empeora las náuseas"
+    ],
+    "claves": [
+      "**Tiamina antes que glucosa en toda hiperémesis.**",
+      "Vómitos que empiezan después de la semana 10 o con dolor abdominal: buscar otra causa."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades médicas durante el embarazo; Katzung 15.ª ed., cap. 62"
+  }
+]

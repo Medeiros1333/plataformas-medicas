@@ -1,0 +1,203 @@
+[
+  {
+    "id": "PAT-resfriado-comun",
+    "nombre": "Resfriado común y congestión nasal",
+    "sinonimos": ["Catarro", "Rinofaringitis aguda", "Infección respiratoria alta"],
+    "area": "NML",
+    "resumen": "Infección vírica autolimitada (7-10 días; la tos puede durar 3 semanas). **Los antibióticos no aportan nada**, tampoco con moco verde. Tratamiento **sintomático** y breve. Antitusígenos y descongestionantes **contraindicados en <6 años** (falta de eficacia y riesgo de toxicidad). Reconsultar si fiebre >3-4 días, empeoramiento tras mejorar, dolor facial intenso o disnea.",
+    "objetivo": "Alivio de síntomas sin tratamientos innecesarios.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "500 mg-1 g", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "A demanda (fiebre, dolor)" },
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "A demanda", "nota": "Alternativa" },
+          { "nombre": "Oximetazolina nasal (congestión)", "ref": "NML-oximetazolina", "dosis": "1-2 pulverizaciones (0,05%) por fosa", "via": "IN", "intervalo": "Cada 12 h", "duracion": "Máximo 3-5 días (rebote)" },
+          { "nombre": "Dextrometorfano (tos seca que impide dormir)", "ref": "NML-dextrometorfano", "dosis": "15-30 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Pocos días", "nota": "Beneficio escaso" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Paracetamol", "ref": "PED-REU-paracetamol", "dosis": "15 mg/kg/dosis", "via": "VO", "intervalo": "Cada 6 h (máximo 60-75 mg/kg/día)", "duracion": "A demanda (malestar, fiebre)", "nota": "Lavados nasales con suero; miel en >1 año para la tos" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavados nasales con suero fisiológico, hidratación, reposo relativo",
+      "Miel (en mayores de 1 año) para la tos nocturna",
+      "Lavado de manos para evitar el contagio"
+    ],
+    "claves": [
+      "**El color del moco no distingue infección vírica de bacteriana.**",
+      "Sinusitis bacteriana: síntomas >10 días, o empeoramiento tras mejorar, o fiebre alta con dolor facial ≥3 días."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones respiratorias víricas comunes; Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "PAT-bronquitis-aguda-tos",
+    "nombre": "Bronquitis aguda, tos aguda y tosferina",
+    "sinonimos": ["Bronquitis", "Tos", "Tos ferina", "Pertussis"],
+    "area": "NML",
+    "resumen": "La bronquitis aguda del adulto sano es **vírica en >90%**: tos (con o sin esputo) que dura 1-3 semanas, sin signos de neumonía (FC >100, FR >24, fiebre >38 °C, focalidad en la auscultación). **No usar antibióticos** salvo sospecha de **tosferina**, EPOC exacerbada o neumonía. Tosferina: tos paroxística >2 semanas con gallo inspiratorio o vómitos tras la tos → **macrólido** (reduce el contagio si se da en las 3 primeras semanas) y profilaxis de contactos de riesgo.",
+    "objetivo": "Alivio sintomático y uso racional de antibióticos.",
+    "escenarios": [
+      {
+        "titulo": "Bronquitis aguda vírica",
+        "farmacos": [
+          { "nombre": "Dextrometorfano (tos seca molesta)", "ref": "NML-dextrometorfano", "dosis": "15-30 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Pocos días" },
+          { "nombre": "Levodropropizina", "ref": "NML-levodropropizina", "dosis": "60 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "≤7 días", "nota": "Alternativa sin sedación" },
+          { "nombre": "Salbutamol (sibilancias o hiperreactividad)", "ref": "NML-salbutamol", "dosis": "200 µg (2 inhalaciones)", "via": "inhalada", "intervalo": "Cada 6-8 h a demanda", "duracion": "Pocos días", "nota": "Solo si hay broncoespasmo" }
+        ]
+      },
+      {
+        "titulo": "Tosferina (tratamiento y profilaxis postexposición)",
+        "farmacos": [
+          { "nombre": "Azitromicina", "ref": "INF-azitromicina", "dosis": "500 mg el día 1; 250 mg los días 2-5", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5 días", "nota": "Profilaxis igual en contactos domésticos y de riesgo (lactantes, embarazadas)" },
+          { "nombre": "Claritromicina", "ref": "INF-claritromicina", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7 días", "nota": "Alternativa" },
+          { "nombre": "Cotrimoxazol (alergia a macrólidos)", "ref": "INF-cotrimoxazol", "dosis": "160/800 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "14 días", "nota": "Alternativa. No en embarazo a término ni en <2 meses" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar la duración esperada de la tos (2-3 semanas) para evitar reconsultas y antibióticos",
+      "Dejar de fumar; miel; hidratación",
+      "Tos >8 semanas: radiografía de tórax y estudio (goteo posnasal, asma, reflujo, IECA)"
+    ],
+    "claves": [
+      "**Los antibióticos no acortan la bronquitis aguda.**",
+      "Tos crónica en paciente con IECA: probar retirarlo (tarda hasta 4 semanas en ceder)."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de tos y de tos ferina; Katzung 15.ª ed., cap. 44"
+  },
+  {
+    "id": "PAT-conjuntivitis",
+    "nombre": "Conjuntivitis y ojo rojo",
+    "sinonimos": ["Ojo rojo", "Conjuntivitis bacteriana", "Conjuntivitis vírica", "Conjuntivitis alérgica"],
+    "area": "OFT",
+    "resumen": "**Vírica** (la más frecuente): secreción acuosa, adenopatía preauricular, muy contagiosa, autolimitada en 1-3 semanas. **Bacteriana**: secreción purulenta, párpados pegados. **Alérgica**: **picor**, bilateral, estacional. **Derivar urgente** si hay **dolor intenso, pérdida de visión, fotofobia, pupila alterada, opacidad corneal** (queratitis, uveítis, glaucoma agudo) o **portador de lentillas** con ojo rojo doloroso. Nunca pautar corticoides oculares sin explorar la córnea.",
+    "objetivo": "Tratar la causa y no pasar por alto una urgencia oftalmológica.",
+    "escenarios": [
+      {
+        "titulo": "Conjuntivitis bacteriana",
+        "farmacos": [
+          { "nombre": "Tobramicina colirio", "ref": "OFT-tobramicina-colirio", "dosis": "1-2 gotas (0,3%)", "via": "oftálmica", "intervalo": "Cada 4-6 h", "duracion": "5-7 días" },
+          { "nombre": "Ofloxacino colirio (portador de lentillas)", "ref": "OFT-ofloxacino-colirio", "dosis": "1-2 gotas (0,3%)", "via": "oftálmica", "intervalo": "Cada 4-6 h", "duracion": "5-7 días", "nota": "Retirar las lentillas; derivar si hay dolor o infiltrado corneal" }
+        ]
+      },
+      {
+        "titulo": "Conjuntivitis gonocócica (hiperaguda, muy purulenta)",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1 g", "via": "IM", "intervalo": "Dosis única", "duracion": "1 día", "nota": "Lavados con suero; valoración oftalmológica urgente (perforación corneal)" }
+        ]
+      },
+      {
+        "titulo": "Conjuntivitis alérgica",
+        "farmacos": [
+          { "nombre": "Olopatadina colirio", "ref": "OFT-olopatadina", "dosis": "1 gota (0,1%)", "via": "oftálmica", "intervalo": "Cada 12 h", "duracion": "Durante la exposición" },
+          { "nombre": "Ketotifeno colirio", "ref": "OFT-ketotifeno-colirio", "dosis": "1 gota (0,025%)", "via": "oftálmica", "intervalo": "Cada 12 h", "duracion": "Durante la exposición", "nota": "Alternativa" },
+          { "nombre": "Antihistamínico oral (síntomas nasales asociados)", "ref": "INM-bilastina", "dosis": "20 mg", "via": "VO", "intervalo": "Cada 24 h en ayunas", "duracion": "Durante la exposición" }
+        ]
+      },
+      {
+        "titulo": "Herpes zóster oftálmico (lesiones en la frente o la punta de la nariz)",
+        "farmacos": [
+          { "nombre": "Valaciclovir", "ref": "INF-valaciclovir", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "7 días", "nota": "Iniciar en <72 h; valoración oftalmológica" },
+          { "nombre": "Aciclovir", "ref": "INF-aciclovir", "dosis": "800 mg", "via": "VO", "intervalo": "5 veces al día", "duracion": "7 días", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Vírica: compresas frías, lágrimas artificiales, higiene de manos y no compartir toallas (contagio 10-14 días)",
+      "Alérgica: evitar el alérgeno, lavados con suero frío",
+      "Retirar lentillas hasta la curación"
+    ],
+    "claves": [
+      "**Ojo rojo + dolor + baja visión = urgencia oftalmológica (queratitis, uveítis, glaucoma agudo).**",
+      "**Nunca corticoide ocular sin descartar una queratitis herpética con fluoresceína.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares; Katzung 15.ª ed., cap. 39"
+  },
+  {
+    "id": "PAT-otitis-externa",
+    "nombre": "Otitis externa",
+    "sinonimos": ["Oído de nadador", "Otitis externa maligna", "Otomicosis"],
+    "area": "INF",
+    "resumen": "Otalgia que **aumenta al traccionar el pabellón o presionar el trago**, con edema y secreción del conducto. Agentes: **Pseudomonas aeruginosa y S. aureus**. Tratamiento **tópico** (gotas) tras limpiar el conducto; antibiótico oral solo si hay celulitis periauricular, diabetes o inmunodepresión, o no llegan las gotas. **Otitis externa maligna** (diabético anciano, dolor intenso nocturno, tejido de granulación): Pseudomonas invasiva → **antibiótico IV** y TC.",
+    "objetivo": "Curación clínica en 7 días y detectar la forma maligna.",
+    "escenarios": [
+      {
+        "titulo": "Otitis externa aguda difusa",
+        "farmacos": [
+          { "nombre": "Ciprofloxacino ótico (± corticoide)", "ref": "INF-ciprofloxacino-otico", "dosis": "0,25 mL (monodosis) o 4-6 gotas", "via": "ótica", "intervalo": "Cada 12 h", "duracion": "7 días", "nota": "De elección si hay perforación o no se ve el tímpano" },
+          { "nombre": "Ofloxacino ótico", "ref": "INF-ofloxacino-otico", "dosis": "10 gotas", "via": "ótica", "intervalo": "Cada 24 h", "duracion": "7 días", "nota": "Alternativa" },
+          { "nombre": "Polimixina B + neomicina + hidrocortisona", "ref": "INF-polimixina-neomicina-otica", "dosis": "4 gotas", "via": "ótica", "intervalo": "Cada 6-8 h", "duracion": "7 días", "nota": "Alternativa. Solo con tímpano íntegro" },
+          { "nombre": "Ibuprofeno (dolor)", "ref": "REU-ibuprofeno", "dosis": "400-600 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "2-3 días" }
+        ]
+      },
+      {
+        "titulo": "Otitis externa maligna (necrotizante)",
+        "farmacos": [
+          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "400 mg IV o 750 mg VO", "via": "IV o VO", "intervalo": "Cada 8-12 h", "duracion": "6-8 semanas", "nota": "Formas graves: ceftazidima, cefepima o piperacilina-tazobactam IV" },
+          { "nombre": "Ceftazidima", "ref": "INF-ceftazidima", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Inicio IV y paso a ciprofloxacino oral", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Otomicosis (Aspergillus, Candida)",
+        "farmacos": [
+          { "nombre": "Clotrimazol al 1% (solución)", "ref": "DER-clotrimazol", "dosis": "3-4 gotas", "via": "ótica", "intervalo": "Cada 8-12 h", "duracion": "10-14 días", "nota": "Tras aspirar los detritos" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Limpieza del conducto (aspiración); mecha si el edema impide que entren las gotas",
+      "Mantener el oído seco 7-10 días; no usar bastoncillos",
+      "Prevención en nadadores: tapones, secado, gotas de ácido acético o alcohol tras el baño"
+    ],
+    "claves": [
+      "**Si no se ve el tímpano, usar gotas no ototóxicas (quinolona).**",
+      "Diabético anciano con otalgia intensa que no mejora: otitis externa maligna (parálisis facial = osteomielitis de base de cráneo)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones del oído; Katzung 15.ª ed., cap. 46"
+  },
+  {
+    "id": "PAT-glaucoma",
+    "nombre": "Glaucoma de ángulo abierto y cierre angular agudo",
+    "sinonimos": ["Glaucoma", "Hipertensión ocular", "Glaucoma agudo"],
+    "area": "OFT",
+    "resumen": "**Ángulo abierto**: neuropatía óptica progresiva, **asintomática** hasta fases avanzadas (pérdida del campo periférico); el tratamiento baja la PIO (objetivo −25-30%). Primera línea: **análogo de prostaglandina**. **Cierre angular agudo**: ojo rojo muy doloroso, visión borrosa con halos, **pupila media arreactiva**, cefalea y vómitos, ojo «duro» → **bajar la PIO de inmediato** y derivar para **iridotomía láser** (también del otro ojo). Los anticolinérgicos y simpaticomiméticos pueden precipitarlo en ojos predispuestos.",
+    "objetivo": "Frenar la pérdida de campo visual; en el cierre agudo, salvar la visión en horas.",
+    "escenarios": [
+      {
+        "titulo": "Glaucoma de ángulo abierto",
+        "farmacos": [
+          { "nombre": "Latanoprost", "ref": "OFT-latanoprost", "dosis": "1 gota (0,005%)", "via": "oftálmica", "intervalo": "Cada 24 h por la noche", "duracion": "Indefinida" },
+          { "nombre": "Timolol", "ref": "OFT-timolol", "dosis": "1 gota (0,5%)", "via": "oftálmica", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Asociado o alternativa. No en asma ni bradicardia" },
+          { "nombre": "Dorzolamida", "ref": "OFT-dorzolamida", "dosis": "1 gota (2%)", "via": "oftálmica", "intervalo": "Cada 8 h (cada 12 h combinada con timolol)", "duracion": "Indefinida", "nota": "Asociado" },
+          { "nombre": "Brimonidina", "ref": "OFT-brimonidina", "dosis": "1 gota (0,2%)", "via": "oftálmica", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Asociado. Alergia ocular frecuente" }
+        ]
+      },
+      {
+        "titulo": "Cierre angular agudo (urgencia)",
+        "farmacos": [
+          { "nombre": "Acetazolamida", "ref": "NFR-acetazolamida", "dosis": "500 mg", "via": "IV o VO", "intervalo": "Dosis inicial; después 250 mg cada 6 h", "duracion": "Hasta la iridotomía" },
+          { "nombre": "Timolol colirio", "ref": "OFT-timolol", "dosis": "1 gota (0,5%)", "via": "oftálmica", "intervalo": "Dosis inicial; después cada 12 h", "duracion": "Hasta la iridotomía" },
+          { "nombre": "Brimonidina colirio", "ref": "OFT-brimonidina", "dosis": "1 gota", "via": "oftálmica", "intervalo": "Dosis inicial", "duracion": "Hasta la iridotomía" },
+          { "nombre": "Pilocarpina colirio", "ref": "OFT-pilocarpina", "dosis": "1 gota (1-2%)", "via": "oftálmica", "intervalo": "Cada 15 min × 2-3; después cada 6 h", "duracion": "Hasta la iridotomía", "nota": "Una vez que la PIO empieza a bajar" },
+          { "nombre": "Manitol (PIO muy alta refractaria)", "ref": "NFR-manitol", "dosis": "1-2 g/kg", "via": "IV", "intervalo": "En 30-45 min", "duracion": "Dosis única", "nota": "Precaución en insuficiencia cardiaca o renal" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cribado oftalmológico (PIO, papila, campo visual) en >40 años con antecedentes familiares, miopía alta, raza negra o diabetes",
+      "Trabeculoplastia láser como alternativa de primera línea en el ángulo abierto",
+      "Iridotomía láser en el cierre angular (y profiláctica en el ojo contralateral)"
+    ],
+    "claves": [
+      "**Ojo rojo doloroso con pupila media fija y halos: cierre angular → oftalmólogo urgente.**",
+      "Anticolinérgicos, antihistamínicos y topiramato pueden desencadenar un cierre angular."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares; Katzung 15.ª ed., cap. 10"
+  }
+]

@@ -1,0 +1,409 @@
+[
+  {
+    "id": "NFR-sildenafilo",
+    "nombre": "Sildenafilo",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Inhibidor de la fosfodiesterasa 5",
+    "subclase": "Inhibidor de PDE-5 de acción corta",
+    "vs_clase": [
+      "**Acción CORTA (4-6 h)**, tomar **1 h antes** de la relación; **la comida grasa retrasa su efecto**.",
+      "**Inhibe algo la PDE-6 retiniana**: **visión azulada** (cianopsia) transitoria.",
+      "Indicación propia además de la disfunción eréctil: **hipertensión arterial PULMONAR** (20 mg cada 8 h)."
+    ],
+    "mecanismo": "Inhibe la PDE-5 del cuerpo cavernoso: aumenta el GMPc liberado por el óxido nítrico durante la estimulación sexual y prolonga la relajación del músculo liso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Disfunción eréctil",
+        "dosis": "50 mg (25-100 mg)",
+        "posologia": "1 h antes de la relación, máximo 1 vez al día",
+        "via": "VO",
+        "nota": "25 mg en ≥65 años, insuficiencia hepática o renal grave, o con inhibidores de CYP3A4"
+      },
+      {
+        "patologia": "Hipertensión arterial pulmonar",
+        "dosis": "20 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Unidades especializadas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar uso de nitratos y valorar el riesgo cardiovascular (la actividad sexual equivale a esfuerzo moderado).",
+      "titulacion": "Ajustar según eficacia y tolerancia; probar ≥4-6 veces antes de considerarlo ineficaz.",
+      "duracion": "A demanda.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "PA, eficacia, efectos adversos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 40%; la comida grasa retrasa el pico.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal.",
+      "vida_media": "4 h.",
+      "ajuste_renal": "FG <30: 25 mg.",
+      "ajuste_hepatico": "Cirrosis: 25 mg.",
+      "interacciones": [
+        {
+          "con": "Nitratos y donantes de NO (nitroglicerina, mononitrato, riociguat)",
+          "efecto": "Hipotensión grave y potencialmente mortal",
+          "gravedad": "alta",
+          "manejo": "Contraindicado (separar ≥24 h)"
+        },
+        {
+          "con": "Alfabloqueantes (doxazosina)",
+          "efecto": "Hipotensión ortostática",
+          "gravedad": "media",
+          "manejo": "Empezar con dosis bajas y separar las tomas"
+        },
+        {
+          "con": "Ritonavir, claritromicina, ketoconazol",
+          "efecto": "Aumentan mucho sus niveles",
+          "gravedad": "media",
+          "manejo": "Máximo 25 mg en 48 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubefacción",
+        "Congestión nasal, dispepsia",
+        "**Visión azulada transitoria**"
+      ],
+      "graves": [
+        "**Priapismo** (>4 h: urgencia)",
+        "Neuropatía óptica isquémica anterior no arterítica",
+        "Hipoacusia súbita"
+      ]
+    },
+    "contraindicaciones": [
+      "**Tratamiento con nitratos**",
+      "Hipotensión <90/50, IAM o ictus recientes, angina inestable",
+      "Antecedente de neuropatía óptica isquémica"
+    ],
+    "perlas": [
+      "Paciente con dolor torácico que tomó sildenafilo en las últimas 24 h: NO dar nitroglicerina."
+    ],
+    "embarazo_lactancia": "No aplicable (indicación masculina); en HAP de la mujer, valorar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "NFR-tadalafilo",
+    "nombre": "Tadalafilo",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Inhibidor de la fosfodiesterasa 5",
+    "subclase": "Inhibidor de PDE-5 de acción larga",
+    "vs_clase": [
+      "**Vida media LARGA (17,5 h)**: efecto hasta **36 h** («el de fin de semana»), y no le afecta la comida.",
+      "**Pauta DIARIA de 5 mg**, que trata a la vez la **disfunción eréctil y los síntomas de HBP**.",
+      "**Lumbalgia y mialgias** (inhibe algo la PDE-11), sin visión azulada; contraindicado con nitratos hasta **48 h** después."
+    ],
+    "mecanismo": "Inhibición selectiva de la PDE-5.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Disfunción eréctil a demanda",
+        "dosis": "10-20 mg",
+        "posologia": "≥30 min antes de la relación, máximo 1 vez al día",
+        "via": "VO",
+        "nota": "—"
+      },
+      {
+        "patologia": "Disfunción eréctil con relaciones frecuentes, o síntomas de HBP",
+        "dosis": "5 mg",
+        "posologia": "Cada 24 h a la misma hora",
+        "via": "VO",
+        "nota": "2,5 mg si hay intolerancia"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar nitratos.",
+      "titulacion": "—",
+      "duracion": "A demanda o continua.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "PA, síntomas urinarios."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, no afectada por la comida.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal.",
+      "vida_media": "**17,5 h**.",
+      "ajuste_renal": "FG <30: máximo 5 mg a demanda; no la pauta diaria.",
+      "ajuste_hepatico": "Cirrosis grave: evitar.",
+      "interacciones": [
+        {
+          "con": "Nitratos y donantes de NO",
+          "efecto": "Hipotensión grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado (separar ≥48 h)"
+        },
+        {
+          "con": "Alfabloqueantes",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Empezar con dosis bajas"
+        },
+        {
+          "con": "Inhibidores potentes de CYP3A4",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Máximo 10 mg cada 72 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubefacción, dispepsia",
+        "**Lumbalgia y mialgias**"
+      ],
+      "graves": [
+        "Priapismo",
+        "Neuropatía óptica isquémica (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con nitratos",
+      "Cardiopatía en la que la actividad sexual esté desaconsejada"
+    ],
+    "perlas": [
+      "Varón con HBP y disfunción eréctil: tadalafilo 5 mg diario puede resolver ambos problemas."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "NFR-vardenafilo",
+    "nombre": "Vardenafilo",
+    "sinonimos": [
+      "Avanafilo"
+    ],
+    "area": "NFR",
+    "nivel": 3,
+    "clase": "Inhibidor de la fosfodiesterasa 5",
+    "subclase": "Inhibidor de PDE-5 de acción corta",
+    "vs_clase": [
+      "**Perfil parecido al sildenafilo** (acción corta) con **forma bucodispersable**.",
+      "**Alarga ligeramente el QT**: evitar con antiarrítmicos de clase IA y III y en el QT largo congénito.",
+      "El **avanafilo** (pariente) tiene el **inicio más rápido** (15-30 min)."
+    ],
+    "mecanismo": "Inhibición selectiva de la PDE-5.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Disfunción eréctil",
+        "dosis": "10 mg (5-20 mg)",
+        "posologia": "25-60 min antes de la relación, máximo 1 vez al día",
+        "via": "VO",
+        "nota": "5 mg en ≥65 años"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar nitratos y QT largo.",
+      "titulacion": "—",
+      "duracion": "A demanda.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 15%.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal.",
+      "vida_media": "4-5 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Moderada: 5 mg; grave: contraindicado.",
+      "interacciones": [
+        {
+          "con": "Nitratos",
+          "efecto": "Hipotensión grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Amiodarona, sotalol, quinidina",
+          "efecto": "Prolongación del QT",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Ritonavir, ketoconazol",
+          "efecto": "Aumentos masivos de sus niveles",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubefacción, congestión nasal"
+      ],
+      "graves": [
+        "Priapismo",
+        "Prolongación del QT"
+      ]
+    },
+    "contraindicaciones": [
+      "Nitratos",
+      "QT largo congénito",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Si un inhibidor de PDE-5 falla, revisar la técnica (estimulación sexual, tiempo, comida) antes de cambiar."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "NFR-mirabegron",
+    "nombre": "Mirabegrón",
+    "sinonimos": [
+      "Vibegrón"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Agonista beta-3 adrenérgico vesical",
+    "clase_unica": "Familia de dos fármacos (mirabegrón y vibegrón) con el mismo mecanismo y perfil; el vibegrón se recoge como sinónimo.",
+    "subclase": "Agonista beta-3",
+    "mecanismo": "Estimula los receptores beta-3 del detrusor y lo relaja durante la fase de llenado: aumenta la capacidad vesical.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vejiga hiperactiva (urgencia, frecuencia, incontinencia de urgencia)",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Vibegrón 75 mg cada 24 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA basal.",
+      "titulacion": "De 25 a 50 mg tras 4-8 semanas.",
+      "duracion": "Continua si responde; reevaluar a las 12 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "**PA**, residuo posmiccional si hay obstrucción."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 29-35%.",
+      "distribucion": "Amplia.",
+      "metabolismo": "CYP3A4 y 2D6; **inhibidor moderado de CYP2D6**.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "50 h.",
+      "ajuste_renal": "FG 15-30: 25 mg.",
+      "ajuste_hepatico": "Moderada: 25 mg; grave: evitar.",
+      "interacciones": [
+        {
+          "con": "Metoprolol, flecainida, tricíclicos (sustratos de CYP2D6)",
+          "efecto": "Aumenta sus niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar o ajustar"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Aumento de la digoxinemia",
+          "gravedad": "media",
+          "manejo": "Iniciar digoxina a dosis baja y medir niveles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hipertensión**",
+        "Taquicardia",
+        "Infección urinaria, cefalea"
+      ],
+      "graves": [
+        "Crisis hipertensiva (rara)",
+        "Retención urinaria en obstrucción"
+      ]
+    },
+    "contraindicaciones": [
+      "HTA grave no controlada (≥180/110)"
+    ],
+    "perlas": [
+      "**Alternativa a los antimuscarínicos SIN efectos anticolinérgicos**: de elección en ancianos con deterioro cognitivo o riesgo de demencia."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "END-calcitonina",
+    "nombre": "Calcitonina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Osteoformador y antirresortivo no bisfosfonato",
+    "subclase": "Hormona antirresortiva",
+    "vs_clase": [
+      "**Acción RAPIDÍSIMA (horas)** en la **HIPERCALCEMIA grave**, como puente hasta que actúan los bisfosfonatos (2-4 días).",
+      "**TAQUIFILAXIA en 48 h**: solo sirve los primeros días.",
+      "**Ya no se usa en la osteoporosis** (escasa eficacia y aumento de neoplasias con el uso prolongado)."
+    ],
+    "mecanismo": "Inhibe la resorción osteoclástica y aumenta la excreción renal de calcio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipercalcemia grave (Ca >14 mg/dL o sintomática)",
+        "dosis": "4 UI/kg",
+        "posologia": "Cada 12 h (hasta 8 UI/kg cada 6 h)",
+        "via": "SC o IM",
+        "nota": "48 h como máximo, junto a salino y bisfosfonato"
+      }
+    ],
+    "esquema": {
+      "inicio": "Junto a la hidratación con salino.",
+      "titulacion": "—",
+      "duracion": "≤48 h (taquifilaxia).",
+      "fin": "—",
+      "via": "SC o IM (la intranasal no sirve en la hipercalcemia).",
+      "monitorizacion": "Calcio cada 6-12 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC o IM.",
+      "distribucion": "—",
+      "metabolismo": "Renal.",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Litio",
+          "efecto": "Reduce la litemia",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, rubefacción"
+      ],
+      "graves": [
+        "Hipocalcemia",
+        "Reacciones alérgicas"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a la calcitonina de salmón"
+    ],
+    "perlas": [
+      "En la hipercalcemia: salino (horas) + calcitonina (horas, 48 h) + zoledronato (días) cubren el tiempo entero."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., cap. de hipercalcemia"
+  }
+]

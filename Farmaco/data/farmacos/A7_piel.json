@@ -1,0 +1,943 @@
+[
+  {
+    "id": "DER-calcipotriol",
+    "nombre": "Calcipotriol (± betametasona)",
+    "sinonimos": [
+      "Calcipotriol/betametasona dipropionato"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Análogo tópico de la vitamina D",
+    "subclase": "Análogo sintético de calcitriol",
+    "vs_clase": [
+      "**De primera línea en la PSORIASIS en placas leve-moderada**; la **combinación con betametasona** (gel, espuma, pomada) es la más eficaz y se aplica **una vez al día**.",
+      "**Irritación** en cara y pliegues (evitarlo ahí o usar calcitriol).",
+      "**Hipercalcemia** si se superan **100 g/semana** (o >30% de superficie)."
+    ],
+    "mecanismo": "Activa el receptor de vitamina D del queratinocito: inhibe la proliferación, normaliza la diferenciación y modula la inflamación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas leve-moderada",
+        "dosis": "Capa fina (máximo 100 g/semana)",
+        "posologia": "Cada 24 h (combinación) o cada 12 h (calcipotriol solo)",
+        "via": "tópica",
+        "nota": "Combinación: 4 semanas y después mantenimiento 2 días por semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "4-8 semanas; mantenimiento proactivo.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Calcio si se usan grandes cantidades."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea ~6%.",
+      "distribucion": "—",
+      "metabolismo": "Hepático rápido.",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "Evitar en insuficiencia renal grave.",
+      "ajuste_hepatico": "Evitar en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Ácido salicílico tópico",
+          "efecto": "Inactiva el calcipotriol",
+          "gravedad": "baja",
+          "manejo": "No aplicar a la vez"
+        },
+        {
+          "con": "Fototerapia UVB",
+          "efecto": "Lo degrada",
+          "gravedad": "baja",
+          "manejo": "Aplicar después de la sesión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Irritación**, prurito, eritema"
+      ],
+      "graves": [
+        "**Hipercalcemia** (uso excesivo)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia",
+      "Insuficiencia renal o hepática grave",
+      "Psoriasis eritrodérmica o pustulosa generalizada"
+    ],
+    "perlas": [
+      "Placa de psoriasis gruesa: retirar primero la descamación con salicílico, y después calcipotriol (no a la vez)."
+    ],
+    "embarazo_lactancia": "Evitar en grandes superficies.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-calcitriol-topico",
+    "nombre": "Calcitriol tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Análogo tópico de la vitamina D",
+    "subclase": "Metabolito activo natural de la vitamina D",
+    "vs_clase": [
+      "**El MENOS IRRITANTE** de la clase: útil en **cara, pliegues y psoriasis invertida**.",
+      "Forma natural (no análogo sintético): **ligeramente menos potente**.",
+      "Mismo límite de cantidad semanal por el riesgo de hipercalcemia."
+    ],
+    "mecanismo": "Agonista natural del receptor de vitamina D.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en áreas sensibles (cara, pliegues)",
+        "dosis": "Capa fina de pomada (3 µg/g; máximo 200 g/semana)",
+        "posologia": "Cada 12 h",
+        "via": "tópica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Semanas.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Calcio si gran superficie."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea baja.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Tiazidas, suplementos de calcio",
+          "efecto": "Hipercalcemia",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación leve"
+      ],
+      "graves": [
+        "Hipercalcemia (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia"
+    ],
+    "perlas": [
+      "Psoriasis facial o de pliegues: calcitriol o inhibidores de la calcineurina antes que corticoides potentes."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-tacalcitol",
+    "nombre": "Tacalcitol",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Análogo tópico de la vitamina D",
+    "subclase": "Análogo sintético de acción prolongada",
+    "vs_clase": [
+      "**UNA aplicación al día** (acción más prolongada que el calcipotriol solo).",
+      "**Menos irritante que el calcipotriol**; también en cara con precaución.",
+      "Eficacia algo menor en placas gruesas."
+    ],
+    "mecanismo": "Agonista sintético del receptor de vitamina D.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas",
+        "dosis": "Capa fina de pomada (4 µg/g; máximo 10 g/día)",
+        "posologia": "Cada 24 h, preferiblemente por la noche",
+        "via": "tópica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Semanas a meses.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Calcio en tratamientos prolongados extensos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea baja.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Suplementos de calcio y vitamina D",
+          "efecto": "Hipercalcemia",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prurito, eritema leves"
+      ],
+      "graves": [
+        "Hipercalcemia (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia"
+    ],
+    "perlas": [
+      "La adherencia mejora con pautas de una vez al día."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "INM-secukinumab",
+    "nombre": "Secukinumab",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Biológico anti-IL-17",
+    "subclase": "Anticuerpo anti-IL-17A",
+    "vs_clase": [
+      "**Anti-IL-17A**: muy eficaz en **psoriasis**, **artritis psoriásica** y **espondiloartritis axial** (donde los anti-IL-23 no funcionan).",
+      "**Candidiasis mucocutánea** (la IL-17 defiende frente a Candida).",
+      "**Puede DESENCADENAR o EMPEORAR la enfermedad inflamatoria intestinal**: evitar en Crohn y colitis ulcerosa."
+    ],
+    "mecanismo": "Neutraliza la IL-17A, citocina efectora de la vía Th17 que estimula la proliferación de queratinocitos y la inflamación articular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave",
+        "dosis": "300 mg",
+        "posologia": "Semanas 0, 1, 2, 3 y 4; después cada 4 semanas",
+        "via": "SC",
+        "nota": "—"
+      },
+      {
+        "patologia": "Artritis psoriásica y espondiloartritis axial",
+        "dosis": "150 mg (300 mg si hay psoriasis moderada-grave)",
+        "posologia": "Carga semanal 4 semanas (opcional); después cada 4 semanas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente y hepatitis; preguntar por síntomas intestinales.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Infecciones, candidiasis, diarrea o rectorragia."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, 73%.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "27 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Nasofaringitis",
+        "**Candidiasis oral**",
+        "Diarrea"
+      ],
+      "graves": [
+        "**Brote o debut de enfermedad inflamatoria intestinal**",
+        "Infecciones graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa importante",
+      "Enfermedad inflamatoria intestinal (relativa)"
+    ],
+    "perlas": [
+      "Psoriasis con afectación axial (lumbalgia inflamatoria): anti-IL-17 mejor que anti-IL-23."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "INM-ixekizumab",
+    "nombre": "Ixekizumab",
+    "sinonimos": [
+      "Brodalumab"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Biológico anti-IL-17",
+    "subclase": "Anticuerpo anti-IL-17A de alta afinidad",
+    "vs_clase": [
+      "**Anti-IL-17A de muy alta afinidad**: **respuesta muy RÁPIDA** en psoriasis (semanas 2-4).",
+      "Mantenimiento **cada 4 semanas**; también en artritis psoriásica y espondiloartritis.",
+      "**Reacciones en el lugar de inyección** más frecuentes; el **brodalumab** (anti-receptor IL-17) tiene alerta de **ideación suicida**."
+    ],
+    "mecanismo": "Neutraliza la IL-17A.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave",
+        "dosis": "160 mg; después 80 mg",
+        "posologia": "Semana 0 (160 mg); 80 mg cada 2 semanas hasta la 12; después cada 4 semanas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Infecciones, síntomas intestinales."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "13 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Reacción en el lugar de inyección**",
+        "Candidiasis",
+        "Infecciones respiratorias"
+      ],
+      "graves": [
+        "Enfermedad inflamatoria intestinal"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa importante"
+    ],
+    "perlas": [
+      "Si la rapidez de respuesta es prioritaria (psoriasis extensa con gran impacto), anti-IL-17."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "INM-bimekizumab",
+    "nombre": "Bimekizumab",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 3,
+    "clase": "Biológico anti-IL-17",
+    "subclase": "Anticuerpo anti-IL-17A y anti-IL-17F",
+    "vs_clase": [
+      "**Bloquea IL-17A Y IL-17F**: las **tasas de aclaramiento completo (PASI 100) más altas** de la psoriasis.",
+      "Mantenimiento **cada 8 semanas** en psoriasis; indicado también en **hidradenitis supurativa**.",
+      "**Más CANDIDIASIS oral** que los anti-IL-17A selectivos."
+    ],
+    "mecanismo": "Neutraliza IL-17A e IL-17F.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave",
+        "dosis": "320 mg",
+        "posologia": "Semanas 0, 4, 8, 12 y 16; después cada 8 semanas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Candidiasis, síntomas intestinales, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "23 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Candidiasis oral** (hasta 15-20%)",
+        "Infecciones respiratorias"
+      ],
+      "graves": [
+        "Enfermedad inflamatoria intestinal",
+        "Aumento de transaminasas"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa importante",
+      "Tuberculosis activa"
+    ],
+    "perlas": [
+      "Candidiasis oral leve con anti-IL-17: tratar con antifúngico tópico sin suspender el biológico."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "DER-metronidazol-topico",
+    "nombre": "Metronidazol tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Tratamiento tópico de la rosácea",
+    "subclase": "Nitroimidazol tópico antiinflamatorio",
+    "vs_clase": [
+      "**De primera línea en la rosácea PAPULOPUSTULOSA leve-moderada**; actúa como **antiinflamatorio**, no como antibiótico.",
+      "**Muy bien tolerado** (piel sensible de la rosácea).",
+      "**No mejora el eritema persistente ni las telangiectasias**."
+    ],
+    "mecanismo": "Reduce la inflamación y los radicales libres de los neutrófilos en la piel.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rosácea papulopustulosa",
+        "dosis": "Capa fina de crema o gel al 0,75-1%",
+        "posologia": "Cada 12-24 h",
+        "via": "tópica",
+        "nota": "Respuesta en 4-8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "8-12 semanas; mantenimiento si recae.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Respuesta."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea mínima.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes (tópico)",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad, escozor leves"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a nitroimidazoles"
+    ],
+    "perlas": [
+      "La rosácea empeora con corticoides tópicos: nunca tratarla con ellos."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-ivermectina-topica",
+    "nombre": "Ivermectina tópica",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento tópico de la rosácea",
+    "subclase": "Antiparasitario y antiinflamatorio tópico",
+    "vs_clase": [
+      "**El tópico MÁS EFICAZ en la rosácea papulopustulosa** (superior al metronidazol).",
+      "**Doble acción**: frente al **ácaro Demodex** (aumentado en la rosácea) y antiinflamatoria.",
+      "**Una aplicación al día**; puede empeorar transitoriamente las primeras semanas."
+    ],
+    "mecanismo": "Activa canales de cloruro del Demodex y reduce la inflamación cutánea.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rosácea papulopustulosa moderada",
+        "dosis": "Capa fina de crema al 1%",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "Hasta 4 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Hasta 4 meses; repetir si recae.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Respuesta a las 12 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea mínima.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, sensación de quemazón"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Rosácea papulopustulosa refractaria: ivermectina tópica + doxiciclina 40 mg de liberación modificada."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-brimonidina-gel",
+    "nombre": "Brimonidina gel cutáneo",
+    "sinonimos": [
+      "Oximetazolina crema"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Tratamiento tópico de la rosácea",
+    "subclase": "Vasoconstrictor alfa-2 tópico",
+    "vs_clase": [
+      "**El único de la clase para el ERITEMA PERSISTENTE** de la rosácea (no actúa sobre pápulas y pústulas).",
+      "Efecto **en 30 min** que dura unas **12 h**: blanquea la cara de forma temporal.",
+      "**Rebote del eritema** (peor que el basal) en algunos pacientes al perder el efecto."
+    ],
+    "mecanismo": "Agonista alfa-2 que contrae los vasos dérmicos superficiales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Eritema facial persistente de la rosácea",
+        "dosis": "Cantidad de un guisante para toda la cara (gel 0,33%; máximo 1 g/día)",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "tópica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Probar primero en una zona pequeña.",
+      "titulacion": "—",
+      "duracion": "A demanda.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Eritema de rebote."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea baja.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO, antihipertensivos",
+          "efecto": "Hipotensión o crisis (raro)",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Eritema de rebote**",
+        "Rubefacción, quemazón"
+      ],
+      "graves": [
+        "Hipotensión, bradicardia (raros)"
+      ]
+    },
+    "contraindicaciones": [
+      "Niños <2 años (por ingestión accidental)",
+      "Tratamiento con IMAO"
+    ],
+    "perlas": [
+      "Para las telangiectasias el tratamiento es el láser vascular, no los tópicos."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-acido-salicilico",
+    "nombre": "Ácido salicílico tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Queratolítico",
+    "vs_clase": [
+      "**De primera línea en las VERRUGAS VULGARES y PLANTARES** (al 15-26%, en colodión o parche).",
+      "A concentraciones bajas (2-10%) **retira la descamación** de la psoriasis, la dermatitis seborreica del cuero cabelludo y la hiperqueratosis.",
+      "**Salicilismo** si se aplica en grandes superficies (sobre todo en niños); no en verrugas de cara ni genitales."
+    ],
+    "mecanismo": "Disuelve el cemento intercelular de la capa córnea (queratolisis).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Verrugas vulgares y plantares",
+        "dosis": "Aplicación de solución al 15-26%",
+        "posologia": "Cada 24 h, tras remojar y limar la verruga",
+        "via": "tópica",
+        "nota": "Hasta 12 semanas"
+      },
+      {
+        "patologia": "Descamación de la psoriasis y del cuero cabelludo",
+        "dosis": "Aplicación de pomada o champú al 2-10%",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "Antes de otros tópicos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Proteger la piel sana alrededor (vaselina).",
+      "titulacion": "—",
+      "duracion": "Hasta 12 semanas en verrugas.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Irritación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea significativa en grandes superficies.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Evitar grandes superficies.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Calcipotriol",
+          "efecto": "Lo inactiva",
+          "gravedad": "baja",
+          "manejo": "No aplicar juntos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación, maceración de la piel sana"
+      ],
+      "graves": [
+        "**Salicilismo** (tinnitus, náuseas) en grandes superficies"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes o vasculopatía periférica (verrugas plantares)",
+      "Cara, mucosas y genitales"
+    ],
+    "perlas": [
+      "En el diabético, nada de queratolíticos en los pies: derivar al podólogo."
+    ],
+    "embarazo_lactancia": "Compatible en superficies pequeñas.",
+    "micro_relacionado": [
+      "VIR-virus-papiloma-humano"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-podofilotoxina",
+    "nombre": "Podofilotoxina",
+    "sinonimos": [
+      "Sinecatequinas"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Antimitótico tópico",
+    "vs_clase": [
+      "**De primera línea en los CONDILOMAS ACUMINADOS** externos, **autoaplicada** por el paciente.",
+      "**Antimitótico**: **CONTRAINDICADA en el EMBARAZO**.",
+      "Pauta en **ciclos de 3 días de aplicación y 4 de descanso**."
+    ],
+    "mecanismo": "Se une a la tubulina y detiene la mitosis de los queratinocitos infectados por el VPH, que se necrosan.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Condilomas acuminados externos (genitales y perianales)",
+        "dosis": "Aplicación de solución al 0,5% o crema al 0,15%",
+        "posologia": "Cada 12 h durante 3 días; 4 días de descanso",
+        "via": "tópica",
+        "nota": "Hasta 4 ciclos; área tratada ≤10 cm²"
+      }
+    ],
+    "esquema": {
+      "inicio": "Explicar la técnica (solo sobre la lesión).",
+      "titulacion": "—",
+      "duracion": "Hasta 4 semanas.",
+      "fin": "Derivar si no hay respuesta (crioterapia, cirugía).",
+      "via": "Tópica.",
+      "monitorizacion": "Irritación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea baja (riesgo si gran superficie).",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Inflamación, erosión y dolor local"
+      ],
+      "graves": [
+        "Toxicidad sistémica si se aplica en grandes superficies o mucosas"
+      ]
+    },
+    "contraindicaciones": [
+      "**Embarazo**",
+      "Lesiones en mucosas internas (vagina, cérvix, uretra, recto)"
+    ],
+    "perlas": [
+      "Condilomas en la embarazada: crioterapia o ácido tricloroacético, no podofilotoxina ni imiquimod."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [
+      "VIR-virus-papiloma-humano"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de infecciones por papilomavirus"
+  },
+  {
+    "id": "DER-5-fluorouracilo-topico",
+    "nombre": "5-Fluorouracilo tópico",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Antimetabolito tópico",
+    "vs_clase": [
+      "**De elección en las QUERATOSIS ACTÍNICAS múltiples** (tratamiento de campo) y el carcinoma basocelular superficial.",
+      "**Reacción inflamatoria intensa ESPERADA** (eritema, erosión, costras): es el mecanismo, avisar al paciente.",
+      "Con **ácido salicílico** se usa en verrugas resistentes; **CONTRAINDICADO en el embarazo** y en el déficit de DPD."
+    ],
+    "mecanismo": "Inhibe la timidilato sintasa en los queratinocitos displásicos, que proliferan más que los sanos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Queratosis actínicas",
+        "dosis": "Capa fina de crema al 5% (o 0,5%)",
+        "posologia": "Cada 12 h (al 0,5%: cada 24 h)",
+        "via": "tópica",
+        "nota": "2-4 semanas"
+      },
+      {
+        "patologia": "Verrugas resistentes (con ácido salicílico)",
+        "dosis": "Aplicación de solución 0,5% de 5-FU + 10% de salicílico",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "Hasta 12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Explicar la reacción esperada; fotoprotección.",
+      "titulacion": "—",
+      "duracion": "2-4 semanas en queratosis.",
+      "fin": "La piel se recupera en 2-4 semanas.",
+      "via": "Tópica.",
+      "monitorizacion": "Intensidad de la reacción."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea ~6%.",
+      "distribucion": "—",
+      "metabolismo": "**DPD**.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Brivudina",
+          "efecto": "Toxicidad sistémica grave (inhibe la DPD)",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Eritema, erosión, costras, dolor**",
+        "Fotosensibilidad"
+      ],
+      "graves": [
+        "Toxicidad sistémica en déficit de DPD (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "**Embarazo**",
+      "Déficit de DPD",
+      "Tratamiento con brivudina"
+    ],
+    "perlas": [
+      "Muchas queratosis actínicas en la cara de un paciente de piel clara: tratar el campo, no solo las lesiones visibles."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-ciclopirox",
+    "nombre": "Ciclopirox",
+    "sinonimos": [
+      "Amorolfina laca"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Hidroxipiridona (quelante)",
+    "vs_clase": [
+      "**LACA de uñas (8%)** para la **onicomicosis leve-moderada distal** sin afectación de la matriz (alternativa a la terbinafina oral).",
+      "**Champú** para la **dermatitis seborreica** del cuero cabelludo; además **antiinflamatorio** y algo antibacteriano.",
+      "Mecanismo **distinto de los azoles** (quela hierro): sin resistencia cruzada."
+    ],
+    "mecanismo": "Quela cationes trivalentes (Fe³⁺) e inhibe enzimas metal-dependientes de los hongos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Onicomicosis leve-moderada (<50% de la uña, sin matriz)",
+        "dosis": "Aplicación de laca al 8% sobre la uña",
+        "posologia": "Cada 24 h (limar y retirar con alcohol una vez por semana)",
+        "via": "tópica",
+        "nota": "6 meses en manos, 9-12 en pies"
+      },
+      {
+        "patologia": "Dermatitis seborreica del cuero cabelludo",
+        "dosis": "Aplicación de champú al 1,5%",
+        "posologia": "2-3 veces por semana (dejar 3-5 min)",
+        "via": "tópica",
+        "nota": "4 semanas; después 1 vez por semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar la onicomicosis con cultivo o KOH antes de tratamientos largos.",
+      "titulacion": "—",
+      "duracion": "Meses en onicomicosis.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Crecimiento de uña sana."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "Penetra en la lámina ungueal.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Eritema periungueal",
+        "Irritación del cuero cabelludo"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Onicomicosis con afectación de la matriz o de muchas uñas: terbinafina oral, la laca sola no basta."
+    ],
+    "embarazo_lactancia": "Compatible (mínima absorción).",
+    "micro_relacionado": [
+      "HON-dermatofitos",
+      "HON-malassezia"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  }
+]

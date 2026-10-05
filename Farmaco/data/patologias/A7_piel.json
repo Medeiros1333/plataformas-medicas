@@ -1,0 +1,540 @@
+[
+  {
+    "id": "PAT-psoriasis",
+    "nombre": "Psoriasis",
+    "sinonimos": [
+      "Psoriasis en placas",
+      "Psoriasis vulgar"
+    ],
+    "area": "DER",
+    "resumen": "Placas eritematosas bien delimitadas con escama plateada en codos, rodillas, cuero cabelludo y región sacra. Enfermedad **sistémica**: buscar **artritis psoriásica** (20-30%), síndrome metabólico, riesgo cardiovascular y depresión. **Leve (<10% de superficie)**: tópicos (**corticoide + calcipotriol**). **Moderada-grave**, áreas especiales (cara, genitales, palmas, uñas) o artritis: fototerapia, sistémicos (**metotrexato**) y **biológicos**.",
+    "objetivo": "Aclarar las lesiones (PASI ≥75-90) y controlar la artritis y las comorbilidades.",
+    "escenarios": [
+      {
+        "titulo": "Psoriasis leve-moderada (tópica)",
+        "farmacos": [
+          {
+            "nombre": "Calcipotriol/betametasona",
+            "ref": "DER-calcipotriol",
+            "dosis": "Capa fina (máximo 100 g/semana)",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "4 semanas; después 2 días por semana de mantenimiento"
+          },
+          {
+            "nombre": "Clobetasol (placas gruesas, cuero cabelludo, palmas y plantas)",
+            "ref": "DER-clobetasol",
+            "dosis": "Capa fina al 0,05% (máximo 50 g/semana)",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "≤2-4 semanas y pasar a pauta intermitente"
+          },
+          {
+            "nombre": "Tacrolimus pomada (cara y pliegues)",
+            "ref": "DER-tacrolimus-topico",
+            "dosis": "Capa fina al 0,1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "Semanas; después intermitente",
+            "nota": "Uso fuera de ficha; no atrofia la piel"
+          },
+          {
+            "nombre": "Ácido salicílico (descamación gruesa)",
+            "ref": "DER-acido-salicilico",
+            "dosis": "Pomada al 2-10%",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta retirar la escama",
+            "nota": "No a la vez que el calcipotriol"
+          }
+        ]
+      },
+      {
+        "titulo": "Psoriasis moderada-grave: tratamiento sistémico convencional",
+        "farmacos": [
+          {
+            "nombre": "Metotrexato",
+            "ref": "REU-metotrexato",
+            "dosis": "7,5-15 mg/semana (hasta 25 mg)",
+            "via": "VO o SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Indefinida si responde",
+            "nota": "Con ácido fólico 5 mg/semana; también trata la artritis"
+          },
+          {
+            "nombre": "Acitretina",
+            "ref": "DER-acitretina",
+            "dosis": "25-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Meses",
+            "nota": "Útil en la pustulosa y palmoplantar; teratógena 3 años tras suspender"
+          },
+          {
+            "nombre": "Ciclosporina (control rápido)",
+            "ref": "INM-anticalcineurinicos",
+            "dosis": "2,5-5 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Repartida cada 12 h",
+            "duracion": "≤1 año (nefrotoxicidad, HTA)"
+          }
+        ]
+      },
+      {
+        "titulo": "Psoriasis moderada-grave: biológicos",
+        "farmacos": [
+          {
+            "nombre": "Risankizumab (anti-IL-23)",
+            "ref": "INM-risankizumab",
+            "dosis": "150 mg",
+            "via": "SC",
+            "intervalo": "Semanas 0 y 4; después cada 12 semanas",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Guselkumab (anti-IL-23)",
+            "ref": "INM-guselkumab",
+            "dosis": "100 mg",
+            "via": "SC",
+            "intervalo": "Semanas 0 y 4; después cada 8 semanas",
+            "duracion": "Indefinida",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Secukinumab (anti-IL-17; con afectación axial)",
+            "ref": "INM-secukinumab",
+            "dosis": "300 mg",
+            "via": "SC",
+            "intervalo": "Semanas 0-4; después cada 4 semanas",
+            "duracion": "Indefinida",
+            "nota": "Alternativa. No si hay enfermedad inflamatoria intestinal"
+          },
+          {
+            "nombre": "Adalimumab (anti-TNF)",
+            "ref": "INM-anti-tnf",
+            "dosis": "80 mg; después 40 mg",
+            "via": "SC",
+            "intervalo": "Semana 0; desde la semana 1, cada 2 semanas",
+            "duracion": "Indefinida",
+            "nota": "Alternativa. Biosimilar económico; útil con uveítis o EII"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Emolientes diarios; evitar traumatismos (fenómeno de Koebner)",
+      "Fototerapia UVB de banda estrecha en la psoriasis extensa",
+      "Control de peso, tabaco y alcohol; cribado de riesgo cardiovascular",
+      "Desencadenantes: estrés, infecciones estreptocócicas, litio, betabloqueantes, antipalúdicos; **retirada de corticoides sistémicos** (rebote pustuloso)"
+    ],
+    "claves": [
+      "**No usar corticoides sistémicos en la psoriasis (rebote grave al retirarlos).**",
+      "Dactilitis, entesitis, lumbalgia inflamatoria o afectación ungueal: buscar artritis psoriásica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades eccematosas, psoriasis y otras; Katzung 15.ª ed., caps. 55 y 61"
+  },
+  {
+    "id": "PAT-rosacea",
+    "nombre": "Rosácea",
+    "sinonimos": [
+      "Rosácea papulopustulosa",
+      "Acné rosácea"
+    ],
+    "area": "DER",
+    "resumen": "Eritema centrofacial persistente con brotes (flushing), telangiectasias, pápulas y pústulas **sin comedones** (a diferencia del acné), en adultos de piel clara. Desencadenantes: sol, calor, alcohol, picantes. Tratamiento según el fenotipo: **eritema** → brimonidina u oximetazolina tópicas y láser; **pápulas y pústulas** → ivermectina o metronidazol tópicos ± **doxiciclina** oral; **ocular** (blefaritis) → higiene palpebral y doxiciclina.",
+    "objetivo": "Controlar los brotes y el eritema.",
+    "escenarios": [
+      {
+        "titulo": "Rosácea papulopustulosa",
+        "farmacos": [
+          {
+            "nombre": "Ivermectina crema al 1%",
+            "ref": "DER-ivermectina-topica",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta 4 meses"
+          },
+          {
+            "nombre": "Metronidazol tópico",
+            "ref": "DER-metronidazol-topico",
+            "dosis": "Capa fina al 0,75-1%",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "8-12 semanas",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Ácido azelaico al 15%",
+            "ref": "DER-acido-azelaico",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "8-12 semanas",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Doxiciclina (moderada-grave o rosácea ocular)",
+            "ref": "INF-doxiciclina",
+            "dosis": "40 mg de liberación modificada (o 100 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "8-12 semanas",
+            "nota": "Dosis subantimicrobiana: efecto antiinflamatorio"
+          }
+        ]
+      },
+      {
+        "titulo": "Eritema persistente",
+        "farmacos": [
+          {
+            "nombre": "Brimonidina gel",
+            "ref": "DER-brimonidina-gel",
+            "dosis": "1 aplicación: cantidad de un guisante para toda la cara",
+            "via": "tópica",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "A demanda",
+            "nota": "Riesgo de eritema de rebote"
+          }
+        ]
+      },
+      {
+        "titulo": "Rosácea grave refractaria o fimatosa",
+        "farmacos": [
+          {
+            "nombre": "Isotretinoína a dosis bajas",
+            "ref": "DER-isotretinoina",
+            "dosis": "0,25 mg/kg/día (o 10-20 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Meses",
+            "nota": "Teratógena: programa de prevención de embarazo"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fotoprotección diaria (SPF 30+), evitar desencadenantes",
+      "Limpiadores suaves, sin alcohol ni exfoliantes",
+      "Láser vascular o luz pulsada para las telangiectasias"
+    ],
+    "claves": [
+      "**Los corticoides tópicos empeoran la rosácea (rosácea esteroidea).**",
+      "Rosácea ocular (blefaritis, conjuntivitis crónica) puede preceder a la cutánea."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de acné y rosácea; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-dermatitis-seborreica",
+    "nombre": "Dermatitis seborreica",
+    "sinonimos": [
+      "Caspa",
+      "Costra láctea",
+      "Eccema seborreico"
+    ],
+    "area": "DER",
+    "resumen": "Eritema y descamación grasienta en **cuero cabelludo, cejas, surcos nasogenianos, retroauricular y preesternal**, crónica y recurrente, relacionada con **Malassezia**. Más intensa en **Parkinson y VIH** (forma grave o de inicio brusco: descartar VIH). Base: **antifúngicos tópicos** (ketoconazol, ciclopirox); en brotes inflamatorios, **corticoide de baja potencia** breve o inhibidor de la calcineurina en la cara.",
+    "objetivo": "Controlar los brotes y espaciar las recaídas con mantenimiento.",
+    "escenarios": [
+      {
+        "titulo": "Cuero cabelludo",
+        "farmacos": [
+          {
+            "nombre": "Ketoconazol champú al 2%",
+            "ref": "DER-ketoconazol-topico",
+            "dosis": "1 aplicación de champú (dejar 3-5 min)",
+            "via": "tópica",
+            "intervalo": "2-3 veces por semana",
+            "duracion": "4 semanas; después 1 vez por semana o cada 2 semanas"
+          },
+          {
+            "nombre": "Ciclopirox champú al 1,5%",
+            "ref": "DER-ciclopirox",
+            "dosis": "1 aplicación de champú (dejar 3-5 min)",
+            "via": "tópica",
+            "intervalo": "2-3 veces por semana",
+            "duracion": "4 semanas; después mantenimiento",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Ácido salicílico (escamas gruesas)",
+            "ref": "DER-acido-salicilico",
+            "dosis": "Aplicación de champú o loción al 2-5%",
+            "via": "tópica",
+            "intervalo": "Cada 24-48 h",
+            "duracion": "Hasta retirar la escama"
+          },
+          {
+            "nombre": "Clobetasol champú (brote intenso)",
+            "ref": "DER-clobetasol",
+            "dosis": "Aplicación de champú al 0,05% (dejar 15 min)",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "≤2-4 semanas"
+          }
+        ]
+      },
+      {
+        "titulo": "Cara y tronco",
+        "farmacos": [
+          {
+            "nombre": "Ketoconazol crema al 2%",
+            "ref": "DER-ketoconazol-topico",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "2-4 semanas; después 1-2 veces por semana"
+          },
+          {
+            "nombre": "Hidrocortisona al 1% (brote)",
+            "ref": "DER-hidrocortisona-topica",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "≤7 días"
+          },
+          {
+            "nombre": "Pimecrolimus o tacrolimus (recaídas frecuentes en la cara)",
+            "ref": "DER-pimecrolimus",
+            "dosis": "Capa fina de crema al 1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "Brotes; mantenimiento 2 veces por semana",
+            "nota": "No atrofia la piel"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavado diario, eliminar las escamas con aceite tibio antes del champú",
+      "Lactante (costra láctea): aceite y cepillado suave; suele resolverse sola",
+      "Explicar que es crónica: tratamiento de mantenimiento"
+    ],
+    "claves": [
+      "**Dermatitis seborreica grave o de inicio brusco en un adulto: descartar VIH.**",
+      "Evitar corticoides potentes y prolongados en la cara."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades eccematosas; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-verrugas-condilomas",
+    "nombre": "Verrugas cutáneas y condilomas acuminados",
+    "sinonimos": [
+      "Verrugas vulgares",
+      "Verrugas plantares",
+      "Verrugas genitales",
+      "Condilomas"
+    ],
+    "area": "DER",
+    "resumen": "Producidas por el **virus del papiloma humano**. Muchas verrugas cutáneas **desaparecen solas en 1-2 años** (sobre todo en niños): tratar si duelen, molestan o se extienden. Primera línea: **ácido salicílico** y **crioterapia**. **Condilomas** (ITS): podofilotoxina o imiquimod autoaplicados, o crioterapia; cribado de otras ITS y de cáncer de cérvix. **Vacuna del VPH** como prevención.",
+    "objetivo": "Eliminar las lesiones con la menor morbilidad; prevenir el contagio.",
+    "escenarios": [
+      {
+        "titulo": "Verrugas vulgares y plantares",
+        "farmacos": [
+          {
+            "nombre": "Ácido salicílico al 15-26%",
+            "ref": "DER-acido-salicilico",
+            "dosis": "1 aplicación sobre la verruga",
+            "via": "tópica",
+            "intervalo": "Cada 24 h tras remojar y limar",
+            "duracion": "Hasta 12 semanas"
+          },
+          {
+            "nombre": "5-Fluorouracilo + ácido salicílico (resistentes)",
+            "ref": "DER-5-fluorouracilo-topico",
+            "dosis": "Aplicación de solución 0,5%/10%",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta 12 semanas",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Condilomas acuminados externos",
+        "farmacos": [
+          {
+            "nombre": "Podofilotoxina",
+            "ref": "DER-podofilotoxina",
+            "dosis": "Aplicación de solución al 0,5% o crema al 0,15%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h 3 días; 4 días de descanso",
+            "duracion": "Hasta 4 ciclos",
+            "nota": "No en el embarazo"
+          },
+          {
+            "nombre": "Imiquimod crema al 5%",
+            "ref": "DER-imiquimod",
+            "dosis": "1 aplicación: capa fina sobre las lesiones",
+            "via": "tópica",
+            "intervalo": "3 noches por semana (lavar a las 6-10 h)",
+            "duracion": "Hasta 16 semanas",
+            "nota": "Menos recurrencias; no en el embarazo"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Crioterapia con nitrógeno líquido cada 2-3 semanas (verrugas y condilomas; segura en el embarazo)",
+      "Vacuna del VPH (9-valente) en adolescentes y adultos jóvenes",
+      "Cribado de otras ITS (VIH, sífilis, hepatitis B) en pacientes con condilomas"
+    ],
+    "claves": [
+      "**Condilomas en un niño: valorar posible abuso sexual (aunque puede haber transmisión no sexual).**",
+      "Lesión pigmentada, ulcerada o refractaria en genitales: biopsia (neoplasia intraepitelial)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por papilomavirus humano; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-pediculosis",
+    "nombre": "Pediculosis (piojos de la cabeza y del pubis)",
+    "sinonimos": [
+      "Piojos",
+      "Pediculosis capitis",
+      "Ladillas"
+    ],
+    "area": "DER",
+    "resumen": "Diagnóstico solo con **piojos VIVOS** (las liendres solas, sobre todo lejos del cuero cabelludo, no indican infestación activa). Tratar al afectado y a los **convivientes infestados**, **repitiendo a los 7-10 días** (eclosión de liendres). **Dimeticona** (física, sin resistencias) o **permetrina al 1%**; ivermectina oral en la resistente. **Pediculosis del pubis**: es una ITS (cribar otras ITS y tratar a las parejas).",
+    "objetivo": "Eliminar la infestación sin tratamientos innecesarios.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Dimeticona al 4%",
+            "ref": "DER-dimeticona",
+            "dosis": "1 aplicación sobre el pelo seco hasta empaparlo",
+            "via": "tópica",
+            "intervalo": "Dejar 8 h (o según producto) y lavar; repetir a los 7 días",
+            "duracion": "2 aplicaciones",
+            "nota": "Mecanismo físico (asfixia): sin resistencias"
+          },
+          {
+            "nombre": "Permetrina al 1%",
+            "ref": "DER-permetrina-adulto",
+            "dosis": "1 aplicación de loción o crema sobre el pelo lavado y húmedo",
+            "via": "tópica",
+            "intervalo": "Dejar 10 min y aclarar; repetir a los 7-10 días",
+            "duracion": "2 aplicaciones",
+            "nota": "Alternativa. Resistencias frecuentes"
+          },
+          {
+            "nombre": "Ivermectina oral (resistente)",
+            "ref": "INF-ivermectina",
+            "dosis": "200-400 µg/kg",
+            "via": "VO",
+            "intervalo": "Dosis única; repetir a los 7-10 días",
+            "duracion": "2 dosis",
+            "nota": "No en <15 kg ni en el embarazo"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Permetrina (pediátrica)",
+            "ref": "PED-DER-permetrina",
+            "dosis": "Aplicación de loción al 1% sobre el pelo húmedo",
+            "via": "tópica",
+            "intervalo": "Dejar 10 min; repetir a los 7-10 días",
+            "duracion": "2 aplicaciones",
+            "nota": "Desde los 2 meses; la dimeticona también es de elección"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Liendrera metálica sobre el pelo húmedo con acondicionador, cada 2-3 días durante 2 semanas",
+      "Lavar a 60 °C la ropa de cama, peines y gorros de los últimos 2 días",
+      "No es necesario excluir al niño del colegio"
+    ],
+    "claves": [
+      "**Sin piojo vivo no hay que tratar.**",
+      "Piojos en las pestañas de un niño: pensar en Phthirus pubis y descartar abuso."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de ectoparásitos; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-herpes-labial",
+    "nombre": "Herpes simple orolabial",
+    "sinonimos": [
+      "Herpes labial",
+      "Calentura",
+      "Gingivoestomatitis herpética"
+    ],
+    "area": "INF",
+    "resumen": "Recurrencias por reactivación del VHS-1 (desencadenadas por sol, fiebre, estrés): pródromo de escozor y vesículas agrupadas en el borde del labio, que curan en 7-10 días. El tratamiento **solo acorta 1-2 días** si se inicia **en el pródromo**: el **valaciclovir en dosis única de 1 día** es lo más práctico. **Profilaxis** si hay ≥6 recurrencias al año o desencadenante previsible (cirugía facial, láser). Inmunodeprimidos: tratamiento sistémico siempre.",
+    "objetivo": "Acortar el episodio y prevenir recurrencias frecuentes.",
+    "escenarios": [
+      {
+        "titulo": "Recurrencia en inmunocompetente",
+        "farmacos": [
+          {
+            "nombre": "Valaciclovir",
+            "ref": "INF-valaciclovir",
+            "dosis": "2 g",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "1 día (2 dosis), en el pródromo"
+          },
+          {
+            "nombre": "Aciclovir crema al 5%",
+            "ref": "INF-aciclovir",
+            "dosis": "1 aplicación sobre la lesión",
+            "via": "tópica",
+            "intervalo": "5 veces al día",
+            "duracion": "4-5 días",
+            "nota": "Alternativa. Beneficio pequeño"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de recurrencias frecuentes",
+        "farmacos": [
+          {
+            "nombre": "Valaciclovir",
+            "ref": "INF-valaciclovir",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "6-12 meses y reevaluar"
+          }
+        ]
+      },
+      {
+        "titulo": "Primoinfección (gingivoestomatitis) en el adulto",
+        "farmacos": [
+          {
+            "nombre": "Aciclovir",
+            "ref": "INF-aciclovir",
+            "dosis": "400 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "7-10 días"
+          },
+          {
+            "nombre": "Valaciclovir",
+            "ref": "INF-valaciclovir",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "7-10 días",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fotoprotección labial (SPF 30+) para prevenir recurrencias",
+      "Evitar el contacto con lactantes, inmunodeprimidos y personas con dermatitis atópica (eccema herpético)"
+    ],
+    "claves": [
+      "**Herpes con fiebre en un paciente con dermatitis atópica extensa: eccema herpético → aciclovir sistémico urgente.**",
+      "Lesiones cercanas al ojo: valoración oftalmológica (queratitis)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por virus del herpes simple; Katzung 15.ª ed., cap. 49"
+  }
+]
