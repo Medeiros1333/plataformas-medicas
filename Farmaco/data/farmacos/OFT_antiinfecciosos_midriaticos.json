@@ -7,7 +7,7 @@
     ],
     "area": "OFT",
     "nivel": 1,
-    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "clase": "Visión de clase: antiinfecciosos y corticoides oculares",
     "subclase": "Colirios y pomadas antibióticas, antivíricas y corticoideas",
     "mecanismo": "Los ANTIBIÓTICOS tópicos alcanzan en la superficie ocular concentraciones cientos de veces superiores a la concentración mínima inhibitoria, lo que permite tratar infecciones superficiales con moléculas que por vía sistémica no servirían. Su limitación es la penetración: NO alcanzan concentraciones útiles en la cámara anterior ni en el vítreo, de modo que la endoftalmitis exige inyección INTRAVÍTREA y la celulitis orbitaria, antibiótico intravenoso. Los CORTICOIDES tópicos suprimen la inflamación de la superficie y de la cámara anterior con la misma potencia con que suprimen la defensa local, y de ahí nacen sus tres complicaciones características: agravan la QUERATITIS HERPÉTICA hasta la perforación, favorecen la infección fúngica y elevan la PRESIÓN INTRAOCULAR en los individuos respondedores, que son en torno a un tercio de la población, produciendo un glaucoma silente e irreversible.",
     "espectro": "Antibióticos tópicos: cobertura amplia de grampositivos y gramnegativos de la superficie ocular; las QUINOLONAS tópicas cubren además Pseudomonas, lo que las hace obligadas en la queratitis del portador de lentes de contacto. Aciclovir en pomada y ganciclovir en gel para el herpes simple corneal.",
@@ -127,7 +127,8 @@
       "BGP-staphylococcus-aureus",
       "VIR-virus-herpes-simple"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 62; guías de la Academia Americana de Oftalmología sobre conjuntivitis y queratitis"
+    "fuente": "Katzung 15.ª ed., cap. 62; guías de la Academia Americana de Oftalmología sobre conjuntivitis y queratitis",
+    "vision_clase": true
   },
   {
     "id": "OFT-midriaticos-lagrimas",
@@ -137,7 +138,7 @@
     ],
     "area": "OFT",
     "nivel": 2,
-    "clase": "Fármacos diagnósticos y de superficie ocular",
+    "clase": "Visión de clase: midriáticos y lágrimas artificiales",
     "subclase": "Anticolinérgicos, simpaticomiméticos y lubricantes",
     "mecanismo": "Los MIDRIÁTICOS actúan por dos vías distintas y conviene diferenciarlas. Los ANTICOLINÉRGICOS (tropicamida, ciclopentolato, atropina) bloquean el receptor muscarínico del esfínter del iris y del músculo ciliar: producen midriasis Y CICLOPLEJIA, es decir, parálisis de la acomodación con visión de cerca borrosa. Los SIMPATICOMIMÉTICOS (fenilefrina) estimulan el receptor alfa-1 del músculo dilatador y producen midriasis SIN cicloplejia. Esa diferencia decide cuál se usa: para explorar el fondo de ojo basta la midriasis, mientras que para medir la refracción real de un niño hace falta la cicloplejia, porque su enorme capacidad de acomodación falsea cualquier medición. Las LÁGRIMAS ARTIFICIALES no tienen mecanismo farmacológico: reponen volumen y estabilizan la película lagrimal, cuya capa lipídica externa procede de las glándulas de Meibomio, y por eso la disfunción de estas glándulas es hoy la causa más frecuente de ojo seco.",
     "espectro": null,
@@ -249,6 +250,7 @@
     ],
     "embarazo_lactancia": "Los midriáticos tópicos se consideran de riesgo bajo por su escasa absorción, aplicando compresión del canto interno para minimizarla; se prefiere evitar la fenilefrina al 10%. Las lágrimas artificiales son totalmente seguras. Compatibles con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 8 y 62; guías del TFOS DEWS II sobre ojo seco"
+    "fuente": "Katzung 15.ª ed., caps. 8 y 62; guías del TFOS DEWS II sobre ojo seco",
+    "vision_clase": true
   }
 ]

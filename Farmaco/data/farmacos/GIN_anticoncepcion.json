@@ -8,7 +8,7 @@
     ],
     "area": "GIN",
     "nivel": 1,
-    "clase": "Anticonceptivo hormonal",
+    "clase": "Visión de clase: anticonceptivos combinados",
     "subclase": "Combinación de estrógeno (etinilestradiol o estradiol) y progestágeno",
     "vs_clase": [
       "**Contienen ESTRÓGENO**: **riesgo de tromboembolia venosa** e ictus; contraindicados en migraña con aura, fumadoras >35 años, HTA no controlada, trombofilia y posparto inmediato.",
@@ -131,7 +131,8 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADOS en el embarazo (aunque la exposición inadvertida no obliga a interrumpirlo ni se asocia a malformaciones). En la LACTANCIA se evitan las primeras 6 semanas por el riesgo trombótico y por el posible efecto sobre la producción de leche; el método hormonal de elección durante la lactancia es el de SOLO PROGESTÁGENO.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS para el uso de anticonceptivos"
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS para el uso de anticonceptivos",
+    "vision_clase": true
   },
   {
     "id": "GIN-progestagenos-urgencia",
@@ -142,7 +143,7 @@
     ],
     "area": "GIN",
     "nivel": 1,
-    "clase": "Anticonceptivo hormonal",
+    "clase": "Visión de clase: solo gestágeno y anticoncepción de urgencia",
     "subclase": "Progestágenos solos y modulador del receptor de progesterona",
     "vs_clase": [
       "**SIN estrógeno**: utilizables cuando los combinados están contraindicados (riesgo trombótico, migraña con aura, lactancia).",
@@ -255,6 +256,7 @@
     ],
     "embarazo_lactancia": "Compatibles con la LACTANCIA desde el posparto inmediato y método hormonal de elección en esa situación: no afectan a la producción de leche. La exposición inadvertida en el embarazo no se asocia a malformaciones ni obliga a ninguna medida.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS; guías de la SEC sobre anticoncepción de urgencia"
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS; guías de la SEC sobre anticoncepción de urgencia",
+    "vision_clase": true
   }
 ]

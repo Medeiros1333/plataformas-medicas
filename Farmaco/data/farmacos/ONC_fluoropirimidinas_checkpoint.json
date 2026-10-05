@@ -7,7 +7,7 @@
     ],
     "area": "ONC",
     "nivel": 1,
-    "clase": "Antineoplásico antimetabolito (fluoropirimidina)",
+    "clase": "Visión de clase: fluoropirimidinas",
     "subclase": "Antimetabolito análogo de pirimidinas",
     "mecanismo": "Su metabolito principal, el FdUMP, forma un complejo ternario estable con la TIMIDILATO SINTASA y con el folato reducido, bloqueando la única vía de síntesis DE NOVO de timidina. Sin timidina no hay ADN: la célula entra en lo que se llama muerte sin timina. Ese es el motivo por el que el ÁCIDO FOLÍNICO (leucovorina) se administra siempre junto al 5-FU: no es un rescate como en el metotrexato, sino todo lo contrario, aumenta la disponibilidad de folato reducido, estabiliza el complejo ternario y POTENCIA el efecto citotóxico. Otros metabolitos se incorporan además al ARN y al ADN, alterando su función. La CAPECITABINA es un profármaco oral que atraviesa tres pasos enzimáticos y se activa preferentemente en el TUMOR, donde la timidina fosforilasa está sobreexpresada: es una forma elegante de conseguir selectividad y de evitar la infusión continua.",
     "espectro": null,
@@ -128,7 +128,8 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADAS en el embarazo (teratógenas) y en la lactancia. Se requiere anticoncepción eficaz durante el tratamiento y en los meses siguientes.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 54; recomendaciones de la EMA sobre cribado de DPD antes del tratamiento con fluoropirimidinas"
+    "fuente": "Katzung 15.ª ed., cap. 54; recomendaciones de la EMA sobre cribado de DPD antes del tratamiento con fluoropirimidinas",
+    "vision_clase": true
   },
   {
     "id": "ONC-inhibidores-checkpoint",
@@ -139,7 +140,7 @@
     ],
     "area": "ONC",
     "nivel": 1,
-    "clase": "Antineoplásico inmunoterápico",
+    "clase": "Visión de clase: inhibidores de puntos de control inmunitario",
     "subclase": "Anticuerpos monoclonales frente a puntos de control inmunitario",
     "mecanismo": "No atacan al tumor: LIBERAN EL FRENO del sistema inmunitario para que sea este quien lo ataque. El eje PD-1/PD-L1 es un mecanismo fisiológico de tolerancia periférica que apaga al linfocito T cuando reconoce PD-L1 en un tejido sano; muchos tumores lo secuestran expresando PD-L1 y desactivando así al linfocito que los ha reconocido. Los anti-PD1 y anti-PD-L1 bloquean esa interacción y devuelven la función citotóxica al linfocito infiltrante. El CTLA-4 actúa antes, en el ganglio linfático, compitiendo con el CD28 por la señal coestimuladora durante el CEBADO del linfocito; bloquearlo amplía el repertorio de linfocitos activados. De ese mecanismo se deducen directamente sus dos rasgos clínicos característicos: una toxicidad que es AUTOINMUNITARIA y no citotóxica, y respuestas que, cuando ocurren, pueden ser MUY DURADERAS porque quedan sostenidas por la memoria inmunitaria.",
     "espectro": null,
@@ -252,6 +253,7 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADOS en el embarazo: el eje PD-1/PD-L1 mantiene la tolerancia materno-fetal, y su bloqueo se asocia a aborto y muerte fetal. Se exige anticoncepción eficaz durante el tratamiento y hasta 4-5 meses después. Contraindicados en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y ASCO sobre manejo de las toxicidades inmunorrelacionadas"
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y ASCO sobre manejo de las toxicidades inmunorrelacionadas",
+    "vision_clase": true
   }
 ]

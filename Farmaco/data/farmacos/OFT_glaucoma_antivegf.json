@@ -7,7 +7,7 @@
     ],
     "area": "OFT",
     "nivel": 1,
-    "clase": "Antiglaucomatoso",
+    "clase": "Visión de clase: hipotensores oculares",
     "subclase": "Colirios que reducen la presión intraocular",
     "mecanismo": "La presión intraocular depende del equilibrio entre la PRODUCCIÓN de humor acuoso por el cuerpo ciliar y su DRENAJE por dos vías: la trabecular (convencional) y la uveoescleral. Cada familia actúa sobre un punto distinto de ese equilibrio, y por eso se combinan. Los ANÁLOGOS DE PROSTAGLANDINAS (latanoprost, bimatoprost, travoprost) aumentan el drenaje UVEOESCLERAL al remodelar la matriz extracelular del músculo ciliar; son los más eficaces y los únicos de administración nocturna única. Los BETABLOQUEANTES (timolol) reducen la PRODUCCIÓN de acuoso al bloquear los receptores beta del epitelio ciliar. Los INHIBIDORES DE LA ANHIDRASA CARBÓNICA tópicos (dorzolamida, brinzolamida) también reducen la producción, bloqueando la enzima que genera el bicarbonato que arrastra el agua. Los ALFA-2 AGONISTAS (brimonidina) hacen las dos cosas: reducen la producción y aumentan el drenaje uveoescleral. La lección práctica es que el fármaco es tópico pero el efecto puede ser SISTÉMICO: el colirio drena por la vía lagrimal a la mucosa nasal, se absorbe y evita el primer paso hepático.",
     "espectro": null,
@@ -120,7 +120,8 @@
     ],
     "embarazo_lactancia": "Los datos son limitados. Los análogos de prostaglandinas se evitan en el embarazo por su potencial efecto uterotónico teórico. El timolol es el de mayor experiencia acumulada, con la precaución de la compresión del canto interno para minimizar la absorción y del riesgo de bradicardia neonatal. En la lactancia, el timolol pasa a la leche y hay que vigilar al lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 10; guías de la European Glaucoma Society"
+    "fuente": "Katzung 15.ª ed., cap. 10; guías de la European Glaucoma Society",
+    "vision_clase": true
   },
   {
     "id": "OFT-anti-vegf",
@@ -130,7 +131,7 @@
     ],
     "area": "OFT",
     "nivel": 1,
-    "clase": "Antiangiogénico",
+    "clase": "Visión de clase: anti-VEGF intravítreos",
     "subclase": "Inhibidores del factor de crecimiento del endotelio vascular de administración intravítrea",
     "mecanismo": "Neutralizan el FACTOR DE CRECIMIENTO DEL ENDOTELIO VASCULAR (VEGF), la citocina que en la retina isquémica induce la formación de vasos NUEVOS, anómalos y con una pared incompetente que deja escapar líquido y sangre. Ese proceso es el mecanismo común de las tres grandes causas de ceguera en países desarrollados: la degeneración macular asociada a la edad exudativa, el edema macular diabético y el edema por oclusión venosa retiniana. Al bloquear el VEGF se secan los neovasos, se reabsorbe el líquido subretiniano e intrarretiniano y se estabiliza o mejora la visión. Se administran por INYECCIÓN INTRAVÍTREA para alcanzar concentraciones altas en la retina evitando la exposición sistémica, aunque una pequeña fracción pasa a la circulación y reduce el VEGF plasmático, lo que sustenta la preocupación teórica por los eventos tromboembólicos.",
     "espectro": null,
@@ -239,6 +240,7 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADOS en el embarazo: el VEGF es esencial para la angiogénesis fetal y placentaria. Se recomienda anticoncepción eficaz durante el tratamiento y en los 3 meses siguientes. Datos escasos en la lactancia; se recomienda precaución.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 54; guías de la EURETINA sobre degeneración macular y edema macular diabético"
+    "fuente": "Katzung 15.ª ed., cap. 54; guías de la EURETINA sobre degeneración macular y edema macular diabético",
+    "vision_clase": true
   }
 ]

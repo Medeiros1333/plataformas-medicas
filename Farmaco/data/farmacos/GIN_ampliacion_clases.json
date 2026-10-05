@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "GIN-etinilestradiol-levonorgestrel",
+    "nombre": "Etinilestradiol/levonorgestrel",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticonceptivo hormonal combinado",
+    "subclase": "Píldora combinada con progestágeno de 2.ª generación",
+    "vs_clase": [
+      "**La combinación con MENOR riesgo TROMBÓTICO** entre las píldoras (levonorgestrel): **primera elección** en una mujer sin otras necesidades.",
+      "**Más efectos androgénicos** (acné) que las de 3.ª-4.ª generación.",
+      "Formato de 21+7 o 28 comprimidos."
+    ],
+    "mecanismo": "Inhibe la ovulación (supresión de FSH y LH), espesa el moco cervical y altera el endometrio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción",
+        "dosis": "30 µg EE / 150 µg LNG (1 comprimido)",
+        "posologia": "Cada 24 h a la misma hora (21 días + 7 de descanso)",
+        "via": "VO",
+        "nota": "Iniciar el 1.er día de la regla"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA, IMC, antecedentes trombóticos, migraña con aura, tabaco.",
+      "titulacion": "—",
+      "duracion": "Mientras se desee anticoncepción.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "PA anual."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Renal y biliar (circulación enterohepática).",
+      "vida_media": "EE 10-20 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, topiramato, hipérico",
+          "efecto": "**Fallo anticonceptivo**",
+          "gravedad": "alta",
+          "manejo": "Método no hormonal o DIU"
+        },
+        {
+          "con": "Lamotrigina",
+          "efecto": "Reduce sus niveles a la mitad",
+          "gravedad": "alta",
+          "manejo": "Ajustar lamotrigina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, mastalgia",
+        "Sangrado intermenstrual inicial",
+        "Cefalea"
+      ],
+      "graves": [
+        "**Tromboembolia venosa**",
+        "Ictus e infarto (fumadoras, migraña con aura)",
+        "Adenoma hepático"
+      ]
+    },
+    "contraindicaciones": [
+      "Fumadora ≥35 años",
+      "Migraña con aura",
+      "Antecedente de ETV o trombofilia",
+      "HTA no controlada",
+      "Cáncer de mama",
+      "<6 semanas posparto con lactancia"
+    ],
+    "perlas": [
+      "Olvido <24 h: tomarla en cuanto se recuerde; >24 h: método barrera 7 días."
+    ],
+    "embarazo_lactancia": "Evitar en la lactancia (reduce la producción).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios OMS"
+  },
+  {
+    "id": "GIN-etinilestradiol-drospirenona",
+    "nombre": "Etinilestradiol/drospirenona",
+    "sinonimos": [
+      "Etinilestradiol/ciproterona (antiandrogénica)"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticonceptivo hormonal combinado",
+    "subclase": "Píldora con progestágeno antimineralocorticoide y antiandrogénico",
+    "vs_clase": [
+      "**Drospirenona: efecto ANTIANDROGÉNICO y ANTIMINERALOCORTICOIDE** (menos retención de líquidos; útil en acné, SOP y síndrome premenstrual).",
+      "**MAYOR riesgo TROMBÓTICO** que la de levonorgestrel (≈1,5-2 veces).",
+      "**Puede elevar el POTASIO** (precaución con IECA, ARA-II, espironolactona)."
+    ],
+    "mecanismo": "Inhibición ovulatoria; la drospirenona deriva de la espironolactona.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción en mujer con acné, hirsutismo o síndrome premenstrual",
+        "dosis": "20-30 µg EE / 3 mg drospirenona",
+        "posologia": "Cada 24 h (pauta 24+4 o 21+7)",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Mismas valoraciones; potasio si fármacos hiperpotasemiantes.",
+      "titulacion": "—",
+      "duracion": "Según deseo.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "PA, K si riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "Drospirenona 30 h.",
+      "ajuste_renal": "Contraindicada en ERC grave (K).",
+      "ajuste_hepatico": "Contraindicada en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Fallo anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "Otro método"
+        },
+        {
+          "con": "IECA, ARA-II, espironolactona",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "media",
+          "manejo": "Potasio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mastalgia, náuseas",
+        "Spotting"
+      ],
+      "graves": [
+        "**Tromboembolia venosa** (mayor que levonorgestrel)",
+        "Hiperpotasemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Las de todo anticonceptivo combinado",
+      "ERC grave, insuficiencia suprarrenal"
+    ],
+    "perlas": [
+      "Reservarla cuando su beneficio antiandrogénico compensa el mayor riesgo trombótico."
+    ],
+    "embarazo_lactancia": "Evitar en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-anillo-vaginal",
+    "nombre": "Anillo vaginal (etonogestrel/etinilestradiol)",
+    "sinonimos": [
+      "Parche transdérmico (norelgestromina/EE)"
+    ],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Anticonceptivo hormonal combinado",
+    "subclase": "Combinado de liberación vaginal mensual",
+    "vs_clase": [
+      "**Una aplicación al MES** (3 semanas puesto + 1 de descanso): sin olvidos diarios.",
+      "**Niveles hormonales estables y sin primer paso**; no le afectan los vómitos ni la diarrea.",
+      "**Mismas contraindicaciones** que la píldora combinada (riesgo trombótico similar o algo mayor)."
+    ],
+    "mecanismo": "Liberación continua de etonogestrel y EE: inhibición ovulatoria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción en mujeres con problemas de cumplimiento oral",
+        "dosis": "1 anillo (15 µg EE + 120 µg ENG/día)",
+        "posologia": "3 semanas colocado y 1 semana de descanso",
+        "via": "vaginal",
+        "nota": "Si sale >3 h, método barrera 7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Día 1-5 del ciclo.",
+      "titulacion": "—",
+      "duracion": "Según deseo.",
+      "fin": "—",
+      "via": "Vaginal.",
+      "monitorizacion": "PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Vaginal sostenida.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Fallo anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "Otro método"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Leucorrea, vaginitis",
+        "Expulsión, molestias en el coito"
+      ],
+      "graves": [
+        "Tromboembolia venosa"
+      ]
+    },
+    "contraindicaciones": [
+      "Las de los anticonceptivos combinados",
+      "Prolapso genital"
+    ],
+    "perlas": [
+      "Si vomita a menudo o tiene malabsorción, el anillo evita el fallo de la píldora."
+    ],
+    "embarazo_lactancia": "Evitar en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-desogestrel",
+    "nombre": "Desogestrel (píldora de solo gestágeno)",
+    "sinonimos": [
+      "Drospirenona sola"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Píldora de solo progestágeno",
+    "vs_clase": [
+      "**SIN estrógeno**: utilizable en **lactancia, fumadoras, migraña con aura, HTA y riesgo trombótico**.",
+      "**Toma CONTINUA sin descanso**; margen de olvido de 12 h.",
+      "**Sangrado irregular** como principal motivo de abandono."
+    ],
+    "mecanismo": "Inhibe la ovulación (a esa dosis) y espesa el moco cervical.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción cuando el estrógeno está contraindicado o en la lactancia",
+        "dosis": "75 µg",
+        "posologia": "Cada 24 h de forma continua",
+        "via": "VO",
+        "nota": "Olvido >12 h: barrera 7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Día 1 del ciclo (o desde 21 días posparto).",
+      "titulacion": "—",
+      "duracion": "Según deseo.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Patrón de sangrado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4 (a etonogestrel).",
+      "eliminacion": "Renal.",
+      "vida_media": "30 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Fallo anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "DIU o DMPA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sangrado irregular o amenorrea**",
+        "Acné, mastalgia"
+      ],
+      "graves": [
+        "Quistes ováricos funcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama",
+      "Hepatopatía grave",
+      "ETV activa"
+    ],
+    "perlas": [
+      "Anticoncepción en la lactancia: gestágeno solo o DIU."
+    ],
+    "embarazo_lactancia": "Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-diu-levonorgestrel",
+    "nombre": "DIU de levonorgestrel",
+    "sinonimos": [
+      "Sistema intrauterino de levonorgestrel 52 mg"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Dispositivo intrauterino liberador de levonorgestrel",
+    "vs_clase": [
+      "**El método reversible MÁS EFICAZ junto al implante** (fallo <0,2%) y de **larga duración (5-8 años)**.",
+      "**Reduce el sangrado menstrual >80%**: tratamiento de la **menorragia** y protección endometrial en la THS.",
+      "Efecto sobre todo local (pocos efectos sistémicos)."
+    ],
+    "mecanismo": "Liberación local de levonorgestrel: atrofia endometrial y espesamiento del moco; inhibición ovulatoria parcial.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción de larga duración",
+        "dosis": "52 mg de levonorgestrel (20 µg/día)",
+        "posologia": "Inserción única",
+        "via": "intrauterina",
+        "nota": "Duración 5-8 años según modelo"
+      },
+      {
+        "patologia": "Menorragia idiopática",
+        "dosis": "52 mg",
+        "posologia": "Inserción única",
+        "via": "intrauterina",
+        "nota": "Alternativa a la cirugía"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar embarazo e ITS.",
+      "titulacion": "—",
+      "duracion": "5-8 años.",
+      "fin": "Retirada en consulta; fertilidad inmediata.",
+      "via": "Intrauterina.",
+      "monitorizacion": "Revisión a las 4-6 semanas (hilos)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local con escasa sistémica.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Eficacia anticonceptiva mantenida (acción local)",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado irregular los primeros meses",
+        "Amenorrea (deseable)"
+      ],
+      "graves": [
+        "Perforación uterina (inserción)",
+        "Expulsión",
+        "EIP en las primeras semanas"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "EIP o ITS activa",
+      "Malformación uterina, cáncer de cérvix o endometrio",
+      "Sangrado genital no filiado"
+    ],
+    "perlas": [
+      "Útil también en mujeres con inductores enzimáticos (antiepilépticos) por su acción local."
+    ],
+    "embarazo_lactancia": "Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-implante-etonogestrel",
+    "nombre": "Implante subdérmico de etonogestrel",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Implante de larga duración (3 años)",
+    "vs_clase": [
+      "**El método reversible MÁS EFICAZ** (fallo 0,05%) durante **3 años**.",
+      "**Sin estrógenos**; inserción en el brazo en consulta.",
+      "**Sangrado impredecible** (principal causa de retirada) e **inductores enzimáticos reducen su eficacia**."
+    ],
+    "mecanismo": "Liberación sostenida de etonogestrel: inhibición ovulatoria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción de larga duración",
+        "dosis": "68 mg de etonogestrel",
+        "posologia": "Inserción subdérmica única",
+        "via": "SC",
+        "nota": "Cambiar a los 3 años"
+      }
+    ],
+    "esquema": {
+      "inicio": "Día 1-5 del ciclo.",
+      "titulacion": "—",
+      "duracion": "3 años.",
+      "fin": "Retirada en consulta; fertilidad rápida.",
+      "via": "Subdérmica.",
+      "monitorizacion": "Palpación del implante."
+    },
+    "farmacocinetica": {
+      "absorcion": "Subdérmica sostenida.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "25 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos (rifampicina, carbamazepina, efavirenz)",
+          "efecto": "Fallo anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "DIU"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sangrado irregular**",
+        "Acné, cefalea, cambios de peso"
+      ],
+      "graves": [
+        "Migración del implante (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Cáncer de mama",
+      "Hepatopatía grave",
+      "ETV activa"
+    ],
+    "perlas": [
+      "Adolescentes: los métodos de larga duración (implante, DIU) evitan la mayoría de embarazos no deseados."
+    ],
+    "embarazo_lactancia": "Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-levonorgestrel-urgencia",
+    "nombre": "Levonorgestrel 1,5 mg (anticoncepción de urgencia)",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Progestágeno a dosis alta poscoital",
+    "vs_clase": [
+      "**Hasta 72 h tras el coito** (eficacia decreciente con el tiempo); sin receta.",
+      "**Menos eficaz que el ulipristal y que el DIU de cobre**, sobre todo con IMC >30 (dosis doble).",
+      "**Se puede reiniciar la anticoncepción hormonal de inmediato.**"
+    ],
+    "mecanismo": "Retrasa o inhibe la ovulación si se toma antes del pico de LH. No es abortivo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción de urgencia (≤72 h)",
+        "dosis": "1,5 mg (3 mg si IMC >30 o inductores enzimáticos)",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Repetir si vomita en 3 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Test de embarazo si no hay regla en 3 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "24-32 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Menor eficacia",
+          "gravedad": "alta",
+          "manejo": "Doble dosis o DIU de cobre"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Alteración de la siguiente regla"
+      ],
+      "graves": [
+        "Embarazo ectópico si fracasa (no causado por el fármaco)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo establecido (ineficaz)"
+    ],
+    "perlas": [
+      "No sustituye a un método regular: aprovechar para ofrecer uno."
+    ],
+    "embarazo_lactancia": "Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-ulipristal",
+    "nombre": "Ulipristal acetato",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticoncepción de solo gestágeno y de urgencia",
+    "subclase": "Modulador selectivo del receptor de progesterona",
+    "vs_clase": [
+      "**Hasta 120 h (5 días) y MÁS EFICAZ que el levonorgestrel**, incluso cerca del pico de LH.",
+      "**Retrasar 5 días el reinicio de anticonceptivos hormonales** (se antagonizan).",
+      "Su uso como tratamiento de miomas (5 mg) está restringido por **hepatotoxicidad grave**."
+    ],
+    "mecanismo": "Modulador del receptor de progesterona que retrasa la ovulación aun cuando la LH ya ha empezado a subir.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoncepción de urgencia (≤120 h)",
+        "dosis": "30 mg",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Lactancia: suspender 1 semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "Anticoncepción hormonal a los 5 días + barrera.",
+      "via": "VO.",
+      "monitorizacion": "Test de embarazo si retraso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Fecal.",
+      "vida_media": "32 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Progestágenos (anticonceptivos)",
+          "efecto": "Antagonismo mutuo",
+          "gravedad": "media",
+          "manejo": "Esperar 5 días"
+        },
+        {
+          "con": "Inductores del CYP3A4, IBP (pH)",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "DIU de cobre"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, náuseas",
+        "Dolor abdominal"
+      ],
+      "graves": [
+        "Hepatotoxicidad (uso crónico en miomas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo establecido",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Entre 72 y 120 h: ulipristal o DIU de cobre, no levonorgestrel."
+    ],
+    "embarazo_lactancia": "Suspender la lactancia 1 semana.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "GIN-carbetocina",
+    "nombre": "Carbetocina",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Uterotónico",
+    "subclase": "Análogo de oxitocina de acción prolongada",
+    "vs_clase": [
+      "**Análogo de oxitocina de acción LARGA: dosis ÚNICA** de 100 µg en la prevención de la hemorragia posparto (sobre todo tras **cesárea**).",
+      "**Termoestable** (no necesita frío): ventaja en entornos con recursos limitados.",
+      "No para inducción del parto."
+    ],
+    "mecanismo": "Agonista del receptor de oxitocina con vida media 4-10 veces mayor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención de la hemorragia posparto tras cesárea o parto vaginal",
+        "dosis": "100 µg",
+        "posologia": "Dosis única tras la extracción fetal",
+        "via": "IV / IM",
+        "nota": "IV lenta en 1 min"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras la salida del feto.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "IV, IM.",
+      "monitorizacion": "Tono uterino, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM 80%.",
+      "distribucion": "—",
+      "metabolismo": "Peptidasas.",
+      "eliminacion": "Renal.",
+      "vida_media": "40 min (efecto horas).",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Prostaglandinas, otros uterotónicos",
+          "efecto": "Hiperestimulación",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, rubor, cefalea",
+        "Hipotensión transitoria"
+      ],
+      "graves": [
+        "Isquemia miocárdica (cardiópatas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Durante el embarazo antes del parto",
+      "Preeclampsia grave o eclampsia, cardiopatía grave"
+    ],
+    "perlas": [
+      "Si la hemorragia ya está establecida, se usa oxitocina en perfusión, no carbetocina."
+    ],
+    "embarazo_lactancia": "Uso posparto.",
+    "micro_relacionado": [],
+    "fuente": "Protocolos SEGO; OMS"
+  },
+  {
+    "id": "GIN-metilergometrina",
+    "nombre": "Metilergometrina",
+    "sinonimos": [
+      "Ergometrina"
+    ],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Uterotónico",
+    "subclase": "Alcaloide del cornezuelo (ergótico)",
+    "vs_clase": [
+      "**Contracción uterina TÓNICA sostenida** (no rítmica): segunda línea en la hemorragia posparto por atonía.",
+      "**VASOCONSTRICTOR potente: CONTRAINDICADA en HIPERTENSIÓN y PREECLAMPSIA** (crisis hipertensiva, ictus).",
+      "**Interacción grave con inhibidores del CYP3A4** (ergotismo)."
+    ],
+    "mecanismo": "Agonista parcial de receptores alfa-adrenérgicos, serotoninérgicos y dopaminérgicos del miometrio y los vasos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia posparto por atonía (tras oxitocina)",
+        "dosis": "0,2 mg",
+        "posologia": "Cada 2-4 h (máx. 5 dosis)",
+        "via": "IM",
+        "nota": "IV solo en emergencia y lenta"
+      }
+    ],
+    "esquema": {
+      "inicio": "Medir PA antes.",
+      "titulacion": "—",
+      "duracion": "Dosis puntuales.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "**PA**, isquemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM rápida.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Biliar.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Claritromicina, ritonavir, azoles",
+          "efecto": "**Ergotismo (isquemia grave)**",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Triptanes",
+          "efecto": "Vasoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos",
+        "Hipertensión"
+      ],
+      "graves": [
+        "**Crisis hipertensiva, ictus, infarto**",
+        "Isquemia periférica"
+      ]
+    },
+    "contraindicaciones": [
+      "**HTA, preeclampsia**",
+      "Cardiopatía isquémica, enfermedad vascular periférica",
+      "Uso con inhibidores potentes del CYP3A4"
+    ],
+    "perlas": [
+      "Antes de pinchar metilergometrina, mirar la PA."
+    ],
+    "embarazo_lactancia": "Solo posparto.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "GIN-carboprost",
+    "nombre": "Carboprost (PGF2-alfa)",
+    "sinonimos": [
+      "Dinoprost"
+    ],
+    "area": "GIN",
+    "nivel": 3,
+    "clase": "Uterotónico",
+    "subclase": "Análogo de prostaglandina F2-alfa",
+    "vs_clase": [
+      "**Tercera línea en la HEMORRAGIA POSPARTO** refractaria a oxitocina y ergóticos.",
+      "**CONTRAINDICADO en el ASMA** (broncoconstrictor potente).",
+      "**Diarrea, vómitos y fiebre** muy frecuentes; también intramiometrial."
+    ],
+    "mecanismo": "Agonista del receptor FP: contracción miometrial potente.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia posparto refractaria",
+        "dosis": "250 µg",
+        "posologia": "Cada 15-90 min (máx. 8 dosis = 2 mg)",
+        "via": "IM",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras fracaso de oxitocina.",
+      "titulacion": "—",
+      "duracion": "Dosis puntuales.",
+      "fin": "—",
+      "via": "IM o intramiometrial.",
+      "monitorizacion": "SpO2, broncoespasmo."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM rápida.",
+      "distribucion": "—",
+      "metabolismo": "Pulmonar y hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Minutos.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Otros uterotónicos",
+          "efecto": "Potenciación",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea, vómitos**",
+        "Fiebre"
+      ],
+      "graves": [
+        "**Broncoespasmo**",
+        "Hipertensión pulmonar, hipoxemia"
+      ]
+    },
+    "contraindicaciones": [
+      "**Asma**",
+      "Cardiopatía o enfermedad pulmonar activa"
+    ],
+    "perlas": [
+      "Asmática con atonía: misoprostol o ergóticos (si PA normal), no carboprost."
+    ],
+    "embarazo_lactancia": "Solo posparto.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 18"
+  },
+  {
+    "id": "GIN-atosiban",
+    "nombre": "Atosibán",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Fármaco del parto pretérmino",
+    "subclase": "Antagonista del receptor de oxitocina (tocolítico)",
+    "vs_clase": [
+      "**Tocolítico con MENOS efectos maternos** (sin taquicardia, hipotensión ni edema pulmonar): preferido en cardiópatas y gestación múltiple.",
+      "**Solo IV en perfusión 48 h**; más caro que el nifedipino.",
+      "Objetivo: **ganar 48 h** para corticoides y traslado."
+    ],
+    "mecanismo": "Antagonista competitivo de los receptores de oxitocina y vasopresina V1a del miometrio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Amenaza de parto pretérmino 24-34 semanas",
+        "dosis": "6,75 mg en bolo, 300 µg/min 3 h, después 100 µg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Máx. 48 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras diagnóstico de APP sin contraindicaciones.",
+      "titulacion": "—",
+      "duracion": "Máx. 48 h.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "Dinámica uterina, bienestar fetal."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "—",
+      "metabolismo": "Peptidasas.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "1,7 h.",
+      "ajuste_renal": "Sin datos.",
+      "ajuste_hepatico": "Sin datos.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Cefalea"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Corioamnionitis, sufrimiento fetal",
+      "Desprendimiento de placenta",
+      "<24 o >34 semanas",
+      "RPM >30 semanas"
+    ],
+    "perlas": [
+      "Ningún tocolítico mejora el pronóstico neonatal por sí mismo: sirve para ganar tiempo."
+    ],
+    "embarazo_lactancia": "Uso obstétrico.",
+    "micro_relacionado": [],
+    "fuente": "Protocolos SEGO"
+  },
+  {
+    "id": "GIN-indometacina-tocolitica",
+    "nombre": "Indometacina (uso tocolítico)",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Fármaco del parto pretérmino",
+    "subclase": "AINE inhibidor de prostaglandinas (tocolítico)",
+    "vs_clase": [
+      "**Tocolítico eficaz antes de las 32 semanas** (inhibe las prostaglandinas uterinas).",
+      "**Riesgo FETAL: cierre precoz del DUCTUS y oligohidramnios** → solo <32 semanas y máx. 48-72 h.",
+      "Útil en el **polihidramnios** sintomático."
+    ],
+    "mecanismo": "Inhibe la COX y la síntesis de prostaglandinas que inician las contracciones.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Amenaza de parto pretérmino <32 semanas",
+        "dosis": "50-100 mg de carga, después 25 mg",
+        "posologia": "Cada 6 h",
+        "via": "VO / rectal",
+        "nota": "Máx. 48 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "<32 semanas.",
+      "titulacion": "—",
+      "duracion": "≤48 h.",
+      "fin": "—",
+      "via": "VO o rectal.",
+      "monitorizacion": "Líquido amniótico y ductus (eco) si >48 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Atraviesa la placenta.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "4,5 h.",
+      "ajuste_renal": "Evitar en ERC.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes",
+          "efecto": "Hemorragia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, pirosis materna"
+      ],
+      "graves": [
+        "**Cierre del ductus fetal**",
+        "Oligohidramnios",
+        "Enterocolitis necrotizante neonatal"
+      ]
+    },
+    "contraindicaciones": [
+      "≥32 semanas",
+      "Oligohidramnios, cardiopatía fetal ductus-dependiente",
+      "Úlcera, alteración renal o plaquetaria materna"
+    ],
+    "perlas": [
+      "Mismo fármaco que cierra el ductus del prematuro tras nacer."
+    ],
+    "embarazo_lactancia": "Solo uso obstétrico breve <32 semanas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; protocolos SEGO"
+  },
+  {
+    "id": "GIN-betametasona-maduracion",
+    "nombre": "Betametasona (maduración pulmonar fetal)",
+    "sinonimos": [
+      "Dexametasona IM (alternativa)"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Fármaco del parto pretérmino",
+    "subclase": "Glucocorticoide prenatal",
+    "vs_clase": [
+      "**La intervención que MÁS mejora el pronóstico del prematuro**: reduce distrés respiratorio, hemorragia intraventricular, enterocolitis y mortalidad.",
+      "**Atraviesa la placenta sin inactivarse** (a diferencia de la prednisona).",
+      "**Efecto óptimo entre 24 h y 7 días** tras la primera dosis."
+    ],
+    "mecanismo": "Glucocorticoide que acelera la maduración del surfactante y del epitelio alveolar fetal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Riesgo de parto pretérmino entre 24 y 34+6 semanas",
+        "dosis": "12 mg",
+        "posologia": "Cada 24 h",
+        "via": "IM",
+        "nota": "2 dosis; una dosis de rescate en casos seleccionados"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante riesgo de parto en 7 días.",
+      "titulacion": "—",
+      "duracion": "2 dosis.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "Glucemia materna (diabéticas)."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "**Paso placentario completo.**",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "36-54 h biológica.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Insulina",
+          "efecto": "Hiperglucemia materna 3-5 días",
+          "gravedad": "media",
+          "manejo": "Ajustar insulina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperglucemia materna transitoria",
+        "Leucocitosis"
+      ],
+      "graves": [
+        "Hipoglucemia neonatal (más en tardíos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección sistémica materna grave (relativa)"
+    ],
+    "perlas": [
+      "Corioamnionitis no contraindica los corticoides, pero sí retrasar el parto."
+    ],
+    "embarazo_lactancia": "Uso obstétrico.",
+    "micro_relacionado": [],
+    "fuente": "Protocolos SEGO; Katzung 15.ª ed., cap. 39"
+  }
+]

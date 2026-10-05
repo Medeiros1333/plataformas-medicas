@@ -23,7 +23,7 @@ const TIENE_UNIDAD = /\d\s*(microgramos?|miligramos?|mg|g|mcg|µg|ug|UI|U|mL|ml|
 // administración reales de cada área nueva, no al revés (ver hallazgo #12).
 const DOSIS_NO_PONDERAL = /dosis\s+FIJA|franja\s+de\s+edad|por\s+EDAD|por\s+SUPERFICIE|no\s+ponderal/i;
 
-const VIAS = ['VO', 'IV', 'IM', 'SC', 'SL', 'IN', 'inhalada', 'nebulizada', 'tópica', 'oftálmica', 'ótica', 'rectal', 'vaginal', 'intratecal', 'intraarticular', 'transdérmica', 'epidural', 'intraósea', 'intravesical', 'bucal', 'intestinal'];
+const VIAS = ['VO', 'IV', 'IM', 'SC', 'SL', 'IN', 'inhalada', 'nebulizada', 'tópica', 'oftálmica', 'ótica', 'rectal', 'vaginal', 'intratecal', 'intraarticular', 'transdérmica', 'epidural', 'intraósea', 'intravesical', 'intravítrea', 'bucal', 'intestinal'];
 
 function validarFarmaco(f, { esPediatria }) {
   for (const campo of ['id', 'nombre', 'area', 'clase', 'mecanismo', 'fuente']) {

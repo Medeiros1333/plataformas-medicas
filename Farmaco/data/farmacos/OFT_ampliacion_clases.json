@@ -1,0 +1,928 @@
+[
+  {
+    "id": "OFT-latanoprost",
+    "nombre": "Latanoprost",
+    "sinonimos": [
+      "Bimatoprost, travoprost, tafluprost"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Hipotensor ocular",
+    "subclase": "Análogo de prostaglandina F2-alfa",
+    "vs_clase": [
+      "**PRIMERA línea del glaucoma de ángulo abierto**: el que más baja la PIO (25-35%) con **una gota diaria por la NOCHE**.",
+      "**Sin efectos sistémicos relevantes.**",
+      "**Efectos LOCALES propios**: hiperpigmentación del iris (irreversible), crecimiento de pestañas, hiperemia, orbitopatía periocular."
+    ],
+    "mecanismo": "Aumenta el drenaje uveoescleral del humor acuoso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Glaucoma de ángulo abierto e hipertensión ocular",
+        "dosis": "1 gota (0,005%)",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "oftálmica",
+        "nota": "Más dosis reduce el efecto"
+      }
+    ],
+    "esquema": {
+      "inicio": "PIO basal.",
+      "titulacion": "Añadir otro fármaco si no alcanza la PIO objetivo.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PIO, campo visual, OCT."
+    },
+    "farmacocinetica": {
+      "absorcion": "Corneal (profármaco).",
+      "distribucion": "Ocular.",
+      "metabolismo": "Hidrólisis corneal; hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "17 min plasmática (efecto 24 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros análogos de prostaglandinas",
+          "efecto": "Elevación paradójica de la PIO",
+          "gravedad": "baja",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hiperemia conjuntival**",
+        "**Pestañas más largas**",
+        "Oscurecimiento del iris"
+      ],
+      "graves": [
+        "Edema macular quístico (afáquicos)",
+        "Reactivación de queratitis herpética, uveítis"
+      ]
+    },
+    "contraindicaciones": [
+      "Uveítis activa",
+      "Antecedente de queratitis herpética (relativa)"
+    ],
+    "perlas": [
+      "Avisar del cambio de color del iris si se trata un solo ojo."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 18"
+  },
+  {
+    "id": "OFT-timolol",
+    "nombre": "Timolol colirio",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Hipotensor ocular",
+    "subclase": "Betabloqueante no selectivo tópico",
+    "vs_clase": [
+      "**Reduce la PRODUCCIÓN de humor acuoso**; segunda línea o asociado (combinaciones fijas).",
+      "**Absorción SISTÉMICA importante** (sin primer paso, por la vía nasolagrimal): **broncoespasmo, bradicardia, bloqueo AV**.",
+      "**Contraindicado en asma** y bradicardia; ocluir el punto lagrimal tras instilar."
+    ],
+    "mecanismo": "Bloqueo beta del epitelio ciliar: menos humor acuoso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Glaucoma de ángulo abierto",
+        "dosis": "1 gota (0,25-0,5%)",
+        "posologia": "Cada 12 h (gel: cada 24 h)",
+        "via": "oftálmica",
+        "nota": "Presionar el canto interno 1-2 min"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar asma y bradicardia.",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PIO, FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica por mucosa nasal (sin primer paso).",
+      "distribucion": "—",
+      "metabolismo": "CYP2D6.",
+      "eliminacion": "Renal.",
+      "vida_media": "4 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Verapamilo, diltiazem, betabloqueantes orales",
+          "efecto": "Bradicardia",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor",
+        "Ojo seco"
+      ],
+      "graves": [
+        "**Broncoespasmo**",
+        "**Bradicardia, bloqueo AV**",
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Asma, EPOC grave",
+      "Bradicardia, bloqueo AV"
+    ],
+    "perlas": [
+      "Asmático que empeora sin causa: revisar colirios de timolol."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 10"
+  },
+  {
+    "id": "OFT-brimonidina",
+    "nombre": "Brimonidina",
+    "sinonimos": [
+      "Apraclonidina"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Hipotensor ocular",
+    "subclase": "Agonista alfa-2 adrenérgico tópico",
+    "vs_clase": [
+      "**Doble mecanismo**: reduce la producción y aumenta el drenaje uveoescleral.",
+      "**ALERGIA ocular (conjuntivitis folicular) muy frecuente** (hasta 25%).",
+      "**CONTRAINDICADA en < 2 años** (apnea, depresión del SNC) y con IMAO."
+    ],
+    "mecanismo": "Agonista alfa-2 del cuerpo ciliar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Glaucoma de ángulo abierto (2.ª línea o asociado)",
+        "dosis": "1 gota (0,2%)",
+        "posologia": "Cada 12 h",
+        "via": "oftálmica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PIO, alergia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica parcial.",
+      "distribucion": "Atraviesa la barrera.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "IMAO, antidepresivos tricíclicos",
+          "efecto": "Crisis hipertensiva / menor efecto",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Conjuntivitis alérgica**",
+        "Boca seca, somnolencia"
+      ],
+      "graves": [
+        "Apnea y coma en lactantes"
+      ]
+    },
+    "contraindicaciones": [
+      "< 2 años",
+      "Uso de IMAO"
+    ],
+    "perlas": [
+      "Ojo rojo y picor a los meses de brimonidina: alergia, cambiar de fármaco."
+    ],
+    "embarazo_lactancia": "Evitar en lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "OFT-dorzolamida",
+    "nombre": "Dorzolamida",
+    "sinonimos": [
+      "Brinzolamida",
+      "Dorzolamida/timolol"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Hipotensor ocular",
+    "subclase": "Inhibidor tópico de la anhidrasa carbónica",
+    "vs_clase": [
+      "**Inhibe la anhidrasa carbónica del cuerpo ciliar** (producción de humor acuoso), sin los efectos sistémicos de la acetazolamida oral.",
+      "**Sulfonamida** (precaución en alérgicos); **sabor amargo** característico.",
+      "Muy usada en **combinación fija con timolol**."
+    ],
+    "mecanismo": "Inhibición de la anhidrasa carbónica II ciliar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Glaucoma de ángulo abierto (asociado)",
+        "dosis": "1 gota (2%)",
+        "posologia": "Cada 8 h (cada 12 h con timolol)",
+        "via": "oftálmica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PIO, córnea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica baja.",
+      "distribucion": "Se acumula en hematíes.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "4 meses (en hematíes).",
+      "ajuste_renal": "Contraindicada con FG <30.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Acetazolamida oral",
+          "efecto": "Efecto aditivo sistémico",
+          "gravedad": "baja",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sabor amargo**",
+        "Escozor"
+      ],
+      "graves": [
+        "Descompensación corneal en endotelio dañado",
+        "Reacciones de sulfonamida"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <30",
+      "Alergia grave a sulfonamidas"
+    ],
+    "perlas": [
+      "Córnea con endotelio dañado (Fuchs): evitar inhibidores de anhidrasa carbónica tópicos."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "OFT-ranibizumab",
+    "nombre": "Ranibizumab",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Anti-VEGF intravítreo",
+    "subclase": "Fragmento Fab anti-VEGF-A",
+    "vs_clase": [
+      "**Fragmento Fab (sin porción Fc)**: menor exposición sistémica.",
+      "**Pautas mensuales o «tratar y extender»** en DMAE húmeda, edema macular diabético y por oclusión venosa, y **retinopatía del prematuro**.",
+      "Biosimilares disponibles."
+    ],
+    "mecanismo": "Neutraliza todas las isoformas de VEGF-A, reduciendo la neovascularización y la permeabilidad vascular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Degeneración macular asociada a la edad neovascular y edema macular diabético",
+        "dosis": "0,5 mg (0,05 mL)",
+        "posologia": "Mensual (carga de 3) y después según actividad",
+        "via": "intravítrea",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "3 inyecciones mensuales.",
+      "titulacion": "Tratar y extender.",
+      "duracion": "Indefinida según actividad.",
+      "fin": "—",
+      "via": "Intravítrea.",
+      "monitorizacion": "Agudeza visual, OCT, PIO tras inyección."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "Vítreo.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "9 días (vítreo).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragia subconjuntival",
+        "Moscas volantes"
+      ],
+      "graves": [
+        "**Endoftalmitis**",
+        "Desprendimiento de retina",
+        "Elevación de la PIO"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección ocular o periocular activa"
+    ],
+    "perlas": [
+      "Dolor y pérdida de visión días después de una inyección: endoftalmitis hasta demostrar lo contrario."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "OFT-aflibercept",
+    "nombre": "Aflibercept",
+    "sinonimos": [
+      "Faricimab (anti-VEGF + anti-angiopoyetina 2)"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Anti-VEGF intravítreo",
+    "subclase": "Proteína de fusión «trampa» de VEGF y PlGF",
+    "vs_clase": [
+      "**Bloquea VEGF-A, VEGF-B y PlGF** con alta afinidad: **intervalos más largos** (cada 8 semanas tras la carga; dosis alta cada 12-16).",
+      "**Más eficaz en edema macular diabético con agudeza visual baja** (Protocol T).",
+      "Más caro que el bevacizumab."
+    ],
+    "mecanismo": "Receptor señuelo soluble que atrapa VEGF y factor de crecimiento placentario.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DMAE neovascular, edema macular diabético y por oclusión venosa",
+        "dosis": "2 mg (0,05 mL)",
+        "posologia": "Mensual × 3, después cada 8 semanas o tratar y extender",
+        "via": "intravítrea",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga.",
+      "titulacion": "Extender intervalos.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Intravítrea.",
+      "monitorizacion": "OCT, agudeza."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "Vítreo.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "Larga en vítreo.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragia subconjuntival",
+        "Dolor ocular"
+      ],
+      "graves": [
+        "Endoftalmitis",
+        "Vasculitis retiniana (rara)",
+        "Eventos tromboembólicos arteriales (teóricos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección ocular activa",
+      "Inflamación intraocular activa"
+    ],
+    "perlas": [
+      "Menos inyecciones al año: menos riesgo acumulado y mejor adherencia."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "OFT-bevacizumab",
+    "nombre": "Bevacizumab intravítreo",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Anti-VEGF intravítreo",
+    "subclase": "Anticuerpo completo anti-VEGF-A (uso fuera de ficha)",
+    "vs_clase": [
+      "**Anticuerpo ONCOLÓGICO completo** usado en oftalmología **fuera de ficha**, fraccionado: **eficacia similar con coste muchísimo menor** (CATT, IVAN).",
+      "**Mayor vida media sistémica** (porción Fc).",
+      "Requiere preparación en farmacia (riesgo de contaminación)."
+    ],
+    "mecanismo": "Anticuerpo monoclonal humanizado anti-VEGF-A.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DMAE neovascular y edema macular (fuera de ficha)",
+        "dosis": "1,25 mg (0,05 mL)",
+        "posologia": "Mensual o tratar y extender",
+        "via": "intravítrea",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga mensual.",
+      "titulacion": "Según actividad.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Intravítrea.",
+      "monitorizacion": "OCT."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local, con paso sistémico.",
+      "distribucion": "Vítreo.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "Sistémica 20 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragia subconjuntival"
+      ],
+      "graves": [
+        "Endoftalmitis (preparación)",
+        "Eventos sistémicos (raros)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección ocular activa"
+    ],
+    "perlas": [
+      "En oncología sistémica: HTA, proteinuria, perforación intestinal; en el ojo, a dosis mínima, casi no se ven."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "OFT-tobramicina-colirio",
+    "nombre": "Tobramicina colirio",
+    "sinonimos": [
+      "Tobramicina/dexametasona"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "subclase": "Antibiótico tópico ocular (aminoglucósido)",
+    "vs_clase": [
+      "**Antibiótico tópico de amplio espectro** para conjuntivitis bacteriana y blefaritis; **seguro en niños**.",
+      "**Combinado con dexametasona** en inflamación con riesgo infeccioso (posquirúrgico).",
+      "**Toxicidad epitelial corneal** con uso prolongado."
+    ],
+    "mecanismo": "Aminoglucósido: inhibe la síntesis proteica bacteriana.",
+    "espectro": "Cubre: estafilococos, Pseudomonas, Haemophilus, enterobacterias. Menos activo frente a estreptococos.",
+    "indicaciones": [
+      {
+        "patologia": "Conjuntivitis bacteriana",
+        "dosis": "1-2 gotas (0,3%)",
+        "posologia": "Cada 4-6 h",
+        "via": "oftálmica",
+        "nota": "5-7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "Más frecuente si grave (cada 1-2 h el primer día).",
+      "duracion": "5-7 días.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Respuesta en 48-72 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima sistémica.",
+      "distribucion": "Ocular.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros colirios",
+          "efecto": "Lavado",
+          "gravedad": "baja",
+          "manejo": "Separar 5 min"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, hiperemia"
+      ],
+      "graves": [
+        "Queratitis tóxica"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a aminoglucósidos"
+    ],
+    "perlas": [
+      "La mayoría de conjuntivitis son víricas: el colirio antibiótico no acorta su curso."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 45"
+  },
+  {
+    "id": "OFT-ofloxacino-colirio",
+    "nombre": "Ofloxacino colirio (y otras quinolonas tópicas)",
+    "sinonimos": [
+      "Moxifloxacino colirio",
+      "Ciprofloxacino colirio"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "subclase": "Quinolona tópica ocular",
+    "vs_clase": [
+      "**De elección en la QUERATITIS bacteriana y en portadores de LENTES DE CONTACTO** (cubre Pseudomonas).",
+      "**Mejor penetración corneal** que los aminoglucósidos.",
+      "Pautas intensivas (cada hora) en úlceras corneales."
+    ],
+    "mecanismo": "Inhibición de la ADN girasa y topoisomerasa IV bacterianas.",
+    "espectro": "Cubre: Pseudomonas, enterobacterias, Haemophilus, estafilococos (resistencias crecientes), Chlamydia (parcial).",
+    "indicaciones": [
+      {
+        "patologia": "Conjuntivitis en portadores de lentes de contacto, queratitis bacteriana",
+        "dosis": "1-2 gotas (0,3%)",
+        "posologia": "Cada 2-4 h (úlcera: cada hora 48 h)",
+        "via": "oftálmica",
+        "nota": "Retirar las lentes"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cultivo corneal si úlcera.",
+      "titulacion": "Espaciar según respuesta.",
+      "duracion": "7-14 días.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Evolución de la úlcera."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima sistémica.",
+      "distribucion": "Córnea y cámara anterior.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor"
+      ],
+      "graves": [
+        "Precipitados corneales (ciprofloxacino)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a quinolonas"
+    ],
+    "perlas": [
+      "Ojo rojo doloroso en portador de lentillas: urgencia oftalmológica (Pseudomonas, Acanthamoeba)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 46"
+  },
+  {
+    "id": "OFT-dexametasona-colirio",
+    "nombre": "Dexametasona colirio",
+    "sinonimos": [
+      "Fluorometolona (corticoide ocular de baja penetración)"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "subclase": "Corticoide tópico ocular",
+    "vs_clase": [
+      "**Antiinflamatorio ocular potente**: uveítis anterior, inflamación posquirúrgica, conjuntivitis alérgica grave (indicación del oftalmólogo).",
+      "**Eleva la PIO (glaucoma cortisónico) y produce CATARATA** con uso prolongado.",
+      "**PROHIBIDO en queratitis herpética** (perforación corneal): nunca pautarlo ante un ojo rojo sin explorar con fluoresceína."
+    ],
+    "mecanismo": "Glucocorticoide que inhibe la inflamación intraocular y de la superficie.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Uveítis anterior e inflamación posquirúrgica",
+        "dosis": "1-2 gotas (0,1%)",
+        "posologia": "Cada 1-6 h según gravedad",
+        "via": "oftálmica",
+        "nota": "Pauta descendente; con ciclopléjico en uveítis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras descartar queratitis herpética o fúngica.",
+      "titulacion": "Descenso progresivo.",
+      "duracion": "Semanas.",
+      "fin": "**Retirada gradual** (rebote inflamatorio).",
+      "via": "Oftálmica.",
+      "monitorizacion": "**PIO**, cristalino."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena penetración intraocular.",
+      "distribucion": "Ocular.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa transitoria"
+      ],
+      "graves": [
+        "**Hipertensión ocular / glaucoma**",
+        "**Catarata subcapsular posterior**",
+        "Exacerbación de queratitis herpética o fúngica"
+      ]
+    },
+    "contraindicaciones": [
+      "Queratitis herpética, fúngica o micobacteriana",
+      "Úlcera corneal"
+    ],
+    "perlas": [
+      "El médico de familia no debe pautar corticoides oculares sin exploración con lámpara de hendidura."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39"
+  },
+  {
+    "id": "OFT-tropicamida",
+    "nombre": "Tropicamida",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Midriático y ciclopléjico",
+    "subclase": "Antimuscarínico de acción corta",
+    "vs_clase": [
+      "**Midriático de acción CORTA (4-6 h)**: el de elección para el **fondo de ojo** diagnóstico.",
+      "**Cicloplejía débil** (no sirve para refracción en niños).",
+      "**Puede desencadenar un GLAUCOMA AGUDO** en ángulos estrechos."
+    ],
+    "mecanismo": "Bloquea los receptores muscarínicos del esfínter del iris (midriasis) y del músculo ciliar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dilatación pupilar para exploración del fondo de ojo",
+        "dosis": "1-2 gotas (1%)",
+        "posologia": "Dosis única (repetir a los 5 min)",
+        "via": "oftálmica",
+        "nota": "Efecto en 20-30 min"
+      }
+    ],
+    "esquema": {
+      "inicio": "Valorar profundidad de la cámara anterior.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Dolor ocular o visión de halos (glaucoma)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Efecto 4-6 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Fenilefrina",
+          "efecto": "Midriasis sinérgica",
+          "gravedad": "baja",
+          "manejo": "Combinación habitual"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa y fotofobia transitorias"
+      ],
+      "graves": [
+        "Glaucoma agudo de ángulo cerrado"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado o ángulo estrecho"
+    ],
+    "perlas": [
+      "Avisar de que no conduzca hasta recuperar la visión."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8"
+  },
+  {
+    "id": "OFT-ciclopentolato",
+    "nombre": "Ciclopentolato",
+    "sinonimos": [
+      "Atropina colirio (cicloplejía prolongada)"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Midriático y ciclopléjico",
+    "subclase": "Antimuscarínico de acción intermedia",
+    "vs_clase": [
+      "**CICLOPLÉJICO potente de acción intermedia (24 h)**: **refracción en niños** y alivio del dolor en la **uveítis anterior** (con corticoide).",
+      "**Toxicidad sistémica en niños pequeños** (agitación, alucinaciones): dosis bajas.",
+      "La **atropina** colirio da una cicloplejía de 1-2 semanas (ambliopía: penalización)."
+    ],
+    "mecanismo": "Bloqueo muscarínico del músculo ciliar (parálisis de la acomodación) y del esfínter del iris.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Refracción ciclopléjica en niños",
+        "dosis": "1 gota (1%)",
+        "posologia": "2 dosis separadas 5-10 min",
+        "via": "oftálmica",
+        "nota": "Medir a los 30-60 min"
+      },
+      {
+        "patologia": "Uveítis anterior (alivio del espasmo ciliar, prevención de sinequias)",
+        "dosis": "1 gota (1%)",
+        "posologia": "Cada 8-12 h",
+        "via": "oftálmica",
+        "nota": "Con corticoide tópico"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Efectos sistémicos en niños."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica por mucosa nasal.",
+      "distribucion": "Atraviesa la barrera.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Efecto 24 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros anticolinérgicos",
+          "efecto": "Toxicidad",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa, fotofobia"
+      ],
+      "graves": [
+        "Psicosis anticolinérgica en niños",
+        "Glaucoma agudo"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Lactantes muy pequeños (relativa)"
+    ],
+    "perlas": [
+      "Ocluir el punto lagrimal en niños para reducir la absorción sistémica."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8"
+  },
+  {
+    "id": "OFT-fenilefrina-colirio",
+    "nombre": "Fenilefrina colirio",
+    "sinonimos": [],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Midriático y ciclopléjico",
+    "subclase": "Midriático alfa-1 agonista (sin cicloplejía)",
+    "vs_clase": [
+      "**Midriasis SIN cicloplejía** (no afecta la acomodación): contrae el dilatador del iris.",
+      "**Se combina con tropicamida** para máxima dilatación.",
+      "**Al 10% puede elevar la PA** (crisis hipertensiva, sobre todo en cardiópatas y neonatos): usar al 2,5%."
+    ],
+    "mecanismo": "Agonista alfa-1 del músculo dilatador del iris.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Midriasis para exploración o cirugía",
+        "dosis": "1 gota (2,5%)",
+        "posologia": "Dosis única (repetible)",
+        "via": "oftálmica",
+        "nota": "Junto a tropicamida"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "PA en cardiópatas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica posible.",
+      "distribucion": "—",
+      "metabolismo": "MAO.",
+      "eliminacion": "Renal.",
+      "vida_media": "Efecto 3-6 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO, antidepresivos tricíclicos, betabloqueantes",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "media",
+          "manejo": "Usar 2,5%"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor",
+        "Blanqueamiento conjuntival"
+      ],
+      "graves": [
+        "**Hipertensión, arritmias, infarto** (10%)"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "HTA grave o cardiopatía isquémica (10%)"
+    ],
+    "perlas": [
+      "En el anciano cardiópata, fenilefrina al 2,5% y no al 10%."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  }
+]

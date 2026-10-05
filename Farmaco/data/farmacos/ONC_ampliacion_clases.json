@@ -1,0 +1,1373 @@
+[
+  {
+    "id": "ONC-5-fluorouracilo",
+    "nombre": "5-Fluorouracilo (5-FU)",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antimetabolito antineoplásico (análogo de pirimidina)",
+    "subclase": "Fluoropirimidina intravenosa",
+    "vs_clase": [
+      "**IV en bolo o en INFUSIÓN continua de 46 h** (bomba portátil): base de los esquemas **FOLFOX / FOLFIRI** del cáncer colorrectal y de cabeza y cuello.",
+      "**El ácido FOLÍNICO (leucovorina) POTENCIA su efecto** (estabiliza el complejo con la timidilato sintasa): al revés que con el metotrexato, donde lo rescata.",
+      "**Déficit de DPD (gen DPYD)**: toxicidad letal → **genotipar antes de empezar**; antídoto **uridina triacetato**. Puede causar **vasoespasmo coronario**."
+    ],
+    "mecanismo": "Se transforma en FdUMP, que inhibe la timidilato sintasa (sin timidina no hay síntesis de ADN), y en FUTP, que se incorpora al ARN. Es específico de la fase S.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer colorrectal (FOLFOX/FOLFIRI)",
+        "dosis": "400 mg/m² en bolo + 2400 mg/m² en infusión de 46 h",
+        "posologia": "Cada 14 días",
+        "via": "IV",
+        "nota": "Con leucovorina 400 mg/m²"
+      },
+      {
+        "patologia": "Cáncer de cabeza y cuello, esófago y gástrico",
+        "dosis": "1000 mg/m²/día en infusión continua",
+        "posologia": "Días 1-4, cada 21-28 días",
+        "via": "IV",
+        "nota": "Con platino"
+      }
+    ],
+    "esquema": {
+      "inicio": "Genotipo DPYD, hemograma, función hepática.",
+      "titulacion": "Reducir según toxicidad (mucositis, diarrea, neutropenia).",
+      "duracion": "Adyuvancia 3-6 meses; enfermedad avanzada hasta progresión.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "Hemograma antes de cada ciclo, mucositis, diarrea, dolor torácico."
+    },
+    "farmacocinetica": {
+      "absorcion": "Errática por vía oral (por eso existe la capecitabina).",
+      "distribucion": "Amplia, incluido el LCR.",
+      "metabolismo": "**Dihidropirimidina deshidrogenasa (DPD)** hepática: elimina más del 80%.",
+      "eliminacion": "Renal y pulmonar (CO2).",
+      "vida_media": "10-20 min.",
+      "ajuste_renal": "No suele precisar.",
+      "ajuste_hepatico": "Precaución en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR o usar HBPM"
+        },
+        {
+          "con": "Brivudina (antiherpético)",
+          "efecto": "Inhibe la DPD: toxicidad mortal",
+          "gravedad": "alta",
+          "manejo": "Contraindicado; separar 4 semanas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Mucositis y diarrea**",
+        "Neutropenia (bolo)",
+        "Síndrome mano-pie (infusión)",
+        "Hiperpigmentación"
+      ],
+      "graves": [
+        "**Toxicidad grave por déficit de DPD**",
+        "**Vasoespasmo coronario** (angina, infarto)",
+        "Neurotoxicidad cerebelosa"
+      ]
+    },
+    "contraindicaciones": [
+      "Déficit completo de DPD",
+      "Tratamiento con brivudina en las 4 semanas previas"
+    ],
+    "perlas": [
+      "Dolor torácico durante la infusión de 5-FU: suspender (vasoespasmo) y no reintroducir sin valorar."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-capecitabina",
+    "nombre": "Capecitabina",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antimetabolito antineoplásico (análogo de pirimidina)",
+    "subclase": "Fluoropirimidina oral (profármaco del 5-FU)",
+    "vs_clase": [
+      "**PROFÁRMACO ORAL del 5-FU**: se activa en 3 pasos, el último por la **timidina fosforilasa**, más abundante en el tumor. Sustituye a la infusión continua (**CAPOX**, cáncer de mama y colorrectal).",
+      "**SÍNDROME MANO-PIE** como toxicidad característica y limitante.",
+      "**AJUSTE RENAL obligatorio** (contraindicada con FG <30) y **potente interacción con WARFARINA**."
+    ],
+    "mecanismo": "Tras su conversión a 5-FU, inhibe la timidilato sintasa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer colorrectal (adyuvancia y avanzado), CAPOX",
+        "dosis": "1000 mg/m²",
+        "posologia": "Cada 12 h, días 1-14 de cada ciclo de 21 días",
+        "via": "VO",
+        "nota": "Con oxaliplatino 130 mg/m² el día 1; en monoterapia 1250 mg/m²"
+      },
+      {
+        "patologia": "Cáncer de mama metastásico y residual tras neoadyuvancia",
+        "dosis": "1000-1250 mg/m²",
+        "posologia": "Cada 12 h, días 1-14 cada 21 días",
+        "via": "VO",
+        "nota": "Tomar en los 30 min posteriores a una comida"
+      }
+    ],
+    "esquema": {
+      "inicio": "Genotipo DPYD, función renal.",
+      "titulacion": "Reducir 25-50% según grado de toxicidad.",
+      "duracion": "Adyuvancia 6 meses (o 3 meses CAPOX en bajo riesgo).",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Piel de manos y pies, diarrea, hemograma, INR si toma warfarina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "—",
+      "metabolismo": "Carboxilesterasa hepática → citidina desaminasa → timidina fosforilasa (tumor).",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG 30-50: reducir al 75%; FG <30: contraindicada.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento marcado del INR (inhibe CYP2C9)",
+          "gravedad": "alta",
+          "manejo": "Preferir HBPM"
+        },
+        {
+          "con": "Fenitoína",
+          "efecto": "Toxicidad por fenitoína",
+          "gravedad": "media",
+          "manejo": "Niveles"
+        },
+        {
+          "con": "Brivudina",
+          "efecto": "Toxicidad mortal",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Síndrome mano-pie** (eritrodisestesia palmoplantar)",
+        "Diarrea",
+        "Náuseas"
+      ],
+      "graves": [
+        "Diarrea grave con deshidratación",
+        "Toxicidad por déficit de DPD",
+        "Cardiotoxicidad (vasoespasmo)"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <30",
+      "Déficit completo de DPD",
+      "Brivudina reciente"
+    ],
+    "perlas": [
+      "Ante síndrome mano-pie de grado 2 o diarrea de grado 2: PARAR y reiniciar con dosis reducida, no continuar."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-gemcitabina",
+    "nombre": "Gemcitabina",
+    "sinonimos": [
+      "Citarabina (análogo de citidina de las leucemias)"
+    ],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Antimetabolito antineoplásico (análogo de pirimidina)",
+    "subclase": "Análogo de desoxicitidina",
+    "vs_clase": [
+      "**Análogo de CITIDINA** (no fluoropirimidina): se incorpora al ADN y causa «terminación enmascarada» de la cadena; además inhibe la ribonucleótido reductasa.",
+      "**Tumores típicos**: **páncreas**, vejiga (con cisplatino), pulmón, vía biliar, ovario. **Pauta SEMANAL** en infusión corta de 30 min.",
+      "**TROMBOPENIA, síndrome pseudogripal, NEUMONITIS** y **microangiopatía trombótica (SHU)**; potente **radiosensibilizante**."
+    ],
+    "mecanismo": "Se fosforila a difosfato (inhibe la ribonucleótido reductasa) y trifosfato (se incorpora al ADN y detiene su síntesis). Específico de la fase S.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de páncreas",
+        "dosis": "1000 mg/m² en 30 min",
+        "posologia": "Días 1, 8 y 15 cada 28 días",
+        "via": "IV",
+        "nota": "Con nab-paclitaxel en enfermedad avanzada"
+      },
+      {
+        "patologia": "Cáncer de vejiga y pulmón no microcítico",
+        "dosis": "1000-1250 mg/m²",
+        "posologia": "Días 1 y 8 cada 21 días",
+        "via": "IV",
+        "nota": "Con cisplatino o carboplatino"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma, función hepática y renal.",
+      "titulacion": "Omitir o reducir según neutrófilos y plaquetas del día.",
+      "duracion": "4-6 ciclos o hasta progresión.",
+      "fin": "—",
+      "via": "IV, infusión de 30 min (más larga = más toxicidad).",
+      "monitorizacion": "Hemograma semanal, disnea, PA y creatinina (SHU)."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Citidina desaminasa (rápida).",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "40-90 min.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Reducir si bilirrubina elevada.",
+      "interacciones": [
+        {
+          "con": "Radioterapia torácica concomitante",
+          "efecto": "Esofagitis y neumonitis graves",
+          "gravedad": "alta",
+          "manejo": "Dosis reducidas o secuencial"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Trombopenia y neutropenia**",
+        "**Síndrome pseudogripal** y fiebre",
+        "Edema, exantema"
+      ],
+      "graves": [
+        "**Neumonitis intersticial**",
+        "**Síndrome hemolítico urémico**",
+        "Síndrome de fuga capilar"
+      ]
+    },
+    "contraindicaciones": [
+      "Mielosupresión grave",
+      "Radioterapia torácica simultánea a dosis plenas"
+    ],
+    "perlas": [
+      "Anemia hemolítica, trombopenia y fracaso renal en un paciente con gemcitabina: microangiopatía trombótica, suspender."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-cisplatino",
+    "nombre": "Cisplatino",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico derivado del platino",
+    "subclase": "Platino de primera generación",
+    "vs_clase": [
+      "**El más activo y el más tóxico**: **NEFROTOXICIDAD** (requiere **hiperhidratación** y magnesio), **OTOTOXICIDAD** irreversible y **neuropatía**.",
+      "**El MÁS EMETÓGENO** de la quimioterapia: triple antiemesis (NK1 + setrón + dexametasona ± olanzapina).",
+      "De elección en **tumores germinales** (curables) y como **radiosensibilizante semanal** (cérvix, cabeza y cuello)."
+    ],
+    "mecanismo": "Forma aductos intracatenarios de platino en las guaninas del ADN que bloquean replicación y transcripción.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tumores germinales de testículo (BEP)",
+        "dosis": "20 mg/m²/día",
+        "posologia": "Días 1-5 cada 21 días",
+        "via": "IV",
+        "nota": "Con bleomicina y etopósido"
+      },
+      {
+        "patologia": "Quimiorradioterapia de cérvix y cabeza y cuello",
+        "dosis": "40 mg/m²",
+        "posologia": "Semanal durante la radioterapia",
+        "via": "IV",
+        "nota": "Alternativa: 100 mg/m² cada 21 días"
+      },
+      {
+        "patologia": "Cáncer de pulmón, vejiga, esófago y gástrico",
+        "dosis": "75 mg/m²",
+        "posologia": "Cada 21 días",
+        "via": "IV",
+        "nota": "En combinación"
+      }
+    ],
+    "esquema": {
+      "inicio": "FG (≥60 mL/min idealmente), Mg, audiometría basal. **Hidratación 2-3 L de salino** con Mg y K.",
+      "titulacion": "Cambiar a carboplatino si FG bajo, hipoacusia o neuropatía.",
+      "duracion": "4-6 ciclos.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "Creatinina, **Mg**, K, audición, neuropatía."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Alta unión a proteínas; se acumula en riñón.",
+      "metabolismo": "No enzimático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Bifásica, terminal de días.",
+      "ajuste_renal": "Evitar con FG <60 (usar carboplatino).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos, furosemida a dosis altas",
+          "efecto": "Suma nefro y ototoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "AINE, contrastes yodados",
+          "efecto": "Nefrotoxicidad",
+          "gravedad": "media",
+          "manejo": "Evitar en el ciclo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas y vómitos (agudos y TARDÍOS)**",
+        "**Hipomagnesemia**",
+        "Mielosupresión moderada"
+      ],
+      "graves": [
+        "**Insuficiencia renal**",
+        "**Hipoacusia de alta frecuencia y acúfenos**",
+        "Neuropatía sensitiva acumulativa"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <60 mL/min (relativa)",
+      "Hipoacusia previa",
+      "Neuropatía previa"
+    ],
+    "perlas": [
+      "Hipomagnesemia por cisplatino: produce hipocalcemia e hipopotasemia refractarias hasta que se repone el Mg."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-carboplatino",
+    "nombre": "Carboplatino",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico derivado del platino",
+    "subclase": "Platino de segunda generación",
+    "vs_clase": [
+      "**Dosis por AUC con la fórmula de CALVERT**: dosis (mg) = AUC × (FG + 25), no por superficie corporal.",
+      "**Toxicidad limitante: MIELOSUPRESIÓN (TROMBOPENIA)**; mucho menos nefro, oto y neurotóxico y menos emetógeno que el cisplatino.",
+      "De elección en **ovario** (con paclitaxel) y cuando el cisplatino no se tolera; **hipersensibilidad tras muchos ciclos** (≥6)."
+    ],
+    "mecanismo": "Igual que el cisplatino, con un grupo saliente más estable (activación más lenta).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de ovario",
+        "dosis": "AUC 5-6 mg/mL·min (fórmula de Calvert)",
+        "posologia": "Cada 21 días",
+        "via": "IV",
+        "nota": "Con paclitaxel 175 mg/m², 6 ciclos"
+      },
+      {
+        "patologia": "Cáncer de pulmón (microcítico y no microcítico)",
+        "dosis": "AUC 5 mg/mL·min",
+        "posologia": "Cada 21 días",
+        "via": "IV",
+        "nota": "Con etopósido, pemetrexed o paclitaxel ± inmunoterapia"
+      }
+    ],
+    "esquema": {
+      "inicio": "FG (Cockcroft-Gault, con tope de 125 mL/min), hemograma.",
+      "titulacion": "Reducir AUC si trombopenia o neutropenia prolongadas.",
+      "duracion": "4-6 ciclos.",
+      "fin": "—",
+      "via": "IV en 30-60 min.",
+      "monitorizacion": "**Hemograma (plaquetas al día 14-21)**, reacciones de hipersensibilidad."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "No enzimático.",
+      "eliminacion": "**Renal (70%)**: por eso la dosis depende del FG.",
+      "vida_media": "2-6 h.",
+      "ajuste_renal": "Incorporado en la fórmula de Calvert.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros mielosupresores",
+          "efecto": "Mielotoxicidad aditiva",
+          "gravedad": "media",
+          "manejo": "Ajustar dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Trombopenia**, anemia, neutropenia",
+        "Náuseas moderadas"
+      ],
+      "graves": [
+        "**Anafilaxia** (tras múltiples ciclos)",
+        "Sangrado por trombopenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Mielosupresión grave",
+      "Alergia previa a platinos"
+    ],
+    "perlas": [
+      "Reacción alérgica en el 7.º-8.º ciclo de carboplatino: típica; valorar desensibilización."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-oxaliplatino",
+    "nombre": "Oxaliplatino",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico derivado del platino",
+    "subclase": "Platino de tercera generación (DACH)",
+    "vs_clase": [
+      "**El ÚNICO platino activo en cáncer COLORRECTAL** (FOLFOX, CAPOX) y digestivo alto y páncreas (FOLFIRINOX).",
+      "**NEUROTOXICIDAD doble**: **disestesia AGUDA desencadenada por el FRÍO** (faringolaríngea) y **neuropatía sensitiva ACUMULATIVA** (limita la duración).",
+      "**Sin nefrotoxicidad**; se diluye **solo en GLUCOSADO 5%** (incompatible con cloruro)."
+    ],
+    "mecanismo": "Aductos de platino voluminosos (diaminociclohexano) que el sistema de reparación de errores de emparejamiento no reconoce: activo en tumores resistentes al cisplatino.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer colorrectal (FOLFOX)",
+        "dosis": "85 mg/m²",
+        "posologia": "Cada 14 días",
+        "via": "IV",
+        "nota": "Infusión de 2 h en glucosado 5%"
+      },
+      {
+        "patologia": "Cáncer colorrectal y gástrico (CAPOX)",
+        "dosis": "130 mg/m²",
+        "posologia": "Cada 21 días",
+        "via": "IV",
+        "nota": "Con capecitabina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Explorar neuropatía basal; advertir de evitar el frío (bebidas, objetos) los días siguientes.",
+      "titulacion": "Suspender el oxaliplatino (mantener la fluoropirimidina) si neuropatía persistente de grado 2-3.",
+      "duracion": "Adyuvancia 3-6 meses (estrategia «stop and go» en avanzado).",
+      "fin": "La neuropatía puede EMPEORAR tras suspender (fenómeno de «coasting»).",
+      "via": "IV.",
+      "monitorizacion": "**Neuropatía** antes de cada ciclo, hemograma."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia, unión a hematíes.",
+      "metabolismo": "No enzimático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Terminal larga (días).",
+      "ajuste_renal": "Reducir con FG <30.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Soluciones con cloruro (salino)",
+          "efecto": "Degradación del fármaco",
+          "gravedad": "media",
+          "manejo": "Diluir en glucosado 5%"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Disestesias agudas por frío** (manos, boca, garganta)",
+        "**Neuropatía sensitiva acumulativa**",
+        "Náuseas, diarrea, trombopenia"
+      ],
+      "graves": [
+        "**Laringoespasmo disestésico** (sensación de no poder respirar)",
+        "Hipersensibilidad",
+        "Síndrome de obstrucción sinusoidal hepática"
+      ]
+    },
+    "contraindicaciones": [
+      "Neuropatía sensitiva con alteración funcional",
+      "FG <30 (relativa)"
+    ],
+    "perlas": [
+      "Sensación de asfixia sin desaturación tras el oxaliplatino al beber agua fría: disestesia faringolaríngea, no anafilaxia."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-doxorubicina",
+    "nombre": "Doxorubicina",
+    "sinonimos": [
+      "Adriamicina",
+      "Doxorubicina liposomal pegilada"
+    ],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antraciclina (inhibidor de la topoisomerasa II)",
+    "subclase": "Antraciclina de amplio espectro",
+    "vs_clase": [
+      "**La antraciclina de los TUMORES SÓLIDOS y linfomas**: mama (AC), **linfoma de Hodgkin (ABVD)** y no Hodgkin (R-CHOP), sarcomas.",
+      "**MIOCARDIOPATÍA DILATADA dosis-dependiente**: dosis acumulada máxima **450-550 mg/m²**; FEVI basal y seriada; **dexrazoxano** cardioprotector.",
+      "La **forma LIPOSOMAL pegilada** apenas da cardiotoxicidad ni alopecia, pero sí **síndrome mano-pie**."
+    ],
+    "mecanismo": "Intercalación en el ADN, inhibición de la topoisomerasa II (roturas de doble cadena) y generación de radicales libres (responsables de la cardiotoxicidad, pues el miocardio tiene poca catalasa).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama (AC)",
+        "dosis": "60 mg/m²",
+        "posologia": "Cada 21 días (o cada 14 días con G-CSF)",
+        "via": "IV",
+        "nota": "Con ciclofosfamida 600 mg/m², 4 ciclos"
+      },
+      {
+        "patologia": "Linfoma no Hodgkin (R-CHOP) y Hodgkin (ABVD)",
+        "dosis": "50 mg/m² (CHOP) / 25 mg/m² (ABVD)",
+        "posologia": "Cada 21 días (CHOP) / días 1 y 15 cada 28 (ABVD)",
+        "via": "IV",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "**FEVI basal** (ecocardiograma), función hepática (bilirrubina), vía central si es posible (vesicante).",
+      "titulacion": "Reducir según bilirrubina.",
+      "duracion": "Hasta la dosis acumulada máxima.",
+      "fin": "Registrar la **dosis ACUMULADA** de por vida.",
+      "via": "IV (**VESICANTE**).",
+      "monitorizacion": "FEVI, hemograma, extravasación."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia; no atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático (doxorubicinol, cardiotóxico).",
+      "eliminacion": "**Biliar**.",
+      "vida_media": "20-48 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "**Reducir 50-75% según bilirrubina**.",
+      "interacciones": [
+        {
+          "con": "Trastuzumab",
+          "efecto": "Cardiotoxicidad sinérgica",
+          "gravedad": "alta",
+          "manejo": "No simultáneos; vigilar FEVI"
+        },
+        {
+          "con": "Radioterapia mediastínica",
+          "efecto": "Cardiotoxicidad y reacciones de «recuerdo» cutáneas",
+          "gravedad": "media",
+          "manejo": "Reducir dosis acumulada"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Alopecia total**",
+        "Mielosupresión, mucositis",
+        "**Orina ROJA** (inocua)"
+      ],
+      "graves": [
+        "**Miocardiopatía dilatada / insuficiencia cardíaca**",
+        "**Necrosis por extravasación** (antídoto: dexrazoxano)",
+        "Leucemia secundaria (LMA)"
+      ]
+    },
+    "contraindicaciones": [
+      "FEVI reducida",
+      "Dosis acumulada máxima alcanzada",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Insuficiencia cardíaca años después de quimioterapia de un linfoma o cáncer de mama: pensar en antraciclinas."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-epirubicina",
+    "nombre": "Epirubicina",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Antraciclina (inhibidor de la topoisomerasa II)",
+    "subclase": "Epímero de la doxorubicina",
+    "vs_clase": [
+      "**Menos cardiotóxica por mg** que la doxorubicina: **dosis acumulada máxima mayor (~900 mg/m²)**.",
+      "Usada sobre todo en **cáncer de MAMA (EC)** y en esquemas gástricos clásicos (ECF).",
+      "**Instilación intravesical** tras la resección de un tumor vesical superficial."
+    ],
+    "mecanismo": "Igual que la doxorubicina (intercalación, topoisomerasa II, radicales libres).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama (EC)",
+        "dosis": "90 mg/m²",
+        "posologia": "Cada 21 días (o cada 14 días con G-CSF)",
+        "via": "IV",
+        "nota": "Con ciclofosfamida 600 mg/m², 4 ciclos"
+      },
+      {
+        "patologia": "Cáncer vesical no músculo-invasivo",
+        "dosis": "50 mg",
+        "posologia": "Instilación única tras la RTU",
+        "via": "intravesical",
+        "nota": "Retener 1 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "FEVI basal, bilirrubina.",
+      "titulacion": "Ajuste hepático.",
+      "duracion": "4 ciclos en mama.",
+      "fin": "Registrar la dosis acumulada.",
+      "via": "IV (vesicante) o intravesical.",
+      "monitorizacion": "FEVI, hemograma."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático (glucuronidación, mayor que la doxorubicina).",
+      "eliminacion": "Biliar.",
+      "vida_media": "30-40 h.",
+      "ajuste_renal": "Reducir con creatinina >5 mg/dL.",
+      "ajuste_hepatico": "Reducir según bilirrubina.",
+      "interacciones": [
+        {
+          "con": "Trastuzumab",
+          "efecto": "Cardiotoxicidad",
+          "gravedad": "alta",
+          "manejo": "No simultáneos"
+        },
+        {
+          "con": "Cimetidina",
+          "efecto": "Aumenta sus niveles",
+          "gravedad": "baja",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Alopecia",
+        "Mielosupresión",
+        "Náuseas",
+        "Orina roja"
+      ],
+      "graves": [
+        "Miocardiopatía (menor que doxorubicina)",
+        "Extravasación",
+        "LMA secundaria"
+      ]
+    },
+    "contraindicaciones": [
+      "FEVI reducida",
+      "Dosis acumulada máxima de antraciclinas alcanzada"
+    ],
+    "perlas": [
+      "Las dosis acumuladas de antraciclinas se SUMAN entre fármacos de la clase (convertir por equivalencia)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-daunorubicina",
+    "nombre": "Daunorubicina",
+    "sinonimos": [
+      "Idarubicina",
+      "Daunorubicina/citarabina liposomal"
+    ],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Antraciclina (inhibidor de la topoisomerasa II)",
+    "subclase": "Antraciclina de las leucemias agudas",
+    "vs_clase": [
+      "**La antraciclina de las LEUCEMIAS AGUDAS**: inducción de la **LMA con esquema «7+3»** (citarabina 7 días + daunorubicina 3 días) y de la LLA.",
+      "**Escaso papel en tumores sólidos.**",
+      "Cardiotoxicidad con dosis acumulada máxima **~550 mg/m²**; la **idarubicina** es la alternativa en el 7+3 y en la leucemia promielocítica."
+    ],
+    "mecanismo": "Intercalación en el ADN e inhibición de la topoisomerasa II.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Leucemia mieloide aguda (inducción 7+3)",
+        "dosis": "60-90 mg/m²/día",
+        "posologia": "Días 1-3",
+        "via": "IV",
+        "nota": "Con citarabina 100-200 mg/m²/día en infusión continua los días 1-7"
+      }
+    ],
+    "esquema": {
+      "inicio": "FEVI basal, prevención del síndrome de lisis tumoral (hidratación, alopurinol o rasburicasa).",
+      "titulacion": "—",
+      "duracion": "Inducción y, en algunos casos, reinducción.",
+      "fin": "—",
+      "via": "IV (vesicante).",
+      "monitorizacion": "Hemograma, iones, urato, FEVI."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático (daunorubicinol activo).",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "18-27 h.",
+      "ajuste_renal": "Reducir con creatinina >3 mg/dL.",
+      "ajuste_hepatico": "Reducir según bilirrubina.",
+      "interacciones": [
+        {
+          "con": "Otras antraciclinas o trastuzumab",
+          "efecto": "Cardiotoxicidad acumulada",
+          "gravedad": "alta",
+          "manejo": "Sumar dosis acumuladas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mielosupresión profunda (buscada)",
+        "Mucositis",
+        "Alopecia",
+        "Orina roja"
+      ],
+      "graves": [
+        "Miocardiopatía",
+        "Necrosis por extravasación",
+        "Síndrome de lisis tumoral"
+      ]
+    },
+    "contraindicaciones": [
+      "FEVI reducida",
+      "Dosis acumulada máxima alcanzada"
+    ],
+    "perlas": [
+      "La «7+3» de la LMA: 7 días de citarabina y 3 de antraciclina (daunorubicina o idarubicina)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54"
+  },
+  {
+    "id": "ONC-pembrolizumab",
+    "nombre": "Pembrolizumab",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Inhibidor de puntos de control inmunitario",
+    "subclase": "Anticuerpo anti-PD-1",
+    "vs_clase": [
+      "**Anti-PD-1 con el MAYOR número de indicaciones**: melanoma, **pulmón no microcítico (monoterapia si PD-L1 ≥50%)**, cabeza y cuello, vejiga, mama triple negativo, cérvix…",
+      "**Primera aprobación «AGNÓSTICA de tumor»**: cualquier tumor sólido con **inestabilidad de microsatélites (MSI-H/dMMR)**.",
+      "**Dosis FIJA**: 200 mg cada 3 semanas o 400 mg cada 6 semanas."
+    ],
+    "mecanismo": "Bloquea el receptor PD-1 del linfocito T, impidiendo que PD-L1/PD-L2 del tumor lo «frenen»: reactiva la respuesta antitumoral en la fase efectora (tejido).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de pulmón no microcítico, melanoma y otros tumores sólidos",
+        "dosis": "200 mg (o 400 mg)",
+        "posologia": "Cada 3 semanas (o cada 6 semanas)",
+        "via": "IV",
+        "nota": "Hasta 2 años o progresión"
+      }
+    ],
+    "esquema": {
+      "inicio": "**TSH, T4, glucemia, cortisol, función hepática y renal basales**; descartar autoinmunidad activa.",
+      "titulacion": "No se reduce dosis: se **suspende** y se trata con corticoides según grado.",
+      "duracion": "Hasta 2 años, progresión o toxicidad.",
+      "fin": "Pseudoprogresión posible: confirmar con nueva imagen.",
+      "via": "IV en 30 min.",
+      "monitorizacion": "Función tiroidea, hepática, renal y glucemia antes de cada ciclo; diarrea, tos, astenia."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "22 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Corticoides sistémicos o inmunosupresores previos al inicio",
+          "efecto": "Pueden reducir la eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar dosis altas de base salvo necesidad"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hipotiroidismo** (tras tiroiditis)",
+        "Astenia, prurito, exantema",
+        "Diarrea"
+      ],
+      "graves": [
+        "**Neumonitis**",
+        "**Colitis**, hepatitis",
+        "**Diabetes tipo 1 fulminante**, insuficiencia suprarrenal",
+        "**Miocarditis** (rara, letal)"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad autoinmune grave activa (relativa)",
+      "Trasplante de órgano sólido (rechazo)"
+    ],
+    "perlas": [
+      "Toxicidad inmunomediada de grado ≥2: suspender y prednisona 1-2 mg/kg/día con descenso lento (≥4-6 semanas)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "ONC-nivolumab",
+    "nombre": "Nivolumab",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Inhibidor de puntos de control inmunitario",
+    "subclase": "Anticuerpo anti-PD-1",
+    "vs_clase": [
+      "**Anti-PD-1 que se COMBINA con IPILIMUMAB** (melanoma, carcinoma renal, mesotelioma, colorrectal MSI-H): más respuesta a costa de más toxicidad.",
+      "Indicaciones propias destacadas: **carcinoma RENAL**, **Hodgkin** refractario, esófago y gástrico, **adyuvancia** del melanoma.",
+      "**Dosis fija**: 240 mg cada 2 semanas o 480 mg cada 4 semanas (existe forma subcutánea)."
+    ],
+    "mecanismo": "Bloqueo del receptor PD-1 (fase efectora).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Melanoma, carcinoma renal, pulmón, esófago-gástrico",
+        "dosis": "240 mg (o 480 mg)",
+        "posologia": "Cada 2 semanas (o cada 4 semanas)",
+        "via": "IV",
+        "nota": "Con ipilimumab: nivolumab 1-3 mg/kg + ipilimumab cada 3 semanas × 4 dosis de inducción"
+      }
+    ],
+    "esquema": {
+      "inicio": "Igual que pembrolizumab: TSH, glucemia, cortisol, perfil hepático y renal.",
+      "titulacion": "Suspender ante toxicidad; no se reduce dosis.",
+      "duracion": "Hasta progresión o toxicidad (adyuvancia 1 año).",
+      "fin": "—",
+      "via": "IV en 30 min.",
+      "monitorizacion": "Analítica antes de cada dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "25 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ipilimumab",
+          "efecto": "Toxicidad inmunomediada de grado 3-4 en ~55%",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Astenia",
+        "Hipotiroidismo",
+        "Exantema, prurito"
+      ],
+      "graves": [
+        "Neumonitis",
+        "Colitis, hepatitis",
+        "Nefritis",
+        "Endocrinopatías",
+        "Miocarditis"
+      ]
+    },
+    "contraindicaciones": [
+      "Trasplante de órgano sólido (relativa)",
+      "Autoinmunidad grave activa (relativa)"
+    ],
+    "perlas": [
+      "Astenia profunda con hiponatremia e hipotensión en tratamiento con anti-PD-1: descartar insuficiencia suprarrenal o hipofisitis."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "ONC-atezolizumab",
+    "nombre": "Atezolizumab",
+    "sinonimos": [
+      "Durvalumab",
+      "Avelumab"
+    ],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Inhibidor de puntos de control inmunitario",
+    "subclase": "Anticuerpo anti-PD-L1",
+    "vs_clase": [
+      "**Bloquea el LIGANDO (PD-L1)**, no el receptor: deja libre la vía PD-1/PD-L2.",
+      "Indicaciones propias: **pulmón MICROCÍTICO** (con carboplatino-etopósido) y **hepatocarcinoma** (con **bevacizumab**).",
+      "El **durvalumab** es el estándar de **consolidación tras quimiorradioterapia** del pulmón no microcítico estadio III."
+    ],
+    "mecanismo": "Anticuerpo anti-PD-L1 que impide la unión del ligando tumoral al PD-1 y al B7.1.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de pulmón microcítico extendido y hepatocarcinoma avanzado",
+        "dosis": "1200 mg",
+        "posologia": "Cada 3 semanas",
+        "via": "IV",
+        "nota": "Alternativas: 840 mg cada 2 semanas o 1680 mg cada 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Analítica basal endocrina, hepática y renal; en hepatocarcinoma, endoscopia para varices (por el bevacizumab).",
+      "titulacion": "Suspender ante toxicidad.",
+      "duracion": "Hasta progresión o toxicidad.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "Igual que los anti-PD-1."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "27 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Bevacizumab",
+          "efecto": "Suma riesgo hemorrágico (varices) e HTA",
+          "gravedad": "media",
+          "manejo": "Tratar varices antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Astenia",
+        "Hipotiroidismo",
+        "Exantema"
+      ],
+      "graves": [
+        "Neumonitis",
+        "Hepatitis",
+        "Colitis",
+        "Endocrinopatías"
+      ]
+    },
+    "contraindicaciones": [
+      "Trasplante de órgano sólido (relativa)",
+      "Autoinmunidad grave activa (relativa)"
+    ],
+    "perlas": [
+      "Anti-PD-1 (pembro, nivo) y anti-PD-L1 (atezo, durva) tienen un perfil de toxicidad muy similar."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "ONC-ipilimumab",
+    "nombre": "Ipilimumab",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Inhibidor de puntos de control inmunitario",
+    "subclase": "Anticuerpo anti-CTLA-4",
+    "vs_clase": [
+      "**Anti-CTLA-4**: actúa en la fase de **ACTIVACIÓN (ganglio linfático)**, no en el tejido como los anti-PD-1.",
+      "**La MAYOR toxicidad inmunomediada de la clase**: **COLITIS** e **HIPOFISITIS** son típicas.",
+      "**Casi siempre COMBINADO con nivolumab**, con **solo 4 dosis de inducción**."
+    ],
+    "mecanismo": "Bloquea CTLA-4, el freno que compite con CD28 por B7 en la presentación antigénica; amplía la activación y expansión de linfocitos T.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Melanoma avanzado (con nivolumab)",
+        "dosis": "3 mg/kg",
+        "posologia": "Cada 3 semanas × 4 dosis",
+        "via": "IV",
+        "nota": "Con nivolumab 1 mg/kg; después nivolumab en monoterapia"
+      },
+      {
+        "patologia": "Carcinoma renal de riesgo intermedio-alto (con nivolumab)",
+        "dosis": "1 mg/kg",
+        "posologia": "Cada 3 semanas × 4 dosis",
+        "via": "IV",
+        "nota": "Con nivolumab 3 mg/kg"
+      }
+    ],
+    "esquema": {
+      "inicio": "Analítica endocrina basal (incluidos cortisol y ACTH), perfil hepático.",
+      "titulacion": "No se reduce dosis.",
+      "duracion": "4 dosis.",
+      "fin": "—",
+      "via": "IV en 30-90 min.",
+      "monitorizacion": "**Diarrea** (colitis), cefalea y astenia (hipofisitis), transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "15 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vemurafenib",
+          "efecto": "Hepatotoxicidad",
+          "gravedad": "media",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea / colitis**",
+        "Exantema, prurito",
+        "Astenia"
+      ],
+      "graves": [
+        "**Colitis grave con perforación**",
+        "**Hipofisitis** (cefalea, hipopituitarismo)",
+        "Hepatitis"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad inflamatoria intestinal activa (relativa)",
+      "Trasplante de órgano sólido (relativa)"
+    ],
+    "perlas": [
+      "Cefalea y astenia nuevas con ipilimumab: RM hipofisaria y eje corticotropo (hipofisitis)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "ONC-tamoxifeno",
+    "nombre": "Tamoxifeno",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Hormonoterapia del cáncer de mama",
+    "subclase": "Modulador selectivo del receptor de estrógenos (SERM)",
+    "vs_clase": [
+      "**SERM: antagonista en la mama, AGONISTA en ENDOMETRIO, hueso e hígado** → útil en **PRE y posmenopáusicas** (los inhibidores de la aromatasa solo en posmenopausia).",
+      "**Riesgo de CÁNCER DE ENDOMETRIO y TROMBOEMBOLIA**; protege el hueso en la posmenopausia.",
+      "**Profármaco activado por CYP2D6** (endoxifeno): **evitar paroxetina y fluoxetina**."
+    ],
+    "mecanismo": "Compite con el estradiol por el receptor de estrógenos de la célula tumoral mamaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama con receptores hormonales positivos (adyuvancia, premenopausia)",
+        "dosis": "20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5-10 años"
+      },
+      {
+        "patologia": "Prevención en mujeres de alto riesgo",
+        "dosis": "20 mg (o 5 mg en dosis baja)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5 años (3 en dosis baja)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ginecología basal; revisar fármacos inhibidores de CYP2D6.",
+      "titulacion": "—",
+      "duracion": "**5-10 años**.",
+      "fin": "Suspender 4-6 semanas antes de cirugía mayor o inmovilización prolongada.",
+      "via": "Oral.",
+      "monitorizacion": "**Sangrado vaginal** (biopsia endometrial), síntomas de TVP, oftalmología si visión alterada."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, buena.",
+      "distribucion": "Amplia.",
+      "metabolismo": "**CYP2D6 y CYP3A4** → endoxifeno (activo).",
+      "eliminacion": "Biliar.",
+      "vida_media": "5-7 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Paroxetina, fluoxetina, bupropión",
+          "efecto": "Inhiben CYP2D6: menor eficacia",
+          "gravedad": "alta",
+          "manejo": "Usar venlafaxina o citalopram para los sofocos"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sofocos**",
+        "Sequedad o flujo vaginal",
+        "Irregularidad menstrual"
+      ],
+      "graves": [
+        "**Cáncer de endometrio**",
+        "**Tromboembolia venosa**",
+        "Cataratas"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de TVP/TEP",
+      "Embarazo",
+      "Hiperplasia endometrial atípica"
+    ],
+    "perlas": [
+      "Metrorragia en una mujer posmenopáusica con tamoxifeno: ecografía transvaginal y biopsia."
+    ],
+    "embarazo_lactancia": "Contraindicado (teratógeno); anticoncepción no hormonal.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "ONC-letrozol",
+    "nombre": "Letrozol",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Hormonoterapia del cáncer de mama",
+    "subclase": "Inhibidor de la aromatasa no esteroideo",
+    "vs_clase": [
+      "**Inhibidor de la aromatasa no esteroideo (reversible)**: estándar de la **adyuvancia en POSMENOPAUSIA**, algo **superior al tamoxifeno**.",
+      "**Solo en posmenopausia** (en premenopausia, el ovario compensa): si no, **asociar supresión ovárica**.",
+      "**OSTEOPOROSIS y ARTRALGIAS**; **base de los inhibidores de CDK4/6** en metástasis. Uso fuera de ficha: **inducción de la ovulación** (SOP)."
+    ],
+    "mecanismo": "Bloquea la aromatasa periférica (tejido adiposo), principal fuente de estrógenos tras la menopausia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama RH+ en posmenopausia (adyuvancia y metastásico)",
+        "dosis": "2,5 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5-10 años; en metástasis con palbociclib/ribociclib/abemaciclib"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Densitometría basal**, vitamina D, perfil lipídico; confirmar menopausia.",
+      "titulacion": "—",
+      "duracion": "5-10 años (o tras 2-3 de tamoxifeno).",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "**Densitometría cada 1-2 años**; bisfosfonato o denosumab si osteopenia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, completa.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4 y 2A6.",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "2-4 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir en cirrosis grave.",
+      "interacciones": [
+        {
+          "con": "Tamoxifeno simultáneo",
+          "efecto": "Reduce los niveles de letrozol",
+          "gravedad": "media",
+          "manejo": "Secuencial, no simultáneo"
+        },
+        {
+          "con": "Estrógenos",
+          "efecto": "Antagonizan el efecto",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Artralgias y mialgias**",
+        "Sofocos",
+        "Hipercolesterolemia"
+      ],
+      "graves": [
+        "**Osteoporosis y fracturas**",
+        "Eventos cardiovasculares"
+      ]
+    },
+    "contraindicaciones": [
+      "Premenopausia sin supresión ovárica",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Artralgias que obligan a suspender: probar otro inhibidor de la aromatasa o cambiar a tamoxifeno."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "ONC-anastrozol",
+    "nombre": "Anastrozol",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Hormonoterapia del cáncer de mama",
+    "subclase": "Inhibidor de la aromatasa no esteroideo",
+    "vs_clase": [
+      "**Equivalente al letrozol** en la práctica (no esteroideo, reversible), a **1 mg/día**.",
+      "**Aprobado o recomendado en PREVENCIÓN** en posmenopáusicas de alto riesgo (IBIS-II), sin el riesgo endometrial del tamoxifeno.",
+      "Mismo perfil de **osteoporosis y artralgias**."
+    ],
+    "mecanismo": "Inhibición competitiva de la aromatasa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama RH+ en posmenopausia (adyuvancia)",
+        "dosis": "1 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5-10 años"
+      },
+      {
+        "patologia": "Prevención en posmenopáusicas de alto riesgo",
+        "dosis": "1 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5 años"
+      }
+    ],
+    "esquema": {
+      "inicio": "Densitometría basal, confirmar menopausia.",
+      "titulacion": "—",
+      "duracion": "5-10 años.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Densitometría periódica, lípidos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (N-desalquilación, glucuronidación).",
+      "eliminacion": "Renal.",
+      "vida_media": "40-50 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Tamoxifeno, estrógenos",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Artralgias",
+        "Sofocos",
+        "Sequedad vaginal"
+      ],
+      "graves": [
+        "Osteoporosis y fracturas"
+      ]
+    },
+    "contraindicaciones": [
+      "Premenopausia sin supresión ovárica",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Los inhibidores de la aromatasa no esteroideos son intercambiables ante intolerancias menores."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  },
+  {
+    "id": "ONC-exemestano",
+    "nombre": "Exemestano",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Hormonoterapia del cáncer de mama",
+    "subclase": "Inactivador esteroideo (irreversible) de la aromatasa",
+    "vs_clase": [
+      "**ESTEROIDEO e IRREVERSIBLE** («inhibidor suicida»): **resistencia cruzada INCOMPLETA** con los no esteroideos.",
+      "Útil **tras progresión a letrozol/anastrozol**, clásicamente **con everolimus** (inhibidor de mTOR).",
+      "**Efecto androgénico leve**; **tomar DESPUÉS de comer** (mejora la absorción)."
+    ],
+    "mecanismo": "Análogo de la androstenediona que se une de forma covalente a la aromatasa y la inactiva permanentemente.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de mama RH+ en posmenopausia (adyuvancia o metástasis tras otro inhibidor de la aromatasa)",
+        "dosis": "25 mg",
+        "posologia": "Cada 24 h, tras una comida",
+        "via": "VO",
+        "nota": "En metástasis con everolimus 10 mg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "Densitometría basal.",
+      "titulacion": "—",
+      "duracion": "Adyuvancia 5 años; metástasis hasta progresión.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Densitometría; con everolimus: glucemia, lípidos, estomatitis, neumonitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (aumenta con comida grasa).",
+      "distribucion": "Amplia.",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "24 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inductores de CYP3A4 (rifampicina)",
+          "efecto": "Menor exposición",
+          "gravedad": "media",
+          "manejo": "Duplicar dosis (50 mg/día)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sofocos",
+        "Artralgias",
+        "Acné o hirsutismo leves"
+      ],
+      "graves": [
+        "Osteoporosis (algo menor)"
+      ]
+    },
+    "contraindicaciones": [
+      "Premenopausia sin supresión ovárica",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Progresión con letrozol: exemestano + everolimus o, hoy más habitual, fulvestrant con un nuevo fármaco dirigido."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40"
+  }
+]

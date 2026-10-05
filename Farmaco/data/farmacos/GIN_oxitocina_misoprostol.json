@@ -112,7 +112,12 @@
     ],
     "embarazo_lactancia": "Es un fármaco de uso obstétrico: se emplea precisamente al final del embarazo y en el parto. Compatible con la lactancia; de hecho, la oxitocina endógena es la responsable del reflejo de eyección de la leche.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 37; guías de la OMS sobre prevención y tratamiento de la hemorragia posparto"
+    "fuente": "Katzung 15.ª ed., cap. 37; guías de la OMS sobre prevención y tratamiento de la hemorragia posparto",
+    "vs_clase": [
+      "**Uterotónico de PRIMERA línea**: prevención (10 UI IM en el alumbramiento) y tratamiento de la hemorragia posparto, e **inducción/estimulación del parto** (perfusión titulada).",
+      "**Contracciones RÍTMICAS** (fisiológicas); vida media de minutos.",
+      "**Intoxicación HÍDRICA** (efecto antidiurético) a dosis altas con sueros hipotónicos; **hipotensión** con bolo rápido."
+    ]
   },
   {
     "id": "GIN-misoprostol",
@@ -122,7 +127,7 @@
     ],
     "area": "GIN",
     "nivel": 1,
-    "clase": "Uterotónico y protector gástrico",
+    "clase": "Uterotónico",
     "subclase": "Análogo sintético de la prostaglandina E1",
     "mecanismo": "Análogo de la PGE1 que actúa sobre receptores EP2 y EP3. En el ÚTERO produce dos efectos complementarios: MADURA EL CUELLO, degradando el colágeno cervical y aumentando su contenido en agua, y CONTRAE el miometrio. A diferencia de la oxitocina, su acción NO depende de la densidad de receptores oxitocínicos, y por eso es eficaz en CUALQUIER momento de la gestación, incluido el primer trimestre: es lo que lo convierte en el fármaco central del aborto farmacológico y del manejo del aborto diferido. En el ESTÓMAGO, su acción sobre el receptor EP3 de la célula parietal reduce la secreción ácida y aumenta la producción de moco y bicarbonato, que fue su indicación original. La MIFEPRISTONA, con la que se combina, es un antagonista del receptor de progesterona que desprende la decidua y SENSIBILIZA el útero al misoprostol, multiplicando su eficacia.",
     "espectro": null,
@@ -240,6 +245,11 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADO en el embarazo cuando se desea continuarlo: es abortivo y teratógeno. Sus indicaciones obstétricas son precisamente aquellas en que se busca la contracción uterina. Compatible con la lactancia: el paso a la leche es mínimo y de vida media muy corta.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 18 y 37; guías de la OMS sobre aborto seguro y sobre hemorragia posparto"
+    "fuente": "Katzung 15.ª ed., caps. 18 y 37; guías de la OMS sobre aborto seguro y sobre hemorragia posparto",
+    "vs_clase": [
+      "**Prostaglandina E1 ORAL/SUBLINGUAL/VAGINAL y termoestable**: hemorragia posparto (800 µg) donde no hay oxitocina, **maduración cervical** e **interrupción del embarazo** (con mifepristona).",
+      "**Gastroprotector** con AINE (indicación original).",
+      "**Fiebre, escalofríos y diarrea**; **contraindicado en el embarazo deseado** (abortivo) y con cesárea previa en inducción a término (rotura uterina)."
+    ]
   }
 ]

@@ -7,7 +7,7 @@
     ],
     "area": "ONC",
     "nivel": 1,
-    "clase": "Antineoplásico alquilante (derivado del platino)",
+    "clase": "Visión de clase: derivados del platino",
     "subclase": "Agentes alquilantes atípicos (formadores de aductos de platino en el ADN)",
     "mecanismo": "Tras perder sus ligandos por hidrólisis intracelular, el átomo de platino se une covalentemente al nitrógeno 7 de la GUANINA y forma ADUCTOS, en su mayoría enlaces cruzados INTRACATENARIOS entre guaninas adyacentes. Esos aductos distorsionan la doble hélice, bloquean la replicación y la transcripción y, si el daño no se repara, desencadenan la apoptosis. No son ciclo-específicos. La reparación del daño depende de la vía de ESCISIÓN DE NUCLEÓTIDOS: los tumores con esa vía deficiente (como los que tienen mutación de BRCA) son especialmente sensibles al platino, y ese es el fundamento de su uso preferente en cáncer de ovario y en el cáncer de mama triple negativo con mutación BRCA. Las tres moléculas comparten el mecanismo pero difieren radicalmente en su TOXICIDAD, y esa diferencia es la que decide cuál se elige.",
     "espectro": null,
@@ -130,7 +130,8 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADOS en el embarazo, especialmente en el primer trimestre. Producen toxicidad gonadal e infertilidad, por lo que hay que ofrecer PRESERVACIÓN DE FERTILIDAD (criopreservación de semen u ovocitos) antes de iniciar el tratamiento en pacientes jóvenes. Contraindicados en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y protocolos de quimioterapia"
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y protocolos de quimioterapia",
+    "vision_clase": true
   },
   {
     "id": "ONC-antraciclinas",
@@ -138,7 +139,7 @@
     "sinonimos": [],
     "area": "ONC",
     "nivel": 1,
-    "clase": "Antineoplásico: antraciclina (inhibidor de la topoisomerasa II)",
+    "clase": "Visión de clase: antraciclinas",
     "subclase": "Antibióticos antitumorales inhibidores de la topoisomerasa II",
     "mecanismo": "Actúan por tres vías simultáneas. La principal es el ENVENENAMIENTO DE LA TOPOISOMERASA II: estabilizan el complejo enzima-ADN en el momento en que la doble hebra está cortada, impidiendo que se vuelva a unir y dejando roturas de doble cadena letales. Además se INTERCALAN entre los pares de bases, distorsionando la hélice, y generan RADICALES LIBRES a través de un ciclo redox catalizado por el HIERRO. Esa tercera vía es la que explica la CARDIOTOXICIDAD: el miocardiocito tiene pocas defensas antioxidantes y abundante topoisomerasa II beta, y el resultado es una muerte celular progresiva, ACUMULATIVA y en gran medida IRREVERSIBLE, que no se recupera al retirar el fármaco.",
     "espectro": null,
@@ -259,6 +260,7 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADAS en el embarazo, sobre todo en el primer trimestre; en el segundo y tercero se han usado con precaución en el cáncer de mama gestacional. Producen infertilidad, por lo que hay que plantear la preservación de fertilidad antes de empezar. Contraindicadas en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO de cardio-oncología"
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO de cardio-oncología",
+    "vision_clase": true
   }
 ]
