@@ -669,3 +669,14 @@ Con esto se completa la primera pasada de la tarea pendiente #3 sobre las 11 esp
 - **`data/calendario_estudio.json`** + **artefacto publicado** (cronograma visual de 55 semanas, dic. 2026 – dic. 2027, 49 semanas de primera vuelta repartidas proporcionalmente al peso de cada especialidad troncal + 6 semanas de repaso final/simulacros).
 
 **Pendiente explícito para una futura sesión:** (1) redactar explicación para las 1136 preguntas 2020-2025 (puede hacerse por lotes, priorizando las especialidades troncales de mayor peso: CAR, DIG, NML primero); (2) decidir el destino de los 253 módulos teóricos antiguos en `modulos/` — no se borraron (el usuario no lo pidió explícitamente y es una acción destructiva), quedan como archivo sin uso mientras la plataforma entregada pasa a ser banco de preguntas + calendario; (3) el hub (`hub/app.js`, `hub/data.js`) todavía refleja la arquitectura antigua (módulos con teoría/flashcards) — no se reconstruyó en esta parte; su reconstrucción para servir `banco_preguntas` + el calendario queda pendiente. ECG y Radiología (pedidos explícitamente por el usuario en su lista de troncales) no tienen banco de preguntas propio — se dejó una nota en el cronograma remitiendo a `02_Bibliografia/ECG AMIR.pdf` y `Radiologia AMIR.pdf`.
+
+## 2026-10-05 — Publicación en GitHub + progreso guardado + repaso espaciado
+
+- Hub publicado en GitHub Pages: https://medeiros1333.github.io/plataformas-medicas/MIR/hub/ (enlace oficial de uso).
+  Publicar con `publicar_github.ps1` en la raíz de `AI Agent/`.
+- `hub/app.js`: progreso persistente en localStorage (`mirhub-progreso-v1`: historial por pregunta, mazo SRS,
+  simulacros). Cada pregunta fallada (banco o simulacro) entra en el mazo y vuelve mañana; nueva pestaña **Repaso**
+  con SM-2 tipo Anki (Otra vez 1 d · Difícil · Bien · Fácil), badge con pendientes, aviso en el Panel, filtro
+  "Situación" en el banco (no respondidas / falladas / en el repaso), exportar/importar copia, atajos A–E / 1–4 / Enter.
+  Pestañas abiertas a la vez se sincronizan (evento `storage`).
+- Copia previa: `hub/_backup_srs_20261005/`. Probado en Edge sin interfaz (16 escenarios).

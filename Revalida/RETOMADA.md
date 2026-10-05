@@ -29,7 +29,8 @@ Resultado esperado hoje:
 | Hub (`hub/revalida_hub.html`) | 9,51 MB · JS válido · filtros e simulado ativos · **1.854 questões interativas, zero divergência** |
 | Cobertura de justificativas | **1.850 de 1.850 (100%)** — todas as 18 edições |
 | `lacunas.js "" --existentes --resumo` | **TOTAL 0** (inclui 2026.1) |
-| Hub publicado (artifact) | https://claude.ai/artifact/Re3foFTyfVubDLWM3H4meE — versão 22 (2026-10-01, 1.854 questões, busca por área). Para atualizar: publicar `hub/revalida_hub.html` com esse `url` (capability `downloads` é mantida) |
+| Hub publicado (**link oficial**) | https://medeiros1333.github.io/plataformas-medicas/Revalida/hub/ — GitHub Pages. Para atualizar: `powershell -ExecutionPolicy Bypass -File ..\publicar_github.ps1 "mensagem"` na raiz de `AI Agent/`. O progresso do usuário fica no localStorage **desse endereço** |
+| Hub antigo (artifact) | https://claude.ai/artifact/Re3foFTyfVubDLWM3H4meE — versão 22 (2026-10-01). Desatualizado desde 2026-10-05 (sem revisão espaçada); não é mais o link de uso |
 
 ---
 
@@ -219,6 +220,7 @@ Para questão anulada, a linha do gabarito é:
 |---|---|
 | `reconstruir_hub.js` | regera o conteúdo dos 326 módulos e injeta tudo |
 | `patch_hub.js` | injeta QMETA, filtros e o modo simulado |
+| `patch_revisao_espacada.js` | salvamento automático (localStorage `revalida-hub-v1`) + aba 🧠 Revisão (SM-2, tipo Anki) das questões erradas. Código em `revisao_espacada.js/.css`; idempotente — reaplicar após editar esses dois arquivos |
 | `verificar_tudo.js` | checagem única de integridade |
 
 ### Dados derivados (podem ser regerados)
@@ -380,7 +382,8 @@ opcionais da §6 (revisar os 9 blocos não totalmente corretos, as 8 divergênci
 acrescentar complementos de teoria nos módulos que receberam muitas questões de 2022.1/2026.1).
 Para uma **nova edição** (ex.: 2026.2), siga o "Fluxo para novas questões/edições" da §6; se o PDF vier em fonte
 cifrada, use a §7 (decifrar por palavra + conferência visual no PDF).
-Se o Hub for refeito a partir de um modelo antigo, rode também `patch_busca_areas.js` (busca/seletor por área; idempotente).
+Se o Hub for refeito a partir de um modelo antigo, rode também `patch_busca_areas.js` (busca/seletor por área; idempotente)
+e `patch_revisao_espacada.js` (salvamento + revisão espaçada; idempotente). Depois, publique com `publicar_github.ps1`.
 Feche qualquer lote com `reconstruir_mapa.js` → `reconstruir_hub.js` → `gerar_qmeta.js` → `patch_hub.js` →
 `verificar_tudo.js`.
 

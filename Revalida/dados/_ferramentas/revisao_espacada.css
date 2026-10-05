@@ -1,0 +1,22 @@
+/* REVISAO-ESPACADA */
+.badge-rev{display:inline-block; min-width:18px; padding:0 5px; margin-left:3px; border-radius:999px; background:var(--error); color:#fff; font-size:.68rem; font-weight:700; line-height:1.5; text-align:center; font-family:var(--font-mono);}
+.tabbar-mobile .badge-rev{position:absolute; transform:translate(14px,-4px); margin:0;}
+.tabbar-mobile button{position:relative;}
+.rev-aviso{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; background:var(--surface); border:1px solid var(--accent); border-left:4px solid var(--accent); border-radius:var(--radius); padding:12px 16px; margin-bottom:14px;}
+.rev-iniciar{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+.rev-iniciar select{min-width:240px; max-width:100%;}
+.rev-previsao{display:grid; gap:6px; max-width:520px;}
+.rev-previsao .lin{display:grid; grid-template-columns:72px 1fr 34px; gap:10px; align-items:center; font-size:.82rem;}
+.rev-previsao .d{color:var(--text-secondary);}
+.rev-previsao .bar{height:9px; background:var(--surface-high); border-radius:5px; overflow:hidden;}
+.rev-previsao .bar div{height:100%; background:var(--accent); border-radius:5px;}
+.rev-previsao .n{text-align:right;}
+.rev-topo{display:flex; align-items:center; gap:12px; margin-bottom:12px; font-size:.85rem; color:var(--text-secondary);}
+.rev-topo progress{flex:1;}
+.rev-botoes{display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:14px;}
+.rev-nota{flex-basis:100%; font-size:.85rem; color:var(--text-secondary);}
+.rev-btn{flex:1 1 110px; display:flex; flex-direction:column; align-items:center; gap:2px; padding:9px 10px; border-radius:8px; cursor:pointer; background:var(--surface-high); color:var(--text); border:1px solid var(--border); border-bottom-width:3px; font:inherit; font-size:.9rem;}
+.rev-btn span{font-size:.74rem; color:var(--text-muted); font-family:var(--font-mono);}
+.rev-btn:hover{border-color:var(--accent);}
+.rev-1{border-bottom-color:var(--error);} .rev-2{border-bottom-color:var(--warn);} .rev-3{border-bottom-color:var(--success);} .rev-4{border-bottom-color:var(--tier-b);}
+.rev-rodape{display:flex; justify-content:space-between; gap:8px; margin-top:4px;}

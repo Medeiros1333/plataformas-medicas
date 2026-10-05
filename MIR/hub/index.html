@@ -24,6 +24,7 @@
     <button class="navbtn" data-view="banco">Banco de preguntas</button>
     <button class="navbtn" data-view="calendario">Calendario</button>
     <button class="navbtn" data-view="simulacro">Simulacro</button>
+    <button class="navbtn" data-view="repaso" id="nav-repaso">Repaso</button>
   </nav>
   <div class="busqueda-global">
     <input type="text" id="busqueda-input" placeholder="Buscar preguntas…" autocomplete="off">
@@ -38,6 +39,7 @@
   <!-- ================= DASHBOARD ================= -->
   <section id="view-dashboard" class="view hidden">
     <h1>Panel general</h1>
+    <div id="dash-progreso"></div>
     <div class="stats-grid" id="stats-grid"></div>
     <h2>Cobertura por especialidad troncal</h2>
     <div class="table-wrap">
@@ -63,6 +65,14 @@
       <label>Año
         <select id="sel-anio">
           <option value="todos">Todos los años</option>
+        </select>
+      </label>
+      <label>Situación
+        <select id="sel-situacion">
+          <option value="todas">Todas</option>
+          <option value="no">No respondidas</option>
+          <option value="falladas">Falladas (última vez)</option>
+          <option value="repaso">En el repaso</option>
         </select>
       </label>
       <button id="btn-iniciar-estudio" class="btn-primary">Estudiar esta selección</button>
@@ -141,10 +151,16 @@
 
     <div id="simulacro-resultado" class="hidden"></div>
   </section>
+
+  <!-- ================= REPASO ESPACIADO ================= -->
+  <section id="view-repaso" class="view hidden">
+    <h1>Repaso espaciado de las falladas</h1>
+    <div id="repaso-contenido"></div>
+  </section>
 </main>
 
 <footer class="footer">
-  MIR Hub — banco de preguntas por tema (bibliografía 2009-2025) + calendario de estudio. Datos locales, sin envío a servidores externos.
+  MIR Hub — banco de preguntas por tema (bibliografía 2009-2025) + calendario de estudio. Tu progreso se guarda automáticamente en este navegador, sin envío a servidores externos.
 </footer>
 
 <script src="data.js"></script>

@@ -627,3 +627,37 @@ button {
 }
 .semana-temas li { margin-bottom: 3px; }
 .btn-ir-banco { margin-top: 6px; }
+
+/* ================= REPASO ESPACIADO ================= */
+.badge-repaso {
+  display: inline-block; min-width: 20px; padding: 1px 6px; margin-left: 4px;
+  border-radius: 999px; background: var(--danger); color: #fff;
+  font-size: 0.75rem; line-height: 1.4; text-align: center;
+}
+.repaso-aviso {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: var(--bg-card); border: 1px solid var(--primary); border-left: 5px solid var(--primary);
+  border-radius: var(--radius); padding: 14px 18px; margin-bottom: 18px; box-shadow: var(--shadow);
+}
+.repaso-intro { color: var(--text-muted); font-size: 0.9rem; margin: 0 0 16px; max-width: 70ch; }
+.repaso-vacio { color: var(--text-muted); font-size: 0.95rem; padding: 4px 0; }
+.repaso-atajos { color: var(--text-muted); font-size: 0.78rem; margin-top: 10px; }
+.repaso-previsto { display: grid; gap: 6px; max-width: 520px; }
+.repaso-previsto .fila { display: grid; grid-template-columns: 70px 1fr 36px; align-items: center; gap: 10px; font-size: 0.85rem; }
+.repaso-previsto .dia { color: var(--text-muted); }
+.repaso-previsto .barra { height: 10px; background: var(--border); border-radius: 5px; overflow: hidden; }
+.repaso-previsto .barra div { height: 100%; background: var(--primary); border-radius: 5px; }
+.repaso-previsto .n { text-align: right; font-variant-numeric: tabular-nums; }
+.srs-botones { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
+.srs-nota { color: var(--text-muted); font-size: 0.88rem; flex-basis: 100%; }
+.srs-btn {
+  flex: 1 1 110px; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 10px 12px; border-radius: 8px; cursor: pointer; font-size: 0.95rem;
+  background: var(--bg-card); color: var(--text); border: 1px solid var(--border); border-bottom-width: 3px;
+}
+.srs-btn span { color: var(--text-muted); font-size: 0.78rem; }
+.srs-btn:hover { background: var(--bg); }
+.srs-1 { border-bottom-color: var(--danger); }
+.srs-2 { border-bottom-color: var(--warning); }
+.srs-3 { border-bottom-color: var(--success); }
+.srs-4 { border-bottom-color: var(--primary); }

@@ -9,7 +9,10 @@ const state = {
   calendario: null,
   view: 'dashboard',
   estudio: { preguntas: [], idx: 0, respuestas: {} },
-  simulacro: { preguntas: [], idx: 0, respuestas: {}, negativa: 1 / 3, cronoStart: null, cronoInterval: null, terminado: false }
+  simulacro: { preguntas: [], idx: 0, respuestas: {}, negativa: 1 / 3, cronoStart: null, cronoInterval: null, terminado: false },
+  porId: new Map(),
+  progreso: null,   // { historial, srs, simulacros } — persistido en localStorage (ver PROGRESO_KEY)
+  repaso: { activa: false, cola: [], idx: 0, elegida: null, repetidas: new Set(), hechas: 0, aciertos: 0 }
 };
 
 async function cargarDatos() {
@@ -19,6 +22,7 @@ async function cargarDatos() {
   state.preguntas = window.MIR_HUB_DATA.preguntas || [];
   state.especialidades = window.MIR_HUB_DATA.especialidades || [];
   state.calendario = window.MIR_HUB_DATA.calendario || null;
+  state.porId = new Map(state.preguntas.map(p => [p.id, p]));
 }
 
 function shuffle(arr) {
@@ -52,6 +56,10 @@ function setView(view) {
   document.querySelectorAll('.navbtn').forEach(b => b.classList.toggle('active', b.dataset.view === view));
   document.querySelectorAll('.view').forEach(v => v.classList.add('hidden'));
   document.getElementById('view-' + view).classList.remove('hidden');
+  if (!state.progreso) return; // todavía cargando
+  if (view === 'dashboard') renderDashboardProgreso();
+  if (view === 'repaso') renderRepaso();
+  if (view === 'banco') renderBancoResumen();
 }
 
 // ------------------------------------------------------------------
@@ -188,6 +196,7 @@ function initBanco() {
   selEsp.addEventListener('change', () => { poblarSelectTema(); renderBancoResumen(); });
   selTema.addEventListener('change', renderBancoResumen);
   selAnio.addEventListener('change', renderBancoResumen);
+  document.getElementById('sel-situacion').addEventListener('change', renderBancoResumen);
 
   document.getElementById('btn-iniciar-estudio').addEventListener('click', () => {
     const pool = preguntasFiltradasBanco();
@@ -231,6 +240,11 @@ function preguntasFiltradasBanco() {
     if (temaVal !== 'todos') pool = pool.filter(p => String(p.tema_numero) === temaVal);
   }
   if (anio !== 'todos') pool = pool.filter(p => String(p.año) === anio);
+  const situacion = document.getElementById('sel-situacion').value;
+  const { historial, srs } = state.progreso;
+  if (situacion === 'no') pool = pool.filter(p => !historial[p.id]);
+  else if (situacion === 'falladas') pool = pool.filter(p => historial[p.id] && !historial[p.id].correcta);
+  else if (situacion === 'repaso') pool = pool.filter(p => srs[p.id]);
   return pool;
 }
 
@@ -297,6 +311,8 @@ function renderTarjetaEstudio() {
 }
 
 function responderEstudio(q, letra) {
+  if (state.estudio.respuestas[q.id]) return; // solo cuenta la primera respuesta
+  registrarRespuesta(q, letra);
   state.estudio.respuestas[q.id] = letra;
   mostrarFeedbackEstudio(q, letra);
 }
@@ -542,6 +558,11 @@ function finalizarSimulacro() {
   const puntuacion = aciertos - fallos * negativa;
   const sobreDiez = (puntuacion / preguntas.length) * 10;
 
+  // Guarda el resultado y manda las falladas al repaso espaciado
+  preguntas.forEach(q => { if (respuestas[q.id]) registrarRespuesta(q, respuestas[q.id], { guardar: false }); });
+  state.progreso.simulacros.push({ fecha: hoyLocal(), n: preguntas.length, aciertos, fallos, blancos, puntuacion: +puntuacion.toFixed(2), segundos: segsTotal });
+  guardarProgreso();
+
   document.getElementById('simulacro-session').classList.add('hidden');
   document.getElementById('simulacro-config').classList.remove('hidden');
   const resultado = document.getElementById('simulacro-resultado');
@@ -624,6 +645,366 @@ function finalizarSimulacro() {
 }
 
 // ------------------------------------------------------------------
+// PROGRESO PERSISTENTE + REPASO ESPACIADO (tipo Anki) DE LAS FALLADAS
+// ------------------------------------------------------------------
+// Se guarda en el localStorage de este navegador. El progreso pertenece a la dirección
+// desde la que se abre el Hub: usar siempre el mismo enlace (GitHub Pages) y el mismo navegador.
+const PROGRESO_KEY = 'mirhub-progreso-v1';
+const SRS_MAX_DIAS = 365;
+const SRS = { OTRA: 1, DIFICIL: 2, BIEN: 3, FACIL: 4 };
+const SRS_LABEL = { 1: 'Otra vez', 2: 'Difícil', 3: 'Bien', 4: 'Fácil' };
+
+function progresoVacio() { return { version: 1, historial: {}, srs: {}, simulacros: [] }; }
+
+function cargarProgreso() {
+  try {
+    const raw = localStorage.getItem(PROGRESO_KEY);
+    return raw ? Object.assign(progresoVacio(), JSON.parse(raw)) : progresoVacio();
+  } catch (e) {
+    return progresoVacio();
+  }
+}
+
+let avisoSinGuardar = false;
+function guardarProgreso() {
+  try {
+    localStorage.setItem(PROGRESO_KEY, JSON.stringify(state.progreso));
+  } catch (e) {
+    if (!avisoSinGuardar) {
+      avisoSinGuardar = true;
+      alert('No se pudo guardar el progreso en este navegador (almacenamiento bloqueado o lleno). Exporta una copia desde la pestaña Repaso.');
+    }
+  }
+  actualizarBadgeRepaso();
+}
+
+function fechaLocal(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+function hoyLocal() { return fechaLocal(new Date()); }
+function sumarDias(iso, n) { const d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + n); return fechaLocal(d); }
+function diasEntre(a, b) { return Math.round((new Date(b + 'T12:00:00') - new Date(a + 'T12:00:00')) / 86400000); }
+function fmtIntervalo(d) {
+  if (d < 30) return d + ' d';
+  if (d < 365) return (d / 30).toFixed(1).replace('.', ',') + ' m';
+  return (d / 365).toFixed(1).replace('.', ',') + ' a';
+}
+
+// SM-2 simplificado, el algoritmo clásico de Anki. "Otra vez" reinicia la tarjeta y la trae mañana;
+// cada acierto multiplica el intervalo por la facilidad (empieza en 2,5 y baja con Difícil/Otra vez).
+function srsCalcular(c, nota) {
+  let { ivl, ease, reps, lapses } = c;
+  if (nota === SRS.OTRA) return { ivl: 1, ease: Math.max(1.3, ease - 0.2), reps: 0, lapses: lapses + 1 };
+  if (reps === 0) ivl = nota === SRS.DIFICIL ? 2 : nota === SRS.BIEN ? 3 : 5;
+  else if (nota === SRS.DIFICIL) ivl = Math.max(ivl + 1, Math.round(ivl * 1.2));
+  else if (nota === SRS.BIEN) ivl = Math.max(ivl + 1, Math.round(ivl * ease));
+  else ivl = Math.max(ivl + 2, Math.round(ivl * ease * 1.3));
+  if (nota === SRS.DIFICIL) ease = Math.max(1.3, ease - 0.15);
+  if (nota === SRS.FACIL) ease += 0.15;
+  return { ivl: Math.min(SRS_MAX_DIAS, ivl), ease: +ease.toFixed(2), reps: reps + 1, lapses };
+}
+
+function srsAplicar(id, nota) {
+  const c = state.progreso.srs[id];
+  if (!c) return;
+  Object.assign(c, srsCalcular(c, nota));
+  c.due = sumarDias(hoyLocal(), c.ivl);
+  c.ultimo = hoyLocal();
+  guardarProgreso();
+}
+
+// Una pregunta fallada fuera del repaso entra en el mazo (o, si ya estaba lejos, vuelve a mañana).
+function srsFallo(id) {
+  const manana = sumarDias(hoyLocal(), 1);
+  const c = state.progreso.srs[id];
+  if (!c) state.progreso.srs[id] = { ivl: 0, ease: 2.5, reps: 0, lapses: 0, due: manana, alta: hoyLocal() };
+  else if (c.due > manana) { Object.assign(c, srsCalcular(c, SRS.OTRA)); c.due = manana; }
+}
+
+function registrarRespuesta(q, letra, { guardar = true, srs = true } = {}) {
+  const ok = letra === q.respuesta_correcta;
+  const h = state.progreso.historial[q.id] || { n: 0, ok: 0 };
+  h.n++;
+  if (ok) h.ok++;
+  h.ultima = letra;
+  h.correcta = ok;
+  h.fecha = hoyLocal();
+  state.progreso.historial[q.id] = h;
+  if (!ok && srs) srsFallo(q.id);
+  if (guardar) guardarProgreso();
+}
+
+function srsPendientes(esp) {
+  const hoy = hoyLocal();
+  return Object.entries(state.progreso.srs)
+    .filter(([id, c]) => c.due <= hoy && state.porId.has(id) && (!esp || state.porId.get(id).especialidad === esp))
+    .sort((a, b) => a[1].due.localeCompare(b[1].due) || Math.random() - 0.5)
+    .map(([id]) => id);
+}
+
+function actualizarBadgeRepaso() {
+  const btn = document.getElementById('nav-repaso');
+  if (!btn || !state.progreso) return;
+  const n = srsPendientes().length;
+  btn.innerHTML = 'Repaso' + (n ? ` <span class="badge-repaso">${n}</span>` : '');
+}
+
+function renderDashboardProgreso() {
+  const { historial, srs, simulacros } = state.progreso;
+  const resp = Object.values(historial);
+  const intentos = resp.reduce((s, h) => s + h.n, 0);
+  const aciertos = resp.reduce((s, h) => s + h.ok, 0);
+  const pend = srsPendientes().length;
+  document.getElementById('dash-progreso').innerHTML = `
+    ${pend ? `<div class="repaso-aviso"><span>🧠 Tienes <b>${pend}</b> pregunta${pend === 1 ? '' : 's'} para repasar hoy.</span>
+      <button class="btn-primary" id="dash-ir-repaso">Repasar ahora</button></div>` : ''}
+    <div class="stats-grid" style="margin-bottom:8px">
+      ${[['Preguntas respondidas', resp.length.toLocaleString('es-ES')],
+         ['Acierto global', intentos ? Math.round(100 * aciertos / intentos) + '%' : '—'],
+         ['En el repaso', Object.keys(srs).length],
+         ['Simulacros hechos', simulacros.length]]
+        .map(([l, n]) => `<div class="stat-card"><div class="num">${n}</div><div class="label">${l}</div></div>`).join('')}
+    </div>
+    <h2>Banco de datos</h2>`;
+  const b = document.getElementById('dash-ir-repaso');
+  if (b) b.addEventListener('click', () => setView('repaso'));
+}
+
+function renderRepaso() {
+  if (state.repaso.activa) return renderTarjetaRepaso();
+  const { srs } = state.progreso;
+  const hoy = hoyLocal();
+  const pendientes = srsPendientes();
+  const total = Object.keys(srs).length;
+  const maduras = Object.values(srs).filter(c => c.ivl >= 21).length;
+  const prox = [];
+  for (let i = 1; i <= 7; i++) {
+    const dia = sumarDias(hoy, i);
+    prox.push({ dia, n: Object.values(srs).filter(c => c.due === dia).length });
+  }
+  const maxProx = Math.max(1, ...prox.map(p => p.n));
+  const porEsp = {};
+  pendientes.forEach(id => { const q = state.porId.get(id); porEsp[q.especialidad] = porEsp[q.especialidad] || { nombre: q.especialidad_nombre, n: 0 }; porEsp[q.especialidad].n++; });
+  const siguiente = Object.values(srs).map(c => c.due).filter(d => d > hoy).sort()[0];
+  const diaSemana = iso => new Date(iso + 'T12:00:00').toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
+
+  document.getElementById('repaso-contenido').innerHTML = `
+    <p class="repaso-intro">Cada pregunta que fallas (en el banco o en un simulacro) entra aquí y vuelve en intervalos
+      crecientes, como en Anki: si la aciertas, el intervalo aumenta; si la vuelves a fallar, vuelve mañana.</p>
+    <div class="stats-grid">
+      ${[['Para hoy', pendientes.length], ['Mañana', prox[0].n], ['En el mazo', total], ['Maduras (≥ 21 d)', maduras]]
+        .map(([l, n]) => `<div class="stat-card"><div class="num">${n}</div><div class="label">${l}</div></div>`).join('')}
+    </div>
+    <div class="filters" style="margin-top:18px">
+      ${pendientes.length ? `
+      <label>Especialidad
+        <select id="repaso-esp">
+          <option value="">Todas (${pendientes.length})</option>
+          ${Object.entries(porEsp).sort((a, b) => b[1].n - a[1].n).map(([cod, e]) => `<option value="${cod}">${escapeHtml(e.nombre)} (${e.n})</option>`).join('')}
+        </select>
+      </label>
+      <button class="btn-primary" id="btn-iniciar-repaso">Empezar repaso</button>`
+      : `<div class="repaso-vacio">${total ? `✅ Nada pendiente hoy. Próximo repaso: <b>${siguiente ? diaSemana(siguiente) : '—'}</b>.`
+          : 'El mazo está vacío. Las preguntas que falles en el banco o en los simulacros aparecerán aquí.'}</div>`}
+    </div>
+    ${total ? `<h2>Próximos 7 días</h2>
+    <div class="repaso-previsto">${prox.map(p => `
+      <div class="fila"><span class="dia">${diaSemana(p.dia)}</span>
+        <div class="barra"><div style="width:${100 * p.n / maxProx}%"></div></div><span class="n">${p.n}</span></div>`).join('')}
+    </div>` : ''}
+    <h2>Copia de seguridad</h2>
+    <p class="repaso-intro">El progreso se guarda solo, en este navegador. Exporta una copia de vez en cuando
+      (o para pasarlo a otro ordenador): si se borran los datos del navegador, se pierde.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn-secondary" id="btn-exportar-progreso">⬇️ Exportar progreso</button>
+      <label class="btn-secondary" style="cursor:pointer">📤 Importar copia<input type="file" id="input-importar-progreso" accept="application/json" hidden></label>
+    </div>`;
+
+  const btnIni = document.getElementById('btn-iniciar-repaso');
+  if (btnIni) btnIni.addEventListener('click', () => iniciarRepaso(document.getElementById('repaso-esp').value));
+  document.getElementById('btn-exportar-progreso').addEventListener('click', exportarProgreso);
+  document.getElementById('input-importar-progreso').addEventListener('change', importarProgreso);
+}
+
+function iniciarRepaso(esp) {
+  const cola = srsPendientes(esp);
+  if (!cola.length) return;
+  state.repaso = { activa: true, cola, idx: 0, elegida: null, repetidas: new Set(), hechas: 0, aciertos: 0 };
+  renderTarjetaRepaso();
+}
+
+function renderTarjetaRepaso() {
+  const r = state.repaso;
+  const cont = document.getElementById('repaso-contenido');
+  if (r.idx >= r.cola.length) return finalizarRepaso();
+  const id = r.cola[r.idx];
+  const q = state.porId.get(id);
+  const c = state.progreso.srs[id];
+  const esRepeticion = r.repetidas.has(id) && r.cola.indexOf(id) < r.idx;
+  const temaLabel = q.tema_numero !== null && q.tema_numero !== 999 ? `Tema ${q.tema_numero}. ${q.tema_titulo}` : q.tema_titulo;
+  const respondida = r.elegida !== null;
+  const ok = respondida && r.elegida === q.respuesta_correcta;
+
+  let pie = '';
+  if (respondida) {
+    const expl = q.explicacion
+      ? `<div class="detalle"><strong>Explicación:</strong>\n${escapeHtml(q.explicacion)}</div>`
+      : `<div class="nota-verif">Explicación aún no disponible para esta pregunta.</div>`;
+    let botones;
+    if (esRepeticion || !c) {
+      botones = `<button class="btn-primary" data-continuar>Continuar ⏎</button>`;
+    } else if (!ok) {
+      botones = `<div class="srs-nota">Vuelve <b>mañana</b> y otra vez al final de esta sesión.</div>
+        <button class="btn-primary" data-continuar>Continuar ⏎</button>`;
+    } else {
+      botones = [SRS.OTRA, SRS.DIFICIL, SRS.BIEN, SRS.FACIL].map(n =>
+        `<button class="srs-btn srs-${n}" data-nota="${n}"><b>${SRS_LABEL[n]}</b><span>${fmtIntervalo(srsCalcular(c, n).ivl)} · ${n}</span></button>`).join('');
+    }
+    pie = `<div class="feedback-box ${ok ? 'ok' : 'bad'}">${ok ? '✔ Correcto' : `✘ Incorrecto — la respuesta correcta es ${q.respuesta_correcta}`}${expl}</div>
+      <div class="srs-botones">${botones}</div>`;
+  }
+
+  cont.innerHTML = `
+    <div class="session-progress">
+      <span>Repaso ${Math.min(r.idx + 1, r.cola.length)} / ${r.cola.length}${esRepeticion ? ' · repetición' : ''}</span>
+      <div class="progress-bar"><div class="progress-fill" style="width:${100 * r.idx / r.cola.length}%"></div></div>
+    </div>
+    <div class="tarjeta-pregunta">
+      <div class="meta">
+        <span class="tag">${q.id}</span>
+        <span class="tag">${escapeHtml(q.especialidad_nombre)}</span>
+        <span class="tag">${escapeHtml(temaLabel)}</span>
+        ${c && c.lapses ? `<span class="tag tag-warning">fallada ${c.lapses + 1}×</span>` : ''}
+        ${q.revision_incierta ? '<span class="tag tag-warning">⚠️ Respuesta en revisión</span>' : ''}
+      </div>
+      ${q.imagen_ref ? `<div class="nota-verif">🖼️ ${escapeHtml(q.imagen_ref)}</div>` : ''}
+      <div class="enunciado">${escapeHtml(q.enunciado)}</div>
+      <div class="opciones">
+        ${Object.entries(q.alternativas).map(([letra, texto]) => {
+          let cls = '';
+          if (respondida) cls = 'disabled' + (letra === q.respuesta_correcta ? ' correct' : letra === r.elegida ? ' incorrect' : '');
+          return `<div class="opcion ${cls}" data-letra="${letra}"><span class="letra">${letra}.</span><span>${escapeHtml(texto)}</span></div>`;
+        }).join('')}
+      </div>
+      ${pie}
+    </div>
+    <div class="session-nav">
+      <button class="btn-secondary" id="btn-repaso-quitar" title="Quitar esta pregunta del mazo de repaso">Quitar del repaso</button>
+      <button class="btn-secondary" id="btn-repaso-salir">Terminar sesión</button>
+    </div>
+    <p class="repaso-atajos">Atajos: A–E responder · 1–4 calificar · Enter continuar</p>`;
+
+  if (!respondida) cont.querySelectorAll('.opcion').forEach(el => el.addEventListener('click', () => responderRepaso(el.dataset.letra)));
+  cont.querySelectorAll('[data-nota]').forEach(b => b.addEventListener('click', () => calificarRepaso(+b.dataset.nota)));
+  const cont2 = cont.querySelector('[data-continuar]');
+  if (cont2) cont2.addEventListener('click', () => calificarRepaso(null));
+  document.getElementById('btn-repaso-salir').addEventListener('click', finalizarRepaso);
+  document.getElementById('btn-repaso-quitar').addEventListener('click', () => {
+    if (!confirm('¿Quitar esta pregunta del repaso? Seguirá en el banco de preguntas.')) return;
+    delete state.progreso.srs[id];
+    guardarProgreso();
+    r.cola = r.cola.filter((x, i) => i < r.idx || x !== id);
+    r.elegida = null;
+    renderTarjetaRepaso();
+  });
+}
+
+function responderRepaso(letra) {
+  const r = state.repaso;
+  const id = r.cola[r.idx];
+  const q = state.porId.get(id);
+  const esRepeticion = r.repetidas.has(id) && r.cola.indexOf(id) < r.idx;
+  r.elegida = letra;
+  if (!esRepeticion) {
+    registrarRespuesta(q, letra, { srs: false });
+    r.hechas++;
+    if (letra === q.respuesta_correcta) r.aciertos++;
+    else {
+      srsAplicar(id, SRS.OTRA);           // fallo: vuelve mañana…
+      r.repetidas.add(id);
+      r.cola.push(id);                    // …y otra vez al final de esta sesión
+    }
+  }
+  renderTarjetaRepaso();
+}
+
+function calificarRepaso(nota) {
+  const r = state.repaso;
+  const id = r.cola[r.idx];
+  if (nota === SRS.OTRA && !r.repetidas.has(id)) { r.repetidas.add(id); r.cola.push(id); }
+  if (nota) srsAplicar(id, nota);
+  r.idx++;
+  r.elegida = null;
+  renderTarjetaRepaso();
+  window.scrollTo(0, 0);
+}
+
+function finalizarRepaso() {
+  const r = state.repaso;
+  state.repaso = { activa: false, cola: [], idx: 0, elegida: null, repetidas: new Set(), hechas: 0, aciertos: 0 };
+  renderRepaso();
+  if (r.hechas) {
+    const aviso = document.createElement('div');
+    aviso.className = 'repaso-aviso';
+    aviso.innerHTML = `<span>✅ Sesión terminada: <b>${r.aciertos}/${r.hechas}</b> acertadas.</span>`;
+    document.getElementById('repaso-contenido').prepend(aviso);
+  }
+}
+
+function initRepaso() {
+  // Otra pestaña del Hub guardó progreso: adoptarlo para no sobrescribirlo con datos viejos.
+  window.addEventListener('storage', e => {
+    if (e.key !== PROGRESO_KEY || state.repaso.activa) return;
+    state.progreso = cargarProgreso();
+    actualizarBadgeRepaso();
+    if (state.view === 'dashboard') renderDashboardProgreso();
+    if (state.view === 'repaso') renderRepaso();
+  });
+  document.addEventListener('keydown', e => {
+    if (state.view !== 'repaso' || !state.repaso.activa) return;
+    if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName) || e.ctrlKey || e.metaKey || e.altKey) return;
+    const k = e.key.toUpperCase();
+    if (state.repaso.elegida === null) {
+      const q = state.porId.get(state.repaso.cola[state.repaso.idx]);
+      if (q && q.alternativas[k]) { e.preventDefault(); responderRepaso(k); }
+    } else if (/^[1-4]$/.test(k) && document.querySelector(`[data-nota="${k}"]`)) {
+      e.preventDefault(); calificarRepaso(+k);
+    } else if (k === 'ENTER' && document.querySelector('[data-continuar]')) {
+      e.preventDefault(); calificarRepaso(null);
+    }
+  });
+}
+
+function exportarProgreso() {
+  const blob = new Blob([JSON.stringify({ tipo: 'mirhub-progreso', exportado: new Date().toISOString(), ...state.progreso }, null, 1)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `mir-progreso-${hoyLocal()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+function importarProgreso(e) {
+  const f = e.target.files[0];
+  if (!f) return;
+  const lector = new FileReader();
+  lector.onload = () => {
+    try {
+      const obj = JSON.parse(lector.result);
+      if (obj.tipo !== 'mirhub-progreso' || !obj.srs || !obj.historial) throw new Error('formato');
+      if (!confirm(`Esta copia tiene ${Object.keys(obj.historial).length} preguntas respondidas y ${Object.keys(obj.srs).length} en el repaso. ¿Reemplazar el progreso actual?`)) return;
+      state.progreso = { version: 1, historial: obj.historial, srs: obj.srs, simulacros: obj.simulacros || [] };
+      guardarProgreso();
+      renderRepaso();
+      alert('Progreso importado.');
+    } catch (err) {
+      alert('El archivo no es una copia de progreso del MIR Hub.');
+    }
+  };
+  lector.readAsText(f);
+}
+
+// ------------------------------------------------------------------
 // BÚSQUEDA GLOBAL (preguntas, por texto)
 // ------------------------------------------------------------------
 function initBusqueda() {
@@ -686,6 +1067,7 @@ function initBusqueda() {
     console.error(err);
     return;
   }
+  state.progreso = cargarProgreso();
   document.getElementById('loading').classList.add('hidden');
   document.querySelectorAll('.view').forEach(v => v.classList.remove('hidden'));
   setView('dashboard');
@@ -695,4 +1077,6 @@ function initBusqueda() {
   initCalendario();
   initSimulacro();
   initBusqueda();
+  initRepaso();
+  actualizarBadgeRepaso();
 })();

@@ -1533,3 +1533,16 @@ que pela regra do usuário devem ir para módulos existentes afins; 2026.1 (revi
   numérica, só módulos com conteúdo (370). Aba Módulo abre no primeiro módulo com conteúdo. Ajustes de celular.
 - `modulos.json` ganhou a entrada CIR-23 (tinha conteúdo mas não estava no catálogo).
 - Testado em Chrome sem interface (cenários + capturas desktop e 390 px). Publicado: versão 22 do artifact.
+
+## 2026-10-05 — Publicação no GitHub + salvamento automático + revisão espaçada
+
+- Hub publicado no GitHub Pages: https://medeiros1333.github.io/plataformas-medicas/Revalida/hub/ (agora é o link oficial;
+  o artifact v22 ficou desatualizado). Publicar com `publicar_github.ps1` na raiz de `AI Agent/`.
+- `patch_revisao_espacada.js` (+ `revisao_espacada.js/.css`): todo o `state` passa a ser salvo no localStorage
+  (`revalida-hub-v1`) e restaurado ao abrir (inclusive aba/módulo abertos e tema); abas abertas ao mesmo tempo se
+  sincronizam (evento `storage`). Nova aba 🧠 Revisão: questão errada (cartão, módulo ou simulado) entra no caderno de
+  erros + baralho SM-2 (De novo 1 d · Difícil · Bom · Fácil; facilidade 2,5; máx. 365 d), volta amanhã; erro na revisão
+  repete no fim da sessão. Badge com pendentes na aba, aviso na aba Hoje, atalhos A–E / 1–4 / Enter. Exportar backup
+  baixa arquivo fora do claude.ai.
+- Backup antes: `dados/_backup_srs_20261005/`. `verificar_tudo.js` depois: 1.854 questões, 0 divergência.
+  Testado no Edge sem interface (16 cenários, desktop + 390 px).
