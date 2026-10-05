@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "INF-penicilina-g-sodica",
+    "nombre": "Penicilina G sódica (bencilpenicilina cristalina)",
+    "sinonimos": [
+      "Penicilina G acuosa"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — penicilina natural y antiestafilocócica",
+    "subclase": "Penicilina natural intravenosa de acción corta",
+    "vs_clase": [
+      "**Forma IV de acción corta (vida media 30 min): se da cada 4 h o en perfusión continua**; la benzatina es un depósito IM de semanas y la V es oral.",
+      "**De elección en la NEUROSÍFILIS, la endocarditis por estreptococos sensibles, la actinomicosis, la leptospirosis grave y el carbunco**: es la única penicilina natural que alcanza niveles altos en LCR.",
+      "**Cada millón de UI aporta 1,7 mEq de sodio** (o de potasio en la sal potásica): sobrecarga en IC y ERC."
+    ],
+    "mecanismo": "Se une a las proteínas fijadoras de penicilina (PBP) e inhibe la transpeptidación del peptidoglucano: bactericida tiempo-dependiente. Hidrolizable por las betalactamasas (penicilinasas).",
+    "espectro": "Cubre: estreptococos (S. pyogenes, S. agalactiae, viridans sensibles, neumococo sensible), Treponema pallidum, Leptospira, Actinomyces, Clostridium (salvo C. difficile), Neisseria meningitidis, Listeria (sinergia con aminoglucósido). NO cubre: S. aureus productor de penicilinasa (>90%), gramnegativos entéricos, B. fragilis, atípicos.",
+    "indicaciones": [
+      {
+        "patologia": "Neurosífilis, sífilis ocular u ótica",
+        "dosis": "3.000.000-4.000.000 UI (18-24 millones UI/día)",
+        "posologia": "Cada 4 h o en perfusión continua",
+        "via": "IV",
+        "nota": "10-14 días"
+      },
+      {
+        "patologia": "Endocarditis por estreptococo sensible a penicilina",
+        "dosis": "12.000.000-18.000.000 UI/día",
+        "posologia": "Repartida cada 4 h o en perfusión continua",
+        "via": "IV",
+        "nota": "4 semanas (2 si se asocia gentamicina en casos seleccionados)"
+      },
+      {
+        "patologia": "Profilaxis intraparto de estreptococo del grupo B",
+        "dosis": "5.000.000 UI, después 2.500.000-3.000.000 UI",
+        "posologia": "Carga y luego cada 4 h hasta el parto",
+        "via": "IV",
+        "nota": "Al menos 4 h antes del parto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Preguntar por alergia a betalactámicos; cultivos previos.",
+      "titulacion": "Dosis según gravedad y foco; ajuste renal.",
+      "duracion": "Neurosífilis 10-14 días; endocarditis 2-4 semanas; actinomicosis semanas IV y luego VO meses.",
+      "fin": "Suspensión al completar el ciclo; paso a VO cuando el foco lo permita (amoxicilina).",
+      "via": "IV (cada 4 h o perfusión continua).",
+      "monitorizacion": "Función renal, sodio/potasio con dosis altas, signos de hipersensibilidad."
+    },
+    "farmacocinetica": {
+      "absorcion": "Destruida por el ácido gástrico: solo parenteral.",
+      "distribucion": "Amplia; **paso a LCR con meninges inflamadas** a dosis altas.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal (secreción tubular, bloqueable con probenecid).",
+      "vida_media": "**30 min.**",
+      "ajuste_renal": "FG 10-50: 75% de la dosis; FG <10: 25-50% (riesgo de convulsiones con dosis altas).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Prolonga sus niveles (bloquea la secreción tubular)",
+          "gravedad": "baja",
+          "manejo": "Se usa a propósito en algunas pautas"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su eliminación",
+          "gravedad": "media",
+          "manejo": "Vigilar toxicidad"
+        },
+        {
+          "con": "Tetraciclinas y otros bacteriostáticos",
+          "efecto": "Posible antagonismo",
+          "gravedad": "baja",
+          "manejo": "Evitar en meningitis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis",
+        "Exantema",
+        "Diarrea"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "**Reacción de Jarisch-Herxheimer** (sífilis, leptospirosis)",
+        "Convulsiones con dosis muy altas en ERC",
+        "Nefritis intersticial, anemia hemolítica"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a penicilinas"
+    ],
+    "perlas": [
+      "**En la neurosífilis, la penicilina benzatina NO sirve**: no alcanza niveles treponemicidas en el LCR.",
+      "Alergia a penicilina en neurosífilis o embarazo: desensibilizar antes que cambiar de fármaco."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "ANA-actinomyces-israelii",
+      "ANA-clostridium-perfringens",
+      "ATI-leptospira",
+      "ATI-treponema-pallidum",
+      "BGN-neisseria-meningitidis",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de sífilis y endocarditis"
+  },
+  {
+    "id": "INF-penicilina-v",
+    "nombre": "Penicilina V (fenoximetilpenicilina)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — penicilina natural y antiestafilocócica",
+    "subclase": "Penicilina natural oral, resistente al ácido",
+    "vs_clase": [
+      "**La única penicilina natural ORAL** (resiste el ácido gástrico).",
+      "**De elección en la FARINGOAMIGDALITIS estreptocócica** por su espectro estrecho (no altera la flora como la amoxicilina).",
+      "**Profilaxis de la fiebre reumática y en la asplenia** (niños)."
+    ],
+    "mecanismo": "Igual que la penicilina G: inhibición de la síntesis de pared por unión a PBP. El grupo fenoxi la hace estable en medio ácido.",
+    "espectro": "Cubre: S. pyogenes, otros estreptococos, neumococo sensible, anaerobios orales. NO cubre: S. aureus productor de penicilinasa, H. influenzae, Moraxella, gramnegativos.",
+    "indicaciones": [
+      {
+        "patologia": "Faringoamigdalitis por S. pyogenes",
+        "dosis": "500 mg (niños 250 mg si <27 kg)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "10 días"
+      },
+      {
+        "patologia": "Profilaxis secundaria de fiebre reumática o en asplenia",
+        "dosis": "250 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Años, según el riesgo"
+      },
+      {
+        "patologia": "Erisipela leve",
+        "dosis": "500 mg-1 g",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "7-10 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tomar 1 h antes o 2 h después de las comidas.",
+      "titulacion": "No se titula.",
+      "duracion": "10 días en faringitis; años en profilaxis.",
+      "fin": "Completar la pauta aunque mejore antes.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica y alergia."
+    },
+    "farmacocinetica": {
+      "absorcion": "60%; mejor en ayunas.",
+      "distribucion": "Amplia, salvo LCR.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "30-60 min.",
+      "ajuste_renal": "Solo en insuficiencia renal grave (FG <10: espaciar).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su eliminación",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        },
+        {
+          "con": "Comida",
+          "efecto": "Reduce la absorción",
+          "gravedad": "baja",
+          "manejo": "Tomar en ayunas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea",
+        "Exantema"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a penicilinas"
+    ],
+    "perlas": [
+      "Si el cumplimiento de 10 días es dudoso: penicilina G benzatina IM en dosis única."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estreptocócicas"
+  },
+  {
+    "id": "INF-cefalexina",
+    "nombre": "Cefalexina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 1.ª generación",
+    "subclase": "Cefalosporina de 1.ª generación oral, de dosificación frecuente",
+    "vs_clase": [
+      "**Cefalosporina de 1.ª generación ORAL de elección** para infecciones de piel y partes blandas por S. aureus sensible y estreptococo (la cefazolina es IV).",
+      "**Vida media corta (1 h): 4 tomas al día.** El cefadroxilo permite 1-2 tomas.",
+      "**Segura en el EMBARAZO para la ITU** (con antibiograma)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared por unión a PBP; las de 1.ª generación son más estables que las penicilinas frente a la penicilinasa estafilocócica.",
+    "espectro": "Cubre: S. aureus sensible a meticilina, estreptococos, E. coli, Klebsiella y Proteus mirabilis comunitarios sensibles. NO cubre: SARM, enterococo, Listeria, H. influenzae fiable, Pseudomonas, anaerobios, atípicos.",
+    "indicaciones": [
+      {
+        "patologia": "Celulitis y erisipela no complicadas, impétigo extenso",
+        "dosis": "500 mg (niños 25-50 mg/kg/día)",
+        "posologia": "Cada 6 h",
+        "via": "VO",
+        "nota": "5-7 días"
+      },
+      {
+        "patologia": "Infección urinaria baja en embarazo o cuando no sirven otras opciones",
+        "dosis": "500 mg",
+        "posologia": "Cada 6-12 h",
+        "via": "VO",
+        "nota": "5-7 días según antibiograma"
+      },
+      {
+        "patologia": "Profilaxis de endocarditis (alternativa en alergia no grave a penicilina)",
+        "dosis": "2 g",
+        "posologia": "Dosis única 30-60 min antes",
+        "via": "VO",
+        "nota": "Solo si no hubo reacción grave a penicilina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar alergias (reactividad cruzada con aminopenicilinas por cadena lateral).",
+      "titulacion": "No se titula.",
+      "duracion": "5-7 días en piel; 5-7 días en ITU.",
+      "fin": "Completar pauta.",
+      "via": "VO, con o sin comida.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Casi completa (90%).",
+      "distribucion": "Buena en piel, hueso, orina; escasa en LCR.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal, inalterada.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG 10-50: cada 8-12 h; FG <10: cada 12-24 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Metformina",
+          "efecto": "Aumento leve de la metformina",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia habitual"
+        },
+        {
+          "con": "Probenecid",
+          "efecto": "Prolonga sus niveles",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Exantema"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Nefritis intersticial (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Reacción inmediata grave a aminopenicilinas (cadena lateral similar)"
+    ],
+    "perlas": [
+      "**Reactividad cruzada por CADENA LATERAL**: la cefalexina y el cefadroxilo comparten cadena con la amoxicilina/ampicilina; la cefazolina no (es la más segura en alérgicos a penicilina)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-proteus-mirabilis",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-cefadroxilo",
+    "nombre": "Cefadroxilo",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporina de 1.ª generación",
+    "subclase": "Cefalosporina de 1.ª generación oral de vida media larga",
+    "vs_clase": [
+      "**Vida media más larga que la cefalexina: 1-2 tomas al día** (mejor cumplimiento, útil en niños).",
+      "Mismo espectro que la cefalexina; muy usada en **impétigo y faringitis** en pediatría.",
+      "**Comparte cadena lateral con la amoxicilina** (precaución en alérgicos)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared bacteriana por unión a PBP.",
+    "espectro": "Cubre: S. aureus sensible a meticilina, estreptococos, E. coli y Proteus comunitarios. NO cubre: SARM, enterococo, H. influenzae, Pseudomonas, anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Infección de piel y partes blandas leve, impétigo extenso",
+        "dosis": "500 mg-1 g (niños 30 mg/kg/día)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "7 días"
+      },
+      {
+        "patologia": "Faringoamigdalitis estreptocócica (alternativa)",
+        "dosis": "1 g (niños 30 mg/kg/día)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "10 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar alergias.",
+      "titulacion": "No se titula.",
+      "duracion": "7-10 días.",
+      "fin": "Completar pauta.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Casi completa.",
+      "distribucion": "Buena en piel y orina.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "1,5-2 h (efecto prolongado en tejidos).",
+      "ajuste_renal": "FG <50: espaciar a cada 24-36 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Prolonga sus niveles",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Exantema"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Reacción inmediata grave a aminopenicilinas"
+    ],
+    "perlas": [
+      "En niños, su pauta cada 12-24 h mejora el cumplimiento frente a la cefalexina cada 6 h."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-cefuroxima",
+    "nombre": "Cefuroxima",
+    "sinonimos": [
+      "Cefuroxima axetilo (oral)"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 2.ª generación",
+    "subclase": "Cefalosporina de 2.ª generación con actividad frente a H. influenzae",
+    "vs_clase": [
+      "**La cefalosporina de 2.ª generación de uso respiratorio**: añade H. influenzae y Moraxella productores de betalactamasa al espectro de las de 1.ª.",
+      "**Formulación ORAL (axetilo, con comida) e IV.**",
+      "**Alternativa en alergia NO grave a penicilina** en ITU, sinusitis, otitis y enfermedad de Lyme.",
+      "**No cubre anaerobios** (a diferencia de la cefoxitina)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared; mayor estabilidad frente a betalactamasas de gramnegativos que las de 1.ª generación.",
+    "espectro": "Cubre: estreptococos, neumococo (sensibilidad intermedia variable), S. aureus sensible, H. influenzae y Moraxella (incluidos productores de betalactamasa), E. coli, Klebsiella, Proteus, Borrelia. NO cubre: SARM, enterococo, Pseudomonas, anaerobios, atípicos, BLEE.",
+    "indicaciones": [
+      {
+        "patologia": "Cistitis y pielonefritis leve (según antibiograma), ITU en embarazo",
+        "dosis": "250-500 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Cistitis 3-5 días; pielonefritis 10 días"
+      },
+      {
+        "patologia": "Sinusitis, otitis media o exacerbación de EPOC (alergia no grave a penicilina)",
+        "dosis": "500 mg (niños 30 mg/kg/día)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "5-7 días"
+      },
+      {
+        "patologia": "Enfermedad de Lyme precoz (eritema migratorio)",
+        "dosis": "500 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "14 días; alternativa a doxiciclina en embarazo y niños"
+      },
+      {
+        "patologia": "Profilaxis quirúrgica (cirugía cardiotorácica, ortopédica)",
+        "dosis": "1,5 g",
+        "posologia": "Dosis única en la inducción",
+        "via": "IV",
+        "nota": "Repetir si cirugía >4 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tomar con comida (la absorción del axetilo sube del 37% al 52%).",
+      "titulacion": "No se titula.",
+      "duracion": "Según indicación.",
+      "fin": "Completar pauta.",
+      "via": "VO e IV/IM.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Axetilo: 37% en ayunas, 52% con comida.",
+      "distribucion": "Buena; IV alcanza LCR inflamado (no es de elección en meningitis).",
+      "metabolismo": "El axetilo se hidroliza en la mucosa intestinal.",
+      "eliminacion": "Renal.",
+      "vida_media": "1-1,5 h.",
+      "ajuste_renal": "FG <30: espaciar (VO 250-500 mg/24 h).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, IBP y anti-H2",
+          "efecto": "Reducen la absorción del axetilo",
+          "gravedad": "media",
+          "manejo": "Separar tomas o elegir otra opción"
+        },
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Posible menor eficacia (alteración de la flora)",
+          "gravedad": "baja",
+          "manejo": "Método barrera si diarrea o vómitos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Sabor amargo de la suspensión",
+        "Exantema"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Alergia inmediata grave a penicilinas (relativa)"
+    ],
+    "perlas": [
+      "**Absorción oral limitada**: no sirve para infecciones graves por VO; pasar a IV si sepsis."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "ATI-borrelia-burgdorferi",
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-moraxella-catarrhalis",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-cefoxitina",
+    "nombre": "Cefoxitina",
+    "sinonimos": [
+      "Cefamicinas (cefoxitina, cefotetán)"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporina de 2.ª generación",
+    "subclase": "Cefamicina con actividad antianaerobia",
+    "vs_clase": [
+      "**Cefamicina: la cefalosporina con actividad ANAEROBIA** (B. fragilis), útil en **profilaxis de cirugía colorrectal** y en la enfermedad inflamatoria pélvica.",
+      "**Estable frente a BLEE in vitro** (no fiable clínicamente) pero **INDUCE AmpC**.",
+      "Solo parenteral; vida media corta (cada 6-8 h)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared; el grupo metoxi le confiere estabilidad frente a muchas betalactamasas, incluidas las de B. fragilis.",
+    "espectro": "Cubre: anaerobios (B. fragilis con resistencias crecientes), E. coli, Klebsiella, Proteus, N. gonorrhoeae, estreptococos, S. aureus sensible (menos que 1.ª generación). NO cubre: Pseudomonas, Enterobacter (AmpC), enterococo, SARM.",
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis en cirugía colorrectal o apendicectomía",
+        "dosis": "2 g",
+        "posologia": "Dosis única en la inducción (repetir a las 2 h si se prolonga)",
+        "via": "IV",
+        "nota": "Alternativa: cefazolina + metronidazol"
+      },
+      {
+        "patologia": "Enfermedad inflamatoria pélvica hospitalaria",
+        "dosis": "2 g",
+        "posologia": "Cada 6 h",
+        "via": "IV",
+        "nota": "Con doxiciclina 100 mg/12 h"
+      },
+      {
+        "patologia": "Infección por micobacterias de crecimiento rápido (M. abscessus)",
+        "dosis": "2-4 g (máx. 12 g/día)",
+        "posologia": "Cada 6-8 h",
+        "via": "IV",
+        "nota": "En combinación, según sensibilidad"
+      }
+    ],
+    "esquema": {
+      "inicio": "Profilaxis 30-60 min antes de la incisión.",
+      "titulacion": "Según gravedad.",
+      "duracion": "Profilaxis: dosis única (máx. 24 h). EIP: hasta mejoría y completar 14 días VO.",
+      "fin": "No prolongar la profilaxis.",
+      "via": "IV/IM.",
+      "monitorizacion": "Función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Buena tisular; no LCR útil.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "45-60 min.",
+      "ajuste_renal": "FG 30-50: cada 8-12 h; FG 10-30: cada 12-24 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar función renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis",
+        "Exantema",
+        "Diarrea"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Falso aumento de creatinina (método de Jaffé)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Las cefamicinas cubren anaerobios porque B. fragilis no las hidroliza: por eso son la cefalosporina de la cirugía colorrectal."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-escherichia-coli",
+      "BGN-neisseria-gonorrhoeae",
+      "MYC-micobacterias-crecimiento-rapido"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-cefaclor",
+    "nombre": "Cefaclor",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporina de 2.ª generación",
+    "subclase": "Cefalosporina de 2.ª generación oral clásica",
+    "vs_clase": [
+      "**Cefalosporina oral muy usada en pediatría** (otitis, faringitis), hoy superada por cefuroxima.",
+      "**Se asocia a una reacción tipo ENFERMEDAD DEL SUERO** (exantema, artralgias, fiebre) propia, sobre todo en niños.",
+      "Menor actividad frente a H. influenzae productor de betalactamasa que la cefuroxima."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared bacteriana.",
+    "espectro": "Cubre: estreptococos, S. aureus sensible, H. influenzae (parcial), Moraxella, E. coli y Proteus comunitarios. NO cubre: SARM, enterococo, Pseudomonas, anaerobios, atípicos.",
+    "indicaciones": [
+      {
+        "patologia": "Otitis media o faringoamigdalitis en alergia no grave a penicilina",
+        "dosis": "20-40 mg/kg/día (adulto 250-500 mg)",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "7-10 días"
+      },
+      {
+        "patologia": "Cistitis no complicada",
+        "dosis": "250-500 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar alergias.",
+      "titulacion": "No se titula.",
+      "duracion": "5-10 días.",
+      "fin": "Completar pauta.",
+      "via": "VO.",
+      "monitorizacion": "Exantema y artralgias (enfermedad del suero)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Amplia, salvo LCR.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "0,5-1 h.",
+      "ajuste_renal": "Habitualmente no precisa; espaciar si FG <10.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Control de INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Exantema"
+      ],
+      "graves": [
+        "**Reacción tipo enfermedad del suero**",
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Niño con exantema, fiebre y artralgias a los 7-10 días de cefaclor: reacción tipo enfermedad del suero, no infección nueva."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-moraxella-catarrhalis",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-cefotaxima",
+    "nombre": "Cefotaxima",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 3.ª generación",
+    "subclase": "Cefalosporina de 3.ª generación parenteral de vida media corta",
+    "vs_clase": [
+      "**Espectro casi idéntico a la ceftriaxona, pero eliminación renal y vida media corta: cada 6-8 h.**",
+      "**De elección en el NEONATO** (la ceftriaxona desplaza la bilirrubina y precipita con el calcio IV).",
+      "**Clásica en la peritonitis bacteriana espontánea** (2 g/8 h) y en la meningitis.",
+      "**Sin barro biliar** (la ceftriaxona sí)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared; alta estabilidad frente a betalactamasas de amplio espectro clásicas (no BLEE).",
+    "espectro": "Cubre: neumococo (incluido con sensibilidad disminuida a penicilina), meningococo, H. influenzae, gonococo, enterobacterias comunitarias, estreptococos, Borrelia. NO cubre: Pseudomonas, enterococo, Listeria, SARM, anaerobios, BLEE.",
+    "indicaciones": [
+      {
+        "patologia": "Meningitis bacteriana (neonatos y alternativa a ceftriaxona)",
+        "dosis": "2 g (niños 200-300 mg/kg/día)",
+        "posologia": "Cada 4-6 h",
+        "via": "IV",
+        "nota": "Con ampicilina en neonatos"
+      },
+      {
+        "patologia": "Peritonitis bacteriana espontánea",
+        "dosis": "2 g",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "5 días; con albúmina días 1 y 3"
+      },
+      {
+        "patologia": "Sepsis neonatal precoz",
+        "dosis": "50 mg/kg",
+        "posologia": "Cada 8-12 h según edad gestacional",
+        "via": "IV",
+        "nota": "Con ampicilina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cultivos previos.",
+      "titulacion": "Ajuste según foco y FG.",
+      "duracion": "PBE 5 días; meningitis 7-21 días según germen.",
+      "fin": "Desescalar con cultivos.",
+      "via": "IV/IM.",
+      "monitorizacion": "Función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "**Buena penetración en LCR.**",
+      "metabolismo": "Hepático a desacetilcefotaxima (activa).",
+      "eliminacion": "**Renal.**",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG <20: reducir la dosis a la mitad.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar función renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis",
+        "Diarrea",
+        "Exantema"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Arritmias con bolo IV muy rápido (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "**Neonato: cefotaxima, no ceftriaxona.**"
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-neisseria-meningitidis",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de meningitis y cirrosis"
+  },
+  {
+    "id": "INF-cefixima",
+    "nombre": "Cefixima",
+    "sinonimos": [
+      "Cefditoreno (cefalosporina oral de 3.ª generación con mejor actividad frente a neumococo)"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 3.ª generación",
+    "subclase": "Cefalosporina de 3.ª generación ORAL",
+    "vs_clase": [
+      "**La cefalosporina de 3.ª generación ORAL**: paso a VO tras la ceftriaxona en pielonefritis y alternativa oral en gonococo (si no hay ceftriaxona).",
+      "**Excelente frente a gramnegativos, pero DÉBIL frente a S. aureus y neumococo**: no sirve para la piel ni para la neumonía neumocócica.",
+      "**Una sola toma diaria** (400 mg)."
+    ],
+    "mecanismo": "Inhibición de la síntesis de pared; estable frente a muchas betalactamasas de gramnegativos.",
+    "espectro": "Cubre: E. coli, Klebsiella, Proteus, H. influenzae, Moraxella, N. gonorrhoeae, Salmonella, Shigella, S. pyogenes. NO cubre: S. aureus, neumococo de forma fiable, enterococo, Pseudomonas, anaerobios, BLEE.",
+    "indicaciones": [
+      {
+        "patologia": "Pielonefritis aguda (paso a VO) e ITU complicada según antibiograma",
+        "dosis": "400 mg (niños 8 mg/kg/día)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Completar 10 días"
+      },
+      {
+        "patologia": "Gonococia no complicada (si no hay ceftriaxona)",
+        "dosis": "800 mg",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Con test de curación"
+      },
+      {
+        "patologia": "Fiebre tifoidea y shigelosis (según sensibilidad)",
+        "dosis": "200 mg (niños 15-20 mg/kg/día)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "7-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras urocultivo si es posible.",
+      "titulacion": "No se titula.",
+      "duracion": "Según foco.",
+      "fin": "Completar pauta.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "40-50%.",
+      "distribucion": "Buena en orina y bilis.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal (50%) y biliar.",
+      "vida_media": "3-4 h.",
+      "ajuste_renal": "FG <20: 200 mg/24 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea** (frecuente)",
+        "Dolor abdominal"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Si la infección puede ser estafilocócica o neumocócica, la cefixima es mala elección."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-neisseria-gonorrhoeae",
+      "BGN-salmonella",
+      "BGN-shigella"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-ceftarolina",
+    "nombre": "Ceftarolina",
+    "sinonimos": [
+      "Ceftarolina fosamilo"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Betalactámico — cefalosporina de 4.ª y 5.ª generación",
+    "subclase": "Cefalosporina de 5.ª generación ANTI-SARM",
+    "vs_clase": [
+      "**La única cefalosporina (con ceftobiprol) ACTIVA FRENTE A SARM** (se une a la PBP2a).",
+      "**NO cubre Pseudomonas** (la cefepima y el ceftobiprol sí).",
+      "Indicada en neumonía comunitaria e infección de piel; **útil en bacteriemia por SARM refractaria** combinada con daptomicina."
+    ],
+    "mecanismo": "Se une con alta afinidad a la PBP2a del SARM y a la PBP2x del neumococo resistente.",
+    "espectro": "Cubre: S. aureus incluido SARM, estreptococos, neumococo resistente, H. influenzae, Moraxella, enterobacterias no productoras de BLEE. NO cubre: Pseudomonas, Acinetobacter, BLEE, anaerobios gramnegativos, enterococo faecium.",
+    "indicaciones": [
+      {
+        "patologia": "Infección complicada de piel y partes blandas (incluido SARM)",
+        "dosis": "600 mg",
+        "posologia": "Cada 12 h (cada 8 h si SARM con CMI alta)",
+        "via": "IV",
+        "nota": "5-14 días"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad hospitalizada",
+        "dosis": "600 mg",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "5-7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Infusión de 60 min.",
+      "titulacion": "Según gravedad.",
+      "duracion": "5-14 días.",
+      "fin": "Paso a oral según antibiograma.",
+      "via": "IV.",
+      "monitorizacion": "Hemograma en tratamientos prolongados (neutropenia), Coombs."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO (profármaco IV).",
+      "distribucion": "Volumen similar al extracelular.",
+      "metabolismo": "Profármaco hidrolizado a ceftarolina.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5 h.",
+      "ajuste_renal": "FG 30-50: 400 mg/12 h; FG 15-30: 300 mg/12 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes por CYP",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Exantema",
+        "Coombs directo positivo"
+      ],
+      "graves": [
+        "Neutropenia con uso >2 semanas",
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "SARM es resistente a TODOS los betalactámicos excepto ceftarolina y ceftobiprol."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-ceftobiprol",
+    "nombre": "Ceftobiprol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Betalactámico — cefalosporina de 4.ª y 5.ª generación",
+    "subclase": "Cefalosporina de 5.ª generación anti-SARM y antipseudomónica",
+    "vs_clase": [
+      "**Cubre SARM Y Pseudomonas**: el espectro más amplio entre las cefalosporinas.",
+      "**No autorizado en la neumonía asociada a ventilación mecánica** (peor resultado en ensayos), sí en la nosocomial no ventilada y la comunitaria.",
+      "Cada 8 h en infusión de 2 h."
+    ],
+    "mecanismo": "Unión a PBP2a (SARM), PBP2x (neumococo) y PBP de Pseudomonas.",
+    "espectro": "Cubre: SARM, estreptococos, neumococo resistente, E. faecalis (moderado), enterobacterias no BLEE, Pseudomonas aeruginosa. NO cubre: BLEE, Acinetobacter, anaerobios gramnegativos, E. faecium.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía nosocomial (no asociada a ventilación) y comunitaria grave",
+        "dosis": "500 mg",
+        "posologia": "Cada 8 h (infusión de 2 h)",
+        "via": "IV",
+        "nota": "7-14 días"
+      },
+      {
+        "patologia": "Bacteriemia por S. aureus (incluido SARM)",
+        "dosis": "500 mg",
+        "posologia": "Cada 6-8 h",
+        "via": "IV",
+        "nota": "Según evolución (ERADICATE)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cultivos previos.",
+      "titulacion": "Según gravedad.",
+      "duracion": "7-14 días.",
+      "fin": "Desescalar con cultivos.",
+      "via": "IV.",
+      "monitorizacion": "Función renal, sodio, glucemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Profármaco (medocaril).",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "FG 30-50: 500 mg/12 h; FG <30: 250 mg/12 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes por CYP",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, disgeusia",
+        "Hiponatremia",
+        "Flebitis"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Convulsiones (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Su papel es en neumonía nosocomial mixta (SARM + Pseudomonas) en paciente no ventilado."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-ceftazidima-avibactam",
+    "nombre": "Ceftazidima-avibactam",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Betalactámico con inhibidor de betalactamasas de amplio espectro",
+    "subclase": "Cefalosporina con inhibidor no betalactámico (diazabiciclooctano)",
+    "vs_clase": [
+      "**Activa frente a CARBAPENEMASAS KPC y OXA-48** (no frente a metalobetalactamasas como NDM o VIM).",
+      "**Reservada para enterobacterias o Pseudomonas resistentes a carbapenémicos.**",
+      "Frente a metalobetalactamasas se combina con **aztreonam**."
+    ],
+    "mecanismo": "El avibactam inhibe betalactamasas de clase A (BLEE, KPC), C (AmpC) y algunas D (OXA-48), protegiendo a la ceftazidima.",
+    "espectro": "Cubre: enterobacterias BLEE, AmpC, KPC y OXA-48; Pseudomonas (incluidas muchas resistentes). NO cubre: metalobetalactamasas (NDM, VIM, IMP), Acinetobacter, grampositivos, anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por enterobacterias productoras de carbapenemasa KPC/OXA-48 (ITU complicada, intraabdominal con metronidazol, neumonía nosocomial)",
+        "dosis": "2/0,5 g",
+        "posologia": "Cada 8 h (infusión de 2 h)",
+        "via": "IV",
+        "nota": "7-14 días; consultar con Infecciosas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras antibiograma o con alta sospecha de carbapenemasa.",
+      "titulacion": "Ajuste renal.",
+      "duracion": "7-14 días.",
+      "fin": "Según evolución.",
+      "via": "IV.",
+      "monitorizacion": "Función renal; vigilar selección de resistencias."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "FG 31-50: 1/0,25 g/8 h; FG 16-30: 0,75/0,1875 g/12 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Reduce la eliminación del avibactam",
+          "gravedad": "baja",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Coombs positivo"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Neurotoxicidad en ERC no ajustada"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Conocer el tipo de carbapenemasa cambia la elección: KPC/OXA-48 → ceftazidima-avibactam; NDM/VIM → ceftazidima-avibactam + aztreonam o cefiderocol."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-ceftolozano-tazobactam",
+    "nombre": "Ceftolozano-tazobactam",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Betalactámico con inhibidor de betalactamasas de amplio espectro",
+    "subclase": "Cefalosporina antipseudomónica potente con tazobactam",
+    "vs_clase": [
+      "**El más activo frente a PSEUDOMONAS multirresistente** (incluida resistente a carbapenémicos por pérdida de porinas o bombas de expulsión).",
+      "**NO activo frente a carbapenemasas** (a diferencia de ceftazidima-avibactam frente a KPC).",
+      "En neumonía nosocomial se usa a **dosis doble** (3 g/8 h)."
+    ],
+    "mecanismo": "Ceftolozano: alta afinidad por PBP de Pseudomonas y estabilidad frente a AmpC; el tazobactam añade actividad frente a BLEE.",
+    "espectro": "Cubre: Pseudomonas aeruginosa (incluida multirresistente), enterobacterias BLEE, estreptococos. NO cubre: carbapenemasas, Acinetobacter, SARM, la mayoría de anaerobios (añadir metronidazol).",
+    "indicaciones": [
+      {
+        "patologia": "Infección por Pseudomonas multirresistente (ITU complicada, intraabdominal con metronidazol)",
+        "dosis": "1/0,5 g",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "7-14 días"
+      },
+      {
+        "patologia": "Neumonía nosocomial o asociada a ventilación por Pseudomonas",
+        "dosis": "2/1 g",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "8-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según antibiograma.",
+      "titulacion": "Ajuste renal.",
+      "duracion": "7-14 días.",
+      "fin": "Según evolución.",
+      "via": "IV, infusión de 1 h.",
+      "monitorizacion": "Función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Buena en epitelio pulmonar.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5-3 h.",
+      "ajuste_renal": "FG 30-50: reducir a la mitad; FG 15-29: a la cuarta parte.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Aumenta el tazobactam",
+          "gravedad": "baja",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea",
+        "Cefalea"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas"
+    ],
+    "perlas": [
+      "Pseudomonas resistente a meropenem pero sin carbapenemasa: ceftolozano-tazobactam suele seguir siendo activo."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  }
+]

@@ -234,6 +234,24 @@ microbiologia.forEach(validarPatogeno);
 const idsFarmaco = new Set([...farmacos, ...pediatria].map(f => f.id));
 patologias.forEach(p => validarPatologia(p, idsFarmaco));
 
+// Cada clase de adulto debe tener al menos 3 fármacos INDIVIDUALES (las fichas
+// "vision_clase", que resumen una familia entera, no cuentan). Se admite una clase
+// con menos solo si sus fichas lo justifican con "clase_unica" (fármaco sin hermanos
+// de uso clínico real, como el litio): la excepción queda escrita y es auditable.
+{
+  const porClase = new Map();
+  for (const f of farmacos) {
+    if (!porClase.has(f.clase)) porClase.set(f.clase, []);
+    porClase.get(f.clase).push(f);
+  }
+  for (const [clase, miembros] of porClase) {
+    const individuales = miembros.filter(f => !f.vision_clase);
+    if (individuales.length >= 3 || individuales.length === 0) continue;
+    if (miembros.every(f => noVacio(f.clase_unica) || f.vision_clase) && individuales.some(f => noVacio(f.clase_unica))) continue;
+    avisos.push(`[clase] «${clase}»: ${individuales.length} fármaco(s) individual(es) — mínimo 3 (o justificar con "clase_unica") → ${miembros.map(f => f.id).join(', ')}`);
+  }
+}
+
 // Clases con varios miembros: cada uno debe decir qué lo distingue de los demás.
 for (const grupo of [farmacos, pediatria]) {
   const porClase = new Map();
@@ -294,8 +312,8 @@ if (errores.length) {
 }
 if (avisos.length) {
   console.log('--- AVISOS ---');
-  avisos.slice(0, 60).forEach(a => console.log('  ! ' + a));
-  if (avisos.length > 60) console.log(`  … y ${avisos.length - 60} avisos más.`);
+  avisos.slice(0, 400).forEach(a => console.log('  ! ' + a));
+  if (avisos.length > 400) console.log(`  … y ${avisos.length - 400} avisos más.`);
 }
 if (!errores.length && !avisos.length) console.log('Todo correcto.');
 

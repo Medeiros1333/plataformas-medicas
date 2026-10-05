@@ -1,0 +1,945 @@
+[
+  {
+    "id": "INF-zanamivir",
+    "nombre": "Zanamivir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antigripal",
+    "subclase": "Inhibidor de la neuraminidasa inhalado (o IV)",
+    "vs_clase": [
+      "**Inhalado (polvo seco)**: alternativa al oseltamivir y **activo frente a cepas resistentes a oseltamivir** (mutación H275Y).",
+      "**Puede provocar BRONCOESPASMO**: no usar en asma ni EPOC.",
+      "Forma **IV** para gripe grave en hospitalizados que no pueden recibir oseltamivir."
+    ],
+    "mecanismo": "Inhibe la neuraminidasa de los virus de la gripe A y B, impidiendo la liberación de los viriones de la célula infectada.",
+    "espectro": "Virus de la gripe A y B (incluidas muchas cepas resistentes a oseltamivir).",
+    "indicaciones": [
+      {
+        "patologia": "Gripe en paciente de riesgo (alternativa a oseltamivir)",
+        "dosis": "10 mg (2 inhalaciones de 5 mg)",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "5 días, en las primeras 48 h"
+      },
+      {
+        "patologia": "Profilaxis postexposición",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "inhalada",
+        "nota": "10 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible (≤48 h).",
+      "titulacion": "No se titula.",
+      "duracion": "5 días.",
+      "fin": "Completar pauta.",
+      "via": "Inhalada (Diskhaler) o IV.",
+      "monitorizacion": "Síntomas respiratorios."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica 10-20% inhalado.",
+      "distribucion": "Vía aérea.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5-5 h.",
+      "ajuste_renal": "Inhalado: no precisa; IV: ajustar.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacuna antigripal atenuada intranasal",
+          "efecto": "Inactiva la vacuna",
+          "gravedad": "media",
+          "manejo": "Separar 2 semanas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Tos, irritación faríngea"
+      ],
+      "graves": [
+        "**Broncoespasmo** en asmáticos/EPOC",
+        "Alteraciones neuropsiquiátricas (raras, sobre todo en niños)"
+      ]
+    },
+    "contraindicaciones": [
+      "Asma o EPOC (relativa: riesgo de broncoespasmo)",
+      "Hipersensibilidad a lactosa"
+    ],
+    "perlas": [
+      "Si un asmático necesita antiviral para la gripe: oseltamivir, no zanamivir."
+    ],
+    "embarazo_lactancia": "Utilizable si es necesario (se prefiere oseltamivir).",
+    "micro_relacionado": [
+      "VIR-influenza"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-baloxavir",
+    "nombre": "Baloxavir marboxilo",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antigripal",
+    "subclase": "Inhibidor de la endonucleasa dependiente de capuchón (cap)",
+    "vs_clase": [
+      "**Mecanismo distinto: inhibe la endonucleasa de la polimerasa viral** (no la neuraminidasa).",
+      "**DOSIS ÚNICA oral** (40 mg si <80 kg; 80 mg si ≥80 kg).",
+      "**Reduce la excreción viral más rápido**, pero selecciona mutantes resistentes (I38T), sobre todo en niños."
+    ],
+    "mecanismo": "Inhibe la actividad endonucleasa «cap-snatching» de la subunidad PA de la polimerasa del virus de la gripe, bloqueando la transcripción viral.",
+    "espectro": "Virus de la gripe A y B.",
+    "indicaciones": [
+      {
+        "patologia": "Gripe no complicada en las primeras 48 h (≥12 años)",
+        "dosis": "40 mg (<80 kg) u 80 mg (≥80 kg)",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Sin lácteos ni suplementos de calcio/hierro cerca de la toma"
+      },
+      {
+        "patologia": "Profilaxis postexposición",
+        "dosis": "40-80 mg según peso",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "En las primeras 48 h del contacto"
+      }
+    ],
+    "esquema": {
+      "inicio": "≤48 h de síntomas.",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis única.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Evolución clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena; reducida por cationes polivalentes.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Profármaco; glucuronidación (UGT1A3) y CYP3A4.",
+      "eliminacion": "Biliar.",
+      "vida_media": "**~80 h.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Sin datos en grave.",
+      "interacciones": [
+        {
+          "con": "Lácteos, antiácidos, calcio, hierro, magnesio, zinc",
+          "efecto": "Reducen mucho su absorción",
+          "gravedad": "media",
+          "manejo": "Separar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Embarazo (sin datos)"
+    ],
+    "perlas": [
+      "Útil cuando el cumplimiento de 5 días de oseltamivir es difícil."
+    ],
+    "embarazo_lactancia": "No recomendado (sin datos).",
+    "micro_relacionado": [
+      "VIR-influenza"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-raltegravir",
+    "nombre": "Raltegravir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Inhibidor de la integrasa (VIH)",
+    "subclase": "Inhibidor de la integrasa de primera generación",
+    "vs_clase": [
+      "**Primera generación: MENOR barrera genética** que dolutegravir y bictegravir.",
+      "**Apenas interacciones** (no usa CYP; glucuronidación): útil en polimedicados, trasplantados y con **rifampicina** (doblando dosis).",
+      "**Experiencia en el EMBARAZO** y en la profilaxis postexposición."
+    ],
+    "mecanismo": "Bloquea la transferencia de cadena catalizada por la integrasa del VIH, impidiendo la integración del ADN proviral en el genoma de la célula.",
+    "espectro": "VIH-1 y VIH-2.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH (con 2 análogos)",
+        "dosis": "400 mg (o 1.200 mg en formulación diaria)",
+        "posologia": "Cada 12 h (o 1.200 mg cada 24 h)",
+        "via": "VO",
+        "nota": "Con rifampicina: 800 mg/12 h"
+      },
+      {
+        "patologia": "Profilaxis postexposición al VIH",
+        "dosis": "400 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "28 días con tenofovir/emtricitabina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Genotipo de resistencias y serologías.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida (PEP: 28 días).",
+      "fin": "No interrumpir sin plan.",
+      "via": "VO.",
+      "monitorizacion": "Carga viral a las 4-8 semanas, luego cada 3-6 meses; CK si mialgias."
+    },
+    "farmacocinetica": {
+      "absorcion": "Variable; independiente de comida.",
+      "distribucion": "Amplia.",
+      "metabolismo": "**Glucuronidación (UGT1A1), sin CYP.**",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "9 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Antiácidos de Al/Mg",
+          "efecto": "Reducen su absorción",
+          "gravedad": "media",
+          "manejo": "Evitar o separar"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce sus niveles",
+          "gravedad": "alta",
+          "manejo": "800 mg/12 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, insomnio",
+        "Náuseas"
+      ],
+      "graves": [
+        "Miopatía/rabdomiólisis",
+        "Reacciones cutáneas graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Si las interacciones del régimen son un problema, raltegravir es el inhibidor de integrasa más «limpio»."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo.",
+    "micro_relacionado": [
+      "VIR-vih"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-lamivudina",
+    "nombre": "Lamivudina",
+    "sinonimos": [
+      "3TC",
+      "Dolutegravir/lamivudina (biterapia)"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Análogo de nucleós(t)ido (VIH / VHB)",
+    "subclase": "Análogo de citidina (ITIAN)",
+    "vs_clase": [
+      "**Activa frente a VIH y VHB**, muy bien tolerada; **base de la biterapia dolutegravir/lamivudina** (si no hay VHB).",
+      "**Baja barrera genética**: una sola mutación (M184V) la anula; en monoterapia frente al VHB genera resistencia en el 70% a 5 años (ya no se usa así).",
+      "**Si el paciente tiene VHB, suspenderla puede provocar una hepatitis de rebote.**"
+    ],
+    "mecanismo": "Análogo de la citidina que, trifosforilado, inhibe la transcriptasa inversa del VIH y la polimerasa del VHB (terminador de cadena).",
+    "espectro": "VIH-1, VIH-2 y VHB.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH (en combinación)",
+        "dosis": "300 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Biterapia con dolutegravir si no hay VHB, carga viral <500.000 y sin M184V"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar VHB (HBsAg) antes de elegir la biterapia.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Si coinfección VHB, no retirar sin cobertura (tenofovir).",
+      "via": "VO.",
+      "monitorizacion": "Carga viral; transaminasas si VHB."
+    },
+    "farmacocinetica": {
+      "absorcion": "80-85%.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "5-7 h (intracelular 15-19 h).",
+      "ajuste_renal": "Reducir según FG.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Cotrimoxazol a dosis altas",
+          "efecto": "Aumenta sus niveles",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia habitual"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, náuseas"
+      ],
+      "graves": [
+        "Hepatitis de rebote al suspender en VHB",
+        "Acidosis láctica (muy rara)",
+        "Pancreatitis (niños)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "HBsAg positivo + lamivudina sola frente al VHB = resistencia asegurada: usar tenofovir."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo.",
+    "micro_relacionado": [
+      "VIR-vih",
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-abacavir",
+    "nombre": "Abacavir",
+    "sinonimos": [
+      "Abacavir/lamivudina/dolutegravir"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Análogo de nucleós(t)ido (VIH / VHB)",
+    "subclase": "Análogo de guanosina (ITIAN)",
+    "vs_clase": [
+      "**HIPERSENSIBILIDAD potencialmente mortal ligada a HLA-B*5701**: determinarlo SIEMPRE antes de prescribir; **nunca reintroducir** tras una reacción.",
+      "**Sin nefrotoxicidad ni pérdida ósea** (alternativa al tenofovir en ERC u osteoporosis).",
+      "**Posible aumento del riesgo de infarto**: evitar en riesgo cardiovascular alto.",
+      "**No activo frente al VHB.**"
+    ],
+    "mecanismo": "Análogo de guanosina que, convertido en carbovir trifosfato, inhibe la transcriptasa inversa del VIH.",
+    "espectro": "VIH-1 y VIH-2.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH (HLA-B*5701 negativo)",
+        "dosis": "600 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Habitualmente coformulado con lamivudina ± dolutegravir"
+      }
+    ],
+    "esquema": {
+      "inicio": "**HLA-B*5701 obligatorio**; HBsAg; riesgo cardiovascular.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender definitivamente si hay hipersensibilidad.",
+      "via": "VO.",
+      "monitorizacion": "Síntomas de hipersensibilidad en las primeras 6 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "83%.",
+      "distribucion": "Amplia, incluida LCR.",
+      "metabolismo": "Alcohol deshidrogenasa y glucuronidación.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "1,5 h (intracelular 20 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Alcohol",
+          "efecto": "Aumenta los niveles de abacavir",
+          "gravedad": "baja",
+          "manejo": "Moderar consumo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, cefalea"
+      ],
+      "graves": [
+        "**Reacción de hipersensibilidad** (fiebre, exantema, síntomas digestivos y respiratorios) — mortal si se reintroduce",
+        "Infarto de miocardio (asociación)"
+      ]
+    },
+    "contraindicaciones": [
+      "**HLA-B*5701 positivo**",
+      "Hipersensibilidad previa a abacavir",
+      "Insuficiencia hepática moderada-grave"
+    ],
+    "perlas": [
+      "Paciente con abacavir que en las primeras semanas tiene fiebre + exantema + diarrea: suspender y no reintroducir jamás."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo.",
+    "micro_relacionado": [
+      "VIR-vih"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 5 y 49"
+  },
+  {
+    "id": "INF-darunavir",
+    "nombre": "Darunavir potenciado (con cobicistat o ritonavir)",
+    "sinonimos": [
+      "Darunavir/cobicistat"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Inhibidor de la proteasa viral",
+    "subclase": "Inhibidor de la proteasa del VIH de alta barrera genética",
+    "vs_clase": [
+      "**La MAYOR BARRERA GENÉTICA** de los antirretrovirales: útil en pacientes con fracasos previos o adherencia irregular.",
+      "**Siempre POTENCIADO** con ritonavir o cobicistat, que inhiben el CYP3A4: **interacciones masivas** (estatinas, corticoides inhalados, antiarrítmicos, anticoagulantes).",
+      "**Contiene grupo sulfonamida**: precaución en alérgicos a sulfamidas."
+    ],
+    "mecanismo": "Inhibe la proteasa del VIH, que corta las poliproteínas Gag-Pol: los viriones salen inmaduros y no infecciosos.",
+    "espectro": "VIH-1 (incluidas cepas con resistencia a otros inhibidores de proteasa).",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH con resistencias o riesgo de mala adherencia",
+        "dosis": "800 mg + cobicistat 150 mg",
+        "posologia": "Cada 24 h, con comida",
+        "via": "VO",
+        "nota": "600 mg/12 h + ritonavir 100 mg si hay mutaciones de resistencia a darunavir"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Revisar TODAS las interacciones.**",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "No interrumpir sin plan.",
+      "via": "VO con comida.",
+      "monitorizacion": "Carga viral, lípidos, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mejora con comida (+30%).",
+      "distribucion": "Unión a proteínas 95%.",
+      "metabolismo": "**CYP3A4 (bloqueado por el potenciador).**",
+      "eliminacion": "Fecal.",
+      "vida_media": "15 h (potenciado).",
+      "ajuste_renal": "No precisa (cobicistat eleva creatinina sin daño).",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Simvastatina, lovastatina, amiodarona, ergotamínicos, midazolam oral, rifampicina",
+          "efecto": "Toxicidad grave o pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "**Contraindicados**"
+        },
+        {
+          "con": "Fluticasona y budesonida inhaladas",
+          "efecto": "Cushing iatrogénico",
+          "gravedad": "alta",
+          "manejo": "Usar beclometasona"
+        },
+        {
+          "con": "ACOD (rivaroxabán, apixabán)",
+          "efecto": "Aumento del sangrado",
+          "gravedad": "alta",
+          "manejo": "Evitar o ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Exantema",
+        "Dislipemia"
+      ],
+      "graves": [
+        "Hepatotoxicidad",
+        "Stevens-Johnson (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con sustratos del CYP3A4 de margen estrecho",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Ante cualquier fármaco nuevo en un paciente con darunavir potenciado: comprobar interacciones (p. ej., en la web de la Universidad de Liverpool)."
+    ],
+    "embarazo_lactancia": "Darunavir/ritonavir utilizable; cobicistat no recomendado en el embarazo.",
+    "micro_relacionado": [
+      "VIR-vih"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-atazanavir",
+    "nombre": "Atazanavir potenciado",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Inhibidor de la proteasa viral",
+    "subclase": "Inhibidor de la proteasa del VIH de dosis única",
+    "vs_clase": [
+      "**HIPERBILIRRUBINEMIA INDIRECTA (ictericia) benigna** por inhibición de la UGT1A1: propia y cosmética.",
+      "**Necesita ACIDEZ gástrica para absorberse: contraindicado con IBP.**",
+      "**Nefrolitiasis y colelitiasis** propias; perfil lipídico más favorable que otros IP."
+    ],
+    "mecanismo": "Inhibición de la proteasa del VIH.",
+    "espectro": "VIH-1.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH (alternativa)",
+        "dosis": "300 mg + ritonavir 100 mg (o cobicistat 150 mg)",
+        "posologia": "Cada 24 h con comida",
+        "via": "VO",
+        "nota": "Hoy de uso limitado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Revisar IBP y anti-H2.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "No interrumpir sin plan.",
+      "via": "VO.",
+      "monitorizacion": "Bilirrubina, función renal, sedimento."
+    },
+    "farmacocinetica": {
+      "absorcion": "**pH-dependiente.**",
+      "distribucion": "Amplia.",
+      "metabolismo": "CYP3A4; inhibe UGT1A1.",
+      "eliminacion": "Biliar.",
+      "vida_media": "7 h (más potenciado).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "IBP",
+          "efecto": "**Pérdida de absorción y fracaso virológico**",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Sustratos del CYP3A4 (estatinas, etc.)",
+          "efecto": "Toxicidad",
+          "gravedad": "alta",
+          "manejo": "Revisar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Ictericia por bilirrubina indirecta**",
+        "Náuseas"
+      ],
+      "graves": [
+        "Nefrolitiasis",
+        "Prolongación del PR"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con IBP",
+      "Uso con rifampicina"
+    ],
+    "perlas": [
+      "Ictericia en paciente con atazanavir y transaminasas normales: efecto esperado, no hepatotoxicidad."
+    ],
+    "embarazo_lactancia": "Utilizable con ritonavir.",
+    "micro_relacionado": [
+      "VIR-vih"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-glecaprevir-pibrentasvir",
+    "nombre": "Glecaprevir/pibrentasvir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antivírico de acción directa frente al VHC",
+    "subclase": "Inhibidor de la proteasa NS3/4A + inhibidor de NS5A, pangenotípico",
+    "vs_clase": [
+      "**Pauta de solo 8 SEMANAS** en pacientes sin cirrosis o con cirrosis compensada.",
+      "**Contiene un inhibidor de PROTEASA: contraindicado en cirrosis descompensada** (Child B-C), donde se usa sofosbuvir/velpatasvir.",
+      "**Sin sofosbuvir: utilizable en insuficiencia renal grave y diálisis.**",
+      "Se toma **con comida**."
+    ],
+    "mecanismo": "Glecaprevir inhibe la proteasa NS3/4A (procesamiento de la poliproteína viral); pibrentasvir inhibe NS5A (replicación y ensamblaje).",
+    "espectro": "VHC genotipos 1-6.",
+    "indicaciones": [
+      {
+        "patologia": "Hepatitis C crónica sin cirrosis o con cirrosis compensada",
+        "dosis": "300/120 mg (3 comprimidos)",
+        "posologia": "Cada 24 h con comida",
+        "via": "VO",
+        "nota": "8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga viral, fibrosis, HBsAg (reactivación del VHB), interacciones.",
+      "titulacion": "No se titula.",
+      "duracion": "8 semanas.",
+      "fin": "RVS a las 12 semanas = curación.",
+      "via": "VO.",
+      "monitorizacion": "Carga viral a las 12 semanas tras finalizar."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mejora con comida.",
+      "distribucion": "Unión a proteínas alta.",
+      "metabolismo": "CYP3A4 limitado; sustratos de P-gp/OATP.",
+      "eliminacion": "Biliar.",
+      "vida_media": "6 h (G) y 13 h (P).",
+      "ajuste_renal": "**No precisa, ni en diálisis.**",
+      "ajuste_hepatico": "**Contraindicado en Child B-C.**",
+      "interacciones": [
+        {
+          "con": "Rifampicina, carbamazepina, hipérico",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Contraindicados"
+        },
+        {
+          "con": "Atorvastatina, simvastatina, dabigatrán, anticonceptivos con etinilestradiol",
+          "efecto": "Aumento de niveles / hepatotoxicidad (etinilestradiol)",
+          "gravedad": "alta",
+          "manejo": "Evitar o ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, cansancio",
+        "Prurito"
+      ],
+      "graves": [
+        "Reactivación de VHB",
+        "Descompensación hepática en cirrosis avanzada"
+      ]
+    },
+    "contraindicaciones": [
+      "Cirrosis descompensada (Child B-C)",
+      "Uso con rifampicina o atazanavir"
+    ],
+    "perlas": [
+      "Paciente en hemodiálisis con VHC: glecaprevir/pibrentasvir 8-12 semanas."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [
+      "VIR-virus-hepatitis-c"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "INF-sofosbuvir-velpatasvir-voxilaprevir",
+    "nombre": "Sofosbuvir/velpatasvir/voxilaprevir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antivírico de acción directa frente al VHC",
+    "subclase": "Triple combinación de rescate",
+    "vs_clase": [
+      "**Tratamiento de RESCATE** tras el fracaso de un régimen con inhibidor de NS5A.",
+      "**12 semanas.**",
+      "Contiene inhibidor de proteasa (voxilaprevir): **contraindicado en cirrosis descompensada**."
+    ],
+    "mecanismo": "Sofosbuvir (análogo de nucleótido inhibidor de NS5B) + velpatasvir (NS5A) + voxilaprevir (proteasa NS3/4A).",
+    "espectro": "VHC genotipos 1-6, incluidos con sustituciones de resistencia a NS5A.",
+    "indicaciones": [
+      {
+        "patologia": "Hepatitis C con fracaso previo a antivirales de acción directa",
+        "dosis": "400/100/100 mg (1 comprimido)",
+        "posologia": "Cada 24 h con comida",
+        "via": "VO",
+        "nota": "12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Estudio de resistencias, HBsAg e interacciones.",
+      "titulacion": "No se titula.",
+      "duracion": "12 semanas.",
+      "fin": "RVS12.",
+      "via": "VO.",
+      "monitorizacion": "Carga viral."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mejora con comida.",
+      "distribucion": "Alta unión proteica (V y Vox).",
+      "metabolismo": "Sofosbuvir: activación intracelular; velpatasvir y voxilaprevir: CYP limitados.",
+      "eliminacion": "Renal (sofosbuvir) y biliar.",
+      "vida_media": "0,5-33 h según componente.",
+      "ajuste_renal": "Datos limitados con FG <30.",
+      "ajuste_hepatico": "Contraindicado en Child B-C.",
+      "interacciones": [
+        {
+          "con": "Amiodarona",
+          "efecto": "**Bradicardia grave** (sofosbuvir)",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "IBP, antiácidos",
+          "efecto": "Reducen la absorción del velpatasvir",
+          "gravedad": "media",
+          "manejo": "Ajustar horario"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, diarrea, náuseas"
+      ],
+      "graves": [
+        "Bradicardia con amiodarona",
+        "Reactivación de VHB"
+      ]
+    },
+    "contraindicaciones": [
+      "Cirrosis descompensada",
+      "Uso con amiodarona o rifampicina"
+    ],
+    "perlas": [
+      "Todo régimen con sofosbuvir + amiodarona puede producir bradicardia letal."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [
+      "VIR-virus-hepatitis-c"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "DER-clotrimazol",
+    "nombre": "Clotrimazol tópico",
+    "sinonimos": [
+      "Clotrimazol vaginal"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Imidazol tópico",
+    "vs_clase": [
+      "**Cubre dermatofitos Y Candida**: tiñas, intertrigo, candidiasis cutánea y **vulvovaginal** (óvulos y crema).",
+      "**Utilizable en el EMBARAZO** (vía tópica y vaginal).",
+      "Fungistático: necesita más días que la terbinafina tópica."
+    ],
+    "mecanismo": "Inhibe la 14-alfa-desmetilasa fúngica (síntesis de ergosterol): fungistático.",
+    "espectro": "Dermatofitos, Candida, Malassezia.",
+    "indicaciones": [
+      {
+        "patologia": "Tiña corporis, cruris, pedis; intertrigo candidiásico",
+        "dosis": "1 aplicación (crema 1%)",
+        "posologia": "Cada 8-12 h",
+        "via": "tópica",
+        "nota": "2-4 semanas"
+      },
+      {
+        "patologia": "Candidiasis vulvovaginal",
+        "dosis": "500 mg (óvulo)",
+        "posologia": "Dosis única (o 100 mg/24 h × 6-7 días)",
+        "via": "vaginal",
+        "nota": "En el embarazo, pauta de 7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Piel limpia y seca.",
+      "titulacion": "No se titula.",
+      "duracion": "Hasta 1-2 semanas tras la curación clínica.",
+      "fin": "—",
+      "via": "Tópica y vaginal.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "Local.",
+      "metabolismo": "Hepático (fracción absorbida).",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Preservativos de látex",
+          "efecto": "Los excipientes vaginales los dañan",
+          "gravedad": "media",
+          "manejo": "Método alternativo durante el tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación, escozor local"
+      ],
+      "graves": [
+        "Dermatitis de contacto (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a imidazoles"
+    ],
+    "perlas": [
+      "Si una «tiña» no responde, comprobar con micológico: puede ser eccema o psoriasis."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "HON-candida-albicans",
+      "HON-dermatofitos"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 48 y 61"
+  },
+  {
+    "id": "DER-ketoconazol-topico",
+    "nombre": "Ketoconazol tópico (crema y champú)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Imidazol tópico con actividad frente a Malassezia",
+    "vs_clase": [
+      "**De elección en la DERMATITIS SEBORREICA y la PITIRIASIS VERSICOLOR** (Malassezia), en champú al 2%.",
+      "**Solo uso TÓPICO**: el ketoconazol oral está retirado por hepatotoxicidad.",
+      "Efecto antiinflamatorio leve propio."
+    ],
+    "mecanismo": "Inhibición de la síntesis de ergosterol fúngico.",
+    "espectro": "Malassezia, dermatofitos, Candida.",
+    "indicaciones": [
+      {
+        "patologia": "Dermatitis seborreica del cuero cabelludo y cara",
+        "dosis": "Champú al 2% (1 aplicación)",
+        "posologia": "2 veces por semana; mantenimiento semanal",
+        "via": "tópica",
+        "nota": "Dejar actuar 3-5 min"
+      },
+      {
+        "patologia": "Pitiriasis versicolor",
+        "dosis": "Champú al 2% (1 aplicación sobre la piel)",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "5 días; la hipopigmentación tarda meses en repigmentar"
+      }
+    ],
+    "esquema": {
+      "inicio": "Aplicar y aclarar.",
+      "titulacion": "No se titula.",
+      "duracion": "2-4 semanas y mantenimiento.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable.",
+      "distribucion": "Local.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Corticoides tópicos",
+          "efecto": "Sin interacción relevante (pueden alternarse)",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación, sequedad del cabello"
+      ],
+      "graves": [
+        "Dermatitis de contacto (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Pitiriasis versicolor: la mancha blanca persiste aunque el hongo esté curado; no es fracaso."
+    ],
+    "embarazo_lactancia": "Compatible (tópico).",
+    "micro_relacionado": [
+      "HON-malassezia"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-nistatina",
+    "nombre": "Nistatina",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Poliénico tópico/oral no absorbible",
+    "vs_clase": [
+      "**Poliénico NO absorbible: actúa solo sobre CANDIDA** (no dermatofitos).",
+      "**De elección en la candidiasis ORAL (muguet) del lactante** y en la del pañal; sin interacciones sistémicas.",
+      "Hay que **mantener la suspensión en la boca** antes de tragarla."
+    ],
+    "mecanismo": "Se une al ergosterol de la membrana fúngica y forma poros: fungicida.",
+    "espectro": "Candida spp. NO cubre dermatofitos.",
+    "indicaciones": [
+      {
+        "patologia": "Candidiasis orofaríngea (muguet)",
+        "dosis": "100.000-500.000 UI (1-5 mL)",
+        "posologia": "Cada 6 h",
+        "via": "VO",
+        "nota": "Mantener en boca; 7-14 días y 48 h tras la curación"
+      },
+      {
+        "patologia": "Dermatitis del pañal candidiásica",
+        "dosis": "1 aplicación (crema 100.000 UI/g)",
+        "posologia": "Cada 8-12 h",
+        "via": "tópica",
+        "nota": "7-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras las tomas (lactante).",
+      "titulacion": "No se titula.",
+      "duracion": "7-14 días.",
+      "fin": "48 h tras la curación.",
+      "via": "Oral (local) y tópica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "**Nula.**",
+      "distribucion": "Local.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor desagradable",
+        "Náuseas con dosis altas"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "En la madre lactante, tratar también el pezón si el muguet recurre."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "HON-candida-albicans"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48"
+  }
+]

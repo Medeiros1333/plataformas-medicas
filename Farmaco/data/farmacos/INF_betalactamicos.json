@@ -7,7 +7,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Betalactámico — penicilina natural",
+    "clase": "Betalactámico — penicilina natural y antiestafilocócica",
     "subclase": "Depósito intramuscular de liberación lenta",
     "mecanismo": "Se une a las PBP (proteínas fijadoras de penicilina) e inhibe la transpeptidación del peptidoglucano; activa además autolisinas. Bactericida tiempo-dependiente. La sal benzatina es muy poco soluble: forma un depósito IM que libera penicilina durante 3-4 semanas, manteniendo concentraciones bajas pero continuas.",
     "espectro": "Estrecho: Streptococcus pyogenes (nunca ha desarrollado resistencia a penicilina) y demás estreptococos betahemolíticos, Treponema pallidum. NO cubre estafilococos (>90% productores de penicilinasa), NO cubre gramnegativos ni anaerobios de la boca resistentes.",
@@ -107,7 +107,12 @@
       "BGP-streptococcus-agalactiae",
       "BGP-streptococcus-pyogenes"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., secc. de enfermedades por espiroquetas"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., secc. de enfermedades por espiroquetas",
+    "vs_clase": [
+      "**Depósito IM de liberación lenta: una sola inyección mantiene niveles bajos pero eficaces 2-4 semanas.**",
+      "**De elección en la SÍFILIS (salvo neurosífilis)** y en la profilaxis secundaria de la fiebre reumática (cada 3-4 semanas).",
+      "**Nunca IV** (embolia y paro cardiaco); **no alcanza niveles útiles en LCR**."
+    ]
   },
   {
     "id": "INF-amoxicilina",
@@ -115,7 +120,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Betalactámico — aminopenicilina",
+    "clase": "Betalactámico — aminopenicilina (± inhibidor de betalactamasas)",
     "subclase": "Espectro ampliado a gramnegativos",
     "vs_clase": [
       "**La aminopenicilina ORAL** (biodisponibilidad 80-90%); la ampicilina es la IV.",
@@ -251,7 +256,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Betalactámico — aminopenicilina + inhibidor de betalactamasas",
+    "clase": "Betalactámico — aminopenicilina (± inhibidor de betalactamasas)",
     "subclase": "Espectro ampliado a productores de betalactamasa y anaerobios",
     "mecanismo": "La amoxicilina inhibe las PBP; el ácido clavulánico es un betalactámico sin actividad antibiótica propia relevante que actúa como inhibidor suicida de las betalactamasas de clase A, protegiendo a la amoxicilina de su hidrólisis. El clavulánico NO inhibe las betalactamasas de tipo AmpC ni las carbapenemasas.",
     "espectro": "Todo lo de amoxicilina más: Staphylococcus aureus sensible a meticilina, Haemophilus influenzae y Moraxella productores de betalactamasa, E. coli y Klebsiella no BLEE, anaerobios (Bacteroides fragilis, flora oral). NO cubre SARM, NO cubre Pseudomonas, NO cubre BLEE ni AmpC, NO cubre atípicas (Mycoplasma, Legionella, Chlamydia).",
@@ -371,7 +376,12 @@
       "BGP-staphylococcus-aureus",
       "BGP-streptococcus-pneumoniae"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de infecciones de piel y partes blandas"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de infecciones de piel y partes blandas",
+    "vs_clase": [
+      "**El clavulánico añade cobertura de productores de betalactamasa**: S. aureus sensible a meticilina, H. influenzae, Moraxella, anaerobios (B. fragilis) y más E. coli/Klebsiella.",
+      "**De elección en mordeduras, sinusitis/otitis complicadas, neumonía por aspiración, infecciones odontógenas y pie diabético leve.**",
+      "**Más diarrea y HEPATOTOXICIDAD colestásica** (sobre todo varones mayores, días o semanas después) que la amoxicilina sola."
+    ]
   },
   {
     "id": "INF-cloxacilina",
@@ -382,7 +392,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Betalactámico — penicilina antiestafilocócica (isoxazolil-penicilina)",
+    "clase": "Betalactámico — penicilina natural y antiestafilocócica",
     "subclase": "Resistente a penicilinasa",
     "mecanismo": "Inhibe las PBP como el resto de penicilinas, pero su cadena lateral voluminosa impide el acceso de la penicilinasa estafilocócica, por lo que conserva actividad frente a S. aureus productor de betalactamasa. La resistencia a meticilina (SARM) es por otro mecanismo distinto: la PBP2a codificada por mecA, con baja afinidad por todos los betalactámicos.",
     "espectro": "Muy estrecho y dirigido: Staphylococcus aureus sensible a meticilina (SASM) y estreptococos. NO cubre SARM, NO cubre enterococos, NO cubre gramnegativos ni anaerobios.",
@@ -468,7 +478,12 @@
       "BGP-staphylococcus-aureus",
       "BGP-staphylococcus-epidermidis"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estafilocócicas"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estafilocócicas",
+    "vs_clase": [
+      "**Resistente a la penicilinasa estafilocócica**: de elección frente a S. aureus SENSIBLE a meticilina (más eficaz que la vancomicina).",
+      "**Pierde actividad frente a estreptococos** respecto a la penicilina natural y no cubre gramnegativos.",
+      "**Por VO se absorbe mal y debe tomarse en ayunas**; en bacteriemia o endocarditis, IV a 2 g/4 h."
+    ]
   },
   {
     "id": "INF-piperacilina-tazobactam",
@@ -478,7 +493,7 @@
     ],
     "area": "INF",
     "nivel": 2,
-    "clase": "Betalactámico — ureidopenicilina + inhibidor de betalactamasas",
+    "clase": "Betalactámico con inhibidor de betalactamasas de amplio espectro",
     "subclase": "Antipseudomónico de amplio espectro",
     "mecanismo": "La piperacilina es una ureidopenicilina que atraviesa bien las porinas de gramnegativos y se une a las PBP; el tazobactam inhibe las betalactamasas de clase A, restaurando la actividad frente a productores de penicilinasa. Bactericida tiempo-dependiente: su eficacia depende del tiempo por encima de la CMI, de ahí la perfusión extendida.",
     "espectro": "Muy amplio: grampositivos (SASM, estreptococos, Enterococcus faecalis), gramnegativos incluidos Pseudomonas aeruginosa y enterobacterias, y anaerobios (Bacteroides fragilis). NO cubre SARM, NO cubre atípicas, NO es fiable frente a BLEE ni AmpC desreprimida.",
@@ -591,7 +606,13 @@
       "BGP-enterococcus",
       "BGP-staphylococcus-aureus"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de sepsis y shock séptico"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de sepsis y shock séptico",
+    "vs_clase": [
+      "**El betalactámico antipseudomónico de uso hospitalario más habitual**: cubre además grampositivos (incluido E. faecalis) y ANAEROBIOS.",
+      "**No es fiable frente a BLEE en bacteriemia** (MERINO: peor que meropenem) ni frente a carbapenemasas.",
+      "**Con vancomicina aumenta la nefrotoxicidad.**",
+      "Perfusión extendida (4 h) en pacientes graves."
+    ]
   },
   {
     "id": "INF-cefazolina",
@@ -699,7 +720,12 @@
       "BGP-streptococcus-agalactiae",
       "BGP-streptococcus-pyogenes"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de profilaxis quirúrgica"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de profilaxis quirúrgica",
+    "vs_clase": [
+      "**La cefalosporina de 1.ª generación IV**: de elección en la **profilaxis quirúrgica** (2 g; 3 g si >120 kg).",
+      "**Alternativa a la cloxacilina en la bacteriemia por S. aureus sensible**, con menos nefrotoxicidad y pauta cada 8 h.",
+      "**Cadena lateral única: casi sin reactividad cruzada con penicilinas** (utilizable en la mayoría de alérgicos)."
+    ]
   },
   {
     "id": "INF-ceftriaxona",
@@ -851,7 +877,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Betalactámico — cefalosporina de 4.ª generación",
+    "clase": "Betalactámico — cefalosporina de 4.ª y 5.ª generación",
     "subclase": "Antipseudomónica, estable frente a AmpC",
     "mecanismo": "Zwitterión que atraviesa las porinas de gramnegativos con especial rapidez y tiene baja afinidad por las betalactamasas cromosómicas de tipo AmpC, lo que le permite mantener actividad frente a Enterobacter, Serratia y Citrobacter, donde las cefalosporinas de 3.ª generación fracasan por desrepresión de AmpC.",
     "espectro": "Amplio: Pseudomonas aeruginosa, enterobacterias incluidas las AmpC (grupo Enterobacter/Serratia/Citrobacter), neumococo y SASM. NO cubre SARM, NO cubre enterococos, NO cubre anaerobios, NO es fiable frente a BLEE.",
@@ -948,7 +974,13 @@
       "BGN-klebsiella-pneumoniae",
       "BGN-pseudomonas-aeruginosa"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones en el paciente neutropénico"
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones en el paciente neutropénico",
+    "vs_clase": [
+      "**Cefalosporina de 4.ª generación: antipseudomónica Y activa frente a grampositivos** (a diferencia de la ceftazidima) y **estable frente a AmpC** (Enterobacter, Serratia, Citrobacter).",
+      "**De elección en la NEUTROPENIA FEBRIL** (2 g/8 h).",
+      "**NEUROTOXICIDAD (encefalopatía, estatus no convulsivo) en insuficiencia renal no ajustada.**",
+      "No cubre SARM (la ceftarolina y el ceftobiprol sí)."
+    ]
   },
   {
     "id": "INF-meropenem",

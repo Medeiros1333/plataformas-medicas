@@ -161,7 +161,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antiparasitario",
+    "clase": "Antihelmíntico",
     "subclase": "Antihelmíntico frente a trematodos y cestodos",
     "mecanismo": "Aumenta la permeabilidad de la membrana del parásito al CALCIO, provocando una entrada masiva de calcio que produce una CONTRACCIÓN TETÁNICA de su musculatura y una parálisis espástica inmediata. A la vez, vacuoliza y desintegra el TEGUMENTO, la cubierta externa del gusano, dejando al descubierto antígenos que hasta entonces estaban ocultos al sistema inmunitario del huésped. Esa doble acción explica tanto su eficacia como su principal problema: la destrucción brusca del parásito libera antígenos y desencadena una respuesta INFLAMATORIA que, según dónde esté alojado el gusano, puede ser más peligrosa que la propia parasitosis. De ahí que en la neurocisticercosis y en la afectación ocular haya que anticipar y frenar esa inflamación.",
     "espectro": "TREMATODOS: Schistosoma (todas las especies), Clonorchis, Opisthorchis, Paragonimus, Fasciolopsis. CESTODOS: Taenia solium y saginata, Diphyllobothrium, Hymenolepis, y actividad protoescolicida frente a Echinococcus. NO es activo frente a Fasciola hepatica (que se trata con triclabendazol) ni frente a los nematodos, que son territorio del albendazol y la ivermectina.",
@@ -283,6 +283,11 @@
       "PAR-echinococcus-granulosus",
       "PAR-taenia-solium"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 53; guías de la OMS sobre esquistosomiasis y helmintiasis transmitidas por el suelo; recomendaciones IDSA/ASTMH sobre neurocisticercosis"
+    "fuente": "Katzung 15.ª ed., cap. 53; guías de la OMS sobre esquistosomiasis y helmintiasis transmitidas por el suelo; recomendaciones IDSA/ASTMH sobre neurocisticercosis",
+    "vs_clase": [
+      "**El antihelmíntico de los TREMATODOS y CESTODOS**: esquistosomiasis, teniasis, fasciola (no), clonorquis.",
+      "**Dosis únicas o de 1 día.**",
+      "**En la neurocisticercosis, corticoides previos** (reacción inflamatoria al morir los quistes); evitar en la cisticercosis ocular."
+    ]
   }
 ]

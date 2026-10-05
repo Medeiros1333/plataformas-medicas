@@ -5,7 +5,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Macrólido",
+    "clase": "Macrólido y lincosamida (grupo MLS)",
     "subclase": "Azálido de vida media tisular muy prolongada",
     "vs_clase": [
       "**Vida media tisular muy larga**: pautas de 3-5 días (o dosis única de 1 g en clamidia).",
@@ -151,7 +151,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Macrólido",
+    "clase": "Macrólido y lincosamida (grupo MLS)",
     "subclase": "Inhibidor potente del CYP3A4",
     "vs_clase": [
       "**Inhibidor POTENTE del CYP3A4 y de la P-gp**: rabdomiólisis con simvastatina, toxicidad por colchicina, digoxina, anticalcineurínicos.",
@@ -286,7 +286,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Tetraciclina",
+    "clase": "Tetraciclina y glicilciclina",
     "subclase": "Tetraciclina de acción prolongada",
     "mecanismo": "Se une reversiblemente a la subunidad 30S ribosómica e impide la unión del aminoacil-ARNt al sitio aceptor, bloqueando la elongación de la cadena peptídica. Bacteriostático. Entra en la célula bacteriana por transporte activo, lo que explica su gran actividad intracelular.",
     "espectro": "Excelente frente a intracelulares y atípicas: Rickettsia, Coxiella, Chlamydia, Mycoplasma, Borrelia, Brucella, Vibrio, Leptospira, Anaplasma. Cubre además SARM comunitario y Propionibacterium acnes. NO cubre Pseudomonas, NO es fiable frente a enterobacterias ni frente a neumococo en infección grave.",
@@ -434,7 +434,12 @@
       "BGN-vibrio",
       "BGP-staphylococcus-aureus"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., caps. de rickettsiosis y borreliosis"
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., caps. de rickettsiosis y borreliosis",
+    "vs_clase": [
+      "**La tetraciclina de uso general**: eliminación sobre todo no renal (**segura en insuficiencia renal**) y 2 tomas diarias.",
+      "**De elección en rickettsiosis, Lyme, brucelosis (con estreptomicina o rifampicina), clamidia, sífilis en alérgicos y profilaxis antipalúdica.**",
+      "**Fotosensibilidad y esofagitis** (tomar con agua y erguido); a diferencia de la minociclina, apenas vértigo."
+    ]
   },
   {
     "id": "INF-ciprofloxacino",
@@ -731,7 +736,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Sulfonamida + inhibidor de la dihidrofolato reductasa",
+    "clase": "Sulfonamida y antifolato",
     "subclase": "Bloqueo secuencial de la síntesis de folato",
     "mecanismo": "Bloqueo secuencial de dos pasos consecutivos de la vía del folato bacteriano: el sulfametoxazol inhibe la dihidropteroato sintetasa (análogo del PABA) y el trimetoprim inhibe la dihidrofolato reductasa bacteriana. La combinación es sinérgica y bactericida, mientras que cada fármaco por separado es bacteriostático. Las bacterias, a diferencia de las células humanas, no pueden captar folato exógeno.",
     "espectro": "Muy amplio: SARM comunitario, Listeria, enterobacterias (E. coli, Klebsiella, Proteus), Stenotrophomonas maltophilia (donde es de elección y casi único), Nocardia, Pneumocystis jirovecii, Toxoplasma. NO cubre Pseudomonas, NO cubre anaerobios, NO cubre estreptococos del grupo A de forma fiable.",
@@ -872,7 +877,12 @@
       "HON-pneumocystis-jirovecii",
       "PAR-toxoplasma-gondii"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., caps. de infecciones en el paciente con VIH"
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., caps. de infecciones en el paciente con VIH",
+    "vs_clase": [
+      "**Bloqueo secuencial del folato (sulfametoxazol + trimetoprim): bactericida** y de amplio espectro.",
+      "**De elección frente a PNEUMOCYSTIS** (tratamiento y profilaxis), **Nocardia, Stenotrophomonas** y en la toxoplasmosis (profilaxis).",
+      "**Hiperpotasemia, subida de creatinina, reacciones cutáneas graves y mielotoxicidad** (con metotrexato, muy grave)."
+    ]
   },
   {
     "id": "INF-clindamicina",
@@ -880,8 +890,8 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Lincosamida",
-    "subclase": "Inhibidor de la síntesis proteica con efecto antitoxina",
+    "clase": "Macrólido y lincosamida (grupo MLS)",
+    "subclase": "Lincosamida con efecto antitoxina",
     "mecanismo": "Se une a la subunidad 50S ribosómica (mismo sitio que los macrólidos) e inhibe la síntesis proteica. Bacteriostático. Su rasgo clínico diferencial es que, al bloquear la síntesis de proteínas, suprime la producción de exotoxinas por estreptococo y estafilococo incluso cuando la carga bacteriana es alta y los betalactámicos pierden eficacia (efecto inóculo).",
     "espectro": "Anaerobios (especialmente los de la boca y por encima del diafragma), estreptococos, SASM y buena parte del SARM comunitario, Toxoplasma, Plasmodium, Babesia. Actividad limitada frente a Bacteroides fragilis por resistencias crecientes. NO cubre gramnegativos aerobios ni enterococos.",
     "indicaciones": [
@@ -1002,7 +1012,13 @@
       "HON-pneumocystis-jirovecii",
       "PAR-toxoplasma-gondii"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., cap. de infecciones necrosantes de partes blandas"
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., cap. de infecciones necrosantes de partes blandas",
+    "vs_clase": [
+      "**Lincosamida (no macrólido)**: comparte el sitio 50S y la resistencia inducible MLSB (prueba D en el antibiograma).",
+      "**Bloquea la síntesis de TOXINAS**: se añade en la **fascitis necrotizante y el shock tóxico** estreptocócico o estafilocócico.",
+      "**Buena actividad ANAEROBIA por encima del diafragma** (infecciones odontógenas, aspiración) y alternativa en alergia a penicilina.",
+      "**El antibiótico que más se asocia a colitis por C. difficile.**"
+    ]
   },
   {
     "id": "INF-metronidazol",
@@ -1010,7 +1026,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Nitroimidazol",
+    "clase": "Nitroimidazol y antiprotozoario intestinal",
     "subclase": "Antianaerobio y antiprotozoario",
     "mecanismo": "Profármaco que solo se activa en condiciones de bajo potencial redox: dentro de bacterias anaerobias y protozoos, la ferredoxina reduce su grupo nitro y genera radicales nitro tóxicos que fragmentan el ADN. Esta activación selectiva explica que sea inocuo para las células humanas aerobias y que carezca por completo de actividad frente a aerobios.",
     "espectro": "Anaerobios estrictos (Bacteroides fragilis, Clostridium, Fusobacterium, Prevotella) y protozoos (Trichomonas vaginalis, Giardia lamblia, Entamoeba histolytica). Activo también frente a Clostridioides difficile y Helicobacter pylori. NO tiene NINGUNA actividad frente a bacterias aerobias ni anaerobias facultativas.",
@@ -1148,7 +1164,12 @@
       "PAR-giardia-lamblia",
       "PAR-trichomonas-vaginalis"
     ],
-    "fuente": "Katzung 15.ª ed., caps. 50 y 52; Harrison 20.ª ed., caps. de infecciones por anaerobios y amebiasis"
+    "fuente": "Katzung 15.ª ed., caps. 50 y 52; Harrison 20.ª ed., caps. de infecciones por anaerobios y amebiasis",
+    "vs_clase": [
+      "**El antianaerobio de referencia por debajo del diafragma** y tratamiento de amebiasis invasiva, giardiasis, tricomoniasis y vaginosis.",
+      "**Varias dosis al día** (tinidazol: dosis única) y **sabor metálico**.",
+      "**Efecto antabús con alcohol, potenciación de la warfarina** y neuropatía con tratamientos largos."
+    ]
   },
   {
     "id": "INF-vancomicina",
@@ -1539,7 +1560,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Derivado del ácido fosfónico",
+    "clase": "Antibacteriano de la infección urinaria",
     "subclase": "Inhibidor del primer paso de la síntesis de la pared",
     "mecanismo": "Inhibe la enolpiruvil transferasa (MurA), la primera enzima de la síntesis del peptidoglucano, bloqueando la formación del ácido N-acetilmurámico. Al actuar en un paso anterior al de betalactámicos y glucopéptidos, no presenta resistencia cruzada con ellos, lo que la hace útil frente a multirresistentes.",
     "espectro": "E. coli (incluidas cepas BLEE), Enterococcus faecalis, otras enterobacterias urinarias, y actividad variable frente a Pseudomonas y Klebsiella. Su papel clínico principal es urinario, donde alcanza concentraciones muy altas.",
@@ -1627,7 +1648,12 @@
       "BGN-klebsiella-pneumoniae",
       "BGP-enterococcus"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 50; Harrison 20.ª ed., cap. de infecciones urinarias"
+    "fuente": "Katzung 15.ª ed., cap. 50; Harrison 20.ª ed., cap. de infecciones urinarias",
+    "vs_clase": [
+      "**Dosis ÚNICA oral (3 g)** en la cistitis: máxima comodidad y buena actividad frente a E. coli BLEE.",
+      "**Segura en el EMBARAZO.**",
+      "**IV (fosfomicina disódica) en combinación** para multirresistentes; carga de sodio importante."
+    ]
   },
   {
     "id": "INF-nitrofurantoina",
@@ -1635,7 +1661,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Nitrofurano",
+    "clase": "Antibacteriano de la infección urinaria",
     "subclase": "Antiséptico urinario",
     "mecanismo": "Profármaco que las nitrorreductasas bacterianas convierten en intermediarios reactivos que dañan el ADN, los ribosomas y varias enzimas simultáneamente. Ese ataque multidiana explica que, tras décadas de uso, la resistencia de E. coli siga siendo excepcionalmente baja.",
     "espectro": "E. coli (>95% de sensibilidad mantenida), Enterococcus faecalis, Staphylococcus saprophyticus, Klebsiella (variable). NO cubre Proteus (intrínsecamente resistente), NO cubre Pseudomonas, NO cubre Serratia.",
@@ -1733,6 +1759,11 @@
       "BGP-enterococcus",
       "BGP-staphylococcus-epidermidis"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de infecciones urinarias"
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de infecciones urinarias",
+    "vs_clase": [
+      "**Solo alcanza niveles en ORINA**: útil en cistitis, **inútil en pielonefritis o prostatitis**.",
+      "**Ineficaz con FG <30-45** (no llega a la orina) y **toxicidad PULMONAR y hepática** con uso prolongado (profilaxis).",
+      "**Contraindicada al final del embarazo** (hemólisis neonatal)."
+    ]
   }
 ]

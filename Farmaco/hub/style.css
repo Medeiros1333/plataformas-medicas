@@ -273,3 +273,6 @@ table.tto .alt { display: block; font-size: .78rem; color: var(--text-muted); fo
 .chip.pat { background: var(--warning-bg); border-color: var(--warning); color: var(--warning); }
 .chip.pat:hover { background: var(--warning); color: #fff; }
 .lista .item .c .uso { color: var(--primary); }
+
+/* Fichas que resumen una familia entera (no un fármaco individual) */
+.badge.vision { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }

@@ -122,6 +122,7 @@ function renderPanel() {
 function badgesFarmaco(f) {
   const b = [`<span class="badge n${f.nivel}">${NIVEL_TXT[f.nivel] || ''}</span>`,
              `<span class="badge area">${esc(D.nombres_area[f.area] || f.area)}</span>`];
+  if (f.vision_clase) b.push(`<span class="badge vision">Visión de clase</span>`);
   if (f.subclase) b.push(`<span class="badge">${esc(f.subclase)}</span>`);
   return `<div class="badges">${b.join('')}</div>`;
 }
@@ -350,7 +351,7 @@ function pintarLista(cont, items, agruparPor, selId, onClick) {
     if (g !== ultimoGrupo) { html += `<div class="grupo-hdr">${esc(g)}</div>`; ultimoGrupo = g; }
     html += `<div class="item${it.id === selId ? ' sel' : ''}" data-id="${esc(it.id)}">
       <div class="n">${esc(it.nombre)}</div>
-      <div class="c">${esc(it.clase || it.clasificacion || '')}</div>
+      <div class="c">${it.vision_clase ? '<span class="uso">Visión de clase · </span>' : ''}${esc(it.clase || it.clasificacion || '')}</div>
     </div>`;
   }
   cont.innerHTML = html;
@@ -568,7 +569,7 @@ function renderComparar() {
     .sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 
   if (!items.length) { $('cmp-tabla').innerHTML = '<p style="padding:1rem;color:var(--text-muted)">Sin fármacos para esta selección.</p>'; return; }
-  if (items.length > 8) {
+  if (items.length > 10) {
     $('cmp-tabla').innerHTML = `<p style="padding:1rem;color:var(--text-muted)">${items.length} fármacos en esta selección — acota por clase para una comparativa legible.</p>`;
     return;
   }

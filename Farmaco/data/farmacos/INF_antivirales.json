@@ -273,7 +273,7 @@
     ],
     "area": "INF",
     "nivel": 1,
-    "clase": "Análogo de nucleós(t)ido frente al VHB / VIH",
+    "clase": "Análogo de nucleós(t)ido (VIH / VHB)",
     "subclase": "Análogo de monofosfato de adenosina; dos profármacos: tenofovir disoproxilo (TDF) y tenofovir alafenamida (TAF)",
     "vs_clase": [
       "**Activo frente a VIH Y VHB**: base de los regímenes antirretrovirales y de la PrEP.",
@@ -396,7 +396,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Análogo de nucleós(t)ido frente al VHB / VIH",
+    "clase": "Análogo de nucleós(t)ido (VIH / VHB)",
     "subclase": "Análogo de guanosina: inhibidor de la polimerasa del VHB",
     "vs_clase": [
       "**Activo solo frente al VHB**: en el coinfectado por VIH no tratado selecciona resistencia del VIH (M184V).",
@@ -506,7 +506,7 @@
     ],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antivíricos de acción directa frente al VHC (combinación a dosis fija)",
+    "clase": "Antivírico de acción directa frente al VHC",
     "subclase": "Inhibidor de la polimerasa NS5B (sofosbuvir) más inhibidor de NS5A (velpatasvir)",
     "mecanismo": "El SOFOSBUVIR es un profármaco de nucleótido que, tras fosforilarse, actúa como TERMINADOR DE CADENA de la ARN polimerasa NS5B del VHC; su sitio de unión está muy conservado entre genotipos, lo que le da actividad pangenotípica y barrera de resistencia alta. El VELPATASVIR inhibe la proteína NS5A, esencial para el ensamblaje del complejo de replicación y la formación del virión. La combinación de dos dianas independientes es lo que permite curar la infección en pocas semanas sin interferón ni ribavirina.",
     "espectro": "VIRUS DE LA HEPATITIS C, TODOS los genotipos (1 a 6): pauta pangenotípica.",
@@ -627,7 +627,12 @@
     "micro_relacionado": [
       "VIR-virus-hepatitis-c"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de hepatitis crónica"
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de hepatitis crónica",
+    "vs_clase": [
+      "**Pangenotípico SIN inhibidor de proteasa**: el único de elección en la **cirrosis descompensada** (con ribavirina).",
+      "**12 semanas, un comprimido diario.**",
+      "**Contraindicado con amiodarona** (bradicardia) y los IBP reducen la absorción del velpatasvir."
+    ]
   },
   {
     "id": "INF-bictegravir-emtricitabina-tenofovir-alafenamida",
@@ -638,8 +643,8 @@
     ],
     "area": "INF",
     "nivel": 2,
-    "clase": "Tratamiento antirretroviral combinado en comprimido único",
-    "subclase": "Inhibidor de la integrasa de segunda generación más dos inhibidores de la transcriptasa inversa análogos de nucleósido/nucleótido",
+    "clase": "Inhibidor de la integrasa (VIH)",
+    "subclase": "Comprimido único con dos análogos (BIC/FTC/TAF)",
     "mecanismo": "El BICTEGRAVIR inhibe la INTEGRASA del VIH y bloquea la transferencia de cadena, impidiendo la inserción del ADN proviral en el genoma celular: sin integración no hay replicación productiva ni ampliación del reservorio. La EMTRICITABINA y el TENOFOVIR ALAFENAMIDA son análogos que, tras fosforilarse, terminan la cadena de ADN sintetizada por la transcriptasa inversa. Atacar dos pasos consecutivos del ciclo con tres fármacos es lo que impide la selección de resistencias.",
     "espectro": "VIH-1 y VIH-2. Los componentes emtricitabina y tenofovir tienen además actividad frente al VIRUS DE LA HEPATITIS B.",
     "indicaciones": [
@@ -748,7 +753,12 @@
       "VIR-vih",
       "VIR-virus-hepatitis-b"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH"
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH",
+    "vs_clase": [
+      "**Régimen completo en UN comprimido diario**, sin potenciador: muy pocas interacciones y alta barrera genética.",
+      "**Cubre también el VHB** (emtricitabina + tenofovir): ideal en coinfección.",
+      "**Contraindicado con rifampicina.**"
+    ]
   },
   {
     "id": "INF-dolutegravir",
@@ -758,7 +768,7 @@
     ],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antirretroviral inhibidor de la integrasa",
+    "clase": "Inhibidor de la integrasa (VIH)",
     "subclase": "Inhibidor de la transferencia de cadena de segunda generación",
     "mecanismo": "Se une al sitio activo de la INTEGRASA viral, ocupando el lugar del ADN diana y bloqueando la transferencia de cadena: el ADN proviral no llega a integrarse en el cromosoma de la célula huésped. Su disociación lenta del complejo integrasa-ADN es la base de su BARRERA GENÉTICA ALTA, que en la práctica hace que el fracaso virológico rara vez se acompañe de resistencia.",
     "espectro": "VIH-1 y VIH-2 (activo también frente al VIH-2, a diferencia de los inhibidores de la transcriptasa inversa no nucleósidos).",
@@ -874,7 +884,12 @@
     "micro_relacionado": [
       "VIR-vih"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH"
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH",
+    "vs_clase": [
+      "**Alta barrera genética y dosis única diaria**: base de la mayoría de pautas, incluida la **biterapia con lamivudina**.",
+      "**Eleva la creatinina sin dañar el riñón** (inhibe OCT2) y causa **aumento de peso e insomnio**.",
+      "**Duplicar la dosis (50 mg/12 h) con rifampicina**; separar de cationes (calcio, hierro, antiácidos)."
+    ]
   },
   {
     "id": "INF-nirmatrelvir-ritonavir",
@@ -884,7 +899,7 @@
     ],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antivírico oral frente al SARS-CoV-2",
+    "clase": "Inhibidor de la proteasa viral",
     "subclase": "Inhibidor de la proteasa principal 3CL potenciado con ritonavir",
     "mecanismo": "El NIRMATRELVIR inhibe la proteasa principal (Mpro o 3CLpro) del SARS-CoV-2, imprescindible para escindir las poliproteínas virales en proteínas funcionales: sin ese procesamiento no se ensambla el complejo de replicación. El RITONAVIR no tiene aquí actividad antivírica: se añade en dosis baja como POTENCIADOR FARMACOCINÉTICO, inhibiendo el CYP3A4 que metabolizaría rápidamente al nirmatrelvir. Esa inhibición deliberada del CYP3A4 es también el origen de casi todas sus interacciones.",
     "espectro": "SARS-CoV-2, incluidas las variantes circulantes (la proteasa 3CL está muy conservada).",
@@ -992,6 +1007,11 @@
     "micro_relacionado": [
       "VIR-sars-cov-2"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed. y protocolos vigentes de tratamiento de la COVID-19"
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed. y protocolos vigentes de tratamiento de la COVID-19",
+    "vs_clase": [
+      "**Inhibidor de la proteasa 3CL del SARS-CoV-2** (no del VIH), en pauta corta de **5 días** en las primeras 5 jornadas de síntomas.",
+      "**El ritonavir potenciador causa las INTERACCIONES**: revisar estatinas, anticoagulantes, antiarrítmicos, inmunosupresores.",
+      "**Disgeusia** frecuente; ajuste a la mitad con FG 30-60."
+    ]
   }
 ]

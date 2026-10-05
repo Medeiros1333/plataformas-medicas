@@ -846,7 +846,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 1,
-    "clase": "Antivírico inhibidor de la neuraminidasa",
+    "clase": "Antigripal",
     "subclase": "Profármaco oral",
     "mecanismo": "Inhibe la neuraminidasa del virus influenza, la enzima que rompe los residuos de ácido siálico y permite que los viriones recién formados se liberen de la célula infectada. Al bloquearla, los nuevos viriones quedan agregados en la superficie celular y no se propagan. No mata al virus ya formado: por eso su eficacia depende críticamente de la precocidad.",
     "espectro": "Virus influenza A y B exclusivamente. NO tiene actividad frente a ningún otro virus respiratorio (VRS, rinovirus, SARS-CoV-2, adenovirus).",
@@ -930,7 +930,12 @@
     "micro_relacionado": [
       "VIR-influenza"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de gripe"
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de gripe",
+    "vs_clase": [
+      "**El antigripal de referencia: oral y bien tolerado**, de elección en hospitalizados, embarazadas y asmáticos.",
+      "**5 días cada 12 h** (frente a la dosis única del baloxavir).",
+      "**Beneficio incluso después de 48 h en el paciente grave u hospitalizado.**"
+    ]
   },
   {
     "id": "INF-albendazol",
@@ -938,7 +943,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antihelmíntico bencimidazólico",
+    "clase": "Antihelmíntico",
     "subclase": "Inhibidor de la polimerización de la tubulina",
     "mecanismo": "Se une con alta afinidad a la beta-tubulina del parásito e impide la polimerización de los microtúbulos, bloqueando la captación de glucosa. El helminto pierde su reserva energética y muere. La selectividad se debe a la mayor afinidad por la tubulina del parásito que por la humana.",
     "espectro": "Amplio espectro antihelmíntico: nematodos intestinales (Ascaris, Enterobius, Trichuris, anquilostomas, Strongyloides), cestodos tisulares (Echinococcus en la hidatidosis, Taenia solium en la neurocisticercosis) y microsporidios.",
@@ -1049,7 +1054,12 @@
       "PAR-strongyloides-stercoralis",
       "PAR-taenia-solium"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., caps. de helmintiasis"
+    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., caps. de helmintiasis",
+    "vs_clase": [
+      "**Se absorbe (con comida grasa) y alcanza los TEJIDOS**: de elección en **hidatidosis, neurocisticercosis** y larvas migrans.",
+      "**Requiere control de transaminasas y hemograma** en tratamientos largos.",
+      "Teratógeno: evitar en el embarazo."
+    ]
   },
   {
     "id": "INF-ivermectina",
@@ -1057,7 +1067,7 @@
     "sinonimos": [],
     "area": "INF",
     "nivel": 2,
-    "clase": "Antiparasitario lactona macrocíclica",
+    "clase": "Antihelmíntico",
     "subclase": "Agonista de canales de cloro dependientes de glutamato",
     "mecanismo": "Se une a los canales de cloro dependientes de glutamato, exclusivos de invertebrados, provocando hiperpolarización, parálisis flácida y muerte del parásito. No atraviesa la barrera hematoencefálica humana porque la glicoproteína P la expulsa activamente: en eso reside su seguridad, y su fallo explica la neurotoxicidad en perros de razas con esa proteína defectuosa.",
     "espectro": "Strongyloides stercoralis (de elección), Onchocerca volvulus, Wuchereria, Sarcoptes scabiei (sarna), Pediculus (piojos), Demodex. NO es activa frente a cestodos ni trematodos.",
@@ -1149,6 +1159,11 @@
     "micro_relacionado": [
       "PAR-strongyloides-stercoralis"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., cap. de nematodos tisulares e intestinales"
+    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., cap. de nematodos tisulares e intestinales",
+    "vs_clase": [
+      "**De elección en la ESTRONGILOIDIASIS** (y obligatorio descartarla antes de inmunosuprimir) y en la **sarna costrosa**.",
+      "**Dosis única de 200 µg/kg** (repetida a los 7-14 días en sarna).",
+      "No atraviesa la barrera hematoencefálica humana (salvo con alteración de la P-gp)."
+    ]
   }
 ]

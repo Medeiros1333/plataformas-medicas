@@ -82,12 +82,16 @@
       "INF-amikacina",
       "INF-cefepima",
       "INF-ceftazidima",
+      "INF-ceftazidima-avibactam",
+      "INF-ceftobiprol",
+      "INF-ceftolozano-tazobactam",
       "INF-ciprofloxacino",
       "INF-gentamicina",
       "INF-imipenem",
       "INF-levofloxacino",
       "INF-meropenem",
       "INF-piperacilina-tazobactam",
+      "INF-tobramicina",
       "OFT-antiinfecciosos-corticoides-oculares"
     ],
     "fuente": "Murray 9.ª ed., cap. 27 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por Pseudomonas"
@@ -163,7 +167,9 @@
       "INF-ampicilina",
       "INF-gentamicina",
       "INF-imipenem",
-      "INF-meropenem"
+      "INF-meropenem",
+      "INF-minociclina",
+      "INF-tigeciclina"
     ],
     "fuente": "Murray 9.ª ed., cap. 27 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones nosocomiales"
   },
@@ -245,8 +251,11 @@
       "INF-amoxicilina-clavulanico",
       "INF-azitromicina",
       "INF-cefalosporinas-orales",
+      "INF-cefixima",
+      "INF-cefotaxima",
       "INF-ceftazidima",
       "INF-ceftriaxona",
+      "INF-cefuroxima",
       "INF-levofloxacino",
       "INF-moxifloxacino",
       "PED-INF-amoxicilina",
@@ -321,7 +330,9 @@
     "farmacos_relacionados": [
       "INF-amoxicilina-clavulanico",
       "INF-azitromicina",
+      "INF-cefaclor",
       "INF-cefalosporinas-orales",
+      "INF-cefuroxima",
       "INF-claritromicina",
       "INF-levofloxacino",
       "INF-moxifloxacino",
@@ -397,10 +408,12 @@
       "notas": "QUIMIOPROFILAXIS OBLIGATORIA de los contactos estrechos (convivientes, contacto con secreciones, personal que hizo maniobras de reanimación sin protección) en las primeras 24 h: ciprofloxacino 500 mg en dosis única, rifampicina 600 mg/12 h 2 días, o ceftriaxona 250 mg IM en dosis única (de elección en la embarazada). Vacunas conjugadas ACWY y vacuna frente al serogrupo B."
     },
     "farmacos_relacionados": [
+      "INF-cefotaxima",
       "INF-ceftriaxona",
       "INF-ciprofloxacino",
       "INF-meropenem",
       "INF-penicilina-g-benzatina",
+      "INF-penicilina-g-sodica",
       "INF-rifampicina"
     ],
     "fuente": "Murray 9.ª ed., cap. 25 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones meningocócicas"
@@ -485,6 +498,8 @@
     },
     "farmacos_relacionados": [
       "INF-azitromicina",
+      "INF-cefixima",
+      "INF-cefoxitina",
       "INF-ceftriaxona",
       "INF-doxiciclina",
       "OFT-antiinfecciosos-corticoides-oculares"
@@ -630,6 +645,7 @@
       "INF-azitromicina",
       "INF-claritromicina",
       "INF-cotrimoxazol",
+      "INF-eritromicina",
       "PED-INF-azitromicina"
     ],
     "fuente": "Murray 9.ª ed., cap. 28 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de tos ferina"
@@ -709,6 +725,7 @@
     "farmacos_relacionados": [
       "INF-cotrimoxazol",
       "INF-doxiciclina",
+      "INF-estreptomicina",
       "INF-gentamicina",
       "INF-rifampicina"
     ],

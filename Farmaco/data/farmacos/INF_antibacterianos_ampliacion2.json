@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "INF-tobramicina",
+    "nombre": "Tobramicina",
+    "sinonimos": [
+      "Tobramicina inhalada"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Aminoglucósido",
+    "subclase": "Aminoglucósido con mayor actividad antipseudomónica",
+    "vs_clase": [
+      "**El aminoglucósido MÁS ACTIVO frente a Pseudomonas aeruginosa.**",
+      "**Formulación INHALADA** para la colonización crónica por Pseudomonas en la fibrosis quística y las bronquiectasias.",
+      "**Menos activa frente a enterococo** que la gentamicina (no se usa para sinergia en endocarditis)."
+    ],
+    "mecanismo": "Se une a la subunidad 30S ribosómica y provoca errores de lectura del ARNm: bactericida concentración-dependiente con efecto postantibiótico. Entra en la bacteria por un transporte dependiente de oxígeno (inactivo frente a anaerobios).",
+    "espectro": "Cubre: Pseudomonas aeruginosa, enterobacterias, S. aureus (sinergia). NO cubre: anaerobios, estreptococos en monoterapia, Burkholderia cepacia, Stenotrophomonas.",
+    "indicaciones": [
+      {
+        "patologia": "Infección grave por Pseudomonas (en combinación con betalactámico)",
+        "dosis": "5-7 mg/kg",
+        "posologia": "Cada 24 h (dosis única diaria)",
+        "via": "IV",
+        "dosis_objetivo": "Pico 16-24 mg/L y valle <1 mg/L",
+        "nota": "Ajuste por niveles; máx. 5-7 días"
+      },
+      {
+        "patologia": "Colonización crónica por Pseudomonas en fibrosis quística o bronquiectasias",
+        "dosis": "300 mg (nebulizada) o 112 mg (polvo seco)",
+        "posologia": "Cada 12 h, ciclos de 28 días alternos",
+        "via": "inhalada",
+        "nota": "Broncodilatador previo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal basal; dosis por peso (ajustado en obesos).",
+      "titulacion": "Ajustar por niveles plasmáticos.",
+      "duracion": "Sistémica: la mínima (≤7 días). Inhalada: ciclos de 28 días on/off.",
+      "fin": "Suspender en cuanto se pueda desescalar.",
+      "via": "IV, IM e inhalada.",
+      "monitorizacion": "**Creatinina cada 2-3 días, niveles y audiometría/vestíbulo en tratamientos prolongados.**"
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por VO.",
+      "distribucion": "Extracelular; mala penetración en LCR y en el pulmón por vía sistémica.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal (filtración glomerular).",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "**Ampliar el intervalo según FG y niveles.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vancomicina, anfotericina B, ciclosporina, contrastes",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar combinaciones o monitorizar estrechamente"
+        },
+        {
+          "con": "Furosemida",
+          "efecto": "Ototoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar dosis altas simultáneas"
+        },
+        {
+          "con": "Bloqueantes neuromusculares",
+          "efecto": "Potenciación del bloqueo",
+          "gravedad": "media",
+          "manejo": "Vigilar en anestesia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación de creatinina",
+        "Broncoespasmo y disfonía (inhalada)"
+      ],
+      "graves": [
+        "Nefrotoxicidad (tubular, reversible)",
+        "Ototoxicidad coclear y vestibular (irreversible)",
+        "Bloqueo neuromuscular (miastenia)"
+      ]
+    },
+    "contraindicaciones": [
+      "Miastenia gravis",
+      "Embarazo (sordera fetal)",
+      "Alergia a aminoglucósidos"
+    ],
+    "perlas": [
+      "La dosis única diaria aprovecha el efecto concentración-dependiente y reduce la nefrotoxicidad."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo (ototoxicidad fetal) salvo riesgo vital.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 45"
+  },
+  {
+    "id": "INF-estreptomicina",
+    "nombre": "Estreptomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Aminoglucósido",
+    "subclase": "Primer aminoglucósido, de uso en zoonosis y tuberculosis",
+    "vs_clase": [
+      "**De elección en la PESTE y la TULAREMIA** (y en la brucelosis con doxiciclina).",
+      "**Antituberculoso de 2.ª línea** (resistencias o intolerancia).",
+      "**La más VESTIBULOTÓXICA** del grupo; solo IM."
+    ],
+    "mecanismo": "Unión a la subunidad 30S ribosómica: bactericida.",
+    "espectro": "Cubre: Yersinia pestis, Francisella tularensis, Brucella (con doxiciclina), Mycobacterium tuberculosis, enterococo (sinergia en cepas sin alto nivel de resistencia). NO cubre: anaerobios, Pseudomonas de forma fiable.",
+    "indicaciones": [
+      {
+        "patologia": "Brucelosis (con doxiciclina)",
+        "dosis": "1 g (15 mg/kg)",
+        "posologia": "Cada 24 h",
+        "via": "IM",
+        "nota": "14-21 días con doxiciclina 6 semanas"
+      },
+      {
+        "patologia": "Peste y tularemia",
+        "dosis": "1 g",
+        "posologia": "Cada 12 h",
+        "via": "IM",
+        "nota": "7-10 días"
+      },
+      {
+        "patologia": "Tuberculosis con resistencias",
+        "dosis": "15 mg/kg (máx. 1 g)",
+        "posologia": "Cada 24 h, 5 días/semana",
+        "via": "IM",
+        "nota": "Según antibiograma"
+      }
+    ],
+    "esquema": {
+      "inicio": "Audiometría y función renal basales.",
+      "titulacion": "Según niveles.",
+      "duracion": "Según indicación.",
+      "fin": "Suspender ante vértigo, acúfenos o hipoacusia.",
+      "via": "IM.",
+      "monitorizacion": "Función vestibular, audiometría, creatinina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula VO.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Espaciar según FG.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros ototóxicos y nefrotóxicos",
+          "efecto": "Toxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor en el punto de inyección",
+        "Parestesias periorales"
+      ],
+      "graves": [
+        "**Toxicidad vestibular** (vértigo, ataxia)",
+        "Hipoacusia",
+        "Nefrotoxicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Miastenia gravis"
+    ],
+    "perlas": [
+      "Brucelosis: doxiciclina 6 semanas + estreptomicina 2-3 semanas es la pauta clásica de mayor eficacia."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo.",
+    "micro_relacionado": [
+      "BGN-brucella",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 45 y 47"
+  },
+  {
+    "id": "INF-eritromicina",
+    "nombre": "Eritromicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Macrólido y lincosamida (grupo MLS)",
+    "subclase": "Primer macrólido; hoy sobre todo PROCINÉTICO",
+    "vs_clase": [
+      "**Agonista de la MOTILINA: potente PROCINÉTICO** (250 mg IV antes de la endoscopia en la hemorragia digestiva alta; gastroparesia).",
+      "**La peor tolerancia digestiva** del grupo y **4 tomas al día**: como antibiótico ha sido desplazada por azitro y claritromicina.",
+      "**Inhibidor potente del CYP3A4** (como la claritromicina) y **prolonga el QT**.",
+      "**Estenosis hipertrófica de píloro** en neonatos expuestos."
+    ],
+    "mecanismo": "Se une a la subunidad 50S ribosómica e inhibe la translocación: bacteriostático. Además estimula los receptores de motilina del tubo digestivo.",
+    "espectro": "Cubre: estreptococos, neumococo (con resistencias), atípicos (Mycoplasma, Chlamydophila, Legionella), Bordetella, Campylobacter, C. diphtheriae. NO cubre: H. influenzae bien, enterobacterias, anaerobios entéricos.",
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia digestiva alta (vaciamiento gástrico antes de la endoscopia)",
+        "dosis": "250 mg",
+        "posologia": "Dosis única 30-120 min antes",
+        "via": "IV",
+        "nota": "Mejora la visión endoscópica"
+      },
+      {
+        "patologia": "Gastroparesia refractaria",
+        "dosis": "125-250 mg",
+        "posologia": "Cada 8 h antes de las comidas",
+        "via": "VO",
+        "nota": "Taquifilaxia en semanas"
+      },
+      {
+        "patologia": "Infecciones por atípicos o tos ferina (alternativa)",
+        "dosis": "500 mg",
+        "posologia": "Cada 6 h",
+        "via": "VO / IV",
+        "nota": "7-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Revisar QT e interacciones por CYP3A4.",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis única como procinético en HDA.",
+      "fin": "Suspensión directa.",
+      "via": "VO e IV (infusión lenta: flebitis).",
+      "monitorizacion": "ECG si factores de riesgo de QT largo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Variable; inactivada por el ácido (formas gastrorresistentes o ésteres).",
+      "distribucion": "Amplia, salvo LCR.",
+      "metabolismo": "**Hepático; inhibidor potente del CYP3A4.**",
+      "eliminacion": "Biliar.",
+      "vida_media": "1,5-2 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución (hepatitis colestásica con el estolato).",
+      "interacciones": [
+        {
+          "con": "Estatinas (simvastatina), colchicina, ciclosporina, tacrolimús, carbamazepina",
+          "efecto": "Toxicidad por aumento de niveles",
+          "gravedad": "alta",
+          "manejo": "Evitar o ajustar"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dolor abdominal, náuseas, diarrea** (efecto procinético)",
+        "Flebitis IV"
+      ],
+      "graves": [
+        "Prolongación del QT",
+        "Hepatitis colestásica",
+        "Estenosis hipertrófica de píloro (neonatos)",
+        "Ototoxicidad reversible a dosis altas"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo",
+      "Uso con simvastatina, pimozida o ergotamínicos"
+    ],
+    "perlas": [
+      "Su efecto adverso digestivo se convierte en virtud como procinético: misma molécula, distinta indicación."
+    ],
+    "embarazo_lactancia": "Compatible (evitar el estolato en el embarazo).",
+    "micro_relacionado": [
+      "ATI-mycoplasma-pneumoniae",
+      "BGN-bordetella-pertussis",
+      "BGN-campylobacter-jejuni",
+      "BGP-corynebacterium-diphtheriae"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 44 y 62"
+  },
+  {
+    "id": "INF-minociclina",
+    "nombre": "Minociclina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Tetraciclina y glicilciclina",
+    "subclase": "Tetraciclina lipófila de segunda generación",
+    "vs_clase": [
+      "**La más LIPÓFILA: atraviesa la barrera hematoencefálica** → **toxicidad VESTIBULAR** (vértigo) propia.",
+      "**Hiperpigmentación azul-grisácea** de piel, dientes y cicatrices, y **lupus inducido / hepatitis autoinmune** con uso prolongado.",
+      "Mejor actividad que la doxiciclina frente a **SARM, Nocardia y Acinetobacter**."
+    ],
+    "mecanismo": "Unión a la subunidad 30S ribosómica (impide la unión del aminoacil-ARNt): bacteriostático.",
+    "espectro": "Cubre: S. aureus (incluido SARM comunitario), estreptococos, atípicos, Nocardia, Acinetobacter (IV), Cutibacterium acnes, Rickettsia. NO cubre: Pseudomonas, Proteus, la mayoría de enterobacterias.",
+    "indicaciones": [
+      {
+        "patologia": "Acné inflamatorio moderado (alternativa a doxiciclina)",
+        "dosis": "50-100 mg",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "≤3 meses, con peróxido de benzoilo"
+      },
+      {
+        "patologia": "Infección de piel por SARM comunitario",
+        "dosis": "100 mg (200 mg de carga)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "7-10 días"
+      },
+      {
+        "patologia": "Nocardiosis (alternativa)",
+        "dosis": "100-200 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Meses, según extensión"
+      }
+    ],
+    "esquema": {
+      "inicio": "Advertir de vértigo y fotosensibilidad.",
+      "titulacion": "No se titula.",
+      "duracion": "Según indicación.",
+      "fin": "Suspender ante vértigo intenso, hiperpigmentación o síntomas autoinmunes.",
+      "via": "VO e IV.",
+      "monitorizacion": "Función hepática y ANA si uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Casi completa; menos afectada por los alimentos que otras tetraciclinas (pero sí por cationes).",
+      "distribucion": "**Muy lipófila: SNC, saliva, lágrimas.**",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "15-20 h.",
+      "ajuste_renal": "No precisa (precaución en la grave).",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, calcio, hierro, magnesio, zinc",
+          "efecto": "Quelación: menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2-3 h"
+        },
+        {
+          "con": "Isotretinoína",
+          "efecto": "Hipertensión intracraneal",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Control de INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Vértigo y mareo**",
+        "Náuseas",
+        "Fotosensibilidad (menor que doxiciclina)"
+      ],
+      "graves": [
+        "**Hiperpigmentación**",
+        "Lupus inducido, hepatitis autoinmune, DRESS",
+        "Hipertensión intracraneal"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y <8 años (tinción dental)",
+      "Uso con isotretinoína"
+    ],
+    "perlas": [
+      "Ante pigmentación gris-azulada en cicatrices de acné: preguntar por minociclina."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo y en <8 años.",
+    "micro_relacionado": [
+      "BGN-acinetobacter-baumannii",
+      "BGP-nocardia",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44"
+  },
+  {
+    "id": "INF-tigeciclina",
+    "nombre": "Tigeciclina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Tetraciclina y glicilciclina",
+    "subclase": "Glicilciclina IV de amplio espectro",
+    "vs_clase": [
+      "**Glicilciclina: escapa a las bombas de expulsión y a la protección ribosómica** que inactivan las tetraciclinas clásicas.",
+      "**Cubre SARM, ERV, BLEE, Acinetobacter y anaerobios**, pero **NO Pseudomonas ni Proteus**.",
+      "**Niveles séricos MUY BAJOS** (gran volumen de distribución): mala opción en bacteriemia; **aumento de mortalidad** en metaanálisis.",
+      "**Náuseas y vómitos** muy frecuentes; **hipofibrinogenemia** propia."
+    ],
+    "mecanismo": "Unión a la subunidad 30S con mayor afinidad que las tetraciclinas: bacteriostático.",
+    "espectro": "Cubre: SARM, enterococo resistente a vancomicina, enterobacterias BLEE, Acinetobacter, anaerobios, atípicos. NO cubre: Pseudomonas aeruginosa, Proteus, Providencia, Morganella.",
+    "indicaciones": [
+      {
+        "patologia": "Infección intraabdominal o de piel complicada por multirresistentes sin otras opciones",
+        "dosis": "100 mg de carga, después 50 mg",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "5-14 días; dosis altas (100 mg/12 h) en algunos protocolos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Reservada a multirresistentes, con consejo de Infecciosas.",
+      "titulacion": "Dosis fija.",
+      "duracion": "5-14 días.",
+      "fin": "Según evolución.",
+      "via": "IV.",
+      "monitorizacion": "Fibrinógeno y coagulación, función hepática, amilasa."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "**Volumen enorme (7-9 L/kg)**: niveles séricos bajos.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Biliar.",
+      "vida_media": "27-42 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Child-Pugh C: 25 mg/12 h.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Control de INR"
+        },
+        {
+          "con": "Ciclosporina, tacrolimús",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Monitorizar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas y vómitos** (20-30%)",
+        "Diarrea"
+      ],
+      "graves": [
+        "Mayor mortalidad en ensayos",
+        "Pancreatitis",
+        "Hepatotoxicidad",
+        "Hipofibrinogenemia y sangrado"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "<8 años",
+      "Bacteriemia como monoterapia (relativa)"
+    ],
+    "perlas": [
+      "Antibiótico de último recurso: su espectro es amplio, pero su eficacia clínica es limitada."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [
+      "BGN-acinetobacter-baumannii",
+      "BGP-enterococcus",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44"
+  },
+  {
+    "id": "INF-trimetoprim",
+    "nombre": "Trimetoprim",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Sulfonamida y antifolato",
+    "subclase": "Inhibidor de la dihidrofolato reductasa bacteriana, sin sulfamida",
+    "vs_clase": [
+      "**Trimetoprim SOLO, sin sulfametoxazol**: útil en la **ITU no complicada en alérgicos a sulfamidas**, con menos efectos adversos.",
+      "Comparte con el cotrimoxazol la **HIPERPOTASEMIA** (bloquea el canal ENaC como la amilorida) y la **subida de creatinina sin descenso del FG** (inhibe su secreción).",
+      "Espectro más estrecho: no sirve para Pneumocystis ni toxoplasma en monoterapia."
+    ],
+    "mecanismo": "Inhibe la dihidrofolato reductasa bacteriana (afinidad 50.000 veces mayor que por la humana): bloquea la síntesis de purinas y timidina.",
+    "espectro": "Cubre: E. coli, Proteus, Klebsiella (resistencias crecientes, 20-30%). NO cubre: Pseudomonas, enterococo (in vivo), anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Cistitis no complicada (si resistencia local <20%)",
+        "dosis": "200 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "3 días"
+      },
+      {
+        "patologia": "Profilaxis de ITU recurrente",
+        "dosis": "100 mg",
+        "posologia": "Cada 24 h al acostarse (o poscoital)",
+        "via": "VO",
+        "nota": "6-12 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Potasio y creatinina si ERC o IECA/ARA-II.",
+      "titulacion": "No se titula.",
+      "duracion": "3 días en cistitis; meses en profilaxis.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Potasio en pacientes de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Amplia; se concentra en orina y próstata.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal.",
+      "vida_media": "8-11 h.",
+      "ajuste_renal": "FG 15-30: mitad de dosis; evitar si FG <15.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, espironolactona",
+          "efecto": "**Hiperpotasemia**",
+          "gravedad": "alta",
+          "manejo": "Control de potasio o evitar en ancianos"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Mielotoxicidad aditiva (antifolatos)",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema, prurito",
+        "Náuseas"
+      ],
+      "graves": [
+        "Hiperpotasemia",
+        "Anemia megaloblástica (uso prolongado)",
+        "Reacciones cutáneas graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anemia megaloblástica por déficit de folato",
+      "Primer trimestre del embarazo (antifolato)"
+    ],
+    "perlas": [
+      "Subida de creatinina con trimetoprim: suele ser por menor secreción tubular, no por daño renal."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46"
+  },
+  {
+    "id": "INF-sulfadiazina",
+    "nombre": "Sulfadiazina",
+    "sinonimos": [
+      "Sulfadiazina argéntica (tópica, quemaduras)"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Sulfonamida y antifolato",
+    "subclase": "Sulfamida de uso en toxoplasmosis",
+    "vs_clase": [
+      "**De elección, con PIRIMETAMINA y ácido folínico, en la TOXOPLASMOSIS cerebral** (VIH) y ocular.",
+      "**CRISTALURIA y nefrolitiasis** propias (hidratación abundante, alcalinizar la orina).",
+      "La **sulfadiazina argéntica** es el antiséptico tópico clásico de las **quemaduras**."
+    ],
+    "mecanismo": "Análogo del ácido paraaminobenzoico que inhibe la dihidropteroato sintetasa (síntesis de folato); sinergia con pirimetamina (DHFR).",
+    "espectro": "Cubre: Toxoplasma gondii (con pirimetamina), Nocardia, algunas bacterias grampositivas y gramnegativas (resistencias frecuentes).",
+    "indicaciones": [
+      {
+        "patologia": "Toxoplasmosis cerebral (VIH)",
+        "dosis": "1-1,5 g",
+        "posologia": "Cada 6 h",
+        "via": "VO",
+        "nota": "Con pirimetamina 200 mg de carga y 50-75 mg/día + ácido folínico; 6 semanas"
+      },
+      {
+        "patologia": "Quemaduras de 2.º grado (sulfadiazina argéntica 1%)",
+        "dosis": "1 aplicación (capa de 2-3 mm)",
+        "posologia": "Cada 12-24 h",
+        "via": "tópica",
+        "nota": "Evitar en cara y en <2 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma y función renal; hidratación >2 L/día.",
+      "titulacion": "No se titula.",
+      "duracion": "Toxoplasmosis 6 semanas y luego profilaxis secundaria.",
+      "fin": "Paso a dosis de mantenimiento.",
+      "via": "VO y tópica.",
+      "monitorizacion": "Hemograma, función renal, sedimento (cristales)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Amplia; buena penetración en SNC.",
+      "metabolismo": "Acetilación hepática.",
+      "eliminacion": "Renal.",
+      "vida_media": "10-17 h.",
+      "ajuste_renal": "Reducir; evitar en ERC grave.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Warfarina, sulfonilureas, fenitoína",
+          "efecto": "Aumento de sus efectos (desplazamiento de proteínas, CYP2C9)",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Mielotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema",
+        "Náuseas"
+      ],
+      "graves": [
+        "**Cristaluria y fracaso renal**",
+        "Stevens-Johnson / NET",
+        "Agranulocitosis",
+        "Hemólisis en déficit de G6PD"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a sulfamidas",
+      "Déficit de G6PD",
+      "Final del embarazo y neonatos (kernicterus)"
+    ],
+    "perlas": [
+      "Alternativa en alergia: clindamicina + pirimetamina, o cotrimoxazol a dosis altas."
+    ],
+    "embarazo_lactancia": "Evitar al final del embarazo (kernicterus).",
+    "micro_relacionado": [
+      "PAR-toxoplasma-gondii"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 46 y 52"
+  },
+  {
+    "id": "INF-pivmecilinam",
+    "nombre": "Pivmecilinam",
+    "sinonimos": [
+      "Mecilinam"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antibacteriano de la infección urinaria",
+    "subclase": "Amidinopenicilina con afinidad selectiva por la PBP2 de gramnegativos",
+    "vs_clase": [
+      "**Penicilina activa casi solo frente a GRAMNEGATIVOS**, incluidas muchas **E. coli productoras de BLEE**.",
+      "**Mínimo daño colateral** sobre la flora y bajas resistencias: primera línea en la cistitis en el norte de Europa.",
+      "**Contraindicado en déficit de carnitina** (el pivalato la consume)."
+    ],
+    "mecanismo": "Profármaco del mecilinam, que se une selectivamente a la PBP2 de las enterobacterias.",
+    "espectro": "Cubre: E. coli (incluida BLEE en muchos casos), Klebsiella, Proteus mirabilis, Enterobacter. NO cubre: grampositivos (S. saprophyticus variable), Pseudomonas, enterococo.",
+    "indicaciones": [
+      {
+        "patologia": "Cistitis aguda no complicada (incluida E. coli BLEE sensible)",
+        "dosis": "400 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "3-5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tomar con comida y abundante agua (esofagitis).",
+      "titulacion": "No se titula.",
+      "duracion": "3-5 días.",
+      "fin": "Completar pauta.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena; hidrólisis a mecilinam.",
+      "distribucion": "Se concentra en orina.",
+      "metabolismo": "Liberación de pivalato.",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "No precisa en la cistitis.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ácido valproico",
+          "efecto": "Depleción de carnitina aditiva",
+          "gravedad": "media",
+          "manejo": "Evitar tratamientos largos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, dispepsia",
+        "Diarrea"
+      ],
+      "graves": [
+        "Úlcera esofágica (tomado sin agua)",
+        "Déficit de carnitina con uso prolongado",
+        "Anafilaxia (alérgicos a penicilina)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a penicilinas",
+      "Déficit de carnitina",
+      "Estenosis esofágica"
+    ],
+    "perlas": [
+      "Opción oral útil frente a E. coli BLEE en la cistitis, junto con fosfomicina y nitrofurantoína."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-proteus-mirabilis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "INF-tinidazol",
+    "nombre": "Tinidazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Nitroimidazol y antiprotozoario intestinal",
+    "subclase": "Nitroimidazol de vida media larga",
+    "vs_clase": [
+      "**Vida media larga (12-14 h): DOSIS ÚNICA** de 2 g en giardiasis y tricomoniasis (el metronidazol necesita varios días).",
+      "**Mejor tolerancia digestiva** (menos sabor metálico) que el metronidazol.",
+      "Comparte el **efecto antabús** y la neuropatía con dosis prolongadas."
+    ],
+    "mecanismo": "Profármaco reducido en el interior de anaerobios y protozoos a radicales que dañan el ADN.",
+    "espectro": "Cubre: Giardia, Trichomonas, Entamoeba histolytica, anaerobios, Gardnerella. NO cubre: aerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Giardiasis y tricomoniasis",
+        "dosis": "2 g (niños 50 mg/kg)",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Tratar a la pareja en tricomoniasis"
+      },
+      {
+        "patologia": "Amebiasis intestinal invasiva",
+        "dosis": "2 g",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "3-5 días, seguido de paromomicina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con comida.",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis única o 3-5 días.",
+      "fin": "Sin alcohol hasta 72 h después.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Amplia, incluida LCR.",
+      "metabolismo": "Hepático (CYP3A4).",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "12-14 h.",
+      "ajuste_renal": "No precisa (dosis adicional tras hemodiálisis).",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol",
+          "efecto": "**Reacción tipo disulfiram**",
+          "gravedad": "alta",
+          "manejo": "Evitar alcohol hasta 72 h después"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Control de INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor metálico (menor)",
+        "Náuseas"
+      ],
+      "graves": [
+        "Neuropatía periférica",
+        "Convulsiones (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Primer trimestre del embarazo",
+      "Lactancia (suspender 72 h)"
+    ],
+    "perlas": [
+      "Ideal cuando el cumplimiento importa: una dosis y listo."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre; suspender la lactancia 72 h.",
+    "micro_relacionado": [
+      "PAR-entamoeba-histolytica",
+      "PAR-giardia-lamblia",
+      "PAR-trichomonas-vaginalis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52"
+  },
+  {
+    "id": "INF-paromomicina",
+    "nombre": "Paromomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Nitroimidazol y antiprotozoario intestinal",
+    "subclase": "Aminoglucósido NO absorbible: amebicida luminal",
+    "vs_clase": [
+      "**Amebicida LUMINAL**: elimina los quistes que el metronidazol (tisular) deja en la luz intestinal. **Siempre después del nitroimidazol** en la amebiasis invasiva.",
+      "**No se absorbe**: casi sin toxicidad sistémica (aunque es un aminoglucósido).",
+      "Alternativa en la **giardiasis del embarazo**."
+    ],
+    "mecanismo": "Aminoglucósido que inhibe la síntesis proteica de protozoos y bacterias en la luz intestinal.",
+    "espectro": "Cubre: Entamoeba histolytica (formas luminales), Giardia, Cryptosporidium (eficacia limitada), Leishmania (tópica/IM).",
+    "indicaciones": [
+      {
+        "patologia": "Amebiasis: erradicación de quistes tras metronidazol, o portador asintomático",
+        "dosis": "25-35 mg/kg/día",
+        "posologia": "Repartida cada 8 h",
+        "via": "VO",
+        "nota": "7 días"
+      },
+      {
+        "patologia": "Giardiasis en el embarazo",
+        "dosis": "25-35 mg/kg/día",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras completar el nitroimidazol en la invasiva.",
+      "titulacion": "No se titula.",
+      "duracion": "7 días.",
+      "fin": "Coprocultivo/parásitos de control.",
+      "via": "VO.",
+      "monitorizacion": "Tolerancia digestiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Prácticamente nula.**",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa (precaución si hay úlceras intestinales: absorción).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros aminoglucósidos sistémicos",
+          "efecto": "Toxicidad aditiva si hay absorción (mucosa ulcerada)",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, dolor abdominal",
+        "Náuseas"
+      ],
+      "graves": [
+        "Nefro y ototoxicidad si se absorbe (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal",
+      "Hipersensibilidad a aminoglucósidos"
+    ],
+    "perlas": [
+      "Amebiasis invasiva tratada solo con metronidazol: riesgo de recaída por quistes luminales."
+    ],
+    "embarazo_lactancia": "Utilizable (no se absorbe).",
+    "micro_relacionado": [
+      "PAR-entamoeba-histolytica",
+      "PAR-giardia-lamblia"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52"
+  },
+  {
+    "id": "INF-mebendazol",
+    "nombre": "Mebendazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antihelmíntico",
+    "subclase": "Bencimidazol de acción luminal",
+    "vs_clase": [
+      "**Casi NO se absorbe**: actúa en la luz intestinal; útil para **oxiuros, áscaris, tricocéfalos y uncinarias**, no para las larvas tisulares (para eso, albendazol).",
+      "**De elección en la OXIURIASIS**: 100 mg dosis única, repetida a las 2 semanas, tratando a todos los convivientes.",
+      "Muy bien tolerado."
+    ],
+    "mecanismo": "Se une a la beta-tubulina del helminto e inhibe la polimerización de microtúbulos: bloquea la captación de glucosa.",
+    "espectro": "Cubre: Enterobius vermicularis, Ascaris lumbricoides, Trichuris trichiura, uncinarias. Menos eficaz en: Strongyloides (ivermectina), cestodos, hidatidosis (albendazol).",
+    "indicaciones": [
+      {
+        "patologia": "Oxiuriasis",
+        "dosis": "100 mg",
+        "posologia": "Dosis única; repetir a las 2 semanas",
+        "via": "VO",
+        "nota": "Tratar a toda la familia"
+      },
+      {
+        "patologia": "Ascariasis, tricuriasis, uncinariasis",
+        "dosis": "100 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "3 días (o 500 mg dosis única)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Desde los 2 años (en menores, valorar).",
+      "titulacion": "No se titula.",
+      "duracion": "1-3 días.",
+      "fin": "Repetir a las 2 semanas en oxiuros.",
+      "via": "VO, masticable.",
+      "monitorizacion": "No precisa."
+    },
+    "farmacocinetica": {
+      "absorcion": "**<10%** (aumenta con comida grasa).",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "Hepático de la fracción absorbida.",
+      "eliminacion": "Fecal.",
+      "vida_media": "3-6 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa a dosis habituales.",
+      "interacciones": [
+        {
+          "con": "Metronidazol",
+          "efecto": "Riesgo de Stevens-Johnson (casos descritos)",
+          "gravedad": "media",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal leve",
+        "Diarrea"
+      ],
+      "graves": [
+        "Neutropenia y hepatitis con dosis altas prolongadas (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Primer trimestre del embarazo"
+    ],
+    "perlas": [
+      "Oxiuros: el fracaso suele deberse a no tratar a los convivientes o a no repetir la dosis."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre.",
+    "micro_relacionado": [
+      "PAR-ascaris-lumbricoides",
+      "PAR-enterobius-vermicularis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 53"
+  },
+  {
+    "id": "INF-rifaximina",
+    "nombre": "Rifaximina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antibiótico de acción intestinal no absorbible",
+    "subclase": "Rifamicina no absorbible",
+    "vs_clase": [
+      "**Rifamicina NO absorbible (<1%)**: sin toxicidad sistémica ni las interacciones de la rifampicina.",
+      "**De elección, añadida a lactulosa, en la prevención de la ENCEFALOPATÍA HEPÁTICA recurrente** (550 mg/12 h).",
+      "También en la **diarrea del viajero no invasiva** y el **SIBO**."
+    ],
+    "mecanismo": "Inhibe la ARN polimerasa bacteriana en la luz intestinal: reduce las bacterias productoras de amonio.",
+    "espectro": "Actividad intraluminal frente a gramnegativos y grampositivos aerobios y anaerobios entéricos. NO útil frente a patógenos invasivos (Shigella, Campylobacter invasivo, Salmonella).",
+    "indicaciones": [
+      {
+        "patologia": "Prevención de recurrencias de encefalopatía hepática",
+        "dosis": "550 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Indefinida, con lactulosa"
+      },
+      {
+        "patologia": "Diarrea del viajero no disentérica",
+        "dosis": "200 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "3 días"
+      },
+      {
+        "patologia": "Sobrecrecimiento bacteriano del intestino delgado",
+        "dosis": "400-550 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras el primer episodio recurrente de encefalopatía.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida en encefalopatía.",
+      "fin": "Según evolución.",
+      "via": "VO.",
+      "monitorizacion": "Episodios de encefalopatía."
+    },
+    "farmacocinetica": {
+      "absorcion": "**<1%.**",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa (más absorción en Child C, sin relevancia clínica clara).",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Cambios del INR descritos",
+          "gravedad": "baja",
+          "manejo": "Control de INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, flatulencia",
+        "Edemas"
+      ],
+      "graves": [
+        "Colitis por C. difficile (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal",
+      "Hipersensibilidad a rifamicinas"
+    ],
+    "perlas": [
+      "La rifaximina no colorea la orina ni induce enzimas: no confundir con la rifampicina."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 47 y 62; Harrison 20.ª ed., cap. de cirrosis"
+  },
+  {
+    "id": "INF-fidaxomicina",
+    "nombre": "Fidaxomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antibiótico de acción intestinal no absorbible",
+    "subclase": "Macrocíclico de espectro estrecho anti-C. difficile",
+    "vs_clase": [
+      "**Tratamiento de ELECCIÓN de la infección por Clostridioides difficile** (primer episodio y recurrencias).",
+      "**Menos recurrencias que la vancomicina oral** porque respeta la flora (espectro muy estrecho) e inhibe la esporulación.",
+      "**Apenas se absorbe** y es cara."
+    ],
+    "mecanismo": "Inhibe la ARN polimerasa bacteriana (en un sitio distinto al de las rifamicinas); bactericida frente a C. difficile e inhibe la producción de toxinas y esporas.",
+    "espectro": "Cubre: Clostridioides difficile. Mínima actividad frente a Bacteroides y otras bacterias de la flora normal.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por Clostridioides difficile (primer episodio o recurrencia)",
+        "dosis": "200 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "10 días (pauta extendida en recurrencias: 200 mg/12 h 5 días y luego a días alternos)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Suspender el antibiótico desencadenante e IBP innecesarios.",
+      "titulacion": "No se titula.",
+      "duracion": "10 días.",
+      "fin": "No repetir la prueba de curación.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica; recurrencias en 8 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Mínima.**",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "Hidrólisis a metabolito activo.",
+      "eliminacion": "Fecal.",
+      "vida_media": "8-10 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes de la P-gp (ciclosporina)",
+          "efecto": "Aumento de la exposición (sin relevancia clara)",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos",
+        "Dolor abdominal"
+      ],
+      "graves": [
+        "Hemorragia digestiva (rara)",
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Preferirla sobre vancomicina sobre todo si hay alto riesgo de recurrencia (>65 años, inmunodepresión, antibióticos continuados)."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "ANA-clostridioides-difficile"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de C. difficile; guía IDSA/SHEA 2021"
+  },
+  {
+    "id": "INF-neomicina",
+    "nombre": "Neomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antibiótico de acción intestinal no absorbible",
+    "subclase": "Aminoglucósido oral no absorbible",
+    "vs_clase": [
+      "**Aminoglucósido ORAL de acción intestinal**: preparación del colon antes de cirugía (con eritromicina o metronidazol) y, antiguamente, encefalopatía hepática.",
+      "**Si se absorbe (mucosa dañada, ERC) es NEFRO y OTOTÓXICO**: desplazada por la rifaximina en la encefalopatía.",
+      "Muy usada en **preparados tópicos** (dermatitis de contacto frecuente)."
+    ],
+    "mecanismo": "Unión a la subunidad 30S ribosómica de las bacterias intestinales.",
+    "espectro": "Gramnegativos entéricos aerobios en la luz intestinal. NO cubre anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Preparación intestinal para cirugía colorrectal",
+        "dosis": "1 g",
+        "posologia": "3 dosis el día previo (13, 14 y 23 h)",
+        "via": "VO",
+        "nota": "Con metronidazol o eritromicina oral"
+      }
+    ],
+    "esquema": {
+      "inicio": "El día previo a la cirugía.",
+      "titulacion": "No se titula.",
+      "duracion": "1 día.",
+      "fin": "Dosis únicas.",
+      "via": "VO.",
+      "monitorizacion": "Función renal si uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "3% (más con mucosa inflamada).",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Fecal (renal la fracción absorbida).",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Evitar en ERC (acumulación de lo absorbido).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Nefrotóxicos y ototóxicos",
+          "efecto": "Toxicidad aditiva",
+          "gravedad": "media",
+          "manejo": "Evitar uso prolongado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, náuseas",
+        "Dermatitis de contacto (tópica)"
+      ],
+      "graves": [
+        "Nefro y ototoxicidad si se absorbe",
+        "Malabsorción con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal",
+      "Enfermedad inflamatoria intestinal activa",
+      "ERC avanzada"
+    ],
+    "perlas": [
+      "En encefalopatía hepática, la rifaximina la ha sustituido por seguridad."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 45"
+  }
+]
