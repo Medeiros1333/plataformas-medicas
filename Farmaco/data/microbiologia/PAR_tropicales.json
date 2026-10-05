@@ -1,0 +1,131 @@
+[
+  {
+    "id": "PAR-trypanosoma-cruzi",
+    "nombre": "Trypanosoma cruzi (enfermedad de Chagas)",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "PROTOZOO flagelado hemático e intracelular, transmitido por las heces de chinches triatominos (vinchuca, barbeiro); también por vía congénita, transfusional, trasplante de órganos y oral (alimentos contaminados)",
+    "morfologia_tincion": "En sangre, TRIPOMASTIGOTE flagelado en forma de «C» o «S» con un CINETOPLASTO grande y posterior (visible con Giemsa en la fase aguda). En los tejidos (miocardio, músculo liso digestivo) se multiplica como AMASTIGOTE intracelular formando pseudoquistes.",
+    "mecanismo_patogenia": [
+      "El triatomino defeca al picar; los tripomastigotes de las heces penetran por la herida o las mucosas (conjuntiva: signo de Romaña) e invaden células, donde se transforman en amastigotes y se multiplican.",
+      "La fase aguda (semanas) cursa con parasitemia alta; después el sistema inmunitario controla la parasitemia pero el parásito persiste en los tejidos (fase crónica).",
+      "Décadas después, un 30% desarrolla lesiones por inflamación crónica y daño autonómico: MIOCARDIOPATÍA (fibrosis, aneurisma apical, trastornos de conducción) y megavísceras digestivas (megaesófago, megacolon) por destrucción de los plexos nerviosos.",
+      "La inmunosupresión (VIH, trasplante) puede reactivar la infección con miocarditis o meningoencefalitis."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Chagas agudo",
+        "clinica": "Fiebre, malestar, chagoma de inoculación o edema palpebral unilateral indoloro (signo de Romaña), adenopatías, hepatoesplenomegalia; raramente miocarditis o meningoencefalitis.",
+        "lesiones": "Parasitemia elevada; miocarditis aguda en casos graves.",
+        "clave": "La mayoría de las infecciones agudas pasa inadvertida."
+      },
+      {
+        "cuadro": "Miocardiopatía chagásica crónica",
+        "clinica": "Insuficiencia cardiaca, arritmias ventriculares, BLOQUEO DE RAMA DERECHA con hemibloqueo anterior izquierdo, tromboembolias y muerte súbita.",
+        "lesiones": "Fibrosis miocárdica, aneurisma apical del ventrículo izquierdo.",
+        "clave": "Bloqueo de rama derecha + hemibloqueo anterior en una persona de zona endémica: Chagas hasta demostrar lo contrario."
+      },
+      {
+        "cuadro": "Forma digestiva crónica",
+        "clinica": "Disfagia y regurgitación (megaesófago), estreñimiento crónico grave (megacolon).",
+        "lesiones": "Destrucción de los plexos mientérico y submucoso.",
+        "clave": "Simula una acalasia."
+      },
+      {
+        "cuadro": "Chagas congénito",
+        "clinica": "Mayoría asintomáticos; prematuridad, hepatoesplenomegalia, anemia, meningoencefalitis.",
+        "lesiones": "Transmisión transplacentaria (1-5% de las madres infectadas).",
+        "clave": "Cribado serológico en gestantes procedentes de zonas endémicas y en sus hijos."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Endémica en América Latina continental; por las migraciones se diagnostica en todo el mundo (transmisión congénita, transfusional y por trasplante).",
+      "Fase aguda: diagnóstico PARASITOLÓGICO (sangre); fase crónica: SEROLÓGICO (dos técnicas distintas positivas).",
+      "El tratamiento con benznidazol o nifurtimox cura casi todas las formas agudas y congénitas; en la crónica se ofrece a niños, mujeres en edad fértil y adultos sin miocardiopatía avanzada.",
+      "La miocardiopatía chagásica tiene peor pronóstico que otras miocardiopatías dilatadas."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre (gota gruesa, microhematocrito, PCR) en la fase aguda y el congénito; suero en la fase crónica.",
+      "pruebas": [
+        "Visualización de tripomastigotes en sangre fresca o gota gruesa (fase aguda)",
+        "PCR en sangre: diagnóstico congénito y de reactivación, seguimiento",
+        "Serología: DOS técnicas de principio diferente (ELISA, IFI, quimioluminiscencia) para la fase crónica",
+        "ECG y ecocardiograma en todo paciente seropositivo"
+      ],
+      "claves": "En el recién nacido, los anticuerpos maternos persisten hasta los 8-12 meses: diagnóstico con PCR o microhematocrito al nacer y serología a los 9-12 meses."
+    },
+    "tratamiento": {
+      "eleccion": "BENZNIDAZOL 5-7 mg/kg/día en 2 tomas durante 60 días.",
+      "alternativas": "NIFURTIMOX 8-10 mg/kg/día (adultos) en 3 tomas durante 60-90 días.",
+      "resistencias": "No hay resistencia clínica definida; la eficacia disminuye en la fase crónica avanzada.",
+      "duracion": "60 días (benznidazol) o 60-90 días (nifurtimox).",
+      "notas": "Contraindicados en el embarazo: tratar a la mujer antes de la gestación. Tratamiento de la miocardiopatía (IC, antiarrítmicos, marcapasos, DAI, anticoagulación) como en otras causas."
+    },
+    "farmacos_relacionados": [
+      "INF-benznidazol",
+      "INF-nifurtimox"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad de Chagas; Murray 9.ª ed., cap. de protozoos sanguíneos y tisulares"
+  },
+  {
+    "id": "PAR-schistosoma",
+    "nombre": "Schistosoma (mansoni, haematobium, japonicum)",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "PLATELMINTO TREMATODO de sexos separados que vive en las venas mesentéricas o vesicales; se adquiere por contacto de la piel con agua dulce que contiene cercarias liberadas por caracoles",
+    "morfologia_tincion": "Huevos característicos en heces u orina: S. mansoni con ESPOLÓN LATERAL; S. haematobium con ESPOLÓN TERMINAL; S. japonicum pequeño, con espolón rudimentario.",
+    "mecanismo_patogenia": [
+      "Las cercarias atraviesan la piel intacta (dermatitis del nadador), migran por los pulmones y maduran en el sistema porta.",
+      "Los gusanos adultos viven años en las venas mesentéricas (S. mansoni, S. japonicum) o del plexo vesical (S. haematobium) y ponen huevos.",
+      "El DAÑO lo producen los HUEVOS retenidos en los tejidos, que inducen GRANULOMAS y fibrosis: fibrosis periportal (en «tallo de pipa») con hipertensión portal presinusoidal, o fibrosis y calcificación de la vejiga y los uréteres.",
+      "S. haematobium se asocia a CARCINOMA EPIDERMOIDE de vejiga y a esquistosomiasis genital femenina (aumenta el riesgo de VIH)."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Fiebre de Katayama (esquistosomiasis aguda)",
+        "clinica": "2-8 semanas tras el baño en agua dulce: fiebre, urticaria, tos seca, diarrea, hepatoesplenomegalia y EOSINOFILIA marcada.",
+        "lesiones": "Reacción de hipersensibilidad a la migración de esquistosómulos y a la primera puesta de huevos.",
+        "clave": "Viajero con fiebre y eosinofilia tras bañarse en un lago africano."
+      },
+      {
+        "cuadro": "Esquistosomiasis intestinal y hepatoesplénica",
+        "clinica": "Dolor abdominal, diarrea con sangre, hepatoesplenomegalia y, años después, HIPERTENSIÓN PORTAL con varices y función hepática conservada.",
+        "lesiones": "Fibrosis periportal de Symmers.",
+        "clave": "Hemorragia por varices con función hepática normal en un paciente de zona endémica."
+      },
+      {
+        "cuadro": "Esquistosomiasis urogenital (S. haematobium)",
+        "clinica": "HEMATURIA TERMINAL, disuria, uropatía obstructiva, calcificación vesical; lesiones genitales.",
+        "lesiones": "Granulomas y fibrosis de la pared vesical; riesgo de carcinoma epidermoide.",
+        "clave": "Hematuria en un adolescente o joven procedente de África."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Afecta a más de 200 millones de personas, sobre todo en África subsahariana; también en Oriente Medio, Brasil, Venezuela, el Caribe y Asia (S. japonicum).",
+      "La lesión la producen los huevos, no los gusanos adultos.",
+      "El PRAZIQUANTEL es eficaz frente a todas las especies, pero no mata los esquistosómulos inmaduros: repetir a las 6-12 semanas en infecciones recientes.",
+      "La eosinofilia es el hallazgo analítico más orientativo en el viajero."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (S. mansoni, S. japonicum), orina de mediodía tras ejercicio (S. haematobium), biopsia rectal o vesical, suero.",
+      "pruebas": [
+        "Visualización de HUEVOS en heces (Kato-Katz) u orina filtrada",
+        "Serología: útil en viajeros (positiva semanas después de la exposición)",
+        "Antígeno circulante catódico (CCA) en orina",
+        "Ecografía: fibrosis periportal, engrosamiento y calcificación vesical"
+      ],
+      "claves": "En la fase aguda aún no hay huevos: diagnóstico clínico-epidemiológico y serología."
+    },
+    "tratamiento": {
+      "eleccion": "PRAZIQUANTEL 40 mg/kg en 1-2 tomas en un día (60 mg/kg en S. japonicum).",
+      "alternativas": "Oxamniquina (solo S. mansoni). En la fiebre de Katayama: corticoides y praziquantel diferido o repetido.",
+      "resistencias": "Disminución de la sensibilidad descrita en zonas de uso masivo, sin resistencia clínica generalizada.",
+      "duracion": "Un día; repetir a las 6-12 semanas en infecciones recientes (viajeros).",
+      "notas": "Programas de administración masiva de praziquantel en escolares de zonas endémicas (OMS). Evitar el baño en agua dulce en zonas endémicas."
+    },
+    "farmacos_relacionados": [
+      "INF-praziquantel"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de esquistosomiasis y otras trematodosis; Murray 9.ª ed., cap. de trematodos"
+  }
+]

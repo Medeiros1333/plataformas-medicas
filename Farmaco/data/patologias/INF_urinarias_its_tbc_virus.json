@@ -341,6 +341,46 @@
             "nota": "Alternativa"
           }
         ]
+      },
+      {
+        "titulo": "Sífilis en el embarazo",
+        "nota": "Cribado serológico en la primera visita (y en el tercer trimestre y el parto si hay riesgo). La penicilina es el ÚNICO tratamiento que trata al feto: en alérgicas, desensibilización.",
+        "farmacos": [
+          {
+            "nombre": "Penicilina G benzatina (sífilis primaria, secundaria o latente precoz)",
+            "ref": "INF-penicilina-g-benzatina",
+            "dosis": "2.400.000 UI",
+            "via": "IM",
+            "intervalo": "Dosis única (muchas guías añaden una 2.ª dosis a la semana en el embarazo)",
+            "duracion": "1-2 dosis",
+            "nota": "Vigilar la reacción de Jarisch-Herxheimer (puede desencadenar contracciones)"
+          },
+          {
+            "nombre": "Penicilina G benzatina (latente tardía o de duración desconocida)",
+            "ref": "INF-penicilina-g-benzatina",
+            "dosis": "2.400.000 UI",
+            "via": "IM",
+            "intervalo": "Una vez por semana",
+            "duracion": "3 semanas (3 dosis)",
+            "nota": "Si se retrasa una dosis más de 9 días, reiniciar la pauta"
+          }
+        ]
+      },
+      {
+        "titulo": "Sífilis congénita (recién nacido)",
+        "poblacion": "Pediatría (neonato)",
+        "farmacos": [
+          {
+            "nombre": "Penicilina G sódica (cristalina)",
+            "ref": "INF-penicilina-g-sodica",
+            "dosis": "50.000 UI/kg/dosis",
+            "via": "IV",
+            "intervalo": "Cada 12 h los primeros 7 días de vida; después cada 8 h",
+            "duracion": "10 días",
+            "otra_poblacion": true,
+            "nota": "Neonatología; estudio de LCR, radiografía de huesos largos y oftalmología"
+          }
+        ]
       }
     ],
     "no_farmacologico": [

@@ -5,7 +5,7 @@
 
 ---
 
-## A. Cobertura de patologías de atención primaria y urgencias (88 → ~150)
+## A. Cobertura de patologías de atención primaria y urgencias (88 → 154) ✅
 
 Cada patología sigue el esquema de `data/patologias/` (escenarios con dosis, vía, intervalo y duración; `ref` a la ficha). Todo fármaco nuevo que haga falta se escribe como ficha **y respeta la regla de ≥3 fármacos individuales por clase** (o `clase_unica` justificada).
 
@@ -51,3 +51,6 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | Fecha | Lote | Estado |
 |---|---|---|
 | 2026-10-05 | Plan creado | ✅ |
+| 2026-10-05 | A1-A3: urgencias, cardiovascular, digestivo, locomotor y neurología (28 patologías, 38 fichas) | ✅ |
+| 2026-10-05 | A4-A7: nefrourología, mujer y embarazo, respiratorio-ORL-ojo, piel (34 patologías, 52 fichas) | ✅ |
+| 2026-10-05 | A8-A10: metabolismo y hábitos, infecciones (incluidas tropicales), deuda `sin_ficha` (12 patologías, 17 fichas, 2 patógenos); 0 filas `sin_ficha` | ✅ |

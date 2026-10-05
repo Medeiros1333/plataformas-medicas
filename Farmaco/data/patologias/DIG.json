@@ -678,6 +678,56 @@
             "nota": "Cribado de TBC y VHB"
           }
         ]
+      },
+      {
+        "titulo": "Moderada-grave corticodependiente o refractaria (mantenimiento avanzado)",
+        "farmacos": [
+          {
+            "nombre": "Vedolizumab",
+            "ref": "DIG-vedolizumab",
+            "dosis": "300 mg",
+            "via": "IV",
+            "intervalo": "Semanas 0, 2 y 6; después cada 8 semanas",
+            "duracion": "Indefinida si responde",
+            "nota": "Intestino-selectivo"
+          },
+          {
+            "nombre": "Ustekinumab",
+            "ref": "INM-ustekinumab",
+            "dosis": "~6 mg/kg IV; después 90 mg SC",
+            "via": "IV y SC",
+            "intervalo": "Dosis IV única; después cada 8 semanas",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Guselkumab",
+            "ref": "INM-guselkumab",
+            "dosis": "200 mg IV; después 100-200 mg SC",
+            "via": "IV y SC",
+            "intervalo": "IV semanas 0, 4 y 8; después SC cada 4-8 semanas",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Upadacitinib",
+            "ref": "REU-upadacitinib",
+            "dosis": "45 mg en inducción; 15-30 mg en mantenimiento",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Inducción 8 semanas; después mantenimiento",
+            "nota": "Alternativa oral; advertencias de clase de los JAK"
+          },
+          {
+            "nombre": "Tofacitinib",
+            "ref": "REU-tofacitinib",
+            "dosis": "10 mg en inducción; 5 mg en mantenimiento",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Inducción 8 semanas",
+            "nota": "Alternativa"
+          }
+        ]
       }
     ],
     "no_farmacologico": [

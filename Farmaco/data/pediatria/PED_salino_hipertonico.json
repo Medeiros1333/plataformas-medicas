@@ -1,0 +1,93 @@
+[
+  {
+    "id": "PED-NML-salino-hipertonico-nebulizado",
+    "nombre": "Suero salino hipertónico nebulizado (pediatría)",
+    "sinonimos": [
+      "Suero salino al 3% nebulizado"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Solución nebulizada de la vía aérea",
+    "subclase": "Agente osmótico mucocinético",
+    "mecanismo": "Por efecto osmótico atrae agua a la superficie de la vía aérea: rehidrata el moco, reduce el edema de la pared y mejora el aclaramiento mucociliar.",
+    "espectro": null,
+    "dosis_pediatrica_base": "4 mL de suero salino al 3% por nebulización (dosis FIJA por nebulización, no ponderal)",
+    "dosis_maxima": "Cada 6-8 h (hasta cada 4 h en algunos protocolos); no más de 4 mL por dosis",
+    "presentaciones": [
+      "Viales o ampollas de suero salino al 3% (también al 7% en fibrosis quística)"
+    ],
+    "edad_minima": "Lactantes (bronquiolitis desde el primer mes)",
+    "franjas_edad": [
+      {
+        "franja": "Lactante <12-24 meses con bronquiolitis",
+        "ajuste": "4 mL al 3% cada 6-8 h, solo en el ingresado"
+      },
+      {
+        "franja": "Niño con fibrosis quística (≥6 años)",
+        "ajuste": "4 mL al 7% cada 12 h, tras broncodilatador"
+      }
+    ],
+    "peculiaridad_pediatrica": "Su papel en la **bronquiolitis es limitado**: puede **acortar la estancia hospitalaria** cuando el ingreso previsto supera los 3 días, pero **no está indicado en urgencias ni en el manejo ambulatorio**. Puede producir **broncoespasmo** (precedido de salbutamol si el niño tiene sibilancias). En la **fibrosis quística** se usa al 7% como mucocinético de mantenimiento.",
+    "indicaciones": [
+      {
+        "patologia": "Bronquiolitis aguda en lactante HOSPITALIZADO",
+        "dosis": "4 mL al 3%",
+        "posologia": "Cada 6-8 h",
+        "via": "nebulizada",
+        "nota": "Con o sin salbutamol previo; suspender si empeora o no hay beneficio"
+      },
+      {
+        "patologia": "Fibrosis quística (aclaramiento mucociliar)",
+        "dosis": "4 mL al 7%",
+        "posologia": "Cada 12 h",
+        "via": "nebulizada",
+        "nota": "Precedido de broncodilatador"
+      }
+    ],
+    "esquema": {
+      "inicio": "Solo en el lactante ingresado.",
+      "titulacion": "—",
+      "duracion": "Mientras esté ingresado y aporte beneficio.",
+      "fin": "—",
+      "via": "Nebulización con mascarilla (oxígeno o aire a 6-8 L/min).",
+      "monitorizacion": "Saturación, trabajo respiratorio, broncoespasmo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Salbutamol nebulizado",
+          "efecto": "Previene el broncoespasmo inducido por el hipertónico",
+          "gravedad": "baja",
+          "manejo": "Combinación habitual"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Tos, irritación",
+        "Agitación durante la nebulización"
+      ],
+      "graves": [
+        "**Broncoespasmo**"
+      ]
+    },
+    "contraindicaciones": [
+      "Broncoespasmo grave previo con el hipertónico"
+    ],
+    "perlas": [
+      "La base de la bronquiolitis es el soporte: lavados nasales, fraccionar tomas, oxígeno si SatO2 <90-92% y alto flujo si empeora; broncodilatadores, corticoides y antibióticos no están indicados de rutina."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [
+      "VIR-virus-respiratorio-sincitial"
+    ],
+    "fuente": "Katzung 15.ª ed.; guías de bronquiolitis aguda (AAP, NICE)"
+  }
+]

@@ -186,6 +186,38 @@
             "nota": "Seropositiva; antecedente de linfoma"
           }
         ]
+      },
+      {
+        "titulo": "FAME sintéticos dirigidos (inhibidores de JAK)",
+        "nota": "Tras fracaso de metotrexato. En ≥65 años, fumadores o con riesgo cardiovascular o trombótico, solo si no hay alternativa (ORAL Surveillance).",
+        "farmacos": [
+          {
+            "nombre": "Upadacitinib",
+            "ref": "REU-upadacitinib",
+            "dosis": "15 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida si responde"
+          },
+          {
+            "nombre": "Baricitinib",
+            "ref": "REU-baricitinib",
+            "dosis": "4 mg (2 mg si ≥75 años o FG 30-60)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Tofacitinib",
+            "ref": "REU-tofacitinib",
+            "dosis": "5 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa"
+          }
+        ]
       }
     ],
     "no_farmacologico": [

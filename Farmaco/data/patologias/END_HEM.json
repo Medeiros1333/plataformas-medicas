@@ -299,11 +299,11 @@
         "farmacos": [
           {
             "nombre": "Glucosa oral (comprimidos, zumo)",
-            "sin_ficha": true,
             "dosis": "15-20 g",
             "via": "VO",
             "intervalo": "Repetir a los 15 min si persiste <70",
-            "duracion": "Hasta normalizar; después HC de absorción lenta"
+            "duracion": "Hasta normalizar; después HC de absorción lenta",
+            "ref": "END-glucosa-oral"
           },
           {
             "nombre": "Glucosa hipertónica",

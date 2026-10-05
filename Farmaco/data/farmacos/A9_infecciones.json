@@ -1,0 +1,646 @@
+[
+  {
+    "id": "INF-antimoniato-meglumina",
+    "nombre": "Antimoniato de meglumina",
+    "sinonimos": [
+      "Estibogluconato sódico",
+      "Antimoniales pentavalentes"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antileishmaniásico y antitripanosómico",
+    "subclase": "Antimonial pentavalente",
+    "vs_clase": [
+      "**Antimonial clásico** de la leishmaniasis; hoy sobre todo **INTRALESIONAL en la cutánea localizada** y sistémico en la **mucocutánea** americana.",
+      "**CARDIOTÓXICO**: **prolonga el QT** y produce arritmias → **ECG semanal**.",
+      "**Pancreatitis, hepatitis, artromialgias** y citopenias; **resistencia extendida en la India**."
+    ],
+    "mecanismo": "El antimonio pentavalente se reduce a trivalente en el amastigote e inhibe enzimas del metabolismo energético y la tripanotión reductasa.",
+    "espectro": "Cubre: Leishmania spp. (formas visceral, cutánea y mucocutánea), con resistencias geográficas.",
+    "indicaciones": [
+      {
+        "patologia": "Leishmaniasis cutánea localizada (pocas lesiones)",
+        "dosis": "1-3 mL infiltrados en la base y el borde de la lesión",
+        "posologia": "Cada 3-7 días",
+        "via": "intralesional (SC)",
+        "nota": "4-8 sesiones"
+      },
+      {
+        "patologia": "Leishmaniasis mucocutánea o cutánea complicada",
+        "dosis": "20 mg/kg/día de antimonio pentavalente (Sb⁵⁺)",
+        "posologia": "Cada 24 h",
+        "via": "IV o IM",
+        "nota": "20 días (cutánea) o 28-30 días (mucosa y visceral)"
+      }
+    ],
+    "esquema": {
+      "inicio": "**ECG basal**, amilasa/lipasa, transaminasas, creatinina, hemograma.",
+      "titulacion": "—",
+      "duracion": "20-30 días por vía sistémica.",
+      "fin": "Suspender si QTc >500 ms o arritmias.",
+      "via": "Intralesional, IM o IV lenta.",
+      "monitorizacion": "**ECG semanal**, enzimas pancreáticas y hepáticas, hemograma."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM o IV.",
+      "distribucion": "Tejidos.",
+      "metabolismo": "Reducción a Sb³⁺.",
+      "eliminacion": "**Renal** (rápida).",
+      "vida_media": "2 h (fase inicial); fase lenta de días.",
+      "ajuste_renal": "Evitar en insuficiencia renal.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT (amiodarona, macrólidos, quinolonas)",
+          "efecto": "Arritmias ventriculares",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Anfotericina B",
+          "efecto": "Cardiotoxicidad aditiva si se dan seguidos",
+          "gravedad": "media",
+          "manejo": "Separar ≥10 días"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Artromialgias**",
+        "Náuseas, anorexia",
+        "Dolor local (intralesional)"
+      ],
+      "graves": [
+        "**Prolongación del QT, arritmias**",
+        "**Pancreatitis**",
+        "Hepatitis, pancitopenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía o QT largo",
+      "Insuficiencia renal o hepática grave",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Leishmaniasis visceral: la anfotericina B liposomal ha desplazado a los antimoniales por su menor toxicidad."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [
+      "PAR-leishmania"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; Harrison 20.ª ed., cap. de leishmaniasis"
+  },
+  {
+    "id": "INF-miltefosina",
+    "nombre": "Miltefosina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antileishmaniásico y antitripanosómico",
+    "subclase": "Alquilfosfocolina oral",
+    "vs_clase": [
+      "**El ÚNICO antileishmaniásico ORAL**: visceral (sobre todo en Asia y África oriental), cutánea y mucocutánea.",
+      "**TERATÓGENO**: **anticoncepción eficaz durante el tratamiento y 5 meses después**.",
+      "**Vómitos y diarrea** muy frecuentes; también activa frente a **amebas de vida libre** (Naegleria, Acanthamoeba)."
+    ],
+    "mecanismo": "Altera la síntesis de fosfolípidos de la membrana y las vías de señalización del parásito, e induce su apoptosis.",
+    "espectro": "Cubre: Leishmania spp.; amebas de vida libre (Naegleria fowleri, Acanthamoeba, Balamuthia).",
+    "indicaciones": [
+      {
+        "patologia": "Leishmaniasis visceral, cutánea y mucocutánea",
+        "dosis": "2,5 mg/kg/día (30-44 kg: 50 mg cada 12 h; ≥45 kg: 50 mg cada 8 h)",
+        "posologia": "Cada 8-12 h con comida",
+        "via": "VO",
+        "nota": "28 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Test de embarazo y anticoncepción.",
+      "titulacion": "—",
+      "duracion": "28 días.",
+      "fin": "Anticoncepción 5 meses tras terminar.",
+      "via": "Oral, con comida.",
+      "monitorizacion": "Creatinina, transaminasas, plaquetas; síntomas digestivos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, buena.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Fosfolipasas.",
+      "eliminacion": "Muy lenta.",
+      "vida_media": "**150-200 h** (persiste semanas).",
+      "ajuste_renal": "Evitar en insuficiencia grave.",
+      "ajuste_hepatico": "Evitar en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Pérdida de eficacia si hay vómitos o diarrea",
+          "gravedad": "alta",
+          "manejo": "Añadir método de barrera"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Vómitos, diarrea**",
+        "Anorexia"
+      ],
+      "graves": [
+        "**Teratogenia**",
+        "Nefrotoxicidad, hepatotoxicidad",
+        "Síndrome de Stevens-Johnson (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Síndrome de Sjögren-Larsson"
+    ],
+    "perlas": [
+      "Mujer en edad fértil con leishmaniasis: test de embarazo antes y anticoncepción hasta 5 meses después."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [
+      "PAR-leishmania"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; Harrison 20.ª ed., cap. de leishmaniasis"
+  },
+  {
+    "id": "INF-benznidazol",
+    "nombre": "Benznidazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antileishmaniásico y antitripanosómico",
+    "subclase": "Nitroimidazol antitripanosómico",
+    "vs_clase": [
+      "**De ELECCIÓN en la enfermedad de CHAGAS** (Trypanosoma cruzi): fase aguda, congénita, niños y crónica sin cardiopatía avanzada.",
+      "**DERMATITIS alérgica (hasta 30%)** en las 2 primeras semanas; **neuropatía periférica** tardía; leucopenia.",
+      "**Más eficaz cuanto antes** (curación >90% en la forma aguda y congénita); en la crónica **previene la transmisión vertical**."
+    ],
+    "mecanismo": "Sus metabolitos nitrorreducidos generan radicales libres y dañan el ADN del parásito.",
+    "espectro": "Cubre: Trypanosoma cruzi (formas tripomastigote y amastigote).",
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Chagas",
+        "dosis": "5-7 mg/kg/día (máximo 300 mg/día)",
+        "posologia": "Repartido cada 12 h con comida",
+        "via": "VO",
+        "nota": "60 días; niños: 5-8 mg/kg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "Test de embarazo; hemograma y transaminasas basales.",
+      "titulacion": "—",
+      "duracion": "60 días.",
+      "fin": "Suspender si dermatitis grave, neuropatía o neutropenia.",
+      "via": "Oral.",
+      "monitorizacion": "**Hemograma y piel a las 2-3 semanas**; neuropatía."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, buena.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "12 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol",
+          "efecto": "Reacción tipo disulfiram",
+          "gravedad": "media",
+          "manejo": "Evitar alcohol"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dermatitis alérgica** (exantema pruriginoso)",
+        "Anorexia, pérdida de peso, náuseas"
+      ],
+      "graves": [
+        "**Neuropatía periférica**",
+        "**Leucopenia**, agranulocitosis",
+        "DRESS"
+      ]
+    },
+    "contraindicaciones": [
+      "**Embarazo**",
+      "Insuficiencia hepática o renal grave"
+    ],
+    "perlas": [
+      "Mujer en edad fértil con Chagas: tratarla antes del embarazo evita la transmisión congénita."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [
+      "PAR-trypanosoma-cruzi"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; Harrison 20.ª ed., cap. de enfermedad de Chagas"
+  },
+  {
+    "id": "INF-nifurtimox",
+    "nombre": "Nifurtimox",
+    "sinonimos": [
+      "Nifurtimox-eflornitina (tripanosomiasis africana)"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antileishmaniásico y antitripanosómico",
+    "subclase": "Nitrofurano antitripanosómico",
+    "vs_clase": [
+      "**Alternativa al benznidazol en el CHAGAS** (intolerancia o fracaso); también en la **tripanosomiasis africana** combinado con eflornitina.",
+      "**Peor tolerado en adultos**: **anorexia y pérdida de peso**, náuseas, y efectos **neuropsiquiátricos** (insomnio, irritabilidad).",
+      "**Mejor tolerado en NIÑOS**, en quienes se usa con frecuencia."
+    ],
+    "mecanismo": "Genera radicales libres de oxígeno tóxicos para el tripanosoma.",
+    "espectro": "Cubre: Trypanosoma cruzi; Trypanosoma brucei gambiense (con eflornitina).",
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Chagas",
+        "dosis": "8-10 mg/kg/día (adultos); 10-20 mg/kg/día (niños)",
+        "posologia": "Repartido cada 8 h con comida",
+        "via": "VO",
+        "nota": "60-90 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Test de embarazo; peso basal.",
+      "titulacion": "—",
+      "duracion": "60-90 días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Peso, síntomas neuropsiquiátricos, hemograma."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático extenso.",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "3 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol",
+          "efecto": "Aumenta los efectos adversos",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Anorexia, pérdida de peso**",
+        "Náuseas, vómitos",
+        "Insomnio, irritabilidad"
+      ],
+      "graves": [
+        "Polineuropatía",
+        "Psicosis, convulsiones (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Antecedente de convulsiones o trastorno psiquiátrico grave (relativa)"
+    ],
+    "perlas": [
+      "Vigilar el peso semanalmente: la pérdida ponderal es la causa más frecuente de abandono."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [
+      "PAR-trypanosoma-cruzi"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; Harrison 20.ª ed., cap. de enfermedad de Chagas"
+  },
+  {
+    "id": "INF-dapsona",
+    "nombre": "Dapsona",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antimicobacteriano de segunda línea y antileproso",
+    "subclase": "Sulfona",
+    "vs_clase": [
+      "**Pilar de la poliquimioterapia de la LEPRA** (con rifampicina y clofazimina) y alternativa en la **profilaxis de Pneumocystis** en alérgicos a cotrimoxazol.",
+      "**Antiinflamatorio** neutrofílico: **dermatitis herpetiforme**, vasculitis cutánea, penfigoide.",
+      "**HEMÓLISIS (déficit de G6PD: medir antes)**, **METAHEMOGLOBINEMIA** (cianosis con SatO2 «falsamente» baja), agranulocitosis y **DRESS** (HLA-B*13:01)."
+    ],
+    "mecanismo": "Inhibe la dihidropteroato sintetasa bacteriana (síntesis de folato), como las sulfamidas; además inhibe la mieloperoxidasa de los neutrófilos.",
+    "espectro": "Cubre: Mycobacterium leprae, Pneumocystis jirovecii (con trimetoprim o como profilaxis), Toxoplasma (con pirimetamina).",
+    "indicaciones": [
+      {
+        "patologia": "Lepra (poliquimioterapia)",
+        "dosis": "100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "6 meses (paucibacilar) o 12 meses (multibacilar)"
+      },
+      {
+        "patologia": "Profilaxis de neumonía por Pneumocystis (alergia a cotrimoxazol)",
+        "dosis": "100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Mientras CD4 <200"
+      },
+      {
+        "patologia": "Dermatitis herpetiforme",
+        "dosis": "25-50 mg al inicio (hasta 100-200 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Junto a dieta sin gluten"
+      }
+    ],
+    "esquema": {
+      "inicio": "**G6PD**, hemograma y transaminasas basales.",
+      "titulacion": "Subir de forma gradual en indicaciones dermatológicas.",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "**Hemograma semanal el primer mes**, después mensual; metahemoglobina si hay cianosis o disnea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, completa.",
+      "distribucion": "Amplia (piel, músculo).",
+      "metabolismo": "Acetilación e hidroxilación (CYP2C9, 3A4; metabolito responsable de la hemólisis).",
+      "eliminacion": "Renal; circulación enterohepática.",
+      "vida_media": "28 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce sus niveles 7-10 veces (en la lepra se acepta)",
+          "gravedad": "baja",
+          "manejo": "Esperado en la pauta combinada"
+        },
+        {
+          "con": "Trimetoprim",
+          "efecto": "Aumento mutuo de niveles: más metahemoglobinemia",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hemólisis dosis-dependiente**",
+        "**Metahemoglobinemia**",
+        "Náuseas, cefalea"
+      ],
+      "graves": [
+        "**Agranulocitosis**",
+        "**Síndrome de hipersensibilidad (DRESS)**",
+        "Hepatitis, neuropatía motora"
+      ]
+    },
+    "contraindicaciones": [
+      "Déficit grave de G6PD",
+      "Anemia grave",
+      "Hipersensibilidad a sulfonas"
+    ],
+    "perlas": [
+      "Cianosis con pulsioximetría ~85% y PaO2 normal en un paciente con dapsona: metahemoglobinemia → azul de metileno si es sintomática."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (lepra); riesgo de hemólisis neonatal.",
+    "micro_relacionado": [
+      "HON-pneumocystis-jirovecii",
+      "MYC-mycobacterium-leprae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de lepra"
+  },
+  {
+    "id": "INF-clofazimina",
+    "nombre": "Clofazimina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antimicobacteriano de segunda línea y antileproso",
+    "subclase": "Riminofenazina",
+    "vs_clase": [
+      "**Tercer fármaco de la poliquimioterapia de la LEPRA** y parte de los esquemas de **tuberculosis multirresistente**.",
+      "**PIGMENTACIÓN rojo-parda de la piel**, la conjuntiva y los fluidos (reversible en meses-años): **la mayor causa de abandono**.",
+      "**Antiinflamatorio**: útil en el **eritema nudoso leproso**; **prolonga el QT** (sumado a bedaquilina)."
+    ],
+    "mecanismo": "Se une al ADN micobacteriano y genera especies reactivas de oxígeno; acción antiinflamatoria sobre neutrófilos.",
+    "espectro": "Cubre: Mycobacterium leprae, Mycobacterium tuberculosis (incluida multirresistente), Mycobacterium avium.",
+    "indicaciones": [
+      {
+        "patologia": "Lepra (poliquimioterapia)",
+        "dosis": "300 mg una vez al mes supervisada + 50 mg/día",
+        "posologia": "Mensual + cada 24 h con comida",
+        "via": "VO",
+        "nota": "6 meses (paucibacilar) o 12 meses (multibacilar)"
+      },
+      {
+        "patologia": "Tuberculosis multirresistente (pautas largas)",
+        "dosis": "100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Según esquema de la OMS"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECG basal; avisar de la pigmentación.",
+      "titulacion": "—",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "Oral, con comida.",
+      "monitorizacion": "QTc, dolor abdominal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, mejora con comida grasa.",
+      "distribucion": "**Muy lipófila: se acumula en grasa y macrófagos**.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Fecal y biliar (muy lenta).",
+      "vida_media": "~70 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Bedaquilina, delamanid, quinolonas",
+          "efecto": "Prolongación aditiva del QT",
+          "gravedad": "alta",
+          "manejo": "ECG seriados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hiperpigmentación rojo-parda** de piel y fluidos",
+        "Ictiosis, xerosis",
+        "Molestias digestivas"
+      ],
+      "graves": [
+        "**Enteropatía por depósito de cristales** (dolor abdominal, obstrucción) a dosis altas",
+        "Prolongación del QT"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo",
+      "Dolor abdominal persistente"
+    ],
+    "perlas": [
+      "Explicar antes de empezar que la piel cambiará de color: así no abandonan el tratamiento."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (pigmentación del recién nacido).",
+    "micro_relacionado": [
+      "MYC-mycobacterium-leprae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de lepra"
+  },
+  {
+    "id": "INF-bedaquilina",
+    "nombre": "Bedaquilina",
+    "sinonimos": [
+      "Pretomanid",
+      "Delamanid"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antimicobacteriano de segunda línea y antileproso",
+    "subclase": "Diarilquinolina",
+    "vs_clase": [
+      "**Pilar de la TUBERCULOSIS MULTIRRESISTENTE**: pautas orales cortas de **6 meses (BPaLM: bedaquilina, pretomanid, linezolid ± moxifloxacino)** recomendadas por la OMS.",
+      "**Mecanismo nuevo** (ATP sintasa): sin resistencia cruzada con los antituberculosos clásicos.",
+      "**PROLONGA el QT** (ECG seriados) y **hepatotóxica**; vida media terminal de meses."
+    ],
+    "mecanismo": "Inhibe la ATP sintasa micobacteriana y agota la energía del bacilo.",
+    "espectro": "Cubre: Mycobacterium tuberculosis (incluida multirresistente y extensamente resistente).",
+    "indicaciones": [
+      {
+        "patologia": "Tuberculosis multirresistente o resistente a rifampicina",
+        "dosis": "400 mg/día 2 semanas; después 200 mg 3 veces por semana",
+        "posologia": "Cada 24 h; después lunes, miércoles y viernes, con comida",
+        "via": "VO",
+        "nota": "24 semanas, en combinación (nunca en monoterapia)"
+      }
+    ],
+    "esquema": {
+      "inicio": "**ECG**, potasio, magnesio, calcio y transaminasas basales.",
+      "titulacion": "—",
+      "duracion": "24 semanas.",
+      "fin": "—",
+      "via": "Oral con comida.",
+      "monitorizacion": "**ECG a las 2, 12 y 24 semanas** (más si hay otros fármacos que alargan el QT); transaminasas mensuales."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral; se duplica con comida.",
+      "distribucion": "Amplia; se acumula en tejidos.",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal.",
+      "vida_media": "**5,5 meses** (terminal).",
+      "ajuste_renal": "No precisa (precaución si grave).",
+      "ajuste_hepatico": "Evitar en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Rifampicina, rifapentina, efavirenz (inductores de CYP3A4)",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Clofazimina, moxifloxacino, delamanid, macrólidos",
+          "efecto": "Prolongación aditiva del QT",
+          "gravedad": "alta",
+          "manejo": "ECG seriados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, artralgias, cefalea"
+      ],
+      "graves": [
+        "**Prolongación del QT**",
+        "**Hepatotoxicidad**"
+      ]
+    },
+    "contraindicaciones": [
+      "QTc >500 ms",
+      "Arritmias ventriculares"
+    ],
+    "perlas": [
+      "Tuberculosis resistente a rifampicina: ya no son necesarios 18-24 meses de inyectables; el estándar es un régimen oral de 6 meses."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (datos limitados).",
+    "micro_relacionado": [
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; recomendaciones de la OMS sobre tuberculosis farmacorresistente (2022)"
+  },
+  {
+    "id": "INF-remdesivir",
+    "nombre": "Remdesivir",
+    "sinonimos": [
+      "Molnupiravir"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Análogo de nucleótido frente al SARS-CoV-2",
+    "clase_unica": "Familia de uso clínico prácticamente limitado al remdesivir; el molnupiravir, con eficacia marginal y retirado en varias regiones, se recoge como sinónimo.",
+    "subclase": "Profármaco de análogo de adenosina (IV)",
+    "mecanismo": "Su trifosfato se incorpora al ARN viral y provoca la terminación diferida de la cadena por la ARN polimerasa dependiente de ARN.",
+    "espectro": "Cubre: SARS-CoV-2 (y otros coronavirus y virus ARN in vitro).",
+    "indicaciones": [
+      {
+        "patologia": "COVID-19 leve-moderada con alto riesgo de progresión (no hospitalizado)",
+        "dosis": "200 mg el día 1; 100 mg los días 2 y 3",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "En los 7 primeros días de síntomas; alternativa si nirmatrelvir no es posible por interacciones"
+      },
+      {
+        "patologia": "COVID-19 hospitalizado que requiere oxígeno de bajo flujo",
+        "dosis": "200 mg el día 1; después 100 mg",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Transaminasas y creatinina basales.",
+      "titulacion": "—",
+      "duracion": "3 días (ambulatorio) o 5 días (hospital).",
+      "fin": "Suspender si ALT >10 veces el límite superior.",
+      "via": "IV en 30-120 min.",
+      "monitorizacion": "Transaminasas, FC (bradicardia), reacciones a la infusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Amplia (metabolito activo intracelular).",
+      "metabolismo": "Esterasas y CYP3A4 (menor).",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "1 h (metabolito: 25 h).",
+      "ajuste_renal": "No precisa (el excipiente ciclodextrina se considera seguro incluso con FG bajo).",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Cloroquina, hidroxicloroquina",
+          "efecto": "Antagonizan su activación",
+          "gravedad": "media",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "**Aumento de transaminasas**"
+      ],
+      "graves": [
+        "Reacciones de hipersensibilidad a la infusión",
+        "Bradicardia sinusal"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "**Sin interacciones farmacológicas relevantes**: la opción en el paciente polimedicado al que no se puede dar nirmatrelvir/ritonavir."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (datos tranquilizadores).",
+    "micro_relacionado": [
+      "VIR-sars-cov-2"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de COVID-19"
+  }
+]

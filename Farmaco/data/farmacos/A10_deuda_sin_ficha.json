@@ -1,0 +1,289 @@
+[
+  {
+    "id": "END-glucosa-oral",
+    "nombre": "Glucosa oral (comprimidos, gel o bebida azucarada)",
+    "sinonimos": [
+      "Dextrosa oral"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Hidrato de carbono de absorción rápida",
+    "clase_unica": "No es una familia farmacológica: la glucosa oral es el sustrato de elección de la hipoglucemia con el paciente consciente; las alternativas parenterales (glucagón, glucosa IV) tienen fichas propias en sus clases.",
+    "subclase": "Monosacárido",
+    "mecanismo": "Se absorbe directamente en el intestino delgado sin necesidad de digestión y eleva la glucemia en 10-15 minutos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipoglucemia en paciente consciente que puede tragar (regla del 15)",
+        "dosis": "15-20 g de glucosa (3-4 comprimidos de 4-5 g, o 150-200 mL de zumo o refresco azucarado)",
+        "posologia": "Repetir si a los 15 min la glucemia sigue <70 mg/dL",
+        "via": "VO",
+        "nota": "Niños: 0,3 g/kg"
+      }
+    ],
+    "esquema": {
+      "inicio": "En cuanto se detecta la hipoglucemia.",
+      "titulacion": "Repetir cada 15 min hasta glucemia >70 mg/dL.",
+      "duracion": "Hasta la recuperación; después tomar hidratos de carbono de absorción lenta (o adelantar la comida).",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Glucemia a los 15 min."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida (10-15 min).",
+      "distribucion": "—",
+      "metabolismo": "Glucólisis.",
+      "eliminacion": "—",
+      "vida_media": "Efecto transitorio (≈1-2 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Acarbosa",
+          "efecto": "Impide la absorción de la sacarosa (azúcar común), no de la glucosa",
+          "gravedad": "media",
+          "manejo": "Con acarbosa usar GLUCOSA pura, no azúcar ni zumos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperglucemia de rebote si se sobrecorrige"
+      ],
+      "graves": [
+        "Aspiración si se da con el nivel de conciencia disminuido"
+      ]
+    },
+    "contraindicaciones": [
+      "Paciente inconsciente o que no puede tragar (usar glucagón o glucosa IV)"
+    ],
+    "perlas": [
+      "Hipoglucemia por sulfonilurea: puede recurrir durante horas; vigilar al menos 24 h."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de hipoglucemia"
+  },
+  {
+    "id": "INM-icatibant",
+    "nombre": "Icatibant",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Fármaco del angioedema hereditario",
+    "subclase": "Antagonista del receptor B2 de la bradicinina",
+    "vs_clase": [
+      "**Tratamiento de las CRISIS agudas** de angioedema hereditario, **SUBCUTÁNEO y autoadministrable** (jeringa precargada).",
+      "Bloquea el **receptor B2 de la bradicinina**, el mediador del angioedema hereditario (**no responde a adrenalina, antihistamínicos ni corticoides**).",
+      "**Reacción local** (dolor, eritema) casi constante y transitoria; puede repetirse cada 6 h (máximo 3 en 24 h)."
+    ],
+    "mecanismo": "Antagonista competitivo del receptor B2 de la bradicinina: revierte el aumento de permeabilidad vascular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis aguda de angioedema hereditario",
+        "dosis": "30 mg",
+        "posologia": "Dosis única; repetir a las 6 h si es necesario (máximo 3 dosis en 24 h)",
+        "via": "SC (abdominal)",
+        "nota": "Niños ≥2 años: 10-30 mg según peso"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible en la crisis.",
+      "titulacion": "—",
+      "duracion": "A demanda.",
+      "fin": "—",
+      "via": "Subcutánea lenta.",
+      "monitorizacion": "Vía aérea en crisis laríngeas (observación hospitalaria)."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, rápida (97%).",
+      "distribucion": "—",
+      "metabolismo": "Proteolítico.",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "1-2 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IECA",
+          "efecto": "Teórica atenuación del efecto antihipertensivo",
+          "gravedad": "baja",
+          "manejo": "Los IECA están contraindicados en el angioedema hereditario"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dolor, eritema y tumefacción en el lugar de inyección**"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Angioedema sin urticaria que no responde a adrenalina: pensar en angioedema por bradicinina (hereditario o por IECA)."
+    ],
+    "embarazo_lactancia": "Evitar (preferir inhibidor de C1 derivado del plasma).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 17; Harrison 20.ª ed., cap. de urticaria y angioedema"
+  },
+  {
+    "id": "INM-inhibidor-c1-esterasa",
+    "nombre": "Inhibidor de la C1 esterasa (derivado del plasma)",
+    "sinonimos": [
+      "Inhibidor de C1 recombinante (conestat alfa)"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Fármaco del angioedema hereditario",
+    "subclase": "Sustitución de la proteína deficitaria",
+    "vs_clase": [
+      "**SUSTITUYE la proteína que falta** (déficit de C1-inhibidor): sirve para las **crisis**, la **profilaxis a corto plazo** (cirugía, procedimientos dentales) y la **profilaxis a largo plazo**.",
+      "**De elección en el EMBARAZO y la lactancia.**",
+      "**Hemoderivado IV** (o SC en profilaxis); riesgo teórico de transmisión de agentes infecciosos y de trombosis a dosis altas."
+    ],
+    "mecanismo": "Restablece la regulación de las vías del complemento, de contacto (calicreína) y de la fibrinólisis, y frena la generación de bradicinina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis aguda de angioedema hereditario",
+        "dosis": "20 UI/kg (o 1000-1500 UI según preparado)",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Efecto en 30-60 min"
+      },
+      {
+        "patologia": "Profilaxis a corto plazo antes de cirugía o procedimiento dental",
+        "dosis": "1000 UI (o 20 UI/kg)",
+        "posologia": "1-6 h antes del procedimiento",
+        "via": "IV",
+        "nota": "—"
+      },
+      {
+        "patologia": "Profilaxis a largo plazo",
+        "dosis": "60 UI/kg (SC) o 1000 UI (IV)",
+        "posologia": "2 veces por semana (SC) o cada 3-4 días (IV)",
+        "via": "SC o IV",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "A demanda o continua (profilaxis).",
+      "fin": "—",
+      "via": "IV o SC.",
+      "monitorizacion": "Frecuencia de crisis, trombosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV o SC.",
+      "distribucion": "Plasmática.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "30-60 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, náuseas",
+        "Reacción local (SC)"
+      ],
+      "graves": [
+        "Trombosis a dosis altas",
+        "Reacciones alérgicas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Antes de una extracción dental en un paciente con angioedema hereditario: inhibidor de C1 1-6 h antes."
+    ],
+    "embarazo_lactancia": "De elección en el embarazo y la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de urticaria, angioedema y rinitis alérgica"
+  },
+  {
+    "id": "INM-lanadelumab",
+    "nombre": "Lanadelumab",
+    "sinonimos": [
+      "Berotralstat (inhibidor oral de la calicreína)"
+    ],
+    "area": "INM",
+    "nivel": 3,
+    "clase": "Fármaco del angioedema hereditario",
+    "subclase": "Anticuerpo monoclonal anti-calicreína plasmática",
+    "vs_clase": [
+      "**Solo PROFILAXIS a largo plazo** (no trata crisis): **reduce las crisis >85%**.",
+      "**Una inyección SC cada 2 semanas** (cada 4 si el paciente está libre de crisis).",
+      "El **berotralstat** es la alternativa **ORAL** diaria de la misma diana."
+    ],
+    "mecanismo": "Inhibe la calicreína plasmática y bloquea la producción de bradicinina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención de crisis de angioedema hereditario (≥12 años)",
+        "dosis": "300 mg",
+        "posologia": "Cada 2 semanas (cada 4 si sin crisis 6 meses)",
+        "via": "SC",
+        "nota": "Niños 2-11 años: 150 mg"
+      }
+    ],
+    "esquema": {
+      "inicio": "Pacientes con crisis frecuentes o graves.",
+      "titulacion": "Espaciar si control completo.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Subcutánea.",
+      "monitorizacion": "Diario de crisis."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "14 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción en el lugar de inyección",
+        "Infecciones respiratorias, cefalea"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "La profilaxis no exime de llevar siempre la medicación de rescate (icatibant o inhibidor de C1)."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de urticaria y angioedema"
+  }
+]

@@ -1,0 +1,421 @@
+[
+  {
+    "id": "PAT-pie-diabetico",
+    "nombre": "Pie diabético infectado",
+    "sinonimos": ["Úlcera de pie diabético infectada", "Osteomielitis del pie diabético"],
+    "area": "INF",
+    "resumen": "Diagnóstico **clínico** (≥2 de: tumefacción, induración, eritema >0,5 cm, dolor, calor, pus). Las úlceras **sin signos de infección no se tratan con antibióticos**. Clasificar (IWGDF/IDSA): **leve** (piel y subcutáneo, eritema <2 cm) → oral, cubrir S. aureus y estreptococos; **moderada** (más extensa o profunda) y **grave** (SIRS) → cobertura amplia (gramnegativos y anaerobios), IV. **Sondaje óseo y radiografía** para descartar osteomielitis. Cultivo de tejido profundo (no frotis superficial).",
+    "objetivo": "Controlar la infección, salvar la extremidad y cicatrizar la úlcera.",
+    "escenarios": [
+      {
+        "titulo": "Infección leve (ambulatoria)",
+        "farmacos": [
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "1-2 semanas" },
+          { "nombre": "Cefalexina", "ref": "INF-cefalexina", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "1-2 semanas", "nota": "Alternativa" },
+          { "nombre": "Cotrimoxazol (riesgo de SARM)", "ref": "INF-cotrimoxazol", "dosis": "160/800 mg (1-2 comprimidos)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "1-2 semanas", "nota": "Alternativa. Asociar amoxicilina si se quiere cubrir estreptococo" },
+          { "nombre": "Clindamicina (alergia a betalactámicos)", "ref": "INF-clindamicina", "dosis": "300-450 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "1-2 semanas", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Infección moderada-grave (hospitalaria)",
+        "farmacos": [
+          { "nombre": "Piperacilina-tazobactam", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6-8 h", "duracion": "2-4 semanas (partes blandas)" },
+          { "nombre": "Ertapenem", "ref": "INF-ertapenem", "dosis": "1 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "2-4 semanas", "nota": "Alternativa. No cubre Pseudomonas" },
+          { "nombre": "Vancomicina (añadida si hay riesgo de SARM)", "ref": "INF-vancomicina", "dosis": "15-20 mg/kg", "via": "IV", "intervalo": "Cada 8-12 h", "duracion": "Según cultivo", "nota": "Niveles valle 15-20 mg/L o AUC" },
+          { "nombre": "Linezolid (SARM, alternativa oral)", "ref": "INF-linezolid", "dosis": "600 mg", "via": "VO o IV", "intervalo": "Cada 12 h", "duracion": "≤4 semanas (mielotoxicidad)", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Osteomielitis del pie diabético",
+        "farmacos": [
+          { "nombre": "Antibiótico según cultivo óseo (p. ej., amoxicilina-clavulánico)", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "6 semanas (3 semanas tras resección completa del hueso)", "nota": "Tras biopsia ósea" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Desbridamiento quirúrgico de tejido necrótico y drenaje de abscesos (urgente si hay gas o síndrome compartimental)",
+      "Descarga de la presión (yeso de contacto total, calzado específico)",
+      "Valorar isquemia (ITB, presión en el dedo) y revascularizar si procede",
+      "Control glucémico estricto; educación en el cuidado diario de los pies"
+    ],
+    "claves": [
+      "**Úlcera no infectada = no antibiótico.**",
+      "**Sondaje óseo positivo (se palpa hueso) = osteomielitis hasta demostrar lo contrario.**"
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de diabetes (complicaciones) y de osteomielitis; guías IWGDF/IDSA de infección del pie diabético"
+  },
+  {
+    "id": "PAT-osteomielitis-artritis-septica",
+    "nombre": "Artritis séptica y osteomielitis",
+    "sinonimos": ["Artritis infecciosa", "Osteomielitis", "Espondilodiscitis"],
+    "area": "INF",
+    "resumen": "**Artritis séptica**: monoartritis aguda, dolorosa y febril (rodilla sobre todo) → **artrocentesis urgente** (leucocitos >50 000/µL, Gram y cultivo) **antes del antibiótico**, hemocultivos, y **drenaje articular**. Agente principal: **S. aureus**; gonococo en jóvenes sexualmente activos. **Osteomielitis** (hematógena, por contigüidad o vertebral): biopsia o hemocultivos positivos antes de tratar si el paciente está estable; tratamiento prolongado (6 semanas), con paso precoz a vía oral (de biodisponibilidad alta) cuando mejora.",
+    "objetivo": "Esterilizar la articulación o el hueso y preservar la función.",
+    "escenarios": [
+      {
+        "titulo": "Artritis séptica: tratamiento empírico",
+        "farmacos": [
+          { "nombre": "Cloxacilina", "ref": "INF-cloxacilina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 4-6 h", "duracion": "2 semanas IV (o menos con buena evolución) y completar 3-4 semanas", "nota": "Cubre S. aureus sensible y estreptococos" },
+          { "nombre": "Cefazolina", "ref": "INF-cefazolina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Igual que la anterior", "nota": "Alternativa" },
+          { "nombre": "Vancomicina (riesgo de SARM o alergia)", "ref": "INF-vancomicina", "dosis": "15-20 mg/kg", "via": "IV", "intervalo": "Cada 8-12 h", "duracion": "Según cultivo" },
+          { "nombre": "Ceftriaxona (gonococo, usuarios de drogas IV o riesgo de gramnegativos)", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "7-14 días (gonocócica)", "nota": "Asociada a la cobertura antiestafilocócica si no hay Gram" }
+        ]
+      },
+      {
+        "titulo": "Osteomielitis por S. aureus: tratamiento dirigido",
+        "farmacos": [
+          { "nombre": "Cloxacilina (S. aureus sensible a meticilina)", "ref": "INF-cloxacilina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 4 h", "duracion": "6 semanas en total" },
+          { "nombre": "Daptomicina (SARM)", "ref": "INF-daptomicina", "dosis": "6-8 mg/kg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "6 semanas", "nota": "CPK semanal" },
+          { "nombre": "Levofloxacino + rifampicina (paso a vía oral, material o biofilm)", "ref": "INF-levofloxacino", "dosis": "Levofloxacino 750 mg + rifampicina 600 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta completar 6 semanas (3 meses con prótesis)", "nota": "Rifampicina nunca en monoterapia" },
+          { "nombre": "Rifampicina (en combinación)", "ref": "INF-rifampicina", "dosis": "600 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual que el fármaco acompañante", "nota": "Interacciones múltiples (inductor potente)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavado articular (artrocentesis repetidas, artroscopia o artrotomía)",
+      "Desbridamiento quirúrgico en la osteomielitis crónica con secuestros",
+      "Movilización precoz tras el control del dolor"
+    ],
+    "claves": [
+      "**Monoartritis aguda febril = artrocentesis antes de cualquier antibiótico.**",
+      "Una gota o condrocalcinosis no descarta una artritis séptica concomitante: cultivar siempre."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de artritis infecciosa y de osteomielitis"
+  },
+  {
+    "id": "PAT-endocarditis-infecciosa",
+    "nombre": "Endocarditis infecciosa",
+    "sinonimos": ["Endocarditis", "Endocarditis bacteriana"],
+    "area": "INF",
+    "resumen": "Sospechar ante **fiebre + soplo nuevo**, embolias, o bacteriemia por S. aureus, estreptococos del grupo viridans o enterococo. **3 hemocultivos antes del antibiótico** y **ecocardiograma** (transesofágico si el transtorácico es negativo o hay prótesis). Criterios de Duke. Tratamiento IV prolongado (**4-6 semanas**) y valoración quirúrgica precoz (insuficiencia cardiaca, absceso, vegetación >10 mm con embolia, infección incontrolada). Profilaxis solo en pacientes de **alto riesgo** antes de procedimientos dentales con manipulación gingival.",
+    "objetivo": "Erradicar la infección y operar cuando está indicado.",
+    "escenarios": [
+      {
+        "titulo": "Empírico en válvula nativa (tras hemocultivos)",
+        "farmacos": [
+          { "nombre": "Vancomicina", "ref": "INF-vancomicina", "dosis": "15-20 mg/kg (carga 25-30 mg/kg si grave)", "via": "IV", "intervalo": "Cada 8-12 h", "duracion": "Hasta identificar el microorganismo", "nota": "Ajustar a niveles o AUC" },
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 12-24 h", "duracion": "Hasta identificar el microorganismo", "nota": "Junto a la vancomicina" },
+          { "nombre": "Ampicilina + cloxacilina + gentamicina (pauta alternativa)", "ref": "INF-ampicilina", "dosis": "Ampicilina 2 g + cloxacilina 2 g + gentamicina 3 mg/kg/día", "via": "IV", "intervalo": "Ampicilina y cloxacilina cada 4 h; gentamicina cada 24 h", "duracion": "Hasta identificar el microorganismo", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento dirigido",
+        "farmacos": [
+          { "nombre": "Cloxacilina (S. aureus sensible, válvula nativa)", "ref": "INF-cloxacilina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 4 h", "duracion": "4-6 semanas" },
+          { "nombre": "Daptomicina (SARM o alergia)", "ref": "INF-daptomicina", "dosis": "10 mg/kg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "6 semanas", "nota": "Alternativa a vancomicina; CPK semanal" },
+          { "nombre": "Penicilina G sódica (estreptococos sensibles)", "ref": "INF-penicilina-g-sodica", "dosis": "12.000.000-18.000.000 UI/día", "via": "IV", "intervalo": "Repartida cada 4 h o en perfusión continua", "duracion": "4 semanas (2 semanas + gentamicina en casos seleccionados)" },
+          { "nombre": "Ceftriaxona (estreptococos; paciente estable)", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "4 semanas", "nota": "Alternativa; permite tratamiento domiciliario" },
+          { "nombre": "Ampicilina + ceftriaxona (Enterococcus faecalis)", "ref": "INF-ampicilina", "dosis": "Ampicilina 2 g + ceftriaxona 2 g", "via": "IV", "intervalo": "Ampicilina cada 4 h; ceftriaxona cada 12 h", "duracion": "6 semanas", "nota": "Sin la nefrotoxicidad de la gentamicina" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis antes de procedimientos dentales (solo alto riesgo)",
+        "nota": "Prótesis valvular o material de reparación, endocarditis previa, cardiopatía congénita cianótica no corregida o reparada con material en los 6 meses previos.",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "INF-amoxicilina", "dosis": "2 g", "via": "VO", "intervalo": "Dosis única 30-60 min antes", "duracion": "1 dosis" },
+          { "nombre": "Azitromicina (alergia a penicilina)", "ref": "INF-azitromicina", "dosis": "500 mg", "via": "VO", "intervalo": "Dosis única 30-60 min antes", "duracion": "1 dosis", "nota": "Alternativa (o doxiciclina 100 mg)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Equipo multidisciplinar de endocarditis (cardiología, cirugía cardiaca, infecciosas)",
+      "Cirugía precoz si insuficiencia cardiaca, infección no controlada o alto riesgo embólico",
+      "Higiene dental; buscar la puerta de entrada (dental, digestiva en S. gallolyticus → colonoscopia)"
+    ],
+    "claves": [
+      "**Toda bacteriemia por S. aureus exige ecocardiograma.**",
+      "Streptococcus gallolyticus (bovis) en hemocultivos: colonoscopia (cáncer colorrectal)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de endocarditis infecciosa; Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "PAT-covid-19",
+    "nombre": "COVID-19",
+    "sinonimos": ["SARS-CoV-2", "Coronavirus"],
+    "area": "INF",
+    "resumen": "La mayoría de los casos son leves y solo necesitan tratamiento sintomático. **Antiviral precoz (≤5-7 días de síntomas)** en pacientes **con alto riesgo** de progresión (edad avanzada, inmunodepresión, comorbilidades, no vacunados): **nirmatrelvir/ritonavir** (revisar interacciones) o remdesivir 3 días. Hospitalizado con **oxígeno**: **dexametasona** (no si no necesita oxígeno), remdesivir y, si progresa, **baricitinib o tocilizumab**; tromboprofilaxis.",
+    "objetivo": "Evitar la hospitalización y la muerte en los pacientes de riesgo.",
+    "escenarios": [
+      {
+        "titulo": "Ambulatorio con alto riesgo de progresión",
+        "farmacos": [
+          { "nombre": "Nirmatrelvir/ritonavir", "ref": "INF-nirmatrelvir-ritonavir", "dosis": "300/100 mg (150/100 mg si FG 30-60)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5 días, en los 5 primeros días de síntomas", "nota": "Revisar interacciones (ritonavir inhibe CYP3A4): estatinas, anticoagulantes, antiarrítmicos, inmunosupresores" },
+          { "nombre": "Remdesivir", "ref": "INF-remdesivir", "dosis": "200 mg el día 1; 100 mg los días 2-3", "via": "IV", "intervalo": "Cada 24 h", "duracion": "3 días, en los 7 primeros días", "nota": "Alternativa si hay interacciones" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "A demanda" }
+        ]
+      },
+      {
+        "titulo": "Hospitalizado con necesidad de oxígeno",
+        "farmacos": [
+          { "nombre": "Dexametasona", "ref": "REU-dexametasona", "dosis": "6 mg", "via": "VO o IV", "intervalo": "Cada 24 h", "duracion": "Hasta 10 días o el alta", "nota": "Perjudicial si no necesita oxígeno" },
+          { "nombre": "Remdesivir", "ref": "INF-remdesivir", "dosis": "200 mg el día 1; después 100 mg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "5 días", "nota": "Más beneficio con oxígeno de bajo flujo" },
+          { "nombre": "Baricitinib (progresión o oxígeno de alto flujo)", "ref": "REU-baricitinib", "dosis": "4 mg (2 mg si FG 30-60)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta 14 días o el alta" },
+          { "nombre": "Tocilizumab (progresión con PCR elevada)", "ref": "INM-tocilizumab", "dosis": "8 mg/kg (máximo 800 mg)", "via": "IV", "intervalo": "Dosis única", "duracion": "1 dosis", "nota": "Alternativa al baricitinib; no combinar ambos" },
+          { "nombre": "Enoxaparina (tromboprofilaxis)", "ref": "HEM-enoxaparina", "dosis": "40 mg", "via": "SC", "intervalo": "Cada 24 h", "duracion": "Durante el ingreso" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pulsioximetría; oxígeno para SatO2 92-96%; prono despierto en la insuficiencia respiratoria",
+      "Vacunación de refuerzo en mayores y grupos de riesgo",
+      "Aislamiento según normas locales"
+    ],
+    "claves": [
+      "**Dexametasona solo si necesita oxígeno.**",
+      "**Antes de nirmatrelvir/ritonavir, revisar TODA la medicación** (y suspender temporalmente simvastatina, por ejemplo)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de COVID-19; guías de la OMS sobre tratamiento de la COVID-19"
+  },
+  {
+    "id": "PAT-dengue-arbovirosis",
+    "nombre": "Dengue y otras arbovirosis (chikungunya, zika)",
+    "sinonimos": ["Dengue", "Chikungunya", "Zika", "Arbovirus"],
+    "area": "INF",
+    "resumen": "Fiebre alta, cefalea retroocular, mialgias y exantema tras estancia en zona tropical o subtropical (mosquito Aedes). **No hay antiviral**: tratamiento de soporte. En el **dengue**, vigilar los **signos de alarma** al bajar la fiebre (días 3-7): dolor abdominal intenso, vómitos persistentes, acumulación de líquidos, sangrado mucoso, letargia, hepatomegalia, **hemoconcentración con caída de plaquetas** → ingreso y fluidoterapia. **Evitar AINE y AAS** hasta descartar dengue (riesgo hemorrágico). **Chikungunya**: artralgias intensas que pueden cronificarse. **Zika**: microcefalia en el embarazo.",
+    "objetivo": "Mantener la hidratación y detectar a tiempo el dengue grave.",
+    "escenarios": [
+      {
+        "titulo": "Dengue sin signos de alarma (ambulatorio)",
+        "farmacos": [
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "500 mg-1 g (máximo 3 g/día)", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Mientras haya fiebre", "nota": "NUNCA AINE ni AAS" },
+          { "nombre": "Sales de rehidratación oral", "ref": "PED-DIG-suero-rehidratacion-oral", "dosis": "2-3 L/día de líquidos (adulto)", "via": "VO", "intervalo": "Ingesta repartida", "duracion": "Hasta la recuperación", "otra_poblacion": true }
+        ]
+      },
+      {
+        "titulo": "Dengue con signos de alarma o grave",
+        "farmacos": [
+          { "nombre": "Cristaloide (Ringer lactato o salino 0,9%)", "ref": "NFR-ringer-lactato", "dosis": "5-7 mL/kg/h (bolos de 10-20 mL/kg en el shock)", "via": "IV", "intervalo": "Perfusión ajustada al hematocrito y la diuresis", "duracion": "24-48 h de la fase crítica, reduciendo progresivamente", "nota": "Evitar la sobrecarga en la fase de reabsorción" }
+        ]
+      },
+      {
+        "titulo": "Chikungunya (artralgias), tras descartar dengue",
+        "farmacos": [
+          { "nombre": "Ibuprofeno o naproxeno", "ref": "REU-naproxeno", "dosis": "500 mg (ibuprofeno 400-600 mg)", "via": "VO", "intervalo": "Cada 12 h (ibuprofeno cada 8 h)", "duracion": "Semanas según síntomas" },
+          { "nombre": "Prednisona (artritis subaguda persistente)", "ref": "REU-prednisona", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "≤4 semanas con descenso", "nota": "Metotrexato en la artritis crónica" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reposo, hidratación, mosquitera para evitar la transmisión a otros",
+      "Control diario de hematocrito y plaquetas en la fase crítica",
+      "Prevención: repelentes, ropa larga, eliminar agua estancada; vacuna del dengue según edad y serología previa",
+      "Embarazadas que han viajado a zona con zika: seguimiento ecográfico"
+    ],
+    "claves": [
+      "**La fase de más riesgo del dengue empieza cuando baja la fiebre.**",
+      "Fiebre en el viajero que vuelve del trópico: descartar siempre malaria primero."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por arbovirus; guías de la OMS de dengue"
+  },
+  {
+    "id": "PAT-leishmaniasis",
+    "nombre": "Leishmaniasis visceral y cutánea",
+    "sinonimos": ["Kala-azar", "Botón de Oriente", "Leishmaniasis mucocutánea"],
+    "area": "INF",
+    "resumen": "**Visceral** (kala-azar): fiebre prolongada, **esplenomegalia masiva**, pancitopenia e hipergammaglobulinemia; diagnóstico con aspirado de médula ósea, serología (rK39) o PCR. Tratamiento de elección: **anfotericina B liposomal**. **Cutánea**: úlcera crónica indolora de bordes elevados en zona expuesta; muchas curan solas, pero se tratan (localmente o sistémico según número, localización y especie). **Mucocutánea** (especies americanas): siempre sistémico.",
+    "objetivo": "Curación clínica y parasitológica, evitando la recaída y la afectación mucosa.",
+    "escenarios": [
+      {
+        "titulo": "Leishmaniasis visceral",
+        "farmacos": [
+          { "nombre": "Anfotericina B liposomal", "ref": "INF-anfotericina-b-liposomal", "dosis": "3 mg/kg/día (dosis total 18-21 mg/kg)", "via": "IV", "intervalo": "Días 1-5, 14 y 21", "duracion": "6-7 dosis", "nota": "En inmunodeprimidos, dosis total mayor (40 mg/kg) y profilaxis secundaria" },
+          { "nombre": "Miltefosina", "ref": "INF-miltefosina", "dosis": "2,5 mg/kg/día (50 mg cada 8-12 h)", "via": "VO", "intervalo": "Cada 8-12 h con comida", "duracion": "28 días", "nota": "Alternativa. Teratógena" },
+          { "nombre": "Antimoniato de meglumina", "ref": "INF-antimoniato-meglumina", "dosis": "20 mg Sb⁵⁺/kg/día", "via": "IV o IM", "intervalo": "Cada 24 h", "duracion": "28 días", "nota": "Alternativa. ECG semanal; resistencia en la India" }
+        ]
+      },
+      {
+        "titulo": "Leishmaniasis cutánea localizada (pocas lesiones, no en cara ni articulaciones)",
+        "farmacos": [
+          { "nombre": "Antimoniato de meglumina intralesional", "ref": "INF-antimoniato-meglumina", "dosis": "1-3 mL por lesión", "via": "intralesional (SC)", "intervalo": "Cada 3-7 días", "duracion": "4-8 sesiones", "nota": "Junto a crioterapia o termoterapia" }
+        ]
+      },
+      {
+        "titulo": "Leishmaniasis cutánea complicada o mucocutánea",
+        "farmacos": [
+          { "nombre": "Miltefosina", "ref": "INF-miltefosina", "dosis": "2,5 mg/kg/día", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "28 días" },
+          { "nombre": "Anfotericina B liposomal", "ref": "INF-anfotericina-b-liposomal", "dosis": "3 mg/kg/día", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Dosis total 20-40 mg/kg", "nota": "Alternativa" },
+          { "nombre": "Antimoniato de meglumina sistémico", "ref": "INF-antimoniato-meglumina", "dosis": "20 mg Sb⁵⁺/kg/día", "via": "IV o IM", "intervalo": "Cada 24 h", "duracion": "20 días (cutánea) o 28-30 (mucosa)", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Crioterapia o termoterapia en lesiones cutáneas pequeñas",
+      "Prevención: repelentes y mosquiteras finas frente a flebotomos; control del reservorio canino",
+      "Cribado de VIH en la leishmaniasis visceral del adulto"
+    ],
+    "claves": [
+      "**Fiebre prolongada + esplenomegalia masiva + pancitopenia: pensar en leishmaniasis visceral.**",
+      "En el paciente con VIH la serología puede ser negativa: PCR o médula ósea."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de leishmaniasis; Katzung 15.ª ed., cap. 52"
+  },
+  {
+    "id": "PAT-enfermedad-chagas",
+    "nombre": "Enfermedad de Chagas",
+    "sinonimos": ["Tripanosomiasis americana", "Chagas"],
+    "area": "INF",
+    "resumen": "Infección por **Trypanosoma cruzi**, endémica en América Latina pero diagnosticada en todo el mundo por las migraciones. Fase **aguda** (diagnóstico parasitológico) y **crónica** (diagnóstico con **2 serologías** distintas). Tratar con **benznidazol** (o nifurtimox): todas las formas agudas, congénitas, reactivaciones, niños, **mujeres en edad fértil** (evita la transmisión congénita) y adultos con forma crónica sin miocardiopatía avanzada. Evaluar con **ECG y ecocardiograma**.",
+    "objetivo": "Curar la infección y prevenir la miocardiopatía y la transmisión vertical.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento antiparasitario",
+        "farmacos": [
+          { "nombre": "Benznidazol", "ref": "INF-benznidazol", "dosis": "5-7 mg/kg/día (máximo 300 mg/día)", "via": "VO", "intervalo": "Cada 12 h con comida", "duracion": "60 días", "nota": "Hemograma y piel a las 2-3 semanas" },
+          { "nombre": "Nifurtimox", "ref": "INF-nifurtimox", "dosis": "8-10 mg/kg/día", "via": "VO", "intervalo": "Cada 8 h con comida", "duracion": "60-90 días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Miocardiopatía chagásica",
+        "farmacos": [
+          { "nombre": "Tratamiento de la insuficiencia cardiaca (p. ej., sacubitrilo/valsartán, betabloqueante, ARM, iSGLT2)", "ref": "CAR-carvedilol", "dosis": "3,125 mg titulando hasta 25 mg (carvedilol)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Crónica", "nota": "Igual que en otras miocardiopatías con FEVI reducida" },
+          { "nombre": "Amiodarona (arritmias ventriculares)", "ref": "CAR-amiodarona", "dosis": "200 mg (tras carga)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Crónica", "nota": "DAI si hay arritmias ventriculares sostenidas" },
+          { "nombre": "Anticoagulación (aneurisma con trombo, FA o embolia)", "ref": "HEM-warfarina", "dosis": "Dosis según INR objetivo 2-3", "dosis_objetivo": "INR 2-3", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Crónica" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cribado serológico de personas procedentes de zonas endémicas, gestantes, donantes de sangre y de órganos, y familiares de casos",
+      "Marcapasos en bloqueos avanzados; DAI en arritmias ventriculares malignas",
+      "Megaesófago y megacolon: dilatación o cirugía"
+    ],
+    "claves": [
+      "**Benznidazol y nifurtimox están contraindicados en el embarazo: tratar a la mujer antes.**",
+      "Bloqueo de rama derecha + hemibloqueo anterior izquierdo en persona de zona endémica: Chagas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad de Chagas; Katzung 15.ª ed., cap. 52"
+  },
+  {
+    "id": "PAT-esquistosomiasis",
+    "nombre": "Esquistosomiasis",
+    "sinonimos": ["Bilharziasis", "Fiebre de Katayama"],
+    "area": "INF",
+    "resumen": "Infección por **Schistosoma** tras el contacto con **agua dulce** de zonas endémicas (África sobre todo). **Aguda** (fiebre de Katayama, 2-8 semanas después): fiebre, urticaria, tos y **eosinofilia**. **Crónica**: intestinal y hepatoesplénica (hipertensión portal con función hepática conservada) o urogenital (**hematuria terminal**, riesgo de cáncer vesical). Tratamiento: **praziquantel**, que no mata las formas inmaduras → **repetir a las 6-12 semanas** en infecciones recientes.",
+    "objetivo": "Eliminar los gusanos adultos y prevenir la fibrosis.",
+    "escenarios": [
+      {
+        "titulo": "Esquistosomiasis establecida",
+        "farmacos": [
+          { "nombre": "Praziquantel", "ref": "INF-praziquantel", "dosis": "40 mg/kg (60 mg/kg en S. japonicum)", "via": "VO", "intervalo": "En 1-2 tomas el mismo día, con comida", "duracion": "1 día; repetir a las 6-12 semanas en viajeros" }
+        ]
+      },
+      {
+        "titulo": "Fiebre de Katayama",
+        "farmacos": [
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "20-40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5 días", "nota": "Praziquantel después, y repetido a las 6-12 semanas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar bañarse en agua dulce en zonas endémicas",
+      "Cribado (serología, huevos en heces u orina) en viajeros con exposición y en migrantes de zonas endémicas",
+      "Seguimiento de la hipertensión portal y de las lesiones vesicales"
+    ],
+    "claves": [
+      "**Eosinofilia + exposición a agua dulce africana = esquistosomiasis hasta demostrar lo contrario.**",
+      "Antes de tratar con praziquantel en zona de neurocisticercosis, descartarla (empeoramiento neurológico)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de esquistosomiasis; Katzung 15.ª ed., cap. 53"
+  },
+  {
+    "id": "PAT-lepra",
+    "nombre": "Lepra (enfermedad de Hansen)",
+    "sinonimos": ["Hanseniasis", "Enfermedad de Hansen"],
+    "area": "INF",
+    "resumen": "Infección crónica por **Mycobacterium leprae** que afecta a **piel y nervios periféricos**: manchas o placas **hipoestésicas**, **engrosamiento de nervios** y baciloscopia. Clasificación operativa de la OMS: **paucibacilar** (≤5 lesiones, sin bacilos) y **multibacilar** (>5 lesiones o baciloscopia positiva). Tratamiento: **poliquimioterapia** con rifampicina, dapsona y clofazimina (la OMS recomienda los 3 fármacos en ambas formas). Vigilar las **reacciones leprosas** (urgencias por daño neural).",
+    "objetivo": "Curar la infección, cortar la transmisión y prevenir la discapacidad.",
+    "escenarios": [
+      {
+        "titulo": "Poliquimioterapia (adulto)",
+        "nota": "Paucibacilar: 6 meses. Multibacilar: 12 meses.",
+        "farmacos": [
+          { "nombre": "Rifampicina", "ref": "INF-rifampicina", "dosis": "600 mg", "via": "VO", "intervalo": "Una vez al mes (supervisada)", "duracion": "6 o 12 meses" },
+          { "nombre": "Dapsona", "ref": "INF-dapsona", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6 o 12 meses", "nota": "G6PD antes de empezar" },
+          { "nombre": "Clofazimina", "ref": "INF-clofazimina", "dosis": "300 mg al mes (supervisada) + 50 mg/día", "via": "VO", "intervalo": "Mensual + cada 24 h", "duracion": "6 o 12 meses", "nota": "Pigmentación cutánea reversible" }
+        ]
+      },
+      {
+        "titulo": "Reacciones leprosas",
+        "farmacos": [
+          { "nombre": "Prednisona (reacción tipo 1 o neuritis)", "ref": "REU-prednisona", "dosis": "40-60 mg (0,5-1 mg/kg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Descenso lento en 3-6 meses", "nota": "Sin suspender la poliquimioterapia" },
+          { "nombre": "Clofazimina (eritema nudoso leproso recurrente)", "ref": "INF-clofazimina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "≤12 semanas y descenso", "nota": "Talidomida en centros especializados (teratógena)" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de contactos",
+        "farmacos": [
+          { "nombre": "Rifampicina (dosis única)", "ref": "INF-rifampicina", "dosis": "600 mg (10 mg/kg en niños)", "via": "VO", "intervalo": "Dosis única", "duracion": "1 dosis", "nota": "Contactos convivientes tras descartar la enfermedad (recomendación de la OMS)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Educación en el autocuidado de manos, pies y ojos anestésicos; calzado protector",
+      "Evaluación periódica de la función neural (sensibilidad y fuerza)",
+      "Lucha contra el estigma: la lepra se cura y deja de transmitirse al iniciar el tratamiento"
+    ],
+    "claves": [
+      "**Mancha hipoestésica + nervio engrosado = lepra hasta demostrar lo contrario.**",
+      "Neuritis aguda en una reacción leprosa: corticoide urgente para evitar la parálisis."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de lepra; recomendaciones de la OMS sobre la lepra (2018)"
+  },
+  {
+    "id": "PAT-parasitosis-intestinales",
+    "nombre": "Parasitosis intestinales",
+    "sinonimos": ["Oxiuros", "Ascaris", "Giardiasis", "Amebiasis", "Strongyloides", "Teniasis", "Lombrices"],
+    "area": "INF",
+    "resumen": "Sospechar ante diarrea crónica, dolor abdominal, prurito anal, anemia ferropénica o **eosinofilia** (helmintos). Diagnóstico: **parásitos en heces** (3 muestras), test de Graham (oxiuros), antígenos (Giardia) o serología (Strongyloides). Antes de inmunosuprimir (corticoides, quimioterapia) a una persona de zona endémica: **descartar o tratar Strongyloides** (riesgo de hiperinfección mortal).",
+    "objetivo": "Erradicar el parásito y prevenir la reinfección y las complicaciones.",
+    "escenarios": [
+      {
+        "titulo": "Oxiuros (Enterobius vermicularis)",
+        "farmacos": [
+          { "nombre": "Mebendazol", "ref": "INF-mebendazol", "dosis": "100 mg", "via": "VO", "intervalo": "Dosis única; repetir a las 2 semanas", "duracion": "2 dosis", "nota": "Tratar a todos los convivientes" },
+          { "nombre": "Albendazol", "ref": "INF-albendazol", "dosis": "400 mg", "via": "VO", "intervalo": "Dosis única; repetir a las 2 semanas", "duracion": "2 dosis", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Ascaris, uncinarias y Trichuris",
+        "farmacos": [
+          { "nombre": "Albendazol", "ref": "INF-albendazol", "dosis": "400 mg", "via": "VO", "intervalo": "Dosis única (Trichuris: cada 24 h 3 días)", "duracion": "1-3 días" },
+          { "nombre": "Mebendazol", "ref": "INF-mebendazol", "dosis": "100 mg cada 12 h (o 500 mg dosis única)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "3 días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Strongyloides stercoralis",
+        "farmacos": [
+          { "nombre": "Ivermectina", "ref": "INF-ivermectina", "dosis": "200 µg/kg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "1-2 días (repetir a las 2 semanas en algunas guías; prolongado en hiperinfección)" }
+        ]
+      },
+      {
+        "titulo": "Giardiasis",
+        "farmacos": [
+          { "nombre": "Tinidazol", "ref": "INF-tinidazol", "dosis": "2 g", "via": "VO", "intervalo": "Dosis única", "duracion": "1 día" },
+          { "nombre": "Metronidazol", "ref": "INF-metronidazol", "dosis": "250-500 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Amebiasis intestinal invasiva y absceso hepático",
+        "farmacos": [
+          { "nombre": "Metronidazol", "ref": "INF-metronidazol", "dosis": "750 mg", "via": "VO o IV", "intervalo": "Cada 8 h", "duracion": "7-10 días" },
+          { "nombre": "Paromomicina (luminal, tras el metronidazol)", "ref": "INF-paromomicina", "dosis": "25-35 mg/kg/día", "via": "VO", "intervalo": "Repartida cada 8 h", "duracion": "7 días", "nota": "Erradica los quistes (evita recaídas)" }
+        ]
+      },
+      {
+        "titulo": "Teniasis intestinal (Taenia saginata o solium)",
+        "farmacos": [
+          { "nombre": "Praziquantel", "ref": "INF-praziquantel", "dosis": "5-10 mg/kg", "via": "VO", "intervalo": "Dosis única", "duracion": "1 día", "nota": "Descartar neurocisticercosis si es T. solium" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Higiene de manos y uñas cortas (oxiuros); lavar ropa de cama a 60 °C",
+      "Agua potable, lavado de alimentos, eliminación sanitaria de excretas",
+      "Desparasitación periódica en zonas de alta prevalencia (programas de la OMS)"
+    ],
+    "claves": [
+      "**Corticoides en un paciente con eosinofilia de zona endémica: tratar antes Strongyloides.**",
+      "La eosinofilia la producen los helmintos que invaden tejidos, no los protozoos (Giardia, ameba)."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de infecciones por nematodos intestinales y por protozoos intestinales; Katzung 15.ª ed., caps. 52 y 53"
+  }
+]

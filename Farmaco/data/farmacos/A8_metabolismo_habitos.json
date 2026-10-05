@@ -1,0 +1,410 @@
+[
+  {
+    "id": "END-orlistat",
+    "nombre": "Orlistat",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antiobesidad no incretínico",
+    "subclase": "Inhibidor de la lipasa intestinal",
+    "vs_clase": [
+      "**Acción LOCAL en el intestino** (no se absorbe): **sin efectos centrales ni cardiovasculares**.",
+      "**Pérdida de peso modesta** (~3 kg más que placebo).",
+      "**ESTEATORREA, urgencia e incontinencia fecal** si la dieta es rica en grasa; **malabsorción de vitaminas liposolubles** (multivitamínico al acostarse)."
+    ],
+    "mecanismo": "Inhibe las lipasas gástrica y pancreática: reduce un 30% la absorción de la grasa de la dieta.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "dosis": "120 mg",
+        "posologia": "Con cada comida principal que contenga grasa (hasta 3 veces al día)",
+        "via": "VO",
+        "nota": "Omitir la dosis si la comida no tiene grasa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con dieta hipocalórica (grasa ≤30% de las calorías).",
+      "titulacion": "—",
+      "duracion": "Suspender si no pierde ≥5% del peso a los 3 meses.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Peso, tolerancia digestiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable (<1%).",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "En la pared intestinal.",
+      "eliminacion": "Fecal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Levotiroxina",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 4 h"
+        },
+        {
+          "con": "Ciclosporina, amiodarona, antiepilépticos",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles; separar"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR (menos vitamina K)",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        },
+        {
+          "con": "Antirretrovirales",
+          "efecto": "Pérdida de control virológico",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Esteatorrea, heces oleosas, flatulencia con descarga**",
+        "Urgencia fecal"
+      ],
+      "graves": [
+        "Déficit de vitaminas A, D, E, K",
+        "Hepatotoxicidad (rara)",
+        "Nefropatía por oxalato"
+      ]
+    },
+    "contraindicaciones": [
+      "Síndrome de malabsorción crónica",
+      "Colestasis",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "Los efectos digestivos actúan como «refuerzo» de la dieta baja en grasa."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed.; Harrison 20.ª ed., cap. de tratamiento de la obesidad"
+  },
+  {
+    "id": "END-naltrexona-bupropion",
+    "nombre": "Naltrexona/bupropión",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antiobesidad no incretínico",
+    "subclase": "Combinación de antagonista opioide y antidepresivo noradrenérgico-dopaminérgico",
+    "vs_clase": [
+      "**Actúa sobre el APETITO y la RECOMPENSA** (sistema de melanocortinas del hipotálamo): útil si hay **«comer emocional» o picoteo**.",
+      "**Puede SUBIR la PA y la FC**; **convulsiones** (bupropión): **contraindicado en epilepsia y bulimia o anorexia**.",
+      "**CONTRAINDICADO con OPIOIDES** (precipita abstinencia y anula la analgesia)."
+    ],
+    "mecanismo": "El bupropión estimula las neuronas POMC (anorexígenas) y la naltrexona bloquea la autoinhibición opioide de esas neuronas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "dosis": "8/90 mg por comprimido; mantenimiento 2 comprimidos (16/180 mg)",
+        "posologia": "Cada 12 h (escalada de 1 a 4 comprimidos al día en 4 semanas)",
+        "via": "VO",
+        "nota": "No con comidas grasas"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA basal; descartar epilepsia, trastornos de la conducta alimentaria y opioides.",
+      "titulacion": "Semana 1: 1 por la mañana; semana 2: 1-0-1; semana 3: 2-0-1; semana 4: 2-0-2.",
+      "duracion": "Suspender si no pierde ≥5% a las 16 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "PA, FC, ánimo e ideación suicida."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (aumenta mucho con comida grasa).",
+      "distribucion": "—",
+      "metabolismo": "Bupropión: CYP2B6; **inhibidor potente de CYP2D6**.",
+      "eliminacion": "Renal.",
+      "vida_media": "Bupropión 21 h; naltrexona 5 h.",
+      "ajuste_renal": "Moderada-grave: máximo 1 comprimido cada 12 h.",
+      "ajuste_hepatico": "Moderada: máximo 1 cada 12 h; grave: contraindicado.",
+      "interacciones": [
+        {
+          "con": "Opioides",
+          "efecto": "Abstinencia y pérdida de analgesia",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Metoprolol, tamoxifeno, tricíclicos (CYP2D6)",
+          "efecto": "Aumento de niveles o pérdida de eficacia del tamoxifeno",
+          "gravedad": "media",
+          "manejo": "Revisar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas**",
+        "Estreñimiento, cefalea, insomnio, boca seca"
+      ],
+      "graves": [
+        "**Convulsiones**",
+        "Aumento de PA",
+        "Ideación suicida (alerta del bupropión)"
+      ]
+    },
+    "contraindicaciones": [
+      "Epilepsia o riesgo de convulsiones",
+      "Anorexia o bulimia",
+      "Uso de opioides",
+      "HTA no controlada",
+      "IMAO"
+    ],
+    "perlas": [
+      "Fumador obeso que quiere dejar de fumar y perder peso: el bupropión ayuda en ambos."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de tratamiento de la obesidad"
+  },
+  {
+    "id": "END-fentermina-topiramato",
+    "nombre": "Fentermina/topiramato",
+    "sinonimos": [
+      "Fentermina"
+    ],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Antiobesidad no incretínico",
+    "subclase": "Combinación de simpaticomimético anorexígeno y antiepiléptico",
+    "vs_clase": [
+      "**El más eficaz de los NO incretínicos** (~8-10% de pérdida de peso).",
+      "**TERATÓGENO** (topiramato: fisuras orales): **test de embarazo mensual** y anticoncepción eficaz.",
+      "**Taquicardia, insomnio**, parestesias, **alteraciones cognitivas** («dificultad para encontrar palabras») y litiasis renal. Aprobación variable según el país."
+    ],
+    "mecanismo": "La fentermina libera noradrenalina en el hipotálamo (anorexígeno); el topiramato aumenta la saciedad por mecanismos GABAérgicos y antiglutamatérgicos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "dosis": "3,75/23 mg 2 semanas; después 7,5/46 mg (hasta 15/92 mg)",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "Retirada gradual (riesgo de convulsiones)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Test de embarazo; descartar cardiopatía, glaucoma, hipertiroidismo.",
+      "titulacion": "Subir si pérdida <3% a las 12 semanas.",
+      "duracion": "Suspender si no pierde ≥5% con la dosis máxima.",
+      "fin": "**Retirada gradual en ≥1 semana.**",
+      "via": "Oral.",
+      "monitorizacion": "FC, ánimo, bicarbonato, creatinina, test de embarazo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal.",
+      "vida_media": "Fentermina 20 h; topiramato 65 h.",
+      "ajuste_renal": "FG <50: máximo 7,5/46 mg.",
+      "ajuste_hepatico": "Moderada: máximo 7,5/46 mg.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Sangrado irregular (el topiramato reduce el estrógeno)",
+          "gravedad": "media",
+          "manejo": "Mantener anticoncepción eficaz"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Parestesias, disgeusia, boca seca",
+        "Insomnio, estreñimiento"
+      ],
+      "graves": [
+        "**Teratogenia**",
+        "Glaucoma agudo de ángulo cerrado",
+        "Acidosis metabólica, litiasis renal",
+        "Taquicardia, ideación suicida"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Glaucoma",
+      "Hipertiroidismo",
+      "IMAO",
+      "Cardiopatía inestable"
+    ],
+    "perlas": [
+      "Visión borrosa y dolor ocular las primeras semanas: glaucoma agudo por topiramato (suspender)."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de tratamiento de la obesidad; Katzung 15.ª ed., cap. 24"
+  },
+  {
+    "id": "PSQ-terapia-sustitutiva-nicotina",
+    "nombre": "Terapia sustitutiva con nicotina",
+    "sinonimos": [
+      "Parches de nicotina",
+      "Chicles de nicotina",
+      "Comprimidos de nicotina"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Agonista nicotínico (sustitución)",
+    "vs_clase": [
+      "**Sustituye la nicotina sin el humo**: segura incluso en **cardiópatas estables** y, si hace falta, en el embarazo.",
+      "**La COMBINACIÓN parche (basal) + forma de acción rápida (chicle, comprimido, spray) es tan eficaz como la vareniclina.**",
+      "Dosis según el consumo: **≥20 cigarrillos/día → parche de 21 mg/24 h (o 25 mg/16 h)**."
+    ],
+    "mecanismo": "Ocupa los receptores nicotínicos alfa-4-beta-2 y alivia la abstinencia y el craving.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Deshabituación tabáquica (≥10 cigarrillos/día)",
+        "dosis": "Parche de 21 mg/24 h (o 25 mg/16 h) + chicle o comprimido de 2-4 mg a demanda",
+        "posologia": "Parche cada 24 h; formas rápidas cada 1-2 h si hay deseo (máximo 15-24 al día)",
+        "via": "transdérmica y bucal",
+        "nota": "Bajar el parche a 14 mg y 7 mg cada 4 semanas"
+      },
+      {
+        "patologia": "Deshabituación tabáquica (<10 cigarrillos/día)",
+        "dosis": "Parche de 14 mg/24 h (o 15 mg/16 h)",
+        "posologia": "Cada 24 h",
+        "via": "transdérmica",
+        "nota": "Más formas rápidas a demanda"
+      }
+    ],
+    "esquema": {
+      "inicio": "El día D (día elegido para dejar de fumar).",
+      "titulacion": "Descenso del parche cada 2-4 semanas.",
+      "duracion": "8-12 semanas (más si hace falta).",
+      "fin": "Reducción progresiva.",
+      "via": "Transdérmica, bucal (chicle con técnica «mascar y aparcar»), nasal.",
+      "monitorizacion": "Síntomas de abstinencia o exceso (náuseas, palpitaciones)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Transdérmica lenta y constante; bucal rápida (no tragar la saliva).",
+      "distribucion": "—",
+      "metabolismo": "**CYP2A6** (cotinina).",
+      "eliminacion": "Renal.",
+      "vida_media": "2 h (nicotina).",
+      "ajuste_renal": "Precaución en insuficiencia grave.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Teofilina, clozapina, olanzapina (al DEJAR de fumar)",
+          "efecto": "Al dejar el tabaco se pierde la inducción de CYP1A2 y suben sus niveles (no por la nicotina, sino por el humo)",
+          "gravedad": "media",
+          "manejo": "Vigilar y reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación cutánea (parche)",
+        "Insomnio y sueños vívidos (parche de 24 h: quitarlo por la noche)",
+        "Hipo, dispepsia (chicle)"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "IAM, angina inestable o arritmias graves en las 2 semanas previas (relativa)"
+    ],
+    "perlas": [
+      "La mayoría de los fracasos con nicotina se deben a dosis insuficientes: combinar parche y forma rápida."
+    ],
+    "embarazo_lactancia": "Si la intervención conductual fracasa, mejor que fumar (formas intermitentes).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 32; Harrison 20.ª ed., cap. de adicción a la nicotina"
+  },
+  {
+    "id": "PSQ-citisina",
+    "nombre": "Citisina (citisiniclina)",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Agonista parcial nicotínico de origen vegetal",
+    "vs_clase": [
+      "**Mismo mecanismo que la vareniclina** (agonista parcial alfa-4-beta-2), de origen vegetal y **mucho más barata**.",
+      "**Pauta CORTA de 25 días** con dosis decrecientes; eficacia similar o algo inferior a la vareniclina.",
+      "Náuseas y alteraciones del sueño **menos frecuentes**; recomendada por la OMS para la cesación tabáquica."
+    ],
+    "mecanismo": "Agonista parcial del receptor nicotínico alfa-4-beta-2: reduce el craving y bloquea la recompensa del cigarrillo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Deshabituación tabáquica",
+        "dosis": "1,5 mg por comprimido: 6 al día los días 1-3, bajando hasta 1-2 al día el día 25",
+        "posologia": "Días 1-3: cada 2 h; días 4-12: cada 2,5 h; días 13-16: cada 3 h; días 17-20: cada 5 h; días 21-25: cada 6 h",
+        "via": "VO",
+        "nota": "Dejar de fumar como tarde el día 5"
+      }
+    ],
+    "esquema": {
+      "inicio": "Día 1 del tratamiento; fecha para dejar de fumar ≤día 5.",
+      "titulacion": "Descendente (fija).",
+      "duracion": "25 días (repetible).",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Abstinencia, efectos adversos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal, inalterada.",
+      "vida_media": "4,8 h.",
+      "ajuste_renal": "No recomendado en insuficiencia renal grave.",
+      "ajuste_hepatico": "No recomendado en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Terapia sustitutiva con nicotina",
+          "efecto": "Puede aumentar los efectos adversos",
+          "gravedad": "baja",
+          "manejo": "No combinar habitualmente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, dispepsia",
+        "Alteraciones del sueño, cefalea"
+      ],
+      "graves": [
+        "Taquicardia, HTA (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Angina inestable, IAM o ictus recientes, arritmias",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "Si el coste limita la vareniclina, la citisina es la alternativa con mejor relación coste-eficacia."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 32"
+  }
+]
