@@ -63,7 +63,7 @@ D. Hierro oral desde los 2 meses.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 43; correspondencia textual directa con la bibliografía: "se recomienda la suplementación de vitamina D con 400 UI/día a todos los lactantes durante el primer año de vida". Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2020-082 ⚠️
+### MIR-2020-082
 Un lactante de 1 mes se encuentra hospitalizado y a dieta absoluta. Utilizando el método del peso corporal para el cálculo del volumen diario de líquido de mantenimiento a este paciente le corresponderá:
 
 A. 30 ml/kg/día.
@@ -71,9 +71,11 @@ B. 60 ml/kg/día.
 C. 80 ml/kg/día.
 D. 100 ml/kg/día.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación (confianza fuerte, sin cita numérica directa a esta pregunta):** la bibliografía define la regla de Holliday para el método del peso corporal, invocado explícitamente en el enunciado, como "los primeros 10 kg: 100 cc/kg". Un lactante de 1 mes pesa típicamente entre 3,5-5 kg, muy por debajo del primer umbral de 10 kg, por lo que correspondería 100 ml/kg/día (opción D), no 80 ml/kg/día (opción C, clave oficial). No se ha localizado en la bibliografía disponible una excepción explícita para el periodo neonatal inmediato que justifique un valor reducido; existe la posibilidad de que la práctica clínica real matice este cálculo en las primeras semanas de vida por inmadurez renal, pero esa matización no está documentada en la fuente consultada. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Según el método de Holliday-Segar, ampliamente utilizado para el cálculo de las necesidades basales de líquidos de mantenimiento en pediatría, los primeros 10 kg de peso corporal requieren 100 ml/kg/día, los siguientes 10 kg (de 10 a 20 kg) requieren 50 ml/kg/día adicionales, y cada kilogramo por encima de 20 kg requiere 20 ml/kg/día adicionales. En un lactante de un mes, cuyo peso se encuentra habitualmente por debajo de los 10 kg, la necesidad de líquidos de mantenimiento calculada por este método corresponde, por tanto, a 100 ml/kg/día.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-080
 Niño de 8 años, atendido por dolor abdominal de 2 días de evolución. La noche anterior presentó una deposición con sangre. Esta mañana se ha levantado con dolor en ambos tobillos, no quiere andar y le han visto unas manchas en las piernas. A la exploración presenta buen estado general, auscultación normal, abdomen doloroso a la palpación sin signos irritación peritoneal. En la esfera ORL solo se aprecia una faringe roja. Presenta lesiones petequiales y equímosis en ambas piernas con inflamación de ambos tobillos. El diagnóstico clínico más probable con los datos aportados es:
@@ -95,7 +97,7 @@ D. La mayoría de los hemangiomas infantiles tiene un curso clínico predecible 
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 198; el riesgo de hemangiomas viscerales que justifica el estudio de imagen está descrito en la bibliografía específicamente para la hemangiomatosis neonatal (≥5-10 lesiones cutáneas), no para 3 hemangiomas aislados como los de esta paciente — la generalización de la opción C a cualquier caso de hemangiomas infantiles es la afirmación incorrecta. A, B y D coinciden con la bibliografía. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad del módulo:** 5 preguntas reales, **1 discrepancia de confianza fuerte** (necesidades basales de líquidos, sin cita numérica directa), 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2024-067
 Un lactante de 6 meses acude a urgencias por presentar vómitos y diarrea en las últimas 12 horas. Su peso es de 6 kg. Hace 24 horas su peso era de 6,5 kg. Presenta frecuencia cardíaca 140 lpm, frecuencia respiratoria 30 rpm, presión arterial 90/40 mmHg. En la gasometría venosa se observa pH 7,25, pCO2 33 mmHg, pO2 45 mmHg, bicarbonato 17 mmol/L, exceso de bases -7, lactato 2,5 mmol/L. El sodio es 143 mmol/L. ¿Cuál es su situación en el equilibrio ácido base?:
@@ -108,8 +110,6 @@ D. Alcalosis respiratoria compensada metabólicamente.
 **Respuesta correcta: B**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, interpretación gasométrica estándar) — pH 7,25 (acidemia) + bicarbonato bajo (17, trastorno primario metabólico) + pCO2 bajo (33, respuesta compensadora respiratoria por hiperventilación) + pH aún no normalizado (compensación parcial, no completa) es el patrón clásico de acidosis metabólica (por deshidratación hipovolémica secundaria a gastroenteritis, con pérdida aguda del 7,7% del peso corporal) parcialmente compensada por vía respiratoria. Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 6 preguntas reales, manteniendo 1 discrepancia y sumando 5 limpias.
 
 ---
 

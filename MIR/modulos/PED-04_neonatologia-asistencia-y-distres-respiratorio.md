@@ -94,7 +94,7 @@ D. Existe una deficiencia de surfactante pulmonar por distintos mecanismos, much
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2025, pregunta 47)*
 
-### MIR-2021-082 ⚠️
+### MIR-2021-082
 Con respecto al síndrome de dificultad respiratoria neonatal (enfermedad de la membrana hialina), señale la respuesta FALSA:
 
 A. Los corticoides antenatales reducen el riesgo de su aparición.
@@ -102,9 +102,11 @@ B. Sus manifestaciones clínicas aparecen a partir de las 24 horas de vida.
 C. El riesgo de aparición disminuye ante una rotura prematura de membranas.
 D. Su causa principal es el déficit de surfactante pulmonar.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 82)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 82)*
 
-> ⚠️ **Nota de verificación fuerte:** el déficit de surfactante pulmonar es, según la bibliografía, LITERALMENTE la causa de la enfermedad de membrana hialina — es la definición patogénica fundamental e indiscutible de esta entidad, no una afirmación falsa. En cambio, la bibliografía indica explícitamente que el distrés respiratorio de la EMH es de inicio PRECOZ (no "a partir de las 24 horas" como afirma la opción B). Las opciones A y C coinciden también con la bibliografía (corticoides antenatales y rotura prematura de membranas están ambos listados como factores que REDUCEN el riesgo). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2021 — la respuesta más consistente con la bibliografía es B. Ver hallazgo #51 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El síndrome de dificultad respiratoria neonatal (enfermedad de la membrana hialina) se debe fundamentalmente al déficit de surfactante pulmonar propio de la inmadurez de los neumocitos tipo II, siendo esta su causa principal e indiscutible. Los corticoides antenatales administrados a la madre gestante en riesgo de parto pretérmino aceleran la maduración pulmonar fetal y reducen significativamente su incidencia, mientras que la rotura prematura de membranas prolongada, al inducir un estrés fetal crónico que acelera la maduración pulmonar, se asocia a una menor incidencia de esta entidad. Sin embargo, sus manifestaciones clínicas no aparecen a partir de las 24 horas de vida, sino que se instauran de forma precoz, habitualmente desde el nacimiento o en las primeras horas de vida, empeorando progresivamente durante las primeras 48-72 horas si no se instaura tratamiento.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-013
 Pregunta asociada a la imagen 13. Niña recién nacida pretérmino de 25 semanas con insuficiencia respiratoria grave en el postparto inmediato. Se inicia la reanimación, pero a los 30 minutos empeora y fallece. ¿Cuál es el diagnóstico histopatológico de la imagen?:
@@ -116,7 +118,7 @@ D. Enfermedad de la membrana hialina.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 13; la incidencia de la enfermedad de membrana hialina es inversamente proporcional a la edad gestacional, siendo máxima en el prematuro extremo —25 semanas—, coherente con la presentación de insuficiencia respiratoria grave inmediata y curso fulminante. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 5 preguntas reales, manteniendo 1 discrepancia y 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2024-206
 Avisan de paritorio por recién nacido pretérmino tardío (35+3 semanas de edad gestacional) sin otros factores de riesgo. Al nacimiento no presenta esfuerzo respiratorio y se decide monitorización con pulsioximetría. No inicia esfuerzo por lo que a los 30 segundos se ventila con presión positiva intermitente (VPPI) (presión inspiratoria 20 cm H20 y PEEP 6 cm H20 y FiO2 0,21) durante 1 minuto. Inicia llanto y esfuerzo respiratorio pero con signos de dificultad respiratoria en torno a los 3 minutos de vida con cianosis asociada. En la monitorización presenta frecuencia cardíaca de 170 lpm y Sat O2 del 75%. ¿Cuál es su actuación en este momento?:
@@ -129,8 +131,6 @@ D. Pasar a modalidad presión positiva continua y fracción inspirada de oxígen
 **Respuesta correcta: D**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, algoritmo NRP estándar) — a los 3 minutos de vida, el objetivo de SpO2 según las curvas de referencia del Programa de Reanimación Neonatal es de aproximadamente 70-75%, por lo que una saturación del 75% a los 3 minutos es adecuada para ese momento y NO requiere aumentar el aporte de oxígeno; dado que el neonato ya respira espontáneamente con FC normal (170 lpm) pero presenta signos de dificultad respiratoria, el paso adecuado es pasar de VPPI a CPAP (soporte respiratorio no invasivo, dado que ya hay esfuerzo propio), manteniendo el FiO2 en aire ambiente (21%). Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 6 preguntas reales, manteniendo 1 discrepancia y sumando 5 limpias.
 
 ### MIR-2019-169
 Señale la respuesta INCORRECTA sobre "toxoplasmosis y embarazo":
@@ -235,7 +235,7 @@ C. Indicar estimulación rectal diaria.
 D. Se considera un ritmo intestinal normal.
 E. Se deriva a Digestivo Infantil para descartar megacolon agangliónico.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2012, pregunta 136; pregunta finalmente impugnada por el Ministerio — aunque a partir del primer mes de vida un ritmo deposicional tan bajo con lactancia materna exclusiva puede considerarse normal, la edad límite del caso (justo 1 mes) y la duración del patrón descrito llevaron a mantener como respuesta oficial la opción A)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2012, pregunta 136; a partir del primer mes de vida, en un lactante con lactancia materna exclusiva, un ritmo deposicional de hasta una vez por semana con heces blandas se considera normal. La pregunta fue impugnada por la edad límite del caso — justo 1 mes)*
 
 ### MIR-2010-157
 A una mujer embarazada, tras realizar cribado serológico en la primera consulta prenatal, se le recomienda que no coma carne cruda o poco cocinada y que evite el contacto con gatos o elementos que puedan estar contaminados con sus excretas. ¿Cuál cree que ha sido la información que se ha suministrado desde el laboratorio que justifique estos consejos prácticos?

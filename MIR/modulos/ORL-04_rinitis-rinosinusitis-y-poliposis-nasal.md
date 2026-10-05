@@ -65,7 +65,11 @@ B. Endoscopia nasal con ópticas rígidas o flexibles.
 C. Resonancia magnética nuclear con gadolinio.
 D. Punción lumbar.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 68; consistente con la bibliografía: "la TC se solicita en casos de sospecha de rinosinusitis aguda complicada", siendo el método diagnóstico radiológico de elección ante esta sospecha)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 68)*
+
+**Explicación:** Ante la sospecha de complicaciones intracraneales supuradas de una sinusitis aguda (fiebre, cefalea intensa, náuseas y malestar general tras una sinusitis inicialmente mejorada), la prueba de imagen más adecuada es la tomografía computarizada del macizo facial y craneal con cortes coronales y axiales, ya que permite valorar de forma rápida tanto la extensión de la enfermedad sinusal como la presencia de complicaciones óseas y de partes blandas asociadas, siendo además una prueba ampliamente disponible en el contexto de urgencias (opción A). No obstante, cabe señalar que, para la caracterización más precisa de complicaciones intracraneales supuradas propiamente dichas (empiema subdural, absceso cerebral, trombosis de senos venosos), la resonancia magnética con gadolinio ofrece una mayor sensibilidad y resolución de partes blandas que la TC, por lo que en la práctica clínica ambas pruebas suelen emplearse de forma complementaria según la disponibilidad y la urgencia del cuadro.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-201
 ¿Cuál de las siguientes opciones es el tratamiento de primera línea más eficaz para aliviar la congestión nasal y los síntomas oculares establecidos en la rinitis alérgica persistente y moderada?:

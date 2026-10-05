@@ -48,7 +48,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2022-061 ⚠️
+### MIR-2022-061
 Con respecto a los injertos cutáneos, señale la respuesta INCORRECTA:
 
 A. Uno de los lechos considerados injertables por su rica vascularización es el tejido de granulación.
@@ -56,11 +56,13 @@ B. Podemos clasificarlos en injertos de piel parcial (si presentan sólo la epid
 C. Suelen presentar un proceso de contracción, que aparece tanto a la hora de ser extraídos como después de haber sido injertados.
 D. Dentro de las comorbilidades médicas asociadas a la pérdida del injerto podemos destacar la diabetes, el tabaquismo y la vasculopatía periférica.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 61", desfase de año habitual de ±1), define el injerto de piel parcial (IPP) como aquel que *"incluye la epidermis y un grosor de DERMIS VARIABLE (no completa)"* — es decir, el IPP NO es "solo epidermis" como afirma la opción B, sino epidermis MÁS parte de la dermis. Esto hace de la opción B la afirmación técnicamente incorrecta (su definición de injerto parcial es errónea), no la D, que describe comorbilidades (diabetes, tabaquismo, vasculopatía periférica) ampliamente reconocidas como factores de riesgo de fallo de injerto en la práctica quirúrgica general. Las opciones A y C están confirmadas literalmente por la bibliografía (tejido de granulación como lecho injertable; contracción primaria y secundaria). Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #159 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la B: los injertos de piel parcial no contienen solo la epidermis, sino la epidermis y una porción variable de la dermis (finos, intermedios o gruesos), mientras que los injertos de piel total incluyen la epidermis y todo el espesor de la dermis. El resto es correcto: el tejido de granulación, muy vascularizado, es un lecho receptor adecuado para el injerto (A); los injertos sufren contracción primaria al ser extraídos (por las fibras elásticas de la dermis, mayor en los injertos de piel total) y contracción secundaria una vez prendidos (mayor en los de piel parcial) (C); y la diabetes, el tabaquismo y otras comorbilidades que alteran la microcirculación favorecen la pérdida del injerto (D), junto con los factores locales como el hematoma, el seroma, la infección o el cizallamiento.
 
-### MIR-2023-140 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-140
 En relación con la antisepsia del campo quirúrgico en una laparotomía de piel indemne por cirugía oncológica, ¿qué solución de las siguientes ha demostrado ser más eficaz?:
 
 A. Povidona iodada.
@@ -68,9 +70,11 @@ B. Clorhexidina acuosa.
 C. Clorhexidina alcohólica.
 D. Poli-hexametilen-biguanida.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 24, 140", desfase de año habitual de ±1), recomienda expresamente el *"uso de clorhexidina ALCOHÓLICA al 2% para la preparación del campo quirúrgico"* como parte de las medidas de prevención de la infección de sitio quirúrgico — apoyando la opción C, no la B (clorhexidina acuosa) marcada como oficial. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #159 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Para la antisepsia del campo quirúrgico sobre piel intacta, la solución que ha demostrado mayor eficacia en la prevención de la infección del sitio quirúrgico es la clorhexidina en solución ALCOHÓLICA (habitualmente al 2% en alcohol isopropílico al 70%) (C), superior a la povidona yodada (A) en ensayos clínicos y metaanálisis, y recomendada por las guías (OMS, CDC). La combinación con alcohol aporta una acción rápida, y la clorhexidina, un efecto residual prolongado y la ausencia de inactivación por materia orgánica. La clorhexidina acuosa (B) es menos eficaz en piel y se reserva para mucosas o zonas donde el alcohol está contraindicado, y la polihexametilen-biguanida (D) se usa sobre todo en el tratamiento de heridas, no en la preparación del campo quirúrgico. Recuerda dejar secar completamente la solución alcohólica antes de usar el bisturí eléctrico, por el riesgo de incendio.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-129
 ¿Cuál de las siguientes medidas aconsejadas para reducir la infección de la herida quirúrgica es INCORRECTA?:
@@ -90,9 +94,11 @@ B. Pérdida de espesor total de la piel con exposición del tejido celular subcu
 C. Pérdida de epidermis con exposición de la dermis.
 D. Aparición de tejido de granulación en el lecho del defecto.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> **Nota de cobertura:** no se ha localizado en la bibliografía de Cirugía General/Digestivo disponible una tabla específica de estadiaje NPIAP de úlceras por presión (contenido más propio de un manual de Geriatría) que permita confirmar o contradecir la clave oficial con la confianza necesaria; se mantiene sin nota de discrepancia por falta de fuente textual directa.
+**Explicación:** Según el sistema de estadiaje del National Pressure Injury Advisory Panel (NPIAP), el estadio II se define como una pérdida de espesor parcial de la piel con exposición de la dermis, presentándose como un lecho de la herida rosado o rojo, húmedo, y pudiendo manifestarse también como una ampolla intacta o rota, sin presencia de tejido de granulación, esfacelo ni escara en este estadio. El eritema no blanqueable sobre piel íntegra corresponde al estadio I, la pérdida de espesor total con exposición del tejido celular subcutáneo corresponde al estadio III, y el estadio IV implica exposición de fascia, músculo, tendón, ligamento, cartílago o hueso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-051
 ¿Cuál de los siguientes escenarios podría suponer una contraindicación para el uso de un injerto de piel parcial como cobertura de un defecto cutáneo?:
@@ -118,7 +124,7 @@ D. La marca eléctrica es diagnóstica del lugar en el que se ha producido el co
 
 > **Nota de cobertura:** confirmación PARCIAL — la bibliografía confirma que en las quemaduras eléctricas "se transforma en energía térmica", coherente con la opción B (lesión dérmica por aumento de temperatura). No se ha localizado confirmación textual específica sobre el patrón de profundidad según voltaje (opción C) ni sobre el valor diagnóstico topográfico de la marca (opción D). Sin discrepancia.
 
-### MIR-2020-060 ⚠️
+### MIR-2020-060
 En cuanto a la anatomía de la pared abdominal en relación con la cirugía reconstructiva es FALSO que:
 
 A. La inervación de los músculos rectos abdominales procede de nervios que discurren entre el músculo transverso abdominal y el músculo oblicuo interno.
@@ -126,11 +132,11 @@ B. Tras la disección y rotación de un colgajo TRAM (transversus rectus abdomin
 C. La irrigación del músculo recto abdominal proviene principalmente de los vasos epigástricos inferiores y superiores profundos.
 D. El músculo recto abdominal puede utilizarse para reconstrucción de defectos mediastínicos.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 20, 60"), describe en la tabla de colgajos que el colgajo DIEP/TRAM/VRAM (perforantes de vasos epigástricos inferiores profundos) se usa para "Reconstrucción de mediastino o periné" y produce "mayor debilidad de pared abdominal **BAJO** la línea arcuata" — es decir, la debilidad se localiza POR DEBAJO de la línea arcuata, no "especialmente por encima" como afirma la opción B. Esto convierte a B en la afirmación anatómicamente FALSA, no a C: la irrigación del recto abdominal por los vasos epigástricos superiores e inferiores profundos (doble aporte vascular, con zona de anastomosis/watershed periumbilical) es anatomía estándar y no contradicha por ninguna fuente consultada; la opción D también queda confirmada literalmente por la misma tabla ("VRAM/TRAM: Reconstrucción de mediastino"). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #171 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación FALSA es la B: tras levantar un colgajo TRAM, la debilidad de la pared abdominal (y el riesgo de eventración/hernia) predomina POR DEBAJO de la línea arcuata, ya que en esa zona la vaina posterior del recto desaparece y la pared queda formada solo por la fascia transversalis y el peritoneo. Por encima de la línea arcuata se conserva la vaina posterior, que ofrece más soporte. Las demás son ciertas: los rectos están inervados por los nervios intercostales inferiores (T7-T12), que discurren entre el transverso y el oblicuo interno (A); el recto recibe una doble irrigación por los vasos epigástricos superiores e inferiores profundos (C), base de los colgajos TRAM pediculados y libres; y el recto abdominal puede emplearse para cubrir defectos mediastínicos, por ejemplo tras una mediastinitis postesternotomía (D).
 
-> **Nota de cobertura y fiabilidad del módulo:** 6 preguntas reales (2020, 2022×2, 2023, 2024×2), **3 discrepancias de MÁXIMA confianza, todas con cita bibliográfica directa**, 3 limpias/parcialmente confirmadas.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

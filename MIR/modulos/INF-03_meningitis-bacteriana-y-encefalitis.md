@@ -110,9 +110,11 @@ B. La mortalidad de la meningitis por S. pneumoniae que requiere ingreso en UCI 
 C. La precocidad en el inicio del tratamiento es básica para el buen pronóstico.
 D. El uso de dexametasona mejora el pronóstico funcional y vital.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 125)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 125)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía afirma de forma explícita y categórica que "la meningitis bacteriana aguda es una emergencia médica y la precocidad con la que se inicie el tratamiento adecuado es el PRINCIPAL FACTOR PRONÓSTICO" — es decir, la opción C es VERDADERA, no la falsa que pide el enunciado. Asimismo, la bibliografía confirma que "la dexametasona reduce las secuelas neurológicas... ha demostrado reducir la mortalidad en el caso de S. pneumoniae", confirmando también D como verdadera. No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (la precocidad del tratamiento es un hecho establecido, no una afirmación falsa) en el punto clave 1 de este módulo.
+**Explicación:** La afirmación FALSA es la A: en nuestro medio la resistencia a penicilina de los neumococos que causan meningitis no supera el 50% (las cifras de resistencia, con los puntos de corte para meningitis, se sitúan aproximadamente en torno al 20-30% y han disminuido con la vacunación), aunque por esa resistencia el tratamiento empírico de la meningitis neumocócica combina cefalosporina de tercera generación y vancomicina. El resto son ciertas: la mortalidad de la meningitis neumocócica que requiere ingreso en UCI supera el 30% (B); el inicio precoz del tratamiento antibiótico es determinante para el pronóstico (C); y la dexametasona adyuvante, administrada antes o con la primera dosis de antibiótico, reduce la mortalidad y las secuelas neurológicas y auditivas en la meningitis neumocócica (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-167
 Varón de 34 años diagnosticado de otitis media 5 días antes, sin otros antecedentes, que comienza con fiebre de 39ºC, cefalea y rigidez de nuca. Se realiza una punción lumbar que es sugerente de meningitis bacteriana. Decide iniciar tratamiento empírico hasta recibir el cultivo y los resultados del antibiograma. ¿Cuál de los siguientes sería el mejor tratamiento?:
@@ -122,9 +124,11 @@ B. Cefotaxima más ampicilina.
 C. Moxifloxacino más vancomicina.
 D. Meropenem más ampicilina.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 167)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 167)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía reserva el meropenem/cefepime específicamente para la sospecha de Pseudomonas (meningitis nosocomial, post-neurocirugía, inmunodepresión, neutropenia) — ninguno de estos factores está presente en este paciente de 34 años con una otitis media previa como único antecedente. Asimismo, la ampicilina se añade por riesgo de Listeria en niños, mayores de 50 años o inmunodeprimidos — tampoco aplicable aquí. El algoritmo estándar para una meningitis bacteriana aguda de líquido turbio sin estos factores de riesgo específicos es "cefalosporina de 3.ª generación + vancomicina", coincidiendo con la opción A. No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (ceftriaxona + vancomicina, sin meropenem ni ampicilina en este perfil de paciente) en el punto clave 5 de este módulo.
+**Explicación:** Meningitis bacteriana en un adulto joven inmunocompetente tras una otitis media: el germen más probable es Streptococcus pneumoniae (la otitis, la sinusitis o la fístula de LCR son focos típicos de la meningitis neumocócica). El tratamiento empírico de elección es una cefalosporina de tercera generación (ceftriaxona o cefotaxima) más vancomicina (A), para cubrir los neumococos con sensibilidad disminuida a penicilina y a cefalosporinas, junto con dexametasona antes o con la primera dosis de antibiótico. La ampicilina (B y D) se añade para cubrir Listeria en mayores de 50 años, inmunodeprimidos, embarazadas o alcohólicos, que no es el caso. El meropenem (D) y el moxifloxacino (C) no son de primera elección en la meningitis neumocócica adquirida en la comunidad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-093
 Niño de 7 años que acude a urgencias por un cuadro de 12 horas de evolución de fiebre, cefalea, rigidez de nuca y petequias en tronco y piernas, con importante afectación del estado general. ¿Cuál de las siguientes afirmaciones es correcta?:
@@ -134,11 +138,13 @@ B. La etiología más probable es el neumococo.
 C. Será necesario hacer quimioprofilaxis en las personas que hayan estado en contacto íntimo con el paciente.
 D. El tratamiento empírico inicial más apropiado es el aciclovir.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 93)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 93)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro clínico (fiebre, meningismo, exantema petequial de rápida instauración en un niño de 7 años) es característico de la enfermedad meningocócica —N. meningitidis es, según la bibliografía, la causa más frecuente de meningitis entre 2-20 años, y el exantema petequial es su dato clínico más característico—. Sin embargo, N. meningitidis es un diplococo **GRAMNEGATIVO**, no grampositivo como afirma la clave oficial (A) — este es un dato de microbiología básica y bien establecido, sin ambigüedad posible. La opción C (quimioprofilaxis a contactos estrechos) sí está confirmada textualmente por la bibliografía como medida indicada ante un caso de enfermedad meningocócica, siendo la afirmación que debería considerarse correcta. No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio microbiológico correcto (diplococo gramnegativo; C es la afirmación verdaderamente correcta) en el punto clave 2 de este módulo.
+**Explicación:** El cuadro descrito -fiebre de inicio brusco, cefalea, rigidez de nuca y petequias en tronco y piernas con grave afectación del estado general en un niño- es altamente sugestivo de una sepsis/meningitis meningocócica, la causa más característica de púrpura petequial-purpúrica asociada a meningitis en la infancia. Ante la sospecha de enfermedad meningocócica invasiva, es obligado realizar quimioprofilaxis antibiótica (rifampicina, ciprofloxacino o ceftriaxona según el caso) a todos los contactos íntimos del paciente, dado el riesgo de transmisión y de casos secundarios en el entorno cercano, una medida de salud pública característica de esta entidad y que no se aplica en la meningitis neumocócica. Neisseria meningitidis es un diplococo GRAMNEGATIVO (no grampositivo), y el tratamiento empírico inicial de elección ante una sospecha de meningitis bacteriana aguda son las cefalosporinas de tercera generación, no el aciclovir, reservado para la sospecha de encefalitis herpética.
 
-### MIR-2021-088 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-088
 Niño de 23 meses que presenta fiebre, hipotensión, vómitos repetidos, signos meníngeos, petequias y equimosis. El hemograma muestra 25.000 leucocitos (75 % neutrófilos, 10 % cayados) y 12.000 plaquetas/microL y el estudio de coagulación una actividad de protrombina de 35 %. ¿Qué opción NO es adecuada en su manejo?:
 
 A. Administración de cefotaxima intravenosa.
@@ -146,9 +152,11 @@ B. Realización de punción lumbar.
 C. Recogida de hemocultivo.
 D. Fluidos intravenosos. - 13
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, coherente con §1.4/1.6 de este mismo módulo, sin cita bibliográfica directa a esta pregunta exacta):** el cuadro (fiebre, hipotensión/shock, petequias/equimosis, leucocitosis con desviación izquierda) es enfermedad meningocócica con shock séptico y coagulación intravascular diseminada (CID) — plaquetas 12.000/µl y actividad de protrombina 35% son datos de coagulopatía grave. La bibliografía de este mismo módulo confirma que cefotaxima/ceftriaxona es el tratamiento de ELECCIÓN de la enfermedad meningocócica y que, ante sospecha de meningitis bacteriana, *"se debe iniciar el tratamiento empírico ANTES de la PL, nunca demorarlo"* si existe cualquier razón para no poder realizarla de inmediato — por tanto, la administración de cefotaxima (clave oficial, A) es una medida claramente ADECUADA y prioritaria, no la incorrecta. En cambio, la punción lumbar (opción B) tiene contraindicaciones relativas bien establecidas en cualquier paciente con inestabilidad hemodinámica (hipotensión/shock) y coagulopatía grave (trombocitopenia severa + PT muy alterado) por el riesgo de sangrado espinal/deterioro clínico — ambas presentes en este caso. Apoya la opción B como la conducta NO adecuada. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación.
+**Explicación:** El cuadro descrito -fiebre, hipotensión, vómitos, signos meníngeos, petequias y equimosis, con leucocitosis y desviación izquierda, trombocitopenia grave (12.000/µl) y coagulopatía (actividad de protrombina 35%)- es característico de una sepsis meningocócica grave con coagulación intravascular diseminada, una auténtica emergencia vital en la que la administración de antibioterapia empírica intravenosa (cefotaxima) de forma inmediata, junto con la resucitación agresiva con fluidos intravenosos y la extracción de hemocultivos previos (sin que ello demore el inicio del antibiótico), constituyen las medidas prioritarias e ineludibles que nunca deben retrasarse. Sin embargo, en presencia de una coagulopatía tan marcada y una trombocitopenia grave como las descritas, la realización de una punción lumbar conlleva un riesgo relevante de sangrado espinal/epidural, por lo que debe diferirse hasta corregir la coagulopatía, obteniéndose el diagnóstico microbiológico por otras vías (hemocultivo, PCR en sangre) mientras tanto; es este dato, y no la administración del antibiótico -que siempre debe iniciarse sin demora-, el que condiciona la actuación menos adecuada de forma inmediata en este paciente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2009-230
 Ante un cuadro de fiebre de 39 ºC, cefalea y afectación del nivel de consciencia en un paciente de 16 años, sin inmunodeficiencia conocida ni sospechada, ¿qué determinación en LCR le interesaría menos conocer en un primer acercamiento etiológico?

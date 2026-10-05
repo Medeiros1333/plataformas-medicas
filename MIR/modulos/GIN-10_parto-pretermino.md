@@ -98,9 +98,7 @@ B. Progesterona natural micronizada vía vaginal.
 C. Cerclaje profiláctico.
 D. Pesario cervical.
 
-**Respuesta correcta: A**
-
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, en el apartado "Prevención" del Tema 12, con cita textual directa a esta misma pregunta ("MIR 24, 68", desfase de año habitual de ±1), afirma explícitamente: *"la administración de progesterona vaginal durante la segunda mitad del embarazo en pacientes con alto riesgo de tener un parto pretérmino (antecedentes de otro parto pretérmino o cérvix acortado) parece disminuir su incidencia"*. Esta paciente cumple exactamente ese criterio de alto riesgo (antecedente de parto pretérmino previo a las 33 semanas), por lo que la intervención de prevención de recurrencia indicada por la bibliografía es la progesterona vaginal (opción B, no elegida), no la combinación "reposo relativo, antibioticoterapia y nifedipino" (opción A, oficial), que no aparece descrita en ningún punto de la bibliografía como estrategia de PREVENCIÓN de recurrencia — el nifedipino es un tocolítico de uso en el tratamiento AGUDO de la APP ya establecida, no una medida preventiva, y la antibioticoterapia rutinaria no está indicada en la APP con bolsa íntegra según la misma bibliografía. Las opciones C y D (cerclaje/pesario) también son descartables: su longitud cervical de 28mm no cumple el umbral de <25mm que exige el Tema 5.2 para indicar cerclaje/pesario incluso con historia de pérdida previa. Ver hallazgo #117 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2024-204
 Gestante de 36 años primigesta sin factores de riesgo excepto índice de masa corporal de 32 pregestacional, que acude a urgencias a las 28 semanas y presenta una rotura prematura de membranas. En el momento del ingreso la analítica es normal, no presenta dinámica uterina y la longitud cervical es de 38 mm. ¿Cuál de las siguientes afirmaciones es INCORRECTA?
@@ -138,7 +136,7 @@ D. Debe administrarse en todos los casos si la mujer es primigesta, dada la edad
 
 *(Sin discrepancia — a las 30 semanas (rango 24-31+6 del algoritmo de la bibliografía), con dinámica confirmada, el umbral de longitud cervical que indica tocolisis es <25mm; 20mm cumple ese umbral, confirmando la clave oficial A. La opción B es incorrecta porque un test de fibronectina NEGATIVO indica bajo riesgo de parto inminente (VPN alto), lo contrario de una indicación de tocólisis. Las opciones C y D contradicen el manejo individualizado según hallazgos ecográficos que describe el algoritmo de la bibliografía.)*
 
-> **Nota de cobertura y fiabilidad:** 4 preguntas reales (2023, 2024, 2025×2), **1 con discrepancia de MÁXIMA confianza** (MIR-2023-068, #117, confirmada por cita textual directa) y 3 limpias, todas bien confirmadas contra el algoritmo y los umbrales explícitos de la bibliografía. Tasa de discrepancia del 25% en este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2010-158
 Una gestante de 34 semanas, por lo demás normal, ingresa por rotura de membranas desde 8 horas antes y amenaza de parto pretérmino. No tiene fiebre ni signos de infección. El cuello uterino no está dilatado. Se objetivan contracciones uterinas. El feto está vivo, no tiene malformaciones por ecografía y el registro de la frecuencia cardiaca fetal es normal. ¿Qué actitud tomaría?
@@ -160,8 +158,6 @@ C. Realizar una amnioscopia.
 D. Interrumpir la gestación.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2017, pregunta 166; embarazo postérmino con registro no reactivo — finalización de la gestación)*
-
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 2 preguntas se eleva a 6 preguntas reales, manteniendo 1 discrepancia y sumando 5 limpias.
 
 ---
 

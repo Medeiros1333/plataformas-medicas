@@ -56,9 +56,11 @@ B. Nódulos subcutáneos.
 C. Glomerulonefritis proliferativa.
 D. Enfermedad pulmonar intersticial.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 113)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 113)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.2) es explícita en sentido contrario a la clave oficial: "la enfermedad pulmonar intersticial difusa (EPID) es la manifestación pulmonar MÁS FRECUENTE" de la AR — es decir, SÍ es característica, contradiciendo la clave oficial (D). En cambio, sobre la glomerulonefritis (opción C, no elegida) la bibliografía usa casi la misma palabra: "la glomerulonefritis focal... aunque no es característica" de la AR. La opción textualmente correcta como "NO característica" según esta fuente es C, no D. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Las manifestaciones extraarticulares clásicas de la artritis reumatoide incluyen los nódulos reumatoides subcutáneos, la pleuritis (con derrame exudativo de glucosa muy baja) y la enfermedad pulmonar intersticial, esta última especialmente frecuente en varones fumadores con anticuerpos antipéptido citrulinado positivos, pudiendo incluso preceder a la afectación articular. La afectación renal de la artritis reumatoide, sin embargo, no suele manifestarse en forma de glomerulonefritis proliferativa, hallazgo mucho más típico de otras conectivopatías como el lupus o las vasculitis ANCA; cuando existe nefropatía asociada a la AR, suele deberse a amiloidosis secundaria por depósito de proteína AA, a nefropatía inducida por fármacos (sales de oro, penicilamina) o a nefrotoxicidad por AINEs.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-117
 ¿Cuál de los siguientes es un objetivo prioritario en la estrategia terapéutica de la artritis reumatoide?:
@@ -68,9 +70,11 @@ B. Evitar tratamientos innecesarios en pacientes que a pesar de tener síntomas,
 C. El tratamiento debe ser temprano e intensivo.
 D. Debe aplicarse en todos los pacientes el mismo protocolo.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 117)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 117)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) describe la estrategia "treat to target" de forma textual: "un tratamiento personalizado, temprano... e intensivo, con una escalada rápida de dosis y, si es preciso, cambios frecuentes en el tratamiento, incluyendo asociaciones de fármacos" — esto confirma la opción C como cierta casi de forma literal, y contradice directamente la opción A (que propone justo lo contrario: evitar cambios y combinaciones). La clave oficial (B) no tiene respaldo textual claro en esta bibliografía. No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** En la artritis reumatoide, la estrategia actual 'treat to target' se basa en un tratamiento PRECOZ e INTENSIVO desde el diagnóstico (aprovechando la 'ventana de oportunidad' de los primeros meses), con metotrexato como fármaco de anclaje, y en ajustar el tratamiento de forma estrecha hasta alcanzar la remisión o la baja actividad: es el objetivo prioritario (C). No se debe evitar cambiar el tratamiento ni combinar fármacos (A): si no se alcanza el objetivo en 3-6 meses hay que escalar (combinaciones de FAME, biológicos o inhibidores de JAK). Tampoco es un objetivo prioritario evitar tratar a pacientes con síntomas y actividad inflamatoria aunque mantengan su actividad diaria (B), porque la inflamación no controlada produce daño articular irreversible. El tratamiento debe individualizarse, no aplicarse el mismo protocolo a todos (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-184
 Mujer de 70 años que refiere desde hace 1 mes dolor y rigidez en cinturas escapular y pelviana, que predomina al levantarse y mejora con la movilización, sin fiebre, cefalea ni afectación del estado general. En la exploración física se observa rigidez y dolor a la movilización de hombros y caderas. La analítica muestra una elevación de la VSG y la proteína C reactiva. ¿Qué diagnóstico es más probable y qué tratamiento prescribiría?:
@@ -80,9 +84,11 @@ B. Fibromialgia, iniciaría tratamiento con duloxetina.
 C. Polimialgia reumática, iniciaría tratamiento con corticoides.
 D. Espondilitis anquilosante, iniciaría tratamiento con antiinflamatorios no esteroideos.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 184)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 184)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (mujer de 70 años, dolor/rigidez BILATERAL de cinturas escapular y pelviana, sin afectación axial ni sacroilíaca, VSG/PCR elevadas) es la presentación de manual de la **polimialgia reumática** (§1.4) — la espondilitis anquilosante (clave oficial, D) debuta típicamente antes de los 45 años y cursa con lumbalgia inflamatoria y sacroilitis, datos ausentes en el enunciado. **Cross-validación dentro del propio dataset:** una pregunta prácticamente idéntica cuatro años después, MIR-2025-136 (varón de 70 años, mismo patrón clínico, serología negativa), tiene como clave oficial "B) Polimialgia reumática" — confirmando que el patrón de reconocimiento correcto SÍ está bien calibrado en años posteriores del propio banco de preguntas. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** La espondilitis anquilosante es una espondiloartritis axial crónica que se trata inicialmente con antiinflamatorios no esteroideos a dosis plenas y mantenidas, junto con un programa de ejercicio físico y fisioterapia, reservando los fármacos biológicos (anti-TNF, anti-IL17) para los casos con mala respuesta a los AINEs tras un ensayo terapéutico adecuado. Es una entidad que predomina en varones jóvenes con dolor lumbar inflamatorio de ritmo axial, rigidez matutina prolongada y mejoría con el ejercicio, en el contexto del complejo HLA-B27, y su diagnóstico se apoya en los hallazgos de sacroileítis en las pruebas de imagen.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-110
 Respecto a las manifestaciones extraarticulares de la artritis reumatoide, señale la respuesta INCORRECTA:
@@ -92,9 +98,11 @@ B. La manifestación cardiaca más frecuente es la pericarditis.
 C. La pleuritis se caracteriza por un derrame pleural con características de exudado y típicamente con glucosa muy baja.
 D. La manifestación hematológica más frecuente es la leucopenia.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 110)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 110)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1/§1.2) confirma textualmente que "la anemia es la manifestación hematológica MÁS FRECUENTE" de la AR, no la leucopenia — lo que convierte a la opción D en la afirmación falsa según el texto, no a la A (que es consistente con el conocimiento reumatológico estándar sobre el Sjögren secundario). Las opciones B (pericarditis) y C (derrame pleural exudativo con glucosa baja) están además confirmadas de forma literal por la misma bibliografía. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** La artritis reumatoide es efectivamente la causa más frecuente de síndrome de Sjögren secundario, produciendo clínica de queratoconjuntivitis seca y xerostomía similar a la de la forma primaria. La pericarditis es la manifestación cardíaca más frecuente en la AR y suele cursar de forma asintomática o subclínica. La pleuritis reumatoide se caracteriza por un derrame exudativo con glucosa marcadamente baja (con frecuencia por debajo de 30 mg/dl), LDH elevada y complemento bajo, perfil bioquímico muy característico. En cuanto a las manifestaciones hematológicas, la anemia de trastornos crónicos es, con diferencia, la alteración más frecuente en la artritis reumatoide, mientras que la leucopenia aislada es poco habitual fuera del contexto del síndrome de Felty.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-136
 Acude a su consulta un varón de 70 años con rigidez matutina y dolor a la movilización de cintura escapular y pélvica bilateral, desde hace tres meses, sin afectación de otras articulaciones periféricas. En la analítica destacan una leve anemia normocítica normocrómica y una velocidad de sedimentación glomerular de 85 mm en la primera hora. El factor reumatoide y los anticuerpos antipeptídicos citrulinados son negativos. ¿Cuál es su diagnóstico?:

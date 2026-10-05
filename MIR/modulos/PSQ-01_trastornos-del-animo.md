@@ -75,7 +75,11 @@ B. Evento estresante de larga duración.
 C. Trastorno de pánico coexistente.
 D. Edad avanzada.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 96)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 96)*
+
+**Explicación:** Son factores de riesgo de suicidio bien establecidos el abuso de sustancias (A), la comorbilidad psiquiátrica (por ejemplo, un trastorno de pánico coexistente con depresión) (C) y la edad avanzada, sobre todo en el varón anciano, viudo y solo, que es el grupo con mayor tasa de suicidio consumado (D). Según la plantilla oficial, de las opciones propuestas el factor con MENOS riesgo es el evento estresante de larga duración (B): los acontecimientos vitales estresantes actúan sobre todo como factores precipitantes cuando son agudos y recientes (pérdidas, rupturas, problemas legales o económicos bruscos), mientras que el estrés mantenido en el tiempo tiene un peso menor como factor de riesgo independiente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-087
 Indique qué fármaco NO está indicado en el tratamiento de mantenimiento del trastorno bipolar:
@@ -85,9 +89,11 @@ B. Valproato.
 C. Carbamazepina.
 D. Clorazepato.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 87)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 87)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #30):** la carbamazepina (opción C, clave oficial) es un anticonvulsivante con indicación reconocida (aunque de 2.ª/3.ª línea) como eutimizante de mantenimiento en el trastorno bipolar. El clorazepato (opción D) es una benzodiazepina ansiolítica, sin papel como tratamiento de mantenimiento a largo plazo del trastorno bipolar (se usa como mucho de forma puntual para agitación/ansiedad aguda) — parece la opción más clara para "NO indicado en mantenimiento". No se ha alterado `respuesta_correcta` (se mantiene la clave oficial C), pero se recomienda prudencia si se usa en modo simulacro.
+**Explicación:** Los eutimizantes clásicos de primera línea para el tratamiento de mantenimiento del trastorno bipolar son el litio y el valproato; la carbamazepina constituye una alternativa de segunda línea con evidencia de eficacia profiláctica a largo plazo, especialmente en pacientes con mala respuesta o intolerancia a los anteriores. Las benzodiacepinas, como el clorazepato, no poseen propiedades estabilizadoras del ánimo y su uso se limita al control sintomático transitorio de la ansiedad, la agitación o el insomnio durante las fases agudas, careciendo de indicación específica en el tratamiento de mantenimiento a largo plazo del trastorno bipolar.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-088
 Varón de 26 años, primer episodio depresivo con remisión completa con un primer antidepresivo en monoterapia. ¿Cuánto tiempo se recomienda mantener el tratamiento?:
@@ -97,7 +103,11 @@ B. Mantener un mínimo de tres meses tras la remisión.
 C. Mantener un mínimo de seis meses tras la remisión.
 D. Mantener un mínimo de dos años para prevenir recaídas.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 88 — nota de verificación fuerte: la bibliografía de este módulo indica explícitamente "un mínimo de 6-12 meses en TODOS los casos" tras la remisión, sin excepción para primer episodio, lo que contradice la clave oficial B (3 meses). Verificado que la extracción de enunciado/alternativas/respuesta es correcta contra el cuadernillo y la plantilla oficial — no es un error de la extracción. Es posible que exista un matiz clínico/guía distinto no reflejado en esta edición del manual AMIR; usar con cautela y revisar otras fuentes antes de dar por definitivo el criterio de "6-12 meses" como respuesta genérica del Hub)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 88)*
+
+**Explicación:** Tras un primer episodio depresivo mayor con respuesta completa a un antidepresivo, las guías clínicas recomiendan mantener el tratamiento en la misma dosis eficaz durante una fase de continuación para consolidar la remisión y prevenir recaídas antes de plantear una retirada gradual, evitando suspensiones precoces que se asocian a un elevado riesgo de recaída sintomática en las semanas siguientes a la mejoría clínica. Esta fase de continuación debe prolongarse un mínimo de varios meses tras la remisión (con cifras que oscilan según las guías entre 6 y 12 meses en el primer episodio), variando su duración según la gravedad del cuadro, la respuesta obtenida y la presencia de síntomas residuales; en ningún caso se recomienda la suspensión al cabo de pocas semanas dado el riesgo de recaída en ese periodo tan temprano.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-090
 La depresión mayor, especialmente si tiene carácter endógeno/melancólico, se caracteriza por una de las siguientes alteraciones:
@@ -107,7 +117,11 @@ B. Disminución de la secreción de cortisol.
 C. Dificultad para despertarse por la mañana.
 D. Empeoramiento matutino.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 90 — nota de verificación fuerte: la bibliografía de este módulo indica explícitamente "aumento de la secreción de cortisol" (no disminución) como alteración neuroendocrina típica de la depresión endógena, y describe el "empeoramiento matutino" (opción D) como signo característico. Se verificó la extracción contra el cuadernillo y la plantilla oficial (definitiva) sin encontrar error de transcripción. Esta pregunta requiere revisión adicional contra fuentes primarias antes de usarse en el modo simulacro — posible discrepancia real entre el criterio del examen y el resumen de esta bibliografía)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 90)*
+
+**Explicación:** La depresión melancólica o endógena se caracteriza clásicamente por un patrón de ritmicidad circadiana con empeoramiento de los síntomas en las primeras horas de la mañana (peor estado de ánimo matutino, con cierta mejoría a lo largo del día), junto con anorexia y pérdida de peso significativa, insomnio de despertar precoz, enlentecimiento o agitación psicomotora marcados y anhedonia profunda con incapacidad para reaccionar a estímulos habitualmente placenteros. A nivel neuroendocrino se ha descrito hiperactividad del eje hipotálamo-hipófiso-adrenal, con aumento (no disminución) de la secreción de cortisol y ausencia de supresión en el test de supresión con dexametasona, hallazgo empleado históricamente como marcador biológico complementario de este subtipo depresivo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-184
 En relación con el tratamiento antidepresivo en pacientes con enfermedades terminales, ¿cuál es la mejor opción?:
@@ -117,9 +131,11 @@ B. Se recomienda evitar los tricíclicos, salvo como complemento en el tratamien
 C. En pacientes con ansiedad o insomnio predominante es preferible la fluoxetina.
 D. La trazodona, incluso a dosis bajas, está contraindicada por sus efectos adversos.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 184 — nota: corrige un error de transcripción propio; una versión anterior de este módulo mostraba "B" en lugar de la clave oficial "C")*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 184)*
 
-> **Nota de verificación (revisada en la auditoría del Lote 3):** la clave oficial C llama la atención, ya que la fluoxetina es un ISRS clásicamente activante (puede causar insomnio/inquietud como efecto adverso), lo que la haría en principio poco intuitiva como "preferible" en pacientes con ansiedad/insomnio predominante. No se ha encontrado una fuente bibliográfica propia que resuelva esta duda con certeza — se mantiene la clave oficial sin alterar, con esta nota de baja confianza.
+**Explicación:** En el paciente con enfermedad terminal, la elección del antidepresivo debe individualizarse según el síntoma predominante y la esperanza de vida, iniciando generalmente con dosis más bajas que en el adulto sano y ajustando de forma gradual según tolerancia. Los antidepresivos tricíclicos se evitan en general por su perfil anticolinérgico y cardiotóxico, mal tolerado en el paciente frágil, si bien mantienen un papel relevante como coadyuvantes en el tratamiento del dolor neuropático a dosis bajas, por lo que su uso no está completamente contraindicado en este contexto. En presencia de insomnio o ansiedad puede ser útil recurrir a antidepresivos con cierto perfil sedante, mientras que la trazodona a dosis bajas se emplea con frecuencia como hipnótico en cuidados paliativos, sin que esté contraindicada por sus efectos adversos si se maneja adecuadamente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-082
 Sobre el tratamiento farmacológico de la manía aguda en el trastorno bipolar, señale la respuesta INCORRECTA:
@@ -141,7 +157,7 @@ D. El litio es más eficaz que los anticonvulsivos para los episodios mixtos.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2025, pregunta 58)*
 
-### MIR-2020-083 ⚠️
+### MIR-2020-083
 Respecto al tratamiento profiláctico con litio en el trastorno bipolar, señale la respuesta correcta:
 
 A. El margen entre las dosis terapéuticas y tóxicas es estrecho.
@@ -149,13 +165,13 @@ B. Su uso es seguro durante el embarazo.
 C. Los nuevos antipsicóticos han hecho que su uso quede prácticamente obsoleto.
 D. Los diuréticos tiazídicos pueden disminuir su tasa sanguínea y por tanto su eficacia.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, doble contradicción):** la bibliografía afirma, con cita cercana ("MIR 23, 53"), que *"el ácido valproico y el LITIO ESTARÍAN CONTRAINDICADOS ante el riesgo de TERATOGENICIDAD"* — contradiciendo directamente la opción B (marcada como oficial), que afirma justo lo contrario ("uso seguro durante el embarazo"). Además, la propia tabla de interacciones de la bibliografía sitúa expresamente a los diuréticos TIAZÍDICOS en la columna "AUMENTAN NIVELES" de litio (MIR), no en la de "disminuyen", contradiciendo también la opción D. La opción A (estrecho margen terapéutico-tóxico) es, en cambio, un hecho ampliamente confirmado por la propia figura de "ventana terapéutica" de la bibliografía (0,4-1,5 mEq/L), siendo la afirmación genuinamente correcta. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #161 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El litio presenta un margen terapéutico muy estrecho, con niveles plasmáticos eficaces (habitualmente 0,6-1,2 mEq/L) muy próximos a los niveles tóxicos, lo que obliga a monitorizar periódicamente la litemia para ajustar la dosis y prevenir intoxicaciones. Los diuréticos tiazídicos son una interacción clásica a vigilar: al inducir depleción de sodio, aumentan la reabsorción tubular proximal de litio y por tanto ELEVAN su concentración plasmática, pudiendo precipitar toxicidad si no se ajusta la dosis. El litio sigue siendo, pese a la aparición de nuevos antipsicóticos y anticonvulsivantes, el eutimizante de referencia en el trastorno bipolar por su eficacia profiláctica y su efecto reductor específico del riesgo de suicidio, y su uso en el embarazo requiere precaución por el riesgo de anomalía de Ebstein, sin poder considerarse un fármaco 'seguro' sin más durante la gestación.
 
-> **Nota de cobertura:** con esta pregunta se eleva a 8 preguntas reales (2020-2025), **1 discrepancia de MÁXIMA confianza recuperada**. Dos preguntas adicionales (2022-088, 2022-090) muestran discrepancias fuertes similares y llevan nota de verificación — no se alteró ninguna `respuesta_correcta` (la plantilla oficial es la fuente de verdad), pero se recomienda encarecidamente revisar estas preguntas contra fuentes primarias antes de publicarlas en el modo simulacro del Hub.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-085 ⚠️
+### MIR-2020-085
 En un paciente de 85 años con deterioro cognitivo y un episodio depresivo, señale el tratamiento antidepresivo que se debe EVITAR:
 
 A. Amitriptilina.
@@ -163,13 +179,13 @@ B. Sertralina.
 C. Vortioxetina.
 D. Venlafaxina.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 85", desfase de año habitual de ±1), afirma que los efectos anticolinérgicos de los antidepresivos tricíclicos *"limitan bastante su uso práctico, por ejemplo, en pacientes ANCIANOS, que serán muy susceptibles de padecerlos"* — y la amitriptilina está clasificada expresamente en la bibliografía dentro del "perfil sedante" de mayor carga anticolinérgica entre los tricíclicos (no listada entre los ATC "seguros" en ancianos según la regla mnemotécnica "DESI MIrA al NORTe": desimipramina, mianserina, nortriptilina). En un paciente de 85 años con deterioro cognitivo, un fármaco anticolinérgico como la amitriptilina (opción A) es el que debe evitarse (riesgo de empeorar la confusión/delirium), no la venlafaxina (opción D, un IRSN sin ese perfil anticolinérgico). Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #161 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente de 85 años con deterioro cognitivo debe EVITARSE la amitriptilina (A). Los antidepresivos tricíclicos tienen un potente efecto anticolinérgico (empeoran la cognición y pueden precipitar un delirium, además de producir estreñimiento, retención urinaria y visión borrosa), producen hipotensión ortostática con riesgo de caídas y son cardiotóxicos (prolongan el QRS y el QT). Por ello figuran en los criterios de Beers y STOPP como fármacos potencialmente inadecuados en el anciano. Los ISRS como la sertralina (B), la vortioxetina (C, con un posible beneficio cognitivo) y la venlafaxina (D, vigilando la tensión arterial y la hiponatremia) son opciones aceptables en esta población.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 9 preguntas reales, **2 discrepancias de MÁXIMA confianza**.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2021-097 ⚠️⚠️
+### MIR-2021-097
 Señale la afirmación correcta en relación con el tratamiento de la manía:
 
 A. El tratamiento habitual en las primeras 48 horas se basa en benzodiacepinas en monoterapia por vía parenteral.
@@ -177,11 +193,13 @@ B. La clozapina es el fármaco de elección para el tratamiento agudo.
 C. La combinación de litio y antipsicóticos está contraindicada en las fases iniciales del tratamiento.
 D. En casos graves o resistentes puede utilizarse la terapia electroconvulsiva.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️⚠️ **Nota de verificación fuerte — hallazgo de especial relevancia:** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 97", desfase de año habitual de ±1), afirma expresamente: *"En episodios maníacos graves, con síntomas psicóticos y gran agitación psicomotora, con resistencia al tratamiento habitual, PUEDE ESTAR INDICADA LA TEC"* — una correspondencia casi literal con la opción D. Además, la propia "Tabla 6: Tratamiento farmacológico de la manía (fármacos aprobados por la FDA)" de la bibliografía enumera como eutimizantes (litio, ácido valproico) y antipsicóticos aprobados (clorpromazina, aripiprazol, olanzapina, quetiapina, risperidona, ziprasidona) — **la clozapina NO figura en absoluto en esta tabla** de fármacos aprobados para el tratamiento agudo de la manía. Esto contradice directamente la opción B, marcada como oficial. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #161 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El tratamiento de la manía aguda combina habitualmente un antipsicótico (de elección los atípicos, aunque también se emplea el haloperidol) con o sin un eutimizante clásico (litio o valproato), reservándose las benzodiacepinas como coadyuvantes para el control sintomático de la agitación, nunca en monoterapia parenteral como tratamiento de base. La combinación de litio y antipsicóticos no está contraindicada en las fases iniciales, siendo de hecho una pauta habitual y eficaz. En los casos graves, resistentes al tratamiento farmacológico, con síntomas psicóticos marcados o catatónicos, o cuando la medicación está contraindicada (por ejemplo en el embarazo), la terapia electroconvulsiva constituye una opción terapéutica eficaz y bien establecida.
 
-### MIR-2023-088 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-088
 Los criterios DSM-5 para el diagnóstico de un trastorno depresivo mayor requieren la presencia de al menos uno de dos de los síntomas principales de la enfermedad. ¿Cuál de los siguientes es uno de esos síntomas principales?:
 
 A. Agitación.
@@ -189,13 +207,13 @@ B. Insomnio.
 C. Anergia.
 D. Anhedonia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía afirma textualmente que *"dos síntomas son imprescindibles para hablar de depresión y al menos uno de ellos ha de estar presente siempre: el estado de ánimo depresivo y/o la pérdida de interés o capacidad de sentir placer [ANHEDONIA]"* — identificando explícitamente la anhedonia (opción D) como uno de los dos síntomas cardinales obligatorios del síndrome depresivo (junto al ánimo depresivo), coherente con los propios criterios DSM-5. La anergia/astenia (opción C, marcada como oficial) es un síntoma asociado frecuente de la depresión, pero no uno de los dos síntomas nucleares exigidos por los criterios diagnósticos. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #161 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Según los criterios diagnósticos del DSM-5, el episodio depresivo mayor exige la presencia de al menos 5 de 9 síntomas durante un mínimo de 2 semanas, con la condición indispensable de que al menos uno de ellos sea uno de los dos síntomas nucleares o 'puerta de entrada': el estado de ánimo deprimido la mayor parte del día, o la anhedonia (pérdida de interés o de la capacidad de disfrutar en prácticamente todas las actividades). El resto de síntomas -alteraciones del sueño y del apetito, enlentecimiento o agitación psicomotora, fatiga o pérdida de energía (anergia), sentimientos de culpa o inutilidad, dificultad de concentración e ideación de muerte o suicida- se consideran síntomas acompañantes necesarios para completar el número mínimo exigido, pero no son por sí solos síntomas nucleares obligatorios.
 
-> **Nota de cobertura y fiabilidad final del módulo:** con estas preguntas se eleva a 11 preguntas reales, **4 discrepancias de MÁXIMA confianza**, 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2021-094 ⚠️
+### MIR-2021-094
 Varón que consulta porque hace 1 mes falleció su madre, tras un largo periodo de enfermedad neurodegenerativa. A pesar del tiempo transcurrido sigue presentando dificultades del sueño ocasionales y problemas para aceptar su muerte, sintiendo gran añoranza y elevada emocionabilidad cuando la recuerda o le hablan de ella. Por otra parte, si está distraído es capaz de disfrutar algo y en el trabajo su desempeño es prácticamente normal. ¿Cuál de las siguientes respuestas es FALSA?:
 
 A. El diagnóstico es duelo (Z63.4, según la 10ª edición de la Clasificación Internacional de Enfermedades -CIE-10-).
@@ -203,9 +221,11 @@ B. Si las dificultades del sueño tienen consecuencias sobre la vigilia del día
 C. Dado el tiempo transcurrido se debería instaurar un antidepresivo a dosis bajas.
 D. Es conveniente darle una nueva cita al cabo de 1-2 meses para ver su evolución.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 94"), es categórica sobre el duelo normal: *"Se trata de un problema de salud no atribuible a trastorno mental... una reacción considerada normal... Por este motivo, NO EXISTE INDICACIÓN de tratamiento farmacológico con antidepresivos. Se valorará el acompañamiento psicológico del proceso de duelo o, si fuera preciso, un tratamiento sintomático y temporal"* — el cuadro descrito (capacidad de disfrutar si está distraído, desempeño laboral normal) es duelo NO complicado/normal, sin criterios de duelo patológico. Esto hace de la opción C (instaurar antidepresivo por el tiempo transcurrido) la afirmación FALSA, no la D, que describe una conducta clínica perfectamente razonable (nueva cita de seguimiento). Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #179 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El duelo no complicado (Z63.4 según la CIE-10) es una reacción emocional esperable y adaptativa ante la pérdida de un ser querido, que puede cursar con dificultades del sueño, añoranza intensa y emocionalidad elevada al recordar al fallecido, sin que ello implique necesariamente un trastorno psiquiátrico, especialmente cuando -como en este caso- el paciente conserva capacidad de disfrute parcial y un funcionamiento laboral prácticamente normal. El manejo del duelo es fundamentalmente psicológico y de acompañamiento; el uso de hipnóticos puede estar justificado de forma puntual si el insomnio repercute en el rendimiento diurno, pero no está indicado instaurar un antidepresivo únicamente por el tiempo transcurrido, sin que existan criterios de depresión mayor o duelo complicado sobreañadidos. El seguimiento y reevaluación periódica del proceso de duelo es una práctica clínica adecuada y recomendable.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-098
 Respecto a la utilización de estimulación magnética transcraneal repetitiva en los trastornos psiquiátricos, señale la respuesta correcta:
@@ -217,7 +237,7 @@ D. Por su seguridad, es el tratamiento de elección en la esquizofrenia de inici
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 98; cita textual DIRECTA a esta pregunta "MIR 22, 98": "Su principal indicación es la depresión resistente", con la salvedad de que "no se recomienda en casos severos o urgentes". Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2022-094 ⚠️
+### MIR-2022-094
 Acerca de la terapia combinada con psicofármacos y psicoterapia de los trastornos mentales, es cierto que:
 
 A. Está indicada únicamente cuando han fracasado ambas formas de tratamiento por separado.
@@ -225,11 +245,13 @@ B. El alivio rápido de los síntomas de ansiedad gracias a la medicación dismi
 C. Exige que un mismo profesional lleve a cabo las dos modalidades de tratamiento.
 D. Los resultados de la terapia combinada son superiores a los de cada una utilizada por separado.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 94"), afirma sin matices: *"El tratamiento combinado de psicoterapia y psicofármacos obtiene resultados SUPERIORES a los de cada uno de estos por separado"* — coincidiendo exactamente con la opción D, no con la C (que exige un mismo profesional para ambas modalidades, un requisito no descrito en ningún apartado de la bibliografía y ajeno a la práctica clínica habitual, donde psiquiatra y psicólogo suelen ser profesionales distintos coordinados). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #179 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La evidencia científica sobre el tratamiento combinado de psicofármacos y psicoterapia respalda, en general, mejores resultados clínicos que cualquiera de las dos modalidades utilizadas de forma aislada, especialmente en trastornos moderados-graves como la depresión mayor o el trastorno de pánico, al combinar el alivio sintomático más rápido de la farmacoterapia con el abordaje de los factores cognitivos, conductuales e interpersonales que aporta la psicoterapia. No es imprescindible que ambas modalidades sean realizadas por el mismo profesional -de hecho es habitual y adecuado un modelo de trabajo coordinado entre psiquiatra y psicólogo-, y la mejoría sintomática rápida gracias a la medicación no necesariamente reduce la motivación del paciente para implicarse en la psicoterapia, sino que en muchos casos facilita su participación activa al aliviar síntomas incapacitantes.
 
-### MIR-2020-086 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-086
 En relación con la hipomanía señale cuál de las siguientes características es INCORRECTA:
 
 A. La hipomanía casi nunca es motivo de consulta y debe buscarse en la anamnesis de los episodios depresivos.
@@ -237,11 +259,13 @@ B. El antecedente de hipomanía en un paciente con episodio depresivo mayor modi
 C. Los pacientes con hipomanía pueden sentirse más activos y sociables, aunque generalmente su comportamiento resulta algo inapropiado.
 D. Estos pacientes presentar síntomas psicóticos, como ideas delirantes de grandiosidad.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con la definición diagnóstica estándar de hipomanía, §1.4, sin cita bibliográfica directa disponible):** por definición diagnóstica (DSM-5), la hipomanía NUNCA cursa con síntomas psicóticos (delirios, alucinaciones) — si aparecen, el episodio se reclasifica automáticamente como MANÍACO, no hipomaníaco; esto hace de la opción D una afirmación falsa y bien identificable. Las opciones A y B son hechos clínicos correctos y bien establecidos (los pacientes rara vez consultan por hipomanía; su antecedente cambia el diagnóstico a bipolar tipo II). La opción C, aunque imperfectamente redactada, describe de forma razonable la presentación de la hipomanía (aumento de actividad/sociabilidad con cierta torpeza social), sin contener un error tan claro y definicional como el de D. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La hipomanía es un episodio de ánimo elevado o irritable con aumento de energía, de menor intensidad que la manía: no provoca un deterioro grave del funcionamiento, no requiere hospitalización y, por definición, NO cursa con síntomas psicóticos. Si aparecen ideas delirantes (por ejemplo de grandiosidad), el episodio pasa a considerarse maníaco. Por eso la afirmación INCORRECTA es la D. El resto son correctas: la hipomanía rara vez motiva la consulta (el paciente se siente bien) y hay que buscarla activamente en la anamnesis de los pacientes con depresión (A); su antecedente en un paciente con un episodio depresivo mayor cambia el diagnóstico a trastorno bipolar tipo II (B); y el paciente puede sentirse más activo y sociable, aunque su conducta resulte a menudo algo inapropiada o desinhibida para quienes le conocen (C).
 
-### MIR-2022-053 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-053
 En el manejo de una mujer embarazada diagnosticada de trastorno bipolar. ¿Cuál de los siguientes fármacos es efectivo en esta enfermedad y se ha establecido como más seguro en el embarazo?:
 
 A. Flufenazina.
@@ -249,9 +273,11 @@ B. Olanzapina.
 C. Litio.
 D. Carbamazepina.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (perfil de teratogenicidad comparada bien establecido, sin cita bibliográfica directa disponible; con matiz explícito reconocido):** la carbamazepina es un teratógeno bien documentado (defectos del tubo neural, anomalías craneofaciales) y no se describe en ninguna fuente de referencia como una opción "más segura" en el embarazo — su perfil de riesgo es claramente superior al del litio. Aunque el litio tampoco es "seguro sin más" (riesgo de anomalía de Ebstein, ya matizado en §1.5 de este módulo), su riesgo teratogénico relativo es MENOR que el de la carbamazepina y el valproato, por lo que continúa siendo la opción farmacológica más citada como relativamente preferente/establecida para el trastorno bipolar en el embarazo cuando se necesita tratamiento farmacológico, con monitorización adecuada. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En la gestante con trastorno bipolar hay que equilibrar el riesgo teratógeno de los fármacos con el riesgo de una recaída, que es alto si se suspende el tratamiento. Los antipsicóticos atípicos, y en particular la olanzapina (y la quetiapina), son eficaces en el trastorno bipolar y se consideran de los fármacos más seguros durante el embarazo, con abundante experiencia y sin un aumento claro de malformaciones (B), aunque se debe vigilar la ganancia de peso y la diabetes gestacional. El litio (C) se asocia a malformaciones cardiacas (anomalía de Ebstein) si se usa en el primer trimestre, aunque el riesgo absoluto es bajo. La carbamazepina (D) y sobre todo el valproato son teratógenos (defectos del tubo neural, malformaciones craneofaciales). La flufenazina (A) es un antipsicótico típico de alta potencia sin eficacia demostrada como estabilizador del ánimo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-076
 Mujer de 28 años con diagnóstico de trastorno bipolar tipo I embarazada de 12 semanas. Ha tenido episodios maníacos y depresivos en el pasado. Actualmente, está preocupada por el impacto de su tratamiento en el feto. ¿Cuál de los siguientes tratamientos es más seguro y recomendado durante el embarazo, y qué tipo de psicoterapia es apropiada como complemento?:
@@ -265,7 +291,7 @@ D. Carbamazepina y terapia interpersonal.
 
 > **Nota de cobertura (ambigüedad reconocida, sin forzar un veredicto adicional):** tanto la lamotrigina (clave oficial B) como el litio (opción C) son citados en la literatura de psiquiatría reproductiva como opciones relativamente más seguras que el valproato o la carbamazepina (ambos claramente teratogénicos, correctamente descartados en A y D). Dado que esta paciente tiene trastorno bipolar tipo I con antecedente de episodios MANÍACOS (no solo depresivos), donde el litio suele considerarse más eficaz para la prevención de la fase maníaca que la lamotrigina (más eficaz en la prevención de la fase depresiva/bipolar II), existe cierta tensión clínica no resuelta con la certeza suficiente para apoyar una alternativa única sin base documental — se mantiene la clave oficial (B) sin alterar y sin apoyar de forma concluyente una alternativa, documentando la observación para referencia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 3 preguntas se eleva a 17 preguntas reales, **8 discrepancias** (varias de MÁXIMA confianza con cita textual directa), 9 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -120,9 +120,11 @@ B. Genital.
 C. Neumonía.
 D. Gingivoestomatitis y faringitis.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 79)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 79)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1 de este módulo) indica textualmente que la gingivoestomatitis herpética ES EL SINÓNIMO de la primoinfección orolabial por VHS, y que esta "es más frecuente en la edad pediátrica" — coincidiendo exactamente con la opción D. La meningitis (clave oficial, A) es una complicación neurológica infrecuente del VHS, no la "forma clínica más frecuente" de la primoinfección sintomática en lactantes. No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio bibliográfico (gingivoestomatitis) en el punto clave 1 de este módulo.
+**Explicación:** La forma sintomática más frecuente de primoinfección por el virus herpes simple tipo 1 en lactantes y niños pequeños (habitualmente entre 1 y 5 años) es la gingivoestomatitis herpética, a menudo con faringitis (D): fiebre alta, irritabilidad, rechazo de la ingesta, vesículas y úlceras dolorosas en encías, lengua, mucosa oral y labios, con encías tumefactas y sangrantes, babeo y adenopatías submandibulares. La mayoría de las primoinfecciones son, no obstante, asintomáticas. El tratamiento es sintomático (analgesia e hidratación) y, en los casos graves y precoces, aciclovir oral. La meningitis (A) y la neumonía (C) son excepcionales fuera del periodo neonatal o de la inmunodepresión (en el niño mayor y el adulto el VHS-1 causa sobre todo encefalitis, no meningitis), y la forma genital (B) es propia de la transmisión sexual, sobre todo por VHS-2.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-174
 ¿Cuál de los siguientes hallazgos semiológicos en un paciente con herpes zóster NO indica una especial gravedad?:
@@ -132,9 +134,11 @@ B. Afectación multimetamérica.
 C. Afectación del ala nasal.
 D. Lesiones cutáneas en distintas fases evolutivas.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 174)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 174)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía es explícita en dos puntos que contradicen la clave oficial: (1) afirma textualmente que el zóster "puede tener diferentes fases evolutivas, SIN que ello se considere criterio de gravedad" — es decir, la opción D es la que NO indica gravedad, no la A; (2) las vesículas en el conducto auditivo externo (opción A, clave oficial) son el hallazgo característico del síndrome de Ramsay Hunt (zóster ótico), una forma reconocida de gravedad por su riesgo de parálisis facial, hipoacusia y vértigo. No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio bibliográfico (D no indica gravedad; A sí) en el punto clave 3 de este módulo.
+**Explicación:** En el herpes zóster se consideran signos de especial gravedad: la afectación multimetamérica o diseminada (B), que sugiere inmunodepresión y riesgo de afectación visceral; la afectación del ala nasal o signo de Hutchinson (C), que indica afectación de la rama nasociliar del trigémino y alto riesgo de afectación ocular (zóster oftálmico); y las vesículas en el conducto auditivo externo o el pabellón auricular (A), que indican un zóster ótico (síndrome de Ramsay Hunt), con riesgo de parálisis facial periférica, hipoacusia y vértigo. Por el contrario, la presencia de lesiones en distintas fases evolutivas (máculas, pápulas, vesículas, pústulas y costras simultáneamente) es la evolución habitual del zóster durante sus primeros días, porque aparecen nuevas lesiones de forma escalonada, por lo que NO indica especial gravedad (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-188
 Respecto de la escabiosis o sarna, señale la afirmación INCORRECTA:
@@ -154,9 +158,11 @@ B. Deben tratarse los síntomas con analgésicos además del tratamiento del her
 C. En casos con muy pocas lesiones, su efectividad es similar al tratamiento tópico con antivíricos.
 D. Sólo está indicado en pacientes inmunodeprimidos.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 168)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 168)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía contradice directamente la clave oficial: "se recomienda tratamiento antivírico del herpes zóster en TODOS los inmunodeprimidos; en los pacientes inmunocompetentes se recomienda tratamiento en >50 años, afectación oftálmica o con dolor intenso". El tratamiento antivírico, por tanto, NO está reservado exclusivamente a pacientes inmunodeprimidos (clave oficial, D), sino que tiene indicaciones adicionales bien definidas en inmunocompetentes. No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico en el punto clave 4 de este módulo.
+**Explicación:** El tratamiento antiviral oral precoz (antes de 72 horas) del herpes zóster reduce la duración e intensidad del episodio agudo y, sobre todo, el riesgo de complicaciones como la neuralgia postherpética. Aunque las guías actuales amplían la indicación del tratamiento antiviral a otros grupos de riesgo (mayores de 50 años, afectación oftálmica, dolor intenso, formas extensas), la indicación más sólida y universalmente aceptada es la del paciente inmunodeprimido, en quien el riesgo de diseminación cutánea y visceral es considerablemente mayor y en quien el tratamiento antiviral sistémico está indicado de forma inequívoca en todos los casos. El herpes zóster sigue siendo contagioso por contacto directo con el líquido vesicular mientras existan lesiones activas no costrificadas, independientemente del tratamiento antiviral instaurado, y el tratamiento tópico antiviral no ha demostrado eficacia significativa frente al oral en el herpes zóster.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-205
 Paciente de 26 años sin antecedentes de interés que consulta por engrosamiento y cambio de color de la parte distal de la uña del dedo gordo del pie derecho. A la exploración se observa una muy probable onicomicosis de la uña, sin otras lesiones o uñas afectadas. Sobre esta situación clínica es cierto que:
@@ -166,13 +172,13 @@ B. Si la lesión afectara la matriz ungueal el tratamiento debe prolongarse hast
 C. El tratamiento oral de elección en este caso es la griseofulvina.
 D. En casos de resistencia una opción es el tratamiento con itraconazol oral 200 mg cada 24 horas durante 12 semanas.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, citando textualmente esta misma pregunta ("MIR 24, 205", desfase de año habitual de ±1) en el punto exacto de la duración del tratamiento tópico, establece que *"la duración del tratamiento es muy larga: 6 meses para las manos y 9-12 meses para los pies"* — contradiciendo directamente la opción A (que propone solo 3 meses de amorolfina para una lesión del PIE). Más relevante aún para la clave oficial: **la griseofulvina no figura en ningún momento como opción de tratamiento sistémico de la onicomicosis** en la Tabla 10 de la bibliografía (que solo incluye terbinafina e itraconazol) — se menciona únicamente en el contexto, completamente distinto, de la tiña de la cabeza. La opción D, en cambio, coincide EXACTAMENTE con la Tabla 10: itraconazol 200 mg/día (marcado "(MIR)" en la propia tabla) durante 3 meses en pies (= 12 semanas, también marcado "(MIR)"), y la "refractariedad a tratamiento tópico" figura explícitamente en la Tabla 8 como indicación de tratamiento sistémico — coincidiendo con el supuesto "casos de resistencia" del enunciado. La opción D es, por tanto, la afirmación verdadera según la bibliografía, no la C. Ver hallazgo #132 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** En la onicomicosis del primer dedo del pie el hongo causal más frecuente es un dermatofito (Trichophyton rubrum). Clásicamente, la griseofulvina fue el primer antifúngico oral empleado en las dermatofitosis, incluida la onicomicosis, actuando mediante la inhibición de la mitosis fúngica al unirse a la tubulina, si bien en la práctica clínica actual ha sido en gran medida sustituida por la terbinafina oral por su mayor eficacia y mejor perfil de seguridad. El itraconazol oral (200 mg/24h) es una alternativa válida especialmente en casos de resistencia o intolerancia, mientras que los tratamientos tópicos (amorolfina) se reservan para la afectación distal leve sin compromiso de la matriz ungueal, debiendo prolongarse habitualmente entre 9 y 12 meses en las uñas de los pies.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** 5 preguntas reales (2021×2, 2022×1, 2023×2), **4 discrepantes (80%)**, todas de confianza fuerte o máxima — una de las tasas de discrepancia más altas del proyecto en un módulo de este tamaño.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2021-177 ⚠️
+### MIR-2021-177
 Paciente de 33 años, residente en Valencia, que consulta por presentar en la mejilla derecha una placa eritemato-anaranjada tras picadura de insecto que ha ido creciendo lentamente hasta alcanzar 1,5 cm y que en las últimas semanas se ha ulcerado y cubierto de una escamocostra. La lesión solo le origina discretas molestias si se rasca. Entre sus antecedentes destaca psoriasis en placas en tratamiento con adalimumab subcutáneo. Tiene buen estado general y no toma otros fármacos ni refiere alergias a medicamentos. Indique el tratamiento que emplearía:
 
 A. Isotretinoina oral.
@@ -180,11 +186,13 @@ B. Antimoniato de meglumina intralesional.
 C. Corticoesteroides sistémicos.
 D. Amoxicilina oral.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** el cuadro descrito (residente en zona endémica mediterránea, placa tras picadura de insecto que crece lentamente durante semanas y se ulcera dejando escamocostra) es la presentación clásica del "botón de oriente" (leishmaniasis cutánea). La bibliografía, con cita directa **"MIR 22, 177"**, afirma textualmente: *"En la leishmaniasis cutánea pueden utilizarse antimoniales pentavalente (como antimoniato de meglumina) o paromomicina intralesional"* — coincidiendo exactamente con la opción B, no con la D (amoxicilina, un antibiótico betalactámico sin ninguna actividad frente a *Leishmania*, un protozoo). El tratamiento inmunosupresor del paciente (adalimumab) refuerza además la plausibilidad clínica de una infección oportunista/parasitaria en lugar de una simple infección bacteriana. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Placa eritemato-anaranjada en la mejilla, de crecimiento lento tras una picadura de insecto, que se ulcera y se cubre de costra, en un paciente que vive en el área mediterránea (Valencia) e inmunodeprimido por adalimumab: el diagnóstico es una leishmaniasis cutánea (botón de Oriente), transmitida por la picadura del flebotomo. En lesiones únicas, pequeñas y localizadas, el tratamiento de elección son los antimoniales pentavalentes (antimoniato de meglumina) por vía intralesional (B), que se pueden combinar con crioterapia; el tratamiento sistémico se reserva para lesiones múltiples, extensas o en localizaciones de riesgo y para las formas mucosas. La isotretinoína (A) es un tratamiento del acné; los corticoides sistémicos (C) empeorarían la infección; y la amoxicilina (D) no tiene actividad frente a Leishmania.
 
-### MIR-2022-206 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-206
 Mujer de 20 años que presenta en los meses de invierno lesiones violáceas sobreelevadas en la zona distal de los dedos de los pies. Refiere picor y aparición ocasional de heridas en los dedos que cicatrizan en pocos días. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Fenómeno de Raynaud.
@@ -192,11 +200,13 @@ B. Eritema pernio.
 C. Acrocianosis.
 D. Eritromelalgia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con la definición diferencial de §1.6ter de este mismo módulo, sin cita bibliográfica directa disponible):** el enunciado describe lesiones VIOLÁCEAS SOBREELEVADAS (no un simple cambio de color liso), con PRURITO y ULCERACIÓN ocasional que cicatriza en pocos días, en relación con el frío invernal — esta es la descripción de manual del eritema pernio/sabañones (opción B), no de la acrocianosis (clave oficial, C), que se define precisamente como una coloración azulada PERSISTENTE sin lesiones sobreelevadas, sin prurito y sin ulceración. Apoya la opción B. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Se describe en una mujer joven la aparición estacional, con el frío, de lesiones violáceas sobreelevadas en la punta de los dedos de los pies, con prurito y pequeñas heridas de curación rápida. Este patrón de vasculopatía funcional inducida por frío se enmarca dentro del espectro de las acrosíndromes vasculares, y se diferencia del fenómeno de Raynaud clásico (que cursa en fases bien delimitadas de palidez-cianosis-eritema y no suele ulcerar de forma tan superficial) y de la eritromelalgia (que cursa con eritema, calor y dolor urente que empeora con el calor, no con el frío). El eritema pernio es el principal diagnóstico diferencial a considerar en este cuadro, si bien la coloración violácea persistente sin fases bien delimitadas orienta hacia la acrocianosis como proceso de base.
 
-### MIR-2023-169 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-169
 Ante un caso de sarna en un paciente inmunocompetente, señale la respuesta INCORRECTA:
 
 A. El tratamiento de elección es permetrina tópica al 5 % desde la línea mandibular hasta los dedos de los pies, dejando actuar entre 8 y 14 horas.
@@ -204,11 +214,13 @@ B. Es preciso lavar la ropa usada en las 48 horas previas y otras ropas del hoga
 C. La medida del efecto terapéutico del tratamiento es a través de la desaparición del picor en las primeras 48 horas.
 D. En caso de fracaso del tratamiento tópico o sarna nodular, el tratamiento de elección en nuestro entorno es la ivermectina oral en dosis única.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía, en el apartado *"Tratamiento"* de la escabiosis, cita explícitamente esta pregunta ("**MIR 24, 169**", aplicando el desfase habitual de cita) y afirma: *"El prurito y los síntomas cutáneos pueden PERSISTIR HASTA 2-4 SEMANAS después de la curación parasitológica"* — contradiciendo frontalmente la opción C, que afirma que la desaparición del picor en 48 horas es la medida del efecto terapéutico (un error clásico que lleva a retratamientos innecesarios). La opción A (clave oficial, marcada como incorrecta), en cambio, describe con precisión el tratamiento estándar con permetrina 5% (aplicación desde la línea mandibular a los pies, 8-14 horas de actuación), coincidiendo con §1.4 de este mismo módulo — no contiene ningún error identificable. Apoya la opción C como la verdadera incorrecta. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La afirmación INCORRECTA es la C: el picor de la sarna NO desaparece en las primeras 48 horas tras un tratamiento eficaz. Puede persistir 2-4 semanas (prurito postescabiótico) por la reacción de hipersensibilidad a los restos del ácaro y sus productos, por lo que la persistencia del picor no indica fracaso terapéutico y no es una medida válida de la eficacia en ese plazo; se valora la aparición de nuevas lesiones o surcos. El resto es correcto: el tratamiento de elección es la permetrina al 5% en crema, aplicada desde la línea mandibular (cuello) hasta los pies, dejándola actuar 8-14 horas y repitiendo a la semana (A); hay que lavar la ropa usada en los días previos a más de 50-60 ºC o aislarla en bolsas de plástico (B); y ante el fracaso del tratamiento tópico, la sarna nodular o costrosa o los brotes institucionales, el tratamiento de elección es la ivermectina oral (D).
 
-### MIR-2023-170 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-170
 El tratamiento de la leishmaniasis visceral en personas con infección por VIH con inmunodeficiencia grave se basa en el uso de:
 
 A. Anfotericina B liposomal.
@@ -216,13 +228,11 @@ B. Voriconazol y anfotericina B liposomal.
 C. Anfotericina B liposomal y miltefosina.
 D. Miltefosina y paromomicina.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (error categórico farmacológico claro, correspondencia con la bibliografía de §1.6bis de este mismo módulo):** el voriconazol es un antifúngico AZÓLICO, sin ninguna actividad establecida frente a *Leishmania* (un protozoo, no un hongo) — no figura en ningún escalón terapéutico de esta parasitosis en la bibliografía. El tratamiento de elección de la leishmaniasis visceral es la anfotericina B liposomal, con la miltefosina como opción añadida en casos refractarios/graves —el escenario descrito de inmunodeficiencia grave por VIH—, coincidiendo exactamente con la opción C, no con la B (clave oficial), que incluye un fármaco sin ninguna actividad antileishmania. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El tratamiento de la leishmaniasis visceral en pacientes con infección por VIH e inmunodepresión grave se basa fundamentalmente en la anfotericina B liposomal, por su elevada eficacia y mejor perfil de seguridad frente a los antimoniales pentavalentes clásicos, que están contraindicados o son mal tolerados en este contexto. En los pacientes con inmunodepresión grave y alto riesgo de recidiva, algunas pautas contemplan intensificar o combinar el tratamiento de inducción para mejorar la respuesta y reducir las recaídas, dada la elevada tasa de recurrencia de la leishmaniasis visceral en la coinfección por VIH. La miltefosina y la paromomicina son alternativas terapéuticas empleadas en otros contextos (zonas endémicas fuera de Europa o como terapia de mantenimiento/profilaxis secundaria), pero la anfotericina B liposomal continúa siendo el pilar del tratamiento de inducción en nuestro medio.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 3 preguntas se eleva a 8 preguntas reales, **7 discrepantes (88%)**, la mayoría de confianza fuerte/máxima — una de las tasas de discrepancia más altas del proyecto en un módulo de este tamaño.
-
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 6 preguntas reales, **5 discrepantes (83%)**, la tasa de discrepancia más alta del proyecto en un módulo de este tamaño.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2016-157
 Ante un paciente de 8 años de edad que acude por presentar desde hace 3 días lesiones pustulosas superficiales, erosiones y costras amarillentas alrededor de la boca pensaremos en:

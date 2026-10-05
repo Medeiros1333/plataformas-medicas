@@ -59,9 +59,11 @@ B. Oxigenoterapia nocturna domiciliaria.
 C. Presión positiva de doble nivel en la vía aérea.
 D. Medidas higiénico-dietéticas generales.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 134)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 134)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.2) no menciona en ningún momento la oxigenoterapia como tratamiento de la AOS. Además, este paciente NO cumple los criterios de indicación de CPAP (IAH≥15 + al menos 1 de: Epworth >10, alteración de calidad de vida, HTA): su Epworth es de solo 5 (muy por debajo de 10), no se refiere alteración de la calidad de vida ni HTA ("sin antecedentes cardiovasculares"). Según la bibliografía, en pacientes sin estos criterios la primera intervención son las **medidas higiénico-dietéticas generales** (opción D, no elegida), que "deben aplicarse a todos los pacientes". No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** Este paciente presenta un síndrome de apnea-hipopnea obstructiva del sueño de gravedad moderada (índice de apnea-hipopnea de 15/hora) pero sin somnolencia diurna relevante (Epworth de 5, por debajo del punto de corte de significación clínica) ni desaturación nocturna franca (saturación media del 94%), por lo que la primera medida terapéutica recomendada no es la CPAP (reservada para pacientes sintomáticos o con comorbilidad cardiovascular relevante) sino las medidas higiénico-dietéticas generales: pérdida de peso, evitar el decúbito supino, evitar alcohol y sedantes antes de dormir, y tratamiento de factores agravantes, revalorando posteriormente la necesidad de tratamiento con presión positiva según la evolución clínica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-208
 Varón de 68 años que presenta afectación del estado general de 4 días de evolución con fiebre y tos con expectoración. Exploración física: crepitantes bibasales. Radiografía de tórax: infiltrados con patrón alveolo intersticial periférico. PCR para SARS-CoV 2 positiva. Relación entre presión parcial de oxígeno en sangre arterial y fracción inspiratoria de oxígeno es 250. ¿Cuál de los siguientes es el diagnóstico más probable?:
@@ -71,9 +73,11 @@ B. Neumonía bacteriana en paciente positivo a SARS-CoV2.
 C. Neumonía por SARS-CoV 2 con síndrome de distrés respiratorio agudo.
 D. Infección grave por SARS-CoV 2 con hipoventilación alveolar.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 208)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 208)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) recoge los criterios de Berlín para el diagnóstico de SDRA: infiltrados bilaterales + PaO2/FiO2 ≤300 mmHg (SDRA leve: 201-300 mmHg) — el caso descrito (PaO2/FiO2 de 250, infiltrados bilaterales periféricos, inicio agudo por SARS-CoV-2) cumple de forma literal los criterios de SDRA leve (opción C, no elegida). La hipoventilación alveolar (clave oficial, D) se caracteriza por un aumento de la PaCO2 con gradiente alveoloarterial de oxígeno normal o aumentado, un mecanismo distinto que no se define por el cociente PaO2/FiO2 descrito en el enunciado. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Este paciente con neumonía por SARS-CoV-2 confirmada presenta un cociente PaO2/FiO2 de 250, lo que se encuentra en el rango de insuficiencia respiratoria aguda hipoxémica con lesión pulmonar (PaO2/FiO2 entre 200-300, criterio de SDRA leve según la definición de Berlín), y no una hipoventilación alveolar (que se caracterizaría por retención de CO2, no reflejada en este cociente), por lo que el diagnóstico más probable es una neumonía por SARS-CoV-2 con un cuadro de distrés respiratorio agudo de grado leve, en el marco de la neumonía intersticial bilateral característica de esta infección vírica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-127
 Mujer de 71 años diagnosticada de esclerosis lateral amiotrófica. Es valorada en consulta por ortopnea y cefalea matutina. Presenta una capacidad vital forzada del 40 %, PaCO2 de 53 mmHg. La oximetría nocturna muestra una saturación de oxígeno media de 91 % y un 16 % del tiempo con saturación de oxigeno inferior al 90 % y alguna desaturación inferior al 70 %. ¿Cuál de las siguientes actitudes es más apropiada?:
@@ -83,9 +87,11 @@ B. Realizar controles clínicos sin iniciar un tratamiento concreto en el moment
 C. Iniciar oxigenoterapia por presentar insuficiencia respiratoria nocturna.
 D. Iniciar presión positiva continua (CPAP).
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 127)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 127)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.4) es explícita: en las enfermedades neuromusculares (como la ELA de este caso) está indicada la "ventilación no invasiva por BiPAP", reservándose la CPAP específicamente "en los trastornos ventilatorios del sueño" — no en la insuficiencia respiratoria hipercápnica de causa neuromuscular. El cuadro descrito (CVF 40%, PaCO2 elevada, cefalea matutina, hipoventilación nocturna) es la indicación de manual de VMNI en ELA (opción A, categoría general que incluye BiPAP, no elegida). No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Esta paciente con esclerosis lateral amiotrófica presenta datos de insuficiencia respiratoria crónica de predominio nocturno secundaria a debilidad de la musculatura respiratoria (capacidad vital forzada muy reducida, hipercapnia diurna con PaCO2 53 mmHg, y desaturaciones nocturnas significativas con cefalea matutina y ortopnea, síntomas típicos de hipoventilación nocturna). En este contexto, la ventilación mecánica no invasiva está indicada precozmente, ya que no solo mejora los síntomas y la calidad de vida, sino que ha demostrado prolongar la supervivencia en los pacientes con ELA y afectación de la musculatura respiratoria, siendo superior a la simple oxigenoterapia (que no corrige la hipoventilación ni la hipercapnia y puede incluso empeorar la retención de CO2 al suprimir el estímulo hipóxico).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-157
 ¿En qué casos debe priorizarse la indicación de tratamiento con CPAP para la apnea obstructiva del sueño (AOS)?:

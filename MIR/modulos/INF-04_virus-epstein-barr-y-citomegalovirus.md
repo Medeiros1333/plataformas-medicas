@@ -67,7 +67,7 @@ B. Si se logra la remisión, el único tratamiento curativo es el trasplante aut
 C. Existe una activación incesante de linfocitos CD8+ y macrófagos.
 D. El tratamiento de elección son los anticuerpos monoclonales anti-IL6 asociado a anticuerpos monoclonales antiTNF.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 180; el cuadro es un síndrome hemofagocítico secundario a VEB — la bibliografía confirma la activación de CD8+/macrófagos (C, cierta) y la asociación del VEB al síndrome de Duncan ligado al X (A, cierta), y describe el tratamiento real como trasplante de progenitores en formas primarias + inmunosupresores (etopósido, dexametasona, ciclosporina A) en las secundarias — sin ninguna mención a anti-IL6/anti-TNF, lo que confirma D como la afirmación incorrecta, ver §1.3)*
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2025-038
 Respecto al diagnóstico de la enfermedad por citomegalovirus, señale la respuesta INCORRECTA:

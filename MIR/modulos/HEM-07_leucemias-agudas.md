@@ -33,7 +33,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-005 ⚠️
+### MIR-2020-005
 Pregunta asociada a la imagen 5. Las células indiferenciadas (blastos) de la imagen son típicas, por sus granulaciones en forma de bastones alargados, de:
 
 A. Mieloma secretor de IgA leucemizado.
@@ -41,9 +41,11 @@ B. Linfoma folicular leucemizado.
 C. Leucemia aguda mieloide.
 D. Leucemia aguda linfoide.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 5"), describe los bastones de Auer como el hallazgo histológico característico de la LAM M3: *"blastos con núcleo hendido, hipergranulación, bastones de Auer (MIR 21, 5)"* — un hallazgo definido en toda la bibliografía como exclusivamente MIELOIDE (nunca se describe en neoplasias de células plasmáticas como el mieloma, ni en neoplasias linfoides). La opción A (mieloma secretor de IgA leucemizado), clave oficial, es histológicamente incompatible con la presencia de bastones de Auer, que son gránulos primarios de blastos mieloides. Apoya la opción C (leucemia aguda mieloide). Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #176 en `PROCESO_Y_APRENDIZAJE.md`. Primera pregunta del nuevo módulo HEM-07.
+**Explicación:** Los bastones de Auer son inclusiones citoplasmáticas eosinófilas, alargadas, formadas por la fusión anómala de gránulos primarios (mieloperoxidasa positivos), y constituyen un hallazgo morfológico patognomónico de los blastos mieloides, presente en la leucemia aguda mieloide (siendo especialmente numerosos, en haces, en la leucemia promielocítica aguda o M3). Su presencia excluye por definición el origen linfoide de los blastos (leucemia aguda linfoide) y no es un hallazgo propio de neoplasias de célula plasmática (mieloma) ni de linfomas leucemizados, que no presentan estos gránulos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2012-097
 Una mujer de 43 años consulta a su médico de atención primaria por cansancio, gingivorragias y petequias. Se realiza analítica en la que destaca: anemia de 8 g/dl; trombopenia de 4.000/microlitro y leucopenia de 1.200/microlitro con neutropenia absoluta. En el estudio de coagulación se observa alargamiento de APTT (43"), actividad de la protrombina disminuida (55%), hipofibrinogenemia (98 mg/dl) y presencia de concentración elevada de dímero-D y monómeros de fibrina. Se remite para estudio hematológico urgente, realizándose un aspirado de médula ósea en el que se observa una infiltración masiva por elementos inmaduros con núcleo hendido, y numerosas astillas y bastones de Auer en el citoplasma. ¿Cuál es el diagnóstico más probable de esta paciente?

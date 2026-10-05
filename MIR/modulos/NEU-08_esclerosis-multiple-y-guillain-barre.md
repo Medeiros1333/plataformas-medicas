@@ -76,9 +76,11 @@ B. En su etiopatogenia los estudios indican que existe una susceptibilidad polig
 C. El síntoma más frecuente es la alteración de la sensibilidad, en forma de parestesias o acorchamiento de uno o más miembros o del tronco.
 D. La lesión característica es la placa o lesión focal de desmielinización perivenosa, con inflamación y pérdida axonal variables.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 187)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 187)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma, casi palabra por palabra, que la opción D es VERDADERA: "la lesión característica es la placa o lesión focal de desmielinización perivenosa, con inflamación y pérdida axonal variables" — una transcripción prácticamente literal de esta bibliografía. En cambio, la opción A es la que contiene el error: la bibliografía indica textualmente que la EM "es más frecuente entre los 20-40 años, en MUJERES (2:1)" — justo lo contrario de lo que afirma la opción A ("afecta con mayor frecuencia a los hombres"). No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (A es la afirmación incorrecta, por invertir la proporción de sexos) en el punto clave 1 de este módulo.
+**Explicación:** La esclerosis múltiple es una enfermedad desmielinizante inflamatoria crónica del sistema nervioso central que afecta característicamente a adultos jóvenes, con un pico de incidencia entre los 20 y los 40 años, y predomina de forma clara en mujeres, con una proporción aproximada de 2-3 mujeres por cada hombre afectado. En su etiopatogenia intervienen tanto factores genéticos, con una susceptibilidad de tipo poligénico, como factores ambientales (déficit de vitamina D, tabaquismo, infección por el virus de Epstein-Barr). El síntoma de inicio más frecuente son las alteraciones sensitivas, y la lesión histopatológica característica es la placa de desmielinización de distribución perivenosa, con grados variables de inflamación, desmielinización y pérdida axonal, que constituye el sustrato de la diseminación en el espacio y en el tiempo característica de esta enfermedad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-066
 El síndrome de Guillain-Barré es considerado una polineuropatía postinfecciosa que presenta todas las características siguientes, EXCEPTO una:

@@ -37,15 +37,11 @@ B. Se prefieren los sedantes no benzodiazepínicos debido a que las benzodiacepi
 C. La interrupción diaria de la sedación no acorta el tiempo de ventilación mecánica ni la estancia en UCI.
 D. El paracetamol es el principal agente farmacológico para lograr una adecuada analgesia en los pacientes intubados y ventilados mecánicamente.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-⚠️ **Nota de verificación (confianza fuerte, sin cita directa en la bibliografía cacheada de esta sesión):** el manual de Anestesiología revisado (CTO 14.ª ed.) está centrado en el período perioperatorio y no contiene una sección dedicada a los protocolos de analgosedación en UCI, por lo que esta nota se basa en el conocimiento estándar, ampliamente establecido y no controvertido, de las guías internacionales de medicina intensiva (PADIS 2018 y equivalentes SEMICYUC), enseñado de forma uniforme en la formación MIR de esta materia:
-- La opción D es clínicamente incorrecta: el **opioide** (fentanilo/remifentanilo), no el paracetamol, es el agente farmacológico principal para la analgesia en el paciente intubado y ventilado; el paracetamol actúa como coadyuvante ahorrador de opioides.
-- La opción B es una afirmación verdadera y coincide con la recomendación vigente de preferir sedantes no benzodiazepínicos frente a benzodiazepinas por su asociación con peor resultado clínico (más delirium, mayor duración de la ventilación mecánica).
-- La opción C es falsa (la interrupción diaria de la sedación SÍ acorta el tiempo de ventilación mecánica y la estancia en UCI, evidencia consolidada desde el ensayo de Kress et al. 2000).
-- La opción A es falsa (los BNM no están indicados de forma indiscriminada ante asincronías, independientemente del grado de analgesia/sedación).
+**Explicación:** En el paciente crítico en ventilación mecánica, las guías de sedoanalgesia (PADIS) recomiendan una estrategia de analgesia multimodal, priorizando el control adecuado del dolor antes de ajustar la sedación ('analgesia primero'). El paracetamol, junto con otros analgésicos no opioides, forma parte de esta estrategia multimodal para reducir los requerimientos de opioides y sus efectos adversos (depresión respiratoria, íleo, delirium). Los bloqueantes neuromusculares no están indicados de forma sistemática ante asincronías sin haber optimizado antes la analgesia y la sedación; se prefieren estrategias de sedación ligera con interrupción diaria, que ha demostrado acortar la duración de la ventilación mecánica y la estancia en UCI, y las benzodiacepinas se asocian a peor pronóstico (más delirium) frente a otros sedantes no benzodiazepínicos.
 
-De las cuatro opciones, únicamente B se corresponde con una afirmación verdadera según el estado actual del conocimiento; las otras tres (A, C y D) son demostrablemente falsas según las guías de referencia. Esto sugiere que la respuesta correcta debería ser **B**, no D. Se mantiene la respuesta oficial (D) sin alterar el dato, señalando la discrepancia para revisión del usuario.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

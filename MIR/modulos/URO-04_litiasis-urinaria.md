@@ -27,7 +27,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-169 ⚠️
+### MIR-2020-169
 ¿Cuál de los siguientes iones urinarios favorece la formación de litiasis urinaria?:
 
 A. Citrato.
@@ -35,11 +35,11 @@ B. Magnesio.
 C. Sodio.
 D. Sulfato.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (conocimiento estándar bien establecido de urolitiasis, sin cita bibliográfica directa disponible):** el citrato (A) y el magnesio (B) son, de forma clásica y universalmente enseñada, los principales INHIBIDORES de la formación de litiasis urinaria (no promotores) — su presencia reduce, no favorece, la litogénesis. El SODIO urinario elevado (C), en cambio, es un promotor bien documentado de la litiasis cálcica, al aumentar la excreción urinaria de calcio por arrastre natriurético — mecanismo por el cual la restricción de sal es una medida preventiva estándar en la litiasis recidivante. El sulfato (clave oficial D) no es un ion clásicamente enseñado como promotor de litiasis en la bibliografía estándar de urología del MIR, a diferencia del sodio, que sí lo es de forma consistente y ampliamente documentada. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada del pool de especialidad ya asignada pero sin módulo.)*
+**Explicación:** La excreción urinaria elevada de sodio favorece la formación de cálculos (C): el sodio y el calcio comparten mecanismos de reabsorción en el túbulo proximal y el asa de Henle, de modo que una dieta rica en sal aumenta la natriuria y con ella la calciuria; además, el exceso de sodio disminuye el citrato urinario y favorece la cristalización del urato monosódico. Por eso la restricción de sal forma parte del tratamiento de la litiasis cálcica. El citrato (A) y el magnesio (B) son inhibidores de la litogénesis, porque forman complejos solubles con el calcio y el oxalato. El sulfato (D) no se considera un promotor directo relevante de la litiasis.
 
-> **Nota de cobertura y fiabilidad del módulo:** primer módulo de litiasis urinaria del proyecto, 1 pregunta real, 1 discrepancia de confianza fuerte.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

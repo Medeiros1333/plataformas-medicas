@@ -1,7 +1,7 @@
 # FAR-01 · Fases del ensayo clínico, farmacovigilancia y monitorización de fármacos
 
 **Especialidad:** Farmacología (FAR)
-**Peso histórico:** primer módulo del proyecto para Farmacología — especialidad sin ningún módulo previo. Bibliografía reutilizada de `EST_full.txt` (AMIR, Epidemiología y Estadística, Tema 7 "Tipos de estudios epidemiológicos" — fases del ensayo clínico y farmacovigilancia), ya cacheada de un lote anterior de la sesión. Las 3 preguntas candidatas resultaron con una tasa de discrepancia del 67% (2 de 3), la más alta de un módulo nuevo desde el lote de Estadística (hallazgo #182).
+**Peso histórico:** primer módulo del proyecto para Farmacología — especialidad sin ningún módulo previo. Bibliografía reutilizada de `EST_full.txt` (AMIR, Epidemiología y Estadística, Tema 7 "Tipos de estudios epidemiológicos" — fases del ensayo clínico y farmacovigilancia), ya cacheada de un lote anterior de la sesión. (Las "discrepancias" detectadas inicialmente en las preguntas 2020-2023 de este módulo se debían a una plantilla de respuestas de otro año y ya están corregidas — hallazgo #217.)
 
 ---
 
@@ -58,7 +58,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-126 ⚠️
+### MIR-2020-126
 La monitorización de las concentraciones plasmáticas de fármaco se realiza con frecuencia en la práctica clínica para ajustar la pauta posológica de:
 
 A. Digoxina.
@@ -66,11 +66,13 @@ B. Pioglitazona.
 C. Acenocumarol.
 D. Carbimazol.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, farmacología clínica estándar y universalmente establecida, sin cita bibliográfica directa localizada en los manuales cacheados de esta sesión):** la digoxina es EL ejemplo clásico y más citado en toda la bibliografía farmacológica de fármaco de estrecho margen terapéutico cuya pauta posológica se ajusta mediante monitorización rutinaria de concentraciones plasmáticas (junto con litio, fenitoína, aminoglucósidos, vancomicina). El carbimazol (antitiroideo, clave oficial D) se ajusta según la respuesta clínica/analítica de función tiroidea (TSH, T4 libre), no mediante niveles plasmáticos del propio fármaco — no es una práctica de monitorización farmacocinética estándar. El acenocumarol se monitoriza mediante INR (marcador farmacodinámico, no concentración plasmática directa) y la pioglitazona no requiere monitorización de niveles. Apoya la opción A (Digoxina). Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** La monitorización de las concentraciones plasmáticas de fármacos (monitorización terapéutica farmacológica) se realiza en fármacos con un margen terapéutico estrecho, en los que existe una relación estrecha entre la concentración plasmática y el efecto clínico o tóxico, y una alta variabilidad interindividual en su farmacocinética. La digoxina es el ejemplo clásico de fármaco cardiovascular monitorizado por este motivo, dado su estrecho margen terapéutico y el riesgo de toxicidad digitálica. El acenocumarol se monitoriza mediante el INR (un marcador farmacodinámico, no la concentración plasmática del fármaco), y ni la pioglitazona ni, habitualmente, el carbimazol requieren monitorización sistemática de niveles plasmáticos, ajustándose este último en función de la respuesta clínica y de las hormonas tiroideas.
 
-### MIR-2023-050 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-050
 Un ensayo clínico cuyo objetivo fundamental es obtener datos preliminares de eficacia terapéutica y establecer la relación entre las dosis y la eficacia para determinar un intervalo de dosis adecuadas, es un:
 
 A. Estudio preclínico.
@@ -78,11 +80,13 @@ B. Ensayo clínico fase I.
 C. Ensayo clínico fase II.
 D. Ensayo clínico fase III.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** la bibliografía, con cita directa **"MIR 24, 50"**, describe la fase II como el empleo del tratamiento en un grupo reducido de enfermos donde *"se evalúan adecuadamente datos de eficacia PRELIMINARES"*, y específicamente la fase IIb como aquella *"cuyo objetivo es probar varias dosis del fármaco para establecer la relación dosis-respuesta (titulación de dosis) y elegir la dosis más adecuada"* — esta descripción coincide de forma prácticamente literal con el enunciado ("datos preliminares de eficacia... relación entre las dosis y la eficacia... intervalo de dosis adecuadas"). En cambio, la bibliografía describe la fase III (clave oficial, D) como la fase que *"demuestra si el nuevo tratamiento va a ser útil... y constituye la evidencia FUNDAMENTAL del beneficio-riesgo"*, ya usando la dosis ya determinada en fase II, no estableciendo el intervalo de dosis. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Los ensayos clínicos en fase II tienen como objetivo fundamental obtener información preliminar sobre la eficacia terapéutica del fármaco en la indicación estudiada, así como establecer la relación dosis-respuesta para determinar el intervalo de dosis más adecuado que se empleará posteriormente en los ensayos de fase III, en los que se confirma la eficacia y seguridad en una población más amplia, habitualmente comparando frente al tratamiento estándar. Los ensayos preclínicos son estudios in vitro y en animales previos a la administración en humanos, y los ensayos de fase I se realizan típicamente en voluntarios sanos para evaluar la seguridad, la tolerabilidad y el perfil farmacocinético inicial del fármaco.
 
-### MIR-2023-051 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-051
 Para la detección de reacciones adversas a medicamentos poco frecuentes (<1/10.000) el método de fármacovigilancia más adecuado es:
 
 A. Notificaciones espontáneas.
@@ -90,11 +94,13 @@ B. Monitorización intensiva hospitalaria.
 C. Estudios de cohorte.
 D. Metaanálisis.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** la bibliografía, con cita directa **"MIR 24, 51"**, define la farmacovigilancia como *"sistema de notificación espontánea de posibles reacciones adversas... Intenta detectar reacciones adversas POCO FRECUENTES (que no se detectaron en los ensayos clínicos realizados por su limitado tamaño muestral) y que sólo se podrán detectar cuando el fármaco se administre a MILES de personas en la práctica clínica habitual"* — esta es una descripción textual casi literal del escenario planteado en el enunciado (detección de RAM <1/10.000), señalando expresamente la notificación espontánea (opción A) como el método diseñado para ello. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Para la detección de reacciones adversas a medicamentos poco frecuentes (incidencia inferior a 1/10.000), los ensayos clínicos previos a la comercialización carecen del tamaño muestral suficiente para detectarlas, por lo que resulta fundamental la farmacovigilancia poscomercialización. El sistema de notificación espontánea de sospechas de reacciones adversas (tarjeta amarilla) permite recoger datos de una población mucho más amplia y heterogénea que la de los ensayos clínicos, siendo el método clásico de generación de señales de alerta sobre reacciones adversas raras. Los estudios de cohortes y la monitorización intensiva hospitalaria son útiles para reacciones más frecuentes, y el metaanálisis sintetiza la información ya publicada, dependiendo de la calidad y el tamaño de los estudios individuales que lo componen.
 
-### MIR-2020-056 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-056
 La capacidad de un medicamento de producir el efecto deseado en condiciones ideales de uso es lo que llamamos:
 
 A. Efectividad.
@@ -102,9 +108,11 @@ B. Eficacia.
 C. Potencia farmacológica.
 D. Afinidad intrínseca.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual estrecha, sin cita directa a esta pregunta exacta):** la bibliografía distingue explícitamente eficacia de efectividad al describir la fase III del ensayo clínico: *"la eficacia demostrada se parecerá a la 'efectividad' que se observará en la población"* — la eficacia se demuestra en condiciones controladas/ideales (ensayo clínico), la efectividad en condiciones reales de uso. Esto coincide EXACTAMENTE con la definición del enunciado ("condiciones IDEALES de uso"), que corresponde a la opción B (Eficacia), no a la D (afinidad intrínseca, clave oficial), un concepto farmacodinámico distinto relacionado con la fuerza de unión fármaco-receptor, no con la capacidad de producir el efecto clínico deseado. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La eficacia farmacológica es clásicamente definida como la capacidad máxima de un fármaco para producir el efecto deseado en condiciones experimentales u óptimas de uso, dependiendo de sus propiedades intrínsecas de interacción con el receptor. Este concepto se relaciona estrechamente con la actividad o afinidad intrínseca del fármaco por su receptor, es decir, su capacidad de, una vez unido, activarlo y desencadenar la respuesta biológica, un concepto distinto de la potencia (dosis necesaria para lograr un efecto determinado) y de la efectividad (resultado del fármaco en condiciones reales de uso clínico, no ideales).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-089
 Para tratar el dolor neuropático periférico se podría utilizar uno de los siguientes fármacos antiepilépticos:
@@ -118,7 +126,7 @@ D. Levetiracetam.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, farmacología clínica estándar) — la gabapentina (junto con la pregabalina) es un antiepiléptico de uso establecido y de primera línea en el dolor neuropático periférico. La etosuximida se limita a crisis de ausencia, la vigabatrina a espasmos infantiles/epilepsia refractaria, y el levetiracetam es un antiepiléptico de amplio espectro sin esa indicación específica establecida. Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2023-052 ⚠️
+### MIR-2023-052
 Uno de los siguientes fármacos, además de su efecto analgésico, posee un efecto relajante de fibra muscular lisa:
 
 A. Diclofenaco.
@@ -126,9 +134,11 @@ B. Paracetamol.
 C. Ketorolaco.
 D. Metamizol.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual de apoyo —"buen control del dolor visceral"—, sin cita directa a esta pregunta exacta):** la bibliografía describe específicamente el metamizol como una pirazolona con *"buena acción analgésica y antipirética. Buen control del dolor VISCERAL"* — una propiedad diferencial que no se atribuye a ningún otro AINE de la misma tabla (ketorolaco, diclofenaco), y que en farmacología clínica se relaciona clásicamente con su efecto adicional espasmolítico/relajante de la fibra muscular lisa (de ahí su utilidad característica en el dolor cólico renal y biliar, mecanismo distintivo frente al resto de AINE). Apoya la opción D (Metamizol). Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El metamizol (dipirona) es un fármaco analgésico y antipirético del grupo de las pirazolonas que, además de su efecto analgésico central y periférico, posee un reconocido efecto espasmolítico o relajante sobre la fibra muscular lisa, lo que explica su amplio uso en nuestro medio para el tratamiento del dolor cólico (renal, biliar), a diferencia de otros AINE como el diclofenaco o el ketorolaco, que carecen de este efecto antiespasmódico específico, y del paracetamol, que no tiene actividad antiinflamatoria significativa ni efecto relajante de la fibra muscular lisa.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-157
 ¿Qué fármaco de los mencionados a continuación ha de tenerse en cuenta cuando se evalúa a un paciente con hiperparatiroidismo?:
@@ -154,7 +164,7 @@ D. Son igual o más eficaces que los antagonistas de la vitamina K para prevenir
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, contraindicación clásica y universalmente enseñada) — los ACOD/DOAC están formalmente CONTRAINDICADOS en pacientes portadores de PRÓTESIS VALVULARES CARDÍACAS MECÁNICAS y en la estenosis mitral moderada-grave de origen reumático (el ensayo RE-ALIGN mostró resultados desfavorables de dabigatrán frente a warfarina en portadores de válvulas mecánicas) — la afirmación de que pueden administrarse en "todo tipo" de prótesis cardíacas es, por tanto, la falsa, coincidiendo con la clave oficial C. El resto de opciones (A, B, D) son afirmaciones establecidas sobre el perfil de eficacia/seguridad de los ACOD. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 5 preguntas se eleva a 8 preguntas reales, **5 discrepancias** (2 de MÁXIMA confianza con cita textual directa, 3 de confianza fuerte sin cita exacta pero con correspondencia textual de apoyo), 3 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 
@@ -169,8 +179,6 @@ D. Cuando puede producir algún riesgo considerable de abuso, dependencia o ser 
 **Respuesta correcta: C**
 
 > ⚠️ **Nota de verificación de confianza moderada (recuerdo normativo sin cita bibliográfica directa disponible, se marca con menor certeza que otras notas de este módulo):** el Real Decreto 1345/2007 (normativa española de medicamentos) distingue varias categorías de "medicamentos sujetos a prescripción médica especial", entre ellas los de "diagnóstico hospitalario" (enfermedades cuyo diagnóstico debe establecerse en medio hospitalario, aunque puedan dispensarse después en oficina de farmacia) y los de "especial control médico" (que incluyen precisamente el riesgo de abuso, dependencia o desviación a usos ilegales — la descripción que da textualmente la opción D). La opción D parece describir con mayor precisión la categoría regulatoria de "especial control médico"/sustancias con potencial de abuso, que podría corresponder al término "prescripción médica restringida" del enunciado, distinto de la categoría de "diagnóstico hospitalario" que describe la clave oficial C. Dada la incertidumbre en el recuerdo exacto de la terminología regulatoria española sin acceso a la normativa textual, esta nota se marca con confianza MODERADA (no fuerte/máxima como el resto del módulo) — posible apoyo a la opción D, sin descartar que C sea correcta según la terminología exacta del RD 1345/2007. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, sumando 1 posible discrepancia de confianza moderada (menor certeza que el resto de discrepancias documentadas en este módulo).
 
 ## 4. Preguntas inéditas
 

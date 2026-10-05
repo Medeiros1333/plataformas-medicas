@@ -63,7 +63,7 @@ D. Fractura en tallo verde de región sinfisaria mandibular.
 
 > **Nota de cobertura:** confirmación LIMPIA con cita textual directa a esta misma pregunta ("MIR 20-21, 59", formato de citación por curso académico propio de la bibliografía CTO): el cuello condilar es la parte más débil de la mandíbula y el traumatismo directo sobre el mentón transmite la fuerza hacia el cóndilo — coincidiendo con la clave oficial. Reclasificada de TRA a ORL por mejor ajuste bibliográfico (cirugía maxilofacial). Sin discrepancia.
 
-### MIR-2021-060 ⚠️
+### MIR-2021-060
 Paciente de 20 años que acude a urgencias tras sufrir un accidente de bicicleta con traumatismo facial. Se realiza TC craneal que muestra una fractura del tercio medio facial que afecta a la región órbito-malar. Una de las complicaciones más frecuentes de este tipo de fracturas es:
 
 A. Anquilosis témporo-mandibular.
@@ -71,11 +71,13 @@ B. Maloclusión dental.
 C. Pseudoartrosis naso-etmoidal.
 D. Enoftalmos.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe la clínica característica de las fracturas que afectan al SUELO/reborde orbitario (íntimamente relacionadas con el complejo orbito-malar) como diplopía, **ENOFTALMOS**, escalón del reborde orbitario y atrapamiento muscular — sin mencionar la maloclusión entre sus hallazgos característicos (la maloclusión es propia de fracturas que afectan directamente al arco dentario: LeFort I/mandibulares, no de fracturas orbito-malares aisladas). Esto apoya la opción D, no B. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #155 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las fracturas del tercio medio facial que afectan a la región órbito-malar (fracturas del complejo cigomático-malar, también llamadas trípode malar) pueden alterar el volumen y la configuración de la órbita ósea, siendo el enoftalmos (por aumento del volumen orbitario tras el desplazamiento óseo) y la hipoestesia infraorbitaria (por afectación del nervio infraorbitario) las complicaciones más características y frecuentes de este tipo concreto de fractura. La maloclusión dental es una complicación más característica de las fracturas que afectan directamente al proceso alveolar dentario o al maxilar en su conjunto (fracturas de Le Fort) o a la mandíbula, más que de las fracturas aisladas del complejo órbito-malar.
 
-### MIR-2022-058 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-058
 Niño de 5 años que sufrió un accidente de bicicleta con traumatismo facial sin pérdida de conciencia, objetivándose en urgencias únicamente una herida en el mentón, realizándose sutura de la misma. Es remitido a consulta 5 días después del traumatismo por presentar limitación y desviación de la apertura bucal. ¿Cuál es el diagnóstico más probable?:
 
 A. Fractura tipo LeFort.
@@ -83,9 +85,11 @@ B. Fractura combinada de mandíbula y maxilar superior.
 C. Fractura de cóndilo mandibular.
 D. Fractura de sínfisis y rama horizontal de la mandíbula.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** el mismo mecanismo (traumatismo directo sobre el mentón) y la misma clínica clave (limitación Y DESVIACIÓN de la apertura bucal) que en MIR-2020-059 —confirmada allí por cita bibliográfica directa como fractura de cóndilo mandibular— se repiten aquí. La desviación de la apertura bucal hacia un lado es precisamente el signo descrito en la bibliografía para la fractura condílea unilateral (desplazamiento mandibular hacia el lado ipsilateral a la fractura), no un hallazgo característico de las fracturas LeFort (que cursan con maloclusión y movilidad del paladar, sin ese patrón específico de desviación de apertura). Esto apoya la opción C, no A. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #155 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Ante un niño con traumatismo directo sobre el mentón que, días después, desarrolla limitación y desviación de la apertura bucal (sin otros signos de fractura facial evidentes en la valoración inicial), debe sospecharse una fractura de cóndilo mandibular, ya que el mecanismo indirecto de transmisión de fuerza desde un impacto en la sínfisis mentoniana se propaga a través del cuerpo mandibular hasta concentrarse en el cuello del cóndilo, su punto más débil biomecánicamente. La desviación de la apertura bucal hacia el lado afecto (por la acción sin oposición del músculo pterigoideo lateral del lado sano) es el signo clínico clásico de esta fractura.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-002
 Pregunta asociada a la imagen 2. Paciente que ha sufrido un accidente de bicicleta con traumatismo facial directo sobre la región anterior de la mandíbula. Se realiza la tomografía computarizada (TC) de la imagen que confirma una:
@@ -95,9 +99,11 @@ B. Fractura panfacial tipo Lefort II.
 C. Fractura mandibular bicondílea inestable.
 D. Fractura mandibular bilateral en ramas horizontales inestable.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> **Nota de cobertura:** confirmación LIMPIA — traumatismo directo anterior sobre la mandíbula (sínfisis) transmitiendo fuerza bilateralmente hacia ambos cóndilos, coherente con el mecanismo fisiopatológico descrito en §1.5 (el cuello condilar es la parte más débil de la mandíbula) y con el patrón de MIR-2020-059/MIR-2022-058. Pregunta con imagen (TC), no verificable visualmente, pero clínicamente coherente con la clave oficial. Sin discrepancia detectada.
+**Explicación:** Pregunta dependiente de la imagen (TC no disponible en este proyecto). Tras un traumatismo directo sobre la región anterior de la mandíbula, según la plantilla oficial la TC muestra una fractura mandibular bilateral en las ramas horizontales (cuerpo mandibular), inestable (D). La mandíbula es un anillo óseo que tiende a fracturarse en dos puntos; las fracturas bilaterales del cuerpo son inestables porque la musculatura suprahioidea desplaza el fragmento central (anterior) hacia atrás y abajo, con riesgo de caída de la lengua y obstrucción de la vía aérea, y suelen requerir reducción y fijación con placas (osteosíntesis). Las fracturas de Le Fort (A y B) afectan al maxilar superior (tercio medio facial), no a la mandíbula. La fractura bicondílea (C) es otra consecuencia posible de un impacto en el mentón, pero no es la que muestra la imagen según la clave oficial.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-049
 Señale la actitud correcta ante un paciente en edad infantil que refiere antecedente de traumatismo facial no tratado hace 3 años y que presenta limitación progresiva de la apertura oral y desviación del mentón hacia un lado:
@@ -111,7 +117,7 @@ D. Debe descartarse el diagnóstico de anquilosis témporo-mandibular.
 
 > **Nota de cobertura:** confirmación LIMPIA — traumatismo facial antiguo (3 años) no tratado + limitación PROGRESIVA de la apertura oral + desviación del mentón es el cuadro clásico de secuela tardía de una fractura condílea no tratada: la anquilosis témporo-mandibular (§1.5), coincidiendo con la clave oficial. Distingue correctamente el cuadro AGUDO (MIR-2020-059/2022-058, fractura condílea reciente) del cuadro CRÓNICO/secuela (este caso). Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 5 preguntas reales (2020-2024), **2 discrepancias de confianza fuerte**, 3 limpias — bloque temático muy concentrado en 2 escenarios clínicos recurrentes (fractura condílea aguda por trauma mentoniano, y su secuela tardía como anquilosis).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

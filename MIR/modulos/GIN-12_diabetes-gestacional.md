@@ -83,9 +83,11 @@ B. Entre las semanas 16 y 20 de gestación.
 C. Entre las semanas 24 y 28 de gestación.
 D. Entre las semanas 32 y 38 de gestación.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 21, 71", desfase de año habitual de ±1), afirma sin ambigüedad: *"test de screening o de O'Sullivan positivo: se realiza a TODAS las gestantes entre la semana 24 y 28"*. Esto corresponde de forma literal y exacta a la opción C (no elegida), no a la clave oficial D ("entre las semanas 32 y 38"), un rango que no aparece descrito en ningún punto de la bibliografía como periodo de cribado. Se trata de un hecho puramente factual (un rango de semanas), sin margen de interpretación clínica subjetiva — uno de los tipos de discrepancia más objetivos posibles en este proyecto. Ver hallazgo #119 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El cribado universal de diabetes gestacional mediante el test de O'Sullivan se realiza clásicamente entre las semanas 24 y 28 de gestación, momento de máxima resistencia fisiológica a la insulina inducida por las hormonas placentarias (lactógeno placentario, entre otras). En gestantes que no han podido ser cribadas en ese periodo o en las que la sospecha clínica surge más tardíamente, como puede ocurrir en captaciones tardías del embarazo, el cribado debe realizarse en el momento en que se identifique la necesidad, incluso avanzado el tercer trimestre, para no dejar sin diagnosticar una diabetes gestacional que podría repercutir sobre el crecimiento fetal y el resultado perinatal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-072
 Primigesta de 26 semanas de gestación, con seguimiento dentro de la normalidad hasta la fecha. Acude a su centro de salud con un resultado en el test de O´Sullivan de 175 mg/dL. Ante esta situación, ¿cómo deberíamos proceder?:
@@ -95,11 +97,11 @@ B. Se indicará una sobrecarga oral de glucosa de 100 g solamente si tiene facto
 C. Al ser un valor superior a 165 mg/dL se confirma el diagnóstico de diabetes gestacional.
 D. Debe solicitarse una confirmación diagnóstica de diabetes gestacional mediante la realización de una sobrecarga oral de glucosa de 100 g.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR indica sin condicionantes: *"si los valores [del O'Sullivan] son ≥140 mg/dL se debe realizar un test de sobrecarga oral de glucosa"* — esta recomendación es incondicional, sin exigir la presencia de factores de riesgo adicionales para justificar la SOG de confirmación (los factores de riesgo que menciona la bibliografía se aplican únicamente para decidir si se adelanta el PRIMER cribado al primer trimestre, no para decidir si procede la SOG confirmatoria tras un O'Sullivan ya positivo). Esta paciente tiene un O'Sullivan de 175mg/dL, claramente positivo (≥140), por lo que según la bibliografía corresponde solicitar la SOG de confirmación de forma directa, sin supeditarla a factores de riesgo — lo que corresponde a la opción D (no elegida), no a la clave oficial B, que introduce una condición ("solamente si tiene factores de riesgo") ausente en la bibliografía. La opción C también es refutable: la bibliografía es explícita en que el O'Sullivan, sea cual sea su valor, nunca es diagnóstico por sí solo. Ver hallazgo #119 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El test de O'Sullivan (sobrecarga con 50 g de glucosa, sin ayuno) es una prueba de CRIBADO de diabetes gestacional que se realiza en España a todas las gestantes entre las semanas 24 y 28 (y en el primer trimestre en las de alto riesgo). Se considera positivo si la glucemia a la hora es ≥140 mg/dl, y en ese caso debe confirmarse siempre el diagnóstico mediante una sobrecarga oral con 100 g de glucosa (SOG de 3 horas, criterios del NDDG) (D). Con 175 mg/dl el cribado es positivo, pero no confirma el diagnóstico (C falsa); la confirmación se indica en todas las gestantes con cribado positivo, no solo si tienen factores de riesgo (B falsa); y no es una situación urgente que requiera derivación a urgencias (A falsa).
 
-> **Nota de cobertura y fiabilidad:** 2 preguntas reales (2020, 2022), **las 2 discrepantes (100%)** — una de MÁXIMA confianza (fecha de cribado, hecho puramente objetivo contradicho por cita textual directa) y una de confianza fuerte (indicación incondicional de la SOG tras O'Sullivan positivo).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-155
 La estrategia de cribado de diabetes gestacional en un solo paso consiste en:

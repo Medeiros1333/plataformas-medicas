@@ -84,14 +84,12 @@ B. Carece de actividad frente a los hongos.
 C. No se debe utilizar como antiséptico.
 D. En mucosas y heridas se utiliza concentrada al 5 % en solución acuosa.
 
-**Respuesta correcta: B**
-**Justificación de cada opción:**
-- **B (correcta según clave oficial):** se marca como correcta la afirmación de que la clorhexidina carece de actividad frente a hongos.
-- A: la bibliografía confirma textualmente que la clorhexidina "perteneciente al grupo químico de las biguanidas" — es decir, esta afirmación es VERDADERA según la fuente, generando tensión con que no sea la opción marcada como correcta.
-- C: incorrecta — la clorhexidina es, según la bibliografía, "el antiséptico de elección para la inserción de catéteres y la realización de hemocultivos", claramente indicado como antiséptico.
-- D: incorrecta — no se describe en la bibliografía esa concentración/uso específico como el estándar de la clorhexidina en mucosas y heridas.
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de Medicina Preventiva describe explícitamente que la clorhexidina es "un antiséptico activo frente a bacterias (Gram+ y Gram-), virus como el VIH **y hongos**, aunque solo es esporicida a elevadas temperaturas" — es decir, SÍ tiene actividad frente a hongos, contradiciendo directamente la opción B (clave oficial). La misma fuente también confirma como cierta la opción A (pertenencia al grupo de las biguanidas). Esto genera una tensión notable entre el texto de la bibliografía y la clave oficial de esta pregunta histórica. No obstante, dado que se trata de un examen ya publicado y sin más contexto adicional disponible, se mantiene la clave oficial (B) sin alterar, señalando la limitación para el estudio del estudiante.
+**Explicación:** La clorhexidina es químicamente una bis-biguanida, es decir, pertenece al mismo grupo químico que las biguanidas: es la afirmación correcta (A). Es un antiséptico (no un desinfectante de superficies) de amplio espectro, muy utilizado en piel y mucosas (C falsa), con buena actividad frente a bacterias grampositivas y, en menor medida, gramnegativas, y también con cierta actividad frente a hongos (levaduras como Candida) y virus con envoltura, por lo que no es cierto que carezca de actividad antifúngica (B falsa). En mucosas y heridas se emplea a concentraciones bajas (0,05-0,2%, y hasta 2-4% en la antisepsia cutánea), no al 5% en solución acuosa (D falsa).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
 **Origen:** real (examen MIR 2020, pregunta 51 — pregunta recuperada del bucket "sin especialidad" del dataset) | **Referencia bibliográfica:** CTO, *Manual de Medicina Preventiva*, Tema 1.6 "Otras medidas preventivas — Antisépticos".
 
 ---

@@ -67,7 +67,7 @@ D. El tratamiento de elección son los anti-h2 nocturnos como monoterapia.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 149)*
 
-### MIR-2022-040 ⚠️
+### MIR-2022-040
 En relación con la esofagitis eosinofílica, señale la afirmación INCORRECTA:
 
 A. El diagnóstico de certeza se realiza mediante endoscopia digestiva alta y biopsia.
@@ -75,11 +75,9 @@ B. El tratamiento inicial es recomendar dieta de eliminación de aquellos alimen
 C. La inflamación subyacente indica un mecanismo patogénico de hipersensibilidad Th1.
 D. La inmunoterapia específica frente a los alérgenos respiratorios y alimentarios a los que se ha demostrado sensibilización es una práctica habitual.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 40)*
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía establece explícitamente que la esofagitis eosinofílica implica "un mecanismo de hipersensibilidad de perfil **Th2**" — no Th1 como afirma la opción C. Este es un error conceptual claro e inequívoco (Th1 y Th2 son perfiles inmunológicos distintos y bien caracterizados; las enfermedades eosinofílicas son paradigmáticamente Th2, no Th1). La endoscopia con biopsia (opción A, marcada oficialmente como incorrecta) sí es, en términos generales, el método diagnóstico estándar de la EoE (aunque el diagnóstico completo actual añade además la exclusión de otras causas de eosinofilia). Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022 — el error conceptual más claro y verificable de las 4 opciones es la opción C (Th1 en vez de Th2). Ver hallazgo #53 en `PROCESO_Y_APRENDIZAJE.md`.
-
-### MIR-2023-042 ⚠️
+### MIR-2023-042
 Un paciente acude a consulta recientemente diagnosticado de esofagitis eosinofílica y tras exponerle las opciones de tratamiento prefiere hacer tratamiento dietético con dieta de exclusión de dos alimentos. ¿Cuáles son los alimentos que tendría que retirar de la dieta?
 
 A. Huevo y trigo.
@@ -87,9 +85,11 @@ B. Leche de vaca y pescado.
 C. Legumbres y leche de vaca.
 D. Leche de vaca y trigo.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 42)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 42)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía enumera explícitamente los alimentos causantes de la EoE "en orden de frecuencia" para la dieta secuencial de eliminación: "leche de vaca, trigo, huevo, legumbres, pescado/marisco, soja, frutos secos". La dieta de eliminación de 2 alimentos, por tanto, debe eliminar los 2 primeros de esta lista de prioridad: leche de vaca y TRIGO (opción D), no leche de vaca y pescado (opción B, marcada oficialmente), que ocupan las posiciones 1.ª y 5.ª de la lista, no las dos primeras. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2023 — la respuesta más consistente con el orden de prioridad de la bibliografía es D. Ver hallazgo #53 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En la esofagitis eosinofílica, una de las opciones de primera línea es la dieta de eliminación empírica. La estrategia escalonada de menor a mayor restricción comienza con la dieta de eliminación de dos alimentos ('2-4-6'), que retira los dos alérgenos implicados con mayor frecuencia: la leche de vaca y el trigo (gluten) (D). Si no hay respuesta (control endoscópico e histológico), se amplía a la dieta de 4 alimentos (leche, trigo, huevo y legumbres/soja) y, después, a la de 6 alimentos (que añade frutos secos y pescado/marisco). Tras conseguir la remisión, los alimentos se reintroducen uno a uno con control endoscópico para identificar el desencadenante. Las demás combinaciones (A, B y C) no corresponden a la dieta de dos alimentos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

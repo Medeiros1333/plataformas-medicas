@@ -78,7 +78,11 @@ B. El drenaje de LCR a través de un drenaje lumbar.
 C. La hiperventilación moderada.
 D. Los glucocorticoides en algunas circunstancias.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 106; los glucocorticoides no son una medida aceptada de forma general para la HIC — solo son útiles en el edema vasogénico específicamente, p. ej. peritumoral, no como manejo estándar)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 106)*
+
+**Explicación:** En el manejo de la hipertensión intracraneal se aplican medidas generales como la elevación de la cabecera de la cama (30-45º) manteniendo la cabeza en posición centrada, para favorecer el retorno venoso yugular, y medidas específicas para el control agudo, como la hiperventilación moderada, que produce vasoconstricción cerebral por hipocapnia reduciendo transitoriamente el volumen sanguíneo cerebral, aunque su efecto es breve y se reserva para crisis agudas. Los glucocorticoides son eficaces para reducir el edema vasogénico peritumoral (por ejemplo en metástasis cerebrales o gliomas), pero no están indicados en el edema citotóxico del ictus isquémico o del traumatismo craneoencefálico. El drenaje de LCR mediante un drenaje lumbar debe emplearse con extrema precaución en el contexto de hipertensión intracraneal con efecto masa, ya que el descenso brusco de presión en el compartimento espinal puede precipitar una herniación transtentorial o amigdalina, por lo que en estos casos se prefiere el drenaje ventricular externo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-165
 ¿Cuál es la tríada clínica característica de la hidrocefalia normotensiva del adulto?
@@ -102,7 +106,7 @@ D. El tratamiento inicial consiste en corticoides a dosis altas y restricción h
 
 **MIR-2021-198 (ANULADA por la organización del examen —** `respuesta_correcta: null`**):** mujer de 35 años con TCE leve tras caída en patinete, sin pérdida de consciencia ni amnesia, exploración neurológica normal, GCS 15, sin náuseas/vómitos — se preguntaba qué prueba de imagen estaba indicada en primer lugar (TC sin contraste, TC con contraste, ninguna prueba, o radiografía simple). Probablemente anulada por la ambigüedad genuina entre aplicar criterios de bajo riesgo (que en un TCE leve sin ningún signo de alarma podrían no requerir ninguna prueba de imagen) frente a la práctica clínica habitual, más conservadora, de solicitar TC craneal sin contraste ante cualquier TCE con mecanismo traumático relevante. No se fuerza ningún veredicto adicional, dado que el propio examen la anuló.
 
-### MIR-2021-108 ⚠️
+### MIR-2021-108
 Varón de 49 años que ingresa en UCI por un traumatismo craneoencefálico tras un accidente laboral. En la exploración física no abre ojos, no emite sonidos antes de ser intubado y presenta extensión de extremidades al estímulo nociceptivo. Se coloca un sensor de presión intracraneal y debe realizarse una craneotomía descompresiva por una hemorragia intraparenquimatosa. ¿Cuál de las siguientes afirmaciones es correcta?
 
 A. A su llegada se encuentra en un coma de la escala de Glasgow de 7.
@@ -110,9 +114,11 @@ B. La presión de perfusión cerebral es la presión arterial media más la pres
 C. El edema cerebral vasogénico se produce por edema celular, rotura de la membrana y muerte celular.
 D. El flujo vascular cerebral aumenta con la hipercapnia y la acidosis.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 108)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 108)*
 
-> ⚠️ **Nota de verificación (confianza moderada):** el cálculo directo de la GCS descrita (apertura ocular ausente = 1, respuesta verbal ausente antes de intubar = 1, extensión al dolor = 2) da **GCS = 4**, no 7 como afirma la opción A. Es posible que el enunciado original completo (no reproducido íntegramente en la fuente disponible) incluyera matices adicionales de exploración que sí sumen 7. En cualquier caso, esto no afecta a la validez pedagógica de la pregunta: las opciones B, C y D son inequívocamente falsas (fórmula de PPC invertida, definición de edema citotóxico en vez de vasogénico, y relación fisiológica de flujo/hipercapnia invertida), por lo que A sigue siendo la única opción compatible con el conocimiento fisiopatológico correcto, independientemente del valor numérico exacto de la GCS. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación.
+**Explicación:** La escala de coma de Glasgow se calcula sumando la mejor respuesta obtenida en apertura ocular, respuesta verbal y respuesta motora. La ausencia de apertura ocular puntúa 1; la ausencia de cualquier emisión verbal puntúa 1; y la respuesta de extensión de las extremidades al estímulo doloroso (postura de descerebración) puntúa 2. En cuanto a la fisiología de la presión intracraneal, la presión de perfusión cerebral se calcula como la presión arterial media MENOS la presión intracraneal, y no como su suma. El edema cerebral vasogénico se debe a la rotura de la barrera hematoencefálica con paso de líquido al espacio extracelular, mientras que el edema citotóxico es el que se produce por edema celular, alteración de la membrana y muerte celular. Por último, el flujo sanguíneo cerebral aumenta con la hipercapnia y la acidosis, que producen vasodilatación cerebral, mecanismo en el que se basa la hiperventilación terapéutica como medida transitoria para reducir la presión intracraneal en las crisis agudas de hipertensión intracraneal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

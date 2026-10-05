@@ -63,9 +63,11 @@ B. Fenómeno de Raynaud.
 C. Hepatoesplenomegalia.
 D. Crioglobulinemia.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 22, 182", desfase de año habitual de ±1), enumera la crioglobulinemia dentro de la lista explícita de factores de riesgo de desarrollo de linfoma (la complicación más grave y de peor pronóstico del Sjögren): *"Son factores de riesgo de desarrollo de linfoma: Hipocomplementemia. Proteínas monoclonales. Aumento de β2-microglobulina. **Crioglobulinemia** (MIR 23, 176; MIR 22, 182). Negativización de factor reumatoide."* — señalando la opción D (no elegida) como la respuesta correcta. Ni el fenómeno de Raynaud (clave oficial, B) ni la poliartritis (A) ni la hepatoesplenomegalia (C) figuran en ningún punto de la bibliografía como factores pronósticos del Sjögren. Reforzado de forma independiente por MIR-2022-176 (ver más abajo), que cita la MISMA crioglobulinemia sobre el mismo hecho médico. Ver hallazgo #138 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** En el síndrome de Sjögren, los factores asociados a peor evolución (mayor riesgo de linfoma B no Hodgkin y de afectación sistémica grave, como la vasculitis) son la crioglobulinemia mixta (D), la hipocomplementemia (sobre todo un C4 bajo), la púrpura palpable, la tumefacción parotídea persistente, las adenopatías, la esplenomegalia y la presencia de componente monoclonal. La crioglobulinemia es el marcador pronóstico adverso más clásico y consistente. La poliartritis (A) y el fenómeno de Raynaud (B) son manifestaciones extraglandulares frecuentes pero relativamente benignas, que no empeoran el pronóstico de forma significativa, y la hepatoesplenomegalia (C) aislada tiene menor valor pronóstico que la crioglobulinemia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-176
 En el momento del diagnóstico de un síndrome de Sjögren, ¿qué factores se asocian a la posibilidad de desarrollar un linfoma B?:
@@ -75,13 +77,13 @@ B. Anticuerpos anti-La y anti-Ro.
 C. Esplenomegalia y pancitopenia.
 D. Hipocomplementemia y crioglobulinemia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 23, 176"), confirma que la hipocomplementemia y la crioglobulinemia (opción D, no elegida) son FACTORES DE RIESGO de desarrollo de linfoma. La opción marcada por la clave oficial (esplenomegalia y pancitopenia, C) corresponde, según la bibliografía, a los *"síntomas propios de la presencia de un linfoma"* YA ESTABLECIDO (junto con tumefacción parotídea mantenida, fiebre y adenopatías) — es decir, manifestaciones de la complicación una vez presente, no factores predictivos de su desarrollo futuro, que es exactamente lo que pregunta el enunciado ("factores que se asocian a la POSIBILIDAD DE DESARROLLAR"). Los anticuerpos anti-Ro/anti-La (B) son criterios diagnósticos del propio Sjögren, no factores de riesgo de linfoma. Segunda confirmación independiente del mismo hecho médico junto con MIR-2021-182. Ver hallazgo #138 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** En el síndrome de Sjögren primario, los principales factores predictivos de desarrollo de linfoma B no Hodgkin identificados en grandes cohortes, incluidas series españolas, son la presencia de crioglobulinemia mixta y la hipocomplementemia (descenso de C4), junto con la tumefacción parotídea persistente, la púrpura cutánea y las adenopatías. Estos marcadores reflejan una activación mantenida del compartimento de linfocitos B y una estimulación antigénica crónica que predispone a la transformación linfomatosa. La esplenomegalia y la pancitopenia pueden aparecer en la enfermedad sistémica avanzada, pero son los marcadores serológicos (crioglobulinas e hipocomplementemia) los que con mayor consistencia se han validado como predictores independientes de linfoma en los estudios de cohortes de Sjögren.
 
-> **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2021, 2022), **las 2 discrepantes (100%)**, ambas de MÁXIMA confianza, con cita textual directa a cada pregunta respectivamente y reforzadas mutuamente por tratarse del mismo hecho médico (crioglobulinemia como factor de riesgo de linfoma) verificado de forma independiente en dos convocatorias distintas — patrón de "verificación cruzada entre dos preguntas MIR de años distintos sobre el mismo hecho médico" (ver precedente #122).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-114 ⚠️ *(fibromialgia — diagnóstico diferencial de dolor/fatiga crónicos reumatológicos, sin módulo dedicado propio)*
+### MIR-2020-114 *(fibromialgia — diagnóstico diferencial de dolor/fatiga crónicos reumatológicos, sin módulo dedicado propio)*
 Sobre la fibromialgia, señale la respuesta correcta:
 
 A. Tiene una prevalencia en la población general de entre un 5 y un 10 %.
@@ -89,9 +91,11 @@ B. La edad más frecuente de aparición es por encima de los 50 años.
 C. Existen múltiples fármacos aprobados para su tratamiento.
 D. La fatiga es un síntoma muy común, por encima del 70 % de los pacientes.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (razonamiento epidemiológico estándar, sin cita bibliográfica directa disponible):** la prevalencia de la fibromialgia en la población general se cita de forma constante en la literatura como aproximadamente 2-4% (no 5-10%, cifra excesiva — descarta A); la edad de aparición más típica se sitúa en la edad media de la vida (30-50 años aproximadamente, no predominantemente >50 años — descarta B como formulación menos precisa); la fatiga es, en cambio, uno de los síntomas más consistentemente documentados en la fibromialgia, presente en la gran mayoría de los pacientes (con cifras citadas habitualmente por encima del 70-90%), lo que hace de D una afirmación sólidamente respaldada. Respecto a C (clave oficial): el número de fármacos con aprobación regulatoria FORMAL específica para fibromialgia es notablemente limitado (en EE.UU., solo 3: pregabalina, duloxetina, milnaciprán; en Europa/España, la aprobación específica es aún más restringida, con uso mayoritariamente off-label) — "múltiples fármacos aprobados" es una afirmación cuestionable en el contexto europeo. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad" — sin módulo dedicado de fibromialgia en el proyecto, incluida aquí por proximidad temática con otros síndromes de dolor/fatiga crónicos reumatológicos.)*
+**Explicación:** La fatiga es uno de los síntomas más frecuentes de la fibromialgia, presente en más del 70% de los pacientes (D), junto con el dolor musculoesquelético difuso, el sueño no reparador y las alteraciones cognitivas y del ánimo. Las demás afirmaciones son incorrectas: la prevalencia en la población general es del 2-4% (no del 5-10%) (A); la edad más frecuente de aparición es entre los 30 y los 50 años (B); y en España (EMA) no hay fármacos aprobados específicamente para la fibromialgia, aunque fármacos como la amitriptilina, la duloxetina o la pregabalina se utilizan fuera de indicación (C). El pilar del tratamiento es el ejercicio aeróbico gradual y la educación del paciente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

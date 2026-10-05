@@ -31,7 +31,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2023-038 ⚠️
+### MIR-2023-038
 En relación con las enfermedades asociadas al mecanismo de hipersensibilidad tipo II, señale la respuesta INCORRECTA:
 
 A. La presencia de anticuerpos frente al receptor de las hormonas tiroideas T3 y T4 se asocia a la enfermedad de Graves.
@@ -39,9 +39,11 @@ B. La presencia de autoanticuerpos antidesmogleína se asocia al pénfigo vulgar
 C. La miastenia gravis se asocia a la presencia de anticuerpos frente al receptor de la acetilcolina.
 D. El síndrome de Goodpasture se asocia a la presencia de anticuerpos frente a la membrana basal glomerular renal y pulmonar.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual con la bibliografía de Endocrinología y Neumología, sin cita directa a esta pregunta exacta):** la bibliografía de Endocrinología describe de forma reiterada y explícita que la enfermedad de Graves-Basedow está causada por *"anticuerpos [...] que se unen al receptor **TSH** tiroideo (TSI, TSAb, TSH, TBII, TRAb, TRAC)"* — el antígeno diana es el receptor de la TSH (hormona hipofisaria), NO el "receptor de las hormonas tiroideas T3 y T4" como describe literalmente la opción A. Los receptores de T3/T4 son receptores nucleares intracelulares en los tejidos diana periféricos, sin relación con la autoinmunidad de la enfermedad de Graves — la opción A describe, por tanto, un antígeno diana INCORRECTO para esta enfermedad. En cambio, la bibliografía de Neumología confirma textualmente que el síndrome de Goodpasture es la *"enfermedad por anticuerpos anti-membrana basal glomerular"*, encuadrada explícitamente entre los "síndromes reno-pulmonares" — es decir, la opción D (afectación renal Y pulmonar) es una descripción CORRECTA y no la excepción buscada. B y C (pénfigo vulgar/antidesmogleína, miastenia gravis/anti-receptor de acetilcolina) son hechos inmunológicos estándar, no controvertidos. De las 4 opciones, A es la única que describe una asociación antígeno-enfermedad objetivamente errónea. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El síndrome de Goodpasture está causado por autoanticuerpos dirigidos frente al dominio no colagenoso de la cadena alfa-3 del colágeno tipo IV, presente tanto en la membrana basal glomerular como en la membrana basal alveolar pulmonar, lo que explica la afectación renal (glomerulonefritis rápidamente progresiva) y pulmonar (hemorragia alveolar) características de esta enfermedad mediada por hipersensibilidad tipo II. El pénfigo vulgar se debe a autoanticuerpos frente a la desmogleína, proteína de los desmosomas que mantiene la cohesión de los queratinocitos. La miastenia gravis se debe a autoanticuerpos frente al receptor nicotínico de acetilcolina de la placa neuromuscular, que bloquean y degradan dicho receptor. Y en la enfermedad de Graves, los autoanticuerpos estimulantes característicos se dirigen frente al receptor de TSH, activándolo de forma mantenida y provocando hipertiroidismo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2018-059
 Una urticaria inducida por fármacos puede ser causada por los siguientes mecanismos EXCEPTO:

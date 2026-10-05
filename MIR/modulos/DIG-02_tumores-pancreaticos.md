@@ -108,7 +108,7 @@ D. Hepatitis aguda.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 130; ictericia indolora progresiva + pérdida de peso + estenosis abrupta maligna del colédoco distal es el cuadro clásico)*
 
-### MIR-2023-135 ⚠️
+### MIR-2023-135
 Mujer de 62 años que consulta por dolor abdominal persistente, pérdida de peso no intencionada de 10 kg en los últimos tres meses, ictericia y acolia. En las últimas horas presenta vómitos de retención gástrica. Las analíticas muestran elevación de bilirrubina y enzimas hepáticas así como hipopotasemia. La TC abdominal revela una masa en la cabeza del páncreas y proceso uncinado que provoca obstrucción de la vía biliar, infiltración inextirpable vascular, distensión y retención gástrica. Tras estabilizarla se efectúa ecoendoscopia con biopsia que demuestra la existencia de un adenocarcinoma pancreático con estenosis infranqueable del duodeno. ¿Cuál de las siguientes es la mejor actitud terapéutica?:
 
 A. Doble derivación bilio-digestiva.
@@ -116,13 +116,13 @@ B. Intervención de Whipple.
 C. Intervención de Puestow.
 D. Coledocoduodenostomía.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía define expresamente los criterios de irresecabilidad de los tumores pancreáticos, incluyendo el *"contacto >180º con la arteria mesentérica superior"* y otros criterios de afectación arterial — coincidiendo exactamente con la "infiltración inextirpable vascular" que el propio enunciado atribuye a este tumor. La duodenopancreatectomía cefálica de Whipple (opción B, marcada como oficial) es, según la misma bibliografía, el tratamiento de los tumores LOCALIZADOS/RESECABLES de cabeza de páncreas — es decir, contradictorio por definición con un tumor que el propio enunciado describe como vascularmente irresecable. El escenario clínico (obstrucción biliar + estenosis duodenal infranqueable en tumor irresecable) es el cuadro clásico de indicación de derivación paliativa doble (biliar + gástrica), opción A. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #33 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El adenocarcinoma de cabeza de páncreas con infiltración vascular que lo hace irresecable, asociado a obstrucción biliar y a obstrucción digestiva alta (retención gástrica por afectación del marco duodenal), es un tumor localmente avanzado no candidato a cirugía con intención curativa, por lo que el tratamiento adecuado es paliativo, orientado a resolver ambas obstrucciones mediante una doble derivación bilio-digestiva (habitualmente hepaticoyeyunostomía más gastroyeyunostomía) que mejora la calidad de vida sin pretender la resección tumoral.
 
-> **Nota de cobertura y fiabilidad del módulo:** con esta pregunta se eleva a 6 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-147 ⚠️
+### MIR-2020-147
 El cáncer de páncreas localmente avanzado:
 
 A. Es una presentación clínica infrecuente (menor del 10 %).
@@ -130,13 +130,9 @@ B. Tiene una supervivencia mediana inferior a 3 meses.
 C. Es candidato a quimio-radioterapia neoadyuvante.
 D. Es mínimamente sintomático.
 
-**Respuesta correcta: D**
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
-> ⚠️ **Nota de verificación fuerte:** la tríada clásica del cáncer de páncreas (dolor + pérdida de peso + ictericia), recogida en el punto clave 1 de este módulo, contradice directamente la opción D (oficial), que afirma que la enfermedad localmente avanzada es "mínimamente sintomática" — al contrario, suele ser sintomática por definición (dolor, síndrome constitucional). La bibliografía describe además el manejo de la enfermedad localmente avanzada/irresecable con "esquemas de QT de enfermedad avanzada ± consolidación con quimio-RT", un enfoque terapéutico activo (no compatible con una presentación "mínimamente sintomática") cercano al descrito en la opción C. La enfermedad localmente avanzada representa una proporción sustancial de los diagnósticos (no <10%, descarta A) y su supervivencia mediana con tratamiento es de varios meses a más de un año, no <3 meses (descarta B, cifra más propia de la enfermedad metastásica sin tratamiento). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. Confianza fuerte (sin cita numérica directa a esta pregunta).
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 7 preguntas reales, **2 discrepancias de MÁXIMA/fuerte confianza**, 5 limpias.
-
-### MIR-2021-003 ⚠️
+### MIR-2021-003
 Pregunta asociada a la imagen 3. Mujer de 81 años que consulta por ictericia, dolor epigástrico, astenia y anorexia. La TC abdominal muestra en la cabeza del páncreas una lesión sólida, mal delimitada, de 24 x 24 mm, que contacta focalmente con la vena mesentérica superior y comporta dilatación de la vía biliar. No se observa un claro contacto con otras estructuras vasculares principales. Con la sospecha de proceso neoformativo se indica la intervención quirúrgica. Se muestra una imagen macroscópica y una microscópica de la lesión pancreática. El estudio inmunohistoquímico realizado en la pieza de resección muestra positividad para citoqueratina 7 y negatividad para sinaptofisina, tripsina, CK20 y CDX2. ¿Cuál es el diagnóstico anatomopatológico de la lesión pancreática?:
 
 A. Adenocarcinoma ductal.
@@ -144,11 +140,11 @@ B. Cistadenoma seroso.
 C. Neoplasia mucinosa quística.
 D. Pancreatitis autoinmune asociada a enfermedad por IgG4.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía describe el cistoadenoma seroso como una lesión BENIGNA, localizada en CUERPO O COLA pancreática (no en cabeza), formada por MÚLTIPLES QUISTES MILIMÉTRICOS con calcificación central ("panal de abeja") — un perfil radiológico completamente incompatible con la lesión del enunciado: SÓLIDA, mal delimitada, localizada en la CABEZA del páncreas, con contacto vascular y dilatación de la vía biliar (obstructiva). El cistoadenoma seroso, al ser benigno y no obstructivo, no produce ictericia ni contacto vascular preocupante. Además, el perfil inmunohistoquímico descrito (CK7+, sinaptofisina- [descarta tumor neuroendocrino], tripsina- [descarta carcinoma acinar], CK20- y CDX2- [descarta origen colorrectal/metastásico]) es compatible con un origen ductal pancreatobiliar, coherente con la opción A (adenocarcinoma ductal), no con un cistoadenoma seroso (una lesión quística que no suele requerir este panel inmunohistoquímico diagnóstico). Apoya la opción A. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #181 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Pregunta dependiente de las imágenes macro y microscópicas (no disponibles en este proyecto). El perfil inmunohistoquímico (citoqueratina 7 positiva, con CK20 y CDX2 negativos) es el característico del adenocarcinoma ductal de páncreas (A), que es la respuesta oficial: es el tumor pancreático más frecuente y se presenta como una masa sólida mal delimitada, infiltrante, con frecuente contacto vascular y, si asienta en la cabeza, ictericia obstructiva. La negatividad para sinaptofisina descarta un tumor neuroendocrino, la de tripsina un carcinoma de células acinares, y la de CK20/CDX2 un origen intestinal. El cistadenoma seroso (B) es una lesión quística microquística bien delimitada, formada por células cuboideas ricas en glucógeno; la neoplasia mucinosa quística (C) tiene epitelio mucinoso con estroma de tipo ovárico; y la pancreatitis autoinmune (D) muestra un infiltrado linfoplasmocitario con células plasmáticas IgG4+ y flebitis obliterante.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 8 preguntas reales, **3 discrepancias de MÁXIMA/fuerte confianza**, 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

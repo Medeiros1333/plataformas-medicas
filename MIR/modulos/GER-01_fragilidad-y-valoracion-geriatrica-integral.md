@@ -50,7 +50,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-162 ⚠️
+### MIR-2021-162
 ¿Cuál de las siguientes escalas o instrumentos utilizados para valorar la condición de fragilidad en un paciente mayor se basa en el juicio clínico del observador y es, por tanto, la más subjetiva?:
 
 A. El fenotipo de Fried.
@@ -58,9 +58,11 @@ B. La escala clínica de fragilidad (Clinical Frailty Scale).
 C. SPPB (Short Physical Performance Battery).
 D. Timed Up & Go.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, definiciones estandarizadas internacionalmente, sin cita bibliográfica directa disponible):** el fenotipo de Fried es, por diseño, un instrumento OBJETIVO basado en 5 criterios medibles/cuantificables (pérdida de peso, agotamiento, debilidad por dinamometría, lentitud de la marcha cronometrada, baja actividad física) — no se basa en el "juicio clínico" del observador. La Clinical Frailty Scale (CFS) de Rockwood es, por el contrario, EXPLÍCITAMENTE diseñada como una escala de impresión clínica global (pictórica, de 9 categorías), sin mediciones formales, y es descrita de manera consistente en la literatura geriátrica internacional como el instrumento de fragilidad más subjetivo, basado en el juicio del clínico. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La escala clínica de fragilidad (Clinical Frailty Scale, de Rockwood) es un instrumento basado fundamentalmente en el juicio clínico global del observador, quien clasifica al paciente en una de nueve categorías descriptivas e ilustradas a partir de la impresión clínica general, sin requerir mediciones objetivas ni pruebas de ejecución, lo que la convierte en el instrumento más subjetivo de los habitualmente empleados para valorar la fragilidad. Por el contrario, el fenotipo de fragilidad de Fried se basa en cinco criterios objetivos y cuantificables (pérdida de peso, debilidad por dinamometría, velocidad de la marcha cronometrada, agotamiento autorreferido mediante escalas validadas y baja actividad física estimada), y tanto el SPPB como el Timed Up & Go son pruebas de ejecución física cronometradas y estandarizadas, por lo que ambos son instrumentos objetivos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-163
 Referente a la sarcopenia, es cierto que:
@@ -74,7 +76,7 @@ D. Se trata con medicamentos que aumentan la masa muscular.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, definición estándar EWGSOP2) — la sarcopenia se define precisamente como la pérdida progresiva de masa Y fuerza muscular esquelética; puede aparecer en no ancianos (descarta A), no es sinónimo de fragilidad (descarta C, son conceptos relacionados pero distintos), y no existe tratamiento farmacológico aprobado que aumente la masa muscular (descarta D, el pilar es el ejercicio y la nutrición). Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2021-167 ⚠️
+### MIR-2021-167
 Uno de los siguientes componentes NO se considera clave para conseguir la eficacia de los programas de valoración geriátrica integral:
 
 A. Liderazgo clínico.
@@ -82,11 +84,13 @@ B. Uso de escalas e instrumentos estandarizados.
 C. Plan por objetivos con trabajo en equipo interdisciplinar.
 D. Intervención intensa de forma temporal.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, sin cita bibliográfica directa disponible):** el trabajo en equipo interdisciplinar con un plan por objetivos es, en la literatura geriátrica internacional, uno de los componentes NUCLEARES y definitorios de la valoración geriátrica integral (VGI) eficaz — difícilmente podría ser el componente "no clave". En cambio, la evidencia de eficacia de los programas de VGI depende de un seguimiento SOSTENIDO en el tiempo, no de una intervención puntual e intensa sin continuidad — la opción D describe precisamente lo contrario de lo que se ha demostrado eficaz (intervención temporal/puntual, sin sostenibilidad). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Los componentes clave que la evidencia ha identificado como determinantes de la eficacia de los programas de valoración geriátrica integral incluyen el liderazgo clínico del equipo, el uso de instrumentos y escalas estandarizadas de valoración, y de forma muy destacada, el establecimiento de un plan de cuidados por objetivos con un verdadero trabajo en equipo interdisciplinar, que permite integrar las recomendaciones derivadas de la valoración en un plan terapéutico coordinado y consensuado. La eficacia de estos programas depende, además, de un seguimiento sostenido en el tiempo y no de una intervención puntual y exclusivamente temporal, ya que los beneficios tienden a perderse si no existe una continuidad asistencial adecuada tras la valoración inicial.
 
-### MIR-2022-152 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-152
 El Short Physical Performance Battery (SPPB) es una prueba de rendimiento físico empleada para la valoración de la función física, de la fragilidad y del riesgo de caídas en los mayores. ¿Qué aspectos se evalúan en este test?:
 
 A. El equilibrio, la velocidad de la marcha y la capacidad para subir y bajar escaleras.
@@ -94,11 +98,13 @@ B. El equilibrio, la velocidad de la marcha y la capacidad para levantarse y sen
 C. El equilibrio, la velocidad de la marcha y la resistencia de los miembros superiores.
 D. El equilibrio, la capacidad para subir y bajar escaleras y la capacidad para levantarse y sentarse de una silla.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, definición estandarizada e inequívoca del instrumento, sin cita bibliográfica directa disponible):** la composición del SPPB (Guralnik et al.) es universal y está estandarizada internacionalmente: (1) prueba de equilibrio en bipedestación, (2) velocidad de la marcha en 4 metros, y (3) prueba de levantarse y sentarse de una silla 5 veces (chair stand test) — el test NO incluye, en ningún protocolo estándar, subir y bajar escaleras. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** El Short Physical Performance Battery (SPPB) evalúa tres componentes estandarizados de la función física: el equilibrio en bipedestación (pies juntos, semitándem y tándem), la velocidad de la marcha en 4 metros, y la capacidad para levantarse y sentarse de una silla cinco veces consecutivas sin ayuda de los brazos. No incluye la capacidad para subir y bajar escaleras, que no forma parte de los componentes estandarizados de esta batería, aunque sí puede explorarse de forma complementaria en otras valoraciones funcionales o mediante cuestionarios de actividades instrumentales de la vida diaria.
 
-### MIR-2023-157 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-157
 El conjunto de todas las capacidades físicas y mentales de una persona que permiten hacer frente a los cambios del entorno, originando discapacidad cuando fallan, se denomina:
 
 A. Fragilidad.
@@ -106,11 +112,13 @@ B. Morbilidad.
 C. Capacidad intrínseca.
 D. Discapacidad.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual casi literal con la definición oficial OMS/ICOPE, sin cita bibliográfica directa disponible):** el enunciado reproduce, de forma casi literal, la definición oficial de la OMS (marco ICOPE — Integrated Care for Older People) de **"capacidad intrínseca"**: "el conjunto de todas las capacidades físicas y mentales de una persona", cuyo declive origina discapacidad cuando falla la compensación por el entorno. La fragilidad (clave oficial, A) es un concepto relacionado pero distinto: un síndrome de vulnerabilidad fisiológica por disminución de la reserva homeostática, no "el conjunto de todas las capacidades físicas y mentales". Apoya la opción C. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La capacidad intrínseca, concepto desarrollado por la Organización Mundial de la Salud en el marco de la atención integrada para las personas mayores (ICOPE), se define como el conjunto de todas las capacidades físicas y mentales de un individuo (locomotora, vitalidad, cognitiva, psicológica y sensorial), cuyo declive progresivo, si no se detecta y aborda a tiempo, puede originar discapacidad al interactuar con un entorno que no se adapta a las limitaciones de la persona. La fragilidad, en cambio, es un síndrome geriátrico de vulnerabilidad fisiológica ante factores estresantes, resultado de una reserva funcional disminuida, que constituye uno de los principales determinantes de la pérdida de capacidad intrínseca, pero no es sinónimo de esta última.
 
-### MIR-2023-158 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-158
 Una de las siguientes escalas, usadas para valorar la fragilidad, requiere la realización de pruebas de ejecución:
 
 A. La escala FRAIL.
@@ -118,9 +126,11 @@ B. El índice de fragilidad de Rockwood.
 C. La Clinical Frailty Scale (CFS).
 D. La Short Physical Performance Battery (SPPB).
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, definiciones estandarizadas de cada instrumento, sin cita bibliográfica directa disponible):** de las cuatro escalas, la SPPB es, por definición y diseño, la ÚNICA compuesta por pruebas de ejecución física estandarizadas y cronometradas (equilibrio, velocidad de la marcha, levantarse de una silla) — es literalmente una "batería de rendimiento físico". El índice de fragilidad de Rockwood (clave oficial, B), en cambio, es un modelo de ACUMULACIÓN DE DÉFICITS (recuento sistemático de ~30-70 variables de salud recogidas en una valoración completa), sin pruebas de ejecución física como tal. La escala FRAIL es un cuestionario autorreferido y la CFS se basa en el juicio clínico global — ninguna de las tres implica pruebas de ejecución. Apoya la opción D. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El índice de fragilidad de Rockwood (índice de acumulación de déficits) se calcula contabilizando la proporción de déficits presentes (enfermedades, síntomas, signos, discapacidades, alteraciones analíticas) sobre un listado amplio y predefinido de variables, sin requerir la realización de pruebas de ejecución física, por lo que puede calcularse retrospectivamente a partir de la historia clínica. Por el contrario, el Short Physical Performance Battery (SPPB) sí exige la realización de pruebas de ejecución física cronometradas y estandarizadas (equilibrio, velocidad de la marcha y capacidad de levantarse de una silla). La escala FRAIL y la Clinical Frailty Scale se basan, respectivamente, en un breve cuestionario y en el juicio clínico global del observador, sin requerir tampoco pruebas de ejecución física.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-161
 Hombre de 91 años que consulta por creciente dificultad para hacer sus tareas habituales y sensación de debilidad. Su IMC es de 22,5 y su masa muscular medida por bioimpedanciometría es de 14 kg (normal >20 kg) con aumento del porcentaje de grasa, su fuerza de prensión es de 19 kg (>27 kg) y su velocidad de la marcha 0,7 m/s (>1,0 m/s). ¿Cuál de los siguientes diagnósticos es más probable?:
@@ -146,9 +156,9 @@ D. Discapacitado.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, aplicación directa del fenotipo de Fried) — el paciente cumple 2 de los 5 criterios de Fried (pérdida de peso + lentitud de la marcha), sin cumplir fuerza prensora baja, agotamiento ni baja actividad física. Según la clasificación estándar (0=robusto, 1-2=prefrágil, ≥3=frágil), 2 criterios corresponde a PRE-FRÁGIL. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 8 preguntas reales (2021×3, 2022×1, 2023×3, 2025×1), **5 discrepancias de confianza fuerte** (todas sobre definiciones estandarizadas de escalas de fragilidad/capacidad intrínseca, sin cita bibliográfica directa disponible por falta de manual dedicado de Geriatría), 3 limpias. **Primer módulo de la especialidad Geriatría en todo el proyecto.**
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-175 ⚠️
+### MIR-2020-175
 Un varón de 75 años, en buen estado de salud y que podría ser considerado como robusto, consulta para solicitar información sobre la utilización de algún tipo de tratamiento para mantenerse con buen estado de salud y físico. ¿Cuál sería la mejor recomendación para este paciente?:
 
 A. Hormona de crecimiento.
@@ -156,11 +166,11 @@ B. Testosterona.
 C. Vitamina D.
 D. Ejercicio físico regular.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio fundamental de medicina preventiva geriátrica, coherente con la terminología "robusto"/fenotipo de Fried ya usada en este mismo módulo):** en un anciano ROBUSTO (sin fragilidad, terminología que este módulo ya emplea de forma estandarizada según el fenotipo de Fried), la intervención con mayor evidencia y menor riesgo para mantener la salud y la condición física es el EJERCICIO FÍSICO REGULAR — recomendación universal de todas las guías de envejecimiento saludable, sin riesgos relevantes asociados. La hormona de crecimiento (clave oficial A) NO está indicada como tratamiento "anti-envejecimiento" o de mantenimiento en ancianos sanos: carece de evidencia de beneficio consistente en este contexto y se asocia a riesgos relevantes (edema, artralgias, resistencia a la insulina, posible aumento de riesgo neoplásico), por lo que su uso fuera de un déficit hormonal documentado no está recomendado por ninguna guía clínica. La testosterona (B) tampoco está indicada de forma rutinaria sin hipogonadismo documentado, y la vitamina D (C) solo se recomienda de forma dirigida ante déficit o riesgo específico, no como recomendación genérica de primera línea para "mantenerse en forma". Apoya la opción D. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** En un varón de 75 años robusto y sin comorbilidad relevante que consulta para mantener su estado de salud, la intervención con mayor evidencia científica y mejor perfil de seguridad para preservar la funcionalidad física y cognitiva, prevenir la fragilidad y reducir la mortalidad es la práctica de ejercicio físico regular (combinando entrenamiento aeróbico, de fuerza, equilibrio y flexibilidad), recomendación respaldada de forma unánime por las guías de geriatría y medicina preventiva. Por el contrario, el uso de hormona de crecimiento o de testosterona con fines de 'antienvejecimiento' en personas sin un déficit hormonal documentado carece de evidencia sólida de beneficio, y se asocia a efectos adversos relevantes (edemas, artralgias, síndrome del túnel carpiano, intolerancia a la glucosa), por lo que no se recomienda fuera de un déficit hormonal demostrado. La suplementación con vitamina D solo estaría indicada ante un déficit documentado, no de forma sistemática en todo paciente mayor sano.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, sumando 1 discrepancia nueva de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -63,9 +63,11 @@ B. Hormona antimülleriana sérica basal.
 C. Recuento ecográfico de folículos antrales.
 D. Hormona folículo estimulante sérica basal.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 21, 69", desfase de año habitual de ±1), enumera explícitamente los marcadores de valoración de la reserva ovárica: *"mediante el recuento de folículos antrales por ecografía..., determinación de FSH... y la determinación de la HORMONA ANTIMÜLLERIANA"* — es decir, la bibliografía confirma expresamente que la AMH (opción B, marcada como oficialmente NO útil) SÍ es uno de los tres marcadores estándar utilizados. En cambio, la PROGESTERONA sérica basal (opción A, no elegida) no aparece en ningún punto de esta lista ni en el resto de la bibliografía como marcador de reserva ovárica — la progesterona se emplea en la valoración de la OVULACIÓN (determinada en fase lútea, no "basal"), un objetivo diagnóstico distinto. Esta interpretación se ve reforzada de forma independiente por MIR-2025-053 (ver más abajo), que confirma directamente que la AMH es el marcador de elección para la reserva ovárica. Ver hallazgo #122 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La progesterona sérica basal (en fase folicular) no aporta información sobre la reserva folicular ovárica, ya que sus niveles en esta fase del ciclo son bajos independientemente del número de folículos disponibles y su determinación se emplea con otros fines (confirmar ovulación en fase lútea). Por el contrario, la hormona antimülleriana sérica, el recuento ecográfico de folículos antrales y la FSH basal en fase folicular temprana son los tres parámetros clásicamente empleados y validados para estimar la reserva ovárica de una mujer, cada uno con sus particularidades de interpretación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-064
 ¿En cuál de las siguientes pacientes NO estaría indicada la realización de una histeroscopia diagnóstica como primera línea de estudio?:
@@ -75,9 +77,7 @@ B. Mujer de 70 años con metrorragia postmenopáusica de 1 mes de evolución.
 C. Mujer de 45 años con hemorragia uterina anormal cíclica de 6 meses de evolución.
 D. Mujer de 43 años con hemorragia uterina anormal acíclica y sospecha ecográfica de mioma tipo 2 de la FIGO.
 
-**Respuesta correcta: C**
-
-*(Sin discrepancia — la opción A encaja con la indicación bibliográfica de histeroscopia en el estudio de esterilidad "cuando no se evidencia otra causa de esterilidad" [ecografía normal, sin otra causa identificada], por lo que SÍ estaría indicada, consistente con no ser la respuesta buscada. La hemorragia uterina anormal CÍCLICA [opción oficial C] es compatible con un manejo médico/hormonal inicial sin necesidad de histeroscopia de entrada, a diferencia de la hemorragia ACÍCLICA con sospecha de mioma submucoso [D] o la metrorragia posmenopáusica [B], que sí exigen descartar patología estructural/neoplásica de entrada. Coincide con la clave oficial C.)*
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2025-053
 ¿Cuál de las siguientes determinaciones analíticas es más útil para valorar la reserva folicular ovárica de una mujer que consulta por esterilidad?:
@@ -91,7 +91,7 @@ D. Determinación conjunta de FSH y estradiol en día 8 del ciclo.
 
 *(Sin discrepancia — confirma de forma independiente y directa que la AMH es el marcador de reserva ovárica de elección, medible en cualquier momento del ciclo, coincidiendo con la bibliografía y reforzando el hallazgo de MIR-2020-069 más arriba. Las opciones B y D son incorrectas porque la FSH se determina de forma BASAL/inicio de ciclo, no "a mitad de ciclo" ni en "día 8", para valorar reserva.)*
 
-> **Nota de cobertura y fiabilidad:** 3 preguntas reales (2020, 2023, 2025), **1 con discrepancia de MÁXIMA confianza** (MIR-2020-069, #122, confirmada por cita textual directa Y reforzada independientemente por una segunda pregunta del mismo tema en otro año) y 2 limpias. Se descartó una cuarta candidata (MIR-2021-010, decisión terapéutica basada en imagen de histerosalpingografía no disponible para verificación textual) por no poder confirmarse contra la bibliografía sin acceso a la imagen.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2017-167
 Paciente de 33 años sin antecedentes de interés que acude a su consulta refiriendo 3 abortos espontáneos resueltos mediante legrado en el último año y medio. ¿Cuál de las siguientes pruebas NO consideraría de primera elección en el estudio de dicha pareja?
@@ -112,8 +112,6 @@ C. Ciclo de inseminación artificial.
 D. Tratamiento de la endometriosis con análogos de la GnRH durante 3 meses seguido de inducción de la ovulación.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2019, pregunta 167; ver §1.4 ampliada — FIV de inicio por sospecha de factor tubárico no descartado y edad ≥37 años, con reserva ovárica propia normal)*
-
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 2 preguntas se eleva a 5 preguntas reales, manteniendo 1 discrepancia y sumando 4 limpias.
 
 ---
 

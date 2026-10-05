@@ -29,7 +29,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2022-017 ⚠️
+### MIR-2022-017
 Mujer de 65 años que consulta porque en los últimos dos años ha ido notando pérdida del cabello en la línea anterior de implantación del cuero cabelludo (temporal y frontal), junto a la pérdida completa de las cejas. En la exploración de las mejillas y el mentón se aprecian pequeñas pápulas del color de la piel. Ante este cuadro clínico y la imagen que se muestra señale la respuesta correcta:
 
 A. Se trata de una alopecia reversible.
@@ -37,9 +37,11 @@ B. Es más frecuente en hombres.
 C. La histopatología es similar a la del liquen plano pilaris.
 D. Es un tipo poco frecuente de alopecia androgénica.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro clínico descrito (retroceso de la línea de implantación frontotemporal, pérdida completa de cejas, pápulas faciales del color de la piel en una mujer de 65 años) es el perfil clásico de la alopecia frontal fibrosante (AFF). La bibliografía confirma explícitamente que *"la alopecia frontal fibrosante se considera un SUBTIPO de liquen plano pilar"*, y que este último "es un tipo de alopecia CICATRICIAL primaria" — por definición, las alopecias cicatriciales son IRREVERSIBLES (destrucción permanente del folículo con sustitución fibrosa), contradiciendo directamente la opción A (clave oficial). La opción C ("histopatología similar al liquen plano pilaris") es, por el contrario, literalmente VERDADERA según la propia bibliografía, al ser la AFF un subtipo de esa misma entidad. Apoya la opción C. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #177 en `PROCESO_Y_APRENDIZAJE.md`. Primera pregunta del nuevo módulo DER-05.
+**Explicación:** La clínica descrita (alopecia frontotemporal progresiva con pérdida completa de cejas y pequeñas pápulas foliculares del color de la piel en mejillas y mentón) es característica de la alopecia frontal fibrosante, una variante clínica del liquen plano pilaris que afecta predominantemente a mujeres posmenopáusicas, cuya histopatología muestra un infiltrado linfocitario liquenoide perifolicular con fibrosis, prácticamente indistinguible del liquen plano pilaris clásico. En las fases iniciales, antes de que se instaure la fibrosis folicular definitiva, un tratamiento precoz (corticoides tópicos o intralesionales, inhibidores de la 5-alfa-reductasa) puede frenar la progresión, lo que plantea cierta reversibilidad potencial si se actúa a tiempo, si bien una vez establecida la fibrosis la alopecia es permanente. No se trata de una alopecia androgénica ni es más frecuente en varones.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

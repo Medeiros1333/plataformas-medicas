@@ -83,7 +83,7 @@ D. Lesión en amígdala palatina derecha sugestiva de carcinoma de orofaringe T2
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 24; pregunta con imagen de videofibroscopia no disponible en la fuente de datos — el patrón clínico descrito, sin disfonía y con adenopatías bilaterales precoces, es característico del carcinoma supraglótico)*
 
-### MIR-2020-063 ⚠️
+### MIR-2020-063
 Mujer de 56 años que consulta por presentar, desde hace 6 meses, habla entrecortada, con altibajos, como estrangulada, y temblor en la voz. Después de la exploración endoscópica laríngea, del análisis acústico de la voz y del habla, la sospecha diagnóstica es una distonía laríngea o disfonía espasmódica adductora. ¿Cuál de las siguientes propuestas de tratamiento está indicada?
 
 A. Sección del nervio laríngeo inferior o recurrente.
@@ -91,13 +91,15 @@ B. Extirpación del músculo tiroaritenoideo.
 C. Tratamiento logopédico y administración de relajantes musculares.
 D. Inyección de toxina botulínica en el músculo de la cuerda vocal.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 63)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 63)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de referencia establece textualmente, en el propio apartado de disfonía espasmódica, que el "tratamiento: toxina botulínica" — coincidiendo exactamente con la opción D, no con la B (marcada oficialmente). La extirpación quirúrgica del músculo tiroaritenoideo no es el tratamiento estándar de esta entidad; la inyección de toxina botulínica (denervación química reversible) es universalmente reconocida como el tratamiento de elección de la disfonía espasmódica aductora, con un perfil de eficacia y seguridad muy superior a la cirugía de resección muscular. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2020. Ver hallazgo #45 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El tratamiento de primera línea, bien establecido y de elección, para la disfonía espasmódica aductora (distonía laríngea que produce una voz entrecortada, estrangulada y con altibajos por espasmos de la musculatura aductora, fundamentalmente el músculo tiroaritenoideo) es la inyección de toxina botulínica directamente en el músculo tiroaritenoideo/cuerda vocal, que produce una debilidad muscular controlada y temporal que mejora la fonación durante varios meses, requiriendo reinyecciones periódicas (opción D). La sección del nervio recurrente y la extirpación quirúrgica del músculo tiroaritenoideo son procedimientos destructivos e irreversibles que no se emplean como tratamiento de primera línea, dado el buen perfil de eficacia y seguridad de la toxina botulínica. El tratamiento logopédico aislado tiene una eficacia limitada en la disfonía espasmódica, a diferencia de otros trastornos funcionales de la voz.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
-### MIR-2023-063 ⚠️
+### MIR-2023-063
 Hombre de 48 años, profesor universitario, que refiere sufrir problemas con la voz desde hace varios años, que han empeorado progresivamente y que consisten en voz áspera y forzada, con posibles cambios de tono, cansancio y fatiga al hablar. En la exploración fibrovideoendoscópica faringolaríngea no se observan lesiones orgánicas en las cuerdas vocales, pero sí una disminución del diámetro anteroposterior del vestíbulo laríngeo durante la fonación. El diagnóstico más probable del trastorno vocal que padece este paciente es:
 
 A. Parálisis abductora laríngea.
@@ -105,11 +107,11 @@ B. Disfonía espasmódica.
 C. Distonía de la musculatura extrínseca laríngea.
 D. Disfonía por tensión muscular.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de confianza fuerte (patrón clínico-endoscópico clásico, sin cita bibliográfica directa disponible):** el cuadro descrito —profesional de la voz [profesor], disfonía progresiva de años de evolución, voz áspera/forzada con fatiga vocal, SIN lesión orgánica en cuerdas vocales, con constricción/disminución del diámetro anteroposterior del vestíbulo laríngeo [compresión supraglótica] durante la fonación— es la presentación endoscópica y clínica CLÁSICA de la DISFONÍA POR TENSIÓN MUSCULAR (muscle tension dysphonia, MTD): un trastorno funcional de hiperfunción/compresión supraglótica sin lesión estructural, típico de profesiones con alta demanda vocal, cuyo hallazgo endoscópico definitorio es precisamente la constricción supraglótica/del vestíbulo laríngeo durante la fonación. La "distonía de la musculatura extrínseca laríngea" (clave oficial C) es una entidad neurológica mucho más rara y no es la etiqueta diagnóstica estándar para este patrón clínico-endoscópico tan característico. La disfonía espasmódica (B) cursa característicamente con voz entrecortada/estrangulada con quiebres bruscos [patrón distinto, ya documentado en MIR-2020-063 de este mismo módulo], no con esta compresión supraglótica sostenida; la parálisis abductora (A) produciría estridor/disnea, no este cuadro. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El cuadro de un profesional de la voz con disfonía crónica progresiva (voz áspera, forzada, con cambios de tono y fatiga vocal), sin lesiones orgánicas visibles en las cuerdas vocales, pero con hiperconstricción supraglótica objetivada como una disminución del diámetro anteroposterior del vestíbulo laríngeo durante la fonación, es la descripción característica de la disfonía por tensión muscular (DTM), un trastorno funcional de la voz causado por un patrón de hiperactividad y tensión excesiva de la musculatura laríngea extrínseca e intrínseca durante la fonación, sin lesión estructural subyacente, frecuente en profesionales que usan la voz de forma intensiva.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales, **2 discrepancias de confianza fuerte**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

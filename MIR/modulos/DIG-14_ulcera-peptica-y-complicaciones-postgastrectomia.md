@@ -94,11 +94,11 @@ B. Síndrome de antro retenido.
 C. Síndrome de asa aferente.
 D. Carcinoma de muñón gástrico.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 21, 156", desfase de año habitual de ±1), describe exactamente este escenario diagnóstico dentro del apartado "Úlcera recurrente" de las complicaciones postgastrectomía: *"la diferencia principal a la hora del diagnóstico es que el gastrinoma tendrá un test de secretina positivo, mientras que, en el SÍNDROME DE ANTRO RETENIDO, la infusión de secretina no provoca un aumento de la gastrina sérica"* — una descripción que coincide EXACTAMENTE con el hallazgo del enunciado (secretina IV sin aumento de gastrina), señalando la opción B (no elegida) como la respuesta correcta, no la opción C (síndrome de asa aferente) marcada por la clave oficial. El síndrome de asa aferente, según la misma bibliografía, se caracteriza por molestias que CEDEN con el vómito, no por úlceras recurrentes con hallazgos de secretina específicos. Ver hallazgo #128 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Úlceras gástricas e intestinales recurrentes tras una gastrectomía Billroth II, con test de secretina negativo, sugieren un síndrome de antro retenido (B): si tras la gastrectomía queda un resto de mucosa antral unido al muñón duodenal (asa aferente), esa mucosa, bañada por contenido alcalino, sigue secretando gastrina de forma continua, lo que provoca hipergastrinemia e hipersecreción ácida con úlceras de boca anastomótica. El test de secretina es la clave diagnóstica: en el gastrinoma la secretina produce un aumento paradójico de gastrina (>200 pg/ml), mientras que en el antro retenido no se produce ese aumento; por eso se descarta el gastrinoma (A). El síndrome del asa aferente cursa con dolor posprandial y vómitos biliosos por obstrucción del asa, no con úlceras por hipersecreción (C). El carcinoma de muñón gástrico aparece típicamente muchos años después de la cirugía (D).
 
-> **Nota de cobertura y fiabilidad:** 1 pregunta real (2020), **discrepante de MÁXIMA confianza**, confirmada por cita textual directa a esta misma pregunta en el punto exacto de la bibliografía que describe el hallazgo diagnóstico central del caso. Búsqueda adicional sin más candidatas frescas 2020-2025 claramente pertenecientes a este Tema tras evaluar varias preguntas de especialidades vecinas (cardiología, otros temas de DIG ya cubiertos).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

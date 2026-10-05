@@ -39,14 +39,11 @@ B. Boletín estadístico de defunción con intervención judicial (muerte violen
 C. Boletín estadístico de defunción.
 D. Parte de lesiones.
 
-**Respuesta correcta: B**
-**Justificación de cada opción:**
-- **B (correcta):** un hematoma epidural agudo postraumático es, por definición médico-legal, una muerte de causa VIOLENTA (traumática) — con independencia de que el traumatismo haya sido accidental y sin intervención de terceros. Toda muerte violenta obliga a cumplimentar el boletín estadístico de defunción **con intervención judicial**, dando parte al juzgado de guardia.
-- A: incorrecta — el certificado ORDINARIO de defunción solo es válido para muertes de causa NATURAL (enfermedad conocida, sin causa externa); una muerte traumática nunca se certifica por esta vía, aunque el paciente fuera anciano y la caída casual.
-- C: incorrecta — el "boletín estadístico de defunción" a secas (sin intervención judicial) es el documento que acompaña al certificado ordinario en las muertes naturales; no es válido aquí precisamente por la naturaleza traumática del fallecimiento.
-- D: incorrecta — el parte de lesiones se emite para notificar lesiones a un paciente VIVO (habitualmente ante sospecha de delito); no sustituye ni es aplicable al procedimiento de certificación de un fallecimiento.
+**Respuesta correcta: D**
 
-*(Confianza máxima, hecho fundamental y no controvertido de medicina legal española. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La muerte de este paciente es consecuencia de un traumatismo (una caída con hematoma epidural), es decir, una muerte VIOLENTA aunque sea accidental, y por tanto tiene implicaciones médico-legales. En estos casos el médico NO debe firmar el certificado médico ordinario de defunción (A) ni el boletín estadístico ordinario (C), sino comunicar el fallecimiento al juzgado de guardia mediante el parte judicial de lesiones/defunción (D), que es la única obligación del facultativo. A partir de ahí, el juez ordena el levantamiento del cadáver y la autopsia judicial, y es el médico forense quien cumplimenta el boletín estadístico de defunción con intervención judicial (B), no el médico asistencial.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-176
 Una mujer de 25 años acude a urgencias acompañada de una amiga relatando que ha sido víctima de una agresión sexual hace 4 horas. La paciente se encuentra muy afectada, contestando a sus preguntas de forma incongruente, con lentitud y sin ser capaz de recordar cómo se ha producido la agresión. Sus constantes vitales (tensión arterial, frecuencia cardiaca y temperatura) son normales. ¿Cuál de las siguientes actuaciones sería INCORRECTA?:
@@ -56,18 +53,7 @@ B. Realizar de inmediato una exploración ginecológica con toma de citología c
 C. Administrar 500 mg de ceftriaxona intramuscular, 1 g de azitromicina vía oral y 2 g de tinidazol vía oral en dosis únicas.
 D. Administrar 1500 mg de levonorgestrel vía oral en dosis única.
 
-**Respuesta correcta: B**
-**Justificación de cada opción (se pide la actuación INCORRECTA):**
-- **B (correcta = es la actuación INCORRECTA):** la exploración ginecológica SÍ debe realizarse, pero orientada a la recogida de evidencia FORENSE reglada bajo cadena de custodia (muestras para ADN, estudio de ITS); solicitar específicamente una **citología cervical** (prueba de cribado oncológico rutinario) no aporta valor forense y no es la prioridad en el contexto agudo — es la actuación mal planteada.
-- A: correcta como actuación (por tanto NO es la respuesta) — contactar con el juzgado de guardia es obligado para garantizar la cadena de custodia y la actuación médico-legal reglada.
-- C: correcta como actuación (por tanto NO es la respuesta) — la profilaxis antibiótica de ITS (ceftriaxona + azitromicina + tinidazol en dosis única) es la pauta estándar recomendada tras una agresión sexual.
-- D: correcta como actuación (por tanto NO es la respuesta) — el levonorgestrel en dosis única es la anticoncepción de urgencia estándar, indicada dentro de las primeras 72-120 horas.
-
-*(Confianza fuerte, coherente con el protocolo estándar de actuación ante agresión sexual. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad".)*
-
-**MIR-2021-189 y MIR-2021-190 (pendiente_verificacion, sin clave oficial confirmada en el dataset):** dos preguntas adicionales de este mismo cluster temático (cumplimentación del apartado I-d del certificado de defunción tras un TCE traumático; heridas de defensa/tanteo en agresión con arma blanca) carecen de clave oficial capturada en el dataset original. Se tagueó su `especialidad` (LEG) para fines organizativos, pero no se incluyen como entradas completas de este módulo, siguiendo el protocolo de cautela ya establecido en el hallazgo #221 para preguntas sin clave fabricable.
-
-> **Nota de cobertura y fiabilidad del módulo:** primer módulo de la especialidad, 2 preguntas reales con clave oficial (ambas limpias, 0 discrepancias), más 2 preguntas adicionales sin clave oficial mencionadas por contexto.
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ---
 

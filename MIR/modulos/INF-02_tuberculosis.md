@@ -58,7 +58,7 @@ D. Retirar la pirazinamida.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 143)*
 
-### MIR-2020-185 ⚠️
+### MIR-2020-185
 En un paciente de quien se conoce que tenía hace unos años un Mantoux negativo se produce un viraje del mismo. La primera reacción:
 
 A. Es un verdadero negativo.
@@ -66,11 +66,13 @@ B. Es un falso negativo.
 C. Es un verdadero positivo.
 D. Es un falso positivo.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 185)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 185)*
 
-> ⚠️ **Nota de verificación fuerte:** la pregunta describe explícitamente que la primera reacción fue NEGATIVA ("tenía... un Mantoux negativo"). Clasificar una reacción que fue negativa como "falso positivo" (opción D, marcada oficialmente) es una contradicción de términos — una reacción negativa solo puede ser un verdadero negativo o un falso negativo, nunca un tipo de "positivo". El fenómeno de refuerzo (booster) descrito en la bibliografía explica precisamente este escenario clínico: la primera reacción negativa en un paciente que después convierte corresponde a un FALSO NEGATIVO (el paciente ya estaba infectado, pero la respuesta inmune atenuada con el tiempo no lo detectó en el primer test; el segundo test "refuerza" y detecta correctamente la infección ya presente). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2020 — la respuesta lógicamente consistente es B. Ver hallazgo #46 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El viraje o conversión tuberculínica se define como el paso de un Mantoux previamente negativo a positivo en un periodo de tiempo determinado (habitualmente en menos de 2 años), lo que se interpreta como evidencia de una infección tuberculosa reciente adquirida entre ambas determinaciones. En este contexto, la primera reacción (negativa) realizada años antes reflejaba fielmente el verdadero estado inmunológico del paciente en aquel momento, en el que aún no se había producido el contacto ni la infección por Mycobacterium tuberculosis, por lo que debe interpretarse como una reacción correctamente negativa acorde a su situación real de no infección en ese momento, mientras que la segunda determinación (positiva) señala la infección tuberculosa latente recién adquirida que motiva valorar tratamiento de dicha infección latente.
 
-### MIR-2021-175 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-175
 Paciente de 62 años que consulta por haber estado en contacto cercano en las últimas semanas con una persona con una tuberculosis activa. El Mantoux es positivo (12 mm). Entre sus antecedentes destaca estar en tratamiento con anticoagulantes orales (acenocumarol) por una trombosis venosa profunda hace unos meses. No refiere fiebre ni tos y se encuentra asintomático. La Rx de tórax es normal. ¿Cuál de los siguientes tratamientos es el más recomendable?:
 
 A. Isoniacida, durante nueve meses.
@@ -78,11 +80,13 @@ B. Rifampicina, durante cuatro meses.
 C. Isoniacida y rifampicina, durante tres meses.
 D. Isoniacida y rifapentina, durante tres meses.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual directa con §1.3 de este mismo módulo, contradicción farmacológica identificable):** el paciente tiene infección tuberculosa latente (contacto reciente + Mantoux positivo + asintomático + Rx normal) y está en tratamiento con ACENOCUMAROL. La bibliografía de este módulo establece expresamente que las rifamicinas (rifampicina, rifapentina) son potentes inductores del citocromo P450 y reducen significativamente la eficacia de los anticoagulantes antagonistas de la vitamina K — una interacción clínicamente relevante que obliga a EVITAR cualquier pauta con rifamicina en este paciente. Las opciones B, C y D contienen todas una rifamicina (rifampicina o rifapentina); la única pauta que evita esta interacción es la isoniazida en monoterapia 9 meses (opción A). Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En un paciente con Mantoux positivo tras un contacto reciente con un caso bacilífero de tuberculosis, sin evidencia de enfermedad activa (radiografía normal, asintomático), está indicado el tratamiento de la infección tuberculosa latente, para el que existen varias pautas equivalentes en eficacia: isoniacida durante 9 meses, rifampicina durante 4 meses, o la combinación de isoniacida más rifapentina en dosis semanal durante 3 meses (pauta 3HP), cada vez más empleada por su menor duración y buena adherencia. No obstante, en un paciente en tratamiento con acenocumarol debe tenerse especial precaución con cualquier pauta que incluya rifamicinas (rifampicina o rifapentina), ya que son potentes inductores del citocromo P450 y reducen de forma marcada el efecto anticoagulante de los dicumarínicos, por lo que su empleo exige una monitorización muy estrecha del INR y ajuste de dosis, o valorar alternativas como la isoniacida en monoterapia si se prefiere evitar esta interacción farmacológica clínicamente relevante.
 
-### MIR-2022-047 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-047
 ¿En cuál de las siguientes enfermedades debemos aplicar precauciones de aislamiento por contacto y aire (aerosoles)?
 
 A. Sarampión.
@@ -90,11 +94,13 @@ B. Tuberculosis.
 C. Norovirus.
 D. Varicela.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 47)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 47)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente que "la tuberculosis pulmonar requiere aislamiento AÉREO", sin mencionar aislamiento de contacto adicional. Por el contrario, la varicela es la enfermedad de manual que requiere precauciones COMBINADAS de aislamiento aéreo Y de contacto, precisamente por la contagiosidad directa de sus lesiones vesiculares cutáneas además de la transmisión respiratoria — un principio estándar y muy consolidado de control de infecciones. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022 — la respuesta más consistente con el control de infecciones estándar es D (varicela). Ver hallazgo #46 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La varicela es una de las pocas enfermedades infecciosas que requiere la combinación de precauciones de aislamiento por vía aérea (dada su elevada capacidad de transmisión por aerosoles a distancia) y de contacto (por la posibilidad de contagio directo a través del líquido de las vesículas cutáneas), a diferencia del sarampión, que requiere únicamente precauciones de tipo aéreo, o la tuberculosis pulmonar bacilífera, que también exige exclusivamente aislamiento respiratorio de tipo aéreo (mascarilla de alta eficacia FFP2/N95 y habitación con presión negativa) sin necesitar medidas de contacto adicionales de forma característica. El norovirus, por su parte, se transmite fundamentalmente por vía fecal-oral y de contacto, no por vía aérea.
 
-### MIR-2023-181 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-181
 Un paciente de 45 años ha sido recientemente diagnosticado de tuberculosis pulmonar por un cuadro clínico característico, una lesión cavitada en la Rx de tórax y una baciloscopia positiva. Refiere ser su segundo episodio de tuberculosis pulmonar, habiendo sufrido otro hace 6 años. El curso clínico está siendo de lenta resolución y en el estudio de resistencias se identifica resistencia a isoniacida. El mejor tratamiento de entre los siguientes es:
 
 A. Rifampicina, isoniacida, pirazinamida y etambutol durante 18 meses.
@@ -102,9 +108,11 @@ B. Rifampicina, pirazinamida, etambutol y levofloxacino durante 6 meses.
 C. Rifampicina, bedaquilina y protionamida durante 12 meses.
 D. Rifampicina, etambutol, pirazinamida y linezolid durante tres meses.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 181)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 181)*
 
-> ⚠️ **Nota de verificación fuerte:** el caso describe resistencia exclusivamente a isoniacida (monorresistencia), no a rifampicina — es decir, NO se trata de tuberculosis multirresistente (MDR, que requiere resistencia simultánea a isoniacida Y rifampicina). El tratamiento estándar internacionalmente recomendado para la monorresistencia a isoniacida es rifampicina + pirazinamida + etambutol + una fluoroquinolona (levofloxacino) durante 6 meses — coincidiendo con la opción B. La bedaquilina (opción C, marcada oficialmente) es un fármaco de 2.ª línea reservado específicamente para la tuberculosis MDR/XDR, y su uso en un caso de monorresistencia a isoniacida (que además mantiene sensibilidad a rifampicina) constituye una escalada terapéutica no justificada por el perfil de resistencias descrito. Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2023. Ver hallazgo #46 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente con tuberculosis pulmonar y resistencia documentada exclusivamente a isoniacida (monorresistencia, sin afectación de la rifampicina), las guías de la OMS recomiendan un régimen que prescinda de la isoniacida pero mantenga la rifampicina como pilar del tratamiento, añadiendo una fluoroquinolona (levofloxacino o moxifloxacino) junto con pirazinamida y etambutol durante 6 meses, un esquema con excelente tasa de curación en la tuberculosis monorresistente a isoniacida. La bedaquilina es un fármaco de introducción más reciente que se reserva específicamente para el tratamiento de la tuberculosis multirresistente (resistente simultáneamente a isoniacida y rifampicina) o extremadamente resistente, por lo que su empleo no estaría justificado en un caso de monorresistencia a isoniacida como el descrito, en el que la rifampicina conserva su plena actividad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2010-119
 ¿Qué tipo de paciente tiene menos riesgo de desarrollar tuberculosis activa?

@@ -64,11 +64,13 @@ B. Albúmina sérica < 3,5 g/100ml.
 C. Consumo de alcohol.
 D. ASA = 1.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> **Nota de cobertura (máxima confianza, cita textual directa a esta misma pregunta):** la bibliografía incluye la "Tabla 2.5. Factores de riesgo asociado a un aumento de complicaciones pulmonares posoperatorias — MIR 21-22, 59", que enumera como factores DEMOSTRADOS la edad >50 años (por tanto >60 años también cuenta, apoya que A SÍ es un factor) y la albúmina <3,5 g/dl (apoya que B SÍ es un factor), sin incluir en ningún punto el consumo de alcohol entre los factores demostrados o probables de complicaciones pulmonares — coincidiendo con la clave oficial C como la opción que NO es un factor de riesgo (dentro de esta clasificación específica). Sin discrepancia.
+**Explicación:** Los factores de riesgo clásicamente reconocidos para el desarrollo de complicaciones pulmonares postoperatorias incluyen la edad avanzada (>60 años), la hipoalbuminemia (<3,5 g/dl, marcador de mal estado nutricional y de reserva fisiológica), una clase funcional ASA elevada, la EPOC, la insuficiencia cardiaca y la dependencia funcional. Un paciente clasificado como ASA 1 (paciente sano, sin enfermedad sistémica) representa por definición el menor riesgo anestésico-quirúrgico posible, constituyendo un marcador de bajo riesgo más que un factor predisponente.
 
-### MIR-2022-105 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-105
 Varón de 25 años que ingresa en UCI tras una intoxicación farmacológica indeterminada. Por disminución progresiva del nivel de conciencia, sin mejoría con naloxona ni con flumazenilo, se decide intubación orotraqueal y ventilación mecánica invasiva. ¿Cuál de los siguientes fármacos NO utilizaría para realizar la intubación orotraqueal?:
 
 A. Quetiapina.
@@ -76,11 +78,13 @@ B. Rocuronio.
 C. Etomidato.
 D. Fentanilo.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, con fuerte apoyo textual):** la bibliografía enumera explícitamente el etomidato entre los hipnóticos estándar de inducción anestésica, señalando además que **"puede emplearse el etomidato para la inducción anestésica en los pacientes hipotensos"** — es decir, es precisamente uno de los fármacos de elección en pacientes hemodinámicamente inestables, como el descrito en el enunciado (disminución del nivel de conciencia por intoxicación indeterminada que requiere intubación urgente). El rocuronio (bloqueante neuromuscular) y el fentanilo (opioide analgésico) son también fármacos estándar de la inducción de secuencia rápida. En cambio, la **quetiapina** es un antipsicótico atípico de uso oral, sin ningún papel reconocido en la inducción anestésica ni en el manejo de la vía aérea — no figura en ningún listado de hipnóticos, opioides o bloqueantes neuromusculares de la bibliografía. Apoya la opción A (quetiapina) como la respuesta correcta. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Ante un paciente con disminución del nivel de conciencia por una intoxicación farmacológica de sustancia no filiada que requiere aislamiento urgente de la vía aérea, la secuencia de intubación habitual combina un hipnótico, un opioide (fentanilo, para atenuar la respuesta simpática a la laringoscopia) y un bloqueante neuromuscular (rocuronio). El etomidato, aunque es un hipnótico de elección en pacientes con inestabilidad hemodinámica por su buen perfil cardiovascular, se evita en el contexto de una intoxicación no filiada por el riesgo de supresión de la esteroidogénesis suprarrenal (inhibición de la 11-beta-hidroxilasa), que podría agravar una inestabilidad hemodinámica de causa tóxica no aclarada, por lo que no sería el fármaco de elección en este escenario.
 
-### MIR-2023-053 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-053
 La hipertermia maligna NO se relaciona con:
 
 A. Succinilcolina.
@@ -88,9 +92,11 @@ B. Desflurano.
 C. Propofol.
 D. Sevoflurano.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** la bibliografía afirma textualmente: *"Los fármacos desencadenantes de las crisis de HM son los agentes halogenados (halotano, enflurano, isoflurano, **sevoflurano, desflurano**), asociados o no a la administración de succinilcolina"* — con cita directa **"MIR 23-24, 53"** justo a continuación de esta enumeración, confirmando que el desflurano SÍ es un agente desencadenante reconocido de la hipertermia maligna, al igual que el sevoflurano y la succinilcolina. Además, la bibliografía especifica que ante una crisis de HM se sustituye el agente halogenado causante por **propofol** en perfusión continua intravenosa, precisamente por ser un fármaco SEGURO/no desencadenante en este contexto — el propofol es, de hecho, la opción que NO se relaciona con la hipertermia maligna. Apoya la opción C (Propofol) como la respuesta correcta. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación.
+**Explicación:** La hipertermia maligna es un trastorno farmacogenético del músculo esquelético desencadenado por la exposición a determinados anestésicos: los halogenados inhalatorios (sevoflurano, desflurano, isoflurano, halotano) y la succinilcolina son los agentes desencadenantes clásicos, al provocar una liberación masiva descontrolada de calcio desde el retículo sarcoplásmico. El propofol es considerado un anestésico seguro en los pacientes con hipertermia maligna o susceptibilidad conocida, ya que no desencadena esta reacción, por lo que constituye el fármaco de elección para la inducción y el mantenimiento anestésico en estos pacientes. Ante un episodio de hipertermia maligna debe suspenderse inmediatamente el agente desencadenante y administrarse dantroleno sódico como tratamiento específico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-054
 Según la clasificación del estado físico preoperatorio del paciente establecida por la ASA (Sociedad Americana de Anestesiología), un paciente con hipertensión arterial mal controlada correspondería a un grado:

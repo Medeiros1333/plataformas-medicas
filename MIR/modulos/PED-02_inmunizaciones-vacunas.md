@@ -104,7 +104,7 @@ D. Son vacunas polisacáridas conjugadas con una proteína para hacerla dependie
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 51)*
 
-### MIR-2020-036 ⚠️
+### MIR-2020-036
 La vacuna neumocócica de polisacáridos PPSV23 genera una respuesta inmunitaria de tipo timoindependiente frente a 23 subtipos de neumococos. La inmunización con dosis repetidas de PPSV23:
 
 A. Está indicada en niños menores de dos años en situación de riesgo.
@@ -112,11 +112,13 @@ B. Induce una respuesta secundaria con altos niveles de IgG específica.
 C. Inducen maduración de la afinidad de los anticuerpos generados.
 D. No genera memoria inmunológica.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 36)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 36)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía establece explícitamente que las vacunas de polisacáridos puros (como la PPSV23) "NO inducen memoria inmunológica ni respuestas secundarias de anticuerpos. Además, la administración repetida de estas vacunas induce con cada nueva administración un título MENOR de anticuerpos (tolerancia)". Esto contradice directamente la opción B (marcada como correcta), que afirma justo lo contrario (respuesta secundaria con IgG alta), y confirma la opción D como la afirmación correcta. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020. Ver hallazgo #39 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las vacunas de polisacáridos puros, como la PPSV23, inducen una respuesta inmunitaria timoindependiente, mediada fundamentalmente por linfocitos B sin cooperación de linfocitos T colaboradores. Este tipo de respuesta no genera memoria inmunológica duradera, no produce maduración de la afinidad de los anticuerpos ni cambio de isotipo eficiente, y las dosis repetidas no inducen una respuesta secundaria potenciada como ocurre con los antígenos proteicos o las vacunas conjugadas; de hecho, la revacunación frecuente con PPSV23 puede incluso inducir un fenómeno de hiporrespuesta. Por este motivo, en menores de dos años, en quienes predomina la inmadurez de la respuesta timoindependiente, se prefiere el uso de vacunas conjugadas (como la VNC13) en lugar de la PPSV23.
 
-### MIR-2021-145 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-145
 ¿Cuál de las siguientes vacunas NO está recomendada previamente a una esplenectomía electiva en un adulto?
 
 A. Vacuna antineumococo PPV 23.
@@ -124,11 +126,13 @@ B. Vacuna antihaemophilus influenza B.
 C. Vacuna antimeningocócica C.
 D. Vacuna antitetánica.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 145)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 145)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente que la vacuna frente a Haemophilus influenzae B está indicada de forma universal y "en mayores de 5 años con riesgo de infección por microorganismos encapsulados (**asplenia**, inmunodeprimidos, drepanocitosis...)" — es decir, SÍ está recomendada antes de una esplenectomía, contradiciendo la clave oficial (B). El panel clásico de vacunación pre-esplenectomía cubre precisamente los 3 microorganismos encapsulados (neumococo, Haemophilus B y meningococo); la vacuna antitetánica (opción D) no forma parte de ese panel específico, ya que el tétanos no es un microorganismo encapsulado y su riesgo no se relaciona con la función esplénica. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2021 (la respuesta más consistente con la bibliografía sería D). Ver hallazgo #39 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Antes de una esplenectomía electiva, se recomienda administrar el conjunto de vacunas dirigidas frente a los microorganismos encapsulados que con mayor frecuencia causan infecciones fulminantes en el paciente asplénico: el neumococo (vacuna antineumocócica, habitualmente combinando conjugada y polisacárida), el meningococo (frente a los distintos serogrupos disponibles, incluido el C) y el Haemophilus influenzae tipo B, idealmente administradas al menos dos semanas antes de la intervención para asegurar una respuesta inmunitaria óptima. La vacuna antitetánica, aunque recomendable mantenerla actualizada como parte del calendario vacunal general del adulto, no forma parte de este grupo específico de vacunas dirigidas a prevenir la sepsis fulminante postesplenectomía por gérmenes encapsulados.
 
-### MIR-2022-084 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-084
 En relación con las vacunas y los calendarios de vacunación en las comunidades autónomas españolas, señale la afirmación INCORRECTA:
 
 A. Las vacunas sistemáticas son aquellas que se administran de forma obligatoria a todos los niños según el calendario vacunal vigente en su comunidad autónoma.
@@ -136,11 +140,13 @@ B. Las vacunas no sistemáticas son aquellas que no se administran de forma univ
 C. El calendario vacunal se define como la secuencia cronológica de vacunas que se administra sistemáticamente en un país o área geográfica determinada.
 D. Los calendarios vacunales deben actualizarse de forma permanente según el desarrollo de nuevas vacunas o el cambio de incidencia de enfermedades en un área geográfica determinada.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 84)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 84)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía establece explícitamente que "a nivel legal, la vacunación obligatoria en España únicamente se contempla en casos de existir un problema de salud pública" — es decir, el calendario sistemático NO es "obligatorio" en el sentido legal, sino recomendado/universal pero voluntario. Esto hace que la opción A (que equipara "sistemática" con "obligatoria") sea la afirmación INCORRECTA, no la D, que coincide literalmente con la bibliografía ("está en continuo cambio para adecuarse a las necesidades de dicha población"). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022 (la opción A parece ser la afirmación incorrecta real, por la confusión entre "sistemática" y "obligatoria"). Ver hallazgo #39 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En España, a diferencia de otros países, la vacunación infantil no tiene carácter legalmente obligatorio, sino que se considera sistemática y recomendada, integrada en el calendario vacunal oficial de cada comunidad autónoma, si bien las tasas de cobertura vacunal son habitualmente muy elevadas gracias a la aceptación social y a las recomendaciones de las autoridades sanitarias. Las vacunas no sistemáticas son aquellas no incluidas de forma universal en todos los calendarios autonómicos, y los calendarios de vacunación deben actualizarse de forma continua conforme se desarrollan nuevas vacunas, cambia la epidemiología de las enfermedades inmunoprevenibles o se dispone de nueva evidencia científica, como ha ocurrido recientemente con la incorporación de la vacuna frente al meningococo B o frente al virus respiratorio sincitial.
 
-### MIR-2022-077 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-077
 ¿Cuál de las siguientes vacunas NO debe administrarse a un lactante de 9 meses que tiene una inmunodeficiencia primaria combinada?
 
 A. Vacuna antineumocócica conjugada 13-valente.
@@ -148,9 +154,11 @@ B. Vacuna antigripal.
 C. Vacuna frente al rotavirus.
 D. Vacuna antimeningocócica tipo B.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 77)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 77)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente, dentro de las contraindicaciones de la vacuna del rotavirus, la "inmunodeficiencia combinada grave" — precisamente el cuadro descrito en el enunciado. La regla general establecida en la propia bibliografía es que solo las vacunas VIVAS ATENUADAS están contraindicadas en la inmunodeficiencia; la vacuna antineumocócica conjugada (opción A, marcada como correcta) es una vacuna INACTIVADA, no atenuada, y por tanto no debería estar contraindicada en este contexto — al contrario, las vacunas conjugadas no vivas son seguras y recomendadas en inmunodeprimidos. La opción claramente contraindicada según la bibliografía es la C (rotavirus), no la A. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022. Ver hallazgo #39 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las vacunas de microorganismos vivos atenuados, como la vacuna frente al rotavirus, están contraindicadas en pacientes con inmunodeficiencias primarias combinadas graves, dado el riesgo de que el propio agente vacunal, al replicarse sin control por la ausencia de una respuesta inmunitaria competente, produzca una enfermedad diseminada grave. Por el contrario, las vacunas inactivadas o de subunidades, como la vacuna antineumocócica conjugada, la vacuna antigripal inactivada o la vacuna antimeningocócica B (de proteínas recombinantes), no solo no están contraindicadas sino que están especialmente recomendadas en estos pacientes, dado su mayor riesgo de infecciones graves por gérmenes encapsulados y otros patógenos frente a los que dichas vacunas confieren protección.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

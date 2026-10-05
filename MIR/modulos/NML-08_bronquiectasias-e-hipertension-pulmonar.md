@@ -63,9 +63,11 @@ B. IgE específica frente a Aspergillus fumigatus.
 C. IgE específica frente a Aspergillus niger.
 D. Broncoscopia.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** la tabla de criterios diagnósticos ISHAM 2013 (actualización 2016) de la ABPA, reproducida explícitamente en la bibliografía AMIR, exige como criterios OBLIGATORIOS (ambos deben estar presentes) los "niveles de IgE específica *A. fumigatus* (o pruebas cutáneas positivas si no está disponible la IgE específica)" junto con un nivel total de IgE sérica >1.000 UI/ml — es decir, la opción B, no mencionada en absoluto la broncoscopia (D) entre los criterios diagnósticos de esta entidad. Además, la opción C es un distractor deliberado (especifica la especie incorrecta, *A. niger* en vez de *A. fumigatus*, el hongo realmente implicado), reforzando que B es la opción diseñada como correcta. Ver hallazgo #96 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La aspergilosis broncopulmonar alérgica (ABPA) es una reacción de hipersensibilidad frente a la colonización de la vía aérea por Aspergillus fumigatus, típica de pacientes asmáticos o con fibrosis quística, que cursa con bronquiectasias centrales características. El diagnóstico se apoya en la demostración de sensibilización frente a Aspergillus fumigatus mediante la determinación de IgE específica (o prick test) frente a este hongo concreto, junto con criterios adicionales como la IgE total elevada, la eosinofilia periférica y la presencia de precipitinas o IgG específica frente al mismo microorganismo, siendo la sensibilización a Aspergillus niger (contaminante ambiental frecuente pero no implicado en la ABPA) irrelevante para este diagnóstico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-110
 Hombre de 60 años que acude a consulta por presentar tos y expectoración habitual mucosa, amarillenta, con más de 4-5 episodios de reagudizaciones al año, algunas veces con hemoptisis. ¿Cuál de los siguientes es el diagnóstico más probable?
@@ -87,9 +89,9 @@ D. Presión sistólica en arteria pulmonar en reposo medida por cateterismo card
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2025, pregunta 156; coincide de forma literal con la bibliografía: "la hipertensión pulmonar se define como la existencia de una presión media en la arteria pulmonar (PAPm) >20 mmHg en reposo", medida mediante cateterismo)*
 
-> **Nota de cobertura:** 3 preguntas reales (2020, 2024, 2025), 1 discrepancia de alta confianza sobre el criterio diagnóstico obligatorio de la ABPA.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-079 ⚠️
+### MIR-2020-079
 Señale la respuesta FALSA con respecto a la clínica, diagnóstico y tratamiento de la fibrosis quística:
 
 A. La colonopatía fibrosante es consecuencia de la diarrea crónica por dosis insuficientes de enzimas pancreáticos.
@@ -97,11 +99,11 @@ B. La hepatopatía es independiente del genotipo, aunque sí se asocia más a in
 C. La determinación de elastasa 1 fecal es la prueba más útil para el diagnóstico de insuficiencia pancreática.
 D. En el lactante puede manifestarse con una alcalosis metabólica hipoclorémica.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y bien establecido de la fibrosis quística):** la presentación en el lactante con alcalosis metabólica hipoclorémica (síndrome pseudo-Bartter, por pérdida excesiva de cloro en el sudor) es una manifestación CLÁSICA y muy citada de la fibrosis quística en la infancia — la opción D es, por tanto, VERDADERA, no la falsa buscada. En cambio, la colonopatía fibrosante es una complicación bien documentada asociada al uso de dosis EXCESIVAMENTE ALTAS de enzimas pancreáticos (no a dosis insuficientes/diarrea crónica como afirma la opción A) — un error causal claro que invierte la relación real. Las opciones B (hepatopatía independiente del genotipo, asociada a insuficiencia pancreática/íleo meconial) y C (elastasa fecal como prueba de elección para insuficiencia pancreática) son afirmaciones correctas y bien establecidas. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** En la fibrosis quística, la colonopatía fibrosante es una complicación descrita en relación con el uso de dosis excesivas (no insuficientes) de enzimas pancreáticos de sustitución, por lo que la afirmación de que se debe a dosis insuficientes constituye la respuesta falsa. La afectación hepatobiliar en la fibrosis quística, en cambio, es independiente del genotipo CFTR pero se asocia con mayor frecuencia a los pacientes con insuficiencia pancreática e íleo meconial neonatal, y la determinación de la elastasa fecal 1 es la prueba no invasiva de referencia para valorar la función pancreática exocrina; asimismo, la presentación en el lactante con alcalosis metabólica hipoclorémica (por pérdida excesiva de cloro y sodio por el sudor) es una manifestación clásica y bien reconocida de esta enfermedad.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **2 discrepancias**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

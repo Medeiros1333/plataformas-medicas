@@ -61,9 +61,11 @@ B. E3V3M5.
 C. E2V3M4.
 D. E2V4M5.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la propia tabla de la escala de Glasgow reproducida en la bibliografía AMIR (Tema 15.2, tabla 1), citada explícitamente junto a esta misma pregunta ("MIR 21, 97"), asigna sin ambigüedad: apertura ocular "al sonido" = **3 puntos** (no 2, que corresponde a "al dolor/presión"); respuesta verbal "palabras" (inapropiadas) = **3 puntos** (no 4, que corresponde a "confuso"); respuesta motora "localiza" = **5 puntos**. Aplicando la regla de registrar la MEJOR respuesta motora entre ambos lados (localiza, no extiende), el resultado exacto según la tabla es **E3V3M5** — coincidiendo con la opción B, no con la D (E2V4M5) marcada oficialmente. Se trata de un cálculo puramente mecánico y objetivo a partir de una tabla de puntuación estandarizada, sin margen de interpretación clínica subjetiva — uno de los tipos de discrepancia con mayor grado de certeza posible en este proyecto. Ver hallazgo #103 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La escala de coma de Glasgow valora tres componentes -apertura ocular, respuesta verbal y respuesta motora- puntuando siempre la mejor respuesta obtenida en cada uno. La apertura ocular a la llamada (estímulo verbal) puntúa 3 (a diferencia de la apertura espontánea, que puntuaría 4, o la apertura solo al dolor, que puntuaría 2). La emisión exclusiva de palabras inapropiadas, sin conversación coherente, puntúa 3 en la escala verbal. En cuanto a la respuesta motora, cuando existe asimetría entre ambos lados (localización del dolor en las extremidades derechas frente a extensión en las izquierdas, esta última más patológica), la convención estándar de la escala es registrar la mejor respuesta motora obtenida, es decir, la localización del dolor, aunque debe reflejarse también la asimetría en la exploración neurológica detallada por su relevancia localizadora y pronóstica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-103
 Un paciente de 56 años es encontrado en coma en su domicilio. Tiene antecedentes de hipertensión arterial y diabetes mellitus. No tiene hábitos tóxicos ni ninguna otra enfermedad crónica. Está en tratamiento con irbesartán y empagliflozina. No presenta signos de desnutrición. Presenta una presión arterial de 110/60 mmHg, una frecuencia cardiaca de 110 lpm, una SatO2 del 90%, una glucosa capilar de 120 mg/dl y una frecuencia respiratoria de 7 rpm. ¿Qué actitud terapéutica inicial le parece la más correcta?:
@@ -73,9 +75,13 @@ B. Administrar naloxona, flumazenilo y glucosa hipertónica.
 C. Administrar naloxona y flumazenilo.
 D. Administrar tiamina y glucosa hipertónica.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 103; la bradipnea marcada (7 rpm) orienta a depresión respiratoria por opioides, apoyando la naloxona; la glucemia capilar normal —120 mg/dl— hace innecesaria la administración de glucosa, descartando B y D; este "cóctel del coma" específico no está desarrollado en el pasaje de bibliografía de Neurología disponible en este módulo —pertenece más al ámbito de Urgencias/Toxicología—, por lo que se incluye sin nota de verificación adicional al no existir motivo documental para dudar de la clave)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 103)*
 
-### MIR-2021-057 ⚠️
+**Explicación:** Paciente en coma de origen no filiado con bradipnea marcada (7 rpm), miosis probable e hipoxemia, sugestivo de intoxicación por opiáceos con posible coingesta de benzodiacepinas. La actitud inicial correcta es administrar naloxona y flumazenilo (C). La glucemia capilar es normal (120 mg/dl), por lo que no está indicada la glucosa hipertónica (B y D). Según la plantilla oficial, tampoco forma parte de la actitud inicial en este caso la tiamina (A): se reserva para el paciente en el que se va a administrar glucosa o con sospecha de déficit (alcoholismo, desnutrición marcada) para prevenir la encefalopatía de Wernicke; al no indicarse glucosa, la opción con los dos antídotos dirigidos es la más correcta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-057
 Uno de las siguientes signos clínicos impide realizar el diagnóstico de muerte cerebral:
 
 A. Presencia de reflejos medulares.
@@ -83,11 +89,11 @@ B. Anisocoria.
 C. Ausencia de hipotensión.
 D. Ausencia de ventilación espontánea.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual exacta con la bibliografía ya citada en el propio módulo, §1.3):** la bibliografía enumera los criterios de exploración clínica que deben estar TODOS ausentes para diagnosticar muerte encefálica —reflejo corneal, oculocefálicos/oculovestibulares, tusígeno/nauseoso, ventilación espontánea— y establece de forma explícita que *"la ANISOCORIA debe hacer CUESTIONAR el diagnóstico de muerte encefálica"* (§1.3, punto clave 5). El concepto legal de muerte encefálica se define exclusivamente por la ausencia de actividad del ENCÉFALO (cerebro + tronco encefálico); los reflejos MEDULARES (espinales) dependen de un circuito anatómico distinto e independiente (la médula espinal), por lo que su persistencia —fenómeno bien documentado, a veces llamado "signo de Lázaro"— es COMPATIBLE con el diagnóstico y NO lo impide. La ausencia de ventilación espontánea (D) es, de hecho, uno de los criterios REQUERIDOS para el diagnóstico (test de apnea positivo), no un hallazgo que lo impida. Apoya la opción B (anisocoria) como la que debe hacer cuestionar/impedir la confirmación diagnóstica, coherente con el punto clave ya establecido en este mismo módulo. Se mantiene la clave oficial (A) sin alterar. Pregunta reclasificada de especialidad no asignada a NEU.
+**Explicación:** El diagnóstico clínico de muerte encefálica exige un coma arreactivo de causa conocida, la ausencia de todos los reflejos troncoencefálicos y la apnea, una vez excluidos factores de confusión como la hipotermia, los fármacos depresores, las alteraciones metabólicas graves o la hipotensión. En la muerte encefálica las pupilas deben ser arreactivas, habitualmente de tamaño medio o dilatadas y simétricas; la anisocoria sugiere la persistencia de actividad troncoencefálica o una lesión focal en evolución y, por ello, impide establecer el diagnóstico (B). En cambio, la presencia de reflejos de origen medular (osteotendinosos, de retirada, automatismos espinales) NO lo impide, porque dependen de la médula espinal, que puede seguir funcionando (A). La ausencia de hipotensión no lo impide; al contrario, la hipotensión grave debe corregirse antes del diagnóstico (C). La ausencia de ventilación espontánea es un requisito del diagnóstico (D).
 
-> **Nota de cobertura:** 3 preguntas reales (2020×2, 2021), 2 discrepancias de máxima/alta confianza (una por cálculo mecánico y objetivo de una escala estandarizada, otra por correspondencia textual exacta con un punto clave ya establecido en el propio módulo).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

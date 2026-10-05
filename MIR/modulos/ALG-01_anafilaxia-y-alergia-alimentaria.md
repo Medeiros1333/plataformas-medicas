@@ -66,9 +66,11 @@ B. Puede comer pescado fresco cocinado a la plancha.
 C. Puede comer pescado ultracongelado comercialmente.
 D. Puede comer pescado fresco marinado o ahumado en frío.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> **Nota de cobertura:** la bibliografía confirma que la congelación a ≤-20ºC es "el método MÁS EFECTIVO" de prevención, lo que respalda con fuerza la opción C, pero no contiene una afirmación explícita que EXCLUYA la cocción adecuada (plancha) como también eficaz para inactivar el parásito, por lo que no se dispone de una contradicción textual suficientemente unívoca frente a la clave oficial (B). No se reporta como discrepancia, siguiendo la disciplina de no forzar hallazgos sin respaldo textual claro (ver #97/#124/#129).
+**Explicación:** En la alergia a Anisakis simplex el paciente se sensibiliza al parásito vivo, y el riesgo de nuevas reacciones procede sobre todo de la ingestión de larvas vivas. La congelación del pescado (a -20 ºC durante al menos 24-72 horas, o la ultracongelación comercial) mata las larvas, por lo que la recomendación dietética más segura según la plantilla oficial es consumir pescado ultracongelado (C). El cocinado a la plancha (B) puede no alcanzar en el centro de la pieza la temperatura suficiente (60 ºC durante al menos 1-2 minutos) para matar las larvas. El pescado crudo, marinado, en vinagre o ahumado en frío (D) no inactiva el parásito y debe evitarse. No es necesario evitar todo el pescado, los crustáceos, los moluscos ni los cefalópodos (A), porque la alergia es al parásito y no al pescado en sí.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-038
 Hombre de 20 años que, tras ingesta de gambas, presenta de forma prácticamente inmediata prurito palmoplantar, sensación de nudo en la garganta y ronquera, mareo, sensación de inestabilidad y debilidad intensa. Entre sus antecedentes destaca cuadro de edema laríngeo por alergia a las lentejas al año de edad. ¿Cuál debe ser el tratamiento inicial de forma urgente?:

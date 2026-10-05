@@ -109,7 +109,11 @@ B. Tratamiento regular con broncodilatadores betaadrenérgicos de acción prolon
 C. Tratamiento con LABA más glucocorticoides inhalados.
 D. Tratamiento no farmacológico.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 127; grupo A GOLD — cualquier broncodilatador es aceptable, LAMA es la respuesta preferida por evidencia indirecta de mayor reducción de agudizaciones)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 127)*
+
+**Explicación:** En la EPOC, la primera medida en todos los pacientes es el tratamiento no farmacológico: abandono del tabaco (la única intervención, junto con la oxigenoterapia en los hipoxémicos, que modifica la historia natural), actividad física regular, vacunaciones y educación. En un paciente con obstrucción leve (GOLD 1), sin exacerbaciones y con disnea solo con esfuerzos intensos (mMRC 0-1, bajo riesgo y pocos síntomas), según la plantilla oficial lo más correcto es el tratamiento no farmacológico (D), pudiendo añadirse un broncodilatador de acción corta a demanda si aparecen síntomas. Los broncodilatadores de acción prolongada en pauta regular (A y B) se indican cuando hay disnea significativa o exacerbaciones, y los corticoides inhalados (C) se reservan para pacientes con exacerbaciones frecuentes y eosinofilia o asma asociada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-123
 Paciente de 75 años, fumador (IPA 35), que refiere disnea de esfuerzo progresiva desde hace 3 años. La radiografía de tórax no muestra alteraciones relevantes. En la espirometría basal presenta FVC 1720 mL (62%), FEV1 610 mL (30%) y FEV1/FVC 35%. ¿Cuál es el diagnóstico de sospecha y la siguiente acción a tomar?:
@@ -129,7 +133,11 @@ B. Optimizar el tratamiento broncodilatador.
 C. Optimizar el tratamiento broncodilatador e iniciar oxigenoterapia crónica domiciliaria.
 D. Iniciar oxigenoterapia crónica domiciliaria y ventilación mecánica no invasiva domiciliaria.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 125; PaCO2 49 no alcanza el umbral de 52 para VMNI de forma aislada, pero combinado con PaO2 58 y el contexto de agudizador con VEMS <50%, el caso ilustra la indicación conjunta — revisar el corte exacto de PaCO2 al usar en modo examen)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 125)*
+
+**Explicación:** Paciente con EPOC (FEV1 48%), dos agudizaciones en el último año en monoterapia con tiotropio (LAMA) y eosinofilia (450/µl), que en fase estable tiene una PaO2 de 58 mmHg y una PaCO2 de 49 mmHg. Lo más apropiado es optimizar el tratamiento broncodilatador (B): con agudizaciones frecuentes y eosinófilos ≥300 se indica escalar a triple terapia (LAMA + LABA + corticoide inhalado). No se cumplen los criterios de oxigenoterapia crónica domiciliaria (A y C), que exige una PaO2 ≤55 mmHg, o entre 55 y 60 mmHg con signos de repercusión (hipertensión pulmonar, cor pulmonale, poliglobulia o arritmias), ausentes en este caso. La ventilación mecánica no invasiva domiciliaria (D) se plantea en la hipercapnia crónica más marcada (PaCO2 ≥52-53 mmHg), sobre todo tras agudizaciones hipercápnicas que requieren ventilación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-185
 Mujer de 79 años con EPOC avanzada y FEV1 del 20%, con disnea de mínimos esfuerzos y episodios repetidos de disnea de reposo sin una clara causa desencadenante. Ha perdido 8 kg en los últimos 6 meses. Ha seguido tratamiento con antibioticoterapia en ciclos repetidos, intensificación de la broncodilatación, corticoides inhalados, codeína y oxigenoterapia sin respuesta. Se plantea introducir en el tratamiento morfina. ¿Cuál sería la respuesta correcta?:
@@ -139,9 +147,11 @@ B. Está indicada únicamente cuando la saturación de O2, sin oxigenoterapia, s
 C. Está indicada porque existen síntomas y signos claros de empeoramiento grave y mal pronóstico.
 D. Estaría indicada únicamente cuando hay evidencia de insuficiencia respiratoria grave medida por gasometría arterial.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 185)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 185)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 4, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #29):** los opioides a dosis bajas (morfina) SÍ están indicados y son un tratamiento estándar, respaldado por evidencia, para la disnea refractaria en EPOC avanzada/paliativo — mejoran la disnea sin depresión respiratoria clínicamente relevante a las dosis empleadas en este contexto. La clave oficial (A, "no está indicada") contradice esta evidencia bien establecida; la opción C ("está indicada porque existen síntomas y signos claros de empeoramiento grave y mal pronóstico") es la que coincide con el manejo estándar de cuidados paliativos respiratorios. No se ha alterado `respuesta_correcta`, pero se recomienda prudencia si se usa esta pregunta en modo simulacro.
+**Explicación:** En pacientes con EPOC muy avanzada y disnea refractaria a pesar de tratamiento óptimo (broncodilatación máxima, corticoides inhalados, oxigenoterapia, opioides menores como la codeína), los opioides como la morfina a dosis bajas están indicados como tratamiento paliativo de la disnea refractaria, ya que reducen la percepción de la sensación disneica sin producir depresión respiratoria clínicamente relevante cuando se emplean a las dosis adecuadas y de forma titulada, mejorando significativamente la calidad de vida de estos pacientes; su indicación se basa en la presencia de síntomas refractarios y mal pronóstico, no exclusivamente en parámetros gasométricos o de saturación concretos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-112
 Paciente que en revisión en consulta refiere tos matutina diaria y disnea de moderados esfuerzos (MRC 2) habitual que limita sus actividades cotidianas en tratamiento con doble terapia broncodilatadora desde hace dos años. La espirometría presenta un FEV1 del 35% del teórico en situación basal con una respuesta broncodilatadora que muestra un incremento del FEV1 de 250 mL y un 13%. En el estudio por TC se identifican áreas de enfisema centroacinar y en la analítica 250 eosinófilos/µL. En el último año ha sufrido dos exacerbaciones respiratorias de las cuales una ha requerido ingreso hospitalario. Indique el tratamiento más adecuado:
@@ -183,7 +193,7 @@ D. Disfunción ventricular izquierda y aumento retrógrado de la presión.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 159; la hipoxemia alveolar crónica de la EPOC produce vasoconstricción hipóxica sostenida de la circulación pulmonar, mecanismo primario de la HTP secundaria a EPOC)*
 
-> **Nota de cobertura:** 10 preguntas seleccionadas (2021-2025), no exhaustiva. Dos preguntas (2023-125, 2023-185) llevan nota de verificación adicional — releer el cuadernillo original completo antes de usarlas en modo simulacro.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -64,9 +64,11 @@ B. Tener hipermetropía.
 C. Ser de raza negra.
 D. Que los hermanos estén diagnosticados de glaucoma.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 61)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 61)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.2) enumera explícitamente los factores de riesgo del glaucoma crónico simple (ángulo abierto) e incluye una aclaración deliberada y textual: "miopía elevada (recuerda que, en cambio, la **hipermetropía** se asocia con el **glaucoma agudo**)" — es decir, la hipermetropía está expresamente descrita como NO asociada al glaucoma de ángulo abierto, sino a una entidad distinta (el glaucoma agudo de ángulo estrecho). Esto convierte a la opción B en una candidata igualmente válida (o más, por estar explícitamente documentada) para ser la respuesta "NO es un factor de riesgo", frente a la opción A (anticonceptivos orales), que ni siquiera aparece mencionada en la lista de factores de riesgo de esta bibliografía. No se ha alterado `respuesta_correcta` (se mantiene A), pero se deja constancia de esta ambigüedad y se aplica el contraste miopía/hipermetropía en el punto clave 1 de este módulo.
+**Explicación:** Los factores de riesgo reconocidos del glaucoma primario de ángulo abierto son la presión intraocular elevada, la edad avanzada, la raza negra (C), los antecedentes familiares de primer grado (D), la MIOPÍA, la diabetes y el grosor corneal central fino, entre otros. La hipermetropía NO es factor de riesgo del glaucoma de ángulo abierto (B): el ojo hipermétrope es corto, con cámara anterior estrecha, y predispone al glaucoma de ÁNGULO CERRADO. Por eso la respuesta es la B. Respecto a los anticonceptivos orales (A), algunos estudios epidemiológicos han descrito una asociación entre su uso prolongado y un mayor riesgo de glaucoma de ángulo abierto, por lo que la plantilla oficial no los considera la opción que se pide.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-058
 Hombre de 45 años con antecedentes de queratitis herpética de repetición en ojo izquierdo (OI). Consulta por dolor, hiperemia y visión borrosa en OI de un día de evolución. A la exploración presenta una agudeza visual con su corrección de 1,0 en OD y 0,6 en OI, la presión intraocular es de 18 mmHg en OD y 35 mmHg en OI. La exploración con lámpara de hendidura en OD es normal y en el OI presenta hiperemia ciliar, turbidez en cámara anterior, ligero leucoma corneal y un test de fluoresceína negativo. ¿Con cuál de las siguientes patologías relacionaría este cuadro clínico?:
@@ -76,9 +78,11 @@ B. Glaucoma maligno.
 C. Glaucoma neovascular.
 D. Queratitis epitelial herpética.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 58)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 58)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) contiene una afirmación textual que coincide de forma extraordinariamente precisa con el enunciado: "se debe descartar la hipertensión intraocular inflamatoria (**típica de las uveítis por HERPES VIRUS**), que cuando ocurre necesita tratamiento con antihipertensivos oculares". El paciente tiene antecedente de queratitis herpética de repetición, y presenta signos de inflamación en cámara anterior (turbidez = Tyndall/celularidad) junto con PIO elevada — el cuadro exacto de la "uveítis hipertensiva" (opción A) descrito en la bibliografía. El glaucoma neovascular (clave oficial, C), en cambio, requiere una causa de isquemia retiniana subyacente (trombosis venosa retiniana, retinopatía diabética, obstrucción de la arteria central de la retina...), ninguna de las cuales aparece en el enunciado. No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (uveítis hipertensiva herpética) en el punto clave 2 de este módulo.
+**Explicación:** Paciente con queratitis herpética de repetición que presenta un ojo rojo doloroso con hiperemia ciliar, turbidez (células/flare) en la cámara anterior, presión intraocular muy elevada (35 mmHg) y fluoresceína negativa: es una uveítis anterior hipertensiva herpética (A). El virus herpes simple (y el varicela-zóster) es la causa más frecuente de uveítis anterior hipertensiva, por inflamación de la malla trabecular (trabeculitis), que dificulta el drenaje del humor acuoso; puede acompañarse de precipitados queráticos y atrofia sectorial del iris. Se trata con antivirales orales, corticoides tópicos e hipotensores oculares. La fluoresceína negativa descarta una queratitis epitelial activa (D). El glaucoma neovascular (C) requiere una isquemia retiniana (diabetes, trombosis venosa) con rubeosis de iris, y el glaucoma maligno (B) es una complicación posquirúrgica con cámara anterior plana.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-059
 Mujer de 57 años que consulta para una revisión rutinaria. En la exploración oftalmológica presenta una agudeza visual (AV) sin corrección de 1,0 en OD y 0,5 en OI, la AV con agujero estenopeico es de 1,0 en ambos ojos y la presión intraocular es de 16 mmHg en ambos ojos. ¿Cuál de las siguientes sería la actitud a seguir más correcta?:
@@ -88,9 +92,11 @@ B. Realizar un campo visual para descartar un déficit visual periférico en OI.
 C. Realizar un estudio de fondo de ojo para valorar una patología macular en el OI.
 D. Hacer un seguimiento en un año para valorar la evolución de la AV.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 59)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 59)*
 
-> ⚠️ **Nota de verificación fuerte:** el agujero estenopeico (pinhole) es una prueba semiológica básica y universal en oftalmología: cuando la agudeza visual reducida se NORMALIZA por completo con el agujero estenopeico (como ocurre en este caso, 1,0 en ambos ojos), el origen del déficit visual es un defecto de REFRACCIÓN no corregido, no una patología orgánica retiniana o del campo visual — el estenopeico funciona precisamente eliminando el efecto de los defectos refractivos al limitar la entrada de luz a los rayos paraxiales. Ante este resultado, la actitud correcta es el estudio refractivo (opción A), no pruebas orientadas a descartar patología orgánica (campo visual o fondo de ojo), que solo estarían justificadas si el estenopeico NO hubiera normalizado la visión. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica este principio semiológico básico en el punto clave 4 de este módulo.
+**Explicación:** La agudeza visual del ojo izquierdo (0,5) mejora hasta la unidad (1,0) al mirar a través del agujero estenopeico. El estenopeico solo deja pasar los rayos centrales y anula el efecto de los defectos de refracción, de modo que, si la visión mejora con él, la pérdida de agudeza se debe a un defecto refractivo no corregido (miopía, hipermetropía o astigmatismo) y no a una patología orgánica (macular, del nervio óptico o de los medios). Por eso, la actitud correcta es realizar un estudio refractivo para graduar y corregir el defecto (A). No está indicado un campo visual (B) ni buscar una patología macular (C) cuando la agudeza se normaliza con el estenopeico y la presión intraocular es normal, y no se debe dejar sin corregir un defecto refractivo que limita la visión (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-106
 En un paciente diagnosticado de glaucoma de tensión normal, ¿Cuál de las siguientes características clínicas descartaría este diagnóstico?:
@@ -102,7 +108,7 @@ D. Hipotensión sistémica nocturna.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 106; el glaucoma de tensión normal es, por definición, una variante del glaucoma de ÁNGULO ABIERTO —ver §1.2—, por lo que un ángulo cerrado en la gonioscopia es incompatible con este diagnóstico; pregunta sin discrepancia)*
 
-### MIR-2021-064 ⚠️
+### MIR-2021-064
 Mujer de 68 años que utiliza para visión lejana gafas de +4,00 dioptrías en ambos ojos. Consulta porque desde hace unas semanas tiene dolor ocular con cefalea y visión borrosa por la noche cuando está viendo la televisión en penumbra. ¿Cuál de las siguientes patologías es más probable que presente?:
 
 A. Glaucoma por cierre angular primario.
@@ -110,9 +116,11 @@ B. Migraña.
 C. Queratitis actínica.
 D. Síndrome de ojo seco.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro reúne los DOS elementos clásicos del glaucoma agudo de ángulo cerrado descritos textualmente en la bibliografía: **hipermetropía** (+4,00 dioptrías — *"la hipermetropía se asocia con el glaucoma agudo"*, por cámara anterior estrecha) y **desencadenamiento por el paso de luz a oscuridad** (*"el glaucoma agudo se produce en situaciones de midriasis media... o el paso de luz a la oscuridad"* — exactamente la "visión borrosa por la noche... en penumbra" del enunciado), junto con dolor ocular y cefalea, también descritos como síntomas típicos del cuadro agudo. Este patrón es el ejemplo de manual del glaucoma de cierre angular primario (opción A), no de la migraña (clave oficial, B), que no se asocia en la bibliografía ni a la hipermetropía ni al desencadenamiento específico por oscuridad/penumbra. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #158 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Mujer de 68 años con hipermetropía importante (+4 dioptrías) que presenta episodios de dolor ocular, cefalea y visión borrosa por la noche en penumbra: es el cuadro típico del glaucoma por cierre angular primario intermitente/subagudo (A). El ojo hipermétrope es corto, con cámara anterior estrecha, y con la edad el cristalino aumenta de grosor y estrecha aún más el ángulo. En penumbra se produce una midriasis fisiológica que hace que el iris periférico ocluya el ángulo camerular, sube la presión intraocular y aparecen dolor, cefalea, visión borrosa y halos alrededor de las luces; al dormir (miosis) el cuadro cede. El tratamiento es la iridotomía láser, también profiláctica en el ojo contralateral. La migraña (B), la queratitis actínica (C) y el ojo seco (D) no explican esta relación tan característica con la oscuridad en un ojo hipermétrope.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-176
 Mujer de 38 años que consulta por la presencia de dolor ocular, ojo rojo bilateral, hipersensibilidad a la luz y disminución de la agudeza visual. La historia clínica se completa con antecedentes de aftas bucales dolorosas y recidivantes y un diagnóstico previo de eritema nodoso hace 2 años. En la exploración oftalmológica se observa panuveitis bilateral con signos de vasculitis retiniana bilateral. Señale la respuesta correcta sobre el diagnóstico y tratamiento de la enfermedad que sospecha en esta paciente:
@@ -126,7 +134,7 @@ D. La adición al tratamiento de anticuerpos monoclonales anti TNF alfa o ciclos
 
 > **Nota de cobertura:** confirmación LIMPIA — cuadro clásico de enfermedad de Behçet (aftas orales recidivantes + eritema nodoso + panuveitis bilateral con vasculitis retiniana); el tratamiento intensivo precoz con glucocorticoides sistémicos + inmunosupresión (azatioprina) es el manejo estándar de la uveítis grave del Behçet, coincidiendo con la clave oficial. El HLA-B51 es un marcador asociado pero NO diagnóstico por sí solo (descarta A); las úlceras del Behçet característicamente NO dejan cicatriz (descarta B); los anti-TNF y la ciclosporina SÍ mejoran el control en casos refractarios (descarta D). Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas preguntas se eleva a 6 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-135
 Acude a urgencias un varón de 25 años con una uveítis anterior izquierda. En su historial clínico únicamente destaca que ha tenido úlceras orales dolorosas con cierta frecuencia en los últimos dos años. Refiere la aparición de una pápula eritematosa alrededor del sitio de punción de la vacuna antigripal, que recibió recientemente. ¿Cuál es el diagnóstico más probable?:
@@ -147,8 +155,6 @@ C. Aparición de bancos o copos de nieve en la base del vítreo.
 D. Edema de papila.
 
 **Respuesta correcta: C** — *(confianza fuerte, hecho estándar de oftalmología: la pars planitis (uveítis intermedia idiopática) se caracteriza específicamente por la aparición de "snowbanking" (bancos de nieve, exudados sobre la pars plana) y "snowballs" (copos de nieve, opacidades vítreas agregadas) — hallazgo prácticamente patognomónico que la distingue de otras uveítis intermedias/posteriores, mientras que la vitritis (A), la periflebitis (B) y el edema de papila (D) son hallazgos más inespecíficos, presentes también en otras entidades. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad ampliada:** con estas 2 preguntas se eleva a 8 preguntas reales, manteniendo 1 discrepancia y sumando 7 limpias.
 
 ### MIR-2009-129
 Un paciente de 27 años, con infección por VIH e inmunodepresión avanzada, refiere pérdida de visión bilateral, mayor en ojo izquierdo. El diagnóstico más probable a descartar es:

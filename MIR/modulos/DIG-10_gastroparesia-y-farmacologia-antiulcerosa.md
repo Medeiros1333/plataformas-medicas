@@ -58,9 +58,11 @@ B. Ondansetrón.
 C. Loperamida.
 D. Metoclopramida.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 23, pág. 88) es explícita sobre el tratamiento farmacológico de la gastroparesia: *"metoclopramida, domperidona, cisaprida, cinitaprida, eritromicina, levosulpirida"* — con una cita textual directa junto a "metoclopramida" que referencia esta misma pregunta ("MIR 22, 51", coincidiendo en número con esta pregunta MIR-2021-051, con el desfase de año habitual en las citas de este manual). El lansoprazol (opción A, marcada oficialmente) es un inhibidor de la bomba de protones — un antisecretor SIN ningún efecto procinético, sin ninguna indicación en el tratamiento de la gastroparesia según esta bibliografía. La opción D (metoclopramida), no elegida, es el fármaco explícitamente citado como tratamiento de elección. Ver hallazgo #99 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La gastroparesia diabética se debe a una alteración de la motilidad gástrica secundaria a neuropatía autonómica, con retraso del vaciamiento gástrico que provoca saciedad precoz, náuseas, vómitos y distensión posprandial. El tratamiento farmacológico de elección son los procinéticos, fundamentalmente la metoclopramida (antagonista dopaminérgico D2 con efecto procinético sobre el estómago), que acelera el vaciamiento gástrico y mejora los síntomas, siendo de los pocos fármacos con indicación específica para esta entidad. El ondansetrón (B) puede controlar sintomáticamente las náuseas pero carece de efecto procinético sobre el vaciamiento gástrico, y la loperamida (C), al ser un antidiarreico que enlentece el tránsito, podría incluso empeorar el cuadro.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-054
 ¿Qué afirmación es correcta en relación con el omeprazol?:
@@ -82,7 +84,7 @@ D. Cambiar antiinflamatorio no esteroideo por paracetamol e inhibidor de la bomb
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 147; consistente con la bibliografía: las úlceras gástricas requieren control endoscópico para confirmar la cicatrización, y los IBP son los antisecretores de elección; además, reevaluar la necesidad del AINE causal es una medida básica de prevención de recidiva)*
 
-> **Nota de cobertura:** 3 preguntas reales (2021×2, 2025), 1 discrepancia de alta confianza confirmada por cita directa de la bibliografía junto al fármaco correcto.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

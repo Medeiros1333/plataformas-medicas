@@ -92,7 +92,7 @@
 
 ## 3. Preguntas reales
 
-> **Nota de cobertura:** las preguntas reales de este manual sobre fisiología muscular ya estaban integradas en [[FIS-01]] antes de la localización de `Fisiología CTO.pdf`: **MIR-2021-030** (electrofisiología del músculo liso gastrointestinal, ondas lentas — cuya nota de verificación se actualizó en esta misma sesión con la cita directa del manual, ver sección 6 de FIS-01) y **MIR-2021-032** (comparación del potencial de acción entre la fibra muscular esquelética y la motoneurona A alfa que la inerva — confirmación limpia, sin discrepancia). Se mantienen en FIS-01 para no fragmentar su trazabilidad ya establecida; no se han localizado en el dataset preguntas reales adicionales, no usadas en otros módulos, específicas de la sinapsis (Tema 3, para el que el propio manual señala "no hay preguntas MIR representativas") o del mecanismo de contracción del músculo liso mediado por calmodulina.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

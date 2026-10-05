@@ -51,7 +51,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-085 ⚠️
+### MIR-2021-085
 El neuroblastoma es el tumor sólido extracraneal más común en niños. En relación con su diagnóstico, señale la respuesta FALSA:
 
 A. Debemos sospecharlo ante la aparición de un síndrome opsoclono-mioclono-ataxia.
@@ -59,9 +59,11 @@ B. Existe casi siempre un aumento en la excreción urinaria de metabolitos de ca
 C. La mayoría se diagnostica en menores de 6 años de edad.
 D. La gammagrafía con tecnecio es muy específica y está indicada para definir mejor su extensión.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía confirma explícitamente en la tabla comparativa de tumores infantiles que el **síndrome opsoclono-mioclono (mioclonías, ataxia, movimientos oculares anómalos)** es una manifestación clínica reconocida del neuroblastoma — es decir, la opción A es una afirmación VERDADERA, no la falsa buscada. En cambio, la misma bibliografía especifica que la técnica gammagráfica diagnóstica del neuroblastoma es la **gammagrafía con MIBG** (metayodobenzilguanidina), no con tecnecio — el tecnecio-99 se emplea en otros contextos diagnósticos pediátricos (p. ej., divertículo de Meckel), pero no es la técnica descrita para el neuroblastoma en ningún apartado de esta bibliografía. Esto hace de la opción D (gammagrafía con tecnecio) la afirmación FALSA, no la A. Las opciones B (catecolaminas urinarias elevadas, parte del estudio diagnóstico local estándar) y C (mayoría de diagnósticos en edad temprana, coherente con "tumor neonatal maligno más frecuente" y el buen pronóstico asociado a edad <18 meses) están confirmadas por la bibliografía. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #173 en `PROCESO_Y_APRENDIZAJE.md`. *(Pregunta reclasificada desde NEU a PED — contenido de oncología pediátrica cubierto en el Tema 9 del manual AMIR de Pediatría, no en el de Neurología.)*
+**Explicación:** El neuroblastoma es el tumor sólido extracraneal más frecuente en la infancia y debe sospecharse, entre otras formas de presentación, ante un síndrome opsoclono-mioclono-ataxia (síndrome de "ojos danzantes-pies danzantes"), un fenómeno paraneoplásico de origen autoinmune bien reconocido y clásicamente asociado a esta neoplasia, presente en una minoría de los casos pero de gran relevancia diagnóstica. La mayoría de los casos se diagnostican en menores de seis años, y la elevación de catecolaminas urinarias (ácido vanilmandélico y homovanílico) está presente en la práctica totalidad de los tumores funcionantes. La prueba de imagen funcional específica y de mayor especificidad para la estadificación del neuroblastoma es la gammagrafía con metayodobencilguanidina (MIBG) marcada, y no la gammagrafía ósea con tecnecio, que se reserva como estudio complementario para la detección de metástasis óseas cuando la captación de MIBG es negativa o dudosa.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -66,9 +66,11 @@ B. Un único hemocultivo positivo para Coxiella burnetii.
 C. Al menos dos hemocultivos positivos extraídos con un intervalo > 12 horas de microorganismos compatibles con una endocarditis infecciosa.
 D. Presencia de anemia hemolítica.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 118)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 118)*
 
-> ⚠️ **Nota de verificación fuerte:** la tabla de criterios de Duke de la bibliografía AMIR (§1.1) incluye explícitamente los "fenómenos vasculares: embolismos sistémicos..." como criterio clínico MENOR — es decir, SÍ es un criterio de Duke (contradiciendo la clave oficial, que lo marca como "NO es un criterio"). La anemia hemolítica (opción D, no elegida), en cambio, no aparece en ningún apartado de la tabla de criterios (ni mayores ni menores), lo que la convierte en la opción textualmente correcta como "NO es un criterio". Las opciones B y C sí están confirmadas literalmente como criterios mayores. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** Los criterios de Duke modificados para el diagnóstico de endocarditis infecciosa incluyen como criterios menores: la presencia de una condición predisponente, la fiebre, los fenómenos vasculares (entre ellos los émbolos arteriales mayores, los infartos pulmonares sépticos, los aneurismas micóticos y las hemorragias), los fenómenos inmunológicos (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoide) y la evidencia microbiológica que no alcanza criterio mayor. Un único hemocultivo positivo para Coxiella burnetii, o un título de IgG en fase I superior a 1:800, se considera excepcionalmente un criterio MAYOR por la dificultad de cultivar este microorganismo. La anemia hemolítica aislada, sin embargo, no forma parte de la lista clásica de criterios menores de Duke, siendo por tanto la opción que no debe considerarse un criterio diagnóstico de endocarditis infecciosa.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-112
 Todas las situaciones que se enumeran a continuación se refieren a pacientes con alto riesgo de desarrollar endocarditis infecciosa y por ello con indicación de profilaxis antibiótica ante procedimientos invasivos, EXCEPTO UNA. Señale cual:
@@ -78,9 +80,11 @@ B. Pacientes con cardiopatía congénita cianótica no tratada.
 C. Pacientes con válvula aórtica bicúspide.
 D. Pacientes que han sufrido endocarditis infecciosa previa.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 112)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 112)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) incluye explícitamente entre los pacientes de alto riesgo a los portadores de "válvulas protésicas **o material protésico de reparación valvular**" — categoría en la que se engloba sin ambigüedad la válvula aórtica protésica transcatéter (TAVI), contradiciendo la clave oficial (A), que la marca como la excepción (no alto riesgo). La válvula aórtica bicúspide aislada (opción C, no elegida) NO figura en ningún punto de la lista de alto riesgo de la bibliografía, siendo la excepción real según esta fuente. Las opciones B y D sí están confirmadas literalmente en la lista de alto riesgo. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** Las guías de la Sociedad Europea de Cardiología reservan la profilaxis antibiótica frente a endocarditis infecciosa para los pacientes de más alto riesgo: portadores de válvula protésica (incluidas las implantadas por vía percutánea/transcatéter) o de material protésico usado en la reparación valvular, pacientes con endocarditis infecciosa previa, y determinadas cardiopatías congénitas (cianóticas no reparadas, o reparadas con material protésico durante los primeros 6 meses o con defecto residual). La válvula aórtica bicúspide, a pesar de predisponer a mayor riesgo de endocarditis a lo largo de la vida por la turbulencia de flujo que genera, no se incluye entre las indicaciones de profilaxis antibiótica según las guías vigentes, ya que estas se limitan a los grupos de riesgo más elevado y mejor definidos, sin incluir de forma sistemática las valvulopatías nativas no operadas como la bicuspidia aórtica aislada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-115
 En relación con la endocarditis infecciosa (EI) señale cuál de las siguientes situaciones tiene indicación de cirugía cardiaca en 24-48 horas:
@@ -90,7 +94,11 @@ B. Paciente de 70 años con EI mitral por E. faecalis en el que se evidencia una
 C. Paciente de 75 años con EI aórtica con regurgitación valvular moderada y sin compromiso hemódinámico, con aislamientos repetidos en hemocultivos de Candida albicans sensible a azoles.
 D. Paciente de 68 años con EI aórtica por S. aureus con insuficiencia valvular aórtica moderada-grave y episodio de fracaso ventricular izquierdo con insuficiencia cardiaca grado III de la NYHA durante la primera semana de tratamiento antibiótico.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 115; el pseudoaneurisma de raíz aórtica constituye una complicación estructural/infección local no controlada sobre prótesis, indicación quirúrgica según §1.2, aunque la opción D —regurgitación grave con insuficiencia cardiaca persistente— también encaja de forma muy directa con el criterio de indicación por insuficiencia cardiaca; se mantiene sin nota de discrepancia por la ambigüedad clínica entre ambas situaciones)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 115)*
+
+**Explicación:** Según las guías europeas de endocarditis infecciosa, la cirugía urgente/emergente (en las primeras 24-48 horas) se reserva fundamentalmente para los cuadros de insuficiencia cardiaca aguda grave secundaria a disfunción valvular severa (edema agudo de pulmón o shock cardiogénico), para la infección no controlada con extensión perianular (abscesos, fístulas) que provoca inestabilidad, o para determinados microorganismos de alta virulencia con mala respuesta al tratamiento médico. Un paciente con endocarditis aórtica por S. aureus, insuficiencia valvular aórtica moderada-grave y un episodio de insuficiencia cardiaca grado III de la NYHA en la primera semana de tratamiento representa precisamente este escenario de alto riesgo hemodinámico que justifica una intervención quirúrgica precoz, mientras que la presencia aislada de un pseudoaneurisma de raíz aórtica con buena evolución clínica, sin dehiscencia protésica ni inestabilidad, aunque constituye indicación quirúrgica, permite habitualmente una planificación algo menos inmediata dentro del ingreso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-102
 Señale cuál de las siguientes situaciones se considera indicación de cirugía para el tratamiento de endocarditis infecciosa (EI):
@@ -110,9 +118,11 @@ B. Añadir ceftarolina IV, diuréticos y control en cuidados intensivos.
 C. Retirar daptomicina y pautar vancomicina a dosis altas y gentamicina, junto con diuréticos y control en cuidados intensivos.
 D. Solicitar un nuevo ecocardiograma, administrar tratamiento diurético y control en cuidados intensivos.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** MRSA con sensibilidad intermedia a vancomicina en fracaso de tratamiento con daptomicina — la bibliografía confirma la ceftarolina como opción activa frente a estafilococos resistentes (incluido SARM) cuando fallan otras líneas, siendo un escalón terapéutico razonable ante el fracaso de daptomicina en este contexto (vancomicina tampoco sería una alternativa lógica dada la sensibilidad intermedia ya documentada). No se ha localizado una contradicción textual directa en la bibliografía frente a la clave oficial; se mantiene sin nota de discrepancia por ambigüedad clínica insuficiente para forzar un hallazgo.
+**Explicación:** Endocarditis mitral por SARM con sensibilidad intermedia a vancomicina que, tras una semana de daptomicina, persiste con fiebre y desarrolla insuficiencia cardiaca aguda (ortopnea, nuevo soplo de insuficiencia mitral y edema pulmonar bilateral) por destrucción valvular. Las indicaciones de cirugía URGENTE en la endocarditis son la insuficiencia cardiaca por disfunción valvular grave (la causa más frecuente y la más importante), la infección no controlada (fiebre y bacteriemia persistentes pese a un tratamiento adecuado, abscesos, microorganismos difíciles como S. aureus resistente u hongos) y la prevención de embolias en vegetaciones grandes. Este paciente reúne las dos primeras, por lo que está indicado el recambio valvular urgente (A). Cambiar o intensificar los antibióticos (B y C) o repetir el ecocardiograma y tratar con diuréticos (D) sin cirugía retrasa el único tratamiento que mejora el pronóstico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2011-207
 Mujer de 35 años de edad que acude a urgencias por presentar orina turbiohemática y síndrome miccional agudo. El laboratorio de microbiología informa en la tinción de Gram de la orina de cocos grampositivos en cadenas. A las 24 horas el cultivo indica la presencia del microorganismo Enterococcus faecalis. Si no dispone de antibiograma ¿qué antibiótico administraría?

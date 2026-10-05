@@ -79,9 +79,11 @@ B. Para establecer el diagnóstico se requiere la realización de una biopsia de
 C. En ocasiones se asocia a enfermedades del tejido conectivo.
 D. La terapia antifibrótica (pirfenidona y nintedanib) puede lentificar el deterioro de la función pulmonar.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía afirma textualmente que *"el diagnóstico definitivo de la FPI es histopatológico, AUNQUE NO SIEMPRE ES NECESARIA LA REALIZACIÓN DE UNA BIOPSIA PULMONAR"* — solo se requiere cuando NO se cumplen los criterios de alta sospecha en la TCAR, contradiciendo directamente la afirmación incondicional de la clave oficial (B: "se REQUIERE" biopsia). Además, con cita textual directa a esta misma pregunta ("MIR 24, 124"), la bibliografía confirma: *"Tratamiento antifibrótico: ha demostrado ENLENTECER LA CAÍDA DE LA CVF"* — coincidiendo exactamente con la opción D (no elegida). La opción A ya se contradice en la pregunta anterior de este mismo módulo (el patrón típico es el panal, no el vidrio deslustrado), y la opción C es incorrecta porque la FPI es, por definición, IDIOPÁTICA (de causa desconocida) — su asociación con enfermedad del tejido conectivo definiría una entidad distinta (neumonía intersticial asociada a enfermedad del tejido conectivo). La respuesta coherente con la bibliografía es D, no B. Ver hallazgo #147 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La afirmación cierta es la D: los antifibróticos pirfenidona y nintedanib reducen la velocidad de caída de la capacidad vital forzada (enlentecen el deterioro de la función pulmonar) en la fibrosis pulmonar idiopática, aunque no la curan ni revierten la fibrosis. El resto es falso: el hallazgo característico en la TC de alta resolución es el patrón de neumonía intersticial usual (reticulación subpleural y basal, bronquiectasias de tracción y panalización), y el vidrio deslustrado extenso va EN CONTRA del diagnóstico (A); con un patrón radiológico de NIU típico en el contexto clínico adecuado NO es necesaria la biopsia pulmonar (B); y, por definición, la FPI es IDIOPÁTICA, por lo que no se asocia a enfermedades del tejido conectivo: si existe una conectivopatía, la enfermedad intersticial se considera secundaria a ella (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-114
 En el estudio de las enfermedades intersticiales difusas del pulmón, señale en que entidad el lavado broncoalveolar posee valor diagnóstico:
@@ -119,7 +121,7 @@ D. Vibraciones vocales disminuidas con crepitantes tipo velcro, de carácter "se
 
 > **Nota de cobertura:** confirmación LIMPIA — la exploración clásica de la enfermedad pulmonar intersticial difusa es la de un patrón restrictivo con crepitantes secos "tipo velcro" teleinspiratorios de predominio basal y acropaquias; las sibilancias son un hallazgo de patología obstructiva (asma, EPOC), no de patrón intersticial/restrictivo. Sin discrepancia.
 
-### MIR-2022-177 ⚠️
+### MIR-2022-177
 Varón de 45 años, no fumador y no consume alcohol, que consulta por disnea progresiva de dos meses de evolución. Exploración física: afebril, frecuencia respiratoria 19 rpm, frecuencia cardiaca 120 lpm, SatO2 93 %. Lesiones cutáneas de aspecto ulceroso en palmas y dedos de las manos; estertores crepitantes en ambas bases pulmonares; fuerza muscular normal. Análisis: CK 300 UI/L (N: <150) y aldolasa 12 UI/L (N: <6). Radiografía de tórax: patrón intersticial bibasal. Una biopsia muscular evidenció necrosis de células musculares, atrofia perifascicular e infiltrados inflamatorios perivasculares. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Dermatomiositis asociada al autoanticuerpo anti-TIF1-gamma (transcription intermediary factor 1-gamma).
@@ -127,9 +129,11 @@ B. Miopatía inflamatoria idiopática asociada al autoanticuerpo anti-FHL-1 (Fou
 C. Dermatomiositis asociada al autoanticuerpo anti-MDA-5 (melanoma differentiation-associated gen 5).
 D. Miopatía miofibrilar asociada al anticuerpo anti-desmina.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta — *"Anti-MDA5 (MIR 24, 25; MIR 23, 177): DM con miopatía leve o incluso amiopática, ferritina elevada y riesgo elevado de desarrollar EPID, que puede ser rápidamente progresiva... A nivel cutáneo presentan eritema difuso con manos de mecánico"*. El cuadro descrito (fuerza muscular NORMAL = amiopática, CK apenas elevada, EPID subaguda, lesiones cutáneas ulcerosas en manos) es el fenotipo característico del anticuerpo anti-MDA5 (opción C), no del anti-FHL-1 (opción B, clave oficial), que ni siquiera aparece mencionado en la bibliografía. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Varón con dermatomiositis (biopsia con atrofia perifascicular e infiltrados perivasculares, CK y aldolasa elevadas) con debilidad muscular mínima o ausente (forma 'clínicamente amiopática'), úlceras cutáneas en palmas y dedos y enfermedad pulmonar intersticial de evolución subaguda: es el fenotipo característico de la dermatomiositis asociada a anticuerpos anti-MDA5 (C). Esta forma se asocia a enfermedad pulmonar intersticial rápidamente progresiva, de mal pronóstico, a úlceras cutáneas dolorosas (sobre las pápulas de Gottron y en los pulpejos) y a pápulas palmares. La dermatomiositis anti-TIF1-gamma (A) se asocia sobre todo a cáncer en el adulto y a lesiones cutáneas extensas, sin enfermedad intersticial importante. El anti-FHL1 (B) y la miopatía miofibrilar por desmina (D) no explican el cuadro cutáneo y pulmonar.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-025
 Mujer de 57 años sin antecedentes de interés que consulta por presentar desde hace 2 meses sensación disneica, que en la última semana se ha hecho de mínimos esfuerzos. No presenta fenómeno de Raynaud, fiebre ni ortopnea. A la exploración física destacan las lesiones cutáneas que se observan en la imagen. No presenta edemas, la auscultación cardíaca es normal y la auscultación respiratoria muestra crepitantes secos en ambas bases pulmonares. La radiografía de tórax muestra un índice cardiotorácico normal y un discreto patrón intersticial basal derecho. En la analítica destaca únicamente una VSG de 75 mm, hemograma normal, AST, ALT, CK, creatinina y ionograma con valores normales. ¿Cuál de las siguientes actitudes diagnósticas es la más apropiada?:
@@ -139,9 +143,11 @@ B. Determinar la presencia de anticuerpos anticentrómero.
 C. Determinar la presencia de anticuerpos antiMDA5.
 D. Solicitar una TC torácica de alta resolución.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 25; CK normal sin miopatía clínica, EPID subaguda y lesiones cutáneas compatibles con "manos de mecánico" —típica del síndrome antisintetasa— orientan a la determinación de anticuerpos antisintetasa (anti-Jo1/PL7/PL12) frente a las otras dos entidades más específicas de otros fenotipos [MDA5: amiopática con eritema difuso; centrómero: esclerodermia limitada con Raynaud, ausente aquí]. Confirmación LIMPIA, sin discrepancia)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 25)*
 
-> **Nota de cobertura y fiabilidad del módulo:** con estas 2 preguntas se eleva a 7 preguntas reales, **2 discrepancias de MÁXIMA confianza (~29%)**, con cita textual directa en ambas; 5 preguntas limpias.
+**Explicación:** Pregunta dependiente de la imagen (no disponible en este proyecto). Mujer con enfermedad pulmonar intersticial de evolución rápida (disnea progresiva en 2 meses, de mínimos esfuerzos en la última semana), lesiones cutáneas que, según la plantilla oficial, corresponden a una dermatomiositis (pápulas de Gottron, eritema en heliotropo o úlceras cutáneas) y CK NORMAL (dermatomiositis clínicamente amiopática). Este fenotipo es el típico de la dermatomiositis con anticuerpos anti-MDA5 (C), que se asocia a enfermedad pulmonar intersticial rápidamente progresiva, de mal pronóstico, que requiere un tratamiento inmunosupresor precoz e intenso. Los anticuerpos antisintetasa (anti-Jo1, PL7, PL12) (A) se asocian al síndrome antisintetasa (miositis, manos de mecánico, Raynaud, artritis y fiebre), habitualmente con CK elevada; los anticentrómero (B) a la esclerosis sistémica limitada. La TC de alta resolución (D) caracteriza la afectación pulmonar, pero la clave diagnóstica que pide la pregunta es identificar el anticuerpo asociado a este fenotipo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

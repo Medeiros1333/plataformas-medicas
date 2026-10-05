@@ -88,9 +88,11 @@ B. Tiroidectomía total.
 C. Tiroidectomía subtotal.
 D. Enucleación del nódulo principal.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 142)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 142)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3 de este módulo) es explícita: "Cirugía: tiroidectomía total. De elección en bocios muy grandes o síntomas compresivos, o clara contraindicación de radioyodo: gestación, rechazo del radioyodo o contraindicación del mismo" — situación que coincide exactamente con el enunciado (rechazo del yodo radioactivo + oftalmopatía grave activa, listada explícitamente como contraindicación del radioyodo). La clave oficial (D, "enucleación del nódulo principal") carece además de sentido fisiopatológico: la enfermedad de Graves es un **bocio DIFUSO**, sin un "nódulo principal" que enuclear — esa maniobra ni siquiera es una técnica quirúrgica estándar descrita en la bibliografía para esta entidad. No se ha alterado `respuesta_correcta` (se mantiene D), pero se recomienda aplicar el criterio bibliográfico (tiroidectomía total) en el modo simulacro.
+**Explicación:** En la enfermedad de Graves-Basedow con oftalmopatía grave, el tratamiento con yodo radiactivo está relativamente contraindicado o debe evitarse, ya que puede empeorar la oftalmopatía tiroidea (por el efecto inflamatorio transitorio que produce sobre el tejido orbitario tras la destrucción del tejido tiroideo). Si además el paciente rechaza esta opción, la alternativa terapéutica definitiva es la cirugía, concretamente la tiroidectomía total, que elimina de forma completa el sustrato antigénico tiroideo y evita la necesidad de reintervenciones o el riesgo de hipertiroidismo persistente/recidivante que existiría con una cirugía menos radical, siendo el abordaje quirúrgico de elección en la enfermedad de Graves cuando está indicada cirugía.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-173
 Mujer de 37 años, diagnosticada hace tres meses de enfermedad de Graves, en tratamiento con metimazol y propranolol, que consulta por fiebre y deglución dolorosa. En la exploración física tiene temperatura 38,7ºC y la orofaringe está eritematosa, sin exudados. ¿Cuál de los siguientes es el manejo más adecuado?:
@@ -100,9 +102,11 @@ B. Obtener una prueba rápida de detección de antígenos para el estreptococo d
 C. Interrumpir el propranolol y obtener un cultivo de orofaringe.
 D. Interrumpir el metimazol y obtener un hemograma con recuento diferencial.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 173)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 173)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) describe de forma textual el efecto adverso grave del metimazol: "Agranulocitosis: muy grave, obliga a interrumpir el tratamiento; aparece de forma brusca e impredecible... **el cuadro suele comenzar como dolor de garganta y fiebre**." El cuadro descrito (paciente en tratamiento con metimazol, fiebre + deglución dolorosa) es la presentación de manual de una agranulocitosis inducida por antitiroideos — una urgencia hematológica potencialmente grave. La clave oficial (C) atribuye el cuadro al propranolol (fármaco sin relación descrita con agranulocitosis en la bibliografía) e indica un cultivo de orofaringe, ignorando la prioridad clínica de descartar la agranulocitosis mediante hemograma urgente y de suspender el fármaco realmente implicado (metimazol), que es lo que describe la opción D. No se ha alterado `respuesta_correcta` (se mantiene C), pero se advierte de que seguir la clave literal en un contexto clínico real podría retrasar el diagnóstico de una agranulocitosis.
+**Explicación:** En una paciente en tratamiento con metimazol que consulta por fiebre y odinofagia, debe descartarse de forma prioritaria una agranulocitosis inducida por el fármaco, una complicación infrecuente pero potencialmente grave de los antitiroideos de síntesis que se manifiesta típicamente con fiebre y clínica infecciosa orofaríngea (faringoamigdalitis) por la neutropenia asociada. Ante esta sospecha, la actitud correcta es interrumpir de inmediato el metimazol y solicitar un hemograma con recuento diferencial para confirmar o descartar la agranulocitosis, ya que continuar el fármaco en caso de agranulocitosis establecida supondría un riesgo vital por el desarrollo de infecciones graves no controladas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-162
 Varón de 37 años con diagnóstico de carcinoma medular de tiroides de 2,6 cm, sin datos de afectación ganglionar en el estudio preoperatorio, tratado mediante tiroidectomía total y linfadenectomía del compartimento central; estadiaje T2N0M0, estadio I. Para el abordaje correcto de la enfermedad, hay que tener en cuenta múltiples aspectos. Seleccione la respuesta correcta:
@@ -112,9 +116,11 @@ B. En la mayoría de los casos es esporádico y para el seguimiento bioquímico 
 C. El tratamiento sustitutivo con levotiroxina debe ajustarse para conseguir una TSH suprimida.
 D. Siempre está indicado el estudio genético del protooncogen RET, ya que se puede encontrar mutado tanto en los carcinomas medulares hereditarios como en los esporádicos.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 162)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 162)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.6) contradice explícitamente la afirmación de la clave oficial sobre la tiroglobulina: "Seguimiento: no tienen utilidad ni los rastreos con I131 ni la determinación de tiroglobulina (las células C no la producen)". La opción B, marcada como correcta, incluye erróneamente la tiroglobulina entre los marcadores útiles de seguimiento del carcinoma medular — cuando la propia bibliografía la excluye de forma expresa (solo calcitonina y CEA son útiles). El resto de opciones son claramente falsas por otros motivos (A: el carcinoma medular es el TERCERO en frecuencia, no el segundo; C: la levotiroxina debe darse a dosis SUSTITUTIVAS, no supresoras, en el carcinoma medular), lo que hace que ninguna de las 4 opciones esté libre de una imprecisión detectable en esta bibliografía. No se ha alterado `respuesta_correcta` (se mantiene B), pero se deja constancia de que su justificación textual sobre la tiroglobulina es incorrecta según la fuente utilizada.
+**Explicación:** El carcinoma medular de tiroides se origina en las células parafoliculares o células C (productoras de calcitonina) y, aunque puede formar parte de los síndromes de neoplasia endocrina múltiple tipo 2 (MEN2A y MEN2B), la mayoría de los casos son esporádicos (75-80%). En el seguimiento bioquímico de la enfermedad se emplean tanto la calcitonina como el antígeno carcinoembrionario (CEA), ambos marcadores tumorales útiles para detectar persistencia o recidiva, mientras que la tiroglobulina, al no ser secretada por las células parafoliculares, no tiene utilidad en el seguimiento del carcinoma medular (sí en el diferenciado de estirpe folicular). El tratamiento sustitutivo tras tiroidectomía total en el carcinoma medular busca una TSH en rango normal (no suprimida, a diferencia del carcinoma diferenciado de alto riesgo), y el estudio genético del protooncogén RET está indicado en todos los pacientes con carcinoma medular, ya que hasta en un 6-7% de los casos aparentemente esporádicos se detecta una mutación germinal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-163
 Señale la respuesta correcta en relación con el tratamiento con yodo radiactivo en los pacientes con cáncer diferenciado de tiroides:
@@ -124,9 +130,11 @@ B. Administrado con carácter ablativo posttiroidectomía facilita el seguimient
 C. Está indicado únicamente cuando existen metástasis a distancia.
 D. En pacientes de bajo riesgo o muy bajo riesgo reduce las recurrencias y prolonga la supervivencia.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 163)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 163)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.6) describe el yodo radiactivo en el cáncer diferenciado de tiroides exclusivamente como tratamiento POSTERIOR a la tiroidectomía ("Ablación de los restos tiroideos o metástasis con I131... puede hacerse coadyuvante a la cirugía inicial") — requiere de hecho TSH elevada tras retirar o sustituir el tratamiento supresor, algo solo posible una vez extirpada la glándula. No existe ninguna indicación descrita de administrarlo ANTES de la tiroidectomía para reducir el tamaño tumoral (opción A, clave oficial); esta práctica no se corresponde con el mecanismo de acción del fármaco (requiere captación por tejido tiroideo remanente tras cirugía). Además, la bibliografía confirma textualmente la opción B como cierta: "al eliminarse los restos tiroideos con el radioyodo, se facilita el seguimiento con la tiroglobulina" — la opción que debería ser la correcta según esta fuente. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** El yodo radiactivo (I-131) se administra en el cáncer diferenciado de tiroides después de la tiroidectomía total, nunca antes, con el objetivo de ablacionar el remanente tiroideo normal residual; esta ablación facilita enormemente el seguimiento posterior de la enfermedad, ya que permite emplear la tiroglobulina sérica como marcador tumoral fiable (al eliminar la producción de tiroglobulina por tejido tiroideo sano) y realizar rastreos corporales con yodo radiactivo para detectar enfermedad residual o recidivas. En pacientes de bajo o muy bajo riesgo, el beneficio del yodo radiactivo sobre la reducción de recurrencias y la supervivencia es limitado o inexistente, por lo que su indicación no es sistemática en estos casos sino que se reserva preferentemente para pacientes de riesgo intermedio-alto o con enfermedad residual/metastásica conocida.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-164
 La técnica quirúrgica indicada en los pacientes con adenoma tiroideo tóxico solitario que precisan intervención quirúrgica es:
@@ -136,9 +144,11 @@ B. Hemitiroidectomía del lado afecto.
 C. Tiroidectomía subtotal.
 D. Tiroidectomía total.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 164)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 164)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) es textual y directa: en el apartado de tratamiento quirúrgico del adenoma tóxico se indica "hemitiroidectomía del lado afecto con análisis histológico de la pieza". La "nodulectomía" (extirpación aislada del nódulo, sin resección del lóbulo) no aparece descrita como técnica estándar en ningún apartado de cirugía tiroidea de esta bibliografía. No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio bibliográfico (hemitiroidectomía) en el punto clave 3 de este módulo.
+**Explicación:** En el adenoma tóxico solitario (nódulo autónomo hiperfuncionante, enfermedad de Plummer) que requiere cirugía, la técnica indicada es la hemitiroidectomía (lobectomía con istmectomía) del lado afecto (B): extirpa por completo el nódulo con un margen de tejido sano y con poco riesgo, conservando el lóbulo contralateral, que está suprimido pero es normal y recuperará su función tras la cirugía (por eso el riesgo de hipotiroidismo posterior es bajo). La nodulectomía o enucleación (A) está desaconsejada por el riesgo de dejar tejido autónomo o un carcinoma no diagnosticado y por la dificultad de una reintervención. La tiroidectomía subtotal o total (C y D) son excesivas para una enfermedad unilateral y aumentan el riesgo de hipoparatiroidismo y de lesión recurrencial; se reservan para el bocio multinodular tóxico o la enfermedad de Graves. El tratamiento alternativo a la cirugía es el yodo radiactivo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-165
 Mujer de 25 años, obesa, que consulta por clínica de 2 meses de evolución de pérdida de 5 Kg de peso, palpitaciones, dificultad para el sueño nocturno y nerviosismo. A la exploración física destaca temblor fino distal, frecuencia cardiaca de 110 lpm y no presenta bocio. Se realiza analítica que muestra TSH suprimida, T4 elevada y tiroglobulina baja. La gammagrafía tiroidea muestra una absorción disminuida de yodo radiactivo. ¿Cuál de los siguientes le parece el diagnóstico más probable?
@@ -180,7 +190,7 @@ D. Hipertiroidismo por beta-HCG durante la gestación.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 158; el TSHoma es la única causa de hipertiroidismo con TSH normal/elevada en vez de suprimida, ver §1.3)*
 
-### MIR-2022-160 ⚠️
+### MIR-2022-160
 Mujer de 24 años que consulta por odinofagia intensa de dos días de duración. Indica que tuvo mialgias y tos seca unos diez días antes, que se alivió la semana pasada. Se siente temblorosa y con sudoración. La exploración no muestra eritema o exudado faríngeo, pero sí dolor a la palpación en región anterior cervical baja, sin nódulos, masas ni adenopatías. En la exploración física tiene pulso 110 lpm, temperatura 38,2 ºC y un ligero temblor en reposo. ¿Cuál es el diagnóstico más probable?:
 
 A. Tiroiditis subaguda.
@@ -188,9 +198,11 @@ B. Tiroiditis linfocitaria focal.
 C. Tiroiditis aguda o infecciosa.
 D. Enfermedad de Graves-Basedow.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 160"), describe la clínica de la tiroiditis subaguda de De Quervain: *"Generalmente precedida de infección respiratoria alta. Produce astenia, malestar general, fiebre, dolor sobre el tiroides irradiado a oído, mandíbula u occipucio. Aparecen síntomas de hipertiroidismo en la mitad de los pacientes, por liberación de hormonas secundaria a la inflamación"* — reproduce casi punto por punto el enunciado (pródromo viral 10 días antes, dolor cervical anterior a la palpación, fiebre, taquicardia y temblor por liberación hormonal transitoria). La entidad "tiroiditis linfocitaria focal" (clave oficial, B) no figura como categoría clínica reconocida en la clasificación de tiroiditis de la bibliografía (que distingue: aguda/supurada, subaguda de De Quervain, subaguda silente/indolora, Hashimoto/crónica, Riedel/fibrosante) — es, en la práctica clínica real, un hallazgo histológico incidental en piezas quirúrgicas, no un síndrome clínico agudo con fiebre y dolor cervical. Apoya la opción A (tiroiditis subaguda). Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #174 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de dolor cervical anterior intenso a la palpación, sin eritema ni exudado faríngeo, precedido de un cuadro viral (mialgias, tos seca) en las semanas previas, junto con clínica de tirotoxicosis (taquicardia, temblor, sudoración), es característico de una tiroiditis subaguda de De Quervain (tiroiditis granulomatosa subaguda), de probable origen viral o postviral, en la que la destrucción folicular provoca liberación no regulada de hormona tiroidea preformada y la consiguiente tirotoxicosis transitoria. El dolor cervical intenso a la palpación tiroidea es el signo clínico clave que la diferencia de la enfermedad de Graves (que no suele ser dolorosa) y de la tiroiditis aguda infecciosa (que cursaría con signos inflamatorios locales floridos, fiebre alta y frecuentemente un foco infeccioso identificable).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2017-015
 Pregunta vinculada a la imagen n.º15. Paciente con bocio. En la imagen se muestra su ecografía de tiroides en escala de grises y doppler color. Ante estos hallazgos, señale la respuesta correcta:

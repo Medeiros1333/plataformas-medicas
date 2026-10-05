@@ -101,7 +101,7 @@ D. Pacientes diagnosticados de enfermedad hepática crónica.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 31; la asplenia es indicación de vacunas frente a gérmenes encapsulados —neumococo, meningococo, Hib—, no de hepatitis A)*
 
-### MIR-2020-124 ⚠️
+### MIR-2020-124
 Un paciente de 45 años fue diagnosticado de infección VIH hace tres meses, presentando en ese momento CD4 45 linfocitos/µl y una carga viral de VIH1 de 500.000 copias/ml. En ese momento presentaba un Mantoux negativo. Comenzó tratamiento con un inhibidor de integrasa y dos inhibidores de transcriptasa inversa, y al mes presentaba 25.000 copias y los CD4 habían subido a 80/µl. Consulta por presentar un cuadro de adenopatías cervicales y fiebre de dos semanas de evolución. La punción de una de las adenopatías muestra bacilos ácido-alcohol resistentes aislados y granulomas epitelioides:
 
 A. Se trata de una tuberculosis ganglionar relacionada con una incompleta recuperación inmunológica.
@@ -109,9 +109,11 @@ B. Presenta fracaso al tratamiento y se trata de una infección oportunista.
 C. Se trata de una infección oportunista desenmascarada en el seno de un cuadro de reconstitución inmune.
 D. El hecho de presentar una prueba de Mantoux negativa descarta la tuberculosis.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** reclasificada de NML a INF por mejor ajuste temático (síndrome de reconstitución inmune en VIH). El cuadro es el clásico síndrome inflamatorio de reconstitución inmune (SIRI/IRIS): ascenso de CD4 y descenso de carga viral tras iniciar TAR, con aparición de una infección oportunista (aquí, tuberculosis ganglionar) previamente subclínica que se "desenmascara" al recuperarse la respuesta inmune — coherente con la opción C. La opción D, marcada como oficial, afirma que un Mantoux negativo "descarta" la tuberculosis, lo cual es explícitamente contrario a la bibliografía: la anergia cutánea (Mantoux falsamente negativo) es un hallazgo frecuente y esperable en la inmunodepresión grave (CD4 muy bajos), precisamente el contexto de este paciente en el momento del diagnóstico inicial. Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #24 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente con infección por VIH muy avanzada (CD4 inicial de 45/µl) que inicia tratamiento antirretroviral y experimenta una recuperación inmunológica todavía incompleta (CD4 ascendiendo a 80/µl) junto con un descenso de la carga viral, la aparición de fiebre y adenopatías con hallazgos histológicos de bacilos ácido-alcohol resistentes y granulomas es muy sugestiva de un síndrome de reconstitución inmune (IRIS) que desenmascara una tuberculosis subclínica preexistente, fenómeno bien descrito en las primeras semanas tras iniciar el tratamiento antirretroviral en pacientes con inmunodepresión grave. Es fundamental tener presente que una prueba de Mantoux negativa NO descarta en ningún caso una tuberculosis activa, especialmente en un paciente con inmunodepresión celular tan profunda como la que presentaba este enfermo en el momento de dicha determinación (CD4 45/µl), situación en la que los falsos negativos por anergia cutánea son muy frecuentes; el hallazgo directo de bacilos ácido-alcohol resistentes en la biopsia es, de hecho, una prueba mucho más fiable que el resultado de un Mantoux previo realizado en pleno estado de inmunodepresión grave.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-192
 Acude a urgencias un hombre de 34 años, sin diagnósticos previos, con antecedente de consumo de drogas por vía parenteral, con fiebre, tos no productiva y disnea progresiva de varias semanas de evolución. Se realiza radiografía de tórax que muestra infiltrado intersticial bilateral. En analítica sanguínea destaca linfopenia y lactato deshidrogenasa elevada. La saturación de oxígeno es del 88% respirando aire ambiente en reposo. ¿Cuál de las siguientes aseveraciones le parece INCORRECTA?:
@@ -125,7 +127,7 @@ D. Solicitaría estudio microbiológico de esputo.
 
 > **Nota de cobertura:** confirmación LIMPIA — reclasificada de NML a INF (neumonía oportunista en probable VIH no diagnosticado). El cuadro (UDVP, infiltrado intersticial bilateral, linfopenia, LDH elevada, hipoxemia) es compatible con neumonía por *Pneumocystis jirovecii*; la bibliografía confirma el cotrimoxazol (trimetoprim/sulfametoxazol) como tratamiento de elección — la ceftriaxona (opción A) no cubre este patógeno, coincidiendo con la clave oficial como la actitud incorrecta. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas 2 preguntas se eleva a 5 preguntas reales, **1 discrepancia** (recuperada del hallazgo #24, ya documentada en sesiones previas pero nunca tageada), 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2022-165
 Varón que consulta por haber tenido, hace 48 horas, una relación sexual de riesgo sin protección, con eyaculación, con una persona con VIH que está en tratamiento antirretroviral y mantiene una carga viral indetectable desde hace años. La prueba de VIH hecha al paciente en ese momento en urgencias es negativa. ¿Cuál es la mejor recomendación que debemos darle?:

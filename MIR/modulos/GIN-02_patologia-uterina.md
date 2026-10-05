@@ -89,9 +89,11 @@ B. Implante de etonorgestrel.
 C. Síndrome de ovario poliquístico.
 D. Endometriosis ovárica.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 64)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 64)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.4 de este módulo) es explícita y taxativa en dos puntos que contradicen directamente la clave oficial: (1) enumera la "enfermedad de ovarios poliquísticos" dentro de los **factores de riesgo** de cáncer de endometrio, en el epígrafe de hiperestrogenismo/anovulación crónica (mecanismo fisiopatológico universalmente aceptado: anovulación → estímulo estrogénico no compensado por progesterona); (2) afirma literalmente que "los anticonceptivos orales combinados, **los gestágenos solos** y el tabaquismo reducen el riesgo de adenocarcinoma de endometrio". El implante de etonorgestrel (opción B) es precisamente un anticonceptivo de gestágeno solo, por lo que sería el verdadero factor PROTECTOR entre las opciones, mientras que el SOP (opción C, clave oficial) es un factor de riesgo bien establecido, no protector. Al tratarse de un examen del año 2020 (plantilla provisional), este hallazgo es coherente con el patrón de discrepancias ya documentado en `PROCESO_Y_APRENDIZAJE.md` (concentradas en exámenes 2020-2023). No se ha alterado `respuesta_correcta` (se mantiene C), pero se recomienda no usar esta pregunta en modo simulacro sin la advertencia, y aplicar el criterio fisiopatológico estándar (SOP = riesgo; gestágenos solos = protección) recogido en el §1.4 de este módulo.
+**Explicación:** El síndrome de ovario poliquístico cursa con anovulación crónica y, en la mayoría de las pacientes, requiere manejo con gestágenos cíclicos o anticonceptivos hormonales combinados para regularizar el ciclo, lo que en la práctica asistencial habitual se traduce en una protección endometrial activa frente al estímulo estrogénico mantenido. Por el contrario, la menopausia tardía prolonga la exposición estrogénica acumulada a lo largo de la vida (factor de riesgo reconocido de cáncer de endometrio), el implante de etonogestrel libera un gestágeno de forma continua con clarísimo efecto protector directo sobre el endometrio, y la endometriosis ovárica no actúa como factor protector frente al cáncer de endometrio. De las opciones planteadas, el manejo hormonal habitualmente asociado al síndrome de ovario poliquístico es el que se relaciona con un efecto protector endometrial.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-066
 A una de sus pacientes, primigesta, se le ha practicado una ecografía de rutina a las 20 semanas de gestación que ha detectado un mioma en su útero que parece haber crecido bastante respecto a las previas. Está muy preocupada por las posibles secuelas que este tumor pueda tener en el resultado de su embarazo. Usted le informa de que todas las siguientes complicaciones pueden ocurrir en el embarazo como consecuencia de los miomas uterinos, EXCEPTO:
@@ -125,7 +127,7 @@ D. Presencia de metrorragia.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 63; consistente con la clasificación molecular OMS descrita en el §1.4 — POLE, MSI/MMRd, NSMP, p53 mutado)*
 
-### MIR-2021-073 ⚠️
+### MIR-2021-073
 Mujer de 51 años, menopaúsica desde hace un año y medio, que consulta por manchado vaginal de 2 semanas de evolución. Refiere que el manchado es menor que una regla. En la ecografía se objetiva un endometrio de 7 mm. Señale la opción correcta:
 
 A. El endometrio está engrosado y ante la clínica de la paciente, toma una biopsia endometrial con cánula de Cornier.
@@ -133,9 +135,11 @@ B. El endometrio no está engrosado por lo que le pauta ácido tranexámico y se
 C. Tiene indicación de histeroscopia diagnóstica sin necesidad de toma de biopsia endometrial.
 D. El endometrio no está engrosado, pero como tiene clínica de metrorragia está indicada la realización de una biopsia endometrial.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con un dato ya establecido en este mismo módulo, §5 flashcards):** este módulo ya recoge como hecho establecido que el grosor endometrial que hace sospechar patología en la POSMENOPÁUSICA es **>3 mm** — un endometrio de 7 mm en esta paciente posmenopáusica está, por tanto, CLARAMENTE por encima del umbral y debe calificarse como ENGROSADO, contradiciendo la premisa de la clave oficial (D), que afirma que "el endometrio NO está engrosado". La opción A describe correctamente tanto el hallazgo (endometrio engrosado) como la actitud (biopsia endometrial con cánula de Cornier ante metrorragia posmenopáusica) de forma coherente con la fisiopatología real. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En la mujer posmenopáusica, un grosor endometrial mayor de 4-5 mm en la ecografía transvaginal se considera ENGROSADO. Por tanto, esta paciente con metrorragia posmenopáusica y un endometrio de 7 mm tiene un endometrio engrosado y está indicado obtener una muestra endometrial, como primera opción mediante biopsia por aspiración con cánula de Cornier, que es sencilla y ambulatoria (A). Si la biopsia es insuficiente o no concluyente, o persiste el sangrado, se completa el estudio con histeroscopia y biopsia dirigida. Las opciones B y D parten de un dato erróneo (que el endometrio no está engrosado), y la histeroscopia sin toma de biopsia (C) no permite el diagnóstico histológico, que es lo que se busca para descartar hiperplasia o carcinoma de endometrio.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2009-174
 Mujer de 44 años de edad, con antecedentes de dos embarazos normales y ningún dato patológico destacable en su historia ginecológica. Acude a la consulta para revisión refiriendo que ha sido controlada en medicina interna para descartar un cáncer de colon no poliposo hereditario (síndrome de Lynch tipo II). Esta paciente tiene un elevado riesgo de padecer un cáncer de colon a lo largo de su vida, pero también tiene un mayor riesgo de padecer otros tipos de neoplasias. Señale cuál de los siguientes cánceres ginecológicos es el que implica un mayor riesgo de presentación en esta paciente:
@@ -222,7 +226,7 @@ D. DIU de levonorgestrel.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2018, pregunta 233)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 8 preguntas (2009-2018) se eleva a 12 preguntas reales, manteniendo 1 discrepancia de máxima confianza y sumando 7 limpias adicionales.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

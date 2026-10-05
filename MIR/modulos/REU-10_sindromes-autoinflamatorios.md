@@ -49,7 +49,11 @@ B. Fiebre mediterránea familiar.
 C. Síndrome de Blau (granulomatosis artrocutaneouveal).
 D. Síndrome periódico asociado al receptor del factor de necrosis tumoral.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 173; cita textual DIRECTA a esta misma pregunta "MIR 23, 173" en la sección de fiebre mediterránea familiar del apartado de dolor abdominal. La duración de los episodios —23 días— es radicalmente incompatible con la FMF (24-48h) y con el Muckle-Wells (12-36h), pero coincide exactamente con la duración característica del TRAPS [2-3 semanas]; las lesiones erisipeloides migratorias en miembros inferiores y el dolor abdominal completan el cuadro típico del TRAPS descrito en la bibliografía. Confirmación LIMPIA, sin discrepancia. Pregunta reclasificada desde DER — el cuadro pertenece íntegramente a un síndrome autoinflamatorio sistémico, con las lesiones cutáneas como manifestación secundaria, no como eje diagnóstico dermatológico.)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 173)*
+
+**Explicación:** Episodios recurrentes desde la infancia de fiebre de 2-3 días, dolor abdominal con defensa (serositis, que incluso motivó una apendicectomía con apéndice normal), mialgias y lesiones erisipeloides en la cara anterolateral y distal de las piernas, con elevación de la PCR que se normaliza entre los brotes: es el cuadro característico de la fiebre mediterránea familiar (B). Es la fiebre periódica hereditaria más frecuente (autosómica recesiva, gen MEFV, pirina), típica de poblaciones mediterráneas, incluida la española. El 'pseudoerisipela' es la lesión cutánea típica. El tratamiento de elección es la colchicina, que previene las crisis y la amiloidosis AA. El TRAPS (D) produce episodios más largos (más de una semana) con mialgias migratorias y edema periorbitario; el síndrome de Muckle-Wells (A) cursa con urticaria, sordera neurosensorial y amiloidosis; y el síndrome de Blau (C) con artritis, dermatitis y uveítis granulomatosas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-112
 Sobre la fiebre mediterránea familiar es FALSO que:

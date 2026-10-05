@@ -56,9 +56,11 @@ B. Salbutamol nebulizado.
 C. Oxígeno suplementario.
 D. Corticoides intravenosos.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 80)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 80)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1 de este módulo) indica textualmente que el tratamiento de la bronquiolitis "se basa en mantener un estado adecuado de nutrición, OXIGENACIÓN y soporte respiratorio", mientras que los broncodilatadores tienen "eficacia DUDOSA... en líneas generales, si responden, se siguen utilizando" — es decir, NO son la base del tratamiento. Ante un lactante con SpO2 89% (hipoxemia clara), la corrección de la oxigenación (opción C) es la medida más directamente indicada según este criterio bibliográfico, no el salbutamol (clave oficial, B), cuyo beneficio no está demostrado de forma consistente. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (oxigenoterapia como base del tratamiento) en el punto clave 1 de este módulo — nótese además que MIR-2025-48 (ver más abajo en este mismo módulo) confirma este mismo criterio con una clave oficial correcta 4 años después.
+**Explicación:** En la bronquiolitis aguda por virus respiratorio sincitial, las guías de práctica clínica actuales (incluida la de la Asociación Española de Pediatría) no recomiendan el uso rutinario de broncodilatadores, adrenalina nebulizada ni corticoides sistémicos, ya que los ensayos clínicos no han demostrado un beneficio consistente sobre la evolución clínica ni la duración del ingreso. El manejo se basa fundamentalmente en medidas de soporte: desobstrucción nasal, fraccionamiento de tomas o hidratación adecuada, y administración de oxígeno suplementario cuando existe hipoxemia significativa, como ocurre en este lactante con una saturación de oxígeno del 89%, por debajo del umbral habitual de tratamiento (en torno al 90-92%). La ribavirina, por su parte, se reserva de forma excepcional para casos graves en pacientes de muy alto riesgo y no se administra por vía oral.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-073
 En relación con la tos ferina producida por la Bordetella pertussis señale la afirmación correcta:
@@ -68,9 +70,11 @@ B. La azitromicina es el antibiótico de elección para el tratamiento en todos 
 C. El "gallo" (esfuerzo inspiratorio masivo) se produce fundamentalmente en los niños menores de 2 meses de edad.
 D. Los vómitos posteriores al episodio paroxístico de tos son extremadamente raros.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 73)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 73)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma textualmente y casi de forma literal la opción B: "azitromicina 5 días (pauta más usada como **antibiótico de elección en todos los grupos de edad**)". La clave oficial (A) no tiene respaldo alguno en la bibliografía: el cuadro característico de la tos ferina es la tos paroxística con "gallo" inspiratorio, no las sibilancias (propias de otros cuadros como la bronquiolitis o el asma). Además, la bibliografía confirma que los vómitos postusivos SÍ son un hallazgo frecuente (descarta D), y no hace ninguna referencia a que el "gallo" sea específico de menores de 2 meses (de hecho, los lactantes muy pequeños son más propensos a presentar apneas en vez del "gallo" clásico, lo que pondría en duda C también). No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio bibliográfico (B es la afirmación correcta) en el punto clave 5 de este módulo.
+**Explicación:** La tos ferina, causada por Bordetella pertussis, se caracteriza clásicamente por una auscultación pulmonar habitualmente normal entre los accesos de tos, sin sibilancias significativas, lo que contrasta con la intensidad de la clínica referida por la familia. El tratamiento antibiótico de elección en todos los grupos de edad, incluidos los menores de un mes, es un macrólido, prefiriéndose la azitromicina precisamente en los lactantes más pequeños por el menor riesgo de asociarse a estenosis hipertrófica de píloro en comparación con la eritromicina. El "gallo" inspiratorio es típico de niños mayores y adultos, mientras que los lactantes menores de tres meses con frecuencia no lo presentan y debutan con episodios de apnea o cianosis como equivalente del acceso paroxístico; los vómitos posteriores al golpe de tos son, además, un hallazgo muy frecuente y característico de la fase paroxística de la enfermedad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-075
 Acerca de la bronquiolitis aguda en la infancia, señale la respuesta correcta:
@@ -80,9 +84,11 @@ B. Se recomienda la administración de palivizumab para proteger a niños con ri
 C. La bronquiolitis se produce por obstrucción y colapso de las vías respiratorias de mediano y gran calibre durante la espiración.
 D. El tratamiento se basa en aerosoles de suero salino hipertónico, adrenalina y/o beta-2 agonistas según la gravedad.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 75)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 75)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía contradice directamente la clave oficial en varios puntos. El VRS es la causa MÁS frecuente (>50% de los casos), no la "segunda" (descarta A). La bronquiolitis afecta a las vías respiratorias PEQUEÑAS (bronquiolos), no de mediano/gran calibre (descarta C). El tratamiento se describe textualmente como basado en "mantener un estado adecuado de nutrición, oxigenación y soporte respiratorio", con eficacia "dudosa"/"resultados variables" para suero salino hipertónico, adrenalina y beta-2 agonistas — es decir, estos NO constituyen la "base" del tratamiento como afirma la clave oficial (D). En cambio, la bibliografía confirma expresamente que "está indicada la utilización de nirsevimab" y (en indicaciones específicas) "palivizumab... para lactantes de alto riesgo", coincidiendo con la opción B. No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (B es la afirmación correcta) en el punto clave 1 de este módulo — véase también MIR-2025-48, que confirma el mismo criterio de tratamiento de soporte con clave oficial correcta.
+**Explicación:** El virus respiratorio sincitial (VRS) es la primera causa de bronquiolitis aguda y de neumonía vírica en niños menores de un año, y la bronquiolitis se produce por la inflamación, edema y obstrucción de la vía aérea de pequeño calibre (los bronquiolos terminales), no de calibre mediano o grande. El palivizumab, anticuerpo monoclonal frente al VRS, está indicado como profilaxis (no como tratamiento) en lactantes de alto riesgo, como los grandes prematuros o los pacientes con cardiopatía congénita hemodinámicamente significativa o enfermedad pulmonar crónica de la prematuridad, para reducir la incidencia de formas graves de la enfermedad. El tratamiento de la bronquiolitis ya establecida es fundamentalmente sintomático y de soporte (oxigenoterapia, hidratación, aspiración de secreciones), sin que el uso rutinario de suero salino hipertónico, adrenalina o broncodilatadores nebulizados haya demostrado un beneficio consistente que justifique su empleo sistemático.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-069
 Respecto a las medidas a tomar ante un niño diagnosticado de tos ferina, en relación a sus contactos, indique la respuesta INCORRECTA:
@@ -112,9 +118,11 @@ B. Lactante nacido antes de las 32 semanas de gestación con enfermedad pulmonar
 C. Lactante diagnosticado de fibrosis quística de páncreas en el cribado neonatal durante el primer año de vida.
 D. Lactante de 12 meses afecto de inmunodeficiencia severa combinada.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 86; la bibliografía cita textualmente esta pregunta ("MIR 22, 86") junto a la introducción de las indicaciones de palivizumab, aunque la tabla/lista específica de criterios no se recuperó en la extracción de texto —probablemente un recuadro no capturado por el extractor—, por lo que no se dispone de la cita textual completa de los 4 supuestos. Las opciones A-C (prematuridad <29 sem, <32 sem con enfermedad pulmonar crónica, fibrosis quística) son indicaciones ampliamente reconocidas en la literatura pediátrica estándar; la inmunodeficiencia combinada grave también es indicación reconocida, pero generalmente para lactantes MENORES de 12 meses, no de "12 meses" cumplidos —coherente con la clave oficial D como la "NO indicación" por edad—. Confidence fuerte, no máxima, por la tabla no recuperada)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 86)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 6 preguntas reales, manteniendo 2 discrepancias y 4 limpias.
+**Explicación:** El palivizumab está indicado en los lactantes con alto riesgo de infección grave por VRS: prematuros de 28 semanas o menos durante el primer año de vida (A), prematuros con displasia broncopulmonar (enfermedad pulmonar crónica de la prematuridad) que han necesitado tratamiento en los meses previos (B), niños menores de 2 años con cardiopatías congénitas hemodinámicamente significativas y niños con inmunodeficiencias graves como la inmunodeficiencia combinada grave (D). Según las recomendaciones vigentes en el momento del examen, la fibrosis quística diagnosticada por cribado neonatal NO es por sí sola una indicación sistemática de palivizumab (la evidencia de beneficio en esta población es insuficiente), por lo que es la respuesta correcta (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

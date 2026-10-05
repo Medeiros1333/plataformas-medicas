@@ -126,7 +126,7 @@ D. Trombectomía mecánica.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 84; oclusión en segmento M2 —proximal— de la ACM, candidata a trombectomía mecánica)*
 
-### MIR-2021-105 ⚠️
+### MIR-2021-105
 Varón de 45 años traído a la consulta por sus familiares por un cuadro de un año de evolución de pérdida de memoria, que ha ido progresando hasta necesitar ayuda para algunas actividades de su vida cotidiana. Tiene antecedentes de migrañas y algún episodio de focalidad neurológica autolimitada por los que no ha consultado nunca. La exploración neuropsicológica es compatible con una demencia inicial y la RM cerebral muestra una leucoencefalopatía grave. ¿Qué prueba habría que solicitar?:
 
 A. Punción lumbar para analizar amiloide y proteína tau en LCR.
@@ -134,9 +134,11 @@ B. Estudio genético para presenilina 1 (PSEN1).
 C. Estudio genético para NOTCH3.
 D. Estudio genético para progranulina.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 105", desfase de año habitual de ±1), describe el CADASIL como: *"enfermedad genética, autosómica dominante, causada por mutaciones en el gen NOTCH3... cursa con ictus isquémicos lacunares en edades tempranas, leucopatía grave, MIGRAÑA CON AURA y deterioro cognitivo precoz"* — una correspondencia prácticamente literal con el caso descrito (migrañas + episodios de focalidad neurológica autolimitada + leucoencefalopatía grave + demencia progresiva de inicio temprano a los 45 años). Esto apunta inequívocamente a la opción C (NOTCH3), no a la D (progranulina, gen asociado a la demencia frontotemporal, un cuadro clínico distinto). Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #157 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de deterioro cognitivo progresivo asociado a antecedentes de migraña y episodios previos de focalidad neurológica transitoria, junto con una leucoencefalopatía grave y difusa en la RM cerebral, es muy sugestivo de CADASIL (arteriopatía cerebral autosómica dominante con infartos subcorticales y leucoencefalopatía), causada por mutaciones en el gen NOTCH3. Es la causa hereditaria más frecuente de ictus lacunares de repetición y demencia vascular subcortical en adultos jóvenes, y clásicamente debuta con migraña con aura seguida, años después, de episodios isquémicos subcorticales de repetición y deterioro cognitivo progresivo. El estudio de PSEN1 se solicitaría ante sospecha de enfermedad de Alzheimer familiar de inicio precoz, y el estudio de progranulina ante sospecha de demencia frontotemporal familiar, entidades que no cursan típicamente con la leucoencefalopatía extensa ni con el antecedente migrañoso descritos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-101
 Mujer de 53 años sin antecedentes de interés que acude a urgencias por alteración del habla iniciada bruscamente una hora antes. En la exploración solo se objetiva una afasia motora. La TC craneal basal es normal. En la TC de perfusión hay un defecto de flujo en la región cortical frontal izquierda sin afectación en los mapas de volumen. En la angio-TC se objetiva un trombo en el segmento distal (M3-M4) de la arteria cerebral media izquierda. Señale cuál de los siguientes es el tratamiento más correcto:
@@ -146,13 +148,13 @@ B. Fibrinolisis endovenosa con rTPA.
 C. Fibrinolisis endovenosa y, si no se consigue recanalización, trombectomía mecánica.
 D. Anticoagulación con heparina sódica.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> **Nota de cobertura:** confirmación LIMPIA — coherente de forma literal con §1.5 de este mismo módulo: *"Trombectomía mecánica: [...] Solo en segmentos proximales M1-M2 de la ACM, NO en distales M3-M4"*. Al tratarse de una oclusión distal (M3-M4), la trombectomía mecánica de entrada (opción A) no es la indicada; el tratamiento de elección es la fibrinolisis IV (dentro de ventana, con miss-match favorable en la TC de perfusión: defecto de flujo sin afectación del volumen, penumbra salvable), reservando la trombectomía como opción de rescate solo si no se consigue recanalización y es técnicamente viable — exactamente lo que describe la opción C. Coincide con la clave oficial. Sin discrepancia.
+**Explicación:** En pacientes con ictus isquémico agudo por oclusión de vasos distales (segmentos M3-M4 de la arteria cerebral media), el tratamiento de elección inicial es la fibrinólisis endovenosa con rtPA, ya que estos vasos son de calibre demasiado pequeño para un abordaje endovascular directo con los dispositivos de trombectomía mecánica de primera línea, indicados fundamentalmente en oclusiones de gran vaso. La existencia de un defecto de perfusión sin alteración en los mapas de volumen indica la presencia de tejido en penumbra isquémica potencialmente salvable, sin núcleo de infarto establecido, lo que refuerza la indicación de reperfusión precoz. Si tras la fibrinólisis no se consigue una recanalización eficaz y persiste clínica invalidante, puede plantearse de forma individualizada un rescate mediante trombectomía mecánica, aunque con mayor dificultad técnica dado el calibre del vaso.
 
-> **Nota de cobertura:** 7 preguntas reales (2020-2025), no exhaustiva. **1 discrepancia de MÁXIMA confianza con cita directa.** Faltan aún las 486 preguntas sin clasificar de la Fase 5 y el Libro Gordo 2009-2019 por extraer.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2021-107 ⚠️
+### MIR-2021-107
 Varón de 55 años que sufre una hemorragia subaracnoidea por rotura de un aneurisma de arteria cerebral media. Es tratado de forma quirúrgica. Tras una buena evolución en la que recupera la capacidad de caminar, un mes después de sufrir la hemorragia presenta un deterioro progresivo, llegando a encontrarse obnubilado y con dificultad para obedecer órdenes. Señale la afirmación correcta:
 
 A. Se encuentra en el momento de la evolución en el que es más frecuente el vasoespasmo.
@@ -160,13 +162,11 @@ B. Probablemente este deterioro progresivo sea secundario al resangrado del aneu
 C. El deterioro subagudo que presenta con mayor probabilidad se debe a hidrocefalia.
 D. La técnica diagnóstica de elección es la angiografía cerebral.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con dato ya establecido en el módulo NEU-03 de este mismo proyecto):** el módulo NEU-03 (§1.4) documenta expresamente que la hidrocefalia COMUNICANTE se produce por obstrucción de la reabsorción de LCR secundaria, entre otras causas, a HEMORRAGIA SUBARACNOIDEA — un mecanismo bien establecido de deterioro SUBAGUDO/tardío (semanas) tras una HSA, coherente con el cuadro descrito (recuperación inicial de la marcha, seguida un mes después de deterioro progresivo con obnubilación y dificultad para obedecer órdenes, un patrón compatible con hidrocefalia comunicante evolutiva). El vasoespasmo (opción A) tiene su pico de incidencia clásico entre los días 3-14 tras la HSA, ya resuelto habitualmente al mes de evolución — descarta A como la explicación más probable en este momento temporal. El resangrado (opción B) es infrecuente tras el tratamiento quirúrgico ya realizado (aneurisma excluido de la circulación). La angiografía cerebral (opción D, clave oficial) es la prueba de referencia para el diagnóstico DEL ANEURISMA, no la técnica de elección para evaluar un deterioro subagudo por sospecha de hidrocefalia, que se diagnostica con TC craneal (dilatación ventricular). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El deterioro neurológico subagudo que aparece semanas después de una hemorragia subaracnoidea (HSA) aneurismática, en forma de disminución progresiva del nivel de conciencia y dificultad para obedecer órdenes, sin nueva focalidad brusca, es muy sugestivo de una hidrocefalia comunicante crónica, complicación tardía frecuente de la HSA por alteración de la reabsorción del líquido cefalorraquídeo secundaria a la fibrosis de las granulaciones aracnoideas tras el sangrado. Esto contrasta con el vasoespasmo cerebral, complicación típica de los primeros 4 a 14 días tras la HSA, y con el resangrado del aneurisma, que suele manifestarse de forma brusca con cefalea intensa y deterioro súbito, no de forma progresiva. El diagnóstico de la hidrocefalia se confirma mediante TC craneal, que muestra la dilatación del sistema ventricular, y el tratamiento definitivo suele requerir una derivación ventricular si no se resuelve espontáneamente.
 
-**MIR-2021-205 (ANULADA por la organización del examen —** `respuesta_correcta: null`**):** varón de 61 años, fumador e hipertenso, con déficit motor+sensitivo transitorio de 15 minutos en mano derecha con recuperación casi completa (cuadro compatible con AIT/accidente isquémico transitorio de origen carotídeo). Se pedía la afirmación FALSA sobre el manejo — probablemente anulada por ambigüedad en la formulación de la utilidad del eco-Doppler de troncos supraaórticos (que SÍ es una prueba de primera línea útil en el estudio etiológico de un AIT de territorio carotídeo, lo que generaría conflicto de interpretación con la opción B tal y como está formulada). No se fuerza ningún veredicto adicional, dado que el propio examen la anuló.
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas preguntas se eleva a 8 preguntas reales con clave oficial (más 1 anulada mencionada por su valor pedagógico), **2 discrepancias de MÁXIMA confianza**, 6 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -67,7 +67,11 @@ B. Es común el fallecimiento al cabo de unos minutos.
 C. Se inicia con síntomas nicotínicos.
 D. Su acción selectiva es anticolinesterásica.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 43; consistente con el síndrome colinérgico descrito en §1.3-1.4 de este módulo — la bibliografía disponible no detalla la secuencia temporal muscarínico/nicotínico específica, por lo que esta pregunta se incluye sin nota de discrepancia, apoyada en el marco general del síndrome colinérgico)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 43)*
+
+**Explicación:** Los organofosforados inhiben de forma irreversible la acetilcolinesterasa: su acción selectiva es anticolinesterásica (D). La acumulación de acetilcolina produce un síndrome colinérgico con efectos muscarínicos (miosis, sialorrea, broncorrea, broncoespasmo, bradicardia, diarrea, sudoración), que suelen ser los primeros y más llamativos, nicotínicos (fasciculaciones, debilidad y parálisis muscular) y centrales (confusión, convulsiones, coma). Por tanto, el cuadro no se inicia con síntomas nicotínicos (C falsa). Se absorben bien por vía cutánea, respiratoria y digestiva (A falsa), y aunque la intoxicación puede ser grave, no es habitual la muerte en pocos minutos (B falsa): la causa de muerte suele ser la insuficiencia respiratoria en horas. El tratamiento es atropina y pralidoxima, además de la descontaminación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-186
 En la intoxicación por monóxido de carbono (CO) se produce un desplazamiento del oxígeno de la hemoglobina por parte de la molécula del CO. Con respecto a las circunstancias en que esta intoxicación se presenta en la clínica, solo es cierta una de las siguientes afirmaciones:
@@ -89,7 +93,7 @@ D. Pralidoxima.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2025, pregunta 196; coma + pupilas puntiformes (miosis) + bradicardia coincide con el toxidrome opiáceo del algoritmo descrito en §1.2 — pregunta limpia, sin discrepancia)*
 
-### MIR-2021-053 ⚠️
+### MIR-2021-053
 Varón de 28 años que es trasladado a urgencias con signos de intoxicación aguda. Está consciente y presenta un cuadro caracterizado por vómitos, diarrea, sudoración, sialorrea, lagrimeo y miosis. Considerando la causa más probable de este síndrome, ¿qué fármaco indicaría para su tratamiento de entre los siguientes?:
 
 A. Naloxona.
@@ -97,11 +101,11 @@ B. Flumazenilo.
 C. Ciproheptadina.
 D. Atropina.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro descrito (vómitos, diarrea, sudoración, sialorrea, lagrimeo, miosis) es el síndrome COLINÉRGICO clásico (típico de intoxicación por organofosforados/carbamatos). La bibliografía confirma explícitamente: *"Organofosforados: Síndrome colinérgico... Atropina: bolo de 1-2mg i.v. cada 3-5 minutos"* como tratamiento específico — mientras que el flumazenilo (clave oficial, B) está descrito en la misma tabla exclusivamente como antídoto de las BENZODIACEPINAS, un toxidrome sedante-hipnótico completamente distinto (somnolencia, ataxia, pupilas normales), incompatible con el cuadro colinérgico florido descrito. Apoya la opción D. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #183 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito (vómitos, diarrea, sudoración, sialorrea, lagrimeo y miosis) constituye un síndrome colinérgico muscarínico típico de la intoxicación por organofosforados o carbamatos (inhibidores de la acetilcolinesterasa), ya sea por exposición a insecticidas o, con menor frecuencia, a agentes nerviosos. El antídoto de elección es la atropina, antagonista muscarínico que revierte la bradicardia, la broncorrea/broncoespasmo y las secreciones, y que se titula hasta conseguir la atropinización del paciente; en intoxicaciones graves se asocia además pralidoxima para reactivar la colinesterasa.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-044
 ¿En cuál de las siguientes intoxicaciones por plantas nos debemos plantear una etiología accidental por uso intencionado con fines recreativos?:
@@ -129,7 +133,7 @@ D. Intoxicación por absorción cutánea de tóxicos. Medidas de soporte, oxigen
 
 ---
 
-### MIR-2022-195 ⚠️
+### MIR-2022-195
 Mujer de 14 años que es llevada a urgencias por sus padres tras haber ingerido 12 horas antes múltiples comprimidos de paracetamol (no saben concretar la cantidad). Está nauseosa, pálida y sudorosa. Se solicitan niveles de paracetamol en sangre que se encuentran en rango de probable toxicidad hepática. Las pruebas de función hepática y coagulación son normales. ¿Cuál será la actitud a seguir?:
 
 A. Observación y repetición de niveles de paracetamol en 4 horas.
@@ -137,11 +141,11 @@ B. Iniciar tratamiento con N-acetilcisteína y mantenerlo durante 12 horas.
 C. Observación y repetición de niveles de paracetamol, pruebas hepáticas y coagulación en 4 horas.
 D. Iniciar tratamiento con N-acetilcisteína y mantenerlo en función de la evolución de los niveles de paracetamol, pruebas hepáticas y renales.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio fundamental de toxicología, patrón de "falsa tranquilización clínicamente peligrosa"):** ante un nivel de paracetamol en sangre YA situado en el rango de "probable toxicidad hepática" a las 12 horas post-ingesta (momento válido para la interpretación del nomograma de Rumack-Matthew, aplicable entre 4-24h), el manejo estándar establecido es iniciar INMEDIATAMENTE el tratamiento con N-ACETILCISTEÍNA, sin demorarlo para "observar y repetir niveles" — retrasar el antídoto mientras el nivel ya indica riesgo de hepatotoxicidad aumenta innecesariamente el riesgo de daño hepático irreversible, siendo la ventana terapéutica de la NAC tiempo-dependiente (máxima eficacia si se inicia dentro de las primeras 8-10h, con eficacia decreciente pero aún relevante después). La clave oficial A retrasa el tratamiento sin justificación clínica ante un nivel ya tóxico. Entre las opciones que sí inician tratamiento, la D describe mejor la práctica estándar (mantenimiento ajustado a la evolución clínica/analítica, no una duración fija arbitraria como las 12h de la opción B). Apoya la opción D. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Intoxicación por paracetamol con un nivel plasmático por encima de la línea de tratamiento del nomograma de Rumack-Matthew (rango de probable toxicidad hepática) a las 12 horas de la ingesta: está indicado iniciar inmediatamente N-acetilcisteína, aunque las pruebas hepáticas y la coagulación sean todavía normales, porque la hepatotoxicidad aparece a las 24-72 horas y la NAC es más eficaz si se administra en las primeras 8-10 horas (pero sigue siendo útil después). La duración del tratamiento no es fija: tras la pauta estándar se mantiene o se suspende según la evolución de los niveles de paracetamol y de las pruebas hepáticas, la coagulación y la función renal (D). La observación sin tratamiento (A y C) retrasaría el antídoto en una paciente con niveles tóxicos, y una duración fija de 12 horas (B) puede ser insuficiente.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 7 preguntas reales, sumando 1 discrepancia nueva de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

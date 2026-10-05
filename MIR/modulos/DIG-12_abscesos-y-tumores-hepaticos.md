@@ -65,9 +65,11 @@ B. Hemangioma hepático.
 C. Hepatocarcinoma.
 D. Hiperplasia nodular focal con necrosis en su interior.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR introduce el apartado "12.1. Abscesos hepáticos" citando textual y directamente esta misma pregunta ("MIR 22, 16", desfase de año habitual de ±1) — señalando que el contenido evaluado por esta pregunta es precisamente el absceso hepático (opción A, no elegida), no el hemangioma. Esto es, además, plenamente coherente con el cuadro clínico descrito: fiebre alta con escalofríos y sudoración, dolor epigástrico y malestar general de una semana de evolución es el síndrome infeccioso/séptico clásico de un absceso hepático piógeno, mientras que la bibliografía describe explícitamente el hemangioma como una lesión que "normalmente son... pequeños... se diagnostican de forma casual y no provocan síntomas" y cuya "ruptura" es "rara" — un perfil radicalmente distinto e incompatible con un cuadro febril agudo. Ver hallazgo #125 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Pregunta dependiente de la imagen (TC no disponible en este proyecto). Fiebre alta con escalofríos y sudoración de una semana de evolución, dolor epigástrico y malestar general, junto con una lesión hepática en la TC con contraste, orientan a un absceso hepático (A), que es la respuesta oficial. En la TC el absceso piógeno aparece como una lesión hipodensa, a menudo multiloculada, con realce periférico en anillo (signo de la doble diana) y a veces gas en su interior. Las causas más frecuentes son biliares, y el tratamiento combina antibióticos y drenaje percutáneo. El hemangioma (B) y la hiperplasia nodular focal (D) son lesiones benignas que no producen un cuadro febril séptico, y el hepatocarcinoma (C) asienta habitualmente sobre un hígado cirrótico y no se presenta con fiebre en agujas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-012
 Pregunta asociada a la imagen 12. Varón de 54 años con antecedentes de asma bronquial. En una TC torácica de control se observan lesiones hepáticas calcificadas. Se completa el estudio con una TC abdominal donde se identifican 3 lesiones quísticas hepáticas. Se realiza enucleación de las 3 lesiones, que miden 8, 3 y 3 cm. En el estudio microscópico se observan membranas acelulares. Se muestra la macroscopia de una de las lesiones. ¿Cuál es el diagnóstico más probable?:
@@ -77,11 +79,11 @@ B. Hepatocarcinoma calcificado.
 C. Quiste hidatídico.
 D. Metástasis hepática necrótica.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la descripción histológica del enunciado, "membranas acelulares", es la descripción clásica y prácticamente patognomónica de la pared laminada del quiste hidatídico (Echinococcus granulosus) — no es un hallazgo descrito para el hepatocarcinoma en ningún texto de anatomía patológica estándar. Además, la bibliografía AMIR de Enfermedades Infecciosas confirma que, en localización hepática, "la calcificación de la pared son hallazgos muy específicos" del quiste hidatídico, y que puede presentarse con "quistes hijos" (compatibles con las "lesiones quísticas" múltiples del enunciado: 8, 3 y 3cm). El conjunto de hallazgos —lesiones QUÍSTICAS (no un patrón sólido/hipervascular típico del CHC), CALCIFICADAS, MÚLTIPLES, con membranas acelulares en la histología— encaja de forma mucho más coherente con la opción C (quiste hidatídico, no elegida) que con la clave oficial B (hepatocarcinoma calcificado), que no es un patrón de presentación característico del CHC. Ver hallazgo #125 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El hallazgo de varias lesiones hepáticas quísticas de gran tamaño, calcificadas, en un paciente con antecedente de exposición ambiental (contacto con perros/ganado, típico en zonas rurales), junto con la descripción histológica de membranas acelulares (la membrana laminada característica del quiste), es el cuadro clásico de la equinococosis hepática (quiste hidatídico por Echinococcus granulosus), por lo que la opción C sería la más coherente con estos datos.
 
-> **Nota de cobertura y fiabilidad:** 2 preguntas reales (2021, 2022), **las 2 discrepantes (100%)** — una de MÁXIMA confianza (confirmada por cita textual directa a esta misma pregunta) y una de confianza fuerte (respaldada por un hallazgo histológico prácticamente patognomónico y por la confirmación textual del criterio de calcificación específico del quiste hidatídico en la bibliografía de Infecciosas del proyecto, aunque sin cita numérica directa a esta pregunta concreta).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

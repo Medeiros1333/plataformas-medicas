@@ -57,9 +57,11 @@ B. El fármaco de elección es el alopurinol comenzando con dosis bajas.
 C. Como norma general, la hiperuricemia asintomática no debe ser tratada.
 D. Alrededor del 50% de los casos se manifiestan como monoartritis inflamatoria aguda de la primera articulación metatarsofalángica.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 2.1, pág. 20) es explícita y contundente: *"El tratamiento que disminuye los niveles de ácido úrico no debe iniciarse hasta que esté resuelto el brote agudo articular"* — lo cual contradice DIRECTAMENTE la opción A, que sería, según esta fuente, la afirmación realmente FALSA (no la D). En cuanto a la opción D, la misma bibliografía (pág. 17) confirma casi literalmente su contenido: *"Suele ser una monoartritis, localizada en la mitad de los casos en la articulación metatarsofalángica del dedo gordo del pie"* — es decir, la opción D es VERDADERA según esta fuente, no la afirmación falsa buscada. Ambos datos (A contradicho explícitamente, D confirmado explícitamente) apuntan de forma concordante e independiente a que la clave debería ser A, no D. Ver hallazgo #94 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El tratamiento hipouricemiante no debe iniciarse durante un ataque agudo de gota, ya que las fluctuaciones bruscas de la uricemia pueden prolongar o agravar la crisis inflamatoria; la recomendación actual es iniciarlo una vez resuelto el episodio agudo, manteniendo profilaxis con colchicina a dosis bajas durante los primeros meses de tratamiento hipouricemiante. El alopurinol, iniciado a dosis bajas con escalada progresiva según la función renal y la uricemia objetivo, es el fármaco hipouricemiante de primera línea. La hiperuricemia asintomática, en ausencia de artritis gotosa, litiasis úrica u otras indicaciones específicas, no se trata de forma sistemática, y aproximadamente la mitad de los primeros episodios de gota se manifiestan como monoartritis aguda de la primera articulación metatarsofalángica (podagra).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-116
 Varón de 55 años con antecedentes de hiperuricemia que acude a urgencias por presentar un primer episodio de dolor agudo muy intenso e invalidante en rodilla derecha acompañado de enrojecimiento, tumefacción e hinchazón. Febrícula de 37,5 ºC. ¿Cuál de las siguientes es la actitud más recomendable a seguir?:
@@ -81,7 +83,7 @@ D. Radiografía anteroposterior de rodillas y de codos.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 95; la bibliografía enumera exactamente rodillas —localización más frecuente—, sínfisis del pubis, ligamento triangular del carpo y discos intervertebrales como localizaciones características a explorar en el cribado radiológico de condrocalcinosis)*
 
-> **Nota de cobertura:** 3 preguntas reales (2020, 2022, 2024), 1 de ellas (2020-115) con discrepancia de máxima confianza, verificada con doble confirmación textual independiente (contradicción explícita de A + confirmación explícita de D).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-181
 Paciente de 55 años que acude por cuadro de monoartritis aguda autolimitada de primera metatarsofalángica. Refiere episodios repetidos en los últimos 3 años que trató con analgésicos. Aporta analítica con uricemia de 11 mg/dl. Resto de estudios normales. ¿Cuál sería el tratamiento más indicado para el paciente?:
@@ -92,8 +94,6 @@ C. Alopurinol y antiinflamatorios durante la crisis y después suspender ambos.
 D. Colchicina y antiinflamatorios durante la crisis y después suspender antiinflamatorios y mantener colchicina.
 
 **Respuesta correcta: B** — *(confianza máxima, manejo estándar y bien establecido de la gota: crisis aguda recurrente (podagra) + hiperuricemia marcada (11 mg/dl) es indicación clara de tratamiento hipouricemiante definitivo. El manejo correcto es tratar la crisis aguda con colchicina+AINE, y una vez resuelta [paciente asintomático] iniciar alopurinol [tratamiento de fondo hipouricemiante] manteniendo colchicina como profilaxis de nuevas crisis durante el inicio del hipouricemiante [reduce el riesgo de flare por movilización de cristales], suspendiendo el AINE. Las opciones A y C omiten el inicio de tratamiento hipouricemiante definitivo pese a la clara indicación [crisis recurrentes + uricemia muy elevada]; la opción D omite iniciar alopurinol. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, manteniendo 1 discrepancia y sumando 3 limpias.
 
 ---
 

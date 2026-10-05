@@ -59,9 +59,11 @@ B. Precauciones de transmisión por contacto.
 C. Precauciones de transmisión por aire.
 D. Precauciones estándar.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte):** la bibliografía describe la epidemiología de *Legionella pneumophila* como presentación en "cúmulos de casos" asociados a fuentes ambientales comunes (hoteles, balnearios, edificios) — un patrón de adquisición ambiental compartida, no de contagio interhumano. Además, en la Tabla 4 de precauciones de transmisión de la bibliografía (ya documentada en el módulo INF-07), *Legionella* NO figura en ninguna de las tres categorías específicas (contacto, gotas, aérea) — su ausencia es coherente con el hecho médico bien establecido de que esta bacteria no se transmite de persona a persona, por lo que basta con precauciones ESTÁNDAR (opción D, no elegida), no con precauciones de contacto (clave oficial, B). Ver hallazgo #133 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Legionella pneumophila no se transmite de persona a persona, sino que su adquisición se produce por inhalación de aerosoles procedentes de fuentes ambientales contaminadas (torres de refrigeración, sistemas de agua caliente sanitaria, duchas, humidificadores). Por este motivo, un paciente con neumonía por Legionella NO requiere ningún tipo de aislamiento específico (ni de gotas, ni de contacto, ni aéreo) más allá de las precauciones estándar habituales para cualquier paciente hospitalizado, ya que no existe riesgo de contagio interhumano. Este es un concepto importante en el control de la infección nosocomial, que contrasta con otras neumonías de origen infeccioso (gripe, tuberculosis) que sí requieren medidas de aislamiento respiratorio específicas por su capacidad de transmisión entre personas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-162
 ¿En cuál de las siguientes situaciones se debe realizar prioritariamente un estudio etiológico completo en un paciente con neumonía adquirida en la comunidad (NAC)?:
@@ -97,7 +99,7 @@ D. Colangitis esclerosante primaria.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 169; la Tabla 2 de zoonosis de la bibliografía asigna a la fiebre Q (Coxiella burnetii, sin vector, transmisión por inhalación, posible en medio urbano) la clínica de neumonía/hepatitis/endocarditis con diagnóstico serológico — compatible con el patrón de hepatitis colestásica descrita. La leptospirosis grave (síndrome de Weil, opción C) exige ictericia + insuficiencia RENAL + CID, ausentes en este paciente (función renal normal). Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 2 preguntas se eleva a 4 preguntas reales, manteniendo 1 discrepancia y 3 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2009-124
 Ante una neumonía atípica, con sospecha de estar producida por la especie Legionella, la solicitud más adecuada para confirmar o descartar esta etiología sería:

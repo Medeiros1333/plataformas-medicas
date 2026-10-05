@@ -63,7 +63,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-053 ⚠️
+### MIR-2020-053
 Mujer de 42 años que acude a consulta de su médico de familia por gonalgia. De forma oportunista se aprovecha la consulta para valorar estilos de vida, especialmente el tabaquismo. Si se quiere seguir la estrategia de educación para la salud basada en el modelo de las cinco "aes", ¿cuál de las siguientes NO se incluye en esta estrategia?:
 
 A. Averiguar: preguntar sobre los factores y las conductas de riesgo (preguntar a la paciente si fuma).
@@ -71,9 +71,11 @@ B. Aumentar: incrementar la percepción de riesgo para facilitar el cambio (expl
 C. Aconsejar: dar consejos claros, específicos y personalizados (aconsejar el abandono del tabaco).
 D. Acordar: pactar colaborativamente los objetivos de cambio (valorar la disponibilidad para hacer un intento de dejar de fumar).
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 20-21, 53"), enumera explícitamente el modelo de las 5 Aes recomendado por el USPSTF, comenzando por: *"Averiguar (Ask): identificar sistemáticamente a todas las personas fumadoras en cada consulta"* — confirmando que "Averiguar" (opción A, clave oficial marcada como la EXCLUIDA) es, de hecho, el PRIMER componente del modelo, no el excluido. Ninguna de las 5 Aes estándar (Ask/Advise/Assess/Assist/Arrange → Averiguar/Aconsejar/Apreciar/Ayudar/Acordar) se traduce como "Aumentar" (opción B), lo que sugiere que B es el componente ajeno al modelo real. Apoya la opción B como la verdadera excluida. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #184 en `PROCESO_Y_APRENDIZAJE.md`. Primera pregunta del nuevo módulo MFC-01.
+**Explicación:** El modelo clásico de las 'cinco aes' para la intervención breve en el abandono del tabaquismo en atención primaria comprende: Averiguar (preguntar de forma sistemática sobre el consumo de tabaco), Aconsejar (dar un consejo claro, firme y personalizado), Apreciar la disposición para el cambio, Ayudar (proporcionar apoyo conductual y/o farmacológico) y Acordar un plan de seguimiento. Averiguar, como primer paso sistemático de cribado del consumo de tabaco en la consulta, forma parte nuclear de este modelo, siendo el paso que permite identificar a los fumadores antes de intervenir sobre ellos. Aumentar la percepción de riesgo, aunque es una estrategia útil dentro del consejo motivacional, no constituye una de las cinco 'aes' del modelo clásico tal y como se describe habitualmente en los programas de cribado y consejo breve.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-055
 Paciente diabético de 63 años a quien su médico de familia ha solicitado una analítica para determinar los niveles de vitamina B12. ¿Cuál es el fármaco antidiabético que toma que justifica dicha solicitud?:
@@ -85,7 +87,7 @@ D. Pioglitazona.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 55; coherente con conocimiento farmacológico estándar y ampliamente establecido: la metformina interfiere con la absorción intestinal de vitamina B12, justificando su monitorización periódica en tratamientos prolongados — ninguno de los otros antidiabéticos [sulfonilureas, glinidas, tiazolidindionas] se asocia a este efecto. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2023-159 ⚠️
+### MIR-2023-159
 Hombre de 84 años que acude a su médico de familia porque, tras haberse caído tres veces a lo largo del último año, tiene miedo a volver a caerse. Se le hace una prueba cronometrada "Levántese y Ande" (Get Up and Go), que tarda en completar 21 segundos (normal <10 s). Respecto el riesgo de caída que presenta, señale la respuesta correcta:
 
 A. El riesgo es bajo, por lo que se reevaluará dentro de un año.
@@ -93,11 +95,13 @@ B. El riesgo es intermedio, por lo que se realizará educación general para pre
 C. No tiene riesgo de nuevas caídas, no precisa seguimiento.
 D. El riesgo es alto, por lo que se realizará una valoración multifactorial del riesgo de caídas con intervención individualizada.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, conocimiento clínico estándar sin cita bibliográfica directa localizada en el manual de MFC disponible):** el enunciado describe el perfil de riesgo ALTO de caídas por excelencia: antecedente de TRES caídas en el último año más una prueba cronometrada "Levántese y Ande" marcadamente patológica (21 segundos frente al punto de corte normal <10 segundos, más del doble del límite). Este perfil es, según los criterios estándar de valoración geriátrica (ampliamente establecidos y no controvertidos, aunque no localizados textualmente en el manual de MFC disponible en esta sesión), indicación clara de riesgo ALTO con necesidad de valoración multifactorial e intervención individualizada — la opción C (clave oficial, "no tiene riesgo, no precisa seguimiento") es clínicamente insostenible ante estos hallazgos. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #184 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Un tiempo superior a 20 segundos en la prueba cronometrada 'Levántese y Ande' (Timed Up and Go), junto con el antecedente de tres caídas en el último año y el miedo a caer, son datos característicos de un paciente con alto riesgo de nuevas caídas. Según las guías de prevención de caídas en el anciano, un tiempo superior a 12-14 segundos ya se considera indicativo de riesgo aumentado, y tiempos tan prolongados como el descrito (21 segundos, más del doble del valor normal) identifican a un paciente de alto riesgo que debería beneficiarse de una valoración multifactorial completa del riesgo de caídas (marcha y equilibrio, revisión de fármacos, agudeza visual, pies y calzado, peligros ambientales del hogar, fuerza muscular), con una intervención individualizada dirigida a los factores de riesgo identificados.
 
-### MIR-2023-192 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-192
 En el abordaje del tabaquismo como factor de riesgo y como primera causa prevenible de muerte, enfermedad e incapacidad en las sociedades industrializadas, es importante tener en cuenta muchos aspectos. Señale la afirmación INCORRECTA:
 
 A. La atención primaria es el entorno más favorable para detectar el consumo de tabaco, proporcionar consejo breve, facilitar la deshabituación tabáquica y promover estrategias de abandono.
@@ -105,9 +109,11 @@ B. La detección y el tratamiento de la dependencia del tabaco se considera una 
 C. En la ayuda para dejar de fumar, la evidencia avala tanto las estrategias no farmacológicas (intervención breve o apoyo motivacional) como las estrategias farmacológicas, siendo la combinación de ambas lo más efectivo.
 D. Los fumadores que no desean intentar el abandono del tabaco pueden carecer de la información adecuada sobre sus efectos nocivos, tener creencias erróneas o estar desmoralizados por haber tenido recaídas.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23-24, 192"), afirma que *"la intervención en tabaquismo es el PATRÓN ORO de las intervenciones preventivas POR SU ALTO COSTE-EFECTIVIDAD"* — lo que contradice directamente la opción B, que afirma "sin repercusión en términos de coste por año de vida ganado" (es decir, niega el impacto favorable en el coste por AVAC, justo lo opuesto de lo que dice la bibliografía). La opción A, marcada como la incorrecta oficial, es en cambio una afirmación coherente y ampliamente respaldada sobre el papel de la Atención Primaria en el abordaje del tabaquismo. Apoya la opción B como la verdadera incorrecta. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #184 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la B: la detección y el tratamiento del tabaquismo son una de las intervenciones sanitarias con MEJOR relación coste-efectividad, precisamente porque tienen una repercusión muy favorable en términos de coste por año de vida ganado (consiguen muchos años de vida ganados con un coste bajo), por lo que no es cierto que no tengan repercusión en este indicador. El resto es correcto: la atención primaria es el entorno más favorable para detectar el consumo, dar consejo breve y ayudar a dejar de fumar (A); la evidencia avala tanto las intervenciones no farmacológicas como las farmacológicas (terapia sustitutiva con nicotina, vareniclina, bupropión, citisina), y la combinación de ambas es lo más eficaz (C); y los fumadores no dispuestos a intentar el abandono pueden carecer de información, tener creencias erróneas o estar desmoralizados por recaídas previas, lo que se aborda con la entrevista motivacional (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-207
 Una paciente de 87 años acude a la consulta de su médico de Atención Primaria en el contexto de una evaluación geriátrica. Al cuantificar el SPPB (Short Physical Performance Battery o Prueba corta de desempeño físico) observamos que en el test de equilibrio aguanta más de 10 segundos en cada una de las tres pruebas (con los pies juntos, en semitándem y tándem). Además, al medir la velocidad de la marcha tarda menos de 4,82 segundos en recorrer 4 metros y en el test de levantarse de la silla 5 veces tarda menos de 11,2 segundos. Calcule su resultado en el SPPB:
@@ -167,7 +173,7 @@ D. La participación activa se refiere exclusivamente a la implicación de la co
 
 > **Nota de cobertura (confianza fuerte, verificación por consistencia interna del propio enunciado, sin cita bibliográfica externa localizada):** el propio enunciado define la participación activa como implicación "real y continua... tanto a nivel individual como colectivo". La opción B (proactividad ante necesidades expresadas Y no verbalizadas) es la única compatible con una implicación "real y continua" más allá de la demanda puntual; A describe una atención puramente reactiva/pasiva; C traslada indebidamente toda la responsabilidad al paciente; D restringe el concepto "exclusivamente" al nivel comunitario, contradiciendo la propia definición del enunciado que incluye explícitamente el nivel individual. Sin discrepancia.
 
-### MIR-2022-050 ⚠️
+### MIR-2022-050
 La mejor estrategia preventiva para ralentizar la progresión de la enfermedad en un fumador diagnosticado de EPOC es lograr el objetivo de cesación tabáquica. La siguiente medida NO se incluye en los protocolos actuales de primera elección para el tratamiento de refuerzo de la abstención tabáquica, porque faltan estudios demostrativos sobre su eficacia clínica y seguridad:
 
 A. Parche cutáneo de nicotina.
@@ -175,13 +181,11 @@ B. Bupropión.
 C. Vareniclina.
 D. Cigarrillo electrónico.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y bien establecido de deshabituación tabáquica):** el parche de nicotina (terapia sustitutiva con nicotina, TSN) es, junto con bupropión y vareniclina, uno de los TRES tratamientos de PRIMERA LÍNEA clásicos y ampliamente validados por décadas de estudios de eficacia y seguridad para la deshabituación tabáquica — marcarlo como excluido de los "protocolos actuales de primera elección" es factualmente incorrecto. El CIGARRILLO ELECTRÓNICO (opción D), en cambio, es precisamente el que carece de la misma solidez de evidencia sobre eficacia y seguridad a largo plazo, y por ello NO está incluido como tratamiento de primera línea en las guías clínicas oficiales (incluidas las españolas/europeas), pese a su uso extendido — coincidiendo exactamente con la justificación dada en el propio enunciado ("faltan estudios demostrativos sobre su eficacia clínica y seguridad"). Apoya la opción D. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Los tratamientos farmacológicos de primera línea con evidencia sólida de eficacia y seguridad para el tratamiento del tabaquismo son la terapia sustitutiva con nicotina (parches, chicles, comprimidos), el bupropión y la vareniclina, todos avalados por múltiples ensayos clínicos y revisiones sistemáticas (Cochrane). El cigarrillo electrónico, pese a su uso extendido como posible herramienta de reducción de daño, no se incluye entre los tratamientos de primera línea recomendados en los protocolos clínicos actuales, precisamente por la falta de estudios a largo plazo que demuestren de forma concluyente su eficacia y seguridad como método de deshabituación tabáquica, así como por las incertidumbres sobre sus efectos adversos a largo plazo.
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas 4 preguntas se eleva a 9 preguntas reales, **2 discrepancias de MÁXIMA confianza**, 1 de confianza fuerte (caídas), 6 limpias (2 de ellas —STOPP/START y FRAIL/Barthel-Pfeiffer×2— verificadas por conocimiento estándar de escalas geriátricas ampliamente publicadas, sin cita textual directa en el extracto de bibliografía disponible). Con este lote se completa el 100% de las preguntas MFC pendientes de la sesión.
-
-> **Nota de cobertura y fiabilidad (actualización posterior):** con MIR-2022-050 se eleva a 10 preguntas reales, **3 discrepancias de MÁXIMA confianza**, 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

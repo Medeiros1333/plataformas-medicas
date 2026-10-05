@@ -58,9 +58,11 @@ B. Poliquistosis renal autosómica recesiva.
 C. Angiomiolipomas renales en el contexto de esclerosis tuberosa.
 D. Cáncer renal metastásico.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** pregunta basada en una imagen (`imagen_ref` no disponible en la fuente de datos del proyecto) que resulta determinante para el diagnóstico diferencial. Sin poder visualizar las imágenes originales del examen, no es posible evaluar con la confianza habitual si la clave oficial (D) es coherente con los hallazgos radiológicos mostrados; el cuadro clínico aislado (HTA de inicio relativamente precoz a los 37 años, distensión abdominal, analítica normal) sería, sin más datos, más sugestivo de poliquistosis renal autosómica dominante (A) que de cáncer renal metastásico. Se mantiene la clave oficial (D) sin alterar, señalando la limitación de no disponer de la imagen para una verificación completa.
+**Explicación:** Los datos clínicos aportados (mujer de 40 años con hipertensión arterial de inicio relativamente precoz, distensión abdominal como único síntoma, y función renal y análisis de orina normales) son muy característicos de la poliquistosis renal autosómica dominante, entidad en la que la hipertensión suele preceder al deterioro de la función renal por activación del SRAA secundaria a la compresión vascular por los quistes, y en la que la distensión abdominal se explica por la nefromegalia bilateral. No obstante, esta pregunta está vinculada a una imagen (TC/ecografía) no disponible en este proyecto, por lo que el diagnóstico definitivo depende de los hallazgos radiológicos concretos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -72,14 +74,11 @@ B. Punción guiada mediante ultrasonografía endoscópica y etanolización de la
 C. Seguimiento de la lesión mediante RM.
 D. Trasplante de riñón-páncreas.
 
-**Respuesta correcta: B**
-**Justificación de cada opción:**
-- **B (correcta):** un cistoadenoma seroso pancreático asintomático, sin conexión con el conducto de Wirsung y con líquido característico, se maneja de forma conservadora mínimamente invasiva (punción-etanolización guiada por ecoendoscopia) en vez de cirugía mayor, dado su comportamiento habitualmente benigno.
-- A: incorrecta — la pancreatectomía es una cirugía mayor innecesaria para una lesión benigna asintomática de bajo riesgo, en una paciente de 72 años.
-- C: incorrecta — el seguimiento pasivo no aprovecha la oportunidad de un manejo mínimamente invasivo ya disponible y adecuado para esta lesión.
-- D: incorrecta — no hay ninguna indicación de trasplante de órganos en este cuadro; los quistes renales incidentales descritos no representan insuficiencia renal ni enfermedad hereditaria que lo justifique.
+**Respuesta correcta: C**
 
-> **Nota de contexto:** pregunta centrada en el manejo del cistoadenoma seroso pancreático (patología digestiva); los quistes renales bilaterales son un hallazgo incidental sin relevancia diagnóstica en el enunciado (no se describe patrón sugestivo de poliquistosis hereditaria) y no condicionan la respuesta correcta.
+**Explicación:** El cistoadenoma seroso es una neoplasia quística pancreática benigna, con un riesgo de malignización prácticamente nulo. Típicamente aparece en mujeres mayores y en la ecoendoscopia se ve como una lesión microquística 'en panal' con cicatriz o calcificación central y sin comunicación con el conducto de Wirsung, como en este caso. Además, la asociación con quistes renales bilaterales sugiere un síndrome de Von Hippel-Lindau. En una lesión serosa asintomática y pequeña (2 cm), la actitud correcta es el seguimiento con pruebas de imagen (RM) (C). La resección quirúrgica (A) se reserva para lesiones sintomáticas, de gran tamaño o con crecimiento rápido, o cuando hay dudas diagnósticas con lesiones mucinosas. La etanolización ecoguiada (B) no es un tratamiento estándar, y el trasplante (D) no tiene ningún papel.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -98,7 +97,7 @@ D. Nefrectomía parcial derecha. Inmunoterapia adyuvante.
 - C: incorrecta — la quimioterapia neoadyuvante no es el tratamiento estándar del carcinoma renal (que es poco quimiosensible); la biopsia percutánea previa tampoco es sistemática cuando el manejo quirúrgico ya está indicado.
 - D: incorrecta — la inmunoterapia adyuvante no es tratamiento estándar sistemático tras nefrectomía parcial en un tumor localizado de este tamaño; su indicación se reserva a perfiles de mayor riesgo de recurrencia.
 
-**Nota de cobertura y fiabilidad del módulo:** séptimo y último módulo de Nefrología de este primer barrido del proyecto, 3 preguntas reales. Módulo de cobertura ligera (la especialidad completa suma 47 preguntas reales repartidas en 7 módulos); no se han identificado discrepancias de confianza fuerte, salvo la limitación señalada en MIR-2020-017 por ausencia de la imagen original.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

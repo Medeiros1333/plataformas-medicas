@@ -111,7 +111,7 @@ D. Cirugía de sustitución valvular aórtica y raíz.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 108; EAo severa sintomática con FEVI deprimida + dilatación significativa de la raíz aórtica asociada a válvula bicúspide → cirugía combinada de válvula y raíz)*
 
-### MIR-2020-129 ⚠️
+### MIR-2020-129
 Un varón de 40 años consulta por disnea de esfuerzo lentamente progresiva desde hace un año. No tiene hábitos tóxicos ni antecedentes de interés. No ha tenido dolor torácico. Presenta un soplo sistólico rudo en foco aórtico, irradiado a ápex cardiaco y carótidas. El ECG en ritmo sinusal muestra criterios de hipertrofia ventricular izquierda y en la Rx de tórax es evidente una raíz de aorta dilatada. Con estos datos, ¿qué diagnóstico es el más probable?:
 
 A. Válvula aórtica bicúspide estenótica.
@@ -119,11 +119,13 @@ B. Comunicación interventricular perimembranosa.
 C. Insuficiencia aórtica degenerativa.
 D. Miocardiopatía restrictiva.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, en el epígrafe de Etiología de la estenosis aórtica, cita esta misma pregunta de forma directa ("MIR 21, 129", desfase de año habitual de ±1): *"En personas más jóvenes, la causa más frecuente [de estenosis aórtica] es degenerativa sobre una válvula bicúspide (MIR 21, 129)."* El enunciado describe un soplo SISTÓLICO (no diastólico) en foco aórtico irradiado a carótetas — la irradiación a carótidas es el patrón clásico de la estenosis aórtica, no de la insuficiencia aórtica (que produce un soplo diastólico decreciente). El cuadro completo (varón joven, soplo sistólico irradiado a carótidas, HVI, raíz aórtica dilatada — típica de la aortopatía asociada a válvula bicúspide) apunta con fuerza a la opción A, respaldada por la cita directa de la bibliografía a esta pregunta. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Soplo sistólico rudo en foco aórtico irradiado a carótidas, hipertrofia ventricular izquierda en el ECG (sobrecarga de presión) y raíz aórtica dilatada en un adulto de mediana edad sugieren una estenosis aórtica sobre válvula bicúspide (A). La válvula aórtica bicúspide es la cardiopatía congénita más frecuente del adulto, se calcifica y se vuelve estenótica antes que la válvula tricúspide (habitualmente entre los 40 y 60 años) y se asocia a aortopatía con dilatación de la raíz y de la aorta ascendente. La insuficiencia aórtica produce un soplo DIASTÓLICO (C falsa); la comunicación interventricular perimembranosa da un soplo holosistólico paraesternal izquierdo sin dilatación aórtica (B); y la miocardiopatía restrictiva no produce un soplo sistólico rudo aórtico (D).
 
-### MIR-2022-123 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-123
 Paciente de 71 años de edad, diabético, sin otras comorbilidades, diagnosticado previamente de estenosis aórtica grave. Ingresa por un síndrome coronario agudo sin elevación del ST, Killip I con un pico de troponinas ligeramente elevado. El cateterismo muestra enfermedad coronaria con lesiones proximales significativas de los tres vasos coronarios. Su función ventricular es normal. ¿Cuál de las siguientes estrategias terapéuticas es la más correcta?:
 
 A. Tratamiento intervencionista con la implantación de stents coronarios en los 3 vasos e implantación simultanea de una bioprótesis aórtica transcatéter (TAVI).
@@ -131,9 +133,11 @@ B. Prótesis valvular aórtica mecánica quirúrgica, seguida de un tratamiento 
 C. Prótesis aórtica biológica transcatéter (TAVI) y luego, de manera ambulatoria, tratar percutáneamente las arterias coronarias con stents.
 D. Tratamiento quirúrgico simultáneo con recambio valvular y revascularización quirúrgica coronaria con bypass.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía cita esta misma pregunta de forma directa ("MIR 23, 123", desfase de año habitual de ±1) en su tabla comparativa "ACTP vs. Cirugía" de cardiopatía isquémica, situando la enfermedad de **3 vasos** explícitamente en la columna de indicaciones de **CIRUGÍA** (no de ACTP/stents). Para un paciente con enfermedad coronaria de 3 vasos con lesiones proximales significativas y función ventricular normal, el criterio general de la bibliografía favorecería la revascularización quirúrgica (bypass) sobre el intervencionismo percutáneo de los 3 vasos — lo que apoyaría la opción D (cirugía combinada de válvula y bypass) frente a la opción A marcada como oficial (TAVI + stents en los 3 vasos en el mismo tiempo). Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Paciente de 71 años, diabético, con estenosis aórtica grave y enfermedad coronaria de tres vasos con lesiones proximales y función ventricular normal, sin comorbilidades importantes. En la enfermedad multivaso del paciente diabético, la cirugía de revascularización (bypass) es superior a la angioplastia, y en un paciente con riesgo quirúrgico aceptable que precisa a la vez sustituir la válvula aórtica, la estrategia de elección es la cirugía combinada en un solo tiempo: recambio valvular aórtico y bypass aortocoronario (D). La TAVI con stents (A y C) se reserva para pacientes de alto riesgo quirúrgico o inoperables, o con anatomía coronaria sencilla. Implantar una prótesis mecánica y revascularizar de forma percutánea en un segundo tiempo (B) somete al paciente a dos procedimientos y renuncia al beneficio del bypass en el diabético multivaso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-122
 Paciente de 78 años sin antecedentes que consulta por astenia y disnea de 3 meses de evolución, que ha progresado hasta hacerse de reposo en los últimos días. En los días previos refiere también dolor torácico de características anginosas con pequeños esfuerzos. En la exploración destaca presión arterial de 110/80 mmHg, frecuencia cardíaca de 85 lpm y auscultación con un soplo sistólico áspero en segundo espacio intercostal derecho y crepitantes en ambas bases pulmonares. ¿Cuál de los siguientes es el diagnóstico más probable?:
@@ -147,9 +151,9 @@ D. Miocardiopatía dilatada de origen isquémico.
 
 > **Nota de cobertura:** confirmación LIMPIA — el soplo sistólico en el foco aórtico (2º EID) junto con la tríada clínica clásica (angina, y aquí disnea progresando a reposo) es el patrón descrito en §1.3 de este módulo para la estenosis aórtica. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del bloque de estenosis aórtica:** 7 preguntas reales (2020, 2021, 2022×2, 2024, 2025×2), **2 discrepancias de máxima/fuerte confianza (con cita directa a ambas preguntas)**, 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2023-012 ⚠️
+### MIR-2023-012
 Hombre de 75 años sin factores de riesgo cardiovascular. Acude a su centro de salud por disnea de moderados esfuerzos de un año de evolución, que en las últimas semanas aparece ante pequeños esfuerzos. En la exploración física se ausculta en el 2º espacio intercostal derecho un soplo sistólico rudo, irradiado a carótidas con borramiento del 2º tono cardiaco. Se practica un ecocardiograma que muestra una función biventricular normal y un engrosamiento de una de las válvulas cardiacas que presenta un área de 0,95 cm2 (imagen). ¿Cuál es el diagnóstico más probable y la actitud terapéutica a seguir?:
 
 A. Estenosis valvular aórtica grave con indicación de recambio valvular.
@@ -157,11 +161,11 @@ B. Estenosis valvular aórtica moderada con indicación de seguimiento clínico 
 C. Estenosis mitral grave con indicación de recambio valvular.
 D. Estenosis mitral moderada con indicación de seguimiento clínico ambulatorio.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta ("MIR 24, 12") al definir la estenosis aórtica grave: *"gradiente medio supera los 40 mmHg, o área valvular <1 cm2 (MIR 24, 12)"*. Además, el foco de auscultación descrito (2º espacio intercostal DERECHO, soplo sistólico irradiado a carótidas, borramiento del 2º tono) es el patrón semiológico clásico de la estenosis AÓRTICA, no de la mitral (que cursaría con un soplo diastólico en el ápex, no sistólico en la base). Ambos datos (localización auscultatoria + área valvular 0,95 cm² por debajo del umbral de gravedad) apoyan de forma concluyente la opción A (estenosis aórtica grave), no la opción C marcada como oficial (estenosis mitral grave). Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** En un paciente anciano con disnea progresiva, soplo sistólico rudo en el segundo espacio intercostal derecho irradiado a carótidas con borramiento del segundo tono cardiaco, y un ecocardiograma que muestra una válvula engrosada con un área valvular de 0,95 cm2 (criterio de gravedad, ya que un área menor de 1 cm2 define la estenosis grave), el diagnóstico es una estenosis aórtica grave, y la actitud terapéutica indicada en un paciente sintomático es el recambio valvular (quirúrgico o percutáneo mediante TAVI según el riesgo y la edad), ya que la aparición de síntomas en la estenosis aórtica grave marca un punto de inflexión pronóstico con elevada mortalidad a corto plazo si no se trata. El foco de auscultación descrito (segundo espacio intercostal derecho, irradiado a carótidas) es característico de la válvula aórtica, no de la mitral, y la función biventricular normal descarta que se trate de una estenosis mitral (que además se ausculta típicamente en el ápex con un chasquido de apertura, no con estas características).
 
-> **Nota de cobertura y fiabilidad del bloque de estenosis aórtica (actualizada):** con esta pregunta se eleva a 8 preguntas reales, **3 discrepancias de máxima/fuerte confianza**, 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-124
 Varón de 75 años que refiere disnea progresiva, con una tolerancia al esfuerzo cada vez menor. Refiere síncope en dos ocasiones en los últimos meses, coincidiendo con un esfuerzo moderado y refiere dolor torácico ocasional que aumenta con el esfuerzo. En la exploración destaca la presencia de pulso arterial de características parvus et tardus y un soplo mesosistólico. La analítica es normal excepto por una creatinina de 2,2 mg/dL. El cálculo de riesgo quirúrgico establece un riesgo intermedio. Señale cuál de las siguientes opciones terapéuticas es la más indicada:
@@ -174,8 +178,6 @@ D. Valvulotomía mitral percutánea.
 **Respuesta correcta: B**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, coherente con §1.4/flashcards de este módulo: TAVI recomendada sobre cirugía en pacientes de edad avanzada y/o riesgo intermedio-alto) — el cuadro (pulso parvus et tardus, soplo mesosistólico, síncope/angina/disnea de esfuerzo) es estenosis aórtica grave sintomática de manual; en un varón de 75 años con riesgo quirúrgico intermedio (y un factor adicional de riesgo, la insuficiencia renal), la TAVI es la opción recomendada por las guías actuales frente al reemplazo quirúrgico. Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad del bloque de estenosis aórtica (actualizada):** con esta pregunta se eleva a 9 preguntas reales, manteniendo 3 discrepancias y sumando 6 limpias.
 
 ---
 

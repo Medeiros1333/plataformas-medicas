@@ -81,9 +81,11 @@ B. Se realiza mediante la combinación de datos analíticos y ecográficos.
 C. Está indicada en el primer trimestre en población gestante de riesgo.
 D. La transonolucencia nucal debe medirse entre las 11 y 14 semanas, mediante la realización de un corte sagital y con el embrión en posición de hiperflexión.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR contradice explícitamente la clave oficial en dos frentes simultáneos. Primero, afirma textualmente: *"Este cribado [combinado del primer trimestre] debe ser ofrecido a TODAS las gestantes, independientemente de su edad, puesto que la edad materna entra como variable en el programa de cálculo"* — lo cual contradice directamente la opción C ("indicada... en población gestante de riesgo"), que la bibliografía desmiente de forma literal. Segundo, la opción B ("combinación de datos analíticos y ecográficos") es afirmada positivamente por el mismo párrafo: *"este cribado... incluye: edad materna + detección de β-hCG y PAPP-A [analítica] + translucencia nucal [ecografía]"*. Además, la opción A es falsa (la β-hCG libre está ELEVADA, no disminuida, en la trisomía 21) y la opción D es falsa con cita textual directa a esta misma pregunta ("MIR 22, 71", desfase de año habitual de ±1): *"su medida ha de realizarse... en posición NEUTRA de la cabeza"*, no en "hiperflexión" como afirma D. La convergencia de una cita textual directa (para descartar D) junto con una contradicción explícita de C y una confirmación explícita de B constituye evidencia de máxima confianza de que la respuesta correcta debería ser B, no C. Ver hallazgo #116 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El cribado combinado del primer trimestre para aneuploidías integra datos ecográficos (translucencia nucal, medida entre las semanas 11 y 14 con el feto en posición neutra, no en hiperflexión) y datos analíticos (PAPP-A y fracción libre de beta-hCG), y está indicado ofrecerlo a toda gestante en el primer trimestre, independientemente de su nivel de riesgo basal, ya que el cribado poblacional universal mejora la tasa de detección frente a limitarlo solo a población de riesgo. En la trisomía 21, la fracción libre de beta-hCG se encuentra característicamente elevada (no disminuida), y la translucencia nucal debe medirse con el embrión en posición neutra, no en hiperflexión, para evitar mediciones erróneas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-071
 Mujer de 41 años gestante de 13+2 semanas que tras realizarse la ecografía de la semana 12, presenta un riesgo combinado de cromosomopatías para la trisomía 21 de 1/30. ¿Cuál sería el consejo más adecuado?:
@@ -105,9 +107,11 @@ B. Controles semanales con monitorización fetal y ecografía obstétrica cada d
 C. Controles semanales con monitorización fetal y ecografía obstétrica cada dos semanas hasta las 40 semanas de gestación.
 D. Inducción del parto a partir de las 37 semanas de gestación.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** los hallazgos de esta paciente (PFE percentil 6, es decir entre p3-p10, con ↑ resistencia/IP en arteria umbilical >p95, sin flujo ausente ni retrógrado) encajan de forma exacta con la definición bibliográfica de **CIR estadio I** ("↑ Resistencia en arteria umbilical o en las arterias uterinas"). La Tabla 3 de manejo del CIR de la bibliografía asigna a este estadio la actitud obstétrica **"Inducción del parto en semana 37"**, y cita textualmente esta misma pregunta como ejemplo ("MIR 23, 75", desfase de año habitual de ±1) exactamente en esa celda de la tabla. Esto corresponde de forma literal a la opción D ("Inducción del parto a partir de las 37 semanas"), no a la opción oficial C, que propone un manejo expectante genérico "hasta las 40 semanas" — actitud que la misma tabla reserva únicamente para el feto pequeño para la edad gestacional (FPEG) con Doppler completamente normal, no para un CIR estadio I con Doppler ya alterado. Ver hallazgo #116 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Feto con restricción del crecimiento intrauterino tardío (peso fetal estimado <p10 a las 36,5 semanas) con Doppler de arteria umbilical alterado (índice de pulsatilidad >p95), sin preeclampsia. El CIR con Doppler umbilical patológico (pero con flujo diastólico presente) es un CIR de mayor riesgo, en el que no se debe prolongar la gestación más allá del término precoz: está indicado finalizarla mediante inducción del parto a partir de las 37 semanas (D). Una cesárea inmediata (A) no está justificada, porque no hay signos de pérdida grave del bienestar fetal (flujo diastólico ausente o reverso, alteración del ductus venoso o del registro). Mantener controles hasta el parto espontáneo o hasta las 40 semanas (B y C) sería apropiado solo en un feto pequeño para la edad gestacional con Doppler normal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-072
 Gestante de 29 semanas remitida por sospecha de crecimiento intrauterino restringido (CIR). En la ecografía se observa un peso fetal estimado en el percentil 1 con Doppler de la arteria umbilical con onda de velocidad de flujo con diástole revertida. ¿En qué momento se aconseja la finalización de la gestación?:
@@ -121,7 +125,7 @@ D. Se trata de un feto CIR tipo 3: finalización a las 30 semanas.
 
 *(Sin discrepancia — confirmada por cita textual directa: la Tabla 3 de la bibliografía asigna la "diástole revertida" (Doppler umbilical retrógrado) al **CIR estadio III**, con actitud "Cesárea en semana 30", citando esta misma pregunta textualmente ("MIR 24, 72", desfase de año habitual de ±1) exactamente en esa celda. Coincide de forma exacta con la clave oficial D.)*
 
-> **Nota de cobertura y fiabilidad:** 4 preguntas reales (2021, 2022×2, 2023), **2 con discrepancia de máxima confianza** (MIR-2021-071 y MIR-2022-075, ambas #116, confirmadas por cita textual directa a la propia pregunta combinada con contradicción/confirmación positiva de otras opciones) y 2 limpias, también confirmadas por cita textual directa. Tasa de discrepancia del 50% en este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2024-058
 Mujer que acude a ecografía de rutina de segundo trimestre a las 22 semanas de gestación. Las biometrías corresponden a un feto de 19 semanas. ¿Cuál es el siguiente paso para orientar el caso?:
@@ -132,8 +136,6 @@ C. Repetir ecografía para nuevas biometrías en 2 semanas.
 D. Estudio para descartar preeclampsia.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 58; la bibliografía establece la medición de la longitud craneocaudal (CRL) en la ecografía del primer trimestre como el método de datación de referencia de la gestación. Ante una discrepancia biométrica en el segundo trimestre, el primer paso lógico es comprobar si la edad gestacional asumida es correcta según esa datación de referencia, antes de asumir una restricción de crecimiento o solicitar estudios adicionales. Confirmación LIMPIA, sin discrepancia)*
-
-> **Nota de cobertura:** con esta pregunta se eleva a 5 preguntas reales, manteniendo 2 discrepancias de máxima confianza y 3 limpias.
 
 ### MIR-2009-168
 Gestante de 12 semanas que acude a su consulta para realizar una ecografía en la que usted observa una gestación intrauterina con un embrión único con LCC de 16 mm (acorde con 8 semanas) sin latido cardiaco. Señale lo correcto:

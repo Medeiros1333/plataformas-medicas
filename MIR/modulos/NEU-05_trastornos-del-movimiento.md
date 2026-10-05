@@ -98,7 +98,7 @@ D. Disfunción cerebelosa precoz.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 169)*
 
-### MIR-2020-092 ⚠️
+### MIR-2020-092
 Señale cuál de las siguientes manifestaciones clínicas le harían dudar de un diagnóstico de enfermedad de Parkinson:
 
 A. Edad de inicio a los 55 años.
@@ -106,11 +106,13 @@ B. Caídas dentro de los dos primeros años de sintomatología.
 C. Presencia de un trastorno de conducta durante el sueño REM.
 D. Ausencia de temblor.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 92)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 92)*
 
-> ⚠️ **Nota de verificación fuerte:** los 55 años son una edad de inicio perfectamente típica de la enfermedad de Parkinson (rango habitual de inicio entre la 5.ª y 7.ª década), por lo que no figura entre los criterios de exclusión ni red flags de la bibliografía. En cambio, "caídas recurrentes... en los primeros años" (opción B) SÍ está explícitamente listado como red flag que cuestiona el diagnóstico. La opción C (trastorno de conducta del sueño REM) es, según la bibliografía, un síntoma premotor que APOYA el diagnóstico, no que lo cuestiona. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020 — la respuesta más consistente con la bibliografía es B. Ver hallazgo #47 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Los criterios diagnósticos de la Movement Disorder Society (MDS) para la enfermedad de Parkinson incluyen una serie de 'red flags' que, si están presentes, obligan a replantear el diagnóstico y descartar un parkinsonismo atípico. Entre ellos se encuentran las caídas recurrentes en los primeros años de evolución, sugestivas de parálisis supranuclear progresiva u otros parkinsonismos-plus, en los que la inestabilidad postural aparece mucho más precozmente que en la enfermedad de Parkinson idiopática. La edad de inicio en torno a los 55 años es, precisamente, la edad habitual de debut de la enfermedad y no constituye ningún dato de alarma. El trastorno de conducta durante el sueño REM es una manifestación prodrómica muy característica y de alto valor predictivo para el desarrollo posterior de sinucleinopatías, y la ausencia de temblor no descarta el diagnóstico, dado que existe una variante acinético-rígida de la enfermedad.
 
-### MIR-2022-095 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-095
 Dentro de los síndromes parkinsonianos primarios, la enfermedad de Parkinson se produce por:
 
 A. Una degeneración neuronal que afecta especialmente al globo pálido, sustancia reticular y oliva inferior y produce un déficit de dopamina.
@@ -118,11 +120,13 @@ B. Una degeneración de los núcleos de la protuberancia, oliva inferior y el ce
 C. Una degeneración celular en la sustancia negra que disminuye la tasa de dopamina a nivel del estriado, lo que provoca una actividad subtalámica y palidal excesiva.
 D. Una degeneración neuronal progresiva a nivel cortical y de los ganglios basales.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 95)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 95)*
 
-> ⚠️ **Nota de verificación fuerte:** la opción C coincide casi palabra por palabra con la bibliografía, que describe la fisiopatología del Parkinson como "una degeneración celular en la sustancia negra (pars compacta) con disminución de la cantidad de dopamina a nivel del estriado, lo que provoca una actividad subtalámica y palidal excesiva". La opción D (marcada oficialmente), que describe una "degeneración cortical y de los ganglios basales" de forma genérica, no corresponde a la fisiopatología específica y bien caracterizada del Parkinson idiopático (esa descripción más difusa encajaría mejor con otras entidades, como la degeneración corticobasal). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022. Ver hallazgo #47 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La enfermedad de Parkinson se produce por una degeneración progresiva de las neuronas dopaminérgicas de la sustancia negra pars compacta, lo que provoca un déficit de dopamina en el estriado (núcleo caudado y putamen). Esta depleción dopaminérgica altera el equilibrio de los circuitos de los ganglios basales, produciendo una actividad excesiva del núcleo subtalámico y del globo pálido interno, lo que a su vez incrementa la inhibición talámica y reduce la actividad de las áreas motoras corticales, generando la clínica cardinal de bradicinesia, rigidez y temblor. Este mecanismo, centrado en la sustancia negra y el circuito estriado-pálido-subtalámico, es distinto de la degeneración olivopontocerebelosa típica de la atrofia multisistémica o de una degeneración cortical difusa, que no son el sustrato característico de la enfermedad de Parkinson idiopática.
 
-### MIR-2022-098 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-098
 En un paciente con un síndrome parkinsoniano de dos años de evolución, señale cuál de las siguientes manifestaciones clínicas le harían dudar de un diagnóstico de enfermedad de Parkinson:
 
 A. Disartria grave.
@@ -130,11 +134,13 @@ B. Ausencia de temblor.
 C. Presencia de un trastorno de conducta del sueño REM.
 D. Estreñimiento.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 98)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 98)*
 
-> ⚠️ **Nota de verificación fuerte:** el trastorno de conducta del sueño REM es, según la bibliografía, un síntoma no motor/premotor característico de la enfermedad de Parkinson (por afectación de tronco del encéfalo por cuerpos de Lewy) que puede preceder incluso 10-15 años a los síntomas motores — es un dato que APOYA el diagnóstico, no que lo cuestiona. En cambio, la disartria grave (opción A) corresponde textualmente a uno de los red flags descritos ("disfunción bulbar precoz, como disfagia o disartria graves"). Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022 — la respuesta más consistente con la bibliografía es A. Ver hallazgo #47 en `PROCESO_Y_APRENDIZAJE.md`. (Nota: este mismo patrón de confusión sobre el TCSR ya se detectó en MIR-2020-92, sugiriendo un posible sub-patrón temático recurrente en preguntas sobre red flags del Parkinson en años provisionales.)
+**Explicación:** El trastorno de conducta durante el sueño REM, en el que el paciente 'actúa' sus sueños por pérdida de la atonía muscular fisiológica de esta fase, es una manifestación prodrómica muy característica de las sinucleinopatías, entre ellas la enfermedad de Parkinson, y con frecuencia precede en años al inicio motor, por lo que su presencia apoya, más que descarta, el diagnóstico. El estreñimiento es igualmente un síntoma no motor prodrómico muy frecuente, relacionado con la afectación temprana del sistema nervioso autónomo entérico, y la ausencia de temblor no excluye el diagnóstico, dado que existe una variante acinético-rígida sin temblor prominente. En cambio, una disartria grave y de aparición precoz es más característica de los parkinsonismos atípicos (atrofia multisistémica, parálisis supranuclear progresiva), en los que la afectación del habla suele ser más temprana e intensa que en la enfermedad de Parkinson idiopática.
 
-### MIR-2020-099 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-099
 En relación con el síndrome de piernas inquietas en el paciente mayor, señale la respuesta INCORRECTA:
 
 A. Existe una forma familiar.
@@ -142,13 +148,15 @@ B. La deficiencia de hierro se considera un factor de riesgo para su aparición.
 C. Su prevalencia aumenta a partir de los 70 años.
 D. Es más frecuente en los varones que en las mujeres.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 99)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 99)*
 
-> ⚠️ **Nota de verificación fuerte:** la deficiencia de hierro (ferropenia) es un factor de riesgo ampliamente establecido y consolidado para el síndrome de piernas inquietas (la ferroterapia es, de hecho, un tratamiento estándar cuando hay ferropenia asociada) — la opción B es una afirmación VERDADERA, no la incorrecta buscada. En cambio, el síndrome de piernas inquietas es característicamente MÁS FRECUENTE EN MUJERES que en varones (proporción aproximada 2:1), por lo que la opción D ("más frecuente en varones que en mujeres") es la que resulta claramente falsa/invertida. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020 — la respuesta más consistente con el conocimiento epidemiológico establecido es D. Ver hallazgo #47 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El síndrome de piernas inquietas es un trastorno sensitivomotor caracterizado por una necesidad imperiosa de mover las piernas, que empeora en reposo y por la tarde-noche y mejora con el movimiento. Su prevalencia aumenta con la edad, siendo especialmente frecuente a partir de los 70 años, y predomina en el sexo femenino, con una proporción aproximada de 2 mujeres por cada hombre afectado. Existe una forma familiar con herencia compleja, y la deficiencia de hierro, con o sin anemia manifiesta, es un factor de riesgo bien establecido para su aparición o empeoramiento, relacionado con el papel del hierro como cofactor en la síntesis de dopamina, por lo que se recomienda determinar la ferritina sérica y suplementar hierro cuando está disminuida.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
-### MIR-2023-092 ⚠️
+### MIR-2023-092
 Mujer de 50 años que refiere dificultad para conciliar el sueño por intraquilidad y parestesias en las piernas. La exploración física y neurológica es normal. Su tratamiento NO debería incluir:
 
 A. Metilfenidato.
@@ -156,11 +164,11 @@ B. Suplementos de hierro, en caso de ferropenia.
 C. Agonistas dopaminérgicos.
 D. Pregabalina.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con dato ya establecido en este mismo módulo, MIR-2020-099):** este módulo ya documenta expresamente que "la deficiencia de hierro (ferropenia) es un factor de riesgo ampliamente establecido y consolidado para el síndrome de piernas inquietas [...] la ferroterapia es, de hecho, un tratamiento ESTÁNDAR cuando hay ferropenia asociada" — contradiciendo directamente la clave oficial B, que sitúa precisamente la suplementación de hierro en ferropenia como el tratamiento que NO debería incluirse. Los agonistas dopaminérgicos (C) y la pregabalina/gabapentinoides (D) son, en cambio, tratamientos de primera línea bien establecidos del síndrome de piernas inquietas — correctamente excluidos de la respuesta. El metilfenidato (un psicoestimulante) no forma parte del arsenal terapéutico estándar de esta entidad y podría teóricamente agravar el insomnio asociado, siendo la opción más coherente con "NO debería incluir". Apoya la opción A. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El síndrome de piernas inquietas se trata, en primer lugar, corrigiendo los factores favorecedores reversibles, entre los que destaca el déficit de hierro: se recomienda determinar la ferritina sérica y suplementar con hierro cuando existe ferropenia, ya que esto puede mejorar significativamente los síntomas. Los agonistas dopaminérgicos han sido tradicionalmente el tratamiento farmacológico de primera línea, aunque su uso continuado se asocia a fenómenos de aumento (augmentation) de los síntomas, por lo que las guías actuales tienden a priorizar ligandos alfa-2-delta como la pregabalina. El metilfenidato es un psicoestimulante sin un papel establecido en el tratamiento del síndrome de piernas inquietas, y su perfil farmacológico de activación dopaminérgico-noradrenérgica con potencial de insomnio y agitación lo hace inadecuado en esta patología.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 8 preguntas reales, sumando 3 discrepancias de MÁXIMA/alta confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

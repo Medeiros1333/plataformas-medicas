@@ -102,9 +102,11 @@ B. Neoplasia pulmonar avanzada con metástasis extratorácicas.
 C. Hamartomas pulmonares.
 D. Tuberculosis pulmonar y ganglionar.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 11)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 11)*
 
-> ⚠️ **Nota de verificación (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #27):** el enunciado textual (fumador importante activo, nódulo de bordes IRREGULARES, adenopatías hiliares ipsilaterales captantes en PET-TC) es clínicamente más compatible con neoplasia pulmonar con metástasis ganglionares (opción A) que con hamartoma — los hamartomas son típicamente de bordes bien definidos/lobulados, con calcificación "en palomita de maíz", y suelen mostrar BAJA captación en PET-TC, no hipermetabolismo asociado a adenopatías. No obstante, esta es una pregunta asociada a imagen (PET-TC no reproducible en texto) y la imagen podría mostrar hallazgos específicos (p. ej. baja captación pese a la morfología) que inclinen la balanza hacia el hamartoma; no se puede confirmar la discrepancia con certeza sin acceso al cuadernillo original con las imágenes. Se mantiene la clave oficial sin alterar, con esta advertencia.
+**Explicación:** El hamartoma pulmonar es la neoplasia benigna más frecuente del pulmón y, aunque puede presentarse como un nódulo pulmonar solitario, típicamente se manifiesta en la TC como una lesión bien delimitada, con calcificaciones características "en palomitas de maíz" y baja actividad metabólica en el PET-TC, sin asociarse a adenopatías hiliares ni mediastínicas. En pacientes fumadores de edad avanzada con un nódulo de bordes irregulares y adenopatías hiliares ipsilaterales hipermetabólicas en el PET-TC, el diagnóstico que debe sospecharse en primer lugar dentro del amplio diagnóstico diferencial del nódulo pulmonar es siempre una neoplasia maligna hasta que se demuestre lo contrario, siendo estos hallazgos morfológicos y metabólicos los que orientan hacia el manejo diagnóstico (biopsia) y la estadificación de extensión de la enfermedad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-001
 Pregunta asociada a la imagen 1. Varón de 65 años, sin antecedentes de interés, que consulta por tos, dolor torácico, fiebre, sudoración nocturna y disnea. En la radiografía de tórax se observa un derrame pleural unilateral izquierdo, por lo que se realiza una TC torácica que confirma el derrame pleural y donde además se observa un engrosamiento pleural y micronódulos subpleurales en el lóbulo superior izquierdo. Ante este hallazgo se decide realizar una toracoscopia con biopsia pleural, cuya histología se muestra en la figura. ¿Cuál es el diagnóstico anatomopatológico de la lesión pleural?:
@@ -114,7 +116,11 @@ B. Inflamación aguda con abscesificación.
 C. Inflamación granulomatosa.
 D. Mesotelioma.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 1)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 1)*
+
+**Explicación:** Pregunta dependiente de la imagen histológica (no disponible en este proyecto). Varón con fiebre, sudoración nocturna, tos y derrame pleural unilateral, con engrosamiento pleural y micronódulos subpleurales en el lóbulo superior: el cuadro es muy sugestivo de tuberculosis pleuropulmonar, y la biopsia pleural mostrará una inflamación granulomatosa (C), que es la respuesta oficial: granulomas epitelioides con células gigantes multinucleadas de tipo Langhans y necrosis caseosa central. La biopsia pleural por toracoscopia es la prueba más rentable para el diagnóstico de la pleuritis tuberculosa (granulomas y cultivo). Un adenocarcinoma metastásico (A) o un mesotelioma (D) mostrarían una proliferación de células neoplásicas, y una inflamación aguda con abscesificación (B) correspondería a un empiema.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-136
 Paciente de 65 años, no fumador, que refiere que trabajó en su juventud en industria relacionada con la uralita. Consulta por un cuadro de disnea progresiva, sin fiebre. En la radiografía de tórax se observan calcificaciones pleurales izquierdas y un engrosamiento pleural derecho de características nodulares, que se confirma en la TC de tórax, sin adenopatías mediastínicas, nódulos, ni masas pulmonares o mediastínicas. Con respecto a la actitud a seguir con este paciente, señale la afirmación correcta:
@@ -134,7 +140,11 @@ B. T1N0M0.
 C. T1N0M1.
 D. T2N0M0.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 18)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 18)*
+
+**Explicación:** Pregunta dependiente de la imagen (PET-TC no disponible en este proyecto). Un nódulo pulmonar de 1 cm de diámetro es un T1 (T1a: ≤1 cm; T1 incluye los tumores ≤3 cm rodeados de pulmón o pleura visceral). Según la plantilla oficial, la PET-TC muestra captación de FDG únicamente en el nódulo, sin captación patológica en adenopatías hiliares o mediastínicas (N0) ni a distancia (M0). Por tanto, el estadio es T1N0M0 (B), un estadio I subsidiario de tratamiento quirúrgico (lobectomía con linfadenectomía) si el paciente es operable. El N1 (A) exigiría captación en adenopatías hiliares o peribronquiales ipsilaterales; el M1 (C), lesiones a distancia (pulmón contralateral, pleura, hueso, suprarrenal, cerebro…); y el T2 (D), un tumor mayor de 3 cm o con afectación del bronquio principal o de la pleura visceral.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-207
 Con respecto a las enfermedades torácicas relacionadas con la exposición al asbesto, señale la respuesta INCORRECTA:
@@ -144,9 +154,11 @@ B. Las opacidades lineales irregulares en bases pulmonares son los signos radiog
 C. El cáncer pulmonar es la tumoración más frecuente relacionada con la exposición al asbesto.
 D. Las placas pleurales indican que hubo tan sólo exposición, pero no afectación pulmonar.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 207)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 207)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #30 — corrige un error de transcripción propio: una versión anterior de este módulo mostraba "A" en lugar de la clave oficial "B"):** la opción B ("opacidades lineales irregulares en bases pulmonares... característicos de asbestosis") es una afirmación clínicamente CORRECTA y estándar, por lo que marcarla como la INCORRECTA (clave oficial) es cuestionable. La afirmación que parece realmente falsa/sobreextendida es la A: el derrame pleural en un paciente expuesto a asbesto NO implica automáticamente mesotelioma (la mayoría de los derrames en expuestos a asbesto son benignos/reactivos) — debe estudiarse igual que cualquier derrame antes de asumir malignidad. No se ha alterado `respuesta_correcta` (se mantiene la clave oficial B), pero se recomienda prudencia si se usa en modo simulacro. Ver también §2, punto 7 de este módulo.
+**Explicación:** La afirmación INCORRECTA es la A: la exposición al asbesto puede producir un derrame pleural BENIGNO (derrame pleural asbestósico), que es la manifestación más precoz de la exposición (a menudo en los primeros 10-20 años), suele ser un exudado serohemático, recidivante y en muchos casos asintomático, y se diagnostica por exclusión. Por eso, la presencia de derrame en un paciente expuesto obliga a descartar un mesotelioma, pero no lo indica por sí misma. El resto es correcto: las opacidades lineales irregulares (patrón reticular) en las bases pulmonares son el signo radiográfico característico de la asbestosis (B); el cáncer de pulmón es la neoplasia más frecuente asociada al asbesto, con un efecto multiplicativo con el tabaco (C); y las placas pleurales, la lesión más frecuente, son marcadores de exposición y no implican afectación del parénquima pulmonar (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-115
 Hombre de 65 años, exfumador, en el que de forma incidental se identifica un nódulo pulmonar solitario (NPS) en radiografía simple de tórax. Diagnosticado de enfermedad pulmonar obstructiva crónica con un FEV1 del 30%. En el estudio por TC se describe un NPS en lóbulo superior derecho de 9 mm de diámetro con cola pleural y calcificaciones excéntricas. Se realiza tomografía por emisión de positrones con captación patológica indicativa de malignidad. ¿Cuál de las siguientes actitudes terapéuticas es la más adecuada?:
@@ -182,7 +194,7 @@ D. Carcinoma tímico.
 
 **Respuesta correcta: A** — *(confianza fuerte, cuadro clínico clásico de síndrome de vena cava superior [disnea, plétora facial, edema "en esclavina", cianosis] en un varón fumador intenso de edad avanzada — el carcinoma MICROCÍTICO de pulmón es la causa neoplásica más frecuente de SVC, por su localización central/perihiliar y su rápido crecimiento con adenopatías mediastínicas masivas, muy por delante de otras causas neoplásicas [linfoma, metástasis, tumores tímicos]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad", resoluble por el razonamiento clínico del enunciado sin necesitar valorar la imagen directamente)*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 8 preguntas reales, manteniendo 0 discrepancias nuevas (1 discrepancia previa del hallazgo #20 mencionada en nota anterior de este módulo).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2018-147
 En el estudio de un hombre fumador de 65 años se aprecia una masa pulmonar de 8 cm de diámetro en el lóbulo superior derecho, con afectación ganglionar hiliar ipsilateral. El paciente es diagnosticado finalmente de un adenocarcinoma pulmonar. En base a las características citadas, señale cuál de los siguientes tratamientos es el más adecuado:

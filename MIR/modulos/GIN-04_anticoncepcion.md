@@ -64,9 +64,11 @@ B. Dispositivo intrauterino con levonorgestrel.
 C. Preparados hormonales combinados con 20 microgramos de etinilestradiol.
 D. Preparados hormonales combinados con gestágenos de tercera generación.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 66)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 66)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) es explícita: los métodos de "solo gestágenos... son útiles cuando existe contraindicación para tomar estrógenos: durante la lactancia materna". La clave oficial (D) sigue siendo un preparado hormonal COMBINADO (contiene estrógeno, etinilestradiol, además del gestágeno de "tercera generación") — el hecho de especificar el tipo de gestágeno no cambia que sea un método combinado, contraindicado durante la lactancia. La bibliografía además clasifica explícitamente el **DIU liberador de levonorgestrel** (opción B, no elegida) dentro de los métodos "solo gestágenos" ("Sólo gestágenos: oral, inyección intramuscular, **DIU**, implante subdérmico"), haciendo de esta la opción compatible con la lactancia según la propia fuente. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** En una mujer lactante que ya ha reiniciado sus ciclos, el método de amenorrea de la lactancia (MELA) deja de ser fiable, porque exige amenorrea, lactancia exclusiva y menos de 6 meses posparto (A falsa; además, el mecanismo no es la oxitocina sino la inhibición de la pulsatilidad de GnRH por la prolactina y el estímulo de succión). Los anticonceptivos hormonales combinados con estrógenos no se recomiendan durante la lactancia porque disminuyen la cantidad de leche (C y D). Los métodos de solo gestágeno son compatibles con la lactancia, y el DIU de levonorgestrel es la opción más aconsejable (B): es de larga duración, muy eficaz, no interfiere con la lactancia y es adecuado en una mujer de 37 años que ya ha tenido hijos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-075
 Mujer de 30 años que solicita un método anticonceptivo. Como antecedentes tiene una cesárea urgente hace 7 meses, naciendo una niña de 3.550 g. Está dando lactancia materna exclusiva. Señale la afirmación correcta:

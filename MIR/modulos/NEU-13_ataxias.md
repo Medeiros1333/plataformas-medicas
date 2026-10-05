@@ -63,9 +63,13 @@ B. Ataxia de Friedreich.
 C. Síndrome del cromosoma X frágil.
 D. Distrofia miotónica tipo 1.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-### MIR-2022-149 ⚠️
+**Explicación:** La descripción de una expansión de tripletes CGG en la región promotora del gen, con hipermetilación que silencia su expresión, corresponde de forma característica al síndrome del cromosoma X frágil, causado por la expansión del triplete CGG en la región 5' no traducida (promotora) del gen FMR1. Cuando el número de repeticiones supera aproximadamente las 200 copias (mutación completa), se produce hipermetilación del promotor que silencia la transcripción del gen y la consiguiente ausencia de la proteína FMRP, responsable del fenotipo clínico (discapacidad intelectual, rasgos faciales característicos, macroorquidismo). Es un mecanismo distinto al de la ataxia de Friedreich, causada por expansión del triplete GAA en el primer intrón del gen de la frataxina; al de la enfermedad de Huntington, por expansión CAG en la región codificante del gen HTT; y al de la distrofia miotónica tipo 1, por expansión CTG en la región 3' no traducida del gen DMPK.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-149
 Varón de 65 años que consulta por astenia progresiva y sensación de hormigueo en manos y pies. En la exploración física presenta tez amarillenta y disminución de la sensibilidad vibratoria y posicional en zonas distales. En el hemograma se observa VCM 120 fl con anisocitosis. Lo más probable es que padezca:
 
 A. Mielopatía cervicoartrósica.
@@ -73,15 +77,11 @@ B. Mielitis necrosante subaguda.
 C. Mielosis funicular.
 D. Mielopatía crónica de la esclerosis múltiple.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con dato ya establecido en §1.2 de este mismo módulo):** el cuadro es un caso de manual de déficit de vitamina B12 — anemia macrocítica marcada (VCM 120, con anisocitosis, subictericia por eritropoyesis ineficaz) + neuropatía periférica (parestesias) + afectación de cordones posteriores (pérdida de sensibilidad vibratoria y posicional). El nombre clásico en español de esta entidad —degeneración combinada subaguda de la médula espinal por déficit de B12— es precisamente **"mielosis funicular"** (opción C), y este mismo módulo ya recoge el déficit de B12 como causa de ataxia adquirida SUBAGUDA de patrón simétrico y progresivo (§1.2, punto clave 6) — coincidiendo exactamente con la presentación descrita. La "mielitis necrosante subaguda" (clave oficial B) es una entidad paraneoplásica distinta y mucho más rara, que no se relaciona con el hallazgo hematológico central del caso (macrocitosis marcada), un dato que apunta de forma inequívoca hacia el déficit de B12. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro de astenia progresiva, parestesias distales en manos y pies, hipopalestesia y alteración de la sensibilidad posicional, junto con anemia macrocítica (VCM 120 fl) con anisocitosis y tinte subictérico de la piel por hemólisis leve secundaria a la eritropoyesis ineficaz, es muy característico del déficit de vitamina B12, que produce una degeneración combinada subaguda de la médula espinal conocida clásicamente como mielosis funicular. Esta entidad afecta preferentemente a los cordones posteriores (sensibilidad vibratoria y posicional) y, en fases más avanzadas, también a la vía piramidal, con clínica de paraparesia espástica. El diagnóstico se confirma mediante la determinación de niveles séricos de vitamina B12, y el tratamiento con suplementación parenteral puede detener la progresión e incluso revertir parcialmente el daño neurológico si se instaura precozmente.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 2 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 1 limpia.
-
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR de Neurología describe de forma explícita y sin ambigüedad el mecanismo genético de la ataxia de Friedreich (clave oficial B): *"autosómica recesiva, con alteración del gen frataxina en el cromosoma 9 (expansión de tripletes GAA)"* — GAA, no CGG. Se trata de un hecho genético puramente objetivo, sin margen de interpretación clínica, comparable en naturaleza al hallazgo #103 (cálculo mecánico de la escala de Glasgow) o al #119 (rango de semanas de cribado). La descripción del enunciado ("hipermetilación de una expansión de tripletes CGG en la región promotora") corresponde al mecanismo clásico y bien establecido del **síndrome del cromosoma X frágil** (opción C, no elegida, gen FMR1), no cubierto explícitamente en la bibliografía específica de este proyecto pero de conocimiento médico estándar y ampliamente establecido, coherente además con la ausencia total de cualquier mención a "CGG" o "hipermetilación" en la sección de ataxia de Friedreich de la bibliografía. Ver hallazgo #124 en `PROCESO_Y_APRENDIZAJE.md` (documentado como candidata pendiente al abrirse REU-08, e incorporado aquí al abrir el módulo correspondiente de NEU). Se mantiene la clave oficial (B) sin alterar.
-
-> **Nota de cobertura y fiabilidad:** 1 pregunta real (2023), **discrepante de MÁXIMA confianza** para el componente específicamente verificable contra la bibliografía del proyecto (GAA vs. CGG en la ataxia de Friedreich); el componente relativo al X frágil se apoya en conocimiento médico general ampliamente establecido, no en cita textual del proyecto. Búsqueda exhaustiva de candidatas adicionales en los Temas 12 (motoneurona), 13 (ataxia) y 7 (nutricional/metabólico) de NEU sin resultado: las preguntas de ELA localizadas ya estaban cubiertas (NML-07) o pertenecían a Bioética (BIE), y no se localizaron candidatas frescas 2020-2025 para encefalopatía de Wernicke ni degeneración combinada subaguda.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

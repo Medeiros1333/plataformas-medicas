@@ -71,7 +71,11 @@ B. La recuperación de la función eréctil tras la prostatectomía radical se a
 C. El alprostadilo puede ayudar a recuperar una función sexual satisfactoria.
 D. Un PSA >0,01 tras una prostatectomía radical es indicativo de recidiva bioquímica.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 141)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 141)*
+
+**Explicación:** La afirmación INCORRECTA es la D: tras una prostatectomía radical el PSA debe hacerse indetectable, y la recidiva bioquímica se define como un PSA ≥0,2 ng/ml confirmado en una segunda determinación, no como cualquier valor >0,01 ng/ml (que con técnicas ultrasensibles puede detectarse sin significar recidiva). El resto es correcto: la continencia tras la prostatectomía se relaciona con la edad (peor en los mayores), la longitud de la uretra membranosa y la experiencia del cirujano (A); la recuperación de la función eréctil es mejor en los pacientes más jóvenes, con buena función eréctil previa y con preservación de los haces neurovasculares (B); y el alprostadilo (PGE1, intracavernoso o intrauretral), al igual que los inhibidores de la fosfodiesterasa 5, ayuda en la rehabilitación de la función sexual (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-138
 Hombre de 51 años que consulta preocupado por la aparición de leve goteo postmiccional. Tiene dislipemia, hipertensión arterial y alopecia androgénica incipiente. Sigue tratamiento con simvastatina, enalapril, minoxidil y dutasteride. Padre y hermano fallecidos por cáncer de próstata. En los reconocimientos de salud laboral realizados en 2021 y 2023 se observa PSA de 0,3 y de 3,8 ng/mL respectivamente (valores de referencia <4 ng/mL). Una RMN prostática multiparamétrica muestra una próstata de 55 mL y en secuencia T2 un nódulo hipointenso moderado y homogéneo de 1,7 cm, con restricción de la difusión y realce precoz en perfusión en el límite entre el estroma fibromuscular anterior y la zona transicional del lóbulo izquierdo prostático. Repetimos una nueva determinación de PSA 3,5 ng/mL. A la vista de estos hallazgos, ¿qué recomendación propondría al paciente como la más adecuada?
@@ -83,7 +87,7 @@ D. Biopsia prostática transperineal sistemática y dirigida mediante fusión de
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 138)*
 
-### MIR-2023-146 ⚠️
+### MIR-2023-146
 En relación con el cáncer de próstata, señale la respuesta INCORRECTA:
 
 A. El principal factor de riesgo es la edad.
@@ -91,9 +95,11 @@ B. Los portadores del gen BRCA-1 tienen mayor predisposición a sufrir la enferm
 C. Es más frecuente en varones caucásicos.
 D. Las grasas animales, la obesidad, el hábito tabáquico y el cadmio también se han relacionado con su etiopatogenia.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (recuperada del hallazgo #26 de una sesión anterior, nunca tageada; confirmada de forma independiente en esta sesión):** la bibliografía del propio módulo (§1, resumen clínico) afirma textualmente que el principal factor de riesgo del cáncer de próstata es la edad (coincide con la opción A, marcada oficialmente como la INCORRECTA — una contradicción directa), y que **"es más frecuente en varones de raza negra/afroamericana (no en caucásicos — dato epidemiológico clásico y bien establecido)"** — esto confirma que la opción C ("más frecuente en varones caucásicos") es la afirmación epidemiológicamente FALSA, no la A. La edad como principal factor de riesgo es un hecho universalmente aceptado en toda la bibliografía urológica/oncológica, no discutible. Apoya la opción C. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #26 (sesión anterior) y hallazgo #192 (esta sesión) en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la C: el cáncer de próstata NO es más frecuente en varones caucásicos, sino en los varones de raza negra (afroamericanos), en quienes además es más agresivo y aparece a edades más tempranas; la incidencia más baja se da en los asiáticos. El resto es correcto: la edad es el principal factor de riesgo (A); los portadores de mutaciones en BRCA1 y, sobre todo, BRCA2 tienen mayor predisposición, con formas más agresivas (B); y la dieta rica en grasas animales, la obesidad, el tabaquismo y la exposición al cadmio se han relacionado con su etiopatogenia (D), junto con los antecedentes familiares.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

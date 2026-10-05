@@ -88,9 +88,11 @@ B. Durante la gestación los brotes suelen ser más frecuentes y graves.
 C. En el puerperio, la enfermedad no suele reactivarse.
 D. Una paciente con anticuerpos anti-Ro y bloqueo AV fetal tiene menos riesgo de presentar el bloqueo AV fetal en la siguiente gestación.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 72)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 72)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma textualmente que "la tasa de fertilidad es normal" en el LES, coincidiendo exactamente con la opción A. Además, la clave oficial (D) contradice el conocimiento obstétrico-reumatológico bien establecido: una madre con anti-Ro positivo y antecedente de bloqueo AV congénito en un embarazo previo tiene un riesgo de RECURRENCIA AUMENTADO (no disminuido) en gestaciones posteriores respecto al riesgo basal — es precisamente esta razón la que justifica la vigilancia ecocardiográfica fetal seriada recomendada por la propia bibliografía en estas pacientes. La opción C también es incorrecta según la bibliografía, que señala el puerperio como un periodo de riesgo de reactivación de la enfermedad (no de protección). No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (A es la afirmación correcta) en el punto clave 6 de este módulo.
+**Explicación:** En el lupus eritematoso sistémico, la fertilidad no suele estar afectada en ausencia de enfermedad renal grave o de tratamientos gonadotóxicos como la ciclofosfamida, por lo que las pacientes con enfermedad controlada pueden plantearse la gestación con normalidad si se programa en fase de inactividad. El puerperio es, por el contrario, un periodo de especial riesgo de reactivación de la enfermedad, por lo que requiere una vigilancia clínica y analítica estrecha en las semanas posteriores al parto. Respecto al bloqueo auriculoventricular congénito fetal asociado a anticuerpos anti-Ro/anti-La, una vez que se ha producido en una gestación, el riesgo de recurrencia en embarazos posteriores aumenta de forma sustancial (hasta un 15-20%) frente al riesgo basal de una primera gestación con anticuerpos positivos (en torno al 2%), por lo que estas pacientes requieren monitorización ecocardiográfica fetal seriada y estrecha desde etapas tempranas del embarazo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-120
 Recién nacido de 2 semanas, cuya madre durante el embarazo presentó poliartralgias no filiadas y que tras la primera exposición solar desarrolla lesiones cutáneas eritematosas policíclicas que asemejan las del lupus eritematoso cutáneo subagudo. ¿Cuál de los siguientes autoanticuerpos debe investigarse?:
@@ -100,9 +102,11 @@ B. Anticuerpos anti-citoplasma de neutrófilo (ANCA) en la madre.
 C. Anticuerpos anti-Ro/SS-A en la madre.
 D. Anticuerpos anti-Sm en el recién nacido.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 120)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 120)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía es explícita y categórica: "Lupus neonatal: se produce por la acción de los anticuerpos anti-Ro (SS-A) y/o anti-La (SS-B) transferidos de la madre al feto". El cuadro descrito (lesiones cutáneas fotosensibles de tipo lupus cutáneo subagudo en un recién nacido de una madre con poliartralgias no filiadas) es el cuadro característico del lupus neonatal, y el anticuerpo a investigar en la madre es el anti-Ro/SS-A (opción C), no el ANCA (clave oficial, B), que no guarda ninguna relación descrita con esta entidad en la bibliografía. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (anti-Ro/SSA materno) en el punto clave 3 de este módulo.
+**Explicación:** Las lesiones cutáneas eritematosas policíclicas fotosensibles que aparecen en las primeras semanas de vida, similares al lupus cutáneo subagudo, son la manifestación característica del lupus neonatal cutáneo, producido por el paso transplacentario de anticuerpos maternos anti-Ro/SS-A (y con menor frecuencia anti-La/SS-B). Estos anticuerpos pueden estar presentes en la madre incluso en ausencia de un diagnóstico previo de conectivopatía sintomática, como ocurre en este caso, en el que solo refería poliartralgias inespecíficas durante el embarazo. Además de la afectación cutánea, generalmente transitoria y autolimitada, debe vigilarse activamente la posible afectación cardíaca (bloqueo auriculoventricular congénito), que a diferencia de las lesiones cutáneas es irreversible y constituye la complicación más grave del lupus neonatal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-180
 Mujer de 26 años diagnosticada de lupus eritematoso sistémico, en tratamiento con hidroxicloroquina, que consulta por sensación de debilidad generalizada que se ha instaurado progresivamente en los últimos 15 días. En la exploración física se aprecia palidez cutánea y en la analítica destaca Hb 7,4 gr/dL, Hcto 31%, VCM 108. ¿Cuál de las siguientes determinaciones será más útil para decidir la actuación?:
@@ -112,7 +116,11 @@ B. Test de Coombs.
 C. Vitamina B12.
 D. Anticuerpos antinucleares.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 180; anemia de instauración subaguda en paciente con LES obliga a descartar anemia hemolítica autoinmune entre otras causas —ver §1.2—; pregunta incluida sin nota de discrepancia dada la ambigüedad razonable entre pruebas de hemólisis disponibles)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 180)*
+
+**Explicación:** Mujer con lupus eritematoso sistémico que presenta una anemia importante (Hb 7,4 g/dl) de instauración subaguda y MACROCÍTICA (VCM 108): en el LES, una anemia macrocítica de instauración rápida sugiere una anemia hemolítica autoinmune, con reticulocitosis (los reticulocitos son células más grandes y elevan el VCM). La prueba más útil para decidir la actuación es el test de Coombs directo (B), que demuestra el mecanismo inmunológico (anticuerpos IgG y/o complemento sobre la membrana del hematíe) y, si es positivo, indica iniciar corticoides a dosis altas. La haptoglobina (A) confirma la existencia de hemólisis (estará baja), pero no su mecanismo, y por tanto no decide el tratamiento. El déficit de vitamina B12 (C) es una causa de macrocitosis menos probable en este contexto, y los anticuerpos antinucleares (D) ya se conocen positivos por el diagnóstico de LES y no orientan el manejo de la anemia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-073
 Mujer de 36 años con antecedentes de 2 abortos de primer trimestre y preeclampsia grave que requirió cesárea por pérdida de bienestar fetal a las 33 semanas de gestación. El estudio analítico postparto es normal salvo por la presencia de anticuerpos antifosfolípido IgM e IgG, siendo el resto del estudio de trombofilia normal. La presencia de anticuerpos antifosfolípido fue confirmada a los 4 meses de la primera analítica. ¿Qué recomendación haríamos a esta paciente en caso de nueva gestación?:
@@ -146,7 +154,7 @@ D. Anticuerpos antifosfolipidos.
 
 > **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 8 preguntas reales, manteniendo el patrón de fiabilidad alta del módulo.
 
-### MIR-2021-183 ⚠️
+### MIR-2021-183
 Mujer de 45 años sin antecedentes de interés que consulta por presentar sensación disneica de unos 4 días de evolución. La exploración muestra taquicardia rítmica, sin soplos y la auscultación pulmonar es normal. La gasometría arterial muestra una pO2 de 70 mmHg y una pCO2 32 mmHg. El hemograma, la función renal y hepática son normales. Tiempo de protrombina 90 %, tiempo de tromboplastina parcial activada (TTPA) con ratio de 2 respecto al control (N <1,2). ¿De los siguientes diagnósticos cuál es el más probable?:
 
 A. Síndrome antifosfolípido.
@@ -154,11 +162,11 @@ B. Factor V de Leiden.
 C. Hemofilia.
 D. Pericarditis aguda.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de confianza fuerte (patrón clínico-analítico clásico y bien establecido, sin cita bibliográfica directa disponible):** el cuadro combina un TTPA aislado y marcadamente prolongado (ratio 2, con PT normal) con un cuadro clínico de disnea aguda + hipoxemia + hipocapnia por hiperventilación, compatible con un evento TROMBÓTICO agudo tipo tromboembolismo pulmonar — no con un cuadro hemorrágico. Esta combinación (TTPA prolongado "in vitro" + clínica TROMBÓTICA, no hemorrágica, "in vivo") es la firma clásica del ANTICOAGULANTE LÚPICO (un anticuerpo antifosfolípido que interfiere con los fosfolípidos del reactivo de laboratorio prolongando el TTPA de forma artefactual, mientras que en el paciente promueve trombosis) — el hallazgo de laboratorio central del síndrome antifosfolípido. La hemofilia (clave oficial C), en cambio, es una coagulopatía HEMORRÁGICA (no trombótica), de herencia ligada al X (excepcional como diagnóstico de novo en una mujer adulta sin antecedentes personales/familiares de sangrado) y no explicaría un cuadro de disnea aguda hipoxémica. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Mujer joven con disnea de unos días, taquicardia, hipoxemia con hipocapnia (sugestivo de tromboembolismo pulmonar) y un TTPA alargado (ratio 2) con tiempo de protrombina normal, sin antecedentes hemorrágicos: el diagnóstico más probable es el síndrome antifosfolípido (A). El anticoagulante lúpico interfiere in vitro con los fosfolípidos de la prueba y alarga el TTPA (que no se corrige al mezclar con plasma normal), pero in vivo produce un estado protrombótico con trombosis venosas (TVP, TEP) o arteriales y pérdidas fetales. La hemofilia (C) alarga el TTPA pero produce sangrado, no trombosis, y sería excepcional en una mujer. El factor V Leiden (B) causa trombosis pero no alarga el TTPA. La pericarditis (D) no explica la alteración de la coagulación.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **1 discrepancia de confianza fuerte**, 8 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-036
 El paso de autoanticuerpos de la madre al feto a través de la placenta puede asociarse a la aparición de enfermedades autoinmunes en el recién nacido. Señale cuál de las parejas Enfermedad – Autoanticuerpo es INCORRECTA:
@@ -170,7 +178,7 @@ D. Lupus eritematoso neonatal – Anticuerpos antiSm.
 
 **Respuesta correcta: D** — *(confianza máxima, coincide de forma literal con el contenido ya establecido en este módulo: el lupus neonatal está causado por anticuerpos anti-Ro [SS-A] y/o anti-La [SS-B] maternos transferidos transplacentariamente —ver flashcard ya existente en este módulo—, NO por anti-Sm, lo que hace de esta pareja la INCORRECTA buscada. Las otras 3 parejas son correctas y bien establecidas: pénfigo vulgar-antidesmogleína 3, bloqueo cardíaco congénito-anti-Ro/anti-La [coincide exactamente con el contenido de este módulo] y miastenia gravis-anti-receptor de acetilcolina. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 10 preguntas reales, manteniendo 1 discrepancia y sumando 9 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 **MIR-2025-139 (ANULADA por la organización del examen —** `respuesta_correcta: null`**):** mujer con LES y anemia (Hb 9,1, reticulocitos marcadamente elevados —250×10⁹/L, sugestivos de respuesta medular compensadora tipo hemolítica— pero con sideremia baja, saturación de transferrina baja-límite y ferritina elevada —400 ng/mL, patrón más típico de anemia inflamatoria crónica—). El cuadro combina hallazgos analíticos contradictorios entre dos tipos de anemia distintos [hemolítica vs. inflamatoria/enfermedad crónica], lo que probablemente motivó la anulación oficial. No se fuerza ningún veredicto adicional, dado que el propio examen la anuló.
 

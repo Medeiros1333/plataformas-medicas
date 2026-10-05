@@ -71,9 +71,11 @@ B. La proteinuria suele ser de rango nefrótico.
 C. Es frecuente la leucocituria estéril.
 D. El diagnóstico definitivo se establece por biopsia renal.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** el propio manual AMIR es explícito en que la NTIA inmunoalérgica cursa con **"proteinuria <1g/24h"** (dato tabulado expresamente como característica) y con **piuria/leucocituria estéril como hallazgo típico y frecuente** (eosinofiluria presente hasta en el 80% de los casos). Esto indica que la afirmación que NO es propia de la NTIA es la **B** (proteinuria de rango nefrótico), no la C (leucocituria estéril, que sí es característica). Se mantiene la clave oficial (C) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada; se señala la discrepancia por estar respaldada expresamente por el texto del manual, no solo por inferencia clínica.
+**Explicación:** La nefritis tubulointersticial aguda (NTIA) está causada con mucha frecuencia por fármacos (betalactámicos, AINE, IBP), lo que hace verdadera la opción A. El diagnóstico de certeza exige biopsia renal, que muestra un infiltrado inflamatorio intersticial con edema (opción D verdadera). Clásicamente se describe la asociación de la NTIA con leucocituria estéril, con o sin eosinofiluria, aunque su sensibilidad diagnóstica es limitada y no está presente en todos los casos. El patrón habitual de proteinuria en la NTIA es leve-moderado y de origen tubular (<1-2 g/24h); solo excepcionalmente, sobre todo en la NTIA por AINE con lesión glomerular de cambios mínimos sobreañadida, puede alcanzar rango nefrótico, siendo este el hallazgo clásicamente considerado menos característico de la entidad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -85,9 +87,11 @@ B. Nefrotoxicidad por ciprofloxacino.
 C. Pielonefritis aguda.
 D. Nefritis intersticial aguda.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito — **rash cutáneo, artralgias, mal estado general y deterioro agudo de la función renal tras la exposición a un antibiótico**, con leucocituria y nitritos negativos (descartando infección urinaria activa) — reproduce casi literalmente la clínica característica de la **NTIA inmunoalérgica** que recoge el manual AMIR ("fiebre, malestar general, exantema cutáneo, petequias, poliartralgias, dolor lumbar"), opción D. La GMN postinfecciosa (clave oficial, A) no suele manifestarse con rash cutáneo ni artralgias como síntomas guía, y su periodo de latencia típico es de 1-2 semanas tras una infección (no tras la toma de un fármaco). Se mantiene la clave oficial (A) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** El desarrollo de mal estado general, artralgias y un rash cutáneo una semana después de iniciar tratamiento con ciprofloxacino, junto con un deterioro significativo de la función renal (FGe de 100 a 45 ml/min) y leucocituria sin nitritos (que descarta infección urinaria activa), configura el cuadro clásico de una nefritis intersticial aguda por hipersensibilidad a fármacos, siendo las quinolonas una causa reconocida de esta entidad. La tríada de fiebre/rash, artralgias y leucocituria estéril tras la exposición a un fármaco es muy característica de la nefropatía tubulointersticial inmunoalérgica, y obliga a la retirada del fármaco causante.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -99,9 +103,11 @@ B. Obstrucción de tracto urinario superior por litiasis. Realizar una ecografí
 C. Necrosis tubular aguda. Dar un margen de tiempo para la recuperación espontánea de las células tubulares.
 D. Nefritis intersticial. Hacer una biopsia renal para confirmarlo y, en caso afirmativo, administrar corticoides.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación moderada:** tanto el **AINE (dexketoprofeno)** como el **IBP (omeprazol)** están recogidos expresamente en el manual AMIR entre las causas de nefropatía tubulointersticial aguda **inmunoalérgica**, y el **rash cutáneo pruriginoso** es precisamente el síntoma guía de ese cuadro (a diferencia de la necrosis tubular aguda tóxica, que no cursa característicamente con rash). Esto orientaría más hacia la opción D que hacia la C (clave oficial). Se mantiene la clave oficial (C) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** El desarrollo de un rash cutáneo pruriginoso y un deterioro agudo de la función renal (FGe de 45 ml/min, previamente normal) tras la administración reciente de un AINE (dexketoprofeno) y un IBP (omeprazol) —ambos fármacos reconocidos como causas frecuentes de nefritis tubulointersticial aguda inmunoalérgica— es muy sugestivo de una nefritis intersticial por hipersensibilidad medicamentosa, cuyo diagnóstico de confirmación requiere biopsia renal y cuyo tratamiento, si no hay mejoría tras retirar el fármaco, incluye corticoides. Aunque el cólico nefrítico previo podría orientar hacia una causa obstructiva o hacia necrosis tubular aguda, ninguna de estas entidades explicaría la aparición de un rash cutáneo, dato clínico dominante y característico de una reacción de hipersensibilidad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -130,12 +136,11 @@ B. 30 mg/kg/10h (solo se reduce la dosis a 30 mg/kg).
 C. 30 mg/kg/20h (se reduce la dosis a 30 mg/kg y se alarga el intervalo interdosis a 20h).
 D. 40 mg/kg/20h (solo se alarga el intervalo interdosis a 20h).
 
-**Respuesta correcta: A**
-**Justificación de cada opción:**
-- **A (correcta):** la clave oficial establece que, para este fármaco concreto en las condiciones del enunciado, no se requiere ajuste de dosificación pese a la insuficiencia renal grave — un resultado que depende del cálculo farmacocinético específico del caso (fracción excretada, margen del índice terapéutico y las curvas de dosificación del fármaco en cuestión) más que de una regla general aplicable a cualquier fármaco con 60% de excreción renal.
-- B: incorrecta — reducir solo la dosis sin ajustar el intervalo no es la pauta que marca la clave oficial para este enunciado.
-- C: incorrecta — combinar reducción de dosis y alargamiento del intervalo tampoco es la pauta oficial en este caso concreto.
-- D: incorrecta — alargar solo el intervalo sin reducir la dosis tampoco corresponde a la clave oficial.
+**Respuesta correcta: D**
+
+**Explicación:** Ajuste de dosis en insuficiencia renal para un fármaco con fracción de excreción renal inalterada (fe) del 60% y un aclaramiento de creatinina de 20 ml/min. El factor de ajuste (Dettli) es: Q = 1 − fe × (1 − ClCr paciente/ClCr normal) = 1 − 0,6 × (1 − 20/100) = 1 − 0,48 ≈ 0,5. Es decir, la eliminación del fármaco se reduce aproximadamente a la mitad. Para mantener la misma exposición se puede o bien reducir la dosis a la mitad manteniendo el intervalo, o bien mantener la dosis y duplicar el intervalo. De las opciones, la que aplica correctamente este ajuste es mantener 40 mg/kg y alargar el intervalo de 10 a 20 horas (D). No ajustar (A) produciría acumulación y toxicidad; reducir la dosis solo a 30 mg/kg (B) es insuficiente; y reducir la dosis y además duplicar el intervalo (C) supondría un ajuste excesivo, con riesgo de infradosificación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -154,7 +159,7 @@ D. Suspender el opioide oral y sustituirlo por buprenorfina sublingual a dosis b
 - B: incorrecta — reducir la dosis a la mitad sin rotar de opioide probablemente comprometa el control del dolor (ya insuficiente, EVA 7/10) sin resolver la acumulación de metabolitos.
 - D: incorrecta — suspender el opioide oral bruscamente sin una transición equianalgésica calculada arriesga tanto un síndrome de abstinencia como un mal control del dolor; la rotación calculada es la estrategia más segura y efectiva.
 
-**Nota de cobertura y fiabilidad del módulo:** sexto módulo de Nefrología del proyecto, 6 preguntas reales, 3 discrepancias señaladas (2 fuertes, 1 moderada), todas ellas respaldadas por texto explícito del propio manual AMIR (no solo inferencia clínica) sobre las características de la NTIA inmunoalérgica. Todas las claves oficiales se mantienen sin alterar por corresponder a preguntas MIR históricas ya publicadas.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

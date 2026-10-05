@@ -95,7 +95,7 @@ D. Metástasis de carcinoma.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 144; el panel inmunohistoquímico es el algoritmo estándar de diagnóstico diferencial de una adenopatía neoplásica: CD20+ confirma estirpe B (descarta C, linfoma T); CD30/CD15 negativos descartan Hodgkin clásico (A); citoqueratina CKAE1-AE3 negativa descarta metástasis de carcinoma (D, relevante dado el antecedente de carcinoma renal). El patrón de crecimiento difuso con células B grandes atípicas, estudiado después con CD10/Bcl6/MUM1 para subtipificación por perfil de célula de origen, es la presentación característica del linfoma B difuso de célula grande. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde ONC)*
 
-### MIR-2021-161 ⚠️
+### MIR-2021-161
 En el diagnóstico de un proceso linfoproliferativo es fundamental el estudio molecular y del inmunofenotipo. La detección de la translocación 11:14 con afectación de la ciclina D1 es característica de un:
 
 A. Linfoma folicular.
@@ -103,13 +103,13 @@ B. Linfoma de la zona marginal.
 C. Linfoma linfoblástico.
 D. Linfoma del manto.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 161", desfase de año habitual de ±1), afirma en el epígrafe del Linfoma del Manto: *"en la mayoría de los casos se observa la expresión de la proteína Ciclina D1 (gen bcl-1) por translocación t(11;14)"* — un hecho citogenético fundamental e inequívoco de la hematología (la t(11;14)/ciclina D1 es la firma molecular clásica del linfoma del manto, mientras que el linfoma folicular se caracteriza por la t(14;18)/BCL2, una entidad genéticamente distinta). Esto apoya inequívocamente la opción D, no A. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #20 y #160 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En la clasificación molecular de los síndromes linfoproliferativos, la translocación t(11;14)(q13;q32), que yuxtapone el gen CCND1 (ciclina D1) al locus de las cadenas pesadas de inmunoglobulina, es la alteración citogenética característica y prácticamente patognomónica del linfoma de células del manto, dando lugar a la sobreexpresión de ciclina D1 (detectable por inmunohistoquímica), un marcador diagnóstico clave de esta entidad. El linfoma folicular, en cambio, se caracteriza por la t(14;18) con reordenamiento del gen BCL2.
 
-> **Nota de cobertura y fiabilidad:** con esta pregunta se eleva a 4 preguntas reales, **1 discrepancia de MÁXIMA confianza** (recuperada del hallazgo #20, con cita directa). MIR-2022-038 (independencia de HLA en CAR-T) permanece pendiente de tagear en una sesión futura — su clave oficial también contradice el conocimiento hematológico establecido y esta misma bibliografía, según el análisis original del hallazgo #20.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2023-108 ⚠️
+### MIR-2023-108
 Mujer de 60 años de edad diagnosticada de una enfermedad autoinmune. En la exploración física presenta aumento de tamaño bilateral de parótidas, vasculitis cutánea y test de Schirmer en ojo derecho 2 mm, ojo izquierdo 1 mm (por debajo de lo normal). En la analítica destaca factor reumatoide positivo, VSG 30 mm (1-20), PCR 1,3 (0-0,5), anticuerpos antinucleares positivos con patrón moteado fino, anti Ro y anti La positivos e hipocomplementemia. ¿Cuál de estas enfermedades tiene más riesgo de desarrollar durante la evolución de la enfermedad?:
 
 A. Leucemia linfoblástica aguda.
@@ -117,13 +117,15 @@ B. Linfoma de células B.
 C. Leucemia de células NK.
 D. Linfoma no Hodgkin de células T.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro clínico (xeroftalmía con test de Schirmer patológico bilateral, parotidomegalia bilateral, anti-Ro/anti-La positivos) es diagnóstico de síndrome de Sjögren. La bibliografía de Reumatología es explícita: *"Los pacientes con síndrome de Sjögren tienen una mayor incidencia de síndromes linfoproliferativos. La complicación más grave es la aparición de un LINFOMA B, más frecuente en glándulas parótidas. Son factores de riesgo de desarrollo de linfoma: Hipocomplementemia, Proteínas monoclonales, ↑ β2-microglobulina, Crioglobulinemia, Negativización de factor reumatoide"* — el enunciado presenta explícitamente parotidomegalia bilateral e hipocomplementemia, dos elementos citados literalmente como factores de riesgo/localización típica del linfoma B en el Sjögren. La leucemia de células NK (clave oficial, C) no figura descrita en ningún apartado de la bibliografía como complicación característica del síndrome de Sjögren. Apoya la opción B (linfoma de células B). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #176 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Esta paciente presenta un síndrome de Sjögren primario (xerostomía/xeroftalmía objetivada por el test de Schirmer patológico, tumefacción parotídea bilateral, factor reumatoide positivo, ANA con patrón moteado, anti-Ro/SSA y anti-La/SSB positivos e hipocomplementemia, esta última un marcador de mayor actividad y riesgo evolutivo). El síndrome de Sjögren es la enfermedad autoinmune con mayor riesgo relativo de desarrollar un linfoma no Hodgkin de estirpe B, típicamente linfoma MALT (de la zona marginal) originado en las glándulas salivales afectas por la sialoadenitis linfocítica crónica, siendo la hipocomplementemia y la crioglobulinemia marcadores de riesgo aumentado de esta transformación linfomatosa.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
-### MIR-2022-191 ⚠️
+### MIR-2022-191
 Paciente de 50 años que consulta por presentar una adenopatía localizada. ¿Qué localización de las siguientes debe hacer sospechar un mayor riesgo de malignidad?:
 
 A. Retroauricular.
@@ -131,11 +133,11 @@ B. Supraclavicular.
 C. Axilar.
 D. Inguinal.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y universalmente establecido de semiología ganglionar):** la adenopatía SUPRACLAVICULAR es, de forma clásica y muy citada, la localización con mayor riesgo de malignidad subyacente (nódulo de Virchow, con el signo de Troisier específicamente para la supraclavicular izquierda, asociado a neoplasias abdominales/torácicas) — un hecho tan bien establecido que constituye una de las reglas semiológicas más citadas en la exploración de adenopatías. La adenopatía INGUINAL (clave oficial D), en cambio, es con gran frecuencia de causa REACTIVA/benigna (infecciones de repetición de miembros inferiores, enfermedades de transmisión sexual), y no se considera la localización de mayor riesgo. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Ante una adenopatía periférica localizada, la localización anatómica orienta de forma importante sobre la probabilidad de malignidad: las adenopatías supraclaviculares (especialmente la izquierda, ganglio de Virchow) presentan el mayor riesgo de malignidad de todas las localizaciones periféricas, ya que reciben el drenaje linfático de estructuras torácicas y abdominales profundas y con frecuencia representan metástasis de neoplasias viscerales o linfoma. Por el contrario, las adenopatías inguinales, axilares o retroauriculares son con mucha frecuencia reactivas a procesos infecciosos o inflamatorios locales de las extremidades, la piel o el cuero cabelludo, y tienen una probabilidad de malignidad considerablemente menor.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 7 preguntas reales, sumando 2 discrepancias de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

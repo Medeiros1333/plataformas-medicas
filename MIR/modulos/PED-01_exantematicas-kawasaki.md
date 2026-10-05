@@ -129,13 +129,13 @@ B. La vacuna de la parotiditis está incluida en la vacuna triple vírica y en l
 C. La orquitis como complicación es más frecuente en la infancia más temprana.
 D. La pancreatitis puede producirse en la parotiditis con o sin afectación clínica de las glándulas parotídeas.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 10.3, pág. 89) describe la orquitis/ooforitis como complicación típica de pacientes **pospúberes**, siendo rara antes de la pubertad — es decir, justo lo CONTRARIO de lo afirmado en la opción C ("más frecuente en la infancia más temprana"), que sería la afirmación falsa según esta fuente. La opción A, en cambio, describe correctamente al virus de la parotiditis como monotípico (un solo inmunotipo) y de reservorio exclusivamente humano, un hecho virológico estándar y verdadero. Ver hallazgo #92 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar, conforme a la política del proyecto.
+**Explicación:** La parotiditis epidémica está causada por un virus con un único inmunotipo del que el ser humano es el único reservorio natural, lo que ha permitido diseñar estrategias de vacunación eficaces mediante la vacuna triple vírica (sarampión-rubeola-parotiditis) o tetravírica (añadiendo varicela), que precisa la administración de dos dosis para una protección óptima. La pancreatitis puede aparecer como complicación de la parotiditis con o sin afectación clínica evidente de las glándulas parotídeas. Sin embargo, la orquitis, la complicación extrasalival más frecuente de la parotiditis, es rara antes de la pubertad y aumenta notablemente su frecuencia en varones pospuberales y adultos jóvenes, por lo que no es correcto afirmar que sea más frecuente en la infancia más temprana.
 
-> **Nota de cobertura y fiabilidad:** se descartaron en su momento 6 preguntas candidatas adicionales (años 2020-2023) por discrepancias con esta bibliografía — ver hallazgo #23 en `PROCESO_Y_APRENDIZAJE.md`. Cuatro de ellas (2020-76, 2021-89, 2022-83, 2023-77) se recuperan a continuación como entradas completas; las dos restantes sobre aislamiento (2021-47, 2022-47) siguen pendientes. Se priorizaron en su momento para este módulo las 3 preguntas limpias de 2024-2025 y se reutilizaron los mismos escenarios clínicos como preguntas inéditas en la sección 4.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-076 ⚠️
+### MIR-2020-076
 Niña de 7 años que acude a consulta porque los padres le notan la cara roja desde el día anterior y en las últimas horas le han notado manchas rojas en el cuerpo. En la exploración está afebril, con amígdalas y oídos sin alteraciones, auscultación cardiopulmonar normal. Presenta un exantema maculo papuloso confluyente en ambas mejillas, respetando el labio superior, semejando cara de "bofetón". En el tórax presenta un exantema reticular, en encaje, no pruriginoso. ¿Cuál es el diagnóstico clínico más probable?:
 
 A. Varicela.
@@ -143,11 +143,13 @@ B. Rubeola.
 C. Eritema infeccioso o 5ª enfermedad.
 D. Exantema súbito o 6ª enfermedad.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, correspondencia textual literal):** el cuadro descrito ("cara de bofetón" + exantema reticulado/en encaje en tronco, afebril) es la descripción textbook del eritema infeccioso (5ª enfermedad, parvovirus B19) recogida en la Tabla 1 de enfermedades exantemáticas de la bibliografía ("Niño abofeteado, maculopápulas en el tronco" en la columna de MEGALOERITEMA). El exantema súbito (6ª enfermedad, clave oficial D) se caracteriza, por contraste, por fiebre alta de 3-4 días que cede FIEL exantema aparece (patrón fiebre-luego-rash), sin el signo de la "cara abofeteada". Apoya la opción C, no D. Se mantiene la clave oficial (D) sin alterar. Recuperada del hallazgo #23.
+**Explicación:** El cuadro descrito —eritema confluente en ambas mejillas respetando el labio superior ("cara abofeteada") seguido de un exantema reticulado, en encaje, no pruriginoso en el tronco y las extremidades, en una niña afebril y con buen estado general— es la presentación clínica clásica del eritema infeccioso o megaloeritema (quinta enfermedad), causado por el parvovirus B19. Este exantema puede reaparecer de forma intermitente durante semanas ante estímulos como el calor, el ejercicio o la exposición solar, y su curso es habitualmente benigno y autolimitado en el niño inmunocompetente sano, aunque en gestantes o pacientes con hemoglobinopatías puede tener mayor relevancia clínica por el riesgo de crisis aplásica o hidrops fetal.
 
-### MIR-2021-089 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-089
 Niña de 4 años que presenta fiebre alta de 6 días de evolución. En la exploración clínica presenta un exantema eritematoso maculopapular en tronco y zona genital, con tendencia a la confluencia, sin llegar a ser escarlatiniforme; inyección conjuntival sin secreciones y labios rojos con lengua aframbuesada. Presenta también eritema con edema en manos y pies y una adenopatía cervical unilateral de 2 cm de diámetro. El diagnóstico clínico de sospecha más probable es:
 
 A. Enfermedad de Kawasaki.
@@ -155,11 +157,13 @@ B. Sarampión.
 C. Rubeola.
 D. Escarlatina.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta ("MIR 22, 89") en la sección de diagnóstico de la enfermedad de Kawasaki. El cuadro descrito reproduce, prácticamente punto por punto, los 5 criterios clínicos del American Heart Association para Kawasaki: fiebre ≥5 días, inyección conjuntival bilateral no purulenta, labios/lengua eritematosos ("aframbuesada" = "en fresa"), edema/eritema de manos y pies, adenopatía cervical unilateral >1,5 cm, y exantema maculopapular de inicio en tronco. Ninguno de estos hallazgos (lengua en fresa, edema acral, conjuntivitis) es característico de la rubeola (clave oficial, C). Apoya la opción A, no C. Se mantiene la clave oficial (C) sin alterar. Recuperada del hallazgo #23.
+**Explicación:** El cuadro de fiebre alta de varios días de evolución junto con exantema maculopapular en tronco y zona genital, inyección conjuntival bilateral no exudativa, labios rojos y fisurados con lengua aframbuesada, eritema y edema de manos y pies, y adenopatía cervical unilateral mayor de 1,5 cm, constituye la presentación clínica clásica de la enfermedad de Kawasaki, una vasculitis sistémica de vaso mediano propia de la infancia cuyo diagnóstico es fundamentalmente clínico al reunir la fiebre prolongada junto con al menos cuatro de los cinco criterios principales descritos. Su reconocimiento precoz es fundamental, ya que el tratamiento con inmunoglobulina intravenosa y ácido acetilsalicílico en los primeros diez días de evolución reduce drásticamente el riesgo de la complicación más temida de esta enfermedad: los aneurismas de las arterias coronarias.
 
-### MIR-2022-083 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-083
 Para el diagnóstico de enfermedad de Kawasaki clásica es necesaria la presencia de fiebre al menos cinco días y 4 de los principales signos de la enfermedad. De los siguientes, señale cuál NO SE CONSIDERA un signo principal:
 
 A. Eritema de las mucosas faríngea y oral con lengua en fresa y/o labios agrietados.
@@ -167,11 +171,13 @@ B. Exantema polimorfo.
 C. Linfadenopatía cervical (> 1,5 cm de diámetro) generalmente unilateral.
 D. Inyección conjuntival exudativa bilateral.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta ("MIR 23, 83") en la lista oficial de los 5 criterios clínicos AHA de Kawasaki, que incluye expresamente el "eritema de la mucosa orofaríngea, labios eritematosos, secos y agrietados, lengua en fresa" (opción A) como uno de los criterios principales — por tanto A SÍ es un criterio, no la excepción. El criterio real de afectación ocular exige "inyección conjuntival BILATERAL NO purulenta", mientras que la opción D describe una inyección conjuntival "EXUDATIVA", contradiciendo la definición exacta del criterio. Apoya la opción D como la verdadera excepción, no A. Se mantiene la clave oficial (A) sin alterar. Recuperada del hallazgo #23.
+**Explicación:** Los criterios clínicos principales de la enfermedad de Kawasaki clásica incluyen la inyección conjuntival bilateral no exudativa (sin secreción purulenta), el eritema de las mucosas oral y faríngea con labios agrietados y lengua en fresa, el exantema polimorfo y la linfadenopatía cervical mayor de 1,5 cm, generalmente unilateral, además de los cambios en las extremidades (eritema y edema en la fase aguda, descamación periungueal en la fase subaguda). La ausencia de exudado en la inyección conjuntival es precisamente uno de los rasgos que distingue la conjuntivitis del Kawasaki de una conjuntivitis infecciosa bacteriana o vírica típica, por lo que la presencia de secreción exudativa no es un hallazgo característico de esta vasculitis.
 
-### MIR-2023-077 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-077
 Paciente de 2 años con fiebre, conjuntivitis, rinorrea y tos repetitiva. Su estado vacunal es desconocido. En la exploración presenta en la mucosa oral, a la altura de los premolares, puntos de color blanco azulado rodeados de un halo eritematoso. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Enfermedad de Kawasaki.
@@ -179,11 +185,13 @@ B. Escarlatina.
 C. Rubeola.
 D. Sarampión.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, correspondencia textual literal):** los "puntos de color blanco azulado rodeados de halo eritematoso" en la mucosa oral son la descripción clásica de las manchas de Koplik, que la Tabla 1 de la bibliografía sitúa expresamente en la FASE PRODRÓMICA del SARAMPIÓN ("catarro con conjuntivitis y manchas de Koplik"), junto con la tríada catarral (conjuntivitis, rinorrea, tos) también descrita en el enunciado. Las manchas de Koplik son patognomónicas del sarampión en toda la literatura médica; no se describen en la rubeola (clave oficial, C). Apoya la opción D, no C. Se mantiene la clave oficial (C) sin alterar. Recuperada del hallazgo #23.
+**Explicación:** La presencia de manchas blanco-azuladas rodeadas de un halo eritematoso en la mucosa oral, a la altura de los premolares (manchas de Koplik), es un signo patognomónico del sarampión y suele preceder en uno o dos días a la aparición del exantema morbiliforme característico. Junto con la fiebre alta, la tos, la coriza y la conjuntivitis (la clásica tríada de las "tres C"), estas manchas orales constituyen un hallazgo diagnóstico de gran valor en la fase prodrómica de la enfermedad, especialmente relevante en un paciente con estado vacunal desconocido, dado el riesgo de reintroducción del sarampión en poblaciones con coberturas vacunales insuficientes.
 
-### MIR-2022-078 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-078
 Varón de 19 meses, correctamente vacunado para su edad. Previamente bien, inicia de forma brusca un cuadro clínico con fiebre alta de hasta 40 ºC sin otra sintomatología, salvo irritabilidad. La exploración al día siguiente es normal, salvo por ligera hiperemia de mucosa oral y membrana timpánica, y microadenopatías laterocervicales. Al cuarto día desaparece totalmente la fiebre y aparece un exantema eritematoso morbiliforme, maculopapuloso de distribución en cara, tronco y extremidades. De los siguientes, ¿cuál es el diagnóstico más probable?:
 
 A. Eritema infeccioso o quinta enfermedad.
@@ -191,11 +199,11 @@ B. Sarampión o primera enfermedad.
 C. Roséola, exantema súbito o sexta enfermedad.
 D. Escarlatina o segunda enfermedad.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, correspondencia textual literal):** el patrón descrito —fiebre alta aislada de varios días que desaparece bruscamente, seguida INMEDIATAMENTE de la aparición del exantema— es la secuencia diagnóstica que define el exantema súbito/roséola en la Tabla 1 de la bibliografía (columna EXANTEMA SÚBITO: fase prodrómica "Fiebre", exantema "Maculopápulas en el tronco"), típico de los 6-24 meses de edad. La escarlatina (clave oficial, D), por contraste, cursa con exantema CONCURRENTE con la fiebre (no tras su resolución) y amigdalitis febril con lengua en fresa como pródromos, ausente en este caso. Apoya la opción C, no D. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El patrón de fiebre alta mantenida durante tres o cuatro días con buen estado general relativo, que desaparece bruscamente coincidiendo con la aparición de un exantema maculopapuloso morbiliforme en cara, tronco y extremidades, junto con microadenopatías laterocervicales, es la presentación clínica característica de la roséola infantil o exantema súbito (sexta enfermedad), causada habitualmente por el virus herpes humano tipo 6. La secuencia temporal "fiebre que cede y a continuación aparece el exantema" es el rasgo clínico más distintivo de esta entidad frente a otros exantemas víricos, en los que el exantema suele coincidir con el pico febril o aparecer mientras la fiebre persiste.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 5 preguntas recuperadas/nuevas se eleva a 9 preguntas reales, **6 discrepancias de MÁXIMA confianza** (4 recuperadas del hallazgo #23 + 2 nuevas de esta sesión), 3 limpias — la tasa de discrepancia más alta de cualquier módulo del proyecto (67%), reflejando sistemáticamente el mismo patrón de confusión entre entidades exantemáticas pediátricas en la plantilla oficial de respuestas.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2017-180
 Señale la respuesta correcta respecto a la tosferina:

@@ -69,7 +69,11 @@ B. En caso de confirmarse la entidad en el paciente, debemos realizar estudio ge
 C. Podría beneficiarse de iniciar tratamiento con un fármaco inhibidor de PCSK9.
 D. Es fundamental el control de todos los factores de riesgo cardiovascular debido a la asociación de esta patología con eventos cardiovasculares precoces.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 140; la bibliografía cita esta pregunta directamente ("MIR 21, 140") en la sección de hipercolesterolemia familiar (HF), cuadro clínico compatible: LDL elevado con TG normales y engrosamiento de tendones de Aquiles como equivalente de xantoma tendinoso. No se ha encontrado un pasaje bibliográfico que contradiga textualmente la opción D —una afirmación en principio correcta sobre la HF—, por lo que no se marca discrepancia pese a revisar el pasaje correspondiente; puede existir un matiz específico del cribado familiar (opción B pide test GENÉTICO a todos los familiares, cuando la bibliografía describe el cribado en cascada mediante PERFIL LIPÍDICO, no necesariamente genético, en primera instancia) no capturado por completo en el resumen de este módulo.)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 140)*
+
+**Explicación:** Hipercolesterolemia grave (LDL 270 mg/dl) resistente a estatina y ezetimiba con xantomas en el tendón de Aquiles: hipercolesterolemia familiar. Según la plantilla oficial, la afirmación INCORRECTA es la B: una vez confirmada la mutación en el caso índice, el cribado en cascada de los familiares de primer grado se hace inicialmente buscando ESA mutación concreta (y con perfil lipídico), no realizando un 'estudio genético' completo a todos los familiares de forma indiscriminada. El resto es correcto: el diagnóstico puede confirmarse mediante análisis genético (mutaciones en LDLR, APOB o PCSK9) (A); ante un LDL no controlado pese a estatina + ezetimiba está indicado un inhibidor de PCSK9 (alirocumab, evolocumab) (C); y es fundamental controlar todos los factores de riesgo cardiovascular por el elevado riesgo de eventos coronarios precoces (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-179
 Mujer de 65 años que consulta por hipercolesterolemia. Niega antecedentes personales o familiares de dislipemia. En la analítica destaca: colesterol total 500 mg/dL, colesterol LDL 350 mg/dL, HDL 38 mg/dL y triglicéridos 206 mg/dL. Resto de análisis y hormonas tiroideas normales, salvo proteínas totales 5,9 g/dL (N: 6,4-8,3) y albúmina 3 g/dL (N: 3,5-5). Orina elemental con relación albúmina/creatinina de 2.000 mg/g y proteinuria +++. En el examen físico no hay xantomas ni arco corneal, sí discretos edemas maleolares. ¿Cuál de los siguientes es el diagnóstico más probable?:
@@ -85,7 +89,7 @@ D. Hipercolesterolemia familiar recesiva por afectación del gen LDLRAP1.
 
 > **Nota de cobertura y fiabilidad:** 2 preguntas reales (2020, 2022), ambas citadas directamente por la bibliografía junto a su número. **0 discrepancias claras** — MIR-2022-179 limpia y bien confirmada; MIR-2020-140 revisada en profundidad sin encontrar contradicción textual clara para la clave oficial (D), aunque se señala una posible imprecisión menor no confirmada en el matiz "test genético a todos los familiares" vs. "perfil lipídico en cascada".
 
-### MIR-2022-026 ⚠️
+### MIR-2022-026
 En un paciente con síndrome nefrótico es posible encontrar una de las siguientes alteraciones plasmáticas en el perfil lipoproteico:
 
 A. Disminución de las lipoproteínas de muy baja densidad (VLDL).
@@ -93,11 +97,11 @@ B. Aumento de la apolipoproteína B-100.
 C. Aumento de la apolipoproteína A-I.
 D. Aumento de la actividad lipoproteínlipasa (LPL).
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (fisiopatología lipídica del síndrome nefrótico, hecho bien establecido):** el síndrome nefrótico produce dislipemia por AUMENTO de la síntesis hepática compensadora de lipoproteínas que contienen apoB-100 (VLDL, LDL) — en respuesta a la hipoalbuminemia/pérdida proteica urinaria — junto con una DISMINUCIÓN de la actividad de la lipoproteinlipasa (LPL), lo que reduce el catabolismo de las lipoproteínas ricas en triglicéridos y contribuye a la hipertrigliceridemia. Por tanto: el aumento de apoB-100 (opción B) es el hallazgo característico, no su ausencia; el VLDL está AUMENTADO, no disminuido (descarta A); la actividad de LPL está DISMINUIDA, no aumentada (descarta D, justo lo contrario de lo que ocurre). La apolipoproteína A-I (componente principal de HDL, clave oficial C) no está característicamente aumentada en el síndrome nefrótico —el HDL suele ser normal o reducido—. Apoya la opción B. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** En el síndrome nefrótico la hipoalbuminemia y la disminución de la presión oncótica estimulan la síntesis hepática de lipoproteínas, sobre todo de las que contienen apolipoproteína B-100 (VLDL, IDL y LDL), y además disminuye su catabolismo. El resultado es hipercolesterolemia con aumento de LDL y de la apo B-100 (B), y con frecuencia hipertrigliceridemia. Las VLDL aumentan, no disminuyen (A falsa). La actividad de la lipoproteinlipasa DISMINUYE, en parte por la pérdida urinaria de sus activadores, lo que contribuye a la hipertrigliceridemia (D falsa). Las HDL y la apo A-I suelen estar normales o disminuidas (se pierden parcialmente por la orina), por lo que su aumento no es la alteración característica (C).
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 3 preguntas reales, sumando 1 discrepancia de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

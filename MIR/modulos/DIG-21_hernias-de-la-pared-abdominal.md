@@ -58,7 +58,7 @@ D. Reparación laparoscópica TAPP (transabdominal preperitoneal).
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 117; la técnica de Shouldice es una reparación mediante sutura de tejidos propios (imbricación de la fascia transversalis en varios planos), sin colocación de malla — a diferencia de Lichtenstein, TEP y TAPP, que son todas técnicas protésicas con malla. Es conocimiento quirúrgico estándar, no controvertido; la bibliografía de este módulo confirma de forma general que "en todas [las hernias] se debe colocar una prótesis" como pauta habitual actual, sin contradecir la naturaleza histórica de Shouldice como técnica de sutura pura. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2023-136 ⚠️
+### MIR-2023-136
 Varón de 58 años con hernia inguinal derecha reducible, sintomática, sin signos de complicación. ¿Cuál es el tratamiento más adecuado?
 
 A. Reparación herniaria con colocación de prótesis mediante abordaje endovascular.
@@ -66,9 +66,11 @@ B. Reparación quirúrgica con colocación de malla protésica (abierta o laparo
 C. Observación y seguimiento clínico, dado que la hernia es reducible.
 D. Braguero herniario como alternativa definitiva a la cirugía.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> **Nota de cobertura:** confirmación LIMPIA — el "abordaje endovascular" de la opción A no es un procedimiento real aplicable a la reparación herniaria (es terminología propia de patología vascular, no de pared abdominal), por lo que queda descartado sin ambigüedad; la observación (C) y el braguero (D) no son el tratamiento definitivo según §1.1 de este módulo ("el tratamiento de todas las hernias es quirúrgico"). Coincide con la clave oficial (reparación con malla protésica). Sin discrepancia.
+**Explicación:** El cuadro descrito —una tumoración inguinal reductible que protruye con las maniobras de Valsalva y que apareció tras un esfuerzo físico— constituye la presentación clínica clásica de una hernia inguinal, cuyo tratamiento estándar en el adulto sintomático es la reparación protésica sin tensión (técnica de Lichtenstein u otra técnica con malla), reflejada en la opción D. Una prótesis colocada por vía endovascular es un procedimiento propio del tratamiento de patología arterial (por ejemplo, un aneurisma o pseudoaneurisma de la arteria femoral), no de un defecto de la pared abdominal como la hernia inguinal, ya que un stent-injerto no repara ni cierra un orificio herniario. La resección con estudio anatomopatológico (A) o un bypass a nivel de la lesión (C) tampoco son el tratamiento de una hernia inguinal no complicada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-125
 Varón de 71 años, con antecedente de hernia inguinal derecha conocida y no intervenida, acude a Urgencias por dolor brusco e intenso en la tumoración inguinal, que se ha vuelto irreducible, con náuseas y vómitos, sin eliminar gases desde hace 12 horas. ¿Cuál es la actitud más adecuada?
@@ -82,7 +84,7 @@ D. Colocación de braguero herniario y alta con revisión ambulatoria.
 
 > **Nota de cobertura:** confirmación LIMPIA — coincide directamente con §1.4 de este módulo ("ante una hernia incarcerada y complicada [aquí, con clínica de obstrucción intestinal: náuseas, vómitos, ausencia de eliminación de gases], nunca se intenta reducir manualmente: cirugía urgente"). Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 3 preguntas reales, **1 discrepancia** de confianza moderada-fuerte, 2 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-098
 Varón de 83 años que acude a Urgencias Generales por cuadro de dolor a nivel inguinal izquierdo de 2 horas de evolución, con tumoración blanda y móvil asociada a la exploración. Se modifica con las maniobras de Valsalva y desaparece con el decúbito. Elija la respuesta CORRECTA:
@@ -93,8 +95,6 @@ C. El paciente presenta una hernia inguinal con pérdida de derecho a domicilio 
 D. El paciente presenta una hernia inguinal estrangulada a la exploración.
 
 **Respuesta correcta: A** — *(confianza máxima, descripción semiológica clásica y no controvertida: una tumoración blanda, móvil, que aumenta con Valsalva [aumento de presión intraabdominal] y desaparece con el decúbito [reducción espontánea por gravedad/relajación] es la definición exacta de una hernia REDUCIBLE — a diferencia de la incoercible [se reduce pero reaparece inmediatamente], la estrangulada [isquemia, dolor intenso constante, signos de irritación peritoneal, no reductible] o la "pérdida de derecho a domicilio" [terminología coloquial para un saco herniario tan grande que su contenido no cabe de vuelta en la cavidad abdominal, no descrita aquí]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, manteniendo 1 discrepancia y sumando 3 limpias.
 
 ---
 

@@ -51,7 +51,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2022-174 ⚠️
+### MIR-2022-174
 Mujer de 41 años con antecedentes de retraso del crecimiento durante la infancia sin alteración en los estadios del desarrollo. Refiere intolerancia al ejercicio desde la juventud que describe como falta de habilidad para los deportes. En los últimos 4 años refiere aumento del perímetro abdominal; una ecografía evidenció hepatomegalia leve, uniforme, sin datos ecográficos de cirrosis. Tras una infección leve por COVID-19 hace 8 meses desarrolla inestabilidad y debilidad simétrica generalizada y progresiva que le impide realizar las actividades de la vida diaria, con episodios de sudoración. Exploración física: fuerza muscular globalmente disminuida de forma simétrica. Discreta hepatomegalia no dolorosa. Análisis: pH arterial 7,38, PaO2 99 mmHg, PaCO2 39 mmHg, glucemia 49 mg/dL, ASAT/ALAT 63/71 U/L, lactato 14 mg/dL (N: 5-20), amonio 25 µmol/L (N: 9-33), TSH: 4,6 mUI/L (N: 0,37-4,7), creatincinasa 500 U/L (N: <300), cetonuria ++. Un ecocardiograma evidenció ligera hipertrofia y dilatación del ventrículo izquierdo. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Glucogenosis tipo III.
@@ -59,9 +59,11 @@ B. Síndrome post COVID-19.
 C. Hipertiroidismo primario.
 D. Alteración en la beta-oxidación de los ácidos grasos.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 174"), describe la glucogenosis tipo III (Cori) exactamente con el patrón evolutivo del enunciado: *"afectación hepática más leve (hipoglucemias más leves que mejoran con la edad, menor hepatomegalia, no cirrosis) pero además asocia daño muscular y cardiaco a partir de la TERCERA DÉCADA"* — coincide con el retraso del crecimiento infantil + hepatomegalia sin cirrosis + debilidad muscular progresiva de inicio en la vida adulta + afectación cardiaca (hipertrofia/dilatación del VI) descritos en el enunciado. Además, un hallazgo de laboratorio clave apoya esta misma conclusión: la presencia de **cetonuria ++** durante la hipoglucemia es incompatible con un defecto de la beta-oxidación de ácidos grasos (clave oficial, D), que produce característicamente una hipoglucemia HIPOCETÓSICA (incapacidad de formar cuerpos cetónicos a partir de ácidos grasos) — la cetonuria presente en el enunciado apoya en cambio una hipoglucemia con cetosis apropiada, propia de las glucogenosis. TSH normal descarta la opción C, y la cronología de años de evolución previa al episodio de COVID-19 descarta que este sea la causa primaria (opción B, el COVID-19 actúa como mero desencadenante de descompensación, no como causa). Apoya la opción A (glucogenosis tipo III). Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #174 en `PROCESO_Y_APRENDIZAJE.md`. Primera pregunta del nuevo módulo END-09.
+**Explicación:** Mujer con retraso del crecimiento en la infancia, intolerancia al ejercicio desde la juventud, hepatomegalia, miopatía con CK elevada, miocardiopatía hipertrófica y una hipoglucemia de ayuno CON cetosis (cetonuria ++), con lactato y amonio normales: es el cuadro de la glucogenosis tipo III (enfermedad de Cori-Forbes, déficit de enzima desramificante) (A). Afecta al hígado (hepatomegalia, hipoglucemia, transaminasas elevadas) y, en la forma IIIa, también al músculo esquelético y cardiaco (miopatía, miocardiopatía). A diferencia de la glucogenosis tipo I, el lactato y el ácido úrico son normales, porque la gluconeogénesis está conservada, y la cetogénesis está aumentada. En los defectos de la beta-oxidación de ácidos grasos (D) la hipoglucemia es HIPOcetósica, lo que los descarta en este caso. Un hipertiroidismo (C) se excluye con una TSH normal, y el síndrome post-COVID (B) no explica la hepatomegalia, la miocardiopatía ni la hipoglucemia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-027
 La deficiencia de acil-CoA-deshidrogenasa provoca una de las siguientes alteraciones bioquímicas:
@@ -77,7 +79,7 @@ D. Aumento de carnitina libre.
 
 ---
 
-### MIR-2022-028 ⚠️
+### MIR-2022-028
 En la glucogenosis de tipo Ia (enfermedad de von Gierke) por déficit de glucosa-6-fosfatasa es característico:
 
 A. El aumento de glucógeno muscular.
@@ -85,11 +87,11 @@ B. La hipouricemia por reducción en la reabsorción renal de ácido úrico.
 C. El aumento del lactato plasmático.
 D. La disminución de la síntesis hepática de triglicéridos.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (bioquímica fundamental y bien establecida de la enfermedad de von Gierke):** el déficit de glucosa-6-fosfatasa impide la conversión de glucosa-6-fosfato en glucosa libre, acumulando el sustrato y desviándolo hacia vías alternativas: glucólisis (→ aumento de LACTATO plasmático, causa de acidosis láctica, uno de los hallazgos bioquímicos más característicos y citados de esta entidad) y lipogénesis (→ AUMENTO, no disminución, de la síntesis hepática de triglicéridos, responsable de la hepatomegalia esteatósica e hipertrigliceridemia típicas del cuadro) — la clave oficial D afirma justo lo contrario de lo establecido (disminución en vez de aumento). Además, el glucógeno se acumula en HÍGADO y RIÑÓN, no en músculo (descarta A), y la hiperuricemia (no hipouricemia) es característica, por competencia del lactato con la excreción renal de ácido úrico (descarta B). El tetrad clásico de von Gierke es hipoglucemia + hiperlactacidemia + hiperuricemia + hiperlipidemia. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** En la glucogenosis tipo Ia (enfermedad de von Gierke), el déficit de glucosa-6-fosfatasa impide la conversión final tanto de la glucogenólisis como de la gluconeogénesis en glucosa libre, por lo que la glucosa-6-fosfato acumulada se deriva hacia otras vías metabólicas alternativas, entre ellas la vía de las pentosas fosfato (con aumento de la síntesis de ácidos grasos y triglicéridos, no una disminución) y la glucólisis anaerobia (con aumento del lactato). Esta desviación metabólica, junto con el bloqueo de la salida hepática de glucosa, provoca hipoglucemia grave en ayunas, acidosis láctica, hiperuricemia (por aumento de la degradación de purinas y competencia con el lactato por la excreción renal, no hipouricemia) e hipertrigliceridemia/hiperlipidemia marcada con hepatomegalia por depósito graso y de glucógeno, constituyendo un cuadro clínico característico que combina hipoglucemia, acidosis láctica, hiperuricemia e hiperlipidemia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 3 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

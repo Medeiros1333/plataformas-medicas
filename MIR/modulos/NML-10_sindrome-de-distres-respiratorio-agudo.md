@@ -50,7 +50,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-141 ⚠️
+### MIR-2020-141
 En el síndrome de distrés respiratorio del adulto es cierto que:
 
 A. El edema de pulmón se debe a una elevación de la presión capilar pulmonar.
@@ -58,11 +58,13 @@ B. El edema de pulmón se debe a una lesión de la membrana alveolocapilar.
 C. La lesión pulmonar se debe a una presión pleural muy negativa.
 D. La lesión pulmonar se debe fundamentalmente a una broncoaspiración.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 141", desfase de año habitual de ±1), describe la fase exudativa temprana del SDRA como *"aumento de permeabilidad en la membrana alveolocapilar, que provoca la extravasación de plasma rico en proteínas"* — coincidiendo casi literalmente con la opción B, no con la D. La broncoaspiración (opción D, marcada como oficial) es solo UNA de las múltiples causas desencadenantes posibles del SDRA (junto a sepsis, neumonía grave, embolia grasa, ahogamiento, etc.), no "el" mecanismo fundamental de la lesión pulmonar en el síndrome — el mecanismo fundamental, común a todas las causas, es precisamente el daño de la membrana alveolocapilar descrito en la opción B. Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El síndrome de distrés respiratorio agudo se caracteriza por una lesión difusa de la membrana alveolocapilar (por diversos mecanismos desencadenantes: sepsis, neumonía, trauma, pancreatitis, broncoaspiración, entre otros) que provoca un aumento de la permeabilidad vascular pulmonar, con salida de líquido rico en proteínas hacia el espacio alveolar (edema pulmonar de origen no cardiogénico), a diferencia del edema pulmonar cardiogénico, causado por elevación de la presión capilar pulmonar. Entre las causas desencadenantes más frecuentes de esta lesión de la membrana alveolocapilar se encuentra la broncoaspiración de contenido gástrico, un mecanismo directo de agresión pulmonar bien reconocido como causa precipitante del SDRA.
 
-### MIR-2022-106 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-106
 Varón de 50 años con neumonía por Legionella que precisa ingreso en la UCI por insuficiencia respiratoria aguda. Debe ser intubado orotraquealmente y conectado a ventilación mecánica invasiva. Se diagnostica un síndrome de distrés respiratorio agudo y se le coloca en decúbito prono. Respecto a esta técnica posicional, señale la afirmación INCORRECTA:
 
 A. Se realiza para intentar aumentar la relación entre la presión parcial de oxígeno y la fracción inspirada de oxígeno.
@@ -70,9 +72,11 @@ B. Se realiza por personal entrenado para evitar complicaciones.
 C. La relación entre la presión parcial de oxígeno y la fracción inspirada de oxígeno por debajo de la cual se recomienda es de 300 mmHg.
 D. La posición en decúbito prono durante la ventilación mecánica invasiva precisa una sedación profunda.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 106", desfase de año habitual de ±1), fija el umbral de indicación del decúbito prono en **"PaO2/FiO2 <150 a pesar de ventilación con FiO2 >0,6 y PEEP >5"** — no en 300 mmHg como afirma la opción C. La opción B, marcada como oficial ("se realiza por personal entrenado para evitar complicaciones"), es una afirmación consistente con la bibliografía, que insiste en que la maniobra "es compleja y requiere personal experimentado" — es decir, es VERDADERA, no la incorrecta buscada. Esto apunta a C, no B, como la afirmación incorrecta (el umbral numérico real es 150 mmHg, no 300). Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la C. El decúbito prono está indicado en el SDRA MODERADO-GRAVE, con una relación PaO2/FiO2 inferior a 150 mmHg pese a una ventilación protectora optimizada (estudio PROSEVA, que demostró una reducción de la mortalidad), no por debajo de 300 mmHg: un cociente <300 mmHg define el SDRA (leve entre 200 y 300), en el que el prono no está indicado. El resto es correcto: el prono mejora la oxigenación (aumenta el cociente PaO2/FiO2) al homogeneizar la ventilación y mejorar la relación ventilación/perfusión de las zonas dorsales (A); debe realizarse por personal entrenado y con un protocolo, por el riesgo de complicaciones como la extubación accidental, la pérdida de accesos o las úlceras por presión (B); y requiere sedación profunda, a menudo con bloqueo neuromuscular en las primeras horas (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-097
 Hombre de 59 años que ingresa en UCI por insuficiencia respiratoria aguda hipoxémica secundaria a neumonía comunitaria grave. Por fracaso respiratorio, precisa sedación y conexión a ventilación mecánica invasiva. Tiene como antecedente laboral el trabajar en una granja de cerdos, por lo que empíricamente se decide cubrir un estafilococo aureus meticilin resistente hasta tener los cultivos de las secreciones respiratorias. ¿Cuál de los siguientes antibióticos iniciaría empíricamente como monoterapia antimicrobiana?:
@@ -86,7 +90,7 @@ D. Cefotaxima.
 
 > **Nota de cobertura:** no se ha localizado en la bibliografía de Neumología una tabla específica de cobertura antibiótica empírica frente a SARM comunitario en neumonía grave (es contenido más propio de la bibliografía de Enfermedades Infecciosas); la ceftarolina es una cefalosporina de 5.ª generación con actividad frente a SARM, consistente con la clave oficial. Se mantiene sin nota de discrepancia por falta de una fuente textual directa que la respalde o contradiga.
 
-> **Nota de cobertura y fiabilidad del módulo:** 3 preguntas reales (2020, 2022, 2023), **2 discrepancias de MÁXIMA confianza, ambas con cita bibliográfica directa a la propia pregunta**, 1 limpia.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

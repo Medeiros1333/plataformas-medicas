@@ -103,9 +103,11 @@ B. Las prostaglandinas y la bradicinina reducen la resistencia vascular renal y 
 C. La noradrenalina y la adrenalina contraen los vasos sanguíneos y reducen la filtración glomerular.
 D. La angiotensina II contrae preferentemente las arteriolas eferentes en la mayoría de los estados fisiológicos.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación moderada:** el manual AMIR describe explícitamente que "los mediadores implicados en esta autorregulación son un sistema presor... (SRAA) y uno vasodilatador local y diurético constituido por las prostaglandinas renales", lo que apoya que B es fisiológicamente correcta (no falsa) tal y como está redactada. Por el contrario, la opción A afirma que el óxido nítrico "aumenta la resistencia vascular y disminuye la filtración glomerular", cuando el NO derivado del endotelio es clásicamente un **vasodilatador** que reduce la resistencia vascular renal — lo que convertiría a A, no a B, en la afirmación falsa según la fisiología estándar. Se mantiene la clave oficial (B) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada; se señala la discrepancia para que el estudiante contraste ambas lecturas.
+**Explicación:** El óxido nítrico derivado del endotelio es un potente vasodilatador que reduce la resistencia vascular renal y aumenta el filtrado glomerular (por lo que la opción A, que afirma justo lo contrario, encaja peor con la fisiología clásica). La noradrenalina y la adrenalina, mediante receptores alfa-adrenérgicos, contraen las arteriolas renales y reducen el filtrado glomerular (opción C verdadera). La angiotensina II contrae preferentemente la arteriola eferente en la mayoría de los estados fisiológicos, ayudando a mantener el filtrado glomerular (opción D verdadera).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -117,9 +119,11 @@ B. En el túbulo colector se reabsorbe un 20% del sodio.
 C. La mayor reabsorción de sodio se produce en el túbulo distal.
 D. La reabsorción de sodio en el túbulo proximal está mediada por la aldosterona.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** según la fisiología renal estándar (y el propio manual AMIR, que describe la rama gruesa ascendente del asa de Henle como el segmento con el transportador activo Na-K-2Cl, "muy poco permeable al agua"), la opción **A** describe con precisión el mecanismo de la rama ascendente del asa de Henle (reabsorbe sodio sin reabsorber agua) y sería la respuesta correcta esperada. La opción D, marcada como clave oficial, es incorrecta según la fisiología estándar: la reabsorción de sodio en el **túbulo proximal es en gran parte independiente de la aldosterona** (mecanismos constitutivos: cotransportadores con glucosa/aminoácidos, intercambiador Na-H); la aldosterona actúa específicamente sobre el túbulo distal y, sobre todo, el túbulo colector cortical. Además, el túbulo proximal reabsorbe ~60% del sodio filtrado (no el túbulo distal, que reabsorbe ~9%), y el túbulo colector reabsorbe una fracción mucho menor al 20% citado en B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En el asa ascendente gruesa de Henle se reabsorbe sodio mediante el cotransportador Na+-K+-2Cl- (NKCC2), pero este segmento es impermeable al agua, por lo que se reabsorbe sodio sin arrastre de agua, mecanismo clave para la capacidad de dilución urinaria (opción A). En el túbulo colector solo se reabsorbe en torno a un 2-5% del sodio filtrado, no un 20% (opción B falsa), y la mayor parte de la reabsorción de sodio (~65%) ocurre en el túbulo proximal y no en el distal (opción C falsa). La aldosterona actúa fundamentalmente sobre el túbulo contorneado distal y el colector, estimulando el canal ENaC y la Na+/K+-ATPasa de las células principales; la reabsorción de sodio en el túbulo proximal depende sobre todo del intercambiador Na+/H+ (NHE3) y de mecanismos isosmóticos, regulados principalmente por la angiotensina II, no por la aldosterona.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -148,9 +152,11 @@ B. Se produce vasoconstricción de las arteriolas eferentes.
 C. Aumenta la actividad de los núcleos hipotalámicos supraóptico y paraventricular.
 D. Aumenta la secreción renal de potasio.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** el manual AMIR afirma explícitamente que "el volumen sanguíneo que llega a los riñones, su presión de perfusión y, por tanto, la presión de filtración y la tasa de filtrado glomerular son bastante independientes de la presión arterial sistémica" gracias a la autorregulación renal — lo que hace que la opción **A** ("los cambios de PA se acompañan de cambios proporcionales en la FG") sea la afirmación fisiológicamente incorrecta, no la C. La opción C, por el contrario, es correcta: los núcleos hipotalámicos supraóptico y paraventricular producen ADH y se activan fisiológicamente ante la hiperosmolaridad/hipovolemia de la deshidratación. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El riñón dispone de mecanismos de autorregulación (reflejo miogénico y retroalimentación túbulo-glomerular) que mantienen el filtrado glomerular relativamente constante ante cambios de la presión arterial dentro de un rango amplio (80-180 mmHg aprox.), de modo que los cambios de presión arterial NO se acompañan de cambios proporcionales en el filtrado glomerular, siendo esta la afirmación clásicamente considerada falsa en fisiología renal (opción A). La activación del SRAA en la deshidratación produce vasoconstricción preferente de la arteriola eferente (opción B verdadera) y aumenta la secreción renal de potasio mediada por aldosterona (opción D verdadera). La hipovolemia y el aumento de la osmolaridad plasmática estimulan la actividad de los núcleos supraóptico y paraventricular del hipotálamo, incrementando la liberación de ADH (opción C, en principio también verdadera).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -203,7 +209,7 @@ D. Administración de furosemida oral.
 - B: incorrecta como primera medida — la diálisis es eficaz pero requiere tiempo de preparación; no debe demorarse la estabilización de membrana mientras se organiza.
 - D: incorrecta — la furosemida oral tiene un inicio de acción demasiado lento para una urgencia con repercusión ECG, y en un paciente con FGe 20 ml/min su eficacia natriurética/kaliurética ya está muy limitada.
 
-> **Nota de cobertura y fiabilidad del módulo:** primer módulo de Nefrología del proyecto (especialidad recién desbloqueada), 7 preguntas reales, 3 discrepancias de confianza fuerte/moderada relacionadas con fisiología renal detallada (manejo tubular del sodio y autorregulación del FG) — ninguna afecta a los puntos clave nucleares del módulo (trastornos hidroelectrolíticos y ácido-base), que están bien respaldados por el manual.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

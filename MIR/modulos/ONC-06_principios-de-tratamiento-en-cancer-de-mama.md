@@ -40,7 +40,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-144 ⚠️
+### MIR-2021-144
 ¿Cuál es el objetivo principal del tratamiento adyuvante del cáncer de mama?:
 
 A. Incremento de la supervivencia global.
@@ -48,11 +48,13 @@ B. Transformar tumores no resecables en resecables para la cirugía.
 C. Aumentar la supervivencia libre de progresión.
 D. Mejorar el control de síntomas.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía define textualmente el tratamiento adyuvante como aquel que se administra tras un tratamiento locorregional definitivo *"con la intención de DISMINUIR EL RIESGO DE RECAÍDA Y DE MUERTE"*, y, específicamente en el apartado de cáncer de mama, afirma que la radioterapia *"ha demostrado tener un impacto positivo en la supervivencia global, SIENDO ESTE ÚLTIMO EL OBJETIVO PRINCIPAL DEL TRATAMIENTO"*. Ambos pasajes apuntan inequívocamente a la opción A (incremento de la supervivencia), no a la D (control de síntomas, que es el objetivo característico del tratamiento PALIATIVO, una categoría de tratamiento oncológico completamente distinta de la adyuvancia). Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #154 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El objetivo principal del tratamiento adyuvante (administrado tras la cirugía con intención curativa) en el cáncer de mama es erradicar la enfermedad micrometastásica subclínica no detectable en las pruebas de imagen, reduciendo así el riesgo de recaída y, en última instancia, aumentando la supervivencia global de la paciente. Transformar tumores no resecables en resecables es, precisamente, el objetivo del tratamiento neoadyuvante (administrado antes de la cirugía), no del adyuvante. Mejorar el control de síntomas es un objetivo propio del tratamiento paliativo en enfermedad metastásica incurable, no del tratamiento adyuvante con intención curativa.
 
-### MIR-2023-150 ⚠️⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-150
 En relación con la indicación de irradiación parcial del cáncer de mama, señale la respuesta correcta:
 
 A. No está indicada en pacientes postmenopáusicas.
@@ -60,11 +62,11 @@ B. Solo la pueden recibir pacientes diagnosticadas de carcinoma in situ.
 C. Es de elección en pacientes con ganglios positivos.
 D. No se debe emplear cuando hay más de un foco tumoral o lesiones multicéntricas.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️⚠️ **Nota de verificación fuerte — hallazgo de máxima relevancia (la propia bibliografía reproduce esta pregunta con su propia clave):** el manual CTO reproduce literalmente esta misma pregunta de examen en su banco de preguntas del Tema 5, con la clave: **"RC: 4"** (opción D — "No se debe emplear cuando hay más de un foco tumoral o lesiones multicéntricas"). Además, la propia bibliografía define los criterios de irradiación parcial como aplicables a **carcinoma ductal INFILTRANTE** (no in situ), lo que contradice directamente la opción B marcada como oficial en nuestro dataset. Este es el nivel de evidencia más alto posible dentro de este proyecto: la fuente bibliográfica utilizada para verificar el proyecto contiene la respuesta oficial "definitiva" de la propia editorial para esta pregunta, y difiere de la clave de nuestro dataset. Se mantiene la clave oficial de nuestro dataset (B) sin alterar, conforme al protocolo del proyecto, pero se señala como caso de máxima sospecha de error en la plantilla de respuestas 2023. Ver hallazgo #154 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La irradiación parcial de la mama (IPM) es una técnica de radioterapia adyuvante reservada para pacientes seleccionadas de bajo riesgo: tumores unifocales, de pequeño tamaño, sin afectación ganglionar y, en general, en mujeres de mayor edad (con frecuencia posmenopáusicas), por lo que NO está contraindicada en este grupo de edad, sino que es precisamente uno de los perfiles preferentes. Una de sus contraindicaciones mejor establecidas es la presencia de más de un foco tumoral o enfermedad multicéntrica, ya que la IPM solo trata el lecho tumoral y un margen de tejido circundante, no toda la glándula mamaria (opción D). La IPM se emplea fundamentalmente en carcinoma invasivo de bajo riesgo, no exclusivamente en carcinoma in situ, y no es de elección en pacientes con ganglios positivos (que requieren irradiación mamaria completa y, con frecuencia, ganglionar).
 
-> **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2021, 2023), **2 discrepancias, ambas de máxima confianza** (una con doble cita textual directa, otra confirmada por la propia clave de respuesta que reproduce la bibliografía fuente) — el 100% de las preguntas de este módulo son discrepantes, el porcentaje de discrepancia más alto documentado en el proyecto hasta la fecha para un módulo con ≥2 preguntas.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-070
 ¿Cuál de los siguientes factores NO aumenta el riesgo de padecer cáncer de mama?:
@@ -78,7 +80,7 @@ D. Menopausia tardía.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, epidemiología estándar del cáncer de mama) — la mastopatía fibroquística SIN atipia (la forma más común y la que se entiende por defecto en el término general) no confiere un aumento significativo del riesgo de cáncer de mama, a diferencia de la hiperplasia atípica (una entidad histológica distinta y más específica); el consumo de alcohol, la obesidad y la menopausia tardía son, en cambio, factores de riesgo bien establecidos. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 3 preguntas reales, manteniendo 2 discrepancias y sumando 1 limpia.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

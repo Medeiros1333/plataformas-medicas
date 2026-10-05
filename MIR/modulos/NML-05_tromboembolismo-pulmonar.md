@@ -92,7 +92,7 @@ D. Ecocardiografía.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 190)*
 
-### MIR-2023-202 ⚠️
+### MIR-2023-202
 Tras el diagnóstico en urgencias de embolismo pulmonar, es necesario hacer una valoración y estratificación del riesgo para decidir cuál es la mejor opción terapéutica. Indique cuál de los siguientes es un factor de alto riesgo de tener un resultado clínico adverso:
 
 A. Extensión del embolismo pulmonar con función normal del ventrículo derecho y normotensión.
@@ -100,7 +100,11 @@ B. Identificación en la TC torácica de signos de crecimiento del ventrículo i
 C. Valor elevado del dímero D.
 D. Signos de disfunción del ventrículo derecho en el ecocardiograma con presión arterial sistólica <90 mmHg mantenida.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 202)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 202)*
+
+**Explicación:** En la estratificación pronóstica del tromboembolismo pulmonar (TEP), el hallazgo por TC torácica de signos de sobrecarga o crecimiento de cavidades cardiacas derechas (y no izquierdas) junto con la disfunción del ventrículo derecho constituyen marcadores de mal pronóstico, ya que reflejan el impacto hemodinámico agudo de la obstrucción vascular pulmonar sobre el ventrículo derecho, la cámara que debe vencer la resistencia añadida al lecho pulmonar ocluido. La combinación de inestabilidad hemodinámica franca (hipotensión mantenida) junto con signos ecocardiográficos de disfunción del ventrículo derecho define el TEP de alto riesgo, que requiere las medidas terapéuticas más agresivas (habitualmente fibrinólisis o tratamiento de reperfusión), mientras que un dímero D elevado por sí solo tiene escaso valor pronóstico (su utilidad es fundamentalmente para excluir el diagnóstico cuando es normal en pacientes de baja probabilidad).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-129
 Mujer de 70 años ingresada por traumatismo craneoencefálico grave con hemorragia subaracnoidea secundaria. El segundo día de ingreso presenta episodio de disnea y dolor torácico. Se realiza angioTC de tórax que confirma el diagnóstico de tromboembolismo de pulmón. El tratamiento de elección es:
@@ -112,7 +116,7 @@ D. Filtro de vena cava inferior.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 129; hemorragia intracraneal reciente contraindica la anticoagulación, por lo que ante TEP confirmado en este contexto el tratamiento de elección es la colocación de un filtro de vena cava inferior — confirmación LIMPIA, sin discrepancia)*
 
-> ⚠️ **Nota de verificación fuerte:** la estratificación de riesgo del TEP se basa fisiopatológicamente en la sobrecarga aguda de presión sobre el VENTRÍCULO DERECHO (el que recibe directamente el impacto hemodinámico de la obstrucción vascular pulmonar) — no existe una asociación reconocida entre el TEP y el "crecimiento" del ventrículo izquierdo, que ni siquiera es fisiopatológicamente coherente con el mecanismo de la enfermedad (si acaso, el VI puede verse comprimido/con llenado reducido por desviación septal, no "crecer"). La opción D describe textualmente la combinación de inestabilidad hemodinámica (PAS<90mmHg mantenida) y disfunción del VD — la definición estándar de TEP de ALTO riesgo según las guías de estratificación, con indicación de valorar tratamiento de reperfusión. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023 (posiblemente un error de transcripción VI/VD en el enunciado original) — la respuesta fisiopatológicamente correcta es D. Ver hallazgo #52 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En pacientes con contraindicación absoluta para la anticoagulación (como esta paciente con hemorragia subaracnoidea reciente, en la que cualquier fármaco anticoagulante supondría un riesgo inasumible de resangrado intracraneal) que presentan un tromboembolismo pulmonar confirmado, la colocación de un filtro de vena cava inferior constituye el tratamiento de elección, ya que previene la progresión de nuevos émbolos desde el territorio venoso profundo de las extremidades inferiores hacia la circulación pulmonar sin necesidad de anticoagulación sistémica, reservando esta última para cuando el riesgo hemorrágico haya disminuido lo suficiente como para reintroducirla de forma segura.
 
 ---
 

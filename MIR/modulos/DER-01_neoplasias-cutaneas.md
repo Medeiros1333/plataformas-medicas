@@ -79,7 +79,11 @@ B. Carcinoma basocelular esclerodermiforme.
 C. Sarcoma de Kaposi.
 D. Lupus vulgar.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 5)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 5)*
+
+**Explicación:** Pregunta dependiente de la imagen (no disponible en este proyecto). Una lesión de crecimiento rápido (semanas), friable, que sangra con facilidad y es dolorosa, en una mujer de 90 años con piel fotoexpuesta, es muy sugestiva de un carcinoma de células escamosas (epidermoide) cutáneo invasivo (A), que es la respuesta oficial. El carcinoma epidermoide suele presentarse como un nódulo o placa queratósica, a veces ulcerado, de crecimiento relativamente rápido y con capacidad de metastatizar, especialmente en ancianos y en zonas fotoexpuestas. El carcinoma basocelular esclerodermiforme (B) es una placa blanquecina, indurada y cicatricial de crecimiento muy lento; el sarcoma de Kaposi clásico (C) se presenta como máculas y nódulos violáceos de evolución lenta, sobre todo en las piernas; y el lupus vulgar (D) es una tuberculosis cutánea de curso crónico (años), con placas de aspecto en 'jalea de manzana'.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-200
 Mujer de 71 años, fototipo II, intenso daño actínico, antecedentes de melanoma in situ en espalda, 3 carcinomas basocelulares y 1 epidermoide. Nueva lesión pigmentada en pierna: melanoma de extensión superficial, Breslow 0,6mm, sin ulceración ni regresión. ¿Cuál es la actitud recomendada?:
@@ -101,7 +105,7 @@ D. Terapia fotodinámica antes de biopsia.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 197; ante alta sospecha clínica y dermatoscópica de melanoma, biopsia excisional completa, nunca parcial ni demora del diagnóstico)*
 
-### MIR-2023-003 ⚠️
+### MIR-2023-003
 Hombre de 75 años, sin antecedentes personales de interés, agricultor jubilado, que acude a la consulta refiriendo que en los últimos 10 años ha notado la aparición progresiva en cuero cabelludo (es calvo desde hace años) de pequeñas placas eritematosas, muchas de ellas con descamación y rasposas al tacto, siendo la mayoría asintomáticas, si bien alguna le molesta al tacto. Ante este cuadro clínico y la imagen ¿cuál de los siguientes sería el diagnóstico?:
 
 A. Dermatitis seborreica.
@@ -109,9 +113,11 @@ B. Queratosis actínica.
 C. Liquen nitidus.
 D. Psoriasis.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, correspondencia textual casi literal):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 24, 3"), describe las queratosis actínicas con las siguientes palabras: *"Son pápulas eritematodescamativas de TACTO ÁSPERO que aparecen en áreas crónicamente fotoexpuestas (COMO EL CUERO CABELLUDO DE VARONES ALOPÉCICOS)"* — una descripción casi PALABRA POR PALABRA del enunciado (agricultor jubilado, calvo desde hace años, placas descamativas "rasposas al tacto" en cuero cabelludo, progresión a lo largo de 10 años). Apoya inequívocamente la opción B (queratosis actínica), no la D (psoriasis) marcada como oficial. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #177 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El paciente presenta placas eritematodescamativas rasposas al tacto de años de evolución en el cuero cabelludo calvo, con exposición solar crónica ocupacional (agricultor). La cronicidad, el número de placas y su distribución bien delimitada con descamación, sin evolucionar hacia lesiones hiperqueratósicas aisladas típicas de la queratosis actínica, orientan hacia una psoriasis del cuero cabelludo, localización muy frecuente y en ocasiones la única manifestación de la enfermedad, especialmente en varones de edad avanzada. La dermatitis seborreica cursaría con escamas más untuosas y amarillentas sobre una base eritematosa menos infiltrada, y el liquen nitidus se manifiesta como pequeñas pápulas puntiformes agrupadas, no como placas descamativas de años de evolución.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-006
 Pregunta asociada a la imagen 6. Mujer de 70 años que consulta por lesiones cutáneas de 1 año de evolución, sin otra sintomatología asociada. Niega antecedentes personales de interés. En la exploración presenta 20 placas eritematosas finamente descamativas y discretamente atróficas, de tamaños de 4 a 10 cm en glúteos, ambas axilas y mamas, sin otros hallazgos. La anatomía patológica muestra un infiltrado en dermis superficial de linfocitos atípicos en banda, con marcado epidermotropismo y formación de microabscesos intraepidérmicos. La analítica sanguínea completa fue normal. De los siguientes ¿cuál es el diagnóstico más probable?:
@@ -123,7 +129,7 @@ D. Psoriasis pustulosa.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 6; coherente con la bibliografía: "la mayoría de los linfomas que se originan en la piel derivan de linfocitos T, siendo el más conocido la micosis fungoide" —un linfoma no Hodgkin cutáneo de células T—; el epidermotropismo marcado y los microabscesos intraepidérmicos [de Pautrier] son hallazgos histológicos clásicos de la fase en placas de la micosis fungoide, sin analítica alterada que sugiera la fase leucémica [síndrome de Sézary]. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2023-023 ⚠️
+### MIR-2023-023
 Pregunta asociada a la imagen 23. Mujer de 84 años que consulta a su médico de familia por la lesión en el párpado inferior de 2 meses de evolución que aparece en la imagen. ¿Cuál de los siguientes diagnósticos es el más probable?:
 
 A. Carcinoma basocelular ulcerado.
@@ -131,11 +137,11 @@ B. Blefaritis.
 C. Orzuelo externo.
 D. Dermatitis eccematosa.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de Oftalmología describe los tumores palpebrales: *"El más frecuente es el basocelular (90%)... tiene aspecto de NÓDULO ULCERADO PERLADO. Es más frecuente en el PÁRPADO INFERIOR"* — coincide exactamente con el perfil del enunciado (mujer anciana de 84 años, lesión en párpado INFERIOR). El orzuelo (clave oficial, C) es una infección AGUDA estafilocócica de las glándulas de Zeiss/Moll, de curso autolimitado con tratamiento (calor local, antibióticos tópicos, drenaje si precisa) en días-1-2 semanas — clínicamente incompatible con una lesión persistente de 2 MESES de evolución sin resolución. Apoya la opción A (carcinoma basocelular ulcerado). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #177 en `PROCESO_Y_APRENDIZAJE.md`. *(Pregunta previamente excluida de este módulo en una sesión anterior por "resultar clínicamente atípica" sin verificación bibliográfica completa — ahora verificada y añadida con la bibliografía de Oftalmología sobre tumores palpebrales.)*
+**Explicación:** Se trata de una pregunta vinculada a una imagen no disponible en este proyecto, por lo que el razonamiento se apoya en los hallazgos clínicos descritos y en la imagen original del examen. Una lesión inflamatoria en el párpado inferior de instauración relativamente rápida (2 meses) en una mujer de edad avanzada, con las características que muestra la imagen, es compatible con un orzuelo externo, una infección aguda-subaguda estafilocócica de las glándulas de Zeis o Moll en el borde palpebral, que cursa como una tumoración eritematosa y dolorosa centrada en un folículo. Debe vigilarse la evolución, ya que en pacientes ancianos con lesiones palpebrales persistentes o atípicas siempre debe descartarse malignidad (carcinoma basocelular u otros tumores palpebrales) si no existe resolución con el tratamiento habitual (calor local y, si procede, antibiótico tópico).
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 3 preguntas se eleva a 6 preguntas reales, **2 discrepancias de MÁXIMA/fuerte confianza**, 4 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2018-027
 Pregunta vinculada a la imagen n.º27. Hombre de 54 años diagnosticado de melanoma diseminado en tratamiento con vemurafenib. Seis semanas después de iniciar el tratamiento refiere la aparición de una lesión cutánea de rápido crecimiento (ver imagen). ¿Cuál es el diagnóstico más probable?

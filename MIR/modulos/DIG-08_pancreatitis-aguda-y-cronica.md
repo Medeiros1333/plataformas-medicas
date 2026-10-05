@@ -70,9 +70,11 @@ B. Áreas focales de necrosis pancreática.
 C. Aumento en el realce glandular en fase arterial.
 D. Dilatación de conducto pancreático.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 177)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 177)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.5) es explícita: "TC abdominal y ecografía abdominal: accesibles y eficaces para la detección de **calcificaciones y dilatación ductal**" como hallazgos característicos de la pancreatitis crónica — coincidiendo con la opción D, no elegida como correcta. No existe ninguna mención en la bibliografía de un "aumento del realce glandular en fase arterial" como hallazgo típico; fisiopatológicamente, la pancreatitis crónica se caracteriza por fibrosis y atrofia progresivas del parénquima, cambios que no son compatibles con un aumento del realce vascular. Las áreas focales de necrosis (opción B) son propias de la pancreatitis AGUDA, no de la crónica. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** En la pancreatitis crónica, la TC muestra característicamente atrofia glandular difusa y un páncreas fibrótico que, por su contenido en tejido conectivo, tiende a mostrar una captación de contraste más lenta y heterogénea (realce diferido) frente al parénquima pancreático sano, más que un aumento del realce en fase arterial. Las áreas de necrosis focal son propias de la pancreatitis aguda necrotizante, no de la forma crónica, y el ensanchamiento del marco duodenal se relaciona más bien con masas cefálicas (pseudotumor inflamatorio o neoplasia) que con la enfermedad difusa. El hallazgo clásicamente más específico de pancreatitis crónica en TC es la dilatación irregular ('en cadena de lagos' o 'en rosario') del conducto pancreático principal, frecuentemente asociada a calcificaciones intraductales.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-144
 Un paciente de 56 años ha perdido 10kg en el último año coincidiendo con un notable aumento de las deposiciones que son pastosas, amarillas y flotantes. Presenta dolor epigástrico-mesogástrico postprandial que limita la ingesta. Hace 4 años recibió tratamiento erradicador de Helicobacter Pylori por úlcera duodenal recidivante. ¿Cuál de las siguientes exploraciones en heces le parece más útil en el primer estudio para orientar el diagnóstico?:

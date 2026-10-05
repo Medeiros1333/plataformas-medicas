@@ -62,7 +62,7 @@ D. Situación de parada cardiorrespiratoria con actividad eléctrica sin pulso.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 123; el taponamiento se caracteriza por una variación EXAGERADA >25-30% de las velocidades de llenado con la respiración, correlato Doppler del pulso paradójico — una variación <25% no es sugestiva)*
 
-### MIR-2020-023 ⚠️
+### MIR-2020-023
 Mujer de 25 años que acude a urgencias por dolor torácico de 2 días de evolución asociado a febrícula termometrada de hasta 37,6ºC. Este dolor se localiza a nivel precordial, no se modifica con el ejercicio físico y empeora con el decúbito supino. Analíticamente destaca una proteína C reactiva discretamente elevada y leucocitosis moderada. El electrocardiograma se muestra en la imagen. Con respecto al tratamiento de esta patología señale la respuesta correcta:
 
 A. Lo más probable es que se trate de un infarto agudo de miocardio. Avisaría a Cardiología para realización de coronariografía urgente.
@@ -70,11 +70,13 @@ B. Los fármacos más utilizados son los AINEs.
 C. La colchicina está contraindicada en esta patología.
 D. Lo más correcto sería iniciar tratamiento antibiótico empírico con una fluoroquinolona.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 23; pregunta con imagen de ECG no disponible en la fuente de datos)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 23)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro clínico descrito es la vignette de manual de una pericarditis aguda, no de un infarto agudo de miocardio: mujer joven (25 años, perfil epidemiológico atípico para IAM), dolor precordial que NO se modifica con el ejercicio (un IAM típicamente sí se relaciona con esfuerzo/reposo de forma diferente) que EMPEORA con el decúbito supino (característica clásica y específica de la pericarditis, ausente en el IAM), con febrícula y elevación discreta de reactantes de fase aguda (perfil inflamatorio leve, no isquémico agudo). Según la bibliografía, el tratamiento de elección de la pericarditis aguda son los AINE a dosis alta más colchicina — coincidiendo con la opción B, no con la A (marcada oficialmente), que propone actuar como si fuera un IAM con coronariografía urgente. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación (no se puede descartar por completo dado que la imagen del ECG, no disponible en esta fuente de datos, podría en teoría mostrar hallazgos atípicos), pero se marca como caso de muy alta sospecha de error en la clave oficial 2020. Ver hallazgo #42 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En una mujer joven con dolor torácico pleurítico (que empeora con el decúbito y no se modifica con el ejercicio), febrícula, reactantes de fase aguda discretamente elevados y alteraciones electrocardiográficas compatibles (elevación difusa del ST cóncava, sin la evolución territorial típica de un infarto), el diagnóstico más probable es una pericarditis aguda, habitualmente de causa idiopática o viral en este perfil de paciente. El tratamiento de primera línea de la pericarditis aguda son los AINE (ácido acetilsalicílico a dosis altas o ibuprofeno), asociados a colchicina, que ha demostrado reducir tanto la duración de los síntomas como el riesgo de recurrencias, por lo que NO está contraindicada, sino recomendada de forma sistemática salvo contraindicación específica. No hay indicación de coronariografía urgente por sospecha de infarto (el cuadro clínico y electrocardiográfico no es compatible con isquemia coronaria aguda), ni de tratamiento antibiótico empírico, reservado para las escasas pericarditis de causa bacteriana purulenta, mucho menos frecuentes que la etiología idiopática/viral.
 
-### MIR-2022-122 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-122
 En relación con el taponamiento cardíaco, ¿cuál de las siguientes afirmaciones es cierta?
 
 A. Las manifestaciones ecocardiográficas y los cambios hemodinámicos se producen con anterioridad a la aparición de las manifestaciones clínicas.
@@ -82,9 +84,11 @@ B. Es típica la hipotensión, la taquicardia, la disminución de la presión ve
 C. El volumen de líquido pericárdico necesario para producir taponamiento es similar en una pericarditis aguda que en una pericarditis crónica.
 D. El pulso paradójico es un dato de la exploración física característico que se define como un descenso de 5-10 mmHg en la tensión arterial sistólica durante la inspiración.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 122)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 122)*
 
-> ⚠️ **Nota de verificación fuerte:** la opción B afirma una DISMINUCIÓN de la presión venosa yugular en el taponamiento, cuando la bibliografía establece justo lo contrario: el taponamiento cursa con hipertensión venosa sistémica e ingurgitación yugular en el 96% de los casos (parte de la clásica tríada de Beck: hipotensión + ingurgitación yugular + ruidos apagados). En cambio, la opción A coincide casi textualmente con la bibliografía, que además cita expresamente esta afirmación: "las alteraciones ecocardiográficas y las manifestaciones hemodinámicas... aparecen antes que las manifestaciones clínicas". La opción D también es incorrecta según la bibliografía, que define el pulso paradójico como un descenso MAYOR de 10 mmHg (no de 5-10mmHg). Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022 — la respuesta más consistente con la bibliografía es A. Ver hallazgo #42 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El taponamiento cardíaco se caracteriza clásicamente por la tríada de Beck (hipotensión arterial, ingurgitación venosa yugular y tonos cardiacos apagados o atenuados), junto con taquicardia compensadora y pulso paradójico. Un dato relevante en la fisiopatología del taponamiento es que las alteraciones ecocardiográficas (colapso diastólico de cavidades derechas) y los cambios hemodinámicos pueden preceder a la aparición franca de las manifestaciones clínicas, lo que subraya la utilidad de la ecocardiografía en la detección precoz. El volumen de líquido pericárdico necesario para producir taponamiento depende de la velocidad de acumulación: en la pericarditis aguda, con acumulación rápida, volúmenes pequeños pueden ya producir taponamiento, mientras que en los derrames crónicos el pericardio se distiende progresivamente y tolera volúmenes mucho mayores antes de descompensar, por lo que ambas situaciones NO requieren un volumen similar. El pulso paradójico se define como un descenso de la tensión arterial sistólica mayor de 10 mmHg durante la inspiración (no de 5-10 mmHg, que corresponde a la variación fisiológica normal).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-014
 Mujer de 69 años, obesa, con historia de apnea obstructiva del sueño, insuficiencia respiratoria hipercápnica, polimialgia reumática e hipotiroidismo de larga evolución. Acude a consulta en su centro de salud con los resultados de una tomografía computarizada (TC) solicitada por hallazgo de cardiomegalia en la Rx de tórax. Su frecuencia cardíaca es 68 lpm, y la presión arterial es 145/70 mmHg. Con inspiración profunda, sus cifras tensionales son 139/68 mmHg. Con estos datos clínicos y la imagen de la TC que se muestra, señale qué diagnóstico es más probable:
@@ -96,7 +100,7 @@ D. Derrame pericárdico crónico.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 14; la bibliografía define el pulso paradójico patológico como un descenso de la TA sistólica MAYOR de 10 mmHg durante la inspiración. La caída descrita en esta paciente (145→139 mmHg, solo 6 mmHg) no alcanza ese umbral, y además la frecuencia cardíaca es normal —68 lpm—, no taquicárdica como cabría esperar en un taponamiento. Ambos datos argumentan EN CONTRA del taponamiento (opción B) y a favor de un derrame pericárdico crónico sin compromiso hemodinámico significativo. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad del módulo:** con esta pregunta se eleva a 4 preguntas reales, manteniendo 2 discrepancias y 2 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

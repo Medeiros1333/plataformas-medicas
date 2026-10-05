@@ -53,9 +53,11 @@ B. Esófago hipercontráctil.
 C. Acalasia tipo I.
 D. Peristalsis fragmentada.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** el patrón manométrico descrito (contracciones vigorosas, ausencia de peristalsis normal, pero con RELAJACIÓN NORMAL del esfínter esofágico inferior) es clínicamente coherente con el esófago hipercontráctil ("jackhammer") de la Clasificación de Chicago — la relajación NORMAL del EEI descarta la acalasia (que por definición exige relajación incompleta/ausente del EEI). No se ha localizado en la bibliografía disponible (que no detalla exhaustivamente la subclasificación de Chicago) un pasaje textual que confirme o contradiga expresamente esta terminología específica; se mantiene la clave oficial sin nota de discrepancia por falta de una fuente textual directa.
+**Explicación:** Disfagia para sólidos y líquidos con dolor torácico en una mujer joven, endoscopia normal y manometría de alta resolución que muestra contracciones vigorosas sin peristalsis normal (contracciones prematuras/simultáneas) con relajación normal del esfínter esofágico inferior: el diagnóstico es un espasmo esofágico distal (A). Según la clasificación de Chicago, el espasmo esofágico distal se define por una relajación normal del EEI (IRP normal) y al menos un 20% de degluciones con contracciones prematuras (latencia distal reducida), que sustituyen a la peristalsis propagada. El esófago hipercontráctil o 'en martillo neumático' (B) tiene contracciones muy vigorosas (DCI >8.000) pero con peristalsis conservada. La acalasia tipo I (C) requiere una relajación ALTERADA del EEI (IRP elevado). La peristalsis fragmentada (D) es un trastorno menor con roturas en la onda peristáltica, no con contracciones vigorosas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-067
 La disfagia orofaríngea es la dificultad de trasladar el alimento desde la cavidad oral hasta el esófago proximal. Entre las causas de disfagia orofaríngea motora están las siguientes EXCEPTO:
@@ -65,9 +67,11 @@ B. Reflujo gastroesofágico.
 C. Tétanos.
 D. Dermatopolimiositis.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> **Nota de cobertura:** confirmación PARCIAL — la bibliografía, con cita textual directa a esta misma pregunta ("MIR 23, 67", desfase de año habitual de ±1), enumera expresamente miastenia gravis y polimiositis (opciones A y D) entre las causas de disfagia orofaríngea motora, confirmando ambas como causas reales. El reflujo gastroesofágico (opción B) no figura en esa lista tampoco —se asocia en la bibliografía a la disfagia ESOFÁGICA mecánica (estenosis péptica), no a la orofaríngea motora—, por lo que ni B ni C (tétanos, clave oficial) aparecen expresamente confirmadas como causas en el texto disponible. No se ha localizado evidencia textual suficiente para determinar con la confianza necesaria cuál de las dos es "la" excepción pretendida por el examinador; se mantiene la clave oficial (C) sin nota de discrepancia por esta ambigüedad.
+**Explicación:** Las causas de disfagia orofaríngea motora (neuromuscular) son las que alteran la fase oral o faríngea de la deglución: enfermedades de la placa motora como la miastenia gravis (A), miopatías inflamatorias como la dermatopolimiositis (D), enfermedades neurológicas (ictus, Parkinson, ELA) y trastornos que producen espasmo de la musculatura faríngea, como el tétanos (C), en el que la disfagia y el trismus son manifestaciones precoces. El reflujo gastroesofágico (B) NO es una causa de disfagia orofaríngea motora: cuando produce disfagia, ésta es ESOFÁGICA, por esofagitis péptica, estenosis o trastornos motores esofágicos secundarios, por lo que es la excepción que se pide.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-030
 ¿Cuál de las siguientes características de la anatomía del esófago es la que facilita la realización de la ecocardiografía transesofágica?:
@@ -77,9 +81,11 @@ B. El segmento torácico del esófago discurre por la cara posterior de aurícul
 C. El esófago recorre la cara posterior de la aurícula izquierda.
 D. La existencia de un segmento del esófago más dilatado entre la estrechez aórtica y la estrechez diafragmática.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> **Nota de cobertura:** no se ha localizado en la bibliografía de Digestivo ni de Cardiología disponibles un pasaje textual que explique explícitamente el fundamento anatómico de la ecocardiografía transesofágica en estos términos; se mantiene la clave oficial sin nota de discrepancia por falta de una fuente textual directa que la confirme o contradiga.
+**Explicación:** La ecocardiografía transesofágica aprovecha que el esófago desciende por el mediastino posterior en contacto directo con la cara posterior de la AURÍCULA IZQUIERDA, que es la cavidad cardiaca más posterior (C). Al no interponerse pulmón ni costillas, el transductor obtiene imágenes de alta resolución de la aurícula y la orejuela izquierdas (búsqueda de trombos), del tabique interauricular, de la válvula mitral y de la aorta torácica. Por eso, una aurícula izquierda muy dilatada puede comprimir el esófago (disfagia). El cayado aórtico contacta con el esófago a nivel de T4 y produce una impronta, pero esa relación no es la que permite el estudio del corazón (A); el esófago no discurre por detrás de las cavidades derechas, que son anteriores (B); y la existencia de un segmento más dilatado entre las estrecheces (D) no es la base de la técnica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-127
 La forma más eficaz de evaluación preoperatoria de la función del cuerpo esofágico y del esfínter esofágico inferior en un paciente con sospecha de reflujo gastroesofágico es:
@@ -93,7 +99,7 @@ D. Esofagograma con bario.
 
 > **Nota de cobertura:** confirmación LIMPIA — la bibliografía confirma la manometría (MAR) como técnica de elección para el estudio dinámico de la función/peristalsis del cuerpo esofágico y del EEI, coincidiendo con la clave oficial. La pH-metría/impedancia (opción A) es el gold standard para el diagnóstico del REFLUJO ÁCIDO, no para la evaluación funcional motora preoperatoria. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 4 preguntas reales (2021, 2022, 2023, 2024), **0 discrepancias confirmadas** (2 casos con ambigüedad textual documentada pero sin evidencia suficiente para forzar un hallazgo).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

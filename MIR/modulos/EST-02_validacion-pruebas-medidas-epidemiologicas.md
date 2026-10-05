@@ -115,7 +115,7 @@ D. La prevalencia incrementa con una mayor duración de la enfermedad.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 33; la aproximación es útil precisamente cuando la tasa es BAJA y el período CORTO, no al contrario)*
 
-### MIR-2021-044 ⚠️
+### MIR-2021-044
 La especificidad de una prueba diagnóstica es del 94 %. ¿Cuál es la interpretación correcta?
 
 A. De cada 100 resultados negativos, 94 corresponden a pacientes sanos.
@@ -123,11 +123,13 @@ B. De cada 100 pacientes sanos, en 94 el resultado de la prueba será negativo.
 C. De cada 100 pacientes enfermos, en 6 el resultado de la prueba será negativo.
 D. De cada 100 resultados positivos, 6 corresponden a pacientes enfermos.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 44)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 44)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía define la especificidad como "la probabilidad de que un sujeto SANO (según el gold standard) saque '−' en el test" — es decir, es un parámetro que se calcula EXCLUSIVAMENTE sobre la población de sujetos sanos. La opción C, marcada como correcta, describe en cambio el resultado en "pacientes enfermos" — un concepto que corresponde a la tasa de falsos negativos (complementaria de la SENSIBILIDAD, no de la especificidad), mezclando ambos parámetros. La opción B ("de cada 100 pacientes sanos, en 94 el resultado será negativo") es la traducción literal y correcta de la definición de especificidad. Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2021. Ver hallazgo #43 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La especificidad de una prueba diagnóstica se define como la proporción de personas sanas (sin la enfermedad) que obtienen un resultado negativo en la prueba, es decir, la capacidad de la prueba para identificar correctamente a los sanos. Por tanto, una especificidad del 94% significa que, de cada 100 personas sanas, en 94 el resultado de la prueba será negativo (verdaderos negativos), y en las 6 restantes será positivo a pesar de no tener la enfermedad (falsos positivos). Esta interpretación debe distinguirse claramente del valor predictivo negativo (que indica qué proporción de los resultados negativos corresponde realmente a personas sanas) y de la sensibilidad o su complementario (que se refieren a la proporción de enfermos correctamente clasificados).
 
-### MIR-2023-046 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-046
 En un estudio sobre la validez de una prueba diagnóstica, para resumir la relación entre la sensibilidad y la especificidad de la prueba se puede usar:
 
 A. El índice de Kappa.
@@ -135,9 +137,11 @@ B. La curva ROC (receiver operating characteristics).
 C. El coeficiente de correlación intraclase.
 D. El gráfico de Altman y Bland.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 46)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 46)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía es explícita en que las curvas ROC son la herramienta que "muestran el nivel de S y de E que obtenemos con cada posible punto de corte" — es decir, son la herramienta específicamente diseñada para resumir la relación S/E (opción B). El índice de Kappa (opción A, marcada oficialmente) mide un concepto completamente distinto: la CONCORDANCIA o grado de acuerdo entre dos observadores/mediciones, sin relación con la sensibilidad ni la especificidad de una prueba frente a un gold standard. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023. Ver hallazgo #43 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La curva ROC (receiver operating characteristic) es la herramienta gráfica estándar para resumir la relación entre la sensibilidad y la especificidad de una prueba diagnóstica continua a lo largo de los distintos puntos de corte posibles, representando en el eje de ordenadas la sensibilidad (fracción de verdaderos positivos) y en el de abscisas el complementario de la especificidad (1-especificidad, fracción de falsos positivos) para cada posible valor de corte. El área bajo la curva ROC (AUC) resume la capacidad discriminativa global de la prueba. El índice de Kappa y el coeficiente de correlación intraclase se emplean para valorar la concordancia o fiabilidad entre observadores o mediciones, y el gráfico de Bland-Altman se utiliza para evaluar la concordancia entre dos métodos de medición de una variable continua, no la relación sensibilidad-especificidad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-052
 Sobre los cocientes de probabilidad o razones de verosimilitud de una prueba diagnóstica, indique la respuesta INCORRECTA:
@@ -149,7 +153,7 @@ D. Los cocientes de probabilidad indican hasta qué punto un resultado determina
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 52; coherente con la bibliografía: las razones de verosimilitud "indican cuántas veces es más probable que un ENFERMO obtenga un resultado determinado... respecto a un individuo SANO" — la opción C invierte esta relación (dice "más probable en persona SIN la enfermedad que en una que SÍ la tenga"), lo que la convierte correctamente en la afirmación INCORRECTA buscada. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2023-045 ⚠️
+### MIR-2023-045
 Al aumentar el tamaño muestral de un estudio transversal (o de prevalencia) aumenta:
 
 A. La representatividad de la muestra.
@@ -157,9 +161,11 @@ B. La validez del estudio.
 C. La reproducibilidad del estudio.
 D. La precisión del estudio.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 24, 45"), establece: *"A mayor precisión deseada (menor anchura del intervalo de confianza), MAYOR TAMAÑO MUESTRAL será necesario"* — es decir, el tamaño muestral está directamente ligado a la PRECISIÓN (anchura del intervalo de confianza), no a la representatividad. La representatividad de una muestra depende del MÉTODO de muestreo empleado (aleatorio, estratificado, por conglomerados...), no simplemente de aumentar el número de sujetos — una muestra grande pero mal seleccionada (p. ej., muestreo de conveniencia) sigue siendo no representativa independientemente de su tamaño. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Al aumentar el tamaño muestral de un estudio, lo que mejora fundamentalmente es la precisión de las estimaciones: se reduce el error aleatorio, se estrechan los intervalos de confianza y aumenta la potencia estadística para detectar diferencias reales si existen. Sin embargo, un tamaño muestral mayor no mejora por sí solo la representatividad de la muestra (que depende del método de muestreo empleado, no del número de sujetos: una muestra grande pero mal seleccionada sigue sin ser representativa), ni corrige la validez del estudio (que depende de la ausencia de sesgos de selección, información o confusión en el diseño), ni garantiza la reproducibilidad de los resultados en otros contextos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-041
 Al finalizar el periodo de seguimiento en el estudio PREDIMET ("Primary Prevention of Cardiovascular Disease with a Mediterranean Diet"), el 3,8% de los individuos asignados a dieta mediterránea presentaron algún tipo de evento cardiovascular (infartos de miocardio, ictus o muertes de origen cardiovascular), frente al 4,4% de eventos ocurridos en el grupo control. ¿Cuál es el número necesario de pacientes a tratar (NNT) con dieta mediterránea para evitar un evento cardiovascular?:
@@ -173,7 +179,7 @@ D. 167.
 
 **MIR-2025-064 (ANULADA por la organización del examen —** `respuesta_correcta: null` **en el dataset):** ensayo de un colirio anticatarata, con incidencias del 10%→5% en mujeres y 8%→4% en hombres. Se descartó como pregunta con clave asignable: cálculo directo — mujeres: RAR = 5%, NNT = 100/5 = 20; hombres: RAR = 4%, NNT = 100/4 = 25. El NNT es MENOR en mujeres (20 < 25), lo que sustentaría "más eficaz en mujeres" en términos absolutos; sin embargo, la reducción relativa del riesgo (RRR) es idéntica en ambos sexos (50%), lo que sustentaría igualmente "igual de eficaz". Esta ambigüedad genuina entre una medida de efecto ABSOLUTA (NNT/RAR, distinta entre sexos por la diferente incidencia basal) y una RELATIVA (RRR, idéntica) es, con toda probabilidad, la razón de la anulación oficial — ilustra con claridad la diferencia conceptual entre "eficacia relativa" y "eficacia/impacto absoluto". No se fuerza ningún veredicto, dado que el propio examen la anuló.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 4 preguntas (3 con clave oficial + 1 anulada mencionada por su valor pedagógico) se eleva a 10 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 6 limpias, 1 anulada.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 > **Nota de cobertura (dataset 2009-2019):** la incorporación del dataset de exámenes MIR 2009-2019 aportó 22 preguntas reales adicionales de Tema 5 (Estudios de validación de una prueba diagnóstica) y Tema 6 (Medidas en epidemiología), añadidas a continuación en orden cronológico — con estas 22 preguntas se eleva a 32 preguntas reales en el módulo.
 

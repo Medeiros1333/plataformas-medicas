@@ -59,11 +59,11 @@ B. El ligamento peroneo-astragalino anterior.
 C. El tendón del músculo flexor largo del dedo gordo.
 D. El ligamento intertalocalcáneo.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 24, 101", desfase de año habitual de ±1 respecto al dataset), es explícita: *"clásicamente la insuficiencia del tendón tibial posterior ha sido considerada la causa principal [del pie plano colapsante progresivo]"* — y el cuadro clínico descrito en el enunciado (dolor crónico tras una torcedura de tobillo que no se resuelve, fatiga al subir escaleras, dificultad con calzado plano, talón en valgo que CORRIGE de puntillas —signo clásico de disfunción flexible del tendón tibial posterior—) coincide de forma prácticamente literal con la clínica de esta entidad descrita en la misma bibliografía: *"pérdida del arco medial... progresión a valgo de retropié... dolor medial"*. Todo ello apunta a la opción A (tendón del músculo tibial posterior, no elegida), no a la B (ligamento peroneoastragalino anterior, oficial), que es el ligamento típicamente lesionado en un esguince agudo simple de tobillo, pero no explica una deformidad progresiva de meses de evolución con valgo de retropié. Ver hallazgo #107 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El cuadro descrito -dolor tras un esguince de tobillo que no ha mejorado en varios meses, fatiga al subir escaleras, dificultad con el calzado plano, dolor en el seno del tarso, el talón y la cara medial del tobillo, junto con un talón en valgo que corrige al ponerse de puntillas (test de elevación monopodal positivo en fase inicial/flexible)- es característico de una disfunción del tendón del músculo tibial posterior, principal estabilizador dinámico del arco longitudinal medial del pie. La debilidad o rotura parcial de este tendón provoca el colapso progresivo del arco plantar con deformidad en valgo del retropié, que en fases iniciales aún es corregible activamente (como en este caso, al ponerse de puntillas) y se vuelve fija en estadios más avanzados. El dolor en la cara medial del tobillo, por detrás del maléolo interno, siguiendo el trayecto del tendón, es un hallazgo característico que ayuda a diferenciar esta entidad de una lesión ligamentosa lateral simple.
 
-> **Nota de cobertura y fiabilidad:** 1 pregunta real, discrepante de alta confianza, confirmada por cita textual directa de la bibliografía junto al número de esta misma pregunta.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-180
 Paciente de 25 años de edad, que sufre un accidente de moto un viernes por la noche. Es trasladado a urgencias y diagnosticado de traumatismo abdominal (eco-fast negativa), un traumatismo craneal leve (Glasgow = 14) y una fractura intracapsular desplazada de cadera derecha. Hemodinámicamente está estable. ¿Cuál sería el tratamiento de elección?:
@@ -143,7 +143,7 @@ D. Trazodona.
 
 > **Nota de cobertura y fiabilidad (actualizada):** con estas 3 preguntas se eleva a 8 preguntas reales, manteniendo 0 discrepancias en este módulo.
 
-### MIR-2022-110 ⚠️
+### MIR-2022-110
 Mujer de 82 años con antecedentes de insuficiencia cardíaca congestiva y cáncer de mama que consulta por una fractura de muñeca izquierda. La fractura es estable, no es conminuta ni presenta trazos intraarticulares. ¿Cuál de los siguientes tratamientos es el más adecuado?:
 
 A. Reducción cerrada y yeso antebraquial.
@@ -151,9 +151,11 @@ B. Artroplastia total de muñeca.
 C. Osteosíntesis con placas dorsal y volar.
 D. No inmovilizar, rehabilitación inmediata.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 110"), establece para las fracturas de la extremidad distal del radio: *"El tratamiento inicial debe ser conservador mediante reducción cerrada bajo anestesia local e inmovilización con yeso cerrado"* — precisamente el escenario descrito en el enunciado (fractura ESTABLE, NO conminuta, SIN trazo intraarticular), el perfil ideal para tratamiento conservador según la propia bibliografía. La osteosíntesis con placas (clave oficial, C) se reserva, según el mismo apartado, para las fracturas con desplazamiento significativo/inestabilidad, no descritas en este enunciado. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #180 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Ante una fractura de radio distal estable, no conminuta y sin trazos intraarticulares en una paciente anciana con importante comorbilidad (insuficiencia cardiaca, cáncer de mama), el tratamiento conservador mediante reducción cerrada e inmovilización con yeso antebraquial es la opción más adecuada, evitando así los riesgos asociados a una intervención quirúrgica en una paciente frágil y pluripatológica cuando la propia fractura, por sus características de estabilidad, tiene buen pronóstico con manejo conservador. La osteosíntesis con doble placa (dorsal y volar) se reserva para fracturas inestables, muy conminutas o con afectación articular significativa, situación que no se corresponde con la descrita en el enunciado.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -167,7 +169,7 @@ D. Tratamiento farmacológico con tramadol.
 
 **Respuesta correcta: B** — *(confianza máxima, coincide con las guías actuales de gonartrosis [ACR/OARSI]: cuadro clínico-radiológico clásico de artrosis de rodilla [dolor mecánico, crepitación, pinzamiento articular y osteofitos]. La pérdida de peso y el ejercicio físico supervisado para fortalecer el cuádriceps son la piedra angular del tratamiento de primera línea, con el mayor nivel de evidencia de todas las intervenciones — por delante de la inmovilización [A, contraproducente, favorece la rigidez y atrofia muscular], la infiltración de corticoides [C, opción de segunda línea para brotes de dolor, no de primera elección] o los opioides [D, reservados para casos refractarios]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 13 preguntas reales, manteniendo 5 discrepancias y sumando 8 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

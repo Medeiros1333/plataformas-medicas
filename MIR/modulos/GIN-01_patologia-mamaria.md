@@ -90,7 +90,11 @@ B. Macroadenoma hipofisario.
 C. Quiste aracnoideo.
 D. Metástasis.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 20; el cáncer de mama es causa frecuente de metástasis cerebrales)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 20)*
+
+**Explicación:** Pregunta dependiente de la imagen (RM no disponible en este proyecto). Mujer de 50 años con cefalea y alteraciones visuales de instauración progresiva: según la plantilla oficial, la RM muestra un macroadenoma hipofisario (B), una masa selar y supraselar mayor de 1 cm que crece hacia arriba (a veces con forma de 'muñeco de nieve' por la cintura del diafragma selar) y comprime el quiasma óptico, produciendo típicamente una hemianopsia bitemporal. El antecedente de cáncer de mama hace pensar en una metástasis (D), pero las metástasis hipofisarias son raras y se presentan sobre todo con diabetes insípida; el glioblastoma (A) es intraaxial, con captación en anillo y necrosis, y el quiste aracnoideo (C) es una lesión con la señal del LCR y suele ser asintomático.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-143
 La realización de la biopsia selectiva del ganglio centinela y el mapa linfático en el cáncer de mama:
@@ -100,9 +104,11 @@ B. Está indicada si hay afectación clínica de los ganglios axilares.
 C. Si es negativa no necesita ampliar la cirugía axilar.
 D. No está indicada en varones con cáncer de mama.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 143)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 143)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #27):** la clave oficial (A) contradice la práctica oncológica estándar recogida en el §1.7 de este mismo módulo: la biopsia selectiva de ganglio centinela está indicada precisamente en enfermedad LOCALIZADA con axila clínicamente negativa, para EVITAR la linfadenectomía completa — nunca en enfermedad diseminada (metastásica), donde el estadiaje axilar mediante ganglio centinela no está indicado. La opción C ("si es negativa no necesita ampliar la cirugía axilar") es una afirmación correcta y estándar según la misma bibliografía. No se ha alterado `respuesta_correcta` (se mantiene la clave oficial), pero se recomienda no usar esta pregunta en modo simulacro sin la advertencia, y priorizar el criterio clínico de la sección 1.7 sobre la clave literal de esta pregunta concreta.
+**Explicación:** La biopsia selectiva del ganglio centinela permite estadificar la axila en el cáncer de mama evitando una linfadenectomía axilar completa (con su morbilidad asociada, como el linfedema) en pacientes con axila clínicamente negativa; si el ganglio centinela es negativo, no es necesario ampliar la cirugía axilar. En el cáncer de mama diseminado (metastásico), la estadificación axilar mediante ganglio centinela pierde relevancia terapéutica, ya que la enfermedad sistémica condiciona el manejo por encima del estado ganglionar locorregional, y en varones con cáncer de mama la técnica del ganglio centinela sí está indicada de forma equivalente a las mujeres cuando la axila es clínicamente negativa.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-005
 Mujer de 32 años, carcinoma ductal infiltrante G3 de mama izquierda, triple negativo. PET-TC con 18F-FDG en imagen. Señale la afirmación correcta:
@@ -146,7 +152,7 @@ D. No es aplicable la catalogación BI-RADS porque se definió solo para microca
 
 > **Nota de reclasificación:** estas 7 preguntas estaban originalmente sin clasificar o etiquetadas como ONC por el clasificador mecánico de la Fase 5; se reasignaron a GIN (`especialidad`) al comprobar que tratan específicamente patología mamaria, tema que en la propia bibliografía AMIR pertenece al manual de Ginecología y Obstetricia, no al de Oncología general.
 
-### MIR-2021-061 ⚠️
+### MIR-2021-061
 El conocimiento de la anatomía de la mama es fundamental a la hora de realizar intervenciones quirúrgicas en cirugía plástica. Señale cuál de los siguientes troncos nerviosos es el encargado en la mayoría de los casos de inervar el complejo areola-pezón:
 
 A. Rama cutánea lateral del nervio intercostobraquial.
@@ -154,11 +160,13 @@ B. Ramas cutáneas mediales del plexo cervical.
 C. Rama cutánea medial del nervio torácico largo.
 D. Rama cutánea lateral de los nervios intercostales.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (anatomía quirúrgica estándar, sin cita bibliográfica directa disponible):** la inervación sensitiva del complejo areola-pezón, según la anatomía quirúrgica de referencia para cirugía mamaria/plástica, procede principalmente de la RAMA CUTÁNEA LATERAL del 4.º nervio intercostal (T4) — un dato clínicamente relevante para preservar la sensibilidad del pezón en cirugía de reducción/aumento mamario. El plexo cervical (clave oficial B) inerva la región cervical y la parte superior del tórax cerca de la clavícula, no llega hasta la localización habitual del complejo areola-pezón. El nervio torácico largo (C) es un nervio predominantemente MOTOR (inerva el serrato anterior), sin ramas cutáneas sensitivas relevantes — opción anatómicamente inconsistente. El nervio intercostobraquial (A) es la rama del 2.º nervio intercostal responsable de la sensibilidad de la cara medial del brazo/axila, no del pezón. Apoya la opción D. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La inervación sensitiva del complejo areola-pezón procede principalmente de ramas cutáneas anteriores y laterales de los nervios intercostales torácicos (especialmente el cuarto nervio intercostal), cuyo trayecto discurre superficialmente por el tejido subcutáneo de la mama; el conocimiento preciso de este trayecto es fundamental en cirugía plástica mamaria (reducciones, mastopexias, reconstrucciones) para preservar la sensibilidad del complejo areola-pezón durante la disección y el reposicionamiento del tejido glandular. Otras estructuras nerviosas de la región, como el nervio intercostobraquial o el nervio torácico largo, inervan la piel de la cara medial del brazo y la musculatura del serrato anterior respectivamente, sin participar de forma predominante en la sensibilidad del pezón.
 
-### MIR-2021-062 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-062
 Mujer de 57 años intervenida de mamoplastia de aumento con prótesis hace 4 años. Refiere que desde hace 2 años su mama izquierda está más rígida que la derecha y que en ocasiones le ha producido molestias al realizar esfuerzos con su brazo izquierdo. En la exploración física presenta asimetría evidente de ambas mamas con aumento de la consistencia y cierta deformidad de la mama izquierda y desplazamiento moderado hacia el hueco axilar. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Seroma crónico con colonización bacteriana.
@@ -166,11 +174,11 @@ B. Linfoma anaplásico de células grandes asociado a prótesis mamarias.
 C. Contractura capsular.
 D. Carcinoma ductal infiltrante de mama.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (patrón clínico clásico, sin cita bibliográfica directa disponible):** el cuadro descrito —aumento PROGRESIVO de la CONSISTENCIA/rigidez de la mama, deformidad y desplazamiento del implante, sin mención de masa palpable diferenciada, cambios cutáneos ni afectación del pezón— es la presentación clínica clásica y de manual de la CONTRACTURA CAPSULAR (Baker III-IV), la complicación tardía más frecuente de la mamoplastia de aumento con prótesis, en la que la cápsula fibrosa periprotésica se contrae progresivamente, endureciendo la mama y pudiendo desplazar/deformar el implante. El linfoma anaplásico asociado a prótesis (B) se presenta característicamente con un SEROMA de aparición tardía (colección líquida), no con progresivo endurecimiento sólido. Nada en el enunciado sugiere una masa tumoral diferenciada del propio implante, que sería más típico de un carcinoma de novo (clave oficial D). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Mujer con prótesis mamarias que, de forma progresiva, nota la mama izquierda más dura, con asimetría, deformidad, desplazamiento de la prótesis hacia la axila y molestias: es el cuadro característico de la contractura capsular (C), la complicación tardía más frecuente de la mamoplastia de aumento. Consiste en la formación de una cápsula fibrosa periprotésica engrosada y retráctil que endurece, deforma y desplaza el implante (clasificación de Baker I-IV) y, en grados avanzados, produce dolor. El linfoma anaplásico de células grandes asociado a implantes (B) se presenta típicamente como un seroma tardío con aumento brusco de volumen de la mama, no como endurecimiento progresivo. El seroma crónico colonizado (A) produciría aumento de volumen y signos inflamatorios, y el carcinoma ductal (D) se presentaría como un nódulo o masa palpable, no como un endurecimiento difuso con desplazamiento del implante.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 9 preguntas reales, **2 discrepancias nuevas**, manteniendo el resto de la fiabilidad ya documentada del módulo.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

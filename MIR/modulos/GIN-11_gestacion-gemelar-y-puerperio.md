@@ -80,9 +80,11 @@ B. Antibioticoterapia oral, junto con el vaciado adecuado de la mama.
 C. Retirada de la lactancia con cabergolina y antibioticoterapia oral.
 D. Antibióticos locales, junto con lavados de la mama con antisépticos.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 24, 70", desfase de año habitual de ±1), describe el tratamiento de la mastitis puerperal de forma inequívoca: *"el tratamiento consiste en aplicar calor local, vaciamiento mamario tras las tomas y antibioticoterapia... (cloxacilina... o amoxicilina-clavulánico)"*. Esta descripción coincide de forma casi literal con la opción B, no elegida ("antibioticoterapia oral, junto con el vaciado adecuado de la mama"), mientras que la clave oficial D ("antibióticos LOCALES + lavados con antisépticos") no aparece descrita en ningún punto de la bibliografía como tratamiento de la mastitis — un cuadro con fiebre y afectación sistémica no se trata con antibióticos tópicos. Además, la bibliografía es explícita en que el vaciamiento mamario (continuar la lactancia/extracción) es parte del tratamiento, lo que descarta implícitamente las opciones A y C, que proponen retirar la lactancia con cabergolina. Ver hallazgo #118 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Puérpera lactante con dolor, enrojecimiento y calor en una mama, malestar general y fiebre: mastitis puerperal aguda, habitualmente por Staphylococcus aureus, favorecida por el estasis de leche y las grietas del pezón. El tratamiento es antibioterapia oral activa frente a S. aureus (cloxacilina, amoxicilina-clavulánico o cefalosporinas de primera generación; clindamicina en alérgicos) junto con el vaciado frecuente y completo de la mama, MANTENIENDO la lactancia, además de analgesia/antiinflamatorios y frío local (B). No está indicado suprimir la lactancia con cabergolina (A y C), porque el vaciado es parte esencial del tratamiento y la retirada favorece el estasis y la evolución a absceso. Los antibióticos tópicos y los lavados antisépticos (D) no tratan la infección del parénquima mamario.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-060
 Mujer con gestación monocorial biamniótica de 22 semanas que acude a urgencias por dinámica uterina ocasional. En la ecografía se observa feto 1 con peso estimado en el percentil 80 y columna máxima vertical de líquido amniótico de 11 cm, vejiga urinaria distendida y aumentada de tamaño y feto 2 con un peso en el percentil 25 con una columna máxima de líquido amniótico de 0,5 cm y vejiga urinaria no visible. Exploración vaginal anodina. La longitud cervical es de 36 mm. ¿Cuál es el diagnóstico más probable?:
@@ -96,7 +98,7 @@ D. Malformación renal feto 2.
 
 *(Sin discrepancia — el cuadro descrito es el patrón clásico de la bibliografía para el síndrome de transfusión feto-fetal en gestación MONOCORIAL: feto 1 = receptor (polihidramnios, columna de 11cm, muy por encima de lo normal; vejiga distendida por hipervolemia/poliuria) y feto 2 = donante (oligohidramnios severo, columna de 0,5cm; vejiga no visible por hipovolemia/anuria). La discordancia de líquido amniótico + hallazgo vesical bilateral opuesto es diagnóstica de STFF, no de una simple discordancia de crecimiento selectivo (que no cursaría con esta discordancia tan marcada de líquido amniótico ni con estos hallazgos vesicales). Coincide de forma exacta con la clave oficial A.)*
 
-> **Nota de cobertura y fiabilidad:** 2 preguntas reales (2023, 2024), **1 con discrepancia de MÁXIMA confianza** (MIR-2023-070, #118, confirmada por cita textual directa con coincidencia casi literal con la opción no elegida) y 1 limpia, muy bien confirmada por el patrón clásico descrito en la bibliografía. Tasa de discrepancia del 50% en este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

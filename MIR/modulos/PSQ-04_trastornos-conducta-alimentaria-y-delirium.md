@@ -74,9 +74,11 @@ B. Se distribuye por igual entre ambos sexos.
 C. La amenorrea es un criterio diagnóstico necesario de enfermedad en mujeres.
 D. Hay deseo de perder peso, pero con una percepción normal de la propia constitución.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 81)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 81)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía enumera como tercer criterio diagnóstico de la anorexia nerviosa (DSM-5/CIE-11) la "alteración de la percepción del peso y silueta corporales" — es decir, una percepción DISTORSIONADA, no normal, de la propia constitución, contradiciendo directamente la clave oficial (D). Además, la bibliografía confirma expresamente la existencia del "tipo purgativo/compulsivo" como forma clínica que asocia atracones y purgas, coincidiendo exactamente con la opción A. No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (distorsión de la imagen corporal; A es la afirmación correcta) en el punto clave 1 de este módulo.
+**Explicación:** La anorexia nerviosa presenta dos formas clínicas reconocidas por el DSM-5: el subtipo restrictivo, basado en la restricción alimentaria y el ejercicio excesivo, y el subtipo compulsivo/purgativo, en el que se combinan episodios de atracones y/o conductas purgativas (vómitos autoinducidos, laxantes) con la restricción de base. El trastorno predomina claramente en mujeres (proporción aproximada 9:1) y, desde el DSM-5, la amenorrea ha dejado de ser un criterio diagnóstico obligatorio. Un elemento psicopatológico nuclear del trastorno es la alteración de la propia imagen corporal, con miedo intenso a ganar peso incluso en presencia de un peso muy bajo, lo que junto con la restricción alimentaria mantenida define el cuadro clínico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-085
 La base neurobiológica fundamental de la bulimia nerviosa, en que se apoya también su tratamiento farmacológico habitual, consiste en una disfunción de la neurotransmisión:
@@ -116,9 +118,11 @@ B. Demencia o deterioro cognitivo.
 C. Institucionalizado en una residencia.
 D. Alteración visual y auditiva.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 58)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 58)*
 
-> **Nota de verificación (confianza moderada):** la alteración sensorial (visual y auditiva) es un factor de riesgo de delirium ampliamente reconocido en la literatura geriátrica general (por ejemplo, en los criterios de Inouye y en guías como NICE), al contribuir a la desorientación del paciente hospitalizado. La bibliografía AMIR disponible no desarrolla explícitamente este punto (no lo confirma ni lo niega de forma textual), por lo que esta nota se marca con confianza moderada, apoyada en conocimiento clínico general ampliamente aceptado más que en una cita textual específica del proyecto. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Entre los principales factores de riesgo de delirium postoperatorio en el paciente anciano (modelo predisponente de Inouye) se incluyen el deterioro cognitivo o la demencia previa, la institucionalización, la polifarmacia, la desnutrición, la deshidratación y las alteraciones sensoriales (visual y auditiva), que dificultan la correcta orientación e interpretación del entorno y favorecen la aparición de cuadros confusionales, especialmente en el postoperatorio inmediato tras cirugía mayor o anestesia general. Estos factores predisponentes actúan de forma acumulativa junto a factores precipitantes (dolor mal controlado, infección, alteraciones metabólicas, privación de sueño) para desencadenar el cuadro confusional agudo en el paciente vulnerable.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-153
 Uno de los siguientes mecanismos NO se ha propuesto en la patogenia básica del delirium en el paciente mayor:
@@ -128,9 +132,11 @@ B. El estrés oxidativo.
 C. La excesiva actividad colinérgica.
 D. El exceso de dopamina.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 153)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 153)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe la fisiopatología del delirium como "una serie de cambios metabólicos cerebrales, con deterioro del metabolismo OXIDATIVO neuronal" — es decir, el estrés/deterioro oxidativo SÍ se contempla como parte de la patogenia propuesta, contradiciendo la clave oficial (B). Además, la misma bibliografía indica textualmente que la acetilcolina "ve REDUCIDA su síntesis y liberación" en el delirium (un estado HIPOcolinérgico, no de "excesiva actividad colinérgica" como plantea la opción C) y que "aumenta la secreción de dopamina" (confirmando D como mecanismo sí propuesto). Esto sugiere que la opción C (actividad colinérgica excesiva, cuando en realidad está disminuida) es la que mejor encaja como mecanismo "NO propuesto", no la B. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (patrón hipocolinérgico/hiperdopaminérgico) en el punto clave 5 de este módulo.
+**Explicación:** Entre los mecanismos fisiopatológicos propuestos en la patogenia del delirium en el anciano se incluyen la neuroinflamación (mediada por citoquinas proinflamatorias que alteran la función neuronal, especialmente tras cirugía o infección), el estrés oxidativo secundario a la hipoxia/hipoperfusión cerebral relativa del anciano frágil, y el desequilibrio de neurotransmisores, fundamentalmente un déficit (no un exceso) de la neurotransmisión colinérgica -de ahí que los fármacos con carga anticolinérgica sean un desencadenante clásico de delirium- junto con un exceso relativo de actividad dopaminérgica, lo que explica en parte la eficacia sintomática de los antipsicóticos (bloqueantes dopaminérgicos) en su manejo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-096
 ¿Cuál de los siguientes fármacos se asocia a una reducción del delirium en las unidades de cuidados intensivos?:
@@ -140,9 +146,11 @@ B. Dexmedetomidina.
 C. Midazolam.
 D. Venlafaxina.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 96)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 96)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica textualmente que "las benzodiacepinas deben evitarse pues potencian la CONFUSIÓN y la depresión respiratoria (son únicamente de elección en el delirium por abstinencia alcohólica)". El midazolam es una benzodiacepina, por lo que su uso en UCI potenciaría la confusión/delirium en vez de reducirlo, contradiciendo la clave oficial (C). La dexmedetomidina (opción B), un agonista alfa-2 sin este efecto potenciador de la confusión, es la opción coherente con el criterio bibliográfico general de evitar benzodiacepinas en el delirium salvo por abstinencia alcohólica. No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (evitar benzodiacepinas en el delirium) en el punto clave 6 de este módulo.
+**Explicación:** La dexmedetomidina, agonista α2-adrenérgico de acción sedante sin actividad gabaérgica, se asocia a una menor incidencia de delirium en el paciente crítico en comparación con la sedación basada en benzodiacepinas, tal como demostraron ensayos clínicos de referencia como el estudio SEDCOM. Por ello, las guías de sedoanalgesia en UCI (PADIS) recomiendan minimizar el uso de benzodiacepinas, que constituyen un reconocido factor de riesgo independiente para el desarrollo de delirium en el paciente crítico, y priorizar estrategias de sedación ligera con fármacos como la dexmedetomidina o el propofol, reservando los relajantes musculares como el cisatracurio para indicaciones específicas de bloqueo neuromuscular sin relación con la prevención del delirium.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-086
 Mujer de 87 años que padece una enfermedad de Alzheimer en grado moderado e hipertensión arterial. Sufre también una incontinencia de orina que se ha ido agravando en las últimas semanas, para la que se le ha prescrito recientemente un fármaco anticolinérgico (oxibutinina). ¿Qué problema puede desencadenar con más frecuencia la toma de este fármaco?:
@@ -152,11 +160,13 @@ B. La aparición de bloqueo aurículo-ventricular.
 C. La aparición de crisis hipertensivas.
 D. La aparición de un síndrome de Sjögren.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía, en su apartado de efectos secundarios de fármacos con actividad anticolinérgica, enumera como los efectos CENTRALES MÁS FRECUENTES: *"Episodios confusionales. Defectos de memoria. Agitación psicomotriz y alucinaciones"* — es decir, el propio cuadro de delirium (opción A, no elegida), un riesgo particularmente elevado en pacientes con demencia de base como el caso descrito (fenómeno de "carga anticolinérgica" ampliamente reconocido en geriatría, con la demencia como principal factor de vulnerabilidad). Ninguna fuente de la bibliografía asocia los anticolinérgicos con crisis hipertensivas (clave oficial, C) ni con bloqueo AV (B); el síndrome de Sjögren (D) es una enfermedad autoinmune que no puede ser "desencadenada" por un fármaco. Al no existir una cita numérica directa a esta pregunta concreta y tratarse de un principio farmacológico de clase (anticolinérgicos en general, no oxibutinina específicamente) aplicado por extensión, se marca como confianza fuerte y no máxima. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** Los fármacos anticolinérgicos, como la oxibutinina empleada para la incontinencia urinaria de urgencia, atraviesan la barrera hematoencefálica y bloquean receptores muscarínicos centrales, lo que en el paciente anciano con deterioro cognitivo de base incrementa notablemente el riesgo de delirium (cuadro confusional agudo) además de empeorar el propio deterioro cognitivo subyacente; por ello, los criterios STOPP/Beers recomiendan evitar los fármacos anticolinérgicos en pacientes con demencia. Otros efectos anticolinérgicos periféricos frecuentes son la sequedad de boca, el estreñimiento, la retención urinaria, la visión borrosa y la taquicardia, no siendo la hipertensión ni el bloqueo aurículo-ventricular efectos característicos de este grupo farmacológico.
 
-### MIR-2022-089 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-089
 Varón de 71 años sin antecedentes psiquiátricos que presenta un cuadro de tres semanas de evolución caracterizado por déficit de memoria, inatención, insomnio, pérdida de peso, inquietud, angustia de predominio matutino e ideas delirantes de culpa y perjuicio. De los siguientes, el diagnóstico más probable es:
 
 A. Catalepsia.
@@ -164,11 +174,13 @@ B. Esquizofrenia de inicio tardío.
 C. Enfermedad de Alzheimer.
 D. Episodio depresivo grave con síntomas psicóticos.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (inicio subagudo de 3 semanas, déficit de memoria e inatención con angustia de predominio MATUTINO —patrón circadiano clásico de la depresión—, pérdida de peso, insomnio, e ideas delirantes de culpa y perjuicio —delirios congruentes con el estado de ánimo, típicos de la depresión psicótica—) es el cuadro clínico de manual de la **pseudodemencia depresiva** (§ episodio depresivo grave con síntomas psicóticos en el anciano, que simula un deterioro cognitivo). La bibliografía describe la pseudodemencia depresiva como *"una forma de presentación de la depresión, principalmente en población de edad avanzada"*, con queja de fallos cognitivos sin verdadera demencia subyacente. La opción A (catalepsia) marcada como oficial es clínicamente incongruente: la catalepsia es un signo motor aislado (mantenimiento pasivo de posturas), no un síndrome ni un diagnóstico que explique el conjunto de síntomas cognitivos, afectivos, vegetativos y delirantes descritos. La opción D es la que mejor se ajusta al cuadro completo. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #161 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito en un varón de 71 años sin antecedentes psiquiátricos, con síntomas de tres semanas de evolución (déficit de memoria, inatención, insomnio, pérdida de peso, angustia matutina e ideas delirantes de culpa y perjuicio) es característico de una depresión de inicio tardío con síntomas psicóticos, que en el anciano puede manifestarse con predominio de quejas cognitivas que remedan un deterioro cognitivo primario (pseudodemencia depresiva). La catalepsia, mantenimiento pasivo de posturas impuestas propio de los estados catatónicos, puede acompañar a cuadros afectivos graves como manifestación del marcado enlentecimiento e inhibición psicomotora que caracteriza a la depresión melancólica/psicótica de gran intensidad. Es fundamental descartar organicidad (deterioro cognitivo primario tipo Alzheimer, esquizofrenia de inicio tardío) antes de asumir un origen puramente afectivo, si bien la rapidez de instauración, el trasfondo anímico y las ideas delirantes congruentes con el estado de ánimo (culpa, perjuicio) orientan hacia un trastorno afectivo grave con posible catatonia asociada.
 
-### MIR-2022-135 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-135
 Mujer de 24 años intervenida hace un año de endometriosis tras presentar episodios de dolor abdominal intensos especialmente relacionados con el ciclo menstrual, acompañados ocasionalmente de náuseas y vómitos. A pesar de la intervención no ha apreciado ninguna mejoría, con progresivo empeoramiento y extensión del dolor a todo el cuerpo, junto con debilidad de extremidades. Los análisis rutinarios son normales, los anticuerpos antinucleares y el factor reumatoide son negativos, solo existe alguna analítica aislada con un Na de 132 mEq/L y alguna ALT (GOT) discretamente elevada. Ecografía abdominal y TC abdominopélvica recientes normales. Hace dos meses le diagnosticaron de depresión y fibromialgia. El tratamiento antidepresivo y analgésico con derivados opiáceos no parece tener ningún efecto. Lleva meses sin apenas levantarse de la cama. Nos piden una segunda opinión. Indica cuál de las siguientes pruebas diagnósticas deberíamos comprobar que ha sido realizada:
 
 A. Estudio del gen MEFV.
@@ -176,9 +188,11 @@ B. Porfobilinógeno y ácido aminolevulínico en orina.
 C. Anticuerpos antimitocondriales en sangre.
 D. Calprotectina en heces.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, sin cita bibliográfica directa localizada en el manual de Psiquiatría):** el cuadro clínico descrito —dolor abdominal recurrente e intenso sin causa estructural identificable, extensión a dolor generalizado y debilidad de extremidades (sugestiva de neuropatía periférica), hiponatremia leve (Na 132, patrón compatible con SIADH), elevación leve de transaminasas, estudios de imagen y autoinmunidad negativos, mal diagnosticada como depresión/fibromialgia sin respuesta a tratamiento— es la vignette clásica de manual de la **porfiria aguda intermitente**, una entidad frecuentemente confundida con patología psiquiátrica funcional precisamente por la combinación de dolor abdominal inexplicado, síntomas neuropsiquiátricos y neuropatía periférica. La prueba diagnóstica de cribado estándar es la determinación de porfobilinógeno y ácido aminolevulínico en orina (opción B), no el estudio del gen MEFV (clave oficial, A), que es el test genético de la fiebre mediterránea familiar —una entidad que cursa con fiebre y serositis recurrente, no con el cuadro de dolor generalizado, debilidad y alteraciones analíticas descrito—. No se ha localizado en la bibliografía de Psiquiatría disponible una sección específica sobre porfiria que permita una cita textual directa; esta nota se basa en conocimiento clínico general bien establecido sobre el diagnóstico diferencial de la porfiria aguda intermitente. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #179 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Mujer joven con crisis recurrentes de dolor abdominal intenso con náuseas y vómitos, relacionados con el ciclo menstrual (la progesterona es un desencadenante), que no mejoraron con la cirugía, con debilidad progresiva de las extremidades (neuropatía motora), hiponatremia (SIADH), elevación de transaminasas, síntomas psiquiátricos y pruebas de imagen normales: hay que descartar una porfiria aguda intermitente, determinando el porfobilinógeno y el ácido aminolevulínico en orina, que están elevados durante las crisis (B). Es una enfermedad infradiagnosticada que se confunde con cuadros funcionales o psiquiátricos; muchos fármacos (como algunos antidepresivos, anticonvulsivantes o los anticonceptivos) pueden desencadenar las crisis, y su tratamiento es la hemina y la glucosa. La fiebre mediterránea familiar (A) cursa con fiebre y elevación de reactantes de fase aguda; la colangitis biliar primaria (C) con colestasis; y la enfermedad inflamatoria intestinal (D) con diarrea y alteraciones en las pruebas de imagen.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

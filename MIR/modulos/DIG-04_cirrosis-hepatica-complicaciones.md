@@ -83,7 +83,11 @@ B. Repetir la ecografía a los 3 meses.
 C. Indicar un trasplante hepático.
 D. Solicitar estudio de extensión.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 137)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 137)*
+
+**Explicación:** En un paciente cirrótico, un nódulo de 1-2 cm que muestra en una técnica de imagen dinámica (TC o RM) el patrón vascular típico (captación en fase arterial y lavado en fase venosa o tardía) permite establecer el diagnóstico no invasivo de hepatocarcinoma según las guías actuales (EASL/AASLD), sin necesidad de biopsia (A falsa). Una vez diagnosticado, el siguiente paso es completar el estudio de extensión (D), para estadificar el tumor (BCLC) y decidir el tratamiento. Repetir la ecografía a los 3 meses (B) es la conducta ante nódulos <1 cm, y el trasplante hepático (C) no puede indicarse sin haber completado la estadificación; además, un paciente con un nódulo único pequeño, función hepática conservada y sin hipertensión portal sería candidato inicialmente a resección o ablación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-122
 Mujer de 67 años con antecedentes de infección por VHC que acude a urgencias por hematemesis. A la exploración observamos ascitis y ligera ictericia. ¿Cuál es la actitud diagnóstica y terapéutica más adecuada?
@@ -105,7 +109,7 @@ D. Megamitocondrias.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 14; pregunta con imagen de histología no disponible en la fuente de datos — los glóbulos PAS-positivos diastasa-resistentes son el hallazgo histológico clásico del déficit de alfa-1-antitripsina, un diagnóstico independiente/comórbido al hallado en el contexto de la hepatopatía alcohólica descrita)*
 
-### MIR-2022-131 ⚠️
+### MIR-2022-131
 Varón de 58 años con cirrosis compensada Child A-5 secundaria a hígado graso no alcohólico. En TC toracoabdominal trifásica se detectan cuatro lesiones hepáticas (una de 6 cm), hipervasculares en fase arterial y con lavado en fase venosa, con invasión de vena porta y sin metástasis extrahepáticas. No se observa ascitis. ¿Cuál de los siguientes es el mejor tratamiento?
 
 A. Quimioembolización transarterial.
@@ -113,11 +117,13 @@ B. Sorafenib.
 C. Trasplante hepático.
 D. Ablación con radiofrecuencia.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 131)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 131)*
 
-> ⚠️ **Nota de verificación fuerte:** el caso descrito (4 lesiones, una de 6cm, CON invasión macrovascular de la vena porta) excede claramente los criterios de Milan para trasplante hepático (tumor único ≤5cm o hasta 3 nódulos ≤3cm, SIN invasión vascular macroscópica). La invasión de la vena porta es una **contraindicación absoluta** y universalmente reconocida para el trasplante hepático en el hepatocarcinoma, independientemente de la función hepática conservada (Child A) del paciente. El tratamiento estándar en esta situación (HCC avanzado con invasión macrovascular, sin metástasis extrahepáticas, función hepática preservada — equivalente a BCLC-C) es el tratamiento sistémico (inhibidores de tirosina-cinasa como sorafenib, opción B), no el trasplante. Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022. Ver hallazgo #44 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El paciente presenta un hepatocarcinoma multinodular (cuatro lesiones, una de 6 cm) con patrón vascular típico (hipercaptación arterial y lavado venoso) e invasión macroscópica de la vena porta, sin metástasis extrahepáticas ni ascitis, en un contexto de cirrosis compensada Child-Pugh A. La invasión de la vena porta constituye enfermedad avanzada (estadio C de la clasificación BCLC), en la que el tratamiento locorregional curativo (ablación, quimioembolización) o el trasplante dejan de estar indicados por el elevadísimo riesgo de recurrencia y progresión tumoral, pasando el tratamiento de elección a ser la terapia sistémica.
 
-### MIR-2023-133 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-133
 Hombre de 57 años con cirrosis hepática metabólica que consulta por un cuadro recidivante de confusión y desorientación a pesar del tratamiento con rifaximina y lactulosa. En la angio-CT se aprecia una comunicación portosistémica de gran calibre. La función hepática está alterada con MELD 17p y Child-Pugh B8. ¿Cuál de los siguientes tratamientos es más apropiado?
 
 A. Trasplante hepático.
@@ -125,9 +131,11 @@ B. Oclusión de la comunicación portosistémica.
 C. Colocación de TIPS (prótesis intrahepática percutánea transyugular).
 D. Trasplante de microbiota fecal.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 133)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 133)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe textualmente esta situación clínica como una indicación establecida de tratamiento: "Embolización de shunts portosistémicos: en pacientes refractarios a tratamiento médico, MELD bajo y con shunts portosistémicos de gran tamaño, se puede valorar embolización" — coincidiendo exactamente con el perfil del caso (encefalopatía refractaria a rifaximina+lactulosa, MELD relativamente bajo de 17, shunt de gran calibre demostrado en imagen). El trasplante de microbiota fecal (opción D, marcada oficialmente) no se menciona en absoluto en la bibliografía como tratamiento establecido de la encefalopatía hepática — es, en el mejor de los casos, una terapia experimental, no la actitud "más apropiada" para un paciente con una causa anatómica corregible claramente identificada. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2023 — la opción más consistente con la bibliografía es B (oclusión de la comunicación portosistémica). Ver hallazgo #44 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Paciente cirrótico con encefalopatía hepática recurrente pese al tratamiento correcto con lactulosa y rifaximina, con una función hepática deteriorada (Child-Pugh B8, MELD 17) y un shunt portosistémico espontáneo de gran calibre. La encefalopatía hepática recurrente o persistente es, por sí misma, una indicación de valorar el trasplante hepático, y con un MELD ≥15 el paciente ya obtiene beneficio en supervivencia: el tratamiento más apropiado es el trasplante hepático (A), la única opción que resuelve la hepatopatía de base. La embolización del shunt (B) puede mejorar la encefalopatía en pacientes con buena función hepática (MELD bajo, habitualmente <11), pero con un MELD de 17 se asocia a mayor riesgo de descompensación por hipertensión portal (ascitis, varices) y no es la mejor opción. El TIPS (C) crearía otro shunt y empeoraría la encefalopatía, y el trasplante de microbiota fecal (D) sigue siendo un tratamiento experimental.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-130
 En un paciente con esteatosis hepática metabólica (antes enfermedad hepática por depósito de grasa) el riesgo de desarrollo de hepatocarcinoma en comparación con otras etiologías frecuentes como la hepatopatía alcohólica o la hepatitis C, se caracteriza por:
@@ -147,9 +155,11 @@ B. El tratamiento inmunosupresor ha solucionado el problema ya que estamos ante 
 C. La larga vida media de los factores antihemofílicos usados en el trasplante hace que su efecto perdure varios meses.
 D. Solo puede tratarse de un error o artefacto de laboratorio, ya que la hemofilia A es una enfermedad genética incurable hoy en día.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación (confianza moderada):** el factor VIII es sintetizado, entre otras células, por las células sinusoidales del endotelio hepático — un hecho de fisiología hepática básica y bien establecido, aunque no desarrollado explícitamente en el pasaje de la bibliografía AMIR disponible sobre trasplante hepático usada en este módulo (por lo que la confianza de esta nota es moderada, no fuerte, al no poder citarse la fuente exacta del proyecto). El trasplante hepático de un donante sano corrige de forma reconocida y documentada en la literatura médica la hemofilia A en el receptor, precisamente porque sustituye el órgano deficitario en la síntesis del factor VIII — es decir, la opción A parece la más consistente clínicamente con el caso (factor VIII 100% a los 6 meses tras el trasplante), no la D, que niega de forma categórica una posibilidad médicamente documentada. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En un paciente con hemofilia A que recibe un trasplante hepático por otra indicación (en este caso, hepatopatía por VHC), el hallazgo de una actividad normal del factor VIII (100%) meses después del trasplante no es un artefacto, sino la consecuencia esperada de que el factor VIII se sintetiza principalmente en las células endoteliales sinusoidales del hígado: al recibir un hígado de un donante sano, el paciente pasa a producir su propio factor VIII con normalidad, quedando funcionalmente curado de su hemofilia A congénita, un fenómeno descrito y documentado en la literatura de trasplante hepático.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-036
 En relación con el mecanismo inmunológico implicado el rechazo de órganos sólidos trasplantados, señale la respuesta INCORRECTA:

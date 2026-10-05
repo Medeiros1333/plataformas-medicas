@@ -85,9 +85,11 @@ B. Una embolia de pulmón con infarto pulmonar.
 C. Una enfermedad infiltrativa o inflamatoria sistémica.
 D. Una trombosis de vena cava inferior.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 21, 131", desfase de año habitual de ±1 respecto al dataset del proyecto), reproduce una tabla explícita de "Etiología del bloqueo AV": idiopática, hipervagotonía, fármacos, IAM inferior, enfermedades degenerativas, **miocardiopatías infiltrativas**, **enfermedades infecciosas (Lyme, sífilis, difteria)** y bloqueos AV congénitos. El **tromboembolismo pulmonar NO figura en ningún punto de esta tabla** ni en el resto del pasaje bibliográfico como causa de bloqueo AV. En una mujer joven sin antecedentes, sin fármacos ni alteraciones hidroelectrolíticas, con BAV completo aislado, la opción C ("una enfermedad infiltrativa o inflamatoria sistémica", no elegida) coincide exactamente con dos de las categorías etiológicas explícitamente listadas por la bibliografía, mientras que la opción B (embolia de pulmón, oficial) no tiene ningún respaldo bibliográfico como causa de bloqueo AV. Ver hallazgo #108 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Ante un bloqueo aurículo-ventricular completo de aparición brusca en una mujer joven sin cardiopatía previa, sin fármacos ni tóxicos ni alteraciones hidroelectrolíticas, la sospecha clínica clásica debe dirigirse hacia una causa infiltrativa o inflamatoria del sistema de conducción (sarcoidosis cardiaca, miocarditis de células gigantes, enfermedad de Lyme, lupus u otra conectivopatía), ya que estas entidades pueden afectar selectivamente el tejido de conducción en pacientes jóvenes sin otra cardiopatía estructural evidente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-119
 ¿Cuál de los siguientes criterios se considera de alto riesgo en la estratificación de un síncope?:
@@ -109,9 +111,7 @@ B. La estimulación con marcapasos en el síncope recurrente asociado a un mecan
 C. Los fármacos betabloqueantes reducen la mortalidad de los síncopes reflejos.
 D. Las contracciones musculares isotónicas son útiles en pacientes jóvenes con síncope reflejo y pródromos.
 
-**Respuesta correcta: B**
-
-*(Sin discrepancia relevante — por eliminación es la única opción compatible con la bibliografía, que cita directamente esta pregunta ("MIR 24, 113") junto a la indicación de maniobras de contrapresión ante pródromos: el tratamiento del síncope reflejo NO es fundamentalmente farmacológico (descarta A), no hay evidencia de que los betabloqueantes reduzcan la mortalidad de síncopes reflejos —de por sí ya benigna— (descarta C), y las contracciones musculares útiles son ISOMÉTRICAS, no isotónicas (descarta D). Nótese que la bibliografía vincula la eficacia del marcapasos específicamente al mecanismo CARDIOINHIBIDOR, no al "mecanismo hipotensor" tal como lo describe la opción B de forma más laxa — una imprecisión terminológica menor que no cambia cuál es la mejor respuesta por eliminación.)*
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2024-012
 Pregunta asociada a la imagen 12. Hombre de 80 años, fumador. Refiere en los últimos días episodios de mareos no relacionados con el ejercicio ni el estrés, de unos 3-4 minutos de duración. Solicita atención urgente en su domicilio tras presentar un síncope, con pérdida completa de conciencia, de unos 15-20 segundos de duración. La presión arterial es 110/40 mmHg. Se obtiene el ECG de la imagen. ¿Cuál es su diagnóstico?:
@@ -149,11 +149,11 @@ D. Mujer de 37 años con síncope en reposo precedido de palpitaciones.
 
 ### MIR-2021-124 (referenciada, no contabilizada aquí)
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-*(Ya incorporada y verificada en el módulo CAR-07 "Taquicardias" — ver hallazgo #54: marcapasos AAI marcado como correcto en una paciente en fibrilación auricular permanente con BAV completo sintomático, cuando la bibliografía indica explícitamente VVI para este escenario exacto, con cita directa a esta misma pregunta ("MIR 22, 124") confirmando la indicación de VVI "en pacientes con bloqueo aurículo-ventricular en los que no interesa estimular en la AD, básicamente porque están en fibrilación auricular permanente". No se duplica ni se recuenta aquí; se referencia por su relación directa con el contenido de marcapasos de este módulo — ver §1.6.)*
+**Explicación:** En una paciente con fibrilación auricular crónica permanente que desarrolla bloqueo aurículo-ventricular completo sintomático, la aurícula ya no tiene una actividad eléctrica organizada capaz de ser sensada o estimulada de forma útil (al estar en fibrilación auricular), por lo que un marcapasos bicameral (DDD) no aportaría beneficio adicional sobre la estimulación auricular, siendo redundante e innecesariamente complejo. Tampoco tendría sentido implantar un marcapasos unicameral auricular (AAI), que requiere un nodo sinusal funcionante y una conducción AV intacta, justo lo contrario de lo que ocurre en este bloqueo AV completo. Dado que la función sistólica biventricular está conservada (sin indicación de resincronización, reservada a pacientes con disfunción ventricular y disincronía), el dispositivo indicado es un marcapasos unicameral ventricular (VVI), que estimula el ventrículo de forma fija o con respuesta en frecuencia, adecuado en pacientes con FA permanente y bloqueo AV completo sintomático.
 
-> **Nota de cobertura y fiabilidad:** 6 preguntas reales nuevas en este módulo (2020, 2022, 2023, 2024×2, 2025) + 1 referenciada de un módulo previo (2021). De las 6 nuevas, **1 con discrepancia de alta confianza** (MIR-2020-131, #108), confirmada por cita textual directa de la bibliografía junto al número de la pregunta.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

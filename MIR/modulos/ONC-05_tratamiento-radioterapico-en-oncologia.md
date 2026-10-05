@@ -73,9 +73,11 @@ B. Carcinoma ductal infiltrante de mama tras intervención quirúrgica del lecho
 C. Glioblastoma multiforme resecado parcialmente.
 D. Adenocarcinoma de próstata T1N0M0 Gleason 6.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** el manual CTO de Oncología (Tema 5.3) reproduce esta misma pregunta de forma literal como ejercicio de práctica al final del capítulo, con las mismas 4 opciones (numeradas 1-4 en vez de A-D, en el mismo orden), e imprime explícitamente **"RC: 3"** como respuesta correcta — es decir, la opción C (glioblastoma multiforme), no la A (adenocarcinoma de endometrio). Esto es clínicamente coherente: la braquiterapia SÍ es una alternativa efectiva y estándar en el adenocarcinoma de endometrio (opción A), mientras que el glioblastoma no se beneficia de braquiterapia como alternativa eficaz de tratamiento. Se trata de una fuente de verificación excepcionalmente directa (no una comparación de texto/contenido, sino la propia clave impresa por la editorial del manual para esta pregunta exacta). Ver hallazgo #95 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial del dataset (A) sin alterar, conforme a la política del proyecto.
+**Explicación:** La braquiterapia es una técnica de radioterapia interna que tiene indicaciones bien establecidas y eficaces en el cáncer de endometrio en estadios iniciales (braquiterapia vaginal adyuvante), en el boost tras cirugía conservadora de mama con márgenes ajustados, y en el cáncer de próstata de bajo riesgo (T1N0M0, Gleason bajo), donde la braquiterapia con semillas es una alternativa curativa consolidada. En el glioblastoma multiforme, la braquiterapia intersticial se ha empleado históricamente de forma experimental, pero no ha demostrado un beneficio claro en ensayos clínicos y no forma parte del arsenal terapéutico estándar actual, por lo que sería la opción en la que la braquiterapia NO constituye una alternativa eficaz consolidada (opción C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-144
 En relación con el tratamiento con radioterapia, señale la respuesta INCORRECTA:
@@ -85,9 +87,11 @@ B. Se emplea también para determinadas patologías benignas.
 C. Está contraindicada para el tratamiento de tumores pediátricos.
 D. Tiene una demostrada utilidad en el control del dolor por metástasis óseas.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía CTO confirma textualmente cada una de las otras 3 opciones como VERDADERAS: (A) *"el objetivo de la radioterapia es suministrar una dosis de radiación... con intención curativa, paliativa..."* — confirma que SÍ puede ser curativa; (B) *"en algunas ocasiones, en el tratamiento de enfermedades benignas (schwannoma vestibular, malformaciones arteriovenosas...)"* — confirma el uso en patologías benignas; (D) *"la radioterapia puede ser efectiva para aliviar el dolor con una efectividad... en torno a un 60-90%"* — confirma la utilidad antiálgica en metástasis óseas. En cambio, la opción C (radioterapia "contraindicada" en tumores pediátricos) es contradicha por la propia bibliografía, que dedica un apartado entero (protonterapia) a sus indicaciones específicamente en **"tumores en población pediátrica"** — la radioterapia (mediante protonterapia) no solo no está contraindicada, sino que tiene indicaciones específicas reforzadas en este grupo de edad. Por tanto, la afirmación INCORRECTA que la pregunta busca sería la C, no la A. Ver hallazgo #95. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La radioterapia es en la actualidad una herramienta terapéutica muy versátil en oncología: puede emplearse con intención curativa en múltiples tumores (sola o combinada con cirugía/quimioterapia) (opción A verdadera), se utiliza también en determinadas patologías benignas (por ejemplo, queloides, pterigión, malformaciones arteriovenosas) (opción B verdadera), y tiene una eficacia bien demostrada en el control paliativo del dolor por metástasis óseas (opción D verdadera). La radioterapia NO está contraindicada en los tumores pediátricos; de hecho, forma parte del tratamiento estándar de numerosas neoplasias infantiles (por ejemplo, meduloblastoma, sarcoma de Ewing, tumor de Wilms en determinados estadios), si bien se emplea con especial cautela por el riesgo de secuelas a largo plazo sobre el crecimiento y el desarrollo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-146
 La radioterapia en el tratamiento del cáncer de mama localmente avanzado y pronóstico molecular adverso:
@@ -97,11 +101,11 @@ B. Está contraindicada después de la mastectomía.
 C. Está contraindicada después de la quimioterapia neoadyuvante.
 D. Su mejor alternativa estética es la irradiación parcial de la mama.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía CTO (Tema 5.4) describe explícitamente, para el estadio localmente avanzado, la **"irradiación ganglionar regional tras cirugía conservadora de mama con ≥4 ganglios afectos"** y la **"radioterapia adyuvante a la pared torácica postmastectomía en pacientes con afectación ganglionar regional"** — es decir, la radioterapia en este contexto SÍ debe incluir las regiones ganglionares locorregionales (opción A, no elegida), y NO está contraindicada tras mastectomía (descarta B) ni existe ninguna mención de contraindicación tras quimioterapia neoadyuvante (la secuencia neoadyuvancia→cirugía→RT adyuvante es la práctica estándar descrita implícitamente en el texto). Además, la irradiación parcial de la mama (opción D) está reservada explícitamente a un perfil de BAJO riesgo (BRCA negativo, >50 años, tumor luminal ≤2cm, sin invasión linfovascular) — el perfil opuesto al descrito en el enunciado (localmente avanzado, pronóstico molecular adverso), por lo que D tampoco es plausible como respuesta. Todo apunta a que la opción correcta debería ser A, no C. Ver hallazgo #95. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** En el cáncer de mama localmente avanzado con perfil molecular de mal pronóstico, la radioterapia adyuvante debe incluir de forma característica las regiones ganglionares locorregionales (cadenas mamaria interna, supraclavicular y axilar según el caso), dado el alto riesgo de recaída regional en este contexto (opción A). La radioterapia no está contraindicada tras la mastectomía; al contrario, la radioterapia posmastectomía está indicada precisamente en la enfermedad localmente avanzada o con factores de mal pronóstico. Tampoco está contraindicada tras la quimioterapia neoadyuvante, siendo esta la secuencia terapéutica habitual (neoadyuvancia, cirugía y radioterapia adyuvante) en la enfermedad localmente avanzada. La irradiación parcial de la mama, por su parte, está indicada en tumores de bajo riesgo, unifocales y sin afectación ganglionar, por lo que no sería la alternativa estética de elección en un tumor localmente avanzado de mal pronóstico.
 
-> **Nota de cobertura y fiabilidad:** 4 preguntas reales (2020, 2021, 2022×2), **3 de ellas con discrepancia de alta/máxima confianza (75%)** — una de las concentraciones más altas del proyecto, con la particularidad de que una de las 3 (MIR-2021-158) está confirmada no por comparación de contenido sino por la clave impresa explícitamente por la propia editorial CTO al reproducir la pregunta como ejercicio.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

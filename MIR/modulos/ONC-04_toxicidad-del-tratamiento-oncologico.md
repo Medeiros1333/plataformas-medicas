@@ -49,9 +49,11 @@ B. Hiperuricemia.
 C. Hiperfosfatemia.
 D. Uremia.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 204)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 204)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía CTO (§1.1) es textual y coincide además con el propio módulo `ONC-01` de este proyecto (construido de forma independiente en un lote anterior): "Hiperpotasemia, hiperfosfatemia, hiperuricemia y acidosis láctica. **Hipocalcemia** secundaria a la hiperfosfatemia" — es decir, la hiperfosfatemia SÍ es una manifestación característica (contradiciendo la clave oficial, que la marca como la excepción), mientras que es la **hipercalcemia** (opción A, no elegida) la que nunca aparece en este síndrome (al contrario, cursa con hipocalcemia). No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** El síndrome de lisis tumoral se caracteriza clásicamente por la tétrada de hiperuricemia (por catabolismo masivo de ácidos nucleicos) (opción B), hiperpotasemia, hiperfosfatemia (por liberación del contenido intracelular de las células tumorales lisadas) (opción C) e HIPOcalcemia secundaria (no hipercalcemia), ya que el exceso de fosfato precipita con el calcio sérico formando fosfato cálcico, lo que reduce sus niveles circulantes; todo ello puede desembocar en fracaso renal agudo y uremia (opción D). Por tanto, la alteración que NO forma parte del síndrome de lisis tumoral es la hipercalcemia (de hecho, ocurre justo lo contrario, hipocalcemia), no la hiperfosfatemia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-153
 ¿Cuál de los siguientes datos NO es relevante antes de iniciar un tratamiento adyuvante con fluorouracilo a un paciente intervenido de cáncer de colon?:
@@ -99,7 +101,7 @@ D. Ustekinumab.
 
 > **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 5 preguntas reales, manteniendo las discrepancias previas y sumando 2 limpias más.
 
-### MIR-2022-054 ⚠️
+### MIR-2022-054
 Paciente de 69 años diagnosticado de linfoma a quien se pauta un tratamiento intravenoso con metotrexato. Al tercer día de tratamiento presenta nefrotoxicidad y retraso en la eliminación renal del fármaco con pH urinario menor de 7. Teniendo en cuenta la naturaleza química del metotrexato (pKa entre 4 y 5,5). ¿Cuál de las siguientes actuaciones sería la más correcta para manejar la toxicidad?:
 
 A. Administración intravenosa de suero fisiológico con cloruro amónico para facilitar la eliminación renal del metotrexato.
@@ -107,11 +109,11 @@ B. Administración intravenosa de solución de bicarbonato sódico para acelerar
 C. Administración enteral de solución de bicarbonato sódico para reducir la absorción digestiva del metotrexato.
 D. Administración intravenosa de furosemida en suero con pH neutro para provocar una diuresis forzada.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio farmacocinético fundamental, coherente con la propia pKa citada en el enunciado):** el manejo estándar y bien establecido de la toxicidad/eliminación retardada del metotrexato es la ALCALINIZACIÓN URINARIA con bicarbonato sódico INTRAVENOSO (junto con hiperhidratación y rescate con leucovorina/folinato cálcico) — al ser el metotrexato un ácido débil (pKa 4-5,5, dato explícitamente dado en el enunciado), su forma ionizada (favorecida a pH urinario ALCALINO) es mucho menos reabsorbible a nivel tubular renal y más soluble, aumentando su eliminación urinaria y reduciendo el riesgo de precipitación tubular/nefrotoxicidad. La clave oficial C propone una vía ENTERAL para "reducir la absorción digestiva" — un mecanismo sin sentido clínico en este contexto, ya que el fármaco se administra por vía INTRAVENOSA (no hay absorción digestiva que reducir) y lo que se busca es aumentar la ELIMINACIÓN renal, no reducir la absorción oral. Apoya la opción B. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El metotrexato es un ácido débil (pKa 4-5,5) que se elimina predominantemente por vía renal; en orina ácida (pH<7) su forma predominante es la no ionizada, mucho menos soluble, lo que favorece su precipitación intratubular y el consiguiente daño renal, así como una menor eliminación urinaria del fármaco. La estrategia estándar para prevenir y tratar esta nefrotoxicidad es la hiperhidratación junto con la alcalinización de la orina mediante bicarbonato sódico intravenoso, que aumenta la fracción ionizada e hidrosoluble del fármaco, reduciendo su precipitación tubular y acelerando su aclaramiento renal.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 6 preguntas reales, sumando 1 discrepancia nueva de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

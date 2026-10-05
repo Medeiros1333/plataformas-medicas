@@ -83,7 +83,11 @@ B. Colgajo libre de músculo dorsal ancho con isla cutánea.
 C. Colgajo pediculado de trapecio (musculocutáneo).
 D. Colgajo libre SCIP (derivado del sistema circunflejo ilíaco superficial).
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 57; el SCIP está indicado específicamente para defectos pequeños y de poco grosor, no para una región como la cervical posterior; el ALT sí es útil en reconstrucción de cabeza/cuello y el dorsal ancho libre en cobertura de grandes defectos, ver §1.2; pregunta sin discrepancia)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 57)*
+
+**Explicación:** Para reconstruir un defecto de la región cervical posterior pueden emplearse colgajos LIBRES (microquirúrgicos), que se anastomosan a vasos receptores cervicales y por tanto pueden llevarse a cualquier región con vasos adecuados, como el colgajo libre de dorsal ancho (B) o el colgajo libre SCIP (D), y colgajos PEDICULADOS regionales cuyo arco de rotación alcance el defecto, como el colgajo musculocutáneo de trapecio (C), opción clásica para la nuca y el occipucio. Lo que NO podría utilizarse es un colgajo anterolateral de muslo PEDICULADO (A): al mantener su pedículo en el muslo (rama descendente de la arteria circunfleja femoral lateral), su arco de rotación solo alcanza zonas próximas como el abdomen inferior, la ingle, el periné o la rodilla, nunca el cuello. (Como colgajo LIBRE, el anterolateral de muslo sí es muy utilizado en cabeza y cuello.)
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-050
 Respecto al colgajo DIEP (Deep inferior epigastric perforator), señale la respuesta INCORRECTA:

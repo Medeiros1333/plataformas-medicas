@@ -69,9 +69,11 @@ B. Es típica la presencia de hiperaflujo sanguíneo pulmonar.
 C. Ante toda sospecha debe administrarse precozmente una perfusión de prostaglandina E1.
 D. La silueta cardiaca presenta la típica imagen de corazón en bota.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 90)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 90)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía clasifica expresamente la Tetralogía de Fallot dentro del epígrafe "Cardiopatías congénitas cianóticas con FLUJO PULMONAR DISMINUIDO", y describe textualmente en su radiología "poca vascularización en los campos pulmonares" — es decir, HIPOaflujo, no hiperaflujo pulmonar. La opción B, marcada como verdadera por la clave oficial (al no señalarla como la incorrecta), contradice directamente este dato central de la enfermedad. La opción D (corazón en "zueco"/bota) sí está confirmada textualmente por la bibliografía. No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (B es la afirmación incorrecta, no C) en el punto clave 1 de este módulo.
+**Explicación:** En la tetralogía de Fallot, la obstrucción del tracto de salida del ventrículo derecho (estenosis pulmonar) condiciona una disminución, no un aumento, del flujo sanguíneo pulmonar, lo que junto con el cortocircuito derecha-izquierda a través de la comunicación interventricular explica la cianosis del paciente; por ello, la administración de oxígeno al 100% en la prueba de hiperoxia no logra elevar de forma significativa la saturación arterial, ya que la limitación principal es el escaso flujo pulmonar y el shunt anatómico, no un problema de difusión alveolo-capilar. La radiografía de tórax muestra la clásica silueta en 'corazón en bota' o 'zueco', por la hipertrofia del ventrículo derecho con ápex elevado y concavidad en el arco de la arteria pulmonar. La perfusión de prostaglandina E1 solo está indicada de forma precoz en las formas graves o críticas con circulación pulmonar ductus-dependiente, no de manera sistemática 'ante toda sospecha' de tetralogía de Fallot, ya que muchos pacientes con estenosis pulmonar leve-moderada mantienen flujo anterógrado suficiente sin depender del ductus, lo que hace que esta generalización sea la afirmación incorrecta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-097
 ¿Cuál de los siguientes hallazgos NO esperaría encontrar en una mujer de 28 años con una comunicación interauricular evolucionada?:
@@ -101,11 +103,13 @@ B. Persistencia del ductus arterioso.
 C. Tetralogía de Fallot.
 D. Enfermedad de Ebstein.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 119)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 119)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) describe la transposición de grandes vasos casi palabra por palabra como el enunciado: "Radiografía de tórax: plétora pulmonar e imagen 'de huevo colgando de una cuerda': corazón ovalado con pedículo estrecho" junto con "ECG: signos de sobrecarga del VD" — coincidiendo de forma prácticamente literal con la "imagen de huevo" y la "hipertrofia de ventrículo derecho" del enunciado, además de la cianosis al nacimiento (frente al Fallot, que no da síntomas hasta la lactancia). La clave oficial (B, persistencia del ductus arterioso) no encaja con ninguno de estos hallazgos: el DAP no produce cianosis al nacimiento en su forma aislada, ni imagen "en huevo", ni sobrecarga de VD específica. No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** En un recién nacido a término cianótico con hipoxemia grave (pO2 30 mmHg), hipertrofia de ventrículo derecho en el electrocardiograma y una silueta cardiaca en 'huevo' o 'balón' en la radiografía de tórax (por la posición anómala de los grandes vasos que estrecha el mediastino superior), el diagnóstico más probable es la transposición de las grandes arterias, en la que la aorta nace del ventrículo derecho y la arteria pulmonar del izquierdo, generando dos circuitos paralelos (sistémico y pulmonar) sin comunicación adecuada, siendo la supervivencia inmediata del neonato dependiente de que exista mezcla de sangre a través de comunicaciones fetales persistentes, fundamentalmente el ductus arterioso persistente (y el foramen oval), por lo que mantener la permeabilidad del ductus mediante prostaglandina E1 es una medida puente esencial mientras se organiza la corrección quirúrgica definitiva. El razonamiento se apoya en la combinación de cianosis extrema, hipertrofia derecha e imagen radiológica característica de 'huevo', clásica de la D-transposición de grandes arterias.
 
-### MIR-2021-081 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-081
 Con respecto a las comunicaciones interventriculares (CIV) en la infancia, señale la respuesta INCORRECTA:
 
 A. Exceptuando la válvula aórtica bicúspide, la CIV es la cardiopatía congénita más frecuente.
@@ -113,9 +117,11 @@ B. Las CIV localizadas en la porción media y apical del tabique interventricula
 C. La repercusión clínica y la necesidad de tratamiento dependen del tamaño de la comunicación.
 D. Las CIV membranosas son las más frecuentes y la que tienen más probabilidad de cierre espontáneo.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, en el epígrafe dedicado a la CIV, contiene dos afirmaciones directamente relevantes. Primero, de forma casi literal a la opción A: *"Es la cardiopatía congénita más frecuente, exceptuando la válvula aórtica bicúspide"* — coincidiendo textualmente con el enunciado de la opción A, lo que sugiere que A es VERDADERA (no la respuesta buscada). Segundo, con cita textual DIRECTA a esta misma pregunta: *"Tanto las CIV membranosas como las musculares pueden cerrarse espontáneamente..., esto es más frecuente en las CIV musculares (MIR 22, 81)"* (desfase de año habitual de ±1) — lo que contradice directamente la opción D, que afirma que son las CIV MEMBRANOSAS las que tienen mayor probabilidad de cierre espontáneo (según la bibliografía, es al revés: las musculares cierran espontáneamente con más frecuencia). Esto apunta a D, no A, como la afirmación incorrecta. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la D. Las CIV perimembranosas son las más frecuentes (en torno al 70-80%), pero las que tienen mayor probabilidad de cierre espontáneo son las MUSCULARES (trabeculares), sobre todo las pequeñas, por la hipertrofia del músculo que las rodea. El resto es correcto: exceptuando la válvula aórtica bicúspide, la CIV es la cardiopatía congénita más frecuente (A); las CIV situadas en la porción media y apical del tabique son de tipo muscular (B); y la repercusión clínica (hiperaflujo pulmonar, insuficiencia cardiaca, hipertensión pulmonar) y la necesidad de tratamiento dependen fundamentalmente del tamaño de la comunicación y de las resistencias pulmonares (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -82,9 +82,11 @@ B. Suele manifestarse ya en el periodo neonatal con síndrome pierde-sal y viril
 C. El tratamiento de mantenimiento con hidrocortisona en monoterapia es suficiente para controlar la pérdida salina.
 D. Los niveles de 17-OH-progesterona se encuentran disminuidos.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 80)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 80)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.5) es explícita en el apartado de tratamiento de la HSC: "Si pérdida salina: mineralocorticoides" — es decir, la hidrocortisona sola NO es suficiente cuando hay pérdida salina, contradiciendo directamente la clave oficial (C). Además, la bibliografía confirma que los niveles de 17-OH-progesterona están AUMENTADOS (no disminuidos, opción D) y describe la presentación neonatal con crisis de pérdida salina y virilización del feto femenino (opción B), lo que hace de B la afirmación más consistente con el texto. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** La forma clásica pierde-sal del déficit de 21-hidroxilasa se manifiesta ya en el periodo neonatal, habitualmente en la primera o segunda semana de vida, con una crisis de insuficiencia suprarrenal aguda (hiponatremia, hiperpotasemia, deshidratación, shock) por el déficit combinado de cortisol y aldosterona, y en las niñas se acompaña de virilización de los genitales externos (genitales ambiguos) por el exceso de andrógenos suprarrenales derivado del bloqueo enzimático, que desvía los precursores hacia la síntesis de andrógenos. El tratamiento de mantenimiento de la forma pierde-sal requiere siempre la combinación de un glucocorticoide (hidrocortisona) junto con un mineralocorticoide (fludrocortisona), ya que la hidrocortisona en monoterapia, aunque suprime parcialmente el eje y aporta actividad mineralocorticoide débil a dosis altas, resulta insuficiente para controlar de forma segura la pérdida salina en la mayoría de los pacientes.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-161
 La insuficiencia suprarrenal central debida a la supresión del eje hipotálamo-hipófiso-adrenal por la administración de corticoides:
@@ -94,9 +96,11 @@ B. La dosis y la duración de la corticoterapia no se asocian directamente con e
 C. La administración de corticoides suprime la secreción de ACTH pero no afecta la secreción de CRH.
 D. La resolución de la insuficiencia suprarrenal tras corticoterapia crónica se produce 24-48 horas tras la retirada del fármaco.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 161)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 161)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.4) confirma casi textualmente la opción A: la supresión del eje por glucocorticoides exógenos es "la causa más frecuente de insuficiencia suprarrenal secundaria **y de insuficiencia suprarrenal en general**" — una coincidencia casi literal con la opción A, no marcada como correcta. La clave oficial (C) no tiene respaldo textual en esta bibliografía (no se describe ningún efecto diferencial sobre CRH frente a ACTH), y la opción D es claramente falsa: la bibliografía indica que la atrofia de la capa fasciculorreticular y la recuperación del eje se producen en un plazo de **semanas** (aproximadamente 6 semanas tras el cese de la síntesis de ACTH), no en 24-48 horas. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** La insuficiencia suprarrenal secundaria (central) por supresión del eje hipotálamo-hipófiso-adrenal debida a la administración prolongada de corticoides exógenos es, en conjunto, la causa más frecuente de insuficiencia suprarrenal en la práctica clínica, muy por encima de las causas primarias o de otras causas centrales. El riesgo de supresión del eje y la duración de dicha supresión tras retirar el corticoide se relacionan directamente con la dosis, la duración del tratamiento y la potencia del glucocorticoide empleado, de forma que tratamientos prolongados y a dosis altas se asocian a una recuperación del eje mucho más lenta (semanas a meses), lo que obliga a una retirada gradual y escalonada del tratamiento corticoideo crónico en lugar de una suspensión brusca.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-162
 Una vez confirmado un síndrome de Cushing por criterios clínicos y bioquímicos, ¿cuál es la prueba fundamental para averiguar su causa?:
@@ -106,9 +110,11 @@ B. Prueba de supresión de cortisol con dosis altas de dexametasona.
 C. Muestreo de seno petroso inferior y cateterismo venoso selectivo.
 D. Resonancia magnética de la región hipotálamohipofisaria.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 162)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 162)*
 
-> ⚠️ **Nota de verificación fuerte:** el algoritmo de diagnóstico etiológico del síndrome de Cushing en la bibliografía AMIR (§1.2, Figura 4/Tabla 3) sitúa la determinación de **ACTH plasmática** como el primer paso ("Localización → ACTH"), que bifurca todo el estudio posterior (ACTH-dependiente ≥10 vs. independiente <10 pg/ml). El cateterismo de senos petrosos inferiores aparece mucho más adelante en el algoritmo, reservado específicamente para los casos ACTH-dependientes en los que la RM hipofisaria no logra localizar el origen — no es "la prueba fundamental" inicial que pide el enunciado. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** Una vez confirmado bioquímicamente el síndrome de Cushing (mediante cortisol libre urinario, cortisol salival nocturno o test de supresión con dosis bajas de dexametasona), el siguiente paso fundamental es determinar su causa, diferenciando entre las formas ACTH-dependientes (enfermedad de Cushing hipofisaria o secreción ectópica de ACTH) y las ACTH-independientes (origen suprarrenal primario), mediante la determinación de ACTH plasmática; si esta es normal o elevada (ACTH-dependiente) y la resonancia magnética hipofisaria no es concluyente o existen dudas sobre el origen hipofisario frente al ectópico, la prueba de referencia para localizar el origen es el cateterismo bilateral de senos petrosos inferiores con determinación simultánea de ACTH central y periférica (basal y tras estímulo con CRH), que permite establecer con gran precisión si la fuente de ACTH es hipofisaria.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-126
 Varón de 58 años con antecedentes de hipertensión arterial de 6 años de evolución, que consulta por mal control de las cifras de presión arterial a pesar de recibir tratamiento con un inhibidor de la enzima convertidora de angiotensina, un diurético y un calcioantagonista. En consulta presenta cifras de 149/100 mmHg. Analítica: creatinina 1,2 mg/dl, potasio 2,2 mEq/l y alcalosis metabólica compensada; resto del estudio bioquímico, hemograma, coagulación y sedimento urinario normal. Señale la afirmación correcta:
@@ -118,9 +124,7 @@ B. En la mayoría de los casos el sustrato anatómico es una hiperplasia bilater
 C. La TC forma parte del estudio diagnóstico en caso de haber una confirmación bioquímica.
 D. La espironolactona está contraindicada en el manejo de esta patología.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 126)*
-
-> ⚠️ **Nota de verificación fuerte:** la clave oficial (A) contiene un error anatómico elemental: la bibliografía AMIR (§1.1) es explícita en que la aldosterona se produce en la **corteza** suprarrenal (capa glomerular), mientras que la **médula** produce catecolaminas — son estructuras y funciones distintas. Un hiperaldosteronismo nunca puede deberse a "hiperfunción autónoma de la médula suprarrenal". Además, la bibliografía (§1.3) confirma que la opción B es cierta ("la hiperplasia bilateral idiopática es la causa más frecuente de hiperaldosteronismo primario, 60% de los casos") y que la opción D es falsa (la espironolactona es precisamente el tratamiento médico de elección en la hiperplasia bilateral, no está contraindicada). No se ha alterado `respuesta_correcta` (se mantiene A).
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2021-171
 Mujer de 38 años que consulta por astenia e hipotensión de seis meses de evolución. Después de una evaluación extensa, en la analítica únicamente destaca cortisol 8 microg/dl (5-25 microg/dl) y ACTH de 240 pg/ml (10-60 pg/ml). ¿Cuál de las siguientes afirmaciones es cierta?:
@@ -130,9 +134,11 @@ B. Se trata de un síndrome de resistencia a la ACTH y debe solicitarse consejo 
 C. Debe descartarse tumor hipofisario secretor de ACTH.
 D. Se trata de una secreción ectópica de ACTH y debe buscarse una neoplasia.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 171)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 171)*
 
-> ⚠️ **Nota de verificación fuerte:** el perfil hormonal descrito (ACTH muy elevada, muy por encima del rango normal, junto con un cortisol bajo-normal, en el extremo inferior del rango) es el patrón clásico de **insuficiencia suprarrenal primaria** según la bibliografía AMIR (§1.4): "Niveles de ACTH: para diferenciar entre ISR primaria (ACTH elevada) y secundaria (ACTH normal o baja)". Un tumor hipofisario productor de ACTH (enfermedad de Cushing, clave oficial C) cursaría con **cortisol ELEVADO**, no bajo-normal, y clínicamente con hipertensión, no con astenia e hipotensión como en este caso. El siguiente paso diagnóstico consistente con la bibliografía sería el test de estimulación con ACTH ante la sospecha de ISR primaria (opción A). No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** La combinación de astenia e hipotensión crónicas junto con una ACTH marcadamente elevada (240 pg/mL, muy por encima del rango normal) y un cortisol inapropiadamente bajo-normal para ese grado de estimulación (8 microg/dL) es compatible con una insuficiencia suprarrenal primaria en fase inicial, en la que la pérdida de la retroalimentación negativa por el fallo progresivo de la corteza suprarrenal eleva la ACTH antes de que el cortisol basal caiga claramente por debajo del rango de referencia. Ante esta sospecha, el estudio funcional debe completarse con un test de estimulación con ACTH (cosintropina), que en la insuficiencia suprarrenal primaria mostrará una respuesta plana o insuficiente del cortisol, confirmando el diagnóstico y orientando después hacia su etiología (autoinmune, infecciosa, infiltrativa). Una ACTH tan elevada es incompatible con una secreción hipofisaria autónoma de ACTH (que cursaría con hipercortisolismo, no con cortisol bajo e hipotensión).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-156
 Está de guardia en urgencias y valora a un hombre de 45 años que consulta por vómitos de 2-3 días de evolución con disconfort abdominal y astenia intensa desde hace 1 mes. La presión arterial en triaje es 85/40 mmHg. Cuando lo explora objetiva hiperpigmentación parcheada en la cavidad oral y en la analítica destaca sodio de 134 mEq/L. ¿Cuál es su primera opción diagnóstica de las expuestas a continuación?:

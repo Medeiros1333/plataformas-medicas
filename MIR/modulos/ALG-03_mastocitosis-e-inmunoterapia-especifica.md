@@ -84,14 +84,12 @@ B. Inmunoterapia específica vía sublingual o vía subcutánea durante un perio
 C. Omalizumab vía subcutánea cada 4 semanas durante un período máximo de 1 año.
 D. Omalizumab vía subcutánea cada 4 semanas durante un período mínimo de 6 meses.
 
-**Respuesta correcta: C**
-**Justificación de cada opción:**
-- **C (correcta según clave oficial):** se marca como correcta la opción del omalizumab durante un período máximo de 1 año.
-- A: la inmunoterapia específica sí es, conceptualmente, el tratamiento ETIOLÓGICO por excelencia de la rinoconjuntivitis alérgica por sensibilización confirmada (a diferencia del omalizumab, que es sintomático/biológico), y su duración mínima recomendada de 3 años coincide con la bibliografía — no se marca como correcta en la clave oficial.
-- B: incorrecta — un período MÁXIMO de 1 año de inmunoterapia es insuficiente según la bibliografía (mínimo 3 años necesario para el efecto inmunomodulador duradero).
-- D: incorrecta — describe un período mínimo distinto del especificado en la opción marcada como correcta.
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de Alergología define la inmunoterapia específica como "el único tratamiento capaz de modificar el curso normal de la enfermedad" alérgica, y el omalizumab como un tratamiento sintomático/biológico que bloquea la IgE circulante sin modificar la sensibilización de base — lo que generaría cierta tensión con la clave oficial (C), que marca el omalizumab como la opción "etiológica" correcta. No obstante, dado que se trata de una pregunta MIR histórica con clave ya publicada, se mantiene la clave oficial (C) sin alterar, señalando la limitación para contexto del estudiante.
+**Explicación:** El único tratamiento etiológico de la rinoconjuntivitis alérgica es la inmunoterapia específica con el alérgeno (por vía subcutánea o sublingual) (A), indicada cuando hay una sensibilización IgE demostrada y clínicamente relevante y los síntomas no se controlan con el tratamiento farmacológico (antihistamínicos y corticoides intranasales), como en esta paciente con polinosis por gramíneas. Para conseguir un beneficio clínico mantenido tras su retirada (modificación de la historia natural) debe administrarse durante un periodo mínimo de 3 años, habitualmente 3-5 años; un año es insuficiente (B). El omalizumab (anti-IgE) no es un tratamiento etiológico ni está indicado en la rinitis alérgica estacional en España; su indicación principal es el asma alérgica grave y la urticaria crónica espontánea (C y D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
 **Origen:** real (examen MIR 2021, pregunta 40) | **Referencia bibliográfica:** CTO, *Manual de Alergología*, Tema 6.1 "Inmunoterapia específica con aeroalérgenos".
 
 ### MIR-2022-039

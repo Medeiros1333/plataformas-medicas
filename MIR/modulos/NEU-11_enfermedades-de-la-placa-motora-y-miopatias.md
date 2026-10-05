@@ -60,9 +60,11 @@ B. El síndrome característico consiste inicialmente en la parálisis simétric
 C. Se acompaña de parálisis espástica simétrica ascendente e hiperreflexia.
 D. El periodo de incubación suele ser de 8-36 h tras la ingesta, pero puede ser de hasta 10 días.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la propia tabla comparativa de la bibliografía AMIR (Tema 6, tabla 1) describe el botulismo con **reflejos tendinosos HIPOACTIVOS**, consistente con una parálisis de tipo FLÁCIDO (bloqueo presináptico de la placa motora), no espástico. La opción C afirma justo lo contrario: "parálisis ESPÁSTICA... ascendente e HIPERREFLEXIA" — una descripción que contradice directamente tanto la fisiopatología presináptica del botulismo (que produce debilidad flácida, no espasticidad de motoneurona superior) como el propio dato tabulado de reflejos hipoactivos. Además, el patrón clásico del botulismo es DESCENDENTE (inicio bulbar/craneal, como confirma la opción B), no ascendente. La opción C sería, por tanto, la afirmación realmente incorrecta, no la D. Ver hallazgo #102 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El botulismo está producido por la toxina botulínica, que bloquea la liberación presináptica de acetilcolina en la unión neuromuscular, produciendo una parálisis flácida, simétrica y descendente, que se inicia característicamente por los pares craneales (diplopía, ptosis, disfagia, disartria) y progresa hacia la musculatura de las extremidades y la respiratoria. A diferencia de los procesos centrales, en el botulismo los reflejos osteotendinosos están disminuidos o abolidos y el tono muscular está disminuido, nunca aumentado, ya que se trata de un trastorno de la placa neuromuscular y no de una lesión de primera motoneurona. El periodo de incubación habitual tras la ingesta de alimentos contaminados es de 12 a 36 horas, aunque en casos de baja carga tóxica puede prolongarse excepcionalmente hasta varios días. Ante la sospecha clínica en un brote alimentario confirmado, debe iniciarse de inmediato tratamiento con antitoxina botulínica junto con medidas de soporte, sin esperar a la confirmación microbiológica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-173
 Hombre de 55 años con antecedentes de cáncer de pulmón (estadio IV). Su madre murió a los 65 años por un episodio de broncoaspiración. Consulta por debilidad muscular en los muslos y disfagia. Exploración física: fuerza en psoas 4+/5, cuádriceps 3/5, deltoides 5/5. Presenta ptosis palpebral bilateral y no tiene diplopía. Los valores de CPK eran 900 UI/L (normal <150 UI/L) y los de aldolasa, 7 UI/L (normal <6 UI/L). Se practicó una biopsia en el músculo vasto lateral externo del muslo derecho, en la cual se objetivó variabilidad en el tamaño de fibras, aumento del tejido conectivo, imágenes de pseudodivisión celular y vacuolas ribeteadas; no se observó infiltrado inflamatorio. ¿Qué es lo más probable que le suceda al paciente?:
@@ -84,9 +86,9 @@ D. Nivolumab-Ipilimumab.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 133; consistente con la bibliografía, que describe la miastenia asociada a inhibidores del checkpoint celular como pembrolizumab/nivolumab entre las complicaciones neurológicas de la inmunoterapia —Tema 5.4—; en un paciente con miastenia gravis preexistente, evitar la inmunoterapia con checkpoint inhibitors —opciones A, B y D— y preferir la terapia dirigida BRAF/MEK, disponible al ser BRAF V600E positivo, es la opción de menor riesgo de exacerbación miasténica grave)*
 
-> **Nota de cobertura:** 3 preguntas reales (2023-2025), 1 discrepancia de alta confianza confirmada por contradicción directa con la propia tabla comparativa de la bibliografía.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2021-084 ⚠️
+### MIR-2021-084
 En una enfermedad genética neurológica, el fenómeno de anticipación implica la aparición de las manifestaciones más precozmente y en general de forma más grave en la siguiente generación. Dado que la anticipación ocurre por la expansión de trinucleótidos, indique en cuál de estas enfermedades es posible esperar este fenómeno:
 
 A. Atrofia muscular espinal.
@@ -94,13 +96,13 @@ B. Distrofia muscular de Duchenne.
 C. Enfermedad de Parkinson.
 D. Distrofia miotónica de Steinert.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía describe expresamente la distrofia miotónica de Steinert como *"autosómica dominante, por expansión del triplete CTG"* — un mecanismo de expansión de trinucleótidos con anticipación genética, exactamente el fenómeno descrito en el enunciado. La enfermedad de Parkinson (opción C, marcada como oficial) no es, en ningún punto de la bibliografía ni en la genética médica establecida, una enfermedad por expansión de trinucleótidos — es una entidad mayoritariamente esporádica, sin el patrón de anticipación característico de estas enfermedades. Esto apoya inequívocamente la opción D, no C. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #157 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El fenómeno de anticipación genética es característico de las enfermedades causadas por expansión de repeticiones de trinucleótidos inestables, que tienden a aumentar de tamaño al transmitirse a la descendencia, produciendo un inicio más precoz y mayor gravedad clínica en generaciones sucesivas. Los ejemplos clásicos incluyen la enfermedad de Huntington (repetición CAG en el gen HTT), la distrofia miotónica de Steinert o tipo 1 (repetición CTG en el gen DMPK), el síndrome del X frágil (repetición CGG en el gen FMR1) y las ataxias espinocerebelosas. La distrofia muscular de Duchenne se debe a deleciones o mutaciones puntuales en el gen de la distrofina y no muestra anticipación, y la atrofia muscular espinal se debe a mutaciones o deleciones del gen SMN1, tampoco relacionadas con repeticiones inestables.
 
-> **Nota de cobertura y fiabilidad del módulo:** con esta pregunta se eleva a 4 preguntas reales, **2 discrepancias de alta/máxima confianza**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2022-107 ⚠️
+### MIR-2022-107
 Paciente de 58 años que sufre una neumonía por COVID 19 que precisa intubación con ventilación mecánica en UCI. A la semana se realiza una traqueostomía y sigue precisando ventilación mecánica. Se detecta un déficit motor en las cuatro extremidades con hiporreflexia generalizada. La orientación diagnóstica inicial y la actitud terapéutica a seguir serán:
 
 A. Síndrome de Guillain-Barré. Confirmar el diagnóstico con pruebas complementarias.
@@ -108,11 +110,11 @@ B. Síndrome postCOVID. Rehabilitación respiratoria.
 C. Miopatía del enfermo crítico. Corticoides y pruebas complementarias.
 D. Miopatía del enfermo crítico. Rehabilitación respiratoria y motora intensivas.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (contradicción farmacológica identificable, sin cita bibliográfica directa disponible):** el cuadro (debilidad tetraparética con hiporreflexia generalizada tras estancia prolongada en UCI con ventilación mecánica) es el cuadro clásico de miopatía/polineuropatía del enfermo crítico — en esto coincide la clave oficial con la opción D. Sin embargo, el tratamiento propuesto en la clave oficial (corticoides) es paradójico: los CORTICOIDES son, de hecho, un FACTOR DE RIESGO/CAUSA reconocida de miopatía del enfermo crítico (miopatía esteroidea), no un tratamiento de la misma — no existe tratamiento farmacológico específico para esta entidad; el manejo estándar es exclusivamente de soporte (rehabilitación física y respiratoria intensivas precoces), exactamente lo descrito en la opción D. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El déficit motor generalizado con hiporreflexia que aparece en un paciente crítico tras una estancia prolongada en UCI con ventilación mecánica, en el contexto de una enfermedad grave, es característico de la miopatía y/o polineuropatía del enfermo crítico, un cuadro de debilidad neuromuscular adquirida relacionado con la inflamación sistémica, la inmovilización prolongada, la sepsis y la exposición a determinados fármacos, entre los que se incluyen precisamente los corticoides a dosis altas y los bloqueantes neuromusculares, que constituyen factores de riesgo para su desarrollo y no una opción terapéutica. El tratamiento es fundamentalmente de soporte, basado en la rehabilitación motora y respiratoria intensiva y precoz, junto con el control de los factores de riesgo modificables, ya que no existe un tratamiento farmacológico específico eficaz para esta entidad.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales, **3 discrepancias de alta/máxima confianza**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-079
 Mujer de 35 años consulta por cuadro de diplopia y debilidad proximal progresivas que empeora a lo largo de día. En la exploración neurológica se aprecia voz nasal, ptosis bilateral sin afectación pupilar, limitación para la abducción de ojo derecho y debilidad proximal con reflejos miotáticos conservados. Respecto a esta paciente señale la opción INCORRECTA:
@@ -123,8 +125,6 @@ C. Es frecuente la agregación familiar.
 D. La respuesta a inmunosupresores es mayor en pacientes con anticuerpos antirreceptor de acetilcolina y anticuerpos antiMusk positivos.
 
 **Respuesta correcta: C** — *(confianza fuerte, coherente con el conocimiento estándar de la miastenia gravis: cuadro clásico —fatigabilidad progresiva a lo largo del día, ptosis sin afectación pupilar, diplopía, voz nasal, debilidad proximal con reflejos conservados—. La MG es predominantemente una enfermedad AUTOINMUNE ESPORÁDICA, sin agregación familiar significativa como característica habitual [a diferencia de los síndromes miasténicos CONGÉNITOS, entidad genética distinta] — la opción C es la INCORRECTA buscada. El nivel de anticuerpos anti-AChR no se correlaciona bien con la gravedad clínica [A, verdadera]; la MG se asocia con frecuencia a otras enfermedades autoinmunes, especialmente tiroideas [B, verdadera]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 6 preguntas reales, manteniendo 3 discrepancias y sumando 3 limpias.
 
 ---
 

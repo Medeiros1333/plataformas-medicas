@@ -88,14 +88,11 @@ B. Aciclovir más isoniacida, rifampicina, etambutol y pirazinamida.
 C. Aciclovir más metilprednisolona IV.
 D. Vancomicina, ampicilina y ceftriaxona IV.
 
-**Respuesta correcta: B**
-**Justificación de cada opción:**
-- **B (correcta):** el cuadro (pleocitosis linfocitaria, hiperproteinorraquia, glucosa normal y **ADA elevado >15**) es muy sugestivo de meningitis tuberculosa; dado que no puede descartarse de entrada una encefalitis herpética (fiebre, confusión, crisis comicial, TC normal no la excluye), se cubren empíricamente ambas sospechas con aciclovir + tuberculostáticos (isoniacida, rifampicina, etambutol, pirazinamida) hasta confirmación microbiológica.
-- A: incorrecta — cubre solo la sospecha vírica, dejando sin tratar una probable meningitis tuberculosa (ADA muy elevado, LCR compatible).
-- C: incorrecta — los corticoides no sustituyen a la cobertura tuberculostática empírica ante fuerte sospecha de meningitis TB.
-- D: incorrecta — la cobertura antibiótica bacteriana estándar (vancomicina/ampicilina/ceftriaxona) no encaja con un LCR de predominio linfocitario, glucosa normal y Gram negativo, poco compatible con meningitis bacteriana clásica.
+**Respuesta correcta: A**
 
-> **Nota de contexto:** pregunta centrada en el diagnóstico y tratamiento empírico de una meningoencefalitis subaguda (pleocitosis linfocitaria, hiperproteinorraquia, ADA elevado sugestivo de tuberculosis, sin poder descartar de entrada una encefalitis herpética) — el antecedente de ERC es incidental y no condiciona la respuesta; se incluye en este módulo únicamente por la clasificación de especialidad de la pregunta original.
+**Explicación:** Paciente con fiebre, cefalea, confusión y una crisis comicial, con LCR claro de predominio linfocitario, glucosa normal (80 mg/dl) y proteínas moderadamente elevadas: el cuadro debe considerarse una meningoencefalitis vírica, y la prioridad es cubrir empíricamente la encefalitis herpética con aciclovir intravenoso (A) hasta tener la PCR de VHS en el LCR, ya que su retraso empeora el pronóstico. La glucorraquia normal va en contra de la meningitis tuberculosa (que cursa típicamente con hipoglucorraquia marcada), por lo que no está indicado iniciar tuberculostáticos solo por un ADA discretamente elevado (B): el ADA puede elevarse de forma inespecífica en otras meningitis linfocitarias. Los corticoides no están indicados en la encefalitis herpética (C), y la pauta de vancomicina, ampicilina y ceftriaxona corresponde a una meningitis bacteriana, poco probable con un LCR claro, linfocitario y con glucosa normal (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -107,9 +104,11 @@ B. Antecedentes familiares de nefropatía.
 C. Niveles elevados de fósforo en sangre.
 D. Buena diferenciación ecográfica de corteza y médula renales.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación moderada:** el manual AMIR establece explícitamente que la ecografía distingue el FRA de la ERC por el tamaño renal y **la diferenciación corticomedular**: riñones pequeños y **mala** diferenciación en la ERC, frente a riñones normales y **buena** diferenciación en el FRA. Por tanto, una **buena diferenciación corticomedular (opción D)** sería, según ese criterio explícito del manual, el dato que NO orientaría a pensar en cronicidad (al ser propio del riñón agudo/normal), mientras que el fósforo elevado sí puede aparecer en la ERC avanzada (aunque también en el FRA, por lo que su valor discriminativo es más limitado). Se mantiene la clave oficial (C) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** Ante un filtrado reducido hay que diferenciar si la enfermedad renal es crónica o aguda. Orientan a CRONICIDAD: los riñones de pequeño tamaño (A), con pérdida de la diferenciación corticomedular; los antecedentes familiares de nefropatía (B), que sugieren una enfermedad hereditaria de larga evolución; y las alteraciones del metabolismo óseo-mineral, como la hiperfosfatemia (C), reflejo de una alteración mantenida en el tiempo (junto con la anemia normocítica o el hiperparatiroidismo secundario). Por el contrario, una BUENA diferenciación corticomedular en la ecografía (D) indica un parénquima conservado y orienta más a un proceso agudo o reciente, por lo que es el dato que NO orientaría a una enfermedad renal crónica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -121,13 +120,11 @@ B. Presenta una enfermedad renal crónica estadio 5 y debe considerarse el trata
 C. Un buen control glucémico puede revertir la insuficiencia renal.
 D. Es poco probable que presente una proteinuria superior a 500 mg/24h.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** con un FGe de 14 ml/min, la paciente se encuentra en **estadio G5** (FG <15) según la tabla de estadificación del propio manual AMIR, en la que está indicado **considerar el tratamiento renal sustitutivo** — lo que corresponde exactamente a la opción B, no a la A (que la sitúa erróneamente en estadio 3). Además, en la nefropatía diabética evolucionada a estadio G5 es **muy probable**, no improbable, encontrar proteinuria en rango nefrótico (con frecuencia >500 mg/24h), ya que la glomeruloesclerosis diabética avanzada cursa característicamente con proteinuria progresiva y masiva. Se mantiene la clave oficial (D) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** Con un filtrado glomerular de 14 ml/min/1,73 m² la paciente tiene una enfermedad renal crónica en estadio 5 (FG <15 ml/min) y, por tanto, debe plantearse el tratamiento renal sustitutivo (diálisis o trasplante), o el tratamiento conservador si es la opción elegida (B). El estadio 3 corresponde a un FG de 30-59 ml/min (A falsa). Un buen control glucémico frena la progresión de la nefropatía diabética en fases iniciales, pero no revierte una insuficiencia renal avanzada con daño estructural establecido (C falsa). En la nefropatía diabética avanzada, la proteinuria suele ser importante, a menudo en rango nefrótico, por lo que es muy probable que supere los 500 mg/24 h (D falsa).
 
----
-
-> **Nota — pregunta MIR-2021-195 (no incorporada al banco de preguntas del módulo):** el examen original incluía una pregunta sobre el estadio G3a/A1 de la ERC (mujer de 66 años con DM2), pero su campo `respuesta_correcta` está vacío en la fuente de datos oficial del proyecto (sin clave registrada, no necesariamente una anulación oficial) — mismo patrón que otras ~50 preguntas del banco general que permanecen sin módulo asociado por este motivo. Por coherencia con ese criterio ya establecido en el proyecto, no se incorpora aquí con su propio bloque de "pregunta real" ni se le asigna `modulo_asociado`. A título informativo: según la tabla de estadificación de la ERC del propio manual AMIR (G3a: FG 45-59 ml/min/1,73m²; A1: albuminuria <30 mg/g), la opción que encajaría con la definición de G3a/A1 sería la A.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -139,9 +136,11 @@ B. Glomerulonefritis rápidamente evolutiva.
 C. Nefropatía tubulointersticial crónica.
 D. Nefropatía diabética.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación moderada:** la **ausencia de albuminuria/microalbuminuria** es un dato llamativo que va en contra de la nefropatía diabética (enfermedad glomerular que cursa característicamente con albuminuria progresiva desde fases tempranas) y, en cambio, es típica de la **nefropatía tubulointersticial crónica** (opción C), que por afectar predominantemente al túbulo y no al glomérulo cursa con proteinuria mínima o ausente pese a insuficiencia renal avanzada — coherente también con los riñones pequeños y el hiperparatiroidismo muy elevado (enfermedad de larga evolución). Se mantiene la clave oficial (D) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** Paciente joven con enfermedad renal crónica muy avanzada descubierta de forma casual (creatinina 10 mg/dl, anemia grave, hiperparatiroidismo secundario y riñones pequeños), con diuresis conservada y SIN microalbuminuria. La ausencia de proteinuria/albuminuria y la poliuria con diuresis conservada orientan a una nefropatía tubulointersticial crónica (C) (por ejemplo, por reflujo vesicoureteral o uropatía obstructiva desde la infancia), que evoluciona de forma silente durante años. La nefropatía diabética (D) cursa siempre con albuminuria, a menudo en rango nefrótico; la poliquistosis renal (A) produce riñones AUMENTADOS de tamaño con múltiples quistes; y la glomerulonefritis rápidamente progresiva (B) es un cuadro agudo con riñones de tamaño normal, sedimento activo y proteinuria.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -153,14 +152,7 @@ B. Riesgo moderado.
 C. Riesgo alto.
 D. Riesgo muy alto.
 
-**Respuesta correcta: B**
-**Justificación de cada opción:**
-- **B (correcta):** la combinación de dislipemia, exfumadora reciente, glucemia límite y sobrepeso, sin lesión de órgano diana ni ERC avanzada, sitúa a la paciente en la categoría de **riesgo moderado** según el algoritmo de las guías europeas de prevención cardiovascular.
-- A: incorrecta — la presencia de varios factores de riesgo (dislipemia, tabaquismo reciente, prediabetes, sobrepeso) excluye la categoría de riesgo bajo.
-- C: incorrecta — el riesgo alto requeriría, por ejemplo, un factor de riesgo muy marcado aislado, diabetes con lesión de órgano diana, o una ERC más avanzada (aquí el FGe de 55 ml/min es solo G3a, sin albuminuria significativa).
-- D: incorrecta — el riesgo muy alto se reserva para enfermedad cardiovascular establecida, ERC grave (FGe <30) o combinaciones de factores mucho más desfavorables que las de este caso.
-
-> **Nota de contexto:** pregunta de estratificación de riesgo cardiovascular (guías ESC) en la que el FGe (55 ml/min, estadio G3a) y la albuminuria normal son datos de entrada del algoritmo — se incluye en este módulo por recoger explícitamente el papel de la función renal como modulador del riesgo cardiovascular, coherente con el concepto de la ERC como equivalente de riesgo cardiovascular.
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ---
 
@@ -198,7 +190,7 @@ D. El filtrado glomerular estimado.
 - B: incorrecta — la creatinina plasmática aislada es un mal marcador precoz, ya que solo se eleva por encima de los valores normales cuando el FG ha caído por debajo del 50%.
 - C: incorrecta — el potasio sérico depende de múltiples factores (dieta, fármacos, equilibrio ácido-base) y solo se altera en fases avanzadas de la insuficiencia renal, no es un marcador de función renal en sí mismo.
 
-**Nota de cobertura y fiabilidad del módulo:** cuarto módulo de Nefrología del proyecto, 7 preguntas reales incorporadas con clave oficial verificada, 3 discrepancias señaladas (1 fuerte, 2 moderadas) frente a la enseñanza clásica del manual; una séptima pregunta del pool original (MIR-2021-195) se documenta aparte por carecer de clave oficial registrada en la fuente de datos, sin incorporarse al banco de preguntas del módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -57,9 +57,11 @@ B. Trastornos gastrointestinales con diarrea abundante y deshidratación.
 C. Alcalosis metabólica por toxicidad tubular renal.
 D. Trombopenia grave acompañada de fenómenos trombóticos venosos o arteriales.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 159)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 159)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) describe la trombopenia inducida por heparina (TIH) en estos términos: "en los casos graves es potencialmente mortal... lo que desemboca en trombopenia y, de forma paradójica, trombosis" — coincidiendo de forma prácticamente literal con la opción D, no elegida como correcta. No existe ninguna mención en la bibliografía de trastornos gastrointestinales con diarrea como efecto adverso grave de la heparina (opción B, clave oficial). No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** Además del riesgo hemorrágico inherente a cualquier anticoagulante, la complicación grave más característica y potencialmente mortal del tratamiento con heparina (no fraccionada, y con menor frecuencia heparina de bajo peso molecular) es la trombocitopenia inducida por heparina (TIH), una reacción inmunomediada por anticuerpos frente al complejo heparina-factor plaquetario 4 que produce, paradójicamente, activación plaquetaria y un estado protrombótico, con fenómenos trombóticos venosos y/o arteriales que pueden comprometer extremidades y órganos vitales.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-121
 Varón de 68 años portador de una válvula mecánica mitral, anticoagulado con acenocumarol, que presenta un INR de 9 en un control rutinario en su centro de salud. No tiene síntomas de sangrado en el momento actual. ¿Cuál de las siguientes es la actitud más correcta?:
@@ -81,7 +83,7 @@ D. Síndrome hemolítico urémico.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 146; presentación de manual de TIH: trombopenia aislada en los primeros días tras exposición a heparina profiláctica postquirúrgica, con coagulación y bioquímica normales, ver §1.1)*
 
-### MIR-2021-026 ⚠️
+### MIR-2021-026
 ¿Cuál de los siguientes estudios de la coagulación se encontraría alterado en un paciente en el que se sospecha un trastorno hemorrágico hereditario por deficiencia del factor VII?:
 
 A. Tiempo de tromboplastina parcial activado.
@@ -89,9 +91,11 @@ B. Tiempo de trombina.
 C. Tiempo de protrombina.
 D. Determinación de factor von Willebrand.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 26", desfase de año habitual de ±1), define la vía extrínseca como *"activación secuencial de factor tisular → VIIa"* y afirma expresamente que el **tiempo de protrombina (TP) "valora la vía extrínseca"**. El factor VII pertenece exclusivamente a la vía extrínseca, por lo que su déficit alteraría el TP (opción C), no el tiempo de trombina (opción B, marcada como oficial, que depende de la concentración de fibrinógeno/vía común, no relacionada con el factor VII). Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #160 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El factor VII forma parte exclusivamente de la vía extrínseca de la coagulación, que se explora mediante el tiempo de protrombina (TP); por tanto, en un déficit hereditario de factor VII se espera un TP alargado con un tiempo de tromboplastina parcial activada (TTPA, que explora la vía intrínseca: factores XII, XI, IX y VIII) normal, un tiempo de trombina normal (que evalúa la conversión de fibrinógeno a fibrina, independiente del factor VII) y una determinación de factor von Willebrand normal (no relacionada con el factor VII).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-145
 Hombre de 17 años con hemofilia A grave e inhibidor de alto título frente al FVIII que presenta sangrado agudo a nivel articular. ¿Cuál de los siguientes tratamientos es el más indicado para controlar la hemorragia?
@@ -141,9 +145,9 @@ D. La tasa de recidiva es del 60%.
 
 > **Nota de cobertura:** confirmación LIMPIA — la ecografía Doppler es la técnica diagnóstica estándar y de primera línea ante la sospecha clínica de TVP, coincidiendo con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** con estas preguntas se eleva a 8 preguntas reales, **1 discrepancia de MÁXIMA confianza** con cita directa, 7 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2022-150 ⚠️
+### MIR-2022-150
 Varón de 41 años ingresado en la UCI por neumonía grave que precisa intubación y administración de catecolaminas. A la exploración se observa sangrado alrededor de los lugares de venopunción. Sus resultados de laboratorio son: 15.500 leucocitos; Hb 10,4 g/dL; Hcto 32 %; 52.000 plaquetas; LDH 820 U (normal 110-210); recuento de reticulocitos 4 %. ¿Cuál de los siguientes resultados NO es de esperar en este paciente?:
 
 A. Fibrinógeno bajo.
@@ -151,11 +155,11 @@ B. Concentración elevada de antitrombina y proteína C.
 C. Tiempo de protrombina y tiempo parcial de tromboplastina activada alargados.
 D. Presencia de productos de degradación de la fibrina (dímero D).
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** el cuadro (sepsis grave + sangrado en punciones + trombocitopenia + LDH elevada) es coagulación intravascular diseminada (CID). La bibliografía, citando el diagnóstico de la CID justo en referencia a esta pregunta ("**MIR 23, 150**", aplicando el desfase habitual de cita), enumera los hallazgos esperables: *"↓ plaquetas... ↑ TP y TTPa... ↑ dímero D / ↓ fibrinógeno / ↑ PDF... Otras: ↓ FV y FVIII, **↓ antitrombina III**"* — es decir, la antitrombina (y de forma análoga la proteína C, otro anticoagulante natural) se CONSUME y DISMINUYE en la CID, nunca se eleva; la opción B describe exactamente lo contrario de lo esperado. El dímero D (clave oficial, D), en cambio, SÍ está elevado en la CID, siendo uno de sus hallazgos más característicos y esperables. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Este paciente presenta un cuadro compatible con coagulación intravascular diseminada (CID) en el contexto de una sepsis grave, caracterizado por consumo de plaquetas y de factores de la coagulación: se espera un fibrinógeno bajo (consumido en la formación de fibrina), alargamiento del tiempo de protrombina y del TTPA (por consumo de factores) y presencia de productos de degradación de la fibrina como el dímero D (por la fibrinólisis secundaria activada). Sin embargo, en la CID los inhibidores naturales de la coagulación, como la antitrombina y la proteína C, se consumen y por tanto se encuentran DISMINUIDOS, no elevados, ya que se emplean para intentar contrarrestar la generación excesiva de trombina.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **2 discrepancias de MÁXIMA confianza** (ambas con cita textual directa), 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

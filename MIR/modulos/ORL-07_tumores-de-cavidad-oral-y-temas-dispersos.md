@@ -58,7 +58,7 @@ D. El diagnóstico de carcinoma con infiltración del canal mandibular.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 58; la bibliografía cita textualmente esta misma pregunta con el desfase de año habitual ["MIR 20-21, 58"], confirmando de forma directa que una úlcera persistente en mucosa oral con hipoestesia mentoniana asociada obliga a descartar carcinoma con infiltración del canal mandibular. Confirmación de MÁXIMA confianza, cita textual directa, sin discrepancia)*
 
-### MIR-2022-059 ⚠️
+### MIR-2022-059
 De los siguientes tumores malignos que pueden afectar a la lengua, ¿cuál es el tipo más frecuente y dónde metastatiza habitualmente?:
 
 A. El sarcoma y metastatiza en los ganglios linfáticos cervicales.
@@ -66,11 +66,13 @@ B. El carcinoma epidermoide y metastatiza en los ganglios linfáticos cervicales
 C. El sarcoma y metastatiza en tejido óseo a distancia.
 D. El carcinoma epidermoide y metastatiza en tejido hepático.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con la bibliografía citada en §1.1):** la bibliografía confirma que el 95% de los carcinomas de cavidad oral/lengua son epidermoides (la primera mitad de la clave oficial D es correcta), pero también establece expresamente que el tratamiento estándar incluye "vaciamiento cervical incluso en los N0" — es decir, la vía de diseminación característica y habitual es LINFÁTICA a ganglios cervicales, no hepática. La metástasis hepática a distancia es un evento tardío y no representa la forma "habitual" de diseminación de este tumor, a diferencia de la diseminación linfática cervical, que es el patrón de afectación primario y el que determina el propio abordaje quirúrgico estándar (vaciamiento cervical). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El carcinoma epidermoide (escamoso) es, con gran diferencia, el tipo histológico más frecuente de los tumores malignos de la lengua, guardando relación etiológica con el consumo de tabaco y alcohol. Su patrón de diseminación característico es, en primer lugar, hacia los ganglios linfáticos cervicales (siendo la afectación ganglionar cervical el factor pronóstico más importante y la primera vía de diseminación en la práctica totalidad de los casos), y solo en fases más avanzadas puede producir metástasis a distancia en órganos como el pulmón o el hígado.
 
-### MIR-2023-056 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-056
 Respecto al cáncer de lengua:
 
 A. El tipo histológico más frecuente es el carcinoma basocelular y su tratamiento primario es habitualmente radioterápico.
@@ -78,9 +80,11 @@ B. Se relaciona con factores etiopatogénicos como la irradiación solar y el vi
 C. Rara vez provoca metástasis por vía linfática.
 D. El tipo histológico más frecuente es el carcinoma epidermoide y su tratamiento quirúrgico asocia habitualmente disección ganglionar cervical.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con la bibliografía citada en §1.1, y con la propia lógica interna del cuestionario — ver también MIR-2022-059 en este mismo módulo):** la bibliografía establece expresamente que "histológicamente el 95% son Carcinomas Epidermoides" y que el carcinoma basocelular es frecuente específicamente "en labio superior", no como tipo histológico predominante del cáncer de lengua — la opción A (clave oficial) es, por tanto, doblemente incorrecta (tipo histológico erróneo Y tratamiento primario erróneo, ya que el tratamiento estándar es quirúrgico con vaciamiento cervical, no radioterápico de entrada). La opción D describe con exactitud la bibliografía ("extirpación quirúrgica... con vaciamiento cervical incluso en los N0"). La opción B mezcla factores de riesgo de localizaciones distintas (irradiación solar es factor de riesgo específico del LABIO, no de la lengua en general; el VPH se relaciona más con orofaringe). La opción C es falsa (la vía linfática es la vía de diseminación principal, no una rareza). Apoya la opción D. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** El tipo histológico más frecuente del cáncer de lengua es, con gran diferencia, el carcinoma epidermoide (escamoso), relacionado etiológicamente con el consumo de tabaco y alcohol, cuyo tratamiento primario es fundamentalmente quirúrgico (glosectomía parcial o total según extensión), asociando de forma habitual una disección ganglionar cervical dada la elevada frecuencia de diseminación linfática regional de este tumor, incluso en fases relativamente precoces (opción D). El carcinoma basocelular es una neoplasia cutánea propia de la piel fotoexpuesta que, salvo excepciones extraordinariamente raras, no se origina en la mucosa lingual, por lo que la afirmación de que es el tipo histológico más frecuente del cáncer de lengua es incorrecta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-062
 Las siguientes enfermedades sistémicas pueden cursar con síntomas otorrinolaringológicos. Señale aquella que puede afectar con mayor frecuencia (aproximadamente 70-80 % de los casos) a la cavidad nasal, la cavidad bucal y la orofaringe, y que en la mitad de los casos puede existir también afectación laríngea:
@@ -122,7 +126,7 @@ D. Osteoma.
 
 **Respuesta correcta: A** — *(confianza máxima, hecho universal y bien establecido de patología ORL: el papiloma invertido es el tumor benigno naso-sinusal con mayor potencial de malignización a carcinoma epidermoide [~10% de los casos]. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad del módulo:** primer módulo de este cluster, 7 preguntas reales, **2 discrepancias de MÁXIMA confianza** (ambas dentro del mismo sub-tema de cáncer de lengua, con cita bibliográfica directa que las contradice), 5 limpias (2 con cita textual directa/máxima confianza, 3 por conocimiento estándar).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

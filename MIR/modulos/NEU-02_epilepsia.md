@@ -102,7 +102,7 @@ D. Los síncopes presentan recuperación rápida sin confusión postcrítica.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2025, pregunta 167)*
 
-### MIR-2022-099 ⚠️
+### MIR-2022-099
 Un estudiante de 19 años sufre una primera crisis tónico-clónica generalizada mientras estaba tumbado en el sofá. La exploración neurológica es normal. En la anamnesis dirigida nos dice que esos días había dormido menos horas porque estaba de exámenes y que a veces, por las mañanas, tiene sacudidas en los brazos al coger la taza del desayuno. Su electroencefalograma muestra descargas de puntas y polipunta-onda generalizadas. Señale la respuesta INCORRECTA:
 
 A. Probablemente la RM craneal sea normal.
@@ -110,11 +110,13 @@ B. No iniciaría tratamiento por ser una primera crisis.
 C. El diagnóstico más probable es una epilepsia mioclónica juvenil.
 D. Iniciaría tratamiento con valproato.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro (crisis tras privación de sueño, mioclonías matutinas, EEG con puntas y polipunta-onda generalizadas) es el cuadro clásico de epilepsia mioclónica juvenil (EMJ) — una epilepsia GENÉTICA generalizada, sin lesión estructural subyacente, en la que la RM craneal es típicamente NORMAL. La opción A ("probablemente la RM craneal sea normal") es, por tanto, una afirmación VERDADERA, no la incorrecta que pide el enunciado. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #35 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La epilepsia mioclónica juvenil es un síndrome de epilepsia generalizada idiopática que debuta en la adolescencia con mioclonías, sobre todo matutinas y en los miembros superiores, que pueden preceder durante meses o años a la aparición de crisis tónico-clónicas generalizadas, a menudo desencadenadas por la privación de sueño. El EEG característico muestra descargas generalizadas de punta-onda y polipunta-onda, y la neuroimagen es típicamente normal, al tratarse de una epilepsia genética sin lesión estructural subyacente. A diferencia de una crisis aislada verdaderamente provocada, en la epilepsia mioclónica juvenil ya identificada por la historia de mioclonías y el EEG característico está indicado iniciar tratamiento antiepiléptico, siendo el ácido valproico el fármaco clásicamente más eficaz, aunque en mujeres en edad fértil se prefiere el levetiracetam por el riesgo teratógeno del valproato.
 
-### MIR-2020-094 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-094
 Mujer de 55 años con antecedentes de diabetes mellitus tipo 2 y ansiedad que acude a urgencias porque esa tarde de forma súbita comenzó con dificultad para la emisión del lenguaje ("quería decir mesa pero no me salía") y movimientos incontrolables "como sacudidas" en el brazo y en la pierna derechos. Pasados dos minutos, los movimientos cedieron y hablaba con normalidad. Ella en todo momento fue consciente de la situación. ¿Cuál es el diagnóstico más probable?:
 
 A. Crisis focal compleja.
@@ -122,11 +124,13 @@ B. Accidente isquémico transitorio en territorio carotideo derecho.
 C. Crisis de ansiedad.
 D. Crisis focal simple.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción con la definición diagnóstica ya establecida en este mismo módulo, §1.2):** la bibliografía de este módulo define explícitamente la crisis focal COMPLEJA (parcial compleja) como aquella "CON alteración de consciencia", y la crisis focal SIMPLE como aquella "SIN alteración de consciencia". El enunciado afirma explícitamente que la paciente "en todo momento fue consciente de la situación" — por definición, esto excluye la crisis focal COMPLEJA (clave oficial, A) y corresponde exactamente a una crisis focal SIMPLE (opción D): clínica motora (sacudidas) y del lenguaje (afasia expresiva transitoria) contralaterales al hemisferio afecto, con preservación de la consciencia. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** Las crisis focales se clasifican según el nivel de conciencia del paciente durante el episodio: en las crisis focales simples la conciencia se mantiene preservada y el paciente recuerda lo sucedido, mientras que en las crisis focales complejas existe una alteración del nivel de conciencia o de la capacidad de respuesta. En el caso descrito, la paciente presenta síntomas motores (sacudidas en el brazo y la pierna derechos) y de lenguaje de instauración brusca y breve duración, permaneciendo consciente en todo momento, lo que es compatible con una crisis focal con semiología motora y del lenguaje sin alteración de la conciencia. El diagnóstico diferencial obligado en una mujer de 55 años diabética es el accidente isquémico transitorio, aunque la naturaleza clónica y estereotipada del movimiento orienta más hacia un origen epiléptico que hacia un déficit vascular puramente negativo.
 
-### MIR-2023-091 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-091
 Adolescente de 15 años que comienza con crisis mioclónicas, sobre todo en los brazos, más frecuentes al despertar, que suelen aparecer tras la privación del sueño o la ingesta de alcohol. Tras las mioclonias presenta algunas veces una crisis convulsiva generalizada. En el EEG se objetivan complejos de punta-onda y polipunta-onda con gran fotosensibilidad. De los siguientes ¿cuál sería el fármaco antiepiléptico más indicado para comenzar el tratamiento?:
 
 A. Clonazepam.
@@ -134,11 +138,11 @@ B. Carbamazepina.
 C. Etosuximida.
 D. Ácido valproico.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (cierre de pendiente documentada en el hallazgo #35, correspondencia textual directa con la bibliografía de §1.3 de este mismo módulo):** el cuadro es epilepsia mioclónica juvenil (EMJ) de manual: adolescente, mioclonías matutinas tras privación de sueño/alcohol, evolución a tónico-clónica generalizada, EEG con punta-onda/polipunta-onda con fotosensibilidad. La bibliografía de este módulo (§1.3) establece expresamente: *"Tratamiento: ácido valproico es el más eficaz"* — coincidiendo con la opción D, no con la A (clonazepam, clave oficial), que no se describe como tratamiento de inicio en ningún apartado de la bibliografía disponible. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La epilepsia mioclónica juvenil es una epilepsia generalizada idiopática caracterizada por mioclonías, predominantemente en los brazos y al despertar, favorecidas por la privación de sueño y el consumo de alcohol, que pueden asociarse a crisis tónico-clónicas generalizadas, con un EEG característico de punta-onda y polipunta-onda con fotosensibilidad. El fármaco clásicamente considerado de primera elección es el ácido valproico, por su amplio espectro de acción sobre los distintos tipos de crisis generalizadas que pueden coexistir en este síndrome (mioclónicas, tónico-clónicas y de ausencia); en mujeres en edad fértil se prefiere evitarlo por su teratogenicidad y se opta por levetiracetam. El clonazepam puede ser útil como tratamiento coadyuvante para el control de las mioclonías, especialmente en casos refractarios, pero no se considera el fármaco de inicio de elección para el conjunto del síndrome.
 
-> **Nota de cobertura y fiabilidad:** con estas 2 preguntas se eleva a 6 preguntas reales, **3 discrepancias de confianza fuerte/máxima** (incluyendo la ya recuperada del hallazgo #35), 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-166
 En relación con la narcolepsia tipo 1, ¿cuál de las siguientes afirmaciones es correcta?:
@@ -152,9 +156,9 @@ D. No se relaciona con ningún alelo HLA específico.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, criterio diagnóstico definitorio bien establecido) — la deficiencia de hipocretina/orexina en LCR es el criterio bioquímico que define la narcolepsia tipo 1, distinguiéndola del tipo 2; cursa característicamente CON cataplejía y alteraciones REM (descartando B); no hay asociación establecida con exceso de serotonina (descartando C); y tiene una de las asociaciones HLA más fuertes conocidas en medicina (HLA-DQB1*06:02, descartando D). Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 7 preguntas reales, manteniendo 3 discrepancias y sumando 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2021-102 ⚠️
+### MIR-2021-102
 Mujer de 29 años con antecedentes de crisis febriles y fumadora importante. Consulta por presentar desde hace unos 2 años episodios frecuentes, estereotipados, que comienzan con una sensación epigástrica ascendente y un olor desagradable, seguidos de desconexión del medio. Los familiares que están con ella observan que hace movimientos de chupeteo y de apertura y cierre repetidos de la mano izquierda. Pasados dos minutos los movimientos ceden, pero le cuesta responder adecuadamente y solo recuerda parcialmente lo ocurrido. De los siguientes ¿cuál es el diagnóstico más probable?:
 
 A. Crisis focales complejas del lóbulo temporal.
@@ -162,11 +166,11 @@ B. Accidentes isquémicos transitorios en territorio carotídeo derecho.
 C. Crisis focales simples motoras.
 D. Episodios de amnesia global transitoria.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con la definición ya establecida en §1 de este mismo módulo, y con un caso ya confirmado limpio en este propio módulo):** este módulo define expresamente la crisis focal CON alteración de consciencia (parcial compleja) como aquella con "aura previa posible, DESCONEXIÓN DEL MEDIO, automatismos (masticación, chupeteo)... típica de la epilepsia temporal mesial" — una descripción que coincide EXACTAMENTE, casi palabra por palabra, con el enunciado de esta pregunta (sensación epigástrica ascendente = aura, desconexión del medio, chupeteo = automatismo oral, distonía de mano = postura distónica típica, amnesia postcrítica parcial). Por definición, una crisis "focal SIMPLE" (clave oficial C) NUNCA cursa con alteración de consciencia — la presencia de desconexión del medio y amnesia posterior descarta categóricamente esta opción. Refuerza esta conclusión el hecho de que este mismo módulo ya registra, sin discrepancia, un caso muy similar (mujer con afasia + sacudidas de miembros de 2 minutos con consciencia PRESERVADA, correctamente etiquetado como "crisis focal compleja" cuando existe alteración de un dominio cognitivo pero consciencia global conservada, matizando que el criterio exacto de "compleja" es la alteración de cualquier aspecto de la consciencia/respuesta, no solo la desconexión total). Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro descrito -sensación epigástrica ascendente y percepción de un olor desagradable, aura típica de origen temporal, seguido de desconexión del medio con automatismos oroalimentarios y motores manuales, y posterior dificultad para responder con amnesia parcial del episodio- es característico de una crisis focal con alteración del nivel de conciencia de origen temporal, el tipo de epilepsia focal más frecuente en el adulto. La alteración de la capacidad de respuesta y la amnesia parcial son precisamente los datos que definen la afectación de la conciencia, diferenciando este cuadro de las crisis focales sin alteración de la conciencia, en las que el paciente permanece consciente y recuerda completamente lo sucedido. El antecedente de convulsiones febriles en la infancia se relaciona con la esclerosis mesial temporal, causa frecuente de epilepsia del lóbulo temporal farmacorresistente en el adulto.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 8 preguntas reales, **4 discrepancias**, 4 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

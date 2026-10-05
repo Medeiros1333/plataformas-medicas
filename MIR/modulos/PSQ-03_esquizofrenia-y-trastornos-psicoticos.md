@@ -104,7 +104,7 @@ D. Trastorno Bipolar I, episodio actual maníaco, con características psicótic
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 59)*
 
-### MIR-2021-052 ⚠️
+### MIR-2021-052
 Mujer de 35 años diagnosticada de esquizofrenia refractaria que ha iniciado tratamiento con clozapina. ¿Qué valor de laboratorio se debería monitorizar de forma periódica?
 
 A. El aclaramiento de creatinina.
@@ -112,11 +112,13 @@ B. El recuento sanguíneo de leucocitos.
 C. El nivel sérico de colesterol.
 D. El nivel sérico de transaminasas.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 52)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 52)*
 
-> ⚠️ **Nota de verificación fuerte:** el riesgo hematológico grave y potencialmente mortal más característico de la clozapina es la AGRANULOCITOSIS, por lo que la monitorización periódica OBLIGATORIA que la define es el recuento de leucocitos/neutrófilos (opción B) — un hecho confirmado por la propia pregunta MIR-2020-84 de este mismo módulo, que pregunta exactamente lo mismo (qué antipsicótico requiere hemogramas de control por agranulocitosis) y responde correctamente "clozapina". El nivel de colesterol (opción C, marcada oficialmente) es relevante para el perfil metabólico general de los antipsicóticos atípicos, pero no es la monitorización periódica específica y obligatoria que define el seguimiento de la clozapina. Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2021, notable por ser inconsistente con la respuesta correctamente dada a una pregunta prácticamente idéntica en el examen de 2020 — la respuesta consistente con la bibliografía es B. Ver hallazgo #56 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El tratamiento con clozapina, antipsicótico de segunda generación reservado para la esquizofrenia resistente a otros fármacos, obliga a un seguimiento clínico y analítico estrecho por su particular perfil de efectos adversos. Su riesgo más grave y característico es la agranulocitosis, que exige controles hematológicos periódicos obligatorios (semanales al inicio, después mensuales), pero además la clozapina es, de entre todos los antipsicóticos, el que con mayor frecuencia induce síndrome metabólico, con notable aumento de peso, hipercolesterolemia, hipertrigliceridemia e hiperglucemia/diabetes tipo 2. Por ello, las guías de práctica clínica recomiendan monitorizar de forma periódica tanto el hemograma como el perfil lipídico y glucémico en todo paciente tratado con este fármaco.
 
-### MIR-2023-083 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-083
 Con respecto a la epidemiología de la esquizofrenia, señale la afirmación correcta:
 
 A. Su edad máxima de aparición es a los 40 años.
@@ -124,11 +126,13 @@ B. El inicio precoz es más frecuente en varones.
 C. Al tratarse de una enfermedad del neurodesarrollo, la importancia de los factores psicosociales en su aparición es despreciable.
 D. Las personas que la padecen tienen una probabilidad de 2 a 3 veces menor de morir prematuramente que la población general.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 83)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 83)*
 
-> ⚠️ **Nota de verificación fuerte:** es uno de los hallazgos epidemiológicos más robustos y citados en psiquiatría que los pacientes con esquizofrenia tienen una mortalidad prematura 2-3 veces MAYOR (no menor) que la población general, por suicidio, enfermedad cardiovascular asociada al síndrome metabólico y menor acceso a cuidados de salud general. La opción D, marcada oficialmente como correcta, invierte por completo esta relación bien establecida. La opción B ("el inicio precoz es más frecuente en varones") es la afirmación consistente con la epidemiología estándar de la esquizofrenia. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023 — la respuesta correcta según el conocimiento epidemiológico establecido es B. Ver hallazgo #56 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las personas con esquizofrenia presentan una probabilidad de morir prematuramente entre 2 y 3 veces mayor que la población general, debido tanto al elevado riesgo de suicidio como, sobre todo, a la alta comorbilidad cardiovascular y metabólica asociada al estilo de vida, el tabaquismo, la escasa adherencia a controles médicos y los efectos adversos metabólicos de los antipsicóticos. El inicio precoz de la enfermedad (antes de los 25 años) es más frecuente en varones, mientras que en mujeres suele presentar un segundo pico de incidencia en torno a la menopausia; la edad máxima de incidencia global se sitúa en la adolescencia tardía y la adultez temprana, no a los 40 años. Se trata de una enfermedad de origen multifactorial en la que, junto a la carga genética y el neurodesarrollo alterado, los factores psicosociales (estrés, migración, urbanicidad, consumo de cannabis) desempeñan un papel relevante en su expresión clínica, por lo que no pueden considerarse despreciables.
 
-### MIR-2020-087 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-087
 Un paciente con una recaída psicótica que ha empezado tratamiento con un antipsicótico al que mostró buena respuesta en el episodio anterior acude a consulta por presentar sensación de inquietud motora que le obliga a moverse constantemente y le impide permanecer sentado. ¿Cuál de los siguientes es el tratamiento más adecuado?:
 
 A. Reducir la dosis del antipsicótico y añadir bromocriptina.
@@ -136,9 +140,11 @@ B. Añadir β-bloqueantes.
 C. Añadir dantroleno.
 D. Añadir un anticolinérgico.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro descrito (inquietud motora que obliga a moverse constantemente, incapacidad para permanecer sentado, tras iniciar antipsicótico) es la acatisia, un efecto extrapiramidal clásico de los antipsicóticos. La bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 87"), establece explícitamente: *"El tratamiento [de la acatisia] se basa en la disminución de la dosis del neuroléptico o en la utilización de benzodiacepinas y/o BETABLOQUEANTES"* — el dantroleno (clave oficial, C) no aparece mencionado en ningún apartado del tratamiento de la acatisia; es, en cambio, un relajante muscular utilizado en el síndrome neuroléptico maligno (SNM), una entidad clínica completamente distinta (fiebre, rigidez, alteración de conciencia, CPK muy elevada), no descrita en este enunciado. Apoya la opción B (añadir betabloqueantes). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #179 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito es una acatisia inducida por antipsicóticos: una inquietud motora subjetiva que obliga al movimiento constante e impide permanecer sentado, un efecto extrapiramidal frecuente y a menudo infradiagnosticado o confundido con agitación psicótica. El tratamiento habitual consiste en reducir la dosis del antipsicótico si es posible y añadir betabloqueantes (propranolol) o benzodiacepinas, que son los fármacos con mayor evidencia de eficacia sintomática; los anticolinérgicos tienen utilidad limitada en la acatisia, siendo más eficaces en el parkinsonismo y la distonía inducidos por antipsicóticos. El dantroleno, relajante muscular de acción directa sobre el retículo sarcoplásmico, se reserva para cuadros de mayor gravedad con rigidez muscular e hipertermia, como el síndrome neuroléptico maligno o la hipertermia maligna.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-061
 Paciente de 32 años, sin antecedentes psiquiátricos, que ha tenido un hijo hace 50 días. A los 40 días del parto empezó a mostrarse irritable, decaída, inquieta y con insomnio. Comenta que ha pecado y debe morir. Refiere escuchar espíritus que le incitan a desaparecer y cree que la familia quiere envenenarla. Una vez descartada organicidad, se le ingresa y se pauta tratamiento antipsicótico, valorando la realización de Terapia Electroconvulsiva (TEC). De todos los datos recogidos en este caso clínico, cuál de estos NO es típico de la psicosis que padece esta paciente:
@@ -150,7 +156,7 @@ D. Entre los tratamientos indicados se encuentran los antipsicóticos y el TEC.
 
 **Respuesta correcta: C** — *(confianza fuerte, psiquiatría perinatal estándar y ampliamente establecida, sin cita bibliográfica directa localizada: la psicosis puerperal tiene un inicio TÍPICAMENTE PRECOZ, dentro de las 2 primeras semanas posparto —con frecuencia en los primeros días—, no "a partir de la cuarta semana" como afirma la opción C, que es la afirmación NO típica buscada. En este caso concreto la paciente debutó a los 40 días [~5,7 semanas], un inicio más tardío que el típico, lo que refuerza que la opción C describe un patrón temporal incorrecto como "típico". Las opciones A, B y D son correctas: es una urgencia psiquiátrica que requiere ingreso, exige descartar organicidad primero, y se trata con antipsicóticos y, en casos graves, TEC. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 8 preguntas reales, manteniendo 3 discrepancias y sumando 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2021-091
 ¿Cuál de las siguientes NO es una indicación para la realización de pruebas de neuroimagen en psiquiatría?:
@@ -175,8 +181,6 @@ D. Regresión.
 **Respuesta correcta: D**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, tríada psicodinámica clásica del trastorno delirante, sin cita bibliográfica directa disponible) — proyección, negación y formación reactiva son los mecanismos de defensa clásicamente descritos en la literatura psicodinámica del trastorno delirante/paranoide; la regresión no forma parte de esta tríada específica. Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 10 preguntas reales, manteniendo 3 discrepancias y sumando 7 limpias.
 
 ---
 

@@ -63,9 +63,11 @@ B. La interacción de PD-1 y sus ligandos inhibe la activación de los linfocito
 C. El bloqueo de PD-1 o de sus ligandos potencia la capacidad antitumoral de los linfocitos T CD8+.
 D. El uso de este tipo de inmunoterapia no se debe combinar con tratamientos de quimioterapia.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 34)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 34)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma textualmente que el bloqueo de PD-1 con PD-L1 "da lugar a una mayor activación linfocitaria contra las células tumorales" y que fármacos como nivolumab "potencian las respuestas de los linfocitos T incluyendo respuestas antitumorales, por medio del bloqueo de PD-1" — coincidiendo exactamente con la opción C. Además, la interacción PD-1/PD-L1 se describe explícitamente como ocurriendo "entre la célula tumoral y el linfocito T fundamentalmente" (microambiente tumoral), no en los ganglios linfáticos (descartando B, que corresponde más bien al mecanismo de CTLA-4). PD-1 es, además, un marcador de activación/agotamiento de linfocitos T efectores, no de linfocitos T naive (descartando A, clave oficial). No se ha alterado `respuesta_correcta` (se mantiene A), pero se aplica el criterio bibliográfico (C es la afirmación correcta) en el punto clave 1 de este módulo.
+**Explicación:** El fundamento de la inmunoterapia con anticuerpos anti-PD-1/PD-L1 es que el bloqueo de esta interacción impide la inhibición de los linfocitos T efectores mediada por el tumor, restaurando y potenciando la capacidad citotóxica antitumoral de los linfocitos T CD8+, que es el mecanismo de acción central de fármacos como pembrolizumab o nivolumab (opción C). El receptor PD-1 se expresa fundamentalmente en linfocitos T activados/'agotados' (exhausted) tras exposición antigénica crónica, no en linfocitos T naive, y su interacción con los ligandos PD-L1/PD-L2 actúa principalmente en los tejidos periféricos (microambiente tumoral) durante la fase efectora, más que en los ganglios linfáticos durante la fase de cebado (rol más característico de CTLA-4). Además, esta inmunoterapia sí se combina de forma habitual y aprobada con quimioterapia en múltiples tumores.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-038
 Entre los avances en inmunoterapia antitumoral se incluye el uso de linfocitos T modificados para que expresen un receptor CAR (chimeric antigen receptor, receptor quimérico para el antígeno), denominados CAR-T. En relación con las células CAR-T para el tratamiento de linfomas y leucemias que expresan CD19, señale la respuesta INCORRECTA:
@@ -75,9 +77,11 @@ B. El receptor CAR posee un dominio intracelular responsable de la transmisión 
 C. Entre los efectos secundarios graves de este tratamiento se encuentra el síndrome de liberación de citocinas.
 D. El reconocimiento del antígeno por el receptor CAR depende de las moléculas de histocompatibilidad (HLA) clase I en la célula tumoral.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 38)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 38)*
 
-> **Nota de verificación (confianza moderada):** el elemento de reconocimiento del receptor CAR basado en scFv de anticuerpos (opción A, clave oficial marcada como incorrecta) es, en realidad, un hecho bien establecido y ampliamente descrito sobre el diseño de las células CAR-T — es precisamente su característica definitoria. Por el contrario, la opción D afirma que el reconocimiento antigénico del CAR depende de HLA clase I, cuando la independencia de HLA/MHC es justamente una de las ventajas fundamentales y más citadas de la tecnología CAR-T frente al TCR convencional (que sí requiere presentación por HLA). La bibliografía del proyecto (Hematología e Digestivo/Oncología) no detalla explícitamente este punto mecanístico concreto, por lo que esta nota se marca con confianza moderada, apoyada en conocimiento inmunológico general ampliamente aceptado. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** Las células CAR-T dirigidas frente a CD19 incorporan en su receptor quimérico un dominio extracelular de reconocimiento basado en fragmentos variables de cadena única de anticuerpos (scFv) anti-CD19 (opción A verdadera), unido a un dominio transmembrana y a uno o varios dominios intracelulares de señalización (habitualmente CD3-zeta junto con un dominio coestimulador como CD28 o 4-1BB) responsables de activar al linfocito T tras el reconocimiento antigénico (opción B verdadera). Entre sus efectos adversos graves más característicos se encuentra el síndrome de liberación de citocinas, secundario a la intensa activación linfocitaria (opción C verdadera). La gran ventaja de esta tecnología es precisamente que el reconocimiento antigénico mediado por el scFv es INDEPENDIENTE de la presentación por moléculas de histocompatibilidad (HLA), a diferencia del receptor de células T natural, lo que permite eludir los mecanismos tumorales de evasión inmune basados en la pérdida de expresión de HLA; por ello, la afirmación de que este reconocimiento depende de HLA de clase I es falsa, y por tanto la respuesta correcta a esta pregunta (opción D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-035
 Las células tumorales desarrollan diferentes mecanismos dirigidos a evitar la activación de la respuesta inmunitaria antitumoral. Entre las inmunoterapias antitumorales dirigidas a contrarrestar estos mecanismos de evasión destaca:
@@ -87,9 +91,11 @@ B. La inoculación de células de la inmunidad innata con capacidad antitumoral 
 C. El uso de citocinas como el TGF-beta o la IL-10 que frenan el crecimiento tumoral.
 D. El uso de anticuerpos monoclonales inmunomoduladores frente a PD-1 o los ligandos de PD-1.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 35)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 35)*
 
-> **Nota de verificación (confianza moderada-alta):** las células T reguladoras (Treg), las MDSC y las citocinas TGF-β/IL-10 son, en la inmunología tumoral establecida, mecanismos de EVASIÓN inmunitaria (inmunosupresores) que FAVORECEN el escape tumoral, no estrategias terapéuticas antitumorales — inocular más Treg o MDSC, o administrar TGF-β/IL-10, reforzaría la inmunosupresión en vez de contrarrestarla. La opción D (bloqueo de PD-1/PD-L1 con anticuerpos monoclonales) es el ejemplo clásico y mejor establecido de estrategia terapéutica que SÍ contrarresta la evasión inmunitaria tumoral, coincidiendo con el fundamento de la inmunoterapia descrito en §1.1 de este módulo. La bibliografía específica del proyecto no detalla el papel de las MDSC de forma explícita, por lo que esta nota se apoya en conocimiento de inmunología tumoral general ampliamente aceptado. No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** Los anticuerpos monoclonales inmunomoduladores dirigidos frente a PD-1 o sus ligandos (PD-L1) constituyen la estrategia de inmunoterapia antitumoral mejor establecida para contrarrestar los mecanismos de evasión inmune del tumor, ya que bloquean una señal inhibidora que las células tumorales explotan para inactivar a los linfocitos T citotóxicos, restaurando así su capacidad antitumoral (opción D). Por el contrario, la inoculación de linfocitos T reguladores específicos de antígeno tumoral, el uso de citocinas inmunosupresoras como el TGF-beta o la IL-10 (que en realidad promueven la evasión inmune tumoral, no la contrarrestan), y la inoculación de células mieloides supresoras (MDSC, que son células inmunosupresoras que favorecen la progresión tumoral) son, todas ellas, estrategias que en la práctica FAVORECERÍAN la evasión inmunológica del tumor en lugar de contrarrestarla.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-141
 ¿A cuál de las siguientes proteínas presentes en la superficie celular se une el fármaco pembrolizumab?:
@@ -115,7 +121,7 @@ D. Quimioterapia + Anti-VEGFR.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, estándar de práctica oncológica actual) — el cáncer colorrectal metastásico con inestabilidad de microsatélites alta (MSI-H/dMMR) se trata en primera línea con inmunoterapia (anti-PD-1, p. ej. pembrolizumab), independientemente del estado RAS — este subgrupo responde excepcionalmente bien a la inmunoterapia por su elevada carga mutacional, superando en eficacia a los esquemas clásicos de quimioterapia ± anti-EGFR/anti-VEGFR reservados para tumores con estabilidad de microsatélites (MSS). Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 5 preguntas reales, manteniendo 2 discrepancias de confianza moderada y sumando 3 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -86,9 +86,11 @@ B. Anticipación genética.
 C. Anticipación alélica.
 D. Penetrancia completa.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con doble cita textual directa a esta pregunta en años distintos ("MIR 23-24, 33" y "MIR 22-23, 33"), define textualmente: *"se ha descrito el fenómeno de ANTICIPACIÓN, por el que las generaciones posteriores comienzan con la sintomatología de la enfermedad a EDADES CADA VEZ MÁS TEMPRANAS, e incluso con diversas formas de GRAVEDAD"* — una correspondencia casi literal, palabra por palabra, con el enunciado exacto de esta pregunta ("inicio progresivamente más precoz" = "edades cada vez más tempranas"; "incremento de la gravedad" = "diversas formas de gravedad"). La opción B (anticipación genética, no elegida) es la respuesta coherente con la bibliografía. La "penetrancia" (clave oficial, A) es un concepto distinto — la proporción de individuos con un genotipo que manifiestan CUALQUIER fenotipo (presencia/ausencia), no la precocidad ni gravedad progresiva entre generaciones. Ver hallazgo #150 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** La anticipación genética es el fenómeno por el cual una enfermedad hereditaria se manifiesta de forma progresivamente más precoz y con mayor gravedad en las sucesivas generaciones de una familia. Es característico de las enfermedades causadas por expansión de repeticiones de tripletes de nucleótidos inestables (enfermedad de Huntington, distrofia miotónica de Steinert, síndrome de X frágil), en las que el número de repeticiones tiende a aumentar al transmitirse de una generación a la siguiente. Este concepto se diferencia de la penetrancia (variable o incompleta), que hace referencia a la proporción de portadores del genotipo que llegan a manifestar el fenotipo, no a la edad de inicio ni a la gravedad progresiva de la enfermedad entre generaciones.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-034
 La exploración ecográfica de una mujer gestante de 26 semanas muestra hallazgos consistentes con osteogénesis imperfecta tipo II (gen COL1A1/COL1A2). La paciente tuvo un embarazo previo con la misma patología. Ni ella ni su pareja tienen manifestaciones clínicas de osteogénesis imperfecta. ¿Cuál de las siguientes es la explicación más probable para la recurrencia?:
@@ -114,9 +116,9 @@ D. En el cariotipo realizado precozmente tras un trasplante hematopoyético es h
 
 > **Nota de cobertura:** confirmación LIMPIA — el cariotipo 47,XXY es UNIFORME en las 20 metafases analizadas, sin patrón de mezcla (que descartaría B, quimerismo mixto) ni justificación de fusión celular (C) ni de artefacto transitorio (D); la explicación más parsimoniosa es que el propio donante tenga Klinefelter no diagnosticado. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 4 preguntas reales (2021, 2022, 2024×2), **1 discrepancia de MÁXIMA confianza (25%)**, con doble cita textual directa en dos convocatorias distintas y correspondencia casi literal con el enunciado; 3 preguntas limpias. **Primer módulo de la especialidad Genética en todo el proyecto** — bibliografía dedicada disponible y sin explotar hasta este momento.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2023-034 ⚠️
+### MIR-2023-034
 Un rasgo que aparece en todas las generaciones, tanto en varones como en mujeres, pero los varones no lo transmiten a sus hijos varones, se corresponde con uno de los siguientes patrones de herencia:
 
 A. Autosómica dominante.
@@ -124,15 +126,13 @@ B. Ligada al sexo dominante.
 C. Ligada al sexo recesiva.
 D. Mitocondrial.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (definición clásica y no controvertida de un patrón de herencia mendeliano):** la restricción específica descrita — "los varones no lo transmiten a sus hijos VARONES" (pero sí, implícitamente, a sus hijas) — es precisamente la firma distintiva de la herencia LIGADA AL SEXO (cromosoma X) DOMINANTE: un padre afectado transmite su único cromosoma X a TODAS sus hijas (que heredarán el rasgo, por ser dominante) pero NUNCA a sus hijos varones (que heredan el cromosoma Y paterno, no el X) — de ahí la ausencia característica de transmisión "de padre a hijo varón", el criterio clásico para diferenciar la herencia ligada al X de la autosómica. En la herencia AUTOSÓMICA DOMINANTE (clave oficial A), en cambio, NO existe ninguna restricción de transmisión basada en el sexo del hijo — un varón afectado transmite el rasgo a hijos e hijas por igual (50% de probabilidad, sin distinción de sexo), por lo que la restricción descrita en el enunciado es incompatible con este patrón. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Un patrón de herencia en el que el rasgo aparece en todas las generaciones (herencia dominante, sin saltos generacionales) tanto en varones como en mujeres, pero en el que los varones afectados nunca transmiten la enfermedad a sus hijos varones (sí a todas sus hijas), es característico de la herencia ligada al cromosoma X de tipo dominante. Esto se debe a que un varón transmite su cromosoma Y (no el X, donde reside el gen mutado) a todos sus hijos varones, mientras que transmite su único cromosoma X, portador de la mutación, a todas sus hijas, que resultarán afectadas. Este patrón se diferencia de la herencia autosómica dominante, en la que la transmisión es independiente del sexo tanto del progenitor como de la descendencia, y de la herencia ligada al X recesiva, en la que predominan los varones afectados.
 
-**MIR-2020-033 (ANULADA por la organización del examen —** `respuesta_correcta: null`**):** "cuando un mismo cuadro clínico está causado por mutaciones diferentes de un mismo gen" — se preguntaba por el término correcto entre heterogeneidad de locus, heterogeneidad alélica, heterogeneidad genética o impronta parental. Por definición estándar de genética, "heterogeneidad ALÉLICA" es el término que describe con precisión mutaciones DISTINTAS en el MISMO gen causando un fenotipo similar (a diferencia de la heterogeneidad DE LOCUS, que implica genes DISTINTOS); la opción "heterogeneidad genética" es un término más genérico que podría entenderse como que engloba a ambas, lo que probablemente generó la ambigüedad que motivó la anulación oficial. No se fuerza ningún veredicto adicional, dado que el propio examen la anuló.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales con clave oficial (más 1 anulada mencionada por su valor pedagógico), **2 discrepancias de MÁXIMA confianza**, 3 limpias.
-
-### MIR-2021-078 ⚠️
+### MIR-2021-078
 En una enfermedad genética con un patrón de herencia autosómico dominante el riesgo de recurrencia de la enfermedad en una futura descendencia es de:
 
 A. 25 % en cada embarazo.
@@ -140,9 +140,11 @@ B. 50 % en cada embarazo en caso de que el hijo sea un varón.
 C. 50 % en cada embarazo siempre que la pareja sea también portadora.
 D. 50 % en cada embarazo independiente del sexo de la descendencia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** la bibliografía, con cita directa **"MIR 21-22, 78"**, describe el patrón hereditario de la herencia autosómica dominante afirmando textualmente: *"Afecta a ambos sexos por igual"* y *"Un enfermo tendrá un 50% de hijos o hijas afectados y un 50% sanos"* — sin ninguna condición sobre el estado de portador de la pareja. Este 50% de riesgo se cumple con el escenario más habitual (progenitor afectado heterocigoto x pareja NO portadora); no es necesario que la pareja sea también portadora para que se cumpla el 50%, contradiciendo la condición que introduce la opción C (clave oficial). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación.
+**Explicación:** En una enfermedad de herencia autosómica dominante, un progenitor afectado (heterocigoto para el alelo mutado) transmite dicho alelo a cada uno de sus descendientes con una probabilidad del 50%, independientemente del sexo del hijo y, en el escenario habitual de estas preguntas, independientemente del genotipo de la pareja no afectada, ya que basta con heredar una única copia del alelo mutado para desarrollar la enfermedad (salvo penetrancia incompleta). Este riesgo del 50% se mantiene constante en cada embarazo, sin que embarazos previos afectados o no afectados modifiquen la probabilidad de los siguientes. Esto contrasta con la herencia autosómica recesiva, en la que si ambos progenitores son portadores el riesgo de un hijo afectado es del 25%.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-041
 En una enfermedad genética con un patrón de herencia autosómico recesivo el riesgo de la enfermedad en una futura descendencia cuando ambos padres son portadores es:
@@ -166,9 +168,7 @@ D. Se le aconsejaría, dado el alto riesgo de recurrencia, que no planifique má
 
 **Respuesta correcta: C** — *(confianza fuerte, algoritmo diagnóstico estándar y actual en discapacidad intelectual de causa no filiada —guías ACMG—, sin cita bibliográfica directa localizada en `GEN_full.txt`: un array-CGH y un estudio de X frágil negativos NO descartan causa genética subyacente; el siguiente paso estándar es la secuenciación masiva (exoma clínico), no asumir bajo riesgo [descarta A], ni ofrecer diagnóstico dirigido sin variante causal identificada [descarta B], ni desaconsejar embarazos futuros sin base [descarta D]. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas 3 preguntas se eleva a 7 preguntas reales, **2 discrepancias de MÁXIMA confianza** (ambas con cita textual directa), 5 limpias.
-
-### MIR-2022-042 ⚠️
+### MIR-2022-042
 En un determinado gen la secuencia de ADN se transcribe para formar el ARN maduro y este ARN maduro se traduce para formar la proteína. ¿A qué región (secuencia) de la estructura de un gen se denomina intrón?:
 
 A. A la que inicia la transcripción para formar el ARN.
@@ -176,13 +176,13 @@ B. A la que no está presente en el ARN maduro.
 C. A la que se transcribe para estar presente en el ARN maduro y dar lugar a la proteína.
 D. A la que regula la expresión del gen.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía de Genética define literalmente, en su glosario: *"**Intrón.** Secuencia de ADN de los genes que es eliminada en el ARNm maduro y no se traduce a proteína **w MIR 22-23, 42**"* (aplicando el desfase habitual de cita AMIR/CTO, "MIR 22-23, 42" corresponde a MIR-2022-042 en este dataset) — una correspondencia EXACTA, con el propio número de pregunta citado en la fuente, con la opción B ("a la que no está presente en el ARN maduro"), no con la D (clave oficial), que describe en realidad las secuencias promotoras e intensificadoras (un concepto distinto, ya definido por separado en la misma bibliografía). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Los intrones son las secuencias de ADN de un gen que se transcriben inicialmente junto con los exones para formar el ARN precursor (pre-ARNm), pero que son eliminadas durante el proceso de maduración o splicing, de manera que no forman parte del ARN mensajero maduro ni, por tanto, de la proteína final. Los exones, en cambio, son las secuencias que sí permanecen en el ARNm maduro y que se traducen a proteína. Si bien algunos intrones pueden contener elementos reguladores de la expresión génica, su característica definitoria es precisamente ser eliminados del transcrito maduro durante el splicing.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 8 preguntas reales, **3 discrepancias de MÁXIMA confianza** (las 3 con cita textual directa, incluyendo número de pregunta explícito), 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-032 ⚠️
+### MIR-2020-032
 ¿Cuál de las siguientes consecuencias puede tener una mutación del nucleótido G por el nucleótido A en el primer nucleótido de un intrón?:
 
 A. Al ser una mutación intrónica no tiene ninguna repercusión.
@@ -190,11 +190,11 @@ B. Al ser una transición (los dos nucleótidos tienen la misma estructura) no t
 C. Aunque es una mutación intrónica produce la exclusión de todos los exones que están situados detrás de la mutación.
 D. La mutación en este nucleótido puede afectar a la maduración del ARN (splicing) y cambiar la estructura del ARN y, por consiguiente de la proteína.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con la secuencia consenso de splicing, sin cita bibliográfica directa disponible):** el primer nucleótido de un intrón forma parte de la secuencia consenso invariable "GT" del sitio donador de splicing — su mutación (G>A) altera efectivamente el reconocimiento de ese sitio por el spliceosoma, con consecuencias variables (exclusión del exón adyacente, retención del intrón, o uso de un sitio críptico), pero NO necesariamente "la exclusión de TODOS los exones situados detrás de la mutación" (afirmación absoluta y sobredimensionada, clave oficial C) — el splicing de exones distales, corriente abajo, no depende mecánicamente de un único sitio donador mutado situado más arriba en la secuencia. La opción D describe de forma más precisa y correcta, sin sobregeneralizar, la consecuencia real: puede afectar la maduración del ARN (splicing) y, en consecuencia, la estructura de la proteína. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El primer nucleótido de un intrón forma parte del sitio donador de splicing (secuencia consenso GT, regla GT-AG), fundamental para el reconocimiento y el correcto procesamiento del pre-ARNm por parte del espliceosoma. Una mutación que altera este nucleótido invariable impide el reconocimiento correcto de dicho sitio donador, de manera que la maquinaria de splicing puede saltarse el exón adyacente o utilizar sitios crípticos alternativos, arrastrando consigo, en la práctica, la exclusión funcional de la secuencia codificante situada más allá del punto de corte normal y alterando el marco de lectura de los exones subsiguientes en el ARNm maduro. Aunque se trate de una mutación intrónica (fuera de la secuencia codificante), no es una mutación silente, ya que compromete directamente el proceso de maduración del ARN mensajero.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 9 preguntas reales, **4 discrepancias** (3 de MÁXIMA confianza con cita textual directa, 1 de confianza fuerte sin cita exacta), 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-104
 En Neonatología ingresa desde paritorio un neonato grande para la edad gestacional con hemangioma facial, macroglosia y onfalocele, que desarrolla posteriormente crisis de hipoglucemia. ¿Cuál de las siguientes afirmaciones es FALSA?:
@@ -207,8 +207,6 @@ D. No suele conllevar discapacidad intelectual, salvo complicaciones específica
 **Respuesta correcta: C**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, genética estándar del síndrome de Beckwith-Wiedemann) — el cuadro (macrosomía, hemangioma facial, macroglosia, onfalocele, hipoglucemia por hiperinsulinismo) es el fenotipo clásico del síndrome de Beckwith-Wiedemann, un trastorno de la impronta genómica en 11p15 (mecanismos epigenéticos/genéticos: pérdida/ganancia de metilación en los centros de impronta IC1/IC2, disomía uniparental paterna, mutaciones de CDKN1C) — NO de causa teratogénica, siendo esta la afirmación FALSA correctamente identificada. Se asocia a técnicas de reproducción asistida y polihidramnios prenatal (descarta B como falsa), y no conlleva discapacidad intelectual intrínseca salvo por complicaciones tratables no controladas (descarta D como falsa). Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad ampliada (actualizada):** con esta pregunta se eleva a 10 preguntas reales, manteniendo 4 discrepancias y sumando 6 limpias.
 
 ---
 

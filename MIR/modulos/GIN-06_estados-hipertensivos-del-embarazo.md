@@ -67,9 +67,11 @@ B. Grosor placentario.
 C. Índice de pulsatilidad de las arterias uterinas.
 D. Índice de pulsatilidad de la arteria central de la retina materna.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 22, 69", desfase de año habitual de ±1), describe explícitamente el cribado combinado de preeclampsia del primer trimestre: *"factores clínicos maternos, la tensión arterial media, el ÍNDICE DE PULSATILIDAD MEDIO DE LAS ARTERIAS UTERINAS y un marcador proangiogénico (PlGF)"* — coincidiendo exactamente con la opción C (no elegida). La longitud cráneo-caudal (opción A, oficial) es un parámetro ecográfico de DATACIÓN gestacional, sin ningún papel descrito en el cribado de preeclampsia según la bibliografía. Ver hallazgo #114 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** El marcador ecográfico más importante en el cribado de la preeclampsia en el primer trimestre (semanas 11-14) es el índice de pulsatilidad de las arterias uterinas (C), que refleja la resistencia de la circulación uteroplacentaria: un IP elevado indica una invasión trofoblástica deficiente de las arterias espirales, base fisiopatológica de la preeclampsia. Se combina con los factores de riesgo maternos, la presión arterial media y marcadores bioquímicos (PlGF, PAPP-A) en un algoritmo de cribado; en las gestantes de alto riesgo se indica ácido acetilsalicílico a dosis bajas (150 mg/noche) desde antes de la semana 16 hasta la 36, que reduce la preeclampsia pretérmino. La longitud cráneo-caudal (A) sirve para datar la gestación, pero no es un marcador de preeclampsia. El grosor placentario (B) y el Doppler de la arteria central de la retina materna (D) no forman parte del cribado.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-055
 Respecto al cribado del primer trimestre en la gestante para estimar el riesgo de preeclampsia, señale la afirmación correcta:
@@ -95,7 +97,7 @@ D. Hipertensión arterial, proteinuria y edemas en el primer trimestre del embar
 
 *(Sin discrepancia — coincide con la bibliografía: la preeclampsia se define por HTA de nueva aparición DESPUÉS de la semana 20 (segunda mitad del embarazo) asociada a proteinuria u otro criterio, no por microhematuria ni por aparición en el primer trimestre.)*
 
-> **Nota de cobertura y fiabilidad:** 3 preguntas reales (2021, 2025×2), **1 discrepancia de máxima confianza** (MIR-2021-069, #114, confirmada por cita textual directa de la bibliografía) y 2 limpias que confirman sólidamente el contenido de cribado/definición de este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2021-074
 Primigesta de 34 semanas que presenta cifras tensionales de 165/95 y cefalea de dos días de evolución. Analítica: hemoglobina 10,5 g/dL, plaquetas 98.000/mm3, AST 356 UI/L (0-31), ALT 234 UI/L (0-31), LDH 878 UI/L (125-243). Llaman del laboratorio por presencia de esquistocitos en el frotis de sangre periférica. Ha recibido la segunda dosis de corticoides para maduración fetal hace 24 h. En la ecografía obstétrica el peso fetal estimado está en el percentil 1 para la edad gestacional y el Doppler de arteria umbilical presenta ausencia del flujo telediastólico. ¿Cuál de las siguientes es la actitud clínica más indicada?:
@@ -106,8 +108,6 @@ C. Finalización de la gestación cuando complete la maduración pulmonar fetal.
 D. Finalización inmediata de la gestación.
 
 **Respuesta correcta: D** — *(confianza fuerte, coherente con §1.3-1.4 de este módulo: el cuadro cumple criterios de síndrome de HELLP —hemólisis con esquistocitos y LDH 878, transaminasas >2x el límite normal, plaquetas <100.000— asociado a un CIR severo (percentil 1) con Doppler de arteria umbilical con ausencia de flujo telediastólico, un signo de compromiso fetal crítico que constituye indicación de finalización inmediata independientemente de la edad gestacional. La bibliografía contempla explícitamente esta excepción ["o antes si indicación de finalización inmediata"] al umbral general de la semana 34 para preeclampsia grave, y la maduración pulmonar ya se ha completado (2.ª dosis de corticoides hace 24h), eliminando cualquier razón para demorar el parto. Confirmación LIMPIA, sin discrepancia)*
-
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 4 preguntas reales, manteniendo 1 discrepancia y sumando 3 limpias.
 
 ### MIR-2024-061
 Puérpera de parto eutócico sin complicaciones hace 4 días que acude a urgencias por cefalea de 12 horas de evolución y edemas maleolares. A la exploración presenta cifras tensionales de 165/100 mmHg en dos ocasiones y en la analítica se observa una cifra de plaquetas de 254.000/µL, AST 172 UI/L, ALT 154 UI/L y LDH 345 UI/L, creatinina 0,9 mg/dL y cociente prot/creat 235 mg/g. ¿Cuál de las siguientes opciones terapéuticas forma parte de la primera línea de tratamiento inmediato?
@@ -120,8 +120,6 @@ D. Diuréticos vía endovenosa.
 **Respuesta correcta: A**
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, urgencia obstétrica estándar) — el cuadro (preeclampsia posparto con criterios de gravedad: HTA ≥160/110, cefalea, transaminasas elevadas, proteinuria significativa) tiene riesgo de eclampsia; el sulfato de magnesio IV es el tratamiento de primera línea para profilaxis/tratamiento de las convulsiones eclámpticas en este contexto, prioritario sobre el control tensional oral. Coincide con la clave oficial. Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad ampliada (actualizada):** con esta pregunta se eleva a 5 preguntas reales, manteniendo 1 discrepancia y sumando 4 limpias.
 
 ### MIR-2011-164
 Gestante de 32 semanas que acude a su consulta para el control de la gestación en visita programada. En el último mes ha ganado 4 kg de peso. Presenta edemas en miembros inferiores y una TA de 140/90 en ese momento y tras repetir la toma 30 minutos después. Realiza una ecografía en la que se observa un feto con una biometría acorde con la amenorrea, placenta y líquido amniótico normales. Cuál de las siguientes decisiones tomará a continuación:

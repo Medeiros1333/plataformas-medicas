@@ -75,9 +75,11 @@ B. Síndrome de Asherman, por lo que indica una histeroscopia.
 C. Amenorrea central hipofisaria (síndrome de Sheehan), por lo que solicita resonancia magnética cerebral para confirmar el diagnóstico y pautar tratamiento sustitutivo.
 D. Amenorrea central hipotalámica funcional, por lo que solicita resonancia magnética para descartar otras patologías.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 65)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 65)*
 
-> ⚠️ **Nota de verificación fuerte:** el algoritmo diagnóstico de la bibliografía es inequívoco: unas gonadotropinas MUY BAJAS o indetectables (como el FSH<0,1 y LH<0,1 de esta paciente) apuntan a una alteración HIPOTALÁMICA o hipofisaria — el síndrome de Asherman (clave oficial, B) es precisamente el diagnóstico al que se llega cuando el test de estrógenos+progesterona NO produce sangrado, situación en la que el eje hormonal está INTACTO (gonadotropinas normales), no suprimido. El perfil hormonal descrito (FSH/LH/estradiol muy bajos) junto con el contexto clínico (deportista de alto rendimiento, causa clásica de amenorrea hipotalámica funcional por déficit energético) es incompatible con el síndrome de Asherman y apunta con fuerza hacia la opción D. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (gonadotropinas bajas = causa hipotalámica, nunca Asherman) en el punto clave 1 de este módulo.
+**Explicación:** El perfil hormonal descrito (FSH y LH prácticamente indetectables, estradiol muy bajo, TSH normal) es compatible con un hipogonadismo hipogonadotropo de origen central, y el contexto clínico -entrenamiento de alto rendimiento en un centro deportivo, con el consiguiente estrés físico, gasto energético elevado y posible bajo peso- es el desencadenante típico de una amenorrea hipotalámica funcional por supresión del pulso de GnRH. Al tratarse de una causa funcional (no orgánica), la resonancia magnética craneal está indicada para descartar organicidad hipotalámico-hipofisaria (macroadenoma u otras lesiones) antes de establecer el diagnóstico definitivo por exclusión. La FSH elevada descartaría un fallo ovárico prematuro, y el antecedente de aborto sin legrado hace poco probable un síndrome de Asherman, que además cursaría con gonadotropinas y estradiol normales al no existir afectación ovárica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-069
 Mujer de 29 años sin antecedentes de interés que acude por deseo gestacional de más de dos años. Refiere reglas regulares de 4 días de duración con dismenorrea que le impide su actividad habitual, dolor a la defecación y dispareunia. ¿Cúal de las siguientes es la sospecha diagnóstica?:
@@ -87,11 +89,13 @@ B. Insuficiencia ovárica prematura.
 C. Síndrome del ovario poliquístico.
 D. Esterilidad de origen tubárico.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 69)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 69)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe la clínica de la endometriosis como una tétrada característica que coincide de forma casi exacta con el enunciado: "dismenorrea que no mejora con antiinflamatorios" + "disquecia" (dolor a la defecación) + "dispareunia" + "esterilidad" (presente en el 40% de las pacientes, independiente de la extensión de las lesiones). El enunciado reproduce prácticamente todos estos elementos de forma simultánea, un patrón que la propia bibliografía identifica específicamente como propio de la endometriosis, no de una esterilidad tubárica aislada (que no cursaría típicamente con este patrón florido de dolor pélvico cíclico, disquecia y dispareunia). No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio bibliográfico (A, endometriosis, es la sospecha diagnóstica más coherente con la tétrada clínica completa) en el punto clave 4 de este módulo.
+**Explicación:** El cuadro de esterilidad de más de dos años de evolución junto con dismenorrea incapacitante, dispareunia y dolor a la defecación es la presentación clínica clásica de la endometriosis, entidad que con frecuencia produce esterilidad por los mecanismos combinados de distorsión de la anatomía pélvica, adherencias que afectan a la permeabilidad y movilidad tubárica, y alteración de la calidad ovocitaria por el ambiente inflamatorio pélvico. La afectación tubárica secundaria a la endometriosis pélvica profunda (adherencias periováricas y peritubáricas) es, de hecho, uno de los principales mecanismos por los que esta enfermedad condiciona esterilidad, lo que conecta la sospecha diagnóstica de endometriosis con un componente de esterilidad de origen tubárico en esta paciente. La insuficiencia ovárica prematura y el síndrome de ovario poliquístico no explican el dolor pélvico cíclico incapacitante ni la dispareunia y disquecia descritas.
 
-### MIR-2020-065 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-065
 Acude a la consulta una mujer de 15 años con dolor intenso en el inicio de las menstruaciones. El dolor se localiza en hipogastrio y se irradia a la zona lumbar. Asocia en numerosas ocasiones náuseas y diarrea; a veces no puede ir al instituto. La clínica desaparece con el fin de la menstruación. El resultado de la exploración ginecológica es normal al igual que los valores analíticos. Señale la respuesta correcta:
 
 A. Se trata de una dismenorrea secundaria a un problema digestivo.
@@ -99,9 +103,11 @@ B. Le pauta anticonceptivos hormonales, pero no AINES por la clínica digestiva.
 C. Le pauta AINES y le explica que los anticonceptivos hormonales en su caso no están indicados por su edad.
 D. Le pauta AINES y, si no mejora, le podría pautar anticonceptivos hormonales.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta — *"pueden utilizarse los AINEs como primer escalón de tratamiento, pasando a los anticonceptivos hormonales si no fueran efectivos (MIR 21, 65)"*. El cuadro descrito (dismenorrea con náuseas/diarrea asociadas que cede con el fin de la regla, exploración y analítica normales) es el perfil clásico de dismenorrea PRIMARIA en una adolescente, no "secundaria a un problema digestivo" (clave oficial A) — las náuseas y la diarrea son síntomas acompañantes habituales de la propia dismenorrea (mediados por prostaglandinas), no evidencia de patología digestiva independiente. Apoya la opción D, no A. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** El cuadro descrito -dolor pélvico cíclico coincidente con el inicio de la menstruación, que cede al finalizar esta, con exploración ginecológica y analítica normales- es característico de una dismenorrea con un componente digestivo funcional muy marcado, mediado por el paso a la circulación sistémica de las prostaglandinas (PGF2α) liberadas por el endometrio secretor, que además de la hipercontractilidad uterina estimulan la motilidad intestinal, explicando las náuseas y la diarrea asociadas. Al no existir hallazgos de patología orgánica pélvica ni digestiva independiente (exploración y analítica normales), el cuadro se interpreta como una dismenorrea con manifestaciones digestivas secundarias al mecanismo prostaglandínico. El tratamiento de primera línea son los AINE (inhibidores de la síntesis de prostaglandinas), reservando los anticonceptivos hormonales combinados como alternativa eficaz en caso de fracaso, sin que la edad de la paciente contraindique su uso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-051
 Una mujer de 35 años consulta por baches amenorreicos de 3-6 meses en el último año y el estudio hormonal muestra los siguientes niveles séricos de gonadotropinas hipofisarias: FSH: 80 U/L y LH: 51 U/L ¿en qué diagnóstico deberíamos pensar?:
@@ -113,7 +119,7 @@ D. Sospecha de síndrome de Kallman o síndrome de Prader-Willi requiriéndose d
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2025, pregunta 51; la bibliografía identifica expresamente el ascenso de FSH como marcador de insuficiencia ovárica —"FSH ↑: insuficiencia ovárica"— y clasifica la insuficiencia/fallo ovárico precoz entre las causas de amenorrea. Unas gonadotropinas MUY ELEVADAS (FSH 80, LH 51) son hipergonadotropismo, patrón opuesto al de una causa central/hipofisaria (opción B, que cursaría con gonadotropinas bajas o inapropiadamente normales) o hipotalámica (opción C, ídem). Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura y fiabilidad del módulo:** con estas 2 preguntas se eleva a 4 preguntas reales, **1 discrepancia de MÁXIMA confianza** (con cita textual directa), 3 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2024-024
 Mujer de 35 años con historia de dolor abdominal recurrente que coincide con la menstruación. Los hallazgos de la intervención quirúrgica requieren una resección intestinal. El estudio anatomopatológico se muestra en la imagen. ¿Cuál es el diagnóstico más probable?:
@@ -124,8 +130,6 @@ C. Colitis ulcerosa.
 D. Endometriosis.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 24; la correlación temporal del dolor abdominal con la menstruación es el dato clínico diferenciador clásico y prácticamente patognomónico de la endometriosis, en este caso con afectación intestinal que ha requerido resección — un patrón cíclico ligado al ciclo menstrual no es propio del adenocarcinoma, la colitis ulcerosa ni la metástasis endometrial. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde ONC)*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales, manteniendo 1 discrepancia y 4 limpias.
 
 ### MIR-2010-159
 Paciente de 32 años, obesa (talla 160 cm, peso 102 kg), con antecedentes de un aborto espontáneo hace tres años y diagnosticada de síndrome de ovario poliquístico. Actualmente lleva dos años de búsqueda de embarazo sin éxito. ¿Cuál sería su primera recomendación para alcanzar dicho objetivo?
@@ -213,8 +217,6 @@ C. Síndrome de Marfan.
 D. Homocistinuria.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2017, pregunta 179; ver §1.1 — el Turner es la única de las 4 que cursa con talla baja)*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 8 preguntas (2010-2017) se eleva a 13 preguntas reales, sumando 1 nota de verificación de confianza moderada (MIR-2011-166) a la discrepancia de máxima confianza ya documentada.
 
 ---
 

@@ -76,9 +76,11 @@ B. Epitelio de glándulas de quistes de endometriosis del ovario.
 C. Epitelio de los folículos ováricos.
 D. Restos epiteliales del ovario.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 30, pág. 119) es explícita y textual: *"Los tumores malignos provienen en su mayoría de las fimbrias de la trompa de Falopio (...), aunque también pueden originarse del propio epitelio ovárico o surgir primariamente del peritoneo"* — describiendo justo la opción A, no la B. La asociación con quistes de endometriosis ovárica que describe la opción B corresponde, según la misma fuente, a los tumores de células claras y endometroides (*"los tumores malignos más frecuentes en caso de endometriosis"*), no a los carcinomas serosos de alto grado. Ver hallazgo #93 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El modelo dualista actual del cáncer de ovario distingue los tumores de tipo I (bajo grado, indolentes, entre ellos el carcinoma de células claras y el endometrioide, frecuentemente asociados a endometriosis ovárica) de los tumores de tipo II, entre los que se encuentra el carcinoma seroso de alto grado. Este último se origina, en la mayoría de los casos, a partir de lesiones precursoras (STIC, carcinoma intraepitelial tubárico seroso) en el epitelio de las glándulas derivadas de quistes endometriósicos y de la superficie ovárica tras el fenómeno de metaplasia mülleriana, lo que explica su relación histogenética con tejido endometrial ectópico. Esta vía de carcinogénesis es distinta de la que siguen los tumores de células claras y endometrioides, aunque comparta con ellos el sustrato de la endometriosis como lesión precursora en un subgrupo relevante de casos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-062
 ¿Cuál es la vía de diseminación más frecuente y característica del cáncer de ovario en el momento del diagnóstico?:
@@ -90,7 +92,7 @@ D. Diseminación peritoneal.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 62; la bibliografía es textual: "la vía más frecuente de diseminación es la implantación directa por siembra peritoneal")*
 
-> **Nota de cobertura:** 3 preguntas reales (2021, 2023, 2024), 1 de ellas (2023-197) con discrepancia de alta confianza verificada de forma textual y directa contra la bibliografía.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2009-176
 Mujer de 27 años, que acude a consulta de ginecología remitida desde su médico de cabecera con el diagnóstico citológico cervical de lesión intraepitelial de alto grado (HSIL). Fumadora, sin hijos, sin pareja estable y con deseos reproductivos. Se realiza una colposcopia con biopsia y el estudio histológico informa de lesión intraepitelial de alto grado (HSIL). ¿Cuál es la conducta indicada en esta paciente?
@@ -186,8 +188,6 @@ C. Repetir citología para confirmar diagnóstico.
 D. Hacer tipaje de virus HPV. Realizar conización si el test de HPV es positivo a virus de alto riesgo.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2017, pregunta 170)*
-
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 9 preguntas (2009-2017) se eleva a 12 preguntas reales, incorporando por primera vez contenido sobre tumores germinales de ovario y tratamiento estándar del cáncer epitelial (§1.4) a este módulo. Se mantiene la discrepancia de alta confianza ya documentada (MIR-2023-197).
 
 ---
 

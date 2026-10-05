@@ -86,7 +86,7 @@ D. Programar una intervención quirúrgica por videocirugía.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2025, pregunta 80; el 2.º episodio de neumotórax espontáneo primario es indicación de pleurodesis, de elección quirúrgica por VATS)*
 
-### MIR-2020-144 ⚠️
+### MIR-2020-144
 Mujer de 84 años, diagnosticada de enfermedad pulmonar obstructiva crónica en tratamiento con oxigenoterapia domiciliaria. Acude a urgencias por empeoramiento de su estado general, fiebre de 39ºC, tos y expectoración purulenta de 5 días de evolución. En la exploración física se halla una tensión arterial de 90/70 mmHg, frecuencia cardiaca de 125 lpm, saturación basal de oxígeno 86 % y frecuencia respiratoria 35 rpm. En la auscultación hay hipofonesis basal izquierda. La analítica muestra 30.000 leucocitos (85 % neutrófilos). En la radiografía de tórax se detecta un gran infiltrado pulmonar apical izquierdo y un derrame pleural moderado ipsilateral. Se realiza una toracocentesis que obtiene un líquido pleural purulento, del que se solicita cultivo. ¿Cuál es el diagnóstico de sospecha y la actitud terapéutica inicial?:
 
 A. Neumonía adquirida en la comunidad. Se debe solicitar antigenuria de neumococo y pautar cobertura antibiótica de amplio espectro.
@@ -94,9 +94,11 @@ B. Derrame pleural a estudio. Se debe realizar una cobertura antibiótica y cont
 C. Neumonía adquirida en la comunidad y derrame paraneumónico izquierdo. Se debe realizar cobertura antibiótica y esperar a los resultados del cultivo del líquido pleural para valorar la colocación de un drenaje pleural.
 D. Neumonía adquirida en la comunidad y empiema pleural paraneumónico izquierdo. Se debe realizar cobertura antibiótica, solicitar antigenuria de neumococo y colocar un drenaje pleural izquierdo urgente.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** líquido pleural macroscópicamente PURULENTO ya define, por sí solo, el empiema según la bibliografía (§1.2 de este módulo) — no requiere esperar a más criterios ni al cultivo. La opción D es la que coincide con la definición y el manejo estándar (cobertura antibiótica + drenaje urgente); la opción B, marcada como oficial ("derrame a estudio... controles radiológicos seriados"), no reconoce el empiema ya evidente ni indica el drenaje urgente que exige. Se mantiene la clave oficial (B) sin alterar. Este es el candidato de 2020 referenciado en el hallazgo #32 de `PROCESO_Y_APRENDIZAJE.md`, cuyo contenido inspiró la pregunta inédita NML-03-INED-01.
+**Explicación:** Esta paciente con EPOC y oxigenoterapia domiciliaria presenta un cuadro de neumonía adquirida en la comunidad grave (con criterios de shock séptico incipiente y una taquipnea marcada) que se acompaña de un derrame pleural moderado ipsilateral cuya toracocentesis obtiene líquido purulento franco, lo que define por definición un empiema pleural (independientemente del resultado del cultivo, que puede ser negativo si ya se ha iniciado antibioterapia). Ante un empiema establecido, el manejo debe incluir cobertura antibiótica de amplio espectro junto con la colocación de un drenaje pleural para evacuar la colección purulenta, ya que el retraso en el drenaje de un empiema franco se asocia a peor evolución clínica, tabicación del derrame y necesidad de intervenciones más agresivas (fibrinolíticos intrapleurales o cirugía).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-131
 Varón de 30 años, de complexión delgada, que durante un partido de baloncesto sufre un episodio de dolor torácico derecho agudo, acompañado de disnea de aparición brusca y respiración superficial por el que acude a urgencias. ¿Cuál de los siguientes signos exploratorios le parecería más probable encontrar en la auscultación pulmonar?:
@@ -110,9 +112,9 @@ D. Roncus y sibilancias dispersas.
 
 > **Nota de cobertura:** confirmación LIMPIA — varón joven, delgado, dolor torácico brusco durante ejercicio, es el perfil clásico del neumotórax espontáneo primario (§1.3); los hallazgos auscultatorios/percutorios de la opción C (abolición de vibraciones vocales + timpanismo, no matidez) son los propios del aire libre en el espacio pleural, coincidiendo con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas 2 preguntas se eleva a 5 preguntas reales, **1 discrepancia de máxima confianza** (más el patrón ya descrito del hallazgo #32 con la 2.ª candidata de 2022 aún no incorporada al módulo), 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2022-085 ⚠️
+### MIR-2022-085
 Paciente de 7 años ingresado desde hace varios días con diagnóstico de neumonía, tratado con antibióticos. Mantiene picos febriles por lo que se realiza una ecografía torácica en donde se observa derrame pleural con múltiples tabiques. Se hace una toracocentesis diagnóstica extrayéndose material purulento. ¿Qué se debe hacer a continuación?:
 
 A. Drenaje cerrado con un tubo de tórax con instilación de fibrinolíticos.
@@ -120,9 +122,11 @@ B. Toracocentesis repetidas para extraer todo el derrame posible.
 C. Decorticación quirúrgica.
 D. Ampliación de la cobertura antibiótica.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta — *"La presencia de un empiema tabicado obliga a la instilación de fibrinolíticos en la cavidad pleural (MIR 23, 85) y, si éstos fracasan, se practicará una toracotomía con desbridamiento... En última instancia, se procederá a la decorticación"*. Ante un empiema ya tabicado con toracocentesis purulenta confirmada, el siguiente paso indicado es el drenaje con tubo de tórax + fibrinolíticos intrapleurales (opción A), no la simple ampliación de antibioterapia (opción D, clave oficial). Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Niño con neumonía que mantiene fiebre pese al tratamiento antibiótico y presenta un derrame pleural tabicado con líquido purulento en la toracocentesis: es un empiema (derrame paraneumónico complicado en fase fibrinopurulenta). Además de continuar con el antibiótico, el tratamiento de elección es el drenaje pleural mediante tubo de tórax con instilación de fibrinolíticos intrapleurales (urocinasa), que rompen los tabiques de fibrina y permiten el drenaje completo de la colección (A). Las toracocentesis repetidas (B) son insuficientes en un derrame tabicado. La decorticación quirúrgica o la videotoracoscopia (C) se reservan para el fracaso del drenaje con fibrinolíticos o la fase organizada con 'peel' fibroso. Ampliar únicamente la cobertura antibiótica (D) no resuelve el problema, porque el empiema requiere evacuar el pus.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2018-017
 Pregunta vinculada a la imagen n.º17. Joven de 22 años sin antecedentes de interés que acude a urgencias por dolor torácico y abdominal inespecífico. Presión arterial de 90/50 mmHg, frecuencia cardiaca 120 latidos por minuto y saturación basal 94%. Auscultación respiratoria con hipofonesis generalizada bilateral. ¿Cuál es el diagnóstico y tratamiento inicial según la imagen?

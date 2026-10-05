@@ -82,7 +82,7 @@ D. Las recidivas en estos tumores no dependen del grado tumoral y no son frecuen
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2025, pregunta 79)*
 
-### MIR-2022-145 ⚠️
+### MIR-2022-145
 Paciente con diagnóstico de glioblastoma multiforme. El informe de anatomía patológica refiere la presencia de metilación del promotor del gen MGMT (metil guanina metil transferasa). Con respecto al tratamiento de este paciente:
 
 A. Esta información no es relevante.
@@ -90,11 +90,13 @@ B. La presencia de la metilación aumenta la supervivencia en pacientes tratados
 C. La presencia de la metilación contraindicaría el tratamiento con temozolamida.
 D. La presencia de la metilación nos apoyaría la decisión de tratamiento con cisplatino frente al uso de un agente alquilante.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 145)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 145)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de referencia establece textualmente que la metilación del promotor MGMT "confiere mejor pronóstico dado que aumenta la supervivencia en pacientes tratados con temozolomida" — lo cual coincide letra por letra con la opción **B**, no con la D. Además, la opción D es clínicamente inconsistente: la temozolomida ES un agente alquilante, y el cisplatino no forma parte del protocolo estándar de tratamiento del glioblastoma (protocolo de Stupp: cirugía + radioterapia + temozolomida); la metilación de MGMT nunca "apoyaría" sustituir un agente alquilante por cisplatino — al contrario, predice mejor respuesta al agente alquilante. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022. Ver hallazgo #36 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La metilación del promotor del gen MGMT es uno de los biomarcadores predictivos mejor establecidos en el glioblastoma: esta enzima repara el daño alquilante que la temozolomida produce en el ADN tumoral, por lo que cuando su promotor está metilado y silenciado, las células tumorales pierden esta capacidad de reparación y se vuelven más sensibles al efecto citotóxico de la temozolomida. Esto se traduce en una mayor tasa de respuesta y una supervivencia significativamente mayor en los pacientes con tumores MGMT metilados tratados con temozolomida concomitante y adyuvante a la radioterapia (esquema de Stupp), frente a los pacientes con MGMT no metilado. Por tanto, esta información es clínicamente muy relevante para predecir la respuesta al tratamiento estándar con temozolomida, y en ningún caso contraindicaría su uso ni orientaría hacia el empleo de cisplatino, que no forma parte del tratamiento estándar de primera línea del glioblastoma.
 
-### MIR-2022-102 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-102
 En los pacientes con esclerosis tuberosa (enfermedad de Bourneville) señale la respuesta INCORRECTA:
 
 A. Con frecuencia presentan crisis epilépticas.
@@ -102,9 +104,11 @@ B. Suelen presentar angiofibromas faciales.
 C. El tumor cerebral más frecuente es el astrocitoma gigantocelular subependimario.
 D. Con frecuencia presentan neurinomas.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 102)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 102)*
 
-> ⚠️ **Nota de verificación fuerte:** según la bibliografía, la epilepsia (incluyendo el síndrome de West) es una manifestación característica y frecuente de la esclerosis tuberosa — de hecho forma parte de la tríada clásica EPILOIA (Epilepsia, LOI, Angiofibromas). La opción A es, por tanto, VERDADERA, no la respuesta a "cuál es incorrecta". En cambio, los neurinomas (schwannomas) son una manifestación característica de la **neurofibromatosis tipo 2**, no de la esclerosis tuberosa — la opción D es la que parece claramente FALSA según la bibliografía y debería ser la respuesta a la pregunta. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022. Ver hallazgo #36 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La esclerosis tuberosa (enfermedad de Bourneville) es una facomatosis de herencia autosómica dominante causada por mutaciones en los genes TSC1 o TSC2, que produce hamartomas en múltiples órganos. En el sistema nervioso central origina túberes corticales, nódulos subependimarios y, característicamente, astrocitomas subependimarios de células gigantes, el tumor cerebral más frecuentemente asociado a esta enfermedad, y estas lesiones explican que la epilepsia sea una manifestación extremadamente frecuente. A nivel cutáneo son típicos los angiofibromas faciales, las máculas hipopigmentadas en hoja de fresno y las placas de Shagreen. Los neurinomas (schwannomas), en cambio, no son una manifestación característica de la esclerosis tuberosa, sino de la neurofibromatosis tipo 2, en la que son típicos los schwannomas vestibulares bilaterales.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

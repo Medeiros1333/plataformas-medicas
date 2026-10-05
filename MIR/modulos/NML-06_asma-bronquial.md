@@ -79,7 +79,7 @@ B. Frecuencia respiratoria >25 respiraciones/minuto.
 C. Silencio pulmonar en la auscultación.
 D. Cianosis.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 128; el silencio auscultatorio está descrito explícitamente en la bibliografía como signo de exacerbación MUY GRAVE con indicación de traslado a UCI y posible ventilación mecánica, a diferencia de los signos de gravedad "estándar" —pulso paradójico, taquipnea— de las opciones A y B, ver §1.5; pregunta sin discrepancia)*
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2022-209
 Varón de 56 años con hernia de hiato y rinitis persistente por sensibilización a arizónicas que consulta por empeoramiento en las últimas semanas, con aparición de bloqueo nasal, lagrimeo, tos, disnea de esfuerzo y sibilancias inspiratorias, que no mejora con su broncodilatador y corticoide inhalado habituales. Convive con un perro desde hace 5 años. Utiliza un humidificador desde hace 3 meses durante la noche por sequedad de garganta. Auscultación pulmonar: crepitantes finos en bases. Espirometría: FVC 68%, FEV1 79%, FEV1/FVC 0,92. TC tórax: infiltrados de localización subpleural con fino patrón reticular en ambos lóbulos inferiores y algunos de forma parcheada en lóbulos superiores. ¿Cuál sería el diagnóstico más probable y la actitud a tomar?:
@@ -109,9 +109,11 @@ B. Antes de iniciarse el tratamiento debe realizase radiografía de tórax, gaso
 C. Los corticoides inhalados estarían contraindicados por aumentar el riesgo de neumonía.
 D. Como primera elección se deben administrar anticolinérgicos nebulizados, debido a la ausencia de respuesta a los agonistas beta2.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 121)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 121)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía contradice directamente la clave oficial. No existe ninguna mención a que los corticoides inhalados estén "contraindicados por aumentar el riesgo de neumonía" en el contexto de una crisis asmática; al contrario, el algoritmo de manejo de la crisis asmática grave/refractaria indica explícitamente administrar "SABA inhalado, bromuro de ipratropio inhalado, oxígeno y **corticosteroides sistémicos**" de forma inmediata, y en el manejo escalonado según gravedad "PEF 60-80%: β-agonista inhalado y corticoides intravenosos". Este cuadro (crisis grave/refractaria a tratamiento inicial, con notable aumento del trabajo respiratorio) corresponde precisamente al escenario que la opción A describe correctamente: agonistas beta2 nebulizados urgentes, añadiendo corticoides IV si no hay respuesta temprana — coincidiendo con el algoritmo bibliográfico. Además, la bibliografía indica expresamente que "no debe supeditarse el inicio del tratamiento broncodilatador" a la realización de radiografía/gasometría (descarta B), y no describe a los anticolinérgicos como primera elección ante fallo de los beta2-agonistas (descarta D). No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (corticoides indicados, no contraindicados) en el punto clave 1 de este módulo.
+**Explicación:** En una crisis asmática grave que no responde al tratamiento inicial con broncodilatadores de acción corta y corticoides inhalados, requiriendo dosis repetidas de broncodilatador con aumento del trabajo respiratorio, el tratamiento debe intensificarse sin demora (agonistas beta-2 nebulizados de forma repetida, añadiendo bromuro de ipratropio, y corticoides sistémicos ante la ausencia de respuesta precoz), sin que exista ninguna contraindicación para el uso de corticoides inhalados por un supuesto aumento del riesgo de neumonía en este contexto agudo: dicha asociación entre corticoides inhalados y mayor riesgo de neumonía se ha descrito específicamente en el contexto de la EPOC, no del asma, por lo que constituye una afirmación incorrecta en el manejo de esta paciente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-113
 Paciente con asma mal controlada a pesar de una combinación de glucocorticoides inhalados a dosis altas y un broncodilatador β-agonista de acción prolongada. Ha requerido ciclos de corticoides sistémicos sin una respuesta adecuada. Presenta rinosinusitis crónica con poliposis nasal y un recuento de eosinófilos de 400 células/μL en la analítica. Señale la respuesta correcta en cuanto al fenotipo asmático y la mejor opción de tratamiento.
@@ -135,7 +137,7 @@ D. Estamos ante una crisis de asma moderada, agonistas Beta-2 de acción corta c
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, criterios de gravedad estándar GINA/GEMA) — los hallazgos objetivos (habla conservada, sin uso de musculatura accesoria, FR 18 —normal—, FC 96, SatO2 96% >95%) son todos compatibles con una crisis LEVE, no moderada; el manejo descrito en A (SABA con cámara 2-4 inhalaciones/20min la primera hora, y si mejoría, prednisona oral corta + GCI/LABA + plan de acción escrito) es el algoritmo estándar para la crisis leve. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales, manteniendo 1 discrepancia y sumando 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

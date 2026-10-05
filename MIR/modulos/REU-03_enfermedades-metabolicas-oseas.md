@@ -83,9 +83,13 @@ B. No se deben iniciar bifosfonatos si presenta hipocalcemia.
 C. Debe suplementarse con calcio aunque sus valores sean normales.
 D. Debe permanecer encamado seis semanas tras la intervención quirúrgica para mejorar la consolidación de la fractura.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 160)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 160)*
 
-### MIR-2020-116 ⚠️
+**Explicación:** La edad avanzada o la presencia de deterioro cognitivo leve no constituyen, por sí solas, una contraindicación para iniciar tratamiento osteoprotector tras una fractura de cadera de etiología osteoporótica, ya que el beneficio en la prevención de nuevas fracturas se mantiene también en la población anciana frágil. Sin embargo, antes de iniciar un bifosfonato debe corregirse cualquier alteración del metabolismo calcio-fósforo, puesto que su administración en presencia de hipocalcemia no corregida puede agravar el déficit y desencadenar complicaciones graves como la tetania. La movilización precoz tras la cirugía de fractura de cadera, y no el encamamiento prolongado, es la recomendación estándar actual para reducir las complicaciones tromboembólicas, respiratorias y funcionales asociadas a la inmovilización.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-116
 Entre los siguientes fármacos para el tratamiento de la osteoporosis, ¿cuál de ellos NO causa osteonecrosis mandibular o fractura atípica de fémur como efecto adverso?
 
 A. Zolendronato.
@@ -93,11 +97,13 @@ B. Denosumab.
 C. Alendronato.
 D. Teriparatida.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 116)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 116)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente que denosumab tiene "efectos secundarios similares a los bifosfonatos: se han descrito casos de osteonecrosis de la mandíbula y de fracturas atípicas" — es decir, SÍ causa estos efectos adversos, contradiciendo la clave oficial (B). La teriparatida (opción D), al ser un fármaco fundamentalmente osteoformador/anabólico (no antirresortivo), no comparte este perfil de efectos adversos según la bibliografía — sería la respuesta más consistente. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020. Ver hallazgo #41 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Los bifosfonatos (zoledronato, alendronato) y el denosumab son fármacos antirresortivos que, por su potente inhibición del remodelado óseo, se han asociado a dos efectos adversos infrecuentes pero relevantes: la osteonecrosis mandibular y la fractura atípica de fémur, ambos relacionados con la supresión mantenida del recambio óseo. La teriparatida, por el contrario, es un fármaco osteoformador (análogo del fragmento activo de la PTH) que estimula la formación ósea en lugar de inhibir la resorción, por lo que no se ha asociado a estos efectos adversos y, de hecho, se ha empleado en el manejo de casos de osteonecrosis mandibular o fractura atípica ya establecidas en pacientes previamente tratados con antirresortivos.
 
-### MIR-2021-116 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-116
 Mujer de 95 años que vive en una residencia, independiente para sus actividades básicas de la vida diaria, sale al jardín a pasear. Tiene antecedentes de HTA, dislipidemia, osteoporosis y deterioro cognitivo leve. Sufre una caída al levantarse por la noche al baño. La radiografía muestra una fractura subcapital desplazada de cadera derecha. ¿Cuál es el tratamiento recomendado?
 
 A. Hemiartroplastia de cadera.
@@ -105,11 +111,13 @@ B. Fijación con clavo trocantérico.
 C. Fijación con tornillos canulados.
 D. Conservador: vida cama-sillón.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 116)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 116)*
 
-> ⚠️ **Nota de verificación fuerte:** la paciente es descrita explícitamente como "independiente para sus actividades básicas de la vida diaria" y con deterioro cognitivo solo LEVE — el perfil clásico de paciente que SÍ se beneficia de tratamiento quirúrgico activo de la fractura de cadera, ya que el manejo puramente conservador conlleva alta morbimortalidad por las complicaciones de la inmovilización prolongada (neumonía, TVP, úlceras por presión) en un paciente que previamente caminaba. El manejo conservador "cama-sillón" (opción D, marcada oficialmente) se reserva para pacientes que YA eran dependientes/no ambulatorios antes de la fractura o con riesgo quirúrgico extremo — no es el perfil descrito aquí. Dado que se trata de una fractura subcapital DESPLAZADA, la hemiartroplastia (opción A) sería la técnica quirúrgica más consistente con el perfil funcional descrito. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de sospecha de error en la clave oficial 2021 (aunque se reconoce que la decisión en pacientes de edad muy avanzada con múltiples comorbilidades puede tener cierto grado de individualización clínica). Ver hallazgo #41 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El tratamiento de elección en la mayoría de fracturas de cadera en el anciano, incluso en pacientes muy mayores, es la cirugía precoz (habitualmente hemiartroplastia en las fracturas subcapitales desplazadas), ya que permite la movilización temprana y reduce la mortalidad y las complicaciones asociadas al encamamiento prolongado. El manejo conservador (vida cama-sillón) se reserva para los casos excepcionales en los que el riesgo quirúrgico o anestésico es prohibitivo, la esperanza de vida es muy limitada o el paciente ya era dependiente total y no ambulante antes de la fractura. En la valoración geriátrica integral de cada caso deben sopesarse la situación funcional previa, la comorbilidad y las preferencias del paciente o su familia para individualizar la decisión terapéutica final.
 
-### MIR-2022-151 ⚠️ (nota de baja confianza)
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-151
 ¿Cuál de los siguientes factores NO se ha asociado específicamente a un mayor riesgo de caídas en personas mayores?
 
 A. Osteoporosis.
@@ -117,9 +125,11 @@ B. Déficit visual.
 C. Artrosis.
 D. Polifarmacia.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 151)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 151)*
 
-> ⚠️ **Nota de baja confianza:** la osteoporosis es, por definición, un factor de riesgo de FRACTURA (una vez ocurre una caída), pero no un factor que predisponga directamente a CAER — es una enfermedad asintomática hasta que se fractura, sin relación directa con el equilibrio o la marcha. La artrosis, en cambio, sí es un factor reconocido de riesgo de caídas por el dolor articular y la inestabilidad/alteración de la marcha que produce. Esto sugiere que la respuesta más consistente sería A (osteoporosis), no C (artrosis, marcada oficialmente). Se marca con confianza baja porque esta pregunta pertenece más al ámbito de la geriatría general que a la bibliografía específica de Reumatología consultada, y no se dispone de una cita bibliográfica directa que zanje la cuestión de forma inequívoca.
+**Explicación:** En la valoración geriátrica del riesgo de caídas se distinguen los factores intrínsecos (debilidad muscular, alteraciones de la marcha y el equilibrio, artrosis, déficit visual, deterioro cognitivo, hipotensión ortostática) de los extrínsecos (polifarmacia, barreras arquitectónicas del entorno). La artrosis, al limitar la movilidad articular y alterar el patrón de marcha, se considera un factor de riesgo reconocido de caídas, al igual que el déficit visual y la polifarmacia. La osteoporosis, en cambio, no predispone directamente a la caída en sí misma, sino que constituye el principal factor de riesgo de que dicha caída se complique con una fractura, por lo que su relación es con la gravedad de la consecuencia de la caída y no con el mecanismo causal de esta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-121
 Mujer de 79 años que ingresa por una fractura osteoporótica de cadera. Respecto a la prevención secundaria de las fracturas por fragilidad, señale la respuesta INCORRECTA:
@@ -129,9 +139,11 @@ B. Los marcadores de remodelado óseo pueden ser útiles para monitorizar de for
 C. La vitamina D en monoterapia es eficaz en la reducción de dichas fracturas en personas mayores no institucionalizadas.
 D. El aumento de calcio dietético o tomar suplementos de calcio de forma aislada no protegen frente a la aparición de fracturas.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 22, 121", desfase de año habitual de ±1), afirma de forma prácticamente literal: *"en términos generales, el aporte aislado de calcio y/o vitamina D no protege frente a la aparición de fracturas"* — esto coincide EXACTAMENTE con la opción D (marcada oficialmente como la INCORRECTA), que es en realidad una afirmación VERDADERA según la propia bibliografía citada para esta pregunta. La única excepción descrita por la bibliografía es marginal y específica: en población >65 años INSTITUCIONALIZADA, la combinación de calcio Y vitamina D (no la vitamina D en monoterapia) puede reducir el riesgo de fractura no vertebral. Esta excepción no aplica a la opción C, que habla específicamente de vitamina D en MONOTERAPIA en personas mayores NO institucionalizadas — un escenario en el que, según el principio general de la bibliografía, no cabe esperar beneficio. La opción C sería, por tanto, la afirmación realmente INCORRECTA (falsa), no la D. Ver hallazgo #112 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La adherencia terapéutica es un determinante clave del éxito en la prevención secundaria de fracturas, de modo que su ausencia se asocia de forma consistente a un mayor riesgo de nuevas fracturas por fragilidad. Los marcadores de remodelado óseo (como el CTX o el P1NP) permiten monitorizar de forma precoz la respuesta al tratamiento antiosteoporótico, antes incluso de que dicha respuesta se refleje en la densitometría ósea. Respecto a la suplementación aislada, tanto la vitamina D en monoterapia como el calcio en monoterapia han mostrado una eficacia limitada e inconsistente en la reducción de fracturas en personas mayores no institucionalizadas, siendo la combinación de calcio y vitamina D la que ha demostrado mayor beneficio, sobre todo en poblaciones institucionalizadas o con déficit demostrado de vitamina D.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-117
 Mujer de 81 años asmática que utiliza los corticoides de forma frecuente para controlar los brotes de broncoespasmo y que consulta porque tiene un dolor agudo intenso en la región dorsolumbar después de caer en casa desde una silla. ¿Cuál de las siguientes es la actitud más recomendable a seguir?:
@@ -141,11 +153,13 @@ B. Solicitar una RM de columna dorsal y lumbar y pautar tratamiento analgésico 
 C. Pautar tratamiento analgésico y empezar tratamiento antirreabsortivo.
 D. Solicitar una densitometria, pautar tratamiento analgésico y empezar con tratamiento antireabsortivo, calcio y vitamina D.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> **Nota de cobertura (confianza fuerte, con apoyo textual directo):** la bibliografía confirma que la osteoporosis inducida por corticoides es la causa más frecuente de osteoporosis secundaria, y que su prevención/tratamiento farmacológico específico requiere calcio, vitamina D y tratamiento antirresortivo (habitualmente bifosfonatos). En una paciente con exposición crónica a corticoides sistémicos que presenta una probable fractura vertebral por fragilidad (caída de baja energía + dolor dorsolumbar agudo), la actitud recomendada combina la confirmación diagnóstica (densitometría, dado que el diagnóstico clínico por fractura de fragilidad ya es válido en >50 años pero la densitometría orienta el tratamiento y el seguimiento), analgesia y el inicio de tratamiento antirresortivo + calcio + vitamina D — coincidiendo con la clave oficial D. Sin discrepancia.
+**Explicación:** Mujer de 81 años con tratamiento corticoideo frecuente (factor de riesgo mayor de osteoporosis) que presenta dolor dorsolumbar agudo intenso tras una caída de baja energía: la sospecha es una fractura vertebral por fragilidad (aplastamiento osteoporótico). La primera actitud es confirmar la fractura con radiografías simples de columna dorsal y lumbar (proyecciones anteroposterior y lateral) y tratar el dolor (A). Una vez confirmada, una fractura vertebral por fragilidad establece por sí misma el diagnóstico de osteoporosis grave y se debe iniciar tratamiento antiosteoporótico, pero primero hay que demostrar la fractura y descartar otras causas (C y D adelantan el tratamiento sin diagnóstico; la densitometría no es necesaria para indicarlo en presencia de una fractura por fragilidad). La RM (B) se reserva para dudas diagnósticas (fractura reciente frente a antigua, sospecha de fractura patológica o compromiso neurológico), y el reposo prolongado está desaconsejado.
 
-### MIR-2022-156 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-156
 Mujer de 79 años con antecedentes de HTA y gonartrosis bilateral, independiente para las actividades de la vida diaria, vive sola. Durante una visita al médico de familia se valora la sarcopenia. Realiza el test de levantarse de la silla para 5 elevaciones en 20 segundos, y el test Timed Up and Go en 26 segundos. Señale la respuesta correcta:
 
 A. No presenta riego de caídas.
@@ -153,9 +167,11 @@ B. Tiene el diagnóstico de sarcopenia confirmada.
 C. Si tuviera sarcopenia, ésta sería grave
 D. No se sospecha sarcopenia.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (sin cita bibliográfica directa localizada; razonamiento por criterios estándar y ampliamente establecidos de valoración geriátrica — algoritmo EWGSOP2 y umbrales validados de riesgo de caídas):** un resultado de 26 segundos en el test "Timed Up and Go" es marcadamente patológico (el punto de corte de alto riesgo de caídas está ampliamente establecido en ~12-13,5 segundos; 26 segundos supera ese umbral en más del doble) y, junto con un test de levantarse de la silla también enlentecido (20 segundos para 5 repeticiones, por encima de los cortes normales habituales), constituye un perfil de deterioro funcional MARCADO, no de ausencia de riesgo. Es clínicamente insostenible que este perfil funcional se traduzca en "no presenta riesgo de caídas" (clave oficial, A). Según el algoritmo EWGSOP2 de sarcopenia (cribado con test de levantarse de la silla como prueba de "sarcopenia probable" → confirmación con medida de masa muscular → clasificación de GRAVEDAD mediante pruebas de rendimiento físico como el TUG o la velocidad de la marcha), un test de la silla alterado sugiere sarcopenia PROBABLE (no descarta la sospecha, cuestionando la opción D) pero no la CONFIRMA sin medición de masa muscular (cuestionando B); y el rendimiento físico marcadamente alterado (TUG 26s) es precisamente el criterio que, de confirmarse la sarcopenia, definiría su gravedad como GRAVE — apoyando la opción C como la más coherente con el marco EWGSOP2. Este patrón (TUG marcadamente alterado + antecedente/perfil de riesgo, marcado como "sin riesgo") es idéntico al ya documentado en el hallazgo #184 de esta sesión (MIR-2023-159, módulo MFC-01) sobre el mismo tipo de pregunta. Apoya la opción C. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Las pruebas de rendimiento físico del algoritmo EWGSOP2 de sarcopenia sirven para valorar su GRAVEDAD: el test de levantarse de la silla cinco veces >15 segundos indica baja fuerza muscular (sospecha de sarcopenia), y un Timed Up and Go ≥20 segundos (o una velocidad de la marcha ≤0,8 m/s o un SPPB ≤8) indica bajo rendimiento físico. En esta paciente ambos están alterados (20 s y 26 s), de modo que, si se confirma la sarcopenia con la medida de la masa muscular, se trataría de una sarcopenia GRAVE (baja fuerza + baja masa + bajo rendimiento físico) (C). No puede afirmarse todavía que la sarcopenia esté confirmada (B), porque para ello hace falta demostrar una baja cantidad o calidad de masa muscular (DXA, bioimpedancia). Sí se sospecha sarcopenia (D falsa) y la paciente tiene un riesgo elevado de caídas, ya que un TUG >13,5-20 segundos indica alto riesgo (A falsa).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-126
 Señale cuál de los siguientes se considera un "Hallmark" o marca del envejecimiento de tipo primario:

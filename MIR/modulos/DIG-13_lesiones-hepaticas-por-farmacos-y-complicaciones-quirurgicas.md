@@ -134,13 +134,13 @@ B. Infección de la herida quirúrgica.
 C. Infección urinaria complicada.
 D. Absceso hepático.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de confianza moderada-alta:** aunque el cronograma general de la bibliografía (fiebre a partir del 4º DPO → infección de herida quirúrgica) sería compatible en principio con la clave oficial B dado que este paciente está en el DPO 10, la bibliografía también clasifica los abscesos/peritonitis postoperatorios como "infección de órgano/espacio", la categoría MÁS GRAVE, cuya clínica típica en la práctica clínica (no verbatim citada para esta pregunta concreta) incluye tenesmo/diarrea por irritación rectal cuando el absceso es pélvico — un dato que encaja de forma mucho más específica con este caso (antecedente de peritonitis PÉLVICA localizada en la cirugía índice + distensión abdominal + diarrea de nueva aparición) que con una infección de herida quirúrgica simple, cuya clínica típica descrita en la bibliografía son signos LOCALES de inflamación en la incisión (enrojecimiento, dolor, calor), no diarrea. No se dispone de una cita textual directa del proyecto a esta pregunta concreta que confirme de forma inequívoca la opción A, por lo que se marca con confianza moderada-alta en vez de máxima. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La complicación postoperatoria más frecuente tras una apendicectomía complicada (apendicitis gangrenosa con peritonitis pélvica localizada) es la infección del sitio quirúrgico, categoría que, según la clasificación de los CDC/NHSN, engloba tanto la infección incisional (superficial o profunda) como la infección de órgano-espacio, es decir, la formación de un absceso en la cavidad intervenida, como un absceso pélvico en el fondo de saco de Douglas. La fiebre en agujas (patrón séptico intermitente), la distensión abdominal por íleo reactivo y la diarrea por irritación rectal de una colección pélvica adyacente, apareciendo en torno al 7º-10º día postoperatorio, son la presentación típica de esta complicación infecciosa de órgano-espacio en el contexto de una cirugía de alto riesgo (apéndice gangrenoso, peritonitis). La infección urinaria complicada (C) no justificaría la distensión abdominal ni el patrón febril séptico descrito. El absceso hepático (D) es una complicación mucho más infrecuente y tardía tras una apendicectomía. Así, dentro del espectro de la infección del sitio quirúrgico, la localización pélvica en el Douglas es la más característica tras una peritonitis apendicular localizada en la pelvis, como la de este paciente.
 
-> **Nota de cobertura y fiabilidad:** 4 preguntas reales (2020, 2021×2, 2023), **1 con discrepancia de confianza moderada-alta** (MIR-2021-141, #126) y 3 limpias, 2 de ellas confirmadas por cita textual directa con ejemplo exacto en la tabla de clasificación de heridas. Tasa de discrepancia del 25% en este módulo.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2023-076 ⚠️
+### MIR-2023-076
 Niña de 10 años que presenta en un análisis una importante elevación de transaminasas, que persiste en controles posteriores. Entre los estudios complementarios destaca la presencia en sangre de anticuerpos antimicrosómicos de hígado-riñón tipo 1 (anti-LKM-1). El cuadro que presenta tiene todas las características siguientes, EXCEPTO una de las siguientes:
 
 A. Hipogammaglobulinemia.
@@ -148,11 +148,11 @@ B. En la biopsia hepática presentará una típica hepatitis de interfase.
 C. Es más frecuente en el sexo femenino.
 D. Se trata de una hepatitis autoinmune tipo 2.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta ("MIR 24, 76") justo antes de describir la anatomía patológica de la hepatitis autoinmune: *"No es específico pero sí muy característico encontrar hepatitis de interfase (necrosis en la zona de interfase)"* — es decir, la hepatitis de interfase SÍ es un hallazgo típico/característico (opción B verdadera, no la excepción). Además, la propia tabla de la bibliografía asocia la HAI con niveles de IgG SUPERIORES al normal (parte del score diagnóstico), lo opuesto a la "hipogammaglobulinemia" de la opción A — y la tabla confirma que el anti-LKM y el debut en la infancia son propios del tipo 2 (coherente con C y D, ambas verdaderas). Esto hace de la opción A la verdadera excepción/afirmación falsa, no la B marcada como oficial. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Niña con hipertransaminasemia persistente y anticuerpos anti-LKM1: hepatitis autoinmune tipo 2 (D), más frecuente en el sexo femenino y en la edad pediátrica (C). Como en todas las hepatitis autoinmunes, la biopsia hepática muestra típicamente una hepatitis de interfase (necrosis erosiva periportal) con infiltrado linfoplasmocitario (B). La característica que NO tiene es la hipogammaglobulinemia (A): la hepatitis autoinmune cursa con HIPERgammaglobulinemia, en especial con aumento de la IgG, que es un criterio diagnóstico y un marcador de actividad. (En la tipo 2 puede existir un déficit asociado de IgA, pero no una hipogammaglobulinemia global.) El tratamiento se basa en corticoides con o sin azatioprina, y la tipo 2 suele ser más agresiva y requerir tratamiento de mantenimiento prolongado.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 5 preguntas reales, **2 discrepancias** (1 de confianza moderada-alta + 1 de máxima confianza con cita directa) y 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

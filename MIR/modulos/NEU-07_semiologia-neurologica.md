@@ -87,7 +87,7 @@ D. Fosa pterigopalatina.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 32)*
 
-### MIR-2021-100 ⚠️
+### MIR-2021-100
 Mujer de 80 años con antecedentes de hipertensión arterial y diabetes mellitus que presenta de forma brusca una alteración del lenguaje. A su llegada al hospital se objetiva una fibrilación auricular no conocida y en la exploración presenta habla fluente con tendencia a la jergafasia, mala comprensión del lenguaje, incapacidad para la repetición y disnomia. Semiológicamente presenta un cuadro compatible con:
 
 A. Afasia de Broca.
@@ -95,11 +95,13 @@ B. Afasia de conducción.
 C. Afasia transcortical sensitiva.
 D. Afasia de Wernicke.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 100)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 100)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado describe explícitamente habla FLUENTE con jergafasia, mala comprensión e incapacidad para repetir. Según la tabla de clasificación de afasias de la bibliografía, la afasia de Broca es, por definición, NO FLUENTE (habla telegráfica, agramatical, con comprensión conservada) — es incompatible con la descripción de "habla fluente" del enunciado. El cuadro descrito (fluencia buena, comprensión alterada, repetición alterada, parafasias/jergafasia, verborrea) corresponde exactamente a la afasia de WERNICKE según la misma tabla. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2021 — la respuesta más consistente con la bibliografía es D. Ver hallazgo #49 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito —lenguaje fluente pero con parafasias y jergafasia, mala comprensión, incapacidad para la repetición y anomia— es característico de la afasia de Wernicke, secundaria a una lesión en el área homónima (circunvolución temporal superior posterior, territorio de la división inferior de la arteria cerebral media) del hemisferio dominante. En el ictus cardioembólico, favorecido aquí por una fibrilación auricular no conocida, la afectación de este territorio produce una afasia fluente con jergafasia, en contraste con la afasia de Broca, que es no fluente, agramatical y con relativa preservación de la comprensión. La afasia de conducción se caracteriza por una alteración desproporcionada de la repetición con buena comprensión y fluencia conservada, mientras que la afasia transcortical sensitiva se distingue de la de Wernicke precisamente por preservar la capacidad de repetición.
 
-### MIR-2023-060 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-060
 El defecto campimétrico asociado a una lesión en la cintilla óptica derecha es:
 
 A. Hemianopsia homónima izquierda.
@@ -107,11 +109,13 @@ B. Hemianopsia heterónima bitemporal.
 C. Cuadrantanopsia homónima izquierda.
 D. Cuadrantanopsia homónima derecha.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 60)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 60)*
 
-> ⚠️ **Nota de verificación fuerte:** la cintilla (tracto) óptica transporta las fibras ya decusadas correspondientes a TODO un hemicampo visual contralateral completo (a diferencia de las radiaciones ópticas más posteriores, donde las fibras superiores e inferiores se separan anatómicamente hacia los lóbulos parietal y temporal respectivamente, permitiendo defectos parciales en forma de cuadrantanopsia). Una lesión de la cintilla óptica derecha produce, por tanto, una hemianopsia homónima IZQUIERDA COMPLETA, no una cuadrantanopsia parcial — este es un principio fundamental y no controvertido de la neuroanatomía de la vía visual. Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023 — la respuesta anatómicamente correcta es A. Ver hallazgo #49 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Una lesión de la cintilla óptica, situada entre el quiasma y el cuerpo geniculado lateral, contiene fibras procedentes de la retina temporal del ojo ipsilateral y de la retina nasal del ojo contralateral, ya decusadas, por lo que su lesión produce una hemianopsia homónima completa contralateral —en este caso, hemianopsia homónima izquierda ante una lesión de la cintilla óptica derecha—. Las cuadrantanopsias homónimas, en cambio, son típicas de lesiones más distales, a nivel de las radiaciones ópticas: la cuadrantanopsia superior ('pie en el cielo') se asocia a lesiones de la vía temporal (asa de Meyer), y la cuadrantanopsia inferior a lesiones de la vía parietal. La hemianopsia heterónima bitemporal es característica de las lesiones quiasmáticas, como el adenoma hipofisario, que afectan a las fibras nasales cruzadas de ambos ojos.
 
-### MIR-2023-090 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-090
 Dentro de la exploración neurológica el término astereognosia hace referencia a:
 
 A. La incapacidad de reconocer la forma, el tamaño, el peso y la textura de un objeto por la palpación a ciegas, siendo normales las sensibilidades básicas.
@@ -119,11 +123,13 @@ B. La incapacidad de localizar en el cuerpo un estímulo táctil superficial.
 C. La pérdida de la capacidad sensitiva de discriminación entre dos estímulos simultáneos que habitualmente se reconocen como independientes.
 D. La situación que se da cuando se estimula de manera simultánea en dos puntos simétricos y solo se percibe uno de los estímulos.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 90)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 90)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía define la astereognosia textualmente como "la incapacidad para reconocer objetos mediante el tacto" — coincidiendo palabra por palabra con la opción A. La opción D (marcada oficialmente) describe en realidad la EXTINCIÓN SENSORIAL, un fenómeno distinto y explícitamente diferenciado en la misma tabla de la bibliografía ("extinción sensorial: incapacidad para percibir dos estímulos de forma simultánea"). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023 — la respuesta que coincide con la definición estándar de astereognosia es A. Ver hallazgo #49 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La astereognosia (o agnosia táctil) se define como la incapacidad para reconocer la forma, el tamaño, el peso, la textura o la naturaleza de un objeto mediante la palpación con los ojos cerrados, estando conservadas las sensibilidades elementales (táctil, térmica, dolorosa, vibratoria y posicional). Es un trastorno de integración cortical de la información sensitiva, típico de lesiones del lóbulo parietal, especialmente del hemisferio no dominante. Se diferencia de la atopognosia (incapacidad para localizar un estímulo táctil sobre la superficie corporal), de la pérdida de la discriminación entre dos puntos (incapacidad para distinguir dos estímulos táctiles simultáneos próximos como independientes) y de la extinción sensitiva (al estimular simultáneamente dos puntos simétricos del cuerpo, el paciente solo percibe uno de ellos), fenómeno también típico de las lesiones parietales.
 
-### MIR-2022-096 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-096
 Respecto a la exploración neurológica de una lesión en la vía córtico-espinal, señale la afirmación INCORRECTA:
 
 A. Se encuentra debilidad global en todos los grupos musculares de los miembros afectados.
@@ -131,11 +137,13 @@ B. El reflejo de Babinski está presente.
 C. Presenta hipertonía tipo rigidez.
 D. Existe hiperreflexia en los reflejos osteotendinosos rotulianos.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 96)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 96)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía establece de forma explícita, en la tabla de diagnóstico diferencial del síndrome de motoneurona superior (lesión de la vía corticoespinal/piramidal), que el signo de Babinski está PRESENTE y que el tono muscular característico es la ESPASTICIDAD, no la rigidez (la rigidez es un signo EXTRAPIRAMIDAL característico de los parkinsonismos, un sistema anatómico y fisiopatológico distinto). La opción B, marcada oficialmente como la incorrecta, es en realidad VERDADERA (el Babinski SÍ está presente en la lesión piramidal); la opción C es la que resulta claramente falsa, al atribuir rigidez (un signo extrapiramidal) a una lesión piramidal. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022 — la respuesta más consistente con la bibliografía es C. Ver hallazgo #49 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La lesión de la vía corticoespinal (primera motoneurona) produce un síndrome piramidal caracterizado por debilidad de predominio en la musculatura antigravitatoria, hiperreflexia osteotendinosa (incluido el reflejo rotuliano), y la presencia del reflejo cutáneo-plantar en extensión o signo de Babinski, considerado el signo más específico de afectación de la vía piramidal. El tipo de hipertonía característico de la lesión piramidal es la espasticidad, con aumento de la resistencia dependiente de la velocidad del movimiento y el fenómeno de 'navaja de muelle', y no la rigidez, término que se reserva para la hipertonía constante e independiente de la velocidad característica de los síndromes extrapiramidales, como la enfermedad de Parkinson.
 
-### MIR-2023-020 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-020
 Pregunta asociada a la imagen 20. Ante esta imagen en un paciente con un trastorno motor en miembros inferiores, señale la respuesta INCORRECTA:
 
 A. Debemos buscar una malformación de Chiari.
@@ -143,9 +151,11 @@ B. En algunos casos se asocia a hidrocefalia.
 C. Se caracteriza por una pérdida de la sensibilidad táctil y vibratoria con preservación de la sensación térmica y dolorosa.
 D. Puede producirse tras traumatismos o infecciones.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro (imagen de corte medular con cavidad "seringomielética", trastorno motor en miembros inferiores, asociación con Chiari y con traumatismos/infecciones) corresponde al síndrome medular central de la siringomielia. La bibliografía define expresamente su alteración sensitiva característica como "disociación termoalgésica": *"se lesionan las fibras que se decusan por la comisura anterior (sensibilidad dolorosa y térmica)"*, con relativa preservación del tacto y la propiocepción/vibración (cordones posteriores) — el patrón EXACTAMENTE INVERSO al descrito en la opción C del enunciado (que afirma pérdida táctil/vibratoria con preservación térmica y dolorosa). Esto hace de la opción C la afirmación falsa, no la B (la asociación con hidrocefalia sí está documentada en el contexto de las malformaciones de Chiari). Se mantiene la clave oficial (B) sin alterar. Pregunta reclasificada desde TRA (bibliografía de Neurología, no de Traumatología).
+**Explicación:** La siringomielia es una cavitación quística intramedular, frecuentemente asociada a malformaciones de Chiari tipo I, que puede desarrollarse también tras traumatismos, infecciones o procesos inflamatorios medulares, y que en algunos casos se asocia a hidrocefalia por alteración de la dinámica del LCR. Su expansión lesiona en primer lugar las fibras espinotalámicas que decusan por la comisura blanca anterior, lo que produce el clásico patrón de disociación sensitiva termoalgésica: pérdida de la sensibilidad al dolor y a la temperatura, con preservación relativa de la sensibilidad táctil, vibratoria y posicional, que se transmite por los cordones posteriores y se afecta solo en fases más avanzadas. Ante esta clínica siempre debe descartarse una malformación de Chiari asociada mediante RM craneocervical.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -169,7 +179,7 @@ D. Baclofeno.
 
 **Respuesta correcta: B** — *(confianza máxima, hecho farmacológico bien establecido: baclofeno [agonista GABA-B], tizanidina [agonista alfa-2 adrenérgico] y diazepam [benzodiacepina, potenciador GABA-A] son los tres fármacos antiespásticos clásicos de uso estándar; la lacosamida es un antiepiléptico bloqueante de canales de sodio, sin indicación ni mecanismo relacionado con el tratamiento de la espasticidad. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 8 preguntas reales, manteniendo 4 discrepancias y sumando 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

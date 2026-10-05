@@ -81,9 +81,11 @@ B. Feocromocitoma.
 C. Insulinoma.
 D. Glucagonoma.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR cita esta misma pregunta de forma directa ("MIR 22, 169", desfase de año habitual de ±1) en la primera línea de su sección "MEN 1 o síndrome de Wermer", y a continuación describe explícitamente los tumores pancreáticos de MEN 1: *"los más frecuentes son los gastrinomas, seguidos de los INSULINOMAS"* — el insulinoma (opción C, marcada oficialmente como la que NO se asocia) es, por tanto, un componente clásico y explícitamente citado de MEN 1, no una excepción. En cambio, el FEOCROCITOMA (opción B, no elegida) no figura en ningún punto de la lista de tumores de MEN 1 de la bibliografía (paratiroides, páncreas, hipófisis, y de forma más rara carcinoides/lipomas/angiofibromas/colagenomas/tumores foliculares tiroideos/adenomas suprarrenales) — es, en cambio, un componente explícito y central de MEN 2 ("CAFÉ PARA dos: CA medular de tiroides, FEocromocitoma, PARAtiroides"). La opción B es la que realmente no se asocia a MEN 1, no la C. Ver hallazgo #110 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El síndrome de neoplasia endocrina múltiple tipo 1 (MEN-1) se caracteriza clásicamente por la tríada de hiperparatiroidismo primario (el componente más frecuente y precoz), tumores neuroendocrinos entero-pancreáticos (insulinoma, gastrinoma, glucagonoma, entre otros) y adenomas hipofisarios, todos ellos derivados de tejidos endodérmicos/neuroectodérmicos relacionados con la mutación del gen MEN1 (menina). El feocromocitoma, en cambio, es un tumor derivado de la médula suprarrenal (cresta neural) que se asocia característicamente al síndrome MEN tipo 2 (2A y 2B), junto con el carcinoma medular de tiroides y, en el MEN-2A, el hiperparatiroidismo, no formando parte del espectro tumoral clásico del MEN-1.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-203
 Varón de 30 años con antecedente de hemorragia digestiva alta hace 1 año. En la gastroscopia se observaron varias úlceras pépticas. Consulta por un episodio de cólico renal. En la analítica se objetiva calcio 11,1 mg/dL (N: 8,6-10,3 mg/dL), hormona paratiroidea 150 ng/L (N: 8-51 ng/L) con niveles normales de albúmina y 25-OH vitamina D. ¿Con qué síndrome se relacionan estos datos clínicos y analíticos?:
@@ -93,9 +95,11 @@ B. Síndrome poliglandular tipo 1.
 C. Neoplasia endocrina múltiple tipo 2A.
 D. Neoplasia endocrina múltiple tipo 1.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR cita esta misma pregunta de forma directa ("MIR 23, 203", desfase de año habitual de ±1) en la primera línea de su sección "MEN 1 o síndrome de Wermer". El cuadro del paciente combina dos hallazgos clásicos de MEN 1: **hiperparatiroidismo primario** (calcio elevado + PTH marcadamente elevada con albúmina y vitamina D normales, causante también del cólico renal por nefrolitiasis — "manifestación más común de MEN 1... pueden presentar nefrolitiasis de repetición") y **tumor pancreático tipo gastrinoma** (antecedente de HDA por úlceras pépticas múltiples, compatible con hipersecreción ácida por gastrinoma — "los tumores pancreáticos más frecuentes son los gastrinomas"). El síndrome MEN 2A (opción C, oficial), en cambio, se compone de carcinoma medular de tiroides + feocromocitoma + paratiroides (hiperparatiroidismo en solo 30% de los casos, y SIN componente pancreático/gastrinoma en absoluto) — no explica en modo alguno el antecedente de úlcera péptica/HDA del paciente. La opción D (MEN 1, no elegida) es la que coincide con el cuadro completo. Ver hallazgo #110 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La combinación de hipercalcemia con paratohormona elevada de forma inapropiada (hiperparatiroidismo primario) junto con antecedente de enfermedad ulcerosa péptica múltiple es sugestiva de un síndrome de neoplasia endocrina múltiple tipo 1 (MEN-1), en el que el hiperparatiroidismo primario (el componente más frecuente y precoz del síndrome) se asocia a tumores neuroendocrinos pancreático-duodenales (frecuentemente gastrinomas, causantes de la enfermedad ulcerosa péptica recurrente por hipersecreción ácida mediada por gastrina, en el contexto de un síndrome de Zollinger-Ellison) y a adenomas hipofisarios. La combinación de hiperparatiroidismo primario y clínica compatible con gastrinoma es la tríada clásica que orienta hacia MEN-1, a diferencia del MEN-2A, en el que no aparece enfermedad ulcerosa péptica asociada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-201
 ¿Cuál de las siguientes NO es una respuesta hormonal a la hipoglucemia?:
@@ -105,13 +109,13 @@ B. Reducción de la secreción de glucagón.
 C. Aumento de la secreción de cortisol.
 D. Aumento de la secreción de adrenalina.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR, en la sección de etiología de la hipoglucemia, describe explícitamente que las "deficiencias hormonales" de **cortisol, glucagón y adrenalina** (junto con la GH) son causa de hipoglucemia en pacientes no diabéticos — lo que implica, por fisiología básica y por el propio marco causal de la bibliografía, que estas hormonas normalmente AUMENTAN su secreción como respuesta contrarreguladora protectora ante la hipoglucemia (su deficiencia es precisamente lo que predispone a hipoglucemia). El glucagón es, junto con la adrenalina, la primera línea de la respuesta contrarreguladora fisiológica a la hipoglucemia: su secreción AUMENTA, nunca se reduce. La opción B ("reducción de la secreción de glucagón", no elegida) describe por tanto algo que NO ocurre como respuesta a la hipoglucemia (de hecho ocurre justo lo contrario), mientras que la opción C ("aumento de cortisol", marcada oficialmente) SÍ es una respuesta real y bien establecida. La opción B es la que debería ser la respuesta correcta a "cuál NO es una respuesta hormonal a la hipoglucemia". Ver hallazgo #110 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La respuesta hormonal fisiológica a la hipoglucemia constituye un mecanismo contrarregulador coordinado que incluye el aumento de la secreción de glucagón (estimula la glucogenólisis y gluconeogénesis hepáticas), de adrenalina (estimula la glucogenólisis y lipólisis, además de producir los síntomas adrenérgicos de alarma), de cortisol y de hormona del crecimiento (ambos con efecto contrainsular a más largo plazo, aumentando la resistencia periférica a la insulina y favoreciendo la producción hepática de glucosa). Por tanto, la hipoglucemia estimula (aumenta), y no reduce, la secreción de glucagón, siendo este el eje contrarregulador más rápido e importante, lo que hace que la opción que plantea una reducción de la secreción de glucagón sea la que no se ajusta a la fisiología normal de la contrarregulación hormonal frente a la hipoglucemia.
 
-> **Nota de cobertura y fiabilidad:** 3 preguntas reales (2021, 2022, 2023), **las 3 con discrepancia de alta/máxima confianza (100%)** — 2 de ellas (MEN 1) confirmadas por cita textual directa de la bibliografía junto al número de cada pregunta, en la misma línea introductoria de la sección "MEN 1".
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-179 ⚠️
+### MIR-2020-179
 Mujer de 32 años con síndrome de neoplasia endocrina múltiple de tipo 2A (MEN-2A) y portadora de una mutación en RET. En una ecografía de cuello se identifica un nódulo hipoecogénico de 6 mm con calcificaciones en su interior. Se decide tiroidectomía total y vaciamiento ganglionar cervical. En el estudio macroscópico se identifican un total de tres nódulos, dos en el lóbulo derecho de 5 y 6 mm, y uno en el lóbulo izquierdo de 4 mm. En el estudio microscópico las tres lesiones están constituidas por una proliferación uniforme de células redondeadas que se disponen con un patrón sólido y se acompañan de calcificaciones y de depósitos de amiloide. Los núcleos no son claros, ni muestran hendiduras, ni pseudoinclusiones. La tinción inmunohistoquímica para sinaptofisina es positiva. En el vaciamiento ganglionar cervical se identifican metástasis. ¿Cuál es el diagnóstico anatomopatológico de las lesiones identificadas en la tiroidectomía total?:
 
 A. Carcinoma medular multifocal.
@@ -119,11 +123,11 @@ B. Carcinoma papilar multifocal.
 C. Carcinoma folicular.
 D. Hiperplasia de células parafoliculares.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía describe el carcinoma medular tiroideo como constituido por *"células de citoplasma granular... y sustancia amiloide en el estroma"*, con positividad para marcadores neuroendocrinos — coincide con la histología descrita punto por punto (patrón sólido, calcificaciones, depósitos de amiloide, sinaptofisina+) y con el contexto MEN-2A/mutación RET, causa hereditaria clásica y prácticamente patognomónica del carcinoma medular multifocal/bilateral. El carcinoma folicular (clave oficial, C) no cursa con depósitos de amiloide ni positividad para sinaptofisina, y no está asociado al síndrome MEN-2A/RET (que afecta a las células C parafoliculares, no al epitelio folicular). La ausencia de núcleos claros/hendiduras/pseudoinclusiones descarta también el carcinoma papilar (opción B). Apoya la opción A, no C. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El estudio microscópico describe una proliferación uniforme de células redondeadas dispuestas en patrón sólido, con calcificaciones, depósitos de amiloide y sinaptofisina positiva (marcador neuroendocrino), y sin las características nucleares típicas del carcinoma papilar (núcleos claros en 'vidrio esmerilado', hendiduras, pseudoinclusiones); estos hallazgos, junto con el contexto clínico de MEN-2A y mutación de RET, son diagnósticos de carcinoma medular de tiroides multifocal, un tumor neuroendocrino derivado de las células parafoliculares (células C) productoras de calcitonina, cuyo sustrato molecular (amiloide derivado de la calcitonina) y perfil inmunohistoquímico (sinaptofisina, cromogranina, calcitonina) lo diferencian claramente del carcinoma papilar o folicular, de estirpe folicular.
 
-> **Nota de cobertura:** con esta pregunta se eleva a 4 preguntas reales, **4 discrepancias de MÁXIMA/alta confianza (100%)**.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

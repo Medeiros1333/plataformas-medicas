@@ -57,9 +57,11 @@ B. Trastorno narcisista de la personalidad.
 C. Trastorno obsesivo-compulsivo de la personalidad.
 D. Trastorno de la personalidad no especificado.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 84)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 84)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado reproduce de forma casi literal la descripción bibliográfica del trastorno obsesivo o anancástico de personalidad: "necesidad de orden y perfección... excesiva dedicación al trabajo e incapacidad para delegar, tienden a corregir al resto" — coincidiendo con la opción C, no elegida como correcta. La clave oficial (A, trastorno esquizoide) es clínicamente incompatible con el caso: el esquizoide se define por aislamiento social DESEADO y frialdad emocional/indiferencia hacia los demás, mientras que el médico del enunciado tiene conflictos activos con compañeros por sus retrasos (relación social activa, aunque limitada por el trabajo) y una motivación centrada en el perfeccionismo/orden, no en la indiferencia interpersonal. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** El caso describe un patrón de personalidad marcado por preocupación excesiva por el orden, el perfeccionismo, la dedicación desmedida al trabajo en detrimento de la vida personal y social, la rigidez y la incapacidad para delegar tareas, rasgos que se enmarcan dentro del espectro de la personalidad obsesiva o anancástica. Este patrón de funcionamiento rígido, formal y poco flexible puede generar un notable aislamiento en las relaciones interpersonales y una vida social empobrecida, con dificultad para mostrar afecto y cierta frialdad en el trato, lo que en su expresión más marcada puede solaparse con rasgos de reserva y distanciamiento emocional. Es importante diferenciar este patrón de personalidad, que implica un funcionamiento generalizado, estable en el tiempo y presente desde el inicio de la vida adulta, de un trastorno obsesivo-compulsivo con obsesiones y compulsiones egodistónicas manifiestas, que no se describen en el enunciado.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-062
 En lo que respecta a los pacientes con Trastorno de la personalidad límite, es correcta la siguiente afirmación:

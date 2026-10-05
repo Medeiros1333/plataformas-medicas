@@ -52,9 +52,11 @@ B. Apendicitis mesoceliaca.
 C. Apendicitis retrocecal.
 D. Apendicitis medioinguinal.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 23, 132", desfase de año habitual de ±1), afirma que el *"signo del psoas: dolor a la extensión de la pierna derecha, [es] como signo reflejo de apendicitis RETROCECAL"* — señalando inequívocamente la opción C (no elegida) como la correcta. La propia bibliografía, en la misma sección, describe que en la apendicitis PÉLVICA (clave oficial, A) el hallazgo característico es el dolor al tacto rectal por palpación del fondo de saco de Douglas, un signo exploratorio distinto y no relacionado con el psoas. Ver hallazgo #142 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** El signo del psoas (dolor en la fosa ilíaca derecha con la extensión pasiva de la cadera derecha o la flexión contra resistencia) indica irritación del músculo psoas ilíaco por un proceso inflamatorio adyacente, y es típico de la apendicitis RETROCECAL (C), en la que el apéndice inflamado se apoya sobre el psoas en el retroperitoneo; en esta localización los signos peritoneales de la pared anterior pueden ser poco llamativos. El signo del obturador (dolor con la rotación interna del muslo flexionado) es característico de la apendicitis PÉLVICA (A), que además puede producir síntomas urinarios o rectales y dolor al tacto rectal. Las apendicitis mesocelíacas (B) o medioinguinales (D) se manifiestan con dolor en la fosa ilíaca derecha y signos peritoneales típicos (McBurney, Blumberg).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-143
 Mujer de 51 años que consulta, tras varios episodios de diverticulitis sigmoidea leve tratados de forma conservadora, por presentar ahora estreñimiento pertinaz que mejora con el uso de laxantes. En ocasiones presenta dolor abdominal tipo retortijón que mejora con la expulsión de heces y gases. Se practica colonoscopia encontrándose una estenosis sigmoidea que impide el paso del colonoscopio. Se toma muestra para estudio anatomopatológico que no es concluyente. En el enema opaco se encuentra una estenosis sigmoidea de unos 5 cm de longitud. La actitud terapéutica más adecuada sería:
@@ -64,11 +66,11 @@ B. Tratamiento conservador con fibra dietética y rifaximina.
 C. Dilatación endoscópica.
 D. Stent en zona de estenosis.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** confirmación LIMPIA — la bibliografía, con cita textual directa a esta misma pregunta ("MIR 22, 143"), señala expresamente que el enfoque actual ante episodios de diverticulitis leves/recurrentes es MÁS CONSERVADOR que en el pasado, valorando la gravedad y recurrencia antes de indicar cirugía programada — coherente con la clave oficial (tratamiento conservador). Sin discrepancia.
+**Explicación:** Estenosis sigmoidea de unos 5 cm que impide el paso del colonoscopio, en una paciente con varios episodios previos de diverticulitis, clínica obstructiva parcial (estreñimiento pertinaz y dolor cólico) y una biopsia NO concluyente. La actitud adecuada es la sigmoidectomía, preferentemente laparoscópica (A), por dos motivos: la estenosis es una complicación crónica de la enfermedad diverticular que no se resuelve con tratamiento médico, y, sobre todo, no puede descartarse un cáncer colorrectal subyacente cuando no se puede explorar el colon y la biopsia no es concluyente. El tratamiento conservador con fibra y rifaximina (B) es propio de la enfermedad diverticular sintomática no complicada; y la dilatación endoscópica (C) o el stent (D) no están indicados en una estenosis diverticular larga sin haber descartado malignidad (el stent se usa como puente a la cirugía en la obstrucción neoplásica aguda).
 
-> **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2021, 2022), **1 discrepante (50%)** de MÁXIMA confianza, confirmada por cita textual directa a la propia pregunta; 1 limpia, también confirmada por cita directa que respalda la clave oficial.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-019
 Hombre de 60 años sin antecedentes de interés que acude a urgencias con un cuadro de 48 horas de fiebre de 38ºC y dolor abdominal en fosa iliaca izquierda. A la exploración abdominal destaca cierta defensa a la palpación sin peritonismo generalizado. La analítica sanguínea sólo destaca una discreta leucocitosis. La TC abdomino-pélvica se muestra en la imagen adjunta. ¿Cuál es el diagnóstico más probable?:
@@ -80,7 +82,7 @@ D. Megacolon tóxico o infeccioso.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 19; la bibliografía describe la clínica de la diverticulitis aguda como "dolor en fosa ilíaca izquierda + irritación peritoneal local + fiebre", reproduciendo casi literalmente el cuadro descrito (dolor en FII + defensa localizada sin peritonismo generalizado + fiebre + leucocitosis discreta). Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2020-150 ⚠️
+### MIR-2020-150
 Varón de 83 años que consulta por un cuadro recurrente de dolor abdominal en fosa iliaca izquierda, acompañado de diarrea de hasta 6 deposiciones al día sin productos patológicos, de 10-15 días de evolución. No refiere fiebre ni afectación del estado general. En una analítica reciente no se observa leucocitosis y presenta una sangre oculta en heces negativa. En la exploración se observa leve dolor a la palpación de fosa iliaca izquierda sin irritación peritoneal. Tiene realizada una colonoscopia hace tres años en la que se informa de divertículos a lo largo de todo el colon, más numerosos en colon izquierdo, sin otras lesiones asociadas. De las siguientes, ¿cuál sería la mejor actitud a seguir?:
 
 A. Realizar un tratamiento empírico con antibióticos.
@@ -88,9 +90,11 @@ B. Solicitar una colonoscopia preferente.
 C. Solicitar una ecografía abdominal urgente.
 D. Derivar a cirugía para valorar sigmoidectomía.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (razonamiento clínico, sin cita bibliográfica directa disponible):** el cuadro (10-15 días de evolución, SIN fiebre, SIN leucocitosis, SIN irritación peritoneal — es decir, sin datos de proceso agudo/infeccioso que justifique una prueba "urgente") es más compatible con un cambio subagudo del hábito intestinal en un paciente con diverticulosis conocida, que con una diverticulitis aguda típica que justificaría imagen urgente. Ante un cambio del hábito intestinal de varios días de evolución sin signos de alarma agudos, la actitud estándar es reevaluar el colon mediante COLONOSCOPIA (preferente, no urgente) para descartar otras causas (neoplasia, colitis segmentaria asociada a diverticulosis/SCAD, EII), en vez de una ecografía urgente (prueba orientada a un proceso agudo que este caso no sugiere claramente). Apoya la opción B. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Varón con diverticulosis conocida que presenta dolor recurrente en fosa ilíaca izquierda y cambio del ritmo intestinal, sin fiebre, sin leucocitosis, sin irritación peritoneal y con buen estado general. Según la plantilla oficial, la actitud más adecuada es el tratamiento empírico con antibióticos (A), manejando el cuadro como una diverticulitis aguda no complicada leve de forma ambulatoria. No es necesaria una colonoscopia preferente (B): ya tiene una reciente, no hay datos de alarma (sangre oculta negativa) y además la colonoscopia está contraindicada en la fase aguda por riesgo de perforación. La cirugía (sigmoidectomía) no está indicada en un primer manejo de un cuadro no complicado (D). La ecografía urgente (C) no cambiaría el manejo en un paciente estable con clínica típica y antecedente diverticular conocido.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

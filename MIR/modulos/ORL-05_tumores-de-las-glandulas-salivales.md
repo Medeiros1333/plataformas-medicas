@@ -52,7 +52,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-157 ⚠️
+### MIR-2021-157
 ¿Cuál es la mejor combinación de tratamientos oncológicos en un paciente con el diagnóstico de carcinoma adenoide quístico de paladar duro T4N0M0?:
 
 A. Radioquimioterapia concomitante como primera opción terapéutica.
@@ -60,9 +60,11 @@ B. Cirugía de la lesión seguida de radioterapia adyuvante sobre el lecho quir�
 C. Radioterapia y posterior cirugía en ausencia de respuesta completa.
 D. Es un tumor benigno y por tanto no precisa de tratamientos oncológicos complementarios.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía establece de forma expresa que *"el tratamiento de elección [de los tumores malignos de glándulas salivales] es quirúrgico"*, y que *"la radioterapia posquirúrgica se efectúa en tumores de alto grado, mayores de 4 cm (T3 y T4)... con márgenes quirúrgicos afectados o afectación ósea o perineural"* — describiendo explícitamente la secuencia CIRUGÍA → radioterapia ADYUVANTE (posquirúrgica) para tumores T3-T4 como este caso (T4N0M0), no la secuencia inversa. Esto corresponde a la opción B, no a la C marcada como oficial (que invierte el orden: radioterapia primero, cirugía solo si no hay respuesta completa). Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #154 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El carcinoma adenoide quístico es una neoplasia maligna de las glándulas salivales (incluidas las menores, como las del paladar duro) caracterizada por un crecimiento lento pero con marcada tendencia a la invasión perineural (neurotropismo) y a la recidiva local tardía, y se considera una neoplasia relativamente resistente tanto a la quimioterapia como, en cierta medida, a la radioterapia como tratamiento único. El manejo estándar de esta neoplasia, cuando es resecable (incluso en estadios T4 si la resección es técnicamente posible), es la cirugía con márgenes amplios seguida de radioterapia adyuvante sobre el lecho quirúrgico, dada la alta tasa de invasión perineural microscópica no siempre evidente macroscópicamente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-055
 El carcinoma adenoide quístico:
@@ -88,7 +90,7 @@ D. Se debe tratar con radioterapia como primera opción terapéutica.
 
 > **Nota de cobertura:** confirmación LIMPIA — pregunta idéntica a MIR-2023-055 (misma redacción, misma clave), repetida en dos convocatorias distintas. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 3 preguntas reales (2021, 2023, 2025), **1 discrepancia de MÁXIMA confianza (33%)**, 2 limpias (una de ellas repetida literalmente en dos convocatorias).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

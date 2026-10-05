@@ -62,9 +62,11 @@ B. Resonancia magnética, que aporta más información sobre partes blandas y po
 C. TC, para valorar mejor la estructura ósea y las posibles fracturas.
 D. No hay indicación de prueba de imagen.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 110)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 110)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) es explícita: ante una lumbalgia SIN signos de etiología grave "no se recomienda la realización de pruebas complementarias, sino que debe realizarse un tratamiento sintomático a la espera de que el dolor ceda". El caso descrito (primer episodio, 3 semanas —menos de 1 mes—, sin traumatismo, sin déficit neurológico, sin ningún dato de alarma) es precisamente el escenario en el que la bibliografía indica NO realizar ninguna prueba de imagen, coincidiendo con la opción D, no elegida. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** En la lumbalgia aguda o subaguda sin datos de alarma (sin traumatismo, sin fiebre, sin antecedente oncológico, sin déficit neurológico), las guías de práctica clínica recomiendan iniciar tratamiento conservador, manteniéndose activo y evitando el reposo prolongado, sin necesidad de pruebas de imagen de entrada, ya que en la mayoría de los casos el cuadro es autolimitado y se resuelve en pocas semanas. La resonancia magnética se reserva para los casos con sospecha de patología estructural relevante (herniación discal con compromiso radicular, sospecha de infección o neoplasia) o cuando el dolor persiste más de 4-6 semanas a pesar del tratamiento conservador adecuado. La radiografía simple tiene un rendimiento diagnóstico limitado en la lumbalgia mecánica común, siendo más útil ante sospecha de fractura o deformidad estructural, especialmente en pacientes de edad avanzada o con antecedente traumático.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-108
 Varón de 55 años sin antecedentes de interés que tras realizar un esfuerzo nota dolor lumbar irradiado hacia el miembro inferior derecho por la parte anterolateral del muslo y cara anterior de la rodilla. Exploración: maniobra de Lasègue positiva a 40º, reflejo rotuliano disminuido y dificultad para la marcha de talones. ¿Cuál es el diagnóstico más probable?:
@@ -74,9 +76,11 @@ B. Hernia discal L3-L4 derecha.
 C. Hernia discal L4-L5 derecha.
 D. Hernia discal L5-S1 derecha.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 108)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 108)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.2, tabla de síndromes radiculares) asocia de forma inequívoca el **reflejo rotuliano disminuido/abolido con la raíz L4** (correspondiente a una hernia L3-L4), no con la raíz S1 (que se asocia al reflejo AQUÍLEO, no mencionado ni alterado en el enunciado). La clave oficial (D, hernia L5-S1) es clínicamente incompatible con un reflejo rotuliano disminuido, hallazgo que la propia hernia L5-S1 no explica en ningún caso. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Lumbociatalgia con dolor irradiado por la cara anterior del muslo y la rodilla, reflejo rotuliano disminuido (raíz L4) y dificultad para la marcha de talones (debilidad de la dorsiflexión del pie, raíz L5, con participación de L4 en el tibial anterior). La combinación de afectación de L4 y L5 orienta a una hernia discal L4-L5 (C): la hernia posterolateral de este disco comprime habitualmente la raíz L5, y las hernias más laterales o voluminosas pueden afectar también a la raíz L4, que sale por ese mismo nivel. Recuerda la correlación clásica: L4 → reflejo rotuliano, sensibilidad de la cara anterior de la rodilla y cara medial de la pierna; L5 → dorsiflexión del pie y del primer dedo (marcha de talones), sin reflejo propio; S1 → reflejo aquíleo, flexión plantar (marcha de puntillas) y borde lateral del pie. Una hernia L5-S1 (D) afectaría a S1 (aquíleo y puntillas), y las hernias L2-L3 o L3-L4 (A y B) no explicarían la debilidad para la marcha de talones.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-113
 Varón de 69 años, con índice de masa corporal 37 y gran obesidad central (abdominal) que aqueja dolor lumbar incapacitante que se extiende hasta ambas regiones glúteas, pero no irradia a miembros inferiores. Le impide permanecer de pie quieto y caminar más de 10 minutos, pero desaparece sentado y en la cama. La maniobra de Lasègue es negativa. ¿Cuál es el diagnóstico más probable?:
@@ -86,9 +90,11 @@ B. Estenosis de canal lumbar.
 C. Hernia discal a nivel L4-L5.
 D. Espondilodiscitis bacteriana.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 113)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 113)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (dolor lumbar-glúteo BILATERAL sin irradiación a miembros inferiores, empeora con la bipedestación/marcha y mejora sentado o en cama, Lasègue NEGATIVO) coincide de forma prácticamente literal con la bibliografía AMIR (§1.3): "claudicación intermitente neurógena de la marcha... suele ser bilateral, sin dermatomas definidos... la sedestación o la flexión de la columna lumbar alivian los síntomas" — el cuadro clásico de estenosis de canal lumbar (opción B, no elegida). Una hernia discal L5-S1 (clave oficial, A) se esperaría que produjese dolor radicular UNILATERAL con irradiación a la pierna siguiendo un dermatoma y Lasègue positivo (§1.2), justo lo contrario de lo descrito en el enunciado (sin irradiación, Lasègue negativo). No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** El dolor lumbar incapacitante que se extiende a ambas regiones glúteas sin irradiar a los miembros inferiores, que empeora con la bipedestación prolongada y la deambulación y mejora al sentarse o en decúbito —posturas que aumentan el diámetro del canal raquídeo al flexionar la columna—, con maniobra de Lasègue negativa, es la presentación clásica de la claudicación neurógena por estenosis del canal lumbar, muy frecuente en pacientes de edad avanzada con sobrepeso y cambios degenerativos de la columna. Esto contrasta con la hernia discal, en la que el dolor típicamente irradia de forma unilateral hacia el miembro inferior siguiendo un dermatoma concreto y se acompaña de Lasègue positivo. El diagnóstico se confirma mediante RM lumbar, y el tratamiento inicial es conservador, reservando la cirugía descompresiva para los casos con dolor incapacitante refractario o déficit neurológico progresivo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-089
 Jugador de baloncesto de 42 años que acude a urgencias por dolor de tres días de evolución en cara anterior de muslo derecho de tipo lancinante. Inicia el dolor tras mal gesto en flexión de la columna lumbar, presentando primero lumbalgia y después este dolor irradiado. En la exploración presenta un Lasegue invertido positivo, con un reflejo osteotendinoso rotuliano derecho 2/4. No hay déficit motor. La orientación diagnóstica más probable es:
@@ -120,7 +126,7 @@ D. Paciente de 45 años.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 90; coincide literalmente con §1.1: el antecedente de cáncer es uno de los signos de alarma explícitos; la edad de alarma es >50 años, no 45 —opción D—, y el dolor de patrón mecánico es, de hecho, lo esperable en la lumbalgia benigna común, no una señal de gravedad)*
 
-### MIR-2022-097 ⚠️
+### MIR-2022-097
 Varón de 52 años, diabético, que consulta por pie caído derecho indoloro. En la exploración hay debilidad del músculo tibial anterior y peroneos derechos, con reflejo rotuliano y aquíleos preservados. ¿Cuál es el diagnóstico más probable?:
 
 A. Radiculopatía S1 derecha.
@@ -128,9 +134,11 @@ B. Mononeuropatía del ciático poplíteo externo derecho.
 C. Radiculopatía L5 derecha.
 D. Amiotrofia diabética.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía es explícita al definir la neuropatía diabética motora proximal ("mal llamada amiotrofia diabética") como *"afectación del nervio crural y ciático; es más frecuente la debilidad en los músculos PROXIMALES que en los distales"* — justo el patrón OPUESTO al descrito en el enunciado (debilidad limitada al tibial anterior y peroneos, músculos DISTALES). Además, la Tabla 3 de clasificación de mononeuropatías de miembros inferiores asigna explícitamente al **nervio peroneal común** la etiología "compresión postural", coincidiendo con la presentación clásica de pie caído indoloro con reflejos preservados (el peroneal no inerva la musculatura del reflejo aquíleo ni rotuliano) — los diabéticos tienen mayor susceptibilidad a las mononeuropatías por compresión debido a la microangiopatía. El cuadro descrito (debilidad AISLADA y DISTAL del tibial anterior/peroneos, sin afectación de reflejos) es clínicamente incompatible con la amiotrofia diabética (proximal, con abolición típica de reflejos, especialmente el aquíleo) y coincide en cambio con la mononeuropatía del ciático poplíteo externo/peroneal común (opción B). Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #173 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El pie caído indoloro con debilidad selectiva del tibial anterior y de los peroneos, con reflejos rotuliano y aquíleo conservados, es la presentación típica de una mononeuropatía del nervio ciático poplíteo externo (peroneo común), muy susceptible a la compresión en su trayecto superficial alrededor de la cabeza del peroné, con mayor incidencia en pacientes diabéticos por la mayor vulnerabilidad de los nervios periféricos a la compresión. La radiculopatía L5 podría producir una clínica similar de pie caído, pero suele acompañarse de dolor lumbar irradiado y de debilidad de la musculatura glútea, que no se afecta en las mononeuropatías periféricas distales. La amiotrofia diabética (radiculoplexopatía lumbosacra diabética) es, en cambio, un cuadro típicamente doloroso, de instauración subaguda, con debilidad y atrofia de predominio proximal (psoas, cuádriceps) y pérdida de peso asociada, un patrón clínico bien distinto del descrito.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-112
 Mujer de 61 años, administrativa, con antecedentes de sobrepeso, hipertensión, dislipemia y síndrome metabólico, que consulta por dolor en ambas nalgas, región trocantérea izquierda, cara lateral del muslo izquierdo hasta la rodilla y pierna izquierda hasta el tercio medio. El dolor aparece cuando levantamos el miembro inferior con la rodilla extendida, pero se alivia al flexionar la rodilla. ¿Cuál es la primera sospecha clínica?:
@@ -142,7 +150,7 @@ D. Claudicación por estenosis de canal.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 112; coherente con §1.2: la maniobra descrita —dolor al elevar el miembro con la rodilla extendida, que se alivia al flexionarla— es la maniobra de Lasègue positiva, signo clásico de irritación radicular/ciática, apoyando la lumbociatalgia frente a la claudicación neurógena por estenosis de canal (que típicamente no tiene Lasègue positivo y se alivia con la flexión de columna en sedestación, no específicamente con la flexión de rodilla). Confirmación LIMPIA, sin discrepancia. Pregunta reclasificada desde END — los antecedentes de sobrepeso/HTA/dislipemia/síndrome metabólico son solo comorbilidad incidental, sin relación causal con el cuadro clínico, que pertenece íntegramente a patología raquimedular)*
 
-### MIR-2023-107 ⚠️
+### MIR-2023-107
 Hombre de 62 años sin antecedentes de interés y profesión sedentaria, que consulta por dolor muy intenso, incapacitante, en región lumbar, de 1 semana de evolución, irradiado a nalga, cara posterior de muslo izquierdo y cara anterolateral de pierna izquierda. El signo de Lasègue es negativo y no presenta déficit de fuerza en las extremidades inferiores. La actitud terapéutica más adecuada, de entre las siguientes, es:
 
 A. Remitir de forma urgente a neurocirugía para pruebas de imagen y valoración quirúrgica.
@@ -150,13 +158,13 @@ B. Realizar radiografía y resonancia magnética urgentes de raquis lumbar.
 C. Pautar un antiinflamatorio no esteroideo a dosis alta, evitar el reposo en cama, calor local suave y revisión en 2 semanas.
 D. Solicitar un electromiograma preferente de extremidades inferiores.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (correspondencia textual directa con §1.1 de este mismo módulo):** el cuadro (dolor lumbar radicular de solo 1 SEMANA de evolución, sin déficit de fuerza, con Lasègue NEGATIVO — dato que además debilita la sospecha de irritación radicular franca) NO presenta ningún signo de alarma de los enumerados en §1.1 de este módulo (edad >50 años aislada no basta sin otros factores; no hay cáncer, traumatismo, fiebre, pérdida de peso, déficit neurológico ni incontinencia). La bibliografía establece expresamente que, sin signos de gravedad, *"NO se recomienda realizar pruebas complementarias... tratamiento sintomático: reposo relativo opcional (máx. 2-3 días), analgesia/AINE... Reevaluación a las 2 semanas"* — una descripción prácticamente literal de la opción C, no de la D (electromiograma, clave oficial), que ni siquiera es una medida "terapéutica" (es diagnóstica) y no está indicada de entrada en la primera semana sin déficit motor. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Ante un episodio de lumbociatalgia aguda, de una semana de evolución, sin datos de alarma, con maniobra de Lasègue negativa y sin déficit motor objetivable, la actitud recomendada por las guías de práctica clínica es el tratamiento conservador: analgesia con antiinflamatorios no esteroideos a dosis adecuada, evitar el reposo absoluto en cama, aplicar calor local si alivia los síntomas, y mantener una actitud expectante con revisión en unas dos semanas. Las pruebas de imagen y neurofisiológicas no están indicadas de entrada en la fase aguda sin datos de alarma ni déficit neurológico, y se reservan para los casos que no mejoran tras 4-6 semanas de tratamiento conservador adecuado o ante déficit neurológico progresivo. La derivación urgente a neurocirugía solo estaría justificada ante signos de alarma como el síndrome de cola de caballo o un déficit motor grave.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **2 discrepancias de MÁXIMA confianza**, 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2021-113 ⚠️
+### MIR-2021-113
 Varón de 35 años, cartero, sin antecedentes de interés, que acude a urgencias por un dolor agudo cervical de 24 horas de evolución, sin traumatismo previo, que irradia a brazo izquierdo hasta la mano y se acompaña de parestesias en el borde radial del antebrazo. No presenta pérdida de fuerza objetivable, conserva la movilidad del cuello aunque es dolorosa y se aprecia contractura de la musculatura paravertebral. La primera actitud será:
 
 A. Tratamiento conservador con antiinflamatorios no esteroideos, calor local y reposo relativo.
@@ -164,11 +172,11 @@ B. Llamada urgente al neurocirujano para valoración quirúrgica.
 C. Solicitud preferente de resonancia magnética y electromiograma.
 D. Derivación preferente a consultas externas de traumatología.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (razonamiento por analogía directa con el algoritmo ya establecido en §1.1 de este módulo para la lumbociatalgia, sin cita bibliográfica cervical específica disponible):** el cuadro (radiculopatía cervical aguda de 24h de evolución, SIN traumatismo, SIN déficit motor objetivable, con dolor y contractura paravertebral pero movilidad conservada) no presenta ningún signo de alarma que justifique pruebas complementarias urgentes/preferentes de entrada. Por analogía directa con el algoritmo de manejo de la lumbociatalgia SIN signos de alarma ya documentado en este mismo módulo (MIR-2023-107, §1.1) — donde, sin déficit motor ni otros signos de gravedad, el manejo inicial recomendado es sintomático (AINE, evitar reposo en cama, revisión en 2 semanas), NO pruebas de imagen/neurofisiológicas urgentes —, el mismo principio de "tratar antes de investigar" en la radiculopatía aguda sin alarma debería aplicarse a la columna cervical. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Ante una cervicobraquialgia aguda, sin traumatismo relevante y sin datos de alarma (sin déficit motor objetivable, sin fiebre, sin antecedente oncológico), la actitud inicial habitual es el tratamiento conservador con analgesia/antiinflamatorios, calor local y reposo relativo, evitando la inmovilización prolongada, ya que la mayoría de estos cuadros se resuelven espontáneamente en pocas semanas. Las pruebas de imagen y neurofisiológicas se reservan para los casos que no mejoran con el tratamiento conservador tras varias semanas, para aquellos con déficit neurológico objetivable o progresivo, o ante sospecha de compresión medular. La presencia de dolor cervical con irradiación braquial y parestesias en el territorio radial del antebrazo sugiere afectación de la raíz C6, aunque en ausencia de déficit motor la solicitud preferente de pruebas complementarias no suele ser el primer escalón recomendado.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 10 preguntas reales, **3 discrepancias** (2 de MÁXIMA confianza + 1 de confianza moderada-fuerte), 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -94,9 +94,11 @@ B. Púrpura trombótica trombocitopénica.
 C. Síndrome de Evans (anemia hemolítica y trombopenia inmunes).
 D. Trombocitopenia inmune idiopática.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 160)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 160)*
 
-> **Nota de verificación (confianza moderada — ver limitación de alcance al inicio del módulo):** el enunciado describe hallazgos de hemólisis franca y activa (LDH muy elevada, haptoglobina indetectable, reticulocitosis marcada, esquistocitos), incompatibles con la propia definición de PTI recogida en este módulo (§1.2): "es la causa más frecuente de trombocitopenia AISLADA" — es decir, sin hemólisis asociada. Esta contradicción, apoyada directamente en la bibliografía de Hematología disponible, hace dudar razonablemente de la clave oficial (D). No obstante, dado que el diagnóstico alternativo más probable desde el punto de vista clínico (opción B, púrpura trombótica trombocitopénica) se estudia en la bibliografía de Nefrología —bloqueada en este proyecto por tratarse de un PDF escaneado sin capa de texto—, esta nota se marca con confianza moderada y no como verificación fuerte. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** Este cuadro (fiebre, clínica neurológica, trombocitopenia grave, anemia con reticulocitosis marcada, LDH muy elevada, haptoglobina indetectable, esquistocitos en el frotis y Coombs directo negativo, con coagulación normal) es característico de una microangiopatía trombótica, concretamente de una púrpura trombótica trombocitopénica (PTT), en la que la asociación de anemia hemolítica no autoinmune (Coombs negativo) con trombocitopenia y clínica neurológica es muy sugestiva, y en la que los anticonceptivos orales pueden actuar como factor precipitante. La coexistencia de datos francos de hemólisis (esquistocitos, LDH elevada, haptoglobina indetectable, reticulocitosis) descarta una trombocitopenia inmune idiopática pura, entidad en la que no existe hemólisis asociada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-147
 Varón de 19 años, asintomático, que presenta en una analítica preoperatoria una trombopenia (plaquetas 43 x 10⁹/L) con niveles de hemoglobina y leucocitos normales. ¿Cuál de las siguientes actuaciones hay que realizar en primer lugar?:
@@ -106,9 +108,11 @@ B. Realizar una biopsia de medula ósea para ver si la trombopenia es de origen 
 C. Realizar un examen morfológico del frotis sanguíneo para descartar la presencia de agregados plaquetarios inducidos por el anticoagulante.
 D. Transfundir un concentrado de plaquetas para evitar un problema hemorrágico.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 147)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 147)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) describe textualmente el frotis de sangre periférica como el paso indicado ante una trombocitopenia inesperada, precisamente para "descartar la presencia de agregados plaquetarios, que producen una falsa disminución del recuento de plaquetas en el hemograma (pseudotrombopenia)" — el escenario exacto del enunciado (hallazgo asintomático, aislado, preoperatorio). La biopsia de médula ósea (clave oficial, B) es un estudio de segunda línea, invasivo, que no debería solicitarse antes de descartar un artefacto de laboratorio mediante una prueba simple y no invasiva como el frotis (opción C). No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (frotis primero) en el punto clave 1 de este módulo.
+**Explicación:** Ante el hallazgo incidental de una trombocitopenia aislada y asintomática en un paciente por lo demás sano, el primer paso siempre debe ser un examen morfológico del frotis de sangre periférica, con el objetivo de descartar una pseudotrombocitopenia por agregación plaquetaria inducida por el anticoagulante EDTA del tubo de extracción, un artefacto de laboratorio relativamente frecuente y sin ninguna trascendencia clínica. Solo si el frotis confirma una trombocitopenia real (sin agregados) estaría justificado avanzar hacia estudios más invasivos, como el aspirado o la biopsia de médula ósea, o plantear tratamiento; iniciar corticoides o transfundir plaquetas sin haber confirmado antes la trombocitopenia real sería precipitado e innecesario.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-128
 Mujer de 34 años con diagnóstico de púrpura trombocitopénica idiopática (PTI) refractaria al tratamiento médico remitida para evaluación quirúrgica. A pesar del tratamiento con corticosteroides y otros inmunosupresores, sus recuentos plaquetarios han permanecido bajos, con episodios recurrentes de sangrado leve. Se decide realizar una esplenectomía laparoscópica como siguiente paso terapéutico. En relación con la planificación y manejo de la esplenectomía laparoscópica, ¿cuál de las siguientes estrategias es la más adecuada?:
@@ -120,7 +124,7 @@ D. La vacunación preoperatoria contra neumococo, meningococo y Haemophilus infl
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 128; coherente con la indicación de vacunación previa a esplenectomía frente a gérmenes encapsulados recogida en §1.2; las opciones A y C contienen afirmaciones absolutas ["en todos los casos", "la única opción"] no sustentadas, y B es clínicamente incorrecta en PTI, donde se busca eliminar todo el tejido esplénico funcionante, no preservarlo)*
 
-### MIR-2020-173 ⚠️
+### MIR-2020-173
 Mujer de 70 años que acude a urgencias por astenia. En el examen físico destaca palidez cutáneomucosa con subictericia conjuntival y un soplo pansistólico audible en todos los focos. Analíticamente destaca hemoglobina 8 g/dl, VCM 100 fl, LDH 900 U/l, haptoglobina indetectable y bilirrubina total 3.5 mg/dl. Se solicitó la determinación de una prueba inmunohematológica. Señale la respuesta correcta:
 
 A. El diagnóstico más probable es el de saturnismo; debemos solicitar plomo en orina de 24 horas.
@@ -128,11 +132,13 @@ B. Se trata de una anemia hemolítica; para determinar su naturaleza debemos sol
 C. Se trata de una anemia hemolítica; debemos solicitar un test de Coombs directo, que determina la presencia de IgG y/o la fracción C3 del complemento sobre la membrana del hematíe.
 D. Se trata de una anemia hemolítica; debemos solicitar un test de Coombs directo, que determina la presencia de IgG libre en plasma.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 173"), define la prueba de la antiglobulina directa (Coombs directo) como aquella que *"demuestra la presencia de autoanticuerpos y/o fracciones de complemento (C3) adheridos a la superficie eritrocitaria"* — esta definición coincide EXACTAMENTE con la opción C, no con la B (electroforesis de hemoglobinas, clave oficial) marcada como correcta. La opción D describe incorrectamente el Coombs directo como detección de "IgG libre en plasma" (que en realidad describe el Coombs INDIRECTO, no el directo). Ante un cuadro clásico de hemólisis (LDH elevada, haptoglobina indetectable, bilirrubina elevada, VCM normal-alto), la prueba diagnóstica de elección para determinar el mecanismo (inmune vs. no inmune) es el test de Coombs directo, no la electroforesis de hemoglobinas (reservada para el estudio de hemoglobinopatías, no para una hemólisis de inicio no filiado en una paciente de 70 años). Apoya la opción C. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #176 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de esta paciente (anemia, subictericia, LDH muy elevada, haptoglobina indetectable y bilirrubina elevada) es característico de una anemia hemolítica, y la prueba inmunohematológica de elección para determinar su etiología autoinmune es el test de Coombs directo (antiglobulina directa), que detecta específicamente la presencia de inmunoglobulina G (IgG) y/o la fracción C3 del complemento fijados sobre la membrana del hematíe del propio paciente. Este test es distinto de la electroforesis de hemoglobinas (útil en el estudio de hemoglobinopatías hereditarias, poco probable en una anemia hemolítica adquirida de inicio a los 70 años) y no debe confundirse con la detección de IgG libre en plasma, que no es lo que mide el Coombs directo.
 
-### MIR-2023-081 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-081
 El síndrome hemolítico-urémico es una de las causas más frecuentes de insuficiencia renal aguda en niños pequeños. Se caracteriza típicamente por todo lo siguiente, EXCEPTO:
 
 A. Anemia hemolítica microangiopática.
@@ -140,11 +146,13 @@ B. Trombocitopenia.
 C. Alargamiento de los tiempos de coagulación (TPTA y protrombina).
 D. Puede desencadenarlo una infección previa por Streptococcus pneumoniae.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma la anemia hemolítica microangiopática (esquistocitos) como una manifestación NUCLEAR y definitoria del síndrome hemolítico-urémico (SHU), agrupado junto a la PTT bajo el mecanismo "microangiopático" en la clasificación de anemias hemolíticas adquiridas — por tanto la opción A es una característica VERDADERA del SHU, no la excepción buscada. Es conocimiento hematológico estándar y ampliamente establecido que el SHU y la PTT, a diferencia de la CID, cursan con tiempos de coagulación (TPTA y protrombina) NORMALES, ya que el mecanismo es de agregación plaquetaria/daño endotelial microvascular, no de consumo de factores de coagulación — por lo que la opción C ("alargamiento de los tiempos de coagulación") es la verdadera excepción/característica FALSA del SHU. Apoya la opción C. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #176 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El síndrome hemolítico-urémico (SHU) se caracteriza por la tríada clásica de anemia hemolítica microangiopática (con esquistocitos), trombocitopenia y fracaso renal agudo, siendo el SHU típico causado predominantemente por infecciones por E. coli productor de toxina Shiga, aunque también puede desencadenarse por Streptococcus pneumoniae (SHU asociado a neumococo, mediado por la exposición del antígeno T por la neuraminidasa bacteriana). Una característica distintiva de las microangiopatías trombóticas (SHU y PTT) frente a la coagulación intravascular diseminada es que los tiempos de coagulación convencionales (tiempo de protrombina y TTPA) son típicamente NORMALES, ya que no existe consumo relevante de los factores de la coagulación, a diferencia de lo que ocurre en la CID.
 
-### MIR-2023-145 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-145
 Hombre de 52 años que acude a urgencias por debilidad y dificultad para la articulación de la palabra. Constantes: TA 115/60 mmHg, FC 80 lpm, temperatura 37,8ºC. Exploración neurológica: bradilalia, bradipsiquia y pérdida de fuerza en mano izquierda. Auscultación y abdomen sin hallazgos. Petequias en cara interna de muslos y dorso de los pies. AngioTC cerebral sin signos de sangrado intracraneal ni patología isquémica aguda. Analítica: Hb 7,2 g/dl, 12.340 leucocitos (92% PMN), plaquetas 14.600, urea 183 mg/dl, creatinina 2,3 mg/dl, bilirrubina total 2 mg/dl, transaminasas normales, LDH 2.125 UI, ferritina 1.582 ng/mL, haptoglobina <30 mg/dl. Frotis de sangre periférica con anisocitosis y abundantes microesferocitos y esquistocitos (3-4 por campo) sin agregados plaquetarios. ¿Cuál de los siguientes tratamientos es MENOS apropiado?:
 
 A. Iniciar plasmaféresis con plasma fresco congelado de forma precoz.
@@ -152,11 +160,11 @@ B. Realizar transfusión de hematíes.
 C. Realizar transfusión de plaquetas.
 D. Iniciar tratamiento con corticoides.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y universalmente establecido de hematología, coherente con la microangiopatía trombótica ya documentada en la nota anterior sobre SHU/PTT):** el cuadro (anemia hemolítica microangiopática con esquistocitos, trombocitopenia grave, fracaso renal, fiebre y afectación neurológica) es una microangiopatía trombótica tipo PTT. Es un principio terapéutico fundamental y no controvertido de esta entidad que la TRANSFUSIÓN DE PLAQUETAS está clásicamente CONTRAINDICADA/debe evitarse salvo hemorragia con compromiso vital, ya que puede alimentar y agravar la microtrombosis diseminada característica del cuadro — esto hace de la opción C (transfusión de plaquetas) la intervención realmente "menos apropiada", no la B. La transfusión de hematíes (B, clave oficial), en cambio, es una medida de soporte razonable ante una anemia sintomática grave (Hb 7,2 g/dl), sin contraindicación específica en la PTT. La plasmaféresis precoz (A) es el tratamiento de elección establecido, y los corticoides (D) son un adyuvante estándar. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro de este paciente (fiebre, clínica neurológica focal, trombocitopenia grave, anemia hemolítica microangiopática con esquistocitos y microesferocitos, LDH muy elevada y haptoglobina indetectable, sin coagulopatía asociada) es compatible con una púrpura trombótica trombocitopénica (PTT), una emergencia hematológica cuyo tratamiento de elección es el recambio plasmático (plasmaféresis) precoz con reposición de plasma fresco congelado, habitualmente asociado a corticoides, y la transfusión de hematíes cuando la anemia lo requiere. Sin embargo, la transfusión de plaquetas está clásicamente contraindicada (salvo hemorragia grave que ponga en riesgo la vida), ya que puede alimentar la formación de microtrombos plaquetarios ricos en multímeros de factor von Willebrand y agravar la isquemia de órganos diana.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 6 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-166
 Mujer de 72 años, procedente del medio rural que acude al servicio de urgencias por un cuadro de dolor abdominal, vómitos y diarrea líquida, que posteriormente se hace sanguinolenta, de 6 días de duración. No refiere fiebre ni tratamiento antibiótico previo. Se toman muestras para hemocultivo y estudio microbiológico de las heces y se inicia tratamiento con fluidoterapia intensiva. 48 horas después se observa disminución del nivel de conciencia y la presencia de anemia (hematocrito de 25%, hemoglobina de 7,9 g/dL), trombopenia (plaquetas de 60.000/mL), creatinina de 3,2 mg/dL, hematuria y hemoglobinuria. En el estudio de sangre periférica se aprecian abundantes esquistocitos circulantes (más del 10%). Señale la respuesta INCORRECTA:
@@ -168,7 +176,7 @@ D. La plasmaféresis no es útil en esta paciente.
 
 **Respuesta correcta: B** — *(confianza máxima, principio terapéutico fundamental y muy bien establecido del SHU típico/STEC-asociado: cuadro clásico —diarrea sanguinolenta seguida de fracaso renal agudo, trombocitopenia y anemia microangiopática con esquistocitos, tras exposición rural [ganado, agua/alimentos contaminados]— compatible con SHU por E. coli productor de toxina Shiga [STEC]. En este contexto, el TRATAMIENTO ANTIBIÓTICO ESTÁ CONTRAINDICADO/debe evitarse, ya que la lisis bacteriana inducida por antibióticos puede AUMENTAR la liberación de toxina Shiga y agravar el riesgo/severidad del SHU — un principio terapéutico clásico y ampliamente enseñado. La opción B es, por tanto, correctamente identificada como la INCORRECTA. Coincide con la clave oficial. Sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad", reforzando el mecanismo microangiopático ya documentado en este módulo)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 10 preguntas reales, manteniendo 3 discrepancias y sumando 7 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-143
 Un paciente de 39 años que presenta emisión recidivante de orina rojiza, episodios repetidos de dolor abdominal de etiología no diagnosticada, acude a urgencias con un nuevo episodio de dolor abdominal intenso. En los estudios realizados en urgencias se objetiva una trombosis venosa mesentérica. ¿Cuál es el diagnóstico de sospecha que considera más probable?:
@@ -182,7 +190,7 @@ D. Fiebre mediterránea familiar.
 
 > **Nota de cobertura:** confirmación LIMPIA — reclasificada de URG a HEM (contenido hemoglobinuria paroxística nocturna). La bibliografía describe explícitamente la tríada de la HPN: hemólisis intravascular con hemoglobinuria (orinas oscuras/rojizas recidivantes), trombosis en localizaciones atípicas —incluida la vena mesentérica, "sospechar ante dolor abdominal sin causa aparente"— y citopenias. El cuadro clínico descrito (orina rojiza recidivante + dolor abdominal recurrente inexplicado + trombosis venosa mesentérica) es el patrón clásico de presentación de la HPN. Sin discrepancia.
 
-### MIR-2021-153 ⚠️
+### MIR-2021-153
 Varón de 19 años sin antecedentes de interés que acude a urgencias porque después de una infección respiratoria presenta astenia, malestar general, oliguria y cefalea. Exploración física: TA 210/120 mmHg, fondo de ojo con retinopatía hipertensiva grado III. Analítica: Hb 7,4 g/dl, plaquetas 85.000/mm3, 2-3 esquistocitos en la extensión de sangre periférica, LDH 950 UI/ml, creatinina sérica 8,75 mg/dl. Sistemático de orina: proteinuria 300 mg/dl, sedimento 15 hematíes por campo. Niveles de ADAMTS-13 normales. Ante estos hallazgos ¿cuál sería su principal sospecha diagnóstica?:
 
 A. Púrpura trombótica trombocitopénica.
@@ -190,9 +198,11 @@ B. Síndrome hemolítico urémico atípico.
 C. Coagulación intravascular diseminada.
 D. Síndrome hemolítico urémico típico.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (contradicción interna del propio enunciado, criterio diagnóstico universal):** el propio enunciado proporciona el dato decisivo para excluir la clave oficial: **"Niveles de ADAMTS-13 normales"**. La actividad de ADAMTS-13 gravemente deficitaria (típicamente <10%) es, por definición diagnóstica universalmente aceptada, el criterio que confirma la púrpura trombótica trombocitopénica (PTT) y la distingue de otras microangiopatías trombóticas — un ADAMTS-13 normal EXCLUYE la PTT como diagnóstico, con independencia del resto del cuadro clínico. Además, la ausencia de pródromo diarreico (el cuadro se desencadena tras una infección respiratoria, no digestiva) va en contra del SHU típico asociado a toxina Shiga (opción D), mientras que la combinación de hipertensión maligna + fracaso renal agudo grave + anemia hemolítica microangiopática + trombocitopenia, desencadenada por una infección (respiratoria en este caso) y con ADAMTS-13 normal, es el patrón clásico del SHU atípico (mediado por complemento). Los tiempos de coagulación no alterados (no mencionados como prolongados) también argumentan en contra de la CID (opción C). Apoya la opción B. Se mantiene la clave oficial (A) sin alterar. Pregunta reclasificada de OFT a HEM por corresponder su contenido íntegramente a una microangiopatía trombótica hematológica, no a oftalmología (el fondo de ojo es solo un hallazgo exploratorio de la hipertensión maligna, no el eje del caso).
+**Explicación:** El cuadro de este paciente (hipertensión maligna, retinopatía grado III, anemia hemolítica microangiopática con esquistocitos, trombocitopenia, LDH elevada y fracaso renal agudo grave tras un cuadro infeccioso respiratorio) corresponde a una microangiopatía trombótica. La determinación de la actividad de ADAMTS-13 permite diferenciar las principales entidades de este grupo: en la púrpura trombótica trombocitopénica (PTT) existe un déficit grave de ADAMTS-13 (habitualmente < 10 %), mientras que unos niveles normales de ADAMTS-13, como en este caso, prácticamente excluyen la PTT y, en presencia de fracaso renal agudo predominante desencadenado por una infección, orientan al síndrome hemolítico urémico atípico (SHUa), causado por una desregulación del complemento.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

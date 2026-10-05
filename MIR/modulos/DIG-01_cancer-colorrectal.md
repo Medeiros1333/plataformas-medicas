@@ -98,9 +98,11 @@ B. NRAS, KRAS, BRAF, proteínas reparadoras.
 C. EGFR, NRAS, KRAS, BRAF, proteínas reparadoras.
 D. NRAS, KRAS, BRAF, proteínas reparadoras, PI3K.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 203)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 203)*
 
-> **Nota de baja confianza (auditoría del Lote 3):** el panel estándar de determinaciones moleculares previas al tratamiento sistémico del cáncer colorrectal metastásico según las guías más citadas (RAS/KRAS-NRAS, BRAF, estado de proteínas reparadoras/MSI) no suele incluir PI3K como biomarcador estándar de práctica clínica habitual (a diferencia de RAS/BRAF/MMR, que sí determinan directamente la elegibilidad a anti-EGFR e inmunoterapia). No se tiene certeza suficiente para considerar esto una discrepancia confirmada (es un área de guías en evolución) — se mantiene la clave oficial sin alterar, a diferencia de otros hallazgos de este módulo/lote con mayor grado de certeza.
+**Explicación:** Antes de iniciar tratamiento sistémico en el cáncer de colon metastásico es obligado completar el estudio molecular que condiciona la elección terapéutica: estado de los genes RAS (KRAS y NRAS, exones 2, 3 y 4), estado de BRAF (mutación V600E, que ensombrece el pronóstico y contraindica el uso aislado de anti-EGFR) y el estado de las proteínas reparadoras del ADN (sistema MMR/inestabilidad de microsatélites), que identifica a los candidatos a inmunoterapia con inhibidores de checkpoint. La determinación de EGFR por inmunohistoquímica no es necesaria, ya que a diferencia de otros tumores la respuesta a los fármacos anti-EGFR en cáncer colorrectal no depende de la expresión del receptor sino del estado de RAS/BRAF, lo que descarta las opciones que incluyen EGFR (A y C). La vía PI3K/PIK3CA está implicada en mecanismos de resistencia tumoral y en la respuesta a determinadas estrategias adyuvantes, por lo que su valoración se incorpora cada vez más, junto con RAS, BRAF y MMR, en los paneles moleculares ampliados recomendados en la práctica oncológica actual antes de decidir el tratamiento sistémico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-153
 En relación con el cribado de cáncer colorrectal en el síndrome de Lynch (MLH1/MSH2), señale la opción CORRECTA:
@@ -140,7 +142,7 @@ D. Ecografía combinada abdomino-pélvica y endorrectal.
 
 > **Nota de cobertura y fiabilidad ampliada:** con estas 2 preguntas se eleva a 6 preguntas reales, 0 discrepancias nuevas, manteniendo la nota de baja confianza previa sobre el panel molecular de MIR-2023-203.
 
-### MIR-2023-139 ⚠️
+### MIR-2023-139
 En un pólipo maligno de colon resecado endoscópicamente, ¿cuál de los siguientes es el factor de peor pronóstico que obligaría a plantear una resección quirúrgica complementaria?
 
 A. Invasión submucosa profunda (nivel Sm3).
@@ -148,11 +150,11 @@ B. Margen de resección de 2,5 mm libre de tumor.
 C. Pólipo pediculado con tallo largo.
 D. Tamaño del pólipo menor de 2 cm.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** en el manejo estándar del pólipo maligno resecado endoscópicamente, un margen de resección libre (aunque estrecho, del orden de 1-2 mm) se considera un margen ADECUADO y NO constituye por sí solo indicación de cirugía complementaria — un margen de 2,5 mm es incluso más holgado que el umbral habitual de suficiencia. En cambio, la invasión submucosa PROFUNDA (nivel Sm3 de Haggitt/Kikuchi) es un factor de alto riesgo bien establecido (junto con la pobre diferenciación, la invasión linfovascular y el margen realmente afectado/positivo) que sí obliga a plantear colectomía complementaria por el riesgo de afectación ganglionar. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** En los pólipos malignos (adenocarcinoma sobre pólipo) resecados endoscópicamente, los criterios histológicos que definen alto riesgo de enfermedad residual/recurrencia y que obligan a plantear cirugía complementaria incluyen: invasión submucosa profunda (Kikuchi sm3 o Haggitt nivel 4), pobre diferenciación tumoral, invasión linfovascular, budding tumoral de alto grado y afectación o proximidad del margen de resección.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 7 preguntas reales, **1 discrepancia nueva** de confianza fuerte, sumando 2 discrepancias totales (con la de baja confianza de MIR-2023-203) y 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

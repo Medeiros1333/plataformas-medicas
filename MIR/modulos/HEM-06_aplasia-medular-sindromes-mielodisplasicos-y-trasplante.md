@@ -67,9 +67,11 @@ B. Son típicas las malformaciones esqueléticas.
 C. El trasplante de progenitores hematopoyéticos es el tratamiento curativo, pero no hace desaparecer el riesgo de cáncer.
 D. Los andrógenos suelen producir una respuesta favorable pero transitoria.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 21, 81", desfase de año habitual de ±1), afirma que la anemia de Fanconi *"es la aplasia medular congénita más frecuente y SE SUELE MANIFESTAR A LOS 5-10 AÑOS"* — contradiciendo directamente la opción A ("presente ya en los primeros meses de vida"). Las malformaciones esqueléticas (pulgares anormales, entre otras) SÍ figuran expresamente en la clínica típica descrita por la bibliografía, por lo que la opción B (marcada como la "incorrecta" por la clave oficial) es en realidad VERDADERA. La respuesta coherente con la bibliografía es A, no B. Ver hallazgo #137 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La anemia de Fanconi es la aplasia medular congénita más frecuente, de herencia habitualmente autosómica recesiva, causada por defectos en la reparación del ADN (vía FANC/BRCA). Cursa con malformaciones congénitas típicas (anomalías del pulgar y del radio, talla baja, manchas café con leche, anomalías renales y esqueléticas) presentes desde el nacimiento, mientras que el fallo medular (pancitopenia progresiva) suele desarrollarse más tardíamente, típicamente en la edad escolar (en torno a los 5-10 años), y no en los primeros meses de vida. El trasplante de progenitores hematopoyéticos cura la aplasia medular pero no elimina el riesgo aumentado de neoplasias sólidas (especialmente carcinomas epidermoides de cabeza y cuello) ni de leucemia mieloide aguda, y los andrógenos pueden inducir una mejoría hematológica transitoria mientras se mantiene el tratamiento.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-154
 Paciente de 62 años en estudio por una pancitopenia. Se realiza una punción de la medula ósea objetivando un 15% de blastos mieloides con estudio citogenético normal. Según la clasificación de enfermedades de la OMS el proceso debería ser catalogado como:
@@ -79,9 +81,11 @@ B. Síndrome mielodisplásico con exceso de blastos.
 C. Anemia megaloblástica.
 D. Aplasia medular.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía establece con precisión numérica los umbrales de blastos: *"Médula ósea: hipercelular con >20% blastos"* define la leucemia mieloide aguda, y *"Anemia refractaria con exceso de blastos (AREB): citopenias, displasia medular y **5-20% de blastos** en la médula"* define el SMD con exceso de blastos. El caso presenta EXACTAMENTE 15% de blastos, dentro del rango 5-20% que define el SMD-AREB (opción B, no elegida) — un dato puramente cuantitativo, sin margen de interpretación clínica, comparable en objetividad al hallazgo #103 (cálculo de Glasgow). La clave oficial marca "aplasia medular" (D), pero la propia bibliografía define esta entidad como insuficiencia medular "SIN EVIDENCIA DE INFILTRACIÓN" — completamente incompatible con la presencia de un 15% de blastos mieloides en la médula, que por definición implica infiltración por células anómalas. La respuesta coherente con la bibliografía es B, no D. Ver hallazgo #137 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Según la clasificación de la OMS de las neoplasias mieloides, el porcentaje de blastos en médula ósea es el criterio fundamental para diferenciar el síndrome mielodisplásico (SMD) de la leucemia mieloide aguda (LMA): un recuento de blastos entre el 5 % y el 19 % (en ausencia de alteraciones citogenéticas o moleculares definitorias de LMA) se clasifica como SMD con exceso de blastos, reservándose el diagnóstico de LMA para un recuento ≥ 20 % de blastos (o la presencia de alteraciones citogenéticas recurrentes específicas, no presentes en este caso al ser la citogenética normal). La presencia de un 15 % de blastos mieloides es, además, incompatible con el diagnóstico de aplasia medular, entidad que se define precisamente por una médula ósea hipocelular sin exceso de blastos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-156
 Un paciente con grupo sanguíneo A positivo y una leucemia mieloide aguda es sometido a un trasplante hematopoyético con un donante B positivo. La médula del donante prende adecuadamente alcanzando un quimerismo completo. Sin haber recibido transfusiones en los cuatro meses previos, a los seis meses del procedimiento, permaneciendo en quimerismo completo, se realiza un nuevo grupo sanguíneo al receptor. El resultado será:
@@ -95,9 +99,9 @@ D. O positivo. Los anticuerpos anti-transferasa del receptor inhiben la expresi�
 
 > **Nota de cobertura:** confirmación LIMPIA — tras el trasplante alogénico con quimerismo completo, las células hematopoyéticas (incluidos los hematíes) son de origen donante, por lo que el grupo sanguíneo del receptor cambia al del donante. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 3 preguntas reales (2020×1, 2023×2), **2 discrepancias de MÁXIMA confianza (67%)**: una confirmada por cita textual directa a la propia pregunta (MIR-2020-81), otra por un umbral numérico puramente objetivo de clasificación OMS (MIR-2023-154); 1 pregunta limpia sobre el cambio de grupo sanguíneo postrasplante.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-171 ⚠️
+### MIR-2020-171
 La causa más frecuente de neutropenia grave (<500 neutrofilos/microlitro) es:
 
 A. Secundaria a enfermedades autoinmunes.
@@ -105,9 +109,11 @@ B. Primaria por leucemia aguda.
 C. Iatrogénica por administración de medicamentos.
 D. Debida al hiperesplenismo desarrollado en las infecciones.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 171"), clasifica las neutropenias dentro de las insuficiencias medulares selectivas de la serie blanca y establece explícitamente que la forma "Secundaria (fármacos, **causa más frecuente**)" es la etiología predominante de la neutropenia — apoyando la opción C (iatrogénica por medicamentos), no la A (enfermedades autoinmunes) marcada como oficial. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #176 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Aunque existen múltiples causas de neutropenia grave (autoinmunes, infiltración medular por leucemia, hiperesplenismo), la causa más frecuente en la práctica clínica es la iatrogénica, secundaria a la administración de fármacos, ya sea por mielotoxicidad directa dosis-dependiente (quimioterapia) o por reacciones idiosincrásicas independientes de la dosis (antitiroideos, clozapina, algunos antibióticos y antiinflamatorios), estas últimas responsables de la mayoría de los casos de agranulocitosis medicamentosa aguda.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -120,8 +126,6 @@ C. Anomalías esqueléticas.
 D. Estatura alta.
 
 **Respuesta correcta: D** — *(confianza máxima, hecho fundamental y bien establecido de la anemia de Fanconi: es una enfermedad de inestabilidad cromosómica con fenotipo característico que incluye anomalías pigmentarias cutáneas [manchas café con leche], anomalías renales [agenesia/malformaciones], anomalías esqueléticas [pulgar/radio] y, de forma característica, TALLA BAJA [no talla alta] — la estatura alta es, por tanto, la manifestación que correctamente NO se ajusta al fenotipo típico. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, manteniendo 2 discrepancias y sumando 2 limpias.
 
 ---
 

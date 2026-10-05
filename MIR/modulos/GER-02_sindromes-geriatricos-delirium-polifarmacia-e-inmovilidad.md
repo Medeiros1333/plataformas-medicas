@@ -73,7 +73,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-165 ⚠️
+### MIR-2021-165
 Mujer de 88 años que presenta episodio de desorientación en espacio y tiempo, inquietud y alteración del nivel de conciencia fluctuante al regresar a casa tras ser dada alta del hospital, tras un ingreso por fractura de cadera. Entre sus antecedentes destacan HTA, hipoacusia leve, deterioro cognitivo leve y osteoporosis. Antes de la fractura era independiente para todas las actividades básicas de la vida diaria, y tras la cirugía ha iniciado la deambulación con andador y las transferencias las realiza con ayuda de una persona. ¿Cuál es el manejo inicial más adecuado del cuadro que presenta?:
 
 A. Valoración del dolor y descartar una impactación fecal.
@@ -81,11 +81,13 @@ B. Iniciar haloperidol.
 C. Iniciar diazepam.
 D. Recomendar reposo en cama y sujeción mecánica para que no se autolesione.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, principio universal de manejo del delirium, sin cita bibliográfica directa disponible):** el cuadro es un delirium postoperatorio clásico (fractura de cadera, deterioro cognitivo previo, hipoacusia como factor predisponente). El manejo inicial universalmente enseñado en medicina geriátrica es identificar y corregir las causas reversibles (dolor mal controlado, impactación fecal, infección, alteraciones metabólicas) ANTES de recurrir a fármacos antipsicóticos — que se reservan para agitación grave con riesgo vital cuando las medidas iniciales no son suficientes. El diazepam (C) está contraindicado por empeorar el delirium en el anciano, y la sujeción mecánica con reposo en cama (D) está explícitamente desaconsejada. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Ante un cuadro de delirium (síndrome confusional agudo) en un paciente anciano, la actuación inicial siempre debe dirigirse a identificar y corregir las causas precipitantes subyacentes, siendo el dolor mal controlado y la impactación fecal dos de las causas más frecuentes y fácilmente reversibles en el contexto postoperatorio de una fractura de cadera, junto con la retención urinaria, las alteraciones hidroelectrolíticas, las infecciones y la revisión de fármacos. Solo cuando estas medidas no son suficientes y existe agitación grave con riesgo para la seguridad del paciente o de terceros, se plantea el uso de antipsicóticos como el haloperidol a la mínima dosis eficaz, evitando las benzodiacepinas (que pueden empeorar el delirium) y las medidas de contención mecánica y el reposo en cama, que aumentan el riesgo de complicaciones y perpetúan el cuadro confusional.
 
-### MIR-2021-166 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-166
 Mujer de 88 años de edad que consulta por caídas frecuentes, deterioro del estado general, hiporexia e insomnio. Como antecedentes presenta deterioro cognitivo moderado, diabetes mellitus tipo 2 con última hemoglobina glicosilada de 8 %, hipertensión arterial, hipercolesterolemia con LDL de 121 mg/dl y enfermedad renal crónica con un filtrado glomerular de 42 mL/m. En tratamiento con sulfonilureas, simvastatina, benzodiacepinas y valsartan/amlodipino. Indique la actuación más correcta:
 
 A. Habría que intensificar el tratamiento de la diabetes para reducir la hemoglobina glicada.
@@ -93,11 +95,13 @@ B. La hipercolesterolemia está mal controlada, por lo que añadiría ezetimiba.
 C. Revisaría el tratamiento farmacológico para realizar una desprescripción priorizando fármacos imprescindibles.
 D. Aumentaría la dosis de benzodiacepinas para control del insomnio.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, principio universal de seguridad del paciente geriátrico, sin cita bibliográfica directa disponible):** este es un caso prototípico de anciana FRÁGIL con caídas de repetición y polifarmacia de riesgo (sulfonilureas con función renal reducida —riesgo de hipoglucemia—, benzodiazepinas —riesgo de caídas y sedación—). Aumentar la dosis de un fármaco (benzodiazepinas) YA reconocido como factor de riesgo de caídas en una paciente que consulta PRECISAMENTE por caídas frecuentes es una actuación contraindicada por los criterios estándar de prescripción segura en el anciano (Beers/STOPP). La actuación correcta y universalmente enseñada ante este perfil es la revisión del tratamiento para desprescribir, priorizando fármacos imprescindibles (opción C) — objetivos de HbA1c y LDL menos estrictos son además apropiados en la anciana frágil con deterioro cognitivo (descartando A y B como objetivos prioritarios). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Ante una paciente anciana con caídas de repetición, deterioro del estado general y polifarmacia con varios fármacos potencialmente inadecuados en este contexto (sulfonilureas con riesgo de hipoglucemia y caídas, benzodiacepinas que aumentan el riesgo de caídas y de deterioro cognitivo, y un objetivo de LDL probablemente demasiado estricto para su situación clínica y esperanza de vida), la actuación más adecuada es realizar una revisión exhaustiva del tratamiento farmacológico aplicando criterios de desprescripción (como los criterios STOPP/START), priorizando los fármacos verdaderamente imprescindibles y retirando aquellos cuyo balance riesgo-beneficio sea desfavorable. Intensificar el control glucémico, añadir ezetimiba, o aumentar la dosis de benzodiacepinas para el insomnio serían actuaciones contraproducentes que aumentarían el riesgo de nuevas caídas, hipoglucemias y deterioro cognitivo.
 
-### MIR-2021-170 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-170
 Mujer de 75 años en tratamiento con sertralina que acude a urgencias por un cuadro confusional. No se evidencian edemas y la tensión arterial es de 130/70 mmHg. En la analítica destaca Na 126 mEq/l y K 4 mEq/l, la natriuria es de 45 mEq/l y se ha descartado la ingesta de diuréticos. ¿De las siguientes cuál es la actitud más correcta?:
 
 A. Se trata de una enfermedad de Addison y deben administrarse corticoides de inmediato.
@@ -105,11 +109,13 @@ B. Administrar suero salino hipertónico a fin de restablecer cuanto antes la na
 C. Indicar restricción hídrica y si no se eleva la natremia pasar a infusión lenta de suero salino.
 D. Solicitar resonancia magnética cerebral, ya que seguramente se trata de una diabetes insípida.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, guía estándar de manejo de la hiponatremia por SIADH, sin cita bibliográfica directa disponible):** el cuadro (hiponatremia euvolémica —sin edemas, TA normal—, natriuria inapropiadamente elevada sin diuréticos, en tratamiento con un ISRS) es SIADH inducido por sertralina, causa muy reconocida en el anciano. La confusión, sin datos de gravedad extrema (convulsiones, coma), corresponde a una hiponatremia sintomática LEVE-MODERADA, cuyo manejo estándar de primera línea es la RESTRICCIÓN HÍDRICA, escalando a infusión LENTA de suero salino solo si no se corrige — exactamente lo descrito en la opción C. La corrección con suero salino HIPERTÓNICO (clave oficial, B) se reserva para hiponatremia grave/aguda con síntomas neurológicos severos, y su uso inapropiado en una hiponatremia subaguda/crónica conlleva riesgo de mielinolisis pontina por corrección demasiado rápida. La opción A (Addison) no encaja con el cuadro (no hay hiperpotasemia ni hipotensión), y la D (diabetes insípida) es incoherente con una HIPOnatremia (la DI causa hipernatremia). Apoya la opción C. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Hiponatremia hipotónica (Na 126 mEq/l) euvolémica (sin edemas, tensión normal), con natriuria elevada (>40 mEq/l), sin diuréticos y en tratamiento con sertralina: síndrome de secreción inadecuada de ADH (SIADH) inducido por ISRS. En una hiponatremia moderada sin síntomas graves (convulsiones, coma, compromiso respiratorio), el tratamiento inicial es retirar el fármaco causante y la restricción hídrica; si no se corrige, se añade suero salino (con o sin diurético de asa o urea), corrigiendo lentamente (no más de 8-10 mEq/l en 24 h) para evitar la mielinólisis osmótica (C). El suero salino hipertónico (B) se reserva para la hiponatremia con síntomas graves o de instauración aguda. No hay datos de enfermedad de Addison, que cursaría con hipotensión e hiperpotasemia (A), y la diabetes insípida produce HIPERnatremia, no hiponatremia (D).
 
-### MIR-2022-154 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-154
 Respecto a las prescripciones potencialmente inadecuadas en la persona mayor, es cierto que:
 
 A. Las benzodiacepinas no aumentan el riesgo de caídas.
@@ -117,11 +123,13 @@ B. No existen criterios que faciliten la correcta prescripción de fármacos en 
 C. Se recomienda la utilización de metformina en diabéticos con filtrados glomerulares menores de 30 ml/min.
 D. Los estrógenos tópicos vaginales o el pesario con estrógenos están indicados para la vaginitis atrófica sintomática.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, hechos de farmacología geriátrica universalmente establecidos y no controvertidos):** de las 4 opciones, A, B y C son FALSAS de forma inequívoca y bien establecida: las benzodiazepinas SÍ aumentan el riesgo de caídas (uno de los criterios STOPP/Beers más citados); SÍ existen criterios explícitos de prescripción adecuada en el anciano (Beers, STOPP/START); y la metformina está CONTRAINDICADA con FG <30 ml/min por riesgo de acidosis láctica. La opción D, en cambio, es una afirmación VERDADERA y bien establecida: los estrógenos tópicos vaginales sí están indicados en la vaginitis atrófica sintomática, con mínima absorción sistémica. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar — de las cuatro opciones, solo D es objetivamente cierta según el conocimiento farmacológico geriátrico estándar.
+**Explicación:** Las benzodiacepinas se incluyen de forma constante entre los fármacos potencialmente inadecuados en el anciano (criterios de Beers y STOPP), precisamente porque aumentan de forma bien documentada el riesgo de caídas, fracturas (especialmente de cadera) y deterioro cognitivo en la población de edad avanzada, por su efecto sedante, miorrelajante y su potencial de alterar el equilibrio y los reflejos posturales. Por el contrario, los estrógenos tópicos vaginales sí están indicados en la vaginitis atrófica sintomática de la mujer mayor, dado su buen perfil de seguridad al tratarse de una vía de administración local con mínima absorción sistémica, siendo esta una recomendación recogida entre los criterios START. Existen múltiples herramientas explícitas (STOPP/START, Beers, PRISCUS) para identificar prescripciones potencialmente inadecuadas, y la metformina está contraindicada con filtrados glomerulares inferiores a 30 ml/min por el riesgo de acidosis láctica.
 
-### MIR-2022-155 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-155
 En relación con la valoración funcional del paciente mayor, señale la respuesta INCORRECTA:
 
 A. Debe interpretarse como una medida global de la repercusión general de los problemas de salud en el paciente mayor.
@@ -129,9 +137,11 @@ B. Existe una jerarquía progresiva obligada tanto para la adquisición como par
 C. En los pacientes mayores hospitalizados, se debe usar el estado funcional previo al ingreso hospitalario, para establecer así el plan de tratamiento y poner en marcha los objetivos realistas de la intervención.
 D. Se suele medir con informes autorreferidos o notificados por una tercera persona, aunque en ocasiones, algunos miembros del equipo realizan una evaluación estructurada para medir la capacidad funcional real.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, sin cita bibliográfica directa disponible):** la opción D describe de forma razonable y precisa cómo se mide habitualmente la función en la práctica geriátrica (autoinforme/informe de terceros, complementado a veces con evaluación estructurada) — no contiene ninguna afirmación objetable. La opción B, en cambio, afirma una jerarquía "OBLIGADA" (término absoluto) de pérdida/adquisición de las AVD — aunque existe una tendencia general descrita en la literatura (pérdida más temprana de actividades instrumentales/avanzadas que de las básicas), esta secuencia NO es una ley invariable y obligatoria: procesos agudos (p. ej. un ictus) pueden producir pérdida simultánea de AVD básicas e instrumentales sin respetar ningún orden. El carácter absoluto de "obligada" hace de B la afirmación más objetable. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La afirmación INCORRECTA es la B. Aunque la pérdida funcional en el anciano sigue con frecuencia un patrón (se pierden primero las actividades avanzadas, después las instrumentales y por último las básicas, en orden inverso a como se adquirieron), esta jerarquía NO es 'obligada': hay pacientes que, por ejemplo tras un ictus o una fractura, pierden bruscamente actividades básicas conservando otras más complejas. El resto es correcto: la valoración funcional es una medida global de la repercusión de los problemas de salud en la autonomía del paciente mayor (A); en el paciente hospitalizado debe registrarse la situación funcional previa al ingreso, que sirve de referencia para fijar objetivos y tiene valor pronóstico (C); y se mide habitualmente con escalas autorreferidas o referidas por el cuidador (Barthel, Lawton), aunque a veces se usan pruebas de ejecución u observación directa (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-029
 En relación con el proceso de envejecimiento, respecto a los principales cambios morfológicos de los aparatos y sistemas, indique la respuesta INCORRECTA:
@@ -205,9 +215,9 @@ D. Tríceps braquial.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, biomecánica de la marcha asistida) — la marcha asistida con bastón/muleta/andador exige carga de peso a través del miembro superior, para lo cual son prioritarios el agarre (flexores de dedos), la estabilización de la muñeca bajo carga (extensores de muñeca) y la extensión del codo para soportar peso (tríceps braquial); el pronador redondo (pronación del antebrazo) no interviene de forma prioritaria en esta función de soporte. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 11 preguntas reales (2021×3, 2022×2, 2024×4, 2025×2), **5 discrepancias de confianza fuerte** (delirium, desprescripción, SIADH, prescripción inadecuada, valoración funcional), 6 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2021-185 ⚠️
+### MIR-2021-185
 La interconsulta médica en pacientes hospitalizados constituye una actividad habitual entre los especialistas de medicina interna/geriatría, en especial en los servicios quirúrgicos. Indique cuál de las siguientes características NO corresponde al modelo asistencial de interconsulta denominado asistencia compartida:
 
 A. Responsabilidad compartida.
@@ -215,11 +225,11 @@ B. Atención a demanda.
 C. Atención integral y global.
 D. Comunicación fluida entre médicos.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (razonamiento conceptual, sin cita bibliográfica directa disponible):** el modelo de "asistencia compartida" (co-manejo) en interconsulta hospitalaria se define, casi por definición terminológica, por la RESPONSABILIDAD COMPARTIDA entre especialidades (a diferencia del modelo de "interconsulta tradicional", donde el consultor solo emite una opinión puntual sin asumir responsabilidad conjunta) — marcar la opción A como la característica que "NO corresponde" a este modelo resulta contradictorio con la propia definición del modelo. En cambio, la "atención a demanda" (opción B) — es decir, solo cuando el servicio solicitante la requiere puntualmente, sin seguimiento sistemático programado — es más característica del modelo de interconsulta TRADICIONAL/clásico que del modelo de asistencia COMPARTIDA/co-manejo, que típicamente implica seguimiento conjunto y proactivo, no solo reactivo a demanda. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La asistencia compartida es un modelo de colaboración entre el internista/geriatra y el servicio quirúrgico en el que ambos asumen de forma conjunta la responsabilidad del paciente (responsabilidad compartida, A), con una atención integral y global de los problemas médicos (C) y una comunicación fluida y continua entre los médicos (D). Su característica esencial es que la atención es PROACTIVA y diaria, desde el ingreso, sin esperar a que surja un problema. La atención 'a demanda' (B) es propia de la interconsulta tradicional, en la que el especialista solo valora al paciente cuando el servicio responsable lo solicita ante un problema concreto, por lo que NO corresponde a la asistencia compartida.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 12 preguntas reales, **6 discrepancias**, 6 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

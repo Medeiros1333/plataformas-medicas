@@ -64,9 +64,11 @@ B. Presencia de retinopatía diabética.
 C. Hematuria persistente (micro o macroscópica).
 D. Cociente albúmina/creatinina en orina > 30 mg/g.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación moderada:** según la enseñanza clásica (recogida también en el manual AMIR), la **hematuria persistente es característicamente ajena a la nefropatía diabética** (que es una enfermedad no hematúrica) y su presencia obliga a descartar otra causa sobreañadida — por lo que C parecería el hallazgo que con más claridad "NO apoya" el diagnóstico. Un aumento lento y progresivo de la creatinina (A), en cambio, es coherente con el curso insidioso y gradual típico de la nefropatía diabética establecida. Se mantiene la clave oficial (A) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** Los datos que apoyan el diagnóstico de enfermedad renal diabética en un paciente con DM2 de larga evolución son la presencia de retinopatía diabética (marcador de microangiopatía generalizada) (opción B) y el aumento progresivo del cociente albúmina/creatinina por encima de 30 mg/g (opción D), junto con un deterioro habitualmente lento y progresivo de la función renal. La presencia de hematuria persistente, micro o macroscópica, es un dato de alarma que NO es propio de la nefropatía diabética típica y que obliga a descartar otras causas (glomerulonefritis, nefropatía IgA, patología urológica), ya que la nefropatía diabética clásica cursa con sedimento inactivo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -136,7 +138,7 @@ D. Aumentar la dosis de empagliflozina.
 - B: incorrecta — un agonista de GLP-1 aporta beneficio cardiovascular y algo de beneficio renal, pero la evidencia más específica para reducir la albuminuria persistente en este escenario exacto (tras IECA + iSGLT2) es la de la finerenona.
 - D: incorrecta — la dosis de empagliflozina de 10 mg/día ya es la dosis estándar recomendada; aumentarla no aporta beneficio adicional demostrado.
 
-**Nota de cobertura y fiabilidad del módulo:** quinto módulo de Nefrología del proyecto, 5 preguntas reales, 1 discrepancia moderada señalada frente a la enseñanza clásica del manual (verificada y mantenida sin alterar). Módulo especialmente relevante por su contenido de actualidad clínica (iSGLT2, finerenona), de creciente peso en las convocatorias MIR 2024-2025.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

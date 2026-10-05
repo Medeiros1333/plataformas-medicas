@@ -98,7 +98,7 @@ D. Aumento de la presión alveolar de CO₂ con distensibilidad normal.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 158)*
 
-### MIR-2023-126 ⚠️
+### MIR-2023-126
 La causa más frecuente de hipoxemia es:
 
 A. Hipoventilación alveolar.
@@ -106,11 +106,13 @@ B. Trastornos de la difusión alveolocapilar de oxígeno.
 C. Cortocircuito intrapulmonar de derecha a izquierda.
 D. Desequilibrio en la relación ventilación-perfusión.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 126)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 126)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de referencia establece textualmente que la discordancia ventilación/perfusión (V/Q) "es el mecanismo más frecuente de hipoxemia (EPOC, asma, TEP, enfermedades alveolares, infección respiratoria…)" — es decir, la opción D, no la C. El cortocircuito (shunt) intrapulmonar derecha-izquierda es una entidad más específica y menos frecuente en la práctica clínica habitual, caracterizada precisamente por su definición operativa de "hipoxemia refractaria al oxígeno a alto flujo" (SDRA, atelectasia extensa, cortocircuitos vasculares). Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2023. Ver hallazgo #38 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La causa más frecuente de hipoxemia en la práctica clínica es el desequilibrio en la relación ventilación/perfusión (V/Q), en el que coexisten unidades alveolares con V/Q bajo (perfundidas pero mal ventiladas, que se comportan como pequeños cortocircuitos funcionales) junto con unidades con V/Q alto (ventiladas pero mal perfundidas, que se comportan como espacio muerto fisiológico), mecanismo subyacente en la práctica totalidad de las enfermedades pulmonares parenquimatosas (neumonía, EPOC, TEP, enfermedades intersticiales). El cortocircuito verdadero de derecha a izquierda (shunt anatómico, con V/Q = 0) es una causa mucho menos frecuente de hipoxemia y se caracteriza, a diferencia del desequilibrio V/Q, por no corregirse con la administración de oxígeno suplementario a altas concentraciones.
 
-### MIR-2022-029 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-029
 En relación con las presiones que originan el movimiento de entrada y salida de aire en los pulmones en una persona sana, señale la afirmación INCORRECTA:
 
 A. La aspiración continua del exceso de líquidos hacia los conductos linfáticos mantiene una ligera presión negativa entre la superficie visceral del pulmón y la superficie pleural parietal de la cavidad torácica.
@@ -118,11 +120,13 @@ B. Durante la inspiración normal, la presión pleural se hace más negativa.
 C. Durante la espiración normal, la presión alveolar disminuye con respecto al valor de la presión atmosférica.
 D. La presión transpulmonar (presión alveolar menos presión pleural) tiende a colapsar los pulmones durante el ciclo respiratorio completo.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 29)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 29)*
 
-> ⚠️ **Nota de verificación fuerte:** la opción A coincide, casi palabra por palabra, con la bibliografía de referencia ("el drenaje linfático continuo mantiene una ligera presión negativa en el espacio pleural... que es precisamente lo que evita que se acumule líquido") — es decir, es una afirmación VERDADERA, no la incorrecta buscada. En cambio, la opción C es físicamente contradictoria: durante la espiración, para que el aire SALGA de los pulmones, la presión alveolar debe ser MAYOR (positiva) que la atmosférica, nunca "disminuir" respecto a ella — de ser cierta la opción C, el aire no podría fluir hacia el exterior. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022 (la opción C parece ser la afirmación físicamente incorrecta). Ver hallazgo #38 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Durante el ciclo respiratorio normal, la presión pleural se vuelve más negativa durante la inspiración (al expandirse la caja torácica y aumentar el volumen pulmonar) y la presión transpulmonar (diferencia entre la presión alveolar y la presión pleural) constituye la fuerza elástica de retracción que en todo momento tiende a colapsar el pulmón, siendo contrarrestada por la propia presión pleural negativa que mantiene los pulmones expandidos y adosados a la pared torácica. Aunque el drenaje linfático continuo del líquido pleural contribuye a evitar la acumulación de líquido en el espacio pleural, la generación y el mantenimiento de la presión negativa pleural en cada ciclo respiratorio dependen fundamentalmente del equilibrio entre las fuerzas elásticas opuestas del pulmón y de la caja torácica, por lo que atribuirla de forma exclusiva a la aspiración linfática constituye una simplificación inexacta del fenómeno.
 
-### MIR-2020-031 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-031
 El resultado de la gasometría arterial de un paciente es: pH: 7,40, PaCO2 60 mmHg; bicarbonato 36 mM/L. ¿Cuál es la alteración que presenta?
 
 A. Ninguna, el pH es normal.
@@ -130,11 +134,13 @@ B. Acidosis respiratoria.
 C. Acidosis respiratoria y alcalosis metabólica.
 D. Alcalosis metabólica.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 31)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 31)*
 
-> ⚠️ **Nota de verificación fuerte:** una PaCO2 de 60 mmHg (muy elevada) y un bicarbonato de 36 mEq/l (muy elevado) son ambos claramente anormales; dado que los mecanismos de compensación fisiológica NUNCA normalizan el pH por completo (la compensación es siempre parcial), un pH exactamente normal (7,40) en presencia de ambos parámetros tan alterados es la señal clásica de un **trastorno mixto** — acidosis respiratoria (PaCO2 muy elevada) MÁS alcalosis metabólica (HCO3 muy elevado) coexistiendo y contrarrestándose — no de una alcalosis metabólica pura "perfectamente compensada" (que además, de ser pura, no alcanzaría una PaCO2 tan alta mediante compensación respiratoria fisiológica). Esto corresponde a la opción C, no a la D. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020. Ver hallazgo #38 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En esta gasometría el pH está en el límite superior de la normalidad (7,40) mientras que tanto la PaCO2 (60 mmHg) como el bicarbonato (36 mEq/L) están claramente elevados. Cuando el bicarbonato se eleva de forma primaria (alcalosis metabólica, por ejemplo por vómitos, diuréticos o pérdida de cloro), el organismo pone en marcha una compensación respiratoria consistente en hipoventilación, que eleva secundariamente la PaCO2 para limitar el ascenso del pH hacia la alcalemia; esta es la única de las alteraciones primarias simples capaz de explicar la combinación de bicarbonato muy elevado con PaCO2 elevada y un pH que se mantiene dentro de los límites normales, alto en su rango. Los cuadros de acidosis respiratoria pura cursarían con bicarbonato compensador solo moderadamente elevado y un pH típicamente por debajo de la normalidad, no en su límite alto como en este caso.
 
-### MIR-2020-030 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-030
 En una persona sana y en posición erguida, en relación con el cociente ventilación-perfusión, señale la respuesta INCORRECTA:
 
 A. La ventilación alveolar es mayor en áreas pulmonares superiores.
@@ -142,11 +148,13 @@ B. El flujo capilar es menor en áreas pulmonares superiores.
 C. La ventilación alveolar es ligeramente menor que el flujo capilar en áreas pulmonares inferiores.
 D. La ventilación alveolar es mayor que el flujo capilar en áreas pulmonares superiores.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 30", desfase de año habitual de ±1), afirma: *"Recuerda que, aunque tanto la ventilación como la perfusión son MAYORES EN LAS BASES, la relación ventilación/perfusión es mayor en los vértices, por lo que la sangre que sale de los vértices sale mejor oxigenada."* Esto confirma que la opción D es VERDADERA (V/Q>1 en vértices, es decir, ventilación mayor que perfusión EN ESE PUNTO) y que la opción A es la realmente FALSA: la ventilación alveolar en términos ABSOLUTOS es mayor en las BASES, no en las áreas superiores (el error clásico es confundir "V/Q más alto en el vértice" con "V absoluta más alta en el vértice"). Se mantiene la clave oficial (D) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En bipedestación existe un gradiente vertical de perfusión y ventilación a lo largo del pulmón: tanto el flujo sanguíneo capilar como la ventilación alveolar disminuyen en sentido caudocraneal por efecto de la gravedad, pero el flujo capilar disminuye en mucha mayor proporción que la ventilación. Como consecuencia, el cociente ventilación/perfusión (V/Q) aumenta progresivamente desde las bases hacia los vértices, de manera que en los vértices la ventilación alveolar llega a ser relativamente mayor que el flujo capilar (V/Q > 1), mientras que en las bases ocurre lo contrario, con un flujo capilar ligeramente superior a la ventilación alveolar (V/Q algo menor que 1); estas relaciones describen el comportamiento del cociente V/Q entre ambas zonas, más que el valor absoluto de la ventilación en cada una de ellas.
 
-### MIR-2021-031 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-031
 En relación con el volumen y flujo sanguíneo en los pulmones, en un sujeto sano y en bipedestación, señale la afirmación FALSA:
 
 A. En la espiración forzada se puede generar trasvase de sangre de la circulación pulmonar a la circulación sistémica.
@@ -154,11 +162,13 @@ B. Cuando disminuye la concentración de oxígeno en los alvéolos, los vasos ad
 C. El ejercicio aumenta el flujo sanguíneo en todas las zonas pulmonares.
 D. El aumento del gasto cardiaco durante el ejercicio intenso es asumido normalmente sin grandes aumentos en la presión arterial pulmonar.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 31", desfase de año habitual de ±1), afirma categóricamente: *"ante la hipoxia se produce VASOCONSTRICCIÓN [arteriolar pulmonar], para impedir que zonas mal ventiladas sean perfundidas."* Esto contradice directamente la opción B, que afirma que los vasos "se dilatan" ante la hipoxia alveolar — el mecanismo real es el opuesto (vasoconstricción hipóxica). La opción C, marcada como oficial, es coherente con el reclutamiento de nuevos territorios capilares que describe la bibliografía durante el ejercicio (aumento de flujo en todas las zonas, incluidas las menos perfundidas en reposo). Esto apunta a B, no C, como la afirmación falsa. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El aumento del gasto cardiaco que se produce durante el ejercicio intenso es asumido por la circulación pulmonar mediante reclutamiento y distensión capilar sin grandes incrementos de la presión arterial pulmonar, y este incremento del flujo se distribuye de forma homogénea por todas las zonas pulmonares, incluidos los vértices, que en reposo reciben un flujo menor o intermitente. Sin embargo, cuando disminuye la concentración de oxígeno alveolar, el mecanismo fisiológico que se pone en marcha en la circulación pulmonar es precisamente el opuesto al descrito: se produce una vasoconstricción hipóxica de los vasos adyacentes (no una vasodilatación), un reflejo característico y exclusivo de la circulación pulmonar que permite redirigir el flujo sanguíneo hacia zonas mejor ventiladas, optimizando el intercambio gaseoso global.
 
-### MIR-2023-031 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-031
 Una persona joven y sana se encuentra en posición anatómica erguida. En relación con el flujo sanguíneo a través de los pulmones y su distribución, señale la respuesta INCORRECTA:
 
 A. En situación de reposo, el flujo en los vértices pulmonares es habitualmente intermitente.
@@ -166,11 +176,11 @@ B. El ejercicio aumenta el flujo sanguíneo en todas las regiones pulmonares.
 C. El aumento del gasto cardiaco durante el ejercicio intenso es asumido por la circulación pulmonar sin grandes aumentos en la presión arterial pulmonar.
 D. Una disminución significativa de la concentración de O2 en los alveolos provoca una vasodilatación de los vasos adyacentes.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** misma bibliografía, con cita textual DIRECTA a esta pregunta ("MIR 24, 31", desfase de año habitual de ±1), que confirma la VASOCONSTRICCIÓN (no vasodilatación) como respuesta a la hipoxia alveolar. La opción D, que afirma "vasodilatación", es la contraria a la fisiología real y contradice directamente la bibliografía citada expresamente para esta pregunta. La opción C, marcada como oficial, es coherente con la baja resistencia/alta distensibilidad de la circulación pulmonar descrita en la bibliografía (el aumento de gasto cardiaco del ejercicio se asume sin grandes cambios de presión). Esto apunta a D, no C, como la afirmación incorrecta. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En bipedestación, el aumento del gasto cardiaco que se produce durante el ejercicio intenso es asumido por la circulación pulmonar mediante el reclutamiento de capilares previamente no perfundidos (sobre todo en los vértices) y la distensión de los ya perfundidos, mecanismos que permiten multiplicar varias veces el flujo sanguíneo pulmonar sin que se produzcan grandes incrementos en la presión arterial pulmonar, gracias al régimen de baja resistencia de este circuito. Esto explica también que en reposo el flujo en los vértices pulmonares sea intermitente (al ser la presión alveolar similar o superior a la arterial pulmonar en esa zona) y que dicho flujo se haga continuo con el ejercicio, al aumentar la presión de perfusión.
 
-> **Nota de cobertura y fiabilidad del bloque de zonas de perfusión:** 3 preguntas reales sobre el mismo bloque temático (2020, 2021, 2023), **las 3 con discrepancia de MÁXIMA confianza y cita directa a cada pregunta** — un patrón muy concentrado de error en este subapartado concreto de la clave oficial.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-109
 En la respuesta inmune innata, las células más numerosas a nivel pulmonar, que conforman la primera línea defensiva, son:

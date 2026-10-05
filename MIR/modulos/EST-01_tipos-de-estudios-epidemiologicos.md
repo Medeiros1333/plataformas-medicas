@@ -107,7 +107,11 @@ B. El estimador de interés (como el riesgo relativo) de cada estudio.
 C. El intervalo de confianza del estimador de interés en cada estudio.
 D. El peso de cada estudio cuando se realiza un metaanálisis de dichos estudios.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 48)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 48)*
+
+**Explicación:** En el forest plot, cada estudio se representa con un cuadrado atravesado por una línea horizontal. La POSICIÓN del cuadrado sobre el eje horizontal indica el estimador puntual del efecto de ese estudio (riesgo relativo, odds ratio, diferencia de medias…) (B), y la línea horizontal representa su intervalo de confianza (C). El TAMAÑO del cuadrado es proporcional al peso del estudio en el metaanálisis (D), que depende de su precisión y su tamaño muestral (A), pero lo que 'es' el cuadrado, como marcador, es el estimador de cada estudio, que es lo que pregunta el enunciado según la plantilla oficial. El resultado combinado se representa con un rombo, y la línea vertical marca el valor de no efecto (1 para RR/OR, 0 para diferencias).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-49
 En la valoración del riesgo de sesgo de un estudio epidemiológico se considera uno de los siguientes criterios:
@@ -119,7 +123,7 @@ D. Errores de medida en alguna de las principales variables.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 49; A, B y C son cuestiones de precisión/potencia estadística, no de riesgo de sesgo)*
 
-> **Nota de cobertura y fiabilidad:** se descartaron 6 preguntas candidatas adicionales, todas de 2021-2023 (plantilla provisional + correcciones de prensa), por discrepancias claras con esta misma bibliografía — ver hallazgo #25 en `PROCESO_Y_APRENDIZAJE.md`. Es la mayor concentración de discrepancias detectada hasta ahora en un solo clúster temático. Todos los escenarios se reutilizaron como preguntas inéditas en la sección 4.
+> **Nota de cobertura y fiabilidad (actualizada 2026-10-05):** en su momento se descartaron 6 preguntas candidatas de 2021-2023 por aparentes discrepancias con la bibliografía; esas discrepancias se debían a que se había usado la plantilla de respuestas de otro año (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`), y con la clave correcta las 6 son coherentes con la bibliografía. Sus escenarios se mantienen como preguntas inéditas en la sección 4.
 
 ### MIR-2020-048
 Los ensayos clínicos en fase II tienen como objetivo:
@@ -129,9 +133,11 @@ B. Demostrar el efecto terapéutico.
 C. Obtener información sobre la eficacia.
 D. Evaluar la aparición de efectos secundarios.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 48)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 48)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía atribuye a la fase II la evaluación de "datos de eficacia PRELIMINARES" (opción C), mientras que es la fase III la que, textualmente, "DEMUESTRA si el nuevo tratamiento va a ser útil para los pacientes... y constituye la evidencia fundamental" — es decir, "demostrar el efecto terapéutico" (clave oficial, B) describe el objetivo característico de la fase III, no de la fase II. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (fase II = eficacia preliminar; fase III = demostración) en el punto clave 10 de este módulo.
+**Explicación:** Los ensayos clínicos se desarrollan en fases sucesivas con objetivos distintos: la fase I evalúa fundamentalmente la seguridad, tolerancia y farmacocinética del fármaco en un número reducido de voluntarios sanos; la fase II se realiza ya en pacientes con la enfermedad de interés, con el objetivo de obtener una primera información sobre la eficacia del fármaco, establecer el rango de dosis más adecuado y continuar vigilando la seguridad, aunque todavía sin la potencia estadística necesaria para confirmar de forma definitiva el efecto terapéutico; la fase III son los grandes ensayos confirmatorios, con mayor número de pacientes, que demuestran de forma definitiva la eficacia y seguridad del fármaco frente al tratamiento estándar o placebo, sirviendo de base para su autorización; y la fase IV corresponde a la farmacovigilancia postcomercialización, ya con el fármaco aprobado y en uso clínico habitual.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-046
 Un ensayo clínico controlado ha evaluado la eficacia de un nuevo antiagregante en pacientes graves con síndrome coronario agudo. En el grupo de tratamiento convencional (control) la mortalidad fue del 10% en mujeres y del 8% en hombres. En el grupo de intervención con el nuevo antiagregante, la mortalidad se redujo a la mitad del observado en el control tanto en mujeres como en hombres. En relación con la eficacia del nuevo antiagregante para mejorar la supervivencia según el género, señale la respuesta correcta:
@@ -151,9 +157,11 @@ B. Falta de representatividad de la muestra.
 C. Insuficiente tamaño muestral.
 D. Escasa comparabilidad de los casos y controles.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe la herramienta Cochrane de valoración del riesgo de sesgo en ensayos clínicos incluidos en metaanálisis, enumerando explícitamente entre sus ítems: *"Que los datos de eventos clínicos que ocurran en el seguimiento NO ESTÉN INCOMPLETOS DEBIDO A PÉRDIDAS EN EL SEGUIMIENTO (evitar sesgos de ATRICIÓN)"* — confirmando la opción A (no elegida) como un criterio de riesgo de sesgo explícitamente reconocido. La "falta de representatividad de la muestra" (clave oficial, B) no figura entre los ítems de esta herramienta ni en ningún otro punto de la bibliografía como criterio de riesgo de sesgo — coherente con la distinción, ya establecida en este mismo módulo (punto clave 7-8), entre riesgo de sesgo (validez interna: errores sistemáticos de selección/información/confusión/atrición) y representatividad (validez externa/generalización, que depende del método de muestreo). No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (pérdidas en el seguimiento = sesgo de atrición) en el punto clave 13 de este módulo.
+**Explicación:** En la valoración del riesgo de sesgo de los ensayos clínicos (por ejemplo, mediante la herramienta Cochrane Risk of Bias), se consideran dominios como la generación de la secuencia de aleatorización, el ocultamiento de la asignación, el cegamiento de participantes y evaluadores, y de forma muy destacada las pérdidas durante el seguimiento (sesgo de desgaste o atrición), ya que unas pérdidas elevadas o desiguales entre los grupos de comparación pueden comprometer la validez interna del ensayo al romper la comparabilidad inicial lograda mediante la aleatorización. La falta de representatividad de la muestra y el tamaño muestral insuficiente son cuestiones relacionadas con la validez externa (generalización de los resultados) y con la precisión del estudio, respectivamente, pero no se incluyen entre los dominios clásicos de riesgo de sesgo interno de un ensayo clínico, y la comparabilidad de casos y controles es un concepto propio de los estudios de casos y controles, no de los ensayos clínicos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-047
 Para establecer si la exposición a radiaciones ionizantes de los trabajadores de una mina influye en la aparición de muertes por cáncer de pulmón se decide en el año 2010 realizar un estudio. Los investigadores recopilan información del registro de exposición a radiaciones en la empresa minera, con datos sobre las radiaciones acumuladas por cada trabajador desde el año 1980 al 2000, año en que se cierra la mina. Y también recogen información sobre las muertes por cáncer de pulmón en esos trabajadores desde el año 1980 al año 2008, a partir de los registros de mortalidad existentes. Finalmente, comparan la mortalidad por cáncer de pulmón entre los trabajadores con mayor y menor exposición a las radiaciones ionizantes. ¿Qué tipo de diseño epidemiológico es éste?:
@@ -163,11 +171,13 @@ B. Estudio de casos y controles prospectivo.
 C. Estudio de cohortes retrospectivo.
 D. Estudio de cohortes prospectivo.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** el escenario descrito —reconstrucción de la exposición (1980-2000) y del desenlace (muertes hasta 2008) a partir de REGISTROS YA EXISTENTES, con el estudio iniciándose en 2010 cuando ambos periodos ya habían concluido— es la definición exacta que la propia bibliografía de este módulo (§1.1) asigna al **"estudio de cohortes históricas (retrospectivo)"**: reconstruir la cohorte con datos ya existentes en vez de verse al paciente en tiempo real. La bibliografía distingue expresamente esta categoría, por su FUENTE de datos (histórica/registros), de un "estudio de cohortes prospectivo CONVENCIONAL" (clave oficial, D), en el que el investigador define la cohorte en el presente y la sigue hacia el futuro en tiempo real —lo que exigiría que el periodo de observación de desenlaces (aquí, hasta 2008) fuera POSTERIOR al inicio del estudio (2010), y no anterior, como ocurre en este caso—. Dado que este mismo módulo ya usa la etiqueta "cohortes históricas (retrospectivo)" como categoría nombrada y distinta en su propia pregunta inédita EST-01-INED-03, la opción coherente con la terminología de la bibliografía del proyecto es C, no D. Ver hallazgo #144 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El diseño descrito es un estudio de cohortes retrospectivo (también llamado histórico), ya que, aunque el estudio se inicia en el año 2010, tanto la información sobre la exposición (las radiaciones acumuladas entre 1980 y 2000) como sobre el resultado (las muertes por cáncer de pulmón hasta 2008) proceden de registros ya existentes en el momento de diseñar el estudio, y no de un seguimiento prospectivo iniciado por los investigadores. La lógica del diseño, no obstante, sigue siendo la propia de un estudio de cohortes: los trabajadores se clasifican según su nivel de exposición a las radiaciones (mayor o menor) y se compara la mortalidad por cáncer de pulmón entre ambos grupos, a diferencia de un estudio de casos y controles, en el que la selección de los sujetos se haría en función de si desarrollaron o no la enfermedad.
 
-### MIR-2021-041 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-041
 Se realiza un estudio para determinar la posible relación entre la contaminación ambiental por SO2 en diversas zonas geográficas y el número de visitas a urgencias por asma. Sobre el diseño del estudio, señale la respuesta correcta:
 
 A. Estudio de correlación ecológica.
@@ -175,11 +185,13 @@ B. Estudio de incidencia.
 C. Estudio de prevalencia.
 D. Estudio de cohortes.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 41"), define el estudio ecológico (o de correlación ecológica) como *"un estudio idéntico al estudio transversal, con la única diferencia de tener una base COMUNITARIA en lugar de tener una base individual"*. El enunciado usa explícitamente datos agregados por ZONAS GEOGRÁFICAS (contaminación ambiental) correlacionados con datos agregados (número de visitas a urgencias) — la definición exacta de base comunitaria, no individual. El estudio de prevalencia (clave oficial, C) es de base INDIVIDUAL según la misma bibliografía, incompatible con el diseño descrito. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El diseño descrito -comparación de los niveles de contaminación por SO2 en diferentes zonas geográficas con el número de visitas a urgencias por asma en esas mismas zonas- corresponde a un estudio ecológico o de correlación ecológica, ya que tanto la exposición (contaminación ambiental) como el resultado (visitas a urgencias) se miden y analizan a nivel de grupo o de área geográfica, y no a nivel individual, sin poder establecer con certeza que las personas que enfermaron fueran realmente las más expuestas. Este tipo de diseño es útil para generar hipótesis de forma rápida y económica a partir de datos ya disponibles a nivel poblacional, pero está sujeto a la falacia ecológica, ya que una asociación observada a nivel de grupo no implica necesariamente que exista a nivel individual.
 
-### MIR-2021-048 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-048
 Para conocer si el uso habitual de ácido acetil salicílico (AAS) se asocia a un mayor riesgo de hipertensión se selecciona un grupo de sujetos, se averigua cuántos están tomando AAS y se les sigue durante 5 años para identificar los casos nuevos de hipertensión. ¿Cuál es el diseño de este estudio?:
 
 A. Es un ensayo clínico, porque se realiza con fármacos.
@@ -187,11 +199,13 @@ B. Es un estudio ecológico, porque se sigue a muchos sujetos.
 C. Es un estudio de casos y controles, en el que los casos toman AAS y los controles no.
 D. Es un estudio de cohortes, porque se sigue a sujetos clasificados según su exposición para identificar el riesgo de una enfermedad.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 48"), define el estudio de cohortes como aquel en el que *"se sigue prospectivamente a dos grupos de individuos sanos... un grupo que está expuesto a un factor de riesgo o protector, y un grupo no expuesto... Se analiza la incidencia de enfermedad que aparece en cada uno de esos dos grupos"* — coincide EXACTAMENTE con el enunciado: selección según exposición (toma o no de AAS) y seguimiento prospectivo de 5 años para identificar casos NUEVOS (incidencia) de hipertensión. Esta es la definición de estudio de cohortes, no de casos y controles (que selecciona sujetos según la presencia/ausencia de la ENFERMEDAD, no de la exposición, y no tiene seguimiento real). Apoya la opción D (cuya propia redacción describe correctamente la definición bibliográfica). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El diseño descrito -selección de un grupo de sujetos, clasificación según si toman o no AAS de forma habitual (la exposición) y seguimiento durante 5 años para identificar la aparición de nuevos casos de hipertensión- corresponde a un estudio de cohortes prospectivo, ya que los sujetos se agrupan en función de su exposición y se sigue su evolución en el tiempo para determinar la incidencia de la enfermedad en cada grupo. No es un estudio de casos y controles, ya que en este diseño los sujetos se seleccionarían en función de si presentan o no la enfermedad (hipertensión) y se indagaría retrospectivamente sobre su exposición previa al AAS, y no al revés como se describe en el enunciado; tampoco es un ensayo clínico, al no existir asignación aleatoria de la exposición por parte de los investigadores, ni un estudio ecológico, al disponerse de información individual de cada sujeto.
 
-### MIR-2022-043 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-043
 Para establecer si el consumo habitual de alimentos ultraprocesados (e.g. embutidos) se asocia a mayor riesgo del síndrome de fragilidad en adultos mayores, se selecciona a 5.000 personas mayores de 70 años que viven en sus domicilios, se les pregunta por su dieta habitual y se identifica el consumo de ultraprocesados en cada uno de ellos. Se realiza un seguimiento durante 3 años para identificar quiénes desarrollan el síndrome de fragilidad por primera vez. Señale la respuesta correcta sobre el diseño de este estudio:
 
 A. Es un estudio de cohortes, porque se sigue a sujetos clasificados según su exposición para identificar el riesgo de un problema de salud.
@@ -199,11 +213,13 @@ B. Es un ensayo de campo, porque se realiza con personas que no son pacientes.
 C. Es un estudio ecológico, porque incluye a un grupo muy amplio de población.
 D. Es un estudio de casos y controles, en el que los casos toman muchos alimentos ultraprocesados y los controles toman muy pocos.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** mismo patrón que MIR-2021-048 en este módulo. La bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 43"), define el estudio de cohortes exactamente como el diseño descrito: selección de 5.000 individuos SEGÚN SU EXPOSICIÓN individual (consumo de ultraprocesados, preguntado a CADA UNO), con seguimiento prospectivo de 3 años para identificar casos nuevos del síndrome de fragilidad. El hecho de que la muestra sea numerosa (5.000 personas) NO convierte el estudio en "ecológico" (clave oficial, C) — el estudio ecológico se define por usar datos AGREGADOS/comunitarios, no por el tamaño de la muestra individual; aquí cada persona es encuestada individualmente sobre su propia dieta. Apoya la opción A (cuya redacción coincide literalmente con la definición bibliográfica de cohortes). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El diseño descrito -selección de 5.000 personas mayores de 70 años, clasificación según su consumo habitual de alimentos ultraprocesados (la exposición) y seguimiento durante 3 años para identificar la aparición del síndrome de fragilidad- corresponde a un estudio de cohortes prospectivo, ya que se parte de sujetos libres del problema de salud de interés, clasificados según su exposición, y se sigue su evolución en el tiempo para determinar la incidencia del síndrome de fragilidad en función de dicha exposición. El elevado tamaño muestral no convierte a un estudio en ecológico: un estudio ecológico se caracteriza por analizar datos agregados a nivel de grupo o población (por ejemplo, comparando países o regiones), y no información individual de exposición y resultado como la que se recoge en este caso para cada uno de los 5.000 participantes.
 
-### MIR-2023-044 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-044
 ¿Qué tipo de estudio epidemiológico NO PERMITE calcular un riesgo relativo?:
 
 A. Un ensayo clínico aleatorizado.
@@ -211,11 +227,13 @@ B. Un estudio de cohortes retrospectivo.
 C. Un estudio de cohortes prospectivo.
 D. Un estudio de casos y controles.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía es explícita: la tabla comparativa "CASOS Y CONTROLES vs. COHORTES" asigna a los casos y controles el cálculo de "prevalencia de exposición" (medida de asociación: OR), mientras que las cohortes (sin distinguir prospectivas de retrospectivas en este aspecto) "calculan incidencias de enfermedad" (medida de asociación: RR). Además, la bibliografía dedica un apartado específico al estudio de cohortes retrospectivo/históricas, afirmando textualmente que *"sus características son IDÉNTICAS a las del estudio de cohortes convencional, EXCEPTO"* en coste/rapidez/reproducibilidad y sensibilidad a sesgos — el cálculo del RR NO figura entre esas excepciones, por lo que el estudio de cohortes retrospectivo SÍ permite calcular RR, igual que el prospectivo. El único diseño de los cuatro que NO permite calcular RR directamente es el estudio de casos y controles (opción D, que usa OR por su base de muestreo según el desenlace, no según la exposición). Apoya la opción D. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El riesgo relativo (RR) es el cociente entre la incidencia (el riesgo) de la enfermedad en el grupo expuesto y en el grupo no expuesto, por lo que solo puede calcularse en aquellos diseños que permiten estimar directamente la incidencia en ambos grupos: los ensayos clínicos aleatorizados y los estudios de cohortes, tanto prospectivos como retrospectivos (históricos), ya que en todos ellos los sujetos se clasifican según su exposición y se sigue su evolución (real o a través de registros ya existentes) para identificar la aparición de nuevos casos. En los estudios de casos y controles, sin embargo, los sujetos se seleccionan en función de si presentan o no la enfermedad (el resultado), y no según su exposición, por lo que no puede calcularse una incidencia real en cada grupo ni, por tanto, un riesgo relativo directo; en su lugar se utiliza la odds ratio como medida aproximada de asociación.
 
-### MIR-2023-049 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-049
 Un artículo describe un ensayo clínico aleatorizado en fase IV en una muestra de adultos obtenida de 42 centros sanitarios de 16 países distintos que recibieron un fármaco en estudio y un placebo durante 12 semanas. ¿Cuál de las siguientes afirmaciones describe mejor el contexto de esta investigación atendiendo a estas características?:
 
 A. Al ser una investigación aleatorizada, el número de hombres en cada uno de los grupos experimentales (fármaco o placebo) debe ser el mismo que el de mujeres.
@@ -223,11 +241,13 @@ B. El fármaco que se investiga en este ensayo ya se encuentra aprobado para su 
 C. Este ensayo clínico trata de analizar en personas sanas y enfermas las dosis terapéuticas de un fármaco experimental en comparación con un placebo.
 D. Este tipo de ensayo se denomina metaanálisis al incluir pacientes de distintos centros sanitarios y países.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 24, 49"), define la fase IV como *"fase poscomercialización... estudios realizados con un fármaco TRAS SU COMERCIALIZACIÓN"*, es decir, tras haber sido ya aprobado — coincidiendo exactamente con la opción B. La opción D confunde de raíz dos conceptos metodológicamente distintos: un ensayo clínico MULTICÉNTRICO (un único estudio con varios centros de reclutamiento, como el descrito) NO es un metaanálisis (que es la síntesis estadística de MÚLTIPLES ESTUDIOS INDEPENDIENTES ya publicados). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #182 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Un ensayo clínico en fase IV es, por definición, un estudio que se realiza sobre un fármaco ya aprobado y comercializado, habitualmente con el objetivo de vigilar su seguridad a largo plazo (farmacovigilancia) o de explorar nuevas indicaciones, poblaciones o pautas de uso en condiciones más próximas a la práctica clínica habitual; el hecho de que el ensayo descrito se etiquete como fase IV implica, por tanto, que el fármaco en estudio ya se encuentra aprobado para su prescripción en alguna indicación o situación clínica. Un ensayo clínico multicéntrico e internacional, que incluye pacientes de distintos centros y países dentro de un mismo protocolo de estudio, no debe confundirse con un metaanálisis, que es una técnica estadística que combina los resultados de varios estudios ya publicados de forma independiente, y no un único ensayo clínico realizado en múltiples localizaciones.
 
-### MIR-2020-045 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-045
 Para conocer si el consumo habitual de una dieta de tipo mediterráneo se asocia a menor riesgo de infarto de miocardio no fatal se selecciona un grupo de sujetos, se averigua el grado de adherencia a dicha dieta y se les sigue durante 5 años para identificar los casos nuevos de infarto de miocardio. Señale la respuesta correcta sobre el diseño de este estudio:
 
 A. Es un ensayo clínico porque puede orientar la prevención en la clínica.
@@ -235,11 +255,13 @@ B. Es un estudio de cohortes, porque se sigue a sujetos clasificados según su e
 C. Es un estudio ecológico porque se sigue a un grupo de sujetos.
 D. Es un estudio transversal porque la adherencia a la dieta mediterránea se valora en un momento concreto en el tiempo (al inicio del seguimiento).
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita como ejemplo de referencia directo a esta misma pregunta):** la bibliografía cita explícitamente "MIR 21, 45" (aplicando el desfase habitual, corresponde a MIR-2020-045) dentro de la lista de referencias del epígrafe "Estudio de cohortes", definido textualmente como *"un estudio observacional de base individual y con seguimiento PROSPECTIVO... consiste en ver al paciente hoy y volverle a ver en sucesivas ocasiones en el futuro"* — una descripción que coincide EXACTAMENTE con el diseño del enunciado (adherencia a la dieta evaluada al inicio + seguimiento de 5 años para identificar casos NUEVOS de infarto). El hecho de medir la exposición en un único momento NO convierte a un estudio con seguimiento posterior en "transversal" — lo que define un estudio transversal es medir EXPOSICIÓN Y DESENLACE simultáneamente, sin seguimiento, cosa que este diseño no hace. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El diseño descrito -selección de un grupo de sujetos, clasificación según su exposición (grado de adherencia a la dieta mediterránea) y seguimiento durante 5 años para identificar la aparición de nuevos casos de infarto de miocardio- corresponde a un estudio de cohortes prospectivo, el diseño observacional característico para estudiar la relación entre una exposición y el riesgo de desarrollar una enfermedad a lo largo del tiempo. No se trata de un ensayo clínico, ya que la exposición (la dieta) no se asigna de forma aleatoria por los investigadores, sino que se observa tal como ocurre de forma natural en los participantes; tampoco es un estudio ecológico, ya que se dispone de información individual de exposición y resultado para cada sujeto (y no datos agregados por grupos o poblaciones); y no es un estudio transversal, puesto que existe un seguimiento longitudinal en el tiempo para identificar casos incidentes, y no una valoración simultánea de exposición y enfermedad en un único momento.
 
-### MIR-2020-046 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-046
 Un forest plot o diagrama de bosque es:
 
 A. Un tipo de representación gráfica de los resultados (por ejemplo, estimadores de efecto) de un metaanálisis de ensayos clínicos.
@@ -247,11 +269,13 @@ B. Un tipo de histograma que se usa en las revisiones sistemáticas de la litera
 C. Una forma de presentar las modas de una distribución no normal.
 D. El diagrama de flujos de los artículos en una revisión de la literatura.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía, junto a la figura del diagrama de bosque, afirma literalmente: *"Figura 4. Diagrama de bosque o forest plot (**MIR 21, 46**). El forest plot es un método de representación gráfica de los resultados de un metaanálisis"* (aplicando el desfase habitual, "MIR 21, 46" corresponde a MIR-2020-046) — coincidiendo EXACTAMENTE, palabra por palabra, con la opción A. La opción D (clave oficial) describe en realidad el diagrama de flujo PRISMA (selección de artículos en una revisión sistemática), un concepto completamente distinto y ya diferenciado en la propia bibliografía. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El diagrama de bosque o forest plot es un tipo de representación gráfica empleada característicamente en las revisiones sistemáticas y metaanálisis, en la que se muestran los resultados individuales (por ejemplo, el riesgo relativo o la diferencia de medias, con su intervalo de confianza) de cada uno de los estudios incluidos, junto con el resultado combinado o global del metaanálisis, representado habitualmente como un rombo en la parte inferior del gráfico. No debe confundirse con el diagrama de flujo PRISMA, que es la representación gráfica del proceso de selección de los artículos a lo largo de una revisión sistemática (identificados, cribados, excluidos e incluidos en las distintas fases), ni con un histograma, ni con una forma de representar las modas de una distribución.
 
-### MIR-2020-047 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-047
 Las guías de práctica clínica:
 
 A. Son de obligado cumplimiento para todos los médicos.
@@ -259,9 +283,11 @@ B. Todo su contenido ha de estar basado en la evidencia científica.
 C. Solo deben tener en cuenta los beneficios de salud de los pacientes (por tanto, no debe considerar el coste de las intervenciones clínicas).
 D. Son recomendaciones que el médico debe adaptar a la situación clínica de cada paciente.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual indirecta, sin cita directa a esta pregunta exacta):** la propia bibliografía, al describir los niveles de evidencia científica ABC que sustentan las guías de práctica clínica, incluye explícitamente el **"Consenso de expertos"** como categoría válida del nivel de evidencia C (el más bajo) — es decir, la propia fuente reconoce que no todo el contenido de una guía procede de evidencia científica empírica (estudios), sino que también incorpora opinión/consenso de expertos cuando no hay estudios de mayor calidad, contradiciendo la afirmación absoluta de la opción B ("TODO su contenido"). Es, además, conocimiento estándar y no controvertido de Medicina Basada en la Evidencia que las guías de práctica clínica son recomendaciones orientativas que el médico debe adaptar e individualizar según cada paciente (opción D), no normas de obligado cumplimiento (descartando A) ni limitadas exclusivamente a beneficios sin considerar costes (descartando C, ya que la evaluación económica es parte reconocida del proceso de elaboración de guías). Apoya la opción D. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Las guías de práctica clínica son documentos que recogen recomendaciones basadas en la mejor evidencia científica disponible junto con el juicio clínico y, en ocasiones, el consenso de expertos cuando la evidencia es limitada o inexistente para una situación concreta, por lo que no todo su contenido procede necesariamente de estudios de alta calidad metodológica. No son de obligado cumplimiento legal para los médicos, sino recomendaciones orientativas que deben ser adaptadas por el clínico a las circunstancias, preferencias y comorbilidades de cada paciente concreto, ya que ningún paciente individual es exactamente igual a la población de los ensayos en que se basa la evidencia. Además, las guías modernas cada vez tienen más en cuenta, junto a los beneficios clínicos, aspectos como el coste y la disponibilidad de recursos a la hora de formular sus recomendaciones.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-049
 ¿Cuál de las siguientes enfermedades alcanza mayor letalidad?:
@@ -287,7 +313,7 @@ D. Que la intervención recomendada tiene alto coste.
 
 > **Nota de cobertura:** confirmación LIMPIA con cita directa y correspondencia literal — la bibliografía define la Clase I textualmente como *"hay consenso general y/o evidencia científica sobre el beneficio de la actitud... 'está recomendada/indicada'"*, coincidiendo con la clave oficial B. Sin discrepancia.
 
-### MIR-2021-043 ⚠️
+### MIR-2021-043
 En un meta-análisis, el estimador combinado de los resultados de los estudios revisados es:
 
 A. La suma de los resultados de todos los estudios.
@@ -295,9 +321,11 @@ B. La media aritmética de los resultados de todos los estudios.
 C. La media ponderada de los resultados de todos los estudios.
 D. El porcentaje de resultados favorables a la hipótesis estudiada en todos los estudios.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía afirma literalmente: *"Para combinar los estudios y obtener el resultado agrupado global del metaanálisis, se calcula la **media** del resultado de los estudios individuales, **ponderados** según el tamaño muestral, la dispersión y la calidad de los mismos (**MIR 22, 43**)"* (aplicando el desfase habitual, "MIR 22, 43" corresponde a MIR-2021-043) — coincidiendo EXACTAMENTE con la opción C ("la media ponderada"), no con la D (clave oficial), que describe un concepto ajeno a la metodología estándar de meta-análisis (no existe tal "porcentaje de resultados favorables" como estimador combinado; eso se aproximaría al método de "recuento de votos", una técnica obsoleta y desaconsejada). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En un metaanálisis, el estimador combinado o global de los estudios incluidos se calcula como una media ponderada de los resultados individuales de cada estudio, y no como una simple suma o media aritmética sin ponderar. La ponderación habitualmente se basa en la precisión de cada estudio (por ejemplo, el inverso de la varianza, relacionado con su tamaño muestral), de modo que los estudios más precisos y de mayor tamaño contribuyen en mayor medida al resultado combinado que los estudios más pequeños o imprecisos. Existen distintos modelos estadísticos para calcular esta ponderación, fundamentalmente el modelo de efectos fijos (que asume que todos los estudios estiman el mismo efecto poblacional verdadero) y el modelo de efectos aleatorios (que asume que el efecto real varía entre estudios y añade la heterogeneidad entre ellos a la ponderación).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-049
 ¿Cuál es la mejor forma de medir la carga global de enfermedad en una población?:
@@ -323,7 +351,7 @@ D. Es la preferida por los pacientes.
 
 > **Nota de cobertura:** confirmación LIMPIA con correspondencia textual — la bibliografía distingue explícitamente dos dimensiones independientes de una guía de práctica clínica: el **nivel de evidencia** (indica la calidad de los estudios en que se basa la recomendación) y la **clase/fuerza de recomendación** (se refiere al nivel de consenso para indicar o contraindicar una actitud, "en función de su relación beneficio/riesgo") — confirmando que la fuerza de la recomendación depende del balance beneficio/riesgo (opción A), no directamente del nivel de evidencia (opción B, un concepto relacionado pero formalmente distinto). Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2022-052 ⚠️
+### MIR-2022-052
 Un ensayo clínico en el cual los participantes se asignan por azar a una de varias intervenciones clínicas se conoce como:
 
 A. Ensayo doble ciego.
@@ -331,9 +359,11 @@ B. Ensayo controlado no aleatorizado.
 C. Ensayo controlado aleatorizado.
 D. Ensayo de superioridad.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta, contradicción lógica evidente en el propio enunciado):** la bibliografía describe los estudios "experimentales" afirmando textualmente: *"La asignación de intervención o no intervención a cada individuo se realiza de manera aleatoria, de modo que es el azar el que forma los distintos grupos [...] que se van a comparar entre sí (**MIR 23, 52**)"* (aplicando el desfase habitual, "MIR 23, 52" corresponde a MIR-2022-052) — es decir, la propia bibliografía usa esta pregunta como ejemplo de referencia de un ensayo **aleatorizado**. Además, el propio enunciado de la pregunta describe literalmente la asignación "por azar", lo cual es, por definición, la aleatorización — la clave oficial (B, "ensayo controlado NO aleatorizado") contradice frontal y literalmente el propio texto de la pregunta, que describe una asignación aleatoria. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar — una de las discrepancias con mayor evidencia interna (contradicción directa dentro del propio enunciado) detectada en todo el proyecto.
+**Explicación:** Un ensayo clínico en el que los participantes se asignan al azar a una de las intervenciones comparadas se denomina ensayo controlado aleatorizado, diseño considerado el patrón de referencia para evaluar la eficacia de las intervenciones sanitarias, ya que la aleatorización permite distribuir de forma equilibrada tanto los factores de confusión conocidos como los desconocidos entre los grupos de comparación. El cegamiento (simple, doble o triple) es una característica adicional que puede o no estar presente en un ensayo aleatorizado, y no es lo que define su nombre; un ensayo controlado no aleatorizado es, por definición, aquel en el que la asignación de la intervención NO se realiza al azar; y un ensayo de superioridad es un tipo particular de ensayo según su objetivo (demostrar que una intervención es superior a otra), no según su método de asignación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-042
 En evaluación económica de intervenciones sanitarias, un estudio que compare los costes alternativos de dos intervenciones frente a sus resultados de salud expresados en años ajustados por calidad o años de vida ajustados por discapacidad se denomina:
@@ -347,7 +377,7 @@ D. Análisis de minimización de costes.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, concepto estándar de economía de la salud) — el análisis coste-utilidad es, por definición, aquel que mide los resultados de salud en unidades que combinan cantidad Y calidad de vida (QALY/AVAC o DALY), a diferencia del coste-efectividad (unidades clínicas naturales, p. ej. años de vida ganados, sin ajuste por calidad) o el coste-beneficio (resultados monetizados). Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 10 preguntas se eleva a 24 preguntas reales, **10 discrepancias de MÁXIMA/alta confianza** (9 de ellas con cita bibliográfica textual directa, varias con el propio número de pregunta citado explícitamente en la fuente — una de las mayores concentraciones de discrepancias verificadas con precisión del proyecto), 14 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 > **Nota de cobertura (dataset 2009-2019):** la incorporación del dataset de exámenes MIR 2009-2019 aportó 54 preguntas reales adicionales de Tema 7 (Tipos de estudios epidemiológicos, el tema más preguntado de la asignatura), añadidas a continuación en orden cronológico — con estas 54 preguntas se eleva a 78 preguntas reales en el módulo, con diferencia el mayor bloque de preguntas reales de toda la especialidad EST.
 
@@ -745,7 +775,7 @@ C. El gráfico en embudo (funnel plot) se utiliza habitualmente en los análisis
 D. Los modelos de efectos al azar suelen proporcionar intervalos de confianza más amplios que los modelos de efectos fijos.
 E. La heterogeneidad de los estudios incluidos disminuye la precisión y exactitud del resultado agregado.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2015, pregunta 200)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2015, pregunta 200; pregunta finalmente anulada. La opción que se debía marcar es la C, dada inicialmente como correcta por el Ministerio: el funnel plot se usa para detectar el sesgo de publicación, no en los análisis de sensibilidad)*
 
 ### MIR-2016-038
 Se considera que dos fármacos son bioequivalentes cuando:

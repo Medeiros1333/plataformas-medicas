@@ -70,7 +70,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-132 ⚠️
+### MIR-2020-132
 En relación con los aneurismas de arteria poplítea:
 
 A. Cuando se sospechan por palpación de un pulso poplíteo amplio la ecografía es la prueba diagnóstica de elección.
@@ -78,11 +78,13 @@ B. El riesgo de rotura aneurismática es alto.
 C. El edema por compresión de la vena poplítea es la manifestación más frecuente.
 D. Son más frecuentes en mujeres que en varones en una proporción 2:1.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (epidemiología bien establecida y no controvertida):** el aneurisma de arteria poplítea es, de forma prácticamente unánime en la literatura vascular, muchísimo más frecuente en VARONES (proporciones citadas de 20-30:1 o superiores), nunca con predominio femenino — la clave oficial (D) invierte completamente esta relación epidemiológica bien conocida. La opción A, en cambio, describe correctamente el algoritmo diagnóstico estándar (ecografía como prueba de elección ante sospecha clínica). Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Los aneurismas de arteria poplítea son los aneurismas periféricos más frecuentes tras el de aorta abdominal, y clásicamente predominan de forma muy marcada en varones (con una proporción que en la mayoría de las series supera el 90-95% de los casos en hombres), a menudo bilaterales y asociados a aneurisma de aorta abdominal concomitante. Ante la sospecha clínica por palpación de un pulso poplíteo amplio o prominente, la ecografía Doppler es la prueba diagnóstica de elección inicial por su disponibilidad, inocuidad y buena sensibilidad. A diferencia de los aneurismas de aorta abdominal, el riesgo de rotura de los aneurismas poplíteos es relativamente bajo; su principal complicación es la trombosis o la embolización distal, que puede producir isquemia aguda o crónica de la extremidad, más que el edema aislado por compresión venosa, que es una manifestación menos frecuente.
 
-### MIR-2020-133 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-133
 Varón de 63 años, con antecedentes de hipertensión arterial, síndrome de Sjögren y revascularización ilio-femoral izquierda (tromboendarterectomía). Presenta pérdida de peso de 10 kg y dolor abdominal grave tras la ingesta. La angioTC abdominopélvica muestra estenosis grave de tronco celíaco y de arteria mesentérica superior. Señale la respuesta FALSA:
 
 A. La exploración física revela frecuentemente signos de malnutrición y un soplo abdominal.
@@ -90,9 +92,11 @@ B. El tratamiento consiste en tromboembolectomía con sonda de Fogarty.
 C. La ecografía Doppler (duplex) es una exploración no invasiva útil para el diagnóstico.
 D. La angioplastia con stent de los troncos viscerales es una opción terapéutica con una tasa de éxito del 80 %.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con §1.2 de este mismo módulo, sin cita bibliográfica directa disponible):** el cuadro (dolor abdominal postprandial, pérdida de peso, estenosis aterosclerótica crónica de troncos viscerales) es isquemia mesentérica CRÓNICA — de causa aterosclerótica progresiva, no embólica. La tromboembolectomía con sonda de Fogarty es el tratamiento específico de la isquemia mesentérica AGUDA de causa embólica, una entidad fisiopatológicamente distinta — es, por tanto, la afirmación FALSA en este contexto crónico, no la opción C (que describe correctamente la utilidad diagnóstica no invasiva del Doppler dúplex, un hecho verdadero y bien establecido). Apoya la opción B. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El cuadro de dolor abdominal postprandial ('angina intestinal'), pérdida de peso y estenosis grave de tronco celíaco y arteria mesentérica superior en un paciente con enfermedad arteriosclerótica generalizada es característico de isquemia mesentérica crónica. La exploración física revela con frecuencia signos de malnutrición y puede auscultarse un soplo abdominal por la estenosis vascular. La ecografía Doppler (dúplex) es una herramienta no invasiva útil tanto para el cribado como para el seguimiento de estos pacientes. La angioplastia con stent de los troncos viscerales es hoy la opción terapéutica de primera línea en muchos centros, con tasas de éxito técnico elevadas (en torno al 80-90%). El tratamiento de la isquemia mesentérica crónica no consiste en una tromboembolectomía con sonda de Fogarty (técnica reservada para la isquemia mesentérica AGUDA por émbolo, no para la estenosis arteriosclerótica crónica progresiva), sino en la revascularización electiva mediante angioplastia-stent o cirugía de bypass.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-134
 Mujer de 53 años de edad con antecedentes personales de obesidad y migraña. En repetidas ocasiones se le ha tomado la presión arterial en la consulta médica y de enfermería presentando cifras inferiores a 140/90 mmHg. Sin embargo, se ha comprado un aparato homologado para la toma de la presión arterial y se le ha enseñado a utilizarlo correctamente. Acude mostrando registros de presión arterial tomados en su domicilio a lo largo de varias semanas con valores superiores a 140/90 mmHg. Señale la respuesta correcta:
@@ -130,7 +134,7 @@ D. Debe realizarse una flebografía para confirmar la presencia de trombosis ven
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, algoritmo diagnóstico actual del síndrome de Paget-Schroetter) — la flebografía, antiguo patrón oro, ha sido ampliamente desplazada por el eco-Doppler y la angio-TC como pruebas de primera línea no invasivas; exigirla como requisito de confirmación es una afirmación desactualizada/incorrecta en la práctica actual. Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2023-175 ⚠️
+### MIR-2023-175
 Mujer de 54 años, fumadora, con sobrepeso e hipercolesterolemia tratada de forma irregular, que acude a consulta tres meses después de sufrir un infarto de miocardio. Como parte de su tratamiento se pautó al alta hospitalaria atorvastatina 40 mg/24 horas. Se encuentra asintomática, ha dejado de fumar y su analítica muestra un colesterol total de 196 mg/dl, HDL 56 mg/dl, LDL 110 mg/dl y triglicéridos 150 mg/dl. Señale la afirmación correcta:
 
 A. Se debe intensificar el tratamiento hipolipemiante hasta el objetivo terapéutico (LDL < 55 mg/dl).
@@ -138,11 +142,13 @@ B. Su perfil lipídico es adecuado dado que tiene un colesterol total inferior a
 C. Su perfil lipídico es adecuado porque su HDL es elevado.
 D. Al dejar de fumar y ser mujer su riesgo es bajo y no hace falta insistir en optimizar su perfil lipídico.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (objetivo terapéutico establecido por guías vigentes, coherente con §1.6 de este mismo módulo):** una paciente con infarto de miocardio reciente es, por definición, de riesgo cardiovascular MUY ALTO (prevención secundaria) — ni el sexo femenino ni haber dejado de fumar reclasifican este riesgo a "bajo"; ambos son factores que NO cambian la categoría de riesgo muy alto de un paciente con enfermedad coronaria establecida. El objetivo de LDL en este contexto es <55 mg/dL (guías ESC 2019); con un LDL de 110 mg/dL pese a estatina de alta intensidad, está clínicamente indicado INTENSIFICAR el tratamiento hipolipemiante, no asumir que el perfil es "adecuado" ni que el riesgo es bajo. La clave oficial (D) contiene un razonamiento clínico potencialmente peligroso (falsa tranquilización de una paciente de muy alto riesgo). Apoya la opción A. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En prevención secundaria tras un infarto de miocardio, el objetivo de colesterol LDL recomendado por las guías europeas actuales para pacientes de muy alto riesgo cardiovascular (como es el caso de cualquier paciente con enfermedad cardiovascular establecida) es inferior a 55 mg/dL y una reducción de al menos un 50% respecto al valor basal, independientemente del sexo del paciente o de otros factores de riesgo aislados. Esta paciente, a pesar de haber dejado de fumar y de tener un colesterol total y HDL aparentemente favorables, presenta un LDL de 110 mg/dL, claramente por encima del objetivo terapéutico en prevención secundaria, por lo que sería necesario intensificar el tratamiento hipolipemiante (aumentando la dosis de estatina o asociando ezetimiba u otros fármacos). El hecho de ser mujer y de haber abandonado el tabaco no reduce su riesgo a la categoría de bajo riesgo, ya que el antecedente de infarto de miocardio la clasifica de forma automática como paciente de muy alto riesgo cardiovascular en prevención secundaria, siendo por tanto incorrecto no insistir en optimizar su perfil lipídico.
 
-### MIR-2023-176 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-176
 Paciente de 39 años que consulta para conocer su riesgo vascular. Su padre sufrió un infarto de miocardio sin aparentes factores de riesgo a edad temprana. En el perfil lipídico la lipoproteína (a) está muy elevada, 600 nmol/L (valor normal hasta 125 nmol/L). Respecto a esta lipoproteína, señale la respuesta INCORRECTA:
 
 A. Es un factor de riesgo independiente para la enfermedad vascular aterosclerótica.
@@ -150,9 +156,11 @@ B. Las concentraciones plasmáticas elevadas habitualmente son de origen genéti
 C. El tratamiento con dieta y ejercicio reduce las concentraciones plasmáticas de la lipoproteína en un 25 %.
 D. Dado que es un factor heredable habitualmente sólo se necesita medir una vez en la vida.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (correspondencia con §1.7 de este mismo módulo, hecho bien establecido y frecuentemente citado sobre la Lp(a)):** la recomendación de medir la Lp(a) UNA SOLA VEZ en la vida (precisamente por ser un parámetro genéticamente determinado y estable) es una afirmación VERDADERA y ampliamente citada en las guías de lípidos actuales — no la incorrecta buscada. La afirmación realmente objetable es C: la Lp(a) es característicamente RESISTENTE a la modificación por dieta y ejercicio (a diferencia del LDL), por lo que atribuirle una reducción específica del 25% mediante estas medidas contradice un hecho bien establecido sobre esta lipoproteína. Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La lipoproteína (a) es un factor de riesgo cardiovascular independiente para la enfermedad arteriosclerótica, cuyas concentraciones plasmáticas están determinadas fundamentalmente por la genética (herencia autosómica codominante), con escasa influencia de las modificaciones del estilo de vida (dieta y ejercicio apenas modifican sus niveles circulantes de forma relevante, a diferencia del colesterol LDL). Precisamente por su naturaleza mayoritariamente genética y su estabilidad a lo largo de la vida de cada individuo, las guías recomiendan determinar la Lp(a) al menos una vez en la vida de cada persona (especialmente en aquellos con antecedentes familiares de enfermedad cardiovascular precoz), no de forma repetida y periódica como otros parámetros lipídicos que sí varían con el tratamiento y el estilo de vida. Por tanto, la afirmación de que el tratamiento con dieta y ejercicio reduce sus concentraciones plasmáticas en un 25% es la que no se sostiene con la evidencia actual, siendo la incorrecta entre las planteadas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-189
 En relación con el índice tobillo-brazo, señale la respuesta correcta:
@@ -162,9 +170,11 @@ B. Se considera normal si se obtienen valores entre 1 y 1,5.
 C. Tiene una sensibilidad del 95 % y una especificidad del 60 % para el diagnóstico de enfermedad arterial periférica.
 D. Se considera un indicador por sí mismo de enfermedad arteriosclerótica.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> **Nota de cobertura:** confirmación LIMPIA (confianza fuerte) — el ITB se calcula con presiones SISTÓLICAS, no diastólicas (descarta A, error definicional claro); el rango de normalidad citado (1-1,5) es una aproximación razonable al rango estándar (1,0-1,4); las cifras concretas de sensibilidad/especificidad de C no se corresponden con los valores más citados en la literatura. Coincide con la clave oficial. Sin discrepancia relevante.
+**Explicación:** El índice tobillo-brazo (cociente entre la presión arterial SISTÓLICA en el tobillo y la sistólica en el brazo) es un indicador por sí mismo de enfermedad arteriosclerótica: un ITB <0,9 diagnostica enfermedad arterial periférica y es, además, un marcador de arteriosclerosis sistémica y de riesgo cardiovascular elevado (se asocia a mayor riesgo de infarto, ictus y mortalidad), igual que un ITB >1,4 (arterias calcificadas, incompresibles) (D). El resto es falso: se calcula con las presiones sistólicas, no diastólicas (A); los valores normales están entre 0,9-1 y 1,4, y por encima de 1,4 se consideran patológicos (B); y su sensibilidad y especificidad para el diagnóstico de enfermedad arterial periférica son ambas elevadas (aproximadamente 90% y 95%), no 95% y 60% (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-046
 Hombre de 79 años de edad con antecedentes de hipertensión arterial, hiperuricemia y artrosis que acude a urgencias por presentar posible reacción adversa farmacológica. No refiere antecedentes alergológicos de interés. Después de una excursión en barco sin protección solar presenta un cuadro cutáneo agudo facial, principalmente en párpados superiores e inferiores, consistentes en eritema y edema intenso bilateral. El paciente estaba realizando tratamiento médico de forma habitual con hidroclorotiazida 25 mg, amlodipino 5 mg, atorvastatina 10 mg y apixaban 5 mg. ¿Cuál de los cuatro fármacos descritos es más probable que sea el responsable de una posible reacción de fotosensibilidad?
@@ -202,7 +212,7 @@ D. Edad, sexo, tabaco, presión arterial sistólica, colesterol total, lipoprote
 
 **Respuesta correcta: C** — *(confianza fuerte, coincide con la metodología estándar y actual del algoritmo SCORE2/SCORE2-OP europeo: las variables empleadas son edad, sexo, tabaquismo, presión arterial sistólica, colesterol total y colesterol HDL [el colesterol no-HDL se deriva internamente de estas dos últimas] — el SCORE2 NO emplea directamente el LDL, ni la lipoproteína(a), ni los triglicéridos como variables de entrada del algoritmo [aunque la Lp(a), ya documentada en §1.7 de este módulo, sea relevante para el riesgo residual por otras vías]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 11 preguntas reales, manteniendo 4 discrepancias y sumando 7 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -117,9 +117,11 @@ B. Nefropatía por inmunoglobulina A (nefropatía de Berger).
 C. Glomerulonefritis membranoproliferativa o mesangiocapilar.
 D. Glomerulonefritis aguda postinfecciosa.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación moderada:** el propio manual AMIR resume el diagnóstico diferencial con la "pista mírica" de que una hematuria que aparece **1-2 semanas después de una faringitis, junto con C3 bajo**, es el patrón característico de la **GMN aguda postinfecciosa** (D), mientras que la nefropatía IgA se caracteriza por hematuria **concurrente o a los 2-3 días** de la infección y **complemento normal**. El caso descrito (latencia de 1-2 semanas, C3 descendido) encaja mejor con el patrón clásico de D según esa misma regla del manual. Se mantiene la clave oficial (B), que corresponde a la respuesta aprobada por la Comisión Calificadora del Ministerio de Sanidad para esta pregunta histórica; se señala la tensión con la regla mnemotécnica del propio manual para que el estudiante la tenga presente.
+**Explicación:** El niño de 9 años con hematuria macroscópica, cefalea y astenia, tras un episodio de infección faringoamigdalar 1-2 semanas antes y con C3 sérico descendido, presenta el cuadro clínico clásico de la glomerulonefritis aguda postinfecciosa (postestreptocócica): existe un periodo de latencia de 1-3 semanas entre la infección faríngea y la clínica renal (formación de inmunocomplejos), y es característico el descenso transitorio del complemento C3. La nefropatía IgA (enfermedad de Berger), por el contrario, se caracteriza por hematuria sinfaringítica (simultánea o en las 24-48h siguientes al inicio del cuadro infeccioso, sin apenas latencia) y complemento normal.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -131,9 +133,11 @@ B. Los anticuerpos anticentrómero se detectan en el 90% de los casos.
 C. Los ANA (anticuerpos antinucleares) se detectan en el 50% de los casos.
 D. Los anti-ADN bicatenario o nativo se correlacionan con el riesgo de nefritis.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** según el conocimiento estándar de reumatología/nefrología, los **anticuerpos anticentrómero son característicos de la esclerosis sistémica limitada (síndrome CREST) y NO son propios del LES**, por lo que no se detectan en el 90% de los casos de lupus. Las otras opciones describen hechos bien establecidos que sí encajarían como respuesta correcta: los ANA son positivos en >95% de los casos de LES (no el 50% de C), los anti-Sm son altamente específicos de LES (por lo que A, que niega su especificidad, sería falsa), y los **anti-ADN bicatenario (anti-dsDNA) sí se correlacionan con el riesgo y la actividad de la nefritis lúpica** (D), siendo esta la afirmación clínicamente más sólida. Se mantiene la clave oficial (B) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada por el Ministerio de Sanidad.
+**Explicación:** El cuadro descrito (mujer joven con rash malar, fiebre, citopenias, insuficiencia renal e inflamación sistémica) es característico de un lupus eritematoso sistémico con nefritis lúpica. Los anticuerpos anti-ADN bicatenario (anti-dsDNA) son altamente específicos de LES y sus títulos se correlacionan estrechamente con la actividad de la enfermedad y, en particular, con el riesgo y la actividad de la nefritis lúpica (opción D). Los anticuerpos anti-Sm son muy específicos del LES (aunque poco sensibles), por lo que decir que 'no son específicos' sería falso; los ANA son positivos en el 95-98% de los pacientes con LES (no en el 50%); y los anticuerpos anticentrómero se asocian clásicamente a la esclerosis sistémica limitada (síndrome CREST), no al LES.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -145,9 +149,11 @@ B. Nefropatía IgA o enfermedad de Berger.
 C. Síndrome de Alport.
 D. Nefropatía con cambios mínimos.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (síndrome nefrótico **puro** —sin hematuria—, proteinuria selectiva, función renal conservada, y **remisión completa en un mes con corticoides empíricos**) corresponde al patrón clínico de libro de la **enfermedad de cambios mínimos** (D): es la causa más frecuente de síndrome nefrótico puro en jóvenes y responde característicamente a corticoides con alta tasa de remisión completa. La nefropatía IgA, en cambio, se manifiesta típicamente con **hematuria macroscópica recidivante** (ausente en este caso) y no suele resolverse por completo con un ciclo corto de corticoides empíricos. Se mantiene la clave oficial (B) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** El cuadro de un paciente joven con síndrome nefrótico puro (proteinuria masiva sin microhematuria, hipoalbuminemia, hipercolesterolemia, función renal conservada) que responde de forma completa y rápida (en un mes) al tratamiento empírico con corticoides es el patrón clínico clásico de la enfermedad de cambios mínimos, causa más frecuente de síndrome nefrótico en niños y adultos jóvenes, caracterizada precisamente por su excelente respuesta a corticoides en monoterapia (>90% de remisiones). La nefropatía IgA, en cambio, suele cursar con hematuria (micro o macroscópica recurrente) y no se presenta típicamente como un síndrome nefrótico puro de resolución completa con corticoides en tan poco tiempo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -159,9 +165,11 @@ B. Glomerulonefritis post-infecciosa.
 C. Nefropatía IgA.
 D. Nefritis intersticial aguda.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación moderada:** la hematuria aparece de forma **concurrente** con el cuadro catarral (iniciado 4-5 días antes, sin el periodo de latencia clásico de 1-2 semanas de la GMN postinfecciosa), lo que según la "pista mírica" del propio manual AMIR ("faringitis que ese mismo día o al día siguiente tiene hematuria → GMN mesangial IgA") orientaría más hacia la **nefropatía IgA** (C) que hacia la postinfecciosa (B). Se mantiene la clave oficial (B), respuesta aprobada por la Comisión Calificadora; se señala la tensión con la regla mnemotécnica del propio manual para contexto del estudiante.
+**Explicación:** El varón joven con hematuria macroscópica que aparece de forma simultánea (dentro de las 24-48 horas) a un cuadro catarral de vías altas, con función renal normal, complemento normal y hematuria con hematíes dismórficos, presenta el patrón clínico característico de la nefropatía IgA (enfermedad de Berger): la denominada 'hematuria sinfaringítica', a diferencia de la glomerulonefritis postinfecciosa, que requiere un periodo de latencia de 1-3 semanas y cursa típicamente con hipocomplementemia. En este caso no existe latencia y el complemento es normal, dos datos que clásicamente descartan la glomerulonefritis postinfecciosa a favor de la nefropatía IgA.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -190,9 +198,11 @@ B. Vasculitis pauciinmunitaria.
 C. Nefropatía IgA.
 D. Síndrome de Goodpasture.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** el patrón descrito — **ANCA positivos, anticuerpos anti-membrana basal glomerular negativos, semilunas extensas e inmunofluorescencia completamente negativa** (sin depósitos de inmunoglobulinas ni complemento) — corresponde exactamente a la definición de **GMN rápidamente progresiva tipo III o "pauciinmune"** (vasculitis ANCA-asociada, opción B) según la propia tabla-resumen del manual AMIR. La GMN postinfecciosa (A) cursaría con inmunofluorescencia positiva (depósitos granulares de C3, IgG) e hipocomplementemia, no con IF negativa. Se mantiene la clave oficial (A) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada.
+**Explicación:** El cuadro de un varón anciano con insuficiencia renal rápidamente progresiva, anuria, fiebre y mal estado general, junto con ANCA positivos, anticuerpos anti-membrana basal glomerular negativos, y una biopsia renal con glomerulonefritis necrotizante con semilunas en el 80% de los glomérulos e inmunofluorescencia negativa para todos los depósitos inmunes, constituye la tríada clásica de la glomerulonefritis rápidamente progresiva tipo III o pauciinmune, típicamente asociada a vasculitis ANCA-positivas. La ausencia de depósitos inmunes descarta tanto la glomerulonefritis postinfecciosa como la nefropatía IgA (ambas con depósitos granulares), y la negatividad de anti-MBG descarta el síndrome de Goodpasture.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -204,9 +214,11 @@ B. Glomerulonefritis membranosa.
 C. Glomerulonefritis membranoproliferativa.
 D. Glomeroesclerosis focal y segmentaria.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** el **linfoma de Hodgkin es la asociación secundaria clásica y más preguntada en el MIR de la enfermedad de cambios mínimos** (opción A), tal y como recoge explícitamente el propio manual AMIR en su tabla resumen de etiología ("Primaria: más frecuente. Secundaria: Hodgkin..."). El cuadro descrito, además, es un síndrome nefrótico puro (proteinuria masiva sin hematuria ni leucocituria), compatible con cambios mínimos. La GMN membranoproliferativa (clave oficial, C) se asocia clásicamente a neoplasias **hematológicas de estirpe linfoproliferativa crónica** (linfoma no Hodgkin, leucemias, mieloma) más que al Hodgkin específicamente. Se mantiene la clave oficial (C) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada; se trata de una de las asociaciones más clásicas del temario y se señala la discrepancia para no generar confusión de cara al estudio.
+**Explicación:** La asociación entre el linfoma de Hodgkin y una glomerulopatía es un dato clásico del MIR: el linfoma de Hodgkin se asocia característicamente a la glomerulonefritis de cambios mínimos (mientras que los linfomas no Hodgkin y los tumores sólidos se asocian más típicamente a la glomerulonefritis membranosa), presumiblemente por citocinas derivadas de los linfocitos T neoplásicos que alteran la permeabilidad de la barrera de filtración glomerular. El cuadro clínico descrito (edemas, hipoalbuminemia marcada, proteinuria masiva sin hematuria ni leucocituria, función renal conservada) es compatible con un síndrome nefrótico puro, típico de la enfermedad de cambios mínimos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -242,7 +254,7 @@ D. Nefropatía IgA.
 - C: incorrecta — el síndrome de Goodpasture se caracteriza por inmunofluorescencia **positiva**, con depósitos **lineales** de IgG a lo largo de la membrana basal — justo lo contrario de la IF negativa descrita.
 - D: incorrecta — la nefropatía IgA se define precisamente por depósitos mesangiales de IgA en la inmunofluorescencia, incompatible con una IF negativa.
 
-> **Nota de cobertura y fiabilidad del módulo:** segundo módulo de Nefrología del proyecto, 9 preguntas reales, 5 discrepancias señaladas (2 de confianza fuerte, 3 de confianza fuerte/moderada) frente a la enseñanza clásica del manual — llamativamente concentradas en el diagnóstico diferencial IgA/postinfecciosa y en la asociación Hodgkin-cambios mínimos. Todas corresponden a claves oficiales ya publicadas por la Comisión Calificadora del Ministerio de Sanidad (verificadas contra `data/raw/*_respuestas_layout.txt`) y se mantienen sin alterar; se documentan para que el estudiante contraste la enseñanza de manual con la clave oficial del examen.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

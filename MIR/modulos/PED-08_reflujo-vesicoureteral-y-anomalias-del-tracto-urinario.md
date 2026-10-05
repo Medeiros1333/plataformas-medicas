@@ -43,11 +43,11 @@ B. Pacientes mayores dependientes institucionalizados.
 C. Pacientes neutropénicos.
 D. Pacientes a los que se les ha de realizar una exploración endoscópica o quirúrgica de la vía urinaria.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> **Nota de cobertura:** confirmación LIMPIA — la bibliografía afirma textualmente, en el apartado de tratamiento del RVU, que *"NO debe tratarse la bacteriuria asintomática"* en este contexto — coincidiendo exactamente con la clave oficial. Sin discrepancia.
+**Explicación:** La bacteriuria asintomática solo debe tratarse en situaciones concretas: embarazadas, pacientes que van a someterse a una manipulación urológica con riesgo de sangrado mucoso (endoscopia o cirugía de la vía urinaria) (D), y en algunos grupos de alto riesgo como los neutropénicos (C) o los trasplantados renales recientes. En los niños pequeños con reflujo vesicoureteral también se ha considerado clásicamente su tratamiento por el riesgo de pielonefritis y cicatrices renales (A). En cambio, en los ancianos institucionalizados y dependientes la bacteriuria asintomática es muy frecuente y su tratamiento no reduce la morbimortalidad ni las infecciones sintomáticas, y sí aumenta los efectos adversos y la selección de resistencias, por lo que NO debe tratarse (B).
 
-> **Nota de cobertura y fiabilidad del módulo:** 1 pregunta real (2020), **0 discrepancias** — módulo construido para dar cobertura sistemática a un Tema de peso considerable (freq.7) sin explotar hasta ahora, sin candidatas adicionales frescas 2020-2025 localizadas para válvulas de uretra posterior, estenosis pieloureteral o escroto agudo pediátrico tras una búsqueda específica.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

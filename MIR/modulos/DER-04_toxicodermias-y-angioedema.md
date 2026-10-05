@@ -71,9 +71,11 @@ B. Simvastatina.
 C. Metformina o levodopa por igual.
 D. Levodopa.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 38)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 38)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) es explícita y textual: "Los IECA constituyen la causa más frecuente de angioedema no histaminérgico" — el enalapril del enunciado es precisamente un IECA, y el cuadro descrito (angioedema SIN urticaria asociada) es el perfil característico del angioedema no histaminérgico por IECA. No existe ninguna asociación descrita en la bibliografía entre metformina o levodopa y el angioedema. La clave oficial (C) ignora la causa farmacológica mejor establecida y de mayor relevancia clínica (el enalapril nunca debe reintroducirse tras un episodio de angioedema por IECA). No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** El angioedema lingual sin urticaria asociada orienta a un mecanismo no alérgico (no mediado por IgE), típicamente relacionado con acúmulo de bradicinina, como ocurre con los IECA (enalapril), que pueden producir angioedema en cualquier momento del tratamiento, incluso tras años de uso. La simvastatina no se ha asociado de forma relevante a angioedema.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-041
 Mujer de 63 años en tratamiento con sulfamidas (trimetoprim-sulfametoxazol) vía oral por una infección de vías urinarias bajas. Acude a urgencias por presentar lesiones cutáneas y en mucosas (oral, conjuntival y genital). Las lesiones cutáneas tienen forma de máculas irregulares oscuras, con desprendimiento cutáneo y afectan a más del 30 % de la superficie corporal. Se interpreta como una posible reacción farmacológica grave. ¿Cuál de los siguientes diagnósticos es más probable?:
@@ -83,9 +85,11 @@ B. Síndrome de Stevens-Johnson.
 C. Necrólisis epidérmica tóxica.
 D. Síndrome de hipersensibilidad inducido por fármacos.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 41)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 41)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) establece de forma explícita e inequívoca el criterio de clasificación por superficie corporal afecta: "SSJ (<10%) o NET (≥30%, conocida también como síndrome de Lyell)". El enunciado especifica textualmente "más del 30% de la superficie corporal" con afectación mucosa oral, conjuntival y genital secundaria a sulfamidas (fármaco causal clásico) — un cuadro que cumple de manera literal la definición bibliográfica de NET (opción C, no elegida). La clave oficial (A, eritema multiforme) es clínicamente incompatible: la propia bibliografía describe el eritema multiforme con "dianas típicas MONOMORFAS... localizadas en extremidades" y "NO presenta signo de Nikolski", sin el despegamiento extenso descrito en el caso. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** Reacción cutánea grave tras iniciar una sulfamida, con máculas oscuras irregulares (lesiones en diana atípicas y purpúricas), afectación de al menos dos mucosas y desprendimiento epidérmico de MÁS DEL 30% de la superficie corporal: es una necrólisis epidérmica tóxica (síndrome de Lyell) (C). El síndrome de Stevens-Johnson y la NET forman un mismo espectro y se diferencian por la extensión del despegamiento: <10% en el SSJ (B), 10-30% en el solapamiento SSJ/NET y >30% en la NET. Los fármacos más implicados son las sulfamidas, los anticomiciales aromáticos, el alopurinol, los AINE de tipo oxicam y la nevirapina. El eritema multiforme (A) se asocia sobre todo al herpes simple y presenta lesiones en diana típicas acrales, sin despegamiento extenso. El DRESS (D) cursa con exantema, fiebre, eosinofilia, adenopatías y afectación visceral (hepática), sin necrólisis epidérmica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

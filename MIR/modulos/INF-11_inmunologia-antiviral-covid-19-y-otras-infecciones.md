@@ -46,7 +46,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-034 ⚠️
+### MIR-2020-034
 El SARS-CoV-2 es un virus de ARN de hebra sencilla. Entre los mecanismos que participan en la respuesta inmune innata frente a virus de ARN, como el SARS-CoV-2, se encuentra:
 
 A. La producción de interferones tipo I tras el reconocimiento del ARN vírico por receptores de reconocimiento de patrón como los Toll-like receptors (TLR) o los RIG-like receptors (RLR).
@@ -54,11 +54,13 @@ B. La producción de interferón gamma por los linfocitos CD4+ Th1 tras el recon
 C. La producción de anticuerpos neutralizantes tipo IgG producidos en respuesta a las proteínas víricas.
 D. La actividad citotóxica mediada por linfocitos T CD8+ tras el reconocimiento de péptidos víricos en las células infectadas.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (inmunología básica, ampliamente establecida y no controvertida — distinción innato/adaptativo —, sin cita bibliográfica directa localizada en `inf_full.txt`):** la pregunta pregunta explícitamente por un mecanismo de la respuesta inmune INNATA. La opción A describe el mecanismo innato antiviral por excelencia: reconocimiento del ARN vírico por PRR (TLR/RLR) → producción de interferón tipo I, un proceso inmediato e independiente del reconocimiento antígeno-específico. Las opciones B, C y D describen los 3 pilares clásicos de la inmunidad ADAPTATIVA: activación de linfocitos T CD4+ Th1 tras presentación antigénica por MHC (B), producción de anticuerpos específicos por linfocitos B (C), y citotoxicidad de linfocitos T CD8+ tras reconocimiento antigénico por MHC-I (D) — los tres requieren días para desarrollarse y dependen del reconocimiento antígeno-específico mediado por TCR/BCR, la definición misma de inmunidad adaptativa. La clave oficial (B) describe por tanto un mecanismo ADAPTATIVO, no innato. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación.
+**Explicación:** El SARS-CoV-2, al ser un virus ARN, es reconocido por receptores de reconocimiento de patrones de la inmunidad innata, fundamentalmente los Toll-like receptors endosomales (TLR3, TLR7/8) y los RIG-like receptors citoplasmáticos (RIG-I, MDA5), que al detectar el ARN vírico desencadenan una cascada de señalización que culmina en la producción de interferones tipo I (alfa y beta), piedra angular de la respuesta antiviral innata al inducir un estado antiviral en las células vecinas. La producción de interferón gamma por linfocitos Th1, la generación de anticuerpos neutralizantes por linfocitos B y la citotoxicidad mediada por linfocitos T CD8+ son, en cambio, mecanismos efectores de la inmunidad ADAPTATIVA (específica de antígeno y de aparición más tardía tras el reconocimiento por células presentadoras), no de la respuesta innata inmediata frente al virus.
 
-### MIR-2022-035 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-035
 Entre las nuevas medidas de protección contra el COVID-19 se incluye el uso de terapias basadas en anticuerpos monoclonales frente la proteína S (spike) del SARS-CoV-2 (tixagevimab y cilgavimab). Este tratamiento:
 
 A. Es una forma de inmunización activa cuyo resultado depende de la activación de linfocitos memoria.
@@ -66,9 +68,11 @@ B. Está indicado en pacientes inmunodeprimidos, como los pacientes con trasplan
 C. Confiere protección durante un período de tiempo aproximado de dos años.
 D. Induce memoria inmunológica basada en la activación de linfocitos B.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (vacunología/inmunología básica ampliamente establecida — distinción inmunización activa vs. pasiva —, sin cita bibliográfica directa localizada en `inf_full.txt`):** tixagevimab/cilgavimab es una combinación de anticuerpos monoclonales preformados administrados directamente al paciente — por definición, esto es inmunización PASIVA, no activa, y NO induce memoria inmunológica propia del paciente (ni por linfocitos B ni por ningún otro mecanismo), ya que no hay activación del propio sistema inmune del receptor frente al antígeno. La clave oficial (D) afirma justamente lo contrario de la definición básica de inmunización pasiva. La opción B, en cambio, es la indicación real y públicamente documentada de esta terapia (autorizada específicamente para profilaxis pre-exposición en pacientes inmunodeprimidos/trasplantados con respuesta vacunal inadecuada) — coherente y no contradictoria con ningún hecho establecido. La duración de protección aprobada fue de ~6 meses, no ~2 años (descarta C). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Los anticuerpos monoclonales frente a la proteína S del SARS-CoV-2 (como tixagevimab/cilgavimab) constituyen una forma de inmunización PASIVA: se administran anticuerpos ya formados que proporcionan protección inmediata pero temporal, sin que el sistema inmunitario del paciente participe en su generación ni se induzca memoria inmunológica alguna (ni activación de linfocitos B ni de linfocitos T), a diferencia de la vacunación, que sí constituye inmunización activa. Por este motivo estos anticuerpos monoclonales están especialmente indicados como profilaxis preexposición en pacientes inmunodeprimidos (trasplantados de órgano sólido, pacientes oncohematológicos, etc.) que no son capaces de generar una respuesta inmunitaria protectora adecuada tras la vacunación convencional, siendo esta su principal indicación clínica reconocida.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-172
 En la revisión de un hombre de 27 años que ha comenzado tratamiento con tenofovir/emtricitabina como profilaxis preexposición al VIH (PrEP) hace tres meses, se identifica una serología positiva a VIH. En el momento del inicio de la PrEP la serología a VIH era negativa y la adherencia al tratamiento ha sido completa. La explicación más probable para el fracaso de la PrEP en este caso es:
@@ -78,9 +82,11 @@ B. Haber iniciado la PrEP en el periodo ventana de la infección por VIH.
 C. Se trata de un falso positivo.
 D. Mayor susceptibilidad al VIH por las frecuentes infecciones de transmisión sexual asociadas a la PrEP.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> **Nota de cobertura (confianza fuerte, algoritmo diagnóstico serológico estándar, sin cita bibliográfica directa a esta pregunta):** con adherencia completa a un régimen de PrEP de eficacia demostrada (>99% con buena adherencia) y serología basal negativa, la explicación estadísticamente más probable ante un resultado positivo inesperado es un falso positivo del test de cribado — regla general de cualquier algoritmo serológico, que siempre exige confirmación antes de establecer un diagnóstico definitivo. La bibliografía confirma que antes de iniciar la PrEP se descarta activamente la infección por VIH, y que el seguimiento trimestral incluye repetir la exclusión de VIH. Sin discrepancia.
+**Explicación:** Cuando se detecta una seroconversión a VIH en un paciente en profilaxis preexposición (PrEP) con buena adherencia confirmada, la explicación más probable no es habitualmente un fallo virológico verdadero de la pauta (la eficacia de la PrEP con adherencia completa es muy elevada, superior al 99% en la prevención de la adquisición sexual del VIH), sino que el paciente ya se encontraba infectado en el momento de iniciar la PrEP, durante el periodo ventana de la infección (fase en la que la serología puede ser aún negativa pese a existir ya replicación viral activa). Administrar una pauta de dos fármacos (tenofovir/emtricitabina), insuficiente para tratar una infección por VIH ya establecida, en un paciente que se encuentra en periodo ventana puede favorecer además la selección de mutaciones de resistencia, por lo que es fundamental descartar siempre una infección aguda/reciente (mediante anamnesis de síntomas compatibles y, si es posible, determinación de carga viral) antes de iniciar la profilaxis preexposición.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-160
 Mujer de 25 años, sin enfermedades previas conocidas, que consulta por lesión en labio inferior. No es la primera vez que le sucede desde la adolescencia, siempre en la misma zona, inicia dolor y aparece una lesión vesiculosa que se autolimita en una semana aproximadamente. Respecto al abordaje de la enfermedad de esta paciente, es INCORRECTO que:

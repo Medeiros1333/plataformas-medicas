@@ -75,9 +75,11 @@ B. Tiene dos formas típicas: la primaria o idiopática aparece en individuos sa
 C. La mayoría de las fisuras primarias se localizan en la comisura anterior, al ser ésta una zona del canal anal más susceptible al traumatismo y a la isquemia de la mucosa.
 D. Las fisuras secundarias a otras enfermedades aparecen con frecuencia en posiciones más laterales.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 50.2, pág. 185) es explícita: *"la localización más frecuente es en la línea media de la pared POSTERIOR (rafe medio posterior)"* — lo cual contradice directamente la opción C, que afirma que la mayoría de las fisuras primarias se localizan en la comisura ANTERIOR. La opción C sería, por tanto, la afirmación realmente INCORRECTA, no la D. En cuanto a la opción D, la misma bibliografía confirma implícitamente su contenido: *"si se observan en otras localizaciones [distintas de la posterior] o si hay fisuras múltiples, debemos pensar en una enfermedad de Crohn"* — es decir, las fisuras secundarias (asociadas a enfermedades como el Crohn) SÍ aparecen característicamente en posiciones distintas a la posterior típica, lo cual es coherente con "posiciones más laterales", haciendo de D una afirmación verdadera, no la incorrecta buscada. Ver hallazgo #98 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La fisura anal es un desgarro longitudinal del canal anal distal a la línea dentada que produce dolor intenso con la defecación; las fisuras primarias o idiopáticas, sin enfermedad subyacente, se localizan típicamente en la comisura posterior (hasta en el 90% de los casos) por ser la zona con menor perfusión relativa del canal anal y por tanto más susceptible a isquemia y mala cicatrización tras el traumatismo defecatorio, mientras que las fisuras secundarias a otras enfermedades (enfermedad de Crohn, tuberculosis, VIH, neoplasias, sífilis) se presentan con mayor frecuencia en localizaciones atípicas o laterales, lo que debe hacer sospechar una causa subyacente y obliga a descartarla mediante estudio dirigido, ya que su manejo difiere del de la fisura idiopática.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-118
 Mujer de 42 años que consulta por dolor rectal descrito como una sensación de peso u ocupación continua que se agrava con la deposición. En la exploración física el ano es normal y en el tacto rectal se palpa el músculo puborrectal hipertónico y doloroso a la tracción. ¿Cuál de los siguientes es el diagnóstico más probable?
@@ -91,9 +93,9 @@ D. Síndrome del elevador del ano.
 
 > **Nota de cobertura:** no se ha localizado en la bibliografía de Digestivo y Cirugía General disponible (Tema 50, patología anal y perianal) una sección específica sobre los síndromes de dolor anorrectal funcional. Es coherente con criterios clínicos estándar (Roma IV) ampliamente aceptados y ajenos a esta bibliografía quirúrgica concreta: el síndrome del elevador del ano se define precisamente por dolor/peso rectal continuo que empeora con la sedestación o la deposición, junto con un hallazgo exploratorio positivo (hipertonía y dolor a la tracción del músculo puborrectal) — a diferencia de la proctalgia fugax (dolor episódico breve, segundos-minutos, sin hallazgo exploratorio) o la proctalgia inespecífica (diagnóstico de exclusión sin hallazgo palpatorio). La úlcera solitaria de recto se descarta por la exploración anal normal (esperaría lesión mucosa visible). Sin discrepancia identificada; se respeta el principio de no forzar una verificación bibliográfica sin base documental específica en el manual de esta especialidad.
 
-> **Nota de cobertura:** 2 preguntas reales (2022, 2024), con 1 discrepancia de alta confianza y 1 confirmación por criterios clínicos estándar sin cita bibliográfica directa.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2023-137 ⚠️
+### MIR-2023-137
 Paciente diabético de 50 años que acude a urgencias con fiebre de 39ºC y malestar general que refiere dolor anal desde hace 5 días. A la exploración destaca una gran tumoración perianal caliente y dolorosa, con necrosis de piel. El tratamiento de elección es:
 
 A. Drenaje-desbridamiento quirúrgico.
@@ -101,11 +103,11 @@ B. Antibiótico de amplio espectro y esperar evolución.
 C. Ingreso hospitalario para estudio.
 D. Punción-drenaje guiado por radiología.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con dato ya establecido en este mismo módulo — flashcard existente):** este módulo ya establece expresamente que "el tratamiento del absceso perianal [es] SIEMPRE quirúrgico (drenaje bajo anestesia central)". El cuadro descrito —diabético, fiebre alta, tumoración perianal caliente y dolorosa con NECROSIS DE PIEL— no es un simple absceso perianal, sino que sugiere una infección necrotizante de partes blandas (celulitis necrotizante perianal/gangrena de Fournier), una urgencia quirúrgica vital que requiere DESBRIDAMIENTO QUIRÚRGICO URGENTE, no "ingreso para estudio" (clave oficial C), que retrasaría peligrosamente el tratamiento definitivo de un cuadro potencialmente mortal. Ni el antibiótico en solitario sin control quirúrgico del foco (B) ni la punción-drenaje radiológica (D, insuficiente para desbridar tejido necrótico extenso) son el tratamiento de elección en este contexto. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. Patrón de "falsa tranquilización clínicamente peligrosa" (retrasar cirugía urgente ante necrosis tisular activa). *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Paciente diabético con fiebre alta y una gran tumoración perianal caliente y dolorosa con NECROSIS cutánea: es una infección necrotizante de partes blandas perineal (gangrena de Fournier), con alta mortalidad. El tratamiento de elección es el desbridamiento quirúrgico urgente y amplio de todo el tejido necrótico, con drenaje (A), junto con antibioterapia de amplio espectro intravenosa (cubriendo gramnegativos, grampositivos y anaerobios) y soporte, con revisiones quirúrgicas repetidas según la evolución. En cualquier absceso perianal el tratamiento es el drenaje quirúrgico, y con más motivo cuando hay necrosis. Tratar solo con antibióticos y esperar (B), ingresar para estudio (C) o hacer una punción-drenaje radiológica (D) retrasaría el único tratamiento eficaz y aumentaría la mortalidad.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 3 preguntas reales, **2 discrepancias**, 1 limpia.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

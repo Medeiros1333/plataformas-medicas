@@ -75,7 +75,7 @@ D. Trastorno de ansiedad generalizada.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 72; solo 2 días de evolución — insuficiente para TEPT, que requiere ≥1 mes)*
 
-### MIR-2020-088 ⚠️
+### MIR-2020-088
 Según el DSM-5, el trastorno dismórfico corporal pertenece al grupo de:
 
 A. Trastorno obsesivo-compulsivo y trastornos relacionados.
@@ -83,11 +83,13 @@ B. Trastornos de ansiedad.
 C. Trastornos psicosomáticos.
 D. Trastornos del estado de ánimo.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 88)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 88)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía incluye una tabla explícita ("Nueva organización de los trastornos de ansiedad según el DSM-5") que sitúa el trastorno dismórfico corporal en la columna "TOC y trastornos relacionados" — una categoría separada e independiente de los "trastornos de ansiedad" en la nomenclatura DSM-5. La clave oficial marca "B) trastornos de ansiedad" — que corresponde a la clasificación DSM-IV ya obsoleta, contradiciendo directamente lo que pide el propio enunciado ("según el DSM-5"). Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2020 — la respuesta consistente con el DSM-5 es A. Ver hallazgo #55 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Según el DSM-5 vigente, el trastorno dismórfico corporal se clasifica dentro del capítulo de 'Trastorno obsesivo-compulsivo y trastornos relacionados', junto a la tricotilomanía, el trastorno de acumulación y el trastorno de excoriación, por compartir con el TOC una fisiopatología basada en pensamientos intrusivos egodistónicos y conductas repetitivas de comprobación (mirarse al espejo, camuflaje, comparación social). En clasificaciones previas (DSM-IV-TR/CIE-10) se encuadraba de forma más cercana a los trastornos somatomorfos y de ansiedad, por la ansiedad marcada que genera la preocupación por un defecto físico inexistente o mínimo para los demás. Clínicamente se caracteriza por preocupación excesiva por el aspecto físico, con elevada comorbilidad con TOC, fobia social y trastornos depresivos, y escasa conciencia de enfermedad en muchos casos.
 
-### MIR-2021-095 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-095
 Mujer de 23 años que consulta por presentar desde hace 2 meses crisis repentinas y recurrentes de ansiedad con palpitaciones, sudoración, temblor, sensación de ahogo y dolor torácico. Señale cuál de las siguientes afirmaciones NO es correcta:
 
 A. En la evolución es frecuente encontrar agorafobia y conductas de evitación.
@@ -95,11 +97,13 @@ B. En el diagnóstico diferencial se deben considerar feocromocitoma, tirotoxico
 C. Es preciso descartar una taquicardia auricular paroxística.
 D. El diagnóstico más probable es un trastorno por ansiedad generalizada.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 95)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 95)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (crisis REPENTINAS y RECURRENTES, discretas, con síntomas somáticos agudos) es la vignette de manual del trastorno de pánico/angustia, no del trastorno de ansiedad generalizada (que se caracteriza por preocupación crónica difusa, no por crisis episódicas discretas) — por lo que la opción D es la afirmación incorrecta. Descartar feocromocitoma, tirotoxicosis e hipoglucemia (opción B, marcada oficialmente como incorrecta) es, según la bibliografía, precisamente parte del diagnóstico diferencial obligado ante una crisis de angustia — es una afirmación VERDADERA. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2021 — la respuesta consistente con la bibliografía es D. Ver hallazgo #55 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito -crisis repentinas y recurrentes de ansiedad con palpitaciones, sudoración, temblor, disnea y dolor torácico- es característico de un trastorno de pánico (crisis de angustia), no de un trastorno de ansiedad generalizada, que se define por preocupación excesiva y mantenida sobre múltiples áreas vitales más que por episodios paroxísticos discretos. En la evolución del trastorno de pánico es frecuente la aparición de agorafobia y conductas de evitación de los lugares donde se ha sufrido una crisis. Ante toda crisis de pánico de inicio reciente debe descartarse organicidad, incluyendo feocromocitoma, tirotoxicosis, hipoglucemia y arritmias como la taquicardia auricular paroxística, cuadros que pueden simular clínicamente una crisis de angustia.
 
-### MIR-2022-091 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-091
 Indique cuál de los siguientes trastornos NO es un trastorno de ansiedad según el DSM-5:
 
 A. Trastorno obsesivo-compulsivo.
@@ -107,11 +111,13 @@ B. Mutismo selectivo.
 C. Fobia situacional.
 D. Trastorno de pánico.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 91)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 91)*
 
-> ⚠️ **Nota de verificación fuerte:** la misma tabla de la bibliografía citada arriba confirma que el mutismo selectivo y la fobia específica (que incluye el subtipo situacional) SÍ pertenecen al grupo de trastornos de ansiedad del DSM-5, mientras que el TOC (opción A) pertenece a la categoría separada "TOC y trastornos relacionados", NO a los trastornos de ansiedad. La clave oficial marca "C) fobia situacional" en vez de "A) trastorno obsesivo-compulsivo" — el mismo error conceptual de fondo que en MIR-2020-88 (asumir la clasificación DSM-IV en vez de la DSM-5 pedida explícitamente por el enunciado). Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022. Ver hallazgo #55 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El DSM-5 reorganizó la clasificación de los trastornos otrora agrupados bajo 'trastornos de ansiedad' en el DSM-IV, creando capítulos independientes para el trastorno obsesivo-compulsivo y trastornos relacionados (que incluye TOC, trastorno dismórfico corporal, acumulación, tricotilomanía y excoriación) y separándolos de los trastornos de ansiedad propiamente dichos. Estos últimos incluyen el trastorno de pánico, el trastorno de ansiedad generalizada, las fobias específicas (incluida la fobia situacional, como el miedo a espacios cerrados o a volar), la fobia social y el mutismo selectivo, que en el DSM-5 se incorpora también a este capítulo por afectar predominantemente a niños con un componente ansioso marcado ante situaciones sociales de habla.
 
-### MIR-2022-092 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-092
 En psicogeriatría, cuando es preciso el uso de benzodiacepinas ¿cuál es de elección?
 
 A. Clorazepato.
@@ -119,11 +125,13 @@ B. Lorazepam.
 C. Diazepam.
 D. Las benzodiacepinas están contraindicadas.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 92)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 92)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente que "en ancianos es preferible el uso de benzodiacepinas de vida media CORTA a las de vida media larga" — el diazepam (clave oficial, C) es precisamente una benzodiacepina de vida media LARGA con metabolitos activos, un fármaco clásicamente evitado en el anciano por riesgo de sedación acumulativa, caídas y deterioro cognitivo. El lorazepam (opción B), de vida media corta/intermedia y sin metabolitos activos (eliminación por glucuronidación directa), es la benzodiacepina de elección en geriatría según la bibliografía y la práctica clínica estándar (criterios de Beers). Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022 — la respuesta consistente con la bibliografía es B. Ver hallazgo #55 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En el paciente anciano, cuando es imprescindible el uso de benzodiacepinas, se recomiendan las de vida media corta y sin metabolitos activos (lorazepam, oxazepam, temazepam -regla mnemotécnica 'LOT'-), ya que minimizan el riesgo de acumulación, sedación excesiva, deterioro cognitivo y caídas. Las benzodiacepinas de vida media larga con metabolitos activos, como el diazepam o el clorazepato, deben evitarse en geriatría (criterios STOPP/Beers) precisamente por el riesgo de acumulación derivado del enlentecimiento del metabolismo hepático propio del envejecimiento, que prolonga notablemente su semivida de eliminación y aumenta el riesgo de sedación prolongada y caídas.
 
-### MIR-2023-089 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-089
 Hombre de 33 años... desde hace un año presenta un aumento de preocupación por cualquier aspecto de su vida y está muy inquieto y en ocasiones irritable. Se siente agotado, tenso y enfermo... Además, tiene sensación de falta de control, rumiaciones, ansiedad anticipatoria, tristeza y apatía. El cuadro clínico se inició cuando la empresa en la que trabaja inició un expediente de regulación de empleo. ¿Cuál de los siguientes es el diagnóstico más probable?
 
 A. Trastorno distímico.
@@ -131,9 +139,11 @@ B. Trastorno de ansiedad generalizada.
 C. Episodio depresivo mayor.
 D. Trastorno por somatización.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 89)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 89)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito — preocupación EXCESIVA por múltiples áreas de la vida, difícil de controlar, con inquietud, irritabilidad, fatiga, tensión, rumiaciones y ansiedad anticipatoria de curso crónico (1 año), desencadenado por un estresor real — coincide con la definición de manual del TRASTORNO DE ANSIEDAD GENERALIZADA, no con el trastorno por somatización (que se define por MÚLTIPLES síntomas FÍSICOS en distintos sistemas sin causa orgánica, un patrón clínico completamente distinto al descrito, centrado en la preocupación más que en quejas somáticas). Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2023 — la respuesta más consistente con la bibliografía es B. Ver hallazgo #55 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro descrito -preocupación excesiva y desproporcionada mantenida durante un año, inquietud, tensión, agotamiento, sensación de pérdida de control, rumiaciones y ansiedad anticipatoria, desencadenado por una situación de estrés laboral mantenido (expediente de regulación de empleo)- es característico del trastorno de ansiedad generalizada, que se define precisamente por una preocupación excesiva y de difícil control sobre múltiples áreas vitales, acompañada de síntomas somáticos inespecíficos (tensión muscular, fatiga, alteraciones del sueño) que motivan frecuentes consultas médicas al no encontrar justificación orgánica clara a su malestar. El trastorno por somatización, en cambio, se centra en la presencia de múltiples síntomas físicos recurrentes de años de evolución en diferentes órganos y sistemas, sin que la preocupación ansiosa generalizada constituya el síntoma nuclear del cuadro.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

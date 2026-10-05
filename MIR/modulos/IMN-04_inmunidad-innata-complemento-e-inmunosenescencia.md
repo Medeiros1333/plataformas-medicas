@@ -60,16 +60,11 @@ B. Disminuye el número de linfocitos T.
 C. Disminuye el factor de necrosis tumoral.
 D. Disminuye la producción de autoanticuerpos por los linfocitos B.
 
-**Respuesta correcta: D**
-**Justificación de cada opción:**
-- **D (correcta según clave oficial):** se marca como correcta la disminución de la producción de autoanticuerpos por los linfocitos B con el envejecimiento.
-- A: incorrecta — es el **aumento**, no la disminución, de IL-6 (parte del fenómeno de "inflammaging") lo que se relaciona con fragilidad y demencia en el anciano.
-- B: aunque la disminución de linfocitos T naive por involución tímica es un fenómeno bien descrito de la inmunosenescencia, no es la opción marcada como correcta en la clave oficial.
-- C: incorrecta — el TNF-α típicamente **aumenta**, no disminuye, en el estado de inflamación crónica de bajo grado del envejecimiento.
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación moderada:** la literatura de inmunosenescencia describe de forma consistente una **mayor** (no menor) prevalencia de autoanticuerpos y fenómenos autoinmunes de baja intensidad en el anciano, en el contexto de la disregulación inmunitaria global característica de este proceso — lo que generaría cierta tensión con la opción D tal y como está formulada. No obstante, dado que se trata de una pregunta MIR histórica con clave ya publicada y sin acceso a la fuente bibliográfica específica que sustentó originalmente esta pregunta, se mantiene la clave oficial (D) sin alterar, señalando la limitación para contexto del estudiante.
+**Explicación:** La inmunosenescencia es el conjunto de cambios que sufre el sistema inmunitario con el envejecimiento, caracterizado por una combinación de inmunodeficiencia funcional (menor respuesta a vacunas e infecciones nuevas, menor producción de linfocitos T naive por involución tímica) e inflamación crónica de bajo grado ('inflammaging'), con elevación de citocinas proinflamatorias como IL-6 y TNF-alfa, que se relaciona con fragilidad, sarcopenia y deterioro cognitivo. A pesar de mantenerse relativamente conservado el número total de linfocitos T circulantes gracias a la proliferación homeostática periférica, existe un progresivo agotamiento del repertorio de linfocitos T naive y una acumulación de clones de memoria/efectores senescentes, con menor diversidad funcional. Los linfocitos B también sufren cambios relacionados con la edad, con menor capacidad de generar respuestas de anticuerpos específicas de alta afinidad frente a nuevos antígenos.
 
-**Nota de cobertura y fiabilidad del módulo:** primer módulo de esta subespecialidad temática dentro de Inmunología, 1 pregunta real (recuperada del pool sin módulo asociado), 1 nota de verificación moderada.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2019-058
 En relación al inflamasoma, ¿cuál de las siguientes respuestas es FALSA?

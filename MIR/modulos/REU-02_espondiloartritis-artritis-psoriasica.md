@@ -89,9 +89,13 @@ B. Artritis psoriásica.
 C. Artritis enteropática.
 D. Espondilitis anquilosante.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 115; el patrón de afectación de miembros superiores —dedos y muñeca— junto al antecedente familiar de psoriasis, un criterio CASPAR específico, orienta más a artritis psoriásica que a artritis reactiva, cuyo patrón clásico es oligoartritis de miembros inferiores)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 115)*
 
-### MIR-2022-205 ⚠️
+**Explicación:** El cuadro de dactilitis (edema difuso de los dedos), sacroileítis, uveítis/conjuntivitis y antecedentes familiares de psoriasis en un varón joven es compatible con una espondiloartritis periférica del espectro de la artropatía psoriásica, entidad que puede debutar con afectación articular antes de que aparezcan las lesiones cutáneas típicas de psoriasis (artritis psoriásica "sine psoriasis"). La dactilitis es una manifestación muy característica de la artritis psoriásica, a diferencia de la artritis reumatoide. No obstante, dado el antecedente de relaciones sexuales de riesgo, debe mantenerse también en el diagnóstico diferencial la artritis reactiva postinfecciosa, que igualmente puede cursar con conjuntivitis, artritis periférica y entesitis en el contexto del espectro de las espondiloartropatías.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-205
 Varón de 35 años que presenta desde hace 3 meses dolor e inflamación en la 2ª y 3ª articulaciones metacarpofalángicas derecha y en la 3ª y 4ª interfalángicas de la mano izquierda. En la exploración física se observan lesiones cutáneas descamativas en las zonas extensoras de los codos y en la rodilla derecha. Los primeros análisis muestran VSG 34 mm, PCR 1,8 mg/dL (N: 0-0,5), factor reumatoide y anticuerpos anti péptidos cíclicos citrulinados negativos. Radiografías de manos: aumento de partes blandas sin erosiones. ¿Cuál de los siguientes diagnósticos es el más probable?
 
 A. Artritis reumatoide.
@@ -99,11 +103,13 @@ B. Lupus eritematoso sistémico.
 C. Artritis psoriásica.
 D. Artrosis.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 205)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 205)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado describe lesiones cutáneas descamativas en zonas extensoras de codos y rodilla — la localización y morfología clásica y prácticamente patognomónica de las placas de psoriasis — junto con artritis seronegativa (FR y ACPA negativos) de predominio en IFP/MCF. Este es el cuadro de manual de artritis psoriásica (opción C), no de lupus eritematoso sistémico (opción B, marcada oficialmente), que no se caracteriza por lesiones descamativas en superficies extensoras ni se menciona ningún otro criterio de LES (fotosensibilidad, eritema malar, serositis, alteraciones hematológicas/inmunológicas). Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2022. Ver hallazgo #40 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La combinación de oligoartritis asimétrica de pequeñas articulaciones de las manos junto con lesiones cutáneas descamativas en superficies extensoras (codos, rodilla), reactantes de fase aguda levemente elevados, factor reumatoide y anti-CCP negativos, y ausencia de erosiones radiológicas en fase inicial (solo aumento de partes blandas), es muy sugestiva de artritis psoriásica, entidad en la que la afectación cutánea puede preceder, coincidir o ser posterior a la articular. El patrón radiológico inicial con aumento de partes blandas sin erosiones es típico de las fases precoces de esta artropatía, que en su evolución puede desarrollar el patrón característico de erosiones yuxtaarticulares junto con neoformación ósea, hallazgo distintivo frente a la artritis reumatoide.
 
-### MIR-2023-109 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-109
 Hombre de 50 años que consulta por dolor lumbar de 6 meses de evolución que no mejora con el reposo, incluso le despierta por la noche, con rigidez lumbar matutina de más de una hora de duración. ¿Cuál de las siguientes imágenes es más probable encontrar en una radiografía de columna lumbar?
 
 A. Osteofitos típicos de la espondiloartrosis.
@@ -111,9 +117,11 @@ B. Osteofitos típicos de la espondiloartritis.
 C. Sindesmofitos típicos de la espondiloartrosis.
 D. Sindesmofitos típicos de la espondiloartritis.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 109)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 109)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado describe un dolor lumbar inflamatorio de manual (no mejora con el reposo, empeora de noche, rigidez matutina prolongada) — típico de espondiloartritis, no de espondiloartrosis degenerativa. Sin embargo, según la bibliografía, el hallazgo radiológico CARACTERÍSTICO de la espondiloartritis es el **sindesmofito** (osificación del anillo fibroso discal por entesitis inflamatoria), mientras que el **osteofito** es el hallazgo típico de la espondiloartrosis (proceso degenerativo). La opción B ("osteofitos típicos de la espondiloartritis"), marcada como correcta, combina de forma internamente contradictoria un hallazgo degenerativo (osteofito) con una enfermedad inflamatoria (espondiloartritis) — combinación que no es coherente con la fisiopatología descrita en la propia bibliografía. La opción D ("sindesmofitos típicos de la espondiloartritis") es la que coincide con el cuadro clínico inflamatorio descrito y con el mecanismo fisiopatológico correcto. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2023. Ver hallazgo #40 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El dolor lumbar inflamatorio (mejora con el ejercicio, empeora en reposo, con rigidez matutina prolongada de más de una hora) en un varón de 50 años orienta hacia una espondiloartritis axial. El hallazgo radiológico característico de esta entidad son los sindesmofitos, puentes óseos verticales y finos que se forman por osificación del anillo fibroso del disco intervertebral, a diferencia de los osteofitos de la espondiloartrosis degenerativa, excrecencias óseas horizontales marginales secundarias a la degeneración discal mecánica. La distinción radiológica entre sindesmofitos (espondiloartritis) y osteofitos (espondiloartrosis) es un punto clásico de diferenciación en el estudio de la patología degenerativa e inflamatoria de la columna vertebral.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-094
 Hombre de 30 años que acude a consulta por dolor lumbar crónico que empeora en la noche y mejora con el ejercicio. Refiere rigidez matutina de más de una hora. La exploración física revela una disminución de la movilidad en la columna lumbar y dolor a la palpación y exploración de las articulaciones sacroilíacas. La resonancia magnética muestra edema en las articulaciones sacroilíacas compatible con sacroileitis. ¿Cuál es el tratamiento inicial más indicado para este paciente?:

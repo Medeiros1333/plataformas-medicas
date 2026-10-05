@@ -76,7 +76,7 @@ D. Ligamento frenocólico.
 
 > **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2021, 2025), **0 discrepancias** — módulo construido con informe honesto de cobertura limpia; ambas preguntas son dominantemente descriptivas/anatómicas, sin margen de ambigüedad interpretativa. No se localizaron candidatas adicionales frescas 2020-2025 con suficiente base textual verificable para vólvulo de sigma o síndrome de Ogilvie (la única candidata hallada para este último era dependiente de imagen, no verificable sin acceso visual).
 
-### MIR-2020-154 ⚠️
+### MIR-2020-154
 Hombre de 82 años que acude a urgencias por cuadro de estreñimiento junto con gran distensión abdominal. En la radiología simple de abdomen se observa el signo de grano de café y en el enema opaco el signo de pico de pájaro. El tratamiento, si no existen signos de gangrena o peritonitis, consistirá en primer lugar en:
 
 A. Detorsión endoscópica.
@@ -84,11 +84,13 @@ B. Colectomía segmentaria y Hartmann.
 C. Colectomía segmentaria y anastomosis colorrectal laparoscópica.
 D. Detorsión quirúrgica y pexia de sigmoides.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con la premisa del propio enunciado):** el cuadro (signo del grano de café + signo del pico de pájaro) es vólvulo de sigma de manual. El propio enunciado establece explícitamente la condición "si NO existen signos de gangrena o peritonitis" — precisamente el escenario en el que el tratamiento de PRIMERA línea, bien establecido y no controvertido, es la DETORSIÓN ENDOSCÓPICA (opción A), reservando la cirugía (incluida la colectomía con Hartmann) para los casos con gangrena/perforación/peritonitis o tras fracaso de la detorsión endoscópica. La clave oficial (B, cirugía) contradice directamente la condición explícita planteada en el enunciado. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El signo del grano de café en la radiografía simple y el signo del pico de pájaro en el enema opaco son característicos del vólvulo de sigma, la causa más frecuente de obstrucción colónica por vólvulo, típica de pacientes ancianos, estreñidos y con megacolon o megasigma. Cuando no hay signos de sufrimiento vascular (gangrena) ni peritonitis, el abordaje universalmente recomendado es intentar primero la descompresión/detorsión endoscópica (sigmoidoscopia o colonoscopia), que resuelve la obstrucción de forma no quirúrgica en la mayoría de los casos y permite programar posteriormente una sigmoidectomía electiva, dado el elevado riesgo de recidiva (hasta el 40-50%) tras la detorsión aislada. La cirugía urgente con resección (colectomía segmentaria más procedimiento de Hartmann, sin anastomosis primaria por tratarse de colon no preparado) queda reservada para cuando la detorsión endoscópica fracasa o existen signos de isquemia o perforación.
 
-### MIR-2020-159 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-159
 El tratamiento quirúrgico de elección de la compresión vascular del duodeno, conocida también como síndrome de la arteria mesentérica superior o síndrome de Wilkie, es:
 
 A. La división del ligamento de Treitz.
@@ -96,11 +98,13 @@ B. La duodenoyeyunostomía.
 C. El cambio de la posición del duodeno.
 D. El bypass de la arteria mesentérica superior.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (la clave oficial no corresponde a un procedimiento quirúrgico real para esta entidad):** el síndrome de Wilkie es una compresión EXTRÍNSECA del duodeno entre la AMS y la aorta — la arteria en sí NO está obstruida, por lo que un "bypass de la arteria mesentérica superior" (clave oficial, D) no es un procedimiento estándar ni lógicamente aplicable a esta fisiopatología. El tratamiento quirúrgico de elección, bien establecido en cirugía digestiva, es la DUODENOYEYUNOSTOMÍA (opción B): anastomosar el duodeno proximal a la compresión con el yeyuno, derivando el segmento comprimido. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** El síndrome de la arteria mesentérica superior (síndrome de Wilkie) consiste en la compresión de la tercera porción duodenal entre la aorta y la arteria mesentérica superior, habitualmente por la pérdida de la almohadilla grasa mesentérica (grandes pérdidas de peso, encamamiento prolongado, escoliosis, cirugía de columna), que estrecha el ángulo aortomesentérico. El tratamiento inicial es siempre conservador (soporte nutricional para recuperar la grasa retroperitoneal, decúbito lateral izquierdo o posición genupectoral tras las comidas, sonda nasoyeyunal si es necesario), y solo si fracasa se plantea la cirugía. El procedimiento quirúrgico de elección es la duodenoyeyunostomía, que deriva el contenido duodenal proximal directamente al yeyuno sobrepasando la zona de compresión, con buenos resultados funcionales a largo plazo.
 
-### MIR-2021-178 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-178
 Varón de 48 años que acude a su consulta por estreñimiento crónico resistente a medidas habituales. Además, refiere palpitaciones y en las últimas semanas disnea de medianos esfuerzos. Señale, de las posibilidades que se ofrecen, cual le orientaría más para sospechar un diagnóstico etiológico específico:
 
 A. Realizar un ECG.
@@ -108,11 +112,11 @@ B. Realizar un enema opaco.
 C. Realizar un ecocardiograma.
 D. Preguntar por el país de procedencia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con §1.5 de este mismo módulo, sin cita bibliográfica exacta):** la combinación de estreñimiento crónico resistente (sugestivo de megacolon) JUNTO CON síntomas cardíacos (palpitaciones, disnea progresiva) es el patrón clásico de la enfermedad de Chagas crónica (megacolon + miocardiopatía chagásica simultáneos). La pregunta pide específicamente qué dato orientaría a un diagnóstico ETIOLÓGICO ESPECÍFICO — un ecocardiograma (clave oficial, C) o un ECG (A) caracterizarían el compromiso cardíaco, pero NO aportan por sí solos la etiología subyacente; preguntar por el país de procedencia (opción D) es el dato epidemiológico clave que permite sospechar Chagas como causa unificadora de ambos ejes clínicos (digestivo y cardíaco). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Varón con estreñimiento crónico resistente al tratamiento (posible megacolon), palpitaciones y disnea (posible miocardiopatía con trastornos del ritmo): la asociación de afectación digestiva (megacolon, megaesófago) y cardiaca (miocardiopatía dilatada, bloqueos de rama derecha y hemibloqueo anterior, arritmias, aneurisma apical) es característica de la enfermedad de Chagas crónica, causada por Trypanosoma cruzi y endémica en Latinoamérica. Por eso, lo que más orienta hacia un diagnóstico etiológico específico es preguntar por el país de procedencia (D): el antecedente epidemiológico de haber vivido en una zona endémica (o ser hijo de madre procedente de ella) es la clave para sospecharla y solicitar la serología. El ECG (A), el ecocardiograma (C) o el enema opaco (B) detectarían la afectación de los órganos, pero no orientan por sí solos a una etiología concreta.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 3 preguntas se eleva a 5 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

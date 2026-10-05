@@ -68,9 +68,11 @@ B. Cursa con hipoestesia en el pulpejo de los dedos segundo a quinto.
 C. Los síntomas se exacerban durante la noche.
 D. Se acompaña de atrofia de la musculatura de la eminencia hipotenar.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 111)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 111)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1 de este módulo) es explícita y contiene una regla mnemotécnica al respecto: "pérdida de fuerza progresiva con hipotrofia de la eminencia **TENAR** (recordad que el mediano inerva 1.º y 2.º lumbricales y separador corto-oponente-flexor corto del pulgar)". La eminencia HIPOTENAR (clave oficial, D) es territorio del nervio CUBITAL, no del mediano, y no se atrofia en el síndrome del túnel carpiano. Además, la opción C ("los síntomas se exacerban durante la noche") es una afirmación correcta y bien documentada en la misma bibliografía ("parestesias... sobre todo nocturnas"), lo que refuerza la sospecha de que la clave oficial contiene un error. No se ha alterado `respuesta_correcta` (se mantiene D), pero se aplica el criterio anatómico correcto (eminencia tenar) en el punto clave 1 de este módulo.
+**Explicación:** El síndrome del túnel carpiano, la neuropatía compresiva más frecuente, es más habitual en mujeres (proporción aproximada 3-4:1 respecto a varones), y sus síntomas característicamente se exacerban durante la noche, atribuido a la postura de flexión mantenida de la muñeca durante el sueño, que incrementa la presión dentro del túnel del carpo sobre el nervio mediano. La hipoestesia afecta al territorio sensitivo del nervio mediano, es decir, al primer, segundo, tercer dedo y mitad radial del cuarto dedo (no del segundo al quinto, territorio que incluiría al meñique, inervado por el nervio cubital). En casos evolucionados puede aparecer atrofia de la musculatura de la eminencia TENAR (inervada por el nervio mediano), no de la eminencia hipotenar, que depende del nervio cubital y por tanto no se afecta en esta entidad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-114
 Respecto a la rotura del ligamento cruzado anterior de la rodilla, señale la respuesta correcta:
@@ -90,9 +92,11 @@ B. Infiltración del resto de manguito con células mesenquimales.
 C. Reparación artroscópica del manguito rotador mediante anclajes en doble hilera.
 D. Prótesis invertida de hombro.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 104)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 104)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado describe textualmente el cuadro que la bibliografía denomina "artropatía del manguito rotador" (rotura completa crónica + ascenso de la cabeza humeral + acetabulización del acromion), para el cual indica de forma explícita: "si existe una artropatía del manguito DOLOROSA (esto es, especialmente en pacientes mayores), puede estar indicada la realización de una artroplastia INVERTIDA de hombro". La infiltración con células mesenquimales (clave oficial, B) no aparece descrita en ningún apartado de tratamiento del manguito rotador de esta bibliografía como opción terapéutica establecida. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio bibliográfico (prótesis invertida) en el punto clave 4 de este módulo.
+**Explicación:** Ante una rotura masiva e irreparable del manguito rotador con artropatía por rotura del manguito establecida (ascenso de la cabeza humeral y acetabulización/erosión del borde inferior del acromion, signos radiológicos de cronicidad y degeneración articular avanzada) en un paciente activo con dolor intenso y pérdida de función, el tratamiento de elección es la artroplastia invertida de hombro, diseñada específicamente para esta situación clínica: al modificar el centro de rotación de la articulación, permite que el deltoides supla la función ausente del manguito rotador para conseguir una elevación activa del brazo eficaz, algo que ni la prótesis anatómica (que requiere un manguito funcional) ni tratamientos biológicos como la infiltración de células mesenquimales (sin evidencia sólida en esta indicación de artropatía establecida) pueden lograr en esta fase avanzada de la enfermedad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-091
 Mujer de 19 años que, practicando patinaje sobre ruedas, sufre un traumatismo indirecto de la rodilla derecha, con luxación de rótula tratada en urgencias. Acude a revisión 2 meses más tarde y refiere que nota dolor y sensación de inestabilidad y subluxación frecuente con la actividad física. De los siguientes elementos, señale el que NO favorece la inestabilidad fémoro-patelar:
@@ -112,11 +116,11 @@ B. Lesión por rotura del ligamento cruzado anterior.
 C. Lesión por rotura del ligamento cruzado posterior.
 D. Lesión por artropatía degenerativa.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("Lesiones meniscales (MIR 22, 118)", desfase de año habitual de ±1), enumera explícitamente el test de Thessaly entre las maniobras diagnósticas de las lesiones meniscales: *"En la exploración física se objetiva dolor en la interlínea, maniobras de flexión y rotación de la tibia sobre el fémur (McMurray), distracción (Apley) o flexión de la rodilla en apoyo monopodal (Thessaly)"*. El algoritmo diagnóstico de la bibliografía (Figura, "Mecanismo traumático en rodilla") separa explícitamente el "mundo de los ligamentos cruzados" (maniobras de cajón/Lachman → LCA/LCP) del "mundo de los meniscos" (maniobras rotacionales: Thessaly/Apley/McMurray → lesión meniscal) — categorías diagnósticas mutuamente excluyentes según la propia bibliografía. Un test de Thessaly positivo señala inequívocamente lesión meniscal (opción A, no elegida), no rotura del LCP (clave oficial, C). Ver hallazgo #140 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El test de Thessaly es una maniobra de exploración específicamente diseñada y validada para el diagnóstico de las lesiones meniscales: se realiza con el paciente en apoyo monopodal sobre la pierna afecta con la rodilla en ligera flexión (habitualmente 20º), realizando rotaciones internas y externas del tronco; la reproducción del dolor, con o sin sensación de bloqueo o chasquido, orienta hacia una lesión del menisco correspondiente al lado explorado. Las lesiones ligamentosas (cruzado anterior o posterior) se exploran mediante maniobras específicas diferentes, como el test de Lachman o el cajón anterior/posterior para el LCA/LCP, o el signo del escalón y el cajón posterior con rotación neutra para el LCP, no mediante el test de Thessaly.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** 5 preguntas reales, **2 discrepancias de MÁXIMA/alta confianza** (hipotrofia hipotenar en el túnel carpiano; test de Thessaly en lesión meniscal), 3 limpias (LCA, artropatía del manguito rotador, inestabilidad femoropatelar).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-111
 Empleada de hogar de 35 años, sin antecedentes de interés, diestra, que refiere dolor en 5º dedo de mano izquierda y en cara interna de antebrazo izquierdo acompañado de acorchamiento y pérdida parcial de sensibilidad. ¿Cuál sería la primera sospecha diagnóstica?:
@@ -128,7 +132,7 @@ D. Tendinitis de De Quervain.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 111; la bibliografía cita textualmente esta pregunta ("MIR 23, 111") al describir el síndrome del túnel cubital (canal epitrócleo-olecraniano), coherente con la clínica sensitiva en territorio cubital (5º dedo y cara medial de antebrazo) descrita. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2021-120 ⚠️
+### MIR-2021-120
 Sobre la fascitis plantar, señale la respuesta correcta:
 
 A. El dolor mejora al andar de puntillas.
@@ -136,11 +140,7 @@ B. Se asocia a la presencia de espolón calcáneo.
 C. El tratamiento de elección es quirúrgico.
 D. Provoca dolor en la zona del talón, más intenso al empezar a caminar.
 
-**Respuesta correcta: C**
-
-> ⚠️ **Nota de verificación fuerte (máxima confianza, correspondencia textual casi literal):** la bibliografía describe la fascitis plantar con las siguientes palabras: *"Cursa con dolor en los primeros pasos de la marcha, empeora de puntillas o en bipedestación prolongada. Se trata mediante estiramientos, modificación de la actividad y el calzado... La cirugía (tenotomía del gastrocnemio) se utiliza en casos REFRACTARIOS"* — es decir, la cirugía NO es el tratamiento de elección (contradice la opción C, oficial) sino un último recurso; el dolor EMPEORA de puntillas, no mejora (contradice la opción A); y el dolor es más intenso al empezar a caminar, coincidiendo casi literalmente con la opción D. Apoya la opción D, no C. Se mantiene la clave oficial (C) sin alterar.
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 7 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 4 limpias.
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ### MIR-2020-111
 Un paciente de 40 años comienza a sentir molestias en la nalga derecha tras un viaje prolongado en coche. Desde ese momento no tolera la sedestación prolongada por reaparición del dolor. Ocasionalmente siente entumecimiento en el miembro inferior derecho que desaparece al levantarse. Dispone de estudio de resonancia magnética y radiografía de cadera en los que no se informan anomalías. El examen de la sensibilidad y los reflejos osteotendinosos no muestra alteraciones. Las maniobras de rotación externa y la abducción resistidas, con la cadera en 90º de flexión, reproducen el dolor. El diagnóstico más probable es:
@@ -152,7 +152,7 @@ D. Síndrome del piramidal.
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 111; cita textual DIRECTA a esta pregunta "MIR 21, 111" en la bibliografía de Traumatología: el síndrome del piramidal es "poco frecuente, se produce por la compresión del nervio ciático por debajo del músculo piramidal... dolor en la nalga con irradiación hacia la región posterior del muslo cuando el paciente está sentado... el dolor se exacerba con la rotación y abducción forzadas de la cadera (maniobra de Pace y Nagle)" — reproduce casi literalmente el enunciado (dolor en nalga con sedestación prolongada, maniobras de rotación y abducción resistidas positivas, RM y exploración neurológica normales). Confirmación LIMPIA, sin discrepancia. Pregunta reclasificada desde NEU a TRA — pertenece temáticamente al capítulo de síndromes de compresión nerviosa periférica de la bibliografía de Traumatología, no a Neurología.)*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 8 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2024-202
 Hombre de 45 años que refiere desde hace 3 meses dolor en codo derecho irradiado a antebrazo, no asociado a parestesias ni sensación subjetiva de pérdida de fuerza. La intensidad del dolor va empeorando a lo largo del día, principalmente con trabajo de ordenador y con actividades deportivas. A la exploración física no se observan signos inflamatorios externos, presenta dolor a la palpación de epitróclea humeral y se reproduce su dolor al distender y resistir la musculatura flexora de antebrazo y mano. ¿Cuál de los siguientes es el diagnóstico más probable?:
@@ -163,8 +163,6 @@ C. Síndrome compartimental crónico.
 D. Neuropatía cubital por atrapamiento en canal epitrócleo-olecraniano.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 202; coherente con la bibliografía: la epitrocleitis ["codo de golfista", sinónimo de epicondilopatía medial] es un "cuadro de dolor en la región medial del codo... por inflamación de la musculatura flexopronadora" — coincide exactamente con el dolor a la palpación de la epitróclea y su reproducción al resistir la musculatura flexora descritos en el enunciado. La ausencia de parestesias/pérdida de fuerza descarta la neuropatía cubital [opción D]. Confirmación LIMPIA, sin discrepancia. Pregunta reclasificada desde NEU en un lote anterior de la sesión —hallazgo #173—, tageada aquí en TRA-02.)*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 6 limpias.
 
 ### MIR-2025-089
 Joven de 33 años corredor habitual. Refiere dolor en cara externa de rodilla sobre todo en actividad deportiva, pero también al subir y bajar escaleras. El dolor se acentúa a la palpación del Epicóndilo Externo. ¿Cuál es la sospecha diagnóstica?:
@@ -178,7 +176,7 @@ D. Trocanteritis.
 
 > **Nota de cobertura (confianza fuerte, cuadro clínico clásico sin ambigüedad, reclasificada de IMN a TRA):** el cuadro (corredor habitual, dolor en cara externa de rodilla con el ejercicio y al subir/bajar escaleras, dolor a la palpación del epicóndilo femoral externo) es la presentación clásica y sin ambigüedad del síndrome de la cintilla iliotibial, la causa más frecuente de dolor lateral de rodilla en corredores. El Osgood-Schlatter (dolor en tuberosidad tibial anterior, adolescentes) y la enfermedad de Sever (dolor en talón) afectan localizaciones anatómicas distintas; la trocanteritis produce dolor en la cadera lateral (trocánter mayor), no en la rodilla. Sin discrepancia.
 
-### MIR-2023-100 ⚠️
+### MIR-2023-100
 Mujer de 52 años, carnicera de profesión, sin antecedentes de interés ni caídas, que presenta dolor en el hombro de 4 meses de evolución al levantar el brazo. El dolor es de características inflamatorias y las maniobras de impingement positivas. Señale la actitud INCORRECTA:
 
 A. Iniciar tratamiento con AINE, solicitar una ecografía y derivar a rehabilitación.
@@ -186,13 +184,13 @@ B. Derivar a un cirujano especialista para hacer una artroscopia de hombro.
 C. Si hay limitación pasiva del balance articular, con la sospecha de capsulitis adhesiva, derivar a rehabilitación urgente para movilizaciones pasivas.
 D. Se sospecha una lesión del manguito de los rotadores (supraespinoso con bursitis subacromial), por lo que hay que potenciar la musculatura descoaptante del hombro.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual estrecha con la bibliografía del propio módulo, §1.4, sin cita directa a esta pregunta exacta):** la bibliografía describe explícitamente el tratamiento escalonado de la patología del manguito rotador/síndrome subacromial: *"conservador inicial (reposo, AINEs, rehabilitación) → infiltración de corticoides subacromial si no mejora → cirugía artroscópica [...] si persiste tras conservador"* — es decir, la cirugía (artroscopia) es un escalón de ÚLTIMA línea, tras el fracaso del tratamiento conservador, nunca la actitud inicial. En este caso (4 meses de evolución, sin que el enunciado mencione ningún tratamiento conservador previo ni su fracaso), derivar directamente a un cirujano para artroscopia (opción B) contradice frontalmente ese algoritmo escalonado — es la actitud INCORRECTA según la propia bibliografía del módulo. La opción D, en cambio, describe una medida de rehabilitación conservadora razonable y coherente (potenciar la musculatura que descoapta/deprime la cabeza humeral —p. ej. manguito rotador, deltoides— reduce el pinzamiento subacromial), consistente con el tratamiento conservador inicial recomendado, por lo que D es una actitud ADECUADA, no la incorrecta buscada. Las opciones A y C también son coherentes con el algoritmo de la bibliografía (tratamiento conservador inicial; derivación urgente a rehabilitación para movilizaciones pasivas ante sospecha de capsulitis adhesiva, §1.4). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En una tendinopatía del manguito rotador/síndrome subacromial de varios meses de evolución, el abordaje inicial adecuado es conservador: AINE, estudio de imagen (ecografía) y derivación a rehabilitación para un programa de fisioterapia con potenciación de la musculatura estabilizadora y descoaptante del hombro (que ayuda a centrar la cabeza humeral y descomprimir el espacio subacromial), medida terapéutica válida y de primera línea. Si aparece una limitación pasiva marcada del balance articular sugestiva de capsulitis adhesiva sobreañadida, está justificado derivar a rehabilitación para iniciar movilizaciones. Derivar directamente a un cirujano para practicar una artroscopia de hombro sin haber agotado antes el tratamiento conservador (fisioterapia, antiinflamatorios, infiltraciones) constituye una actuación precipitada e inadecuada como primer paso, ya que la cirugía se reserva para los casos que no responden al tratamiento conservador mantenido durante varios meses.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 11 preguntas reales, **4 discrepancias de MÁXIMA/alta confianza**, 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2023-029 ⚠️
+### MIR-2023-029
 De las siguientes afirmaciones relacionadas con las estructuras anatómicas que forman el manguito de los rotadores, señale la correcta:
 
 A. Los músculos que forman el manguito de los rotadores son el subescapular, el supraespinoso, el infraespinoso y el redondo mayor.
@@ -200,11 +198,11 @@ B. Los tendones de los músculos del manguito refuerzan la cápsula fibrosa de l
 C. El músculo infraespinoso rota el brazo en dirección interna.
 D. El músculo supraespinoso ayuda a la aducción (aproximación) del brazo.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (anatomía básica del hombro, sin ambigüedad posible):** el infraespinoso es, de forma inequívoca y universalmente enseñada, un ROTADOR EXTERNO (lateral) del hombro, no interno — la opción C (clave oficial) contiene un error anatómico directo. Además, la opción A también es incorrecta: el manguito rotador está formado por supraespinoso, infraespinoso, redondo MENOR (no mayor —el redondo mayor no forma parte del manguito rotador, es un músculo distinto, aductor/rotador interno—) y subescapular. La opción D es igualmente errónea: el supraespinoso es ABDUCTOR del hombro (inicia/asiste la abducción), no aductor. La opción B, en cambio, es una afirmación anatómica correcta y no controvertida: los tendones del manguito rotador se fusionan con la cápsula articular glenohumeral y la refuerzan. De las 4 opciones, solo B es anatómicamente correcta. Apoya la opción B. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El manguito de los rotadores está formado por cuatro músculos (regla mnemotécnica SITS): supraespinoso, infraespinoso, redondo (teres) menor y subescapular -no el redondo mayor, que no forma parte del manguito y actúa como aductor y rotador interno inervado por el nervio subescapular inferior-. Los tendones de estos cuatro músculos se entremezclan con las fibras de la cápsula articular glenohumeral, reforzándola y contribuyendo de forma esencial a la estabilidad dinámica de la articulación. El infraespinoso, junto con el redondo menor, es un rotador EXTERNO (lateral) del brazo, mientras que el subescapular es el único rotador interno del manguito; el supraespinoso, por su parte, es el principal iniciador de la abducción del brazo (primeros 15-30º) y no interviene en la aducción.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 12 preguntas reales, **5 discrepancias de MÁXIMA/alta confianza**, 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-102
 Cuidadora de personas mayores de 55 años, sin antecedentes de interés, diestra, que refiere dolor y acorchamiento en cara palmar de ambas manos, peor en la derecha, con predominio nocturno, así como sensación de gran hinchazón al despertarse por las mañanas, siendo algo más intenso en los dedos 2º y 3º. No refiere ningún otro síntoma en miembros superiores ni en cuello. ¿De las siguientes, cuál es la primera sospecha diagnóstica?:
@@ -215,8 +213,6 @@ C. Hernia discal cervical C6-C7.
 D. Síndrome del túnel carpiano.
 
 **Respuesta correcta: D** — *(confianza máxima, cuadro clínico de manual: dolor/acorchamiento palmar bilateral, predominio nocturno, sensación de hinchazón matutina, más intenso en 2.º-3.er dedos [distribución del nervio mediano], en trabajadora con actividad manual repetitiva de riesgo [cuidadora] y SIN síntomas cervicales asociados — descarta las opciones de origen cervical [A, C] y de compresión cubital [B, que afectaría 4.º-5.º dedos, no 2.º-3.º]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 13 preguntas reales, manteniendo 5 discrepancias y sumando 8 limpias.
 
 ---
 

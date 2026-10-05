@@ -74,7 +74,11 @@ B. Ecoendoscopia.
 C. Colangiografía transparietohepática.
 D. Colangiorresonancia.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 133; consistente con §1.1: la ecoendoscopia aumenta la sensibilidad respecto a la ecografía percutánea para el estudio de la vía biliar previo a cirugía; pregunta sin discrepancia)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 133)*
+
+**Explicación:** Paciente con colelitiasis y un episodio previo de colecistitis que ahora presenta fosfatasa alcalina elevada y dilatación de la vía biliar (1 cm): hay una sospecha de coledocolitiasis de riesgo intermedio. Antes de la colecistectomía se debe confirmar o descartar la presencia de cálculos en el colédoco con una prueba no invasiva y de alta sensibilidad, y la de elección es la colangiorresonancia (D) (la ecoendoscopia, B, es una alternativa igualmente sensible pero invasiva y menos disponible). Si se confirma la coledocolitiasis, se extraen los cálculos mediante CPRE con esfinterotomía antes o durante la cirugía. La CPRE (A) es un procedimiento terapéutico con riesgo de pancreatitis y no debe usarse solo para diagnosticar; la colangiografía transparietohepática (C) es invasiva y se reserva para cuando la CPRE no es posible.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-132
 Mujer de 73 años que acude a urgencias por prurito, ictericia, astenia y pérdida de peso de un mes de evolución. Recientemente ha recibido tratamiento con amoxicilina/clavulánico por una infección urinaria. Se realiza una ecografía que informa de dilatación de la vía biliar intra y extrahepática con vesícula biliar distendida. De las siguientes ¿cuál es la primera sospecha diagnóstica y actitud?:
@@ -84,9 +88,11 @@ B. Colecistitis aguda. Colecistectomía urgente.
 C. Coledocolitiasis distal. Solicitar una colangiorresonancia magnética.
 D. Tumoración maligna obstructiva de colédoco distal. Solicitar una TC abdominal para estudio de extensión local y a distancia.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 132)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 132)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía describe textualmente el signo de Courvoisier: "vesícula distendida y palpable en el caso de tumores extrahepáticos (signo de Courvoisier, también aparece en cáncer de páncreas)" como signo de sospecha de malignidad ante ictericia obstructiva — exactamente el hallazgo ecográfico del enunciado (vesícula DISTENDIDA + dilatación de vía biliar intra y extrahepática), junto con un cuadro clínico clásico de síndrome constitucional (astenia, pérdida de peso) e ictericia progresiva sin dolor cólico. La clave oficial (C, coledocolitiasis) no encaja con este patrón: en la coledocolitiasis la vesícula suele estar crónicamente fibrosada por litiasis previa y no se distiende de esta manera. La opción D (tumoración maligna obstructiva) es la que coincide con el criterio bibliográfico del signo de Courvoisier. De hecho, **MIR-2024-126** (ver más abajo en este mismo módulo) presenta un caso clínico prácticamente idéntico un año después, con la clave oficial correctamente orientada hacia la malignidad — reforzando la sospecha de que 2023-132 es un error de la plantilla provisional de aquel año. No se ha alterado `respuesta_correcta` (se mantiene C), pero se aplica el criterio bibliográfico (signo de Courvoisier → malignidad) en el punto clave 3 de este módulo.
+**Explicación:** Mujer de 73 años con ictericia indolora progresiva, prurito, astenia y PÉRDIDA DE PESO de un mes de evolución, con dilatación de la vía biliar intra y extrahepática y vesícula distendida y palpable (signo de Courvoisier-Terrier): la primera sospecha es una neoplasia maligna que obstruye el colédoco distal (cáncer de cabeza de páncreas, colangiocarcinoma distal o ampuloma), y el siguiente paso es una TC abdominal con contraste para el diagnóstico y el estudio de extensión local y a distancia (D). La coledocolitiasis (C) produce típicamente dolor cólico, ictericia fluctuante y a veces colangitis, con vesícula no distendida por la colecistitis crónica previa. La toxicidad por amoxicilina-clavulánico (A) produce colestasis intrahepática SIN dilatación de la vía biliar. La colecistitis aguda (B) cursa con dolor en hipocondrio derecho y fiebre, no con ictericia progresiva indolora.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-116
 En una mujer de 72 años con litiasis biliar asintomática se indicaría colecistectomía laparoscópica en caso de:
@@ -106,7 +112,7 @@ B. Coledocolitiasis distal y solicitud de colangiorresonancia magnética.
 C. Toxicidad por fármacos y suspensión de la medicación.
 D. Tumoración maligna obstructiva de colédoco distal y solicitar TC abdominal.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 126; caso clínico prácticamente idéntico a MIR-2023-132 —ver nota de verificación en esa pregunta—, pero con clave oficial correctamente orientada al signo de Courvoisier y la sospecha de malignidad; pregunta sin discrepancia, y sirve de control de calidad frente al error detectado en la pregunta de 2023)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2024, pregunta 126; caso clínico prácticamente idéntico a MIR-2023-132, con la misma respuesta: signo de Courvoisier y sospecha de malignidad)*
 
 ### MIR-2025-005
 Varón de 58 años con antecedente de colelitiasis en una ecografía abdominal que se hizo por otra causa. Refiere dolor abdominal continuo en epigastrio–hipocondrio derecho que irradia hacia la espalda. El dolor le ha comenzado tras la ingesta y ha cedido parcialmente tras tomar un espasmolítico. Así mismo refiere que se nota un poco amarillo y que la orina es muy oscura. Constantes: TA 140/75mmHg; FC 100lpm; T 36,8ºC. A la exploración presenta dolor a la palpación en hipocondrio derecho con signo de Murphy negativo. En la analítica: bilirrubina total 4mg/dl con bilirrubina directa 3,5mg/dl, amilasa y lipasa normales, no leucocitosis. ¿Cuál es la sospecha diagnóstica y tratamiento?:

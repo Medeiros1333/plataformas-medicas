@@ -688,4 +688,4 @@ Con esto se completa la primera pasada de la tarea pendiente #3 sobre las 11 esp
 - Causa raíz: plantillas de respuestas 2020-2023 desfasadas un año respecto a los cuadernillos. Corregido con la plantilla correcta (incluida la del examen de enero de 2024 para el cuadernillo 2023).
 - Banco: 2436 preguntas; claves 2020-2025 coinciden al 100 % con las plantillas oficiales; 0 preguntas con `revision_incierta`; explicaciones coherentes con la opción marcada.
 - AMIR 2009-2019: corregidas las anuladas mal parseadas y las referencias numéricas pasadas a letras.
-- Pendiente opcional: actualizar las notas de "discrepancia" obsoletas en `modulos/*.md` (no afectan al Hub actual).
+- Módulos (`modulos/*.md`) actualizados: claves corregidas, notas de discrepancia obsoletas sustituidas; verificador de módulos: 0 discrepancias.

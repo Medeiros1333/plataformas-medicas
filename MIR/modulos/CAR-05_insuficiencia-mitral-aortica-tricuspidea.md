@@ -76,7 +76,7 @@ D. Mitra-Clip.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 104)*
 
-### MIR-2022-5 ⚠️
+### MIR-2022-5
 Varón de 57 años, sin factores de riesgo cardiovascular conocidos, que acude a su consulta aquejando disnea de esfuerzo estable de varios meses de evolución. Aporta electrocardiograma de 12 derivaciones (imagen) y en la exploración física se ausculta un soplo sistólico en borde paraesternal izquierdo, cuya intensidad y duración aumentan durante la maniobra de Valsalva. De entre las siguientes patologías cardiacas ¿cuál es el diagnóstico más probable?
 
 A. Insuficiencia tricuspídea.
@@ -84,9 +84,11 @@ B. Estenosis aórtica.
 C. Miocardiopatía hipertrófica.
 D. Insuficiencia mitral.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2022, pregunta 5; pregunta con imagen de ECG no disponible en la fuente de datos)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 5)*
 
-> ⚠️ **Nota de verificación fuerte:** según esta misma bibliografía, el soplo que AUMENTA de intensidad con la maniobra de Valsalva (que disminuye la precarga) es un hallazgo característico de la **miocardiopatía hipertrófica obstructiva** (opción C) — y, de forma análoga, del soplo del prolapso mitral con insuficiencia asociada. En cambio, el soplo de la insuficiencia tricuspídea (opción A, la marcada como correcta) aumenta característicamente con la INSPIRACIÓN (signo de Rivero-Carvallo), no con el Valsalva — son mecanismos y maniobras distintos. El resto del cuadro (varón de mediana edad sin FRCV, disnea de esfuerzo estable, soplo en borde paraesternal izquierdo, ECG aportado como parte del caso — probablemente mostrando hipertrofia ventricular izquierda) es la vignette clásica de MCH obstructiva. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022 (no se puede descartar por completo dado que la imagen del ECG, no disponible en esta fuente de datos, podría aportar información adicional). Ver hallazgo #37 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente con disnea de esfuerzo estable y un soplo sistólico en el borde paraesternal izquierdo cuya intensidad y duración AUMENTAN con la maniobra de Valsalva (fase de tensión, con disminución del retorno venoso y del volumen ventricular), el hallazgo es característico de la miocardiopatía hipertrófica obstructiva, ya que la disminución del volumen ventricular izquierdo durante el Valsalva acentúa la obstrucción dinámica del tracto de salida (al acercar más el septo hipertrofiado a la valva mitral anterior), aumentando la intensidad del soplo; este comportamiento paradójico (que el soplo aumente con maniobras que reducen la precarga) es una clave semiológica clásica para diferenciar la miocardiopatía hipertrófica obstructiva de otras causas de soplo sistólico (estenosis aórtica, insuficiencia mitral), en las que el Valsalva típicamente DISMINUYE la intensidad del soplo al reducir el volumen de sangre que fluye a través de la válvula afectada. El electrocardiograma de 12 derivaciones puede mostrar signos de hipertrofia ventricular izquierda y ondas Q patológicas en derivaciones inferolaterales, hallazgos frecuentes en la miocardiopatía hipertrófica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

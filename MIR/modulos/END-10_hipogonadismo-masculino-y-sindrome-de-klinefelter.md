@@ -31,7 +31,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2021-172 ⚠️
+### MIR-2021-172
 En el síndrome de Klinefelter, ¿cuál de las siguientes afirmaciones es correcta?:
 
 A. El tratamiento con testosterona potencia la fertilidad.
@@ -39,11 +39,13 @@ B. Los niveles de gonadotrofinas están disminuidos en la mayoría de los pacien
 C. El cariotipo X0 subyace en la mayoría de los casos.
 D. La incidencia de lupus eritematoso es mayor que en los varones de la población general.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y bien establecido de endocrinología reproductiva):** la clave oficial A es factualmente incorrecta — el tratamiento con testosterona en el síndrome de Klinefelter NO potencia la fertilidad (la infertilidad se debe a disgenesia irreversible de los túbulos seminíferos, y la testosterona exógena puede incluso suprimir aún más la espermatogénesis residual por retroalimentación negativa sobre el eje hipotálamo-hipofisario). Las opciones B y C también son claramente falsas: las gonadotrofinas están ELEVADAS (no disminuidas) por el hipogonadismo hipergonadotropo característico, y el cariotipo típico es 47,XXY (no X0, que es Turner). En cambio, la opción D describe una asociación real y bien documentada: los pacientes con Klinefelter presentan mayor incidencia de enfermedades autoinmunes, incluido el lupus eritematoso sistémico, en comparación con varones 46,XY de la población general. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El síndrome de Klinefelter (cariotipo 47,XXY en la mayoría de los casos, no 45,X0, que corresponde al síndrome de Turner) es la causa genética más frecuente de hipogonadismo primario masculino, con niveles de gonadotrofinas (LH y FSH) elevados en la mayoría de los pacientes por el fallo testicular primario, y se ha descrito una mayor incidencia de determinadas enfermedades autoinmunes, entre ellas el lupus eritematoso sistémico, en comparación con la población masculina general, posiblemente relacionada con el efecto de dosis génica del cromosoma X adicional sobre la regulación inmunitaria. El tratamiento con testosterona en estos pacientes mejora la virilización y la calidad de vida, pero no restaura la fertilidad, ya que esta requiere de técnicas de reproducción asistida con recuperación de espermatozoides testiculares en los casos en que sea posible.
 
-### MIR-2022-157 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-157
 Varón de 24 años con ginecomastia bilateral, vello corporal escaso, testes de 3 cc, firmes, testosterona total 257 ng/dL (N>350), LH 11 mUI/mL (N<10), FSH 24 mUI/mL (N<10). El siguiente paso en el diagnóstico es:
 
 A. Cariotipo.
@@ -51,11 +53,11 @@ B. Biopsia testicular.
 C. RM de hipófisis.
 D. Estudio del receptor de FSH.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con el algoritmo diagnóstico estándar ya documentado en §1.1 de este mismo módulo):** el cuadro (ginecomastia, testes pequeños y firmes, testosterona baja con LH y FSH ELEVADAS) es hipogonadismo hipergonadotropo, cuadro clínico clásico de sospecha de síndrome de Klinefelter. El siguiente paso diagnóstico estándar ante esta sospecha es el CARIOTIPO (prueba de confirmación definitiva, no invasiva), no la biopsia testicular (invasiva, no necesaria para establecer el diagnóstico, reservada para contextos de reproducción asistida). La RM de hipófisis (C) estaría indicada si se sospechara hipogonadismo HIPOgonadotropo de origen central (gonadotrofinas bajas/inapropiadamente normales), no en este cuadro con gonadotrofinas claramente elevadas que ya localiza el fallo a nivel testicular primario. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro de ginecomastia, escaso vello corporal, testes pequeños y firmes, con testosterona baja y gonadotropinas (LH y FSH) elevadas, define un hipogonadismo primario (hipergonadotropo), es decir, un fallo testicular con pérdida de la retroalimentación negativa sobre la hipófisis. Ante este patrón hormonal, especialmente en varones jóvenes con fenotipo característico, el siguiente paso diagnóstico debe orientarse a confirmar la causa del fallo testicular primario, siendo la valoración anatomopatológica/funcional del tejido testicular mediante biopsia una herramienta que permite caracterizar el grado de afectación de los túbulos seminíferos y de las células de Leydig, apoyando el diagnóstico etiológico una vez descartadas otras causas mediante la evaluación clínica inicial.
 
-> **Nota de cobertura y fiabilidad del módulo:** primer módulo de este cluster, 2 preguntas reales, **2 discrepancias de MÁXIMA confianza (100%)** — ambas preguntas de Klinefelter recuperadas del bucket "sin especialidad" presentan errores identificables en la clave oficial, un hallazgo notable dado que ninguna había sido verificada previamente en el proyecto.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

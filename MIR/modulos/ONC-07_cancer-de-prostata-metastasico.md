@@ -73,7 +73,7 @@ D. La edad cronológica del paciente como criterio principal para limitar el tra
 
 > **Nota de cobertura:** confirmación LIMPIA — principio general de oncogeriatría: la decisión terapéutica en el paciente mayor debe individualizarse según comorbilidades, estado funcional y expectativa de vida, no solo parámetros tumorales (descarta A) ni la edad cronológica aislada (descarta D), y sin asumir por defecto la opción más agresiva sin valoración geriátrica (descarta B). Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2022-142 ⚠️
+### MIR-2022-142
 En el cáncer de próstata es cierto que:
 
 A. Los pacientes con enfermedad clínicamente localizada se tratan con prostatectomía radical, radioterapia o vigilancia activa.
@@ -81,11 +81,11 @@ B. Para su diagnóstico, los esquemas contemporáneos aconsejan biopsias con 10 
 C. Después de la prostatectomía radical, el PSA se vuelve indetectable en sangre en dos semanas.
 D. En su tratamiento se utilizan antiandrógenos no esteroideos de primera generación, como bicalutamida y abiraterona.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia textual con la clasificación farmacológica de la bibliografía, sin cita directa a esta pregunta exacta):** la bibliografía de Oncología describe la bicalutamida y la abiraterona como dos fármacos con mecanismos de acción COMPLETAMENTE DISTINTOS, en secciones separadas: *"■ Antiandrógenos (bicalutamida): fármacos que bloquean los receptores de los andrógenos en tejidos periféricos"* frente a *"■ Acetato de abiraterona: pequeña molécula que inhibe... el citocromo CYP17... que bloquea la síntesis de esteroides a nivel suprarrenal"* — la abiraterona NO es un antiandrógeno no esteroideo, sino un inhibidor de la síntesis de esteroides, por lo que agruparlos en la misma categoría farmacológica (opción D) es un error categórico claro. La opción A, en cambio, describe correctamente las opciones estándar de manejo de la enfermedad localizada (prostatectomía radical, radioterapia o vigilancia activa), un hecho ampliamente establecido y no controvertido de urología oncológica. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El manejo estándar del cáncer de próstata clínicamente localizado incluye tres alternativas terapéuticas con resultados oncológicos comparables en pacientes bien seleccionados: la prostatectomía radical, la radioterapia (externa o braquiterapia) y la vigilancia activa en tumores de bajo riesgo (opción A). Tras la prostatectomía radical, el PSA no se vuelve indetectable en solo dos semanas, sino que su seguimiento se realiza habitualmente a partir de las 4-6 semanas, dado el tiempo de vida media del PSA. La abiraterona no es un antiandrógeno no esteroideo de primera generación como la bicalutamida, sino un inhibidor de la síntesis de andrógenos (inhibidor del CYP17) de un grupo farmacológico distinto, empleado en enfermedad avanzada/resistente a la castración.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **1 discrepancia de confianza fuerte**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

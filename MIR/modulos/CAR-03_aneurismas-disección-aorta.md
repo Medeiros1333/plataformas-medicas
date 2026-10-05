@@ -110,7 +110,7 @@ D. En la angiografía de un paciente con trombosis arterial se objetiva mayor de
 
 **Respuesta correcta: D** — *(fuente: Examen MIR 2025, pregunta 82)*
 
-### MIR-2021-129 ⚠️
+### MIR-2021-129
 Varón de 65 años que acude a urgencias por aparición de lesiones moteadas cianóticas en los dedos de ambos pies. Antecedentes personales: tabaquismo, hipertensión arterial y dislipemia. Rx tórax: ensanchamiento mediastínico. AngioTC tóraco-abdómino-pélvica: aneurisma de aorta torácica descendente de 7 cm de diámetro, distal a arteria subclavia izquierda y con trombo mural. De las siguientes, señale la opción correcta:
 
 A. Está indicado el tratamiento con estatinas para estabilizar el trombo.
@@ -118,11 +118,13 @@ B. Es necesaria la realización de una aortografía diagnóstica urgente.
 C. En la cirugía se sustituye el segmento aneurismático por una prótesis tubular con reimplante de los troncos supraaórticos.
 D. Está indicado el implante de una endoprótesis torácica.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** un aneurisma de aorta torácica descendente de 7 cm (muy por encima del umbral de 55 mm) con trombo mural y embolización distal sintomática (síndrome del dedo azul) es, según el criterio general de esta misma bibliografía (§1.2), indicación clara de TEVAR (opción D). La opción A, marcada como oficial, no representa ninguna estrategia terapéutica establecida en la bibliografía para un aneurisma sintomático de este tamaño — no se ha localizado una recomendación de estatinas para "estabilizar" un trombo mural aórtico como alternativa a la reparación. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #28 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Este paciente presenta un aneurisma de aorta torácica descendente grande (7 cm) con trombo mural y clínica de embolización distal (lesiones cianóticas moteadas en los dedos de los pies, sugestivas de embolias de colesterol o fragmentos de trombo), un cuadro potencialmente grave que en general constituye indicación de reparación endovascular (endoprótesis torácica) dado el tamaño aneurismático (>5,5-6 cm) y las complicaciones embólicas ya presentes, siendo esta reparación electiva/preferente la actitud terapéutica de elección en la aorta torácica descendente por su menor morbimortalidad respecto a la cirugía abierta. No estaría indicado un tratamiento exclusivamente con estatinas para 'estabilizar el trombo' sin abordar la causa aneurismática de base, ni sería necesaria una aortografía diagnóstica invasiva cuando la angioTC ya ha caracterizado adecuadamente la lesión, y la sustitución quirúrgica abierta con reimplante de troncos supraaórticos correspondería a un aneurisma de aorta ascendente o de cayado, no de la aorta descendente distal a la subclavia izquierda como el descrito.
 
-### MIR-2021-130 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-130
 Varón de 85 años en fibrilación auricular permanente que consulta por sufrir un dolor brusco y frialdad en el pie derecho desde hace 6 horas. En la exploración presenta cianosis plantar con déficit parcial de sensibilidad y movilidad. El pulso femoral es palpable, estando ausentes los pulsos poplíteo y distales de dicha extremidad. De las siguientes ¿cuál es la actitud terapéutica idónea?:
 
 A. Desestimar la cirugía de revascularización, por el tiempo prolongado de isquemia.
@@ -130,11 +132,11 @@ B. Aplicar calor y avisar al cirujano vascular de guardia.
 C. Tratamiento quirúrgico urgente mediante tromboembolectomía.
 D. Tratamiento médico urgente con prostaglandinas intravenosas.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía cita esta misma pregunta de forma directa ("MIR 22, 130", desfase de año habitual de ±1) en el algoritmo de manejo de la isquemia arterial aguda: *"Rutherford II. Si la causa es embolígena, se realiza embolectomía con sonda de Fogarty (MIR 22, 130; MIR)."* El paciente descrito (déficit PARCIAL de sensibilidad/movilidad = anestesia/paresia discretas) corresponde a un Rutherford II ("extremidad viable con riesgo"), que la bibliografía indica tratar con **revascularización EMERGENTE (inmediata)**, no con el abandono de la cirugía por "tiempo prolongado de isquemia" (6 horas no se considera un tiempo prolongado que contraindique la revascularización). Esto apoya la opción C (tromboembolectomía urgente) sobre la opción A marcada como oficial. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente anciano en fibrilación auricular permanente (fuente embolígena) que presenta isquemia arterial aguda de la extremidad con pulso femoral presente pero pulsos poplíteo y distales ausentes, dolor, frialdad y déficit sensitivomotor parcial de 6 horas de evolución, el cuadro es compatible con una embolia arterial aguda (probablemente poplítea o femoral distal) con isquemia todavía viable (déficit parcial, no completo, de sensibilidad y motilidad), lo que constituye una urgencia quirúrgica vascular que requiere tromboembolectomía urgente (habitualmente con catéter de Fogarty) para restaurar el flujo antes de que la isquemia se torne irreversible. Desestimar la cirugía por el tiempo de evolución no estaría justificado con un déficit todavía parcial (isquemia viable, no irreversible), aplicar calor está contraindicado en la isquemia arterial aguda (aumenta la demanda metabólica del tejido isquémico), y las prostaglandinas intravenosas no son el tratamiento de elección en la isquemia arterial aguda embólica con indicación quirúrgica clara.
 
-> **Nota de cobertura y fiabilidad del bloque de patología arterial periférica/aneurismas:** con estas 2 preguntas se eleva a 5 preguntas reales (2024×1, 2025×2, 2021×2), **2 discrepancias de máxima/fuerte confianza (ambas con cita directa a la propia pregunta)**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-002
 Varón de 20 años, de constitución longilínea, que presenta desde hace unos 15 meses disnea de grandes esfuerzos que progresa a pequeños esfuerzos, con palpitaciones y dolor precordial. Fallece de forma súbita subiendo escaleras. En la necropsia se encuentra un vaso con la imagen de la figura. De las siguientes ¿cuál es la enfermedad más probable?:
@@ -146,9 +148,9 @@ D. Síndrome dislipémico familiar con grave aterosclerosis.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 2; la bibliografía identifica la necrosis quística de la media y el síndrome de Marfan entre las causas típicas de aneurisma/disección aórtica en pacientes jóvenes, coherente con el perfil descrito —varón joven longilíneo con clínica progresiva y muerte súbita por rotura vascular—. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura:** con esta pregunta se eleva a 6 preguntas reales, manteniendo 2 discrepancias y 4 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-135 ⚠️
+### MIR-2020-135
 Paciente de 64 años, fumador de 1 paquete al día, con antecedentes personales de diabetes mellitus tipo 2 y dislipemia, que acude a consulta refiriendo dolor en la pantorrilla derecha cuando camina 200 metros y que mejora con el reposo. ¿Qué prueba le realizaría en primer lugar?:
 
 A. Índice tobillo brazo.
@@ -156,9 +158,11 @@ B. Eco Doppler de miembros inferiores.
 C. Radiografía de columna lumbar.
 D. TC abdominal.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía es explícita, con múltiples citas directas acumuladas a lo largo de varias convocatorias ("MIR 24, 189; MIR 21, 135; MIR 17, 66; MIR 15, 9; MIR 13, 87; MIR 12, 55"): el **índice tobillo/brazo (ITB) "es el método diagnóstico más importante y la PRIMERA PRUEBA a realizar en una sospecha de oclusión arterial crónica"**, precisamente el cuadro descrito (claudicación intermitente clásica: dolor en pantorrilla con la marcha que cede con el reposo, en un paciente con múltiples factores de riesgo cardiovascular). La ecografía-doppler es la primera prueba de IMAGEN, mencionada solo tras un ITB patológico, no la primera prueba en términos absolutos. Un TC abdominal (clave oficial, D) no aparece descrito en ningún apartado de la bibliografía como prueba de primera línea ante sospecha de claudicación intermitente. Apoya la opción A (índice tobillo-brazo). Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #175 en `PROCESO_Y_APRENDIZAJE.md`. *(Pregunta reclasificada desde END — la comorbilidad diabética del enunciado es incidental, el cuadro pertenece íntegramente a patología arterial periférica.)*
+**Explicación:** El cuadro de claudicación intermitente (dolor en la pantorrilla al caminar una distancia determinada que cede con el reposo) en un paciente con múltiples factores de riesgo cardiovascular (tabaquismo, diabetes, dislipemia) es característico de enfermedad arterial periférica de miembros inferiores. La prueba inicial de elección para el diagnóstico y la cuantificación de la gravedad de la enfermedad arterial periférica es el índice tobillo-brazo, una prueba sencilla, no invasiva, económica y de alta sensibilidad y especificidad, que se calcula dividiendo la presión sistólica en el tobillo entre la presión sistólica humeral, considerándose patológico un valor inferior a 0,9. El eco-Doppler de miembros inferiores y otras pruebas de imagen se reservan para caracterizar mejor la localización y extensión de las lesiones una vez confirmada la enfermedad arterial mediante el índice tobillo-brazo, mientras que la radiografía de columna lumbar y la TC abdominal no son las pruebas de primera línea ante una claudicación intermitente típica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

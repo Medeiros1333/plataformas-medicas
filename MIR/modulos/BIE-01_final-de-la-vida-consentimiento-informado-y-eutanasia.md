@@ -91,9 +91,11 @@ B. Eutanasia activa involuntaria.
 C. Eutanasia pasiva.
 D. Suicidio asistido por un médico.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 20-21, 41"), define la LET como *"no aplicar medidas desproporcionadas en pacientes en la etapa final de la vida"* — el escenario exacto del enunciado (omisión/interrupción de tratamientos vitales para permitir el fallecimiento) — y aclara explícitamente que *"deben desterrarse expresiones como 'eutanasia pasiva' (actualmente se denomina LET)"*. Esto confirma que la opción C ("eutanasia pasiva", terminología antigua pero aún reconocible como sinónimo histórico de LET) es la respuesta coherente con el escenario descrito, mientras que el suicidio asistido (clave oficial, D) exige que sea el PROPIO PACIENTE quien se autoadministre el fármaco proporcionado por el médico — un mecanismo completamente distinto de la simple omisión/interrupción de tratamiento descrita en el enunciado. Ver hallazgo #148 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La omisión o la interrupción de tratamientos médicos que mantienen artificialmente la vida de un paciente terminal, permitiendo que la enfermedad siga su curso natural hasta el fallecimiento, se denomina clásicamente eutanasia pasiva (o, en la terminología más actual, adecuación o limitación del esfuerzo terapéutico), un concepto distinto de la eutanasia activa (en la que el médico administra directamente una sustancia para causar la muerte) y del suicidio asistido por un médico (en el que es el propio paciente quien se autoadministra la sustancia letal prescrita o facilitada por el médico, siendo el paciente, y no el médico, quien realiza el acto final).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-181
 Mujer de 89 años, institucionalizada en residencia desde hace 5 años por demencia tipo Alzheimer de 8 años de evolución. Es dependiente para todas las actividades básicas de la vida diaria y presenta deterioro cognitivo grave. No reconoce a sus familiares ni es capaz de emitir lenguaje. Ingresa por un cuadro de infección respiratoria de mecanismo aspirativo. Tras completar un ciclo antibiótico evoluciona favorablemente pero al intentar reintroducir la ingesta oral persiste disfagia con riesgo alto de aspiración. El médico responsable propone a los hijos no iniciar estrategias de alimentación enteral por sondas, sino dejar la enfermedad a su evolución natural, realizando un tratamiento sintomático de eventuales complicaciones. ¿Qué concepto ético subyace a esta decisión clínica?:
@@ -115,9 +117,11 @@ B. Se trata de una medida que depende fundamentalmente de la voluntad del médic
 C. Es una práctica equivocada y obsoleta desde que existen medios sofisticados de soporte vital artificial.
 D. Según la ley española es eutanasia.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía afirma textualmente que *"en el contexto del final de la vida, las MEDIDAS FÚTILES SON INAPROPIADAS Y NO DEBERÍAN SER ADMINISTRADAS"* — es decir, la retirada de medidas fútiles/desproporcionadas (LET) es precisamente la práctica ÉTICAMENTE RECOMENDADA, no "equivocada y obsoleta" como sostiene la clave oficial (C). La opción A ("es aceptable éticamente, aunque con ello sobrevenga la muerte del paciente") es la formulación estándar de la aceptabilidad ética de la LET en la bibliografía del proyecto. La LET tampoco es, según la Ley 3/2021, equivalente a eutanasia (D es incorrecta por definición: la eutanasia exige petición del paciente y administración activa y directa de fármacos letales, no la mera retirada de soporte). La respuesta coherente con la bibliografía es A, no C. Ver hallazgo #148 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La retirada de medidas de soporte vital cuando estas resultan fútiles en un paciente en situación terminal es una práctica éticamente aceptada y legalmente respaldada en nuestro entorno, aun cuando de ello se derive la muerte del paciente, ya que dicha muerte es consecuencia de la evolución natural de la enfermedad de base y no un acto directamente dirigido a causarla (limitación del esfuerzo terapéutico, distinto de la eutanasia). Lejos de ser una práctica obsoleta, la disponibilidad de medios sofisticados de soporte vital artificial ha hecho aún más relevante la reflexión ética sobre la futilidad terapéutica, para evitar la obstinación terapéutica. Esta decisión no depende de la voluntad unilateral del médico, sino de criterios clínicos objetivos de futilidad, y no equivale legalmente a eutanasia según la legislación española.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-177
 Mujer de 80 años que ingresa en el hospital para estudio de anemia tras ser llevada por sus hijos a urgencias por rectorragia y decaimiento físico. Clínicamente se encuentra estable. Está diagnosticada de un deterioro cognitivo, con ideación y juicio frecuentemente incoherentes y alteraciones conductuales para lo que toma risperidona. Se sospecha neoplasia maligna de colon y se plantea realizar una colonoscopia. Usted verifica que la paciente es incapaz de entender adecuadamente lo que se le explica sobre tal prueba, su naturaleza, objetivos, posibles complicaciones, o sus consecuencias diagnósticas y eventualmente terapéuticas. En tal caso, ¿cuál de las siguientes respuestas es correcta?:
@@ -143,7 +147,7 @@ D. Eutanasia.
 
 > **Nota de cobertura:** confirmación LIMPIA — decisión tomada por la PROPIA PACIENTE, competente y consciente de las consecuencias, de interrumpir un tratamiento (ventilación mecánica) — coincide exactamente con la definición de "rechazo al tratamiento" (distinta de la LET, que es una decisión propuesta por el equipo médico, no por el paciente). Sin discrepancia.
 
-### MIR-2022-182 ⚠️
+### MIR-2022-182
 Paciente de 48 años, diagnosticado de esclerosis lateral amiotrófica hace 3 años. Precisa ayuda para todas las actividades básicas de la vida diaria y sonda para mantener su alimentación. En el último año, ha tenido varios ingresos por infecciones respiratorias. Actualmente ingresa por una nueva infección respiratoria con insuficiencia respiratoria global asociada. El paciente requiere ventilación mecánica no invasiva como parte del tratamiento. Tras 5 días de ingreso, sin presentar mejoría clínica, el paciente manifiesta que está viviendo un sufrimiento intolerable, que no encuentra sentido a continuar viviendo en una situación así y solicita que se le retire la ventilación mecánica, aunque le provoque la muerte. Después de varias conversaciones, Vd. confirma con el paciente que este es su deseo y que su familia apoya la decisión. Esta se trata de una decisión de:
 
 A. Rechazo de tratamiento.
@@ -151,9 +155,11 @@ B. Limitación del esfuerzo terapéutico.
 C. Obstinación terapéutica.
 D. Eutanasia.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, con precedente interno del propio módulo):** el enunciado describe la retirada de ventilación mecánica a petición del PROPIO PACIENTE, competente e informado, con apoyo familiar. La bibliografía define "rechazo al tratamiento" exactamente como *"decisión del PACIENTE (competente, informando que comprende las consecuencias) de NO iniciar o de INTERRUMPIR un tratamiento"* — coincidiendo punto por punto con este caso. Este mismo módulo contiene un caso estructuralmente IDÉNTICO (**MIR-2024-178**: paciente de UCI, competente, solicita la retirada de la ventilación mecánica sabiendo que causará su muerte), verificado como LIMPIO con clave oficial A (Rechazo al tratamiento) — la inconsistencia entre las claves oficiales de ambos casos, prácticamente calcados en su estructura, refuerza esta discrepancia. La eutanasia exige la administración ACTIVA de fármacos por el médico para causar la muerte, no la simple retirada/interrupción de un tratamiento de soporte ya instaurado a petición del paciente. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Un paciente competente, informado y con una decisión reiterada que solicita que se le retire un tratamiento de soporte vital (la ventilación mecánica no invasiva), aunque ello le provoque la muerte, está ejerciendo su derecho a rechazar un tratamiento (A), recogido en la Ley de Autonomía del Paciente (Ley 41/2002). El rechazo del tratamiento incluye tanto no iniciarlo como retirarlo una vez iniciado, y debe respetarse, aplicando sedación y medidas de confort. No es una eutanasia (D), porque la muerte se produce por la evolución de la enfermedad y no por una acción dirigida a causarla (la eutanasia, regulada por la Ley 3/2021, es la administración de una sustancia a petición del paciente). Tampoco es una limitación del esfuerzo terapéutico (B), que es una decisión del equipo médico ante medidas fútiles, ni una obstinación terapéutica (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-073
 Respecto a la Ley Orgánica 3/2021, de regulación de la eutanasia, señale la afirmación correcta:
@@ -175,9 +181,11 @@ B. Decirle que yo no tengo nada que ver con el paciente y terminar la conversaci
 C. Transmitir al médico responsable del paciente la pregunta de mi colega y ponerles en contacto.
 D. Mandarle un informe escrito del paciente para evitar dar información por teléfono.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 40, citado directamente en la bibliografía de Bioética como "MIR 20-21, 40" en el epígrafe de Confidencialidad y secreto profesional, §1.5)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 40)*
 
-> **Nota de cobertura:** confirmación con cita directa al chequeo del tema, aunque la bibliografía no detalla explícitamente por qué D es preferible a C — el principio general citado ("el secreto profesional debe ser la regla... el médico podrá revelar el secreto exclusivamente ante quien tenga que hacerlo, en sus justos límites") es coherente con evitar compartir información verbalmente por teléfono, canal no verificable con seguridad, incluso ante un colega reconocido por la voz. Sin discrepancia detectada.
+**Explicación:** Ante una solicitud de información clínica sobre un paciente por parte de un compañero de otro centro, aunque se le identifique y conozca personalmente, debe extremarse la prudencia en el manejo de la confidencialidad de los datos de salud, ya que la mera identificación telefónica no constituye una garantía suficiente de la finalidad y legitimidad del acceso a la información en el marco de la protección de datos sanitarios. Por ello, se considera más adecuado formalizar la comunicación mediante un informe clínico escrito dirigido específicamente al facultativo solicitante en el contexto de la interconsulta solicitada, en lugar de facilitar datos clínicos de forma verbal y no trazable por teléfono, minimizando así el riesgo de una transmisión de información inadecuada o mal verificada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-180
 ¿Qué tipo de deseos del paciente NO pueden atenderse en una planificación anticipada de decisiones (o planificación compartida de la atención)?:
@@ -187,11 +195,13 @@ B. Donación de órganos.
 C. Rechazo de intervenciones sin riesgo vital.
 D. Instauración de intervenciones fútiles, sin indicación clínica.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> **Nota de cobertura:** confirmación LIMPIA con correspondencia textual — la bibliografía (§1.8) enumera expresamente las medidas susceptibles de planificación (cuidados paliativos, sedación, rechazo de medidas desproporcionadas/UCI/RCP) sin mencionar en ningún momento la donación de órganos, que se rige por su propio marco legal específico y no por este documento de preferencias de final de vida. La bibliografía también confirma explícitamente que NO se puede planificar recibir medidas fútiles o sin indicación clínica (opción D, correctamente excluida también, pero B es la respuesta pedida). Sin discrepancia.
+**Explicación:** La planificación anticipada de decisiones (y su expresión documental, las instrucciones previas o voluntades anticipadas) permite al paciente dejar constancia de sus valores y preferencias sobre los cuidados que desea o no recibir, para cuando no pueda decidir. Puede incluir el rechazo de intervenciones con o sin riesgo vital (A y C) y el destino de su cuerpo y la donación de órganos (B), que la ley española recoge expresamente como contenido posible de las instrucciones previas. Lo que NO puede atenderse son las peticiones de intervenciones fútiles o sin indicación clínica (D), ni las contrarias al ordenamiento jurídico o a la lex artis: el paciente puede rechazar tratamientos, pero no exigir los que no están indicados.
 
-### MIR-2022-187 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-187
 Si una persona que es menor de 18 años desea ser donante de órgano de vivo. ¿Cuál de las siguientes afirmaciones es cierta?:
 
 A. Si la persona tiene entre 16 y 18 años, la decisión corresponde a la persona menor si demuestra que es capaz de comprender el alcance del procedimiento, pero los padres o tutores deben ser consultados obligatoriamente.
@@ -199,9 +209,11 @@ B. Si la persona tiene entre 16 y 18 años, la decisión corresponde a los padre
 C. En caso de conflicto entre el criterio del menor y el de sus padres o tutores legales, debe resolver un juez mediante la aplicación del principio del interés superior del menor.
 D. Los menores de 18 años no pueden ser donantes de órganos de vivo, según la Ley. No hay excepciones.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía de Bioética cita explícitamente esta pregunta exacta — *"Tampoco podrá realizarse la obtención de órganos de menores de edad, aun con el consentimiento de los padres o tutores. Los menores de edad solo podrán ser donantes de residuos quirúrgicos o de progenitores hematopoyéticos u otros tejidos o grupos celulares reproducibles [...] pero no de órgano de vivo **w MIR 22-23, 187**"* (aplicando el desfase habitual de cita AMIR/CTO, "MIR 22-23, 187" corresponde a MIR-2022-187 en este dataset). Esta es una correspondencia EXACTA y literal, con el propio número de pregunta citado en la fuente: los menores de edad NUNCA pueden ser donantes de un órgano de donante vivo, bajo ninguna circunstancia ni edad (16-18 años) ni con consentimiento parental — contradiciendo frontalmente las opciones A, B y C, que describen distintos mecanismos por los que un menor SÍ podría llegar a donar un órgano. La única opción compatible con la bibliografía es D. Apoya la opción D. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación — esta es una de las discrepancias con la correspondencia textual más exacta y directa (con número de pregunta explícito) documentada en todo el proyecto.
+**Explicación:** La normativa española reguladora de la obtención y utilización de órganos humanos con fines de trasplante (Ley 30/1979 y RD 1723/2012) exige que el donante vivo sea mayor de edad, gozando de plenas facultades mentales, y prestando su consentimiento de forma expresa, libre y consciente, sin contemplar excepciones para menores de edad en la donación de órganos en vida, dada la especial protección legal que se otorga a los menores frente a decisiones de riesgo para su propia integridad física que no reportan un beneficio terapéutico directo para ellos mismos. Esto contrasta con otras decisiones sanitarias en las que sí se reconoce capacidad decisoria progresiva al menor maduro (habitualmente a partir de los 16 años) para consentir determinados procedimientos en su propio beneficio, marco no aplicable, sin embargo, a la donación de órganos de vivo.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-074
 La deliberación como proceso en situaciones clínicas complejas se define como:
@@ -215,7 +227,7 @@ D. La intervención de un mediador externo cuando existe conflicto de opiniones.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, concepto estándar y no controvertido de la metodología bioética deliberativa —de raíz aristotélica, sistematizada en el ámbito clínico español por Diego Gracia—, sin cita directa a esta pregunta exacta localizada en la bibliografía cacheada de esta sesión) — la deliberación se define precisamente como el análisis prudente de hechos, valores y deberes en conflicto para alcanzar la decisión más razonable en un contexto de incertidumbre, coincidiendo con la clave oficial A; no es una negociación (B), ni una autorreflexión aislada (C), ni la intervención de un mediador (D). Sin discrepancia.
 
-### MIR-2022-183 ⚠️
+### MIR-2022-183
 Varón de 65 años traído al servicio de Urgencias intubado y sedado por un politraumatismo tras un accidente de tráfico. Tras la valoración inicial se objetiva una laceración esplénica que requiere intervención quirúrgica urgente. ¿Cómo se debería proceder con el proceso de consentimiento y la firma del formulario de consentimiento a la cirugía?:
 
 A. No es posible realizar una intervención quirúrgica urgente cuando sólo se obtiene un consentimiento verbal de un representante del paciente.
@@ -223,11 +235,11 @@ B. Si no se pudiera contactar con ningún familiar o allegado del paciente no po
 C. El médico responsable debe intentar contactar con los familiares del paciente y, tras explicar la situación, obtener de ellos el consentimiento para realizar la intervención.
 D. Sin un documento de consentimiento informado firmado por los familiares del paciente no es posible realizar la intervención.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía cita explícitamente esta pregunta al introducir el consentimiento informado ("**w MIR 22-23, 183**", aplicando el desfase habitual) y establece de forma inequívoca: *"Como norma general el consentimiento informado es VERBAL"*, y además: *"Los facultativos podrán llevar a cabo las intervenciones clínicas indispensables en favor de la salud del paciente, SIN NECESIDAD DE CONTAR CON SU CONSENTIMIENTO, cuando exista riesgo inmediato grave para su integridad física y no sea posible conseguir su autorización, consultando, CUANDO LAS CIRCUNSTANCIAS LO PERMITAN, a sus familiares"* — es decir, ni siquiera el consentimiento de los familiares es un requisito absoluto en una urgencia vital, y cuando se obtiene, puede ser VERBAL. Esto contradice frontalmente la clave oficial (A), que afirma que NO es posible operar con un mero consentimiento verbal de un representante — justo lo contrario de lo que dice la propia fuente citada para esta pregunta exacta. Apoya la opción C (contactar con familiares y, si es posible, obtener su consentimiento verbal, sin que ello sea un requisito formal escrito ni absoluto). Se mantiene la clave oficial (A) sin alterar — una de las contradicciones más directas del módulo, con cita textual explícita al propio número de pregunta.
+**Explicación:** La Ley 41/2002, básica reguladora de la autonomía del paciente, contempla que los facultativos pueden llevar a cabo las intervenciones clínicas indispensables en favor de la salud del paciente sin necesidad de contar con su consentimiento (ni siquiera el de sus representantes) cuando exista un riesgo inmediato grave para la integridad física y no sea posible conseguir su autorización, consultando, cuando las circunstancias lo permitan, a sus familiares. En el caso de una laceración esplénica con indicación de cirugía urgente en un paciente intubado y sedado, la ausencia de un consentimiento firmado no debe demorar la intervención indispensable para salvar la vida del paciente, si bien es buena práctica clínica intentar localizar a los familiares siempre que la urgencia lo permita, dejando constancia en la historia clínica de las circunstancias que han obligado a actuar sin el consentimiento habitual.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** 14 preguntas reales (2020, 2022×4, 2023, 2024×2, 2025×3, más 1 nueva de años previos), **5 discrepancias**, 3 de MÁXIMA confianza con cita textual directa (número de pregunta explícito en la bibliografía); 9 preguntas limpias. **Primer módulo de la especialidad Bioética en todo el proyecto** — bibliografía dedicada (`02_Bibliografia/Bioetica CTO.pdf`) extraída íntegramente en esta sesión (3414 líneas) tras detectarse que solo se había usado parcialmente en sesiones anteriores.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

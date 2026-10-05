@@ -64,9 +64,11 @@ B. Medida del diámetro biparietal fetal.
 C. Peso fetal.
 D. Actitud de la cabeza fetal.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 22, 72", desfase de año habitual de ±1), afirma explícitamente: *"el tamaño de la cabeza fetal (DBP) NO es una contraindicación"* — es decir, la opción B (diámetro biparietal, no elegida) es precisamente el parámetro que la bibliografía identifica como NO relevante para esta decisión, y por tanto la respuesta correcta a "¿cuál NO constituye un criterio?". El tipo de presentación podálica (opción A, oficial), en cambio, SÍ es un criterio explícito y central: la misma bibliografía especifica que solo se permite la vía vaginal en "nalgas puras o completas", excluyendo expresamente las nalgas incompletas — es decir, el tipo de presentación SÍ determina la elección de la vía del parto, contradiciendo la clave oficial. Ver hallazgo #115 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** Para decidir la vía del parto en la presentación de nalgas al inicio del trabajo de parto se valoran, entre otros: el tipo de presentación podálica (las nalgas puras o completas permiten intentar el parto vaginal, mientras que las incompletas o de pies lo contraindican por riesgo de prolapso de cordón) (A); el peso fetal estimado (se desaconseja el parto vaginal por encima de unos 3.800-4.000 g o con CIR) (C); y la actitud de la cabeza fetal (la hiperextensión o deflexión de la cabeza contraindica el parto vaginal) (D). La medida del diámetro biparietal fetal (B) NO se utiliza como criterio de selección de la vía del parto en la presentación de nalgas, por lo que es la respuesta correcta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-070
 Mujer primigesta de 35 años que se encuentra en la segunda etapa del parto. Lleva analgesia epidural. ¿Cuándo estará indicada la aplicación de la ventosa para abreviar el periodo expulsivo?:
@@ -80,7 +82,7 @@ D. Cuando se produzca una bradicardia fetal que no se recupera tras el cese de l
 
 *(Sin discrepancia — coincide con la bibliografía, que cita esta misma pregunta directamente ("MIR 23, 70"): la ventosa requiere que la presentación haya alcanzado al menos el III plano de Hodge y esté en posición occipitopúbica. La opción D describe la fontanela MENOR (posterior, propia de una presentación de vértice bien flexionada/occipital) "pasado el III plano" —cumple el requisito de plano— junto con una indicación fetal válida (bradicardia no recuperada = sufrimiento fetal agudo, indicación explícita de la bibliografía). La opción A no alcanza el plano requerido (II, no III); la B describe una presentación no encajada en absoluto (sobre el estrecho superior), indicación de cesárea urgente, no de parto instrumental; la C describe una presentación de CARA (punto guía el mentón), con la cabeza deflexionada, no apta para ventosa.)*
 
-> **Nota de cobertura y fiabilidad:** 2 preguntas reales (2021, 2022), **1 con discrepancia de máxima confianza** (MIR-2021-072, #115, confirmada por cita textual directa) y 1 limpia y muy bien confirmada por la misma vía.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2016-164
 ¿En cuál de las siguientes presentaciones fetales estaría indicada siempre la realización de cesárea?

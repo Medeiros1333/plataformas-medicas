@@ -77,9 +77,11 @@ B. La morfina que se pauta para el dolor moderado-grave tiene un efecto positivo
 C. La dexametasona que se emplea como antiinflamatorio se usa también para mejorar el apetito.
 D. El haloperidol que se utiliza para paliar la agitación del delirium puede ser usado como antiemético, aunque en dosis menores.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 184)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 184)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma textualmente que "la disnea del paciente terminal se trata con opiáceos" — por lo tanto, la afirmación B (morfina con efecto positivo sobre la disnea) es VERDADERA, no la incorrecta que pide el enunciado. En cambio, la buscapina (butilbromuro de escopolamina) es un fármaco ANTICOLINÉRGICO, cuya única función descrita en la bibliografía es "disminuir el volumen de las secreciones" en los estertores de la agonía — por su mecanismo anticolinérgico bien establecido, este tipo de fármacos favorece el estreñimiento (efecto adverso de clase), no lo evita ni disminuye, lo que hace que la opción A sea la afirmación realmente incorrecta. No se ha alterado `respuesta_correcta` (se mantiene B), pero se aplica el criterio farmacológico correcto (A es la incorrecta) en el punto clave 8 de este módulo.
+**Explicación:** En cuidados paliativos se busca aprovechar el efecto beneficioso adicional de algunos fármacos sobre síntomas distintos a su indicación principal: la dexametasona, empleada como antiinflamatorio, mejora también el apetito (efecto orexígeno) (opción C verdadera), y el haloperidol, utilizado para la agitación del delirium, puede emplearse también como antiemético a dosis menores por su acción antidopaminérgica (opción D verdadera). La morfina, pautada para el dolor moderado-grave, tiene además un efecto beneficioso bien documentado sobre la disnea, reduciendo la sensación subjetiva de falta de aire, por lo que esta afirmación es VERDADERA y no la incorrecta que se busca. La buscapina (butilescopolamina), un anticolinérgico empleado para reducir las secreciones respiratorias terminales, tiene como efecto secundario típico de su clase farmacológica el enlentecimiento de la motilidad intestinal, por lo que favorece el estreñimiento en lugar de disminuirlo, siendo esta la afirmación que en realidad resulta incorrecta.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-209
 La vía subcutánea es de gran utilidad en el tratamiento de pacientes en situación de cuidados paliativos y se considera de elección cuando la vía oral no es posible. Sin embargo, hay fármacos cuyo uso por vía subcutánea está desaconsejado. Uno de esos fármacos es:
@@ -89,7 +91,11 @@ B. Metamizol.
 C. Haloperidol.
 D. Metoclopramida.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 209; consistente con la práctica clínica habitual en paliativos, donde morfina, oxicodona, metadona, haloperidol y metoclopramida son fármacos de uso subcutáneo bien establecido — ver §1.4; pregunta sin discrepancia detectada en la bibliografía disponible)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 209)*
+
+**Explicación:** La vía subcutánea es de elección en cuidados paliativos cuando la vía oral no es posible, siendo fármacos como el haloperidol y la metoclopramida de uso subcutáneo habitual y bien tolerado (opciones C y D). El metamizol, sin embargo, es un fármaco clásicamente desaconsejado por vía subcutánea en la práctica paliativa española, ya que produce con frecuencia irritación local, dolor e induración en el punto de punción, con una absorción poco predecible por esta vía.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-179
 Respecto al tratamiento del dolor en cuidados paliativos, indique, de las siguientes afirmaciones, cuál es correcta:
@@ -129,11 +135,13 @@ B. Los ensayos clínicos demuestran diferencias en la eficacia y tolerabilidad e
 C. La rotación de opioides o la analgesia raquídea son medidas de tratamiento del dolor refractario.
 D. La eficacia de la escalera analgésica de la Organización Mundial de la Salud (OMS) es del 80-90 %.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> **Nota de cobertura:** la opción A coincide con §1.4 (fentanilo transmucoso = elección en el dolor irruptivo). No se ha localizado en la bibliografía disponible un dato textual que confirme o contradiga con la confianza necesaria la cifra concreta de eficacia de la escalera de la OMS citada en la opción D (marcada como oficial); se mantiene la clave oficial sin nota de discrepancia por falta de una fuente textual directa.
+**Explicación:** La afirmación que NO es cierta es la B: los ensayos clínicos y las revisiones sistemáticas no han demostrado diferencias relevantes de eficacia ni de tolerabilidad entre los distintos opioides mayores (morfina, oxicodona, fentanilo, hidromorfona…) en el dolor oncológico; la elección se individualiza según la vía, la función renal, las interacciones y la respuesta del paciente, y la morfina sigue siendo el opioide de referencia. El resto son ciertas: el fentanilo transmucoso (oral o nasal), por su rapidísimo inicio de acción, es el fármaco de elección en el dolor irruptivo oncológico (A); la rotación de opioides y la analgesia espinal (intratecal/epidural) son estrategias para el dolor refractario (C); y la escalera analgésica de la OMS consigue un control adecuado del dolor en aproximadamente el 80-90% de los pacientes (D).
 
-### MIR-2023-182 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-182
 Le avisa el equipo de enfermería por un paciente ingresado con un adenocarcinoma de pulmón con metástasis óseas. Su tratamiento analgésico incluye morfina de liberación prolongada oral y también contempla la administración, en forma de medicación de rescate, de cloruro mórfico intravenoso cada 4 horas si el paciente lo requiere. La percepción de los enfermeros es que tiene dolor, pero su familiar solicita que no se administre cloruro mórfico como analgésico porque "no quiero verle dormido". ¿Cuál de las siguientes opciones sería la primera a realizar en esta situación?:
 
 A. Aceptar la petición del familiar y prescribir un analgésico no opioide para el control del dolor.
@@ -141,9 +149,11 @@ B. Rechazar la solicitud del familiar y ordenar la administración de cloruro m�
 C. Plantear la rotación del tratamiento analgésico por otro opioide con menor riesgo sedante, como oxicodona/naloxona.
 D. Preguntar al paciente acerca de la intensidad de su dolor actual y de sus preferencias de analgesia en este momento.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** entre los principios generales de manejo del paciente terminal, la bibliografía indica expresamente *"acordar CON EL PACIENTE (hasta donde sea posible) las diferentes opciones terapéuticas"* — situando al propio paciente, no a un familiar, como el interlocutor prioritario en las decisiones sobre su analgesia. La opción D (preguntar al paciente su dolor actual y sus preferencias) es la actuación más coherente con este principio como PRIMER paso; la opción A, marcada como oficial, supone acceder directamente a la petición del familiar (sustituyendo el opioide por uno no opioide, previsiblemente insuficiente para un dolor oncológico óseo ya tratado con morfina) sin haber consultado antes al propio paciente. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #154 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Ante la percepción de dolor no controlado por parte del equipo de enfermería y la oposición del familiar a la administración de cloruro mórfico por temor a la sedación, la actuación éticamente más correcta y acorde con el principio de autonomía del paciente es valorar directamente con el propio paciente la intensidad de su dolor y sus preferencias respecto al tratamiento analgésico, antes de tomar cualquier decisión terapéutica basada únicamente en el criterio del familiar. El control adecuado del dolor es un derecho del paciente que no debe subordinarse a las preferencias de terceros sin explorar antes la opinión y la vivencia del propio enfermo, siempre que este conserve capacidad para decidir.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-185
 Mujer de 61 años con adenocarcinoma rectal avanzado. Presenta dolor neuropático con irradiación perineal y molestias urinarias en relación con masa presacra. Mejoró con tratamiento con opioides (morfina 60 mg cada 12h) pero no tolera más aumento de dosis ni fármacos adyuvantes. ¿Cuál es el tratamiento de elección?:
@@ -157,7 +167,7 @@ D. Bloqueo del nervio pudendo.
 
 > **Nota de cobertura:** confirmación LIMPIA — el bloqueo del ganglio impar (de Walther) es la técnica intervencionista clásica para el dolor visceral/neuropático de origen pélvico-perineal (4.º escalón de la escalera analgésica, §1.3), coherente con la localización presacra/perineal descrita y con la clave oficial. El bloqueo del plexo celíaco (opción A) se emplea en dolor abdominal alto (páncreas), no perineal. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad ampliada:** con estas 3 preguntas se eleva a 8 preguntas reales, **2 discrepancias de confianza fuerte** (1 previa + 1 nueva), 6 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-128
 Un paciente de 68 años con adenocarcinoma de páncreas metastásico en situación de últimos días de vida presenta en las últimas 24 horas agitación, desorientación y alucinaciones visuales. Recibe morfina subcutánea en perfusión continua, dexametasona y midazolam a demanda. En la exploración presenta ictericia y asterixis, sin fiebre ni signos de focalidad neurológica. Los análisis muestran bilirrubina 9 mg/dL, transaminasas x4 y amonio elevado. ¿Cuál de las siguientes medidas farmacológicas es más adecuada en este contexto?:
@@ -168,8 +178,6 @@ C. Iniciar lactulosa y rifaximina para tratar una posible encefalopatía hepáti
 D. Sustituir la morfina por buprenorfina sublingual para reducir efectos neurotóxicos.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 128; el haloperidol es, según la propia bibliografía de este módulo, el fármaco estándar para el control sintomático de la agitación/delirium en el paciente terminal —con precedente de dosificación descrita en un caso similar de la misma fuente, "haloperidol 5-10 mg/día"—. El delirium en un paciente terminal con enfermedad hepática avanzada es característicamente multifactorial, y la revisión/ajuste de fármacos con potencial neurotóxico o precipitante (opioides, corticoides) es la medida complementaria estándar, frente a escalar el tratamiento sintomático sin más (opción A) o iniciar un tratamiento dirigido a la encefalopatía hepática (opción C) que en fase de últimos días de vida no es la prioridad farmacológica. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde DIG)*
-
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 9 preguntas reales, manteniendo 2 discrepancias y sumando 7 limpias.
 
 ### MIR-2023-183
 Hombre de 73 años de edad diagnosticado hace 8 meses de un adenocarcinoma de próstata con metástasis óseas, en tratamiento con hormonoterapia. Acude a urgencias por aumento del dolor dorso-lumbar que no cede con la medicación prescrita. Hasta el momento estaba en tratamiento con fentanilo en parche transdérmico 25 mcg/h cada 72 horas y metamizol en caso de dolor, pero desde hace unas 48 horas no le alivia el dolor, que refiere como continuo, sordo, que se exacerba con los movimientos y de características similares al de base pero con mayor intensidad. En este contexto, señale la respuesta INCORRECTA:
@@ -185,7 +193,7 @@ D. La radioterapia con finalidad analgésica es una opción en pacientes con met
 
 ---
 
-### MIR-2022-185 ⚠️
+### MIR-2022-185
 Paciente en tratamiento con opioides mayores por dolor oncológico, que presenta estreñimiento inducido por opioides a pesar de laxantes. Respecto al manejo de este estreñimiento, señale la afirmación INCORRECTA:
 
 A. Se recomienda aumentar el consumo de fibra dietética como medida de primera línea.
@@ -193,11 +201,11 @@ B. Debe realizarse profilaxis laxante sistemática desde el inicio del tratamien
 C. Puede requerirse un antagonista opioide periférico (p. ej. naloxegol o metilnaltrexona) si los laxantes convencionales no son suficientes.
 D. No se desarrolla tolerancia al efecto estreñidor de los opioides con el tiempo.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** el estreñimiento inducido por opioides tiene un mecanismo predominantemente MOTOR (enlentecimiento del tránsito por acción sobre receptores opioides intestinales), por lo que el aumento de la fibra dietética —eficaz en el estreñimiento por tránsito lento de otras causas— está clásicamente desaconsejado en este contexto específico, ya que puede aumentar el volumen fecal sin mejorar el tránsito, empeorando distensión y disconfort. Las opciones B, C y D coinciden con el manejo estándar descrito en este módulo (profilaxis laxante sistemática §1.4/punto clave 5; antagonistas opioides periféricos como escalón terapéutico adicional; ausencia de tolerancia al estreñimiento). Apoya la opción A como la verdadera incorrecta. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El tratamiento del estreñimiento en cuidados paliativos se basa en la combinación de laxantes estimulantes y osmóticos, reblandecedores de heces, adecuada ingesta de líquidos y, si es necesario, enemas (opción B verdadera). Si tras varios días de tratamiento no hay defecación, es necesario realizar un tacto rectal para valorar y, en su caso, extraer manualmente el material fecal impactado (opción D verdadera). Para prevenir el estreñimiento inducido por opioides se recomienda de forma característica la combinación de un laxante estimulante junto con un reblandecedor de heces (opción C verdadera). En pacientes en tratamiento con opioides y, en general, en el paciente terminal con baja ingesta de líquidos y movilidad reducida, los suplementos de fibra vegetal NO se recomiendan, ya que sin un aporte hídrico adecuado pueden favorecer la impactación fecal y empeorar el cuadro obstructivo.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 10 preguntas reales, **3 discrepancias** (2 previas + 1 nueva), 7 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-125
 Mujer de 84 años con enfermedad de Alzheimer en fase terminal, institucionalizada desde hace tres años, dependiente para todas las actividades básicas y sin lenguaje comprensible. En los últimos seis meses ha requerido tres ingresos por neumonía por aspiración. Tras la última alta, ya en la residencia no acepta alimentos ni líquidos, mantiene la boca cerrada y rechaza la alimentación incluso con ayuda. Su hija, muy angustiada, pide "que se le ponga algo para alimentarla, aunque sea por una sonda". ¿Cuál es la actuación más adecuada en esta situación?:
@@ -208,8 +216,6 @@ C. Explicar a la hija que la falta de apetito y deglución son parte del proceso
 D. Intentar alimentación con espesantes y suplementos hipercalóricos durante unos días, animando a la hija a insistir en que su madre abra la boca y no tosa.
 
 **Respuesta correcta: C** — *(confianza máxima, coincide de forma literal con el contenido ya establecido en §1.5 de este módulo: "la hidratación y/o nutrición parenteral NO aportan beneficio al paciente agonizante". En la demencia avanzada terminal, el rechazo de alimentos/líquidos es parte del proceso natural de fin de vida; la evidencia no respalda la nutrición artificial [sonda, gastrostomía, parenteral] en este contexto, que no mejora la supervivencia ni la calidad de vida y puede añadir sufrimiento [aspiración, complicaciones del dispositivo, sujeción física]. La actuación adecuada combina el manejo del malestar de la paciente con el acompañamiento y la contención emocional de la familia. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 11 preguntas reales, manteniendo 3 discrepancias y sumando 8 limpias.
 
 ## 4. Preguntas inéditas
 

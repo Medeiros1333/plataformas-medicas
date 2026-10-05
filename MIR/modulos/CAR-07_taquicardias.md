@@ -72,7 +72,7 @@ D. Si se confirma el diagnóstico, debe estudiar a los familiares cercanos para 
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2024, pregunta 164; en la fase crónica con cardiopatía ya establecida, el benznidazol no ha demostrado modificar significativamente la evolución de la enfermedad cardiaca)*
 
-### MIR-2021-123 ⚠️
+### MIR-2021-123
 ¿Cuál de las siguientes afirmaciones es FALSA con relación al síndrome del QT largo?
 
 A. Los betabloqueantes están contraindicados en el QT largo congénito.
@@ -80,11 +80,13 @@ B. Los antidepresivos tricíclicos pueden dar lugar a un QT largo adquirido.
 C. Predispone a la taquicardia ventricular polimórfica.
 D. Su fisiopatología se basa en una alteración de los canales iónicos responsables del potencial de acción transmembrana de la célula miocárdica.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 123)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 123)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica textualmente, con cita cercana ("MIR 22, 123"), que "todos los pacientes con diagnóstico de SQTL deben recibir beta-bloqueantes" — es decir, los betabloqueantes son el pilar fundamental del tratamiento, NUNCA están contraindicados (opción A, falsa según la clave oficial, es en realidad la afirmación incorrecta/falsa real). La opción D, marcada oficialmente como la falsa, es simplemente la definición correcta y fundamental de una canalopatía (enfermedad de los canales iónicos del potencial de acción) — un hecho indiscutible. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2021 — la respuesta consistente con la bibliografía es A. Ver hallazgo #54 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El síndrome de QT largo (congénito o adquirido) se debe a alteraciones en los canales iónicos responsables de las corrientes de repolarización del potencial de acción cardiaco (canales de potasio o de sodio, según el subtipo genético), lo que prolonga la repolarización ventricular y predispone a la aparición de torsade de pointes, una taquicardia ventricular polimórfica potencialmente mortal. Diversos fármacos, entre ellos los antidepresivos tricíclicos, antipsicóticos, macrólidos y antiarrítmicos de clase Ia y III, pueden prolongar el intervalo QT y producir una forma adquirida del síndrome. En el QT largo congénito, lejos de estar contraindicados, los betabloqueantes constituyen el tratamiento de primera línea, ya que reducen de forma demostrada el riesgo de eventos arrítmicos y de muerte súbita al disminuir el tono simpático, uno de los principales desencadenantes de las arritmias en esta entidad.
 
-### MIR-2021-124 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-124
 Mujer de 82 años con fibrilación auricular crónica de 10 años de evolución y función sistólica biventricular conservada que presenta episodios de bloqueo aurículo-ventricular completo sintomáticos, por lo que se decide implantar un sistema de estimulación cardiaco definitivo. ¿Cuál de los siguientes está indicado?
 
 A. Marcapasos DDD (bicameral).
@@ -92,11 +94,13 @@ B. Marcapasos VVI (unicameral ventricular).
 C. Marcapasos AAI (unicameral auricular).
 D. Terapia de resincronización ventricular (TRC).
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 124)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 124)*
 
-> ⚠️ **Nota de verificación fuerte:** la paciente está en fibrilación auricular CRÓNICA (permanente), es decir, sin ritmo auricular organizado que se pueda estimular ni sensar de forma útil — un marcapasos AAI (unicameral auricular, opción C, marcada oficialmente) no tiene ningún sentido fisiopatológico en este contexto, ya que su función depende de la existencia de un ritmo auricular organizado. El dispositivo apropiado ante bloqueo AV completo sintomático en un paciente con FA permanente es un marcapasos VENTRICULAR (VVI, opción B). Se mantiene la letra oficial (C) sin alteración, conforme al protocolo de verificación, pero se marca como caso de muy alta sospecha de error en la clave oficial 2021 — la respuesta fisiopatológicamente coherente es B. Ver hallazgo #54 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En una paciente con fibrilación auricular crónica permanente que desarrolla bloqueo aurículo-ventricular completo sintomático, la aurícula ya no tiene una actividad eléctrica organizada capaz de ser sensada o estimulada de forma útil (al estar en fibrilación auricular), por lo que un marcapasos bicameral (DDD) no aportaría beneficio adicional sobre la estimulación auricular, siendo redundante e innecesariamente complejo. Tampoco tendría sentido implantar un marcapasos unicameral auricular (AAI), que requiere un nodo sinusal funcionante y una conducción AV intacta, justo lo contrario de lo que ocurre en este bloqueo AV completo. Dado que la función sistólica biventricular está conservada (sin indicación de resincronización, reservada a pacientes con disfunción ventricular y disincronía), el dispositivo indicado es un marcapasos unicameral ventricular (VVI), que estimula el ventrículo de forma fija o con respuesta en frecuencia, adecuado en pacientes con FA permanente y bloqueo AV completo sintomático.
 
-### MIR-2021-125 ⚠️⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-125
 Varón de 23 años diagnosticado de síndrome de Wolff-Parkinson-White que acude a urgencias por palpitaciones. El ECG muestra una taquicardia irregular de QRS ancho, con una frecuencia cardiaca de 205 lpm, compatible con fibrilación auricular preexcitada. ¿Cuál de los siguientes fármacos considera adecuado administrar para detener la taquicardia?
 
 A. Verapamilo.
@@ -104,9 +108,11 @@ B. Digoxina.
 C. Adenosina.
 D. Procainamida.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 125)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 125)*
 
-> ⚠️⚠️ **Nota de verificación fuerte — hallazgo de especial relevancia clínica:** la bibliografía establece de forma explícita y categórica, en el apartado dedicado específicamente a la FA preexcitada: **"FA preexcitada (FA + WPW): No dar frenadores. Cardiovertir (procainamida o CVE)."** El verapamilo (opción A, marcada oficialmente como correcta) es precisamente uno de los "frenadores" del nodo AV explícitamente contraindicados en este escenario — su administración puede desviar la conducción completamente hacia la vía accesoria, acelerando peligrosamente la respuesta ventricular y precipitando fibrilación ventricular o muerte súbita. Las otras opciones "frenadoras" (digoxina, adenosina) también están contraindicadas por el mismo motivo. La única opción correcta según la bibliografía es la procainamida (opción D). Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de **muy alta sospecha de error en la clave oficial 2021, con relevancia clínica potencialmente grave** (comparable en gravedad al hallazgo #42 de pericarditis/IAM) — la respuesta correcta y clínicamente segura es D. Ver hallazgo #54 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente con síndrome de Wolff-Parkinson-White que presenta una fibrilación auricular preexcitada (conducción anterógrada a través de la vía accesoria, con QRS ancho e irregular a frecuencia muy elevada), están contraindicados los fármacos que bloquean el nodo AV (digoxina, verapamilo, betabloqueantes, adenosina), ya que al frenar la conducción por la vía normal favorecen que la conducción se realice preferentemente por la vía accesoria, pudiendo acelerar la respuesta ventricular y precipitar una fibrilación ventricular. El fármaco de elección en estos casos es la procainamida (u otro antiarrítmico de clase Ia/Ic), que enlentece la conducción por la propia vía accesoria, o alternativamente la cardioversión eléctrica si existe inestabilidad hemodinámica.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-127
 La aparición de torsades de pointes, por alargamiento del intervalo QT en el electrocardiograma, puede aparecer con más probabilidad en el curso de un tratamiento antiarrítmico con fármacos del grupo:
@@ -120,7 +126,7 @@ D. IV (por ejemplo, diltiazem).
 
 *(Sin discrepancia — máxima confianza: la bibliografía AMIR (Tema 3.6, Tabla 2 "Características de los fármacos antiarrítmicos") cita esta misma pregunta DOS veces de forma directa ("MIR 21, 127", desfase de año habitual de ±1), asociando explícitamente el grupo Ia (procainamida, quinidina) con "QT largo" y "taquicardias en torsades de pointes ('síndrome quinidina-like')" como efecto adverso característico. Confirma la clave oficial con el máximo nivel de certeza disponible en este proyecto — doble cita textual directa.)*
 
-### MIR-2022-055 ⚠️
+### MIR-2022-055
 ¿Cuál es el mecanismo por el que la ivabradina, actuando en las células del nodo sinoauricular, produce una disminución de la frecuencia cardíaca?:
 
 A. Potencia la repolarización al activar corrientes de salida de potasio.
@@ -128,9 +134,11 @@ B. Modula los receptores beta-1 adrenérgicos.
 C. Bloquea la corriente de marcapaso If.
 D. Activa los receptores muscarínicos M2.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, en el epígrafe del potencial de acción de las células marcapaso, afirma textualmente: *"durante esta fase existe una despolarización espontánea de la célula mediada por canales de sodio If (diana terapéutica de la ivabradina)"* — identificando de forma explícita e inequívoca el canal/corriente If como la diana de la ivabradina, lo que corresponde a la opción C, no a la B (modulación de receptores beta-1) marcada como oficial. El mecanismo de la ivabradina como inhibidor selectivo de la corriente If del nodo sinusal es, además, un hecho farmacológico consolidado fuera de esta bibliografía. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #152 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La ivabradina actúa inhibiendo selectivamente la corriente de marcapaso If ('funny current'), una corriente mixta de sodio y potasio responsable de la despolarización diastólica espontánea (fase 4) de las células del nodo sinoauricular, cuyo bloqueo enlentece la frecuencia de disparo del nodo sinusal y, por tanto, reduce la frecuencia cardiaca sin afectar a la contractilidad ni a la conducción aurículo-ventricular, a diferencia de los betabloqueantes o los antagonistas del calcio no dihidropiridínicos. No actúa sobre receptores beta-adrenérgicos, no potencia corrientes de salida de potasio (mecanismo de los antiarrítmicos de clase III) ni activa receptores muscarínicos, siendo su selectividad por el canal If precisamente lo que le confiere un perfil de acción bradicardizante puro, sin efecto inotrópico negativo relevante.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-032
 En relación con el potencial de acción cardiaco, señale la afirmación correcta:
@@ -156,9 +164,9 @@ D. Cardioversión eléctrica urgente.
 
 > **Nota de cobertura:** confirmación LIMPIA — paciente hemodinámicamente INESTABLE (hipotensión + obnubilación) con taquicardia de QRS ancho (tratada como TV ante la duda, según §1.3 de este módulo); la bibliografía indica cardioversión eléctrica sincronizada como tratamiento del paciente inestable, coincidiendo con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del bloque ampliado:** con estas 3 preguntas se eleva a 9 preguntas reales, **4 discrepancias de máxima/fuerte confianza** (3 previas del hallazgo #54 + 1 nueva, ivabradina), 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-057 ⚠️
+### MIR-2020-057
 ¿Cuál de las siguientes situaciones NO es una indicación de los anticoagulantes orales de acción directa?:
 
 A. Portador de prótesis valvular aortica mecánica.
@@ -166,9 +174,11 @@ B. Tratamiento del tromboembolismo pulmonar.
 C. Profilaxis de la trombosis venosa en el postoperatorio de prótesis de rodilla.
 D. Prevención de ictus en fibrilación auricular no valvular.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita directa):** la bibliografía cita textualmente esta pregunta ("MIR 21, 57") al establecer que en portadores de **prótesis valvular mecánica en cualquier posición**, el anticoagulante indicado son los antagonistas de la vitamina K (acenocumarol, warfarina) — los ACOD están formalmente contraindicados en este contexto, no son una opción. Además, la propia bibliografía indica los ACOD como fármacos preferentes en el tratamiento del TEP. Esto significa que la opción A (prótesis valvular mecánica) es la verdadera "NO indicación", no la opción B marcada como oficial (que sí es una indicación reconocida). Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Los anticoagulantes orales de acción directa (dabigatrán, rivaroxabán, apixabán, edoxabán) tienen indicaciones bien establecidas en la prevención del ictus en la fibrilación auricular no valvular, en el tratamiento y prevención secundaria del tromboembolismo venoso (incluido el tromboembolismo pulmonar), y en la profilaxis de la trombosis venosa tras cirugía ortopédica mayor (prótesis de cadera o rodilla). Sin embargo, en los pacientes portadores de una prótesis valvular mecánica (como una prótesis aórtica mecánica), los anticoagulantes de acción directa han demostrado en ensayos clínicos (como el estudio RE-ALIGN con dabigatrán) ser inferiores y menos seguros que los antagonistas de la vitamina K (acenocumarol, warfarina), con mayor riesgo tanto de trombosis valvular como de sangrado, por lo que están formalmente contraindicados en este contexto, siendo los antagonistas de la vitamina K el único tratamiento anticoagulante oral validado en portadores de prótesis mecánicas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-023
 Varón de 19 años con antecedentes familiares de muerte súbita en padre que acude por clínica de ángor y síncopes en esfuerzo, con sensación de palpitaciones rápidas con el esfuerzo. Presenta el ECG que se adjunta. Se realiza un ecocardiograma y es diagnosticado de una miocardiopatía. Considerando su sospecha del tipo de miocardiopatía que presenta, señale la respuesta verdadera:
@@ -180,9 +190,7 @@ D. El grosor de la pared del ventrículo izquierdo es normal o esta disminuido.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 23; el cuadro —varón joven, antecedente familiar de muerte súbita, ángor/síncope de esfuerzo— es el perfil clásico de la miocardiopatía hipertrófica obstructiva, definida en la bibliografía precisamente como obstrucción dinámica en el tracto de salida del VI por hipertrofia septal. Confirmación LIMPIA, sin discrepancia)*
 
-> **Nota de cobertura:** con estas 2 preguntas se eleva a 11 preguntas reales, manteniendo 5 discrepancias de máxima/fuerte confianza y 6 limpias.
-
-### MIR-2023-178 ⚠️
+### MIR-2023-178
 Hombre de 78 años con antecedentes de fibrilación auricular paroxística, hipertensión arterial y dislipidemia. Sigue tratamiento desde hace años con acenocumarol, amiodarona, candesartan y pitavastatina. La pitavastatina es la tercera estatina que toma por elevación persistente de la CK y mal control de la dislipidemia. Desde hace meses refiere estreñimiento, astenia y adinamia, caída del cabello y malestar general sin mialgias. Aporta análisis con CK 1200 U/L (normal hasta 171 U/L), función renal normal y cLDL 108 mg/dL a pesar del tratamiento. Señale la afirmación correcta:
 
 A. Hay que añadir otro hipolipemiante como un inhibidor de PCSK9.
@@ -190,9 +198,11 @@ B. Probablemente tenga un hipotiroidismo inducido por amiodarona.
 C. Hay que añadir un complemento alimenticio.
 D. Hay que cambiar la estatina por rosuvastatina a dosis bajas.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía de Cardiología confirma que la amiodarona, por su contenido en yodo, produce con frecuencia *"problemas tiroideos"* (de hecho, la dronedarona se desarrolló precisamente eliminando el yodo de la molécula "responsable de gran parte de los efectos secundarios de la amiodarona como los problemas tiroideos"). El cuadro clínico descrito (estreñimiento, astenia, adinamia, caída del cabello, malestar general SIN mialgias) es el conjunto de síntomas CLÁSICO del hipotiroidismo, no de una miopatía por estatinas (que típicamente cursa CON mialgias). Además, resulta fisiopatológicamente poco plausible que TRES estatinas diferentes hayan causado de forma idéntica una elevación de CK — un patrón que sugiere una causa subyacente común (el hipotiroidismo eleva la CK por sí mismo, incluso sin miopatía clínica evidente) en lugar de una intolerancia real a cada fármaco. La TSH no se aporta en el enunciado, por lo que no puede confirmarse con evidencia bibliográfica DIRECTA sobre esta pregunta concreta, pero el conjunto de hallazgos (fármaco causal presente, clínica clásica sin mialgias, patrón fisiopatológicamente inverosímil de intolerancia a 3 estatinas) apoya con fuerza la opción B sobre la D. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación. Ver hallazgo #175 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En un paciente en tratamiento crónico con amiodarona que desarrolla de forma insidiosa astenia, adinamia, estreñimiento, caída del cabello y malestar general sin mialgias, junto con una elevación marcada de la creatina-cinasa (CK 1200 U/L) sin clínica miopática florida, debe sospecharse un hipotiroidismo inducido por amiodarona (por el elevado contenido en yodo del fármaco, que puede producir tanto hipotiroidismo como hipertiroidismo), ya que el hipotiroidismo produce clásicamente elevación de la CK (miopatía hipotiroidea subclínica) además de los síntomas constitucionales descritos (astenia, estreñimiento, caída de cabello). Antes de atribuir la elevación de la CK y el mal control lipídico a una posible intolerancia o ineficacia de la estatina y de plantear cambios en el hipolipemiante o añadir un inhibidor de PCSK9, es prioritario descartar y corregir esta causa metabólica reversible, ya que el hipotiroidismo no tratado también empeora el perfil lipídico y puede explicar en parte el mal control del cLDL a pesar del tratamiento.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-067
 ¿Cuál de las siguientes afirmaciones es correcta respecto al electrocardiograma (ECG) normal en la fisiología cardíaca?:

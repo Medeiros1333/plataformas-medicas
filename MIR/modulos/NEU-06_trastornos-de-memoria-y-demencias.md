@@ -97,7 +97,11 @@ B. Episodio maniaco de inicio tardío.
 C. Enfermedad de Alzheimer.
 D. Demencia frontotemporal.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 90)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 90)*
+
+**Explicación:** El cuadro (cambio progresivo de personalidad con irritabilidad, apatía, desinhibición social y sexual y deterioro laboral, en un varón de 59 años con un Minimental normal y sin déficit de memoria) es muy característico de la variante conductual de la demencia frontotemporal (D), que puede tener pruebas cognitivas de cribado normales al inicio. En el diagnóstico diferencial entran también un episodio maníaco de inicio tardío (desinhibición e impulsividad) y una esquizofrenia de inicio tardío ('dice cosas raras'). El diagnóstico MENOS probable es la enfermedad de Alzheimer (C), cuya presentación típica es un deterioro amnésico precoz y progresivo, con alteración de la memoria episódica en el Minimental, y no un cambio conductual con memoria preservada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-077
 Respecto a la enfermedad de Alzheimer, señale la respuesta INCORRECTA:
@@ -109,7 +113,7 @@ D. En la RM de estos pacientes esperamos encontrar atrofia en el lóbulo tempora
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2024, pregunta 77)*
 
-### MIR-2020-095 ⚠️
+### MIR-2020-095
 Hombre de 64 años que consulta por presentar desde hace un año alteración progresiva del lenguaje consistente en dificultad para encontrar las palabras. Usa muchos términos ómnibus y circunloquios. Entiende perfectamente y el lenguaje es relativamente fluido salvo por las pausas anómicas. En la exploración llama la atención la dificultad para repetir frases largas. No tiene alteración de la memoria ni problemas de conducta evidentes. ¿Cuál es el diagnóstico más probable?
 
 A. Variante no fluente de la afasia progresiva primaria probablemente por demencia frontotemporal.
@@ -117,11 +121,13 @@ B. Variante logopénica de la afasia progresiva primaria, probablemente por enfe
 C. Demencia por cuerpos de Lewy difusos.
 D. Disnomia inespecífica del paciente mayor.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 95)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 95)*
 
-> ⚠️ **Nota de verificación fuerte:** el enunciado describe explícitamente lenguaje FLUIDO (no hipofluente, sin bloqueos) y una dificultad destacada para REPETIR frases largas, sin agramatismo. Según la tabla de la bibliografía, este es precisamente el "rasgo distintivo" de la variante LOGOPÉNICA ("dificultad para repetir frases"), no de la variante no-fluente/agramatical (cuyo rasgo distintivo es la hipofluencia con bloqueos y el agramatismo — características explícitamente AUSENTES en este paciente). La bibliografía además indica que la variante logopénica está "más frecuentemente relacionada" con la enfermedad de Alzheimer, no con la demencia frontotemporal. Se mantiene la letra oficial (A) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2020 — la respuesta más consistente con la bibliografía es B. Ver hallazgo #48 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afasia progresiva primaria se clasifica en tres variantes clínicas según su patrón lingüístico predominante. La variante logopénica se caracteriza por dificultad para encontrar palabras con uso de circunloquios y términos vagos ('ómnibus'), un lenguaje relativamente fluido salvo por las pausas de búsqueda léxica, buena comprensión y dificultad desproporcionada para la repetición, especialmente de frases largas, y se asocia con mayor frecuencia a patología subyacente de tipo Alzheimer más que a una degeneración lobar frontotemporal típica. Esto contrasta con la variante no fluente/agramatical, en la que el lenguaje es esforzado, no fluido y agramatical, generalmente asociada a una taupatía frontotemporal; y con la variante semántica, en la que predomina la pérdida del significado de las palabras con lenguaje fluido pero vacío de contenido. La demencia por cuerpos de Lewy difusos suele presentar fluctuaciones cognitivas, parkinsonismo y alucinaciones visuales, no un cuadro de afasia progresiva aislada.
 
-### MIR-2021-101 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-101
 Todas las siguientes enfermedades neurodegenerativas están relacionadas con una alteración en la proteína Tau, EXCEPTO:
 
 A. Enfermedad de Alzheimer.
@@ -129,11 +135,13 @@ B. Demencia frontotemporal.
 C. Enfermedad de Parkinson.
 D. Parálisis supranuclear progresiva.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 101)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 101)*
 
-> ⚠️ **Nota de verificación fuerte:** la enfermedad de Parkinson es clásicamente una SINUCLEINOPATÍA (los cuerpos de Lewy están formados por α-sinucleína, no por tau), sin relación establecida con la patología tau. En cambio, la demencia frontotemporal es un grupo heterogéneo que incluye subtipos patológicos claramente ligados a tau (p. ej. enfermedad de Pick, y su asociación reconocida con otras taupatías como la parálisis supranuclear progresiva y la degeneración corticobasal, mencionada explícitamente en la bibliografía). Esto hace que la demencia frontotemporal SÍ tenga relación con la proteína tau en una proporción relevante de casos, mientras que el Parkinson no la tiene en absoluto. Se mantiene la letra oficial (B) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2021 — la respuesta más consistente con la fisiopatología establecida es C. Ver hallazgo #48 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las taupatías son un grupo de enfermedades neurodegenerativas caracterizadas por el depósito patológico de la proteína tau hiperfosforilada formando agregados intraneuronales. Entre ellas se incluyen la enfermedad de Alzheimer, en la que la tau forma los ovillos neurofibrilares junto con las placas de beta-amiloide; la parálisis supranuclear progresiva, una taupatía primaria clásica; y un subgrupo importante de las demencias frontotemporales (incluida la enfermedad de Pick y las formas asociadas a mutaciones en el gen MAPT). La enfermedad de Parkinson, en cambio, es el prototipo de sinucleinopatía: su sustrato patológico fundamental son los cuerpos de Lewy, agregados intracitoplasmáticos de alfa-sinucleína, y no de la proteína tau.
 
-### MIR-2021-092 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-092
 Mujer de 75 años traída a consulta por su familia porque le encuentran desde hace meses deprimida y con fallos de memoria. Les preocupa que pueda tener una enfermedad de Alzheimer. La paciente refiere que no cree que le pase nada y que está como siempre. ¿En qué orden se presentan generalmente los siguientes síntomas en la progresión de la enfermedad de Alzheimer?:
 
 A. Cambios de humor, síntomas conductuales, déficit cognitivo.
@@ -141,9 +149,11 @@ B. Síntomas conductuales, síntomas motores, declive de la independencia funcio
 C. Cambios de humor, déficit cognitivo, declive de la independencia funcional.
 D. Síntomas conductuales, cambios de humor, síntomas motores.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 92", desfase de año habitual de ±1), establece expresamente el orden: *"Los síntomas neuropsiquiátricos inicialmente incluyen apatía, irritabilidad, desinhibición y depresión [CAMBIOS DE HUMOR]. Los trastornos conductuales aparecen POSTERIORMENTE (agitación, psicosis, ideas delirantes, etc.)"* — es decir, los cambios de humor preceden a los síntomas conductuales, no al revés. Además, el déficit cognitivo (memoria episódica) es descrito como "lo más precoz" en la progresión de la enfermedad. La opción B, marcada como oficial, sitúa los síntomas conductuales en primer lugar sin mencionar el déficit cognitivo en absoluto — contradiciendo el orden bibliográfico. La opción C (cambios de humor → déficit cognitivo → declive funcional) es la más coherente con la secuencia descrita en la bibliografía. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #157 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La enfermedad de Alzheimer sigue típicamente una progresión clínica en la que los síntomas cognitivos, sobre todo la alteración de la memoria episódica reciente, y con frecuencia cambios afectivos o de personalidad como la apatía o los síntomas depresivos, constituyen las manifestaciones más precoces, en ocasiones años antes del diagnóstico formal. A medida que la enfermedad progresa hacia fases moderadas aparecen con mayor frecuencia síntomas conductuales más complejos, junto con un declive progresivo de la independencia funcional para las actividades de la vida diaria. Los síntomas motores, como las alteraciones de la marcha o la rigidez, son típicamente manifestaciones de fases avanzadas o terminales, cuando ya existe una afectación cognitiva y funcional grave y generalizada.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-151
 Hombre de 85 años diagnosticado de enfermedad de Alzheimer en tratamiento con donepezilo. Desde hace una semana y coincidiendo con una infección urinaria por germen sensible a amoxicilina/clavulánico, presenta un trastorno grave de conducta; por todo ello, recibe tratamiento con dicho antibiótico y con risperidona 1 mg cada 12 horas. Hoy la familia lo trae a su consulta porque a pesar de mejorar la infección de orina, está muy enlentecido, necesitando ayuda para comer y vestirse, no es capaz de deambular sin ayuda, duerme de día y presenta insomnio de madrugada. Ante esta situación clínica señale la respuesta CORRECTA:
@@ -165,9 +175,11 @@ B. La presencia de temblor de reposo, marcha sin balanceo y amimia facial orient
 C. La presencia de hipercolesterolemia, bradipsiquia, bradicardia y estreñimiento orienta hacia el diagnóstico de hipotiroidismo.
 D. El inicio reciente de tratamiento con betabloqueantes y antiinflamatorios no esteroideos puede justificar la aparición de un síndrome depresivo.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, hecho clínico estándar no controvertido) — las opciones A, B y C describen tríadas clínicas clásicas y correctas (demencia; Parkinson; hipotiroidismo) que sí pueden manifestarse inicialmente como un cuadro pseudodepresivo en el anciano, coherente con el enfoque de diagnóstico diferencial de esta materia (§1.1). La opción D combina un fármaco con asociación clásica y bien establecida con depresión secundaria (los **betabloqueantes**) junto con otro sin esa asociación reconocida en la práctica clínica habitual (los AINE) — la afirmación conjunta resulta la INCORRECTA, coincidiendo con la clave oficial. Sin discrepancia.
+**Explicación:** La afirmación INCORRECTA es la A. En un anciano con un síndrome depresivo, la desorientación, la apatía y las quejas de memoria no orientan necesariamente a una demencia: la depresión en el anciano puede producir una 'pseudodemencia depresiva', con alteraciones cognitivas que mejoran al tratar la depresión, y la apatía es un síntoma típico de la propia depresión. Por eso, estos datos obligan a un diagnóstico diferencial cuidadoso y no permiten afirmar la demencia. Las demás afirmaciones son correctas: temblor de reposo, marcha sin braceo y amimia orientan a enfermedad de Parkinson, que asocia con frecuencia depresión (B); hipercolesterolemia, bradipsiquia, bradicardia y estreñimiento orientan a hipotiroidismo (C); y el inicio reciente de betabloqueantes o AINE puede asociarse a síntomas depresivos (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-193
 Paciente de 82 años, con poliartrosis periférica e incontinencia urinaria de esfuerzo. Cuidadora de su marido de 84 años con enfermedad de Alzheimer. El marido llama a la vecina porque su mujer está muy adormilada y no le ha preparado el desayuno. Acude a su domicilio su médica de familia y objetiva que está desorientada, con sequedad de mucosas y dificultad para la marcha, sin otra focalidad neurológica. Al revisar la historia clínica consta que fue atendida hace 2 días por el servicio de urgencias nocturno por sensación de mareo con prescripción de sulpiride. Ante esta situación clínica, de las siguientes, cuál sería la causa MENOS PROBABLE en el diagnóstico diferencial?:

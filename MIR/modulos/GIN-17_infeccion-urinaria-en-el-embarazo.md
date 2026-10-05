@@ -26,7 +26,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2022-138 ⚠️
+### MIR-2022-138
 Mujer de 32 años, embarazada de 10 semanas, que presenta en control rutinario bacteriuria asintomática. ¿Cuál de las siguientes medidas le parece más apropiada?:
 
 A. Vigilancia estrecha y si aparecen síntomas iniciar tratamiento antibiótico empírico con amoxicilina 7-10 días.
@@ -34,9 +34,7 @@ B. Tratamiento empírico con fosfomicina a dosis única de 3 g y, si persiste la
 C. Tomar muestra para urocultivo y comenzar de inmediato tratamiento empírico con betalactámicos durante 4-7 días.
 D. Ecografía para descartar complicaciones, urocultivo e iniciar tratamiento empírico con nitrofurantoína 5-7 días.
 
-**Respuesta correcta: A**
-
-> ⚠️ **Nota de verificación fuerte (recuperada del hallazgo #169 de un lote anterior de esta misma sesión, ahora tageada con módulo):** la bibliografía de Ginecología establece de forma categórica: *"La bacteriuria asintomática en las gestantes SIEMPRE hay que tratarla"*, con tratamiento antibiótico de 4-7 días — contradiciendo directamente la conducta de vigilancia expectante que propone la opción A (clave oficial), que difiere el tratamiento hasta la aparición de síntomas. Apoya la opción C (urocultivo + tratamiento empírico inmediato con betalactámicos). Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación.
+**Pregunta anulada** en la plantilla definitiva del Ministerio: no tiene respuesta correcta válida y no puntúa.
 
 ---
 

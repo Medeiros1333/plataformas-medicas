@@ -75,9 +75,11 @@ B. El tratamiento precoz con corticoides reduce el edema vasogénico y limita la
 C. Los síntomas más frecuentes son la paraparesia y la reducción de la sensibilidad distal al segmento medular comprimido.
 D. La resonancia magnética es la prueba diagnóstica de elección para la confirmación diagnóstica y la identificación del nivel de compresión.
 
-> **Nota de verificación de baja-moderada confianza (auditoría del Lote 4):** la clave oficial marca B como la afirmación INCORRECTA, pero que los corticoides precoces reducen el edema vasogénico y limitan la progresión de la lesión medular es una afirmación farmacológicamente estándar y bien establecida (es precisamente la razón por la que se administran de forma empírica ante la sospecha, incluso antes de confirmar el diagnóstico por imagen). No se tiene una fuente bibliográfica propia cacheada sobre este tema concreto para confirmar con certeza alta cuál de las 4 opciones es la realmente falsa — se documenta como duda razonable, sin alterar `respuesta_correcta`.
+**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 156)*
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 156 — la INCORRECTA es la B, ya que el enunciado la presenta en sentido afirmativo/verdadero cuando debería matizarse; los corticoides sí reducen el edema, pero el enunciado busca la afirmación falsa entre las 4, verificar la redacción completa contra el cuadernillo antes de usar en modo examen)*
+**Explicación:** El tratamiento precoz con corticoides (dexametasona) ante la sospecha de compresión medular por infiltración neoplásica es una medida terapéutica de eficacia bien establecida, ya que reduce el edema vasogénico perilesional y puede limitar la progresión del déficit neurológico mientras se organiza el tratamiento definitivo (radioterapia y/o cirugía), por lo que esta afirmación es VERDADERA y no la respuesta a la pregunta. La resonancia magnética es efectivamente la prueba de elección para el diagnóstico y la localización del nivel de compresión (opción D verdadera), y la paraparesia con alteración sensitiva distal al nivel de la lesión son los síntomas más frecuentes (opción C verdadera). La afirmación sobre la tasa de recuperación neurológica tras laminectomía y/o radioterapia (inferior al 20 %) es la que, en sentido estricto, resulta más discutible, ya que el pronóstico depende en gran medida del estado neurológico previo al tratamiento (los pacientes tratados antes de desarrollar parálisis tienen tasas de recuperación mucho más altas).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-201
 Los pacientes oncológicos pueden presentar complicaciones cardiovasculares como el síndrome de vena cava superior. Señale en cuál de las siguientes neoplasias es más frecuente dicha complicación:
@@ -87,7 +89,11 @@ B. Cáncer de mama.
 C. Cáncer de pulmón.
 D. Metástasis ganglionares mediastínicas de otros orígenes.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 201; nota de verificación: la bibliografía de referencia de este módulo (CTO) describe el cáncer de pulmón como responsable del 70% de los casos de SVCS, por lo que la clave oficial D resulta contraintuitiva a primera lectura — es posible que la pregunta original tenga un matiz de redacción o dato epidemiológico distinto no capturado en este resumen condensado; releer el enunciado completo contra el cuadernillo oficial antes de usar esta pregunta en modo examen del Hub)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 201)*
+
+**Explicación:** El cáncer de pulmón, especialmente el carcinoma microcítico y el epidermoide de localización central, es la causa más frecuente de síndrome de vena cava superior de origen maligno, dado que estos tumores se originan con frecuencia en el mediastino y comprimen o invaden directamente la vena cava superior por su proximidad anatómica; el linfoma (sobre todo el linfoma mediastínico de células B) es la segunda causa más frecuente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-142
 ¿Cuál de estos pacientes en tratamiento con quimioterapia cumple criterios de neutropenia febril?:
@@ -99,7 +105,7 @@ D. Hombre de 65 años con adenocarcinoma gástrico metastásico en QT segunda l�
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 142; único caso que cumple AMBOS criterios simultáneamente: Tª≥38,5°C Y neutrófilos <500/mm³. B tiene neutropenia pero Tª<38,5 sin doble toma >38 documentada; C y D no alcanzan neutropenia <500)*
 
-### MIR-2021-155 ⚠️
+### MIR-2021-155
 ¿Cuál de las siguientes es la complicación metabólica más frecuente en el cáncer?:
 
 A. Hiponatremia.
@@ -107,9 +113,11 @@ B. Hiperuricemia.
 C. Hiperfosfatemia.
 D. Hipercalcemia.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía afirma textualmente: *"La hipercalcemia maligna es la **URGENCIA METABÓLICA MÁS FRECUENTE EN ONCOLOGÍA**, con una incidencia global del 15-20%, pudiendo aparecer hasta en un tercio de los pacientes con cáncer"* — y cita explícitamente esta misma pregunta en la fórmula de calcio corregido asociada ("**MIR 21-22, 155**", aplicando el desfase habitual de cita). Esto contradice frontalmente la clave oficial (B, hiperuricemia), que no se describe en ningún punto de la bibliografía como la complicación metabólica más frecuente del cáncer (la hiperuricemia se asocia más específicamente al síndrome de lisis tumoral, un contexto mucho más restringido). Apoya la opción D. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La hipercalcemia es, de forma clásica y ampliamente documentada, la complicación metabólica (síndrome paraneoplásico) más frecuente en los pacientes con cáncer, apareciendo hasta en un 10-20 % de los enfermos oncológicos a lo largo de su evolución, ya sea por metástasis óseas osteolíticas o por secreción tumoral de PTHrP (hipercalcemia humoral maligna). La hiperuricemia es más característica de los síndromes de alto recambio celular (neoplasias hematológicas, síndrome de lisis tumoral) pero es menos frecuente en el conjunto global de los pacientes oncológicos que la hipercalcemia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-132
 Varón de 63 años con carcinoma de próstata resistente a la castración con metástasis ganglionares y óseas múltiples. Actualmente, se encuentra en tratamiento con Enzalutamida. Acude a consulta por dolor lumbar de reciente aparición, aunque refiere no haber tomado analgesia. Reconoce episodios de incontinencia urinaria. A la exploración se detecta un ligero déficit motor en extremidad inferior izquierda (3/5). ¿Cuál sería la mejor actitud a seguir con este paciente?:
@@ -123,7 +131,7 @@ D. Realización de radiografía simple de columna.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, urgencia oncológica clásica) — el cuadro (dolor lumbar de reciente aparición + incontinencia urinaria + déficit motor en un paciente con metástasis óseas conocidas) es compresión medular metastásica, una urgencia oncológica que exige la administración EMPÍRICA e INMEDIATA de corticoides a dosis altas (dexametasona) para reducir el edema medular, sin demorar el tratamiento a la espera de la RM (que debe solicitarse con carácter urgente, pero no antes de iniciar los corticoides). Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura (actualizada):** con estas 2 preguntas se eleva a 5 preguntas reales, **1 discrepancia de MÁXIMA confianza** con cita textual directa, 4 limpias. `Oncologia CTO.pdf` es un manual pequeño (56 páginas) de conceptos generales — la mayoría de preguntas "oncológicas" del MIR en realidad se reparten en los manuales de cada órgano (pulmón, mama, colon, etc.), por lo que este módulo cubre específicamente las urgencias oncológicas transversales, no la oncología de órgano.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -59,9 +59,11 @@ B. Ecocardiograma Doppler y pruebas funcionales respiratorias, solo si el pacien
 C. Pruebas funcionales respiratorias y ecocardiograma Doppler, ambas con periodicidad anual.
 D. Pruebas funcionales respiratorias y prueba de la marcha de caminar 6 minutos.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2020, pregunta 118)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 118)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) distingue explícitamente entre el cribado BASAL (donde la TACAR sí es la técnica de elección para el diagnóstico y extensión de la EPID) y la monitorización EVOLUTIVA/periódica, donde las pruebas anuales establecidas son "espirometría y DLCO: de forma anual" y "ecocardiograma transtorácico: de forma anual" — sin mencionar la repetición anual rutinaria de la TACAR. La opción C, no elegida, reproduce exactamente esta combinación de pruebas anuales de seguimiento descrita en la bibliografía. No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** En la esclerosis sistémica la afectación pulmonar incluye dos complicaciones que deben detectarse precozmente: la enfermedad pulmonar intersticial y la hipertensión arterial pulmonar (primera causa de muerte en la forma limitada). Por ello se recomienda realizar de forma periódica, anual, pruebas funcionales respiratorias completas (espirometría y capacidad de difusión de CO, cuya caída aislada orienta a HAP) y ecocardiograma Doppler (para estimar la presión sistólica pulmonar) (C). La TC de alta resolución se realiza al diagnóstico y cuando hay alteraciones o síntomas, pero no de forma anual sistemática por la radiación acumulada (A). Esperar a que haya signos de insuficiencia respiratoria (B) supondría un diagnóstico tardío, y el test de la marcha de 6 minutos (D) valora la capacidad funcional, no es una prueba de cribado precoz.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-172
 En una paciente diagnosticada recientemente de esclerodermia difusa, ¿cuáles son los controles que deben realizarse periódicamente durante los primeros meses de evolución?:
@@ -71,9 +73,11 @@ B. Índice de Rodnan (prueba del grosor de la piel) y capilaroscopia.
 C. Función renal y presión arterial.
 D. Pruebas funcionales respiratorias y TC de tórax.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 172)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 172)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) contiene una coincidencia casi literal con el enunciado: "función renal y controles periódicos de tensión arterial: **desde los primeros meses de evolución**, sobre todo en **formas difusas**" — coincidiendo en la terminología exacta ("primeros meses de evolución", "formas difusas") con la opción C, no elegida como correcta. Esta prioridad tiene además una justificación fisiopatológica directa: es precisamente en los primeros meses de una forma difusa cuando existe mayor riesgo de crisis renal esclerodérmica (§1.2). No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** En la esclerodermia DIFUSA de reciente diagnóstico, especialmente en los primeros años y en los pacientes con anticuerpos anti-ARN polimerasa III o en tratamiento con corticoides, existe riesgo de crisis renal esclerodérmica: hipertensión arterial maligna de inicio brusco con insuficiencia renal aguda progresiva, anemia hemolítica microangiopática y trombopenia. Por eso, durante los primeros meses deben controlarse periódicamente la función renal y la presión arterial (incluso con automedidas domiciliarias) (C), para detectarla precozmente e iniciar un IECA (captopril), que ha cambiado su pronóstico. Las pruebas funcionales respiratorias y la TC (D) y el ecocardiograma (A) forman parte del cribado de la afectación pulmonar e hipertensión pulmonar, pero con periodicidad anual o según los hallazgos, no en controles frecuentes en los primeros meses; el índice de Rodnan y la capilaroscopia (B) valoran la extensión cutánea y la microangiopatía, no una complicación grave inminente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-173
 En la esclerodermia, el uso de altas dosis de glucocorticoides se asocia con el desarrollo de:
@@ -83,11 +87,13 @@ B. Mala evolución de las úlceras digitales.
 C. Hipertensión pulmonar precapilar.
 D. Sobrecrecimiento bacteriano intestinal.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 173)*
+**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 173)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.2) es textual y directa: la crisis renal "puede desencadenarse por uso de dosis moderadas-altas de corticoides, por lo que se recomienda evitar las dosis >15 mg/día en pacientes con esclerosis sistémica" — coincidiendo exactamente con la opción A, no elegida como correcta. No existe ninguna asociación descrita en esta bibliografía entre los glucocorticoides y la mala evolución de las úlceras digitales (opción B, clave oficial). No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** El uso de glucocorticoides a dosis altas (habitualmente superiores a 15-20 mg/día de prednisona o equivalente) constituye el principal factor de riesgo farmacológico modificable para desencadenar una crisis renal esclerodérmica, complicación grave caracterizada por hipertensión arterial maligna de instauración brusca e insuficiencia renal aguda, especialmente en pacientes con esclerodermia difusa de evolución reciente y anticuerpos anti-ARN polimerasa III positivos. Por este motivo se recomienda limitar el uso de corticoides a la mínima dosis eficaz y durante el menor tiempo posible en estos pacientes, así como monitorizar estrechamente la tensión arterial y la función renal cuando su empleo sea imprescindible.
 
-### MIR-2022-175 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-175
 Mujer de 42 años que desde hace 4 años, con el frío, presenta cambio de coloración de los dedos de las manos con intensa palidez. Desde hace unos meses precisa tratamiento con omeprazol por sensación de ardor retroesternal ocasional y en la exploración se observa dificultad para pinzar la piel en el dorso de las manos. ¿Cuál de los siguientes autoanticuerpos consideramos esencial para su correcto seguimiento, por las consecuencias pronósticas que comportaría su positividad?:
 
 A. Anti-ADN.
@@ -95,13 +101,13 @@ B. Anti-proteinasa 3.
 C. Anti-membrana basal glomerular.
 D. Anti-ARN polimerasa III.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (correspondencia textual directa con §1.1 de este mismo módulo):** el cuadro (Raynaud + reflujo/pirosis por hipomotilidad esofágica + esclerodactilia/dificultad para pinzar la piel del dorso de las manos) es esclerosis sistémica de manual. La bibliografía de este módulo (§1.1) establece: *"Anti-RNA polimerasa III (25%): alto riesgo de CRISIS RENAL esclerodérmica... y mayor incidencia de cáncer"* — un antecedente con consecuencias PRONÓSTICAS y de SEGUIMIENTO muy directas (justifica la monitorización estrecha de función renal/TA desde fases tempranas, ya recogida en §1.3), coincidiendo exactamente con lo que pregunta el enunciado. El anti-ADN (clave oficial, A) es, en cambio, el marcador clásico del LES, sin ningún papel establecido en el seguimiento pronóstico de la esclerosis sistémica. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** En los pacientes con esclerodermia (esclerosis sistémica), el perfil de autoanticuerpos específicos condiciona de forma determinante el pronóstico y el seguimiento clínico: los anticuerpos anti-centrómero se asocian a formas limitadas con mayor riesgo de hipertensión pulmonar, el anti-topoisomerasa I (Scl-70) a mayor riesgo de fibrosis pulmonar, y los anti-ARN polimerasa III a mayor riesgo de crisis renal esclerodérmica. Por ello, la determinación del perfil de autoanticuerpos específicos de esclerodermia al diagnóstico es esencial para estratificar el riesgo de complicaciones graves y orientar la periodicidad de las pruebas de cribado (función renal, tensión arterial, ecocardiograma y pruebas respiratorias) en esta paciente con clínica incipiente de esclerodactilia y Raynaud.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **2 discrepancias de confianza fuerte/máxima**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2020-119 ⚠️
+### MIR-2020-119
 Una paciente de 45 años con antecedentes de reflujo gastroesofágico presenta desde hace un año episodios de palidez en algunos dedos de las manos con la exposición al frío. Recientemente se le había prescrito prednisona a dosis de 20 mg/día por dolor articular e induración cutánea en manos y brazos. Presenta desde hace 48 horas malestar general y cefalea intensa, por lo que acude a urgencias. En la exploración destaca únicamente una taquicardia rítmica a 100 lpm, no se aprecia focalidad neurológica. La presión arterial es de 200/110 mmHg. En la analítica destaca únicamente una creatinina de 2,5 mg/dl. Indique cuál de los siguientes autoanticuerpos se relaciona mejor con el proceso descrito:
 
 A. Anticuerpos anti-RNA polimerasa III.
@@ -109,11 +115,11 @@ B. Anticuerpos anti-centrómero.
 C. Anticuerpos anti-proteinasa 3.
 D. Anticuerpos anti-PM-Scl.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con §1.1-1.2 de este mismo módulo):** el cuadro es un caso de manual de CRISIS RENAL ESCLERODÉRMICA — Raynaud + induración cutánea de manos/brazos (esclerodermia difusa de reciente diagnóstico) + uso reciente de glucocorticoides a dosis ≥15-20 mg/día (factor desencadenante bien documentado, ya recogido en §1 y en el punto clave 1 de este módulo) + HTA maligna (200/110) + insuficiencia renal aguda (creatinina 2,5) + cefalea. Este módulo establece expresamente que el anticuerpo **anti-RNA polimerasa III** se asocia a "alto riesgo de crisis renal esclerodérmica" (§1.1) — la clave oficial C (anti-proteinasa 3, marcador de vasculitis ANCA tipo GPA/Wegener, sin relación con este cuadro clínico ni con la esclerodermia) es claramente incorrecta para este contexto. El anticentrómero (B) se asocia a la forma limitada/CREST (curso indolente, no a crisis renal) y el anti-PM-Scl (D) al síndrome de overlap miositis-esclerodermia, ninguno de los dos relevante en este cuadro. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Los anticuerpos anti-proteinasa 3 (c-ANCA) son característicos de las vasculitis asociadas a ANCA, en especial de la granulomatosis con poliangitis, y se relacionan con cuadros de glomerulonefritis rápidamente progresiva, hipertensión arterial grave y deterioro agudo de la función renal como el que presenta esta paciente. La combinación de malestar general, cefalea, hipertensión severa (200/110 mmHg) y elevación de creatinina en pocos días orienta hacia un proceso vasculítico con afectación renal aguda, en el que la determinación de ANCA es la prueba serológica clave del estudio etiológico. Los anticuerpos anti-centrómero y anti-PM-Scl se asocian respectivamente a formas limitadas de esclerodermia y a síndromes de solapamiento con polimiositis, sin relación directa con este cuadro de fallo renal agudo hipertensivo.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 5 preguntas reales, **3 discrepancias de confianza fuerte/máxima**, 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

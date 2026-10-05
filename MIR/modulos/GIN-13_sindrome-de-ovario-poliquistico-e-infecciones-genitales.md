@@ -85,9 +85,11 @@ B. Clínicamente se caracteriza por la presencia de hirsutismo, acné y amenorre
 C. Se asocia a obesidad y resistencia a la insulina.
 D. Aumenta el riesgo de cáncer de ovario.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 23, 69", desfase de año habitual de ±1) que introduce precisamente el apartado de clínica del SOP, confirma DOS puntos que contradicen directamente la clave oficial. Primero, la opción C (marcada como incorrecta) es en realidad VERDADERA: la bibliografía afirma explícitamente que "existe una insulinorresistencia primaria en las mujeres afectas de SOP" y lista la obesidad entre las "características clínicas menores" del síndrome — es decir, C describe correctamente la asociación con obesidad y resistencia a la insulina. Segundo, la opción D (no elegida) es la que en realidad es FALSA: la Tabla 1 de "características clínicas mayores" de la bibliografía lista explícitamente el "aumento de CA de ENDOMETRIO" (y un "dudoso aumento de CA de mama") como riesgos oncológicos asociados al SOP, pero en ningún momento menciona un aumento del riesgo de cáncer de OVARIO — el riesgo oncológico característico y bien documentado del SOP es endometrial, no ovárico. Por tanto, la afirmación INCORRECTA debería ser D, no C. Ver hallazgo #120 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La afirmación INCORRECTA es la D: el síndrome de ovario poliquístico no se asocia de forma establecida a un aumento del riesgo de cáncer de OVARIO. Lo que aumenta es el riesgo de cáncer de ENDOMETRIO, por la exposición estrogénica mantenida sin oposición de progesterona secundaria a la anovulación crónica (hiperplasia endometrial). El resto es cierto: el SOP es el trastorno endocrino más frecuente de las mujeres jóvenes en edad reproductiva (A); se manifiesta con hiperandrogenismo (hirsutismo, acné) y anovulación con oligo/amenorrea (B); y se asocia con frecuencia a obesidad y resistencia a la insulina, incluso en las pacientes con normopeso, con mayor riesgo de diabetes tipo 2 y síndrome metabólico (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-068
 En relación con las infecciones vulvovaginales, señale la afirmación INCORRECTA:
@@ -97,9 +99,11 @@ B. La vulvovaginitis candidiásica es la infección vulvovaginal más prevalente
 C. Se define como vulvovaginitis candidiásica recidivante cuando aparecen 4 o más episodios en un año.
 D. La vaginosis bacteriana únicamente debe tratarse farmacológicamente cuando es sintomática.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR, con cita textual directa a esta misma pregunta ("MIR 23, 68", desfase de año habitual de ±1), afirma sin ambigüedad: *"la vaginosis bacteriana es habitualmente una infección POLIMICROBIANA"*. Esto contradice de forma literal y directa la opción A (no elegida), que afirma justo lo contrario ("monomicrobiana"). La clave oficial marca en cambio la opción C como la incorrecta, pero el criterio de "4 o más episodios en un año" para definir la candidiasis recidivante es la definición clínica estándar y ampliamente aceptada, consistente con el conocimiento médico general sobre el tema, por lo que C es en realidad una afirmación verdadera. La cita textual directa a la opción A, en un formato de pregunta "señale la incorrecta", constituye evidencia de máxima confianza de que A —no C— es la respuesta que debería marcarse. Ver hallazgo #120 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La vaginosis bacteriana es característicamente una infección polimicrobiana (no monomicrobiana), producida por el sobrecrecimiento de bacterias anaerobias (Gardnerella vaginalis, Prevotella, Mobiluncus, entre otras) en detrimento de los lactobacilos vaginales normales, lo que la diferencia de otras infecciones vulvovaginales de origen único como la candidiasis. La candidiasis vulvovaginal es efectivamente la infección vulvovaginal más prevalente en Europa, se considera vulvovaginitis candidiásica recidivante cuando aparecen 4 o más episodios sintomáticos en un año, y la vaginosis bacteriana asintomática, en la mujer no gestante y sin procedimientos ginecológicos programados, generalmente no requiere tratamiento sistemático.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-167
 En una paciente joven sin antecedentes de interés que después de un tratamiento antibiótico por otro motivo es diagnosticada de candidiasis vaginal, es cierto que:
@@ -113,7 +117,7 @@ D. Es necesario realizar un cribado de otras enfermedades de transmisión sexual
 
 *(Sin discrepancia — confirmada por cita textual directa: la bibliografía indica que "el tratamiento de elección son compuestos azólicos por vía TÓPICA. El más usado es el cotrimazol", citando esta misma pregunta ("MIR 24, 167") junto a esa afirmación. Coincide con la clave oficial A. Además, la bibliografía confirma que la vía oral está CONTRAINDICADA en el embarazo —lo contrario de lo que propone B—, que la candidiasis no se considera ETS —refutando C y D—.)*
 
-> **Nota de cobertura y fiabilidad:** 3 preguntas reales (2022×2, 2023), **2 con discrepancia de MÁXIMA confianza** (MIR-2022-069 y MIR-2022-068, ambas #120, confirmadas por cita textual directa) y 1 limpia, también confirmada por cita textual directa. Tasa de discrepancia del 67% en este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2012-152
 Paciente de 76 años de edad, paridad 3-0-1-3, con menopausia a los 52 años. Relata que desde hace al menos 4-5 años presenta prurito vulvar de intensidad variable que ha sido tratado algunas veces mediante automedicación y otras indicaciones de su médico generalista con preparados tópicos (cremas y lavados). El prurito ha evolucionado así con intermitencias pero desde hace 3-4 meses nota además una pequeña tumoración en el labio mayor izquierdo de la vulva y de la que se producen pérdidas serohemáticas al roce desde hace unos días; por ello consulta al ginecólogo. Al interrogatorio refiere disuria ocasional y el estado general es bueno. ¿Cuál es el diagnóstico más probable en esta paciente?
@@ -147,8 +151,6 @@ D. Se puede diagnosticar en un frotis en fresco de la secreción vaginal sin nec
 E. Al añadir una gota de potasa a la secreción vaginal se desprende un fuerte olor a pescado.
 
 **Respuesta correcta: E** — *(fuente: Examen MIR 2015, pregunta 160; el olor a pescado con KOH es propio de la vaginosis por Gardnerella, no de la candidiasis)*
-
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 3 preguntas (2012-2015) se eleva a 6 preguntas reales, incorporando por primera vez contenido de patología vulvar (Tema 27) a este módulo. Se mantienen las 2 discrepancias de máxima confianza ya documentadas.
 
 ---
 

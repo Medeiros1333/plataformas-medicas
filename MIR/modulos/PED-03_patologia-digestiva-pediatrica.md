@@ -85,9 +85,13 @@ B. Divertículo de Meckel revestido de mucosa gástrica ectópica.
 C. Punto de sangrado de origen genitourinario.
 D. Gammagrafía normal.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 7; pregunta con imagen de gammagrafía no disponible en la fuente de datos — nota: aunque el cuadro clínico descrito, rectorragia indolora recidivante con anemización en un niño de esta edad, es la vignette clásica de manual del divertículo de Meckel, la gammagrafía con pertecnetato NO tiene sensibilidad del 100% y un resultado normal no descarta el diagnóstico si la sospecha clínica es alta; sin poder visualizar la imagen no es posible verificar con certeza si este es el caso o si existe una discrepancia en la clave)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2021, pregunta 7)*
 
-### MIR-2022-079 ⚠️
+**Explicación:** En un niño con rectorragias de repetición y anemización, sin hallazgos en la ecografía abdominal, la gammagrafía con pertecnetato de tecnecio-99m ("gammagrafía de Meckel") es la prueba de elección para el diagnóstico del divertículo de Meckel, ya que este radiotrazador es captado específicamente por la mucosa gástrica ectópica que con frecuencia tapiza este divertículo congénito, el resto embrionario más frecuente del tracto gastrointestinal. El divertículo de Meckel es la causa más frecuente de hemorragia digestiva baja indolora en niños pequeños, típicamente entre 1 y 2 años de edad, y la presencia de un foco de captación anómala en la fosa ilíaca derecha en esta prueba, coincidiendo con la clínica descrita, apoya este diagnóstico como el más probable en este contexto clínico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-079
 Lactante de 14 meses que acude a urgencias por un cuadro de irritabilidad en las últimas 12 horas y heces sanguinolentas con moco. En la exploración destacan episodios de llanto, con flexión de las extremidades inferiores. En la palpación abdominal se objetiva una masa cilíndrica mal definida, incrementándose el llanto del niño cuando se presiona en la parte derecha del abdomen. ¿Cuál es su diagnóstico de sospecha y qué prueba realizaría para confirmarlo?
 
 A. Apendicitis aguda. Ecografía abdominal.
@@ -95,11 +99,13 @@ B. Invaginación intestinal. Ecografía abdominal.
 C. Apendicitis aguda. TC abdominal.
 D. Invaginación intestinal. TC abdominal.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 79)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 79)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía indica explícitamente que la ecografía es "diagnóstico de elección" para la invaginación intestinal (imagen "en diana"/"donut"), evitando además la radiación de la TC en un paciente pediátrico — un principio estándar y ampliamente aceptado en radiología pediátrica. La clave oficial marca "D) invaginación intestinal, TC abdominal" en vez de "B) invaginación intestinal, ecografía abdominal", coincidiendo correctamente en el diagnóstico pero no en la prueba diagnóstica de elección. Se mantiene la letra oficial (D) sin alteración, conforme al protocolo de verificación, pero se marca como caso de alta sospecha de error en la clave oficial 2022. Ver hallazgo #50 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de irritabilidad, llanto con flexión de las extremidades inferiores (dolor cólico intermitente), heces con sangre y moco (en "jalea de grosella") y una masa abdominal alargada y mal definida en un lactante de 14 meses es la presentación clásica de la invaginación intestinal, la causa más frecuente de obstrucción intestinal en lactantes entre los 6 y los 36 meses de edad. La ecografía abdominal es la prueba diagnóstica de elección, al mostrar la imagen característica en "diana" o "donut" formada por las asas intestinales invaginadas, y permite además guiar el tratamiento posterior mediante reducción hidrostática o neumática, evitando el uso de la tomografía computarizada por su menor disponibilidad inmediata, mayor coste y exposición innecesaria a radiación ionizante en la población pediátrica.
 
-### MIR-2020-073 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-073
 En el megacolon agangliónico congénito (enfermedad de Hirschsprung) se dan todas las características siguientes, EXCEPTO una. Señálela:
 
 A. En la zona afectada existe una concentración aumentada de acetilcolinesterasa.
@@ -107,11 +113,13 @@ B. Está ausente el reflejo inhibitorio recto-anal.
 C. Las pruebas diagnósticas de referencia son las biopsias rectales por succión.
 D. Es frecuente la presencia de encopresis o incontinencia fecal.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 73"), confirma como características de la enfermedad de Hirschsprung: (A) la biopsia rectal muestra "haces nerviosos hipertróficos con tinción positiva para acetilcolinesterasa" — confirma A como verdadera; (C) "Biopsia rectal: diagnóstico de confirmación" como prueba de referencia — confirma C como verdadera; y sobre la manometría anorrectal, "la distensión rectal NO provoca la caída de la presión del esfínter anal interno o existe un aumento paradójico" — es decir, el reflejo inhibitorio recto-anal (relajación esfinteriana ante la distensión rectal) está efectivamente AUSENTE/abolido, confirmando B como verdadera también. En cambio, la misma bibliografía describe la encopresis (opción D) explícitamente como característica del ESTREÑIMIENTO FUNCIONAL ("pueden asociar encopresis (MIR)"), un cuadro que se diferencia precisamente de Hirschsprung por tener la ampolla rectal LLENA y manometría NORMAL — mientras que en Hirschsprung la exploración típica muestra "un recto VACÍO" (retención completa sin manchado), un diferenciador clásico entre ambas entidades. Esto sugiere que la afirmación FALSA (la EXCEPCIÓN buscada) sería la D, no la B. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. Ver hallazgo #171 en `PROCESO_Y_APRENDIZAJE.md`. *(Pregunta reclasificada desde DIG a PED — contenido pediátrico congénito cubierto en Tema 6 del manual AMIR de Pediatría, no en el de Digestivo.)*
+**Explicación:** En la enfermedad de Hirschsprung, la biopsia rectal por succión es la prueba diagnóstica de referencia, al demostrar la ausencia de células ganglionares en el plexo submucoso junto con un aumento de la actividad de acetilcolinesterasa en las fibras nerviosas hipertróficas de la submucosa. La ausencia del reflejo inhibitorio rectoanal en la manometría anorrectal es, de hecho, un hallazgo característico y diagnóstico de esta entidad (y no una excepción a su fisiopatología), reflejando la falta de relajación del esfínter anal interno ante la distensión rectal por la ausencia de neuronas inhibitorias. La clínica típica del Hirschsprung es el estreñimiento grave de inicio neonatal con retraso en la eliminación del meconio, sin que la encopresis o la incontinencia fecal por rebosamiento sean manifestaciones habituales de esta entidad, a diferencia de lo que ocurre en el estreñimiento funcional crónico con impactación fecal.
 
-### MIR-2022-082 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-082
 En relación con la estenosis hipertrófica de píloro, señale la afirmación INCORRECTA:
 
 A. Afecta predominantemente a primogénitos varones.
@@ -119,9 +127,11 @@ B. Se ha encontrado mayor incidencia en hijas de madres tratadas con macrólidos
 C. La alteración hidroelectrolítica típica es una acidosis metabólica hipoclorémica.
 D. El tratamiento de elección es la piloromiotomía extramucosa de Ramstedt.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (contradicción directa con un dato ya establecido en este mismo módulo, §1.2/punto clave 1):** este módulo ya documenta expresamente que la estenosis hipertrófica de píloro produce **ALCALOSIS** metabólica hipoclorémica (no acidosis), por la pérdida de HCl con el vómito — la opción C afirma justo lo contrario ("acidosis metabólica hipoclorémica"), un error fisiopatológico claro y bien identificable, mucho más inequívoco que la asociación (más matizada, aunque atípicamente formulada en cuanto al sexo) entre macrólidos y estenosis pilórica de la opción B (clave oficial). Apoya la opción C. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La estenosis hipertrófica de píloro predomina claramente en varones, especialmente primogénitos, y su tratamiento de elección es la piloromiotomía extramucosa de Ramstedt. La alteración hidroelectrolítica característica de esta entidad es la alcalosis metabólica hipoclorémica e hipopotasémica, secundaria a la pérdida mantenida de ácido clorhídrico por los vómitos repetidos de contenido gástrico, y no una acidosis metabólica como podría plantearse erróneamente; esta es una de las asociaciones más clásicamente preguntadas en el estudio de esta entidad. Se ha descrito también una mayor incidencia de estenosis pilórica en lactantes expuestos a macrólidos (especialmente eritromicina) en las primeras semanas de vida, así como una posible asociación con la exposición prenatal o durante la lactancia a estos antibióticos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

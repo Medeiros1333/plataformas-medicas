@@ -116,7 +116,7 @@ D. Los antihistamínicos son útiles para su resolución.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 103)*
 
-### MIR-2022-065 ⚠️
+### MIR-2022-065
 Un niño de 22 meses fue atendido por presentar una otitis media aguda bilateral que cursó con dolor, fiebre, otorrea e hipoacusia. Se instauró tratamiento antibiótico por vía oral y con gotas tópicas con lo que mejoró la sintomatología. A los doce días acude de nuevo a urgencias porque reaparece la fiebre y los padres han observado que el pabellón auditivo se ha desplazado hacia fuera y abajo y que la piel retroauricular está roja y edematosa. ¿Cuál es el diagnóstico más probable?:
 
 A. Otitis externa.
@@ -124,11 +124,13 @@ B. Mastoiditis.
 C. Condritis.
 D. Celulitis.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía describe la mastoiditis exteriorizada (absceso subperióstico) como la complicación intratemporal MÁS FRECUENTE de la OMA: *"formación de un absceso retroauricular que desplaza el pabellón hacia delante... y se fistuliza a la piel retroauricular"* — el desplazamiento del pabellón auricular (independientemente del vector exacto descrito) junto con eritema y edema retroauricular tras una OMA reciente es la vignette CLÁSICA de mastoiditis, no de otitis externa (infección del CAE que no produce desplazamiento del pabellón ni afectación retroauricular). Apoya la opción B. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. **Recuperada del hallazgo #22** (sesión anterior, análisis coincidente) y confirmada de forma independiente en este lote. Ver hallazgo #178 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de reaparición de fiebre tras una otitis media aguda aparentemente resuelta, junto con desplazamiento del pabellón auricular hacia fuera y abajo y eritema/edema de la piel retroauricular, es la presentación clínica clásica y prácticamente patognomónica de la mastoiditis aguda, complicación supurada de la otitis media aguda por extensión de la infección a las celdillas mastoideas, con formación de un absceso subperióstico que desplaza el pabellón.
 
-### MIR-2022-066 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-066
 Mujer de 40 años que presenta un cuadro de mareo acompañado de náuseas y vómitos, de unos veinte minutos de duración. No ha perdido el conocimiento y ha podido sujetarse a una pared para no perder el equilibrio. Ya le había ocurrido en ocasiones anteriores. Refiere haber presentado sensación de plenitud ótica, acúfeno e hipoacusia de oído derecho. En la exploración física se evidencia otoscopia normal, nistagmo horizonte-rotario a la izquierda grado II, Romberg positivo a la derecha y Untenberger con laterodesviación a la derecha. ¿Cuál es el diagnóstico más probable?:
 
 A. Vértigo posicional paroxístico benigno.
@@ -136,11 +138,13 @@ B. Neuronitis vestibular.
 C. Enfermedad de Ménière.
 D. Síndrome de Ramsay-Hunt.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la Tabla 2.8 de la bibliografía ("Diferencias entre enfermedad de Ménière, neuritis vestibular y VPPB") define la enfermedad de Ménière por *"hipoacusia fluctuante, plenitud aural, acúfenos del mismo oído asociados a crisis de vértigo espontáneo recurrentes de, AL MENOS, 20 MIN"* — coincide EXACTAMENTE con el enunciado (20 minutos de duración, plenitud ótica, acúfeno e hipoacusia del oído derecho, episodio recurrente: "ya le había ocurrido en ocasiones anteriores"). La misma tabla asigna explícitamente "Hipoacusia: NO" a la neuritis vestibular (clave oficial, B) — un hallazgo incompatible con la hipoacusia descrita en el enunciado. Apoya la opción C (enfermedad de Ménière). Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. **Recuperada del hallazgo #22** (sesión anterior, análisis coincidente) y confirmada de forma independiente en este lote con cita textual de la tabla comparativa. Ver hallazgo #178 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El cuadro de episodios recurrentes de vértigo de minutos de duración, acompañados de plenitud ótica, acúfeno e hipoacusia fluctuante en el mismo oído, con exploración vestibular compatible con afectación periférica derecha (nistagmo horizontal-rotatorio hacia la izquierda, Romberg y Unterberger lateralizando hacia la derecha), constituye la tétrada clásica de la enfermedad de Ménière: vértigo episódico + hipoacusia fluctuante + acúfenos + sensación de plenitud aural. La neuronitis vestibular, por el contrario, no se acompaña de síntomas cocleares (hipoacusia, acúfenos, plenitud), ya que afecta de forma aislada a la rama vestibular del VIII par, y suele cursar como un episodio único y prolongado (días), no como crisis recurrentes de veinte minutos.
 
-### MIR-2023-061 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-061
 Hombre de 40 años que presenta un cuadro vertiginoso de varias horas de evolución. No presenta hipoacusia, acúfenos ni sensación de taponamiento ótico. En la exploración se observa un nistagmo espontáneo. ¿Qué características del nistagmo orientarán hacia un vértigo periférico?:
 
 A. Nistagmo horizontal, unidireccional, que aumenta de intensidad cuando se dirige al lado de la fase rápida.
@@ -148,11 +152,11 @@ B. Nistagmo vertical, unidireccional, que no se suprime con la fijación de la m
 C. Nistagmo horizontal, con componente rotatorio, que cambia de dirección cuando se dirige al lado de la fase lenta.
 D. Nistamo horizontal, con componente rotatorio que no se suprime con la fijación de la mirada.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la tabla comparativa "Vértigo periférico armónico vs. vértigo central disarmónico" de la bibliografía es explícita e inequívoca: el nistagmo periférico es *"unidireccional: horizontal u horizontorrotatorio"* (NUNCA vertical), *"aumenta al mirar al lado que bate"* y *"aumenta al INHIBIR la fijación ocular"* (es decir, se SUPRIME con la fijación). La opción B, marcada como clave oficial, describe un nistagmo VERTICAL que "no se suprime con la fijación de la mirada" — es decir, describe LITERALMENTE las características del nistagmo CENTRAL según la misma tabla, no del periférico preguntado. La opción A coincide exactamente con la definición bibliográfica del nistagmo periférico (horizontal, unidireccional, aumenta hacia la fase rápida). Apoya la opción A. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación. **Recuperada del hallazgo #22** (sesión anterior, análisis coincidente) y confirmada de forma independiente en este lote con cita textual de la tabla comparativa. Ver hallazgo #178 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** El nistagmo de origen vestibular periférico se caracteriza clásicamente por ser horizontal (o horizonte-rotatorio), unidireccional (no cambia de dirección independientemente de hacia dónde se dirija la mirada) y por aumentar de intensidad cuando la mirada se dirige hacia el lado de la fase rápida, obedeciendo la ley de Alexander; además, se suprime o atenúa característicamente con la fijación visual, siendo esta supresión con la fijación uno de los datos más útiles para diferenciarlo del nistagmo de origen central (que, por el contrario, no se suprime con la fijación visual, puede ser puramente vertical o cambiar de dirección, y suele acompañarse de otra focalidad neurológica). Por ello, un nistagmo horizontal, unidireccional, que aumenta al mirar hacia el lado de la fase rápida, es la descripción que mejor orienta hacia un origen periférico (opción A).
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 3 preguntas recuperadas se eleva a 6 preguntas reales, **3 discrepancias de MÁXIMA confianza** (todas ya sospechadas en el hallazgo #22 y ahora confirmadas con cita textual completa), 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

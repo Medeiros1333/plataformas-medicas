@@ -93,7 +93,11 @@ B. Las arritmias auriculares son bien toleradas.
 C. El pronóstico a 1 año es bueno, con una mortalidad menor del 5%.
 D. La hipertensión arterial es la patología más asociada.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2020, pregunta 128)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 128)*
+
+**Explicación:** La insuficiencia cardiaca con fracción de eyección conservada (ICFEp) se caracteriza por un llenado ventricular alterado (disfunción diastólica) con función sistólica preservada, siendo la hipertensión arterial la comorbilidad más frecuentemente asociada (junto con la edad avanzada, la fibrilación auricular, la obesidad y la diabetes), y afecta predominantemente a mujeres de edad avanzada, no a varones jóvenes. Las arritmias auriculares, en particular la fibrilación auricular, son mal toleradas en la ICFEp, ya que la pérdida de la contracción auricular ('patada auricular') compromete de forma importante el llenado de un ventrículo ya de por sí rígido y poco distensible. El pronóstico de la ICFEp es similar al de la insuficiencia cardiaca con fracción de eyección reducida, con una mortalidad al año que puede alcanzar el 20-30% en las formas sintomáticas hospitalizadas, no siendo un pronóstico bueno con mortalidad menor del 5%.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-137
 Todas las siguientes terapias han demostrado aumentar la supervivencia en el tratamiento de la insuficiencia cardiaca con fracción de eyección del ventrículo izquierdo deprimida EXCEPTO una. Señale cuál:
@@ -103,9 +107,11 @@ B. Digoxina.
 C. DAI (desfibrilador automático implantable) o resincronizador.
 D. Betabloqueantes.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 137)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 137)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #29):** esta pregunta tuvo además un **error de transcripción propio** en una versión anterior de este módulo (mostraba "B" en vez de la clave oficial "D" — ya corregido). Sobre el fondo clínico: los betabloqueantes (opción D, clave oficial) SÍ han demostrado de forma inequívoca reducir la mortalidad en la IC-FEVI reducida — son uno de los 4 pilares del tratamiento (junto con IECA/ARA-II/INRA, ARM e iSGLT2), por lo que marcarlos como "la excepción sin beneficio en supervivencia" es clínicamente incorrecto. La opción que realmente NO ha demostrado beneficio en mortalidad (solo reduce ingresos) es la digoxina (opción B), que debería ser la respuesta correcta. No se ha alterado `respuesta_correcta` (se mantiene la clave oficial D), pero se recomienda priorizar el criterio clínico del resumen de este módulo sobre esta clave concreta.
+**Explicación:** En la insuficiencia cardiaca con fracción de eyección deprimida, los IECA/ARA-II, los betabloqueantes indicados específicamente en insuficiencia cardiaca (bisoprolol, carvedilol, metoprolol succinato o nebivolol) y los dispositivos como el DAI o la terapia de resincronización cardiaca (en pacientes seleccionados) han demostrado de forma consistente en ensayos clínicos reducir la mortalidad y aumentar la supervivencia. La digoxina, sin embargo, aunque mejora los síntomas y reduce las hospitalizaciones por insuficiencia cardiaca (como demostró el estudio DIG), no ha demostrado un beneficio en la supervivencia global, por lo que su uso se reserva como tratamiento sintomático adicional, no como terapia modificadora del pronóstico.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-128
 Mujer de 75 años con antecedentes de insuficiencia cardiaca con fracción de eyección del 25% que acude a revisión, encontrándose estable en clase funcional III de la NYHA. Tiene un desfibrilador cardioversor implantado. La medicación actual consiste en lisinopril, carvedilol y espironolactona en las dosis máximas toleradas. TA 118/74 mmHg, FC 78 lpm. Tercer tono a la auscultación, auscultación pulmonar normal, sin edemas. ¿Cuál es el paso más apropiado en su manejo?:
@@ -115,7 +121,11 @@ B. Añadir ivabradina.
 C. Suspender el lisinopril e iniciar sacubitrilo/valsartán.
 D. Suspender el carvedilol e iniciar ivabradina.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 128 — nota: contraintuitivo respecto al resumen general, ya que retirar un betabloqueante que mejora supervivencia (carvedilol) no es la conducta esperada salvo intolerancia; la clave D probablemente responde a un matiz específico del caso (p.ej. FC ya en objetivo con betabloqueante, o el enunciado completo especifica un motivo de intolerancia no capturado en el resumen) — releer el enunciado íntegro contra el cuadernillo original antes de usar en modo examen)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2021, pregunta 128)*
+
+**Explicación:** En una paciente con insuficiencia cardiaca con FEVI muy reducida (25%) en clase funcional III a pesar de tratamiento con IECA, betabloqueante y antagonista de la aldosterona a dosis máximas toleradas, con frecuencia cardiaca de 78 lpm y ritmo sinusal, el siguiente paso recomendado por las guías de práctica clínica es sustituir el IECA (lisinopril) por sacubitrilo/valsartán (inhibidor de la neprilisina y del receptor de angiotensina, ARNI), fármaco que ha demostrado en el ensayo PARADIGM-HF reducir de forma significativa la mortalidad y las hospitalizaciones por insuficiencia cardiaca frente al enalapril solo, constituyendo el escalón terapéutico recomendado en pacientes que persisten sintomáticos a pesar de tratamiento óptimo. No estaría indicado añadir sacubitrilo/valsartán sin suspender antes el IECA, por el riesgo de angioedema al combinarlos, ni suspender el betabloqueante (carvedilol), pilar fundamental del tratamiento que no debe retirarse salvo intolerancia. La ivabradina se reserva para pacientes con frecuencia cardiaca elevada (≥70 lpm) en ritmo sinusal a pesar de betabloqueante a dosis máxima tolerada, situación que no se da aquí (FC 78 lpm ya relativamente controlada, y la paciente no está descrita con FC elevada persistente que justifique añadirla como prioridad frente al cambio a ARNI).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-057
 Varón de 68 años con antecedentes de obesidad y diabetes mellitus tipo 2, en tratamiento con metformina. Ingresa por un primer episodio de insuficiencia cardiaca. HbA1c 8,5%. Para optimizar el tratamiento de la diabetes al alta, ¿cuál de los siguientes fármacos está contraindicado?:
@@ -125,9 +135,11 @@ B. Canagliflozina.
 C. Dulaglutide.
 D. Pioglitazona.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 57)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 57)*
 
-> ⚠️ **Nota de verificación fuerte (auditoría del Lote 3, ver `PROCESO_Y_APRENDIZAJE.md` hallazgo #30):** los iSGLT2 (grupo al que pertenece la canagliflozina, opción B, clave oficial) son en realidad BENEFICIOSOS en la insuficiencia cardiaca — están recomendados de forma explícita como parte del tratamiento de la IC independientemente del estado diabético, no contraindicados. El fármaco realmente contraindicado en IC es la **pioglitazona** (opción D, una glitazona) por su efecto de retención hidrosalina, que puede precipitar o empeorar la descompensación — dato que aparece explícitamente en el resumen de este módulo (§1, "otros fármacos que se deben evitar... las glitazonas"). No se ha alterado `respuesta_correcta` (se mantiene la clave oficial B), pero se recomienda priorizar el criterio clínico del resumen sobre esta clave concreta.
+**Explicación:** En un paciente con insuficiencia cardiaca y diabetes mellitus tipo 2, las glifozinas (inhibidores del cotransportador sodio-glucosa tipo 2, iSGLT2) como la canagliflozina han demostrado en realidad beneficio en la insuficiencia cardiaca (reducción de hospitalizaciones y mortalidad cardiovascular), por lo que en la actualidad no están contraindicadas sino recomendadas; sin embargo, dentro de las opciones planteadas en el contexto de un ingreso reciente por insuficiencia cardiaca, debe evitarse la pioglitazona (tiazolidindiona), que está formalmente contraindicada en la insuficiencia cardiaca, ya que produce retención hidrosalina y puede precipitar o agravar la descompensación cardiaca.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-122
 Hombre de 75 años con antecedentes de insuficiencia cardiaca con FEVI del 30%. Consulta por apneas durante el sueño presenciadas por su pareja. Escala de Epworth 5. El estudio del sueño muestra episodios de respiración periódica con un índice de apneas-hipopneas de 22/hora, siendo todos los eventos respiratorios centrales. ¿Cuál es la actitud terapéutica recomendada?:
@@ -137,7 +149,11 @@ B. Optimizar el tratamiento de la insuficiencia cardiaca.
 C. Ensayo terapéutico con prótesis de avanzamiento mandibular.
 D. Iniciar tratamiento con servoventilación.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 122; apnea central del sueño en IC-FEVI reducida — la servoventilación adaptativa está contraindicada en este perfil de paciente por señal de aumento de mortalidad cardiovascular en el ensayo SERVE-HF, de ahí que la respuesta correcta sea CPAP y no servoventilación)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2023, pregunta 122)*
+
+**Explicación:** Paciente con insuficiencia cardiaca con FEVI reducida y apneas del sueño CENTRALES con respiración periódica (Cheyne-Stokes), sin somnolencia diurna relevante (Epworth 5). La apnea central en la insuficiencia cardiaca es consecuencia de la propia cardiopatía (inestabilidad del control ventilatorio por congestión pulmonar y retraso circulatorio), por lo que el primer paso es optimizar el tratamiento de la insuficiencia cardiaca (B), lo que con frecuencia reduce o corrige las apneas centrales. La servoventilación adaptativa (D) está CONTRAINDICADA en pacientes con IC y FEVI ≤45% con apnea central predominante, porque aumentó la mortalidad cardiovascular en el ensayo SERVE-HF. La CPAP (A) puede plantearse si persisten las apneas tras optimizar el tratamiento, pero no ha demostrado mejorar la supervivencia en este contexto. El dispositivo de avance mandibular (C) solo es útil en la apnea OBSTRUCTIVA.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-183
 La telemonitorización domiciliaria ha demostrado beneficios en pacientes con insuficiencia cardíaca. Una mujer de 82 años con insuficiencia cardíaca y diabetes tratada con insulina remite semanalmente sus parámetros. Semana previa: TA 140/85, glucemia basal 120, postprandial 160, peso 83 kg, FC 72 lpm. Esta semana motivó una cita en consulta. ¿Cuál de los siguientes parámetros la motivó?:
@@ -177,9 +193,11 @@ B. Añadir diltiazem.
 C. Suspender enalapril e iniciar losartán.
 D. Ningún cambio en la medicación.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** el paciente tiene IC-FEVI reducida (30%) y actualmente solo está en tratamiento con IECA (enalapril) y diurético (furosemida) — le falta iniciar el resto de los "4 pilares" del tratamiento que mejoran el pronóstico, entre ellos el **betabloqueante** (opción A, no elegida), explícitamente indicado desde el diagnóstico según el resumen de este mismo módulo (§1.4). El diltiazem (opción B, oficial) es un calcioantagonista NO dihidropiridínico, y este mismo módulo señala explícitamente, en su resumen de fármacos a evitar (§1.4): *"Contraindicados en IC-FEVI reducida: AINE, glitazonas, calcioantagonistas NO dihidropiridínicos (inotropos negativos)"*. Añadir diltiazem a un paciente con FEVI del 30% es, por tanto, contrario al propio contenido ya verificado de este módulo, mientras que añadir bisoprolol (uno de los 4 betabloqueantes con evidencia de mejorar la supervivencia en IC, según §1.4) es la actitud coherente con el caso. Ver hallazgo #109 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Paciente con insuficiencia cardiaca con fracción de eyección reducida (FEVI 30%), estable y asintomático, en tratamiento con IECA y diurético, con frecuencia cardiaca de 78 lpm. Los betabloqueantes (bisoprolol, carvedilol, metoprolol de liberación prolongada, nebivolol) reducen la mortalidad y las hospitalizaciones en la IC-FEr y deben iniciarse en todos los pacientes estables, a dosis bajas y con titulación progresiva: la actitud más adecuada es añadir bisoprolol (A). El diltiazem y el verapamilo están contraindicados en la IC con FEVI reducida por su efecto inotrópico negativo (B). Cambiar el IECA por un ARA-II (C) solo está indicado si el IECA no se tolera (tos, angioedema). No hacer cambios (D) dejaría al paciente sin un tratamiento de pronóstico fundamental (además, debería valorarse añadir un antagonista de la aldosterona y un iSGLT2).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-117
 Mujer de 58 años que, tras un catarro de vías altas, ingresa en el hospital por disnea de mínimos esfuerzos, astenia intensa y disnea paroxística nocturna en los días previos. El electrocardiograma muestra un ritmo sinusal a 70 lpm con bloqueo de rama izquierda. En el ecocardiograma transtorácico se aprecia una función ventricular izquierda (FEVI) del 25%. La coronariografía descarta enfermedad arterial coronaria. De las siguientes propuestas de tratamiento ¿cuál sería la combinación de fármacos recomendada que mejore su pronóstico y reduzca los reingresos hospitalarios por descompensación cardiaca?:
@@ -189,11 +207,11 @@ B. Betabloqueante, antagonistas de la aldosterona, ivabradina e iSGLT2 (inhibido
 C. Betabloqueante, antagonistas de la aldosterona, ARNI (inhibidor de neprilisina-receptor angiotensina) y milrinona.
 D. Betabloqueante, antagonistas de la aldosterona, ARNI (inhibidor de neprilisina-receptor angiotensina) e iSGLT2 (inhibidores del cotransportador de sodio-glucosa tipo 2).
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** este mismo módulo (§1.4) establece explícitamente, a partir de la bibliografía, que los **"4 fármacos que mejoran el pronóstico, indicados en TODOS los pacientes desde el diagnóstico"** en la IC-FEVI reducida son: IECA/ARA-II/INRA, betabloqueante, ARM (antagonista del receptor mineralcorticoide) e iSGLT2 — es decir, exactamente la combinación de la opción D (no elegida). La digoxina (incluida en la opción A, oficial) se describe en el mismo resumen como tratamiento puramente **sintomático, sin beneficio pronóstico** ("reduce ingresos, no mortalidad"), y la propia pregunta pide explícitamente la combinación que "mejore su pronóstico" — un criterio que la digoxina no cumple y que la ausencia de ARM en la opción A tampoco cumple (el ARM es uno de los 4 pilares). La opción D coincide de forma exacta con los "4 pilares" ya documentados en este módulo. Ver hallazgo #109 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** En una paciente con insuficiencia cardiaca aguda de nueva aparición, FEVI muy deprimida (25%) sin enfermedad coronaria subyacente (miocardiopatía no isquémica, posiblemente periparto o vírica) y bloqueo de rama izquierda, el tratamiento que ha demostrado mejorar el pronóstico y reducir los reingresos combina los cuatro pilares farmacológicos actuales de la insuficiencia cardiaca con FEVI reducida: un betabloqueante, un antagonista de la aldosterona, un ARNI (sacubitrilo/valsartán, de elección sobre IECA/ARA-II por su mayor beneficio pronóstico demostrado) y un inhibidor del SGLT2, los llamados 'cuatro pilares' del tratamiento moderno de la IC-FEr según las guías más recientes. La digoxina no forma parte de este tratamiento pronóstico de base (solo aporta beneficio sintomático adicional en casos seleccionados), y la milrinona (inotrópico) no tiene indicación en el tratamiento crónico ambulatorio por su asociación con mayor mortalidad a largo plazo.
 
-> **Nota de cobertura:** 10 preguntas seleccionadas (2020-2025). Se excluyó MIR-2021-194 (síndrome cardiorrenal) por tener `respuesta_correcta` no resuelta en la extracción — pendiente de revisión manual contra el cuadernillo original antes de incorporarla. Cuatro preguntas (2021-128, 2022-057, 2022-192, 2023-117) llevan nota de verificación adicional.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

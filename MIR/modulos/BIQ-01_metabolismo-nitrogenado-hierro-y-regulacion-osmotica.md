@@ -104,7 +104,7 @@ D. Elaborar creatina utilizando glicina, ATP y amoníaco para obtener creatin-fo
 
 > **Nota de cobertura (confianza fuerte, bioquímica estándar del catabolismo de aminoácidos ramificados):** el catabolismo de los BCAA se inicia característicamente en el músculo esquelético (a diferencia de otros aminoácidos, metabolizados en el hígado), generando alfa-cetoácidos ramificados que el propio músculo puede oxidar como fuente energética directa. El resto de opciones describe procesos bioquímicamente incorrectos: el músculo no realiza ureagénesis (vía exclusivamente hepática); la alanina muscular se produce por transaminación de piruvato con GLUTAMATO, no con aspartato; y el músculo no sintetiza creatina de novo (solo la capta y fosforila mediante creatina-cinasa), no la "elabora" a partir de glicina/ATP/amoníaco. Sin discrepancia.
 
-### MIR-2022-031 ⚠️
+### MIR-2022-031
 En relación con la regulación del intercambio de líquido y del equilibrio osmótico entre los líquidos intracelular y extracelular en una situación fisiológica, señale la afirmación INCORRECTA:
 
 A. La distribución del líquido entre los compartimentos intracelular y extracelular está determinada sobre todo por el efecto osmótico de los iones más pequeños.
@@ -112,9 +112,11 @@ B. Alrededor del 80 % de la osmolaridad total del líquido intersticial y del pl
 C. Alrededor del 50 % de la osmolaridad en el líquido intracelular se debe a los iones calcio.
 D. Cambios relativamente pequeños en la concentración de solutos no difusibles en el líquido extracelular pueden causar grandes cambios en el volumen celular.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (fisiología estándar Guyton, no localizada textualmente en el extracto de `BIQ_full.txt` disponible, que no cubre este apartado de fisiología integrativa):** es un hecho fisiológico ampliamente establecido y no controvertido (Guyton & Hall, *Tratado de Fisiología Médica*) que el sodio y sus aniones asociados (fundamentalmente cloro) constituyen aproximadamente el 80% de la osmolaridad del líquido extracelular — la opción B es, por tanto, una afirmación VERDADERA, no la incorrecta buscada. En cambio, la opción C afirma que el CALCIO constituye ~50% de la osmolaridad intracelular, cuando ese papel corresponde al POTASIO (el catión intracelular predominante en concentración, ~140 mEq/L) — el calcio intracelular libre se mantiene en concentraciones extremadamente bajas (nanomolares) por múltiples sistemas de transporte activo, siendo osmóticamente irrelevante. La sustitución "potasio→calcio" en la opción C es el error clásico esperable en este tipo de pregunta, y es la verdadera afirmación INCORRECTA. Se mantiene la clave oficial (B) sin alterar, conforme al protocolo de verificación.
+**Explicación:** La distribución de agua entre el líquido intracelular (LIC) y extracelular (LEC) depende fundamentalmente del efecto osmótico ejercido por los iones de pequeño tamaño y alta concentración: sodio y sus aniones acompañantes (cloro, bicarbonato) en el LEC, y potasio junto con fosfatos orgánicos y proteínas en el LIC. En el LIC, el catión dominante en la determinación de la osmolaridad es el potasio (junto a fosfatos orgánicos y proteínas), mientras que el calcio libre intracelular se mantiene en concentraciones extremadamente bajas (del orden de 100 nM) gracias a los sistemas de extrusión activa, por lo que su contribución osmótica es mínima. Pequeños cambios en la concentración de solutos no difusibles del LEC pueden provocar movimientos osmóticos de agua relevantes y, en consecuencia, cambios importantes en el volumen celular, lo que es un principio fisiológico bien establecido.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-026
 En relación con el metabolismo del hierro y su control mediado por hepcidina, es cierto que:
@@ -148,7 +150,7 @@ D. El aspartato aporta el segundo nitrógeno de la urea al condensarse con citru
 
 **Respuesta correcta: D** — *(bioquímica estándar del ciclo de la urea, ampliamente establecida en cualquier texto de referencia: el aspartato aporta el segundo nitrógeno de la urea al condensarse con citrulina en el citosol —vía arginino-succinato-sintetasa— para formar arginino-succinato; ni la citrulina se condensa con glutamato [A], ni la ornitina aporta directamente el nitrógeno de la urea [B], ni la asparagina participa en la reacción de la carbamoil-fosfato-sintetasa I, que utiliza amoníaco libre [C]. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2020-026 ⚠️
+### MIR-2020-026
 La adaptación metabólica al inicio del ayuno intermedio (por encima de 24 horas) va acompañado de un aumento en la proteólisis y la liberación de aminoácidos desde el músculo. En esta situación, ¿cuál de las siguientes afirmaciones es cierta?:
 
 A. Los aminoácidos ramificados son degradados en el hígado.
@@ -156,11 +158,13 @@ B. La alanina liberada es captada por el hígado para su uso como sustrato gluco
 C. La glutamina es transformada en los enterocitos en alanina, generándose amonio y arginina.
 D. Los aminoácidos son utilizados en gran parte en el hígado para la síntesis de proteínas plasmáticas.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (correspondencia textual estrecha con la bibliografía de este mismo módulo, §1.6bis, sin cita numérica directa a esta pregunta exacta):** la bibliografía describe textualmente el ciclo de la alanina (Cahill): *"La Ala pasará al torrente sanguíneo y viajará hasta el Hígado. Una vez allí, la Ala liberará el grupo amino/amonio... El Pyr resultante se usará como precursor gluconeogénico"* — coincidiendo EXACTAMENTE con la opción B. Además, la misma fuente confirma que los aminoácidos ramificados son "muy característicos del tejido MUSCULAR" y se procesan allí (transfiriendo su grupo amino al piruvato en el músculo), contradiciendo la opción A. La opción D (clave oficial) es incoherente con la fisiología del ayuno: en un estado catabólico de proteólisis activa, la síntesis HEPÁTICA de proteínas plasmáticas DISMINUYE, no aumenta; los aminoácidos liberados se dirigen mayoritariamente a la gluconeogénesis, no a la síntesis proteica. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Durante el ayuno intermedio, la proteólisis muscular libera sobre todo alanina y glutamina. La alanina viaja al hígado, donde se transamina a piruvato y se emplea como sustrato de la gluconeogénesis (ciclo glucosa-alanina), manteniendo la glucemia cuando el glucógeno hepático ya se ha agotado: es la afirmación correcta (B). Los aminoácidos ramificados (leucina, isoleucina, valina) no se degradan en el hígado, que apenas tiene actividad aminotransferasa de cadena ramificada, sino fundamentalmente en el músculo (A falsa). La glutamina es captada por los enterocitos y convertida en alanina, amonio y citrulina (no arginina, que se sintetiza después en el riñón a partir de la citrulina) (C falsa). En el ayuno, el destino prioritario de los aminoácidos que llegan al hígado es la gluconeogénesis, no la síntesis de proteínas plasmáticas (D falsa).
 
-### MIR-2020-027 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-027
 El 2,3-BPG (2,3-bisfosfoglicerato) es un compuesto orgánico que modula la unión de oxígeno a la hemoglobina. Este metabolito es sintetizado en los hematíes a través de una derivación de la vía glicolítica. Señale la respuesta FALSA:
 
 A. La concentración de 2,3-BPG en los eritrocitos (normalmente cercana a 5 mM) aumenta en situaciones de hipoxia, anemia grave y de adaptación a altitudes elevadas.
@@ -168,13 +172,15 @@ B. La presencia de 2,3-BPG apenas influye en la oxigenación de la hemoglobina a
 C. La adición de 2,3-BPG a la sangre almacenada para transfusiones es ineficaz.
 D. La hemoglobina fetal tiene mayor afinidad por el 2,3-BPG que la hemoglobina A1.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cita textual DIRECTA a esta misma pregunta):** la bibliografía cita explícitamente esta pregunta al introducir los factores alostéricos de la Hb: *"Estos factores son el CO2, el pH, el 2,3-Bisfosfoglicerato (2,3-BPG) y la temperatura (**MIR 20-21, 27**)"* (aplicando el desfase habitual, corresponde a MIR-2020-027), y afirma en un recuadro "Recuerda" explícito: *"La Hb F (α2γ2) es **INSENSIBLE** a la acción del 2,3-BPG"* — contradiciendo frontalmente la opción D (clave oficial), que afirma justo lo contrario (que la Hb F tiene MAYOR afinidad por el 2,3-BPG). La opción B, en cambio, es defendible como VERDADERA: a nivel pulmonar (PO2 alta, zona plana/saturada de la curva de disociación) el efecto del 2,3-BPG sobre la oxigenación es mínimo, siendo clínicamente relevante sobre todo a nivel tisular (zona de pendiente pronunciada de la curva) — consistente con la propia curva de disociación de la bibliografía. Apoya la opción D como la verdadera falsa. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El 2,3-BPG se une a la desoxihemoglobina adulta (a través de las cadenas beta) y desplaza la curva de disociación a la derecha, facilitando la cesión de O2 a los tejidos. La hemoglobina fetal (α2γ2) tiene MENOR afinidad por el 2,3-BPG que la HbA, porque las cadenas gamma carecen de algunos de los residuos que lo fijan; por eso la HbF tiene mayor afinidad por el oxígeno, lo que favorece la transferencia placentaria. La afirmación D es, por tanto, la FALSA. El resto son ciertas: el 2,3-BPG aumenta en la hipoxia, la anemia grave y la altitud (A); a nivel de los capilares pulmonares, con PO2 alta, la curva está en su meseta y el 2,3-BPG apenas modifica la saturación alcanzada (B); y añadir 2,3-BPG a la sangre almacenada es ineficaz porque, al estar cargado, no atraviesa la membrana del hematíe (C).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
-### MIR-2023-174 ⚠️
+### MIR-2023-174
 Mujer de 50 años, con antecedentes de lumbalgia crónica desde los 30 años, que actualmente presenta gonalgia bilateral de predominio izquierdo de 5 meses de evolución. A la exploración física se aprecia una mancha marrón en escalera en el ojo derecho y la rodilla izquierda aumentada de tamaño con limitación a la movilidad activa y pasiva. Se realiza una artrocentesis de esa rodilla donde se extrae líquido articular de color amarillo y ligeramente turbio. Recuento celular: 600 leucocitos/mm3 y 7800 eritrocitos/mm3. No se observan microcristales bajo luz polarizada ni microorganismos en la tinción de Gram. Se realiza una artroscopia para toma de biopsia sinovial que informa de presencia de tejido de pigmentación ocre. ¿Cuál es el diagnóstico más probable?:
 
 A. Porfiria aguda intermitente.
@@ -182,11 +188,11 @@ B. Alcaptonuria.
 C. Osteoartritis séptica.
 D. Artritis reumatoide.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cuadro clínico patognomónico, error de asignación claro):** el cuadro descrito es un caso de manual de OCRONOSIS por ALCAPTONURIA (déficit de homogentisato oxidasa en la vía catabólica de la fenilalanina/tirosina, con acumulación de ácido homogentísico) — pigmentación oscura/parda de escleróticas y cartílagos ("mancha en escalera" ocular es un hallazgo de pigmentación ocronótica), artropatía crónica degenerativa de grandes articulaciones y columna de inicio en la edad adulta (lumbalgia crónica desde joven), líquido sinovial no inflamatorio/no séptico, y el hallazgo DEFINITORIO de tejido sinovial de PIGMENTACIÓN OCRE en la biopsia — un hallazgo histológico prácticamente patognomónico de la alcaptonuria/ocronosis, no de ninguna otra entidad de la lista. La porfiria aguda intermitente (clave oficial A) cursa con dolor abdominal agudo, síntomas neuropsiquiátricos y orina oscura tras exposición a la luz, SIN pigmentación tisular ocre ni artropatía crónica de este tipo — un cuadro clínico completamente distinto. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro descrito (mancha ocre en escalera en la esclerótica, artropatía degenerativa de grandes articulaciones con pigmentación ocre del tejido sinovial en la biopsia, antecedente de lumbalgia crónica desde la juventud y líquido articular no inflamatorio sin cristales ni gérmenes) es la presentación clásica de la ocronosis por alcaptonuria, un trastorno autosómico recesivo por déficit de homogentisato-1,2-dioxigenasa que provoca el depósito de ácido homogentísico polimerizado (pigmento ocre) en cartílago, piel y esclerótica, con artropatía axial y periférica de inicio en la edad adulta. Debe distinguirse de la porfiria aguda intermitente, que cursa característicamente con crisis de dolor abdominal cólico, síntomas neuropsiquiátricos, neuropatía autonómica y orina que se oscurece con la exposición al aire, sin relación con pigmentación ocular ni artropatía ocronótica. La osteoartritis séptica se descarta por la ausencia de microorganismos en la tinción de Gram y el recuento celular no francamente inflamatorio, y la artritis reumatoide no explica la pigmentación ocular ni sinovial característica del caso.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, sumando 1 discrepancia nueva de MÁXIMA confianza.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

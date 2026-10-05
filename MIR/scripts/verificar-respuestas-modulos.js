@@ -21,7 +21,10 @@ for (const a of anos) {
 
 const modDir = path.join(root, 'modulos');
 const files = fs.readdirSync(modDir).filter((f) => f.endsWith('.md'));
-const re = /### MIR-(\d{4})-0*(\d+)[\s\S]*?\*\*Respuesta correcta:\s*([A-E])\*\*/g;
+// Cada bloque va desde "### MIR-..." hasta el siguiente encabezado (## o ###), para no "heredar"
+// la clave de la pregunta siguiente cuando un bloque no la tiene (p. ej. preguntas anuladas).
+const reBloque = /^### MIR-(\d{4})-0*(\d+)[^\n]*\n([\s\S]*?)(?=^##+ |(?![\s\S]))/gm;
+const reClave = /\*\*Respuesta correcta:\s*([A-E])\*\*/;
 
 let checked = 0;
 let mismatches = 0;
@@ -29,12 +32,22 @@ let mismatches = 0;
 for (const f of files) {
   const text = fs.readFileSync(path.join(modDir, f), 'utf8');
   let m;
-  re.lastIndex = 0;
-  while ((m = re.exec(text))) {
+  reBloque.lastIndex = 0;
+  while ((m = reBloque.exec(text))) {
     const key = `${m[1]}-${parseInt(m[2], 10)}`;
-    const shown = m[3];
     const official = lookup[key];
+    const k = m[3].match(reClave);
+    const anulada = /\*\*Pregunta anulada\*\*/.test(m[3]);
+    if (!k && !anulada) continue; // bloque sin clave mostrada (referencia en prosa)
     checked++;
+    if (anulada) {
+      if (official !== null && official !== undefined) {
+        console.log(`MISMATCH: MIR-${key} en ${f} -> módulo dice anulada, oficial es ${official}`);
+        mismatches++;
+      }
+      continue;
+    }
+    const shown = k[1];
     if (official === undefined) {
       console.log(`SIN DATO EN JSON: MIR-${key} en ${f}`);
       continue;

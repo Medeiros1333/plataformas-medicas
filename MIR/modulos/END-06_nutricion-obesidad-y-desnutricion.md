@@ -70,9 +70,11 @@ B. Desnutrición grave relacionada con la enfermedad aguda.
 C. Fallo intestinal por síndrome de intestino corto.
 D. Obesidad grado II.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** esta discrepancia está confirmada por DOS vías independientes. Primero, la bibliografía AMIR cita esta misma pregunta de forma directa ("MIR 23, 161", desfase de año habitual de ±1) exactamente en el apartado que describe la **"Desnutrición relacionada con la enfermedad aguda (DRE aguda)"** — el nombre de esta entidad coincide de forma prácticamente literal con el texto de la opción B (no elegida). Segundo, la propia bibliografía (Tema 7.1) reproduce la tabla de clasificación de IMC de la OMS: *"Obesidad grado I: 30-34,9 kg/m2. Obesidad grado II: 35-39,9 kg/m2"* — el IMC de la paciente (31,2) corresponde inequívocamente a obesidad GRADO I, no grado II como marca la clave oficial (D), que contiene por tanto un error incluso en su propia lógica interna. Además, clínicamente, la pérdida de 9 kg (>10% del peso corporal) en 20 días junto con ingesta del 25% de lo recomendado en el contexto de una cirugía y antibioterapia por enfermedad aguda es el cuadro clásico de desnutrición aguda relacionada con la enfermedad, que según la propia bibliografía "es posible en presencia de IMC" elevado. Ver hallazgo #111 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En una paciente anciana con ingesta muy reducida (25% de lo recomendado) durante un ingreso prolongado por una patología aguda grave (diverticulitis complicada con cirugía), diarrea y una pérdida ponderal marcada y reciente (9 kg en 20 días), a pesar de mantener un IMC en rango de obesidad (31,2 kg/m2), debe sospecharse una desnutrición aguda relacionada con la enfermedad, ya que el IMC por sí solo no descarta un estado de desnutrición activa cuando existe una pérdida de peso reciente e importante junto con una ingesta claramente insuficiente en el contexto de estrés metabólico agudo; el diagnóstico de desnutrición debe basarse en la evolución del peso, la ingesta y el contexto clínico (enfermedad aguda grave), y no únicamente en el IMC absoluto, que puede enmascarar una desnutrición sobreañadida en un paciente con obesidad de base.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-093
 En relación a las indicaciones de cirugía bariátrica, señale la correcta.
@@ -98,7 +100,7 @@ D. La cirugía bariátrica logra mayores reducciones de peso y mejoría de comor
 
 *(Sin discrepancia — coincide exactamente con la bibliografía: "la cirugía es la medida terapéutica que ha demostrado una mayor pérdida de peso a largo plazo en estos pacientes, y se asocia además a una mayor supervivencia" frente al tratamiento farmacológico, en el contexto de obesidad grave.)*
 
-> **Nota de cobertura y fiabilidad:** 3 preguntas reales (2022, 2025×2), **1 con discrepancia de máxima confianza** (MIR-2022-161, #111, confirmada por doble vía: cita textual directa + error en la propia tabla numérica de clasificación del IMC), y 2 limpias que confirman sólidamente el contenido de indicaciones/eficacia de la cirugía bariátrica de este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

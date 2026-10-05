@@ -46,7 +46,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2022-062 ⚠️
+### MIR-2022-062
 Mujer de 38 años que desde hace unas semanas nota en ambos ojos sensación de arenilla y quemazón, que empeora a lo largo del día, cuando hace viento y con el aire acondicionado. ¿Cuál de los siguientes es el diagnóstico más probable?:
 
 A. Conjuntivitis alérgica.
@@ -54,9 +54,11 @@ B. Epiescleritis.
 C. Pinguécula.
 D. Queratoconjuntivitis seca.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía describe la queratoconjuntivitis sicca (opción D) como *"cuadro caracterizado por sensación de sequedad ocular, ARENILLA, enrojecimiento ocular"* — una coincidencia literal, palabra por palabra, con el síntoma cardinal del enunciado ("sensación de arenilla"), reforzada por el patrón de empeoramiento con viento/aire acondicionado y a lo largo del día, típico del ojo seco. La pingüécula (clave oficial, C) no figura en ningún punto de la bibliografía como una entidad que produzca este cuadro sintomático (es clásicamente una lesión conjuntival incidental, no una causa primaria de sintomatología irritativa progresiva de este tipo). Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #158 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Sensación de arenilla y quemazón en AMBOS ojos, que empeora a lo largo del día, con el viento y con el aire acondicionado: es el cuadro típico de la queratoconjuntivitis seca u ojo seco (D), por déficit de producción o exceso de evaporación de la lágrima, muy frecuente en mujeres de mediana edad. Los síntomas empeoran con los factores que aumentan la evaporación (ambientes secos, viento, aire acondicionado, uso de pantallas) y al final del día. El diagnóstico se apoya en el test de Schirmer, el tiempo de ruptura lagrimal y la tinción con fluoresceína o verde de lisamina, y el tratamiento inicial son las lágrimas artificiales. La conjuntivitis alérgica (A) produce sobre todo picor; la epiescleritis (B) es un enrojecimiento sectorial, generalmente unilateral, poco doloroso; y la pinguécula (C) es una lesión localizada, habitualmente asintomática, no un cuadro bilateral difuso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-052
 Un enfermo diabético de reciente diagnóstico acude a revisión oftalmológica. A las pocas horas vuelve con un cuadro bilateral de edema y eritema palpebral, quemosis, hiperemia conjuntival, lagrimeo y picor. Su actitud debe ser:
@@ -82,9 +84,9 @@ D. Los fármacos alfa bloqueantes como la tamsulosina asocian complicaciones int
 
 > **Nota de cobertura:** confirmación LIMPIA — la asociación entre tamsulosina/alfabloqueantes y el síndrome de iris flácido intraoperatorio (complicación quirúrgica bien establecida en la cirugía de cataratas) es un hallazgo médico-quirúrgico consolidado, coincidiendo con la clave oficial. La indicación quirúrgica no depende solo de la AV aislada (descarta C); la cirugía de cristalino en miopes jóvenes AUMENTA (no disminuye) el riesgo de desprendimiento de retina (descarta B). Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 3 preguntas reales (2022, 2024×2), **1 discrepancia de MÁXIMA confianza**, 2 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2021-063 ⚠️
+### MIR-2021-063
 Varón de 36 años que consulta por hiperemia conjuntival y sensación de cuerpo extraño. En la exploración presenta afectación del ganglio preauricular. ¿Cuál de las siguientes patologías NO se corresponde con dicha exploración?:
 
 A. Conjuntivitis adenovírica.
@@ -92,11 +94,11 @@ B. Conjuntivitis alérgica.
 C. Síndrome oculoglandular de Parinaud.
 D. Conjuntivitis por Chlamydia.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (hecho clásico y bien establecido de oftalmología/microbiología clínica):** la adenopatía preauricular es un hallazgo característico de las conjuntivitis de etiología VIRAL/folicular — adenovírica (A), por Chlamydia (D, conjuntivitis de inclusión, también de patrón folicular) y el síndrome oculoglandular de Parinaud (C, definido precisamente por la asociación de conjuntivitis granulomatosa + adenopatía preauricular, típico de la enfermedad por arañazo de gato). La conjuntivitis ALÉRGICA (B), en cambio, es de patrón papilar y NO se asocia característicamente a adenopatía preauricular — es la excepción clásica que se busca en este tipo de pregunta. Apoya la opción B como la que NO se corresponde con el hallazgo exploratorio. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La afectación del ganglio linfático preauricular (adenopatía preauricular) asociada a conjuntivitis es un signo clínico característico de los procesos conjuntivales de etiología vírica y de ciertas entidades granulomatosas específicas, como la conjuntivitis adenovírica (la causa más frecuente y clásica de adenopatía preauricular asociada a conjuntivitis folicular), el síndrome oculoglandular de Parinaud (conjuntivitis granulomatosa unilateral con adenopatía preauricular ipsilateral marcada, típicamente por Bartonella henselae) y también la conjuntivitis de inclusión por Chlamydia trachomatis, que de hecho sí puede asociar adenopatía preauricular por su naturaleza también folicular. Sin embargo, la conjuntivitis alérgica, al ser un proceso de hipersensibilidad mediado por IgE y mastocitos sin replicación de un patógeno infeccioso, no se acompaña de adenopatía preauricular, siendo esta la entidad que NO se relaciona con dicho hallazgo exploratorio entre las cuatro planteadas.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **2 discrepancias** (1 previa + 1 nueva), 2 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

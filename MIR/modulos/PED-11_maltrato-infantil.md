@@ -70,7 +70,7 @@ D. Al Instituto de Medicina Legal y Ciencias Forenses de su demarcación.
 
 > **Nota de cobertura:** confirmación LIMPIA — reclasificada de URG a PED. La bibliografía confirma que, ante la sospecha de maltrato infantil, "no hay que esperar a tener certeza para notificar el caso a los Servicios Sociales", siendo esta la vía ordinaria de comunicación cuando no existe una amenaza inmediata sobre la salud/seguridad del menor (matiz explícito del enunciado que distingue este escenario del circuito judicial/policial urgente). Sin discrepancia.
 
-### MIR-2020-077 ⚠️
+### MIR-2020-077
 Lactante de 4 meses que acude a urgencias por vómitos y letargia. En la exploración llama la atención disminución importante del nivel de conciencia con incapacidad para despertar a pesar de estímulos. En los exámenes complementarios destaca la presencia de anemia, hemorragias retinianas en el fondo de ojo, hematoma subdural en la TC craneal y fractura en parte posterior de tercera costilla. ¿Cuál de los siguientes diagnósticos considera más probable como responsable de estas lesiones?:
 
 A. Maltrato físico.
@@ -78,9 +78,11 @@ B. Politraumatismo por caída de la cuna.
 C. Traumatismo torácico en lactante con alteración de la coagulación.
 D. Leucemia promielocítica aguda tras realizar aspirado de médula ósea.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza, cita textual DIRECTA a esta misma pregunta):** la bibliografía, con cita directa **"MIR 21, 77"** (adyacente a la enumeración de signos de alarma), enumera exactamente esta tríada como altamente sugestiva de maltrato: hemorragias retinianas (síndrome del niño zarandeado, con lesiones intracraneales), hematomas subdurales, y **fracturas costales múltiples, sobre todo POSTERIORES, en ausencia de traumatismo torácico de alta energía**. El cuadro descrito (hematoma subdural + hemorragias retinianas + fractura costal posterior en un lactante de 4 meses con alteración del nivel de conciencia) es la presentación clásica y de libro del síndrome del niño zarandeado/maltrato físico infantil — no existe ninguna asociación fisiopatológica plausible entre una leucemia promielocítica aguda o un aspirado de médula ósea y esta tríada de hallazgos (retina, espacio subdural, costillas). Apoya la opción A. Se mantiene la clave oficial (D) sin alterar, conforme al protocolo de verificación.
+**Explicación:** La combinación de disminución del nivel de conciencia, hemorragias retinianas bilaterales, hematoma subdural y una fractura costal posterior en un lactante sin traumatismo referido constituye la tríada clásica del traumatismo craneal abusivo (síndrome del niño zarandeado), altamente sugestiva de maltrato físico infantil. Las fracturas costales posteriores son especialmente específicas de maltrato, ya que se producen por compresión torácica anteroposterior forzada (al sujetar y zarandear al lactante), un mecanismo que raramente se produce de forma accidental en la vida cotidiana del lactante. Ante estos hallazgos, la sospecha de maltrato debe ser prioritaria y obliga a activar el protocolo de protección a la infancia y la notificación correspondiente, además de descartar otras causas médicas mediante el estudio de coagulación y metabólico oportuno.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

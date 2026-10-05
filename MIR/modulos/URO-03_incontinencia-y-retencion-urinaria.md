@@ -104,7 +104,7 @@ D. 95
 
 > **Nota de cobertura (confianza fuerte, cálculo aritmético directo según la escala estándar del índice de Barthel):** partiendo de 100 puntos (independencia total en las 10 ABVD) y descontando según los déficits descritos: vejiga con incontinencia ocasional = 5 puntos (no 10, −5); deambulación con supervisión/ayuda física = 10 puntos (no 15, −5); escaleras con supervisión/ayuda física = 5 puntos (no 10, −5). Total: 100 − 5 − 5 − 5 = **85 puntos**, coincidiendo exactamente con la clave oficial C. Sin discrepancia.
 
-### MIR-2022-074 ⚠️
+### MIR-2022-074
 Mujer de 54 años nuligesta que consulta por pérdidas de orina tras la percepción de urgencia miccional y por sensación de necesidad de orinar en la noche 3-4 veces. En la exploración ginecológica se evidencia un cistocele de primer grado y una atrofia vaginal moderada. ¿Cuáles serían las medidas iniciales a realizar?:
 
 A. Corrección quirúrgica del cistocele.
@@ -112,11 +112,11 @@ B. Realización de diario miccional y reeducación vesical.
 C. Indicación de flujometría y evaluación de la función uretral.
 D. Prescripción de tratamiento oral con fármacos colinérgicos.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (doble error identificable, correspondencia textual directa con §1.2 de este mismo módulo):** el cuadro (urgencia miccional + nicturia, frecuencia AUMENTADA) es incontinencia de urgencia por vejiga hiperactiva. La bibliografía de este módulo establece expresamente que el tratamiento de la vejiga hiperactiva es escalonado: *"1.ª línea = medidas CONDUCTUALES/uroterapia + fármacos ANTICOLINÉRGICOS (antimuscarínicos) y/o agonistas beta-3"* — la clave oficial (D) contiene un error farmacológico claro (fármacos "colinérgicos" en vez de ANTIcolinérgicos, el mecanismo correcto y opuesto) y además salta directamente a tratamiento farmacológico, cuando la actitud INICIAL recomendada son las medidas conductuales (diario miccional + reeducación vesical, opción B) antes de recurrir a fármacos. Apoya la opción B. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** En la incontinencia de urgencia con nicturia asociada a un cistocele leve (grado I) y atrofia vaginal moderada, el manejo inicial de cualquier incontinencia urinaria debe ser siempre conservador: diario o calendario miccional para caracterizar el patrón de pérdidas y reeducación vesical (entrenamiento con micciones programadas y técnicas de contención de la urgencia), antes de plantear tratamiento farmacológico o quirúrgico. El cistocele de primer grado es de escasa entidad clínica y no justifica corrección quirúrgica, y la flujometría se reserva para el estudio de patrones obstructivos o de vaciado, no como primera medida ante una incontinencia de urgencia con clínica típica.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 5 preguntas reales, **1 discrepancia de MÁXIMA confianza**, 4 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-154
 En cuanto a la obstrucción del flujo urinario, señale la respuesta FALSA:
@@ -130,7 +130,7 @@ D. La obstrucción del flujo urinario aumenta la presión hidrostática proximal
 
 > **Nota de cobertura:** confirmación LIMPIA — fisiopatología estándar de la uropatía obstructiva: la intensidad del dolor SÍ depende de la velocidad de instauración de la distensión (una obstrucción aguda/rápida produce dolor cólico intenso —p. ej. cólico renoureteral—, mientras que una obstrucción crónica/lenta puede cursar con escasa o nula sintomatología dolorosa pese a hidronefrosis significativa), por lo que la afirmación A es la FALSA buscada. Las opciones B, C y D describen correctamente los sitios anatómicos clásicos de obstrucción, la flujometría como herramienta diagnóstica (coherente con su uso ya documentado en este módulo, MIR-2022-074) y la fisiopatología de la presión retrógrada. Coincide con la clave oficial. Sin discrepancia. *(Pregunta reclasificada desde el bucket "sin especialidad" — fisiopatología general de la obstrucción urinaria, mejor encaje temático en este módulo de Urología que uno específico de Fisiología.)*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 6 preguntas reales, manteniendo 1 discrepancia y sumando 5 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

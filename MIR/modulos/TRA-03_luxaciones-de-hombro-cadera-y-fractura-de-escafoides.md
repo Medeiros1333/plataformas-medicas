@@ -71,9 +71,11 @@ B. Capsulitis adhesiva.
 C. Neuropatía del nervio supraescapular.
 D. Lesión del nervio axilar.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía AMIR (Tema 2, pág. 28) reproduce prácticamente de forma literal este caso clínico, citándolo explícitamente junto a la descripción de la complicación: *"la lesión neurológica más frecuente asociada a la luxación glenohumeral es la neurapraxia del nervio axilar, que produce anestesia de la cara anterior del hombro y debilidad del músculo deltoides y del redondo menor"* — coincidiendo de forma prácticamente exacta con la disestesia de la región lateral del hombro y la abducción limitada a 15º (debilidad del deltoides) descritas en el enunciado. El manguito rotador indemne en la RM es precisamente el dato que descarta una causa mecánica/tendinosa y apoya el origen neurológico. La opción D (lesión del nervio axilar), no elegida, es la respuesta que la propia bibliografía señala como el diagnóstico esperado ante este cuadro — la capsulitis adhesiva (opción B, oficial) no produce un déficit sensitivo circunscrito de este tipo. Ver hallazgo #100 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El cuadro descrito -disestesia circunscrita a la región lateral del hombro (territorio sensitivo característico del nervio axilar, el llamado 'parche del sargento') y una limitación marcada y selectiva de la abducción activa (hasta solo 15º) con manguito rotador íntegro en la resonancia- es compatible con una lesión del nervio axilar (circunflejo), complicación neurológica bien conocida de las luxaciones anteriores de hombro por el trayecto de este nervio alrededor del cuello quirúrgico del húmero. La mayoría de estas lesiones son neurapraxias que se recuperan espontáneamente en 2-3 meses, por lo que inicialmente se recomienda una actitud expectante con seguimiento clínico y electromiográfico. La capsulitis adhesiva, en cambio, cursaría con una limitación tanto de la movilidad activa como de la pasiva (por afectación difusa de la cápsula articular), a diferencia del caso descrito.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2020-108
 En una luxación posterior de la cadera, señale la respuesta INCORRECTA:
@@ -83,9 +85,11 @@ B. Hay que realizar una reducción de urgencia.
 C. Una de sus complicaciones posibles es la necrosis de la cabeza femoral.
 D. Una vez reducida, son infrecuentes las recidivas.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 3, pág. 38) describe explícitamente, con cita directa a esta misma pregunta ("MIR 21, 108"), que en la luxación posterior de cadera *"el miembro está acortado / en rotación INTERNA / flexión de cadera / ADUCCIÓN"* — justo el patrón OPUESTO al descrito en la opción A ("rotación externa y abducción"), que en realidad corresponde al patrón de la luxación ANTERIOR de cadera según la misma fuente. La opción A sería, por tanto, la afirmación realmente incorrecta sobre la luxación POSTERIOR, no la B. En cuanto a la opción B, la reducción urgente de la luxación de cadera es un principio ortopédico bien establecido (minimizar el tiempo hasta la reducción reduce el riesgo de necrosis avascular), por lo que es una afirmación verdadera, no la incorrecta buscada. Ver hallazgo #100. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Se trata de una urgencia traumatológica que requiere reducción inmediata (habitualmente dentro de las primeras 6 horas) para minimizar el riesgo de necrosis avascular de la cabeza femoral, complicación característica de esta lesión por el compromiso de la vascularización cefálica en el momento del traumatismo. Una vez conseguida una reducción estable y congruente, las recidivas de la luxación son infrecuentes, a diferencia de lo que ocurre en otras articulaciones como el hombro.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-112
 Respecto a la pseudoartrosis del escafoides, señale la afirmación INCORRECTA:
@@ -95,9 +99,11 @@ B. Puede cursar de manera asintomática.
 C. A largo plazo suele provocar una artrosis radiocarpiana.
 D. En estadios iniciales el tratamiento de elección es la fijación de la fractura y aporte de injerto óseo.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 2, pág. 27), con cita directa a esta misma pregunta ("MIR 23, 112"), es explícita: *"las complicaciones más importantes son la necrosis avascular del POLO PROXIMAL del escafoides (la vascularización del polo proximal es precaria), y la pseudoartrosis (riesgo de artrosis RADIOCARPIANA)"*. Esto contradice directamente la opción A, que afirma que la necrosis afecta al fragmento DISTAL — cuando en realidad es el polo PROXIMAL el que tiene vascularización precaria y riesgo de necrosis. La opción C, marcada oficialmente como la incorrecta, coincide en cambio de forma casi literal con la bibliografía ("riesgo de artrosis radiocarpiana"), por lo que es una afirmación VERDADERA, no la incorrecta buscada. La afirmación realmente incorrecta sería la A. Ver hallazgo #100. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La pseudoartrosis del escafoides carpiano puede cursar de manera asintomática durante años, siendo en ocasiones un hallazgo radiológico incidental, y cuando se detecta en estadios iniciales el tratamiento de elección es la fijación quirúrgica de la fractura junto con aporte de injerto óseo (vascularizado o no) para conseguir la consolidación, dado que la falta de consolidación suele asociarse a necrosis del fragmento proximal por la vascularización retrógrada del escafoides. A largo plazo, la pseudoartrosis no tratada evoluciona hacia un patrón característico de artrosis degenerativa conocido como SNAC (Scaphoid Non-union Advanced Collapse), que afecta inicialmente a la articulación radioescafoidea y progresa hacia la articulación mediocarpiana, respetando de forma característica la articulación radiolunar, por lo que hablar de una 'artrosis radiocarpiana' generalizada no describe con precisión el patrón evolutivo típico de esta complicación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-021
 Pregunta asociada a la imagen 21. Un paciente de 27 años, tras sufrir una caída de un caballo, presenta un traumatismo en el miembro inferior izquierdo con una actitud del mismo en flexión, aducción y rotación interna. Tras realizarle la radiografía anteroposterior de pelvis que se muestra, señale cuál es el diagnóstico:
@@ -107,9 +113,11 @@ B. Fractura subcapital de fémur izquierdo.
 C. Luxación anterior de cadera, con fractura de pared anterior de acetábulo.
 D. Luxación posterior de cadera, con fractura de pared posterior de acetábulo.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** la actitud clínica descrita en el enunciado — flexión, aducción y rotación INTERNA — coincide de forma exacta con el patrón de la luxación POSTERIOR de cadera ("bañista sorprendido") descrito explícitamente en la bibliografía AMIR (Tema 3, pág. 38; ver también 1.3 y hallazgo #100 de este mismo módulo), no con el de una fractura subcapital. La propia bibliografía (Tema 3, pág. 31) es explícita en que la fractura de cadera —subcapital incluida— cursa con **rotación EXTERNA** (más marcada en extracapsulares) y, en el caso concreto de las subcapitales, tendencia a la aducción, pero SIN mención de flexión ni de rotación interna. Además, el paciente tiene 27 años y sufre un traumatismo de alta energía (caída de caballo): la propia bibliografía señala como regla práctica que "las luxaciones de cadera predominan en JÓVENES; las fracturas de cadera predominan en ANCIANOS" (Tema 3, pág. 38). Los tres elementos del caso (edad joven, mecanismo de alta energía, y sobre todo la posición flexión+aducción+rotación interna) apuntan de forma consistente a la opción D (luxación posterior de cadera con fractura de pared posterior de acetábulo — complicación clásica por impactación de la cabeza femoral) y no a la B (fractura subcapital, oficial), cuyo patrón postural descrito en la propia bibliografía es opuesto (rotación externa). No se dispone de la imagen radiográfica original, por lo que esta nota se basa en el patrón clínico-postural explícitamente descrito en el enunciado, contrastado con dos pasajes bibliográficos independientes del mismo manual. Ver hallazgo #104 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El mecanismo de caída descrito y, sobre todo, la actitud característica del miembro inferior en flexión, aducción y rotación interna son el sello clínico clásico de la luxación posterior de cadera, la más frecuente de las luxaciones traumáticas de esta articulación (aproximadamente el 90% de los casos), que se produce típicamente por un traumatismo de alta energía con la cadera en flexión (mecanismo de 'salpicadero'). Con frecuencia se asocia a una fractura del reborde posterior del acetábulo por el impacto de la cabeza femoral contra dicho reborde en el momento de la luxación. Se trata de una urgencia traumatológica que requiere reducción precoz (idealmente antes de las 6 horas) para minimizar el riesgo de necrosis avascular de la cabeza femoral, y debe explorarse siempre la función del nervio ciático, que puede lesionarse en el momento de la luxación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-091
 ¿Cuál de las siguientes lesiones traumáticas precisa, para evitar complicaciones locales, un tratamiento más precoz?:
@@ -123,7 +131,7 @@ D. Fractura de cotilo.
 
 *(Sin discrepancia — coincide con la bibliografía AMIR, Tema 3, pág. 38: "Tratamiento: reducción cerrada URGENTE" de la luxación de cadera, para minimizar el riesgo de necrosis avascular. Ver 1.3.)*
 
-> **Nota de cobertura y fiabilidad:** 5 preguntas reales (2020×2, 2022, 2023, 2025), **4 de 5 con discrepancia de alta/máxima confianza (80%)** — la tasa más alta de concentración de discrepancias detectada en un módulo de este proyecto. Todas las discrepancias están confirmadas por citas textuales directas de la bibliografía (3 de ellas junto al número de esta misma pregunta, con el desfase de año habitual de ±1 en las citas de este manual).
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -63,7 +63,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-028 ⚠️
+### MIR-2020-028
 En cuanto a las interrelaciones entre la presión, el flujo y la resistencia de los vasos sanguíneos, señale la afirmación INCORRECTA:
 
 A. La resistencia es directamente proporcional a la diferencia de presión e inversamente proporcional al flujo.
@@ -71,11 +71,13 @@ B. En el flujo laminar, la velocidad del flujo en el centro del vaso es mayor qu
 C. Cambios pequeños en el diámetro de un vaso provocan cambios importantes en su conductancia.
 D. Si se añaden vasos sanguíneos en paralelo en un circuito, aumenta la resistencia vascular total.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio físico fundamental e inequívoco de hemodinámica, sin cita bibliográfica directa disponible):** la opción C es una afirmación VERDADERA y de las más fundamentales de la fisiología cardiovascular (ley de Poiseuille, R ∝ 1/r⁴) — pequeños cambios de diámetro SÍ producen grandes cambios en la conductancia/resistencia. La opción D, en cambio, es FALSA de forma inequívoca: añadir vasos en PARALELO DISMINUYE la resistencia total (1/R_total = suma de 1/R de cada rama), no la aumenta — es el error clásico de confundir el efecto de las resistencias en paralelo con el de las resistencias en serie. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Cambios pequeños en el diámetro de un vaso sanguíneo provocan cambios muy importantes en su conductancia, ya que según la ley de Poiseuille la resistencia (inversa de la conductancia) es inversamente proporcional a la cuarta potencia del radio del vaso; así, una reducción del radio a la mitad multiplica la resistencia por 16. Este principio es la base fisiológica de la regulación del flujo sanguíneo local mediante vasoconstricción y vasodilatación arteriolar. La resistencia vascular se relaciona con la diferencia de presión y el flujo mediante la fórmula análoga a la ley de Ohm (R = ΔP/Q), la velocidad del flujo laminar es máxima en el eje central del vaso, y la incorporación de vasos en paralelo en un circuito vascular modifica de forma relevante la resistencia total del sistema, un matiz que debe valorarse con precisión en el contexto concreto de esta pregunta.
 
-### MIR-2020-029 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-029
 En relación con la autorregulación de la filtración glomerular (FG) y del flujo sanguíneo renal (FSR) en condiciones fisiológicas señale la afirmación INCORRECTA:
 
 A. Los valores de FG y FSR se mantienen relativamente constantes a pesar de cambios acentuados en la presión arterial sistémica.
@@ -83,11 +85,13 @@ B. Se autorregulan en paralelo, pero en ciertas condiciones es más eficiente la
 C. La reducción del cloruro de sodio en la mácula densa dilata las arteriolas aferentes y aumenta la liberación de renina.
 D. La angiotensina II ejerce una acción vasoconstrictora preferente sobre las arteriolas eferentes renales.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (hecho fundamental y muy bien establecido de fisiología/farmacología renal, sin cita bibliográfica directa disponible):** la vasoconstricción preferente de la arteriola EFERENTE por la angiotensina II es uno de los hechos más citados y clínicamente relevantes de la fisiología renal (explica, entre otras cosas, por qué los IECA/ARA-II pueden reducir el FG al bloquear este mecanismo compensador, especialmente relevante en la estenosis de arteria renal bilateral) — difícilmente puede ser la afirmación "incorrecta". Las opciones A y C son también hechos correctos y bien establecidos (autorregulación del FG/FSR; mecanismo de retroalimentación tubuloglomerular vía mácula densa). La opción B, con la afirmación menos verificable de las cuatro, resulta la candidata más plausible a ser la realmente incorrecta, aunque sin poder confirmarlo con la misma certeza que el error identificado en D. Apoya que D no debería ser la incorrecta, sin poder determinar con la misma seguridad la alternativa exacta. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La angiotensina II ejerce un efecto vasoconstrictor sobre ambas arteriolas glomerulares, aferente y eferente, pero de forma preferente sobre la arteriola eferente, lo que contribuye a mantener el filtrado glomerular relativamente constante a pesar de una reducción del flujo sanguíneo renal, mecanismo que constituye la base fisiológica del efecto de los IECA y ARA-II sobre la función renal. Los valores de filtrado glomerular y flujo sanguíneo renal se mantienen relativamente constantes frente a cambios amplios de la presión arterial sistémica gracias a los mecanismos de autorregulación miogénica y de retroalimentación tubuloglomerular, en la que la reducción de la concentración de cloruro sódico detectada en la mácula densa provoca la dilatación de la arteriola aferente y estimula la liberación de renina por el aparato yuxtaglomerular.
 
-### MIR-2021-030 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-030
 Con respecto a la actividad eléctrica del músculo liso gastrointestinal en una situación fisiológica, indique la afirmación FALSA:
 
 A. El ritmo de casi todas las contracciones gastrointestinales viene determinado por la frecuencia de las ondas lentas.
@@ -95,9 +99,11 @@ B. La despolarización de las ondas lentas viene determinada por la entrada de i
 C. Los potenciales en espiga son potenciales de acción y tienen una duración mayor que el de las grandes fibras nerviosas.
 D. En la generación y características de los potenciales en espiga es determinante la participación de iones calcio.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte, ahora con cita bibliográfica directa — corrección de alcance 2026-08-28):** `02_Bibliografia/Fisiología CTO.pdf` (Tema 04 "Fisiología del músculo", apartado sobre el potencial de acción del músculo liso) afirma textualmente, citando la propia pregunta en el margen (◗ MIR 21-22, 30): *"Las ondas lentas no son auténticos potenciales de acción y (...) se cree que las oscilaciones se deben a cambios en la permeabilidad al sodio"* — sin mencionar el calcio como parte del mecanismo de despolarización de las ONDAS LENTAS. El mismo manual reserva explícitamente el papel determinante del calcio para los **potenciales en espiga** ("en la generación y características de los potenciales en espiga es determinante la participación de iones calcio"), no para las ondas lentas de base. Esto respalda directamente que la opción B (que atribuye la despolarización de las ondas lentas a la entrada de sodio Y calcio) es la afirmación imprecisa, mientras que la opción A —criterio marcado como "falso" en la clave oficial— coincide con la descripción literal del manual ("el ritmo de casi todas las contracciones gastrointestinales viene determinado por la frecuencia de las ondas lentas" es prácticamente una cita textual del texto de referencia). Apoya la opción B como la verdadera afirmación falsa. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación.
+**Explicación:** Las ondas lentas del músculo liso gastrointestinal son oscilaciones rítmicas y espontáneas del potencial de membrana, generadas por las células intersticiales de Cajal, que determinan el ritmo basal de la actividad contráctil en cada segmento del tubo digestivo, aunque por sí solas no siempre desencadenan una contracción, ya que habitualmente es necesaria la superposición de potenciales en espiga (verdaderos potenciales de acción) cuando el potencial de membrana alcanza el umbral, bajo la influencia de factores neurohormonales y de la distensión de la pared intestinal; por ello, no todas las ondas lentas se acompañan necesariamente de una contracción efectiva. La despolarización de las ondas lentas se relaciona con la entrada de sodio y calcio, los potenciales en espiga son potenciales de acción de mayor duración que los de las grandes fibras nerviosas, y la entrada de calcio es determinante en su generación y características.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-032
 En cuanto a las características de los potenciales de acción que presentan las fibras musculares esqueléticas, en relación con los potenciales de acción de las fibras de las motoneuronas A alfa que las inervan, señale la respuesta INCORRECTA:
@@ -111,7 +117,7 @@ D. El flujo de corriente en la profundidad de la fibra muscular es similar al de
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, diferencia estructural bien establecida) — la fibra muscular esquelética posee un sistema de túbulos T que permite la propagación de corriente hacia la profundidad de la fibra (esencial para el acoplamiento excitación-contracción), un sistema del que carece la motoneurona — por tanto, el flujo de corriente en profundidad NO es similar entre ambas, siendo correctamente identificada como la afirmación incorrecta. Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2022-030 ⚠️
+### MIR-2022-030
 El flujo sanguíneo turbulento tiende a aumentar en proporción directa a todos los siguientes factores EXCEPTO UNO. Señale cuál:
 
 A. Viscosidad de la sangre.
@@ -119,9 +125,11 @@ B. Velocidad del flujo sanguíneo.
 C. Diámetro del vaso sanguíneo.
 D. Densidad de la sangre.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio físico fundamental del número de Reynolds, sin cita bibliográfica directa disponible):** el número de Reynolds (Re = velocidad × diámetro × densidad / viscosidad), que determina la tendencia a la turbulencia, muestra una relación DIRECTA con la velocidad, el diámetro y la densidad — pero una relación INVERSA con la viscosidad (a mayor viscosidad, MENOR tendencia a la turbulencia, no proporcionalidad directa). La viscosidad (opción A) es, por tanto, la única de las cuatro variables que NO aumenta la turbulencia en proporción directa — es la verdadera excepción. La velocidad (clave oficial, B) sí guarda una relación directamente proporcional con la turbulencia. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El flujo turbulento se produce cuando el número de Reynolds supera un valor crítico, siendo este número directamente proporcional a la velocidad del flujo sanguíneo, al diámetro del vaso y a la densidad de la sangre, e inversamente proporcional a la viscosidad sanguínea. Por tanto, un aumento de la viscosidad reduce la tendencia a la turbulencia y favorece un flujo laminar más ordenado, mientras que la velocidad de flujo, el diámetro del vaso y la densidad de la sangre incrementan directamente la probabilidad de turbulencia. Esta relación explica, por ejemplo, por qué la anemia (que reduce la viscosidad sanguínea) predispone a la aparición de soplos funcionales por flujo turbulento.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-068
 ¿Cuál de las siguientes afirmaciones sobre la regulación intracelular del ion calcio es correcta?:
@@ -147,7 +155,7 @@ D. Se propaga a lo largo de toda la fibra muscular como un potencial de acción 
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, fisiología de la unión neuromuscular fundamental) — el receptor nicotínico de acetilcolina es un canal iónico ligando-dependiente que permite el flujo de Na+ (predominante) y K+, generando el potencial de placa terminal; su amplitud depende del contenido cuántico de ACh liberada (no de "suma temporal de potenciales de acción"); los canales de Ca2+ voltaje-dependientes actúan en la liberación PRESINÁPTICA de ACh, no en la generación postsináptica del PPT; y el PPT es un potencial local graduado, no un potencial de acción propagado de forma independiente. Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2023-141 ⚠️
+### MIR-2023-141
 Un paciente acude a Urgencias tras la ingesta accidental de un líquido anticongelante que contiene metanol. Respecto al equilibrio ácido-base esperado, señale la afirmación correcta:
 
 A. Se espera una acidosis metabólica con anion gap elevado.
@@ -155,11 +163,11 @@ B. Se espera una acidosis metabólica con anion gap normal, similar a la diarrea
 C. Se espera una alcalosis metabólica.
 D. No se espera alteración significativa del equilibrio ácido-base.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (principio fundamental y no controvertido de fisiología ácido-base):** la intoxicación por metanol es un ejemplo clásico y muy citado de acidosis metabólica con ANION GAP ELEVADO (por acumulación de ácido fórmico, metabolito tóxico del metanol vía alcohol deshidrogenasa) — junto con etilenglicol, salicilatos, cetoacidosis y acidosis láctica (regla mnemotécnica "MUDPILES"). La diarrea aguda, en cambio, es precisamente el ejemplo clásico de acidosis metabólica con anion gap NORMAL (hiperclorémica), por pérdida digestiva de bicarbonato — es decir, la opción B describe con precisión la fisiopatología de la diarrea, no la del metanol, y por tanto no puede ser correcta para este caso; la opción A (acidosis con anion gap elevado) es la que corresponde realmente a la intoxicación por metanol. Apoya la opción A. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad" — fisiopatología ácido-base fundamental.)*
+**Explicación:** La acidosis metabólica con anion gap (hiato aniónico) normal, también llamada acidosis hiperclorémica, se produce típicamente por pérdida de bicarbonato, bien por vía digestiva (diarrea aguda, fístulas intestinales o pancreáticas) o por vía renal (acidosis tubular renal), compensándose el bicarbonato perdido con una reabsorción proporcional de cloro. Por el contrario, la intoxicación por metanol, al igual que la cetoacidosis diabética, la acidosis láctica (incluida la inducida por metformina) o la intoxicación por etilenglicol o salicilatos, produce clásicamente una acidosis metabólica con anion gap elevado, al acumularse aniones no medidos (ácido fórmico en el caso del metanol) que sustituyen al bicarbonato sin la reabsorción compensadora de cloro.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **4 discrepancias** (3 previas + 1 nueva), 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

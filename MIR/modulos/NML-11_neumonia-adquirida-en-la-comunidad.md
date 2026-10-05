@@ -48,7 +48,7 @@
 
 ## 3. Preguntas reales
 
-### MIR-2020-018 ⚠️
+### MIR-2020-018
 Paciente de 38 años que acude a urgencias por fiebre, tos con expectoración purulenta y dolor pleurítico en el costado izquierdo. En la exploración física está consciente y orientado, la frecuencia respiratoria es de 34 rpm y la presión arterial sistólica de 85 mmHg. Se auscultan crepitantes en el campo medio y superior del hemitórax izquierdo. La urea es de 38 mg/dl y en la radiografía de tórax se observa una condensación alveolar con broncograma aéreo en el lóbulo superior izquierdo. Se establece el diagnóstico de neumonía. ¿Cuál de las siguientes opciones sería la correcta?:
 
 A. La puntuación de la escala de riesgo CURB-65 es 1. Es una persona joven, los gérmenes más probables son el neumococo y el mycoplasma. Puede tratarse ambulatoriamente con azitromicina.
@@ -56,11 +56,13 @@ B. La puntuación de la escala de riesgo CURB-65 es 2. Debe ingresar en el hospi
 C. La puntuación de la escala de riesgo CURB-65 es 3. Debe ingresar en el hospital en una sala convencional. Se tomarán muestras para cultivo con un catéter telescopado y un lavado broncoalveolar y se esperarán los resultados de los cultivos antes de iniciar cualquier tratamiento antibiótico.
 D. La puntuación de la escala de riesgo CURB-65 de 4. Debe cubrirse como germen más probable la Pseudomonas aeruginosa y tratarlo con cefalosporinas antipseudomona en una unidad de cuidados intensivos.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 18"), fija el umbral de urea del CURB-65 en **>42 mg/dl**. El enunciado da una urea de 38 mg/dl — por DEBAJO del umbral — por lo que este criterio NO puntúa. Recalculando: confusión (no, "consciente y orientado") = 0; urea >42 (38<42) = 0; FR>30 (34) = 1; PAS<90 (85) = 1; edad>65 (38 años) = 0. **Total = 2 puntos**, no 3 — coincidiendo exactamente con la opción B, no con la C marcada como oficial. Además, la opción C propone "esperar los resultados de los cultivos antes de iniciar cualquier tratamiento antibiótico", una conducta que contradice el principio médico estándar de iniciar antibioterapia empírica precoz ante una neumonía con signos de inestabilidad (PAS 85 mmHg), reforzando que C es clínicamente inadecuada además de aritméticamente incorrecta. Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #171 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Cálculo del CURB-65: Confusión (no, está consciente y orientado) = 0; Urea >7 mmol/l (equivale a urea >42 mg/dl o BUN >19 mg/dl): con urea de 38 mg/dl NO puntúa = 0; frecuencia Respiratoria ≥30 (34 rpm) = 1; presión arterial (Blood pressure) sistólica <90 (85 mmHg) = 1; edad ≥65 (38 años) = 0. Total: 2 puntos (B). Un CURB-65 de 2 indica ingreso hospitalario en planta convencional, con tratamiento empírico con una cefalosporina de tercera generación (ceftriaxona o cefotaxima) más un macrólido (azitromicina), para cubrir el neumococo (incluido el de sensibilidad disminuida) y los atípicos como Legionella. No puede tratarse de forma ambulatoria (A); no deben retrasarse los antibióticos a la espera de cultivos invasivos (C); y Pseudomonas no es el germen más probable en un paciente joven sin factores de riesgo (D).
 
-### MIR-2020-146 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-146
 Paciente de 59 años procedente del África subsahariana, con episodios frecuentes de disminución de conciencia por enolismo crónico. Consulta por sudación nocturna, tos y fiebre de varias semanas de duración. En la radiografía y en la TC de tórax se observa una lesión cavitada de 3,5 cm de diámetro con un nivel hidroaéreo en lóbulo inferior derecho. ¿Cuál sería la respuesta INCORRECTA?:
 
 A. Es preciso analizar muestras de esputo inducido para descartar tuberculosis.
@@ -68,9 +70,11 @@ B. Se debe iniciar un tratamiento empírico con metronidazol.
 C. Si en el esputo no se aísla un patógeno específico se presupone la presencia de gérmenes anaerobios.
 D. Si sospecha compromiso inmunitario debe realizar de forma inmediata broncoscopia con biopsia o aspiración con aguja guiada por TC.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 146"), es explícita: *"El uso de metronidazol en lugar de clindamicina no se recomienda ya que, siendo igualmente activos frente anaerobios, muestra menor actividad frente estreptococos microaerófilos"* presentes en la cavidad oral — el absceso pulmonar es una de las dos excepciones donde el metronidazol NO es la mejor opción, a diferencia de otros abscesos. Esto hace de la opción B ("se debe iniciar tratamiento empírico con metronidazol") la afirmación INCORRECTA buscada, no la C. La opción C, por el contrario, es coherente con la etiología polimicrobiana anaerobia presunta del absceso pulmonar de origen aspirativo cuando el esputo no identifica un patógeno específico (los anaerobios son difíciles de cultivar por métodos convencionales). Se mantiene la clave oficial (C) sin alterar, conforme al protocolo de verificación. Ver hallazgo #171 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Lesión cavitada con nivel hidroaéreo en un lóbulo inferior en un paciente enólico con disminuciones del nivel de conciencia (riesgo de broncoaspiración) y procedente de una zona endémica de tuberculosis. La afirmación INCORRECTA es la B: el metronidazol en monoterapia no es un tratamiento adecuado del absceso pulmonar, porque la flora de la aspiración es mixta (anaerobios junto con estreptococos microaerófilos y aerobios que el metronidazol no cubre) y tiene una alta tasa de fracaso; el tratamiento empírico de elección es amoxicilina-clavulánico o clindamicina. El resto es correcto: es obligado descartar tuberculosis con esputo inducido (A); si no se aísla un patógeno específico se asume una etiología anaerobia, ya que los anaerobios rara vez crecen en los cultivos de esputo (C); y en el paciente inmunodeprimido se debe buscar activamente la etiología mediante broncoscopia o punción guiada por TC (D).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-163
 Hombre de 62 años con antecedentes de hipertensión arterial, diabetes mellitus tipo 2 y en tratamiento con infliximab por artritis reumatoide, se presenta en urgencias con fiebre, tos seca, mialgias y disnea leve de 5 días de evolución. A la exploración física, la saturación de oxígeno es del 90% con aire ambiente. Se realiza una radiografía de tórax que muestra opacidades en vidrio deslustrado bilaterales. La PCR en frotis nasofaríngeo para SARS-CoV-2 resulta positiva. ¿Cuál de las siguientes opciones es la conducta más apropiada?:

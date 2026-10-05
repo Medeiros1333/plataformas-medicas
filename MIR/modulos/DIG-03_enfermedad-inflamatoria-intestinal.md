@@ -110,11 +110,11 @@ B. Panproctocolectomía con reservorio en J.
 C. Ileocequectomía.
 D. Colostomía terminal.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro es un caso paradigmático de enfermedad de Crohn ileocecal (úlceras aftosas, inflamación SEGMENTARIA, afectación de ciego + íleon distal, patrón estenosante) — no de colitis ulcerosa. La bibliografía y el propio contenido ya verificado de este módulo son explícitos en que la cirugía NO es curativa en la EC (a diferencia de la CU) y que, precisamente por la alta tasa de recurrencia posquirúrgica (reforzado por la indicación de azatioprina para "prevención de la recurrencia posquirúrgica de la EC"), se prefiere la resección más LIMITADA posible para preservar intestino — en enfermedad ileocecal, la ileocequectomía (opción C, no elegida) es la técnica estándar. La **panproctocolectomía con reservorio ileoanal (reservorio en "J")**, clave oficial B, es una técnica ELECTIVA y ESPECÍFICA de la colitis ulcerosa (de hecho, ni siquiera es la cirugía de urgencia habitual en la propia CU: MIR-2025-94, ya verificado en este mismo módulo, confirma que ante un megacolon tóxico por CU la cirugía de elección es la colectomía total + ileostomía, NO la proctocolectomía con reservorio) y está contraindicada/no indicada en la enfermedad de Crohn, por el riesgo de recurrencia de la enfermedad y fallo del reservorio. Se trata de un principio quirúrgico ampliamente establecido y no controvertido en gastroenterología. Ver hallazgo #127 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Se trata de una enfermedad de Crohn ileocecal (afectación de ciego con estenosis infranqueable e inflamación de íleon distal), refractaria al tratamiento médico, en la que la cirugía indicada es una resección limitada y conservadora del segmento afectado —ileocequectomía o hemicolectomía derecha— con el objetivo de preservar la mayor longitud posible de intestino, dado el carácter recidivante y potencialmente extenso de la enfermedad de Crohn a lo largo del tubo digestivo.
 
-> **Nota de cobertura:** 4 preguntas reales (2023, 2025×3). No se encontraron candidatas suficientemente sólidas y verificables adicionales de años anteriores dentro de este tema concreto (varias eran preguntas asociadas a imagen no reproducible, y una — MIR-2023-180 — resultó ser sobre linfohistiocitosis hemofagocítica en una paciente con antecedente de CU, no sobre EII en sí, por lo que se descartó por no ser realmente del tema).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

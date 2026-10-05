@@ -79,9 +79,11 @@ B. Concentración de hemoglobina en reticulocitos.
 C. Volumen corpuscular medio de los hematíes.
 D. Concentración de transferrina en suero.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (confianza fuerte):** la bibliografía enumera explícitamente los hallazgos de laboratorio de la anemia ferropénica, incluyendo *"Transferrina AUMENTADA"* y *"Capacidad total de saturación de la transferrina (CTST) AUMENTADA"* — coincidiendo exactamente con la opción D (no elegida). La opción A (ferritina) está expresamente descrita como DISMINUIDA (la primera alteración analítica), y la C (VCM) como microcítica (disminuida), ambas incompatibles con "aumentado". La opción B (hemoglobina en reticulocitos, CHr), marcada por la clave oficial, no figura en ningún punto de la bibliografía como parámetro aumentado en la ferropenia — fisiológicamente, el contenido de hemoglobina reticulocitaria (CHr) es un marcador PRECOZ que DISMINUYE en la eritropoyesis ferropénica, no que aumenta. La opción coherente con la bibliografía es D, no B. Ver hallazgo #136 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** En la ferropenia se produce una respuesta compensadora hepática que aumenta la síntesis de transferrina para maximizar la captación del escaso hierro disponible, por lo que la concentración sérica de transferrina (y la capacidad total de fijación de hierro, CTFH) está elevada, mientras que la saturación de transferrina disminuye. Por el contrario, la ferritina sérica (reflejo de los depósitos de hierro), el volumen corpuscular medio (microcitosis) y la concentración de hemoglobina reticulocitaria (CHr, marcador precoz de ferropenia por reducción de la hemoglobinización de los hematíes jóvenes) están todos disminuidos en la ferropenia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-178
 Una mujer de 70 años consulta por astenia. Presenta una hemoglobina de 8.1 g/dl, VCM de 72 fl (rango: 84-100 fl) y CHCM de 25 g/dl (rango: 31.5-34.5 g/dl). En el hemograma, tiene una cifra de plaquetas de 530.000/mcrl. En la bioquímica, la LDH, la bilirrubina y la función renal son normales. Revisando sus analíticas previas, años atrás normales, observamos que las alteraciones han ido desarrollándose de forma progresiva en el último año. ¿Cuál es el diagnóstico más probable y qué prueba/s solicitaría para continuar el estudio de esta paciente?:

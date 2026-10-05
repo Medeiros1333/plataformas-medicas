@@ -136,11 +136,11 @@ B. Requiere transfusión de sangre de emergencia (O Rh negativo).
 C. Debe prepararse una posible transfusión de sangre con pruebas cruzadas.
 D. Debe probarse la infusión de nuevo de otros 20 ml/kg de cristaloides.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, algoritmo ATLS estándar de clasificación de respondedores) — el patrón descrito (mejoría transitoria tras cristaloides, seguida de deterioro) define al "respondedor transitorio", categoría ATLS que indica hemorragia activa en curso y requiere transfusión de hemoderivados sin demora; ante la inestabilidad y la urgencia, se recurre a sangre de emergencia O Rh negativo cuando no hay tiempo para pruebas cruzadas o tipificación específica. Coincide con la clave oficial. Sin discrepancia.
+**Explicación:** Politraumatizado en shock hemorrágico (taquicardia, hipotensión, palidez, pulso filiforme) que responde transitoriamente a 20 ml/kg de cristaloides y vuelve a deteriorarse: es un 'respondedor transitorio' según el ATLS, lo que indica una hemorragia activa que requiere transfusión y probablemente control quirúrgico del sangrado. En el respondedor transitorio, la recomendación ATLS es transfundir sangre de grupo específico (isogrupo ABO y Rh), que puede estar disponible en unos 10-15 minutos (A). La sangre O Rh negativo de emergencia (B) se reserva para los no respondedores, que necesitan sangre de inmediato; esperar a las pruebas cruzadas completas (C) es propio de los respondedores rápidos y estables. Seguir infundiendo cristaloides (D) empeora la coagulopatía dilucional y no está indicado.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 2 preguntas se eleva a 8 preguntas reales, manteniendo 1 discrepancia (de las 2 nuevas: 1 discrepancia de confianza fuerte, 1 limpia) y sumando 6 limpias en total.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-193
 Hombre de 46 años sufre accidente de tráfico a alta velocidad con varios vuelcos del vehículo y necesidad de extricación por parte del equipo de bomberos. El paciente es trasladado en una UVI móvil al servicio de urgencias más próximo, con inmovilización en colchón de vacío. A su llegada al hospital se encuentra inestable a pesar de sueroterapia intensiva. A la exploración presenta los siguientes signos vitales: frecuencia respiratoria 35 rpm. Saturación de oxígeno 100% con mascarilla reservorio. Frecuencia cardíaca 140 lpm. Presión arterial 60/30 mm Hg. Temperatura 35,5ºC y glucemia 110 mg/dL. De las siguientes, indique la exploración o prueba complementaria clave del árbol de decisión en este paciente:
@@ -154,7 +154,7 @@ D. Punción lavado peritoneal.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, algoritmo ATLS estándar) — coherente con §1.4 de este módulo: *"Si inestable → E-FAST. Si estable y trauma mayor → body-TC"*. Este paciente está claramente inestable (hipotensión grave pese a sueroterapia intensiva, taquicardia, taquipnea) — la TC (opción B) exige transporte del paciente y estabilidad relativa, contraindicada aquí; el e-FAST es la herramienta rápida, portátil, junto a la cama, para identificar líquido libre/hemoperitoneo sin demorar el tratamiento. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 9 preguntas reales, manteniendo 2 discrepancias y sumando 7 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2025-096
 La estrategia de control de daños pretende evitar:
@@ -168,9 +168,7 @@ D. Hipertermia, alcalosis y coagulopatía.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza máxima, coherente literalmente con §1.4/punto clave 6 de este mismo módulo: *"la tríada letal del politraumatismo es hipotermia + coagulopatía + acidosis"*) — la cirugía de control de daños existe precisamente para evitar esta tríada letal en el paciente politraumatizado grave. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 10 preguntas reales, manteniendo 2 discrepancias y sumando 8 limpias.
-
-### MIR-2022-196 ⚠️
+### MIR-2022-196
 En el manejo inicial de un paciente con un shock séptico en urgencias, señale la afirmación INCORRECTA:
 
 A. Se debe determinar el lactato sérico como un marcador de hipoperfusión tisular.
@@ -178,11 +176,13 @@ B. Se debe realizar una toma precoz (1ª hora) de muestra para cultivos e inicio
 C. La reposición del volumen se debe realizar con cristaloides dentro de las 3 primeras horas.
 D. Se recomienda la dopamina como el vasopresor de primera elección.
 
-**Respuesta correcta: A**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía es explícita y repite la misma afirmación en dos apartados distintos: *"siendo la NORADRENALINA el vasopresor de elección"* — nunca la dopamina, que ha caído en desuso como vasopresor de primera línea en shock séptico (mayor riesgo arrítmico, peores resultados en ensayos clínicos frente a noradrenalina). Esto hace de la opción D la afirmación FALSA/incorrecta buscada, no la A: la propia bibliografía incluye explícitamente "la medición del lactato sérico" entre las medidas del manejo inicial del shock séptico, confirmando que A es una afirmación VERDADERA. Apoya la opción D. Se mantiene la clave oficial (A) sin alterar, conforme al protocolo de verificación. Ver hallazgo #183 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La afirmación INCORRECTA es la D: el vasopresor de primera elección en el shock séptico es la NORADRENALINA, no la dopamina. La dopamina se asocia a más arritmias y a una mayor mortalidad en comparación con la noradrenalina, por lo que solo se considera en casos muy seleccionados (por ejemplo, bradicardia con bajo riesgo de taquiarritmias). Si se necesita un segundo fármaco se añade vasopresina, y la dobutamina se utiliza si hay disfunción miocárdica. El resto de afirmaciones es correcto: se debe medir el lactato como marcador de hipoperfusión tisular y repetirlo para guiar la reanimación (A); hay que obtener hemocultivos e iniciar antibioterapia empírica de amplio espectro en la primera hora (B); y la reposición inicial de volumen se hace con cristaloides (unos 30 ml/kg) en las primeras 3 horas (C).
 
-### MIR-2020-102 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2020-102
 En un paciente en situación de shock séptico con un foco infeccioso abordable, ¿cuál de los siguientes enunciados es cierto?:
 
 A. El control del foco solo se intentará una vez el paciente haya alcanzado la estabilidad hemodinámica y no dependa de vasopresores.
@@ -190,13 +190,15 @@ B. El control del foco se realizará tras al menos la administración de dos dos
 C. El control del foco se realizará tan pronto como sea posible.
 D. Si la situación de shock séptico lleva más de 12 horas de evolución el control del foco ya no será beneficioso para el paciente.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia directa con el principio ya establecido en §1.2 de este mismo módulo, sin cita bibliográfica exacta a esta pregunta):** este módulo ya recoge como uno de los dos pilares del manejo del shock la *"identificación y tratamiento precoz de la causa"* (control del foco de sangrado/infección), sin ninguna condición de demora asociada a un número mínimo de dosis de antibiótico previas. El principio internacional bien establecido de la Surviving Sepsis Campaign es que el control del foco infeccioso debe realizarse TAN PRONTO COMO SEA POSIBLE (idealmente dentro de las primeras 6-12 horas), en PARALELO con la antibioterapia y la reanimación hemodinámica, sin retrasarlo artificialmente a la espera de estabilidad hemodinámica completa (que de hecho puede depender del propio control del foco) ni de un número mínimo de dosis de antibiótico. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** En el shock séptico con un foco infeccioso susceptible de abordaje (drenaje de absceso, retirada de catéter infectado, cirugía, etc.), el control del foco debe intentarse tan pronto como sea posible, ya que el retraso se asocia a mayor mortalidad; las guías de la Surviving Sepsis Campaign recomiendan su identificación y control precoz, en paralelo al inicio de antibioterapia empírica y a la reanimación hemodinámica, sin esperar a la estabilización completa del paciente ni a que hayan transcurrido horas de evolución.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
-### MIR-2022-198 ⚠️
+### MIR-2022-198
 El SOFA rápido o qSOFA (Quick Sequential Organ Failure Assessment), es un índice pronóstico en pacientes con infección. Si un paciente acude a urgencias de un centro de salud por un cuadro infeccioso y en la exploración presenta 15 puntos en la escala de Glasgow, frecuencia cardiaca 110 lpm, frecuencia respiratoria 18 rpm, temperatura 38 ºC y presión arterial sistólica de 92 mmHg. ¿Qué puntuación presenta si se utiliza el qSOFA?:
 
 A. Un punto.
@@ -204,9 +206,11 @@ B. Dos puntos.
 C. Tres puntos.
 D. Cuatro puntos.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (cálculo aritmético directo aplicando la definición del qSOFA ya establecida en §1.1 de este mismo módulo):** el qSOFA tiene exactamente 3 criterios: (1) alteración del nivel de consciencia (Glasgow <15) — aquí Glasgow = 15, criterio NO cumplido; (2) FR ≥22 rpm — aquí FR = 18 rpm, criterio NO cumplido; (3) TAS ≤100 mmHg — aquí TAS = 92 mmHg, criterio SÍ cumplido. Total: 1 solo criterio cumplido = qSOFA de 1 punto, no 3. La frecuencia cardíaca (110 lpm) y la temperatura (38ºC), aunque forman parte de los criterios SIRS, NO son parámetros del qSOFA — su inclusión en el enunciado es un distractor clásico para inducir al cálculo erróneo con otra escala. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El qSOFA (quick SOFA) es una escala de cribado rápido de gravedad en pacientes con sospecha de infección, formada por tres criterios que puntúan 1 punto cada uno: frecuencia respiratoria ≥ 22 rpm, alteración del nivel de conciencia (Glasgow < 15) y presión arterial sistólica ≤ 100 mmHg. En este paciente, la frecuencia respiratoria es de 18 rpm (no cumple criterio), el Glasgow es de 15 (no cumple criterio) y la presión arterial sistólica es de 92 mmHg (sí cumple criterio); la frecuencia cardiaca y la temperatura no forman parte del qSOFA.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-086
 El APACHE-II (Acute Physiologic Assessment and Chronic Health Evaluation II) es un índice cuantitativo de gravedad que se calcula en el paciente crítico utilizando las siguientes variables, EXCEPTO:
@@ -217,8 +221,6 @@ C. Lactato en sangre.
 D. pH en sangre.
 
 **Respuesta correcta: C** — *(confianza fuerte, hecho estándar de las escalas pronósticas de cuidados críticos: el APACHE-II clásico incluye temperatura, presión arterial media, frecuencia cardíaca, frecuencia respiratoria, oxigenación, pH arterial, sodio, potasio, creatinina, hematocrito, leucocitos, escala de Glasgow, edad y puntos de salud crónica — el LACTATO sérico no forma parte de sus variables componentes. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 12 preguntas reales, **4 discrepancias**, 8 limpias.
 
 ---
 

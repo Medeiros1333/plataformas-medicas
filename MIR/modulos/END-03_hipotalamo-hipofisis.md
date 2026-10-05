@@ -86,9 +86,11 @@ B. La oftalmoplejía por afectación de pares craneales remite espontáneamente.
 C. En pacientes sin alteración del campo visual es preciso realizar de forma urgente cirugía transesfenoidal descompresiva.
 D. El déficit hormonal más frecuente es el de hormona antidiurética.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 163)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 163)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.4) es explícita y lo afirma en dos apartados distintos: en la sección específica de apoplejía hipofisaria, "e hipopituitarismo. **El déficit de ACTH es el más frecuente y grave**, pudiendo causar una crisis addisoniana"; y en la sección general de hipopituitarismo, "ADH y oxitocina. Su déficit es **excepcional** en las enfermedades hipofisarias, a diferencia de las enfermedades hipotalámicas donde suele aparecer diabetes insípida". Ambos pasajes contradicen directamente la clave oficial (D), que afirma justo lo contrario (ADH como déficit más frecuente). Además, la opción C también es incorrecta según la bibliografía: la cirugía urgente solo está indicada si hay alteración del nivel de consciencia, defectos campimétricos extensos o pérdida importante de agudeza visual — en su ausencia (como plantea el enunciado) se prefiere observación bajo corticoterapia, no cirugía urgente. No se ha alterado `respuesta_correcta` (se mantiene D).
+**Explicación:** La apoplejía hipofisaria es el infarto o la hemorragia aguda de un adenoma hipofisario y se manifiesta con cefalea brusca, alteraciones visuales, oftalmoplejía (por compresión de los pares III, IV y VI en el seno cavernoso) e hipopituitarismo agudo. La afectación de los pares oculomotores suele remitir espontáneamente en la mayoría de los pacientes, incluso con manejo conservador, por lo que la afirmación correcta es la B. La hiperprolactinemia no es la regla: el infarto destruye tejido hipofisario y la prolactina suele estar normal o baja (A falsa). La cirugía transesfenoidal urgente se reserva para pacientes con déficit visual grave o progresivo o deterioro del nivel de conciencia, no para pacientes sin alteración campimétrica (C falsa). El déficit hormonal más frecuente y grave es el de ACTH (insuficiencia suprarrenal secundaria aguda), que obliga a administrar corticoides a dosis de estrés de forma empírica; la diabetes insípida es rara (D falsa).
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-158
 En relación con la hiperprolactinemia, señale la afirmación INCORRECTA:
@@ -98,9 +100,11 @@ B. El hipertiroidismo provoca elevación de prolactina.
 C. El tratamiento médico de elección son los agonistas dopaminérgicos.
 D. Causa amenorrea hipogonadotropa.
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 158)*
+**Respuesta correcta: B** — *(fuente: Examen MIR 2022, pregunta 158)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.1) confirma textualmente que "el tratamiento médico de elección son los agonistas dopaminérgicos" para el prolactinoma — es decir, la opción C, marcada como la afirmación INCORRECTA por la clave oficial, es en realidad **verdadera** según esta fuente. En cambio, la bibliografía indica de forma expresa que es el **hipotiroidismo primario** (no el hipertiroidismo) el que produce hiperprolactinemia, "el aumento de TRH estimula la producción de PRL" — lo que convierte a la opción B en la afirmación falsa según el texto, no a la C. No se ha alterado `respuesta_correcta` (se mantiene C).
+**Explicación:** La hiperprolactinemia puede deberse a múltiples causas, entre ellas fármacos antagonistas dopaminérgicos (antipsicóticos, antieméticos), el hipotiroidismo primario (por el aumento de TRH, que estimula la secreción de prolactina) -no el hipertiroidismo, que no eleva la prolactina de forma característica- y produce hipogonadismo hipogonadotropo por inhibición de la pulsatilidad de GnRH, dando lugar a amenorrea en mujeres e hipogonadismo en varones. El tratamiento médico de elección de la hiperprolactinemia, incluidos los prolactinomas, son los agonistas dopaminérgicos (cabergolina, bromocriptina), que normalizan la prolactina y reducen el tamaño tumoral en la mayoría de los casos, por lo que la afirmación de que el hipertiroidismo (y no el hipotiroidismo) eleva la prolactina es la incorrecta entre las opciones planteadas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-166
 Si usted está de guardia y le avisan por un paciente con malestar general, cefalea y náuseas, en quien encuentra una hiponatremia con función renal normal ¿qué esperaría encontrar si la causa de la misma fuera un SIADH?:
@@ -110,9 +114,11 @@ B. Hipovolemia.
 C. Osmolalidad urinaria >100 mosm/Kg.
 D. Excreción urinaria de sodio reducida con ingesta adecuada de sal y agua.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 166)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 166)*
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (§1.3) enumera los criterios diagnósticos esenciales del SIADH, incluyendo textualmente "osmolalidad urinaria **>100 mOsm/kg** en presencia de disminución de la osmolalidad eficaz" — coincidiendo casi literalmente con la opción C, no marcada como correcta. La clave oficial (A) exige una osmolalidad plasmática ">270 mosm/Kg", que es imprecisa y no reproduce el criterio bibliográfico real (osmolalidad plasmática eficaz **<275 mOsm/kg**, es decir, baja, no simplemente ">270"). Además, la bibliografía contradice directamente las otras dos opciones no elegidas: el SIADH cursa con **euvolemia** (no hipovolemia, opción B) y con excreción urinaria de sodio **inadecuadamente elevada** (Na orina >40 mmol/L), no reducida (opción D). No se ha alterado `respuesta_correcta` (se mantiene A).
+**Explicación:** El síndrome de secreción inadecuada de hormona antidiurética (SIADH) se caracteriza por una hiponatremia hipotónica (osmolalidad plasmática baja, no elevada) en un paciente euvolémico, con una orina inapropiadamente concentrada para el grado de hiponatremia (osmolalidad urinaria elevada, habitualmente superior a 100 mOsm/kg) y una natriuresis conservada o incluso aumentada (sodio urinario >20-30 mEq/L) a pesar de la hiponatremia, reflejando la expansión leve de volumen que suprime la reabsorción tubular de sodio, sin llegar a producir edemas clínicamente evidentes. Por tanto, en el SIADH cabría esperar una osmolalidad urinaria elevada (>100 mOsm/kg) en el contexto de una osmolalidad plasmática baja, un paciente euvolémico (no hipovolémico) y una excreción urinaria de sodio conservada o aumentada (no reducida), a diferencia de los estados hipovolémicos con hiponatremia.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-132
 El síndrome de secreción inadecuada de hormona antidiurética (SIADH), se caracteriza por:
@@ -136,7 +142,7 @@ D. Se debe descartar un hipertiroidismo primario.
 
 > **Nota de cobertura:** confirmación LIMPIA — ante una hiperprolactinemia, la bibliografía indica que los fármacos son la causa más frecuente y que el embarazo debe descartarse sistemáticamente antes de plantear estudios de imagen; los prolactinomas causantes de elevaciones tan moderadas (45 µg/L, apenas por encima del límite) suelen ser microadenomas, no macroadenomas (descarta A); es el HIPOtiroidismo (no el hipertiroidismo) el que puede elevar la prolactina por aumento de TRH (descarta D). Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2023-094 ⚠️
+### MIR-2023-094
 Hombre de 67 años con deterioro brusco del nivel de conciencia, encontrándose obnubilado. Presenta alteración visual, con ptosis y midriasis del ojo derecho asociados a pérdida de visión en ojo derecho, sólo cuenta dedos con ojo izquierdo. La TC craneal muestra una lesión hemorrágica que agranda y deforma la silla turca, con cierta extensión supraselar. En relación con este cuadro clínico, señale la respuesta INCORRECTA:
 
 A. El tratamiento quirúrgico por vía endoscópica transnasal urgente podría mejorar el pronóstico visual y de afectación de pares.
@@ -144,11 +150,11 @@ B. Suele cursar con hiperfunción hormonal.
 C. Este cuadro clínico puede aparecer también en mujeres tras el parto.
 D. Suele producirse cuando de base hay una tumoración previa.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y bien establecido de endocrinología/neurocirugía hipofisaria):** el cuadro descrito es una APOPLEJÍA HIPOFISARIA (hemorragia/infarto hipofisario agudo, con cefalea súbita, oftalmoplejía por afectación de pares craneales del seno cavernoso —ptosis/midriasis por III par— y pérdida visual por compresión quiasmática, sobre una silla turca agrandada). Es un hecho médico bien establecido que la apoplejía hipofisaria se produce, en la GRAN MAYORÍA de los casos, sobre un ADENOMA HIPOFISARIO PREVIO (con frecuencia no diagnosticado hasta ese momento) — la opción D (clave oficial) es, por tanto, una afirmación VERDADERA, no la incorrecta buscada. En cambio, la apoplejía hipofisaria produce característicamente HIPOfunción hormonal aguda (panhipopituitarismo agudo, con riesgo vital por insuficiencia suprarrenal aguda que obliga a corticoides urgentes empíricos), NO hiperfunción — la opción B es la afirmación FALSA real. La cirugía transesfenoidal urgente (A) sí mejora el pronóstico visual/de pares craneales cuando hay compromiso relevante, y el cuadro sí puede ocurrir en el posparto sobre un adenoma no diagnosticado (C, relacionado pero distinto del síndrome de Sheehan clásico por necrosis isquémica posparto). Apoya la opción B. Se mantiene la clave oficial (D) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** El cuadro de deterioro brusco del nivel de conciencia con cefalea, oftalmoplejía y pérdida de visión unilateral, junto con una lesión hemorrágica que agranda la silla turca con extensión supraselar, es característico de una apoplejía hipofisaria. El tratamiento quirúrgico descompresivo urgente por vía transesfenoidal está indicado cuando existe compromiso visual grave o progresivo, como en este caso, pudiendo mejorar el pronóstico visual y la afectación de pares craneales si se realiza precozmente. Este cuadro puede aparecer sobre un adenoma hipofisario previamente conocido o no diagnosticado, cursa habitualmente con hipopituitarismo (no con hiperfunción hormonal, salvo la hiperprolactinemia leve por efecto de tallo) y su variante en el puerperio, asociada a hemorragia obstétrica grave, es el síndrome de Sheehan, por lo que la afirmación de que suele cursar con hiperfunción hormonal es la incorrecta.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 7 preguntas reales, **2 discrepancias de MÁXIMA/alta confianza**, 5 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-141
 Acude al servicio de urgencias una mujer de 67 años con astenia, náuseas y cefalea. Tiene antecedentes de hipertensión arterial actualmente en tratamiento con enalapril-hidroclorotiazida (20/12.5mg) y diabetes mellitus tipo 2 en tratamiento con metformina. Su tensión arterial es de 138/88 mmHg y su frecuencia cardíaca 80 latidos por minuto. La exploración física es normal, se encuentra bien hidratada y no tiene edemas. En la analítica realizada en urgencias encontramos: sodio 122 mEq/L, potasio: 4.3mEq/L, creatinina 0.8mg/dL. La osmolalidad plasmática es 257mOsm/kg y el sodio urinario 45 mEq/L. Hace un mes estuvo en la consulta de su médico de familia, quien le cambió el tratamiento antihipertensivo y le hizo una analítica general que fue normal. ¿Cuál es su diagnóstico?:
@@ -160,7 +166,7 @@ D. Pseudohiponatremia por hiperglucemia.
 
 **Respuesta correcta: A** — *(confianza máxima, cuadro clásico y muy citado de farmacología/endocrinología: las tiazidas son la causa farmacológica más frecuente de hiponatremia clínicamente relevante, especialmente en mujeres ancianas, típicamente en las primeras semanas tras el inicio/cambio de tratamiento [aquí, "hace un mes"] — el mecanismo mimetiza un cuadro tipo SIADH [natriuresis inapropiada con orina no maximamente diluida]. El cuadro es coherente con hiponatremia hipotónica euvolémica [osmolalidad plasmática baja, 257, con buena hidratación clínica y sin edemas] y sodio urinario inapropiadamente elevado [45 mEq/L, no bajo como esperaríamos en depleción de volumen real]. Descarta insuficiencia suprarrenal [B, cursaría típicamente con hiperpotasemia, hipotensión más marcada, no presentes aquí]; potomanía [C, cursaría con osmolalidad urinaria muy baja/orina muy diluida, no descrita, y natremia normal previa sin relación temporal con un fármaco]; pseudohiponatremia por hiperglucemia [D, produciría una osmolalidad plasmática normal o alta, no baja como la aquí medida — descarta directamente esta opción]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 8 preguntas reales, manteniendo 2 discrepancias y sumando 6 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ### MIR-2019-090
 Una de las siguientes afirmaciones es FALSA. Señálela:

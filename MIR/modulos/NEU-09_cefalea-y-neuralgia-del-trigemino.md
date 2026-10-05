@@ -61,9 +61,11 @@ B. El tratamiento de elección es la fenitoína.
 C. La causa más probable es una compresión del VII par en su trayecto cisternal.
 D. Puede tratarse con radiocirugía, pero con riesgo de recurrencia.
 
-**Respuesta correcta: B** — *(fuente: Examen MIR 2020, pregunta 96)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2020, pregunta 96)*
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito (dolor lancinante, en descarga eléctrica, en territorio del labio y ala nasal —V2—, desencadenado por el tacto/higiene facial, sin dolor nocturno) es la presentación de manual de la neuralgia del trigémino (§1.5). La bibliografía AMIR es textual sobre el tratamiento: "De elección: **carbamazepina** (MIR); requiere controles hematológicos por riesgo de agranulocitosis" — sin mencionar la fenitoína como fármaco de elección (clave oficial, B). Además, la causa más frecuente es la compresión del **V par** (trigémino) por un bucle vascular, no del VII par (opción C, tampoco correcta, aunque no elegida). No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** La neuralgia del trigémino produce episodios de dolor lancinante, muy intenso, en el territorio de una o varias ramas del V par (en este caso la segunda rama, con afectación de labio y ala nasal), desencadenado por estímulos táctiles inocuos como el lavado facial o el cepillado dental, y típicamente respeta el sueño nocturno. La causa más frecuente es la compresión vascular del nervio trigémino (no del VII par) en su trayecto cisternal por un asa arterial, habitualmente de la arteria cerebelosa superior. El tratamiento farmacológico de elección son los fármacos antiepilépticos, fundamentalmente la carbamazepina, aunque otros anticomiciales como la fenitoína pueden emplearse como alternativas en casos de mala tolerancia. Si el dolor se hace refractario y existe conflicto neurovascular demostrado, la descompresión microvascular quirúrgica ofrece los mejores resultados a largo plazo, mientras que la radiocirugía y los procedimientos ablativos son eficaces pero con mayor tasa de recidiva.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-059
 ¿Cuál de los siguientes métodos anticonceptivos es el más adecuado para una mujer de 35 años con migraña con aura?:
@@ -85,7 +87,7 @@ D. Dolor que empeora con el ejercicio físico.
 
 **Respuesta correcta: C** — *(fuente: Examen MIR 2025, pregunta 168; coincide de forma literal con §1.2: "dolor opresivo o constrictivo, en banda o casquete, bilateral", que NO empeora con la actividad física, a diferencia de la migraña)*
 
-### MIR-2022-103 ⚠️
+### MIR-2022-103
 Mujer de 64 años que presenta dolor en la cara en el territorio de la tercera rama del V par. Respecto al diagnóstico de la neuralgia del trigémino, señale la afirmación INCORRECTA:
 
 A. Dolor lancinante de muy corta duración.
@@ -93,9 +95,11 @@ B. El dolor tiene un punto gatillo, asociándose a la estimulación táctil de l
 C. El dolor puede desaparecer espontáneamente después de persistir semanas o meses.
 D. Se asocia a hipoestesia de la cara.
 
-**Respuesta correcta: B**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 103", desfase de año habitual de ±1), describe la neuralgia del trigémino como dolor que *"se desencadena espontáneamente O TRAS ESTÍMULO SENSITIVO (en las 'ÁREAS GATILLO' al masticar, con el tacto, la deglución...)"* — confirmando que la opción B (punto gatillo con la estimulación táctil) es VERDADERA, no la incorrecta buscada. Además, la misma bibliografía afirma expresamente que *"la exploración neurológica incluyendo el examen SENSITIVO y motor del trigémino es NORMAL"* — es decir, NO hay hipoestesia asociada en la neuralgia esencial/primaria, lo que hace de la opción D (que afirma justo lo contrario) la verdadera afirmación incorrecta. Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #157 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La neuralgia del trigémino idiopática o clásica se caracteriza por episodios de dolor lancinante, de segundos de duración, desencadenados típicamente por la estimulación táctil de una zona gatillo (al hablar, masticar o lavarse la cara), con periodos de remisión espontánea que pueden durar semanas o meses antes de reaparecer. Una característica clave para diferenciar la neuralgia del trigémino clásica de una neuralgia sintomática o secundaria (por ejemplo a un tumor del ángulo pontocerebeloso o a una placa de esclerosis múltiple) es la ausencia de déficit sensitivo objetivable en la exploración: la presencia de hipoestesia facial asociada debe hacer sospechar una causa secundaria y obliga a descartar organicidad mediante pruebas de imagen, ya que no es un hallazgo típico de la neuralgia del trigémino idiopática.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-082
 Mujer de 55 años que consulta por una cefalea con sensación de presión bilateral, que no asocia fotofobia, náuseas ni vómitos. La paciente puede realizar sus actividades habituales porque el dolor es de intensidad moderada. El dolor es prácticamente diario en los últimos 6 meses. Desde el punto de vista terapéutico, ¿cuál es la opción más adecuada?
@@ -109,7 +113,7 @@ D. Tratamiento preventivo de entrada con amitriptilina a dosis bajas entre 25-50
 
 > **Nota de cobertura:** confirmación LIMPIA — el cuadro (dolor opresivo bilateral, sin fotofobia/náuseas, diario durante 6 meses) es una cefalea tensional crónica; la bibliografía confirma la amitriptilina como tratamiento preventivo de elección, coincidiendo con la clave oficial. Los triptanes y betabloqueantes (opciones B y C) son propios del manejo de la migraña, no de la cefalea tensional. Sin discrepancia.
 
-### MIR-2021-103 ⚠️
+### MIR-2021-103
 Varón de 30 años que consulta por cefaleas perioculares unilaterales que progresan rápidamente hasta hacerse muy intensas. Las crisis de dolor duran entre 30-60 minutos, ocurren 2-3 veces al día y se acompañan de lagrimeo en el ojo que le duele y rinorrea unilateral. ¿Cuál es el tratamiento preventivo más adecuado?:
 
 A. Prednisona oral con retirada en 2-3 meses.
@@ -117,13 +121,13 @@ B. Prednisona oral con retirada en un mes, asociada a verapamilo oral a dosis de
 C. Carbamazepina a dosis de 600-1200 mg al día.
 D. Indometacina a dosis de 50 mg cada 8 horas durante un mes.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación (máxima confianza, cita directa a esta misma pregunta):** el cuadro descrito (cefaleas perioculares unilaterales, crisis de 30-60 min, 2-3 veces al día, lagrimeo + rinorrea unilateral ipsilateral) es la presentación de manual de la **cefalea en racimos** (§1.4). La bibliografía es textual y cita DIRECTAMENTE esta pregunta: *"Tratamiento profiláctico preventivo (**MIR 22, 103**) — Cuando se inicia un periodo de racimo o clúster, se debe comenzar con **verapamilo** y asociar **21 días de prednisona en pauta descendente**"* (aplicando el desfase habitual de cita AMIR/CTO, "MIR 22, 103" corresponde a MIR-2021-103 en este dataset). Esto coincide EXACTAMENTE con la opción B, no con la clave oficial C. La carbamazepina (opción C) es el tratamiento de elección de la **neuralgia del trigémino** (§1.5), un cuadro clínicamente distinto (dolor facial en descarga eléctrica desencadenado por estímulos táctiles, sin signos trigémino-autonómicos), no de la cefalea en racimos. La indometacina (D) es de elección en la hemicránea paroxística, no en la cefalea en racimos. Apoya la opción B. Se mantiene la clave oficial (C) sin alterar. Pregunta reclasificada de OFT a NEU por corresponder su contenido íntegramente a cefalea/neurología, no a oftalmología.
+**Explicación:** El cuadro descrito -dolor periocular unilateral muy intenso, de inicio rápido, con episodios de 30-60 minutos de duración varias veces al día, acompañado de lagrimeo y rinorrea ipsilaterales- es característico de la cefalea en racimos, un tipo de cefalea trigémino-autonómica que predomina en varones jóvenes. El tratamiento preventivo de elección es el verapamilo oral, habitualmente asociado a una pauta corta de corticoides orales como puente mientras se alcanza la dosis eficaz de verapamilo, cuyo efecto tarda días o semanas en instaurarse. El tratamiento sintomático del episodio agudo se realiza con oxígeno a alto flujo o sumatriptán subcutáneo. La carbamazepina es, en cambio, el tratamiento de elección de la neuralgia del trigémino, y la indometacina es característicamente eficaz en la hemicránea paroxística, entidades distintas de la cefalea en racimos.
 
-> **Nota de cobertura y fiabilidad del módulo:** con esta pregunta se eleva a 6 preguntas reales, **2 discrepancias de MÁXIMA confianza** con cita directa, 4 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
-### MIR-2023-095 ⚠️
+### MIR-2023-095
 Mujer de 45 años que presenta un dolor de características lancinantes en hemicara derecha. El dolor se despierta al tocarse, lavarse o cepillarse los dientes. No le duele por la noche. Señale la respuesta INCORRECTA:
 
 A. El tratamiento más efectivo es la descompresión quirúrgica si existe contacto neurovascular.
@@ -131,11 +135,11 @@ B. La carbamazepina sigue siendo el tratamiento de elección.
 C. Tanto la radiocirugía como los procedimientos ablativos (p.ej. radiofrecuencia) tienen riesgo de recidiva.
 D. Es frecuente la pérdida de sensibilidad asociada al dolor.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte:** el cuadro descrito es una neuralgia del trigémino CLÁSICA/idiopática (dolor lancinante desencadenado por estímulos táctiles triviales —zonas gatillo—, sin dolor nocturno). Es un hecho bien establecido de esta entidad que la exploración neurológica sensitiva es característicamente NORMAL, SIN pérdida de sensibilidad asociada — la presencia de déficit sensitivo orienta hacia una neuralgia trigeminal SECUNDARIA/atípica (p. ej. por tumor, esclerosis múltiple), no hacia la forma clásica descrita en el caso. Por tanto, la opción D es la afirmación FALSA/incorrecta buscada, no la C. La opción C, en cambio, es VERDADERA: tanto la radiocirugía (gamma knife) como los procedimientos ablativos (radiofrecuencia, compresión con balón, glicerol) tienen, de hecho, tasas de recidiva reconocidas a medio-largo plazo (son menos duraderos que la descompresión microvascular de Jannetta cuando existe contacto neurovascular demostrado, opción A, correcta). La carbamazepina (B) sigue siendo el tratamiento farmacológico de primera línea, de forma bien establecida. Apoya la opción D. Se mantiene la clave oficial (C) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** Ante una neuralgia del trigémino con las características típicas descritas, el tratamiento médico de elección sigue siendo la carbamazepina, con una eficacia inicial superior al 70-80% de los casos. Cuando existe conflicto neurovascular demostrado por RM y el paciente es candidato quirúrgico, la descompresión microvascular es la técnica que ofrece los mejores resultados a largo plazo, en comparación con las técnicas ablativas y con la radiocirugía, que presentan mayor riesgo de recurrencia del dolor con el tiempo. Un dato clave para el diagnóstico de neuralgia del trigémino clásica o idiopática es precisamente la ausencia de déficit sensitivo objetivable en la exploración: la presencia de hipoestesia facial asociada al dolor no es un hallazgo típico y debe hacer sospechar una neuralgia sintomática secundaria a otra causa subyacente que requiere estudio adicional.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 7 preguntas reales, **3 discrepancias de MÁXIMA/alta confianza**, 4 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

@@ -91,11 +91,13 @@ B. Prescribir una ortesis tipo corsé.
 C. Derivar a fisioterapia para elastificación del raquis.
 D. Revisar en 6 meses con una nueva radiografía.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía AMIR (Tema 8.3, tabla 1) es explícita sobre el tratamiento de la escoliosis del adolescente (10 años hasta madurez esquelética, el tipo descrito en el caso) según el ángulo de Cobb: *"<20º-30º: observación. 30º-40º: corsé. >40-50º: cirugía"*. La paciente presenta una curva de 35º de Cobb — dentro del rango 30-40º que la propia tabla asigna explícitamente a **corsé** (opción B, no elegida), no a observación/natación (opción A, oficial). Además, el Risser 0 (sin ninguna osificación de la apófisis ilíaca) junto con la menarquia reciente (hace solo 3 meses) indican que a la paciente le queda mucho crecimiento óseo por delante — la bibliografía señala expresamente que "cuanto más crecimiento restante quede (Risser más bajo)... más preocupados debemos estar" por la progresión de la curva, reforzando la indicación de tratamiento activo (corsé) en vez de solo observación. Ver hallazgo #101 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** Ante una escoliosis idiopática del adolescente con una curva de 35º de Cobb y un Risser 0 (esqueleto muy inmaduro, con todo el potencial de crecimiento restante), la indicación es iniciar tratamiento ortopédico con corsé, ya que las curvas entre 25º y 40-45º con crecimiento residual significativo tienen alto riesgo de progresión y se benefician de la contención con ortesis para intentar frenar su evolución hasta alcanzar la madurez esquelética. La combinación de menarquia muy reciente (hace solo 3 meses) y Risser 0 indica que a esta paciente le queda un largo periodo de crecimiento por delante, factor que junto con la magnitud de la curva (>30º) constituye una indicación clara de tratamiento con ortesis, reservándose la simple observación para curvas menores de 20-25º.
 
-### MIR-2021-117 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-117
 ¿En relación con las fracturas de la epitróclea en los niños señale la afirmación INCORRECTA?:
 
 A. Se desencadenan por un mecanismo de valgo forzado del codo en la caída.
@@ -103,11 +105,11 @@ B. Están asociadas hasta en un 50 % de los casos con una luxación postero-late
 C. Pueden presentar asociada una neurapraxia del nervio cubital.
 D. Es más frecuente en niños de edades entre 4 y 6 años.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 22, 117", desfase de año habitual de ±1), afirma: *"Las fracturas de epitróclea aislada son más frecuentes en NIÑOS MAYORES Y ADOLESCENTES, cercanos a la edad del cierre de las fisis (9-14 años)... mecanismo de valgo forzado... se asocian a luxación de codo en el 50% de los casos. PUEDEN ASOCIAR LESIÓN DEL NERVIO CUBITAL."* Esto confirma textualmente que la opción C es VERDADERA (la neurapraxia cubital SÍ está descrita como asociación), y que la opción D es la realmente FALSA: el rango de edad típico es 9-14 años, no 4-6 años (ese rango, 4-6 años, corresponde en la bibliografía a las fracturas de EPICÓNDILO, una entidad distinta que el enunciado no pregunta). Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #155 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Las fracturas de la epitróclea (epicóndilo medial) en niños se producen característicamente por un mecanismo de valgo forzado del codo durante una caída sobre la mano extendida, que provoca la avulsión del núcleo de osificación apofisario por la tracción del complejo ligamentoso colateral medial y de la musculatura flexo-pronadora que se inserta en dicha epífisis. Se asocian con frecuencia (hasta en un 50% de los casos) a una luxación posterolateral del codo, y dada la íntima relación anatómica del nervio cubital con el surco retroepitroclear, puede presentarse una neurapraxia cubital asociada, con parestesias en el territorio del cuarto y quinto dedos. A diferencia de las fracturas supracondíleas, típicas de niños de 5-7 años, la fractura de epitróclea es más característica de niños mayores, en torno a los 9-14 años, coincidiendo con el periodo de mayor tracción apofisaria durante actividades deportivas.
 
-> **Nota de cobertura:** con esta pregunta se eleva a 3 preguntas reales (2020, 2021×2), **2 discrepancias de confianza alta/máxima**, ambas confirmadas por evidencia textual explícita de la bibliografía.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-008
 Mujer de 14 años derivada a Rehabilitación para el manejo de una deformidad de la columna vertebral. Tuvo la menarquia a los 10 años. En la exploración física se aprecia mínima asimetría de escápulas, el eje occipito-sacro está centrado y en el test de Adams se observa una gibosidad torácica derecha de 10 mm. Se aporta telerradiografía de columna en proyección antero-posterior. ¿Cuál de los siguientes considera el manejo más adecuado a seguir?:
@@ -119,7 +121,7 @@ D. Derivación a cirugía para tratamiento quirúrgico.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2024, pregunta 8; coherente con la bibliografía: el tratamiento de la escoliosis depende de la magnitud de la curva, reservándose la observación para curvas pequeñas sin repercusión fisiológica y no progresivas — el cuadro descrito [gibosidad de solo 10mm, mínima asimetría escapular, eje occipito-sacro centrado, menarquia ya ocurrida hace 4 años reduciendo el riesgo de progresión por crecimiento restante limitado] es compatible con una curva leve de bajo riesgo de progresión. Confirmación LIMPIA, sin discrepancia)*
 
-### MIR-2023-099 ⚠️
+### MIR-2023-099
 Niña de 12 años sin antecedentes relevantes, con menarquia hace 4 meses, que acude a la consulta de rehabilitación derivada por su pediatra tras encontrar una asimetría de hombros en la revisión anual. En la exploración física presenta una asimetría de la altura de los hombros y de las caderas con test de Adams positivo. De las siguientes, la actitud correcta a seguir es:
 
 A. Solicitar un escoliograma en bipedestación y en función de los grados de Cobb decidir tratamiento con corsé.
@@ -127,9 +129,11 @@ B. Proponer una revisión en 6 meses con un escoliograma en decúbito.
 C. Derivar a fisioterapia para estiramientos y masajes del raquis.
 D. Recomendar natación para corregir y revisión en 6 meses.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (correspondencia con la sistemática diagnóstica ya establecida en §1 de este mismo módulo, sin cita directa a esta pregunta exacta):** ante un test de Adams POSITIVO (hallazgo patológico, no una exploración normal), la bibliografía de este módulo establece que la evaluación estándar incluye el escoliograma para medir el ángulo de Cobb y decidir tratamiento (observación/corsé/cirugía según el rango) — un escoliograma se realiza característicamente en BIPEDESTACIÓN (carga de peso), no en decúbito, para valorar correctamente la magnitud real de la curva. Con menarquia muy reciente (4 meses, Risser previsiblemente bajo, mucho crecimiento restante) y un hallazgo positivo en la exploración, diferir 6 meses sin imagen diagnóstica (opción B, clave oficial) no es la actitud recomendada — corresponde solicitar el escoliograma en bipedestación ahora para cuantificar la curva y decidir el manejo según el ángulo de Cobb, tal como describe la opción A. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** Ante una escoliosis detectada por asimetría de hombros y caderas con test de Adams positivo, el estudio radiológico inicial debe realizarse mediante un escoliograma en bipedestación (carga axial en ortostatismo), ya que es en esta posición donde se manifiesta la verdadera magnitud de la curva bajo el efecto de la gravedad, permitiendo medir el ángulo de Cobb de forma fiable y decidir en función de su magnitud (y del grado de madurez esquelética, valorado mediante el signo de Risser) si está indicado el tratamiento con corsé. Una radiografía en decúbito subestimaría la magnitud real de la curva al eliminar la carga axial, por lo que no es la proyección adecuada para la valoración inicial y el seguimiento de una escoliosis.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-109
 Acude a urgencias un paciente de 5 años con fiebre de 48 horas de evolución, con mala respuesta a los antitérmicos y rechazo al apoyo del miembro inferior izquierdo. En la exploración física se observa limitación de la movilidad de la cadera. En la analítica aumento de la PCR y leucocitosis. ¿Qué prueba complementaria se debe solicitar en primer lugar?:
@@ -143,9 +147,9 @@ D. Artrografía de cadera.
 
 > **Nota de cobertura (máxima confianza):** confirmación LIMPIA, con cita textual directa — reclasificada de URG a TRA. La bibliografía cita explícitamente "MIR 23, 109" en la tabla de diagnóstico diferencial de patología de cadera infantil, señalando la ECO como prueba diagnóstica de la artritis séptica de cadera (ver §1.5). El cuadro descrito (fiebre, cojera/rechazo al apoyo, limitación de la movilidad, PCR y leucocitosis elevadas en un niño de 5 años) es el cuadro clásico de artritis séptica de cadera. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 5 preguntas reales, 2 discrepancias de confianza alta/máxima (MIR-2021-117), 3 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2023-105 ⚠️
+### MIR-2023-105
 Niña de 6 años que estaba celebrando un cumpleaños en un castillo hinchable, cayendo sobre el brazo extendido. Acude a urgencias con dolor y deformidad a nivel del húmero distal derecho e impotencia funcional del codo. A la exploración no se palpa pulso radial, el relleno capilar de los dedos es de 2 segundos y el color de la mano es sonrosado. La actitud más recomendable es:
 
 A. Realizar una arteriografía de la arteria humeral.
@@ -153,11 +157,11 @@ B. Reducir y fijar la fractura en quirófano y observar la respuesta vascular.
 C. Proceder a la exploración quirúrgica de la arteria humeral.
 D. Hacer una ecografía Doppler de la arteria radial a nivel de la muñeca.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (escenario clásico y muy específico de traumatología pediátrica, sin ambigüedad clínica):** el cuadro (fractura supracondílea de húmero + pulso radial AUSENTE + mano SONROSADA y bien perfundida, relleno capilar normal) es la presentación clásica de la "mano rosada sin pulso" (pink pulseless hand). La actitud recomendada de forma universal y bien establecida en traumatología pediátrica ante este escenario NO es la arteriografía ni la exploración quirúrgica inmediata de la arteria (que retrasarían el tratamiento definitivo sin necesidad, dado que la mano está viable), sino la REDUCCIÓN Y FIJACIÓN URGENTE de la fractura en quirófano, seguida de reevaluación vascular — el pulso frecuentemente se restablece tras aliviar el acodamiento/compresión vascular causado por el desplazamiento fracturario; solo si la mano permanece isquémica/mal perfundida TRAS la reducción está indicada la exploración vascular urgente. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** Ante una fractura supracondílea de húmero en un niño con una mano 'rosada y sin pulso' (pulso radial ausente pero perfusión distal conservada, con relleno capilar normal y buena coloración), la actitud recomendada actualmente por las guías de ortopedia pediátrica es proceder de forma emergente a la reducción y fijación quirúrgica de la fractura en quirófano, reevaluando después la situación vascular de la extremidad, ya que en la mayoría de los casos el pulso se restablece tras la reducción al liberarse el vaso, que suele estar acodado o comprimido por el fragmento óseo desplazado más que seccionado. Retrasar el tratamiento definitivo realizando pruebas de imagen vascular (arteriografía, ecografía Doppler) antes de la reducción no está indicado de entrada en el niño con una mano bien perfundida, ya que prolonga innecesariamente el tiempo de isquemia relativa y retrasa la corrección de la causa mecánica subyacente.
 
-> **Nota de cobertura y fiabilidad ampliada:** con esta pregunta se eleva a 7 preguntas reales, **4 discrepancias de confianza alta/máxima**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 

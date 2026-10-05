@@ -111,7 +111,7 @@ D. Lesión con calcificaciones puntiformes y sin masa de partes blandas.
 
 **Respuesta correcta: B** — *(fuente: Examen MIR 2025, pregunta 2; el triángulo de Codman es el hallazgo radiológico distintivo del osteosarcoma)*
 
-### MIR-2021-110 ⚠️
+### MIR-2021-110
 El osteosarcoma es un tumor óseo maligno que:
 
 A. Es más frecuente en la primera década de la vida.
@@ -119,11 +119,11 @@ B. Su tratamiento con quimioterapia y radioterapia suele evitar la cirugía.
 C. Afecta más frecuentemente a huesos en la proximidad de la articulación de la rodilla.
 D. Si presenta enfermedad de Paget previa tiene un mejor pronóstico.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte:** la bibliografía confirma expresamente que la localización más frecuente del osteosarcoma es "alrededor de la rodilla" (metáfisis distal de fémur/proximal de tibia), coincidiendo con la opción C, no elegida. Además, describe la enfermedad de Paget como una entidad con "un pequeño riesgo de degenerar en un osteosarcoma" (osteosarcoma secundario) — en ortopedia oncológica, el osteosarcoma secundario a Paget es característico de pacientes de mayor edad, con peor resecabilidad y PEOR pronóstico que el osteosarcoma primario del adolescente, no mejor como afirma la opción D (oficial). El osteosarcoma es típico de la 2ª década (adolescentes/jóvenes), no de la primera (descarta A), y el tratamiento estándar combina quimioterapia CON cirugía, no evitándola (descarta B). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar. Confianza fuerte (sin cita numérica directa a esta pregunta, pero con doble apoyo textual: localización + naturaleza del osteosarcoma 2.º a Paget).
+**Explicación:** El osteosarcoma es el tumor óseo maligno primario más frecuente, típico de la segunda década de la vida (adolescentes y adultos jóvenes en fase de crecimiento óseo activo), y afecta con mayor frecuencia a la metáfisis de los huesos largos en la proximidad de la rodilla (fémur distal y tibia proximal), que concentran la mayor actividad de crecimiento óseo. Su tratamiento estándar combina quimioterapia neoadyuvante y adyuvante con la resección quirúrgica completa del tumor (cirugía de preservación de la extremidad siempre que sea posible), dado que se trata de un tumor relativamente radiorresistente en el que la radioterapia no sustituye a la cirugía. Cuando el osteosarcoma aparece como complicación de una enfermedad de Paget ósea previa (osteosarcoma secundario), típicamente en pacientes de mayor edad, su pronóstico es notablemente peor que el del osteosarcoma primario del adolescente, con menor tasa de respuesta a la quimioterapia y peor supervivencia global.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con esta pregunta se eleva a 4 preguntas reales, **1 discrepancia de confianza fuerte**, 3 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-114
 Ante una lesión diafisaria de húmero de carácter lítico que afecta a la totalidad del diámetro del hueso en un varón de 67 años con el antecedente de un cáncer de pulmón (supervivencia estimada superior a 2 años) y que le provoca dolor continuo mal controlado. ¿Cuál de las siguientes es la mejor actitud terapéutica?:
@@ -161,7 +161,7 @@ D. Localización epifisaria del tumor por la posibilidad de afectación de la ar
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, criterios radiológicos clásicos de agresividad tumoral ósea) — la rotura/destrucción de la cortical ósea es uno de los criterios radiológicos clásicos de malignidad (junto con la amplia zona de transición y la reacción perióstica agresiva); la esclerosis perilesional reactiva, en cambio, sugiere un proceso de crecimiento LENTO típicamente benigno. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad (actualizada):** con estas 3 preguntas se eleva a 7 preguntas reales, manteniendo 1 discrepancia y sumando 6 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

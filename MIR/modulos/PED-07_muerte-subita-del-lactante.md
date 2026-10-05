@@ -53,9 +53,11 @@ B. Ante un episodio de muerte súbita infantil se debe firmar el certificado ord
 C. La edad del niño superior a 1 año excluye el diagnóstico, independientemente de que se trate o no de lactantes.
 D. La existencia de una patología grave diagnosticada en la autopsia es criterio diagnóstico de este síndrome.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación (confianza moderada):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 22, 87", desfase ±1), define el SMSL como diagnóstico que "requiere una autopsia que no revele otras causas de muerte" — un diagnóstico de EXCLUSIÓN que, por su propia naturaleza médico-legal, exige investigación forense (autopsia obligatoria, examen del lugar del fallecimiento), lo que resulta difícilmente compatible con la firma de un certificado de defunción "ORDINARIO" sin más trámite por el facultativo de urgencias (clave oficial, B) — la práctica médico-legal estándar ante una muerte infantil súbita e inexplicada es la generación de un PARTE JUDICIAL que dé lugar a la autopsia obligatoria. Además, la bibliografía contradice también las otras dos opciones no elegidas: la existencia de antecedentes familiares es un FACTOR DE RIESGO (no un "criterio diagnóstico", opción A) y el hallazgo de patología grave en la autopsia EXCLUYE el diagnóstico —al ser precisamente lo que la autopsia debe descartar— en vez de confirmarlo (opción D). Al no detallar la bibliografía PED de forma explícita el procedimiento médico-legal exacto de certificación de defunción (aspecto de conocimiento médico-legal general, no específicamente desarrollado en este manual), se marca con confianza MODERADA. No se ha alterado `respuesta_correcta` (se mantiene B).
+**Explicación:** El síndrome de muerte súbita del lactante (SMSL) es, por definición, un diagnóstico de exclusión que se establece tras una investigación completa del caso (historia clínica, examen de la escena y autopsia) sin encontrar una causa que explique el fallecimiento; por ello, la existencia de una patología grave demostrada en la autopsia descarta, no confirma, este diagnóstico, y los antecedentes familiares de muertes similares no son un criterio diagnóstico sino un dato que obliga a descartar causas hereditarias metabólicas o cardiológicas (canalopatías). El SMSL se define específicamente en el lactante, por lo que una edad superior a un año excluye este diagnóstico concreto, aunque deban investigarse otras causas de muerte súbita inexplicada en la infancia. Ante cualquier muerte súbita e inesperada de un lactante debe iniciarse el procedimiento médico-legal correspondiente, dado que se trata de una muerte de causa no aclarada que requiere estudio judicial y autópsico reglado.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-041
 ¿Cuál de las siguientes es una medida preventiva para reducir el riesgo del síndrome de muerte súbita del lactante?:
@@ -69,7 +71,7 @@ D. Se debe evitar el sobrecalentamiento de la habitación, así como la exposici
 
 > **Nota de cobertura:** confirmación LIMPIA — coincide exactamente con las medidas de prevención descritas textualmente en la bibliografía ("evitar sobrecalentamiento del ambiente" y "evitar exposición al humo del tabaco"). Las opciones A y C invierten las recomendaciones reales (decúbito SUPINO, no lateral; superficie firme y plana, no blanda ni elevada). Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2021, 2025), **1 discrepancia de confianza moderada** sobre el procedimiento de certificación de defunción tras una muerte súbita infantil (aspecto médico-legal general no desarrollado explícitamente en la bibliografía específica de Pediatría, pero lógicamente incompatible con el propio requisito de autopsia obligatoria descrito en el mismo apartado); 1 pregunta limpia sobre medidas de prevención.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

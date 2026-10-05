@@ -95,9 +95,11 @@ B. Mieloma múltiple.
 C. Pielonefritis aguda.
 D. Progresión del aneurisma aórtico con afectación bilateral de las arterias renales.
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación moderada:** la combinación de dolor óseo/lumbar persistente, pérdida de peso, anemia normocítica, **hipercalcemia (11,3 mg/dl)** y un **gap proteico elevado** (proteínas totales 8,2 g/dl con albúmina baja de 3,0 g/dl, sugestivo de paraproteína) es un patrón clásico de sospecha de **mieloma múltiple** (opción B) con FRA por "riñón de mieloma" e hipercalcemia — ambos mecanismos tóxicos tubulares recogidos explícitamente en el manual AMIR. No obstante, la PCR normal y la ausencia de fiebre no son típicas de pielonefritis aguda. Se mantiene la clave oficial (C, verificada contra `data/raw/2022_respuestas_layout.txt`), respuesta aprobada por la Comisión Calificadora del Ministerio de Sanidad; se señala la tensión clínica para contexto del estudiante, dado que se trata de un caso con hallazgos superponibles a varias entidades.
+**Explicación:** El cuadro de un varón anciano con dolor lumbosacro persistente, pérdida de peso significativa, anemia, insuficiencia renal, hipercalcemia y proteinuria, en ausencia de fiebre y con PCR prácticamente normal, es muy sugestivo de una neoplasia hematológica, siendo el mieloma múltiple el diagnóstico que mejor engloba todos estos hallazgos: dolor óseo (lesiones líticas), hipercalcemia (resorción ósea osteoclástica), anemia normocítica y fracaso renal (nefropatía de cilindros o 'riñón de mieloma'), constituyendo el síndrome CRAB característico. La ausencia de fiebre y de leucocitosis con PCR normal hacen menos probable una pielonefritis aguda, que además no explicaría la hipercalcemia ni la pérdida de peso.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -109,9 +111,11 @@ B. Síndrome de lisis tumoral.
 C. Hipocalcemia por citostáticos.
 D. Alteración metabólica secundaria a la hiperemesis postquimioterapia.
 
-**Respuesta correcta: D**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte:** la tétrada descrita (hiperuricemia + hiperpotasemia + hiperfosfatemia + hipocalcemia, con FRA, apareciendo 48 horas tras quimioterapia en una leucemia aguda muy proliferativa) es la **definición de libro del síndrome de lisis tumoral** (opción B), tal y como recoge el propio manual AMIR. La hiperemesis postquimioterapia (clave oficial, D) no explica fisiopatológicamente esta combinación exacta de alteraciones (los vómitos producen típicamente hipopotasemia y alcalosis metabólica, un patrón opuesto al descrito). Se mantiene la clave oficial (D) sin alterar, dado que corresponde a una pregunta MIR histórica ya publicada; se trata de una de las asociaciones más clásicas y mejor definidas del temario de oncohematología/nefrología, por lo que se señala con confianza fuerte.
+**Explicación:** El cuadro descrito —paciente con leucemia linfoblástica aguda que, 48 horas después de recibir quimioterapia, presenta náuseas, vómitos, irritabilidad neuromuscular, alteración del nivel de conciencia, fracaso renal agudo, hiperuricemia, hiperpotasemia, hiperfosfatemia e hipocalcemia— reúne los criterios característicos del síndrome de lisis tumoral, causado por la destrucción masiva de células tumorales de alta tasa proliferativa tras el inicio de quimioterapia, con liberación de potasio, fósforo y ácido úrico, y consumo de calcio por precipitación con el fósforo. Este patrón bioquímico (hiperuricemia + hiperpotasemia + hiperfosfatemia + hipocalcemia con fracaso renal agudo, en las primeras 48-72h tras quimioterapia en una neoplasia de alta carga proliferativa) es prácticamente patognomónico del síndrome de lisis tumoral y no se explica por una simple alteración metabólica secundaria a vómitos.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
@@ -232,7 +236,7 @@ D. Tiene una insuficiencia renal aguda debida a la crisis hipertensiva.
 - B: incorrecta — una nefritis intersticial por enalapril no explicaría el hallazgo de soplo abdominal ni el patrón hemodinámico específico de caída del FGe ligada al bloqueo del SRAA.
 - D: incorrecta — la presión arterial estaba ya bien controlada en el momento del deterioro renal (no hay crisis hipertensiva activa que lo justifique); el mecanismo es hemodinámico por el IECA, no isquémico por HTA descontrolada.
 
-> **Nota de cobertura y fiabilidad del módulo:** tercer módulo de Nefrología del proyecto, 9 preguntas reales, 2 discrepancias señaladas (1 fuerte, 1 moderada) frente a la enseñanza clásica del manual, ambas verificadas contra las claves oficiales del Ministerio de Sanidad (`data/raw/*_respuestas_layout.txt`) y mantenidas sin alterar.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

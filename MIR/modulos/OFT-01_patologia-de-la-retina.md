@@ -98,7 +98,11 @@ B. Retinopatía diabética proliferativa con afectación de cuatro cuadrantes.
 C. Retinitis por citomegalovirus.
 D. Trombosis de vena central de la retina.
 
-**Respuesta correcta: A** — *(fuente: Examen MIR 2021, pregunta 11)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2021, pregunta 11)*
+
+**Explicación:** Pregunta dependiente de la imagen (fondo de ojo no disponible en este proyecto). Pérdida de visión brusca y unilateral en un varón de 52 años con factores de riesgo vascular (obesidad): según la plantilla oficial, el fondo de ojo corresponde a una trombosis (oclusión) de la vena central de la retina (D), que se caracteriza por hemorragias retinianas en llama distribuidas por los cuatro cuadrantes, venas dilatadas y tortuosas, exudados algodonosos y edema de papila y de mácula ('fondo en puesta de sol' o 'tomate aplastado'). Sus factores de riesgo son la edad, la HTA, la diabetes, la dislipemia y el glaucoma. La retinopatía hipertensiva con estrella macular (A) es bilateral; la retinopatía diabética proliferativa (B) se caracteriza por neovasos; y la retinitis por CMV (C) aparece en inmunodeprimidos con exudados blanquecinos y hemorragias perivasculares.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2022-178
 Varón de 56 años, DM2, en tratamiento con metformina 8 semanas. HbA1c 7,7%. TA 137/86. Fondo de ojo: retinopatía proliferativa leve. Microalbuminuria 180 mg/g creatinina. ¿Cuál es el siguiente paso más adecuado?:
@@ -138,11 +142,13 @@ B. Neuritis óptica.
 C. Glaucoma agudo.
 D. Catarata intumescente.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual directa a esta misma pregunta ("MIR 22, 65", desfase de año habitual de ±1), afirma que el síndrome macular *"produce... un síntoma fundamental [que] son los escotomas centrales, junto con METAMORFOPSIAS (ven las líneas torcidas)"* — reforzado además por la regla mnemotécnica ya documentada en este mismo módulo (§1.5, "DMAE: Drusas, **M**etamorfopsias..."). La metamorfopsia es, por tanto, un síntoma característico y específico de la MACULOPATÍA (opción A, no elegida), no de la catarata intumescente (clave oficial, D), que la bibliografía no asocia en ningún punto con metamorfopsia. Verificado además por cita cruzada con el contenido ya construido de este propio módulo (§1.5). Ver hallazgo #139 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** La metamorfopsia (visión distorsionada de las líneas rectas) acompañada de visión borrosa es el síntoma característico de la patología MACULAR (maculopatías: degeneración macular asociada a la edad, edema macular, membrana epirretiniana, coriorretinopatía serosa central…), porque se debe a la alteración de la disposición regular de los fotorreceptores de la mácula (A). Se explora con la rejilla de Amsler. La neuritis óptica (B) produce pérdida de agudeza visual con dolor a los movimientos oculares y defecto pupilar aferente, y alteración de la visión de los colores, pero no metamorfopsia. El glaucoma agudo (C) cursa con dolor ocular intenso, ojo rojo, halos y visión borrosa. La catarata (D) produce visión borrosa, deslumbramiento o diplopía monocular, pero no la distorsión de las líneas típica de la maculopatía.
 
-### MIR-2022-064 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-064
 Varón de 25 años que refiere en los últimos meses una importante disminución de la visión nocturna y mala adaptación a la oscuridad. Está notando dificultad en la conducción, al bajar las escaleras y últimamente tropieza con los bordillos. Sin embargo, puede leer y ver la televisión. ¿Con cuál de las siguientes entidades relacionaría los síntomas de este paciente?:
 
 A. Enfermedad de Stargardt.
@@ -150,9 +156,11 @@ B. Distrofia macular viteliforme de Best.
 C. Retinosis pigmentaria.
 D. Desprendimiento de retina.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía afirma textualmente: *"La retinosis pigmentaria produce mala visión nocturna (hemeralopía) y escotoma anular por degeneración de los bastones"* — una correspondencia exacta con el cuadro descrito (mala visión nocturna, mala adaptación a la oscuridad, pérdida de visión periférica —tropieza con bordillos, dificultad en escaleras— con conservación de la visión central —puede leer y ver la televisión—, patrón típico de degeneración de bastones periféricos con conservación macular). La enfermedad de Stargardt (opción A, clave oficial) y la distrofia de Best son DISTROFIAS MACULARES, que producen el patrón clínico opuesto (pérdida de visión CENTRAL con conservación relativa de la periférica), no están descritas en ningún punto de la bibliografía con este cuadro. Esto apoya inequívocamente la opción C, no A. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #158 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** La pérdida progresiva de visión nocturna y la mala adaptación a la oscuridad con conservación de la visión central (lectura y televisión conservadas) orientan a una afectación predominante de la retina periférica con relativo respeto macular inicial. En un varón joven, la primera entidad a considerar dentro de las distrofias hereditarias de retina con este patrón es la retinosis pigmentaria, que cursa característicamente con nictalopía (mala visión nocturna, con frecuencia el síntoma inicial) y pérdida progresiva del campo visual periférico, respetando durante mucho tiempo la agudeza visual central, exactamente el patrón descrito en el paciente. La enfermedad de Stargardt y la distrofia de Best afectan predominantemente a la mácula y producen pérdida de agudeza visual central y metamorfopsias, no nictalopía como síntoma predominante, por lo que no encajan con un paciente que conserva la lectura y la visión de la televisión. El desprendimiento de retina no cursa con una clínica bilateral progresiva de meses de evolución como la descrita.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-209
 Hombre de 34 años con poliposis intestinal y manifestaciones extraintestinales como hipertrofia congénita de retina y osteomas mandibulares. Para hacer el diagnóstico genético se debe analizar el gen:
@@ -166,9 +174,9 @@ D. Gen p53.
 
 > **Nota de cobertura:** confirmación LIMPIA — el cuadro (poliposis intestinal + hipertrofia congénita del epitelio pigmentario de la retina + osteomas mandibulares) es el síndrome de Gardner, variante del síndrome de poliposis adenomatosa familiar (PAF), causado por mutaciones en el gen APC — un hallazgo genético médico bien establecido, coincidiendo con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura:** con estas preguntas se eleva a 8 preguntas reales (2020-2025), **2 discrepancias de MÁXIMA confianza (25%)**. No exhaustiva — quedan preguntas de retina probablemente aún sin clasificar en el pool de preguntas pendientes de la Fase 5.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2022-063 ⚠️
+### MIR-2022-063
 Respecto del desprendimiento de vítreo posterior, señale la afirmación INCORRECTA:
 
 A. Los síntomas por los que generalmente consultan los pacientes son los fosfenos y las miodesopsias.
@@ -176,11 +184,11 @@ B. El anillo de Weiss es un signo característico en la exploración oftalmoscó
 C. El signo de Shaffer o polvo de tabaco es un signo de buen pronóstico.
 D. Se produce por la licuefacción del gel vítreo por la edad.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental y bien establecido de patología vítreo-retiniana):** el anillo de Weiss (opacidad anular que se desprende de la cabeza del nervio óptico) es, de hecho, el signo oftalmoscópico CARACTERÍSTICO y clásico del desprendimiento de vítreo posterior — la afirmación B es VERDADERA, no la incorrecta buscada. En cambio, el signo de Shaffer (polvo de tabaco, células pigmentarias en vítreo anterior) es un signo de MAL pronóstico (alarma de posible desgarro/rotura retiniana asociada, que obliga a exploración urgente del fondo de ojo con depresión escleral), no de buen pronóstico como afirma la opción C. Las opciones A y D son correctas (fosfenos/miodesopsias como síntomas de consulta habituales; licuefacción del gel vítreo relacionada con la edad como mecanismo). Apoya la opción C como la verdadera incorrecta. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La afirmación INCORRECTA es la C: el signo de Shaffer ('polvo de tabaco': células pigmentadas del epitelio pigmentario flotando en el vítreo anterior) indica que se ha producido un DESGARRO retiniano, y es por tanto un signo de MAL pronóstico que obliga a explorar la retina periférica con detalle (y a tratar el desgarro con láser para evitar un desprendimiento de retina). El resto es correcto: los pacientes consultan por miodesopsias (moscas volantes, por las opacidades del vítreo) y fotopsias o fosfenos (por la tracción vitreorretiniana) (A); el anillo de Weiss, que corresponde al tejido glial desprendido de la papila, es el signo característico del DVP en el fondo de ojo (B); y el DVP se produce por la licuefacción del gel vítreo relacionada con la edad (sinéresis), además de la miopía y la cirugía de cataratas (D).
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 9 preguntas reales, **3 discrepancias de MÁXIMA confianza**, 6 limpias.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-107
 ¿Qué hallazgo en el fondo del ojo sugiere más frecuentemente la existencia de una metástasis coroidea?:
@@ -191,8 +199,6 @@ C. Lesión amarillenta subretiniana.
 D. Neovasos.
 
 **Respuesta correcta: C** — *(confianza fuerte, hecho estándar y bien establecido de oftalmología oncológica: las metástasis coroideas se presentan típicamente como lesiones subretinianas amarillentas/blanquecinas, planas o mínimamente sobreelevadas, a diferencia del melanoma coroideo, que característicamente es una masa pigmentada y sobreelevada. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 10 preguntas reales, manteniendo 3 discrepancias y sumando 7 limpias.
 
 ### MIR-2009-150
 Paciente de 57 años de edad que acude a revisión anual rutinaria al Centro de Salud, pesa 84 kg y mide 1.75 m. Se encuentra según sus propias manifestaciones bien de salud, hace poco ejercicio y come normalmente. Su presión arterial es 155/90. Al explorar el fondo de ojo previa dilatación pupilar con tropicamida, observamos en el polo posterior de ambos ojos, rodeando el área macular, una serie de puntos rojos y blancos junto con pequeñas manchas blancas y rojas. Esto nos hace pensar que:

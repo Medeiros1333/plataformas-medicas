@@ -122,7 +122,11 @@ B. Empagliflozina.
 C. Semaglutida.
 D. Alogliptina.
 
-**Respuesta correcta: D** — *(fuente: Examen MIR 2022, pregunta 159 — nota: contraintuitivo respecto al perfil habitual de pérdida de peso de los aGLP1 (semaglutida) e iSGLT2, que suelen preferirse para obesidad; releer el enunciado completo del cuadernillo original, puede haber un dato clínico adicional —p.ej. contraindicación específica— no capturado en este resumen que justifique la clave D)*
+**Respuesta correcta: C** — *(fuente: Examen MIR 2022, pregunta 159)*
+
+**Explicación:** En pacientes con diabetes mellitus tipo 2 y obesidad, los agonistas del receptor de GLP-1 (como la semaglutida) son de elección cuando se busca además del control glucémico un beneficio significativo sobre el peso corporal, ya que actúan enlenteciendo el vaciamiento gástrico y reduciendo el apetito a nivel central, consiguiendo pérdidas ponderales clínicamente relevantes, muy superiores a las de otros grupos terapéuticos como los inhibidores de la DPP-4 (que son ponderalmente neutros), los inhibidores de SGLT2 (con una pérdida de peso más modesta) o las glitazonas (que se asocian a aumento de peso), por lo que en esta paciente con obesidad grado III y mal control glucémico son la opción más adecuada dentro de las disponibles.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2023-188
 ¿Cuál de los siguientes fármacos deberíamos EVITAR en un paciente mayor con diabetes mellitus?:
@@ -142,7 +146,11 @@ B. Glitazonas.
 C. Sulfonilureas.
 D. Análogos del receptor GLP1 (arGLP1).
 
-**Respuesta correcta: C** — *(fuente: Examen MIR 2023, pregunta 190 — nota de verificación fuerte: según el algoritmo de tratamiento resumido en este módulo, en prevención secundaria cardiovascular con obesidad se prefieren aGLP1/iSGLT2, no sulfonilureas; la clave oficial C contradice este resumen. Es posible un error de transcripción de las alternativas en la extracción, o un matiz del enunciado no capturado — releer el cuadernillo original completo antes de usar esta pregunta en modo examen del Hub)*
+**Respuesta correcta: D** — *(fuente: Examen MIR 2023, pregunta 190)*
+
+**Explicación:** En el paciente con diabetes mellitus y obesidad (IMC >30) que se encuentra en prevención secundaria cardiovascular, las guías actuales priorizan fármacos con beneficio cardiovascular demostrado y efecto favorable sobre el peso corporal, características que reúnen especialmente los agonistas del receptor de GLP-1 y los inhibidores de SGLT2, mientras que otros grupos terapéuticos clásicos para el control glucémico, aunque eficaces para reducir la HbA1c, no aportan este beneficio añadido: las sulfonilureas no han demostrado protección cardiovascular específica y se asocian a mayor riesgo de hipoglucemia y a un efecto neutro o levemente desfavorable sobre el peso, por lo que en la práctica clínica actual han quedado relegadas a un papel secundario frente a los fármacos con beneficio cardiometabólico demostrado en este perfil de paciente.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-184
 Paciente con diabetes y obesidad en prevención secundaria cardiovascular, tratado con metformina y iSGLT2, mal control glucémico. ¿Cuál es el fármaco de elección para mejorar el control?:
@@ -174,9 +182,9 @@ D. La primera opción es iniciar tratamiento con fibratos.
 
 **Respuesta correcta: A** — *(fuente: Examen MIR 2023, pregunta 207; consistente con la bibliografía: el patrón de dislipemia diabética tipo IV mejora con el control glucémico, y el control de la dislipemia se maneja junto con estatinas, no con fibratos/omega-3 como primera línea)*
 
-> **Nota de cobertura:** 7 preguntas reales (2021-2025). Dos de ellas (2022-159 y 2023-190) llevan nota de verificación fuerte por resultar contraintuitivas frente al resumen de esta misma bibliografía — revisar el cuadernillo oficial antes de usarlas en el modo simulacro del Hub.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
-### MIR-2020-165 ⚠️
+### MIR-2020-165
 Mujer de 66 años diagnosticada de diabetes mellitus tipo 2 desde hace tres meses. Tiene un IMC de 31 Kg/m2 y presenta mal control glucémico a pesar de realizar un programa de medidas no farmacológicas (alimentación saludable, ejercicio). ¿Cuál de los siguientes fármacos hipoglucemiantes se asocia a aumento de peso y deberíamos evitar en esta paciente?:
 
 A. Metformina (biguanida).
@@ -184,11 +192,13 @@ B. Pioglitazona (tiazolidindiona).
 C. Canagliflozina (inhibidor del cotransportador 2 de sodio-glucosa- iSGLT2).
 D. Liraglutida (agonista del receptor para GLP-1).
 
-**Respuesta correcta: C**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 21, 165", desfase de año habitual de ±1), enumera entre los efectos secundarios de las glitazonas (rosiglitazona y pioglitazona): *"retención de líquido... hepatotoxicidad; AUMENTO DE PESO (MIR 21, 165)"*. Además, la propia tabla comparativa de antidiabéticos de la bibliografía marca el efecto sobre el peso de los iSGLT2 (canagliflozina) como "↓↓" (PÉRDIDA de peso), y el de las TZD (pioglitazona) como "↑" (aumento de peso) — patrones opuestos. Esto contradice directamente la opción C, marcada como oficial, y apoya la opción B. Se mantiene la clave oficial (C) sin alterar. Ver hallazgo #162 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Entre los fármacos hipoglucemiantes, las tiazolidindionas (pioglitazona) y las sulfonilureas son los que con mayor frecuencia se asocian a aumento de peso, mientras que la metformina es neutra o incluso puede favorecer una discreta pérdida de peso, los inhibidores de SGLT2 (como la canagliflozina) producen pérdida de peso por la glucosuria inducida y por un efecto natriurético/calórico añadido, y los agonistas del receptor de GLP-1 (como la liraglutida) son los que producen mayor pérdida ponderal entre los antidiabéticos, actuando además sobre el apetito a nivel central. Por tanto, en una paciente obesa con mal control glucémico, debe evitarse preferentemente aquel fármaco que además de no ayudar, pueda dificultar el control del peso corporal.
 
-### MIR-2022-193 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-193
 Paciente de 50 años con diabetes mellitus en tratamiento con insulina. ¿Cuál es el objetivo recomendado para la concentración de glucosa plasmática capilar postprandial?:
 
 A. < 126 mg/dL.
@@ -196,11 +206,13 @@ B. < 140 mg/dL.
 C. < 180 mg/dL.
 D. < 220 mg/dL.
 
-**Respuesta correcta: A**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 23, 193", desfase de año habitual de ±1), establece expresamente en los objetivos de control metabólico de la ADA: *"Glucemia postprandial <180 mg/dl (MIR 23, 193)"* — apoyando la opción C, no A. Se mantiene la clave oficial (A) sin alterar. Ver hallazgo #162 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** En pacientes con diabetes mellitus en tratamiento con insulina, los objetivos de control glucémico recomendados por las guías incluyen una glucemia capilar preprandial entre 80 y 130 mg/dL y una glucemia postprandial (habitualmente medida a las 1-2 horas tras el inicio de la comida) inferior a 180 mg/dL en la mayoría de los adultos, aunque en pacientes con objetivos de control más estrictos (jóvenes, sin comorbilidad relevante, sin riesgo elevado de hipoglucemia) puede plantearse un objetivo postprandial más ajustado, en torno a valores inferiores a 140-126 mg/dL, individualizando siempre el objetivo según la edad, la comorbilidad, el riesgo de hipoglucemias y la esperanza de vida del paciente.
 
-### MIR-2022-194 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-194
 En pacientes con diabetes mellitus tipo 2 en tratamiento a largo plazo con el mismo fármaco, ¿cuál de los siguientes NO se asocia con una disminución de la probabilidad de complicaciones cardiovasculares?:
 
 A. Inhibidores del cotransportador sodio-glucosa tipo 2 (iSGLT2).
@@ -208,9 +220,11 @@ B. Agonistas de los receptores de glucagón tipo 1 (arGLP1).
 C. Insulina.
 D. Metformina.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía, con cita textual DIRECTA en su tabla comparativa de antidiabéticos ("MIR 23, 194", desfase de año habitual de ±1), clasifica el efecto cardiovascular de cada grupo: iSGLT2 = "Beneficio", aGLP1 = "Beneficio", metformina = "Beneficio", e **INSULINA = "Neutro"** (sin beneficio cardiovascular demostrado). Esto contradice la clave oficial (B, aGLP1, que SÍ tiene beneficio confirmado) y apoya la opción C (insulina, la única clasificada como "Neutro" en la propia tabla). Se mantiene la clave oficial (B) sin alterar. Ver hallazgo #162 en `PROCESO_Y_APRENDIZAJE.md`.
+**Explicación:** Los inhibidores de SGLT2, los agonistas del receptor de GLP-1 y, en menor medida, la metformina han demostrado en ensayos clínicos de resultados cardiovasculares una reducción de la incidencia de eventos cardiovasculares mayores (infarto, ictus, muerte cardiovascular) y/o de hospitalización por insuficiencia cardiaca en pacientes con diabetes tipo 2, especialmente en aquellos con enfermedad cardiovascular establecida. La insulina, aunque es un tratamiento eficaz y necesario para el control glucémico en numerosos pacientes, no ha demostrado en los grandes ensayos de resultados cardiovasculares (como el estudio ORIGIN) una reducción significativa de la incidencia de complicaciones cardiovasculares por sí misma, a diferencia de los otros grupos mencionados.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-188
 ¿Cuál de los siguientes fármacos debería evitarse en un paciente que presenta diabetes y obesidad por ser un fármaco que puede inducir aumento de peso?
@@ -223,8 +237,6 @@ D. Pioglitazona.
 **Respuesta correcta: D**
 
 > **Nota de cobertura:** confirmación LIMPIA, coherente con el hallazgo de MIR-2020-165 — la pioglitazona (tiazolidindiona) está correctamente identificada aquí como el fármaco antidiabético que induce aumento de peso, coincidiendo con la clave oficial y con la tabla comparativa de la bibliografía ("TZD: PESO ↑"). Sin discrepancia.
-
-> **Nota de cobertura y fiabilidad ampliada del módulo:** con estas 4 preguntas se eleva a 11 preguntas reales, **3 discrepancias de MÁXIMA confianza, todas con cita bibliográfica directa**, concentradas en un mismo bloque de 3 preguntas consecutivas del examen de 2022 (193, 194) más una de 2020 — un patrón de alta concentración de errores en la plantilla provisional de estos años, coherente con la sospecha ya documentada en el hallazgo #12.
 
 ### MIR-2021-050
 Varón de 58 años que acude a control programado de una diabetes mellitus tipo 2 diagnosticada hace 6 años. Tiene antecedentes personales de HTA, dislipidemia, cardiopatía isquémica y pancreatitis de origen biliar. Su medicación incluye lisinopril, metoprolol, metformina, AAS y atorvastatina. En la exploración física presenta tensión arterial 151/93 mmHg, IMC 27,1 kg/m2. La hemoglobina glicada es de 8,3 %. ¿Cuál de los siguientes es el tratamiento más adecuado para este paciente?:
@@ -268,8 +280,6 @@ D. La luna de miel aparece en el estadio 2, con la hiperglucemia.
 
 **Respuesta correcta: B** — *(confianza fuerte, coincide con la clasificación estándar por estadios de la diabetes tipo 1 autoinmune —JDRF/Endocrine Society/ADA—: Estadio 1 = autoinmunidad positiva [≥2 autoanticuerpos] con normoglucemia; Estadio 2 = autoinmunidad + disglucemia subclínica [intolerancia glucídica, aún sin cumplir criterios diagnósticos de diabetes]; Estadio 3 = diabetes clínica manifiesta [hiperglucemia franca con síntomas]. La opción A describe en realidad el estadio 2, no el 3 [descarta A]; la opción C describe el estadio 3, no el 2 [descarta C]; la fase de "luna de miel" ocurre tras el diagnóstico e inicio de tratamiento de la diabetes ya establecida [estadio 3], no en el estadio 2 [descarta D]. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 15 preguntas reales, manteniendo 3 discrepancias y sumando 12 limpias.
-
 ### MIR-2020-164
 En un paciente con diabetes mellitus mal controlada e insuficiencia renal crónica (TFGe 52 ml/min) está recomendado añadir por su beneficio cardiovascular, tras metformina:
 
@@ -280,7 +290,7 @@ D. Inhibidor de SGLT2.
 
 **Respuesta correcta: D** — *(confianza fuerte, coherente con el manejo estándar de la DM2 con enfermedad renal crónica: los iSGLT2 tienen beneficio cardiovascular y renal demostrado, con FG de 52 ml/min dentro del rango de uso aceptado. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
 
-### MIR-2022-163 ⚠️
+### MIR-2022-163
 En el manejo perioperatorio del control glucémico en un paciente diabético sometido a una artroplastia de cadera señale la afirmación INCORRECTA:
 
 A. El control glucémico intensivo en el periodo perioperatorio por lo común se acompaña de mejoría en los resultados.
@@ -288,13 +298,11 @@ B. Las cifras de glucemia deseadas se situarán entre 100 y 180 mg/100mL en el p
 C. Si el control glucémico es muy deficiente (HbA1c >9 %) debería intentarse su optimización antes de la cirugía.
 D. La optimización del control glucémico perioperatorio reduce las infecciones y, en pacientes quirúrgicos críticos, puede reducir la mortalidad.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de confianza moderada-fuerte (evidencia moderna de control glucémico perioperatorio, sin cita bibliográfica directa disponible):** el rango de 100-180 mg/dL (opción B, clave oficial) coincide, de hecho, con el objetivo glucémico perioperatorio RECOMENDADO por las guías actuales (evitando tanto la hiperglucemia como la hipoglucemia) — es una afirmación VERDADERA, no la incorrecta buscada. En cambio, la evidencia moderna (tras los hallazgos de estudios como NICE-SUGAR) ha matizado que el control glucémico "INTENSIVO" (objetivos muy estrictos, <110 mg/dL) NO se asocia de forma consistente a mejores resultados y puede aumentar el riesgo de hipoglucemia grave — la afirmación genérica de que el control "intensivo" "por lo común" mejora resultados (opción A) es la que resulta más discutible/desactualizada frente a la evidencia actual, que favorece un control MODERADO (no intensivo) como el descrito en B. Apoya la opción A. Se mantiene la clave oficial (B) sin alterar. *(Pregunta reclasificada desde el bucket "sin especialidad".)*
+**Explicación:** La afirmación INCORRECTA es la A: el control glucémico INTENSIVO perioperatorio (objetivos cercanos a la normoglucemia, 80-110 mg/dl) no ha demostrado mejorar los resultados y aumenta el riesgo de hipoglucemias graves, que se asocian a mayor morbimortalidad (estudio NICE-SUGAR). Lo recomendado es un control moderado. El resto es correcto: el objetivo de glucemia perioperatoria se sitúa aproximadamente entre 100 y 180 mg/dl (B); si el control preoperatorio es muy deficiente (HbA1c >9%), en una cirugía programada como una artroplastia conviene optimizarlo antes de la intervención (C); y la optimización del control glucémico (evitar la hiperglucemia) reduce las infecciones de la herida quirúrgica y, en pacientes críticos, puede reducir la mortalidad (D).
 
-**MIR-2020-055 (ANULADA por la organización del examen —** `respuesta_correcta: null`**):** parámetro farmacológico que determina la eficacia máxima de un analgésico (potencia, actividad intrínseca, índice terapéutico o afinidad). Por farmacología estándar, la eficacia máxima de un fármaco viene determinada por su ACTIVIDAD INTRÍNSECA (capacidad del fármaco unido al receptor para producir el efecto máximo), no por su potencia (relacionada con la dosis necesaria, no con el techo de efecto) ni por su afinidad (fuerza de unión al receptor, independiente de la eficacia). No se fuerza ningún veredicto adicional sobre la clave, dado que el propio examen la anuló.
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas (más 1 anulada mencionada por su valor pedagógico) se eleva a 17 preguntas reales, sumando 1 discrepancia nueva de confianza moderada-fuerte y 1 limpia.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2025-187
 Paciente de 58 años con diagnóstico de diabetes tipo 2, HbA1c de 8,2 %, IMC de 33 kg/m2, antecedentes de infarto agudo de miocardio y Filtrado glomerular estudiado de 52 ml/min/1.73m², que actualmente recibe tratamiento con metformina. ¿Cuál sería el medicamento más apropiado para añadir a su terapia?:
@@ -305,8 +313,6 @@ C. Inhibidor de DPP-4 (sitagliptina).
 D. Inhibidor de SGLT2 (empaglifozina).
 
 **Respuesta correcta: D** — *(confianza fuerte, coherente con las guías actuales ADA/ESC/EASD de manejo de la diabetes tipo 2 con enfermedad cardiovascular establecida: en presencia de IAM previo, los inhibidores de SGLT2 [o alternativamente los agonistas de GLP-1] están indicados de forma preferente independientemente del grado de control glucémico, por su beneficio cardiovascular y renal demostrado en ensayos clínicos — el FG de 52 ml/min/1,73m² está dentro del rango aceptable para el inicio de un iSGLT2 [contraindicado solo en FG muy reducido, umbral variable según el fármaco concreto, habitualmente <20-25]. La pioglitazona [B] está relativamente contraindicada en insuficiencia cardíaca/cardiopatía isquémica por retención hidrosalina; la insulina basal [A] y los iDPP-4 [C] son opciones válidas pero sin el beneficio cardiovascular demostrado de los iSGLT2 en este perfil de paciente. Confirmación LIMPIA, sin discrepancia — pregunta reclasificada desde el bucket "sin especialidad")*
-
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 16 preguntas reales, manteniendo 3 discrepancias y sumando 13 limpias.
 
 ### MIR-2018-089
 Una mujer de 55 años, diabética tipo 2 y obesa, en tratamiento con metformina, con Hb A1c de 8%, cuenta historia de infecciones urinarias de repetición. ¿Cuál de las siguientes opciones terapéuticas para asociar a la metformina considera la MENOS adecuada?

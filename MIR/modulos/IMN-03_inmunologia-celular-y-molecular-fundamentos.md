@@ -92,7 +92,7 @@ D. La IgE se une al receptor para Fc-epsilon (Fcepsilon-R) en mastocitos e induc
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, hecho fundamental de inmunología) — el FcRn transporta EXCLUSIVAMENTE IgG a través de la placenta; la IgM (pentamérica, de gran tamaño) no utiliza este receptor ni atraviesa la placenta — la opción C es correctamente identificada como la FALSA. El resto de opciones (IgG-FcγRIII-NK-ADCC; IgA-pIgR-mucosa intestinal; IgE-FcεR-mastocitos) son correctas. Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2020-037 ⚠️
+### MIR-2020-037
 En relación con la inmunoterapia basada en linfocitos T con receptores antigénicos quiméricos (chimeric antigen receptor, CAR) que reconocen CD19 (CART19):
 
 A. Está aprobada para el tratamiento de leucemia mieloblástica aguda refractaria o en recaída.
@@ -100,9 +100,11 @@ B. Un efecto secundario grave de esta terapia es el síndrome de liberación de 
 C. El receptor CAR reconoce CD19 de forma restringida por el HLA.
 D. Se asocia a hipergammaglobulinemia permanente por activación crónica de linfocitos B CD19+.
 
-**Respuesta correcta: A**
+**Respuesta correcta: B**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental e inequívoco de inmunología/hematología, sin cita bibliográfica directa disponible):** CD19 es un marcador de superficie EXCLUSIVO del linaje linfoide B, ausente por definición en las células mieloides — la leucemia mieloblástica aguda (de estirpe mieloide) es CD19-negativa, por lo que la terapia CAR-T19 NO puede estar aprobada ni ser eficaz en esta entidad; está aprobada para neoplasias B (LLA-B, linfomas B). El síndrome de liberación de citoquinas (opción B) es, en cambio, EL efecto adverso grave característico y mejor documentado de la terapia CAR-T. Además, el reconocimiento antigénico por el receptor CAR es INDEPENDIENTE de HLA (ventaja conceptual de esta tecnología frente al TCR natural), contradiciendo la opción C. Apoya la opción B. Se mantiene la clave oficial (A) sin alterar.
+**Explicación:** Las terapias CAR-T anti-CD19 (CART19), como tisagenlecleucel o axicabtagene ciloleucel, están aprobadas para neoplasias de estirpe B (leucemia linfoblástica aguda B y linfomas B agresivos refractarios o en recaída), pero no para la leucemia mieloblástica aguda (LMA), que es de estirpe mieloide y no expresa el antígeno CD19; por ello esta afirmación es incorrecta. El síndrome de liberación de citoquinas es, en cambio, un efecto adverso grave y característico de esta inmunoterapia, causado por la intensa activación de los linfocitos T modificados. El receptor CAR reconoce el antígeno CD19 de manera directa, como un anticuerpo, sin restricción por HLA. Y tras la terapia se produce típicamente aplasia de linfocitos B CD19+ con hipogammaglobulinemia (no hipergammaglobulinemia permanente), que en ocasiones requiere sustitución con inmunoglobulinas.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción A porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la B. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-033
 Las diferentes clases (isotipos) de inmunoglobulinas (Ig) tienen diferentes funciones que dependen de los fragmentos Fc de sus cadenas pesadas. ¿Cuál de las siguientes afirmaciones es FALSA?:
@@ -112,11 +114,13 @@ B. La IgG se une al receptor III para Fc-gamma (Fc-gamma-RIII) de los fagocitos 
 C. La IgM se une a C1q y activa la vía clásica del complemento contribuyendo a la eliminación de bacterias extracelulares.
 D. La IgE se une al receptor para Fc-épsilon (Fcépsilon-R) y activa a eosinófilos y mastocitos participando en la defensa frente a los helmintos.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> **Nota de cobertura (ambigüedad reconocida, sin forzar un veredicto adicional):** de las 4 opciones, tanto B como A contienen elementos objetables según §1.1 de este módulo: B atribuye a FcγRIII (clásicamente asociado a NK/ADCC, ver MIR-2020-035 opción A de este mismo módulo) la función de opsonización en fagocitos (más propia de FcγRI); A afirma que la IgA "atraviesa la placenta" vía pIgR, cuando en realidad el pIgR media la transcitosis de IgA hacia las MUCOSAS (incluida la leche materna), no el paso transplacentario (exclusivo de la IgG vía FcRn) — un error igualmente identificable. Dado que existen DOS candidatas plausibles a "la falsa" sin una cita bibliográfica que permita zanjar la ambigüedad con certeza, se mantiene la clave oficial (B) sin alterar y sin apoyar de forma concluyente una alternativa única, documentando ambas observaciones para referencia.
+**Explicación:** Cada isotipo de inmunoglobulina posee funciones efectoras específicas mediadas por su fragmento Fc. La IgM, gracias a su estructura pentamérica, es muy eficaz activando la vía clásica del complemento a través de la unión a C1q, contribuyendo así a la opsonización y lisis de bacterias extracelulares. La IgE se une a su receptor de alta afinidad (FcεRI) en mastocitos y basófilos, y también a receptores en eosinófilos, siendo clave en la defensa frente a parásitos helmintos mediante mecanismos de citotoxicidad celular dependiente de anticuerpos. La IgG se une a distintos receptores Fc-gamma en la superficie de los fagocitos, facilitando la opsonización y fagocitosis de los patógenos recubiertos por anticuerpos, así como la citotoxicidad celular dependiente de anticuerpos por células NK a través del FcγRIII (CD16). Por su parte, la única inmunoglobulina capaz de atravesar la placenta es la IgG, mediante su unión al receptor Fc neonatal (FcRn) en el sincitiotrofoblasto; la IgA no atraviesa la placenta, sino que se transmite al neonato a través del calostro y la leche materna, uniéndose al receptor poli-Ig (pIgR) para su transporte a través del epitelio de las mucosas, no de la placenta.
 
-### MIR-2021-035 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-035
 Diferentes mutaciones en el gen AIRE (Autoimmune Regulator) causan una enfermedad rara denominada síndrome poliglandular autoinmune tipo 1 (APS-1). Respecto al gen ¿cuál de las siguientes afirmaciones es cierta?:
 
 A. Está ligado al cromosoma X, por lo que el síndrome APS-1 también se conoce como IPEX (Inmunodesregulación, Poliendocrinopatía y Enteropatía ligada al cromosoma X).
@@ -124,11 +128,13 @@ B. Se expresa en los timocitos que no expresan CD4 ni CD8 (doble negativos) prom
 C. Se expresa en las células T reguladoras controlando su función y siendo responsable del proceso de tolerancia periférica.
 D. Se expresa en células epiteliales de la médula tímica regulando la expresión antígenos específicos de otros tejidos y participando en el proceso de selección negativa en el timo.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental e inequívoco de inmunología, sin cita bibliográfica directa disponible):** el gen AIRE se expresa en las células epiteliales de la MÉDULA TÍMICA (mTEC), donde promueve la expresión ectópica de antígenos tisulares periféricos para permitir la SELECCIÓN NEGATIVA de timocitos autorreactivos — un mecanismo de tolerancia CENTRAL, no periférica. Esta es la descripción EXACTA de la opción D, no de la C (clave oficial), que describe en realidad la función de FOXP3 en los linfocitos T reguladores (mecanismo de tolerancia periférica, mutado en el síndrome IPEX, una entidad genéticamente DISTINTA de APS-1/AIRE — contradiciendo también la opción A, que confunde ambos síndromes). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar — uno de los errores de mayor claridad conceptual detectados en este cluster (AIRE/mTEC/tolerancia central vs. FOXP3/Treg/tolerancia periférica son dos ejes completamente distintos de la inmunología de la tolerancia, ampliamente diferenciados en cualquier fuente de referencia).
+**Explicación:** El gen AIRE (Autoimmune Regulator) es un factor de transcripción autosómico (no ligado al cromosoma X) que se expresa característicamente en las células epiteliales de la médula tímica, donde induce la expresión ectópica ('promiscua') de antígenos propios de tejidos periféricos. Esto permite que los timocitos autorreactivos frente a dichos antígenos sean eliminados por selección negativa, estableciendo la tolerancia central, y contribuye también a la generación del repertorio de linfocitos T reguladores capaces de controlar a los clones autorreactivos que escapan a esta selección. Mutaciones en AIRE alteran este proceso y permiten la salida a la periferia de clones T autorreactivos frente a múltiples órganos endocrinos, dando lugar al síndrome poliglandular autoinmune tipo 1 (APS-1), caracterizado por la tríada candidiasis mucocutánea crónica, hipoparatiroidismo e insuficiencia suprarrenal. No debe confundirse con el síndrome IPEX, que sí está ligado al cromosoma X y causado por mutaciones en el gen FOXP3, expresado directamente en los linfocitos T reguladores.
 
-### MIR-2021-036 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2021-036
 Un estudio reciente indica que aproximadamente el 10-20 % de los pacientes muy graves o fallecidos por COVID-19 poseen autoanticuerpos neutralizantes de los interferones de tipo I. Los interferones de tipo I:
 
 A. Inhiben la actividad citotóxica de los linfocitos T CD8+ contra las células infectadas.
@@ -136,9 +142,11 @@ B. Son producidos por linfocitos CD4+ Th1 tras el reconocimiento de péptidos v�
 C. Activan la expresión de genes que confieren a la célula huésped una resistencia mayor a la infección viral.
 D. Inhiben la expresión de los antígenos de histocompatibilidad (HLA) de clase I en las células infectadas.
 
-**Respuesta correcta: D**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental e inequívoco de inmunología antiviral, sin cita bibliográfica directa disponible):** los interferones de tipo I (IFN-α/β) AUMENTAN (no inhiben) la expresión de CMH/HLA de clase I en las células infectadas, potenciando —no inhibiendo— la presentación antigénica a los linfocitos T CD8+ citotóxicos; es un mecanismo antiviral bien establecido que va en la dirección EXACTAMENTE OPUESTA a la descrita en la clave oficial (D). Su función antiviral principal, correctamente descrita en la opción C, es activar genes que confieren resistencia a la infección viral (genes estimulados por interferón). Apoya la opción C. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Los interferones de tipo I (IFN-alfa e IFN-beta) son citocinas clave de la inmunidad innata antiviral, producidas principalmente por las células dendríticas plasmocitoides y por la práctica totalidad de las células nucleadas en respuesta al reconocimiento de ácidos nucleicos virales por receptores de la inmunidad innata (a diferencia del interferón gamma, de tipo II, que es producido por linfocitos Th1 y células NK tras el reconocimiento antigénico específico). Tras unirse a su receptor IFNAR, activan la vía JAK-STAT e inducen la transcripción de cientos de genes estimulados por interferón (ISGs, como PKR, OAS/RNasa L o las proteínas Mx) que confieren a la célula infectada y a las células vecinas un estado de resistencia frente a la replicación viral, además de potenciar la actividad citotóxica de los linfocitos T CD8+ y de las células NK frente a las células infectadas. La existencia de autoanticuerpos neutralizantes frente a los interferones de tipo I, descrita hasta en un 10-20% de los pacientes con COVID-19 grave, compromete gravemente esta respuesta antiviral temprana y facilita la progresión a formas graves de la enfermedad.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2021-037
 Respecto a las células T reguladoras (Treg) es cierto que:
@@ -152,7 +160,7 @@ D. Liberan citoquinas como IL-17 o IL-22.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte/máxima, marcador definitorio bien establecido) — CTLA-4 es un correceptor inhibidor constitutivamente expresado por los Treg (CD4+CD25+FoxP3+), central en su función supresora. Los Treg NO colaboran en la eliminación de tumores (más bien la suprimen), no coexpresan CD4/CD8 (son CD4+ simples), y no producen IL-17/IL-22 (citocinas Th17, no Treg). Coincide con la clave oficial. Sin discrepancia.
 
-### MIR-2022-034 ⚠️
+### MIR-2022-034
 En relación con el papel de la inmunoglobulina A (IgA) en la defensa frente a patógenos, señale la respuesta INCORRECTA:
 
 A. La IgA activa la vía clásica del complemento contribuyendo a la eliminación de bacterias extracelulares.
@@ -160,11 +168,13 @@ B. La IgA pasa de la madre al recién nacido durante la lactancia contribuyendo 
 C. La IgA puede atravesar la barrera epitelial de las mucosas uniéndose al receptor poli-Ig (pIgR) siendo la inmunoglobulina más abundante en las mucosas.
 D. El déficit selectivo de IgA es la inmunodeficiencia más frecuente (aproximadamente 1:400) y la mayoría de los casos son asintomáticos.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (hecho fundamental de inmunología del complemento, sin cita bibliográfica directa disponible):** la opción C describe con precisión la función real y bien establecida de la IgA (transcitosis vía pIgR a través del epitelio mucoso, siendo la Ig más abundante en mucosas) — no contiene ningún error identificable. La opción A, en cambio, es la objetable: la IgA NO activa eficazmente la vía CLÁSICA del complemento (función principal de IgM, y en menor medida IgG); la IgA puede activar la vía ALTERNATIVA, pero no la clásica. Las opciones B y D son hechos correctos y bien establecidos (transferencia de IgA vía lactancia; epidemiología del déficit selectivo de IgA). Apoya la opción A. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** El receptor poli-Ig (pIgR) transporta de forma específica las inmunoglobulinas poliméricas —IgA dimérica unida por cadena J e IgM pentamérica— a través del epitelio mucoso; no toda la IgA es sustrato de este receptor, ya que una proporción relevante de la IgA circulante en el suero es monomérica y no se une al pIgR, lo que introduce imprecisión en esta afirmación pese a que la IgA secretora sea, en efecto, la inmunoglobulina predominante en las secreciones mucosas. Son correctas, en cambio: el paso de IgA a través de la leche materna, protegiendo las mucosas del neonato durante la lactancia; el déficit selectivo de IgA como la inmunodeficiencia primaria más frecuente (aproximadamente 1 de cada 400 personas), mayoritariamente asintomática; y la contribución de la IgA a la opsonización y a la activación del complemento en la defensa frente a bacterias extracelulares.
 
-### MIR-2022-036 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-036
 Las células T reguladoras (CD4+, CD25+, FoxP3+) se encuentran con frecuencia en el infiltrado de tumores sólidos. Estas células:
 
 A. Se consideran marcadores de buen pronóstico en el desarrollo del tumor.
@@ -172,11 +182,13 @@ B. Contribuyen a la defensa inmune antitumoral.
 C. Producen interferón gamma que contribuye a la activación de linfocitos citotóxicos.
 D. Producen interleucina-10 que contribuye a un microambiente tumoral inmunosupresor.
 
-**Respuesta correcta: C**
+**Respuesta correcta: D**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (función definitoria y bien establecida de los Treg, sin cita bibliográfica directa disponible):** los Treg son, por definición, células INMUNOSUPRESORAS — no producen característicamente interferón-γ (citocina Th1/citotóxica) ni "activan linfocitos citotóxicos" (hacen precisamente lo contrario, SUPRIMEN la respuesta citotóxica). La descripción correcta y bien establecida de su función protumoral es la producción de IL-10 (y TGF-β), contribuyendo a un microambiente inmunosupresor — exactamente lo descrito en la opción D. Consecuentemente, los Treg intratumorales se asocian generalmente a PEOR pronóstico (no "buen pronóstico", descartando A) y no colaboran en la defensa antitumoral (descartando B). Apoya la opción D. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** Los linfocitos T reguladores (Treg, CD4+CD25+FoxP3+) son una subpoblación especializada en mantener la tolerancia inmunológica y limitar las respuestas inflamatorias excesivas. En el microambiente tumoral, las Treg son reclutadas y expandidas en gran número, y contribuyen a la evasión inmunológica del tumor mediante la secreción de citocinas inmunosupresoras como la interleucina-10 y el TGF-beta, la expresión de moléculas inhibidoras como CTLA-4, y el consumo competitivo de IL-2, todo lo cual inhibe la actividad de los linfocitos T citotóxicos y las células NK antitumorales. Por este motivo, una elevada infiltración de Treg en tumores sólidos se asocia generalmente con un peor pronóstico oncológico, al favorecer un microambiente inmunosupresor que dificulta la respuesta antitumoral en lugar de contribuir a ella.
 
-### MIR-2022-037 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la D. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2022-037
 El síndrome de hiper-IgM, una inmunodeficiencia primaria asociada a diferentes mutaciones en las moléculas CD40 o su ligando CD40L, se caracteriza porque:
 
 A. Los pacientes presentan niveles elevados de IgM mientras que mantienen niveles normales de IgG e IgA en suero.
@@ -184,11 +196,13 @@ B. Presentan un defecto de la diferenciación de los linfocitos B en la médula 
 C. Existe un defecto en el proceso de colaboración entre linfocitos T y B necesario para el cambio de isotipo de las inmunoglobulinas.
 D. Existe un defecto en el proceso de reordenamiento de los genes V de las inmunoglobulinas.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (mecanismo patogénico fundamental y bien establecido de esta inmunodeficiencia primaria clásica, sin cita bibliográfica directa disponible):** el síndrome de hiper-IgM (CD40/CD40L) es, por mecanismo patogénico definitorio, un defecto de la COLABORACIÓN T-B necesaria para el CAMBIO DE ISOTIPO (class-switch recombination) en el centro germinal — los linfocitos B se desarrollan NORMALMENTE en la médula ósea (sin ningún bloqueo madurativo), pero no logran cambiar de IgM a IgG/IgA por ausencia de la señal CD40-CD40L del linfocito T colaborador. La descripción de la clave oficial (B: defecto madurativo en médula ósea con acúmulo de células con cadena mu intracitoplasmática) corresponde en realidad al mecanismo de la AGAMMAGLOBULINEMIA LIGADA AL X (Bruton, mutación BTK) — ver módulo IMN-01 de este mismo proyecto —, una entidad genéticamente distinta. Apoya la opción C. Se mantiene la clave oficial (B) sin alterar — discrepancia reforzada por consistencia interna con el módulo IMN-01 ya existente del proyecto (agammaglobulinemia de Bruton).
+**Explicación:** El síndrome de hiper-IgM ligado a mutaciones en CD40 o su ligando CD40L (CD154) se debe a un fallo en la señal de coestimulación que los linfocitos T colaboradores activados proporcionan a los linfocitos B a través de la interacción CD40-CD40L. Esta señal es imprescindible para que, en el centro germinal, los linfocitos B lleven a cabo el cambio de isotipo de las inmunoglobulinas (de IgM/IgD a IgG, IgA o IgE) y la hipermutación somática. Como consecuencia, los pacientes mantienen niveles normales o elevados de IgM, pero presentan niveles muy disminuidos o indetectables de IgG, IgA e IgE, con la consiguiente susceptibilidad a infecciones piógenas de repetición e infecciones oportunistas, como la neumonía por Pneumocystis jirovecii.
 
-### MIR-2023-037 ⚠️
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
+
+### MIR-2023-037
 La vacunación utilizando ARN mensajero de la proteína S (Spike) del SARS-CoV-2 va dirigida a la protección de la población frente a la COVID-19. En relación con la respuesta a esta vacuna señale la afirmación INCORRECTA:
 
 A. La respuesta no requiere la colaboración de los linfocitos T, al ser un antígeno timoindependiente.
@@ -196,9 +210,11 @@ B. Un elevado porcentaje de pacientes inmunodeprimidos, como aquellos con traspl
 C. Es una forma de inmunización activa cuyo resultado se asocia al cambio de isotipo de los anticuerpos.
 D. Induce memoria inmunológica basada en la activación de linfocitos B.
 
-**Respuesta correcta: C**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación de MÁXIMA confianza (hecho fundamental e inequívoco de inmunología de vacunas, sin cita bibliográfica directa disponible):** la opción C describe correctamente la vacunación de ARNm como inmunización activa con cambio de isotipo de anticuerpos — ambos hechos son ciertos y bien establecidos, sin ningún error identificable. La opción A, en cambio, es claramente FALSA: la proteína S es un antígeno PROTEICO, y los antígenos proteicos son, por definición inmunológica básica, TIMODEPENDIENTES (requieren colaboración de linfocitos T CD4+ para la respuesta humoral completa) — los antígenos timoindependientes son típicamente polisacáridos, no proteínas. Esto es coherente, además, con la opción B (respuesta deficiente en inmunodeprimidos), que confirma implícitamente la dependencia de T en la respuesta a esta vacuna. Apoya la opción A. Se mantiene la clave oficial (C) sin alterar.
+**Explicación:** La vacunación con ARNm de la proteína S del SARS-CoV-2 es una forma de inmunización activa, en la que el organismo genera su propia respuesta inmunitaria tras la síntesis endógena del antígeno viral. Esta respuesta implica la colaboración de linfocitos T colaboradores CD4+, que reconocen péptidos derivados de la proteína S presentados en moléculas HLA de clase II y proporcionan a los linfocitos B activados la señal necesaria para experimentar el cambio de isotipo de anticuerpos (de IgM a IgG) y la maduración de afinidad en los centros germinales; este cambio de isotipo es, precisamente, uno de los resultados característicos de la respuesta a esta vacuna. Además, se genera memoria inmunológica duradera basada en linfocitos B de memoria y células plasmáticas de vida larga, y un porcentaje relevante de pacientes inmunodeprimidos (trasplantados o con inmunodeficiencias primarias o secundarias) presenta una respuesta subóptima a la vacunación.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción C porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2019-038
 Mujer de 28 años con adenopatías cervicales dolorosas y fiebre. En la biopsia-cilindro de uno de los ganglios se observa una población muy proliferativa de linfocitos grandes CD8+, sugiriéndose la posibilidad de un linfoma T. El estudio de clonalidad de la biopsia fue negativo. Ante esta discordancia se extirpa un ganglio completo en el que, además de áreas como las previamente descritas, observamos otras de necrosis con numerosos histiocitos con núcleo en semiluna y abundante cariorrexis y rodeadas por células dendríticas plamocitoides. No hay neutrófilos, eosinófilos ni células plasmáticas. Sigue siendo policlonal. ¿Cuál es el diagnóstico más probable?

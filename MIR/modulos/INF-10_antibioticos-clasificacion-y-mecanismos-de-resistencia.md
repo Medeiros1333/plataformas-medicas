@@ -56,9 +56,11 @@ B. Amoxicilina/clavulánico.
 C. Tigeciclina.
 D. Ceftazidima.
 
-**Respuesta correcta: D**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** la bibliografía establece textualmente, en DOS pasajes independientes, que los carbapenems son el tratamiento de elección de las BLEE: *"Las β-lactamasas de espectro extendido... son capaces de hidrolizar todas las penicilinas y LA MAYORÍA DE CEFALOSPORINAS y aztreonam... El tratamiento de elección de los BGN productores de BLEE son los CARBAPENEMS"* y, en la sección de clasificación de carbapenems: *"Son los antibióticos de ELECCIÓN en infecciones por gram negativos productores de β-lactamasas de espectro ampliado/extendido (BLEA/BLEE)"*. La clave oficial marca ceftazidima (D) — una CEFALOSPORINA — precisamente el grupo de antibióticos que la propia bibliografía describe como hidrolizado por las BLEE (y que, de hecho, ya había fracasado en este mismo paciente en forma de ceftriaxona). La opción coherente con la bibliografía es A (ertapenem, un carbapenem), no D. Ver hallazgo #135 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (D) sin alterar.
+**Explicación:** Las bacterias productoras de betalactamasas de espectro extendido (BLEE) hidrolizan la práctica totalidad de las penicilinas y cefalosporinas, incluidas las de espectro ampliado como la ceftazidima o la ceftriaxona, por lo que estos fármacos NO deben emplearse aunque el antibiograma los muestre puntualmente sensibles in vitro, dado el elevado riesgo de fracaso terapéutico descrito con su uso en infecciones graves. El tratamiento de elección de las infecciones graves (sepsis, bacteriemia) por enterobacterias productoras de BLEE son los carbapenems (ertapenem, meropenem o imipenem), que mantienen su actividad frente a este mecanismo de resistencia al no ser hidrolizados por estas enzimas. La amoxicilina-clavulánico y el ciprofloxacino tampoco son opciones fiables de entrada, ya que la coexistencia de resistencias asociadas (a quinolonas y a inhibidores de betalactamasas clásicos) es frecuente en las cepas productoras de BLEE.
+
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción D porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-171
 Respecto a las infecciones de las heridas quirúrgicas, señale la respuesta INCORRECTA:
@@ -84,7 +86,7 @@ D. Staphylococcus saprophyticus.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, microbiología estándar de las ITU) — *Clostridium perfringens* es un anaerobio esporulado clásicamente asociado a gangrena gaseosa/infecciones de tejidos blandos e intoxicación alimentaria, no a la flora habitual de las infecciones urinarias; *Klebsiella*, *Pseudomonas* (sobre todo en ITU complicadas/asociadas a sonda) y *S. saprophyticus* (clásico en mujeres jóvenes sexualmente activas) son patógenos urinarios bien reconocidos. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con estas 2 preguntas se eleva a 3 preguntas reales, manteniendo 1 discrepancia y sumando 2 limpias — la pregunta sobre profilaxis quirúrgica, previamente descartada por "sin respaldo textual en esta bibliografía", se recupera ahora con conocimiento estándar de confianza fuerte tras la ampliación §1.5 de este módulo.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

@@ -60,11 +60,11 @@ B. Sarcoma de Ewing.
 C. Cáncer de mama.
 D. Linfoma de Hodgkin.
 
-**Respuesta correcta: B**
+**Respuesta correcta: A**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el enunciado describe, palabra por palabra, el cuadro clásico de encefalitis anti-NMDA descrito en la bibliografía (mujer joven, pródromo psiquiátrico, hiperintensidad en FLAIR en hipocampo, anticuerpos anti-NMDA positivos). La bibliografía, con cita textual DIRECTA a esta misma pregunta ("MIR 24, 152", desfase de año habitual de ±1), afirma que la encefalitis anti-NMDA puede ser paraneoplásica, *"siendo la PRINCIPAL ASOCIACIÓN el TERATOMA OVÁRICO en mujeres, por lo que hay que realizar una ecografía ginecológica"* — señalando inequívocamente la opción A (no elegida) como la respuesta correcta. El sarcoma de Ewing (clave oficial, B) no figura en ningún punto de la bibliografía como neoplasia asociada a la encefalitis anti-NMDA. Ver hallazgo #151 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** La encefalitis por anticuerpos contra el receptor NMDA es la encefalitis autoinmune más frecuente y afecta predominantemente a mujeres jóvenes, con un cuadro clínico en fases: síntomas psiquiátricos iniciales (ansiedad, alteraciones conductuales, psicosis), seguidos de crisis epilépticas, discinesias orofaciales y de miembros, disminución del nivel de conciencia y disautonomía, a menudo precedidos de un pródromo pseudogripal o gastrointestinal inespecífico como el descrito. Esta entidad se asocia con frecuencia a un tumor subyacente, siendo el teratoma de ovario la neoplasia paraneoplásica clásicamente relacionada en mujeres jóvenes en edad fértil, por lo que ante la sospecha diagnóstica está indicado el despistaje mediante ecografía o RM pélvica. El tratamiento combina la inmunoterapia (corticoides, inmunoglobulinas o plasmaféresis, y en casos refractarios rituximab o ciclofosfamida) junto con la resección del tumor cuando se identifica, lo que mejora significativamente el pronóstico.
 
-> **Nota de cobertura y fiabilidad del módulo:** 2 preguntas reales (2022, 2023), **1 discrepancia de MÁXIMA confianza (50%)**, con cita textual directa a la propia pregunta; 1 limpia (reclasificada desde el código de especialidad no estándar "IMN", sin bibliografía dedicada en el proyecto).
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la A. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ### MIR-2024-083
 Mujer de 18 años sin antecedentes de interés ni consumo de tóxicos que ingresa en planta por un cuadro de alteración conductual con ansiedad, agresividad e ilusiones visuales. Durante su ingreso presenta una crisis convulsiva junto con discinesias orolinguales y distonía del pie izquierdo. Dos semanas previas había presentado un cuadro de diarrea, náuseas y vómitos autolimitados. Respecto a este síndrome señale la respuesta INCORRECTA:
@@ -78,7 +78,7 @@ D. El pronóstico habitualmente es favorable.
 
 > **Nota de cobertura:** confirmación LIMPIA (confianza fuerte, coherente con la bibliografía ya citada en este módulo) — la RM en la encefalitis anti-NMDAR es con frecuencia NORMAL o con hallazgos inespecíficos (hasta en la mitad de los casos), nunca patognomónica; el resto de afirmaciones son correctas y bien establecidas: es la encefalitis autoinmune más frecuente, tiene fuerte asociación tumoral (paradigmáticamente el teratoma ovárico, ya documentado en el caso MIR-2023-152 de este mismo módulo) y el pronóstico con tratamiento suele ser favorable. Coincide con la clave oficial. Sin discrepancia.
 
-> **Nota de cobertura y fiabilidad del módulo (actualizada):** con esta pregunta se eleva a 3 preguntas reales, manteniendo 1 discrepancia y sumando 2 limpias.
+> **Nota de cobertura (actualizada 2026-10-05):** las discrepancias con la clave oficial que se contabilizaban antes en las preguntas 2020-2023 de este módulo se debían a que se había usado la plantilla de respuestas de otro año; ya están corregidas y la clave de cada pregunta coincide con la explicación (ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`).
 
 ---
 

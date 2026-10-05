@@ -76,11 +76,11 @@ B. PPoma.
 C. VIPoma.
 D. Glucagonoma.
 
-**Respuesta correcta: B**
+**Respuesta correcta: C**
 
-> ⚠️ **Nota de verificación fuerte (máxima confianza):** el cuadro clínico descrito coincide punto por punto con la definición textual que la bibliografía AMIR da del **síndrome de Werner-Morrison (cólera pancreático, WDHA)**, característico del VIPoma: *"diarrea secretora (>3L/día, no cede con el ayuno) con deshidratación y alteraciones hidroelectrolíticas... (hipopotasemia...)... flushing facial"* — coincidiendo con la diarrea acuosa muy abundante, la hipopotasemia y el rubor/enrojecimiento facial del enunciado, además de una masa en cola pancreática (localización típica del VIPoma). El PPoma (tumor productor de polipéptido pancreático, clave oficial B) no aparece descrito en ningún punto de la Tabla 1 de tumores neuroendocrinos pancreáticos de la bibliografía (que cubre insulinoma, glucagonoma, somatostatinoma y VIPoma) y no es un tumor funcional productor de un síndrome clínico reconocido — no encaja con ninguno de los hallazgos del caso. Ver hallazgo #123 en `PROCESO_Y_APRENDIZAJE.md`. Se mantiene la clave oficial (B) sin alterar.
+**Explicación:** El cuadro de diarrea acuosa profusa, pérdida de peso marcada, hipopotasemia y una masa pancreática, con episodios de rubor facial y lipotimias (por hipotensión asociada a la vasodilatación), es característico de un tumor neuroendocrino pancreático secretor de péptido intestinal vasoactivo (VIPoma), que produce el síndrome de Verner-Morrison (diarrea acuosa profusa, hipopotasemia y aclorhidria o hipoclorhidria por el efecto secretor e inhibidor de la motilidad del VIP sobre el epitelio intestinal). Este cuadro se diferencia del insulinoma (que cursa con hipoglucemias, no con diarrea) y del glucagonoma (que se asocia a eritema necrolítico migratorio y diabetes, no a diarrea secretora tan profusa), constituyendo la diarrea acuosa masiva junto con la hipopotasemia el dato clínico más orientativo hacia el VIPoma.
 
-> **Nota de cobertura y fiabilidad:** 1 pregunta real (2021), **discrepante de MÁXIMA confianza** — un caso paradigmático de correspondencia palabra por palabra entre la clínica del enunciado y la definición textual de un síndrome específico de la bibliografía (Werner-Morrison/VIPoma), frente a una clave oficial (PPoma) sin respaldo textual alguno. Se descartó una segunda candidata (MIR-2023-015) por tratarse de una pregunta anulada (`respuesta_correcta: null`) basada en imagen no disponible.
+> ✅ **Clave corregida (2026-10-05):** la versión anterior de este módulo marcaba la opción B porque se había usado la plantilla de respuestas de otro año (desfase de un año entre cuadernillos y plantillas 2020-2023). La respuesta oficial es la C. Ver hallazgo #217 en `PROCESO_Y_APRENDIZAJE.md`.
 
 ---
 
