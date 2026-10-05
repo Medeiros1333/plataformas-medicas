@@ -1,0 +1,366 @@
+[
+  {
+    "id": "HEM-vitamina-k",
+    "nombre": "Vitamina K (fitomenadiona)",
+    "sinonimos": ["Fitomenadiona", "Vitamina K1"],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Hemostático y reversor de la anticoagulación",
+    "subclase": "Cofactor de la carboxilación de los factores II, VII, IX y X",
+    "vs_clase": [
+      "**Revierte los ANTIVITAMINA K** (acenocumarol, warfarina) de forma LENTA (6-24 h): para un efecto inmediato hay que añadir complejo protrombínico.",
+      "**No revierte ACOD ni heparinas.**",
+      "**Vía IV lenta** (anafilactoide rara); **no IM** en el anticoagulado (hematoma)."
+    ],
+    "mecanismo": "Cofactor de la gamma-glutamil carboxilasa hepática que activa los factores dependientes de vitamina K.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "INR elevado sin sangrado (INR >10) por antivitamina K", "dosis": "1-2,5 mg", "posologia": "Dosis única", "via": "VO", "nota": "Suspender temporalmente el AVK" },
+      { "patologia": "Hemorragia grave en paciente con antivitamina K", "dosis": "10 mg", "posologia": "IV lenta en 20-30 min", "via": "IV", "nota": "Junto a complejo protrombínico" },
+      { "patologia": "Coagulopatía por déficit de vitamina K (malabsorción, colestasis, desnutrición)", "dosis": "10 mg", "posologia": "Cada 24 h × 3 días", "via": "IV / VO", "nota": "Si no corrige, pensar en insuficiencia hepática" }
+    ],
+    "esquema": { "inicio": "Según INR y sangrado.", "titulacion": "Repetir según INR a las 12-24 h.", "duracion": "Dosis únicas o 3 días.", "fin": "—", "via": "VO o IV lenta.", "monitorizacion": "INR a las 12-24 h." },
+    "farmacocinetica": { "absorcion": "VO buena (requiere sales biliares).", "distribucion": "Hígado.", "metabolismo": "Hepático.", "eliminacion": "Biliar y renal.", "vida_media": "Efecto en 6-24 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Ineficaz si la síntesis hepática está alterada.", "interacciones": [ { "con": "Antivitamina K", "efecto": "Resistencia temporal al reanticoagular tras dosis altas", "gravedad": "media", "manejo": "Usar la mínima dosis necesaria si se va a reanticoagular" } ] },
+    "efectos_adversos": { "frecuentes": ["Dolor local"], "graves": ["Reacción anafilactoide con IV rápida"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["10 mg en un portador de válvula mecánica dificulta la reanticoagulación durante días: dosis bajas si no hay sangrado grave."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-complejo-protrombinico",
+    "nombre": "Concentrado de complejo protrombínico (CCP)",
+    "sinonimos": ["CCP de 4 factores"],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Hemostático y reversor de la anticoagulación",
+    "subclase": "Concentrado de factores II, VII, IX y X",
+    "vs_clase": [
+      "**Revierte los AVK en MINUTOS** (con vitamina K para mantener el efecto): de elección en la hemorragia grave o la cirugía urgente.",
+      "**Reversor inespecífico de los inhibidores del Xa** (apixabán, rivaroxabán, edoxabán) cuando no hay andexanet.",
+      "**Riesgo TROMBÓTICO** (sobre todo con dosis repetidas)."
+    ],
+    "mecanismo": "Aporte directo de los factores de coagulación dependientes de vitamina K (con proteínas C y S y heparina en pequeña cantidad).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Hemorragia grave o cirugía urgente con antivitamina K", "dosis": "25-50 UI/kg (según INR)", "posologia": "Dosis única IV", "via": "IV", "nota": "+ vitamina K 10 mg IV" },
+      { "patologia": "Hemorragia grave con inhibidor del factor Xa (sin andexanet)", "dosis": "50 UI/kg", "posologia": "Dosis única IV", "via": "IV", "nota": "Considerar carbón activado si ingesta <2-4 h" }
+    ],
+    "esquema": { "inicio": "Inmediato.", "titulacion": "INR a los 15-30 min.", "duracion": "Dosis única.", "fin": "—", "via": "IV.", "monitorizacion": "INR, signos de trombosis." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Intravascular.", "metabolismo": "Consumo fisiológico.", "eliminacion": "—", "vida_media": "Factor VII 6 h; II 60 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Antifibrinolíticos (ácido tranexámico)", "efecto": "Riesgo trombótico aditivo", "gravedad": "media", "manejo": "Valorar" } ] },
+    "efectos_adversos": { "frecuentes": ["Cefalea, náuseas"], "graves": ["**Trombosis arterial y venosa**", "CID (raro)", "TIH (contiene heparina)"] },
+    "contraindicaciones": ["Antecedente de TIH", "CID (relativa)"],
+    "perlas": ["El plasma fresco es más lento y aporta mucho volumen: el CCP es preferible en la reversión urgente de AVK."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-idarucizumab",
+    "nombre": "Idarucizumab",
+    "sinonimos": ["Andexanet alfa (reversor de los anti-Xa)"],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Hemostático y reversor de la anticoagulación",
+    "subclase": "Fragmento de anticuerpo anti-dabigatrán",
+    "vs_clase": [
+      "**Antídoto ESPECÍFICO del DABIGATRÁN**: lo neutraliza en MINUTOS de forma completa.",
+      "**No revierte otros anticoagulantes.**",
+      "Sin efecto procoagulante propio (a diferencia del CCP)."
+    ],
+    "mecanismo": "Fragmento Fab humanizado que se une al dabigatrán con afinidad 350 veces mayor que la trombina.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Hemorragia grave o cirugía urgente en paciente con dabigatrán", "dosis": "5 g (2 viales de 2,5 g)", "posologia": "Dos infusiones/bolos consecutivos", "via": "IV", "nota": "Considerar segunda dosis si resangrado con TT prolongado" }
+    ],
+    "esquema": { "inicio": "Inmediato.", "titulacion": "—", "duracion": "Dosis única.", "fin": "Reiniciar anticoagulante a las 24 h si es seguro.", "via": "IV.", "monitorizacion": "Tiempo de trombina diluido/TTPa." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Intravascular.", "metabolismo": "Catabolismo proteico.", "eliminacion": "Renal.", "vida_media": "45 min.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Sin interacciones relevantes", "efecto": "—", "gravedad": "baja", "manejo": "—" } ] },
+    "efectos_adversos": { "frecuentes": ["Cefalea"], "graves": ["Eventos trombóticos por la enfermedad de base al quedar sin anticoagulación", "Hipersensibilidad"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Hemorragia con dabigatrán: idarucizumab 5 g; con anti-Xa: andexanet o CCP 50 UI/kg."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-protamina",
+    "nombre": "Protamina",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Hemostático y reversor de la anticoagulación",
+    "subclase": "Proteína catiónica neutralizante de la heparina",
+    "vs_clase": [
+      "**Revierte por completo la HEPARINA NO FRACCIONADA** (1 mg por cada 100 UI) y **solo un 60% las HBPM**; no revierte fondaparinux.",
+      "**Hipotensión, bradicardia y ANAFILAXIA** (más en alérgicos al pescado, vasectomizados o diabéticos con insulina NPH).",
+      "**En exceso, ella misma es anticoagulante.**"
+    ],
+    "mecanismo": "Se une iónicamente a la heparina (polianiónica) formando un complejo inactivo.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Reversión de heparina no fraccionada (cirugía cardiaca, hemorragia)", "dosis": "1 mg por cada 100 UI de heparina de las últimas 2-3 h (máx. 50 mg)", "posologia": "IV lenta en 10 min", "via": "IV", "nota": "Control con TCA o TTPa" },
+      { "patologia": "Hemorragia con HBPM (reversión parcial)", "dosis": "1 mg por cada 1 mg (100 UI anti-Xa) de enoxaparina de las últimas 8 h", "posologia": "IV lenta; 0,5 mg/mg adicional si persiste", "via": "IV", "nota": "Eficacia parcial" }
+    ],
+    "esquema": { "inicio": "Infusión lenta.", "titulacion": "Según TTPa/TCA.", "duracion": "Dosis puntual.", "fin": "—", "via": "IV.", "monitorizacion": "PA, FC, TTPa." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Intravascular.", "metabolismo": "—", "eliminacion": "—", "vida_media": "7 min.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Exceso de dosis", "efecto": "Efecto anticoagulante propio", "gravedad": "media", "manejo": "No superar 50 mg" } ] },
+    "efectos_adversos": { "frecuentes": ["Rubor, hipotensión"], "graves": ["**Anafilaxia**", "Hipertensión pulmonar aguda", "Bradicardia"] },
+    "contraindicaciones": ["Alergia previa a protamina (relativa)"],
+    "perlas": ["Administrarla despacio: la infusión rápida causa colapso hemodinámico."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-acido-folico",
+    "nombre": "Ácido fólico",
+    "sinonimos": ["Ácido folínico (leucovorina)"],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Vitamina del grupo B",
+    "subclase": "Vitamina B9",
+    "vs_clase": [
+      "**Prevención de DEFECTOS DEL TUBO NEURAL** (0,4 mg; 4-5 mg en alto riesgo) desde antes de la concepción.",
+      "**Nunca sola en una anemia macrocítica sin descartar déficit de B12** (corrige la anemia, no la neuropatía).",
+      "El **ácido folínico** (forma reducida) es el «rescate» del metotrexato a dosis altas y de la pirimetamina."
+    ],
+    "mecanismo": "Precursor del tetrahidrofolato, necesario para la síntesis de purinas y timidilato (ADN).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Anemia megaloblástica por déficit de folato", "dosis": "5 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "4 meses" },
+      { "patologia": "Prevención de defectos del tubo neural", "dosis": "0,4 mg (4-5 mg alto riesgo)", "posologia": "Cada 24 h", "via": "VO", "nota": "Desde 1-3 meses antes hasta la semana 12" },
+      { "patologia": "Reducción de toxicidad del metotrexato semanal", "dosis": "5 mg", "posologia": "Semanal, 24-48 h tras el metotrexato", "via": "VO", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Descartar déficit de B12.", "titulacion": "—", "duracion": "Según indicación.", "fin": "—", "via": "VO.", "monitorizacion": "Hemograma en anemia." },
+    "farmacocinetica": { "absorcion": "Yeyuno, casi completa.", "distribucion": "Hígado (depósito de meses).", "metabolismo": "Reducción a THF.", "eliminacion": "Renal y biliar.", "vida_media": "—", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Fenitoína", "efecto": "Reduce sus niveles", "gravedad": "baja", "manejo": "Vigilar crisis" }, { "con": "Metotrexato antineoplásico", "efecto": "Puede reducir su eficacia", "gravedad": "media", "manejo": "Solo según protocolo" } ] },
+    "efectos_adversos": { "frecuentes": ["Muy raros"], "graves": ["Enmascaramiento de un déficit de B12 (neuropatía progresa)"] },
+    "contraindicaciones": ["Anemia megaloblástica por B12 no tratada"],
+    "perlas": ["Antiepilépticos en mujer fértil: ácido fólico 4-5 mg diario."],
+    "embarazo_lactancia": "Recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33"
+  },
+  {
+    "id": "HEM-cianocobalamina",
+    "nombre": "Vitamina B12 (cianocobalamina e hidroxocobalamina)",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Vitamina del grupo B",
+    "subclase": "Vitamina B12 (cobalamina)",
+    "vs_clase": [
+      "**Corrige la anemia Y la NEUROPATÍA** (degeneración combinada subaguda) del déficit de B12.",
+      "**La VO a dosis altas (1.000-2.000 µg) es eficaz incluso en la anemia perniciosa** (absorción pasiva del 1%).",
+      "**Hipopotasemia** los primeros días de reposición intensa (regeneración medular)."
+    ],
+    "mecanismo": "Cofactor de la metionina sintasa (síntesis de ADN) y de la metilmalonil-CoA mutasa (mielina).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Déficit de vitamina B12 / anemia perniciosa", "dosis": "1.000 µg", "posologia": "IM diaria o a días alternos 1-2 semanas, semanal hasta normalizar, después mensual", "via": "IM", "nota": "De por vida en la perniciosa" },
+      { "patologia": "Déficit leve o mantenimiento (metformina, IBP, veganos)", "dosis": "1.000-2.000 µg", "posologia": "Cada 24 h", "via": "VO", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Hemograma, B12, potasio.", "titulacion": "—", "duracion": "Indefinida si causa permanente.", "fin": "—", "via": "IM o VO.", "monitorizacion": "Reticulocitos a los 5-7 días, potasio, hemograma." },
+    "farmacocinetica": { "absorcion": "Factor intrínseco (íleon) o pasiva a dosis altas.", "distribucion": "Depósitos hepáticos de años.", "metabolismo": "—", "eliminacion": "Biliar (circulación enterohepática) y renal.", "vida_media": "Depósito de 3-5 años.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Metformina, IBP, colchicina", "efecto": "Reducen la absorción de B12", "gravedad": "baja", "manejo": "Medir B12 periódicamente" } ] },
+    "efectos_adversos": { "frecuentes": ["Dolor local", "Acné"], "graves": ["Hipopotasemia inicial", "Anafilaxia (rara)"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["La hidroxocobalamina a dosis muy altas (5 g) es además el antídoto del cianuro."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33"
+  },
+  {
+    "id": "HEM-tiamina",
+    "nombre": "Tiamina (vitamina B1)",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Vitamina del grupo B",
+    "subclase": "Vitamina B1",
+    "vs_clase": [
+      "**Prevención y tratamiento de la ENCEFALOPATÍA DE WERNICKE**: siempre **ANTES de la glucosa** en alcohólicos, desnutridos e hiperémesis.",
+      "**Tratamiento del beriberi** (cardiaco y neuropático) y del **síndrome de realimentación**.",
+      "**IV a dosis altas** en la sospecha de Wernicke (500 mg/8 h)."
+    ],
+    "mecanismo": "Cofactor (pirofosfato de tiamina) de la piruvato deshidrogenasa y la alfa-cetoglutarato deshidrogenasa: imprescindible para el metabolismo de la glucosa.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Sospecha de encefalopatía de Wernicke", "dosis": "500 mg", "posologia": "Cada 8 h", "via": "IV", "nota": "3 días, después 250 mg/día 3-5 días" },
+      { "patologia": "Prevención en alcohólicos o desnutridos ingresados", "dosis": "100-300 mg", "posologia": "Cada 24 h", "via": "IV / IM / VO", "nota": "Antes de los sueros glucosados" }
+    ],
+    "esquema": { "inicio": "Inmediato, antes de glucosa.", "titulacion": "—", "duracion": "Días y después VO.", "fin": "—", "via": "IV, IM, VO.", "monitorizacion": "Clínica neurológica (oftalmoplejía, ataxia, confusión)." },
+    "farmacocinetica": { "absorcion": "VO limitada y saturable (peor en alcohólicos).", "distribucion": "Amplia.", "metabolismo": "Fosforilación.", "eliminacion": "Renal.", "vida_media": "Horas; depósitos para 2-3 semanas.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Glucosa IV", "efecto": "Sin tiamina precipita Wernicke", "gravedad": "alta", "manejo": "Tiamina primero" } ] },
+    "efectos_adversos": { "frecuentes": ["Dolor local"], "graves": ["Anafilaxia (muy rara, IV)"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["La tríada completa de Wernicke aparece en <20%: ante la duda, tratar."],
+    "embarazo_lactancia": "Compatible (hiperémesis).",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de alcohol; Katzung 15.ª ed., cap. 23"
+  },
+  {
+    "id": "HEM-piridoxina",
+    "nombre": "Piridoxina (vitamina B6)",
+    "sinonimos": ["Doxilamina/piridoxina (náuseas del embarazo)"],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Vitamina del grupo B",
+    "subclase": "Vitamina B6",
+    "vs_clase": [
+      "**Prevención de la NEUROPATÍA por ISONIAZIDA** (y tratamiento de su intoxicación con convulsiones).",
+      "**Con doxilamina, primera línea en las NÁUSEAS Y VÓMITOS DEL EMBARAZO.**",
+      "**En exceso (>200 mg/día prolongado) produce neuropatía sensitiva.**"
+    ],
+    "mecanismo": "Precursor del piridoxal-5-fosfato, cofactor de transaminasas, descarboxilasas (síntesis de GABA) y de la síntesis del grupo hemo.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Prevención de neuropatía por isoniazida", "dosis": "25-50 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "En embarazo, desnutrición, alcohol, VIH, diabetes, ERC" },
+      { "patologia": "Intoxicación por isoniazida con convulsiones", "dosis": "1 g por cada gramo de isoniazida ingerido (o 5 g empíricos)", "posologia": "IV lenta", "via": "IV", "nota": "Con benzodiacepinas" },
+      { "patologia": "Náuseas y vómitos del embarazo (doxilamina 10 mg + piridoxina 10 mg)", "dosis": "2 comprimidos (hasta 4)", "posologia": "Al acostarse (+1 mañana y 1 tarde si es necesario)", "via": "VO", "nota": "—" }
+    ],
+    "esquema": { "inicio": "Según indicación.", "titulacion": "—", "duracion": "Mientras dure la isoniazida.", "fin": "—", "via": "VO e IV.", "monitorizacion": "Síntomas neuropáticos." },
+    "farmacocinetica": { "absorcion": "Buena.", "distribucion": "Amplia.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "15-20 días (depósitos).", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Levodopa sin carbidopa", "efecto": "Reduce su efecto", "gravedad": "baja", "manejo": "Irrelevante con carbidopa" } ] },
+    "efectos_adversos": { "frecuentes": ["Náuseas"], "graves": ["Neuropatía sensitiva con dosis altas crónicas"] },
+    "contraindicaciones": ["Hipersensibilidad"],
+    "perlas": ["Convulsiones refractarias en un paciente con isoniazida: piridoxina IV."],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 47"
+  },
+  {
+    "id": "HEM-alteplasa",
+    "nombre": "Alteplasa",
+    "sinonimos": ["rt-PA"],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Fibrinolítico",
+    "subclase": "Activador tisular del plasminógeno recombinante",
+    "vs_clase": [
+      "**Fibrinolítico del ICTUS ISQUÉMICO** (0,9 mg/kg en ≤4,5 h) y del **TEP de alto riesgo** (100 mg en 2 h).",
+      "**Vida media muy corta (5 min)**: bolo + perfusión.",
+      "**Hemorragia intracraneal** (6% en ictus): lista estricta de contraindicaciones."
+    ],
+    "mecanismo": "Convierte el plasminógeno unido a fibrina en plasmina, que lisa el trombo (relativamente fibrinoespecífico).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Ictus isquémico agudo ≤4,5 h (sin contraindicaciones)", "dosis": "0,9 mg/kg (máx. 90 mg): 10% en bolo y 90% en 60 min", "posologia": "Dosis única", "via": "IV", "nota": "PA <185/110 antes y <180/105 24 h después" },
+      { "patologia": "TEP de alto riesgo (shock)", "dosis": "100 mg en 2 h (o 0,6 mg/kg en 15 min en parada)", "posologia": "Dosis única", "via": "IV", "nota": "Después heparina" }
+    ],
+    "esquema": { "inicio": "Verificar contraindicaciones; TC sin sangrado.", "titulacion": "—", "duracion": "Dosis única.", "fin": "No antitrombóticos 24 h (ictus).", "via": "IV.", "monitorizacion": "PA, neurológica, signos de sangrado, angioedema orolingual." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Intravascular.", "metabolismo": "Hepático.", "eliminacion": "—", "vida_media": "**5 min.**", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Anticoagulantes y antiagregantes", "efecto": "Hemorragia", "gravedad": "alta", "manejo": "Evaluar contraindicación" }, { "con": "IECA", "efecto": "Angioedema orolingual", "gravedad": "media", "manejo": "Vigilar" } ] },
+    "efectos_adversos": { "frecuentes": ["Sangrado en puntos de punción"], "graves": ["**Hemorragia intracraneal**", "Hemorragia mayor", "Angioedema orolingual"] },
+    "contraindicaciones": ["Hemorragia intracraneal previa o activa", "Ictus o TCE grave en 3 meses", "Cirugía mayor reciente", "Anticoagulación eficaz", "PA >185/110 no controlable"],
+    "perlas": ["«Tiempo es cerebro»: cada minuto de retraso reduce el beneficio."],
+    "embarazo_lactancia": "Usar solo si el beneficio es vital.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de ictus"
+  },
+  {
+    "id": "HEM-tenecteplasa",
+    "nombre": "Tenecteplasa",
+    "sinonimos": ["TNK"],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Fibrinolítico",
+    "subclase": "Variante de alteplasa más fibrinoespecífica y de vida media larga",
+    "vs_clase": [
+      "**BOLO ÚNICO** (vida media más larga): ideal para la **fibrinólisis prehospitalaria del SCACEST** y, cada vez más, en el ictus (0,25 mg/kg).",
+      "**Más fibrinoespecífica y resistente al PAI-1** que la alteplasa.",
+      "Dosis según peso en el IAM."
+    ],
+    "mecanismo": "Activador del plasminógeno modificado (mayor vida media y especificidad por fibrina).",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "SCACEST cuando la angioplastia primaria no es posible en <120 min", "dosis": "30-50 mg según peso (mitad en ≥75 años)", "posologia": "Bolo único", "via": "IV", "nota": "Con AAS, clopidogrel y enoxaparina; coronariografía en 2-24 h" },
+      { "patologia": "Ictus isquémico agudo", "dosis": "0,25 mg/kg (máx. 25 mg)", "posologia": "Bolo único", "via": "IV", "nota": "Alternativa a alteplasa" }
+    ],
+    "esquema": { "inicio": "Tras ECG y descarte de contraindicaciones.", "titulacion": "—", "duracion": "Dosis única.", "fin": "—", "via": "IV.", "monitorizacion": "Criterios de reperfusión, sangrado." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "Intravascular.", "metabolismo": "Hepático.", "eliminacion": "—", "vida_media": "20-24 min.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "No precisa.", "interacciones": [ { "con": "Anticoagulantes, antiagregantes", "efecto": "Hemorragia", "gravedad": "alta", "manejo": "Pauta establecida" } ] },
+    "efectos_adversos": { "frecuentes": ["Sangrado menor"], "graves": ["Hemorragia intracraneal", "Arritmias de reperfusión"] },
+    "contraindicaciones": ["Las mismas que la alteplasa"],
+    "perlas": ["En el SCACEST, si no hay reperfusión a los 60-90 min: angioplastia de rescate."],
+    "embarazo_lactancia": "Usar solo si es vital.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-uroquinasa",
+    "nombre": "Uroquinasa",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 3,
+    "clase": "Fibrinolítico",
+    "subclase": "Activador directo del plasminógeno no fibrinoespecífico",
+    "vs_clase": [
+      "**Uso LOCAL**: desobstrucción de **catéteres venosos centrales** y fibrinólisis dirigida por catéter (arterial periférica, TVP iliofemoral).",
+      "**No fibrinoespecífica**; **no antigénica** (a diferencia de la estreptoquinasa).",
+      "**Empiema y derrame pleural complicado** (con DNasa en algunos protocolos)."
+    ],
+    "mecanismo": "Proteasa que activa directamente el plasminógeno circulante y unido a fibrina.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Oclusión trombótica de catéter venoso central", "dosis": "5.000-10.000 UI en el volumen del catéter", "posologia": "Dejar 30-60 min y aspirar; repetir si es necesario", "via": "IV", "nota": "Intraluminal" },
+      { "patologia": "Derrame pleural complicado / empiema (fibrinólisis intrapleural)", "dosis": "100.000 UI", "posologia": "Cada 12-24 h por el tubo de tórax", "via": "intrapleural", "nota": "3 días" }
+    ],
+    "esquema": { "inicio": "Según indicación.", "titulacion": "—", "duracion": "Corta.", "fin": "—", "via": "Intraluminal, intraarterial, intrapleural.", "monitorizacion": "Sangrado." },
+    "farmacocinetica": { "absorcion": "Local/IV.", "distribucion": "—", "metabolismo": "Hepático.", "eliminacion": "—", "vida_media": "15-20 min.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Anticoagulantes", "efecto": "Hemorragia", "gravedad": "media", "manejo": "Vigilar" } ] },
+    "efectos_adversos": { "frecuentes": ["Fiebre"], "graves": ["Hemorragia"] },
+    "contraindicaciones": ["Hemorragia activa", "Cirugía mayor reciente (uso sistémico)"],
+    "perlas": ["Antes de retirar un reservorio ocluido, probar la desobstrucción con fibrinolítico."],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "HEM-hierro-sacarosa",
+    "nombre": "Hierro sacarosa",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Hierro (hematínico)",
+    "subclase": "Hierro intravenoso de dosis limitada",
+    "vs_clase": [
+      "**Dosis máxima por infusión baja (200 mg)**: requiere VARIAS infusiones (la carboximaltosa repone 1.000 mg en una).",
+      "**Mucha experiencia y sin hipofosfatemia** relevante (útil en dosis repetidas, ERC y diálisis).",
+      "Más barato."
+    ],
+    "mecanismo": "Complejo de hidróxido de hierro y sacarosa captado por el sistema reticuloendotelial.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Ferropenia con intolerancia o fracaso del hierro oral, ERC en diálisis", "dosis": "100-200 mg", "posologia": "1-3 veces por semana hasta completar el déficit", "via": "IV", "nota": "Infusión de 30 min o bolo lento" }
+    ],
+    "esquema": { "inicio": "Calcular déficit (Ganzoni).", "titulacion": "—", "duracion": "Hasta completar el déficit.", "fin": "—", "via": "IV.", "monitorizacion": "Hb a las 4 semanas; ferritina tras 4-8 semanas." },
+    "farmacocinetica": { "absorcion": "IV.", "distribucion": "SRE.", "metabolismo": "Liberación de hierro en el macrófago.", "eliminacion": "—", "vida_media": "6 h.", "ajuste_renal": "No precisa.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Hierro oral", "efecto": "Menor absorción oral", "gravedad": "baja", "manejo": "Esperar 5 días" } ] },
+    "efectos_adversos": { "frecuentes": ["Sabor metálico, náuseas", "Hipotensión transitoria"], "graves": ["Hipersensibilidad (rara)", "Extravasación (tinción)"] },
+    "contraindicaciones": ["Anemia no ferropénica", "Sobrecarga de hierro", "1.er trimestre del embarazo"],
+    "perlas": ["En hemodiálisis se administra al final de la sesión por la vía del circuito."],
+    "embarazo_lactancia": "2.º-3.er trimestre si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33"
+  },
+  {
+    "id": "HEM-eltrombopag",
+    "nombre": "Eltrombopag",
+    "sinonimos": ["Romiplostim (agonista del receptor de TPO subcutáneo semanal)"],
+    "area": "HEM",
+    "nivel": 3,
+    "clase": "Factor de crecimiento hematopoyético",
+    "subclase": "Agonista oral del receptor de trombopoyetina",
+    "vs_clase": [
+      "**Estimula la serie PLAQUETARIA** (la EPO, la roja; el G-CSF, la blanca).",
+      "**Trombocitopenia inmune (PTI) crónica** refractaria y **anemia aplásica**.",
+      "**Oral, separado 4 h de lácteos y cationes**; **hepatotoxicidad** y **trombosis**."
+    ],
+    "mecanismo": "Agonista no peptídico del receptor de trombopoyetina (c-Mpl) en los megacariocitos.",
+    "espectro": null,
+    "indicaciones": [
+      { "patologia": "Trombocitopenia inmune crónica refractaria", "dosis": "25-50 mg (máx. 75 mg)", "posologia": "Cada 24 h", "via": "VO", "dosis_objetivo": "Plaquetas ≥50.000/µL", "nota": "25 mg en asiáticos y hepatópatas" }
+    ],
+    "esquema": { "inicio": "Transaminasas basales.", "titulacion": "Cada 2 semanas según plaquetas.", "duracion": "Indefinida si eficaz.", "fin": "Retirada gradual (trombocitopenia de rebote).", "via": "VO en ayunas o con comida sin calcio.", "monitorizacion": "Plaquetas semanales al inicio, transaminasas." },
+    "farmacocinetica": { "absorcion": "Reducida por cationes polivalentes.", "distribucion": "Unión a proteínas >99%.", "metabolismo": "CYP1A2 y CYP2C8; glucuronidación.", "eliminacion": "Fecal.", "vida_media": "21-35 h.", "ajuste_renal": "Precaución.", "ajuste_hepatico": "Reducir dosis.", "interacciones": [ { "con": "Antiácidos, lácteos, calcio, hierro", "efecto": "Menor absorción", "gravedad": "media", "manejo": "Separar 4 h" }, { "con": "Rosuvastatina", "efecto": "Aumento de sus niveles", "gravedad": "media", "manejo": "Reducir estatina" } ] },
+    "efectos_adversos": { "frecuentes": ["Cefalea, náuseas", "Elevación de transaminasas"], "graves": ["Hepatotoxicidad", "Trombosis (incluida portal en cirróticos)", "Fibrosis medular"] },
+    "contraindicaciones": ["Insuficiencia hepática moderada-grave (relativa)"],
+    "perlas": ["No es para la trombocitopenia aguda grave con sangrado (ahí, corticoides, IGIV, transfusión)."],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33"
+  }
+]

@@ -5,7 +5,7 @@
     "sinonimos": [],
     "area": "REU",
     "nivel": 1,
-    "clase": "Antiinflamatorio no esteroideo atípico",
+    "clase": "Antiinflamatorio de la gota y la pericarditis (colchicina)",
     "subclase": "Inhibidor de la polimerización de los microtúbulos",
     "mecanismo": "Se une a la tubulina e impide la formación de los microtúbulos. El neutrófilo depende de ellos para todo lo que hace en la crisis gotosa: migrar hacia la articulación, fagocitar los cristales de urato y desgranularse. Además bloquea el ENSAMBLAJE DEL INFLAMASOMA NLRP3, que es el sensor que reconoce los cristales de urato y libera interleucina 1 beta, el mediador central del ataque. No modifica en absoluto la uricemia: no es un hipouricemiante, es un antiinflamatorio dirigido a la vía concreta que activan los cristales. Ese mismo mecanismo antiinflamatorio explica su papel en la pericarditis y en la fiebre mediterránea familiar.",
     "espectro": null,
@@ -119,7 +119,13 @@
     ],
     "embarazo_lactancia": "Se evita en el embarazo salvo en la fiebre mediterránea familiar, donde su mantenimiento está indicado y la experiencia acumulada es tranquilizadora. Pasa a la leche en pequeñas cantidades; se considera aceptable con vigilancia del lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 36; guías de la EULAR sobre gota y de la ESC sobre enfermedades del pericardio"
+    "fuente": "Katzung 15.ª ed., cap. 36; guías de la EULAR sobre gota y de la ESC sobre enfermedades del pericardio",
+    "clase_unica": "Fármaco sin otros miembros de uso clínico en su clase: la colchicina es el único inhibidor de microtúbulos usado como antiinflamatorio.",
+    "vs_clase": [
+      "**Inhibe la polimerización de MICROTÚBULOS** del neutrófilo: antiinflamatorio sin efecto analgésico general.",
+      "**Dosis bajas** en la crisis de gota (1 mg + 0,5 mg) y como profilaxis al iniciar hipouricemiantes; **de elección en la PERICARDITIS** (con AINE) y en la fiebre mediterránea familiar.",
+      "**Margen terapéutico estrecho**: toxicidad grave con claritromicina, ciclosporina, verapamilo (CYP3A4/P-gp) e insuficiencia renal."
+    ]
   },
   {
     "id": "REU-metotrexato",

@@ -19,7 +19,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Pregunta en la que nos presentan un hombre adulto con anemia macrocítica (VCM >100). Dentro de los diagnósticos propuestos, el déficit de vitamina B12 y los síndromes mielodisplásicos serían lo primero a descartar ante una anemia macrocítica (opciones 3 y 4 falsas). Asimismo, el alcoholismo también es una causa frecuente de macrocitosis (opción 2 falsa). La única que nos queda es la intoxicación por plomo, que característicamente se presenta como una anemia microcítica y por lo tanto sería el diagnóstico menos probable.",
+          "explicacion": "Pregunta en la que nos presentan un hombre adulto con anemia macrocítica (VCM >100). Dentro de los diagnósticos propuestos, el déficit de vitamina B12 y los síndromes mielodisplásicos serían lo primero a descartar ante una anemia macrocítica (opciones C y D falsas). Asimismo, el alcoholismo también es una causa frecuente de macrocitosis (opción B falsa). La única que nos queda es la intoxicación por plomo, que característicamente se presenta como una anemia microcítica y por lo tanto sería el diagnóstico menos probable.",
           "fuente": "Examen MIR 2019, pregunta 95",
           "origen": "real"
         }
@@ -83,7 +83,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Caso clínico de anemia de trastorno crónico. Mujer de 70 años (postmenopáusica) con anemia (Hb <12), normocítica (VCM entre 80-100) con hierro sérico bajo (<50) y ferritina elevada (>200). Este tipo de anemia se asocia a enfermedades inflamatorias o infecciosas de carácter crónico como por ejemplo la polimialgia reumática (opción 3 verdadera). En cualquier caso, esta pregunta se puede contestar por descarte. La anemia ferropénica secundaria a la pérdida de sangre y la talasemia minor son anemias microcíticas (VCM <80). Además en las anemias ferropénicas los depósitos de hierro están bajos (ferritina <20). Las anemias secundarias a malabsorción intestinal forman parte del grupo de anemias carenciales, es decir, por malabsorción de hierro (anemia microcítica) o de vitamina B12/ácido fólico (anemias macrocíticas).",
+          "explicacion": "Caso clínico de anemia de trastorno crónico. Mujer de 70 años (postmenopáusica) con anemia (Hb <12), normocítica (VCM entre 80-100) con hierro sérico bajo (<50) y ferritina elevada (>200). Este tipo de anemia se asocia a enfermedades inflamatorias o infecciosas de carácter crónico como por ejemplo la polimialgia reumática (opción C verdadera). En cualquier caso, esta pregunta se puede contestar por descarte. La anemia ferropénica secundaria a la pérdida de sangre y la talasemia minor son anemias microcíticas (VCM <80). Además en las anemias ferropénicas los depósitos de hierro están bajos (ferritina <20). Las anemias secundarias a malabsorción intestinal forman parte del grupo de anemias carenciales, es decir, por malabsorción de hierro (anemia microcítica) o de vitamina B12/ácido fólico (anemias macrocíticas).",
           "fuente": "Examen MIR 2016, pregunta 91",
           "origen": "real"
         },
@@ -98,15 +98,11 @@
             "C": "Volumen corpuscular medio de los hematíes.",
             "D": "Concentración de transferrina en suero."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, en la ferropenia la transferrina sérica se eleva de forma compensadora, mientras que la hemoglobina reticulocitaria (CHr) está característicamente disminuida, no aumentada hace que la opción D también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEn la ferropenia se produce una respuesta compensadora hepática que aumenta la síntesis de transferrina para maximizar la captación del escaso hierro disponible, por lo que la concentración sérica de transferrina (y la capacidad total de fijación de hierro, CTFH) está elevada, mientras que la saturación de transferrina disminuye. Por el contrario, la ferritina sérica (reflejo de los depósitos de hierro), el volumen corpuscular medio (microcitosis) y la concentración de hemoglobina reticulocitaria (CHr, marcador precoz de ferropenia por reducción de la hemoglobinización de los hematíes jóvenes) están todos disminuidos en la ferropenia.",
+          "explicacion": "En la ferropenia se produce una respuesta compensadora hepática que aumenta la síntesis de transferrina para maximizar la captación del escaso hierro disponible, por lo que la concentración sérica de transferrina (y la capacidad total de fijación de hierro, CTFH) está elevada, mientras que la saturación de transferrina disminuye. Por el contrario, la ferritina sérica (reflejo de los depósitos de hierro), el volumen corpuscular medio (microcitosis) y la concentración de hemoglobina reticulocitaria (CHr, marcador precoz de ferropenia por reducción de la hemoglobinización de los hematíes jóvenes) están todos disminuidos en la ferropenia.",
           "fuente": "Examen MIR 2023, pregunta 155",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "D",
-            "motivo": "en la ferropenia la transferrina sérica se eleva de forma compensadora, mientras que la hemoglobina reticulocitaria (CHr) está característicamente disminuida, no aumentada"
-          }
+          "origen": "real"
         }
       ]
     },
@@ -128,7 +124,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Hematología El tratamiento de elección en la aplasia medular severa es el trasplante alogénico de precursores hematopoyéticos, indicado en pacientes <45 años con donante compatible. En pacientes que no dispongan de un donante compatible, >45 años o con comorbilidades importantes, se debe administrar tratamiento inmunosupresor (ciclosporina, globulina antitimocítica/antileucocitaria). El tratamiento de soporte está indicado de forma complementaria en todos los pacientes, y de manera exclusiva en pacientes muy ancianos en los que otros tratamientos están contraindicados. La opción 3 es la correcta.",
+          "explicacion": "Hematología El tratamiento de elección en la aplasia medular severa es el trasplante alogénico de precursores hematopoyéticos, indicado en pacientes <45 años con donante compatible. En pacientes que no dispongan de un donante compatible, >45 años o con comorbilidades importantes, se debe administrar tratamiento inmunosupresor (ciclosporina, globulina antitimocítica/antileucocitaria). El tratamiento de soporte está indicado de forma complementaria en todos los pacientes, y de manera exclusiva en pacientes muy ancianos en los que otros tratamientos están contraindicados. La opción C es la correcta.",
           "fuente": "Examen MIR 2014, pregunta 103",
           "origen": "real"
         }
@@ -152,7 +148,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "Pregunta compleja acerca del metabolismo de la vitamina B12. Empecemos descartando las opciones más fáciles: la vitamina B12 se absorbe en el ileon (opción 1 falsa). El factor intrínseco es producido por las células parietales de la mucosa gástrica (opción 5 falsa). El complejo vitamina B12-factor intrínseco se une a receptores de la superficie epitelial del ileon (opción 3 falsa). Un déficit de factor intrínseco impide la correcta absorción de la vitamina B12, de modo que en ausencia del mismo la vitamina B12 de la dieta no resulta Hematología suficiente para la maduración de eritrocitos jóvenes (opción 4 falsa). Por descarte, la opción “menos falsa” es la 2, que es la que el Ministerio dio como correcta inicialmente: el factor intrínseco protege a la vitamina B12 de la digestión a su paso por el intestino delgado (decimos “menos falsa” porque la unión del factor intrínseco con la B12 se produce en el duodeno). Dado que no hay ninguna opción realmente correcta, esta pregunta fue anulada finalmente. Respuesta: A 92. Los siguientes hallazgos están presentes tanto en la deficiencia de ácido fólico como en la deficiencia de vitamina B12, EXCEPTO uno: 1. Hematíes macrocíticos. 2. Neuropatía periférica. 3. Maduración megaloblástica en la médula ósea. 4. Niveles elevados de lactato deshidrogenasa (LDH) y bilirrubina indirecta. 5. Hipersegmentación de neutrófilos. Dentro de las características generales de las anemias megaloblásticas producidas tanto por déficit de vitamina B12 como por déficit de ácido fólico están la macrocitosis (1), neutrófilos hipersegmentados (5), maduración megaloblástica de la médula (3), y los niveles elevados de LDH y bilirrubina (4) (se correlacionan con el grado de anemia y se producen por rotura celular por la eritropoyesis ineficaz). La neuropatía periférica (2) sólo aparece en el déficit de vitamina B12, dado que las alteraciones neurológicas son características del deficit de vitamina B12.",
+          "explicacion": "Pregunta compleja acerca del metabolismo de la vitamina B12. Empecemos descartando las opciones más fáciles: la vitamina B12 se absorbe en el ileon (opción A falsa). El factor intrínseco es producido por las células parietales de la mucosa gástrica (opción E falsa). El complejo vitamina B12-factor intrínseco se une a receptores de la superficie epitelial del ileon (opción C falsa). Un déficit de factor intrínseco impide la correcta absorción de la vitamina B12, de modo que en ausencia del mismo la vitamina B12 de la dieta no resulta Hematología suficiente para la maduración de eritrocitos jóvenes (opción D falsa). Por descarte, la opción “menos falsa” es la 2, que es la que el Ministerio dio como correcta inicialmente: el factor intrínseco protege a la vitamina B12 de la digestión a su paso por el intestino delgado (decimos “menos falsa” porque la unión del factor intrínseco con la B12 se produce en el duodeno). Dado que no hay ninguna opción realmente correcta, esta pregunta fue anulada finalmente.",
           "fuente": "Examen MIR 2015, pregunta 212",
           "origen": "real"
         },
@@ -169,7 +165,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "Pregunta acerca de la fisiología de la vitamina B12, que se está convirtiendo en un clásico en el MIR de los últimos años. Las fuentes principales de vitamina B12 son de origen animal (la carne y las vísceras) (opción 1 falsa). El factor intrínseco y la proteína ligadora de cobalamina se producen en el estómago. La vitamina B12 se une a la proteína ligadora de cobalamina en el estómago. Sin embargo, es en el duodeno donde, por acción de una lipasa pancreática, el complejo se escinde en dos produciéndose entonces la unión de la vitamina B12 al factor intrínseco (FI) (opción 3 falsa). Desde el duodeno la vitamina B12 unida al FI continúa su recorrido por el intestino delgado para ser finalmente absorbida en el íleon. El reservorio principal de la vitamina B12 está el hígado (opción 2 verdadera). La vitamina B12 actúa como coenzima en el metabolismo de la homocisteína. Por lo tanto, su déficit conduce a un aumento de los niveles de homocisteína (opción 4 falsa).",
+          "explicacion": "Pregunta acerca de la fisiología de la vitamina B12, que se está convirtiendo en un clásico en el MIR de los últimos años. Las fuentes principales de vitamina B12 son de origen animal (la carne y las vísceras) (opción A falsa). El factor intrínseco y la proteína ligadora de cobalamina se producen en el estómago. La vitamina B12 se une a la proteína ligadora de cobalamina en el estómago. Sin embargo, es en el duodeno donde, por acción de una lipasa pancreática, el complejo se escinde en dos produciéndose entonces la unión de la vitamina B12 al factor intrínseco (FI) (opción C falsa). Desde el duodeno la vitamina B12 unida al FI continúa su recorrido por el intestino delgado para ser finalmente absorbida en el íleon. El reservorio principal de la vitamina B12 está el hígado (opción B verdadera). La vitamina B12 actúa como coenzima en el metabolismo de la homocisteína. Por lo tanto, su déficit conduce a un aumento de los niveles de homocisteína (opción D falsa).",
           "fuente": "Examen MIR 2016, pregunta 41",
           "origen": "real"
         },
@@ -186,7 +182,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Pregunta de dificultad intermedia-alta que requiere de manejo integral del bloque de serie roja para contestarla. En el diagnóstico diferencial de anemia macrocítica siempre debemos pensar como primera opción en las anemias megaloblásticas (déficit de fólico y vitamina B12). En este caso, la asociación de anemia macrocítica junto con múltiples enfermedades autoinmunes nos debe hacer pensar en anemia perniciosa como primera posibilidad. Recuerda que la anemia perniciosa es una entidad de origen autoinmune en la que se producen autoanticuerpos frente a las células parietales del estómago, lo cual genera una gastritis crónica atrófica autoinmune (tipo A) que impide la secreción de factor intrínseco y por tanto la absorción de la vitamina B12 de la dieta (respuesta 4 correcta). Por otro lado, la destrucción y atrofia progresiva de las células parietales gástricas puede acabar generando una disminución de la secreción de ácidos gástricos (aclorhidria) y por tanto una disminución de la capacidad del organismo para absorber el hierro de la dieta, pudiendo asociar por ello, como en esta pregunta, anemia ferropénica malabsortiva.",
+          "explicacion": "Pregunta de dificultad intermedia-alta que requiere de manejo integral del bloque de serie roja para contestarla. En el diagnóstico diferencial de anemia macrocítica siempre debemos pensar como primera opción en las anemias megaloblásticas (déficit de fólico y vitamina B12). En este caso, la asociación de anemia macrocítica junto con múltiples enfermedades autoinmunes nos debe hacer pensar en anemia perniciosa como primera posibilidad. Recuerda que la anemia perniciosa es una entidad de origen autoinmune en la que se producen autoanticuerpos frente a las células parietales del estómago, lo cual genera una gastritis crónica atrófica autoinmune (tipo A) que impide la secreción de factor intrínseco y por tanto la absorción de la vitamina B12 de la dieta (respuesta D correcta). Por otro lado, la destrucción y atrofia progresiva de las células parietales gástricas puede acabar generando una disminución de la secreción de ácidos gástricos (aclorhidria) y por tanto una disminución de la capacidad del organismo para absorber el hierro de la dieta, pudiendo asociar por ello, como en esta pregunta, anemia ferropénica malabsortiva.",
           "fuente": "Examen MIR 2018, pregunta 106",
           "origen": "real"
         },
@@ -201,15 +197,11 @@
             "C": "El trasplante de progenitores hematopoyéticos es el tratamiento curativo, pero no hace desaparecer el riesgo de cáncer.",
             "D": "Los andrógenos suelen producir una respuesta favorable pero transitoria."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, las malformaciones esqueléticas sí son un rasgo típico de la anemia de Fanconi, mientras que la aplasia medular habitualmente se manifiesta más tarde, en la edad escolar, y no ya en los primeros meses de vida hace que la opción A también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nLa anemia de Fanconi es la aplasia medular congénita más frecuente, de herencia habitualmente autosómica recesiva, causada por defectos en la reparación del ADN (vía FANC/BRCA). Cursa con malformaciones congénitas típicas (anomalías del pulgar y del radio, talla baja, manchas café con leche, anomalías renales y esqueléticas) presentes desde el nacimiento, mientras que el fallo medular (pancitopenia progresiva) suele desarrollarse más tardíamente, típicamente en la edad escolar (en torno a los 5-10 años), y no en los primeros meses de vida. El trasplante de progenitores hematopoyéticos cura la aplasia medular pero no elimina el riesgo aumentado de neoplasias sólidas (especialmente carcinomas epidermoides de cabeza y cuello) ni de leucemia mieloide aguda, y los andrógenos pueden inducir una mejoría hematológica transitoria mientras se mantiene el tratamiento.",
+          "explicacion": "La anemia de Fanconi es la aplasia medular congénita más frecuente, de herencia habitualmente autosómica recesiva, causada por defectos en la reparación del ADN (vía FANC/BRCA). Cursa con malformaciones congénitas típicas (anomalías del pulgar y del radio, talla baja, manchas café con leche, anomalías renales y esqueléticas) presentes desde el nacimiento, mientras que el fallo medular (pancitopenia progresiva) suele desarrollarse más tardíamente, típicamente en la edad escolar (en torno a los 5-10 años), y no en los primeros meses de vida. El trasplante de progenitores hematopoyéticos cura la aplasia medular pero no elimina el riesgo aumentado de neoplasias sólidas (especialmente carcinomas epidermoides de cabeza y cuello) ni de leucemia mieloide aguda, y los andrógenos pueden inducir una mejoría hematológica transitoria mientras se mantiene el tratamiento.",
           "fuente": "Examen MIR 2020, pregunta 81",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "A",
-            "motivo": "las malformaciones esqueléticas sí son un rasgo típico de la anemia de Fanconi, mientras que la aplasia medular habitualmente se manifiesta más tarde, en la edad escolar, y no ya en los primeros meses de vida"
-          }
+          "origen": "real"
         }
       ]
     },
@@ -231,7 +223,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Pregunta fácil. La hemólisis define la destrucción acelerada de hematíes. Como consecuencia se produce un incremento de la bilirrubina indirecta (opción 3 incorrecta), de la LDH (opción 4 incorrecta) y de la hemoglobina libre en suero y en orina. La haptoglobina disminuye al formarse complejos de haptoglobina-Hb que son eliminados por el sistema monofagocítico. Además la estimulación del sistema macrófago provoca esplenomegalia (opción 2 incorrecta). Como mecanismo compensatorio de la hemólisis se produce un aumento de la eritropoyesis que se traduce en un incremento de reticulocitos en sangre periférica (opción 5 incorrecta). Las adenopatías no guardan ninguna relación con la hemólisis (opción 1 correcta).",
+          "explicacion": "Pregunta fácil. La hemólisis define la destrucción acelerada de hematíes. Como consecuencia se produce un incremento de la bilirrubina indirecta (opción C incorrecta), de la LDH (opción D incorrecta) y de la hemoglobina libre en suero y en orina. La haptoglobina disminuye al formarse complejos de haptoglobina-Hb que son eliminados por el sistema monofagocítico. Además la estimulación del sistema macrófago provoca esplenomegalia (opción B incorrecta). Como mecanismo compensatorio de la hemólisis se produce un aumento de la eritropoyesis que se traduce en un incremento de reticulocitos en sangre periférica (opción E incorrecta). Las adenopatías no guardan ninguna relación con la hemólisis (opción A correcta).",
           "fuente": "Examen MIR 2010, pregunta 103",
           "origen": "real"
         },
@@ -249,7 +241,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Pregunta de dificultad media en la que debemos hacer un diagnóstico diferencial entre distintos tipos de anemia. Analicemos cada opción por separado: • Opción 1 (incorrecta): en la anemia ferropénica el déficit de los depósitos de hierro provoca un trastorno en la maduración de los precursores eritropoyéticos de manera que el número de hematíes en sangre periférica está disminuido y además estos son microcíticos e hipocromos. En un estudio de la Hb la HbA2 estará disminuida. • Opción 2 (incorrecta): en la alfatalasemia menor está disminuida la síntesis de una de las cadenas alfa de la globina. Por tanto, en un estudio de la Hb, tanto la HbA como la HbF estarán disminuidas puesto que la estructura de ambas se compone de dos cadenas alfa. En el laboratorio existirá un número de hematíes normal o aumentado y una anemia microcítica e hipocroma. • Opción 3 (correcta): en la betatalasemia menor existe una disminución en la síntesis de las cadenas beta. En la electroforesis de la Hb se observa una disminución de la HbA1 (compuesta por dos cadenas alfa y dos beta) y un aumento compensatorio de la HbA2 (compuesta por dos cadenas alfa y dos delta). La HbF suele ser normal. En el laboratorio existirá un número de hematíes normal o aumentado y una anemia microcítica e hipocroma. El diagnóstico generalmente se hace por casualidad al realizar un análisis de sangre puesto que la mayoría de los pacientes están asintomáticos. • Opción 4 (incorrecta): en el rasgo falciforme se produce un defecto en la estructura de la Hb de forma que los hematíes pierden elasticidad y adquieren forma de hoz. En la electroforesis de la Hb aparece HbS y HbA. La HbF está disminuida. • Opción 5 (incorrecta): la anemia de Cooley o betatalasemia mayor se produce por ausencia de síntesis de cadenas beta. Las pruebas de laboratorio son compatibles con las del caso clínico, sin embargo, podemos descartar esta opción porque el paciente no presenta clínica.",
+          "explicacion": "Pregunta de dificultad media en la que debemos hacer un diagnóstico diferencial entre distintos tipos de anemia. Analicemos cada opción por separado: • Opción A (incorrecta): en la anemia ferropénica el déficit de los depósitos de hierro provoca un trastorno en la maduración de los precursores eritropoyéticos de manera que el número de hematíes en sangre periférica está disminuido y además estos son microcíticos e hipocromos. En un estudio de la Hb la HbA2 estará disminuida. • Opción B (incorrecta): en la alfatalasemia menor está disminuida la síntesis de una de las cadenas alfa de la globina. Por tanto, en un estudio de la Hb, tanto la HbA como la HbF estarán disminuidas puesto que la estructura de ambas se compone de dos cadenas alfa. En el laboratorio existirá un número de hematíes normal o aumentado y una anemia microcítica e hipocroma. • Opción C (correcta): en la betatalasemia menor existe una disminución en la síntesis de las cadenas beta. En la electroforesis de la Hb se observa una disminución de la HbA1 (compuesta por dos cadenas alfa y dos beta) y un aumento compensatorio de la HbA2 (compuesta por dos cadenas alfa y dos delta). La HbF suele ser normal. En el laboratorio existirá un número de hematíes normal o aumentado y una anemia microcítica e hipocroma. El diagnóstico generalmente se hace por casualidad al realizar un análisis de sangre puesto que la mayoría de los pacientes están asintomáticos. • Opción D (incorrecta): en el rasgo falciforme se produce un defecto en la estructura de la Hb de forma que los hematíes pierden elasticidad y adquieren forma de hoz. En la electroforesis de la Hb aparece HbS y HbA. La HbF está disminuida. • Opción E (incorrecta): la anemia de Cooley o betatalasemia mayor se produce por ausencia de síntesis de cadenas beta. Las pruebas de laboratorio son compatibles con las del caso clínico, sin embargo, podemos descartar esta opción porque el paciente no presenta clínica.",
           "fuente": "Examen MIR 2010, pregunta 104",
           "origen": "real"
         },
@@ -267,7 +259,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Describen una paciente que cumple cuatro de los criterios diagnósticos de lupus eritematoso sistémico (LES): rash cutáneo (refiriéndose a exantema malar), fotosensibilidad, artritis y leucopenia. Además la paciente tiene anemia con VCM elevado, LDH alta y haptoglobina indetectable (datos de hemólisis). Dentro del contexto clínico de la paciente hay que descartar una anemia hemolítica autoinmune, y para ello la primera prueba diagnóstica a realizar es un test de Coombs directo. Su diagnóstico es muy importante porque conlleva una actitud terapéutica más agresiva, instaurando tratamiento con corticoides a dosis altas (1 mg/kg/día). Cuando se realizó esta pregunta (MIR 2012) el diagnóstico de LES se podía realizar sólo con cuatro criterios clínicos. A día de hoy el diagnóstico de LES en este caso requeriría al menos de un criterio analítico. Los ANA posibilitarían dicho diagnóstico, pero un test de Coombs positivo, además de contar igualmente como criterio analítico, nos daría el diagnóstico de la anemia hemolítica autoinmune asociada a lupus, facilitando una actitud terapéutica. Por ello, a la hora de “elegir una sola prueba” sería una opción más completa (opción 2 falsa). El déficit de ácido fólico y vitamina B12 también pueden dar anemia macrocítica, pero en estos dos procesos hay hemólisis intramedular o eritropoyesis ineficaz que no produce descenso de la haptoglobina. El déficit de ferritina produce anemia microcítica y tampoco encontramos haptoglobina indetectable.",
+          "explicacion": "Describen una paciente que cumple cuatro de los criterios diagnósticos de lupus eritematoso sistémico (LES): rash cutáneo (refiriéndose a exantema malar), fotosensibilidad, artritis y leucopenia. Además la paciente tiene anemia con VCM elevado, LDH alta y haptoglobina indetectable (datos de hemólisis). Dentro del contexto clínico de la paciente hay que descartar una anemia hemolítica autoinmune, y para ello la primera prueba diagnóstica a realizar es un test de Coombs directo. Su diagnóstico es muy importante porque conlleva una actitud terapéutica más agresiva, instaurando tratamiento con corticoides a dosis altas (1 mg/kg/día). Cuando se realizó esta pregunta (MIR 2012) el diagnóstico de LES se podía realizar sólo con cuatro criterios clínicos. A día de hoy el diagnóstico de LES en este caso requeriría al menos de un criterio analítico. Los ANA posibilitarían dicho diagnóstico, pero un test de Coombs positivo, además de contar igualmente como criterio analítico, nos daría el diagnóstico de la anemia hemolítica autoinmune asociada a lupus, facilitando una actitud terapéutica. Por ello, a la hora de “elegir una sola prueba” sería una opción más completa (opción B falsa). El déficit de ácido fólico y vitamina B12 también pueden dar anemia macrocítica, pero en estos dos procesos hay hemólisis intramedular o eritropoyesis ineficaz que no produce descenso de la haptoglobina. El déficit de ferritina produce anemia microcítica y tampoco encontramos haptoglobina indetectable.",
           "fuente": "Examen MIR 2012, pregunta 71",
           "origen": "real"
         },
@@ -285,7 +277,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "El cuadro de anemia, ictericia y esplenomegalia hace sospechar datos de anemia hemolítica extravascular (se descartan así las respuestas 1, 3 y 4). La paciente refiere antecedentes familiares en edades tempranas, lo que sugiere una enfermedad congénita. El cuadro más compatible y frecuente con los datos dados es la esferocitosis hereditaria (5).",
+          "explicacion": "El cuadro de anemia, ictericia y esplenomegalia hace sospechar datos de anemia hemolítica extravascular (se descartan así las respuestas A, C y D). La paciente refiere antecedentes familiares en edades tempranas, lo que sugiere una enfermedad congénita. El cuadro más compatible y frecuente con los datos dados es la esferocitosis hereditaria (5).",
           "fuente": "Examen MIR 2013, pregunta 93",
           "origen": "real"
         },
@@ -303,7 +295,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Hematología Pregunta fácil. La esferocitosis hereditaria es una anemia hemolítica congénita de herencia autosómica dominante (opción 1 falsa). El defecto existente en las proteínas del citoesqueleto del hematíe produce una alteración en la permeabilidad de su membrana que se traduce en un aumento de la fragilidad osmótica (opción 2 falsa). La hemólisis es de carácter crónico pudiendo cursar con o sin anemia (opción 3 falsa). La destrucción de los eritrocitos se produce habitualmente en el bazo siendo característica la esplenomegalia, la ictericia y la colelitiasis secundaria a la formación de cálculos de bilirrubinato cálcico (opción 5 falsa). La esplenectomía está indicada en casos de anemia grave o sintomática (opción 4 verdadera).",
+          "explicacion": "Hematología Pregunta fácil. La esferocitosis hereditaria es una anemia hemolítica congénita de herencia autosómica dominante (opción A falsa). El defecto existente en las proteínas del citoesqueleto del hematíe produce una alteración en la permeabilidad de su membrana que se traduce en un aumento de la fragilidad osmótica (opción B falsa). La hemólisis es de carácter crónico pudiendo cursar con o sin anemia (opción C falsa). La destrucción de los eritrocitos se produce habitualmente en el bazo siendo característica la esplenomegalia, la ictericia y la colelitiasis secundaria a la formación de cálculos de bilirrubinato cálcico (opción E falsa). La esplenectomía está indicada en casos de anemia grave o sintomática (opción D verdadera).",
           "fuente": "Examen MIR 2015, pregunta 77",
           "origen": "real"
         },
@@ -337,7 +329,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "El cuadro que nos presentan es el típico de una anemia regenerativa (reticulocitos elevados), compatible con hemólisis crónica extravascular (colelitiasis, bilirrubina levemente aumentada, LDH levemente aumentada, esplenomegalia). Por estos datos ya podemos descartar la anemia sideroblástica (opción 4 falsa). No nos comentan que la paciente sea de raza afroamericana y además es una mujer adulta (la drepanocitosis da clínica en la edad pediátrica con crisis vasooclusivas y múltiples complicaciones; opción 3 falsa). Por último, el CHCM está elevado (valor normal 32-36), siendo muy característico de la esferocitosis hereditaria (en donde hay una reducción del volumen eritrocitario debido a la forma esférica de los hematíes, aumentando la concentración de hemoglobina dentro de éstos; opción 1 verdadera). Una anemia hemolítica autoinmune presentaría un cuadro subagudo (no como este que es crónico) y normalmente sería sintomático, sin tener un CHCM elevado.",
+          "explicacion": "El cuadro que nos presentan es el típico de una anemia regenerativa (reticulocitos elevados), compatible con hemólisis crónica extravascular (colelitiasis, bilirrubina levemente aumentada, LDH levemente aumentada, esplenomegalia). Por estos datos ya podemos descartar la anemia sideroblástica (opción D falsa). No nos comentan que la paciente sea de raza afroamericana y además es una mujer adulta (la drepanocitosis da clínica en la edad pediátrica con crisis vasooclusivas y múltiples complicaciones; opción C falsa). Por último, el CHCM está elevado (valor normal 32-36), siendo muy característico de la esferocitosis hereditaria (en donde hay una reducción del volumen eritrocitario debido a la forma esférica de los hematíes, aumentando la concentración de hemoglobina dentro de éstos; opción A verdadera). Una anemia hemolítica autoinmune presentaría un cuadro subagudo (no como este que es crónico) y normalmente sería sintomático, sin tener un CHCM elevado.",
           "fuente": "Examen MIR 2019, pregunta 96",
           "origen": "real"
         },
@@ -350,17 +342,13 @@
             "A": "El diagnóstico más probable es el de saturnismo; debemos solicitar plomo en orina de 24 horas.",
             "B": "Se trata de una anemia hemolítica; para determinar su naturaleza debemos solicitar una electroforesis de hemoglobinas.",
             "C": "Se trata de una anemia hemolítica; debemos solicitar un test de Coombs directo, que determina la presencia de IgG y/o la fracción C3 del complemento sobre la membrana del hematíe.",
-            "D": "Se trata de una anemia hemolítica; debemos solicitar un test de Coombs directo, que determina la presencia de IgG libre en plasma. - 22"
+            "D": "Se trata de una anemia hemolítica; debemos solicitar un test de Coombs directo, que determina la presencia de IgG libre en plasma."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, la descripción de detectar IgG y/o la fracción C3 sobre la membrana del hematíe corresponde exactamente a la definición del test de Coombs directo, la prueba inmunohematológica de elección en este contexto, y no a la electroforesis de hemoglobinas hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl cuadro de esta paciente (anemia, subictericia, LDH muy elevada, haptoglobina indetectable y bilirrubina elevada) es característico de una anemia hemolítica, y la prueba inmunohematológica de elección para determinar su etiología autoinmune es el test de Coombs directo (antiglobulina directa), que detecta específicamente la presencia de inmunoglobulina G (IgG) y/o la fracción C3 del complemento fijados sobre la membrana del hematíe del propio paciente. Este test es distinto de la electroforesis de hemoglobinas (útil en el estudio de hemoglobinopatías hereditarias, poco probable en una anemia hemolítica adquirida de inicio a los 70 años) y no debe confundirse con la detección de IgG libre en plasma, que no es lo que mide el Coombs directo.",
+          "explicacion": "El cuadro de esta paciente (anemia, subictericia, LDH muy elevada, haptoglobina indetectable y bilirrubina elevada) es característico de una anemia hemolítica, y la prueba inmunohematológica de elección para determinar su etiología autoinmune es el test de Coombs directo (antiglobulina directa), que detecta específicamente la presencia de inmunoglobulina G (IgG) y/o la fracción C3 del complemento fijados sobre la membrana del hematíe del propio paciente. Este test es distinto de la electroforesis de hemoglobinas (útil en el estudio de hemoglobinopatías hereditarias, poco probable en una anemia hemolítica adquirida de inicio a los 70 años) y no debe confundirse con la detección de IgG libre en plasma, que no es lo que mide el Coombs directo.",
           "fuente": "Examen MIR 2020, pregunta 173",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "la descripción de detectar IgG y/o la fracción C3 sobre la membrana del hematíe corresponde exactamente a la definición del test de Coombs directo, la prueba inmunohematológica de elección en este contexto, y no a la electroforesis de hemoglobinas"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2021-153",
@@ -373,15 +361,11 @@
             "C": "Coagulación intravascular diseminada.",
             "D": "Síndrome hemolítico urémico típico."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, unos niveles normales de ADAMTS-13 prácticamente excluyen la PTT, y el fracaso renal agudo predominante desencadenado por una infección orienta más bien al síndrome hemolítico urémico atípico hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl cuadro de este paciente (hipertensión maligna, retinopatía grado III, anemia hemolítica microangiopática con esquistocitos, trombocitopenia, LDH elevada y fracaso renal agudo grave tras un cuadro infeccioso respiratorio) corresponde a una microangiopatía trombótica. La determinación de la actividad de ADAMTS-13 permite diferenciar las principales entidades de este grupo: en la púrpura trombótica trombocitopénica (PTT) existe un déficit grave de ADAMTS-13 (habitualmente < 10 %), mientras que unos niveles normales de ADAMTS-13, como en este caso, prácticamente excluyen la PTT y, en presencia de fracaso renal agudo predominante desencadenado por una infección, orientan al síndrome hemolítico urémico atípico (SHUa), causado por una desregulación del complemento.",
+          "explicacion": "El cuadro de este paciente (hipertensión maligna, retinopatía grado III, anemia hemolítica microangiopática con esquistocitos, trombocitopenia, LDH elevada y fracaso renal agudo grave tras un cuadro infeccioso respiratorio) corresponde a una microangiopatía trombótica. La determinación de la actividad de ADAMTS-13 permite diferenciar las principales entidades de este grupo: en la púrpura trombótica trombocitopénica (PTT) existe un déficit grave de ADAMTS-13 (habitualmente < 10 %), mientras que unos niveles normales de ADAMTS-13, como en este caso, prácticamente excluyen la PTT y, en presencia de fracaso renal agudo predominante desencadenado por una infección, orientan al síndrome hemolítico urémico atípico (SHUa), causado por una desregulación del complemento.",
           "fuente": "Examen MIR 2021, pregunta 153",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "unos niveles normales de ADAMTS-13 prácticamente excluyen la PTT, y el fracaso renal agudo predominante desencadenado por una infección orienta más bien al síndrome hemolítico urémico atípico"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-147",
@@ -394,15 +378,11 @@
             "C": "Realizar un examen morfológico del frotis sanguíneo para descartar la presencia de agregados plaquetarios inducidos por el anticoagulante.",
             "D": "Transfundir un concentrado de plaquetas para evitar un problema hemorrágico."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, ante una trombocitopenia aislada e incidental, el primer paso recomendado siempre es el examen del frotis para descartar pseudotrombocitopenia por agregación inducida por EDTA, antes de recurrir a una biopsia de médula ósea hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nAnte el hallazgo incidental de una trombocitopenia aislada y asintomática en un paciente por lo demás sano, el primer paso siempre debe ser un examen morfológico del frotis de sangre periférica, con el objetivo de descartar una pseudotrombocitopenia por agregación plaquetaria inducida por el anticoagulante EDTA del tubo de extracción, un artefacto de laboratorio relativamente frecuente y sin ninguna trascendencia clínica. Solo si el frotis confirma una trombocitopenia real (sin agregados) estaría justificado avanzar hacia estudios más invasivos, como el aspirado o la biopsia de médula ósea, o plantear tratamiento; iniciar corticoides o transfundir plaquetas sin haber confirmado antes la trombocitopenia real sería precipitado e innecesario.",
+          "explicacion": "Ante el hallazgo incidental de una trombocitopenia aislada y asintomática en un paciente por lo demás sano, el primer paso siempre debe ser un examen morfológico del frotis de sangre periférica, con el objetivo de descartar una pseudotrombocitopenia por agregación plaquetaria inducida por el anticoagulante EDTA del tubo de extracción, un artefacto de laboratorio relativamente frecuente y sin ninguna trascendencia clínica. Solo si el frotis confirma una trombocitopenia real (sin agregados) estaría justificado avanzar hacia estudios más invasivos, como el aspirado o la biopsia de médula ósea, o plantear tratamiento; iniciar corticoides o transfundir plaquetas sin haber confirmado antes la trombocitopenia real sería precipitado e innecesario.",
           "fuente": "Examen MIR 2022, pregunta 147",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "ante una trombocitopenia aislada e incidental, el primer paso recomendado siempre es el examen del frotis para descartar pseudotrombocitopenia por agregación inducida por EDTA, antes de recurrir a una biopsia de médula ósea"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-200",
@@ -432,15 +412,11 @@
             "C": "Alargamiento de los tiempos de coagulación (TPTA y protrombina).",
             "D": "Puede desencadenarlo una infección previa por Streptococcus pneumoniae."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, los tiempos de coagulación (TP y TTPA) son característicamente normales en el SHU, a diferencia de la CID, siendo precisamente ese el rasgo que NO caracteriza a la entidad, mientras que la anemia hemolítica microangiopática sí es un rasgo típico hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl síndrome hemolítico-urémico (SHU) se caracteriza por la tríada clásica de anemia hemolítica microangiopática (con esquistocitos), trombocitopenia y fracaso renal agudo, siendo el SHU típico causado predominantemente por infecciones por E. coli productor de toxina Shiga, aunque también puede desencadenarse por Streptococcus pneumoniae (SHU asociado a neumococo, mediado por la exposición del antígeno T por la neuraminidasa bacteriana). Una característica distintiva de las microangiopatías trombóticas (SHU y PTT) frente a la coagulación intravascular diseminada es que los tiempos de coagulación convencionales (tiempo de protrombina y TTPA) son típicamente NORMALES, ya que no existe consumo relevante de los factores de la coagulación, a diferencia de lo que ocurre en la CID.",
+          "explicacion": "El síndrome hemolítico-urémico (SHU) se caracteriza por la tríada clásica de anemia hemolítica microangiopática (con esquistocitos), trombocitopenia y fracaso renal agudo, siendo el SHU típico causado predominantemente por infecciones por E. coli productor de toxina Shiga, aunque también puede desencadenarse por Streptococcus pneumoniae (SHU asociado a neumococo, mediado por la exposición del antígeno T por la neuraminidasa bacteriana). Una característica distintiva de las microangiopatías trombóticas (SHU y PTT) frente a la coagulación intravascular diseminada es que los tiempos de coagulación convencionales (tiempo de protrombina y TTPA) son típicamente NORMALES, ya que no existe consumo relevante de los factores de la coagulación, a diferencia de lo que ocurre en la CID.",
           "fuente": "Examen MIR 2023, pregunta 81",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "los tiempos de coagulación (TP y TTPA) son característicamente normales en el SHU, a diferencia de la CID, siendo precisamente ese el rasgo que NO caracteriza a la entidad, mientras que la anemia hemolítica microangiopática sí es un rasgo típico"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2025-175",
@@ -511,15 +487,11 @@
             "C": "Iatrogénica por administración de medicamentos.",
             "D": "Debida al hiperesplenismo desarrollado en las infecciones."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, la causa más frecuente de neutropenia grave en la práctica clínica es la iatrogénica por fármacos, y no la secundaria a enfermedades autoinmunes hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nAunque existen múltiples causas de neutropenia grave (autoinmunes, infiltración medular por leucemia, hiperesplenismo), la causa más frecuente en la práctica clínica es la iatrogénica, secundaria a la administración de fármacos, ya sea por mielotoxicidad directa dosis-dependiente (quimioterapia) o por reacciones idiosincrásicas independientes de la dosis (antitiroideos, clozapina, algunos antibióticos y antiinflamatorios), estas últimas responsables de la mayoría de los casos de agranulocitosis medicamentosa aguda.",
+          "explicacion": "Aunque existen múltiples causas de neutropenia grave (autoinmunes, infiltración medular por leucemia, hiperesplenismo), la causa más frecuente en la práctica clínica es la iatrogénica, secundaria a la administración de fármacos, ya sea por mielotoxicidad directa dosis-dependiente (quimioterapia) o por reacciones idiosincrásicas independientes de la dosis (antitiroideos, clozapina, algunos antibióticos y antiinflamatorios), estas últimas responsables de la mayoría de los casos de agranulocitosis medicamentosa aguda.",
           "fuente": "Examen MIR 2020, pregunta 171",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "la causa más frecuente de neutropenia grave en la práctica clínica es la iatrogénica por fármacos, y no la secundaria a enfermedades autoinmunes"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2023-154",
@@ -532,15 +504,11 @@
             "C": "Anemia megaloblástica.",
             "D": "Aplasia medular."
           },
-          "respuesta_correcta": "D",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción D como correcta. Sin embargo, un 15% de blastos mieloides con citogenética normal corresponde, según los criterios de la OMS, a un síndrome mielodisplásico con exceso de blastos, siendo además la presencia de blastos incompatible por definición con el diagnóstico de aplasia medular hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nSegún la clasificación de la OMS de las neoplasias mieloides, el porcentaje de blastos en médula ósea es el criterio fundamental para diferenciar el síndrome mielodisplásico (SMD) de la leucemia mieloide aguda (LMA): un recuento de blastos entre el 5 % y el 19 % (en ausencia de alteraciones citogenéticas o moleculares definitorias de LMA) se clasifica como SMD con exceso de blastos, reservándose el diagnóstico de LMA para un recuento ≥ 20 % de blastos (o la presencia de alteraciones citogenéticas recurrentes específicas, no presentes en este caso al ser la citogenética normal). La presencia de un 15 % de blastos mieloides es, además, incompatible con el diagnóstico de aplasia medular, entidad que se define precisamente por una médula ósea hipocelular sin exceso de blastos.",
+          "explicacion": "Según la clasificación de la OMS de las neoplasias mieloides, el porcentaje de blastos en médula ósea es el criterio fundamental para diferenciar el síndrome mielodisplásico (SMD) de la leucemia mieloide aguda (LMA): un recuento de blastos entre el 5 % y el 19 % (en ausencia de alteraciones citogenéticas o moleculares definitorias de LMA) se clasifica como SMD con exceso de blastos, reservándose el diagnóstico de LMA para un recuento ≥ 20 % de blastos (o la presencia de alteraciones citogenéticas recurrentes específicas, no presentes en este caso al ser la citogenética normal). La presencia de un 15 % de blastos mieloides es, además, incompatible con el diagnóstico de aplasia medular, entidad que se define precisamente por una médula ósea hipocelular sin exceso de blastos.",
           "fuente": "Examen MIR 2023, pregunta 154",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "un 15% de blastos mieloides con citogenética normal corresponde, según los criterios de la OMS, a un síndrome mielodisplásico con exceso de blastos, siendo además la presencia de blastos incompatible por definición con el diagnóstico de aplasia medular"
-          }
+          "origen": "real"
         }
       ]
     },
@@ -562,7 +530,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "Los síndromes mielodisplásicos deben sospecharse ante un paciente anciano (respuesta 1 falsa) que acude con anemia macrocítica pero en el que la B12 y el folato son normales, y la LDH alta pero <1000. Nos preguntan por las generalidades de los síndromes mielodisplásicos: • Son típicos de pacientes ancianos con predominio en varones (opción 1 falsa). • Suelen cursar con pancitopenia (opción 2 falsa) y alteraciones morfológicas en sangre periférica. La anemia es casi constante (opción 3 falsa) y característicamente no responde a los tratamientos habituales de la anemia (por eso estas entidades se llaman anemias refractarias). • La médula ósea es normo o hipercelular. El diagnóstico se hace con aspirado medular. Tienen eritropoyesis ineficaz y aumentado del depósito de hierro en las células (aumenta la ferritina, la transferrina y los sideroblastos) (opción 5 correcta). • La anemia refractaria con sideroblastos en anillo (ARSA) es el síndrome mielodisplásico con mejor pronóstico (opción 4 falsísima).",
+          "explicacion": "Los síndromes mielodisplásicos deben sospecharse ante un paciente anciano (respuesta A falsa) que acude con anemia macrocítica pero en el que la B12 y el folato son normales, y la LDH alta pero <1000. Nos preguntan por las generalidades de los síndromes mielodisplásicos: • Son típicos de pacientes ancianos con predominio en varones (opción A falsa). • Suelen cursar con pancitopenia (opción B falsa) y alteraciones morfológicas en sangre periférica. La anemia es casi constante (opción C falsa) y característicamente no responde a los tratamientos habituales de la anemia (por eso estas entidades se llaman anemias refractarias). • La médula ósea es normo o hipercelular. El diagnóstico se hace con aspirado medular. Tienen eritropoyesis ineficaz y aumentado del depósito de hierro en las células (aumenta la ferritina, la transferrina y los sideroblastos) (opción E correcta). • La anemia refractaria con sideroblastos en anillo (ARSA) es el síndrome mielodisplásico con mejor pronóstico (opción D falsísima).",
           "fuente": "Examen MIR 2009, pregunta 107",
           "origen": "real"
         },
@@ -597,7 +565,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Anemia macrocítica secundaria a síndrome mielodisplásico (SMD) con delección en 5q. Se trata de un SMD de buen pronóstico (opción 3 falsa) dado que tiene un tratamiento específico (la lenalidomida) (opción 1 verdadera, opción 2 y 4 falsas). Recuerda además que suele ser más frecuente en mujeres y que cursa habitualmente con anemia macrocítica y trombocitosis.",
+          "explicacion": "Anemia macrocítica secundaria a síndrome mielodisplásico (SMD) con delección en 5q. Se trata de un SMD de buen pronóstico (opción C falsa) dado que tiene un tratamiento específico (la lenalidomida) (opción A verdadera, opción B y D falsas). Recuerda además que suele ser más frecuente en mujeres y que cursa habitualmente con anemia macrocítica y trombocitosis.",
           "fuente": "Examen MIR 2016, pregunta 94",
           "origen": "real"
         }
@@ -621,7 +589,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "La analítica muestra una reacción leucoeritroblástica (aparición de formas inmaduras sin hiato) con dacriocitos (hematíes en lágrima) típico de la mieloptisis y añaden que tiene esplenomegalia gigante (respuesta 3 correcta). Un número bajo de blastos y aparición de todas las formas inmaduras en sangre periférica descarta una leucemia (respuestas 1 y 4 falsas). La cifra de plaquetas normales descarta la respuesta 2. La leucemia mielomonocítica crónica es una enfermedad mielodisplásica/mieloproliferativa mixta nada importante para el MIR que no se debe confundir con la leucemia mieloide crónica (respuesta 5 falsa).",
+          "explicacion": "La analítica muestra una reacción leucoeritroblástica (aparición de formas inmaduras sin hiato) con dacriocitos (hematíes en lágrima) típico de la mieloptisis y añaden que tiene esplenomegalia gigante (respuesta C correcta). Un número bajo de blastos y aparición de todas las formas inmaduras en sangre periférica descarta una leucemia (respuestas A y D falsas). La cifra de plaquetas normales descarta la respuesta B. La leucemia mielomonocítica crónica es una enfermedad mielodisplásica/mieloproliferativa mixta nada importante para el MIR que no se debe confundir con la leucemia mieloide crónica (respuesta E falsa).",
           "fuente": "Examen MIR 2011, pregunta 84",
           "origen": "real"
         },
@@ -692,7 +660,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "El tratamiento de primera elección de la leucemia mieloide crónica son los fármacos inhibidores de la tirosín-quinasa entre los que se encuentran el imatinib el nilotinib y el dasatinib (opción 2 correcta).",
+          "explicacion": "El tratamiento de primera elección de la leucemia mieloide crónica son los fármacos inhibidores de la tirosín-quinasa entre los que se encuentran el imatinib el nilotinib y el dasatinib (opción B correcta).",
           "fuente": "Examen MIR 2017, pregunta 96",
           "origen": "real"
         },
@@ -707,15 +675,11 @@
             "C": "Realizar transfusión de plaquetas.",
             "D": "Iniciar tratamiento con corticoides."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, la transfusión de plaquetas está clásicamente contraindicada en la PTT salvo hemorragia grave que ponga en riesgo la vida, por lo que sería el tratamiento menos apropiado de los planteados hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl cuadro de este paciente (fiebre, clínica neurológica focal, trombocitopenia grave, anemia hemolítica microangiopática con esquistocitos y microesferocitos, LDH muy elevada y haptoglobina indetectable, sin coagulopatía asociada) es compatible con una púrpura trombótica trombocitopénica (PTT), una emergencia hematológica cuyo tratamiento de elección es el recambio plasmático (plasmaféresis) precoz con reposición de plasma fresco congelado, habitualmente asociado a corticoides, y la transfusión de hematíes cuando la anemia lo requiere. Sin embargo, la transfusión de plaquetas está clásicamente contraindicada (salvo hemorragia grave que ponga en riesgo la vida), ya que puede alimentar la formación de microtrombos plaquetarios ricos en multímeros de factor von Willebrand y agravar la isquemia de órganos diana.",
+          "explicacion": "El cuadro de este paciente (fiebre, clínica neurológica focal, trombocitopenia grave, anemia hemolítica microangiopática con esquistocitos y microesferocitos, LDH muy elevada y haptoglobina indetectable, sin coagulopatía asociada) es compatible con una púrpura trombótica trombocitopénica (PTT), una emergencia hematológica cuyo tratamiento de elección es el recambio plasmático (plasmaféresis) precoz con reposición de plasma fresco congelado, habitualmente asociado a corticoides, y la transfusión de hematíes cuando la anemia lo requiere. Sin embargo, la transfusión de plaquetas está clásicamente contraindicada (salvo hemorragia grave que ponga en riesgo la vida), ya que puede alimentar la formación de microtrombos plaquetarios ricos en multímeros de factor von Willebrand y agravar la isquemia de órganos diana.",
           "fuente": "Examen MIR 2023, pregunta 145",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "la transfusión de plaquetas está clásicamente contraindicada en la PTT salvo hemorragia grave que ponga en riesgo la vida, por lo que sería el tratamiento menos apropiado de los planteados"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2024-147",
@@ -769,9 +733,9 @@
             "D": "Estadio de la enfermedad (Ann Arbor).",
             "E": "Nivel del receptor soluble de la transferrina."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Pregunta teórica y perfectamente anulable, que para satisfacción de muchos se anuló. En algunos textos especializados de hematología se expone que la LDH es el principal factor pronóstico de los linfomas agresivos (opción 3 correcta). Esta es la opción que dio por buena el Ministerio. Pero en textos generales (p. ej., en el Harrison) se habla del índice IPI para estadiar linfomas agresivos, y este estadiaje tiene cinco componentes con la misma importancia, entre ellos las opciones 1, 3 y 4 (pregunta anulable). Regla mnemotécnica para recordar los componentes del IPI: “ELENA tiene linfoma”: Edad, LDH, Estado general del paciente, número de estaciones extraganglionares afectas y Ann-Arbor. Respuesta: A 114. Un paciente de 75 años presenta adenopatías y una linfocitosis en sangre periférica a expensas de linfocitos CD20+ y CD5+, con translocación cromosómica t(11;14) y afectación de la mucosa del tubo digestivo, todo ello es compatible con: Hematología 1. Linfoma del Manto Estadio IV. 2. Leucemia Linfática Crónica B Estadio III-B. 3. Macroglobulinemia de Waldenström. 4. Leucemia Prolinfocítica B. 5. Leucemia Linfática Crónica B Estadio II-A. Pregunta que deja claro que en el MIR hay que saberse los CD y las translocaciones de los linfomas no Hodgkin (por mucho que nos pese). Se trata de un linfoma del manto (opción 1 correcta). Lo más importante que hay que saber sobre el linfoma del manto es que se parece a una leucemia linfática crónica puesto que ambas debutan con linfocitosis y presentan CD5 positivo. Sin embargo es mucho más agresivo que la LLC y tiene el CD23 negativo (la LLC tiene CD23 positivo). Además hay que saber qué expresa la ciclina D1 por la t (11; 14). El tratamiento será QT agresiva. Si no sabemos que es un linfoma del manto en la pregunta nos dan un dato que nos puede servir para descartar opciones. El paciente tiene infiltración del tubo digestivo (localización extraganglionar) que es estadio IV y por tanto descartamos las opciones 2 y 5.",
+          "explicacion": "Pregunta teórica y perfectamente anulable, que para satisfacción de muchos se anuló. En algunos textos especializados de hematología se expone que la LDH es el principal factor pronóstico de los linfomas agresivos (opción C correcta). Esta es la opción que dio por buena el Ministerio. Pero en textos generales (p. ej., en el Harrison) se habla del índice IPI para estadiar linfomas agresivos, y este estadiaje tiene cinco componentes con la misma importancia, entre ellos las opciones A, C y D (pregunta anulable). Regla mnemotécnica para recordar los componentes del IPI: “ELENA tiene linfoma”: Edad, LDH, Estado general del paciente, número de estaciones extraganglionares afectas y Ann-Arbor.",
           "fuente": "Examen MIR 2009, pregunta 113",
           "origen": "real"
         },
@@ -825,7 +789,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": "(imagen no disponible en el proyecto)",
-          "explicacion": "Anciano asintomático con hallazgo de leucocitosis aislada: enunciado típico de la leucemia linfática crónica. En la imagen se muestra un frotis en el que se objetivan linfocitos de pequeño tamaño y aspecto maduro (flecha azul) y las famosas sombras de grumprecht (flecha roja), linfocitos que se rompen al realizar la extensión en sangre periférica por su excesiva fragilidad (opción 4 correcta). En cuanto al resto de las opciones: poco probable el diagnóstico de viriasis ya que el paciente está asintomático y no se hace referencia a fiebre ni a sintomatología infecciosa (opción 1 incorrecta); la característica principal de la gammapatía monoclonal de significado incierto es que el paciente está asintomático pero no cursa con leucocitosis, su diagnóstico se basa en el hallazgo casual de un componente monoclonal en sangre (opción 3 incorrecta); recuerden que los síndromes mielodisplásicos cursan con citopenias en sangre periférica (opción 5 incorrecta). Quizás la opción con la que más han dudado los opositores ha sido la leucemia mieloide crónica: la clave está en que el paciente presenta una leucocitosis aislada, la hemoglobina y las plaquetas se mantienen en el rango normal y además no describen esplenomegalia, signo omnipresente en los síndromes mieloproliferativos crónicos (opción 2 incorrecta).",
+          "explicacion": "Anciano asintomático con hallazgo de leucocitosis aislada: enunciado típico de la leucemia linfática crónica. En la imagen se muestra un frotis en el que se objetivan linfocitos de pequeño tamaño y aspecto maduro (flecha azul) y las famosas sombras de grumprecht (flecha roja), linfocitos que se rompen al realizar la extensión en sangre periférica por su excesiva fragilidad (opción D correcta). En cuanto al resto de las opciones: poco probable el diagnóstico de viriasis ya que el paciente está asintomático y no se hace referencia a fiebre ni a sintomatología infecciosa (opción A incorrecta); la característica principal de la gammapatía monoclonal de significado incierto es que el paciente está asintomático pero no cursa con leucocitosis, su diagnóstico se basa en el hallazgo casual de un componente monoclonal en sangre (opción C incorrecta); recuerden que los síndromes mielodisplásicos cursan con citopenias en sangre periférica (opción E incorrecta). Quizás la opción con la que más han dudado los opositores ha sido la leucemia mieloide crónica: la clave está en que el paciente presenta una leucocitosis aislada, la hemoglobina y las plaquetas se mantienen en el rango normal y además no describen esplenomegalia, signo omnipresente en los síndromes mieloproliferativos crónicos (opción B incorrecta).",
           "fuente": "Examen MIR 2014, pregunta 19",
           "origen": "real"
         },
@@ -842,7 +806,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Mujer anciana con numerosas comorbilidades y con diagnóstico de linfoma folicular. El linfoma folicular es una neoplasia de linfocitos B de bajo grado que habitualmente cursa con pocos síntomas y suele diagnosticarse en estadios avanzados (en este caso concreto describen adenopatías diseminadas e invasión de la médula ósea). En los síndromes linfoproliferativos de bajo grado la instauración de un tratamiento depende de la clínica que presente el paciente. En este caso dejan claro que la paciente está totalmente asintomática, incluso incluyen el estado funcional de la paciente (ECOG 0). En esta situación no está indicado iniciar ningún tipo de tratamiento debiéndose realizar un seguimiento estrecho (opción 3 verdadera).",
+          "explicacion": "Mujer anciana con numerosas comorbilidades y con diagnóstico de linfoma folicular. El linfoma folicular es una neoplasia de linfocitos B de bajo grado que habitualmente cursa con pocos síntomas y suele diagnosticarse en estadios avanzados (en este caso concreto describen adenopatías diseminadas e invasión de la médula ósea). En los síndromes linfoproliferativos de bajo grado la instauración de un tratamiento depende de la clínica que presente el paciente. En este caso dejan claro que la paciente está totalmente asintomática, incluso incluyen el estado funcional de la paciente (ECOG 0). En esta situación no está indicado iniciar ningún tipo de tratamiento debiéndose realizar un seguimiento estrecho (opción C verdadera).",
           "fuente": "Examen MIR 2016, pregunta 176",
           "origen": "real"
         },
@@ -859,7 +823,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Pregunta difícil, en la que directamente se nos proponen cuatro factores pronósticos conocidos de la leucemia linfática crónica (LLC), pidiéndonos el que no es de mal pronóstico. En la mayoría de neoplasias hematológicas, la mutación de p53 (que se encuentra en el cromosoma 17p) confiere mal pronóstico, y la LLC no es una excepción (opción 3 falsa). Por otro lado, la alta expresión de CD38 (marcador de linfocito B) también está ligado a un peor pronóstico (ya que señaliza vías de supervivencia del linfocito neoplásico). La expresión aberrante de ZAP-70 (que normalmente se expresa en linfocitos T y NK) también es un marcador de mal pronóstico. Por último, el estado mutacional del gen de la cadena pesada de las inmunoglobulinas (IgVH) tiene una alta importancia pronóstica. En el desarrollo normal del linfocito B, este sufre un fenómeno de hipermutación somática (explicado en Inmunología) para mejorar la afinidad de las inmunoglobulinas. En el caso de la LLC, el hecho de detectar esta hipermutación en el gen IgVH nos traduce que es una célula que ha madurado más y que tiene menos agresividad y proliferación (al contrario, si el gen no está mutado se correlaciona con una evolución más agresiva).",
+          "explicacion": "Pregunta difícil, en la que directamente se nos proponen cuatro factores pronósticos conocidos de la leucemia linfática crónica (LLC), pidiéndonos el que no es de mal pronóstico. En la mayoría de neoplasias hematológicas, la mutación de p53 (que se encuentra en el cromosoma 17p) confiere mal pronóstico, y la LLC no es una excepción (opción C falsa). Por otro lado, la alta expresión de CD38 (marcador de linfocito B) también está ligado a un peor pronóstico (ya que señaliza vías de supervivencia del linfocito neoplásico). La expresión aberrante de ZAP-70 (que normalmente se expresa en linfocitos T y NK) también es un marcador de mal pronóstico. Por último, el estado mutacional del gen de la cadena pesada de las inmunoglobulinas (IgVH) tiene una alta importancia pronóstica. En el desarrollo normal del linfocito B, este sufre un fenómeno de hipermutación somática (explicado en Inmunología) para mejorar la afinidad de las inmunoglobulinas. En el caso de la LLC, el hecho de detectar esta hipermutación en el gen IgVH nos traduce que es una célula que ha madurado más y que tiene menos agresividad y proliferación (al contrario, si el gen no está mutado se correlaciona con una evolución más agresiva).",
           "fuente": "Examen MIR 2019, pregunta 99",
           "origen": "real"
         },
@@ -876,7 +840,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "Hematología En el linfoma folicular (linfoma de bajo grado), el tratamiento con rituximab-CHOP (R-CHOP) consigue remisión en un elevado porcentaje de pacientes, si bien las recaídas son frecuentes (opción 2). Es por ello que se ha propuesto un mantenimiento con rituximab durante 2 años tras el tratamiento, alargando el tiempo de respuesta de estos pacientes (opción 1 verdadera). En los pacientes que tienen recaídas precoces y con histologías desfavorables, el trasplante de progenitores hematopoyéticos puede ser una opción a considerar. Es muy importante recordar que en el folicular, al igual que en muchos linfomas de bajo grado, la abstención terapéutica es una opción actualmente válida, reservada para los pacientes asintomáticos y sin criterios de tratamiento urgente, en los que se hace un seguimiento y reevaluación en cada visita.",
+          "explicacion": "Hematología En el linfoma folicular (linfoma de bajo grado), el tratamiento con rituximab-CHOP (R-CHOP) consigue remisión en un elevado porcentaje de pacientes, si bien las recaídas son frecuentes (opción B). Es por ello que se ha propuesto un mantenimiento con rituximab durante 2 años tras el tratamiento, alargando el tiempo de respuesta de estos pacientes (opción A verdadera). En los pacientes que tienen recaídas precoces y con histologías desfavorables, el trasplante de progenitores hematopoyéticos puede ser una opción a considerar. Es muy importante recordar que en el folicular, al igual que en muchos linfomas de bajo grado, la abstención terapéutica es una opción actualmente válida, reservada para los pacientes asintomáticos y sin criterios de tratamiento urgente, en los que se hace un seguimiento y reevaluación en cada visita.",
           "fuente": "Examen MIR 2019, pregunta 100",
           "origen": "real"
         },
@@ -891,15 +855,11 @@
             "C": "Linfoma linfoblástico.",
             "D": "Linfoma del manto."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, la translocación t(11;14) con sobreexpresión de ciclina D1 es la alteración citogenética característica e inequívoca del linfoma del manto, y no del linfoma folicular (asociado a t(14;18)) hace que la opción D también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEn la clasificación molecular de los síndromes linfoproliferativos, la translocación t(11;14)(q13;q32), que yuxtapone el gen CCND1 (ciclina D1) al locus de las cadenas pesadas de inmunoglobulina, es la alteración citogenética característica y prácticamente patognomónica del linfoma de células del manto, dando lugar a la sobreexpresión de ciclina D1 (detectable por inmunohistoquímica), un marcador diagnóstico clave de esta entidad. El linfoma folicular, en cambio, se caracteriza por la t(14;18) con reordenamiento del gen BCL2.",
+          "explicacion": "En la clasificación molecular de los síndromes linfoproliferativos, la translocación t(11;14)(q13;q32), que yuxtapone el gen CCND1 (ciclina D1) al locus de las cadenas pesadas de inmunoglobulina, es la alteración citogenética característica y prácticamente patognomónica del linfoma de células del manto, dando lugar a la sobreexpresión de ciclina D1 (detectable por inmunohistoquímica), un marcador diagnóstico clave de esta entidad. El linfoma folicular, en cambio, se caracteriza por la t(14;18) con reordenamiento del gen BCL2.",
           "fuente": "Examen MIR 2021, pregunta 161",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "D",
-            "motivo": "la translocación t(11;14) con sobreexpresión de ciclina D1 es la alteración citogenética característica e inequívoca del linfoma del manto, y no del linfoma folicular (asociado a t(14;18))"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-191",
@@ -912,15 +872,11 @@
             "C": "Axilar.",
             "D": "Inguinal."
           },
-          "respuesta_correcta": "D",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción D como correcta. Sin embargo, la adenopatía supraclavicular (ganglio de Virchow) es clásicamente la de mayor riesgo de malignidad entre las localizaciones periféricas, mientras que la inguinal suele ser reactiva a procesos locales hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nAnte una adenopatía periférica localizada, la localización anatómica orienta de forma importante sobre la probabilidad de malignidad: las adenopatías supraclaviculares (especialmente la izquierda, ganglio de Virchow) presentan el mayor riesgo de malignidad de todas las localizaciones periféricas, ya que reciben el drenaje linfático de estructuras torácicas y abdominales profundas y con frecuencia representan metástasis de neoplasias viscerales o linfoma. Por el contrario, las adenopatías inguinales, axilares o retroauriculares son con mucha frecuencia reactivas a procesos infecciosos o inflamatorios locales de las extremidades, la piel o el cuero cabelludo, y tienen una probabilidad de malignidad considerablemente menor.",
+          "explicacion": "Ante una adenopatía periférica localizada, la localización anatómica orienta de forma importante sobre la probabilidad de malignidad: las adenopatías supraclaviculares (especialmente la izquierda, ganglio de Virchow) presentan el mayor riesgo de malignidad de todas las localizaciones periféricas, ya que reciben el drenaje linfático de estructuras torácicas y abdominales profundas y con frecuencia representan metástasis de neoplasias viscerales o linfoma. Por el contrario, las adenopatías inguinales, axilares o retroauriculares son con mucha frecuencia reactivas a procesos infecciosos o inflamatorios locales de las extremidades, la piel o el cuero cabelludo, y tienen una probabilidad de malignidad considerablemente menor.",
           "fuente": "Examen MIR 2022, pregunta 191",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "la adenopatía supraclavicular (ganglio de Virchow) es clásicamente la de mayor riesgo de malignidad entre las localizaciones periféricas, mientras que la inguinal suele ser reactiva a procesos locales"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2024-144",
@@ -995,7 +951,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "Caso clínico típico de mieloma múltiple: varón anciano con anemia (Hb 10 g/dl), hipogammaglobulinemia (IgG, IgA e IgM), presencia de un componente monoclonal en orina (cadenas ligeras) e insuficiencia renal (creatinina 5 mg/dl). Se trata de un mieloma de Bence Jones en el que la célula plasmática sólo sintetiza cadenas ligeras que, por su bajo peso molecular, son filtradas fácilmente por el riñón ocasionando de forma casi constante insuficiencia renal (opción 5 correcta). La opción 4 es incorrecta porque en el enunciado especifica que existe una hipogammaglobulinemia IgA, IgG e IgM, lo cual significa que el componente monoclonal generado por la célula plasmática neoplásica no puede corresponder a ninguna de dichas inmunoglobulinas.",
+          "explicacion": "Caso clínico típico de mieloma múltiple: varón anciano con anemia (Hb 10 g/dl), hipogammaglobulinemia (IgG, IgA e IgM), presencia de un componente monoclonal en orina (cadenas ligeras) e insuficiencia renal (creatinina 5 mg/dl). Se trata de un mieloma de Bence Jones en el que la célula plasmática sólo sintetiza cadenas ligeras que, por su bajo peso molecular, son filtradas fácilmente por el riñón ocasionando de forma casi constante insuficiencia renal (opción E correcta). La opción D es incorrecta porque en el enunciado especifica que existe una hipogammaglobulinemia IgA, IgG e IgM, lo cual significa que el componente monoclonal generado por la célula plasmática neoplásica no puede corresponder a ninguna de dichas inmunoglobulinas.",
           "fuente": "Examen MIR 2014, pregunta 105",
           "origen": "real"
         },
@@ -1013,7 +969,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Hematología El diagnóstico de mieloma múltiple requiere el cumplimiento de los siguientes criterios: 1. Componente monoclonal en suero y/o orina. 2. Infiltración de células plasmáticas en médula ósea o plasmocitoma. 3. Daño de órganos diana (hipercalcemia, insuficiencia renal, anemia, lesiones óseas...). La descripción del daño de órganos diana está contenida en el enunciado de la pregunta (anemia, insuficiencia renal y fractura patológica del fémur). Por lo tanto, para confirmar el diagnóstico será necesario demostrar la presencia del componente monoclonal y la invasión de la médula ósea (opción 4 correcta).",
+          "explicacion": "Hematología El diagnóstico de mieloma múltiple requiere el cumplimiento de los siguientes criterios: 1. Componente monoclonal en suero y/o orina. 2. Infiltración de células plasmáticas en médula ósea o plasmocitoma. 3. Daño de órganos diana (hipercalcemia, insuficiencia renal, anemia, lesiones óseas...). La descripción del daño de órganos diana está contenida en el enunciado de la pregunta (anemia, insuficiencia renal y fractura patológica del fémur). Por lo tanto, para confirmar el diagnóstico será necesario demostrar la presencia del componente monoclonal y la invasión de la médula ósea (opción D correcta).",
           "fuente": "Examen MIR 2014, pregunta 107",
           "origen": "real"
         },
@@ -1030,7 +986,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Pregunta acerca del tratamiento del mieloma múltiple. La elección de tratamiento no depende de las alteraciones citogenéticas. Dado que el paciente tiene más de 72 años no es candidato a trasplante autólogo de médula ósea. El tratamiento más apropiado consiste en la administración de una combinación de tres fármacos (en este caso proponen melfalan, prednisona y bortezomid) (opción 3 correcta).",
+          "explicacion": "Pregunta acerca del tratamiento del mieloma múltiple. La elección de tratamiento no depende de las alteraciones citogenéticas. Dado que el paciente tiene más de 72 años no es candidato a trasplante autólogo de médula ósea. El tratamiento más apropiado consiste en la administración de una combinación de tres fármacos (en este caso proponen melfalan, prednisona y bortezomid) (opción C correcta).",
           "fuente": "Examen MIR 2017, pregunta 101",
           "origen": "real"
         },
@@ -1047,7 +1003,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "Pregunta sobre la afectación renal en el mieloma. Recordad que las causas más frecuentes de afección renal son el riñón del mieloma (por acúmulo de cadenas ligeras en los túbulos; respuesta 1 correcta) y la hipercalcemia. Aun así, hay otras afectaciones del riñón en el mieloma, como por ejemplo la hiperuricemia (como un síndrome de lisis tumoral cuando hay gran cantidad de células neoplásicas; respuesta 3 correcta) e incluso por acidosis tubular renal tipo síndrome de Fanconi en el túbulo proximal (respuesta 4 correcta). Otras que hay que recordar es la enfermedad por depósito de cadenas ligeras (afectación mesangial con síndrome nefrótico). Lo que no está implicado en el daño renal asociado al mieloma es una vasculitis necrotizante (opción 2 falsa).",
+          "explicacion": "Pregunta sobre la afectación renal en el mieloma. Recordad que las causas más frecuentes de afección renal son el riñón del mieloma (por acúmulo de cadenas ligeras en los túbulos; respuesta A correcta) y la hipercalcemia. Aun así, hay otras afectaciones del riñón en el mieloma, como por ejemplo la hiperuricemia (como un síndrome de lisis tumoral cuando hay gran cantidad de células neoplásicas; respuesta C correcta) e incluso por acidosis tubular renal tipo síndrome de Fanconi en el túbulo proximal (respuesta D correcta). Otras que hay que recordar es la enfermedad por depósito de cadenas ligeras (afectación mesangial con síndrome nefrótico). Lo que no está implicado en el daño renal asociado al mieloma es una vasculitis necrotizante (opción B falsa).",
           "fuente": "Examen MIR 2019, pregunta 138",
           "origen": "real"
         },
@@ -1062,15 +1018,11 @@
             "C": "Leucemia aguda mieloide.",
             "D": "Leucemia aguda linfoide."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, los bastones de Auer son un hallazgo patognomónico de los blastos mieloides (leucemia aguda mieloide), y no se observan en neoplasias de célula plasmática como el mieloma hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nLos bastones de Auer son inclusiones citoplasmáticas eosinófilas, alargadas, formadas por la fusión anómala de gránulos primarios (mieloperoxidasa positivos), y constituyen un hallazgo morfológico patognomónico de los blastos mieloides, presente en la leucemia aguda mieloide (siendo especialmente numerosos, en haces, en la leucemia promielocítica aguda o M3). Su presencia excluye por definición el origen linfoide de los blastos (leucemia aguda linfoide) y no es un hallazgo propio de neoplasias de célula plasmática (mieloma) ni de linfomas leucemizados, que no presentan estos gránulos.",
+          "explicacion": "Los bastones de Auer son inclusiones citoplasmáticas eosinófilas, alargadas, formadas por la fusión anómala de gránulos primarios (mieloperoxidasa positivos), y constituyen un hallazgo morfológico patognomónico de los blastos mieloides, presente en la leucemia aguda mieloide (siendo especialmente numerosos, en haces, en la leucemia promielocítica aguda o M3). Su presencia excluye por definición el origen linfoide de los blastos (leucemia aguda linfoide) y no es un hallazgo propio de neoplasias de célula plasmática (mieloma) ni de linfomas leucemizados, que no presentan estos gránulos.",
           "fuente": "Examen MIR 2020, pregunta 5",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "los bastones de Auer son un hallazgo patognomónico de los blastos mieloides (leucemia aguda mieloide), y no se observan en neoplasias de célula plasmática como el mieloma"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2025-143",
@@ -1109,7 +1061,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "Pregunta sencilla de anatomía patológica. Las células grandes, de citoplasma amplio, núcleos bilobulados y grandes nucléolos se corresponden con las células de Reed-Sternberg. Son imprescindibles para el diagnóstico de la enfermedad de Hodgkin pero no son patognomónicas ya que pueden aparecer en otros linfomas. Se consideran linfocitos activados (normalmente de estirpe B) (opción 2 incorrecta). Cuando estas células aparecen rodeadas de otras células reactivas (PMN, eosinófilos, células plasmáticas…) estamos ante un linfoma de Hodgkin de tipo celularidad mixta (opción 5 correcta). La presencia de una adenopatía cervical apoya el diagnóstico ya que esta es la forma más común de presentación de esta clase de linfoma. Además predomina en varones jóvenes (20-30 años) y puede acompañarse de síntomas B (fiebre, pérdida de peso y sudoración nocturna).",
+          "explicacion": "Pregunta sencilla de anatomía patológica. Las células grandes, de citoplasma amplio, núcleos bilobulados y grandes nucléolos se corresponden con las células de Reed-Sternberg. Son imprescindibles para el diagnóstico de la enfermedad de Hodgkin pero no son patognomónicas ya que pueden aparecer en otros linfomas. Se consideran linfocitos activados (normalmente de estirpe B) (opción B incorrecta). Cuando estas células aparecen rodeadas de otras células reactivas (PMN, eosinófilos, células plasmáticas…) estamos ante un linfoma de Hodgkin de tipo celularidad mixta (opción E correcta). La presencia de una adenopatía cervical apoya el diagnóstico ya que esta es la forma más común de presentación de esta clase de linfoma. Además predomina en varones jóvenes (20-30 años) y puede acompañarse de síntomas B (fiebre, pérdida de peso y sudoración nocturna).",
           "fuente": "Examen MIR 2010, pregunta 212",
           "origen": "real"
         },
@@ -1168,7 +1120,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "El tiempo de protrombina se alarga cuando existe un déficit de los factores de la coagulación de la vía extrínseca (factor VII) (opción 2 verdadera). El tiempo de tromboplastina parcial activada se prolonga cuando el déficit afecta únicamente a los factores de la vía intrínseca (factores XII y VIII). Si ambos tiempos están prolongados habrá que pensar en un déficit combinado de factores o en un déficit de los factores de la vía común de la coagulación (factor V).",
+          "explicacion": "El tiempo de protrombina se alarga cuando existe un déficit de los factores de la coagulación de la vía extrínseca (factor VII) (opción B verdadera). El tiempo de tromboplastina parcial activada se prolonga cuando el déficit afecta únicamente a los factores de la vía intrínseca (factores XII y VIII). Si ambos tiempos están prolongados habrá que pensar en un déficit combinado de factores o en un déficit de los factores de la vía común de la coagulación (factor V).",
           "fuente": "Examen MIR 2016, pregunta 92",
           "origen": "real"
         }
@@ -1192,7 +1144,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "El tratamiento crónico de la PTI se basa en esteroides a dosis altas. En el caso de pacientes corticorrefractarios o corticodependientes, se debe iniciar una segunda línea de tratamiento realizando una esplenectomía o pautando análogos de la trombopoyetina (romiplostin o eltrombopag). En el momento agudo, se puede iniciar tratamiento con inmunoglobulinas en el caso de pacientes con sangrado activo o mujeres embarazadas, pues sirven para aumentar de forma rápida y puntual la cifra de plaquetas. La transfusión de plaquetas es poco rentable, pues se consumen rápidamente, de modo que se reservan sólo para casos de hemorragias graves que comprometen la vida del paciente (SNC, aparato digestivo...). La opción 1 es la única opción en la que el paciente presenta trombocitopenia grave, sangrado digestivo (melenas), anemización (Hb 10 g/dl) e inestabilidad hemodinámica (TA: 85/60 mmHg; FC: 115lpm).",
+          "explicacion": "El tratamiento crónico de la PTI se basa en esteroides a dosis altas. En el caso de pacientes corticorrefractarios o corticodependientes, se debe iniciar una segunda línea de tratamiento realizando una esplenectomía o pautando análogos de la trombopoyetina (romiplostin o eltrombopag). En el momento agudo, se puede iniciar tratamiento con inmunoglobulinas en el caso de pacientes con sangrado activo o mujeres embarazadas, pues sirven para aumentar de forma rápida y puntual la cifra de plaquetas. La transfusión de plaquetas es poco rentable, pues se consumen rápidamente, de modo que se reservan sólo para casos de hemorragias graves que comprometen la vida del paciente (SNC, aparato digestivo...). La opción A es la única opción en la que el paciente presenta trombocitopenia grave, sangrado digestivo (melenas), anemización (Hb 10 g/dl) e inestabilidad hemodinámica (TA: 85/60 mmHg; FC: 115lpm).",
           "fuente": "Examen MIR 2011, pregunta 82",
           "origen": "real"
         },
@@ -1210,7 +1162,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "La paciente padece una púrpura trombótica trombocitopénica (PTT): anemia hemólitica (Hb 7,5 gr/dl, reticulocitos 10%, LDH 1.200 UI/L) de tipo microangiopática (esquistocitos en el frotis, test de Coombs negativo) asociada a trombopenia (plaquetas 5.000/ul) y con pruebas de coagulación normales (recuerda que esto último distingue la PTT de la CID). Clínicamente refiere sintomatología neurológica (parestesias en hemicuerpo izquierdo). El tratamiento de elección siempre que sea posible es la plasmaféresis (opción 5 correcta). Analizando el resto de las opciones: no se trata de una anemia hemolítica autoinmune ni de un síndrome de Evans porque el test de Coombs es negativo (opción 1 y 4 falsas). En la enfermedad de von Wilebrand son característicos los sangrados con cifra de plaquetas normal (opción 2 falsa). La púrpura trombocitopénica no se asocia a anemia hemolítica y en cualquier caso no se deben trasfundir plaquetas de forma rutinaria (opción 3 falsa).",
+          "explicacion": "La paciente padece una púrpura trombótica trombocitopénica (PTT): anemia hemólitica (Hb 7,5 gr/dl, reticulocitos 10%, LDH 1.200 UI/L) de tipo microangiopática (esquistocitos en el frotis, test de Coombs negativo) asociada a trombopenia (plaquetas 5.000/ul) y con pruebas de coagulación normales (recuerda que esto último distingue la PTT de la CID). Clínicamente refiere sintomatología neurológica (parestesias en hemicuerpo izquierdo). El tratamiento de elección siempre que sea posible es la plasmaféresis (opción E correcta). Analizando el resto de las opciones: no se trata de una anemia hemolítica autoinmune ni de un síndrome de Evans porque el test de Coombs es negativo (opción A y D falsas). En la enfermedad de von Wilebrand son característicos los sangrados con cifra de plaquetas normal (opción B falsa). La púrpura trombocitopénica no se asocia a anemia hemolítica y en cualquier caso no se deben trasfundir plaquetas de forma rutinaria (opción C falsa).",
           "fuente": "Examen MIR 2015, pregunta 79",
           "origen": "real"
         },
@@ -1223,17 +1175,13 @@
             "A": "Anemia hemolítica autoinmune.",
             "B": "Púrpura trombótica trombocitopénica.",
             "C": "Síndrome de Evans (anemia hemolítica y trombopenia inmunes).",
-            "D": "Trombocitopenia inmune idiopática. - 23"
+            "D": "Trombocitopenia inmune idiopática."
           },
-          "respuesta_correcta": "D",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción D como correcta. Sin embargo, la presencia de esquistocitos, LDH muy elevada y haptoglobina indetectable indica una hemólisis franca, hallazgo que no se explica por una trombocitopenia inmune pura y que sí encaja con una púrpura trombótica trombocitopénica hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEste cuadro (fiebre, clínica neurológica, trombocitopenia grave, anemia con reticulocitosis marcada, LDH muy elevada, haptoglobina indetectable, esquistocitos en el frotis y Coombs directo negativo, con coagulación normal) es característico de una microangiopatía trombótica, concretamente de una púrpura trombótica trombocitopénica (PTT), en la que la asociación de anemia hemolítica no autoinmune (Coombs negativo) con trombocitopenia y clínica neurológica es muy sugestiva, y en la que los anticonceptivos orales pueden actuar como factor precipitante. La coexistencia de datos francos de hemólisis (esquistocitos, LDH elevada, haptoglobina indetectable, reticulocitosis) descarta una trombocitopenia inmune idiopática pura, entidad en la que no existe hemólisis asociada.",
+          "explicacion": "Este cuadro (fiebre, clínica neurológica, trombocitopenia grave, anemia con reticulocitosis marcada, LDH muy elevada, haptoglobina indetectable, esquistocitos en el frotis y Coombs directo negativo, con coagulación normal) es característico de una microangiopatía trombótica, concretamente de una púrpura trombótica trombocitopénica (PTT), en la que la asociación de anemia hemolítica no autoinmune (Coombs negativo) con trombocitopenia y clínica neurológica es muy sugestiva, y en la que los anticonceptivos orales pueden actuar como factor precipitante. La coexistencia de datos francos de hemólisis (esquistocitos, LDH elevada, haptoglobina indetectable, reticulocitosis) descarta una trombocitopenia inmune idiopática pura, entidad en la que no existe hemólisis asociada.",
           "fuente": "Examen MIR 2021, pregunta 160",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "la presencia de esquistocitos, LDH muy elevada y haptoglobina indetectable indica una hemólisis franca, hallazgo que no se explica por una trombocitopenia inmune pura y que sí encaja con una púrpura trombótica trombocitopénica"
-          }
+          "origen": "real"
         }
       ]
     },
@@ -1254,7 +1202,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Hematología Pregunta sencilla. Mujer con alteraciones de la hemostasia primaria (epistaxis y menstruaciones abundantes), cifra de plaquetas en rango normal y un test de agregación plaquetaria alterado. Debemos sospechar en una alteración de la función plaquetar (trombocitopatías). La trombocitopatía que se produce como consecuencia del déficit congénito de la Gp IIb-IIIa es la enfermedad de Glanzmann (respuesta 1 correcta).",
+          "explicacion": "Hematología Pregunta sencilla. Mujer con alteraciones de la hemostasia primaria (epistaxis y menstruaciones abundantes), cifra de plaquetas en rango normal y un test de agregación plaquetaria alterado. Debemos sospechar en una alteración de la función plaquetar (trombocitopatías). La trombocitopatía que se produce como consecuencia del déficit congénito de la Gp IIb-IIIa es la enfermedad de Glanzmann (respuesta A correcta).",
           "fuente": "Examen MIR 2018, pregunta 111",
           "origen": "real"
         }
@@ -1296,7 +1244,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Hematología Se debe sospechar trombofilia en un paciente que tenga enfermedad tromboembólica (sin factores de riesgo asociados) que sea: • A edad inferior a la habitual (respuesta 1 verdadera). • En sitios raros (p. ej., trombosis arteriales). • De repetición (respuesta 2 verdadera). • Resistentes a tratamientos habituales (suelen requerir más dosis y/o más tiempo de tratamiento -respuesta 5 verdadera-). • Con historia familiar de enfermedad tromboembólica (la mayoría de trombofilias son AD) (respuesta 3 verdadera). Tener trombofilia no implica tener que usar heparinas no fraccionadas (opción 4 falsa), se pueden usar también heparinas de bajo peso o anticoagulantes orales. Importante: la trombofilia más frecuente en nuestro medio es el factor V Leyden (muy preguntado en el MIR).",
+          "explicacion": "Hematología Se debe sospechar trombofilia en un paciente que tenga enfermedad tromboembólica (sin factores de riesgo asociados) que sea: • A edad inferior a la habitual (respuesta A verdadera). • En sitios raros (p. ej., trombosis arteriales). • De repetición (respuesta B verdadera). • Resistentes a tratamientos habituales (suelen requerir más dosis y/o más tiempo de tratamiento -respuesta E verdadera-). • Con historia familiar de enfermedad tromboembólica (la mayoría de trombofilias son AD) (respuesta C verdadera). Tener trombofilia no implica tener que usar heparinas no fraccionadas (opción D falsa), se pueden usar también heparinas de bajo peso o anticoagulantes orales. Importante: la trombofilia más frecuente en nuestro medio es el factor V Leyden (muy preguntado en el MIR).",
           "fuente": "Examen MIR 2009, pregunta 117",
           "origen": "real"
         },
@@ -1314,7 +1262,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Nos presentan un caso de clínica hemorrágica en una MUJER (recuerden que la hemofilia A y B sólo se da en hombres) con antecedentes familiares (sugiere enfermedad congénita) con sangrado en mucosa y test de hemorragia alargado (indica fallo de hemostasia primaria). El test de tiempo de hemorragia se ha sustituido hoy en día en la mayoría de laboratorios por el test PFA-100. La coagulopatía más frecuente de fallo de hemostasia primaria que es AD es la enfermedad de von Willebrand (respuesta 1 correcta). El APTT o TTPA está alargado porque como el FcvW acompaña al VIII, a veces se produce alargamiento del tiempo de cefalina. El déficit de factor VII (vía extrínseca) se descarta al saber que la actividad de protrombina es del 100%. El déficit del factor XI es la hemofilia C (autosómica recesiva) que es muy poco frecuente y no altera el tiempo de hemorragia porque afecta a la hemostasia secundaria.",
+          "explicacion": "Nos presentan un caso de clínica hemorrágica en una MUJER (recuerden que la hemofilia A y B sólo se da en hombres) con antecedentes familiares (sugiere enfermedad congénita) con sangrado en mucosa y test de hemorragia alargado (indica fallo de hemostasia primaria). El test de tiempo de hemorragia se ha sustituido hoy en día en la mayoría de laboratorios por el test PFA-100. La coagulopatía más frecuente de fallo de hemostasia primaria que es AD es la enfermedad de von Willebrand (respuesta A correcta). El APTT o TTPA está alargado porque como el FcvW acompaña al VIII, a veces se produce alargamiento del tiempo de cefalina. El déficit de factor VII (vía extrínseca) se descarta al saber que la actividad de protrombina es del 100%. El déficit del factor XI es la hemofilia C (autosómica recesiva) que es muy poco frecuente y no altera el tiempo de hemorragia porque afecta a la hemostasia secundaria.",
           "fuente": "Examen MIR 2011, pregunta 87",
           "origen": "real"
         },
@@ -1367,7 +1315,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "La necrosis cutánea inducida por acenocumarol es una complicación grave y poco común de la terapia anticoagulante. Se asocia a trastornos de hipercoagulabilidad como el déficit de proteína C y/o S (opción 4 correcta). La fisiopatología no está del todo clara pero se postula que al iniciar tratamiento con acenocumarol en un paciente con déficit de proteína C y/o S se produce un desequilibrio en la cascada de la coagulación con un descenso rápido del factor VII y de la proteína C. De este modo se promueve la trombosis de la microvasculatura cutánea y la necrosis. El tratamiento de este cuadro es fundamentalmente de soporte e incluye la suspensión inmediata del acenocumarol y el uso de plasma fresco congelado, vitamina K y anticoagulación con heparina no fraccionada o de bajo peso molecular.",
+          "explicacion": "La necrosis cutánea inducida por acenocumarol es una complicación grave y poco común de la terapia anticoagulante. Se asocia a trastornos de hipercoagulabilidad como el déficit de proteína C y/o S (opción D correcta). La fisiopatología no está del todo clara pero se postula que al iniciar tratamiento con acenocumarol en un paciente con déficit de proteína C y/o S se produce un desequilibrio en la cascada de la coagulación con un descenso rápido del factor VII y de la proteína C. De este modo se promueve la trombosis de la microvasculatura cutánea y la necrosis. El tratamiento de este cuadro es fundamentalmente de soporte e incluye la suspensión inmediata del acenocumarol y el uso de plasma fresco congelado, vitamina K y anticoagulación con heparina no fraccionada o de bajo peso molecular.",
           "fuente": "Examen MIR 2016, pregunta 93",
           "origen": "real"
         },
@@ -1384,7 +1332,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Mujer embarazada con antecedentes de ETEV con el estímulo estrogénico previo (anticonceptivos orales). En este contexto, dado que el estado de gestación es un estado de estimulación hormonal dependiente de estrógenos similar al consumo de anticonceptivos, la paciente tiene alto de riesgo de desarrollar otra ETEV al aparecer de nuevo el factor de riesgo hormonal. En este contexto, es necesario anticoagular a la paciente con HBPM a dosis profilácticas y mantenerla al menos 6 semanas después del parto (respuesta 1 correcta). Recuerda que el momento de máximo riesgo trombótico del embarazo es el puerperio, no la gestación en sí, de modo que toda mujer con antecedentes de ETEV debe recibir anticoagulación en el puerperio indepedientemente de que la haya recibido o no durante la gestación.",
+          "explicacion": "Mujer embarazada con antecedentes de ETEV con el estímulo estrogénico previo (anticonceptivos orales). En este contexto, dado que el estado de gestación es un estado de estimulación hormonal dependiente de estrógenos similar al consumo de anticonceptivos, la paciente tiene alto de riesgo de desarrollar otra ETEV al aparecer de nuevo el factor de riesgo hormonal. En este contexto, es necesario anticoagular a la paciente con HBPM a dosis profilácticas y mantenerla al menos 6 semanas después del parto (respuesta A correcta). Recuerda que el momento de máximo riesgo trombótico del embarazo es el puerperio, no la gestación en sí, de modo que toda mujer con antecedentes de ETEV debe recibir anticoagulación en el puerperio indepedientemente de que la haya recibido o no durante la gestación.",
           "fuente": "Examen MIR 2018, pregunta 107",
           "origen": "real"
         },
@@ -1401,7 +1349,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Nos preguntan el caso de un paciente con trombopenia así como afectación de la coagulación (fibrinógeno bajo, alargamiento de ambos tiempos de la coagulación, aparición de dímeros-D), así como hallazgos de microangiopatía (esquistocitos). La enfermedad de von Willebrand es una enfermedad genética de la hemostasia primaria, que no va con clínica de microangiopatía ni trombopenia (y que puede alargar sólo el TTPa) (opción 4 falsa). El síndrome antifosfolípido catastrófico es una microangiopatía trombótica (MAT) pero cursa con trombosis confirmada y además positividad para los anticuerpos antifosfolípido (opción 3 falsa). La púrpura trombótica trombocitopénica también es una MAT, en la que las plaquetas se agregan en el endotelio de pequeñas arteriolas y los hematíes se rompen a su paso, pero no hay alteración de la coagulación (opción 2 falsa).",
+          "explicacion": "Nos preguntan el caso de un paciente con trombopenia así como afectación de la coagulación (fibrinógeno bajo, alargamiento de ambos tiempos de la coagulación, aparición de dímeros-D), así como hallazgos de microangiopatía (esquistocitos). La enfermedad de von Willebrand es una enfermedad genética de la hemostasia primaria, que no va con clínica de microangiopatía ni trombopenia (y que puede alargar sólo el TTPa) (opción D falsa). El síndrome antifosfolípido catastrófico es una microangiopatía trombótica (MAT) pero cursa con trombosis confirmada y además positividad para los anticuerpos antifosfolípido (opción C falsa). La púrpura trombótica trombocitopénica también es una MAT, en la que las plaquetas se agregan en el endotelio de pequeñas arteriolas y los hematíes se rompen a su paso, pero no hay alteración de la coagulación (opción B falsa).",
           "fuente": "Examen MIR 2019, pregunta 102",
           "origen": "real"
         },
@@ -1433,15 +1381,11 @@
             "C": "Tiempo de protrombina.",
             "D": "Determinación de factor von Willebrand."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, el factor VII forma parte exclusivamente de la vía extrínseca de la coagulación, que se explora mediante el tiempo de protrombina, y no mediante el tiempo de trombina hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl factor VII forma parte exclusivamente de la vía extrínseca de la coagulación, que se explora mediante el tiempo de protrombina (TP); por tanto, en un déficit hereditario de factor VII se espera un TP alargado con un tiempo de tromboplastina parcial activada (TTPA, que explora la vía intrínseca: factores XII, XI, IX y VIII) normal, un tiempo de trombina normal (que evalúa la conversión de fibrinógeno a fibrina, independiente del factor VII) y una determinación de factor von Willebrand normal (no relacionada con el factor VII).",
+          "explicacion": "El factor VII forma parte exclusivamente de la vía extrínseca de la coagulación, que se explora mediante el tiempo de protrombina (TP); por tanto, en un déficit hereditario de factor VII se espera un TP alargado con un tiempo de tromboplastina parcial activada (TTPA, que explora la vía intrínseca: factores XII, XI, IX y VIII) normal, un tiempo de trombina normal (que evalúa la conversión de fibrinógeno a fibrina, independiente del factor VII) y una determinación de factor von Willebrand normal (no relacionada con el factor VII).",
           "fuente": "Examen MIR 2021, pregunta 26",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "el factor VII forma parte exclusivamente de la vía extrínseca de la coagulación, que se explora mediante el tiempo de protrombina, y no mediante el tiempo de trombina"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-121",
@@ -1471,15 +1415,11 @@
             "C": "Tiempo de protrombina y tiempo parcial de tromboplastina activada alargados.",
             "D": "Presencia de productos de degradación de la fibrina (dímero D)."
           },
-          "respuesta_correcta": "D",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción D como correcta. Sin embargo, en la coagulación intravascular diseminada la antitrombina y la proteína C se consumen y descienden, no se elevan, siendo ese el hallazgo que realmente NO cabría esperar hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEste paciente presenta un cuadro compatible con coagulación intravascular diseminada (CID) en el contexto de una sepsis grave, caracterizado por consumo de plaquetas y de factores de la coagulación: se espera un fibrinógeno bajo (consumido en la formación de fibrina), alargamiento del tiempo de protrombina y del TTPA (por consumo de factores) y presencia de productos de degradación de la fibrina como el dímero D (por la fibrinólisis secundaria activada). Sin embargo, en la CID los inhibidores naturales de la coagulación, como la antitrombina y la proteína C, se consumen y por tanto se encuentran DISMINUIDOS, no elevados, ya que se emplean para intentar contrarrestar la generación excesiva de trombina.",
+          "explicacion": "Este paciente presenta un cuadro compatible con coagulación intravascular diseminada (CID) en el contexto de una sepsis grave, caracterizado por consumo de plaquetas y de factores de la coagulación: se espera un fibrinógeno bajo (consumido en la formación de fibrina), alargamiento del tiempo de protrombina y del TTPA (por consumo de factores) y presencia de productos de degradación de la fibrina como el dímero D (por la fibrinólisis secundaria activada). Sin embargo, en la CID los inhibidores naturales de la coagulación, como la antitrombina y la proteína C, se consumen y por tanto se encuentran DISMINUIDOS, no elevados, ya que se emplean para intentar contrarrestar la generación excesiva de trombina.",
           "fuente": "Examen MIR 2022, pregunta 150",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "en la coagulación intravascular diseminada la antitrombina y la proteína C se consumen y descienden, no se elevan, siendo ese el hallazgo que realmente NO cabría esperar"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2023-108",
@@ -1492,15 +1432,11 @@
             "C": "Leucemia de células NK.",
             "D": "Linfoma no Hodgkin de células T."
           },
-          "respuesta_correcta": "C",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción C como correcta. Sin embargo, el síndrome de Sjögren se asocia clásicamente a un riesgo aumentado de linfoma no Hodgkin de estirpe B (tipo MALT), y no de leucemia de células NK hace que la opción B también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEsta paciente presenta un síndrome de Sjögren primario (xerostomía/xeroftalmía objetivada por el test de Schirmer patológico, tumefacción parotídea bilateral, factor reumatoide positivo, ANA con patrón moteado, anti-Ro/SSA y anti-La/SSB positivos e hipocomplementemia, esta última un marcador de mayor actividad y riesgo evolutivo). El síndrome de Sjögren es la enfermedad autoinmune con mayor riesgo relativo de desarrollar un linfoma no Hodgkin de estirpe B, típicamente linfoma MALT (de la zona marginal) originado en las glándulas salivales afectas por la sialoadenitis linfocítica crónica, siendo la hipocomplementemia y la crioglobulinemia marcadores de riesgo aumentado de esta transformación linfomatosa.",
+          "explicacion": "Esta paciente presenta un síndrome de Sjögren primario (xerostomía/xeroftalmía objetivada por el test de Schirmer patológico, tumefacción parotídea bilateral, factor reumatoide positivo, ANA con patrón moteado, anti-Ro/SSA y anti-La/SSB positivos e hipocomplementemia, esta última un marcador de mayor actividad y riesgo evolutivo). El síndrome de Sjögren es la enfermedad autoinmune con mayor riesgo relativo de desarrollar un linfoma no Hodgkin de estirpe B, típicamente linfoma MALT (de la zona marginal) originado en las glándulas salivales afectas por la sialoadenitis linfocítica crónica, siendo la hipocomplementemia y la crioglobulinemia marcadores de riesgo aumentado de esta transformación linfomatosa.",
           "fuente": "Examen MIR 2023, pregunta 108",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "B",
-            "motivo": "el síndrome de Sjögren se asocia clásicamente a un riesgo aumentado de linfoma no Hodgkin de estirpe B (tipo MALT), y no de leucemia de células NK"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2024-033",
@@ -1641,7 +1577,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Pregunta fácil sobre anticoagulantes. Repasemos cada una de las opciones: • Opción 1 y 3 (incorrectas): los cumarínicos son anticoagulantes orales. Hay muchos fármacos que pueden potenciar o inhibir su efecto. Recuerde que la rifampicina y los anticonceptivos orales pueden inhibir su acción. Están contraindicados durante el embarazo por su efecto teratógeno. Atraviesan la barrera placentaria pudiendo producir alteraciones en la organogénesis. • Opción 5 (incorrecta): el fondaparinux es un inhibidor selectivo del factor Xa por su unión selectiva a la ATIII que se administra por vía subcutánea. • Opción 2 (incorrecta): la trombopenia inducida por heparina es un raro efecto secundario que se produce debido a la formación de anticuerpos antiheparina-FP4 que producen sangrado asociado a trombosis arterial o venosa. El tratamiento consiste en retirar la heparina y cambiarla por otro inhibidor de la trombina del grupo de los heparinoides: la huridina. • Opción 4 (correcta): para el control de la HNF se emplea el TTPA que debe mantenerse entre 1,5-2. Recuerde que las HBPM no necesitan control.",
+          "explicacion": "Pregunta fácil sobre anticoagulantes. Repasemos cada una de las opciones: • Opción A y C (incorrectas): los cumarínicos son anticoagulantes orales. Hay muchos fármacos que pueden potenciar o inhibir su efecto. Recuerde que la rifampicina y los anticonceptivos orales pueden inhibir su acción. Están contraindicados durante el embarazo por su efecto teratógeno. Atraviesan la barrera placentaria pudiendo producir alteraciones en la organogénesis. • Opción E (incorrecta): el fondaparinux es un inhibidor selectivo del factor Xa por su unión selectiva a la ATIII que se administra por vía subcutánea. • Opción B (incorrecta): la trombopenia inducida por heparina es un raro efecto secundario que se produce debido a la formación de anticuerpos antiheparina-FP4 que producen sangrado asociado a trombosis arterial o venosa. El tratamiento consiste en retirar la heparina y cambiarla por otro inhibidor de la trombina del grupo de los heparinoides: la huridina. • Opción D (correcta): para el control de la HNF se emplea el TTPA que debe mantenerse entre 1,5-2. Recuerde que las HBPM no necesitan control.",
           "fuente": "Examen MIR 2010, pregunta 112",
           "origen": "real"
         },
@@ -1659,7 +1595,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "Hematología Mecanismo de acción de fármacos anticoagulantes. Heparina: actúa como cofactor de la antitrombina III potenciando la inhibición de la trombina y los factores IX, X, XI y XII (opción 1 correcta). Anticoagulantes orales (acenocumarol, warfarina): interfieren en el metabolismo de la vitamina K inhibiendo a la enzima epoxidorreductasa, imprescindible para la síntesis de los factores II, VII, IX, X, proteínas C y S (opción 2 correcta, opción 5 incorrecta). Nuevos anticoagulantes orales: el DabigaTRan inhibe la TRombina (factor Dos); el rivaroXaban y apiXaban inhiben el factor Xa: opciones 3 y 4 correctas.",
+          "explicacion": "Hematología Mecanismo de acción de fármacos anticoagulantes. Heparina: actúa como cofactor de la antitrombina III potenciando la inhibición de la trombina y los factores IX, X, XI y XII (opción A correcta). Anticoagulantes orales (acenocumarol, warfarina): interfieren en el metabolismo de la vitamina K inhibiendo a la enzima epoxidorreductasa, imprescindible para la síntesis de los factores II, VII, IX, X, proteínas C y S (opción B correcta, opción E incorrecta). Nuevos anticoagulantes orales: el DabigaTRan inhibe la TRombina (factor Dos); el rivaroXaban y apiXaban inhiben el factor Xa: opciones C y D correctas.",
           "fuente": "Examen MIR 2014, pregunta 45",
           "origen": "real"
         },
@@ -1677,7 +1613,7 @@
           },
           "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Anticoagulantes. Regla mnemotécnica: Los anticoagulantes que contengan la letra “D” inhiben al factor Dos (trombina). Los que contengan la letra “X” inhiben al factor X. El Dabigatrán es un inhibidor directo del factor Dos o trombina (opción 1 correcta). El apixaban y el rivaroxaban inhiben al factor X (opción 2 y 3 falsas). El acenocumarol interviene en el metabolismo de la vitamina K inhibiendo a la enzima epóxido reductasa implicada en la síntesis de los factores de coagulación II, VII, IX y X (opción 4 falsa). El clopidogrel es un antiagregante plaquetario (opción 5 falsa).",
+          "explicacion": "Anticoagulantes. Regla mnemotécnica: Los anticoagulantes que contengan la letra “D” inhiben al factor Dos (trombina). Los que contengan la letra “X” inhiben al factor X. El Dabigatrán es un inhibidor directo del factor Dos o trombina (opción A correcta). El apixaban y el rivaroxaban inhiben al factor X (opción B y C falsas). El acenocumarol interviene en el metabolismo de la vitamina K inhibiendo a la enzima epóxido reductasa implicada en la síntesis de los factores de coagulación II, VII, IX y X (opción D falsa). El clopidogrel es un antiagregante plaquetario (opción E falsa).",
           "fuente": "Examen MIR 2015, pregunta 210",
           "origen": "real"
         },
@@ -1711,7 +1647,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Pregunta muy específica sobre el manejo de la reversión de la anticoagulación en situaciones de urgencia. La corrección de INR en un paciente anticoagulado con antagonistas de la vitamina K y una hemorragia de gravedad que pone en peligro su vida es una situación de emergencia que requiere la reversión inmediata del INR (opciones 1 y 2 incorrectas). El método más efectivo para revertir el INR es administrar Concentrado de Complejo Protrombínico (CCP) (contiene todos los factores vitamina K dependientes: II, VII, IX y X), pues actúa de manera inmediata. Se puede considerar la administración de factor VII recombinante como alternativa en situaciones de urgencia (opción 4 correcta). El plasma fresco congelado es también una alternativa, aunque es menos eficaz porque su capacidad de corrección es más lenta y arbitraria y requiere de volúmenes muy altos (opción 3 incorrecta). En nuestro medio, el plasma fresco, más barato y accesible, es más utilizado. Por dicho motivo, a pesar de que el Ministerio dio como válida inicialmente la opción 4, la pregunta finalmente se anuló. Por último, la vitamina K i.v debe administrarse siempre en todos los casos graves.",
+          "explicacion": "Pregunta muy específica sobre el manejo de la reversión de la anticoagulación en situaciones de urgencia. La corrección de INR en un paciente anticoagulado con antagonistas de la vitamina K y una hemorragia de gravedad que pone en peligro su vida es una situación de emergencia que requiere la reversión inmediata del INR (opciones A y B incorrectas). El método más efectivo para revertir el INR es administrar Concentrado de Complejo Protrombínico (CCP) (contiene todos los factores vitamina K dependientes: II, VII, IX y X), pues actúa de manera inmediata. Se puede considerar la administración de factor VII recombinante como alternativa en situaciones de urgencia (opción D correcta). El plasma fresco congelado es también una alternativa, aunque es menos eficaz porque su capacidad de corrección es más lenta y arbitraria y requiere de volúmenes muy altos (opción C incorrecta). En nuestro medio, el plasma fresco, más barato y accesible, es más utilizado. Por dicho motivo, a pesar de que el Ministerio dio como válida inicialmente la opción D, la pregunta finalmente se anuló. Por último, la vitamina K i.v debe administrarse siempre en todos los casos graves.",
           "fuente": "Examen MIR 2017, pregunta 95",
           "origen": "real"
         },
@@ -1726,7 +1662,7 @@
             "C": "Alcalosis metabólica por toxicidad tubular renal.",
             "D": "Trombopenia grave acompañada de fenómenos trombóticos venosos o arteriales."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
           "explicacion": "Además del riesgo hemorrágico inherente a cualquier anticoagulante, la complicación grave más característica y potencialmente mortal del tratamiento con heparina (no fraccionada, y con menor frecuencia heparina de bajo peso molecular) es la trombocitopenia inducida por heparina (TIH), una reacción inmunomediada por anticuerpos frente al complejo heparina-factor plaquetario 4 que produce, paradójicamente, activación plaquetaria y un estado protrombótico, con fenómenos trombóticos venosos y/o arteriales que pueden comprometer extremidades y órganos vitales.",
           "fuente": "Examen MIR 2021, pregunta 159",
@@ -1769,7 +1705,7 @@
           },
           "respuesta_correcta": "E",
           "imagen_ref": null,
-          "explicacion": "La enfermedad injerto contra huésped ha caído varias veces en el MIR y hay que saberla, pero es suficiente con tener unas nociones básicas para responder a las preguntas: • Es la principal complicación del trasplante alogénico de progenitores hematopoyéticos (respuesta 5 correcta). • Hay dos formas, la aguda (sobre todo con afectación cutánea, pero también hepática y digestiva) y la crónica (bronquiolitis obliterante). • Prevención: Inmunosupresión para evitar la activación de los linfocitos T del donante.",
+          "explicacion": "La enfermedad injerto contra huésped ha caído varias veces en el MIR y hay que saberla, pero es suficiente con tener unas nociones básicas para responder a las preguntas: • Es la principal complicación del trasplante alogénico de progenitores hematopoyéticos (respuesta E correcta). • Hay dos formas, la aguda (sobre todo con afectación cutánea, pero también hepática y digestiva) y la crónica (bronquiolitis obliterante). • Prevención: Inmunosupresión para evitar la activación de los linfocitos T del donante.",
           "fuente": "Examen MIR 2009, pregunta 118",
           "origen": "real"
         },
@@ -1786,7 +1722,7 @@
           },
           "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "Caso clínico típico de EICH agudo en el contexto de un trasplante alogénico de médula ósea. Recuerda que el EICH es una complicación asociada al TPH alogénico en la cual los linfocitos T del donante actúan atacando a los antígenos que reconoce como “extraños” en el receptor. El EICH puede presentarse de forma aguda (generalmente en los 2 primeros meses post TPH) en forma de reacción inflamatoria más o menos explosiva en piel (sobre todo palmas y plantas), intestino e hígado o de forma crónica (más allá de los 2 meses postTPH) con alteraciones de los tejidos de forma “fibrosante”, similar a lo que ocurre en las colagenopatías. Si se presenta, el tratamiento del EICH en primera línea son los corticoides a dosis altas (respuesta 2 correcta). Regla mnmotécnica del EICH agudo - “PIPI” - Piel – Intestino – Palmas y plantas – hÍgado.",
+          "explicacion": "Caso clínico típico de EICH agudo en el contexto de un trasplante alogénico de médula ósea. Recuerda que el EICH es una complicación asociada al TPH alogénico en la cual los linfocitos T del donante actúan atacando a los antígenos que reconoce como “extraños” en el receptor. El EICH puede presentarse de forma aguda (generalmente en los 2 primeros meses post TPH) en forma de reacción inflamatoria más o menos explosiva en piel (sobre todo palmas y plantas), intestino e hígado o de forma crónica (más allá de los 2 meses postTPH) con alteraciones de los tejidos de forma “fibrosante”, similar a lo que ocurre en las colagenopatías. Si se presenta, el tratamiento del EICH en primera línea son los corticoides a dosis altas (respuesta B correcta). Regla mnmotécnica del EICH agudo - “PIPI” - Piel – Intestino – Palmas y plantas – hÍgado.",
           "fuente": "Examen MIR 2018, pregunta 109",
           "origen": "real"
         },
@@ -1861,7 +1797,7 @@
           },
           "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "Pregunta de respuesta inmediata si recuerdas que el donante universal de concentrados de hematíes es el grupo 0 y el donante universal de plasma es el grupo AB (opción 3 correcta).",
+          "explicacion": "Pregunta de respuesta inmediata si recuerdas que el donante universal de concentrados de hematíes es el grupo 0 y el donante universal de plasma es el grupo AB (opción C correcta).",
           "fuente": "Examen MIR 2016, pregunta 98",
           "origen": "real"
         },
@@ -1878,7 +1814,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "Pregunta específica sobre un tema poco preguntado, por lo que puede aumentar su dificultad. La irradiación de los hemoderivados inactiva las células TCD8 del donante que puedan contener las bolsas a transfundir. Mediante la irradiación de los hemoderivados se eliminan esos linfocitos T e impedimos que puedan reconocer los tejidos del receptor y atacarlos (enfermedad injerto contra receptor transfusional). Esta irradiación se reserva a pacientes inmunodeprimidos que necesitan transfusión (opción 4 verdadera). En cuanto a las otras opciones, las reacciones hemolíticas tardías suelen tener una detección de anticuerpos inicial negativa (es debido a un efecto \"boost\", por el cual el paciente presenta niveles muy bajos de anticuerpos contra antígenos del donante y tras 2-4 semanas aparece una reacción hemolítica con anticuerpos positivos) (opción 1 falsa). El citrato es necesario para quelar el calcio y evitar la coagulación de los hemoderivados, por lo que no se debe retirar (además, la hipocalcemia por citrato se ve en pacientes con transfusiones masivas o con fallo renal/hepático grave) (opción 2 falsa). Por último, el hierro está en la hemoglobina, dentro de los hematíes, por lo que no puede ser \"lavado\" (opción 3 falsa).",
+          "explicacion": "Pregunta específica sobre un tema poco preguntado, por lo que puede aumentar su dificultad. La irradiación de los hemoderivados inactiva las células TCD8 del donante que puedan contener las bolsas a transfundir. Mediante la irradiación de los hemoderivados se eliminan esos linfocitos T e impedimos que puedan reconocer los tejidos del receptor y atacarlos (enfermedad injerto contra receptor transfusional). Esta irradiación se reserva a pacientes inmunodeprimidos que necesitan transfusión (opción D verdadera). En cuanto a las otras opciones, las reacciones hemolíticas tardías suelen tener una detección de anticuerpos inicial negativa (es debido a un efecto \"boost\", por el cual el paciente presenta niveles muy bajos de anticuerpos contra antígenos del donante y tras 2-4 semanas aparece una reacción hemolítica con anticuerpos positivos) (opción A falsa). El citrato es necesario para quelar el calcio y evitar la coagulación de los hemoderivados, por lo que no se debe retirar (además, la hipocalcemia por citrato se ve en pacientes con transfusiones masivas o con fallo renal/hepático grave) (opción B falsa). Por último, el hierro está en la hemoglobina, dentro de los hematíes, por lo que no puede ser \"lavado\" (opción C falsa).",
           "fuente": "Examen MIR 2019, pregunta 103",
           "origen": "real"
         }

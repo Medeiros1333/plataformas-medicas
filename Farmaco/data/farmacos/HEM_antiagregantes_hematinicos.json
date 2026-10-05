@@ -378,7 +378,7 @@
     ],
     "area": "HEM",
     "nivel": 2,
-    "clase": "Antifibrinolítico",
+    "clase": "Hemostático y reversor de la anticoagulación",
     "subclase": "Análogo de la lisina",
     "mecanismo": "Ocupa de forma reversible los sitios de unión a LISINA del PLASMINÓGENO, impidiendo que este se ancle a la fibrina y se convierta en plasmina activa sobre el coágulo. El resultado es que el coágulo ya formado NO se disuelve. No favorece la formación de trombos nuevos: solo impide la lisis del existente, y esa distinción es lo que explica su buen perfil de seguridad trombótica.",
     "espectro": null,
@@ -488,6 +488,11 @@
     ],
     "embarazo_lactancia": "Se emplea en la hemorragia posparto con seguridad demostrada. Atraviesa la placenta; su uso durante el embarazo se reserva a indicaciones claras. Compatible con la lactancia (paso mínimo a la leche).",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de trastornos de la hemostasia"
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de trastornos de la hemostasia",
+    "vs_clase": [
+      "**ANTIFIBRINOLÍTICO**: no revierte ningún anticoagulante; frena la lisis del coágulo ya formado.",
+      "**Eficaz en las primeras 3 h** del traumatismo grave (CRASH-2) y de la hemorragia posparto (WOMAN); también en menorragia, epistaxis y cirugía.",
+      "**Convulsiones con dosis altas** y precaución en hematuria alta (coágulos ureterales)."
+    ]
   }
 ]

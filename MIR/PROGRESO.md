@@ -680,3 +680,12 @@ Con esto se completa la primera pasada de la tarea pendiente #3 sobre las 11 esp
   "Situación" en el banco (no respondidas / falladas / en el repaso), exportar/importar copia, atajos A–E / 1–4 / Enter.
   Pestañas abiertas a la vez se sincronizan (evento `storage`).
 - Copia previa: `hub/_backup_srs_20261005/`. Probado en Edge sin interfaz (16 escenarios).
+
+---
+
+## 2026-10-05 — Corrección de claves 2020-2023 (ver PROCESO #217)
+
+- Causa raíz: plantillas de respuestas 2020-2023 desfasadas un año respecto a los cuadernillos. Corregido con la plantilla correcta (incluida la del examen de enero de 2024 para el cuadernillo 2023).
+- Banco: 2436 preguntas; claves 2020-2025 coinciden al 100 % con las plantillas oficiales; 0 preguntas con `revision_incierta`; explicaciones coherentes con la opción marcada.
+- AMIR 2009-2019: corregidas las anuladas mal parseadas y las referencias numéricas pasadas a letras.
+- Pendiente opcional: actualizar las notas de "discrepancia" obsoletas en `modulos/*.md` (no afectan al Hub actual).

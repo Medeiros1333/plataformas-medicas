@@ -17,9 +17,9 @@
             "C": "Se inicia con síntomas nicotínicos.",
             "D": "Su acción selectiva es anticolinesterásica."
           },
-          "respuesta_correcta": "C",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "La intoxicación por insecticidas organofosforados se debe a la inhibición irreversible de la acetilcolinesterasa, lo que provoca acumulación de acetilcolina en sinapsis muscarínicas, nicotínicas y del SNC. Clínicamente el cuadro suele iniciarse con síntomas nicotínicos (fasciculaciones musculares, calambres, debilidad) que después se acompañan o son superados por la clínica muscarínica (sialorrea, miosis, broncorrea, diarrea, bradicardia). La absorción es posible por vía cutánea, respiratoria y digestiva (la piel es una vía de exposición muy relevante en el ámbito laboral), por lo que la opción A es falsa. El fallecimiento inmediato en minutos no es lo habitual (suele producirse por fallo respiratorio tras horas de evolución si no se trata), y su acción no es \"selectiva\" sobre la acetilcolinesterasa, ya que también inhiben otras colinesterasas (pseudocolinesterasa plasmática), por lo que D es incorrecta.",
+          "explicacion": "Los organofosforados inhiben de forma irreversible la acetilcolinesterasa: su acción selectiva es anticolinesterásica (D). La acumulación de acetilcolina produce un síndrome colinérgico con efectos muscarínicos (miosis, sialorrea, broncorrea, broncoespasmo, bradicardia, diarrea, sudoración), que suelen ser los primeros y más llamativos, nicotínicos (fasciculaciones, debilidad y parálisis muscular) y centrales (confusión, convulsiones, coma). Por tanto, el cuadro no se inicia con síntomas nicotínicos (C falsa). Se absorben bien por vía cutánea, respiratoria y digestiva (A falsa), y aunque la intoxicación puede ser grave, no es habitual la muerte en pocos minutos (B falsa): la causa de muerte suele ser la insuficiencia respiratoria en horas. El tratamiento es atropina y pralidoxima, además de la descontaminación.",
           "fuente": "Examen MIR 2020, pregunta 43",
           "origen": "real"
         },
@@ -51,15 +51,11 @@
             "C": "El control del foco se realizará tan pronto como sea posible.",
             "D": "Si la situación de shock séptico lleva más de 12 horas de evolución el control del foco ya no será beneficioso para el paciente."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "C",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, las guías de manejo del shock séptico (Surviving Sepsis Campaign) recomiendan el control del foco infeccioso tan pronto como sea posible, sin supeditarlo a haber administrado un número mínimo de dosis de antibiótico hace que la opción C también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEn el shock séptico con un foco infeccioso susceptible de abordaje (drenaje de absceso, retirada de catéter infectado, cirugía, etc.), el control del foco debe intentarse tan pronto como sea posible, ya que el retraso se asocia a mayor mortalidad; las guías de la Surviving Sepsis Campaign recomiendan su identificación y control precoz, en paralelo al inicio de antibioterapia empírica y a la reanimación hemodinámica, sin esperar a la estabilización completa del paciente ni a que hayan transcurrido horas de evolución.",
+          "explicacion": "En el shock séptico con un foco infeccioso susceptible de abordaje (drenaje de absceso, retirada de catéter infectado, cirugía, etc.), el control del foco debe intentarse tan pronto como sea posible, ya que el retraso se asocia a mayor mortalidad; las guías de la Surviving Sepsis Campaign recomiendan su identificación y control precoz, en paralelo al inicio de antibioterapia empírica y a la reanimación hemodinámica, sin esperar a la estabilización completa del paciente ni a que hayan transcurrido horas de evolución.",
           "fuente": "Examen MIR 2020, pregunta 102",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "C",
-            "motivo": "las guías de manejo del shock séptico (Surviving Sepsis Campaign) recomiendan el control del foco infeccioso tan pronto como sea posible, sin supeditarlo a haber administrado un número mínimo de dosis de antibiótico"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2020-104",
@@ -72,9 +68,9 @@
             "C": "Debe prepararse una posible transfusión de sangre con pruebas cruzadas.",
             "D": "Debe probarse la infusión de nuevo de otros 20 ml/kg de cristaloides."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "Este paciente politraumatizado presenta signos de shock hemorrágico (palidez, sudoración, pulso filiforme, taquicardia, taquipnea) y, tras una respuesta inicial transitoria a la infusión de cristaloides que posteriormente se deteriora de nuevo, se clasifica como \"respondedor transitorio\" según la clasificación ATLS de respuesta a la reanimación inicial. Este patrón indica una hemorragia activa y significativa que continúa pese al aporte de volumen, por lo que el paciente requiere transfusión de sangre sin demora; dado que no hay tiempo para completar pruebas cruzadas completas ni siquiera una determinación de grupo específico con la urgencia que exige la situación, está indicada la transfusión de sangre de emergencia no cruzada de grupo O Rh negativo (donante universal), minimizando el riesgo de reacciones hemolíticas mientras se procesan las pruebas cruzadas en paralelo. Repetir otro bolo de cristaloides sin iniciar la transfusión retrasaría un tratamiento necesario y puede agravar la coagulopatía dilucional y la acidosis.",
+          "explicacion": "Politraumatizado en shock hemorrágico (taquicardia, hipotensión, palidez, pulso filiforme) que responde transitoriamente a 20 ml/kg de cristaloides y vuelve a deteriorarse: es un 'respondedor transitorio' según el ATLS, lo que indica una hemorragia activa que requiere transfusión y probablemente control quirúrgico del sangrado. En el respondedor transitorio, la recomendación ATLS es transfundir sangre de grupo específico (isogrupo ABO y Rh), que puede estar disponible en unos 10-15 minutos (A). La sangre O Rh negativo de emergencia (B) se reserva para los no respondedores, que necesitan sangre de inmediato; esperar a las pruebas cruzadas completas (C) es propio de los respondedores rápidos y estables. Seguir infundiendo cristaloides (D) empeora la coagulopatía dilucional y no está indicado.",
           "fuente": "Examen MIR 2020, pregunta 104",
           "origen": "real"
         },
@@ -89,15 +85,45 @@
             "C": "Ciproheptadina.",
             "D": "Atropina."
           },
-          "respuesta_correcta": "B",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción B como correcta. Sin embargo, el cuadro descrito es un síndrome colinérgico muscarínico clásico (organofosforados/carbamatos), cuyo antídoto estándar es la atropina, mientras que el flumazenilo solo revierte benzodiazepinas hace que la opción D también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl cuadro descrito (vómitos, diarrea, sudoración, sialorrea, lagrimeo y miosis) constituye un síndrome colinérgico muscarínico típico de la intoxicación por organofosforados o carbamatos (inhibidores de la acetilcolinesterasa), ya sea por exposición a insecticidas o, con menor frecuencia, a agentes nerviosos. El antídoto de elección es la atropina, antagonista muscarínico que revierte la bradicardia, la broncorrea/broncoespasmo y las secreciones, y que se titula hasta conseguir la atropinización del paciente; en intoxicaciones graves se asocia además pralidoxima para reactivar la colinesterasa. Nota importante para revisión humana: según la farmacología estándar del síndrome colinérgico, el antídoto correcto es la atropina (opción D) y no el flumazenilo (antagonista de benzodiazepinas, sin efecto sobre receptores muscarínicos); se recomienda verificar esta clave contra la plantilla oficial, ya que administrar flumazenilo en este contexto no trataría el síndrome descrito.",
+          "explicacion": "El cuadro descrito (vómitos, diarrea, sudoración, sialorrea, lagrimeo y miosis) constituye un síndrome colinérgico muscarínico típico de la intoxicación por organofosforados o carbamatos (inhibidores de la acetilcolinesterasa), ya sea por exposición a insecticidas o, con menor frecuencia, a agentes nerviosos. El antídoto de elección es la atropina, antagonista muscarínico que revierte la bradicardia, la broncorrea/broncoespasmo y las secreciones, y que se titula hasta conseguir la atropinización del paciente; en intoxicaciones graves se asocia además pralidoxima para reactivar la colinesterasa.",
           "fuente": "Examen MIR 2021, pregunta 53",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "D",
-            "motivo": "el cuadro descrito es un síndrome colinérgico muscarínico clásico (organofosforados/carbamatos), cuyo antídoto estándar es la atropina, mientras que el flumazenilo solo revierte benzodiazepinas"
-          }
+          "origen": "real"
+        },
+        {
+          "id": "MIR-2021-199",
+          "año": 2021,
+          "numero_pregunta": 199,
+          "enunciado": "En relación con el soporte hemodinámico en pacientes con shock séptico, señale la respuesta INCORRECTA:",
+          "alternativas": {
+            "A": "El control hemodinámico inmediato es fundamental para el pronóstico.",
+            "B": "Deben administrarse fluidos (cristaloides) a razón de 30 ml/kg en la primera hora de atención.",
+            "C": "Debe administrarse hidrocortisona si tras el primer litro de cristaloides no se ha logrado el control hemodinámico.",
+            "D": "Debe iniciarse una perfusión con noradrenalina si tras la administración de fluidos no se logra control hemodinámico (tensión arterial media superior a 65 mmHg)."
+          },
+          "respuesta_correcta": "C",
+          "imagen_ref": null,
+          "explicacion": "La afirmación INCORRECTA es la C: la hidrocortisona en el shock séptico se indica cuando el paciente sigue precisando vasopresores (noradrenalina) a dosis moderadas o altas pese a una reposición adecuada de volumen (shock refractario), no simplemente porque no se haya conseguido el control hemodinámico tras el primer litro de cristaloides. El resto es correcto: la reanimación hemodinámica precoz es determinante para el pronóstico (A); se recomienda administrar cristaloides a razón de unos 30 ml/kg en las primeras horas (B); y si tras los líquidos no se alcanza una presión arterial media ≥65 mmHg, se inicia noradrenalina, el vasopresor de primera elección (D).",
+          "fuente": "Examen MIR 2021, pregunta 199",
+          "origen": "real"
+        },
+        {
+          "id": "MIR-2021-200",
+          "año": 2021,
+          "numero_pregunta": 200,
+          "enunciado": "Varón de 83 años con antecedentes de hipertensión arterial, diabetes mellitus e insuficiencia cardiaca que acude a urgencias del centro de salud por un cuadro de disnea de reposo, ortopnea, disnea paroxística nocturna y edemas maleolares de 24 horas de evolución. A su llegada el ECG muestra una fibrilación auricular a 126 lpm y se objetiva TA 79/47 mmHg, SatO2 89 %, temperatura 36,7ºC y frecuencia respiratoria 26 rpm. En la auscultación se aprecian crepitantes bibasales bilaterales. Se administra oxigeno con mascarilla Venturi al 50 %, furosemida 20 mg IV y morfina 2 mg IV Se le va a trasladar al hospital en un soporte vital avanzado donde se administrará ventilación no invasiva con presión positiva continua en la vía aérea (CPAP). ¿Cuál es la razón por la que aplicaría la CPAP en este caso?:",
+          "alternativas": {
+            "A": "Incrementa la capacidad residual funcional de sistema respiratorio.",
+            "B": "Es especialmente eficaz en el paciente con hipotensión y alteraciones del ritmo cardiaco.",
+            "C": "Produce un aumento de la presión intratorácica que aumenta la precarga cardiaca.",
+            "D": "Ocasiona un aumento de la presión transmural del ventrículo izquierdo."
+          },
+          "respuesta_correcta": "A",
+          "imagen_ref": null,
+          "explicacion": "En el edema agudo de pulmón cardiogénico, la CPAP aumenta la presión intratorácica y alveolar: recluta alvéolos colapsados o inundados e incrementa la capacidad residual funcional (A), lo que mejora la oxigenación (menos shunt), disminuye el trabajo respiratorio y mejora la distensibilidad pulmonar. Además, el aumento de presión intratorácica DISMINUYE la precarga (menor retorno venoso) y la poscarga del ventrículo izquierdo, al reducir su presión transmural (C y D falsas), lo que es beneficioso en la insuficiencia cardiaca. Precisamente por reducir el retorno venoso, la CPAP debe usarse con precaución en pacientes hipotensos (como este, con 79/47 mmHg), por lo que no es cierto que sea especialmente eficaz en la hipotensión y las arritmias (B).",
+          "fuente": "Examen MIR 2021, pregunta 200",
+          "origen": "real"
         },
         {
           "id": "MIR-2022-024",
@@ -110,15 +136,11 @@
             "C": "Espasmo esofágico difuso.",
             "D": "Retención alimentaria por tumor submucoso (leiomioma) obstructivo en tercio distal esofágico."
           },
-          "respuesta_correcta": "C",
+          "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción C como correcta. Sin embargo, la disfagia a sólidos y líquidos de años de evolución con pérdida de peso progresiva y ensanchamiento mediastínico es la presentación clásica de la acalasia (megaesófago) hace que la opción A también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl cuadro de disfagia intermitente de años de evolución para sólidos y líquidos, con episodios de retención alimentaria retroesternal, pérdida de peso progresiva y ensanchamiento mediastínico en la radiografía de tórax (por dilatación de la luz esofágica) es característico de un trastorno motor esofágico primario. El diagnóstico diferencial se establece fundamentalmente por manometría esofágica: en el espasmo esofágico difuso (EED) se objetivan contracciones simultáneas, no propulsivas, de gran amplitud en un porcentaje significativo de las degluciones húmedas, alternando con peristalsis normal, lo que puede producir clínicamente disfagia intermitente, dolor torácico y, en formas evolucionadas, dilatación esofágica visible en la TC con contraste como la descrita. Un gran divertículo de Zenker suele localizarse a nivel cervical (no mediastínico) y cursar con regurgitación de alimentos no digeridos y halitosis, mientras que un tumor submucoso obstructivo (leiomioma) produce típicamente disfagia progresiva sin el patrón intermitente de años de evolución descrito.",
+          "explicacion": "El cuadro de disfagia intermitente de años de evolución para sólidos y líquidos, con episodios de retención alimentaria retroesternal, pérdida de peso progresiva y ensanchamiento mediastínico en la radiografía de tórax (por dilatación de la luz esofágica) es característico de un trastorno motor esofágico primario. El diagnóstico diferencial se establece fundamentalmente por manometría esofágica: en el espasmo esofágico difuso (EED) se objetivan contracciones simultáneas, no propulsivas, de gran amplitud en un porcentaje significativo de las degluciones húmedas, alternando con peristalsis normal, lo que puede producir clínicamente disfagia intermitente, dolor torácico y, en formas evolucionadas, dilatación esofágica visible en la TC con contraste como la descrita. Un gran divertículo de Zenker suele localizarse a nivel cervical (no mediastínico) y cursar con regurgitación de alimentos no digeridos y halitosis, mientras que un tumor submucoso obstructivo (leiomioma) produce típicamente disfagia progresiva sin el patrón intermitente de años de evolución descrito.",
           "fuente": "Examen MIR 2022, pregunta 24",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "A",
-            "motivo": "la disfagia a sólidos y líquidos de años de evolución con pérdida de peso progresiva y ensanchamiento mediastínico es la presentación clásica de la acalasia (megaesófago)"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-195",
@@ -131,9 +153,9 @@
             "C": "Observación y repetición de niveles de paracetamol, pruebas hepáticas y coagulación en 4 horas.",
             "D": "Iniciar tratamiento con N-acetilcisteína y mantenerlo en función de la evolución de los niveles de paracetamol, pruebas hepáticas y renales."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "En la intoxicación aguda por paracetamol, la actitud terapéutica se basa en el nomograma de Rumack-Matthew, que relaciona la concentración plasmática del fármaco con el tiempo transcurrido desde la ingesta (siendo válido a partir de las 4 horas). Cuando el nivel se sitúa en el rango de probable toxicidad hepática pero las pruebas de función hepática y la coagulación son aún normales (como en esta paciente, a las 12 horas de la ingesta), la conducta consiste en mantener una vigilancia estrecha con reevaluación analítica seriada (niveles de paracetamol, transaminasas y coagulación) para decidir si se instaura o no tratamiento antidótico con N-acetilcisteína, reservando esta última para los casos en que se confirme o progrese el riesgo de hepatotoxicidad. Este manejo evita tanto el infratratamiento como la administración innecesaria de N-acetilcisteína, que no está exenta de efectos adversos (reacciones anafilactoides).",
+          "explicacion": "Intoxicación por paracetamol con un nivel plasmático por encima de la línea de tratamiento del nomograma de Rumack-Matthew (rango de probable toxicidad hepática) a las 12 horas de la ingesta: está indicado iniciar inmediatamente N-acetilcisteína, aunque las pruebas hepáticas y la coagulación sean todavía normales, porque la hepatotoxicidad aparece a las 24-72 horas y la NAC es más eficaz si se administra en las primeras 8-10 horas (pero sigue siendo útil después). La duración del tratamiento no es fija: tras la pauta estándar se mantiene o se suspende según la evolución de los niveles de paracetamol y de las pruebas hepáticas, la coagulación y la función renal (D). La observación sin tratamiento (A y C) retrasaría el antídoto en una paciente con niveles tóxicos, y una duración fija de 12 horas (B) puede ser insuficiente.",
           "fuente": "Examen MIR 2022, pregunta 195",
           "origen": "real"
         },
@@ -148,15 +170,11 @@
             "C": "La reposición del volumen se debe realizar con cristaloides dentro de las 3 primeras horas.",
             "D": "Se recomienda la dopamina como el vasopresor de primera elección."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción A como correcta. Sin embargo, la noradrenalina, no la dopamina, es el vasopresor de primera elección en el shock séptico según las guías vigentes, mientras que la determinación de lactato sí es una recomendación correcta hace que la opción D también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl shock séptico se caracteriza por hipoperfusión tisular que se refleja en la elevación del lactato sérico, motivo por el cual su determinación seriada como marcador de perfusión e indicador de respuesta al tratamiento está recomendada por las guías de la Surviving Sepsis Campaign (afirmación A correcta). También son correctas la toma precoz de cultivos con inicio de antibioterapia empírica de amplio espectro en la primera hora (paquete de medidas \"hour-1 bundle\") y la reposición de volumen con cristaloides (al menos 30 ml/kg) en las primeras 3 horas.",
+          "explicacion": "La afirmación INCORRECTA es la D: el vasopresor de primera elección en el shock séptico es la NORADRENALINA, no la dopamina. La dopamina se asocia a más arritmias y a una mayor mortalidad en comparación con la noradrenalina, por lo que solo se considera en casos muy seleccionados (por ejemplo, bradicardia con bajo riesgo de taquiarritmias). Si se necesita un segundo fármaco se añade vasopresina, y la dobutamina se utiliza si hay disfunción miocárdica. El resto de afirmaciones es correcto: se debe medir el lactato como marcador de hipoperfusión tisular y repetirlo para guiar la reanimación (A); hay que obtener hemocultivos e iniciar antibioterapia empírica de amplio espectro en la primera hora (B); y la reposición inicial de volumen se hace con cristaloides (unos 30 ml/kg) en las primeras 3 horas (C).",
           "fuente": "Examen MIR 2022, pregunta 196",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "D",
-            "motivo": "la noradrenalina, no la dopamina, es el vasopresor de primera elección en el shock séptico según las guías vigentes, mientras que la determinación de lactato sí es una recomendación correcta"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-197",
@@ -169,9 +187,9 @@
             "C": "El uso de mantas de enfriamiento es la medida más eficaz para la rápida reducción de la temperatura corporal.",
             "D": "Medidas de soporte, enfriamiento con esponjas empapadas en alcohol aplicadas sobre la superficie corporal y antipiréticos."
           },
-          "respuesta_correcta": "A",
+          "respuesta_correcta": "B",
           "imagen_ref": null,
-          "explicacion": "En el golpe de calor, además de las medidas generales de soporte (vía aérea, oxigenación, monitorización), el objetivo prioritario es reducir la temperatura corporal lo más rápido posible, ya que el pronóstico depende directamente de la duración de la hipertermia. La inmersión en agua fría/helada es el método de enfriamiento más rápido y eficaz quirúrgicamente demostrado, por lo que se recomienda siempre que la situación clínica y los medios disponibles lo permitan, complementada con las medidas de soporte habituales (vía aérea, oxígeno, fluidoterapia). El enfriamiento con esponjas o mantas es menos eficaz y más lento, y los antipiréticos son ineficaces en el golpe de calor porque el problema no es una elevación del punto de ajuste hipotalámico (como en la fiebre) sino un fallo de los mecanismos de termorregulación; el uso de alcohol tópico, además, conlleva riesgo de intoxicación por absorción cutánea e inflamabilidad.",
+          "explicacion": "Golpe de calor clásico en un anciano expuesto a altas temperaturas, con hipertermia (40,5 ºC) y afectación neurológica. Lo prioritario son las medidas de soporte (vía aérea, oxigenación, monitorización) y el enfriamiento rápido. Según la plantilla oficial, la actuación inicial más correcta es el enfriamiento externo por evaporación, humedeciendo la superficie corporal con esponjas o agua templada-fresca (15-20 ºC) y ventilación, junto con una hidratación adecuada por vía intravenosa (B): es el método más práctico y bien tolerado en el anciano con golpe de calor clásico, en el que además es frecuente la deshidratación. La inmersión en agua helada (A) es muy eficaz en el golpe de calor por ejercicio en jóvenes, pero es difícil de aplicar y peor tolerada en el anciano. Las mantas de enfriamiento (C) son menos eficaces. El alcohol (D) puede absorberse por la piel y producir intoxicación, y los antipiréticos no son útiles, porque en el golpe de calor no hay alteración del termostato hipotalámico.",
           "fuente": "Examen MIR 2022, pregunta 197",
           "origen": "real"
         },
@@ -186,15 +204,11 @@
             "C": "Tres puntos.",
             "D": "Cuatro puntos."
           },
-          "respuesta_correcta": "C",
+          "respuesta_correcta": "A",
           "imagen_ref": null,
-          "explicacion": "⚠️ Nota de incertidumbre: el gabarito oficial (plantilla PROVISIONAL del Ministerio de Sanidad, previa al periodo de alegaciones — no se tiene acceso a la plantilla definitiva) marca la opción C como correcta. Sin embargo, con los datos aportados (Glasgow 15, frecuencia respiratoria 18 rpm, PAS 92 mmHg) solo se cumple un criterio del qSOFA (hipotensión), lo que da una puntuación de 1 punto y no de 3 hace que la opción A también parezca defendible o más consistente con el enunciado. Se mantiene aquí la opción oficial por fidelidad a la fuente, pero se recomienda contrastarla con la plantilla definitiva antes de darla por segura.\n\nEl qSOFA (quick SOFA) es una escala de cribado rápido de gravedad en pacientes con sospecha de infección, formada por tres criterios que puntúan 1 punto cada uno: frecuencia respiratoria ≥ 22 rpm, alteración del nivel de conciencia (Glasgow < 15) y presión arterial sistólica ≤ 100 mmHg. En este paciente, la frecuencia respiratoria es de 18 rpm (no cumple criterio), el Glasgow es de 15 (no cumple criterio) y la presión arterial sistólica es de 92 mmHg (sí cumple criterio); la frecuencia cardiaca y la temperatura no forman parte del qSOFA.",
+          "explicacion": "El qSOFA (quick SOFA) es una escala de cribado rápido de gravedad en pacientes con sospecha de infección, formada por tres criterios que puntúan 1 punto cada uno: frecuencia respiratoria ≥ 22 rpm, alteración del nivel de conciencia (Glasgow < 15) y presión arterial sistólica ≤ 100 mmHg. En este paciente, la frecuencia respiratoria es de 18 rpm (no cumple criterio), el Glasgow es de 15 (no cumple criterio) y la presión arterial sistólica es de 92 mmHg (sí cumple criterio); la frecuencia cardiaca y la temperatura no forman parte del qSOFA.",
           "fuente": "Examen MIR 2022, pregunta 198",
-          "origen": "real",
-          "revision_incierta": {
-            "alternativa_sugerida": "A",
-            "motivo": "con los datos aportados (Glasgow 15, frecuencia respiratoria 18 rpm, PAS 92 mmHg) solo se cumple un criterio del qSOFA (hipotensión), lo que da una puntuación de 1 punto y no de 3"
-          }
+          "origen": "real"
         },
         {
           "id": "MIR-2022-199",
@@ -328,7 +342,7 @@
           },
           "respuesta_correcta": "D",
           "imagen_ref": null,
-          "explicacion": "En el shock hipovolémico con oliguria, la clave para diferenciar un fracaso renal prerrenal (funcional, por hipoperfusión) de una necrosis tubular aguda (NTA) establecida son los índices urinarios, que reflejan la integridad de la capacidad de concentración tubular. En la NTA, el daño de las células tubulares hace que el riñón pierda su capacidad de concentrar la orina, por lo que la osmolalidad urinaria se aproxima a la plasmática (típicamente < 350-400 mOsm/kg), mientras que en el fracaso prerrenal la orina está muy concentrada (osmolalidad > 500 mOsm/kg). Por el contrario, un sodio urinario < 20 mEq/L, una excreción fraccional de sodio < 1% y un cociente creatinina urinaria/plasmática elevado (> 40) son todos indicativos de indemnidad tubular con reabsorción ávida de sodio y agua, propios de una respuesta prerrenal fisiológica y no de NTA.",
+          "explicacion": "En la NTA, el daño de las células tubulares hace que el riñón pierda su capacidad de concentrar la orina, por lo que la osmolalidad urinaria se aproxima a la plasmática (típicamente < 350-400 mOsm/kg), mientras que en el fracaso prerrenal la orina está muy concentrada (osmolalidad > 500 mOsm/kg). Por el contrario, un sodio urinario < 20 mEq/L, una excreción fraccional de sodio < 1% y un cociente creatinina urinaria/plasmática elevado (> 40) son todos indicativos de indemnidad tubular con reabsorción ávida de sodio y agua, propios de una respuesta prerrenal fisiológica y no de NTA.",
           "fuente": "Examen MIR 2025, pregunta 137",
           "origen": "real"
         },
