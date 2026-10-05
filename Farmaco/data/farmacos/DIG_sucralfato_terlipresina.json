@@ -7,7 +7,7 @@
     ],
     "area": "DIG",
     "nivel": 1,
-    "clase": "Vasoactivo esplácnico",
+    "clase": "Visión de clase: vasoactivos esplácnicos",
     "subclase": "Análogo de vasopresina y análogos de somatostatina",
     "mecanismo": "Ambos reducen la presión portal por el mismo objetivo y por vías distintas. La TERLIPRESINA es un profármaco de la vasopresina que libera lisina-vasopresina de forma lenta y sostenida; actúa sobre receptores V1 del músculo liso de las arteriolas ESPLÁCNICAS produciendo vasoconstricción, con lo que disminuye el flujo que llega al territorio portal y baja la presión en las varices. En el síndrome hepatorrenal ese mismo mecanismo corrige el problema de fondo: la vasodilatación esplácnica del cirrótico secuestra volumen circulante efectivo, el riñón lo interpreta como hipovolemia y se vasoconstriñe; al contraer el lecho esplácnico se redistribuye volumen hacia la circulación sistémica y mejora la perfusión renal. La SOMATOSTATINA y su análogo OCTREÓTIDO inhiben la liberación de péptidos vasodilatadores esplácnicos, sobre todo el glucagón, consiguiendo un efecto similar con menos vasoconstricción sistémica y por tanto menos isquemia.",
     "espectro": null,
@@ -123,7 +123,8 @@
     ],
     "embarazo_lactancia": "La TERLIPRESINA está contraindicada en el embarazo por su efecto oxitócico. El octreótido se usa solo si el beneficio lo justifica; los datos son limitados.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 62; guías Baveno y AASLD sobre hipertensión portal y síndrome hepatorrenal"
+    "fuente": "Katzung 15.ª ed., cap. 62; guías Baveno y AASLD sobre hipertensión portal y síndrome hepatorrenal",
+    "vision_clase": true
   },
   {
     "id": "DIG-sucralfato-antiacidos",
@@ -133,7 +134,7 @@
     ],
     "area": "DIG",
     "nivel": 2,
-    "clase": "Protector gástrico",
+    "clase": "Visión de clase: protectores gástricos no IBP",
     "subclase": "Agente de barrera, neutralizantes y antagonistas del receptor H2",
     "mecanismo": "Son tres estrategias distintas frente al mismo problema. El SUCRALFATO es sacarosa sulfatada con hidróxido de aluminio que, en medio ÁCIDO, se polimeriza formando un gel viscoso y pegajoso que se adhiere selectivamente a la base ULCERADA (donde hay proteínas expuestas) creando una barrera física; además estimula prostaglandinas y bicarbonato locales. La consecuencia práctica es paradójica: NECESITA ácido para activarse, de modo que administrarlo junto a un inhibidor de la bomba de protones lo inutiliza. Los ANTIÁCIDOS (magnesio, aluminio, calcio) neutralizan químicamente el ácido ya secretado, con efecto inmediato y muy breve. Los ANTAGONISTAS H2 (famotidina, ranitidina) bloquean el receptor H2 de la célula parietal y reducen la secreción ácida, sobre todo la NOCTURNA, pero desarrollan TAQUIFILAXIA en pocos días, lo que limita su uso continuado y explica por qué los inhibidores de la bomba de protones los desplazaron.",
     "espectro": null,
@@ -251,6 +252,7 @@
     "micro_relacionado": [
       "BGN-helicobacter-pylori"
     ],
-    "fuente": "Katzung 15.ª ed., cap. 62; guías sobre enfermedad por reflujo gastroesofágico y profilaxis de la úlcera de estrés"
+    "fuente": "Katzung 15.ª ed., cap. 62; guías sobre enfermedad por reflujo gastroesofágico y profilaxis de la úlcera de estrés",
+    "vision_clase": true
   }
 ]

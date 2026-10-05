@@ -1,0 +1,709 @@
+[
+  {
+    "id": "END-liotironina",
+    "nombre": "Liotironina (T3)",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Fármaco tiroideo (hormona y yodo)",
+    "subclase": "Triyodotironina sintética de acción rápida",
+    "vs_clase": [
+      "**Es la hormona ACTIVA (T3)**: inicio en horas y vida media de 1 día (la levotiroxina tarda semanas en estabilizarse).",
+      "**Usos específicos**: **coma mixedematoso** (con levotiroxina), preparación para el rastreo con yodo radiactivo en el cáncer de tiroides, potenciador antidepresivo.",
+      "**No es de elección en el hipotiroidismo habitual** (niveles fluctuantes, taquicardia)."
+    ],
+    "mecanismo": "Se une al receptor nuclear de hormona tiroidea, regulando la transcripción de genes del metabolismo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Coma mixedematoso (con levotiroxina IV e hidrocortisona)",
+        "dosis": "5-20 µg de carga, después 2,5-10 µg",
+        "posologia": "Cada 8 h",
+        "via": "IV / VO",
+        "nota": "Dosis bajas en cardiópatas"
+      },
+      {
+        "patologia": "Potenciación de antidepresivos en depresión resistente",
+        "dosis": "25-50 µg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Uso fuera de ficha"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis bajas.",
+      "titulacion": "Según clínica y T3.",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "VO o IV.",
+      "monitorizacion": "FC, ECG, T3 libre."
+    },
+    "farmacocinetica": {
+      "absorcion": "95%.",
+      "distribucion": "Menor unión a proteínas que la T4.",
+      "metabolismo": "Desyodación.",
+      "eliminacion": "Renal.",
+      "vida_media": "**1 día.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumenta su efecto",
+          "gravedad": "media",
+          "manejo": "Control de INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Palpitaciones, nerviosismo"
+      ],
+      "graves": [
+        "Arritmias, angina",
+        "Tirotoxicosis iatrogénica"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia suprarrenal no tratada",
+      "Tirotoxicosis"
+    ],
+    "perlas": [
+      "En el anciano cardiópata, una T3 a dosis plena puede precipitar un infarto."
+    ],
+    "embarazo_lactancia": "Se prefiere levotiroxina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38"
+  },
+  {
+    "id": "END-yoduro-potasico",
+    "nombre": "Yoduro potásico (solución de Lugol)",
+    "sinonimos": [
+      "Lugol"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Fármaco tiroideo (hormona y yodo)",
+    "subclase": "Yodo inorgánico a dosis farmacológicas",
+    "vs_clase": [
+      "**A dosis altas BLOQUEA la liberación de hormona tiroidea en horas (efecto Wolff-Chaikoff)**: crisis tirotóxica y preparación prequirúrgica de Graves (reduce la vascularización).",
+      "**Darlo al menos 1 h DESPUÉS de la tionamida** (si no, sirve de sustrato para más hormona).",
+      "**Protección tiroidea frente a la exposición a yodo radiactivo** (accidentes nucleares)."
+    ],
+    "mecanismo": "El exceso de yoduro inhibe la organificación y, sobre todo, la proteólisis de la tiroglobulina y la liberación de T4/T3; efecto transitorio (escape en 10-14 días).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis tirotóxica",
+        "dosis": "5-10 gotas de Lugol (≈250 mg de yodo)",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "1 h tras PTU o tiamazol"
+      },
+      {
+        "patologia": "Preparación para tiroidectomía en enfermedad de Graves",
+        "dosis": "5-7 gotas",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "7-10 días antes de la cirugía"
+      },
+      {
+        "patologia": "Bloqueo tiroideo ante exposición a yodo radiactivo",
+        "dosis": "130 mg (adulto)",
+        "posologia": "Dosis única diaria mientras dure la exposición",
+        "via": "VO",
+        "nota": "Según autoridades sanitarias"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras la tionamida.",
+      "titulacion": "—",
+      "duracion": "Días (escape en 2 semanas).",
+      "fin": "—",
+      "via": "VO (diluido en agua o leche).",
+      "monitorizacion": "Función tiroidea, sialoadenitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Captación tiroidea.",
+      "metabolismo": "—",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Litio",
+          "efecto": "Hipotiroidismo aditivo",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        },
+        {
+          "con": "Ahorradores de potasio",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor metálico, sialorrea",
+        "Exantema acneiforme"
+      ],
+      "graves": [
+        "Hipotiroidismo o hipertiroidismo inducido por yodo (Jod-Basedow)",
+        "Angioedema"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al yodo",
+      "Bocio multinodular tóxico sin tionamida (Jod-Basedow)"
+    ],
+    "perlas": [
+      "Orden en la tormenta tiroidea: betabloqueante + tionamida → 1 h → yodo + hidrocortisona."
+    ],
+    "embarazo_lactancia": "Uso puntual (bocio fetal con uso prolongado).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38"
+  },
+  {
+    "id": "END-carbimazol",
+    "nombre": "Carbimazol",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antitiroideo de síntesis (tionamida)",
+    "subclase": "Profármaco del tiamazol",
+    "vs_clase": [
+      "**PROFÁRMACO del tiamazol**: se convierte en él (10 mg de carbimazol ≈ 6 mg de tiamazol).",
+      "Mismas indicaciones, efectos adversos (agranulocitosis) y **embriopatía en el 1.er trimestre** que el tiamazol.",
+      "Muy usado en el Reino Unido y en parte de Europa."
+    ],
+    "mecanismo": "Tras su conversión a tiamazol, inhibe la peroxidasa tiroidea.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertiroidismo (Graves, bocio tóxico)",
+        "dosis": "15-40 mg (inicio), mantenimiento 5-15 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "12-18 meses en Graves"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma y transaminasas basales.",
+      "titulacion": "Según T4L cada 4-6 semanas.",
+      "duracion": "12-18 meses.",
+      "fin": "Suspender ante fiebre/odinofagia (hemograma).",
+      "via": "VO.",
+      "monitorizacion": "Función tiroidea, hemograma si síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa; conversión rápida.",
+      "distribucion": "Concentración tiroidea.",
+      "metabolismo": "A tiamazol.",
+      "eliminacion": "Renal.",
+      "vida_media": "Tiamazol 6 h (efecto 24 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Cambios de sensibilidad al normalizar la función tiroidea",
+          "gravedad": "media",
+          "manejo": "INR frecuente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema, prurito",
+        "Artralgias"
+      ],
+      "graves": [
+        "**Agranulocitosis**",
+        "Hepatitis colestásica",
+        "Pancreatitis aguda (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "1.er trimestre del embarazo",
+      "Agranulocitosis previa"
+    ],
+    "perlas": [
+      "Educar: fiebre o dolor de garganta = consultar el mismo día."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre; compatible con lactancia a dosis bajas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38"
+  },
+  {
+    "id": "END-teriparatida",
+    "nombre": "Teriparatida",
+    "sinonimos": [
+      "Abaloparatida"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Osteoformador y antirresortivo no bisfosfonato",
+    "subclase": "Análogo de PTH (anabólico óseo)",
+    "vs_clase": [
+      "**ANABÓLICO: FORMA hueso nuevo** (los demás frenan su destrucción); de elección en **osteoporosis grave con fracturas vertebrales múltiples** y en la inducida por corticoides.",
+      "**Inyección SC DIARIA, máximo 24 meses** (osteosarcoma en ratas).",
+      "**Tras suspenderla, antirresortivo obligatorio** para no perder la ganancia."
+    ],
+    "mecanismo": "Fragmento 1-34 de la PTH que, en administración intermitente, estimula más los osteoblastos que los osteoclastos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Osteoporosis con riesgo muy alto de fractura (fracturas vertebrales múltiples, T-score ≤-3)",
+        "dosis": "20 µg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "24 meses y después bisfosfonato o denosumab"
+      }
+    ],
+    "esquema": {
+      "inicio": "Calcio, vitamina D y fosfatasa alcalina basales.",
+      "titulacion": "No se titula.",
+      "duracion": "**Máximo 24 meses.**",
+      "fin": "Secuenciar a antirresortivo.",
+      "via": "SC (pluma).",
+      "monitorizacion": "Calcemia, densitometría."
+    },
+    "farmacocinetica": {
+      "absorcion": "95% SC.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (proteólisis).",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "Contraindicada con FG <30.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Digoxina",
+          "efecto": "La hipercalcemia transitoria favorece la toxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, hipotensión ortostática tras la inyección",
+        "Calambres",
+        "Hipercalcemia transitoria"
+      ],
+      "graves": [
+        "Osteosarcoma (animales)",
+        "Hipercalciuria"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad de Paget, radioterapia ósea previa, tumores óseos",
+      "Hipercalcemia, hiperparatiroidismo",
+      "FG <30",
+      "Epífisis abiertas"
+    ],
+    "perlas": [
+      "Secuencia ideal en riesgo muy alto: anabólico primero, antirresortivo después."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "END-romosozumab",
+    "nombre": "Romosozumab",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Osteoformador y antirresortivo no bisfosfonato",
+    "subclase": "Anticuerpo anti-esclerostina (doble efecto)",
+    "vs_clase": [
+      "**DOBLE efecto: forma hueso y frena la resorción** (bloquea la esclerostina): la mayor ganancia de densidad en 12 meses.",
+      "**Solo 12 meses** (dosis mensual) y después antirresortivo.",
+      "**Aumento de eventos CARDIOVASCULARES** (infarto, ictus) en un ensayo: contraindicado con antecedente de IAM o ictus."
+    ],
+    "mecanismo": "Anticuerpo frente a la esclerostina, inhibidor de la vía Wnt: aumenta la formación ósea y reduce la resorción.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Osteoporosis posmenopáusica grave con riesgo muy alto de fractura",
+        "dosis": "210 mg (2 inyecciones de 105 mg)",
+        "posologia": "Mensual",
+        "via": "SC",
+        "nota": "12 dosis y después antirresortivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar antecedente de IAM o ictus; corregir vitamina D.",
+      "titulacion": "No se titula.",
+      "duracion": "12 meses.",
+      "fin": "Pasar a bisfosfonato o denosumab.",
+      "via": "SC.",
+      "monitorizacion": "Calcio, eventos cardiovasculares."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC 81%.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "12,8 días.",
+      "ajuste_renal": "No precisa (vigilar calcio).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Artralgias",
+        "Reacción local"
+      ],
+      "graves": [
+        "**Infarto e ictus**",
+        "Hipocalcemia",
+        "Osteonecrosis de mandíbula (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de infarto o ictus",
+      "Hipocalcemia"
+    ],
+    "perlas": [
+      "La elección entre teriparatida y romosozumab depende sobre todo del riesgo cardiovascular."
+    ],
+    "embarazo_lactancia": "No aplicable (posmenopausia).",
+    "micro_relacionado": [],
+    "fuente": "Guía de osteoporosis (SEIOMM); Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "END-colecalciferol",
+    "nombre": "Colecalciferol (vitamina D3)",
+    "sinonimos": [
+      "Ergocalciferol (D2)"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Vitamina D y metabolitos",
+    "subclase": "Vitamina D nativa (requiere hidroxilación hepática y renal)",
+    "vs_clase": [
+      "**Forma NATIVA: necesita la 25-hidroxilación hepática y la 1-alfa renal**; es la de elección para corregir el déficit y en la prevención.",
+      "**Inicio lento y depósito en grasa**: se puede dar semanal o mensual.",
+      "**No sirve en la ERC avanzada** para controlar el hiperparatiroidismo secundario (ahí, calcitriol o paricalcitol)."
+    ],
+    "mecanismo": "Precursor que, tras hidroxilarse a 25-OH-D (hígado) y a 1,25-(OH)2-D (riñón), aumenta la absorción intestinal de calcio y fósforo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Déficit de vitamina D (25-OH-D <20 ng/mL)",
+        "dosis": "25.000 UI semanales (o 50.000 UI) o 1.000-4.000 UI diarias",
+        "posologia": "Semanal o diaria",
+        "via": "VO",
+        "nota": "8-12 semanas y después mantenimiento"
+      },
+      {
+        "patologia": "Prevención en osteoporosis o ancianos institucionalizados",
+        "dosis": "800-1.000 UI/día",
+        "posologia": "Cada 24 h (o equivalente semanal/mensual)",
+        "via": "VO",
+        "nota": "Con calcio si la dieta es insuficiente"
+      }
+    ],
+    "esquema": {
+      "inicio": "25-OH-D basal si hay indicación de medirla.",
+      "titulacion": "Según niveles a los 3 meses.",
+      "duracion": "Mientras persista el riesgo.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "25-OH-D (objetivo >30 ng/mL), calcemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intestinal, con grasa.",
+      "distribucion": "Tejido adiposo (reservorio).",
+      "metabolismo": "Hidroxilación hepática (25) y renal (1-alfa).",
+      "eliminacion": "Biliar.",
+      "vida_media": "Semanas (25-OH-D: 2-3 semanas).",
+      "ajuste_renal": "No corrige el déficit de 1-alfa hidroxilación en ERC avanzada.",
+      "ajuste_hepatico": "Eficacia menor en cirrosis grave (usar calcifediol).",
+      "interacciones": [
+        {
+          "con": "Tiazidas",
+          "efecto": "Hipercalcemia",
+          "gravedad": "media",
+          "manejo": "Vigilar calcio"
+        },
+        {
+          "con": "Antiepilépticos inductores, rifampicina",
+          "efecto": "Aceleran su metabolismo",
+          "gravedad": "media",
+          "manejo": "Dosis mayores"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Raros a dosis habituales"
+      ],
+      "graves": [
+        "Hipercalcemia e hipercalciuria por sobredosis",
+        "Nefrolitiasis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia",
+      "Sarcoidosis y granulomatosis (relativa)"
+    ],
+    "perlas": [
+      "Dosis anuales masivas (300.000-500.000 UI) aumentan las caídas: mejor diaria o semanal."
+    ],
+    "embarazo_lactancia": "Compatible a dosis de suplementación.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "END-calcifediol",
+    "nombre": "Calcifediol (25-hidroxivitamina D)",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Vitamina D y metabolitos",
+    "subclase": "Metabolito 25-hidroxilado",
+    "vs_clase": [
+      "**Ya hidroxilado en 25: no depende del hígado** → útil en **hepatopatía y malabsorción**; sube los niveles más rápido que el colecalciferol.",
+      "**Más potente por microgramo** (0,266 mg ≈ 16.000 UI de D3 «equivalente» habitual en España): **mayor riesgo de sobredosificación** si se usa sin control.",
+      "**Muy usado en España** en ampollas quincenales o mensuales."
+    ],
+    "mecanismo": "Precursor directo del calcitriol (solo requiere la 1-alfa hidroxilación renal).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Déficit de vitamina D, especialmente con hepatopatía o malabsorción",
+        "dosis": "0,266 mg (1 cápsula)",
+        "posologia": "Cada 15-30 días",
+        "via": "VO",
+        "nota": "Ajustar a niveles"
+      }
+    ],
+    "esquema": {
+      "inicio": "Medir 25-OH-D.",
+      "titulacion": "Según niveles a los 3 meses.",
+      "duracion": "Mientras persista el riesgo.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "**25-OH-D y calcio** (evitar >100 ng/mL)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mejor que la D3 (hidrófila).",
+      "distribucion": "Menor depósito graso.",
+      "metabolismo": "1-alfa hidroxilación renal.",
+      "eliminacion": "Biliar.",
+      "vida_media": "2-3 semanas.",
+      "ajuste_renal": "No sustituye al calcitriol en ERC avanzada.",
+      "ajuste_hepatico": "**De elección en hepatopatía.**",
+      "interacciones": [
+        {
+          "con": "Tiazidas",
+          "efecto": "Hipercalcemia",
+          "gravedad": "media",
+          "manejo": "Vigilar calcio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Raros"
+      ],
+      "graves": [
+        "**Hipercalcemia por sobredosificación**",
+        "Nefrocalcinosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia",
+      "Hipervitaminosis D"
+    ],
+    "perlas": [
+      "La intoxicación por vitamina D en España suele deberse a calcifediol mal dosificado (ampollas semanales en lugar de mensuales)."
+    ],
+    "embarazo_lactancia": "Compatible a dosis de suplementación.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "END-calcitriol",
+    "nombre": "Calcitriol (1,25-dihidroxivitamina D)",
+    "sinonimos": [
+      "Alfacalcidol",
+      "Paricalcitol (activador selectivo del receptor de vitamina D)"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Vitamina D y metabolitos",
+    "subclase": "Forma hormonal activa",
+    "vs_clase": [
+      "**La forma ACTIVA: no necesita hidroxilaciones** → **hipoparatiroidismo** y **ERC avanzada** con hiperparatiroidismo secundario.",
+      "**No sirve para corregir el déficit de 25-OH-D** (no eleva los depósitos).",
+      "**Vida media corta y gran potencia: HIPERCALCEMIA** frecuente; control de calcio y fósforo estrecho."
+    ],
+    "mecanismo": "Agonista del receptor nuclear de vitamina D: aumenta la absorción intestinal de calcio y fósforo y suprime la PTH.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipoparatiroidismo (con calcio)",
+        "dosis": "0,25-1 µg",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Objetivo calcio en el límite bajo de la normalidad"
+      },
+      {
+        "patologia": "Hiperparatiroidismo secundario de la ERC",
+        "dosis": "0,25-0,5 µg",
+        "posologia": "Cada 24 h o a días alternos",
+        "via": "VO",
+        "nota": "Según PTH, calcio y fósforo"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,25 µg.",
+      "titulacion": "Cada 2-4 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO o IV (diálisis).",
+      "monitorizacion": "**Calcio y fósforo semanales al inicio**, PTH, calciuria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "—",
+      "metabolismo": "24-hidroxilación.",
+      "eliminacion": "Biliar.",
+      "vida_media": "5-8 h.",
+      "ajuste_renal": "Uso específico en ERC.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Tiazidas, suplementos de calcio",
+          "efecto": "Hipercalcemia",
+          "gravedad": "alta",
+          "manejo": "Vigilar"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Arritmias por hipercalcemia",
+          "gravedad": "media",
+          "manejo": "Vigilar calcio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipercalcemia leve, hipercalciuria"
+      ],
+      "graves": [
+        "**Hipercalcemia grave**",
+        "Calcificaciones vasculares",
+        "Nefrocalcinosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia",
+      "Hipervitaminosis D"
+    ],
+    "perlas": [
+      "Hipoparatiroidismo tras tiroidectomía: calcio + calcitriol, no colecalciferol solo."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "END-fludrocortisona",
+    "nombre": "Fludrocortisona",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Corticoide sistémico (gluco y mineralocorticoide)",
+    "subclase": "Mineralocorticoide puro (a dosis terapéuticas)",
+    "vs_clase": [
+      "**MINERALOCORTICOIDE**: sustituye a la aldosterona en la **insuficiencia suprarrenal PRIMARIA** (con hidrocortisona).",
+      "**Hipotensión ortostática** neurogénica y síncope vasovagal refractario.",
+      "**Edemas, HTA e hipopotasemia** por exceso; sin efecto antiinflamatorio útil a esas dosis."
+    ],
+    "mecanismo": "Agonista del receptor mineralocorticoide: reabsorción de sodio y excreción de potasio en el túbulo colector.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia suprarrenal primaria (enfermedad de Addison)",
+        "dosis": "0,05-0,2 mg",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "Ajustar con renina, PA de pie y potasio"
+      },
+      {
+        "patologia": "Hipotensión ortostática neurogénica",
+        "dosis": "0,1-0,2 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Con sal y medidas posturales"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,05-0,1 mg.",
+      "titulacion": "Según PA, potasio y renina.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "PA (tumbado y de pie), potasio, edemas, renina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "3,5 h (efecto 1-2 días).",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Diuréticos de asa y tiazidas",
+          "efecto": "Hipopotasemia",
+          "gravedad": "media",
+          "manejo": "Control de K"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Toxicidad por hipopotasemia",
+          "gravedad": "media",
+          "manejo": "Control de K"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Edemas",
+        "Hipertensión en decúbito"
+      ],
+      "graves": [
+        "**Hipopotasemia**",
+        "Insuficiencia cardiaca"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia cardiaca",
+      "Hipertensión no controlada"
+    ],
+    "perlas": [
+      "Con hidrocortisona ≥50 mg/día no hace falta: ya aporta efecto mineralocorticoide."
+    ],
+    "embarazo_lactancia": "Necesaria en Addison; usar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39"
+  }
+]

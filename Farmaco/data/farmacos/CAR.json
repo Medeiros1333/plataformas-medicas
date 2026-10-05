@@ -270,8 +270,8 @@
     "sinonimos": [],
     "area": "CAR",
     "nivel": 1,
-    "clase": "Antagonista del calcio dihidropiridínico",
-    "subclase": "Vasoselectivo de acción prolongada",
+    "clase": "Antagonista del calcio",
+    "subclase": "Dihidropiridina vasoselectiva de acción prolongada",
     "vs_clase": [
       "**Vida media muy larga (35-50 h)**: una toma diaria con descenso de PA suave y sin taquicardia refleja (a diferencia del nifedipino de liberación inmediata).",
       "**Seguro en la insuficiencia cardiaca con FEVI reducida** (neutro en PRAISE), a diferencia de diltiazem y verapamilo.",
@@ -1078,7 +1078,7 @@
     "sinonimos": [],
     "area": "CAR",
     "nivel": 2,
-    "clase": "Glucósido cardiotónico (digitálico)",
+    "clase": "Inotrópico no adrenérgico",
     "subclase": "Inhibidor de la bomba Na+/K+-ATPasa",
     "mecanismo": "Inhibe la bomba Na+/K+-ATPasa de la membrana del miocardiocito: el sodio intracelular aumenta, lo que reduce el gradiente que impulsa el intercambiador Na+/Ca2+ y hace que se acumule CALCIO intracelular → mayor contractilidad (INOTROPISMO POSITIVO). Simultáneamente tiene un potente efecto VAGOTÓNICO que enlentece la conducción por el nodo AV (efecto cronotrópico y dromotrópico negativos), que es la base de su uso en la fibrilación auricular. El POTASIO compite con la digoxina por el mismo sitio de unión en la bomba: por eso la HIPOPOTASEMIA potencia la toxicidad digitálica aunque los niveles del fármaco sean normales.",
     "espectro": null,
@@ -1193,7 +1193,12 @@
     ],
     "embarazo_lactancia": "Puede usarse en el embarazo si está indicada; es uno de los antiarrítmicos con más experiencia acumulada, incluido el tratamiento de arritmias fetales. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., caps. 13 y 14; Harrison 20.ª ed., caps. de insuficiencia cardiaca y fibrilación auricular"
+    "fuente": "Katzung 15.ª ed., caps. 13 y 14; Harrison 20.ª ed., caps. de insuficiencia cardiaca y fibrilación auricular",
+    "vs_clase": [
+      "**El único inotrópico ORAL** de uso crónico: control de frecuencia en FA (sobre todo sedentarios o con IC) y síntomas en IC.",
+      "**Margen terapéutico ESTRECHO** (objetivo 0,5-0,9 ng/mL): toxicidad con hipopotasemia, ERC, amiodarona, verapamilo o macrólidos; antídoto Fab.",
+      "**Sin beneficio en mortalidad** (DIG), a diferencia de los pilares de la IC."
+    ]
   },
   {
     "id": "CAR-nitroglicerina",
@@ -1203,7 +1208,7 @@
     ],
     "area": "CAR",
     "nivel": 1,
-    "clase": "Nitrato orgánico (donante de óxido nítrico)",
+    "clase": "Nitrato y donante de óxido nítrico",
     "subclase": "Vasodilatador de predominio venoso",
     "vs_clase": [
       "**Nitrato de ACCIÓN INMEDIATA**: sublingual (efecto en 1-3 min) para la **crisis de angina** y IV en el síndrome coronario agudo y el edema agudo de pulmón hipertensivo.",

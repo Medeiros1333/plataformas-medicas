@@ -7,7 +7,7 @@
     ],
     "area": "END",
     "nivel": 2,
-    "clase": "Análogo hormonal",
+    "clase": "Fármaco del eje de la vasopresina",
     "subclase": "Análogo sintético de la vasopresina con selectividad V2",
     "mecanismo": "Es un análogo sintético de la vasopresina modificado en dos posiciones, y esas modificaciones consiguen tres cosas: SELECTIVIDAD por el receptor V2 (antidiurético) con pérdida casi total de la acción V1 (vasoconstrictora), lo que evita la hipertensión y la isquemia; una vida media mucho más larga; y resistencia a la degradación, permitiendo la vía oral y nasal. El receptor V2 del túbulo colector inserta acuaporinas 2 en la membrana luminal y permite reabsorber agua libre, concentrando la orina. Tiene además un segundo efecto que no tiene nada que ver con el riñón y que sorprende: la estimulación V2 del ENDOTELIO libera los depósitos preformados de FACTOR VIII y de FACTOR DE VON WILLEBRAND, multiplicando por dos o por cuatro sus concentraciones plasmáticas. De ahí su uso hemostático, y de ahí también su limitación: solo funciona si hay depósitos que liberar, y esos depósitos se AGOTAN (taquifilaxia) tras dos o tres dosis.",
     "espectro": null,
@@ -128,6 +128,11 @@
     ],
     "embarazo_lactancia": "Se puede usar en el embarazo cuando está indicada (diabetes insípida): apenas es degradada por la oxitocinasa placentaria y no tiene efecto oxitócico relevante a las dosis empleadas. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 37; guías de la Endocrine Society sobre diabetes insípida y recomendaciones sobre hiponatremia por desmopresina"
+    "fuente": "Katzung 15.ª ed., cap. 37; guías de la Endocrine Society sobre diabetes insípida y recomendaciones sobre hiponatremia por desmopresina",
+    "vs_clase": [
+      "**Agonista V2 SELECTIVO**: efecto antidiurético sin vasoconstricción → **diabetes insípida central** y **enuresis nocturna**.",
+      "**Libera factor VIII y von Willebrand**: hemostático en la hemofilia A leve y la enfermedad de von Willebrand tipo 1.",
+      "**HIPONATREMIA grave**: restricción hídrica tras la dosis."
+    ]
   }
 ]

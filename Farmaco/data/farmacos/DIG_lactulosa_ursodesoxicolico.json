@@ -7,7 +7,7 @@
     ],
     "area": "DIG",
     "nivel": 1,
-    "clase": "Laxante osmótico y antibiótico no absorbible",
+    "clase": "Visión de clase: tratamiento de la encefalopatía hepática",
     "subclase": "Disacárido no absorbible y rifamicina de acción intraluminal",
     "mecanismo": "La LACTULOSA es un disacárido que el intestino humano NO puede digerir porque carece de la disacaridasa correspondiente: llega intacta al colon, donde la flora la fermenta produciendo ácidos grasos de cadena corta. De ahí salen sus dos efectos, y el segundo es el que importa en la encefalopatía. El primero es OSMÓTICO: retiene agua y produce el efecto laxante. El segundo es la ACIDIFICACIÓN del contenido colónico, que convierte el AMONIACO (NH3, liposoluble y absorbible) en AMONIO (NH4+, ionizado y no absorbible), atrapándolo en la luz para que se elimine con las heces; además el pH ácido desfavorece a las bacterias productoras de ureasa. La RIFAXINIMA es un derivado de la rifamicina con absorción prácticamente NULA (menos del 0,4%), de modo que actúa solo dentro de la luz intestinal reduciendo la flora productora de amoniaco, sin exposición sistémica y sin las interacciones de la rifampicina.",
     "espectro": "Rifaximina: flora intestinal aerobia y anaerobia, grampositiva y gramnegativa, dentro de la luz intestinal.",
@@ -118,7 +118,8 @@
     ],
     "embarazo_lactancia": "La lactulosa es segura en el embarazo y en la lactancia por su nula absorción, y es uno de los laxantes de elección en la gestante. La rifaximina apenas se absorbe, aunque los datos en gestantes son limitados.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 62; guías AASLD/EASL sobre encefalopatía hepática"
+    "fuente": "Katzung 15.ª ed., cap. 62; guías AASLD/EASL sobre encefalopatía hepática",
+    "vision_clase": true
   },
   {
     "id": "DIG-acido-ursodesoxicolico",
@@ -128,7 +129,7 @@
     ],
     "area": "DIG",
     "nivel": 2,
-    "clase": "Ácido biliar",
+    "clase": "Ácido biliar y secuestrador de ácidos biliares",
     "subclase": "Ácido biliar hidrófilo de acción coleréticа y citoprotectora",
     "mecanismo": "Es un ácido biliar HIDRÓFILO que en el ser humano representa menos del 3% del pool biliar y que, administrado por vía oral, pasa a representar el 40-50%. Ese desplazamiento del pool es su mecanismo esencial: sustituye a los ácidos biliares HIDRÓFOBOS (quenodesoxicólico, litocólico), que son detergentes y tóxicos para la membrana del hepatocito y del colangiocito. A partir de ahí actúa por tres vías: CITOPROTECCIÓN de la membrana frente a la toxicidad de los ácidos biliares retenidos, estimulación de la SECRECIÓN biliar por inserción de transportadores en la membrana canalicular, con lo que aumenta el flujo y arrastra la bilis estancada, y un efecto INMUNOMODULADOR que reduce la expresión de HLA en el epitelio biliar. En la litiasis, además, reduce la saturación de colesterol de la bilis y permite disolver lentamente cálculos pequeños y no calcificados.",
     "espectro": null,
@@ -238,6 +239,11 @@
     ],
     "embarazo_lactancia": "Es el tratamiento de elección de la colestasis intrahepática del embarazo y se considera seguro en la gestación. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 62; guías EASL sobre enfermedades colestásicas del hígado"
+    "fuente": "Katzung 15.ª ed., cap. 62; guías EASL sobre enfermedades colestásicas del hígado",
+    "vs_clase": [
+      "**Ácido biliar HIDRÓFILO** que sustituye a los tóxicos: de elección en la **colangitis biliar primaria** (13-15 mg/kg/día) y la **colestasis del embarazo**.",
+      "**Disuelve cálculos de colesterol** pequeños y no calcificados (lento y con recurrencias) y previene la litiasis en la pérdida de peso rápida.",
+      "Muy bien tolerado (diarrea leve)."
+    ]
   }
 ]

@@ -7,7 +7,7 @@
     ],
     "area": "END",
     "nivel": 1,
-    "clase": "Antidiabético oral: biguanida",
+    "clase": "Antidiabético oral (sensibilizador y otros mecanismos)",
     "subclase": "Sensibilizador de la acción de la insulina",
     "mecanismo": "Activa la AMPK hepática e inhibe el complejo I mitocondrial, con dos consecuencias: reduce la NEOGLUCOGÉNESIS HEPÁTICA (su efecto principal, responsable del descenso de la glucemia basal) y mejora la captación periférica de glucosa en el músculo. NO estimula la secreción de insulina, y esa es la clave de todo su perfil: por sí sola NO produce hipoglucemia ni aumento de peso.",
     "espectro": null,
@@ -119,7 +119,12 @@
     ],
     "embarazo_lactancia": "Puede utilizarse en el embarazo (diabetes gestacional y ovario poliquístico) con seguridad razonable, aunque la insulina sigue siendo el tratamiento de referencia. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus: tratamiento"
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus: tratamiento",
+    "vs_clase": [
+      "**Primera línea de la DM2**: reduce la producción hepática de glucosa, **sin hipoglucemia y neutra o favorable en peso**, barata.",
+      "**Ajuste renal: máx. 1.000 mg con FG 30-45 y suspender con FG <30**; suspender ante contraste, sepsis o deshidratación (acidosis láctica).",
+      "**Déficit de vitamina B12** y molestias digestivas (mejor la forma retard)."
+    ]
   },
   {
     "id": "END-empagliflozina",
@@ -489,7 +494,7 @@
     ],
     "area": "END",
     "nivel": 1,
-    "clase": "Insulina prandial (de acción rápida)",
+    "clase": "Visión de clase: insulinas rápidas",
     "subclase": "Insulina prandial y de corrección",
     "mecanismo": "Análogos con la secuencia de aminoácidos modificada para que NO se agrupen en hexámeros en el tejido subcutáneo: al permanecer en forma monomérica se absorben con rapidez, con inicio en 10-20 minutos, pico a la hora y duración de 3-5 h. Ese perfil imita el pico prandial fisiológico y reduce las hipoglucemias tardías que produce la insulina regular humana, más lenta y más prolongada.",
     "espectro": null,
@@ -595,6 +600,7 @@
     ],
     "embarazo_lactancia": "Tratamiento de elección en la diabetes durante el embarazo; los análogos aspart y lispro tienen amplia experiencia y son seguros. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y de urgencias hiperglucémicas"
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y de urgencias hiperglucémicas",
+    "vision_clase": true
   }
 ]

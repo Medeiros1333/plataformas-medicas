@@ -5,7 +5,7 @@
     "sinonimos": [],
     "area": "NFR",
     "nivel": 2,
-    "clase": "Diurético",
+    "clase": "Diurético osmótico y de otros mecanismos",
     "subclase": "Inhibidor de la anhidrasa carbónica",
     "mecanismo": "Inhibe la anhidrasa carbónica, la enzima que interconvierte dióxido de carbono y agua en bicarbonato y protones. En el TÚBULO PROXIMAL esa reacción es la que permite reabsorber el bicarbonato filtrado: al bloquearla se pierde bicarbonato por la orina, arrastrando sodio y agua, y el resultado es una diuresis alcalina con ACIDOSIS METABÓLICA hiperclorémica. Su potencia diurética es escasa y se agota en pocos días, porque la nefrona distal compensa la pérdida; su interés no está en la diuresis sino en las consecuencias de la acidosis y de la alcalinización de la orina. En el OJO reduce la producción de humor acuoso por el cuerpo ciliar, y en el sistema nervioso central la acidosis metabólica que produce estimula el centro respiratorio, que es el fundamento de su uso en el mal de altura.",
     "espectro": null,
@@ -132,7 +132,12 @@
     ],
     "embarazo_lactancia": "Evitar en el primer trimestre (teratogenia descrita en animales). Su uso en el glaucoma o en la hipertensión intracraneal durante el embarazo se valora individualmente. Pasa a la leche en cantidades mínimas; se considera compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 15; guías de la ESC sobre insuficiencia cardiaca y estudios de acetazolamida en la descongestión"
+    "fuente": "Katzung 15.ª ed., cap. 15; guías de la ESC sobre insuficiencia cardiaca y estudios de acetazolamida en la descongestión",
+    "vs_clase": [
+      "**Inhibe la anhidrasa carbónica del túbulo proximal**: diurético débil que produce **acidosis metabólica hiperclorémica** (útil en la alcalosis metabólica del paciente con diuréticos de asa).",
+      "**Usos propios**: glaucoma agudo, mal de altura, hipertensión intracraneal idiopática y refuerzo de la descongestión en IC aguda (ADVOR).",
+      "**Sulfonamida**: litiasis renal y parestesias; evitar en cirrosis (hiperamoniemia)."
+    ]
   },
   {
     "id": "NFR-quelantes-fosforo",
@@ -142,7 +147,7 @@
     ],
     "area": "NFR",
     "nivel": 2,
-    "clase": "Quelante intestinal",
+    "clase": "Visión de clase: quelantes del fósforo",
     "subclase": "Captores del fosfato de la dieta",
     "mecanismo": "Se unen al FOSFATO de los alimentos dentro de la luz intestinal y forman un complejo no absorbible que se elimina con las heces. No actúan sobre el riñón ni sobre el fósforo ya absorbido: solo impiden que entre. Por eso su eficacia depende por completo de que se tomen CON LA COMIDA, y el mismo comprimido tomado en ayunas es prácticamente inútil. La diferencia entre ellos está en lo que aportan además del efecto quelante: los CÁLCICOS son baratos pero suman carga de calcio y favorecen la calcificación vascular; el SEVELÁMERO es un polímero que no se absorbe, no aporta calcio y además baja el colesterol LDL y capta ácidos biliares; el LANTANO es muy potente y permite menos comprimidos, pero se deposita en el hueso y en el tubo digestivo.",
     "espectro": null,
@@ -251,6 +256,7 @@
     ],
     "embarazo_lactancia": "Datos escasos. El carbonato cálcico se considera seguro. El sevelámero, al no absorberse, se considera de riesgo bajo, aunque puede reducir la absorción de vitaminas liposolubles y de folato, lo que importa especialmente en la gestación. El lantano se evita.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 42; guías KDIGO sobre alteraciones del metabolismo óseo-mineral en la enfermedad renal crónica"
+    "fuente": "Katzung 15.ª ed., cap. 42; guías KDIGO sobre alteraciones del metabolismo óseo-mineral en la enfermedad renal crónica",
+    "vision_clase": true
   }
 ]

@@ -1,0 +1,827 @@
+[
+  {
+    "id": "END-pioglitazona",
+    "nombre": "Pioglitazona",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antidiabético oral (sensibilizador y otros mecanismos)",
+    "subclase": "Tiazolidinediona (glitazona), agonista PPAR-gamma",
+    "vs_clase": [
+      "**SENSIBILIZADOR de la insulina en músculo y tejido adiposo** (la metformina actúa sobre todo en el hígado); sin hipoglucemia.",
+      "**Beneficio en la ESTEATOHEPATITIS no alcohólica (MASH)** y posible prevención de ictus recurrente.",
+      "**RETENCIÓN HIDROSALINA: contraindicada en INSUFICIENCIA CARDIACA**; aumento de peso, **fracturas** (mujeres) y asociación con **cáncer de vejiga**."
+    ],
+    "mecanismo": "Agonista del receptor nuclear PPAR-gamma: aumenta la transcripción de genes que mejoran la captación periférica de glucosa y redistribuye la grasa visceral.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2 (añadida, especialmente con esteatohepatitis o resistencia insulínica marcada)",
+        "dosis": "15-45 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Efecto máximo en 8-12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "15-30 mg; transaminasas basales; descartar IC y cáncer de vejiga.",
+      "titulacion": "Subir a las 8-12 semanas.",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "Suspender si edemas importantes, IC o hematuria.",
+      "via": "VO.",
+      "monitorizacion": "Peso, edemas, transaminasas, hematuria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "CYP2C8 y CYP3A4; metabolitos activos.",
+      "eliminacion": "Biliar.",
+      "vida_media": "3-7 h (metabolitos 16-24 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar si transaminasas >2,5 veces.",
+      "interacciones": [
+        {
+          "con": "Gemfibrozilo (inhibidor CYP2C8)",
+          "efecto": "Triplica sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Insulina",
+          "efecto": "Más edema e insuficiencia cardiaca",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación en riesgo de IC"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Aumento de peso, edemas**",
+        "Anemia dilucional"
+      ],
+      "graves": [
+        "**Insuficiencia cardiaca**",
+        "Fracturas (extremidades distales, mujeres)",
+        "Cáncer de vejiga (asociación)",
+        "Edema macular"
+      ]
+    },
+    "contraindicaciones": [
+      "**Insuficiencia cardiaca (cualquier grado)**",
+      "Cáncer de vejiga o hematuria no estudiada",
+      "Hepatopatía activa",
+      "Cetoacidosis"
+    ],
+    "perlas": [
+      "DM2 con hígado graso y fibrosis: pioglitazona y GLP-1 son las opciones con mejor efecto hepático."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-acarbosa",
+    "nombre": "Acarbosa",
+    "sinonimos": [
+      "Miglitol"
+    ],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Antidiabético oral (sensibilizador y otros mecanismos)",
+    "subclase": "Inhibidor de las alfa-glucosidasas intestinales",
+    "vs_clase": [
+      "**Retrasa la absorción de los hidratos de carbono**: reduce solo la glucemia POSPRANDIAL (descenso de HbA1c modesto, 0,5%).",
+      "**Flatulencia y diarrea** muy frecuentes (fermentación colónica): mala adherencia.",
+      "**Si hay hipoglucemia (con otros fármacos), tratarla con GLUCOSA, no con sacarosa** (su absorción está bloqueada)."
+    ],
+    "mecanismo": "Inhibe competitivamente las alfa-glucosidasas del borde en cepillo, retrasando la digestión de oligo y disacáridos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2 con hiperglucemia posprandial (complementario)",
+        "dosis": "50 mg → 100 mg",
+        "posologia": "Cada 8 h, con el primer bocado",
+        "via": "VO",
+        "nota": "Titulación lenta para la tolerancia digestiva"
+      }
+    ],
+    "esquema": {
+      "inicio": "25-50 mg con una comida.",
+      "titulacion": "Subir cada 2-4 semanas.",
+      "duracion": "Indefinida si se tolera.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Tolerancia, transaminasas a dosis altas."
+    },
+    "farmacocinetica": {
+      "absorcion": "<2%.",
+      "distribucion": "Intestino.",
+      "metabolismo": "Bacterias intestinales.",
+      "eliminacion": "Fecal.",
+      "vida_media": "2 h.",
+      "ajuste_renal": "Evitar con FG <25.",
+      "ajuste_hepatico": "Evitar en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Sulfonilureas e insulina",
+          "efecto": "Hipoglucemia que no responde a sacarosa",
+          "gravedad": "media",
+          "manejo": "Tratar con glucosa"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Flatulencia, meteorismo, diarrea**"
+      ],
+      "graves": [
+        "Elevación de transaminasas (dosis altas)",
+        "Neumatosis intestinal (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad inflamatoria intestinal",
+      "Obstrucción intestinal",
+      "FG <25"
+    ],
+    "perlas": [
+      "Poco usada hoy; su ventaja es no producir hipoglucemia ni aumento de peso."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-gliclazida",
+    "nombre": "Gliclazida",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Secretagogo de insulina (sulfonilurea y glinida)",
+    "subclase": "Sulfonilurea de segunda generación de liberación modificada",
+    "vs_clase": [
+      "**La sulfonilurea con MENOS HIPOGLUCEMIAS** y la preferida si se usa una (liberación modificada, metabolitos inactivos).",
+      "**Utilizable con FG hasta 30** (metabolismo hepático).",
+      "**Barata y eficaz**, pero aumenta el peso y no tiene beneficio cardiovascular."
+    ],
+    "mecanismo": "Cierra los canales de K-ATP de la célula beta, despolarizándola y liberando insulina con independencia de la glucemia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2 (segunda línea, si no hay acceso o contraindicación a otros)",
+        "dosis": "30 mg → 120 mg (liberación modificada)",
+        "posologia": "Cada 24 h con el desayuno",
+        "via": "VO",
+        "nota": "Subir 30 mg cada 2-4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "30 mg con el desayuno; educar en hipoglucemia.",
+      "titulacion": "Cada 2-4 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "Reducir o suspender al añadir insulina o si hay hipoglucemias.",
+      "via": "VO.",
+      "monitorizacion": "Glucemia capilar, HbA1c."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas 95%.",
+      "metabolismo": "**Hepático a metabolitos inactivos.**",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "12-20 h.",
+      "ajuste_renal": "FG 30-60: precaución con dosis bajas; evitar con FG <30.",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Fluconazol, cotrimoxazol, claritromicina",
+          "efecto": "**Hipoglucemia grave**",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis y vigilar glucemia"
+        },
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Enmascaran la hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia (menor que otras sulfonilureas)",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "Hipoglucemia grave prolongada (ancianos, ERC)",
+        "Hemólisis en déficit de G6PD"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1",
+      "Cetoacidosis",
+      "Insuficiencia renal o hepática grave",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Si se usa una sulfonilurea en un anciano, que sea gliclazida a dosis baja."
+    ],
+    "embarazo_lactancia": "Contraindicada (insulina).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-glimepirida",
+    "nombre": "Glimepirida",
+    "sinonimos": [
+      "Glibenclamida (sulfonilurea de mayor riesgo de hipoglucemia)"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Secretagogo de insulina (sulfonilurea y glinida)",
+    "subclase": "Sulfonilurea de tercera generación",
+    "vs_clase": [
+      "**Dosis ÚNICA diaria (1-4 mg)**, con hipoglucemia intermedia entre gliclazida (menor) y glibenclamida (mayor).",
+      "**Metabolito activo de eliminación renal**: precaución en ERC.",
+      "La **glibenclamida** tiene metabolitos activos renales y la mayor tasa de hipoglucemias graves: **evitarla en ancianos**."
+    ],
+    "mecanismo": "Cierre de los canales K-ATP de la célula beta.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2 (segunda línea)",
+        "dosis": "1 mg → 4 mg (máx. 6 mg)",
+        "posologia": "Cada 24 h con el desayuno",
+        "via": "VO",
+        "nota": "Subir 1 mg cada 1-2 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 mg.",
+      "titulacion": "Cada 1-2 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Glucemia, HbA1c, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "CYP2C9 a metabolito activo.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "5-9 h.",
+      "ajuste_renal": "FG <60: iniciar con 1 mg; evitar con FG <30.",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Fluconazol, cotrimoxazol, warfarina",
+          "efecto": "Hipoglucemia",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "Hipoglucemia grave prolongada"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1",
+      "Insuficiencia renal o hepática grave",
+      "Embarazo",
+      "Alergia a sulfonamidas (relativa)"
+    ],
+    "perlas": [
+      "Hipoglucemia por sulfonilurea: puede recurrir durante 24-72 h → ingreso."
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-repaglinida",
+    "nombre": "Repaglinida",
+    "sinonimos": [
+      "Nateglinida"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Secretagogo de insulina (sulfonilurea y glinida)",
+    "subclase": "Glinida (meglitinida) de acción rápida y corta",
+    "vs_clase": [
+      "**Acción RÁPIDA y CORTA: se toma con cada comida** y se omite si no se come (útil con horarios irregulares).",
+      "**Metabolismo HEPÁTICO**: utilizable en **ERC avanzada** (donde las sulfonilureas se evitan).",
+      "**Contraindicada con gemfibrozilo y clopidogrel** (CYP2C8): hipoglucemia grave."
+    ],
+    "mecanismo": "Cierra los canales K-ATP en un sitio distinto al de las sulfonilureas, con unión breve: secreción de insulina prandial.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2, especialmente con ERC o comidas irregulares",
+        "dosis": "0,5 mg → 1-4 mg",
+        "posologia": "15 min antes de cada comida principal",
+        "via": "VO",
+        "nota": "Máx. 16 mg/día; «sin comida, sin pastilla»"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,5 mg antes de cada comida.",
+      "titulacion": "Cada 1-2 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Glucemias pre y posprandiales."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida (pico 1 h).",
+      "distribucion": "Unión a proteínas 98%.",
+      "metabolismo": "**CYP2C8 y CYP3A4.**",
+      "eliminacion": "Biliar.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "No precisa (precaución con FG <30 al iniciar).",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Gemfibrozilo, clopidogrel",
+          "efecto": "**Hipoglucemia grave** (inhiben CYP2C8)",
+          "gravedad": "alta",
+          "manejo": "Contraindicado / evitar"
+        },
+        {
+          "con": "Claritromicina, itraconazol",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia (menos prolongada)",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "Hipoglucemia grave con interacciones"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1",
+      "Uso con gemfibrozilo o clopidogrel",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Paciente con repaglinida que empieza clopidogrel tras un SCA: cambiar el antidiabético."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-sitagliptina",
+    "nombre": "Sitagliptina",
+    "sinonimos": [
+      "Sitagliptina/metformina"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Inhibidor de la DPP-4 (gliptina)",
+    "subclase": "Gliptina de eliminación renal",
+    "vs_clase": [
+      "**La gliptina con MÁS evidencia y seguridad cardiovascular demostrada** (TECOS: neutra en IC).",
+      "**Eliminación RENAL: ajustar la dosis** (100 → 50 → 25 mg según FG).",
+      "Combinación fija con metformina frecuente."
+    ],
+    "mecanismo": "Inhibe la DPP-4 y prolonga la acción de GLP-1 y GIP endógenos: secreción de insulina dependiente de glucosa y menor glucagón.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2 (especialmente ancianos, sin hipoglucemia ni efecto sobre el peso)",
+        "dosis": "100 mg (50 mg si FG 30-45; 25 mg si <30)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce la HbA1c 0,5-0,8%"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis según FG.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender si pancreatitis o penfigoide.",
+      "via": "VO.",
+      "monitorizacion": "HbA1c, FG."
+    },
+    "farmacocinetica": {
+      "absorcion": "87%.",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal (80% inalterada).**",
+      "vida_media": "12 h.",
+      "ajuste_renal": "**Sí (por FG).**",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Digoxina",
+          "efecto": "Aumento leve de la digoxinemia",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Nasofaringitis, cefalea"
+      ],
+      "graves": [
+        "Pancreatitis aguda",
+        "**Penfigoide ampolloso**",
+        "Artralgias graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de pancreatitis",
+      "Diabetes tipo 1",
+      "Combinación con agonistas GLP-1 (sin beneficio)"
+    ],
+    "perlas": [
+      "Gliptina + GLP-1: misma vía, no se suman; no combinarlos."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-linagliptina",
+    "nombre": "Linagliptina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Inhibidor de la DPP-4 (gliptina)",
+    "subclase": "Gliptina de eliminación biliar",
+    "vs_clase": [
+      "**Eliminación BILIAR: 5 mg en TODOS los pacientes, sin ajuste renal** (ideal en la ERC avanzada y en diálisis).",
+      "Seguridad cardiovascular y renal demostrada (CARMELINA, CAROLINA).",
+      "**Inductores enzimáticos (rifampicina) reducen su eficacia.**"
+    ],
+    "mecanismo": "Inhibición de la DPP-4 con unión de alta afinidad y eliminación no renal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2, especialmente con ERC",
+        "dosis": "5 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Sin ajuste por FG"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/día.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "HbA1c."
+    },
+    "farmacocinetica": {
+      "absorcion": "30%.",
+      "distribucion": "Alta unión a la DPP-4.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Biliar (fecal).**",
+      "vida_media": ">100 h (terminal).",
+      "ajuste_renal": "**No precisa.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce su eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Nasofaringitis"
+      ],
+      "graves": [
+        "Pancreatitis",
+        "Penfigoide ampolloso"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de pancreatitis",
+      "Diabetes tipo 1"
+    ],
+    "perlas": [
+      "Diabético en hemodiálisis que necesita un antidiabético oral: linagliptina."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-vildagliptina",
+    "nombre": "Vildagliptina",
+    "sinonimos": [
+      "Vildagliptina/metformina"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Inhibidor de la DPP-4 (gliptina)",
+    "subclase": "Gliptina de dos tomas diarias",
+    "vs_clase": [
+      "**Dos tomas diarias (50 mg/12 h)** frente a la dosis única del resto.",
+      "**HEPATOTOXICIDAD rara pero propia**: transaminasas antes de iniciar y cada 3 meses el primer año.",
+      "Ajuste renal (50 mg/24 h con FG <50)."
+    ],
+    "mecanismo": "Inhibición de la DPP-4.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 2",
+        "dosis": "50 mg",
+        "posologia": "Cada 12 h (cada 24 h si FG <50 o con sulfonilurea)",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Transaminasas basales.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender si transaminasas >3 veces.",
+      "via": "VO.",
+      "monitorizacion": "Transaminasas trimestrales el primer año."
+    },
+    "farmacocinetica": {
+      "absorcion": "85%.",
+      "distribucion": "Baja unión.",
+      "metabolismo": "Hidrólisis (no CYP).",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "FG <50: 50 mg/24 h.",
+      "ajuste_hepatico": "**Contraindicada en hepatopatía.**",
+      "interacciones": [
+        {
+          "con": "IECA",
+          "efecto": "Mayor riesgo de angioedema",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, cefalea"
+      ],
+      "graves": [
+        "**Hepatotoxicidad**",
+        "Pancreatitis",
+        "Penfigoide"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía",
+      "Antecedente de pancreatitis"
+    ],
+    "perlas": [
+      "Si hay hepatopatía, elegir otra gliptina."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-insulina-aspart",
+    "nombre": "Insulina aspart (y faster aspart)",
+    "sinonimos": [
+      "Fiasp"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina prandial (de acción rápida)",
+    "subclase": "Análogo ultrarrápido",
+    "vs_clase": [
+      "**Análogo rápido**: inicio a los 10-15 min (la **faster aspart, a los 2-5 min**: puede ponerse justo al empezar a comer o hasta 20 min después).",
+      "**Utilizable en EMBARAZO** y en bombas de insulina.",
+      "Igual eficacia que lispro; las diferencias son de dispositivo y velocidad."
+    ],
+    "mecanismo": "Sustitución de prolina por aspártico que reduce la formación de hexámeros: absorción subcutánea rápida.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insulina prandial y de corrección (DM1, DM2 con basal-bolo)",
+        "dosis": "Según ratio insulina/raciones y factor de sensibilidad",
+        "dosis_objetivo": "Glucemia posprandial <180 mg/dL",
+        "posologia": "0-15 min antes de cada comida",
+        "via": "SC",
+        "nota": "Bomba de insulina: infusión continua"
+      }
+    ],
+    "esquema": {
+      "inicio": "4 UI o 10% de la basal en la comida principal (DM2).",
+      "titulacion": "1-2 UI cada 3 días según posprandial.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "SC, IV, bomba.",
+      "monitorizacion": "Glucemias capilares o MCG."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio 10-15 min (2-5 min faster); pico 1-2 h.",
+      "distribucion": "Como la insulina.",
+      "metabolismo": "Insulinasas.",
+      "eliminacion": "Hepática y renal.",
+      "vida_media": "Efecto 3-5 h.",
+      "ajuste_renal": "Necesidades menores en ERC.",
+      "ajuste_hepatico": "Necesidades menores.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Enmascaran hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia",
+        "Lipohipertrofia"
+      ],
+      "graves": [
+        "Hipoglucemia grave",
+        "Hipopotasemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia"
+    ],
+    "perlas": [
+      "Ponerla tarde (tras la comida) produce picos posprandiales y luego hipoglucemias."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-insulina-lispro",
+    "nombre": "Insulina lispro",
+    "sinonimos": [
+      "Lispro U200",
+      "Ultra rapid lispro"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina prandial (de acción rápida)",
+    "subclase": "Análogo rápido",
+    "vs_clase": [
+      "**Primer análogo rápido** (inversión de lisina y prolina): inicio en 15 min, duración 3-5 h.",
+      "**Formulación U200 y mezclas fijas con lispro-protamina** (premezcladas 25/75, 50/50).",
+      "Útil en bombas y en el embarazo."
+    ],
+    "mecanismo": "Inversión Lys-Pro en la cadena B que impide la autoasociación en hexámeros.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insulina prandial y de corrección",
+        "dosis": "Según ratio y sensibilidad",
+        "dosis_objetivo": "Glucemia posprandial <180 mg/dL",
+        "posologia": "0-15 min antes de las comidas",
+        "via": "SC",
+        "nota": "Premezclada 2-3 veces al día en DM2 con horarios regulares"
+      }
+    ],
+    "esquema": {
+      "inicio": "4 UI o 10% de la basal.",
+      "titulacion": "Cada 3 días.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "SC, IV, bomba.",
+      "monitorizacion": "Glucemias."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio 15 min; pico 1 h.",
+      "distribucion": "—",
+      "metabolismo": "Insulinasas.",
+      "eliminacion": "Hepática y renal.",
+      "vida_media": "Efecto 3-5 h.",
+      "ajuste_renal": "Necesidades menores.",
+      "ajuste_hepatico": "Necesidades menores.",
+      "interacciones": [
+        {
+          "con": "Corticoides",
+          "efecto": "Aumentan las necesidades",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia",
+        "Lipohipertrofia"
+      ],
+      "graves": [
+        "Hipoglucemia grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia"
+    ],
+    "perlas": [
+      "Las premezcladas exigen horarios y comidas regulares; si no, basal-bolo."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "END-insulina-regular",
+    "nombre": "Insulina regular (humana, cristalina)",
+    "sinonimos": [
+      "Insulina soluble"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina prandial (de acción rápida)",
+    "subclase": "Insulina humana de acción rápida",
+    "vs_clase": [
+      "**La insulina de las PERFUSIONES IV** (cetoacidosis, hiperpotasemia, control glucémico en UCI): por vía IV actúa en minutos.",
+      "**Por vía SC tarda 30-60 min**: hay que ponerla **30 min antes de comer** y dura 6-8 h (más hipoglucemias tardías que los análogos).",
+      "**Más barata.**"
+    ],
+    "mecanismo": "Insulina humana idéntica a la endógena; forma hexámeros que se disocian lentamente en el subcutáneo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cetoacidosis diabética y estado hiperosmolar",
+        "dosis": "0,1 UI/kg/h (± bolo 0,1 UI/kg)",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Con potasio y fluidos"
+      },
+      {
+        "patologia": "Hiperpotasemia",
+        "dosis": "10 UI con 25-50 g de glucosa",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "nota": "Glucemia horaria"
+      },
+      {
+        "patologia": "Insulina prandial (alternativa económica)",
+        "dosis": "Según necesidades",
+        "dosis_objetivo": "Glucemia posprandial <180 mg/dL",
+        "posologia": "30 min antes de las comidas",
+        "via": "SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según indicación.",
+      "titulacion": "Según glucemia horaria (IV).",
+      "duracion": "Según indicación.",
+      "fin": "IV: solapar 1-2 h con la basal SC.",
+      "via": "IV y SC.",
+      "monitorizacion": "Glucemia horaria y potasio (IV)."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC: inicio 30-60 min, pico 2-4 h.",
+      "distribucion": "—",
+      "metabolismo": "Insulinasas.",
+      "eliminacion": "Hepática y renal.",
+      "vida_media": "IV: 5-10 min; efecto SC 6-8 h.",
+      "ajuste_renal": "Necesidades menores.",
+      "ajuste_hepatico": "Necesidades menores.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Enmascaran hipoglucemia",
+          "gravedad": "media",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia (tardía)",
+        "Hipopotasemia (IV)"
+      ],
+      "graves": [
+        "Hipoglucemia grave",
+        "Hipopotasemia con arritmias"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia"
+    ],
+    "perlas": [
+      "La perfusión de insulina IV se prepara con insulina regular (1 UI/mL en salino)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41"
+  }
+]

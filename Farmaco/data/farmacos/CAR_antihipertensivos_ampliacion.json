@@ -1,0 +1,976 @@
+[
+  {
+    "id": "CAR-nicardipino",
+    "nombre": "Nicardipino",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del calcio",
+    "subclase": "Dihidropiridina INTRAVENOSA titulable",
+    "vs_clase": [
+      "**Dihidropiridina IV en perfusión titulable**: de elección en la emergencia hipertensiva del **ictus, la hemorragia cerebral** y el perioperatorio.",
+      "**Sin inotropismo negativo** relevante y efecto predecible (frente al labetalol, no produce bradicardia).",
+      "**Taquicardia refleja y flebitis** (cambiar la vía periférica cada 12 h)."
+    ],
+    "mecanismo": "Bloqueo de canales de calcio tipo L con gran selectividad vascular (arterial, coronaria y cerebral).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Emergencia hipertensiva (ictus, hemorragia intracerebral, encefalopatía, perioperatorio)",
+        "dosis": "5 mg/h, subir 2,5 mg/h cada 5-15 min (máx. 15 mg/h)",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Reducir a 3 mg/h al alcanzar el objetivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/h.",
+      "titulacion": "Cada 5-15 min.",
+      "duracion": "Hasta poder pasar a VO.",
+      "fin": "Solapar con antihipertensivo oral.",
+      "via": "IV.",
+      "monitorizacion": "PA cada 5-15 min, FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV (formulación).",
+      "distribucion": "Unión a proteínas >95%.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "2-4 h (efecto acumulativo con perfusiones largas).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Inhibidores del CYP3A4",
+          "efecto": "Hipotensión prolongada",
+          "gravedad": "media",
+          "manejo": "Dosis bajas"
+        },
+        {
+          "con": "Ciclosporina, tacrolimús",
+          "efecto": "Aumento de sus niveles",
+          "gravedad": "media",
+          "manejo": "Monitorizar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubor",
+        "Taquicardia refleja",
+        "Flebitis"
+      ],
+      "graves": [
+        "Hipotensión",
+        "Isquemia miocárdica por taquicardia"
+      ]
+    },
+    "contraindicaciones": [
+      "Estenosis aórtica grave",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "En la hemorragia cerebral, objetivo PAS 140-160 mmHg sin bajar más de 70 mmHg en total."
+    ],
+    "embarazo_lactancia": "Utilizable en la emergencia hipertensiva del embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "CAR-nimodipino",
+    "nombre": "Nimodipino",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del calcio",
+    "subclase": "Dihidropiridina con selectividad cerebrovascular",
+    "vs_clase": [
+      "**Indicación única: prevención del déficit isquémico tardío (vasoespasmo) en la HEMORRAGIA SUBARACNOIDEA aneurismática.**",
+      "**Mejora el pronóstico neurológico** aunque no reduce el vasoespasmo angiográfico.",
+      "**Por VO cada 4 h durante 21 días**; la vía IV produce más hipotensión."
+    ],
+    "mecanismo": "Dihidropiridina lipófila que atraviesa la barrera hematoencefálica y actúa sobre la vasculatura cerebral; posible efecto neuroprotector.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia subaracnoidea aneurismática",
+        "dosis": "60 mg",
+        "posologia": "Cada 4 h",
+        "via": "VO",
+        "nota": "21 días desde el inicio; 30 mg/2 h si hipotensión"
+      }
+    ],
+    "esquema": {
+      "inicio": "En las primeras 96 h de la HSA.",
+      "titulacion": "Reducir y fraccionar si hipotensión.",
+      "duracion": "21 días.",
+      "fin": "Suspensión al día 21.",
+      "via": "VO (o por sonda; IV en casos seleccionados).",
+      "monitorizacion": "PA (evitar hipotensión: empeora la isquemia)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 13% (primer paso).",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "1-2 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Inductores del CYP3A4 (fenitoína, carbamazepina)",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar levetiracetam"
+        },
+        {
+          "con": "Otros antihipertensivos",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión",
+        "Cefalea, rubor"
+      ],
+      "graves": [
+        "Hipotensión con isquemia cerebral",
+        "Íleo paralítico (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con inductores potentes del CYP3A4",
+      "Hipotensión grave"
+    ],
+    "perlas": [
+      "Pacientes con HSA que requieren antiepiléptico: levetiracetam, para no anular el nimodipino."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de hemorragia subaracnoidea; Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "CAR-bumetanida",
+    "nombre": "Bumetanida",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Diurético de asa",
+    "subclase": "Diurético de asa de alta potencia por miligramo",
+    "vs_clase": [
+      "**40 veces más potente por mg que la furosemida** (1 mg ≈ 40 mg de furosemida) con **biodisponibilidad alta (80%)**.",
+      "**Útil en la resistencia diurética por mala absorción oral** de furosemida.",
+      "**Puede usarse en alergia a furosemida** (aunque también es sulfonamida) y produce **mialgias** a dosis altas."
+    ],
+    "mecanismo": "Inhibición del cotransportador Na-K-2Cl del asa de Henle.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Edemas por insuficiencia cardiaca, cirrosis o síndrome nefrótico",
+        "dosis": "0,5-2 mg (máx. 10 mg/día)",
+        "posologia": "Cada 12-24 h",
+        "via": "VO / IV",
+        "nota": "Ajustar por peso diario"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,5-1 mg.",
+      "titulacion": "Según respuesta diurética.",
+      "duracion": "Mientras haya congestión.",
+      "fin": "Reducción progresiva.",
+      "via": "VO, IV, IM.",
+      "monitorizacion": "Peso, electrolitos, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "**80%.**",
+      "distribucion": "Unión a proteínas 95%.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal.",
+      "vida_media": "1-1,5 h.",
+      "ajuste_renal": "Puede necesitar dosis mayores en ERC.",
+      "ajuste_hepatico": "Precaución (encefalopatía).",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Ototoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Toxicidad por litio",
+          "gravedad": "alta",
+          "manejo": "Controlar litemia"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Menor respuesta diurética",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipopotasemia, hipovolemia",
+        "Mialgias"
+      ],
+      "graves": [
+        "Ototoxicidad",
+        "Alteraciones electrolíticas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria",
+      "Hipovolemia grave",
+      "Coma hepático"
+    ],
+    "perlas": [
+      "Equivalencias: furosemida 40 mg VO ≈ torasemida 20 mg ≈ bumetanida 1 mg."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "CAR-nitroprusiato",
+    "nombre": "Nitroprusiato sódico",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Nitrato y donante de óxido nítrico",
+    "subclase": "Donante directo de NO, vasodilatador arterial y venoso",
+    "vs_clase": [
+      "**Vasodilatador MIXTO (arterial y venoso) de acción inmediata** y fin en minutos: control milimétrico de la PA (UCI).",
+      "**Libera CIANURO** (5 moléculas por molécula): toxicidad con dosis altas o >48-72 h, sobre todo en insuficiencia renal o hepática → asociar hidroxocobalamina o tiosulfato.",
+      "**Robo coronario** en cardiopatía isquémica (preferir nitroglicerina) y **fotosensible** (proteger de la luz)."
+    ],
+    "mecanismo": "Libera óxido nítrico sin necesidad de metabolismo enzimático: activa la guanilato ciclasa y relaja el músculo liso arterial y venoso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Emergencia hipertensiva (disección aórtica tras betabloqueo, insuficiencia cardiaca aguda hipertensiva)",
+        "dosis": "0,3 → 10 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Máx. 10 µg/kg/min durante <10 min"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,3 µg/kg/min con vía arterial.",
+      "titulacion": "Subir cada 2-5 min.",
+      "duracion": "Lo más corta posible (<48-72 h).",
+      "fin": "Retirada gradual (rebote hipertensivo).",
+      "via": "IV, protegido de la luz.",
+      "monitorizacion": "PA invasiva, lactato y acidosis (cianuro), tiocianato si >48 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Reacción con la hemoglobina → cianuro → tiocianato (hígado, rodanasa).",
+      "eliminacion": "Renal (tiocianato).",
+      "vida_media": "**2 min** (tiocianato 3 días).",
+      "ajuste_renal": "Riesgo de toxicidad por tiocianato.",
+      "ajuste_hepatico": "Riesgo de toxicidad por cianuro.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de PDE5",
+          "efecto": "Hipotensión grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión",
+        "Náuseas, cefalea"
+      ],
+      "graves": [
+        "**Intoxicación por cianuro** (acidosis láctica, confusión)",
+        "Toxicidad por tiocianato (psicosis, convulsiones)",
+        "Metahemoglobinemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Coartación aórtica",
+      "Atrofia óptica de Leber",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Acidosis láctica inexplicada en un paciente con nitroprusiato: pensar en cianuro."
+    ],
+    "embarazo_lactancia": "Evitar (cianuro fetal).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "CAR-labetalol",
+    "nombre": "Labetalol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Betabloqueante",
+    "subclase": "Bloqueante alfa-1 y beta no selectivo, IV y VO",
+    "vs_clase": [
+      "**Antihipertensivo de PRIMERA LÍNEA en el EMBARAZO** (VO) y en la **emergencia hipertensiva y la preeclampsia grave** (IV).",
+      "**Bloqueo alfa-1 + beta**: baja la PA sin taquicardia refleja.",
+      "**Hepatotoxicidad** (rara pero grave) e **hipotensión ortostática**."
+    ],
+    "mecanismo": "Antagonista de receptores beta-1, beta-2 y alfa-1 (relación beta:alfa 3:1 oral, 7:1 IV).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión crónica o gestacional en el embarazo",
+        "dosis": "100-400 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Máx. 1.200-2.400 mg/día"
+      },
+      {
+        "patologia": "Emergencia hipertensiva y preeclampsia grave",
+        "dosis": "20 mg bolo, después 40-80 mg (máx. 300 mg) o perfusión 1-2 mg/min",
+        "posologia": "Bolos cada 10 min",
+        "via": "IV",
+        "nota": "Con monitorización"
+      }
+    ],
+    "esquema": {
+      "inicio": "100 mg/12 h VO o 20 mg IV.",
+      "titulacion": "VO cada 2-3 días; IV cada 10 min.",
+      "duracion": "Embarazo: hasta el posparto.",
+      "fin": "Retirada gradual.",
+      "via": "VO e IV.",
+      "monitorizacion": "PA (de pie), FC, transaminasas; en el neonato, glucemia y FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 25% (primer paso).",
+      "distribucion": "Escaso paso placentario relevante.",
+      "metabolismo": "Glucuronidación hepática.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "6-8 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem",
+          "efecto": "Bradicardia y bloqueo",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Insulina",
+          "efecto": "Enmascara hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión ortostática",
+        "Cansancio, cefalea",
+        "Hormigueo del cuero cabelludo"
+      ],
+      "graves": [
+        "Hepatotoxicidad",
+        "Broncoespasmo en asmáticos",
+        "Bradicardia e hipoglucemia neonatal"
+      ]
+    },
+    "contraindicaciones": [
+      "Asma",
+      "Bradicardia o bloqueo AV avanzado",
+      "Insuficiencia cardiaca descompensada"
+    ],
+    "perlas": [
+      "Gestante hipertensa asmática: nifedipino en lugar de labetalol."
+    ],
+    "embarazo_lactancia": "De elección en el embarazo. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 11"
+  },
+  {
+    "id": "CAR-esmolol",
+    "nombre": "Esmolol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Betabloqueante",
+    "subclase": "Cardioselectivo IV de acción ultracorta",
+    "vs_clase": [
+      "**Vida media de 9 MINUTOS** (esterasas de los hematíes): betabloqueo titulable que desaparece en 15-20 min al suspender.",
+      "**De elección en la DISECCIÓN AÓRTICA** (control de FC y PA) y en taquicardias perioperatorias.",
+      "**Seguro para «probar» el betabloqueo** en pacientes con dudas (EPOC, IC límite)."
+    ],
+    "mecanismo": "Bloqueo beta-1 selectivo, hidrolizado por esterasas eritrocitarias.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Disección aórtica aguda (control de FC <60 y PAS <120)",
+        "dosis": "0,5 mg/kg bolo, después 50-300 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Antes del vasodilatador"
+      },
+      {
+        "patologia": "Taquicardia supraventricular o FA rápida perioperatoria",
+        "dosis": "0,5 mg/kg en 1 min, después 50-200 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Titulable"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo y perfusión.",
+      "titulacion": "Cada 5-10 min.",
+      "duracion": "Horas, hasta pasar a betabloqueante oral.",
+      "fin": "Efecto desaparece en 20 min.",
+      "via": "IV.",
+      "monitorizacion": "ECG, PA continuas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Rápida.",
+      "metabolismo": "**Esterasas de los hematíes.**",
+      "eliminacion": "Renal (metabolito).",
+      "vida_media": "**9 min.**",
+      "ajuste_renal": "No precisa (metabolito ácido se acumula, sin relevancia habitual).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem IV",
+          "efecto": "Bradicardia y asistolia",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Succinilcolina",
+          "efecto": "Prolonga el bloqueo neuromuscular",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión",
+        "Flebitis"
+      ],
+      "graves": [
+        "Bradicardia grave",
+        "Necrosis por extravasación (concentraciones altas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia, bloqueo AV avanzado",
+      "Shock cardiogénico"
+    ],
+    "perlas": [
+      "Si el betabloqueo sienta mal, se resuelve en minutos: ventaja enorme en el paciente inestable."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 10"
+  },
+  {
+    "id": "CAR-doxazosina",
+    "nombre": "Doxazosina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Alfabloqueante",
+    "subclase": "Bloqueante alfa-1 no uroselectivo de acción larga",
+    "vs_clase": [
+      "**Antihipertensivo Y tratamiento de la hiperplasia benigna de próstata**: útil en el varón hipertenso con prostatismo.",
+      "**Efecto de PRIMERA DOSIS**: hipotensión ortostática y síncope (empezar con 1 mg al acostarse).",
+      "**En monoterapia antihipertensiva aumentó la insuficiencia cardiaca (ALLHAT)**: 4.º-5.º fármaco, no primera línea."
+    ],
+    "mecanismo": "Bloqueo competitivo de los receptores alfa-1 vasculares (vasodilatación arterial y venosa) y del cuello vesical y próstata.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión resistente (añadida)",
+        "dosis": "1 mg → 4-8 mg (máx. 16 mg)",
+        "posologia": "Cada 24 h, al acostarse",
+        "via": "VO",
+        "nota": "Forma retard 4-8 mg"
+      },
+      {
+        "patologia": "Hiperplasia benigna de próstata sintomática",
+        "dosis": "1 mg → 4-8 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Efecto en 1-2 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 mg al acostarse.",
+      "titulacion": "Doblar cada 1-2 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "Si se interrumpe varios días, reiniciar con 1 mg.",
+      "via": "VO.",
+      "monitorizacion": "PA de pie y tumbado."
+    },
+    "farmacocinetica": {
+      "absorcion": "65%.",
+      "distribucion": "Unión a proteínas 98%.",
+      "metabolismo": "Hepático (CYP3A4).",
+      "eliminacion": "Biliar.",
+      "vida_media": "22 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de PDE5 (sildenafilo)",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Separar tomas y dosis bajas"
+        },
+        {
+          "con": "Otros antihipertensivos y diuréticos",
+          "efecto": "Hipotensión de primera dosis",
+          "gravedad": "media",
+          "manejo": "Empezar con dosis baja"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, hipotensión ortostática",
+        "Cefalea, edemas",
+        "Congestión nasal"
+      ],
+      "graves": [
+        "Síncope de primera dosis",
+        "**Síndrome del iris flácido intraoperatorio** (cirugía de cataratas)",
+        "Priapismo (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipotensión ortostática",
+      "Antecedente de síncope miccional"
+    ],
+    "perlas": [
+      "Avisar al oftalmólogo antes de una cirugía de cataratas en pacientes con alfabloqueantes."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 11"
+  },
+  {
+    "id": "CAR-urapidilo",
+    "nombre": "Urapidilo",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Alfabloqueante",
+    "subclase": "Bloqueante alfa-1 IV con efecto central (agonista 5-HT1A)",
+    "vs_clase": [
+      "**Alfabloqueante IV de la emergencia hipertensiva**: sin taquicardia refleja por su efecto central serotoninérgico.",
+      "**Útil cuando el betabloqueo está contraindicado** (asma, bradicardia, IC).",
+      "**No eleva la presión intracraneal**: utilizable en el ictus."
+    ],
+    "mecanismo": "Bloqueo alfa-1 periférico y agonismo 5-HT1A central que reduce el tono simpático.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Emergencia hipertensiva",
+        "dosis": "12,5-25 mg bolo; perfusión 5-40 mg/h",
+        "posologia": "Bolo repetible a los 5 min, después perfusión",
+        "via": "IV",
+        "nota": "Objetivo de descenso gradual"
+      },
+      {
+        "patologia": "Urgencia hipertensiva (alternativa oral)",
+        "dosis": "30-60 mg (retard)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo de 12,5-25 mg.",
+      "titulacion": "Según PA.",
+      "duracion": "Hasta pasar a VO.",
+      "fin": "Solapar con tratamiento oral.",
+      "via": "IV y VO.",
+      "monitorizacion": "PA cada 5-15 min."
+    },
+    "farmacocinetica": {
+      "absorcion": "VO 72%.",
+      "distribucion": "Unión a proteínas 80%.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Otros antihipertensivos, alcohol",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, cefalea",
+        "Náuseas"
+      ],
+      "graves": [
+        "Hipotensión",
+        "Arritmias (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Estenosis aórtica",
+      "Shunt arteriovenoso (salvo hemodiálisis)"
+    ],
+    "perlas": [
+      "Alternativa al labetalol en asmáticos y en la insuficiencia cardiaca."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "NFR-tamsulosina",
+    "nombre": "Tamsulosina",
+    "sinonimos": [
+      "Silodosina, alfuzosina (otros alfabloqueantes uroselectivos)"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Alfabloqueante",
+    "subclase": "Bloqueante alfa-1A uroselectivo",
+    "vs_clase": [
+      "**UROSELECTIVO (alfa-1A de próstata y uréter)**: apenas baja la PA, **no sirve como antihipertensivo**.",
+      "**Primera línea en la hiperplasia benigna de próstata** y en el **tratamiento expulsivo de cálculos ureterales distales**.",
+      "**Eyaculación retrógrada** frecuente y el **síndrome del iris flácido** más intenso del grupo."
+    ],
+    "mecanismo": "Antagonista selectivo de receptores alfa-1A/1D del cuello vesical, próstata y uréter distal: relajación del músculo liso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperplasia benigna de próstata con síntomas del tracto urinario inferior",
+        "dosis": "0,4 mg",
+        "posologia": "Cada 24 h, tras el desayuno",
+        "via": "VO",
+        "nota": "Efecto en días; con finasterida si próstata >40 mL"
+      },
+      {
+        "patologia": "Tratamiento médico expulsivo de cálculo ureteral distal (5-10 mm)",
+        "dosis": "0,4 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Hasta 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,4 mg/día.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida en HBP; hasta 4 semanas en litiasis.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Síntomas (IPSS), ortostatismo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Casi completa (cápsula de liberación modificada).",
+      "distribucion": "Unión a proteínas 99%.",
+      "metabolismo": "CYP3A4 y CYP2D6.",
+      "eliminacion": "Renal.",
+      "vida_media": "10-15 h.",
+      "ajuste_renal": "No precisa (evitar con FG <10).",
+      "ajuste_hepatico": "Evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        },
+        {
+          "con": "Inhibidores de PDE5",
+          "efecto": "Hipotensión (leve)",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Eyaculación retrógrada o anaeyaculación**",
+        "Mareo",
+        "Congestión nasal"
+      ],
+      "graves": [
+        "**Síndrome del iris flácido intraoperatorio**",
+        "Hipotensión ortostática (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de hipotensión ortostática",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "No sustituye a un antihipertensivo; tampoco suele causar hipotensión como la doxazosina."
+    ],
+    "embarazo_lactancia": "No aplicable (uso en varones); en litiasis de mujeres, uso fuera de ficha.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 10"
+  },
+  {
+    "id": "CAR-hidralazina",
+    "nombre": "Hidralazina",
+    "sinonimos": [
+      "Hidralazina + dinitrato de isosorbida"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antihipertensivo de acción central o vasodilatador directo",
+    "subclase": "Vasodilatador arteriolar directo",
+    "vs_clase": [
+      "**Vasodilatador ARTERIOLAR directo**: con dinitrato de isosorbida, **alternativa en IC con FEVI reducida** si no se toleran IECA/ARA-II/ARNI (o en pacientes de origen africano).",
+      "**Taquicardia refleja y retención hidrosalina**: suele asociarse a betabloqueante y diurético.",
+      "**LUPUS INDUCIDO** (anticuerpos antihistona), más en acetiladores lentos y dosis >200 mg/día."
+    ],
+    "mecanismo": "Relaja el músculo liso arteriolar (mecanismo no del todo aclarado, apertura de canales de K y menor calcio intracelular); casi sin efecto venoso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida e intolerancia a IECA/ARA-II/ARNI (con dinitrato de isosorbida)",
+        "dosis": "25 mg → 75 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Dinitrato de isosorbida 20 → 40 mg/8 h"
+      },
+      {
+        "patologia": "Emergencia hipertensiva del embarazo (alternativa)",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 20-30 min (máx. 20-30 mg)",
+        "via": "IV",
+        "nota": "Taquicardia materna"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja con betabloqueante.",
+      "titulacion": "Cada 1-2 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "Retirada gradual.",
+      "via": "VO e IV.",
+      "monitorizacion": "FC, PA, ANA si síntomas articulares o serositis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Variable (acetilación).",
+      "distribucion": "Amplia.",
+      "metabolismo": "**Acetilación hepática (polimorfismo).**",
+      "eliminacion": "Renal.",
+      "vida_media": "2-4 h (efecto más largo).",
+      "ajuste_renal": "Espaciar dosis.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Otros antihipertensivos",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, palpitaciones, taquicardia",
+        "Rubor",
+        "Edemas"
+      ],
+      "graves": [
+        "**Lupus inducido**",
+        "Angina por taquicardia refleja",
+        "Neuropatía por déficit de piridoxina"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica sin betabloqueo",
+      "Lupus eritematoso sistémico",
+      "Estenosis mitral"
+    ],
+    "perlas": [
+      "Lupus por hidralazina: artralgias, serositis, ANA y antihistona; sin afectación renal ni anti-DNA de doble cadena."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 13"
+  },
+  {
+    "id": "CAR-metildopa",
+    "nombre": "Metildopa",
+    "sinonimos": [
+      "Alfametildopa"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antihipertensivo de acción central o vasodilatador directo",
+    "subclase": "Agonista alfa-2 central (falso neurotransmisor)",
+    "vs_clase": [
+      "**El antihipertensivo con MÁS experiencia en el EMBARAZO** (seguimiento de niños a largo plazo).",
+      "**Sedación y depresión**: evitarla en el posparto.",
+      "**Anemia hemolítica autoinmune con Coombs positivo** (hasta el 20% Coombs+, hemólisis en <1%) y hepatitis."
+    ],
+    "mecanismo": "Se convierte en alfa-metilnoradrenalina, que estimula los receptores alfa-2 del tronco y reduce el tono simpático.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión en el embarazo",
+        "dosis": "250 mg → 500-1.000 mg",
+        "posologia": "Cada 8-12 h (máx. 3 g/día)",
+        "via": "VO",
+        "nota": "Segunda línea tras labetalol y nifedipino"
+      }
+    ],
+    "esquema": {
+      "inicio": "250 mg/8-12 h.",
+      "titulacion": "Cada 2 días.",
+      "duracion": "Hasta el parto; cambiar en el posparto.",
+      "fin": "Retirada gradual.",
+      "via": "VO.",
+      "monitorizacion": "Hemograma, Coombs, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "25-50%.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "2 h (efecto 12-24 h).",
+      "ajuste_renal": "Espaciar.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Hierro oral",
+          "efecto": "Reduce su absorción",
+          "gravedad": "media",
+          "manejo": "Separar tomas"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Toxicidad por litio",
+          "gravedad": "media",
+          "manejo": "Controlar litemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**, boca seca",
+        "Hipotensión ortostática"
+      ],
+      "graves": [
+        "**Anemia hemolítica autoinmune**",
+        "Hepatitis",
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía activa",
+      "Depresión",
+      "Feocromocitoma"
+    ],
+    "perlas": [
+      "Embarazo: labetalol o nifedipino primero; metildopa como alternativa clásica."
+    ],
+    "embarazo_lactancia": "Compatible con embarazo y lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "CAR-clonidina",
+    "nombre": "Clonidina",
+    "sinonimos": [
+      "Moxonidina (agonista imidazolínico)"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antihipertensivo de acción central o vasodilatador directo",
+    "subclase": "Agonista alfa-2 adrenérgico central",
+    "vs_clase": [
+      "**HIPERTENSIÓN DE REBOTE GRAVE si se suspende bruscamente** (crisis adrenérgica): retirar en 7-10 días.",
+      "**Usos no antihipertensivos**: síndrome de abstinencia de opioides y alcohol, TDAH, sofocos, sedación en UCI (análogo: dexmedetomidina).",
+      "**Sedación y boca seca** frecuentes; parches transdérmicos semanales."
+    ],
+    "mecanismo": "Estimula los receptores alfa-2 presinápticos del tronco cerebral, reduciendo la salida simpática.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión resistente (añadida)",
+        "dosis": "0,075-0,15 mg → máx. 0,6 mg/día",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Ojo al rebote"
+      },
+      {
+        "patologia": "Síndrome de abstinencia de opioides (síntomas adrenérgicos)",
+        "dosis": "0,1-0,2 mg",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Vigilar hipotensión"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja.",
+      "titulacion": "Cada 2-3 días.",
+      "duracion": "Según indicación.",
+      "fin": "**Retirada gradual en 1-2 semanas** (si toma betabloqueante, retirar este antes).",
+      "via": "VO y transdérmica.",
+      "monitorizacion": "PA, FC, sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "75-95%.",
+      "distribucion": "Lipófila; SNC.",
+      "metabolismo": "Hepático (50%).",
+      "eliminacion": "Renal.",
+      "vida_media": "12-16 h.",
+      "ajuste_renal": "Reducir dosis.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Rebote hipertensivo grave al retirar la clonidina",
+          "gravedad": "alta",
+          "manejo": "Retirar primero el betabloqueante"
+        },
+        {
+          "con": "Antidepresivos tricíclicos",
+          "efecto": "Reducen su efecto antihipertensivo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sedación**, boca seca",
+        "Estreñimiento",
+        "Disfunción eréctil"
+      ],
+      "graves": [
+        "**Crisis hipertensiva de rebote**",
+        "Bradicardia",
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia, bloqueo AV",
+      "Mala adherencia (riesgo de rebote)"
+    ],
+    "perlas": [
+      "Paciente con clonidina ingresado en ayunas: no suspenderla bruscamente (vía transdérmica si no hay VO)."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11"
+  }
+]

@@ -1,0 +1,770 @@
+[
+  {
+    "id": "CAR-noradrenalina",
+    "nombre": "Noradrenalina (norepinefrina)",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Catecolamina y vasopresor",
+    "subclase": "Vasopresor alfa-1 predominante",
+    "vs_clase": [
+      "**VASOPRESOR DE PRIMERA ELECCIÓN en el shock séptico** y en la mayoría de shocks vasodilatados.",
+      "**Predominio alfa-1 (vasoconstricción) con efecto beta-1 moderado**: sube la PA sin taquicardia importante (la dopamina produce más arritmias).",
+      "**Puede iniciarse por vía periférica** de calibre adecuado mientras se canaliza una central (vigilar extravasación)."
+    ],
+    "mecanismo": "Agonista de receptores alfa-1 (vasoconstricción arteriolar y venosa, aumento de resistencias y del retorno venoso) y beta-1 (inotropismo moderado). Poco efecto beta-2.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Shock séptico y shock distributivo con PAM <65 mmHg tras volumen",
+        "dosis": "0,05-0,5 µg/kg/min (hasta 1-2 µg/kg/min)",
+        "posologia": "Perfusión continua titulada",
+        "via": "IV",
+        "nota": "Objetivo PAM ≥65 mmHg; añadir vasopresina si >0,25-0,5 µg/kg/min"
+      },
+      {
+        "patologia": "Shock cardiogénico con hipotensión grave",
+        "dosis": "0,05-0,5 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Con inotrópico (dobutamina) si bajo gasto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras reanimación con volumen (o en paralelo si hipotensión grave). Vía arterial para monitorización.",
+      "titulacion": "Ajustar cada 5-15 min según PAM, lactato y diuresis.",
+      "duracion": "Hasta estabilidad hemodinámica.",
+      "fin": "**Descenso progresivo**, no brusco.",
+      "via": "IV por vía central (periférica de forma transitoria).",
+      "monitorizacion": "PA invasiva, FC, lactato, diuresis, perfusión distal, zona de infusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "No atraviesa la barrera hematoencefálica.",
+      "metabolismo": "COMT y MAO (hígado, riñón, terminaciones nerviosas).",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "**2-3 min** (efecto cesa al detener la perfusión).",
+      "ajuste_renal": "No precisa (se titula por efecto).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO, antidepresivos tricíclicos, linezolid",
+          "efecto": "Respuesta presora exagerada",
+          "gravedad": "alta",
+          "manejo": "Dosis iniciales bajas"
+        },
+        {
+          "con": "Anestésicos halogenados",
+          "efecto": "Arritmias ventriculares",
+          "gravedad": "media",
+          "manejo": "Monitorizar ECG"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Bradicardia refleja",
+        "Hipertensión si sobredosificación"
+      ],
+      "graves": [
+        "**Isquemia digital, mesentérica o renal** a dosis altas",
+        "**Necrosis cutánea por extravasación** (antídoto: fentolamina local)",
+        "Arritmias"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipovolemia no corregida (relativa: usar mientras se repone)",
+      "Trombosis vascular mesentérica o periférica (relativa)"
+    ],
+    "perlas": [
+      "**Sin volumen previo, la noradrenalina «exprime» un sistema vacío**: reponer líquidos a la vez.",
+      "Extravasación: detener la perfusión e infiltrar fentolamina 5-10 mg en la zona."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (puede reducir el flujo uteroplacentario).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; Harrison 20.ª ed., cap. de shock"
+  },
+  {
+    "id": "CAR-dobutamina",
+    "nombre": "Dobutamina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Catecolamina y vasopresor",
+    "subclase": "Inotrópico beta-1 predominante",
+    "vs_clase": [
+      "**INOTRÓPICO, no vasopresor**: aumenta el gasto cardiaco y puede **bajar** la PA (efecto beta-2 vasodilatador).",
+      "**De elección en el shock cardiogénico con bajo gasto** y en la ecocardiografía de estrés.",
+      "**Aumenta el consumo de oxígeno miocárdico y las arritmias**; el betabloqueante crónico reduce su efecto."
+    ],
+    "mecanismo": "Agonista beta-1 con efecto beta-2 y alfa-1 leves que se compensan: aumento de contractilidad y gasto con escasa variación de resistencias.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca aguda con bajo gasto e hipoperfusión",
+        "dosis": "2-20 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Si PAS <90 asociar noradrenalina"
+      },
+      {
+        "patologia": "Ecocardiografía de estrés farmacológico",
+        "dosis": "5 → 40 µg/kg/min",
+        "posologia": "Escalones de 3 min",
+        "via": "IV",
+        "nota": "± atropina"
+      }
+    ],
+    "esquema": {
+      "inicio": "2-5 µg/kg/min con monitorización.",
+      "titulacion": "Subir según gasto, perfusión y arritmias.",
+      "duracion": "El mínimo necesario (taquifilaxia en 48-72 h).",
+      "fin": "Descenso progresivo.",
+      "via": "IV.",
+      "monitorizacion": "ECG continuo, PA, diuresis, lactato, SvO2."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "COMT y conjugación.",
+      "eliminacion": "Renal.",
+      "vida_media": "2 min.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Reducen su efecto inotrópico",
+          "gravedad": "media",
+          "manejo": "Considerar levosimendán o milrinona"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Taquicardia",
+        "Palpitaciones, angina"
+      ],
+      "graves": [
+        "Arritmias ventriculares",
+        "Isquemia miocárdica",
+        "Hipotensión (efecto beta-2)",
+        "Miocarditis eosinofílica con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Miocardiopatía hipertrófica obstructiva",
+      "Taquiarritmias no controladas"
+    ],
+    "perlas": [
+      "Hipotenso y frío: noradrenalina para la presión, dobutamina para el gasto."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 9 y 13"
+  },
+  {
+    "id": "CAR-dopamina",
+    "nombre": "Dopamina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Catecolamina y vasopresor",
+    "subclase": "Catecolamina de efecto dosis-dependiente",
+    "vs_clase": [
+      "**Efecto según la dosis**: D1 renal (<3 µg/kg/min), beta-1 inotrópico (3-10) y alfa vasopresor (>10).",
+      "**Más ARRITMIAS y mortalidad que la noradrenalina** en el shock (SOAP II): ya no es de primera línea.",
+      "**La «dosis renal» NO protege el riñón**: abandonada."
+    ],
+    "mecanismo": "Precursor de noradrenalina; agonista D1, beta-1 y alfa-1 según la dosis, y liberador de noradrenalina endógena.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Bradicardia sintomática refractaria a atropina (alternativa al marcapasos transcutáneo)",
+        "dosis": "5-20 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Puente al marcapasos"
+      },
+      {
+        "patologia": "Shock con bradicardia relativa (alternativa)",
+        "dosis": "5-20 µg/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Preferir noradrenalina en general"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 µg/kg/min por vía central.",
+      "titulacion": "Subir 5 µg/kg/min cada 5-10 min.",
+      "duracion": "El mínimo necesario.",
+      "fin": "Descenso progresivo.",
+      "via": "IV.",
+      "monitorizacion": "ECG, PA, diuresis, zona de infusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "No atraviesa la barrera hematoencefálica.",
+      "metabolismo": "MAO y COMT.",
+      "eliminacion": "Renal.",
+      "vida_media": "2 min.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva (reducir dosis al 10%)",
+          "gravedad": "alta",
+          "manejo": "Evitar o dosis mínimas"
+        },
+        {
+          "con": "Fenitoína IV",
+          "efecto": "Hipotensión y bradicardia",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Taquicardia",
+        "Náuseas"
+      ],
+      "graves": [
+        "**Arritmias** (FA, TV)",
+        "Isquemia periférica, necrosis por extravasación",
+        "Supresión de prolactina y TSH"
+      ]
+    },
+    "contraindicaciones": [
+      "Feocromocitoma",
+      "Taquiarritmias no controladas"
+    ],
+    "perlas": [
+      "En el shock séptico, la noradrenalina es superior; la dopamina queda para bradicardia sintomática como puente."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; Harrison 20.ª ed., cap. de shock"
+  },
+  {
+    "id": "CAR-levosimendan",
+    "nombre": "Levosimendán",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Inotrópico no adrenérgico",
+    "subclase": "Sensibilizador del calcio e inodilatador",
+    "vs_clase": [
+      "**Sensibiliza la troponina C al calcio**: aumenta la contractilidad **sin aumentar el calcio intracelular ni el consumo de oxígeno** como las catecolaminas.",
+      "**Eficaz en pacientes con BETABLOQUEANTE** (no compite con el receptor beta).",
+      "**Metabolito activo (OR-1896) con efecto de 7-9 días** tras una infusión de 24 h; vasodilatador: hipotensión."
+    ],
+    "mecanismo": "Se une a la troponina C de forma dependiente de calcio (sensibilización) y abre canales de potasio dependientes de ATP del músculo liso vascular (vasodilatación).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca aguda con bajo gasto en paciente betabloqueado",
+        "dosis": "0,05-0,2 µg/kg/min (sin bolo si PA baja)",
+        "posologia": "Perfusión de 24 h",
+        "via": "IV",
+        "nota": "Bolo opcional 6-12 µg/kg si PAS adecuada"
+      }
+    ],
+    "esquema": {
+      "inicio": "Corregir hipovolemia e hipopotasemia.",
+      "titulacion": "Según PA y FC.",
+      "duracion": "24 h.",
+      "fin": "Efecto prolongado tras suspender.",
+      "via": "IV.",
+      "monitorizacion": "PA, FC, ECG, potasio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Unión a proteínas 98%.",
+      "metabolismo": "Conjugación; metabolito activo por la flora intestinal.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "1 h (metabolito 75-80 h).",
+      "ajuste_renal": "Precaución con FG <30.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Nitratos y otros vasodilatadores",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar PA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión, cefalea",
+        "Hipopotasemia"
+      ],
+      "graves": [
+        "Taquiarritmias (FA)",
+        "Hipotensión grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipotensión grave (PAS <85)",
+      "Obstrucción mecánica al llenado o vaciado ventricular",
+      "Antecedente de torsade de pointes"
+    ],
+    "perlas": [
+      "Su efecto dura días: útil como puente en la IC avanzada, pero la hipotensión también."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 13"
+  },
+  {
+    "id": "CAR-milrinona",
+    "nombre": "Milrinona",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Inotrópico no adrenérgico",
+    "subclase": "Inhibidor de la fosfodiesterasa 3 (inodilatador)",
+    "vs_clase": [
+      "**Inhibe la PDE3**: aumenta el AMPc **sin pasar por el receptor beta** (útil con betabloqueante).",
+      "**Potente VASODILATADOR pulmonar y sistémico**: útil en la insuficiencia de ventrículo derecho e hipertensión pulmonar perioperatoria.",
+      "**Eliminación RENAL**: se acumula en la insuficiencia renal (arritmias, hipotensión)."
+    ],
+    "mecanismo": "Inhibición de la PDE3 cardiaca y vascular: más AMPc → inotropismo, lusitropismo y vasodilatación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Bajo gasto tras cirugía cardiaca o IC aguda con resistencias pulmonares altas",
+        "dosis": "0,25-0,75 µg/kg/min",
+        "posologia": "Perfusión continua (bolo opcional 50 µg/kg en 10 min)",
+        "via": "IV",
+        "nota": "Corto plazo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con monitorización.",
+      "titulacion": "Según gasto y PA.",
+      "duracion": "48-72 h.",
+      "fin": "Descenso progresivo.",
+      "via": "IV.",
+      "monitorizacion": "PA, ECG, función renal, plaquetas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "**Reducir la perfusión según FG.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Furosemida en la misma vía",
+          "efecto": "Precipitación",
+          "gravedad": "baja",
+          "manejo": "Vías separadas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión",
+        "Cefalea"
+      ],
+      "graves": [
+        "Arritmias ventriculares",
+        "Trombocitopenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipotensión grave",
+      "Miocardiopatía hipertrófica obstructiva"
+    ],
+    "perlas": [
+      "Su uso crónico oral aumentó la mortalidad (PROMISE): solo uso agudo."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 13"
+  },
+  {
+    "id": "CAR-ranolazina",
+    "nombre": "Ranolazina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antianginoso de otros mecanismos",
+    "subclase": "Inhibidor de la corriente tardía de sodio",
+    "vs_clase": [
+      "**Antianginoso SIN efecto sobre la FC ni la PA**: útil cuando el paciente ya está bradicárdico o hipotenso.",
+      "**Prolonga el QT** y es **sustrato e inhibidor del CYP3A4 y la P-gp** (simvastatina ≤20 mg, digoxina).",
+      "Leve efecto hipoglucemiante."
+    ],
+    "mecanismo": "Inhibe la corriente tardía de sodio en el miocito isquémico, reduciendo la sobrecarga de sodio y calcio y la tensión diastólica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Angina estable con control insuficiente (añadida)",
+        "dosis": "375 mg → 500-750 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Subir a las 2-4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECG (QT) y revisión de interacciones.",
+      "titulacion": "Subir a las 2-4 semanas.",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "Suspensión directa.",
+      "via": "VO (comprimido entero).",
+      "monitorizacion": "QT, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Variable (liberación prolongada).",
+      "distribucion": "Unión a proteínas 62%.",
+      "metabolismo": "**CYP3A4 y CYP2D6.**",
+      "eliminacion": "Renal.",
+      "vida_media": "7 h.",
+      "ajuste_renal": "Contraindicada con FG <30.",
+      "ajuste_hepatico": "Contraindicada en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (claritromicina, ketoconazol)",
+          "efecto": "Aumento de niveles y del QT",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Simvastatina, digoxina",
+          "efecto": "Aumento de sus niveles",
+          "gravedad": "media",
+          "manejo": "Simvastatina ≤20 mg; vigilar digoxinemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, náuseas",
+        "Estreñimiento"
+      ],
+      "graves": [
+        "Prolongación del QT",
+        "Síncope"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <30",
+      "Insuficiencia hepática moderada-grave",
+      "Uso con inhibidores potentes del CYP3A4"
+    ],
+    "perlas": [
+      "Opción lógica en el anginoso con FC 50 y PA 100: no empeora ninguna de las dos."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "CAR-trimetazidina",
+    "nombre": "Trimetazidina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Antianginoso de otros mecanismos",
+    "subclase": "Modulador metabólico (inhibidor de la beta-oxidación)",
+    "vs_clase": [
+      "**Modulador METABÓLICO**: desplaza el metabolismo del miocito de ácidos grasos a glucosa (más ATP por oxígeno).",
+      "**Puede causar o empeorar PARKINSONISMO** y temblor: restricción de la EMA; contraindicada en Parkinson.",
+      "Sin efecto hemodinámico."
+    ],
+    "mecanismo": "Inhibe la 3-cetoacil-CoA tiolasa mitocondrial (beta-oxidación), favoreciendo la oxidación de glucosa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Angina estable con control insuficiente (añadida, 2.ª línea)",
+        "dosis": "35 mg (liberación modificada)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Reevaluar a los 3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar parkinsonismo.",
+      "titulacion": "No se titula.",
+      "duracion": "Reevaluar a los 3 meses.",
+      "fin": "Suspender si síntomas extrapiramidales.",
+      "via": "VO.",
+      "monitorizacion": "Temblor, rigidez, marcha."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "7 h.",
+      "ajuste_renal": "FG 30-60: 35 mg/24 h; contraindicada con FG <30.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas",
+        "Mareo"
+      ],
+      "graves": [
+        "**Parkinsonismo, temblor, inestabilidad y caídas**"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad de Parkinson o síntomas extrapiramidales",
+      "FG <30"
+    ],
+    "perlas": [
+      "Anciano con angina que empieza a caerse y temblar: revisar trimetazidina."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "CAR-fenofibrato",
+    "nombre": "Fenofibrato",
+    "sinonimos": [
+      "Gemfibrozilo (fibrato a evitar con estatinas)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Hipolipemiante no estatínico",
+    "subclase": "Fibrato (agonista PPAR-alfa)",
+    "vs_clase": [
+      "**El hipolipemiante de los TRIGLICÉRIDOS**: los reduce un 30-50% (sobre todo útil si >500 mg/dL por riesgo de pancreatitis).",
+      "**El fibrato que SÍ puede combinarse con estatina** (el gemfibrozilo multiplica la rabdomiólisis).",
+      "**Eleva la creatinina** de forma reversible y aumenta la litiasis biliar; sin beneficio cardiovascular claro añadido a estatina."
+    ],
+    "mecanismo": "Agonista del receptor PPAR-alfa: aumenta la lipoproteína lipasa y la oxidación de ácidos grasos, reduce la producción de VLDL y eleva el HDL.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertrigliceridemia grave (>500-880 mg/dL) para prevenir pancreatitis",
+        "dosis": "145-160 mg (o 200-250 mg según formulación)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Con dieta y abstinencia de alcohol"
+      },
+      {
+        "patologia": "Dislipemia aterogénica (TG altos y HDL bajo) con LDL ya controlado",
+        "dosis": "145-160 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Añadido a estatina en casos seleccionados"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal y hepática basales.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida mientras esté indicado.",
+      "fin": "Suspender si CK alta con síntomas o deterioro renal.",
+      "via": "VO con comida.",
+      "monitorizacion": "Perfil lipídico, creatinina, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mejor con comida (salvo nanoformulaciones).",
+      "distribucion": "Unión a albúmina 99%.",
+      "metabolismo": "Hidrólisis a ácido fenofíbrico; sin CYP3A4 relevante.",
+      "eliminacion": "Renal.",
+      "vida_media": "20 h.",
+      "ajuste_renal": "FG 30-60: dosis mínima; contraindicado con FG <30.",
+      "ajuste_hepatico": "Contraindicado en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Estatinas",
+          "efecto": "Miopatía (bajo riesgo con fenofibrato)",
+          "gravedad": "media",
+          "manejo": "Vigilar síntomas musculares"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "alta",
+          "manejo": "Reducir warfarina y controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas",
+        "Elevación de creatinina y transaminasas"
+      ],
+      "graves": [
+        "Miopatía/rabdomiólisis (con estatinas)",
+        "Colelitiasis",
+        "Pancreatitis",
+        "Tromboembolia venosa (leve aumento)"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <30",
+      "Hepatopatía o colecistopatía",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Triglicéridos >1.000 mg/dL: el riesgo es la pancreatitis, y el fibrato + abstinencia de alcohol + dieta son el tratamiento."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35"
+  },
+  {
+    "id": "CAR-evolocumab",
+    "nombre": "Evolocumab (y alirocumab)",
+    "sinonimos": [
+      "Inhibidores de PCSK9",
+      "Inclisirán (ARN de interferencia, semestral)"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Hipolipemiante no estatínico",
+    "subclase": "Anticuerpo monoclonal anti-PCSK9",
+    "vs_clase": [
+      "**El hipolipemiante MÁS POTENTE: reduce el LDL un 50-60% adicional** a la estatina.",
+      "**Inyección SC cada 2 semanas (o mensual)**, con beneficio en eventos cardiovasculares (FOURIER, ODYSSEY).",
+      "**Prácticamente sin efectos musculares**: opción en intolerancia a estatinas."
+    ],
+    "mecanismo": "Anticuerpo que bloquea PCSK9, proteína que degrada el receptor de LDL: más receptores en el hepatocito y más aclaramiento de LDL.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Riesgo cardiovascular muy alto o hipercolesterolemia familiar con LDL fuera de objetivo pese a estatina + ezetimiba",
+        "dosis": "140 mg (o 420 mg mensual)",
+        "posologia": "Cada 2 semanas",
+        "via": "SC",
+        "nota": "Alirocumab 75-150 mg/2 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras estatina máxima tolerada + ezetimiba.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Al suspender, el LDL vuelve al basal en semanas.",
+      "via": "SC (pluma).",
+      "monitorizacion": "Perfil lipídico a las 4-8 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, biodisponibilidad 72%.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo proteico y unión a la diana.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "11-17 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución en grave.",
+      "interacciones": [
+        {
+          "con": "Estatinas",
+          "efecto": "Aumentan la PCSK9 (efecto sinérgico deseado)",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción en el punto de inyección",
+        "Síntomas gripales, nasofaringitis"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "El LDL muy bajo que consiguen (<30 mg/dL) no se ha asociado a efectos adversos cognitivos ni de otro tipo."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; guía ESC/EAS"
+  },
+  {
+    "id": "CAR-acido-bempedoico",
+    "nombre": "Ácido bempedoico",
+    "sinonimos": [
+      "Ácido bempedoico/ezetimiba"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Hipolipemiante no estatínico",
+    "subclase": "Inhibidor de la ATP-citrato liasa (profármaco hepático)",
+    "vs_clase": [
+      "**Actúa en la misma vía que la estatina pero un paso antes y SOLO en el hígado** (el músculo no lo activa): **sin miopatía**, opción en intolerancia a estatinas.",
+      "Reduce el LDL un 17-25% (≈40% con ezetimiba); beneficio en eventos en intolerantes (CLEAR Outcomes).",
+      "**Eleva el ácido úrico** (gota) y la creatinina."
+    ],
+    "mecanismo": "Profármaco activado por la acil-CoA sintetasa hepática; inhibe la ATP-citrato liasa, previa a la HMG-CoA reductasa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipercolesterolemia con intolerancia a estatinas o LDL fuera de objetivo",
+        "dosis": "180 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Habitualmente con ezetimiba (comprimido combinado)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ácido úrico basal.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Perfil lipídico, ácido úrico, creatinina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Unión a proteínas 99%.",
+      "metabolismo": "Glucuronidación.",
+      "eliminacion": "Renal.",
+      "vida_media": "21 h.",
+      "ajuste_renal": "Precaución con FG <30.",
+      "ajuste_hepatico": "Precaución en grave.",
+      "interacciones": [
+        {
+          "con": "Simvastatina >40 mg y pravastatina >40 mg",
+          "efecto": "Aumento de sus niveles",
+          "gravedad": "media",
+          "manejo": "Limitar la dosis de la estatina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperuricemia",
+        "Espasmos musculares leves",
+        "Anemia leve"
+      ],
+      "graves": [
+        "Gota",
+        "Rotura tendinosa (rara)",
+        "Colelitiasis"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Uso con simvastatina >40 mg"
+    ],
+    "perlas": [
+      "Paciente que «no tolera ninguna estatina»: ácido bempedoico + ezetimiba como base, y iPCSK9 si no basta."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Guía ESC/EAS de dislipemias; Katzung 15.ª ed., cap. 35"
+  }
+]

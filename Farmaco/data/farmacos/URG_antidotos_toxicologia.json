@@ -123,7 +123,7 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Anticolinérgico antimuscarínico",
+    "clase": "Antimuscarínico (anticolinérgico sistémico)",
     "subclase": "Amina terciaria de acción central y periférica",
     "mecanismo": "Antagonista competitivo de los receptores MUSCARÍNICOS. En el nodo sinusal y auriculoventricular bloquea el tono vagal y aumenta la frecuencia cardiaca y la conducción; en las glándulas exocrinas reduce las secreciones; en el músculo liso produce relajación, midriasis y cicloplejía. Al ser una AMINA TERCIARIA atraviesa la barrera hematoencefálica, lo que le da acción central (útil en la intoxicación por organofosforados, pero responsable del delirio anticolinérgico). NO revierte la nicotínica: por eso en la intoxicación por organofosforados no corrige la debilidad muscular ni las fasciculaciones, para lo que hace falta pralidoxima.",
     "espectro": null,
@@ -231,6 +231,11 @@
     ],
     "embarazo_lactancia": "Puede utilizarse en el embarazo cuando está indicada en la emergencia; atraviesa la placenta y puede producir taquicardia fetal. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., caps. de bradiarritmias e intoxicaciones"
+    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., caps. de bradiarritmias e intoxicaciones",
+    "vs_clase": [
+      "**Amina TERCIARIA que atraviesa la barrera hematoencefálica**: antídoto de la **intoxicación por organofosforados** (dosis enormes, hasta secar las secreciones).",
+      "**Tratamiento de la BRADICARDIA sintomática** (1 mg IV cada 3-5 min, máx. 3 mg).",
+      "Colirio midriático de larga duración (1-2 semanas)."
+    ]
   }
 ]

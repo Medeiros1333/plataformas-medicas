@@ -5,8 +5,8 @@
     "sinonimos": [],
     "area": "GIN",
     "nivel": 1,
-    "clase": "Anticonvulsivante y neuroprotector",
-    "subclase": "Sal de magnesio de uso parenteral",
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Sal de magnesio parenteral (anticonvulsivante obstétrico)",
     "mecanismo": "El magnesio actúa como ANTAGONISTA FISIOLÓGICO DEL CALCIO en tres niveles que explican sus tres usos. En el SISTEMA NERVIOSO bloquea el receptor NMDA del glutamato, eleva el umbral convulsivo y produce vasodilatación cerebral, revirtiendo el vasoespasmo de la eclampsia; ese es su papel anticonvulsivante, y no es el de un antihipertensivo, aunque baje algo la tensión. En el MÚSCULO LISO inhibe la entrada de calcio y relaja el miometrio y el bronquio. En la PLACA MOTORA compite con el calcio y reduce la liberación de acetilcolina, de donde salen a la vez su efecto tocolítico y su toxicidad: la abolición del reflejo rotuliano y, si se sigue subiendo, la parálisis respiratoria. Esa secuencia ordenada de signos (reflejo, respiración, corazón) es lo que permite vigilarlo clínicamente sin necesidad de niveles urgentes.",
     "espectro": null,
     "indicaciones": [
@@ -126,7 +126,12 @@
     ],
     "embarazo_lactancia": "Es un fármaco esencial de la obstetricia moderna y su uso durante la gestación está plenamente establecido. Exposiciones PROLONGADAS de más de 5-7 días se han asociado a desmineralización ósea fetal, por lo que se limita la duración. El recién nacido de madre tratada puede presentar hipotonía y depresión respiratoria y requiere vigilancia. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 28; ensayo Magpie; guías de la OMS y de la SEGO sobre estados hipertensivos del embarazo"
+    "fuente": "Katzung 15.ª ed., cap. 28; ensayo Magpie; guías de la OMS y de la SEGO sobre estados hipertensivos del embarazo",
+    "vs_clase": [
+      "**Anticonvulsivante de elección en la PREECLAMPSIA grave y la ECLAMPSIA** (superior a diazepam y fenitoína).",
+      "**Neuroprotección fetal** en el parto <32 semanas y **2 g IV en la crisis asmática grave y la torsade de pointes**.",
+      "**Toxicidad por magnesio**: pérdida del reflejo rotuliano → depresión respiratoria → parada; antídoto **gluconato cálcico**."
+    ]
   },
   {
     "id": "GIN-corticoides-tocoliticos",

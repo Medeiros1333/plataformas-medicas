@@ -7,8 +7,8 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Simpaticomimético",
-    "subclase": "Agonista adrenérgico no selectivo (alfa-1, beta-1 y beta-2)",
+    "clase": "Catecolamina y vasopresor",
+    "subclase": "Agonista alfa y beta no selectivo",
     "mecanismo": "Agonista directo de todos los receptores adrenérgicos, y cada uno aporta una pieza distinta del efecto que se busca en la anafilaxia. La acción ALFA-1 produce vasoconstricción: sube la tensión arterial, revierte el shock distributivo y reduce el edema de la mucosa laríngea, que es lo que mata. La acción BETA-1 aumenta la frecuencia y la contractilidad cardiacas. La acción BETA-2 broncodilata y, sobre todo, ESTABILIZA EL MASTOCITO al elevar el AMPc, frenando la liberación adicional de histamina y triptasa. Ningún otro fármaco reúne las tres acciones, y por eso ningún otro puede sustituirla.",
     "espectro": null,
     "indicaciones": [
@@ -124,7 +124,12 @@
     ],
     "embarazo_lactancia": "Se utiliza sin restricción en la anafilaxia de la embarazada: la hipotensión materna no tratada compromete al feto mucho más que el fármaco. Compatible con la lactancia (no se absorbe por vía oral en el lactante).",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 9; guías de anafilaxia de la EAACI y del ERC 2021"
+    "fuente": "Katzung 15.ª ed., cap. 9; guías de anafilaxia de la EAACI y del ERC 2021",
+    "vs_clase": [
+      "**Fármaco de PRIMERA LÍNEA en la ANAFILAXIA (IM)** y en la **parada cardiaca (IV)**: el único de la clase con estos usos.",
+      "**Efecto beta-2 broncodilatador y estabilizador del mastocito** además del vasopresor (la noradrenalina no lo tiene).",
+      "**Nebulizada en la laringitis**; aumenta el lactato y la glucemia (efecto beta-2 metabólico)."
+    ]
   },
   {
     "id": "URG-glucagon",

@@ -7,8 +7,8 @@
     ],
     "area": "URG",
     "nivel": 1,
-    "clase": "Electrolito y antídoto",
-    "subclase": "Sal de calcio para administración intravenosa",
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Sal de calcio IV (electrolito y antídoto)",
     "mecanismo": "Aporta calcio iónico, con dos acciones distintas según la indicación. En la HIPERPOTASEMIA no modifica en absoluto la cifra de potasio: eleva el umbral de despolarización del miocardio, restaurando la diferencia entre el potencial de reposo (que el potasio ha desplazado hacia arriba) y el umbral, con lo que la excitabilidad se normaliza y el ECG se estabiliza. Es un ANTAGONISTA DE MEMBRANA, no un tratamiento del potasio. En la HIPOCALCEMIA y en la intoxicación por CALCIOANTAGONISTAS o por MAGNESIO actúa como aporte directo del ion, restaurando la contractilidad y la transmisión neuromuscular.",
     "espectro": null,
     "indicaciones": [
@@ -126,6 +126,11 @@
     ],
     "embarazo_lactancia": "Seguro y de uso habitual, incluida su indicación como antídoto de la intoxicación por sulfato de magnesio en la paciente con preeclampsia. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., caps. de trastornos del potasio y del calcio"
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., caps. de trastornos del potasio y del calcio",
+    "vs_clase": [
+      "**Estabiliza la membrana del miocardio en la HIPERPOTASEMIA** con cambios ECG (no baja el potasio).",
+      "**Antídoto** de la intoxicación por calcioantagonistas, por magnesio y de la hipocalcemia por quelación (transfusión masiva, ácido fluorhídrico).",
+      "**El cloruro cálcico aporta 3 veces más calcio** pero es muy irritante (vía central); **precaución con digoxina**."
+    ]
   }
 ]

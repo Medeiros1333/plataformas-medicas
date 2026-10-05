@@ -8,8 +8,8 @@
     ],
     "area": "CAR",
     "nivel": 1,
-    "clase": "ARNI (inhibidor de la neprilisina y del receptor de angiotensina)",
-    "subclase": "Inhibidor dual de la neprilisina y del receptor AT1 (ARNI)",
+    "clase": "ARA-II (antagonista del receptor de angiotensina II)",
+    "subclase": "ARNI: valsartán + inhibidor de la neprilisina",
     "mecanismo": "Combina dos fármacos con acciones complementarias sobre el corazón insuficiente. El SACUBITRILO, tras convertirse en sacubitrilato, inhibe la NEPRILISINA, la enzima que degrada los péptidos natriuréticos: al bloquearla se prolonga la vida del BNP y del péptido natriurético auricular, que producen vasodilatación, natriuresis y efecto antifibrótico y antihipertrófico. Pero la neprilisina degrada también la angiotensina II, de modo que inhibirla sola sería contraproducente; por eso se asocia el VALSARTÁN, que bloquea el receptor AT1. La consecuencia práctica de este diseño es que se potencia el brazo natriurético beneficioso mientras se sigue frenando el eje renina-angiotensina-aldosterona.",
     "espectro": null,
     "indicaciones": [
@@ -118,7 +118,13 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADO en el embarazo: como todo bloqueante del eje renina-angiotensina, produce oligohidramnios, hipoplasia pulmonar, insuficiencia renal fetal y muerte. Debe suspenderse en cuanto se confirme la gestación. Contraindicado en la lactancia por falta de datos.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 13; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo PARADIGM-HF"
+    "fuente": "Katzung 15.ª ed., cap. 13; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo PARADIGM-HF",
+    "vs_clase": [
+      "**Añade al valsartán un INHIBIDOR DE LA NEPRILISINA** (más péptidos natriuréticos): **superior al enalapril** en mortalidad en IC con FEVI reducida (PARADIGM-HF).",
+      "**Nunca con un IECA: 36 h de lavado** (angioedema por doble aumento de bradicinina). Desde un ARA-II no hace falta esperar.",
+      "**Eleva el BNP** (sustrato de la neprilisina): en el seguimiento usar el NT-proBNP.",
+      "**Más hipotensión** que el IECA: empezar con 24/26 mg si PA baja."
+    ]
   },
   {
     "id": "CAR-ivabradina",
@@ -126,7 +132,7 @@
     "sinonimos": [],
     "area": "CAR",
     "nivel": 2,
-    "clase": "Bradicardizante",
+    "clase": "Antianginoso de otros mecanismos",
     "subclase": "Inhibidor selectivo de la corriente If del nodo sinusal",
     "mecanismo": "Bloquea de forma selectiva la corriente If (funny current) de los canales HCN del NODO SINUSAL, que es la corriente responsable de la despolarización diastólica espontánea, es decir, del automatismo. Al frenarla, reduce la pendiente de esa despolarización y baja la frecuencia cardiaca SIN afectar a la contractilidad, a la conducción auriculoventricular ni a la tensión arterial. Es un bradicardizante puro: alarga la diástole, mejora la perfusión coronaria y reduce el consumo miocárdico de oxígeno sin ninguno de los efectos inotrópicos negativos ni hipotensores del betabloqueante. De ahí también su limitación fundamental: solo funciona si el marcapasos del corazón es el nodo sinusal, y por eso es inútil en la fibrilación auricular.",
     "espectro": null,
@@ -238,6 +244,11 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADA en el embarazo (embriotoxicidad y efectos cardiacos en animales) y en la lactancia. Requiere anticoncepción eficaz en la mujer en edad fértil.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 12; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo SHIFT"
+    "fuente": "Katzung 15.ª ed., cap. 12; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo SHIFT",
+    "vs_clase": [
+      "**Baja SOLO la frecuencia cardiaca** (corriente If del nodo sinusal), sin efecto inotrópico ni sobre la PA.",
+      "**Requiere RITMO SINUSAL** (inútil en FA) y FC ≥70 lpm en la IC.",
+      "**Fosfenos** (destellos luminosos) por bloqueo de la corriente Ih retiniana; interacción con inhibidores del CYP3A4 y diltiazem/verapamilo."
+    ]
   }
 ]

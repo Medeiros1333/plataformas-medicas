@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "NFR-amilorida",
+    "nombre": "Amilorida",
+    "sinonimos": [
+      "Amilorida/hidroclorotiazida",
+      "Triamtereno"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Diurético osmótico y de otros mecanismos",
+    "subclase": "Ahorrador de potasio bloqueante del canal ENaC",
+    "vs_clase": [
+      "**Ahorrador de potasio que NO actúa sobre la aldosterona**: bloquea directamente el canal de sodio ENaC del túbulo colector.",
+      "**De elección en la DIABETES INSÍPIDA NEFROGÉNICA por LITIO** (bloquea la entrada de litio en la célula) y en el **síndrome de Liddle**.",
+      "**Sin efectos hormonales** (a diferencia de la espironolactona); riesgo de **hiperpotasemia**."
+    ],
+    "mecanismo": "Bloquea el canal epitelial de sodio (ENaC) de la membrana luminal del túbulo colector: menor reabsorción de sodio y menor secreción de potasio e hidrogeniones.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipopotasemia por tiazidas (asociada)",
+        "dosis": "5 mg (con 50 mg de hidroclorotiazida)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Combinación fija"
+      },
+      {
+        "patologia": "Diabetes insípida nefrogénica inducida por litio",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Mantener el litio si es imprescindible"
+      },
+      {
+        "patologia": "Síndrome de Liddle",
+        "dosis": "5-20 mg/día",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "La espironolactona no es eficaz (no depende de aldosterona)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Potasio y creatinina basales.",
+      "titulacion": "Según potasio y respuesta.",
+      "duracion": "Indefinida según indicación.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Potasio a la semana y periódicamente."
+    },
+    "farmacocinetica": {
+      "absorcion": "15-25%.",
+      "distribucion": "Amplia.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "6-9 h.",
+      "ajuste_renal": "**Evitar con FG <30** (hiperpotasemia).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, ARM, suplementos de K, trimetoprim",
+          "efecto": "**Hiperpotasemia grave**",
+          "gravedad": "alta",
+          "manejo": "Evitar o control estrecho"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperpotasemia leve",
+        "Náuseas, cefalea"
+      ],
+      "graves": [
+        "Hiperpotasemia grave",
+        "Hiponatremia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperpotasemia",
+      "FG <30",
+      "Uso con otros ahorradores de potasio"
+    ],
+    "perlas": [
+      "Poliuria en paciente con litio: pensar en diabetes insípida nefrogénica; la amilorida es el tratamiento."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "NFR-manitol",
+    "nombre": "Manitol",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Diurético osmótico y de otros mecanismos",
+    "subclase": "Diurético osmótico",
+    "vs_clase": [
+      "**Diurético OSMÓTICO: se filtra y no se reabsorbe**, arrastrando agua; su uso real es **reducir la PRESIÓN INTRACRANEAL** y la intraocular.",
+      "**Primero expande el volumen intravascular**: puede precipitar EDEMA PULMONAR en insuficiencia cardiaca.",
+      "**Fracaso renal agudo** con dosis altas acumuladas (osmolalidad >320 mOsm/kg)."
+    ],
+    "mecanismo": "Azúcar no metabolizable que aumenta la osmolalidad plasmática (extrae agua del cerebro y del ojo) y la tubular (diuresis osmótica).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión intracraneal (TCE, edema cerebral)",
+        "dosis": "0,25-1 g/kg (solución al 20%)",
+        "posologia": "En 15-20 min; repetible cada 4-6 h",
+        "via": "IV",
+        "nota": "Mantener osmolalidad <320 mOsm/kg"
+      },
+      {
+        "patologia": "Glaucoma agudo de ángulo cerrado (refractario)",
+        "dosis": "1-2 g/kg",
+        "posologia": "En 30-60 min",
+        "via": "IV",
+        "nota": "Mientras se prepara el tratamiento definitivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Sonda vesical; osmolalidad basal.",
+      "titulacion": "Según PIC y osmolalidad.",
+      "duracion": "Horas-días.",
+      "fin": "Retirada gradual (rebote de edema).",
+      "via": "IV con filtro.",
+      "monitorizacion": "**Osmolalidad y hiato osmolar**, sodio, función renal, balance."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal (filtración).",
+      "vida_media": "1-2 h (más en ERC).",
+      "ajuste_renal": "**Contraindicado en anuria**; precaución en ERC.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Nefrotóxicos (aminoglucósidos, ciclosporina)",
+          "efecto": "Fracaso renal",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Poliuria",
+        "Alteraciones del sodio"
+      ],
+      "graves": [
+        "**Edema pulmonar** por expansión de volumen",
+        "Fracaso renal agudo",
+        "Hipernatremia/deshidratación"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria",
+      "Insuficiencia cardiaca congestiva o edema pulmonar",
+      "Deshidratación grave",
+      "Hemorragia intracraneal activa (relativa)"
+    ],
+    "perlas": [
+      "Alternativa en la hipertensión intracraneal: salino hipertónico, que no produce diuresis ni hipovolemia."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "NFR-urea",
+    "nombre": "Urea oral",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Diurético osmótico y de otros mecanismos",
+    "subclase": "Agente osmótico oral para el SIADH",
+    "vs_clase": [
+      "**Diurético osmótico ORAL**: aumenta la excreción de agua libre; **tratamiento eficaz, barato y seguro del SIADH crónico**.",
+      "**Menos riesgo de sobrecorrección** que el tolvaptán y sin hepatotoxicidad.",
+      "**Sabor desagradable** (mejor en preparados saborizados o zumo)."
+    ],
+    "mecanismo": "Aporta una carga de solutos que, al excretarse, arrastra agua libre (diuresis osmótica) y reduce la natriuresis.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiponatremia euvolémica por SIADH",
+        "dosis": "15-30 g",
+        "posologia": "Cada 24 h (repartida en 1-2 tomas)",
+        "via": "VO",
+        "nota": "Con o sin restricción hídrica moderada"
+      }
+    ],
+    "esquema": {
+      "inicio": "15 g/día disuelta en agua o zumo.",
+      "titulacion": "Subir a 30 g según sodio.",
+      "duracion": "Mientras persista el SIADH.",
+      "fin": "Suspender al resolverse la causa.",
+      "via": "VO.",
+      "monitorizacion": "Sodio a las 24-48 h y luego semanal; urea plasmática."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Agua corporal total.",
+      "metabolismo": "No.",
+      "eliminacion": "Renal.",
+      "vida_media": "Horas.",
+      "ajuste_renal": "Evitar en ERC avanzada.",
+      "ajuste_hepatico": "Evitar en hepatopatía avanzada (amonio).",
+      "interacciones": [
+        {
+          "con": "Tolvaptán",
+          "efecto": "Corrección excesiva del sodio",
+          "gravedad": "media",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mal sabor, náuseas",
+        "Diarrea"
+      ],
+      "graves": [
+        "Hipernatremia con dosis excesivas"
+      ]
+    },
+    "contraindicaciones": [
+      "ERC avanzada",
+      "Cirrosis descompensada",
+      "Hiponatremia hipovolémica"
+    ],
+    "perlas": [
+      "La restricción hídrica sola suele fracasar si la osmolalidad urinaria es >500 mOsm/kg: ahí, urea."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del sodio y el agua"
+  },
+  {
+    "id": "NFR-carbonato-acetato-calcico",
+    "nombre": "Carbonato cálcico / acetato cálcico (quelantes del fósforo)",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Quelante del fósforo",
+    "subclase": "Quelante cálcico",
+    "vs_clase": [
+      "**El quelante MÁS BARATO**; el acetato capta más fósforo por mg de calcio que el carbonato.",
+      "**Aporta CALCIO**: riesgo de hipercalcemia y de **calcificación vascular**; limitar la dosis de calcio elemental (≤1,5 g/día).",
+      "**Tomar CON las comidas** (no lejos de ellas, que es como actúa como suplemento de calcio)."
+    ],
+    "mecanismo": "El calcio se une al fosfato de la dieta en la luz intestinal formando fosfato cálcico insoluble que se elimina en las heces.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperfosfatemia de la enfermedad renal crónica",
+        "dosis": "500-1.000 mg (carbonato) o 667-1.334 mg (acetato)",
+        "posologia": "Con cada comida",
+        "via": "VO",
+        "nota": "Según el contenido de fósforo de cada comida"
+      }
+    ],
+    "esquema": {
+      "inicio": "Si fósforo elevado pese a dieta.",
+      "titulacion": "Ajustar a fósforo y calcio.",
+      "duracion": "Indefinida.",
+      "fin": "Cambiar a sevelámero si hipercalcemia.",
+      "via": "VO con comidas.",
+      "monitorizacion": "Calcio, fósforo y PTH cada 1-3 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Parte del calcio se absorbe.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "Fecal (fosfato cálcico).",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "Uso específico en ERC; vigilar calcemia.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Levotiroxina, quinolonas, tetraciclinas, hierro",
+          "efecto": "Quelación y menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2-4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento",
+        "Flatulencia"
+      ],
+      "graves": [
+        "Hipercalcemia",
+        "Calcificación vascular y de partes blandas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia",
+      "Calcificación vascular extensa o calcifilaxis"
+    ],
+    "perlas": [
+      "En diálisis con calcificaciones vasculares, preferir quelantes sin calcio."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad renal crónica"
+  },
+  {
+    "id": "NFR-sevelamero",
+    "nombre": "Sevelámero",
+    "sinonimos": [
+      "Carbonato de sevelámero"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Quelante del fósforo",
+    "subclase": "Resina no cálcica ni metálica",
+    "vs_clase": [
+      "**SIN CALCIO ni metales**: no produce hipercalcemia ni se acumula; preferible con calcificación vascular o hipercalcemia.",
+      "**Reduce además el LDL** (secuestra ácidos biliares).",
+      "**Muchas pastillas y efectos digestivos**; el carbonato corrige además la acidosis."
+    ],
+    "mecanismo": "Polímero catiónico que une fosfato (y ácidos biliares) en la luz intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperfosfatemia en ERC/diálisis",
+        "dosis": "800-1.600 mg",
+        "posologia": "Con cada comida",
+        "via": "VO",
+        "nota": "Ajustar a fósforo"
+      }
+    ],
+    "esquema": {
+      "inicio": "800 mg con comidas.",
+      "titulacion": "Cada 2-4 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Fósforo, calcio, PTH, bicarbonato."
+    },
+    "farmacocinetica": {
+      "absorcion": "**No se absorbe.**",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ciprofloxacino, micofenolato, levotiroxina, ciclosporina",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 1-3 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, estreñimiento o diarrea",
+        "Dispepsia"
+      ],
+      "graves": [
+        "Obstrucción o perforación intestinal (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipofosfatemia",
+      "Obstrucción intestinal"
+    ],
+    "perlas": [
+      "Quelante de elección si hay calcificaciones vasculares o calcio alto."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad renal crónica"
+  },
+  {
+    "id": "NFR-carbonato-lantano",
+    "nombre": "Carbonato de lantano",
+    "sinonimos": [
+      "Oxihidróxido sucroférrico (quelante con hierro)"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante del fósforo",
+    "subclase": "Quelante metálico (lantano)",
+    "vs_clase": [
+      "**El quelante más potente por pastilla**: menos comprimidos (masticables).",
+      "**Sin calcio**; el lantano se absorbe mínimamente pero **se deposita en hueso e hígado** (seguridad a muy largo plazo incierta).",
+      "**Debe MASTICARSE** completamente."
+    ],
+    "mecanismo": "El ion lantano forma fosfato de lantano insoluble en la luz intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperfosfatemia en ERC/diálisis",
+        "dosis": "500-1.000 mg",
+        "posologia": "Con cada comida (masticado)",
+        "via": "VO",
+        "nota": "Máx. 3.750 mg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "750 mg/día repartidos.",
+      "titulacion": "Cada 2-3 semanas.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO masticado.",
+      "monitorizacion": "Fósforo, calcio."
+    },
+    "farmacocinetica": {
+      "absorcion": "<0,002%.",
+      "distribucion": "Depósito óseo mínimo.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal (biliar lo absorbido).",
+      "vida_media": "53 h (plasma).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Quinolonas, tetraciclinas, levotiroxina",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2-4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos",
+        "Dolor abdominal"
+      ],
+      "graves": [
+        "Obstrucción intestinal (si no se mastica)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipofosfatemia",
+      "Obstrucción intestinal"
+    ],
+    "perlas": [
+      "Útil si la carga de pastillas compromete la adherencia."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad renal crónica"
+  },
+  {
+    "id": "NFR-patiromer",
+    "nombre": "Patiromer",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante del potasio",
+    "subclase": "Polímero intercambiador de calcio por potasio",
+    "vs_clase": [
+      "**Inicio LENTO (7 h)**: para la hiperpotasemia CRÓNICA, no para la urgencia.",
+      "**Intercambia calcio (no sodio)**: sin sobrecarga de sodio (útil en IC); produce **hipomagnesemia**.",
+      "**Permite mantener IECA, ARA-II y ARM** en ERC e IC."
+    ],
+    "mecanismo": "Polímero no absorbible que capta potasio en el colon a cambio de calcio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperpotasemia crónica (para mantener bloqueantes del SRAA)",
+        "dosis": "8,4 g (hasta 25,2 g)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ajustar a K cada semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "8,4 g/día con comida.",
+      "titulacion": "Subir 8,4 g cada semana según K.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO (suspensión).",
+      "monitorizacion": "Potasio y magnesio."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante (inicio 7 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros fármacos orales (ciprofloxacino, levotiroxina, metformina)",
+          "efecto": "Puede reducir su absorción",
+          "gravedad": "media",
+          "manejo": "Separar 3 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento",
+        "**Hipomagnesemia**",
+        "Diarrea, flatulencia"
+      ],
+      "graves": [
+        "Hipopotasemia por exceso"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Obstrucción intestinal"
+    ],
+    "perlas": [
+      "No sirve para la hiperpotasemia aguda con cambios ECG."
+    ],
+    "embarazo_lactancia": "No se absorbe; usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del potasio"
+  },
+  {
+    "id": "NFR-ciclosilicato-sodio-circonio",
+    "nombre": "Ciclosilicato de sodio y circonio",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante del potasio",
+    "subclase": "Intercambiador inorgánico selectivo de potasio",
+    "vs_clase": [
+      "**El quelante de INICIO MÁS RÁPIDO (1 h)**: útil también en la fase aguda, como tercer escalón.",
+      "**Intercambia SODIO e hidrógeno**: **edemas** por sobrecarga de sodio.",
+      "Muy selectivo y actúa en todo el intestino."
+    ],
+    "mecanismo": "Cristal inorgánico que atrapa potasio (y amonio) a lo largo del tubo digestivo a cambio de sodio e hidrógeno.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperpotasemia aguda (corrección)",
+        "dosis": "10 g",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "48-72 h"
+      },
+      {
+        "patologia": "Hiperpotasemia crónica (mantenimiento)",
+        "dosis": "5-10 g",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ajustar a K"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 g/8 h.",
+      "titulacion": "Pasar a mantenimiento al normalizar.",
+      "duracion": "Corrección 48 h; mantenimiento indefinido.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Potasio, edemas, peso."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante (inicio 1 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Fármacos de absorción pH-dependiente (azoles, ITK, dabigatrán)",
+          "efecto": "Altera su absorción (eleva el pH gástrico)",
+          "gravedad": "media",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Edemas**",
+        "Hipopotasemia"
+      ],
+      "graves": [
+        "Insuficiencia cardiaca por sobrecarga de sodio"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "En la hiperpotasemia aguda complementa (no sustituye) al calcio, la insulina y el salbutamol."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del potasio"
+  },
+  {
+    "id": "NFR-poliestireno-sulfonato",
+    "nombre": "Poliestireno sulfonato (cálcico o sódico)",
+    "sinonimos": [
+      "Resinas de intercambio iónico"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante del potasio",
+    "subclase": "Resina clásica de intercambio catiónico",
+    "vs_clase": [
+      "**La resina CLÁSICA y barata**, de inicio lento y efecto **poco predecible**.",
+      "**NECROSIS INTESTINAL** (sobre todo con sorbitol o en posoperados): el efecto grave propio de este grupo.",
+      "La forma cálcica no aporta sodio; la sódica sí."
+    ],
+    "mecanismo": "Resina que intercambia sodio o calcio por potasio en el colon.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperpotasemia leve-moderada sin urgencia",
+        "dosis": "15 g",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "O 30 g en enema de retención"
+      }
+    ],
+    "esquema": {
+      "inicio": "15 g VO.",
+      "titulacion": "Según K.",
+      "duracion": "Corta.",
+      "fin": "—",
+      "via": "VO o rectal.",
+      "monitorizacion": "Potasio, calcio, hábito intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante (inicio horas).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sorbitol",
+          "efecto": "Necrosis intestinal",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Antiácidos de Mg/Al",
+          "efecto": "Alcalosis metabólica",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento",
+        "Náuseas"
+      ],
+      "graves": [
+        "**Necrosis colónica**",
+        "Impactación fecal",
+        "Hipocalcemia o sobrecarga de sodio"
+      ]
+    },
+    "contraindicaciones": [
+      "Íleo u obstrucción intestinal",
+      "Posoperatorio abdominal reciente",
+      "Neonatos (VO)"
+    ],
+    "perlas": [
+      "Hoy desplazado por patiromer y ciclosilicato cuando están disponibles."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "NFR-salino-isotonico",
+    "nombre": "Suero salino 0,9%",
+    "sinonimos": [
+      "Cloruro sódico 0,9%",
+      "Suero fisiológico"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Cristaloide isotónico no balanceado",
+    "vs_clase": [
+      "**154 mEq/L de sodio y de CLORO** (más cloro que el plasma): en grandes volúmenes produce **acidosis metabólica HIPERCLORÉMICA**.",
+      "**De elección en la hiponatremia hipovolémica, la hipercalcemia, la alcalosis metabólica y el TCE** (el Ringer es ligeramente hipotónico).",
+      "**Compatible con todo** (incluida la sangre) y vehículo universal de fármacos."
+    ],
+    "mecanismo": "Expande el compartimento extracelular (un 25% queda en el espacio intravascular).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Reanimación de la hipovolemia y del shock",
+        "dosis": "500-1.000 mL (30 mL/kg en sepsis)",
+        "posologia": "Bolos de 15-30 min, reevaluando",
+        "via": "IV",
+        "nota": "Preferir balanceado si se necesitan grandes volúmenes"
+      },
+      {
+        "patologia": "Hipercalcemia grave",
+        "dosis": "200-300 mL/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Diuresis 100-150 mL/h; después bisfosfonato"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolos con reevaluación.",
+      "titulacion": "Según volemia.",
+      "duracion": "Lo necesario.",
+      "fin": "Pasar a VO en cuanto se pueda.",
+      "via": "IV.",
+      "monitorizacion": "Balance, electrolitos, cloro, gasometría, signos de sobrecarga."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "—",
+      "eliminacion": "Renal.",
+      "vida_media": "No aplica.",
+      "ajuste_renal": "Volumen según diuresis.",
+      "ajuste_hepatico": "Precaución en cirrosis (ascitis).",
+      "interacciones": [
+        {
+          "con": "Litio",
+          "efecto": "Aumenta la eliminación de litio",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sobrecarga de volumen, edemas"
+      ],
+      "graves": [
+        "**Acidosis hiperclorémica**",
+        "Edema pulmonar",
+        "Fracaso renal (asociación con cloro alto)"
+      ]
+    },
+    "contraindicaciones": [
+      "Sobrecarga de volumen",
+      "Hipernatremia"
+    ],
+    "perlas": [
+      "Hiponatremia por SIADH: el salino 0,9% puede EMPEORARLA (se excreta el sodio y se retiene el agua)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de líquidos y electrolitos"
+  },
+  {
+    "id": "NFR-ringer-lactato",
+    "nombre": "Ringer lactato (y otros cristaloides balanceados)",
+    "sinonimos": [
+      "Solución de Hartmann",
+      "Plasma-Lyte"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Cristaloide balanceado",
+    "vs_clase": [
+      "**Composición parecida al plasma**: menos acidosis hiperclorémica y **menos fracaso renal** que el salino en reanimaciones amplias (SMART).",
+      "**Ligeramente HIPOTÓNICO (130 mEq/L de Na)**: evitarlo en el TCE y la hiponatremia grave.",
+      "**Contiene calcio (precipita con la sangre en la misma vía) y potasio (4 mEq/L, sin riesgo real en la hiperpotasemia)**."
+    ],
+    "mecanismo": "Expansión extracelular; el lactato se metaboliza a bicarbonato en el hígado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Reanimación en sepsis, quemados, cirugía y cetoacidosis",
+        "dosis": "500-1.000 mL (30 mL/kg en sepsis)",
+        "posologia": "Bolos de 15-30 min reevaluando",
+        "via": "IV",
+        "nota": "Cristaloide de elección en la mayoría de pacientes"
+      },
+      {
+        "patologia": "Pancreatitis aguda (hidratación)",
+        "dosis": "1,5 mL/kg/h (bolo de 10 mL/kg si hipovolemia)",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Hidratación moderada (WATERFALL)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolos con reevaluación.",
+      "titulacion": "Según respuesta.",
+      "duracion": "Lo necesario.",
+      "fin": "Pasar a VO.",
+      "via": "IV.",
+      "monitorizacion": "Balance, electrolitos, sobrecarga."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Lactato → bicarbonato (hígado).",
+      "eliminacion": "Renal.",
+      "vida_media": "No aplica.",
+      "ajuste_renal": "Volumen según diuresis.",
+      "ajuste_hepatico": "En insuficiencia hepática grave, el lactato se metaboliza peor.",
+      "interacciones": [
+        {
+          "con": "Ceftriaxona (neonatos) y concentrados de hematíes",
+          "efecto": "Precipitación con el calcio",
+          "gravedad": "media",
+          "manejo": "Vías separadas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sobrecarga de volumen"
+      ],
+      "graves": [
+        "Edema pulmonar",
+        "Hiponatremia relativa en TCE"
+      ]
+    },
+    "contraindicaciones": [
+      "Traumatismo craneoencefálico grave (preferir salino 0,9%)",
+      "Sobrecarga de volumen"
+    ],
+    "perlas": [
+      "El lactato del Ringer no eleva de forma relevante el lactato sérico ni impide valorarlo en la sepsis."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de líquidos y electrolitos"
+  },
+  {
+    "id": "NFR-glucosado",
+    "nombre": "Suero glucosado (5%, 10%, 50%)",
+    "sinonimos": [
+      "Dextrosa",
+      "Glucosa hipertónica"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Solución de glucosa (agua libre y aporte calórico)",
+    "vs_clase": [
+      "**El glucosado al 5% es AGUA LIBRE** (la glucosa se metaboliza): **no expande el intravascular**; sirve para reponer agua en la hipernatremia, no para el shock.",
+      "**Glucosa hipertónica (10-50%) para la HIPOGLUCEMIA** y para acompañar a la insulina en la hiperpotasemia.",
+      "**Hiponatremia** si se usa como mantenimiento en adultos y niños (preferir isotónicos)."
+    ],
+    "mecanismo": "Aporta glucosa (energía) y agua que se distribuye por todos los compartimentos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipoglucemia grave",
+        "dosis": "25 g (50 mL al 50% o 250 mL al 10%)",
+        "posologia": "Bolo; repetir según glucemia",
+        "via": "IV",
+        "nota": "Niños: 2-5 mL/kg al 10%; después perfusión al 10% si sulfonilurea"
+      },
+      {
+        "patologia": "Hipernatremia (reposición de agua libre)",
+        "dosis": "Según déficit de agua libre",
+        "dosis_objetivo": "Descenso del sodio ≤10-12 mEq/L en 24 h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Glucosado al 5%"
+      },
+      {
+        "patologia": "Hiperpotasemia (junto a insulina)",
+        "dosis": "25-50 g",
+        "posologia": "Con 10 UI de insulina rápida",
+        "via": "IV",
+        "nota": "Glucemia horaria"
+      }
+    ],
+    "esquema": {
+      "inicio": "Según indicación.",
+      "titulacion": "Según glucemia y sodio.",
+      "duracion": "Lo necesario.",
+      "fin": "—",
+      "via": "IV (≥10% por vía central si perfusión prolongada).",
+      "monitorizacion": "Glucemia, sodio."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Agua corporal total.",
+      "metabolismo": "Glucólisis.",
+      "eliminacion": "CO2 y agua.",
+      "vida_media": "No aplica.",
+      "ajuste_renal": "—",
+      "ajuste_hepatico": "—",
+      "interacciones": [
+        {
+          "con": "Tiamina (alcohólicos)",
+          "efecto": "La glucosa sin tiamina precipita Wernicke",
+          "gravedad": "alta",
+          "manejo": "Tiamina antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperglucemia",
+        "Flebitis (concentraciones altas)"
+      ],
+      "graves": [
+        "**Hiponatremia** (edema cerebral)",
+        "Encefalopatía de Wernicke en desnutridos"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperglucemia no controlada",
+      "TCE e ictus (salvo hipoglucemia)",
+      "Hiponatremia"
+    ],
+    "perlas": [
+      "Nunca usar glucosado al 5% para reanimar a un paciente hipotenso."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de líquidos y electrolitos"
+  },
+  {
+    "id": "NFR-cloruro-potasico",
+    "nombre": "Cloruro potásico",
+    "sinonimos": [
+      "Potasio oral (citrato, bicarbonato)"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Reposición de potasio",
+    "vs_clase": [
+      "**NUNCA en bolo IV ni sin diluir**: parada cardiaca. Máximo 10-20 mEq/h por vía periférica (hasta 40 mEq/h por vía central con monitorización).",
+      "**Por VO siempre que se pueda** (es más seguro); el cloruro corrige además la alcalosis por diuréticos o vómitos.",
+      "**Corregir también el MAGNESIO**: sin él, la hipopotasemia es refractaria."
+    ],
+    "mecanismo": "Repone el potasio corporal; el cloro corrige la alcalosis metabólica asociada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipopotasemia leve-moderada (K 2,5-3,5)",
+        "dosis": "40-80 mEq/día",
+        "posologia": "Repartidos cada 8-12 h",
+        "via": "VO",
+        "nota": "Con comida (irritación digestiva)"
+      },
+      {
+        "patologia": "Hipopotasemia grave (K <2,5) o sintomática",
+        "dosis": "10-20 mEq/h (máx. 40 mEq por litro periférico)",
+        "posologia": "Perfusión diluida",
+        "via": "IV",
+        "nota": "Monitorización ECG si >10 mEq/h"
+      },
+      {
+        "patologia": "Cetoacidosis diabética",
+        "dosis": "20-30 mEq por litro de suero",
+        "posologia": "Añadido a los sueros",
+        "via": "IV",
+        "dosis_objetivo": "K 4-5 mmol/L",
+        "nota": "K <3,3: reponer antes de la insulina"
+      }
+    ],
+    "esquema": {
+      "inicio": "K, Mg, creatinina y ECG basales.",
+      "titulacion": "Según K cada 2-6 h (IV).",
+      "duracion": "Hasta normalizar y mientras persista la causa.",
+      "fin": "—",
+      "via": "VO o IV diluido.",
+      "monitorizacion": "Potasio seriado, ECG, magnesio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa VO.",
+      "distribucion": "Intracelular.",
+      "metabolismo": "—",
+      "eliminacion": "Renal.",
+      "vida_media": "No aplica.",
+      "ajuste_renal": "**Dosis menores y control estrecho en ERC.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, ARM, amilorida, trimetoprim",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de K"
+        },
+        {
+          "con": "Anticolinérgicos (forma sólida)",
+          "efecto": "Úlcera digestiva por tránsito lento",
+          "gravedad": "media",
+          "manejo": "Formas líquidas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas (VO)",
+        "Flebitis y dolor (IV)"
+      ],
+      "graves": [
+        "**Hiperpotasemia y parada cardiaca** (administración rápida)",
+        "Úlcera esofágica o intestinal (comprimidos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperpotasemia",
+      "Fracaso renal oligúrico"
+    ],
+    "perlas": [
+      "Hipopotasemia que no se corrige: medir y reponer el magnesio."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del potasio"
+  }
+]

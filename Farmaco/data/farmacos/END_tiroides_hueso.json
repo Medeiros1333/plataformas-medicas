@@ -7,7 +7,7 @@
     ],
     "area": "END",
     "nivel": 1,
-    "clase": "Hormona tiroidea sintética",
+    "clase": "Fármaco tiroideo (hormona y yodo)",
     "subclase": "Tiroxina (T4) sódica",
     "mecanismo": "Es T4 sintética idéntica a la endógena. Actúa como PROHORMONA: se desyoda en los tejidos periféricos a T3, que es la forma activa y que se une a receptores nucleares regulando la transcripción de genes del metabolismo basal, la termogénesis, el crecimiento y el desarrollo del sistema nervioso. Administrar T4 en lugar de T3 permite que sea el propio organismo el que module cuánta hormona activa genera en cada tejido, lo que da un efecto estable con una sola toma diaria.",
     "espectro": null,
@@ -131,7 +131,12 @@
     ],
     "embarazo_lactancia": "Segura e IMPRESCINDIBLE en el embarazo; las necesidades aumentan un 25-30% desde el primer trimestre, con objetivo de TSH por debajo de 2,5 mUI/L. Compatible con la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 38; Harrison 20.ª ed., cap. de trastornos de la glándula tiroides"
+    "fuente": "Katzung 15.ª ed., cap. 38; Harrison 20.ª ed., cap. de trastornos de la glándula tiroides",
+    "vs_clase": [
+      "**T4: tratamiento sustitutivo de elección** del hipotiroidismo; vida media de 7 días (una toma diaria y estado estable en 6 semanas).",
+      "**En ayunas, separada 4 h de hierro, calcio, IBP** (absorción muy sensible).",
+      "**Ancianos y cardiópatas: empezar con 12,5-25 µg**; aumentar la dosis un 25-30% al confirmar un embarazo."
+    ]
   },
   {
     "id": "END-tiamazol",
@@ -382,7 +387,7 @@
     ],
     "area": "END",
     "nivel": 2,
-    "clase": "Glucocorticoide sistémico",
+    "clase": "Corticoide sistémico (gluco y mineralocorticoide)",
     "subclase": "Acción corta, potencia mineralocorticoide plena: tratamiento sustitutivo suprarrenal",
     "vs_clase": [
       "**Es el cortisol: potencia mineralocorticoide plena**. El glucocorticoide de elección en la **insuficiencia suprarrenal** (sustitución y crisis addisoniana: 100 mg IV).",

@@ -9,7 +9,7 @@
     ],
     "area": "NFR",
     "nivel": 1,
-    "clase": "Fluidoterapia intravenosa",
+    "clase": "Visión de clase: cristaloides intravenosos",
     "subclase": "Soluciones cristaloides isotónicas y hipotónicas",
     "mecanismo": "Expanden el volumen circulante según su composición y su tonicidad. El SALINO 0,9% y el RINGER LACTATO son ISOTÓNICOS y permanecen en el espacio EXTRACELULAR, del que aproximadamente un cuarto queda en el intravascular: por eso sirven para reponer volemia. El GLUCOSALINO y el suero glucosado son funcionalmente HIPOTÓNICOS una vez metabolizada la glucosa, se distribuyen por el agua corporal total y apenas expanden la volemia: sirven para aportar agua libre, no para resucitar. El salino 0,9% contiene 154 mEq/L de cloro (frente a los 100 del plasma) y su exceso produce ACIDOSIS METABÓLICA HIPERCLORÉMICA con vasoconstricción renal; el Ringer lactato tiene una composición más próxima al plasma y su lactato se metaboliza a bicarbonato.",
     "espectro": null,
@@ -127,7 +127,8 @@
     ],
     "embarazo_lactancia": "Seguros y de uso habitual en el embarazo. Precaución con las soluciones hipotónicas por el riesgo de hiponatremia, al que la gestante es especialmente susceptible.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de trastornos hidroelectrolíticos y shock"
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de trastornos hidroelectrolíticos y shock",
+    "vision_clase": true
   },
   {
     "id": "NFR-bicarbonato-sodico",
@@ -137,8 +138,8 @@
     ],
     "area": "NFR",
     "nivel": 2,
-    "clase": "Alcalinizante",
-    "subclase": "Tampón extracelular",
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Alcalinizante",
     "mecanismo": "Aporta el anión bicarbonato, que capta hidrogeniones y forma ácido carbónico, el cual se disocia en agua y CO2. Ese CO2 debe ser ELIMINADO POR EL PULMÓN: si el paciente no puede aumentar su ventilación, el bicarbonato empeora la acidosis intracelular en lugar de corregirla. Además, al alcalinizar el plasma desplaza el POTASIO al interior de la célula y aumenta la unión del CALCIO a la albúmina, reduciendo el calcio iónico. En la intoxicación por antidepresivos tricíclicos actúa por un mecanismo distinto y específico: el sodio que aporta compite con el bloqueo de los canales de sodio cardiacos y la alcalinización reduce la fracción libre del fármaco.",
     "espectro": null,
     "indicaciones": [
@@ -258,6 +259,11 @@
     ],
     "embarazo_lactancia": "Seguro cuando está indicado. Precaución con la carga de sodio en la gestante con preeclampsia o cardiopatía.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de acidosis metabólica e intoxicaciones"
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de acidosis metabólica e intoxicaciones",
+    "vs_clase": [
+      "**Alcalinizante**: indicado en la acidosis metabólica con pH <7,1-7,2 de causa no orgánica, la **intoxicación por tricíclicos o salicilatos** y la hiperpotasemia con acidosis.",
+      "**NO de rutina en la cetoacidosis ni en la acidosis láctica** (salvo pH <6,9).",
+      "**Aporta mucho sodio** (sobrecarga) y puede causar **hipopotasemia e hipocalcemia ionizada**."
+    ]
   }
 ]

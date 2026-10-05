@@ -234,7 +234,7 @@
     ],
     "area": "DIG",
     "nivel": 2,
-    "clase": "Antiinflamatorio intestinal",
+    "clase": "Fármaco de la enfermedad inflamatoria intestinal",
     "subclase": "Aminosalicilato de acción tópica sobre la mucosa colónica",
     "mecanismo": "Actúa TÓPICAMENTE sobre el epitelio colónico, no por vía sistémica: inhibe la ciclooxigenasa y la lipooxigenasa reduciendo prostaglandinas y leucotrienos, capta radicales libres, inhibe la activación del NF-kappa-B y modula la producción de citocinas proinflamatorias. La consecuencia práctica de que su acción sea tópica es que TODO el diseño farmacéutico del fármaco está orientado a liberarlo en el segmento intestinal enfermo: cubiertas pH-dependientes, matrices de liberación prolongada, profármacos azo-unidos que solo rompen las bacterias colónicas, y formulaciones rectales.",
     "espectro": null,
@@ -344,7 +344,12 @@
     ],
     "embarazo_lactancia": "Compatible con el embarazo y recomendable mantenerla: el riesgo de un brote activo para el feto es mayor que el del fármaco. Compatible con la lactancia, vigilando la aparición de diarrea en el lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal"
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal",
+    "vs_clase": [
+      "**Aminosalicilato de acción TÓPICA sobre la mucosa**: base del tratamiento de la **colitis ulcerosa leve-moderada** (oral + rectal), en inducción y mantenimiento.",
+      "**Poco eficaz en la enfermedad de Crohn.**",
+      "**Nefritis intersticial** (creatinina anual) y pancreatitis; mucho mejor tolerada que la sulfasalazina (sin sulfapiridina)."
+    ]
   },
   {
     "id": "DIG-butilescopolamina",
@@ -355,7 +360,7 @@
     ],
     "area": "DIG",
     "nivel": 2,
-    "clase": "Espasmolítico",
+    "clase": "Antimuscarínico (anticolinérgico sistémico)",
     "subclase": "Anticolinérgico antimuscarínico cuaternario",
     "mecanismo": "Antagonista competitivo de los receptores MUSCARÍNICOS del músculo liso del tubo digestivo, la vía biliar y el aparato genitourinario, donde relaja la contracción espástica. Es una AMINA CUATERNARIA con carga permanente, lo que le impide atravesar la barrera hematoencefálica: por eso, a diferencia de la escopolamina (amina terciaria), no produce sedación, confusión ni delirio anticolinérgico central. Su acción es esencialmente periférica y visceral.",
     "espectro": null,
@@ -472,6 +477,11 @@
     ],
     "embarazo_lactancia": "Se considera aceptable en el embarazo cuando está indicada, con datos tranquilizadores. Compatible con la lactancia por su escaso paso a la leche.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., cap. de dolor abdominal"
+    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., cap. de dolor abdominal",
+    "vs_clase": [
+      "**Amonio CUATERNARIO: no atraviesa la barrera hematoencefálica** (sin efectos centrales); espasmolítico digestivo y urinario.",
+      "**Sin beneficio frente al AINE en el cólico renal**; útil en el cólico biliar y para reducir **estertores premortem** en paliativos.",
+      "**Absorción oral muy baja (<1%)**: la vía IV/SC es la eficaz."
+    ]
   }
 ]

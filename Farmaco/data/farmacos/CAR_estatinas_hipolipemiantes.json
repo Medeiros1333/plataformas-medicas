@@ -349,7 +349,7 @@
     ],
     "area": "CAR",
     "nivel": 1,
-    "clase": "Inhibidor de la absorción intestinal de colesterol",
+    "clase": "Hipolipemiante no estatínico",
     "subclase": "Inhibidor del transportador NPC1L1 del enterocito",
     "mecanismo": "Inhibe la proteína NPC1L1 del borde en cepillo del enterocito, que capta el colesterol de la dieta y el biliar. Al llegar menos colesterol al hígado, este aumenta la expresión de receptores de LDL y el LDL plasmático baja un 15-20%. **Es complementaria de la estatina**: la estatina aumenta de forma compensadora la absorción intestinal de colesterol, y la ezetimiba bloquea precisamente esa vía.",
     "espectro": null,
@@ -436,6 +436,11 @@
     ],
     "embarazo_lactancia": "Sin datos suficientes en monoterapia; contraindicada cuando va asociada a estatina.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas"
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas",
+    "vs_clase": [
+      "**Bloquea la ABSORCIÓN intestinal de colesterol (NPC1L1)**: complemento natural de la estatina (−20-25% de LDL adicional).",
+      "**Comprimido oral diario, sin efectos musculares relevantes** y muy barato: primer escalón tras la estatina.",
+      "Menos potente que los iPCSK9 (−50-60%)."
+    ]
   }
 ]

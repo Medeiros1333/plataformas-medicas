@@ -7,7 +7,7 @@
     ],
     "area": "END",
     "nivel": 2,
-    "clase": "Sulfonilurea y glinida (secretagogo de insulina)",
+    "clase": "Visión de clase: secretagogos de insulina",
     "subclase": "Secretagogos que actúan sobre el canal de potasio dependiente de ATP",
     "mecanismo": "Se unen al receptor SUR1 del canal de POTASIO DEPENDIENTE DE ATP de la célula beta pancreática y lo CIERRAN. Al cerrarse, la célula se despolariza, entra calcio y se libera INSULINA. La diferencia crucial con los secretagogos fisiológicos es que ese cierre ocurre CON INDEPENDENCIA DE LA GLUCEMIA: la insulina se secreta aunque el paciente esté en ayunas o hipoglucémico, y ahí reside el riesgo de HIPOGLUCEMIA, que es su gran problema y lo que las diferencia de la metformina, los iSGLT2 y los fármacos incretínicos, que solo actúan cuando hay glucosa. Al forzar la secreción también favorecen el aumento de peso. La REPAGLINIDA actúa sobre el mismo canal pero en un sitio distinto y con vida media muy corta, de modo que se toma antes de cada comida y produce menos hipoglucemia interprandial. Un dato práctico: la glibenclamida tiene metabolitos activos de eliminación renal y por eso es, con diferencia, la que más hipoglucemias graves causa en el anciano.",
     "espectro": null,
@@ -125,7 +125,8 @@
     ],
     "embarazo_lactancia": "En general no se recomiendan; la insulina es el tratamiento de elección de la diabetes en el embarazo, aunque la metformina y en algunos protocolos la gliburida se emplean en la diabetes gestacional. La glibenclamida atraviesa poco la placenta. Compatibles con la lactancia vigilando la glucemia del lactante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD sobre manejo de la hiperglucemia en la diabetes tipo 2"
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD sobre manejo de la hiperglucemia en la diabetes tipo 2",
+    "vision_clase": true
   },
   {
     "id": "END-idpp4",
@@ -135,7 +136,7 @@
     ],
     "area": "END",
     "nivel": 2,
-    "clase": "Inhibidor de la DPP-4 (gliptina)",
+    "clase": "Visión de clase: inhibidores de la DPP-4",
     "subclase": "Inhibidores de la dipeptidil peptidasa 4",
     "mecanismo": "Bloquean la DIPEPTIDIL PEPTIDASA 4, la enzima que degrada en pocos minutos las INCRETINAS endógenas (GLP-1 y GIP) liberadas por el intestino tras la comida. Al inhibirla, las incretinas propias duran más y ejercen su efecto: estimulan la secreción de insulina e inhiben la de glucagón, ambas cosas de forma DEPENDIENTE DE LA GLUCOSA. Esa dependencia de la glucosa es la clave de su perfil: cuando la glucemia baja, el estímulo desaparece, y por eso NO producen hipoglucemia en monoterapia. Como amplifican una señal fisiológica en lugar de forzarla, su potencia es MODESTA (bajan la hemoglobina glucosilada en torno a 0,5-0,8 puntos), y a cambio son extraordinariamente bien tolerados y neutros sobre el peso. Ese perfil (poca potencia, ninguna hipoglucemia, ningún efecto sobre el peso y muy buena tolerancia) define exactamente su lugar: el paciente ANCIANO y frágil.",
     "espectro": null,
@@ -240,6 +241,7 @@
     ],
     "embarazo_lactancia": "No recomendadas en el embarazo por falta de datos; el tratamiento de la diabetes en la gestación es la insulina, y en algunos casos la metformina. No recomendadas en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD y documentos de consenso sobre diabetes en el anciano"
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD y documentos de consenso sobre diabetes en el anciano",
+    "vision_clase": true
   }
 ]

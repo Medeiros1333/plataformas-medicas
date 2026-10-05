@@ -1,0 +1,1338 @@
+[
+  {
+    "id": "DIG-lactulosa",
+    "nombre": "Lactulosa",
+    "sinonimos": [
+      "Lactitol"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante",
+    "subclase": "Osmótico: disacárido no absorbible fermentable",
+    "vs_clase": [
+      "**De elección en la ENCEFALOPATÍA HEPÁTICA**: acidifica el colon y atrapa el amonio (NH4+), además de laxante.",
+      "**Se FERMENTA**: flatulencia, distensión y dolor cólico (más que el macrogol).",
+      "**Segura en el embarazo y en niños**; efecto en 24-48 h."
+    ],
+    "mecanismo": "Disacárido no absorbible que las bacterias colónicas fermentan a ácidos orgánicos: retiene agua (osmótico), baja el pH y convierte el amoníaco en amonio no absorbible.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Encefalopatía hepática (tratamiento y prevención)",
+        "dosis": "20-30 mL",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "dosis_objetivo": "2-3 deposiciones blandas al día",
+        "nota": "Enemas (300 mL en 700 mL de agua) si no hay VO"
+      },
+      {
+        "patologia": "Estreñimiento",
+        "dosis": "15-30 mL",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Niños: 1-2 mL/kg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "15-30 mL/día.",
+      "titulacion": "Según deposiciones.",
+      "duracion": "Indefinida en encefalopatía.",
+      "fin": "—",
+      "via": "VO o rectal.",
+      "monitorizacion": "Ritmo intestinal, electrolitos e hidratación (diarrea excesiva)."
+    },
+    "farmacocinetica": {
+      "absorcion": "<3%.",
+      "distribucion": "Colon.",
+      "metabolismo": "Fermentación bacteriana.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante (efecto 24-48 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antibióticos de amplio espectro",
+          "efecto": "Menor fermentación y efecto",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Flatulencia, distensión**",
+        "Dolor cólico",
+        "Diarrea"
+      ],
+      "graves": [
+        "Deshidratación e hipernatremia con dosis excesivas (encefalopatía que empeora)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal",
+      "Galactosemia"
+    ],
+    "perlas": [
+      "Sobredosificar la lactulosa deshidrata y puede EMPEORAR la encefalopatía."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de cirrosis"
+  },
+  {
+    "id": "DIG-plantago",
+    "nombre": "Plantago ovata (ispágula)",
+    "sinonimos": [
+      "Fibra soluble",
+      "Metilcelulosa"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante",
+    "subclase": "Formador de masa (fibra)",
+    "vs_clase": [
+      "**Laxante FORMADOR DE MASA**: el más fisiológico, primera línea en el estreñimiento crónico funcional y en el colon irritable con estreñimiento.",
+      "**Necesita ABUNDANTE AGUA** (riesgo de impactación u obstrucción esofágica si se toma con poca).",
+      "**Contraindicado en el estreñimiento por OPIOIDES y en la impactación fecal.**"
+    ],
+    "mecanismo": "Fibra soluble que absorbe agua y aumenta el volumen y la blandura de las heces, estimulando el peristaltismo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estreñimiento crónico funcional y colon irritable con estreñimiento",
+        "dosis": "3,5 g (1 sobre)",
+        "posologia": "Cada 8-24 h con 200 mL de agua",
+        "via": "VO",
+        "nota": "Efecto en 2-3 días"
+      },
+      {
+        "patologia": "Diarrea leve (regulador) y hemorroides o fisura anal",
+        "dosis": "3,5 g",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Ablanda las heces"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 sobre/día.",
+      "titulacion": "Subir gradualmente (gases iniciales).",
+      "duracion": "Continuo.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Ritmo intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "Fermentación parcial.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Digoxina, litio, hierro, levotiroxina",
+          "efecto": "Menor absorción",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flatulencia, distensión"
+      ],
+      "graves": [
+        "Impactación u obstrucción (sin agua suficiente)",
+        "Reacciones alérgicas (inhalación del polvo)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción o impactación intestinal",
+      "Estenosis esofágica",
+      "Estreñimiento por opioides"
+    ],
+    "perlas": [
+      "Anciano encamado que bebe poco: la fibra puede empeorar el estreñimiento; mejor macrogol."
+    ],
+    "embarazo_lactancia": "Compatible (de elección en el embarazo).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-bismuto",
+    "nombre": "Sales de bismuto (subsalicilato y subcitrato)",
+    "sinonimos": [
+      "Subcitrato de bismuto + metronidazol + tetraciclina (cuádruple)"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antidiarreico",
+    "subclase": "Antisecretor, antimicrobiano y citoprotector",
+    "vs_clase": [
+      "**Doble uso**: el subsalicilato como antidiarreico (diarrea del viajero) y el **subcitrato como componente de la CUÁDRUPLE TERAPIA frente a H. pylori**.",
+      "**HECES Y LENGUA NEGRAS** (inocuo, pero confunde con melenas).",
+      "**El subsalicilato contiene SALICILATO**: evitar en niños (Reye), anticoagulados y alérgicos al AAS."
+    ],
+    "mecanismo": "Efecto antisecretor (salicilato), antimicrobiano directo frente a H. pylori y E. coli, y formación de una capa protectora sobre la mucosa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Erradicación de H. pylori (cuádruple con bismuto)",
+        "dosis": "3 cápsulas (140 mg subcitrato + 125 mg metronidazol + 125 mg tetraciclina)",
+        "posologia": "Cada 6 h con omeprazol 20 mg/12 h",
+        "via": "VO",
+        "nota": "10 días"
+      },
+      {
+        "patologia": "Diarrea del viajero leve (subsalicilato)",
+        "dosis": "524 mg",
+        "posologia": "Cada 30-60 min (máx. 8 dosis/día)",
+        "via": "VO",
+        "nota": "Máx. 2 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Avisar de las heces negras.",
+      "titulacion": "No se titula.",
+      "duracion": "10 días (H. pylori).",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Bismuto <1%; salicilato se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "—",
+      "eliminacion": "Fecal (bismuto), renal (salicilato).",
+      "vida_media": "Prolongada para el bismuto absorbido.",
+      "ajuste_renal": "Evitar en ERC avanzada (acumulación de bismuto).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Tetraciclinas y quinolonas (fuera de la cápsula combinada)",
+          "efecto": "Quelación",
+          "gravedad": "media",
+          "manejo": "Separar"
+        },
+        {
+          "con": "Anticoagulantes (subsalicilato)",
+          "efecto": "Sangrado",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Heces y lengua negras**",
+        "Estreñimiento"
+      ],
+      "graves": [
+        "Encefalopatía por bismuto (uso prolongado, ERC)",
+        "Toxicidad salicílica"
+      ]
+    },
+    "contraindicaciones": [
+      "ERC avanzada",
+      "Niños y adolescentes (subsalicilato)",
+      "Alergia al AAS (subsalicilato)"
+    ],
+    "perlas": [
+      "Heces negras con bismuto: comprobar que no hay anemia ni inestabilidad antes de pensar en hemorragia."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [
+      "BGN-helicobacter-pylori"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-famotidina",
+    "nombre": "Famotidina",
+    "sinonimos": [
+      "Antagonistas H2 (ranitidina, retirada en 2020)"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Protector gástrico y antiácido (no IBP)",
+    "subclase": "Antagonista del receptor H2",
+    "vs_clase": [
+      "**Antisecretor MENOS potente que los IBP** pero de **inicio más rápido**; útil para la acidez **nocturna** y **a demanda**.",
+      "**Sin interacciones por CYP** (la cimetidina sí) y **sin efecto sobre el clopidogrel**.",
+      "**Taquifilaxia** con uso continuo; ajuste renal (confusión en ancianos con ERC)."
+    ],
+    "mecanismo": "Bloquea competitivamente los receptores H2 de la célula parietal, reduciendo la secreción ácida (sobre todo la basal y nocturna).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Pirosis ocasional o nocturna",
+        "dosis": "20 mg",
+        "posologia": "Cada 12-24 h o a demanda",
+        "via": "VO",
+        "nota": "Efecto en 1 h"
+      },
+      {
+        "patologia": "Profilaxis de reacciones de hipersensibilidad (con anti-H1) y de aspiración ácida",
+        "dosis": "20 mg",
+        "posologia": "Dosis única previa",
+        "via": "IV / VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg.",
+      "titulacion": "Hasta 40 mg/12 h.",
+      "duracion": "Corta o a demanda.",
+      "fin": "—",
+      "via": "VO e IV.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "40-45%.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático mínimo.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "3 h.",
+      "ajuste_renal": "**FG <50: mitad de dosis.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Fármacos que requieren acidez (itraconazol, atazanavir, dasatinib)",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Evitar o separar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Estreñimiento o diarrea"
+      ],
+      "graves": [
+        "Confusión y delirium (ancianos con ERC)",
+        "Prolongación del QT en ERC (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a anti-H2"
+    ],
+    "perlas": [
+      "Tomar la famotidina por la noche complementa al IBP en la acidez nocturna refractaria."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-sucralfato",
+    "nombre": "Sucralfato",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Protector gástrico y antiácido (no IBP)",
+    "subclase": "Citoprotector de barrera",
+    "vs_clase": [
+      "**NO reduce el ácido**: forma una **barrera física** sobre la úlcera (necesita pH ácido para activarse: no combinar en el mismo momento con antiácidos).",
+      "**Contiene ALUMINIO**: evitar en ERC (acumulación) y **quela muchos fármacos** (quinolonas, levotiroxina, warfarina, digoxina).",
+      "**Bezoares** en pacientes con gastroparesia."
+    ],
+    "mecanismo": "Complejo de sacarosa sulfatada e hidróxido de aluminio que, en medio ácido, se polimeriza y se une a las proteínas del lecho ulceroso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Úlcera duodenal (alternativa) y esofagitis por radiación o química",
+        "dosis": "1 g",
+        "posologia": "Cada 6 h (1 h antes de comidas y al acostarse)",
+        "via": "VO",
+        "nota": "4-8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "En ayunas.",
+      "titulacion": "No se titula.",
+      "duracion": "4-8 semanas.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "<5% (aluminio).",
+      "distribucion": "Local.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "**Evitar en ERC** (aluminio).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Quinolonas, levotiroxina, warfarina, digoxina, fenitoína",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Estreñimiento**"
+      ],
+      "graves": [
+        "Toxicidad por aluminio en ERC",
+        "Bezoares"
+      ]
+    },
+    "contraindicaciones": [
+      "ERC avanzada",
+      "Gastroparesia grave"
+    ],
+    "perlas": [
+      "Hoy casi desplazado por los IBP; útil en el embarazo y en esofagitis por radiación."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-almagato",
+    "nombre": "Almagato (y otros antiácidos de magnesio/aluminio)",
+    "sinonimos": [
+      "Hidróxido de aluminio y magnesio",
+      "Alginato sódico"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Protector gástrico y antiácido (no IBP)",
+    "subclase": "Antiácido neutralizante",
+    "vs_clase": [
+      "**NEUTRALIZA el ácido ya secretado**: alivio en MINUTOS, pero breve (30-60 min). Para síntomas ocasionales.",
+      "**Magnesio → diarrea; aluminio → estreñimiento** (las combinaciones equilibran).",
+      "**Quelan muchos fármacos** y el magnesio se acumula en la ERC."
+    ],
+    "mecanismo": "Bases débiles que neutralizan el ácido clorhídrico gástrico; los alginatos forman una balsa que frena el reflujo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Pirosis y dispepsia ocasionales",
+        "dosis": "1-1,5 g (1 sobre o 10-15 mL)",
+        "posologia": "A demanda, 1 h tras comidas y al acostarse",
+        "via": "VO",
+        "nota": "Máx. 6 g/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "A demanda.",
+      "titulacion": "—",
+      "duracion": "Uso ocasional.",
+      "fin": "Si se necesita a diario, valorar IBP y estudiar.",
+      "via": "VO.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima (Al, Mg).",
+      "distribucion": "Local.",
+      "metabolismo": "—",
+      "eliminacion": "Fecal; renal lo absorbido.",
+      "vida_media": "Efecto 30-60 min (más con comida).",
+      "ajuste_renal": "**Evitar en ERC** (hipermagnesemia, aluminio).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Quinolonas, tetraciclinas, hierro, levotiroxina, digoxina, rosuvastatina",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2-4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea (Mg) o estreñimiento (Al)"
+      ],
+      "graves": [
+        "Hipermagnesemia en ERC",
+        "Hipofosfatemia con uso crónico"
+      ]
+    },
+    "contraindicaciones": [
+      "ERC avanzada",
+      "Hipofosfatemia"
+    ],
+    "perlas": [
+      "Necesidad diaria de antiácidos = ERGE no tratada o dispepsia a estudiar."
+    ],
+    "embarazo_lactancia": "Compatible a dosis moderadas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-budesonida-oral",
+    "nombre": "Budesonida oral (liberación ileal o colónica)",
+    "sinonimos": [
+      "Budesonida MMX"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Fármaco de la enfermedad inflamatoria intestinal",
+    "subclase": "Corticoide de acción local con alto primer paso hepático",
+    "vs_clase": [
+      "**Corticoide de acción LOCAL**: el 90% se inactiva en el primer paso hepático, con **muchos menos efectos sistémicos** que la prednisona.",
+      "**De elección en el brote leve-moderado de Crohn ileocecal** (liberación ileal) y en la **colitis microscópica**; MMX en la colitis ulcerosa leve-moderada.",
+      "**Inútil en el brote grave** y **pierde ventaja en la cirrosis** o con inhibidores del CYP3A4 (pasa a sistémico)."
+    ],
+    "mecanismo": "Glucocorticoide de alta potencia tópica liberado en íleon o colon; metabolismo hepático rápido por CYP3A4.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Crohn ileocecal leve-moderada",
+        "dosis": "9 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "8 semanas y descenso"
+      },
+      {
+        "patologia": "Colitis microscópica",
+        "dosis": "9 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "8 semanas"
+      },
+      {
+        "patologia": "Colitis ulcerosa leve-moderada (MMX)",
+        "dosis": "9 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "9 mg por la mañana.",
+      "titulacion": "—",
+      "duracion": "8 semanas.",
+      "fin": "Descenso en 2-4 semanas.",
+      "via": "VO.",
+      "monitorizacion": "Respuesta clínica; glucemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación en íleon/colon.",
+      "distribucion": "Local.",
+      "metabolismo": "**CYP3A4 hepático (primer paso 90%).**",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Cirrosis: más efectos sistémicos.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, itraconazol, ritonavir, pomelo",
+          "efecto": "Cushing iatrogénico",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, náuseas",
+        "Acné, insomnio leve"
+      ],
+      "graves": [
+        "Supresión suprarrenal con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección intestinal activa",
+      "Cirrosis avanzada (relativa)"
+    ],
+    "perlas": [
+      "No sirve como mantenimiento a largo plazo de la remisión."
+    ],
+    "embarazo_lactancia": "Utilizable si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-vedolizumab",
+    "nombre": "Vedolizumab",
+    "sinonimos": [
+      "Ustekinumab (anti-IL-12/23, alternativa)"
+    ],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Fármaco de la enfermedad inflamatoria intestinal",
+    "subclase": "Anticuerpo anti-integrina alfa-4-beta-7 intestino-selectivo",
+    "vs_clase": [
+      "**INTESTINO-SELECTIVO**: bloquea el paso de linfocitos solo al intestino → **perfil de infecciones muy favorable** (útil en ancianos y con riesgo infeccioso).",
+      "**Sin riesgo de leucoencefalopatía multifocal progresiva** (a diferencia del natalizumab).",
+      "**Inicio de acción LENTO** (6-10 semanas): no es para el brote grave."
+    ],
+    "mecanismo": "Anticuerpo monoclonal frente a la integrina alfa-4-beta-7, que impide su unión a MAdCAM-1 del endotelio intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Colitis ulcerosa o Crohn moderado-grave con fracaso o intolerancia a convencionales o anti-TNF",
+        "dosis": "300 mg IV (después opción SC 108 mg/2 semanas)",
+        "posologia": "Semanas 0, 2 y 6; luego cada 8 semanas",
+        "via": "IV / SC",
+        "nota": "Valorar respuesta a la semana 10-14"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de TBC y VHB (aunque bajo riesgo).",
+      "titulacion": "Intensificar a cada 4 semanas si respuesta parcial.",
+      "duracion": "Indefinida si eficaz.",
+      "fin": "—",
+      "via": "IV y SC.",
+      "monitorizacion": "Respuesta clínica, calprotectina."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV o SC.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "25 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Precaución",
+          "gravedad": "baja",
+          "manejo": "Vacunar antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Nasofaringitis, cefalea",
+        "Artralgias"
+      ],
+      "graves": [
+        "Reacciones infusionales",
+        "Infecciones intestinales"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa grave",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Opción interesante en el anciano con EII y comorbilidad infecciosa."
+    ],
+    "embarazo_lactancia": "Datos favorables limitados.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal"
+  },
+  {
+    "id": "NFR-oxibutinina",
+    "nombre": "Oxibutinina",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Antimuscarínico (anticolinérgico sistémico)",
+    "subclase": "Antimuscarínico vesical de primera generación",
+    "vs_clase": [
+      "**El antimuscarínico vesical más ANTICOLINÉRGICO a nivel central**: confusión y deterioro cognitivo en ancianos (evitar; Beers).",
+      "**Barato y con forma transdérmica** (menos sequedad de boca).",
+      "Indicado en la vejiga hiperactiva y la hiperhidrosis."
+    ],
+    "mecanismo": "Antagonista muscarínico (M3) del detrusor: reduce las contracciones involuntarias de la vejiga.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vejiga hiperactiva / incontinencia de urgencia",
+        "dosis": "2,5-5 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Parche 3,9 mg/24 h dos veces por semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "2,5 mg/12 h.",
+      "titulacion": "Cada 1-2 semanas.",
+      "duracion": "Reevaluar a las 4-8 semanas.",
+      "fin": "Suspensión directa.",
+      "via": "VO y transdérmica.",
+      "monitorizacion": "Residuo posmiccional si riesgo de retención; cognición."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; primer paso con metabolito activo.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de la acetilcolinesterasa (donepezilo)",
+          "efecto": "Antagonismo y empeoramiento cognitivo",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Otros anticolinérgicos",
+          "efecto": "Carga anticolinérgica",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sequedad de boca**, estreñimiento",
+        "Visión borrosa"
+      ],
+      "graves": [
+        "**Confusión, delirium**",
+        "Retención urinaria",
+        "Glaucoma agudo"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Retención urinaria",
+      "Miastenia gravis",
+      "Demencia (relativa)"
+    ],
+    "perlas": [
+      "Anciano con demencia y vejiga hiperactiva: mirabegrón antes que oxibutinina."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8"
+  },
+  {
+    "id": "NFR-solifenacina",
+    "nombre": "Solifenacina",
+    "sinonimos": [
+      "Tolterodina, fesoterodina, trospio",
+      "Mirabegrón (agonista beta-3, alternativa no anticolinérgica)"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Antimuscarínico (anticolinérgico sistémico)",
+    "subclase": "Antimuscarínico vesical selectivo M3",
+    "vs_clase": [
+      "**Más uroselectivo y de dosis ÚNICA diaria**: menos sequedad de boca y menos efectos centrales que la oxibutinina.",
+      "**Prolonga el QT** a dosis altas y depende del CYP3A4.",
+      "En ancianos con riesgo cognitivo, el **trospio (no atraviesa la barrera)** o el **mirabegrón** son preferibles."
+    ],
+    "mecanismo": "Antagonista competitivo de receptores M3 del detrusor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vejiga hiperactiva / incontinencia de urgencia",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Efecto completo en 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/día.",
+      "titulacion": "10 mg a las 4 semanas si es necesario.",
+      "duracion": "Reevaluar a los 3 meses.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Residuo posmiccional, QT si riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "90%.",
+      "distribucion": "Unión a proteínas 98%.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "45-68 h.",
+      "ajuste_renal": "FG <30: máx. 5 mg.",
+      "ajuste_hepatico": "Moderada: máx. 5 mg.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, claritromicina",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Máx. 5 mg"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "QT largo",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Estreñimiento",
+        "Visión borrosa"
+      ],
+      "graves": [
+        "Retención urinaria",
+        "Prolongación del QT"
+      ]
+    },
+    "contraindicaciones": [
+      "Retención urinaria",
+      "Glaucoma de ángulo cerrado no tratado",
+      "Miastenia gravis"
+    ],
+    "perlas": [
+      "Antes de pautarla en un varón, descartar obstrucción prostática (residuo alto)."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8"
+  },
+  {
+    "id": "DIG-colestiramina",
+    "nombre": "Colestiramina",
+    "sinonimos": [
+      "Colestipol"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Ácido biliar y secuestrador de ácidos biliares",
+    "subclase": "Resina secuestradora de ácidos biliares",
+    "vs_clase": [
+      "**Usos clínicos variados**: **prurito colestásico**, **diarrea por ácidos biliares** (postcolecistectomía, resección ileal), hipercolesterolemia (en desuso) y **lavado de leflunomida**.",
+      "**Interfiere con la ABSORCIÓN de casi todo**: separar otros fármacos 1 h antes o 4 h después.",
+      "**Puede ELEVAR los triglicéridos** y produce estreñimiento."
+    ],
+    "mecanismo": "Resina de intercambio aniónico que une ácidos biliares en la luz intestinal e interrumpe su circulación enterohepática.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prurito por colestasis",
+        "dosis": "4 g",
+        "posologia": "Cada 8-24 h (antes y después del desayuno)",
+        "via": "VO",
+        "nota": "Máx. 16 g/día"
+      },
+      {
+        "patologia": "Diarrea por malabsorción de ácidos biliares",
+        "dosis": "4 g",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Respuesta casi diagnóstica"
+      },
+      {
+        "patologia": "Eliminación acelerada de leflunomida o teriflunomida",
+        "dosis": "8 g",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "11 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "4 g/día.",
+      "titulacion": "Según respuesta.",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "VO (sobres en líquido).",
+      "monitorizacion": "Triglicéridos, vitaminas liposolubles con uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Warfarina, digoxina, levotiroxina, anticonceptivos, vitaminas liposolubles, ácido micofenólico",
+          "efecto": "Menor absorción",
+          "gravedad": "alta",
+          "manejo": "Separar 1 h antes o 4-6 h después"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Estreñimiento**, distensión",
+        "Sabor arenoso"
+      ],
+      "graves": [
+        "Déficit de vitaminas A, D, E, K (coagulopatía)",
+        "Hipertrigliceridemia",
+        "Acidosis hiperclorémica (niños)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción biliar completa",
+      "Triglicéridos >400 mg/dL"
+    ],
+    "perlas": [
+      "Diarrea crónica tras colecistectomía que responde a colestiramina: malabsorción de ácidos biliares."
+    ],
+    "embarazo_lactancia": "Utilizable (vigilar vitaminas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 35 y 62"
+  },
+  {
+    "id": "DIG-colesevelam",
+    "nombre": "Colesevelam",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Ácido biliar y secuestrador de ácidos biliares",
+    "subclase": "Secuestrador de ácidos biliares de segunda generación",
+    "vs_clase": [
+      "**Mejor tolerado y con menos interacciones que la colestiramina** (en comprimidos).",
+      "**Leve efecto HIPOGLUCEMIANTE** (indicación en DM2 en EE. UU.).",
+      "Diarrea por ácidos biliares y como hipolipemiante combinado."
+    ],
+    "mecanismo": "Polímero de alta afinidad por ácidos biliares en la luz intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diarrea por ácidos biliares o hipercolesterolemia (asociado a estatina)",
+        "dosis": "1.875 mg (3 comprimidos)",
+        "posologia": "Cada 12 h con comidas",
+        "via": "VO",
+        "nota": "Máx. 3.750 mg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con comidas.",
+      "titulacion": "—",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Triglicéridos, lípidos."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Intestino.",
+      "metabolismo": "No.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No relevante.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Levotiroxina, olmesartán, glibenclamida, anticonceptivos",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Tomarlos 4 h antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento, dispepsia"
+      ],
+      "graves": [
+        "Hipertrigliceridemia",
+        "Obstrucción intestinal (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal o biliar",
+      "Triglicéridos >500 mg/dL"
+    ],
+    "perlas": [
+      "Alternativa cuando la colestiramina no se tolera."
+    ],
+    "embarazo_lactancia": "Utilizable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35"
+  },
+  {
+    "id": "DIG-terlipresina",
+    "nombre": "Terlipresina",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Fármaco del eje de la vasopresina",
+    "subclase": "Profármaco de la lisina-vasopresina (agonista V1)",
+    "vs_clase": [
+      "**Vasoconstrictor ESPLÁCNICO de elección en la HEMORRAGIA VARICOSA** y el único con beneficio en supervivencia.",
+      "**De elección en el SÍNDROME HEPATORRENAL** (con albúmina).",
+      "**ISQUEMIA** (coronaria, intestinal, digital) e hiponatremia: contraindicada en cardiopatía isquémica y arteriopatía; **insuficiencia respiratoria** en el hepatorrenal con sobrecarga."
+    ],
+    "mecanismo": "Se transforma lentamente en lisina-vasopresina: agonista V1 que contrae las arteriolas esplácnicas y reduce el flujo y la presión portal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia por varices esofágicas",
+        "dosis": "2 mg (1 mg si <50 kg) 48 h, después 1 mg",
+        "posologia": "Cada 4 h",
+        "via": "IV",
+        "nota": "2-5 días, desde la sospecha"
+      },
+      {
+        "patologia": "Síndrome hepatorrenal",
+        "dosis": "1 mg cada 4-6 h (o perfusión 2 mg/24 h → 12 mg/24 h)",
+        "posologia": "Bolos o perfusión continua",
+        "via": "IV",
+        "nota": "Con albúmina 20-40 g/día; hasta 14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECG; descartar cardiopatía isquémica.",
+      "titulacion": "En hepatorrenal, subir si la creatinina no baja ≥25% a los 3 días.",
+      "duracion": "2-5 días (varices); ≤14 días (hepatorrenal).",
+      "fin": "Suspensión directa.",
+      "via": "IV.",
+      "monitorizacion": "ECG, sodio, signos de isquemia, SpO2 y volemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Peptidasas (liberación de lisina-vasopresina).",
+      "eliminacion": "Renal.",
+      "vida_media": "50 min (efecto 3-4 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Bradicardizantes (betabloqueantes, propofol)",
+          "efecto": "Bradicardia grave",
+          "gravedad": "media",
+          "manejo": "Vigilar FC"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal, diarrea",
+        "Palidez, HTA",
+        "Bradicardia"
+      ],
+      "graves": [
+        "**Isquemia miocárdica, intestinal, cutánea o digital**",
+        "Hiponatremia",
+        "Insuficiencia respiratoria por sobrecarga"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica",
+      "Arteriopatía periférica grave",
+      "Embarazo",
+      "Shock séptico (relativa)"
+    ],
+    "perlas": [
+      "Iniciarla ya en urgencias ante sospecha de sangrado varicoso, antes de la endoscopia."
+    ],
+    "embarazo_lactancia": "Contraindicada (contracciones uterinas).",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis; Katzung 15.ª ed., cap. 17"
+  },
+  {
+    "id": "URG-vasopresina",
+    "nombre": "Vasopresina (arginina-vasopresina)",
+    "sinonimos": [
+      "Hormona antidiurética"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Fármaco del eje de la vasopresina",
+    "subclase": "Hormona natural, agonista V1 y V2",
+    "vs_clase": [
+      "**Segundo vasopresor en el SHOCK SÉPTICO** (0,03 UI/min) para ahorrar noradrenalina: **no depende de receptores adrenérgicos** (eficaz en acidosis).",
+      "**Dosis FIJA, no se titula** como las catecolaminas.",
+      "**Isquemia digital y mesentérica** y, por su efecto V2, hiponatremia."
+    ],
+    "mecanismo": "Agonista V1 (vasoconstricción) y V2 (reabsorción de agua en el túbulo colector). En el shock séptico hay déficit relativo de vasopresina endógena.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Shock séptico con noradrenalina ≥0,25-0,5 µg/kg/min",
+        "dosis": "0,03 UI/min (hasta 0,04)",
+        "posologia": "Perfusión continua fija",
+        "via": "IV",
+        "nota": "Retirar antes que la noradrenalina no es necesario; retirar cuando baje la noradrenalina"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,03 UI/min.",
+      "titulacion": "No se titula.",
+      "duracion": "Hasta poder bajar la noradrenalina.",
+      "fin": "Retirada gradual.",
+      "via": "IV central.",
+      "monitorizacion": "PA, perfusión distal, sodio, lactato."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Peptidasas hepáticas y renales.",
+      "eliminacion": "Renal.",
+      "vida_media": "10-20 min.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Carbamazepina, ISRS",
+          "efecto": "Potencian el efecto antidiurético",
+          "gravedad": "baja",
+          "manejo": "Vigilar sodio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Bradicardia",
+        "Hiponatremia"
+      ],
+      "graves": [
+        "**Isquemia digital, mesentérica y coronaria**",
+        "Necrosis cutánea"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica grave (relativa)"
+    ],
+    "perlas": [
+      "Su papel es ahorrar catecolaminas, no sustituirlas."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 17; Surviving Sepsis Campaign"
+  },
+  {
+    "id": "DIG-somatostatina",
+    "nombre": "Somatostatina",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Análogo de somatostatina",
+    "subclase": "Hormona natural de vida media ultracorta",
+    "vs_clase": [
+      "**Vida media de 1-3 MIN: perfusión continua** obligatoria (los análogos se dan en bolos o mensualmente).",
+      "**Alternativa a la terlipresina en la hemorragia varicosa** cuando hay cardiopatía isquémica (menos isquemia).",
+      "**Hiperglucemia** e inhibición de muchas hormonas digestivas."
+    ],
+    "mecanismo": "Inhibe la liberación de glucagón e hormonas vasodilatadoras esplácnicas: reduce el flujo y la presión portal; inhibe secreciones digestivas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia por varices esofágicas",
+        "dosis": "250 µg bolo, después 250-500 µg/h",
+        "posologia": "Perfusión continua (repetir bolo si resangrado)",
+        "via": "IV",
+        "nota": "2-5 días"
+      },
+      {
+        "patologia": "Fístulas pancreáticas o digestivas de alto débito",
+        "dosis": "250 µg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Según débito"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo + perfusión.",
+      "titulacion": "Duplicar si hemorragia activa.",
+      "duracion": "2-5 días.",
+      "fin": "Suspensión directa.",
+      "via": "IV.",
+      "monitorizacion": "Glucemia, signos de resangrado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Peptidasas.",
+      "eliminacion": "Renal.",
+      "vida_media": "**1-3 min.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Insulina",
+          "efecto": "Variaciones de la glucemia",
+          "gravedad": "media",
+          "manejo": "Control glucémico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, dolor abdominal",
+        "Hiperglucemia"
+      ],
+      "graves": [
+        "Bradicardia",
+        "Hipoglucemia al suspender (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Embarazo"
+    ],
+    "perlas": [
+      "Una interrupción de la perfusión anula el efecto en minutos."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis"
+  },
+  {
+    "id": "DIG-octreotido",
+    "nombre": "Octreótido",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Análogo de somatostatina",
+    "subclase": "Análogo sintético de acción intermedia",
+    "vs_clase": [
+      "**Análogo con vida media de 1,5-2 h: SC cada 8 h** o depot mensual.",
+      "**Usos propios**: acromegalia, **tumores neuroendocrinos** (síndrome carcinoide), **diarrea refractaria**, **hipoglucemia por sulfonilureas** y hemorragia varicosa (IV).",
+      "**COLELITIASIS** con uso prolongado."
+    ],
+    "mecanismo": "Agonista de los receptores de somatostatina (SSTR2 y 5): inhibe GH, insulina, glucagón, serotonina, VIP y secreciones digestivas; vasoconstricción esplácnica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipoglucemia refractaria por sulfonilureas",
+        "dosis": "50-100 µg",
+        "posologia": "Cada 6-8 h",
+        "via": "SC / IV",
+        "nota": "Con glucosa"
+      },
+      {
+        "patologia": "Síndrome carcinoide y diarrea por tumores neuroendocrinos",
+        "dosis": "100-200 µg (o 20-30 mg depot)",
+        "posologia": "Cada 8 h SC (depot cada 4 semanas IM)",
+        "via": "SC / IM",
+        "nota": "Previo a cirugía para evitar crisis carcinoide"
+      },
+      {
+        "patologia": "Hemorragia varicosa (alternativa)",
+        "dosis": "50 µg bolo, después 50 µg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "2-5 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja.",
+      "titulacion": "Según síntomas o niveles hormonales.",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "SC, IV, IM (depot).",
+      "monitorizacion": "Glucemia, ecografía biliar en uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC completa.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "1,5-2 h.",
+      "ajuste_renal": "Reducir en ERC grave.",
+      "ajuste_hepatico": "Reducir en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Reduce su absorción",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        },
+        {
+          "con": "Insulina y antidiabéticos",
+          "efecto": "Hipo o hiperglucemia",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, esteatorrea, dolor abdominal",
+        "Dolor en la inyección"
+      ],
+      "graves": [
+        "**Colelitiasis**",
+        "Bradicardia",
+        "Hipotiroidismo (supresión de TSH)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Hipoglucemia que recurre pese a glucosa en intoxicación por sulfonilurea: octreótido."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 37 y 62"
+  },
+  {
+    "id": "DIG-lanreotido",
+    "nombre": "Lanreótido",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Análogo de somatostatina",
+    "subclase": "Análogo depot de administración mensual",
+    "vs_clase": [
+      "**Solo DEPOT mensual (SC profunda)**: tratamiento crónico de la acromegalia y los tumores neuroendocrinos.",
+      "**Efecto ANTIPROLIFERATIVO demostrado** en tumores neuroendocrinos gastroenteropancreáticos (CLARINET).",
+      "**Puede autoadministrarse** (jeringa precargada)."
+    ],
+    "mecanismo": "Agonista SSTR2/5 de liberación prolongada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tumores neuroendocrinos gastroenteropancreáticos y síndrome carcinoide",
+        "dosis": "120 mg",
+        "posologia": "Cada 28 días",
+        "via": "SC",
+        "nota": "SC profunda"
+      },
+      {
+        "patologia": "Acromegalia",
+        "dosis": "60-120 mg",
+        "posologia": "Cada 28 días",
+        "via": "SC",
+        "nota": "Ajustar a GH/IGF-1"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras comprobar tolerancia a análogos de acción corta (opcional).",
+      "titulacion": "Según respuesta.",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "SC profunda.",
+      "monitorizacion": "Glucemia, ecografía biliar, FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación lenta del depósito.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Biliar.",
+      "eliminacion": "Biliar.",
+      "vida_media": "23-30 días.",
+      "ajuste_renal": "No precisa habitualmente.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Reduce su absorción",
+          "gravedad": "media",
+          "manejo": "Monitorizar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, dolor abdominal",
+        "Nódulo en el punto de inyección"
+      ],
+      "graves": [
+        "Colelitiasis",
+        "Bradicardia",
+        "Alteraciones glucémicas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Comparte con el octreótido depot la indicación; su ventaja es la jeringa precargada."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37"
+  }
+]

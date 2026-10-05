@@ -8,7 +8,7 @@
     ],
     "area": "NFR",
     "nivel": 2,
-    "clase": "Acuarético",
+    "clase": "Fármaco del eje de la vasopresina",
     "subclase": "Antagonista selectivo del receptor V2 de la vasopresina",
     "mecanismo": "Bloquea el receptor V2 del túbulo colector, impidiendo la inserción de ACUAPORINAS 2 en la membrana luminal. El resultado es una eliminación de AGUA LIBRE sin pérdida de sodio ni de potasio: por eso se le llama ACUARÉTICO y no diurético, y por eso corrige la hiponatremia dilucional elevando el sodio sin depletar volumen. En la POLIQUISTOSIS RENAL el mecanismo es otro: la vasopresina, a través del AMPc, es el principal estímulo para la proliferación del epitelio quístico y la secreción de líquido hacia el interior de los quistes; bloquear V2 reduce ese AMPc y enlentece el crecimiento de los quistes y la pérdida de función renal. Es el único fármaco que modifica la historia natural de esa enfermedad.",
     "espectro": null,
@@ -115,7 +115,12 @@
     ],
     "embarazo_lactancia": "No recomendado en el embarazo por falta de datos y por su efecto sobre el equilibrio hídrico. No recomendado en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 15; guías europeas sobre hiponatremia; ensayos TEMPO y REPRISE en poliquistosis renal"
+    "fuente": "Katzung 15.ª ed., cap. 15; guías europeas sobre hiponatremia; ensayos TEMPO y REPRISE en poliquistosis renal",
+    "vs_clase": [
+      "**ANTAGONISTA V2 de la vasopresina («acuarético»)**: elimina agua libre sin sodio; útil en el SIADH resistente.",
+      "**Sobrecorrección del sodio**: iniciar SIEMPRE en el hospital y no restringir agua.",
+      "**Hepatotoxicidad**: máximo 30 días en hiponatremia; también frena la **poliquistosis renal autosómica dominante**."
+    ]
   },
   {
     "id": "NFR-salino-hipertonico",
@@ -125,8 +130,8 @@
     ],
     "area": "NFR",
     "nivel": 1,
-    "clase": "Solución electrolítica",
-    "subclase": "Solución hipertónica para la corrección de la hiponatremia y de la hipertensión intracraneal",
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Salino hipertónico al 3%",
     "mecanismo": "Aporta sodio a una concentración muy superior a la del plasma (513 mmol/L en el salino al 3% frente a 154 en el isotónico), de modo que eleva directamente la osmolalidad plasmática. Tiene dos usos con lógicas distintas. En la HIPONATREMIA SINTOMÁTICA, elevar el sodio unos pocos milimoles reduce el edema cerebral y detiene las convulsiones: basta con un ascenso de 4-6 mmol/L para salvar la vida, y no hace falta normalizar la cifra. En la HIPERTENSIÓN INTRACRANEAL crea un gradiente osmótico que arrastra agua desde el parénquima cerebral con la barrera hematoencefálica intacta hacia el compartimento vascular, reduciendo el volumen cerebral; frente al manitol tiene la ventaja de que EXPANDE la volemia en lugar de depletarla, lo que importa en el politraumatizado hipotenso. El peligro común a ambos usos es el mismo: corregir DEMASIADO DEPRISA una hiponatremia crónica produce desmielinización osmótica.",
     "espectro": null,
     "indicaciones": [
@@ -239,7 +244,12 @@
     ],
     "embarazo_lactancia": "Se emplea sin restricción ante una hiponatremia sintomática grave. Los mismos límites de velocidad de corrección se aplican a la gestante.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 15; guías europeas sobre el diagnóstico y tratamiento de la hiponatremia"
+    "fuente": "Katzung 15.ª ed., cap. 15; guías europeas sobre el diagnóstico y tratamiento de la hiponatremia",
+    "vs_clase": [
+      "**Sube el sodio de forma rápida y controlada**: tratamiento de la **hiponatremia GRAVE sintomática** (150 mL en 20 min, repetible).",
+      "**Reduce la presión intracraneal** sin la diuresis del manitol.",
+      "**Riesgo de sobrecorrección (mielinólisis)**: sodio cada 2-4 h y no >8-10 mEq/L en 24 h."
+    ]
   },
   {
     "id": "NFR-finerenona",

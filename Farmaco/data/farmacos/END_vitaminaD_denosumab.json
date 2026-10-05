@@ -7,7 +7,7 @@
     ],
     "area": "END",
     "nivel": 1,
-    "clase": "Suplemento del metabolismo óseo-mineral",
+    "clase": "Visión de clase: vitamina D y calcio",
     "subclase": "Vitamina liposoluble prohormonal y sal de calcio",
     "mecanismo": "La vitamina D no es realmente una vitamina sino una PROHORMONA que requiere dos hidroxilaciones sucesivas: el COLECALCIFEROL (D3) se hidroxila en el HÍGADO a calcifediol (25-OH-vitamina D), que es la forma que se mide en sangre porque refleja los depósitos, y después en el RIÑÓN a CALCITRIOL (1,25-dihidroxivitamina D), que es la forma activa. Esa segunda hidroxilación está regulada por la PTH y por el fósforo, y es el paso que FALLA en la insuficiencia renal: por eso el paciente renal necesita calcitriol o sus análogos y no colecalciferol. El calcitriol aumenta la absorción intestinal de calcio y fósforo, favorece la mineralización ósea y frena la secreción de PTH. Sin vitamina D suficiente, el calcio ingerido no se absorbe y el organismo lo obtiene del hueso a costa de elevar la PTH, produciendo hiperparatiroidismo secundario y osteomalacia.",
     "espectro": null,
@@ -129,7 +129,8 @@
     ],
     "embarazo_lactancia": "Recomendados en el embarazo y en la lactancia a las dosis habituales; el déficit materno se asocia a raquitismo neonatal y a hipocalcemia. Se evitan las megadosis. El lactante amamantado necesita su propio suplemento de 400 UI diarias.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society y recomendaciones sobre uso adecuado de la determinación de vitamina D"
+    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society y recomendaciones sobre uso adecuado de la determinación de vitamina D",
+    "vision_clase": true
   },
   {
     "id": "END-denosumab",
@@ -139,7 +140,7 @@
     ],
     "area": "END",
     "nivel": 2,
-    "clase": "Antirresortivo",
+    "clase": "Osteoformador y antirresortivo no bisfosfonato",
     "subclase": "Anticuerpo monoclonal frente al ligando de RANK",
     "mecanismo": "Es un anticuerpo monoclonal contra el RANKL, la citocina que el osteoblasto y las células del estroma producen para reclutar, diferenciar y activar al OSTEOCLASTO. Al secuestrar el RANKL, el osteoclasto no se forma ni se activa, y la resorción ósea se detiene de forma rápida y profunda. La diferencia esencial con los BISFOSFONATOS es que estos se INCORPORAN al hueso y permanecen allí durante años, de modo que su efecto persiste tras suspenderlos, mientras que el denosumab es un anticuerpo circulante que NO se deposita en el hueso: cuando desaparece, el efecto desaparece por completo y de golpe. Ese detalle farmacológico tiene una consecuencia clínica decisiva y peligrosa: al suspenderlo se produce un REBOTE de resorción con pérdida acelerada de masa ósea y FRACTURAS VERTEBRALES MÚLTIPLES en pocos meses.",
     "espectro": null,
@@ -246,6 +247,11 @@
     ],
     "embarazo_lactancia": "CONTRAINDICADO en el embarazo: el RANKL interviene en el desarrollo óseo y en el de la glándula mamaria fetal. Requiere anticoncepción eficaz durante el tratamiento y en los 5 meses siguientes. No recomendado en la lactancia.",
     "micro_relacionado": [],
-    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society sobre osteoporosis y alertas sobre el efecto rebote del denosumab"
+    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society sobre osteoporosis y alertas sobre el efecto rebote del denosumab",
+    "vs_clase": [
+      "**Antirresortivo potente SC cada 6 meses, sin ajuste renal** (útil con FG <35 donde los bisfosfonatos no se usan).",
+      "**EFECTO REBOTE al suspender**: pérdida rápida de masa ósea y fracturas vertebrales múltiples → **secuenciar SIEMPRE a bisfosfonato**.",
+      "**Hipocalcemia** (sobre todo en ERC): corregir vitamina D antes."
+    ]
   }
 ]
