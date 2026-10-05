@@ -1,0 +1,288 @@
+[
+  {
+    "id": "PED-INM-antihistaminicos",
+    "nombre": "Antihistamínicos H1 (pediatría)",
+    "sinonimos": [
+      "Cetirizina, desloratadina, dexclorfeniramina, hidroxizina"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antialérgico",
+    "subclase": "Agonistas inversos del receptor H1",
+    "mecanismo": "Estabilizan el receptor H1 en su conformación inactiva y bloquean los efectos de la histamina: vasodilatación, aumento de permeabilidad (habón), prurito y estornudo. La división en generaciones es puramente farmacocinética, y en el niño esa diferencia pesa mucho más que en el adulto: los de PRIMERA generación son lipófilos, atraviesan una barrera hematoencefálica INMADURA y bloquean además receptores muscarínicos y alfa-adrenérgicos; los de SEGUNDA generación son sustrato de la glicoproteína P, que los expulsa del cerebro, y no sedan. En el lactante, además, el metabolismo hepático inmaduro prolonga la vida media de los de primera generación, de modo que la sedación se acumula.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Cetirizina 0,25 mg/kg/día; desloratadina 1,25 mg/día de 1 a 5 años y 2,5 mg/día de 6 a 11 años; dexclorfeniramina 0,15 mg/kg/día repartida en 3-4 tomas",
+    "dosis_maxima": "Cetirizina 10 mg al día; en la urticaria crónica se puede CUADRUPLICAR hasta 40 mg al día en el niño mayor bajo supervisión",
+    "presentaciones": [
+      "Cetirizina solución 1 mg/mL y comprimidos de 10 mg",
+      "Desloratadina solución 0,5 mg/mL",
+      "Dexclorfeniramina solución 0,4 mg/mL y ampollas de 5 mg",
+      "Hidroxizina jarabe 2 mg/mL"
+    ],
+    "edad_minima": "Cetirizina y desloratadina, desde los 6 meses (según preparado, algunos desde los 2 años). Los de PRIMERA generación están CONTRAINDICADOS por debajo de los 2 años",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 2 años",
+        "ajuste": "PROHIBIDOS los de primera generación: se han descrito depresión respiratoria, apneas y muertes. Solo se usan los de segunda generación autorizados para esa edad y con indicación clara"
+      },
+      {
+        "franja": "2-5 años",
+        "ajuste": "Cetirizina 2,5 mg cada 12 horas o desloratadina 1,25 mg al día. Preferir siempre segunda generación"
+      },
+      {
+        "franja": "6-11 años",
+        "ajuste": "Cetirizina 5 mg cada 12 horas o 10 mg al día; desloratadina 2,5 mg al día"
+      },
+      {
+        "franja": "Mayor de 12 años",
+        "ajuste": "Dosis de adulto, con posibilidad de escalar en la urticaria crónica"
+      }
+    ],
+    "peculiaridad_pediatrica": "Tres diferencias hacen que estos fármacos no sean en el niño lo mismo que en el adulto. La primera es de SEGURIDAD y es absoluta: los antihistamínicos de PRIMERA generación están contraindicados por debajo de los 2 años porque atraviesan una barrera hematoencefálica inmadura y se han asociado a apneas, convulsiones y muertes; siguen apareciendo en jarabes antigripales de venta libre que las familias compran sin receta, y esa es la vía por la que llegan al lactante. La segunda es PARADÓJICA: en el niño pequeño los de primera generación producen con frecuencia EXCITACIÓN, agitación e insomnio en lugar de sedación, de modo que usarlos para dormir es una apuesta que sale mal a menudo. La tercera es de EXPECTATIVAS: son el fármaco que más se prescribe para la tos y el catarro común, donde no funcionan en absoluto, porque el prurito y el habón son histaminérgicos y la mucosidad viral no lo es.",
+    "indicaciones": [
+      {
+        "patologia": "URTICARIA aguda y crónica",
+        "dosis": "Cetirizina 0,25 mg/kg/día, con posibilidad de subir hasta 4 veces esa dosis en la urticaria crónica",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Ausencia de habones y de prurito",
+        "nota": "La escalada hasta cuádruple dosis está avalada y es MUCHO más segura que dar corticoide de forma mantenida a un niño"
+      },
+      {
+        "patologia": "RINOCONJUNTIVITIS alérgica",
+        "dosis": "Cetirizina 2,5 mg cada 12 horas de 2 a 5 años, 5 mg cada 12 horas de 6 a 11 años; o desloratadina 1,25-2,5 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "En la rinitis moderada-grave el CORTICOIDE NASAL es más eficaz y debe ser la primera línea también en el niño"
+      },
+      {
+        "patologia": "ANAFILAXIA, como tratamiento COMPLEMENTARIO",
+        "dosis": "Dexclorfeniramina 0,15 mg/kg IM o IV lenta",
+        "posologia": "Dosis única, repetible cada 6-8 horas",
+        "via": "IM",
+        "nota": "SOLO alivia el prurito y los habones. NUNCA sustituye a la ADRENALINA intramuscular, que es lo único que salva la vida"
+      },
+      {
+        "patologia": "Prurito de la dermatitis atópica y de la varicela",
+        "dosis": "Cetirizina 0,25 mg/kg/día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "El prurito de la dermatitis atópica NO es histaminérgico: el beneficio es modesto y el tratamiento real son el emoliente y el corticoide tópico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Elegir SIEMPRE un fármaco de segunda generación salvo indicación muy concreta. Calcular la dosis por peso y prescribir en MILIGRAMOS especificando la concentración de la solución.",
+      "titulacion": "En la urticaria crónica se puede duplicar, triplicar o cuadruplicar la dosis antes de recurrir a otros fármacos.",
+      "duracion": "Estacional en la rinitis; meses en la urticaria crónica, que suele remitir sola.",
+      "fin": "Descenso escalonado tras 3-6 meses sin síntomas en la urticaria crónica.",
+      "via": "Oral en solución (la concentración varía entre preparados: hay que escribirla en la receta).",
+      "monitorizacion": "Clínica. Suspenderlos 3-7 días antes de unas pruebas cutáneas de alergia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral. La bilastina y la fexofenadina deben tomarse en AYUNAS (autorizadas en el niño mayor).",
+      "distribucion": "Los de primera generación atraviesan con facilidad una barrera hematoencefálica INMADURA; los de segunda son expulsados por la glicoproteína P.",
+      "metabolismo": "La CETIRIZINA apenas se metaboliza, lo que la libera de interacciones y la hace muy predecible en el niño.",
+      "eliminacion": "Renal (cetirizina) o hepática.",
+      "vida_media": "Más prolongada en el lactante por inmadurez metabólica.",
+      "ajuste_renal": "Reducir la cetirizina en la insuficiencia renal.",
+      "ajuste_hepatico": "Preferir cetirizina, que no depende del hígado.",
+      "interacciones": [
+        {
+          "con": "JARABES ANTIGRIPALES de venta libre",
+          "efecto": "Contienen antihistamínicos de PRIMERA generación y a menudo también paracetamol: riesgo de sedación grave en el lactante y de SOBREDOSIS de paracetamol si la familia añade otro antitérmico",
+          "gravedad": "alta",
+          "manejo": "Es la interacción práctica más importante en pediatría: hay que preguntar expresamente qué está dando la familia por su cuenta"
+        },
+        {
+          "con": "Otros depresores centrales y alcohol (adolescente)",
+          "efecto": "Sedación aditiva",
+          "gravedad": "alta",
+          "manejo": "Advertir sobre la conducción en el adolescente"
+        },
+        {
+          "con": "PRUEBAS CUTÁNEAS de alergia",
+          "efecto": "Las negativizan",
+          "gravedad": "media",
+          "manejo": "Suspender 3-7 días antes, o el estudio habrá que repetirlo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN con los de primera generación; la cetirizina seda algo más que el resto de los de segunda",
+        "EXCITACIÓN PARADÓJICA con los de primera generación en el niño pequeño",
+        "Sequedad de boca y estreñimiento (primera generación)",
+        "Cefalea"
+      ],
+      "graves": [
+        "APNEA, depresión respiratoria y MUERTE en el LACTANTE con los de primera generación",
+        "CONVULSIONES y arritmias en SOBREDOSIS",
+        "Distonía y síndrome anticolinérgico central",
+        "Glaucoma agudo y retención urinaria (excepcionales en el niño)"
+      ]
+    },
+    "contraindicaciones": [
+      "PRIMERA GENERACIÓN en menores de 2 años",
+      "Uso para la TOS y el catarro común en el niño pequeño: no funciona y añade riesgo",
+      "Glaucoma y obstrucción urinaria (primera generación)"
+    ],
+    "perlas": [
+      "La regla que hay que dar a las familias: en el menor de 2 años, NADA de antihistamínicos de primera generación. Y el problema no está en la receta del pediatra sino en los JARABES ANTIGRIPALES de venta libre, que los llevan y que los padres compran de buena fe. Hay que preguntar expresamente qué le están dando al niño.",
+      "En el niño pequeño estos fármacos suelen producir EXCITACIÓN en lugar de sedación: usarlos para que duerma no solo es peligroso, sino que a menudo consigue lo contrario.",
+      "NO sirven para la tos ni para el catarro. La mucosidad del resfriado no es histaminérgica, y son de los fármacos más prescritos para lo que menos hacen. Explicar que el catarro dura de 7 a 10 días evita más consultas que cualquier jarabe.",
+      "En la ANAFILAXIA solo quitan el picor. La ADRENALINA intramuscular en el muslo es lo único que salva la vida, y darle un antihistamínico a un niño con anafilaxia mientras se retrasa la adrenalina es un error potencialmente mortal.",
+      "En la URTICARIA CRÓNICA se puede CUADRUPLICAR la dosis de cetirizina antes de recurrir a nada más. Es mucho más seguro que un corticoide oral mantenido en un niño en crecimiento.",
+      "La CETIRIZINA es especialmente cómoda en pediatría porque apenas se metaboliza: menos interacciones y comportamiento más predecible en un hígado inmaduro.",
+      "En el prurito de la DERMATITIS ATÓPICA el beneficio es escaso, porque ese picor no está mediado por histamina: lo que funciona es el emoliente en cantidad suficiente y el corticoide tópico en el brote.",
+      "Hay que prescribir en MILIGRAMOS y especificar la concentración de la solución: las presentaciones pediátricas tienen concentraciones distintas y un error de mililitros es un error de dosis."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE embarazada, la LORATADINA y la CETIRIZINA son las de mayor experiencia y se consideran seguras. Compatibles con la lactancia, prefiriendo los de segunda generación para no sedar al lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16; guías EAACI de urticaria; alertas sobre antihistamínicos de primera generación en menores de 2 años"
+  },
+  {
+    "id": "PED-END-vitamina-d",
+    "nombre": "Vitamina D (profilaxis del raquitismo)",
+    "sinonimos": [
+      "Colecalciferol"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Suplemento vitamínico",
+    "subclase": "Prohormona liposoluble",
+    "mecanismo": "El colecalciferol se hidroxila en el hígado a calcifediol y en el riñón a CALCITRIOL, la forma activa, que aumenta la absorción intestinal de calcio y fósforo y permite la MINERALIZACIÓN de la matriz ósea. En el niño esa mineralización ocurre sobre un esqueleto en crecimiento con CARTÍLAGO DE CRECIMIENTO abierto, y ahí está la diferencia esencial con el adulto: sin vitamina D, el cartílago de crecimiento no se calcifica, se ensancha de forma desordenada y aparece el RAQUITISMO, con deformidades óseas permanentes. En el adulto, con las fisis ya cerradas, el mismo déficit produce osteomalacia, que no deforma. La leche materna, excelente en casi todo lo demás, aporta muy poca vitamina D (menos de 50 UI/L), y la síntesis cutánea depende de una exposición solar que se desaconseja activamente en el lactante: de ahí que la suplementación universal no sea un lujo sino una necesidad estructural.",
+    "espectro": null,
+    "dosis_pediatrica_base": "400 UI al día en todos los lactantes durante el primer año de vida (dosis FIJA, no ponderal)",
+    "dosis_maxima": "1000-2000 UI al día en el tratamiento del déficit; 2000 UI al día en el adolescente obeso o con malabsorción",
+    "presentaciones": [
+      "Solución oral de 2000 UI/mL (una gota equivale aproximadamente a 66 UI; los preparados VARÍAN)",
+      "Solución oral de 400 UI por dosis en algunos preparados",
+      "Comprimidos y cápsulas para el niño mayor"
+    ],
+    "edad_minima": "Desde el nacimiento; en el PREMATURO se inicia con dosis mayores (400-800 UI al día) una vez establecida la alimentación enteral",
+    "franjas_edad": [
+      {
+        "franja": "Prematuro",
+        "ajuste": "400-800 UI al día, con aportes de calcio y fósforo específicos: la mineralización ósea se produce sobre todo en el TERCER trimestre, que el prematuro se ha perdido"
+      },
+      {
+        "franja": "Lactante amamantado",
+        "ajuste": "400 UI al día durante todo el primer año, SIN excepciones: la leche materna no aporta suficiente"
+      },
+      {
+        "franja": "Lactante con fórmula",
+        "ajuste": "Se suplementa hasta que tome al menos 1 litro al día de fórmula, que ya aporta unas 400 UI"
+      },
+      {
+        "franja": "Niño y adolescente",
+        "ajuste": "600 UI al día como aporte recomendado; suplementar en el obeso, el de piel oscura, el que se cubre por motivos culturales, el que toma antiepilépticos inductores y el que tiene malabsorción"
+      }
+    ],
+    "peculiaridad_pediatrica": "La razón de suplementar a TODOS los lactantes no es que el déficit sea más frecuente sino que las CONSECUENCIAS son distintas e irreversibles: el esqueleto del niño está creciendo sobre cartílagos abiertos, y su falta de mineralización produce deformidades permanentes (piernas arqueadas, rosario costal, craneotabes, ensanchamiento de muñecas) además de hipocalcemia con convulsiones y, en el lactante, MIOCARDIOPATÍA hipocalcémica. A ello se suma un problema de fuentes que solo existe en esta edad: la leche materna es pobre en vitamina D y la exposición solar directa se desaconseja en el menor de 6 meses por el riesgo de quemadura y de cáncer cutáneo futuro. Y hay un problema de dosificación característico: la solución oral se dosifica en GOTAS, y las concentraciones VARÍAN entre preparados, de modo que cambiar de marca sin recalcular ha producido tanto déficits por infradosificación como INTOXICACIONES graves con hipercalcemia en lactantes.",
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS universal del raquitismo en el lactante",
+        "dosis": "400 UI al día desde los primeros días de vida hasta el año",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Prevención del raquitismo; no requiere control analítico en el niño sano",
+        "nota": "Se recomienda a TODOS los lactantes amamantados y a los que toman menos de un litro de fórmula al día. Es una de las profilaxis más coste-efectivas de la pediatría"
+      },
+      {
+        "patologia": "RAQUITISMO carencial establecido",
+        "dosis": "2000 UI al día en el menor de 1 año, 3000-6000 UI al día en el niño mayor, durante 12 semanas, seguidas de la dosis de mantenimiento",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Normalización de la fosfatasa alcalina, de la PTH y de la 25-OH-vitamina D, y curación radiológica",
+        "nota": "Hay que asociar CALCIO: si se da vitamina D sin calcio a un niño con depósitos vacíos, puede aparecer una HIPOCALCEMIA por hueso hambriento"
+      },
+      {
+        "patologia": "Prematuro y recién nacido de bajo peso",
+        "dosis": "400-800 UI al día, con aportes específicos de calcio y fósforo",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La enfermedad metabólica ósea del prematuro requiere además fósforo y calcio: la vitamina D sola no la previene"
+      },
+      {
+        "patologia": "Niño con malabsorción, hepatopatía, enfermedad renal o antiepilépticos INDUCTORES",
+        "dosis": "1000-2000 UI al día, o formas hidroxiladas si el problema es la activación",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "25-OH-vitamina D superior a 30 ng/mL",
+        "nota": "En la enfermedad RENAL hay que dar CALCITRIOL, porque el riñón no puede realizar la segunda hidroxilación"
+      }
+    ],
+    "esquema": {
+      "inicio": "Desde los primeros días de vida, sin necesidad de analítica previa en el lactante sano.",
+      "titulacion": "Dosis fija en la profilaxis; ajustada por niveles en el tratamiento del déficit.",
+      "duracion": "Todo el primer año en la profilaxis universal; 12 semanas en el tratamiento del raquitismo, seguidas de mantenimiento.",
+      "fin": "Al año de vida en el niño sano con alimentación variada; indefinida en los grupos de riesgo.",
+      "via": "Oral, en gotas o solución. Se puede administrar directamente en la boca o sobre el pezón, no en el biberón entero (si el niño no lo termina, no recibe la dosis).",
+      "monitorizacion": "Ninguna en el lactante sano. En el tratamiento del raquitismo: calcio, fósforo, fosfatasa alcalina, PTH y 25-OH-vitamina D, más radiografía de muñeca."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liposoluble: requiere GRASA y sales biliares. Se absorbe mal en la colestasis, la fibrosis quística y la malabsorción.",
+      "distribucion": "Se almacena en el tejido ADIPOSO, motivo por el que el niño OBESO necesita dosis mayores.",
+      "metabolismo": "Hidroxilación hepática y renal.",
+      "eliminacion": "Biliar.",
+      "vida_media": "El calcifediol persiste 2-3 semanas, lo que permite pautas semanales en casos concretos.",
+      "ajuste_renal": "En la enfermedad renal hay que usar CALCITRIOL o alfacalcidol, ya activados.",
+      "ajuste_hepatico": "En la colestasis se prefieren formas hidroxiladas y se vigila la absorción.",
+      "interacciones": [
+        {
+          "con": "ANTIEPILÉPTICOS inductores (fenobarbital, fenitoína, carbamazepina)",
+          "efecto": "Aceleran su catabolismo y producen raquitismo u osteomalacia en el niño tratado durante años",
+          "gravedad": "alta",
+          "manejo": "Suplementar de forma sistemática a todo niño con antiepilépticos inductores"
+        },
+        {
+          "con": "CORTICOIDES sistémicos prolongados",
+          "efecto": "Reducen la absorción de calcio y la mineralización",
+          "gravedad": "alta",
+          "manejo": "Suplementar calcio y vitamina D en corticoterapia prolongada"
+        },
+        {
+          "con": "Colestiramina, orlistat y aceites minerales",
+          "efecto": "Impiden su absorción",
+          "gravedad": "media",
+          "manejo": "Separar las tomas"
+        },
+        {
+          "con": "Cambio de PREPARADO comercial",
+          "efecto": "Las concentraciones por gota VARÍAN: puede producir infradosificación o INTOXICACIÓN",
+          "gravedad": "alta",
+          "manejo": "Al cambiar de marca hay que recalcular las gotas y explicárselo a la familia. Es una causa documentada de hipercalcemia grave en lactantes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prácticamente ninguno a dosis profilácticas",
+        "Molestias digestivas leves"
+      ],
+      "graves": [
+        "INTOXICACIÓN por vitamina D con HIPERCALCEMIA: vómitos, estreñimiento, poliuria, deshidratación, irritabilidad, fallo de medro y fracaso renal. Se ha descrito por errores de dosificación con gotas y por productos con concentraciones no declaradas",
+        "Nefrocalcinosis y litiasis",
+        "HIPOCALCEMIA por hueso hambriento al tratar un raquitismo sin aporte de calcio"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipercalcemia e hipercalciuria",
+      "Síndrome de Williams y otras causas de hipersensibilidad a la vitamina D",
+      "Enfermedades granulomatosas (producen calcitriol de forma no regulada)"
+    ],
+    "perlas": [
+      "TODOS los lactantes amamantados necesitan 400 UI diarias durante el primer año. La leche materna es superior en casi todo, y en esto no: aporta menos de 50 UI por litro. Es de las pocas recomendaciones universales de la pediatría y sigue sin cumplirse en una proporción alta de niños.",
+      "La diferencia con el adulto no es la frecuencia del déficit sino sus CONSECUENCIAS: sobre un cartílago de crecimiento abierto, la falta de mineralización deforma el hueso de forma permanente. En el adulto, con las fisis cerradas, el mismo déficit no deforma.",
+      "El error de dosificación con GOTAS es un riesgo real: las concentraciones varían entre preparados, y cambiar de marca sin recalcular ha producido tanto raquitismos por infradosificación como INTOXICACIONES con hipercalcemia grave. Hay que prescribir en UI y comprobar la equivalencia del envase concreto.",
+      "Al tratar un raquitismo hay que dar CALCIO además de vitamina D: el hueso desmineralizado empieza a captar calcio con avidez y puede producirse una HIPOCALCEMIA por hueso hambriento con convulsiones justo cuando el tratamiento empieza a funcionar.",
+      "Una CONVULSIÓN por hipocalcemia en un lactante amamantado, de piel oscura y sin suplementación, es una presentación clásica del raquitismo carencial que sigue viéndose. También puede debutar como MIOCARDIOPATÍA hipocalcémica.",
+      "El niño OBESO necesita más dosis, no menos: la vitamina D queda secuestrada en el tejido adiposo y no está disponible.",
+      "Los ANTIEPILÉPTICOS inductores producen raquitismo en el niño tratado durante años. Suplementar a todo niño con fenobarbital, fenitoína o carbamazepina debería ser automático y se olvida con frecuencia.",
+      "La dosis se da directamente en la boca o sobre el pezón, NO diluida en un biberón entero: si el niño no se lo termina, no ha recibido la dosis, y eso es imposible de detectar después."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE gestante se recomienda el aporte habitual; el déficit materno grave produce raquitismo congénito e hipocalcemia neonatal. La suplementación de la MADRE lactante a dosis estándar NO sustituye a la del lactante: el niño necesita sus propias 400 UI.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; recomendaciones de la AEP y de la Academia Americana de Pediatría sobre profilaxis con vitamina D"
+  }
+]

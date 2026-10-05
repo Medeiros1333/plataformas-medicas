@@ -1,0 +1,263 @@
+[
+  {
+    "id": "PED-NML-budesonida-inhalada",
+    "nombre": "Budesonida inhalada (pediatría)",
+    "sinonimos": [
+      "Fluticasona inhalada (misma clase)"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado",
+    "subclase": "Tratamiento de fondo del asma infantil",
+    "mecanismo": "Glucocorticoide que actúa localmente sobre la mucosa bronquial reduciendo la infiltración eosinofílica, la producción de citocinas y la hiperreactividad. Es el ÚNICO tratamiento de fondo que modifica el curso del asma en el niño. Su intenso primer paso hepático inactiva más del 90% de la fracción deglutida, lo que limita los efectos sistémicos, pero en el niño el margen es menor que en el adulto porque la dosis por kilo de peso es proporcionalmente mayor.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Dosis baja 100-200 µg/día; media 200-400 µg/día; alta más de 400 µg/día (budesonida, dosis por día, no por kg)",
+    "dosis_maxima": "400 µg/día como dosis media en el menor de 5 años; por encima de esa cifra debe valorarlo el especialista",
+    "presentaciones": [
+      "Inhalador presurizado 50 y 200 µg/pulsación",
+      "Polvo seco 100, 200 y 400 µg/inhalación (a partir de 5-6 años)",
+      "Suspensión para nebulizar 0,25 y 0,5 mg/mL"
+    ],
+    "edad_minima": "Desde los 6 meses en suspensión nebulizada; desde los 12 meses con cartucho, cámara y mascarilla",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 4 años",
+        "ajuste": "Cartucho presurizado con CÁMARA de pequeño volumen y MASCARILLA facial bien ajustada, o nebulización. Nunca el cartucho directo a la boca"
+      },
+      {
+        "franja": "4-6 años",
+        "ajuste": "Cámara con BOQUILLA en cuanto el niño sepa sellar los labios y respirar por la boca: la mascarilla pierde dosis y ensucia la cara"
+      },
+      {
+        "franja": "Mayor de 6 años",
+        "ajuste": "Dispositivo de polvo seco si genera flujo inspiratorio suficiente, o cámara con boquilla"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Pasar a combinación con formoterol (estrategia MART) como en el adulto"
+      }
+    ],
+    "peculiaridad_pediatrica": "Tres cosas cambian respecto al adulto. Primera: el DISPOSITIVO no es un detalle sino parte de la dosis, y depende de la edad (mascarilla, boquilla, polvo seco); un asma infantil mal controlada es, en la mayoría de los casos, una técnica inhalatoria mal hecha y no una dosis insuficiente. Segunda: el efecto sobre el CRECIMIENTO es real pero limitado (una reducción de en torno a 1 cm en el primer año de tratamiento, sin pérdida significativa de talla adulta final), y hay que explicárselo a los padres con esa precisión, porque el miedo mal informado a los corticoides es la primera causa de abandono. Tercera: hay que ENJUAGAR LA BOCA y, si se usa mascarilla, LAVAR LA CARA después, porque el depósito facial produce dermatitis periorificial.",
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente del niño: tratamiento de fondo",
+        "dosis": "200-400 µg/día repartidos en 2 tomas",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Es el escalón 2 del tratamiento y el único que reduce las crisis graves y las hospitalizaciones"
+      },
+      {
+        "patologia": "Sibilancias recurrentes del preescolar con factores de riesgo de asma",
+        "dosis": "200 µg/día durante 8-12 semanas como PRUEBA terapéutica",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Se pauta como ensayo con evaluación programada: si no hay mejoría clara, se RETIRA en lugar de mantenerlo indefinidamente"
+      },
+      {
+        "patologia": "Asma moderada-grave del niño mayor de 6 años",
+        "dosis": "Combinación budesonida/formoterol 100/6 o 200/6 µg, 1 inhalación/12 h",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "En el niño mayor y el adolescente, añadir el LABA es preferible a doblar el corticoide inhalado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja o media según gravedad, con el dispositivo adecuado a la edad. Enseñar la técnica a los padres Y AL NIÑO, y comprobarla haciéndosela repetir en la consulta.",
+      "titulacion": "Reevaluar a las 4-8 semanas. Antes de subir de escalón hay que revisar las tres causas reales de mal control: técnica, adherencia y exposición a desencadenantes (tabaco en el domicilio, ácaros, mascotas).",
+      "duracion": "Meses o años mientras el asma sea persistente, con reevaluación al menos anual.",
+      "fin": "DESESCALAR tras 3 meses de buen control, reduciendo la dosis un 25-50%. No se retira de golpe.",
+      "via": "Inhalada: SIEMPRE con cámara espaciadora en el menor de 6 años.",
+      "monitorizacion": "TALLA Y PESO en cada revisión (es la monitorización pediátrica específica), control clínico, número de crisis y de ciclos de corticoide oral, y técnica inhalatoria en cada visita."
+    },
+    "farmacocinetica": {
+      "absorcion": "Depósito pulmonar del 10-30%, muy dependiente del dispositivo y de la técnica; el resto se deposita en la orofaringe y se deglute.",
+      "distribucion": "Fundamentalmente local en la vía aérea.",
+      "metabolismo": "Primer paso hepático intenso por CYP3A4, que inactiva más del 90% de la fracción deglutida.",
+      "eliminacion": "Renal y biliar como metabolitos inactivos.",
+      "vida_media": "Efecto antiinflamatorio sostenido con la dosificación cada 12 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución en la hepatopatía: aumenta la exposición sistémica.",
+      "interacciones": [
+        {
+          "con": "RITONAVIR, itraconazol, claritromicina (inhibidores potentes del CYP3A4)",
+          "efecto": "Elevan mucho la exposición sistémica: se han descrito síndrome de Cushing e insuficiencia suprarrenal con corticoide INHALADO en niños",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; especialmente relevante en el niño con VIH o con tratamiento antifúngico prolongado"
+        },
+        {
+          "con": "Corticoides orales o tópicos concomitantes",
+          "efecto": "Suma de carga corticoidea sistémica con más riesgo de efecto sobre el crecimiento y el eje suprarrenal",
+          "gravedad": "media",
+          "manejo": "Contabilizar TODAS las fuentes: inhalada, nasal, cutánea y oral"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "CANDIDIASIS oral y disfonía (menos frecuentes que en el adulto pero infradiagnosticadas)",
+        "DERMATITIS PERIORIFICIAL por el depósito de la mascarilla en la cara",
+        "Tos tras la inhalación",
+        "Reducción transitoria de la velocidad de crecimiento en el primer año"
+      ],
+      "graves": [
+        "Supresión del eje suprarrenal con dosis altas mantenidas o al asociarse a inhibidores del CYP3A4",
+        "Crisis suprarrenal ante una enfermedad intercurrente en el niño con dosis altas prolongadas",
+        "Cataratas y glaucoma con exposición muy prolongada a dosis altas",
+        "Broncoespasmo paradójico"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a la budesonida",
+      "Precaución en tuberculosis pulmonar activa no tratada"
+    ],
+    "perlas": [
+      "El dato numérico que hay que dar a los padres para desmontar el miedo: la reducción de la velocidad de crecimiento es de aproximadamente 1 cm en el PRIMER año de tratamiento y no se acumula; el efecto sobre la talla adulta final es mínimo. En cambio, un asma mal controlada sí compromete el crecimiento, el sueño, la escolarización y el desarrollo pulmonar. La conversación honesta con esa cifra concreta salva más tratamientos que cualquier argumento general.",
+      "El DISPOSITIVO forma parte de la dosis y cambia con la edad. Un preescolar con cartucho directo a la boca no está recibiendo prácticamente nada. La cámara con mascarilla se sustituye por boquilla en cuanto el niño colabora, porque la mascarilla desperdicia dosis.",
+      "Antes de subir de escalón hay que comprobar SIEMPRE tres cosas: que la técnica sea correcta, que el tratamiento se esté administrando de verdad y que no haya un fumador en casa. La mayoría de los asmas infantiles mal controlados se resuelven ahí y no con más fármaco.",
+      "Hay que LAVAR LA CARA después de la mascarilla: la dermatitis periorificial por depósito de corticoide es frecuente, se atribuye a otras causas y alarma a los padres.",
+      "En las sibilancias del preescolar conviene plantearlo como PRUEBA terapéutica con fecha de evaluación: muchos son sibilantes episódicos víricos que no responden, y mantenerlos años con corticoide inhalado es exposición sin beneficio.",
+      "Hay que sumar TODAS las fuentes de corticoide del niño: inhalado, nasal para la rinitis y tópico para la dermatitis atópica. Cada una parece pequeña, pero el niño atópico las acumula las tres."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante, la budesonida es el corticoide inhalado con más datos de seguridad y debe mantenerse.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; AMIR Pediatría; guías GINA y GEMA pediátricas"
+  },
+  {
+    "id": "PED-NML-dexametasona",
+    "nombre": "Dexametasona (laringitis aguda y crisis asmática)",
+    "sinonimos": [
+      "Prednisolona oral (alternativa en la crisis asmática)"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Glucocorticoide sistémico de acción prolongada",
+    "subclase": "Corticoide de la vía aérea aguda pediátrica",
+    "mecanismo": "Glucocorticoide potente y de vida media biológica larga (36-54 h) que reduce el edema de la mucosa laríngea y bronquial y la respuesta inflamatoria. En la LARINGITIS su efecto es fundamentalmente antiedema sobre la región subglótica, que en el niño pequeño es la zona más estrecha de la vía aérea y está rodeada por un cartílago cricoides completo e indistensible: por eso unos pocos milímetros de edema multiplican la resistencia al flujo y por eso una sola dosis de corticoide cambia el cuadro de forma tan llamativa. Carece prácticamente de actividad mineralocorticoide.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Laringitis: 0,15-0,6 mg/kg en DOSIS ÚNICA. Crisis asmática: 0,6 mg/kg (o prednisolona 1-2 mg/kg/día)",
+    "dosis_maxima": "10 mg por dosis en la laringitis; 16 mg en la crisis asmática",
+    "presentaciones": [
+      "Solución oral o ampollas de uso oral 4 mg/mL",
+      "Ampollas IV/IM 4 y 40 mg",
+      "Comprimidos de 1, 4 y 8 mg"
+    ],
+    "edad_minima": "Sin límite inferior en la indicación aguda: se usa desde el lactante",
+    "franjas_edad": [
+      {
+        "franja": "Lactante con laringitis leve",
+        "ajuste": "0,15 mg/kg en dosis única VO: la dosis baja es tan eficaz como la alta y hoy es la recomendada"
+      },
+      {
+        "franja": "Laringitis moderada-grave con estridor en reposo",
+        "ajuste": "0,6 mg/kg VO o IM MÁS adrenalina nebulizada; observación mínima de 3-4 h por el efecto rebote de la adrenalina"
+      },
+      {
+        "franja": "Crisis asmática de cualquier edad",
+        "ajuste": "Prednisolona 1-2 mg/kg/día durante 3-5 días, o dexametasona 0,6 mg/kg en 1-2 dosis (pauta más corta y mejor tolerada)"
+      },
+      {
+        "franja": "Niño que vomita la medicación",
+        "ajuste": "Vía IM o IV: la dexametasona no tiene una eficacia superior por vía parenteral, pero garantiza la administración"
+      }
+    ],
+    "peculiaridad_pediatrica": "La laringitis es una enfermedad prácticamente exclusiva del niño pequeño por una razón anatómica: la subglotis está rodeada por el cricoides, el único anillo cartilaginoso completo de la vía aérea, de modo que el edema no puede expandirse hacia fuera y estrecha la luz. Además, la resistencia al flujo es inversamente proporcional a la CUARTA potencia del radio, por lo que 1 mm de edema en una vía aérea de 4 mm reduce la luz de forma dramática. De ahí que una dosis única de corticoide, que en el adulto parecería una intervención menor, evite la mayoría de los ingresos y de las intubaciones. La otra particularidad es de manejo: al niño con estridor NO se le explora la faringe ni se le canaliza una vía si no es imprescindible, porque el llanto y la agitación empeoran la obstrucción.",
+    "indicaciones": [
+      {
+        "patologia": "Laringitis aguda (crup) de cualquier gravedad, incluida la leve",
+        "dosis": "0,15 mg/kg en dosis única (máximo 10 mg)",
+        "posologia": "Dosis ÚNICA",
+        "via": "VO",
+        "nota": "Indicada INCLUSO en la laringitis leve: reduce las consultas repetidas, los ingresos y la duración de los síntomas"
+      },
+      {
+        "patologia": "Laringitis moderada-grave con estridor en reposo y tiraje",
+        "dosis": "0,6 mg/kg en dosis única (máximo 10 mg), junto con adrenalina nebulizada",
+        "posologia": "Dosis única",
+        "via": "VO, IM o IV",
+        "nota": "La adrenalina actúa en minutos pero su efecto se agota en 2 h: el corticoide es el que sostiene la mejoría"
+      },
+      {
+        "patologia": "Crisis asmática del niño",
+        "dosis": "Dexametasona 0,6 mg/kg (máximo 16 mg) en 1-2 dosis, o prednisolona 1-2 mg/kg/día 3-5 días",
+        "posologia": "1-2 dosis o pauta corta diaria",
+        "via": "VO",
+        "nota": "Debe administrarse PRECOZMENTE, en la primera hora: es lo que realmente modifica el curso de la crisis, no el broncodilatador"
+      },
+      {
+        "patologia": "Traqueítis y edema de vía aérea postextubación",
+        "dosis": "0,5 mg/kg/6 h durante 24 h antes de la extubación",
+        "posologia": "Cada 6 h",
+        "via": "IV",
+        "nota": "Profilaxis del estridor postextubación en el niño intubado de forma prolongada"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única lo antes posible. En la laringitis, administrarla mientras el niño está tranquilo, en brazos de sus padres y sin exploraciones innecesarias.",
+      "titulacion": "No se titula: dosis única o pauta corta fija.",
+      "duracion": "Una sola dosis en la laringitis (su vida media de 36-54 h cubre toda la evolución del cuadro); 3-5 días en la crisis asmática.",
+      "fin": "NO precisa descenso progresivo: en pautas menores de 10-14 días no hay supresión suprarrenal significativa. Prolongarlas o descenderlas lentamente es innecesario y añade exposición.",
+      "via": "VO de elección (la ampolla IV puede administrarse por boca, mezclada con algo dulce); IM o IV si vomita o hay dificultad respiratoria importante.",
+      "monitorizacion": "Estridor en reposo, tiraje, entrada de aire, saturación y nivel de conciencia. Tras adrenalina nebulizada, observación mínima de 3-4 h por el rebote."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y prácticamente completa por vía oral; la biodisponibilidad oral e intramuscular es equivalente.",
+      "distribucion": "Amplia; atraviesa la barrera hematoencefálica y la placenta.",
+      "metabolismo": "Hepático por CYP3A4.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "Plasmática de 3-4 h, pero VIDA MEDIA BIOLÓGICA de 36-54 h: eso es lo que permite la dosis única en la laringitis.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste en el uso agudo.",
+      "interacciones": [
+        {
+          "con": "Rifampicina, fenitoína, carbamazepina, fenobarbital",
+          "efecto": "Inducen su metabolismo y reducen su eficacia",
+          "gravedad": "media",
+          "manejo": "Puede requerir dosis mayores en el niño epiléptico o tratado por tuberculosis"
+        },
+        {
+          "con": "Vacunas de virus VIVOS (triple vírica, varicela, rotavirus)",
+          "efecto": "Solo las pautas ALTAS y PROLONGADAS contraindican su administración; una dosis única o una pauta corta NO lo hacen",
+          "gravedad": "media",
+          "manejo": "No retrasar la vacunación por una pauta corta; sí esperar 1 mes tras corticoterapia alta de más de 14 días"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Riesgo aditivo de gastrolesividad",
+          "gravedad": "baja",
+          "manejo": "Poco relevante en pautas cortas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Alteración transitoria del comportamiento: irritabilidad, hiperactividad, insomnio (muy frecuente y motivo de consulta de los padres)",
+        "Aumento del apetito",
+        "Molestias gástricas",
+        "Sabor amargo de la solución oral, causa frecuente de vómito de la dosis"
+      ],
+      "graves": [
+        "Hiperglucemia en el niño diabético",
+        "Enmascaramiento o agravamiento de una infección bacteriana o de una varicela en curso",
+        "Supresión suprarrenal solo con pautas repetidas o prolongadas",
+        "Reacción anafiláctica (excepcional)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fármaco",
+      "Precaución en varicela activa e infección bacteriana grave no tratada",
+      "Ninguna contraindicación relevante para la dosis única en la laringitis"
+    ],
+    "perlas": [
+      "La dosis única en la laringitis es una de las intervenciones más rentables de la pediatría de urgencias: barata, oral, indolora y capaz de evitar ingresos e intubaciones. Y está indicada TAMBIÉN en la laringitis LEVE, algo que todavía se omite con frecuencia por parecer un cuadro banal.",
+      "La explicación anatómica hay que tenerla presente porque justifica toda la conducta: la subglotis está rodeada por el cricoides, un anillo cartilaginoso completo, y la resistencia varía con la cuarta potencia del radio. Un milímetro de edema en una vía de 4 mm es una obstrucción grave.",
+      "Regla de manejo que vale tanto como el fármaco: NO explorar la faringe ni pinchar al niño con estridor si no es imprescindible. El llanto aumenta el flujo turbulento y puede desencadenar una obstrucción crítica. La medicación se da en brazos de los padres.",
+      "La ADRENALINA nebulizada y el corticoide son complementarios y tienen tiempos distintos: la adrenalina actúa en minutos pero se agota en 2 h, y el corticoide tarda 30 minutos pero dura días. Por eso el niño que recibe adrenalina necesita OBSERVACIÓN de 3-4 h: si se le da de alta antes, puede volver peor por el rebote.",
+      "En la crisis asmática lo que cambia el pronóstico es el corticoide administrado en la PRIMERA HORA, no las tandas repetidas de salbutamol. Es el error de prioridad más frecuente en urgencias pediátricas.",
+      "No hace falta descender la pauta: en tratamientos de menos de 10-14 días no hay supresión suprarrenal, y alargar la pauta solo para descenderla añade exposición sin beneficio.",
+      "Una pauta CORTA de corticoide NO contraindica las vacunas de virus vivos: retrasar la vacunación por ello es un error frecuente que deja al niño desprotegido sin motivo."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39; AMIR Pediatría; Harrison 20.ª ed., cap. de infecciones de la vía aérea superior"
+  }
+]

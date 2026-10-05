@@ -1,0 +1,232 @@
+[
+  {
+    "id": "URG-fomepizol-etanol",
+    "nombre": "Fomepizol y etanol (intoxicación por alcoholes tóxicos)",
+    "sinonimos": [
+      "Antídotos del metanol y del etilenglicol"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto de los alcoholes tóxicos",
+    "subclase": "Inhibidores de la alcohol deshidrogenasa",
+    "mecanismo": "El METANOL y el ETILENGLICOL son en sí mismos poco tóxicos: lo que mata son sus METABOLITOS. La ALCOHOL DESHIDROGENASA convierte el metanol en formaldehído y después en ÁCIDO FÓRMICO, que inhibe la citocromo oxidasa y destruye el nervio óptico; y el etilenglicol en glicolaldehído, ácido glicólico y finalmente ÁCIDO OXÁLICO, que precipita como oxalato cálcico en el túbulo renal produciendo fracaso renal e hipocalcemia. El tratamiento consiste, por tanto, en IMPEDIR ESA CONVERSIÓN. El FOMEPIZOL inhibe competitivamente la alcohol deshidrogenasa con una afinidad entre 500 y 1000 veces mayor que la del etanol; el ETANOL hace lo mismo por simple competencia de sustrato, ya que la enzima lo prefiere al metanol. La consecuencia clínica es elegante: el alcohol tóxico queda sin metabolizar y se elimina lentamente sin causar daño, o se retira por hemodiálisis.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por METANOL o ETILENGLICOL confirmada o con alta sospecha",
+        "dosis": "Fomepizol 15 mg/kg IV de carga, y después 10 mg/kg cada 12 horas durante 4 dosis, seguidos de 15 mg/kg cada 12 horas",
+        "posologia": "Carga y dosis cada 12 horas",
+        "via": "IV",
+        "dosis_objetivo": "Bloqueo completo de la alcohol deshidrogenasa hasta que la concentración del tóxico sea indetectable y se corrija la acidosis",
+        "nota": "Se inicia ANTE LA SOSPECHA, sin esperar a la confirmación analítica: cada hora de retraso son más metabolitos tóxicos formados"
+      },
+      {
+        "patologia": "Intoxicación por alcoholes tóxicos sin disponibilidad de fomepizol",
+        "dosis": "Etanol al 10% IV: carga de 8 mL/kg y perfusión de 1-2 mL/kg/h, ajustada por alcoholemia",
+        "posologia": "Carga y perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Alcoholemia de 100-150 mg/dL (1-1,5 g/L) mantenida",
+        "nota": "Es mucho más engorroso: requiere medir la alcoholemia cada 1-2 horas, produce embriaguez, hipoglucemia y sedación, y en hemodiálisis hay que aumentar la perfusión porque se dializa"
+      },
+      {
+        "patologia": "Acidosis metabólica con HIATO ANIÓNICO elevado e HIATO OSMOLAR aumentado",
+        "dosis": "Fomepizol 15 mg/kg IV, más bicarbonato y valoración de hemodiálisis",
+        "posologia": "Dosis única de carga y reevaluación",
+        "via": "IV",
+        "dosis_objetivo": "Corrección de la acidosis y del hiato osmolar",
+        "nota": "El HIATO OSMOLAR elevado con hiato aniónico normal orienta a intoxicación PRECOZ (alcohol sin metabolizar); cuando el hiato osmolar baja y el aniónico sube, el tóxico ya se ha convertido en ácido"
+      },
+      {
+        "patologia": "Coadyuvantes metabólicos según el tóxico",
+        "dosis": "Ácido FOLÍNICO 50 mg IV cada 6 horas en el metanol; TIAMINA 100 mg y PIRIDOXINA 50-100 mg en el etilenglicol",
+        "posologia": "Cada 6 horas",
+        "via": "IV",
+        "nota": "Desvían los metabolitos hacia vías no tóxicas: el folínico acelera la degradación del formiato, y la tiamina y la piridoxina desvían el glioxilato lejos del oxalato"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante la sospecha, SIN esperar niveles. Calcular el HIATO ANIÓNICO y el HIATO OSMOLAR, extraer gasometría, lactato, función renal, calcio y osmolalidad medida, y avisar a nefrología por si hace falta hemodiálisis.",
+      "titulacion": "El fomepizol se ajusta según la hemodiálisis (que lo elimina y obliga a dosificar cada 4 horas durante la sesión); el etanol se titula por alcoholemia.",
+      "duracion": "Hasta que el tóxico sea indetectable, la acidosis se haya corregido y el paciente esté asintomático.",
+      "fin": "Se suspende con el tóxico eliminado. La HEMODIÁLISIS acorta mucho el tratamiento y está indicada ante acidosis grave, alteración visual, fracaso renal o concentraciones altas.",
+      "via": "Intravenosa (el etanol también por vía oral o por sonda si no hay presentación intravenosa).",
+      "monitorizacion": "Gasometría, hiato aniónico y osmolar, función renal, calcio (etilenglicol) y exploración VISUAL seriada (metanol). Con etanol, alcoholemia y glucemia cada 1-2 horas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Amplia, en el agua corporal total.",
+      "metabolismo": "El fomepizol induce su propio metabolismo, lo que obliga a aumentar la dosis a partir de las 48 horas.",
+      "eliminacion": "Hepática y renal.",
+      "vida_media": "Variable; el fomepizol se ELIMINA con la hemodiálisis y hay que redosificarlo durante la sesión.",
+      "ajuste_renal": "El tóxico se elimina peor: la hemodiálisis es a la vez tratamiento y solución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "HEMODIÁLISIS",
+          "efecto": "Elimina tanto el tóxico como el ANTÍDOTO",
+          "gravedad": "alta",
+          "manejo": "Durante la diálisis hay que administrar fomepizol cada 4 horas, o aumentar la perfusión de etanol: olvidarlo deja al paciente sin bloqueo enzimático justo cuando más lo necesita"
+        },
+        {
+          "con": "Etanol y depresores del sistema nervioso central",
+          "efecto": "Sedación e hipoglucemia aditivas",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha con la pauta de etanol, especialmente en el niño"
+        },
+        {
+          "con": "DISULFIRAM y metronidazol",
+          "efecto": "Reacción antabús con la pauta de etanol",
+          "gravedad": "alta",
+          "manejo": "Contraindican el uso de etanol como antídoto; usar fomepizol"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "FOMEPIZOL: cefalea, náuseas y mareo; es notablemente bien tolerado",
+        "ETANOL: embriaguez, sedación, náuseas, flebitis por la solución hipertónica"
+      ],
+      "graves": [
+        "ETANOL: HIPOGLUCEMIA (especialmente peligrosa en el NIÑO y en el desnutrido), depresión respiratoria, coma y broncoaspiración",
+        "Fomepizol: elevación transitoria de transaminasas y eosinofilia (infrecuentes)",
+        "Del propio tóxico: CEGUERA irreversible por metanol y fracaso renal por etilenglicol si el tratamiento se retrasa"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fomepizol o a los pirazoles",
+      "ETANOL como antídoto en el paciente con disulfiram, con hepatopatía grave o en el niño pequeño, donde el fomepizol es claramente preferible"
+    ],
+    "perlas": [
+      "El principio que ordena toda la intoxicación por alcoholes tóxicos: NO ES EL ALCOHOL, SON SUS METABOLITOS. El paciente puede llegar casi asintomático y con una acidosis leve, y estar fabricando en ese mismo momento el ácido fórmico que le dejará ciego. Por eso el antídoto se administra ANTE LA SOSPECHA y no cuando el cuadro es evidente.",
+      "El HIATO OSMOLAR y el HIATO ANIÓNICO cuentan la historia en el tiempo: al principio el alcohol está sin metabolizar y eleva el hiato OSMOLAR con el aniónico normal; conforme se convierte en ácido, el osmolar baja y el ANIÓNICO sube. Un hiato osmolar normal en una intoxicación tardía NO descarta nada.",
+      "El FOMEPIZOL ha desplazado al ETANOL por comodidad y seguridad: no seda, no produce hipoglucemia, no requiere medir alcoholemias cada dos horas y se dosifica cada 12 horas. El etanol sigue siendo válido donde no hay fomepizol, pero es un tratamiento mucho más laborioso y peligroso.",
+      "La HEMODIÁLISIS elimina también el ANTÍDOTO. Durante la sesión hay que redosificar el fomepizol cada 4 horas o subir la perfusión de etanol; olvidarlo es dejar la enzima libre justo cuando el paciente está más comprometido.",
+      "El METANOL ataca el NERVIO ÓPTICO: visión borrosa, escotomas, la clásica sensación de estar en una tormenta de nieve y midriasis arreactiva. La ceguera es irreversible y la exploración visual seriada es parte del seguimiento.",
+      "El ETILENGLICOL ataca el RIÑÓN: cristales de OXALATO CÁLCICO en la orina e HIPOCALCEMIA con prolongación del QT y tetania. Los cristales en el sedimento son un hallazgo muy útil y rápido de obtener.",
+      "La FLUORESCEÍNA de los anticongelantes puede hacer que la orina fluorezca con luz de Wood: es un truco diagnóstico clásico, poco sensible pero de coste cero.",
+      "Los COADYUVANTES metabólicos son baratos y se olvidan: ácido FOLÍNICO en el metanol, TIAMINA y PIRIDOXINA en el etilenglicol. Desvían los metabolitos hacia vías inocuas y merecen figurar en el protocolo."
+    ],
+    "embarazo_lactancia": "Se emplean sin restricción ante una intoxicación con riesgo vital. El fomepizol es preferible al etanol también en la gestante, por evitar la exposición fetal al alcohol.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; protocolos de toxicología clínica sobre alcoholes tóxicos"
+  },
+  {
+    "id": "URG-hidroxocobalamina-emulsion-lipidica",
+    "nombre": "Hidroxocobalamina y emulsión lipídica intravenosa",
+    "sinonimos": [
+      "Antídoto del cianuro y rescate lipídico"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto del cianuro y de los cardiotóxicos liposolubles",
+    "subclase": "Quelante del cianuro y sumidero lipídico",
+    "mecanismo": "La HIDROXOCOBALAMINA es una forma de vitamina B12 cuyo átomo de COBALTO tiene una enorme afinidad por el ion CIANURO: se une a él formando CIANOCOBALAMINA, un compuesto inocuo que se elimina por la orina. Con ello libera la citocromo oxidasa mitocondrial, que el cianuro había bloqueado impidiendo la respiración celular. Su gran ventaja sobre los antídotos clásicos es que NO produce metahemoglobina, lo que la hace segura en el intoxicado por HUMO DE INCENDIO, que además tiene monóxido de carbono y no puede permitirse perder capacidad transportadora de oxígeno. La EMULSIÓN LIPÍDICA actúa por un mecanismo completamente distinto y no específico: crea un COMPARTIMENTO LIPÍDICO en el plasma que secuestra los fármacos muy LIPÓFILOS, extrayéndolos del tejido cardiaco y nervioso donde están ejerciendo su toxicidad; se propone además un efecto metabólico directo aportando ácidos grasos al miocardio isquémico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por CIANURO, incluida la inhalación de HUMO de incendio",
+        "dosis": "Hidroxocobalamina 70 mg/kg (5 g en el adulto) IV en 15 minutos, repetible una vez",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "dosis_objetivo": "Resolución de la acidosis láctica y recuperación hemodinámica y neurológica",
+        "nota": "Se administra EMPÍRICAMENTE ante un incendiado con alteración de la conciencia, hipotensión o LACTATO superior a 8-10 mmol/L: no hay tiempo para confirmar el cianuro"
+      },
+      {
+        "patologia": "TOXICIDAD SISTÉMICA POR ANESTÉSICOS LOCALES",
+        "dosis": "Emulsión lipídica al 20%: 1,5 mL/kg en bolo, seguidos de 0,25-0,5 mL/kg/min, con bolos repetibles",
+        "posologia": "Bolo y perfusión, con máximo de 12 mL/kg",
+        "via": "IV",
+        "dosis_objetivo": "Recuperación de la estabilidad hemodinámica y cese de las convulsiones",
+        "nota": "Debe estar FÍSICAMENTE disponible en todo lugar donde se realicen bloqueos nerviosos: saber dónde está es tan importante como saber la dosis"
+      },
+      {
+        "patologia": "Intoxicación grave por fármacos muy LIPÓFILOS refractaria (calcioantagonistas, betabloqueantes, antidepresivos tricíclicos, bupropión)",
+        "dosis": "Emulsión lipídica al 20%: 1,5 mL/kg en bolo y perfusión",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "nota": "Uso de RESCATE cuando las medidas convencionales han fracasado; la evidencia es de series de casos, no de ensayos"
+      },
+      {
+        "patologia": "Intoxicación por nitroprusiato con acumulación de cianuro",
+        "dosis": "Hidroxocobalamina 5 g IV, o tiosulfato sódico 12,5 g IV",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "El TIOSULFATO aporta azufre para que la rodanasa convierta el cianuro en tiocianato: actúa más lento y se usa como complemento"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la intoxicación por humo, la sospecha de cianuro se basa en tres datos: alteración de la conciencia, hipotensión y LACTATO ALTO. No hay prueba rápida, así que el antídoto se administra empíricamente.",
+      "titulacion": "Dosis fija, repetible una vez en el caso de la hidroxocobalamina.",
+      "duracion": "Dosis única o pocas dosis.",
+      "fin": "Tras la estabilización. En el rescate lipídico se mantiene la perfusión hasta la recuperación hemodinámica sostenida.",
+      "via": "Intravenosa.",
+      "monitorizacion": "Lactato, gasometría, hemodinámica y nivel de conciencia. Tras la emulsión lipídica, TRIGLICÉRIDOS y vigilancia de pancreatitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "La hidroxocobalamina se distribuye ampliamente y tiñe de rojo todos los fluidos corporales.",
+      "metabolismo": "Formación de cianocobalamina.",
+      "eliminacion": "RENAL, con orina de color rojo intenso durante días.",
+      "vida_media": "Hidroxocobalamina, unas 26 horas.",
+      "ajuste_renal": "Sin ajuste en una situación de urgencia vital.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "PRUEBAS DE LABORATORIO (hidroxocobalamina)",
+          "efecto": "El color ROJO INTENSO interfiere con los métodos colorimétricos: falsea la bilirrubina, la creatinina, las transaminasas, el magnesio y la HEMOGLOBINA, y además impide la lectura de la PULSIOXIMETRÍA y la cooximetría",
+          "gravedad": "alta",
+          "manejo": "Hay que EXTRAER las analíticas ANTES de administrarla y avisar al laboratorio; después, muchos parámetros serán ilegibles durante horas"
+        },
+        {
+          "con": "HEMODIÁLISIS (hidroxocobalamina)",
+          "efecto": "El color rojo puede activar los detectores de fuga de sangre y detener la máquina",
+          "gravedad": "media",
+          "manejo": "Avisar a nefrología; es un problema práctico real"
+        },
+        {
+          "con": "TIOSULFATO sódico",
+          "efecto": "Efecto complementario sobre el cianuro por una vía distinta",
+          "gravedad": "baja",
+          "manejo": "Se pueden asociar, pero por vías SEPARADAS (son incompatibles en la misma línea)"
+        },
+        {
+          "con": "NITRITOS (antídoto clásico del cianuro)",
+          "efecto": "Producen METAHEMOGLOBINA, que compite por el oxígeno",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS en el intoxicado por humo, que ya tiene carboxihemoglobina: sumar metahemoglobina puede ser letal. La hidroxocobalamina no tiene ese problema"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "COLORACIÓN ROJA intensa de la piel, las mucosas y la ORINA durante varios días, espectacular pero inofensiva",
+        "Hipertensión transitoria",
+        "Exantema acneiforme días después",
+        "Náuseas y cefalea"
+      ],
+      "graves": [
+        "Reacciones anafilactoides (raras)",
+        "Insuficiencia renal por cristales de oxalato con la hidroxocobalamina (descrita, infrecuente)",
+        "EMULSIÓN LIPÍDICA: hipertrigliceridemia, PANCREATITIS, embolia grasa, síndrome de distrés respiratorio e interferencia con las máquinas de laboratorio y con la oxigenación por membrana extracorpórea"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "Alergia al huevo o a la soja para la emulsión lipídica (relativa en una urgencia vital)",
+      "Ausencia de indicación real: ninguno de los dos es inocuo"
+    ],
+    "perlas": [
+      "En el INCENDIADO hay que pensar SIEMPRE en DOS tóxicos: monóxido de carbono y CIANURO. Los plásticos, la lana y la seda liberan cianuro al arder, y su presencia se sospecha por la tríada de alteración de la conciencia, hipotensión y LACTATO ALTO. Un lactato superior a 8-10 mmol/L en un incendiado es prácticamente diagnóstico.",
+      "Los NITRITOS, que eran el antídoto clásico del cianuro, están CONTRAINDICADOS en el incendiado: producen metahemoglobina, y un paciente que ya tiene carboxihemoglobina no puede permitirse perder más capacidad de transportar oxígeno. La hidroxocobalamina resolvió ese dilema.",
+      "Hay que EXTRAER LAS ANALÍTICAS ANTES de administrar hidroxocobalamina: el color rojo intenso interfiere con casi todos los métodos colorimétricos y deja la bioquímica ilegible durante horas, además de inutilizar la pulsioximetría y la cooximetría.",
+      "La ORINA ROJA dura días y asusta al paciente, a la familia y al personal de planta si nadie lo ha advertido. Es completamente inofensiva y conviene dejarlo escrito en el informe.",
+      "La EMULSIÓN LIPÍDICA debe estar FÍSICAMENTE presente allí donde se hacen bloqueos con anestésicos locales. En una toxicidad sistémica, saber dónde está el frasco y cuál es la dosis del bolo es la diferencia entre una reanimación exitosa y una parada refractaria.",
+      "El rescate lipídico funciona por un principio sencillo: crear un compartimento graso en el plasma que ARRASTRE al fármaco lipófilo fuera del corazón y del cerebro. De ahí se deduce solo en qué intoxicaciones tiene sentido: las de fármacos MUY lipófilos.",
+      "En la reanimación de una toxicidad por anestésicos locales hay otro detalle contraintuitivo: se reduce la dosis de ADRENALINA a menos de 1 microgramo/kg, porque las dosis altas empeoran la eficacia del rescate lipídico.",
+      "Ninguno de los dos es inocuo: la emulsión lipídica puede producir pancreatitis, distrés e interferir con la oxigenación por membrana extracorpórea, y la hidroxocobalamina cuesta cara y ciega el laboratorio. Se administran cuando hay indicación, no por si acaso."
+    ],
+    "embarazo_lactancia": "Se emplean sin restricción ante una intoxicación con riesgo vital para la madre. La hidroxocobalamina es una forma de vitamina B12 y se considera segura.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; guías ASRA sobre toxicidad por anestésicos locales; protocolos de manejo del síndrome de inhalación de humo"
+  }
+]

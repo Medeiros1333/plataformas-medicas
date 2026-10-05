@@ -1,0 +1,284 @@
+[
+  {
+    "id": "PED-REU-morfina",
+    "nombre": "Morfina (analgesia opioide en pediatría)",
+    "sinonimos": [
+      "Opioides en el niño"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico opioide",
+    "subclase": "Agonista puro del receptor mu",
+    "mecanismo": "Agonista del receptor mu opioide en el asta posterior de la médula y en las vías descendentes, con el mismo mecanismo que en el adulto. Lo que cambia en el niño no es el receptor sino todo lo que rodea al fármaco: el recién nacido y el lactante pequeño tienen inmadura la GLUCURONOCONJUGACIÓN hepática, que es la vía que metaboliza la morfina, y también inmaduro el control central de la respiración, de modo que la misma dosis por kilo produce concentraciones más altas y una depresión respiratoria más probable. A eso se añade que la barrera hematoencefálica del neonato es más permeable. Por eso la morfina en pediatría se dosifica por peso pero se vigila por edad.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,2-0,4 mg/kg cada 4 horas por vía oral; 0,05-0,1 mg/kg cada 4 horas por vía intravenosa lenta",
+    "dosis_maxima": "Sin techo definido en el dolor oncológico (se titula por efecto); en el dolor agudo, no superar la dosis del adulto: 10 mg por dosis intravenosa",
+    "presentaciones": [
+      "Solución oral de 2 mg/mL y 20 mg/mL (¡concentraciones muy distintas: fuente clásica de error de 10 veces!)",
+      "Comprimidos de liberación inmediata y retardada",
+      "Ampollas de 10 mg/mL para dilución"
+    ],
+    "edad_minima": "Sin edad mínima: se usa desde el recién nacido, incluido el prematuro, con dosis reducidas y monitorización",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido y menor de 3 meses",
+        "ajuste": "Dosis reducida a un TERCIO o la MITAD (0,02-0,05 mg/kg IV) y siempre con monitorización continua de la saturación: el aclaramiento es una fracción del adulto y no madura hasta los 6 meses"
+      },
+      {
+        "franja": "Lactante de 3-12 meses",
+        "ajuste": "El aclaramiento se acerca al del adulto; dosis habituales por kilo, pero con vigilancia estrecha en el domicilio"
+      },
+      {
+        "franja": "Niño de 1-12 años",
+        "ajuste": "Dosis plenas por kilo. Es la franja en que la analgesia se infradosifica con más frecuencia por miedo infundado"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Dosis de adulto sin superar el máximo del adulto aunque el peso lo permita; valorar además el riesgo de uso indebido"
+      }
+    ],
+    "peculiaridad_pediatrica": "La particularidad no es farmacológica sino de SEGURIDAD DEL SISTEMA, y va en dos direcciones opuestas. Por un lado, el dolor del niño se infratrata de forma sistemática: el lactante que no verbaliza se considera con menos dolor, y el miedo a la depresión respiratoria lleva a dosis insuficientes en quemaduras, fracturas y postoperatorios. Por otro, los opioides de metabolismo dependiente del CYP2D6 (CODEÍNA y TRAMADOL) están CONTRAINDICADOS en el niño porque el metabolizador ultrarrápido convierte una dosis normal en una sobredosis de morfina, y hubo muertes por depresión respiratoria en niños tras amigdalectomía. La consecuencia práctica es paradójica y hay que tenerla clara: en pediatría se usa la morfina, cuyo efecto es predecible, y se prohíben los llamados opioides débiles, cuyo efecto no lo es. A ello se suma un riesgo puramente doméstico: la solución oral existe en dos concentraciones que se diferencian en un factor de diez, y el error de dispensación o de administración en casa es una de las causas descritas de intoxicación grave.",
+    "indicaciones": [
+      {
+        "patologia": "Dolor agudo intenso (fractura, quemadura, postoperatorio, drepanocitosis)",
+        "dosis": "0,05-0,1 mg/kg IV lenta, repetible cada 10-15 minutos hasta el control",
+        "posologia": "Titulación por bolos hasta la analgesia",
+        "via": "IV",
+        "dosis_objetivo": "Escala de dolor adecuada a la edad por debajo del umbral pactado, manteniendo al niño despierto y con frecuencia respiratoria normal",
+        "nota": "La crisis vasooclusiva de la drepanocitosis es una urgencia analgésica: la demora en la primera dosis es un indicador de calidad asistencial"
+      },
+      {
+        "patologia": "Dolor oncológico y cuidados paliativos pediátricos",
+        "dosis": "0,2-0,4 mg/kg cada 4 horas VO, ajustando al alza sin techo",
+        "posologia": "Cada 4 horas pautada, más dosis de rescate",
+        "via": "VO",
+        "nota": "Se pauta a horas fijas, no a demanda, con rescates de un sexto de la dosis diaria total"
+      },
+      {
+        "patologia": "Analgesia y confort del niño ventilado en cuidados intensivos",
+        "dosis": "10-40 microgramos/kg/h en perfusión continua",
+        "posologia": "Perfusión continua titulada",
+        "via": "IV",
+        "dosis_objetivo": "Escala de confort dentro del objetivo pautado",
+        "nota": "Tras más de 5-7 días de perfusión aparece dependencia física: la retirada debe ser progresiva"
+      },
+      {
+        "patologia": "Disnea refractaria en el niño en situación de últimos días",
+        "dosis": "0,05-0,1 mg/kg cada 4 horas VO o SC",
+        "posologia": "Cada 4 horas",
+        "via": "SC",
+        "nota": "Indicación bien establecida en paliativos; la dosis para la disnea es menor que la analgésica"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el dolor agudo, titulación intravenosa por bolos pequeños con reevaluación frecuente, que es más segura y más rápida que una dosis única grande. Antes de administrarla hay que tener a mano NALOXONA, bolsa y mascarilla del tamaño adecuado y monitorización de la saturación.",
+      "titulacion": "Se sube hasta que el dolor cede o aparece sedación excesiva. La SEDACIÓN precede siempre a la depresión respiratoria: un niño despierto no está en riesgo inminente.",
+      "duracion": "En el dolor agudo, el tiempo estrictamente necesario, con reevaluación diaria y paso a analgésicos no opioides en cuanto sea posible. En el dolor oncológico, indefinida.",
+      "fin": "Tras más de una semana de tratamiento continuo, retirada PROGRESIVA (reducción del 10-20% diario) para evitar el síndrome de abstinencia, que en el lactante se manifiesta como irritabilidad, temblor, diarrea, sudoración y llanto inconsolable.",
+      "via": "Oral siempre que sea posible; intravenosa lenta y diluida en el dolor agudo intenso; subcutánea en paliativos. La vía INTRAMUSCULAR se evita: es dolorosa y su absorción es errática, y añadir dolor para tratar el dolor no tiene sentido en un niño.",
+      "monitorizacion": "Frecuencia respiratoria, saturación y nivel de sedación con escala validada. Vigilar el estreñimiento desde el primer día y pautar laxante."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 30-40% por metabolismo presistémico, muy variable en el lactante.",
+      "distribucion": "Poco lipófila. La barrera hematoencefálica del recién nacido es más permeable, lo que aumenta el efecto central a igual concentración plasmática.",
+      "metabolismo": "Hepático por GLUCURONOCONJUGACIÓN a morfina-6-glucurónido (ACTIVO y más potente que la morfina) y morfina-3-glucurónido. Esta vía está inmadura al nacer y no alcanza valores del adulto hasta los 6 meses.",
+      "eliminacion": "RENAL, en forma de glucurónidos activos.",
+      "vida_media": "2-4 horas en el niño mayor; hasta 6-10 horas en el recién nacido.",
+      "ajuste_renal": "Ajuste obligado: el metabolito activo morfina-6-glucurónido se ACUMULA en la insuficiencia renal y produce sedación y depresión respiratoria diferidas. En el niño con insuficiencia renal se prefiere fentanilo.",
+      "ajuste_hepatico": "Reducir la dosis y alargar el intervalo.",
+      "interacciones": [
+        {
+          "con": "BENZODIAZEPINAS (incluido el midazolam de las sedaciones para procedimientos)",
+          "efecto": "DEPRESIÓN RESPIRATORIA por suma de efectos, muy relevante en el niño pequeño",
+          "gravedad": "alta",
+          "manejo": "Si se combinan, reducir ambas dosis, monitorizar con pulsioximetría y tener preparados la vía aérea y la naloxona"
+        },
+        {
+          "con": "Otros depresores centrales (antihistamínicos sedantes, gabapentinoides, alcohol en el adolescente)",
+          "efecto": "Sedación y depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación no imprescindible"
+        },
+        {
+          "con": "Naloxona",
+          "efecto": "Revierte el efecto opioide, incluida la analgesia",
+          "gravedad": "baja",
+          "manejo": "Es el antídoto: 0,01 mg/kg IV, repetible, con vigilancia posterior por la posible renarcotización"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO, que no genera tolerancia y exige laxante desde el primer día",
+        "Náuseas, vómitos y prurito (el prurito es especialmente frecuente en el niño)",
+        "Somnolencia",
+        "Retención urinaria"
+      ],
+      "graves": [
+        "DEPRESIÓN RESPIRATORIA, más probable en el menor de 3 meses, en el exprematuro y en el niño con apneas obstructivas del sueño",
+        "Síndrome de ABSTINENCIA tras perfusiones prolongadas",
+        "Hipotensión por liberación de histamina con bolos rápidos",
+        "ERROR DE DOSIS por confusión entre las dos concentraciones de la solución oral"
+      ]
+    },
+    "contraindicaciones": [
+      "Depresión respiratoria no monitorizada",
+      "Íleo paralítico",
+      "Precaución máxima en el menor de 3 meses y en el exprematuro",
+      "Precaución en el SÍNDROME DE APNEA OBSTRUCTIVA DEL SUEÑO, sobre todo tras amigdalectomía: estos niños son mucho más sensibles a los opioides",
+      "CODEÍNA y TRAMADOL: contraindicados en el menor de 12 años y en el menor de 18 tras amigdalectomía o adenoidectomía"
+    ],
+    "perlas": [
+      "La regla que ordena toda la analgesia opioide pediátrica: en el niño se usa MORFINA y se prohíben la CODEÍNA y el TRAMADOL. Suena al revés de lo que dicta la intuición del escalón analgésico, y por eso hay que memorizarlo. La razón es el CYP2D6: el metabolizador ultrarrápido convierte la codeína en morfina a una velocidad imprevisible, y eso mató a niños tras amigdalectomías por apnea del sueño. Con la morfina se sabe exactamente qué se está administrando.",
+      "El niño con APNEA OBSTRUCTIVA DEL SUEÑO operado de amígdalas es el escenario de máximo riesgo: tiene la sensibilidad a los opioides aumentada, acaba de perder la indicación quirúrgica y se va a casa. Las dosis se reducen y la vigilancia se extiende.",
+      "El dolor pediátrico se INFRATRATA de forma sistemática. El lactante que no habla, el niño con discapacidad que no comunica y el niño que se queda quieto porque moverse le duele son los que más se pasan por alto. Hay escalas validadas para cada edad, y usarlas cambia la prescripción.",
+      "La SOLUCIÓN ORAL viene en 2 mg/mL y en 20 mg/mL. Es un factor de DIEZ, y el error se ha producido tanto en la farmacia como en casa. La prescripción debe indicar siempre miligramos y concentración, nunca mililitros a secas, y hay que hacer que el cuidador repita la dosis en voz alta.",
+      "La SEDACIÓN aparece antes que la depresión respiratoria. Vigilar el nivel de conciencia con una escala es más útil y más precoz que contar respiraciones, y permite actuar antes de que baje la saturación.",
+      "Tras más de 5-7 días de perfusión, el niño tiene dependencia FÍSICA (que no es adicción) y la retirada brusca produce un síndrome de abstinencia con irritabilidad, temblor, diarrea y llanto inconsolable, que en el lactante se confunde con dolor o con infección. Se retira reduciendo un 10-20% al día.",
+      "En la crisis vasooclusiva de la DREPANOCITOSIS el tiempo hasta la primera dosis de analgesia es un indicador de calidad. Estos niños suelen conocer bien su dolor y su dosis eficaz, y conviene escucharles.",
+      "En el niño con INSUFICIENCIA RENAL la morfina acumula metabolito activo y produce sedación diferida: la alternativa es el fentanilo, cuyos metabolitos son inactivos.",
+      "El laxante se prescribe el mismo día que el opioide. En el niño el estreñimiento opioide es especialmente mal tolerado y una causa frecuente de que la familia abandone la analgesia."
+    ],
+    "embarazo_lactancia": "En la adolescente embarazada, el uso mantenido produce síndrome de abstinencia neonatal. Durante la lactancia, la morfina se considera preferible a la codeína, que está desaconsejada por el mismo problema del metabolizador ultrarrápido; en cualquier caso hay que vigilar la somnolencia y las tomas del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; alertas de la AEMPS y la FDA sobre codeína y tramadol en pediatría; guías de dolor de la AEP"
+  },
+  {
+    "id": "PED-NEU-lamotrigina",
+    "nombre": "Lamotrigina (pediatría)",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Bloqueante de los canales de sodio dependientes de voltaje",
+    "vs_clase": [
+      "**Utilidad propia en las AUSENCIAS y en el síndrome de Lennox-Gastaut**, con buen perfil cognitivo.",
+      "**Titulación muy lenta por el riesgo de exantema**, mayor en niños que en adultos y con valproato.",
+      "Menos teratógena: preferible en adolescentes que pueden quedar embarazadas."
+    ],
+    "mecanismo": "Bloqueo uso-dependiente de los canales de sodio con reducción de la liberación de glutamato, igual que en el adulto. La diferencia pediátrica está en el metabolismo: la GLUCURONIDACIÓN por la UGT es más rápida en el niño que en el adulto, de modo que el niño aclara el fármaco antes y necesita dosis por kilo mayores. Al mismo tiempo, es en la edad pediátrica donde el riesgo de exantema grave es más alto, sobre todo cuando se asocia a valproato, que inhibe esa misma glucuronidación y duplica los niveles.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,3 mg/kg/día durante 2 semanas, 0,6 mg/kg/día 2 semanas más, y ascenso hasta 1-10 mg/kg/día según la medicación asociada",
+    "dosis_maxima": "200 mg al día en monoterapia; 400 mg al día con inductores enzimáticos; 200 mg al día asociada a valproato",
+    "presentaciones": [
+      "Comprimidos dispersables o masticables de 2, 5, 25, 50, 100 y 200 mg (imprescindibles para el ajuste por peso)",
+      "Comprimidos convencionales"
+    ],
+    "edad_minima": "Desde los 2 años como tratamiento asociado; desde los 13 años en monoterapia según ficha técnica, aunque se usa antes en unidades especializadas",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 2 años",
+        "ajuste": "Uso restringido a unidades de epilepsia; el riesgo cutáneo es máximo y los datos son limitados"
+      },
+      {
+        "franja": "2-12 años",
+        "ajuste": "Dosis por KILO más altas que en el adulto porque el niño glucuronida más deprisa. Con valproato asociado, 0,15 mg/kg/día de inicio, que puede obligar a dosis a días alternos"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Pauta del adulto. En la chica hay que anticipar la interacción con los ANTICONCEPTIVOS orales, que bajan los niveles hasta la mitad"
+      }
+    ],
+    "peculiaridad_pediatrica": "Dos rasgos separan la lamotrigina pediátrica de la del adulto. El primero es FARMACOCINÉTICO: el niño glucuronida más deprisa y necesita una dosis por kilo superior a la del adulto, de modo que trasladar la pauta adulta dividida por peso produce infradosificación y crisis. El segundo, y el que manda sobre todo lo demás, es el RIESGO CUTÁNEO: la incidencia de exantema grave, incluido el síndrome de Stevens-Johnson, es mayor en la edad pediátrica que en el adulto, y se multiplica con el valproato asociado y con un escalado rápido. Por eso las presentaciones dispersables de 2 y 5 mg no son una comodidad sino una condición de seguridad: sin ellas no se puede administrar la dosis inicial minúscula que el niño necesita, y el intento de fraccionar comprimidos grandes es una de las causas de escalado acelerado involuntario. A ello se añade un problema de continuidad muy pediátrico: la interrupción de más de 5 días por una gastroenteritis, un ingreso o un olvido en un cambio de cuidador obliga a REINICIAR todo el escalado, porque el riesgo cutáneo vuelve al punto de partida.",
+    "indicaciones": [
+      {
+        "patologia": "Epilepsia focal y generalizada del niño, como tratamiento asociado",
+        "dosis": "0,3 mg/kg/día de inicio, con ascenso quincenal hasta 1-10 mg/kg/día según la medicación concomitante",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Control de las crisis con la dosis mínima eficaz",
+        "nota": "El escalado quincenal no se acelera aunque las crisis persistan: se añade otro fármaco antes que precipitar la titulación"
+      },
+      {
+        "patologia": "Síndrome de LENNOX-GASTAUT",
+        "dosis": "Escalado hasta 1-5 mg/kg/día asociada a valproato, o hasta 5-15 mg/kg/día con inductores",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Es una de sus indicaciones pediátricas clásicas. Puede AGRAVAR las crisis mioclónicas"
+      },
+      {
+        "patologia": "Epilepsia de ausencias como alternativa",
+        "dosis": "Escalado hasta 1-10 mg/kg/día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Menos eficaz que la etosuximida y el valproato, pero opción razonable cuando estos no se toleran"
+      },
+      {
+        "patologia": "Epilepsia de la ADOLESCENTE en edad fértil",
+        "dosis": "Escalado hasta 100-400 mg al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Junto con el levetiracetam es la alternativa al valproato, que debe evitarse en la mujer en edad fértil"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis inicial calculada por peso y con presentación dispersable de baja dosis. Antes de empezar hay que revisar si el niño toma valproato o un inductor enzimático, porque la dosis de inicio cambia por un factor de dos en cada dirección.",
+      "titulacion": "Ascenso cada 2 semanas, sin excepciones. Explicar a la familia por escrito el calendario de subidas y los signos de alarma cutáneos.",
+      "duracion": "Prolongada, con reevaluación periódica de la indicación y del ajuste por CRECIMIENTO: el niño gana peso y la dosis por kilo se queda corta sin que nadie la cambie.",
+      "fin": "Retirada gradual a lo largo de semanas. Si se interrumpe más de 5 días, se REINICIA el escalado desde el principio.",
+      "via": "Oral, con comprimidos dispersables en agua o zumo en el niño pequeño.",
+      "monitorizacion": "Clínica: EXANTEMA, fiebre, afectación de mucosas y malestar general, sobre todo en las 8 primeras semanas. Revisión periódica del peso para reajustar la dosis. Niveles solo en casos concretos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Prácticamente completa, sin influencia de los alimentos.",
+      "distribucion": "Unión a proteínas del 55%.",
+      "metabolismo": "GLUCURONIDACIÓN hepática, MÁS RÁPIDA en el niño que en el adulto.",
+      "eliminacion": "Renal en forma de glucurónido.",
+      "vida_media": "Más corta que en el adulto; se alarga mucho con valproato y se acorta con inductores.",
+      "ajuste_renal": "Reducción modesta en la insuficiencia grave.",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "VALPROATO",
+          "efecto": "Duplica los niveles de lamotrigina y multiplica el riesgo de EXANTEMA GRAVE",
+          "gravedad": "alta",
+          "manejo": "Dosis de inicio de 0,15 mg/kg/día, escalado aún más lento y advertencia explícita a la familia. Es la combinación pediátrica de mayor riesgo cutáneo"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital y primidona",
+          "efecto": "Inducen la glucuronidación y reducen los niveles a la mitad",
+          "gravedad": "alta",
+          "manejo": "Doblar aproximadamente la dosis objetivo"
+        },
+        {
+          "con": "ANTICONCEPTIVOS ORALES en la adolescente",
+          "efecto": "Bajan los niveles hasta un 50%, con rebote tóxico en la semana de descanso",
+          "gravedad": "alta",
+          "manejo": "Anticiparlo al prescribir el anticonceptivo; valorar pauta continua y ajustar dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "EXANTEMA cutáneo, más frecuente que en el adulto",
+        "Cefalea, mareo y somnolencia",
+        "Náuseas",
+        "Insomnio e irritabilidad (es activadora)"
+      ],
+      "graves": [
+        "SÍNDROME DE STEVENS-JOHNSON y necrólisis epidérmica tóxica, con incidencia pediátrica superior a la del adulto",
+        "Síndrome DRESS",
+        "Linfohistiocitosis hemofagocítica",
+        "Agravamiento de las crisis mioclónicas",
+        "Crisis por reinicio incorrecto tras una interrupción"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de exantema por lamotrigina",
+      "Hipersensibilidad conocida",
+      "Uso sin ajustar la dosis inicial cuando el niño toma valproato"
+    ],
+    "perlas": [
+      "En pediatría la lamotrigina se resume en una frase: DESPACIO, y más despacio todavía si hay valproato. El riesgo de exantema grave es mayor en el niño que en el adulto y depende directamente de la dosis inicial y de la velocidad del ascenso, que son las dos únicas variables que el médico controla por completo.",
+      "El niño necesita MÁS dosis por kilo que el adulto porque glucuronida más deprisa. Aplicar la pauta adulta dividida por el peso deja al niño infratratado, y la falta de eficacia se atribuye equivocadamente al fármaco.",
+      "Las presentaciones DISPERSABLES de 2 y 5 mg son una condición de seguridad, no una comodidad: sin ellas no se puede dar la dosis inicial correcta, y partir comprimidos grandes acaba en un escalado más rápido del previsto.",
+      "Si el niño deja de tomarla más de 5 días (una gastroenteritis, un ingreso, un olvido en un fin de semana con otro cuidador), hay que REINICIAR el escalado desde el principio. Es una instrucción que debe estar por escrito en el informe y que las familias agradecen entender.",
+      "Ante cualquier exantema en las primeras 8 semanas se suspende y se consulta. Los signos que obligan a acudir a urgencias son la afectación de mucosas (boca, ojos, genitales), la fiebre, las ampollas y el malestar general.",
+      "Hay que REVISAR LA DOSIS CON EL PESO. Un niño que crece se queda progresivamente infradosificado sin que cambie nada más, y las crisis reaparecen meses después de un ajuste que fue correcto en su momento.",
+      "En la ADOLESCENTE, el anticonceptivo oral baja los niveles a la mitad. Es una interacción bidireccional que hay que anticipar al prescribirlo y al retirarlo, y es responsable de crisis que aparecen justo cuando el tratamiento parecía estable."
+    ],
+    "embarazo_lactancia": "Es, junto con el levetiracetam, la opción preferente en la adolescente y la mujer en edad fértil por su bajo potencial teratógeno frente al valproato. Requiere ácido fólico y control de niveles durante la gestación, con reajuste rápido tras el parto. Pasa a la leche en cantidad apreciable: la lactancia es posible vigilando somnolencia y exantema en el lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; fichas técnicas pediátricas y guías de epilepsia infantil de la AEP"
+  }
+]

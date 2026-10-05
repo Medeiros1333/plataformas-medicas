@@ -1,0 +1,709 @@
+[
+  {
+    "id": "HEM-rivaroxaban",
+    "nombre": "Rivaroxabán",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Anticoagulante oral de acción directa (ACOD)",
+    "subclase": "Inhibidor directo del factor Xa, dosis única diaria",
+    "vs_clase": [
+      "**Dosis ÚNICA DIARIA en la fibrilación auricular** (20 mg; 15 mg con FG 15-49), frente a las dos tomas de apixabán y dabigatrán.",
+      "**Las dosis de 15 y 20 mg deben tomarse CON COMIDA**: en ayunas su absorción cae casi un 40%.",
+      "**Pauta de inicio en la ETV sin heparina previa**: 15 mg cada 12 h durante 21 días y después 20 mg/día (apixabán también; dabigatrán y edoxabán necesitan 5 días de heparina).",
+      "**Única «dosis vascular» del grupo**: 2,5 mg cada 12 h con AAS en cardiopatía isquémica o arteriopatía periférica estable (COMPASS).",
+      "**Más hemorragia digestiva** que apixabán en estudios observacionales."
+    ],
+    "mecanismo": "Inhibe de forma directa, reversible y selectiva el factor Xa libre y unido al complejo protrombinasa, sin necesitar antitrombina. Reduce la generación de trombina. Efecto predecible sin monitorización analítica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Fibrilación auricular no valvular (prevención de ictus y embolia sistémica)",
+        "dosis": "20 mg (15 mg si FG 15-49)",
+        "posologia": "Cada 24 h, con la cena",
+        "via": "VO",
+        "nota": "No en estenosis mitral moderada-grave ni prótesis mecánicas"
+      },
+      {
+        "patologia": "Trombosis venosa profunda y tromboembolia pulmonar: tratamiento",
+        "dosis": "15 mg cada 12 h × 21 días; después 20 mg",
+        "posologia": "Cada 12 h → cada 24 h, con comida",
+        "via": "VO",
+        "nota": "Mínimo 3 meses; prevención extendida: 10-20 mg/día"
+      },
+      {
+        "patologia": "Profilaxis tromboembólica tras artroplastia de cadera o rodilla",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h (6-10 h tras la cirugía)",
+        "via": "VO",
+        "nota": "Rodilla 2 semanas; cadera 5 semanas"
+      },
+      {
+        "patologia": "Enfermedad coronaria o arteriopatía periférica estables (alto riesgo isquémico)",
+        "dosis": "2,5 mg (con AAS 100 mg)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "«Dosis vascular»; no es dosis anticoagulante"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal (Cockcroft-Gault), hemograma y función hepática basales. En la ETV, empezar directamente con 15 mg cada 12 h.",
+      "titulacion": "No se titula; la dosis depende de la indicación y del FG.",
+      "duracion": "Indefinida en FA; 3-6 meses (o indefinida si ETV no provocada o recurrente) en ETV.",
+      "fin": "Suspensión preoperatoria: 24 h (riesgo hemorrágico bajo) o 48 h (alto), más si FG <30. No precisa terapia puente.",
+      "via": "VO, con comida (15-20 mg).",
+      "monitorizacion": "Función renal al menos anual (cada 3-6 meses si FG <60 o >75 años), hemograma, adherencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Biodisponibilidad del 66% en ayunas y ~100% con comida** (dosis de 15-20 mg).",
+      "distribucion": "Unión a proteínas del 92-95% (no dializable).",
+      "metabolismo": "Hepático por CYP3A4 y CYP2J2; sustrato de la glicoproteína P.",
+      "eliminacion": "Renal (33% inalterado) y fecal.",
+      "vida_media": "5-9 h (11-13 h en ancianos).",
+      "ajuste_renal": "FA: 15 mg/día con FG 15-49. ETV: igual dosis, valorar 15 mg en la fase de mantenimiento si alto riesgo hemorrágico. **No usar con FG <15.**",
+      "ajuste_hepatico": "Contraindicado en hepatopatía con coagulopatía (Child-Pugh B-C).",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 y de la P-gp (ketoconazol, itraconazol, voriconazol, posaconazol, ritonavir)",
+          "efecto": "Aumento marcado de sus niveles y del sangrado",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Inductores potentes (rifampicina, carbamazepina, fenitoína, hipérico)",
+          "efecto": "Pérdida de eficacia: trombosis",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar HBPM o AVK"
+        },
+        {
+          "con": "Antiagregantes y AINE",
+          "efecto": "Aumento del riesgo hemorrágico",
+          "gravedad": "alta",
+          "manejo": "Limitar la duración de la doble/triple terapia; IBP como protección"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragias menores (epistaxis, gingivorragia, hematuria)",
+        "Anemia",
+        "Náuseas"
+      ],
+      "graves": [
+        "Hemorragia mayor, incluida la digestiva (más que apixabán)",
+        "Hemorragia intracraneal (menos que con AVK)",
+        "Hepatotoxicidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa clínicamente significativa",
+      "**Prótesis valvulares mecánicas y estenosis mitral moderada-grave**",
+      "FG <15 mL/min",
+      "Hepatopatía con coagulopatía",
+      "Embarazo y lactancia",
+      "**Síndrome antifosfolípido triple positivo** (más trombosis que con AVK)"
+    ],
+    "perlas": [
+      "**«Rivaroxabán en ayunas es rivaroxabán infradosificado»**: preguntar siempre con qué comida lo toma.",
+      "Reversión: andexanet alfa o, si no está disponible, complejo protrombínico 50 UI/kg."
+    ],
+    "embarazo_lactancia": "Contraindicado. En la gestante se usa HBPM.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., caps. de fibrilación auricular y tromboembolia venosa"
+  },
+  {
+    "id": "HEM-edoxaban",
+    "nombre": "Edoxabán",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante oral de acción directa (ACOD)",
+    "subclase": "Inhibidor directo del factor Xa, dosis única diaria",
+    "vs_clase": [
+      "**Dosis única diaria (60 mg) con reducción a 30 mg si se cumple CUALQUIERA de estos criterios**: FG 15-50, peso ≤60 kg o tratamiento con inhibidores de la P-gp (ciclosporina, dronedarona, eritromicina, ketoconazol).",
+      "**Paradoja renal: es MENOS eficaz con FG >95 mL/min** (más ictus que warfarina en ese subgrupo del ENGAGE-AF): no es de elección en hiperfiltración.",
+      "**En la ETV necesita al menos 5 días de heparina parenteral previa** (como dabigatrán), a diferencia de apixabán y rivaroxabán.",
+      "**Apenas metabolizado por CYP3A4**: pocas interacciones por citocromo; se toma con o sin comida."
+    ],
+    "mecanismo": "Inhibidor directo, selectivo y reversible del factor Xa, independiente de la antitrombina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Fibrilación auricular no valvular",
+        "dosis": "60 mg (30 mg si FG 15-50, peso ≤60 kg o inhibidor de P-gp)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Evitar si FG >95 mL/min"
+      },
+      {
+        "patologia": "Trombosis venosa profunda y tromboembolia pulmonar",
+        "dosis": "60 mg (30 mg con los mismos criterios)",
+        "posologia": "Cada 24 h, tras ≥5 días de HBPM",
+        "via": "VO",
+        "nota": "Mínimo 3 meses; útil en la ETV asociada a cáncer (no gastrointestinal o genitourinario)"
+      }
+    ],
+    "esquema": {
+      "inicio": "FG, peso y medicación concomitante para elegir 60 o 30 mg. En ETV, 5-10 días de HBPM antes.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida en FA; según la causa en ETV.",
+      "fin": "Suspender 24 h antes de cirugía de bajo riesgo hemorrágico y 48 h antes de alto riesgo.",
+      "via": "VO, con o sin alimentos.",
+      "monitorizacion": "FG y peso al menos anuales; reevaluar la dosis si cambian."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 62%.",
+      "distribucion": "Unión a proteínas del 55%.",
+      "metabolismo": "**Mínimo por CYP3A4 (<10%)**; sustrato de la glicoproteína P.",
+      "eliminacion": "**Renal (50%)** y biliar.",
+      "vida_media": "10-14 h.",
+      "ajuste_renal": "**FG 15-50: 30 mg. FG <15: no usar. FG >95: menos eficaz, evitar en FA.**",
+      "ajuste_hepatico": "Contraindicado en hepatopatía con coagulopatía.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de la P-gp (ciclosporina, dronedarona, eritromicina, ketoconazol)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "alta",
+          "manejo": "**Reducir a 30 mg/día**"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce sus niveles a la mitad",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Antiagregantes, AINE, ISRS",
+          "efecto": "Más sangrado",
+          "gravedad": "alta",
+          "manejo": "Limitar la combinación y proteger con IBP"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragias menores",
+        "Anemia",
+        "Alteración de pruebas hepáticas"
+      ],
+      "graves": [
+        "Hemorragia mayor y digestiva",
+        "Hemorragia intracraneal (menos que con AVK)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa",
+      "Prótesis valvulares mecánicas y estenosis mitral moderada-grave",
+      "FG <15 mL/min",
+      "Hepatopatía con coagulopatía",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Revisar los tres criterios de reducción (FG, peso, P-gp)**: el error más frecuente con edoxabán es mantener 60 mg en una anciana de 55 kg.",
+      "Reversión: andexanet alfa (uso fuera de ficha) o complejo protrombínico."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de fibrilación auricular"
+  },
+  {
+    "id": "HEM-dabigatran",
+    "nombre": "Dabigatrán",
+    "sinonimos": [
+      "Dabigatrán etexilato"
+    ],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante oral de acción directa (ACOD)",
+    "subclase": "Inhibidor directo de la TROMBINA (factor IIa)",
+    "vs_clase": [
+      "**El único ACOD que inhibe la TROMBINA**; los demás inhiben el factor Xa.",
+      "**Tiene ANTÍDOTO ESPECÍFICO y de efecto inmediato: idarucizumab** (5 g IV). Además es **dializable**.",
+      "**Eliminación RENAL del 80%: contraindicado con FG <30** y el más sensible al deterioro renal del grupo.",
+      "**Las cápsulas NO se abren ni se mastican** (la biodisponibilidad aumenta un 75%: sangrado); tampoco se sacan del blíster hasta la toma (es higroscópico).",
+      "**Dispepsia en hasta el 10%** (por el ácido tartárico de la cápsula) y más hemorragia digestiva con 150 mg.",
+      "**150 mg cada 12 h redujo el ictus isquémico más que warfarina** (RE-LY); 110 mg en ≥80 años o con verapamilo."
+    ],
+    "mecanismo": "Profármaco que se convierte en dabigatrán, inhibidor directo, competitivo y reversible de la trombina libre y unida al coágulo. Bloquea la conversión de fibrinógeno en fibrina y la activación plaquetaria inducida por trombina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Fibrilación auricular no valvular",
+        "dosis": "150 mg (110 mg si ≥80 años, verapamilo o alto riesgo hemorrágico)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Contraindicado con FG <30"
+      },
+      {
+        "patologia": "Trombosis venosa profunda y tromboembolia pulmonar",
+        "dosis": "150 mg",
+        "posologia": "Cada 12 h, tras ≥5 días de heparina parenteral",
+        "via": "VO",
+        "nota": "Mínimo 3 meses"
+      },
+      {
+        "patologia": "Profilaxis tromboembólica tras artroplastia de cadera o rodilla",
+        "dosis": "110 mg el día 1, después 220 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Rodilla 10 días; cadera 28-35 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "FG (Cockcroft-Gault) obligatorio antes de iniciar. Elegir 150 o 110 mg según edad, FG, interacciones y riesgo hemorrágico.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida en FA; según la causa en ETV.",
+      "fin": "**Suspensión preoperatoria según FG**: FG ≥80: 24-48 h; FG 50-80: 36-72 h; FG 30-50: 48-96 h (según riesgo hemorrágico).",
+      "via": "VO, cápsula entera con agua.",
+      "monitorizacion": "**FG al menos anual y cada 6 meses si FG 30-60 o ≥75 años**; tiempo de trombina diluido si se necesita confirmar efecto."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad baja (6,5%), que **sube un 75% si se abre la cápsula**.",
+      "distribucion": "Unión a proteínas del 35%: **dializable**.",
+      "metabolismo": "No por CYP450; el profármaco es sustrato de la glicoproteína P.",
+      "eliminacion": "**Renal (80%).**",
+      "vida_media": "12-17 h (hasta 28 h con FG <30).",
+      "ajuste_renal": "FG 30-50: valorar 110 mg cada 12 h si alto riesgo hemorrágico. **FG <30: contraindicado.**",
+      "ajuste_hepatico": "Evitar si transaminasas >2 veces el límite normal.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, itraconazol, ciclosporina, dronedarona, glecaprevir/pibrentasvir (inhibidores potentes de la P-gp)",
+          "efecto": "Elevación marcada de sus niveles",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Verapamilo, amiodarona, claritromicina, ticagrelor",
+          "efecto": "Aumento moderado de sus niveles",
+          "gravedad": "alta",
+          "manejo": "Verapamilo: 110 mg cada 12 h; vigilancia clínica con los demás"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, hipérico",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dispepsia y dolor epigástrico**",
+        "Hemorragias menores"
+      ],
+      "graves": [
+        "**Hemorragia digestiva** (más con 150 mg que con warfarina)",
+        "Acumulación con hemorragia grave en el fracaso renal agudo",
+        "Hemorragia intracraneal (menos que con warfarina)"
+      ]
+    },
+    "contraindicaciones": [
+      "**FG <30 mL/min**",
+      "Hemorragia activa",
+      "**Prótesis valvular mecánica** (más trombosis y sangrado en RE-ALIGN)",
+      "Uso con inhibidores potentes de la P-gp",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Ante una hemorragia grave o cirugía urgente: idarucizumab 5 g IV revierte el efecto en minutos.**",
+      "**Un paciente con dabigatrán y gastroenteritis o deshidratación puede acumularlo en días**: suspender y medir la creatinina.",
+      "No dispensar en pastilleros semanales: la cápsula se degrada fuera del blíster."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de fibrilación auricular"
+  },
+  {
+    "id": "HEM-warfarina",
+    "nombre": "Warfarina",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante oral antagonista de la vitamina K",
+    "subclase": "Cumarínico de vida media larga",
+    "vs_clase": [
+      "**Vida media LARGA (36-42 h) frente a la del acenocumarol (8-11 h)**: INR más estable entre tomas y frente a olvidos, pero tarda más en alcanzar el rango y en desaparecer al suspender (5 días).",
+      "**Es el AVK de referencia internacional**: la mayoría de los ensayos y algoritmos de dosificación (incluidos los farmacogenéticos CYP2C9/VKORC1) se basan en ella. En España se usa sobre todo acenocumarol.",
+      "**Dosis en mg muy superiores a las del acenocumarol** (≈ 1 mg de acenocumarol por cada 2-2,5 mg de warfarina): cuidado en los cambios.",
+      "**Metabolismo por CYP2C9 (enantiómero S)**: inhibidores como amiodarona, fluconazol, metronidazol o cotrimoxazol disparan el INR."
+    ],
+    "mecanismo": "Inhibe la vitamina K epóxido reductasa (VKORC1): impide la carboxilación de los factores II, VII, IX y X y de las proteínas C y S. **El efecto antitrombótico completo tarda 5-7 días** (vida media de la protrombina); al principio cae antes la proteína C, lo que crea un estado protrombótico transitorio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prótesis valvular mecánica",
+        "dosis": "Dosis individualizada (habitualmente 2-10 mg)",
+        "posologia": "Cada 24 h, a la misma hora",
+        "via": "VO",
+        "dosis_objetivo": "INR 2,5-3,5 (mitral o con factores de riesgo) o 2,0-3,0 (aórtica sin factores de riesgo)",
+        "nota": "Los ACOD están contraindicados en esta indicación"
+      },
+      {
+        "patologia": "Fibrilación auricular con estenosis mitral moderada-grave, y FA cuando los ACOD no son posibles",
+        "dosis": "Dosis individualizada",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "dosis_objetivo": "INR 2,0-3,0"
+      },
+      {
+        "patologia": "Tromboembolia venosa y síndrome antifosfolípido",
+        "dosis": "Dosis individualizada",
+        "posologia": "Cada 24 h, solapada con heparina ≥5 días y hasta INR ≥2 dos días consecutivos",
+        "via": "VO",
+        "dosis_objetivo": "INR 2,0-3,0"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/día (2,5-5 mg en ancianos, desnutridos, hepatópatas o con interacciones). **Solapar con heparina al menos 5 días** y hasta INR en rango 24 h.",
+      "titulacion": "INR a los 3-5 días, luego semanal hasta estabilizar; ajustar la dosis semanal total un 10-20%.",
+      "duracion": "Indefinida en prótesis mecánicas y FA; 3-6 meses o indefinida en ETV.",
+      "fin": "Suspender 5 días antes de cirugía (INR <1,5). Terapia puente con HBPM solo en alto riesgo trombótico (prótesis mitral mecánica, ictus reciente).",
+      "via": "VO.",
+      "monitorizacion": "INR cada 4 semanas en fase estable (hasta 12 semanas si muy estable) y siempre al iniciar o retirar otro fármaco."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a albúmina del 99%.",
+      "metabolismo": "**Hepático: CYP2C9 (S-warfarina, la más potente)** y CYP3A4/1A2 (R-warfarina). Polimorfismos de CYP2C9 y VKORC1 explican gran parte de la variabilidad de dosis.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "**36-42 h.**",
+      "ajuste_renal": "No precisa ajuste de dosis, pero el INR es más inestable en la ERC avanzada.",
+      "ajuste_hepatico": "Mayor sensibilidad: iniciar con dosis bajas.",
+      "interacciones": [
+        {
+          "con": "Amiodarona, fluconazol, metronidazol, cotrimoxazol (inhibidores del CYP2C9)",
+          "efecto": "**Elevación marcada del INR y hemorragia**",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis un 25-50% y controlar INR en 3-5 días"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, hipérico",
+          "efecto": "Caída del INR",
+          "gravedad": "alta",
+          "manejo": "Aumentar dosis con INR frecuente; reajustar al retirar el inductor"
+        },
+        {
+          "con": "AINE, antiagregantes, ISRS",
+          "efecto": "Más sangrado sin cambiar el INR",
+          "gravedad": "alta",
+          "manejo": "Evitar AINE; protección gástrica"
+        },
+        {
+          "con": "Cambios en la ingesta de vitamina K y alcohol",
+          "efecto": "Variación del INR",
+          "gravedad": "media",
+          "manejo": "Dieta estable, no restrictiva"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hemorragias menores",
+        "Equimosis",
+        "Alopecia"
+      ],
+      "graves": [
+        "Hemorragia mayor e intracraneal",
+        "**Necrosis cutánea** al inicio (déficit de proteína C) sin solapamiento con heparina",
+        "Calcifilaxis y síndrome de los dedos morados (raros)",
+        "Embriopatía warfarínica (semanas 6-12)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa o diátesis hemorrágica",
+      "Embarazo (1.er trimestre y final)",
+      "Hipertensión grave no controlada",
+      "Mala adherencia o imposibilidad de control del INR"
+    ],
+    "perlas": [
+      "**Reversión**: INR alto sin sangrado: suspender y vitamina K oral 1-2,5 mg; hemorragia grave: vitamina K 10 mg IV + complejo protrombínico.",
+      "**Compatible con la lactancia** (no pasa a la leche en cantidad relevante)."
+    ],
+    "embarazo_lactancia": "Teratógena (1.er trimestre) y hemorrágica fetal; en la gestante se usa HBPM (en prótesis mecánicas, protocolos específicos). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de tromboembolia venosa"
+  },
+  {
+    "id": "HEM-bemiparina",
+    "nombre": "Bemiparina",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante parenteral (heparinas y fondaparinux)",
+    "subclase": "Heparina de bajo peso molecular de segunda generación",
+    "vs_clase": [
+      "**La HBPM de menor peso molecular y mayor relación anti-Xa/anti-IIa (8:1)**, con la **vida media más larga del grupo (5-6 h)**.",
+      "**Dosis terapéutica en UNA sola inyección diaria (115 UI/kg/24 h)**, frente a enoxaparina, que en tratamiento suele pautarse cada 12 h.",
+      "**Profilaxis quirúrgica que puede iniciarse tras la cirugía (6 h después)**, sin dosis preoperatoria.",
+      "Desarrollada y muy utilizada en España; menos evidencia internacional que la enoxaparina."
+    ],
+    "mecanismo": "Potencia la antitrombina, con acción predominante sobre el factor Xa y menor sobre la trombina. Respuesta más predecible que la heparina no fraccionada, sin necesidad de controles de coagulación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tratamiento de la trombosis venosa profunda",
+        "dosis": "115 UI/kg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "5.000 UI (<50 kg), 7.500 UI (50-70 kg), 10.000 UI (>70 kg); hasta el paso a anticoagulante oral"
+      },
+      {
+        "patologia": "Profilaxis tromboembólica quirúrgica y médica",
+        "dosis": "2.500 UI (riesgo moderado) o 3.500 UI (riesgo alto)",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "En cirugía: 2 h antes o 6 h después de la intervención"
+      }
+    ],
+    "esquema": {
+      "inicio": "Peso, hemograma (plaquetas) y FG basales.",
+      "titulacion": "Dosis fija por peso; no se titula.",
+      "duracion": "Profilaxis: 7-10 días (hasta 4-5 semanas en cirugía ortopédica mayor u oncológica). Tratamiento: hasta anticoagulación oral eficaz o mínimo 3 meses si se mantiene como tratamiento.",
+      "fin": "Suspensión directa. Última dosis profiláctica 12 h y terapéutica 24 h antes de anestesia neuroaxial.",
+      "via": "SC.",
+      "monitorizacion": "Plaquetas al inicio y entre los días 5 y 14 si hay exposición previa a heparina; FG."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad SC del 96%.",
+      "distribucion": "Volumen de distribución similar al plasmático.",
+      "metabolismo": "Despolimerización hepática mínima.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "**5-6 h.**",
+      "ajuste_renal": "FG <30: reducir la dosis terapéutica (~85 UI/kg/día) y vigilar anti-Xa; profilaxis 2.500 UI.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Antiagregantes, AINE, otros anticoagulantes",
+          "efecto": "Más sangrado",
+          "gravedad": "alta",
+          "manejo": "Evitar combinaciones no imprescindibles"
+        },
+        {
+          "con": "IECA, ARA-II, ARM",
+          "efecto": "Hiperpotasemia (inhibición de aldosterona por heparinas)",
+          "gravedad": "media",
+          "manejo": "Control de potasio en tratamientos prolongados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hematoma en el punto de inyección",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Hemorragia mayor",
+        "Trombocitopenia inducida por heparina (menos que con HNF)",
+        "**Hematoma espinal con anestesia neuroaxial**",
+        "Osteoporosis con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de trombocitopenia inducida por heparina",
+      "Hemorragia activa",
+      "Endocarditis bacteriana aguda",
+      "Lesión o cirugía reciente del SNC, ojo u oído"
+    ],
+    "perlas": [
+      "**Una sola inyección al día también en dosis terapéutica**: ventaja práctica en el tratamiento domiciliario.",
+      "La protamina solo revierte parcialmente su efecto (~50%)."
+    ],
+    "embarazo_lactancia": "Las HBPM son el anticoagulante de elección en el embarazo (no atraviesan la placenta). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de tromboembolia venosa"
+  },
+  {
+    "id": "HEM-fondaparinux",
+    "nombre": "Fondaparinux",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante parenteral (heparinas y fondaparinux)",
+    "subclase": "Pentasacárido sintético, inhibidor indirecto selectivo del factor Xa",
+    "vs_clase": [
+      "**Sintético y sin cadena de heparina: NO produce trombocitopenia inducida por heparina** y no reacciona con sus anticuerpos (alternativa en pacientes con antecedente de TIH).",
+      "**Vida media de 17-21 h: UNA dosis diaria**, más larga que cualquier HBPM.",
+      "**Eliminación exclusivamente RENAL**: contraindicado con FG <20 (tratamiento <30).",
+      "**SIN ANTÍDOTO: la protamina no lo revierte.**",
+      "**En el SCASEST, 2,5 mg/día sangra menos que la enoxaparina con igual eficacia** (OASIS-5), pero **en la angioplastia exige un bolo adicional de HNF** (trombosis del catéter)."
+    ],
+    "mecanismo": "Pentasacárido que se une a la antitrombina y acelera unas 300 veces su inhibición del factor Xa. **No inhibe la trombina** (es demasiado corto para formar el puente antitrombina-trombina) ni se une al factor plaquetario 4.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis tromboembólica (cirugía ortopédica, abdominal, paciente médico)",
+        "dosis": "2,5 mg",
+        "posologia": "Cada 24 h (primera dosis 6 h tras la cirugía)",
+        "via": "SC",
+        "nota": "1,5 mg si FG 20-50"
+      },
+      {
+        "patologia": "Síndrome coronario agudo sin elevación del ST",
+        "dosis": "2,5 mg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "Hasta 8 días o el alta; bolo de HNF 85 UI/kg si se realiza angioplastia"
+      },
+      {
+        "patologia": "Tratamiento de TVP y TEP hemodinámicamente estable",
+        "dosis": "5 mg (<50 kg), 7,5 mg (50-100 kg), 10 mg (>100 kg)",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "Mínimo 5 días y hasta INR ≥2 con AVK"
+      },
+      {
+        "patologia": "Trombosis venosa superficial extensa (≥5 cm, a >3 cm de la unión safenofemoral)",
+        "dosis": "2,5 mg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "45 días (estudio CALISTO)"
+      }
+    ],
+    "esquema": {
+      "inicio": "FG y plaquetas basales. Dosis fija según indicación y peso.",
+      "titulacion": "No se titula.",
+      "duracion": "Profilaxis 5-9 días (hasta 4-5 semanas en fractura de cadera); SCASEST hasta 8 días; ETV hasta paso a oral; trombosis superficial 45 días.",
+      "fin": "Suspensión directa. **Por su vida media larga, suspender ≥36-42 h antes de anestesia neuroaxial.**",
+      "via": "SC.",
+      "monitorizacion": "FG; no requiere control de plaquetas por TIH."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad SC del 100%.",
+      "distribucion": "Unido a antitrombina.",
+      "metabolismo": "**No se metaboliza.**",
+      "eliminacion": "**Renal, inalterado.**",
+      "vida_media": "**17-21 h** (mucho más en la insuficiencia renal).",
+      "ajuste_renal": "Profilaxis: 1,5 mg con FG 20-50; **contraindicado con FG <20**. Tratamiento: evitar con FG <30.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antiagregantes, AINE y otros anticoagulantes",
+          "efecto": "Más sangrado",
+          "gravedad": "alta",
+          "manejo": "Evitar combinaciones innecesarias"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hematoma en el punto de inyección",
+        "Anemia"
+      ],
+      "graves": [
+        "Hemorragia mayor **sin antídoto específico**",
+        "Hematoma espinal con anestesia neuroaxial",
+        "Trombosis del catéter en angioplastia sin HNF adicional"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <20 mL/min (profilaxis) o <30 (tratamiento)",
+      "Hemorragia activa",
+      "Endocarditis bacteriana aguda",
+      "Peso <50 kg en profilaxis (riesgo de acumulación)"
+    ],
+    "perlas": [
+      "**En el paciente con antecedente de TIH que necesita profilaxis, fondaparinux es una opción lógica** (uso fuera de ficha en la TIH aguda).",
+      "Hemorragia grave con fondaparinux: no hay antídoto; medidas de soporte y valorar factor VIIa recombinante."
+    ],
+    "embarazo_lactancia": "Se usa en la gestante con alergia o TIH por heparinas; atraviesa mínimamente la placenta.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., caps. de síndrome coronario agudo y tromboembolia venosa"
+  },
+  {
+    "id": "HEM-hierro-carboximaltosa",
+    "nombre": "Hierro intravenoso (carboximaltosa férrica)",
+    "sinonimos": [
+      "Hierro sacarosa",
+      "Derisomaltosa férrica"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Hierro (hematínico)",
+    "subclase": "Hierro intravenoso de alta dosis en complejo estable",
+    "vs_clase": [
+      "**Repone en 1-2 infusiones de 15 min lo que el hierro oral tarda meses**: hasta 1.000 mg por dosis (20 mg/kg).",
+      "**Sin los efectos digestivos del hierro oral y sin depender de la absorción** (útil en EII, cirugía bariátrica, celiaquía, gastritis atrófica o con IBP).",
+      "**Indicado en la INSUFICIENCIA CARDIACA con ferropenia aunque no haya anemia** (ferritina <100, o 100-299 con IST <20%): mejora síntomas y reduce hospitalizaciones; el hierro oral no sirve aquí.",
+      "**Efecto adverso propio: HIPOFOSFATEMIA** (por aumento de FGF23), que puede producir osteomalacia y fracturas con dosis repetidas; mucho menor con hierro sacarosa o derisomaltosa.",
+      "**Reacciones de hipersensibilidad** (raras): administrar donde se pueda tratar una anafilaxia y observar 30 min."
+    ],
+    "mecanismo": "Complejo de hierro férrico con un núcleo de carbohidrato que libera el hierro de forma lenta y controlada al sistema reticuloendotelial, donde se une a transferrina y ferritina para la eritropoyesis. La estabilidad del complejo permite dosis altas sin liberar hierro libre tóxico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anemia ferropénica con intolerancia, fracaso o necesidad de corrección rápida del hierro oral",
+        "dosis": "1.000 mg (o 20 mg/kg; máximo 1.000 mg por semana)",
+        "posologia": "Infusión de 15 min; 2.ª dosis a la semana si el déficit es mayor",
+        "via": "IV",
+        "nota": "Déficit total por fórmula de Ganzoni o tabla de Hb y peso (habitualmente 1.000-2.000 mg)"
+      },
+      {
+        "patologia": "Ferropenia en insuficiencia cardiaca con FEVI ≤45-50% (con o sin anemia)",
+        "dosis": "500-1.000 mg",
+        "posologia": "Dosis única; repetir a las 6 semanas y luego a los 3-6 meses si persiste la ferropenia",
+        "via": "IV",
+        "nota": "Criterios: ferritina <100 ng/mL, o 100-299 con IST <20%"
+      },
+      {
+        "patologia": "Anemia ferropénica del embarazo (2.º-3.er trimestre) y preoperatoria",
+        "dosis": "500-1.000 mg",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "nota": "Contraindicado en el 1.er trimestre"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar ferropenia (ferritina, IST) y calcular el déficit. Fósforo basal si se prevén dosis repetidas.",
+      "titulacion": "No se titula: se calcula el déficit total y se reparte en 1-2 infusiones.",
+      "duracion": "1-2 dosis por ciclo; repetir solo si se repite la ferropenia.",
+      "fin": "Tras reponer el déficit calculado. No asociar hierro oral simultáneo.",
+      "via": "IV en infusión de 15 min (diluido en suero salino) o bolo lento.",
+      "monitorizacion": "Hb a las 2-4 semanas; **ferritina e IST no antes de 4-8 semanas** (falsamente elevadas antes). Fósforo si hay síntomas o dosis repetidas. Observación 30 min tras la infusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "No aplica (IV).",
+      "distribucion": "Captación por el sistema reticuloendotelial (hígado, bazo, médula).",
+      "metabolismo": "Liberación lenta del hierro del complejo en los macrófagos.",
+      "eliminacion": "Eliminación urinaria despreciable; el hierro se incorpora a los depósitos.",
+      "vida_media": "7-12 h (el complejo en plasma).",
+      "ajuste_renal": "No precisa; muy usado en la ERC.",
+      "ajuste_hepatico": "Evitar en hepatopatía con sobrecarga férrica.",
+      "interacciones": [
+        {
+          "con": "Hierro oral",
+          "efecto": "Absorción oral reducida tras el hierro IV",
+          "gravedad": "baja",
+          "manejo": "No iniciar hierro oral hasta 5 días después"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hipofosfatemia** (frecuente y a menudo asintomática)",
+        "Cefalea, náuseas, rubor",
+        "Reacciones locales y extravasación (tinción marrón de la piel persistente)",
+        "Elevación transitoria de transaminasas"
+      ],
+      "graves": [
+        "**Reacción de hipersensibilidad o anafilaxia** (rara)",
+        "**Osteomalacia hipofosfatémica** con dosis repetidas",
+        "Reacción de Fishbane (artralgias y rubor autolimitados; no es anafilaxia)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anemia no ferropénica",
+      "Sobrecarga de hierro",
+      "Hipersensibilidad al hierro parenteral",
+      "Primer trimestre del embarazo",
+      "Infección activa bacteriémica (relativa)"
+    ],
+    "perlas": [
+      "**No medir la ferritina a los pocos días de la infusión**: estará muy alta por el hierro aún no utilizado y llevará a conclusiones erróneas.",
+      "**Ante dolor óseo o debilidad tras varias dosis de carboximaltosa, pedir fósforo.**",
+      "La extravasación deja una mancha marrón durante meses: canalizar una buena vía."
+    ],
+    "embarazo_lactancia": "Contraindicado en el 1.er trimestre; utilizable en el 2.º y 3.º. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; Harrison 20.ª ed., caps. de anemia ferropénica e insuficiencia cardiaca"
+  }
+]

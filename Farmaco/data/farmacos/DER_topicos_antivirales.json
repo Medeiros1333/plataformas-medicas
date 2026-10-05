@@ -1,0 +1,116 @@
+[
+  {
+    "id": "DER-imiquimod",
+    "nombre": "Imiquimod tópico",
+    "sinonimos": [
+      "Podofilotoxina (alternativa de mecanismo distinto)"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Inmunomodulador tópico antiviral y antitumoral",
+    "subclase": "Agonista de los receptores tipo Toll 7 y 8",
+    "mecanismo": "No tiene actividad antivírica ni citotóxica DIRECTA: actúa activando los receptores TLR7 y TLR8 de las células dendríticas y de los monocitos de la piel, lo que desencadena la producción local de interferón alfa, factor de necrosis tumoral e interleucinas, y con ello una respuesta inmunitaria celular TH1 dirigida contra las células infectadas o displásicas. Es decir, no destruye la lesión: hace que el sistema inmunitario del propio paciente la reconozca y la elimine. De ahí que la INFLAMACIÓN local intensa no sea un efecto adverso indeseado sino la señal de que el fármaco está funcionando.",
+    "espectro": "Lesiones por virus del papiloma humano (condilomas acuminados, genotipos 6 y 11), molusco contagioso, y lesiones cutáneas displásicas o neoplásicas: queratosis actínica y carcinoma basocelular superficial.",
+    "indicaciones": [
+      {
+        "patologia": "Condilomas acuminados genitales y perianales externos",
+        "dosis": "Crema al 5%, aplicada en capa fina sobre la lesión",
+        "posologia": "3 veces por semana (noches alternas), dejándola actuar 6-10 h y lavando después",
+        "via": "tópica",
+        "nota": "Aplicada por el propio paciente; máximo 16 semanas. Tasa de aclaramiento del 50-60%, con menos recidivas que las técnicas destructivas"
+      },
+      {
+        "patologia": "Queratosis actínica del rostro y del cuero cabelludo",
+        "dosis": "Crema al 5% (o al 3,75% en pauta corta)",
+        "posologia": "2-3 veces por semana durante 4 semanas, o pauta de 2 ciclos de 2 semanas",
+        "via": "tópica",
+        "nota": "Trata el campo de cancerización completo, no solo las lesiones visibles: esa es su ventaja frente a la crioterapia"
+      },
+      {
+        "patologia": "Carcinoma basocelular superficial no apto para cirugía",
+        "dosis": "Crema al 5%",
+        "posologia": "5 veces por semana durante 6 semanas",
+        "via": "tópica",
+        "nota": "Alternativa a la cirugía en lesiones superficiales de bajo riesgo; requiere seguimiento estrecho y biopsia si no responde"
+      },
+      {
+        "patologia": "Molusco contagioso extenso o en el paciente inmunodeprimido",
+        "dosis": "Crema al 5%",
+        "posologia": "3 veces por semana",
+        "via": "tópica",
+        "nota": "Uso fuera de ficha técnica y con evidencia limitada; en el niño inmunocompetente el molusco es autolimitado y no requiere tratamiento"
+      }
+    ],
+    "esquema": {
+      "inicio": "Aplicación en capa fina sobre la lesión seca, por la noche, frotando hasta que desaparezca; lavar la zona con agua y jabón a las 6-10 h. Advertir de antemano de la reacción inflamatoria esperable.",
+      "titulacion": "No se titula la dosis, sino la FRECUENCIA: si la inflamación es excesiva, se espacian las aplicaciones o se hace una pausa de unos días, y después se reanuda. Suspender definitivamente por la reacción local es casi siempre innecesario.",
+      "duracion": "Hasta 16 semanas en los condilomas; 4-6 semanas en la queratosis actínica y en el carcinoma basocelular superficial.",
+      "fin": "Se suspende al desaparecer la lesión o al agotar el ciclo. La piel tarda semanas en normalizarse tras la reacción inflamatoria.",
+      "via": "Tópica, exclusivamente externa: NUNCA en mucosa vaginal, cervical, uretral, rectal ni intraanal.",
+      "monitorizacion": "Inspección de la respuesta local y de la resolución de las lesiones. En el carcinoma basocelular, biopsia de control si no hay respuesta completa."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica MÍNIMA (menos del 1%) cuando se aplica sobre superficies limitadas, lo que explica la práctica ausencia de efectos e interacciones sistémicas. La absorción aumenta si se aplica sobre superficies extensas o sobre piel erosionada.",
+      "distribucion": "Fundamentalmente local, en la epidermis y la dermis superficial.",
+      "metabolismo": "Escaso, hepático, sin relevancia clínica a las dosis tópicas habituales.",
+      "eliminacion": "Renal y fecal la fracción absorbida.",
+      "vida_media": "Aproximadamente 2 h la fracción absorbida; el efecto biológico local persiste mucho más por la respuesta inmunitaria que induce.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Inmunosupresores sistémicos (corticoides, tacrolimús, azatioprina, biológicos)",
+          "efecto": "Antagonizan el mecanismo del fármaco, que consiste precisamente en activar la respuesta inmunitaria local: la eficacia disminuye",
+          "gravedad": "media",
+          "manejo": "Anticipar una respuesta menor en el paciente inmunodeprimido y valorar técnicas destructivas como alternativa"
+        },
+        {
+          "con": "Preservativos y diafragmas de LÁTEX",
+          "efecto": "La crema DEBILITA el látex y puede provocar su rotura, con fallo anticonceptivo y de protección frente a ITS",
+          "gravedad": "alta",
+          "manejo": "Evitar las relaciones sexuales mientras la crema esté sobre la piel, o usar métodos que no sean de látex"
+        },
+        {
+          "con": "Otros tratamientos tópicos irritantes (retinoides, peróxido de benzoilo, crioterapia reciente)",
+          "efecto": "Irritación local aditiva y riesgo de erosión extensa",
+          "gravedad": "media",
+          "manejo": "No solapar tratamientos sobre la misma zona"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "REACCIÓN LOCAL: eritema, edema, erosión, descamación, escozor y prurito (esperada y, dentro de cierto límite, deseable)",
+        "Dolor y sensación de quemazón en la zona tratada",
+        "Hipopigmentación o hiperpigmentación residual",
+        "Cuadro pseudogripal leve con astenia, cefalea y mialgias, sobre todo al tratar áreas extensas"
+      ],
+      "graves": [
+        "Erosión, ulceración y sobreinfección bacteriana de la zona tratada por aplicación excesiva o demasiado frecuente",
+        "Despigmentación permanente (vitíligo local) tras reacciones intensas",
+        "Exacerbación de enfermedades autoinmunes o inflamatorias cutáneas preexistentes (psoriasis, lupus, penfigoide)",
+        "Reacción sistémica con fiebre y malestar intenso al tratar superficies grandes"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al imiquimod o a los excipientes",
+      "Aplicación sobre MUCOSAS (vaginal, cervical, uretral, rectal, intraanal)",
+      "Piel lesionada, erosionada o quemada por otro tratamiento",
+      "Menores de 12 años (fuera de indicación autorizada)"
+    ],
+    "perlas": [
+      "Es el ejemplo más claro de un fármaco que no ataca al patógeno sino que ORGANIZA la respuesta del huésped. De ahí se derivan casi todas sus particularidades: que la inflamación sea señal de eficacia, que funcione peor en el inmunodeprimido y que sus recidivas sean menos frecuentes que las de los tratamientos destructivos, porque deja memoria inmunitaria.",
+      "Hay que EXPLICAR ANTES la reacción local, con detalle y sin minimizarla: el paciente que no ha sido advertido interpreta el eritema, la erosión y el escozor como una complicación y abandona el tratamiento justo cuando está empezando a funcionar. Si la reacción es excesiva, se espacian las aplicaciones, no se suspende.",
+      "Debilita el LÁTEX: un dato muy concreto y de consecuencias evidentes en un tratamiento que se aplica precisamente en la zona genital. Hay que decirlo explícitamente, porque el paciente no puede deducirlo.",
+      "Es de uso EXTERNO exclusivamente: en los condilomas intravaginales, cervicales o intraanales no se aplica, y esas localizaciones requieren tratamiento por el especialista con técnicas destructivas.",
+      "Eliminar la lesión no elimina el virus: el VPH puede persistir y las recidivas son posibles. Explicarlo evita que el paciente se sienta engañado, y refuerza el papel de la VACUNACIÓN, que es la única medida realmente preventiva.",
+      "En la queratosis actínica su ventaja no es tratar la lesión visible, sino el CAMPO DE CANCERIZACIÓN completo: hace aflorar lesiones subclínicas que aún no se veían, lo que sorprende al paciente si no se le ha anticipado.",
+      "Ante un condiloma, hay que cribar otras infecciones de transmisión sexual y explorar toda la región anogenital: rara vez la lesión visible es la única."
+    ],
+    "embarazo_lactancia": "No se recomienda en el embarazo por falta de datos suficientes; en la gestante con condilomas, el tratamiento de elección es el ÁCIDO TRICLOROACÉTICO o las técnicas destructivas (la podofilotoxina está formalmente contraindicada por su efecto antimitótico). Precaución durante la lactancia.",
+    "micro_relacionado": [
+      "VIR-virus-papiloma-humano"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de infecciones por papilomavirus"
+  }
+]

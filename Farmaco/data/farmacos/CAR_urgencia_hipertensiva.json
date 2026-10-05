@@ -1,0 +1,132 @@
+[
+  {
+    "id": "CAR-antihipertensivos-parenterales",
+    "nombre": "Antihipertensivos parenterales (labetalol, urapidilo, nitroprusiato, nicardipino)",
+    "sinonimos": [
+      "Tratamiento de la emergencia hipertensiva"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antihipertensivo",
+    "subclase": "Fármacos de acción rápida para la emergencia hipertensiva",
+    "mecanismo": "Cada uno actúa por una vía distinta, y esa diferencia es la que permite elegir según la lesión de órgano diana. El LABETALOL bloquea receptores beta y alfa-1 en proporción aproximada 7:1: baja las resistencias periféricas sin taquicardia refleja, lo que lo hace ideal en la disección aórtica y en el ictus. El URAPIDILO es un antagonista alfa-1 periférico que además estimula receptores serotoninérgicos 5-HT1A centrales, reduciendo el tono simpático sin taquicardia refleja. El NITROPRUSIATO libera ÓXIDO NÍTRICO y dilata arterias y venas por igual, con un efecto instantáneo y titulable segundo a segundo, pero a costa de liberar CIANURO al metabolizarse. El NICARDIPINO es un calcioantagonista dihidropiridínico de acción arterial predominante y titulación cómoda. El principio que gobierna a todos ellos no es farmacológico sino fisiológico: en la hipertensión crónica la AUTORREGULACIÓN cerebral y renal está desplazada hacia arriba, de modo que bajar la tensión demasiado deprisa produce ISQUEMIA en un territorio acostumbrado a presiones altas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EMERGENCIA HIPERTENSIVA con lesión de órgano diana",
+        "dosis": "Labetalol 20 mg IV en bolo, repetible cada 10 minutos doblando la dosis hasta 300 mg, o perfusión de 0,5-2 mg/min",
+        "posologia": "Bolos repetidos o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Reducir la tensión arterial media un 20-25% en la PRIMERA HORA, y después de forma progresiva en 24-48 horas",
+        "nota": "El objetivo NO es normalizar la tensión: bajarla demasiado deprisa produce ictus isquémico, infarto y fracaso renal en un cerebro y un riñón con la autorregulación desplazada"
+      },
+      {
+        "patologia": "DISECCIÓN AÓRTICA",
+        "dosis": "Labetalol IV hasta frecuencia cardiaca menor de 60 lpm, y después vasodilatador si hace falta",
+        "posologia": "Perfusión titulada",
+        "via": "IV",
+        "dosis_objetivo": "Frecuencia cardiaca inferior a 60 lpm y tensión sistólica de 100-120 mmHg",
+        "nota": "PRIMERO el betabloqueante y DESPUÉS el vasodilatador: dar un vasodilatador solo produce taquicardia refleja que aumenta la fuerza de cizallamiento y PROPAGA la disección"
+      },
+      {
+        "patologia": "Emergencia hipertensiva en el EMBARAZO (preeclampsia grave)",
+        "dosis": "Labetalol 20 mg IV, repetible y ascendente; o hidralazina 5 mg IV cada 20 minutos; o nifedipino 10 mg VO",
+        "posologia": "Bolos repetidos",
+        "via": "IV",
+        "dosis_objetivo": "Tensión sistólica de 140-150 mmHg y diastólica de 90-100 mmHg, sin bajar más",
+        "nota": "Se asocia SULFATO DE MAGNESIO para prevenir la eclampsia: es una intervención distinta y complementaria, no un antihipertensivo"
+      },
+      {
+        "patologia": "Encefalopatía hipertensiva y edema agudo de pulmón hipertensivo",
+        "dosis": "Nitroprusiato 0,3-0,5 microgramos/kg/min, ascendiendo hasta un máximo de 8-10 microgramos/kg/min; o nitroglicerina en el edema pulmonar",
+        "posologia": "Perfusión continua con bomba y monitorización arterial",
+        "via": "IV",
+        "nota": "El nitroprusiato exige protección de la LUZ y monitorización invasiva; en el edema agudo de pulmón la nitroglicerina es preferible por su efecto predominantemente venoso"
+      },
+      {
+        "patologia": "Crisis por FEOCROMOCITOMA o por simpaticomiméticos (cocaína)",
+        "dosis": "Fentolamina 5 mg IV, o urapidilo 25 mg IV; benzodiazepinas en la intoxicación por cocaína",
+        "posologia": "Bolos repetibles",
+        "via": "IV",
+        "nota": "NUNCA un betabloqueante SOLO: el bloqueo beta sin alfa deja la vasoconstricción alfa sin oposición y produce una crisis hipertensiva peor"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo primero es distinguir URGENCIA de EMERGENCIA: si NO hay lesión de órgano diana (retina, cerebro, corazón, riñón, aorta), no hay prisa y el tratamiento es ORAL y ambulatorio. Solo la emergencia justifica la vía intravenosa.",
+      "titulacion": "Descenso del 20-25% de la tensión arterial media en la primera hora, y normalización progresiva en 24-48 horas. Las excepciones son la DISECCIÓN AÓRTICA (donde se baja rápido y a cifras bajas) y el ictus, con objetivos propios.",
+      "duracion": "Horas, hasta el paso a tratamiento oral.",
+      "fin": "Transición a antihipertensivos orales solapando ambos, y búsqueda de la causa: incumplimiento terapéutico, hipertensión secundaria, tóxicos o dolor.",
+      "via": "Intravenosa en perfusión con bomba y, en la mayoría de los casos, con monitorización arterial invasiva.",
+      "monitorizacion": "Tensión arterial CONTINUA, diuresis, exploración neurológica repetida y ECG. Con nitroprusiato prolongado: lactato, equilibrio ácido-base y saturación venosa."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Amplia; el labetalol atraviesa poco la placenta, lo que sustenta su uso en obstetricia.",
+      "metabolismo": "Labetalol: hepático. NITROPRUSIATO: liberación no enzimática de óxido nítrico y de CIANURO, que el hígado convierte en tiocianato usando tiosulfato.",
+      "eliminacion": "Renal y hepática; el TIOCIANATO se elimina por vía RENAL y se acumula en la insuficiencia renal.",
+      "vida_media": "Nitroprusiato: SEGUNDOS (titulación instantánea). Labetalol: 5-8 horas.",
+      "ajuste_renal": "El nitroprusiato acumula TIOCIANATO en la insuficiencia renal: limitar dosis y duración.",
+      "ajuste_hepatico": "La insuficiencia hepática reduce la detoxificación del cianuro del nitroprusiato.",
+      "interacciones": [
+        {
+          "con": "Betabloqueante SOLO en la crisis por feocromocitoma o por COCAÍNA",
+          "efecto": "Vasoconstricción alfa sin oposición con CRISIS HIPERTENSIVA PARADÓJICA",
+          "gravedad": "alta",
+          "manejo": "Alfabloquear PRIMERO (fentolamina, urapidilo) o usar benzodiazepinas y vasodilatadores. Es un error clásico y grave"
+        },
+        {
+          "con": "TIOSULFATO e hidroxocobalamina",
+          "efecto": "Antídotos de la toxicidad por cianuro del nitroprusiato",
+          "gravedad": "baja",
+          "manejo": "Coadministrar tiosulfato en perfusiones prolongadas o a dosis altas"
+        },
+        {
+          "con": "Luz (nitroprusiato)",
+          "efecto": "Se DEGRADA y libera cianuro",
+          "gravedad": "alta",
+          "manejo": "Proteger el sistema de infusión de la luz con funda opaca y cambiar la solución cada 24 horas"
+        },
+        {
+          "con": "Otros antihipertensivos y sedantes",
+          "efecto": "Hipotensión aditiva con hipoperfusión de órgano",
+          "gravedad": "alta",
+          "manejo": "Titular con precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión excesiva con hipoperfusión cerebral, coronaria y renal",
+        "Bradicardia y broncoespasmo con labetalol",
+        "Cefalea y taquicardia refleja con los vasodilatadores puros",
+        "Náuseas"
+      ],
+      "graves": [
+        "ICTUS ISQUÉMICO, infarto y fracaso renal por descenso DEMASIADO RÁPIDO de la tensión",
+        "INTOXICACIÓN POR CIANURO y TIOCIANATO con el nitroprusiato: acidosis láctica, confusión, convulsiones, saturación venosa paradójicamente alta y olor a almendras amargas",
+        "Bloqueo auriculoventricular e insuficiencia cardiaca con labetalol",
+        "Crisis hipertensiva paradójica por betabloqueo sin alfabloqueo previo",
+        "Metahemoglobinemia con nitroprusiato y nitratos"
+      ]
+    },
+    "contraindicaciones": [
+      "LABETALOL: asma, bradicardia, bloqueo avanzado e insuficiencia cardiaca descompensada",
+      "NITROPRUSIATO: insuficiencia hepática o renal grave, atrofia óptica de Leber y deficiencia de vitamina B12",
+      "Betabloqueante en monoterapia en el feocromocitoma y en la intoxicación por cocaína",
+      "Uso de la vía intravenosa en una urgencia hipertensiva SIN lesión de órgano diana"
+    ],
+    "perlas": [
+      "La distinción que ordena todo el manejo: URGENCIA hipertensiva es tensión muy alta SIN lesión de órgano diana, y se trata con fármacos ORALES y sin prisa, a menudo de forma ambulatoria; EMERGENCIA es tensión alta CON lesión aguda de órgano (encefalopatía, disección, edema pulmonar, eclampsia, ictus, fracaso renal), y solo esta justifica la vía intravenosa y el ingreso.",
+      "Bajar la tensión DEMASIADO DEPRISA hace daño. La autorregulación cerebral y renal del hipertenso crónico está desplazada hacia arriba, y una caída brusca produce isquemia en un territorio acostumbrado a presiones altas. La regla es un 20-25% de la tensión arterial media en la primera hora.",
+      "En la DISECCIÓN AÓRTICA el orden importa: PRIMERO el betabloqueante para bajar la frecuencia por debajo de 60, y DESPUÉS el vasodilatador. Un vasodilatador solo produce taquicardia refleja, aumenta la fuerza de cizallamiento sobre la pared aórtica y propaga la disección.",
+      "NUNCA un betabloqueante SOLO en el feocromocitoma ni en la crisis por COCAÍNA: al bloquear el efecto beta vasodilatador queda la vasoconstricción alfa sin oposición y la tensión SUBE. En la cocaína, el tratamiento de primera línea son las benzodiazepinas.",
+      "El NITROPRUSIATO libera CIANURO. Hay que protegerlo de la LUZ, limitar dosis y duración, coadministrar tiosulfato en perfusiones prolongadas y sospechar la intoxicación ante acidosis láctica inexplicada con saturación venosa paradójicamente alta.",
+      "El LABETALOL es el fármaco más versátil de la lista: sirve en el ictus, en la disección y en la preeclampsia, y su combinación alfa y beta evita la taquicardia refleja. Es el que conviene conocer bien si solo se va a conocer uno.",
+      "Ante una emergencia hipertensiva hay que buscar la CAUSA y no solo bajar la cifra: incumplimiento terapéutico o retirada brusca (sobre todo de clonidina o betabloqueantes), cocaína o anfetaminas, dolor, retención urinaria, hipertensión secundaria o preeclampsia.",
+      "En el EMBARAZO el objetivo es más conservador (140-150 de sistólica): bajar más compromete la perfusión placentaria, y el sulfato de magnesio que se asocia no es un antihipertensivo sino un anticonvulsivante."
+    ],
+    "embarazo_lactancia": "El LABETALOL, la HIDRALAZINA y el NIFEDIPINO son los fármacos de elección en la emergencia hipertensiva del embarazo. El NITROPRUSIATO está contraindicado por acumulación de cianuro en el feto. Los IECA y ARA-II están contraindicados en toda la gestación. El labetalol es compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11; guías ESC/ESH sobre hipertensión arterial y manejo de la emergencia hipertensiva"
+  }
+]

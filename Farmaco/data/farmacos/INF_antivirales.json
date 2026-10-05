@@ -1,0 +1,997 @@
+[
+  {
+    "id": "INF-valaciclovir",
+    "nombre": "Valaciclovir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antiherpético (análogo de nucleósido)",
+    "subclase": "Profármaco L-valil éster del aciclovir",
+    "vs_clase": [
+      "**Profármaco ORAL del aciclovir** con biodisponibilidad 3-5 veces mayor: **2-3 tomas al día**.",
+      "De elección oral en herpes zóster, herpes genital y labial.",
+      "No sustituye al aciclovir IV en la encefalitis herpética."
+    ],
+    "mecanismo": "Se hidroliza en la pared intestinal y el hígado a ACICLOVIR. El aciclovir es fosforilado a monofosfato por la TIMIDINA CINASA VIRAL (solo presente en la célula infectada) y después por cinasas celulares a trifosfato, que inhibe la ADN polimerasa viral e interrumpe la cadena de ADN al carecer del grupo 3'-hidroxilo. Esa activación dependiente de una enzima viral es la razón de su extraordinaria selectividad y seguridad: en la célula no infectada apenas se activa.",
+    "espectro": "VHS-1 y VHS-2 (máxima actividad), virus varicela-zóster (requiere dosis mayores). Actividad escasa frente a VEB y prácticamente nula frente a CMV.",
+    "indicaciones": [
+      {
+        "patologia": "Herpes zóster",
+        "dosis": "1 g/8 h durante 7 días",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Debe iniciarse en las primeras 72 h del exantema; pasada esa ventana el beneficio sobre la neuralgia postherpética se pierde en gran parte"
+      },
+      {
+        "patologia": "Herpes genital: primer episodio",
+        "dosis": "1 g/12 h durante 7-10 días",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "La primoinfección es mucho más sintomática y prolongada que las recurrencias"
+      },
+      {
+        "patologia": "Herpes genital: recurrencia",
+        "dosis": "500 mg/12 h durante 3 días",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Solo es eficaz si el paciente lo inicia él mismo en la fase de pródromo: conviene darle la receta por adelantado"
+      },
+      {
+        "patologia": "Herpes genital: tratamiento supresor crónico",
+        "dosis": "500 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Indicado con más de 6 recurrencias al año o para reducir la transmisión a la pareja; reduce ambas en torno al 50%. Reevaluar anualmente"
+      },
+      {
+        "patologia": "Herpes labial recurrente",
+        "dosis": "2 g/12 h durante 1 día (2 dosis)",
+        "posologia": "2 dosis separadas 12 h",
+        "via": "VO",
+        "nota": "Pauta corta de dosis alta iniciada en el pródromo; acorta el brote uno o dos días"
+      },
+      {
+        "patologia": "Supresión en la gestante con herpes genital",
+        "dosis": "500 mg/12 h desde la semana 36 hasta el parto",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Reduce las lesiones activas en el momento del parto y con ello la necesidad de cesárea y el riesgo de herpes neonatal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde la primera toma, cuanto antes mejor: en el zóster dentro de las 72 h del exantema y en las recurrencias genitales o labiales durante el pródromo.",
+      "titulacion": "No se titula. Lo único que se ajusta es la dosis según el filtrado glomerular.",
+      "duracion": "1 día en el herpes labial, 3 días en la recurrencia genital, 7 días en el zóster, 7-10 días en la primoinfección genital, indefinida en el tratamiento supresor.",
+      "fin": "Suspensión brusca sin problema. En el tratamiento supresor conviene reevaluar cada 12 meses suspendiéndolo para ver la frecuencia real de recurrencias.",
+      "via": "VO. Si el paciente no tolera la vía oral o hay afectación del SNC u ocular grave, se cambia a ACICLOVIR IV.",
+      "monitorizacion": "Función renal antes y durante el tratamiento en el anciano, el nefrópata y el deshidratado. Ninguna otra en el paciente sano."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 54%, entre 3 y 5 veces mayor que la del aciclovir oral (10-20%). Esa es la razón de su existencia: permite 2-3 tomas al día en lugar de 5.",
+      "distribucion": "Amplia, con buena penetración en piel, mucosas y LCR (en torno al 50% de la concentración plasmática).",
+      "metabolismo": "Hidrólisis rápida y casi completa a aciclovir en el intestino y el hígado (primer paso). No depende del citocromo P450, lo que explica su escasez de interacciones.",
+      "eliminacion": "RENAL, mayoritariamente inalterada, por filtración y secreción tubular activa.",
+      "vida_media": "2-3 h del aciclovir resultante; se prolonga mucho en la insuficiencia renal (hasta 20 h en la anuria).",
+      "ajuste_renal": "OBLIGATORIO. FG 30-49: espaciar a cada 12 h; FG 10-29: cada 24 h; FG menor de 10: reducir dosis y espaciar a 24 h. Es dializable.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Nefrotóxicos: AINE, aminoglucósidos, contrastes yodados, tacrolimús, ciclosporina",
+          "efecto": "Suma de nefrotoxicidad y riesgo de nefropatía cristalina",
+          "gravedad": "media",
+          "manejo": "Asegurar hidratación abundante y vigilar la creatinina; evitar la combinación si es posible"
+        },
+        {
+          "con": "Probenecid y cimetidina",
+          "efecto": "Compiten por la secreción tubular y elevan las concentraciones de aciclovir",
+          "gravedad": "baja",
+          "manejo": "Relevante solo con dosis altas o función renal deteriorada"
+        },
+        {
+          "con": "Micofenolato",
+          "efecto": "Aumento mutuo de las concentraciones por competición en la secreción tubular",
+          "gravedad": "baja",
+          "manejo": "Vigilar en el trasplantado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Náuseas y molestias abdominales",
+        "Mareo",
+        "Astenia"
+      ],
+      "graves": [
+        "NEUROTOXICIDAD: confusión, alucinaciones, temblor, mioclonías y crisis, casi siempre por acumulación en la insuficiencia renal no ajustada o en el anciano deshidratado",
+        "Insuficiencia renal aguda por precipitación de cristales de aciclovir en los túbulos, sobre todo con administración IV rápida y con deshidratación",
+        "Púrpura trombótica trombocitopénica y síndrome hemolítico urémico, descritos con dosis muy altas en pacientes con inmunodepresión avanzada"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al valaciclovir, al aciclovir o al valganciclovir"
+    ],
+    "perlas": [
+      "Su única razón de ser frente al aciclovir es FARMACOCINÉTICA: la biodisponibilidad triplicada permite pasar de 5 tomas diarias a 2 o 3, lo que en la práctica cambia por completo la adherencia. La eficacia es la misma.",
+      "El zóster necesita el DOBLE de dosis que el herpes simple (1 g/8 h frente a 500 mg/12 h) porque el virus varicela-zóster es intrínsecamente menos sensible: confundir las dosis es un error frecuente y hace fracasar el tratamiento.",
+      "La neurotoxicidad por acumulación es la reacción adversa más importante en la práctica y es casi siempre EVITABLE: aparece en ancianos con insuficiencia renal a los que no se ajustó la dosis. Ante confusión en un paciente que toma valaciclovir, la primera sospecha es el propio fármaco.",
+      "No erradica la infección latente: hay que explicarle al paciente que el tratamiento supresor controla los brotes y reduce el contagio, pero no elimina el virus del ganglio.",
+      "En la encefalitis herpética NO se usa valaciclovir: el tratamiento es aciclovir INTRAVENOSO a 10 mg/kg/8 h, y se inicia ante la sospecha, antes de tener la PCR.",
+      "Las cepas resistentes son deficientes en timidina cinasa, la enzima que lo activa; por eso el rescate es FOSCARNET, que actúa directamente sobre la ADN polimerasa y no necesita activación previa."
+    ],
+    "embarazo_lactancia": "Amplia experiencia de uso en el embarazo sin señal de teratogenicidad; se emplea en la supresión desde la semana 36 y en el tratamiento de la varicela grave de la gestante. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "VIR-virus-herpes-simple",
+      "VIR-virus-varicela-zoster"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., caps. de infecciones por virus herpes"
+  },
+  {
+    "id": "INF-valganciclovir",
+    "nombre": "Valganciclovir (y ganciclovir)",
+    "sinonimos": [
+      "Ganciclovir IV"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antiherpético (análogo de nucleósido)",
+    "subclase": "Profármaco oral del ganciclovir: activo frente a CMV",
+    "vs_clase": [
+      "**Activo frente a CITOMEGALOVIRUS** (el aciclovir no).",
+      "**MIELOTÓXICO** (neutropenia, trombocitopenia) y teratógeno.",
+      "Profilaxis y tratamiento anticipado del CMV en trasplante y retinitis por CMV."
+    ],
+    "mecanismo": "El valganciclovir se hidroliza a GANCICLOVIR, que es fosforilado por la fosfotransferasa viral UL97 del CMV (equivalente funcional de la timidina cinasa) y después por cinasas celulares a trifosfato, que inhibe la ADN polimerasa viral UL54 y frena la elongación de la cadena. A diferencia del aciclovir, se incorpora al ADN celular en cierta medida, lo que explica su MIELOTOXICIDAD.",
+    "espectro": "CITOMEGALOVIRUS (indicación principal), VHS, VVZ, VEB y VHH-6. Es el único de los análogos de nucleósido orales con actividad clínicamente útil frente al CMV.",
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad por CMV (retinitis, colitis, neumonitis): inducción",
+        "dosis": "Valganciclovir 900 mg/12 h VO, o ganciclovir 5 mg/kg/12 h IV",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "La vía IV se prefiere en la enfermedad grave, la afectación gastrointestinal con mala absorción y la neumonitis del trasplantado"
+      },
+      {
+        "patologia": "Enfermedad por CMV: mantenimiento",
+        "dosis": "900 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Se mantiene hasta la reconstitución inmunitaria (CD4 por encima de 100 durante 3-6 meses en el paciente con sida)"
+      },
+      {
+        "patologia": "Profilaxis de CMV en el trasplante de órgano sólido",
+        "dosis": "900 mg/24 h durante 3-6 meses postrasplante",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Indicada sobre todo en la combinación de máximo riesgo: donante seropositivo con receptor seronegativo"
+      },
+      {
+        "patologia": "Tratamiento anticipado guiado por carga viral en el trasplantado",
+        "dosis": "900 mg/12 h hasta negativizar la PCR en dos determinaciones",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Estrategia alternativa a la profilaxis universal: se trata solo cuando la PCR supera un umbral establecido"
+      },
+      {
+        "patologia": "Infección congénita por CMV sintomática",
+        "dosis": "Valganciclovir 16 mg/kg/12 h durante 6 meses",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Iniciado en el primer mes de vida; mejora el pronóstico AUDITIVO y del neurodesarrollo. Requiere control estrecho de neutrófilos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Fase de INDUCCIÓN a doble dosis (cada 12 h) durante 14-21 días o hasta la respuesta clínica y virológica, con hemograma antes de empezar.",
+      "titulacion": "No se titula por eficacia; la dosis se ajusta a la baja por el filtrado glomerular y se interrumpe o reduce por neutropenia.",
+      "duracion": "14-21 días de inducción; mantenimiento hasta la reconstitución inmunitaria; 3-6 meses en la profilaxis del trasplante; 6 meses en la infección congénita.",
+      "fin": "Se retira cuando se recupera la inmunidad celular (CD4 por encima de 100 durante 3-6 meses) o al completar el periodo de profilaxis. La retirada precoz se sigue de recidiva.",
+      "via": "VO (valganciclovir, siempre CON alimento) o IV (ganciclovir, en perfusión de 1 h; nunca en bolo).",
+      "monitorizacion": "HEMOGRAMA al menos SEMANAL (neutrófilos y plaquetas), función renal periódica y carga viral de CMV para valorar la respuesta. Fondo de ojo en la retinitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 60% con alimento (frente al 6-9% del ganciclovir oral): debe tomarse SIEMPRE con comida. 900 mg de valganciclovir equivalen aproximadamente a 5 mg/kg de ganciclovir IV.",
+      "distribucion": "Amplia, incluidos LCR y humor vítreo.",
+      "metabolismo": "Hidrólisis a ganciclovir por esterasas intestinales y hepáticas; el ganciclovir apenas se metaboliza. No depende del citocromo P450.",
+      "eliminacion": "RENAL, prácticamente inalterado, por filtración y secreción tubular.",
+      "vida_media": "4 h; hasta 30 h en la insuficiencia renal avanzada.",
+      "ajuste_renal": "OBLIGATORIO y estricto: la dosis se reduce y se espacia desde un FG por debajo de 60. Con FG menor de 10 no se recomienda el valganciclovir comprimido por imposibilidad de dosificar con precisión. Es dializable.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Zidovudina",
+          "efecto": "Suma de MIELOSUPRESIÓN con neutropenia grave",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; sustituir el antirretroviral"
+        },
+        {
+          "con": "Micofenolato, azatioprina y otros inmunosupresores mielotóxicos",
+          "efecto": "Neutropenia y trombocitopenia aditivas",
+          "gravedad": "alta",
+          "manejo": "Hemograma semanal; reducir el inmunosupresor si la neutropenia progresa"
+        },
+        {
+          "con": "Imipenem-cilastatina",
+          "efecto": "Aumento del riesgo de CRISIS CONVULSIVAS",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación; usar otro carbapenémico o betalactámico"
+        },
+        {
+          "con": "Probenecid y otros fármacos con secreción tubular",
+          "efecto": "Elevación de las concentraciones de ganciclovir",
+          "gravedad": "media",
+          "manejo": "Vigilar toxicidad hematológica"
+        },
+        {
+          "con": "Didanosina",
+          "efecto": "Aumento marcado de las concentraciones de didanosina con riesgo de pancreatitis y neuropatía",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NEUTROPENIA (el efecto limitante de la dosis, hasta en el 40%)",
+        "Anemia y trombocitopenia",
+        "Cefalea, náuseas y diarrea",
+        "Fiebre"
+      ],
+      "graves": [
+        "Neutropenia grave con infecciones bacterianas y fúngicas secundarias",
+        "Pancitopenia y aplasia medular",
+        "Insuficiencia renal aguda",
+        "Neurotoxicidad: confusión, convulsiones, psicosis",
+        "Potencial teratógeno, carcinogénico y de infertilidad demostrado en animales: azoospermia reversible en el varón"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al ganciclovir, valganciclovir, aciclovir o valaciclovir",
+      "Neutrófilos por debajo de 500/microlitro, plaquetas por debajo de 25 000/microlitro o hemoglobina por debajo de 8 g/dL al inicio",
+      "Embarazo (salvo que el beneficio supere claramente el riesgo)"
+    ],
+    "perlas": [
+      "La MIELOTOXICIDAD es lo que lo diferencia radicalmente del aciclovir y lo que gobierna su uso: el hemograma semanal no es una recomendación formal, es la prueba que decide si el paciente sigue o no con el tratamiento.",
+      "Debe tomarse SIEMPRE CON COMIDA: sin alimento la biodisponibilidad cae de forma importante y se pierde eficacia. Es un error de administración frecuente y silencioso.",
+      "El valganciclovir NO es intercambiable miligramo a miligramo con el ganciclovir oral antiguo: 900 mg de valganciclovir equivalen aproximadamente a 5 mg/kg IV de ganciclovir.",
+      "En la retinitis del paciente con sida, el fármaco gana tiempo pero lo que cura de verdad es la RECONSTITUCIÓN INMUNITARIA con antirretrovirales: sin ella, las recidivas son la norma.",
+      "El G-CSF (filgrastim) permite mantener el tratamiento en el paciente que desarrolla neutropenia y en el que no hay alternativa razonable.",
+      "Ante una carga viral que no desciende tras 2 semanas de tratamiento correcto, hay que sospechar RESISTENCIA por mutación UL97 (y no simplemente aumentar la dosis): el siguiente paso es el estudio genotípico y el cambio a foscarnet o maribavir.",
+      "En el trasplante de progenitores hematopoyéticos se prefiere LETERMOVIR para la profilaxis precisamente porque no es mielotóxico."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo salvo indicación vital, por teratogenicidad demostrada en animales. Se recomienda anticoncepción eficaz durante el tratamiento y hasta 30 días después en la mujer, y 90 días en el varón. Suspender la lactancia.",
+    "micro_relacionado": [
+      "VIR-citomegalovirus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de citomegalovirus"
+  },
+  {
+    "id": "INF-tenofovir",
+    "nombre": "Tenofovir (disoproxilo y alafenamida)",
+    "sinonimos": [
+      "TDF",
+      "TAF"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Análogo de nucleós(t)ido frente al VHB / VIH",
+    "subclase": "Análogo de monofosfato de adenosina; dos profármacos: tenofovir disoproxilo (TDF) y tenofovir alafenamida (TAF)",
+    "vs_clase": [
+      "**Activo frente a VIH Y VHB**: base de los regímenes antirretrovirales y de la PrEP.",
+      "**TDF: nefrotoxicidad tubular y pérdida ósea; TAF: mucho menos**, a costa de un leve aumento de lípidos y peso.",
+      "**Alta barrera genética frente al VHB** y de elección en la gestante con VHB."
+    ],
+    "mecanismo": "Al ser ya un análogo de NUCLEÓTIDO (monofosfatado), solo necesita dos fosforilaciones celulares para alcanzar la forma activa difosfato, que compite con el dATP e interrumpe la cadena al carecer del grupo 3'-hidroxilo. Inhibe tanto la transcriptasa inversa del VIH como la polimerasa del VHB, que también replica por transcripción inversa. El TAF alcanza concentraciones intracelulares mucho más altas con una décima parte de la dosis plasmática, lo que reduce la exposición sistémica y con ella la toxicidad renal y ósea.",
+    "espectro": "VIH-1, VIH-2 y VIRUS DE LA HEPATITIS B. Sin actividad frente a otros virus.",
+    "indicaciones": [
+      {
+        "patologia": "Hepatitis B crónica con indicación de tratamiento",
+        "dosis": "TDF 245 mg/24 h o TAF 25 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Elección junto al entecavir; preferido en la gestante, en el paciente con exposición previa a lamivudina y en la coinfección con VIH"
+      },
+      {
+        "patologia": "Infección por VIH, como parte del tratamiento antirretroviral combinado",
+        "dosis": "TDF 245 mg/24 h o TAF 25 mg/24 h, siempre asociado a emtricitabina y a un tercer fármaco",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Nunca en monoterapia frente al VIH: genera resistencia con rapidez"
+      },
+      {
+        "patologia": "Profilaxis preexposición del VIH (PrEP)",
+        "dosis": "Tenofovir disoproxilo 245 mg + emtricitabina 200 mg, 1 comprimido/24 h",
+        "posologia": "Una vez al día (o pauta a demanda 2-1-1 en varones)",
+        "via": "VO",
+        "nota": "Exige descartar infección por VIH antes de iniciar y controles trimestrales; en el infectado no diagnosticado seleccionaría resistencias"
+      },
+      {
+        "patologia": "Prevención de la transmisión vertical del VHB con carga viral alta",
+        "dosis": "TDF 245 mg/24 h desde el tercer trimestre",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Se añade a la vacuna y a la inmunoglobulina del recién nacido cuando el ADN materno es muy elevado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día. Antes de iniciar: función renal con fósforo y proteinuria, serología completa de VHB y VIH y, en el VHB, ADN viral y valoración de la fibrosis.",
+      "titulacion": "No se titula. Solo se ajusta el intervalo según el filtrado glomerular.",
+      "duracion": "INDEFINIDA en el VIH. En el VHB, indefinida en la mayoría; puede plantearse la retirada tras pérdida del HBsAg o seroconversión anti-HBe consolidada, nunca en cirrosis.",
+      "fin": "La retirada en el VHB puede provocar una REAGUDIZACIÓN GRAVE de la hepatitis: si se suspende, hay que vigilar transaminasas y ADN viral cada 4-8 semanas durante al menos 6 meses.",
+      "via": "VO, una vez al día. El TAF debe tomarse con alimento.",
+      "monitorizacion": "Creatinina, filtrado glomerular, fósforo sérico y proteinuria cada 3-6 meses (más estrecho con TDF). Densitometría en el paciente con factores de riesgo óseo. Perfil lipídico con TAF. Carga viral periódica."
+    },
+    "farmacocinetica": {
+      "absorcion": "TDF con biodisponibilidad del 25%, mejorada con la comida; TAF con biodisponibilidad mayor y debe tomarse con alimento.",
+      "distribucion": "Amplia; escasa unión a proteínas. El TAF se concentra selectivamente en los linfocitos y hepatocitos, que es la clave de su mejor perfil.",
+      "metabolismo": "Mínimo hepático. El TAF es sustrato de la glucoproteína P y de la catepsina A intracelular; el TDF se hidroliza en plasma.",
+      "eliminacion": "RENAL, por filtración glomerular y SECRECIÓN TUBULAR ACTIVA. Esa secreción, que concentra el fármaco en el túbulo proximal, es el mecanismo de su nefrotoxicidad.",
+      "vida_media": "Plasmática de 12-17 h; intracelular del metabolito activo superior a 60 h, lo que permite la toma única diaria.",
+      "ajuste_renal": "TDF: espaciar a 48 h con FG 30-49 y a 72-96 h con FG 10-29; evitarlo con FG por debajo de 30 si hay alternativa. TAF: no se recomienda con FG por debajo de 30 (por debajo de 15 solo en diálisis con pautas específicas).",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "AINE, aminoglucósidos, anfotericina B, cidofovir, contrastes yodados",
+          "efecto": "Suma de nefrotoxicidad tubular proximal",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE de forma crónica en el paciente con TDF; vigilar la creatinina y el fósforo"
+        },
+        {
+          "con": "Rifampicina, rifabutina, hierba de San Juan (inductores)",
+          "efecto": "Reducen las concentraciones de TAF de forma clínicamente relevante (menos las de TDF)",
+          "gravedad": "alta",
+          "manejo": "Con rifampicina, usar TDF en lugar de TAF o cambiar de pauta"
+        },
+        {
+          "con": "Potenciadores farmacocinéticos (ritonavir, cobicistat)",
+          "efecto": "Aumentan las concentraciones de tenofovir y con ello la toxicidad renal del TDF",
+          "gravedad": "media",
+          "manejo": "Preferir TAF en pautas potenciadas; extremar el control renal si se usa TDF"
+        },
+        {
+          "con": "Didanosina",
+          "efecto": "Aumento de sus concentraciones con riesgo de pancreatitis y acidosis láctica, y peor respuesta inmunológica",
+          "gravedad": "alta",
+          "manejo": "Combinación proscrita"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea y flatulencia al inicio, habitualmente transitorias",
+        "Cefalea y astenia",
+        "Descenso leve del filtrado glomerular con TDF",
+        "Aumento de peso y elevación de lípidos con TAF"
+      ],
+      "graves": [
+        "TUBULOPATÍA PROXIMAL y síndrome de FANCONI con TDF: hipofosfatemia, glucosuria con glucemia normal, proteinuria tubular y acidosis",
+        "Insuficiencia renal aguda y crónica",
+        "Descenso de la densidad mineral ósea con osteomalacia y fracturas por fragilidad (TDF)",
+        "REAGUDIZACIÓN GRAVE de la hepatitis B al suspender el fármaco, con riesgo de descompensación en el cirrótico",
+        "Acidosis láctica con esteatosis hepática (efecto de clase de los análogos de nucleósido, hoy muy raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al tenofovir",
+      "TDF: insuficiencia renal con FG por debajo de 30 si existe alternativa; uso concomitante con otros nefrotóxicos de forma crónica"
+    ],
+    "perlas": [
+      "Es el único antivírico que trata a la vez el VIH y el VHB, y esa doble actividad es una trampa clínica: iniciar o retirar tenofovir en un paciente coinfectado sin tenerlo en cuenta puede desencadenar una reagudización de la hepatitis B. Por eso hay que cribar VHB antes de tratar el VIH y viceversa.",
+      "La diferencia entre TDF y TAF no es de eficacia antiviral sino de PERFIL DE TOXICIDAD: el TAF alcanza la misma concentración intracelular con una décima parte de la exposición plasmática, por lo que es más seguro para el riñón y el hueso, pero produce más aumento de peso y peor perfil lipídico. La elección se hace según el paciente: riesgo renal u óseo frente a riesgo metabólico.",
+      "La toxicidad renal característica del TDF es TUBULAR PROXIMAL, no glomerular: puede haber hipofosfatemia y glucosuria con creatinina todavía normal. Por eso el seguimiento incluye FÓSFORO y proteinuria, no solo creatinina.",
+      "La glucosuria con glucemia normal en un paciente con TDF es tubulopatía hasta que se demuestre lo contrario, y obliga a cambiar de fármaco.",
+      "Tiene una BARRERA GENÉTICA alta frente al VHB: la resistencia es prácticamente inexistente incluso tras años de tratamiento, a diferencia de la lamivudina.",
+      "Es el análogo preferido en la GESTANTE por la amplia experiencia acumulada y por su papel en la prevención de la transmisión vertical del VHB.",
+      "En la PrEP, la regla de oro es descartar el VIH ANTES de cada renovación: administrar una biterapia a un infectado no diagnosticado selecciona resistencias y compromete su tratamiento futuro."
+    ],
+    "embarazo_lactancia": "El TDF es el análogo con más experiencia y seguridad en el embarazo, y se emplea activamente para prevenir la transmisión vertical del VHB. Compatible con la lactancia en la mujer con VHB; en la infección por VIH la lactancia se desaconseja en países con acceso a lactancia artificial segura.",
+    "micro_relacionado": [
+      "VIR-vih",
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 49 y 50; Harrison 20.ª ed., caps. de hepatitis crónica y de infección por VIH"
+  },
+  {
+    "id": "INF-entecavir",
+    "nombre": "Entecavir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Análogo de nucleós(t)ido frente al VHB / VIH",
+    "subclase": "Análogo de guanosina: inhibidor de la polimerasa del VHB",
+    "vs_clase": [
+      "**Activo solo frente al VHB**: en el coinfectado por VIH no tratado selecciona resistencia del VIH (M184V).",
+      "**Alta barrera genética** en el paciente naive, pero **menor si hay resistencia previa a lamivudina**.",
+      "**Sin toxicidad renal ni ósea**: alternativa al TDF en nefropatía u osteoporosis; tomar en ayunas."
+    ],
+    "mecanismo": "Fosforilado por cinasas celulares a trifosfato, inhibe las TRES actividades de la polimerasa del VHB: el cebado, la transcripción inversa de la cadena negativa a partir del ARN pregenómico y la síntesis de la cadena positiva de ADN. Suprime la replicación con enorme potencia, pero NO elimina el cccDNA nuclear, que es la razón por la que la infección no se cura.",
+    "espectro": "VIRUS DE LA HEPATITIS B exclusivamente. Actividad débil frente al VIH, insuficiente para tratarlo pero suficiente para SELECCIONAR RESISTENCIAS si se usa en un coinfectado no tratado.",
+    "indicaciones": [
+      {
+        "patologia": "Hepatitis B crónica con ADN elevado, transaminasas altas o fibrosis significativa",
+        "dosis": "0,5 mg/24 h",
+        "posologia": "Una vez al día, en AYUNAS (2 h antes o 2 h después de comer)",
+        "via": "VO",
+        "nota": "Tratamiento de elección junto al tenofovir en el paciente sin exposición previa a lamivudina"
+      },
+      {
+        "patologia": "Cirrosis por VHB con ADN detectable",
+        "dosis": "0,5 mg/24 h (1 mg/24 h en la cirrosis descompensada)",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Se trata siempre y de forma indefinida, sea cual sea la cifra de transaminasas"
+      },
+      {
+        "patologia": "Paciente con resistencia o exposición previa a lamivudina",
+        "dosis": "1 mg/24 h",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Aun así se prefiere cambiar a TENOFOVIR: la resistencia previa a lamivudina reduce mucho la barrera genética del entecavir"
+      },
+      {
+        "patologia": "Profilaxis de reactivación del VHB antes de inmunosupresión o quimioterapia",
+        "dosis": "0,5 mg/24 h",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Se inicia antes de la inmunosupresión y se mantiene hasta 6-12 meses después (hasta 18 meses tras rituximab)"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,5 mg/24 h desde el primer día, en ayunas. Antes de iniciar: ADN-VHB, HBeAg, transaminasas, función renal, valoración de la fibrosis y serología de VHD y VIH.",
+      "titulacion": "No se titula. La dosis solo se modifica por antecedente de lamivudina (1 mg) o por filtrado glomerular.",
+      "duracion": "INDEFINIDA en la mayoría de los pacientes; de por vida en la cirrosis.",
+      "fin": "Solo se plantea retirarlo tras pérdida del HBsAg o, en el HBeAg positivo, tras seroconversión anti-HBe consolidada 12 meses. Al retirarlo hay que MONITORIZAR estrechamente por riesgo de reagudización.",
+      "via": "VO, en ayunas: el alimento reduce su absorción de forma significativa.",
+      "monitorizacion": "ADN-VHB y transaminasas cada 3-6 meses; función renal periódica; ecografía semestral para cribado de hepatocarcinoma."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida, con biodisponibilidad alta, pero REDUCIDA de forma marcada por el alimento: debe tomarse con el estómago vacío.",
+      "distribucion": "Amplia, con escasa unión a proteínas.",
+      "metabolismo": "Prácticamente nulo: no es sustrato, inhibidor ni inductor del citocromo P450, lo que lo hace muy limpio en interacciones.",
+      "eliminacion": "RENAL, inalterado, por filtración y secreción tubular.",
+      "vida_media": "Plasmática de 24 h; intracelular de 15 h, lo que sostiene la toma única diaria.",
+      "ajuste_renal": "OBLIGATORIO desde FG por debajo de 50: se reduce la dosis o se espacia el intervalo (0,5 mg cada 48-72 h según el grado). En hemodiálisis se administra después de la sesión.",
+      "ajuste_hepatico": "No precisa ajuste; se usa incluso en la cirrosis descompensada, en la que se emplea la dosis de 1 mg.",
+      "interacciones": [
+        {
+          "con": "Fármacos con eliminación renal por secreción tubular (probenecid, AINE, algunos antivíricos)",
+          "efecto": "Competición por el transporte tubular con elevación mutua de concentraciones",
+          "gravedad": "baja",
+          "manejo": "Vigilar en la insuficiencia renal; en general no obliga a cambiar la pauta"
+        },
+        {
+          "con": "Nefrotóxicos (AINE crónicos, aminoglucósidos)",
+          "efecto": "Deterioro de la función renal que obliga a reajustar la dosis",
+          "gravedad": "media",
+          "manejo": "Control periódico del filtrado glomerular"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Astenia",
+        "Mareo",
+        "Náuseas"
+      ],
+      "graves": [
+        "REAGUDIZACIÓN GRAVE de la hepatitis B tras la suspensión, con riesgo de descompensación e insuficiencia hepática",
+        "Acidosis láctica y hepatomegalia con esteatosis (efecto de clase de los análogos de nucleósido, muy raro)",
+        "Selección de RESISTENCIAS DEL VIH si se administra a un paciente coinfectado no tratado con antirretrovirales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al entecavir",
+      "Coinfección por VIH no tratada con una pauta antirretroviral completa"
+    ],
+    "perlas": [
+      "Debe tomarse EN AYUNAS: el alimento reduce su absorción de forma clínicamente relevante. Es el error de administración que más veces explica una respuesta virológica insuficiente.",
+      "La trampa clínica más grave es usarlo en un paciente COINFECTADO POR VIH sin tratamiento antirretroviral: su actividad parcial frente al VIH equivale a una monoterapia encubierta y selecciona la mutación M184V. Por eso hay que pedir serología de VIH antes de prescribirlo.",
+      "Su barrera genética es muy alta en el paciente NAIVE (resistencia por debajo del 1,2% a 5 años), pero se desploma en el que ya tuvo resistencia a lamivudina (hasta el 50%), porque comparten parte de la vía mutacional. En ese paciente la opción correcta es tenofovir.",
+      "Es el antivírico preferido sobre el tenofovir cuando preocupa el riñón o el hueso: nefropatía previa, edad avanzada, osteoporosis. La elección entre entecavir y tenofovir es esencialmente una decisión de comorbilidad.",
+      "En la cirrosis descompensada se usa la dosis de 1 mg y el tratamiento puede mejorar de forma llamativa la función hepática en meses, hasta el punto de retirar al paciente de la lista de trasplante.",
+      "Suprimir la replicación NO elimina el riesgo de hepatocarcinoma: el cribado ecográfico semestral se mantiene aunque el ADN sea indetectable.",
+      "Prescribirlo como profilaxis antes de rituximab o quimioterapia en el HBsAg positivo es una de las intervenciones preventivas más rentables que existen: evita una hepatitis potencialmente mortal con un comprimido diario."
+    ],
+    "embarazo_lactancia": "Experiencia limitada en el embarazo: si hay que tratar a una gestante, se prefiere TENOFOVIR. No se recomienda durante la lactancia.",
+    "micro_relacionado": [
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de hepatitis crónica"
+  },
+  {
+    "id": "INF-sofosbuvir-velpatasvir",
+    "nombre": "Sofosbuvir/velpatasvir",
+    "sinonimos": [
+      "Antivíricos de acción directa pangenotípicos"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antivíricos de acción directa frente al VHC (combinación a dosis fija)",
+    "subclase": "Inhibidor de la polimerasa NS5B (sofosbuvir) más inhibidor de NS5A (velpatasvir)",
+    "mecanismo": "El SOFOSBUVIR es un profármaco de nucleótido que, tras fosforilarse, actúa como TERMINADOR DE CADENA de la ARN polimerasa NS5B del VHC; su sitio de unión está muy conservado entre genotipos, lo que le da actividad pangenotípica y barrera de resistencia alta. El VELPATASVIR inhibe la proteína NS5A, esencial para el ensamblaje del complejo de replicación y la formación del virión. La combinación de dos dianas independientes es lo que permite curar la infección en pocas semanas sin interferón ni ribavirina.",
+    "espectro": "VIRUS DE LA HEPATITIS C, TODOS los genotipos (1 a 6): pauta pangenotípica.",
+    "indicaciones": [
+      {
+        "patologia": "Hepatitis C crónica sin cirrosis o con cirrosis compensada (Child A)",
+        "dosis": "400/100 mg, 1 comprimido/24 h durante 12 semanas",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Tasa de curación superior al 95% con independencia del genotipo; no requiere genotipar"
+      },
+      {
+        "patologia": "Hepatitis C con cirrosis descompensada (Child B-C)",
+        "dosis": "400/100 mg/24 h más ribavirina, durante 12 semanas",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es la pauta preferida en la descompensación, porque a diferencia de otras no contiene inhibidor de la proteasa"
+      },
+      {
+        "patologia": "Hepatitis C aguda",
+        "dosis": "400/100 mg/24 h durante 8-12 semanas",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "El tratamiento precoz evita la cronificación y corta la cadena de transmisión"
+      },
+      {
+        "patologia": "Manifestaciones extrahepáticas del VHC (crioglobulinemia, linfoma de zona marginal)",
+        "dosis": "400/100 mg/24 h durante 12 semanas",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "La erradicación viral puede hacer regresar la vasculitis crioglobulinémica y el linfoma asociado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Un comprimido diario desde el primer día, con o sin alimento. Antes de empezar: ARN-VHC, valoración de fibrosis, HBsAg y anti-HBc, función renal y REVISIÓN EXHAUSTIVA DE INTERACCIONES.",
+      "titulacion": "No se titula: dosis fija.",
+      "duracion": "12 semanas en la inmensa mayoría de los casos; 8 semanas con otras pautas pangenotípicas en el paciente sin cirrosis.",
+      "fin": "Se completa el ciclo y se comprueba la curación con ARN-VHC a las 12 semanas de FINALIZAR (respuesta viral sostenida). No hay tratamiento de mantenimiento.",
+      "via": "VO, una vez al día.",
+      "monitorizacion": "ARN-VHC al final del tratamiento y, sobre todo, a las 12 semanas de terminarlo. Transaminasas y control del VHB si hay coinfección. En el cirrótico, cribado semestral de hepatocarcinoma DE POR VIDA aunque se cure."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; la absorción del velpatasvir depende del pH GÁSTRICO y disminuye de forma marcada con antiácidos e inhibidores de la bomba de protones.",
+      "distribucion": "Velpatasvir con unión a proteínas muy alta; sofosbuvir con distribución amplia y activación intracelular hepática.",
+      "metabolismo": "El sofosbuvir se activa por hidrolasas y cinasas intrahepáticas hasta su metabolito trifosfato; el velpatasvir se metaboliza parcialmente por CYP2B6, CYP2C8 y CYP3A4. Ambos son sustratos de la GLUCOPROTEÍNA P, lo que explica su vulnerabilidad a los inductores.",
+      "eliminacion": "Sofosbuvir principalmente RENAL como metabolito inactivo GS-331007; velpatasvir principalmente BILIAR.",
+      "vida_media": "Sofosbuvir 0,5 h (su metabolito 27 h); velpatasvir 15 h.",
+      "ajuste_renal": "No precisa ajuste; puede usarse incluso en enfermedad renal terminal y hemodiálisis con las formulaciones actuales.",
+      "ajuste_hepatico": "No precisa ajuste de dosis, y puede usarse en cirrosis descompensada (añadiendo ribavirina), a diferencia de las pautas con inhibidor de la proteasa.",
+      "interacciones": [
+        {
+          "con": "AMIODARONA",
+          "efecto": "BRADICARDIA GRAVE y bloqueo, con casos de parada cardiaca y necesidad de marcapasos",
+          "gravedad": "alta",
+          "manejo": "Combinación CONTRAINDICADA. Si es inevitable, ingreso con monitorización cardiaca durante las primeras 48 h y vigilancia posterior"
+        },
+        {
+          "con": "Rifampicina, rifabutina, carbamazepina, fenitoína, fenobarbital, hierba de San Juan",
+          "efecto": "Inducción de la glucoproteína P y del CYP3A4 con caída de las concentraciones y FRACASO TERAPÉUTICO",
+          "gravedad": "alta",
+          "manejo": "Contraindicados. Retirar o sustituir el inductor antes de tratar"
+        },
+        {
+          "con": "Inhibidores de la bomba de protones y antiácidos",
+          "efecto": "Reducen la absorción del velpatasvir al elevar el pH gástrico",
+          "gravedad": "media",
+          "manejo": "Evitarlos si es posible; si son imprescindibles, administrar el antivírico CON comida y 4 h antes del IBP, a la menor dosis de este"
+        },
+        {
+          "con": "Estatinas (sobre todo rosuvastatina y atorvastatina)",
+          "efecto": "Aumento de sus concentraciones con riesgo de miopatía y rabdomiólisis",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de la estatina o suspenderla durante las 12 semanas de tratamiento"
+        },
+        {
+          "con": "Tenofovir disoproxilo",
+          "efecto": "Aumento de las concentraciones de tenofovir con más riesgo renal",
+          "gravedad": "media",
+          "manejo": "Vigilar la función renal o valorar el cambio a TAF durante el tratamiento"
+        },
+        {
+          "con": "Antagonistas de la vitamina K",
+          "efecto": "La mejoría de la función hepática al curarse altera el INR",
+          "gravedad": "media",
+          "manejo": "Controlar el INR con más frecuencia durante y después del tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Astenia",
+        "Náuseas",
+        "Insomnio",
+        "En general la tolerancia es excelente: la mayoría de los pacientes no refiere ningún efecto"
+      ],
+      "graves": [
+        "REACTIVACIÓN DEL VIRUS DE LA HEPATITIS B, que puede ser fulminante, en pacientes coinfectados",
+        "Bradiarritmia grave en asociación con amiodarona",
+        "Anemia si se añade ribavirina en la pauta de la cirrosis descompensada"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a sofosbuvir o velpatasvir",
+      "Uso concomitante con inductores potentes: rifampicina, carbamazepina, fenitoína, fenobarbital, hierba de San Juan",
+      "Uso concomitante con amiodarona (contraindicación relativa que exige monitorización hospitalaria si es inevitable)"
+    ],
+    "perlas": [
+      "Es el primer grupo de fármacos que CURA una infección vírica crónica: más del 95% de respuesta viral sostenida en 12 semanas por vía oral y con tolerancia casi de placebo. Ha convertido la hepatitis C en una enfermedad curable en atención primaria.",
+      "Hay que cribar el VHB (HBsAg y anti-HBc) ANTES de tratar: al suprimir el VHC desaparece la interferencia entre ambos virus y puede desencadenarse una reactivación grave del VHB. Es una advertencia con recuadro negro y una de las pocas complicaciones mortales de este tratamiento.",
+      "La interacción con AMIODARONA es la más peligrosa y la menos intuitiva: bradicardia sintomática grave por un mecanismo aún no aclarado, con casos mortales. Preguntar siempre por la amiodarona, incluida la retirada reciente, ya que su vida media es de semanas.",
+      "Su talón de Aquiles son los INDUCTORES ENZIMÁTICOS: la rifampicina o la carbamazepina bastan para hacer fracasar un tratamiento por lo demás casi infalible. La revisión de la medicación es tan importante como la prescripción.",
+      "El velpatasvir necesita ACIDEZ gástrica: los inhibidores de la bomba de protones, que muchos pacientes toman sin indicación, pueden reducir su absorción. Retirar el IBP innecesario es parte del tratamiento.",
+      "Curar la hepatitis C NO elimina el riesgo de hepatocarcinoma en quien ya tenía cirrosis: ese paciente sigue el cribado ecográfico semestral de por vida. El que no tenía fibrosis avanzada, en cambio, se da de alta.",
+      "El paciente curado sigue teniendo anticuerpos anti-VHC positivos de por vida y puede REINFECTARSE: la curación no deja inmunidad."
+    ],
+    "embarazo_lactancia": "No hay datos suficientes; no se recomienda durante el embarazo. Si la pauta incluye ribavirina, esta es TERATÓGENA y está formalmente contraindicada, con anticoncepción obligatoria durante el tratamiento y los 6 meses siguientes en ambos sexos.",
+    "micro_relacionado": [
+      "VIR-virus-hepatitis-c"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de hepatitis crónica"
+  },
+  {
+    "id": "INF-bictegravir-emtricitabina-tenofovir-alafenamida",
+    "nombre": "Bictegravir/emtricitabina/tenofovir alafenamida",
+    "sinonimos": [
+      "BIC/FTC/TAF",
+      "Régimen antirretroviral de un solo comprimido"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Tratamiento antirretroviral combinado en comprimido único",
+    "subclase": "Inhibidor de la integrasa de segunda generación más dos inhibidores de la transcriptasa inversa análogos de nucleósido/nucleótido",
+    "mecanismo": "El BICTEGRAVIR inhibe la INTEGRASA del VIH y bloquea la transferencia de cadena, impidiendo la inserción del ADN proviral en el genoma celular: sin integración no hay replicación productiva ni ampliación del reservorio. La EMTRICITABINA y el TENOFOVIR ALAFENAMIDA son análogos que, tras fosforilarse, terminan la cadena de ADN sintetizada por la transcriptasa inversa. Atacar dos pasos consecutivos del ciclo con tres fármacos es lo que impide la selección de resistencias.",
+    "espectro": "VIH-1 y VIH-2. Los componentes emtricitabina y tenofovir tienen además actividad frente al VIRUS DE LA HEPATITIS B.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH: tratamiento de inicio",
+        "dosis": "50/200/25 mg, 1 comprimido/24 h",
+        "posologia": "Una vez al día, con o sin alimento",
+        "via": "VO",
+        "nota": "Una de las pautas preferentes de inicio: eficaz, bien tolerada, con barrera genética alta y sin necesidad de potenciador farmacocinético"
+      },
+      {
+        "patologia": "Infección por VIH: simplificación en el paciente con carga viral suprimida",
+        "dosis": "1 comprimido/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Permite pasar de pautas complejas o mal toleradas a un único comprimido, siempre que no haya resistencias documentadas a sus componentes"
+      },
+      {
+        "patologia": "Coinfección VIH y hepatitis B crónica",
+        "dosis": "1 comprimido/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Ventaja específica: emtricitabina y tenofovir tratan simultáneamente ambas infecciones"
+      },
+      {
+        "patologia": "Profilaxis postexposición al VIH",
+        "dosis": "1 comprimido/24 h durante 28 días",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Debe iniciarse antes de 72 h y, a ser posible, en las primeras 24 h tras la exposición"
+      }
+    ],
+    "esquema": {
+      "inicio": "Un comprimido diario desde el diagnóstico, sin esperar a los resultados del estudio de resistencias en la mayoría de los casos: hoy se recomienda el inicio RÁPIDO, incluso el mismo día. Antes de empezar: carga viral, CD4, resistencias, función renal, perfil lipídico, VHB, VHC y tuberculosis latente.",
+      "titulacion": "No se titula: dosis fija.",
+      "duracion": "INDEFINIDA, de por vida. No existe indicación de interrumpir el tratamiento antirretroviral.",
+      "fin": "No se suspende. Si hay que cambiarlo, se sustituye por otra pauta completa sin dejar días sin tratamiento; interrumpir de golpe en un coinfectado por VHB puede provocar una reagudización hepática grave.",
+      "via": "VO, una vez al día. Cuidado con los cationes: separar de antiácidos y suplementos.",
+      "monitorizacion": "Carga viral a las 4-8 semanas y después cada 3-6 meses hasta la estabilidad; CD4; función renal y proteinuria; perfil lipídico y peso; densitometría según riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena, con o sin alimento. La absorción del bictegravir se reduce de forma marcada con CATIONES POLIVALENTES (aluminio, magnesio, calcio, hierro), que lo quelan.",
+      "distribucion": "Amplia; alta unión a proteínas del bictegravir.",
+      "metabolismo": "Bictegravir por CYP3A4 y UGT1A1 a partes iguales, lo que lo hace menos vulnerable a un solo inductor pero sensible a los potentes. Emtricitabina apenas se metaboliza.",
+      "eliminacion": "Bictegravir por vía hepática y biliar; emtricitabina y tenofovir por vía RENAL.",
+      "vida_media": "Bictegravir 18 h; el metabolito activo intracelular del tenofovir supera las 60 h.",
+      "ajuste_renal": "No se recomienda con FG por debajo de 30 (salvo pautas específicas en diálisis), por el componente de tenofovir alafenamida y emtricitabina.",
+      "ajuste_hepatico": "No precisa ajuste en la insuficiencia leve-moderada; no recomendado en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "RIFAMPICINA y otros inductores potentes (carbamazepina, fenitoína, hierba de San Juan)",
+          "efecto": "Caída de las concentraciones de bictegravir y de tenofovir alafenamida con FRACASO VIROLÓGICO",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO con rifampicina. En el paciente con tuberculosis hay que cambiar la pauta antirretroviral (por ejemplo, dolutegravir cada 12 h con rifampicina) o usar rifabutina"
+        },
+        {
+          "con": "Antiácidos, suplementos de calcio, magnesio y HIERRO, multivitamínicos",
+          "efecto": "QUELACIÓN del bictegravir con pérdida de absorción y riesgo de fracaso",
+          "gravedad": "alta",
+          "manejo": "Tomar el antirretroviral 2 h ANTES del catión, o junto con la comida si se trata de calcio o hierro. Es un error muy frecuente y silencioso"
+        },
+        {
+          "con": "Metformina",
+          "efecto": "El bictegravir inhibe el transportador OCT2 y eleva las concentraciones de metformina",
+          "gravedad": "media",
+          "manejo": "Vigilar tolerancia digestiva; puede requerir reducir la dosis de metformina"
+        },
+        {
+          "con": "Dofetilida",
+          "efecto": "Aumento de sus concentraciones con riesgo de arritmias graves",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Náuseas y diarrea, habitualmente leves y transitorias",
+        "Insomnio y sueños vívidos",
+        "AUMENTO DE PESO, más marcado en mujeres y en personas de origen africano",
+        "Elevación leve de la creatinina sin pérdida real de filtrado (el bictegravir inhibe su secreción tubular)"
+      ],
+      "graves": [
+        "REAGUDIZACIÓN GRAVE de la hepatitis B al suspender el tratamiento en el coinfectado",
+        "Reacciones de hipersensibilidad y hepatotoxicidad (poco frecuentes)",
+        "Síndrome inflamatorio de reconstitución inmunitaria en las semanas siguientes al inicio",
+        "Alteraciones neuropsiquiátricas: insomnio, ansiedad y depresión, efecto de clase de los inhibidores de la integrasa"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a cualquiera de los componentes",
+      "Uso concomitante con rifampicina, hierba de San Juan o dofetilida"
+    ],
+    "perlas": [
+      "El cambio conceptual que representa: un solo comprimido al día, sin potenciador farmacocinético, con barrera genética alta y sin requisito de tomarlo con comida. La adherencia dejó de ser el principal problema del tratamiento antirretroviral.",
+      "La elevación de la CREATININA de hasta 0,1-0,2 mg/dL en las primeras semanas es esperable y NO indica daño renal: el bictegravir (como el dolutegravir y el cobicistat) inhibe la secreción tubular de creatinina sin alterar el filtrado real. Interpretarlo como nefrotoxicidad y suspender el tratamiento es un error clásico.",
+      "La QUELACIÓN por cationes es la interacción práctica más importante y la más fácil de pasar por alto: un simple antiácido, un suplemento de hierro o un multivitamínico pueden hacer fracasar el tratamiento. Hay que preguntar activamente por medicación sin receta.",
+      "En el coinfectado por VHB, esta pauta trata las dos infecciones a la vez, pero por eso mismo NO puede interrumpirse sin sustituir la cobertura del VHB: la retirada brusca puede desencadenar una hepatitis grave.",
+      "INDETECTABLE ES IGUAL A INTRANSMISIBLE: comunicárselo al paciente cambia su vida social y afectiva y mejora la adherencia. Es parte del tratamiento, no un comentario accesorio.",
+      "El AUMENTO DE PESO asociado a los inhibidores de la integrasa, sobre todo combinados con tenofovir alafenamida, es un efecto real que conviene anticipar y vigilar, con consejo dietético desde el inicio.",
+      "Con RIFAMPICINA no puede usarse: en el paciente con tuberculosis y VIH hay que rediseñar la pauta antirretroviral, no la antituberculosa."
+    ],
+    "embarazo_lactancia": "Datos crecientes y tranquilizadores, pero en el embarazo se prefieren pautas con más experiencia acumulada, como dolutegravir con tenofovir disoproxilo y emtricitabina. La lactancia se desaconseja en países con acceso seguro a lactancia artificial.",
+    "micro_relacionado": [
+      "VIR-vih",
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH"
+  },
+  {
+    "id": "INF-dolutegravir",
+    "nombre": "Dolutegravir",
+    "sinonimos": [
+      "DTG"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antirretroviral inhibidor de la integrasa",
+    "subclase": "Inhibidor de la transferencia de cadena de segunda generación",
+    "mecanismo": "Se une al sitio activo de la INTEGRASA viral, ocupando el lugar del ADN diana y bloqueando la transferencia de cadena: el ADN proviral no llega a integrarse en el cromosoma de la célula huésped. Su disociación lenta del complejo integrasa-ADN es la base de su BARRERA GENÉTICA ALTA, que en la práctica hace que el fracaso virológico rara vez se acompañe de resistencia.",
+    "espectro": "VIH-1 y VIH-2 (activo también frente al VIH-2, a diferencia de los inhibidores de la transcriptasa inversa no nucleósidos).",
+    "indicaciones": [
+      {
+        "patologia": "Infección por VIH: tratamiento de inicio",
+        "dosis": "50 mg/24 h asociado a dos análogos de nucleósido (habitualmente tenofovir y emtricitabina o lamivudina)",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Pauta preferente en la mayoría de las guías, incluida la Organización Mundial de la Salud"
+      },
+      {
+        "patologia": "Infección por VIH: biterapia de mantenimiento",
+        "dosis": "Dolutegravir 50 mg + lamivudina 300 mg, 1 comprimido/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Solo en pacientes sin coinfección por VHB, sin resistencias a lamivudina y con carga viral basal no muy elevada"
+      },
+      {
+        "patologia": "Infección por VIH con resistencia previa a inhibidores de la integrasa",
+        "dosis": "50 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Es el único inhibidor de la integrasa con actividad en algunas cepas resistentes a raltegravir o elvitegravir"
+      },
+      {
+        "patologia": "Infección por VIH en tratamiento concomitante con rifampicina",
+        "dosis": "50 mg/12 h mientras dure la rifampicina y 2 semanas después",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Solución práctica en la coinfección con tuberculosis, en la que otros inhibidores de la integrasa no son viables"
+      }
+    ],
+    "esquema": {
+      "inicio": "50 mg/24 h desde el primer día, sin escalado. Puede iniciarse el mismo día del diagnóstico.",
+      "titulacion": "No se titula: la dosis solo se dobla a 50 mg/12 h con rifampicina o ante resistencia a inhibidores de la integrasa.",
+      "duracion": "INDEFINIDA, de por vida.",
+      "fin": "No se suspende; los cambios se hacen sustituyendo por otra pauta completa.",
+      "via": "VO. Separar de los cationes polivalentes.",
+      "monitorizacion": "Carga viral y CD4 periódicos; peso y perfil metabólico; síntomas neuropsiquiátricos en los primeros meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena, con o sin alimento, aunque la comida aumenta algo la exposición. QUELADO por cationes polivalentes.",
+      "distribucion": "Alta unión a proteínas; penetración razonable en LCR y tracto genital.",
+      "metabolismo": "Principalmente por UGT1A1, con contribución menor del CYP3A4. Esa doble vía lo hace menos vulnerable que otros a un solo inhibidor, pero sensible a los inductores potentes.",
+      "eliminacion": "Fundamentalmente FECAL tras metabolismo hepático; solo un tercio por orina como metabolitos.",
+      "vida_media": "14 h, que sostiene la dosis única diaria.",
+      "ajuste_renal": "No precisa ajuste, ni siquiera en la insuficiencia renal avanzada (su eliminación no es renal). Los análogos que lo acompañan sí lo precisan.",
+      "ajuste_hepatico": "No precisa ajuste en la insuficiencia leve-moderada (Child A-B); no recomendado en la grave.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, calcio, magnesio, HIERRO y multivitamínicos con cationes",
+          "efecto": "Quelación con caída de la absorción y riesgo de fracaso virológico",
+          "gravedad": "alta",
+          "manejo": "Tomar el dolutegravir 2 h antes o 6 h después del catión; si se toma con COMIDA, el calcio y el hierro pueden administrarse a la vez"
+        },
+        {
+          "con": "RIFAMPICINA",
+          "efecto": "Inducción con caída de las concentraciones a la mitad",
+          "gravedad": "alta",
+          "manejo": "DOBLAR la dosis a 50 mg/12 h durante el tratamiento antituberculoso y 2 semanas después. Alternativa: rifabutina, que no obliga a doblar"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital, hierba de San Juan",
+          "efecto": "Inducción potente con pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Evitar; sustituir el antiepiléptico por levetiracetam o lacosamida"
+        },
+        {
+          "con": "METFORMINA",
+          "efecto": "Inhibición del transportador OCT2 con elevación de las concentraciones de metformina hasta el doble",
+          "gravedad": "media",
+          "manejo": "Limitar la metformina a 1 g/día y vigilar tolerancia digestiva y función renal"
+        },
+        {
+          "con": "Dofetilida",
+          "efecto": "Elevación de sus concentraciones con riesgo de arritmia ventricular",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "INSOMNIO y sueños vívidos",
+        "Cefalea",
+        "Náuseas y diarrea",
+        "Aumento de peso",
+        "Elevación leve de la creatinina sin cambio del filtrado real"
+      ],
+      "graves": [
+        "Reacciones de hipersensibilidad con exantema y afectación orgánica (poco frecuentes)",
+        "Hepatotoxicidad, especialmente en coinfectados por VHB o VHC",
+        "Trastornos neuropsiquiátricos: depresión, ansiedad e ideación suicida en pacientes predispuestos",
+        "Síndrome inflamatorio de reconstitución inmunitaria"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al dolutegravir",
+      "Uso concomitante con dofetilida",
+      "Uso concomitante con hierba de San Juan y otros inductores potentes sin ajuste"
+    ],
+    "perlas": [
+      "Su ventaja diferencial es la BARRERA GENÉTICA: el fracaso virológico con dolutegravir rara vez se acompaña de resistencia a la integrasa, lo que preserva opciones futuras. Por eso es la pauta recomendada por la Organización Mundial de la Salud a escala global.",
+      "Es el inhibidor de la integrasa que permite tratar la TUBERCULOSIS a la vez que el VIH: basta con doblar la dosis a 50 mg/12 h durante la rifampicina. Ninguna otra opción de su clase resuelve el problema de forma tan sencilla.",
+      "La señal inicial de defectos del TUBO NEURAL en la concepción bajo dolutegravir (estudio de Botsuana) NO se confirmó con el seguimiento posterior: hoy se considera seguro en el embarazo y es de hecho la pauta preferente en la gestante. Conviene conocer esta historia porque sigue apareciendo en textos y en la memoria de los pacientes.",
+      "Eleva la creatinina en las primeras semanas sin dañar el riñón, por inhibición de su secreción tubular: hay que reconocerlo como un artefacto esperable y no suspender el tratamiento.",
+      "El INSOMNIO y los sueños vívidos son frecuentes al inicio y suelen mejorar; tomarlo por la mañana en lugar de por la noche resuelve muchos casos sin cambiar de fármaco.",
+      "La interacción con METFORMINA es concreta y práctica: en el diabético con VIH hay que limitar la metformina a 1 g/día al iniciar dolutegravir.",
+      "A diferencia de los inhibidores de la transcriptasa inversa no nucleósidos, es ACTIVO frente al VIH-2, que es intrínsecamente resistente a aquellos."
+    ],
+    "embarazo_lactancia": "Considerado seguro y pauta preferente en el embarazo con la evidencia actual, incluida la concepción. La lactancia se desaconseja en contextos con acceso seguro a lactancia artificial.",
+    "micro_relacionado": [
+      "VIR-vih"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de tratamiento de la infección por VIH"
+  },
+  {
+    "id": "INF-nirmatrelvir-ritonavir",
+    "nombre": "Nirmatrelvir/ritonavir",
+    "sinonimos": [
+      "Paxlovid"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antivírico oral frente al SARS-CoV-2",
+    "subclase": "Inhibidor de la proteasa principal 3CL potenciado con ritonavir",
+    "mecanismo": "El NIRMATRELVIR inhibe la proteasa principal (Mpro o 3CLpro) del SARS-CoV-2, imprescindible para escindir las poliproteínas virales en proteínas funcionales: sin ese procesamiento no se ensambla el complejo de replicación. El RITONAVIR no tiene aquí actividad antivírica: se añade en dosis baja como POTENCIADOR FARMACOCINÉTICO, inhibiendo el CYP3A4 que metabolizaría rápidamente al nirmatrelvir. Esa inhibición deliberada del CYP3A4 es también el origen de casi todas sus interacciones.",
+    "espectro": "SARS-CoV-2, incluidas las variantes circulantes (la proteasa 3CL está muy conservada).",
+    "indicaciones": [
+      {
+        "patologia": "COVID-19 leve o moderado en paciente ambulatorio con riesgo de progresión",
+        "dosis": "Nirmatrelvir 300 mg (2 comprimidos de 150 mg) + ritonavir 100 mg, cada 12 h durante 5 días",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Debe iniciarse en los PRIMEROS 5 DÍAS desde el inicio de los síntomas; después ya no aporta beneficio porque la fase de replicación viral ha terminado"
+      },
+      {
+        "patologia": "COVID-19 en el paciente inmunodeprimido",
+        "dosis": "300/100 mg/12 h durante 5 días",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Grupo de máximo beneficio; en el inmunodeprimido grave con replicación persistente pueden plantearse pautas prolongadas de forma individualizada"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cuanto antes, dentro de los 5 días desde el inicio de los síntomas. Antes de la primera dosis: REVISAR TODA LA MEDICACIÓN del paciente y calcular el filtrado glomerular.",
+      "titulacion": "No se titula. La única modificación posible es la reducción por insuficiencia renal moderada.",
+      "duracion": "5 días exactos, 10 dosis en total.",
+      "fin": "Se completa el ciclo y se retira. Las interacciones del ritonavir persisten unos días tras la última dosis, por lo que los fármacos suspendidos no deben reintroducirse el mismo día.",
+      "via": "VO, con o sin alimento; los comprimidos se toman juntos.",
+      "monitorizacion": "Ninguna analítica de rutina. Lo que se monitoriza es la INTERACCIÓN: función renal si el paciente toma tacrolimús o anticoagulantes, e INR si toma antivitamina K."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida por vía oral, con o sin comida.",
+      "distribucion": "Amplia; el nirmatrelvir tiene baja unión a proteínas.",
+      "metabolismo": "El nirmatrelvir es sustrato del CYP3A4, cuya inhibición por el ritonavir multiplica su exposición. El ritonavir es un INHIBIDOR POTENTE del CYP3A4 y de la glucoproteína P, y además inductor débil de otras vías.",
+      "eliminacion": "Renal, mayoritariamente inalterado el nirmatrelvir.",
+      "vida_media": "6-7 h del nirmatrelvir; la inhibición enzimática del ritonavir persiste 3-5 días tras la última dosis.",
+      "ajuste_renal": "FG 30-59: reducir a nirmatrelvir 150 mg + ritonavir 100 mg cada 12 h. FG por debajo de 30: NO se recomienda.",
+      "ajuste_hepatico": "No precisa ajuste en la insuficiencia leve-moderada; no recomendado en la grave (Child C).",
+      "interacciones": [
+        {
+          "con": "Estatinas (simvastatina, lovastatina y, en menor medida, atorvastatina)",
+          "efecto": "Elevación marcada con riesgo de miopatía y RABDOMIÓLISIS",
+          "gravedad": "alta",
+          "manejo": "SUSPENDER simvastatina y lovastatina durante el tratamiento y 3-5 días después; reducir la dosis de atorvastatina o suspenderla"
+        },
+        {
+          "con": "Anticoagulantes orales directos (rivaroxabán, apixabán)",
+          "efecto": "Aumento de las concentraciones con riesgo HEMORRÁGICO",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; valorar cambio temporal a heparina de bajo peso molecular o elegir otro antivírico (remdesivir)"
+        },
+        {
+          "con": "Inmunosupresores: tacrolimús, ciclosporina, sirolimús, everolimús",
+          "efecto": "Elevación muy intensa de sus concentraciones con nefrotoxicidad y toxicidad grave",
+          "gravedad": "alta",
+          "manejo": "Solo con manejo especializado y monitorización de niveles; en la práctica suele preferirse remdesivir en el trasplantado"
+        },
+        {
+          "con": "Amiodarona, flecainida, propafenona, quinidina",
+          "efecto": "Riesgo de arritmias graves por acumulación",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, fenobarbital, hierba de San Juan",
+          "efecto": "Inducción que reduce las concentraciones de nirmatrelvir y anula su eficacia",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Benzodiacepinas metabolizadas por CYP3A4 (midazolam, triazolam) y colchicina",
+          "efecto": "Sedación prolongada; toxicidad grave de la colchicina, potencialmente mortal en la insuficiencia renal",
+          "gravedad": "alta",
+          "manejo": "Contraindicados; usar lorazepam u oxazepam si se precisa benzodiacepina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DISGEUSIA: sabor metálico o amargo persistente, muy característico y referido por muchos pacientes",
+        "Diarrea",
+        "Náuseas",
+        "Cefalea",
+        "Hipertensión leve"
+      ],
+      "graves": [
+        "Toxicidad grave derivada de las INTERACCIONES: rabdomiólisis, hemorragia, nefrotoxicidad por inmunosupresores, arritmias",
+        "Hepatotoxicidad (poco frecuente)",
+        "Reacciones de hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a cualquiera de los componentes",
+      "Uso concomitante con fármacos de estrecho margen terapéutico dependientes del CYP3A4 (amiodarona, colchicina en insuficiencia renal, ergotamínicos, midazolam oral, ranolazina, sildenafilo para hipertensión pulmonar)",
+      "Uso concomitante con inductores potentes del CYP3A4",
+      "Insuficiencia renal grave (FG por debajo de 30) o insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Lo determinante de este fármaco no es su eficacia antivírica sino su LISTA DE INTERACCIONES: prescribirlo sin revisar la medicación completa del paciente es la principal fuente de daño. En la práctica, la consulta de prescripción es una consulta de conciliación farmacológica.",
+      "La VENTANA de 5 días es estricta y tiene una lógica clara: actúa sobre la fase de REPLICACIÓN viral. Pasada esa fase, el problema del paciente es INFLAMATORIO y lo que corresponde es dexametasona, no un antivírico.",
+      "El ritonavir en esta combinación NO trata nada: está solo para inhibir el CYP3A4 y sostener las concentraciones del nirmatrelvir. Entender eso explica de golpe todo su perfil de interacciones.",
+      "La inhibición enzimática NO desaparece con la última dosis: persiste 3-5 días. Los fármacos suspendidos (estatinas, anticoagulantes directos) deben reintroducirse pasados esos días, no al terminar el ciclo.",
+      "La DISGEUSIA metálica es tan característica que a menudo el paciente la describe espontáneamente; conviene advertirla de antemano para que no abandone el tratamiento.",
+      "Se ha descrito REBOTE de síntomas y de positividad de la PCR unos días después de terminar el tratamiento; es autolimitado, no indica resistencia y no requiere repetir el ciclo, pero sí reaislamiento.",
+      "En el paciente con insuficiencia renal moderada hay una dosis reducida específica, y con FG por debajo de 30 no debe usarse: es un error frecuente en el anciano, precisamente el grupo con más indicación."
+    ],
+    "embarazo_lactancia": "Datos limitados. Se valora individualmente si el beneficio supera el riesgo; la experiencia con ritonavir en el embarazo por su uso en el VIH es amplia y tranquilizadora. Se recomienda precaución durante la lactancia.",
+    "micro_relacionado": [
+      "VIR-sars-cov-2"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed. y protocolos vigentes de tratamiento de la COVID-19"
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "DIG-terlipresina-octreotido",
+    "nombre": "Terlipresina y somatostatina/octreótido",
+    "sinonimos": [
+      "Vasoconstrictores esplácnicos"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Vasoactivo esplácnico",
+    "subclase": "Análogo de vasopresina y análogos de somatostatina",
+    "mecanismo": "Ambos reducen la presión portal por el mismo objetivo y por vías distintas. La TERLIPRESINA es un profármaco de la vasopresina que libera lisina-vasopresina de forma lenta y sostenida; actúa sobre receptores V1 del músculo liso de las arteriolas ESPLÁCNICAS produciendo vasoconstricción, con lo que disminuye el flujo que llega al territorio portal y baja la presión en las varices. En el síndrome hepatorrenal ese mismo mecanismo corrige el problema de fondo: la vasodilatación esplácnica del cirrótico secuestra volumen circulante efectivo, el riñón lo interpreta como hipovolemia y se vasoconstriñe; al contraer el lecho esplácnico se redistribuye volumen hacia la circulación sistémica y mejora la perfusión renal. La SOMATOSTATINA y su análogo OCTREÓTIDO inhiben la liberación de péptidos vasodilatadores esplácnicos, sobre todo el glucagón, consiguiendo un efecto similar con menos vasoconstricción sistémica y por tanto menos isquemia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "HEMORRAGIA DIGESTIVA ALTA por VARICES esofágicas",
+        "dosis": "Terlipresina 2 mg IV cada 4 horas las primeras 48 horas y después 1 mg cada 4 horas; u octreótido 50 microgramos en bolo y 50 microgramos/h en perfusión",
+        "posologia": "Bolos cada 4 horas o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Control del sangrado y estabilización hasta la endoscopia y en las 48-72 horas siguientes",
+        "nota": "Se inicia ANTES de la endoscopia, ante la sola sospecha: no hay que esperar a confirmar el origen varicoso"
+      },
+      {
+        "patologia": "SÍNDROME HEPATORRENAL tipo 1 (lesión renal aguda del cirrótico)",
+        "dosis": "Terlipresina 1 mg IV cada 4-6 horas, ascendiendo hasta 2 mg cada 4 horas, SIEMPRE asociada a ALBÚMINA 20-40 g al día",
+        "posologia": "Bolos cada 4-6 horas o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Descenso de la creatinina por debajo de 1,5 mg/dL o retorno al valor basal",
+        "nota": "La ALBÚMINA no es un accesorio: sin ella la terlipresina es mucho menos eficaz. Es la combinación la que funciona"
+      },
+      {
+        "patologia": "Profilaxis y tratamiento de la hemorragia en la hipertensión portal, junto a medidas endoscópicas",
+        "dosis": "Terlipresina 1-2 mg IV cada 4 horas durante 2-5 días",
+        "posologia": "Cada 4 horas",
+        "via": "IV",
+        "nota": "Se asocia SIEMPRE a antibiótico profiláctico (ceftriaxona), que reduce la mortalidad de forma independiente"
+      },
+      {
+        "patologia": "Fístulas digestivas y pancreáticas de alto débito, diarrea secretora y tumores neuroendocrinos (octreótido)",
+        "dosis": "Octreótido 100 microgramos SC cada 8 horas, o formulación depot mensual",
+        "posologia": "Cada 8 horas o mensual",
+        "via": "SC",
+        "nota": "En el síndrome carcinoide controla la diarrea y el rubor, y previene la crisis carcinoide durante la cirugía"
+      },
+      {
+        "patologia": "ACROMEGALIA (octreótido y lanreótido)",
+        "dosis": "Octreótido depot 20-30 mg IM cada 4 semanas",
+        "posologia": "Mensual",
+        "via": "IM",
+        "dosis_objetivo": "Normalización de la IGF-1",
+        "nota": "Tratamiento médico de elección cuando la cirugía no es curativa"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la hemorragia por varices, iniciar de INMEDIATO ante la sospecha, junto con antibiótico profiláctico, transfusión RESTRICTIVA (objetivo de hemoglobina de 7-8 g/dL) y endoscopia en las primeras 12 horas.",
+      "titulacion": "En el síndrome hepatorrenal se asciende según la respuesta de la creatinina, siempre con albúmina.",
+      "duracion": "2-5 días en la hemorragia; hasta 14 días en el síndrome hepatorrenal.",
+      "fin": "Se suspende tras 24-48 horas sin sangrado, o ante isquemia o hiponatremia grave.",
+      "via": "Intravenosa (terlipresina) o subcutánea e intravenosa (octreótido).",
+      "monitorizacion": "SODIO (la terlipresina produce hiponatremia rápida y a veces grave), tensión arterial, ECG, y vigilancia de signos de ISQUEMIA periférica, intestinal y coronaria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Parenteral.",
+      "distribucion": "Sistémica con predominio esplácnico.",
+      "metabolismo": "La terlipresina se convierte lentamente en lisina-vasopresina por peptidasas endoteliales, lo que le da una liberación sostenida.",
+      "eliminacion": "Renal y metabólica.",
+      "vida_media": "Terlipresina 50 minutos, con efecto de 4-6 horas que permite la administración en bolos; octreótido 1,5 horas.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Se usan precisamente en el hepatópata; sin ajuste específico.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes y fármacos bradicardizantes",
+          "efecto": "Bradicardia grave con la terlipresina",
+          "gravedad": "alta",
+          "manejo": "Muy relevante porque el cirrótico suele estar con propranolol o carvedilol como profilaxis de varices"
+        },
+        {
+          "con": "INSULINA y antidiabéticos (octreótido)",
+          "efecto": "El octreótido inhibe también la insulina y el glucagón: puede producir HIPER o HIPOGLUCEMIA impredecible",
+          "gravedad": "media",
+          "manejo": "Vigilar la glucemia y ajustar la insulina"
+        },
+        {
+          "con": "Ciclosporina (octreótido)",
+          "efecto": "Reduce su absorción",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles en el trasplantado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal cólico y diarrea",
+        "Palidez, hipertensión y bradicardia (terlipresina)",
+        "HIPONATREMIA, que puede ser rápida y marcada",
+        "Náuseas y flatulencia (octreótido)"
+      ],
+      "graves": [
+        "ISQUEMIA por vasoconstricción: cutánea (necrosis, sobre todo en el escroto y en zonas acras), INTESTINAL (isquemia mesentérica), CORONARIA y periférica",
+        "HIPONATREMIA GRAVE con convulsiones, sobre todo en el cirrótico joven con buena función hepática, en el que puede caer varios puntos en 48 horas",
+        "Insuficiencia respiratoria y edema pulmonar en el síndrome hepatorrenal (advertencia añadida a la ficha técnica)",
+        "Bradicardia grave y arritmias",
+        "Colelitiasis con el octreótido de uso prolongado (inhibe la contracción vesicular)",
+        "Hiperglucemia o hipoglucemia con octreótido"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica y arritmias graves",
+      "Arteriopatía periférica avanzada",
+      "Hipertensión arterial no controlada",
+      "Embarazo (terlipresina: efecto oxitócico)",
+      "Precaución en el paciente con insuficiencia respiratoria"
+    ],
+    "perlas": [
+      "En la hemorragia por varices, tres medidas reducen la mortalidad y ninguna es la endoscopia: el VASOACTIVO precoz, el ANTIBIÓTICO profiláctico (ceftriaxona) y la transfusión RESTRICTIVA con objetivo de hemoglobina de 7-8 g/dL. Transfundir de más aumenta la presión portal y el resangrado, algo que va en contra de la intuición.",
+      "El vasoactivo se inicia ANTE LA SOSPECHA, sin esperar a la endoscopia. En un cirrótico con hematemesis, la probabilidad de origen varicoso es lo bastante alta como para no perder horas.",
+      "La HIPONATREMIA por terlipresina puede ser rápida y grave, y es más marcada precisamente en el cirrótico JOVEN con buena función hepática, que es quien conserva la capacidad de responder a la vasopresina. Hay que medir el sodio a diario: se han descrito descensos de más de 10 mmol/L en 48 horas con convulsiones.",
+      "La ISQUEMIA es el precio de su mecanismo: vasoconstriñe, y no solo el territorio esplácnico. Hay que explorar activamente la piel (el escroto y las zonas acras son localizaciones típicas de necrosis), preguntar por dolor abdominal desproporcionado y vigilar el ECG.",
+      "En el SÍNDROME HEPATORRENAL, la ALBÚMINA no acompaña a la terlipresina: forma parte del tratamiento. La lógica es coherente con el mecanismo, porque el problema es un volumen circulante efectivo bajo pese a un volumen total alto, y hacen falta las dos piezas.",
+      "El OCTREÓTIDO tiene un perfil de seguridad mejor que la terlipresina, con menos isquemia sistémica, y es la alternativa en el paciente con cardiopatía isquémica o arteriopatía.",
+      "El octreótido PROLONGADO produce COLELITIASIS porque inhibe la contracción de la vesícula: en el paciente con acromegalia o tumor neuroendocrino tratado durante años, hay que tenerlo presente ante un dolor en hipocondrio derecho.",
+      "En la ACROMEGALIA el objetivo del tratamiento no es la hormona de crecimiento aislada sino la IGF-1, que integra la secreción de todo el día y es el marcador que se sigue."
+    ],
+    "embarazo_lactancia": "La TERLIPRESINA está contraindicada en el embarazo por su efecto oxitócico. El octreótido se usa solo si el beneficio lo justifica; los datos son limitados.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías Baveno y AASLD sobre hipertensión portal y síndrome hepatorrenal"
+  },
+  {
+    "id": "DIG-sucralfato-antiacidos",
+    "nombre": "Sucralfato, antiácidos y antagonistas H2",
+    "sinonimos": [
+      "Protectores de la mucosa y neutralizantes"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Protector gástrico",
+    "subclase": "Agente de barrera, neutralizantes y antagonistas del receptor H2",
+    "mecanismo": "Son tres estrategias distintas frente al mismo problema. El SUCRALFATO es sacarosa sulfatada con hidróxido de aluminio que, en medio ÁCIDO, se polimeriza formando un gel viscoso y pegajoso que se adhiere selectivamente a la base ULCERADA (donde hay proteínas expuestas) creando una barrera física; además estimula prostaglandinas y bicarbonato locales. La consecuencia práctica es paradójica: NECESITA ácido para activarse, de modo que administrarlo junto a un inhibidor de la bomba de protones lo inutiliza. Los ANTIÁCIDOS (magnesio, aluminio, calcio) neutralizan químicamente el ácido ya secretado, con efecto inmediato y muy breve. Los ANTAGONISTAS H2 (famotidina, ranitidina) bloquean el receptor H2 de la célula parietal y reducen la secreción ácida, sobre todo la NOCTURNA, pero desarrollan TAQUIFILAXIA en pocos días, lo que limita su uso continuado y explica por qué los inhibidores de la bomba de protones los desplazaron.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "PIROSIS ocasional y dispepsia leve",
+        "dosis": "Antiácido de magnesio y aluminio, 10-20 mL o 1-2 comprimidos masticables tras las comidas y al acostarse",
+        "posologia": "A demanda, tras las comidas",
+        "via": "VO",
+        "dosis_objetivo": "Alivio inmediato del síntoma",
+        "nota": "Su virtud es la RAPIDEZ: alivian en minutos, mientras que el inhibidor de la bomba de protones tarda días en alcanzar su efecto pleno"
+      },
+      {
+        "patologia": "Síntomas de reflujo NOCTURNOS pese a inhibidor de la bomba de protones",
+        "dosis": "Famotidina 20-40 mg al acostarse",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "Cubre el escape ácido nocturno, aunque la taquifilaxia limita el beneficio a unas semanas: útil como pauta intermitente o a demanda"
+      },
+      {
+        "patologia": "Prevención de la úlcera de estrés en el paciente crítico",
+        "dosis": "Sucralfato 1 g cada 6 horas, o famotidina 20 mg cada 12 horas IV",
+        "posologia": "Cada 6-12 horas",
+        "via": "VO",
+        "nota": "El sucralfato se ha asociado a MENOS neumonía asociada a la ventilación que los supresores del ácido, porque mantiene el pH gástrico y su barrera antibacteriana"
+      },
+      {
+        "patologia": "MUCOSITIS oral y esofagitis por radioterapia o quimioterapia",
+        "dosis": "Sucralfato en suspensión 1 g cada 6 horas, en enjuague y deglución",
+        "posologia": "Cada 6 horas",
+        "via": "VO",
+        "nota": "Recubre la mucosa erosionada y alivia el dolor; se usa también en la proctitis actínica por vía rectal"
+      },
+      {
+        "patologia": "REFLUJO en el EMBARAZO",
+        "dosis": "Antiácidos con calcio o magnesio, o sucralfato 1 g cada 8 horas",
+        "posologia": "Tras las comidas",
+        "via": "VO",
+        "nota": "Son de PRIMERA línea en la gestante por su nula absorción sistémica"
+      }
+    ],
+    "esquema": {
+      "inicio": "El SUCRALFATO se toma en AYUNAS, una hora antes de las comidas, y NUNCA junto con un inhibidor de la bomba de protones o un antiácido, que le impedirían activarse.",
+      "titulacion": "A demanda en los antiácidos; pauta fija en el sucralfato.",
+      "duracion": "Corta. Ninguno de los tres es un tratamiento de fondo del reflujo o de la úlcera, que corresponde al inhibidor de la bomba de protones y a la erradicación de Helicobacter.",
+      "fin": "Se retiran al ceder los síntomas o al instaurar el tratamiento definitivo.",
+      "via": "Oral (el sucralfato también por vía rectal en la proctitis).",
+      "monitorizacion": "En el paciente RENAL tratado con sucralfato o antiácidos con aluminio: aluminio sérico y magnesio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sucralfato: prácticamente nula, salvo una pequeña fracción de ALUMINIO. Antiácidos: absorción variable de magnesio, aluminio y calcio.",
+      "distribucion": "Local en la luz digestiva.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Fecal; el aluminio y el magnesio absorbidos, por vía RENAL.",
+      "vida_media": "Sucralfato: efecto local de unas 6 horas. Antiácidos: 30-60 minutos.",
+      "ajuste_renal": "Precaución en la insuficiencia renal: se acumulan ALUMINIO (neurotoxicidad, osteomalacia) y MAGNESIO (hipermagnesemia con debilidad y bradicardia).",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "LEVOTIROXINA, quinolonas, tetraciclinas, hierro, digoxina, fenitoína y bisfosfonatos",
+          "efecto": "El sucralfato y los antiácidos los QUELAN e impiden su absorción",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2 HORAS. Es la interacción práctica más importante de este grupo y explica muchos tratamientos que no funcionan sin causa aparente"
+        },
+        {
+          "con": "INHIBIDORES DE LA BOMBA DE PROTONES y antiácidos (con sucralfato)",
+          "efecto": "Elevan el pH e IMPIDEN que el sucralfato se polimerice y se active",
+          "gravedad": "alta",
+          "manejo": "Es una contradicción farmacológica que se prescribe con frecuencia: si se usan juntos, separar al menos 2 horas"
+        },
+        {
+          "con": "Antirretrovirales (atazanavir, rilpivirina) y azoles",
+          "efecto": "Los antiácidos y antiH2 reducen su absorción, que requiere acidez",
+          "gravedad": "alta",
+          "manejo": "Muy relevante en el paciente con VIH: puede comprometer el control virológico"
+        },
+        {
+          "con": "Antiácidos con MAGNESIO y diarrea; con ALUMINIO y estreñimiento",
+          "efecto": "Efectos opuestos sobre el tránsito",
+          "gravedad": "baja",
+          "manejo": "Las combinaciones comerciales mezclan ambos precisamente para neutralizar ese efecto"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO con el sucralfato y con los antiácidos de ALUMINIO",
+        "DIARREA con los antiácidos de MAGNESIO",
+        "Sabor desagradable y sensación de sequedad de boca"
+      ],
+      "graves": [
+        "BEZOAR de sucralfato en el paciente con gastroparesia, alimentado por sonda o en cuidados intensivos, con riesgo de obstrucción",
+        "Intoxicación por ALUMINIO en la insuficiencia renal: encefalopatía, osteomalacia y anemia microcítica",
+        "HIPERMAGNESEMIA en el paciente renal, con debilidad, hiporreflexia y bradicardia",
+        "ALCALOSIS metabólica y síndrome leche-alcalinos con los antiácidos de calcio a dosis altas",
+        "Trombocitopenia y confusión con los antiH2 en el anciano"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave para los antiácidos con aluminio y magnesio, y precaución con el sucralfato",
+      "Obstrucción intestinal",
+      "Precaución en el paciente con sonda de alimentación (riesgo de bezoar)"
+    ],
+    "perlas": [
+      "El SUCRALFATO NECESITA ÁCIDO para funcionar. Prescribirlo junto con un inhibidor de la bomba de protones, que es exactamente lo que se ve en muchas órdenes de tratamiento, lo deja inactivo. Si se usan ambos, hay que separarlos al menos dos horas, y conviene preguntarse si tiene sentido usar los dos.",
+      "QUELAN todo lo que se les ponga por delante: levotiroxina, quinolonas, hierro, digoxina, bisfosfonatos. Separar dos horas es la regla, y una hipotiroidea mal controlada que toma su levotiroxina con el protector gástrico es un escenario mucho más frecuente de lo que parece.",
+      "La virtud de los ANTIÁCIDOS es la RAPIDEZ: alivian en minutos, mientras que un inhibidor de la bomba de protones tarda días en alcanzar su efecto máximo. Combinar ambos al inicio (antiácido a demanda para el síntoma, IBP para el fondo) es una estrategia sensata que rara vez se explica.",
+      "Los ANTIH2 desarrollan TAQUIFILAXIA en días: eso los hace útiles a demanda o para el escape ácido nocturno, pero malos como tratamiento continuo. No es que sean poco potentes, es que dejan de serlo.",
+      "En el paciente RENAL, el ALUMINIO se acumula y produce encefalopatía y osteomalacia, y el MAGNESIO produce hipermagnesemia. Los antiácidos, que parecen inocuos y son de venta libre, no lo son en nefrología.",
+      "El BEZOAR de sucralfato es una complicación poco conocida en el paciente crítico con gastroparesia o alimentado por sonda: el gel se compacta y puede obstruir.",
+      "En el EMBARAZO son de primera línea precisamente por lo que en otros contextos es su limitación: no se absorben y actúan solo en la luz.",
+      "En la prevención de la úlcera de estrés, el sucralfato tiene una ventaja teórica interesante: al no elevar el pH gástrico, mantiene la barrera antibacteriana del ácido y se asocia a menos neumonía asociada a la ventilación mecánica que los supresores de ácido."
+    ],
+    "embarazo_lactancia": "Los antiácidos (evitando el bicarbonato sódico por la sobrecarga de sodio) y el sucralfato son de primera línea en la pirosis del embarazo por su nula absorción sistémica. Compatibles con la lactancia.",
+    "micro_relacionado": [
+      "BGN-helicobacter-pylori"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías sobre enfermedad por reflujo gastroesofágico y profilaxis de la úlcera de estrés"
+  }
+]

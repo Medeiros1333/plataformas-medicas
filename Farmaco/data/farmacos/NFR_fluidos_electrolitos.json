@@ -1,0 +1,263 @@
+[
+  {
+    "id": "NFR-cristaloides",
+    "nombre": "Cristaloides intravenosos (salino 0,9%, Ringer lactato, glucosalino)",
+    "sinonimos": [
+      "Sueroterapia",
+      "Suero fisiológico",
+      "Soluciones balanceadas"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia intravenosa",
+    "subclase": "Soluciones cristaloides isotónicas y hipotónicas",
+    "mecanismo": "Expanden el volumen circulante según su composición y su tonicidad. El SALINO 0,9% y el RINGER LACTATO son ISOTÓNICOS y permanecen en el espacio EXTRACELULAR, del que aproximadamente un cuarto queda en el intravascular: por eso sirven para reponer volemia. El GLUCOSALINO y el suero glucosado son funcionalmente HIPOTÓNICOS una vez metabolizada la glucosa, se distribuyen por el agua corporal total y apenas expanden la volemia: sirven para aportar agua libre, no para resucitar. El salino 0,9% contiene 154 mEq/L de cloro (frente a los 100 del plasma) y su exceso produce ACIDOSIS METABÓLICA HIPERCLORÉMICA con vasoconstricción renal; el Ringer lactato tiene una composición más próxima al plasma y su lactato se metaboliza a bicarbonato.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Resucitación del shock hipovolémico, séptico o hemorrágico",
+        "dosis": "Bolos de 250-500 mL de cristaloide balanceado, reevaluando tras cada bolo",
+        "posologia": "Bolos repetidos guiados por la respuesta",
+        "via": "IV",
+        "dosis_objetivo": "Perfusión adecuada: diuresis mayor de 0,5 mL/kg/h, descenso del lactato, relleno capilar y tensión arterial media aceptable",
+        "nota": "La fluidoterapia se administra en BOLOS con reevaluación, no en perfusión ciega: la sobrecarga empeora el pronóstico"
+      },
+      {
+        "patologia": "Mantenimiento del paciente en dieta absoluta",
+        "dosis": "25-30 mL/kg/día de agua, con 1 mmol/kg/día de sodio, potasio y cloro y 50-100 g/día de glucosa",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "El mantenimiento NO es lo mismo que la reposición: son cálculos distintos y sumar ambos indiscriminadamente es una causa frecuente de sobrecarga"
+      },
+      {
+        "patologia": "Deshidratación e hipovolemia por pérdidas digestivas o renales",
+        "dosis": "Reposición del déficit estimado más las pérdidas mantenidas",
+        "posologia": "Perfusión continua ajustada",
+        "via": "IV",
+        "dosis_objetivo": "Normalización de la diuresis, la tensión, la frecuencia cardiaca y el sodio, con corrección del sodio no superior a 8-10 mEq/L en 24 h",
+        "nota": "La vía ORAL es preferible siempre que sea posible: más fisiológica y con menos complicaciones"
+      },
+      {
+        "patologia": "Cetoacidosis diabética",
+        "dosis": "Salino 0,9%: 15-20 mL/kg en la primera hora, después ajustado",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "El VOLUMEN va antes que la insulina, y el POTASIO antes que ambos si es menor de 3,3 mEq/L"
+      },
+      {
+        "patologia": "Prevención de la nefropatía por contraste",
+        "dosis": "1-1,5 mL/kg/h de salino 0,9% durante 6-12 h antes y después",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "La HIDRATACIÓN es la única medida con eficacia demostrada; la N-acetilcisteína no ha confirmado beneficio"
+      }
+    ],
+    "esquema": {
+      "inicio": "Definir primero cuál de los cuatro objetivos se persigue: RESUCITACIÓN, reposición de un déficit, mantenimiento o reposición de pérdidas mantenidas. Cada uno tiene su cálculo y su solución.",
+      "titulacion": "Reevaluación tras cada bolo o cada 4-6 h en perfusión: tensión, frecuencia, diuresis, balance, peso, edemas y auscultación pulmonar.",
+      "duracion": "El menor tiempo posible: en cuanto el paciente tolere la vía oral, se retira. La sueroterapia prolongada por inercia es una fuente habitual de sobrecarga e hiponatremia.",
+      "fin": "Retirada en cuanto se restablezca la ingesta oral. Revisar a diario si sigue indicada: es una de las prescripciones que más se prolonga sin revisión.",
+      "via": "IV.",
+      "monitorizacion": "BALANCE HÍDRICO y PESO DIARIO (el peso es el parámetro más fiable y el menos usado), iones al menos diarios en el paciente con sueroterapia, función renal, diuresis y exploración buscando edemas o crepitantes."
+    },
+    "farmacocinetica": {
+      "absorcion": "No aplicable: administración directa intravenosa.",
+      "distribucion": "Determinada por la TONICIDAD: los isotónicos quedan en el extracelular (un cuarto en el intravascular); los hipotónicos se reparten por el agua corporal total, de la que solo un octavo queda en el intravascular.",
+      "metabolismo": "El lactato del Ringer se metaboliza en el hígado a bicarbonato; la glucosa del glucosado se consume y deja agua libre.",
+      "eliminacion": "Renal.",
+      "vida_media": "El efecto expansor de un cristaloide isotónico dura poco: en 30-60 minutos la mayor parte ha salido del espacio intravascular.",
+      "ajuste_renal": "Precaución extrema con el potasio del Ringer (5 mEq/L) en la insuficiencia renal avanzada y en la hiperpotasemia; y con el volumen en el paciente oligúrico.",
+      "ajuste_hepatico": "El lactato del Ringer se metaboliza peor en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "CEFTRIAXONA y el calcio del Ringer lactato",
+          "efecto": "PRECIPITACIÓN de sales insolubles con embolias pulmonares y renales mortales descritas en NEONATOS",
+          "gravedad": "alta",
+          "manejo": "No administrar por la misma vía; contraindicada la combinación en el recién nacido"
+        },
+        {
+          "con": "Hemoderivados y el calcio del Ringer lactato",
+          "efecto": "El calcio puede favorecer la coagulación del concentrado de hematíes en la línea",
+          "gravedad": "media",
+          "manejo": "Transfundir con salino 0,9%, no con Ringer"
+        },
+        {
+          "con": "Sueros HIPOTÓNICOS en el paciente con riesgo de SIADH (postoperatorio, dolor, náuseas, fármacos)",
+          "efecto": "HIPONATREMIA yatrógena, potencialmente grave y con encefalopatía",
+          "gravedad": "alta",
+          "manejo": "Usar soluciones ISOTÓNICAS para el mantenimiento y controlar el sodio a diario"
+        },
+        {
+          "con": "Corrección demasiado rápida de una hiponatremia crónica",
+          "efecto": "SÍNDROME DE DESMIELINIZACIÓN OSMÓTICA, irreversible y devastador",
+          "gravedad": "alta",
+          "manejo": "No superar 8-10 mEq/L de corrección de sodio en 24 h; en el paciente de riesgo, aún menos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SOBRECARGA DE VOLUMEN con edemas periféricos",
+        "Acidosis metabólica HIPERCLORÉMICA con el salino 0,9% en grandes volúmenes",
+        "Hiponatremia con las soluciones hipotónicas",
+        "Flebitis en la vía periférica"
+      ],
+      "graves": [
+        "EDEMA AGUDO DE PULMÓN por sobrecarga, sobre todo en el cardiópata, el anciano y el nefrópata",
+        "HIPONATREMIA GRAVE con encefalopatía y convulsiones por sueros hipotónicos",
+        "SÍNDROME DE DESMIELINIZACIÓN OSMÓTICA por corrección demasiado rápida del sodio",
+        "Deterioro de la función renal y peor pronóstico por la acidosis hiperclorémica y por la sobrecarga en el paciente crítico",
+        "Edema intersticial con retraso de la cicatrización y del tránsito intestinal"
+      ]
+    },
+    "contraindicaciones": [
+      "Sobrecarga de volumen establecida con edema agudo de pulmón",
+      "Ringer lactato en la hiperpotasemia significativa y en la insuficiencia hepática grave",
+      "Ringer lactato junto con ceftriaxona en el neonato",
+      "Soluciones hipotónicas como mantenimiento en el paciente con riesgo de SIADH"
+    ],
+    "perlas": [
+      "El cambio de mentalidad más importante en los últimos años es este: el suero es un FÁRMACO, con su indicación, su dosis, sus efectos adversos y su fecha de retirada. Se prescribe con la misma disciplina que un antibiótico. La perfusión que se mantiene día tras día por inercia, sin que nadie la revise, es una de las prescripciones más dañinas y menos vigiladas del hospital.",
+      "Hay que decidir SIEMPRE cuál de los cuatro objetivos se persigue: resucitación, reposición de un déficit, mantenimiento o reposición de pérdidas. Cada uno tiene su solución y su cálculo, y mezclarlos produce tanto infrarreanimación como sobrecarga.",
+      "SALINO 0,9% frente a soluciones BALANCEADAS: el salino tiene 154 mEq/L de cloro frente a los 100 del plasma, y en grandes volúmenes produce acidosis hiperclorémica con vasoconstricción renal. En el paciente crítico y en la resucitación con volúmenes altos, las soluciones balanceadas son preferibles. El nombre de fisiológico es engañoso: no lo es.",
+      "Los sueros HIPOTÓNICOS de mantenimiento en el postoperatorio son una causa clásica y prevenible de hiponatremia grave: el dolor, las náuseas y los opioides estimulan la ADH, el paciente no puede excretar agua libre y se le está administrando precisamente agua libre. Para mantenimiento se usan soluciones isotónicas y se controla el sodio a diario.",
+      "En la hiponatremia CRÓNICA, corregir deprisa es peor que no corregir: el límite es 8-10 mEq/L en 24 h, y el síndrome de desmielinización osmótica es irreversible. La prisa por normalizar una cifra puede dejar al paciente con una tetraparesia.",
+      "El PESO DIARIO es el mejor indicador de balance y el más infrautilizado: los balances anotados son notoriamente imprecisos, la báscula no.",
+      "La respuesta a un bolo se reevalúa DESPUÉS de darlo. La fluidoterapia en perfusión ciega y prolongada no resucita: acumula."
+    ],
+    "embarazo_lactancia": "Seguros y de uso habitual en el embarazo. Precaución con las soluciones hipotónicas por el riesgo de hiponatremia, al que la gestante es especialmente susceptible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de trastornos hidroelectrolíticos y shock"
+  },
+  {
+    "id": "NFR-bicarbonato-sodico",
+    "nombre": "Bicarbonato sódico",
+    "sinonimos": [
+      "Bicarbonato 1 M (8,4%), bicarbonato 1/6 M (1,4%)"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Alcalinizante",
+    "subclase": "Tampón extracelular",
+    "mecanismo": "Aporta el anión bicarbonato, que capta hidrogeniones y forma ácido carbónico, el cual se disocia en agua y CO2. Ese CO2 debe ser ELIMINADO POR EL PULMÓN: si el paciente no puede aumentar su ventilación, el bicarbonato empeora la acidosis intracelular en lugar de corregirla. Además, al alcalinizar el plasma desplaza el POTASIO al interior de la célula y aumenta la unión del CALCIO a la albúmina, reduciendo el calcio iónico. En la intoxicación por antidepresivos tricíclicos actúa por un mecanismo distinto y específico: el sodio que aporta compite con el bloqueo de los canales de sodio cardiacos y la alcalinización reduce la fracción libre del fármaco.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Acidosis metabólica grave con pH menor de 7,1",
+        "dosis": "50-100 mEq (50-100 mL de bicarbonato 1 M) en 30-60 minutos, reevaluando",
+        "posologia": "Perfusión lenta, repetible",
+        "via": "IV",
+        "dosis_objetivo": "pH por encima de 7,20, sin buscar la normalización completa",
+        "nota": "El tratamiento REAL es corregir la causa (shock, sepsis, cetoacidosis): el bicarbonato solo compra tiempo"
+      },
+      {
+        "patologia": "Intoxicación por ANTIDEPRESIVOS TRICÍCLICOS con QRS ancho",
+        "dosis": "1-2 mEq/kg en bolo, repetible hasta estrechar el QRS",
+        "posologia": "Bolos repetidos",
+        "via": "IV",
+        "dosis_objetivo": "QRS menor de 100 ms y pH arterial de 7,45-7,55",
+        "nota": "Es su indicación MÁS clara y con mejor evidencia: aquí no es un tampón, es un ANTÍDOTO"
+      },
+      {
+        "patologia": "Acidosis metabólica crónica de la enfermedad renal",
+        "dosis": "1-3 g/día VO de bicarbonato sódico",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "dosis_objetivo": "Bicarbonato sérico por encima de 22 mEq/L",
+        "nota": "Enlentece la progresión de la enfermedad renal y reduce el catabolismo muscular"
+      },
+      {
+        "patologia": "Hiperpotasemia grave con acidosis concomitante",
+        "dosis": "50 mEq IV",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "REDISTRIBUYE el potasio, no lo elimina; es menos eficaz que la insulina con glucosa y solo útil si hay acidosis"
+      },
+      {
+        "patologia": "Alcalinización urinaria (intoxicación por salicilatos, rabdomiólisis)",
+        "dosis": "Perfusión de bicarbonato 1/6 M ajustada",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "pH urinario mayor de 7,5 manteniendo el potasio normal",
+        "nota": "En los salicilatos la alcalinización atrapa el fármaco en la orina y multiplica su eliminación"
+      }
+    ],
+    "esquema": {
+      "inicio": "Solo tras valorar la causa de la acidosis y la capacidad ventilatoria del paciente. Nunca como reflejo automático ante un pH bajo.",
+      "titulacion": "Guiado por gasometría seriada, con el objetivo de superar un pH de 7,20, no de normalizarlo.",
+      "duracion": "Puntual, mientras se corrige la causa. Crónica y por vía oral en la acidosis de la enfermedad renal.",
+      "fin": "Se retira al resolverse la causa. Vigilar la ALCALOSIS de rebote, sobre todo en la cetoacidosis, en la que el metabolismo de los cetoácidos regenera bicarbonato por sí solo.",
+      "via": "IV (1 M por vía central preferentemente por su alta osmolaridad; 1/6 M por vía periférica) o VO en la acidosis crónica.",
+      "monitorizacion": "GASOMETRÍA seriada, POTASIO (bajará), CALCIO IÓNICO (bajará), sodio (se aporta una carga importante) y estado de volemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa por vía intravenosa; buena por vía oral.",
+      "distribucion": "Espacio extracelular.",
+      "metabolismo": "Se convierte en CO2 y agua; el CO2 requiere ELIMINACIÓN PULMONAR.",
+      "eliminacion": "Pulmonar como CO2 y renal como bicarbonato.",
+      "vida_media": "Efecto inmediato y breve.",
+      "ajuste_renal": "El riñón enfermo excreta peor la carga de sodio: riesgo de sobrecarga de volumen e hipertensión.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "CALCIO intravenoso (gluconato o cloruro)",
+          "efecto": "PRECIPITAN formando carbonato cálcico insoluble en la vía",
+          "gravedad": "alta",
+          "manejo": "NUNCA por la misma vía sin lavarla antes. Es un error frecuente en el tratamiento simultáneo de la hiperpotasemia"
+        },
+        {
+          "con": "Catecolaminas (adrenalina, noradrenalina, dopamina)",
+          "efecto": "Se INACTIVAN en medio alcalino",
+          "gravedad": "alta",
+          "manejo": "No administrar por la misma vía"
+        },
+        {
+          "con": "Fármacos de eliminación renal pH-dependiente: salicilatos, litio, quinidina, anfetaminas",
+          "efecto": "La alcalinización urinaria aumenta la eliminación de los ácidos débiles (salicilatos) y reduce la de las bases débiles",
+          "gravedad": "media",
+          "manejo": "Efecto buscado en la intoxicación por salicilatos; vigilar la litemia si el paciente toma litio"
+        },
+        {
+          "con": "Diuréticos y corticoides",
+          "efecto": "Hipopotasemia y alcalosis aditivas",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio, que además desciende con la propia alcalinización"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOPOTASEMIA por desplazamiento del potasio al interior de la célula",
+        "Sobrecarga de SODIO y de volumen (1 M aporta 1 mEq de sodio por mL)",
+        "Alcalosis metabólica por sobrecorrección",
+        "Flebitis y necrosis por extravasación de la solución 1 M, que es muy hiperosmolar"
+      ],
+      "graves": [
+        "ACIDOSIS INTRACELULAR PARADÓJICA en el paciente que no puede aumentar la ventilación: el CO2 generado atraviesa la membrana celular con más facilidad que el bicarbonato y acidifica el interior de la célula",
+        "HIPOCALCEMIA IÓNICA con tetania y arritmias",
+        "Edema agudo de pulmón por sobrecarga de sodio y volumen",
+        "Desplazamiento de la curva de disociación de la hemoglobina a la izquierda, con menor cesión de oxígeno a los tejidos",
+        "Alcalosis de rebote tras la resolución de la cetoacidosis"
+      ]
+    },
+    "contraindicaciones": [
+      "ALCALOSIS metabólica o respiratoria",
+      "Hipopotasemia o hipocalcemia graves no corregidas",
+      "Paciente que NO puede aumentar la ventilación para eliminar el CO2 generado",
+      "Sobrecarga de volumen y edema agudo de pulmón",
+      "Acidosis LÁCTICA por hipoperfusión como indicación rutinaria (no mejora el pronóstico)"
+    ],
+    "perlas": [
+      "La regla que ordena su uso: en la mayoría de las acidosis metabólicas el bicarbonato NO es el tratamiento, sino un parche mientras se corrige la causa. En la acidosis láctica por shock no ha demostrado mejorar el pronóstico, y en la cetoacidosis diabética solo se plantea con pH por debajo de 7,0, porque el metabolismo de los cetoácidos regenera bicarbonato por sí solo. Lo que salva al paciente es tratar el shock o poner insulina, no alcalinizar la cifra.",
+      "La ACIDOSIS PARADÓJICA es el concepto que más veces se pasa por alto: el bicarbonato genera CO2, y el CO2 atraviesa la membrana celular mucho más deprisa que el bicarbonato. En un paciente que no puede hiperventilar, el resultado neto es un interior celular MÁS ácido, con la gasometría arterial aparentemente mejorando. Antes de administrarlo hay que preguntarse si ese paciente puede eliminar el CO2.",
+      "Su indicación con mejor evidencia no es la acidosis sino la INTOXICACIÓN POR ANTIDEPRESIVOS TRICÍCLICOS con QRS ancho. Ahí es un antídoto de verdad, actúa por un mecanismo específico y el objetivo es estrechar el QRS, no normalizar un pH.",
+      "PRECIPITA con el CALCIO. En el tratamiento de una hiperpotasemia, en el que se usan ambos casi a la vez, hay que lavar la vía entre uno y otro o utilizar accesos distintos: el carbonato cálcico obstruye la línea justo en el peor momento.",
+      "INACTIVA las catecolaminas: administrarlo por la misma vía que la noradrenalina de un paciente en shock anula el vasopresor.",
+      "El objetivo es un pH por encima de 7,20, no la normalización: perseguir un pH de 7,40 con bicarbonato produce alcalosis de rebote, hipopotasemia e hipocalcemia.",
+      "En la enfermedad renal crónica, en cambio, la corrección ORAL y mantenida de la acidosis sí tiene beneficio demostrado: enlentece la progresión y reduce el catabolismo muscular. Es su indicación crónica más sólida y la menos conocida."
+    ],
+    "embarazo_lactancia": "Seguro cuando está indicado. Precaución con la carga de sodio en la gestante con preeclampsia o cardiopatía.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de acidosis metabólica e intoxicaciones"
+  }
+]

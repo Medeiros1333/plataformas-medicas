@@ -1,0 +1,500 @@
+## 0. CABEÇALHO
+
+**Código:** ORT-02 · **Especialidade:** Ortopedia · **Tema:** Lombalgia · **Assunto:** Lombalgia mecânica sem sinais de alarme - conduta conservadora inicial · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 15 (2013.1-Q102, 2020.1-Q38, 2021.1-Q7, 2023.2-Q90, 2025.1-Q40, 2025.2-Q27, 2023.2-Q52, 2023.2-Q56, 2024.2-Q6, 2024.2-Q26, 2024.2-Q27, 2024.2-Q86, 2025.1-Q71, 2025.2-Q46, 2025.2-Q76) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 100 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-31
+
+---
+
+## 1. TEORIA
+
+A grande maioria dos casos de lombalgia aguda é de origem **mecânica/inespecífica**, e o Revalida testa se o candidato reconhece que, na ausência de **sinais de alarme** ("red flags"), a conduta inicial deve ser **conservadora**, sem necessidade de exames de imagem complexos.
+
+**Sinais de alarme ("red flags") em lombalgia que exigiriam investigação adicional:**
+- Limitação significativa das atividades diárias, déficit neurológico objetivo, febre, perda de peso não intencional, história de câncer, trauma significativo, idade > 50 anos com início recente, dor noturna que não melhora com repouso, alterações esfincterianas (síndrome da cauda equina).
+- **Teste de Lasègue positivo** sugeriria compressão radicular (hérnia discal com radiculopatia), justificando maior investigação.
+
+**Por que o caso clássico do INEP NÃO apresenta sinais de alarme:**
+- Dor lombar que **não causa limitação** das atividades diárias.
+- **Teste de Lasègue negativo bilateralmente** — argumenta contra compressão radicular significativa.
+- A queixa de "diminuição da sensibilidade" relatada "com bastante firmeza" pelo próprio paciente, sem achados objetivos correspondentes ao exame, é menos preocupante do que um déficit neurológico objetivamente demonstrado ao exame físico.
+- Não há menção a febre, perda de peso, trauma significativo ou história oncológica.
+
+**Conduta correta diante de lombalgia mecânica sem sinais de alarme:**
+- **Anti-inflamatórios não esteroides (AINE) e fisioterapia** — tratamento conservador de primeira linha, eficaz para a maioria dos casos de lombalgia mecânica aguda/inespecífica.
+- **Não solicitar exames de imagem (ressonância, cintilografia) de rotina** diante da ausência de sinais de alarme — o uso rotineiro de imagem em lombalgia inespecífica não muda a conduta e pode gerar achados incidentais não relacionados, além de custo desnecessário.
+- **Não indicar infiltração com corticoide** como conduta de primeira linha — reservada para casos refratários ou com indicação específica.
+- **Não afastar automaticamente do trabalho por período prolongado** sem necessidade clínica clara — o afastamento deve ser individualizado, não uma conduta padrão de 30 dias para todo caso de lombalgia leve.
+
+⚠️ **PEGADINHA DO INEP central deste tema — lombalgia mecânica SEM sinais de alarme (sem limitação funcional, Lasègue negativo, sem red flags) deve ser tratada CONSERVADORAMENTE com AINE + fisioterapia, sem exames de imagem ou afastamento prolongado de rotina:** diante desse quadro (dor lombar sem limitação de atividades, Lasègue negativo bilateral, sem outros sinais de alarme), a conduta correta é **prescrever AINE e fisioterapia** — não solicitar ressonância magnética ou cintilografia de rotina (reservadas para sinais de alarme presentes), não prescrever infiltração com corticoide como primeira linha, e não afastar o paciente do trabalho por 30 dias sem indicação clínica específica.
+
+**Por que não solicitar ressonância magnética de rotina:** na ausência de sinais de alarme, a investigação por imagem não muda a conduta inicial e pode até ser contraproducente (achados incidentais, ansiedade, custo) — reservada para quando os sinais de alarme estiverem presentes ou o quadro não responder ao tratamento conservador inicial.
+
+
+### Complemento (2026-09-30) — lombalgia COM sinais de alerta, cauda equina e lombalgia inflamatória
+
+Nove questões do INEP (2023–2025) cobram o lado oposto deste módulo: reconhecer quando a lombalgia **não** é mecânica.
+
+| Sinal de alerta | Pensar em | Exame |
+|---|---|---|
+| Câncer prévio, perda de peso, idade > 50, dor noturna/contínua, falha do tratamento | **Metástase** (mama, próstata, pulmão, rim, tireoide), mieloma | **RM** de coluna (cintilografia para rastrear o esqueleto); hemograma, VHS, cálcio, eletroforese |
+| Febre, imunossupressão, drogas EV, infecção recente | Espondilodiscite, abscesso epidural, TB (mal de Pott) | RM, hemoculturas, PCR/VHS |
+| **Retenção/incontinência urinária ou fecal, anestesia em sela**, déficit bilateral | **Síndrome da cauda equina** | **RM urgente** → **descompressão cirúrgica de urgência** |
+| Déficit motor progressivo, paraparesia | Compressão medular/radicular | RM urgente |
+| Trauma importante ou osteoporose | Fratura vertebral | Radiografia/TC |
+| Rigidez matinal > 30 min, melhora com movimento, < 45 anos, > 3 meses | **Espondiloartrite axial** | VHS/PCR, **HLA-B27**, **RM de sacroilíacas** |
+
+**Síndrome da cauda equina:** compressão das raízes lombossacras (geralmente hérnia discal central volumosa). Sinais-chave: **retenção urinária** (o mais sensível), incontinência fecal, **anestesia em sela/perineal**, disfunção sexual, déficit bilateral. Força e reflexos podem estar preservados no início. É **emergência**: RM e descompressão o quanto antes.
+
+**Radiculopatia (lombociatalgia):** dor irradiada abaixo do joelho no dermátomo (L5: dorso do pé e hálux; S1: borda lateral e planta), **Lasègue** positivo (Lasègue cruzado é mais específico). Sem déficit progressivo → tratamento conservador por 6 semanas; com déficit motor progressivo ou dor refratária → RM e avaliação cirúrgica.
+
+**Lombalgia inflamatória × mecânica:** a inflamatória **melhora com exercício e piora com repouso**, causa dor na segunda metade da noite e rigidez matinal prolongada; **Schober** reduzido (< 4–5 cm) mostra limitação da flexão lombar. Espondilite anquilosante: HLA-B27 em ~90%, FR/anti-CCP negativos; tratamento com **AINE + exercício**, anti-TNF se refratária.
+
+### Referências
+1. American College of Physicians (ACP) — Guideline for Noninvasive Treatments for Acute, Subacute, and Chronic Low Back Pain.
+2. Sociedade Brasileira de Ortopedia e Traumatologia — Diretrizes de Lombalgia.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na Unidade Básica de Saúde real:** trabalhador com dor lombar de início recente, sem sinais de alarme ao exame físico — o desafio prático é resistir à pressão por exames de imagem imediatos e tratar conservadoramente, reservando investigação adicional para sinais de alarme ou falha terapêutica.
+
+**Sequência prática de conduta:**
+1. Investigar sistematicamente sinais de alarme na anamnese e exame físico (Lasègue, déficit neurológico, febre, perda de peso, história oncológica).
+2. Na ausência de sinais de alarme, prescrever AINE e fisioterapia como conduta inicial.
+3. Não solicitar exames de imagem de rotina nesse contexto.
+4. Reavaliar a resposta ao tratamento conservador antes de considerar investigação adicional.
+
+**Erros que médicos cometem de verdade:**
+- Solicitar ressonância magnética/cintilografia rotineiramente para toda lombalgia, mesmo sem sinais de alarme.
+- Indicar infiltração com corticoide como primeira linha, sem tentar tratamento conservador inicial.
+- Afastar do trabalho por período fixo e prolongado sem individualizar conforme a gravidade real do quadro.
+
+**O que dizer ao paciente:** explicar que a dor lombar, na ausência de sinais de alerta, geralmente tem boa evolução com anti-inflamatórios e fisioterapia, sem necessidade de exames de imagem neste momento.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Investigar sinais de alarme na lombalgia (Lasègue, limitação funcional, red flags sistêmicos).
+- ✅ Tratar conservadoramente (AINE + fisioterapia) na ausência de sinais de alarme.
+- ✅ Não solicitar exames de imagem de rotina nesse contexto.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2013 · Edição 1 · Questão 102]**
+
+Homem com 38 anos de idade, pedreiro, vem à Unidade Básica de Saúde com relato de dor lombar contínua há uma semana, aos esforços acentuados, a qual não causa limitação de suas atividades diárias. Informa, com bastante firmeza, diminuição da sensibilidade na face lateral da perna esquerda. Ao exame físico apresenta dor à digitopressão lombar com teste de Lasègue negativo bilateralmente.
+
+A) conduta a ser adotada na sequência deve ser: A prescrever anti-inflamatórios não-esteróides e fisioterapia.
+B) solicitar ressonância nuclear magnética da coluna vertebral.
+C) prescrever infiltração com corticoesteroides.
+D) afastar o paciente do trabalho por 30 dias.
+E) solicitar cintilografia de coluna vertebral.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** diante de lombalgia mecânica sem sinais de alarme (sem limitação funcional, Lasègue negativo bilateral, sem outros red flags), a conduta conservadora com AINE e fisioterapia é a mais apropriada.
+
+**Por que as demais estão erradas:**
+- B) Ressonância magnética de rotina não é indicada na ausência de sinais de alarme.
+- C) Infiltração com corticoide não é conduta de primeira linha para lombalgia mecânica sem indicação específica.
+- D) Afastamento do trabalho por 30 dias não é justificado diante de um quadro que "não causa limitação de suas atividades diárias".
+- E) Cintilografia de coluna vertebral não é o exame de escolha para lombalgia mecânica inespecífica, sendo mais voltada para investigação de neoplasia/infecção óssea quando há suspeita específica.
+
+**O que a banca estava testando:** reconhecimento da ausência de sinais de alarme em lombalgia e conhecimento de que a conduta inicial correta é conservadora (AINE + fisioterapia), sem necessidade de exames de imagem ou afastamento prolongado do trabalho.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 38]**
+
+Um paciente com 47 anos de idade, motorista de ônibus, comparece ao ambulatório da atenção secundária relatando início de dor lombar baixa há 2 semanas, a qual se irradia para membros inferiores. Ele nega ter sofrido queda e/ou trauma local. Devido à intensidade da dor, procurou atendimento em emergência na época, tendo recebido medicação endovenosa e orientação para acompanhamento ambulatorial para investigação. O paciente afirma que possui dor ainda incapacitante, a qual piora ao se sentar e ao ficar em pé, mas que melhora com o repouso. Essa dor possui irradiação pela região posterior da coxa e perna, chegando até a planta do pé à direita. Também relata diminuição da sensibilidade no dorso do pé direito. Ao realizar exame físico, apresentou teste de elevação do membro inferior estendido positivo à direita quando realizado a 40 graus, além de hipoestesia em região de dorso do pé direito, com reflexos sem alterações e sem perda de força muscular. A conduta imediata adequada para o caso é
+
+A) receitar opioide a curto prazo e orientar o paciente a retornar ao trabalho conforme intensidade da dor.
+B) prescrever anti-inflamatórios, relaxante muscular e início de exercícios para fortalecimento lombar.
+C) encaminhar o paciente para cirurgia imediata para descompressão.
+D) receitar corticosteroide sistêmico e repouso por 14 dias.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** **lombociatalgia** com sinais de **radiculopatia L5** (dor irradiada até o pé, hipoestesia no dorso do pé, **Lasègue positivo a 40°**), provavelmente por **hérnia de disco**, **sem déficit motor progressivo nem síndrome da cauda equina**. A história natural é favorável: cerca de 90% melhoram em 6–12 semanas com tratamento conservador. Com dor **incapacitante** apesar do tratamento inicial, um **opioide por curto prazo** é aceitável, e a recomendação central é **manter-se ativo** e retornar às atividades conforme tolerância — o repouso prolongado piora o prognóstico.
+
+**Por que as demais estão erradas:**
+- B) Exercícios de **fortalecimento** não são a conduta da fase aguda radicular (entram após o controle da dor); e o paciente já não respondeu a AINE.
+- C) **Cirurgia imediata** só com **síndrome da cauda equina** (retenção urinária, anestesia em sela) ou **déficit motor progressivo/grave**. Hipoestesia isolada não indica.
+- D) **Repouso de 14 dias** é contraindicado; corticoide sistêmico tem benefício pequeno e não é rotina.
+
+⚠️ **PEGADINHA DO INEP:** radiculopatia **sem sinais de alerta** = conservador, **ativo**, e reavaliar em 6 semanas; RM só se persistir (para planejar cirurgia) ou com bandeira vermelha.
+
+**O que a banca estava testando:** manejo da lombociatalgia por hérnia discal sem sinais de alerta.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 7]**
+
+Um paciente de 36 anos de idade, masculino, procura a Unidade de Saúde da Família com queixa de dor lombar baixa, há 10 dias, irradiada para face posterior da coxa, de moderada intensidade, mas que tem interferido no seu trabalho. Refere que a dor teve início após ter carregado peso durante a mudança de casa. O paciente relata que já apresentou episódios semelhantes anteriormente e que têm se tornado mais frequentes. Ao exame físico, o médico identifica uma banda muscular tensa em região glútea, com a presença de pontos-gatilho, que, quando pressionados, reproduziam a dor referida pelo paciente. Diante da situação apresentada, é correto afirmar que
+
+A) o paciente deve ser referenciado ao ortopedista para a avaliação cirúrgica de uma provável hérnia de disco.
+B) o paciente deve ser referenciado ao acupunturista do NASF para ser avaliado, acompanhado e tratado.
+C) o médico de família pode, em conjunto com o acupunturista do NASF, elaborar um plano terapêutico para o paciente.
+D) o médico de família deve prescrever relaxantes musculares, pois o agulhamento seco deve ser realizado pelo acupunturista do NASF.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** dor lombar com irradiação para a coxa que é **reproduzida pela pressão de pontos-gatilho** em uma **banda tensa** glútea — **síndrome dolorosa miofascial**, não radiculopatia. O NASF (hoje eMulti) funciona por **apoio matricial**: o especialista **compartilha o cuidado** com a equipe de Saúde da Família, elaborando **junto** o plano terapêutico (analgesia, alongamento, agulhamento/acupuntura, orientação ergonômica), sem que o paciente deixe de ser acompanhado pela ESF.
+
+**Por que as demais estão erradas:**
+- A) Não há sinais de hérnia discal (a dor é miofascial, reproduzida pelos pontos-gatilho) nem indicação cirúrgica.
+- B) "Referenciar" ao NASF como se fosse um ambulatório de especialidade contraria a lógica do **matriciamento**: o NASF não é porta de entrada nem assume o caso sozinho.
+- D) Separa rigidamente as tarefas, contrariando o trabalho compartilhado.
+
+⚠️ **PEGADINHA DO INEP:** em questões de NASF, a resposta certa quase sempre traz **"em conjunto", "compartilhado", "discussão de caso"**; desconfie de "encaminhar ao NASF".
+
+**O que a banca estava testando:** diagnóstico da síndrome miofascial e o modelo de apoio matricial do NASF.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 90]**
+
+Uma mulher de 46 anos, trabalhadora doméstica, apresenta-se ao médico com queixa de lombalgia há 1 semana, com intensidade de 5 em 10 na escala numérica da dor, de caráter contínuo e não irradiado. Ela já apresentou quadro semelhante antes e possui indicação de uso de relaxante muscular. Diante desse quadro, quais são, respectivamente, a hipótese diagnóstica mais provável e a conduta médica adequada?
+
+A) Lombalgia de origem mecânico-postural; iniciar tratamento conservador.
+B) Lombalgia inespecífica; dispensar investigação com exames complementares.
+C) Lombalgia com sinais de alerta; solicitar ressonância magnética da coluna lombossacra.
+D) Lombalgia inespecífica; indicar repouso e prescrever paracetamol ou anti-inflamatório não esteroidal.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** lombalgia aguda (1 semana), intensidade moderada, **sem irradiação** e **sem sinais de alerta**, em trabalhadora com esforço físico repetitivo e episódios prévios — **lombalgia mecânico-postural**. Conduta: **tratamento conservador** — analgesia (AINE ou paracetamol, relaxante muscular por poucos dias), calor local, **manter-se ativa**, orientação postural e ergonômica.
+
+**Por que as demais estão erradas:**
+- B) A frase é verdadeira (não se pedem exames), mas **não traz conduta terapêutica**, e a banca pede diagnóstico **e** conduta.
+- C) Não há sinais de alerta (idade > 50 ou < 20, trauma, febre, perda de peso, câncer prévio, déficit neurológico, dor noturna, imunossupressão).
+- D) **Repouso** não é recomendado na lombalgia aguda — piora a recuperação.
+
+⚠️ **PEGADINHA DO INEP:** "repouso" é a palavra que invalida alternativas de lombalgia. O recomendado é **manter as atividades** dentro do tolerável.
+
+**O que a banca estava testando:** manejo inicial da lombalgia mecânica sem sinais de alerta.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 40]**
+
+Homem de 45 anos, trabalhador da construção civil, comparece a uma unidade básica de saúde (UBS) devido à dor lombar iniciada há um mês, com piora progressiva, irradiada para o membro inferior direito, com maior intensidade ao final do expediente de trabalho, especialmente após carregar materiais pesados. Nega histórico de trauma, febre, perda de peso ou outros sintomas sistêmicos. Ao exame físico, há dor à palpação de musculatura paravertebral bilateral na região lombar, sem alterações neurológicas. Não há restrição de movimentos e a flexão está preservada. O exame de força e sensibilidade nos membros inferiores está normal, e os reflexos patelar e aquileu estão preservados. Lasègue negativo bilateralmente. Quais são as condutas adequadas a serem adotadas nesse caso?
+
+A) Solicitar ressonância magnética da coluna lombar, devido à irradiação da dor para membro inferior; prescrever anti-inflamatório não esteroide associado a paracetamol.
+B) Solicitar radiografia de coluna lombar, devido à duração e à irradiação da dor; prescrever corticoide sistêmico associado a paracetamol; encaminhar o paciente à fisioterapia.
+C) Não solicitar exames complementares, devido à duração da dor e reflexos preservados; prescrever corticoide sistêmico associado a relaxante muscular; orientar repouso por 5 dias.
+D) Não solicitar exames complementares, devido à ausência de sinais de alerta; orientar a prática de exercício físico; prescrever anti-inflamatório não esteroide associado a relaxante muscular.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** lombalgia mecânica (piora com esforço), com irradiação para o membro, mas **exame neurológico normal e Lasègue negativo** (sem radiculopatia) e **sem sinais de alerta**. **Não há indicação de exame de imagem** (as diretrizes recomendam evitá-lo nas primeiras 6 semanas sem bandeiras vermelhas). Conduta: **AINE + relaxante muscular** por curto período e **exercício físico**.
+
+**Por que as demais estão erradas:**
+- A) e B) Irradiação sem déficit neurológico **não indica** RM nem radiografia; exames de imagem na lombalgia inespecífica mostram achados incidentais que levam a mais intervenções sem benefício.
+- B) e C) Corticoide sistêmico não tem benefício demonstrado na lombalgia sem radiculopatia.
+- C) **Repouso** piora o prognóstico.
+
+⚠️ **PEGADINHA DO INEP:** a justificativa conta — em C, "não solicitar exames" está certo, mas a razão ("devido à duração") e o repouso estão errados. **Bandeiras vermelhas** é que decidem imagem.
+
+**O que a banca estava testando:** quando pedir imagem na lombalgia e o tratamento conservador baseado em evidência.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 27]**
+
+Homem de 48 anos, auxiliar de pedreiro, procura Unidade Básica de Saúde (UBS) com queixa de dor lombar iniciada há 3 semanas, de instalação insidiosa, sem irradiação. Relata que a dor piora ao final do dia e melhora parcialmente com repouso e uso de paracetamol. Nega perda de peso, febre, traumas, incontinência ou fraqueza nos membros inferiores. Ao exame físico, apresenta dor à palpação paravertebral em região lombar, sem alterações neurológicas. Com base na história clínica e no exame físico, qual o próximo passo na condução desse caso?
+
+A) Solicitar ressonância magnética da coluna lombar e encaminhar para a ortopedia.
+B) Solicitar radiografia lombar, prescrever corticoide oral e agendar o retorno após 10 dias.
+C) Orientar repouso, fornecer atestado de 7 dias e otimizar a analgesia com antidepressivo tricíclico.
+D) Explicar a natureza benigna, orientar analgesia e atividade física leve, com reavaliação em 4 a 6 semanas.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** **lombalgia inespecífica/mecânica** subaguda (3 semanas), sem irradiação, sem sinais de alerta e com exame neurológico normal. O melhor tratamento é **educação** (explicar que o quadro é benigno e costuma melhorar), **analgesia simples**, **atividade física** e **reavaliação em 4–6 semanas** — prazo após o qual, sem melhora, se reconsidera a investigação.
+
+**Por que as demais estão erradas:**
+- A) RM e encaminhamento ao ortopedista sem sinais de alerta é **medicalização** — prevenção quaternária.
+- B) Radiografia e corticoide não trazem benefício nesse cenário.
+- C) Repouso e atestado prolongado **cronificam** a dor; tricíclico entra na dor **crônica** (> 12 semanas), não como primeira medida.
+
+⚠️ **PEGADINHA DO INEP:** a educação do paciente ("natureza benigna") é, ela própria, intervenção terapêutica na lombalgia. Três das quatro alternativas pedem exames ou repouso — as duas coisas que a banca quer que você evite.
+
+**O que a banca estava testando:** abordagem da lombalgia inespecífica na atenção primária.
+
+**[INEP 2023 · Edição 2 · Questão 52]**
+
+Uma mulher de 59 anos é atendida em unidade de pronto-atendimento, queixando-se de dor lombar contínua, de forte intensidade, de caráter progressivo e com piora no último mês. Realizou tratamento prévio com analgésico e com anti-inflamatório, porém os sintomas persistiram. Ela refere história prévia de tratamento para câncer de mama há 3 anos. No momento, está sem queixas acerca da mama. O exame físico mostra hiperalgesia aos estímulos em coluna lombar. Radiografia da coluna lombar: lesões líticas. Com base no caso clínico apresentado, a principal hipótese diagnóstica é
+
+A) metástase.
+B) tuberculose.
+C) hérnia discal.
+D) fratura vertebral.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** dor lombar **contínua, progressiva, refratária** a analgésicos, em mulher > 50 anos **com câncer prévio** (mama — um dos que mais metastatizam para osso) e **lesões líticas** na radiografia = **metástase vertebral** até prova em contrário. Investigar com RM de coluna e cintilografia/estadiamento; atenção a sinais de compressão medular.
+
+**Por que as demais estão erradas:**
+- B) Tuberculose vertebral (mal de Pott) acomete o disco e as vértebras adjacentes, com febre/sintomas constitucionais e contexto epidemiológico — o antecedente oncológico pesa muito mais aqui.
+- C) Hérnia discal não produz lesões líticas.
+- D) Fratura não explica as lesões líticas (embora a metástase possa causar fratura patológica).
+
+⚠️ **PEGADINHA DO INEP:** **história de câncer** é o sinal de alerta de maior valor preditivo para lombalgia por neoplasia. Tumores que mais vão ao osso: **mama, próstata, pulmão, rim e tireoide**.
+
+**O que a banca estava testando:** lombalgia com sinal de alerta — metástase vertebral.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 56]**
+
+Um homem de 65 anos, trabalhador rural, procura atendimento em uma unidade de atenção primária à saúde por queixa de dor na região lombar esquerda iniciada há 1 mês. A dor vem piorando progressivamente e, nos últimos dias, tem impossibilitado o sono reparador do paciente. Sua esposa se queixa de que as calças do marido estão com cheiro de urina ultimamente. Ao exame, o paciente está lúcido, colaborativo e as mucosas estão úmidas e hipocoradas. Há retificação da coluna lombar, espasmo muscular localizado e dor à palpação delicada das apófises vertebrais de L2 e L3. As manobras de elevação do membro inferior esquerdo estendido (Lasègue) e do membro inferior direito estendido (Lasègue cruzado) não reproduzem a dor. Como o paciente se queixa de dor com o decúbito ventral, o sinal de Lasègue invertido (Wasserman) foi pesquisado em pé. A extensão das coxas com o paciente em ortostatismo também não provocaram dor. Em relação a essa situação, assinale a opção que apresenta, respectivamente, o diagnóstico clínico correto e a conduta médica apropriada.
+
+A) Dor lombar musculoesquelética; prescrever anti-inflamatórios.
+B) Dor lombar por radiculopatia; encaminhar paciente para o neurocirurgião.
+C) Dor lombar com comprometimento neurológico; solicitar exame de imagem.
+D) Dor lombar postural relacionada à profissão; recomendar repouso e solicitar fisioterapia.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** vários **sinais de alerta**: idade > 50 anos, dor **progressiva** que piora à noite (impede o sono), **incontinência urinária** (disfunção esfincteriana — comprometimento neurológico), **dor à palpação das apófises** (lesão óssea) e **palidez** (anemia — doença sistêmica: neoplasia, mieloma, infecção). Exige **investigação com imagem** (RM de preferência) e exames laboratoriais — não é lombalgia mecânica.
+
+**Por que as demais estão erradas:**
+- A) e D) Tratar como lombalgia mecânica/postural ignora os sinais de alerta.
+- B) As manobras radiculares (Lasègue, Lasègue cruzado, Wasserman) são **negativas** — não há radiculopatia.
+
+⚠️ **PEGADINHA DO INEP:** sinais de alerta ("red flags") — idade > 50 ou < 20 anos, câncer prévio, perda de peso, febre, imunossupressão, uso de drogas EV, trauma importante, dor noturna/em repouso, **déficit neurológico progressivo**, **disfunção esfincteriana**, **anestesia em sela**.
+
+**O que a banca estava testando:** reconhecimento de sinais de alerta na lombalgia.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 6]**
+
+Uma mulher de 55 anos, professora há 30 anos, procura atendimento devido a dor em região glútea direita, com irradiação para coxa e perna direita — tipo queimação e pontada — que se iniciou há 1 mês. Nos últimos dias, houve progressão do quadro com diminuição de força em perna direita e dificuldade de deambulação. Ela nega doenças preexistentes. Ao exame físico, apresenta-se em bom estado geral, com fácies de dor, marcha claudicante, mucosas coradas e hidratadas. Os exames dos aparelhos respiratório, cardiovascular e abdominal apresentam-se sem alterações. No exame neurológico, é detectada diminuição de força em perna direita, lasegue positivo, alteração de sensibilidade tátil e dolorosa em pé direito. Diante desse quadro clínico, o diagnóstico provável é
+
+A) neuropatia periférica sensitivo motora distal.
+B) neuropatia periférica motora proximal.
+C) neuropatia periférica sensitiva distal.
+D) neuropatia autonômica distal.
+
+**Gabarito oficial: A**
+
+**Por que A está correta (segundo a banca):** dor glútea irradiada para a perna, em queimação, com **Lasègue positivo**, **fraqueza** na perna e **alteração sensitiva no pé** = comprometimento **sensitivo e motor** na porção **distal** do membro — das alternativas, a única que reúne os dois componentes. Clinicamente, o quadro é de **lombociatalgia com radiculopatia** (L5/S1, geralmente por hérnia discal), que acomete o nervo na sua raiz e se manifesta no território distal (perna e pé).
+
+**Por que as demais estão erradas:**
+- B) O déficit é **distal** (perna/pé), não proximal.
+- C) Há também déficit **motor**, não só sensitivo.
+- D) Não há sinais autonômicos.
+
+⚠️ **ATENÇÃO:** o termo mais preciso seria **radiculopatia** (o Lasègue positivo indica tensão radicular). Com **déficit motor progressivo**, a radiculopatia deixa de ser tratada só de forma conservadora: pede **RM** e avaliação cirúrgica.
+
+**O que a banca estava testando:** semiologia da lombociatalgia com déficit sensitivo-motor.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 26]**
+
+Uma paciente de 74 anos, com diagnóstico de hipertensão arterial sistêmica e de diabetes mellitus tipo 2 há 25 anos, é trazida de instituição de longa permanência. Ela se queixa de fraqueza acentuada em membros inferiores observada há, pelo menos, 1 ano e que vem se agravando há 2 semanas. Relata não ter força para caminhar e nega febre. Ao exame físico, apresenta-se em estado geral regular, lúcida, orientada e hidratada. Identifica-se, em exame neurológico, força grau 3 em membros inferiores; tônus reduzido em panturrilhas bilateralmente; reflexos patelar e aquileu abolidos bilateralmente. Observa-se ausência de alterações da rima labial; teste do monofilamento alterado em ambos os pés; pulsos pediosos e tibiais posteriores reduzidos (2+/4+) bilateralmente. A partir dessas informações, qual é o exame complementar mais adequado para o caso?
+
+A) Radiografia de coluna lombo-sacra.
+B) Ressonância magnética de encéfalo.
+C) Ressonância magnética de coluna tóraco-lombar.
+D) Pesquisa de sensibilidade com o uso de biotesiômetro.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** **fraqueza bilateral importante (grau 3) e progressiva** dos membros inferiores, com **hipotonia e arreflexia** (padrão de neurônio motor inferior — raízes da cauda equina/cone medular ou nervos), **piora recente**. Embora a paciente tenha neuropatia diabética (monofilamento alterado), a polineuropatia diabética típica é **sensitiva** e não explica fraqueza tão acentuada e de piora rápida. É preciso excluir **compressão** do cone medular/cauda equina (estenose, hérnia, metástase, abscesso) — o exame de escolha é a **RM da coluna tóraco-lombar**.
+
+**Por que as demais estão erradas:**
+- A) Radiografia não avalia estruturas neurais.
+- B) A lesão não é encefálica (sem sinais centrais, sem alteração facial; padrão é periférico/radicular).
+- D) O biotesiômetro só quantificaria a neuropatia sensitiva já evidente — não esclarece a fraqueza.
+
+⚠️ **PEGADINHA DO INEP:** no idoso diabético, **não atribuir toda fraqueza à neuropatia diabética** — fraqueza motora progressiva bilateral exige imagem da coluna.
+
+**O que a banca estava testando:** investigação de paraparesia flácida progressiva.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 27]**
+
+Um paciente de 65 anos vai ao SAMU referindo dor lombar aguda irradiada para membro inferior direito, após queda da própria altura ocorrida há 6 horas. Ele está utilizando anti-inflamatório e analgésico via oral e apresenta retenção urinária e dor em hipogástrio. Possui histórico de dor lombar crônica e osteoartrite em coluna lombar e coxofemoral direita. Ao exame físico, apresenta dor à palpação de região púbica com massa palpável na região suprapúbica; força muscular preservada em membros inferiores e reflexos patelar e aquileu preservados bilateralmente; hipoestesia tátil em face posterior de coxa e perna direita e anestesia em região perineal bilateral. Ressonância magnética de coluna lombar mostrou alterações degenerativas de discos intervertebrais L3-L4 / L4-L5 / L5-S1, com redução de forames intervertebrais correspondentes, osteófitos posteriores em corpos vertebrais de L4, L5 e S1, além de protrusão discal volumosa centro-foraminal à direita em L4-L5, causando estenose foraminal nesse nível. Diante dessas informações, a conduta terapêutica adequada, no caso desse paciente, é realizar
+
+A) descompressão cirúrgica de urgência e utilizar analgésico comum.
+B) tratamento conservador e associar o uso de analgésicos opioides.
+C) sondagem vesical de demora e usar anti-inflamatório esteroidal.
+D) tratamento conservador e manter uso de anti-inflamatório.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** **retenção urinária** (globo vesical) + **anestesia perineal ("em sela")** + compressão discal volumosa = **síndrome da cauda equina** — **emergência cirúrgica**: **descompressão** o mais rápido possível (idealmente < 48 h, quanto antes melhor) para preservar a função esfincteriana e sexual. Analgesia associada.
+
+**Por que as demais estão erradas:**
+- B) e D) Tratamento conservador é inadequado diante de disfunção esfincteriana.
+- C) A sondagem alivia a retenção, mas **não trata a causa**; corticoide não substitui a descompressão.
+
+⚠️ **PEGADINHA DO INEP:** força e reflexos **preservados não excluem** cauda equina — os sinais-chave são **retenção/incontinência urinária ou fecal** e **anestesia em sela**.
+
+**O que a banca estava testando:** reconhecimento e conduta na síndrome da cauda equina.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 86]**
+
+Uma paciente de 39 anos procura a unidade básica de saúde referindo quadro de lombalgia iniciado há 20 dias. Relata sentir, desde o início do quadro, fraqueza em membros inferiores e apresentar polievacuações. Também relata uma sensação de anestesia na região perineal. Nega disúria, mas afirma ter dificuldade para urinar espontaneamente. Nega leucorreia, febre ou história de traumatismos. Afirma que seu peso tem se mantido estável e que sua última menstruação foi há 25 dias. A partir dessas informações, assinale a alternativa apresenta o exame mais indicado para a investigação do quadro.
+
+A) Radiografia de coluna lombossacra e de bacia.
+B) Punção lombar com análise do líquor.
+C) Ressonância magnética da coluna lombar.
+D) Exame de rotina de urina (EAS) e urocultura.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** lombalgia com **fraqueza nos membros inferiores**, **anestesia perineal**, **dificuldade para urinar** e alteração do hábito intestinal = **síndrome da cauda equina** suspeita → **RM de coluna lombar com urgência** (e avaliação neurocirúrgica). A RM identifica a causa compressiva (hérnia discal volumosa, tumor, abscesso, hematoma).
+
+**Por que as demais estão erradas:**
+- A) A radiografia não mostra disco, raízes nem medula.
+- B) Punção lombar não é o exame inicial para compressão (e pode piorar uma lesão compressiva).
+- D) O problema urinário é **neurogênico**, não infeccioso.
+
+⚠️ **PEGADINHA DO INEP:** suspeita de cauda equina → **RM urgente** + encaminhamento imediato; não perder tempo com exames que não mudam a conduta.
+
+**O que a banca estava testando:** investigação da síndrome da cauda equina.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 71]**
+
+Homem de 45 anos com queixa de dor lombar, há 1 ano, é encaminhado da atenção primária para o ambulatório de reumatologia. O paciente é obeso, sedentário. Relata dor ao acordar e dificuldade de movimentação, que melhora após cerca de 2 horas. Utilizou diversos anti-inflamatórios não hormonais e analgésicos comuns, com melhora parcial e transitória. A radiografia de coluna lombar, realizada na unidade básica de saúde (UBS), revela redução de espaço L4-L5 com esclerose subcondral. O exame físico mostra uma redução na amplitude dos movimentos da coluna lombar, com um teste de Schober de 1 cm, e não há sinais de artrite ou de entesite. Considerando o diagnóstico mais provável, quais são as condutas médicas específicas para o caso?
+
+A) Solicitar o HLA-B37 e prescrever anti-inflamatórios hormonais.
+B) Solicitar provas de atividades inflamatórias e ressonância magnética de sacroilíacas.
+C) Orientar sobre ergonomia e prescrever anti-inflamatórios não hormonais sob demanda.
+D) Orientar redução de peso, realização de sessões de fisioterapia e prescrever analgésicos opioides.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** dor lombar **crônica (> 3 meses)** com **rigidez matinal prolongada (~2 h)** que **melhora com o movimento**, resposta a AINE e **Schober reduzido** (1 cm; normal ≥ 4–5 cm) = **lombalgia inflamatória** → suspeita de **espondiloartrite axial**. Investigar com **VHS/PCR**, **HLA-B27** e **RM das sacroilíacas** (detecta sacroileíte inicial, antes de aparecer na radiografia).
+
+**Por que as demais estão erradas:**
+- A) O marcador é o **HLA-B27** (não B37); e **corticoide sistêmico não é tratamento** da doença axial.
+- C) e D) Tratar como lombalgia mecânica/degenerativa (pela obesidade e pela radiografia) atrasa o diagnóstico; opioide não tem papel.
+
+⚠️ **PEGADINHA DO INEP:** critérios de lombalgia inflamatória — início < 40–45 anos, insidioso, > 3 meses, **melhora com exercício**, **não melhora com repouso**, **dor noturna**, rigidez matinal > 30 min, boa resposta a AINE.
+
+**O que a banca estava testando:** reconhecimento da lombalgia inflamatória.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 46]**
+
+Homem de 32 anos apresenta quadro de dor lombar crônica de início insidioso, com duração aproximada de 6 meses, que piora pela manhã e melhora com o movimento. Refere rigidez matinal, principalmente nas regiões lombar e sacroilíaca, com duração de mais de 30 minutos, com dor nas articulações sacroilíacas e sensação de fadiga durante as últimas semanas. Não há histórico de trauma. A história familiar é positiva para doenças reumatológicas, mas o paciente desconhece diagnósticos específicos. O painel de autoanticorpos apresenta:
+
+| Exame | Resultado |
+|---|---|
+| Anticorpo antinuclear (ANA) | Positivo — título 1:80, padrão homogêneo/difuso |
+| Anticorpo anti-DNA dupla hélice | Negativo |
+| Antígeno leucocitário humano B27 (HLA-B27) | Positivo |
+| Fator reumatoide | Negativo |
+| Anticorpo anti-CCP | Negativo |
+| Anticorpo anti-Ro | Negativo |
+| Anticorpo anti-La | Negativo |
+
+Com base no caso clínico e nos exames laboratoriais apresentados, qual é o diagnóstico mais provável?
+
+A) Artrite reativa.
+B) Artrite psoriática.
+C) Espondilite anquilosante.
+D) Lúpus eritematoso sistêmico.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** homem jovem, **lombalgia inflamatória** (> 3 meses, rigidez matinal > 30 min, melhora com movimento), **dor sacroilíaca**, história familiar e **HLA-B27 positivo** (FR e anti-CCP negativos — "soronegativa") = **espondilite anquilosante** (espondiloartrite axial).
+
+**Por que as demais estão erradas:**
+- A) **Artrite reativa**: oligoartrite de membros inferiores após infecção intestinal/urogenital, com uretrite/conjuntivite.
+- B) **Artrite psoriática**: exige psoríase (pessoal ou familiar) e acometimento periférico/dactilite/unhas.
+- D) **LES**: FAN 1:80 é título baixo e inespecífico; anti-DNA negativo e sem manifestações sistêmicas.
+
+⚠️ **PEGADINHA DO INEP:** FAN em título baixo (1:80) ocorre em pessoas saudáveis — não fecha lúpus. Tratamento da EA: **AINE** + exercício/fisioterapia; se refratária, **anti-TNF**. Corticoide sistêmico e metotrexato não tratam a doença axial.
+
+**O que a banca estava testando:** diagnóstico da espondilite anquilosante.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 76]**
+
+Paciente do sexo masculino, 71 anos, aposentado, ex-trabalhador rural durante 35 anos, procura atendimento médico na Unidade Básica de Saúde (UBS) com dor lombar, predominante no período noturno, associada à perda de peso há cerca de 15 dias. Apresenta dores em região cervical, ombros e joelhos, exacerbadas aos esforços físicos. Relata transplante hepático há 2 anos, por câncer de fígado, fazendo uso regular de medicamento imunossupressor. Exame físico: bom estado geral, eupneico, acianótico, anictérico, afebril e normocorado. Ausculta cardíaca e respiratória sem alterações. Abdome normotenso, indolor à palpação, sem visceromegalias. Extremidades aquecidas e perfundidas, sem edema. Dorso: acentuada lordose lombar e dor à mobilização da coluna lombossacra. Avaliação neuromuscular: força muscular preservada, sensibilidade sem alterações e reflexos normais. Diante desse caso, qual é o exame e a conduta adequada, respectivamente?
+
+A) Tomografia abdominal com contraste; indicar fisioterapia.
+B) Cintilografia óssea; prescrever anti-inflamatórios e repouso.
+C) Radiografia de coluna lombossacra; prescrever opioides e corticoides.
+D) Ultrassom do aparelho urinário; prescrever analgésicos e anti-inflamatórios.
+
+**Gabarito oficial: B**
+
+**Por que B está correta (segundo a banca):** sinais de alerta — **idade > 70**, **dor noturna**, **perda de peso**, **câncer prévio** (hepatocarcinoma) e **imunossupressão** → investigar **metástase óssea**. A **cintilografia óssea** rastreia lesões em todo o esqueleto; analgesia/AINE para o sintoma enquanto se investiga.
+
+**Por que as demais estão erradas:**
+- A) e D) Não investigam a coluna/esqueleto.
+- C) Radiografia é pouco sensível (só mostra lesão após perda de 30–50% do osso); corticoide e opioide empíricos não são a conduta inicial.
+
+⚠️ **ATENÇÃO:** a **RM** de coluna é o exame mais sensível para metástase vertebral e compressão medular; a cintilografia é útil para o rastreio do esqueleto. "Repouso" prolongado não é recomendado na lombalgia em geral; e AINE em transplantado (nefrotoxicidade com inibidores de calcineurina) exige cautela.
+
+**O que a banca estava testando:** investigação de lombalgia com sinais de alerta para neoplasia.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Quais sinais de alarme (red flags) justificam investigação adicional em lombalgia?	Déficit neurológico objetivo, febre, perda de peso, história oncológica, trauma significativo, idade >50 com início recente, alterações esfincterianas	Revalida::Ortopedia::Lombalgia::Diagnostico
+Qual a conduta inicial correta para lombalgia mecânica sem sinais de alarme?	AINE + fisioterapia	Revalida::Ortopedia::Lombalgia::Tratamento
+Ressonância magnética de rotina é indicada para toda lombalgia aguda?	Não — apenas na presença de sinais de alarme ou falha do tratamento conservador	Revalida::Ortopedia::Lombalgia::Conduta
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Maioria das lombalgias agudas é mecânica/inespecífica.
+2. Ausência de sinais de alarme = conduta conservadora (AINE + fisioterapia).
+3. Lasègue negativo argumenta contra compressão radicular significativa.
+4. Não solicitar imagem de rotina sem sinais de alarme.
+5. Não afastar do trabalho por período fixo sem indicação clínica clara.
+
+📊 **Tabela-síntese**
+| Achado | Conduta |
+|---|---|
+| Sem sinais de alarme, Lasègue negativo | AINE + fisioterapia |
+| Sinais de alarme presentes | Investigação adicional (imagem, exames) |
+
+⚡ **Fluxograma textual:** lombalgia aguda → investigar sinais de alarme → ausentes → AINE + fisioterapia (sem imagem de rotina).
+
+🚫 **Os 3 erros mais comuns:** (1) solicitar imagem de rotina sem sinais de alarme; (2) indicar infiltração como primeira linha; (3) afastar do trabalho sem necessidade clínica.
+
+🔗 **Conexões com outros módulos:** nenhum diretamente relacionado neste lote.
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "ORT-02",
+  "especialidade": "Ortopedia",
+  "tema": "Lombalgia",
+  "assunto": "Lombalgia mecânica sem sinais de alarme - conduta conservadora inicial",
+  "tier": "A",
+  "n_questoes": 15,
+  "n_flashcards": 3,
+  "tempo_estudo_min": 100,
+  "prerequisitos": [],
+  "relacionados": [],
+  "data_geracao": "2026-07-31",
+  "itens_a_verificar": [
+    "Módulo com apenas 1 questão na amostra atual — prioridade para revisão quando mais edições forem classificadas"
+  ]
+}
+```

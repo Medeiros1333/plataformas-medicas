@@ -1,0 +1,274 @@
+[
+  {
+    "id": "PED-CAR-alprostadil",
+    "nombre": "Alprostadil (prostaglandina E1)",
+    "sinonimos": [
+      "PGE1"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Vasodilatador",
+    "subclase": "Prostaglandina E1 sintética",
+    "mecanismo": "Reproduce la acción de la prostaglandina E2 placentaria, que durante toda la vida fetal mantiene ABIERTO el ductus arterioso relajando su músculo liso. Al nacer, la caída brusca de las prostaglandinas circulantes (al desaparecer la placenta que las producía y aumentar el metabolismo pulmonar) junto con la subida de la presión parcial de oxígeno provocan el CIERRE funcional del ductus en las primeras 24-72 horas. En una cardiopatía DUCTUS-DEPENDIENTE, ese cierre fisiológico es catastrófico: el ductus era la única comunicación que permitía llegar sangre al pulmón o a la aorta descendente, y su cierre produce hipoxemia refractaria o shock. El alprostadil vuelve a abrirlo. Es un fármaco que no cura nada: mantiene vivo al recién nacido hasta que puede llegar a un centro con cirugía cardiaca.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,01-0,05 microgramos/kg/min en perfusión intravenosa continua, ajustando a la dosis MÍNIMA eficaz",
+    "dosis_maxima": "0,1 microgramos/kg/min al inicio si el ductus ya está cerrándose; después se baja en cuanto se abre",
+    "presentaciones": [
+      "Ampollas de 500 microgramos para dilución en perfusión continua",
+      "Requiere bomba de perfusión y una vía fiable: la interrupción accidental puede ser mortal en minutos"
+    ],
+    "edad_minima": "Recién nacido, desde el primer minuto de vida",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido con ductus permeable",
+        "ajuste": "0,01-0,02 microgramos/kg/min bastan para MANTENERLO abierto: la dosis mínima eficaz reduce mucho el riesgo de apnea"
+      },
+      {
+        "franja": "Recién nacido con ductus ya cerrándose o cerrado",
+        "ajuste": "0,05-0,1 microgramos/kg/min para REABRIRLO, con descenso rápido en cuanto mejora la saturación"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es un fármaco exclusivamente neonatal cuya lógica solo se entiende desde la fisiología de la transición fetal-neonatal, y su indicación depende de un razonamiento que hay que hacer deprisa. Un recién nacido que se deteriora en las primeras horas o días de vida, cuando el ductus se cierra, tiene una cardiopatía DUCTUS-DEPENDIENTE hasta que se demuestre lo contrario, y hay dos escenarios: si depende del ductus para el FLUJO PULMONAR (atresia pulmonar, tetralogía de Fallot extrema, atresia tricuspídea) se presentará con CIANOSIS refractaria al oxígeno; si depende de él para el FLUJO SISTÉMICO (coartación grave, hipoplasia de cavidades izquierdas, interrupción del arco) se presentará con SHOCK, pulsos femorales ausentes y acidosis. En el segundo escenario, administrar OXÍGENO al 100% es contraproducente, porque el oxígeno ayuda a cerrar el ductus y además redistribuye el flujo hacia el pulmón y lo roba a la circulación sistémica: es una de las pocas situaciones de la medicina en que dar oxígeno a un niño grave empeora las cosas.",
+    "indicaciones": [
+      {
+        "patologia": "CARDIOPATÍA CONGÉNITA DUCTUS-DEPENDIENTE con cianosis (flujo pulmonar dependiente del ductus)",
+        "dosis": "0,01-0,05 microgramos/kg/min en perfusión continua",
+        "posologia": "Perfusión continua ininterrumpida",
+        "via": "IV",
+        "dosis_objetivo": "Saturación de oxígeno de 75-85% con buena perfusión y acidosis en resolución: el objetivo NO es normalizar la saturación",
+        "nota": "En estos niños una saturación del 100% indicaría un flujo pulmonar excesivo a costa del sistémico: hay que resistirse a la tentación de subir el oxígeno"
+      },
+      {
+        "patologia": "Cardiopatía ductus-dependiente con SHOCK (flujo sistémico dependiente del ductus)",
+        "dosis": "0,05-0,1 microgramos/kg/min de inicio, con descenso rápido tras la respuesta",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Recuperación de los pulsos femorales, de la diuresis y corrección de la acidosis metabólica",
+        "nota": "Coartación grave, hipoplasia de cavidades izquierdas e interrupción del arco aórtico. Aquí el oxígeno a alta concentración EMPEORA la situación"
+      },
+      {
+        "patologia": "TRANSPOSICIÓN de grandes vasos, como puente a la atrioseptostomía",
+        "dosis": "0,01-0,05 microgramos/kg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Mejora la mezcla entre ambas circulaciones mientras se realiza la atrioseptostomía de Rashkind"
+      },
+      {
+        "patologia": "Traslado a centro con cirugía cardiaca",
+        "dosis": "Dosis mínima eficaz mantenida durante todo el traslado, con VÍA ASEGURADA y bomba de repuesto",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Estabilidad hemodinámica durante el transporte",
+        "nota": "Muchos centros INTUBAN de forma preventiva antes del traslado, precisamente por el riesgo de APNEA"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante la sospecha clínica, SIN esperar al ecocardiograma si el niño está inestable: la prueba terapéutica es aceptable y salva vidas. Vía intravenosa segura, bomba de perfusión y material de intubación preparado.",
+      "titulacion": "Se busca la dosis MÍNIMA eficaz: en cuanto el ductus se abre, se baja. Las dosis altas mantenidas multiplican la apnea y la hipotensión.",
+      "duracion": "Hasta la cirugía o el procedimiento correctivo, que puede ser de horas a días.",
+      "fin": "Solo tras la corrección quirúrgica o cuando se descarta la cardiopatía ductus-dependiente.",
+      "via": "Intravenosa en perfusión continua, preferiblemente por vía central o umbilical. NUNCA debe interrumpirse: sin fármaco, el ductus se cierra en minutos.",
+      "monitorizacion": "Saturación PRE y POSTDUCTAL (mano derecha frente a pie), tensión arterial, pulsos femorales, gasometría, glucemia, temperatura y VIGILANCIA RESPIRATORIA estrecha por el riesgo de apnea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa exclusiva.",
+      "distribucion": "Rápida.",
+      "metabolismo": "Se metaboliza en un 70-80% en UN SOLO PASO por el PULMÓN, lo que explica su vida media brevísima y la necesidad de perfusión continua.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "MENOS DE 1 MINUTO. Es la razón por la que la interrupción accidental de la perfusión puede ser catastrófica en pocos minutos.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "OXÍGENO a alta concentración",
+          "efecto": "Favorece el CIERRE del ductus y, en la cardiopatía con flujo sistémico ductus-dependiente, redistribuye el flujo hacia el pulmón robándolo a la circulación sistémica",
+          "gravedad": "alta",
+          "manejo": "Es la interacción más contraintuitiva de la neonatología: en estos niños hay que dar el oxígeno MÍNIMO necesario y aceptar saturaciones de 75-85%"
+        },
+        {
+          "con": "AINE (indometacina, ibuprofeno)",
+          "efecto": "Antagonismo DIRECTO: cierran el ductus inhibiendo la síntesis de prostaglandinas",
+          "gravedad": "alta",
+          "manejo": "Efectos opuestos del mismo eje: uno abre y otros cierran. Nunca coinciden en el mismo paciente"
+        },
+        {
+          "con": "Vasodilatadores y sedantes",
+          "efecto": "Hipotensión aditiva",
+          "gravedad": "media",
+          "manejo": "Tener volumen y vasopresores preparados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "APNEA, en el 10-15% de los recién nacidos, sobre todo en la PRIMERA HORA, en el prematuro y con dosis altas",
+        "FIEBRE",
+        "Rubor y vasodilatación cutánea",
+        "Hipotensión",
+        "Irritabilidad y convulsiones"
+      ],
+      "graves": [
+        "APNEA con necesidad de intubación urgente: es el motivo por el que muchos centros intuban de forma preventiva antes de un traslado",
+        "Hipotensión grave",
+        "Hemorragia por inhibición de la agregación plaquetaria",
+        "Enterocolitis necrosante",
+        "HIPERPLASIA ANTRAL con obstrucción de la salida gástrica en perfusiones prolongadas",
+        "Hiperostosis cortical con tratamientos de semanas"
+      ]
+    },
+    "contraindicaciones": [
+      "Síndrome de distrés respiratorio del recién nacido sin cardiopatía",
+      "Retorno venoso pulmonar anómalo total OBSTRUCTIVO (puede empeorar la congestión pulmonar)",
+      "Sospecha de que la cianosis es de causa pulmonar y no cardiaca (aunque ante la duda y con el niño inestable, la prueba terapéutica es aceptable)"
+    ],
+    "perlas": [
+      "Ante un recién nacido que se deteriora en los primeros días de vida hay que pensar en CARDIOPATÍA DUCTUS-DEPENDIENTE: el cierre fisiológico del ductus es lo que desencadena el cuadro, y por eso el momento de presentación es tan característico. Un neonato que estaba bien y a las 48 horas está cianótico o en shock es, hasta que se demuestre lo contrario, un ductus que se está cerrando.",
+      "En el niño con flujo SISTÉMICO ductus-dependiente, dar OXÍGENO al 100% EMPEORA la situación: el oxígeno cierra el ductus y además desvía el flujo hacia el pulmón, robándolo a la circulación sistémica. Es una de las poquísimas situaciones en medicina en que administrar oxígeno a un niño grave es contraproducente, y va contra todos los reflejos adquiridos.",
+      "El objetivo de saturación es 75-85%, no 100%. Una saturación normal en estos niños significa hiperaflujo pulmonar y baja perfusión sistémica: hay que resistirse a corregir el número.",
+      "La APNEA aparece hasta en el 15% de los casos y sobre todo en la primera hora. Por eso el material de intubación tiene que estar preparado ANTES de iniciar la perfusión, y por eso muchos centros intuban preventivamente antes de un traslado.",
+      "Su vida media es de MENOS DE UN MINUTO: la perfusión no puede interrumpirse ni un momento. Un cambio de bomba mal hecho, una vía que se extravasa o una llave cerrada por error pueden cerrar el ductus en minutos. La vía debe estar asegurada y exclusiva.",
+      "La dosis MÍNIMA eficaz es la mejor: en cuanto el ductus se abre, se baja. La mayor parte de las apneas y de las hipotensiones vienen de mantener dosis altas cuando ya no hacen falta.",
+      "La saturación PRE y POSTDUCTAL (mano derecha frente a pie) es una exploración de dos minutos que orienta el diagnóstico: una diferencia significativa señala una cardiopatía con cortocircuito a través del ductus.",
+      "Es un fármaco PUENTE: no corrige nada. Su función es mantener vivo al recién nacido hasta que llegue a un quirófano de cirugía cardiaca, y eso condiciona toda la logística de la asistencia."
+    ],
+    "embarazo_lactancia": "No aplicable por la población a la que se dirige.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 18; protocolos de estabilización neonatal de cardiopatías congénitas"
+  },
+  {
+    "id": "PED-CAR-ibuprofeno-ductus",
+    "nombre": "Ibuprofeno e indometacina para el cierre del ductus (prematuro)",
+    "sinonimos": [
+      "Tratamiento del ductus arterioso persistente"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antiinflamatorio no esteroideo",
+    "subclase": "Inhibidores de la ciclooxigenasa para el cierre farmacológico del ductus",
+    "mecanismo": "Es la cara opuesta del alprostadil y actúa sobre el mismo eje. Inhiben la CICLOOXIGENASA y bloquean la síntesis de PROSTAGLANDINA E2, que es la que mantiene relajado el músculo liso del ductus. Sin prostaglandinas, el ductus se contrae y se cierra. En el prematuro, ese cierre no ocurre solo porque su ductus tiene una musculatura inmadura, es más sensible a las prostaglandinas y menos sensible al oxígeno, de modo que persiste permeable mucho más allá de lo fisiológico. Un ductus persistente con cortocircuito significativo de izquierda a derecha sobrecarga el pulmón y roba flujo a la circulación sistémica, contribuyendo a la displasia broncopulmonar, a la enterocolitis necrosante y a la hemorragia intraventricular. El PARACETAMOL, que inhibe la ciclooxigenasa por un mecanismo distinto (a nivel del sitio peroxidasa), ha demostrado una eficacia comparable con muchos menos efectos adversos, y ha cambiado la práctica en los últimos años.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Ibuprofeno 10 mg/kg de dosis inicial y después 5 mg/kg a las 24 y 48 horas (3 dosis en total)",
+    "dosis_maxima": "Habitualmente no se superan 2-3 ciclos; el paracetamol se usa a 15 mg/kg cada 6 horas durante 3-7 días",
+    "presentaciones": [
+      "Ibuprofeno lisina intravenoso, específico para esta indicación neonatal",
+      "Paracetamol intravenoso u oral",
+      "Indometacina intravenosa (hoy en desuso frente al ibuprofeno por su mayor toxicidad renal y digestiva)"
+    ],
+    "edad_minima": "Recién nacido prematuro, habitualmente en los primeros días de vida",
+    "franjas_edad": [
+      {
+        "franja": "Prematuro extremo (menos de 28 semanas)",
+        "ajuste": "Es el grupo con más ductus persistentes sintomáticos y también el más vulnerable a la toxicidad renal y digestiva del tratamiento"
+      },
+      {
+        "franja": "Prematuro moderado",
+        "ajuste": "Muchos ductus se cierran SOLOS: la tendencia actual es un manejo más conservador y expectante"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es una indicación que solo existe en el prematuro y que ilustra un cambio de paradigma reciente y aleccionador. Durante décadas se trató farmacológicamente TODO ductus persistente detectado por ecocardiografía, sobre la lógica de que cerrarlo prevendría la displasia broncopulmonar, la enterocolitis y la hemorragia intraventricular. Los ensayos posteriores no confirmaron esa mejora del pronóstico a largo plazo, y sí mostraron la toxicidad del tratamiento: oliguria, insuficiencia renal, perforación intestinal y sangrado. Hoy la tendencia es MUCHO más conservadora: se trata el ductus HEMODINÁMICAMENTE SIGNIFICATIVO en el prematuro sintomático, y muchos otros se dejan cerrar solos. La segunda particularidad es el PARACETAMOL, que en esta indicación funciona por un mecanismo distinto al de su efecto antitérmico y ha desplazado en parte a los AINE por su mejor perfil renal y digestivo, algo que sorprende a quien conoce el paracetamol solo como analgésico.",
+    "indicaciones": [
+      {
+        "patologia": "DUCTUS ARTERIOSO PERSISTENTE hemodinámicamente significativo en el prematuro",
+        "dosis": "Ibuprofeno 10 mg/kg y después 5 mg/kg a las 24 y 48 horas, en 3 dosis",
+        "posologia": "Tres dosis separadas 24 horas",
+        "via": "IV",
+        "dosis_objetivo": "Cierre ecocardiográfico del ductus con mejoría respiratoria y hemodinámica",
+        "nota": "La indicación exige repercusión: soplo con pulsos saltones, precordio hiperdinámico, dificultad para retirar el respirador y datos ecocardiográficos de cortocircuito significativo"
+      },
+      {
+        "patologia": "Ductus persistente con contraindicación para los AINE",
+        "dosis": "Paracetamol 15 mg/kg cada 6 horas durante 3-7 días",
+        "posologia": "Cada 6 horas",
+        "via": "IV",
+        "dosis_objetivo": "Cierre del ductus",
+        "nota": "Eficacia comparable al ibuprofeno con MENOS toxicidad renal, digestiva y plaquetaria. Es la opción cuando hay oliguria, trombopenia o riesgo de sangrado"
+      },
+      {
+        "patologia": "Ductus que no responde al primer ciclo",
+        "dosis": "Segundo ciclo de ibuprofeno o cambio a paracetamol",
+        "posologia": "Ciclo completo repetido",
+        "via": "IV",
+        "dosis_objetivo": "Cierre tras el segundo ciclo",
+        "nota": "Si fracasan dos ciclos, se valora el CIERRE PERCUTÁNEO con dispositivo, que ha desplazado en gran medida a la ligadura quirúrgica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar por ECOCARDIOGRAFÍA que el ductus es hemodinámicamente significativo, y comprobar la función renal, la diuresis y las plaquetas. Descartar cardiopatía DUCTUS-DEPENDIENTE, donde cerrarlo sería mortal.",
+      "titulacion": "Pauta fija de 3 dosis.",
+      "duracion": "Un ciclo de 3 días; hasta 2 ciclos.",
+      "fin": "Tras el cierre ecocardiográfico o el fracaso de dos ciclos.",
+      "via": "Intravenosa.",
+      "monitorizacion": "DIURESIS horaria, creatinina, plaquetas, tolerancia digestiva y vigilancia de signos de enterocolitis (distensión, residuos gástricos, sangre en heces)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Muy alta unión a la ALBÚMINA, y de ahí su principal riesgo neonatal: desplaza la BILIRRUBINA de su unión a la albúmina.",
+      "metabolismo": "Hepático, con inmadurez enzimática marcada en el prematuro.",
+      "eliminacion": "Renal, con vida media muy prolongada en el prematuro.",
+      "vida_media": "Mucho más larga que en el niño mayor por inmadurez hepática y renal.",
+      "ajuste_renal": "CONTRAINDICADO con oliguria o creatinina elevada: el ibuprofeno reduce el flujo renal precisamente cuando ya está comprometido.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "BILIRRUBINA",
+          "efecto": "Los AINE la DESPLAZAN de la albúmina, aumentando la bilirrubina LIBRE y el riesgo de KERNICTERUS",
+          "gravedad": "alta",
+          "manejo": "Es una preocupación específicamente neonatal: hay que valorar la cifra de bilirrubina antes de tratar, y es un argumento a favor del paracetamol"
+        },
+        {
+          "con": "ALPROSTADIL (prostaglandina E1)",
+          "efecto": "ANTAGONISMO DIRECTO: uno abre el ductus y el otro lo cierra",
+          "gravedad": "alta",
+          "manejo": "Son las dos caras del mismo eje. Antes de cerrar un ductus hay que estar SEGURO de que el niño no depende de él"
+        },
+        {
+          "con": "CORTICOIDES y nefrotóxicos (aminoglucósidos, vancomicina)",
+          "efecto": "Suman riesgo de perforación intestinal y de nefrotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar la coincidencia; la combinación de AINE y corticoide en el prematuro es especialmente peligrosa para el intestino"
+        },
+        {
+          "con": "Furosemida",
+          "efecto": "Suma deterioro de la función renal",
+          "gravedad": "media",
+          "manejo": "Vigilar la diuresis y la creatinina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "OLIGURIA y elevación transitoria de la creatinina",
+        "Retención hídrica e hiponatremia",
+        "Intolerancia digestiva con aumento de residuos gástricos"
+      ],
+      "graves": [
+        "INSUFICIENCIA RENAL, más marcada con indometacina que con ibuprofeno",
+        "PERFORACIÓN INTESTINAL y ENTEROCOLITIS NECROSANTE, sobre todo si coincide con corticoides",
+        "HEMORRAGIA por inhibición de la función plaquetaria, incluida la intraventricular",
+        "KERNICTERUS por desplazamiento de la bilirrubina de la albúmina",
+        "HIPERTENSIÓN PULMONAR si se administra a un recién nacido cuya circulación depende del ductus"
+      ]
+    },
+    "contraindicaciones": [
+      "CARDIOPATÍA DUCTUS-DEPENDIENTE: cerrar el ductus sería mortal",
+      "Insuficiencia renal, oliguria o creatinina elevada",
+      "Hemorragia activa, trombopenia significativa o hemorragia intraventricular reciente",
+      "Enterocolitis necrosante o sospecha de perforación",
+      "Hiperbilirrubinemia grave",
+      "Infección no controlada"
+    ],
+    "perlas": [
+      "Este fármaco y el ALPROSTADIL son las dos caras exactas del mismo eje: uno inhibe las prostaglandinas para CERRAR el ductus y el otro las aporta para MANTENERLO abierto. Verlos juntos hace que la fisiología del ductus se entienda de una vez y para siempre, y deja clarísimo por qué hay que estar SEGURO del diagnóstico antes de tratar: administrar un AINE a un recién nacido con cardiopatía ductus-dependiente lo mata.",
+      "El cambio de paradigma de los últimos años merece atención: durante décadas se cerró farmacológicamente todo ductus visible en la ecografía, y los ensayos posteriores no demostraron mejoría del pronóstico a largo plazo mientras sí mostraron la toxicidad. Hoy se trata solo el ductus HEMODINÁMICAMENTE SIGNIFICATIVO y muchos se dejan cerrar solos. Es un buen recordatorio de que tratar un hallazgo no equivale a tratar una enfermedad.",
+      "El PARACETAMOL cierra el ductus con eficacia comparable y mucha menos toxicidad renal, digestiva y plaquetaria. Que el analgésico más banal del mundo tenga esta indicación sorprende, y se debe a que inhibe la ciclooxigenasa por un sitio distinto (el peroxidasa) que no compromete el flujo renal.",
+      "El desplazamiento de la BILIRRUBINA de la albúmina es un riesgo específicamente neonatal: aumenta la bilirrubina libre, que es la que atraviesa la barrera hematoencefálica, con riesgo de KERNICTERUS. Es otro argumento a favor del paracetamol en el prematuro ictérico.",
+      "La combinación de AINE con CORTICOIDE en el prematuro multiplica el riesgo de PERFORACIÓN INTESTINAL: es una coincidencia que hay que evitar activamente, porque ambos se usan en la misma población.",
+      "Hay que vigilar la DIURESIS HORARIA: la oliguria es el primer signo de que el ibuprofeno está comprometiendo el flujo renal, y aparece antes que la subida de la creatinina.",
+      "Si fracasan dos ciclos, el CIERRE PERCUTÁNEO con dispositivo ha desplazado en gran medida a la ligadura quirúrgica, que se asociaba a parálisis de la cuerda vocal y a inestabilidad hemodinámica postoperatoria.",
+      "El prematuro no cierra el ductus solo porque su musculatura ductal es inmadura, más sensible a las prostaglandinas y menos sensible al oxígeno. No es un defecto anatómico: es una inmadurez, y por eso muchos se cierran con el tiempo."
+    ],
+    "embarazo_lactancia": "No aplicable por la población a la que se dirige. Es relevante, en cambio, la contraindicación de los AINE en el TERCER TRIMESTRE del embarazo: por este mismo mecanismo cierran el ductus del feto y producen hipertensión pulmonar y oligoamnios.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 18; protocolos de neonatología sobre ductus arterioso persistente del prematuro"
+  }
+]

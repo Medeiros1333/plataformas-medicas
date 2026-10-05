@@ -1,0 +1,268 @@
+## 0. CABEÇALHO
+
+**Código:** PREV-02 · **Especialidade:** Preventiva · **Tema:** Delineamento de estudos epidemiológicos · **Assunto:** Reconhecimento do tipo de estudo (experimental, quasi-experimental, observacional) a partir da descrição do desenho · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 5 (2011.1-Q95, 2016.1-Q18, 2024.1-Q75, 2025.1-Q45, 2026.1-Q34) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 80 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29
+
+---
+
+## 1. TEORIA
+
+Reconhecer o delineamento (desenho) de um estudo epidemiológico a partir da descrição de sua metodologia é uma competência central e recorrente do Revalida — a banca descreve um estudo (população, forma de alocação/exposição, seguimento no tempo, análise estatística) e pede que o candidato identifique o tipo de desenho, sem usar a palavra-chave diretamente.
+
+**Os principais delineamentos e como reconhecê-los [CONSENSO]:**
+
+| Delineamento | Característica-chave para reconhecer | Direção da análise |
+|---|---|---|
+| **Ensaio clínico randomizado (experimental)** | Pesquisador **aloca aleatoriamente** os participantes à exposição/intervenção (randomização) | Prospectiva |
+| **Quasi-experimental** | Há uma intervenção/exposição comparada a um grupo controle, **mas a alocação NÃO é aleatória** — grupos definidos por características preexistentes ou por conveniência (ex.: já frequentar um serviço) | Prospectiva (geralmente) |
+| **Coorte (prospectiva)** | Grupos definidos pela **exposição** (já presente ou que se inicia no estudo) são **acompanhados ao longo do tempo** para observar o desfecho | Da exposição para o desfecho (prospectiva) |
+| **Caso-controle** | Grupos definidos pelo **desfecho** (doentes vs. não doentes) e busca-se retrospectivamente a exposição prévia | Do desfecho para a exposição (retrospectiva) |
+| **Transversal (corte transversal)** | Exposição e desfecho são medidos **no mesmo momento no tempo**, sem seguimento | Sem direção temporal (uma "foto") |
+| **Ecológico** | Unidade de análise é um **grupo/população** (não indivíduos) — ex.: comparar taxas entre países/regiões | Agregada |
+| **Descritivo** | Apenas descreve a distribuição de uma condição (pessoa, tempo, lugar), **sem** comparação formal de grupos ou testar hipótese causal | — |
+
+**Como a banca constrói a "pegada" de cada delineamento no enunciado [CONSENSO]:**
+- Menção a **"randomização"**, "sorteio", "alocação aleatória" → ensaio clínico randomizado.
+- Menção a grupos definidos por uma característica **não aleatória** (ex.: "admissão dependia de a mãe trabalhar fora", "grupo que frequentava creche" vs. "grupo que não frequentava") com **acompanhamento no tempo** e comparação de desfechos → **quasi-experimental** (a exposição/tratamento existe e é comparado, mas sem sorteio).
+- Menção a **"acompanhou-se ao longo de X anos/observações"** a partir de um grupo definido pela exposição → coorte.
+- Menção a selecionar "casos" (com a doença) e "controles" (sem a doença) e investigar exposições passadas → caso-controle.
+- Menção a uma **única coleta de dados num só momento** → transversal.
+
+⚠️ **PEGADINHA DO INEP:** o dado mais discriminante entre "ensaio clínico randomizado" e "quasi-experimental" é sempre a presença ou ausência de **randomização/sorteio** na formação dos grupos — se a alocação foi feita por uma característica preexistente da população (ex.: já frequentar um determinado serviço, condição socioeconômica, decisão da família), mesmo havendo comparação entre grupos e acompanhamento no tempo, o desenho é **quasi-experimental**, não um ensaio clínico randomizado verdadeiro.
+
+**Por que a distinção importa (não é só nomenclatura):** a ausência de randomização em estudos quasi-experimentais deixa margem para **variáveis de confusão** não controladas (ex.: mães que trabalham fora podem diferir sistematicamente de mães que não trabalham em outros aspectos que também influenciam o desfecho, como renda familiar) — por isso esse tipo de desenho tem menor força de evidência causal que um ensaio clínico randomizado verdadeiro, mesmo usando técnicas estatísticas de ajuste (como regressão multivariada) para tentar controlar essas diferenças.
+
+### Referências
+1. Rouquayrol — Epidemiologia & Saúde, capítulo de Delineamentos de Estudos Epidemiológicos.
+2. Fletcher & Fletcher — Epidemiologia Clínica: Elementos Essenciais.
+3. Ministério da Saúde/OPAS — Módulos de Epidemiologia (série de capacitação em epidemiologia para a atenção básica).
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na prática/pesquisa em saúde real:** ao ler um artigo científico ou planejar uma pequena pesquisa local (ex.: avaliação de um programa de saúde municipal), reconhecer o delineamento usado é essencial para interpretar corretamente a força da evidência e as limitações do estudo (ex.: um estudo quasi-experimental tem menor controle de confundidores que um ensaio randomizado).
+
+**Sequência prática de raciocínio para identificar o delineamento:**
+1. Houve alocação aleatória (sorteio) dos participantes aos grupos? Se sim → experimental (ensaio clínico randomizado).
+2. Se não houve randomização, mas há comparação entre grupos com intervenção/exposição e acompanhamento no tempo → quasi-experimental.
+3. Os grupos foram definidos pela exposição, com acompanhamento no tempo até o desfecho? → coorte.
+4. Os grupos foram definidos pelo desfecho (doença), buscando exposição passada? → caso-controle.
+5. Exposição e desfecho medidos num único momento? → transversal.
+6. Unidade de análise é uma população/grupo, não indivíduos? → ecológico.
+
+**Erros que profissionais cometem de verdade:**
+- Confundir quasi-experimental com ensaio clínico randomizado só porque há comparação entre grupos e alguma intervenção, sem verificar se houve randomização real.
+- Não reconhecer que análise estatística sofisticada (ex.: regressão multivariada) não transforma um estudo observacional em um estudo com força causal equivalente a um ensaio randomizado.
+- Confundir estudo de coorte (direção exposição→desfecho, prospectivo) com caso-controle (direção desfecho→exposição, retrospectivo).
+
+**O que isso muda na prática:** ao avaliar evidências para basear condutas em saúde pública/clínica, reconhecer o delineamento ajuda a calibrar o grau de confiança na relação causal sugerida pelo estudo.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):** este tema tipicamente não aparece como estação prática de atendimento clínico, mas pode aparecer em questões teóricas/discursivas sobre interpretação de estudos e desenho de pesquisa em saúde coletiva.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2011 · Edição 1 · Questão 95]**
+
+Visando aferir, em nosso meio, os fatores que influenciam no crescimento de pré-escolares, com destaque para a suplementação nutricional, foi desenvolvido um estudo em uma população de bairro periférico de uma cidade do interior paulista. Durante um ano, em quatro observações trimestrais, acompanhou-se a evolução de indicadores de peso e altura de 444 crianças, identificadas em censo específico. Entre essas, 164 eram assistidas por creche local, enquanto as outras 280 não recebiam esse tipo de tratamento. A admissão a essa creche dava-se por meio da comprovação de que a mãe trabalhava fora do lar. O plano analítico adotou a análise multivariada por regressão linear múltipla. Quanto ao delineamento, podemos afirmar que esse estudo é
+
+A) randomizado.
+B) quasi-experimental.
+C) caso-controle.
+D) descritivo.
+E) transversal.
+
+**Gabarito oficial: B**
+
+📌 *Correção registrada: versões anteriores deste módulo tratavam este item como a questão 93 e como anulado. A conferência contra o caderno oficial mostrou que ele é a **questão 95** de 2011.1 e que tem gabarito **B**.*
+
+**Por que B está correta:** o estudo é **quasi-experimental** — há uma intervenção com grupo de comparação, mas **a alocação não foi aleatória**.
+
+Os três elementos que definem o desenho aparecem no enunciado:
+1. **Há uma "intervenção"**: frequentar a creche local, que oferece suplementação nutricional e cuidado;
+2. **Há um grupo de comparação**: 280 crianças que não frequentam a creche, contra 164 que frequentam;
+3. **A alocação não foi sorteada**: a admissão dependia de uma característica preexistente da família — **a mãe trabalhar fora do lar**.
+
+É exatamente esse terceiro ponto que separa o quasi-experimental do ensaio randomizado. Sem sorteio, os grupos podem diferir sistematicamente em tudo o que se associa a "mãe trabalhar fora": renda familiar, escolaridade materna, estrutura domiciliar, acesso a serviços. Essas diferenças são **fatores de confusão**, e é por isso que o próprio estudo recorre à **regressão linear múltipla** — a análise multivariada é a tentativa de ajustar estatisticamente o que a randomização teria resolvido no desenho. A presença dessa técnica no enunciado é uma pista deliberada.
+
+O acompanhamento **prospectivo por um ano, em quatro observações trimestrais**, confirma que há seguimento no tempo — o estudo é longitudinal, não transversal.
+
+**Por que as demais estão erradas:**
+- A) **Randomizado** exigiria **alocação por sorteio**. Aqui a alocação é determinada por um critério social preexistente. Essa é a distinção central da questão.
+- C) **Caso-controle** parte do **desfecho** e olha para trás em busca da exposição: selecionam-se crianças com e sem déficit de crescimento e investiga-se quem frequentou creche. O estudo descrito faz o oposto — parte da **exposição** (creche sim/não) e segue no tempo até o desfecho.
+- D) **Descritivo** apenas caracteriza a ocorrência de um fenômeno, sem comparar grupos nem testar associação. Aqui há **comparação entre dois grupos** e **análise multivariada** — o estudo é claramente **analítico**.
+- E) **Transversal** mede exposição e desfecho **em um único momento**, como uma fotografia. Quatro observações trimestrais ao longo de um ano são o oposto disso.
+
+⚠️ **PEGADINHA DO INEP:** a alternativa que mais atrai não é A — é a leitura de que o estudo seria uma **coorte**, que nem sequer está entre as opções. E de fato há parentesco: ambos seguem grupos definidos por exposição ao longo do tempo. A diferença é que, na coorte, o pesquisador **observa** uma exposição que ocorreria de qualquer modo; no quasi-experimental, há uma **intervenção** cujo efeito se quer avaliar, apenas sem randomização. Como a creche funciona como intervenção e o objetivo declarado é **aferir o efeito da suplementação**, o desenho é quasi-experimental.
+
+| Desenho | Alocação | Direção | Marca registrada |
+|---|---|---|---|
+| **Randomizado** | **Sorteio** | Prospectiva | Único que controla confusão desconhecida |
+| **Quasi-experimental** | **Não aleatória** | Prospectiva | Intervenção **sem** sorteio; ajusta por análise |
+| Coorte | Observação da exposição | Prospectiva | Calcula **incidência** e risco relativo |
+| Caso-controle | Parte do **desfecho** | Retrospectiva | Calcula **odds ratio**; bom para doença rara |
+| Transversal | — | **Instantânea** | Calcula **prevalência**; não estabelece temporalidade |
+
+**O que a banca estava testando:** reconhecer o **delineamento quasi-experimental** pela presença de intervenção com grupo-controle **sem randomização**, e entender que a análise multivariada é a estratégia usada para lidar com os fatores de confusão que a ausência de sorteio deixa em aberto.
+
+---
+
+**[INEP 2016 · Edição 1 · Questão 18]**
+
+Uma nova Unidade Básica de Saúde será implantada em determinada localidade. Para tanto, a equipe responsável pela implantação da unidade deve realizar um estudo local com o objetivo de conhecer o perfil epidemiológico, elaborar a programação de atividades e a estruturação do processo de trabalho. Nessa situação, o delineamento de estudo adequado para alcançar os objetivos propostos é
+
+A) selecionar um grupo de pessoas doentes e identificar as características que ocorrem com maior frequência nesse grupo.
+B) selecionar um grupo de pessoas, avaliar os participantes e classificá-los em expostos e não expostos, bem como em doentes e não doentes.
+C) selecionar um grupo de pessoas doentes e um grupo de pessoas não doentes para identificar as características que ocorrem com maior frequência entre os doentes.
+D) selecionar um grupo de pessoas não doentes, classificar os participantes quanto às exposições de interesse e acompanhá-los ao longo do tempo para avaliar a ocorrência de casos novos de doenças nos grupos.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** para **conhecer o perfil epidemiológico** de uma população — quantos são doentes, quais exposições são frequentes — o delineamento adequado é o **estudo transversal (de prevalência)**: avalia-se uma amostra **num único momento**, classificando simultaneamente **exposição e doença**. É rápido, barato e fornece prevalências, exatamente o que o planejamento de uma UBS precisa.
+
+**Por que as demais estão erradas:**
+- A) Estudar só doentes descreve uma **série de casos** — não mede prevalência na população.
+- C) Comparar doentes e não doentes quanto às exposições passadas é o **caso-controle** — serve para investigar causas de doenças raras, não para traçar perfil populacional.
+- D) Acompanhar não doentes ao longo do tempo é a **coorte** — mede incidência e risco, mas é demorada e cara para um diagnóstico situacional.
+
+⚠️ **PEGADINHA DO INEP:** associe delineamento ao objetivo — **perfil/prevalência** → transversal; **causa de doença rara** → caso-controle; **incidência e risco** → coorte; **eficácia de intervenção** → ensaio clínico.
+
+**O que a banca estava testando:** escolha do delineamento epidemiológico pelo objetivo do estudo.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 75]**
+
+Os inquéritos populacionais de saúde têm sido cada vez mais utilizados não apenas para avaliar a eficácia dos serviços de saúde na perspectiva dos usuários, mas também como uma fonte de informações sobre morbidade referida e sobre estilo de vida saudável. A Pesquisa Nacional de Saúde foi um inquérito de saúde de base domiciliar, de âmbito nacional, realizada pelo Ministério da Saúde em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE) em 2013 e em 2019. Essa pesquisa realizada pelo IBGE se caracteriza como um estudo do tipo
+
+A) coorte.
+B) transversal.
+C) experimental.
+D) caso-controle.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** a **Pesquisa Nacional de Saúde (PNS)** é um **inquérito populacional**: entrevista uma amostra representativa de domicílios **em um momento**, medindo prevalências de doenças referidas, fatores de risco e uso de serviços. Isso é um **estudo transversal**. Ter sido feita em 2013 e 2019 não a torna coorte — as amostras são **diferentes** a cada edição (são dois estudos transversais sucessivos).
+
+**Por que as demais estão erradas:**
+- A) **Coorte** acompanharia **as mesmas pessoas** ao longo do tempo.
+- C) **Experimental** envolve intervenção do pesquisador.
+- D) **Caso-controle** parte de doentes e não doentes para investigar exposições passadas.
+
+⚠️ **PEGADINHA DO INEP:** repetição no tempo ≠ coorte. Se as pessoas mudam a cada rodada, são **transversais repetidos** (como PNS, VIGITEL, PeNSE).
+
+**O que a banca estava testando:** classificação de delineamento de estudos epidemiológicos.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 45]**
+
+Um médico recém-contratado para atuar como gerente de uma unidade básica de saúde (UBS) em uma cidade com 35.000 habitantes agendou uma reunião com a equipe para tratar de visitas domiciliares. Seu objetivo é propor uma investigação com enfoque em doenças crônicas não transmissíveis, na população residente com 18 anos ou mais de idade. O médico visa melhorar, em um curto período de tempo, o planejamento de cuidados de saúde dessa população. O desenho de pesquisa mais adequado para esse levantamento denomina-se
+
+A) estudo transversal.
+B) estudo experimental.
+C) análise de caso-controle.
+D) análise de coorte prospectivo.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o objetivo é um **levantamento** (inquérito domiciliar) da **situação atual** de doenças crônicas na população adulta, **rapidamente**, para planejar o cuidado — isto é, medir **prevalência**. O desenho adequado é o **estudo transversal** (seccional): exposição e desfecho medidos **no mesmo momento**, rápido e barato.
+
+**Por que as demais estão erradas:**
+- B) **Experimental** (ensaio clínico) exige intervenção alocada pelo pesquisador — não é levantamento.
+- C) **Caso-controle** parte de doentes e não doentes para investigar exposições passadas — não estima prevalência populacional.
+- D) **Coorte prospectiva** acompanha expostos e não expostos ao longo do tempo para medir **incidência** — é demorada.
+
+⚠️ **PEGADINHA DO INEP:** "levantamento", "inquérito", "retrato", "prevalência", "curto período" → **transversal**.
+
+**O que a banca estava testando:** escolha do delineamento de estudo epidemiológico.
+
+**[INEP 2026 · Edição 1 · Questão 34]**
+
+Uma equipe de Saúde da Família está investigando o aumento de consultas por dores lombares entre trabalhadores de um polo têxtil localizado em seu território. A gestão municipal solicita que a equipe identifique se há associação entre o tipo de atividade laboral e a ocorrência de dor lombar ao longo dos anos, para subsidiar ações intersetoriais de prevenção com a Secretaria de Trabalho e Assistência Social. Nesse cenário, o tipo de estudo epidemiológico mais adequado para identificar a associação entre exposição ocupacional e dor lombar é
+
+A) estudo ecológico.
+B) estudo transversal.
+C) estudo de coorte.
+D) ensaio clínico.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** para verificar se a **exposição** (tipo de atividade laboral) se associa ao **desfecho** (dor lombar) **ao longo do tempo**, o desenho mais adequado é o **estudo de coorte**: acompanha trabalhadores expostos e não expostos, estabelece a **temporalidade** (a exposição precede o desfecho) e permite calcular **incidência e risco relativo**.
+
+**Por que as demais estão erradas:**
+- A) O estudo ecológico analisa **grupos**, não indivíduos, e está sujeito à falácia ecológica.
+- B) O estudo transversal mede exposição e desfecho no mesmo momento (prevalência) e não estabelece temporalidade.
+- D) No ensaio clínico o pesquisador **aloca a intervenção** — não se pode alocar a ocupação de alguém.
+
+⚠️ **PEGADINHA DO INEP:** "ao longo dos anos" e "associação exposição-desfecho" apontam para **coorte**.
+
+**O que a banca estava testando:** escolha do delineamento epidemiológico.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+O que define um ensaio clínico randomizado?	Alocação ALEATÓRIA (sorteio) dos participantes aos grupos de exposição/intervenção	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+O que define um estudo quasi-experimental?	Comparação entre grupos com intervenção/exposição, mas SEM randomização — alocação por característica preexistente	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+O que define um estudo de coorte?	Grupos definidos pela EXPOSIÇÃO, acompanhados no tempo até o desfecho (direção exposição→desfecho)	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+O que define um estudo caso-controle?	Grupos definidos pelo DESFECHO (doentes vs. não doentes), buscando exposição passada (retrospectivo)	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+O que define um estudo transversal?	Exposição e desfecho medidos no MESMO momento, sem seguimento no tempo	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+O que caracteriza um estudo ecológico?	Unidade de análise é um GRUPO/população, não indivíduos	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+Qual o critério mais discriminante entre ensaio randomizado e quasi-experimental?	Presença (randomizado) ou ausência (quasi-experimental) de sorteio/alocação aleatória	Revalida::Preventiva::DelineamentoEstudos::Diferenciacao
+Análise estatística sofisticada (ex.: regressão multivariada) transforma um estudo observacional em experimental?	Não — o tipo de alocação (aleatória ou não) define o desenho, não a sofisticação da análise	Revalida::Preventiva::DelineamentoEstudos::Diferenciacao
+Grupos definidos por critério social/preexistente (não sorteio), comparados e seguidos no tempo: que desenho é esse?	Quasi-experimental	Revalida::Preventiva::DelineamentoEstudos::Definicoes
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Randomização (sorteio) presente = experimental; ausente, com comparação de grupos = quasi-experimental.
+2. Grupos definidos pela exposição, seguidos no tempo = coorte (prospectivo).
+3. Grupos definidos pelo desfecho, buscando exposição passada = caso-controle (retrospectivo).
+4. Medição única, sem seguimento = transversal.
+5. Unidade de análise = população/grupo (não indivíduo) = ecológico.
+
+📊 **Tabela-síntese**
+| Delineamento | Alocação | Direção |
+|---|---|---|
+| Ensaio randomizado | Aleatória | Prospectiva |
+| Quasi-experimental | Não aleatória (característica preexistente) | Prospectiva |
+| Coorte | Por exposição (observacional) | Prospectiva |
+| Caso-controle | Por desfecho | Retrospectiva |
+| Transversal | — | Sem direção (momento único) |
+
+⚡ **Fluxograma textual:** houve sorteio? → (sim → experimental) / (não) → grupos definidos por exposição e seguidos no tempo? → (sim → coorte ou quasi-experimental, conforme houver ou não intervenção comparada) → grupos definidos por desfecho? → (sim → caso-controle) → medição única? → (sim → transversal) → unidade = população? → (sim → ecológico).
+
+🚫 **Os 3 erros mais comuns:** (1) confundir quasi-experimental com experimental por haver comparação de grupos; (2) achar que análise estatística sofisticada substitui randomização; (3) confundir a direção temporal de coorte (exposição→desfecho) com caso-controle (desfecho→exposição).
+
+🔗 **Conexões com outros módulos:** PREV-01 (documentação e ética em pesquisa/atestados), GIN-01/OBS-01 (rastreamento populacional, também fundamentado em desenhos epidemiológicos).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PREV-02",
+  "especialidade": "Preventiva",
+  "tema": "Delineamento de estudos epidemiológicos",
+  "assunto": "Reconhecimento do tipo de estudo (experimental, quasi-experimental, observacional) a partir da descrição do desenho",
+  "tier": "A",
+  "n_questoes": 5,
+  "n_flashcards": 9,
+  "tempo_estudo_min": 80,
+  "prerequisitos": [],
+  "relacionados": ["PREV-01"],
+  "data_geracao": "2026-07-29",
+  "itens_a_verificar": [
+    "Questão 2011.1-Q95 é oficialmente ANULADA (gabarito null) — apresentada com discussão conceitual, sem gabarito definitivo",
+    "Questão 2011.1-Q95 não pôde ser incluída como card interativo: alternativas não recuperadas pela extração mecânica (aparenta ser sub-pergunta de um mesmo 'quadro' de caso com a Q93/possivelmente Q94) — PENDENTE reconstrução visual do PDF original 2011.1",
+    "Amostra deste módulo é de apenas 1 edição classificada (2011.1) — prioridade alta para revisão quando mais edições forem processadas",
+    "Confirmar se este módulo tem mais questões nas 17 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

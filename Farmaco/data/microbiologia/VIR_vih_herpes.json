@@ -1,0 +1,250 @@
+[
+  {
+    "id": "VIR-vih",
+    "nombre": "Virus de la inmunodeficiencia humana (VIH-1 y VIH-2)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "RETROVIRUS: virus ARN monocatenario positivo DIPLOIDE con envoltura, familia Retroviridae, género Lentivirus. Replica mediante TRANSCRIPTASA INVERSA e INTEGRA su ADN en el genoma del huésped",
+    "morfologia_tincion": "Virión esférico con envoltura de la que sobresalen las glucoproteínas gp120 (unión al receptor) y gp41 (fusión), y con una cápside cónica característica formada por la proteína p24, que contiene dos copias de ARN, la transcriptasa inversa, la integrasa y la proteasa.",
+    "mecanismo_patogenia": [
+      "La gp120 se une al receptor CD4 y necesita además un CORRECEPTOR de quimiocinas: CCR5 (cepas R5, las que transmiten la infección) o CXCR4 (cepas X4, de aparición tardía y más agresivas). Los homocigotos para la deleción CCR5-delta32 son prácticamente resistentes a la infección.",
+      "La transcriptasa inversa carece de actividad correctora: genera una enorme variabilidad que explica el escape inmunitario, la aparición rápida de resistencias con monoterapia y la imposibilidad de una vacuna eficaz.",
+      "La INTEGRASA inserta el provirus en el ADN celular, creando un RESERVORIO LATENTE en linfocitos T CD4 de memoria de larga vida. Ese reservorio es la razón por la que el tratamiento antirretroviral controla pero NO cura, y por la que la interrupción del tratamiento va seguida de rebote virológico.",
+      "Destrucción progresiva de linfocitos T CD4 por efecto citopático directo, apoptosis de células no infectadas, piroptosis y agotamiento inmunitario, con activación inmunitaria e inflamación crónica que persiste incluso con carga viral suprimida y explica el exceso de riesgo cardiovascular, renal y neurocognitivo.",
+      "La destrucción precoz y masiva del tejido linfoide asociado al intestino (GALT) en las primeras semanas produce traslocación bacteriana y activación inmunitaria mantenida.",
+      "Transmisión SEXUAL (vía dominante), PARENTERAL y VERTICAL (embarazo, parto y lactancia). No se transmite por contacto casual, saliva, insectos ni fómites."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Primoinfección o síndrome retroviral agudo",
+        "clinica": "2-6 semanas tras la exposición: síndrome MONONUCLEÓSICO con fiebre, faringitis, adenopatías generalizadas, exantema maculopapular en tronco, mialgias y, de forma bastante característica, ÚLCERAS ORALES o genitales. Puede haber meningitis aséptica.",
+        "lesiones": "Exantema maculopapular no pruriginoso; úlceras mucosas; linfadenopatía generalizada.",
+        "clave": "En esta fase la carga viral es ALTÍSIMA y la infectividad máxima, pero la SEROLOGÍA puede ser todavía NEGATIVA (periodo ventana). Ante la sospecha hay que pedir CARGA VIRAL o antígeno p24, no solo anticuerpos. Un síndrome mononucleósico con serología de VEB negativa obliga a descartar VIH."
+      },
+      {
+        "cuadro": "Fase crónica asintomática",
+        "clinica": "Años (mediana de 8-10 sin tratamiento) sin síntomas, con descenso progresivo de CD4 de unas 50-100 células/microlitro al año. Puede haber linfadenopatía generalizada persistente.",
+        "lesiones": "Hiperplasia folicular ganglionar seguida de depleción folicular.",
+        "clave": "El paciente se siente sano: por eso el diagnóstico depende del CRIBADO. Se recomienda ofrecer la prueba de forma universal ante cualquier ITS, embarazo, tuberculosis, herpes zóster en joven, candidiasis oral o citopenias inexplicadas."
+      },
+      {
+        "cuadro": "Enfermedades definitorias de sida por nivel de CD4",
+        "clinica": "Por debajo de 200 CD4: neumonía por Pneumocystis jirovecii (disnea de esfuerzo subaguda, tos seca, LDH alta y radiografía con infiltrado intersticial bilateral). Por debajo de 100: toxoplasmosis cerebral (lesiones con realce en anillo), criptococosis meníngea, esofagitis candidiásica. Por debajo de 50: retinitis por CMV, micobacteriosis diseminada por complejo Mycobacterium avium, linfoma primario del SNC.",
+        "lesiones": "Neumonitis intersticial con exudado espumoso en la neumocistosis; abscesos cerebrales con realce anular en la toxoplasmosis; retinitis en queso con salsa de tomate en el CMV.",
+        "clave": "La cifra de CD4 predice qué infección oportunista buscar. La tuberculosis y el sarcoma de Kaposi, en cambio, pueden aparecer con CUALQUIER cifra de CD4."
+      },
+      {
+        "cuadro": "Neoplasias asociadas",
+        "clinica": "Sarcoma de Kaposi (VHH-8), linfoma no Hodgkin B de alto grado, linfoma primario del SNC (VEB), carcinoma de cérvix y de canal anal (VPH).",
+        "lesiones": "Placas y nódulos violáceos cutáneos y mucosos en el sarcoma de Kaposi.",
+        "clave": "Sarcoma de Kaposi, linfoma no Hodgkin y carcinoma invasivo de cérvix son categorías DEFINITORIAS DE SIDA con independencia de la cifra de CD4."
+      },
+      {
+        "cuadro": "Síndrome inflamatorio de reconstitución inmunitaria (SIRI)",
+        "clinica": "Empeoramiento clínico paradójico en las semanas siguientes al inicio del tratamiento antirretroviral, por recuperación de la respuesta inflamatoria frente a un patógeno preexistente (tuberculosis, criptococo, CMV).",
+        "lesiones": "Reactivación inflamatoria de las lesiones previas, con aumento de tamaño y necrosis.",
+        "clave": "NO es un fracaso del tratamiento y NO se suspende el antirretroviral: se trata la infección subyacente y se añaden corticoides si es grave. Para reducir el riesgo, en la meningitis criptocócica el antirretroviral se retrasa 4-6 semanas."
+      },
+      {
+        "cuadro": "Transmisión vertical",
+        "clinica": "Riesgo del 15-40% sin intervención; menor del 1% con tratamiento antirretroviral materno, carga viral indetectable, profilaxis del recién nacido y evitación de la lactancia materna.",
+        "lesiones": "Sin lesiones específicas en el neonato tratado.",
+        "clave": "En el recién nacido el diagnóstico se hace con PCR (carga viral), NUNCA con serología: los anticuerpos maternos IgG atraviesan la placenta y persisten hasta los 18 meses."
+      }
+    ],
+    "caracteristicas_clave": [
+      "INDETECTABLE es igual a INTRANSMISIBLE: el paciente con carga viral suprimida de forma mantenida no transmite el VIH por vía sexual. Es un mensaje terapéutico y de salud pública de primer orden.",
+      "El tratamiento antirretroviral se indica a TODO paciente diagnosticado, sea cual sea su cifra de CD4 y lo antes posible.",
+      "Nunca se usa monoterapia ni biterapia clásica de nucleósidos: la pauta estándar actual es un inhibidor de la INTEGRASA más dos análogos de nucleósido, con frecuencia en un solo comprimido diario.",
+      "La CARGA VIRAL mide la eficacia del tratamiento; los CD4 miden el riesgo de infección oportunista y la necesidad de profilaxis.",
+      "Profilaxis primaria de Pneumocystis con cotrimoxazol cuando los CD4 bajan de 200 (o hay candidiasis oral); se retira cuando se mantienen por encima de 200 durante más de 3 meses con carga viral suprimida.",
+      "PROFILAXIS PREEXPOSICIÓN (PrEP) con tenofovir/emtricitabina en personas con riesgo elevado, y PROFILAXIS POSTEXPOSICIÓN en las primeras 72 h (idealmente antes de 24 h) durante 28 días.",
+      "El diagnóstico se hace con prueba combinada de cuarta generación (anticuerpos MÁS antígeno p24), que acorta el periodo ventana a unas 2-3 semanas; toda prueba positiva debe confirmarse.",
+      "El VIH-2 es propio de África occidental, progresa más lentamente y es INTRÍNSECAMENTE RESISTENTE a los inhibidores de la transcriptasa inversa no nucleósidos: la pauta debe elegirse en consecuencia."
+    ],
+    "diagnostico": {
+      "muestra": "Suero o plasma; sangre total en las pruebas rápidas.",
+      "pruebas": [
+        "Prueba combinada de cuarta generación (ELISA antígeno p24 más anticuerpos): cribado de elección",
+        "Prueba de confirmación: inmunoensayo de diferenciación VIH-1/VIH-2 o Western blot",
+        "Carga viral (ARN-VIH por PCR): diagnóstico en la primoinfección y en el recién nacido, y seguimiento del tratamiento",
+        "Recuento de linfocitos CD4: estadificación inmunológica e indicación de profilaxis",
+        "Estudio de resistencias genotípico antes de iniciar el tratamiento",
+        "HLA-B*5701 antes de usar abacavir; cribado de VHB, VHC, tuberculosis latente y sífilis"
+      ],
+      "claves": "Una serología negativa NO descarta la infección si la exposición fue reciente: en la sospecha de primoinfección hay que pedir carga viral o antígeno p24 y repetir la serología a las 4-6 semanas."
+    },
+    "tratamiento": {
+      "eleccion": "Pauta de inicio preferente: BICTEGRAVIR/EMTRICITABINA/TENOFOVIR ALAFENAMIDA, 1 comprimido/24 h VO; o DOLUTEGRAVIR más emtricitabina/tenofovir; o dolutegravir/lamivudina en pacientes seleccionados sin coinfección por VHB y con carga viral no muy elevada.",
+      "alternativas": "Inhibidores de la proteasa potenciados (darunavir/cobicistat) en embarazo, mala adherencia previa o resistencias; doravirina o rilpivirina en pautas alternativas; cabotegravir/rilpivirina inyectable de acción prolongada cada 2 meses en pacientes con supresión estable.",
+      "resistencias": "La barrera genética de los inhibidores de la integrasa de segunda generación (dolutegravir, bictegravir) es alta. Toda interrupción o mala adherencia selecciona resistencias; el estudio genotípico guía el rescate.",
+      "duracion": "INDEFINIDA, de por vida. No existe indicación de interrumpir el tratamiento.",
+      "notas": "Profilaxis de oportunistas según CD4 (cotrimoxazol por debajo de 200). Vacunar frente a neumococo, hepatitis A y B, gripe, SARS-CoV-2 y VPH. Vigilar riesgo cardiovascular, renal y óseo. Cribado periódico de ITS y de displasia cervical y anal."
+    },
+    "farmacos_relacionados": [
+      "INF-bictegravir-emtricitabina-tenofovir-alafenamida",
+      "INF-dolutegravir",
+      "INF-tenofovir"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 65 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., caps. de infección por VIH y sida"
+  },
+  {
+    "id": "VIR-citomegalovirus",
+    "nombre": "Citomegalovirus (CMV, herpesvirus humano 5)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN bicatenario con envoltura, familia Herpesviridae, subfamilia Betaherpesvirinae; latencia en monocitos y células progenitoras mieloides",
+    "morfologia_tincion": "Virión herpético de gran tamaño. La célula infectada se agranda de forma característica y muestra una inclusión intranuclear rodeada de halo claro: la imagen en OJO DE BÚHO, que es el hallazgo histológico diagnóstico.",
+    "mecanismo_patogenia": [
+      "Transmisión por saliva, orina, secreciones genitales, leche materna, transfusión y trasplante, además de vía transplacentaria. La seroprevalencia en el adulto es muy alta (50-90%).",
+      "Latencia de por vida en monocitos y progenitores mieloides; la reactivación depende de la inmunidad CELULAR, de modo que la enfermedad clínica aparece cuando esta falla: sida con CD4 por debajo de 50, trasplante, quimioterapia, corticoides a dosis altas.",
+      "Codifica proteínas que impiden la presentación antigénica por el MHC de clase I, un mecanismo de evasión inmunitaria que facilita la persistencia.",
+      "En el paciente inmunodeprimido produce enfermedad por invasión tisular directa: retinitis, colitis, esofagitis, neumonitis y hepatitis.",
+      "En el trasplante es además INMUNOMODULADOR: aumenta el riesgo de rechazo y de otras infecciones oportunistas. La combinación de mayor riesgo es donante seropositivo con receptor seronegativo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección en el inmunocompetente",
+        "clinica": "Habitualmente asintomática. Puede dar un síndrome MONONUCLEÓSICO con fiebre prolongada y linfocitosis atípica pero, a diferencia de la mononucleosis por VEB, con FARINGITIS Y ADENOPATÍAS ESCASAS y anticuerpos heterófilos NEGATIVOS.",
+        "lesiones": "Linfocitosis atípica; hepatitis leve con elevación de transaminasas.",
+        "clave": "Es la causa más frecuente de síndrome mononucleósico con Paul-Bunnell negativo, junto con la toxoplasmosis y la primoinfección por VIH."
+      },
+      {
+        "cuadro": "Retinitis por CMV",
+        "clinica": "Pérdida visual indolora, moscas volantes y defectos de campo en el paciente con sida y CD4 por debajo de 50.",
+        "lesiones": "Retinitis necrosante hemorrágica perivascular: imagen en QUESO CON SALSA DE TOMATE en el fondo de ojo.",
+        "clave": "Es la infección oportunista ocular más frecuente en el sida avanzado y puede llevar a la ceguera; requiere fondo de ojo y tratamiento urgente."
+      },
+      {
+        "cuadro": "Enfermedad gastrointestinal",
+        "clinica": "Colitis con diarrea, dolor abdominal, hemorragia digestiva y a veces perforación; esofagitis con úlcera única y grande, dolorosa.",
+        "lesiones": "Úlceras profundas, extensas y bien delimitadas, con células en ojo de búho en la biopsia.",
+        "clave": "En el sida, la esofagitis con ÚLCERA ÚNICA Y GRANDE sugiere CMV, mientras que las placas blanquecinas sugieren Candida y las úlceras pequeñas y agrupadas, VHS. Además, hay que sospechar CMV en la colitis ulcerosa córticorrefractaria."
+      },
+      {
+        "cuadro": "Enfermedad en el trasplantado",
+        "clinica": "Síndrome viral con fiebre, malestar, leucopenia y trombocitopenia, o enfermedad invasiva de órgano: neumonitis (especialmente grave en el trasplante de progenitores hematopoyéticos), hepatitis, colitis.",
+        "lesiones": "Neumonitis intersticial; inclusiones en ojo de búho en el tejido.",
+        "clave": "La estrategia habitual es la profilaxis con valganciclovir o el tratamiento anticipado guiado por PCR cuantitativa periódica. La combinación de máximo riesgo es donante positivo con receptor negativo."
+      },
+      {
+        "cuadro": "Infección congénita",
+        "clinica": "Es la causa infecciosa congénita más frecuente y la primera causa de SORDERA NEUROSENSORIAL no genética. La mayoría de los infectados son asintomáticos al nacer, pero pueden desarrollar hipoacusia tardía. Formas sintomáticas: microcefalia, coriorretinitis, hepatoesplenomegalia, ictericia, petequias y púrpura.",
+        "lesiones": "CALCIFICACIONES intracraneales PERIVENTRICULARES (a diferencia de las difusas de la toxoplasmosis), microcefalia, coriorretinitis.",
+        "clave": "El riesgo de afectación fetal grave es mayor en la PRIMOINFECCIÓN materna y en el primer trimestre. El diagnóstico neonatal debe hacerse con PCR en orina o saliva en las primeras 2-3 SEMANAS de vida: después no distingue infección congénita de perinatal."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La imagen en OJO DE BÚHO en la biopsia es el hallazgo histológico característico y confirma enfermedad invasiva, no solo infección.",
+      "La distinción entre INFECCIÓN (replicación detectable por PCR) y ENFERMEDAD (afectación de órgano) es central en el trasplantado: no toda PCR positiva se trata.",
+      "El ganciclovir y su profármaco oral el valganciclovir son el tratamiento de elección; su toxicidad limitante es la MIELOSUPRESIÓN, sobre todo la neutropenia.",
+      "Foscarnet (nefrotoxicidad y alteraciones del calcio y del magnesio) y cidofovir (nefrotoxicidad grave) son las alternativas en resistencia o intolerancia; letermovir se usa en profilaxis en el trasplante de progenitores hematopoyéticos.",
+      "En el paciente con sida, el mejor tratamiento a largo plazo de la retinitis es la RECONSTITUCIÓN INMUNITARIA con antirretrovirales; sin ella las recidivas son la norma.",
+      "Es la causa más frecuente de infección congénita en países desarrollados y la primera causa no genética de sordera infantil: por eso se recomienda cribado auditivo y PCR precoz.",
+      "Los hemoderivados leucodeplecionados reducen el riesgo de transmisión transfusional en el receptor seronegativo."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre (plasma) para PCR; biopsia tisular en la enfermedad invasiva; orina o saliva en el neonato; humor acuoso en la retinitis dudosa.",
+      "pruebas": [
+        "PCR cuantitativa en plasma: seguimiento del trasplantado y guía del tratamiento anticipado",
+        "Biopsia con histología (inclusiones en ojo de búho) e inmunohistoquímica: prueba de referencia de la enfermedad invasiva de órgano",
+        "Antigenemia pp65: alternativa clásica a la PCR, hoy en desuso",
+        "Serología IgG e IgM y avidez de IgG: útiles para determinar el estado inmunitario pretrasplante y la primoinfección en la gestante, poco útiles en el inmunodeprimido",
+        "Fondo de ojo en el paciente con sida y CD4 bajos",
+        "PCR en orina o saliva en las primeras 2-3 semanas de vida para el diagnóstico de infección congénita"
+      ],
+      "claves": "En el inmunodeprimido la serología no sirve para diagnosticar enfermedad activa: se usan PCR cuantitativa y biopsia. En la colitis, una PCR en sangre negativa no descarta afectación tisular."
+    },
+    "tratamiento": {
+      "eleccion": "GANCICLOVIR 5 mg/kg/12 h IV o VALGANCICLOVIR 900 mg/12 h VO durante 14-21 días de inducción, seguidos de dosis de mantenimiento de 900 mg/24 h.",
+      "alternativas": "Foscarnet o cidofovir en resistencia (mutaciones UL97 o UL54) o mielotoxicidad; letermovir para profilaxis en el trasplante de progenitores hematopoyéticos; maribavir en la infección refractaria. En la retinitis con riesgo inmediato para la visión puede añadirse tratamiento intravítreo.",
+      "resistencias": "Mutaciones en UL97 (ganciclovir) y UL54 (resistencia cruzada); sospecharlas ante carga viral que no desciende tras 2 semanas de tratamiento correcto.",
+      "duracion": "14-21 días de inducción; mantenimiento hasta la reconstitución inmunitaria (CD4 por encima de 100 durante 3-6 meses en el paciente con sida).",
+      "notas": "El valganciclovir requiere ajuste renal y control de hemograma. En la gestante no hay tratamiento establecido de eficacia probada; la prevención se basa en medidas higiénicas frente a la orina y la saliva de niños pequeños."
+    },
+    "farmacos_relacionados": [
+      "INF-valganciclovir"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 44 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de citomegalovirus"
+  },
+  {
+    "id": "VIR-virus-epstein-barr",
+    "nombre": "Virus de Epstein-Barr (VEB, herpesvirus humano 4)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN bicatenario con envoltura, familia Herpesviridae, subfamilia Gammaherpesvirinae; latencia en LINFOCITOS B de memoria",
+    "morfologia_tincion": "Virión herpético clásico. En la extensión de sangre periférica se observan LINFOCITOS ATÍPICOS o células de Downey, que son linfocitos T CD8 activados reaccionando frente a los linfocitos B infectados, no células infectadas.",
+    "mecanismo_patogenia": [
+      "Se transmite por la SALIVA (la enfermedad del beso) y penetra por el epitelio orofaríngeo; infecta al LINFOCITO B uniéndose al receptor CD21 (receptor del complemento C3d).",
+      "Inmortaliza y activa policlonalmente al linfocito B, lo que explica la aparición de ANTICUERPOS HETERÓFILOS (los que detecta el Paul-Bunnell o el monotest) y de autoanticuerpos transitorios.",
+      "Latencia de por vida en linfocitos B de memoria, con excreción intermitente por la saliva incluso en el portador asintomático: por eso el aislamiento del enfermo no tiene sentido.",
+      "Los síntomas de la mononucleosis los produce la RESPUESTA T CD8 masiva frente a los linfocitos B infectados: los linfocitos atípicos son esa respuesta, no el virus.",
+      "Potencial ONCOGÉNICO: linfoma de Burkitt (translocación del oncogén MYC), carcinoma nasofaríngeo, linfoma de Hodgkin, linfoma primario del SNC en el sida y síndrome linfoproliferativo postrasplante en el inmunodeprimido.",
+      "En varones con el síndrome linfoproliferativo ligado al X (Duncan) la primoinfección puede ser fulminante."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Mononucleosis infecciosa",
+        "clinica": "Adolescente o adulto joven con la tríada de FIEBRE, FARINGOAMIGDALITIS exudativa intensa y ADENOPATÍAS, sobre todo CERVICALES POSTERIORES, junto con astenia muy marcada y prolongada. Esplenomegalia en la mitad de los casos, hepatomegalia y edema palpebral (signo de Hoagland).",
+        "lesiones": "Amígdalas hipertróficas con exudado y a veces membranas; petequias en el paladar; esplenomegalia.",
+        "clave": "Un EXANTEMA maculopapular tras recibir AMOXICILINA o ampicilina es muy característico: NO es una alergia verdadera a la penicilina y no contraindica su uso futuro. Aparece en la mayoría de los pacientes que reciben el antibiótico durante la mononucleosis."
+      },
+      {
+        "cuadro": "Complicaciones de la mononucleosis",
+        "clinica": "ROTURA ESPLÉNICA (rara pero potencialmente mortal, típicamente en la 2.ª-3.ª semana), obstrucción de la vía aérea por hipertrofia amigdalar, anemia hemolítica autoinmune por crioaglutininas, trombocitopenia, meningoencefalitis, síndrome de Guillain-Barré y hepatitis.",
+        "lesiones": "Hematoma y rotura esplénica; hipertrofia amigdalar obstructiva.",
+        "clave": "Hay que prohibir el DEPORTE DE CONTACTO y el esfuerzo físico durante al menos 3-4 semanas por el riesgo de rotura esplénica. Los corticoides se reservan a la obstrucción de la vía aérea, la anemia hemolítica o la trombocitopenia grave, no al cuadro habitual."
+      },
+      {
+        "cuadro": "Neoplasias asociadas",
+        "clinica": "Linfoma de Burkitt endémico africano (masa mandibular en el niño), carcinoma nasofaríngeo (más frecuente en el sudeste asiático, con adenopatía cervical y obstrucción nasal), linfoma de Hodgkin, linfoma primario del SNC en el sida.",
+        "lesiones": "Patrón en cielo estrellado en el linfoma de Burkitt.",
+        "clave": "La asociación con el linfoma de Burkitt endémico es con la MALARIA como cofactor inmunosupresor."
+      },
+      {
+        "cuadro": "Síndrome linfoproliferativo postrasplante",
+        "clinica": "Proliferación de linfocitos B inducida por VEB en el trasplantado, desde hiperplasia policlonal hasta linfoma monoclonal, con fiebre, adenopatías y afectación de órganos.",
+        "lesiones": "Infiltrados linfoides polimorfos o monomorfos.",
+        "clave": "El primer paso del tratamiento es REDUCIR LA INMUNOSUPRESIÓN; después, rituximab. El riesgo es máximo en el receptor seronegativo que recibe un órgano de donante seropositivo."
+      },
+      {
+        "cuadro": "Leucoplasia vellosa oral",
+        "clinica": "Placas blanquecinas rugosas en los BORDES LATERALES de la lengua que NO se desprenden al raspado, en pacientes con infección por VIH.",
+        "lesiones": "Hiperqueratosis con proyecciones vellosas.",
+        "clave": "El que no se desprenda al raspado la distingue de la candidiasis oral, que sí se desprende. Es marcador de inmunodepresión avanzada."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El exantema tras amoxicilina en un cuadro faríngeo febril es una pista diagnóstica clásica de mononucleosis, y no una alergia a la penicilina.",
+      "Los linfocitos atípicos son linfocitos T reactivos, no células infectadas: la infección está en el linfocito B.",
+      "Anticuerpos heterófilos (Paul-Bunnell o monotest): rápidos y baratos, pero con falsos negativos frecuentes en NIÑOS PEQUEÑOS y en la primera semana de enfermedad. Si son negativos y la sospecha persiste, hay que pedir serología específica.",
+      "Serología específica: IgM anti-VCA indica infección aguda; IgG anti-VCA aparece pronto y persiste de por vida; anti-EBNA aparece TARDÍAMENTE (1-3 meses) y su presencia DESCARTA una infección aguda reciente.",
+      "No hay tratamiento antivírico: el aciclovir reduce la excreción viral pero NO mejora el curso clínico y no está indicado.",
+      "Ante un síndrome mononucleósico con anticuerpos heterófilos negativos hay que descartar CMV, toxoplasmosis y sobre todo PRIMOINFECCIÓN POR VIH.",
+      "La astenia postinfecciosa puede prolongarse semanas o meses y es la queja residual más frecuente; conviene anticiparla al paciente."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre para hemograma y serología; PCR en sangre o tejido en el inmunodeprimido.",
+      "pruebas": [
+        "Hemograma con linfocitosis y más del 10% de linfocitos ATÍPICOS",
+        "Anticuerpos heterófilos (Paul-Bunnell, monotest): prueba rápida inicial, poco sensible en niños y en la primera semana",
+        "Serología específica: IgM e IgG anti-VCA, anti-EA y anti-EBNA, que permiten datar la infección",
+        "Transaminasas: elevadas de forma leve o moderada en la mayoría de los casos",
+        "PCR cuantitativa de VEB: útil en el trasplantado y en el linfoma asociado, no en la mononucleosis del inmunocompetente",
+        "Ecografía abdominal si hay dolor o sospecha de esplenomegalia significativa"
+      ],
+      "claves": "IgG anti-VCA positiva con anti-EBNA positivo indica infección PASADA. IgM anti-VCA positiva con anti-EBNA NEGATIVO indica infección aguda."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO: reposo relativo, hidratación, paracetamol o AINE. NO están indicados los antivíricos.",
+      "alternativas": "Corticoides (prednisona) solo en obstrucción de la vía aérea por hipertrofia amigdalar, anemia hemolítica autoinmune o trombocitopenia grave. En el síndrome linfoproliferativo postrasplante: reducción de la inmunosupresión y rituximab.",
+      "resistencias": "No aplicable: no se emplean antivíricos en el inmunocompetente.",
+      "duracion": "Fiebre y faringitis de 1-2 semanas; astenia durante semanas o meses. Restricción de deporte de contacto durante al menos 3-4 semanas.",
+      "notas": "EVITAR AMOXICILINA y ampicilina ante una faringitis con sospecha de mononucleosis. Si se documenta faringitis estreptocócica concomitante, usar penicilina V o un macrólido."
+    },
+    "farmacos_relacionados": [
+      "PED-INF-amoxicilina-clavulanico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 44 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por virus de Epstein-Barr"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "DER-corticoides-topicos",
+    "nombre": "Corticoides tópicos",
+    "sinonimos": [
+      "Glucocorticoides tópicos"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiinflamatorio",
+    "subclase": "Glucocorticoides de aplicación cutánea, clasificados por potencia",
+    "mecanismo": "Se unen al receptor citosólico de glucocorticoides y modifican la transcripción génica en el queratinocito, el fibroblasto y las células inflamatorias de la piel. El efecto tiene cuatro componentes: ANTIINFLAMATORIO (inhibición de la fosfolipasa A2 y de la síntesis de citocinas y eicosanoides), INMUNOSUPRESOR local (inhibición de las células de Langerhans y del linfocito T), ANTIPROLIFERATIVO sobre el queratinocito y el fibroblasto, y VASOCONSTRICTOR, que es precisamente el efecto que se usa para clasificar su potencia en el ensayo de McKenzie. Los tres primeros explican su eficacia y el tercero explica su toxicidad: la atrofia cutánea, las estrías y la telangiectasia no son un efecto secundario caprichoso sino la misma acción antiproliferativa que se busca, aplicada demasiado tiempo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DERMATITIS ATÓPICA, brote agudo",
+        "dosis": "Potencia BAJA (hidrocortisona 1-2,5%) en cara y pliegues; potencia MEDIA (betametasona valerato 0,1%) o ALTA en tronco y extremidades, una aplicación al día durante 7-14 días",
+        "posologia": "Una aplicación diaria hasta controlar el brote",
+        "via": "tópica",
+        "nota": "Una vez al día es tan eficaz como dos y reduce los efectos adversos. El corticoide se aplica sobre la lesión y el EMOLIENTE sobre toda la piel"
+      },
+      {
+        "patologia": "PSORIASIS en placas",
+        "dosis": "Potencia ALTA o MUY ALTA (clobetasol propionato 0,05%), habitualmente en combinación con calcipotriol, una aplicación al día",
+        "posologia": "Una aplicación diaria durante 2-4 semanas",
+        "via": "tópica",
+        "nota": "La combinación con análogo de la vitamina D es más eficaz que cualquiera de los dos por separado y permite reducir la exposición al corticoide"
+      },
+      {
+        "patologia": "Eccema de contacto y dishidrótico",
+        "dosis": "Potencia según localización: hidrocortisona 1% en cara y pliegues, betametasona valerato 0,1% en tronco y extremidades, una o dos aplicaciones al día durante 1-2 semanas",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Sin identificar y retirar el alérgeno responsable, el eccema recidiva indefinidamente"
+      },
+      {
+        "patologia": "Mantenimiento PROACTIVO de la dermatitis atópica moderada-grave",
+        "dosis": "Betametasona valerato 0,1% o fluticasona propionato 0,05%, 2 días por semana sobre las zonas que suelen brotar, manteniendo el emoliente a diario",
+        "posologia": "Dos aplicaciones semanales",
+        "via": "tópica",
+        "nota": "Estrategia de FIN DE SEMANA: reduce los brotes con menos corticoide total que tratar cada brote cuando ya ha estallado"
+      },
+      {
+        "patologia": "Liquen escleroso vulvar",
+        "dosis": "Clobetasol 0,05% una vez al día durante 4-12 semanas, con descenso posterior",
+        "posologia": "Diaria y luego intermitente",
+        "via": "tópica",
+        "nota": "Es una de las pocas indicaciones en que se usa un corticoide MUY POTENTE en un pliegue, y con razón: previene la atrofia cicatricial y reduce el riesgo de carcinoma"
+      }
+    ],
+    "esquema": {
+      "inicio": "Elegir la potencia por la LOCALIZACIÓN y por la gravedad, no solo por el diagnóstico, y elegir el VEHÍCULO por el tipo de lesión: pomada para la piel seca y liquenificada, crema para la lesión exudativa, loción o espuma para el cuero cabelludo y las zonas pilosas.",
+      "titulacion": "Se empieza por la potencia SUFICIENTE para controlar el brote y se desciende, no al revés. Empezar demasiado flojo prolonga el brote y acaba consumiendo más corticoide total.",
+      "duracion": "Cursos CORTOS de 1-2 semanas en la mayoría de los casos; en la cara y los pliegues, no más de 5-7 días con potencias medias.",
+      "fin": "Retirada progresiva (espaciando a días alternos y luego dos veces por semana) en los tratamientos prolongados o de alta potencia, para evitar el efecto REBOTE y la dermatitis por retirada.",
+      "via": "Tópica. La OCLUSIÓN con plástico o con vendaje húmedo multiplica la penetración hasta 10 veces: es un recurso terapéutico deliberado, no una forma de aplicarlo mejor por descuido.",
+      "monitorizacion": "Inspección de la piel tratada buscando atrofia, estrías y telangiectasias. En tratamientos extensos y prolongados, sobre todo en el niño, vigilar signos de absorción sistémica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Depende de tres factores que el médico controla y conviene tener presentes. Primero, la LOCALIZACIÓN: la absorción a través de los párpados y el escroto es cientos de veces mayor que a través de la planta del pie, con la cara, los pliegues y los genitales en el extremo de alta absorción. Segundo, la INTEGRIDAD de la barrera: la piel inflamada, erosionada o del prematuro absorbe muchísimo más. Tercero, la OCLUSIÓN y la superficie tratada.",
+      "distribucion": "Se deposita en el estrato córneo, que actúa como reservorio y libera el fármaco durante horas: es la base farmacológica de que una aplicación diaria baste.",
+      "metabolismo": "Parcialmente en la piel; el fármaco absorbido se metaboliza en el hígado.",
+      "eliminacion": "Renal y biliar tras el metabolismo hepático.",
+      "vida_media": "Variable; el efecto cutáneo persiste mucho más que las concentraciones plasmáticas.",
+      "ajuste_renal": "No aplicable en el uso tópico habitual.",
+      "ajuste_hepatico": "No aplicable en el uso tópico habitual.",
+      "interacciones": [
+        {
+          "con": "Antifúngicos, en las combinaciones comerciales corticoide + antifúngico",
+          "efecto": "Enmascaran la infección fúngica y favorecen la TINEA INCÓGNITO",
+          "gravedad": "media",
+          "manejo": "Evitar las combinaciones fijas: si hay tiña, se trata la tiña; si hay eccema, se trata el eccema. Mezclar ambos suele significar que no se ha hecho el diagnóstico"
+        },
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ritonavir, itraconazol)",
+          "efecto": "Aumentan las concentraciones sistémicas del corticoide absorbido, con casos descritos de síndrome de Cushing yatrógeno",
+          "gravedad": "media",
+          "manejo": "Relevante solo con tratamientos extensos y prolongados"
+        },
+        {
+          "con": "Otros corticoides (inhalados, nasales, orales, infiltrados)",
+          "efecto": "La carga corticoidea es ACUMULATIVA entre todas las vías",
+          "gravedad": "media",
+          "manejo": "Hay que sumar todas las fuentes al valorar el riesgo sistémico, algo que se pasa por alto en el asmático atópico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ATROFIA cutánea con piel fina, brillante y arrugada en papel de fumar",
+        "ESTRÍAS (irreversibles), típicas de axilas e ingles",
+        "TELANGIECTASIAS y púrpura",
+        "Hipertricosis local e hipopigmentación",
+        "Acné y foliculitis por corticoides",
+        "Retraso en la cicatrización"
+      ],
+      "graves": [
+        "DERMATITIS PERIORAL y ROSÁCEA esteroidea por uso facial prolongado",
+        "GLAUCOMA y CATARATA subcapsular por aplicación periocular mantenida",
+        "SUPRESIÓN DEL EJE hipotálamo-hipófiso-suprarrenal y síndrome de Cushing yatrógeno con tratamientos extensos, prolongados u ocluidos, especialmente en el LACTANTE por su mayor relación superficie/peso",
+        "TAQUIFILAXIA y efecto REBOTE al retirarlo bruscamente",
+        "Enmascaramiento y agravamiento de infecciones (tiña incógnito, sarna incógnita, herpes)",
+        "Dermatitis alérgica de contacto AL PROPIO CORTICOIDE, que se manifiesta como un eccema que no mejora con el tratamiento"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección cutánea no tratada: bacteriana, fúngica (tiña), vírica (herpes) o parasitaria (sarna)",
+      "Rosácea y dermatitis perioral (los empeoran)",
+      "Úlceras y heridas abiertas",
+      "Aplicación periocular prolongada",
+      "Precaución máxima en la cara, los pliegues, los genitales y el lactante"
+    ],
+    "perlas": [
+      "La regla que ordena la prescripción: la POTENCIA la decide la LOCALIZACIÓN, no el diagnóstico. Cara, pliegues y genitales absorben cientos de veces más que las palmas y las plantas, de modo que un mismo eccema exige hidrocortisona en un párpado y clobetasol en un codo.",
+      "La UNIDAD DE PUNTA DE DEDO (la cantidad que ocupa desde el pliegue distal hasta la punta del dedo índice, unos 0,5 g) cubre la superficie de DOS PALMAS de la mano del paciente. Es la forma práctica de prescribir cantidad, y evita tanto la infradosificación como el uso excesivo.",
+      "La CORTICOFOBIA es hoy un problema tan grande como el abuso: muchos brotes de dermatitis atópica se prolongan semanas porque la familia aplica una cantidad ínfima de un corticoide demasiado suave. Un curso corto y potente controla el brote y expone al paciente a MENOS corticoide total que meses de tratamiento insuficiente.",
+      "El corticoide trata el BROTE; el EMOLIENTE previene el siguiente. Son dos tratamientos con papeles distintos y el emoliente no se suspende cuando la piel mejora.",
+      "La TINEA INCÓGNITO es la consecuencia clásica de aplicar corticoide sobre una tiña no diagnosticada: la lesión pierde el borde activo y el prurito, parece mejorar, y el hongo se extiende. Lo mismo ocurre con la sarna. Ante un eccema que no encaja, hay que hacer KOH antes que subir la potencia.",
+      "Un eccema que EMPEORA con el corticoide obliga a pensar en tres cosas: una infección enmascarada, una dermatitis alérgica de contacto al propio corticoide o a un excipiente, o un diagnóstico equivocado.",
+      "Las estrías son IRREVERSIBLES. La atrofia y las telangiectasias mejoran en meses tras retirarlo; las estrías no. Es el argumento más convincente para no prolongar el tratamiento en axilas e ingles.",
+      "El VEHÍCULO importa tanto como el principio activo: pomada en la piel seca y liquenificada (más oclusiva y potente), crema en la lesión exudativa, y loción o espuma en el cuero cabelludo. Prescribir una pomada grasa para el cuero cabelludo garantiza que el paciente no la use.",
+      "En el LACTANTE la relación superficie/peso es mucho mayor y la barrera es más permeable: la supresión suprarrenal por corticoide tópico es un riesgo real, no teórico, sobre todo con oclusión (el pañal es una oclusión)."
+    ],
+    "embarazo_lactancia": "Los corticoides tópicos de potencia baja y media se consideran seguros en el embarazo. Los de potencia muy alta en superficies extensas se han asociado a bajo peso al nacer y conviene limitarlos. En la lactancia, evitar aplicarlos sobre el pezón y la areola, o limpiar antes de la toma.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de dermatitis atópica de la EADV y documentos de consenso sobre potencia de corticoides tópicos"
+  },
+  {
+    "id": "DER-azoles-topicos",
+    "nombre": "Antifúngicos tópicos (ketoconazol, clotrimazol, ciclopirox, sulfuro de selenio)",
+    "sinonimos": [
+      "Azoles tópicos"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Azoles y otros antifúngicos de aplicación cutánea",
+    "vs_clase": [
+      "**Tratamiento TÓPICO**: tiñas cutáneas localizadas, pitiriasis versicolor, dermatitis seborreica (ketoconazol), candidiasis cutánea e intertrigo.",
+      "**Cubren dermatofitos Y Candida** (a diferencia de la terbinafina oral).",
+      "**No sirven para la onicomicosis extensa ni la tiña del cuero cabelludo** (requieren tratamiento oral)."
+    ],
+    "mecanismo": "Los AZOLES (ketoconazol, clotrimazol, miconazol, sertaconazol) inhiben la 14-alfa-desmetilasa fúngica y bloquean la síntesis de ERGOSTEROL, desestabilizando la membrana; son FUNGISTÁTICOS frente a dermatofitos y activos frente a Candida y Malassezia. El CICLOPIROX actúa de forma distinta: quela cationes trivalentes (hierro y aluminio) e inhibe enzimas dependientes de metales, con lo que añade actividad antibacteriana y antiinflamatoria. El SULFURO DE SELENIO y la PIRITIONA DE ZINC son citostáticos que reducen el recambio del queratinocito y la población de Malassezia. La diferencia práctica con la terbinafina tópica, que es FUNGICIDA frente a dermatofitos, es que los azoles cubren además Candida y Malassezia, que la terbinafina cubre mal o no cubre.",
+    "espectro": "AZOLES: dermatofitos, Candida y Malassezia (espectro amplio, que es su ventaja). CICLOPIROX: además, actividad antibacteriana y antiinflamatoria. SULFURO DE SELENIO y PIRITIONA DE ZINC: Malassezia. NISTATINA: solo Candida, no cubre dermatofitos.",
+    "indicaciones": [
+      {
+        "patologia": "PITIRIASIS VERSICOLOR",
+        "dosis": "Ketoconazol 2% en gel o champú aplicado a TODO EL TRONCO, dejándolo actuar 5-10 minutos antes de aclarar, a diario durante 1-2 semanas",
+        "posologia": "Una aplicación diaria",
+        "via": "tópica",
+        "nota": "Hay que cubrir una superficie MUY superior a la de las manchas visibles: el hongo coloniza toda la zona seborreica. Aplicar solo sobre las máculas es la causa habitual de recidiva inmediata"
+      },
+      {
+        "patologia": "DERMATITIS SEBORREICA y caspa",
+        "dosis": "Ketoconazol 2% o ciclopirox 1,5% en champú, 2-3 veces por semana durante 4 semanas y después una vez por semana como mantenimiento",
+        "posologia": "2-3 veces por semana",
+        "via": "tópica",
+        "nota": "Asociar un corticoide de baja potencia solo durante los brotes inflamatorios; el antifúngico es el tratamiento de fondo"
+      },
+      {
+        "patologia": "Tinea corporis, cruris y pedis localizadas",
+        "dosis": "Clotrimazol 1%, ketoconazol 2% o sertaconazol 2% en crema, 1-2 aplicaciones al día durante 2-4 semanas",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Aplicar SOBREPASANDO 2 cm el borde de la lesión y continuar UNA SEMANA tras la desaparición clínica: el hongo está más allá de lo que se ve"
+      },
+      {
+        "patologia": "Candidiasis cutánea, intertrigo y dermatitis del pañal candidiásica",
+        "dosis": "Clotrimazol 1% o miconazol 2% en crema, 2 aplicaciones al día durante 2 semanas",
+        "posologia": "Dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Secar bien el pliegue antes de aplicar. La humedad mantenida anula cualquier tratamiento"
+      },
+      {
+        "patologia": "Candidiasis vulvovaginal",
+        "dosis": "Clotrimazol 500 mg en óvulo, dosis única; o crema vaginal al 2% durante 3 noches",
+        "posologia": "Dosis única o 3 noches",
+        "via": "vaginal",
+        "nota": "Tan eficaz como el fluconazol oral en el episodio no complicado, y es la opción preferente en el EMBARAZO"
+      },
+      {
+        "patologia": "Onicomicosis leve sin afectación de la matriz",
+        "dosis": "Ciclopirox 8% o amorolfina 5% en LACA ungueal, 1-2 aplicaciones por semana durante 6-12 meses",
+        "posologia": "Una o dos veces por semana",
+        "via": "tópica",
+        "nota": "Solo si están afectadas menos de la mitad de la uña, no hay afectación de la matriz y son pocas uñas. Si no, hace falta tratamiento oral"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar que la lesión es fúngica antes de tratar (KOH en la consulta cuando hay duda), especialmente si ya se ha aplicado corticoide.",
+      "titulacion": "No se titula; lo que se ajusta es la SUPERFICIE tratada y la duración.",
+      "duracion": "2-4 semanas en la piel; 1-2 semanas en la pitiriasis versicolor; 6-12 meses en la laca ungueal.",
+      "fin": "Continuar UNA SEMANA más allá de la desaparición de las lesiones. En la pitiriasis versicolor y en la dermatitis seborreica, pasar a una pauta de MANTENIMIENTO intermitente, porque ambas recidivan por definición.",
+      "via": "Tópica: crema, gel, champú, polvo, laca u óvulo vaginal según la localización y el tipo de lesión.",
+      "monitorizacion": "Clínica. En la pitiriasis versicolor hay que juzgar la curación por la DESCAMACIÓN, no por el color."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima por vía tópica intacta; el ketoconazol tópico prácticamente no alcanza concentraciones sistémicas, lo que lo separa por completo del ketoconazol ORAL, retirado en muchos países por hepatotoxicidad.",
+      "distribucion": "Se concentra en el estrato córneo, donde persiste días tras la aplicación.",
+      "metabolismo": "Insignificante por vía tópica.",
+      "eliminacion": "Descamación del estrato córneo.",
+      "vida_media": "No aplicable clínicamente en el uso tópico.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste por vía tópica.",
+      "interacciones": [
+        {
+          "con": "Corticoides tópicos en combinación fija",
+          "efecto": "Enmascaran la infección y favorecen la tinea incógnito y la recidiva",
+          "gravedad": "media",
+          "manejo": "Evitar las combinaciones comerciales; si se necesita antiinflamación los primeros días, prescribirlos por separado y retirar antes el corticoide"
+        },
+        {
+          "con": "PRESERVATIVOS y diafragmas de látex (formulaciones vaginales)",
+          "efecto": "Los excipientes grasos DAÑAN el látex y anulan su eficacia anticonceptiva y protectora",
+          "gravedad": "alta",
+          "manejo": "Advertirlo expresamente: es una información que casi nunca se da y que puede tener consecuencias importantes"
+        },
+        {
+          "con": "Miconazol en gel oral y anticoagulantes antivitamina K",
+          "efecto": "Incluso la absorción desde la mucosa oral puede elevar el INR de forma significativa",
+          "gravedad": "alta",
+          "manejo": "Interacción real y sorprendente por tratarse de un tópico: vigilar el INR o elegir nistatina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, eritema y prurito en el punto de aplicación",
+        "Sequedad y descamación",
+        "Sensación de quemazón con las formulaciones en gel alcohólico"
+      ],
+      "graves": [
+        "Dermatitis alérgica de contacto al principio activo o a los excipientes",
+        "Decoloración del pelo y del tejido con el sulfuro de selenio",
+        "Elevación del INR con miconazol oral en pacientes anticoagulados"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al principio activo o a los excipientes",
+      "Uso en PELO y UÑA como tratamiento único: no penetran en el folículo ni en la lámina ungueal, y ahí hace falta tratamiento oral",
+      "Formulaciones vaginales con látex simultáneo"
+    ],
+    "perlas": [
+      "La regla que decide entre tópico y oral no cambia: PIEL LAMPIÑA, tópico; PELO Y UÑA, oral. Ningún antifúngico tópico penetra en el folículo ni en la lámina ungueal en concentración suficiente, y tratar una tiña de la cabeza con crema es perder semanas.",
+      "En la PITIRIASIS VERSICOLOR hay que tratar MUCHA MÁS superficie de la que se ve. El hongo ocupa toda la zona seborreica y las máculas son solo donde ha alterado el pigmento; por eso el ketoconazol se aplica como un gel de ducha a todo el tronco.",
+      "La MANCHA BLANCA no es fracaso: el melanocito tarda meses en recuperarse. Se juzga la curación por la desaparición de la DESCAMACIÓN, y decírselo al paciente evita ciclos repetidos e innecesarios.",
+      "Las COMBINACIONES fijas de corticoide y antifúngico son casi siempre un sustituto del diagnóstico. Producen una mejoría inicial engañosa, favorecen la tiña incógnito y prolongan el problema.",
+      "Hay que sobrepasar 2 cm el BORDE de la lesión y seguir una semana después de que desaparezca: el micelio se extiende más allá de lo visible y ahí está la recidiva.",
+      "El KETOCONAZOL TÓPICO no tiene nada que ver, en seguridad, con el ketoconazol ORAL, retirado por hepatotoxicidad. La absorción sistémica del tópico es despreciable y no hay motivo para evitarlo.",
+      "Los antifúngicos tópicos DAÑAN EL LÁTEX. Es una advertencia que rara vez se da al prescribir un óvulo vaginal y que conviene incorporar de forma sistemática.",
+      "En el pie de atleta hay que tratar también el CALZADO y secar meticulosamente los espacios interdigitales: sin eso, la reinfección es cuestión de semanas y el paciente concluye que el tratamiento no sirve."
+    ],
+    "embarazo_lactancia": "Los azoles tópicos, incluidos los vaginales, son de primera elección en el embarazo por su absorción despreciable, y son preferibles al fluconazol oral, que a dosis altas y mantenidas se ha asociado a malformaciones. Compatibles con la lactancia, evitando la aplicación en el pezón o limpiándolo antes de la toma.",
+    "micro_relacionado": [
+      "HON-candida-albicans",
+      "HON-dermatofitos",
+      "HON-malassezia"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 48 y 61; guías de dermatología sobre micosis superficiales"
+  }
+]

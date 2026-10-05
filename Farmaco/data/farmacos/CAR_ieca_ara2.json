@@ -1,0 +1,641 @@
+[
+  {
+    "id": "CAR-ramipril",
+    "nombre": "Ramipril",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "IECA (inhibidor de la enzima convertidora de angiotensina)",
+    "subclase": "Profármaco lipófilo de acción prolongada",
+    "vs_clase": [
+      "**El IECA con más evidencia en prevención cardiovascular sin insuficiencia cardiaca** (estudio HOPE: 10 mg/día redujo infarto, ictus y muerte en pacientes de alto riesgo con FEVI normal).",
+      "**Vida media terminal muy larga del ramiprilato (>50 h): DOSIS ÚNICA DIARIA** en hipertensión, frente al enalapril, que suele necesitar dos tomas.",
+      "**Profármaco lipófilo con alta afinidad por la ECA tisular** (pared vascular, miocardio).",
+      "Indicado tras el infarto con signos de insuficiencia cardiaca (estudio AIRE) en pauta de 2,5-5 mg cada 12 h."
+    ],
+    "mecanismo": "Inhibe la enzima convertidora de angiotensina, de modo que disminuye la angiotensina II (vasodilatación, menor secreción de aldosterona, menos remodelado cardiaco y vascular) y aumenta la bradicinina (vasodilatación y tos). Reduce la presión intraglomerular por vasodilatación de la arteriola eferente: efecto antiproteinúrico. **Es un profármaco que se activa en el hígado a ramiprilato, con gran afinidad por la ECA de los tejidos.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "2,5-10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar con 2,5 mg y doblar cada 2-4 semanas"
+      },
+      {
+        "patologia": "Prevención cardiovascular en paciente de alto riesgo (cardiopatía isquémica, ictus, arteriopatía periférica o diabetes con otro factor de riesgo)",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis objetivo del estudio HOPE: 2,5 mg la 1.ª semana, 5 mg 3 semanas y después 10 mg"
+      },
+      {
+        "patologia": "Postinfarto con insuficiencia cardiaca o disfunción ventricular",
+        "dosis": "2,5 mg → 5 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Empezar a los 3-10 días del infarto si está estable"
+      },
+      {
+        "patologia": "Nefropatía diabética o no diabética con proteinuria",
+        "dosis": "2,5-10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis máxima tolerada por su efecto antiproteinúrico"
+      }
+    ],
+    "esquema": {
+      "inicio": "2,5 mg/día (1,25 mg si hay depleción de volumen, diurético a dosis altas, FG <30 o ancianos frágiles). Creatinina y potasio basales.",
+      "titulacion": "Doblar la dosis cada 2-4 semanas hasta 10 mg. Repetir creatinina y potasio 1-2 semanas después de cada aumento: se acepta una subida de creatinina de hasta un 30%.",
+      "duracion": "Indefinida.",
+      "fin": "Sin efecto rebote: se puede suspender directamente. Suspender si aparece angioedema, hiperpotasemia >6 mmol/L, subida de creatinina >50% o embarazo.",
+      "via": "VO, en dosis única diaria.",
+      "monitorizacion": "Creatinina y potasio a las 1-2 semanas de iniciar o subir y después cada 6-12 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 50-60%, no afectada por la comida.",
+      "distribucion": "**Lipófilo con alta penetración tisular.**",
+      "metabolismo": "**Activación hepática a ramiprilato**; menor efecto en la insuficiencia hepática grave.",
+      "eliminacion": "Renal (60%) y fecal.",
+      "vida_media": "Ramiprilato: 13-17 h efectiva y **más de 50 h la fase terminal** (unión prolongada a la ECA).",
+      "ajuste_renal": "FG 30-60: dosis máxima 5 mg. FG <30: iniciar con 1,25 mg y no superar 5 mg.",
+      "ajuste_hepatico": "Hepatopatía: iniciar con 1,25 mg; máximo 2,5 mg/día.",
+      "interacciones": [
+        {
+          "con": "Sacubitrilo/valsartán",
+          "efecto": "Riesgo grave de angioedema por doble inhibición de la degradación de bradicinina",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la combinación; dejar 36 h entre la última dosis de IECA y la primera de sacubitrilo/valsartán"
+        },
+        {
+          "con": "Espironolactona, eplerenona, suplementos de potasio, cotrimoxazol",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Potasio a la semana; evitar suplementos salvo hipopotasemia documentada"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Reducen su efecto antihipertensivo y, con diurético, causan fracaso renal agudo («triple whammy»)",
+          "gravedad": "alta",
+          "manejo": "Evitar la triple combinación IECA + diurético + AINE"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "media",
+          "manejo": "Controlar litemia al iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "TOS seca (5-20%, por bradicinina)",
+        "Hipotensión de primera dosis",
+        "Elevación leve de creatinina y potasio",
+        "Mareo"
+      ],
+      "graves": [
+        "Angioedema (0,1-0,7%, más frecuente en población de origen africano)",
+        "Hiperpotasemia grave",
+        "Fracaso renal agudo en estenosis bilateral de arterias renales o depleción de volumen",
+        "Fetotoxicidad en el 2.º y 3.er trimestre"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Antecedente de angioedema por IECA o angioedema hereditario",
+      "Estenosis bilateral de arterias renales o de arteria renal en riñón único",
+      "Uso conjunto con sacubitrilo/valsartán o con aliskireno en diabéticos"
+    ],
+    "perlas": [
+      "**La dosis de prevención es 10 mg**: en el paciente con cardiopatía isquémica y FEVI normal, mantenerlo a 2,5 mg no reproduce el beneficio del HOPE.",
+      "Si aparece tos, cambiar a un ARA-II, no a otro IECA: la tos es efecto de clase.",
+      "Su dosis única diaria lo hace práctico en el paciente polimedicado frente al enalapril."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo (fetotoxicidad renal, oligohidramnios, hipoplasia craneal). Cambiar antes de la concepción. En lactancia se prefiere enalapril o captopril.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 13; Harrison 20.ª ed., caps. de hipertensión arterial e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-lisinopril",
+    "nombre": "Lisinopril",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "IECA (inhibidor de la enzima convertidora de angiotensina)",
+    "subclase": "Fármaco activo (no profármaco), hidrófilo",
+    "vs_clase": [
+      "**NO es un profármaco**: es activo tal cual y **no necesita activación hepática**. Útil en el hepatópata, donde los profármacos (enalapril, ramipril) se activan peor.",
+      "**No se metaboliza en absoluto: se elimina inalterado por el riñón.** Su ajuste a la función renal es más estricto que el de otros IECA.",
+      "**Dosis única diaria** por su vida media efectiva de 12 h.",
+      "Evidencia en el infarto agudo (GISSI-3: iniciado en las primeras 24 h) y en insuficiencia cardiaca a dosis altas (ATLAS)."
+    ],
+    "mecanismo": "Inhibe la enzima convertidora de angiotensina con los efectos de la clase: menos angiotensina II y aldosterona, más bradicinina, vasodilatación de la arteriola eferente y efecto antiproteinúrico. **Es un análogo de la lisina activo desde su absorción, sin activación hepática.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "10-40 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar con 10 mg (5 mg con diurético)"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "2,5-5 mg → 20-35 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Titular cada 2 semanas hasta la dosis máxima tolerada"
+      },
+      {
+        "patologia": "Infarto agudo de miocardio hemodinámicamente estable",
+        "dosis": "5 mg el día 1 y 2, después 10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar en las primeras 24 h si la PAS es >100 mmHg; mantener al menos 6 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día en hipertensión; 2,5-5 mg en insuficiencia cardiaca, ancianos o con diurético. Creatinina y potasio basales.",
+      "titulacion": "Doblar cada 2-4 semanas (cada 2 en insuficiencia cardiaca) con control de creatinina y potasio a la semana de cada cambio.",
+      "duracion": "Indefinida (al menos 6 semanas tras un infarto sin disfunción ventricular).",
+      "fin": "Suspensión directa. Suspender ante angioedema, hiperpotasemia grave o embarazo.",
+      "via": "VO, dosis única diaria.",
+      "monitorizacion": "Creatinina y potasio a la semana de iniciar o subir la dosis; después cada 6-12 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 25%, variable; no afectada por la comida.",
+      "distribucion": "Hidrófilo; no se une a proteínas.",
+      "metabolismo": "**Ninguno.**",
+      "eliminacion": "**Renal, íntegramente inalterado.**",
+      "vida_media": "12 h efectiva (fase terminal prolongada por unión a la ECA).",
+      "ajuste_renal": "**FG 30-60: iniciar con 5 mg. FG 10-30: iniciar con 2,5 mg. Hemodiálisis: 2,5 mg tras la sesión.**",
+      "ajuste_hepatico": "**No precisa** (no depende de activación hepática).",
+      "interacciones": [
+        {
+          "con": "Sacubitrilo/valsartán",
+          "efecto": "Angioedema grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado; respetar 36 h de lavado"
+        },
+        {
+          "con": "Diuréticos ahorradores de potasio, suplementos de potasio, cotrimoxazol",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio a la semana"
+        },
+        {
+          "con": "AINE + diurético",
+          "efecto": "Fracaso renal agudo",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación triple"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "media",
+          "manejo": "Controlar litemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Tos seca",
+        "Mareo e hipotensión",
+        "Elevación leve de creatinina y potasio"
+      ],
+      "graves": [
+        "Angioedema",
+        "Hiperpotasemia grave",
+        "Fracaso renal agudo",
+        "Fetotoxicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Antecedente de angioedema",
+      "Estenosis bilateral de arterias renales",
+      "Uso conjunto con sacubitrilo/valsartán"
+    ],
+    "perlas": [
+      "**En el cirrótico o con hepatopatía significativa, lisinopril (o captopril) es preferible a los IECA profármaco.**",
+      "**Como se elimina inalterado por el riñón, se acumula en la insuficiencia renal**: es el IECA en el que más importa ajustar la dosis al FG."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo. En lactancia no hay datos suficientes; se prefiere enalapril.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 13; Harrison 20.ª ed., caps. de hipertensión arterial e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-captopril",
+    "nombre": "Captopril",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "IECA (inhibidor de la enzima convertidora de angiotensina)",
+    "subclase": "IECA con grupo sulfhidrilo, de acción corta",
+    "vs_clase": [
+      "**Acción CORTA (vida media de 2 h): necesita 2-3 tomas al día**. Por eso no es de elección en el tratamiento crónico.",
+      "**Inicio muy rápido (15-30 min)**: el único IECA útil por VO en la **urgencia hipertensiva** (25 mg).",
+      "**Grupo SULFHIDRILO (-SH)**: produce además efectos adversos propios que no tienen los demás IECA: **disgeusia, exantema, proteinuria y neutropenia**.",
+      "**La comida reduce su absorción un 30-40%: tomar 1 h antes de las comidas.**",
+      "No es profármaco. Se usa también en la **gammagrafía renal con captopril** para el diagnóstico de la estenosis de arteria renal."
+    ],
+    "mecanismo": "Inhibidor de la enzima convertidora de angiotensina, activo sin necesidad de activación hepática. **Su grupo sulfhidrilo le confiere acciones y efectos adversos de tipo inmunológico** (exantema, disgeusia, proteinuria membranosa, neutropenia) semejantes a los de la penicilamina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Urgencia hipertensiva (sin lesión aguda de órgano diana)",
+        "dosis": "25 mg",
+        "posologia": "Dosis única; se puede repetir a los 30-60 min",
+        "via": "VO",
+        "nota": "Inicio en 15-30 min. Objetivo: descenso gradual en 24-48 h, no normalizar la PA en minutos"
+      },
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "1 h antes de las comidas"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "6,25 mg → 50 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Útil para iniciar en el paciente inestable por su corta acción: si produce hipotensión, el efecto desaparece pronto"
+      }
+    ],
+    "esquema": {
+      "inicio": "6,25-12,5 mg cada 8-12 h en tratamiento crónico; 25 mg en dosis única en la urgencia hipertensiva.",
+      "titulacion": "Doblar la dosis cada 1-2 semanas con control de creatinina y potasio. Una vez estable, valorar el paso a un IECA de dosis única para mejorar la adherencia.",
+      "duracion": "Dosis única en la urgencia hipertensiva; indefinida en tratamiento crónico.",
+      "fin": "Suspensión directa. Suspender ante angioedema, neutropenia, proteinuria significativa o embarazo.",
+      "via": "VO (también se ha usado por vía sublingual, sin ventaja real sobre la VO).",
+      "monitorizacion": "Creatinina y potasio. **Hemograma en los primeros 3 meses en pacientes con enfermedad autoinmune o insuficiencia renal (riesgo de neutropenia)** y proteinuria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 75%, **que la comida reduce un 30-40%**.",
+      "distribucion": "Unión a proteínas del 30%.",
+      "metabolismo": "Parcial, a dímeros disulfuro.",
+      "eliminacion": "Renal.",
+      "vida_media": "**2 h.**",
+      "ajuste_renal": "Reducir dosis y alargar intervalo; con FG <30 iniciar con 6,25 mg.",
+      "ajuste_hepatico": "No precisa (no es profármaco).",
+      "interacciones": [
+        {
+          "con": "Sacubitrilo/valsartán",
+          "efecto": "Angioedema grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado; 36 h de lavado"
+        },
+        {
+          "con": "Ahorradores de potasio y suplementos de potasio",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio"
+        },
+        {
+          "con": "Alopurinol, azatioprina, procainamida",
+          "efecto": "**Mayor riesgo de neutropenia y de reacciones de hipersensibilidad**",
+          "gravedad": "media",
+          "manejo": "Hemograma periódico"
+        },
+        {
+          "con": "AINE + diurético",
+          "efecto": "Fracaso renal agudo",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Tos seca",
+        "**Disgeusia (alteración del gusto), propia del grupo sulfhidrilo**",
+        "**Exantema maculopapular**",
+        "Hipotensión de primera dosis"
+      ],
+      "graves": [
+        "Angioedema",
+        "**Neutropenia y agranulocitosis** (sobre todo en insuficiencia renal o colagenosis)",
+        "**Proteinuria (glomerulopatía membranosa)**",
+        "Hiperpotasemia y fracaso renal agudo"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Antecedente de angioedema",
+      "Estenosis bilateral de arterias renales",
+      "Uso conjunto con sacubitrilo/valsartán"
+    ],
+    "perlas": [
+      "**Es el IECA de la urgencia hipertensiva**: 25 mg VO, sin necesidad de vía intravenosa ni de descensos bruscos.",
+      "**Se puede usar durante la lactancia** (junto con enalapril), con datos de seguridad suficientes.",
+      "Disgeusia y exantema tras iniciar captopril no contraindican otro IECA: son efectos del grupo sulfhidrilo, no de la clase."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo. **Compatible con la lactancia** (excreción mínima en leche).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11; Harrison 20.ª ed., cap. de hipertensión arterial"
+  },
+  {
+    "id": "CAR-valsartan",
+    "nombre": "Valsartán",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "ARA-II (antagonista del receptor de angiotensina II)",
+    "subclase": "ARA-II activo, no profármaco",
+    "vs_clase": [
+      "**El ARA-II con más evidencia en insuficiencia cardiaca y en el postinfarto** (Val-HeFT, VALIANT): alternativa al IECA cuando este no se tolera.",
+      "**Es el componente ARA-II del sacubitrilo/valsartán**: el paso de valsartán a sacubitrilo/valsartán **NO requiere periodo de lavado** (sí lo requiere desde un IECA).",
+      "**Vida media corta (6 h): en insuficiencia cardiaca se da cada 12 h**; en hipertensión, una vez al día.",
+      "No es profármaco y apenas se metaboliza: **eliminación biliar mayoritaria**."
+    ],
+    "mecanismo": "Bloquea de forma selectiva el receptor AT1 de la angiotensina II: vasodilatación, menor secreción de aldosterona y menor remodelado. A diferencia de los IECA, **no aumenta la bradicinina**, por lo que apenas produce tos y el angioedema es mucho más raro. Mantiene libre el receptor AT2.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "80-320 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar con 80 mg; existe en combinaciones fijas con amlodipino e hidroclorotiazida"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida (intolerancia a IECA y a sacubitrilo/valsartán)",
+        "dosis": "40 mg → 160 mg",
+        "posologia": "**Cada 12 h**",
+        "via": "VO",
+        "nota": "Titular cada 2 semanas"
+      },
+      {
+        "patologia": "Postinfarto con disfunción ventricular o insuficiencia cardiaca",
+        "dosis": "20 mg → 160 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Desde las 12 h del infarto si está estable"
+      }
+    ],
+    "esquema": {
+      "inicio": "80 mg/día en hipertensión; 40 mg cada 12 h en insuficiencia cardiaca. Creatinina y potasio basales.",
+      "titulacion": "Doblar cada 2-4 semanas (cada 2 en insuficiencia cardiaca) con control de creatinina y potasio a la semana.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa. Para pasar a sacubitrilo/valsartán basta con suspender el valsartán y empezar al día siguiente.",
+      "via": "VO.",
+      "monitorizacion": "Creatinina y potasio a la semana de iniciar o subir; después cada 6-12 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 25%; la comida la reduce algo, sin relevancia clínica.",
+      "distribucion": "Unión a proteínas del 95%.",
+      "metabolismo": "Escaso (20%), en parte por CYP2C9.",
+      "eliminacion": "**Biliar (83%)** y renal (13%).",
+      "vida_media": "6 h.",
+      "ajuste_renal": "No precisa ajuste de dosis inicial con FG >30; precaución y control estrecho con FG <30.",
+      "ajuste_hepatico": "Hepatopatía leve-moderada: máximo 80 mg. Contraindicado en insuficiencia hepática grave, cirrosis biliar y colestasis.",
+      "interacciones": [
+        {
+          "con": "IECA o aliskireno (doble bloqueo del sistema renina-angiotensina)",
+          "efecto": "Hiperpotasemia, hipotensión y fracaso renal sin beneficio clínico",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Ahorradores de potasio, suplementos, cotrimoxazol",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio"
+        },
+        {
+          "con": "AINE + diurético",
+          "efecto": "Fracaso renal agudo",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "media",
+          "manejo": "Controlar litemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo e hipotensión",
+        "Elevación de creatinina y potasio",
+        "Cansancio"
+      ],
+      "graves": [
+        "Hiperpotasemia grave",
+        "Fracaso renal agudo en estenosis bilateral de arterias renales",
+        "Angioedema (muy raro)",
+        "Fetotoxicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Insuficiencia hepática grave, cirrosis biliar o colestasis",
+      "Combinación con aliskireno en diabéticos o FG <60"
+    ],
+    "perlas": [
+      "**Desde valsartán, el cambio a sacubitrilo/valsartán es inmediato; desde un IECA hay que esperar 36 h** por el riesgo de angioedema.",
+      "En insuficiencia cardiaca, un valsartán pautado una vez al día está infradosificado: la pauta es cada 12 h."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo; no recomendado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 13; Harrison 20.ª ed., caps. de hipertensión arterial e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-candesartan",
+    "nombre": "Candesartán",
+    "sinonimos": [
+      "Candesartán cilexetilo"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "ARA-II (antagonista del receptor de angiotensina II)",
+    "subclase": "Profármaco con bloqueo insuperable del receptor AT1",
+    "vs_clase": [
+      "**Bloqueo INSUPERABLE (no competitivo) y muy prolongado del receptor AT1**: efecto antihipertensivo más sostenido en 24 h que el losartán.",
+      "**Evidencia sólida en insuficiencia cardiaca** (programa CHARM), en dosis única diaria, a diferencia del valsartán.",
+      "**Es el ARA-II con evidencia en la profilaxis de la MIGRAÑA** (16 mg/día), útil en el hipertenso migrañoso.",
+      "**Profármaco (cilexetilo) que se activa durante la absorción intestinal**, sin depender del hígado."
+    ],
+    "mecanismo": "Antagonista selectivo del receptor AT1 con **disociación muy lenta, que se comporta como bloqueo insuperable**: el efecto se mantiene aunque suba la angiotensina II. No aumenta la bradicinina. Se administra como éster cilexetilo, que se hidroliza en la pared intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "8-32 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar con 8 mg (4 mg con depleción de volumen o insuficiencia renal)"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida (intolerancia a IECA)",
+        "dosis": "4-8 mg → 32 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Doblar cada 2 semanas"
+      },
+      {
+        "patologia": "Profilaxis de la migraña (uso fuera de ficha técnica)",
+        "dosis": "16 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Valorar eficacia a los 2-3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "8 mg/día en hipertensión, 4-8 mg en insuficiencia cardiaca. Creatinina y potasio basales.",
+      "titulacion": "Doblar cada 2-4 semanas (cada 2 en insuficiencia cardiaca) hasta 32 mg, con control analítico tras cada cambio.",
+      "duracion": "Indefinida (en profilaxis de migraña, 6-12 meses y reevaluar).",
+      "fin": "Suspensión directa.",
+      "via": "VO, dosis única diaria.",
+      "monitorizacion": "Creatinina y potasio a la semana de cada cambio; después cada 6-12 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 15%; **activación completa en la pared intestinal**.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "Mínimo; escasa dependencia del CYP450.",
+      "eliminacion": "Renal (33%) y biliar (67%).",
+      "vida_media": "9 h, con efecto de 24 h por la unión prolongada al receptor.",
+      "ajuste_renal": "FG <30: iniciar con 4 mg.",
+      "ajuste_hepatico": "Leve-moderada: iniciar con 4 mg. Contraindicado en la grave y en la colestasis.",
+      "interacciones": [
+        {
+          "con": "IECA o aliskireno",
+          "efecto": "Hiperpotasemia y fracaso renal",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Ahorradores de potasio y suplementos",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "media",
+          "manejo": "Controlar litemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, hipotensión",
+        "Elevación de creatinina y potasio",
+        "Cefalea"
+      ],
+      "graves": [
+        "Hiperpotasemia grave",
+        "Fracaso renal agudo",
+        "Angioedema (muy raro)",
+        "Fetotoxicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Insuficiencia hepática grave o colestasis",
+      "Combinación con aliskireno en diabéticos o FG <60"
+    ],
+    "perlas": [
+      "**En el hipertenso con migraña, candesartán trata ambas cosas con un solo fármaco.**",
+      "Por su bloqueo insuperable, una toma diaria cubre bien las 24 h, incluido el pico de PA matutino."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo; no recomendado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 13; Harrison 20.ª ed., caps. de hipertensión arterial e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-olmesartan",
+    "nombre": "Olmesartán",
+    "sinonimos": [
+      "Olmesartán medoxomilo"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "ARA-II (antagonista del receptor de angiotensina II)",
+    "subclase": "Profármaco de alta potencia antihipertensiva",
+    "vs_clase": [
+      "**Puede producir una ENTEROPATÍA tipo ESPRÚE**: diarrea crónica grave, pérdida de peso y atrofia de vellosidades meses o años después de iniciarlo, con serología celíaca negativa. **Es exclusiva de este ARA-II** y se resuelve al retirarlo.",
+      "**Uno de los ARA-II más potentes en hipertensión** y muy usado en combinaciones fijas triples (con amlodipino e hidroclorotiazida).",
+      "**Sin indicación en insuficiencia cardiaca ni en el postinfarto**: ahí se eligen valsartán o candesartán."
+    ],
+    "mecanismo": "Antagonista selectivo y de alta afinidad del receptor AT1, con bloqueo prolongado. Se administra como éster medoxomilo, que se hidroliza a la forma activa durante la absorción.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "10-40 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar con 10-20 mg; frecuente en combinación fija con amlodipino y/o hidroclorotiazida"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg/día (10 mg en ancianos, insuficiencia renal o depleción de volumen). Creatinina y potasio basales.",
+      "titulacion": "Subir a 40 mg a las 2-4 semanas si no se alcanza el objetivo; después añadir calcioantagonista o diurético.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa. **Suspender ante diarrea crónica inexplicada** y no reintroducir si se confirma la enteropatía.",
+      "via": "VO, dosis única diaria.",
+      "monitorizacion": "Creatinina y potasio a la semana; peso y hábito intestinal en las revisiones."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 26%, independiente de la comida.",
+      "distribucion": "Unión a proteínas del 99%.",
+      "metabolismo": "No por CYP450 (hidrólisis del profármaco).",
+      "eliminacion": "Renal (35-50%) y biliar.",
+      "vida_media": "13 h.",
+      "ajuste_renal": "FG 20-60: máximo 20 mg. No recomendado con FG <20.",
+      "ajuste_hepatico": "Moderada: máximo 20 mg. No recomendado en la grave.",
+      "interacciones": [
+        {
+          "con": "IECA o aliskireno",
+          "efecto": "Hiperpotasemia y fracaso renal",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Ahorradores de potasio y suplementos",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio"
+        },
+        {
+          "con": "Colesevelam",
+          "efecto": "Reduce su absorción",
+          "gravedad": "baja",
+          "manejo": "Tomar el olmesartán 4 h antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo",
+        "Elevación de creatinina y potasio",
+        "Cefalea"
+      ],
+      "graves": [
+        "**Enteropatía tipo esprúe con diarrea crónica grave y malabsorción**",
+        "Hiperpotasemia y fracaso renal agudo",
+        "Fetotoxicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Obstrucción biliar",
+      "Combinación con aliskireno en diabéticos o FG <60"
+    ],
+    "perlas": [
+      "**Ante una diarrea crónica con pérdida de peso en un hipertenso, preguntar por olmesartán antes de pedir una endoscopia**: la biopsia puede imitar una celiaquía.",
+      "La enteropatía puede aparecer años después de iniciarlo: el tiempo transcurrido no la descarta."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo; no recomendado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11; Harrison 20.ª ed., cap. de hipertensión arterial"
+  }
+]

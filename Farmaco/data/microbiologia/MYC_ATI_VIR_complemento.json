@@ -1,0 +1,232 @@
+[
+  {
+    "id": "MYC-micobacterias-crecimiento-rapido",
+    "nombre": "Micobacterias de crecimiento rápido (M. abscessus, M. fortuitum, M. chelonae)",
+    "grupo": "MYC",
+    "nivel": 2,
+    "clasificacion": "MICOBACTERIAS NO TUBERCULOSAS del grupo IV de Runyon: crecen en MENOS DE 7 DÍAS en medios habituales, a diferencia del resto de micobacterias. Ambientales, ubicuas en agua, suelo y biofilms de conducciones",
+    "morfologia_tincion": "Bacilos ácido-alcohol resistentes con Ziehl-Neelsen y auramina, indistinguibles morfológicamente de M. tuberculosis. La diferencia práctica es que CRECEN EN MENOS DE UNA SEMANA y lo hacen incluso en medios bacteriológicos convencionales, donde pueden confundirse con difteroides si no se sospecha. La identificación de especie exige MALDI-TOF o secuenciación.",
+    "mecanismo_patogenia": [
+      "Son organismos AMBIENTALES, no transmisibles de persona a persona (con la excepción discutida de M. abscessus entre pacientes con fibrosis quística). El reservorio son los BIOFILMS de las conducciones de agua, incluidos los de hospitales, clínicas y centros de estética.",
+      "Resisten los desinfectantes habituales, la cloración y los glutaraldehídos, lo que explica los brotes NOSOCOMIALES y los asociados a procedimientos estéticos, mesoterapia, tatuajes, acupuntura y pedicura.",
+      "La puerta de entrada es la INOCULACIÓN directa (cirugía, catéter, inyección, traumatismo) o la vía RESPIRATORIA en el pulmón previamente dañado.",
+      "Su pared rica en ácidos micólicos les da resistencia intrínseca a la mayoría de los antibióticos y a los antituberculosos clásicos: NO responden a isoniazida, rifampicina ni pirazinamida.",
+      "M. ABSCESSUS posee además un gen erm(41) inducible que confiere RESISTENCIA a los MACRÓLIDOS tras la exposición, aunque el antibiograma inicial la muestre sensible: es una resistencia que aparece durante el tratamiento.",
+      "Forman BIOFILM sobre catéteres y material protésico, lo que hace que la retirada del dispositivo sea parte imprescindible del tratamiento."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección de piel y partes blandas postprocedimiento",
+        "clinica": "Semanas o meses después de una cirugía estética, una mesoterapia, un tatuaje o una inyección: nódulos subcutáneos dolorosos, abscesos fríos que drenan material seroso, con escasa respuesta a los antibióticos habituales.",
+        "lesiones": "Nódulos y abscesos con trayectos fistulosos, a menudo múltiples y siguiendo los puntos de inyección.",
+        "clave": "Ante una infección de herida quirúrgica que aparece TARDE, con cultivos convencionales NEGATIVOS y sin respuesta a betalactámicos, hay que pedir tinción de Ziehl y cultivo de micobacterias. El diagnóstico se retrasa meses por no pensar en ello."
+      },
+      {
+        "cuadro": "Enfermedad pulmonar por M. abscessus",
+        "clinica": "Paciente con BRONQUIECTASIAS, fibrosis quística o EPOC: tos crónica, expectoración, pérdida de peso y deterioro funcional progresivo.",
+        "lesiones": "Bronquiectasias, nódulos y consolidaciones; patrón de árbol en brote.",
+        "clave": "En la fibrosis quística es una de las infecciones de peor pronóstico y puede contraindicar el trasplante pulmonar. Distinguir COLONIZACIÓN de ENFERMEDAD exige criterios clínicos, radiológicos y microbiológicos combinados: un único cultivo positivo no basta."
+      },
+      {
+        "cuadro": "Infección de catéter y de material protésico",
+        "clinica": "Fiebre, inflamación del túnel del catéter o del bolsillo del dispositivo, con hemocultivos convencionales negativos.",
+        "lesiones": "Biofilm sobre el material.",
+        "clave": "La RETIRADA del catéter o de la prótesis es imprescindible: el antibiótico no penetra el biofilm micobacteriano."
+      },
+      {
+        "cuadro": "Queratitis y endoftalmitis postquirúrgicas",
+        "clinica": "Tras cirugía refractiva o de cataratas: dolor, fotofobia e infiltrado corneal de evolución tórpida.",
+        "lesiones": "Infiltrado corneal con hipopión.",
+        "clave": "Brotes descritos asociados al instrumental y a las soluciones de irrigación contaminadas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "NO responden a los antituberculosos clásicos. Tratar una micobacteria de crecimiento rápido con la pauta de la tuberculosis es un error frecuente y garantiza el fracaso.",
+      "El tratamiento se guía SIEMPRE por ANTIBIOGRAMA, y la identificación de ESPECIE es imprescindible: M. fortuitum y M. chelonae son bastante más tratables que M. abscessus.",
+      "M. ABSCESSUS es la más difícil: el gen erm(41) INDUCIBLE hace que la claritromicina aparente ser eficaz en el antibiograma inicial y deje de serlo durante el tratamiento. Por eso el laboratorio debe hacer una lectura del antibiograma PROLONGADA a 14 días.",
+      "El tratamiento es multifármaco, INTRAVENOSO al inicio y muy prolongado (meses), con una toxicidad acumulada considerable: amikacina (ototoxicidad), tigeciclina (intolerancia digestiva grave), imipenem, cefoxitina.",
+      "La CIRUGÍA (desbridamiento, retirada de prótesis o de catéter, resección pulmonar localizada) es parte del tratamiento, no un complemento.",
+      "Su origen habitual es el AGUA: ante un brote hay que investigar las conducciones, el instrumental, las soluciones de lavado y el hielo, no al personal.",
+      "Un aislamiento en una muestra respiratoria puede ser COLONIZACIÓN: tratar sin criterios de enfermedad expone a meses de toxicidad sin beneficio."
+    ],
+    "diagnostico": {
+      "muestra": "Biopsia o aspirado de la lesión, esputo o lavado broncoalveolar (se exigen dos cultivos de esputo positivos o uno de lavado), punta de catéter, humor acuoso.",
+      "pruebas": [
+        "Ziehl-Neelsen o auramina: bacilos ácido-alcohol resistentes",
+        "Cultivo de micobacterias en medio líquido y sólido: crecen en MENOS de 7 días (hay que PEDIRLO expresamente)",
+        "Identificación de ESPECIE por MALDI-TOF o secuenciación del gen hsp65 o rpoB",
+        "ANTIBIOGRAMA con lectura PROLONGADA a 14 días para detectar la resistencia inducible a macrólidos de M. abscessus",
+        "Detección del gen erm(41) y de su polimorfismo funcional",
+        "TC de alta resolución en la forma pulmonar"
+      ],
+      "claves": "El diagnóstico se pierde casi siempre por no pedir la prueba: los cultivos bacteriológicos convencionales se informan como negativos o como contaminación por difteroides. Ante una infección tórpida postprocedimiento hay que solicitar micobacterias de forma explícita."
+    },
+    "tratamiento": {
+      "eleccion": "Terapia COMBINADA guiada por antibiograma. M. ABSCESSUS: fase intensiva con AMIKACINA intravenosa más imipenem o cefoxitina, junto a un macrólido si no hay resistencia inducible, durante 4-12 semanas, seguida de fase de continuación oral e inhalada. M. FORTUITUM y M. CHELONAE: combinaciones de amikacina, ciprofloxacino, doxiciclina, cotrimoxazol, linezolid o claritromicina según sensibilidad.",
+      "alternativas": "Tigeciclina, clofazimina, linezolid y bedaquilina en las formas refractarias. Amikacina liposomal inhalada en la enfermedad pulmonar.",
+      "resistencias": "Resistencia INTRÍNSECA a los antituberculosos clásicos. Resistencia INDUCIBLE a macrólidos en M. abscessus subespecie abscessus por erm(41), ausente en la subespecie massiliense, que por eso responde mucho mejor.",
+      "duracion": "4-6 meses en la enfermedad cutánea; 12 meses o más, contados desde la negativización de los cultivos, en la enfermedad pulmonar.",
+      "notas": "La CIRUGÍA (desbridamiento, retirada del material, resección) mejora las tasas de curación de forma sustancial. Hay que vigilar la toxicidad acumulada: audiometría y función renal con la amikacina, hemograma y neuropatía con el linezolid."
+    },
+    "farmacos_relacionados": [
+      "INF-amikacina",
+      "INF-claritromicina",
+      "INF-imipenem",
+      "INF-linezolid",
+      "INF-meropenem"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de micobacterias no tuberculosas; guías ATS/IDSA/ERS 2020 sobre micobacterias no tuberculosas"
+  },
+  {
+    "id": "ATI-bartonella-henselae",
+    "nombre": "Bartonella henselae y Bartonella quintana",
+    "grupo": "ATI",
+    "nivel": 2,
+    "clasificacion": "BACILOS gramnegativos pequeños, PLEOMORFOS, FASTIDIOSOS y de crecimiento intracelular facultativo; zoonosis transmitida por el GATO (B. henselae) y por el PIOJO del cuerpo (B. quintana)",
+    "morfologia_tincion": "Bacilos gramnegativos curvos y pleomorfos que se tiñen mal con Gram. Se visualizan con la tinción argéntica de WARTHIN-STARRY en los tejidos, que es la técnica clásica. Cultivo muy difícil: requiere medios enriquecidos con sangre e incubación prolongada de 2 a 6 semanas, por lo que en la práctica el diagnóstico es serológico o por PCR.",
+    "mecanismo_patogenia": [
+      "B. HENSELAE tiene como reservorio al GATO, sobre todo al gatito joven, que suele estar bacteriémico y asintomático; se transmite por ARAÑAZO, mordedura o lamido sobre piel erosionada, y entre gatos por la PULGA.",
+      "B. QUINTANA se transmite por el PIOJO DEL CUERPO y es la bacteria de la fiebre de las trincheras, hoy asociada a personas sin hogar y con consumo de alcohol (la llamada bartonelosis urbana).",
+      "Invade los ERITROCITOS y las CÉLULAS ENDOTELIALES, donde persiste protegida de la respuesta inmunitaria y de muchos antibióticos, produciendo bacteriemias recurrentes de larga duración.",
+      "Posee un rasgo poco común entre las bacterias: induce ANGIOGÉNESIS. Sus proteínas efectoras (BadA, sistema de secreción VirB/VirD4) estimulan la proliferación de células endoteliales a través del factor de crecimiento del endotelio vascular, lo que da lugar a lesiones vasculares proliferativas.",
+      "La respuesta del huésped determina la forma clínica y esa es la clave conceptual: en el INMUNOCOMPETENTE predomina la respuesta GRANULOMATOSA y aparece la enfermedad por arañazo de gato; en el INMUNODEPRIMIDO con VIH avanzado falla el granuloma y predomina la proliferación VASCULAR, dando la angiomatosis bacilar.",
+      "Es una de las causas principales de ENDOCARDITIS con HEMOCULTIVOS NEGATIVOS, junto con Coxiella burnetii y el grupo HACEK."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Enfermedad por ARAÑAZO DE GATO",
+        "clinica": "De 1 a 2 semanas tras el arañazo: pápula o pústula en el punto de inoculación, seguida a las 1-3 semanas de una ADENOPATÍA REGIONAL única, grande y dolorosa (axilar, epitroclear o cervical), con febrícula y malestar.",
+        "lesiones": "Linfadenitis granulomatosa con microabscesos estrellados; la adenopatía puede supurar y fistulizar.",
+        "clave": "Es la causa más frecuente de adenopatía crónica regional en niños y adultos jóvenes. Se resuelve SOLA en 2-4 meses, y esa evolución benigna es la razón por la que en el inmunocompetente el tratamiento antibiótico aporta poco. Preguntar por el gato es lo que evita una biopsia por sospecha de linfoma."
+      },
+      {
+        "cuadro": "ANGIOMATOSIS BACILAR",
+        "clinica": "Paciente con VIH avanzado (CD4 menores de 100) o trasplantado: pápulas y nódulos vasculares rojo-violáceos, friables y sangrantes, únicos o múltiples, en piel; puede afectar a hueso, hígado y bazo.",
+        "lesiones": "Proliferación vascular lobulillar con bacilos visibles en Warthin-Starry.",
+        "clave": "Se confunde clínicamente con el SARCOMA DE KAPOSI, y la distinción importa muchísimo: la angiomatosis bacilar CURA con antibióticos y el Kaposi no. La biopsia es lo que resuelve la duda."
+      },
+      {
+        "cuadro": "PELIOSIS hepática y bacteriemia crónica",
+        "clinica": "Fiebre prolongada, hepatoesplenomegalia y elevación de la fosfatasa alcalina en el inmunodeprimido.",
+        "lesiones": "Cavidades quísticas llenas de sangre en el parénquima hepático y esplénico.",
+        "clave": "Es una causa poco recordada de fiebre de origen desconocido con lesiones hepáticas quísticas en el paciente con VIH."
+      },
+      {
+        "cuadro": "ENDOCARDITIS con hemocultivos negativos",
+        "clinica": "Fiebre prolongada, soplo, insuficiencia cardiaca y embolias en un paciente con valvulopatía previa; con frecuencia, contacto con gatos (B. henselae) o situación de sinhogarismo y alcoholismo (B. quintana).",
+        "lesiones": "Vegetaciones valvulares grandes con alta tasa de embolia y de necesidad de cirugía.",
+        "clave": "Ante una endocarditis con hemocultivos repetidamente NEGATIVOS hay que pedir serología de Bartonella y de Coxiella: son las dos causas principales, y sin pedirlas expresamente el diagnóstico no aparece."
+      },
+      {
+        "cuadro": "Síndrome oculoglandular de PARINAUD y neurorretinitis",
+        "clinica": "Conjuntivitis granulomatosa con adenopatía preauricular, o pérdida visual con papilitis y ESTRELLA MACULAR de exudados.",
+        "lesiones": "Granuloma conjuntival; edema de papila con exudados maculares radiales.",
+        "clave": "La estrella macular en un paciente joven con contacto con gatos es prácticamente diagnóstica de neurorretinitis por Bartonella."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La misma bacteria produce cuadros opuestos según la inmunidad del huésped: GRANULOMA en el inmunocompetente (arañazo de gato) y PROLIFERACIÓN VASCULAR en el inmunodeprimido (angiomatosis bacilar). Es uno de los ejemplos más claros de que la enfermedad la escribe el huésped tanto como el patógeno.",
+      "Es una bacteria ANGIOGÉNICA, algo excepcional: induce la formación de vasos en lugar de destruirlos.",
+      "En el INMUNOCOMPETENTE la enfermedad por arañazo de gato se resuelve sola y el antibiótico aporta poco; en el INMUNODEPRIMIDO el tratamiento es obligatorio y prolongado.",
+      "Nunca hay que aspirar ni drenar quirúrgicamente una adenopatía por arañazo de gato de forma incisional: se fistuliza. Si es muy dolorosa se punciona con aguja.",
+      "Es una de las tres causas clásicas de ENDOCARDITIS CON HEMOCULTIVOS NEGATIVOS, junto con Coxiella burnetii y el grupo HACEK.",
+      "El cultivo es tan difícil que en la práctica el diagnóstico es SEROLÓGICO o por PCR del tejido; esperar a un cultivo positivo es esperar en vano.",
+      "En la angiomatosis bacilar hay que evitar el tratamiento corto: la recaída es frecuente y se requieren al menos 3 meses."
+    ],
+    "diagnostico": {
+      "muestra": "Suero para serología; biopsia de la adenopatía o de la lesión cutánea; sangre para PCR y hemocultivos prolongados; válvula cardiaca.",
+      "pruebas": [
+        "SEROLOGÍA (inmunofluorescencia indirecta): es la prueba de primera línea en el inmunocompetente",
+        "PCR en tejido, sangre o válvula: la más útil en la endocarditis y en la angiomatosis",
+        "Histología con WARTHIN-STARRY: bacilos argirófilos; granulomas con microabscesos estrellados o proliferación vascular según la forma",
+        "Hemocultivos con incubación PROLONGADA (hasta 6 semanas): baja sensibilidad, hay que avisar al laboratorio",
+        "Ecocardiograma en la sospecha de endocarditis"
+      ],
+      "claves": "La anamnesis vale más que el laboratorio: preguntar por GATOS (sobre todo gatitos), por arañazos y por la situación de vivienda y los piojos orienta el diagnóstico mejor que ninguna prueba de cribado."
+    },
+    "tratamiento": {
+      "eleccion": "ENFERMEDAD POR ARAÑAZO DE GATO en el inmunocompetente: habitualmente OBSERVACIÓN y analgesia, ya que se resuelve sola; azitromicina 500 mg el primer día y 250 mg del segundo al quinto si la adenopatía es muy grande o sintomática. ANGIOMATOSIS BACILAR y peliosis: DOXICICLINA 100 mg cada 12 horas o eritromicina, durante al menos 3 meses. ENDOCARDITIS: DOXICICLINA más GENTAMICINA o rifampicina, 6 semanas o más.",
+      "alternativas": "Rifampicina, ciprofloxacino, cotrimoxazol o claritromicina. En el paciente con VIH hay que asociar el tratamiento antirretroviral.",
+      "resistencias": "Poco documentadas; la dificultad no es la resistencia sino la persistencia intracelular y la recaída.",
+      "duracion": "5 días en la forma ganglionar tratada; 3-4 meses en la angiomatosis bacilar y en la peliosis; 6 semanas o más en la endocarditis, con frecuente necesidad de cirugía valvular.",
+      "notas": "En el inmunodeprimido, tratamientos cortos producen RECAÍDA. Prevención: cortar las uñas al gato, lavar cualquier arañazo, control de pulgas y, en la persona sin hogar, control del piojo del cuerpo."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-doxiciclina",
+      "INF-gentamicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de Bartonella; Harrison 20.ª ed., cap. de infecciones por Bartonella"
+  },
+  {
+    "id": "VIR-norovirus",
+    "nombre": "Norovirus (y sapovirus)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA, sin envoltura, de la familia Caliciviridae; principal causa mundial de gastroenteritis aguda no bacteriana en TODAS las edades",
+    "morfologia_tincion": "Cápside icosaédrica desnuda de unos 27-40 nm, con aspecto de estrella de David en la microscopía electrónica clásica. La AUSENCIA DE ENVOLTURA es determinante en la práctica: lo hace resistente a la desecación, a la congelación, al calor moderado, al cloro a concentraciones habituales y, sobre todo, a los GELES HIDROALCOHÓLICOS.",
+    "mecanismo_patogenia": [
+      "El INÓCULO INFECTANTE es minúsculo (bastan entre 10 y 100 partículas víricas), y un enfermo excreta miles de millones por gramo de heces. Esa desproporción explica que un solo caso desencadene un brote en un crucero, una residencia o un colegio.",
+      "Se transmite por vía FECAL-ORAL, por alimentos y agua contaminados (marisco bivalvo, que filtra y concentra el virus; ensaladas y alimentos manipulados), por superficies y por AEROSOLES generados al VOMITAR, un mecanismo poco intuitivo y muy eficaz.",
+      "Infecta el enterocito del intestino delgado proximal, produce atrofia de las vellosidades y aplanamiento de la mucosa, con malabsorción transitoria y retraso del vaciamiento gástrico, lo que explica los vómitos tan característicos.",
+      "La susceptibilidad depende del genotipo del huésped: quienes NO son secretores (no expresan FUT2 y por tanto carecen del antígeno H en el epitelio intestinal) son RESISTENTES a los genogrupos más frecuentes. Es un ejemplo elegante de resistencia genética a un virus.",
+      "La inmunidad es de CORTA DURACIÓN (meses) y específica de genotipo, con lo que las reinfecciones son la norma; la enorme variabilidad del genogrupo GII.4, que evoluciona por deriva antigénica como la gripe, mantiene la circulación.",
+      "La excreción vírica persiste DÍAS o SEMANAS tras la desaparición de los síntomas, y es prolongada en el inmunodeprimido, que puede convertirse en excretor crónico."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gastroenteritis aguda por norovirus (gripe intestinal de invierno)",
+        "clinica": "Tras 12-48 horas de incubación: VÓMITOS de inicio brusco y muy llamativos (más que en otras gastroenteritis, sobre todo en el niño), diarrea acuosa sin sangre, dolor abdominal cólico, náuseas, mialgias y febrícula. Dura de 24 a 72 horas.",
+        "lesiones": "Atrofia vellositaria transitoria del intestino delgado, sin invasión ni inflamación destructiva.",
+        "clave": "Vómitos intensos, corta duración y ausencia de sangre en heces: es la firma clínica. La brevedad del cuadro es lo que lo distingue de la mayoría de las gastroenteritis bacterianas."
+      },
+      {
+        "cuadro": "BROTE en institución cerrada",
+        "clinica": "Aparición explosiva de decenas de casos en 24-48 horas en un crucero, una residencia de ancianos, un hospital, un colegio o un cuartel, afectando también al personal.",
+        "lesiones": "No aplica.",
+        "clave": "Es la causa más frecuente de brote de gastroenteritis en instituciones. Los criterios de Kaplan (vómitos en más de la mitad de los afectados, incubación de 24-48 horas, duración de 12-60 horas y coprocultivos bacterianos negativos) permiten sospecharlo antes de tener confirmación de laboratorio."
+      },
+      {
+        "cuadro": "Deshidratación grave en extremos de la vida",
+        "clinica": "Lactante o anciano con vómitos incoercibles y diarrea que no logra reponer las pérdidas: hipotensión, oliguria, deterioro del nivel de conciencia y fracaso renal prerrenal.",
+        "lesiones": "Depleción de volumen y alteraciones hidroelectrolíticas.",
+        "clave": "En el anciano institucionalizado, un cuadro que en un adulto joven dura un día puede desencadenar deterioro funcional, caídas, fracaso renal y muerte. La mortalidad de los brotes en residencias no es despreciable."
+      },
+      {
+        "cuadro": "Diarrea crónica en el INMUNODEPRIMIDO",
+        "clinica": "Trasplantado o paciente con inmunodeficiencia: diarrea persistente durante meses, con pérdida de peso y excreción vírica mantenida.",
+        "lesiones": "Atrofia vellositaria persistente.",
+        "clave": "Es una causa infravalorada de diarrea crónica postrasplante, y estos pacientes actúan además como reservorio prolongado que perpetúa los brotes nosocomiales."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El GEL HIDROALCOHÓLICO NO SIRVE. Al carecer de envoltura, el norovirus resiste el alcohol; la medida eficaz es el LAVADO DE MANOS CON AGUA Y JABÓN, por arrastre mecánico. Es probablemente el dato más práctico de toda su microbiología y el que más se incumple.",
+      "Para la desinfección de superficies hace falta HIPOCLORITO (lejía) a concentraciones de 1000-5000 ppm: los desinfectantes de amonio cuaternario habituales son insuficientes.",
+      "El inóculo infectante es de 10 a 100 partículas: es una de las dosis infectantes más bajas que se conocen, y explica su capacidad explosiva.",
+      "El VÓMITO genera AEROSOLES infectantes que contaminan el aire y las superficies a varios metros: por eso los brotes se propagan tan rápido en espacios cerrados.",
+      "La inmunidad dura MESES y es específica de genotipo: haber pasado la infección no protege del siguiente invierno, y no hay vacuna disponible.",
+      "El MARISCO BIVALVO concentra el virus al filtrar agua contaminada, y cocinarlo ligeramente no lo inactiva.",
+      "El tratamiento es exclusivamente de SOPORTE: rehidratación oral y, en el paciente que no la tolera, intravenosa. No hay antivírico y el antibiótico no tiene ningún papel.",
+      "Las personas NO SECRETORAS (FUT2 negativas) son genéticamente resistentes a los genogrupos más comunes, lo que explica por qué en un mismo brote alimentario algunos comensales no enferman."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (la muestra de elección), vómito y, en la investigación de brotes, alimentos y superficies.",
+      "pruebas": [
+        "PCR de heces (RT-PCR multiplex de patógenos gastrointestinales): es la prueba de referencia, muy sensible",
+        "Pruebas rápidas de antígeno: sensibilidad baja, útiles solo para el cribado de brotes y nunca para descartar",
+        "Coprocultivo bacteriano y estudio de parásitos para el diagnóstico diferencial",
+        "Criterios epidemiológicos de KAPLAN en el contexto de un brote"
+      ],
+      "claves": "En el caso individual y leve NO hace falta confirmar: el diagnóstico es clínico y no cambia el manejo. La confirmación importa en los BROTES, para dirigir las medidas de control, y en el inmunodeprimido con diarrea crónica."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO: rehidratación oral con solución de osmolaridad reducida, mantenimiento de la alimentación en cuanto se tolere y reposición de las pérdidas mantenidas. Rehidratación intravenosa si hay vómitos incoercibles o deshidratación grave.",
+      "alternativas": "Ondansetrón en dosis única para permitir la tolerancia oral, especialmente útil en el niño. NO hay antivírico disponible.",
+      "resistencias": "No aplicable.",
+      "duracion": "El cuadro se autolimita en 24-72 horas.",
+      "notas": "Los ANTIBIÓTICOS no tienen ningún papel y su prescripción en este contexto es un uso inadecuado frecuente. La loperamida se evita en el niño. CONTROL DEL BROTE: aislamiento de contacto, lavado de manos con AGUA Y JABÓN (no gel), desinfección con hipoclorito, exclusión del personal manipulador de alimentos hasta 48 horas después de la resolución de los síntomas, y cierre de zonas afectadas si es preciso."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. de Caliciviridae; Harrison 20.ª ed., cap. de gastroenteritis víricas; recomendaciones de los CDC para el control de brotes de norovirus"
+  }
+]

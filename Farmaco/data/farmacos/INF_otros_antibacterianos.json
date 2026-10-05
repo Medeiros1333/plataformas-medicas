@@ -1,0 +1,1738 @@
+[
+  {
+    "id": "INF-azitromicina",
+    "nombre": "Azitromicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Macrólido",
+    "subclase": "Azálido de vida media tisular muy prolongada",
+    "vs_clase": [
+      "**Vida media tisular muy larga**: pautas de 3-5 días (o dosis única de 1 g en clamidia).",
+      "**NO inhibe el CYP3A4** (la claritromicina sí): de elección en pacientes con estatinas, anticoagulantes o polimedicados.",
+      "**Prolonga el QT.** De elección en lactantes (tos ferina) y embarazo."
+    ],
+    "mecanismo": "Se une a la subunidad 50S del ribosoma bacteriano (ARNr 23S) e impide la translocación del peptidil-ARNt, inhibiendo la síntesis proteica. Bacteriostático. Además tiene un efecto inmunomodulador antiinflamatorio propio, independiente del antibacteriano, que se aprovecha en enfermedades respiratorias crónicas.",
+    "espectro": "Atípicas (Mycoplasma pneumoniae, Chlamydia trachomatis y pneumoniae, Legionella), Bordetella pertussis, Campylobacter, Haemophilus influenzae (mejor que claritromicina), micobacterias atípicas (complejo M. avium), Treponema. Cobertura de neumococo poco fiable en España por resistencia por metilación ribosómica (>25-30%). NO cubre gramnegativos entéricos ni Pseudomonas.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía adquirida en la comunidad (cobertura de atípicas, asociada a betalactámico)",
+        "dosis": "500 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO o IV",
+        "nota": "Nunca en monoterapia en España si se sospecha neumococo, por las resistencias"
+      },
+      {
+        "patologia": "Uretritis/cervicitis por Chlamydia trachomatis",
+        "dosis": "1 g",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Doxiciclina 7 días es hoy preferida por mayor eficacia, sobre todo en infección rectal"
+      },
+      {
+        "patologia": "Tos ferina (Bordetella pertussis)",
+        "dosis": "500 mg el día 1 y 250 mg/24 h los días 2-5",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Tratar y dar profilaxis a los convivientes; reduce la transmisión aunque no acorte la fase paroxística si se inicia tarde"
+      },
+      {
+        "patologia": "Diarrea del viajero / gastroenteritis por Campylobacter",
+        "dosis": "500 mg/24 h",
+        "posologia": "Cada 24 h, 3 días (o 1 g dosis única)",
+        "via": "VO",
+        "nota": "De elección en el Sudeste Asiático por la resistencia de Campylobacter a quinolonas"
+      },
+      {
+        "patologia": "Exacerbaciones repetidas de EPOC o bronquiectasias (uso inmunomodulador)",
+        "dosis": "250-500 mg",
+        "posologia": "3 días por semana",
+        "via": "VO",
+        "nota": "Tratamiento crónico; descartar antes micobacterias atípicas y vigilar QT y audición"
+      },
+      {
+        "patologia": "Profilaxis de infección diseminada por complejo Mycobacterium avium en VIH con CD4 <50",
+        "dosis": "1200 mg",
+        "posologia": "Semanal",
+        "via": "VO",
+        "nota": "Suspender cuando los CD4 se recuperan con TAR"
+      }
+    ],
+    "esquema": {
+      "inicio": "Habitualmente con dosis de carga el primer día (500 mg) por su gran volumen de distribución tisular.",
+      "titulacion": "No aplica.",
+      "duracion": "3-5 días en la mayoría de indicaciones — su vida media tisular mantiene concentraciones activas varios días tras la última toma. Uso inmunomodulador: 6-12 meses.",
+      "fin": "Suspensión brusca. Recordar al paciente que el efecto persiste días tras la última dosis, para que no interprete la pauta corta como tratamiento insuficiente.",
+      "via": "VO (biodisponibilidad 37%) o IV.",
+      "monitorizacion": "ECG con QTc en pacientes con cardiopatía, otros fármacos que alargan el QT o alteraciones electrolíticas. Audiometría si se usa de forma crónica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 37%; los alimentos la reducen — administrar 1 h antes o 2 h después de comer.",
+      "distribucion": "Volumen de distribución enorme; se concentra en el interior de los macrófagos y neutrófilos, que la transportan al foco infeccioso. Concentración tisular 10-100 veces la plasmática. Mala penetración en LCR.",
+      "metabolismo": "Escaso; a diferencia de claritromicina y eritromicina, NO es inhibidora relevante del CYP3A4 — es la gran ventaja del grupo.",
+      "eliminacion": "Biliar mayoritaria; solo un 6% renal.",
+      "vida_media": "68 h (tisular aún más larga).",
+      "ajuste_renal": "No precisa ajuste hasta FG <10.",
+      "ajuste_hepatico": "Usar con precaución en hepatopatía grave; se elimina por vía biliar.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT (antiarrítmicos de clase III, haloperidol, quinolonas, ondansetrón, metadona)",
+          "efecto": "Suma de prolongación del QT y riesgo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "ECG previo, corregir K y Mg, evitar la asociación si el QTc basal >470-480 ms"
+        },
+        {
+          "con": "Antiácidos con aluminio o magnesio",
+          "efecto": "Reducen su pico plasmático",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h las tomas"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Puede elevar sus niveles al alterar la flora intestinal que la metaboliza",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles de digoxina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas, náuseas y dolor abdominal (menos que eritromicina)",
+        "Diarrea",
+        "Alteración del gusto"
+      ],
+      "graves": [
+        "Prolongación del QT y torsade de pointes",
+        "Hepatotoxicidad colestásica",
+        "Hipoacusia neurosensorial con uso prolongado (generalmente reversible)",
+        "Estenosis hipertrófica de píloro en lactantes <1 mes",
+        "Exacerbación de miastenia gravis"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a macrólidos",
+      "Antecedente de hepatotoxicidad por azitromicina",
+      "QT largo congénito o adquirido significativo",
+      "Precaución en miastenia gravis"
+    ],
+    "perlas": [
+      "Es el macrólido que NO inhibe el CYP3A4 de forma relevante: en un paciente polimedicado (estatinas, anticoagulantes, inmunosupresores) azitromicina es mucho más segura que claritromicina.",
+      "Su acumulación intracelular en fagocitos es lo que explica a la vez su eficacia frente a patógenos intracelulares y su pauta corta de 3-5 días.",
+      "El efecto antiinflamatorio crónico en bronquiectasias y EPOC es independiente del antibiótico: antes de iniciarlo hay que descartar micobacterias no tuberculosas, porque la monoterapia generaría resistencia.",
+      "En España no sirve como monoterapia para la neumonía neumocócica: la resistencia por metilación (erm) es de alto nivel y no se supera subiendo la dosis."
+    ],
+    "embarazo_lactancia": "Considerada segura en el embarazo; de elección para la clamidia en gestantes. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ATI-bartonella-henselae",
+      "ATI-chlamydia-trachomatis",
+      "ATI-chlamydophila-pneumoniae",
+      "ATI-leptospira",
+      "ATI-mycoplasma-pneumoniae",
+      "ATI-rickettsia",
+      "BGN-bordetella-pertussis",
+      "BGN-campylobacter-jejuni",
+      "BGN-haemophilus-influenzae",
+      "BGN-legionella-pneumophila",
+      "BGN-moraxella-catarrhalis",
+      "BGN-neisseria-gonorrhoeae",
+      "BGN-salmonella",
+      "BGN-shigella",
+      "BGN-vibrio",
+      "BGP-corynebacterium-diphtheriae",
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes",
+      "MYC-mycobacterium-avium"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., cap. de neumonía"
+  },
+  {
+    "id": "INF-claritromicina",
+    "nombre": "Claritromicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Macrólido",
+    "subclase": "Inhibidor potente del CYP3A4",
+    "vs_clase": [
+      "**Inhibidor POTENTE del CYP3A4 y de la P-gp**: rabdomiólisis con simvastatina, toxicidad por colchicina, digoxina, anticalcineurínicos.",
+      "**Componente clásico de la erradicación de H. pylori** (hoy limitada por resistencias) y del tratamiento de **M. avium**.",
+      "**Dos tomas al día**; sabor metálico frecuente."
+    ],
+    "mecanismo": "Igual que azitromicina: bloquea la subunidad 50S ribosómica e inhibe la síntesis proteica. Su metabolito 14-hidroxi es activo y potencia la actividad frente a Haemophilus.",
+    "espectro": "Atípicas, Helicobacter pylori (indicación diferencial frente a azitromicina), micobacterias atípicas, Legionella, neumococo (con la misma limitación de resistencias). NO cubre gramnegativos entéricos ni Pseudomonas.",
+    "indicaciones": [
+      {
+        "patologia": "Erradicación de Helicobacter pylori (terapia cuádruple concomitante)",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Con IBP + amoxicilina + metronidazol, 14 días. No usarla si la resistencia local a claritromicina supera el 15% o si el paciente la ha recibido antes"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad (cobertura de atípicas)",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Asociada a betalactámico"
+      },
+      {
+        "patologia": "Infección por complejo Mycobacterium avium",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Siempre en combinación (con etambutol ± rifabutina) para evitar resistencias"
+      },
+      {
+        "patologia": "Faringitis estreptocócica en alérgicos a betalactámicos",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Alternativa; comprobar sensibilidad local"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio, con o sin alimento.",
+      "titulacion": "No aplica.",
+      "duracion": "5-7 días en infección respiratoria; 14 días en erradicación de H. pylori; ≥12 meses en micobacteriosis atípica.",
+      "fin": "Suspensión brusca. En H. pylori, comprobar la erradicación con test del aliento o antígeno en heces al menos 4 semanas después, con el IBP suspendido 2 semanas antes.",
+      "via": "VO o IV.",
+      "monitorizacion": "Revisión completa de la medicación del paciente ANTES de prescribirla (interacciones por CYP3A4). ECG si hay riesgo de QT largo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 55%, no afectada de forma relevante por los alimentos.",
+      "distribucion": "Buena penetración tisular, incluida la mucosa gástrica (clave para H. pylori).",
+      "metabolismo": "Hepático por CYP3A4, del que además es INHIBIDOR POTENTE. Metabolito 14-OH activo.",
+      "eliminacion": "Renal y hepática.",
+      "vida_media": "3-7 h.",
+      "ajuste_renal": "Reducir un 50% si FG <30.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Estatinas metabolizadas por CYP3A4 (simvastatina, atorvastatina, lovastatina)",
+          "efecto": "Multiplica sus concentraciones y provoca rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina durante el tratamiento, o usar azitromicina en su lugar. Pravastatina y rosuvastatina no comparten esta vía"
+        },
+        {
+          "con": "Colchicina",
+          "efecto": "Toxicidad grave por colchicina (mielosupresión, fallo multiorgánico), especialmente en insuficiencia renal",
+          "gravedad": "alta",
+          "manejo": "Contraindicado en insuficiencia renal o hepática; reducir mucho la dosis de colchicina"
+        },
+        {
+          "con": "Anticoagulantes orales directos y antivitamina K",
+          "efecto": "Aumento del efecto anticoagulante y del riesgo hemorrágico",
+          "gravedad": "alta",
+          "manejo": "Vigilar INR; valorar cambiar de antibiótico"
+        },
+        {
+          "con": "Inmunosupresores (tacrolimús, ciclosporina, everolimús)",
+          "efecto": "Elevación marcada de sus niveles con toxicidad renal y neurológica",
+          "gravedad": "alta",
+          "manejo": "Monitorizar niveles y ajustar; preferir azitromicina"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Riesgo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor metálico persistente (muy característico y causa frecuente de abandono)",
+        "Náuseas, dolor abdominal, diarrea",
+        "Cefalea"
+      ],
+      "graves": [
+        "Prolongación del QT y torsade de pointes",
+        "Hepatotoxicidad",
+        "Toxicidad por interacción farmacológica (rabdomiólisis, toxicidad por colchicina)",
+        "Exacerbación de miastenia gravis",
+        "Aumento de mortalidad cardiovascular a largo plazo descrito en cardiópatas"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a macrólidos",
+      "Uso concomitante con simvastatina o lovastatina",
+      "Colchicina en insuficiencia renal o hepática",
+      "QT largo",
+      "Primer trimestre del embarazo"
+    ],
+    "perlas": [
+      "Es un inhibidor potente del CYP3A4 y de la glicoproteína P: la revisión de la medicación crónica antes de prescribirla no es opcional. La mayoría de los ingresos por interacción con macrólidos son por claritromicina, no por azitromicina.",
+      "El sabor metálico es tan característico que muchos pacientes lo recuerdan como «el antibiótico que sabe a metal»; avisar mejora el cumplimiento.",
+      "Es el macrólido de la erradicación de H. pylori: azitromicina no la sustituye en esa indicación.",
+      "Se debe evitar en el primer trimestre del embarazo, a diferencia de azitromicina, que sí se considera segura."
+    ],
+    "embarazo_lactancia": "Evitar en el primer trimestre (señales de teratogenicidad). Preferir azitromicina. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ATI-chlamydophila-pneumoniae",
+      "ATI-mycoplasma-pneumoniae",
+      "BGN-bordetella-pertussis",
+      "BGN-helicobacter-pylori",
+      "BGN-legionella-pneumophila",
+      "BGN-moraxella-catarrhalis",
+      "MYC-micobacterias-crecimiento-rapido",
+      "MYC-mycobacterium-avium",
+      "MYC-mycobacterium-leprae"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 44 y 67; Harrison 20.ª ed., cap. de infección por H. pylori"
+  },
+  {
+    "id": "INF-doxiciclina",
+    "nombre": "Doxiciclina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Tetraciclina",
+    "subclase": "Tetraciclina de acción prolongada",
+    "mecanismo": "Se une reversiblemente a la subunidad 30S ribosómica e impide la unión del aminoacil-ARNt al sitio aceptor, bloqueando la elongación de la cadena peptídica. Bacteriostático. Entra en la célula bacteriana por transporte activo, lo que explica su gran actividad intracelular.",
+    "espectro": "Excelente frente a intracelulares y atípicas: Rickettsia, Coxiella, Chlamydia, Mycoplasma, Borrelia, Brucella, Vibrio, Leptospira, Anaplasma. Cubre además SARM comunitario y Propionibacterium acnes. NO cubre Pseudomonas, NO es fiable frente a enterobacterias ni frente a neumococo en infección grave.",
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Lyme precoz (eritema migratorio)",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "10-14 días. De elección porque cubre además la coinfección por Anaplasma"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad ambulatoria (alternativa)",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Cubre atípicas y neumococo; útil en alérgicos a betalactámicos"
+      },
+      {
+        "patologia": "Uretritis/cervicitis por Chlamydia trachomatis",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h, 7 días",
+        "via": "VO",
+        "nota": "Hoy preferida a azitromicina en dosis única, sobre todo en infección rectal"
+      },
+      {
+        "patologia": "Enfermedad inflamatoria pélvica",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h, 14 días",
+        "via": "VO",
+        "nota": "Combinada con ceftriaxona y metronidazol"
+      },
+      {
+        "patologia": "Fiebre botonosa mediterránea y otras rickettsiosis",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Iniciar por sospecha clínica sin esperar la serología: el retraso aumenta la mortalidad"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas por SARM comunitario",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Alternativa oral a cotrimoxazol y clindamicina"
+      },
+      {
+        "patologia": "Acné inflamatorio moderado",
+        "dosis": "50-100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "3-4 meses, siempre con tratamiento tópico asociado"
+      },
+      {
+        "patologia": "Profilaxis de la malaria",
+        "dosis": "100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Desde 1-2 días antes hasta 4 semanas después de salir de la zona endémica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio; en rickettsiosis y otras infecciones graves puede iniciarse con 200 mg de carga.",
+      "titulacion": "No aplica.",
+      "duracion": "7 días en clamidia; 10-14 días en Lyme precoz; hasta 3 días tras la defervescencia (mínimo 7) en rickettsiosis; meses en acné.",
+      "fin": "Suspensión brusca. En acné, retirada programada tras 3-4 meses manteniendo el tratamiento tópico para evitar resistencias.",
+      "via": "VO (biodisponibilidad ~95%) o IV.",
+      "monitorizacion": "Clínica. Advertir siempre de la fotosensibilidad y de la esofagitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad casi completa, poco afectada por los alimentos (a diferencia de la tetraciclina clásica). Sí queda anulada por cationes divalentes.",
+      "distribucion": "Excelente penetración tisular e intracelular, incluida próstata y ojo. Penetración moderada en LCR.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Mayoritariamente por excreción intestinal (quelación en la luz), no renal — esta es su gran diferencia con el resto de tetraciclinas.",
+      "vida_media": "18-22 h.",
+      "ajuste_renal": "NO precisa ajuste, ni siquiera en diálisis. Es la tetraciclina de elección en el paciente con insuficiencia renal.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Cationes divalentes y trivalentes: calcio, hierro, magnesio, aluminio, zinc (lácteos, antiácidos, suplementos)",
+          "efecto": "Quelación en la luz intestinal que anula la absorción del antibiótico",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2 h antes o 4 h después. Es la causa más frecuente de fracaso terapéutico evitable con doxiciclina"
+        },
+        {
+          "con": "Anticoagulantes orales antivitamina K",
+          "efecto": "Potencia el efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        },
+        {
+          "con": "Isotretinoína",
+          "efecto": "Riesgo aditivo de hipertensión intracraneal benigna",
+          "gravedad": "alta",
+          "manejo": "Asociación contraindicada en el tratamiento del acné"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína",
+          "efecto": "Inducen su metabolismo y reducen su eficacia",
+          "gravedad": "media",
+          "manejo": "Valorar aumentar la dosis o cambiar de antibiótico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Fotosensibilidad (quemadura solar exagerada) — muy característica",
+        "Náuseas y molestias epigástricas",
+        "Candidiasis vaginal"
+      ],
+      "graves": [
+        "Esofagitis y úlcera esofágica si se toma sin agua o tumbado",
+        "Hipertensión intracraneal benigna (cefalea, papiledema, diplopía)",
+        "Hepatotoxicidad",
+        "Coloración permanente de los dientes y alteración del esmalte si se administra en <8 años o en el 2.º-3.er trimestre del embarazo",
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo (2.º y 3.er trimestre)",
+      "Niños menores de 8 años, salvo en rickettsiosis grave donde el beneficio supera claramente el riesgo",
+      "Alergia a tetraciclinas"
+    ],
+    "perlas": [
+      "Debe tomarse sentado o de pie, con un vaso lleno de agua y sin acostarse en la hora siguiente: la úlcera esofágica por doxiciclina es un cuadro real, doloroso y evitable con esa simple instrucción.",
+      "Su eliminación intestinal la convierte en la única tetraciclina segura en insuficiencia renal, sin ajuste alguno.",
+      "En la sospecha de rickettsiosis se inicia por clínica y epidemiología, nunca esperando la confirmación serológica: el retraso multiplica la mortalidad.",
+      "La contraindicación clásica en <8 años se ha relativizado: para ciclos cortos (<21 días) de doxiciclina en rickettsiosis, el riesgo de tinción dental es despreciable y el beneficio es vital.",
+      "La quelación con lácteos, hierro o antiácidos anula la absorción: es la causa más frecuente de «fracaso» de la doxiciclina en la práctica."
+    ],
+    "embarazo_lactancia": "Contraindicada en el 2.º y 3.er trimestre por el efecto sobre dientes y huesos fetales. Lactancia: la quelación con el calcio de la leche limita su absorción, se considera aceptable en ciclos cortos.",
+    "micro_relacionado": [
+      "ANA-actinomyces-israelii",
+      "ATI-bartonella-henselae",
+      "ATI-borrelia-burgdorferi",
+      "ATI-chlamydia-trachomatis",
+      "ATI-chlamydophila-pneumoniae",
+      "ATI-coxiella-burnetii",
+      "ATI-leptospira",
+      "ATI-mycoplasma-pneumoniae",
+      "ATI-rickettsia",
+      "ATI-treponema-pallidum",
+      "BGN-brucella",
+      "BGN-neisseria-gonorrhoeae",
+      "BGN-vibrio",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., caps. de rickettsiosis y borreliosis"
+  },
+  {
+    "id": "INF-ciprofloxacino",
+    "nombre": "Ciprofloxacino",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Fluoroquinolona",
+    "subclase": "2.ª generación, la más antipseudomónica",
+    "vs_clase": [
+      "**La fluoroquinolona MÁS ANTIPSEUDOMÓNICA** y la única oral con actividad útil frente a Pseudomonas.",
+      "**Débil frente a NEUMOCOCO**: no es una quinolona respiratoria (levofloxacino y moxifloxacino sí).",
+      "**Inhibidor del CYP1A2**: aumenta teofilina, tizanidina, clozapina."
+    ],
+    "mecanismo": "Inhibe la ADN-girasa (topoisomerasa II) en gramnegativos y la topoisomerasa IV en grampositivos, impidiendo el superenrollamiento y la separación del ADN replicado. Bactericida concentración-dependiente: su eficacia depende del cociente Cmáx/CMI, lo que justifica dosis altas espaciadas.",
+    "espectro": "El mejor de las quinolonas frente a gramnegativos, incluida Pseudomonas aeruginosa; enterobacterias, Salmonella, Shigella, Campylobacter (con resistencias crecientes), Neisseria. Actividad DÉBIL frente a neumococo y grampositivos — no usar en neumonía. NO cubre anaerobios ni SARM.",
+    "indicaciones": [
+      {
+        "patologia": "Pielonefritis aguda no complicada",
+        "dosis": "500 mg/12 h (VO) o 400 mg/12 h (IV)",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "7 días. Solo si la resistencia local de E. coli a quinolonas es <10%"
+      },
+      {
+        "patologia": "Prostatitis bacteriana aguda y crónica",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "2-4 semanas (aguda) o 4-6 semanas (crónica); penetra excelentemente en la próstata"
+      },
+      {
+        "patologia": "Infección por Pseudomonas aeruginosa sensible (otitis externa maligna, ITU, exacerbación en bronquiectasias)",
+        "dosis": "750 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Es la única quinolona oral fiable frente a Pseudomonas"
+      },
+      {
+        "patologia": "Diarrea del viajero / shigelosis / fiebre tifoidea",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "3 días en diarrea del viajero. Evitar si el viaje fue al Sudeste Asiático (resistencia)"
+      },
+      {
+        "patologia": "Profilaxis de contactos de meningitis meningocócica",
+        "dosis": "500 mg",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Alternativa a rifampicina; cómoda por la dosis única"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio. Separar de cationes divalentes.",
+      "titulacion": "No aplica.",
+      "duracion": "3 días en diarrea del viajero; 7 días en pielonefritis; 4-6 semanas en prostatitis crónica.",
+      "fin": "Suspensión brusca. Ante cualquier dolor tendinoso, parestesia o síntoma neuropsiquiátrico, suspender inmediatamente y NO reintroducir ninguna quinolona.",
+      "via": "VO (biodisponibilidad 70-80%, casi equivalente a la IV) o IV.",
+      "monitorizacion": "Vigilancia clínica activa de tendinopatía, neuropatía y síntomas del SNC. Glucemia en diabéticos. ECG si hay riesgo de QT largo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 70-80%; anulada por cationes divalentes.",
+      "distribucion": "Excelente penetración tisular: próstata, riñón, hueso, pulmón, macrófagos. Escasa en LCR.",
+      "metabolismo": "Hepático parcial; es INHIBIDOR del CYP1A2.",
+      "eliminacion": "Renal mayoritaria.",
+      "vida_media": "3-5 h.",
+      "ajuste_renal": "FG 30-50: 250-500 mg/12 h. FG <30: 500 mg/24 h.",
+      "ajuste_hepatico": "No precisa ajuste habitualmente.",
+      "interacciones": [
+        {
+          "con": "Cationes divalentes: antiácidos, hierro, calcio, sucralfato, lácteos",
+          "efecto": "Quelación que anula la absorción oral",
+          "gravedad": "alta",
+          "manejo": "Separar 2 h antes o 6 h después"
+        },
+        {
+          "con": "Teofilina",
+          "efecto": "Inhibe su metabolismo (CYP1A2) y puede provocar convulsiones y arritmias por intoxicación",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación o reducir la teofilina y monitorizar niveles"
+        },
+        {
+          "con": "Tizanidina",
+          "efecto": "Elevación masiva de sus niveles con hipotensión y sedación profunda",
+          "gravedad": "alta",
+          "manejo": "Asociación contraindicada"
+        },
+        {
+          "con": "Corticoides sistémicos",
+          "efecto": "Multiplican el riesgo de rotura tendinosa, sobre todo en mayores de 60 años",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; si es imprescindible, advertir y vigilar"
+        },
+        {
+          "con": "Antidiabéticos (sulfonilureas, insulina)",
+          "efecto": "Disglucemia: hipoglucemias graves y también hiperglucemias",
+          "gravedad": "media",
+          "manejo": "Reforzar los autocontroles durante el tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y molestias digestivas",
+        "Cefalea, insomnio, inquietud",
+        "Fotosensibilidad"
+      ],
+      "graves": [
+        "Tendinopatía y rotura del tendón de Aquiles (riesgo máximo en >60 años, corticoterapia y trasplante renal)",
+        "Neuropatía periférica, que puede ser irreversible",
+        "Efectos neuropsiquiátricos: confusión, alucinaciones, psicosis, convulsiones",
+        "Prolongación del QT",
+        "Aneurisma y disección aórticos",
+        "Colitis por C. difficile (de las tasas más altas)",
+        "Desprendimiento de retina",
+        "Exacerbación de la miastenia gravis"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de tendinopatía por quinolonas",
+      "Miastenia gravis",
+      "Embarazo y lactancia (salvo ausencia de alternativa)",
+      "Menores de 18 años, salvo indicaciones concretas (fibrosis quística, ITU complicada por Pseudomonas)",
+      "Uso para infecciones leves autolimitadas: restricción regulatoria expresa de la EMA"
+    ],
+    "perlas": [
+      "La EMA restringió formalmente las fluoroquinolonas: no deben usarse en infecciones leves o autolimitadas (bronquitis aguda, cistitis no complicada, faringitis) ni como primera opción cuando exista alternativa, por sus reacciones adversas graves y potencialmente irreversibles.",
+      "Su biodisponibilidad oral casi equivale a la IV: mantener la vía intravenosa en un paciente que tolera vía oral es un error frecuente y evitable.",
+      "Es la quinolona antipseudomónica y la peor frente a neumococo: usarla para una neumonía comunitaria es un error clásico — ahí corresponde levofloxacino o moxifloxacino.",
+      "La tendinopatía puede aparecer desde las primeras 48 h y hasta meses después de terminar el tratamiento; ante dolor aquíleo se suspende de inmediato.",
+      "Es de los antibióticos con mayor riesgo de C. difficile y de selección de BLEE: cada prescripción debe justificarse."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo y la lactancia salvo que no haya alternativa (efectos sobre el cartílago en animales).",
+    "micro_relacionado": [
+      "BGN-campylobacter-jejuni",
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-neisseria-meningitidis",
+      "BGN-proteus-mirabilis",
+      "BGN-pseudomonas-aeruginosa",
+      "BGN-salmonella",
+      "BGN-shigella"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de infecciones urinarias"
+  },
+  {
+    "id": "INF-levofloxacino",
+    "nombre": "Levofloxacino",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Fluoroquinolona",
+    "subclase": "3.ª generación, «quinolona respiratoria»",
+    "vs_clase": [
+      "**«Quinolona respiratoria»** (neumococo y atípicos) **con buena eliminación urinaria**: útil en NAC y en ITU/prostatitis.",
+      "**Actividad antipseudomónica moderada** a dosis altas (750 mg), menor que el ciprofloxacino.",
+      "**Eliminación renal**: precisa ajuste (el moxifloxacino no)."
+    ],
+    "mecanismo": "Igual que ciprofloxacino (inhibición de ADN-girasa y topoisomerasa IV), pero con mayor afinidad por la topoisomerasa IV de los grampositivos, lo que le confiere actividad fiable frente a Streptococcus pneumoniae.",
+    "espectro": "Neumococo (incluidas cepas resistentes a penicilina y a macrólidos), atípicas (Legionella, Mycoplasma, Chlamydia), Haemophilus, enterobacterias y Pseudomonas (algo menos que ciprofloxacino, requiere 750 mg). NO cubre SARM ni anaerobios de forma fiable.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía adquirida en la comunidad (monoterapia)",
+        "dosis": "500 mg/24 h o 750 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO o IV",
+        "nota": "Cubre a la vez neumococo y atípicas: es la única monoterapia oral completa para la NAC"
+      },
+      {
+        "patologia": "Legionelosis",
+        "dosis": "500-750 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO o IV",
+        "nota": "De elección junto a azitromicina; 7-10 días (14-21 en inmunodeprimidos)"
+      },
+      {
+        "patologia": "Pielonefritis aguda / ITU complicada",
+        "dosis": "750 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO o IV",
+        "nota": "5 días con la dosis de 750 mg"
+      },
+      {
+        "patologia": "Exacerbación de EPOC grave con riesgo de Pseudomonas",
+        "dosis": "750 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reservado a pacientes con EPOC muy evolucionado y colonización conocida"
+      },
+      {
+        "patologia": "Tuberculosis multirresistente (fármaco de segunda línea)",
+        "dosis": "750-1000 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Siempre en régimen combinado, nunca en monoterapia"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio, una vez al día.",
+      "titulacion": "No aplica.",
+      "duracion": "5-7 días en NAC; 5 días en ITU con dosis alta; 7-10 días en legionelosis; meses en tuberculosis resistente.",
+      "fin": "Suspensión brusca. Retirada inmediata ante síntomas tendinosos o neurológicos.",
+      "via": "VO (biodisponibilidad ~99%) o IV.",
+      "monitorizacion": "Igual que ciprofloxacino: tendinopatía, neuropatía, síntomas del SNC, glucemia en diabéticos, QTc si hay riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad casi del 100% — la vía oral es plenamente equivalente a la IV.",
+      "distribucion": "Excelente en pulmón, con concentraciones en el epitelio alveolar superiores a las plasmáticas (base de su eficacia en NAC).",
+      "metabolismo": "Escaso; a diferencia de ciprofloxacino, no inhibe de forma relevante el CYP1A2 (menos interacción con teofilina).",
+      "eliminacion": "Renal, mayoritariamente inalterado.",
+      "vida_media": "6-8 h.",
+      "ajuste_renal": "FG 20-49: 500 mg de carga y luego 250 mg/24 h. FG <20: 500 mg de carga y luego 250 mg/48 h.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Cationes divalentes (antiácidos, hierro, calcio, sucralfato)",
+          "efecto": "Quelación con pérdida de absorción",
+          "gravedad": "alta",
+          "manejo": "Separar 2 h antes o 2 h después"
+        },
+        {
+          "con": "Corticoides sistémicos",
+          "efecto": "Multiplican el riesgo de rotura tendinosa",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación en mayores de 60 años"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Riesgo aditivo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "ECG previo y corrección de electrolitos"
+        },
+        {
+          "con": "Antidiabéticos",
+          "efecto": "Hipoglucemias e hiperglucemias graves",
+          "gravedad": "media",
+          "manejo": "Reforzar autocontroles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea",
+        "Insomnio, cefalea, mareo",
+        "Fotosensibilidad"
+      ],
+      "graves": [
+        "Tendinopatía y rotura tendinosa",
+        "Neuropatía periférica potencialmente irreversible",
+        "Efectos neuropsiquiátricos (delirium, psicosis, convulsiones), especialmente en ancianos",
+        "Prolongación del QT",
+        "Aneurisma y disección aórticos",
+        "Hepatotoxicidad",
+        "Colitis por C. difficile",
+        "Negativización de cultivos de micobacterias enmascarando una tuberculosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de tendinopatía por quinolonas",
+      "Miastenia gravis",
+      "Embarazo y lactancia",
+      "Menores de 18 años salvo indicación específica",
+      "Infecciones leves o autolimitadas (restricción EMA)"
+    ],
+    "perlas": [
+      "Nunca dar levofloxacino en monoterapia a un paciente con tos y fiebre sin haber descartado tuberculosis: es activo frente a M. tuberculosis, negativiza cultivos, retrasa el diagnóstico y genera resistencia a un fármaco clave de segunda línea.",
+      "Su biodisponibilidad del 99% hace que la vía IV solo esté justificada si el paciente no tolera la oral o está en shock.",
+      "Es la única monoterapia oral que cubre a la vez neumococo y atípicas — pero por su perfil de seguridad no debe ser la primera elección rutinaria en NAC ambulatoria si el paciente puede recibir amoxicilina.",
+      "Frente a Pseudomonas necesita la dosis de 750 mg: la de 500 mg es insuficiente."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo y la lactancia salvo ausencia de alternativa.",
+    "micro_relacionado": [
+      "ATI-chlamydia-trachomatis",
+      "ATI-chlamydophila-pneumoniae",
+      "ATI-mycoplasma-pneumoniae",
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-legionella-pneumophila",
+      "BGN-moraxella-catarrhalis",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-streptococcus-pneumoniae",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de neumonía"
+  },
+  {
+    "id": "INF-cotrimoxazol",
+    "nombre": "Cotrimoxazol (trimetoprim-sulfametoxazol)",
+    "sinonimos": [
+      "TMP-SMX",
+      "Trimetoprim-sulfametoxazol"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Sulfonamida + inhibidor de la dihidrofolato reductasa",
+    "subclase": "Bloqueo secuencial de la síntesis de folato",
+    "mecanismo": "Bloqueo secuencial de dos pasos consecutivos de la vía del folato bacteriano: el sulfametoxazol inhibe la dihidropteroato sintetasa (análogo del PABA) y el trimetoprim inhibe la dihidrofolato reductasa bacteriana. La combinación es sinérgica y bactericida, mientras que cada fármaco por separado es bacteriostático. Las bacterias, a diferencia de las células humanas, no pueden captar folato exógeno.",
+    "espectro": "Muy amplio: SARM comunitario, Listeria, enterobacterias (E. coli, Klebsiella, Proteus), Stenotrophomonas maltophilia (donde es de elección y casi único), Nocardia, Pneumocystis jirovecii, Toxoplasma. NO cubre Pseudomonas, NO cubre anaerobios, NO cubre estreptococos del grupo A de forma fiable.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía por Pneumocystis jirovecii (tratamiento)",
+        "dosis": "15-20 mg/kg/día de trimetoprim, repartidos en 3-4 tomas",
+        "posologia": "Cada 6-8 h, 21 días",
+        "via": "VO o IV",
+        "nota": "Añadir prednisona si PaO2 <70 mmHg o gradiente A-a >35 mmHg — reduce la mortalidad"
+      },
+      {
+        "patologia": "Profilaxis de Pneumocystis en inmunodeprimidos (VIH con CD4 <200, corticoterapia prolongada, trasplante)",
+        "dosis": "160/800 mg",
+        "posologia": "3 días por semana o 80/400 mg diarios",
+        "via": "VO",
+        "nota": "Protege además frente a Toxoplasma y Nocardia"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas por SARM comunitario",
+        "dosis": "160/800 mg/12 h (1-2 comprimidos)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "5-10 días; el drenaje del absceso sigue siendo lo esencial"
+      },
+      {
+        "patologia": "Cistitis no complicada",
+        "dosis": "160/800 mg/12 h",
+        "posologia": "Cada 12 h, 3 días",
+        "via": "VO",
+        "nota": "Solo si la resistencia local de E. coli es <20%"
+      },
+      {
+        "patologia": "Infección por Stenotrophomonas maltophilia",
+        "dosis": "15 mg/kg/día de trimetoprim",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Es el tratamiento de elección: este patógeno es intrínsecamente resistente a carbapenemes"
+      },
+      {
+        "patologia": "Nocardiosis",
+        "dosis": "10-15 mg/kg/día de trimetoprim",
+        "posologia": "Cada 8-12 h",
+        "via": "VO o IV",
+        "nota": "Tratamiento prolongado, 6-12 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena. En la neumonía por Pneumocystis grave, iniciar los corticoides ANTES o a la vez que el cotrimoxazol, nunca después.",
+      "titulacion": "No aplica.",
+      "duracion": "3 días en cistitis; 5-10 días en piel y partes blandas; 21 días en Pneumocystis; 6-12 meses en nocardiosis; indefinida mientras persista la inmunodepresión en profilaxis.",
+      "fin": "En profilaxis, se suspende cuando los CD4 superan 200 durante más de 3 meses con tratamiento antirretroviral, o cuando cesa la inmunosupresión.",
+      "via": "VO o IV.",
+      "monitorizacion": "Potasio y creatinina a los 3-7 días en tratamientos a dosis altas (hiperpotasemia y aumento de creatinina son esperables). Hemograma en tratamientos prolongados. INR si el paciente toma anticoagulante oral."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral casi completa.",
+      "distribucion": "Excelente, incluidos LCR, próstata, pulmón y hueso.",
+      "metabolismo": "Hepático (acetilación del sulfametoxazol). Inhibe el CYP2C9.",
+      "eliminacion": "Renal.",
+      "vida_media": "Trimetoprim 8-10 h; sulfametoxazol 10-12 h.",
+      "ajuste_renal": "FG 15-30: reducir la dosis a la mitad. FG <15: evitar, salvo en Pneumocystis con monitorización estrecha.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, espironolactona y otros ahorradores de potasio",
+          "efecto": "Hiperpotasemia grave: el trimetoprim bloquea el canal epitelial de sodio del túbulo colector igual que la amilorida",
+          "gravedad": "alta",
+          "manejo": "Controlar el potasio a los 3-5 días; en el anciano con IECA es una causa reconocida de muerte súbita"
+        },
+        {
+          "con": "Warfarina / acenocumarol",
+          "efecto": "Aumento marcado del INR con riesgo hemorrágico (inhibición del CYP2C9 y desplazamiento de la unión proteica)",
+          "gravedad": "alta",
+          "manejo": "Controlar el INR a las 72 h y reducir la dosis del anticoagulante de forma preventiva"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Suma de bloqueo del folato con pancitopenia grave",
+          "gravedad": "alta",
+          "manejo": "Asociación contraindicada"
+        },
+        {
+          "con": "Sulfonilureas",
+          "efecto": "Potencia el efecto hipoglucemiante",
+          "gravedad": "media",
+          "manejo": "Vigilar glucemias"
+        },
+        {
+          "con": "Fenitoína",
+          "efecto": "Aumenta sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos",
+        "Exantema (hasta el 3-5% de la población general y el 40-60% de los pacientes con VIH)",
+        "Elevación de la creatinina sin daño renal real: el trimetoprim inhibe su secreción tubular",
+        "Hiperpotasemia"
+      ],
+      "graves": [
+        "Síndrome de Stevens-Johnson y necrólisis epidérmica tóxica (es uno de los fármacos más implicados)",
+        "Hiperpotasemia grave con arritmias",
+        "Mielosupresión: anemia megaloblástica, neutropenia, trombocitopenia",
+        "Nefritis intersticial y cristaluria",
+        "Hepatitis fulminante",
+        "Anemia hemolítica en el déficit de G6PD",
+        "Kernícterus en el neonato"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a sulfamidas",
+      "Embarazo en el primer trimestre (antifolato: defectos del tubo neural) y a término (kernícterus)",
+      "Lactantes menores de 2 meses",
+      "Déficit de G6PD",
+      "Anemia megaloblástica por déficit de folato",
+      "Insuficiencia renal grave"
+    ],
+    "perlas": [
+      "El aumento de creatinina que produce es a menudo un artefacto: el trimetoprim bloquea la secreción tubular de creatinina sin reducir el filtrado glomerular real. La urea no sube en paralelo. Antes de suspenderlo por «fracaso renal», comprobar si hay verdadera oliguria o elevación de la urea.",
+      "El trimetoprim se comporta como la amilorida sobre el túbulo colector: en un anciano que toma IECA o espironolactona, la hiperpotasemia puede ser mortal. Es una de las interacciones más letales de la medicina ambulatoria.",
+      "Es el tratamiento de elección de Stenotrophomonas maltophilia, un patógeno que aparece precisamente en pacientes tratados con carbapenemes, frente a los que es intrínsecamente resistente.",
+      "En la neumonía por Pneumocystis moderada-grave, los corticoides deben iniciarse antes o al mismo tiempo que el cotrimoxazol: administrarlos después no evita el deterioro respiratorio del inicio del tratamiento.",
+      "Cubre SARM comunitario pero NO es fiable frente a Streptococcus pyogenes: en una celulitis sin absceso, donde el estreptococo es el patógeno principal, puede fracasar."
+    ],
+    "embarazo_lactancia": "Evitar en el primer trimestre (antagonismo del folato) y en el tercero (kernícterus). Si es imprescindible, suplementar con ácido fólico. Evitar en la lactancia del prematuro o del neonato con ictericia.",
+    "micro_relacionado": [
+      "ATI-coxiella-burnetii",
+      "BGN-bordetella-pertussis",
+      "BGN-brucella",
+      "BGN-escherichia-coli",
+      "BGP-listeria-monocytogenes",
+      "BGP-nocardia",
+      "BGP-staphylococcus-aureus",
+      "HON-pneumocystis-jirovecii",
+      "PAR-toxoplasma-gondii"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., caps. de infecciones en el paciente con VIH"
+  },
+  {
+    "id": "INF-clindamicina",
+    "nombre": "Clindamicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Lincosamida",
+    "subclase": "Inhibidor de la síntesis proteica con efecto antitoxina",
+    "mecanismo": "Se une a la subunidad 50S ribosómica (mismo sitio que los macrólidos) e inhibe la síntesis proteica. Bacteriostático. Su rasgo clínico diferencial es que, al bloquear la síntesis de proteínas, suprime la producción de exotoxinas por estreptococo y estafilococo incluso cuando la carga bacteriana es alta y los betalactámicos pierden eficacia (efecto inóculo).",
+    "espectro": "Anaerobios (especialmente los de la boca y por encima del diafragma), estreptococos, SASM y buena parte del SARM comunitario, Toxoplasma, Plasmodium, Babesia. Actividad limitada frente a Bacteroides fragilis por resistencias crecientes. NO cubre gramnegativos aerobios ni enterococos.",
+    "indicaciones": [
+      {
+        "patologia": "Fascitis necrosante y síndrome de shock tóxico estreptocócico",
+        "dosis": "600-900 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "SIEMPRE asociada a penicilina: aporta el bloqueo de la producción de toxina, que la penicilina no consigue"
+      },
+      {
+        "patologia": "Infección odontógena y absceso pulmonar por aspiración",
+        "dosis": "600 mg/8 h (IV) o 300 mg/8 h (VO)",
+        "posologia": "Cada 8 h",
+        "via": "IV o VO",
+        "nota": "Cubre la flora anaerobia oral; alternativa en alérgicos a betalactámicos"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas por SARM comunitario",
+        "dosis": "300-450 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Comprobar antes la ausencia de resistencia inducible con el test D"
+      },
+      {
+        "patologia": "Toxoplasmosis cerebral en alérgicos a sulfamidas",
+        "dosis": "600 mg/6 h",
+        "posologia": "Cada 6 h",
+        "via": "VO o IV",
+        "nota": "Asociada a pirimetamina y ácido folínico"
+      },
+      {
+        "patologia": "Profilaxis de endocarditis en alérgicos a penicilina (procedimientos dentales)",
+        "dosis": "600 mg",
+        "posologia": "Dosis única 30-60 min antes",
+        "via": "VO",
+        "nota": "Alternativa cuando no puede usarse amoxicilina"
+      },
+      {
+        "patologia": "Vaginosis bacteriana",
+        "dosis": "Crema al 2%, 5 g",
+        "posologia": "Cada 24 h por la noche, 7 días",
+        "via": "vaginal",
+        "nota": "Alternativa tópica a metronidazol oral"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena. En la infección necrosante de partes blandas se inicia junto con el betalactámico y el desbridamiento quirúrgico urgente, que es el pilar del tratamiento.",
+      "titulacion": "No aplica.",
+      "duracion": "5-10 días en piel y partes blandas; en fascitis necrosante, hasta 48-72 h después de la última intervención quirúrgica y con estabilidad clínica; 3-4 semanas en absceso pulmonar.",
+      "fin": "Suspensión brusca. Ante diarrea durante o después del tratamiento, sospechar C. difficile y suspender.",
+      "via": "VO, IV o tópica/vaginal.",
+      "monitorizacion": "Vigilancia activa de diarrea (C. difficile). Hemograma y transaminasas en tratamientos prolongados."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral alta (~90%), no afectada por los alimentos.",
+      "distribucion": "Excelente en hueso, absceso y tejidos blandos; se concentra en los neutrófilos. NO penetra en LCR — nunca usarla en infección del SNC (salvo el caso concreto de la toxoplasmosis, donde actúa por otro mecanismo).",
+      "metabolismo": "Hepático por CYP3A4.",
+      "eliminacion": "Biliar y hepática.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir la dosis en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Bloqueantes neuromusculares",
+          "efecto": "Potencia el bloqueo neuromuscular y puede prolongar la parálisis y la ventilación mecánica",
+          "gravedad": "alta",
+          "manejo": "Comunicarlo a anestesia; vigilar la reversión del bloqueo"
+        },
+        {
+          "con": "Macrólidos",
+          "efecto": "Antagonismo por competir por el mismo sitio de unión ribosómica",
+          "gravedad": "media",
+          "manejo": "No asociar"
+        },
+        {
+          "con": "Inductores potentes del CYP3A4 (rifampicina)",
+          "efecto": "Reducen sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Valorar alternativa"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea (hasta el 20%)",
+        "Náuseas",
+        "Sabor metálico",
+        "Exantema"
+      ],
+      "graves": [
+        "Colitis pseudomembranosa por C. difficile — es el antibiótico clásicamente más asociado a este cuadro",
+        "Reacciones cutáneas graves (DRESS, Stevens-Johnson)",
+        "Hepatotoxicidad",
+        "Bloqueo neuromuscular",
+        "Esofagitis"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a lincosamidas",
+      "Antecedente de colitis por C. difficile",
+      "Infección del SNC (no penetra en LCR)"
+    ],
+    "perlas": [
+      "En la fascitis necrosante y el shock tóxico estreptocócico su papel no es matar la bacteria, sino apagar la fábrica de toxinas: por eso se asocia a la penicilina y no la sustituye. Es un ejemplo puro de antibiótico usado por su efecto antitoxina.",
+      "Antes de usarla frente a un estafilococo resistente a eritromicina hay que comprobar el test D: un resultado positivo indica resistencia inducible a clindamicina y predice el fracaso terapéutico durante el tratamiento.",
+      "Es el antibiótico paradigmático de la colitis por C. difficile — aunque hoy cefalosporinas y quinolonas causen más casos en términos absolutos, su riesgo relativo sigue siendo de los más altos.",
+      "No penetra en el LCR: la excepción aparente de la toxoplasmosis cerebral no es una excepción farmacocinética, sino que actúa sobre el parásito en el tejido y no requiere concentraciones altas en LCR."
+    ],
+    "embarazo_lactancia": "Aceptable en el embarazo. Compatible con la lactancia, vigilando la aparición de diarrea en el lactante.",
+    "micro_relacionado": [
+      "ANA-actinomyces-israelii",
+      "ANA-bacteroides-fragilis",
+      "ANA-clostridium-perfringens",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pyogenes",
+      "HON-pneumocystis-jirovecii",
+      "PAR-toxoplasma-gondii"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., cap. de infecciones necrosantes de partes blandas"
+  },
+  {
+    "id": "INF-metronidazol",
+    "nombre": "Metronidazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Nitroimidazol",
+    "subclase": "Antianaerobio y antiprotozoario",
+    "mecanismo": "Profármaco que solo se activa en condiciones de bajo potencial redox: dentro de bacterias anaerobias y protozoos, la ferredoxina reduce su grupo nitro y genera radicales nitro tóxicos que fragmentan el ADN. Esta activación selectiva explica que sea inocuo para las células humanas aerobias y que carezca por completo de actividad frente a aerobios.",
+    "espectro": "Anaerobios estrictos (Bacteroides fragilis, Clostridium, Fusobacterium, Prevotella) y protozoos (Trichomonas vaginalis, Giardia lamblia, Entamoeba histolytica). Activo también frente a Clostridioides difficile y Helicobacter pylori. NO tiene NINGUNA actividad frente a bacterias aerobias ni anaerobias facultativas.",
+    "indicaciones": [
+      {
+        "patologia": "Infección intraabdominal (asociado a cobertura de gramnegativos)",
+        "dosis": "500 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV o VO",
+        "nota": "Se combina con ceftriaxona o con una quinolona; innecesario si ya se usa pip-tazo o carbapenem"
+      },
+      {
+        "patologia": "Vaginosis bacteriana",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h, 7 días",
+        "via": "VO",
+        "nota": "No es preciso tratar a la pareja"
+      },
+      {
+        "patologia": "Tricomoniasis",
+        "dosis": "2 g",
+        "posologia": "Dosis única (o 500 mg/12 h 7 días)",
+        "via": "VO",
+        "nota": "SÍ hay que tratar simultáneamente a la pareja sexual"
+      },
+      {
+        "patologia": "Giardiasis",
+        "dosis": "250 mg/8 h",
+        "posologia": "Cada 8 h, 5-7 días",
+        "via": "VO",
+        "nota": "Alternativa: tinidazol en dosis única"
+      },
+      {
+        "patologia": "Amebiasis invasiva / absceso hepático amebiano",
+        "dosis": "750 mg/8 h",
+        "posologia": "Cada 8 h, 7-10 días",
+        "via": "VO o IV",
+        "nota": "Seguir SIEMPRE con paromomicina para erradicar los quistes intraluminales, que el metronidazol no elimina"
+      },
+      {
+        "patologia": "Colitis por Clostridioides difficile no grave (alternativa)",
+        "dosis": "500 mg/8 h",
+        "posologia": "Cada 8 h, 10 días",
+        "via": "VO",
+        "nota": "Hoy es de segunda línea: vancomicina oral y fidaxomicina son superiores"
+      },
+      {
+        "patologia": "Erradicación de Helicobacter pylori",
+        "dosis": "500 mg/12 h",
+        "posologia": "Cada 12 h, 14 días",
+        "via": "VO",
+        "nota": "Dentro de la terapia cuádruple"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio. Advertir de la abstinencia alcohólica antes de la primera toma.",
+      "titulacion": "No aplica.",
+      "duracion": "7 días en vaginosis; dosis única en tricomoniasis; 7-10 días en amebiasis; 4-7 días en infección intraabdominal con foco controlado. Evitar cursos superiores a 10-14 días por la neuropatía.",
+      "fin": "Suspensión brusca. Mantener la abstinencia de alcohol hasta 72 h después de la última dosis.",
+      "via": "VO, IV, tópica o vaginal.",
+      "monitorizacion": "Exploración neurológica si el tratamiento se prolonga más de 2 semanas (parestesias distales). Hemograma en tratamientos largos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral casi del 100%: la vía IV solo se justifica si el paciente no tolera la oral.",
+      "distribucion": "Excelente en todos los tejidos, incluidos LCR, absceso cerebral, hueso y bilis. Es uno de los pocos antibióticos con penetración fiable en el absceso cerebral.",
+      "metabolismo": "Hepático; inhibe el CYP2C9 y la aldehído-deshidrogenasa.",
+      "eliminacion": "Renal (metabolitos, que tiñen la orina de color oscuro).",
+      "vida_media": "8 h.",
+      "ajuste_renal": "No precisa ajuste salvo en diálisis.",
+      "ajuste_hepatico": "Reducir la dosis un 50% en hepatopatía grave (Child-Pugh C).",
+      "interacciones": [
+        {
+          "con": "Alcohol",
+          "efecto": "Reacción tipo disulfiram: rubefacción, cefalea intensa, náuseas, vómitos, taquicardia e hipotensión",
+          "gravedad": "alta",
+          "manejo": "Abstinencia absoluta durante el tratamiento y hasta 72 h después. Advertirlo explícitamente, incluida la presencia de alcohol en jarabes y colutorios"
+        },
+        {
+          "con": "Warfarina / acenocumarol",
+          "efecto": "Aumento marcado del INR con riesgo hemorrágico",
+          "gravedad": "alta",
+          "manejo": "Controlar INR y reducir preventivamente la dosis del anticoagulante"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumenta la litemia con riesgo de intoxicación",
+          "gravedad": "alta",
+          "manejo": "Monitorizar litemia"
+        },
+        {
+          "con": "Fenobarbital, fenitoína",
+          "efecto": "Inducen su metabolismo y reducen su eficacia",
+          "gravedad": "media",
+          "manejo": "Valorar aumentar la dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor metálico persistente",
+        "Náuseas y anorexia",
+        "Orina de color oscuro (inofensivo, pero hay que avisar)",
+        "Lengua saburral, glositis",
+        "Candidiasis vaginal"
+      ],
+      "graves": [
+        "Neuropatía periférica sensitiva, dosis y tiempo dependiente, puede ser irreversible",
+        "Encefalopatía y disfunción cerebelosa (ataxia, disartria) con lesiones características del núcleo dentado en la RM, reversibles al suspender",
+        "Crisis convulsivas",
+        "Reacción tipo disulfiram con alcohol",
+        "Neutropenia reversible"
+      ]
+    },
+    "contraindicaciones": [
+      "Primer trimestre del embarazo (uso restringido a indicaciones claras)",
+      "Consumo de alcohol",
+      "Alergia a nitroimidazoles",
+      "Precaución en enfermedad neurológica preexistente"
+    ],
+    "perlas": [
+      "Advertir del alcohol no es una formalidad: la reacción disulfiram es intensa y ocurre también con jarabes, colutorios y alimentos que contengan alcohol. Debe mantenerse hasta 72 h después de terminar.",
+      "En el absceso hepático amebiano, el metronidazol cura la enfermedad invasiva pero NO erradica los quistes del colon: sin un amebicida luminal posterior (paromomicina) el paciente recae y sigue transmitiendo.",
+      "Es uno de los poquísimos antibióticos con penetración fiable en el absceso cerebral, gracias a su lipofilia.",
+      "La toxicidad neurológica es acumulativa: evitar cursos prolongados y, en tratamientos largos, explorar activamente las parestesias distales.",
+      "No tiene ninguna actividad frente a aerobios: usarlo en monoterapia para una infección intraabdominal deja los gramnegativos sin cubrir."
+    ],
+    "embarazo_lactancia": "Evitar en el primer trimestre salvo indicación clara (tricomoniasis sintomática, vaginosis con riesgo de parto pretérmino). En la lactancia, si se da la dosis única de 2 g, suspender la lactancia 12-24 h.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "ANA-clostridioides-difficile",
+      "ANA-clostridium-perfringens",
+      "ANA-clostridium-tetani",
+      "BGN-helicobacter-pylori",
+      "PAR-entamoeba-histolytica",
+      "PAR-giardia-lamblia",
+      "PAR-trichomonas-vaginalis"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 50 y 52; Harrison 20.ª ed., caps. de infecciones por anaerobios y amebiasis"
+  },
+  {
+    "id": "INF-vancomicina",
+    "nombre": "Vancomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antibiótico frente a grampositivos resistentes (anti-SARM)",
+    "subclase": "Glucopéptido",
+    "vs_clase": [
+      "**El anti-SARM clásico**, IV de elección empírica; **VO solo para C. difficile** (no se absorbe).",
+      "**Bactericida LENTO**: inferior a los betalactámicos frente a S. aureus sensible a meticilina.",
+      "**Nefrotoxicidad** (sobre todo con piperacilina-tazobactam) y **síndrome del hombre rojo** por infusión rápida; requiere **monitorizar niveles (AUC)**.",
+      "**Sí sirve en neumonía y meningitis** (a diferencia de la daptomicina)."
+    ],
+    "mecanismo": "Se une con alta afinidad al extremo D-alanil-D-alanina del precursor del peptidoglucano, impidiendo físicamente la transglucosilación y la transpeptidación. Al actuar sobre el sustrato y no sobre la enzima, no le afectan las betalactamasas. La resistencia (VRE) surge por sustitución del terminal por D-alanil-D-lactato, que reduce la afinidad mil veces. Bactericida lento, tiempo-dependiente (eficacia guiada por el AUC/CMI).",
+    "espectro": "Solo grampositivos: SARM, estafilococos coagulasa negativos, Enterococcus (salvo VRE), Streptococcus, Clostridioides difficile (solo por vía oral y actuando en la luz intestinal), Corynebacterium. NO cubre ningún gramnegativo (la molécula es demasiado grande para atravesar sus porinas).",
+    "indicaciones": [
+      {
+        "patologia": "Bacteriemia y endocarditis por SARM",
+        "dosis": "15-20 mg/kg/8-12 h (dosis de carga 25-30 mg/kg en infección grave)",
+        "posologia": "Cada 8-12 h",
+        "via": "IV",
+        "nota": "Objetivo AUC24/CMI 400-600. Si el estafilococo resulta sensible a meticilina, cambiar a cloxacilina o cefazolina"
+      },
+      {
+        "patologia": "Colitis por Clostridioides difficile",
+        "dosis": "125 mg/6 h",
+        "posologia": "Cada 6 h, 10 días",
+        "via": "VO",
+        "nota": "La vía oral es la correcta: NO se absorbe y actúa en la luz del colon. La vancomicina IV no trata el C. difficile"
+      },
+      {
+        "patologia": "Meningitis bacteriana (empírico, junto a cefalosporina de 3.ª generación)",
+        "dosis": "15-20 mg/kg/8-12 h",
+        "posologia": "Cada 8-12 h",
+        "via": "IV",
+        "nota": "Cubre neumococo con sensibilidad disminuida a cefalosporinas"
+      },
+      {
+        "patologia": "Infección de catéter o de prótesis por estafilococo coagulasa negativo",
+        "dosis": "15-20 mg/kg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "La retirada del dispositivo suele ser imprescindible"
+      },
+      {
+        "patologia": "Neutropenia febril con sospecha de infección de catéter o mucositis grave",
+        "dosis": "15-20 mg/kg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "Añadida a la cobertura antipseudomónica; retirar si los cultivos no muestran grampositivo a las 48-72 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga de 25-30 mg/kg (peso real) en la infección grave, para alcanzar rápidamente concentraciones eficaces; después dosis de mantenimiento ajustada a la función renal. Infundir siempre en ≥60 min (o 1 g/h).",
+      "titulacion": "Se titula por niveles: valle objetivo 15-20 mg/L o, preferiblemente, AUC24 400-600 mg·h/L. Primer nivel antes de la 4.ª-5.ª dosis (en el estado estacionario).",
+      "duracion": "Bacteriemia por SARM no complicada: 14 días desde el primer hemocultivo negativo. Endocarditis: 6 semanas. C. difficile: 10 días.",
+      "fin": "Desescalar a cloxacilina o cefazolina en cuanto se documente sensibilidad a meticilina. Suspender si a las 48-72 h no se aísla ningún grampositivo resistente que la justifique.",
+      "via": "IV para infección sistémica; VO exclusivamente para C. difficile (no se absorbe).",
+      "monitorizacion": "Niveles valle o AUC, creatinina cada 2-3 días (a diario si hay otros nefrotóxicos), hemograma semanal, y audición en tratamientos prolongados."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por vía oral — esa característica es exactamente lo que permite usarla oral para el C. difficile.",
+      "distribucion": "Escasa penetración en LCR (mejora con meninges inflamadas), hueso y pulmón — es una de las razones de sus fracasos en neumonía por SARM.",
+      "metabolismo": "Nulo.",
+      "eliminacion": "Renal casi exclusiva, por filtración glomerular.",
+      "vida_media": "6-8 h con función renal normal; hasta 7 días en la anuria.",
+      "ajuste_renal": "Imprescindible y guiado por niveles. FG 30-50: cada 24 h. FG 10-30: cada 48 h. FG <10 o diálisis: dosificar por niveles, no por pauta fija.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Piperacilina-tazobactam",
+          "efecto": "Aumento sinérgico del riesgo de fracaso renal agudo",
+          "gravedad": "alta",
+          "manejo": "Preferir cefepima o meropenem como acompañante; si no es posible, creatinina diaria"
+        },
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Nefrotoxicidad y ototoxicidad aditivas",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación prolongada; monitorizar niveles de ambos"
+        },
+        {
+          "con": "Furosemida y contrastes yodados",
+          "efecto": "Suma de nefrotoxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilar la función renal"
+        },
+        {
+          "con": "Anestésicos durante la inducción",
+          "efecto": "Puede exacerbar la hipotensión y el eritema de la reacción de infusión",
+          "gravedad": "media",
+          "manejo": "Completar la infusión antes de la inducción anestésica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Síndrome del hombre rojo: eritema en cara, cuello y tronco con prurito e hipotensión, por liberación directa de histamina — depende de la VELOCIDAD de infusión, no es alergia",
+        "Flebitis",
+        "Sabor desagradable con la formulación oral"
+      ],
+      "graves": [
+        "Nefrotoxicidad, dosis-dependiente y potenciada por otros nefrotóxicos",
+        "Ototoxicidad (hipoacusia neurosensorial), sobre todo con niveles altos mantenidos",
+        "Neutropenia con tratamientos >2 semanas",
+        "Trombocitopenia inmune",
+        "DRESS y reacciones cutáneas graves",
+        "Anafilaxia verdadera (rara, distinta del hombre rojo)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia verdadera a glucopéptidos",
+      "Uso IV para tratar colitis por C. difficile (es ineficaz por esa vía)"
+    ],
+    "perlas": [
+      "El síndrome del hombre rojo NO es una alergia: se resuelve enlenteciendo la infusión y premedicando con antihistamínico, y no obliga a etiquetar al paciente como alérgico ni a cambiar de fármaco.",
+      "La vía importa más que en casi ningún otro antibiótico: oral para el colon (C. difficile), IV para la sangre. Cada una es inútil en la indicación de la otra.",
+      "En bacteriemia por S. aureus sensible a meticilina, mantener vancomicina en lugar de pasar a cloxacilina o cefazolina se asocia a mayor mortalidad.",
+      "Su mala penetración pulmonar explica los fracasos en la neumonía por SARM, donde linezolid suele ser preferible.",
+      "El objetivo actual de monitorización es el AUC24/CMI 400-600, no el valle aislado: guiar solo por valles de 15-20 mg/L sobreexpone al riñón sin ganar eficacia."
+    ],
+    "embarazo_lactancia": "Aceptable si está indicada; se ha usado ampliamente en el embarazo sin señal teratógena. Compatible con la lactancia (no se absorbe por vía oral en el lactante).",
+    "micro_relacionado": [
+      "ANA-clostridioides-difficile",
+      "BGP-enterococcus",
+      "BGP-staphylococcus-aureus",
+      "BGP-staphylococcus-epidermidis",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estafilocócicas"
+  },
+  {
+    "id": "INF-linezolid",
+    "nombre": "Linezolid",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antibiótico frente a grampositivos resistentes (anti-SARM)",
+    "subclase": "Oxazolidinona: inhibidor de la iniciación de la síntesis proteica",
+    "vs_clase": [
+      "**Biodisponibilidad oral del 100%**: el anti-SARM que se puede dar por VO.",
+      "**Buena penetración pulmonar**: alternativa en la neumonía por SARM.",
+      "**IMAO débil** (síndrome serotoninérgico con ISRS) y **mielosupresión (trombocitopenia) y neuropatía óptica** con tratamientos >2 semanas.",
+      "Bacteriostático: no es de elección en la bacteriemia."
+    ],
+    "mecanismo": "Se une al ARNr 23S de la subunidad 50S e impide la formación del complejo de iniciación 70S. Al actuar en un paso previo al de macrólidos, lincosamidas y cloranfenicol, no presenta resistencia cruzada con ellos. Bacteriostático frente a estafilococos y enterococos, bactericida frente a estreptococos. Inhibe además la producción de toxinas.",
+    "espectro": "Exclusivamente grampositivos, incluidos los más resistentes: SARM, enterococo resistente a vancomicina (VRE), neumococo multirresistente, Nocardia y micobacterias (uso en tuberculosis resistente). NO cubre gramnegativos.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía nosocomial por SARM",
+        "dosis": "600 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "Preferible a vancomicina por su excelente penetración en el líquido de revestimiento alveolar"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas complicada por SARM",
+        "dosis": "600 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "Permite el alta precoz con tratamiento oral"
+      },
+      {
+        "patologia": "Infección por Enterococcus faecium resistente a vancomicina (VRE)",
+        "dosis": "600 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "Una de las pocas opciones disponibles junto a daptomicina"
+      },
+      {
+        "patologia": "Tuberculosis multirresistente / extremadamente resistente",
+        "dosis": "600 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dentro del régimen combinado; la toxicidad hematológica y neurológica limita su duración"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena; no requiere dosis de carga ni ajuste inicial por peso.",
+      "titulacion": "No aplica: es de los pocos antibióticos de espectro anti-SARM que no requiere monitorizar niveles ni ajustar por función renal.",
+      "duracion": "7-14 días en la mayoría de indicaciones. Evitar superar 28 días por la toxicidad hematológica y neurológica acumulativas; en tuberculosis resistente se usa más tiempo con vigilancia estrecha.",
+      "fin": "Suspensión brusca. Ante trombocitopenia progresiva o parestesias, suspender.",
+      "via": "VO (biodisponibilidad del 100%) o IV.",
+      "monitorizacion": "Hemograma SEMANAL (trombocitopenia). Exploración neurológica y agudeza visual si supera las 4 semanas. Revisar la medicación serotoninérgica antes de iniciar."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 100%, sin efecto de los alimentos — el paso IV→VO es directo, sin cambio de dosis.",
+      "distribucion": "Excelente en pulmón, hueso, piel y LCR.",
+      "metabolismo": "Oxidación no enzimática, independiente del citocromo P450.",
+      "eliminacion": "Renal y no renal.",
+      "vida_media": "5-7 h.",
+      "ajuste_renal": "NO precisa ajuste, ni siquiera en diálisis (aunque sus metabolitos se acumulan).",
+      "ajuste_hepatico": "No precisa ajuste en insuficiencia leve-moderada.",
+      "interacciones": [
+        {
+          "con": "ISRS, IRSN, tramadol, triptanes, mirtazapina",
+          "efecto": "Síndrome serotoninérgico: linezolid es un inhibidor reversible no selectivo de la monoaminooxidasa",
+          "gravedad": "alta",
+          "manejo": "Suspender el serotoninérgico o elegir otro antibiótico. Si la asociación es inevitable, vigilar agitación, hipertermia, clonus e hiperreflexia"
+        },
+        {
+          "con": "Simpaticomiméticos (pseudoefedrina), tiramina en alimentos (quesos curados, embutidos, vino tinto)",
+          "efecto": "Crisis hipertensiva por inhibición de la MAO",
+          "gravedad": "alta",
+          "manejo": "Dieta baja en tiramina y evitar descongestionantes"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce las concentraciones de linezolid",
+          "gravedad": "media",
+          "manejo": "Vigilar respuesta clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea",
+        "Cefalea",
+        "Alteración del gusto",
+        "Candidiasis"
+      ],
+      "graves": [
+        "Mielosupresión, sobre todo trombocitopenia, tiempo-dependiente y prácticamente esperable a partir de las 2 semanas",
+        "Neuropatía periférica y neuritis óptica (esta puede ser irreversible) con uso prolongado",
+        "Síndrome serotoninérgico",
+        "Acidosis láctica por toxicidad mitocondrial",
+        "Crisis hipertensiva con tiramina o simpaticomiméticos"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento concomitante con IMAO",
+      "Precaución/contraindicación relativa con ISRS y otros serotoninérgicos",
+      "Feocromocitoma, tirotoxicosis o hipertensión no controlada"
+    ],
+    "perlas": [
+      "Es un IMAO encubierto: el paciente psiquiátrico en tratamiento con ISRS que recibe linezolid puede desarrollar un síndrome serotoninérgico. Revisar la medicación psicotrópica antes de prescribirlo es obligatorio.",
+      "Su biodisponibilidad del 100% permite tratar en casa una infección por SARM que de otro modo requeriría ingreso para vancomicina IV — es su mayor ventaja práctica.",
+      "No necesita ajuste renal ni monitorización de niveles: es la alternativa lógica a vancomicina en el paciente nefrópata.",
+      "La trombocitopenia es tan predecible que el hemograma semanal debe pautarse desde el primer día, no cuando aparecen los síntomas.",
+      "Penetra mucho mejor que la vancomicina en el pulmón: en la neumonía por SARM es la opción preferente."
+    ],
+    "embarazo_lactancia": "Datos limitados; usar solo si el beneficio supera el riesgo. Precaución en la lactancia.",
+    "micro_relacionado": [
+      "BGP-enterococcus",
+      "BGP-nocardia",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pneumoniae",
+      "MYC-micobacterias-crecimiento-rapido",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44; Harrison 20.ª ed., cap. de infecciones por grampositivos resistentes"
+  },
+  {
+    "id": "INF-gentamicina",
+    "nombre": "Gentamicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Aminoglucósido",
+    "subclase": "Bactericida concentración-dependiente",
+    "vs_clase": [
+      "**El aminoglucósido de uso general más barato**: **sinergia con betalactámicos en la endocarditis por grampositivos** (enterococo, estreptococos).",
+      "**Más VESTIBULOTÓXICO** que la amikacina (que es más cocleotóxica).",
+      "Más susceptible a las enzimas inactivantes que la amikacina."
+    ],
+    "mecanismo": "Penetra en la bacteria por un transporte dependiente de oxígeno (por eso es inactivo frente a anaerobios y en medios ácidos/anaeróbicos como el absceso) y se une irreversiblemente a la subunidad 30S, provocando errores de lectura del ARNm y proteínas aberrantes que dañan la membrana. Bactericida rápido, concentración-dependiente, con efecto postantibiótico prolongado — lo que justifica la dosis única diaria.",
+    "espectro": "Gramnegativos aerobios: enterobacterias, Pseudomonas (con menos potencia que amikacina o tobramicina). Sinergia con betalactámicos frente a grampositivos (Enterococcus, Streptococcus, Staphylococcus) en la endocarditis. NO cubre anaerobios, NO actúa en el interior de abscesos ni en medio ácido, NO cubre neumococo en monoterapia.",
+    "indicaciones": [
+      {
+        "patologia": "Sepsis de origen urinario o abdominal (combinado, primeras 48-72 h)",
+        "dosis": "5-7 mg/kg/24 h",
+        "posologia": "Dosis única diaria",
+        "via": "IV",
+        "nota": "Aporta rapidez bactericida y cobertura frente a multirresistentes mientras llega el antibiograma; retirar a las 48-72 h"
+      },
+      {
+        "patologia": "Endocarditis enterocócica (sinergia)",
+        "dosis": "3 mg/kg/día",
+        "posologia": "Repartida cada 8-12 h (aquí NO en dosis única)",
+        "via": "IV",
+        "nota": "Combinada con ampicilina; hoy se prefiere ampicilina + ceftriaxona para evitar la nefrotoxicidad"
+      },
+      {
+        "patologia": "Pielonefritis complicada por gramnegativo multirresistente",
+        "dosis": "5-7 mg/kg/24 h",
+        "posologia": "Dosis única diaria",
+        "via": "IV",
+        "nota": "Se concentra especialmente en la corteza renal y en la orina"
+      },
+      {
+        "patologia": "Conjuntivitis bacteriana",
+        "dosis": "1 gota",
+        "posologia": "Cada 4-6 h",
+        "via": "oftálmica",
+        "nota": "Uso tópico sin toxicidad sistémica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única diaria alta (5-7 mg/kg) calculada sobre el peso ajustado en el obeso. La excepción es la sinergia en endocarditis, donde se usan dosis bajas fraccionadas.",
+      "titulacion": "Se ajusta por niveles: valle <1 mg/L (idealmente indetectable) en la pauta de dosis única; en la pauta de sinergia, pico 3-4 y valle <1 mg/L.",
+      "duracion": "REGLA CLAVE: limitar a 48-72 h siempre que sea posible. Más allá de 7 días el riesgo de nefrotoxicidad y ototoxicidad crece de forma acusada.",
+      "fin": "Retirada precoz en cuanto el antibiograma permita desescalar a un fármaco menos tóxico. No prolongar «por seguridad».",
+      "via": "IV, IM, oftálmica o tópica.",
+      "monitorizacion": "Creatinina cada 48 h, niveles valle antes de la 3.ª dosis, y preguntar activamente por acúfenos, hipoacusia o inestabilidad. Audiometría basal si se prevén más de 7 días."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por vía oral (molécula muy polar).",
+      "distribucion": "Volumen de distribución similar al del agua extracelular — hay que ajustar la dosis en el edematoso y en el obeso. NO penetra en LCR, próstata ni bilis. Se acumula en la corteza renal y en la endolinfa del oído interno: ahí residen sus dos toxicidades.",
+      "metabolismo": "Nulo.",
+      "eliminacion": "Renal, exclusivamente por filtración glomerular, inalterada.",
+      "vida_media": "2-3 h con función renal normal; se prolonga enormemente en la insuficiencia renal.",
+      "ajuste_renal": "Imprescindible: se alarga el intervalo, no se reduce la dosis (para preservar el pico bactericida). FG 40-60: cada 36 h. FG 20-40: cada 48 h. FG <20: dosificar solo por niveles.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Vancomicina, anfotericina B, contrastes yodados, AINE, cisplatino",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar la coincidencia; si es inevitable, creatinina diaria y la menor duración posible"
+        },
+        {
+          "con": "Furosemida",
+          "efecto": "Potencia la ototoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación cuando sea posible"
+        },
+        {
+          "con": "Bloqueantes neuromusculares",
+          "efecto": "Potencian el bloqueo y pueden causar parálisis respiratoria prolongada",
+          "gravedad": "alta",
+          "manejo": "Avisar a anestesia; especial precaución en miastenia gravis"
+        },
+        {
+          "con": "Betalactámicos en la misma jeringa o vía",
+          "efecto": "Inactivación química in vitro",
+          "gravedad": "media",
+          "manejo": "Administrar por separado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación asintomática de la creatinina",
+        "Reacciones locales"
+      ],
+      "graves": [
+        "Nefrotoxicidad: necrosis tubular aguda no oligúrica, típicamente a los 5-7 días, generalmente reversible",
+        "Ototoxicidad coclear (hipoacusia para frecuencias altas) y vestibular (vértigo, oscilopsia, inestabilidad) — habitualmente IRREVERSIBLE",
+        "Bloqueo neuromuscular con parálisis respiratoria",
+        "Toxicidad fetal: sordera congénita"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo (sordera congénita fetal documentada con aminoglucósidos)",
+      "Miastenia gravis",
+      "Hipoacusia o disfunción vestibular preexistentes",
+      "Mutación mitocondrial A1555G (predispone a sordera profunda incluso con una sola dosis)"
+    ],
+    "perlas": [
+      "La ototoxicidad es irreversible y la nefrotoxicidad no: por eso la pregunta clínica correcta no es «¿ha subido la creatinina?», sino «¿tiene acúfenos, se marea al caminar, oye peor?». Hay que preguntarlo activamente cada día.",
+      "La dosis única diaria alta es MENOS tóxica y MÁS eficaz que la pauta fraccionada clásica: aprovecha el efecto concentración-dependiente y el efecto postantibiótico, y deja un periodo de valle bajo que permite al riñón recuperarse.",
+      "No funciona en el absceso ni en medio ácido: su entrada en la bacteria requiere oxígeno. Un absceso hay que drenarlo, no tratarlo con aminoglucósidos.",
+      "Existe una mutación mitocondrial (A1555G) que produce sordera profunda tras una sola dosis: por eso hay que preguntar por antecedentes familiares de sordera tras antibióticos.",
+      "En la endocarditis enterocócica la dosis es baja y fraccionada, exactamente al contrario que en la sepsis por gramnegativos: el objetivo ahí es la sinergia, no el pico bactericida."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo salvo situación vital. Aceptable en la lactancia (no se absorbe por vía oral).",
+    "micro_relacionado": [
+      "ATI-bartonella-henselae",
+      "BGN-acinetobacter-baumannii",
+      "BGN-brucella",
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-enterococcus",
+      "BGP-listeria-monocytogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 45; Harrison 20.ª ed., cap. de endocarditis infecciosa"
+  },
+  {
+    "id": "INF-fosfomicina",
+    "nombre": "Fosfomicina",
+    "sinonimos": [
+      "Fosfomicina trometamol"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Derivado del ácido fosfónico",
+    "subclase": "Inhibidor del primer paso de la síntesis de la pared",
+    "mecanismo": "Inhibe la enolpiruvil transferasa (MurA), la primera enzima de la síntesis del peptidoglucano, bloqueando la formación del ácido N-acetilmurámico. Al actuar en un paso anterior al de betalactámicos y glucopéptidos, no presenta resistencia cruzada con ellos, lo que la hace útil frente a multirresistentes.",
+    "espectro": "E. coli (incluidas cepas BLEE), Enterococcus faecalis, otras enterobacterias urinarias, y actividad variable frente a Pseudomonas y Klebsiella. Su papel clínico principal es urinario, donde alcanza concentraciones muy altas.",
+    "indicaciones": [
+      {
+        "patologia": "Cistitis no complicada en la mujer",
+        "dosis": "3 g",
+        "posologia": "Dosis única (repetir a las 72 h en cistitis complicada)",
+        "via": "VO",
+        "nota": "Tomar en ayunas y con la vejiga vacía, preferiblemente antes de acostarse"
+      },
+      {
+        "patologia": "Cistitis por E. coli productor de BLEE",
+        "dosis": "3 g",
+        "posologia": "Dosis única o cada 72 h, 2-3 dosis",
+        "via": "VO",
+        "nota": "Permite tratar en domicilio una multirresistencia que de otro modo obligaría a un carbapenem IV"
+      },
+      {
+        "patologia": "Bacteriuria asintomática en el embarazo",
+        "dosis": "3 g",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Cómoda y segura; requiere urocultivo de control"
+      },
+      {
+        "patologia": "Profilaxis en biopsia prostática transrectal",
+        "dosis": "3 g",
+        "posologia": "Una dosis antes y otra 24 h después",
+        "via": "VO",
+        "nota": "Alternativa a las quinolonas ante la resistencia creciente"
+      }
+    ],
+    "esquema": {
+      "inicio": "Disolver el sobre en un vaso de agua y tomarlo con el estómago vacío, tras vaciar la vejiga y preferentemente antes de dormir, para maximizar el tiempo de contacto en la orina.",
+      "titulacion": "No aplica.",
+      "duracion": "Dosis única en la cistitis no complicada. Las concentraciones urinarias se mantienen bactericidas 48-72 h.",
+      "fin": "Termina con la propia dosis. Si a las 72 h persisten los síntomas, hay que hacer urocultivo y replantear el diagnóstico.",
+      "via": "VO (existe formulación IV de fosfomicina disódica para infecciones sistémicas, de uso hospitalario).",
+      "monitorizacion": "Clínica. En la formulación IV, vigilar sodio y potasio (aporta gran carga de sodio)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral 35-40%; se reduce con los alimentos.",
+      "distribucion": "Se concentra intensamente en orina; escasa concentración sérica y tisular con la formulación oral.",
+      "metabolismo": "Nulo.",
+      "eliminacion": "Renal, inalterada; concentraciones urinarias altas durante 48-72 h.",
+      "vida_media": "4-8 h (plasmática), pero el efecto urinario dura mucho más.",
+      "ajuste_renal": "No usar si FG <20: no alcanza concentraciones urinarias eficaces.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Metoclopramida y procinéticos",
+          "efecto": "Aceleran el tránsito y reducen la absorción y las concentraciones urinarias",
+          "gravedad": "media",
+          "manejo": "Separar las tomas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas",
+        "Cefalea",
+        "Vaginitis"
+      ],
+      "graves": [
+        "Colitis por C. difficile (rara)",
+        "Angioedema (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal con FG <20 (no alcanza concentración urinaria eficaz)",
+      "Alergia a fosfomicina",
+      "Pielonefritis o infección sistémica: la formulación oral NO alcanza concentraciones tisulares suficientes"
+    ],
+    "perlas": [
+      "Su gran valor actual es tratar por vía oral y en dosis única una cistitis por E. coli BLEE que, de otro modo, obligaría a ingresar al paciente para un carbapenem intravenoso.",
+      "Sirve para la vejiga, no para el riñón: usarla en una pielonefritis es un error, porque las concentraciones tisulares de la formulación oral son insuficientes.",
+      "Su diana (MurA) es única y anterior a la de todos los demás antibióticos de pared, por lo que no hay resistencia cruzada con betalactámicos.",
+      "La instrucción de tomarla en ayunas, con la vejiga vacía y antes de dormir no es un detalle menor: multiplica el tiempo de contacto del fármaco con la orina infectada."
+    ],
+    "embarazo_lactancia": "Segura en el embarazo; muy usada en la bacteriuria asintomática de la gestante. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGP-enterococcus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 50; Harrison 20.ª ed., cap. de infecciones urinarias"
+  },
+  {
+    "id": "INF-nitrofurantoina",
+    "nombre": "Nitrofurantoína",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Nitrofurano",
+    "subclase": "Antiséptico urinario",
+    "mecanismo": "Profármaco que las nitrorreductasas bacterianas convierten en intermediarios reactivos que dañan el ADN, los ribosomas y varias enzimas simultáneamente. Ese ataque multidiana explica que, tras décadas de uso, la resistencia de E. coli siga siendo excepcionalmente baja.",
+    "espectro": "E. coli (>95% de sensibilidad mantenida), Enterococcus faecalis, Staphylococcus saprophyticus, Klebsiella (variable). NO cubre Proteus (intrínsecamente resistente), NO cubre Pseudomonas, NO cubre Serratia.",
+    "indicaciones": [
+      {
+        "patologia": "Cistitis aguda no complicada en la mujer",
+        "dosis": "100 mg/12 h (formulación de liberación modificada)",
+        "posologia": "Cada 12 h, 5 días",
+        "via": "VO",
+        "nota": "Primera línea junto a fosfomicina; tomar con alimento para mejorar tolerancia y absorción"
+      },
+      {
+        "patologia": "Profilaxis de infecciones urinarias de repetición",
+        "dosis": "50-100 mg",
+        "posologia": "Una vez al día, por la noche",
+        "via": "VO",
+        "nota": "3-6 meses; reevaluar por el riesgo de toxicidad pulmonar y hepática crónica"
+      },
+      {
+        "patologia": "Bacteriuria asintomática en el embarazo (2.º trimestre)",
+        "dosis": "100 mg/12 h",
+        "posologia": "Cada 12 h, 5-7 días",
+        "via": "VO",
+        "nota": "Evitar a partir de la semana 37 y en el parto por riesgo de hemólisis neonatal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena con las comidas.",
+      "titulacion": "No aplica.",
+      "duracion": "5 días en cistitis aguda (nunca 3 días: es la única pauta corta que requiere 5). En profilaxis, 3-6 meses con reevaluación periódica.",
+      "fin": "Suspensión brusca. En profilaxis prolongada, revisar cada 3-6 meses la indicación y la aparición de disnea o tos.",
+      "via": "VO.",
+      "monitorizacion": "En uso prolongado: función respiratoria (disnea, tos seca), transaminasas y exploración neurológica cada 3-6 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; los alimentos la mejoran y reducen las náuseas.",
+      "distribucion": "Prácticamente NULA a nivel tisular y sérico: se concentra casi exclusivamente en la orina. Esa es su virtud (sin presión selectiva sistémica) y su límite (inútil fuera de la vejiga).",
+      "metabolismo": "Parcial, en todos los tejidos.",
+      "eliminacion": "Renal.",
+      "vida_media": "20-60 min en plasma.",
+      "ajuste_renal": "CONTRAINDICADA si FG <45 (algunas guías <30): no alcanza concentración urinaria eficaz y aumenta la toxicidad sistémica, sobre todo la neuropatía.",
+      "ajuste_hepatico": "Precaución; se han descrito hepatitis crónicas.",
+      "interacciones": [
+        {
+          "con": "Antiácidos con magnesio",
+          "efecto": "Reducen su absorción",
+          "gravedad": "media",
+          "manejo": "Separar las tomas"
+        },
+        {
+          "con": "Probenecid",
+          "efecto": "Reduce su excreción urinaria y con ello su eficacia, aumentando la toxicidad sistémica",
+          "gravedad": "media",
+          "manejo": "Evitar la asociación"
+        },
+        {
+          "con": "Quinolonas",
+          "efecto": "Antagonismo in vitro",
+          "gravedad": "baja",
+          "manejo": "No asociar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas (mejoran tomándola con comida)",
+        "Coloración marrón-amarillenta de la orina (inofensiva; avisar)",
+        "Cefalea"
+      ],
+      "graves": [
+        "Neumonitis aguda por hipersensibilidad: fiebre, disnea y eosinofilia en los primeros días, reversible al suspender",
+        "Fibrosis pulmonar crónica con el uso prolongado, potencialmente irreversible",
+        "Neuropatía periférica, especialmente en insuficiencia renal y en ancianos",
+        "Hepatitis crónica activa",
+        "Anemia hemolítica en el déficit de G6PD"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <45 mL/min",
+      "Déficit de G6PD",
+      "Embarazo a término (≥37 semanas) y durante el parto (hemólisis neonatal)",
+      "Lactantes menores de 1 mes",
+      "Pielonefritis o cualquier infección no confinada a la vejiga"
+    ],
+    "perlas": [
+      "Es un antibiótico exclusivamente vesical: su nula concentración tisular la hace inútil en pielonefritis o prostatitis, pero también extraordinariamente «limpia» desde el punto de vista ecológico, sin presión selectiva sobre la flora sistémica.",
+      "Tras más de 60 años de uso, E. coli sigue siendo sensible en más del 95% de los casos, algo excepcional que se atribuye a su mecanismo multidiana.",
+      "Sus dos toxicidades graves (pulmonar y neurológica) aparecen sobre todo en el uso profiláctico prolongado en ancianos con función renal deteriorada — justo el perfil de paciente en el que más se prescribe de forma crónica.",
+      "Proteus es intrínsecamente resistente: en un urocultivo con Proteus, la nitrofurantoína no es opción.",
+      "Es la única pauta corta de cistitis que necesita 5 días; tres días son insuficientes con este fármaco."
+    ],
+    "embarazo_lactancia": "Aceptable en el 1.º y 2.º trimestre. Contraindicada a partir de la semana 37 y en el parto por riesgo de anemia hemolítica neonatal. Evitar en la lactancia del menor de 1 mes o con déficit de G6PD.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGP-enterococcus",
+      "BGP-staphylococcus-epidermidis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de infecciones urinarias"
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "id": "PAT-migrana",
+    "nombre": "Migraña (crisis y profilaxis)",
+    "sinonimos": ["Cefalea migrañosa", "Jaqueca"],
+    "area": "NEU",
+    "resumen": "**Crisis: tratamiento precoz** (al inicio del dolor) y escalonado por intensidad: AINE en crisis leves-moderadas, triptán en moderadas-graves o si fallan los AINE. **Profilaxis si ≥4 días de migraña al mes**, crisis incapacitantes o abuso de analgésicos; elegir según comorbilidad.",
+    "objetivo": "Crisis: alivio a las 2 h. Profilaxis: reducir ≥50% los días de migraña en 2-3 meses.",
+    "escenarios": [
+      {
+        "titulo": "Crisis leve-moderada",
+        "farmacos": [
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "600 mg", "via": "VO", "intervalo": "Al inicio; repetir a las 6-8 h si es necesario", "duracion": "Por crisis", "alternativa": "o naproxeno 550 mg, AAS 1 g, dexketoprofeno 25 mg" },
+          { "nombre": "Metoclopramida", "ref": "DIG-metoclopramida", "dosis": "10 mg", "via": "VO", "intervalo": "Con el analgésico", "duracion": "Por crisis", "nota": "Náuseas y mejora la absorción del analgésico" }
+        ]
+      },
+      {
+        "titulo": "Crisis moderada-grave o fracaso de AINE",
+        "farmacos": [
+          { "nombre": "Sumatriptán", "ref": "NEU-sumatriptan", "dosis": "50-100 mg VO o 6 mg SC", "via": "VO / SC", "intervalo": "Repetir a las 2 h si recurre (máx. 300 mg VO o 12 mg SC/día)", "duracion": "Por crisis" },
+          { "nombre": "Rizatriptán", "ref": "NEU-rizatriptan", "dosis": "10 mg (5 mg con propranolol)", "via": "VO", "intervalo": "Repetir a las 2 h (máx. 20 mg/día)", "duracion": "Por crisis" },
+          { "nombre": "Zolmitriptán", "ref": "NEU-zolmitriptan", "dosis": "2,5-5 mg", "via": "VO / IN", "intervalo": "Repetir a las 2 h (máx. 10 mg/día)", "duracion": "Por crisis", "nota": "Nasal si vómitos" }
+        ]
+      },
+      {
+        "titulo": "Crisis en urgencias o estado migrañoso (>72 h)",
+        "farmacos": [
+          { "nombre": "Metoclopramida", "ref": "DIG-metoclopramida", "dosis": "10 mg", "via": "IV", "intervalo": "Dosis única", "duracion": "Dosis única" },
+          { "nombre": "Dexketoprofeno", "ref": "REU-dexketoprofeno", "dosis": "50 mg", "via": "IV", "intervalo": "Dosis única", "duracion": "Dosis única" },
+          { "nombre": "Dexametasona", "ref": "REU-dexametasona", "dosis": "10 mg", "via": "IV", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Reduce la recurrencia a las 72 h" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis",
+        "farmacos": [
+          { "nombre": "Propranolol", "ref": "CAR-propranolol", "dosis": "40 mg → 80-160 mg/día", "via": "VO", "intervalo": "Cada 12 h (o retard cada 24 h)", "duracion": "6-12 meses y reevaluar", "nota": "Si HTA, ansiedad o temblor; no en asma" },
+          { "nombre": "Topiramato", "ref": "NEU-topiramato", "dosis": "25 mg → 50 mg cada 12 h", "via": "VO", "intervalo": "Subir 25 mg/semana", "duracion": "6-12 meses", "nota": "Si obesidad; teratógeno, parestesias, litiasis" },
+          { "nombre": "Amitriptilina", "ref": "PSQ-amitriptilina", "dosis": "10 mg → 25-50 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "6-12 meses", "nota": "Si insomnio, depresión o cefalea tensional asociada" },
+          { "nombre": "Candesartán", "ref": "CAR-candesartan", "dosis": "16 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6-12 meses", "nota": "Si HTA; bien tolerado" },
+          { "nombre": "Anticuerpos anti-CGRP (erenumab, galcanezumab, fremanezumab)", "sin_ficha": true, "dosis": "70-140 mg (erenumab)", "via": "SC", "intervalo": "Mensual", "duracion": "12 meses y reevaluar", "nota": "Fracaso de ≥2-3 preventivos orales" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Diario de cefaleas; identificar desencadenantes (sueño, ayuno, alcohol)",
+      "Ejercicio aeróbico regular, higiene de sueño",
+      "Reposo en ambiente oscuro durante la crisis"
+    ],
+    "claves": [
+      "**Analgésicos >15 días/mes o triptanes >10 días/mes = cefalea por abuso de medicación.**",
+      "**Triptanes contraindicados en cardiopatía isquémica, ictus y migraña con aura del tronco o hemipléjica.**",
+      "Evitar opioides en la migraña (cronificación)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de migraña y otras cefaleas primarias; Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "PAT-epilepsia",
+    "nombre": "Epilepsia (tratamiento de mantenimiento)",
+    "sinonimos": ["Crisis epilépticas"],
+    "area": "NEU",
+    "resumen": "Iniciar tratamiento tras 2 crisis no provocadas, o tras la primera si hay alto riesgo de recurrencia (lesión estructural, EEG epileptiforme). **Monoterapia a la dosis mínima eficaz**, elegida por tipo de epilepsia, edad, sexo, comorbilidad e interacciones. En mujeres en edad fértil evitar valproato (y topiramato).",
+    "objetivo": "Libre de crisis sin efectos adversos; retirada valorable tras ≥2 años sin crisis.",
+    "escenarios": [
+      {
+        "titulo": "Epilepsia focal",
+        "farmacos": [
+          { "nombre": "Lamotrigina", "ref": "NEU-lamotrigina", "dosis": "25 mg/día 2 semanas → 50 mg 2 semanas → 100-200 mg/día", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida (≥2 años sin crisis)", "nota": "Titulación lenta (exantema); a la mitad con valproato" },
+          { "nombre": "Levetiracetam", "ref": "NEU-levetiracetam", "dosis": "500 mg → 1.000-1.500 mg", "via": "VO / IV", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Sin interacciones; vigilar irritabilidad y depresión" },
+          { "nombre": "Carbamazepina", "ref": "NEU-carbamazepina", "dosis": "200 mg → 400-600 mg", "via": "VO", "intervalo": "Cada 12 h (retard)", "duracion": "Indefinida", "alternativa": "o oxcarbazepina 300 → 600-1.200 mg/12 h", "nota": "Inductor enzimático; hiponatremia" }
+        ]
+      },
+      {
+        "titulo": "Epilepsia generalizada idiopática",
+        "farmacos": [
+          { "nombre": "Valproato", "ref": "NEU-valproato", "dosis": "500 mg → 20-30 mg/kg/día", "via": "VO", "intervalo": "Cada 12 h (crono cada 24 h)", "duracion": "Indefinida", "nota": "El más eficaz; **evitar en mujeres en edad fértil**" },
+          { "nombre": "Levetiracetam", "ref": "NEU-levetiracetam", "dosis": "500 mg → 1.000-1.500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Alternativa en mujeres" },
+          { "nombre": "Lamotrigina", "ref": "NEU-lamotrigina", "dosis": "Titulación lenta hasta 100-200 mg/día", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Útil en ausencias; puede empeorar las mioclonías" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar privación de sueño y alcohol; no conducir hasta 1 año sin crisis (según normativa)",
+      "Ácido fólico preconcepcional (4-5 mg) en mujeres con antiepilépticos",
+      "Cirugía de epilepsia en refractarias"
+    ],
+    "claves": [
+      "**Carbamazepina, oxcarbazepina, fenitoína y lamotrigina pueden empeorar ausencias y mioclonías.**",
+      "**Los inductores enzimáticos anulan los anticonceptivos hormonales.**",
+      "Los carbapenémicos desploman los niveles de valproato."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de crisis epilépticas y epilepsia; Katzung 15.ª ed., cap. 24"
+  },
+  {
+    "id": "PAT-estatus-epileptico",
+    "nombre": "Crisis convulsiva prolongada y estatus epiléptico",
+    "sinonimos": ["Estatus", "Status epilepticus", "Convulsión"],
+    "area": "NEU",
+    "resumen": "**Toda crisis de más de 5 minutos se trata como estatus.** Esquema temporal: 0-5 min estabilizar (ABC, glucemia, vía); **5-20 min benzodiacepina**; **20-40 min fármaco de segunda línea IV** (levetiracetam, valproato o fenitoína: eficacia similar); >40 min estatus refractario: anestesia general en UCI.",
+    "objetivo": "Cese clínico y eléctrico de las crisis lo antes posible.",
+    "escenarios": [
+      {
+        "titulo": "Adulto: 1.ª línea (5-20 min)",
+        "farmacos": [
+          { "nombre": "Lorazepam", "ref": "PSQ-lorazepam", "dosis": "4 mg (0,1 mg/kg)", "via": "IV", "intervalo": "Repetible una vez a los 5 min", "duracion": "Dosis puntual" },
+          { "nombre": "Midazolam", "ref": "PSQ-midazolam", "dosis": "10 mg (5 mg si 13-40 kg)", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis puntual", "nota": "Sin vía IV" },
+          { "nombre": "Diazepam", "ref": "PSQ-diazepam", "dosis": "10 mg (0,15-0,2 mg/kg)", "via": "IV", "intervalo": "Repetible una vez a los 5 min", "duracion": "Dosis puntual", "nota": "Si no hay lorazepam ni midazolam" }
+        ]
+      },
+      {
+        "titulo": "Adulto: 2.ª línea (20-40 min)",
+        "farmacos": [
+          { "nombre": "Levetiracetam", "ref": "NEU-levetiracetam", "dosis": "60 mg/kg (máx. 4.500 mg)", "via": "IV", "intervalo": "En 10-15 min", "duracion": "Dosis de carga, después mantenimiento" },
+          { "nombre": "Valproato", "ref": "NEU-valproato", "dosis": "40 mg/kg (máx. 3.000 mg)", "via": "IV", "intervalo": "En 10 min", "duracion": "Carga, después mantenimiento", "nota": "Evitar en hepatopatía y enfermedad mitocondrial" },
+          { "nombre": "Fenitoína", "ref": "NEU-fenitoina", "dosis": "20 mg/kg", "via": "IV", "intervalo": "A ≤50 mg/min con monitorización ECG", "duracion": "Carga, después mantenimiento", "nota": "Hipotensión y arritmias" }
+        ]
+      },
+      {
+        "titulo": "Estatus refractario (>40 min) en UCI",
+        "farmacos": [
+          { "nombre": "Propofol", "ref": "ANE-propofol", "dosis": "1-2 mg/kg bolo, después 2-10 mg/kg/h", "via": "IV", "intervalo": "Perfusión continua", "duracion": "24-48 h con monitorización EEG", "alternativa": "o midazolam 0,2 mg/kg + 0,05-2 mg/kg/h", "nota": "Intubación" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Midazolam bucal", "ref": "PED-NEU-midazolam-bucal", "dosis": "0,3 mg/kg (2,5 mg 3-11 meses; 5 mg 1-4 años; 7,5 mg 5-9 años; 10 mg ≥10 años)", "via": "bucal", "intervalo": "Dosis única; repetible una vez a los 10 min", "duracion": "Dosis puntual", "nota": "Útil en domicilio y colegio" },
+          { "nombre": "Valproato IV (2.ª línea)", "ref": "PED-NEU-valproato", "dosis": "20-40 mg/kg", "via": "IV", "intervalo": "En 5-10 min", "duracion": "Carga", "nota": "Evitar en <2 años o sospecha metabólica" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Posición lateral de seguridad, oxígeno, glucemia capilar inmediata",
+      "Tiamina 100 mg IV antes de la glucosa en alcohólicos o desnutridos",
+      "Buscar la causa (metabólica, tóxica, infecciosa, estructural, abandono de fármacos)"
+    ],
+    "claves": [
+      "**Infradosificar la benzodiacepina es el error más frecuente.**",
+      "La fenitoína no debe diluirse en glucosado (precipita)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de estatus epiléptico; Katzung 15.ª ed., caps. 22 y 24; guía AES 2016"
+  },
+  {
+    "id": "PAT-enfermedad-parkinson",
+    "nombre": "Enfermedad de Parkinson",
+    "sinonimos": ["Parkinson"],
+    "area": "NEU",
+    "resumen": "Tratar cuando los síntomas afectan a la vida diaria. **Levodopa es el más eficaz y de elección en mayores de 65-70 años** o con deterioro cognitivo; en jóvenes con síntomas leves puede empezarse con IMAO-B o agonista dopaminérgico. Las complicaciones motoras se manejan fraccionando la levodopa y añadiendo IMAO-B, ICOMT o agonistas.",
+    "objetivo": "Control de síntomas motores con mínimas discinesias y efectos adversos.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento inicial",
+        "farmacos": [
+          { "nombre": "Levodopa/carbidopa", "ref": "NEU-levodopa-carbidopa", "dosis": "50-100 mg de levodopa → 300-600 mg/día", "via": "VO", "intervalo": "Cada 6-8 h, 30-60 min antes de las comidas", "duracion": "Indefinida", "nota": "Subir cada semana según respuesta" },
+          { "nombre": "Pramipexol", "ref": "NEU-pramipexol", "dosis": "0,088 mg → 0,7-1,1 mg (sal) cada 8 h", "via": "VO", "intervalo": "Cada 8 h (o liberación prolongada cada 24 h)", "duracion": "Indefinida", "nota": "Jóvenes; vigilar control de impulsos y somnolencia" },
+          { "nombre": "Rasagilina", "ref": "NEU-rasagilina", "dosis": "1 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Síntomas leves; evitar tramadol, meperidina" }
+        ]
+      },
+      {
+        "titulo": "Fluctuaciones motoras (wearing-off)",
+        "farmacos": [
+          { "nombre": "Levodopa/carbidopa (fraccionar)", "ref": "NEU-levodopa-carbidopa", "dosis": "50-100 mg de levodopa por toma (misma dosis diaria total, más repartida)", "via": "VO", "intervalo": "Cada 3-4 h", "duracion": "Indefinida" },
+          { "nombre": "Rasagilina (añadida)", "ref": "NEU-rasagilina", "dosis": "1 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o entacapona 200 mg con cada dosis de levodopa / opicapona 50 mg noche" }
+        ]
+      },
+      {
+        "titulo": "Síntomas no motores frecuentes",
+        "farmacos": [
+          { "nombre": "Domperidona (náuseas)", "ref": "DIG-domperidona", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "Al iniciar dopaminérgicos", "nota": "Nunca metoclopramida" },
+          { "nombre": "Quetiapina (psicosis)", "ref": "PSQ-quetiapina", "dosis": "12,5-50 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Según evolución", "alternativa": "o clozapina 6,25-50 mg (más eficaz, requiere controles)", "nota": "Antes, reducir anticolinérgicos, amantadina y agonistas" },
+          { "nombre": "Rivastigmina (demencia)", "ref": "NEU-antidemencia", "dosis": "4,6 → 9,5 mg/24 h (parche)", "via": "transdérmica", "intervalo": "Cada 24 h", "duracion": "Indefinida" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio físico y fisioterapia desde el diagnóstico",
+      "Repartir las proteínas de la dieta (compiten con la levodopa)",
+      "Estimulación cerebral profunda en fluctuaciones refractarias"
+    ],
+    "claves": [
+      "**Antipsicóticos típicos, metoclopramida, cleboprida y sulpirida empeoran el Parkinson.**",
+      "**No suspender bruscamente la levodopa** (síndrome tipo neuroléptico maligno), tampoco en el ingreso o la cirugía."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad de Parkinson; Katzung 15.ª ed., cap. 28"
+  },
+  {
+    "id": "PAT-demencia-alzheimer",
+    "nombre": "Enfermedad de Alzheimer",
+    "sinonimos": ["Demencia", "Deterioro cognitivo"],
+    "area": "NEU",
+    "resumen": "**Inhibidores de la acetilcolinesterasa en la demencia leve-moderada; memantina en la moderada-grave** (sola o asociada). El beneficio es sintomático y modesto. Antes de tratar los síntomas conductuales con fármacos, buscar desencadenantes (dolor, infección, estreñimiento, retención urinaria, fármacos anticolinérgicos).",
+    "objetivo": "Estabilizar la función cognitiva y la autonomía; control de síntomas conductuales.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento cognitivo",
+        "farmacos": [
+          { "nombre": "Donepezilo", "ref": "NEU-antidemencia", "dosis": "5 mg → 10 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Mientras haya beneficio", "alternativa": "o rivastigmina parche 4,6 → 9,5 mg/24 h; galantamina 8 → 16-24 mg/24 h", "nota": "Bradicardia y síncope: ECG si cardiopatía" },
+          { "nombre": "Memantina", "ref": "NEU-antidemencia", "dosis": "5 mg → 20 mg (subir 5 mg/semana)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras haya beneficio", "nota": "Moderada-grave; 10 mg si FG <30" }
+        ]
+      },
+      {
+        "titulo": "Síntomas conductuales (si fracasan las medidas no farmacológicas)",
+        "farmacos": [
+          { "nombre": "Sertralina / citalopram (depresión, irritabilidad)", "ref": "PSQ-sertralina", "dosis": "25 mg → 50-100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a los 3-6 meses" },
+          { "nombre": "Trazodona (insomnio, agitación nocturna)", "ref": "PSQ-trazodona", "dosis": "25-100 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Reevaluar periódicamente" },
+          { "nombre": "Risperidona (agresividad o psicosis graves)", "ref": "PSQ-risperidona", "dosis": "0,25 mg → 0,5-1 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "**Máximo 6-12 semanas**", "nota": "Aumenta ictus y mortalidad; plan de retirada" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Estimulación cognitiva, ejercicio, rutinas estables",
+      "Apoyo al cuidador y planificación anticipada",
+      "Retirar fármacos anticolinérgicos y sedantes innecesarios"
+    ],
+    "claves": [
+      "**Anticolinérgicos (oxibutinina, antihistamínicos de 1.ª generación, tricíclicos) empeoran la cognición y antagonizan a los inhibidores de colinesterasa.**",
+      "En la demencia con cuerpos de Lewy, los antipsicóticos pueden provocar reacciones graves: rivastigmina y, si es imprescindible, quetiapina."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad de Alzheimer; Katzung 15.ª ed., cap. 60"
+  },
+  {
+    "id": "PAT-dolor-neuropatico",
+    "nombre": "Dolor neuropático",
+    "sinonimos": ["Neuropatía diabética dolorosa", "Neuralgia postherpética", "Neuralgia del trigémino"],
+    "area": "NEU",
+    "resumen": "Dolor urente, lancinante, con alodinia, por lesión del sistema nervioso. **Primera línea: gabapentinoides, duloxetina o amitriptilina**, con titulación lenta y evaluación a las 4-8 semanas; combinar si respuesta parcial. Localizado: lidocaína o capsaicina tópicas. **Neuralgia del trigémino: carbamazepina.** Los AINE y el paracetamol no son eficaces.",
+    "objetivo": "Reducción ≥30-50% del dolor y mejora del sueño y la función.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          { "nombre": "Pregabalina", "ref": "NEU-gabapentinoides", "dosis": "75 mg → 150-300 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Mientras sea eficaz; reevaluar cada 3-6 meses", "alternativa": "o gabapentina 300 mg → 600-1.200 mg/8 h", "nota": "Ajuste renal; mareo, edemas, abuso" },
+          { "nombre": "Duloxetina", "ref": "PSQ-venlafaxina", "dosis": "30 mg → 60 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras sea eficaz", "nota": "Útil con depresión asociada; evitar en hepatopatía" },
+          { "nombre": "Amitriptilina", "ref": "PSQ-amitriptilina", "dosis": "10 mg → 25-75 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Mientras sea eficaz", "nota": "Evitar en ancianos y cardiópatas" }
+        ]
+      },
+      {
+        "titulo": "Dolor localizado",
+        "farmacos": [
+          { "nombre": "Lidocaína 5% apósito", "ref": "ANE-anestesicos-locales", "dosis": "1-3 apósitos", "via": "tópica", "intervalo": "12 h puestos y 12 h de descanso", "duracion": "Reevaluar a las 2-4 semanas", "nota": "Neuralgia postherpética" }
+        ]
+      },
+      {
+        "titulo": "Neuralgia del trigémino",
+        "farmacos": [
+          { "nombre": "Carbamazepina", "ref": "NEU-carbamazepina", "dosis": "100-200 mg → 400-800 mg/día", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Hasta remisión; descenso gradual", "alternativa": "o oxcarbazepina 300 → 600-1.200 mg/día", "nota": "Respuesta casi diagnóstica" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Control glucémico en la neuropatía diabética",
+      "Ejercicio, fisioterapia, terapia psicológica del dolor crónico",
+      "Neuralgia del trigémino refractaria: descompresión microvascular"
+    ],
+    "claves": [
+      "**Opioides en el dolor neuropático: tercera línea y por tiempo limitado.**",
+      "**Gabapentinoides + opioides = depresión respiratoria**: evitar o reducir dosis."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de dolor; Katzung 15.ª ed., caps. 24 y 30"
+  },
+  {
+    "id": "PAT-depresion-mayor",
+    "nombre": "Episodio depresivo mayor",
+    "sinonimos": ["Depresión"],
+    "area": "PSQ",
+    "resumen": "Leve: psicoterapia y seguimiento. **Moderada-grave: antidepresivo (ISRS de primera elección) ± psicoterapia.** Evaluar el riesgo suicida siempre. El efecto tarda 2-4 semanas; valorar respuesta a las 4-6 semanas a dosis adecuada antes de cambiar. Descartar trastorno bipolar antes de iniciar (riesgo de viraje).",
+    "objetivo": "Remisión (no solo respuesta); prevención de recaídas.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          { "nombre": "Sertralina", "ref": "PSQ-sertralina", "dosis": "50 mg → 100-200 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6-12 meses tras la remisión (2 años o indefinido si recurrente)", "nota": "De elección en cardiopatía, embarazo y lactancia" },
+          { "nombre": "Escitalopram", "ref": "PSQ-escitalopram", "dosis": "10 mg → 20 mg (máx. 10 mg en ≥65 años)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual", "nota": "QT" },
+          { "nombre": "Fluoxetina", "ref": "PSQ-fluoxetina", "dosis": "20 mg (hasta 60 mg)", "via": "VO", "intervalo": "Cada 24 h, por la mañana", "duracion": "Igual", "nota": "Adolescentes; mal cumplidores; interacciones CYP2D6" }
+        ]
+      },
+      {
+        "titulo": "Según perfil clínico",
+        "farmacos": [
+          { "nombre": "Mirtazapina", "ref": "PSQ-mirtazapina", "dosis": "15 mg → 30-45 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Igual", "nota": "Insomnio, pérdida de apetito, disfunción sexual con ISRS" },
+          { "nombre": "Venlafaxina retard", "ref": "PSQ-venlafaxina", "dosis": "75 mg → 150-225 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual", "alternativa": "o duloxetina 60 mg (dolor asociado)", "nota": "Segunda línea; vigilar PA" },
+          { "nombre": "Trazodona (insomnio asociado)", "ref": "PSQ-trazodona", "dosis": "50-100 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Mientras persista el insomnio" }
+        ]
+      },
+      {
+        "titulo": "Depresión resistente (potenciación)",
+        "farmacos": [
+          { "nombre": "Aripiprazol", "ref": "PSQ-aripiprazol", "dosis": "2-5 mg (hasta 15 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a los 3-6 meses", "nota": "Acatisia" },
+          { "nombre": "Litio", "ref": "PSQ-litio", "dosis": "400 mg → litemia 0,5-0,8 mEq/L", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Según respuesta", "nota": "Reduce el suicidio" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Psicoterapia (cognitivo-conductual, interpersonal)",
+      "Ejercicio físico, higiene de sueño",
+      "Terapia electroconvulsiva en depresión psicótica, catatónica o con alto riesgo suicida"
+    ],
+    "claves": [
+      "**Avisar de que el efecto tarda 2-4 semanas** y de los efectos iniciales (náuseas, inquietud).",
+      "**<25 años: vigilar ideación suicida en las primeras semanas.**",
+      "No retirar de forma brusca (síndrome de discontinuación, sobre todo paroxetina y venlafaxina)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del ánimo; Katzung 15.ª ed., cap. 30"
+  },
+  {
+    "id": "PAT-ansiedad-panico",
+    "nombre": "Trastorno de ansiedad generalizada y trastorno de pánico",
+    "sinonimos": ["TAG", "Crisis de pánico", "Ansiedad"],
+    "area": "PSQ",
+    "resumen": "**Tratamiento de fondo: ISRS o IRSN + psicoterapia cognitivo-conductual.** Benzodiacepinas solo como puente breve (2-4 semanas) mientras actúa el antidepresivo, o puntual en crisis. En el pánico empezar con dosis bajas (los ISRS pueden aumentar la ansiedad al inicio).",
+    "objetivo": "Remisión de síntomas y de la evitación; mantenimiento 12 meses.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento de fondo",
+        "farmacos": [
+          { "nombre": "Escitalopram", "ref": "PSQ-escitalopram", "dosis": "5 mg → 10-20 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "12 meses tras la respuesta", "alternativa": "o sertralina 25 → 50-200 mg / paroxetina 10 → 20-40 mg" },
+          { "nombre": "Venlafaxina retard", "ref": "PSQ-venlafaxina", "dosis": "37,5-75 mg → 225 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "12 meses tras la respuesta" },
+          { "nombre": "Pregabalina (TAG)", "ref": "NEU-gabapentinoides", "dosis": "75 mg → 150-300 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Según respuesta", "nota": "Alternativa en el TAG; potencial de abuso" }
+        ]
+      },
+      {
+        "titulo": "Puente o crisis aguda",
+        "farmacos": [
+          { "nombre": "Lorazepam", "ref": "PSQ-lorazepam", "dosis": "0,5-1 mg", "via": "VO / SL", "intervalo": "Cada 8-12 h o a demanda", "duracion": "**Máximo 2-4 semanas**", "alternativa": "o alprazolam 0,25-0,5 mg / clonazepam 0,25-0,5 mg/12 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Terapia cognitivo-conductual (de elección, sola o combinada)",
+      "Técnicas de respiración y relajación; reducir cafeína y alcohol",
+      "Descartar hipertiroidismo, arritmias, consumo de tóxicos"
+    ],
+    "claves": [
+      "**Las benzodiacepinas no tratan el trastorno de fondo y generan dependencia.**",
+      "En la primera crisis de pánico, descartar causa orgánica (SCA, TEP, arritmia) antes de etiquetarla."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de ansiedad; Katzung 15.ª ed., caps. 22 y 30"
+  },
+  {
+    "id": "PAT-insomnio",
+    "nombre": "Insomnio",
+    "sinonimos": ["Trastorno del sueño"],
+    "area": "PSQ",
+    "resumen": "**Primera línea: terapia cognitivo-conductual del insomnio (TCC-I) e higiene de sueño.** Buscar causas tratables (depresión, ansiedad, dolor, apnea, piernas inquietas, fármacos). Hipnóticos solo en insomnio agudo incapacitante y por periodos cortos (≤4 semanas).",
+    "objetivo": "Mejorar la calidad del sueño y el funcionamiento diurno sin dependencia.",
+    "escenarios": [
+      {
+        "titulo": "Insomnio agudo o tratamiento breve",
+        "farmacos": [
+          { "nombre": "Zolpidem", "ref": "PSQ-zolpidem", "dosis": "5 mg (mujeres y ancianos) o 10 mg", "via": "VO", "intervalo": "Al acostarse", "duracion": "≤4 semanas", "nota": "Conductas complejas del sueño" },
+          { "nombre": "Lorazepam", "ref": "PSQ-lorazepam", "dosis": "0,5-1 mg", "via": "VO", "intervalo": "Al acostarse", "duracion": "≤2-4 semanas", "nota": "Si ansiedad asociada" }
+        ]
+      },
+      {
+        "titulo": "Insomnio asociado a depresión o en ancianos",
+        "farmacos": [
+          { "nombre": "Trazodona", "ref": "PSQ-trazodona", "dosis": "25-100 mg", "via": "VO", "intervalo": "Al acostarse", "duracion": "Reevaluar periódicamente", "alternativa": "o mirtazapina 7,5-15 mg" },
+          { "nombre": "Melatonina de liberación prolongada", "sin_ficha": true, "dosis": "2 mg", "via": "VO", "intervalo": "1-2 h antes de acostarse", "duracion": "Hasta 13 semanas", "nota": "≥55 años; muy bien tolerada" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Horarios regulares, restricción del tiempo en cama, control de estímulos",
+      "Evitar pantallas, cafeína y alcohol por la tarde-noche; ejercicio diurno",
+      "No usar la cama más que para dormir"
+    ],
+    "claves": [
+      "**Benzodiacepinas y fármacos Z en ancianos: caídas, fracturas y deterioro cognitivo** (criterios de Beers).",
+      "Los antihistamínicos sedantes (difenhidramina, doxilamina) son anticolinérgicos: evitarlos en ancianos."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del sueño; Katzung 15.ª ed., cap. 22"
+  },
+  {
+    "id": "PAT-esquizofrenia",
+    "nombre": "Esquizofrenia y otros trastornos psicóticos",
+    "sinonimos": ["Psicosis", "Primer episodio psicótico"],
+    "area": "PSQ",
+    "resumen": "**Antipsicótico atípico a dosis mínima eficaz**, elegido según perfil de efectos adversos (metabólico, extrapiramidal, prolactina, sedación). Evaluar respuesta a las 4-6 semanas. Si fracasan 2 antipsicóticos a dosis adecuadas: **clozapina**. Inyectables de liberación prolongada en mala adherencia.",
+    "objetivo": "Remisión de síntomas positivos, prevención de recaídas, recuperación funcional.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          { "nombre": "Aripiprazol", "ref": "PSQ-aripiprazol", "dosis": "10-15 mg (hasta 30 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "≥1-2 años tras el primer episodio; indefinido si recaídas", "nota": "Mejor perfil metabólico; acatisia" },
+          { "nombre": "Risperidona", "ref": "PSQ-risperidona", "dosis": "2 mg → 4-6 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual", "nota": "Hiperprolactinemia; extrapiramidalismo a dosis altas" },
+          { "nombre": "Olanzapina", "ref": "PSQ-olanzapina", "dosis": "10-20 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual", "nota": "Muy eficaz; síndrome metabólico" },
+          { "nombre": "Quetiapina", "ref": "PSQ-quetiapina", "dosis": "300-750 mg", "via": "VO", "intervalo": "Cada 12 h (retard cada 24 h)", "duracion": "Igual", "nota": "Sedante; titulación en días" }
+        ]
+      },
+      {
+        "titulo": "Esquizofrenia resistente",
+        "farmacos": [
+          { "nombre": "Clozapina", "ref": "PSQ-clozapina", "dosis": "12,5 mg → 300-450 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "**Neutrófilos semanales 18 semanas, después mensuales**; miocarditis las primeras semanas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Psicoeducación, intervención familiar, rehabilitación psicosocial",
+      "Control metabólico: peso, perímetro abdominal, glucemia y lípidos",
+      "Abandono del consumo de cannabis y otras drogas"
+    ],
+    "claves": [
+      "**Fiebre, rigidez, alteración de conciencia y CK alta: síndrome neuroléptico maligno** → suspender y soporte.",
+      "**El tabaco reduce los niveles de clozapina y olanzapina** (al dejar de fumar suben)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de esquizofrenia; Katzung 15.ª ed., cap. 29"
+  },
+  {
+    "id": "PAT-agitacion-delirium",
+    "nombre": "Agitación psicomotriz y delirium",
+    "sinonimos": ["Síndrome confusional agudo", "Agitación"],
+    "area": "PSQ",
+    "resumen": "**Primero buscar y tratar la causa** (infección, hipoxia, hipoglucemia, dolor, retención urinaria, abstinencia, fármacos). Medidas ambientales antes que fármacos. Si hay riesgo para el paciente o terceros: contención verbal → farmacológica (VO si acepta, IM si no). En delirium, antipsicótico a dosis bajas; **benzodiacepinas solo en abstinencia alcohólica o de benzodiacepinas**.",
+    "objetivo": "Calmar sin sedar en exceso; seguridad del paciente.",
+    "escenarios": [
+      {
+        "titulo": "Agitación psicótica o de causa no orgánica",
+        "farmacos": [
+          { "nombre": "Haloperidol", "ref": "PSQ-haloperidol", "dosis": "2,5-5 mg", "via": "IM / VO", "intervalo": "Repetible cada 30-60 min (máx. 20 mg/día)", "duracion": "Fase aguda", "nota": "± benzodiacepina; ECG (QT)" },
+          { "nombre": "Olanzapina", "ref": "PSQ-olanzapina", "dosis": "10 mg", "via": "IM / VO", "intervalo": "Repetible a las 2 h (máx. 20-30 mg/día)", "duracion": "Fase aguda", "nota": "**No asociar benzodiacepina parenteral en 1 h**" },
+          { "nombre": "Midazolam", "ref": "PSQ-midazolam", "dosis": "5 mg", "via": "IM", "intervalo": "Repetible a los 15-30 min", "duracion": "Fase aguda", "alternativa": "o lorazepam 1-2 mg VO/SL", "nota": "Agitación por tóxicos estimulantes" }
+        ]
+      },
+      {
+        "titulo": "Delirium en el anciano o paciente médico",
+        "farmacos": [
+          { "nombre": "Haloperidol", "ref": "PSQ-haloperidol", "dosis": "0,5-1 mg", "via": "VO / SC / IM", "intervalo": "Cada 30-60 min hasta control; después cada 8-12 h", "duracion": "El mínimo posible; retirar en 24-48 h de estabilidad" },
+          { "nombre": "Quetiapina", "ref": "PSQ-quetiapina", "dosis": "12,5-25 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "El mínimo posible", "nota": "Si Parkinson o demencia con cuerpos de Lewy" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ambiente tranquilo, luz natural de día, orientación, gafas y audífonos",
+      "Movilización precoz; evitar sondas y contenciones físicas",
+      "Retirar fármacos deliriógenos (anticolinérgicos, benzodiacepinas, opioides a dosis altas)"
+    ],
+    "claves": [
+      "**Benzodiacepinas empeoran el delirium** salvo en la abstinencia.",
+      "**Haloperidol contraindicado en Parkinson y demencia con cuerpos de Lewy.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de delirium; Katzung 15.ª ed., cap. 29"
+  },
+  {
+    "id": "PAT-trastorno-bipolar",
+    "nombre": "Trastorno bipolar (episodio maníaco y mantenimiento)",
+    "sinonimos": ["Manía", "Trastorno bipolar"],
+    "area": "PSQ",
+    "resumen": "**Manía aguda: antipsicótico atípico y/o estabilizador (litio o valproato)**; suspender antidepresivos. **Mantenimiento: litio de primera elección** (reduce recaídas y suicidio). Depresión bipolar: quetiapina o lamotrigina (prevención); los antidepresivos en monoterapia pueden inducir viraje.",
+    "objetivo": "Control del episodio y prevención de recaídas con litemia en rango.",
+    "escenarios": [
+      {
+        "titulo": "Episodio maníaco",
+        "farmacos": [
+          { "nombre": "Olanzapina", "ref": "PSQ-olanzapina", "dosis": "10-20 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta remisión y mantenimiento según respuesta", "alternativa": "o quetiapina 400-800 mg / risperidona 2-6 mg / aripiprazol 15-30 mg" },
+          { "nombre": "Litio", "ref": "PSQ-litio", "dosis": "400 mg → según litemia", "dosis_objetivo": "Litemia 0,8-1,2 mEq/L en fase aguda", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Continuar como mantenimiento", "nota": "Litemia a los 5-7 días, 12 h tras la última dosis" },
+          { "nombre": "Valproato", "ref": "NEU-valproato", "dosis": "20-30 mg/kg/día", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Hasta remisión y mantenimiento", "nota": "Evitar en mujeres en edad fértil" }
+        ]
+      },
+      {
+        "titulo": "Mantenimiento",
+        "farmacos": [
+          { "nombre": "Litio", "ref": "PSQ-litio", "dosis": "Según litemia", "dosis_objetivo": "Litemia 0,6-0,8 mEq/L", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Indefinida", "nota": "Función renal, tiroidea y calcio cada 6-12 meses" },
+          { "nombre": "Lamotrigina", "ref": "NEU-lamotrigina", "dosis": "Titulación lenta hasta 200 mg/día", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Prevención de depresión bipolar" }
+        ]
+      },
+      {
+        "titulo": "Depresión bipolar",
+        "farmacos": [
+          { "nombre": "Quetiapina", "ref": "PSQ-quetiapina", "dosis": "300 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Según respuesta" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Psicoeducación: reconocer pródromos; regularidad del sueño",
+      "Evitar tóxicos",
+      "Terapia electroconvulsiva en manía grave refractaria o embarazo"
+    ],
+    "claves": [
+      "**Toxicidad por litio**: diuréticos tiazídicos, IECA/ARA-II, AINE y deshidratación elevan la litemia (temblor grosero, ataxia, confusión, diarrea).",
+      "Litio y valproato son teratógenos: planificar el embarazo."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos bipolares; Katzung 15.ª ed., cap. 29"
+  },
+  {
+    "id": "PAT-abstinencia-alcoholica",
+    "nombre": "Síndrome de abstinencia alcohólica y delirium tremens",
+    "sinonimos": ["Delirium tremens", "Alcoholismo"],
+    "area": "PSQ",
+    "resumen": "Aparece 6-24 h tras el último consumo (temblor, sudoración, taquicardia, ansiedad); convulsiones a las 12-48 h y delirium tremens a las 48-96 h. **Benzodiacepinas guiadas por síntomas (escala CIWA-Ar)**; diazepam de elección, lorazepam en hepatopatía grave o ancianos. **Tiamina siempre, antes de la glucosa.**",
+    "objetivo": "CIWA-Ar <8-10; prevenir convulsiones, delirium y encefalopatía de Wernicke.",
+    "escenarios": [
+      {
+        "titulo": "Abstinencia moderada-grave",
+        "farmacos": [
+          { "nombre": "Diazepam", "ref": "PSQ-diazepam", "dosis": "10-20 mg", "via": "VO / IV", "intervalo": "Cada 1-2 h según CIWA-Ar (o 10 mg cada 6 h con reducción)", "duracion": "3-7 días", "nota": "Delirium tremens: 5-10 mg IV cada 5-10 min hasta sedación ligera" },
+          { "nombre": "Lorazepam", "ref": "PSQ-lorazepam", "dosis": "1-4 mg", "via": "VO / IV", "intervalo": "Cada 1-2 h según CIWA-Ar", "duracion": "3-7 días", "nota": "Cirrosis avanzada o ancianos (sin metabolitos activos)" },
+          { "nombre": "Tiamina", "sin_ficha": true, "dosis": "100-300 mg (500 mg/8 h si sospecha de Wernicke)", "via": "IV / IM", "intervalo": "Cada 24 h (cada 8 h en Wernicke)", "duracion": "3-5 días, después VO", "nota": "**Antes de cualquier suero glucosado**" }
+        ]
+      },
+      {
+        "titulo": "Prevención de recaídas (deshabituación)",
+        "farmacos": [
+          { "nombre": "Naltrexona", "sin_ficha": true, "dosis": "50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3-12 meses", "nota": "Contraindicada con opioides y hepatopatía grave", "alternativa": "o acamprosato 666 mg/8 h (útil en hepatopatía)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ambiente tranquilo, hidratación, corrección de K, Mg y P",
+      "Vigilancia de constantes; UCI si delirium tremens refractario",
+      "Derivación a unidad de conductas adictivas"
+    ],
+    "claves": [
+      "**Los antipsicóticos solos no sirven y bajan el umbral convulsivo**; solo como coadyuvantes.",
+      "**Glucosa sin tiamina puede precipitar la encefalopatía de Wernicke.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de alcohol y alcoholismo; Katzung 15.ª ed., caps. 22 y 23"
+  }
+]

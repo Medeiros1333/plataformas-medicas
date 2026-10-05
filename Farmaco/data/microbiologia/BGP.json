@@ -1,0 +1,582 @@
+[
+  {
+    "id": "BGP-staphylococcus-aureus",
+    "nombre": "Staphylococcus aureus",
+    "grupo": "BGP",
+    "nivel": 1,
+    "clasificacion": "Coco grampositivo, catalasa positivo, COAGULASA POSITIVO (lo que lo separa del resto de estafilococos), DNasa y manitol positivos",
+    "morfologia_tincion": "Cocos grampositivos agrupados en racimos irregulares (como uvas). Crece en agar sangre con colonias doradas y beta-hemólisis; en agar manitol-salado fermenta el manitol y vira el medio a amarillo.",
+    "mecanismo_patogenia": [
+      "Proteína A: se une a la fracción Fc de la IgG e impide la opsonización y la fagocitosis.",
+      "Coagulasa: convierte el fibrinógeno en fibrina y forma una cápsula de fibrina protectora — es la base de la formación de abscesos localizados, su sello patogénico.",
+      "Toxinas citolíticas (alfa-toxina, leucocidina de Panton-Valentine): destruyen neutrófilos y hematíes. La PVL se asocia a SARM comunitario, abscesos cutáneos recurrentes y neumonía necrosante.",
+      "Superantígenos (TSST-1, enterotoxinas): activan de forma inespecífica hasta el 20% de los linfocitos T uniendo el CMH-II al receptor T fuera del surco antigénico, con liberación masiva de citocinas → shock tóxico.",
+      "Enterotoxinas termoestables preformadas en el alimento: producen intoxicación alimentaria sin necesidad de que la bacteria colonice el intestino.",
+      "Exfoliatinas: proteasas que rompen la desmogleína-1 de la epidermis → síndrome de la piel escaldada e impétigo ampolloso.",
+      "Biofilm sobre material protésico: matriz de exopolisacárido que lo hace inaccesible a antibióticos y fagocitos."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección de piel y partes blandas (forúnculo, ántrax, absceso, celulitis)",
+        "clinica": "Lesión dolorosa, eritematosa, caliente y fluctuante; fiebre variable. Recurrencias en el portador nasal.",
+        "lesiones": "Absceso con pus cremoso y amarillento, bien delimitado por una pared de fibrina.",
+        "clave": "El tratamiento fundamental es el DRENAJE; el antibiótico es complementario."
+      },
+      {
+        "cuadro": "Bacteriemia y endocarditis aguda",
+        "clinica": "Fiebre alta, escalofríos, sepsis de instauración rápida. En la endocarditis afecta con frecuencia a la válvula tricúspide en el usuario de drogas por vía parenteral.",
+        "lesiones": "Vegetaciones grandes y friables con destrucción valvular rápida; émbolos sépticos con abscesos metastásicos en pulmón, bazo, riñón y cerebro.",
+        "clave": "Toda bacteriemia por S. aureus obliga a buscar foco endovascular: ecocardiograma y hemocultivos de control a las 48-72 h."
+      },
+      {
+        "cuadro": "Osteomielitis y artritis séptica",
+        "clinica": "Dolor óseo o articular con impotencia funcional y fiebre; es la causa más frecuente de ambas entidades a cualquier edad.",
+        "lesiones": "Destrucción ósea con secuestros; en la artritis, derrame purulento con destrucción del cartílago en pocos días.",
+        "clave": "La artritis séptica es una urgencia: el retraso en el drenaje destruye la articulación."
+      },
+      {
+        "cuadro": "Neumonía necrosante",
+        "clinica": "Tras una gripe o en el paciente ventilado: fiebre alta, hemoptisis, insuficiencia respiratoria rápidamente progresiva.",
+        "lesiones": "Cavitación múltiple, neumatoceles, empiema. La producción de PVL se asocia a las formas más destructivas.",
+        "clave": "Sospechar S. aureus en toda neumonía cavitada postgripal."
+      },
+      {
+        "cuadro": "Síndrome del shock tóxico estafilocócico",
+        "clinica": "Fiebre alta, hipotensión, exantema macular difuso «en quemadura solar» y descamación palmoplantar a las 1-2 semanas, con fallo multiorgánico.",
+        "lesiones": "Eritrodermia difusa que respeta poco las mucosas; hiperemia conjuntival y lengua aframbuesada.",
+        "clave": "Mediado por el superantígeno TSST-1; los hemocultivos suelen ser NEGATIVOS porque el cuadro es toxínico, no bacteriémico."
+      },
+      {
+        "cuadro": "Intoxicación alimentaria estafilocócica",
+        "clinica": "Vómitos intensos y dolor abdominal 1-6 horas tras la ingesta, con poca o ninguna fiebre y resolución en menos de 24 h.",
+        "lesiones": "No hay invasión de la mucosa: es una intoxicación por toxina preformada.",
+        "clave": "El periodo de incubación cortísimo (1-6 h) y el predominio del vómito lo distinguen de la salmonelosis."
+      },
+      {
+        "cuadro": "Síndrome de la piel escaldada estafilocócica (Ritter)",
+        "clinica": "Lactantes y niños pequeños: fiebre, eritema difuso y despegamiento de la epidermis con signo de Nikolsky positivo.",
+        "lesiones": "Despegamiento intraepidérmico superficial (a nivel de la capa granulosa), a diferencia de la necrólisis epidérmica tóxica, que es subepidérmica.",
+        "clave": "Las mucosas están respetadas, lo que ayuda a diferenciarlo de la NET."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es el ÚNICO estafilococo coagulasa positivo de relevancia clínica habitual: esa prueba lo separa de S. epidermidis y S. saprophyticus.",
+      "Coloniza las fosas nasales del 20-30% de la población de forma permanente; el portador nasal es la fuente de sus propias infecciones recurrentes y el objetivo de la descolonización con mupirocina.",
+      "La resistencia a meticilina (SARM) se debe al gen mecA, que codifica una PBP2a con baja afinidad por TODOS los betalactámicos: no se resuelve subiendo la dosis ni añadiendo un inhibidor de betalactamasas.",
+      "Produce simultáneamente enfermedad invasiva (abscesos, endocarditis) y enfermedad toxínica a distancia (shock tóxico, piel escaldada, intoxicación alimentaria).",
+      "Forma biofilm sobre cualquier material protésico: prótesis valvulares, articulares, catéteres y marcapasos.",
+      "El SARM comunitario (con PVL) es epidemiológica y clínicamente distinto del SARM hospitalario: afecta a jóvenes sanos, causa abscesos cutáneos y suele ser sensible a clindamicina, cotrimoxazol y doxiciclina."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos (siempre 2-3 sets de venopunciones distintas), pus del absceso obtenido por aspiración (mejor que la torunda), líquido articular, esputo o aspirado traqueal, punta de catéter.",
+      "pruebas": [
+        "Tinción de Gram del pus: cocos grampositivos en racimos con abundantes neutrófilos",
+        "Cultivo en agar sangre y agar manitol-salado",
+        "Prueba de la coagulasa y de la DNasa",
+        "Detección de mecA por PCR o disco de CEFOXITINA para SARM (no disco de meticilina)",
+        "MALDI-TOF para identificación rápida de especie",
+        "Ecocardiograma transesofágico en toda bacteriemia"
+      ],
+      "claves": "La sensibilidad a cloxacilina se predice con el disco de cefoxitina, no con uno de cloxacilina. En el shock tóxico los hemocultivos suelen ser negativos: el diagnóstico es clínico."
+    },
+    "tratamiento": {
+      "eleccion": "SASM (sensible a meticilina): cloxacilina 2 g/4 h IV o cefazolina 2 g/8 h IV. SARM: vancomicina IV guiada por AUC, o daptomicina; linezolid si el foco es pulmonar.",
+      "alternativas": "SARM comunitario en piel y partes blandas por vía oral: cotrimoxazol, doxiciclina o clindamicina (comprobando antes el test D). En infección de material protésico, añadir rifampicina al fármaco principal por su actividad sobre el biofilm.",
+      "resistencias": "Más del 90% produce penicilinasa (penicilina inútil). SARM por mecA/PBP2a. Resistencia inducible a clindamicina detectable con el test D. La resistencia intermedia a vancomicina (VISA) es rara pero creciente.",
+      "duracion": "Bacteriemia no complicada: 14 días desde el primer hemocultivo negativo. Endocarditis sobre válvula nativa: 4-6 semanas. Osteomielitis: 6 semanas. Absceso cutáneo drenado: 5-7 días.",
+      "notas": "En la bacteriemia por SASM, cambiar de vancomicina a cloxacilina o cefazolina reduce la mortalidad: nunca dejar la vancomicina «por comodidad». Retirar siempre el catéter o el material protésico infectado siempre que sea posible."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-cefazolina",
+      "INF-clindamicina",
+      "INF-cloxacilina",
+      "INF-cotrimoxazol",
+      "INF-daptomicina",
+      "INF-doxiciclina",
+      "INF-linezolid",
+      "INF-piperacilina-tazobactam",
+      "INF-rifampicina",
+      "INF-vancomicina",
+      "OFT-antiinfecciosos-corticoides-oculares",
+      "PED-DER-mupirocina",
+      "PED-INF-amoxicilina-clavulanico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 18 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones estafilocócicas"
+  },
+  {
+    "id": "BGP-staphylococcus-epidermidis",
+    "nombre": "Staphylococcus epidermidis (y estafilococos coagulasa negativos)",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "Coco grampositivo, catalasa positivo, COAGULASA NEGATIVO, sensible a novobiocina (lo que lo diferencia de S. saprophyticus, que es resistente)",
+    "morfologia_tincion": "Cocos grampositivos en racimos, indistinguibles de S. aureus en la tinción de Gram. Colonias blancas, no hemolíticas, en agar sangre.",
+    "mecanismo_patogenia": [
+      "Producción de biofilm (slime): polisacárido de adhesión intercelular que le permite adherirse al plástico y al metal, formando una comunidad protegida frente a antibióticos y fagocitos. Es su ÚNICO mecanismo patogénico relevante, y explica que solo cause enfermedad cuando hay un cuerpo extraño.",
+      "Escasa producción de toxinas y enzimas invasivas: es un patógeno de baja virulencia intrínseca.",
+      "Colonización cutánea universal, que actúa como reservorio permanente para la contaminación de dispositivos."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección de catéter venoso central y bacteriemia asociada",
+        "clinica": "Fiebre de bajo grado, a menudo sin foco aparente, en paciente portador de vía central; puede ser larvada durante días.",
+        "lesiones": "Biofilm en la superficie interna del catéter; a veces flebitis o supuración del punto de entrada.",
+        "clave": "Es la causa más frecuente de bacteriemia asociada a catéter. Un solo hemocultivo positivo sugiere contaminación; dos o más de venopunciones distintas sugieren infección real."
+      },
+      {
+        "cuadro": "Endocarditis sobre válvula protésica precoz (<1 año de la cirugía)",
+        "clinica": "Fiebre prolongada, soplo nuevo o cambiante, insuficiencia cardiaca; curso subagudo.",
+        "lesiones": "Absceso del anillo valvular, dehiscencia de la prótesis, vegetaciones.",
+        "clave": "Es el agente más frecuente de endocarditis protésica precoz; casi siempre requiere recambio quirúrgico de la válvula."
+      },
+      {
+        "cuadro": "Infección de prótesis articular tardía",
+        "clinica": "Dolor mecánico persistente y aflojamiento del implante, con escasa o nula fiebre y reactantes solo ligeramente elevados.",
+        "lesiones": "Biofilm sobre el implante con osteólisis periprotésica.",
+        "clave": "El cuadro larvado sin fiebre es característico: un dolor protésico persistente obliga a descartar infección aunque la analítica sea casi normal."
+      },
+      {
+        "cuadro": "Infección de derivación ventriculoperitoneal y de marcapasos",
+        "clinica": "Disfunción de la derivación, febrícula, meningitis de bajo grado; en el marcapasos, supuración del bolsillo.",
+        "lesiones": "Biofilm sobre el catéter o el electrodo.",
+        "clave": "Requiere retirada del dispositivo para la curación."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Su patogenicidad es casi enteramente dependiente de la presencia de un cuerpo extraño: sin dispositivo, rara vez causa enfermedad.",
+      "Es el contaminante más frecuente de los hemocultivos, lo que obliga a interpretar cada aislamiento con criterio clínico: número de sets positivos, tiempo diferencial de positivización y presencia de material protésico.",
+      "La mayoría de las cepas hospitalarias son resistentes a meticilina, por lo que el tratamiento empírico se hace con vancomicina, al contrario que en S. aureus.",
+      "Se diferencia de S. saprophyticus por la sensibilidad a novobiocina; S. saprophyticus es resistente y causa cistitis en mujeres jóvenes sexualmente activas.",
+      "La curación casi siempre exige retirar el dispositivo: la actividad antibiótica sobre el biofilm es limitada, salvo la rifampicina."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos pareados de vía y de venopunción periférica, punta de catéter, líquido articular o sonicado del implante, válvula explantada.",
+      "pruebas": [
+        "Cultivo con recuento diferencial de tiempo de positivización (>2 h antes en la muestra de catéter que en la periférica sugiere infección de catéter)",
+        "Prueba de la coagulasa (negativa) y de la novobiocina",
+        "Sonicación del implante retirado, que aumenta mucho el rendimiento frente al cultivo convencional",
+        "MALDI-TOF"
+      ],
+      "claves": "Diferenciar contaminación de infección verdadera es el problema diagnóstico central: exige ≥2 sets positivos con la misma cepa y contexto clínico compatible."
+    },
+    "tratamiento": {
+      "eleccion": "Vancomicina IV (la mayoría de cepas hospitalarias son resistentes a meticilina), asociada a rifampicina cuando hay material protésico que no puede retirarse.",
+      "alternativas": "Daptomicina o linezolid. Si la cepa es sensible a meticilina, cloxacilina o cefazolina.",
+      "resistencias": "Resistencia a meticilina en el 70-90% de las cepas hospitalarias. Nunca usar rifampicina en monoterapia: la resistencia aparece en días.",
+      "duracion": "Bacteriemia de catéter con retirada del dispositivo: 5-7 días. Endocarditis protésica: 6 semanas con recambio valvular. Prótesis articular: 3-6 meses según la estrategia quirúrgica.",
+      "notas": "La decisión clave no es el antibiótico sino la retirada del dispositivo. Cuando no puede retirarse, la combinación con rifampicina es lo único que ofrece actividad real sobre el biofilm."
+    },
+    "farmacos_relacionados": [
+      "INF-cloxacilina",
+      "INF-daptomicina",
+      "INF-nitrofurantoina",
+      "INF-rifampicina",
+      "INF-vancomicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 18 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones de dispositivos"
+  },
+  {
+    "id": "BGP-streptococcus-pyogenes",
+    "nombre": "Streptococcus pyogenes (grupo A)",
+    "grupo": "BGP",
+    "nivel": 1,
+    "clasificacion": "Coco grampositivo, catalasa NEGATIVO, beta-hemolítico, grupo A de Lancefield, sensible a bacitracina, PYR positivo",
+    "morfologia_tincion": "Cocos grampositivos dispuestos en cadenas. En agar sangre produce beta-hemólisis (halo transparente completo) y sus colonias son sensibles al disco de bacitracina.",
+    "mecanismo_patogenia": [
+      "Proteína M: principal factor de virulencia; antifagocítica (une factor H e inhibe la vía alternativa del complemento) y responsable de la tipificación epidemiológica. Ciertos tipos M son reumatógenos y otros nefritógenos.",
+      "Ácido hialurónico capsular: mimetismo molecular con el tejido conectivo humano, lo que dificulta el reconocimiento inmune.",
+      "Estreptolisina O (antigénica, base del test ASLO) y estreptolisina S (no antigénica, responsable de la beta-hemólisis en placa).",
+      "Exotoxinas pirogénicas (SpeA, SpeC): superantígenos responsables de la escarlatina y del shock tóxico estreptocócico.",
+      "Estreptocinasa, hialuronidasa y DNasa B: enzimas de diseminación que licuan el pus y disuelven la matriz, permitiendo la extensión rápida por los planos fasciales.",
+      "Mimetismo molecular entre la proteína M y la miosina cardiaca: base autoinmune de la fiebre reumática."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Faringoamigdalitis aguda",
+        "clinica": "Odinofagia intensa de comienzo brusco, fiebre alta, exudado amigdalar, adenopatías cervicales dolorosas y AUSENCIA de tos (criterios de Centor).",
+        "lesiones": "Amígdalas hipertróficas con exudado blanco-amarillento, petequias en el paladar blando.",
+        "clave": "Tratar no es solo por síntomas: erradicar el estreptococo previene la fiebre reumática (aunque no la glomerulonefritis)."
+      },
+      {
+        "cuadro": "Escarlatina",
+        "clinica": "Faringitis con exantema micropapuloso «en papel de lija», que respeta el triángulo nasogeniano (facies de Filatov) y se acentúa en pliegues (líneas de Pastia); lengua aframbuesada y descamación posterior.",
+        "lesiones": "Exantema eritematoso puntiforme confluente con descamación laminar en manos y pies a las 1-2 semanas.",
+        "clave": "Mediada por la exotoxina pirogénica; el exantema aparece 1-2 días después de la faringitis."
+      },
+      {
+        "cuadro": "Erisipela e impétigo",
+        "clinica": "Erisipela: placa eritematosa, sobreelevada, de BORDES BIEN DELIMITADOS, caliente y dolorosa, con fiebre. Impétigo: lesiones costrosas melicéricas periorificiales.",
+        "lesiones": "Afectación de la dermis superficial y los linfáticos (erisipela) frente a la epidermis (impétigo).",
+        "clave": "El borde neto y elevado distingue la erisipela de la celulitis, cuyos bordes son difusos."
+      },
+      {
+        "cuadro": "Fascitis necrosante y síndrome de shock tóxico estreptocócico",
+        "clinica": "Dolor DESPROPORCIONADO respecto a los hallazgos cutáneos, progresión en horas, anestesia cutánea, crepitación, shock y fallo multiorgánico.",
+        "lesiones": "Necrosis de la fascia superficial con trombosis de los vasos perforantes; la piel suprayacente puede parecer casi normal en las primeras horas.",
+        "clave": "Urgencia quirúrgica absoluta: el desbridamiento precoz salva la vida. Añadir clindamicina a la penicilina para bloquear la producción de toxina."
+      },
+      {
+        "cuadro": "Fiebre reumática aguda",
+        "clinica": "2-4 semanas después de una faringitis (NUNCA tras una infección cutánea): poliartritis migratoria de grandes articulaciones, carditis, corea de Sydenham, nódulos subcutáneos y eritema marginado (criterios de Jones).",
+        "lesiones": "Nódulos de Aschoff en el miocardio; valvulitis con afectación preferente de la mitral.",
+        "clave": "Es prevenible con el tratamiento antibiótico correcto de la faringitis, incluso iniciado hasta 9 días después del comienzo."
+      },
+      {
+        "cuadro": "Glomerulonefritis postestreptocócica",
+        "clinica": "1-3 semanas tras faringitis o 3-6 semanas tras impétigo: hematuria macroscópica «en agua de lavar carne», edema, hipertensión y oliguria.",
+        "lesiones": "Glomerulonefritis proliferativa endocapilar difusa con depósitos subepiteliales en «jorobas» y C3 sérico descendido.",
+        "clave": "A diferencia de la fiebre reumática, NO se previene con el tratamiento antibiótico de la infección previa y SÍ puede seguir a una infección cutánea."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Tras más de 80 años de uso, NO ha desarrollado resistencia a la penicilina: es el ejemplo canónico de bacteria universalmente sensible a un betalactámico.",
+      "Produce tanto enfermedad supurativa aguda como dos complicaciones no supurativas inmunológicas: fiebre reumática y glomerulonefritis.",
+      "La fiebre reumática solo sigue a la faringitis y se previene con antibiótico; la glomerulonefritis puede seguir a faringitis o piodermitis y NO se previene.",
+      "Se distingue de S. agalactiae (grupo B) por la sensibilidad a bacitracina y la positividad del PYR; el grupo B es resistente a bacitracina y CAMP positivo.",
+      "En las infecciones toxínicas graves, la clindamicina se añade no por su efecto bactericida sino por bloquear la síntesis de exotoxinas (efecto Eagle: en inóculos altos los betalactámicos pierden eficacia)."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis faríngeo de ambas amígdalas y pared posterior; aspirado o biopsia de tejido en la infección necrosante; hemocultivos en la enfermedad invasiva.",
+      "pruebas": [
+        "Test rápido de detección de antígeno (alta especificidad, sensibilidad 70-90%)",
+        "Cultivo en agar sangre con disco de bacitracina",
+        "Prueba PYR positiva",
+        "ASLO y anti-DNasa B para el diagnóstico retrospectivo de fiebre reumática y glomerulonefritis",
+        "En fascitis: exploración quirúrgica, que es a la vez diagnóstica y terapéutica"
+      ],
+      "claves": "Un test rápido negativo en un niño con alta sospecha clínica debe confirmarse con cultivo. En la fascitis necrosante, la prueba diagnóstica definitiva es el quirófano, no la imagen."
+    },
+    "tratamiento": {
+      "eleccion": "Penicilina V oral 10 días, amoxicilina 500 mg/8 h o 1 g/12 h 10 días, o penicilina G benzatina 1,2 MUI IM en dosis única.",
+      "alternativas": "En alérgicos: azitromicina, claritromicina o clindamicina (vigilando resistencias locales a macrólidos). En infección invasiva: penicilina G IV a dosis altas MÁS clindamicina.",
+      "resistencias": "Sensibilidad universal a penicilina. Resistencia a macrólidos variable según la zona (10-25%), lo que limita su uso empírico en alérgicos.",
+      "duracion": "10 días completos en la faringitis (las pautas más cortas erradican peor y no previenen la fiebre reumática). En fascitis necrosante, hasta 48-72 h después de la última cirugía y con estabilidad clínica.",
+      "notas": "La profilaxis secundaria de la fiebre reumática con penicilina benzatina cada 21-28 días se mantiene años: hasta los 21 años o 5 años tras el brote si no hubo carditis, y mucho más si hay valvulopatía establecida."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-ampicilina",
+      "INF-azitromicina",
+      "INF-cefalosporinas-orales",
+      "INF-cefazolina",
+      "INF-clindamicina",
+      "INF-daptomicina",
+      "INF-penicilina-g-benzatina",
+      "PED-DER-mupirocina",
+      "PED-DER-permetrina",
+      "PED-INF-amoxicilina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 19 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones estreptocócicas"
+  },
+  {
+    "id": "BGP-streptococcus-pneumoniae",
+    "nombre": "Streptococcus pneumoniae (neumococo)",
+    "grupo": "BGP",
+    "nivel": 1,
+    "clasificacion": "Diplococo grampositivo, catalasa negativo, ALFA-hemolítico, sensible a optoquina, soluble en bilis, capsulado",
+    "morfologia_tincion": "Diplococos grampositivos lanceolados «en llama de vela», enfrentados por su cara plana y rodeados de una cápsula visible como halo claro. En agar sangre da alfa-hemólisis (halo verdoso) y es sensible a optoquina, lo que lo separa del resto de estreptococos del grupo viridans.",
+    "mecanismo_patogenia": [
+      "CÁPSULA de polisacárido: el factor de virulencia esencial. Impide la fagocitosis; las cepas no capsuladas son avirulentas. Hay más de 90 serotipos, y la composición de las vacunas se define por ellos.",
+      "Neumolisina: citotoxina formadora de poros que destruye el epitelio respiratorio, inhibe el batido ciliar y activa el complemento.",
+      "Proteasa de IgA1: escinde la IgA secretora y facilita la colonización de la mucosa respiratoria.",
+      "Ácido teicoico y fragmentos de peptidoglucano: desencadenan una respuesta inflamatoria intensa, responsable de gran parte del daño en la meningitis.",
+      "Autolisina (LytA): lisa la propia bacteria y libera de golpe neumolisina y componentes de la pared, amplificando la inflamación — motivo por el que el inicio del antibiótico puede empeorar transitoriamente la meningitis y por el que se administra dexametasona antes."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía adquirida en la comunidad",
+        "clinica": "Comienzo brusco con escalofrío único e intenso, fiebre alta, tos con esputo herrumbroso, dolor pleurítico y soplo tubárico.",
+        "lesiones": "Condensación lobar con broncograma aéreo; clásicamente afecta a un lóbulo completo. Puede complicarse con derrame paraneumónico y empiema.",
+        "clave": "Es la primera causa de neumonía comunitaria típica y la principal causa de muerte por neumonía en el adulto."
+      },
+      {
+        "cuadro": "Meningitis bacteriana del adulto",
+        "clinica": "Fiebre, cefalea intensa, rigidez de nuca y alteración del nivel de conciencia; convulsiones y focalidad neurológica más frecuentes que en la meningocócica.",
+        "lesiones": "Exudado purulento predominante en la convexidad cerebral; alta tasa de complicaciones (hidrocefalia, infarto, sordera neurosensorial).",
+        "clave": "Es la causa más frecuente de meningitis bacteriana en el adulto y la que deja más secuelas. La dexametasona antes o con la primera dosis de antibiótico reduce la sordera y la mortalidad."
+      },
+      {
+        "cuadro": "Otitis media aguda y sinusitis",
+        "clinica": "Otalgia intensa con fiebre en el niño; en la sinusitis, dolor facial y rinorrea purulenta de más de 10 días.",
+        "lesiones": "Tímpano abombado, hiperémico y sin movilidad; ocupación de los senos.",
+        "clave": "Es el agente bacteriano más frecuente de ambas; el aumento de dosis de amoxicilina supera las cepas con sensibilidad intermedia."
+      },
+      {
+        "cuadro": "Sepsis fulminante en el paciente asplénico",
+        "clinica": "Fiebre, hipotensión y coagulación intravascular diseminada de progresión hipergaguda, con muerte en horas.",
+        "lesiones": "Púrpura fulminante, necrosis suprarrenal.",
+        "clave": "El asplénico no puede aclarar bacterias capsuladas: por eso la vacunación antineumocócica y las instrucciones ante fiebre son obligatorias en estos pacientes."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es el patógeno capsulado por excelencia: la cápsula define su virulencia, sus serotipos y el diseño de las vacunas conjugadas y de polisacáridos.",
+      "Se distingue del grupo viridans (que también es alfa-hemolítico) por la sensibilidad a optoquina y la solubilidad en bilis.",
+      "Su resistencia a penicilina NO se debe a betalactamasas sino a la alteración de las PBP: por eso añadir clavulánico no sirve de nada y sí sirve subir la dosis de amoxicilina.",
+      "Es el patógeno clásico del paciente asplénico, junto con Haemophilus influenzae y Neisseria meningitidis (las tres bacterias capsuladas).",
+      "La autolisina explica el empeoramiento inflamatorio inicial en la meningitis y justifica la dexametasona previa al antibiótico.",
+      "El antígeno neumocócico en orina permite un diagnóstico rápido y se mantiene positivo días después de iniciar el antibiótico."
+    ],
+    "diagnostico": {
+      "muestra": "Esputo de buena calidad (>25 leucocitos y <10 células epiteliales por campo), hemocultivos, líquido pleural, LCR, orina para antígeno.",
+      "pruebas": [
+        "Tinción de Gram del esputo o del LCR: diplococos grampositivos lanceolados",
+        "Cultivo en agar sangre con prueba de optoquina y solubilidad en bilis",
+        "ANTÍGENO NEUMOCÓCICO EN ORINA (sensibilidad ~70%, alta especificidad en el adulto)",
+        "PCR en LCR",
+        "Antibiograma con CMI a penicilina y a cefalosporinas (los puntos de corte son distintos para meningitis y para neumonía)"
+      ],
+      "claves": "El punto de corte de sensibilidad a penicilina es MUCHO más estricto en la meningitis que en la neumonía: una cepa «resistente» para meningitis puede ser perfectamente tratable con amoxicilina a dosis alta en una neumonía."
+    },
+    "tratamiento": {
+      "eleccion": "Neumonía: amoxicilina 1 g/8 h VO en el paciente ambulatorio; ceftriaxona 1-2 g/24 h IV en el ingresado. Meningitis: ceftriaxona 2 g/12 h MÁS vancomicina, con dexametasona.",
+      "alternativas": "Levofloxacino o moxifloxacino en alérgicos a betalactámicos. Macrólidos solo si se conoce la sensibilidad (alta resistencia en España).",
+      "resistencias": "Resistencia a penicilina por alteración de PBP (superable con dosis altas fuera del SNC). Resistencia a macrólidos superior al 25% por metilación ribosómica (erm), que es de alto nivel y NO se supera con dosis altas.",
+      "duracion": "Neumonía: 5-7 días, con al menos 48-72 h afebril y estable. Meningitis: 10-14 días. Otitis media: 5-10 días según la edad.",
+      "notas": "La prevención es central: vacuna conjugada en la infancia y en el adulto de riesgo, y vacunación obligatoria del asplénico, el inmunodeprimido y el mayor de 65 años."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-amoxicilina-clavulanico",
+      "INF-ampicilina",
+      "INF-azitromicina",
+      "INF-cefalosporinas-orales",
+      "INF-ceftriaxona",
+      "INF-levofloxacino",
+      "INF-linezolid",
+      "INF-moxifloxacino",
+      "INF-vancomicina",
+      "PED-INF-amoxicilina",
+      "PED-INF-amoxicilina-clavulanico",
+      "PED-NFR-prednisona-nefrotico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 19 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., caps. de neumonía y meningitis"
+  },
+  {
+    "id": "BGP-streptococcus-agalactiae",
+    "nombre": "Streptococcus agalactiae (grupo B)",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "Coco grampositivo, catalasa negativo, beta-hemolítico, grupo B de Lancefield, RESISTENTE a bacitracina, CAMP positivo, hipurato positivo",
+    "morfologia_tincion": "Cocos grampositivos en cadenas cortas. Beta-hemólisis débil en agar sangre; la prueba de CAMP (potenciación de la hemólisis en presencia de S. aureus, formando una punta de flecha) es característica.",
+    "mecanismo_patogenia": [
+      "Cápsula de polisacárido rica en ácido siálico: mimetiza el ácido siálico humano, inhibe la vía alternativa del complemento y bloquea la opsonización. El serotipo III es el más asociado a meningitis neonatal.",
+      "Beta-hemolisina/citolisina: daña el epitelio pulmonar y facilita la invasión desde el pulmón del recién nacido.",
+      "Capacidad de colonizar el tracto genital y digestivo materno de forma asintomática, constituyendo el reservorio para la transmisión vertical.",
+      "Adhesinas de superficie que permiten atravesar las membranas y las barreras epiteliales."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Sepsis neonatal precoz (<7 días de vida)",
+        "clinica": "En las primeras 24-48 h: distrés respiratorio, apneas, hipotensión, mala perfusión e inestabilidad térmica, con progresión rápida.",
+        "lesiones": "Neumonía con membranas hialinas indistinguible de la enfermedad de membrana hialina; sepsis con shock.",
+        "clave": "Adquirida por vía vertical durante el paso por el canal del parto; es la principal causa de sepsis neonatal precoz y el motivo del cribado universal en la gestante."
+      },
+      {
+        "cuadro": "Sepsis neonatal tardía y meningitis (7 días - 3 meses)",
+        "clinica": "Fiebre, irritabilidad, rechazo de la toma, fontanela abombada y convulsiones.",
+        "lesiones": "Meningitis purulenta, a menudo por el serotipo III, con riesgo de secuelas neurológicas graves.",
+        "clave": "La profilaxis intraparto previene la sepsis precoz pero NO la tardía."
+      },
+      {
+        "cuadro": "Infección en el adulto con comorbilidad (diabetes, cirrosis, cáncer)",
+        "clinica": "Celulitis, infección de pie diabético, artritis séptica, bacteriemia sin foco, endocarditis.",
+        "lesiones": "Infecciones de piel y partes blandas de evolución tórpida en el diabético.",
+        "clave": "Su incidencia en el adulto mayor diabético está aumentando y con frecuencia se pasa por alto."
+      },
+      {
+        "cuadro": "Infección puerperal e infección urinaria en la gestante",
+        "clinica": "Corioamnionitis, endometritis puerperal con fiebre y dolor uterino; bacteriuria asintomática.",
+        "lesiones": "Endometritis con loquios malolientes.",
+        "clave": "La bacteriuria por SGB en la gestante indica colonización masiva y obliga a profilaxis intraparto independientemente del cultivo vaginorrectal."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es el patógeno diana del cribado universal en la gestante: cultivo vaginorrectal entre las semanas 35 y 37 de gestación.",
+      "Se diferencia de S. pyogenes por ser resistente a bacitracina y CAMP positivo; es hipurato positivo.",
+      "La profilaxis antibiótica intraparto (no anteparto) es lo que previene la enfermedad: administrar penicilina al menos 4 horas antes del parto.",
+      "Su cápsula rica en ácido siálico es un ejemplo paradigmático de mimetismo molecular con el huésped.",
+      "En el adulto es un patógeno emergente del diabético y del anciano con comorbilidad, no solo un problema neonatal."
+    ],
+    "diagnostico": {
+      "muestra": "Cultivo vaginorrectal de cribado en la semana 35-37 de gestación; hemocultivos y LCR en el neonato; muestras de tejido o líquido articular en el adulto.",
+      "pruebas": [
+        "Cultivo en medio selectivo de enriquecimiento (caldo Todd-Hewitt) para el cribado gestacional",
+        "Prueba de CAMP e hidrólisis del hipurato",
+        "Aglutinación con antisuero del grupo B de Lancefield",
+        "PCR intraparto cuando no se dispone del cultivo de cribado"
+      ],
+      "claves": "El cultivo de cribado debe ser vaginal Y rectal: hacer solo el vaginal reduce mucho la sensibilidad."
+    },
+    "tratamiento": {
+      "eleccion": "Penicilina G IV (5 MUI de carga y luego 2,5-3 MUI/4 h) como profilaxis intraparto; ampicilina como alternativa. En el neonato, ampicilina más gentamicina.",
+      "alternativas": "En alérgicas de bajo riesgo: cefazolina. En alergia grave: clindamicina si la cepa es sensible, o vancomicina si es resistente o se desconoce.",
+      "resistencias": "Universalmente sensible a penicilina. Resistencia a clindamicina y a eritromicina en un 20-40% de las cepas, lo que obliga a solicitar antibiograma en las gestantes alérgicas.",
+      "duracion": "Profilaxis: desde el inicio del parto hasta el nacimiento, con al menos 4 h de antelación para ser eficaz. Meningitis neonatal: 14-21 días. Bacteriemia sin foco: 10 días.",
+      "notas": "El objetivo de la profilaxis no es esterilizar a la madre sino reducir el inóculo al que se expone el neonato durante el paso por el canal del parto."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-ampicilina",
+      "INF-cefazolina",
+      "INF-clindamicina",
+      "INF-penicilina-g-benzatina",
+      "INF-vancomicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 19 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones estreptocócicas"
+  },
+  {
+    "id": "BGP-enterococcus",
+    "nombre": "Enterococcus faecalis y Enterococcus faecium",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "Cocos grampositivos, catalasa negativos, grupo D de Lancefield, PYR positivos, capaces de crecer en NaCl al 6,5% y en bilis-esculina (característica diferencial)",
+    "morfologia_tincion": "Cocos grampositivos en parejas o cadenas cortas. Habitualmente gamma-hemolíticos (no hemolíticos) en agar sangre; ennegrecen el medio de bilis-esculina.",
+    "mecanismo_patogenia": [
+      "Virulencia intrínseca baja: su éxito clínico se debe casi por completo a su extraordinaria RESISTENCIA antibiótica y a su capacidad de sobrevivir en el ambiente hospitalario.",
+      "Resistencia intrínseca a cefalosporinas (todas), a cotrimoxazol in vivo, a clindamicina y a aminoglucósidos a dosis convencionales.",
+      "Sustancia de agregación y adhesinas que facilitan la adherencia al endocardio y al epitelio urinario.",
+      "Formación de biofilm sobre catéteres urinarios y válvulas.",
+      "Capacidad de adquirir y transferir determinantes de resistencia por plásmidos y transposones: fue el reservorio desde el que la resistencia a vancomicina (vanA) se transfirió experimentalmente a S. aureus."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección urinaria complicada y asociada a sonda",
+        "clinica": "Síndrome miccional o fiebre sin foco en el paciente sondado; con frecuencia se trata de colonización más que de infección real.",
+        "lesiones": "Biofilm sobre la sonda vesical.",
+        "clave": "Es la localización más frecuente. Distinguir colonización de infección evita tratamientos innecesarios que seleccionan resistencias."
+      },
+      {
+        "cuadro": "Endocarditis subaguda",
+        "clinica": "Fiebre prolongada, astenia, pérdida de peso, soplo y fenómenos embólicos; curso insidioso de semanas.",
+        "lesiones": "Vegetaciones sobre válvula nativa o protésica, habitualmente aórtica o mitral.",
+        "clave": "Es la tercera causa de endocarditis. En el varón mayor con endocarditis por E. faecalis hay que descartar neoplasia colorrectal, igual que con S. gallolyticus."
+      },
+      {
+        "cuadro": "Infección intraabdominal y biliar",
+        "clinica": "Fiebre y dolor abdominal en el postoperatorio o en la colangitis; suele formar parte de una flora polimicrobiana.",
+        "lesiones": "Absceso intraabdominal, colangitis.",
+        "clave": "Su papel patogénico real en la infección intraabdominal polimicrobiana es discutido; se trata específicamente en el inmunodeprimido, en la infección protésica o cuando es el único aislado."
+      },
+      {
+        "cuadro": "Bacteriemia asociada a catéter y sepsis nosocomial",
+        "clinica": "Fiebre en portador de vía central o paciente con estancia hospitalaria prolongada y antibioterapia previa de amplio espectro.",
+        "lesiones": "Biofilm en el catéter.",
+        "clave": "El uso previo de cefalosporinas selecciona enterococo: es el ejemplo clásico de infección por selección antibiótica."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Resistencia INTRÍNSECA a todas las cefalosporinas: por eso el tratamiento con ceftriaxona selecciona enterococo, y por eso hay que añadir ampicilina en la meningitis del mayor de 50 años para cubrir Listeria y en la profilaxis de endocarditis.",
+      "E. faecalis es sensible a ampicilina en la mayoría de los casos; E. faecium es mucho más resistente y con frecuencia requiere linezolid o daptomicina.",
+      "La resistencia a vancomicina (VRE, genes vanA/vanB) se debe a la sustitución del terminal D-Ala-D-Ala por D-Ala-D-Lac, que reduce mil veces la afinidad del glucopéptido.",
+      "Crece en bilis-esculina y en NaCl al 6,5%: esas dos pruebas lo separan del resto de estreptococos.",
+      "En la endocarditis se usa la sinergia betalactámico + aminoglucósido a dosis bajas, porque el aminoglucósido solo no penetra en la bacteria: el betalactámico le abre la pared.",
+      "Hoy se prefiere ampicilina + ceftriaxona a ampicilina + gentamicina en la endocarditis por E. faecalis, porque evita la nefrotoxicidad con la misma eficacia."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos, urocultivo, líquido peritoneal o biliar, válvula explantada.",
+      "pruebas": [
+        "Cultivo en agar bilis-esculina (ennegrecimiento) y crecimiento en NaCl 6,5%",
+        "Prueba PYR positiva",
+        "MALDI-TOF para diferenciar E. faecalis de E. faecium (decisión terapéutica clave)",
+        "Cribado de resistencia de alto nivel a aminoglucósidos, imprescindible para saber si la sinergia funcionará",
+        "Detección de genes van en las cepas resistentes a vancomicina"
+      ],
+      "claves": "Diferenciar E. faecalis de E. faecium cambia por completo el tratamiento: no es un detalle taxonómico."
+    },
+    "tratamiento": {
+      "eleccion": "E. faecalis: ampicilina (o amoxicilina). En endocarditis, ampicilina + ceftriaxona, o ampicilina + gentamicina. E. faecium: vancomicina si es sensible; si es VRE, linezolid o daptomicina.",
+      "alternativas": "Infección urinaria no complicada: fosfomicina o nitrofurantoína, que mantienen buena actividad. Linezolid y daptomicina para las cepas multirresistentes.",
+      "resistencias": "Resistencia intrínseca a cefalosporinas, clindamicina y cotrimoxazol in vivo. Resistencia adquirida a vancomicina (VRE), sobre todo en E. faecium. Resistencia de alto nivel a aminoglucósidos, que anula la sinergia.",
+      "duracion": "Endocarditis: 4-6 semanas. Bacteriemia de catéter: 7-14 días tras retirar el catéter. Infección urinaria: 5-7 días.",
+      "notas": "Antes de planificar la sinergia en una endocarditis hay que comprobar la ausencia de resistencia de alto nivel a aminoglucósidos: si existe, la combinación no aporta nada y solo añade toxicidad."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-ampicilina",
+      "INF-daptomicina",
+      "INF-fosfomicina",
+      "INF-gentamicina",
+      "INF-imipenem",
+      "INF-linezolid",
+      "INF-nitrofurantoina",
+      "INF-piperacilina-tazobactam",
+      "INF-vancomicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 19 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de endocarditis infecciosa"
+  },
+  {
+    "id": "BGP-listeria-monocytogenes",
+    "nombre": "Listeria monocytogenes",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "Bacilo grampositivo pequeño, no esporulado, anaerobio facultativo, catalasa positivo, con MOTILIDAD característica a 20-25 °C (en «paraguas» o «volteo») y crecimiento a 4 °C",
+    "morfologia_tincion": "Cocobacilos grampositivos, a menudo en empalizada o en formas cortas que pueden confundirse con neumococo o difteroides en la tinción de Gram del LCR. Beta-hemólisis débil en agar sangre.",
+    "mecanismo_patogenia": [
+      "Internalinas (InlA, InlB): median la entrada en las células epiteliales del intestino, en los hepatocitos y en el endotelio de la barrera hematoencefálica y de la placenta.",
+      "Listeriolisina O: rompe la membrana del fagosoma y permite a la bacteria escapar al citoplasma, donde escapa de los mecanismos microbicidas.",
+      "Polimerización de actina mediante ActA: forma una «cola de cometa» de actina que impulsa a la bacteria de una célula a otra SIN salir al espacio extracelular — así elude por completo a los anticuerpos.",
+      "Este ciclo intracelular explica que la defensa dependa de la inmunidad CELULAR (linfocitos T y macrófagos), y que los pacientes con inmunidad celular deprimida (corticoides, trasplante, embarazo, edad avanzada) sean los susceptibles.",
+      "Psicrofilia: crece a temperatura de refrigerador (4 °C), lo que le permite multiplicarse en alimentos refrigerados listos para consumo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Meningitis y romboencefalitis del adulto",
+        "clinica": "Meningitis en mayores de 50 años, inmunodeprimidos o alcohólicos, con curso más subagudo. La romboencefalitis cursa con afectación de pares craneales, ataxia y nistagmo.",
+        "lesiones": "Afectación característica del tronco del encéfalo (romboencefalitis) con microabscesos; el LCR puede tener predominio linfocitario y glucosa normal, simulando una meningitis vírica.",
+        "clave": "Es la razón por la que se añade AMPICILINA al tratamiento empírico de la meningitis en mayores de 50 años o inmunodeprimidos: las cefalosporinas NO cubren Listeria."
+      },
+      {
+        "cuadro": "Listeriosis del embarazo y neonatal",
+        "clinica": "En la gestante, un cuadro pseudogripal banal con fiebre y mialgias, a menudo sin síntomas neurológicos. En el feto y el neonato, el cuadro es devastador.",
+        "lesiones": "Granulomatosis infantiséptica: abscesos y granulomas diseminados en hígado, bazo, pulmón y piel del neonato. Corioamnionitis, aborto tardío, parto pretérmino y muerte fetal.",
+        "clave": "La desproporción entre la banalidad del cuadro materno y la gravedad fetal es el rasgo definitorio; ante fiebre inexplicada en la gestante hay que extraer hemocultivos."
+      },
+      {
+        "cuadro": "Gastroenteritis febril por listeria",
+        "clinica": "Diarrea acuosa, fiebre y mialgias 24 h después de una ingesta contaminada; autolimitada en el inmunocompetente.",
+        "lesiones": "Enteritis inespecífica.",
+        "clave": "Suele aparecer en brotes alimentarios; en el inmunocompetente no requiere tratamiento antibiótico."
+      },
+      {
+        "cuadro": "Bacteriemia del inmunodeprimido",
+        "clinica": "Fiebre sin foco en el paciente trasplantado, con neoplasia hematológica o en tratamiento con corticoides o anti-TNF.",
+        "lesiones": "Siembra secundaria a SNC o endocardio.",
+        "clave": "Los anti-TNF y los corticoides, al deprimir la inmunidad celular, multiplican el riesgo."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es INTRÍNSECAMENTE RESISTENTE a todas las cefalosporinas: este es el dato de mayor impacto clínico de todo su perfil, y la razón de añadir ampicilina en la meningitis empírica del paciente de riesgo.",
+      "Crece a 4 °C, lo que le permite multiplicarse en alimentos refrigerados: quesos frescos y de pasta blanda, patés, embutidos, ahumados y ensaladas preparadas.",
+      "Su motilidad a 20-25 °C, pero no a 37 °C, es una clave de laboratorio característica.",
+      "Se propaga de célula a célula mediante colas de actina sin exponerse al medio extracelular, lo que la hace inaccesible a los anticuerpos y dependiente de la inmunidad celular.",
+      "En el LCR puede dar un perfil «engañoso» con linfocitosis y glucosa normal, simulando meningitis vírica o tuberculosa.",
+      "Los grupos de riesgo son netos: embarazadas, mayores de 50-65 años, neonatos e inmunodeprimidos celulares."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos (imprescindibles: en la gestante suelen ser la única muestra positiva), LCR, líquido amniótico, placenta, meconio.",
+      "pruebas": [
+        "Hemocultivo y cultivo de LCR (el laboratorio debe ser advertido para no descartarlo como «difteroide contaminante»)",
+        "Tinción de Gram del LCR, de baja sensibilidad",
+        "Prueba de motilidad a 25 °C",
+        "PCR múltiple de meningitis, que la incluye",
+        "Resonancia magnética en la sospecha de romboencefalitis"
+      ],
+      "claves": "Un bacilo grampositivo en un hemocultivo o LCR NO debe descartarse como contaminante difteroide sin identificarlo: puede ser Listeria."
+    },
+    "tratamiento": {
+      "eleccion": "Ampicilina IV a dosis altas (2 g/4 h), asociada a gentamicina en la enfermedad grave por su sinergia bactericida.",
+      "alternativas": "Cotrimoxazol IV en alérgicos a betalactámicos (es el único otro fármaco con buena actividad y penetración en LCR). Meropenem tiene actividad, pero la experiencia clínica es menor.",
+      "resistencias": "Resistencia INTRÍNSECA a todas las cefalosporinas y a la fosfomicina. No se han descrito resistencias relevantes a ampicilina.",
+      "duracion": "Meningitis: 21 días. Romboencefalitis y absceso cerebral: 6 semanas. Bacteriemia sin afectación del SNC: 14 días. Listeriosis en el embarazo: 14 días.",
+      "notas": "La prevención en la embarazada y el inmunodeprimido es dietética: evitar quesos de pasta blanda no pasteurizados, patés refrigerados, ahumados y productos listos para consumo."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-ampicilina",
+      "INF-cotrimoxazol",
+      "INF-gentamicina",
+      "INF-meropenem"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 21 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de listeriosis"
+  }
+]

@@ -1,0 +1,286 @@
+[
+  {
+    "id": "PED-REU-paracetamol",
+    "nombre": "Paracetamol (pediatría)",
+    "sinonimos": [
+      "Acetaminofeno"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico y antipirético no opioide",
+    "subclase": "Antitérmico de primera elección en el niño",
+    "mecanismo": "Inhibición central de la síntesis de prostaglandinas, con acción sobre el centro termorregulador hipotalámico y sobre la percepción del dolor. No es antiinflamatorio ni antiagregante, por lo que carece de toxicidad gástrica, renal y hemorrágica: esa es la razón de que sea el antitérmico de elección en el niño, incluido el deshidratado, el asmático y el trombopénico.",
+    "espectro": null,
+    "dosis_pediatrica_base": "15 mg/kg/dosis cada 4-6 h (VO o rectal); 15 mg/kg/dosis cada 6 h IV en >10 kg",
+    "dosis_maxima": "60 mg/kg/día y nunca más de 4 g/día (dosis de adulto). En neonatos y prematuros, máximo 60 mg/kg/día con intervalos más largos",
+    "presentaciones": [
+      "Solución oral 100 mg/mL (gotas)",
+      "Jarabe 120 mg/5 mL y 250 mg/5 mL",
+      "Supositorios 150, 250 y 325 mg",
+      "Comprimidos 500 mg y 650 mg",
+      "Vial IV 10 mg/mL"
+    ],
+    "edad_minima": "Desde el nacimiento, incluidos prematuros con ajuste de intervalo",
+    "franjas_edad": [
+      {
+        "franja": "Prematuro <32 semanas",
+        "ajuste": "10 mg/kg/dosis cada 8-12 h; máximo 40 mg/kg/día. El metabolismo por sulfatación es inmaduro"
+      },
+      {
+        "franja": "Neonato a término (<28 días)",
+        "ajuste": "10-15 mg/kg/dosis cada 6-8 h; máximo 60 mg/kg/día"
+      },
+      {
+        "franja": "Lactante y niño (1 mes - 12 años)",
+        "ajuste": "15 mg/kg/dosis cada 4-6 h; máximo 60 mg/kg/día"
+      },
+      {
+        "franja": "≥12 años o >40 kg",
+        "ajuste": "Dosis de adulto: 500-1000 mg cada 6-8 h, máximo 4 g/día"
+      }
+    ],
+    "peculiaridad_pediatrica": "El niño metaboliza el paracetamol mayoritariamente por SULFATACIÓN (vía madura al nacer) en lugar de por glucuronoconjugación (que madura hacia los 10-12 años). Esa diferencia le confiere una MAYOR resistencia relativa a la hepatotoxicidad que al adulto: el umbral tóxico agudo es más alto y las intoxicaciones accidentales pediátricas tienen mejor pronóstico. Sin embargo, el riesgo real en pediatría no es la ingesta única masiva sino la SOBREDOSIS TERAPÉUTICA REPETIDA: dosis correctas administradas con intervalos demasiado cortos, o confusión entre las presentaciones de 100 mg/mL y de 24 mg/mL, durante varios días y con frecuencia en un niño con vómitos y mala ingesta (que depleta el glutatión).",
+    "indicaciones": [
+      {
+        "patologia": "Fiebre en el niño",
+        "dosis": "15 mg/kg/dosis",
+        "posologia": "Cada 4-6 h (máximo 4-5 dosis al día)",
+        "via": "VO",
+        "nota": "El objetivo es el CONFORT del niño, no normalizar el termómetro. La fiebre en sí no daña ni causa las convulsiones febriles"
+      },
+      {
+        "patologia": "Dolor leve-moderado (otitis, faringitis, postvacunal, dentición)",
+        "dosis": "15 mg/kg/dosis",
+        "posologia": "Cada 4-6 h",
+        "via": "VO",
+        "nota": "Analgesia de primera línea; en la otitis media la analgesia es tan importante como el antibiótico"
+      },
+      {
+        "patologia": "Analgesia en el neonato (procedimientos, postoperatorio)",
+        "dosis": "10-15 mg/kg/dosis",
+        "posologia": "Cada 6-8 h",
+        "via": "VO o IV",
+        "nota": "Reduce el consumo de opioides en el postoperatorio neonatal"
+      },
+      {
+        "patologia": "Cierre del ductus arterioso persistente en el prematuro",
+        "dosis": "15 mg/kg/dosis",
+        "posologia": "Cada 6 h, 3 días",
+        "via": "IV u VO",
+        "nota": "Alternativa al ibuprofeno con menor toxicidad renal y digestiva"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis calculada SIEMPRE por peso real, nunca por edad. Comprobar con la familia qué presentación tienen en casa y su concentración exacta.",
+      "titulacion": "No se titula. Se pauta con intervalo fijo si el dolor es continuo y a demanda si es la fiebre lo que se trata.",
+      "duracion": "Los días que dure el proceso febril o doloroso; si la fiebre persiste más de 3 días, reevaluar al niño en lugar de prolongar el antitérmico.",
+      "fin": "Suspensión brusca sin problema.",
+      "via": "VO de elección. La vía RECTAL tiene absorción errática e impredecible y debe reservarse a la intolerancia oral. IV en el hospital.",
+      "monitorizacion": "Ninguna de rutina. Si hay sospecha de sobredosis terapéutica repetida, transaminasas y paracetamolemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y casi completa por vía oral. La absorción rectal es lenta, incompleta y muy variable (biodisponibilidad 30-70%).",
+      "distribucion": "Amplia y uniforme.",
+      "metabolismo": "Hepático: en el niño predomina la SULFATACIÓN sobre la glucuronoconjugación, al contrario que en el adulto. Una fracción menor pasa por el CYP2E1 generando NAPQI, neutralizado por el glutatión.",
+      "eliminacion": "Renal, como conjugados.",
+      "vida_media": "2-3 h en el niño; 3-4 h en el neonato a término y hasta 11 h en el prematuro.",
+      "ajuste_renal": "FG <30: espaciar el intervalo a cada 8 h.",
+      "ajuste_hepatico": "Reducir la dosis diaria total; no está contraindicado en la hepatopatía estable.",
+      "interacciones": [
+        {
+          "con": "Preparados combinados de venta libre (antigripales, jarabes multicomponente)",
+          "efecto": "Sobredosis acumulativa inadvertida",
+          "gravedad": "alta",
+          "manejo": "Revisar con la familia todos los productos que da al niño, incluidos los de farmacia sin receta"
+        },
+        {
+          "con": "Rifampicina, fenobarbital, carbamazepina",
+          "efecto": "Inducen el CYP2E1 y aumentan la formación del metabolito tóxico",
+          "gravedad": "media",
+          "manejo": "Precaución con dosis máximas prolongadas"
+        },
+        {
+          "con": "Ayuno y vómitos prolongados",
+          "efecto": "Depleción de glutatión que reduce el umbral de hepatotoxicidad",
+          "gravedad": "media",
+          "manejo": "Revisar la dosis acumulada en el niño con vómitos y mala ingesta"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prácticamente ninguno a dosis correctas"
+      ],
+      "graves": [
+        "Hepatotoxicidad por sobredosis, habitualmente por ERROR DE DOSIFICACIÓN repetido o por confusión entre presentaciones",
+        "Reacciones cutáneas graves (excepcionales)",
+        "Hipotensión con la administración IV rápida en el neonato"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al paracetamol",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "El error pediátrico más frecuente y peligroso es la CONFUSIÓN ENTRE PRESENTACIONES: existen soluciones de 100 mg/mL y de 24 mg/mL (jarabe 120 mg/5 mL). Un cuidador que usa la jeringa de una con el frasco de la otra puede administrar cuatro veces la dosis. Hay que escribir siempre la dosis en MILILITROS de la presentación concreta que tiene la familia, y comprobar la concentración del envase.",
+      "NO se recomienda ALTERNAR sistemáticamente paracetamol e ibuprofeno: no mejora el confort de forma relevante, multiplica los errores de dosificación y transmite a la familia la idea equivocada de que hay que perseguir la temperatura.",
+      "El objetivo del antitérmico es que el niño esté CONFORTABLE, no que el termómetro marque 36,5 °C. Un niño con 38,5 °C que juega y bebe no necesita antitérmico.",
+      "Tratar la fiebre NO previene las convulsiones febriles: es un mito muy extendido que genera ansiedad familiar y sobredosificación.",
+      "La vía rectal tiene absorción errática: útil solo cuando el niño vomita, nunca como vía preferente.",
+      "En el niño la dosis se calcula SIEMPRE por peso real actualizado, no por edad ni por peso estimado: los niños del mismo año de vida pueden diferir el doble en peso."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la madre lactante es el analgésico de elección.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 59; AMIR Pediatría; Harrison 20.ª ed."
+  },
+  {
+    "id": "PED-REU-ibuprofeno",
+    "nombre": "Ibuprofeno (pediatría)",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "AINE (antiinflamatorio no esteroideo)",
+    "subclase": "Inhibidor no selectivo de COX-1 y COX-2",
+    "mecanismo": "Inhibición no selectiva de la ciclooxigenasa, con bloqueo de la síntesis de prostaglandinas. A diferencia del paracetamol, sí tiene efecto ANTIINFLAMATORIO, lo que lo hace preferible en el dolor con componente inflamatorio (traumatismo, artritis, otitis con inflamación intensa) y como antitérmico algo más potente y duradero.",
+    "espectro": null,
+    "dosis_pediatrica_base": "5-10 mg/kg/dosis cada 6-8 h (5 mg/kg como antitérmico, 10 mg/kg como analgésico-antiinflamatorio)",
+    "dosis_maxima": "40 mg/kg/día, sin superar 1200-2400 mg/día (dosis de adulto)",
+    "presentaciones": [
+      "Suspensión oral 100 mg/5 mL (2%)",
+      "Suspensión oral 200 mg/5 mL (4%)",
+      "Comprimidos 400 y 600 mg",
+      "Granulado"
+    ],
+    "edad_minima": "≥3 meses y ≥5-6 kg",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 3 meses",
+        "ajuste": "NO USAR (salvo indicación neonatológica específica para el cierre del ductus): función renal inmadura y riesgo aumentado"
+      },
+      {
+        "franja": "3 meses - 12 años",
+        "ajuste": "5-10 mg/kg/dosis cada 6-8 h; máximo 40 mg/kg/día"
+      },
+      {
+        "franja": "≥12 años o >40 kg",
+        "ajuste": "Dosis de adulto: 400-600 mg cada 6-8 h"
+      }
+    ],
+    "peculiaridad_pediatrica": "La contraindicación pediátrica que más importa en la práctica es la VARICELA: el uso de ibuprofeno en un niño con varicela se ha asociado de forma consistente a un aumento del riesgo de INFECCIÓN INVASIVA POR STREPTOCOCCUS PYOGENES, incluida la fascitis necrosante. En un niño con exantema vesiculoso el antitérmico debe ser paracetamol. Además, el riñón del lactante es especialmente vulnerable a la vasoconstricción por AINE en situaciones de deshidratación (gastroenteritis, fiebre alta con mala ingesta), que son precisamente las más frecuentes en pediatría: el ibuprofeno en un niño deshidratado es una causa evitable de fracaso renal agudo.",
+    "indicaciones": [
+      {
+        "patologia": "Fiebre en el niño mayor de 3 meses",
+        "dosis": "5-7 mg/kg/dosis",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Efecto algo más prolongado que el paracetamol; elegir uno u otro, no alternarlos de forma sistemática"
+      },
+      {
+        "patologia": "Dolor con componente inflamatorio: otitis media, traumatismo, dolor dental",
+        "dosis": "10 mg/kg/dosis",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "En la otitis media aguda, la analgesia adecuada es prioritaria y a menudo suficiente en las primeras 48 h de observación"
+      },
+      {
+        "patologia": "Artritis idiopática juvenil",
+        "dosis": "30-40 mg/kg/día repartidos",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Dosis antiinflamatoria plena, con control de función renal y hemograma"
+      },
+      {
+        "patologia": "Cierre del ductus arterioso persistente en el prematuro",
+        "dosis": "10 mg/kg inicial, luego 5 mg/kg/24 h dos dosis",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Indicación neonatológica específica, distinta del uso analgésico"
+      },
+      {
+        "patologia": "Dismenorrea en la adolescente",
+        "dosis": "400 mg",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Iniciar al comienzo de los síntomas o antes"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis por peso real, siempre con alimento o leche. Comprobar la concentración de la suspensión que tiene la familia (2% frente a 4%).",
+      "titulacion": "No se titula como antitérmico. En la artritis idiopática juvenil se usa la dosis antiinflamatoria plena desde el inicio.",
+      "duracion": "2-3 días como antitérmico o analgésico agudo; prolongada y monitorizada en la enfermedad reumática.",
+      "fin": "Suspensión brusca. Retirar de inmediato si el niño se deshidrata, vomita de forma persistente o desarrolla un exantema vesiculoso.",
+      "via": "VO (existe presentación IV hospitalaria).",
+      "monitorizacion": "En uso agudo, ninguna. En uso prolongado: hemograma, función renal y transaminasas periódicos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y casi completa; los alimentos retrasan el pico pero mejoran la tolerancia.",
+      "distribucion": "Alta unión a proteínas (>99%), lo que es especialmente relevante en el neonato por el desplazamiento de la BILIRRUBINA.",
+      "metabolismo": "Hepático por CYP2C9.",
+      "eliminacion": "Renal.",
+      "vida_media": "1,5-2 h en el niño; más prolongada en el neonato.",
+      "ajuste_renal": "EVITAR si hay deterioro de la función renal o deshidratación.",
+      "ajuste_hepatico": "Evitar en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Deshidratación por gastroenteritis o fiebre con mala ingesta",
+          "efecto": "Fracaso renal agudo por vasoconstricción de la arteriola aferente en un riñón ya hipoperfundido",
+          "gravedad": "alta",
+          "manejo": "NO administrar ibuprofeno al niño que vomita, tiene diarrea o bebe poco: usar paracetamol"
+        },
+        {
+          "con": "Corticoides",
+          "efecto": "Riesgo aditivo de lesión de la mucosa gástrica",
+          "gravedad": "media",
+          "manejo": "Evitar la asociación prolongada"
+        },
+        {
+          "con": "Anticoagulantes y antiagregantes",
+          "efecto": "Riesgo hemorrágico",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Metotrexato (artritis idiopática juvenil)",
+          "efecto": "Reduce su aclaramiento renal y aumenta su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Vigilancia hematológica; la asociación se usa con control estrecho en reumatología pediátrica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias epigástricas y náuseas",
+        "Vómitos",
+        "Cefalea"
+      ],
+      "graves": [
+        "FRACASO RENAL AGUDO en el niño deshidratado (la complicación pediátrica más relevante en la práctica)",
+        "Hemorragia digestiva",
+        "Infección invasiva por S. pyogenes en el contexto de VARICELA",
+        "Broncoespasmo en el asmático con intolerancia a AINE",
+        "Reacciones cutáneas graves",
+        "Meningitis aséptica"
+      ]
+    },
+    "contraindicaciones": [
+      "Menores de 3 meses o menos de 5-6 kg",
+      "VARICELA o exantema vesiculoso (riesgo de fascitis necrosante estreptocócica)",
+      "Deshidratación, vómitos o diarrea activos",
+      "Insuficiencia renal",
+      "Hemorragia digestiva o úlcera",
+      "Asma con antecedente de broncoespasmo por AINE",
+      "Trombopenia o trastorno hemorrágico"
+    ],
+    "perlas": [
+      "Ante un niño febril con exantema, la pregunta obligatoria antes de dar ibuprofeno es: ¿podría ser varicela? Si hay vesículas, el antitérmico es paracetamol.",
+      "El niño con gastroenteritis y fiebre es exactamente el peor candidato al ibuprofeno: está hipovolémico y su filtrado glomerular depende de las prostaglandinas que el fármaco bloquea.",
+      "Existen dos concentraciones de suspensión (100 mg/5 mL y 200 mg/5 mL): prescribir en mililitros sin especificar cuál es un error grave y frecuente. Hay que indicar siempre la concentración.",
+      "Como antitérmico basta con 5-7 mg/kg; los 10 mg/kg se reservan para el efecto analgésico y antiinflamatorio. Usar sistemáticamente la dosis alta expone sin necesidad.",
+      "En la otitis media aguda del niño mayor sin criterios de gravedad, una analgesia bien pautada durante 48 h de observación evita en muchos casos el antibiótico.",
+      "En el neonato desplaza la bilirrubina de la albúmina: es una razón añadida para no usarlo en las primeras semanas de vida fuera de la indicación del ductus."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la madre lactante es el AINE de elección por su escaso paso a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 59; AMIR Pediatría; Harrison 20.ª ed."
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "id": "INM-rituximab",
+    "nombre": "Rituximab",
+    "sinonimos": [
+      "Anti-CD20"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunosupresor biológico",
+    "subclase": "Anticuerpo monoclonal quimérico anti-CD20",
+    "vs_clase": [
+      "**Anti-CD20: elimina los linfocitos B** (no los T). Linfomas B, artritis reumatoide seropositiva, vasculitis ANCA, nefropatía membranosa.",
+      "**Reactivación grave de HEPATITIS B** (cribado obligatorio) y **LMP por virus JC**.",
+      "**Reacciones infusionales** con la primera dosis (premedicación) e hipogammaglobulinemia con dosis repetidas."
+    ],
+    "mecanismo": "Se une al antígeno CD20 de la superficie del LINFOCITO B y lo destruye por tres vías: citotoxicidad dependiente de anticuerpo, citotoxicidad dependiente de complemento e inducción de apoptosis. El detalle que explica todo su perfil clínico es DÓNDE se expresa el CD20: está en el linfocito B desde el estadio pre-B hasta el B maduro, pero NO en la célula madre hematopoyética ni en la CÉLULA PLASMÁTICA. La consecuencia práctica es doble: la médula puede repoblar el compartimento B tras 6-12 meses, y las células plasmáticas de larga vida siguen produciendo anticuerpos, de modo que las inmunoglobulinas totales caen despacio y la memoria vacunal previa se conserva en buena medida. Su eficacia en enfermedades por autoanticuerpos se debe más a la eliminación del linfocito B como célula presentadora de antígeno y productora de citocinas que a la simple supresión de anticuerpos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "VASCULITIS ASOCIADA A ANCA (granulomatosis con poliangeítis y poliangeítis microscópica)",
+        "dosis": "375 mg/m² semanal durante 4 semanas, o 1 g en los días 1 y 15",
+        "posologia": "Ciclo de inducción y después mantenimiento cada 6 meses",
+        "via": "IV",
+        "nota": "Es al menos tan eficaz como la ciclofosfamida para la inducción y SIN toxicidad gonadal ni vesical: ha cambiado el tratamiento de estas vasculitis"
+      },
+      {
+        "patologia": "ARTRITIS REUMATOIDE con fracaso de anti-TNF",
+        "dosis": "1 g en los días 1 y 15, repetible cada 6-12 meses según la actividad",
+        "posologia": "Dos infusiones separadas 15 días, en ciclos",
+        "via": "IV",
+        "nota": "Es especialmente eficaz en el paciente SEROPOSITIVO (factor reumatoide o anti-CCP positivos)"
+      },
+      {
+        "patologia": "Linfoma no Hodgkin de células B y leucemia linfática crónica",
+        "dosis": "375 mg/m² por ciclo, asociado a quimioterapia (esquema R-CHOP)",
+        "posologia": "Con cada ciclo de quimioterapia",
+        "via": "IV",
+        "nota": "Su incorporación a la quimioterapia del linfoma B mejoró la supervivencia de forma sustancial; es uno de los grandes avances oncológicos de las últimas décadas"
+      },
+      {
+        "patologia": "PÉNFIGO vulgar",
+        "dosis": "1 g en los días 1 y 15",
+        "posologia": "Ciclo repetible",
+        "via": "IV",
+        "nota": "Ha pasado a ser tratamiento de PRIMERA LÍNEA junto con el corticoide, permitiendo reducir mucho la exposición esteroidea"
+      },
+      {
+        "patologia": "Esclerosis múltiple y neuromielitis óptica; nefropatía membranosa idiopática",
+        "dosis": "1 g en los días 1 y 15, con reciclado según recuento de linfocitos B",
+        "posologia": "Ciclos semestrales o guiados por CD19",
+        "via": "IV",
+        "dosis_objetivo": "Depleción de linfocitos B CD19 en sangre periférica",
+        "nota": "En la nefropatía membranosa se guía además por el descenso de los anticuerpos anti-PLA2R"
+      }
+    ],
+    "esquema": {
+      "inicio": "CRIBADO OBLIGATORIO de HEPATITIS B (HBsAg y anti-HBc), VHC, VIH y tuberculosis; determinar INMUNOGLOBULINAS basales; VACUNAR al menos 4 semanas antes (las vacunas puestas después del rituximab producen respuesta escasa o nula durante meses). Premedicación con corticoide, antihistamínico y paracetamol.",
+      "titulacion": "No se titula. El reciclado se guía por la actividad clínica o por la repoblación de linfocitos B CD19.",
+      "duracion": "Ciclos repetidos durante años en la enfermedad autoinmune.",
+      "fin": "Se espacian o se suspenden los ciclos en remisión mantenida. Hay que recordar que la depleción B persiste 6-12 meses después de la última dosis, y el riesgo infeccioso con ella.",
+      "via": "Intravenosa en perfusión lenta con escalado de velocidad (existe formulación subcutánea en hematología).",
+      "monitorizacion": "INMUNOGLOBULINAS antes de cada ciclo (la hipogammaglobulinemia es acumulativa), recuento de CD19, hemograma, y vigilancia de infecciones. Serología y carga viral de VHB en el portador."
+    },
+    "farmacocinetica": {
+      "absorcion": "Administración intravenosa.",
+      "distribucion": "Compartimento vascular; escasa penetración en el sistema nervioso central.",
+      "metabolismo": "Catabolismo proteico; no interacciona con el citocromo P450.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "Unos 21 días, pero el EFECTO BIOLÓGICO (depleción de linfocitos B) dura de 6 a 12 meses, mucho más allá de la presencia del fármaco.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "VACUNAS (vivas e inactivadas)",
+          "efecto": "Las VIVAS están contraindicadas; las INACTIVADAS producen una respuesta muy pobre durante 6-12 meses",
+          "gravedad": "alta",
+          "manejo": "Vacunar al menos 4 semanas ANTES del primer ciclo. Es una de las decisiones que más impacto tiene en la vida posterior del paciente"
+        },
+        {
+          "con": "Otros inmunosupresores y biológicos",
+          "efecto": "Suma de riesgo infeccioso",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha; evitar combinaciones no justificadas"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Hipotensión durante la infusión",
+          "gravedad": "media",
+          "manejo": "Suspender el antihipertensivo 12 horas antes de la perfusión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "REACCIONES INFUSIONALES: fiebre, escalofríos, rubor, prurito, hipotensión, broncoespasmo, sobre todo en la PRIMERA infusión",
+        "Infecciones respiratorias",
+        "Astenia y cefalea",
+        "Neutropenia tardía"
+      ],
+      "graves": [
+        "REACTIVACIÓN DE HEPATITIS B, potencialmente FULMINANTE y mortal: es la complicación más grave y la más evitable",
+        "HIPOGAMMAGLOBULINEMIA acumulativa con infecciones de repetición, que puede requerir inmunoglobulinas sustitutivas",
+        "LEUCOENCEFALOPATÍA MULTIFOCAL PROGRESIVA por virus JC (rara pero casi siempre mortal)",
+        "Síndrome de LISIS TUMORAL en la enfermedad hematológica de alta carga",
+        "Reacciones mucocutáneas graves",
+        "Neutropenia de inicio tardío, meses después del ciclo",
+        "Perforación intestinal en pacientes con afectación digestiva"
+      ]
+    },
+    "contraindicaciones": [
+      "HEPATITIS B activa o portador sin profilaxis antiviral",
+      "Infección activa grave",
+      "Hipogammaglobulinemia grave preexistente",
+      "Insuficiencia cardiaca grave (por la carga de volumen de la infusión y las reacciones)",
+      "Vacunas vivas concomitantes"
+    ],
+    "perlas": [
+      "La regla de oro antes de la primera dosis: CRIBAR HEPATITIS B, incluyendo el anti-HBc y no solo el HBsAg. El portador oculto puede sufrir una reactivación fulminante meses después, y es una de las complicaciones más evitables de toda la medicina: basta con profilaxis antiviral con entecavir o tenofovir.",
+      "VACUNAR ANTES. Después del rituximab, la respuesta a cualquier vacuna es pobre durante 6-12 meses. Una decisión de cinco minutos antes de empezar determina si el paciente estará protegido frente a la gripe, el neumococo o el SARS-CoV-2 durante el año siguiente.",
+      "El efecto dura MUCHO más que el fármaco: la depleción B persiste de 6 a 12 meses tras la última dosis. Un paciente que lleva medio año sin recibirlo sigue inmunodeprimido, y eso hay que tenerlo presente ante una fiebre o antes de una cirugía.",
+      "La HIPOGAMMAGLOBULINEMIA es ACUMULATIVA con los ciclos sucesivos. Hay que medir las inmunoglobulinas antes de cada ciclo; cuando caen y aparecen infecciones de repetición, la solución puede ser espaciar los ciclos o sustituir con inmunoglobulinas intravenosas.",
+      "El CD20 no está en la CÉLULA PLASMÁTICA, y de ahí dos consecuencias que parecen contradictorias y no lo son: la inmunidad vacunal previa se conserva bastante bien, pero las enfermedades mediadas por células plasmáticas de larga vida responden peor de lo esperado.",
+      "En las VASCULITIS ANCA ha desplazado a la ciclofosfamida para la inducción: igual de eficaz y sin infertilidad ni cistitis hemorrágica ni riesgo de cáncer vesical. Es un cambio que importa especialmente en pacientes jóvenes.",
+      "Las REACCIONES INFUSIONALES se concentran en la primera dosis y se manejan con premedicación y con una velocidad de infusión escalonada; no suelen ser alergia verdadera y no impiden continuar el tratamiento.",
+      "La NEUTROPENIA TARDÍA aparece meses después del ciclo y sorprende porque nadie la relaciona con un fármaco administrado hace tanto tiempo."
+    ],
+    "embarazo_lactancia": "Se recomienda evitarlo durante el embarazo y usar anticoncepción hasta 12 meses después de la última dosis. La exposición en el segundo y tercer trimestre produce DEPLECIÓN DE LINFOCITOS B en el recién nacido, que se recupera en unos meses pero contraindica las vacunas vivas en ese periodo. Compatible con la lactancia: el paso a la leche es despreciable y el lactante lo digiere.",
+    "micro_relacionado": [
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías EULAR de vasculitis ANCA; recomendaciones sobre profilaxis de reactivación del VHB"
+  },
+  {
+    "id": "INM-tocilizumab",
+    "nombre": "Tocilizumab (y otros inhibidores de IL-6)",
+    "sinonimos": [
+      "Anti-IL6R"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Inmunosupresor biológico",
+    "subclase": "Anticuerpo monoclonal frente al receptor de la interleucina 6",
+    "vs_clase": [
+      "**Bloquea la IL-6**: **enmascara la fiebre y la PCR** (una infección grave puede cursar con PCR normal).",
+      "**Indicaciones propias**: arteritis de células gigantes, síndrome de liberación de citocinas, artritis reumatoide, COVID-19 grave.",
+      "**Perforación intestinal** (diverticulitis) y elevación de lípidos y transaminasas."
+    ],
+    "mecanismo": "Bloquea el receptor de la INTERLEUCINA 6, tanto en su forma de membrana como soluble. La IL-6 es la citocina responsable de la mayor parte de la RESPUESTA DE FASE AGUDA: induce la síntesis hepática de proteína C reactiva, fibrinógeno y HEPCIDINA, produce fiebre, estimula la osteoclastogénesis y activa al linfocito T. Bloquearla tiene dos consecuencias clínicas que hay que anticipar. La primera es terapéutica: mejora la anemia de la inflamación crónica al bajar la hepcidina y liberar el hierro secuestrado en los macrófagos. La segunda es diagnóstica y peligrosa: al suprimir la fase aguda, la PROTEÍNA C REACTIVA y la FIEBRE dejan de subir aunque haya una infección grave, de modo que el paciente puede tener una perforación intestinal o una sepsis con una analítica engañosamente tranquila.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ARTRITIS REUMATOIDE con fracaso de metotrexato o de anti-TNF",
+        "dosis": "8 mg/kg IV cada 4 semanas, o 162 mg SC semanal",
+        "posologia": "Mensual IV o semanal SC",
+        "via": "IV",
+        "nota": "Es de los pocos biológicos con eficacia demostrada en MONOTERAPIA comparable a la de la combinación con metotrexato, lo que importa en el paciente que no lo tolera"
+      },
+      {
+        "patologia": "ARTERITIS DE CÉLULAS GIGANTES",
+        "dosis": "162 mg SC semanal",
+        "posologia": "Semanal",
+        "via": "SC",
+        "nota": "Permite reducir mucho la exposición acumulada a corticoide, que en esta enfermedad de pacientes mayores es la principal fuente de morbilidad"
+      },
+      {
+        "patologia": "Síndrome de LIBERACIÓN DE CITOCINAS por células CAR-T",
+        "dosis": "8 mg/kg IV, repetible hasta 4 dosis",
+        "posologia": "Dosis repetible cada 8 horas si no hay respuesta",
+        "via": "IV",
+        "nota": "Es el ANTÍDOTO específico de esta complicación, y su disponibilidad es un requisito para poder administrar CAR-T"
+      },
+      {
+        "patologia": "Artritis idiopática juvenil sistémica y poliarticular",
+        "dosis": "8-12 mg/kg IV cada 2 semanas según peso",
+        "posologia": "Cada 2 semanas",
+        "via": "IV",
+        "nota": "Muy eficaz en la forma sistémica (enfermedad de Still), donde la IL-6 tiene un papel central"
+      },
+      {
+        "patologia": "COVID-19 grave con hiperinflamación",
+        "dosis": "8 mg/kg IV en dosis única",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Asociado a corticoide en el paciente con insuficiencia respiratoria y elevación de reactantes"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente, hepatitis B y C, y VIH; hemograma, transaminasas y perfil lipídico basales; descartar diverticulitis y antecedentes de perforación intestinal; actualizar vacunas.",
+      "titulacion": "Dosis fija; se ajusta a la baja o se suspende temporalmente ante neutropenia, trombopenia o elevación de transaminasas.",
+      "duracion": "Prolongada mientras mantenga eficacia y seguridad; dosis única o pocas dosis en el síndrome de liberación de citocinas.",
+      "fin": "Suspensión ante infección grave y antes de cirugía mayor, teniendo presente que la ausencia de fiebre y de proteína C reactiva no descarta complicaciones.",
+      "via": "Intravenosa mensual o subcutánea semanal.",
+      "monitorizacion": "Hemograma, transaminasas y perfil LIPÍDICO a las 4-8 semanas y después periódicamente. Vigilancia CLÍNICA de infección, sin apoyarse en la proteína C reactiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad subcutánea del 80%.",
+      "distribucion": "Compartimento vascular e intersticial.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Sistema reticuloendotelial, con cinética no lineal.",
+      "vida_media": "Hasta 13 días, dependiente de la dosis.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "Suspender si las transaminasas superan 5 veces el límite superior de la normalidad.",
+      "interacciones": [
+        {
+          "con": "Sustratos del CYP3A4, CYP2C9 y CYP1A2 (estatinas, anticonceptivos, WARFARINA, ciclosporina, teofilina, omeprazol)",
+          "efecto": "La IL-6 INHIBE la expresión de los citocromos; al bloquearla, la actividad enzimática se NORMALIZA y las concentraciones de estos fármacos CAEN",
+          "gravedad": "alta",
+          "manejo": "Es una interacción contraintuitiva y muy elegante: no es el fármaco el que induce el citocromo, es la desaparición de la inflamación la que lo desinhibe. Vigilar el INR (puede bajar) y los niveles de ciclosporina en las semanas siguientes"
+        },
+        {
+          "con": "Otros biológicos y anti-TNF",
+          "efecto": "Riesgo infeccioso aditivo sin ganancia",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la combinación"
+        },
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección vacunal",
+          "gravedad": "alta",
+          "manejo": "Contraindicadas; administrarlas antes de iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación de TRANSAMINASAS",
+        "NEUTROPENIA y trombopenia",
+        "DISLIPIDEMIA con aumento del colesterol total y LDL",
+        "Infecciones respiratorias altas",
+        "Reacción local en el punto de inyección",
+        "Hipertensión"
+      ],
+      "graves": [
+        "PERFORACIÓN INTESTINAL, sobre todo en pacientes con DIVERTICULOSIS o en tratamiento con corticoides: es su complicación más característica y se presenta SIN fiebre ni elevación de reactantes",
+        "Infecciones graves y oportunistas, incluida la tuberculosis",
+        "Hepatotoxicidad grave",
+        "Reactivación de hepatitis B",
+        "Reacciones anafilácticas",
+        "Neutropenia grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa grave",
+      "Neutropenia inferior a 500 o plaquetas inferiores a 50.000",
+      "Transaminasas más de 5 veces el límite superior de la normalidad",
+      "Antecedente de perforación intestinal o diverticulitis complicada (precaución máxima)",
+      "Vacunas vivas concomitantes"
+    ],
+    "perlas": [
+      "La advertencia que define el seguimiento de este fármaco: BORRA la PROTEÍNA C REACTIVA y la FIEBRE. Un paciente en tratamiento con tocilizumab puede tener una sepsis, un absceso o una perforación intestinal con una PCR normal y sin fiebre. Hay que diagnosticar por la clínica y por la imagen, y no dejarse tranquilizar por una analítica que el propio fármaco ha falsificado.",
+      "La PERFORACIÓN INTESTINAL es su complicación más característica, sobre todo en pacientes con divertículos y con corticoides asociados. Un dolor abdominal en un paciente con tocilizumab merece una TC, no una espera vigilante.",
+      "La interacción con el CITOCROMO P450 es al revés de lo que uno espera: la inflamación crónica INHIBE los citocromos, así que al apagar la IL-6 el hígado recupera su capacidad metabólica y los niveles de warfarina, ciclosporina o anticonceptivos CAEN. No es el fármaco el que induce, es la inflamación la que dejaba de dejar trabajar al hígado.",
+      "Mejora la ANEMIA de la inflamación crónica al bajar la HEPCIDINA y liberar el hierro secuestrado en los macrófagos: un efecto secundario beneficioso que se explica directamente desde el mecanismo.",
+      "Es uno de los pocos biológicos igual de eficaz en MONOTERAPIA que asociado a metotrexato, lo que lo hace atractivo en el paciente que no tolera el metotrexato.",
+      "En la ARTERITIS DE CÉLULAS GIGANTES su valor no está solo en controlar la enfermedad sino en ahorrar CORTICOIDE: en pacientes de 75 años, meses de prednisona a dosis altas producen fracturas, diabetes e infecciones que a menudo pesan más que la propia arteritis.",
+      "Es el antídoto del SÍNDROME DE LIBERACIÓN DE CITOCINAS de las terapias CAR-T, y ningún centro puede administrar CAR-T sin tenerlo disponible: un ejemplo de cómo un inmunosupresor se convierte en fármaco de rescate en cuidados intensivos."
+    ],
+    "embarazo_lactancia": "Datos limitados; se recomienda evitarlo y usar anticoncepción hasta 3 meses después de la última dosis, cambiando a un fármaco con más experiencia si se planifica el embarazo. Como toda IgG, atraviesa la placenta en el tercer trimestre, con las implicaciones consiguientes para las vacunas vivas del lactante. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías EULAR de artritis reumatoide y de arteritis de células gigantes"
+  }
+]

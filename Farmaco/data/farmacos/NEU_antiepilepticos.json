@@ -1,0 +1,262 @@
+[
+  {
+    "id": "NEU-levetiracetam",
+    "nombre": "Levetiracetam",
+    "sinonimos": [
+      "Brivaracetam (análogo de segunda generación)"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiepiléptico",
+    "subclase": "Amplio espectro: ligando de la proteína SV2A",
+    "vs_clase": [
+      "**Amplio espectro, sin interacciones y sin metabolismo hepático**: el antiepiléptico más «manejable» (IV disponible, sin niveles).",
+      "**Efectos adversos PSIQUIÁTRICOS propios** (irritabilidad, agresividad, depresión).",
+      "**Eliminación renal**: ajustar en ERC. Seguro en el embarazo."
+    ],
+    "mecanismo": "Se une a la proteína SV2A de la vesícula sináptica, modulando la liberación de neurotransmisores. Es un mecanismo ÚNICO entre los antiepilépticos: no actúa sobre canales de sodio, calcio ni sobre el receptor GABA, y de ahí derivan sus dos rasgos definitorios: no interacciona por citocromo P450 (no es inductor ni inhibidor) y su perfil de efectos adversos es fundamentalmente CONDUCTUAL en lugar de sedativo o cutáneo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis focales con o sin generalización secundaria",
+        "dosis": "Inicio 250-500 mg/12 h; mantenimiento 500-1500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Antiepiléptico de primera línea por su ausencia de interacciones y su tolerabilidad; no requiere niveles plasmáticos"
+      },
+      {
+        "patologia": "Epilepsia generalizada idiopática y crisis mioclónicas",
+        "dosis": "500-1500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Es de amplio espectro: a diferencia de la carbamazepina, no agrava las mioclonías ni las ausencias"
+      },
+      {
+        "patologia": "Estado epiléptico establecido tras las benzodiacepinas",
+        "dosis": "60 mg/kg IV (máximo 4500 mg) en 10 minutos",
+        "posologia": "Dosis de carga única",
+        "via": "IV",
+        "nota": "Equivalente en eficacia a valproato y fenitoína en el estado epiléptico, y con mejor perfil de seguridad"
+      },
+      {
+        "patologia": "Profilaxis de crisis en el paciente neuroquirúrgico o con lesión cerebral",
+        "dosis": "500-1000 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "IV o VO",
+        "nota": "Ha desplazado a la fenitoína en esta indicación por no interaccionar con la quimioterapia ni con los corticoides"
+      },
+      {
+        "patologia": "Epilepsia en el paciente polimedicado, oncológico, trasplantado o con VIH",
+        "dosis": "500-1500 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "Indicación de elección precisamente por su ausencia de metabolismo hepático significativo"
+      }
+    ],
+    "esquema": {
+      "inicio": "250-500 mg/12 h. En el estado epiléptico se administra directamente la dosis de carga intravenosa.",
+      "titulacion": "Incrementos de 500 mg/día cada 2 semanas hasta el control de las crisis o la dosis máxima de 3000 mg/día.",
+      "duracion": "Prolongada. Puede plantearse la retirada tras 2-5 años libre de crisis, según el síndrome epiléptico, el EEG y la resonancia.",
+      "fin": "NUNCA retirada brusca: la supresión súbita de cualquier antiepiléptico puede desencadenar un estado epiléptico. Descenso a lo largo de 2-3 meses.",
+      "via": "VO (comprimido o solución) e IV, con equivalencia 1:1 entre ambas, lo que facilita el cambio de vía.",
+      "monitorizacion": "NO precisa niveles plasmáticos, a diferencia de la fenitoína o el valproato. Lo que hay que monitorizar es la CONDUCTA: irritabilidad, agresividad y ánimo, preguntando también a la familia. Función renal para ajustar la dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y casi completa (biodisponibilidad superior al 95%), no afectada por el alimento.",
+      "distribucion": "Unión a proteínas MENOR del 10%: no desplaza a otros fármacos ni es desplazado, otra razón de su limpieza en interacciones.",
+      "metabolismo": "Mínimo y NO hepático: se hidroliza en sangre por esterasas, sin participación del citocromo P450.",
+      "eliminacion": "RENAL, dos tercios inalterado. Es su única vulnerabilidad farmacocinética.",
+      "vida_media": "6-8 h.",
+      "ajuste_renal": "OBLIGATORIO: FG 50-79, 500-1000 mg/12 h; FG 30-49, 250-750 mg/12 h; FG por debajo de 30, 250-500 mg/12 h. En hemodiálisis se añade una dosis suplementaria tras la sesión.",
+      "ajuste_hepatico": "No precisa ajuste salvo en la cirrosis grave, donde se reduce por el deterioro renal asociado.",
+      "interacciones": [
+        {
+          "con": "Prácticamente todos los fármacos",
+          "efecto": "NO interacciona por citocromo P450: no es inductor ni inhibidor y apenas se une a proteínas",
+          "gravedad": "baja",
+          "manejo": "Es su principal ventaja clínica y el motivo de elegirlo en el paciente polimedicado, oncológico o trasplantado"
+        },
+        {
+          "con": "Alcohol y depresores del sistema nervioso central",
+          "efecto": "Suma de somnolencia y alteración de la coordinación",
+          "gravedad": "media",
+          "manejo": "Advertir sobre la conducción y el consumo de alcohol"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital (inductores)",
+          "efecto": "Pueden reducir ligeramente sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Relevancia clínica escasa; vigilar el control de las crisis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SOMNOLENCIA y astenia, sobre todo al inicio",
+        "IRRITABILIDAD, agresividad y labilidad emocional (el efecto que más veces obliga a retirarlo)",
+        "Cefalea y mareo",
+        "Infecciones respiratorias altas"
+      ],
+      "graves": [
+        "TRASTORNOS PSIQUIÁTRICOS: depresión, ansiedad, psicosis e IDEACIÓN SUICIDA, que aparecen en las primeras semanas",
+        "Agresividad grave, especialmente en niños, adolescentes y personas con discapacidad intelectual previa",
+        "Citopenias (neutropenia, trombocitopenia), poco frecuentes",
+        "Reacciones cutáneas graves (excepcionales, mucho menos que con los antiepilépticos clásicos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al levetiracetam o a los derivados de la pirrolidona",
+      "Precaución (no contraindicación) en el paciente con trastorno psiquiátrico previo o antecedente de agresividad"
+    ],
+    "perlas": [
+      "Su ventaja decisiva es lo que NO hace: no induce ni inhibe el citocromo P450 y apenas se une a proteínas. Por eso es el antiepiléptico de elección en el paciente oncológico (no altera la quimioterapia), en el trasplantado (no toca el tacrolimús), en el paciente con VIH (no interfiere con los antirretrovirales) y en el anticoagulado.",
+      "La contrapartida está en la CONDUCTA. La irritabilidad y la agresividad son frecuentes, aparecen en las primeras semanas y a menudo no las refiere el paciente sino la familia. Hay que preguntar activamente y a un conviviente: es la causa más frecuente de retirada, y muchas veces se atribuye a la epilepsia en lugar de al fármaco.",
+      "Existe un antídoto conductual sencillo y poco conocido: la PIRIDOXINA (vitamina B6) a 50-100 mg/día mejora la irritabilidad en una proporción apreciable de pacientes y puede evitar tener que cambiar de antiepiléptico.",
+      "Su única vulnerabilidad farmacocinética es RENAL: el ajuste por filtrado glomerular es obligatorio, y no hacerlo en el anciano produce somnolencia y ataxia que se atribuyen a la edad o a la propia epilepsia.",
+      "Es de AMPLIO ESPECTRO, lo que importa cuando el tipo de crisis no está claro: a diferencia de la carbamazepina, no agrava mioclonías ni ausencias. Ante una epilepsia no clasificada, un fármaco de amplio espectro es la elección prudente.",
+      "No requiere niveles plasmáticos, lo que simplifica mucho el seguimiento frente a fenitoína o valproato.",
+      "La equivalencia 1:1 entre la vía oral y la intravenosa hace muy sencillo el cambio de vía en el paciente ingresado que deja de tolerar."
+    ],
+    "embarazo_lactancia": "Es, junto con la lamotrigina, el antiepiléptico con MEJOR perfil en el embarazo: bajo riesgo de malformaciones. Sus concentraciones descienden durante la gestación y suele necesitar aumento de dosis con control clínico. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; Harrison 20.ª ed., cap. de convulsiones y epilepsia"
+  },
+  {
+    "id": "NEU-valproato",
+    "nombre": "Ácido valproico (valproato sódico)",
+    "sinonimos": [
+      "Valproato",
+      "Divalproato"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiepiléptico",
+    "subclase": "Amplio espectro y estabilizador del ánimo, mecanismo múltiple",
+    "vs_clase": [
+      "**El más eficaz en las epilepsias GENERALIZADAS idiopáticas** y estabilizador del ánimo.",
+      "**TERATÓGENO MAYOR** (defectos del tubo neural, deterioro cognitivo): **contraindicado en la mujer en edad fértil** salvo programa de prevención.",
+      "**INHIBIDOR enzimático**: duplica la lamotrigina. **Hepatotoxicidad, pancreatitis, hiperamoniemia**, temblor y aumento de peso.",
+      "Los **carbapenémicos hunden sus niveles**."
+    ],
+    "mecanismo": "Actúa por VARIOS mecanismos simultáneos, lo que explica su amplísimo espectro: bloquea canales de sodio dependientes de voltaje, bloquea canales de calcio tipo T (los responsables de las ausencias), aumenta la disponibilidad de GABA inhibiendo su degradación e inhibe las histona desacetilasas. Es el antiepiléptico más versátil que existe, y también el de perfil de seguridad más problemático: su teratogenicidad y su hepatotoxicidad han restringido drásticamente su uso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Epilepsia generalizada idiopática (ausencias, mioclonías, tónico-clónicas)",
+        "dosis": "Inicio 250-500 mg/12 h; mantenimiento 500-1500 mg/12 h (15-30 mg/kg/día)",
+        "posologia": "Cada 8-12 h, o dosis única nocturna con la formulación retardada",
+        "via": "VO",
+        "nota": "El más eficaz en la epilepsia mioclónica juvenil, pero PROSCRITO en mujeres en edad fértil salvo excepción justificada"
+      },
+      {
+        "patologia": "Estado epiléptico establecido",
+        "dosis": "Carga de 40 mg/kg IV (máximo 3000 mg) en 10 minutos",
+        "posologia": "Carga única seguida de perfusión",
+        "via": "IV",
+        "nota": "Alternativa al levetiracetam y a la fenitoína tras el fracaso de las benzodiacepinas"
+      },
+      {
+        "patologia": "Trastorno bipolar: episodio maníaco agudo y mantenimiento",
+        "dosis": "15-20 mg/kg/día, ajustada por niveles",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "dosis_objetivo": "Niveles plasmáticos de 50-125 µg/mL en la manía aguda",
+        "nota": "Alternativa al litio, especialmente en la manía con síntomas mixtos o ciclación rápida"
+      },
+      {
+        "patologia": "Profilaxis de la migraña",
+        "dosis": "500-1000 mg/día",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Eficaz pero de tercera línea por su toxicidad; en la mujer en edad fértil hay alternativas mucho más seguras"
+      }
+    ],
+    "esquema": {
+      "inicio": "250-500 mg/12 h con las comidas. Antes de iniciar: transaminasas, hemograma, coagulación y, en la mujer en edad fértil, PRUEBA DE EMBARAZO y programa de prevención con anticoncepción eficaz documentada.",
+      "titulacion": "Incrementos de 250-500 mg cada 3-7 días hasta el control o hasta niveles de 50-100 µg/mL.",
+      "duracion": "Prolongada; en la epilepsia mioclónica juvenil suele ser de por vida porque la recaída al retirarlo es muy alta.",
+      "fin": "Retirada MUY lenta (meses). La suspensión brusca puede precipitar un estado epiléptico o una recaída maníaca.",
+      "via": "VO (comprimidos, retardados o solución) e IV.",
+      "monitorizacion": "TRANSAMINASAS y hemograma antes de iniciar, a los 3 y 6 meses y después periódicamente. NIVELES plasmáticos (50-100 µg/mL). AMONIO ante somnolencia o confusión inexplicadas. Peso y perfil metabólico."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y completa; la formulación retardada permite dosis única diaria y reduce los picos.",
+      "distribucion": "Unión a proteínas del 90%, SATURABLE: por encima de ciertos niveles la fracción LIBRE aumenta de forma desproporcionada, de modo que un nivel total aparentemente normal puede corresponder a toxicidad. En el hipoalbuminémico esto es especialmente engañoso.",
+      "metabolismo": "HEPÁTICO extenso: glucuronidación, betaoxidación mitocondrial y, en menor medida, citocromo P450. Es INHIBIDOR enzimático, al contrario que la carbamazepina y la fenitoína.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "9-16 h.",
+      "ajuste_renal": "No precisa ajuste de la dosis, pero la uremia altera la unión a proteínas y aumenta la fracción libre.",
+      "ajuste_hepatico": "CONTRAINDICADO en la hepatopatía significativa y en las enfermedades mitocondriales.",
+      "interacciones": [
+        {
+          "con": "LAMOTRIGINA",
+          "efecto": "El valproato inhibe su glucuronidación y DUPLICA sus concentraciones, con riesgo de síndrome de Stevens-Johnson y necrólisis epidérmica tóxica",
+          "gravedad": "alta",
+          "manejo": "Al asociarlos, la lamotrigina se inicia a la MITAD de dosis y se titula aún más despacio de lo habitual"
+        },
+        {
+          "con": "CARBAPENÉMICOS (meropenem, imipenem, ertapenem)",
+          "efecto": "Desploman los niveles de valproato en 24-48 h (hasta un 90%) por un mecanismo no del todo aclarado, con reaparición de crisis",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación. Si el carbapenémico es imprescindible, CAMBIAR de antiepiléptico: subir la dosis de valproato no compensa la caída"
+        },
+        {
+          "con": "Fenobarbital, fenitoína, primidona",
+          "efecto": "El valproato inhibe su metabolismo y eleva sus concentraciones, con sedación y toxicidad",
+          "gravedad": "alta",
+          "manejo": "Vigilar niveles y clínica al asociarlos"
+        },
+        {
+          "con": "Antivitamina K, AAS",
+          "efecto": "Desplazamiento de la unión a proteínas y disfunción plaquetaria aditiva: riesgo hemorrágico",
+          "gravedad": "media",
+          "manejo": "Controlar el INR y vigilar el sangrado"
+        },
+        {
+          "con": "TOPIRAMATO",
+          "efecto": "Aumento del riesgo de HIPERAMONIEMIA y encefalopatía",
+          "gravedad": "alta",
+          "manejo": "Determinar amonio ante somnolencia o confusión en un paciente con esta combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas, náuseas y dispepsia",
+        "TEMBLOR postural fino (dosis-dependiente)",
+        "AUMENTO DE PESO, a veces marcado",
+        "Caída del cabello, que suele repoblar con textura rizada",
+        "Somnolencia y enlentecimiento cognitivo"
+      ],
+      "graves": [
+        "TERATOGENIA: la más alta de todos los antiepilépticos, con 10% de malformaciones mayores (defectos del tubo neural, cardiopatías, hipospadias) y hasta un 30-40% de trastornos del neurodesarrollo con descenso del cociente intelectual y autismo",
+        "HEPATOTOXICIDAD FULMINANTE, con riesgo máximo en menores de 2 años, politerapia y enfermedad mitocondrial (síndrome de Alpers-Huttenlocher por mutación de POLG)",
+        "PANCREATITIS aguda hemorrágica, impredecible y potencialmente mortal",
+        "ENCEFALOPATÍA HIPERAMONIÉMICA con niveles de valproato NORMALES",
+        "Trombocitopenia y disfunción plaquetaria",
+        "Síndrome de ovario poliquístico e hiperandrogenismo",
+        "Parkinsonismo y deterioro cognitivo reversibles en el uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "MUJERES EN EDAD FÉRTIL sin programa de prevención de embarazo, y EMBARAZO (salvo epilepsia refractaria sin alternativa)",
+      "Hepatopatía activa o antecedente familiar de hepatopatía grave por valproato",
+      "ENFERMEDADES MITOCONDRIALES conocidas o sospechadas (mutaciones POLG): riesgo de fallo hepático mortal",
+      "Trastornos del ciclo de la urea",
+      "Pancreatitis previa por valproato",
+      "Porfiria hepática"
+    ],
+    "perlas": [
+      "Es el antiepiléptico más EFICAZ de amplio espectro y a la vez el más PELIGROSO en la mujer en edad fértil, y esa tensión define todo su uso actual. Su teratogenicidad no es solo estructural (10% de malformaciones mayores): el problema mayor es el NEURODESARROLLO, con hasta un 30-40% de afectación cognitiva y mayor riesgo de autismo, un daño invisible al nacer que solo se manifiesta años después.",
+      "Por eso existe un PROGRAMA DE PREVENCIÓN DE EMBARAZO obligatorio: anticoncepción eficaz documentada, información firmada y revisión anual. Prescribirlo a una mujer en edad fértil sin ese circuito es hoy una mala praxis.",
+      "La interacción con CARBAPENÉMICOS es de las más espectaculares de la farmacología: los niveles caen hasta un 90% en 24-48 h y reaparecen las crisis. Y no se resuelve subiendo la dosis: hay que cambiar de antiepiléptico mientras dure el antibiótico.",
+      "La ENCEFALOPATÍA HIPERAMONIÉMICA es una trampa diagnóstica clásica porque ocurre con NIVELES DE VALPROATO NORMALES: el paciente está somnoliento o confuso, se mide el valproato, sale bien y se descarta el fármaco. Lo que hay que medir es el AMONIO.",
+      "En el menor de 2 años con politerapia, la hepatotoxicidad fulminante es un riesgo real y a menudo refleja una enfermedad MITOCONDRIAL no diagnosticada: ante una epilepsia de debut precoz con hepatopatía o regresión psicomotora, hay que pensar en POLG antes de usar valproato.",
+      "Con LAMOTRIGINA hay que reducir a la mitad la dosis de esta al asociarlas: el valproato duplica sus niveles y es la combinación clásicamente implicada en el Stevens-Johnson.",
+      "Su otra vida es como ESTABILIZADOR DEL ÁNIMO en el trastorno bipolar, donde compite con el litio y comparte exactamente los mismos problemas de teratogenicidad."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo salvo epilepsia refractaria sin alternativa posible. Es el antiepiléptico más teratógeno, tanto estructural como en el neurodesarrollo. Si es inevitable, la menor dosis eficaz, formulación retardada, monoterapia y ácido fólico a dosis altas antes de la concepción. Compatible con la lactancia (paso escaso a la leche).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; Harrison 20.ª ed., caps. de epilepsia y trastorno bipolar"
+  }
+]

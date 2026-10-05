@@ -1,0 +1,291 @@
+[
+  {
+    "id": "PED-INF-ceftriaxona",
+    "nombre": "Ceftriaxona (pediatría)",
+    "sinonimos": [
+      "Cefotaxima (alternativa en el neonato)"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antibiótico betalactámico: cefalosporina de 3.ª generación",
+    "subclase": "Cefalosporina parenteral de vida media larga",
+    "mecanismo": "Inhibe las proteínas fijadoras de penicilina y con ellas la síntesis del peptidoglucano de la pared bacteriana, produciendo lisis osmótica. Su vida media prolongada permite una sola dosis diaria y su excelente penetración en el LCR inflamado la convierte en el pilar del tratamiento empírico de la meningitis bacteriana a partir del mes de vida.",
+    "espectro": "Excelente frente a Streptococcus pneumoniae (incluidas cepas con sensibilidad disminuida a penicilina), Neisseria meningitidis, Haemophilus influenzae y enterobacterias. NO cubre Listeria monocytogenes, Enterococcus, SARM ni Pseudomonas.",
+    "dosis_pediatrica_base": "50-100 mg/kg/día; en meningitis, 100 mg/kg/día",
+    "dosis_maxima": "4 g/día (2 g por dosis en meningitis, cada 12 h)",
+    "presentaciones": [
+      "Viales de 250, 500, 1000 y 2000 mg para uso IV o IM",
+      "Reconstitución con lidocaína para la vía IM (nunca administrar por vía IV la preparación con lidocaína)"
+    ],
+    "edad_minima": "A partir del MES de vida. En el neonato se sustituye por CEFOTAXIMA",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido (menor de 28 días)",
+        "ajuste": "CONTRAINDICADA: usar CEFOTAXIMA. La ceftriaxona desplaza la bilirrubina de la albúmina (riesgo de kernícterus) y precipita con el calcio de las soluciones intravenosas"
+      },
+      {
+        "franja": "1-3 meses",
+        "ajuste": "En la meningitis a esta edad hay que cubrir además LISTERIA con AMPICILINA, porque la ceftriaxona no la cubre"
+      },
+      {
+        "franja": "Mayor de 3 meses",
+        "ajuste": "50-100 mg/kg/día en dosis única diaria; 100 mg/kg/día repartidos cada 12 h en meningitis"
+      },
+      {
+        "franja": "Niño mayor y adolescente",
+        "ajuste": "Dosis de adulto al superar los 50 kg de peso"
+      }
+    ],
+    "peculiaridad_pediatrica": "Dos contraindicaciones neonatales, ambas por mecanismos fisicoquímicos y no farmacológicos, definen su uso en pediatría. La primera: desplaza la BILIRRUBINA de su unión a la albúmina, y en un neonato con ictericia eso aumenta la bilirrubina libre capaz de atravesar la barrera hematoencefálica, con riesgo de KERNÍCTERUS. La segunda: PRECIPITA con el CALCIO formando sales insolubles que se han asociado a embolias pulmonares y renales mortales en recién nacidos, por lo que no debe administrarse con soluciones que contengan calcio (incluida la nutrición parenteral) ni en las 48 h siguientes. Por ambos motivos, en el menor de 28 días se usa CEFOTAXIMA. La tercera particularidad es de estrategia: en el lactante de 1 a 3 meses con meningitis hay que añadir AMPICILINA para cubrir Listeria, un hueco del espectro que se olvida con facilidad.",
+    "indicaciones": [
+      {
+        "patologia": "Meningitis bacteriana en el mayor de 1 mes",
+        "dosis": "100 mg/kg/día repartidos cada 12 h (máximo 4 g/día)",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "Se asocia VANCOMICINA si hay sospecha de neumococo resistente, y AMPICILINA entre 1 y 3 meses por Listeria. La DEXAMETASONA se administra ANTES o con la primera dosis"
+      },
+      {
+        "patologia": "Sepsis y fiebre sin foco en el lactante mayor de 1 mes con criterios de riesgo",
+        "dosis": "50-75 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "IV o IM",
+        "nota": "Su vida media larga permite una dosis única diaria, muy útil cuando el acceso venoso es difícil"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad que requiere ingreso",
+        "dosis": "50-75 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "IV",
+        "nota": "Se añade un macrólido si se sospecha Mycoplasma en el escolar"
+      },
+      {
+        "patologia": "Pielonefritis aguda del lactante y del niño",
+        "dosis": "50-75 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "IV o IM",
+        "nota": "Permite el tratamiento ambulatorio con dosis diaria intramuscular en casos seleccionados, evitando el ingreso"
+      },
+      {
+        "patologia": "Artritis séptica y osteomielitis aguda",
+        "dosis": "50-100 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "IV",
+        "nota": "Si se sospecha S. aureus, se asocia cloxacilina o cefazolina, que la ceftriaxona cubre peor"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde la primera administración, tras extraer hemocultivos y, si procede, LCR. En la sospecha de meningitis, el antibiótico NO se retrasa por esperar la punción lumbar o la TC.",
+      "titulacion": "No se titula.",
+      "duracion": "7 días en la meningitis meningocócica, 10-14 días en la neumocócica, 7-10 días en la pielonefritis, 2-4 semanas en la osteomielitis.",
+      "fin": "Terapia secuencial a vía oral en cuanto el niño esté afebril, estable y tolere, con el antibiótico dirigido según el antibiograma.",
+      "via": "IV; IM (reconstituida con lidocaína, dolorosa) cuando no hay acceso venoso.",
+      "monitorizacion": "Respuesta clínica, hemograma, PCR o procalcitonina, función renal y hepática en tratamientos prolongados. Ecografía abdominal si aparece dolor por sospecha de barro biliar."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe por vía oral; biodisponibilidad completa por vía IV e IM.",
+      "distribucion": "Excelente penetración en LCR con meninges inflamadas, que es la base de su indicación en meningitis. Alta unión a proteínas (de ahí el desplazamiento de la bilirrubina).",
+      "metabolismo": "Escaso.",
+      "eliminacion": "DOBLE: 60% renal y 40% BILIAR. Esa eliminación biliar explica tanto que no requiera ajuste renal importante como el barro biliar que produce.",
+      "vida_media": "6-9 h, larga para un betalactámico: por eso se administra una vez al día.",
+      "ajuste_renal": "No precisa ajuste salvo insuficiencia renal grave combinada con hepática, gracias a su doble vía de eliminación.",
+      "ajuste_hepatico": "Precaución en la hepatopatía grave asociada a insuficiencia renal.",
+      "interacciones": [
+        {
+          "con": "SOLUCIONES CON CALCIO (Ringer lactato, nutrición parenteral)",
+          "efecto": "PRECIPITACIÓN de sales de ceftriaxona-calcio con embolias pulmonares y renales MORTALES descritas en neonatos",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA en el neonato. En el niño mayor, no administrar simultáneamente ni por la misma vía, y separar 48 h"
+        },
+        {
+          "con": "Bilirrubina (neonato ictérico)",
+          "efecto": "Desplazamiento de la unión a albúmina con aumento de la bilirrubina libre y riesgo de KERNÍCTERUS",
+          "gravedad": "alta",
+          "manejo": "Contraindicada en el neonato: usar cefotaxima"
+        },
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Sinergia antibacteriana, pero incompatibilidad física en la misma jeringa o vía",
+          "gravedad": "media",
+          "manejo": "Administrar por separado y lavar la vía entre ambos"
+        },
+        {
+          "con": "Antivitamina K",
+          "efecto": "Puede alterar la flora productora de vitamina K y elevar el INR",
+          "gravedad": "media",
+          "manejo": "Poco relevante en pediatría; vigilar si el niño está anticoagulado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor intenso en la administración intramuscular",
+        "Diarrea",
+        "Exantema",
+        "Elevación transitoria de transaminasas",
+        "Eosinofilia"
+      ],
+      "graves": [
+        "BARRO BILIAR (pseudolitiasis) con dolor abdominal, reversible al suspenderla; frecuente en tratamientos prolongados a dosis altas",
+        "KERNÍCTERUS en el neonato ictérico",
+        "PRECIPITACIÓN con calcio con embolias mortales en el neonato",
+        "Colitis por Clostridioides difficile",
+        "Anemia hemolítica inmune y neutropenia",
+        "Anafilaxia y reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "RECIÉN NACIDO (menor de 28 días), especialmente si es prematuro, ictérico o recibe soluciones con calcio",
+      "Alergia inmediata (anafilaxia) a betalactámicos",
+      "Administración conjunta con soluciones que contengan calcio"
+    ],
+    "perlas": [
+      "Las dos contraindicaciones neonatales no son farmacológicas sino FISICOQUÍMICAS, y por eso resultan fáciles de olvidar: desplaza la bilirrubina de la albúmina (kernícterus) y precipita con el calcio (embolias mortales). Ambas se resuelven con una regla sencilla: en el menor de 28 días, CEFOTAXIMA.",
+      "El hueco de espectro que más veces se pasa por alto es LISTERIA: entre 1 y 3 meses, la meningitis debe cubrirse además con AMPICILINA. La ceftriaxona no cubre Listeria a ninguna edad.",
+      "En la sospecha de meningitis, el antibiótico NO SE RETRASA por esperar la punción lumbar ni la TC: se extraen hemocultivos y se trata. El retraso en la primera dosis es uno de los pocos factores pronósticos verdaderamente modificables.",
+      "La DEXAMETASONA en la meningitis por Haemophilus influenzae reduce la sordera, y debe administrarse ANTES o junto con la primera dosis de antibiótico: después ya no sirve, porque su efecto es prevenir la respuesta inflamatoria a la lisis bacteriana.",
+      "El BARRO BILIAR es una reacción característica de este fármaco y desconcertante en el niño: dolor abdominal con ecografía que muestra litiasis donde antes no la había. Es reversible al suspender y no requiere cirugía.",
+      "Su vida media larga permite una DOSIS ÚNICA DIARIA, lo que hace posible tratar una pielonefritis de forma ambulatoria con una inyección diaria y evitar un ingreso.",
+      "En la osteomielitis o la artritis con sospecha de S. aureus hay que asociar cloxacilina o cefazolina: la ceftriaxona cubre mal el estafilococo."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante es segura y de uso frecuente.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 43; AMIR Pediatría; Harrison 20.ª ed., cap. de meningitis bacteriana"
+  },
+  {
+    "id": "PED-URG-naloxona",
+    "nombre": "Naloxona (pediatría)",
+    "sinonimos": [],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto: antagonista opioide puro",
+    "subclase": "Antagonista competitivo de los receptores mu",
+    "mecanismo": "Antagonista competitivo puro que desplaza al opioide del receptor mu, revirtiendo la depresión respiratoria y la sedación. Su vida media (30-80 minutos) es más corta que la de los opioides que antagoniza, de modo que el riesgo de RENARCOTIZACIÓN es aún mayor en el niño, en el que la intoxicación suele deberse a un preparado del domicilio de acción prolongada.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,01 mg/kg IV inicial, repetible; si no hay respuesta, 0,1 mg/kg (máximo 2 mg por dosis)",
+    "dosis_maxima": "2 mg por dosis; se repite hasta obtener ventilación eficaz",
+    "presentaciones": [
+      "Ampollas de 0,4 mg/mL (requieren dilución para el lactante)",
+      "Formulación intranasal de 4 mg (adolescentes y programas comunitarios)"
+    ],
+    "edad_minima": "Desde el recién nacido, con la salvedad del hijo de madre consumidora crónica",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido de madre CONSUMIDORA crónica",
+        "ajuste": "CONTRAINDICADA: precipita una abstinencia neonatal con convulsiones. El tratamiento es SOPORTE VENTILATORIO"
+      },
+      {
+        "franja": "Recién nacido con depresión por opioides maternos puntuales (analgesia del parto)",
+        "ajuste": "0,1 mg/kg, tras asegurar ventilación con presión positiva; la ventilación es siempre lo primero"
+      },
+      {
+        "franja": "Lactante y preescolar con ingesta accidental",
+        "ajuste": "0,1 mg/kg. Casi siempre por un preparado del domicilio: metadona, fentanilo transdérmico, codeína o tramadol de un adulto"
+      },
+      {
+        "franja": "Adolescente con sobredosis",
+        "ajuste": "Dosis de adulto tituladas (0,04-0,4 mg); valorar consumo de sustancias y contexto psicosocial"
+      }
+    ],
+    "peculiaridad_pediatrica": "La intoxicación opioide del niño pequeño casi nunca es una sobredosis por consumo, sino una INGESTA ACCIDENTAL de la medicación de un adulto de la casa, y eso cambia dos cosas. Primero, el agente suele ser de ACCIÓN PROLONGADA (metadona, parche de fentanilo, codeína), por lo que la renarcotización es la regla y la observación prolongada, obligatoria: un parche masticado o pegado en la piel puede seguir liberando fármaco durante horas y hay que buscarlo activamente. Segundo, la dosis inicial es MAYOR por kilo que en el adulto (0,1 mg/kg) porque no hay dependencia previa y no interesa titular con prudencia para evitar la abstinencia. La excepción a todo esto es el neonato de madre consumidora, en el que está contraindicada. Y en cualquier caso, en pediatría lo primero es siempre la VÍA AÉREA y la ventilación: el antídoto viene después.",
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por opioides con depresión respiratoria en el niño",
+        "dosis": "0,1 mg/kg IV, IM, SC o intraósea (máximo 2 mg), repetible cada 2-3 minutos",
+        "posologia": "Bolos repetidos",
+        "via": "IV, IM, SC o intraósea",
+        "nota": "Casi siempre ingesta accidental de la medicación de un adulto: hay que buscar el origen y revisar el domicilio"
+      },
+      {
+        "patologia": "Depresión respiratoria yatrógena por opioides en el niño hospitalizado",
+        "dosis": "0,01 mg/kg, tituladas despacio",
+        "posologia": "Bolos pequeños repetidos",
+        "via": "IV",
+        "nota": "Dosis menores para no revertir la analgesia por completo en el niño con dolor postoperatorio u oncológico"
+      },
+      {
+        "patologia": "Recién nacido con depresión respiratoria por opioides maternos puntuales",
+        "dosis": "0,1 mg/kg",
+        "posologia": "Dosis única repetible",
+        "via": "IV, IM o intraósea",
+        "nota": "Solo tras asegurar la ventilación. CONTRAINDICADA si la madre es consumidora crónica"
+      },
+      {
+        "patologia": "Intoxicación por opioide de acción prolongada",
+        "dosis": "Perfusión de 2/3 de la dosis de respuesta inicial por hora",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Frecuencia respiratoria adecuada para la edad y saturación aceptable, sin agitación",
+        "nota": "Imprescindible con metadona o parches de fentanilo, cuyo efecto dura mucho más que el del antídoto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Primero VÍA AÉREA y ventilación con bolsa y mascarilla; después el antídoto. 0,1 mg/kg en el niño sin dependencia previa.",
+      "titulacion": "Repetir cada 2-3 minutos hasta ventilación eficaz. Si no hay respuesta tras 0,1 mg/kg repetidos, replantear el diagnóstico.",
+      "duracion": "Observación mínima de 4-6 h; 12-24 h si el agente es de acción prolongada o de liberación retardada.",
+      "fin": "NUNCA dar de alta por el hecho de haber respondido. En el niño, el ingreso para observación es la norma más que la excepción.",
+      "via": "IV o intraósea de elección; IM o intranasal si no hay acceso.",
+      "monitorizacion": "Frecuencia respiratoria, saturación, nivel de conciencia y pupilas de forma continua. BUSCAR ACTIVAMENTE un parche transdérmico en la piel o en la boca del niño."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio en 1-2 minutos por vía intravenosa; algo más lento por vía intramuscular o intranasal.",
+      "distribucion": "Muy lipófila, atraviesa rápidamente la barrera hematoencefálica.",
+      "metabolismo": "Hepático por glucuronoconjugación, inmaduro en el neonato, lo que prolonga algo su efecto a esa edad.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "30-80 minutos; algo más prolongada en el neonato.",
+      "ajuste_renal": "No precisa ajuste en el uso agudo.",
+      "ajuste_hepatico": "No precisa ajuste en el uso agudo.",
+      "interacciones": [
+        {
+          "con": "Opioides en el neonato de madre CONSUMIDORA",
+          "efecto": "Abstinencia neonatal aguda con CONVULSIONES",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA en ese escenario: soporte ventilatorio"
+        },
+        {
+          "con": "Analgesia opioide del niño oncológico o postoperatorio",
+          "efecto": "Reversión completa de la analgesia con dolor incontrolable y agitación",
+          "gravedad": "alta",
+          "manejo": "Dosis muy bajas (0,01 mg/kg) tituladas: el objetivo es que respire, no que despierte"
+        },
+        {
+          "con": "Clonidina y otros depresores no opioides",
+          "efecto": "No los revierte: la falta de respuesta puede desorientar el diagnóstico",
+          "gravedad": "media",
+          "manejo": "Si no responde, buscar otra causa (hipoglucemia, traumatismo, tóxico distinto)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Agitación y llanto inconsolable al despertar bruscamente",
+        "Vómitos",
+        "Taquicardia e hipertensión",
+        "Midriasis"
+      ],
+      "graves": [
+        "CONVULSIONES por abstinencia precipitada en el neonato de madre consumidora",
+        "RENARCOTIZACIÓN con nueva parada respiratoria al agotarse su efecto",
+        "Edema agudo de pulmón no cardiogénico (descrito sobre todo en adolescentes)",
+        "Arritmias por descarga catecolaminérgica"
+      ]
+    },
+    "contraindicaciones": [
+      "RECIÉN NACIDO de madre con dependencia a opioides",
+      "Hipersensibilidad al fármaco (prácticamente teórica)",
+      "No hay contraindicación real ante una parada respiratoria por opioides en el niño"
+    ],
+    "perlas": [
+      "En pediatría la primera medida NUNCA es el antídoto: es la VÍA AÉREA y la ventilación con bolsa y mascarilla. El niño se deteriora por hipoxia mucho más rápido que el adulto, y ventilar corrige la causa inmediata de la muerte mientras se prepara la naloxona.",
+      "El origen casi siempre está en la casa: metadona, parches de FENTANILO, codeína o tramadol de un adulto. Hay que buscar ACTIVAMENTE un parche pegado en la piel del niño o dentro de su boca, porque sigue liberando fármaco durante horas y explica las recaídas tras una buena respuesta inicial.",
+      "La dosis pediátrica inicial es MAYOR por kilo que la del adulto (0,1 mg/kg), justo al revés de lo que suele ocurrir: en el niño no hay dependencia previa, así que no hay que titular con prudencia para evitar una abstinencia.",
+      "La excepción absoluta es el NEONATO DE MADRE CONSUMIDORA: ahí la naloxona precipita convulsiones y el tratamiento es soporte ventilatorio. Preguntar por el consumo materno antes de administrarla es parte del procedimiento.",
+      "La RENARCOTIZACIÓN es más probable en el niño que en el adulto, porque el agente suele ser de acción prolongada. Por eso la observación se cuenta en horas y el alta precoz es un error grave.",
+      "Toda intoxicación accidental en un niño obliga a una intervención más allá del episodio: revisar cómo se guardan los fármacos en el domicilio y, si el patrón no encaja, valorar negligencia.",
+      "Si el niño no responde, no hay que insistir indefinidamente con el antídoto: hay que descartar HIPOGLUCEMIA, traumatismo craneal y otros tóxicos."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; AMIR Pediatría; Harrison 20.ª ed., cap. de intoxicaciones"
+  }
+]

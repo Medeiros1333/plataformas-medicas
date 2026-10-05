@@ -1,0 +1,254 @@
+[
+  {
+    "id": "GIN-sulfato-magnesio",
+    "nombre": "Sulfato de magnesio",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticonvulsivante y neuroprotector",
+    "subclase": "Sal de magnesio de uso parenteral",
+    "mecanismo": "El magnesio actúa como ANTAGONISTA FISIOLÓGICO DEL CALCIO en tres niveles que explican sus tres usos. En el SISTEMA NERVIOSO bloquea el receptor NMDA del glutamato, eleva el umbral convulsivo y produce vasodilatación cerebral, revirtiendo el vasoespasmo de la eclampsia; ese es su papel anticonvulsivante, y no es el de un antihipertensivo, aunque baje algo la tensión. En el MÚSCULO LISO inhibe la entrada de calcio y relaja el miometrio y el bronquio. En la PLACA MOTORA compite con el calcio y reduce la liberación de acetilcolina, de donde salen a la vez su efecto tocolítico y su toxicidad: la abolición del reflejo rotuliano y, si se sigue subiendo, la parálisis respiratoria. Esa secuencia ordenada de signos (reflejo, respiración, corazón) es lo que permite vigilarlo clínicamente sin necesidad de niveles urgentes.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "PREECLAMPSIA GRAVE: prevención de la eclampsia",
+        "dosis": "Dosis de carga de 4-6 g IV en 20-30 minutos, seguida de perfusión de 1-2 g/h",
+        "posologia": "Carga y perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Reflejo rotuliano PRESENTE, frecuencia respiratoria superior a 12 por minuto y diuresis superior a 30 mL/h; magnesemia de 4,8-8,4 mg/dL si se mide",
+        "nota": "Es SUPERIOR a la fenitoína y al diazepam en la prevención de la eclampsia (ensayo Magpie), y ese hallazgo cambió la práctica mundial"
+      },
+      {
+        "patologia": "ECLAMPSIA establecida",
+        "dosis": "4-6 g IV en bolo lento y perfusión de 1-2 g/h durante 24 horas tras la última convulsión o tras el parto",
+        "posologia": "Carga y perfusión",
+        "via": "IV",
+        "nota": "Es el tratamiento de ELECCIÓN de la crisis eclámptica: NO se usan benzodiazepinas ni antiepilépticos convencionales como primera línea"
+      },
+      {
+        "patologia": "NEUROPROTECCIÓN FETAL en el parto pretérmino inminente",
+        "dosis": "4 g IV de carga y 1 g/h hasta el parto, máximo 24 horas",
+        "posologia": "Carga y perfusión",
+        "via": "IV",
+        "nota": "Por debajo de las 32 semanas reduce la incidencia y la gravedad de la PARÁLISIS CEREBRAL. Es una indicación distinta de la tocolisis y con evidencia sólida propia"
+      },
+      {
+        "patologia": "TORSADES DE POINTES y arritmias por hipomagnesemia",
+        "dosis": "2 g IV en 1-2 minutos, repetible",
+        "posologia": "Bolo repetible",
+        "via": "IV",
+        "nota": "Es eficaz INCLUSO con magnesemia normal: es un uso farmacológico, no una reposición"
+      },
+      {
+        "patologia": "Crisis asmática grave que no responde al tratamiento inicial",
+        "dosis": "2 g IV en 20 minutos, dosis única",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Broncodilatador de rescate en el asma casi fatal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar función renal y diuresis ANTES de la carga: el magnesio se elimina exclusivamente por el riñón, y en la preeclámpsica con oliguria se acumula con rapidez. Tener el GLUCONATO CÁLCICO preparado a pie de cama.",
+      "titulacion": "Se titula por CLÍNICA: reflejo rotuliano, frecuencia respiratoria y diuresis horaria. Los niveles se reservan a la insuficiencia renal o a la duda clínica.",
+      "duracion": "24 horas tras el parto o tras la última convulsión en la preeclampsia y la eclampsia; máximo 24 horas en la neuroprotección fetal.",
+      "fin": "Suspensión ante ABOLICIÓN DEL REFLEJO ROTULIANO, frecuencia respiratoria menor de 12, diuresis menor de 30 mL/h o cualquier signo de toxicidad.",
+      "via": "Intravenosa preferentemente; intramuscular profunda (muy dolorosa) donde no hay bomba de perfusión.",
+      "monitorizacion": "REFLEJO ROTULIANO, frecuencia respiratoria, saturación y DIURESIS HORARIA. Es un fármaco que se vigila con un martillo de reflejos y un reloj, no con analíticas urgentes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Administración parenteral.",
+      "distribucion": "Espacio extracelular y hueso; atraviesa la placenta y alcanza al feto.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "EXCLUSIVAMENTE RENAL por filtración glomerular.",
+      "vida_media": "4-5 horas con función renal normal; se prolonga mucho en la insuficiencia renal.",
+      "ajuste_renal": "OBLIGATORIO: reducir o suprimir la perfusión de mantenimiento con filtrado bajo o con oliguria. Es la principal causa de intoxicación.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "CALCIOANTAGONISTAS (nifedipino)",
+          "efecto": "Potencian el bloqueo neuromuscular y la hipotensión",
+          "gravedad": "alta",
+          "manejo": "Combinación frecuente en obstetricia (nifedipino como tocolítico o antihipertensivo): vigilar estrechamente la clínica neuromuscular"
+        },
+        {
+          "con": "Bloqueantes NEUROMUSCULARES (rocuronio, succinilcolina)",
+          "efecto": "Potencian y PROLONGAN el bloqueo, con riesgo de parálisis residual y apnea",
+          "gravedad": "alta",
+          "manejo": "Muy relevante si la paciente requiere una cesárea urgente bajo anestesia general: hay que avisar al anestesista"
+        },
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Suman bloqueo neuromuscular",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "GLUCONATO CÁLCICO",
+          "efecto": "ANTAGONIZA el efecto del magnesio",
+          "gravedad": "baja",
+          "manejo": "Es su ANTÍDOTO: 1 g IV lento ante la toxicidad. Debe estar disponible siempre que se administre magnesio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SENSACIÓN DE CALOR Y RUBOR durante la carga, casi constante (hay que advertirla)",
+        "Náuseas, vómitos y sed",
+        "Somnolencia y debilidad muscular",
+        "Dolor en el punto de infusión"
+      ],
+      "graves": [
+        "ABOLICIÓN DEL REFLEJO ROTULIANO (primer signo de toxicidad y el más útil)",
+        "DEPRESIÓN RESPIRATORIA y parálisis",
+        "PARADA CARDIACA con magnesemias muy elevadas",
+        "Hipotensión grave",
+        "Edema agudo de pulmón por sobrecarga de volumen",
+        "Hipotonía y depresión respiratoria en el RECIÉN NACIDO",
+        "Desmineralización ósea fetal con exposiciones prolongadas de más de 5-7 días"
+      ]
+    },
+    "contraindicaciones": [
+      "MIASTENIA GRAVIS (puede precipitar una crisis miasténica)",
+      "Bloqueo auriculoventricular y alteraciones graves de la conducción",
+      "Insuficiencia renal grave sin ajuste estricto",
+      "Hipermagnesemia"
+    ],
+    "perlas": [
+      "La secuencia de toxicidad es ordenada y hay que saberla de memoria porque permite vigilar al pie de la cama: primero desaparece el REFLEJO ROTULIANO (en torno a 10 mg/dL), después aparece la DEPRESIÓN RESPIRATORIA (en torno a 12) y por último la PARADA CARDIACA (por encima de 25). Mientras el reflejo esté presente, hay margen.",
+      "El ANTÍDOTO es el GLUCONATO CÁLCICO, 1 g por vía intravenosa lenta, y debe estar preparado a pie de cama siempre que se administre magnesio. Es una regla de seguridad tan sencilla como omitida.",
+      "NO es un antihipertensivo. Previene y trata las CONVULSIONES de la preeclampsia, pero la tensión hay que bajarla con labetalol, hidralazina o nifedipino. Confundir ambas cosas deja a la paciente con una tensión peligrosa y una falsa sensación de control.",
+      "El único tratamiento DEFINITIVO de la preeclampsia es el PARTO. El magnesio y los antihipertensivos son medidas de estabilización que permiten llegar al parto en condiciones seguras, no un tratamiento de la enfermedad.",
+      "Se elimina SOLO por el riñón, y la preeclámpsica grave suele tener oliguria: por eso la DIURESIS HORARIA es un parámetro de seguridad, no un dato de balance. Menos de 30 mL/h obliga a replantear la perfusión.",
+      "El ensayo Magpie demostró que es SUPERIOR a la fenitoína y al diazepam para prevenir la eclampsia. Ante una crisis eclámptica, el reflejo de administrar una benzodiazepina es comprensible pero incorrecto: el fármaco es el magnesio.",
+      "La NEUROPROTECCIÓN FETAL es una indicación independiente y con evidencia propia: administrado antes de las 32 semanas cuando el parto pretérmino es inminente, reduce la parálisis cerebral. Se prescribe aunque no haya preeclampsia.",
+      "Si la paciente necesita una CESÁREA URGENTE con anestesia general, hay que avisar al anestesista de que está con magnesio: potencia y prolonga los relajantes musculares y puede dar apnea prolongada al final de la intervención.",
+      "En TORSADES DE POINTES funciona incluso con magnesemia normal: allí no se está reponiendo un déficit, se está usando el magnesio como fármaco antiarrítmico."
+    ],
+    "embarazo_lactancia": "Es un fármaco esencial de la obstetricia moderna y su uso durante la gestación está plenamente establecido. Exposiciones PROLONGADAS de más de 5-7 días se han asociado a desmineralización ósea fetal, por lo que se limita la duración. El recién nacido de madre tratada puede presentar hipotonía y depresión respiratoria y requiere vigilancia. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 28; ensayo Magpie; guías de la OMS y de la SEGO sobre estados hipertensivos del embarazo"
+  },
+  {
+    "id": "GIN-corticoides-tocoliticos",
+    "nombre": "Corticoides de maduración pulmonar fetal y tocolíticos",
+    "sinonimos": [
+      "Betametasona, dexametasona, atosibán, nifedipino"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Fármacos del parto pretérmino",
+    "subclase": "Glucocorticoides prenatales e inhibidores de la contracción uterina",
+    "mecanismo": "Son dos fármacos con objetivos distintos que se administran juntos y conviene no confundir. Los CORTICOIDES PRENATALES (betametasona y dexametasona, las dos moléculas que atraviesan la placenta sin ser inactivadas por la 11-beta-hidroxiesteroide deshidrogenasa placentaria) aceleran la maduración del pulmón fetal: inducen la síntesis de SURFACTANTE por el neumocito tipo II, aumentan la distensibilidad y reducen la permeabilidad vascular pulmonar; además maduran el intestino y el sistema nervioso central. Su beneficio es enorme y bien establecido: reducen la enfermedad de membrana hialina, la hemorragia intraventricular, la enterocolitis necrosante y la MORTALIDAD neonatal. Los TOCOLÍTICOS no mejoran el pronóstico neonatal por sí mismos; su única función real es GANAR 48 HORAS para que los corticoides hagan efecto y para trasladar a la madre a un centro con unidad neonatal. El ATOSIBÁN es un antagonista del receptor de oxitocina y el NIFEDIPINO un calcioantagonista que impide la entrada de calcio en el miometrio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "MADURACIÓN PULMONAR FETAL en riesgo de parto pretérmino entre las 24 y las 34 semanas",
+        "dosis": "Betametasona 12 mg IM, dos dosis separadas 24 horas; o dexametasona 6 mg IM cada 12 horas, cuatro dosis",
+        "posologia": "Ciclo de 2 o 4 dosis en 48 horas",
+        "via": "IM",
+        "dosis_objetivo": "Completar el ciclo y que transcurran al menos 24 horas antes del parto para obtener el beneficio máximo",
+        "nota": "Reducen la mortalidad neonatal, la enfermedad de membrana hialina, la hemorragia intraventricular y la enterocolitis necrosante. Es una de las intervenciones más eficaces de toda la medicina perinatal"
+      },
+      {
+        "patologia": "Maduración entre las 34 y las 36 semanas (pretérmino tardío)",
+        "dosis": "Betametasona 12 mg IM, dos dosis separadas 24 horas",
+        "posologia": "Dos dosis",
+        "via": "IM",
+        "nota": "Reduce la morbilidad respiratoria, pero aumenta la HIPOGLUCEMIA neonatal: la indicación es más matizada y no automática"
+      },
+      {
+        "patologia": "TOCOLISIS en la amenaza de parto pretérmino",
+        "dosis": "Atosibán en bolo de 6,75 mg seguido de perfusión de 18 mg/h durante 3 horas y después 6 mg/h; o nifedipino 20 mg VO y después 10-20 mg cada 6-8 horas",
+        "posologia": "Perfusión de 48 horas (atosibán) o pauta oral (nifedipino)",
+        "via": "IV",
+        "dosis_objetivo": "Cese de la dinámica uterina durante 48 horas, el tiempo que necesitan los corticoides",
+        "nota": "El objetivo NO es prolongar el embarazo semanas, sino GANAR 48 HORAS. Más allá de eso, la tocolisis no ha demostrado mejorar el pronóstico"
+      },
+      {
+        "patologia": "Neuroprotección fetal asociada, por debajo de las 32 semanas",
+        "dosis": "Sulfato de magnesio 4 g IV de carga y 1 g/h",
+        "posologia": "Carga y perfusión hasta el parto",
+        "via": "IV",
+        "nota": "Se administra junto con los corticoides: son intervenciones complementarias con objetivos distintos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante amenaza real de parto pretérmino entre las 24 y las 34 semanas. Descartar CORIOAMNIONITIS, que contraindica la tocolisis (allí lo indicado es finalizar la gestación) y obliga a valorar el corticoide individualmente.",
+      "titulacion": "Los corticoides tienen dosis fija. La tocolisis se ajusta a la dinámica uterina.",
+      "duracion": "Ciclo único de corticoides en 48 horas; tocolisis de 48 horas.",
+      "fin": "La tocolisis se suspende a las 48 horas: mantenerla más tiempo no aporta beneficio y añade riesgos. NO se repiten ciclos de corticoides de forma rutinaria; se puede valorar un ciclo de rescate si han pasado más de 14 días y persiste el riesgo antes de las 34 semanas.",
+      "via": "Intramuscular (corticoides), intravenosa (atosibán) u oral (nifedipino).",
+      "monitorizacion": "Dinámica uterina, registro fetal, GLUCEMIA MATERNA (los corticoides la elevan de forma marcada en la diabética) y tensión arterial con nifedipino."
+    },
+    "farmacocinetica": {
+      "absorcion": "Betametasona y dexametasona se absorben bien por vía intramuscular y ATRAVIESAN LA PLACENTA sin ser inactivadas, a diferencia de la prednisona y la hidrocortisona, que la placenta metaboliza.",
+      "distribucion": "Los corticoides alcanzan concentraciones fetales eficaces; el atosibán apenas atraviesa la placenta.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Betametasona 36-54 horas; atosibán 1,7 horas; nifedipino 2-5 horas.",
+      "ajuste_renal": "Sin ajuste relevante.",
+      "ajuste_hepatico": "Sin ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "SULFATO DE MAGNESIO y NIFEDIPINO",
+          "efecto": "Hipotensión grave y bloqueo neuromuscular por suma de efectos",
+          "gravedad": "alta",
+          "manejo": "Combinación frecuente en la práctica: vigilar tensión y clínica neuromuscular, o preferir atosibán como tocolítico"
+        },
+        {
+          "con": "INSULINA (corticoides)",
+          "efecto": "Los corticoides elevan mucho la glucemia y descompensan a la diabética",
+          "gravedad": "alta",
+          "manejo": "En la gestante diabética hay que anticipar el aumento de necesidades de insulina durante 48-72 horas tras el ciclo"
+        },
+        {
+          "con": "Betamiméticos (ritodrina) y corticoides",
+          "efecto": "EDEMA AGUDO DE PULMÓN materno",
+          "gravedad": "alta",
+          "manejo": "Es la razón principal por la que los betamiméticos han sido abandonados como tocolíticos"
+        },
+        {
+          "con": "AINE (indometacina como tocolítico)",
+          "efecto": "CIERRE PRECOZ del ductus arterioso y oligoamnios",
+          "gravedad": "alta",
+          "manejo": "Uso limitado a menos de 48 horas y por debajo de las 32 semanas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "CORTICOIDES: hiperglucemia materna, leucocitosis (que puede confundirse con infección) y reducción transitoria de los movimientos fetales y de la variabilidad del registro",
+        "ATOSIBÁN: náuseas, cefalea, taquicardia (perfil de tolerancia muy bueno)",
+        "NIFEDIPINO: hipotensión, cefalea, rubor y taquicardia refleja"
+      ],
+      "graves": [
+        "EDEMA AGUDO DE PULMÓN materno, sobre todo con betamiméticos, sobrecarga hídrica y gestación múltiple",
+        "Hipotensión materna grave con nifedipino y compromiso de la perfusión placentaria",
+        "HIPOGLUCEMIA neonatal, más frecuente cuando el corticoide se administra en el pretérmino tardío",
+        "Descompensación diabética materna",
+        "Posible efecto sobre el neurodesarrollo con ciclos REPETIDOS de corticoides, motivo por el que no se repiten de rutina"
+      ]
+    },
+    "contraindicaciones": [
+      "CORIOAMNIONITIS y sufrimiento fetal, para la tocolisis (hay que finalizar la gestación)",
+      "Desprendimiento de placenta y hemorragia materna grave",
+      "Preeclampsia grave con criterios de finalización",
+      "Muerte fetal y malformación incompatible con la vida",
+      "Para el nifedipino: hipotensión materna y uso simultáneo con magnesio a dosis altas"
+    ],
+    "perlas": [
+      "Hay que tener claro qué hace cada fármaco: los CORTICOIDES son los que salvan al niño; los TOCOLÍTICOS solo compran las 48 horas que los corticoides necesitan. Confundir los papeles lleva a mantener tocolisis durante semanas sin beneficio y, peor, a olvidar el corticoide, que es lo que de verdad cuenta.",
+      "Solo la BETAMETASONA y la DEXAMETASONA sirven: son las únicas que atraviesan la placenta sin ser inactivadas por la 11-beta-hidroxiesteroide deshidrogenasa placentaria. La prednisona, que se usa para la enfermedad materna precisamente porque NO llega al feto, aquí no serviría de nada.",
+      "El beneficio máximo aparece si transcurren al menos 24 horas y menos de 7 días entre el ciclo y el parto. Aun así, incluso un ciclo incompleto aporta beneficio: ante un parto inminente, se pone la primera dosis igualmente.",
+      "NO se repiten ciclos de rutina. Los ciclos múltiples reducen el peso y el perímetro craneal al nacer y preocupan por su efecto sobre el neurodesarrollo. Un solo ciclo de rescate puede valorarse si han pasado más de 14 días y persiste el riesgo antes de las 34 semanas.",
+      "En la GESTANTE DIABÉTICA el ciclo descompensa la glucemia durante 48-72 horas y a menudo hace falta insulina intravenosa. Es una consecuencia previsible que se anticipa mal y acaba en hiperglucemias graves.",
+      "Los corticoides producen una LEUCOCITOSIS materna que puede hacer pensar en corioamnionitis, y reducen transitoriamente los movimientos fetales y la variabilidad del registro. Conocer ambos efectos evita cesáreas por sospechas infundadas.",
+      "La CORIOAMNIONITIS contraindica la tocolisis: ahí el problema no es que el útero se contraiga, sino que el feto está en un ambiente infectado, y prolongar la gestación empeora las cosas.",
+      "Los BETAMIMÉTICOS (ritodrina) han sido abandonados como tocolíticos por su toxicidad materna, sobre todo el edema agudo de pulmón al combinarse con corticoides. El ATOSIBÁN tiene un perfil de seguridad materna muy superior y por eso lo ha sustituido.",
+      "En el pretérmino TARDÍO (34-36 semanas) la indicación es más discutible: reduce la morbilidad respiratoria pero aumenta la hipoglucemia neonatal. No es una decisión automática."
+    ],
+    "embarazo_lactancia": "Son fármacos concebidos para su uso en el embarazo. El ciclo único de corticoides prenatales está plenamente establecido y su relación beneficio-riesgo es excepcionalmente favorable. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 37 y 39; guías de la OMS y de la SEGO sobre parto pretérmino y corticoides prenatales"
+  }
+]

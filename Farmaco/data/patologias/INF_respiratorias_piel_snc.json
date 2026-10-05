@@ -1,0 +1,314 @@
+[
+  {
+    "id": "PAT-neumonia-comunidad",
+    "nombre": "Neumonía adquirida en la comunidad",
+    "sinonimos": ["NAC", "Neumonía"],
+    "area": "INF",
+    "resumen": "Decidir el lugar de tratamiento con una escala de gravedad (CURB-65 o PSI). **El neumococo es la causa más frecuente** a cualquier edad; los atípicos (Mycoplasma, Chlamydophila, Legionella) cubren el resto. Ambulatoria: betalactámico oral (± macrólido) o quinolona respiratoria; hospitalizada: betalactámico IV + macrólido. Pensar en Pseudomonas o SARM solo con factores de riesgo.",
+    "objetivo": "Mejoría clínica en 48-72 h. Duración mínima 5 días y al menos 48-72 h afebril y estable.",
+    "escenarios": [
+      {
+        "titulo": "Ambulatoria sin comorbilidad (CURB-65 0-1)",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "INF-amoxicilina", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Cubre neumococo; añadir macrólido si sospecha de atípica" },
+          { "nombre": "Azitromicina", "ref": "INF-azitromicina", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Asociada al betalactámico si clínica atípica" }
+        ]
+      },
+      {
+        "titulo": "Ambulatoria con comorbilidad (EPOC, diabetes, cardiopatía, alcoholismo) o alergia",
+        "farmacos": [
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "alternativa": "+ azitromicina 500 mg/24 h × 3 días" },
+          { "nombre": "Levofloxacino", "ref": "INF-levofloxacino", "dosis": "500-750 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5-7 días", "alternativa": "o moxifloxacino 400 mg/24 h", "nota": "Alergia a betalactámicos; monoterapia" }
+        ]
+      },
+      {
+        "titulo": "Hospitalizada en planta",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1-2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "5-7 días (paso a VO al estabilizar)", "alternativa": "o amoxicilina-clavulánico 1 g/200 mg IV cada 8 h" },
+          { "nombre": "Azitromicina", "ref": "INF-azitromicina", "dosis": "500 mg", "via": "IV / VO", "intervalo": "Cada 24 h", "duracion": "3-5 días" },
+          { "nombre": "Levofloxacino", "ref": "INF-levofloxacino", "dosis": "500 mg", "via": "IV / VO", "intervalo": "Cada 12 h el 1.er día, luego cada 24 h", "duracion": "7 días", "nota": "Alternativa en monoterapia (alergia)" }
+        ]
+      },
+      {
+        "titulo": "Grave (UCI) o con factores de riesgo de Pseudomonas o SARM",
+        "nota": "Pseudomonas: bronquiectasias, EPOC grave con antibióticos recientes. SARM: colonización previa, neumonía necrotizante postgripal.",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "7 días", "nota": "+ azitromicina o levofloxacino IV" },
+          { "nombre": "Piperacilina-tazobactam", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6 h (perfusión extendida)", "duracion": "7 días", "alternativa": "o cefepima 2 g/8 h / meropenem 1 g/8 h", "nota": "Si riesgo de Pseudomonas, sustituye a la ceftriaxona" },
+          { "nombre": "Linezolid", "ref": "INF-linezolid", "dosis": "600 mg", "via": "IV / VO", "intervalo": "Cada 12 h", "duracion": "7-14 días", "alternativa": "o vancomicina 15-20 mg/kg/8-12 h", "nota": "Solo si riesgo de SARM" }
+        ]
+      },
+      {
+        "titulo": "Neumonía en el niño",
+        "poblacion": "Pediatría",
+        "nota": "<5 años: causa vírica frecuente; si se trata, amoxicilina a dosis altas. ≥5 años con clínica atípica: macrólido.",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "PED-INF-amoxicilina", "dosis": "80-90 mg/kg/día (máx. 3 g/día)", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días" },
+          { "nombre": "Azitromicina", "ref": "PED-INF-azitromicina", "dosis": "10 mg/kg/día (máx. 500 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Sospecha de Mycoplasma (≥5 años)" },
+          { "nombre": "Ceftriaxona", "ref": "PED-INF-ceftriaxona", "dosis": "50-100 mg/kg/día (máx. 2-4 g)", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Hasta mejoría; completar con VO", "nota": "Ingreso con neumonía complicada o no vacunado" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Oxígeno si SpO2 <92% (88-92% en EPOC hipercápnico)",
+      "Hidratación; antitérmicos",
+      "Hemocultivos y antigenuria (neumococo, Legionella) si ingreso",
+      "Vacunación antineumocócica y antigripal"
+    ],
+    "claves": [
+      "**Paso a vía oral cuando esté estable 24-48 h** (afebril, FC <100, FR <24, SpO2 normal, tolera VO).",
+      "**No se necesitan 10-14 días**: 5 días bastan si la respuesta es buena.",
+      "La radiografía tarda semanas en normalizarse: no repetirla antes de 6 semanas salvo mala evolución."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de neumonía; Katzung 15.ª ed., cap. 51; guía ATS/IDSA 2019"
+  },
+  {
+    "id": "PAT-faringoamigdalitis",
+    "nombre": "Faringoamigdalitis aguda estreptocócica",
+    "sinonimos": ["Amigdalitis", "Faringitis", "Estreptococo del grupo A"],
+    "area": "INF",
+    "resumen": "La mayoría de faringitis son víricas. **Tratar solo si hay confirmación de S. pyogenes** (test rápido o cultivo) en pacientes con criterios de Centor/McIsaac ≥2-3 (fiebre, exudado, adenopatías cervicales anteriores dolorosas, ausencia de tos). La penicilina sigue siendo de elección: **no hay resistencias de S. pyogenes a la penicilina**.",
+    "objetivo": "Acortar síntomas, reducir contagio y prevenir la fiebre reumática.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Penicilina V (fenoximetilpenicilina)", "sin_ficha": true, "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "10 días", "nota": "Elección" },
+          { "nombre": "Amoxicilina", "ref": "INF-amoxicilina", "dosis": "500 mg (o 1 g)", "via": "VO", "intervalo": "Cada 12 h (o cada 24 h)", "duracion": "10 días" },
+          { "nombre": "Penicilina G benzatina", "ref": "INF-penicilina-g-benzatina", "dosis": "1.200.000 UI", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Si se duda del cumplimiento" },
+          { "nombre": "Clindamicina", "ref": "INF-clindamicina", "dosis": "300 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "10 días", "alternativa": "o azitromicina 500 mg/24 h × 3-5 días (más resistencias)", "nota": "Alergia a penicilina" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "PED-INF-amoxicilina", "dosis": "40-50 mg/kg/día (máx. 1 g/día)", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "10 días" },
+          { "nombre": "Azitromicina", "ref": "PED-INF-azitromicina", "dosis": "20 mg/kg/día (máx. 500 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Solo alergia a betalactámicos (dosis mayor que en otras infecciones)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Analgesia: ibuprofeno o paracetamol",
+      "No es necesario cultivo de control tras el tratamiento",
+      "Vuelta al colegio/trabajo tras 24 h de antibiótico"
+    ],
+    "claves": [
+      "**Amoxicilina en una mononucleosis = exantema** (no alérgico): ante amigdalitis con adenopatías generalizadas y esplenomegalia, pensar en VEB.",
+      "**Los 10 días completos son los que previenen la fiebre reumática.**",
+      "Absceso periamigdalino (trismo, voz de «patata caliente»): drenaje + antibiótico IV."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones estreptocócicas; Katzung 15.ª ed., cap. 51"
+  },
+  {
+    "id": "PAT-otitis-media-aguda",
+    "nombre": "Otitis media aguda",
+    "sinonimos": ["OMA"],
+    "area": "INF",
+    "resumen": "Diagnóstico con otoscopia (tímpano abombado, otorrea) y síntomas agudos. **En >2 años con síntomas leves puede hacerse observación expectante 48-72 h con analgesia**. Tratar de entrada en <6 meses, <2 años con OMA bilateral, otorrea o síntomas graves (fiebre ≥39 °C, otalgia intensa). Primera línea: amoxicilina a dosis altas (neumococo con sensibilidad disminuida).",
+    "objetivo": "Control del dolor y resolución clínica en 48-72 h.",
+    "escenarios": [
+      {
+        "titulo": "Niño: primera línea",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "PED-INF-amoxicilina", "dosis": "80-90 mg/kg/día", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "10 días (<2 años o grave); 5-7 días (≥2 años leve-moderada)" },
+          { "nombre": "Ibuprofeno", "ref": "PED-REU-ibuprofeno", "dosis": "10 mg/kg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Mientras haya dolor", "nota": "La analgesia es parte del tratamiento, con o sin antibiótico" },
+          { "nombre": "Paracetamol", "ref": "PED-REU-paracetamol", "dosis": "15 mg/kg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "Mientras haya dolor" }
+        ]
+      },
+      {
+        "titulo": "Niño: fracaso a las 48-72 h, amoxicilina en el último mes u otitis-conjuntivitis",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Amoxicilina-clavulánico", "ref": "PED-INF-amoxicilina-clavulanico", "dosis": "80-90 mg/kg/día de amoxicilina (formulación 8:1 o 14:1)", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "7-10 días", "nota": "Cubre H. influenzae y Moraxella productores de betalactamasa" },
+          { "nombre": "Ceftriaxona", "ref": "PED-INF-ceftriaxona", "dosis": "50 mg/kg (máx. 1 g)", "via": "IM", "intervalo": "Cada 24 h", "duracion": "1-3 días", "nota": "Vómitos o imposibilidad de VO" },
+          { "nombre": "Azitromicina", "ref": "PED-INF-azitromicina", "dosis": "10 mg/kg/día", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Alergia inmediata a penicilina" }
+        ]
+      },
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "INF-amoxicilina", "dosis": "500 mg-1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "alternativa": "o amoxicilina-clavulánico 875/125 mg/8 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Observación expectante con analgesia y revisión a las 48-72 h en >2 años sin criterios de gravedad",
+      "Evitar humo de tabaco; lactancia materna como protección",
+      "Vacunación antineumocócica"
+    ],
+    "claves": [
+      "**Los descongestionantes y antihistamínicos no aportan beneficio en la OMA.**",
+      "La otitis serosa (sin signos agudos) no se trata con antibiótico.",
+      "Mastoiditis (despegamiento del pabellón, eritema retroauricular): ingreso y antibiótico IV."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de vías respiratorias altas; AMIR Pediatría"
+  },
+  {
+    "id": "PAT-sinusitis-aguda",
+    "nombre": "Rinosinusitis aguda bacteriana",
+    "sinonimos": ["Sinusitis"],
+    "area": "INF",
+    "resumen": "La mayoría son víricas y se resuelven en 7-10 días. **Sospechar bacteriana si**: síntomas >10 días sin mejoría, empeoramiento tras mejoría inicial («doble empeoramiento») o cuadro grave (fiebre ≥39 °C con rinorrea purulenta y dolor facial ≥3-4 días).",
+    "objetivo": "Resolución de síntomas; evitar complicaciones orbitarias e intracraneales.",
+    "escenarios": [
+      {
+        "titulo": "Adulto con criterios de sinusitis bacteriana",
+        "farmacos": [
+          { "nombre": "Amoxicilina", "ref": "INF-amoxicilina", "dosis": "500 mg-1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días" },
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Si antibiótico reciente, gravedad o fracaso" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-7 días", "alternativa": "o levofloxacino 500 mg/24 h", "nota": "Alergia a penicilina" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavados nasales con suero salino",
+      "Corticoide intranasal (budesonida o mometasona) como coadyuvante",
+      "Analgésicos"
+    ],
+    "claves": [
+      "**Edema palpebral, alteración visual, diplopía o cefalea intensa con focalidad: complicación — TC urgente.**",
+      "Los antibióticos en la sinusitis vírica no acortan los síntomas y seleccionan resistencias."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de vías respiratorias altas"
+  },
+  {
+    "id": "PAT-celulitis-erisipela",
+    "nombre": "Celulitis y erisipela",
+    "sinonimos": ["Infección de piel y partes blandas"],
+    "area": "INF",
+    "resumen": "Erisipela (superficial, bordes netos, sobreelevada): casi siempre estreptococo. Celulitis no purulenta: estreptococo ± S. aureus. **Celulitis purulenta o absceso: S. aureus (valorar SARM)** → el drenaje es el tratamiento principal. Signos de alarma de fascitis necrotizante: dolor desproporcionado, crepitación, bullas hemorrágicas, toxicidad sistémica.",
+    "objetivo": "Mejoría del eritema y de la fiebre en 48-72 h (marcar los bordes).",
+    "escenarios": [
+      {
+        "titulo": "Leve-moderada ambulatoria (no purulenta)",
+        "farmacos": [
+          { "nombre": "Cefalexina", "ref": "INF-cefalosporinas-orales", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "5-7 días (ampliar si mejora lenta)" },
+          { "nombre": "Cloxacilina", "ref": "INF-cloxacilina", "dosis": "500 mg-1 g", "via": "VO", "intervalo": "Cada 6 h, en ayunas", "duracion": "5-7 días" },
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Mordeduras y pie diabético leve" },
+          { "nombre": "Clindamicina", "ref": "INF-clindamicina", "dosis": "300-450 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5-7 días", "nota": "Alergia a betalactámicos" }
+        ]
+      },
+      {
+        "titulo": "Purulenta o con sospecha de SARM comunitario",
+        "farmacos": [
+          { "nombre": "Cotrimoxazol", "ref": "INF-cotrimoxazol", "dosis": "800/160 mg (1-2 comprimidos)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-10 días", "alternativa": "o doxiciclina 100 mg/12 h", "nota": "Tras drenaje del absceso" }
+        ]
+      },
+      {
+        "titulo": "Grave (sistémica, ingreso)",
+        "farmacos": [
+          { "nombre": "Cefazolina", "ref": "INF-cefazolina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Hasta mejoría, completar 7-14 días con VO", "alternativa": "o cloxacilina 2 g/4 h IV" },
+          { "nombre": "Vancomicina", "ref": "INF-vancomicina", "dosis": "15-20 mg/kg", "via": "IV", "intervalo": "Cada 8-12 h (por niveles)", "duracion": "Según evolución", "alternativa": "o daptomicina 4-6 mg/kg/24 h / linezolid 600 mg/12 h", "nota": "Si SARM probable" },
+          { "nombre": "Clindamicina (efecto antitoxina)", "ref": "INF-clindamicina", "dosis": "600-900 mg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Hasta estabilidad", "nota": "Añadir en la fascitis necrotizante o shock tóxico, con desbridamiento quirúrgico urgente" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Elevar la extremidad; marcar los bordes del eritema",
+      "Tratar la puerta de entrada (intertrigo micótico, úlceras)",
+      "Drenaje quirúrgico de abscesos; desbridamiento urgente si fascitis"
+    ],
+    "claves": [
+      "**El eritema puede progresar en las primeras 24-48 h pese a antibiótico adecuado** (liberación de toxinas): no es fracaso.",
+      "**Celulitis bilateral de piernas = casi siempre éxtasis venoso, no infección.**",
+      "Erisipela recurrente: penicilina benzatina profiláctica mensual."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de piel, músculo y partes blandas; guía IDSA 2014"
+  },
+  {
+    "id": "PAT-meningitis-bacteriana",
+    "nombre": "Meningitis bacteriana aguda",
+    "sinonimos": ["Meningitis"],
+    "area": "INF",
+    "resumen": "**Urgencia: antibiótico en la primera hora**, tras hemocultivos y, si no retrasa, punción lumbar. Si se necesita TC previo (focalidad, convulsiones, inmunodepresión, papiledema, bajo nivel de conciencia), dar antes dexametasona y antibiótico. Empírico según edad: neumococo y meningococo en el adulto joven; añadir Listeria (ampicilina) en >50 años, inmunodeprimidos, embarazo, alcoholismo y neonatos.",
+    "objetivo": "Esterilizar el LCR y reducir secuelas neurológicas (sordera) y mortalidad.",
+    "escenarios": [
+      {
+        "titulo": "Adulto <50 años inmunocompetente",
+        "farmacos": [
+          { "nombre": "Dexametasona", "ref": "REU-dexametasona", "dosis": "10 mg", "via": "IV", "intervalo": "Cada 6 h", "duracion": "4 días", "nota": "**Primera dosis 15-20 min antes o con el antibiótico**; suspender si no es neumococo" },
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 12 h", "duracion": "Meningococo 7 días; neumococo 10-14 días; H. influenzae 7-10 días" },
+          { "nombre": "Vancomicina", "ref": "INF-vancomicina", "dosis": "15-20 mg/kg", "via": "IV", "intervalo": "Cada 8-12 h", "duracion": "Hasta conocer sensibilidad del neumococo", "nota": "Por posible resistencia a cefalosporinas" }
+        ]
+      },
+      {
+        "titulo": ">50 años, inmunodepresión, alcoholismo o embarazo (cubrir Listeria)",
+        "farmacos": [
+          { "nombre": "Ampicilina", "ref": "INF-ampicilina", "dosis": "2 g", "via": "IV", "intervalo": "Cada 4 h", "duracion": "21 días si se confirma Listeria", "alternativa": "alergia: cotrimoxazol 5 mg/kg (trimetoprim) cada 6-8 h", "nota": "Añadida a ceftriaxona + vancomicina + dexametasona" }
+        ]
+      },
+      {
+        "titulo": "Niño (>1 mes)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "PED-INF-ceftriaxona", "dosis": "100 mg/kg/día (máx. 4 g)", "via": "IV", "intervalo": "Cada 12-24 h", "duracion": "7-14 días según germen", "nota": "+ vancomicina 60 mg/kg/día cada 6 h y dexametasona 0,15 mg/kg/6 h × 2-4 días" }
+        ]
+      },
+      {
+        "titulo": "Quimioprofilaxis de contactos íntimos (meningococo)",
+        "nota": "Convivientes y contactos estrechos en los 7 días previos; personal sanitario solo si expuesto a secreciones sin protección.",
+        "farmacos": [
+          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única" },
+          { "nombre": "Rifampicina", "ref": "INF-rifampicina", "dosis": "600 mg (niños 10 mg/kg)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "2 días", "nota": "Colorea orina y lentillas; interacciona con anticonceptivos" },
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "250 mg (niños 125 mg)", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "De elección en embarazadas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Aislamiento respiratorio las primeras 24 h (meningococo)",
+      "Control de la hipertensión intracraneal, crisis y sodio",
+      "Audiometría al alta (sordera, sobre todo neumococo)"
+    ],
+    "claves": [
+      "**No retrasar el antibiótico por la TC ni por la punción.**",
+      "**Las cefalosporinas no cubren Listeria**: ese es el motivo de la ampicilina.",
+      "Meningitis + petequias = meningococo hasta que se demuestre lo contrario: notificación urgente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de meningitis bacteriana aguda; Katzung 15.ª ed., cap. 51"
+  },
+  {
+    "id": "PAT-sepsis",
+    "nombre": "Sepsis y shock séptico (tratamiento empírico inicial)",
+    "sinonimos": ["Shock séptico"],
+    "area": "INF",
+    "resumen": "Disfunción orgánica (aumento de SOFA ≥2) por respuesta desregulada a una infección. **En la primera hora**: hemocultivos, lactato, antibiótico de amplio espectro y cristaloides 30 mL/kg si hipotensión o lactato ≥4. Vasopresor (noradrenalina) para PAM ≥65 mmHg. Elegir el antibiótico según foco probable, origen (comunitario o nosocomial) y factores de riesgo de multirresistencia; desescalar a las 48-72 h con cultivos.",
+    "objetivo": "PAM ≥65 mmHg, lactato en descenso, diuresis ≥0,5 mL/kg/h, control del foco en <6-12 h.",
+    "escenarios": [
+      {
+        "titulo": "Reanimación inicial",
+        "farmacos": [
+          { "nombre": "Cristaloides balanceados (Ringer lactato) o suero salino 0,9%", "ref": "NFR-cristaloides", "dosis": "30 mL/kg", "via": "IV", "intervalo": "En las primeras 3 h, en bolos de 250-500 mL", "duracion": "Reevaluar respuesta tras cada bolo", "nota": "Precaución en IC y ERC" },
+          { "nombre": "Noradrenalina", "sin_ficha": true, "dosis": "0,05-0,5 µg/kg/min", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta estabilidad", "nota": "Puede iniciarse por vía periférica mientras se canaliza una central" },
+          { "nombre": "Hidrocortisona", "ref": "END-hidrocortisona", "dosis": "50 mg", "via": "IV", "intervalo": "Cada 6 h", "duracion": "Hasta retirar vasopresores (5-7 días)", "nota": "Shock que necesita noradrenalina ≥0,25 µg/kg/min" }
+        ]
+      },
+      {
+        "titulo": "Antibiótico empírico: sepsis comunitaria sin factores de riesgo",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Según foco (habitualmente 7 días)", "nota": "+ metronidazol 500 mg/8 h si foco abdominal" }
+        ]
+      },
+      {
+        "titulo": "Antibiótico empírico: nosocomial, inmunodepresión o riesgo de BLEE/Pseudomonas",
+        "farmacos": [
+          { "nombre": "Piperacilina-tazobactam", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6 h (perfusión extendida)", "duracion": "7-10 días según foco" },
+          { "nombre": "Meropenem", "ref": "INF-meropenem", "dosis": "1-2 g", "via": "IV", "intervalo": "Cada 8 h (perfusión extendida)", "duracion": "7-10 días", "nota": "Colonización por BLEE, shock o antibiótico previo" },
+          { "nombre": "Vancomicina", "ref": "INF-vancomicina", "dosis": "25-30 mg/kg de carga, después 15-20 mg/kg", "via": "IV", "intervalo": "Cada 8-12 h (por niveles)", "duracion": "Retirar a las 48-72 h si no hay SARM", "alternativa": "o daptomicina 8-10 mg/kg/24 h (bacteriemia) / linezolid (neumonía)", "nota": "Si catéter, piel o colonización por SARM" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Control del foco (drenaje, retirada de catéter, cirugía) lo antes posible",
+      "Medir lactato y repetir a las 2-4 h",
+      "Objetivo glucémico 140-180 mg/dL; profilaxis de ETV y úlcera de estrés"
+    ],
+    "claves": [
+      "**Cada hora de retraso del antibiótico en el shock séptico aumenta la mortalidad.**",
+      "**Primera dosis completa del antibiótico siempre, aunque haya insuficiencia renal**; el ajuste empieza en la segunda.",
+      "Desescalar con los cultivos: el amplio espectro prolongado selecciona resistencias y C. difficile."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de sepsis y shock séptico; Surviving Sepsis Campaign 2021"
+  }
+]

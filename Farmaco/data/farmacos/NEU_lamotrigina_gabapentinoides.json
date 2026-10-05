@@ -1,0 +1,250 @@
+[
+  {
+    "id": "NEU-lamotrigina",
+    "nombre": "Lamotrigina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiepiléptico",
+    "subclase": "Bloqueante de los canales de sodio dependientes de voltaje",
+    "vs_clase": [
+      "**El antiepiléptico más seguro en el EMBARAZO y la mujer en edad fértil** (junto con levetiracetam).",
+      "**EXANTEMA y Stevens-Johnson**: obliga a una **titulación MUY lenta** (y más lenta aún con valproato, que duplica sus niveles).",
+      "**Útil en la depresión bipolar** (prevención); puede empeorar las mioclonías.",
+      "Los **anticonceptivos con estrógenos reducen sus niveles** a la mitad."
+    ],
+    "mecanismo": "Bloquea de forma uso-dependiente los canales de sodio dependientes de voltaje, estabilizando la membrana neuronal e inhibiendo la liberación de neurotransmisores excitadores, sobre todo GLUTAMATO. La uso-dependencia significa que actúa preferentemente sobre las neuronas que descargan a alta frecuencia, es decir, sobre el foco epiléptico, y respeta la actividad neuronal normal. Su acción sobre la liberación de glutamato explica también su eficacia como estabilizador del ánimo, con un perfil característico: previene sobre todo las recaídas DEPRESIVAS del trastorno bipolar, al contrario que el litio y el valproato, más eficaces frente a la manía.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Epilepsia focal y generalizada, en monoterapia o asociada",
+        "dosis": "25 mg al día durante 2 semanas, 50 mg al día 2 semanas más, y ascenso hasta 100-200 mg al día en monoterapia",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Control de las crisis con la dosis mínima eficaz; los niveles plasmáticos no se usan de rutina",
+        "nota": "El escalado LENTO no es una recomendación de tolerancia: es la medida que previene el síndrome de Stevens-Johnson"
+      },
+      {
+        "patologia": "Epilepsia en la MUJER EN EDAD FÉRTIL",
+        "dosis": "Misma pauta de escalado, hasta 100-400 mg al día según respuesta",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Es, junto al levetiracetam, el antiepiléptico de elección en esta población por su bajo potencial teratógeno, frente al valproato"
+      },
+      {
+        "patologia": "Trastorno BIPOLAR: prevención de los episodios depresivos",
+        "dosis": "25 mg al día con escalado hasta 200 mg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Su lugar es la prevención de la recaída depresiva, no el tratamiento de la manía aguda ni de la depresión aguda"
+      },
+      {
+        "patologia": "Síndrome de Lennox-Gastaut",
+        "dosis": "Escalado hasta 100-400 mg al día, con ajuste según los fármacos asociados",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Puede AGRAVAR las crisis mioclónicas"
+      }
+    ],
+    "esquema": {
+      "inicio": "25 mg al día, y no más. La dosis inicial y la velocidad de ascenso cambian según la medicación concomitante: con VALPROATO se empieza por la mitad (25 mg a días alternos) y con inductores enzimáticos por el doble.",
+      "titulacion": "Ascenso cada 2 semanas. Si el paciente interrumpe el tratamiento más de 5 días, hay que REINICIAR el escalado desde el principio: el riesgo de exantema vuelve a ser el de la primera vez.",
+      "duracion": "Prolongada, de años.",
+      "fin": "Retirada gradual a lo largo de al menos 2-4 semanas; la suspensión brusca puede desencadenar crisis.",
+      "via": "Oral. Existe presentación bucodispersable, útil en la disfagia y en el niño.",
+      "monitorizacion": "Fundamentalmente CLÍNICA: aparición de exantema, sobre todo en las primeras 8 semanas. Los niveles plasmáticos solo se miden en el embarazo, ante sospecha de mala adherencia o de toxicidad."
+    },
+    "farmacocinetica": {
+      "absorcion": "Prácticamente completa por vía oral, sin efecto de los alimentos.",
+      "distribucion": "Unión a proteínas del 55%.",
+      "metabolismo": "Hepático por GLUCURONIDACIÓN (UGT), no por el citocromo P450. Esto la hace vulnerable a todo lo que modifique la glucuronidación.",
+      "eliminacion": "Renal en forma de glucurónido.",
+      "vida_media": "25-35 horas en monoterapia; unas 60 horas con valproato y unas 14 con inductores.",
+      "ajuste_renal": "Reducción modesta en la insuficiencia grave.",
+      "ajuste_hepatico": "Reducir la dosis un 50% en la insuficiencia moderada y un 75% en la grave.",
+      "interacciones": [
+        {
+          "con": "VALPROATO",
+          "efecto": "INHIBE la glucuronidación y DUPLICA los niveles de lamotrigina, multiplicando el riesgo de exantema grave",
+          "gravedad": "alta",
+          "manejo": "La combinación es útil y sinérgica, pero obliga a empezar por 25 mg a DÍAS ALTERNOS y a escalar aún más despacio"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital y rifampicina",
+          "efecto": "INDUCEN la glucuronidación y reducen a la mitad los niveles: pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Duplicar aproximadamente la dosis objetivo"
+        },
+        {
+          "con": "ANTICONCEPTIVOS ORALES con estrógenos",
+          "efecto": "Inducen la glucuronidación y bajan los niveles hasta un 50%; en la semana de descanso los niveles REBOTAN y aparece toxicidad",
+          "gravedad": "alta",
+          "manejo": "Una de las interacciones más olvidadas. Ajustar la dosis al iniciar o suspender el anticonceptivo y considerar pautas continuas sin semana de descanso"
+        },
+        {
+          "con": "EMBARAZO",
+          "efecto": "El aumento de la glucuronidación puede reducir los niveles hasta un 50-60%, con reaparición de crisis",
+          "gravedad": "alta",
+          "manejo": "Es de los pocos casos en que se monitorizan niveles: control en cada trimestre y reajuste rápido tras el parto para evitar la toxicidad posparto"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "EXANTEMA cutáneo, en torno al 10% de los pacientes",
+        "Cefalea, mareo y diplopía",
+        "Náuseas",
+        "Insomnio (es activadora, a diferencia de la mayoría de los antiepilépticos)",
+        "Temblor"
+      ],
+      "graves": [
+        "SÍNDROME DE STEVENS-JOHNSON y NECRÓLISIS EPIDÉRMICA TÓXICA",
+        "Síndrome DRESS con eosinofilia y afectación multiorgánica",
+        "Linfohistiocitosis hemofagocítica (rara pero descrita y grave)",
+        "Meningitis aséptica",
+        "Agravamiento de crisis mioclónicas"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de exantema grave por lamotrigina",
+      "Hipersensibilidad conocida",
+      "Precaución extrema con valproato asociado si no se respeta la pauta de escalado reducida"
+    ],
+    "perlas": [
+      "Todo este fármaco gira alrededor de una sola regla: SUBIR DESPACIO. El riesgo de Stevens-Johnson depende directamente de la dosis inicial y de la velocidad del ascenso, y se reduce de forma drástica respetando el escalado. Un escalado acelerado por prisa clínica es la vía directa a la complicación que puede matar al paciente.",
+      "Si el paciente lleva más de 5 días sin tomarla, hay que REINICIAR el escalado desde 25 mg. Es un detalle que se olvida constantemente tras un ingreso, un viaje o un problema de receta, y el riesgo cutáneo se reinicia con él.",
+      "Ante cualquier exantema en las primeras 8 semanas, se suspende. No merece la pena esperar a ver si evoluciona: los signos de alarma son la afectación de mucosas, la fiebre, las ampollas, la afectación facial y el malestar general.",
+      "La interacción con el VALPROATO es la más importante y también la más útil: el valproato duplica los niveles de lamotrigina, así que se empieza a la mitad y se sube al doble de despacio. La combinación es una de las más eficaces en la epilepsia refractaria, pero exige respetar el ajuste.",
+      "Los ANTICONCEPTIVOS ORALES bajan los niveles hasta la mitad, y la semana de descanso produce un rebote con toxicidad. Es la interacción que hay que buscar activamente en la mujer joven epiléptica, y la que explica crisis inexplicables cada cuatro semanas.",
+      "En el EMBARAZO el aclaramiento se dispara y las crisis reaparecen. Es uno de los pocos antiepilépticos en los que se monitorizan niveles durante la gestación, y hay que bajar la dosis rápido tras el parto para evitar la intoxicación.",
+      "En el trastorno bipolar previene el polo DEPRESIVO. Litio y valproato protegen sobre todo del polo maníaco; elegir entre ellos depende de por dónde recae el paciente.",
+      "A diferencia de casi todos los antiepilépticos, no sedan: puede producir insomnio, lo que la hace atractiva en el paciente que no tolera la somnolencia del levetiracetam o del valproato."
+    ],
+    "embarazo_lactancia": "Es, junto con el levetiracetam, el antiepiléptico de elección en la mujer en edad fértil: el riesgo teratógeno es bajo y muy inferior al del valproato. Requiere suplementación con ácido fólico y monitorización de niveles durante la gestación. Pasa a la leche en cantidad apreciable; la lactancia se considera compatible con vigilancia del lactante (somnolencia, exantema).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; guías NICE de epilepsia y recomendaciones sobre antiepilépticos en el embarazo"
+  },
+  {
+    "id": "NEU-gabapentinoides",
+    "nombre": "Gabapentina y pregabalina",
+    "sinonimos": [
+      "Gabapentinoides",
+      "Ligandos alfa-2-delta"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiepiléptico y analgésico del dolor neuropático",
+    "subclase": "Ligandos de la subunidad alfa-2-delta del canal de calcio dependiente de voltaje",
+    "mecanismo": "Pese a su nombre y a su parecido estructural, NO actúan sobre el receptor GABA ni sobre su metabolismo. Se unen a la subunidad ALFA-2-DELTA de los canales de calcio dependientes de voltaje presinápticos, reduciendo la entrada de calcio y, con ella, la liberación de neurotransmisores excitadores: glutamato, noradrenalina y sustancia P. El efecto es especialmente marcado en las neuronas sensibilizadas, que sobreexpresan esa subunidad tras una lesión nerviosa, y eso explica que sean mucho más eficaces en el dolor NEUROPÁTICO que en el nociceptivo. La diferencia práctica entre ambos está en la farmacocinética: la gabapentina se absorbe por un transportador SATURABLE, de modo que a más dosis menos proporción absorbida, mientras que la pregabalina tiene una absorción lineal y previsible, lo que la hace más fácil de dosificar y, por lo mismo, más apetecible como droga de abuso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor NEUROPÁTICO periférico (neuropatía diabética, neuralgia postherpética)",
+        "dosis": "Pregabalina 75 mg cada 12 horas, ascendiendo hasta 300-600 mg al día; gabapentina 300 mg al día, ascendiendo hasta 1800-3600 mg al día repartidos en 3 tomas",
+        "posologia": "Pregabalina cada 12 horas; gabapentina cada 8 horas",
+        "via": "VO",
+        "nota": "Son fármacos de primera línea junto con los antidepresivos duales y los tricíclicos"
+      },
+      {
+        "patologia": "Epilepsia focal, como tratamiento asociado",
+        "dosis": "Gabapentina 900-3600 mg al día; pregabalina 150-600 mg al día",
+        "posologia": "Repartida en 2-3 tomas",
+        "via": "VO",
+        "nota": "Nunca en la epilepsia generalizada: pueden AGRAVAR las ausencias y las mioclonías"
+      },
+      {
+        "patologia": "Trastorno de ANSIEDAD GENERALIZADA (pregabalina)",
+        "dosis": "150 mg al día repartidos en 2 tomas, hasta 600 mg al día",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Indicación autorizada de la pregabalina; alternativa a la benzodiazepina, aunque comparte con ella el riesgo de dependencia"
+      },
+      {
+        "patologia": "Fibromialgia y síndrome de piernas inquietas",
+        "dosis": "Pregabalina 150-450 mg al día; gabapentina 900-1800 mg al día",
+        "posologia": "Repartida en 2-3 tomas, con dosis mayor en la noche",
+        "via": "VO",
+        "nota": "Beneficio modesto; conviene pactar de antemano cuándo se dará por fracasado el ensayo terapéutico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja y nocturna para aprovechar la sedación inicial y minimizar el mareo. En el anciano, la mitad de la dosis habitual.",
+      "titulacion": "Ascenso cada 3-7 días. La respuesta analgésica tarda de 2 a 4 semanas en establecerse: abandonar antes es abandonar sin haber probado.",
+      "duracion": "Revisión periódica obligada en el dolor crónico. Si a las 4-8 semanas a dosis plena no hay beneficio claro, hay que RETIRARLO, no perpetuarlo.",
+      "fin": "Retirada GRADUAL a lo largo de al menos una semana, y más lenta si el tratamiento ha sido prolongado: la suspensión brusca produce ansiedad, insomnio, sudoración, náuseas y, en el epiléptico, crisis.",
+      "via": "Oral.",
+      "monitorizacion": "Función renal (determina la dosis), somnolencia, edemas, peso y signos de uso indebido o de escalada de dosis no pactada."
+    },
+    "farmacocinetica": {
+      "absorcion": "Gabapentina: SATURABLE por un transportador de aminoácidos, con biodisponibilidad que cae del 60% al 30% al subir la dosis, lo que obliga a repartirla en 3 tomas. Pregabalina: lineal y con biodisponibilidad superior al 90%.",
+      "distribucion": "No se unen a proteínas plasmáticas.",
+      "metabolismo": "NINGUNO: no se metabolizan y no interaccionan con el citocromo P450.",
+      "eliminacion": "RENAL, íntegramente y sin modificar.",
+      "vida_media": "5-7 horas ambas.",
+      "ajuste_renal": "Ajuste OBLIGATORIO por filtrado glomerular. Es la causa más frecuente de intoxicación: el anciano con deterioro renal acumula el fármaco y aparece somnolencia, confusión, mioclonías y ataxia. Se eliminan con la hemodiálisis y requieren dosis suplementaria tras la sesión.",
+      "ajuste_hepatico": "No requieren ajuste (no se metabolizan).",
+      "interacciones": [
+        {
+          "con": "OPIOIDES",
+          "efecto": "Depresión respiratoria y MUERTE por suma de efectos depresores centrales",
+          "gravedad": "alta",
+          "manejo": "Alerta de seguridad expresa de las agencias reguladoras. Combinación muy frecuente en la práctica y claramente infravalorada; si es imprescindible, dosis mínimas y advertencia explícita al paciente"
+        },
+        {
+          "con": "Benzodiazepinas y alcohol",
+          "efecto": "Sedación profunda y depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "ANTIÁCIDOS con aluminio y magnesio",
+          "efecto": "Reducen la absorción de la gabapentina hasta un 20%",
+          "gravedad": "baja",
+          "manejo": "Separar 2 horas"
+        },
+        {
+          "con": "Fármacos que deterioran la función renal (AINE, IECA, diuréticos)",
+          "efecto": "Acumulación e intoxicación por reducción del aclaramiento",
+          "gravedad": "media",
+          "manejo": "Revisar la dosis cuando cambie la función renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SOMNOLENCIA y mareo, los efectos dominantes y causa habitual de abandono",
+        "AUMENTO DE PESO y aumento del apetito",
+        "EDEMAS periféricos, que se confunden con insuficiencia cardiaca",
+        "Ataxia y visión borrosa",
+        "Sequedad de boca"
+      ],
+      "graves": [
+        "DEPRESIÓN RESPIRATORIA, sobre todo asociada a opioides, en el anciano y en el paciente con enfermedad respiratoria",
+        "DEPENDENCIA y uso indebido, con un mercado ilícito real, en especial de la pregabalina",
+        "Síndrome de abstinencia por retirada brusca",
+        "Intoxicación por acumulación en la insuficiencia renal, con encefalopatía y mioclonías",
+        "Ideación suicida (efecto de clase de los antiepilépticos)",
+        "Descompensación de una insuficiencia cardiaca por retención hídrica"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "Precaución mayor en la insuficiencia renal sin ajuste de dosis",
+      "Precaución en el antecedente de trastorno por uso de sustancias",
+      "Epilepsia generalizada con ausencias o mioclonías (pueden agravarlas)"
+    ],
+    "perlas": [
+      "El nombre engaña: NO actúan sobre el GABA. Se unen a la subunidad alfa-2-delta del canal de calcio, y toda su farmacología se entiende mejor desde ahí que desde el parecido estructural que les dio nombre.",
+      "La dosis la marca el RIÑÓN. No se metabolizan en absoluto y se eliminan íntegros por la orina, así que un anciano con un filtrado de 30 tratado con la dosis del prospecto acaba somnoliento, atáxico y con mioclonías, y el cuadro se atribuye con frecuencia a un deterioro cognitivo o a un ictus.",
+      "La combinación con OPIOIDES mata. Las agencias reguladoras han emitido alertas expresas por muertes por depresión respiratoria, y sin embargo es una de las asociaciones más habituales en las consultas de dolor crónico.",
+      "La PREGABALINA tiene un problema de abuso real: su absorción rápida y previsible le da un efecto ansiolítico y euforizante que la gabapentina no tiene, y existe un mercado ilícito consolidado. Conviene preguntar por la escalada de dosis y por la petición anticipada de recetas.",
+      "La gabapentina se absorbe por un transportador SATURABLE: subir la dosis no aumenta proporcionalmente el efecto, y por eso hay que repartirla en tres tomas en lugar de dar la misma cantidad de una vez.",
+      "En dolor neuropático hay que dar tiempo: la analgesia tarda de 2 a 4 semanas. Muchos fracasos son en realidad ensayos interrumpidos demasiado pronto o dosis que nunca llegaron al rango terapéutico.",
+      "Los EDEMAS y el aumento de peso son frecuentes y se malinterpretan como insuficiencia cardiaca, generando pruebas y diuréticos innecesarios. Preguntar por la cronología en relación con el inicio del fármaco resuelve la duda.",
+      "Si no funciona, hay que RETIRARLO. La prescripción indefinida de un gabapentinoide que nunca alivió es uno de los patrones de mala prescripción crónica más extendidos, y añade sedación, caídas y dependencia sin beneficio alguno."
+    ],
+    "embarazo_lactancia": "Datos limitados; se ha descrito un ligero aumento de malformaciones con la pregabalina, por lo que se recomienda evitarla y usar anticoncepción eficaz. En la lactancia se excretan en pequeñas cantidades y se consideran de uso aceptable con vigilancia de la somnolencia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 24 y 31; alertas de la AEMPS y de la FDA sobre gabapentinoides y depresión respiratoria"
+  }
+]

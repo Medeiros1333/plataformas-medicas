@@ -1,0 +1,465 @@
+## 0. CABEÇALHO
+
+**Código:** PREV-07 · **Especialidade:** Preventiva · **Tema:** Política Nacional de Atenção Básica · **Assunto:** Princípios, papel e responsabilidades da equipe de Atenção Básica (PNAB) · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 15 (2013.1-Q96, 2015.1-Q7, 2012.1-Q48, 2014.1-Q47, 2021.1-Q16, 2021.1-Q48, 2021.1-Q98, 2022.2-Q85, 2023.1-Q75, 2023.1-Q90, 2023.2-Q20, 2023.2-Q95, 2024.2-Q85, 2025.2-Q63, 2025.2-Q70) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 70 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29
+
+---
+
+## 1. TEORIA
+
+A Política Nacional de Atenção Básica (PNAB) é o documento normativo que define os princípios, diretrizes e responsabilidades da Atenção Básica/Primária no SUS — o Revalida cobra tanto o **papel geral da Atenção Básica** (inclusive em situações especiais, como epidemias) quanto **responsabilidades organizativas específicas** das equipes (ex.: implantação em áreas vulneráveis).
+
+**Papel central da Atenção Básica segundo a PNAB [CONSENSO]:**
+- É o nível de atenção responsável pela **centralidade do cuidado às pessoas**, com **assistência integral** à saúde da população adscrita — não apenas ações pontuais/individuais, mas cuidado longitudinal e integral.
+- Atua com **alta resolutividade** para os problemas de saúde mais frequentes e relevantes, mesmo utilizando tecnologias de menor densidade (mas isso não significa "baixa qualidade" — significa adequação tecnológica ao perfil de necessidades mais comuns).
+- É fundamental também em situações de **emergência em saúde pública** (ex.: epidemias, como dengue) — não se limita a ações individuais de consulta, mas assume papel de **assistência integral** e coordenação territorial do enfrentamento.
+
+⚠️ **PEGADINHA DO INEP:** a banca gosta de restringir o papel da Atenção Básica a apenas **uma função isolada** (só vigilância epidemiológica, só triagem/encaminhamento, só procedimentos individuais) quando o conceito correto da PNAB é mais **abrangente**: assistência **integral**, com centralidade do cuidado, que inclui (mas não se limita a) vigilância, promoção, prevenção e coordenação com outros níveis.
+
+**Responsabilidades organizativas da equipe de Atenção Básica na implantação de novos serviços [CONSENSO]:**
+- **Diálogo com a comunidade** sobre as características e organização do serviço é responsabilidade central da equipe ao implantar uma nova unidade — especialmente em áreas de vulnerabilidade social, onde a adesão e confiança da comunidade são determinantes para a efetividade do serviço.
+- A territorialização e o cadastramento da população adscrita seguem critérios de área de abrangência (não "atender a todos, independentemente de onde moram", o que descaracterizaria a lógica de território adscrito da Estratégia de Saúde da Família).
+- O horário de funcionamento e a organização dos serviços devem ser **adaptados às características locais** (não um padrão rígido único e uniforme para todos os territórios).
+
+⚠️ **PEGADINHA DO INEP:** a banca costuma oferecer alternativas que descrevem uma atuação **rígida/padronizada** (mesmo horário em todo lugar, atender a todos independente do território, tecnologia sempre de baixa complexidade) — o conceito correto da PNAB valoriza a **adaptação ao território** e a **construção de vínculo/diálogo com a comunidade** como responsabilidades centrais, especialmente em contextos de vulnerabilidade.
+
+### Referências
+1. Ministério da Saúde. Política Nacional de Atenção Básica (PNAB), Portaria vigente.
+2. Ministério da Saúde. Caderno de Atenção Básica — Vigilância em Saúde, edição vigente.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na gestão local real:** ao implantar uma nova Unidade de Saúde da Família, especialmente em área de vulnerabilidade social, a construção de vínculo com a comunidade (reuniões, escuta das necessidades locais, adaptação de horários e fluxos) é tão importante quanto a estrutura física/equipe — negligenciar esse diálogo compromete a adesão e a efetividade do serviço.
+
+**Sequência prática de raciocínio:**
+1. Reconhecer o papel amplo/integral da Atenção Básica (não restringir a uma única função).
+2. Ao implantar novo serviço, priorizar diálogo com a comunidade sobre organização/funcionamento.
+3. Adaptar horários e fluxos às características do território, não aplicar padrão rígido único.
+4. Em situações de emergência em saúde pública (epidemias), reconhecer o papel ativo e abrangente da Atenção Básica, não apenas de triagem.
+
+**Erros que profissionais/gestores cometem de verdade:**
+- Restringir o papel da Atenção Básica a apenas uma função (ex.: só vigilância, só triagem) em vez de reconhecer a assistência integral.
+- Implantar novo serviço sem diálogo prévio com a comunidade, comprometendo adesão.
+- Aplicar horários/fluxos padronizados rigidamente, sem considerar as características específicas do território.
+
+**O que isso muda na prática:** o sucesso da implantação de serviços de Atenção Básica, especialmente em áreas vulneráveis, depende fortemente do vínculo construído com a comunidade — não apenas da disponibilidade de estrutura e profissionais.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):** este tema tipicamente aparece em questões teóricas/de gestão, não em estações clínicas tradicionais.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-23: este módulo passou a cobrir **todas as 16 edições já extraídas** do banco (2011.1–2025.2). Gabaritos conferidos um a um contra os PDFs oficiais do INEP na auditoria de 2026-09-23.*
+
+**[INEP 2013 · Edição 1 · Questão 96]**
+
+Um médico que trabalha em uma comunidade urbana de médio porte foi convidado para participar de uma entrevista numa rádio local. O objetivo da entrevista era conscientizar a população sobre o enfrentamento de epidemia da dengue que o município passava no momento. Quando foi indagado sobre a importância da Atenção Básica nesse enfrentamento, o médico utilizou os conceitos estabelecidos na Política Nacional de Atenção Básica do Ministério da Saúde. De acordo com esse documento, qual das alternativas abaixo está correta em relação ao papel da Atenção Básica no enfrentamento da dengue?
+
+A) Uma das responsabilidades da Atenção Básica é a vigilância epidemiológica, que, por meio de seus agentes comunitários de saúde, deve identificar e atuar sobre os focos do vetor da dengue, realizando a promoção em saúde.
+B) A Atenção Básica é o nível de atenção à saúde responsável pela centralidade do cuidado às pessoas, com atividades de assistência integral à saúde da população, sendo, por isso, fundamental no enfrentamento da epidemia de dengue.
+C) A Atenção Básica utiliza tecnologias de baixa complexidade e alta densidade, conseguindo solucionar os problemas de saúde mais frequentes e mais relevantes da população, como na situação da epidemia de dengue.
+D) A Atenção Básica realiza a promoção da saúde e prevenção das doenças e, numa epidemia de dengue, este nível de atenção serve para realizar a triagem e encaminhamentos dos casos para os outros níveis.
+E) O propósito da Atenção Básica é realizar os procedimentos básicos de cuidado à saúde de forma individual, atuando na epidemia da dengue através de consultas e procedimentos médicos.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** reflete o conceito mais **abrangente e correto** da PNAB — a Atenção Básica é responsável pela **centralidade do cuidado** e **assistência integral**, o que a torna fundamental no enfrentamento de uma epidemia justamente por essa amplitude de atuação (não uma função isolada), incluindo vigilância, promoção, assistência clínica e coordenação territorial.
+
+**Por que as demais estão erradas:**
+- A) Restringe o papel da Atenção Básica apenas à vigilância epidemiológica pelos ACS — verdadeiro em parte, mas é uma descrição **parcial**, não a mais completa/correta sobre o papel geral definido na PNAB.
+- C) A expressão "tecnologias de baixa complexidade e **alta densidade**" é internamente contraditória e tecnicamente incorreta (a Atenção Básica é caracterizada por menor densidade tecnológica, não alta) — erro conceitual explícito.
+- D) Restringe o papel a apenas "triagem e encaminhamento" — subestima a capacidade de resolução direta da Atenção Básica, que deveria resolver a maioria dos casos, não apenas encaminhá-los.
+- E) Restringe a atuação a "procedimentos individuais" (consultas e procedimentos médicos) — ignora a dimensão coletiva/territorial fundamental no enfrentamento de uma epidemia (ações de vigilância, promoção, mobilização comunitária).
+
+**O que a banca estava testando:** reconhecimento do conceito mais amplo e correto do papel da Atenção Básica (centralidade do cuidado + assistência integral), rejeitando descrições parciais ou tecnicamente incorretas que restringem essa atuação a uma única função.
+
+---
+
+**[INEP 2015 · Edição 1 · Questão 7]**
+
+A equipe de gestão de uma Secretaria Municipal de Saúde, ao implantar uma Unidade de Saúde da Família (USF) em uma área de vulnerabilidade social, reuniu-se para organizar sua agenda de modo a cumprir a Política Nacional de Atenção Básica (PNAB). Considerando os aspectos organizativos e de gestão dessa política, são responsabilidades do trabalho dessa equipe
+
+A) garantir que o horário diário de funcionamento das Unidades de Saúde da Família tenha o mesmo padrão em todos os territórios.
+B) dialogar com a comunidade acerca das características e organização do serviço, de modo a estabelecer sua efetiva implantação.
+C) garantir atendimento e cadastramento a todos os indivíduos que procuram a USF, independentemente do seu local de moradia.
+D) oferecer serviços com densidade tecnológica variada e de baixa complexidade, capazes de captar usuários mais resistentes e garantir resolutividade.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** o **diálogo com a comunidade** sobre as características e organização do serviço é responsabilidade central na implantação de uma nova unidade, especialmente em área de vulnerabilidade social — a construção de vínculo e confiança com a população é determinante para a efetividade e adesão ao serviço, conforme os princípios organizativos da PNAB.
+
+**Por que as demais estão erradas:**
+- A) Impor o **mesmo padrão de horário** rigidamente em todos os territórios contraria o princípio de adaptação às características locais — a PNAB valoriza a flexibilidade conforme as necessidades e realidade de cada território.
+- C) Atender a todos "independentemente do local de moradia" contraria a lógica de **território adscrito** da Estratégia de Saúde da Família, que organiza o cuidado por área de abrangência definida, não por livre demanda territorial.
+- D) É uma descrição vaga e não constitui a responsabilidade organizativa central pedida na questão (implantação em área vulnerável) — "captar usuários mais resistentes" não é conceito específico definido pela PNAB como responsabilidade organizativa prioritária neste contexto.
+
+**O que a banca estava testando:** reconhecimento de que o diálogo e a construção de vínculo com a comunidade são responsabilidades centrais na implantação de serviços de Atenção Básica, especialmente em áreas vulneráveis, rejeitando abordagens rígidas/padronizadas ou que contrariam a lógica de território adscrito.
+
+---
+
+**[INEP 2012 · Edição 1 · Questão 48]**
+
+Um médico é contratado para trabalhar em uma unidade de saúde pertencente à Estratégia de Saúde da Família. Uma vez por semana, a equipe se reúne para planejamento e avaliação das ações. O coordenador explica ao médico o funcionamento da unidade de saúde e apresenta os demais membros da equipe. A equipe é composta pelo médico, o enfermeiro, o técnico de enfermagem, o odontólogo, o técnico de higiene dental e seis agentes comunitários de saúde. Na equipe de saúde, caberá ao médico
+
+A) participar do gerenciamento dos insumos necessários para o adequado funcionamento da unidade.
+B) mapear a situação vacinal das crianças menores de 5 anos de idade.
+C) realizar a prescrição hospitalar dos pacientes de sua área de abrangência.
+D) dispensar medicação controlada para os pacientes de sua área de abrangência.
+E) realizar o acolhimento das gestantes encaminhadas ao ambulatório de pré-natal.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** pela **Política Nacional de Atenção Básica**, entre as atribuições do médico (e dos demais profissionais de nível superior) está **participar do gerenciamento dos insumos** necessários ao funcionamento da unidade — a gestão da UBS é compartilhada pela equipe.
+
+**Por que as demais estão erradas:**
+- B) Mapear a situação vacinal é tarefa típica do **ACS** e da enfermagem.
+- C) A equipe de Saúde da Família não faz prescrição **hospitalar**; o paciente internado é de responsabilidade da equipe do hospital.
+- D) **Dispensação** de medicamentos é atribuição da **farmácia/farmacêutico**.
+- E) O acolhimento é da equipe toda, e as gestantes são acompanhadas no pré-natal da **própria UBS**, não "encaminhadas a ambulatório".
+
+⚠️ **PEGADINHA DO INEP:** atribuições da PNAB se dividem em **comuns a todos** (territorialização, acolhimento, busca ativa, gestão de insumos) e **específicas** por categoria. Médico: consultas, procedimentos, atividades em grupo, encaminhamentos, coordenação do cuidado.
+
+**O que a banca estava testando:** atribuições do médico na equipe de Saúde da Família.
+
+---
+
+**[INEP 2014 · Edição 1 · Questão 47]**
+
+No Brasil, de acordo com a Política Nacional de Atenção Básica, compete especificamente ao médico
+
+A) realizar atividades programadas e de atenção à demanda espontânea.
+B) acompanhar, por meio de visitas domiciliares, todas as famílias que procuram a Unidade Básica de Saúde.
+C) planejar, gerenciar e avaliar as atividades desenvolvidas pelo Agente Comunitário de Saúde.
+D) cadastrar todas as pessoas de sua área no território e manter os cadastros atualizados.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** entre as atribuições **específicas do médico** na PNAB estão realizar consultas clínicas, pequenos procedimentos e **atividades programadas e de atenção à demanda espontânea** (junto com atividades em grupo, encaminhamentos e indicação de internação domiciliar).
+
+**Por que as demais estão erradas:**
+- B) Visitar **todas** as famílias que procuram a UBS não é atribuição do médico; as visitas domiciliares regulares são do **ACS**, e o médico faz visitas por necessidade.
+- C) Planejar e supervisionar o trabalho do ACS é atribuição do **enfermeiro** (e da equipe).
+- D) Cadastrar as famílias e manter o cadastro é atribuição do **ACS** (e comum à equipe).
+
+⚠️ **PEGADINHA DO INEP:** "supervisionar ACS" → **enfermeiro**; "cadastrar e visitar mensalmente" → **ACS**; "consulta, demanda espontânea e programada" → **médico**.
+
+**O que a banca estava testando:** atribuições específicas do médico segundo a PNAB.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 16]**
+
+Uma paciente, de 66 anos de idade, vem em consulta com médico de família e comunidade de uma equipe de Saúde da Família Fluvial, referindo estar preocupada com o controle de seu diabetes mellitus. Como a equipe ficou um longo período sem visitar a comunidade devido a condições climáticas desfavoráveis, a paciente refere ter associado o uso de algumas plantas medicinais aos medicamentos prescritos em última consulta. Ela informa que a curandeira da comunidade orientou quais chás ela deveria tomar. O médico, então, identifica que essas plantas medicinais não interagem com os medicamentos prescritos, nem pioram o diabetes ou causam risco à saúde; concorda com seu uso, reforçando a prescrição realizada por ele e solicita exames para a avaliação do controle do diabetes. Diante do que foi apresentado, qual atributo da atenção primária é apresentado no caso?
+
+A) Longitudinalidade.
+B) Integralidade.
+C) Competência cultural.
+D) Orientação para a comunidade.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** o médico **reconhece e respeita a cultura** da comunidade (o uso de plantas orientado pela curandeira), avalia sua segurança e **incorpora essa prática** ao plano terapêutico sem desqualificá-la. Isso é a **competência cultural**, um dos atributos **derivados** da APS (Starfield): adaptar o cuidado às características culturais da população, facilitando a relação e a adesão.
+
+**Por que as demais estão erradas:**
+- A) **Longitudinalidade** é o vínculo e o acompanhamento ao longo do tempo pela mesma equipe — presente, mas não é o foco da cena.
+- B) **Integralidade** é oferecer o conjunto de serviços necessários (promoção, prevenção, tratamento, reabilitação).
+- D) **Orientação para a comunidade** é conhecer as necessidades de saúde coletivas e planejar ações para o território.
+
+⚠️ **PEGADINHA DO INEP:** atributos de Starfield — **essenciais**: acesso de primeiro contato, longitudinalidade, integralidade, coordenação; **derivados**: orientação familiar, orientação comunitária e **competência cultural**.
+
+**O que a banca estava testando:** reconhecimento dos atributos da atenção primária.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 48]**
+
+Segundo a Política Nacional da Atenção Básica (2017), como atribuição comum a todos os membros das equipes que atuam na Atenção Primária em Saúde, inclusive ao médico, consta: "Realizar busca ativa de internações e atendimentos de urgência/emergência por causas sensíveis à Atenção Básica, a fim de estabelecer estratégias que ampliem a resolutividade e a longitudinalidade pelas equipes que atuam na Atenção Básica". Considerando as causas sensíveis e o perfil de mortalidade por causa da população brasileira, aquelas estratégias com maior impacto para a redução dessas causas de morte na população de 50 anos e mais são ações de
+
+A) controle da hipertensão arterial e do diabetes mellitus.
+B) educação no trânsito e de denúncia e prevenção de violência.
+C) orientação aos trabalhadores, visando reduzir acidentes de trabalho e doenças ocupacionais.
+D) rastreamento de câncer de mama e câncer de próstata.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** a partir dos 50 anos, as **doenças do aparelho circulatório** (infarto, AVC, insuficiência cardíaca) lideram a mortalidade no Brasil, e **hipertensão e diabetes** são as principais **condições sensíveis à atenção primária** — seu bom controle reduz internações e mortes evitáveis. Por isso, **controlar HAS e DM** é a estratégia de maior impacto nessa faixa.
+
+**Por que as demais estão erradas:**
+- B) Trânsito e violência pesam mais na mortalidade de **jovens**.
+- C) Acidentes de trabalho têm impacto menor na mortalidade dos 50+ e não são "causas sensíveis à APS" no mesmo grau.
+- D) **Rastreamento de câncer de próstata** não é recomendado pelo Ministério da Saúde para a população geral; e as neoplasias, embora importantes, não superam as circulatórias.
+
+⚠️ **PEGADINHA DO INEP:** "condições sensíveis à atenção primária" = internações evitáveis com APS efetiva (HAS, DM, asma, DPOC, ICC, infecções...). É indicador de **qualidade da APS**.
+
+**O que a banca estava testando:** perfil de mortalidade e condições sensíveis à atenção primária.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 98]**
+
+Em 2006, foi implantada a Política Nacional de Práticas Integrativas e Complementares (PNPIC) no SUS. De acordo com essa política, é correto afirmar que
+
+A) o seu campo de atuação envolve sistemas médicos simplificados com a utilização de terapêuticos simples.
+B) estimula mecanismos naturais de tratamento de algumas doenças e recuperação da saúde com utilização de tecnologias frágeis e nem sempre seguras.
+C) limita o acesso à tecnologia de ponta e aumenta o número de atendimentos nas unidades, contribuindo para ampliar a resolubilidade do sistema.
+D) compartilha da visão ampliada do processo saúde-doença e a promoção global do cuidado humano, especialmente do autocuidado.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a **PNPIC** (Portaria GM/MS nº 971/2006) insere no SUS práticas como medicina tradicional chinesa/acupuntura, homeopatia, plantas medicinais e fitoterapia, termalismo e medicina antroposófica (depois ampliadas). Seu fundamento é a **visão ampliada do processo saúde-doença** e a **promoção global do cuidado**, com ênfase no **autocuidado**, na escuta acolhedora e no vínculo.
+
+**Por que as demais estão erradas:**
+- A) Não são "sistemas simplificados" — são **sistemas médicos complexos** (como a medicina tradicional chinesa) e recursos terapêuticos com racionalidades próprias.
+- B) A política prevê práticas com **segurança, eficácia e qualidade** — não "tecnologias frágeis e nem sempre seguras".
+- C) Não limita o acesso a outras tecnologias; é **complementar**, não substitutiva.
+
+⚠️ **PEGADINHA DO INEP:** PICS são **complementares** (não alternativas) e se inserem preferencialmente na **atenção primária**.
+
+**O que a banca estava testando:** fundamentos da Política Nacional de Práticas Integrativas e Complementares.
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 85]**
+
+A Agência Nacional de Saúde Suplementar (ANS), vinculada ao Ministério da Saúde, é uma autarquia que regula, normatiza, controla e fiscaliza os planos de saúde. Em novembro de 2021, foi aprovada a Política Nacional de Saúde Suplementar para o enfrentamento da covid-19 (PNSS-Covid-19). Uma das diretrizes dessa política é
+
+A) criar um sistema de saúde complementar ao SUS, tendo como eixo a Atenção Primária à Saúde (APS) da rede SUS e a integração de bases de dados relacionadas à covid-19.
+B) promover ações que garantam o atendimento à saúde, visando-se ao melhor desfecho clínico com custo adequado e cuidado centrado na experiência do paciente.
+C) desenvolver mecanismos que posterguem o cumprimento de contratos e o atendimento à saúde, a partir dos critérios da ANS, haja vista a excepcionalidade da pandemia de covid-19.
+D) empreender ações que visem garantir o atendimento às necessidades de tratamento dos pacientes graves, permitindo-se que os casos leves sejam atendidos pela APS da rede SUS.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Análise:** a questão cobrava o conteúdo de uma norma específica e recente da saúde suplementar. Pelo espírito da regulação da ANS, a alternativa mais coerente seria **B** — garantir atendimento com foco em desfecho clínico, custo adequado e cuidado centrado no paciente. **C** e **D** contrariam as obrigações contratuais das operadoras (postergar atendimento; transferir casos leves ao SUS), e **A** confunde saúde suplementar com rede SUS.
+
+O INEP não divulga o motivo da anulação; use a questão para estudar o papel regulatório da ANS, não a norma específica.
+
+**O que a banca estava testando:** regulação da saúde suplementar pela ANS.
+
+---
+
+**[INEP 2023 · Edição 1 · Questão 75]**
+
+Uma paciente com 40 anos comparece à consulta médica no posto de saúde contando que, em razão de suas várias queixas de insônia e dificuldades para dormir, já havia sido orientada sobre higiene do sono, tendo obtido melhora parcial, e que, há um mês e meio, havia se consultado com a enfermeira dessa unidade, que iniciou um tratamento semanal de aplicação de auriculoterapia. Refere ainda que começou, há 3 semanas, a tomar tintura de mulungu, uma planta de que dispõe em sua casa e de que sua família sempre se utiliza, de geração em geração, para ansiedade e insônia. No momento, a paciente relata ter obtido uma resposta muito boa a esse tratamento, mas afirma que a consulta se deve à preocupação com 1 episódio de insônia que teve há 1 semana. Nesse caso, assinale a opção que apresenta a conduta médica adequada.
+
+A) Orientar a suspensão da tintura de mulungu, devido ao risco de intoxicação por uma planta sem evidência científica robusta.
+B) Prescrever zolpidem 10 mg para o controle da insônia e encaminhar a paciente para o psiquiatra, se não houver melhora.
+C) Manter o uso da tintura de mulungu e o tratamento da auriculoterapia, e pedir à paciente que retorne se houver piora ou novos sintomas.
+D) Orientar a enfermeira informando que a prática de auriculoterapia e de acupuntura devem ser realizadas exclusivamente em centros especializados.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a paciente teve **boa resposta** à higiene do sono, à **auriculoterapia** (prática integrativa ofertada pela enfermagem na APS) e à **fitoterapia** tradicional (mulungu, planta da lista de uso popular com ação sedativa leve). Um episódio isolado de insônia não justifica mudar o que está funcionando. A conduta é **manter**, acompanhar e orientar retorno se houver piora — respeitando a prática cultural e evitando a medicalização.
+
+**Por que as demais estão erradas:**
+- A) Suspender uma prática tradicional que está funcionando, sem sinal de dano, desconsidera a PNPIC e a competência cultural.
+- B) **Zolpidem** por um episódio isolado é medicalização desnecessária (risco de dependência, quedas); e não há motivo para psiquiatra.
+- D) A auriculoterapia é prática **da APS**, podendo ser feita por profissionais capacitados de várias categorias, inclusive enfermeiros.
+
+⚠️ **PEGADINHA DO INEP:** as PICS estão no SUS desde 2006 e são estimuladas na **atenção primária**. Diante de resposta boa, **não intervir** também é conduta (prevenção quaternária).
+
+**O que a banca estava testando:** PICS na atenção primária e prevenção quaternária.
+
+---
+
+**[INEP 2023 · Edição 1 · Questão 90]**
+
+O gestor de um município de pequeno porte pretende organizar os serviços de atenção primária à saúde (APS), a partir de meados de 2023, fazendo a transição do modelo tradicional, vigente no município (integralmente composto por especialistas focais lotados em unidades básicas de saúde), para a estratégia de saúde da família: equipes de saúde da família (ESF), agentes comunitários de saúde (ACS), núcleos ampliados de saúde da família (NASF), etc. Para isso, ele pretende utilizar os dados do censo demográfico do IBGE de 2022. De acordo com o censo demográfico de 2010, o município possuía 12.366 habitantes. A partir dos parâmetros avaliados em ambos os censos e conforme as recomendações da Política Nacional de Atenção Básica (2017), quais são as ações corretas a serem indicadas para a reestruturação da APS pretendida no município?
+
+A) Definição do número de ACS por ESF com base em critérios demográficos e socioeconômicos fornecidos pelo censo e em dados epidemiológicos do município.
+B) Implantação de, pelo menos, 1 NASF, considerando-se o número de ESF previsto e da população encontrada pelo censo, para prover assistência especializada focal à população.
+C) Definição da modalidade das equipes de saúde bucal que irão compor as ESF, considerando-se os dados sobre condições de saúde bucal coletados e consolidados pelo censo.
+D) Implantação de, pelo menos, 3 ESF para atender a toda a população do município, considerando-se o crescimento populacional encontrado tenha sido menor que 10% desde 2010.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** a **PNAB 2017** deixou a **definição do número de ACS por equipe** a critério do gestor, com base em **critérios demográficos, epidemiológicos e socioeconômicos** do território — e o censo fornece justamente os dados demográficos e socioeconômicos.
+
+**Por que as demais estão erradas:**
+- B) O NASF **não presta assistência especializada focal** (como ambulatório de especialidades); ele faz **apoio matricial** às equipes.
+- C) O **censo do IBGE não coleta dados de saúde bucal**; esses vêm de levantamentos epidemiológicos específicos (SB Brasil).
+- D) Com ~12–13 mil habitantes e a recomendação de 2.000–3.500 pessoas por equipe (PNAB 2017), seriam necessárias **mais de 3 equipes** para cobertura total — e "pelo menos 3" não atende "toda a população".
+
+⚠️ **PEGADINHA DO INEP:** NASF (hoje **eMulti**) = **apoio matricial**, não porta de entrada nem ambulatório especializado.
+
+**O que a banca estava testando:** parâmetros da PNAB 2017 para organização da ESF.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 20]**
+
+O prefeito de um município brasileiro deseja implantar as Práticas Integrativas e Complementares (PICS) em sua cidade, para que os cidadãos tenham acesso a sessões de auriculoterapia, musicoterapia, entre outras PICS. Sobre as orientações expressas no referido programa do Sistema Único de Saúde (SUS), é correto afirmar que
+
+A) a acupuntura deve ser ofertada pela atenção especializada, com a acesso regulado para pacientes atendidos pela atenção primária.
+B) as PICS são recomendadas pela Organização Mundial da Saúde (OMS), que regula quais destas práticas podem ser implementadas.
+C) as ações das PICS devem ter caráter multiprofissional, com a adoção de práticas que se adequem ao nível de atenção no qual estejam implementadas.
+D) a auriculoterapia deve ser inserida em todos os níveis de atenção em saúde, com ênfase na atenção terciária, pois nesta, apresenta melhores resultados.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a PNPIC orienta que as PICS sejam ofertadas de forma **multiprofissional**, em **todos os níveis de atenção** conforme a adequação de cada prática, com **prioridade na atenção primária**.
+
+**Por que as demais estão erradas:**
+- A) A acupuntura pode ser ofertada **na APS**, não só na atenção especializada.
+- B) A OMS **recomenda e estimula** as medicinas tradicionais, mas **não regula** quais práticas cada país implementa — isso é definido pelo Ministério da Saúde.
+- D) A ênfase é na **atenção primária**, não na terciária.
+
+⚠️ **PEGADINHA DO INEP:** PICS → **multiprofissional**, **prioritariamente na APS**, complementares.
+
+**O que a banca estava testando:** diretrizes de implantação das PICS no SUS.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 95]**
+
+Um médico de família e comunidade deseja ampliar seu campo de atuação para incluir a saúde suplementar. Ele reconhece que muitas pessoas têm planos de saúde e desejam receber atendimento médico abrangente e personalizado, em modelos assistenciais que garantam os atributos essenciais da atenção primária à saúde. No que se refere à saúde suplementar, é correto afirmar que esse médico de família poderá atuar
+
+A) na gestão de operadoras de planos de saúde, organizando uma rede integrada e funcional, priorizando o modelo assistencial tradicional, garantindo, dessa forma, o cuidado longitudinal.
+B) na atenção domiciliar, por meio de operadoras de planos de saúde, devido à impossibilidade de realizar esse tipo de atendimento de forma autônoma, garantindo a coordenação do cuidado de pacientes domiciliados, com foco na família.
+C) em consultórios de estabelecimentos de saúde, prestando atendimento a clientes que estabeleceram contrato com o proprietário, em um modelo de atenção primária à saúde, com a garantia de longitudinalidade e coordenação do cuidado.
+D) na assistência em clínica de operadora de plano de saúde ou em consultório particular, atuando no modelo assistencial com a coordenação de cuidados pela atenção primária à saúde, garantindo a integralidade e longitudinalidade do cuidado.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o médico de família pode atuar na saúde suplementar tanto em **clínicas de operadoras** quanto em **consultório próprio**, desde que no **modelo de APS**: coordenação do cuidado, integralidade e longitudinalidade — é o que a ANS estimula com os programas de APS na saúde suplementar.
+
+**Por que as demais estão erradas:**
+- A) O modelo **tradicional** (fragmentado, centrado no especialista) é o oposto do que garante longitudinalidade.
+- B) Não há impedimento a que o médico faça atenção domiciliar de forma autônoma.
+- C) Restringe a atuação a "contrato com o proprietário" do estabelecimento, sem a lógica de coordenação com a rede.
+
+⚠️ **PEGADINHA DO INEP:** os atributos da APS valem em qualquer sistema — público ou privado. Alternativas que associam "modelo tradicional" a "cuidado longitudinal" são contraditórias.
+
+**O que a banca estava testando:** atuação do médico de família na saúde suplementar.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 85]**
+
+Em uma reunião de equipe de saúde da família, os profissionais discutem as dificuldades de organização do atendimento no modelo de agendamento adotado pela secretaria municipal da saúde. Nesse modelo, no início do período, todas as vagas estão preenchidas com consultas pré-agendadas e os casos eventuais e urgentes são inseridos em agendamento duplo. Isso tem causado atrasos no fechamento da unidade no fim da tarde, pois o médico precisa encaixar os pacientes não agendados previamente em algum horário durante o dia. A equipe se queixa do estresse no acolhimento dos pacientes, e que são expostos a muitas reclamações na sala de espera. Também é apontado o número excessivo de faltas entre os agendados. A equipe, então, decide mudar o sistema de agendamento, reservando 40% das vagas para consultas de urgência, devido à alta demanda desse tipo de atendimento na comunidade, e 60% para consultas pré-agendadas. Dessa forma, pretende-se oferecer cuidado estruturado tanto para os pacientes com condições crônicas como para aqueles com condições agudas. Considerando os sistemas de agendamento, qual foi a mudança proposta pela equipe e qual o desafio frente à proposta escolhida?
+
+A) Transição do modelo tradicional para o modelo carve-out, o que pode gerar desperdício das vagas não preenchidas por erro no dimensionamento da demanda.
+B) Transição do modelo carve-out para o acesso aberto, o que pode criar longo tempo de espera para se conseguir o agendamento e aumentar a taxa de faltosos.
+C) Transição do modelo tradicional para o acesso avançado, o que demanda educação permanente, compartilhamento de responsabilidades e comprometimento da equipe.
+D) Transição do modelo carve-out para o acesso avançado, o que pode ocasionar longos atrasos, perda da longitudinalidade do cuidado e redução do tempo de consulta.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o modelo antigo era o **tradicional** (agenda toda pré-agendada, com "encaixes" da demanda do dia). A equipe passou a **reservar uma fração fixa das vagas** para a demanda do dia (40%) e manter o restante agendado (60%) — esse modelo misto é o **carve-out**. Seu principal desafio é o **dimensionamento**: se a reserva for maior que a demanda real, **vagas ficam ociosas** (desperdício); se for menor, voltam os encaixes.
+
+**Por que as demais estão erradas:**
+- B) O ponto de partida não era carve-out; e o **acesso aberto/avançado** reduz — e não aumenta — o tempo de espera e as faltas.
+- C) **Acesso avançado** ("faça hoje o trabalho de hoje") deixa a maior parte da agenda aberta para o próprio dia, não uma cota fixa de 40%.
+- D) O ponto de partida não era carve-out, e o acesso avançado não é caracterizado por perda de longitudinalidade.
+
+⚠️ **PEGADINHA DO INEP:** modelos de agenda — **tradicional**: tudo agendado + encaixes; **carve-out**: cota fixa reservada para o dia; **acesso avançado**: a maior parte das vagas é do dia, com poucos agendamentos.
+
+**O que a banca estava testando:** modelos de organização da agenda na APS.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 63]**
+
+Durante reunião de equipe de uma Unidade Básica de Saúde (UBS), a enfermeira relata o aumento de casos de sífilis em gestantes e a alta proporção de pessoas com hipertensão sem consulta de acompanhamento nos últimos 6 meses, conforme a análise inicial dos dados extraídos do Sistema de Atenção Básica (Sisab), Sistema eletrônico do SUS (e-SUS) e Sistema de Informação de Agravos de Notificação (Sinan). Qual a estratégia mais indicada para qualificar a translação dos dados da sala de situação em ações de cuidado coletivo?
+
+A) Realizar reuniões técnicas entre os profissionais de saúde da UBS e a gestão municipal de saúde, mantendo, nesse primeiro momento, os dados restritos à equipe, para evitar interpretações incorretas pela comunidade.
+B) Produzir boletins técnicos trimestrais com linguagem epidemiológica adequada e publicá-los no mural da unidade, de forma a atender às diretrizes de transparência da informação.
+C) Apresentar os dados da sala de situação em reuniões do conselho local de saúde, dialogando com lideranças comunitárias, com o objetivo de mobilizar ações compartilhadas de promoção e prevenção.
+D) Encaminhar os dados consolidados da sala de situação para o Conselho Municipal de Saúde e aguardar orientações da instância deliberativa sobre quais medidas devem ser implementadas na unidade.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** transformar dados em **ações coletivas** exige envolver a **comunidade**. Levar a análise da **sala de situação** ao **conselho local de saúde** e às lideranças comunitárias, em linguagem acessível, permite **construir juntos** as ações de promoção e prevenção (busca ativa de gestantes e hipertensos, mobilização) — une participação social e vigilância em saúde.
+
+**Por que as demais estão erradas:**
+- A) Restringir os dados à equipe contraria a **transparência** e a participação social.
+- B) Boletins em **linguagem técnica** afixados no mural informam pouco e não mobilizam.
+- D) A equipe tem autonomia para agir no território; **esperar** o conselho municipal deliberar atrasa a resposta.
+
+⚠️ **PEGADINHA DO INEP:** em questões de gestão na APS, a resposta costuma combinar **informação acessível + participação da comunidade + ação da própria equipe**.
+
+**O que a banca estava testando:** uso da sala de situação e participação social no planejamento local.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 70]**
+
+Uma médica recém-contratada por uma operadora de plano de saúde assume uma equipe multiprofissional. A operadora implementou um programa de reorganização da linha de cuidado com enfoque no modelo de atenção primária à saúde (APS). Após três meses, a médica observa que muitos pacientes resistem ao novo fluxo de cuidados e solicitam consultas diretas com especialistas, exames de imagem de alta complexidade e procedimentos. O sistema de regulação interna da operadora determina que todos os encaminhamentos sejam realizados pela equipe da APS, exceto em casos de urgência. Com base na regulamentação da saúde suplementar, qual deve ser o papel dessa médica?
+
+A) Restringir o acesso a especialidades e exames de alto custo, visto a resolutividade alta na APS.
+B) Atuar como gestora do cuidado, utilizando critérios clínicos e diretrizes baseadas em evidências para encaminhamento.
+C) Flexibilizar os fluxos assistenciais, autorizando diretamente os encaminhamentos solicitados para garantir a autonomia do paciente.
+D) Delegar à equipe de regulação da operadora a responsabilidade pelos encaminhamentos e priorizar a escuta e o acolhimento dos usuários.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** no modelo de APS, a médica é a **coordenadora (gestora) do cuidado**: resolve o que é da APS e **encaminha** a especialistas e exames quando há **indicação clínica** baseada em evidências — nem restringindo por custo, nem liberando por pedido.
+
+**Por que as demais estão erradas:**
+- A) Restringir acesso por **custo** fere o direito do beneficiário e a boa prática; o critério deve ser **clínico**.
+- C) Autorizar tudo o que é pedido esvazia a coordenação do cuidado e não é "autonomia", é abandono do papel de filtro qualificado.
+- D) A decisão clínica sobre encaminhamento é **do médico**, não da regulação administrativa.
+
+⚠️ **PEGADINHA DO INEP:** "porta de entrada" (gatekeeper) não é barreira — é **coordenação com critério clínico**.
+
+**O que a banca estava testando:** papel do médico de APS como coordenador do cuidado na saúde suplementar.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual o papel central da Atenção Básica segundo a PNAB?	Centralidade do cuidado às pessoas, com assistência integral à saúde	Revalida::Preventiva::PNAB::Conceito
+A Atenção Básica usa tecnologia de "alta densidade"?	Não — é caracterizada por menor densidade tecnológica (não significa baixa qualidade)	Revalida::Preventiva::PNAB::Conceito
+Ao implantar uma USF em área vulnerável, qual a responsabilidade central da equipe?	Dialogar com a comunidade sobre as características e organização do serviço	Revalida::Preventiva::PNAB::Conduta
+O horário de funcionamento das USF deve ser padronizado igualmente em todos os territórios?	Não — deve se adaptar às características locais	Revalida::Preventiva::PNAB::Conduta
+A USF deve atender/cadastrar qualquer pessoa independente de onde mora?	Não — segue a lógica de território adscrito (área de abrangência definida)	Revalida::Preventiva::PNAB::Conceito
+Em uma epidemia (ex.: dengue), o papel da Atenção Básica se limita à triagem/encaminhamento?	Não — atua de forma abrangente: vigilância, promoção, assistência integral e coordenação territorial	Revalida::Preventiva::PNAB::Aplicacao
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Atenção Básica = centralidade do cuidado + assistência integral — não uma função isolada.
+2. Densidade tecnológica da Atenção Básica é MENOR (não "alta"), mas isso não reduz sua capacidade resolutiva.
+3. Implantação de novo serviço em área vulnerável: diálogo com a comunidade é responsabilidade central.
+4. Território adscrito define quem é atendido/cadastrado — não é livre demanda de qualquer local.
+5. Horários/fluxos devem se adaptar ao território, não seguir padrão rígido único.
+
+📊 **Tabela-síntese**
+| Situação | Conceito PNAB correto |
+|---|---|
+| Papel na epidemia | Assistência integral + centralidade do cuidado |
+| Implantação em área vulnerável | Diálogo com a comunidade |
+| Organização territorial | Território adscrito (não livre demanda) |
+| Horário de funcionamento | Adaptado ao território, não padronizado rigidamente |
+
+⚡ **Fluxograma textual:** situação envolvendo Atenção Básica → é sobre papel geral? → assistência integral + centralidade do cuidado → é sobre implantação de serviço? → diálogo com a comunidade + adaptação ao território → é sobre organização territorial? → território adscrito, não livre demanda.
+
+🚫 **Os 3 erros mais comuns:** (1) restringir o papel da Atenção Básica a uma função isolada; (2) considerar Atenção Básica como "alta densidade tecnológica"; (3) propor padronização rígida de horários/fluxos sem adaptação territorial.
+
+🔗 **Conexões com outros módulos:** PREV-06 (Redes de Atenção à Saúde), PREV-04 (saúde do trabalhador — também envolve atenção básica como porta de entrada).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PREV-07",
+  "especialidade": "Preventiva",
+  "tema": "Política Nacional de Atenção Básica",
+  "assunto": "Princípios, papel e responsabilidades da equipe de Atenção Básica (PNAB)",
+  "tier": "A",
+  "n_questoes": 15,
+  "n_flashcards": 6,
+  "tempo_estudo_min": 70,
+  "prerequisitos": [],
+  "relacionados": ["PREV-06", "PREV-04"],
+  "data_geracao": "2026-07-29",
+  "itens_a_verificar": [
+    "Confirmar se este módulo tem mais questões nas 16 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

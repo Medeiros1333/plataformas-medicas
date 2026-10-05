@@ -1,0 +1,153 @@
+[
+  {
+    "id": "HON-histoplasma-capsulatum",
+    "nombre": "Histoplasma capsulatum",
+    "grupo": "HON",
+    "nivel": 2,
+    "clasificacion": "Hongo DIMÓRFICO TÉRMICO endémico: moho filamentoso en el ambiente a 25 °C y LEVADURA en el tejido a 37 °C. Endémico en los valles de los ríos Ohio y Misisipi, en América Central y del Sur, y en focos de África",
+    "morfologia_tincion": "En el TEJIDO se ve como LEVADURAS PEQUEÑAS (2-4 micras) INTRACELULARES, agrupadas dentro de los macrófagos, con una gemación de base estrecha y un halo de retracción que simula una cápsula (de ahí el nombre, aunque no tiene cápsula real). Se visualizan con plata-metenamina, PAS o Giemsa. En el CULTIVO a temperatura ambiente forma un moho con MACROCONIDIOS TUBERCULADOS de superficie espiculada, que son diagnósticos.",
+    "mecanismo_patogenia": [
+      "Se adquiere por INHALACIÓN de microconidios presentes en suelos enriquecidos con excrementos de AVES y de MURCIÉLAGOS: gallineros, palomares, CUEVAS, obras de demolición y limpieza de áticos.",
+      "A 37 °C se convierte en LEVADURA (dimorfismo térmico) y es fagocitado por el macrófago alveolar, pero SOBREVIVE dentro de él: alcaliniza el fagosoma, capta hierro y calcio del huésped y se multiplica intracelularmente. Utiliza al macrófago como vehículo de diseminación.",
+      "La defensa que controla la infección es la INMUNIDAD CELULAR (linfocitos T y activación macrofágica por interferón gamma), igual que en la tuberculosis. Por eso el riesgo se dispara en el VIH avanzado, en los tratamientos con ANTI-TNF y con corticoides, y en los trasplantados.",
+      "En el inmunocompetente se forman GRANULOMAS que contienen la infección y acaban CALCIFICÁNDOSE, dejando calcificaciones pulmonares y esplénicas indistinguibles de las tuberculosas.",
+      "Como en la tuberculosis, la infección puede quedar LATENTE y REACTIVARSE años después al instaurarse una inmunodepresión, incluso en alguien que viajó una sola vez a la zona endémica.",
+      "La gravedad depende del INÓCULO: una exposición masiva (entrar en una cueva, remover un gallinero) puede producir enfermedad grave incluso en el inmunocompetente."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Histoplasmosis pulmonar AGUDA",
+        "clinica": "De 1 a 3 semanas tras la exposición: fiebre, tos seca, dolor torácico, cefalea y malestar, en un cuadro seudogripal. Puede acompañarse de ERITEMA NUDOSO y artralgias, sobre todo en mujeres jóvenes.",
+        "lesiones": "Infiltrados parcheados con ADENOPATÍAS HILIARES y mediastínicas; en la exposición masiva, patrón MILIAR. Con el tiempo, calcificaciones pulmonares y esplénicas.",
+        "clave": "La mayoría de las infecciones son ASINTOMÁTICAS o leves y se resuelven solas. El antecedente de exploración de CUEVAS, limpieza de gallineros o demolición de edificios antiguos en zona endémica es la clave anamnésica que nadie pregunta."
+      },
+      {
+        "cuadro": "Histoplasmosis pulmonar CRÓNICA cavitada",
+        "clinica": "Varón de edad avanzada con EPOC: tos crónica, expectoración, fiebre, sudoración nocturna y pérdida de peso durante meses.",
+        "lesiones": "Cavitación de lóbulos superiores con fibrosis: radiológicamente INDISTINGUIBLE de la tuberculosis.",
+        "clave": "Es el gran imitador de la tuberculosis en el paciente con enfisema. Ante una cavitación apical con baciloscopias repetidamente negativas y antecedente de estancia en zona endémica, hay que pensar en ella."
+      },
+      {
+        "cuadro": "Histoplasmosis DISEMINADA progresiva",
+        "clinica": "Paciente con VIH y CD4 menores de 150, trasplantado o en tratamiento anti-TNF: fiebre prolongada, pérdida de peso, hepatoesplenomegalia, pancitopenia y lesiones mucocutáneas (úlceras orales características).",
+        "lesiones": "Infiltración del sistema reticuloendotelial; úlceras orofaríngeas, insuficiencia suprarrenal por infiltración de las glándulas, y en los casos graves un cuadro de sepsis con coagulación intravascular diseminada y síndrome hemofagocítico.",
+        "clave": "Es una enfermedad DEFINITORIA DE SIDA. La ÚLCERA ORAL crónica junto con pancitopenia y fiebre en un paciente con VIH avanzado procedente de zona endémica es la presentación clásica. La INSUFICIENCIA SUPRARRENAL es una complicación característica y potencialmente mortal si no se sospecha."
+      },
+      {
+        "cuadro": "Complicaciones inflamatorias tardías",
+        "clinica": "Histoplasmoma (nódulo pulmonar solitario que simula un cáncer), mediastinitis granulomatosa y FIBROSANTE con compresión de vena cava, esófago o vía aérea, y pericarditis.",
+        "lesiones": "Masa mediastínica fibrótica con calcificaciones.",
+        "clave": "La mediastinitis fibrosante NO responde a los antifúngicos: es una respuesta inmunológica desmesurada al hongo ya muerto, y su tratamiento es de las complicaciones mecánicas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El paralelismo con la TUBERCULOSIS es la mejor forma de entenderla: se adquiere por inhalación, la controla la inmunidad celular, forma granulomas que calcifican, puede quedar latente y reactivarse, y radiológicamente es indistinguible. Lo que las diferencia es la epidemiología y el laboratorio.",
+      "Los ANTI-TNF (infliximab, adalimumab) son un factor de riesgo mayor, y es un dato de gran relevancia práctica: antes de iniciarlos se criba la tuberculosis latente, pero la histoplasmosis latente no tiene cribado, y las reactivaciones están bien documentadas.",
+      "La prueba más útil en la enfermedad diseminada es el ANTÍGENO en ORINA, con sensibilidad superior al 90% en esa forma. Sirve además para monitorizar la respuesta y para detectar la recaída.",
+      "El antígeno tiene REACCIÓN CRUZADA con Blastomyces, Coccidioides y Paracoccidioides: un resultado positivo hay que interpretarlo con la epidemiología en la mano.",
+      "El itraconazol es el fármaco de la enfermedad leve-moderada y de la continuación; la ANFOTERICINA B LIPOSOMAL es la del cuadro grave o diseminado.",
+      "Exposiciones típicas que hay que preguntar: cuevas y espeleología, gallineros, palomares, demolición de edificios antiguos y limpieza de áticos con murciélagos.",
+      "La MEDIASTINITIS FIBROSANTE no mejora con antifúngicos porque el problema ya no es el hongo sino la reacción fibrótica del huésped."
+    ],
+    "diagnostico": {
+      "muestra": "Orina y suero para antígeno; sangre, médula ósea, lavado broncoalveolar, biopsia de lesión mucosa o de órgano afectado.",
+      "pruebas": [
+        "ANTÍGENO de Histoplasma en ORINA y en suero: prueba de elección en la forma diseminada y en el VIH, y útil para el seguimiento",
+        "Histología con plata-metenamina o Giemsa: levaduras pequeñas INTRACELULARES dentro de macrófagos",
+        "Cultivo en Sabouraud (crecimiento LENTO, de 2 a 6 semanas): sensible en la forma diseminada, con macroconidios tuberculados en el moho",
+        "Serología (fijación de complemento e inmunodifusión): útil en la forma pulmonar crónica del inmunocompetente, poco útil en el inmunodeprimido",
+        "PCR en tejido o en sangre",
+        "Cortisol basal y prueba de estimulación con ACTH ante sospecha de insuficiencia suprarrenal"
+      ],
+      "claves": "En el paciente con VIH avanzado y fiebre prolongada procedente de zona endémica, el antígeno en orina es la prueba con mejor rendimiento y más rápida. El cultivo, aunque sea la referencia, tarda semanas que el paciente grave no tiene."
+    },
+    "tratamiento": {
+      "eleccion": "ENFERMEDAD GRAVE O DISEMINADA: ANFOTERICINA B LIPOSOMAL 3-5 mg/kg/día durante 1-2 semanas, seguida de ITRACONAZOL 200 mg cada 8 horas 3 días y después cada 12 horas hasta completar 12 meses. LEVE-MODERADA: itraconazol 200 mg cada 8 horas 3 días y después cada 12-24 horas durante 6-12 semanas (pulmonar aguda) o 12 meses (pulmonar crónica).",
+      "alternativas": "Voriconazol o posaconazol cuando el itraconazol no se tolera o no alcanza niveles. Fluconazol es inferior y se reserva a la intolerancia a los anteriores.",
+      "resistencias": "Poco frecuentes; el problema habitual no es la resistencia sino la mala absorción del itraconazol y el incumplimiento de un tratamiento de un año.",
+      "duracion": "6-12 semanas en la pulmonar aguda sintomática; 12 meses en la crónica cavitada y en la diseminada. En el VIH con CD4 persistentemente bajos puede requerirse profilaxis secundaria hasta la reconstitución inmunitaria.",
+      "notas": "Hay que MEDIR NIVELES de itraconazol a las 2 semanas: su absorción es errática y depende de la acidez gástrica, de modo que un inhibidor de la bomba de protones puede anular el tratamiento. La forma pulmonar aguda leve del inmunocompetente puede no requerir tratamiento. En el VIH, iniciar el antirretroviral con precaución por el riesgo de síndrome inflamatorio de reconstitución inmunitaria."
+    },
+    "farmacos_relacionados": [
+      "INF-anfotericina-b-liposomal",
+      "INF-itraconazol",
+      "INM-anti-tnf"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de hongos dimórficos; Harrison 20.ª ed., cap. de histoplasmosis; guías IDSA de histoplasmosis"
+  },
+  {
+    "id": "HON-malassezia",
+    "nombre": "Malassezia furfur y M. globosa",
+    "grupo": "HON",
+    "nivel": 1,
+    "clasificacion": "LEVADURA LIPOFÍLICA y lipodependiente, componente NORMAL de la flora cutánea humana en las zonas ricas en sebo; requiere lípidos exógenos para crecer porque carece de la sintasa de ácidos grasos",
+    "morfologia_tincion": "Examen directo con KOH (con o sin tinta azul de Parker) del raspado de la lesión: la imagen clásica es la de ESPAGUETIS CON ALBÓNDIGAS, es decir, hifas cortas y gruesas junto a agrupaciones de levaduras redondas con gemación de base ancha (en botella). Para cultivarla hace falta un medio SUPLEMENTADO CON ACEITE DE OLIVA, porque no crece en Sabouraud convencional: es un ejemplo perfecto de que un cultivo negativo puede significar simplemente que no se le ofreció lo que necesita.",
+    "mecanismo_patogenia": [
+      "NO es un patógeno adquirido del exterior: forma parte de la flora normal del 90% de los adultos, y la enfermedad surge cuando cambia el equilibrio entre el hongo y el huésped, no cuando se produce un contagio.",
+      "Es LIPODEPENDIENTE: coloniza las zonas seborreicas (tronco, cara, cuero cabelludo, pliegues) y prolifera con el calor, la humedad, la sudoración, la oclusión y el aumento de la producción sebácea.",
+      "En la PITIRIASIS VERSICOLOR produce ÁCIDOS DICARBOXÍLICOS (sobre todo ácido azelaico) que inhiben la TIROSINASA del melanocito: por eso las lesiones quedan HIPOPIGMENTADAS y por eso la mancha blanca persiste MESES después de haber curado la infección.",
+      "En la DERMATITIS SEBORREICA su papel es distinto: no invade, sino que su lipasa libera ácidos grasos irritantes del sebo que desencadenan una respuesta INFLAMATORIA del huésped. De ahí que el tratamiento combine antifúngico y antiinflamatorio.",
+      "En el prematuro y en el paciente con NUTRICIÓN PARENTERAL rica en LÍPIDOS a través de un catéter central puede producir una FUNGEMIA: la emulsión lipídica le proporciona exactamente el sustrato del que depende.",
+      "La respuesta inmunitaria individual explica por qué unas personas con la misma colonización enferman y otras no: es una enfermedad del huésped tanto como del hongo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "PITIRIASIS VERSICOLOR",
+        "clinica": "Máculas confluentes en tronco, hombros y cuello, finamente descamativas, asintomáticas o con prurito leve. Son HIPOPIGMENTADAS en la piel bronceada e HIPERPIGMENTADAS o asalmonadas en la piel clara: de ahí el nombre de versicolor.",
+        "lesiones": "Máculas con descamación FURFURÁCEA que se hace evidente al rascar (signo de la uñada o de Besnier). Fluorescencia amarillo-dorada con luz de Wood en parte de los casos.",
+        "clave": "La HIPOPIGMENTACIÓN persiste MESES tras la curación porque el melanocito tarda en recuperarse: hay que advertirlo, o el paciente concluirá que el tratamiento ha fracasado y repetirá ciclos innecesarios. La curación se juzga por la desaparición de la DESCAMACIÓN, no del color."
+      },
+      {
+        "cuadro": "DERMATITIS SEBORREICA y caspa",
+        "clinica": "Placas eritematosas con escamas grasientas amarillentas en cuero cabelludo, cejas, surcos nasogenianos, conducto auditivo y región preesternal; prurito variable y curso crónico con brotes.",
+        "lesiones": "Eritema con descamación untuosa en zonas seborreicas.",
+        "clave": "Una dermatitis seborreica EXTENSA, refractaria o de aparición brusca en un adulto obliga a descartar INFECCIÓN POR VIH y enfermedad de PARKINSON, dos asociaciones bien establecidas."
+      },
+      {
+        "cuadro": "FOLICULITIS por Malassezia",
+        "clinica": "Pápulas y pústulas foliculares monomorfas y PRURIGINOSAS en espalda, hombros y tórax, en adultos jóvenes, deportistas o pacientes con corticoides o antibióticos.",
+        "lesiones": "Pústulas foliculares uniformes, sin comedones.",
+        "clave": "Se confunde con el ACNÉ y se trata con antibióticos, que la EMPEORAN al reducir la flora bacteriana competidora. El dato diferencial es el PRURITO, la monomorfía de las lesiones y la AUSENCIA DE COMEDONES."
+      },
+      {
+        "cuadro": "FUNGEMIA por Malassezia asociada a catéter",
+        "clinica": "Prematuro o paciente con nutrición parenteral con emulsión lipídica a través de catéter central: fiebre, trombocitopenia y deterioro clínico.",
+        "lesiones": "Colonización del catéter con siembra hematógena.",
+        "clave": "El hemocultivo convencional es NEGATIVO porque el medio no lleva lípidos: hay que AVISAR AL LABORATORIO para que suplemente el medio con aceite de oliva. El tratamiento incluye retirar el catéter y suspender la emulsión lipídica."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es FLORA NORMAL. La pitiriasis versicolor no se contagia ni indica falta de higiene, y explicarlo evita mucha angustia y muchas conductas inútiles; conviene decirlo expresamente al paciente.",
+      "RECIDIVA con frecuencia (más de la mitad de los casos en dos años) porque el hongo sigue formando parte de la flora: la profilaxis intermitente en primavera o antes del verano es una estrategia razonable en el paciente que recae.",
+      "La mancha blanca NO es fracaso terapéutico: es un melanocito inhibido que tarda meses en recuperar la función. Se cura la infección mucho antes de que se recupere el color.",
+      "NO responde a la TERBINAFINA ORAL, aunque sí a la tópica. Es una excepción farmacológica importante: la terbinafina alcanza el estrato córneo a través del SEBO, y por vía oral no llega en concentración suficiente a la superficie donde vive Malassezia.",
+      "El tratamiento de elección es TÓPICO (azoles, sulfuro de selenio, piritiona de zinc, ketoconazol en champú aplicado a todo el cuerpo). La vía oral se reserva a las formas muy extensas o refractarias.",
+      "La dermatitis seborreica extensa o refractaria obliga a descartar VIH y Parkinson.",
+      "Hay que suspender cualquier antifúngico tópico DOS SEMANAS antes de tomar la muestra, o el KOH y el cultivo saldrán falsamente negativos.",
+      "En la fungemia por Malassezia el hemocultivo estándar no la detecta: si no se le añade lípido al medio, el laboratorio informará que no crece nada."
+    ],
+    "diagnostico": {
+      "muestra": "Raspado de las escamas de la lesión (o cinta adhesiva transparente aplicada sobre la lesión y pegada al porta).",
+      "pruebas": [
+        "Examen directo con KOH: imagen de ESPAGUETIS CON ALBÓNDIGAS (hifas cortas y levaduras agrupadas). Es diagnóstico y basta con él en la práctica",
+        "Luz de Wood: fluorescencia amarillo-dorada, presente solo en una parte de los casos",
+        "Signo de la uñada: al rascar la mácula aparece una descamación furfurácea",
+        "Cultivo en medio con ACEITE DE OLIVA (rara vez necesario en clínica; imprescindible en la sospecha de fungemia)",
+        "Serología de VIH ante dermatitis seborreica extensa o refractaria"
+      ],
+      "claves": "El diagnóstico de la pitiriasis versicolor es CLÍNICO y se confirma con un KOH en la consulta. El cultivo no aporta nada en la enfermedad cutánea y solo se plantea en la fungemia."
+    },
+    "tratamiento": {
+      "eleccion": "PITIRIASIS VERSICOLOR: tratamiento TÓPICO con ketoconazol al 2% en champú o gel aplicado a todo el tronco, dejándolo actuar 5-10 minutos, a diario durante 1-2 semanas; o sulfuro de selenio al 2,5%. DERMATITIS SEBORREICA: ketoconazol o ciclopirox en champú 2-3 veces por semana, asociando un corticoide tópico de baja potencia en los brotes inflamatorios.",
+      "alternativas": "Itraconazol 200 mg al día durante 5-7 días o fluconazol 300 mg semanal durante 2 semanas en las formas extensas o refractarias. En la foliculitis, itraconazol oral suele ser necesario. La TERBINAFINA ORAL NO es eficaz.",
+      "resistencias": "Poco relevantes; los fracasos se deben casi siempre a una aplicación insuficiente (no cubrir toda la superficie afectada) o a la confusión de la hipopigmentación residual con persistencia de la infección.",
+      "duracion": "1-2 semanas de tratamiento activo, seguidas de profilaxis intermitente (una aplicación cada 1-2 semanas o mensual) en el paciente que recae.",
+      "notas": "FUNGEMIA: retirar el catéter, suspender la emulsión lipídica y tratar con anfotericina B liposomal o fluconazol. Al paciente con pitiriasis versicolor hay que explicarle tres cosas: que no es contagiosa, que las manchas blancas tardarán meses en igualarse, y que probablemente recaerá y no será culpa suya."
+    },
+    "farmacos_relacionados": [
+      "DER-azoles-topicos",
+      "INF-itraconazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de micosis superficiales; guías de dermatología sobre pitiriasis versicolor y dermatitis seborreica"
+  }
+]

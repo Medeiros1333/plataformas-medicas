@@ -1,0 +1,147 @@
+[
+  {
+    "id": "PED-PSQ-metilfenidato",
+    "nombre": "Metilfenidato",
+    "sinonimos": [
+      "Lisdexanfetamina (estimulante alternativo)",
+      "Atomoxetina, guanfacina (no estimulantes)"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Psicoestimulante",
+    "subclase": "Inhibidor de la recaptación de dopamina y noradrenalina",
+    "mecanismo": "Bloquea los transportadores de recaptación de DOPAMINA y NORADRENALINA, aumentando su disponibilidad en la corteza prefrontal y en los circuitos frontoestriatales, que son los implicados en la atención sostenida, la inhibición de respuestas y la función ejecutiva. La paradoja aparente de que un estimulante calme a un niño hiperactivo se resuelve al entender que el problema del TDAH es una HIPOFUNCIÓN de los circuitos inhibitorios prefrontales: el fármaco no seda, potencia el control inhibitorio que falta.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Inicio 0,3 mg/kg/día (5 mg 1-2 veces al día); mantenimiento 0,5-1 mg/kg/día",
+    "dosis_maxima": "60 mg/día (hasta 2 mg/kg/día en casos seleccionados)",
+    "presentaciones": [
+      "Liberación inmediata 5, 10 y 20 mg (efecto de 3-4 h)",
+      "Liberación modificada 50/50 o 30/70 (efecto de 8 y 12 h respectivamente)",
+      "Parche transdérmico"
+    ],
+    "edad_minima": "6 años (por debajo, solo por especialista y en casos excepcionales)",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 6 años",
+        "ajuste": "NO indicado de rutina: el tratamiento de primera línea es la INTERVENCIÓN PSICOEDUCATIVA con padres y escuela"
+      },
+      {
+        "franja": "6-12 años",
+        "ajuste": "Franja principal de indicación. La formulación de liberación prolongada evita la dosis del mediodía en el colegio, que estigmatiza y se olvida"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Vigilar el DESVÍO del fármaco (venta o uso por compañeros como potenciador del estudio) y el consumo de otras sustancias"
+      },
+      {
+        "franja": "Transición a la edad adulta",
+        "ajuste": "El TDAH persiste en más de la mitad de los casos: no se retira automáticamente al cumplir 18 años"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es un fármaco casi exclusivamente pediátrico y con particularidades que no tienen equivalente en el adulto. La primera es que el efecto se mide FUERA de la consulta: la evaluación de la respuesta requiere escalas cumplimentadas por los PADRES y por el PROFESOR, porque el rendimiento escolar y la conducta en el aula son los desenlaces reales. La segunda es la monitorización del CRECIMIENTO: la anorexia es el efecto adverso más frecuente y puede reducir la velocidad de crecimiento, por lo que talla y peso se registran en cada visita y se aprovechan las horas de menor efecto (desayuno abundante y cena tardía) para compensar. La tercera es que la formulación se elige por la COBERTURA HORARIA que necesita el niño: si solo se cubre el horario escolar, la conducta en casa por la tarde y los deberes quedan sin tratar. La cuarta es que el fármaco NUNCA es el tratamiento completo: sin intervención psicoeducativa con la familia y el colegio, el beneficio es parcial.",
+    "indicaciones": [
+      {
+        "patologia": "Trastorno por déficit de atención e hiperactividad (TDAH)",
+        "dosis": "0,5-1 mg/kg/día, iniciando con 5-10 mg y subiendo semanalmente",
+        "posologia": "1 vez al día (liberación prolongada) o 2-3 veces al día (liberación inmediata)",
+        "via": "VO",
+        "nota": "Diagnóstico clínico con criterios en AL MENOS DOS entornos (casa y colegio); no existe prueba diagnóstica objetiva"
+      },
+      {
+        "patologia": "TDAH con trastorno de conducta o comorbilidad asociada",
+        "dosis": "0,5-1 mg/kg/día",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "El tratamiento del TDAH suele mejorar también la conducta oposicionista asociada"
+      },
+      {
+        "patologia": "Narcolepsia con somnolencia diurna excesiva",
+        "dosis": "10-60 mg/día",
+        "posologia": "2-3 veces al día",
+        "via": "VO",
+        "nota": "Indicación clásica, hoy menos frecuente que el TDAH"
+      }
+    ],
+    "esquema": {
+      "inicio": "5-10 mg por la mañana con el desayuno. Antes de iniciar: TALLA, PESO, TENSIÓN ARTERIAL, frecuencia cardiaca y anamnesis cardiológica personal y FAMILIAR (muerte súbita, miocardiopatía, arritmias).",
+      "titulacion": "Incrementos semanales de 5-10 mg guiados por las ESCALAS de padres y profesores, no por la impresión en consulta, hasta la mejor respuesta con la menor dosis.",
+      "duracion": "Mientras persista el beneficio funcional. Se reevalúa al menos anualmente.",
+      "fin": "Puede suspenderse sin descenso progresivo. Las VACACIONES TERAPÉUTICAS en fines de semana o verano son una opción individualizada: ayudan al apetito y al crecimiento, pero el TDAH no desaparece los fines de semana y la conducta puede empeorar.",
+      "via": "VO por la mañana. La formulación de liberación prolongada debe tragarse entera o abrirse la cápsula sobre comida blanda, nunca masticar los microgránulos.",
+      "monitorizacion": "TALLA Y PESO en cada visita, con registro en la curva de crecimiento; tensión arterial y frecuencia cardiaca; sueño; apetito; escalas de padres y profesores; en el adolescente, cribado de consumo de sustancias y de desvío del fármaco."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida por vía oral; el alimento no reduce la absorción y mejora la tolerancia gástrica.",
+      "distribucion": "Atraviesa bien la barrera hematoencefálica.",
+      "metabolismo": "Hidrólisis por esterasas (no por citocromo P450), lo que le da un perfil de interacciones metabólicas muy limpio.",
+      "eliminacion": "Renal como metabolito inactivo.",
+      "vida_media": "2-3 h del fármaco; la duración del EFECTO depende de la formulación: 3-4 h la inmediata, 8-12 h la prolongada.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "CRISIS HIPERTENSIVA",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO durante el tratamiento y las 2 semanas siguientes a su retirada"
+        },
+        {
+          "con": "Simpaticomiméticos, descongestionantes nasales, cafeína en exceso",
+          "efecto": "Efecto cardiovascular y de nerviosismo aditivo",
+          "gravedad": "media",
+          "manejo": "Advertir sobre las bebidas energéticas, muy consumidas por adolescentes"
+        },
+        {
+          "con": "Antidepresivos tricíclicos e ISRS",
+          "efecto": "Puede aumentar sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica; la asociación con ISRS es frecuente por la comorbilidad ansioso-depresiva"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Antagonismo por el efecto presor del estimulante",
+          "gravedad": "baja",
+          "manejo": "Controlar la tensión arterial"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ANOREXIA y pérdida de peso (el más frecuente, y el que condiciona la monitorización del crecimiento)",
+        "INSOMNIO de conciliación, sobre todo si la última dosis es tardía",
+        "Cefalea y dolor abdominal",
+        "Irritabilidad y llanto al final del efecto (EFECTO REBOTE de la tarde)",
+        "Aumento leve de la frecuencia cardiaca y la tensión arterial"
+      ],
+      "graves": [
+        "Reducción de la VELOCIDAD DE CRECIMIENTO, con un efecto de 1-2 cm sobre la talla final en tratamientos prolongados",
+        "Síntomas PSICÓTICOS o maníacos de nueva aparición (poco frecuentes, obligan a suspender)",
+        "Aparición o empeoramiento de TICS (no es una contraindicación absoluta: se valora caso a caso)",
+        "Eventos cardiovasculares en el niño con cardiopatía estructural no diagnosticada",
+        "DESVÍO Y ABUSO del fármaco en el entorno adolescente",
+        "Empeoramiento de ansiedad preexistente"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante o reciente de IMAO",
+      "Cardiopatía estructural grave, arritmias significativas o miocardiopatía",
+      "Hipertiroidismo no controlado",
+      "Glaucoma",
+      "Psicosis activa",
+      "Antecedente de abuso de sustancias (contraindicación relativa: valorar formulaciones de menor potencial de abuso)"
+    ],
+    "perlas": [
+      "La respuesta al tratamiento NO se evalúa en la consulta: se evalúa con escalas cumplimentadas por los PADRES y por el PROFESOR. Un niño puede estar tranquilo en un despacho durante 20 minutos y ser incapaz de sostener la atención en el aula. Sin información del colegio, la titulación va a ciegas.",
+      "La elección de formulación se decide por la COBERTURA HORARIA que necesita ese niño concreto: si solo se cubre la jornada escolar, la tarde en casa (deberes, convivencia familiar, actividades) queda sin tratar, y es precisamente donde muchos conflictos se producen.",
+      "El EFECTO REBOTE de la tarde, cuando cae el efecto, se manifiesta como irritabilidad y llanto y con frecuencia se interpreta como empeoramiento del TDAH o como efecto adverso del fármaco. En realidad indica que la cobertura es insuficiente y suele resolverse ajustando la formulación.",
+      "La ANOREXIA se maneja aprovechando las horas de menor efecto: desayuno abundante ANTES de la dosis y cena más tardía y calórica. Es una intervención sencilla que evita tener que reducir una dosis eficaz.",
+      "Antes de la primera receta hay que preguntar por MUERTE SÚBITA en la familia y por síncopes con el esfuerzo: es el cribado cardiológico que realmente aporta, más que un ECG sistemático en el niño asintomático.",
+      "Los TICS no contraindican de forma absoluta el tratamiento: la relación es más compleja de lo que se creía y muchos niños con tics toleran bien el metilfenidato. Se valora caso por caso.",
+      "Tratar el TDAH REDUCE el riesgo posterior de abuso de sustancias, al contrario de lo que temen muchas familias. Es un dato que conviene tener a mano porque el miedo a 'drogar al niño' es la principal barrera para iniciar el tratamiento.",
+      "El fármaco NUNCA es el tratamiento completo: sin intervención psicoeducativa con la familia y adaptaciones en el colegio, el beneficio es parcial y no se sostiene en el tiempo."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante se valora la retirada, con datos limitados de seguridad.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 32; AMIR Pediatría; guías clínicas de TDAH"
+  }
+]

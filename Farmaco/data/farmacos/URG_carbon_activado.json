@@ -1,0 +1,108 @@
+[
+  {
+    "id": "URG-carbon-activado",
+    "nombre": "Carbón activado",
+    "sinonimos": [
+      "Carbón activo"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Descontaminante digestivo",
+    "subclase": "Adsorbente de superficie",
+    "mecanismo": "Carbón tratado para generar una superficie porosa enorme (unos 1000 m² por gramo) que ADSORBE el tóxico en la luz intestinal por fuerzas de van der Waals, impidiendo que se absorba. No lo neutraliza ni lo destruye: lo secuestra y lo arrastra con las heces. En dosis repetidas añade un segundo mecanismo, la llamada diálisis gastrointestinal: interrumpe la circulación ENTEROHEPÁTICA y ENTEROENTÉRICA del tóxico ya absorbido, que difunde de nuevo hacia la luz intestinal y allí queda atrapado, acelerando su eliminación del organismo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación aguda por vía oral con tóxico adsorbible",
+        "dosis": "1 g/kg (habitualmente 25-50 g en el adulto), dosis única",
+        "posologia": "Dosis única lo antes posible",
+        "via": "VO",
+        "nota": "El rendimiento es máximo en la PRIMERA HORA. Pasadas 2 horas el beneficio es escaso salvo en fármacos que retrasan el vaciamiento gástrico o en preparados de liberación prolongada"
+      },
+      {
+        "patologia": "Intoxicación por fármacos con circulación enterohepática (carbamazepina, fenobarbital, teofilina, quinina, dapsona)",
+        "dosis": "50 g iniciales y después 25 g cada 4-6 horas",
+        "posologia": "Dosis repetidas durante 12-24 horas",
+        "via": "VO",
+        "dosis_objetivo": "Descenso de los niveles plasmáticos del tóxico y mejoría clínica",
+        "nota": "Es la diálisis gastrointestinal. Requiere que persista el peristaltismo: suspender ante íleo"
+      },
+      {
+        "patologia": "Ingesta de preparados de LIBERACIÓN PROLONGADA o con formación de conglomerados",
+        "dosis": "1 g/kg, con dosis repetidas según el fármaco",
+        "posologia": "Dosis repetidas",
+        "via": "VO",
+        "nota": "La ventana útil se alarga porque el tóxico sigue liberándose en la luz intestinal durante horas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible tras la ingesta, idealmente en los primeros 60 minutos. Antes de administrarlo hay que responder a dos preguntas: ¿está el tóxico en la lista de los que NO adsorbe? y ¿está la vía aérea protegida?",
+      "titulacion": "No se titula. En dosis repetidas se mantiene el intervalo de 4-6 horas mientras haya peristaltismo.",
+      "duracion": "Dosis única en la mayoría de las intoxicaciones; 12-24 horas en la pauta de dosis repetidas.",
+      "fin": "Se suspende ante la ausencia de ruidos intestinales, la distensión abdominal o la sospecha de íleo u obstrucción.",
+      "via": "Oral, o por sonda nasogástrica en el paciente ya intubado. NUNCA por sonda en un paciente sin vía aérea protegida.",
+      "monitorizacion": "Nivel de conciencia, vía aérea, ruidos intestinales y deposiciones. En la pauta repetida, vigilar el estreñimiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe: actúa íntegramente en la luz del tubo digestivo.",
+      "distribucion": "No aplicable.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Fecal, tiñendo las heces de negro.",
+      "vida_media": "No aplicable.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "CUALQUIER medicación oral administrada a la vez",
+          "efecto": "La adsorbe y anula su absorción",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2 horas la medicación oral necesaria; si el tratamiento es urgente, usar la vía intravenosa"
+        },
+        {
+          "con": "ANTÍDOTOS orales (N-acetilcisteína oral, metionina)",
+          "efecto": "Reduce su absorción",
+          "gravedad": "media",
+          "manejo": "Usar la N-acetilcisteína INTRAVENOSA cuando se ha administrado carbón"
+        },
+        {
+          "con": "Jarabe de ipecacuana",
+          "efecto": "El vómito provocado elimina el carbón y añade riesgo de aspiración",
+          "gravedad": "alta",
+          "manejo": "La ipecacuana está abandonada; no debe usarse"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos (frecuentes y limitantes)",
+        "Heces negras",
+        "Estreñimiento con las dosis repetidas",
+        "Rechazo por el sabor y la textura, sobre todo en el niño"
+      ],
+      "graves": [
+        "BRONCOASPIRACIÓN con neumonitis grave, la complicación temida",
+        "Obstrucción intestinal y bezoar de carbón con las dosis repetidas",
+        "Perforación en el paciente con patología digestiva previa"
+      ]
+    },
+    "contraindicaciones": [
+      "Bajo nivel de conciencia sin vía aérea protegida",
+      "Ingesta de CÁUSTICOS (impide ver la lesión en la endoscopia y no adsorbe)",
+      "Ingesta de HIDROCARBUROS (aumenta el riesgo de aspiración y neumonitis química)",
+      "Íleo, obstrucción o perforación intestinal",
+      "Riesgo de convulsión inminente o de deterioro rápido del nivel de conciencia"
+    ],
+    "perlas": [
+      "La lista de lo que NO adsorbe se memoriza con las PHAILS: Pesticidas, Hidrocarburos, Ácidos y álcalis, Alcoholes, Hierro (y otros metales, como el litio) y Solventes. Ante estos tóxicos el carbón no aporta nada y sí añade riesgo.",
+      "El tiempo lo es todo: en la primera hora retiene una fracción sustancial del tóxico, y a partir de las dos horas el beneficio en la mayoría de las intoxicaciones es marginal. La excepción son los preparados de liberación prolongada, los anticolinérgicos y los opioides, que enlentecen el vaciamiento gástrico y mantienen abierta la ventana.",
+      "La contraindicación que más importa no es toxicológica sino de VÍA AÉREA: un paciente somnoliento que vomita carbón hace una neumonitis grave. Si hay que darlo en ese contexto, primero se intuba.",
+      "El lavado gástrico y la ipecacuana han quedado prácticamente abandonados. Hoy la descontaminación digestiva es, en la práctica, el carbón activado y poco más.",
+      "Las DOSIS REPETIDAS no son simplemente más descontaminación: son un mecanismo distinto, la diálisis gastrointestinal, que elimina tóxico ya absorbido. Solo tiene sentido en fármacos con circulación enterohepática o enteroentérica, y exige que el intestino se mueva.",
+      "Si se ha dado carbón, la N-acetilcisteína del paracetamol se administra por vía INTRAVENOSA: la oral quedaría adsorbida.",
+      "Advertir de las heces negras evita una alarma innecesaria y, sobre todo, evita que se confundan con una melena."
+    ],
+    "embarazo_lactancia": "Seguro: no se absorbe y por tanto no alcanza ni al feto ni a la leche. Es la descontaminación de elección en la embarazada intoxicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; posicionamiento de la AACT y la EAPCCT sobre carbón activado"
+  }
+]

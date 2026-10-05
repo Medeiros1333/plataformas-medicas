@@ -1,0 +1,336 @@
+[
+  {
+    "id": "NML-terbutalina",
+    "nombre": "Terbutalina",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Broncodilatador beta-2 agonista de acción corta (SABA)",
+    "subclase": "SABA en inhalador de polvo seco y de uso parenteral",
+    "vs_clase": [
+      "**Se comercializa sobre todo en inhalador de POLVO SECO (Turbuhaler)**: útil en el paciente que coordina mal el cartucho presurizado del salbutamol y no usa cámara.",
+      "**Existe por vía SUBCUTÁNEA** (0,25-0,5 mg) para la crisis asmática grave sin acceso a nebulización o IV.",
+      "Se ha usado como **tocolítico**, hoy desaconsejado por sus efectos maternos (edema pulmonar, taquicardia)."
+    ],
+    "mecanismo": "Agonista selectivo de receptores beta-2: activa la adenilato ciclasa, aumenta el AMPc y relaja el músculo liso bronquial en minutos. Aumenta también el aclaramiento mucociliar e introduce potasio en las células.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Rescate en asma y EPOC",
+        "dosis": "500 µg (1 inhalación)",
+        "posologia": "A demanda; máximo 6 inhalaciones/día de forma habitual",
+        "via": "inhalada",
+        "nota": "La necesidad de rescate >2 veces/semana indica mal control del asma"
+      },
+      {
+        "patologia": "Crisis asmática grave sin vía inhalada eficaz",
+        "dosis": "0,25-0,5 mg",
+        "posologia": "Dosis única; repetible a los 20-30 min",
+        "via": "SC",
+        "nota": "Monitorizar FC y potasio"
+      }
+    ],
+    "esquema": {
+      "inicio": "A demanda; enseñar la técnica del polvo seco (inspiración rápida y profunda).",
+      "titulacion": "No se titula; un uso creciente obliga a subir el tratamiento de fondo.",
+      "duracion": "A demanda.",
+      "fin": "No requiere retirada.",
+      "via": "Inhalada (polvo seco) o SC.",
+      "monitorizacion": "Frecuencia de uso del rescate; FC y potasio en dosis altas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inhalada: acción en 5 min; mínima absorción sistémica.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Sulfoconjugación hepática e intestinal.",
+      "eliminacion": "Renal.",
+      "vida_media": "3-4 h (efecto 4-6 h).",
+      "ajuste_renal": "Reducir la dosis SC en insuficiencia renal moderada-grave.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Antagonizan su efecto y pueden provocar broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar en asmáticos"
+        },
+        {
+          "con": "Diuréticos, corticoides, teofilina",
+          "efecto": "Hipopotasemia aditiva",
+          "gravedad": "media",
+          "manejo": "Controlar potasio en dosis altas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Temblor",
+        "Taquicardia, palpitaciones",
+        "Calambres musculares"
+      ],
+      "graves": [
+        "Hipopotasemia",
+        "Arritmias en cardiópatas",
+        "Edema pulmonar (uso tocolítico)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Taquiarritmias no controladas (relativa)",
+      "Uso como tocolítico prolongado"
+    ],
+    "perlas": [
+      "**El rescate en polvo seco no requiere coordinación, pero sí flujo inspiratorio**: en una crisis grave puede no inhalarse bien; ahí, cartucho con cámara o nebulización."
+    ],
+    "embarazo_lactancia": "Compatible con el embarazo y la lactancia como rescate inhalado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de asma"
+  },
+  {
+    "id": "NML-umeclidinio",
+    "nombre": "Umeclidinio",
+    "sinonimos": [
+      "Umeclidinio/vilanterol (LAMA/LABA)",
+      "Fluticasona furoato/umeclidinio/vilanterol (triple terapia)"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Broncodilatador antimuscarínico inhalado",
+    "subclase": "LAMA (acción prolongada) en polvo seco, una vez al día",
+    "vs_clase": [
+      "**LAMA de UNA toma diaria en el dispositivo Ellipta**, el mismo que contiene vilanterol y fluticasona furoato: permite **triple terapia en UN solo inhalador y una sola inhalación diaria**.",
+      "Frente al tiotropio: **eficacia similar**; la elección es sobre todo de **dispositivo** (polvo seco frente a Respimat o HandiHaler).",
+      "Frente al ipratropio (SAMA): **no es de rescate** (acción prolongada)."
+    ],
+    "mecanismo": "Antagonista competitivo de los receptores muscarínicos M3 del músculo liso bronquial, con disociación lenta: broncodilatación sostenida 24 h, menos hiperinsuflación y menos exacerbaciones en la EPOC.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC sintomática (mantenimiento)",
+        "dosis": "55 µg (1 inhalación)",
+        "posologia": "Cada 24 h, a la misma hora",
+        "via": "inhalada",
+        "nota": "En combinación LAMA/LABA si hay disnea persistente; triple terapia si eosinófilos ≥300 y exacerbaciones"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 inhalación al día; enseñar el dispositivo y revisar la técnica en cada visita.",
+      "titulacion": "No se titula; si no basta, escalar a LAMA/LABA y después a triple terapia según exacerbaciones y eosinófilos.",
+      "duracion": "Indefinida.",
+      "fin": "No requiere retirada gradual.",
+      "via": "Inhalada (polvo seco).",
+      "monitorizacion": "Síntomas (CAT, mMRC), exacerbaciones, técnica inhalatoria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad sistémica baja (13%).",
+      "distribucion": "Unión a proteínas del 89%.",
+      "metabolismo": "Hepático (CYP2D6), irrelevante por vía inhalada.",
+      "eliminacion": "Fecal.",
+      "vida_media": "19 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Otros anticolinérgicos (ipratropio, antidepresivos tricíclicos, oxibutinina)",
+          "efecto": "Efectos anticolinérgicos aditivos",
+          "gravedad": "media",
+          "manejo": "No asociar a ipratropio de forma regular"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Tos, nasofaringitis",
+        "Estreñimiento"
+      ],
+      "graves": [
+        "Retención urinaria (hiperplasia prostática)",
+        "Glaucoma agudo de ángulo cerrado",
+        "Broncoespasmo paradójico"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia grave a las proteínas de la leche (excipiente lactosa en polvo seco)",
+      "Glaucoma de ángulo cerrado y retención urinaria (precaución)"
+    ],
+    "perlas": [
+      "**Elegir el inhalador según lo que el paciente sabe usar**: dispositivo único para todos sus inhalados reduce errores."
+    ],
+    "embarazo_lactancia": "Datos limitados; uso solo si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de EPOC"
+  },
+  {
+    "id": "NML-fluticasona-salmeterol",
+    "nombre": "Fluticasona propionato/salmeterol",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado con LABA (combinación)",
+    "subclase": "ICS/LABA de dos tomas diarias, solo de mantenimiento",
+    "vs_clase": [
+      "**El salmeterol tiene INICIO LENTO (15-30 min)**: **NO sirve como rescate** ni para la estrategia MART (que exige formoterol, de inicio rápido). Necesita SIEMPRE un SABA aparte para el rescate.",
+      "**Dos tomas al día** (cada 12 h).",
+      "**Fluticasona propionato**: corticoide inhalado muy potente, con **más neumonías en la EPOC** que la budesonida.",
+      "Disponible en polvo seco (Accuhaler) y en cartucho presurizado (usable con cámara)."
+    ],
+    "mecanismo": "Fluticasona propionato: glucocorticoide inhalado de alta afinidad por el receptor, que reduce la inflamación eosinofílica de la vía aérea. Salmeterol: agonista beta-2 de acción prolongada (12 h) muy lipófilo, con inicio lento. La combinación es sinérgica: el corticoide aumenta la expresión de receptores beta-2 y el LABA facilita la translocación del receptor esteroideo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente moderada-grave (mantenimiento)",
+        "dosis": "50/100, 50/250 o 50/500 µg",
+        "posologia": "1 inhalación cada 12 h",
+        "via": "inhalada",
+        "nota": "Rescate con salbutamol; reducir al escalón inferior tras 3 meses de buen control"
+      },
+      {
+        "patologia": "EPOC con exacerbaciones frecuentes y eosinofilia (ya casi siempre dentro de triple terapia)",
+        "dosis": "50/500 µg",
+        "posologia": "1 inhalación cada 12 h",
+        "via": "inhalada",
+        "nota": "Mayor riesgo de neumonía; en EPOC se prefiere LAMA/LABA salvo eosinófilos ≥300"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis según gravedad del asma; revisar técnica. **Enjuagarse la boca tras cada uso.**",
+      "titulacion": "Subir o bajar el escalón cada 3 meses según control.",
+      "duracion": "Indefinida en EPOC; en asma, con desescalada si se mantiene el control.",
+      "fin": "**Nunca retirar el corticoide dejando el LABA solo en el asma** (riesgo de crisis grave y muerte).",
+      "via": "Inhalada.",
+      "monitorizacion": "Control del asma (ACT), exacerbaciones, candidiasis oral, neumonías en EPOC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Fluticasona: biodisponibilidad oral casi nula (primer paso del 99%).",
+      "distribucion": "Muy lipófilos; retención en el tejido pulmonar.",
+      "metabolismo": "**Fluticasona: CYP3A4 (interacción relevante con ritonavir y cobicistat).**",
+      "eliminacion": "Fecal.",
+      "vida_media": "Fluticasona 8 h; salmeterol 5,5 h (efecto 12 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave (más exposición a fluticasona).",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat, itraconazol, ketoconazol",
+          "efecto": "**Síndrome de Cushing iatrogénico y supresión suprarrenal** por acumulación de fluticasona",
+          "gravedad": "alta",
+          "manejo": "Evitar; cambiar a beclometasona (menos dependiente del CYP3A4)"
+        },
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Bloquean el salmeterol y pueden causar broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar en asmáticos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Candidiasis orofaríngea** y disfonía",
+        "Temblor, palpitaciones",
+        "Cefalea"
+      ],
+      "graves": [
+        "**Neumonía en la EPOC**",
+        "Supresión suprarrenal con dosis altas o inhibidores del CYP3A4",
+        "Osteoporosis y cataratas con dosis altas prolongadas"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso como rescate",
+      "Monoterapia con LABA en asma (no aplica: siempre combinado)",
+      "Tratamiento con ritonavir o cobicistat"
+    ],
+    "perlas": [
+      "**Paciente VIH con ritonavir y fluticasona inhalada que desarrolla aspecto cushingoide**: interacción clásica.",
+      "Si el asmático necesita una estrategia de inhalador único para fondo y rescate, cambiar a budesonida/formoterol."
+    ],
+    "embarazo_lactancia": "Compatible con el embarazo (mejor controlar el asma que dejarla sin tratar). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., caps. de asma y EPOC"
+  },
+  {
+    "id": "NML-fluticasona-furoato-vilanterol",
+    "nombre": "Fluticasona furoato/vilanterol",
+    "sinonimos": [],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Corticoide inhalado con LABA (combinación)",
+    "subclase": "ICS/LABA de UNA toma diaria",
+    "vs_clase": [
+      "**UNA sola inhalación al día** (vilanterol es un LABA de 24 h): la combinación ICS/LABA más cómoda, con mejor adherencia.",
+      "**Fluticasona furoato ≠ fluticasona propionato**: mayor afinidad y retención pulmonar, por eso una dosis diaria (92 o 184 µg).",
+      "**Tampoco sirve de rescate ni para MART**: necesita un SABA aparte.",
+      "**Dispositivo Ellipta**, compartido con umeclidinio y la triple terapia."
+    ],
+    "mecanismo": "Fluticasona furoato: glucocorticoide inhalado de muy alta afinidad y prolongada retención en el tejido pulmonar. Vilanterol: agonista beta-2 de acción ultraprolongada (24 h).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente (mantenimiento)",
+        "dosis": "92/22 µg o 184/22 µg",
+        "posologia": "1 inhalación cada 24 h",
+        "via": "inhalada",
+        "nota": "Rescate con SABA"
+      },
+      {
+        "patologia": "EPOC con exacerbaciones",
+        "dosis": "92/22 µg",
+        "posologia": "1 inhalación cada 24 h",
+        "via": "inhalada",
+        "nota": "Habitualmente como parte de la triple terapia con umeclidinio"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 inhalación diaria a la misma hora; enjuague bucal posterior.",
+      "titulacion": "Ajustar a la dosis de ICS mínima que mantenga el control.",
+      "duracion": "Indefinida en EPOC; desescalada en asma bien controlada.",
+      "fin": "No retirar el ICS dejando el LABA solo en asma.",
+      "via": "Inhalada (polvo seco).",
+      "monitorizacion": "Control del asma, exacerbaciones, neumonías en EPOC."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral mínima (<2%).",
+      "distribucion": "Alta retención pulmonar.",
+      "metabolismo": "CYP3A4 (ambos componentes).",
+      "eliminacion": "Fecal.",
+      "vida_media": "Fluticasona furoato 24 h; vilanterol 21 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Hepatopatía moderada-grave: máximo 92/22 µg.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ritonavir, cobicistat, ketoconazol)",
+          "efecto": "Exposición sistémica aumentada a ambos componentes",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar en asmáticos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Candidiasis oral, disfonía",
+        "Cefalea, nasofaringitis"
+      ],
+      "graves": [
+        "Neumonía en EPOC",
+        "Supresión suprarrenal (rara a dosis habituales)",
+        "Broncoespasmo paradójico"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia grave a proteínas de la leche (lactosa)",
+      "Uso como rescate"
+    ],
+    "perlas": [
+      "**Para el paciente que olvida la segunda dosis del día, la combinación de una sola toma es la opción lógica.**"
+    ],
+    "embarazo_lactancia": "Datos limitados; se prefiere budesonida en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., caps. de asma y EPOC"
+  }
+]

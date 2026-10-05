@@ -1,0 +1,278 @@
+[
+  {
+    "id": "PED-END-insulina",
+    "nombre": "Insulina (diabetes tipo 1 del niño)",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Hormona",
+    "subclase": "Análogos de insulina de acción rápida y basal",
+    "mecanismo": "Se une al receptor de insulina, una tirosina cinasa que activa la translocación del transportador GLUT4 a la membrana del músculo y del adipocito, permitiendo la entrada de glucosa; además frena la producción hepática de glucosa, la lipólisis y la cetogénesis. En el niño con diabetes tipo 1 la destrucción autoinmune de la célula beta es completa, de modo que no se trata de mejorar una resistencia sino de SUSTITUIR por completo una hormona ausente, imitando con inyecciones un patrón que el páncreas regula segundo a segundo. Ese es el problema de fondo del tratamiento: no la falta de eficacia del fármaco, sino la imposibilidad de reproducir con precisión un sistema fisiológico continuo en un niño cuya ingesta, actividad y crecimiento cambian todos los días.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,5-1 UI/kg/día como dosis total diaria, repartida en un 40-50% de insulina BASAL y el resto en bolos prandiales",
+    "dosis_maxima": "En la pubertad se alcanzan y superan 1-1,5 UI/kg/día por la resistencia hormonal fisiológica de esa etapa",
+    "presentaciones": [
+      "Análogos rápidos (lispro, aspart, glulisina) y ultrarrápidos",
+      "Análogos basales (glargina, detemir, degludec)",
+      "Plumas con incrementos de 0,5 UI para el niño pequeño, e infusores subcutáneos continuos (bombas), a menudo integrados con sensores en sistemas de asa cerrada",
+      "Insulina rápida regular intravenosa para la cetoacidosis"
+    ],
+    "edad_minima": "Desde el diagnóstico, a cualquier edad, incluida la lactancia",
+    "franjas_edad": [
+      {
+        "franja": "Lactante y preescolar",
+        "ajuste": "Necesidades BAJAS (0,4-0,6 UI/kg/día) y máxima variabilidad por ingesta imprevisible. Requiere plumas de 0,5 UI o bomba, y el riesgo de HIPOGLUCEMIA INADVERTIDA es máximo porque el niño no la reconoce ni la comunica"
+      },
+      {
+        "franja": "Escolar",
+        "ajuste": "0,7-1 UI/kg/día. Es la etapa de aprender el conteo de hidratos de carbono y de coordinar el tratamiento con el colegio"
+      },
+      {
+        "franja": "PUBERTAD",
+        "ajuste": "Las necesidades SUBEN hasta 1,5 UI/kg/día por la hormona de crecimiento y los esteroides sexuales, que producen resistencia fisiológica. Es la etapa de peor control metabólico y hay que anticiparlo en lugar de interpretarlo como incumplimiento"
+      }
+    ],
+    "peculiaridad_pediatrica": "La diabetes del niño no es la del adulto y su manejo se organiza alrededor de tres hechos propios de la edad. El primero es la LUNA DE MIEL: tras el debut, la célula beta residual recupera parte de su función y las necesidades de insulina caen de forma transitoria durante semanas o meses; si no se explica, la familia cree que el niño se ha curado, y cuando la fase termina y las dosis vuelven a subir lo vive como una recaída. El segundo es la PUBERTAD, en la que la hormona de crecimiento produce una resistencia fisiológica a la insulina que dispara las necesidades y empeora el control, un fenómeno biológico que con demasiada frecuencia se interpreta como falta de responsabilidad del adolescente. El tercero es la HIPOGLUCEMIA, que en el niño pequeño es especialmente peligrosa porque no la reconoce ni la comunica, y porque las hipoglucemias graves y repetidas en un cerebro en desarrollo se asocian a peor rendimiento cognitivo: por eso los objetivos de hemoglobina glucosilada del niño pequeño son deliberadamente menos estrictos que los del adulto, y evitar la hipoglucemia pesa más que apurar la cifra.",
+    "indicaciones": [
+      {
+        "patologia": "DIABETES TIPO 1, tratamiento de mantenimiento",
+        "dosis": "0,5-1 UI/kg/día, con 40-50% de basal y el resto en bolos según el conteo de hidratos y el factor de sensibilidad",
+        "posologia": "Basal una vez al día más bolos antes de cada comida, o infusión continua con bomba",
+        "via": "SC",
+        "dosis_objetivo": "Hemoglobina glucosilada inferior al 7% con MÍNIMAS hipoglucemias, y tiempo en rango superior al 70% en la monitorización continua",
+        "nota": "El TIEMPO EN RANGO del sensor ha desplazado en parte a la hemoglobina glucosilada: informa de la variabilidad, que la glucosilada esconde"
+      },
+      {
+        "patologia": "CETOACIDOSIS DIABÉTICA del niño",
+        "dosis": "Insulina rápida en perfusión de 0,05-0,1 UI/kg/h, SIN bolo inicial",
+        "posologia": "Perfusión continua tras la expansión con líquidos",
+        "via": "IV",
+        "dosis_objetivo": "Descenso de la glucemia NO superior a 50-90 mg/dL por hora y corrección progresiva de la acidosis",
+        "nota": "NO se administra bolo inicial de insulina en el niño y la fluidoterapia se calcula con cuidado: la complicación temida es el EDEMA CEREBRAL, que es la causa principal de muerte en esta situación"
+      },
+      {
+        "patologia": "Fase de LUNA DE MIEL",
+        "dosis": "Reducción de la dosis hasta 0,2-0,3 UI/kg/día, sin suspenderla nunca por completo",
+        "posologia": "Basal y bolos reducidos",
+        "via": "SC",
+        "dosis_objetivo": "Normoglucemia con dosis mínimas",
+        "nota": "NO se suspende la insulina aunque las necesidades sean mínimas: mantenerla parece preservar función beta residual y evita la confusión de creer que la enfermedad ha desaparecido"
+      },
+      {
+        "patologia": "Manejo del DÍA DE ENFERMEDAD",
+        "dosis": "NUNCA suspender la insulina basal; ajustar con correcciones adicionales según cetonas",
+        "posologia": "Controles cada 2-4 horas con medición de CETONAS",
+        "via": "SC",
+        "dosis_objetivo": "Evitar la cetoacidosis manteniendo hidratación y aporte de hidratos",
+        "nota": "El error que más cetoacidosis produce es SUSPENDER la insulina porque el niño no come. La insulina basal se necesita SIEMPRE, coma o no coma"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el debut, educación estructurada a la familia y al niño: administración, conteo de hidratos, reconocimiento y tratamiento de la hipoglucemia, medición de cetonas y manejo del día de enfermedad. Es un tratamiento que se delega en la familia desde el primer día.",
+      "titulacion": "Ajuste continuo según los registros y el sensor, con cambios frecuentes durante el crecimiento y la pubertad.",
+      "duracion": "De por vida.",
+      "fin": "No se suspende nunca, ni siquiera en la luna de miel ni cuando el niño no come.",
+      "via": "Subcutánea, ROTANDO los puntos de inyección. Intravenosa solo en la cetoacidosis.",
+      "monitorizacion": "Monitorización continua de glucosa con tiempo en rango, hemoglobina glucosilada cada 3 meses, crecimiento, tensión, lípidos, tiroides y celiaquía (frecuentemente asociadas), y a partir de los 10-11 años cribado de retinopatía y nefropatía."
+    },
+    "farmacocinetica": {
+      "absorcion": "Depende del punto de inyección (abdomen más rápido que muslo o glúteo), del ejercicio de esa zona y de la temperatura. La LIPOHIPERTROFIA por no rotar los puntos hace la absorción ERRÁTICA e impredecible.",
+      "distribucion": "Circulación sistémica.",
+      "metabolismo": "Hepático y renal.",
+      "eliminacion": "Renal.",
+      "vida_media": "Análogos rápidos 3-5 horas; basales 12-42 horas según el preparado.",
+      "ajuste_renal": "Las necesidades DISMINUYEN en la insuficiencia renal: la insulina se elimina peor y el riesgo de hipoglucemia aumenta.",
+      "ajuste_hepatico": "Reducir las dosis.",
+      "interacciones": [
+        {
+          "con": "EJERCICIO",
+          "efecto": "Aumenta la sensibilidad a la insulina durante horas, con riesgo de hipoglucemia TARDÍA y NOCTURNA muchas horas después del esfuerzo",
+          "gravedad": "alta",
+          "manejo": "Es la interacción más importante en la vida real de un niño: hay que reducir la basal o la dosis previa y añadir hidratos, y vigilar la madrugada tras un día de deporte"
+        },
+        {
+          "con": "CORTICOIDES (incluidos los ciclos por asma o crup)",
+          "efecto": "Elevan mucho la glucemia y aumentan las necesidades durante días",
+          "gravedad": "alta",
+          "manejo": "Anticipar el aumento de dosis al pautar un ciclo corto de corticoide a un niño diabético"
+        },
+        {
+          "con": "ALCOHOL en el adolescente",
+          "efecto": "HIPOGLUCEMIA prolongada y diferida por inhibición de la gluconeogénesis, que además se confunde con la embriaguez",
+          "gravedad": "alta",
+          "manejo": "Es una conversación imprescindible en la adolescencia: comer al beber, avisar a los amigos y llevar identificación"
+        },
+        {
+          "con": "LIPOHIPERTROFIA por no rotar puntos",
+          "efecto": "Absorción errática con hiperglucemias e hipoglucemias inexplicables",
+          "gravedad": "alta",
+          "manejo": "Hay que PALPAR los puntos de inyección en cada revisión: es una causa muy frecuente de mal control que no se ve si no se busca"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOGLUCEMIA, el efecto adverso central y el que más limita el control",
+        "LIPOHIPERTROFIA en los puntos de inyección",
+        "Ganancia de peso",
+        "Dolor y miedo a las inyecciones y a los pinchazos"
+      ],
+      "graves": [
+        "HIPOGLUCEMIA GRAVE con convulsión o coma, especialmente peligrosa en el niño pequeño que no la reconoce ni la comunica",
+        "Hipoglucemias repetidas con posible efecto sobre el desarrollo cognitivo",
+        "CETOACIDOSIS por omisión de dosis, fallo de la bomba o manejo incorrecto del día de enfermedad",
+        "EDEMA CEREBRAL durante el tratamiento de la cetoacidosis: es la causa principal de muerte y se relaciona con correcciones demasiado rápidas",
+        "Trastornos de la conducta alimentaria en la adolescente con omisión deliberada de insulina para perder peso"
+      ]
+    },
+    "contraindicaciones": [
+      "Ninguna: es un tratamiento sustitutivo imprescindible",
+      "NUNCA suspenderla, ni siquiera cuando el niño no come",
+      "Bolo inicial de insulina en la cetoacidosis pediátrica"
+    ],
+    "perlas": [
+      "El error que más cetoacidosis causa es SUSPENDER LA INSULINA porque el niño está enfermo y no come. La insulina BASAL se necesita siempre: sin ella el hígado sigue produciendo glucosa y cetonas, y precisamente durante una infección las necesidades SUBEN. Enseñar el manejo del día de enfermedad, con medición de cetonas y correcciones, previene la mayoría de los ingresos.",
+      "En la CETOACIDOSIS pediátrica NO se pone bolo inicial de insulina y la fluidoterapia se calcula con prudencia, porque la complicación temida es el EDEMA CEREBRAL, que es la principal causa de muerte. Cefalea, bradicardia, hipertensión o deterioro de la conciencia durante el tratamiento son signos de alarma que obligan a actuar de inmediato.",
+      "La LUNA DE MIEL hay que explicarla ANTES de que ocurra: tras el debut las necesidades caen y la familia puede creer que el niño se ha curado. Cuando la fase termina, el aumento de dosis se vive como una recaída si nadie lo anticipó.",
+      "En la PUBERTAD el control empeora por biología, no por dejadez: la hormona de crecimiento produce una resistencia fisiológica a la insulina y las necesidades pueden llegar a 1,5 UI/kg/día. Interpretarlo como incumplimiento daña la relación con el adolescente justo cuando más importa.",
+      "En el niño pequeño el objetivo NO es una hemoglobina glucosilada baja a toda costa: la hipoglucemia grave y repetida en un cerebro en desarrollo es más dañina que unas décimas de glucosilada, y por eso los objetivos son deliberadamente menos estrictos.",
+      "Hay que PALPAR los puntos de inyección en cada revisión. La LIPOHIPERTROFIA por inyectar siempre en el mismo sitio (porque duele menos) hace la absorción errática y es una causa muy común de glucemias inexplicables que no se detecta si nadie mira.",
+      "El EJERCICIO baja la glucemia durante HORAS después, y la hipoglucemia puede aparecer de madrugada tras un partido de la tarde. Es la interacción que más afecta a la vida real del niño y merece una planificación específica.",
+      "El TIEMPO EN RANGO del sensor aporta lo que la hemoglobina glucosilada esconde: la variabilidad. Dos niños con la misma glucosilada pueden tener vidas metabólicas completamente distintas.",
+      "En la ADOLESCENTE hay que estar atento a la omisión deliberada de insulina para perder peso: es una forma de trastorno de la conducta alimentaria específica de la diabetes, grave, frecuente y que rara vez se confiesa si no se pregunta con cuidado.",
+      "En el ALCOHOL del adolescente la hipoglucemia es diferida, prolongada y se confunde con la embriaguez: es una conversación que hay que tener antes de que ocurra, sin juicios y con instrucciones concretas."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE gestante, la insulina es el tratamiento de elección de la diabetes y los objetivos glucémicos se vuelven más estrictos. Las necesidades cambian mucho a lo largo de la gestación y caen bruscamente tras el parto. Compatible con la lactancia, que además reduce las necesidades de insulina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ISPAD sobre diabetes tipo 1 en la infancia y la adolescencia"
+  },
+  {
+    "id": "PED-URG-carbon-activado",
+    "nombre": "Carbón activado (intoxicaciones pediátricas)",
+    "sinonimos": [],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Descontaminante digestivo",
+    "subclase": "Adsorbente de superficie",
+    "mecanismo": "Adsorbe el tóxico en la luz intestinal sobre su enorme superficie porosa, impidiendo que se absorba. No lo neutraliza: lo secuestra y lo arrastra con las heces. El mecanismo es idéntico al del adulto, pero su rendimiento en pediatría depende de un factor que en el adulto pesa mucho menos: la RELACIÓN entre la dosis de carbón y la de tóxico. Como el niño ingiere accidentalmente cantidades pequeñas en relación con la dosis de carbón que puede recibir, la proporción adsorbente/tóxico es MUY favorable y la eficacia potencial es mayor que en el adulto. El problema, en cambio, es de administración: conseguir que un niño de tres años asustado y con náuseas se beba un vaso de líquido negro y arenoso es un obstáculo real, y forzarlo con una sonda a un niño que llora y forcejea es la vía directa a la broncoaspiración, que es la complicación que hay que evitar por encima de todo.",
+    "espectro": null,
+    "dosis_pediatrica_base": "1 g/kg en dosis única, lo antes posible tras la ingesta",
+    "dosis_maxima": "50 g en el adolescente; en dosis repetidas, 0,25-0,5 g/kg cada 4-6 horas",
+    "presentaciones": [
+      "Suspensión oral de 25 g en 125 mL o de 50 g en 250 mL",
+      "Presentaciones con sabor o mezclables con zumo o cacao para mejorar la aceptación en el niño"
+    ],
+    "edad_minima": "Desde el lactante, con la precaución de que la vía aérea esté protegida y de que la administración no sea forzada",
+    "franjas_edad": [
+      {
+        "franja": "Lactante",
+        "ajuste": "1 g/kg. La colaboración es nula y el riesgo de aspiración, máximo: solo se administra si la vía aérea está segura y sin forzar"
+      },
+      {
+        "franja": "Preescolar",
+        "ajuste": "1 g/kg (habitualmente 10-25 g). Es la edad de MÁXIMA incidencia de intoxicación accidental y de máxima dificultad para la administración"
+      },
+      {
+        "franja": "Escolar y adolescente",
+        "ajuste": "25-50 g. En el adolescente hay que valorar además la intencionalidad: una intoxicación a esa edad rara vez es accidental"
+      }
+    ],
+    "peculiaridad_pediatrica": "Las intoxicaciones del niño y del adulto son epidemiológicamente opuestas, y eso cambia todo el enfoque. La del PREESCOLAR es ACCIDENTAL, de dosis pequeña, de un solo producto, y llega pronto porque alguien lo ha visto: es la que mejor responde a la descontaminación y la que casi nunca es grave. La del ADOLESCENTE es INTENCIONAL, de dosis grande, a menudo con varios fármacos y con alcohol, y llega tarde: exige valoración psiquiátrica obligada y un enfoque completamente distinto. Sobre esa base pediátrica se superpone un concepto que no existe en el adulto y que hay que tener memorizado: los fármacos en los que UN SOLO COMPRIMIDO del botiquín de un abuelo puede matar a un niño de 10 kg. Son los calcioantagonistas, los antidepresivos tricíclicos, los antipalúdicos, las sulfonilureas, los opioides (sobre todo metadona), el alcanfor, la teofilina y los antiarrítmicos. Ante una ingesta de cualquiera de ellos, aunque el niño esté asintomático, la conducta es la observación hospitalaria prolongada y no el alta tranquilizadora.",
+    "indicaciones": [
+      {
+        "patologia": "INTOXICACIÓN AGUDA por vía oral con tóxico adsorbible, en la PRIMERA HORA",
+        "dosis": "1 g/kg en dosis única",
+        "posologia": "Dosis única lo antes posible",
+        "via": "VO",
+        "dosis_objetivo": "Adsorción del tóxico antes de su absorción",
+        "nota": "El rendimiento es máximo en los primeros 60 minutos. En el niño, la relación carbón/tóxico suele ser muy favorable, lo que aumenta su eficacia potencial"
+      },
+      {
+        "patologia": "Ingesta de preparados de LIBERACIÓN PROLONGADA o de fármacos que retrasan el vaciamiento gástrico",
+        "dosis": "1 g/kg, con dosis repetidas de 0,25-0,5 g/kg cada 4-6 horas según el fármaco",
+        "posologia": "Dosis repetidas",
+        "via": "VO",
+        "nota": "La ventana útil se alarga porque el tóxico sigue liberándose durante horas"
+      },
+      {
+        "patologia": "Intoxicación por CARBAMAZEPINA, fenobarbital, teofilina, quinina o dapsona (dosis repetidas)",
+        "dosis": "0,25-0,5 g/kg cada 4-6 horas mientras haya peristaltismo",
+        "posologia": "Cada 4-6 horas durante 12-24 horas",
+        "via": "VO",
+        "dosis_objetivo": "Interrupción de la circulación enterohepática (diálisis gastrointestinal)",
+        "nota": "Aquí el mecanismo es distinto: elimina tóxico YA ABSORBIDO. Requiere que el intestino se mueva y hay que suspenderlo ante íleo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de administrarlo hay que responder a tres preguntas: ¿el tóxico es adsorbible?, ¿la vía aérea está protegida?, y ¿el niño puede colaborar? Si la respuesta a la tercera es no, hay que valorar si el beneficio compensa el riesgo, porque forzarlo es peligroso.",
+      "titulacion": "No se titula. En dosis repetidas se mantiene mientras haya ruidos intestinales.",
+      "duracion": "Dosis única en la mayoría; 12-24 horas en la pauta repetida.",
+      "fin": "Se suspende ante vómitos incoercibles, ausencia de peristaltismo o deterioro del nivel de conciencia.",
+      "via": "Oral, mezclado con zumo o cacao para mejorar la aceptación. Por sonda SOLO si la vía aérea está protegida.",
+      "monitorizacion": "Nivel de conciencia, vía aérea, ruidos intestinales y deposiciones. Contacto con el centro de toxicología ante cualquier duda."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe: actúa íntegramente en la luz digestiva.",
+      "distribucion": "No aplicable.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Fecal, tiñendo las heces de NEGRO.",
+      "vida_media": "No aplicable.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "N-ACETILCISTEÍNA oral y otros antídotos orales",
+          "efecto": "Los adsorbe y reduce su eficacia",
+          "gravedad": "media",
+          "manejo": "Si se ha dado carbón, usar la N-acetilcisteína INTRAVENOSA en la intoxicación por paracetamol, que es la más frecuente en pediatría"
+        },
+        {
+          "con": "Cualquier medicación oral concomitante",
+          "efecto": "La adsorbe y anula su absorción",
+          "gravedad": "alta",
+          "manejo": "Separar 2 horas o usar la vía intravenosa"
+        },
+        {
+          "con": "Jarabe de IPECACUANA",
+          "efecto": "El vómito provocado elimina el carbón y añade riesgo de aspiración",
+          "gravedad": "alta",
+          "manejo": "La ipecacuana está ABANDONADA y NO debe usarse ni tenerse en casa"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y VÓMITOS, muy frecuentes y limitantes en el niño",
+        "Heces negras",
+        "Rechazo por el sabor y la textura, que es el principal obstáculo práctico",
+        "Estreñimiento con dosis repetidas"
+      ],
+      "graves": [
+        "BRONCOASPIRACIÓN con neumonitis grave: es la complicación temida y el motivo por el que NUNCA se fuerza la administración a un niño que llora, forcejea o está somnoliento",
+        "Obstrucción intestinal y bezoar con dosis repetidas",
+        "Lesión corneal por salpicadura"
+      ]
+    },
+    "contraindicaciones": [
+      "Bajo nivel de conciencia sin vía aérea protegida",
+      "Ingesta de CÁUSTICOS (impide ver la lesión en la endoscopia y no adsorbe)",
+      "Ingesta de HIDROCARBUROS (aumenta el riesgo de aspiración)",
+      "Íleo, obstrucción o perforación",
+      "Administración FORZADA a un niño que forcejea"
+    ],
+    "perlas": [
+      "La lista de fármacos en los que UN SOLO COMPRIMIDO puede matar a un niño pequeño hay que tenerla memorizada: CALCIOANTAGONISTAS, ANTIDEPRESIVOS TRICÍCLICOS, ANTIPALÚDICOS (cloroquina), SULFONILUREAS, OPIOIDES (especialmente metadona), ALCANFOR, TEOFILINA y antiarrítmicos. Ante una ingesta de cualquiera de ellos, el niño asintomático NO se manda a casa: se observa durante horas.",
+      "La epidemiología manda: la intoxicación del PREESCOLAR es accidental, pequeña y de un solo producto, y casi siempre benigna; la del ADOLESCENTE es intencional, grande, con varios fármacos y alcohol, y obliga a valoración psiquiátrica. Son dos escenarios distintos con el mismo carbón activado.",
+      "NUNCA hay que FORZAR el carbón a un niño que llora y forcejea: la broncoaspiración de carbón produce una neumonitis grave, y en un niño con una ingesta banal el riesgo del tratamiento supera con creces al del tóxico. Ante la duda, se consulta al centro de toxicología y se valora si merece la pena.",
+      "El TIEMPO lo es todo: el rendimiento es máximo en los primeros 60 minutos. En el niño hay una ventaja añadida, y es que la ingesta suele presenciarse, de modo que llega pronto.",
+      "La lista de lo que NO adsorbe se recuerda con las PHAILS: Pesticidas, Hidrocarburos, Ácidos y álcalis, Alcoholes, Hierro y otros metales (incluido el litio) y Solventes. Ante esos tóxicos el carbón no aporta nada y sí añade riesgo de aspiración.",
+      "La intoxicación por HIERRO merece mención aparte en pediatría: es frecuente por la ingesta de suplementos maternos, el carbón NO lo adsorbe, y tiene una fase de mejoría ENGAÑOSA de 6 a 24 horas antes del shock y del fallo hepático.",
+      "El LAVADO GÁSTRICO y la IPECACUANA están abandonados: no mejoran los resultados y añaden riesgo. Conviene decirle a las familias que retiren la ipecacuana del botiquín si la tienen.",
+      "Advertir de las HECES NEGRAS evita una alarma innecesaria y, sobre todo, evita que se confundan con una melena.",
+      "En el niño, la prevención vale más que cualquier tratamiento: envases con cierre de seguridad, medicación fuera del alcance y sobre todo atención a los botiquines de los ABUELOS, que son el origen de una proporción muy alta de las ingestas graves."
+    ],
+    "embarazo_lactancia": "Seguro en la adolescente embarazada: no se absorbe y es la descontaminación de elección.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; protocolos de intoxicaciones pediátricas y posicionamiento AACT/EAPCCT sobre carbón activado"
+  }
+]

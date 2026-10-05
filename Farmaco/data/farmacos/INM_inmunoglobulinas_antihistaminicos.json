@@ -1,0 +1,255 @@
+[
+  {
+    "id": "INM-inmunoglobulinas-iv",
+    "nombre": "Inmunoglobulinas intravenosas",
+    "sinonimos": [
+      "IGIV",
+      "Gammaglobulina"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Hemoderivado inmunomodulador",
+    "subclase": "Inmunoglobulina G policlonal humana obtenida de plasma de miles de donantes",
+    "mecanismo": "Tiene dos usos con mecanismos completamente distintos, y la dosis los separa. A dosis SUSTITUTIVA (400-600 mg/kg al mes) simplemente REPONE los anticuerpos que el paciente inmunodeficiente no fabrica: es terapia de reemplazo. A dosis INMUNOMODULADORA (2 g/kg por ciclo, es decir de tres a cinco veces más) actúa por mecanismos activos: SATURA el receptor Fc de los macrófagos del bazo (que es como frena la destrucción de plaquetas en la trombopenia inmune), induce el receptor inhibidor FcgammaRIIB, neutraliza autoanticuerpos mediante anticuerpos antiidiotipo, consume complemento activado y modula la red de citocinas. Que un mismo producto sirva para reponer y para inmunomodular según la dosis es una de las rarezas más útiles de la terapéutica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INMUNODEFICIENCIAS primarias y secundarias con hipogammaglobulinemia",
+        "dosis": "400-600 mg/kg cada 3-4 semanas",
+        "posologia": "Mensual",
+        "via": "IV",
+        "dosis_objetivo": "Nivel VALLE de IgG superior a 600-800 mg/dL, ajustado para que el paciente deje de tener infecciones",
+        "nota": "El objetivo real no es una cifra sino la ausencia de infecciones: hay pacientes que las necesitan por encima de 800. Existe formulación SUBCUTÁNEA domiciliaria semanal, mejor tolerada y con niveles más estables"
+      },
+      {
+        "patologia": "SÍNDROME DE GUILLAIN-BARRÉ",
+        "dosis": "2 g/kg repartidos en 5 días (0,4 g/kg al día)",
+        "posologia": "Ciclo de 5 días",
+        "via": "IV",
+        "nota": "Equivalente a la plasmaféresis en eficacia, y más disponible y sencilla. Combinarlas NO aporta beneficio. Los CORTICOIDES no funcionan en el Guillain-Barré"
+      },
+      {
+        "patologia": "TROMBOPENIA INMUNE con sangrado o necesidad de subida rápida de plaquetas",
+        "dosis": "1 g/kg al día durante 1-2 días",
+        "posologia": "Uno o dos días",
+        "via": "IV",
+        "nota": "Sube las plaquetas en 24-48 horas, mucho más deprisa que el corticoide: es el recurso cuando hay hemorragia activa o cirugía inminente. El efecto es TRANSITORIO, de 2-4 semanas"
+      },
+      {
+        "patologia": "ENFERMEDAD DE KAWASAKI",
+        "dosis": "2 g/kg en dosis única en perfusión de 10-12 horas, con AAS",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "dosis_objetivo": "Desaparición de la fiebre y prevención de los aneurismas coronarios",
+        "nota": "Administrada en los PRIMEROS 10 DÍAS reduce la incidencia de aneurismas coronarios del 25% a menos del 5%: es una de las intervenciones pediátricas con mayor impacto"
+      },
+      {
+        "patologia": "Polineuropatía desmielinizante inflamatoria crónica y miastenia gravis en crisis",
+        "dosis": "2 g/kg por ciclo, con mantenimiento cada 3-6 semanas en la polineuropatía crónica",
+        "posologia": "Ciclos repetidos",
+        "via": "IV",
+        "nota": "En la miastenia es alternativa a la plasmaféresis en la crisis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal, hemograma e inmunoglobulinas basales. Comprobar que el paciente NO tiene déficit de IgA con anticuerpos anti-IgA. Hidratación adecuada antes de la infusión.",
+      "titulacion": "Velocidad de infusión ESCALONADA, empezando muy lenta: la mayoría de las reacciones dependen de la velocidad y no de la dosis.",
+      "duracion": "Indefinida y mensual en la inmunodeficiencia; ciclos puntuales o repetidos en las indicaciones inmunomoduladoras.",
+      "fin": "En la sustitución no se retira. En la inmunomodulación, se espacian los ciclos según la respuesta.",
+      "via": "Intravenosa; subcutánea semanal domiciliaria en la terapia sustitutiva.",
+      "monitorizacion": "Función renal, hemograma (hemólisis), nivel valle de IgG en la sustitución, y vigilancia de cefalea intensa (meningitis aséptica) y de clínica trombótica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa (biodisponibilidad completa) o subcutánea (absorción lenta con niveles más estables y sin picos).",
+      "distribucion": "Intravascular y extravascular a partes similares.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "3-4 semanas, lo que determina el intervalo mensual de las pautas sustitutivas.",
+      "ajuste_renal": "Precaución: las formulaciones con SACAROSA son nefrotóxicas. Elegir preparados sin sacarosa, hidratar bien e infundir despacio en el paciente con insuficiencia renal.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "VACUNAS de virus VIVOS (triple vírica, varicela)",
+          "efecto": "Los anticuerpos pasivos NEUTRALIZAN el virus vacunal e impiden la seroconversión",
+          "gravedad": "alta",
+          "manejo": "Esperar de 8 a 11 MESES tras una dosis alta antes de vacunar, o revacunar después. Es un problema práctico frecuente en el niño tratado por Kawasaki"
+        },
+        {
+          "con": "Diuréticos de asa y nefrotóxicos",
+          "efecto": "Suman riesgo de fracaso renal, sobre todo con preparados que contienen sacarosa",
+          "gravedad": "media",
+          "manejo": "Hidratación y elección del preparado"
+        },
+        {
+          "con": "Pruebas serológicas y de laboratorio",
+          "efecto": "Los anticuerpos transferidos producen POSITIVIDADES FALSAS en serologías y un Coombs directo positivo",
+          "gravedad": "media",
+          "manejo": "Interpretar con cautela cualquier serología en las semanas siguientes: una hepatitis B o un ANA positivos pueden venir en el frasco"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "CEFALEA, la más frecuente y dependiente de la velocidad de infusión",
+        "Fiebre, escalofríos, náuseas y mialgias durante la perfusión",
+        "Hipertensión o hipotensión transitorias",
+        "Rubor y exantema"
+      ],
+      "graves": [
+        "MENINGITIS ASÉPTICA, con cefalea intensa, fotofobia y rigidez de nuca en las 24-48 horas siguientes: alarma mucho y se resuelve sola",
+        "TROMBOSIS arterial y venosa, incluidos infarto e ictus, por aumento de la viscosidad plasmática, sobre todo en ancianos y con dosis altas",
+        "INSUFICIENCIA RENAL AGUDA por nefrosis osmótica con los preparados que contienen SACAROSA",
+        "ANAFILAXIA en el paciente con déficit de IgA y anticuerpos ANTI-IgA",
+        "HEMÓLISIS por isoaglutininas anti-A y anti-B presentes en el preparado",
+        "Lesión pulmonar aguda relacionada con la transfusión (TRALI)"
+      ]
+    },
+    "contraindicaciones": [
+      "DÉFICIT SELECTIVO DE IgA con anticuerpos anti-IgA demostrados",
+      "Hipersensibilidad conocida",
+      "Precaución máxima en el riesgo trombótico elevado, la insuficiencia renal y la insuficiencia cardiaca (carga de volumen)"
+    ],
+    "perlas": [
+      "La DOSIS define el mecanismo: 400-600 mg/kg al mes es REPOSICIÓN de anticuerpos en el inmunodeficiente; 2 g/kg por ciclo es INMUNOMODULACIÓN. Confundirlas significa o dejar sin tratar una enfermedad autoinmune o exponer innecesariamente a un inmunodeficiente a los riesgos de la dosis alta.",
+      "En la ENFERMEDAD DE KAWASAKI el reloj manda: administradas en los primeros 10 días reducen los aneurismas coronarios del 25% a menos del 5%. Es de las intervenciones con mejor relación entre sencillez y daño evitado de toda la pediatría.",
+      "BLOQUEAN LAS VACUNAS VIVAS durante 8-11 meses. Un niño tratado por Kawasaki no puede recibir la triple vírica en ese periodo, y hay que dejarlo escrito en el informe de alta o el calendario vacunal se aplicará sin efecto.",
+      "La CEFALEA post-infusión es casi la norma y depende de la VELOCIDAD: infundir despacio, hidratar y premedicar la evita en la mayoría de los casos. Cuando es intensa y con rigidez de nuca, se trata de una meningitis aséptica benigna que asusta mucho más de lo que dura.",
+      "El riesgo TROMBÓTICO es real y se olvida: aumentan la viscosidad plasmática, y en un anciano con factores de riesgo pueden precipitar un ictus o un infarto. Hidratación e infusión lenta son las medidas preventivas.",
+      "El DÉFICIT DE IgA con anticuerpos anti-IgA es la contraindicación clásica por riesgo de anafilaxia, y hay preparados con contenido mínimo de IgA para esos pacientes.",
+      "FALSEAN LAS SEROLOGÍAS durante semanas: se transfieren los anticuerpos de miles de donantes. Un Coombs positivo, una serología de hepatitis positiva o unos ANA nuevos tras un ciclo pueden venir del producto y no del paciente.",
+      "En la TROMBOPENIA INMUNE suben las plaquetas en 24-48 horas frente a los días que tarda el corticoide, pero el efecto dura solo semanas: son el puente para una hemorragia o una cirugía, no el tratamiento de fondo.",
+      "En el GUILLAIN-BARRÉ son equivalentes a la plasmaféresis, combinarlas no aporta nada, y los CORTICOIDES no funcionan: es una de las pocas enfermedades inflamatorias en las que el corticoide no tiene papel."
+    ],
+    "embarazo_lactancia": "Seguras en el embarazo y de uso establecido en indicaciones como la trombopenia inmune gestacional y la profilaxis de la enfermedad hemolítica. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías de la AAAAI sobre uso de inmunoglobulinas; guías de la AHA sobre enfermedad de Kawasaki"
+  },
+  {
+    "id": "INM-antihistaminicos-h1",
+    "nombre": "Antihistamínicos H1 (cetirizina, loratadina, bilastina, dexclorfeniramina, hidroxizina)",
+    "sinonimos": [
+      "Antihistamínicos"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Antialérgico",
+    "subclase": "Agonistas inversos del receptor H1 de la histamina",
+    "mecanismo": "No son antagonistas simples sino AGONISTAS INVERSOS: estabilizan el receptor H1 en su conformación inactiva y reducen su actividad basal. Al bloquear H1 impiden los efectos de la histamina liberada por el mastocito: vasodilatación, aumento de la permeabilidad capilar (habón y edema), estimulación de las terminaciones nerviosas sensitivas (PRURITO y estornudo) y contracción del músculo liso. La división en generaciones es puramente farmacocinética y lo explica todo: los de PRIMERA generación son lipófilos, atraviesan la barrera hematoencefálica y bloquean además receptores muscarínicos, alfa-adrenérgicos y serotoninérgicos, de donde salen la sedación y los efectos anticolinérgicos; los de SEGUNDA generación son más hidrófilos y además sustrato de la glicoproteína P, que los expulsa activamente del cerebro, por lo que no sedan ni tienen efectos anticolinérgicos relevantes.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "URTICARIA aguda y crónica espontánea",
+        "dosis": "Cetirizina 10 mg al día, bilastina 20 mg al día o desloratadina 5 mg al día, con posibilidad de subir hasta CUÁDRUPLE dosis en la urticaria crónica",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "dosis_objetivo": "Ausencia de habones y de prurito; es el criterio para subir o bajar la dosis",
+        "nota": "La escalada hasta 4 veces la dosis está avalada por las guías y es MUCHO más segura que añadir corticoide de forma mantenida"
+      },
+      {
+        "patologia": "RINOCONJUNTIVITIS alérgica estacional y perenne",
+        "dosis": "Cetirizina 10 mg, loratadina 10 mg o bilastina 20 mg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "En la rinitis moderada-grave el corticoide NASAL es más eficaz que el antihistamínico oral y debe ser la primera línea"
+      },
+      {
+        "patologia": "ANAFILAXIA, como tratamiento COMPLEMENTARIO",
+        "dosis": "Dexclorfeniramina 5 mg IM o IV lenta",
+        "posologia": "Dosis repetible cada 6-8 horas",
+        "via": "IM",
+        "nota": "SOLO alivia el prurito y los habones. NO trata la anafilaxia: no revierte el edema laríngeo ni la hipotensión. Se administra DESPUÉS de la adrenalina, nunca en su lugar"
+      },
+      {
+        "patologia": "Prurito, prevención del mareo cinético y sedación puntual (primera generación)",
+        "dosis": "Hidroxizina 25 mg por la noche; dimenhidrinato 50 mg antes del viaje",
+        "posologia": "Puntual o nocturna",
+        "via": "VO",
+        "nota": "Aquí la sedación se busca deliberadamente. En el ANCIANO hay que evitarlos: son fármacos de la lista de Beers"
+      },
+      {
+        "patologia": "Premedicación de reacciones infusionales",
+        "dosis": "Dexclorfeniramina 5 mg IV antes de la infusión",
+        "posologia": "Dosis única previa",
+        "via": "IV",
+        "nota": "Junto con corticoide y paracetamol en la premedicación de biológicos y de contrastes"
+      }
+    ],
+    "esquema": {
+      "inicio": "Elegir un fármaco de SEGUNDA generación salvo que se busque sedación. En la urticaria crónica, dosis estándar durante 2-4 semanas antes de escalar.",
+      "titulacion": "En la urticaria crónica se puede DUPLICAR, TRIPLICAR o CUADRUPLICAR la dosis; es una escalada avalada y bien tolerada.",
+      "duracion": "Estacional en la rinitis; meses o años en la urticaria crónica, que suele remitir sola con el tiempo.",
+      "fin": "En la urticaria crónica, descenso escalonado tras 3-6 meses sin síntomas.",
+      "via": "Oral principalmente; intramuscular o intravenosa en urgencias; también tópica nasal y ocular.",
+      "monitorizacion": "Clínica. En el anciano tratado con primera generación, vigilar confusión, retención urinaria y caídas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral. La BILASTINA y la fexofenadina se alteran mucho con la comida y con el zumo de fruta: deben tomarse en AYUNAS, una hora antes o dos después de comer.",
+      "distribucion": "Los de primera generación atraviesan con facilidad la barrera hematoencefálica; los de segunda son expulsados por la GLICOPROTEÍNA P y apenas alcanzan el sistema nervioso central.",
+      "metabolismo": "Variable: la loratadina y la ebastina son profármacos que requieren CYP3A4; la CETIRIZINA, la BILASTINA y la fexofenadina prácticamente NO se metabolizan, lo que las libera de interacciones.",
+      "eliminacion": "Renal (cetirizina, bilastina) o biliar.",
+      "vida_media": "8-24 horas en los de segunda generación, lo que permite la toma única diaria.",
+      "ajuste_renal": "Reducir la dosis de CETIRIZINA y de bilastina en la insuficiencia renal, ya que se eliminan sin metabolizar.",
+      "ajuste_hepatico": "Preferir cetirizina o bilastina en la hepatopatía, ya que no dependen del metabolismo hepático.",
+      "interacciones": [
+        {
+          "con": "Alcohol, benzodiazepinas, opioides (primera generación)",
+          "efecto": "Sedación y depresión del sistema nervioso central aditivas",
+          "gravedad": "alta",
+          "manejo": "Evitar; advertir sobre la conducción"
+        },
+        {
+          "con": "Otros ANTICOLINÉRGICOS (antidepresivos tricíclicos, antiparkinsonianos, antiespasmódicos)",
+          "efecto": "CARGA ANTICOLINÉRGICA acumulada: confusión, retención urinaria, estreñimiento y caídas en el anciano",
+          "gravedad": "alta",
+          "manejo": "Sumar toda la carga anticolinérgica de la lista del paciente; los de primera generación figuran en los criterios de Beers"
+        },
+        {
+          "con": "Zumo de FRUTA y alimentos (bilastina, fexofenadina)",
+          "efecto": "Reducen su absorción hasta un 30-40% por inhibición de transportadores intestinales",
+          "gravedad": "media",
+          "manejo": "Tomarlas en ayunas: es una instrucción concreta que cambia la eficacia y casi nunca se da"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (ketoconazol, macrólidos) con ebastina o loratadina",
+          "efecto": "Aumento de concentraciones",
+          "gravedad": "media",
+          "manejo": "Preferir cetirizina o bilastina, que no se metabolizan"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN y deterioro del rendimiento psicomotor (primera generación; la cetirizina seda algo más que el resto de los de segunda)",
+        "Sequedad de boca, visión borrosa y estreñimiento (primera generación)",
+        "Cefalea",
+        "Aumento del apetito y de peso (ciproheptadina, ketotifeno)"
+      ],
+      "graves": [
+        "CONFUSIÓN, delirium, retención urinaria y CAÍDAS en el anciano con los de primera generación",
+        "Convulsiones y arritmias en SOBREDOSIS de primera generación",
+        "Glaucoma agudo de ángulo cerrado en el predispuesto",
+        "Prolongación del QT (histórica, con los retirados terfenadina y astemizol; los actuales son seguros)",
+        "Depresión respiratoria en el LACTANTE, motivo por el que están contraindicados en el menor de 2 años"
+      ]
+    },
+    "contraindicaciones": [
+      "Menores de 2 años para los de primera generación",
+      "Glaucoma de ángulo cerrado, hipertrofia prostática con retención y obstrucción digestiva (primera generación)",
+      "Precaución en el anciano: criterios de Beers",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "El error que más daño causa con esta familia es usarlos como si trataran la ANAFILAXIA. No la tratan: no revierten el edema laríngeo ni la hipotensión, solo alivian el prurito y los habones. Administrarlos en lugar de la adrenalina, o antes que ella, es una de las causas descritas de muerte por anafilaxia.",
+      "En la URTICARIA CRÓNICA la dosis se puede CUADRUPLICAR, y así lo recomiendan las guías. Es mucho más seguro subir a cuatro comprimidos de cetirizina que mantener a un paciente con corticoide oral durante meses, y sin embargo la pauta habitual sigue siendo la contraria.",
+      "La diferencia entre generaciones no es de potencia antihistamínica sino de FARMACOCINÉTICA: los de segunda generación son sustrato de la glicoproteína P, que los expulsa del cerebro. Igual de eficaces, sin sedación.",
+      "En el ANCIANO, los de primera generación son fármacos que hacen daño: confusión, retención urinaria, caídas y fracturas. Están en los criterios de Beers y aparecen con frecuencia en jarabes antigripales de venta libre, donde nadie los busca.",
+      "La BILASTINA y la fexofenadina hay que tomarlas EN AYUNAS: el zumo de fruta y la comida reducen su absorción casi un 40%. Una instrucción de una frase que decide si el fármaco funciona.",
+      "En la RINITIS moderada-grave, el corticoide NASAL supera al antihistamínico oral. Es un orden que se invierte a menudo en la práctica, con pacientes que llevan años tomando antihistamínico sin llegar a probar el corticoide tópico bien aplicado.",
+      "Hay que SUSPENDERLOS de 3 a 7 días antes de unas PRUEBAS CUTÁNEAS de alergia, o el resultado será un falso negativo. Es la causa más frecuente de tener que repetir un estudio alergológico completo.",
+      "La CETIRIZINA es el metabolito activo de la hidroxizina, y conserva algo más de capacidad sedante que el resto de los de segunda generación: en un paciente que necesita conducir o manejar maquinaria, la bilastina o la fexofenadina son mejores opciones."
+    ],
+    "embarazo_lactancia": "La LORATADINA y la CETIRIZINA son las opciones con más experiencia acumulada y se consideran seguras en el embarazo; la dexclorfeniramina también tiene un historial prolongado. Compatibles con la lactancia, prefiriendo los de segunda generación para evitar la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16; guías EAACI/GA2LEN sobre urticaria y ARIA sobre rinitis alérgica"
+  }
+]

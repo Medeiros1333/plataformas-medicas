@@ -1,0 +1,278 @@
+[
+  {
+    "id": "PED-DER-corticoides-topicos",
+    "nombre": "Corticoides tópicos (pediatría)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiinflamatorio tópico",
+    "subclase": "Glucocorticoides cutáneos clasificados por potencia",
+    "mecanismo": "Igual que en el adulto: efecto antiinflamatorio, inmunosupresor local, antiproliferativo y vasoconstrictor sobre el queratinocito, el fibroblasto y las células inflamatorias de la piel. Lo que cambia en el niño es la EXPOSICIÓN. El lactante tiene una relación SUPERFICIE CORPORAL/PESO hasta tres veces mayor que el adulto, de modo que una misma superficie tratada supone una dosis por kilo mucho más alta; el estrato córneo del prematuro y del recién nacido es más delgado y permeable; y el PAÑAL actúa como una OCLUSIÓN permanente que multiplica la penetración hasta diez veces. La consecuencia es que el mismo corticoide que en un adulto sería inocuo puede, en un lactante con dermatitis extensa y pañal, producir supresión del eje hipotálamo-hipófiso-suprarrenal.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Se dosifica por UNIDAD DE PUNTA DE DEDO, no por kg: media unidad cubre la cara y el cuello del lactante, y una unidad cubre un brazo (dosificación por SUPERFICIE, no ponderal)",
+    "dosis_maxima": "Corticoide de potencia media: no más de 15 g a la semana en el lactante y 30 g en el escolar; en cara y pliegues, no más de 5-7 días con potencia media",
+    "presentaciones": [
+      "Hidrocortisona acetato 1% (potencia BAJA): cara, pliegues y área del pañal",
+      "Metilprednisolona aceponato 0,1% y betametasona valerato 0,05-0,1% (potencia MEDIA): tronco y extremidades",
+      "Pomada para piel seca y liquenificada; crema para lesión exudativa; loción o espuma para cuero cabelludo"
+    ],
+    "edad_minima": "Desde el recién nacido, usando potencia BAJA y superficies limitadas",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido y prematuro",
+        "ajuste": "Solo potencia BAJA, superficies pequeñas y periodos muy cortos: la barrera es inmadura y la absorción, máxima"
+      },
+      {
+        "franja": "Lactante",
+        "ajuste": "Hidrocortisona 1% en cara, pliegues y ÁREA DEL PAÑAL (que está ocluida); potencia media en tronco y extremidades durante 5-7 días"
+      },
+      {
+        "franja": "Preescolar y escolar",
+        "ajuste": "Potencia media en el cuerpo, baja en la cara. Se puede usar pauta PROACTIVA dos días por semana en las zonas que brotan"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Pauta de adulto, manteniendo la regla de la potencia por localización"
+      }
+    ],
+    "peculiaridad_pediatrica": "El problema clínico dominante no es la toxicidad sino la CORTICOFOBIA. Una proporción muy alta de las familias aplica una cantidad ínfima de un corticoide demasiado suave durante demasiado poco tiempo, por miedo a un fármaco del que han oído hablar mal, y el resultado es un niño con dermatitis atópica mal controlada durante meses que acaba recibiendo MÁS corticoide total del que habría necesitado con un curso corto y adecuado. Sobre esa base se superponen dos particularidades anatómicas: la relación superficie/peso del lactante, que multiplica la absorción sistémica de un tratamiento extenso, y el PAÑAL, que es una cura oclusiva permanente y convierte una potencia media en una potencia alta. La respuesta correcta no es usar menos corticoide sino usar el ADECUADO durante el tiempo justo y explicar por qué, apoyándolo siempre en el emoliente.",
+    "indicaciones": [
+      {
+        "patologia": "DERMATITIS ATÓPICA, brote",
+        "dosis": "Hidrocortisona 1% en cara y pliegues; metilprednisolona aceponato 0,1% en tronco y extremidades, UNA aplicación al día durante 5-7 días",
+        "posologia": "Una aplicación diaria",
+        "via": "tópica",
+        "dosis_objetivo": "Desaparición del eritema y del prurito; después se mantiene solo el emoliente",
+        "nota": "Una vez al día es tan eficaz como dos. El corticoide trata el BROTE y el EMOLIENTE previene el siguiente: son papeles distintos"
+      },
+      {
+        "patologia": "Mantenimiento PROACTIVO en la dermatitis atópica moderada-grave",
+        "dosis": "Metilprednisolona aceponato 0,1% o hidrocortisona 1% según la zona, DOS días por semana sobre las áreas que suelen brotar",
+        "posologia": "Dos aplicaciones semanales",
+        "via": "tópica",
+        "nota": "Reduce los brotes usando MENOS corticoide total que tratar cada brote cuando ya ha estallado"
+      },
+      {
+        "patologia": "DERMATITIS DEL PAÑAL irritativa persistente",
+        "dosis": "Hidrocortisona 1% en capa fina, una aplicación al día durante 3-5 días como máximo",
+        "posologia": "Una aplicación diaria",
+        "via": "tópica",
+        "nota": "El pañal OCLUYE: solo potencia BAJA y periodos muy cortos. Si hay lesiones satélite, es CANDIDIASIS y necesita antifúngico"
+      },
+      {
+        "patologia": "Eccema de contacto, picaduras muy inflamatorias y dermatitis seborreica",
+        "dosis": "Hidrocortisona 1% o potencia media según la localización, 3-7 días",
+        "posologia": "Una aplicación diaria",
+        "via": "tópica",
+        "nota": "En la dermatitis seborreica del lactante (costra láctea) suele bastar con emoliente y cepillado suave"
+      }
+    ],
+    "esquema": {
+      "inicio": "Elegir la potencia por la LOCALIZACIÓN y el VEHÍCULO por el tipo de lesión. Explicar la CANTIDAD con la unidad de punta de dedo y decir expresamente cuántos días.",
+      "titulacion": "Se empieza por la potencia SUFICIENTE para cortar el brote y se retira; empezar demasiado flojo prolonga el brote y consume más corticoide.",
+      "duracion": "5-7 días en el brote; no más de 5-7 días en cara, pliegues y área del pañal.",
+      "fin": "Al resolverse el brote, manteniendo SIEMPRE el emoliente. En tratamientos prolongados, espaciar antes de retirar.",
+      "via": "Tópica. NUNCA ocluir deliberadamente salvo indicación expresa, y recordar que el pañal ya es una oclusión.",
+      "monitorizacion": "Inspección de la piel tratada (atrofia, estrías, telangiectasias) y, en tratamientos extensos y prolongados del lactante, vigilancia del crecimiento y de signos de supresión suprarrenal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Muy dependiente de la localización, de la integridad de la barrera y de la oclusión. En el LACTANTE la relación superficie/peso multiplica la exposición sistémica de un tratamiento extenso.",
+      "distribucion": "Reservorio en el estrato córneo, que libera el fármaco durante horas y justifica la aplicación única diaria.",
+      "metabolismo": "Cutáneo y hepático en la fracción absorbida.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "El efecto cutáneo persiste mucho más que las concentraciones plasmáticas.",
+      "ajuste_renal": "No aplicable en el uso tópico habitual.",
+      "ajuste_hepatico": "No aplicable en el uso tópico habitual.",
+      "interacciones": [
+        {
+          "con": "PAÑAL (oclusión permanente)",
+          "efecto": "Multiplica la penetración hasta 10 veces, convirtiendo una potencia media en alta",
+          "gravedad": "alta",
+          "manejo": "En el área del pañal, SOLO potencia baja y pocos días. Es la interacción más específicamente pediátrica de este grupo"
+        },
+        {
+          "con": "Combinaciones fijas de corticoide con ANTIFÚNGICO o ANTIBIÓTICO",
+          "efecto": "Enmascaran la infección y suelen sustituir al diagnóstico",
+          "gravedad": "media",
+          "manejo": "Evitarlas: si hay candidiasis, antifúngico; si hay eccema, corticoide. Mezclarlos suele significar que no se ha decidido qué es"
+        },
+        {
+          "con": "Otros corticoides (inhalados y nasales)",
+          "efecto": "La carga corticoidea es ACUMULATIVA entre todas las vías",
+          "gravedad": "media",
+          "manejo": "En el niño atópico con asma, hay que sumar el inhalado, el nasal y el tópico al valorar el riesgo sistémico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Atrofia cutánea con uso prolongado",
+        "Telangiectasias e hipopigmentación",
+        "Hipertricosis local",
+        "Foliculitis"
+      ],
+      "graves": [
+        "SUPRESIÓN DEL EJE hipotálamo-hipófiso-suprarrenal, con riesgo de crisis suprarrenal ante una enfermedad intercurrente: es un riesgo REAL en el lactante con tratamiento extenso y oclusión",
+        "RETRASO DEL CRECIMIENTO con uso extenso y prolongado",
+        "GLAUCOMA y CATARATA por aplicación periocular mantenida",
+        "Estrías IRREVERSIBLES en axilas e ingles del adolescente",
+        "Enmascaramiento de una infección (tiña o sarna incógnitas)",
+        "Efecto rebote al retirarlo bruscamente"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección cutánea no tratada (bacteriana, fúngica, vírica o parasitaria)",
+      "Aplicación periocular prolongada",
+      "Potencia media o alta en cara, pliegues y área del pañal del lactante",
+      "Oclusión deliberada sin indicación"
+    ],
+    "perlas": [
+      "El problema más frecuente no es el exceso sino la CORTICOFOBIA: familias que aplican una cantidad mínima de un corticoide demasiado suave durante tres días, con lo que el brote se prolonga semanas y el niño acaba recibiendo más corticoide total del que habría necesitado. Un curso corto y adecuado expone a MENOS fármaco que meses de tratamiento insuficiente, y explicarlo así suele convencer.",
+      "La UNIDAD DE PUNTA DE DEDO es la forma de prescribir cantidad en el niño: media unidad cubre la cara y el cuello de un lactante, una unidad cubre un brazo. Sin una instrucción de cantidad, la familia aplicará lo que le parezca, casi siempre muy poco.",
+      "El PAÑAL es una CURA OCLUSIVA permanente y multiplica la penetración hasta diez veces. En esa zona, solo potencia baja y pocos días. Es la particularidad pediátrica que más se pasa por alto.",
+      "La relación SUPERFICIE/PESO del lactante es hasta tres veces la del adulto: tratar todo el cuerpo de un bebé equivale, en dosis por kilo, a mucho más de lo que uno intuye mirando el tubo.",
+      "El CORTICOIDE trata el brote y el EMOLIENTE previene el siguiente. Si la familia solo se queda con una idea, que sea esta: el emoliente NO se suspende cuando la piel mejora.",
+      "Ante una dermatitis del pañal con LESIONES SATÉLITE pustulosas en la periferia, la causa es CANDIDA y hace falta antifúngico: el corticoide solo la empeorará.",
+      "Un eccema que no mejora o empeora con el corticoide obliga a pensar en tres cosas: infección sobreañadida (impétigo o eccema herpético), sarna, o un diagnóstico equivocado.",
+      "En cara y párpados, el INHIBIDOR DE LA CALCINEURINA tópico permite tratar durante semanas sin atrofia ni glaucoma, y es la alternativa cuando hace falta tratamiento facial mantenido."
+    ],
+    "embarazo_lactancia": "No aplicable en el niño. En la madre lactante con dermatitis del pezón, hay que limpiar la zona antes de la toma.",
+    "micro_relacionado": [
+      "HON-candida-albicans",
+      "HON-dermatofitos",
+      "VIR-virus-herpes-simple"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la AEP y de la EADV sobre dermatitis atópica infantil"
+  },
+  {
+    "id": "PED-DER-permetrina",
+    "nombre": "Permetrina (escabiosis y pediculosis en pediatría)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiparasitario externo",
+    "subclase": "Piretroide tópico",
+    "mecanismo": "Actúa sobre los canales de sodio del artrópodo, manteniéndolos abiertos y produciendo parálisis y muerte del ácaro y del piojo. Su selectividad es alta porque los mamíferos metabolizan los piretroides con rapidez mediante esterasas cutáneas y hepáticas. En el niño, sin embargo, esa metabolización es más lenta y la relación superficie/peso es mayor, de modo que la absorción sistémica relativa es superior a la del adulto, aunque sigue siendo baja (menos del 2%). El dato que ordena todo el manejo es el mismo que en el adulto y hay que explicarlo a las familias: el PRURITO no lo produce el ácaro directamente sino una reacción de HIPERSENSIBILIDAD a sus antígenos, de modo que persiste SEMANAS después de haberlo eliminado.",
+    "espectro": "Sarcoptes scabiei y Pediculus humanus capitis.",
+    "dosis_pediatrica_base": "Crema al 5% aplicada en TODA la superficie corporal, incluidos cuero cabelludo, cara, detrás de las orejas y bajo las uñas en el menor de 2 años (aplicación por SUPERFICIE, no ponderal)",
+    "dosis_maxima": "Un tubo de 30 g cubre a un adulto; en el lactante bastan 5-10 g. Se aplica una capa fina, no en abundancia",
+    "presentaciones": [
+      "Crema al 5% para escabiosis",
+      "Loción o crema al 1-1,5% para pediculosis",
+      "Dimeticona al 4% como alternativa física para pediculosis"
+    ],
+    "edad_minima": "Desde los 2 MESES para la permetrina al 5%; por debajo de esa edad se usa azufre precipitado al 6-10% en vaselina",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 2 meses",
+        "ajuste": "Azufre precipitado al 6-10% en vaselina durante 3 noches consecutivas: la permetrina no está autorizada a esa edad"
+      },
+      {
+        "franja": "Lactante y menor de 2 años",
+        "ajuste": "Hay que aplicar TAMBIÉN en CUERO CABELLUDO, CARA (evitando ojos y boca) y detrás de las orejas: en el lactante el ácaro SÍ afecta esas zonas, al contrario que en el adulto"
+      },
+      {
+        "franja": "Niño mayor y adolescente",
+        "ajuste": "Aplicación del cuello a los pies, como en el adulto, sin olvidar espacios interdigitales, ombligo, genitales, pliegue interglúteo y bajo las uñas"
+      }
+    ],
+    "peculiaridad_pediatrica": "La diferencia que más errores causa es de DISTRIBUCIÓN ANATÓMICA: en el adulto la sarna respeta la cara y el cuero cabelludo, y por eso la crema se aplica del cuello a los pies; en el LACTANTE, en cambio, el ácaro SÍ afecta la cabeza, la cara y las palmas y plantas, de modo que aplicar solo del cuello hacia abajo deja al parásito vivo en la mitad de las zonas afectadas y garantiza el fracaso. A ello se suma una presentación clínica distinta: en el lactante predominan las VESÍCULAS y las PÚSTULAS palmoplantares y los NÓDULOS en axilas e ingles, y el niño no se rasca sino que se muestra irritable, duerme mal y come peor, de modo que el diagnóstico se retrasa y se confunde con dermatitis atópica o con un cólico. Y una tercera: en el niño, el rascado se sobreinfecta con facilidad, y la sobreinfección por estreptococo puede desencadenar una GLOMERULONEFRITIS postestreptocócica.",
+    "indicaciones": [
+      {
+        "patologia": "ESCABIOSIS (sarna)",
+        "dosis": "Permetrina crema al 5% en todo el cuerpo, dejándola 8-12 horas, y REPETIR a los 7 días",
+        "posologia": "Dos aplicaciones separadas 7 días",
+        "via": "tópica",
+        "dosis_objetivo": "Desaparición de los surcos y ausencia de lesiones NUEVAS",
+        "nota": "La SEGUNDA aplicación es imprescindible: el escabicida no mata los huevos y hay que esperar a que eclosionen"
+      },
+      {
+        "patologia": "Escabiosis en el LACTANTE menor de 2 años",
+        "dosis": "Permetrina al 5% incluyendo CUERO CABELLUDO, CARA, palmas, plantas y bajo las uñas",
+        "posologia": "Dos aplicaciones separadas 7 días",
+        "via": "tópica",
+        "nota": "Es el punto que más se falla. Hay que cortar las uñas al niño y ponerle manoplas para que no se lleve la crema a la boca ni a los ojos"
+      },
+      {
+        "patologia": "PEDICULOSIS de la cabeza",
+        "dosis": "Permetrina al 1-1,5% en loción sobre pelo SECO durante 10 minutos, o dimeticona al 4%, repitiendo a los 7-9 días",
+        "posologia": "Dos aplicaciones separadas 7-9 días",
+        "via": "tópica",
+        "nota": "La DIMETICONA asfixia físicamente al piojo y no puede generar resistencia: es preferible donde hay resistencia establecida a piretroides, que es casi en todas partes"
+      },
+      {
+        "patologia": "Prurito POSESCABIÓTICO tras el tratamiento",
+        "dosis": "Emoliente, antihistamínico oral y corticoide tópico de potencia baja-media",
+        "posologia": "Durante 2-4 semanas",
+        "via": "tópica",
+        "dosis_objetivo": "Alivio del prurito residual sin aplicar más escabicida",
+        "nota": "El prurito que persiste NO es fracaso: repetir la permetrina una y otra vez produce una dermatitis irritativa que perpetúa el picor"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tratar SIMULTÁNEAMENTE a todos los convivientes y cuidadores, tengan síntomas o no. Cortar las uñas del niño. Aplicar sobre piel FRÍA y SECA, no después del baño caliente.",
+      "titulacion": "No procede: pauta fija con repetición obligatoria a los 7 días.",
+      "duracion": "Dos aplicaciones separadas una semana.",
+      "fin": "El prurito posescabiótico dura 2-4 semanas y se trata con emolientes, antihistamínico y corticoide suave. Lo que indica fracaso real son las lesiones NUEVAS, no el picor.",
+      "via": "Tópica.",
+      "monitorizacion": "Aparición de lesiones nuevas; vigilancia de sobreinfección bacteriana del rascado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Menos del 2%, algo mayor en el lactante por su relación superficie/peso.",
+      "distribucion": "Prácticamente limitada a la piel.",
+      "metabolismo": "Esterasas cutáneas y hepáticas, más lentas en el lactante.",
+      "eliminacion": "Renal.",
+      "vida_media": "No relevante clínicamente en el uso tópico.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Baño caliente inmediatamente antes de la aplicación",
+          "efecto": "Aumenta la absorción sistémica y elimina parte del producto",
+          "gravedad": "media",
+          "manejo": "Aplicar sobre piel fría y seca, no tras un baño caliente"
+        },
+        {
+          "con": "Corticoide tópico previo (sarna incógnita)",
+          "efecto": "Enmascara el cuadro, que pierde el prurito y la morfología típica mientras el ácaro se extiende",
+          "gravedad": "alta",
+          "manejo": "Ante una dermatitis atópica que empeora tras el corticoide, hay que buscar surcos y pensar en sarna"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor y quemazón durante la aplicación",
+        "EMPEORAMIENTO transitorio del prurito los primeros días",
+        "Sequedad y eritema"
+      ],
+      "graves": [
+        "Dermatitis alérgica de contacto a piretroides",
+        "SOBREINFECCIÓN bacteriana de las lesiones de rascado, con riesgo de GLOMERULONEFRITIS postestreptocócica",
+        "Irritación ocular si el lactante se lleva las manos a los ojos",
+        "Ingesta accidental si se lleva las manos a la boca"
+      ]
+    },
+    "contraindicaciones": [
+      "Menor de 2 meses para la permetrina al 5%",
+      "Hipersensibilidad a los piretroides o a los crisantemos",
+      "Aplicación sobre piel muy erosionada o con eccema agudo intenso (aumenta la absorción y el escozor)"
+    ],
+    "perlas": [
+      "En el LACTANTE hay que aplicar la crema TAMBIÉN en la cabeza y la cara. La regla del adulto (del cuello a los pies) es exactamente lo que produce el fracaso en el niño pequeño, porque en él la sarna sí afecta el cuero cabelludo, la cara, las palmas y las plantas.",
+      "Hay que tratar a TODOS los convivientes a la vez, tengan síntomas o no: la incubación del primer contacto es de 4-6 semanas, de modo que quien todavía no pica probablemente ya está infestado.",
+      "La SEGUNDA aplicación a los 7 días no es opcional: el escabicida no mata los HUEVOS. Es la omisión que más fracasos aparentes produce.",
+      "El PRURITO POSESCABIÓTICO dura de 2 a 4 semanas y es una hipersensibilidad al ácaro MUERTO. Si no se explica, la familia repite el escabicida una y otra vez y acaba con una dermatitis irritativa que mantiene el picor. Lo que indica fracaso real son las LESIONES NUEVAS.",
+      "En el lactante la presentación es distinta: VESÍCULAS y PÚSTULAS en palmas y plantas, NÓDULOS en axilas e ingles, e irritabilidad con mal sueño en lugar de rascado visible. Se confunde con dermatitis atópica y con cólicos, y ese retraso diagnóstico es habitual.",
+      "Hay que CORTAR LAS UÑAS y aplicar también DEBAJO de ellas: es un reservorio clásico, y en el lactante que se chupa los dedos, además, hay que ponerle manoplas para que no ingiera el producto.",
+      "La ropa y la ropa de cama se lavan a 60 °C o se guardan en bolsa cerrada 72 horas. NO hace falta fumigar la casa ni desinfectar los juguetes, y decirlo evita mucho gasto y mucha angustia familiar.",
+      "El rascado se SOBREINFECTA con facilidad en el niño, y el impétigo estreptocócico sobre una sarna puede desencadenar una glomerulonefritis postestreptocócica: conviene revisar las lesiones y tratar la sobreinfección.",
+      "En la PEDICULOSIS la resistencia a piretroides está muy extendida; la DIMETICONA, que asfixia físicamente al piojo, no puede generar resistencia y es hoy la primera opción en muchos lugares."
+    ],
+    "embarazo_lactancia": "La PERMETRINA tópica es el tratamiento de elección de la escabiosis en la embarazada y en la lactante por su absorción mínima. Si la madre está infestada, hay que tratar a ambos a la vez y limpiar el pezón antes de la toma.",
+    "micro_relacionado": [
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 53 y 61; guías de la AEP y de la OMS sobre escabiosis"
+  }
+]

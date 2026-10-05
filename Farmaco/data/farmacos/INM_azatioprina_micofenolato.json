@@ -1,0 +1,277 @@
+[
+  {
+    "id": "INM-azatioprina",
+    "nombre": "Azatioprina (y mercaptopurina)",
+    "sinonimos": [
+      "Tiopurinas"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunosupresor",
+    "subclase": "Antimetabolito tiopurínico",
+    "vs_clase": [
+      "**Antimetabolito purínico** usado como ahorrador de corticoides en EII, autoinmunes y trasplante.",
+      "**Determinar TPMT (y NUDT15) antes de iniciar** (mielotoxicidad grave en déficit).",
+      "**CONTRAINDICADA con alopurinol o febuxostat** (o reducir al 25%): mielotoxicidad letal.",
+      "Utilizable en el embarazo (a diferencia del micofenolato)."
+    ],
+    "mecanismo": "Es un profármaco que se convierte en 6-mercaptopurina y, a través de la vía de rescate de las purinas, en nucleótidos de TIOGUANINA que se incorporan al ADN y bloquean la síntesis de purinas. El linfocito, que carece de vía de síntesis de novo eficiente y depende de la de rescate, es especialmente vulnerable: de ahí la selectividad relativa sobre la inmunidad. El punto clave de toda su farmacología es la ENZIMA TPMT (tiopurina metiltransferasa), que deriva el fármaco hacia una vía inactiva: quien tiene poca actividad de TPMT canaliza todo hacia los metabolitos activos y sufre una MIELOSUPRESIÓN grave con dosis normales. Una segunda enzima, la NUDT15, cumple un papel equivalente y es la que más pesa en poblaciones asiáticas e hispanas. Es el ejemplo canónico de farmacogenética aplicada a la práctica diaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad inflamatoria intestinal (Crohn y colitis ulcerosa) corticodependiente",
+        "dosis": "2-2,5 mg/kg al día de azatioprina (1-1,5 mg/kg de mercaptopurina)",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "dosis_objetivo": "Metabolito 6-TGN en rango terapéutico (235-450 pmol por 8x10⁸ hematíes) cuando se dispone de su determinación",
+        "nota": "Es un fármaco de MANTENIMIENTO, no de brote: tarda de 3 a 6 meses en hacer efecto y no sirve para inducir la remisión"
+      },
+      {
+        "patologia": "Mantenimiento del trasplante de órgano sólido",
+        "dosis": "1-3 mg/kg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Hoy desplazada por el micofenolato en la mayoría de los protocolos, pero sigue siendo la opción en el EMBARAZO"
+      },
+      {
+        "patologia": "Lupus, vasculitis y miopatías inflamatorias, como ahorrador de corticoide",
+        "dosis": "1,5-2,5 mg/kg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Tratamiento de mantenimiento tras la inducción con ciclofosfamida o rituximab"
+      },
+      {
+        "patologia": "Hepatitis autoinmune, mantenimiento",
+        "dosis": "1-2 mg/kg al día, asociada a prednisona en descenso",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Permite retirar el corticoide y mantener la remisión bioquímica a largo plazo"
+      },
+      {
+        "patologia": "Miastenia gravis y esclerosis múltiple (uso restringido)",
+        "dosis": "2-3 mg/kg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "En la miastenia se asocia a corticoide durante los primeros meses, hasta que la azatioprina hace efecto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de la primera dosis: determinar la actividad o el genotipo de TPMT (y de NUDT15 si es accesible), hemograma, transaminasas, serologías de hepatitis B y C y VIH, y estado vacunal. Empezar por 50 mg al día y subir de forma escalonada.",
+      "titulacion": "Ascenso cada 2-4 semanas hasta la dosis objetivo por peso, con hemograma en cada escalón.",
+      "duracion": "PROLONGADA, de años. Retirarla antes de tiempo en la enfermedad inflamatoria intestinal se asocia a una tasa de recaída elevada.",
+      "fin": "Retirada solo en remisión mantenida prolongada, valorando el riesgo de recaída frente al riesgo acumulado de neoplasia. Suspender ante mielosupresión grave, pancreatitis o hepatotoxicidad.",
+      "via": "Oral, con comida para reducir las náuseas.",
+      "monitorizacion": "Hemograma cada 1-2 semanas los dos primeros meses, después cada 1-3 meses DE POR VIDA. Transaminasas periódicas. Exploración cutánea anual y fotoprotección estricta."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Amplia; atraviesa la placenta, pero el feto carece de la enzima que la activa, lo que explica su relativa seguridad en el embarazo.",
+      "metabolismo": "Conversión no enzimática a 6-mercaptopurina y después por tres vías competitivas: HGPRT (activación a 6-TGN), TPMT (inactivación a 6-MMP) y xantina oxidasa (inactivación a ácido tioúrico).",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "Del fármaco, corta (unas 5 horas); del EFECTO, semanas, porque lo que cuenta son los nucleótidos incorporados al ADN.",
+      "ajuste_renal": "Reducir la dosis con filtrado menor de 50 mL/min.",
+      "ajuste_hepatico": "Precaución; suspender ante hepatotoxicidad.",
+      "interacciones": [
+        {
+          "con": "ALOPURINOL y FEBUXOSTAT",
+          "efecto": "Bloquean la xantina oxidasa y desvían todo el fármaco a la vía activa: MIELOSUPRESIÓN GRAVE y potencialmente mortal",
+          "gravedad": "alta",
+          "manejo": "Es LA interacción de la azatioprina. Si la combinación es imprescindible, reducir la azatioprina al 25% de la dosis y vigilar el hemograma muy estrechamente. En la práctica, evitarla"
+        },
+        {
+          "con": "IECA y ARA-II",
+          "efecto": "Anemia y leucopenia por suma de efectos sobre la médula",
+          "gravedad": "media",
+          "manejo": "Vigilar el hemograma"
+        },
+        {
+          "con": "Cotrimoxazol y otros mielotóxicos",
+          "efecto": "Citopenias aditivas",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar estrechamente"
+        },
+        {
+          "con": "Ribavirina",
+          "efecto": "Inhibe la vía y aumenta la toxicidad medular",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Reduce su efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR al iniciar y al retirar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y molestias digestivas, sobre todo al inicio",
+        "Leucopenia dosis-dependiente",
+        "Elevación de transaminasas",
+        "Astenia"
+      ],
+      "graves": [
+        "MIELOSUPRESIÓN grave, especialmente en el déficit de TPMT o NUDT15",
+        "PANCREATITIS aguda, idiosincrásica, típica del primer mes y prácticamente exclusiva de la enfermedad de Crohn: obliga a suspender de forma DEFINITIVA",
+        "Hepatotoxicidad, incluida la hiperplasia nodular regenerativa y la hipertensión portal no cirrótica",
+        "CÁNCER DE PIEL NO MELANOMA, con riesgo claramente aumentado y dependiente de la exposición solar",
+        "LINFOMA, incluido el linfoma hepatoesplénico de células T en varones jóvenes tratados a la vez con anti-TNF",
+        "Síndrome de hipersensibilidad con fiebre y exantema",
+        "Infecciones oportunistas"
+      ]
+    },
+    "contraindicaciones": [
+      "Déficit COMPLETO de TPMT o de NUDT15",
+      "Uso concomitante de alopurinol sin ajuste drástico de dosis",
+      "Antecedente de pancreatitis por tiopurinas",
+      "Infección activa grave y neoplasia activa",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "La interacción con el ALOPURINOL es la que hay que saber de memoria y la que más muertes ha causado: bloquea la vía de inactivación por xantina oxidasa y multiplica la exposición al metabolito activo, con aplasias medulares mortales. Es una combinación frecuente en la vida real, porque el paciente con Crohn también puede tener gota.",
+      "La TPMT se mide ANTES de la primera dosis, no después. Es uno de los pocos casos en que la farmacogenética ha entrado de lleno en la práctica clínica rutinaria, y saltarse ese paso es exponer al paciente a una aplasia evitable.",
+      "TARDA de 3 a 6 MESES en hacer efecto. No sirve para tratar un brote, y por eso se solapa con corticoide durante los primeros meses. El error clásico es retirarla por ineficacia a las seis semanas.",
+      "La PANCREATITIS es idiosincrásica, aparece en el primer mes, no depende de la dosis y CONTRAINDICA de por vida toda la familia de tiopurinas. No se reintenta.",
+      "El CÁNCER DE PIEL no melanoma es un riesgo real y acumulativo: fotoprotección estricta y revisión dermatológica anual son parte del tratamiento, no una recomendación general de estilo de vida.",
+      "Es, junto con la hidroxicloroquina, uno de los pocos inmunosupresores COMPATIBLES con el EMBARAZO. La razón es elegante: el hígado fetal carece de la enzima que convierte la azatioprina en su forma activa, de modo que el feto queda relativamente protegido. Cuando una paciente con lupus, Crohn o trasplante se queda embarazada, se cambia el micofenolato (teratógeno) por azatioprina.",
+      "El hemograma no se deja de vigilar nunca: la mielosupresión puede aparecer AÑOS después de un tratamiento estable, y una analítica cada 3 meses de por vida es el precio de usar este fármaco con seguridad."
+    ],
+    "embarazo_lactancia": "COMPATIBLE con el embarazo y de elección cuando hace falta inmunosupresión en la gestante (lupus, enfermedad inflamatoria intestinal, trasplante): el feto no puede activarla. Es el fármaco al que se cambia el micofenolato, que sí es teratógeno. Compatible también con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías ECCO de enfermedad inflamatoria intestinal; recomendaciones de farmacogenética CPIC sobre TPMT y NUDT15"
+  },
+  {
+    "id": "INM-micofenolato",
+    "nombre": "Micofenolato de mofetilo (y micofenolato sódico)",
+    "sinonimos": [
+      "MMF"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunosupresor",
+    "subclase": "Inhibidor de la inosina monofosfato deshidrogenasa (IMPDH)",
+    "vs_clase": [
+      "**Antimetabolito más selectivo de los linfocitos** (vía de novo de purinas): de elección en la **nefritis lúpica** y en el trasplante.",
+      "**TERATÓGENO**: contraindicado en el embarazo (anticoncepción doble obligatoria), a diferencia de la azatioprina.",
+      "**Efectos digestivos frecuentes** (diarrea) y citopenias; sin interacción con alopurinol."
+    ],
+    "mecanismo": "Su forma activa, el ácido micofenólico, inhibe de forma reversible y NO COMPETITIVA la INOSINA MONOFOSFATO DESHIDROGENASA, enzima limitante de la síntesis DE NOVO de nucleótidos de GUANINA. La selectividad procede de un hecho biológico concreto: los LINFOCITOS T y B dependen casi por completo de esa vía de novo, mientras que el resto de células del organismo pueden recurrir a la vía de RESCATE de las purinas. El resultado es un bloqueo bastante selectivo de la proliferación linfocitaria, con menos toxicidad medular global que la azatioprina y sin nefrotoxicidad, a diferencia de los anticalcineurínicos. Además inhibe la glucosilación de moléculas de adhesión y reduce el reclutamiento de leucocitos hacia el tejido inflamado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención del rechazo en el TRASPLANTE de órgano sólido",
+        "dosis": "1 g cada 12 horas (renal); 1-1,5 g cada 12 horas (cardiaco y hepático)",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Se usa combinado con un anticalcineurínico (tacrolimus) y corticoide: es el esquema estándar de mantenimiento"
+      },
+      {
+        "patologia": "NEFRITIS LÚPICA, inducción y mantenimiento",
+        "dosis": "Inducción 2-3 g al día durante 6 meses; mantenimiento 1-2 g al día",
+        "posologia": "Repartido en 2 tomas",
+        "via": "VO",
+        "dosis_objetivo": "Remisión de la proteinuria y estabilización del filtrado glomerular",
+        "nota": "Es una ALTERNATIVA a la ciclofosfamida con eficacia comparable y sin toxicidad gonadal, lo que lo hace preferible en la mujer joven que desea preservar la fertilidad"
+      },
+      {
+        "patologia": "Enfermedad pulmonar intersticial asociada a esclerosis sistémica y a otras conectivopatías",
+        "dosis": "1-1,5 g cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Es hoy el inmunosupresor de primera línea en esta indicación, con mejor tolerancia que la ciclofosfamida"
+      },
+      {
+        "patologia": "Vasculitis, miopatías inflamatorias y pénfigo, como ahorrador de corticoide",
+        "dosis": "1 g cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Uso fuera de indicación autorizada pero ampliamente establecido"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de empezar: hemograma, función renal, serologías víricas, prueba de embarazo NEGATIVA y compromiso de anticoncepción eficaz. Informar por escrito del riesgo teratógeno.",
+      "titulacion": "Se ajusta por tolerancia digestiva y hematológica más que por eficacia. Ante diarrea, repartir la misma dosis diaria en más tomas antes que reducirla.",
+      "duracion": "Prolongada, de años, tanto en el trasplante como en la enfermedad autoinmune.",
+      "fin": "Reducción progresiva tras años de remisión mantenida en la enfermedad autoinmune; indefinido en el trasplante. Suspensión inmediata si hay embarazo.",
+      "via": "Oral (existe forma intravenosa). En AYUNAS idealmente; si produce intolerancia digestiva, con comida, asumiendo alguna pérdida de absorción.",
+      "monitorizacion": "Hemograma semanal el primer mes, quincenal el segundo y tercero, después mensual. Función renal, transaminasas y vigilancia de infecciones (CMV en el trasplantado). Prueba de embarazo periódica en la mujer en edad fértil."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; el mofetilo es un profármaco éster que se hidroliza a ácido micofenólico. La formulación SÓDICA es de cubierta entérica y libera en el intestino delgado, pensada para reducir la intolerancia digestiva alta.",
+      "distribucion": "Elevada unión a albúmina (97%): en la hipoalbuminemia y en la uremia aumenta la fracción libre y la toxicidad.",
+      "metabolismo": "Glucuronidación hepática a un metabolito inactivo que sufre CIRCULACIÓN ENTEROHEPÁTICA y se reactiva en el intestino, dando un segundo pico plasmático.",
+      "eliminacion": "Renal, como glucurónido.",
+      "vida_media": "16-18 horas.",
+      "ajuste_renal": "No superar 1 g cada 12 horas con filtrado menor de 25 mL/min fuera del periodo postrasplante inmediato.",
+      "ajuste_hepatico": "No requiere ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, hierro oral y QUELANTES DEL FÓSFORO (sevelámero)",
+          "efecto": "Reducen su absorción de forma significativa",
+          "gravedad": "alta",
+          "manejo": "Interacción muy relevante en el trasplantado renal, que suele tomar quelantes: separar las tomas al menos 2 horas"
+        },
+        {
+          "con": "Colestiramina y antibióticos de amplio espectro",
+          "efecto": "Interrumpen la CIRCULACIÓN ENTEROHEPÁTICA y reducen las concentraciones hasta un 40%",
+          "gravedad": "alta",
+          "manejo": "Explica pérdidas de eficacia tras un ciclo antibiótico; vigilar signos de rechazo o de reactivación"
+        },
+        {
+          "con": "ACICLOVIR, valaciclovir y ganciclovir",
+          "efecto": "Competencia por la secreción tubular con aumento de ambas concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar toxicidad hematológica y renal"
+        },
+        {
+          "con": "Ciclosporina",
+          "efecto": "REDUCE las concentraciones de ácido micofenólico al inhibir su circulación enterohepática (el tacrolimus no lo hace)",
+          "gravedad": "media",
+          "manejo": "La dosis necesaria de micofenolato es MAYOR con ciclosporina que con tacrolimus: es un detalle práctico del trasplante"
+        },
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Puede reducir sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "Se exigen DOS métodos anticonceptivos por el riesgo teratógeno"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIARREA y dolor abdominal, el efecto limitante principal",
+        "Náuseas y vómitos",
+        "Leucopenia y anemia",
+        "Infecciones respiratorias y urinarias"
+      ],
+      "graves": [
+        "TERATOGENIA: aborto en el primer trimestre y malformaciones características (microtia o ausencia del pabellón auricular, atresia del conducto auditivo, labio leporino y paladar hendido, malformaciones cardiacas)",
+        "Mielosupresión con neutropenia grave",
+        "COLITIS por micofenolato, que imita histológicamente a la enfermedad injerto contra huésped y a la colitis isquémica",
+        "Infecciones oportunistas: CMV, Pneumocystis, BK virus",
+        "LEUCOENCEFALOPATÍA MULTIFOCAL PROGRESIVA (rara)",
+        "Linfomas y cáncer cutáneo con el uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO y mujer en edad fértil sin anticoncepción eficaz",
+      "Lactancia",
+      "Hipersensibilidad conocida",
+      "Infección activa grave no controlada"
+    ],
+    "perlas": [
+      "Es un TERATÓGENO de primer orden, con un patrón malformativo reconocible (oído externo ausente o malformado, hendiduras faciales, cardiopatía) y un riesgo de aborto del 45% en el primer trimestre. Exige prueba de embarazo negativa, DOS métodos anticonceptivos y consentimiento informado: es de los pocos fármacos no oncológicos con un programa formal de prevención de embarazos.",
+      "Cuando una paciente en tratamiento planifica un embarazo, el cambio es a AZATIOPRINA, que sí es compatible. Ese cambio hay que hacerlo con antelación (al menos 6 semanas antes) y comprobando que la enfermedad sigue controlada, no el día que da positivo el test.",
+      "La DIARREA es el efecto limitante y casi siempre se maneja mal: la respuesta correcta es FRACCIONAR la misma dosis diaria en más tomas, o pasar a la formulación sódica con cubierta entérica, antes que reducir la dosis total y perder eficacia.",
+      "Su selectividad tiene una base biológica bonita y fácil de recordar: el linfocito solo puede fabricar guanina por la vía de NOVO, mientras que el resto de células tienen la vía de RESCATE. Bloquear la vía de novo afecta sobre todo al linfocito.",
+      "A diferencia del tacrolimus y de la ciclosporina, NO es nefrotóxico. Por eso es la pieza que se sube cuando hay que bajar el anticalcineurínico en un trasplantado con deterioro renal.",
+      "En la NEFRITIS LÚPICA ha desplazado en gran medida a la ciclofosfamida: eficacia comparable sin toxicidad gonadal, lo que importa mucho en mujeres jóvenes que quieren tener hijos.",
+      "Los QUELANTES DEL FÓSFORO y el hierro oral le impiden absorberse. En un trasplantado renal que toma sevelámero, tomarlos juntos puede significar inmunosupresión insuficiente y rechazo: hay que separar las tomas y explicárselo al paciente.",
+      "Un ciclo de antibiótico de amplio espectro puede bajar sus niveles hasta un 40% al romper la circulación enterohepática. Es una causa poco reconocida de brote de la enfermedad o de rechazo semanas después de una infección banal."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo: es teratógeno con un patrón malformativo característico y produce aborto en casi la mitad de las gestaciones expuestas. Se exigen prueba de embarazo negativa antes de empezar, dos métodos anticonceptivos durante el tratamiento y hasta 6 semanas después, y sustitución por azatioprina cuando se planifica una gestación. Contraindicado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías KDIGO de trasplante y de glomerulonefritis; programa de prevención de embarazos de la AEMPS para micofenolato"
+  }
+]

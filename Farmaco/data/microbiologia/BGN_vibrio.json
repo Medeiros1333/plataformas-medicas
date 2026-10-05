@@ -1,0 +1,78 @@
+[
+  {
+    "id": "BGN-vibrio",
+    "nombre": "Vibrio cholerae, V. parahaemolyticus y V. vulnificus",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "BACILOS gramnegativos CURVOS (en coma), oxidasa POSITIVOS, anaerobios facultativos, HALÓFILOS (salvo V. cholerae) y de hábitat acuático",
+    "morfologia_tincion": "Bacilos gramnegativos curvos, en forma de coma, con un único flagelo polar que les da una movilidad en disparo característica en el examen en fresco. OXIDASA POSITIVOS, dato que los separa de las enterobacterias. Crecen en medio TCBS (tiosulfato-citrato-bilis-sacarosa): V. cholerae forma colonias AMARILLAS por fermentar la sacarosa, y V. parahaemolyticus y V. vulnificus, colonias VERDES. V. cholerae tolera un pH alcalino (8,5-9), lo que se aprovecha en el agua peptonada alcalina de enriquecimiento.",
+    "mecanismo_patogenia": [
+      "V. CHOLERAE produce la TOXINA COLÉRICA, de estructura A-B, codificada por un BACTERIÓFAGO filamentoso (CTXφ). La subunidad B se une al gangliósido GM1 del enterocito y la subunidad A ribosila el ADP de la proteína Gs, que queda ACTIVADA de forma permanente: la adenilato ciclasa produce AMPc sin control, se abre el canal CFTR y se secretan masivamente cloro, sodio y agua a la luz intestinal.",
+      "La mucosa queda INTACTA: no hay invasión, no hay inflamación y no hay leucocitos en las heces. Toda la enfermedad es una pérdida hidroelectrolítica secretora pura, y de ahí que la diarrea sea acuosa e isotónica.",
+      "Se necesita un INÓCULO ALTO porque la acidez gástrica destruye la mayoría de los vibrios: la aclorhidria, la gastrectomía y el tratamiento con inhibidores de la bomba de protones reducen mucho la dosis infectante.",
+      "Los serogrupos que producen epidemias son O1 (biotipos clásico y El Tor) y O139; el resto son NO-O1/NO-O139 y causan gastroenteritis esporádicas.",
+      "V. PARAHAEMOLYTICUS produce la hemolisina termoestable directa (fenómeno de Kanagawa) e invade la mucosa: da una gastroenteritis inflamatoria tras el consumo de marisco crudo o mal cocinado.",
+      "V. VULNIFICUS posee una CÁPSULA antifagocítica y depende del HIERRO para su virulencia: en el paciente con HEPATOPATÍA CRÓNICA o con sobrecarga férrica (hemocromatosis) produce una sepsis fulminante con lesiones cutáneas ampollosas y una mortalidad superior al 50%."
+    ],
+    "patologias": [
+      {
+        "cuadro": "CÓLERA",
+        "clinica": "Comienzo brusco de diarrea ACUOSA profusa e indolora, SIN FIEBRE, sin dolor abdominal significativo y sin tenesmo, con vómitos. El volumen puede superar el litro por hora y llevar a un shock hipovolémico en horas.",
+        "lesiones": "Heces en AGUA DE ARROZ: acuosas, blanquecinas, con moco en suspensión y sin sangre ni pus. Deshidratación extrema con signo del pliegue, ojos hundidos, voz apagada y calambres por la hipopotasemia.",
+        "clave": "Mata por DESHIDRATACIÓN, no por infección. Un paciente que llega en shock puede recuperarse por completo solo con líquidos y electrolitos: es una de las intervenciones con mejor relación entre sencillez y vidas salvadas de toda la medicina."
+      },
+      {
+        "cuadro": "Gastroenteritis por V. parahaemolyticus",
+        "clinica": "De 12 a 24 horas tras el consumo de marisco crudo o poco cocinado: diarrea acuosa o disentérica, dolor abdominal cólico, náuseas, vómitos y a veces fiebre.",
+        "lesiones": "Inflamación de la mucosa del intestino delgado y del colon.",
+        "clave": "Es la causa más frecuente de gastroenteritis asociada al marisco en Japón y en zonas costeras. Autolimitada en el inmunocompetente: se trata con líquidos y no requiere antibiótico."
+      },
+      {
+        "cuadro": "SEPSIS por V. vulnificus",
+        "clinica": "Paciente con CIRROSIS o hemocromatosis que, tras comer OSTRAS CRUDAS, presenta en 24-48 horas fiebre, hipotensión y LESIONES CUTÁNEAS AMPOLLOSAS hemorrágicas en las extremidades.",
+        "lesiones": "Ampollas hemorrágicas que evolucionan a necrosis y fascitis necrosante, con shock séptico.",
+        "clave": "Mortalidad superior al 50%. La combinación de hepatopatía, ostras crudas y ampollas hemorrágicas es una emergencia que exige antibiótico inmediato y valoración quirúrgica. Es la razón por la que se desaconseja el marisco crudo al paciente cirrótico."
+      },
+      {
+        "cuadro": "Infección de herida por V. vulnificus",
+        "clinica": "Herida expuesta a agua de mar o salobre, o pinchazo con espina de pescado, que evoluciona en horas a celulitis con ampollas y necrosis.",
+        "lesiones": "Fascitis necrosante de progresión muy rápida.",
+        "clave": "Requiere desbridamiento quirúrgico urgente además del antibiótico. El antecedente de contacto con agua marina en verano es la clave anamnésica."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El pilar del tratamiento del cólera es la REHIDRATACIÓN, no el antibiótico. La solución de rehidratación oral, que aprovecha el cotransportador SODIO-GLUCOSA (SGLT1) intacto en el enterocito, es una de las intervenciones sanitarias más eficaces jamás desarrolladas y redujo la mortalidad de más del 50% a menos del 1%.",
+      "La razón por la que la rehidratación ORAL funciona en una diarrea secretora masiva es elegante: la toxina bloquea la absorción de sodio acoplada al cloro, pero NO toca el cotransportador de sodio y glucosa. Añadir glucosa a la solución reabre esa puerta.",
+      "El ANTIBIÓTICO en el cólera es un complemento: acorta la diarrea uno o dos días, reduce el volumen de heces a la mitad y disminuye el tiempo de excreción, lo que importa para el control del brote. No sustituye a los líquidos.",
+      "El gen de la toxina colérica lo aporta un BACTERIÓFAGO, igual que en la difteria y en el botulismo: es un patrón que se repite en las grandes toxinas bacterianas.",
+      "V. cholerae es el único NO halófilo del grupo; los demás requieren sal y proceden de agua marina o salobre.",
+      "V. VULNIFICUS y la hepatopatía crónica forman un binomio que hay que conocer: el hierro libre elevado del cirrótico es lo que lo hace tan letal en ese paciente concreto.",
+      "El cólera es una enfermedad de DECLARACIÓN OBLIGATORIA internacional y refleja siempre un fallo del agua y del saneamiento: el tratamiento individual no resuelve el problema colectivo."
+    ],
+    "diagnostico": {
+      "muestra": "Heces o hisopado rectal; hemocultivos y aspirado de las lesiones cutáneas en la sospecha de V. vulnificus.",
+      "pruebas": [
+        "Examen en fresco: movilidad en disparo, que se detiene al añadir antisuero específico",
+        "Cultivo en medio TCBS: colonias AMARILLAS (V. cholerae) o VERDES (V. parahaemolyticus y V. vulnificus). Hay que AVISAR AL LABORATORIO, porque el TCBS no se siembra de rutina en un coprocultivo",
+        "Enriquecimiento previo en agua peptonada alcalina",
+        "Oxidasa POSITIVA (separa de enterobacterias) y serotipado O1/O139",
+        "Pruebas rápidas de antígeno en heces para el cribado en brotes",
+        "Hemocultivos en la sospecha de V. vulnificus, y biopsia o cultivo de la ampolla"
+      ],
+      "claves": "En el cólera el diagnóstico microbiológico es epidemiológico: el tratamiento se inicia por la clínica y por la deshidratación, sin esperar al cultivo. En V. vulnificus, en cambio, el retraso diagnóstico se paga con la vida."
+    },
+    "tratamiento": {
+      "eleccion": "CÓLERA: REHIDRATACIÓN agresiva, oral con solución de rehidratación de osmolaridad reducida en la deshidratación leve-moderada e intravenosa con Ringer lactato en la grave, más DOXICICLINA 300 mg en dosis única (o azitromicina 1 g en dosis única en la embarazada y en el niño). V. VULNIFICUS: DOXICICLINA más CEFTRIAXONA por vía intravenosa, junto con desbridamiento quirúrgico precoz.",
+      "alternativas": "Azitromicina o ciprofloxacino en el cólera según el patrón local de resistencias. Cefotaxima más ciprofloxacino como alternativa en V. vulnificus. La gastroenteritis por V. parahaemolyticus no requiere antibiótico en el inmunocompetente.",
+      "resistencias": "Resistencia creciente de V. cholerae a tetraciclinas, cotrimoxazol y quinolonas en varias regiones endémicas: hay que seguir el patrón local.",
+      "duracion": "Dosis única en el cólera; 7-14 días en la infección invasiva por V. vulnificus.",
+      "notas": "En el cólera hay que calcular el DÉFICIT y reponer también las PÉRDIDAS MANTENIDAS, que pueden ser enormes: no basta con una pauta fija. Añadir ZINC en el niño reduce la duración y el volumen de la diarrea. Prevención: agua potable, saneamiento y vacuna oral en zonas endémicas y en viajeros de alto riesgo."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ceftriaxona",
+      "INF-doxiciclina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de Vibrio; Harrison 20.ª ed., cap. de cólera y otras vibriosis"
+  }
+]

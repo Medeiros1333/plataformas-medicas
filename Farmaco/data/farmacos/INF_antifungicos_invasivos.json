@@ -1,0 +1,279 @@
+[
+  {
+    "id": "INF-voriconazol",
+    "nombre": "Voriconazol (e isavuconazol, posaconazol)",
+    "sinonimos": [
+      "Azoles de amplio espectro"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antifúngico sistémico",
+    "subclase": "Triazol de segunda generación (con isavuconazol y posaconazol)",
+    "vs_clase": [
+      "**De elección en la ASPERGILOSIS invasiva.**",
+      "**Monitorización de niveles** (cinética no lineal, polimorfismo del CYP2C19) e **interacciones masivas** por CYP3A4.",
+      "**Toxicidad propia**: alteraciones visuales transitorias, alucinaciones, fotosensibilidad y cáncer cutáneo, periostitis por flúor.",
+      "No cubre mucorales (para eso, anfotericina o isavuconazol/posaconazol)."
+    ],
+    "mecanismo": "Inhibe la 14-alfa-desmetilasa fúngica (CYP51), enzima dependiente del citocromo P450 que convierte el lanosterol en ERGOSTEROL, el esterol que da estabilidad a la membrana del hongo. El bloqueo agota el ergosterol y acumula esteroles metilados tóxicos, con lo que la membrana pierde su integridad. Frente al fluconazol, la modificación estructural del voriconazol amplía el espectro a los hongos FILAMENTOSOS, sobre todo Aspergillus. La contrapartida de actuar sobre una enzima del citocromo P450 es que también inhibe con fuerza los citocromos humanos, lo que convierte a este fármaco en un generador masivo de interacciones.",
+    "espectro": "Aspergillus (incluido A. fumigatus), Candida (incluidas C. krusei y C. glabrata resistentes a fluconazol), Scedosporium, Fusarium, Cryptococcus y hongos dimórficos. NO cubre los MUCORALES: es su laguna decisiva. El ISAVUCONAZOL y el POSACONAZOL sí cubren mucorales.",
+    "indicaciones": [
+      {
+        "patologia": "ASPERGILOSIS invasiva",
+        "dosis": "6 mg/kg cada 12 horas el primer día (dosis de carga) y después 4 mg/kg cada 12 horas IV, o 200 mg cada 12 horas VO",
+        "posologia": "Cada 12 horas, con dosis de carga inicial",
+        "via": "IV",
+        "dosis_objetivo": "Concentración valle de 1-5,5 microgramos/mL, ajustada por monitorización de niveles",
+        "nota": "Es el tratamiento de ELECCIÓN. La precocidad del inicio es determinante: en el neutropénico con signo del halo se empieza sin esperar la confirmación"
+      },
+      {
+        "patologia": "Candidemia por especies resistentes a fluconazol (C. krusei) o de rescate",
+        "dosis": "6 mg/kg cada 12 horas el primer día y después 3-4 mg/kg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "IV",
+        "nota": "La equinocandina es el tratamiento empírico inicial de la candidemia; el voriconazol es alternativa dirigida"
+      },
+      {
+        "patologia": "Infecciones por Scedosporium y Fusarium",
+        "dosis": "6 mg/kg cada 12 horas el primer día y después 4 mg/kg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "IV",
+        "nota": "Es de los pocos fármacos activos frente a estos hongos filamentosos"
+      },
+      {
+        "patologia": "MUCORMICOSIS (isavuconazol o posaconazol)",
+        "dosis": "Isavuconazol 200 mg cada 8 horas durante 6 dosis y después 200 mg al día",
+        "posologia": "Carga de 48 horas y mantenimiento diario",
+        "via": "IV",
+        "nota": "El VORICONAZOL NO sirve aquí. El isavuconazol se usa como alternativa o continuación de la anfotericina liposomal, siempre junto a la cirugía"
+      },
+      {
+        "patologia": "Profilaxis antifúngica en el neutropénico de alto riesgo (posaconazol)",
+        "dosis": "Posaconazol 300 mg cada 12 horas el primer día y después 300 mg al día",
+        "posologia": "Una toma diaria tras la carga",
+        "via": "VO",
+        "nota": "Cubre mucorales, a diferencia del voriconazol, lo que importa en unidades con incidencia de mucormicosis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con DOSIS DE CARGA, sin la cual no se alcanzan concentraciones eficaces en las primeras 48 horas, que son las que deciden el pronóstico en la aspergilosis invasiva.",
+      "titulacion": "Guiada por MONITORIZACIÓN DE NIVELES plasmáticos (valle), imprescindible por su farmacocinética no lineal y por el polimorfismo del CYP2C19.",
+      "duracion": "Prolongada: al menos 6-12 semanas en la aspergilosis invasiva, y hasta la resolución radiológica y la recuperación de la inmunodepresión.",
+      "fin": "Se retira cuando se resuelven las lesiones y se recupera la inmunidad. El paso de vía intravenosa a oral es precoz gracias a su excelente biodisponibilidad.",
+      "via": "IV y oral. La formulación intravenosa contiene ciclodextrina, que se acumula en la insuficiencia renal: con filtrado menor de 50 mL/min se prefiere la vía ORAL.",
+      "monitorizacion": "NIVELES plasmáticos valle (objetivo 1-5,5 microgramos/mL), transaminasas, función renal, ECG por el QT, y exploración visual y cutánea en el tratamiento prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 96%, lo que permite el paso precoz a la vía oral. Se toma 1 hora antes o 1 hora después de las comidas.",
+      "distribucion": "Excelente penetración en el SNC, el ojo y el pulmón.",
+      "metabolismo": "Hepático por CYP2C19 (principal), CYP2C9 y CYP3A4. La farmacocinética es NO LINEAL y muy variable entre pacientes.",
+      "eliminacion": "Renal en forma de metabolitos inactivos.",
+      "vida_media": "6 horas, pero no predice bien el comportamiento por la cinética no lineal.",
+      "ajuste_renal": "El fármaco no requiere ajuste, pero la formulación INTRAVENOSA contiene ciclodextrina, que se acumula con filtrado menor de 50 mL/min: se prefiere la vía oral.",
+      "ajuste_hepatico": "Reducir la dosis de mantenimiento a la mitad en la insuficiencia leve-moderada.",
+      "interacciones": [
+        {
+          "con": "RIFAMPICINA, rifabutina, carbamazepina, fenobarbital, hierba de San Juan",
+          "efecto": "Inducción potente que reduce drásticamente sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS: el fracaso terapéutico está prácticamente garantizado"
+        },
+        {
+          "con": "SIROLIMUS",
+          "efecto": "Aumento masivo de las concentraciones del inmunosupresor",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO"
+        },
+        {
+          "con": "Tacrolimus y ciclosporina",
+          "efecto": "Elevación importante de sus niveles con nefrotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis del inmunosupresor (el tacrolimus a un tercio) y monitorizar niveles. Es la interacción cotidiana en el trasplantado"
+        },
+        {
+          "con": "Estatinas metabolizadas por CYP3A4 (simvastatina, atorvastatina)",
+          "efecto": "Rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina o cambiar a pravastatina"
+        },
+        {
+          "con": "Fármacos que alargan el QT (quinolonas, macrólidos, antiarrítmicos, metadona)",
+          "efecto": "Prolongación aditiva del QT y torsades",
+          "gravedad": "alta",
+          "manejo": "ECG y corrección de potasio y magnesio. El ISAVUCONAZOL, al contrario, ACORTA el QT"
+        },
+        {
+          "con": "Opioides (fentanilo, oxicodona, metadona)",
+          "efecto": "Aumento de sus concentraciones con depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis del opioide"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ALTERACIONES VISUALES: visión borrosa, fotofobia y percepción alterada de los colores, en torno al 30% de los pacientes, transitorias y reversibles",
+        "Elevación de transaminasas",
+        "Exantema y FOTOSENSIBILIDAD",
+        "Náuseas y vómitos",
+        "Alucinaciones visuales y confusión, sobre todo con niveles altos"
+      ],
+      "graves": [
+        "HEPATOTOXICIDAD, que puede llegar a insuficiencia hepática",
+        "Prolongación del QT y torsades de pointes",
+        "CARCINOMA ESPINOCELULAR cutáneo con el uso PROLONGADO y la exposición solar, un efecto de clase bien documentado del voriconazol",
+        "PERIOSTITIS por acumulación del flúor de la molécula, con dolor óseo difuso y fosfatasa alcalina elevada",
+        "Encefalopatía y neurotoxicidad con niveles elevados",
+        "Nefrotoxicidad por la ciclodextrina intravenosa en la insuficiencia renal"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante de rifampicina, rifabutina, carbamazepina, sirolimus, hierba de San Juan y alcaloides ergóticos",
+      "QT largo significativo",
+      "Insuficiencia hepática grave",
+      "Embarazo (teratógeno en animales)",
+      "Formulación intravenosa con filtrado menor de 50 mL/min"
+    ],
+    "perlas": [
+      "El voriconazol NO cubre los MUCORALES, y esa laguna define su seguridad clínica. Un paciente que empeora con una infección fúngica mientras recibe voriconazol tiene mucormicosis hasta que se demuestre lo contrario: la mucormicosis de brecha en unidades con profilaxis de voriconazol es un fenómeno reconocido. La alternativa que sí los cubre es el isavuconazol, el posaconazol o la anfotericina liposomal.",
+      "Las ALTERACIONES VISUALES afectan a un tercio de los pacientes y son de las más características de la farmacología: visión borrosa, brillos y colores alterados que aparecen a los 30 minutos de la dosis y desaparecen solos. Anticiparlas evita que el paciente crea que se está quedando ciego.",
+      "Exige MONITORIZACIÓN DE NIVELES, algo poco habitual en antifúngicos. Su cinética no es lineal y el polimorfismo del CYP2C19 hace que un mismo miligramaje produzca concentraciones que varían varias veces entre pacientes: los niveles bajos condenan al fracaso y los altos producen encefalopatía y hepatotoxicidad.",
+      "Es un generador masivo de INTERACCIONES. En el trasplantado, iniciar voriconazol obliga a reducir el tacrolimus a un tercio el mismo día; olvidarlo produce una nefrotoxicidad evitable.",
+      "En el tratamiento PROLONGADO hay que insistir en la fotoprotección: el riesgo de carcinoma espinocelular es real y está bien documentado, y en el trasplantado de pulmón es un motivo frecuente para cambiar a otro azol.",
+      "La PERIOSTITIS por flúor es una causa poco conocida de dolor óseo difuso con fosfatasa alcalina elevada en el paciente tratado durante meses; se resuelve al retirar el fármaco.",
+      "La biodisponibilidad oral del 96% permite pasar a la vía oral en cuanto el paciente esté estable, lo que además evita la ciclodextrina de la formulación intravenosa, problemática en el paciente renal.",
+      "El ISAVUCONAZOL tiene tres ventajas prácticas: cubre mucorales, ACORTA el QT en lugar de alargarlo y no lleva ciclodextrina, lo que lo hace más manejable en el paciente con insuficiencia renal."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo por teratogenia demostrada en animales; se requiere anticoncepción eficaz. No se recomienda en la lactancia.",
+    "micro_relacionado": [
+      "HON-aspergillus-fumigatus",
+      "HON-candida-albicans",
+      "HON-mucorales"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; guías IDSA de aspergilosis y guías ECMM/ESCMID de mucormicosis"
+  },
+  {
+    "id": "INF-equinocandinas",
+    "nombre": "Equinocandinas (caspofungina, anidulafungina, micafungina)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antifúngico sistémico",
+    "subclase": "Inhibidores de la síntesis de beta-1,3-D-glucano de la pared fúngica",
+    "vs_clase": [
+      "**De elección en la CANDIDEMIA** y candidiasis invasiva en el paciente grave.",
+      "**Solo IV y casi sin interacciones ni toxicidad**; no requieren ajuste renal.",
+      "**No penetran en LCR, ojo ni orina** y no cubren Cryptococcus ni mucorales."
+    ],
+    "mecanismo": "Inhiben de forma no competitiva la enzima BETA-1,3-D-GLUCANO SINTASA, que fabrica el polisacárido estructural de la PARED del hongo. Al vaciarse la pared de glucano, la célula pierde su resistencia osmótica y se lisa. La diana es única en dos sentidos que explican todo su perfil clínico: la pared fúngica NO EXISTE en la célula humana, de modo que la toxicidad es mínima y las interacciones son escasísimas; y el glucano es un componente estructural, por lo que su acción es FUNGICIDA frente a Candida (que depende de él) pero solo fungistática frente a Aspergillus, cuyo micelio crece por el ápice. La ausencia de glucano en la pared de Cryptococcus y de los mucorales explica que sean intrínsecamente resistentes.",
+    "espectro": "Todas las especies de Candida, incluidas C. glabrata y C. krusei resistentes a fluconazol, y con actividad sobre el BIOFILM. Actividad frente a Aspergillus (fungistática, como tratamiento de rescate o combinado) y Pneumocystis. NO cubren CRYPTOCOCCUS, MUCORALES, Fusarium ni Trichosporon: carecen de glucano en la pared o tienen dianas alteradas.",
+    "indicaciones": [
+      {
+        "patologia": "CANDIDEMIA y candidiasis invasiva",
+        "dosis": "Caspofungina 70 mg el primer día y después 50 mg al día; anidulafungina 200 mg el primer día y después 100 mg al día; micafungina 100 mg al día",
+        "posologia": "Una perfusión diaria, con dosis de carga en caspofungina y anidulafungina",
+        "via": "IV",
+        "nota": "Es el tratamiento EMPÍRICO de elección de toda candidemia, antes de conocer la especie, sobre todo en el paciente inestable o con exposición previa a azoles"
+      },
+      {
+        "patologia": "Candidiasis esofágica refractaria a azoles",
+        "dosis": "Caspofungina 50 mg al día; micafungina 150 mg al día",
+        "posologia": "Una perfusión diaria",
+        "via": "IV",
+        "nota": "Cuando el fluconazol fracasa o la especie es resistente"
+      },
+      {
+        "patologia": "Tratamiento empírico del neutropénico febril con sospecha de infección fúngica",
+        "dosis": "Caspofungina 70 mg el primer día y después 50 mg al día",
+        "posologia": "Una perfusión diaria",
+        "via": "IV",
+        "nota": "Mejor tolerada que la anfotericina B como tratamiento empírico"
+      },
+      {
+        "patologia": "Profilaxis de la candidiasis en el trasplante de progenitores hematopoyéticos (micafungina)",
+        "dosis": "Micafungina 50 mg al día",
+        "posologia": "Una perfusión diaria",
+        "via": "IV",
+        "nota": "Indicación autorizada durante la fase de neutropenia"
+      },
+      {
+        "patologia": "Aspergilosis invasiva de rescate",
+        "dosis": "Caspofungina 70 mg el primer día y después 50 mg al día",
+        "posologia": "Una perfusión diaria",
+        "via": "IV",
+        "nota": "Solo como rescate o en combinación: frente a Aspergillus son fungistáticas, y el fármaco de elección es el voriconazol"
+      }
+    ],
+    "esquema": {
+      "inicio": "En toda candidemia se empieza por una equinocandina, sin esperar a la identificación de la especie ni al antifungigrama.",
+      "titulacion": "Dosis fija tras la carga; no requieren ajuste por niveles.",
+      "duracion": "En la candidemia, 14 días DESDE EL PRIMER HEMOCULTIVO NEGATIVO, no desde el inicio del tratamiento.",
+      "fin": "DESESCALADA a fluconazol oral cuando el paciente esté estable, la especie sea sensible y los hemocultivos se hayan negativizado. Esa desescalada permite completar el tratamiento en el domicilio.",
+      "via": "Exclusivamente INTRAVENOSA: no existe formulación oral.",
+      "monitorizacion": "Transaminasas. Hemocultivos cada 24-48 horas hasta la negativización. Fondo de ojo y ecocardiograma en toda candidemia, y retirada del catéter venoso central."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por vía oral: solo existen por vía intravenosa.",
+      "distribucion": "Elevada unión a proteínas. MALA penetración en el SNC, en el OJO y en la ORINA, que son sus tres puntos ciegos clínicos.",
+      "metabolismo": "Hidrólisis y N-acetilación espontáneas, NO por el citocromo P450, lo que explica la escasez de interacciones.",
+      "eliminacion": "Fecal y renal, en forma de metabolitos inactivos.",
+      "vida_media": "10-15 horas, lo que permite la dosis única diaria.",
+      "ajuste_renal": "NO requieren ajuste, ni siquiera en diálisis. Es una ventaja notable en el paciente crítico.",
+      "ajuste_hepatico": "La caspofungina se reduce a 35 mg al día en la insuficiencia hepática moderada; anidulafungina y micafungina no requieren ajuste.",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumento de las concentraciones de caspofungina y elevación de transaminasas",
+          "gravedad": "media",
+          "manejo": "Vigilar la función hepática"
+        },
+        {
+          "con": "RIFAMPICINA y otros inductores (fenitoína, carbamazepina, efavirenz, dexametasona)",
+          "efecto": "Reducen las concentraciones de caspofungina",
+          "gravedad": "media",
+          "manejo": "Aumentar la dosis de mantenimiento de caspofungina a 70 mg al día"
+        },
+        {
+          "con": "Tacrolimus",
+          "efecto": "La caspofungina reduce ligeramente sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Monitorizar niveles del inmunosupresor"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación leve de transaminasas",
+        "Fiebre y escalofríos",
+        "Flebitis en el punto de perfusión",
+        "Cefalea"
+      ],
+      "graves": [
+        "Reacciones mediadas por HISTAMINA con la perfusión rápida: rubor, exantema, broncoespasmo e hipotensión",
+        "Hepatotoxicidad significativa (infrecuente)",
+        "Reacciones anafilácticas (raras)",
+        "Hipopotasemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "No usarlas en la meningitis, en la endoftalmitis ni en la infección urinaria por Candida: no alcanzan concentraciones eficaces en esos compartimentos"
+    ],
+    "perlas": [
+      "Son los antifúngicos más SEGUROS de que se dispone, y la razón es su diana: la pared celular del hongo no tiene equivalente humano. No se metabolizan por el citocromo P450, no necesitan ajuste renal ni en diálisis, y apenas interaccionan. En el paciente crítico y polimedicado esa sencillez vale mucho.",
+      "El precio de esa seguridad son TRES PUNTOS CIEGOS que hay que memorizar: SNC, OJO y ORINA. En la meningitis candidiásica, en la endoftalmitis y en la infección urinaria por Candida no sirven, y hay que pasar a fluconazol o a anfotericina.",
+      "Toda candidemia obliga a FONDO DE OJO, y no es un trámite: si hay endoftalmitis, la equinocandina deja de servir precisamente por su mala penetración ocular, y el hallazgo cambia el fármaco y la duración.",
+      "Son las únicas que actúan sobre el BIOFILM de los catéteres, junto con la anfotericina liposomal. Aun así, la retirada del catéter venoso central en la candidemia se asocia a menor mortalidad: el fármaco no sustituye a esa decisión.",
+      "El cambio de la práctica en la última década se resume en una frase: en la candidemia se EMPIEZA con una equinocandina y se DESESCALA a fluconazol, y no al revés. La razón son las especies con sensibilidad reducida a azoles y el paciente inestable, en el que no se puede fallar la primera elección.",
+      "La duración se cuenta 14 días DESDE EL PRIMER HEMOCULTIVO NEGATIVO. Contar desde el inicio del tratamiento infratrata sistemáticamente, y por eso hay que sacar hemocultivos seriados hasta la negativización.",
+      "NO cubren Cryptococcus ni mucorales, y la razón es elegante: la pared de esos hongos no depende del beta-1,3-D-glucano. Saber el mecanismo permite deducir la laguna en lugar de memorizarla.",
+      "El BETA-D-GLUCANO sérico, marcador de candidiasis invasiva, procede precisamente de la molécula que estos fármacos atacan; y es negativo en criptococo y mucorales, los mismos hongos frente a los que las equinocandinas no funcionan."
+    ],
+    "embarazo_lactancia": "Datos limitados; se han observado efectos embriotóxicos en animales a dosis altas. Se usan cuando el beneficio supera al riesgo, situación habitual en una candidiasis invasiva. Compatibles con la lactancia por su nula absorción oral en el lactante.",
+    "micro_relacionado": [
+      "HON-aspergillus-fumigatus",
+      "HON-candida-albicans"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; guías IDSA de candidiasis"
+  }
+]

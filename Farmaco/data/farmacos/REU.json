@@ -1,0 +1,668 @@
+[
+  {
+    "id": "REU-paracetamol",
+    "nombre": "Paracetamol",
+    "sinonimos": [
+      "Acetaminofeno"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico y antipirético no opioide",
+    "subclase": "Sin actividad antiinflamatoria ni antiagregante",
+    "vs_clase": [
+      "**Sin efecto antiinflamatorio ni gastrolesivo ni antiagregante**: el analgésico-antipirético más seguro en ancianos, embarazo y pacientes anticoagulados.",
+      "**HEPATOTOXICIDAD dosis-dependiente** (máximo 4 g/día; 2-3 g en hepatópatas, alcohólicos o desnutridos); antídoto N-acetilcisteína.",
+      "**Menos potente que el metamizol** y sin efecto espasmolítico."
+    ],
+    "mecanismo": "Inhibe la síntesis de prostaglandinas preferentemente a nivel CENTRAL (inhibición de la COX en el SNC, posiblemente de una variante COX-3, y modulación de la vía endocannabinoide y serotoninérgica descendente). Su acción periférica es escasa porque la COX periférica está inhibida por los peróxidos presentes en el foco inflamatorio: eso explica que sea analgésico y antipirético potente pero NO antiinflamatorio ni antiagregante, y que no comparta la toxicidad gástrica ni renal de los AINE.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor leve-moderado de cualquier origen (primer escalón de la OMS)",
+        "dosis": "500-1000 mg/6-8 h (máximo 4 g/día; 3 g/día en ancianos, hepatópatas o bajo peso)",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Es el analgésico de primera elección por su perfil de seguridad, especialmente en el anciano, el nefrópata y el paciente anticoagulado"
+      },
+      {
+        "patologia": "Fiebre",
+        "dosis": "500-1000 mg/6-8 h",
+        "posologia": "Cada 6-8 h",
+        "via": "VO, IV o rectal",
+        "nota": "Antipirético de elección; no hay ventaja en alternar con ibuprofeno de forma sistemática"
+      },
+      {
+        "patologia": "Artrosis",
+        "dosis": "1 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Primera línea por seguridad, aunque su eficacia es modesta; si es insuficiente, AINE tópico y después oral"
+      },
+      {
+        "patologia": "Dolor agudo hospitalario (analgesia multimodal)",
+        "dosis": "1 g/6-8 h",
+        "posologia": "Cada 6-8 h",
+        "via": "IV",
+        "nota": "Pautado de forma fija reduce el consumo de opioides. En pacientes de menos de 50 kg, 15 mg/kg por dosis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el principio; no requiere titulación. Verificar que el paciente no tome ya otro preparado que lo contenga (antigripales, combinaciones con opioides).",
+      "titulacion": "No se titula: se pauta a dosis fija y con intervalo fijo cuando el dolor es continuo, en lugar de «si precisa».",
+      "duracion": "Días en el dolor agudo; puede usarse de forma crónica en el dolor persistente, respetando el techo diario y reduciendo a 3 g/día en el paciente de riesgo.",
+      "fin": "Suspensión brusca sin problema: no produce dependencia, tolerancia ni efecto rebote.",
+      "via": "VO, IV o rectal (esta última con absorción errática).",
+      "monitorizacion": "Ninguna de rutina. En uso crónico a dosis altas o en el hepatópata, transaminasas periódicas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y casi completa por vía oral; pico a los 30-60 min. La vía rectal es errática y con biodisponibilidad menor.",
+      "distribucion": "Amplia y uniforme, con baja unión a proteínas.",
+      "metabolismo": "HEPÁTICO: el 90% por glucuronoconjugación y sulfatación (vías no tóxicas) y un 5-10% por el CYP2E1, que genera el metabolito tóxico NAPQI. En condiciones normales el NAPQI es neutralizado de inmediato por el GLUTATIÓN. En la sobredosis, o cuando las reservas de glutatión están agotadas (ayuno, desnutrición, alcoholismo crónico), el NAPQI se acumula y produce necrosis hepática centrolobulillar.",
+      "eliminacion": "Renal, como metabolitos conjugados.",
+      "vida_media": "2-3 h (se prolonga en la hepatopatía y en la sobredosis).",
+      "ajuste_renal": "FG <30: espaciar a cada 8 h. No está contraindicado: es el analgésico de elección en la insuficiencia renal, muy por delante de los AINE.",
+      "ajuste_hepatico": "Reducir a un máximo de 2-3 g/día. NO está contraindicado en la hepatopatía estable, y sigue siendo más seguro que un AINE en el cirrótico.",
+      "interacciones": [
+        {
+          "con": "Alcohol crónico y ayuno prolongado",
+          "efecto": "Inducen el CYP2E1 y depletan el glutatión: la hepatotoxicidad puede producirse con dosis terapéuticas o poco superiores",
+          "gravedad": "alta",
+          "manejo": "Limitar a 2 g/día en el bebedor crónico y en el desnutrido"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "El uso continuado a dosis altas (>2 g/día varios días) eleva el INR",
+          "gravedad": "media",
+          "manejo": "Controlar el INR si se usa de forma mantenida; para uso puntual no hay problema"
+        },
+        {
+          "con": "Isoniazida, rifampicina, carbamazepina, fenitoína",
+          "efecto": "Inducen el CYP2E1 y aumentan la formación de NAPQI",
+          "gravedad": "media",
+          "manejo": "Precaución con las dosis máximas"
+        },
+        {
+          "con": "Otros preparados que contienen paracetamol (antigripales, combinaciones con codeína o tramadol)",
+          "efecto": "SOBREDOSIS INADVERTIDA por acumulación de fuentes",
+          "gravedad": "alta",
+          "manejo": "Revisar sistemáticamente toda la medicación del paciente: es la causa más frecuente de sobredosis no intencionada"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prácticamente ninguno a dosis terapéuticas: es el analgésico mejor tolerado"
+      ],
+      "graves": [
+        "HEPATOTOXICIDAD por sobredosis: necrosis hepática centrolobulillar, insuficiencia hepática fulminante y muerte. Es la primera causa de fallo hepático agudo en muchos países occidentales",
+        "Reacciones cutáneas graves (Stevens-Johnson, necrólisis epidérmica tóxica), muy raras",
+        "Hipotensión con la administración IV rápida",
+        "Trombocitopenia y agranulocitosis (excepcionales)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al paracetamol",
+      "Insuficiencia hepática grave descompensada (contraindicación relativa: se reduce la dosis, no se prohíbe)"
+    ],
+    "perlas": [
+      "El intervalo entre la dosis terapéutica y la tóxica es más estrecho de lo que la gente cree: la dosis hepatotóxica en el adulto sano es de 150 mg/kg o unos 7,5-10 g, pero en el alcohólico crónico o el desnutrido puede bastar con poco más de la dosis máxima diaria.",
+      "El ANTÍDOTO es la N-ACETILCISTEÍNA, que repone el glutatión. Su eficacia es máxima en las primeras 8-10 h y decae después, pero se administra aunque hayan pasado 24 h. La decisión de tratar se toma con el NOMOGRAMA DE RUMACK-MATTHEW, que requiere una paracetamolemia extraída al menos 4 HORAS tras la ingesta (antes no es interpretable).",
+      "El paciente intoxicado está ASINTOMÁTICO o solo con náuseas durante las primeras 24 h: esa falsa tranquilidad es la trampa clínica del cuadro. El daño hepático se manifiesta a las 24-72 h, cuando el antídoto ya es mucho menos eficaz.",
+      "Es el analgésico de elección en el nefrópata, el anticoagulado, el ulceroso, el asmático con intolerancia a AINE y el embarazo: no comparte ninguna de las toxicidades de los AINE.",
+      "No es antiinflamatorio: en una artritis inflamatoria activa o en la gota su eficacia es limitada, y ahí corresponde un AINE.",
+      "Revisar siempre si el paciente toma antigripales o combinaciones con opioides que ya lo contengan: es la causa más frecuente de sobredosis accidental."
+    ],
+    "embarazo_lactancia": "Es el analgésico y antipirético de ELECCIÓN durante todo el embarazo y la lactancia, a la menor dosis eficaz y durante el menor tiempo posible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 58; Harrison 20.ª ed., cap. de intoxicaciones"
+  },
+  {
+    "id": "REU-ibuprofeno",
+    "nombre": "Ibuprofeno",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "AINE (antiinflamatorio no esteroideo)",
+    "subclase": "Inhibidor no selectivo de COX-1 y COX-2, derivado del ácido propiónico",
+    "vs_clase": [
+      "**El AINE con MENOR riesgo gastrointestinal** a dosis bajas (≤1.200 mg/día) y el de elección en **niños**.",
+      "**Interfiere con el efecto antiagregante del AAS** si se toma antes (dar el AAS 30 min antes).",
+      "A dosis altas (≥2.400 mg/día), el riesgo cardiovascular se iguala al del diclofenaco."
+    ],
+    "mecanismo": "Inhibe de forma reversible y no selectiva la ciclooxigenasa, bloqueando la síntesis de prostaglandinas y tromboxanos. La inhibición de la COX-2 inducible en el foco inflamatorio explica el efecto analgésico, antiinflamatorio y antipirético; la inhibición de la COX-1 CONSTITUTIVA explica casi toda su toxicidad: pérdida de la protección de la mucosa gástrica (prostaglandinas citoprotectoras), pérdida de la vasodilatación de la arteriola aferente renal (fracaso renal en el paciente hipoperfundido) y alteración de la agregación plaquetaria (tromboxano A2).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor agudo leve-moderado con componente inflamatorio (traumatismo, dolor dental, cefalea)",
+        "dosis": "400-600 mg/6-8 h (máximo 2400 mg/día)",
+        "posologia": "Cada 6-8 h, con alimento",
+        "via": "VO",
+        "nota": "A dosis de 400 mg el efecto es sobre todo analgésico; el antiinflamatorio pleno requiere 600-800 mg"
+      },
+      {
+        "patologia": "Dismenorrea primaria",
+        "dosis": "400-600 mg/6-8 h",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Iniciar ANTES de que el dolor sea intenso o incluso 1-2 días antes de la menstruación: bloquea la síntesis de prostaglandinas responsables de las contracciones"
+      },
+      {
+        "patologia": "Brote de artritis inflamatoria o crisis de gota aguda",
+        "dosis": "600-800 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "En la gota se usa a dosis antiinflamatoria plena y durante pocos días. El naproxeno es una alternativa habitual"
+      },
+      {
+        "patologia": "Cólico nefrítico",
+        "dosis": "600 mg/8 h (o dexketoprofeno 50 mg IV)",
+        "posologia": "Cada 8 h",
+        "via": "VO o IV",
+        "nota": "Los AINE son SUPERIORES a los opioides en el cólico renoureteral: reducen la presión intraureteral y el filtrado"
+      },
+      {
+        "patologia": "Cierre del ductus arterioso persistente en el prematuro",
+        "dosis": "10 mg/kg inicial y luego 5 mg/kg/24 h, 2 dosis",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Aprovecha el mismo mecanismo que produce el cierre prematuro del ductus cuando se usa en la gestante"
+      }
+    ],
+    "esquema": {
+      "inicio": "La MENOR dosis eficaz durante el MENOR tiempo posible: es la regla que gobierna toda la clase. Con alimento para reducir la dispepsia (aunque esto no previene la úlcera, que es un efecto sistémico).",
+      "titulacion": "No se titula al alza de forma indefinida: existe un techo analgésico por encima del cual solo aumenta la toxicidad.",
+      "duracion": "3-5 días en el dolor agudo. En la enfermedad reumática crónica, la duración se individualiza y siempre con gastroprotección si hay factores de riesgo.",
+      "fin": "Suspensión brusca sin problemas. Retirada inmediata ante hemorragia digestiva, deterioro renal, hipertensión no controlada o insuficiencia cardiaca descompensada.",
+      "via": "VO, IV, rectal o tópica (la vía TÓPICA en artrosis de rodilla o mano tiene eficacia demostrada con toxicidad sistémica mínima, y es la opción preferente en el anciano).",
+      "monitorizacion": "En uso crónico: presión arterial, función renal, hemograma y transaminasas cada 3-6 meses. Vigilar signos de sangrado digestivo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y prácticamente completa; los alimentos retrasan el pico pero no reducen la cantidad absorbida.",
+      "distribucion": "Alta unión a proteínas (>99%), lo que explica el desplazamiento de otros fármacos muy unidos.",
+      "metabolismo": "Hepático por CYP2C9.",
+      "eliminacion": "Renal, como metabolitos.",
+      "vida_media": "2-4 h (naproxeno 12-17 h, lo que permite dosificarlo cada 12 h).",
+      "ajuste_renal": "EVITAR si FG <30. Con FG 30-60, usar solo si es imprescindible, a dosis baja y durante pocos días, con control de creatinina.",
+      "ajuste_hepatico": "Evitar en la cirrosis: riesgo de hemorragia, síndrome hepatorrenal y descompensación de la ascitis.",
+      "interacciones": [
+        {
+          "con": "IECA/ARA-II + diurético",
+          "efecto": "«TRIPLE WHAMMY»: fracaso renal agudo por bloqueo simultáneo de los tres mecanismos que mantienen el filtrado glomerular",
+          "gravedad": "alta",
+          "manejo": "Evitar la triple asociación, sobre todo en ancianos y en situaciones de deshidratación (gastroenteritis, calor, ayuno)"
+        },
+        {
+          "con": "ÁCIDO ACETILSALICÍLICO a dosis antiagregante",
+          "efecto": "El ibuprofeno compite por el mismo sitio de la COX-1 plaquetaria y ANULA el efecto cardioprotector irreversible de la aspirina",
+          "gravedad": "alta",
+          "manejo": "Tomar la aspirina al menos 30 min ANTES o 8 h DESPUÉS del ibuprofeno. El naproxeno y el diclofenaco no comparten esta interacción de la misma forma"
+        },
+        {
+          "con": "Anticoagulantes y antiagregantes",
+          "efecto": "Riesgo hemorrágico digestivo multiplicado (efecto antiagregante propio + lesión de la mucosa)",
+          "gravedad": "alta",
+          "manejo": "Evitar; si es imprescindible, asociar SIEMPRE un inhibidor de la bomba de protones"
+        },
+        {
+          "con": "Corticoides",
+          "efecto": "Multiplican el riesgo de úlcera y hemorragia digestiva",
+          "gravedad": "alta",
+          "manejo": "Asociar gastroprotección"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Reduce su excreción renal y eleva la litemia hasta la intoxicación",
+          "gravedad": "alta",
+          "manejo": "Evitar o monitorizar litemia estrechamente"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su aclaramiento renal y aumenta su toxicidad hematológica",
+          "gravedad": "alta",
+          "manejo": "Precaución con metotrexato a dosis altas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, pirosis y dolor epigástrico",
+        "Retención hídrica con edemas y elevación de la presión arterial",
+        "Cefalea y mareo"
+      ],
+      "graves": [
+        "ÚLCERA PÉPTICA y HEMORRAGIA DIGESTIVA, que puede ser la primera manifestación sin dispepsia previa (los AINE tienen efecto analgésico que enmascara el dolor ulceroso)",
+        "FRACASO RENAL AGUDO por vasoconstricción de la arteriola aferente, y nefritis intersticial aguda",
+        "Descompensación de insuficiencia cardiaca y aumento del riesgo de infarto e ictus (efecto de clase, mayor con diclofenaco y con los coxib, menor con naproxeno)",
+        "Broncoespasmo en la enfermedad respiratoria exacerbada por AINE (EREA: asma + poliposis nasal + intolerancia a AINE)",
+        "Reacciones cutáneas graves y meningitis aséptica (esta última especialmente en el lupus)",
+        "Hiperpotasemia por hipoaldosteronismo hiporreninémico"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera péptica activa o hemorragia digestiva",
+      "Insuficiencia renal con FG <30",
+      "Insuficiencia cardiaca grave",
+      "TERCER TRIMESTRE del embarazo (cierre prematuro del ductus arterioso y oligoamnios)",
+      "Enfermedad respiratoria exacerbada por AINE",
+      "Cirugía de revascularización coronaria (periodo perioperatorio)",
+      "Hepatopatía avanzada"
+    ],
+    "perlas": [
+      "El «triple whammy» (AINE + IECA/ARA-II + diurético) es una de las causas evitables más frecuentes de fracaso renal agudo en atención primaria: el riesgo se dispara si el paciente además se deshidrata por una gastroenteritis o por calor. Merece la pena explicárselo al paciente para que suspenda el AINE en esas situaciones.",
+      "El ibuprofeno ANULA el efecto cardioprotector de la aspirina si se toma antes: en un paciente con cardiopatía isquémica que necesita un AINE, hay que respetar el orden y el intervalo, o elegir otro analgésico.",
+      "La gastroprotección con IBP está indicada si hay: edad >65 años, antecedente de úlcera, uso concomitante de corticoides, anticoagulantes o antiagregantes, o comorbilidad grave. No todo paciente con AINE necesita IBP, pero el paciente de riesgo sí, siempre.",
+      "La vía TÓPICA en la artrosis de rodilla y manos tiene eficacia demostrada con absorción sistémica mínima: es la primera opción razonable en el anciano polimedicado, y está infrautilizada.",
+      "Los AINE son SUPERIORES a los opioides en el cólico nefrítico y en el dolor óseo: no es una cuestión de «potencia» sino de mecanismo.",
+      "El naproxeno es el AINE con menor riesgo cardiovascular de la clase; el diclofenaco, el de mayor. En un paciente con cardiopatía que necesita un AINE, la elección debe ser deliberada.",
+      "La hemorragia digestiva por AINE puede presentarse SIN dispepsia previa: la ausencia de síntomas gástricos no protege ni descarta el riesgo."
+    ],
+    "embarazo_lactancia": "Evitar a partir de la semana 20 y CONTRAINDICADO en el tercer trimestre: produce cierre prematuro del ductus arterioso, oligoamnios e insuficiencia renal fetal. En el primer y segundo trimestre, usar solo si es imprescindible. Compatible con la lactancia (el ibuprofeno es el AINE de elección durante la lactancia).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 18 y 36; Harrison 20.ª ed., cap. de antiinflamatorios"
+  },
+  {
+    "id": "REU-prednisona",
+    "nombre": "Prednisona",
+    "sinonimos": [
+      "Prednisolona (forma activa)"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Glucocorticoide sistémico",
+    "subclase": "Acción intermedia, potencia mineralocorticoide baja",
+    "vs_clase": [
+      "**El glucocorticoide ORAL de referencia** para tratamientos antiinflamatorios e inmunosupresores (5 mg = unidad de equivalencia).",
+      "**Profármaco**: se activa en el hígado a prednisolona (en hepatopatía grave se prefiere prednisolona).",
+      "**Acción intermedia (12-36 h)**: permite **pautas a días alternos** que frenan menos el eje suprarrenal (la dexametasona no).",
+      "Tomar por la mañana, imitando el ritmo del cortisol."
+    ],
+    "mecanismo": "Atraviesa la membrana y se une a un receptor citosólico; el complejo migra al núcleo y modifica la transcripción génica: induce proteínas antiinflamatorias (lipocortina-1, que inhibe la fosfolipasa A2 y bloquea TODA la cascada del ácido araquidónico, tanto prostaglandinas como leucotrienos) y reprime factores de transcripción proinflamatorios (NF-κB, AP-1). Su efecto es más amplio y más profundo que el de los AINE, que solo bloquean la rama de la ciclooxigenasa. La acción genómica explica que el efecto tarde HORAS en aparecer.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Exacerbación de asma o EPOC",
+        "dosis": "40-50 mg/24 h",
+        "posologia": "Cada 24 h por la mañana, 5 días",
+        "via": "VO",
+        "nota": "Ciclos de 5 días NO requieren pauta descendente. La vía oral es tan eficaz como la IV si el paciente tolera"
+      },
+      {
+        "patologia": "Brote de enfermedad inflamatoria (artritis reumatoide, polimialgia reumática, vasculitis)",
+        "dosis": "Polimialgia reumática 15-20 mg/24 h; arteritis de células gigantes 40-60 mg/24 h",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "En la arteritis de células gigantes se inicia ANTES de la biopsia si hay clínica visual: el retraso puede costar la visión"
+      },
+      {
+        "patologia": "Reacción alérgica grave, angioedema y urticaria",
+        "dosis": "0,5-1 mg/kg/24 h",
+        "posologia": "Cada 24 h, 3-5 días",
+        "via": "VO",
+        "nota": "En la ANAFILAXIA es un tratamiento de segunda línea: el fármaco que salva la vida es la ADRENALINA IM, y el corticoide solo previene la reacción bifásica"
+      },
+      {
+        "patologia": "Neumonía por Pneumocystis moderada-grave",
+        "dosis": "40 mg/12 h 5 días, luego 40 mg/24 h 5 días, luego 20 mg/24 h",
+        "posologia": "Según pauta descendente, 21 días",
+        "via": "VO",
+        "nota": "Iniciar ANTES o a la vez que el cotrimoxazol; después ya no evita el deterioro respiratorio"
+      },
+      {
+        "patologia": "Inmunosupresión de mantenimiento (trasplante, enfermedad autoinmune)",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "A partir de 7,5 mg/día durante más de 3 meses hay que valorar profilaxis de osteoporosis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día y en TOMA ÚNICA MATUTINA (entre las 7 y las 9 h), que respeta el ritmo circadiano del cortisol y minimiza la supresión del eje y el insomnio. Antes de iniciar un tratamiento prolongado: cribado de tuberculosis latente y de Strongyloides en pacientes de zona endémica, glucemia, presión arterial y densitometría si procede.",
+      "titulacion": "Se desciende, no se asciende: se empieza por la dosis eficaz y se reduce progresivamente según la respuesta.",
+      "duracion": "Desde 3-5 días (ciclo corto) hasta años (enfermedades autoinmunes). La duración determina el riesgo de supresión suprarrenal.",
+      "fin": "REGLA CLAVE: los ciclos de MENOS DE 2-3 SEMANAS pueden suspenderse de forma BRUSCA sin pauta descendente, porque no suprimen el eje de forma significativa. Por encima de 3 semanas, o con dosis altas mantenidas, la retirada debe ser GRADUAL para evitar una insuficiencia suprarrenal aguda: reducciones del 10-20% cada 1-2 semanas, más lentas por debajo de 7,5 mg/día. Ante una situación de estrés (cirugía, infección, traumatismo) en un paciente corticodependiente hay que AUMENTAR la dosis, no mantenerla.",
+      "via": "VO (la prednisona requiere activación hepática a prednisolona; en la hepatopatía grave se prefiere prednisolona directamente).",
+      "monitorizacion": "Glucemia, presión arterial y peso periódicos. En tratamiento prolongado: densitometría ósea, perfil lipídico, potasio y exploración oftalmológica (catarata y glaucoma)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y completa por vía oral.",
+      "distribucion": "Amplia; alta unión a la transcortina y a la albúmina.",
+      "metabolismo": "La prednisona es un PROFÁRMACO que requiere conversión hepática a PREDNISOLONA (la forma activa). Metabolizada por CYP3A4.",
+      "eliminacion": "Renal, como metabolitos.",
+      "vida_media": "Plasmática 2-3 h, pero la vida media BIOLÓGICA (duración del efecto genómico) es de 18-36 h, lo que permite la dosis única diaria. La dexametasona tiene una vida media biológica de 36-54 h y por eso suprime más el eje.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "En la hepatopatía grave, usar PREDNISOLONA en lugar de prednisona (se evita el paso de activación hepática).",
+      "interacciones": [
+        {
+          "con": "AINE",
+          "efecto": "Multiplican el riesgo de úlcera y hemorragia digestiva",
+          "gravedad": "alta",
+          "manejo": "Asociar inhibidor de la bomba de protones si se combinan"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, fenitoína, carbamazepina)",
+          "efecto": "Reducen sus concentraciones y pueden provocar un brote de la enfermedad de base o una crisis suprarrenal",
+          "gravedad": "alta",
+          "manejo": "Aumentar la dosis de corticoide (habitualmente al doble)"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (ritonavir, itraconazol, claritromicina)",
+          "efecto": "Elevan sus concentraciones con síndrome de Cushing iatrogénico",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis y vigilar"
+        },
+        {
+          "con": "Diuréticos de asa y tiazidas",
+          "efecto": "Hipopotasemia aditiva",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio"
+        },
+        {
+          "con": "Antidiabéticos",
+          "efecto": "Hiperglucemia; el corticoide eleva sobre todo la glucemia POSPRANDIAL y vespertina, con glucemias basales relativamente conservadas",
+          "gravedad": "alta",
+          "manejo": "Reforzar autocontroles y ajustar la insulina, preferentemente la de la comida del mediodía"
+        },
+        {
+          "con": "Vacunas de virus VIVOS",
+          "efecto": "Riesgo de enfermedad vacunal en el inmunodeprimido",
+          "gravedad": "alta",
+          "manejo": "Contraindicadas con dosis ≥20 mg/día de prednisona durante más de 2 semanas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Insomnio y euforia o irritabilidad (motivo de la toma matutina)",
+        "Aumento del apetito y ganancia de peso",
+        "Hiperglucemia",
+        "Dispepsia",
+        "Retención hídrica e hipertensión",
+        "Fragilidad cutánea, equimosis y estrías"
+      ],
+      "graves": [
+        "SUPRESIÓN DEL EJE hipotálamo-hipófiso-suprarrenal con crisis addisoniana ante la retirada brusca o el estrés",
+        "OSTEOPOROSIS y fracturas por fragilidad (la pérdida ósea es máxima en los primeros 6 meses)",
+        "NECROSIS AVASCULAR de la cabeza femoral",
+        "Infecciones oportunistas: reactivación de tuberculosis, hiperinfestación por Strongyloides, Pneumocystis, candidiasis",
+        "Miopatía esteroidea proximal",
+        "Catarata subcapsular posterior y glaucoma",
+        "Psicosis esteroidea",
+        "Úlcera péptica y perforación intestinal (con enmascaramiento de los signos peritoneales)",
+        "Síndrome de Cushing iatrogénico"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección sistémica no controlada sin tratamiento antimicrobiano concomitante",
+      "Vacunación con virus vivos a dosis inmunosupresoras",
+      "Úlcera péptica activa (contraindicación relativa)",
+      "Psicosis previa por corticoides"
+    ],
+    "perlas": [
+      "La regla operativa más útil: menos de 3 semanas, se puede parar en seco; más de 3 semanas, retirada gradual. Aplicarla evita tanto pautas descendentes innecesarias como crisis suprarrenales.",
+      "Antes de iniciar corticoides prolongados en un paciente procedente de zona endémica hay que descartar STRONGYLOIDES: la hiperinfestación desencadenada por corticoides tiene una mortalidad superior al 60% y es totalmente prevenible con una serología y una dosis de ivermectina.",
+      "También hay que cribar TUBERCULOSIS latente: los corticoides desorganizan el granuloma y reactivan la infección.",
+      "La hiperglucemia por corticoides es de predominio POSPRANDIAL y VESPERTINO: una glucemia basal normal no descarta el problema, y el control debe hacerse con determinaciones antes de la cena.",
+      "La prevención de la osteoporosis (calcio, vitamina D y bifosfonato si el riesgo es alto) debe iniciarse DESDE EL PRINCIPIO en todo paciente que vaya a recibir ≥7,5 mg/día durante más de 3 meses: la pérdida ósea es máxima en los primeros 6 meses, cuando aún no hay densitometría alterada.",
+      "En la arteritis de células gigantes con síntomas visuales, el corticoide se inicia INMEDIATAMENTE, antes de la biopsia de la arteria temporal: la biopsia sigue siendo informativa durante 1-2 semanas y la ceguera es irreversible.",
+      "El corticoide enmascara los signos de peritonitis: en un paciente corticoterapiado con dolor abdominal, la exploración puede ser engañosamente benigna ante una perforación."
+    ],
+    "embarazo_lactancia": "La prednisona y la prednisolona atraviesan poco la placenta (son inactivadas por la 11-beta-hidroxiesteroide deshidrogenasa placentaria) y son los corticoides de elección para tratar a la MADRE. La betametasona y la dexametasona sí atraviesan y son las que se usan para la maduración pulmonar FETAL. Compatibles con la lactancia (esperar 3-4 h tras dosis altas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39; Harrison 20.ª ed., cap. de glucocorticoides"
+  },
+  {
+    "id": "REU-morfina",
+    "nombre": "Morfina",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico opioide",
+    "subclase": "Agonista puro del receptor mu, patrón de referencia de los opioides",
+    "vs_clase": [
+      "**El opioide de REFERENCIA del 3.er escalón** y del **dolor oncológico** y la **disnea** en paliativos.",
+      "**Metabolito activo renal (morfina-6-glucurónido y 3-glucurónido)**: **se acumula en la insuficiencia renal** (neurotoxicidad, mioclonías) → usar fentanilo, buprenorfina o hidromorfona.",
+      "**Libera histamina** (prurito, hipotensión, broncoespasmo).",
+      "Disponible VO, SC, IV, epidural e intratecal."
+    ],
+    "mecanismo": "Agonista de los receptores opioides MU (µ) en el asta posterior de la médula, el tronco encefálico y las estructuras límbicas: inhibe la liberación de neurotransmisores excitadores presinápticos e hiperpolariza la neurona postsináptica, bloqueando la transmisión nociceptiva y modificando la respuesta emocional al dolor. Los mismos receptores mu en otras localizaciones explican sus efectos adversos: depresión respiratoria (centro respiratorio bulbar, con pérdida de la respuesta al CO2), estreñimiento (plexo mientérico), miosis (núcleo de Edinger-Westphal) y euforia (sistema de recompensa).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor agudo intenso (tercer escalón de la OMS)",
+        "dosis": "2-5 mg IV lentos, repetibles cada 5-10 min según respuesta; 5-10 mg SC/IM",
+        "posologia": "Titulación según respuesta",
+        "via": "IV, SC o IM",
+        "nota": "En el dolor agudo la dosis correcta es la que alivia el dolor sin producir sedación excesiva: se TITULA, no se pauta a ciegas"
+      },
+      {
+        "patologia": "Dolor oncológico",
+        "dosis": "Inicio 5-10 mg/4 h de liberación inmediata; tras estabilizar, pasar a liberación retardada cada 12 h",
+        "posologia": "Cada 4 h (inmediata) o cada 12 h (retardada)",
+        "via": "VO",
+        "nota": "Pautar SIEMPRE dosis de rescate equivalentes a 1/6 de la dosis diaria total para el dolor irruptivo"
+      },
+      {
+        "patologia": "Disnea refractaria en cuidados paliativos",
+        "dosis": "2,5-5 mg/4 h",
+        "posologia": "Cada 4 h",
+        "via": "VO o SC",
+        "nota": "Reduce la percepción de disnea y la taquipnea sin acortar la vida cuando se titula correctamente"
+      },
+      {
+        "patologia": "Edema agudo de pulmón con ansiedad extrema",
+        "dosis": "2-4 mg IV lentos",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "nota": "Indicación hoy MUY discutida y en desuso: se asocia a mayor necesidad de ventilación mecánica y peor pronóstico. Prioridad para ventilación no invasiva, nitratos y diuréticos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Titulación: dosis pequeñas repetidas hasta el alivio. En el paciente naive, empezar bajo. Prescribir SIEMPRE de forma simultánea un LAXANTE profiláctico y tener disponible un antiemético.",
+      "titulacion": "Ajustar la dosis basal según el número de rescates que el paciente necesita en 24 h: si precisa 3 o más rescates diarios, se aumenta la dosis basal en un 30-50%.",
+      "duracion": "Días en el dolor agudo postoperatorio o traumático; indefinida en el dolor oncológico y en cuidados paliativos.",
+      "fin": "Tras más de 1-2 semanas de uso, la retirada debe ser GRADUAL (reducción del 10-25% cada pocos días) para evitar el síndrome de abstinencia. La abstinencia opioide es intensamente desagradable pero NO es letal, a diferencia de la abstinencia de alcohol o benzodiacepinas.",
+      "via": "VO, IV, SC, IM, epidural o intratecal.",
+      "monitorizacion": "Nivel de CONSCIENCIA y frecuencia respiratoria (la sedación PRECEDE siempre a la depresión respiratoria: un paciente somnoliento es la señal de alarma, no uno bradipneico). Escala de dolor, tránsito intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral solo del 20-40% por un intenso primer paso hepático: la relación de potencia VO:IV es aproximadamente de 3:1 (30 mg VO ≈ 10 mg IV). Confundir esta equivalencia es una causa clásica de sobredosis.",
+      "distribucion": "Hidrofílica: atraviesa la barrera hematoencefálica más lentamente que el fentanilo, con inicio de acción más lento y duración más larga.",
+      "metabolismo": "Hepático por glucuronoconjugación a morfina-3-glucurónido (inactivo, neurotóxico) y morfina-6-GLUCURÓNIDO, que es ACTIVO y más potente que la propia morfina.",
+      "eliminacion": "RENAL de los metabolitos: en la insuficiencia renal se ACUMULA la morfina-6-glucurónido activa, con sedación y depresión respiratoria prolongadas.",
+      "vida_media": "2-4 h (mucho más larga la de sus metabolitos en la insuficiencia renal).",
+      "ajuste_renal": "IMPRESCINDIBLE. FG <30: reducir dosis y espaciar intervalos, o mejor CAMBIAR a fentanilo, buprenorfina o metadona, que no tienen metabolitos activos de eliminación renal. La morfina es mal opioide en el paciente nefrópata.",
+      "ajuste_hepatico": "Reducir la dosis en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "BENZODIACEPINAS y otros depresores del SNC (alcohol, gabapentinoides, antihistamínicos sedantes)",
+          "efecto": "DEPRESIÓN RESPIRATORIA aditiva: es la combinación responsable de la mayoría de las muertes por opioides",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación; si es inevitable, reducir ambas dosis y vigilar estrechamente"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Riesgo de síndrome serotoninérgico e hipertermia (mayor con meperidina y tramadol que con morfina)",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce sus concentraciones y puede precipitar abstinencia",
+          "gravedad": "media",
+          "manejo": "Ajustar dosis"
+        },
+        {
+          "con": "Agonistas-antagonistas (pentazocina, buprenorfina, nalbufina)",
+          "efecto": "Pueden DESPLAZAR a la morfina del receptor y desencadenar abstinencia aguda y reaparición del dolor",
+          "gravedad": "alta",
+          "manejo": "No mezclar clases de opioides con distinto perfil de receptor"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO: es el único efecto adverso al que NO se desarrolla tolerancia — persiste todo el tratamiento y requiere laxante profiláctico desde el primer día",
+        "Náuseas y vómitos (habitualmente transitorios, ceden en días)",
+        "Somnolencia y sedación (suele mejorar en 3-5 días)",
+        "Prurito (por liberación de histamina, no es alergia)",
+        "Retención urinaria",
+        "Miosis"
+      ],
+      "graves": [
+        "DEPRESIÓN RESPIRATORIA con hipercapnia y parada respiratoria",
+        "Sedación profunda y coma",
+        "Hipotensión por liberación de histamina y vasodilatación",
+        "Neurotoxicidad inducida por opioides: mioclonías, hiperalgesia paradójica y delirium, sobre todo por acumulación de metabolitos en la insuficiencia renal",
+        "Dependencia física y trastorno por uso de opioides",
+        "Íleo paralítico"
+      ]
+    },
+    "contraindicaciones": [
+      "Depresión respiratoria aguda no monitorizada",
+      "Íleo paralítico",
+      "Traumatismo craneoencefálico con hipertensión intracraneal (la hipercapnia aumenta la presión intracraneal y la miosis interfiere con la valoración pupilar)",
+      "Alergia verdadera (excepcional)",
+      "Uso concomitante de IMAO en las 2 semanas previas"
+    ],
+    "perlas": [
+      "La SEDACIÓN precede SIEMPRE a la depresión respiratoria: la vigilancia correcta es el nivel de consciencia, no la frecuencia respiratoria. Un paciente que se duerme y cuesta despertar necesita que se reduzca la dosis, aunque respire a 14 por minuto.",
+      "El estreñimiento es el único efecto sin tolerancia: hay que pautar un laxante desde la PRIMERA dosis, no cuando el paciente ya lleva días sin deponer. Es el error más frecuente en el manejo de opioides.",
+      "El ANTÍDOTO es la NALOXONA, pero su vida media (30-60 min) es MÁS CORTA que la de la morfina: el paciente puede volver a caer en depresión respiratoria tras la mejoría inicial. Hay que mantener la vigilancia varias horas y, con frecuencia, usar perfusión continua.",
+      "En el paciente con insuficiencia renal la morfina es mala elección por la acumulación de morfina-6-glucurónido: la aparición de mioclonías y confusión en un paciente nefrópata con morfina es un signo de neurotoxicidad que obliga a rotar de opioide, no a subir la dosis.",
+      "La equivalencia oral/parenteral es 3:1: pasar de 30 mg IV a 30 mg VO infradosifica al paciente, y hacerlo al revés lo intoxica.",
+      "El prurito por morfina es histaminérgico y no es una alergia: no contraindica el fármaco ni obliga a etiquetar al paciente como alérgico.",
+      "El miedo desproporcionado a la depresión respiratoria («opiofobia») provoca infratratamiento del dolor oncológico: cuando la dosis se titula sobre el dolor, la depresión respiratoria clínicamente relevante es rara."
+    ],
+    "embarazo_lactancia": "Usar solo si es necesario. El uso mantenido en el tercer trimestre produce síndrome de abstinencia neonatal. En el parto puede causar depresión respiratoria del recién nacido (reversible con naloxona). Compatible con la lactancia a dosis bajas y puntuales, vigilando la somnolencia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; Harrison 20.ª ed., cap. de tratamiento del dolor"
+  },
+  {
+    "id": "REU-alopurinol",
+    "nombre": "Alopurinol",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Hipouricemiante inhibidor de la xantina oxidasa",
+    "subclase": "Análogo de purina (hipoxantina)",
+    "vs_clase": [
+      "**Hipouricemiante de PRIMERA línea** (tolerado y barato) y **seguro en cardiópatas** (a diferencia del febuxostat).",
+      "**Análogo de purinas: síndrome de HIPERSENSIBILIDAD/DRESS** (riesgo con **HLA-B*5801**, ERC y diuréticos): iniciar con 100 mg (50 mg en ERC) y subir lentamente.",
+      "**CONTRAINDICADO con azatioprina o mercaptopurina** (o reducir estas al 25%).",
+      "Eliminación renal de su metabolito (oxipurinol): titular según FG."
+    ],
+    "mecanismo": "Análogo estructural de la hipoxantina que inhibe la XANTINA OXIDASA, la enzima que convierte la hipoxantina en xantina y esta en ácido úrico. Reduce así la producción de urato y aumenta la excreción de los precursores, mucho más solubles. Su metabolito OXIPURINOL es también un inhibidor potente y de vida media larga, responsable de la mayor parte del efecto y de la posología en dosis única diaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Gota con crisis recurrentes, tofos o artropatía crónica",
+        "dosis": "Inicio 100 mg/24 h; titular hasta 300-600 mg/24 h (máx. 900 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "OBJETIVO: uricemia <6 mg/dL (<5 mg/dL si hay tofos). Se trata hasta el objetivo analítico, no hasta una dosis fija"
+      },
+      {
+        "patologia": "Nefrolitiasis por ácido úrico o por oxalato cálcico con hiperuricosuria",
+        "dosis": "300 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Junto con hidratación abundante y alcalinización de la orina"
+      },
+      {
+        "patologia": "Prevención del síndrome de lisis tumoral",
+        "dosis": "300-600 mg/24 h",
+        "posologia": "Cada 24 h, iniciado 24-48 h antes de la quimioterapia",
+        "via": "VO",
+        "nota": "En el riesgo alto se prefiere RASBURICASA, que degrada el ácido úrico ya formado y actúa en horas"
+      },
+      {
+        "patologia": "Hiperuricemia secundaria a diuréticos o a enfermedad mieloproliferativa",
+        "dosis": "100-300 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "La hiperuricemia ASINTOMÁTICA sin gota ni litiasis NO se trata de forma sistemática"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar con 100 mg/día (50 mg si hay insuficiencia renal) y SIEMPRE con PROFILAXIS antiinflamatoria concomitante (colchicina 0,5 mg/12-24 h, o un AINE) durante los 3-6 primeros meses. NO iniciarlo durante una crisis aguda no tratada: el descenso brusco de la uricemia moviliza los cristales de los depósitos y desencadena o agrava el ataque.",
+      "titulacion": "Aumentar 100 mg cada 2-4 semanas, controlando la uricemia, hasta alcanzar el objetivo de <6 mg/dL.",
+      "duracion": "INDEFINIDA, de por vida: la gota es una enfermedad por depósito y la suspensión devuelve la uricemia a su valor basal en semanas, con reaparición de las crisis.",
+      "fin": "No se suspende al normalizar la uricemia ni al desaparecer las crisis: la normalidad se debe al fármaco. Solo se retira ante toxicidad grave.",
+      "via": "VO.",
+      "monitorizacion": "Uricemia cada 2-4 semanas durante la titulación y luego cada 6-12 meses. Función renal, hemograma y transaminasas. Vigilancia estrecha de cualquier ERUPCIÓN CUTÁNEA en los primeros meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral (~80%).",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "Se oxida a OXIPURINOL, metabolito activo con vida media muy prolongada.",
+      "eliminacion": "Renal, principalmente como oxipurinol.",
+      "vida_media": "1-2 h el alopurinol; 15-30 h el oxipurinol (de ahí la dosis única diaria).",
+      "ajuste_renal": "Reducir la dosis inicial y titular más lentamente (50 mg/día si FG <30). La acumulación de oxipurinol en la insuficiencia renal es el principal factor de riesgo del síndrome de hipersensibilidad.",
+      "ajuste_hepatico": "Precaución; vigilar transaminasas.",
+      "interacciones": [
+        {
+          "con": "AZATIOPRINA y 6-MERCAPTOPURINA",
+          "efecto": "La xantina oxidasa es la vía principal de inactivación de estos fármacos: el alopurinol multiplica sus concentraciones y provoca APLASIA MEDULAR potencialmente MORTAL",
+          "gravedad": "alta",
+          "manejo": "Combinación clásicamente CONTRAINDICADA. Si es imprescindible, reducir la azatioprina al 25% de la dosis con control hematológico estrecho, o usar otro hipouricemiante"
+        },
+        {
+          "con": "Ampicilina y amoxicilina",
+          "efecto": "Aumenta notablemente la incidencia de exantema",
+          "gravedad": "media",
+          "manejo": "Advertir al paciente; no confundir con hipersensibilidad al alopurinol"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Puede potenciar el efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        },
+        {
+          "con": "Diuréticos tiazídicos",
+          "efecto": "Elevan la uricemia y contrarrestan su efecto; además aumentan el riesgo de hipersensibilidad",
+          "gravedad": "media",
+          "manejo": "Valorar cambiar el antihipertensivo (el losartán es uricosúrico)"
+        },
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumenta sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "EXANTEMA maculopapular (2%)",
+        "Molestias digestivas",
+        "Aumento paradójico de las crisis de gota en los primeros meses de tratamiento (por movilización de los depósitos)",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "SÍNDROME DE HIPERSENSIBILIDAD AL ALOPURINOL (DRESS): exantema extenso, fiebre, eosinofilia, hepatitis y fracaso renal, con mortalidad del 20-25%. Factores de riesgo: insuficiencia renal, uso de diuréticos, dosis inicial alta y el alelo HLA-B*5801",
+        "Síndrome de Stevens-Johnson y necrólisis epidérmica tóxica",
+        "Aplasia medular por interacción con azatioprina",
+        "Hepatitis granulomatosa",
+        "Nefritis intersticial"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad previa al alopurinol",
+      "Uso concomitante con azatioprina o mercaptopurina (contraindicación relativa muy fuerte)",
+      "Crisis aguda de gota no tratada como momento de INICIO (no es contraindicación del fármaco, sino del momento)"
+    ],
+    "perlas": [
+      "Iniciar alopurinol SIN profilaxis con colchicina es el error más frecuente y la causa habitual de que el paciente abandone el tratamiento: al bajar la uricemia se movilizan los cristales de los depósitos y se desencadena una crisis, que el paciente interpreta como que «el fármaco le sienta mal».",
+      "Si aparece una crisis de gota en un paciente que YA toma alopurinol, NO se suspende el alopurinol: se trata la crisis y se mantiene el hipouricemiante. Suspenderlo prolonga el problema.",
+      "Se trata hasta un OBJETIVO ANALÍTICO (uricemia <6 mg/dL, o <5 si hay tofos), no hasta una dosis fija. Dejar a un paciente con 300 mg y uricemia de 7,5 mg/dL es infratratarlo: la dosis puede subirse hasta 900 mg.",
+      "El alelo HLA-B*5801 predice el síndrome de hipersensibilidad grave y es muy prevalente en población han-china, tailandesa y coreana: en esos grupos está indicado el cribado genético antes de iniciar.",
+      "La interacción con AZATIOPRINA puede matar: es una de las pocas combinaciones que producen aplasia medular de forma predecible. Preguntar siempre por inmunosupresores antes de prescribirlo.",
+      "La hiperuricemia asintomática NO se trata de forma sistemática: sin gota, tofos ni litiasis, no hay indicación establecida.",
+      "Empezar por 100 mg (o 50 en el nefrópata) y subir despacio reduce tanto las crisis inducidas como el riesgo de hipersensibilidad grave."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo por experiencia limitada; la gota es infrecuente en la mujer premenopáusica. Precaución en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; Harrison 20.ª ed., cap. de gota y otras artropatías por cristales"
+  }
+]

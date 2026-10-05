@@ -1,0 +1,399 @@
+[
+  {
+    "id": "PAT-hemorragia-posparto",
+    "nombre": "Hemorragia posparto",
+    "sinonimos": ["HPP", "Atonía uterina"],
+    "area": "GIN",
+    "resumen": "Pérdida ≥500 mL (vaginal) o ≥1.000 mL (cesárea), o cualquier pérdida con inestabilidad. **Las «4 T»: Tono (atonía, 70%), Trauma, Tejido (restos), Trombina.** Masaje uterino + uterotónicos escalonados + ácido tranexámico en las primeras 3 h. Prevención: oxitocina en el alumbramiento a todas.",
+    "objetivo": "Útero contraído, control del sangrado y estabilidad hemodinámica.",
+    "escenarios": [
+      {
+        "titulo": "Prevención (alumbramiento dirigido)",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Oxitocina", "ref": "GIN-oxitocina", "dosis": "10 UI", "via": "IM / IV lenta", "intervalo": "Dosis única tras la salida del hombro anterior o del recién nacido", "duracion": "Dosis única" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento de la atonía",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Oxitocina", "ref": "GIN-oxitocina", "dosis": "5-10 UI IV lenta + 20-40 UI en 500-1.000 mL", "via": "IV", "intervalo": "Bolo lento + perfusión", "duracion": "4-6 h", "nota": "Bolo rápido: hipotensión" },
+          { "nombre": "Ácido tranexámico", "ref": "HEM-acido-tranexamico", "dosis": "1 g", "via": "IV", "intervalo": "En 10 min; repetir 1 g a los 30 min si persiste", "duracion": "Máximo 2 dosis", "nota": "**En las primeras 3 h** (WOMAN)" },
+          { "nombre": "Misoprostol", "ref": "GIN-misoprostol", "dosis": "800 µg", "via": "SL / rectal", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Fiebre y escalofríos frecuentes" },
+          { "nombre": "Metilergometrina", "sin_ficha": true, "dosis": "0,2 mg", "via": "IM", "intervalo": "Cada 2-4 h (máx. 5 dosis)", "duracion": "Según respuesta", "nota": "**Contraindicada en HTA y preeclampsia**" },
+          { "nombre": "Carboprost (PGF2α)", "sin_ficha": true, "dosis": "250 µg", "via": "IM", "intervalo": "Cada 15-90 min (máx. 8 dosis)", "duracion": "Según respuesta", "nota": "**Contraindicado en asma**" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Masaje uterino bimanual, sondaje vesical, revisión del canal y de la placenta",
+      "Dos vías gruesas, cristaloides, transfusión y protocolo de hemorragia masiva",
+      "Balón de Bakri, suturas compresivas, embolización o histerectomía si fracasa"
+    ],
+    "claves": [
+      "**El tiempo es crítico**: la mayoría de muertes maternas por HPP son evitables.",
+      "Fibrinógeno <2 g/L predice HPP grave: reponer con concentrado."
+    ],
+    "fuente": "Harrison 20.ª ed.; Katzung 15.ª ed., caps. 17 y 18; protocolos SEGO"
+  },
+  {
+    "id": "PAT-amenaza-parto-pretermino",
+    "nombre": "Amenaza de parto pretérmino",
+    "sinonimos": ["APP", "Parto prematuro"],
+    "area": "GIN",
+    "resumen": "Dinámica uterina regular con cambios cervicales entre las 24 y 36+6 semanas. **Lo que mejora el pronóstico neonatal: corticoides para la maduración pulmonar (24-34 semanas) y sulfato de magnesio para la neuroprotección (<32 semanas).** La tocólisis solo sirve para ganar 48 h y completar los corticoides o el traslado.",
+    "objetivo": "Completar la maduración pulmonar y, si procede, el traslado a un centro con UCI neonatal.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Betametasona", "ref": "GIN-corticoides-tocoliticos", "dosis": "12 mg", "via": "IM", "intervalo": "Cada 24 h", "duracion": "2 dosis", "alternativa": "o dexametasona 6 mg IM cada 12 h × 4 dosis", "nota": "Entre las 24 y 34+6 semanas" },
+          { "nombre": "Atosibán", "ref": "GIN-corticoides-tocoliticos", "dosis": "6,75 mg bolo, 300 µg/min 3 h, después 100 µg/min", "via": "IV", "intervalo": "Bolo + perfusión", "duracion": "Hasta 48 h", "nota": "Tocolítico mejor tolerado" },
+          { "nombre": "Nifedipino", "ref": "CAR-nifedipino", "dosis": "20 mg, después 10-20 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "48 h", "nota": "Alternativa barata; hipotensión" },
+          { "nombre": "Sulfato de magnesio (neuroprotección)", "ref": "GIN-sulfato-magnesio", "dosis": "4 g en 20-30 min, después 1 g/h", "via": "IV", "intervalo": "Carga + perfusión", "duracion": "Hasta el parto o 24 h", "nota": "Parto inminente <32 semanas; reflejos y diuresis" },
+          { "nombre": "Ampicilina (profilaxis de estreptococo B)", "ref": "INF-ampicilina", "dosis": "2 g, después 1 g", "via": "IV", "intervalo": "Cada 4 h hasta el parto", "duracion": "Hasta el parto", "alternativa": "o penicilina G 5 millones UI + 2,5-3 millones UI/4 h", "nota": "Si portadora o estado desconocido y parto en curso" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ecografía (longitud cervical) y test de fibronectina para seleccionar a quién tratar",
+      "Traslado intraútero a centro de nivel adecuado",
+      "Descartar infección intraamniótica (contraindica la tocólisis)"
+    ],
+    "claves": [
+      "**El reposo absoluto no previene el parto pretérmino** y aumenta el riesgo trombótico.",
+      "Progesterona vaginal para prevenir en gestantes con cérvix corto, no para tratar la amenaza."
+    ],
+    "fuente": "Protocolos SEGO; Katzung 15.ª ed., caps. 39 y 40"
+  },
+  {
+    "id": "PAT-anticoncepcion-urgencia",
+    "nombre": "Anticoncepción de urgencia",
+    "sinonimos": ["Píldora del día después", "Poscoital"],
+    "area": "GIN",
+    "resumen": "Tras una relación sin protección o fallo del método. **Cuanto antes, más eficaz.** Opciones: DIU de cobre (el más eficaz, hasta 5 días), ulipristal (hasta 120 h, más eficaz que el levonorgestrel) o levonorgestrel (hasta 72 h). No es abortiva: retrasa la ovulación.",
+    "objetivo": "Prevenir el embarazo no deseado.",
+    "escenarios": [
+      {
+        "titulo": "Opciones farmacológicas",
+        "poblacion": "Mujer",
+        "farmacos": [
+          { "nombre": "Ulipristal acetato", "ref": "GIN-progestagenos-urgencia", "dosis": "30 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Hasta 120 h tras el coito", "nota": "Retrasar 5 días el reinicio de anticonceptivos hormonales; menos eficaz si IMC >30 (aun así mejor que levonorgestrel)" },
+          { "nombre": "Levonorgestrel", "ref": "GIN-progestagenos-urgencia", "dosis": "1,5 mg (3 mg si IMC >30 o inductores enzimáticos)", "via": "VO", "intervalo": "Dosis única", "duracion": "Hasta 72 h tras el coito", "nota": "Se puede reiniciar el anticonceptivo de inmediato" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "DIU de cobre (hasta 5 días): el método más eficaz y queda como anticoncepción",
+      "Test de embarazo si no hay menstruación en 3 semanas",
+      "Ofrecer cribado de ITS y anticoncepción regular"
+    ],
+    "claves": [
+      "**Si vomita en las 3 h siguientes, repetir la dosis.**",
+      "Con inductores enzimáticos (rifampicina, carbamazepina) es preferible el DIU de cobre."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 40; guía de la Sociedad Española de Contracepción"
+  },
+  {
+    "id": "PAT-acne",
+    "nombre": "Acné vulgar",
+    "sinonimos": ["Acné"],
+    "area": "DER",
+    "resumen": "Tratamiento según gravedad: **leve → tópico (retinoide ± peróxido de benzoilo); moderado → + antibiótico oral (doxiciclina) limitado a 3 meses, siempre con peróxido de benzoilo; grave, nodular o con cicatrices → isotretinoína oral.** En mujeres, los anticonceptivos combinados son una buena opción.",
+    "objetivo": "Control de lesiones y prevención de cicatrices; efecto visible a las 8-12 semanas.",
+    "escenarios": [
+      {
+        "titulo": "Leve-moderado",
+        "farmacos": [
+          { "nombre": "Adapaleno 0,1% + peróxido de benzoilo 2,5%", "ref": "DER-tratamiento-topico-acne", "dosis": "1 aplicación (capa fina)", "via": "tópica", "intervalo": "Cada 24 h, por la noche", "duracion": "≥12 semanas y mantenimiento con retinoide", "nota": "Irritación inicial; fotoprotección" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "**Máximo 3 meses**", "nota": "Con peróxido de benzoilo para evitar resistencias; fotosensibilidad" },
+          { "nombre": "Anticonceptivo combinado", "ref": "GIN-anticonceptivos-combinados", "dosis": "1 comprimido", "via": "VO", "intervalo": "Cada 24 h", "duracion": "≥6 meses", "nota": "Mujeres que además desean anticoncepción" }
+        ]
+      },
+      {
+        "titulo": "Grave, nodular o refractario",
+        "farmacos": [
+          { "nombre": "Isotretinoína", "ref": "DER-isotretinoina", "dosis": "0,25-0,5 mg/kg/día → 0,5-1 mg/kg/día", "via": "VO", "intervalo": "Cada 24 h con comida", "duracion": "Hasta dosis acumulada de 120-150 mg/kg (5-8 meses)", "nota": "**Teratógena: programa de prevención de embarazo**; lípidos y transaminasas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Limpieza suave; no manipular las lesiones",
+      "Cosméticos no comedogénicos",
+      "Derivar a Dermatología si cicatrices o fracaso"
+    ],
+    "claves": [
+      "**Nunca antibiótico tópico u oral en monoterapia** (resistencias de Cutibacterium).",
+      "**Isotretinoína + tetraciclinas: hipertensión intracraneal**; no combinar."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de enfermedades cutáneas"
+  },
+  {
+    "id": "PAT-dermatitis-atopica",
+    "nombre": "Dermatitis atópica",
+    "sinonimos": ["Eccema atópico"],
+    "area": "DER",
+    "resumen": "**Base: emolientes diarios (también sin brote).** Brotes: corticoide tópico de potencia adecuada a la zona y la edad. Cara y pliegues o uso prolongado: inhibidores tópicos de la calcineurina. Tratamiento proactivo (2 días/semana) en recurrencias. Formas graves: sistémicos (dupilumab, ciclosporina).",
+    "objetivo": "Control del prurito y de los brotes; espaciar recurrencias.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Emolientes", "ref": "DER-emolientes", "dosis": "1 aplicación generosa", "via": "tópica", "intervalo": "Cada 12 h y tras el baño", "duracion": "Continuo" },
+          { "nombre": "Corticoide tópico (potencia media-alta en cuerpo)", "ref": "DER-corticoides-topicos", "dosis": "1 aplicación (unidad de punta de dedo por zona)", "via": "tópica", "intervalo": "Cada 24 h", "duracion": "Brote: 1-2 semanas; proactivo: 2 días/semana", "nota": "Potencia baja en cara y pliegues" },
+          { "nombre": "Tacrolimus 0,1% pomada", "ref": "DER-inhibidores-calcineurina-topicos", "dosis": "1 aplicación", "via": "tópica", "intervalo": "Cada 12 h", "duracion": "Hasta control; después 2 veces/semana", "nota": "Cara, párpados y pliegues; escozor inicial" },
+          { "nombre": "Antihistamínico H1 (prurito nocturno)", "ref": "INM-antihistaminicos-h1", "dosis": "Hidroxizina 25 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Brotes", "nota": "Efecto por la sedación, no antipruriginoso propio" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Corticoide tópico de baja-media potencia", "ref": "PED-DER-corticoides-topicos", "dosis": "1 aplicación", "via": "tópica", "intervalo": "Cada 24 h", "duracion": "1-2 semanas por brote", "nota": "Hidrocortisona o prednicarbato en cara y lactantes" },
+          { "nombre": "Tacrolimus 0,03% pomada", "ref": "DER-inhibidores-calcineurina-topicos", "dosis": "1 aplicación", "via": "tópica", "intervalo": "Cada 12 h", "duracion": "Hasta control", "otra_poblacion": true, "nota": "Desde los 2 años" }
+        ]
+      },
+      {
+        "titulo": "Moderada-grave refractaria",
+        "farmacos": [
+          { "nombre": "Dupilumab", "sin_ficha": true, "dosis": "600 mg de carga, después 300 mg", "via": "SC", "intervalo": "Cada 2 semanas", "duracion": "Indefinida según respuesta", "nota": "Conjuntivitis" },
+          { "nombre": "Ciclosporina", "ref": "INM-anticalcineurinicos", "dosis": "2,5-5 mg/kg/día", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Ciclos de 3-6 meses (máx. 1-2 años)", "nota": "PA y creatinina" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Baños cortos con agua tibia y syndet; secar sin frotar",
+      "Ropa de algodón, uñas cortas, evitar irritantes",
+      "Tratar la sobreinfección (S. aureus, eccema herpético)"
+    ],
+    "claves": [
+      "**La «corticofobia» es la principal causa de fracaso**: explicar la cantidad correcta (unidad de punta de dedo).",
+      "**Eccema herpético** (vesículas umbilicadas, fiebre): aciclovir urgente."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de eccema"
+  },
+  {
+    "id": "PAT-escabiosis",
+    "nombre": "Escabiosis (sarna)",
+    "sinonimos": ["Sarna", "Sarcoptes scabiei"],
+    "area": "DER",
+    "resumen": "Prurito nocturno intenso con surcos en espacios interdigitales, muñecas, cintura y genitales. **Tratar al paciente y a todos los convivientes y contactos íntimos a la vez, aunque no tengan síntomas**, y repetir a los 7-14 días. Lavar ropa y sábanas a ≥60 °C.",
+    "objetivo": "Erradicación; el prurito puede durar 2-4 semanas tras la curación.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Permetrina 5% crema", "ref": "DER-permetrina", "dosis": "30 g (1 aplicación de cuello a pies)", "via": "tópica", "intervalo": "Dejar 8-12 h y lavar; repetir a los 7-14 días", "duracion": "2 aplicaciones" },
+          { "nombre": "Ivermectina", "ref": "INF-ivermectina", "dosis": "200 µg/kg", "via": "VO", "intervalo": "Días 1 y 8 (con comida)", "duracion": "2 dosis", "nota": "Brotes institucionales, sarna costrosa (con permetrina), mal cumplimiento tópico" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Permetrina 5% crema", "ref": "PED-DER-permetrina", "dosis": "1 aplicación de todo el cuerpo (incluido cuero cabelludo y cara en lactantes)", "via": "tópica", "intervalo": "Dejar 8-12 h; repetir a los 7 días", "duracion": "2 aplicaciones", "nota": "Desde los 2 meses" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavar ropa, toallas y sábanas a ≥60 °C, o guardarlas en bolsa cerrada 72 h",
+      "Antihistamínico y emolientes para el prurito residual"
+    ],
+    "claves": [
+      "**El fracaso suele deberse a no tratar a los contactos o a no repetir la dosis.**",
+      "Sarna costrosa (inmunodeprimidos, ancianos institucionalizados): muy contagiosa, ivermectina + permetrina repetidas."
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 53 y 61"
+  },
+  {
+    "id": "PAT-tinas-onicomicosis",
+    "nombre": "Tiñas cutáneas y onicomicosis",
+    "sinonimos": ["Dermatofitosis", "Pie de atleta", "Tiña", "Hongos en las uñas"],
+    "area": "DER",
+    "resumen": "**Tiñas cutáneas localizadas (corporis, cruris, pedis): tratamiento tópico.** Tiña extensa, del cuero cabelludo o de la uña: tratamiento oral (terbinafina de elección frente a dermatofitos). Confirmar con micológico antes de un tratamiento oral prolongado de la uña.",
+    "objetivo": "Curación clínica y micológica.",
+    "escenarios": [
+      {
+        "titulo": "Tiña cutánea localizada",
+        "farmacos": [
+          { "nombre": "Clotrimazol / ketoconazol crema", "ref": "DER-azoles-topicos", "dosis": "1 aplicación", "via": "tópica", "intervalo": "Cada 12-24 h", "duracion": "2-4 semanas (1-2 semanas tras la curación clínica)", "alternativa": "o terbinafina crema 1-2 veces/día 1-2 semanas" }
+        ]
+      },
+      {
+        "titulo": "Tiña extensa o del cuero cabelludo",
+        "farmacos": [
+          { "nombre": "Terbinafina", "ref": "DER-terbinafina", "dosis": "250 mg (niños: 62,5-250 mg según peso)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2-4 semanas (cuero cabelludo 4 semanas)", "nota": "Microsporum (cabello) responde mejor a griseofulvina" }
+        ]
+      },
+      {
+        "titulo": "Onicomicosis",
+        "farmacos": [
+          { "nombre": "Terbinafina", "ref": "DER-terbinafina", "dosis": "250 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6 semanas (manos) o 12 semanas (pies)", "nota": "Perfil hepático basal" },
+          { "nombre": "Itraconazol (pulsos)", "ref": "INF-itraconazol", "dosis": "200 mg", "via": "VO", "intervalo": "Cada 12 h, 1 semana al mes", "duracion": "2 pulsos (manos) o 3-4 pulsos (pies)", "nota": "Si Candida o no dermatofitos; interacciones y contraindicado en IC" },
+          { "nombre": "Ciclopirox 8% laca", "ref": "DER-azoles-topicos", "dosis": "1 aplicación", "via": "tópica", "intervalo": "Cada 24 h", "duracion": "6-12 meses", "nota": "Afectación distal leve (<50% de la uña, sin matriz)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Mantener la piel seca, calzado transpirable, no compartir toallas",
+      "Tratar también los pies si hay tiña cruris (autoinoculación)"
+    ],
+    "claves": [
+      "**Corticoide tópico en una tiña = «tiña incógnito»** (se extiende y pierde el aspecto típico).",
+      "La uña tarda 12-18 meses en crecer: la curación clínica es posterior a la micológica."
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 48 y 61"
+  },
+  {
+    "id": "PAT-impetigo",
+    "nombre": "Impétigo",
+    "sinonimos": ["Impétigo contagioso"],
+    "area": "DER",
+    "resumen": "Infección superficial por S. aureus y/o S. pyogenes con costras melicéricas (o ampollas en el ampolloso). **Localizado: antibiótico tópico.** Extenso, ampolloso múltiple o con brotes: antibiótico oral antiestafilocócico.",
+    "objetivo": "Curación en 7-10 días; evitar contagio.",
+    "escenarios": [
+      {
+        "titulo": "Niño (y adulto) localizado",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Mupirocina 2% o ácido fusídico 2%", "ref": "PED-DER-mupirocina", "dosis": "1 aplicación tras retirar las costras", "via": "tópica", "intervalo": "Cada 8 h", "duracion": "5-7 días" }
+        ]
+      },
+      {
+        "titulo": "Extenso",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Amoxicilina-clavulánico", "ref": "PED-INF-amoxicilina-clavulanico", "dosis": "40-50 mg/kg/día de amoxicilina", "via": "VO", "intervalo": "Cada 8 h", "duracion": "7 días", "alternativa": "o cefadroxilo 30 mg/kg/día cada 12 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavar con agua y jabón; uñas cortas",
+      "No acudir a la guardería o colegio hasta 24 h de tratamiento"
+    ],
+    "claves": [
+      "Glomerulonefritis postestreptocócica posible (el antibiótico no la previene).",
+      "Recurrencias: buscar portadores nasales de S. aureus (mupirocina nasal)."
+    ],
+    "fuente": "AMIR Pediatría; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-urticaria-angioedema",
+    "nombre": "Urticaria aguda y angioedema",
+    "sinonimos": ["Urticaria", "Habones", "Angioedema"],
+    "area": "INM",
+    "resumen": "**Antihistamínico H1 de 2.ª generación a dosis estándar, que puede subirse hasta 4 veces** si no hay control. Corticoide oral breve solo en casos intensos. **Distinguir el angioedema bradicinérgico** (sin habones ni prurito: IECA, hereditario), que NO responde a antihistamínicos, corticoides ni adrenalina. Si hay afectación sistémica: tratar como anafilaxia.",
+    "objetivo": "Control de síntomas; identificar el desencadenante.",
+    "escenarios": [
+      {
+        "titulo": "Urticaria aguda (adulto)",
+        "farmacos": [
+          { "nombre": "Bilastina", "ref": "INM-antihistaminicos-h1", "dosis": "20 mg (hasta 80 mg/día)", "via": "VO", "intervalo": "Cada 24 h, en ayunas", "duracion": "Hasta 1-2 semanas sin lesiones", "alternativa": "o cetirizina 10 mg, ebastina 10-20 mg, desloratadina 5 mg" },
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "30-40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3-5 días", "nota": "Solo si muy extensa o con angioedema histaminérgico" },
+          { "nombre": "Dexclorfeniramina", "ref": "INM-antihistaminicos-h1", "dosis": "5 mg", "via": "IM / IV", "intervalo": "Dosis única en urgencias", "duracion": "Dosis única" }
+        ]
+      },
+      {
+        "titulo": "Urticaria crónica refractaria",
+        "farmacos": [
+          { "nombre": "Omalizumab", "ref": "NML-biologicos-asma", "dosis": "300 mg", "via": "SC", "intervalo": "Cada 4 semanas", "duracion": "6 meses y reevaluar", "nota": "Tras fracaso de antihistamínico a dosis cuádruple" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Antihistamínico H1 de 2.ª generación", "ref": "PED-INM-antihistaminicos", "dosis": "Cetirizina 2,5 mg/12 h (2-6 años) o 10 mg/24 h (>12 años)", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Hasta resolución" }
+        ]
+      },
+      {
+        "titulo": "Angioedema bradicinérgico (IECA o hereditario)",
+        "farmacos": [
+          { "nombre": "Icatibant", "sin_ficha": true, "dosis": "30 mg", "via": "SC", "intervalo": "Repetible a las 6 h (máx. 3 dosis/24 h)", "duracion": "Por crisis", "alternativa": "o concentrado de C1-inhibidor 20 UI/kg IV", "nota": "**Suspender el IECA definitivamente**; vigilar la vía aérea" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar AINE, alcohol y calor en brotes",
+      "Buscar desencadenantes (alimentos, fármacos, infecciones) en la urticaria aguda",
+      "La urticaria crónica no suele tener causa alérgica: no pedir baterías de alimentos"
+    ],
+    "claves": [
+      "**Angioedema sin habones en paciente con IECA**: no responde a antihistamínicos; puede ser letal (vía aérea).",
+      "Los antihistamínicos de 1.ª generación sedan y no son más eficaces."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de urticaria y angioedema; Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "PAT-rinitis-alergica",
+    "nombre": "Rinitis alérgica",
+    "sinonimos": ["Fiebre del heno", "Alergia al polen"],
+    "area": "INM",
+    "resumen": "**Corticoide intranasal: el fármaco más eficaz**, sobre todo si hay obstrucción; empezar 1-2 semanas antes de la estación polínica. Antihistamínico oral de 2.ª generación en formas leves o con síntomas oculares. Inmunoterapia específica en casos seleccionados.",
+    "objetivo": "Control de síntomas nasales y oculares; control del asma asociada.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Corticoide intranasal (mometasona, fluticasona, budesonida)", "sin_ficha": true, "dosis": "2 pulsaciones por fosa nasal", "via": "IN", "intervalo": "Cada 24 h", "duracion": "Toda la estación (o continuo en perenne)", "nota": "Efecto máximo en 1-2 semanas; técnica dirigida hacia fuera" },
+          { "nombre": "Antihistamínico H1 de 2.ª generación", "ref": "INM-antihistaminicos-h1", "dosis": "Bilastina 20 mg / cetirizina 10 mg / loratadina 10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Toda la estación" },
+          { "nombre": "Montelukast", "ref": "NML-montelukast", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Toda la estación", "nota": "Si asma asociada; alertas neuropsiquiátricas" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Antihistamínico H1 de 2.ª generación", "ref": "PED-INM-antihistaminicos", "dosis": "Cetirizina 2,5 mg/12 h (2-6 años), 5 mg/12 h o 10 mg/24 h (>6 años)", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Toda la estación" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar alérgenos (fundas antiácaros, ventanas cerradas en polinización)",
+      "Lavados nasales con suero salino",
+      "Inmunoterapia específica (3-5 años) en sensibilización a 1-2 alérgenos relevantes"
+    ],
+    "claves": [
+      "**Los descongestionantes nasales tópicos más de 5-7 días producen rinitis medicamentosa.**",
+      "La rinitis alérgica mal controlada empeora el asma."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de alergia; ARIA 2019"
+  },
+  {
+    "id": "PAT-fiebre-nino",
+    "nombre": "Fiebre en el niño",
+    "sinonimos": ["Fiebre", "Antitérmicos en pediatría"],
+    "area": "REU",
+    "resumen": "El objetivo del antitérmico es el **bienestar del niño, no normalizar la temperatura**. Paracetamol o ibuprofeno a dosis por peso, **sin alternarlos de forma sistemática**. Lo importante es buscar signos de gravedad: <3 meses con fiebre (valoración hospitalaria), mal aspecto, petequias, dificultad respiratoria, deshidratación, rigidez de nuca.",
+    "objetivo": "Confort del niño; detección de infección bacteriana grave.",
+    "escenarios": [
+      {
+        "titulo": "Antitérmicos",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Paracetamol", "ref": "PED-REU-paracetamol", "dosis": "15 mg/kg (máx. 1 g por dosis; 60-75 mg/kg/día)", "via": "VO", "intervalo": "Cada 6 h", "duracion": "Mientras haya malestar por fiebre", "nota": "Desde el nacimiento (neonatos 10 mg/kg/8-12 h); rectal de absorción errática" },
+          { "nombre": "Ibuprofeno", "ref": "PED-REU-ibuprofeno", "dosis": "5-10 mg/kg (máx. 40 mg/kg/día)", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Mientras haya malestar por fiebre", "nota": "Desde los 3 meses; **evitar si deshidratación o varicela**" }
+        ]
+      },
+      {
+        "titulo": "Convulsión febril prolongada (>5 min)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Midazolam bucal", "ref": "PED-NEU-midazolam-bucal", "dosis": "0,3 mg/kg (máx. 10 mg)", "via": "bucal", "intervalo": "Dosis única; repetible a los 10 min", "duracion": "Dosis puntual", "nota": "Los antitérmicos no previenen las convulsiones febriles" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ofrecer líquidos con frecuencia; ropa ligera",
+      "No usar baños fríos ni friegas con alcohol",
+      "Consultar urgente si <3 meses, petequias, letargia, dificultad respiratoria o fiebre >5 días"
+    ],
+    "claves": [
+      "**No usar AAS en niños** (síndrome de Reye).",
+      "**El error de dosificación más frecuente es confundir las concentraciones de los jarabes** (100 mg/mL frente a 20-40 mg/mL)."
+    ],
+    "fuente": "AMIR Pediatría; Katzung 15.ª ed., caps. 36 y 59"
+  }
+]

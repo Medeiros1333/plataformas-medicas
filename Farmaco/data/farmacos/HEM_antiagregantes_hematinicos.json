@@ -1,0 +1,493 @@
+[
+  {
+    "id": "HEM-acido-acetilsalicilico",
+    "nombre": "Ácido acetilsalicílico (dosis antiagregante)",
+    "sinonimos": [
+      "AAS",
+      "Aspirina"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Antiagregante plaquetario",
+    "subclase": "Inhibidor irreversible de la ciclooxigenasa 1",
+    "vs_clase": [
+      "**Inhibición IRREVERSIBLE de la COX-1 plaquetaria** a dosis bajas (75-100 mg): efecto que dura la vida de la plaqueta (7-10 días).",
+      "**La base de toda antiagregación** en prevención secundaria y el primer fármaco en el síndrome coronario agudo (carga de 150-300 mg masticada).",
+      "**Asma inducida por AINE** (enfermedad respiratoria exacerbada por AAS) y riesgo de hemorragia digestiva; **síndrome de Reye** en niños.",
+      "El **ibuprofeno tomado antes** bloquea su acceso a la COX y anula su efecto."
+    ],
+    "mecanismo": "ACETILA de forma IRREVERSIBLE la serina 529 de la COX-1 plaquetaria, bloqueando la síntesis de TROMBOXANO A2 y con ella la agregación. Como la plaqueta carece de núcleo, no puede sintetizar COX nueva: el efecto dura los 7-10 días de vida de la plaqueta, y la recuperación de la hemostasia depende de la generación de plaquetas nuevas (en torno al 10% al día). A dosis bajas la acetilación es selectiva de la COX-1 plaquetaria y respeta la prostaciclina endotelial; a dosis altas se pierde esa selectividad, lo que explica por qué más dosis no significa más efecto antitrombótico y sí más sangrado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención secundaria cardiovascular (cardiopatía isquémica, ictus isquémico, arteriopatía periférica)",
+        "dosis": "75-100 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Indicación de por vida, con beneficio neto claramente favorable"
+      },
+      {
+        "patologia": "Síndrome coronario agudo: fase aguda",
+        "dosis": "Carga de 150-300 mg MASTICADOS, después 75-100 mg/24 h",
+        "posologia": "Dosis de carga única y mantenimiento diario",
+        "via": "VO",
+        "nota": "Masticarlo acelera la absorción; se asocia a un inhibidor del P2Y12 (doble antiagregación)"
+      },
+      {
+        "patologia": "Doble antiagregación tras intervencionismo coronario percutáneo",
+        "dosis": "100 mg/24 h junto a clopidogrel, prasugrel o ticagrelor",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Duración de la doble antiagregación de 6-12 meses según el riesgo isquémico y hemorrágico; el AAS continúa después de por vida"
+      },
+      {
+        "patologia": "Prevención de la preeclampsia en la gestante de riesgo",
+        "dosis": "100-150 mg/24 h por la NOCHE, desde la semana 12 hasta la 36",
+        "posologia": "Una vez al día por la noche",
+        "via": "VO",
+        "nota": "Debe iniciarse antes de la semana 16 para ser eficaz; la administración nocturna mejora el resultado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga masticada solo en el síndrome coronario agudo; en el resto, dosis de mantenimiento desde el principio, sin titulación.",
+      "titulacion": "No se titula. Por encima de 100 mg/día no aumenta el efecto antitrombótico y sí el riesgo digestivo.",
+      "duracion": "Indefinida en prevención secundaria.",
+      "fin": "En cirugía de bajo riesgo hemorrágico se MANTIENE. Si hay que suspenderlo, se hace 7 días antes. Retirarlo de forma innecesaria en un paciente con stent reciente es una causa evitable de trombosis del stent.",
+      "via": "VO. Las formulaciones con cubierta entérica no reducen de forma demostrada el sangrado y pueden dar una absorción errática.",
+      "monitorizacion": "Ninguna analítica de rutina. Vigilancia clínica de sangrado digestivo, anemia ferropénica y síntomas dispépticos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida en estómago e intestino delgado; masticar el comprimido acelera el inicio del efecto, algo relevante en el síndrome coronario agudo.",
+      "distribucion": "El efecto se produce en la circulación PORTAL, antes del primer paso hepático: por eso una dosis baja basta para acetilar toda la masa plaquetaria.",
+      "metabolismo": "Hidrólisis rápida a salicilato; el ácido acetilsalicílico como tal desaparece en minutos aunque su efecto dure días.",
+      "eliminacion": "Renal; la alcalinización de la orina acelera la eliminación del salicilato, principio en el que se basa el tratamiento de la intoxicación.",
+      "vida_media": "15-20 minutos del fármaco, pero efecto biológico de 7-10 DÍAS por su irreversibilidad. Esta disociación entre vida media y duración del efecto es la clave de su manejo perioperatorio.",
+      "ajuste_renal": "Evitar con FG por debajo de 30 salvo indicación cardiovascular clara; a dosis antiagregante el riesgo es menor que con dosis antiinflamatorias.",
+      "ajuste_hepatico": "Precaución en la hepatopatía avanzada por el riesgo hemorrágico añadido.",
+      "interacciones": [
+        {
+          "con": "IBUPROFENO",
+          "efecto": "Compite por el canal de la COX-1 y BLOQUEA el acceso del AAS, ANULANDO su efecto cardioprotector",
+          "gravedad": "alta",
+          "manejo": "Tomar el AAS al menos 30 minutos ANTES del ibuprofeno, o 8 h después. Preferir paracetamol o un AINE que no interfiera"
+        },
+        {
+          "con": "Anticoagulantes (heparinas, antivitamina K, anticoagulantes directos)",
+          "efecto": "Riesgo hemorrágico marcadamente aditivo",
+          "gravedad": "alta",
+          "manejo": "Asociar solo con indicación firme y por el menor tiempo posible; añadir protección gástrica"
+        },
+        {
+          "con": "AINE y corticoides",
+          "efecto": "Sangrado y úlcera gastroduodenal",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación; si es imprescindible, inhibidor de la bomba de protones"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su eliminación renal y aumenta su toxicidad hematológica",
+          "gravedad": "alta",
+          "manejo": "Precaución con metotrexato a dosis altas"
+        },
+        {
+          "con": "IECA, ARA-II y diuréticos",
+          "efecto": "Reducción del efecto antihipertensivo y del efecto diurético por inhibición de prostaglandinas renales",
+          "gravedad": "baja",
+          "manejo": "Poco relevante a dosis antiagregante"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia y pirosis",
+        "Sangrado menor: equimosis, epistaxis, gingivorragia",
+        "Anemia ferropénica por pérdidas digestivas crónicas ocultas"
+      ],
+      "graves": [
+        "HEMORRAGIA DIGESTIVA ALTA por úlcera péptica",
+        "Hemorragia intracraneal (poco frecuente pero grave)",
+        "SÍNDROME DE REYE en niños y adolescentes con infección vírica (gripe, varicela): encefalopatía y esteatosis hepática, potencialmente mortal",
+        "Broncoespasmo en la enfermedad respiratoria exacerbada por AAS (asma, poliposis nasal e intolerancia a AINE: tríada de Widal)",
+        "Crisis gotosa por reducción de la excreción de ácido úrico a dosis bajas"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia o intolerancia conocida al AAS y a los AINE (enfermedad respiratoria exacerbada por AAS)",
+      "Hemorragia activa, úlcera péptica activa",
+      "NIÑOS Y ADOLESCENTES con infección vírica, por el síndrome de Reye",
+      "Hemofilia y otras coagulopatías graves",
+      "Tercer trimestre del embarazo a dosis analgésicas"
+    ],
+    "perlas": [
+      "La disociación entre su vida media (20 minutos) y la duración de su efecto (7-10 días) es lo que gobierna todo su manejo práctico: no se puede revertir farmacológicamente, hay que esperar a que se generen plaquetas nuevas, y por eso se suspende 7 días antes de una cirugía de alto riesgo hemorrágico.",
+      "La interacción con el IBUPROFENO es de las más relevantes y menos conocidas: el ibuprofeno ocupa el canal de la COX-1 e impide que el AAS acetile su diana, anulando la cardioprotección. Un paciente con cardiopatía isquémica que toma ibuprofeno a diario para la artrosis puede estar, en la práctica, sin antiagregación.",
+      "En prevención PRIMARIA su balance beneficio-riesgo ha dejado de ser favorable en la mayoría de las personas: los ensayos recientes muestran que el sangrado compensa la reducción de eventos. Hoy la indicación se ha estrechado mucho, mientras que en prevención SECUNDARIA sigue siendo indiscutible.",
+      "Retirar el AAS a un paciente con STENT CORONARIO reciente por una cirugía menor o una extracción dental es una causa evitable de trombosis del stent, que tiene una mortalidad alta. En procedimientos de bajo riesgo hemorrágico el AAS se mantiene.",
+      "Más dosis no es más antiagregación: a partir de 100 mg/día solo aumenta el riesgo digestivo. Ver prescripciones de 300 o 500 mg como antiagregante crónico es un error frecuente.",
+      "En la prevención de la PREECLAMPSIA la ventana temporal es crítica: hay que empezar ANTES de la semana 16, cuando aún puede modificarse la placentación. Iniciado más tarde no sirve.",
+      "Una anemia ferropénica en un paciente que toma AAS crónico obliga a estudiar el tubo digestivo, no a atribuirla sin más al fármaco: el AAS puede ser la causa, pero también puede estar desenmascarando una neoplasia."
+    ],
+    "embarazo_lactancia": "A dosis bajas (100-150 mg) es seguro y está indicado para la prevención de la preeclampsia. A dosis analgésicas está contraindicado en el tercer trimestre (cierre del ductus arterioso y riesgo hemorrágico). Compatible con la lactancia a dosis bajas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 34 y 36; Harrison 20.ª ed., cap. de fármacos antiplaquetarios"
+  },
+  {
+    "id": "HEM-clopidogrel",
+    "nombre": "Clopidogrel",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Antiagregante plaquetario",
+    "subclase": "Inhibidor P2Y12: tienopiridina, profármaco de acción irreversible",
+    "vs_clase": [
+      "**Profármaco que requiere activación por CYP2C19**: metabolizadores lentos y omeprazol/esomeprazol reducen su eficacia (usar pantoprazol).",
+      "**Menos potente y con más variabilidad que ticagrelor y prasugrel**, pero **sangra menos**: de elección en el **síndrome coronario crónico**, el **ictus** y en **triple terapia** con anticoagulante.",
+      "**Irreversible**: suspender 5 días antes de cirugía."
+    ],
+    "mecanismo": "Es un PROFÁRMACO que requiere dos pasos de activación hepática (CYP2C19 sobre todo) para generar un metabolito activo que se une de forma IRREVERSIBLE al receptor P2Y12 del ADP en la plaqueta. Al bloquear la vía del ADP impide la amplificación de la agregación y la activación de la glucoproteína IIb/IIIa. Como el AAS bloquea la vía del tromboxano, ambos actúan sobre vías distintas y su efecto es sinérgico: ese es el fundamento de la doble antiagregación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Doble antiagregación tras síndrome coronario agudo o implante de stent",
+        "dosis": "Carga de 300-600 mg, después 75 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "En el síndrome coronario agudo se prefieren ticagrelor o prasugrel, más potentes; el clopidogrel se reserva al paciente con alto riesgo hemorrágico o que precisa anticoagulación"
+      },
+      {
+        "patologia": "Prevención secundaria en pacientes con intolerancia o alergia al AAS",
+        "dosis": "75 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Alternativa de elección al AAS en monoterapia"
+      },
+      {
+        "patologia": "Arteriopatía periférica sintomática",
+        "dosis": "75 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Ligeramente superior al AAS en esta indicación concreta"
+      },
+      {
+        "patologia": "Ictus isquémico o accidente isquémico transitorio de alto riesgo",
+        "dosis": "Carga de 300 mg y después 75 mg/24 h junto a AAS durante 21 días, seguido de monoterapia",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "La doble antiagregación breve reduce las recurrencias precoces; prolongarla más de 21-30 días solo añade hemorragias"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga (300-600 mg) cuando se necesita efecto rápido, como en el intervencionismo coronario; sin carga, el efecto pleno tarda 5-7 días.",
+      "titulacion": "No se titula: dosis fija de 75 mg/24 h.",
+      "duracion": "La doble antiagregación dura 6-12 meses tras el stent según el balance isquémico-hemorrágico (más corta si el riesgo de sangrado es alto), y solo 21-30 días tras el ictus.",
+      "fin": "Suspender 5-7 días antes de cirugía mayor. En un paciente con stent reciente, la decisión de suspender debe consultarse con cardiología: la trombosis del stent tiene alta mortalidad.",
+      "via": "VO.",
+      "monitorizacion": "Ninguna de rutina. Vigilancia de sangrado y de hemoglobina. Las pruebas de función plaquetaria y el genotipado de CYP2C19 no se recomiendan de forma sistemática, sino en casos seleccionados."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Requiere DOBLE activación hepática, principalmente por CYP2C19. Solo un 15% del fármaco absorbido llega a convertirse en metabolito activo, lo que lo hace muy vulnerable tanto a los polimorfismos genéticos como a las interacciones.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "El metabolito activo tiene vida media corta, pero la unión irreversible al receptor hace que el efecto dure toda la vida de la plaqueta (7-10 días).",
+      "ajuste_renal": "No precisa ajuste, aunque la uremia añade disfunción plaquetaria.",
+      "ajuste_hepatico": "Precaución en la insuficiencia hepática grave: se necesita hígado funcionante para activarlo.",
+      "interacciones": [
+        {
+          "con": "OMEPRAZOL y esomeprazol (inhibidores del CYP2C19)",
+          "efecto": "Reducen la conversión al metabolito activo y disminuyen el efecto antiagregante",
+          "gravedad": "media",
+          "manejo": "Usar PANTOPRAZOL, que apenas inhibe el CYP2C19, cuando se precise protección gástrica"
+        },
+        {
+          "con": "AAS, anticoagulantes, AINE, ISRS",
+          "efecto": "Riesgo hemorrágico aditivo",
+          "gravedad": "alta",
+          "manejo": "Limitar la duración de la terapia combinada y añadir protección gástrica"
+        },
+        {
+          "con": "Fluoxetina, fluvoxamina, moclobemida (inhibidores del CYP2C19)",
+          "efecto": "Menor activación y menor eficacia antiagregante",
+          "gravedad": "media",
+          "manejo": "Preferir otro antidepresivo o valorar un antiagregante que no requiera activación"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Induce el CYP2C19 y AUMENTA la activación, con mayor riesgo de sangrado",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado menor: equimosis, epistaxis",
+        "Diarrea y dolor abdominal",
+        "Exantema y prurito"
+      ],
+      "graves": [
+        "HEMORRAGIA MAYOR, sobre todo digestiva",
+        "PÚRPURA TROMBÓTICA TROMBOCITOPÉNICA (muy rara pero potencialmente mortal, típicamente en las primeras 2 semanas)",
+        "Neutropenia y aplasia medular (raras)",
+        "Trombosis del stent si se suspende prematuramente"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa (úlcera péptica sangrante, hemorragia intracraneal)",
+      "Hipersensibilidad al fármaco",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Es un PROFÁRMACO, y de ahí derivan sus dos grandes problemas: los METABOLIZADORES LENTOS de CYP2C19 (hasta el 30% de la población, con mayor prevalencia en asiáticos) obtienen una antiagregación insuficiente, y cualquier inhibidor del CYP2C19 reproduce farmacológicamente ese mismo defecto. El ticagrelor, que no es profármaco, escapa a ambos problemas.",
+      "La interacción con el OMEPRAZOL tiene una solución práctica y elegante: cambiar a PANTOPRAZOL, que apenas inhibe el CYP2C19. Es una de las sustituciones más rentables de la prescripción cardiovascular, porque no se puede renunciar a la protección gástrica en un paciente doblemente antiagregado.",
+      "El clopidogrel ya no es el inhibidor de P2Y12 de elección en el síndrome coronario agudo: ticagrelor y prasugrel son más potentes y más rápidos. Su lugar actual es el paciente con alto riesgo hemorrágico, el que necesita además anticoagulación, y el ictus.",
+      "Tras un ICTUS, la doble antiagregación se limita a 21-30 días: a partir de ahí solo aumenta el riesgo hemorrágico sin reducir más las recurrencias. Prolongarla es un error frecuente.",
+      "El prasugrel está CONTRAINDICADO si hay antecedente de ictus o accidente isquémico transitorio, y debe usarse con precaución en mayores de 75 años o con peso inferior a 60 kg. Es una diferencia clave dentro de la clase.",
+      "La PÚRPURA TROMBÓTICA TROMBOCITOPÉNICA es rara pero aparece en las primeras semanas: ante trombopenia con anemia hemolítica microangiopática y esquistocitos en un paciente que acaba de empezar clopidogrel, hay que suspenderlo y actuar de urgencia.",
+      "Suspender la doble antiagregación de forma prematura por una cirugía menor o una extracción dental es una causa clásica y evitable de trombosis del stent: en procedimientos de bajo riesgo hemorrágico se mantiene, y en el resto se consulta con cardiología."
+    ],
+    "embarazo_lactancia": "Datos limitados; se usa solo si el beneficio supera el riesgo. Se desaconseja durante la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., caps. de cardiopatía isquémica y de fármacos antiplaquetarios"
+  },
+  {
+    "id": "HEM-sulfato-ferroso",
+    "nombre": "Sulfato ferroso (hierro oral)",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Hierro (hematínico)",
+    "subclase": "Hierro oral: sal ferrosa (Fe2+)",
+    "vs_clase": [
+      "**Hierro ORAL de primera línea**, barato y eficaz si se absorbe.",
+      "**Absorción limitada y saturable**: dar **a días alternos** o una vez al día (la hepcidina sube tras cada dosis y frena la absorción de la siguiente); con vitamina C, lejos de comidas, IBP, calcio y té.",
+      "**Efectos digestivos frecuentes** (estreñimiento, náuseas, heces negras): la principal causa de abandono y de paso a hierro IV.",
+      "Tarda 2-3 meses en reponer depósitos (mantener 3 meses tras normalizar la Hb)."
+    ],
+    "mecanismo": "Aporta hierro FERROSO (Fe2+), la única forma que absorbe el transportador DMT1 del enterocito duodenal. El hierro absorbido se incorpora a la transferrina y se destina a la síntesis del grupo HEMO en el eritroblasto. La absorción está regulada por la HEPCIDINA hepática, que se eleva con la inflamación y con cada dosis de hierro: por eso el hierro oral se absorbe mal en los procesos inflamatorios y por eso dar dosis diarias repetidas es MENOS eficiente que darlas en días alternos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anemia ferropénica",
+        "dosis": "100-200 mg de hierro elemental al día, o 60-120 mg en DÍAS ALTERNOS",
+        "posologia": "Una vez al día en ayunas, o en días alternos",
+        "via": "VO",
+        "nota": "La pauta en días alternos consigue una absorción total mayor con menos efectos digestivos: es la recomendación actual"
+      },
+      {
+        "patologia": "Ferropenia sin anemia (astenia, síndrome de piernas inquietas, ferritina baja)",
+        "dosis": "60-100 mg de hierro elemental en días alternos",
+        "posologia": "Días alternos",
+        "via": "VO",
+        "nota": "La ferropenia sin anemia también produce síntomas y merece tratamiento y estudio etiológico"
+      },
+      {
+        "patologia": "Profilaxis en el embarazo y en la mujer con menorragia",
+        "dosis": "30-60 mg de hierro elemental al día",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Las necesidades se triplican en el embarazo; en la menorragia es imprescindible tratar además la causa"
+      },
+      {
+        "patologia": "Ferropenia del lactante y del niño",
+        "dosis": "3-6 mg/kg/día de hierro elemental",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "La ferropenia en la infancia se asocia a alteraciones del desarrollo neurocognitivo potencialmente irreversibles"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar con dosis única diaria en ayunas o, mejor, en días alternos. Antes de tratar hay que ESTUDIAR LA CAUSA de la ferropenia: en el varón y en la mujer posmenopáusica obliga a descartar neoplasia digestiva.",
+      "titulacion": "No se titula. Si hay intolerancia, se reduce la dosis, se pasa a días alternos o se cambia de sal antes de renunciar a la vía oral.",
+      "duracion": "Hasta normalizar la hemoglobina y después 3 MESES MÁS para rellenar los depósitos, con objetivo de ferritina por encima de 100 ng/mL.",
+      "fin": "Se retira cuando los depósitos están repletos y la causa está corregida. Si la causa persiste (menorragia, malabsorción), el tratamiento puede ser prolongado o intermitente.",
+      "via": "VO en AYUNAS, preferiblemente con vitamina C o zumo de naranja, que reduce el hierro férrico a ferroso y favorece su absorción.",
+      "monitorizacion": "RETICULOCITOS a los 7-10 días (primera señal de respuesta), hemoglobina a las 4 semanas (debe subir al menos 2 g/dL) y FERRITINA al final para confirmar la repleción de depósitos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo el 10-15% de la dosis, en DUODENO y yeyuno proximal. Se favorece con el ácido gástrico y la vitamina C; se inhibe con alimentos, té, café, calcio, inhibidores de la bomba de protones y la propia hepcidina.",
+      "distribucion": "Transportado por transferrina; almacenado como ferritina y hemosiderina en hígado, bazo y médula.",
+      "metabolismo": "No se metaboliza: se recicla en un circuito prácticamente cerrado.",
+      "eliminacion": "NO existe mecanismo fisiológico de excreción del hierro: solo se pierde por descamación celular, menstruación y sangrado. Esa ausencia de vía de eliminación es la razón de que la sobrecarga y la intoxicación sean peligrosas.",
+      "vida_media": "No aplicable en el sentido convencional; los depósitos tardan meses en repletarse.",
+      "ajuste_renal": "En la enfermedad renal crónica suele preferirse el hierro INTRAVENOSO, porque la hepcidina elevada por la inflamación bloquea la absorción intestinal.",
+      "ajuste_hepatico": "Precaución en la hepatopatía con sobrecarga férrica; contraindicado en la hemocromatosis.",
+      "interacciones": [
+        {
+          "con": "LEVOTIROXINA, bisfosfonatos, quinolonas, tetraciclinas, dolutegravir, bictegravir, penicilamina",
+          "efecto": "QUELACIÓN mutua con pérdida de eficacia de AMBOS fármacos",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2-4 horas. Es una de las interacciones por quelación más frecuentes de la prescripción habitual"
+        },
+        {
+          "con": "Inhibidores de la bomba de protones y antiácidos",
+          "efecto": "Reducen el ácido gástrico necesario para solubilizar el hierro y disminuyen su absorción",
+          "gravedad": "media",
+          "manejo": "Retirar el IBP si no está indicado; si es imprescindible, valorar hierro intravenoso"
+        },
+        {
+          "con": "Té, café, lácteos, cereales integrales (taninos, calcio, fitatos)",
+          "efecto": "Reducción importante de la absorción",
+          "gravedad": "media",
+          "manejo": "Tomarlo en ayunas y separado de estas bebidas y alimentos"
+        },
+        {
+          "con": "Vitamina C",
+          "efecto": "AUMENTA la absorción al reducir el hierro férrico a ferroso",
+          "gravedad": "baja",
+          "manejo": "Interacción beneficiosa: administrarlo con zumo de naranja"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "INTOLERANCIA DIGESTIVA: náuseas, epigastralgia, ESTREÑIMIENTO o diarrea (hasta el 30-40%, dosis-dependiente y principal causa de abandono)",
+        "HECES NEGRAS (efecto esperable e inocuo, que hay que advertir para no confundirlo con melenas)",
+        "Sabor metálico",
+        "Tinción dental con las formulaciones líquidas"
+      ],
+      "graves": [
+        "INTOXICACIÓN AGUDA por ingesta accidental en niños: una de las causas más frecuentes de intoxicación mortal en la infancia, con gastroenteritis hemorrágica, shock, acidosis metabólica y necrosis hepática",
+        "Sobrecarga férrica con administración prolongada sin indicación",
+        "Ulceración esofágica si el comprimido queda retenido"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemocromatosis y otras situaciones de sobrecarga férrica",
+      "Anemias no ferropénicas (talasemia, anemia sideroblástica) sin ferropenia asociada",
+      "Hipersensibilidad al preparado"
+    ],
+    "perlas": [
+      "El cambio de práctica más útil de los últimos años: las dosis en DÍAS ALTERNOS se absorben MEJOR que las diarias. Cada dosis eleva la hepcidina durante unas 24 h y bloquea la absorción de la siguiente, de modo que dar hierro todos los días es contraproducente. Los días alternos consiguen más hierro absorbido con menos efectos digestivos.",
+      "Recetar hierro sin BUSCAR LA CAUSA es un error potencialmente grave: en el varón y en la mujer posmenopáusica, una ferropenia obliga a estudiar el tubo digestivo. Tratar la anemia sin estudiarla puede retrasar meses el diagnóstico de un cáncer colorrectal.",
+      "Hay que ADVERTIR de las heces negras antes de que el paciente las vea: si no, acude a urgencias creyendo que tiene una melena, o abandona el tratamiento. Y a la inversa, las heces negras por hierro pueden enmascarar una hemorragia digestiva real.",
+      "La INTOXICACIÓN por hierro en niños es una de las intoxicaciones pediátricas más letales: los comprimidos parecen caramelos y no hay vía fisiológica de excreción. El antídoto es la DEFEROXAMINA. Insistir en guardar el frasco fuera del alcance forma parte de la prescripción.",
+      "El primer signo de respuesta al tratamiento son los RETICULOCITOS a los 7-10 días, mucho antes que la hemoglobina. Si no hay respuesta reticulocitaria, hay que revisar tres cosas: cumplimiento, absorción (celiaquía, gastritis atrófica, IBP) y sangrado persistente.",
+      "No hay que suspender el tratamiento al normalizar la hemoglobina: hacen falta 3 meses más para rellenar los depósitos. Suspenderlo antes garantiza la recidiva.",
+      "La QUELACIÓN con la levotiroxina es especialmente traicionera porque ambos son fármacos crónicos que el paciente toma por la mañana: separarlos 4 horas resuelve un hipotiroidismo aparentemente refractario."
+    ],
+    "embarazo_lactancia": "Seguro y frecuentemente necesario: las necesidades de hierro se triplican durante la gestación. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; Harrison 20.ª ed., cap. de anemia ferropénica"
+  },
+  {
+    "id": "HEM-acido-tranexamico",
+    "nombre": "Ácido tranexámico",
+    "sinonimos": [
+      "ATX"
+    ],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Antifibrinolítico",
+    "subclase": "Análogo de la lisina",
+    "mecanismo": "Ocupa de forma reversible los sitios de unión a LISINA del PLASMINÓGENO, impidiendo que este se ancle a la fibrina y se convierta en plasmina activa sobre el coágulo. El resultado es que el coágulo ya formado NO se disuelve. No favorece la formación de trombos nuevos: solo impide la lisis del existente, y esa distinción es lo que explica su buen perfil de seguridad trombótica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia traumática grave o con riesgo de sangrado significativo",
+        "dosis": "1 g IV en 10 minutos, seguido de 1 g en perfusión durante 8 h",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "nota": "Debe administrarse en las PRIMERAS 3 HORAS del traumatismo: después de ese plazo no solo pierde eficacia sino que puede aumentar la mortalidad"
+      },
+      {
+        "patologia": "Hemorragia posparto",
+        "dosis": "1 g IV, repetible a los 30 minutos si persiste el sangrado",
+        "posologia": "Dosis única repetible",
+        "via": "IV",
+        "nota": "Reduce la mortalidad por hemorragia; cuanto más precoz, mayor beneficio"
+      },
+      {
+        "patologia": "Menorragia (sangrado menstrual abundante)",
+        "dosis": "1 g/8 h durante los días de sangrado (máximo 4 días)",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Reduce el sangrado un 40-50%; opción no hormonal muy útil en la mujer que no desea o no puede usar anticoncepción hormonal"
+      },
+      {
+        "patologia": "Profilaxis y tratamiento del sangrado quirúrgico (cirugía cardiaca, ortopédica mayor)",
+        "dosis": "10-15 mg/kg IV antes de la incisión, con o sin perfusión posterior",
+        "posologia": "Preoperatoria y perioperatoria",
+        "via": "IV",
+        "nota": "Reduce de forma consistente las necesidades transfusionales en artroplastia de cadera y rodilla"
+      },
+      {
+        "patologia": "Epistaxis y sangrado de mucosas, incluido el paciente anticoagulado",
+        "dosis": "Aplicación tópica con gasa empapada, o 1 g/8 h VO",
+        "posologia": "Según el cuadro",
+        "via": "Tópica o VO",
+        "nota": "Muy útil también en extracciones dentales del paciente anticoagulado, como enjuague, evitando suspender el anticoagulante"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cuanto ANTES en el sangrado agudo: su eficacia depende críticamente de la precocidad. En la menorragia se inicia con el comienzo del sangrado.",
+      "titulacion": "No se titula: dosis fija ajustada al peso o a la indicación.",
+      "duracion": "8 h en el traumatismo; los días de sangrado en la menorragia (máximo 4); perioperatoria en cirugía.",
+      "fin": "Suspensión sin descenso progresivo.",
+      "via": "IV (lentamente, por riesgo de hipotensión), VO o TÓPICA (enjuague o gasa empapada).",
+      "monitorizacion": "Clínica del sangrado; vigilancia de síntomas trombóticos; función renal para ajustar la dosis; convulsiones a dosis altas en cirugía cardiaca."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 30-50%, independiente del alimento.",
+      "distribucion": "Amplia, incluidos líquido sinovial y LCR; escasa unión a proteínas.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "RENAL, más del 90% inalterado. Esa dependencia renal casi total obliga a ajustar la dosis en la insuficiencia renal.",
+      "vida_media": "2-3 h; se prolonga de forma marcada con el filtrado glomerular reducido.",
+      "ajuste_renal": "OBLIGATORIO: reducir la dosis según el filtrado glomerular (aproximadamente a la mitad con FG 30-60 y a un cuarto por debajo de 30). La acumulación es la causa principal de las convulsiones.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos hormonales combinados",
+          "efecto": "Riesgo trombótico teóricamente aditivo",
+          "gravedad": "media",
+          "manejo": "Precaución en la mujer con factores de riesgo trombótico; el riesgo real en el uso corto para menorragia es bajo"
+        },
+        {
+          "con": "Complejo protrombínico y factor VII activado",
+          "efecto": "Riesgo trombótico aditivo",
+          "gravedad": "alta",
+          "manejo": "Usar solo con indicación clara en la hemorragia masiva"
+        },
+        {
+          "con": "Fibrinolíticos (alteplasa, tenecteplasa)",
+          "efecto": "Antagonismo directo de su mecanismo de acción",
+          "gravedad": "alta",
+          "manejo": "Contraindicados de forma simultánea, salvo que se busque revertir la fibrinólisis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos y diarrea (sobre todo por vía oral)",
+        "Hipotensión con la administración intravenosa RÁPIDA",
+        "Cefalea",
+        "Alteraciones visuales transitorias"
+      ],
+      "graves": [
+        "CONVULSIONES, dosis-dependientes, descritas sobre todo con dosis altas en cirugía cardiaca y en la insuficiencia renal no ajustada (por antagonismo de los receptores de glicina)",
+        "Fenómenos trombóticos (poco frecuentes con las pautas habituales)",
+        "Alteración de la visión de los colores con el uso prolongado",
+        "Obstrucción de la vía urinaria por coágulos si se administra en hematuria de origen alto"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad tromboembólica activa",
+      "HEMATURIA DE ORIGEN ALTO (renal), por riesgo de obstrucción ureteral por coágulos",
+      "Coagulación intravascular diseminada activa (salvo casos muy seleccionados y con hematología)",
+      "Convulsiones no controladas",
+      "Hipersensibilidad al fármaco"
+    ],
+    "perlas": [
+      "La VENTANA DE 3 HORAS en el traumatismo no es una recomendación blanda: administrado más tarde no solo pierde eficacia, sino que en los ensayos se asoció a MAYOR mortalidad por sangrado. La hora de la lesión, y no la de llegada al hospital, es la que cuenta.",
+      "Es un fármaco barato, disponible en cualquier centro y con un impacto demostrado en mortalidad tanto en el trauma como en la hemorragia posparto: es una de las intervenciones con mejor relación coste-beneficio de toda la medicina de urgencias.",
+      "No favorece la formación de trombos nuevos: solo impide que se disuelva el ya formado. Entender esa diferencia disuelve buena parte del miedo trombótico que rodea a su prescripción.",
+      "Las CONVULSIONES son dosis-dependientes y aparecen sobre todo cuando se acumula: dosis altas en cirugía cardiaca o falta de ajuste en la insuficiencia renal. Al eliminarse más del 90% por el riñón, el ajuste renal no es opcional.",
+      "En la HEMATURIA de origen renal está contraindicado, porque estabiliza los coágulos dentro de la vía urinaria y puede provocar obstrucción ureteral y cólico.",
+      "Su uso TÓPICO está infrautilizado: enjuagues en extracciones dentales del paciente anticoagulado y gasa empapada en epistaxis resuelven muchos sangrados sin tocar la anticoagulación.",
+      "En la MENORRAGIA es una alternativa no hormonal excelente, que la paciente toma solo los días de sangrado y que reduce el flujo casi a la mitad; con frecuencia se olvida frente a las opciones hormonales."
+    ],
+    "embarazo_lactancia": "Se emplea en la hemorragia posparto con seguridad demostrada. Atraviesa la placenta; su uso durante el embarazo se reserva a indicaciones claras. Compatible con la lactancia (paso mínimo a la leche).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de trastornos de la hemostasia"
+  }
+]

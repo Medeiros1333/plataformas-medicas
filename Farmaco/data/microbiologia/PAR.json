@@ -1,0 +1,574 @@
+[
+  {
+    "id": "PAR-toxoplasma-gondii",
+    "nombre": "Toxoplasma gondii",
+    "grupo": "PAR",
+    "nivel": 1,
+    "clasificacion": "PROTOZOO coccidio intracelular obligado; huésped DEFINITIVO el GATO (único animal donde completa el ciclo sexual y elimina ooquistes), huésped intermediario el ser humano y otros mamíferos",
+    "morfologia_tincion": "Taquizoítos en forma de media luna (visibles con Giemsa en la fase aguda) y quistes tisulares llenos de bradizoítos en músculo, retina y cerebro. Los ooquistes se eliminan con las heces del gato.",
+    "mecanismo_patogenia": [
+      "Tres formas infectantes: TAQUIZOÍTO (forma proliferativa de la infección aguda, atraviesa la placenta), BRADIZOÍTO (dentro de quistes tisulares, forma latente y responsable de la transmisión por carne cruda) y OOQUISTE (eliminado por el gato, transmitido por agua o verduras contaminadas).",
+      "Invade cualquier célula nucleada formando una vacuola parasitófora que evita la fusión con el lisosoma.",
+      "La inmunidad CELULAR contiene la infección convirtiéndola en QUISTES TISULARES latentes de por vida en cerebro, retina y músculo. La caída de los CD4 por debajo de 100 permite la REACTIVACIÓN de esos quistes: la toxoplasmosis cerebral del SIDA es casi siempre una reactivación, no una primoinfección.",
+      "En el EMBARAZO, solo la PRIMOINFECCIÓN materna transmite al feto. El riesgo de transmisión AUMENTA con la edad gestacional (10-15% en el primer trimestre, >60% en el tercero), pero la GRAVEDAD de la afectación fetal DISMINUYE: la infección precoz es rara pero devastadora.",
+      "La lesión ocular se produce por la necrosis retiniana y la respuesta inflamatoria en la coroides."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Toxoplasmosis aguda en el inmunocompetente",
+        "clinica": "Asintomática en el 80-90%. Cuando da síntomas: LINFADENOPATÍA CERVICAL POSTERIOR indolora, febrícula y astenia prolongada, simulando una mononucleosis con serología de VEB negativa.",
+        "lesiones": "Hiperplasia folicular reactiva con histiocitos epitelioides (linfadenitis de Piringer-Kuchinka).",
+        "clave": "Es una de las causas del síndrome mononucleósico con anticuerpos heterófilos negativos, junto al CMV y a la primoinfección por VIH."
+      },
+      {
+        "cuadro": "Toxoplasmosis cerebral en el paciente con VIH",
+        "clinica": "CD4 <100: cefalea, fiebre, FOCALIDAD NEUROLÓGICA (hemiparesia, afasia), convulsiones y alteración del nivel de conciencia, de instauración subaguda.",
+        "lesiones": "Lesiones MÚLTIPLES con REALCE EN ANILLO y edema perilesional, con predilección por GANGLIOS BASALES y unión corticosubcortical.",
+        "clave": "Diagnóstico diferencial con el LINFOMA PRIMARIO del SNC: el linfoma suele ser una lesión ÚNICA, periventricular, con serología de Toxoplasma negativa y VEB positivo en LCR. Ante lesiones múltiples con IgG positiva se trata EMPÍRICAMENTE y se reevalúa a las 2 semanas."
+      },
+      {
+        "cuadro": "Toxoplasmosis congénita",
+        "clinica": "La mayoría son asintomáticos al nacer y desarrollan secuelas (sobre todo CORIORRETINITIS) años después. TRÍADA CLÁSICA: coriorretinitis + hidrocefalia + CALCIFICACIONES INTRACRANEALES DIFUSAS.",
+        "lesiones": "Calcificaciones intracraneales DIFUSAS y dispersas (a diferencia de las PERIVENTRICULARES del CMV), coriorretinitis necrotizante, hidrocefalia obstructiva.",
+        "clave": "La regla mnemotécnica: Toxoplasma = calcificaciones DIFUSAS e hidrocefalia; CMV = calcificaciones PERIVENTRICULARES y microcefalia."
+      },
+      {
+        "cuadro": "Coriorretinitis toxoplásmica",
+        "clinica": "Visión borrosa, miodesopsias y dolor ocular; puede ser congénita reactivada en la adolescencia o adquirida.",
+        "lesiones": "Foco de retinitis necrotizante blanco-amarillento adyacente a una CICATRIZ pigmentada antigua («lesión satélite»), con vitritis que da el aspecto de «faro en la niebla».",
+        "clave": "Es la causa más frecuente de retinocoroiditis infecciosa posterior; el hallazgo de una lesión activa junto a una cicatriz antigua es muy característico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El gato es el huésped definitivo, pero en la práctica la vía de transmisión más frecuente en Europa es el consumo de CARNE POCO COCINADA con quistes tisulares, no el contacto con gatos.",
+      "En la embarazada, la prevención es dietética e higiénica: carne bien cocinada o previamente congelada, lavado de verduras, guantes para la jardinería y evitar limpiar la bandeja del gato.",
+      "Solo la primoinfección durante el embarazo transmite: una mujer con IgG positiva ANTES de la gestación está protegida.",
+      "La avidez de la IgG permite datar la infección: una avidez ALTA descarta una infección en los últimos 3-4 meses, dato decisivo en la gestante con IgM positiva.",
+      "La IgM puede persistir MESES O AÑOS: una IgM positiva aislada NO significa infección reciente y es una fuente frecuente de alarma injustificada en el embarazo.",
+      "En el paciente con VIH y lesión cerebral con realce en anillo, se trata empíricamente y la respuesta clínico-radiológica en 2 semanas confirma el diagnóstico; la ausencia de respuesta obliga a biopsia para descartar linfoma.",
+      "La profilaxis con cotrimoxazol frente a Pneumocystis protege simultáneamente frente a Toxoplasma."
+    ],
+    "diagnostico": {
+      "muestra": "Suero (IgG, IgM, avidez), LCR y sangre para PCR, líquido amniótico para PCR en la sospecha de infección fetal, humor acuoso en la afectación ocular.",
+      "pruebas": [
+        "Serología IgG e IgM con TEST DE AVIDEZ de la IgG para datar la infección",
+        "PCR en líquido amniótico (a partir de la semana 18) para confirmar la transmisión fetal",
+        "RM o TC craneal con contraste: lesiones múltiples con realce en anillo",
+        "PCR de Toxoplasma en LCR (alta especificidad, sensibilidad moderada)",
+        "Fondo de ojo en la sospecha de coriorretinitis",
+        "Ecografía fetal seriada"
+      ],
+      "claves": "La combinación IgM positiva + avidez de IgG ALTA en una gestante indica infección antigua y evita intervenciones innecesarias."
+    },
+    "tratamiento": {
+      "eleccion": "PIRIMETAMINA + SULFADIAZINA + ÁCIDO FOLÍNICO (este último obligatorio para prevenir la mielosupresión por el bloqueo del folato). En la toxoplasmosis cerebral del paciente con VIH, durante 6 semanas.",
+      "alternativas": "COTRIMOXAZOL a dosis altas (alternativa práctica y muy usada). Pirimetamina + CLINDAMICINA en alérgicos a sulfamidas. En el EMBARAZO: ESPIRAMICINA hasta la semana 18 (reduce la transmisión pero no atraviesa bien la placenta) y, si se confirma la infección fetal, pirimetamina + sulfadiazina + ácido folínico a partir de la semana 18.",
+      "resistencias": "No constituyen un problema clínico relevante.",
+      "duracion": "6 semanas en la toxoplasmosis cerebral aguda, seguidas de PROFILAXIS SECUNDARIA (dosis reducida) hasta que los CD4 superen 200 durante más de 6 meses. Toxoplasmosis congénita: 12 meses de tratamiento. El inmunocompetente asintomático NO requiere tratamiento.",
+      "notas": "El ÁCIDO FOLÍNICO (no el ácido fólico) es obligatorio con la pirimetamina: previene la mielosupresión sin antagonizar el efecto antiparasitario. Vigilar el hemograma semanalmente."
+    },
+    "farmacos_relacionados": [
+      "INF-clindamicina",
+      "INF-cotrimoxazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 70 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de toxoplasmosis"
+  },
+  {
+    "id": "PAR-giardia-lamblia",
+    "nombre": "Giardia lamblia (intestinalis / duodenalis)",
+    "grupo": "PAR",
+    "nivel": 1,
+    "clasificacion": "PROTOZOO FLAGELADO no invasivo, con dos formas: trofozoíto (patógeno, en el duodeno) y quiste (forma infectante y de resistencia ambiental)",
+    "morfologia_tincion": "Trofozoíto piriforme, binucleado, con 4 pares de flagelos y un disco ventral de succión, con el característico aspecto «en cara sonriente» o de «pera con ojos». Quistes ovalados con 4 núcleos. Se visualizan con Lugol o tricrómico en heces.",
+    "mecanismo_patogenia": [
+      "Los QUISTES resisten la cloración habitual del agua: por eso los brotes se asocian a aguas de montaña, pozos, piscinas y sistemas de abastecimiento con cloración pero sin filtración adecuada.",
+      "El trofozoíto se adhiere al epitelio del DUODENO y el yeyuno proximal mediante un disco ventral de succión, SIN invadir la mucosa ni producir toxinas: por eso NO hay sangre, moco ni pus en las heces, y no hay fiebre.",
+      "Produce ATROFIA VELLOSITARIA parcial y déficit de disacaridasas (sobre todo lactasa), con MALABSORCIÓN de grasas y azúcares: de ahí la esteatorrea, la distensión, la flatulencia fétida y la intolerancia secundaria a la lactosa que persiste semanas tras la curación.",
+      "La cobertura física del epitelio por miles de trofozoítos y la alteración de las uniones estrechas contribuyen a la malabsorción.",
+      "La IgA secretora es la principal defensa: los pacientes con INMUNODEFICIENCIA COMÚN VARIABLE o déficit de IgA presentan giardiasis crónica y recurrente."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Giardiasis aguda",
+        "clinica": "Tras 1-2 semanas de incubación: diarrea acuosa, explosiva y MALOLIENTE, distensión abdominal, flatulencia abundante y eructos con sabor sulfuroso, náuseas y anorexia. SIN fiebre ni sangre en heces.",
+        "lesiones": "Atrofia vellositaria parcial del duodeno con infiltrado inflamatorio leve.",
+        "clave": "El olor especialmente fétido de las heces y los gases, con ausencia de fiebre y de productos patológicos, es muy característico."
+      },
+      {
+        "cuadro": "Giardiasis crónica y malabsorción",
+        "clinica": "Diarrea intermitente durante semanas o meses, pérdida de peso, esteatorrea, astenia; en niños, retraso del crecimiento.",
+        "lesiones": "Atrofia vellositaria que puede simular una enfermedad celíaca en la biopsia duodenal.",
+        "clave": "Es una causa tratable de síndrome malabsortivo y de fallo de medro: hay que descartarla antes de diagnosticar una celiaquía."
+      },
+      {
+        "cuadro": "Intolerancia secundaria a la lactosa postgiardiasis",
+        "clinica": "Persistencia de diarrea, distensión y flatulencia tras erradicar el parásito, desencadenada por los lácteos.",
+        "lesiones": "Déficit transitorio de disacaridasas por la lesión del borde en cepillo.",
+        "clave": "Explicarla evita repetir ciclos de metronidazol innecesarios: se maneja con dieta sin lactosa durante 4-6 semanas."
+      },
+      {
+        "cuadro": "Giardiasis en la inmunodeficiencia humoral",
+        "clinica": "Diarrea crónica recurrente y refractaria en pacientes con déficit de IgA o inmunodeficiencia común variable.",
+        "lesiones": "Colonización masiva persistente; hiperplasia nodular linfoide del intestino.",
+        "clave": "Una giardiasis recurrente o refractaria en un adulto obliga a estudiar las inmunoglobulinas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es el protozoo intestinal más frecuente en países desarrollados y una causa clásica de la diarrea del excursionista y de brotes en guarderías.",
+      "No invade y no produce toxinas: nunca hay fiebre alta, sangre ni pus en las heces. Ese perfil «no inflamatorio» es su firma clínica.",
+      "El examen de heces requiere TRES MUESTRAS en días alternos, porque la eliminación de quistes es INTERMITENTE; una sola muestra negativa no descarta el diagnóstico.",
+      "La detección de ANTÍGENO en heces o la PCR tienen mucha mayor sensibilidad que la microscopía y han desplazado al estudio parasitológico convencional.",
+      "El metronidazol o el tinidazol (dosis única) son el tratamiento de elección; el tinidazol tiene mejor cumplimiento por la dosis única.",
+      "Los quistes resisten la cloración: la prevención se basa en la filtración o el hervido del agua, no en la desinfección química.",
+      "Los síntomas pueden persistir semanas tras la erradicación por la intolerancia secundaria a la lactosa: no es fracaso terapéutico."
+    ],
+    "diagnostico": {
+      "muestra": "HECES (tres muestras en días alternos); aspirado duodenal o biopsia duodenal en casos dudosos.",
+      "pruebas": [
+        "Detección de ANTÍGENO en heces (ELISA o inmunocromatografía): alta sensibilidad, prueba de elección",
+        "PCR en heces, cada vez más disponible en paneles multiplex",
+        "Examen microscópico de heces con Lugol y tricrómico: quistes y trofozoítos, con eliminación intermitente",
+        "Aspirado o biopsia duodenal (test de Enterotest): reservado a casos con alta sospecha y estudios de heces repetidamente negativos"
+      ],
+      "claves": "Una sola muestra de heces tiene una sensibilidad de solo el 50-70%: hay que insistir con tres muestras o usar detección de antígeno."
+    },
+    "tratamiento": {
+      "eleccion": "METRONIDAZOL 250 mg/8 h durante 5-7 días, o TINIDAZOL 2 g en DOSIS ÚNICA (mejor cumplimiento y eficacia similar o superior).",
+      "alternativas": "Nitazoxanida (de elección en niños pequeños por su mejor sabor y tolerancia), albendazol, paromomicina (de elección en el EMBARAZO por no absorberse).",
+      "resistencias": "El fracaso suele deberse a reinfección o a mal cumplimiento, aunque existen cepas con resistencia relativa a nitroimidazoles que responden a tandas más largas o a combinaciones.",
+      "duracion": "Dosis única (tinidazol) o 5-7 días (metronidazol). En el fracaso, repetir con otra familia o prolongar el tratamiento.",
+      "notas": "Recordar la ABSTINENCIA de alcohol con metronidazol y tinidazol (reacción tipo disulfiram). Tratar a los convivientes sintomáticos y reforzar la higiene de manos en guarderías."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol",
+      "INF-metronidazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 71 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por protozoos intestinales"
+  },
+  {
+    "id": "PAR-entamoeba-histolytica",
+    "nombre": "Entamoeba histolytica",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "PROTOZOO AMEBA con dos formas: trofozoíto (invasivo, en el tejido) y quiste tetranucleado (forma infectante y de transmisión fecal-oral)",
+    "morfologia_tincion": "Trofozoíto con seudópodos, núcleo con cariosoma central pequeño y cromatina periférica fina y regular; característicamente contiene HEMATÍES FAGOCITADOS (eritrofagocitosis), signo que lo distingue de la ameba comensal E. dispar. Quistes con 4 núcleos.",
+    "mecanismo_patogenia": [
+      "Los quistes se ingieren con agua o alimentos contaminados; en el intestino delgado se desenquistan y los trofozoítos colonizan el COLON.",
+      "La lectina Gal/GalNAc media la ADHERENCIA al epitelio colónico; las amebaporinas lisan las células y las cisteín-proteasas degradan la matriz extracelular y las inmunoglobulinas.",
+      "La invasión produce ÚLCERAS «EN BOTÓN DE CAMISA» (en matraz): boca estrecha en la mucosa y base ancha en la submucosa, porque el parásito se extiende lateralmente al encontrar la resistencia de la muscular.",
+      "Diseminación por vía PORTAL hasta el hígado, donde produce necrosis licuefactiva sin apenas neutrófilos: el «pus» del absceso amebiano es material necrótico estéril de aspecto achocolatado o «en pasta de anchoas».",
+      "Existen dos poblaciones parasitarias: la LUMINAL (quistes en la luz del colon) y la TISULAR (trofozoítos invasores). Los fármacos tisulares (metronidazol) NO erradican los quistes luminales: por eso hay que administrar SIEMPRE un amebicida luminal después.",
+      "E. dispar es morfológicamente idéntica pero NO invasiva ni patógena: no requiere tratamiento, y su confusión con E. histolytica genera tratamientos innecesarios."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Colitis amebiana (disentería amebiana)",
+        "clinica": "Instauración GRADUAL a lo largo de 1-3 semanas: dolor abdominal, diarrea con SANGRE y MOCO, tenesmo; fiebre en menos del 40% de los casos.",
+        "lesiones": "Úlceras «en botón de camisa» con mucosa intermedia normal, sobre todo en ciego y colon ascendente.",
+        "clave": "El inicio gradual y la escasa fiebre la distinguen de la disentería bacilar por Shigella, que es aguda y muy febril."
+      },
+      {
+        "cuadro": "Absceso hepático amebiano",
+        "clinica": "Fiebre, dolor en HIPOCONDRIO DERECHO con hepatomegalia dolorosa a la percusión, y con frecuencia SIN antecedente de diarrea (en más del 60% no hay historia de disentería). Predomina claramente en VARONES adultos.",
+        "lesiones": "Absceso ÚNICO, generalmente en el LÓBULO DERECHO, con contenido necrótico achocolatado «en pasta de anchoas» y ESTÉRIL en el cultivo bacteriano.",
+        "clave": "Es la manifestación extraintestinal más frecuente. La serología es positiva en más del 95% de los casos y es la prueba diagnóstica clave; la punción no suele ser necesaria."
+      },
+      {
+        "cuadro": "Complicaciones del absceso: rotura",
+        "clinica": "Rotura a peritoneo (peritonitis), a pleura o pericardio (la más grave, con taponamiento), o a bronquio (vómica de material achocolatado).",
+        "lesiones": "Extensión del contenido necrótico a cavidades vecinas.",
+        "clave": "Los abscesos del lóbulo IZQUIERDO tienen mayor riesgo de rotura a PERICARDIO, complicación de alta mortalidad que justifica el drenaje."
+      },
+      {
+        "cuadro": "Ameboma y megacolon tóxico",
+        "clinica": "Ameboma: masa inflamatoria en ciego que simula una neoplasia de colon. Colitis fulminante con megacolon tóxico y perforación en casos graves.",
+        "lesiones": "Masa granulomatosa; necrosis transmural.",
+        "clave": "Los CORTICOIDES administrados por error (confundiendo la colitis amebiana con una enfermedad inflamatoria intestinal) pueden desencadenar una colitis fulminante mortal: hay que descartar amebiasis antes de inmunosuprimir."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El tratamiento SIEMPRE tiene dos pasos: un amebicida TISULAR (metronidazol o tinidazol) seguido de un amebicida LUMINAL (paromomicina) para erradicar los quistes. Omitir el segundo condena a la recidiva y mantiene al paciente como transmisor.",
+      "La microscopía NO distingue E. histolytica de E. dispar (no patógena): se requiere detección de antígeno o PCR para diferenciarlas y evitar tratar a portadores de la especie comensal.",
+      "La eritrofagocitosis (trofozoíto con hematíes en su interior) es el único hallazgo microscópico que sugiere E. histolytica invasiva.",
+      "En el absceso hepático amebiano la SEROLOGÍA es la prueba clave (>95% de sensibilidad); en zonas endémicas, la IgG puede persistir años, por lo que su valor es mayor en el viajero.",
+      "El absceso amebiano responde al metronidazol solo, sin drenaje, en la mayoría de los casos: el drenaje se reserva para abscesos grandes, del lóbulo izquierdo, con riesgo de rotura o sin respuesta en 5-7 días.",
+      "Los CORTICOIDES y los antimotilidad están contraindicados: pueden precipitar una colitis fulminante.",
+      "Antes de iniciar corticoides o biológicos en un paciente procedente de zona endémica con clínica intestinal, hay que descartar amebiasis."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (tres muestras), suero para serología, aspirado del absceso (raramente necesario), biopsia del borde de las úlceras en colonoscopia.",
+      "pruebas": [
+        "Detección de ANTÍGENO en heces o PCR: permite DIFERENCIAR E. histolytica de E. dispar (imprescindible)",
+        "SEROLOGÍA (ELISA): positiva en >95% de los abscesos hepáticos y en el 70-80% de las colitis invasivas; negativa en el portador asintomático",
+        "Ecografía o TC abdominal: lesión hipoecoica única en lóbulo derecho",
+        "Microscopía de heces con visualización de trofozoítos con eritrofagocitosis",
+        "Colonoscopia con biopsia del BORDE de las úlceras (los trofozoítos están en el margen, no en el centro necrótico)"
+      ],
+      "claves": "En el absceso hepático, las heces suelen ser NEGATIVAS: el diagnóstico se apoya en la serología y la imagen, no en el estudio parasitológico."
+    },
+    "tratamiento": {
+      "eleccion": "METRONIDAZOL 750 mg/8 h durante 7-10 días (o tinidazol 2 g/24 h durante 3-5 días), SEGUIDO OBLIGATORIAMENTE de PAROMOMICINA 500 mg/8 h durante 7 días como amebicida luminal.",
+      "alternativas": "Yodoquinol o furoato de diloxanida como amebicidas luminales alternativos. En el portador asintomático de E. histolytica confirmada: SOLO amebicida luminal (paromomicina).",
+      "resistencias": "No constituyen un problema clínico relevante; el fracaso se debe casi siempre a omitir el amebicida luminal.",
+      "duracion": "7-10 días de metronidazol + 7 días de paromomicina. En el absceso hepático, mejoría clínica esperable en 72-96 h.",
+      "notas": "Drenaje percutáneo si el absceso es >5-10 cm, está en el lóbulo izquierdo, hay riesgo de rotura o no hay respuesta en 5-7 días. Abstinencia de alcohol con metronidazol."
+    },
+    "farmacos_relacionados": [
+      "INF-cloroquina-hidroxicloroquina",
+      "INF-metronidazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 71 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de amebiasis"
+  },
+  {
+    "id": "PAR-enterobius-vermicularis",
+    "nombre": "Enterobius vermicularis (oxiuros)",
+    "grupo": "PAR",
+    "nivel": 1,
+    "clasificacion": "NEMATODO (helminto redondo) intestinal de pequeño tamaño; la hembra mide 8-13 mm y el macho 2-5 mm",
+    "morfologia_tincion": "Gusano blanquecino, filiforme, visible A SIMPLE VISTA en la región perianal o en las heces. Huevos ovalados y ASIMÉTRICOS (aplanados por un lado), con larva en su interior, que se recogen con la prueba de la cinta adhesiva.",
+    "mecanismo_patogenia": [
+      "Ciclo directo y exclusivamente HUMANO, sin huésped intermediario: la hembra grávida MIGRA por la noche desde el ciego hasta la región PERIANAL, donde deposita miles de huevos y muere.",
+      "Los huevos son infectantes en POCAS HORAS y muy resistentes en el ambiente: se depositan en ropa interior, sábanas, juguetes y polvo doméstico.",
+      "AUTOINFECCIÓN por vía ano-mano-boca: el prurito nocturno lleva al rascado, los huevos quedan bajo las uñas y se reingieren, perpetuando el ciclo indefinidamente. Es la razón por la que hay que repetir la dosis a las 2 semanas y cortar las uñas.",
+      "La migración de las hembras y la reacción local causan el PRURITO ANAL NOCTURNO, síntoma cardinal.",
+      "No invade los tejidos ni causa daño sistémico: la clínica deriva del prurito, del insomnio y de la migración ocasional a genitales."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Enterobiasis (oxiuriasis)",
+        "clinica": "PRURITO ANAL de predominio NOCTURNO, insomnio, irritabilidad y bruxismo en el niño; frecuentemente hay varios miembros de la familia afectados.",
+        "lesiones": "Excoriaciones perianales por rascado, con posible sobreinfección bacteriana secundaria.",
+        "clave": "Es la helmintiasis más frecuente en países desarrollados, con máxima prevalencia en niños de edad escolar y en instituciones cerradas."
+      },
+      {
+        "cuadro": "Vulvovaginitis por oxiuros",
+        "clinica": "Prurito y flujo vulvar en niñas, por migración de las hembras desde el ano hacia la vulva y la vagina.",
+        "lesiones": "Vulvovaginitis inespecífica con eritema.",
+        "clave": "Es una causa frecuente y fácilmente tratable de vulvovaginitis prepuberal: hay que preguntar por prurito anal nocturno."
+      },
+      {
+        "cuadro": "Complicaciones infrecuentes",
+        "clinica": "Apendicitis con oxiuros en la luz apendicular (aunque su papel causal es discutido), granulomas peritoneales o en trompas por migración ectópica.",
+        "lesiones": "Granulomas eosinofílicos.",
+        "clave": "El hallazgo de oxiuros en una pieza de apendicectomía es habitualmente incidental."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El diagnóstico se hace con la PRUEBA DE LA CINTA ADHESIVA (test de Graham), aplicada en la región perianal POR LA MAÑANA ANTES DE LAVARSE O DEFECAR: los huevos están en la piel perianal, NO en las heces. Buscarlos en un estudio parasitológico de heces convencional es un error frecuente que da falsos negativos.",
+      "Hay que tratar A TODOS LOS CONVIVIENTES simultáneamente, estén o no sintomáticos: sin ello, la reinfección es la norma.",
+      "La SEGUNDA DOSIS a las 2 semanas es imprescindible: los antihelmínticos no matan los huevos, y la segunda dosis elimina los gusanos surgidos de los huevos que eclosionaron después.",
+      "Las medidas HIGIÉNICAS son tan importantes como el fármaco: lavado de manos, uñas cortas, cambio y lavado a alta temperatura de ropa interior y de cama, aspirar en lugar de barrer.",
+      "El prurito nocturno se explica por la migración de las hembras al exterior durante la noche, cuando el esfínter está relajado.",
+      "No produce eosinofilia significativa, a diferencia de las helmintiasis con fase de migración tisular."
+    ],
+    "diagnostico": {
+      "muestra": "Cinta adhesiva transparente aplicada a la región perianal por la mañana, antes de la higiene y de la defecación, durante 3 días consecutivos.",
+      "pruebas": [
+        "TEST DE GRAHAM (cinta adhesiva) con observación microscópica de los huevos asimétricos: prueba de elección",
+        "Visualización directa de los gusanos adultos en la región perianal 2-3 horas después de que el niño se duerma",
+        "El estudio parasitológico de HECES es POCO RENTABLE (positivo en menos del 5-15%)"
+      ],
+      "claves": "Tres cintas en días consecutivos alcanzan una sensibilidad superior al 90%; una sola cinta, solo el 50%."
+    },
+    "tratamiento": {
+      "eleccion": "MEBENDAZOL 100 mg en dosis única o ALBENDAZOL 400 mg en dosis única, REPETIDOS A LAS 2 SEMANAS. Tratar simultáneamente a TODOS los convivientes.",
+      "alternativas": "Pamoato de pirantel 11 mg/kg (máximo 1 g) en dosis única, repetido a las 2 semanas; es la opción preferida en el EMBARAZO por no absorberse.",
+      "resistencias": "No constituyen un problema clínico.",
+      "duracion": "Dosis única repetida a las 2 semanas. Si hay recurrencias repetidas, pueden pautarse ciclos cada 2 semanas durante 4-6 semanas.",
+      "notas": "Medidas higiénicas obligatorias durante al menos 2 semanas: lavado de ropa de cama e interior a más de 60 °C, uñas cortas, lavado de manos frecuente, ducha matutina y evitar sacudir la ropa de cama."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 74 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de nematodos intestinales"
+  },
+  {
+    "id": "PAR-ascaris-lumbricoides",
+    "nombre": "Ascaris lumbricoides",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "NEMATODO intestinal de gran tamaño (la hembra mide 20-35 cm), el helminto humano más grande y el de mayor prevalencia mundial",
+    "morfologia_tincion": "Gusano cilíndrico de color rosado-nacarado, de gran tamaño, visible a simple vista. Huevos ovalados con una gruesa cubierta mamelonada característica, identificables en el estudio de heces.",
+    "mecanismo_patogenia": [
+      "Transmisión FECAL-ORAL por ingesta de huevos embrionados presentes en el suelo, el agua o las verduras contaminadas (geohelmintiasis).",
+      "CICLO DE LOOSS (migración pulmonar): las larvas eclosionan en el intestino delgado, atraviesan la pared, llegan por vía portal al hígado y después al corazón derecho y al PULMÓN; rompen el capilar hacia el alvéolo, ascienden por el árbol bronquial hasta la faringe y son DEGLUTIDAS, madurando finalmente en el intestino delgado.",
+      "La fase de migración pulmonar produce el SÍNDROME DE LÖFFLER: infiltrados pulmonares migratorios con EOSINOFILIA marcada, tos y sibilancias, 1-2 semanas después de la ingesta.",
+      "Los gusanos adultos compiten por los nutrientes y, en infestaciones masivas (frecuentes en niños), pueden formar ovillos que OBSTRUYEN la luz intestinal.",
+      "Tienen tendencia a MIGRAR ante situaciones adversas (fiebre, anestesia, algunos fármacos), pudiendo introducirse en la vía biliar, el conducto pancreático o el apéndice."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Síndrome de Löffler (fase de migración pulmonar)",
+        "clinica": "Tos seca, sibilancias, disnea y febrícula 1-2 semanas tras la ingesta, con EOSINOFILIA muy marcada; autolimitado en 1-2 semanas.",
+        "lesiones": "Infiltrados pulmonares MIGRATORIOS y transitorios, con eosinófilos y larvas en el esputo.",
+        "clave": "Neumonía eosinofílica transitoria: si se observan infiltrados migratorios con eosinofilia en un paciente de zona endémica, hay que pensar en la fase larvaria de Ascaris o de anquilostomas. En esta fase los antihelmínticos NO son útiles."
+      },
+      {
+        "cuadro": "Ascariasis intestinal",
+        "clinica": "Con frecuencia asintomática. En infestaciones altas: dolor abdominal, distensión, náuseas, malnutrición y retraso del crecimiento en el niño. A veces el paciente expulsa un gusano por la boca o el ano, lo que resulta muy alarmante.",
+        "lesiones": "Presencia de gusanos adultos en la luz intestinal; malabsorción por competición nutricional.",
+        "clave": "Es la helmintiasis más prevalente del mundo, con más de 800 millones de personas infestadas."
+      },
+      {
+        "cuadro": "Obstrucción intestinal por ovillo de áscaris",
+        "clinica": "Dolor abdominal cólico intenso, vómitos, distensión y ausencia de deposiciones, típicamente en NIÑOS con alta carga parasitaria.",
+        "lesiones": "Ovillo de gusanos que ocluye la luz del íleon; puede haber vólvulo, invaginación o perforación.",
+        "clave": "Es la causa parasitaria más frecuente de obstrucción intestinal infantil en zonas endémicas."
+      },
+      {
+        "cuadro": "Ascariasis biliar y pancreatitis",
+        "clinica": "Cólico biliar intenso, ictericia obstructiva, colangitis o pancreatitis aguda por migración del gusano a la vía biliar.",
+        "lesiones": "Gusano visible en el colédoco por ecografía (imagen «en diana» o en «raíl») o en la CPRE.",
+        "clave": "La ecografía puede visualizar directamente el gusano moviéndose en la vía biliar, un hallazgo casi diagnóstico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El síndrome de Löffler y la eosinofilia aparecen durante la fase de MIGRACIÓN larvaria, no en la fase intestinal: cuando se diagnostica por huevos en heces, la eosinofilia ya suele haber descendido.",
+      "El diagnóstico se hace por huevos en heces, pero estos NO aparecen hasta 6-8 SEMANAS después de la ingesta (periodo prepatente): un estudio precoz de heces es negativo aunque el paciente tenga el síndrome de Löffler.",
+      "En la OBSTRUCCIÓN intestinal no debe administrarse un antihelmíntico que paralice a los gusanos sin resolver antes la obstrucción, porque el ovillo de gusanos muertos puede empeorarla: primero se descomprime y se hidrata, y el fármaco se administra después.",
+      "Puede migrar ante la fiebre, la anestesia general o algunos fármacos: hay que desparasitar antes de una cirugía programada en zonas endémicas.",
+      "La reinfestación es la norma en zonas endémicas sin saneamiento: la OMS realiza desparasitaciones masivas periódicas con albendazol o mebendazol.",
+      "Es una geohelmintiasis: la prevención pasa por el saneamiento, el lavado de verduras y el uso de calzado (para los anquilostomas que comparten epidemiología)."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (estudio parasitológico); esputo en la fase de migración pulmonar; visualización directa del gusano.",
+      "pruebas": [
+        "Estudio parasitológico de HECES con visualización de los huevos mamelonados (a partir de las 6-8 semanas)",
+        "Hemograma con EOSINOFILIA (marcada en la fase de migración, escasa en la fase intestinal)",
+        "Radiografía de tórax con infiltrados migratorios en la fase pulmonar",
+        "Ecografía abdominal o CPRE en la ascariasis biliar",
+        "Radiografía simple de abdomen en la obstrucción"
+      ],
+      "claves": "La discordancia temporal entre la clínica pulmonar (semana 1-2) y la aparición de huevos en heces (semana 6-8) explica muchos diagnósticos fallidos."
+    },
+    "tratamiento": {
+      "eleccion": "ALBENDAZOL 400 mg en dosis única o MEBENDAZOL 100 mg/12 h durante 3 días (o 500 mg en dosis única).",
+      "alternativas": "Pamoato de pirantel; ivermectina. En la obstrucción intestinal: descompresión con sonda nasogástrica, hidratación, y antihelmíntico una vez resuelta la fase aguda; cirugía si hay signos de perforación o isquemia. En la ascariasis biliar: CPRE con extracción del gusano.",
+      "resistencias": "No constituyen un problema clínico relevante en el ser humano.",
+      "duracion": "Dosis única en la mayoría de los casos. Repetir el estudio de heces a las 2-3 semanas para confirmar la curación.",
+      "notas": "En la fase de migración pulmonar (síndrome de Löffler) los antihelmínticos NO son eficaces sobre las larvas: el tratamiento es sintomático y se desparasita después."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 74 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de nematodos intestinales"
+  },
+  {
+    "id": "PAR-strongyloides-stercoralis",
+    "nombre": "Strongyloides stercoralis",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "NEMATODO intestinal con capacidad ÚNICA de AUTOINFECCIÓN: puede completar su ciclo completo dentro del huésped y persistir DÉCADAS",
+    "morfologia_tincion": "En las heces se identifican LARVAS RABDITIFORMES (no huevos, a diferencia del resto de nematodos intestinales), con un esófago corto en dos bulbos y un primordio genital prominente.",
+    "mecanismo_patogenia": [
+      "AUTOINFECCIÓN: las larvas rabditiformes pueden transformarse en larvas FILARIFORMES infectantes DENTRO del propio intestino, atravesar la mucosa colónica o la piel perianal y reiniciar el ciclo sin salir del huésped. Es lo que le permite persistir 30-40 años tras una única exposición.",
+      "Ciclo con migración pulmonar (como Ascaris): penetración cutánea de la larva filariforme desde el suelo → circulación → pulmón → ascenso bronquial → deglución → intestino delgado.",
+      "La inmunidad CELULAR (Th2, con IgE y eosinófilos) mantiene la autoinfección en un nivel bajo y asintomático.",
+      "Los CORTICOIDES rompen ese equilibrio de forma específica y catastrófica: suprimen la respuesta Th2 y además parecen actuar como señal similar a las ecdisteroides del parásito, acelerando la transformación a larvas filariformes. El resultado es la HIPERINFESTACIÓN y la diseminación.",
+      "En la diseminación, las larvas migran a todos los órganos ARRASTRANDO BACTERIAS INTESTINALES desde la pared del colon: por eso son características la bacteriemia y la MENINGITIS por gramnegativos entéricos (E. coli, Klebsiella, enterococo)."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Estrongiloidiasis crónica",
+        "clinica": "Frecuentemente ASINTOMÁTICA durante décadas, o con síntomas digestivos vagos (dolor epigástrico, diarrea intermitente), acompañados de EOSINOFILIA persistente inexplicada.",
+        "lesiones": "Enteritis crónica leve.",
+        "clave": "Una EOSINOFILIA persistente inexplicada en una persona que residió alguna vez en zona endémica (trópicos, subtrópicos, sur de Europa) obliga a descartar estrongiloidiasis, aunque hayan pasado décadas."
+      },
+      {
+        "cuadro": "Larva currens",
+        "clinica": "Lesión cutánea serpiginosa, urticariforme y muy pruriginosa, típicamente en nalgas, periné o tronco, que MIGRA a gran velocidad (5-10 cm/hora) y desaparece en horas.",
+        "lesiones": "Trayecto lineal eritematoso por la migración de la larva filariforme desde la región perianal.",
+        "clave": "Su velocidad de migración (centímetros por hora, frente a milímetros al día de la larva migrans cutánea por Ancylostoma) es prácticamente diagnóstica."
+      },
+      {
+        "cuadro": "Síndrome de hiperinfestación",
+        "clinica": "Tras corticoides, inmunosupresores o infección por HTLV-1: dolor abdominal intenso, íleo, diarrea, hemorragia digestiva, disnea, hemoptisis e infiltrados pulmonares.",
+        "lesiones": "Enteritis ulcerada, hemorragia alveolar, larvas visibles en esputo y en el aspirado duodenal.",
+        "clave": "La EOSINOFILIA suele DESAPARECER en la hiperinfestación (por los corticoides y por el consumo), lo que retrasa el diagnóstico y confunde al clínico."
+      },
+      {
+        "cuadro": "Estrongiloidiasis diseminada",
+        "clinica": "Fallo multiorgánico con SEPSIS y MENINGITIS por bacilos gramnegativos entéricos, arrastrados por las larvas migrantes. Mortalidad superior al 60-80%.",
+        "lesiones": "Larvas en pulmón, hígado, riñón, corazón y SNC; meningitis por E. coli o Klebsiella.",
+        "clave": "Una meningitis por gramnegativo entérico en un adulto sin cirugía ni instrumentación previa debe hacer sospechar estrongiloidiasis diseminada."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El CRIBADO ANTES DE INICIAR CORTICOIDES o inmunosupresores en pacientes procedentes de zonas endémicas (incluidos el sur de España, Italia y Portugal, y personas mayores que trabajaron descalzas en el campo) es una de las intervenciones preventivas más rentables de la medicina: previene una enfermedad con mortalidad superior al 60%.",
+      "Es el único helminto capaz de multiplicarse dentro del huésped: una única exposición puede producir infección de por vida.",
+      "La hiperinfestación se desencadena con dosis de corticoides tan bajas como 20 mg de prednisona durante pocas semanas, y también con la infección por HTLV-1 (que desvía la respuesta a Th1).",
+      "El estudio parasitológico de heces convencional tiene una sensibilidad de solo el 30-50% en una muestra: la SEROLOGÍA es mucho más sensible y es la prueba de cribado de elección.",
+      "En las heces se buscan LARVAS, no huevos: es el único nematodo intestinal donde esto ocurre, porque los huevos eclosionan dentro del intestino.",
+      "La IVERMECTINA es claramente superior al albendazol y es el tratamiento de elección.",
+      "La eosinofilia, que es el signo guía en la infección crónica, DESAPARECE en la hiperinfestación: su ausencia no descarta el diagnóstico en el paciente grave."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (varias muestras), suero para serología, aspirado duodenal, esputo y lavado broncoalveolar en la hiperinfestación, LCR y hemocultivos ante la sospecha de diseminación.",
+      "pruebas": [
+        "SEROLOGÍA (ELISA): prueba de CRIBADO de elección, sensibilidad >90%; puede dar reacción cruzada con otras filariasis",
+        "Estudio de heces con técnicas de concentración específicas (Baermann, cultivo en placa de agar): mucho más sensibles que el examen directo, que hay que solicitar expresamente",
+        "Visualización de LARVAS en esputo, lavado broncoalveolar o aspirado duodenal en la hiperinfestación",
+        "Hemograma con eosinofilia (ausente en la hiperinfestación)",
+        "Hemocultivos y cultivo de LCR ante sospecha de diseminación"
+      ],
+      "claves": "Hay que pedir expresamente al laboratorio la búsqueda de Strongyloides con técnicas específicas: el examen parasitológico rutinario tiene una sensibilidad muy baja."
+    },
+    "tratamiento": {
+      "eleccion": "IVERMECTINA 200 µg/kg/día durante 1-2 días, repetida a las 2 semanas (para cubrir el ciclo de autoinfección).",
+      "alternativas": "Albendazol 400 mg/12 h durante 7 días (menos eficaz). En la HIPERINFESTACIÓN: ivermectina DIARIA hasta 2 semanas después de la negativización parasitológica, junto a antibióticos de amplio espectro para la bacteriemia acompañante y, si es posible, retirada o reducción de la inmunosupresión.",
+      "resistencias": "No constituyen un problema clínico relevante.",
+      "duracion": "1-2 días con repetición a las 2 semanas en la forma crónica; tratamiento diario prolongado en la hiperinfestación.",
+      "notas": "En zonas endémicas de Loa loa hay que descartar loiasis antes de administrar ivermectina. Confirmar la erradicación con serología descendente a los 6-12 meses."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol",
+      "INF-ivermectina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 74 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de nematodos intestinales"
+  },
+  {
+    "id": "PAR-taenia-solium",
+    "nombre": "Taenia solium y Taenia saginata",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "CESTODOS (helmintos planos segmentados); T. solium tiene como huésped intermediario el CERDO y T. saginata la VACA. El ser humano es el huésped definitivo de ambas",
+    "morfologia_tincion": "Gusano plano segmentado de metros de longitud. T. solium: escólex con 4 ventosas Y CORONA DE GANCHOS (rostelo armado), proglótides con menos de 13 ramas uterinas. T. saginata: escólex SIN ganchos, proglótides con más de 15 ramas uterinas y motilidad propia. Los HUEVOS de ambas son INDISTINGUIBLES.",
+    "mecanismo_patogenia": [
+      "TENIASIS (parasitación intestinal por el gusano adulto): se adquiere al comer CARNE POCO COCINADA de cerdo (T. solium) o de vaca (T. saginata) que contiene cisticercos. El gusano adulto se fija al intestino delgado y produce escasos síntomas.",
+      "CISTICERCOSIS (parasitación tisular por las larvas): SOLO la produce T. solium, y se adquiere al ingerir los HUEVOS por vía FECAL-ORAL (agua, verduras o manos contaminadas por un portador humano de la tenia adulta), NO por comer carne de cerdo.",
+      "Esta distinción es clave: el vegetariano puede tener neurocisticercosis, y la fuente es un portador humano de teniasis, no el consumo de cerdo.",
+      "Las larvas atraviesan la pared intestinal, se diseminan por vía hematógena y se enquistan preferentemente en MÚSCULO, TEJIDO SUBCUTÁNEO, OJO y SISTEMA NERVIOSO CENTRAL.",
+      "El quiste vivo es inmunológicamente silente. Cuando MUERE (espontáneamente o por el tratamiento), libera antígenos y desencadena una intensa reacción INFLAMATORIA con edema: por eso las convulsiones aparecen años después de la infección y por eso el tratamiento antiparasitario debe cubrirse con corticoides."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Teniasis intestinal",
+        "clinica": "Habitualmente asintomática o con molestias abdominales leves, náuseas y sensación de hambre. El paciente puede observar la EXPULSIÓN DE PROGLÓTIDES por el ano o en la ropa interior, hallazgo que suele ser el motivo de consulta.",
+        "lesiones": "Gusano adulto adherido al intestino delgado, sin lesión tisular relevante.",
+        "clave": "En T. saginata las proglótides son MÓVILES y salen activamente por el ano, lo que resulta muy alarmante para el paciente; en T. solium son inmóviles y salen con las heces."
+      },
+      {
+        "cuadro": "Neurocisticercosis",
+        "clinica": "CONVULSIONES de nueva aparición en el adulto (es la causa más frecuente de epilepsia adquirida en el mundo), cefalea, hipertensión intracraneal, focalidad neurológica.",
+        "lesiones": "Quistes en distintos estadios: vesicular (vivo, sin realce), coloidal (en degeneración, con realce en anillo y edema), granular-nodular y CALCIFICADO. Formas: parenquimatosa, subaracnoidea (racemosa, sin escólex y de peor pronóstico) e intraventricular (riesgo de hidrocefalia aguda).",
+        "clave": "Una crisis convulsiva de novo en un adulto procedente de zona endémica (Latinoamérica, Asia, África) con una lesión quística calcificada o con realce en anillo es neurocisticercosis hasta que se demuestre lo contrario."
+      },
+      {
+        "cuadro": "Cisticercosis ocular",
+        "clinica": "Pérdida visual, miodesopsias, dolor; el quiste puede verse en el vítreo o en el espacio subretiniano.",
+        "lesiones": "Quiste intraocular, a menudo con el escólex visible.",
+        "clave": "Hay que hacer FONDO DE OJO ANTES de dar antiparasitarios: la muerte del quiste intraocular provoca una inflamación que puede causar CEGUERA irreversible. El tratamiento de la forma ocular es quirúrgico."
+      },
+      {
+        "cuadro": "Cisticercosis muscular y subcutánea",
+        "clinica": "Nódulos subcutáneos indoloros; habitualmente asintomática.",
+        "lesiones": "Calcificaciones musculares alargadas «en grano de arroz» visibles en radiografías simples.",
+        "clave": "Las calcificaciones en grano de arroz en muslos y hombros son un hallazgo radiológico incidental que sugiere cisticercosis previa."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La distinción fundamental: se come CARNE y se adquiere la TENIA (intestinal); se ingieren HUEVOS y se adquiere la CISTICERCOSIS (tisular). Solo T. solium causa cisticercosis.",
+      "Un portador de teniasis por T. solium es un riesgo de salud pública para su entorno: puede transmitir cisticercosis a sus convivientes por vía fecal-oral, por lo que hay que tratarlo y estudiar a la familia.",
+      "En la neurocisticercosis, los CORTICOIDES son obligatorios junto al albendazol: la muerte simultánea de múltiples quistes puede causar edema cerebral e hipertensión intracraneal mortal.",
+      "Antes de iniciar tratamiento antiparasitario hay que hacer FONDO DE OJO para descartar quistes intraoculares y valorar la presencia de hidrocefalia.",
+      "Los quistes CALCIFICADOS (inactivos) NO deben tratarse con antiparasitarios: ya están muertos y el tratamiento solo aporta inflamación. Se manejan con antiepilépticos si producen crisis.",
+      "En la forma intraventricular, el tratamiento es la extracción endoscópica y la derivación, no el antiparasitario aislado.",
+      "El escólex y las proglótides permiten diferenciar las especies, pero los huevos son idénticos: la identificación requiere examinar la proglótide o hacer PCR."
+    ],
+    "diagnostico": {
+      "muestra": "Heces (huevos y proglótides), suero y LCR para serología, biopsia de nódulo subcutáneo.",
+      "pruebas": [
+        "Estudio de heces con identificación de huevos (indistinguibles entre especies) y de PROGLÓTIDES (que sí permiten diferenciar por el número de ramas uterinas)",
+        "RM o TC craneal: quistes en distintos estadios, con o sin escólex visible («signo del punto» en el interior del quiste, muy específico)",
+        "SEROLOGÍA por inmunoblot (EITB) en suero, más sensible que en LCR",
+        "FONDO DE OJO obligatorio antes del tratamiento",
+        "Radiografía de partes blandas: calcificaciones en grano de arroz"
+      ],
+      "claves": "La visualización del ESCÓLEX dentro de un quiste en la RM es prácticamente patognomónica de neurocisticercosis."
+    },
+    "tratamiento": {
+      "eleccion": "TENIASIS intestinal: PRAZICUANTEL 5-10 mg/kg en dosis única, o niclosamida. NEUROCISTICERCOSIS parenquimatosa activa: ALBENDAZOL 15 mg/kg/día (± prazicuantel si hay múltiples quistes) durante 8-30 días, SIEMPRE con CORTICOIDES (dexametasona o prednisona) iniciados antes y con antiepilépticos si hay crisis.",
+      "alternativas": "Cirugía o extracción endoscópica en la forma intraventricular y en la ocular; derivación ventricular en la hidrocefalia. En la forma subaracnoidea/racemosa, tratamientos prolongados y repetidos.",
+      "resistencias": "No constituyen un problema clínico relevante.",
+      "duracion": "Dosis única en la teniasis. 8-30 días en la neurocisticercosis parenquimatosa, con ciclos repetidos si persisten quistes viables. Antiepilépticos durante 1-2 años tras la resolución radiológica.",
+      "notas": "En la teniasis por T. solium, tratar además a los convivientes y estudiar posibles casos de cisticercosis en el entorno. Prevención: cocción adecuada de la carne, saneamiento e higiene de manos."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol",
+      "INF-praziquantel"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 76 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de cestodos"
+  },
+  {
+    "id": "PAR-leishmania",
+    "nombre": "Leishmania (infantum, donovani, braziliensis)",
+    "grupo": "PAR",
+    "nivel": 3,
+    "clasificacion": "PROTOZOO flagelado intracelular obligado del sistema reticuloendotelial; transmitido por la picadura de FLEBOTOMOS (mosca de la arena), con el perro como principal reservorio en la cuenca mediterránea",
+    "morfologia_tincion": "En el ser humano adopta la forma de AMASTIGOTE: cuerpo redondeado SIN flagelo externo, con núcleo y CINETOPLASTO (una estructura en forma de barra, muy característica), situado DENTRO de los macrófagos. En el vector y en el cultivo adopta la forma de promastigote flagelado.",
+    "mecanismo_patogenia": [
+      "El flebotomo inocula promastigotes al picar; estos son fagocitados por los MACRÓFAGOS, donde se transforman en amastigotes y se multiplican dentro del fagolisosoma, resistiendo su acidez y sus enzimas.",
+      "La forma clínica depende de la ESPECIE y, sobre todo, de la respuesta INMUNITARIA del huésped: una respuesta Th1 eficaz contiene la infección en una lesión cutánea localizada; una respuesta deficiente o Th2 permite la diseminación visceral.",
+      "En la leishmaniasis VISCERAL, los amastigotes parasitan los macrófagos del bazo, hígado, médula ósea y ganglios, produciendo hiperplasia del sistema reticuloendotelial, PANCITOPENIA por hiperesplenismo e HIPERGAMMAGLOBULINEMIA policlonal (con inversión del cociente albúmina/globulina).",
+      "La coinfección por VIH altera radicalmente el cuadro: la leishmaniasis visceral es una infección oportunista con presentaciones atípicas y alta tasa de recaída.",
+      "En la forma mucocutánea (L. braziliensis, América), la respuesta inmunitaria hiperreactiva destruye el tejido mucoso años después de la lesión cutánea inicial."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Leishmaniasis visceral (kala-azar)",
+        "clinica": "Fiebre prolongada e irregular, ESPLENOMEGALIA MASIVA (que es el signo dominante), hepatomegalia, pérdida de peso, palidez y, en zonas endémicas asiáticas, hiperpigmentación cutánea (kala-azar = «fiebre negra»).",
+        "lesiones": "Infiltración del sistema reticuloendotelial por macrófagos parasitados; PANCITOPENIA, hipergammaglobulinemia policlonal e hipoalbuminemia.",
+        "clave": "La tríada fiebre prolongada + esplenomegalia masiva + pancitopenia con hipergammaglobulinemia debe hacer pensar en leishmaniasis visceral. En la cuenca mediterránea afecta a niños pequeños y a adultos inmunodeprimidos (VIH, anti-TNF)."
+      },
+      {
+        "cuadro": "Leishmaniasis cutánea (botón de Oriente)",
+        "clinica": "Pápula en el punto de la picadura (zona expuesta: cara, brazos) que crece lentamente y se ULCERA, con bordes elevados e indurados y fondo granulomatoso, INDOLORA salvo sobreinfección; evoluciona durante meses.",
+        "lesiones": "Úlcera crónica de bordes sobreelevados «en volcán», que cura dejando una cicatriz deprimida y permanente.",
+        "clave": "Úlcera crónica indolora que no cura en meses en una zona expuesta de un paciente que ha estado en el Mediterráneo, Oriente Medio o Latinoamérica."
+      },
+      {
+        "cuadro": "Leishmaniasis mucocutánea (espundia)",
+        "clinica": "Meses o años después de una lesión cutánea por L. braziliensis: destrucción progresiva de la mucosa nasal, del tabique, del paladar y de la faringe, con obstrucción nasal, epistaxis y desfiguración.",
+        "lesiones": "Destrucción del tabique nasal con «nariz de tapir»; puede llegar a la obstrucción de la vía aérea.",
+        "clave": "Obliga a tratamiento SISTÉMICO agresivo aunque la lesión cutánea inicial haya curado sola: la afectación mucosa es progresiva y mutilante."
+      },
+      {
+        "cuadro": "Leishmaniasis visceral en el paciente con VIH",
+        "clinica": "Presentación atípica: puede faltar la esplenomegalia, con afectación digestiva, pulmonar o cutánea inhabitual; recaídas frecuentes.",
+        "lesiones": "Amastigotes en localizaciones atípicas (tubo digestivo, piel, líquido pleural).",
+        "clave": "Es una infección oportunista definitoria en zonas endémicas; requiere profilaxis secundaria hasta la recuperación inmunitaria."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La leishmaniasis visceral es ENDÉMICA en la cuenca mediterránea, incluida España, con el PERRO como principal reservorio: no es solo una enfermedad tropical importada.",
+      "La ANFOTERICINA B LIPOSOMAL es el tratamiento de elección de la forma visceral en Europa, con tasas de curación superiores al 95% y mucha menos toxicidad que los antimoniales pentavalentes clásicos.",
+      "El diagnóstico de certeza es la visualización de AMASTIGOTES en el aspirado de MÉDULA ÓSEA (o de bazo, con mayor rendimiento pero mayor riesgo).",
+      "La hipergammaglobulinemia policlonal con inversión del cociente albúmina/globulina es un dato analítico clásico y muy orientativo.",
+      "La leishmaniasis cutánea localizada puede curar espontáneamente en meses, pero se trata para acelerar la curación, reducir la cicatriz y, en el caso de las especies americanas, prevenir la afectación mucosa.",
+      "En el paciente inmunodeprimido, especialmente con VIH, las recaídas son frecuentes y se requiere profilaxis secundaria.",
+      "El cinetoplasto del amastigote es la estructura que permite su identificación microscópica y lo diferencia de otras estructuras intracelulares."
+    ],
+    "diagnostico": {
+      "muestra": "ASPIRADO DE MÉDULA ÓSEA (de elección en la forma visceral), aspirado esplénico, biopsia o raspado del borde de la lesión cutánea, suero para serología.",
+      "pruebas": [
+        "Visualización de AMASTIGOTES con tinción de Giemsa en el aspirado de médula ósea o en la biopsia de la lesión",
+        "PCR: la técnica más sensible, útil también en sangre periférica en el inmunodeprimido y para el seguimiento",
+        "SEROLOGÍA (rK39 inmunocromatográfico, IFI): muy sensible en la forma visceral del inmunocompetente, pero puede ser NEGATIVA en el paciente con VIH",
+        "Cultivo en medio NNN (Novy-MacNeal-Nicolle)",
+        "Analítica: pancitopenia, hipergammaglobulinemia policlonal, hipoalbuminemia, VSG muy elevada"
+      ],
+      "claves": "La serología puede ser negativa en el inmunodeprimido: en ese contexto hay que recurrir a la PCR y a la visualización directa."
+    },
+    "tratamiento": {
+      "eleccion": "LEISHMANIASIS VISCERAL: ANFOTERICINA B LIPOSOMAL 3 mg/kg los días 1-5, 14 y 21 (dosis total 18-21 mg/kg) en el inmunocompetente; dosis totales mayores en el inmunodeprimido.",
+      "alternativas": "Antimoniales pentavalentes (antimoniato de meglumina) con toxicidad cardíaca, pancreática y hepática relevante. Miltefosina oral. Paromomicina. LEISHMANIASIS CUTÁNEA localizada: tratamiento intralesional con antimoniales, crioterapia o termoterapia; sistémico si son lesiones múltiples, en zonas críticas (cara, articulaciones) o por especies con riesgo mucoso.",
+      "resistencias": "Resistencia extendida a los antimoniales en la India (Bihar), lo que motivó el cambio a anfotericina B liposomal y miltefosina.",
+      "duracion": "Pauta de 6 dosis en 21 días en la forma visceral. La forma mucocutánea requiere tratamiento sistémico prolongado.",
+      "notas": "En el paciente con VIH, profilaxis secundaria hasta que los CD4 superen 200-350 de forma sostenida. Control de la fuente: los perros infectados son el reservorio; existen collares insecticidas y vacunas caninas."
+    },
+    "farmacos_relacionados": [
+      "INF-anfotericina-b-liposomal"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 72 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de leishmaniasis"
+  }
+]

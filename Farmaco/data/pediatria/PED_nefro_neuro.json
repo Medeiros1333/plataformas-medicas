@@ -1,0 +1,287 @@
+[
+  {
+    "id": "PED-NFR-prednisona-nefrotico",
+    "nombre": "Prednisona en el síndrome nefrótico idiopático del niño",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Corticoide sistémico",
+    "subclase": "Glucocorticoide oral en pauta prolongada",
+    "mecanismo": "Actúa sobre el receptor de glucocorticoides modificando la transcripción de genes inflamatorios, pero en el síndrome nefrótico idiopático del niño su efecto va más allá de la inmunosupresión clásica: actúa directamente sobre el PODOCITO, la célula del glomérulo cuyos pedicelos forman la barrera de filtración. En la enfermedad de cambios mínimos, que es la causa del 80-90% de los síndromes nefróticos del niño, esos pedicelos se BORRAN y la barrera pierde su selectividad, dejando escapar albúmina. El corticoide estabiliza el citoesqueleto de actina del podocito y restaura su arquitectura, y por eso la respuesta puede ser espectacular: proteinuria masiva un día y orina limpia una o dos semanas después. Esa RESPUESTA AL CORTICOIDE es además el mejor factor pronóstico de la enfermedad, más incluso que la histología.",
+    "espectro": null,
+    "dosis_pediatrica_base": "60 mg/m²/día (o 2 mg/kg/día) durante 4-6 semanas, seguidos de 40 mg/m² a días alternos durante 4-6 semanas más, con descenso posterior",
+    "dosis_maxima": "60-80 mg al día: por encima de esa cifra no hay más beneficio y sí más toxicidad",
+    "presentaciones": [
+      "Prednisona o prednisolona en comprimidos de 5, 10, 30 y 50 mg",
+      "Solución oral de prednisolona para el niño pequeño"
+    ],
+    "edad_minima": "Desde el año de edad. Un síndrome nefrótico en el menor de 1 año hace sospechar una forma CONGÉNITA o genética, que NO responde al corticoide",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 1 año",
+        "ajuste": "Sospechar síndrome nefrótico CONGÉNITO (mutaciones de NPHS1, NPHS2): NO responde a corticoides y el tratamiento es completamente distinto"
+      },
+      {
+        "franja": "1-10 años",
+        "ajuste": "Es la edad típica de la enfermedad de cambios mínimos: se trata EMPÍRICAMENTE sin biopsia, porque la probabilidad de que responda es muy alta"
+      },
+      {
+        "franja": "Mayor de 10 años y adolescente",
+        "ajuste": "Aumenta la probabilidad de otras histologías (glomeruloesclerosis focal y segmentaria, nefropatía membranosa): se valora la BIOPSIA antes o ante el fracaso del corticoide"
+      }
+    ],
+    "peculiaridad_pediatrica": "El síndrome nefrótico del niño y el del adulto son enfermedades distintas y se manejan de forma opuesta. En el NIÑO, el 80-90% son enfermedad de cambios mínimos y responden al corticoide, de modo que se trata EMPÍRICAMENTE SIN BIOPSIA: la biopsia se reserva a los que no responden, a los menores de 1 año, a los mayores de 10-12 y a los que tienen datos atípicos (hematuria macroscópica, hipertensión, complemento bajo o insuficiencia renal). En el ADULTO, en cambio, la biopsia es la norma porque las histologías son mucho más variadas. La segunda particularidad es la DURACIÓN: el tratamiento inicial dura 12 semanas, y la mayoría de los niños RECAERÁN, de modo que lo que empieza como un ciclo se convierte en una enfermedad de años con exposición corticoidea acumulada. Y ahí está el problema real de esta enfermedad: no la proteinuria, que casi siempre responde, sino el CRECIMIENTO, el hueso, el peso, la tensión y el estado de ánimo de un niño que recibe corticoides de forma repetida durante su infancia.",
+    "indicaciones": [
+      {
+        "patologia": "PRIMER EPISODIO de síndrome nefrótico idiopático",
+        "dosis": "60 mg/m²/día durante 4-6 semanas y después 40 mg/m² a DÍAS ALTERNOS durante 4-6 semanas, con descenso posterior",
+        "posologia": "Diaria en la fase inicial y a días alternos en la de mantenimiento",
+        "via": "VO",
+        "dosis_objetivo": "REMISIÓN COMPLETA: proteinuria negativa o mínima en tira reactiva durante 3 días consecutivos",
+        "nota": "El 80-90% responde en 2-4 semanas. La velocidad de respuesta y la duración del tratamiento inicial condicionan el número de recaídas posteriores"
+      },
+      {
+        "patologia": "RECAÍDA del síndrome nefrótico",
+        "dosis": "60 mg/m²/día hasta 3 días de proteinuria negativa, y después 40 mg/m² a días alternos durante 4 semanas",
+        "posologia": "Pauta más corta que la del primer episodio",
+        "via": "VO",
+        "dosis_objetivo": "Remisión y descenso rápido para limitar la exposición acumulada",
+        "nota": "La mayoría de las recaídas las desencadena una INFECCIÓN respiratoria banal, y las familias aprenden a detectarlas con la TIRA REACTIVA en casa"
+      },
+      {
+        "patologia": "Síndrome nefrótico CORTICODEPENDIENTE o con recaídas frecuentes",
+        "dosis": "Dosis mínima a días alternos que mantenga la remisión, añadiendo un AHORRADOR de corticoide",
+        "posologia": "Días alternos",
+        "via": "VO",
+        "dosis_objetivo": "Remisión con la MÍNIMA exposición corticoidea acumulada",
+        "nota": "Aquí entran los ahorradores: levamisol, micofenolato, inhibidores de la calcineurina, ciclofosfamida o RITUXIMAB. El objetivo pasa a ser proteger el crecimiento del niño"
+      },
+      {
+        "patologia": "Prevención de recaída ante infección intercurrente",
+        "dosis": "Paso a dosis diaria durante 5-7 días al inicio de un cuadro respiratorio, en el niño con recaídas frecuentes",
+        "posologia": "Durante el episodio infeccioso",
+        "via": "VO",
+        "dosis_objetivo": "Evitar la recaída desencadenada por la infección",
+        "nota": "Estrategia útil en el niño que recae sistemáticamente con cada catarro"
+      }
+    ],
+    "esquema": {
+      "inicio": "Descartar las formas que NO responden (menor de 1 año, hematuria macroscópica, hipertensión, complemento bajo, insuficiencia renal). Comprobar el estado vacunal ANTES de empezar: después las vacunas VIVAS estarán contraindicadas.",
+      "titulacion": "Pauta prolongada con descenso escalonado. Las recaídas se tratan con pautas más cortas.",
+      "duracion": "12 semanas en el primer episodio, y años de tratamiento intermitente en el niño con recaídas frecuentes.",
+      "fin": "Descenso gradual siempre; la retirada brusca produce recaída e insuficiencia suprarrenal. Muchos niños dejan de recaer al llegar a la adolescencia.",
+      "via": "Oral, en dosis única MATUTINA para respetar el ritmo circadiano del cortisol.",
+      "monitorizacion": "PROTEINURIA con tira reactiva EN CASA (la familia lleva un registro), tensión arterial, PESO y TALLA en cada visita, glucemia, y densitometría en el tratamiento prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; la prednisona requiere conversión hepática a prednisolona.",
+      "distribucion": "En el síndrome nefrótico, la HIPOALBUMINEMIA aumenta la fracción libre del corticoide, de modo que a igual dosis el efecto y la toxicidad pueden ser mayores.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "Biológica de 18-36 horas, lo que permite la pauta a días alternos que tanto reduce el impacto sobre el crecimiento.",
+      "ajuste_renal": "Sin ajuste habitual.",
+      "ajuste_hepatico": "Preferir prednisolona, que no necesita conversión hepática.",
+      "interacciones": [
+        {
+          "con": "VACUNAS VIVAS (triple vírica, varicela)",
+          "efecto": "Riesgo de infección por el virus vacunal durante la inmunosupresión",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADAS con dosis inmunosupresoras. Hay que actualizar el calendario ANTES de empezar, y vacunar frente a NEUMOCOCO y VARICELA es especialmente importante en estos niños"
+        },
+        {
+          "con": "VARICELA en un niño no inmunizado",
+          "efecto": "Puede ser GRAVE y diseminada bajo corticoides",
+          "gravedad": "alta",
+          "manejo": "Ante un contacto, hay que valorar inmunoglobulina específica o aciclovir profiláctico. Es una de las complicaciones más temidas de esta enfermedad"
+        },
+        {
+          "con": "AINE e IECA",
+          "efecto": "Deterioro de la función renal en un niño con volumen circulante efectivo bajo",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE durante el brote"
+        },
+        {
+          "con": "Diuréticos",
+          "efecto": "Riesgo de hipovolemia y de TROMBOSIS en un paciente que ya está hipercoagulable por la pérdida urinaria de antitrombina III",
+          "gravedad": "alta",
+          "manejo": "Usarlos con mucha prudencia: el niño nefrótico tiene edemas pero un volumen circulante efectivo bajo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Aumento del APETITO y del PESO, con cara de luna llena: es lo que más afecta al niño y al adolescente y una causa frecuente de incumplimiento",
+        "Cambios de HUMOR, irritabilidad e insomnio",
+        "Hipertensión arterial",
+        "Estrías, acné e hirsutismo",
+        "Hiperglucemia"
+      ],
+      "graves": [
+        "RETRASO DEL CRECIMIENTO con el uso prolongado o repetido: es la toxicidad que más pesa en un niño y la razón principal para buscar ahorradores de corticoide",
+        "OSTEOPOROSIS y necrosis avascular de la cabeza femoral",
+        "SUPRESIÓN SUPRARRENAL con riesgo de crisis ante una enfermedad intercurrente",
+        "INFECCIONES graves: PERITONITIS bacteriana espontánea por NEUMOCOCO (característica del niño nefrótico), celulitis, varicela diseminada",
+        "TROMBOSIS venosa y arterial, favorecida por la pérdida urinaria de antitrombina III",
+        "Cataratas y glaucoma"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa grave no tratada",
+      "Vacunas vivas durante la inmunosupresión",
+      "Sospecha de forma congénita o genética (no responde y expone a toxicidad inútil)",
+      "Tuberculosis activa"
+    ],
+    "perlas": [
+      "En el NIÑO se trata SIN BIOPSIA. Es la diferencia esencial con el adulto: como el 80-90% son enfermedad de cambios mínimos y responden, la biopsia se reserva a los que NO responden y a los que tienen datos atípicos. La respuesta al corticoide funciona, en la práctica, como una prueba diagnóstica.",
+      "La toxicidad que de verdad importa en esta enfermedad no es la proteinuria sino el CRECIMIENTO. Un niño que recae varias veces al año acumula años de corticoide durante su desarrollo, y por eso la pauta a DÍAS ALTERNOS y los ahorradores de corticoide no son un refinamiento: son lo que protege su talla final.",
+      "La familia aprende a usar la TIRA REACTIVA en casa y a llevar un registro. Detectar la recaída el primer día, antes de que aparezcan los edemas, permite tratarla antes y con menos corticoide: es una de las intervenciones educativas más rentables de la nefrología pediátrica.",
+      "La PERITONITIS BACTERIANA ESPONTÁNEA por NEUMOCOCO es la infección característica del niño nefrótico, porque pierde inmunoglobulinas y factores del complemento por la orina. Un dolor abdominal con fiebre en un niño con edemas obliga a descartarla: no es un cólico.",
+      "Estos niños están HIPERCOAGULABLES porque pierden ANTITROMBINA III por la orina, y a la vez tienen un volumen circulante efectivo bajo pese a los edemas. Por eso los diuréticos hay que usarlos con mucha prudencia: deshidratarlos puede precipitar una trombosis.",
+      "Hay que VACUNAR ANTES de empezar, especialmente frente a NEUMOCOCO y VARICELA. Una vez instaurada la inmunosupresión, las vacunas vivas quedan contraindicadas y el niño se queda desprotegido durante años.",
+      "El contacto con VARICELA en un niño no inmunizado y bajo corticoides es una urgencia: hay que valorar inmunoglobulina específica o aciclovir. La varicela diseminada del inmunodeprimido puede ser mortal.",
+      "Un síndrome nefrótico en el MENOR DE UN AÑO no es la enfermedad habitual: hace sospechar una forma CONGÉNITA o genética que no responde al corticoide, y tratarla con prednisona solo expone al niño a la toxicidad sin ningún beneficio.",
+      "La mayoría de los niños dejan de recaer al llegar a la adolescencia, y decírselo a la familia desde el principio cambia por completo cómo viven una enfermedad que, de otro modo, parece no tener final."
+    ],
+    "embarazo_lactancia": "No aplicable en el niño pequeño. En la ADOLESCENTE, la prednisona es compatible con el embarazo y con la lactancia a las dosis habituales.",
+    "micro_relacionado": [
+      "BGP-streptococcus-pneumoniae",
+      "VIR-virus-varicela-zoster"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 39; guías KDIGO y de la AEP sobre síndrome nefrótico idiopático del niño"
+  },
+  {
+    "id": "PED-NEU-vigabatrina",
+    "nombre": "Vigabatrina y corticotropina (espasmos infantiles)",
+    "sinonimos": [
+      "Tratamiento del síndrome de West"
+    ],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Inhibidor irreversible de la GABA transaminasa",
+    "vs_clase": [
+      "**De elección en los ESPASMOS INFANTILES asociados a ESCLEROSIS TUBEROSA** (síndrome de West).",
+      "**Defectos IRREVERSIBLES del campo visual** (constricción concéntrica): campimetría o ERG periódicos y uso limitado en el tiempo.",
+      "Empeora las crisis de ausencia y mioclónicas."
+    ],
+    "mecanismo": "La VIGABATRINA inhibe de forma IRREVERSIBLE la GABA transaminasa, la enzima que degrada el GABA, con lo que aumenta la concentración cerebral del principal neurotransmisor inhibidor. Al ser una inhibición irreversible, el efecto persiste hasta que se sintetiza enzima nueva, y por eso su acción dura mucho más que su vida media plasmática. Su eficacia es extraordinaria en un escenario concreto: los espasmos infantiles asociados a ESCLEROSIS TUBEROSA, donde controla las crisis en la mayoría de los niños y se considera de primera elección. La CORTICOTROPINA (ACTH) y los corticoides a dosis altas actúan por una vía distinta y no del todo aclarada, probablemente suprimiendo la liberación del factor liberador de corticotropina, que es proconvulsivante en el cerebro inmaduro, y son de elección en los espasmos de otras causas.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Vigabatrina 50 mg/kg/día de inicio, con ascenso rápido hasta 100-150 mg/kg/día repartidos en 2 tomas",
+    "dosis_maxima": "150 mg/kg/día (3 g al día). Corticotropina según protocolo, habitualmente 150 UI/m²/día durante 2 semanas con descenso",
+    "presentaciones": [
+      "Vigabatrina en sobres de 500 mg, solubles en agua o en líquido",
+      "Corticotripina en vial para administración intramuscular",
+      "Prednisolona a dosis altas como alternativa oral"
+    ],
+    "edad_minima": "Lactante: los espasmos infantiles debutan típicamente entre los 3 y los 12 meses",
+    "franjas_edad": [
+      {
+        "franja": "Lactante con espasmos y ESCLEROSIS TUBEROSA",
+        "ajuste": "VIGABATRINA es de PRIMERA elección: controla los espasmos en la mayoría de estos niños, con una eficacia que no tiene en otras etiologías"
+      },
+      {
+        "franja": "Lactante con espasmos de OTRA causa",
+        "ajuste": "CORTICOTROPINA o corticoides a dosis altas de primera línea; la vigabatrina como alternativa o en combinación"
+      },
+      {
+        "franja": "Niño mayor",
+        "ajuste": "Los espasmos infantiles son propios del lactante; en el niño mayor la vigabatrina se usa como coadyuvante en epilepsias focales refractarias, con la misma vigilancia visual"
+      }
+    ],
+    "peculiaridad_pediatrica": "Los ESPASMOS INFANTILES son una urgencia neurológica que casi siempre se diagnostica tarde, y ese retraso tiene consecuencias. Los espasmos son sutiles: salvas de flexión brusca del tronco y de los brazos, en racimos, típicamente al despertar, que las familias describen como sustos, cólicos o reflejo de Moro exagerado, y que muchos pediatras han visto por primera vez en un vídeo del móvil de los padres. El electroencefalograma muestra una HIPSARRITMIA caótica, y esa actividad continua sobre un cerebro en pleno desarrollo produce una REGRESIÓN del desarrollo psicomotor: el niño pierde la sonrisa social, el seguimiento visual y los logros que ya tenía. Cuanto ANTES se controlen los espasmos, mejor es el pronóstico cognitivo, y por eso el tiempo hasta el tratamiento es el factor modificable más importante. La segunda peculiaridad es una toxicidad terrible y específica: la vigabatrina produce una pérdida CONCÉNTRICA E IRREVERSIBLE del campo visual en una proporción alta de los tratados, y en un lactante esa pérdida es prácticamente imposible de detectar hasta que ya está establecida.",
+    "indicaciones": [
+      {
+        "patologia": "ESPASMOS INFANTILES (síndrome de West) asociados a ESCLEROSIS TUBEROSA",
+        "dosis": "Vigabatrina 50 mg/kg/día con ascenso rápido a 100-150 mg/kg/día en 2 tomas",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "CESE COMPLETO de los espasmos y desaparición de la hipsarritmia en el electroencefalograma",
+        "nota": "Es de PRIMERA elección en esta etiología. El objetivo no es reducir los espasmos sino ELIMINARLOS: una respuesta parcial no protege el desarrollo"
+      },
+      {
+        "patologia": "Espasmos infantiles de OTRAS etiologías",
+        "dosis": "Corticotropina 150 UI/m²/día IM durante 2 semanas con descenso, o prednisolona a dosis altas",
+        "posologia": "Diaria durante 2 semanas con descenso posterior",
+        "via": "IM",
+        "dosis_objetivo": "Cese de los espasmos y resolución de la hipsarritmia",
+        "nota": "Requiere vigilancia estrecha: hipertensión, hiperglucemia, inmunosupresión, irritabilidad extrema y miocardiopatía hipertrófica reversible"
+      },
+      {
+        "patologia": "Epilepsia focal refractaria del niño mayor",
+        "dosis": "Vigabatrina 40-80 mg/kg/día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Indicación de ÚLTIMA línea por la toxicidad visual: solo cuando el beneficio supera claramente el riesgo de perder campo visual"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante la sospecha, ELECTROENCEFALOGRAMA URGENTE (buscando hipsarritmia) y estudio etiológico (resonancia, examen cutáneo con luz de Wood para manchas hipocrómicas de esclerosis tuberosa, metabólico y genético). Campimetría o electrorretinograma basal si es factible.",
+      "titulacion": "Ascenso RÁPIDO: aquí la prisa está justificada porque cada día de hipsarritmia cuesta desarrollo.",
+      "duracion": "La más corta posible que mantenga el control: se plantea la retirada a los 6-12 meses de estar libre de espasmos, precisamente para limitar la exposición visual.",
+      "fin": "Retirada gradual. En la esclerosis tuberosa puede ser necesario mantenerla más tiempo.",
+      "via": "Oral, en sobres disueltos en agua o en líquido.",
+      "monitorizacion": "CAMPO VISUAL mediante electrorretinograma o campimetría cuando la edad lo permita, cada 3-6 meses; electroencefalograma de control para confirmar la desaparición de la hipsarritmia; desarrollo psicomotor."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin efecto de la comida.",
+      "distribucion": "Amplia; atraviesa bien la barrera hematoencefálica.",
+      "metabolismo": "NO se metaboliza: se elimina sin modificar, lo que la libera de interacciones farmacológicas.",
+      "eliminacion": "RENAL, íntegra.",
+      "vida_media": "5-8 horas, pero el EFECTO dura mucho más porque la inhibición de la enzima es IRREVERSIBLE.",
+      "ajuste_renal": "Reducir la dosis en la insuficiencia renal: se elimina sin metabolizar.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Fenitoína",
+          "efecto": "Reduce sus concentraciones en un 20-30%",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles si se combinan"
+        },
+        {
+          "con": "Otros antiepilépticos",
+          "efecto": "Interacciones escasas, al no metabolizarse por el citocromo P450",
+          "gravedad": "baja",
+          "manejo": "Es una ventaja en el niño politratado"
+        },
+        {
+          "con": "Corticotropina o corticoides (en combinación)",
+          "efecto": "Mayor tasa de control de los espasmos que cualquiera por separado",
+          "gravedad": "baja",
+          "manejo": "La combinación se emplea en casos seleccionados de difícil control"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN y somnolencia",
+        "Irritabilidad y agitación",
+        "Aumento de peso",
+        "Hipotonía"
+      ],
+      "graves": [
+        "PÉRDIDA CONCÉNTRICA E IRREVERSIBLE DEL CAMPO VISUAL, hasta en un tercio o más de los tratados de forma prolongada: es asintomática al principio y en el lactante resulta prácticamente imposible de detectar hasta que está establecida",
+        "Alteraciones en la resonancia magnética (hiperintensidades en ganglios basales, tálamo y tronco), habitualmente reversibles y asintomáticas, pero que alarman si no se conocen",
+        "Empeoramiento paradójico de crisis mioclónicas y de ausencias",
+        "CORTICOTROPINA: hipertensión, hiperglucemia, inmunosupresión grave, irritabilidad extrema y miocardiopatía hipertrófica reversible"
+      ]
+    },
+    "contraindicaciones": [
+      "Alteración preexistente del campo visual",
+      "Uso prolongado sin controles visuales cuando estos son posibles",
+      "Precaución en la insuficiencia renal"
+    ],
+    "perlas": [
+      "Los ESPASMOS INFANTILES son una URGENCIA neurológica y su diagnóstico se retrasa casi siempre porque son sutiles: salvas de flexión en racimos, típicamente al despertar, que las familias describen como sustos o cólicos. Ante esa descripción hay que pedir un VÍDEO y un electroencefalograma urgente, no citar para revisión.",
+      "El tiempo hasta el control de los espasmos es el factor modificable más importante del pronóstico COGNITIVO. La hipsarritmia sobre un cerebro en desarrollo produce regresión: el niño pierde la sonrisa social y el seguimiento visual que ya tenía. Cada semana cuenta.",
+      "El objetivo del tratamiento es la DESAPARICIÓN COMPLETA de los espasmos y de la hipsarritmia, no su reducción. Una respuesta parcial no protege el desarrollo, y por eso se comprueba con electroencefalograma y no solo con lo que cuenta la familia.",
+      "La ESCLEROSIS TUBEROSA cambia la elección del fármaco: en esa etiología la VIGABATRINA es claramente de primera línea. Por eso hay que explorar la piel con LUZ DE WOOD buscando manchas hipocrómicas en cualquier lactante con espasmos: un hallazgo de treinta segundos que decide el tratamiento.",
+      "La toxicidad VISUAL es la contrapartida y no tiene retorno: pérdida concéntrica e irreversible del campo visual, asintomática al principio y prácticamente indetectable en un lactante. Es la decisión más difícil de la neurología pediátrica: un daño visual probable frente a un daño cognitivo seguro si los espasmos no se controlan.",
+      "Precisamente por eso el tratamiento se mantiene el MENOR tiempo posible: se plantea la retirada a los 6-12 meses de estar libre de espasmos, calculando la exposición acumulada.",
+      "Las HIPERINTENSIDADES en ganglios basales y tálamo que aparecen en la resonancia son habitualmente reversibles y asintomáticas: conocerlas evita alarmas y estudios innecesarios.",
+      "NO se metaboliza por el citocromo P450 y se elimina íntegra por el riñón: eso la libera de interacciones, lo que es una ventaja notable en un lactante que suele estar politratado, pero obliga a ajustarla si hay insuficiencia renal."
+    ],
+    "embarazo_lactancia": "No aplicable en el lactante. En la adolescente, los datos son limitados y se prefieren otros antiepilépticos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; guías internacionales de consenso sobre el tratamiento de los espasmos infantiles"
+  }
+]

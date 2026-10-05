@@ -1,0 +1,280 @@
+[
+  {
+    "id": "PED-DIG-macrogol",
+    "nombre": "Macrogol (polietilenglicol) en pediatría",
+    "sinonimos": [
+      "PEG 3350"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante",
+    "subclase": "Laxante osmótico de polímero no absorbible",
+    "mecanismo": "Es un polímero inerte de alto peso molecular que NO se absorbe ni se fermenta: retiene agua en la luz intestinal por puentes de hidrógeno, ablandando las heces y aumentando su volumen, lo que estimula el peristaltismo por distensión. Esa inercia química es lo que lo distingue de la lactulosa, que sí se fermenta y produce gas, dolor y flatulencia. En el niño esa diferencia decide el éxito del tratamiento: el estreñimiento funcional infantil se mantiene por un círculo de dolor y RETENCIÓN VOLUNTARIA, en el que el niño aguanta las ganas porque defecar le dolió, las heces se endurecen más y el siguiente episodio duele todavía más. Un laxante que produce dolor abdominal o gases refuerza ese círculo; el macrogol, que no lo produce, permite romperlo.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Mantenimiento: 0,4-0,8 g/kg/día. Desimpactación: 1-1,5 g/kg/día durante 3-6 días",
+    "dosis_maxima": "Desimpactación hasta 100 g al día en el niño mayor; mantenimiento habitualmente 1-2 sobres al día",
+    "presentaciones": [
+      "Sobres de 4 g (pediátricos) y de 10 g o 13,8 g (adulto)",
+      "Formulaciones con y sin electrolitos: las que llevan electrolitos son las de la desimpactación con dosis altas"
+    ],
+    "edad_minima": "Desde los 6 meses (algunos preparados desde los 2 años; en el lactante menor se usa bajo indicación pediátrica)",
+    "franjas_edad": [
+      {
+        "franja": "Lactante de 6-24 meses",
+        "ajuste": "0,4-0,8 g/kg/día, disuelto en agua, leche o zumo; en el lactante suele bastar con corregir la dieta y usar dosis bajas"
+      },
+      {
+        "franja": "Preescolar y escolar",
+        "ajuste": "1-2 sobres pediátricos al día en mantenimiento; en la desimpactación, dosis altas durante 3-6 días"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Dosis de adulto: 1-3 sobres al día"
+      }
+    ],
+    "peculiaridad_pediatrica": "Dos rasgos hacen que el estreñimiento del niño no se trate como el del adulto. El primero es la IMPACTACIÓN FECAL con INCONTINENCIA POR REBOSAMIENTO: el recto se dilata alrededor de un fecaloma y las heces líquidas se escapan por los lados, de modo que el niño mancha la ropa interior a diario y la familia y el colegio interpretan que es diarrea o un problema de conducta. Empezar un laxante de mantenimiento sin haber DESIMPACTADO primero empeora el rebosamiento y hunde la confianza de la familia en el tratamiento. El segundo es la DURACIÓN: el recto dilatado tarda MESES en recuperar su sensibilidad, de modo que el tratamiento debe mantenerse al menos 2-6 meses tras la normalización y retirarse muy despacio; el error más frecuente en pediatría es suspenderlo a las dos semanas, cuando el niño ya va bien, y ver reaparecer todo el cuadro. A ello se añade la ventaja práctica de que el macrogol es INSÍPIDO y se puede disolver en cualquier bebida, algo determinante en un tratamiento que un niño debe tomar durante meses.",
+    "indicaciones": [
+      {
+        "patologia": "ESTREÑIMIENTO FUNCIONAL, mantenimiento",
+        "dosis": "0,4-0,8 g/kg/día, ajustando por la consistencia de las heces",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Deposiciones BLANDAS e indoloras a diario o casi a diario, sin escapes",
+        "nota": "La dosis se titula por la CONSISTENCIA de las heces, no por una cifra fija: es un tratamiento que la familia debe aprender a ajustar en casa"
+      },
+      {
+        "patologia": "IMPACTACIÓN FECAL (desimpactación oral)",
+        "dosis": "1-1,5 g/kg/día durante 3-6 días consecutivos",
+        "posologia": "Repartido a lo largo del día",
+        "via": "VO",
+        "dosis_objetivo": "Expulsión del fecaloma y desaparición de los escapes",
+        "nota": "La desimpactación ORAL con dosis altas es tan eficaz como los enemas y mucho MENOS traumática para el niño: evita una experiencia que puede reforzar el miedo a defecar"
+      },
+      {
+        "patologia": "Estreñimiento con FISURA ANAL y miedo a defecar",
+        "dosis": "0,4-0,8 g/kg/día, junto con tratamiento local de la fisura",
+        "posologia": "Diaria",
+        "via": "VO",
+        "dosis_objetivo": "Heces blandas que no reabran la fisura",
+        "nota": "Aquí el objetivo no es solo evacuar sino ROMPER EL CÍRCULO del dolor: mientras defecar duela, el niño seguirá reteniendo"
+      },
+      {
+        "patologia": "Preparación para colonoscopia",
+        "dosis": "Macrogol con electrolitos según protocolo, habitualmente 1-1,5 g/kg",
+        "posologia": "El día previo",
+        "via": "VO",
+        "nota": "Se usan las formulaciones CON electrolitos para evitar alteraciones hidroelectrolíticas con volúmenes altos"
+      }
+    ],
+    "esquema": {
+      "inicio": "PRIMERO desimpactar si hay fecaloma (palpación abdominal y tacto rectal o ecografía), y solo DESPUÉS iniciar el mantenimiento. Explicar a la familia que los escapes son rebosamiento y no un problema de conducta.",
+      "titulacion": "La familia ajusta la dosis según la consistencia de las heces, con un objetivo claro: blandas, no líquidas.",
+      "duracion": "Al menos 2-6 MESES tras la normalización, y a menudo más. Es un tratamiento largo por definición.",
+      "fin": "Retirada MUY gradual a lo largo de semanas. Suspenderlo de golpe cuando el niño va bien es la causa principal de recaída.",
+      "via": "Oral, disuelto en agua, leche, zumo o caldo: es INSÍPIDO, lo que facilita enormemente la adherencia prolongada.",
+      "monitorizacion": "Frecuencia y consistencia de las deposiciones (la escala de Bristol es útil para la familia), desaparición de los escapes y del dolor."
+    },
+    "farmacocinetica": {
+      "absorcion": "NULA: no se absorbe en absoluto.",
+      "distribucion": "Limitada a la luz intestinal.",
+      "metabolismo": "No se metaboliza ni se fermenta por la flora, a diferencia de la lactulosa.",
+      "eliminacion": "Fecal, íntegro.",
+      "vida_media": "No aplicable; el efecto aparece en 1-3 días.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros fármacos orales administrados a la vez",
+          "efecto": "Puede reducir su absorción al acelerar el tránsito",
+          "gravedad": "baja",
+          "manejo": "Separar 1-2 horas la medicación crítica"
+        },
+        {
+          "con": "Formulaciones SIN electrolitos a dosis altas",
+          "efecto": "Riesgo de alteraciones hidroelectrolíticas en la desimpactación prolongada",
+          "gravedad": "media",
+          "manejo": "En dosis altas y mantenidas, usar las formulaciones CON electrolitos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Distensión abdominal y borborigmos leves",
+        "DIARREA si la dosis es excesiva (es la señal para bajarla)",
+        "Náuseas al inicio de la desimpactación con dosis altas"
+      ],
+      "graves": [
+        "Alteraciones hidroelectrolíticas con dosis altas y formulaciones sin electrolitos (infrecuentes)",
+        "Reacciones alérgicas al polietilenglicol (muy raras)",
+        "Broncoaspiración si se administra a un niño con bajo nivel de conciencia"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal, íleo o sospecha de perforación",
+      "Megacolon tóxico y enfermedad inflamatoria intestinal grave activa",
+      "Hipersensibilidad al polietilenglicol"
+    ],
+    "perlas": [
+      "Hay que DESIMPACTAR ANTES de empezar el mantenimiento. Iniciar un laxante suave en un niño con un fecaloma aumenta el rebosamiento, el niño mancha más, la familia concluye que el tratamiento le sienta mal y lo abandona. El orden de los dos pasos decide el resultado.",
+      "Los ESCAPES de heces líquidas en un niño estreñido son REBOSAMIENTO alrededor de un fecaloma, no diarrea ni un problema de conducta. Explicarlo a la familia y al colegio cambia por completo cómo se trata al niño, que a menudo estaba siendo regañado por algo que no puede controlar.",
+      "El tratamiento dura MESES, no semanas. El recto dilatado necesita tiempo para recuperar la sensibilidad, y suspender el macrogol en cuanto el niño va bien es la causa número uno de recaída. Hay que decirlo desde el primer día para que la familia no lo interprete como un fracaso.",
+      "Es INSÍPIDO y se disuelve en cualquier bebida: en un tratamiento que hay que mantener durante meses en un niño, esa característica vale más que cualquier diferencia de eficacia. La lactulosa, en cambio, es dulce, empalagosa y produce gases.",
+      "La dosis se titula por la CONSISTENCIA de las heces, y hay que enseñar a la familia a hacerlo en casa: heces blandas, no líquidas. Una escala visual como la de Bristol convierte una instrucción vaga en algo que los padres pueden aplicar.",
+      "La DESIMPACTACIÓN ORAL con dosis altas funciona tan bien como los enemas y evita una experiencia traumática que en un niño con miedo a defecar puede reforzar exactamente el problema que se quiere tratar.",
+      "Antes de etiquetar un estreñimiento como funcional hay que descartar las señales de alarma: inicio en el primer mes de vida, retraso en la expulsión del MECONIO (más de 48 horas, que sugiere enfermedad de Hirschsprung), fallo de medro, distensión importante, ampolla rectal vacía o anomalías en la región lumbosacra.",
+      "El tratamiento farmacológico es solo una parte: sin desmontar el miedo a defecar, sin una rutina de sentarse en el váter tras las comidas y sin corregir la dieta y la hidratación, el macrogol se convierte en un tratamiento indefinido."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo y en la lactancia por su nula absorción; es uno de los laxantes de elección en la gestante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías ESPGHAN/NASPGHAN sobre estreñimiento funcional en la infancia"
+  },
+  {
+    "id": "PED-DIG-omeprazol",
+    "nombre": "Omeprazol y otros inhibidores de la bomba de protones (pediatría)",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antisecretor gástrico",
+    "subclase": "Inhibidor irreversible de la bomba H+/K+ ATPasa",
+    "mecanismo": "Es un profármaco que se activa en el medio ácido del canalículo de la célula parietal y se une de forma IRREVERSIBLE a la bomba de protones, de modo que la secreción solo se recupera cuando se sintetizan bombas nuevas: por eso su efecto dura mucho más que su vida media plasmática. En el niño hay dos particularidades farmacocinéticas relevantes. La primera es que el LACTANTE tiene un pH gástrico más alto y una masa de células parietales menor, de modo que el fármaco se activa peor. La segunda es paradójica y muy práctica: el niño metaboliza el omeprazol por el CYP2C19 MÁS DEPRISA que el adulto, y por eso necesita dosis por kilo SUPERIORES a las del adulto para conseguir el mismo efecto. Ese hecho, poco intuitivo, explica muchos fracasos aparentes.",
+    "espectro": null,
+    "dosis_pediatrica_base": "1-2 mg/kg/día en una o dos tomas",
+    "dosis_maxima": "40 mg al día (80 mg en la esofagitis eosinofílica del adolescente)",
+    "presentaciones": [
+      "Cápsulas con gránulos gastrorresistentes que se pueden ABRIR y mezclar con alimento ácido (yogur, compota de manzana), NUNCA triturar",
+      "Formulaciones orales dispersables",
+      "Suspensiones extemporáneas preparadas por farmacia (la estabilidad es limitada)"
+    ],
+    "edad_minima": "Autorizado desde el año de edad y desde los 10 kg en la mayoría de los preparados; su uso por debajo es fuera de indicación autorizada",
+    "franjas_edad": [
+      {
+        "franja": "Lactante menor de 1 año",
+        "ajuste": "Uso fuera de indicación y RARAMENTE justificado: el reflujo del lactante sano es FISIOLÓGICO y no responde a los antisecretores"
+      },
+      {
+        "franja": "Niño de 1-11 años",
+        "ajuste": "1-2 mg/kg/día. La dosis POR KILO es mayor que la del adulto porque el niño metaboliza más deprisa"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Dosis de adulto: 20-40 mg al día"
+      }
+    ],
+    "peculiaridad_pediatrica": "El problema clínico principal de este fármaco en pediatría no es cómo dosificarlo sino su SOBREPRESCRIPCIÓN en el lactante. La regurgitación del lactante sano es FISIOLÓGICA: afecta a la mayoría de los bebés, se debe a la inmadurez del esfínter esofágico inferior y a una dieta líquida con un volumen enorme en relación con la capacidad gástrica, y se resuelve sola hacia el año. Los ensayos han demostrado de forma consistente que los inhibidores de la bomba de protones NO mejoran el llanto ni la irritabilidad del lactante que regurgita, porque ese llanto no es ácido. Y no son inocuos: en el lactante se han asociado a más infecciones respiratorias y gastrointestinales, a enterocolitis necrosante en el prematuro y a posible alteración de la microbiota y sensibilización alimentaria. A ello se añade el detalle práctico de que el niño metaboliza el fármaco MÁS DEPRISA y necesita más miligramos por kilo, de modo que quien sí tiene indicación real suele estar infradosificado mientras quien no la tiene está sobretratado.",
+    "indicaciones": [
+      {
+        "patologia": "ESOFAGITIS por reflujo confirmada y enfermedad por reflujo gastroesofágico con síntomas de alarma",
+        "dosis": "1-2 mg/kg/día, 30-60 minutos ANTES del desayuno",
+        "posologia": "Una toma diaria antes de la primera comida",
+        "via": "VO",
+        "dosis_objetivo": "Resolución de los síntomas y curación endoscópica de la esofagitis",
+        "nota": "Requiere síntomas de ALARMA o confirmación: fallo de medro, disfagia, hematemesis, anemia o esofagitis endoscópica"
+      },
+      {
+        "patologia": "ESOFAGITIS EOSINOFÍLICA",
+        "dosis": "1-2 mg/kg cada 12 horas (dosis altas) durante 8-12 semanas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "dosis_objetivo": "Remisión histológica con menos de 15 eosinófilos por campo",
+        "nota": "Aquí el mecanismo NO es antiácido sino ANTIINFLAMATORIO: reduce la expresión de eotaxina-3. Es una indicación conceptualmente distinta"
+      },
+      {
+        "patologia": "Úlcera péptica y erradicación de Helicobacter pylori",
+        "dosis": "1-2 mg/kg/día junto con amoxicilina y claritromicina o metronidazol",
+        "posologia": "Cada 12 horas durante 14 días",
+        "via": "VO",
+        "nota": "En el niño la erradicación solo se plantea ante ÚLCERA demostrada, no ante un dolor abdominal recurrente con serología positiva"
+      },
+      {
+        "patologia": "Profilaxis de la úlcera de estrés en el niño crítico y gastropatía por AINE o corticoides",
+        "dosis": "0,5-1 mg/kg/día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Prevención de la hemorragia digestiva en el paciente de riesgo",
+        "nota": "Solo en el niño con factores de riesgo reales (ventilación mecánica, coagulopatía, quemaduras), no de forma sistemática"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de prescribir hay que responder si se trata de reflujo FISIOLÓGICO (lactante feliz que regurgita y crece bien: no necesita nada) o de enfermedad por reflujo con síntomas de alarma.",
+      "titulacion": "Se ajusta por peso, recordando que la dosis por kilo es MAYOR que en el adulto.",
+      "duracion": "4-8 semanas en la esofagitis; 8-12 semanas en la esofagitis eosinofílica. NO es un tratamiento indefinido.",
+      "fin": "Retirada GRADUAL tras tratamientos prolongados: la suspensión brusca produce HIPERSECRECIÓN DE REBOTE que reproduce los síntomas y hace creer que el fármaco sigue haciendo falta.",
+      "via": "Oral, 30-60 minutos ANTES de la primera comida del día: la bomba tiene que estar activada para que el fármaco la bloquee.",
+      "monitorizacion": "Respuesta clínica y crecimiento. En tratamientos prolongados, valorar hierro, B12 y magnesio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Requiere cubierta gastrorresistente: el fármaco se destruye en el ácido del estómago. La cápsula se puede ABRIR y mezclar con alimento ÁCIDO, pero los gránulos NO se pueden triturar ni masticar.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP2C19, con actividad MAYOR en el niño que en el adulto: de ahí la necesidad de dosis por kilo superiores. El polimorfismo del CYP2C19 explica además una parte de la variabilidad de respuesta.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "Plasmática de 1 hora, pero el efecto dura 24 horas porque el bloqueo de la bomba es irreversible.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Fármacos que requieren ACIDEZ para absorberse (itraconazol, ketoconazol, hierro, algunos antirretrovirales)",
+          "efecto": "Reducen su absorción de forma significativa",
+          "gravedad": "alta",
+          "manejo": "Muy relevante en el niño con ferropenia: dar el hierro separado y con vitamina C, o replantear la necesidad del antisecretor"
+        },
+        {
+          "con": "CLOPIDOGREL (adolescente)",
+          "efecto": "El omeprazol inhibe el CYP2C19 y reduce su activación",
+          "gravedad": "media",
+          "manejo": "Preferir pantoprazol si es imprescindible el antisecretor"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Retrasa su eliminación",
+          "gravedad": "media",
+          "manejo": "Relevante con dosis altas en oncología pediátrica"
+        },
+        {
+          "con": "Alimento ácido para administrar los gránulos",
+          "efecto": "El yogur o la compota de manzana permiten dar la cápsula abierta sin destruir la cubierta",
+          "gravedad": "baja",
+          "manejo": "Es un truco práctico esencial en el niño que no traga cápsulas; nunca con leche o agua sola"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, náuseas y dolor abdominal",
+        "Diarrea o estreñimiento",
+        "Exantema"
+      ],
+      "graves": [
+        "AUMENTO DE INFECCIONES respiratorias y gastrointestinales en el lactante, al perder la barrera ácida (incluida la gastroenteritis y la neumonía)",
+        "ENTEROCOLITIS NECROSANTE en el prematuro",
+        "Colitis por Clostridioides difficile",
+        "HIPOMAGNESEMIA con el uso prolongado, que puede producir tetania y convulsiones",
+        "Déficit de HIERRO y de vitamina B12 en tratamientos de años",
+        "Nefritis intersticial aguda",
+        "Posible asociación con alergia alimentaria por alteración de la digestión proteica (en estudio)"
+      ]
+    },
+    "contraindicaciones": [
+      "Regurgitación FISIOLÓGICA del lactante sano: no es una indicación",
+      "Llanto e irritabilidad del lactante sin síntomas de alarma: los ensayos han demostrado que NO funciona",
+      "Hipersensibilidad conocida",
+      "Precaución en el prematuro"
+    ],
+    "perlas": [
+      "La pregunta que hay que hacerse antes de prescribirlo es si el lactante REGURGITA o si tiene ENFERMEDAD por reflujo. El bebé que regurgita, come bien, crece y está contento no necesita nada: es un fenómeno fisiológico que se resuelve solo hacia el año. Tranquilizar a la familia, espesar tomas si hace falta y explicar la evolución natural es el tratamiento correcto.",
+      "Los ensayos han demostrado de forma consistente que los inhibidores de la bomba de protones NO mejoran el LLANTO ni la irritabilidad del lactante, porque ese llanto no está producido por el ácido. Es uno de los fármacos más prescritos para lo que menos hace.",
+      "Y no son inocuos en esta edad: el ácido gástrico es una barrera antimicrobiana, y suprimirlo en un lactante se ha asociado a más gastroenteritis, más neumonías y, en el prematuro, a enterocolitis necrosante.",
+      "El niño necesita MÁS miligramos por kilo que el adulto porque metaboliza el fármaco MÁS DEPRISA por el CYP2C19. Es contraintuitivo y explica que el niño con indicación real esté a menudo infradosificado.",
+      "Se toma 30-60 minutos ANTES del desayuno. La bomba de protones tiene que estar ACTIVADA para que el fármaco irreversible la bloquee: darlo con el estómago en reposo o después de comer reduce mucho su eficacia. Es la instrucción práctica que más se incumple.",
+      "La cápsula se puede ABRIR y mezclar con un alimento ÁCIDO como el yogur o la compota de manzana, pero los gránulos NO se pueden triturar ni masticar: se destruiría la cubierta que los protege del ácido gástrico.",
+      "En la ESOFAGITIS EOSINOFÍLICA el mecanismo no es antiácido sino ANTIINFLAMATORIO, por reducción de la eotaxina-3. Por eso funciona a dosis altas en una enfermedad que no es de ácido, algo que sorprende y que cambió su clasificación diagnóstica.",
+      "La retirada debe ser GRADUAL: la suspensión brusca produce HIPERSECRECIÓN DE REBOTE con síntomas que hacen pensar que el fármaco seguía siendo necesario, y así se perpetúan tratamientos indefinidos.",
+      "En un niño con FERROPENIA que además toma omeprazol, el antisecretor puede ser parte del problema: el hierro necesita acidez para absorberse."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE gestante, el omeprazol es el de mayor experiencia acumulada y se considera seguro cuando está indicado. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ANA-clostridioides-difficile",
+      "BGN-helicobacter-pylori"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías ESPGHAN/NASPGHAN sobre reflujo gastroesofágico en la infancia"
+  }
+]

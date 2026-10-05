@@ -1,0 +1,410 @@
+## 0. CABEÇALHO
+
+**Código:** PED-93 · **Especialidade:** Pediatria · **Tema:** Triagem neonatal · **Assunto:** Os cinco testes do Programa Nacional de Triagem Neonatal (teste do pezinho, orelhinha, olhinho, coraçãozinho e linguinha) — janelas de coleta, doenças rastreadas e conduta diante de teste alterado ou não realizado · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 8 (2021.1-Q68, 2024.1-Q68, 2025.1-Q18, 2020.1-Q85, 2022.2-Q58, 2024.1-Q3, 2017.1-Q30, 2022.1-Q63) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 85 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-08-08 · **Última atualização:** 2026-08-08
+
+📋 **Nota de consolidação:** este módulo incorporou o código **PED-83** (`tema` "Triagem neonatal cardíaca" no `modulos.json`), com questões adicionais sobre o teste do coraçãozinho — mesmo tema central já coberto por PED-93. PED-83 foi marcado como `"gerado"` apontando para este arquivo, sem `.md` próprio.
+
+---
+
+## 1. TEORIA
+
+A triagem neonatal é um dos temas mais "decoráveis" e ao mesmo tempo mais armadilhados do Revalida: a banca raramente pergunta "quais doenças o teste do pezinho rastreia" de forma solta — ela cruza a janela de coleta, uma variável clínica que interfere no resultado (prematuridade, transfusão, corticoide materno) e a conduta correta diante de um resultado alterado ou de um teste não realizado no prazo. O Brasil estruturou isso no **Programa Nacional de Triagem Neonatal (PNTN)**, do Ministério da Saúde, que hoje é popularmente resumido nos "5 testes" oferecidos gratuitamente pelo SUS: pezinho, orelhinha, olhinho, coraçãozinho e linguinha.
+
+**Visão geral dos 5 testes [CONSENSO]**
+
+| Teste | O que avalia | Janela ideal | Onde é feito na prática |
+|---|---|---|---|
+| Pezinho | Doenças metabólicas, genéticas, endócrinas e hematológicas | Entre o 3º e o 5º dia de vida | Maternidade (orientação) + UBS/posto de coleta |
+| Orelhinha | Triagem auditiva (emissões otoacústicas ± PEATE) | Antes de 1 mês de vida (idealmente antes da alta, nas primeiras 24-48h) | Maternidade ou serviço de referência em audiologia |
+| Olhinho | Reflexo vermelho (teste do "olho de gato") | Antes da alta da maternidade, repetido nas consultas de puericultura | Maternidade + todas as consultas de puericultura subsequentes |
+| Coraçãozinho | Oximetria de pulso (cardiopatias congênitas críticas) | Entre 24 e 48h de vida, antes da alta | Maternidade |
+| Linguinha | Frênulo lingual (anquiloglossia) | Ainda na maternidade, nas primeiras 48h | Maternidade |
+
+**Teste do pezinho — o mais cobrado.** Coleta de sangue por punção do calcanhar, em papel-filtro. A janela ideal é **entre o 3º e o 5º dia de vida** [CONSENSO] — não no 1º-2º dia (pode gerar falso-negativo para hipotireoidismo congênito e falso-positivo para outras condições, por variações hormonais/metabólicas fisiológicas do recém-nascido muito precoce) nem tardiamente sem justificativa. 🚨 A coleta **após o 28º dia de vida é uma condição de exceção** — indicada quando há dificuldade de acesso ao serviço ou negligência prévia, e deve ser feita mesmo assim, pois tarde é melhor do que nunca; não existe um "prazo final" que impeça a coleta.
+
+Doenças classicamente rastreadas pelo teste do pezinho no SUS (fases históricas de ampliação do PNTN) [CONSENSO]:
+- Hipotireoidismo congênito (TSH)
+- Fenilcetonúria (fenilalanina)
+- Doença falciforme e outras hemoglobinopatias (eletroforese/HPLC ou focalização isoelétrica)
+- Fibrose cística (tripsina imunorreativa — IRT)
+- Hiperplasia adrenal congênita (17-hidroxiprogesterona — 17-OHP)
+- Deficiência de biotinidase
+
+[VARIÁVEL] A Lei 14.154/2021 determinou a ampliação progressiva do painel de doenças rastreadas pelo SUS (incluindo, conforme regulamentação e fase de implementação, condições adicionais como toxoplasmose congênita, galactosemia e outras aminoacidopatias). ⚠️ VERIFICAR quais doenças estão efetivamente incorporadas e em que fase de implementação o painel se encontra na data de uso deste módulo, pois isso muda por portaria do MS e pode variar por estado/rede.
+
+**Variáveis clínicas que alteram o resultado do teste do pezinho** — este é o ponto mais fino cobrado pela prova:
+- **Uso de corticoide pela mãe na gestação** pode suprimir o eixo hipotálamo-hipófise-adrenal fetal e **reduzir falsamente a 17-OHP**, mascarando (falso-negativo) ou distorcendo o resultado do rastreio de **hiperplasia adrenal congênita**.
+- Prematuridade e baixo peso ao nascer também alteram a 17-OHP (tende a estar fisiologicamente mais alta em prematuros, gerando falso-positivo) e podem alterar o TSH.
+- Transfusão sanguínea recente invalida o rastreio de hemoglobinopatias (o sangue transfundido mascara o padrão de hemoglobina do próprio bebê) — nesse caso, a coleta deve ser adiada ou repetida após período sem transfusão.
+- Nutrição parenteral e alimentação insuficiente em proteína podem falsear o rastreio de fenilcetonúria (fenilalanina depende de ingestão proteica).
+
+**Resultado "traço" (heterozigoto) para hemoglobinopatia.** Quando o teste do pezinho mostra um padrão heterozigoto (ex.: FAS = traço falciforme), isso identifica um **portador saudável**, não um doente. 🇧🇷 **CONDUTA DE PROVA (MS):** a conduta diante de traço falciforme identificado no pezinho é **tranquilizar os pais** e oferecer aconselhamento genético — não se trata de doença falciforme, não requer tratamento, e não é indicação, por si só, de repetir o teste ou de exames confirmatórios adicionais de rotina. Já um padrão sugestivo de **doença** (ex.: FS, FSC, FSA sem A materno) exige confirmação e encaminhamento para hematologia pediátrica com acompanhamento especializado.
+
+**Teste da orelhinha (triagem auditiva neonatal).** Obrigatório por lei, deve ser realizado idealmente ainda na maternidade, antes da alta, e no máximo até o final do primeiro mês de vida. Método: emissões otoacústicas evocadas (EOA); se alterado, repete-se o exame e, se a alteração persistir, encaminha-se para potencial evocado auditivo de tronco encefálico (PEATE/BERA) e avaliação otorrinolaringológica/fonoaudiológica. ⚠️ **PEGADINHA DO INEP:** um resultado alterado no teste da orelhinha **não confirma surdez** — é apenas o gatilho para investigação diagnóstica confirmatória; a triagem nunca substitui o diagnóstico definitivo.
+
+**Teste do olhinho (reflexo vermelho).** Avalia a transparência dos meios oculares através da oftalmoscopia direta, buscando o reflexo vermelho simétrico bilateral. Detecta catarata congênita, glaucoma congênito, retinoblastoma (leucocoria — reflexo esbranquiçado, "olho de gato amaurótico") e outras opacidades. Deve ser feito antes da alta da maternidade e **repetido em toda consulta de puericultura** (não é um teste único — ao contrário dos outros quatro) pois algumas condições (catarata, retinoblastoma) podem se manifestar tardiamente. 🚨 Reflexo vermelho ausente ou assimétrico (leucocoria) é emergência de encaminhamento oftalmológico — retinoblastoma não diagnosticado a tempo tem risco de vida.
+
+**Teste do coraçãozinho (oximetria de pulso neonatal).** Realizado entre 24 e 48 horas de vida, antes da alta hospitalar, com o objetivo de detectar cardiopatias congênitas críticas (CCC) ductodependentes que ainda não se manifestaram clinicamente. Técnica: mede-se a saturação periférica de O2 (SpO2) simultaneamente no **membro superior direito** (pré-ductal) e em **um dos membros inferiores** (pós-ductal). [CONSENSO] Teste **alterado** quando: SpO2 <95% em qualquer membro, ou diferença ≥3% entre membro superior direito e membro inferior. Se alterado, repete-se a aferição em 1 hora; se a alteração persistir, é indicado **ecocardiograma dentro de 24 horas**. 🚨 Teste do coraçãozinho normal **não exclui** todas as cardiopatias congênitas — apenas reduz a chance de uma CCC ductodependente grave passar despercebida antes da alta; cardiopatias que não causam hipoxemia significativa (ex.: algumas comunicações interventriculares) podem não ser detectadas por esse método.
+
+**Teste da linguinha.** Avaliação padronizada do frênulo lingual (protocolo de avaliação do frênulo lingual em bebês, base da Lei 13.002/2014) para identificar **anquiloglossia** ("língua presa"), que pode prejudicar a pega e a amamentação. Idealmente realizado ainda na maternidade. Se identificada anquiloglossia funcionalmente significativa, a conduta pode incluir frenotomia, com decisão compartilhada e acompanhamento de aleitamento — ⚠️ VERIFICAR protocolo institucional vigente quanto à indicação cirúrgica, pois nem toda anquiloglossia anatômica exige intervenção.
+
+⚠️ **PEGADINHA DO INEP:** a banca explora sistematicamente três erros de raciocínio — (1) confundir a janela ideal de um teste com a de outro (ex.: achar que o pezinho deve ser colhido "antes da alta", quando na verdade o ideal é entre o 3º-5º dia, depois da alta precoce usual); (2) achar que existe um prazo final absoluto que impede a coleta do pezinho (não existe — após o 28º dia é exceção, mas ainda deve ser feito); e (3) tratar qualquer teste de triagem como diagnóstico definitivo — todos os 5 testes são **rastreio**, e resultado alterado sempre exige confirmação por exame específico antes de se afirmar diagnóstico ou iniciar tratamento definitivo.
+
+### Referências
+1. Ministério da Saúde. Programa Nacional de Triagem Neonatal (PNTN) — portarias e diretrizes vigentes. ⚠️ VERIFICAR portaria e fase de ampliação vigentes na data de uso.
+2. Lei nº 14.154/2021 — amplia o programa de triagem neonatal. ⚠️ VERIFICAR regulamentação e cronograma de implementação vigentes.
+3. Lei nº 12.303/2010 — obrigatoriedade do exame de emissões otoacústicas evocadas (teste da orelhinha).
+4. Lei nº 13.002/2014 — obrigatoriedade do protocolo de avaliação do frênulo lingual (teste da linguinha).
+5. Sociedade Brasileira de Pediatria. Documentos científicos sobre triagem neonatal (auditiva, ocular, cardiológica). ⚠️ VERIFICAR documentos e ano vigentes.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no alojamento conjunto/maternidade:** nas primeiras 48h de vida, a equipe deve garantir, antes da alta, o teste do olhinho, o teste do coraçãozinho, o teste da orelhinha (quando disponível no serviço) e o teste da linguinha — e **orientar explicitamente** a família sobre o retorno para o teste do pezinho entre o 3º e o 5º dia, já que este não é feito na maternidade na maioria dos casos (a janela ideal é posterior à alta habitual). Na UBS, o teste do pezinho é frequentemente a porta de entrada da primeira consulta de puericultura, e é também onde se resgatam crianças que "escaparam" da triagem completa na maternidade.
+
+**Erros que a equipe comete de verdade:**
+- Dar alta hospitalar sem oferecer todos os testes disponíveis na maternidade (olhinho, coraçãozinho, orelhinha, linguinha), assumindo que "isso é problema da UBS".
+- Não registrar/comunicar à família e à UBS de referência que o teste do pezinho ainda precisa ser colhido entre o 3º-5º dia — a alta precoce (24-48h) é a norma, e sem essa orientação explícita a família simplesmente não vai.
+- Achar que, passado o 28º dia sem coleta, "perdeu-se a oportunidade" — e não regularizar a situação. O correto é colher assim que possível, marcando como coleta tardia por exceção (dificuldade de acesso/negligência), e não simplesmente deixar de fazer.
+- Repetir teste do olhinho apenas na maternidade e esquecer de reavaliá-lo nas consultas de puericultura seguintes (é o único dos 5 testes que deve ser repetido rotineiramente).
+- Interpretar um teste do coraçãozinho ou orelhinha alterado como diagnóstico fechado (cardiopatia confirmada, surdez confirmada) e assustar desnecessariamente a família antes da confirmação, ou o oposto — não encaminhar para confirmação por acreditar que "deve ser erro técnico".
+- Esquecer de perguntar sobre uso de corticoide materno, prematuridade ou transfusão ao interpretar um pezinho levemente alterado para hiperplasia adrenal congênita ou hemoglobinopatia.
+
+**O que dizer aos pais:**
+- Que os 5 testes são **gratuitos, obrigatórios por lei e de rastreio** — um resultado alterado não é diagnóstico, é um sinal para investigar melhor; um resultado normal reduz muito, mas não elimina 100% o risco de todas as condições.
+- Que a janela do teste do pezinho é entre o 3º e o 5º dia de vida e que isso normalmente acontece **depois** da alta da maternidade — a família precisa ativamente procurar a UBS ou posto de coleta nessa janela.
+- Que traço (heterozigose) de hemoglobinopatia **não é doença**: a criança é saudável, apenas carrega uma característica genética que pode ser relevante para planejamento familiar futuro (aconselhamento genético), sem necessidade de tratamento.
+- Se algum teste vier alterado: explicar calmamente que é preciso um exame confirmatório (ex.: ecocardiograma para o coraçãozinho, PEATE para orelhinha, avaliação especializada para olhinho/pezinho) antes de qualquer conclusão diagnóstica.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Verificar e registrar sistematicamente quais dos 5 testes já foram realizados e quais faltam, antes de dar a alta ou encerrar a consulta de puericultura.
+- ✅ Orientar ativamente a família sobre a janela ideal do teste do pezinho (3º-5º dia) e sobre a possibilidade — e necessidade — de coleta tardia por exceção se isso não ocorreu.
+- ✅ Diante de um teste alterado, verbalizar corretamente: "isto é um rastreio, precisa de confirmação" + o exame confirmatório certo + o encaminhamento certo (hematologia, cardiologia pediátrica, oftalmologia, fonoaudiologia/otorrino).
+- ✅ Perguntar ativamente sobre corticoide materno, prematuridade e transfusões ao avaliar um pezinho alterado, antes de afirmar diagnóstico.
+- ✅ Comunicação empática: reduzir a ansiedade dos pais diante de um resultado "traço" ou levemente alterado, sem minimizar a necessidade real de investigação quando indicada.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2021 · Edição 1 · Questão 68]**
+
+59. ITEM 137856 - V. 719624 Um recém-nascido de 15 dias é levado à primeira consulta de puericultura. A gestação correu sem intercorrências. Mãe relata ser asmática e fez uso de prednisona oral durante toda a gestação. Parto vaginal a termo. Peso de nascimento = 3 500 g. Apgar 9/9. Alta com 2 dias. Colheu teste do pezinho no 4.o dia de vida. Ao exame, o recém-nascido mostra-se em ótimo estado geral, corado e hidratado. O exame cardiovascular e respiratório sem anormalidades, assim como o exame do abdome. Considerando a história acima, assinale a alternativa que apresenta a doença cujo resultado no teste de triagem neonatal pode ter seu resultado modificado pela condição clínica materna descrita.
+
+A) Deficiência de biotinidase.
+B) Anemia falciforme.
+C) Hiperplasia adrenal congênita.
+D) Fibrose cística.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** o uso de **corticosteroide (prednisona) pela mãe durante toda a gestação** pode suprimir o eixo hipotálamo-hipófise-adrenal fetal, reduzindo artificialmente a dosagem de **17-hidroxiprogesterona (17-OHP)** — o marcador bioquímico usado no teste do pezinho para rastrear hiperplasia adrenal congênita (HAC). Isso pode gerar um resultado falsamente normal (falso-negativo) mesmo em um recém-nascido que tenha a doença, ou distorcer a interpretação do exame. É exatamente esse tipo de interferência hormonal materna sobre um marcador hormonal fetal que a questão está testando.
+
+**Por que as demais estão erradas:**
+- A) A deficiência de biotinidase é rastreada por dosagem enzimática direta, não influenciada por corticoide materno.
+- B) O rastreio de hemoglobinopatias (eletroforese/HPLC) analisa o padrão de hemoglobina do próprio recém-nascido e não sofre interferência por uso materno de corticoide.
+- D) O rastreio de fibrose cística usa a tripsina imunorreativa (IRT); embora IRT possa variar por outras condições neonatais, a interferência classicamente descrita por corticoide materno na literatura de triagem neonatal é sobre o eixo adrenal (17-OHP), não sobre o IRT.
+
+**O que a banca estava testando:** o reconhecimento de que variáveis clínicas maternas e neonatais (aqui, corticoide na gestação) podem falsear resultados específicos do teste do pezinho, exigindo que o candidato saiba **qual exame de triagem depende de qual eixo hormonal/metabólico** — não basta saber a lista de doenças rastreadas, é preciso entender o mecanismo por trás de cada marcador.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 68]**
+
+Os pais de um recém-nascido comparecem extremamente nervosos à primeira consulta de puericultura. O menino é o primeiro filho do casal, tem 27 dias de vida e está sendo alimentado exclusivamente com leite materno. Os pais trazem o teste de triagem neonatal de seu bebê com resultado de presença de traço falciforme. Informam que o parto foi cesáreo por opção, pois a mãe iniciou o pré-natal tardiamente. Além disso, relatam que houve internação de 2 dias para realização de fototerapia no neném devido à icterícia. Ao exame físico, a criança apresenta-se eutrófica. Considerando-se essas informações, qual é a conduta inicial adequada para esse caso?
+
+A) Solicitar eletroforese de hemoglobina.
+B) Solicitar o teste de falcização e de solubilidade.
+C) Refazer o teste de triagem neonatal imediatamente.
+D) Tranquilizar os pais, uma vez que se trata de heterozigose.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** "traço falciforme" (padrão heterozigoto, tipicamente FAS) identificado no teste do pezinho representa um **estado de portador saudável**, não a doença falciforme. A criança é eutrófica, assintomática, e os eventos relatados (cesárea eletiva, icterícia neonatal tratada com fototerapia) não têm relação fisiopatológica com o achado do traço — são dados de história que funcionam como distratores emocionais/clínicos. A conduta inicial correta é **tranquilizar os pais**, esclarecendo que se trata de heterozigose benigna, sem necessidade de tratamento, com eventual encaminhamento para aconselhamento genético.
+
+**Por que as demais estão erradas:**
+- A) A eletroforese de hemoglobina confirmatória é reservada principalmente para padrões sugestivos de **doença** falciforme (ex.: FS, FSC) identificados no pezinho, não para confirmar rotineiramente um traço já caracterizado pelo método de triagem (HPLC/focalização isoelétrica), que tem alta acurácia para diferenciar traço de doença.
+- B) O teste de falcização/solubilidade (teste de Itano) é um método antigo, pouco específico, que não diferencia traço de doença e não é a conduta indicada com um resultado de triagem já definido.
+- C) Não há indicação de repetir o teste: o resultado de traço não é analiticamente ambíguo, e os eventos perinatais relatados (icterícia, fototerapia) não invalidam o método de triagem para hemoglobinopatias.
+
+**O que a banca estava testando:** a capacidade de diferenciar **traço** (condição de portador, benigna) de **doença falciforme**, reconhecendo que a conduta correta diante de um traço é orientação e acolhimento da ansiedade parental — não investigação laboratorial adicional nem tratamento.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 18]**
+
+Lactente saudável de 40 dias, que atualmente vive em uma unidade de acolhimento, é atendido em uma unidade básica de saúde (UBS) em sua primeira consulta desde o nascimento. Sua cuidadora informa que não foi realizado teste do pezinho.
+
+A) respeito da indicação de coleta do teste do pezinho, assinale a alternativa correta. A O teste do pezinho pode ser coletado somente até o 28º dia de vida; dessa forma, a coleta não poderá ser realizada nesse lactente.
+B) O teste do pezinho pode ser coletado apenas entre o 3º e o 5º dia de vida do bebê; dessa forma, a coleta não poderá ser realizada nesse lactente.
+C) A coleta do teste do pezinho deveria ter sido realizada na maternidade, logo nas primeiras 48 horas de vida do bebê, o que evitaria a situação atual.
+D) A coleta do teste do pezinho após o 28º dia de vida é uma condição de exceção, podendo ser realizada em caso de difícil acesso ao serviço ou de negligência.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a janela ideal de coleta do teste do pezinho é entre o 3º e o 5º dia de vida, mas isso **não é um prazo absoluto que impede a coleta depois**. A coleta após o 28º dia é reconhecida como **condição de exceção**, indicada exatamente em cenários como este — criança em situação de vulnerabilidade social (unidade de acolhimento), sem acesso prévio ao teste — e deve ser realizada assim que identificada a lacuna, e não simplesmente descartada por "ter passado do prazo".
+
+**Por que as demais estão erradas:**
+- A) Afirma um limite absoluto de 28 dias que não existe — a coleta tardia é exceção, não impossibilidade.
+- B) Também trata a janela ideal (3º-5º dia) como se fosse o único momento possível de coleta, o que é falso — a janela é *ideal*, não exclusiva.
+- C) É tecnicamente incorreto porque o teste do pezinho não é feito nas primeiras 48h na maternidade (essa é a janela do teste do coraçãozinho, do olhinho e da linguinha) — a janela ideal do pezinho é justamente **depois** da alta usual, entre o 3º e o 5º dia; portanto, dizer que "deveria ter sido feito na maternidade nas primeiras 48h" descreve a janela errada para este teste específico.
+
+**O que a banca estava testando:** se o candidato confunde a janela ideal de coleta do pezinho (3º-5º dia) com a janela de outros testes de triagem feitos ainda na maternidade (coraçãozinho, olhinho, linguinha), e se sabe que a ausência de coleta no prazo ideal não elimina a indicação de realizá-la posteriormente.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 85]**
+
+Um recém-nascido a termo, com 24 horas de vida e peso de nascimento de 3 200 g, realiza o teste de triagem neonatal para cardiopatia congênita crítica (Teste do Coraçãozinho) com os seguintes resultados: Saturação de O2 em membro superior direito (MSD) de 97 % e em membro inferior direito (MID) de 93 %. A conclusão do resultado do teste e a conduta médica indicada em relação ao caso são, respectivamente,
+
+A) teste normal e a criança deve permanecer por mais 24 horas no alojamento conjunto para observação e, então, poderá ser liberada para casa.
+B) teste limítrofe e deve ser repetido após 12 horas de intervalo e, se persistir com saturação de MID < 95%, deve ser solicitada ecocardiografia.
+C) teste alterado e deve ser solicitado exame radiológico de tórax e avaliação cardiológica com ecocardiografia para esclarecimento.
+D) teste alterado e deve ser repetido após 1 hora de intervalo e, se persistir com alteração, deverá ser solicitada ecocardiografia.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o teste está **alterado**, e a conduta padronizada diante de um teste alterado é **repetir após 1 hora**; persistindo a alteração, **solicitar ecocardiograma**.
+
+Os critérios do Teste do Coraçãozinho (oximetria de pulso neonatal) são dois, e **basta um** para considerar o teste alterado:
+- **Saturação < 95%** em qualquer um dos membros aferidos; **ou**
+- **Diferença ≥ 3 pontos percentuais** entre o membro superior direito (pré-ductal) e o membro inferior (pós-ductal).
+
+Neste caso, **os dois** critérios estão presentes: MID de **93%** (< 95%) e diferença de **4 pontos** (97% − 93% ≥ 3%). Teste alterado, sem margem para dúvida.
+
+A conduta é escalonada justamente porque a causa mais comum de um primeiro teste alterado **não é cardiopatia** — é transição circulatória incompleta, hipotermia, choro, má perfusão periférica ou posicionamento inadequado do sensor. Por isso:
+1. **Repetir em 1 hora**, com o bebê aquecido, calmo e com o sensor bem posicionado;
+2. **Se normalizar** → seguimento habitual;
+3. **Se persistir alterado** → **ecocardiograma em até 24 horas**, e o recém-nascido não recebe alta até o esclarecimento.
+
+**Por que as demais estão erradas:**
+- A) Chama o teste de **normal**, o que é falso: 93% está abaixo de 95% e a diferença é de 4 pontos. E a conduta proposta — observar 24 horas e **liberar para casa** — é a mais perigosa do conjunto. Cardiopatias congênitas críticas são **ducto-dependentes**: enquanto o canal arterial permanece aberto o bebê parece bem, e o fechamento, que ocorre tipicamente entre 24 e 72 horas de vida, precipita choque cardiogênico ou hipoxemia grave **já em casa**. O teste existe exatamente para impedir esse desfecho.
+- B) Inventa uma categoria **"limítrofe"** que não existe no protocolo — o resultado é binário, normal ou alterado. E erra o intervalo: a reavaliação é em **1 hora**, não em 12. Esperar 12 horas com um teste alterado é perder a janela em que o canal arterial ainda mascara a cardiopatia.
+- C) Acerta ao classificar o teste como **alterado**, mas **pula a etapa de confirmação**. A radiografia de tórax não tem papel definido no algoritmo do teste, e partir direto para avaliação cardiológica em todo primeiro teste alterado sobrecarregaria o serviço com falsos-positivos — a maioria normaliza na repetição de 1 hora. A sequência é **repetir primeiro, investigar depois**.
+
+⚠️ **PEGADINHA DO INEP:** a questão explora a leitura isolada do número. Vendo "97%" no membro superior, o candidato pensa em saturação boa e é atraído por A. A armadilha é esquecer que **o teste tem dois critérios** e que **a diferença entre os membros pesa tanto quanto o valor absoluto** — é justamente o gradiente pré/pós-ductal que denuncia a cardiopatia ducto-dependente. A alternativa B monta a segunda armadilha, com uma categoria intermediária inventada e um intervalo plausível mas errado.
+
+| Resultado | Critério | Conduta |
+|---|---|---|
+| **Normal** | SatO₂ ≥ 95% em **ambos** os membros **e** diferença < 3% | Seguimento habitual |
+| **Alterado** | SatO₂ < 95% em qualquer membro **ou** diferença ≥ 3% | **Repetir em 1 h**; persistindo → **ecocardiograma em 24 h** |
+
+**Detalhes que também caem:** o teste é feito entre **24 e 48 horas de vida**, antes da alta, em recém-nascidos com **idade gestacional > 34 semanas**; aferido em **MSD** (pré-ductal) e **qualquer membro inferior** (pós-ductal). Um teste normal **não exclui** cardiopatia congênita — a sensibilidade gira em torno de 75% e não detecta bem as lesões obstrutivas esquerdas, como a coarctação de aorta. O exame físico e a vigilância clínica continuam indispensáveis.
+
+**O que a banca estava testando:** aplicar corretamente os **dois critérios** de anormalidade do Teste do Coraçãozinho e conhecer o **algoritmo de conduta escalonada** — repetição em 1 hora antes do ecocardiograma —, reconhecendo que liberar para casa um recém-nascido com teste alterado é conduta de risco em razão da dependência do canal arterial.
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 58]**
+
+Recém-nascido com 36 h de vida é avaliado por médico assistente em maternidade pública municipal. No momento, mostra-se ativo, rosado e mamando ativamente o seio materno. Gestação e parto ocorreram sem intercorrências. Exame clínico cardiovascular normal no momento. O médico pediu autorização da família para a realização do teste de oximetria (coraçãozinho), explicando sua importância para a detecção precoce de cardiopatias congênitas críticas. O exame evidenciou valores de saturação de 99% em membro superior direito e 95% em membro inferior direito. Considerando-se os achados do teste descrito, a conduta adequada a ser seguida pelo médico assistente, além de fornecer as orientações gerais à mãe, é
+
+A) dar alta hospitalar.
+B) repetir o exame em 1 h.
+C) requerer ecocardiograma.
+D) solicitar eletrocardiograma.
+
+**Gabarito oficial: B**
+
+📋 *Corrigido em 2026-09-23: este bloco indicava anteriormente a alternativa A (dar alta hospitalar). A auditoria conferiu o **PDF oficial do gabarito definitivo de 2022.2** e o gabarito correto é **B**. Esta é a correção de maior impacto clínico deste lote: a conduta antes registrada era **dar alta a um recém-nascido com teste do coraçãozinho alterado**.*
+
+**Por que B está correta:** o **teste de oximetria de pulso (teste do coraçãozinho)** só é **normal** quando cumpre **duas** condições simultâneas:
+
+1. **Saturação ≥ 95%** no membro superior direito (pré-ductal) **e** em um membro inferior (pós-ductal); **e**
+2. **Diferença < 3%** entre as duas medidas.
+
+Neste caso, os valores são **99% no MSD** e **95% no MID**. A primeira condição está cumprida (ambos ≥ 95%), mas a segunda **não**: a diferença é de **4 pontos percentuais**, ou seja, **≥ 3%**. O teste é, portanto, **alterado**.
+
+Diante de um teste alterado, a conduta padronizada é **repetir o exame em 1 hora**. Se a segunda medida também vier alterada, aí sim está indicado o **ecocardiograma** (idealmente em 24 horas). O bom estado clínico do recém-nascido — ativo, rosado, mamando bem, exame cardiovascular normal — **não invalida o teste**: a razão de ser do rastreamento é justamente detectar **cardiopatias congênitas críticas ainda assintomáticas**, antes do fechamento do canal arterial.
+
+**Por que as demais estão erradas:**
+- A) **Dar alta hospitalar** é o erro que o teste existe para evitar. Um recém-nascido com cardiopatia crítica canal-dependente pode estar perfeitamente rosado e ativo às 36 horas de vida e **descompensar em casa** quando o canal arterial fechar. Aparência clínica normal não sobrepõe um teste de rastreamento alterado.
+- C) **Requerer ecocardiograma** já é a conduta certa, mas na **etapa errada**. O ecocardiograma vem **após a confirmação** pela segunda oximetria alterada. Pular a repetição sobrecarrega um recurso de disponibilidade limitada — e boa parte dos testes inicialmente alterados **normaliza** na repetição, por transição circulatória ainda em curso, hipotermia ou má perfusão periférica no momento da aferição.
+- D) O **eletrocardiograma** não faz parte do fluxograma do teste do coraçãozinho e tem baixo rendimento para o diagnóstico de cardiopatias congênitas críticas no período neonatal. Não substitui nem antecede o ecocardiograma.
+
+⚠️ **PEGADINHA DO INEP:** a banca oferece dois valores **ambos acima de 95%** para induzir a leitura "está tudo normal". O critério esquecido é o da **diferença entre pré e pós-ductal**. Guarde os dois números juntos: **≥ 95% em ambos E diferença < 3%** — falhar em qualquer um deles já torna o teste alterado.
+
+**O que a banca estava testando:** conhecer com precisão os **critérios de normalidade** do teste de oximetria de pulso neonatal (os dois, não apenas o valor absoluto) e o **fluxograma de conduta** diante de um resultado alterado — repetir em 1 hora antes de escalonar para ecocardiograma, e nunca dar alta.
+
+### Referências
+1. Sociedade Brasileira de Pediatria — Diretrizes do teste de oximetria de pulso (teste do coraçãozinho) na triagem neonatal. ⚠️ VERIFICAR a versão vigente quanto à janela de realização (entre 24 e 48 h de vida) e ao prazo recomendado para o ecocardiograma.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 3]**
+
+Um lactente com 3 meses comparece a uma consulta na unidade de saúde da família por mover os olhos de um lado para outro de forma anormal e repetitiva. A mãe do paciente informa que o teste do olhinho, realizado anteriormente, foi inconclusivo e que o bebê recebeu alta sem orientações. A gestação e o parto foram sem intercorrências. Ao exame físico, o lactente apresenta-se eutrófico, com o movimento dos globos oculares oscilatórios, sem a presença de outras alterações neurológicas ou motoras. Com base nessas informações, quais são, respectivamente, o diagnóstico e a conduta médica adequada para esse caso?
+
+A) Catarata congênita; refazer o teste do olhinho no paciente.
+B) Estrabismo; tranquilizar a mãe do paciente e agendar retorno precoce.
+C) Nistagmo; encaminhar o paciente ao oftalmologista e ao neuropediatra.
+D) Xeroftalmia; solicitar dosagem de vitamina A do paciente com urgência.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** o achado descrito — "**movimento dos globos oculares oscilatórios**", repetitivo, de um lado para outro — é a definição de **nistagmo**, e sua presença em lactente exige **avaliação oftalmológica e neurológica**.
+
+**Por que o nistagmo em lactente nunca é banal.** O nistagmo infantil pode ter origem **ocular** ou **neurológica**, e ambas exigem investigação:
+
+| Origem | Causas |
+|---|---|
+| **Ocular (sensorial)** | catarata congênita, glaucoma congênito, albinismo ocular, aniridia, distrofias retinianas (amaurose congênita de Leber), hipoplasia de nervo óptico, erros refrativos graves |
+| **Neurológica (motora)** | malformações de fossa posterior, tumores de vias ópticas ou de tronco, doenças neurodegenerativas, síndrome de *spasmus nutans* |
+
+Daí a conduta da alternativa: **encaminhamento duplo**, ao oftalmologista **e** ao neuropediatra. Nenhuma das duas avaliações substitui a outra.
+
+⚠️ **O dado mais grave do enunciado: "o teste do olhinho foi INCONCLUSIVO e o bebê recebeu alta SEM ORIENTAÇÕES."** Este é o erro que a questão denuncia. Um teste do reflexo vermelho **inconclusivo deve ser repetido e, persistindo a dúvida, o recém-nascido deve ser encaminhado ao oftalmologista antes da alta** — jamais liberado sem seguimento. Passaram-se **3 meses** desde então, e a criança desenvolveu nistagmo. Esse intervalo tem consequência concreta.
+
+**Por que o tempo importa tanto — a ambliopia.** O desenvolvimento do sistema visual depende de **estímulo luminoso adequado** nos primeiros meses de vida. Uma opacidade de meios (catarata, por exemplo) não tratada precocemente impede a formação da imagem retiniana e leva a **ambliopia por privação** — perda visual **irreversível** mesmo que a causa seja corrigida depois. Para a catarata congênita, a janela de cirurgia associada a melhor prognóstico visual é das **primeiras 6 a 8 semanas** de vida. Aos 3 meses, já se está atrasado. O nistagmo, aliás, costuma ser justamente o **sinal de que a visão está comprometida**: os olhos oscilam porque não conseguem fixar.
+
+**Sobre o teste do reflexo vermelho** ("teste do olhinho") [CONSENSO]:
+- Deve ser realizado **em todo recém-nascido**, idealmente ainda na maternidade, e repetido nas consultas de puericultura (recomenda-se pelo menos 2 a 3 vezes ao ano nos primeiros 3 anos).
+- É feito com **oftalmoscópio direto**, a cerca de 30-50 cm, em ambiente escurecido, comparando os dois olhos.
+- **Normal:** reflexo **vermelho-alaranjado, brilhante e simétrico** nos dois olhos.
+- **Alterado:** reflexo **ausente, branco (leucocoria), assimétrico ou opaco** → encaminhamento oftalmológico **imediato**.
+- Detecta: **catarata congênita**, **retinoblastoma**, glaucoma congênito, opacidades corneanas, retinopatia da prematuridade avançada, descolamento de retina.
+
+⚠️ **A leucocoria é sinal de alarme absoluto.** Pode ser a primeira manifestação do **retinoblastoma**, tumor maligno intraocular da infância cujo prognóstico — de vida, não apenas de visão — depende do diagnóstico precoce.
+
+**Por que as demais estão erradas:**
+
+- **A) Catarata congênita; refazer o teste do olhinho.** A catarata congênita é, de fato, um dos diagnósticos que **podem estar por trás** deste nistagmo — mas o enunciado **não descreve leucocoria nem opacidade**, e o diagnóstico não pode ser afirmado com os dados disponíveis. O erro maior está na conduta: "refazer o teste do olhinho" é **insuficiente e tardio**. O teste é instrumento de **triagem**, e ele **já falhou uma vez** (foi inconclusivo). Diante de nistagmo instalado, o que se impõe é **avaliação especializada**, não repetir a triagem que não esclareceu.
+
+- **B) Estrabismo; tranquilizar e agendar retorno.** Erra o diagnóstico e a conduta. **Estrabismo é desalinhamento dos eixos visuais** — um olho desviado em relação ao outro —, coisa distinta de **movimento oscilatório repetitivo de ambos os globos**. Além disso, mesmo que fosse estrabismo, "tranquilizar" seria inadequado: o **estrabismo persistente após os 4 meses** de idade é **sempre patológico** e exige avaliação oftalmológica, pelo risco de ambliopia. E o estrabismo também pode ser manifestação de **retinoblastoma**.
+
+- **D) Xeroftalmia; dosagem de vitamina A.** A xeroftalmia é a manifestação ocular da **deficiência de vitamina A**, e seu quadro é completamente outro: **cegueira noturna** (primeiro sintoma), **xerose conjuntival e corneana**, **manchas de Bitot**, ceratomalácia. Ocorre em contexto de **desnutrição** — e o lactente é descrito como **eutrófico**, com gestação e parto sem intercorrências. Não causa nistagmo.
+
+⚠️ **PEGADINHA DO INEP:** três alternativas propõem condutas de **baixa intensidade** — repetir triagem, tranquilizar, dosar uma vitamina. A questão testa se o candidato reconhece o **nistagmo como sinal de alarme** que exige encaminhamento imediato e duplo. Há ainda uma crítica implícita ao manejo prévio: o serviço que liberou o recém-nascido com teste inconclusivo e **sem orientações** perdeu meses preciosos.
+
+**O que a banca estava testando:** identificar o **nistagmo** pelo movimento ocular oscilatório, compreender que ele pode ter causa **ocular ou neurológica** e exige **encaminhamento duplo e imediato**, e reconhecer a falha no seguimento de um **teste do reflexo vermelho inconclusivo** — com o custo, em visão, que o atraso impõe.
+
+---
+
+**[INEP 2017 · Edição 1 · Questão 30]**
+
+Um lactente com 3 meses de vida é atendido em sua terceira consulta em Unidade Básica de Saúde. Segundo o prontuário do paciente, ele nasceu a termo por meio de parto normal, pesando 2.950 g e medindo 49 cm, sem intercorrências, e tendo alta após 24 horas do nascimento. Pré-natal sem alterações. As emissões otoacústicas evocadas, realizadas duas vezes, e o potencial evocado do tronco encefálico mostram-se alterados (respostas não satisfatórias). Foi realizado um novo potencial evocado do tronco encefálico e o resultado mostra-se normal. O exame físico atual não apresenta alterações, assim como o crescimento e o desenvolvimento da criança. Na situação descrita, a conduta adequada é o acompanhamento audiológico do paciente na unidade
+
+A) básica, em conjunto com a especializada.
+B) especializada, com realização de audiometria.
+C) básica, com observação do seu desenvolvimento.
+D) especializada, para tratamento específico de otite crônica.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a triagem auditiva neonatal (EOA) falhou, mas o **diagnóstico** com **PEATE** acabou **normal** — a audição foi confirmada. Sem indicadores de risco para deficiência auditiva (pré-natal e parto normais), o seguimento é o da **puericultura na atenção básica**, com **vigilância do desenvolvimento da audição e da linguagem** (Diretrizes de Atenção da Triagem Auditiva Neonatal, MS).
+
+**Por que as demais estão erradas:**
+- A) e B) Seguimento especializado/audiometria periódica é para crianças **com indicadores de risco** ou com perda confirmada.
+- D) Não há otite crônica descrita.
+
+⚠️ **PEGADINHA DO INEP:** "falhou na triagem" ≠ "surdo". Falha na EOA → reteste → PEATE diagnóstico; **PEATE normal** e sem fator de risco → **acompanhar na APS**.
+
+**O que a banca estava testando:** fluxo da triagem auditiva neonatal.
+
+**[INEP 2022 · Edição 1 · Questão 63]**
+
+Em um recém-nascido de parto normal, com idade gestacional de 36 semanas, apgar 9 no primeiro minuto e 10 no quinto minuto, peso e comprimento adequados, foi realizado, com 26 horas de vida, o teste da oximetria de pulso, que apresentou diferença de saturação superior a 3% entre as medidas pré e pós-ductal. Nesse caso, o resultado obtido no referido teste é considerado
+
+A) alterado, uma vez que foi realizado de acordo com a técnica preconizada.
+B) normal, visto que a saturação pós-ductal é superior à pré-ductal.
+C) inválido, já que foi feito antes da idade gestacional indicada.
+D) inválido, pois foi realizado antes do período preconizado.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o **teste do coraçãozinho** (oximetria de pulso) deve ser feito em RN **> 34 semanas**, assintomático, **entre 24 e 48 horas de vida**, medindo a saturação no **membro superior direito (pré-ductal)** e em um **membro inferior (pós-ductal)**. É **alterado** se SpO2 < 95% em qualquer medida **ou diferença ≥ 3%** entre elas. Nesse caso, repete-se em 1 hora e, se persistir, o RN faz **ecocardiograma** em até 24 horas. O teste foi feito com 26 horas, em RN de 36 semanas → técnica válida e resultado **alterado**.
+
+**Por que as demais estão erradas:**
+- B) Uma diferença > 3% é alteração, seja qual for o membro com saturação maior.
+- C) O critério é idade gestacional **> 34 semanas**; 36 semanas está dentro.
+- D) 26 horas está dentro da janela de 24–48 horas.
+
+⚠️ **PEGADINHA DO INEP:** guarde os números do teste: **> 34 semanas, 24–48 h, SpO2 ≥ 95% e diferença < 3%**.
+
+**O que a banca estava testando:** técnica e interpretação do teste do coraçãozinho (triagem de cardiopatia congênita crítica).
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Quais são os 5 testes do Programa Nacional de Triagem Neonatal?	Pezinho, orelhinha, olhinho, coraçãozinho e linguinha	Revalida::Pediatria::TriagemNeonatal::VisaoGeral
+Qual a janela ideal de coleta do teste do pezinho?	Entre o 3º e o 5º dia de vida	Revalida::Pediatria::TriagemNeonatal::Pezinho
+A coleta do teste do pezinho após o 28º dia de vida é proibida?	Não; é uma condição de exceção, indicada em caso de difícil acesso ao serviço ou negligência prévia	Revalida::Pediatria::TriagemNeonatal::Pezinho
+Quais doenças classicamente rastreadas pelo teste do pezinho no SUS?	Hipotireoidismo congênito, fenilcetonúria, doença falciforme/hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase	Revalida::Pediatria::TriagemNeonatal::Pezinho
+Uso de corticoide pela mãe na gestação pode alterar qual resultado do teste do pezinho e como?	Pode suprimir o eixo adrenal fetal e reduzir falsamente a 17-OHP, mascarando hiperplasia adrenal congênita	Revalida::Pediatria::TriagemNeonatal::Interferencias
+Transfusão sanguínea recente no recém-nascido invalida o rastreio de qual condição no pezinho?	Hemoglobinopatias (o sangue transfundido mascara o padrão de hemoglobina do próprio bebê)	Revalida::Pediatria::TriagemNeonatal::Interferencias
+Qual a conduta diante de "traço falciforme" (heterozigose) identificado no teste do pezinho?	Tranquilizar os pais e oferecer aconselhamento genético; não é doença, não requer tratamento	Revalida::Pediatria::TriagemNeonatal::Pezinho
+Qual a janela ideal do teste da orelhinha?	Antes da alta da maternidade, no máximo até o final do 1º mês de vida	Revalida::Pediatria::TriagemNeonatal::Orelhinha
+Conduta diante de teste da orelhinha alterado?	Repetir o exame; se persistir alterado, encaminhar para PEATE/BERA e avaliação otorrino/fonoaudiológica	Revalida::Pediatria::TriagemNeonatal::Orelhinha
+O que o teste do olhinho avalia e qual sua particularidade em relação aos outros 4 testes?	Reflexo vermelho (transparência dos meios oculares); é o único que deve ser repetido em toda consulta de puericultura, não só na maternidade	Revalida::Pediatria::TriagemNeonatal::Olhinho
+Reflexo vermelho ausente ou assimétrico (leucocoria) levanta suspeita de quê?	Catarata congênita, glaucoma congênito ou retinoblastoma — encaminhamento oftalmológico urgente	Revalida::Pediatria::TriagemNeonatal::Olhinho
+Quando é feito o teste do coraçãozinho e o que ele mede?	Entre 24-48h de vida, antes da alta; mede SpO2 no membro superior direito e em um membro inferior	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+Quais critérios definem teste do coraçãozinho alterado?	SpO2 <95% em qualquer membro, ou diferença ≥3% entre membro superior direito e membro inferior	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+Conduta diante de teste do coraçãozinho alterado?	Repetir em 1 hora; se persistir alterado, realizar ecocardiograma em até 24 horas	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+Teste do coraçãozinho normal exclui todas as cardiopatias congênitas?	Não; reduz o risco de cardiopatia congênita crítica ductodependente, mas não detecta todas as cardiopatias	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+O que o teste da linguinha avalia e quando deve ser feito?	Frênulo lingual, para identificar anquiloglossia; idealmente ainda na maternidade	Revalida::Pediatria::TriagemNeonatal::Linguinha
+Um resultado alterado em qualquer um dos 5 testes de triagem neonatal confirma o diagnóstico?	Não; triagem é rastreio, sempre exige exame confirmatório antes de fechar diagnóstico	Revalida::Pediatria::TriagemNeonatal::Conceito
+Lactente de 40 dias nunca fez o teste do pezinho. Qual a conduta?	Colher agora, como coleta tardia por exceção (difícil acesso/negligência) — não descartar por "ter passado do prazo"	Revalida::Pediatria::TriagemNeonatal::Pezinho
+O teste do pezinho é feito na maternidade nas primeiras 48h de vida?	Não, em geral não — sua janela ideal (3º-5º dia) é posterior à alta hospitalar usual; os testes feitos na maternidade são olhinho, coraçãozinho e linguinha	Revalida::Pediatria::TriagemNeonatal::Pezinho
+Os 5 testes de triagem neonatal são gratuitos e obrigatórios no Brasil?	Sim, oferecidos pelo SUS e amparados por legislação federal específica	Revalida::Pediatria::TriagemNeonatal::VisaoGeral
+Teste do coraçãozinho com SpO2 99% (MSD) e 95% (MID): normal ou alterado?	Normal (ambos ≥95%) — alta hospitalar com orientações gerais, sem investigação adicional	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+Teste do coraçãozinho com diferença de saturação entre membros no limite (ex.: 4%): classificação possível?	Pode ser considerado "limítrofe" em alguns gabaritos — repetir antes de encaminhar para avaliação cardiológica (⚠️ verificar protocolo vigente para os intervalos exatos)	Revalida::Pediatria::TriagemNeonatal::Coracaozinho
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Pezinho: janela ideal 3º-5º dia; após 28 dias é exceção (difícil acesso/negligência), nunca motivo para não colher.
+2. Olhinho, coraçãozinho e linguinha: feitos na maternidade, antes da alta (24-48h); orelhinha, até 1 mês. O olhinho é o único repetido em toda consulta de puericultura.
+3. Corticoide materno na gestação pode suprimir o eixo adrenal fetal e mascarar (falso-negativo) a 17-OHP usada para rastrear hiperplasia adrenal congênita.
+4. Traço (heterozigose) de hemoglobinopatia no pezinho = portador saudável = tranquilizar e orientar, não tratar nem investigar de rotina.
+5. Todo teste de triagem é rastreio: resultado alterado sempre exige exame confirmatório específico antes de qualquer diagnóstico definitivo.
+
+📊 **Tabela-síntese — os 5 testes**
+| Teste | Doenças/condições rastreadas | Janela ideal | Alterado → conduta |
+|---|---|---|---|
+| Pezinho | Hipotireoidismo congênito, fenilcetonúria, hemoglobinopatias, fibrose cística, hiperplasia adrenal congênita, deficiência de biotinidase (painel em ampliação — [VARIÁVEL]) | 3º-5º dia de vida (exceção: após 28º dia se difícil acesso/negligência) | Exame confirmatório específico por doença + encaminhamento especializado |
+| Orelhinha | Perda auditiva congênita | Antes da alta / até 1 mês | Repetir; se persistir, PEATE/BERA + avaliação otorrino/fono |
+| Olhinho | Catarata, glaucoma congênito, retinoblastoma, outras opacidades | Antes da alta + toda consulta de puericultura | Encaminhamento oftalmológico (urgente se leucocoria) |
+| Coraçãozinho | Cardiopatias congênitas críticas ductodependentes | 24-48h de vida, antes da alta | Repetir em 1h; se persistir, ecocardiograma em 24h |
+| Linguinha | Anquiloglossia | Ainda na maternidade | Avaliação de impacto na amamentação ± frenotomia |
+
+⚡ **Fluxograma textual:** nascimento → antes da alta hospitalar (24-48h): olhinho + coraçãozinho + linguinha (+ orelhinha, se disponível) → orientar família para coleta do pezinho entre o 3º-5º dia → se algum teste vier alterado, repetir/confirmar com exame específico (nunca tratar com base só na triagem) → se pezinho não coletado no prazo, colher assim que identificado (exceção, nunca "prazo perdido") → seguimento em puericultura com reavaliação do olhinho em toda consulta.
+
+🚫 **Os 3 erros mais comuns:** (1) dar alta da maternidade sem oferecer/registrar todos os testes disponíveis; (2) tratar um teste alterado como diagnóstico fechado (ou, no outro extremo, ignorá-lo por achar que "deve ser erro técnico"); (3) achar que existe um prazo absoluto que impede a coleta tardia do pezinho, em vez de reconhecer que é uma exceção sempre disponível.
+
+🔗 **Conexões com outros módulos:** PED-11 (cardiopatias congênitas — correlaciona com teste do coraçãozinho), PED-03 (icterícia neonatal — comorbidade comum no período de coleta dos testes), PED-47 (aleitamento materno — relação com anquiloglossia/teste da linguinha), HEM-06 (traço falciforme e hemoglobinopatias — aprofunda a conduta do pezinho alterado para hemoglobinopatia), HEM-05 (anemia falciforme, diagnóstico), PREV-20 (rede cegonha — organização da linha de cuidado materno-infantil no SUS).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-93",
+  "especialidade": "Pediatria",
+  "tema": "Triagem neonatal",
+  "assunto": "Os cinco testes do Programa Nacional de Triagem Neonatal (pezinho, orelhinha, olhinho, coraçãozinho, linguinha) — janelas de coleta, doenças rastreadas e conduta diante de resultado alterado ou teste não realizado",
+  "tier": "A",
+  "n_questoes": 8,
+  "n_flashcards": 22,
+  "tempo_estudo_min": 85,
+  "prerequisitos": [],
+  "relacionados": ["PED-11", "PED-03", "PED-47", "HEM-06", "HEM-05", "PREV-20"],
+  "data_geracao": "2026-08-08",
+  "data_atualizacao": "2026-08-08",
+  "codigos_mesclados": ["PED-93", "PED-83"],
+  "itens_a_verificar": [
+    "Gabaritos de 2020.1-Q84 e 2022.2-Q58 (ex-PED-83) usam critérios de corte de diferença percentual entre membros que não são totalmente consistentes entre si (um trata diferença de 4% como 'limítrofe' com reavaliação em 12h, outro trata diferença de 4% com ambos ≥95% como normal) — verificar o texto exato e vigente do protocolo do MS/SBP antes de fixar um valor numérico rígido em flashcard ou prescrição",
+    "2020.1-Q84 (ex-PED-83): alternativas C/D parcialmente reconstruídas, fundidas na extração com questões não relacionadas — não é transcrição literal 100% confirmada",
+    "Painel atual e completo de doenças rastreadas pelo teste do pezinho no SUS conforme fase de implementação vigente da Lei 14.154/2021 (ampliação progressiva do PNTN) — confirmar portaria do MS vigente na data de uso",
+    "Protocolo institucional vigente para indicação de frenotomia no teste da linguinha (nem toda anquiloglossia anatômica exige intervenção cirúrgica)",
+    "Confirmar se este módulo tem mais questões nas edições do banco ainda não classificadas e atualizar a seção 3 quando disponível",
+    "Verificar se a alternativa B da questão INEP2021-1-Q068 tinha, no original, algum texto adicional legítimo além de 'Anemia falciforme' (o fragmento 'axilares ou supraclaviculares' foi tratado como ruído de extração e descartado)",
+    "Confirmar, junto ao banco original, a que questão pertence de fato o bloco de alternativas sobre cardiotocografia que apareceu mesclado ao enunciado da questão INEP2024-1-Q068, para eventual módulo futuro sobre monitorização fetal intraparto"
+  ]
+}
+```

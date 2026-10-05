@@ -1,0 +1,138 @@
+[
+  {
+    "id": "INF-amikacina",
+    "nombre": "Amikacina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Aminoglucósido",
+    "subclase": "Aminoglucósido semisintético",
+    "vs_clase": [
+      "**El aminoglucósido más resistente a las enzimas modificadoras**: activo frente a gramnegativos resistentes a gentamicina.",
+      "**Papel en micobacterias** (tuberculosis multirresistente, M. avium, micobacterias de crecimiento rápido) y Nocardia.",
+      "Misma toxicidad de clase (nefrotoxicidad y ototoxicidad) con monitorización de niveles."
+    ],
+    "mecanismo": "Se une de forma irreversible a la subunidad ribosómica 30S y provoca una lectura ERRÓNEA del ARN mensajero, con síntesis de proteínas defectuosas que se insertan en la membrana bacteriana y la desestabilizan. El resultado es una acción BACTERICIDA rápida y DEPENDIENTE DE LA CONCENTRACIÓN: cuanto mayor es el pico en relación con la CMI, mayor es la muerte bacteriana, lo que justifica la dosis única diaria alta en lugar de dosis repartidas. Su entrada en la bacteria requiere TRANSPORTE ACTIVO dependiente de OXÍGENO, y de ahí dos consecuencias clínicas directas: no funciona frente a ANAEROBIOS y pierde eficacia en los abscesos y en el medio ácido. La amikacina se diferencia del resto de aminoglucósidos por su resistencia a la mayoría de las enzimas modificantes bacterianas, lo que la mantiene activa donde la gentamicina y la tobramicina han fracasado.",
+    "espectro": "GRAMNEGATIVOS aerobios, incluidas enterobacterias productoras de betalactamasas de espectro extendido y muchas carbapenemasas, Pseudomonas aeruginosa y Acinetobacter. MICOBACTERIAS no tuberculosas de crecimiento rápido (M. abscessus, M. fortuitum, M. chelonae) y M. tuberculosis multirresistente. NOCARDIA. Sinergia con betalactámicos frente a grampositivos (Enterococcus, Staphylococcus) en la endocarditis. NO cubre ANAEROBIOS ni tiene actividad útil en monoterapia frente a grampositivos.",
+    "indicaciones": [
+      {
+        "patologia": "Sepsis grave o shock séptico de origen abdominal o urinario con sospecha de gramnegativo multirresistente",
+        "dosis": "15-20 mg/kg cada 24 horas, calculado sobre el peso AJUSTADO en el obeso",
+        "posologia": "Dosis única diaria",
+        "via": "IV",
+        "dosis_objetivo": "Concentración PICO de 8-10 veces la CMI (típicamente 60-80 microgramos/mL) y VALLE menor de 4-5 microgramos/mL",
+        "nota": "Se usa asociada a un betalactámico como ampliación empírica del espectro las primeras 48-72 horas, y se retira en cuanto el cultivo permite desescalar"
+      },
+      {
+        "patologia": "Infección por micobacterias de CRECIMIENTO RÁPIDO (M. abscessus, M. fortuitum)",
+        "dosis": "15 mg/kg al día IV, o 10-15 mg/kg tres veces por semana en tratamiento prolongado",
+        "posologia": "Diaria o tres veces por semana",
+        "via": "IV",
+        "nota": "Forma parte de la fase intensiva junto con imipenem o cefoxitina y un macrólido. Existe presentación LIPOSOMAL INHALADA para la enfermedad pulmonar por M. avium refractaria"
+      },
+      {
+        "patologia": "NOCARDIOSIS con afectación del sistema nervioso central o diseminada",
+        "dosis": "15 mg/kg al día",
+        "posologia": "Dosis única diaria",
+        "via": "IV",
+        "nota": "Se asocia a cotrimoxazol y a un carbapenem en la fase inicial de la enfermedad grave"
+      },
+      {
+        "patologia": "Tuberculosis multirresistente",
+        "dosis": "15 mg/kg al día, máximo 1 g",
+        "posologia": "Dosis única diaria",
+        "via": "IM",
+        "nota": "Hoy relegada por los fármacos orales de nueva generación (bedaquilina, linezolid) precisamente por su ototoxicidad irreversible"
+      },
+      {
+        "patologia": "Endocarditis por Enterococcus o por estafilococo sobre válvula protésica, en sinergia",
+        "dosis": "Dosis bajas, 1 mg/kg cada 8-12 horas de gentamicina o equivalente de amikacina",
+        "posologia": "Cada 8-12 horas",
+        "via": "IV",
+        "nota": "Aquí la lógica es distinta: se busca SINERGIA con el betalactámico, no un pico alto, y por eso la dosis es baja y repartida"
+      }
+    ],
+    "esquema": {
+      "inicio": "Calcular la dosis por peso AJUSTADO en el obeso (el fármaco no se distribuye en la grasa) y comprobar la función renal basal. En el paciente crítico, el volumen de distribución está aumentado y suele hacer falta una dosis de carga MAYOR de lo esperado.",
+      "titulacion": "Guiada por NIVELES: pico tras la primera dosis para comprobar eficacia, valle antes de la siguiente para comprobar seguridad.",
+      "duracion": "CORTA siempre que sea posible: 3-5 días como ampliación empírica del espectro. La toxicidad es ACUMULATIVA, de modo que cada día añadido cuenta. En las micobacterias, en cambio, se emplea durante meses asumiendo ese riesgo.",
+      "fin": "Se retira en cuanto el antibiograma permite desescalar a un betalactámico dirigido. Prolongarla por inercia es una de las causas evitables de sordera yatrógena.",
+      "via": "IV o IM. También inhalada (formulación liposomal) y por vía intratecal o intraventricular en casos seleccionados, ya que NO atraviesa la barrera hematoencefálica.",
+      "monitorizacion": "NIVELES pico y valle, creatinina cada 48 horas, diuresis, y AUDIOMETRÍA basal y periódica en tratamientos de más de 7 días. Preguntar activamente por acúfenos e inestabilidad."
+    },
+    "farmacocinetica": {
+      "absorcion": "NULA por vía oral: es una molécula policatiónica muy hidrófila. Absorción completa por vía intramuscular.",
+      "distribucion": "Volumen de distribución pequeño, limitado al espacio EXTRACELULAR: no penetra en la grasa (de ahí el peso ajustado), ni en el sistema nervioso central, ni en el ojo, ni en las secreciones bronquiales en concentración útil. Se acumula en la corteza renal y en la endolinfa del oído interno, que son precisamente sus dos órganos diana de toxicidad.",
+      "metabolismo": "NO se metaboliza.",
+      "eliminacion": "RENAL, íntegra y por filtración glomerular.",
+      "vida_media": "2-3 horas con función renal normal; se prolonga enormemente en la insuficiencia renal.",
+      "ajuste_renal": "OBLIGATORIO. Se ajusta ALARGANDO EL INTERVALO, no reduciendo la dosis, para mantener el pico bactericida y permitir que el valle descienda. En diálisis se administra tras la sesión.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "Diuréticos de ASA (furosemida)",
+          "efecto": "OTOTOXICIDAD aditiva",
+          "gravedad": "alta",
+          "manejo": "Combinación muy frecuente en el paciente crítico: evitarla si es posible y vigilar audición y función renal"
+        },
+        {
+          "con": "Vancomicina, anfotericina B, contrastes yodados, AINE, ciclosporina",
+          "efecto": "NEFROTOXICIDAD aditiva",
+          "gravedad": "alta",
+          "manejo": "Espaciar los contrastes, mantener buena volemia y controlar la creatinina cada 48 horas"
+        },
+        {
+          "con": "Bloqueantes NEUROMUSCULARES y anestésicos",
+          "efecto": "Potencian el bloqueo neuromuscular con riesgo de parálisis y apnea postoperatoria",
+          "gravedad": "alta",
+          "manejo": "Relevante en quirófano y en la miastenia gravis, donde el aminoglucósido está desaconsejado"
+        },
+        {
+          "con": "Betalactámicos",
+          "efecto": "SINERGIA bactericida (buscada); además, mezclados en la misma jeringa se inactivan químicamente entre sí",
+          "gravedad": "media",
+          "manejo": "Administrar por vías separadas o espaciados; nunca en la misma perfusión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación de la creatinina, habitualmente reversible",
+        "Acúfenos e inestabilidad",
+        "Dolor en el punto de inyección intramuscular"
+      ],
+      "graves": [
+        "OTOTOXICIDAD COCLEAR IRREVERSIBLE: sordera para las frecuencias agudas que progresa a la conversación y que NO se recupera al retirar el fármaco",
+        "Toxicidad VESTIBULAR con vértigo, oscilopsia e inestabilidad permanente",
+        "NEFROTOXICIDAD por necrosis tubular aguda, dosis y tiempo dependiente, habitualmente reversible",
+        "BLOQUEO NEUROMUSCULAR con parálisis respiratoria, sobre todo en la miastenia y con relajantes musculares",
+        "Sordera CONGÉNITA en el hijo de madre tratada (atraviesa la placenta)",
+        "Ototoxicidad catastrófica con dosis normales en portadores de la mutación mitocondrial A1555G del ARNr 12S"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO (riesgo de sordera congénita)",
+      "MIASTENIA GRAVIS",
+      "Antecedente de ototoxicidad por aminoglucósidos o mutación mitocondrial conocida",
+      "Precaución máxima en el anciano, en el insuficiente renal y en el tratamiento concomitante con otros nefrotóxicos u ototóxicos"
+    ],
+    "perlas": [
+      "La asimetría de sus dos toxicidades es lo que hay que retener: la NEFROTOXICIDAD suele ser REVERSIBLE, y la OTOTOXICIDAD es IRREVERSIBLE. Se vigila la creatinina porque es fácil, pero lo que de verdad marca la vida del paciente es la audición, que casi nunca se mide. Un paciente que sale del hospital sordo no recupera el oído.",
+      "La DOSIS ÚNICA DIARIA no es una comodidad de enfermería: aprovecha que la muerte bacteriana depende del PICO y que la toxicidad depende del TIEMPO de exposición del túbulo y de la endolinfa. Un pico alto y un valle bajo maximizan eficacia y minimizan daño.",
+      "En la insuficiencia renal se ALARGA EL INTERVALO y no se baja la dosis, por la misma razón: bajar la dosis destruye la eficacia y mantiene la exposición.",
+      "El transporte al interior de la bacteria requiere OXÍGENO, y de ahí se deducen sus lagunas sin memorizarlas: no sirve frente a ANAEROBIOS, ni en los abscesos, ni en el medio ácido del pus.",
+      "La AMIKACINA es la que resiste las enzimas modificantes que inactivan a la gentamicina y a la tobramicina: es el aminoglucósido de reserva frente a gramnegativos multirresistentes, y conviene no gastarlo en indicaciones banales.",
+      "Preguntar por ACÚFENOS y por INESTABILIDAD todos los días es más útil que cualquier analítica: son los primeros síntomas, y aparecen antes de que la audiometría convencional detecte nada.",
+      "Existe una mutación mitocondrial (A1555G) que produce SORDERA con dosis perfectamente normales. Un antecedente familiar de sordera tras antibióticos debe hacer evitar la familia entera.",
+      "En la endocarditis la lógica se invierte: se usan dosis BAJAS y REPARTIDAS porque el objetivo es la sinergia con el betalactámico, no el pico bactericida. Es la excepción a la regla de la dosis única diaria."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADA en el embarazo: atraviesa la placenta y se han descrito casos de sordera congénita. Solo se emplea en infecciones que amenazan la vida y sin alternativa. Compatible con la lactancia, ya que no se absorbe por vía oral en el lactante.",
+    "micro_relacionado": [
+      "BGN-acinetobacter-baumannii",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-nocardia",
+      "MYC-micobacterias-crecimiento-rapido"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 45; guías ATS/IDSA sobre micobacterias no tuberculosas"
+  }
+]

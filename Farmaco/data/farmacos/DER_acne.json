@@ -1,0 +1,258 @@
+[
+  {
+    "id": "DER-isotretinoina",
+    "nombre": "Isotretinoína oral",
+    "sinonimos": [
+      "Ácido 13-cis-retinoico"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Retinoide",
+    "subclase": "Retinoide sistémico de primera generación",
+    "mecanismo": "Es el único fármaco que actúa sobre los CUATRO mecanismos del acné a la vez, y de ahí que sea el único capaz de producir remisiones prolongadas. Reduce drásticamente el tamaño y la actividad de la GLÁNDULA SEBÁCEA, hasta inducir su apoptosis, con lo que la producción de sebo cae más de un 90%; normaliza la QUERATINIZACIÓN del infundíbulo folicular y deshace el comedón; al desaparecer el sebo desaparece el sustrato de Cutibacterium acnes, que se reduce de forma secundaria; y tiene además efecto antiinflamatorio directo. Actúa uniéndose a los receptores nucleares del ácido retinoico, que regulan la transcripción de genes de diferenciación epitelial. Esa misma acción sobre la diferenciación celular es la que lo convierte en un TERATÓGENO extraordinariamente potente, porque el ácido retinoico es una molécula señalizadora esencial en la morfogénesis embrionaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ACNÉ NODULOQUÍSTICO grave o con cicatrices",
+        "dosis": "0,5 mg/kg/día el primer mes y después 0,5-1 mg/kg/día, hasta una dosis ACUMULADA total de 120-150 mg/kg",
+        "posologia": "Una o dos tomas al día CON COMIDA GRASA",
+        "via": "VO",
+        "dosis_objetivo": "Dosis acumulada total de 120-150 mg/kg, que es lo que determina la duración de la remisión",
+        "nota": "Lo que decide la eficacia a largo plazo no es la dosis diaria sino la ACUMULADA: interrumpir antes de alcanzarla multiplica las recidivas"
+      },
+      {
+        "patologia": "Acné moderado resistente al tratamiento convencional o con gran repercusión psicológica",
+        "dosis": "0,3-0,5 mg/kg/día",
+        "posologia": "Una toma diaria con comida",
+        "via": "VO",
+        "nota": "La repercusión psicológica y el riesgo de cicatrices son indicaciones legítimas: no hay que esperar a que el acné sea nodular para plantearla"
+      },
+      {
+        "patologia": "ROSÁCEA grave, rosácea fimatosa y foliculitis por gramnegativos",
+        "dosis": "0,25-0,5 mg/kg/día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Dosis menores que en el acné y a menudo en pautas prolongadas de mantenimiento"
+      },
+      {
+        "patologia": "Hidradenitis supurativa y otros trastornos de la queratinización",
+        "dosis": "0,5-1 mg/kg/día",
+        "posologia": "Una o dos tomas diarias",
+        "via": "VO",
+        "nota": "Eficacia más limitada que en el acné; en la hidradenitis los biológicos han desplazado a los retinoides"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la MUJER en edad fértil: dos pruebas de embarazo NEGATIVAS, dos métodos anticonceptivos eficaces iniciados al menos un mes antes, consentimiento informado y receta con validez limitada. Analítica basal con perfil lipídico y transaminasas.",
+      "titulacion": "Ascenso progresivo durante el primer mes para reducir el BROTE PARADÓJICO inicial y la sequedad.",
+      "duracion": "Habitualmente 5-8 meses, guiada por la dosis ACUMULADA de 120-150 mg/kg y no por el calendario.",
+      "fin": "Al alcanzar la dosis acumulada. La mejoría CONTINÚA durante los meses siguientes a suspenderlo, algo que hay que explicar para evitar retratamientos prematuros.",
+      "via": "Oral, CON COMIDA GRASA: en ayunas la absorción cae a la mitad. Las formulaciones lidose son menos dependientes de la comida.",
+      "monitorizacion": "Prueba de EMBARAZO MENSUAL en la mujer fértil; transaminasas y perfil lipídico al mes y después periódicos; vigilancia activa del estado de ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Muy dependiente de la GRASA de la comida, que puede duplicar la biodisponibilidad.",
+      "distribucion": "Muy lipófila, con alta unión a proteínas.",
+      "metabolismo": "Hepático a 4-oxo-isotretinoína, activa; sufre isomerización a tretinoína.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "10-20 horas (metabolito hasta 30 horas), lo que justifica el mes de anticoncepción posterior.",
+      "ajuste_renal": "Reducir la dosis en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Contraindicada en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "TETRACICLINAS (doxiciclina, minociclina)",
+          "efecto": "HIPERTENSIÓN INTRACRANEAL BENIGNA (pseudotumor cerebri), con cefalea, papiledema y riesgo de pérdida visual",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA la combinación. Es un error frecuente porque ambos se usan para el acné y se solapan al cambiar de tratamiento"
+        },
+        {
+          "con": "VITAMINA A y suplementos que la contengan",
+          "efecto": "Hipervitaminosis A aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar suplementos vitamínicos durante el tratamiento"
+        },
+        {
+          "con": "Anticonceptivos de solo progestágeno (minipíldora)",
+          "efecto": "Se consideran insuficientes en el programa de prevención de embarazos",
+          "gravedad": "alta",
+          "manejo": "Exigir dos métodos, con preferencia por métodos de larga duración o combinados"
+        },
+        {
+          "con": "Alcohol y otros hepatotóxicos",
+          "efecto": "Suman hepatotoxicidad y elevación de triglicéridos",
+          "gravedad": "media",
+          "manejo": "Limitar el consumo y controlar la analítica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "QUEILITIS (labios secos y fisurados): prácticamente universal y buen marcador de que el paciente está tomando el fármaco",
+        "Xerosis cutánea, sequedad nasal con epistaxis y sequedad ocular",
+        "Mialgias y artralgias, sobre todo con el ejercicio",
+        "BROTE PARADÓJICO de acné en las primeras semanas",
+        "Fotosensibilidad",
+        "Elevación de triglicéridos y de transaminasas"
+      ],
+      "graves": [
+        "TERATOGENIA extraordinariamente grave: malformaciones craneofaciales, cardiacas (troncoconales), tímicas y del sistema nervioso central, y aborto. El riesgo es de alrededor del 30% en el embarazo expuesto",
+        "HIPERTENSIÓN INTRACRANEAL BENIGNA, sobre todo asociada a tetraciclinas",
+        "Hipertrigliceridemia grave con riesgo de pancreatitis",
+        "Hepatitis",
+        "Alteraciones del estado de ánimo y depresión (asociación debatida, pero que obliga a vigilancia activa)",
+        "Hiperostosis y cierre epifisario precoz con tratamientos muy prolongados",
+        "Queratitis y disminución de la visión nocturna",
+        "Enfermedad inflamatoria intestinal (asociación descrita y no confirmada)"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO y mujer en edad fértil sin cumplir el programa de prevención de embarazos",
+      "Lactancia",
+      "Uso concomitante de TETRACICLINAS",
+      "Hipertrigliceridemia grave e hipervitaminosis A",
+      "Insuficiencia hepática",
+      "DONACIÓN DE SANGRE durante el tratamiento y en el mes posterior"
+    ],
+    "perlas": [
+      "Es el fármaco teratógeno por excelencia y toda su prescripción gira alrededor de eso: dos pruebas de embarazo negativas, DOS métodos anticonceptivos desde un mes antes hasta un mes después, prueba mensual y receta de validez limitada. El programa de prevención de embarazos no es burocracia, es la razón por la que este fármaco sigue disponible.",
+      "También hay que prohibir la DONACIÓN DE SANGRE durante el tratamiento y el mes siguiente: una transfusión a una embarazada podría exponerla. Es una advertencia que casi nunca se da.",
+      "Lo que determina la remisión duradera es la DOSIS ACUMULADA de 120-150 mg/kg, no el tiempo ni la dosis diaria. Un tratamiento interrumpido a los tres meses porque la piel ya está limpia es la causa más frecuente de recidiva y de la fama de que el fármaco no funciona.",
+      "La combinación con TETRACICLINAS produce hipertensión intracraneal benigna y está contraindicada. Es un error real y frecuente, porque el paciente venía tomando doxiciclina para el mismo acné: hay que suspenderla ANTES de empezar.",
+      "La QUEILITIS es tan constante que su ausencia hace sospechar que el paciente no está tomando el fármaco o que la absorción es insuficiente. Es un marcador clínico gratuito de cumplimiento.",
+      "Hay que anticipar el BROTE PARADÓJICO de las primeras semanas: si no se avisa, el paciente concluye que le está sentando mal y abandona justo antes de que empiece a funcionar.",
+      "La mejoría SIGUE después de terminar: la piel continúa mejorando durante meses tras la última dosis. Explicarlo evita retratamientos innecesarios y ansiedad al final del ciclo.",
+      "La absorción DEPENDE DE LA GRASA: tomarlo en ayunas reduce la biodisponibilidad a la mitad. Una instrucción de una frase que cambia la eficacia de un tratamiento de seis meses.",
+      "La asociación con la DEPRESIÓN sigue siendo debatida y probablemente confundida por el hecho de que el acné grave deprime por sí mismo. Sea como sea, hay que preguntar activamente por el estado de ánimo en cada visita y dar al paciente y a su familia un motivo claro para consultar."
+    ],
+    "embarazo_lactancia": "ABSOLUTAMENTE CONTRAINDICADA en el embarazo: el riesgo de malformaciones graves supera el 30% en las gestaciones expuestas. Requiere anticoncepción eficaz desde un mes antes hasta un mes después del tratamiento y pruebas de embarazo mensuales. Contraindicada en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61; programa de prevención de embarazos de la AEMPS para retinoides orales"
+  },
+  {
+    "id": "DER-tratamiento-topico-acne",
+    "nombre": "Retinoides tópicos y peróxido de benzoilo",
+    "sinonimos": [
+      "Tretinoína, adapaleno, tazaroteno; antibióticos tópicos del acné"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiacneico tópico",
+    "subclase": "Retinoides tópicos, agente oxidante y antibióticos tópicos",
+    "mecanismo": "Los RETINOIDES TÓPICOS (tretinoína, adapaleno, tazaroteno) normalizan la queratinización del infundíbulo folicular, deshacen el MICROCOMEDÓN (que es la lesión primaria de la que nacen todas las demás) e impiden que se formen nuevos; tienen además efecto antiinflamatorio y estimulan la síntesis de colágeno dérmico, de donde procede su segundo uso como despigmentantes y antienvejecimiento. El PERÓXIDO DE BENZOILO libera radicales libres de oxígeno que matan a Cutibacterium acnes por un mecanismo oxidativo INESPECÍFICO, contra el que la bacteria NO puede desarrollar resistencia: esa es su gran virtud y la razón por la que se asocia siempre a los antibióticos tópicos, a los que protege de la aparición de resistencias. Los ANTIBIÓTICOS TÓPICOS (clindamicina, eritromicina) reducen la población bacteriana y la inflamación, pero NUNCA deben usarse solos, porque seleccionan resistencias con rapidez.",
+    "espectro": "Cutibacterium acnes (peróxido de benzoilo y antibióticos tópicos).",
+    "indicaciones": [
+      {
+        "patologia": "ACNÉ COMEDONIANO (puntos negros y blancos)",
+        "dosis": "Adapaleno 0,1% en gel, una aplicación por la NOCHE en toda la zona afectada",
+        "posologia": "Una aplicación nocturna",
+        "via": "tópica",
+        "nota": "El retinoide tópico es el tratamiento de base de CUALQUIER acné, porque es lo único que actúa sobre el microcomedón, la lesión de la que todo parte"
+      },
+      {
+        "patologia": "Acné inflamatorio leve-moderado",
+        "dosis": "Combinación fija de adapaleno 0,1% con peróxido de benzoilo 2,5%, una aplicación nocturna",
+        "posologia": "Una aplicación nocturna",
+        "via": "tópica",
+        "nota": "La combinación fija es más eficaz que cualquiera de los dos por separado y mejora mucho la adherencia"
+      },
+      {
+        "patologia": "Acné inflamatorio moderado con pápulas y pústulas",
+        "dosis": "Clindamicina 1% con peróxido de benzoilo 5% en combinación fija, una o dos aplicaciones al día, y doxiciclina 100 mg al día si es extenso",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "El antibiótico oral se limita a 3-4 MESES y siempre acompañado de retinoide tópico y peróxido de benzoilo, que es lo que mantiene la remisión al retirarlo"
+      },
+      {
+        "patologia": "MANTENIMIENTO tras la remisión del acné",
+        "dosis": "Adapaleno 0,1% en gel, una aplicación por la noche a días alternos o diaria",
+        "posologia": "Diaria o a días alternos, de forma indefinida",
+        "via": "tópica",
+        "nota": "El acné es una enfermedad CRÓNICA: sin mantenimiento con retinoide, recidiva. Es el paso que más se omite"
+      },
+      {
+        "patologia": "Fotoenvejecimiento e hiperpigmentación",
+        "dosis": "Tretinoína 0,025-0,05% en crema por la noche",
+        "posologia": "Una aplicación nocturna",
+        "via": "tópica",
+        "nota": "Estimula la síntesis de colágeno; exige fotoprotección estricta y produce irritación inicial"
+      }
+    ],
+    "esquema": {
+      "inicio": "Aplicar sobre piel SECA (esperar 20 minutos tras lavarla), una cantidad del tamaño de un guisante para toda la cara, y en TODA la zona con tendencia al acné y no solo sobre los granos visibles: el objetivo es el microcomedón que aún no se ve.",
+      "titulacion": "Empezar a DÍAS ALTERNOS y ascender a diario según tolerancia. La irritación inicial es la causa principal de abandono y se maneja con hidratante y con menor frecuencia, no suspendiendo.",
+      "duracion": "El tratamiento activo dura 3-4 meses; el MANTENIMIENTO con retinoide es INDEFINIDO mientras persista la tendencia acneica.",
+      "fin": "El antibiótico oral se retira a los 3-4 meses; el retinoide tópico se mantiene.",
+      "via": "Tópica, por la NOCHE (la tretinoína se degrada con la luz y el peróxido de benzoilo se aplica mejor separado).",
+      "monitorizacion": "Clínica. Advertir de la irritación inicial, del brote paradójico de las primeras semanas y de la necesidad de fotoprotección."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima absorción sistémica; el ADAPALENO es el más estable y el menos irritante, y el que mejor tolera la asociación con peróxido de benzoilo.",
+      "distribucion": "Local, con acumulación en el folículo.",
+      "metabolismo": "Cutáneo.",
+      "eliminacion": "Descamación.",
+      "vida_media": "No aplicable clínicamente.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "PERÓXIDO DE BENZOILO y TRETINOÍNA aplicados a la vez",
+          "efecto": "El peróxido OXIDA e inactiva la tretinoína",
+          "gravedad": "media",
+          "manejo": "Aplicarlos en momentos distintos del día (peróxido por la mañana y retinoide por la noche), o usar ADAPALENO, que es estable frente al peróxido y permite la combinación fija"
+        },
+        {
+          "con": "Antibiótico tópico SIN peróxido de benzoilo",
+          "efecto": "Selección rápida de RESISTENCIAS de C. acnes",
+          "gravedad": "alta",
+          "manejo": "NUNCA usar un antibiótico tópico en monoterapia: siempre asociado a peróxido de benzoilo, que previene la resistencia"
+        },
+        {
+          "con": "Cosméticos abrasivos, alcohol y exfoliantes",
+          "efecto": "Irritación aditiva",
+          "gravedad": "media",
+          "manejo": "Suspenderlos; usar limpiadores suaves e hidratante no comedogénico"
+        },
+        {
+          "con": "Ropa y cabello (peróxido de benzoilo)",
+          "efecto": "DECOLORA de forma permanente tejidos, toallas y pelo teñido",
+          "gravedad": "baja",
+          "manejo": "Advertirlo expresamente: usar toallas y ropa de cama blancas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "IRRITACIÓN, eritema, sequedad y descamación en las primeras semanas (retinoide dermatitis)",
+        "Escozor y sensación de tirantez",
+        "BROTE PARADÓJICO inicial de acné",
+        "FOTOSENSIBILIDAD",
+        "Decoloración de tejidos por el peróxido de benzoilo"
+      ],
+      "graves": [
+        "Dermatitis de contacto irritativa intensa",
+        "Dermatitis alérgica de contacto al peróxido de benzoilo (infrecuente)",
+        "Resistencia antibiótica de C. acnes con el uso de antibióticos tópicos en monoterapia",
+        "Hiperpigmentación postinflamatoria en fototipos altos si la irritación es intensa"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO para el TAZAROTENO (categoría de riesgo alto); la tretinoína y el adapaleno tópicos se evitan por precaución pese a su absorción mínima",
+      "Piel erosionada, eccematosa o quemada por el sol",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "El RETINOIDE TÓPICO es la base de todo tratamiento del acné, sea cual sea su gravedad, porque es lo único que actúa sobre el MICROCOMEDÓN, que es la lesión de la que nacen tanto los comedones como las pápulas. Tratar solo lo visible con antibiótico es tratar el síntoma.",
+      "Hay que aplicarlo en TODA la zona propensa, no solo sobre los granos. El objetivo es la lesión que todavía no se ve, y esta es la instrucción que más se incumple.",
+      "NUNCA un antibiótico tópico SOLO. La combinación con PERÓXIDO DE BENZOILO no busca más eficacia sino IMPEDIR la resistencia: el peróxido mata por oxidación inespecífica y la bacteria no puede adaptarse a él.",
+      "Los antibióticos ORALES del acné se limitan a 3-4 MESES. Prolongarlos durante años, que es lo que ocurre a menudo, selecciona resistencias en toda la flora del paciente sin aportar nada que no logre el tratamiento tópico de mantenimiento.",
+      "La IRRITACIÓN inicial es la causa principal de abandono, y se maneja empezando a días alternos, aplicando sobre piel seca, usando una cantidad mínima y añadiendo hidratante. Suspenderlo no es la respuesta.",
+      "Hay que ADVERTIR del brote paradójico de las primeras semanas. Sin ese aviso, el paciente concluye que el tratamiento le empeora y lo deja justo antes de que empiece a funcionar.",
+      "El PERÓXIDO DE BENZOILO DECOLORA de forma permanente toallas, ropa de cama y pelo teñido. Es un detalle trivial que genera enfados evitables y que se resuelve recomendando textiles blancos.",
+      "El acné es CRÓNICO y necesita MANTENIMIENTO con retinoide tópico tras la remisión. Suspender todo cuando la piel está limpia es garantizar la recaída en pocos meses.",
+      "La TRETINOÍNA se inactiva con el peróxido de benzoilo aplicado a la vez; el ADAPALENO no. Por eso las combinaciones fijas comerciales llevan adapaleno y no tretinoína."
+    ],
+    "embarazo_lactancia": "El TAZAROTENO está contraindicado en el embarazo. La tretinoína y el adapaleno tópicos tienen absorción sistémica mínima y no se han asociado de forma consistente a malformaciones, pero se recomienda evitarlos por precaución y usar en su lugar peróxido de benzoilo, ácido azelaico o eritromicina tópica. Compatibles con la lactancia evitando la zona del pezón.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la AEDV y del Global Alliance sobre tratamiento del acné"
+  }
+]

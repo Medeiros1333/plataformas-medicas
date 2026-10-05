@@ -1,0 +1,438 @@
+[
+  {
+    "id": "PAT-hipertension-arterial",
+    "nombre": "Hipertensión arterial esencial",
+    "sinonimos": ["HTA"],
+    "area": "CAR",
+    "resumen": "Tratar con fármacos si PA ≥140/90 mmHg confirmada (AMPA o MAPA), o si PA 130-139/80-89 con riesgo cardiovascular alto, diabetes, ERC o enfermedad cardiovascular establecida. **La mayoría de pacientes empieza con una combinación doble a dosis baja en un solo comprimido**; el betabloqueante solo entra de inicio si hay otra indicación (cardiopatía isquémica, insuficiencia cardiaca, FA).",
+    "objetivo": "PAS 120-129 mmHg si se tolera; como mínimo <140/90. En ≥85 años o frágiles, el objetivo más bajo que se tolere sin hipotensión ortostática.",
+    "escenarios": [
+      {
+        "titulo": "Paso 1: combinación doble (IECA o ARA-II + calcioantagonista o tiazida)",
+        "nota": "Elegir IECA **o** ARA-II, nunca ambos. Monoterapia solo en ancianos frágiles o PA 130-139 de bajo riesgo.",
+        "farmacos": [
+          { "nombre": "Ramipril", "ref": "CAR-ramipril", "dosis": "2,5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o enalapril 10-20 mg cada 12-24 h", "nota": "Creatinina y K a las 1-2 semanas" },
+          { "nombre": "Losartán", "ref": "CAR-losartan", "dosis": "50-100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o valsartán 80-320 mg, candesartán 8-32 mg, olmesartán 20-40 mg", "nota": "Si tos con IECA; losartán si hay gota" },
+          { "nombre": "Amlodipino", "ref": "CAR-amlodipino", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o lercanidipino 10-20 mg (menos edemas)", "nota": "Edema maleolar dosis-dependiente" },
+          { "nombre": "Hidroclorotiazida", "ref": "NFR-hidroclorotiazida", "dosis": "12,5-25 mg", "via": "VO", "intervalo": "Cada 24 h (mañana)", "duracion": "Indefinida", "alternativa": "o clortalidona 12,5-25 mg / indapamida 1,5 mg retard", "nota": "Na y K a las 2-4 semanas" }
+        ]
+      },
+      {
+        "titulo": "Paso 2: triple terapia",
+        "nota": "IECA/ARA-II + calcioantagonista + diurético tiazídico, idealmente en un solo comprimido.",
+        "farmacos": [
+          { "nombre": "IECA o ARA-II (dosis plena)", "ref": "CAR-valsartan", "dosis": "160-320 mg (valsartán)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida" },
+          { "nombre": "Amlodipino", "ref": "CAR-amlodipino", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida" },
+          { "nombre": "Clortalidona", "ref": "NFR-clortalidona", "dosis": "12,5-25 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Más potente y duradera que la hidroclorotiazida" }
+        ]
+      },
+      {
+        "titulo": "Paso 3: hipertensión resistente (PA no controlada con 3 fármacos a dosis plenas, uno diurético)",
+        "nota": "Antes, descartar mala adherencia, efecto de bata blanca (MAPA), AINE, alcohol, apnea del sueño e HTA secundaria (hiperaldosteronismo).",
+        "farmacos": [
+          { "nombre": "Espironolactona", "ref": "CAR-espironolactona", "dosis": "25-50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si K <4,5 y FG >45; control de K al mes (PATHWAY-2)" },
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Alternativa si no se tolera la espironolactona" }
+        ]
+      },
+      {
+        "titulo": "Hipertensión en el embarazo (crónica o gestacional)",
+        "poblacion": "Embarazo",
+        "nota": "Tratar si PA ≥140/90. **IECA, ARA-II y espironolactona CONTRAINDICADOS.**",
+        "farmacos": [
+          { "nombre": "Nifedipino de liberación prolongada", "ref": "CAR-nifedipino", "dosis": "30-60 mg (máx. 120 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta el parto y posparto según PA" },
+          { "nombre": "Labetalol", "ref": "CAR-antihipertensivos-parenterales", "dosis": "100-400 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Hasta el parto y posparto según PA", "nota": "Evitar en asma" },
+          { "nombre": "Metildopa", "sin_ficha": true, "dosis": "250-500 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Hasta el parto", "nota": "Segunda línea; sedación; no en el posparto (depresión)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reducir la sal a <5 g/día y aumentar el potasio dietético (dieta DASH o mediterránea)",
+      "Perder peso si hay sobrepeso; ejercicio aeróbico 150 min/semana",
+      "Limitar alcohol y abandonar el tabaco",
+      "Medir la PA en domicilio (AMPA) para ajustar el tratamiento"
+    ],
+    "claves": [
+      "**Nunca IECA + ARA-II juntos**: más hiperpotasemia y fracaso renal sin beneficio.",
+      "**AINE + diurético + IECA/ARA-II = «triple whammy»** de fracaso renal agudo.",
+      "Una subida de creatinina de hasta un 30% al iniciar IECA/ARA-II es aceptable; >30% obliga a buscar estenosis de arteria renal o depleción.",
+      "Si se cambia de hidroclorotiazida a clortalidona, a la mitad de dosis."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipertensión arterial; Katzung 15.ª ed., cap. 11; guía ESC 2024 de hipertensión"
+  },
+  {
+    "id": "PAT-crisis-hipertensiva",
+    "nombre": "Urgencia y emergencia hipertensiva",
+    "sinonimos": ["Crisis hipertensiva", "Emergencia hipertensiva"],
+    "area": "CAR",
+    "resumen": "PA ≥180/110-120 mmHg. **La distinción que cambia todo es la lesión aguda de órgano diana**: sin ella es una URGENCIA (tratamiento oral, descenso en 24-48 h, sin ingreso en la mayoría); con ella (encefalopatía, EAP, SCA, disección aórtica, ictus, eclampsia, fracaso renal agudo, retinopatía grado III-IV) es una EMERGENCIA (tratamiento IV en unidad monitorizada).",
+    "objetivo": "Urgencia: bajar progresivamente en 24-48 h. Emergencia: reducir la PA media ≤25% en la primera hora y a 160/100 en 2-6 h; excepciones: disección aórtica (PAS <120 y FC <60 en 20 min) y ictus (según trombólisis).",
+    "escenarios": [
+      {
+        "titulo": "Urgencia hipertensiva (sin lesión aguda de órgano diana)",
+        "nota": "Reposo 30 min en ambiente tranquilo; muchas «urgencias» ceden solo con eso. Reiniciar o ajustar el tratamiento de base.",
+        "farmacos": [
+          { "nombre": "Captopril", "ref": "CAR-captopril", "dosis": "25 mg", "via": "VO", "intervalo": "Dosis única; repetible a los 30-60 min", "duracion": "Dosis puntual", "nota": "**Nunca nifedipino de liberación inmediata ni sublingual**" },
+          { "nombre": "Amlodipino", "ref": "CAR-amlodipino", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Inicio del tratamiento crónico" },
+          { "nombre": "Labetalol oral", "ref": "CAR-antihipertensivos-parenterales", "dosis": "100-200 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis puntual", "nota": "Evitar en asma, bradicardia o IC descompensada" }
+        ]
+      },
+      {
+        "titulo": "Emergencia hipertensiva general (encefalopatía, fracaso renal, retinopatía)",
+        "farmacos": [
+          { "nombre": "Labetalol", "ref": "CAR-antihipertensivos-parenterales", "dosis": "20 mg bolo, después 20-80 mg (máx. 300 mg) o perfusión 1-2 mg/min", "via": "IV", "intervalo": "Bolos cada 10 min", "duracion": "Hasta control; después paso a VO" },
+          { "nombre": "Urapidilo", "ref": "CAR-antihipertensivos-parenterales", "dosis": "12,5-25 mg bolo; perfusión 5-40 mg/h", "via": "IV", "intervalo": "Bolo repetible a los 5 min", "duracion": "Hasta control", "nota": "Útil si el betabloqueo está contraindicado" },
+          { "nombre": "Nicardipino", "ref": "CAR-antihipertensivos-parenterales", "dosis": "5 mg/h, subir 2,5 mg/h cada 5-15 min (máx. 15 mg/h)", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta control" }
+        ]
+      },
+      {
+        "titulo": "Edema agudo de pulmón hipertensivo o síndrome coronario agudo",
+        "farmacos": [
+          { "nombre": "Nitroglicerina", "ref": "CAR-nitroglicerina", "dosis": "10-20 µg/min, subir 10-20 µg/min cada 5 min (máx. 200 µg/min)", "via": "IV", "intervalo": "Perfusión continua", "duracion": "24-48 h", "nota": "Contraindicada con inhibidores de la PDE5 recientes" },
+          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "40 mg", "via": "IV", "intervalo": "Bolo; repetir según diuresis", "duracion": "Mientras haya congestión", "nota": "Solo en el EAP" }
+        ]
+      },
+      {
+        "titulo": "Disección aórtica aguda",
+        "nota": "**Primero frenar (FC <60), después vasodilatar**: un vasodilatador sin betabloqueo previo provoca taquicardia refleja y propaga la disección.",
+        "farmacos": [
+          { "nombre": "Labetalol", "ref": "CAR-antihipertensivos-parenterales", "dosis": "20 mg bolo; perfusión 1-2 mg/min", "via": "IV", "intervalo": "Bolos cada 10 min", "duracion": "Hasta cirugía o control", "alternativa": "o esmolol 0,5 mg/kg + 50-300 µg/kg/min" },
+          { "nombre": "Nitroprusiato", "ref": "CAR-antihipertensivos-parenterales", "dosis": "0,3-10 µg/kg/min", "via": "IV", "intervalo": "Perfusión continua", "duracion": "<48-72 h (toxicidad por cianuro)", "nota": "Solo tras betabloqueo" }
+        ]
+      },
+      {
+        "titulo": "Preeclampsia grave / eclampsia",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Labetalol", "ref": "CAR-antihipertensivos-parenterales", "dosis": "20 mg, luego 40-80 mg (máx. 220-300 mg)", "via": "IV", "intervalo": "Cada 10-20 min", "duracion": "Hasta PA <160/110" },
+          { "nombre": "Nifedipino liberación prolongada", "ref": "CAR-nifedipino", "dosis": "10-20 mg", "via": "VO", "intervalo": "Cada 20-30 min hasta 3 dosis", "duracion": "Fase aguda", "nota": "Alternativa sin vía IV" },
+          { "nombre": "Sulfato de magnesio", "ref": "GIN-sulfato-magnesio", "dosis": "4-6 g en 20 min, después 1-2 g/h", "via": "IV", "intervalo": "Carga + perfusión", "duracion": "Hasta 24 h posparto", "nota": "Prevención y tratamiento de la convulsión, no antihipertensivo" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reposo y reevaluación de la PA tras 30 min antes de tratar una urgencia",
+      "Emergencia: monitorización continua (UCI/semicríticos) y vía arterial si perfusión",
+      "Buscar desencadenantes: abandono de medicación, dolor, ansiedad, drogas simpaticomiméticas, retención urinaria"
+    ],
+    "claves": [
+      "**Bajar la PA demasiado rápido produce isquemia cerebral, coronaria y renal**: la autorregulación está desplazada.",
+      "**Nifedipino sublingual: proscrito.**",
+      "En el ictus isquémico no se trata salvo PA >220/120 (o >185/110 si se va a trombolisar)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de urgencias hipertensivas; Katzung 15.ª ed., cap. 11"
+  },
+  {
+    "id": "PAT-insuficiencia-cardiaca-cronica",
+    "nombre": "Insuficiencia cardiaca crónica con FEVI reducida",
+    "sinonimos": ["ICFEr", "Insuficiencia cardiaca sistólica"],
+    "area": "CAR",
+    "resumen": "FEVI ≤40% con síntomas. **Cuatro pilares que reducen la mortalidad y deben iniciarse de forma rápida** (en semanas, no meses), a dosis bajas y titulando cada 2 semanas: ARNI (o IECA/ARA-II), betabloqueante, ARM e iSGLT2. Los diuréticos solo controlan la congestión, sin efecto pronóstico. En FEVI 41-49% e insuficiencia cardiaca con FEVI preservada, el pilar con evidencia son los iSGLT2 (y finerenona en FEVI ≥40%).",
+    "objetivo": "Alcanzar las dosis objetivo (o máximas toleradas) de los 4 pilares; euvolemia con la mínima dosis de diurético; FC en reposo 60-70 lpm.",
+    "escenarios": [
+      {
+        "titulo": "Los 4 pilares (iniciar todos en las primeras 4-6 semanas)",
+        "farmacos": [
+          { "nombre": "Sacubitrilo/valsartán", "ref": "CAR-sacubitrilo-valsartan", "dosis": "24/26 mg → 97/103 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "alternativa": "o enalapril 2,5 → 10-20 mg/12 h; o candesartán 4 → 32 mg/24 h", "nota": "36 h de lavado si viene de IECA; titular cada 2-4 semanas" },
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "1,25 mg → 10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o carvedilol 3,125 → 25 mg/12 h; o metoprolol succinato 12,5 → 200 mg/24 h", "nota": "Iniciar con el paciente euvolémico" },
+          { "nombre": "Espironolactona", "ref": "CAR-espironolactona", "dosis": "12,5-25 mg → 50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o eplerenona 25 → 50 mg/24 h (sin ginecomastia)", "nota": "Si K ≤5,0 y FG >30; K a la semana y al mes" },
+          { "nombre": "Dapagliflozina", "ref": "END-dapagliflozina", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o empagliflozina 10 mg", "nota": "Sin titulación; FG ≥20-25" }
+        ]
+      },
+      {
+        "titulo": "Control de la congestión",
+        "farmacos": [
+          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "20-80 mg", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Mientras haya tendencia a la congestión", "alternativa": "o torasemida 10-20 mg/24 h (mejor absorción)", "nota": "Dosis flexible según peso diario" }
+        ]
+      },
+      {
+        "titulo": "Tratamientos añadidos en situaciones concretas",
+        "farmacos": [
+          { "nombre": "Ivabradina", "ref": "CAR-ivabradina", "dosis": "5 mg → 7,5 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Ritmo sinusal con FC ≥70 lpm pese a betabloqueante a dosis máxima tolerada" },
+          { "nombre": "Hierro carboximaltosa", "ref": "HEM-hierro-carboximaltosa", "dosis": "500-1.000 mg", "via": "IV", "intervalo": "Dosis única; repetir según ferritina", "duracion": "Hasta corregir la ferropenia", "nota": "Ferritina <100, o 100-299 con IST <20%" },
+          { "nombre": "Digoxina", "ref": "CAR-digoxina", "dosis": "0,125 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Síntomas persistentes o FA rápida; niveles 0,5-0,9 ng/mL" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pesarse a diario: consultar o ajustar diurético si aumenta >2 kg en 3 días",
+      "Restricción de sal moderada; restricción hídrica solo si hiponatremia o congestión refractaria",
+      "Rehabilitación cardiaca y ejercicio adaptado",
+      "Vacunación antigripal y antineumocócica; DAI/TRC según FEVI y QRS tras 3 meses de tratamiento óptimo"
+    ],
+    "claves": [
+      "**Empeoramiento leve de creatinina o hipotensión asintomática no justifican retirar los pilares**: ajustar primero el diurético.",
+      "**Nunca IECA + sacubitrilo/valsartán** (angioedema): 36 h de lavado.",
+      "Fármacos que empeoran la IC: AINE, diltiazem y verapamilo, pioglitazona, itraconazol, dronedarona.",
+      "Hiperpotasemia con ARM: la causa más frecuente es la deshidratación intercurrente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de insuficiencia cardiaca; Katzung 15.ª ed., cap. 13; guía ESC 2021 y actualización 2023"
+  },
+  {
+    "id": "PAT-insuficiencia-cardiaca-aguda",
+    "nombre": "Insuficiencia cardiaca aguda y edema agudo de pulmón",
+    "sinonimos": ["EAP", "IC descompensada"],
+    "area": "CAR",
+    "resumen": "Valorar perfil hemodinámico: **«caliente y húmedo» (congestión con buena perfusión, el 70%)** → diurético IV ± vasodilatador; **«frío y húmedo» (bajo gasto)** → inotrópicos/vasopresores en UCI. Buscar el desencadenante (SCA, FA, infección, HTA, abandono de tratamiento, AINE).",
+    "objetivo": "Diuresis >100-150 mL/h en las primeras 6 h y natriuresis >50-70 mEq/L a las 2 h; alivio de la disnea; SpO2 >90%.",
+    "escenarios": [
+      {
+        "titulo": "Congestión con PA conservada o alta («caliente y húmedo»)",
+        "farmacos": [
+          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "40 mg (o 1-2,5 veces la dosis oral diaria)", "via": "IV", "intervalo": "Bolo cada 8-12 h o perfusión continua", "duracion": "Hasta euvolemia (habitualmente 3-5 días); después paso a VO", "nota": "Si respuesta insuficiente: duplicar dosis o añadir tiazida/acetazolamida" },
+          { "nombre": "Nitroglicerina", "ref": "CAR-nitroglicerina", "dosis": "10-20 µg/min → hasta 200 µg/min", "via": "IV", "intervalo": "Perfusión continua", "duracion": "24-48 h", "nota": "Solo si PAS >110 mmHg; muy útil en el EAP hipertensivo" },
+          { "nombre": "Oxígeno", "ref": "NML-oxigenoterapia", "dosis": "2-15 L/min o ventilación no invasiva (CPAP)", "via": "inhalada", "intervalo": "Continuo", "duracion": "Mientras SpO2 <90%", "nota": "No de forma rutinaria si SpO2 normal" }
+        ]
+      },
+      {
+        "titulo": "Resistencia diurética (refuerzo con bloqueo secuencial de la nefrona)",
+        "farmacos": [
+          { "nombre": "Hidroclorotiazida", "ref": "NFR-hidroclorotiazida", "dosis": "25-50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2-3 días", "nota": "Vigilar K y Na estrechamente" },
+          { "nombre": "Acetazolamida", "ref": "NFR-acetazolamida", "dosis": "500 mg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Mejora la descongestión (ADVOR)" }
+        ]
+      },
+      {
+        "titulo": "Bajo gasto / shock cardiogénico («frío»)",
+        "nota": "Manejo en UCI; buscar causa reversible (SCA → revascularización).",
+        "farmacos": [
+          { "nombre": "Dobutamina", "sin_ficha": true, "dosis": "2-20 µg/kg/min", "via": "IV", "intervalo": "Perfusión continua", "duracion": "El mínimo necesario", "nota": "Inotrópico; arritmias" },
+          { "nombre": "Noradrenalina", "sin_ficha": true, "dosis": "0,05-0,5 µg/kg/min", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta estabilizar", "nota": "Si PAS <90 con hipoperfusión" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Sedestación; CPAP o VMNI si edema pulmonar con trabajo respiratorio",
+      "Balance hídrico, peso diario, sondaje solo si es necesario",
+      "Mantener betabloqueante si no hay shock o bajo gasto; reiniciar los 4 pilares antes del alta"
+    ],
+    "claves": [
+      "**La morfina ya no es de rutina** en el EAP (más ventilación mecánica y mortalidad en registros).",
+      "**El betabloqueante crónico no se suspende** salvo shock, bajo gasto o bradicardia grave.",
+      "Al alta: iniciar o reintroducir los 4 pilares (STRONG-HF) y revisión precoz en 1-2 semanas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de insuficiencia cardiaca; Katzung 15.ª ed., cap. 13"
+  },
+  {
+    "id": "PAT-sindrome-coronario-agudo",
+    "nombre": "Síndrome coronario agudo",
+    "sinonimos": ["SCA", "Infarto agudo de miocardio", "SCACEST", "SCASEST", "Angina inestable"],
+    "area": "CAR",
+    "resumen": "**SCACEST: reperfusión urgente** (angioplastia primaria en <120 min desde el diagnóstico; fibrinólisis si no es posible). **SCASEST: estratificar el riesgo** y coronariografía en <24 h (alto riesgo) o <2 h (muy alto riesgo: inestabilidad, dolor refractario, arritmias). Tratamiento farmacológico común: doble antiagregación, anticoagulación durante la fase aguda, estatina de alta intensidad, betabloqueante e IECA.",
+    "objetivo": "Reperfusión precoz; LDL <55 mg/dL y descenso ≥50%; FC 55-60 lpm; PA <130/80.",
+    "escenarios": [
+      {
+        "titulo": "Fase aguda (urgencias)",
+        "farmacos": [
+          { "nombre": "Ácido acetilsalicílico", "ref": "HEM-acido-acetilsalicilico", "dosis": "150-300 mg carga, después 75-100 mg", "via": "VO", "intervalo": "Carga masticada, luego cada 24 h", "duracion": "Indefinida" },
+          { "nombre": "Ticagrelor", "ref": "HEM-ticagrelor-prasugrel", "dosis": "180 mg carga, después 90 mg", "via": "VO", "intervalo": "Carga, luego cada 12 h", "duracion": "12 meses (doble antiagregación)", "alternativa": "o prasugrel 60 mg → 10 mg/24 h (si anatomía conocida, sin ictus previo, <75 años)" },
+          { "nombre": "Clopidogrel", "ref": "HEM-clopidogrel", "dosis": "300-600 mg carga, después 75 mg", "via": "VO", "intervalo": "Carga, luego cada 24 h", "duracion": "12 meses", "nota": "Si fibrinólisis, anticoagulación oral o alto riesgo hemorrágico" },
+          { "nombre": "Nitroglicerina sublingual", "ref": "CAR-nitroglicerina", "dosis": "0,4 mg", "via": "SL", "intervalo": "Cada 5 min, máximo 3 dosis", "duracion": "Mientras dure el dolor", "nota": "No si PAS <90, IAM de VD o PDE5 reciente" },
+          { "nombre": "Morfina", "ref": "REU-morfina", "dosis": "2-4 mg", "via": "IV", "intervalo": "Cada 5-15 min si dolor refractario", "duracion": "Fase aguda", "nota": "Retrasa la absorción de los antiagregantes orales" }
+        ]
+      },
+      {
+        "titulo": "Anticoagulación en la fase aguda",
+        "farmacos": [
+          { "nombre": "Heparina no fraccionada", "ref": "HEM-heparina-no-fraccionada", "dosis": "70-100 UI/kg bolo durante la angioplastia", "via": "IV", "intervalo": "Bolo (ajuste por TCA)", "duracion": "Durante el procedimiento" },
+          { "nombre": "Enoxaparina", "ref": "HEM-enoxaparina", "dosis": "1 mg/kg", "via": "SC", "intervalo": "Cada 12 h", "duracion": "Hasta revascularización o alta (máx. 8 días)", "nota": "FG <30: cada 24 h; >75 años 0,75 mg/kg" },
+          { "nombre": "Fondaparinux", "ref": "HEM-fondaparinux", "dosis": "2,5 mg", "via": "SC", "intervalo": "Cada 24 h", "duracion": "Hasta 8 días o alta", "nota": "SCASEST con estrategia no urgente; bolo de HNF si angioplastia" }
+        ]
+      },
+      {
+        "titulo": "Prevención secundaria (desde el ingreso)",
+        "farmacos": [
+          { "nombre": "Atorvastatina", "ref": "CAR-atorvastatina", "dosis": "80 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o rosuvastatina 20-40 mg", "nota": "Añadir ezetimiba si LDL no en objetivo a las 4-6 semanas" },
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "1,25-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida si FEVI ≤40%; al menos 1 año si FEVI normal", "alternativa": "o metoprolol", "nota": "No en las primeras horas si Killip ≥II" },
+          { "nombre": "Ramipril", "ref": "CAR-ramipril", "dosis": "2,5 → 10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Especialmente si FEVI ≤40%, HTA, diabetes o ERC" },
+          { "nombre": "Pantoprazol", "ref": "DIG-pantoprazol", "dosis": "20-40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras dure la doble antiagregación", "nota": "IBP de elección con clopidogrel" },
+          { "nombre": "Eplerenona", "ref": "CAR-eplerenona", "dosis": "25 → 50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si FEVI ≤40% con IC o diabetes" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "ECG en <10 min y troponina ultrasensible (algoritmo 0/1 h)",
+      "Oxígeno solo si SpO2 <90%",
+      "Rehabilitación cardiaca, abandono del tabaco, dieta mediterránea"
+    ],
+    "claves": [
+      "**Tiempo es miocardio**: en el SCACEST, no retrasar la reperfusión por pruebas.",
+      "**Prasugrel contraindicado con ictus o AIT previo.**",
+      "Con fibrilación auricular: triple terapia breve (1 semana) y después ACOD + clopidogrel hasta 12 meses."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de SCASEST y SCACEST; Katzung 15.ª ed., caps. 12 y 34; guía ESC 2023 de SCA"
+  },
+  {
+    "id": "PAT-angina-estable",
+    "nombre": "Cardiopatía isquémica estable (angina de esfuerzo)",
+    "sinonimos": ["Síndrome coronario crónico", "Angina estable"],
+    "area": "CAR",
+    "resumen": "Dos objetivos: **aliviar los síntomas** (antianginosos) y **prevenir eventos** (antiagregación, estatina, control de factores de riesgo). Primera línea antianginosa: betabloqueante o calcioantagonista según comorbilidad; nitrato sublingual a demanda. Revascularización si síntomas refractarios o anatomía de alto riesgo.",
+    "objetivo": "Sin angina o con angina tolerable; FC en reposo 55-60 lpm; LDL <55 mg/dL.",
+    "escenarios": [
+      {
+        "titulo": "Rescate de la crisis de angina",
+        "farmacos": [
+          { "nombre": "Nitroglicerina sublingual", "ref": "CAR-nitroglicerina", "dosis": "0,4 mg (1 comprimido o pulverización)", "via": "SL", "intervalo": "Cada 5 min, máximo 3 dosis", "duracion": "A demanda", "nota": "Si no cede tras 3 dosis (15 min): urgencias (posible SCA)" }
+        ]
+      },
+      {
+        "titulo": "Antianginosos de fondo",
+        "farmacos": [
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "2,5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o atenolol 50-100 mg / metoprolol 50-200 mg", "nota": "Primera línea, sobre todo con FC alta o IC" },
+          { "nombre": "Amlodipino", "ref": "CAR-amlodipino", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Primera línea o asociado al betabloqueante" },
+          { "nombre": "Diltiazem", "ref": "CAR-diltiazem", "dosis": "120-360 mg (retard)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si betabloqueante contraindicado (asma) y FEVI normal; **no asociar a betabloqueante**" },
+          { "nombre": "Mononitrato de isosorbida", "ref": "CAR-mononitrato-isosorbida", "dosis": "50-60 mg retard", "via": "VO", "intervalo": "Cada 24 h por la mañana", "duracion": "Indefinida", "nota": "Segunda línea; intervalo libre nocturno" },
+          { "nombre": "Ivabradina", "ref": "CAR-ivabradina", "dosis": "5 → 7,5 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Ritmo sinusal, FC ≥70 lpm con intolerancia o contraindicación a betabloqueante" }
+        ]
+      },
+      {
+        "titulo": "Prevención de eventos",
+        "farmacos": [
+          { "nombre": "Ácido acetilsalicílico", "ref": "HEM-acido-acetilsalicilico", "dosis": "75-100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o clopidogrel 75 mg si intolerancia" },
+          { "nombre": "Atorvastatina", "ref": "CAR-atorvastatina", "dosis": "40-80 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o rosuvastatina 20-40 mg; + ezetimiba 10 mg si no alcanza objetivo" },
+          { "nombre": "Ramipril", "ref": "CAR-ramipril", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si HTA, diabetes, ERC o disfunción ventricular" },
+          { "nombre": "Rivaroxabán (dosis vascular)", "ref": "HEM-rivaroxaban", "dosis": "2,5 mg", "via": "VO", "intervalo": "Cada 12 h, con AAS", "duracion": "Indefinida", "nota": "Alto riesgo isquémico y bajo riesgo hemorrágico (COMPASS)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abandono del tabaco, ejercicio regular, control de peso",
+      "Control de PA, diabetes (preferir iSGLT2 o GLP-1) y LDL",
+      "Vacunación antigripal"
+    ],
+    "claves": [
+      "**Nitrato + inhibidor de PDE5 (sildenafilo, tadalafilo) = hipotensión grave.**",
+      "**Betabloqueante + verapamilo o diltiazem**: bradicardia y bloqueo AV; evitar.",
+      "La angina vasoespástica se trata con calcioantagonista y nitrato; los betabloqueantes pueden empeorarla."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cardiopatía isquémica estable; Katzung 15.ª ed., cap. 12"
+  },
+  {
+    "id": "PAT-fibrilacion-auricular",
+    "nombre": "Fibrilación auricular",
+    "sinonimos": ["FA"],
+    "area": "CAR",
+    "resumen": "Tres decisiones independientes: **1) anticoagular** según riesgo embólico (CHA2DS2-VA ≥2: sí; =1: considerar), **2) controlar la frecuencia** en todos, y **3) controlar el ritmo** si hay síntomas, FA reciente o insuficiencia cardiaca. Si hay inestabilidad hemodinámica: cardioversión eléctrica urgente.",
+    "objetivo": "Prevención del ictus; FC en reposo <110 lpm (más estricta, <80, si persisten síntomas); alivio de síntomas.",
+    "escenarios": [
+      {
+        "titulo": "Anticoagulación (CHA2DS2-VA ≥2, considerar si 1)",
+        "nota": "Los ACOD son de elección salvo prótesis mecánica o estenosis mitral moderada-grave (ahí, AVK).",
+        "farmacos": [
+          { "nombre": "Apixabán", "ref": "HEM-apixaban", "dosis": "5 mg (2,5 mg si 2 de: ≥80 años, ≤60 kg, Cr ≥1,5)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida" },
+          { "nombre": "Rivaroxabán", "ref": "HEM-rivaroxaban", "dosis": "20 mg (15 mg si FG 15-49)", "via": "VO", "intervalo": "Cada 24 h con la cena", "duracion": "Indefinida" },
+          { "nombre": "Edoxabán", "ref": "HEM-edoxaban", "dosis": "60 mg (30 mg si FG 15-50, ≤60 kg o inhibidor P-gp)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida" },
+          { "nombre": "Dabigatrán", "ref": "HEM-dabigatran", "dosis": "150 mg (110 mg si ≥80 años o verapamilo)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Contraindicado con FG <30" },
+          { "nombre": "Acenocumarol", "ref": "HEM-acenocumarol", "dosis": "Dosis individualizada", "dosis_objetivo": "INR 2-3", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Prótesis mecánica o estenosis mitral" }
+        ]
+      },
+      {
+        "titulo": "Control de la frecuencia",
+        "farmacos": [
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "2,5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "agudo: metoprolol 2,5-5 mg IV en 2 min", "nota": "Primera línea con cualquier FEVI" },
+          { "nombre": "Diltiazem", "ref": "CAR-diltiazem", "dosis": "120-360 mg (retard); IV 0,25 mg/kg", "via": "VO / IV", "intervalo": "VO cada 24 h; IV bolo en 2 min", "duracion": "Indefinida", "alternativa": "o verapamilo 120-480 mg/día", "nota": "Solo con FEVI >40%" },
+          { "nombre": "Digoxina", "ref": "CAR-digoxina", "dosis": "Carga 0,25 mg cada 2 h (máx. 1-1,5 mg); mantenimiento 0,0625-0,25 mg", "via": "IV / VO", "intervalo": "Mantenimiento cada 24 h", "duracion": "Indefinida", "nota": "Sedentarios, IC o hipotensión; asociar a betabloqueante" },
+          { "nombre": "Amiodarona", "ref": "CAR-amiodarona", "dosis": "300 mg en 1 h, después 900-1.200 mg/24 h", "via": "IV", "intervalo": "Carga + perfusión", "duracion": "Fase aguda", "nota": "Inestabilidad o FEVI muy reducida cuando falla lo anterior" }
+        ]
+      },
+      {
+        "titulo": "Cardioversión farmacológica (FA <48 h, o anticoagulado ≥3 semanas / ETE sin trombo)",
+        "farmacos": [
+          { "nombre": "Flecainida", "ref": "CAR-flecainida", "dosis": "200-300 mg VO o 2 mg/kg IV", "via": "VO / IV", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "**Solo sin cardiopatía estructural**; asociar frenador del nodo" },
+          { "nombre": "Amiodarona", "ref": "CAR-amiodarona", "dosis": "5-7 mg/kg en 1-2 h, después 50 mg/h", "via": "IV", "intervalo": "Carga + perfusión", "duracion": "Hasta cardioversión (24 h)", "nota": "Con cardiopatía estructural o IC" }
+        ]
+      },
+      {
+        "titulo": "Mantenimiento del ritmo sinusal",
+        "farmacos": [
+          { "nombre": "Flecainida", "ref": "CAR-flecainida", "dosis": "50-150 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Corazón sano; con betabloqueante" },
+          { "nombre": "Amiodarona", "ref": "CAR-amiodarona", "dosis": "200 mg (tras carga de 600-800 mg/día 1-2 semanas)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Cardiopatía estructural; TSH, perfil hepático y Rx tórax periódicos" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cardioversión eléctrica sincronizada inmediata si inestabilidad",
+      "Ablación de venas pulmonares en FA paroxística sintomática o con IC",
+      "Control de factores de riesgo: HTA, obesidad, apnea del sueño, alcohol"
+    ],
+    "claves": [
+      "**Anticoagular durante al menos 4 semanas tras cualquier cardioversión** y después según CHA2DS2-VA.",
+      "**La antiagregación no sustituye a la anticoagulación** en la FA.",
+      "**FA preexcitada (QRS ancho, irregular): NO frenadores del nodo**; cardioversión o procainamida/flecainida."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de fibrilación auricular; Katzung 15.ª ed., caps. 14 y 34; guía ESC 2024"
+  },
+  {
+    "id": "PAT-taquicardia-supraventricular",
+    "nombre": "Taquicardia supraventricular paroxística",
+    "sinonimos": ["TSV", "Taquicardia por reentrada nodal"],
+    "area": "CAR",
+    "resumen": "Taquicardia regular de QRS estrecho (habitualmente reentrada intranodal o por vía accesoria ortodrómica). Si hay inestabilidad: cardioversión eléctrica. Si está estable: maniobras vagales (Valsalva modificada) y después adenosina. El tratamiento definitivo de elección en recurrencias es la ablación.",
+    "objetivo": "Terminar la taquicardia y prevenir recurrencias.",
+    "escenarios": [
+      {
+        "titulo": "Episodio agudo estable",
+        "farmacos": [
+          { "nombre": "Adenosina", "ref": "CAR-adenosina", "dosis": "6 mg → 12 mg → 12-18 mg", "via": "IV", "intervalo": "Bolo rápido + 20 mL de suero; repetir cada 1-2 min", "duracion": "Dosis puntual", "nota": "Vena antecubital; registrar ECG continuo; contraindicada en asma grave" },
+          { "nombre": "Verapamilo", "ref": "CAR-verapamilo", "dosis": "5-10 mg", "via": "IV", "intervalo": "En 2-3 min; repetible a los 15-30 min", "duracion": "Dosis puntual", "alternativa": "o diltiazem 0,25 mg/kg IV", "nota": "Si adenosina contraindicada o falla; **solo con QRS estrecho y FEVI conservada**" },
+          { "nombre": "Metoprolol", "ref": "CAR-metoprolol", "dosis": "2,5-5 mg", "via": "IV", "intervalo": "Cada 5 min (máx. 15 mg)", "duracion": "Dosis puntual", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Prevención de recurrencias (si no se hace ablación)",
+        "farmacos": [
+          { "nombre": "Bisoprolol", "ref": "CAR-bisoprolol", "dosis": "2,5-5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta ablación o indefinida", "alternativa": "o verapamilo 120-240 mg/día, diltiazem 120-360 mg/día" },
+          { "nombre": "Flecainida", "ref": "CAR-flecainida", "dosis": "50-100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Sin cardiopatía estructural; útil en vías accesorias" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Maniobra de Valsalva modificada (soplar 15 s y elevar las piernas en decúbito): éxito en ~40%",
+      "Masaje del seno carotídeo solo sin soplos y en <65 años",
+      "Ablación por catéter: curativa en >95%"
+    ],
+    "claves": [
+      "**QRS ancho = tratar como taquicardia ventricular**: verapamilo IV puede ser letal.",
+      "La adenosina puede precipitar FA (precaución en WPW) y produce sensación de muerte inminente: avisar.",
+      "Dipiridamol potencia la adenosina (reducir a 3 mg); teofilina y cafeína la antagonizan."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de taquiarritmias supraventriculares; Katzung 15.ª ed., cap. 14"
+  },
+  {
+    "id": "PAT-dislipemia",
+    "nombre": "Dislipemia y prevención cardiovascular (hipercolesterolemia)",
+    "sinonimos": ["Hipercolesterolemia", "Colesterol LDL alto"],
+    "area": "CAR",
+    "resumen": "La intensidad del tratamiento depende del **riesgo cardiovascular** (SCORE2, enfermedad establecida, diabetes, ERC, hipercolesterolemia familiar), no solo de la cifra de colesterol. Estatina como base, a la intensidad necesaria para el objetivo; si no se alcanza, añadir ezetimiba antes que subir indefinidamente la estatina; después, inhibidor de PCSK9.",
+    "objetivo": "LDL: riesgo muy alto <55 mg/dL y ↓≥50%; alto <70 mg/dL y ↓≥50%; moderado <100 mg/dL; bajo <116 mg/dL.",
+    "escenarios": [
+      {
+        "titulo": "Estatina según intensidad necesaria",
+        "farmacos": [
+          { "nombre": "Atorvastatina", "ref": "CAR-atorvastatina", "dosis": "10-20 mg (moderada) o 40-80 mg (alta)", "via": "VO", "intervalo": "Cada 24 h, a cualquier hora", "duracion": "Indefinida", "nota": "De elección en ERC (sin ajuste renal)" },
+          { "nombre": "Rosuvastatina", "ref": "CAR-rosuvastatina", "dosis": "5-10 mg (moderada) o 20-40 mg (alta)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Pocas interacciones por CYP3A4; ajuste renal" },
+          { "nombre": "Simvastatina", "ref": "CAR-simvastatina", "dosis": "20-40 mg (moderada)", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Indefinida", "nota": "Máx. 20 mg con amlodipino o amiodarona" },
+          { "nombre": "Pravastatina", "ref": "CAR-pravastatina", "dosis": "20-40 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Indefinida", "nota": "Polimedicados, trasplante, VIH con inhibidores de proteasa" }
+        ]
+      },
+      {
+        "titulo": "Si no se alcanza el objetivo",
+        "farmacos": [
+          { "nombre": "Ezetimiba", "ref": "CAR-ezetimiba", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Descenso adicional del 20-25%; mejor en combinación fija" },
+          { "nombre": "Inhibidor de PCSK9 (evolocumab / alirocumab)", "sin_ficha": true, "dosis": "140 mg (evolocumab) o 75-150 mg (alirocumab)", "via": "SC", "intervalo": "Cada 2 semanas", "duracion": "Indefinida", "nota": "Riesgo muy alto o HF con LDL fuera de objetivo pese a estatina + ezetimiba" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Dieta mediterránea, reducción de grasas saturadas y trans",
+      "Ejercicio aeróbico regular, pérdida de peso",
+      "Abandono del tabaco"
+    ],
+    "claves": [
+      "**«Regla del 6%»**: duplicar la estatina reduce el LDL solo un 6% más; la ezetimiba un 20-25%.",
+      "**No monitorizar CK ni transaminasas de rutina** en el paciente asintomático.",
+      "Ante mialgias: suspender, esperar y reintroducir otra estatina a dosis baja (gran efecto nocebo).",
+      "Hipertrigliceridemia >500-1.000 mg/dL: riesgo de pancreatitis → fenofibrato (nunca gemfibrozilo con estatina)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de las lipoproteínas; Katzung 15.ª ed., cap. 35; guía ESC/EAS 2019"
+  }
+]

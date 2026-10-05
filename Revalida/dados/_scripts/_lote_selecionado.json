@@ -1,0 +1,276 @@
+{
+  "selecionados": [
+    {
+      "codigo": "OBS-73",
+      "especialidade": "Obstetrícia",
+      "tema": "Hipertensão crônica na gestação",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2025-1-Q009",
+        "INEP2025-2-Q032"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "INF-56",
+      "especialidade": "Infectologia",
+      "tema": "Zika vírus na gestação",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2016-1-Q100",
+        "INEP2017-1-Q029"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "INF-58",
+      "especialidade": "Infectologia",
+      "tema": "Chikungunya",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2017-1-Q019",
+        "INEP2023-2-Q060"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "INF-60",
+      "especialidade": "Infectologia",
+      "tema": "Sepse",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2017-1-Q038",
+        "INEP2023-1-Q046"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "INF-74",
+      "especialidade": "Infectologia",
+      "tema": "Esporotricose",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2022-2-Q040",
+        "INEP2025-2-Q003"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "INF-82",
+      "especialidade": "Infectologia",
+      "tema": "Tungíase",
+      "tier": "A",
+      "n_questoes_historicas": 2,
+      "questoes_ids": [
+        "INEP2024-1-Q015",
+        "INEP2025-2-Q100"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "PED-41",
+      "especialidade": "Pediatria",
+      "tema": "Meningite viral em lactente",
+      "tier": "A",
+      "n_questoes_historicas": 1,
+      "questoes_ids": [
+        "INEP2012-1-Q003"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "PED-42",
+      "especialidade": "Pediatria",
+      "tema": "Diarreia/enteropatias na infância",
+      "tier": "A",
+      "n_questoes_historicas": 1,
+      "questoes_ids": [
+        "INEP2012-1-Q010"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "PED-43",
+      "especialidade": "Pediatria",
+      "tema": "Enteropatia ambiental",
+      "tier": "A",
+      "n_questoes_historicas": 1,
+      "questoes_ids": [
+        "INEP2012-1-Q011"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    },
+    {
+      "codigo": "PED-44",
+      "especialidade": "Pediatria",
+      "tema": "Hérnia diafragmática congênita",
+      "tier": "A",
+      "n_questoes_historicas": 1,
+      "questoes_ids": [
+        "INEP2012-1-Q018"
+      ],
+      "prioridade": 3,
+      "status_geracao": "nao_gerado"
+    }
+  ],
+  "pulados": [
+    {
+      "codigo": "PED-142",
+      "tema": "Diarreia aguda e desidratação",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "PED-13",
+        "tema": "Diarreia aguda"
+      }
+    },
+    {
+      "codigo": "CIR-62",
+      "tema": "Trauma torácico penetrante",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "CIR-42",
+        "tema": "Trauma torácico"
+      }
+    },
+    {
+      "codigo": "CIR-76",
+      "tema": "Trauma de uretra",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "CIR-08",
+        "tema": "Trauma"
+      }
+    },
+    {
+      "codigo": "CIR-115",
+      "tema": "Trauma urogenital",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "CIR-08",
+        "tema": "Trauma"
+      }
+    },
+    {
+      "codigo": "CIR-117",
+      "tema": "Doença diverticular do cólon",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "CIR-27",
+        "tema": "Doença diverticular"
+      }
+    },
+    {
+      "codigo": "OBS-25",
+      "tema": "Diabetes mellitus gestacional",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "OBS-01",
+        "tema": "Diabetes gestacional"
+      }
+    },
+    {
+      "codigo": "OBS-47",
+      "tema": "Pré-eclâmpsia",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "OBS-18",
+        "tema": "Pré-eclâmpsia grave/eclâmpsia iminente"
+      }
+    },
+    {
+      "codigo": "OBS-51",
+      "tema": "Pré-eclâmpsia grave",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "OBS-18",
+        "tema": "Pré-eclâmpsia grave/eclâmpsia iminente"
+      }
+    },
+    {
+      "codigo": "OBS-62",
+      "tema": "Hemorragia pós-parto por atonia",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "OBS-16",
+        "tema": "Hemorragia pós-parto"
+      }
+    },
+    {
+      "codigo": "OBS-67",
+      "tema": "Abortamento",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "OBS-08",
+        "tema": "Abortamento séptico"
+      }
+    },
+    {
+      "codigo": "OBS-68",
+      "tema": "Toxoplasmose na gestação",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "INF-67",
+        "tema": "Toxoplasmose na gestação"
+      }
+    },
+    {
+      "codigo": "GIN-36",
+      "tema": "Sangramento pós-menopausa",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "GIN-14",
+        "tema": "Sangramento uterino pós-menopausa"
+      }
+    },
+    {
+      "codigo": "INF-54",
+      "tema": "Meningite meningocócica",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "INF-35",
+        "tema": "Meningite"
+      }
+    },
+    {
+      "codigo": "INF-62",
+      "tema": "Profilaxia da raiva",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "INF-07",
+        "tema": "Raiva"
+      }
+    },
+    {
+      "codigo": "INF-68",
+      "tema": "Tuberculose em pessoa vivendo com HIV",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "INF-11",
+        "tema": "Tuberculose e HIV"
+      }
+    },
+    {
+      "codigo": "INF-69",
+      "tema": "Infecção do trato urinário complicada",
+      "motivo": {
+        "tipo": "gerado",
+        "codigo": "INF-36",
+        "tema": "Infecção do trato urinário"
+      }
+    }
+  ]
+}

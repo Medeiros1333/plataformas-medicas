@@ -1,0 +1,280 @@
+## 0. CABEÇALHO
+
+**Código:** NEU-11 · **Especialidade:** Neurologia · **Tema:** Doença de Parkinson · **Assunto:** Diagnóstico clínico, diagnóstico diferencial e tratamento farmacológico da doença de Parkinson · **Tier:** B · **Nº de questões históricas do INEP sobre o assunto:** 5 (2021.1-Q40, 2023.1-Q6, 2025.2-Q22, 2022.2-Q36, 2020.1-Q14) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 75 min · **Pré-requisitos:** noções básicas de semiologia neurológica (exame do tônus, da marcha e do tremor) · **Data de geração:** 2026-08-08
+
+---
+
+## 1. TEORIA
+
+A doença de Parkinson (DP) é a segunda doença neurodegenerativa mais comum (atrás apenas da doença de Alzheimer) e a causa mais frequente de síndrome parkinsoniana. Decorre da degeneração progressiva dos neurônios dopaminérgicos da substância negra pars compacta, com depleção de dopamina no estriado. O Revalida cobra três eixos de forma recorrente: (1) reconhecer a tétrade clínica e diferenciá-la de outras causas de parkinsonismo, (2) saber que o diagnóstico é **clínico**, e (3) escolher o tratamento farmacológico inicial correto conforme o perfil do paciente, além de reconhecer as manifestações não motoras e as complicações motoras do tratamento crônico.
+
+**Tétrade clássica [CONSENSO].** Os quatro sinais cardinais são:
+- **Bradicinesia** — lentidão para iniciar e executar movimentos voluntários, com redução progressiva de amplitude e velocidade em movimentos repetitivos; é o sinal **obrigatório** para o diagnóstico segundo os critérios atuais (MDS), presente em praticamente 100% dos casos. Manifesta-se na prática como dificuldade para abotoar roupas, amarrar sapatos, digitar, micrografia e hipomimia facial ("fácies em máscara").
+- **Rigidez em roda denteada** — aumento do tônus muscular ao exame passivo, com padrão de "catraca" (fenômeno da roda dentada), frequentemente potencializado por manobras de ativação contralateral (manobra de Froment).
+- **Tremor de repouso assimétrico** — tremor de baixa frequência (4-6 Hz), tipicamente descrito como "contar moedas" ou "rolar pílulas", presente em repouso, que **diminui ou desaparece com o movimento voluntário** (ação) e piora com estresse emocional, ansiedade ou distração cognitiva (ex.: cálculo mental, marcha). É **assimétrico** desde o início — predominando em um hemicorpo — e essa assimetria costuma persistir mesmo quando a doença se torna bilateral.
+- **Instabilidade postural** — reflexos posturais prejudicados, testados pelo *pull test*; é tipicamente um achado **tardio** na evolução da doença. 🚨 *Instabilidade postural e quedas precoces (nos primeiros 1-2 anos) são sinal de alarme para parkinsonismo atípico ("Parkinson-plus"), não para DP idiopática.*
+
+Outros achados de apoio: marcha em pequenos passos (marcha parkinsoniana), redução do balanço dos braços ao caminhar (assimétrico), micrografia, hipofonia, sialorreia, festinação.
+
+**Diagnóstico [CONSENSO].** Não existe exame de imagem ou laboratorial de rotina que confirme a DP — o diagnóstico é **eminentemente clínico**, baseado na presença de bradicinesia associada a pelo menos um dos outros dois sinais motores cardinais (tremor de repouso ou rigidez), na ausência de sinais de alarme para diagnósticos alternativos ("red flags"). A **resposta clara e sustentada à levodopa** reforça fortemente o diagnóstico e é considerada um critério de suporte nos critérios diagnósticos vigentes (Banco de Cérebros do Reino Unido / *Movement Disorder Society*). Neuroimagem estrutural (TC/RNM de crânio) costuma ser **normal** ou mostrar apenas atrofia compatível com a idade — sua principal utilidade é **excluir diferenciais estruturais** (hidrocefalia de pressão normal, lesões vasculares, tumores), não confirmar a DP. Exames funcionais (SPECT com DaTSCAN) existem, mas não são de uso rotineiro no Brasil e ficam reservados a casos atípicos ou de dúvida diagnóstica.
+
+**Diagnóstico diferencial — o eixo mais cobrado em prova.**
+| Condição | Como diferenciar |
+|---|---|
+| **Parkinsonismo secundário a drogas** (antipsicóticos típicos e atípicos, metoclopramida, flunarizina, cinarizina) | Geralmente **simétrico**, instala-se dias a semanas após início do fármaco bloqueador de dopamina, tremor de repouso menos proeminente (mais postural/de ação); melhora dias a meses após suspensão do agente causador. É a principal armadilha de prova — **sempre investigar uso de antipsicóticos e antieméticos antes de rotular como DP idiopática**. |
+| **Tremor essencial** | Tremor de **ação/postural** (não de repouso), tipicamente bilateral e simétrico desde o início, sem bradicinesia nem rigidez, comumente com história familiar positiva e melhora transitória com álcool. |
+| **Parkinsonismo atípico ("Parkinson-plus"):** paralisia supranuclear progressiva (PSP), atrofia de múltiplos sistemas (AMS), degeneração corticobasal, demência com corpos de Lewy | Quedas e instabilidade postural **precoces**, paralisia do olhar vertical (PSP), disautonomia proeminente e sinais cerebelares (AMS), apraxia assimétrica/fenômeno do membro alheio (corticobasal), flutuação cognitiva e alucinações visuais **antes ou junto** com o parkinsonismo (corpos de Lewy) — e resposta pobre/ausente à levodopa. |
+| **Parkinsonismo vascular** | Predomínio em membros inferiores, marcha de base alargada, progressão em degraus, fatores de risco cardiovascular, tremor de repouso incomum. |
+
+**Tratamento farmacológico de primeira linha [CONSENSO].** A **levodopa associada à carbidopa** (inibidor da dopa-descarboxilase periférica, que reduz efeitos colaterais periféricos e aumenta a biodisponibilidade cerebral da levodopa) continua sendo o tratamento sintomático **mais eficaz** disponível para os sintomas motores da DP, e é a droga de escolha especialmente em **pacientes idosos** ou com comprometimento funcional mais significativo. Em pacientes **mais jovens** (tipicamente <60-65 anos), pode-se considerar iniciar com **agonistas dopaminérgicos** (pramipexol, ropinirol) pelo menor risco de flutuações motoras e discinesias a **longo prazo** — a contrapartida é maior incidência de efeitos neuropsiquiátricos (sonolência excessiva, alucinações, transtornos do controle de impulsos como jogo patológico e hipersexualidade), o que limita seu uso em idosos e pacientes com comprometimento cognitivo. Outras classes: inibidores da MAO-B (selegilina, rasagilina) como monoterapia inicial em doença leve ou adjuvantes; amantadina (útil também para discinesias induzidas por levodopa); anticolinérgicos (biperideno, triexifenidil) para tremor predominante em pacientes jovens, evitados em idosos pelo risco de efeitos cognitivos e confusão; inibidores da COMT (entacapona) como adjuvantes para prolongar o efeito da levodopa.
+
+**Complicações motoras do tratamento crônico [CONSENSO].** Após anos de uso de levodopa (a maioria dos pacientes desenvolve alguma complicação em 5-10 anos), surgem:
+- **Flutuações motoras** ("wearing-off" ou fenômeno de fim de dose): retorno dos sintomas antes da próxima dose, à medida que a reserva de armazenamento dopaminérgico estriatal diminui.
+- **Discinesias**: movimentos involuntários coreiformes, tipicamente no pico de efeito da dose ("discinesia de pico de dose"), refletindo estimulação dopaminérgica pulsátil/excessiva.
+Manejo geralmente envolve fracionamento de doses, associação de agonistas dopaminérgicos ou inibidores da COMT/MAO-B, e em casos refratários, terapias avançadas (infusão contínua, estimulação cerebral profunda) — ⚠️ VERIFICAR indicações e disponibilidade dessas terapias avançadas no SUS antes de cobrar como conduta de primeira linha.
+
+**Sintomas não motores [CONSENSO] — frequentemente precedem os sintomas motores em anos.** Incluem: constipação intestinal (um dos pródromos mais precoces e bem documentados), distúrbios do sono (insônia, sonolência diurna excessiva, transtorno comportamental do sono REM — que pode preceder o diagnóstico motor em décadas), hiposmia/anosmia, depressão e ansiedade (muito prevalentes e subdiagnosticadas), disfunção cognitiva (desde comprometimento leve até demência em fases avançadas), disautonomia (hipotensão ortostática, disfunção urinária, sialorreia), apatia e fadiga. 🚨 *A banca explora esse ponto pedindo para o candidato reconhecer que sonolência, apatia, anosmia e fadiga em um paciente já diagnosticado e em tratamento estável correspondem à própria evolução não motora da DP — não a um novo quadro infeccioso, nem necessariamente a efeito de outro fármaco.*
+
+🇧🇷 **CONDUTA DE PROVA (MS):** o tratamento medicamentoso da DP no SUS segue o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) de Doença de Parkinson do Ministério da Saúde, que disponibiliza levodopa/carbidopa (ou benserazida), agonistas dopaminérgicos, amantadina e outras classes pelo Componente Especializado da Assistência Farmacêutica — ⚠️ VERIFICAR a versão vigente do PCDT antes de citar critérios exatos de linha de cuidado ou critérios de dispensação.
+
+⚠️ **PEGADINHA DO INEP:** a armadilha mais recorrente é confundir a doença de Parkinson idiopática com **parkinsonismo secundário a drogas**, especialmente antipsicóticos (haloperidol, clorpromazina, risperidona) ou antieméticos como a **metoclopramida** — sempre revisar a lista de medicamentos em uso antes de fechar o diagnóstico de DP idiopática. A segunda armadilha é a inversa: em paciente **já diagnosticado e em uso de levodopa**, atribuir sintomas não motores novos (sonolência, apatia, anosmia) a um "novo" parkinsonismo medicamentoso ou a outra doença, quando na verdade representam a própria história natural não motora da DP.
+
+### Referências
+1. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas — Doença de Parkinson. Brasília, edição vigente. ⚠️ VERIFICAR ano da edição mais recente.
+2. Postuma RB, et al. MDS Clinical Diagnostic Criteria for Parkinson's Disease. Movement Disorders, 2015. (referência internacional de critérios diagnósticos, usada na ausência de equivalente nacional detalhado). ⚠️ VERIFICAR se há atualização posterior.
+3. Sociedade Brasileira de Neurologia. Diretrizes de tratamento da doença de Parkinson. ⚠️ VERIFICAR documento e ano vigentes.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na UBS/ambulatório de neurologia:** o cenário mais comum é paciente idoso (ou familiar) relatando "tremor" como queixa principal, mas o exame revela que o achado mais incapacitante já é a bradicinesia (lentidão, dificuldade com atividades finas, quedas). Muitas vezes o paciente chega para reavaliação de rotina relatando sintomas inespecíficos (constipação, insônia, sonolência diurna, apatia) que, isoladamente, seriam atribuídos a outras causas, mas que no contexto de DP já estabelecida representam progressão não motora esperada da doença — e não uma nova intercorrência.
+
+**Fármacos em ordem de frequência de uso real no Brasil:**
+
+| Fármaco | Apresentação usual na rede | Dose inicial usual | Ajuste em idosos | Efeito adverso principal | Interação/observação principal |
+|---|---|---|---|---|---|
+| Levodopa + carbidopa | Comprimidos combinados (ex. 250mg/25mg) | ⚠️ VERIFICAR esquema de titulação no protocolo vigente antes de prescrever | Droga de escolha em idosos; não reduzir dose por "medo" de efeitos a longo prazo sem justificativa clínica | Náusea, hipotensão ortostática; a longo prazo: flutuações e discinesias | Evitar uso concomitante com antipsicóticos típicos (antagonizam o efeito) |
+| Pramipexol / Ropinirol (agonistas dopaminérgicos) | Comprimidos VO | ⚠️ VERIFICAR titulação | Usar com cautela — maior risco de confusão, alucinações e sonolência súbita em idosos | Transtornos do controle de impulsos, sonolência excessiva, hipotensão | Evitar associação com outros sedativos dopaminérgicos sem ajuste |
+| Biperideno (anticolinérgico) | Comprimidos ou ampola IM/IV | ⚠️ VERIFICAR | Evitar em idosos e em quem já tem comprometimento cognitivo | Confusão mental, boca seca, retenção urinária, constipação | Soma efeito anticolinérgico com outros fármacos (antidepressivos tricíclicos, anti-histamínicos) |
+| Amantadina | Comprimidos VO | ⚠️ VERIFICAR | Ajustar em insuficiência renal | Livedo reticular, edema de membros inferiores, confusão em idosos | Ajuste renal obrigatório |
+
+**Prescrição-modelo (paciente idoso, tratamento inicial, ambulatorial):**
+> Levodopa + carbidopa [dose e esquema de titulação conforme protocolo institucional/PCDT vigente] VO, fracionada ao longo do dia
+> Orientação sobre tomar longe das refeições ricas em proteína (competição de absorção intestinal) — ⚠️ VERIFICAR recomendação prática vigente
+> Reforço de manejo não farmacológico: fisioterapia motora, fonoaudiologia (hipofonia/disfagia), orientação de prevenção de quedas
+
+**Erros que médicos cometem de verdade:**
+- **Não investigar uso de antipsicóticos ou de metoclopramida** antes de rotular o paciente como portador de DP idiopática — erro especialmente comum em idosos polimedicados e em pacientes psiquiátricos, nos quais o parkinsonismo secundário a drogas é subdiagnosticado e tratado como se fosse DP verdadeira.
+- Iniciar agonista dopaminérgico em idoso frágil sem ponderar o risco de confusão/alucinações, priorizando "poupar" levodopa sem indicação real.
+- Atribuir sintomas não motores (sonolência, apatia, constipação) a uma causa nova isolada, sem reconhecer que fazem parte da história natural da própria DP.
+- Deixar de rastrear e tratar depressão, que é altamente prevalente e subdiagnosticada na DP.
+
+**O que dizer ao paciente/família:** explicar que a DP é uma doença crônica e progressiva, mas que o tratamento controla bem os sintomas motores por muitos anos; orientar que tremor pode não ser o sintoma mais incapacitante a longo prazo (bradicinesia e sintomas não motores frequentemente pesam mais na qualidade de vida); alertar sobre o risco de flutuações motoras e discinesias com o uso prolongado de levodopa, sem que isso signifique erro de tratamento; orientar prevenção de quedas em casa; explicar a importância de não suspender ou alterar doses por conta própria (risco de piora abrupta, inclusive síndrome parkinsoniana maligna).
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Anamnese dirigida: tempo de evolução, lateralidade e caráter do tremor (repouso vs. ação), dificuldades motoras finas, quedas, alterações de sono, olfato, humor e cognição, **lista completa de medicamentos em uso** (rastrear antipsicóticos/antieméticos).
+- ✅ Exame físico: bradicinesia (teste de movimentos alternados rápidos), tônus (roda denteada, manobra de Froment), tremor de repouso, marcha, reflexos posturais (*pull test*), fácies, fala.
+- ✅ Hipótese diagnóstica verbalizada com justificativa (tétrade + assimetria + ausência de red flags para parkinsonismo atípico ou secundário).
+- ✅ Conduta: escolha do tratamento inicial conforme idade/perfil funcional (levodopa/carbidopa vs. agonista dopaminérgico), orientação não farmacológica, encaminhamento a fisioterapia/fonoaudiologia quando indicado.
+- ✅ Comunicação: explicar a natureza crônica da doença, expectativas realistas de tratamento e sinais de alarme para reavaliação.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2021 · Edição 1 · Questão 40]**
+
+⚠️ **Nota de extração:** o enunciado traz um prefixo de metadado de banco de itens ("33. ITEM 137825 - V. 720603") e a alternativa D traz um "11" residual ao final — ambos são ruído de paginação/numeração do PDF original, não fazem parte do conteúdo da questão, e foram mantidos entre colchetes de referência abaixo sem alterar o texto substantivo.
+
+Um paciente masculino, com 62 anos de idade, vem a consulta médica na atenção secundária ambulatorial, encaminhado por tremor. O paciente conta que há alguns meses teve início com tremor no braço direito e que, agora, parece ter progredido para ambos os braços e ambas as pernas. O paciente diz que o tremor piora quando ele "está nervoso", mas que parece melhorar quando faz alguma atividade, como cozinhar ou comer. Entretanto, o paciente conta que é difícil para ele levantar-se da posição sentada e começar a andar. Também refere que perde o equilíbrio quando está caminhando e "muda de rota", e tem dificuldade para parar de caminhar, relatando duas quedas no mês anterior à consulta. Com base no que foi apresentado, o diagnóstico desse paciente é:
+
+A) tremor essencial.
+B) paralisia supranuclear progressiva.
+C) doença de Huntington.
+D) doença de Parkinson.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o quadro reúne tremor de início **assimétrico** (começou no braço direito, progrediu depois), que **piora com estresse emocional** e **melhora com atividade voluntária** (padrão clássico de tremor de repouso, não de ação), associado a **bradicinesia** (dificuldade para se levantar e iniciar a marcha) e **instabilidade postural** (perda de equilíbrio, "muda de rota", dificuldade para parar de andar, quedas de repetição) — ou seja, a tétrade clássica da doença de Parkinson está contemplada de forma implícita e completa no enunciado.
+
+**Por que as demais estão erradas:**
+- A) Tremor essencial é um tremor de **ação/postural**, que **piora** com movimento voluntário e atividades como comer/escrever — exatamente o oposto do que é descrito ("melhora quando faz alguma atividade"), além de não cursar com bradicinesia nem instabilidade postural.
+- B) Paralisia supranuclear progressiva tipicamente cursa com quedas e instabilidade postural **muito precoces** (nos primeiros um a dois anos) e paralisia do olhar vertical — este último achado não foi mencionado, e a progressão descrita (tremor assimétrico de início focal, evoluindo ao longo de meses) é mais compatível com DP típica.
+- C) Doença de Huntington cursa classicamente com coreia (movimentos involuntários, irregulares, não rítmicos), declínio cognitivo e história familiar autossômica dominante — quadro clínico incompatível com a descrição de tremor de repouso e bradicinesia.
+
+**O que a banca estava testando:** a capacidade de reconhecer a tétrade parkinsoniana completa (tremor de repouso assimétrico + piora com estresse/melhora com ação + bradicinesia + instabilidade postural) integrada em uma narrativa clínica, sem que os quatro sinais fossem nomeados literalmente no enunciado.
+
+---
+
+**[INEP 2023 · Edição 1 · Questão 6]**
+
+⚠️ **Nota de extração:** a alternativa D traz ao final o resíduo "2023 PRIMEIRA EDIÇÃO", que é ruído de cabeçalho/rodapé do PDF original bleeding para dentro do texto da alternativa, não parte do conteúdo da resposta.
+
+Um paciente com 65 anos faz acompanhamento na unidade básica de saúde devido a doença de Parkinson e evolui com quadro de sonolência diurna excessiva, anosmia, fadiga e apatia. Os familiares referem que o paciente faz uso regular dos seguintes medicamentos: levodopa, dipirona, losartana e ácido acetilsalicílico. Ele é, então, encaminhado para internação hospitalar para investigação diagnóstica do quadro relatado. O exame físico revela presença de rigidez muscular importante com sinal da roda dentada presente e tremores nas extremidades. O paciente apresenta-se muito sonolento, respondendo às solicitações, com perda do olfato, cansaço importante e apatia. Foram realizados exames laboratoriais que se mostraram dentro dos parâmetros da normalidade. Nesse caso, a provável evolução do quadro clínico do paciente está relacionada a:
+
+A) quadro infeccioso com exames laboratoriais dentro dos parâmetros da normalidade.
+B) distúrbios neurodegenerativos não relacionados à doença de Parkinson.
+C) manifestação neuropsiquiátrica e não motora da doença de Parkinson.
+D) parkinsonismo secundário associado a medicamentos.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** sonolência diurna excessiva, anosmia, fadiga e apatia são sintomas **não motores** bem documentados da doença de Parkinson (ver Seção 1), que podem surgir ou se acentuar ao longo da evolução da doença independentemente de qualquer intercorrência nova. O paciente já tem diagnóstico estabelecido de DP e mantém rigidez em roda denteada e tremor ao exame — ou seja, o quadro descrito representa progressão esperada da própria doença, não uma nova condição.
+
+**Por que as demais estão erradas:**
+- A) Os exames laboratoriais normais e a ausência de outros sinais infecciosos no enunciado tornam essa hipótese não sustentada — a alternativa está incorreta justamente por tentar encaixar achados normais em uma narrativa infecciosa que o caso não sustenta.
+- B) O quadro é perfeitamente explicado por manifestações não motoras da própria DP, sem necessidade de invocar uma segunda doença neurodegenerativa não relacionada.
+- D) É a **pegadinha central** desta questão: a lista de medicamentos (dipirona, losartana, AAS) **não inclui** nenhum agente bloqueador dopaminérgico (antipsicótico ou antiemético como metoclopramida) que justificasse parkinsonismo secundário a drogas — o paciente já usa levodopa (tratamento da própria DP, não causa de parkinsonismo). A banca testa exatamente se o candidato cai na armadilha de associar "piora do parkinsonismo" a fármacos, quando na verdade nenhum fármaco em uso é causador de parkinsonismo secundário.
+
+**O que a banca estava testando:** reconhecimento de que sintomas não motores (sono, olfato, humor, energia) fazem parte do espectro clínico da própria doença de Parkinson, e não devem ser automaticamente atribuídos a uma causa medicamentosa ou infecciosa nova — o inverso exato da pegadinha mais comum (que normalmente cobra o reconhecimento de parkinsonismo *induzido* por drogas).
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 22]**
+
+Mulher de 65 anos iniciou quadro de lentidão dos movimentos há 6 meses, com dificuldade para amarrar sapatos, abotoar roupas e digitar. Ao caminhar, apresentava passos mais curtos e sensação de instabilidade, com 1 episódio de queda. Concomitantemente apresentou tremores nas mãos, de repouso, associados à rigidez e alteração do padrão do sono. Nega alterações de memória e cognição. Ao exame físico apresentava fácies em máscara, marcha em pequenos passos, frequência cardíaca de 88 bpm com ausculta sem alterações, pressão arterial de 130 x 80 mmHg, tremores assimétricos na manobra dos braços estendidos, hipertonia em roda dentada. A ressonância nuclear magnética realizada há 2 semanas constatou atrofia cerebral compatível com a idade. O tratamento medicamentoso inicial recomendado para o caso clínico será
+
+A) levodopa e carbidopa.
+B) donepezila e memantina.
+C) propranalol e amantadina.
+D) atorvastatina e baclofeno.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o quadro reúne bradicinesia (lentidão, dificuldade com tarefas motoras finas), tremor de repouso assimétrico, rigidez em roda denteada e instabilidade postural com queda — a tétrade clássica completa, sem sinais de alarme para diagnóstico alternativo (RNM mostrando apenas atrofia compatível com a idade, sem lesão estrutural; cognição preservada). Para tratamento inicial nesse perfil (paciente de 65 anos, já com repercussão funcional), a **levodopa associada à carbidopa** é a opção mais eficaz e apropriada, conforme discutido na Seção 1.
+
+**Por que as demais estão erradas:**
+- B) Donepezila e memantina são fármacos para demência (Alzheimer/demência com corpos de Lewy), não para o tratamento motor da DP — a paciente nega alterações cognitivas, tornando essa opção irrelevante ao quadro.
+- C) Propranolol é usado no tratamento do **tremor essencial** (tremor de ação), não do tremor de repouso da DP; amantadina tem papel coadjuvante (sobretudo para discinesias em fase avançada), não como tratamento inicial de escolha.
+- D) Atorvastatina (dislipidemia) e baclofeno (espasticidade/relaxante muscular de ação medular) não têm indicação para o tratamento motor da doença de Parkinson.
+
+**O que a banca estava testando:** reconhecimento da tétrade clínica completa da DP em um caso sem sinais de alarme, e a escolha correta do tratamento farmacológico inicial de primeira linha (levodopa/carbidopa) frente a alternativas plausíveis, mas destinadas a outras condições (demência, tremor essencial, espasticidade).
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 36]**
+
+Homem de 69 anos apresenta quadro de bradicinesia, iniciado há 6 meses, com lentidão dos movimentos e dificuldade para amarrar sapatos, abotoar roupas, digitar. Ao caminhar, apresenta passos mais curtos e sensação de instabilidade. Concomitantemente, apresenta tremores nas mãos, de repouso, associada a rigidez, além de alteração olfativa, constipação intestinal de 3 dias e alteração do padrão do sono. Nega alterações de memória e cognição. No exame físico, o paciente apresentava bom estado geral, altura 1,80 m, peso de 85 kg, menor expressividade facial, marcha com inclinação anterior lenta e arrastada, pulmões com murmúrio vesicular preservado, coração rítmico em 2 tempos a 80 batimentos por minuto, pressão arterial de 120 × 80 mmHg, abdome plano e sem visceromegalias. No exame neurológico, mostrou: diminuição dos movimentos dos braços, tremores assimétricos das mãos na manobra dos braços estendidos, movimentos alternados com assimetria e lentidão, e hipertonia em roda dentada. Ressonância magnética realizada há 2 semanas constatou: redução da espessura da pars compacta e maior grau de hipointensidade de sinal no putâmen, com atrofia cerebral compatível para a sua idade. A principal hipótese diagnóstica nesse caso é
+
+A) demência vascular.
+B) tremores essenciais.
+C) doença de Parkinson.
+D) doença de Alzheimer.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** **síndrome parkinsoniana** completa — **bradicinesia** (obrigatória para o diagnóstico) + **tremor de repouso** + **rigidez em roda denteada** + instabilidade postural e marcha em pequenos passos —, **assimétrica**, com **sintomas não motores** típicos que antecedem ou acompanham a doença de Parkinson: **hiposmia**, **constipação** e **distúrbio do sono** (comportamental do sono REM). A RM mostrando alteração da **substância negra (pars compacta)** reforça. O diagnóstico é clínico, e a boa resposta à levodopa o confirma.
+
+**Por que as demais estão erradas:**
+- A) Demência vascular tem declínio cognitivo em degraus e sinais focais; o paciente nega alteração cognitiva.
+- B) **Tremor essencial** é **postural/de ação** (piora ao segurar objetos), frequentemente com história familiar e melhora com álcool, **sem bradicinesia nem rigidez**.
+- D) Alzheimer começa com **perda de memória**, ausente aqui.
+
+⚠️ **PEGADINHA DO INEP:** tremor de **repouso** = Parkinson; tremor de **ação/postural** = essencial. E os sintomas não motores (olfato, intestino, sono) são dados que a banca adora usar como pista precoce.
+
+**O que a banca estava testando:** critérios clínicos da doença de Parkinson e diferencial com tremor essencial e demências.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 14]**
+
+Um homem com 55 anos de idade é encaminhado para esclarecimento diagnóstico de déficit cognitivo associado a transtornos do movimento com suspeita de síndrome de Parkinson. Nesse caso, qual é o achado semiológico que contribui para esse diagnóstico?
+
+A) Reflexos patelares exaltados associados à presença de clônus de rótula e de pés.
+B) Tremor em repouso, de baixa frequência e algo assimétrico (predominando na mão direita).
+C) Diminuição da sensibilidade vibratória e da propriocepção consciente nos membros inferiores.
+D) Presença de oftalmoplegia internuclear com alterações graves na mirada conjugada horizontal.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** a síndrome parkinsoniana se define por **bradicinesia** associada a **tremor de repouso** e/ou **rigidez**. O **tremor de repouso** típico é de **baixa frequência (4–6 Hz)**, do tipo "contar moedas", **assimétrico** no início — exatamente o descrito — e é o achado semiológico que sustenta o diagnóstico.
+
+**Por que as demais estão erradas:**
+- A) Hiper-reflexia com **clônus** indica lesão do **1º neurônio motor** (síndrome piramidal), não parkinsonismo (extrapiramidal).
+- C) Perda de sensibilidade vibratória e propriocepção indica lesão dos **cordões posteriores** (deficiência de B12, tabes dorsalis) ou neuropatia.
+- D) **Oftalmoplegia internuclear** é lesão do fascículo longitudinal medial — típica de **esclerose múltipla** (ou AVC de tronco).
+
+⚠️ **PEGADINHA DO INEP:** no idoso com **déficit cognitivo + parkinsonismo**, pense também em **demência com corpos de Lewy** (flutuação cognitiva, alucinações visuais, sensibilidade a antipsicóticos) e em hidrocefalia de pressão normal (marcha, incontinência, demência). A **paralisia supranuclear progressiva** dá paralisia do olhar **vertical**, não internuclear.
+
+**O que a banca estava testando:** semiologia da síndrome parkinsoniana e diferenciação de outras síndromes neurológicas.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Quais são os quatro sinais cardinais (tétrade clássica) da doença de Parkinson?	Bradicinesia, rigidez em roda denteada, tremor de repouso assimétrico, instabilidade postural	Revalida::Neurologia::DoencaParkinson::Diagnostico
+Qual sinal motor é obrigatório para o diagnóstico de doença de Parkinson segundo os critérios atuais?	Bradicinesia (associada a pelo menos tremor de repouso ou rigidez)	Revalida::Neurologia::DoencaParkinson::Diagnostico
+Como é caracterizado o tremor clássico da doença de Parkinson (frequência, quando aparece, o que piora e o que melhora)?	Baixa frequência (4-6 Hz), de repouso, assimétrico; piora com estresse/ansiedade, melhora com movimento voluntário	Revalida::Neurologia::DoencaParkinson::Diagnostico
+Instabilidade postural precoce (1-2 anos do início) sugere o quê?	Parkinsonismo atípico ("Parkinson-plus"), não doença de Parkinson idiopática típica	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Existe exame confirmatório de rotina para doença de Parkinson?	Não; o diagnóstico é clínico. Resposta sustentada à levodopa reforça o diagnóstico	Revalida::Neurologia::DoencaParkinson::Diagnostico
+Qual o papel da neuroimagem estrutural (TC/RNM) na avaliação de suspeita de Parkinson?	Excluir diferenciais estruturais (hidrocefalia, lesão vascular, tumor); costuma ser normal/atrofia compatível com idade na DP	Revalida::Neurologia::DoencaParkinson::Diagnostico
+Quais fármacos são as causas mais importantes de parkinsonismo secundário a drogas?	Antipsicóticos (típicos e atípicos) e antieméticos como metoclopramida	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Como diferenciar parkinsonismo por drogas da doença de Parkinson idiopática?	Geralmente simétrico, início dias a semanas após o fármaco, tremor menos proeminente, melhora após suspensão do agente	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Como diferenciar tremor essencial de tremor parkinsoniano?	Tremor essencial é de ação/postural (piora com movimento), bilateral simétrico, sem bradicinesia/rigidez; tremor parkinsoniano é de repouso e assimétrico	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Qual o tratamento farmacológico de primeira linha para sintomas motores da doença de Parkinson, especialmente em idosos?	Levodopa associada à carbidopa	Revalida::Neurologia::DoencaParkinson::Tratamento
+Por que se pode preferir agonista dopaminérgico como início em paciente jovem com Parkinson?	Menor risco de flutuações motoras e discinesias a longo prazo (mas maior risco de efeitos neuropsiquiátricos)	Revalida::Neurologia::DoencaParkinson::Tratamento
+Quais são as duas principais complicações motoras do uso crônico de levodopa?	Flutuações motoras (wearing-off) e discinesias	Revalida::Neurologia::DoencaParkinson::Tratamento
+Cite ao menos quatro sintomas não motores da doença de Parkinson.	Constipação, distúrbios do sono (incluindo transtorno comportamental do sono REM), anosmia/hiposmia, depressão, apatia, disfunção cognitiva	Revalida::Neurologia::DoencaParkinson::ManifestacoesNaoMotoras
+Qual sintoma não motor costuma preceder os sintomas motores da DP em anos ou décadas?	Constipação intestinal e transtorno comportamental do sono REM	Revalida::Neurologia::DoencaParkinson::ManifestacoesNaoMotoras
+Paciente com DP estabelecida evolui com sonolência diurna, anosmia, fadiga e apatia, sem novo fármaco causador. Interpretação correta?	Manifestação neuropsiquiátrica/não motora da própria evolução da doença de Parkinson, não novo quadro	Revalida::Neurologia::DoencaParkinson::ManifestacoesNaoMotoras
+Em que classe de pacientes deve-se evitar anticolinérgicos (biperideno/triexifenidil) no tratamento da DP?	Idosos e pacientes com comprometimento cognitivo, pelo risco de confusão mental	Revalida::Neurologia::DoencaParkinson::Tratamento
+Qual fármaco é usado tanto no tratamento sintomático leve da DP quanto no manejo de discinesias induzidas por levodopa?	Amantadina	Revalida::Neurologia::DoencaParkinson::Tratamento
+Propranolol é tratamento de primeira linha para qual tipo de tremor, e não para qual?	Tremor essencial; não é tratamento do tremor de repouso da doença de Parkinson	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Quedas precoces + paralisia do olhar vertical sugerem qual diagnóstico diferencial de Parkinson?	Paralisia supranuclear progressiva (PSP)	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+Disautonomia proeminente + sinais cerebelares associados a parkinsonismo sugerem qual diagnóstico?	Atrofia de múltiplos sistemas (AMS)	Revalida::Neurologia::DoencaParkinson::DiagnosticoDiferencial
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Tétrade clássica: bradicinesia (obrigatória) + rigidez em roda denteada + tremor de repouso assimétrico + instabilidade postural (geralmente tardia).
+2. Diagnóstico é clínico — não existe exame confirmatório de rotina; resposta sustentada à levodopa reforça o diagnóstico.
+3. Antes de rotular como DP idiopática, sempre pergunte sobre uso de antipsicóticos ou metoclopramida (parkinsonismo secundário a drogas é a pegadinha mais recorrente).
+4. Tratamento inicial: levodopa/carbidopa (mais eficaz, primeira escolha em idosos); agonista dopaminérgico é opção em pacientes mais jovens pelo menor risco de discinesias a longo prazo.
+5. Sintomas não motores (sono, olfato, humor, cognição, constipação) fazem parte da própria doença — em paciente já diagnosticado, não presuma automaticamente uma nova causa.
+
+📊 **Tabela-síntese — diagnóstico diferencial**
+| Suspeita | Achado-chave que diferencia |
+|---|---|
+| Parkinsonismo por drogas | Simétrico, ligado temporalmente a antipsicótico/metoclopramida, melhora com suspensão |
+| Tremor essencial | Tremor de ação (não de repouso), simétrico, sem bradicinesia |
+| PSP | Quedas precoces, paralisia do olhar vertical |
+| AMS | Disautonomia + sinais cerebelares |
+| Demência com corpos de Lewy | Flutuação cognitiva e alucinações visuais precoces (antes/junto do parkinsonismo) |
+| Parkinsonismo vascular | Predomínio em MMII, progressão em degraus, fatores de risco vascular |
+
+⚡ **Fluxograma textual:** suspeita clínica (bradicinesia + tremor de repouso e/ou rigidez) → revisar lista de medicamentos (excluir antipsicóticos/metoclopramida) → checar red flags de parkinsonismo atípico (quedas precoces, disautonomia, alucinações precoces, olhar vertical) → se ausentes, diagnóstico clínico de DP idiopática → iniciar levodopa/carbidopa (idoso) ou considerar agonista dopaminérgico (jovem) → monitorar sintomas não motores e complicações motoras a longo prazo (flutuações, discinesias).
+
+🚫 **Os 3 erros mais comuns:** (1) não investigar uso de antipsicóticos/metoclopramida antes de rotular como DP idiopática; (2) atribuir sintomas não motores de paciente já diagnosticado a uma causa nova, ignorando que fazem parte da evolução da própria doença; (3) iniciar agonista dopaminérgico em idoso frágil sem ponderar o risco neuropsiquiátrico.
+
+🔗 **Conexões com outros módulos:** NEU (outras síndromes parkinsonianas e demências), GERIATRIA (polifarmácia, quedas em idosos, prevenção de fraturas), PSIQUIATRIA (efeitos extrapiramidais de antipsicóticos, depressão em doenças crônicas), FARMACOLOGIA (fármacos dopaminérgicos e anticolinérgicos).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "NEU-11",
+  "especialidade": "Neurologia",
+  "tema": "Doença de Parkinson",
+  "assunto": "Diagnóstico clínico, diagnóstico diferencial e tratamento farmacológico da doença de Parkinson",
+  "tier": "B",
+  "n_questoes": 5,
+  "n_flashcards": 20,
+  "tempo_estudo_min": 75,
+  "prerequisitos": [],
+  "relacionados": ["NEU-01", "PSIQ-01", "GERI-01"],
+  "data_geracao": "2026-08-08",
+  "itens_a_verificar": [
+    "Esquemas de titulação e doses exatas de levodopa/carbidopa, agonistas dopaminérgicos, biperideno e amantadina — confirmar no PCDT de Doença de Parkinson do MS vigente antes de usar em flashcard ou prescrição",
+    "Ano da edição vigente do PCDT de Doença de Parkinson do Ministério da Saúde",
+    "Indicações e disponibilidade de terapias avançadas (infusão contínua de levodopa/apomorfina, estimulação cerebral profunda) no SUS",
+    "Questão INEP2020-1-Q014: enunciado e alternativas C/D extraídos com contaminação/truncamento evidente (mistura com questão de infecção urinária); recomenda-se checar a prova original antes de usar esta questão integralmente como material de estudo — a análise deste módulo se apoia apenas no gabarito oficial (B) e na alternativa B, que está integralmente legível",
+    "Confirmar se este módulo tem mais questões nas edições do banco ainda não classificadas e atualizar a Seção 3 quando a extração completa estiver disponível"
+  ]
+}
+```

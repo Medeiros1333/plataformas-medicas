@@ -1,0 +1,238 @@
+[
+  {
+    "id": "URG-adrenalina",
+    "nombre": "Adrenalina (epinefrina)",
+    "sinonimos": [
+      "Epinefrina"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Simpaticomimético",
+    "subclase": "Agonista adrenérgico no selectivo (alfa-1, beta-1 y beta-2)",
+    "mecanismo": "Agonista directo de todos los receptores adrenérgicos, y cada uno aporta una pieza distinta del efecto que se busca en la anafilaxia. La acción ALFA-1 produce vasoconstricción: sube la tensión arterial, revierte el shock distributivo y reduce el edema de la mucosa laríngea, que es lo que mata. La acción BETA-1 aumenta la frecuencia y la contractilidad cardiacas. La acción BETA-2 broncodilata y, sobre todo, ESTABILIZA EL MASTOCITO al elevar el AMPc, frenando la liberación adicional de histamina y triptasa. Ningún otro fármaco reúne las tres acciones, y por eso ningún otro puede sustituirla.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANAFILAXIA",
+        "dosis": "0,5 mg (0,5 mL de la solución 1 mg/mL, es decir 1:1000) IM en la cara ANTEROLATERAL DEL MUSLO, repetible cada 5-15 minutos",
+        "posologia": "Dosis repetible; si no hay respuesta tras 2-3 dosis, perfusión IV",
+        "via": "IM",
+        "nota": "Es el ÚNICO tratamiento que salva la vida. No hay contraindicación absoluta en la anafilaxia: el riesgo de no administrarla siempre supera al de administrarla"
+      },
+      {
+        "patologia": "Parada cardiorrespiratoria",
+        "dosis": "1 mg IV o intraósea (10 mL de la solución 1:10.000) cada 3-5 minutos",
+        "posologia": "Bolo cada 3-5 minutos durante la reanimación",
+        "via": "IV",
+        "nota": "En los ritmos NO desfibrilables se administra cuanto antes; en la fibrilación ventricular y la taquicardia ventricular sin pulso, tras la tercera descarga"
+      },
+      {
+        "patologia": "Shock refractario a fluidos (séptico, cardiogénico)",
+        "dosis": "0,05-0,5 microgramos/kg/min en perfusión continua",
+        "posologia": "Perfusión titulada",
+        "via": "IV",
+        "dosis_objetivo": "Tensión arterial media mayor o igual a 65 mmHg con perfusión periférica y diuresis adecuadas",
+        "nota": "Por vía CENTRAL siempre que sea posible por el riesgo de necrosis en la extravasación"
+      },
+      {
+        "patologia": "Crup moderado-grave y estridor por edema de vía aérea",
+        "dosis": "0,5 mg/kg de adrenalina 1:1000 nebulizada, máximo 5 mg",
+        "posologia": "Nebulización repetible",
+        "via": "nebulizada",
+        "nota": "Efecto rápido pero TRANSITORIO (2 horas): obliga a observación posterior por el riesgo de rebote"
+      },
+      {
+        "patologia": "Asma casi fatal sin respuesta a broncodilatadores inhalados",
+        "dosis": "0,5 mg IM, repetible cada 5-15 minutos",
+        "posologia": "Dosis repetible",
+        "via": "IM",
+        "nota": "Indicada cuando el broncoespasmo impide que el fármaco inhalado llegue al bronquio"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la anafilaxia se administra INMEDIATAMENTE ante la sospecha, sin esperar a confirmar el diagnóstico, sin esperar a los antihistamínicos ni a los corticoides y sin canalizar una vía primero. El retraso en la primera dosis es el factor asociado a la muerte por anafilaxia.",
+      "titulacion": "Se repite cada 5-15 minutos mientras persistan los síntomas. Si tras 2-3 dosis intramusculares no hay respuesta, se pasa a perfusión intravenosa en medio monitorizado.",
+      "duracion": "Su efecto dura 10-20 minutos por vía intramuscular. La anafilaxia puede tener una reacción BIFÁSICA hasta 72 horas después, con un pico entre las 6 y las 12 horas.",
+      "fin": "Tras el episodio: observación de 6-12 horas, prescripción de DOS autoinyectores, formación al paciente y a la familia en su uso, plan escrito de actuación y derivación a alergología.",
+      "via": "INTRAMUSCULAR en el vasto lateral (cara anterolateral del muslo), que alcanza concentraciones plasmáticas más altas y rápidas que el deltoides y muchísimo más que la vía subcutánea. La vía SUBCUTÁNEA está abandonada en la anafilaxia: la vasoconstricción que ella misma produce retrasa su propia absorción.",
+      "monitorizacion": "ECG, tensión arterial y saturación. En perfusión intravenosa, monitorización continua y preferiblemente vía central."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por vía oral (metabolismo presistémico completo). Intramuscular en el muslo: pico en 5-10 minutos. Inicio de acción intravenoso inmediato.",
+      "distribucion": "No atraviesa bien la barrera hematoencefálica; sí atraviesa la placenta.",
+      "metabolismo": "Rápido, por la COMT y la MAO en hígado y terminaciones nerviosas.",
+      "eliminacion": "Renal en forma de metanefrina y ácido vanilmandélico.",
+      "vida_media": "2-3 minutos por vía intravenosa; efecto clínico de 10-20 minutos por vía intramuscular.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "BETABLOQUEANTES (sobre todo los no cardioselectivos)",
+          "efecto": "Bloquean la respuesta beta y dejan sin oponerse el efecto alfa: hipertensión con bradicardia refleja, y anafilaxia RESISTENTE a la adrenalina",
+          "gravedad": "alta",
+          "manejo": "Es la indicación del GLUCAGÓN, que estimula el AMPc por una vía independiente del receptor beta. Estos pacientes tienen anafilaxias más graves y más prolongadas"
+        },
+        {
+          "con": "IMAO y antidepresivos tricíclicos",
+          "efecto": "Potencian y prolongan el efecto presor por bloqueo de la recaptación y del metabolismo",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis y monitorizar; no contraindica su uso en la anafilaxia"
+        },
+        {
+          "con": "Anestésicos halogenados",
+          "efecto": "Sensibilizan el miocardio y aumentan el riesgo de arritmias ventriculares",
+          "gravedad": "media",
+          "manejo": "Limitar la dosis en quirófano con ECG continuo"
+        },
+        {
+          "con": "COCAÍNA y otros simpaticomiméticos",
+          "efecto": "Crisis hipertensiva y arritmias por suma de efectos",
+          "gravedad": "alta",
+          "manejo": "Evitar salvo indicación vital"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Palpitaciones y taquicardia",
+        "Temblor, ansiedad y sensación de muerte inminente (difíciles de distinguir de la propia anafilaxia)",
+        "Palidez y cefalea",
+        "Hiperglucemia y aumento del lactato"
+      ],
+      "graves": [
+        "Arritmias ventriculares",
+        "Isquemia miocárdica y takotsubo, sobre todo con la vía intravenosa a dosis inadecuadas",
+        "Crisis hipertensiva y hemorragia cerebral",
+        "Edema agudo de pulmón",
+        "NECROSIS por extravasación de la perfusión intravenosa"
+      ]
+    },
+    "contraindicaciones": [
+      "NINGUNA absoluta en la anafilaxia ni en la parada cardiaca",
+      "Precaución en la cardiopatía isquémica, las arritmias y la hipertensión grave cuando la indicación no es vital",
+      "No usar la presentación 1:1000 por vía intravenosa directa: es la causa clásica de yatrogenia mortal"
+    ],
+    "perlas": [
+      "El error letal más frecuente de la anafilaxia no es dar adrenalina de más, sino darla TARDE o no darla. Los antihistamínicos y los corticoides no tratan la anafilaxia: no revierten el edema laríngeo ni la hipotensión, y creer que sí lo hacen es lo que retrasa la única medida eficaz.",
+      "Las CONCENTRACIONES se confunden y matan: 1:1000 equivale a 1 mg/mL y es la presentación INTRAMUSCULAR; 1:10.000 equivale a 0,1 mg/mL y es la presentación INTRAVENOSA de la parada cardiaca. Administrar 1:1000 por vía intravenosa directa es una sobredosis de diez veces.",
+      "Cara ANTEROLATERAL DEL MUSLO, no glúteo ni deltoides: alcanza un pico plasmático más alto y más rápido, y es accesible a través de la ropa con el autoinyector.",
+      "Al paciente con anafilaxia hay que TUMBARLO con las piernas elevadas. Sentarlo o ponerlo de pie puede provocar el síndrome del ventrículo vacío y una parada cardiaca en segundos; es una muerte descrita al incorporar al paciente para trasladarlo.",
+      "En el paciente que toma BETABLOQUEANTES la anafilaxia es más grave y resistente: si no responde a dosis repetidas, hay que pensar en el GLUCAGÓN, que salta el receptor beta bloqueado y estimula el AMPc directamente.",
+      "Se prescriben SIEMPRE DOS autoinyectores, no uno: hasta un tercio de los pacientes necesita una segunda dosis, y la reacción bifásica puede aparecer horas después.",
+      "En la crisis asmática que no responde a nada, la adrenalina intramuscular tiene sentido porque el fármaco inhalado no llega al bronquio obstruido: es una vía que rodea el problema.",
+      "Los síntomas de la propia adrenalina (temblor, taquicardia, angustia) se parecen a los de la anafilaxia, y confundirlos lleva a no repetir la dosis cuando hace falta. Lo que decide es la vía aérea, la tensión y la perfusión, no cómo dice el paciente que se siente."
+    ],
+    "embarazo_lactancia": "Se utiliza sin restricción en la anafilaxia de la embarazada: la hipotensión materna no tratada compromete al feto mucho más que el fármaco. Compatible con la lactancia (no se absorbe por vía oral en el lactante).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; guías de anafilaxia de la EAACI y del ERC 2021"
+  },
+  {
+    "id": "URG-glucagon",
+    "nombre": "Glucagón",
+    "sinonimos": [],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Hormona pancreática",
+    "subclase": "Agonista del receptor de glucagón, antídoto",
+    "mecanismo": "Se une a su propio receptor, acoplado a la proteína Gs, y eleva el AMPc intracelular SIN pasar por el receptor betaadrenérgico. De ahí sus dos usos: en la HIPOGLUCEMIA moviliza el glucógeno hepático por glucogenólisis y estimula la gluconeogénesis; en la intoxicación por BETABLOQUEANTES restaura la contractilidad y la frecuencia cardiacas por una vía que el bloqueo del receptor beta no puede cerrar. Además relaja la musculatura lisa digestiva, lo que se aprovecha en endoscopia y en la impactación esofágica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipoglucemia grave con imposibilidad de la vía oral y sin acceso venoso",
+        "dosis": "1 mg IM, SC o IV en el adulto y en el niño de más de 25 kg; 0,5 mg por debajo de 25 kg",
+        "posologia": "Dosis única, repetible a los 15 minutos",
+        "via": "IM",
+        "nota": "Es el tratamiento domiciliario que puede administrar un familiar. Existe presentación NASAL de 3 mg, que no requiere reconstitución ni inyección"
+      },
+      {
+        "patologia": "Intoxicación por BETABLOQUEANTES",
+        "dosis": "3-10 mg IV en bolo (50-150 microgramos/kg), seguidos de perfusión de 2-5 mg/h",
+        "posologia": "Bolo y perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Recuperación de la frecuencia cardiaca y de la tensión arterial",
+        "nota": "Es el ANTÍDOTO específico. Las dosis son muy superiores a las de la hipoglucemia y agotan las existencias de una urgencia con facilidad"
+      },
+      {
+        "patologia": "Intoxicación por CALCIOANTAGONISTAS",
+        "dosis": "3-10 mg IV en bolo, seguidos de perfusión de 2-5 mg/h",
+        "posologia": "Bolo y perfusión continua",
+        "via": "IV",
+        "nota": "Se combina con calcio intravenoso, insulina a dosis altas con glucosa y vasopresores"
+      },
+      {
+        "patologia": "Impactación de cuerpo extraño esofágico y espasmo digestivo en endoscopia",
+        "dosis": "0,5-1 mg IV",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Relaja el músculo liso esofágico; eficacia modesta pero inocua como intento previo a la endoscopia"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la hipoglucemia, cuando no hay vía venosa ni es posible el aporte oral. En la intoxicación, cuando la bradicardia y la hipotensión no responden a atropina y fluidos.",
+      "titulacion": "En la intoxicación se titula al alza hasta obtener respuesta hemodinámica; las dosis eficaces suelen ser mucho mayores de lo que se espera.",
+      "duracion": "En la hipoglucemia, un efecto único de unos 90 minutos. En la intoxicación, perfusión mantenida hasta que el tóxico se elimine, lo que puede llevar 24-48 horas.",
+      "fin": "Tras una hipoglucemia revertida con glucagón hay que dar HIDRATOS DE CARBONO por vía oral en cuanto el paciente los tolere: el glucógeno hepático se ha agotado y la hipoglucemia recurrirá.",
+      "via": "IM, SC, IV o nasal según la indicación y el contexto.",
+      "monitorizacion": "Glucemia capilar seriada; en la intoxicación, ECG, tensión arterial y glucemia (produce hiperglucemia)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Se destruye por vía oral. Pico intramuscular en 10-20 minutos; nasal en 15 minutos.",
+      "distribucion": "Volumen de distribución pequeño, extracelular.",
+      "metabolismo": "Proteólisis hepática, renal y plasmática.",
+      "eliminacion": "Metabolitos inactivos.",
+      "vida_media": "8-18 minutos, por lo que en la intoxicación es obligada la perfusión continua.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "INEFICAZ si no hay glucógeno hepático: alcoholismo, desnutrición, ayuno prolongado, hepatopatía avanzada, insuficiencia suprarrenal o glucogenosis.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes orales antivitamina K",
+          "efecto": "Potenciación del efecto anticoagulante con dosis altas y mantenidas",
+          "gravedad": "media",
+          "manejo": "Vigilar el INR si se usa en perfusión prolongada"
+        },
+        {
+          "con": "Insulina",
+          "efecto": "Antagonismo fisiológico (es su hormona contrarreguladora)",
+          "gravedad": "baja",
+          "manejo": "Es el fundamento de su uso en la hipoglucemia"
+        },
+        {
+          "con": "Betabloqueantes",
+          "efecto": "No impiden su acción: el glucagón actúa por un receptor distinto",
+          "gravedad": "baja",
+          "manejo": "Es exactamente el motivo de su uso como antídoto"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS Y VÓMITOS, muy frecuentes y dependientes de la dosis (casi constantes en las dosis del antídoto)",
+        "Hiperglucemia",
+        "Cefalea y rubor",
+        "Irritación nasal con la presentación intranasal"
+      ],
+      "graves": [
+        "Vómito con broncoaspiración en el paciente con bajo nivel de conciencia",
+        "HIPOPOTASEMIA por desplazamiento intracelular del potasio",
+        "Crisis hipertensiva en el feocromocitoma",
+        "Hipoglucemia de rebote por hiperinsulinismo secundario"
+      ]
+    },
+    "contraindicaciones": [
+      "FEOCROMOCITOMA (desencadena una crisis hipertensiva)",
+      "Insulinoma (hipoglucemia de rebote)",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "La regla que resume su uso como antídoto: el glucagón es la respuesta cuando el receptor BETA está bloqueado. Sube el AMPc por otra puerta, y por eso funciona donde la adrenalina y el isoproterenol fracasan, tanto en la intoxicación por betabloqueantes como en la anafilaxia del paciente betabloqueado.",
+      "Las dosis del antídoto son de 3 a 10 veces las de la hipoglucemia, y en perfusión continua. Es habitual que una urgencia se quede sin existencias tratando a un solo intoxicado: conviene saber de antemano cuánto hay en el hospital.",
+      "NO FUNCIONA si no hay glucógeno que movilizar. En el alcohólico, el desnutrido, el hepatópata avanzado o el niño tras un ayuno prolongado, el glucagón fracasa y hace falta glucosa intravenosa. Es el error clásico en la hipoglucemia del bebedor.",
+      "Después de revertir una hipoglucemia con glucagón hay que dar hidratos de carbono en cuanto el paciente trague: se ha vaciado el depósito hepático y la glucemia volverá a caer.",
+      "Provoca vómitos con una frecuencia altísima. En un paciente somnoliento hay que colocarlo en decúbito lateral antes de administrarlo, porque el vómito llegará precisamente cuando aún no protege la vía aérea.",
+      "La presentación NASAL de 3 mg ha cambiado el manejo domiciliario de la hipoglucemia grave: no hay que reconstituir un vial ni pinchar, y funciona aunque el paciente no inspire, porque se absorbe de forma pasiva en la mucosa."
+    ],
+    "embarazo_lactancia": "No atraviesa la placenta de forma significativa y se considera seguro en la hipoglucemia grave de la embarazada. Al ser un péptido, se destruye en el tubo digestivo del lactante: compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 41 y 58; protocolos de toxicología del hospital"
+  }
+]

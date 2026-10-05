@@ -1,0 +1,228 @@
+[
+  {
+    "id": "DER-emolientes",
+    "nombre": "Emolientes y productos de barrera",
+    "sinonimos": [
+      "Hidratantes, cremas barrera, urea, vaselina"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Restaurador de la barrera cutánea",
+    "subclase": "Oclusivos, humectantes y queratolíticos suaves",
+    "mecanismo": "No son cosmética: son el tratamiento de fondo de la dermatitis atópica, cuya alteración primaria es un DEFECTO DE BARRERA (con frecuencia por mutaciones de la FILAGRINA) que permite la pérdida de agua transepidérmica y la entrada de alérgenos e irritantes que desencadenan la inflamación. Los emolientes actúan por tres mecanismos complementarios: los OCLUSIVOS (vaselina, dimeticona, lanolina) forman una película hidrófoba que impide la evaporación; los HUMECTANTES (urea, glicerina, ácido hialurónico) captan agua y la retienen en el estrato córneo; y los reponedores de LÍPIDOS (ceramidas, colesterol, ácidos grasos) restituyen el cemento intercelular que falta. Al restaurar la barrera se rompe el círculo de sequedad, picor, rascado e inflamación, y por eso reducen de forma demostrada el número de brotes y la cantidad de corticoide necesaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DERMATITIS ATÓPICA, tratamiento de fondo",
+        "dosis": "Emoliente sin perfume aplicado en TODA la superficie corporal al menos dos veces al día; en el adulto se necesitan 250-500 g a la SEMANA",
+        "posologia": "Dos o más aplicaciones diarias, de forma indefinida",
+        "via": "tópica",
+        "dosis_objetivo": "Piel sin sequedad ni descamación y reducción del número de brotes",
+        "nota": "La CANTIDAD es lo que falla casi siempre: si un paciente no gasta al menos 250 g a la semana, no se está aplicando lo suficiente"
+      },
+      {
+        "patologia": "Xerosis del anciano y prurito senil",
+        "dosis": "Emoliente con UREA al 5-10%, una o dos aplicaciones al día",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "La urea a baja concentración hidrata; por encima del 20% es QUERATOLÍTICA y sirve para hiperqueratosis e ictiosis. La misma molécula hace dos cosas distintas según la concentración"
+      },
+      {
+        "patologia": "PREVENCIÓN de la dermatitis del pañal",
+        "dosis": "Óxido de zinc al 10-20% en pasta al agua, una aplicación en cada cambio de pañal",
+        "posologia": "En cada cambio",
+        "via": "tópica",
+        "nota": "El mecanismo es de BARRERA física frente a la orina y las heces: no lleva principio activo y no debe llevarlo"
+      },
+      {
+        "patologia": "Hiperqueratosis plantar, ictiosis y psoriasis, como coadyuvante",
+        "dosis": "Urea al 20-40% o ácido salicílico al 5-10%",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "A estas concentraciones el efecto es queratolítico y prepara la piel para que penetre el fármaco activo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Aplicar sobre piel HÚMEDA, en los 3 minutos siguientes al baño, que es cuando la retención de agua es máxima. Elegir la textura según la estación y la preferencia del paciente: la mejor crema es la que el paciente se pone.",
+      "titulacion": "Se ajusta la cantidad y la textura, no la potencia. En invierno y en piel muy seca, pomadas; en verano y en piel exudativa, lociones o cremas.",
+      "duracion": "INDEFINIDA. El emoliente no se suspende cuando la piel mejora: es precisamente entonces cuando previene el siguiente brote.",
+      "fin": "No se retira.",
+      "via": "Tópica.",
+      "monitorizacion": "Cantidad realmente consumida (un dato objetivo y muy revelador), estado de la piel y número de brotes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula o mínima.",
+      "distribucion": "Estrato córneo.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Descamación.",
+      "vida_media": "Efecto de pocas horas, lo que justifica las aplicaciones repetidas.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Corticoides tópicos aplicados inmediatamente antes o después",
+          "efecto": "El emoliente puede diluir el corticoide o modificar su penetración",
+          "gravedad": "baja",
+          "manejo": "Separarlos al menos 15-30 minutos, o aplicar el corticoide sobre la lesión y el emoliente en el resto de la piel"
+        },
+        {
+          "con": "Ácido salicílico en superficies extensas",
+          "efecto": "SALICILISMO por absorción sistémica, sobre todo en el NIÑO",
+          "gravedad": "alta",
+          "manejo": "No aplicar salicílico en grandes superficies ni en el lactante"
+        },
+        {
+          "con": "Productos con PERFUME o con proteínas alimentarias",
+          "efecto": "Sensibilización de contacto y, en el lactante con barrera alterada, riesgo de SENSIBILIZACIÓN ALIMENTARIA por vía cutánea",
+          "gravedad": "media",
+          "manejo": "Elegir emolientes SIN perfume y evitar los que contienen extractos de avena, cacahuete o leche en el niño atópico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor con las fórmulas con UREA o ácido láctico sobre piel fisurada",
+        "Sensación grasa desagradable con los oclusivos, que es la causa principal de que no se usen",
+        "Foliculitis por oclusión"
+      ],
+      "graves": [
+        "Dermatitis alérgica de contacto a perfumes, conservantes o lanolina",
+        "SENSIBILIZACIÓN ALIMENTARIA por vía cutánea en el lactante atópico expuesto a emolientes con proteínas alimentarias",
+        "SALICILISMO por ácido salicílico en grandes superficies",
+        "Riesgo de INCENDIO con emolientes con parafina impregnados en ropa y apósitos, con muertes documentadas en pacientes fumadores"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia de contacto a algún componente",
+      "Ácido salicílico en el lactante y en superficies extensas",
+      "Urea a alta concentración sobre piel erosionada"
+    ],
+    "perlas": [
+      "La CANTIDAD es lo que decide si funciona. Un adulto con dermatitis atópica necesita entre 250 y 500 gramos de emoliente a la SEMANA. Preguntar cuánto tarda en acabarse un envase es la forma más rápida y objetiva de saber si el tratamiento se está haciendo, y casi siempre revela que se aplica una fracción de lo necesario.",
+      "El emoliente NO se suspende cuando la piel mejora. El corticoide trata el brote; el emoliente previene el siguiente. Son papeles distintos, y confundirlos convierte la dermatitis atópica en una sucesión de brotes tratados con corticoide.",
+      "Se aplica sobre piel HÚMEDA, en los tres minutos siguientes al baño: ahí es donde se retiene el agua. El baño corto con agua templada y sin jabones agresivos forma parte del tratamiento.",
+      "La UREA cambia de función con la concentración: al 5-10% HIDRATA, y por encima del 20% es QUERATOLÍTICA. Es la misma molécula haciendo dos cosas distintas, y elegir mal la concentración explica muchos fracasos y muchos escozores.",
+      "Los emolientes SIN PERFUME no son una preferencia cosmética: los perfumes son de los alérgenos de contacto más frecuentes, y aplicarlos a diario sobre una barrera rota es la mejor forma de sensibilizar al paciente.",
+      "En el LACTANTE atópico hay que evitar emolientes con PROTEÍNAS ALIMENTARIAS (avena, cacahuete, leche): la piel con barrera alterada es una vía de sensibilización alimentaria, y se han descrito alergias alimentarias adquiridas por esta ruta.",
+      "Los emolientes con PARAFINA impregnan la ropa y la ropa de cama y las hacen ALTAMENTE INFLAMABLES. Ha habido muertes por incendio en pacientes fumadores y en usuarios de estufas: hay que advertirlo expresamente, y es una advertencia que casi nadie da.",
+      "La mejor crema es la que el paciente SE PONE. Una pomada grasa perfecta desde el punto de vista técnico que el paciente odia y no usa es peor que una crema más ligera aplicada dos veces al día."
+    ],
+    "embarazo_lactancia": "Totalmente seguros. Se evita el ácido salicílico en superficies extensas y se limpia la zona del pezón antes de la toma.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica"
+  },
+  {
+    "id": "DER-inhibidores-calcineurina-topicos",
+    "nombre": "Inhibidores tópicos de la calcineurina y nuevos tópicos (tacrolimus, pimecrolimus, crisaborol)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Inmunomodulador tópico",
+    "subclase": "Inhibidores de la calcineurina de aplicación cutánea",
+    "mecanismo": "Se unen a la inmunofilina FKBP-12 e inhiben la CALCINEURINA en el linfocito T cutáneo, bloqueando la transcripción de interleucina 2 y de otras citocinas inflamatorias, igual que hace el tacrolimus sistémico en el trasplante. La diferencia clave con los corticoides no está en la potencia antiinflamatoria sino en lo que NO hacen: no actúan sobre el fibroblasto ni sobre el queratinocito, y por tanto NO producen ATROFIA CUTÁNEA, ni estrías, ni telangiectasias, ni glaucoma. Esa ausencia de atrofia es toda su razón de ser y define su lugar terapéutico: las zonas donde el corticoide no puede usarse de forma prolongada, es decir, la CARA, los PÁRPADOS, los PLIEGUES y los genitales. Su tamaño molecular grande limita la absorción a través de la piel íntegra, lo que explica su escasa exposición sistémica incluso en aplicaciones extensas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DERMATITIS ATÓPICA de la CARA, párpados y pliegues",
+        "dosis": "Tacrolimus pomada 0,03% (niños de 2-15 años) o 0,1% (adultos), dos aplicaciones al día en el brote",
+        "posologia": "Dos aplicaciones al día durante el brote",
+        "via": "tópica",
+        "dosis_objetivo": "Control de la inflamación sin recurrir a corticoide en una zona donde este produciría atrofia",
+        "nota": "Es su indicación estrella: párpados y cara, donde el corticoide da rosácea esteroidea, dermatitis perioral, atrofia y glaucoma"
+      },
+      {
+        "patologia": "Tratamiento PROACTIVO de mantenimiento de la dermatitis atópica",
+        "dosis": "Tacrolimus 0,03-0,1%, dos veces por semana sobre las zonas que suelen brotar",
+        "posologia": "Dos aplicaciones semanales",
+        "via": "tópica",
+        "nota": "Reduce de forma significativa el número de brotes sin la carga corticoidea acumulada"
+      },
+      {
+        "patologia": "Dermatitis SEBORREICA facial y psoriasis invertida de pliegues",
+        "dosis": "Pimecrolimus 1% o tacrolimus 0,1%, dos aplicaciones al día",
+        "posologia": "Dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Excelente opción en los pliegues, donde el corticoide se absorbe mucho más y atrofia con rapidez"
+      },
+      {
+        "patologia": "VITÍLIGO facial y liquen escleroso",
+        "dosis": "Tacrolimus 0,1%, dos aplicaciones al día durante meses",
+        "posologia": "Dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "En el vitíligo facial es de primera línea, con mejores resultados que en otras localizaciones"
+      }
+    ],
+    "esquema": {
+      "inicio": "Advertir del ESCOZOR y de la sensación de quemazón de los primeros días, que es intensa, transitoria y la causa principal de abandono. Se atenúa a la semana y se reduce enfriando la crema en la nevera y aplicándola sobre piel seca.",
+      "titulacion": "Dos aplicaciones diarias en el brote, con paso a pauta proactiva de dos veces por semana en el mantenimiento.",
+      "duracion": "Ciclos en el brote y mantenimiento proactivo prolongado.",
+      "fin": "Se espacia según la evolución. No produce efecto rebote ni taquifilaxia, a diferencia del corticoide.",
+      "via": "Tópica.",
+      "monitorizacion": "Clínica. Insistir en la FOTOPROTECCIÓN mientras dure el tratamiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "Muy baja por su elevado peso molecular; disminuye aún más a medida que la barrera se repara, de modo que la exposición sistémica cae con el tiempo de tratamiento.",
+      "distribucion": "Fundamentalmente cutánea.",
+      "metabolismo": "Escaso metabolismo local; la fracción absorbida se metaboliza por CYP3A4.",
+      "eliminacion": "Biliar en la fracción absorbida.",
+      "vida_media": "No relevante en el uso tópico.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución en la insuficiencia hepática grave con aplicaciones muy extensas.",
+      "interacciones": [
+        {
+          "con": "ALCOHOL",
+          "efecto": "RUBOR FACIAL e intolerancia tipo antabús con el tacrolimus tópico",
+          "gravedad": "media",
+          "manejo": "Es una interacción sorprendente y muy característica: hay que advertirla o el paciente no relacionará el enrojecimiento con la crema"
+        },
+        {
+          "con": "Radiación ULTRAVIOLETA y fototerapia",
+          "efecto": "Preocupación teórica por el riesgo de carcinogénesis cutánea",
+          "gravedad": "media",
+          "manejo": "FOTOPROTECCIÓN estricta y no combinar con fototerapia"
+        },
+        {
+          "con": "Inhibidores potentes del CYP3A4 en aplicaciones muy extensas",
+          "efecto": "Aumento teórico de la exposición sistémica",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia clínica habitual"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESCOZOR y sensación de QUEMAZÓN en los primeros días de aplicación, muy frecuente e intensa",
+        "Prurito y eritema transitorios",
+        "RUBOR con el alcohol",
+        "Foliculitis"
+      ],
+      "graves": [
+        "Erupción variceliforme de Kaposi (eccema herpético) por diseminación de un herpes simple sobre la piel tratada",
+        "Aumento de infecciones cutáneas víricas (molusco, verrugas)",
+        "Advertencia regulatoria sobre un posible riesgo de linfoma y de cáncer cutáneo, que NO se ha confirmado en los estudios de seguimiento a largo plazo pero que obliga a fotoprotección y a no usarlos en inmunodeprimidos"
+      ]
+    },
+    "contraindicaciones": [
+      "INFECCIÓN cutánea activa en la zona a tratar (herpes, impétigo, molusco)",
+      "Inmunodepresión sistémica",
+      "Menores de 2 años",
+      "Síndrome de Netherton y otras enfermedades con barrera muy alterada (absorción aumentada)",
+      "Piel con lesiones premalignas o malignas"
+    ],
+    "perlas": [
+      "Su lugar terapéutico se resume en una idea: donde el corticoide no puede quedarse. En PÁRPADOS, CARA, PLIEGUES y genitales, el corticoide produce atrofia, telangiectasias, rosácea esteroidea y hasta glaucoma; el inhibidor de la calcineurina no produce nada de eso, y por eso permite tratar durante meses zonas que de otro modo quedarían sin tratamiento eficaz.",
+      "Hay que ADVERTIR del ESCOZOR inicial o el paciente abandonará en dos días. Es intenso, dura menos de una semana y se atenúa guardando la crema en la nevera y aplicándola sobre piel bien seca. Un aviso de diez segundos salva el tratamiento.",
+      "La INTOLERANCIA AL ALCOHOL con rubor facial es una interacción llamativa y muy específica: el paciente enrojece intensamente al beber. Si no se le ha explicado, no lo relacionará con una crema.",
+      "La pauta PROACTIVA (dos veces por semana sobre las zonas que suelen brotar) reduce las recaídas y es probablemente su uso más rentable, más que el tratamiento del brote agudo.",
+      "La advertencia regulatoria sobre linfoma y cáncer cutáneo procede del uso SISTÉMICO en trasplantados y de datos teóricos; los estudios de seguimiento prolongado no la han confirmado. Aun así, obliga a fotoprotección estricta y a no usarlos en inmunodeprimidos ni combinados con fototerapia.",
+      "NO producen taquifilaxia ni efecto rebote al retirarlos, a diferencia de los corticoides: se pueden espaciar sin la dermatitis por retirada que complica el manejo del corticoide facial prolongado.",
+      "Están CONTRAINDICADOS sobre piel infectada: aplicados sobre un herpes simple pueden desencadenar un eccema herpético, que es una urgencia dermatológica. Ante un empeoramiento brusco con vesículas y erosiones monomorfas hay que pensar en ello.",
+      "En el VITÍLIGO facial son de primera línea y funcionan mejor que en otras localizaciones, un dato útil porque es precisamente la cara lo que más preocupa al paciente."
+    ],
+    "embarazo_lactancia": "Datos limitados, aunque su absorción sistémica es muy baja. Se recomienda evitarlos en el embarazo por precaución y preferir corticoides tópicos de baja potencia. En la lactancia, evitar la aplicación sobre el pezón y la areola.",
+    "micro_relacionado": [
+      "VIR-virus-herpes-simple"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la EADV sobre dermatitis atópica"
+  }
+]

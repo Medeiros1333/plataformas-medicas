@@ -1,0 +1,268 @@
+[
+  {
+    "id": "HEM-ticagrelor-prasugrel",
+    "nombre": "Ticagrelor y prasugrel",
+    "sinonimos": [
+      "Inhibidores potentes del P2Y12"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Antiagregante plaquetario",
+    "subclase": "Inhibidores del receptor P2Y12 de nueva generación",
+    "vs_clase": [
+      "**Más POTENTES y rápidos que el clopidogrel**: de elección en el **síndrome coronario agudo** (doble antiagregación con AAS 12 meses).",
+      "**Ticagrelor**: reversible, sin activación hepática, **2 tomas al día**; produce **disnea** y pausas ventriculares; con AAS ≤100 mg.",
+      "**Prasugrel**: profármaco irreversible; **contraindicado con ictus/AIT previo** y no recomendado en ≥75 años o <60 kg.",
+      "**Más sangrado** que clopidogrel: no usar en triple terapia."
+    ],
+    "mecanismo": "Bloquean el receptor P2Y12 del ADP en la plaqueta, impidiendo la amplificación de la agregación. La diferencia con el clopidogrel es doble y explica su superioridad. El CLOPIDOGREL y el PRASUGREL son PROFÁRMACOS que requieren activación hepática, pero el clopidogrel depende del CYP2C19, cuyo polimorfismo hace que hasta un 30% de la población sea mala respondedora; el prasugrel se activa por una vía más eficiente y no tiene ese problema. El TICAGRELOR va más allá: NO es un profármaco, actúa directamente y se une de forma REVERSIBLE y no competitiva al receptor, lo que le da un inicio más rápido, una inhibición más constante y una recuperación de la función plaquetaria más rápida al suspenderlo. Esa reversibilidad tiene una contrapartida: exige DOS tomas al día, y olvidar una dosis deja al paciente desprotegido antes que con los irreversibles. El ticagrelor inhibe además la recaptación de ADENOSINA, y de ahí salen sus dos efectos adversos más característicos y desconcertantes: la DISNEA y las pausas ventriculares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "SÍNDROME CORONARIO AGUDO, con o sin elevación del segmento ST",
+        "dosis": "Ticagrelor 180 mg de carga y después 90 mg cada 12 horas, con AAS 100 mg al día",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "dosis_objetivo": "Doble antiagregación durante 12 meses, ajustable según el riesgo isquémico y hemorrágico",
+        "nota": "Es SUPERIOR al clopidogrel en eventos isquémicos y en mortalidad cardiovascular, a costa de más hemorragias no relacionadas con la cirugía"
+      },
+      {
+        "patologia": "Síndrome coronario agudo con intervencionismo coronario percutáneo (prasugrel)",
+        "dosis": "Prasugrel 60 mg de carga y después 10 mg al día (5 mg si pesa menos de 60 kg o tiene más de 75 años)",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "CONTRAINDICADO si hay antecedente de ICTUS o de accidente isquémico transitorio: en ese subgrupo el daño superó al beneficio en el ensayo TRITON-TIMI"
+      },
+      {
+        "patologia": "Prevención secundaria a largo plazo en el paciente de alto riesgo isquémico",
+        "dosis": "Ticagrelor 60 mg cada 12 horas más AAS, más allá del primer año",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Dosis reducida para prolongar la protección con menos hemorragia; la decisión depende del balance isquémico-hemorrágico individual"
+      },
+      {
+        "patologia": "Paciente con mala respuesta a clopidogrel o con stent trombosado",
+        "dosis": "Ticagrelor 90 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Evita por completo el problema del CYP2C19, ya que no necesita activación metabólica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de CARGA, y valorar el riesgo hemorrágico (edad, peso, función renal, anemia, antecedente de sangrado, ictus previo). Asociar inhibidor de la bomba de protones si hay riesgo digestivo.",
+      "titulacion": "Dosis fija; el prasugrel se reduce a 5 mg en el mayor de 75 años o con menos de 60 kg.",
+      "duracion": "12 meses de doble antiagregación tras un síndrome coronario agudo, acortable a 3-6 meses si el riesgo hemorrágico es alto, o prolongable si el isquémico predomina.",
+      "fin": "Antes de una cirugía se suspenden: TICAGRELOR 3-5 días antes, PRASUGREL 7 días. Nunca se suspende la doble antiagregación en los primeros meses tras un stent sin consultar con cardiología: el riesgo de trombosis del stent es alto y a menudo mortal.",
+      "via": "Oral; el ticagrelor puede triturarse y administrarse por sonda, lo que importa en el paciente intubado.",
+      "monitorizacion": "Hemoglobina, signos de sangrado, tolerancia (disnea con ticagrelor) y adherencia, que es crítica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; el ticagrelor alcanza inhibición plaquetaria significativa en 30 minutos.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Ticagrelor por CYP3A4 (con metabolito activo); prasugrel por esterasas y CYP con activación eficiente.",
+      "eliminacion": "Biliar y fecal.",
+      "vida_media": "Ticagrelor 7-9 horas (metabolito 9-12), lo que obliga a dos tomas diarias.",
+      "ajuste_renal": "Sin ajuste, aunque el riesgo hemorrágico aumenta.",
+      "ajuste_hepatico": "TICAGRELOR contraindicado en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ketoconazol, claritromicina, ritonavir) con TICAGRELOR",
+          "efecto": "Aumentan sus concentraciones y el riesgo hemorrágico",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS; elegir azitromicina en lugar de claritromicina"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, carbamazepina)",
+          "efecto": "Reducen su eficacia con riesgo de TROMBOSIS DEL STENT",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "AAS a dosis superiores a 100 mg (con ticagrelor)",
+          "efecto": "REDUCE la eficacia del ticagrelor, un hallazgo del ensayo PLATO",
+          "gravedad": "alta",
+          "manejo": "Es un dato muy concreto y fácil de incumplir: con ticagrelor, el AAS debe ser de 75-100 mg al día, nunca más"
+        },
+        {
+          "con": "Anticoagulantes, AINE e ISRS",
+          "efecto": "Riesgo hemorrágico aditivo",
+          "gravedad": "alta",
+          "manejo": "Evitar AINE; en la triple terapia con anticoagulante se prefiere CLOPIDOGREL y no ticagrelor ni prasugrel"
+        },
+        {
+          "con": "Digoxina y estatinas (simvastatina por encima de 40 mg)",
+          "efecto": "El ticagrelor eleva sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Monitorizar digoxinemia y limitar la dosis de simvastatina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HEMORRAGIA, sobre todo digestiva y en el punto de acceso vascular",
+        "DISNEA con el TICAGRELOR (en torno al 15%): aparece en las primeras semanas, es benigna, no se acompaña de alteración funcional respiratoria y suele mejorar",
+        "Hiperuricemia",
+        "Elevación de la creatinina"
+      ],
+      "graves": [
+        "HEMORRAGIA GRAVE, incluida la intracraneal",
+        "PAUSAS VENTRICULARES y bradiarritmias con el ticagrelor, sobre todo en la primera semana (por el efecto adenosínico)",
+        "TROMBOSIS DEL STENT si se suspenden precozmente: es una complicación con mortalidad alta",
+        "Ictus hemorrágico con prasugrel en pacientes con antecedente de ictus",
+        "Púrpura trombocitopénica trombótica (muy rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa",
+      "Antecedente de HEMORRAGIA INTRACRANEAL",
+      "PRASUGREL con antecedente de ICTUS o accidente isquémico transitorio",
+      "Insuficiencia hepática grave (ticagrelor)",
+      "Uso concomitante de inhibidores potentes del CYP3A4 (ticagrelor)"
+    ],
+    "perlas": [
+      "La DISNEA del ticagrelor desconcierta si no se conoce: afecta a en torno al 15% de los pacientes, aparece en las primeras semanas, es benigna y no refleja ninguna alteración respiratoria ni cardiaca. Se debe a la inhibición de la recaptación de ADENOSINA. Advertirla evita estudios innecesarios y, sobre todo, evita que el paciente lo abandone pensando que su corazón va peor.",
+      "Con TICAGRELOR, el AAS tiene que ser de 75-100 mg al día. Dosis mayores REDUCEN su eficacia, un hallazgo específico del ensayo PLATO que resulta contraintuitivo y que se incumple con facilidad en pacientes que ya venían con AAS a dosis altas.",
+      "El PRASUGREL está CONTRAINDICADO con antecedente de ICTUS o accidente isquémico transitorio: es una de las contraindicaciones más claras derivadas directamente de un ensayo, y hay que preguntarlo expresamente antes de prescribirlo.",
+      "El TICAGRELOR requiere DOS tomas al día y es reversible: olvidar una dosis desprotege al paciente antes que con el clopidogrel. En un paciente con problemas de adherencia, esa característica farmacológica puede inclinar la elección hacia el clopidogrel pese a ser menos potente.",
+      "NUNCA suspender la doble antiagregación en los primeros meses tras un stent sin consultar con cardiología. La trombosis del stent tiene una mortalidad muy alta, y las suspensiones por procedimientos menores (una extracción dental, una endoscopia diagnóstica) son una causa evitable de infarto.",
+      "Los plazos preoperatorios difieren: TICAGRELOR 3-5 días, PRASUGREL 7 días, CLOPIDOGREL 5 días. Confundirlos lleva o a un sangrado quirúrgico o a una espera innecesaria.",
+      "En la TRIPLE TERAPIA (anticoagulante más doble antiagregación) el antiagregante de elección es el CLOPIDOGREL, no el ticagrelor ni el prasugrel: el riesgo hemorrágico de combinar los potentes con un anticoagulante es inaceptable.",
+      "El ticagrelor puede TRITURARSE y administrarse por sonda nasogástrica, un detalle práctico relevante en el paciente intubado tras una parada o un shock cardiogénico.",
+      "Las PAUSAS VENTRICULARES de la primera semana son otro efecto adenosínico: en el paciente con bradicardia o trastornos de conducción previos conviene tenerlo presente."
+    ],
+    "embarazo_lactancia": "No recomendados en el embarazo por falta de datos; en la gestante con indicación de antiagregación se usa AAS a dosis bajas. No recomendados en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; guías ESC sobre síndrome coronario agudo; ensayos PLATO y TRITON-TIMI"
+  },
+  {
+    "id": "HEM-reversion-anticoagulacion",
+    "nombre": "Reversión de la anticoagulación (vitamina K, complejo protrombínico, idarucizumab, andexanet, protamina)",
+    "sinonimos": [
+      "Antídotos de los anticoagulantes"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Antídoto hemostático",
+    "subclase": "Agentes de reversión específicos e inespecíficos",
+    "mecanismo": "Cada anticoagulante tiene su propia lógica de reversión. La VITAMINA K restaura la capacidad del hígado de gamma-carboxilar los factores II, VII, IX y X, pero necesita HORAS porque hay que sintetizar factores nuevos: revierte la causa, no el efecto inmediato. El COMPLEJO PROTROMBÍNICO aporta esos mismos factores YA FABRICADOS, de modo que corrige el INR en minutos; por eso en una hemorragia grave se administran LOS DOS: el complejo para ahora y la vitamina K para que no rebote cuando el complejo se consuma. El IDARUCIZUMAB es un fragmento de anticuerpo que se une al dabigatrán con una afinidad 350 veces mayor que la de este por la trombina y lo secuestra por completo. El ANDEXANET ALFA es un factor Xa modificado, catalíticamente inactivo, que actúa como SEÑUELO: atrae y neutraliza al apixabán y al rivaroxabán. La PROTAMINA es una proteína muy básica que se une por carga a la heparina, que es fuertemente ácida, formando un complejo inerte: revierte por completo la heparina no fraccionada y solo parcialmente las de bajo peso molecular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "HEMORRAGIA GRAVE con antivitamina K (acenocumarol, warfarina)",
+        "dosis": "Complejo protrombínico de 4 factores 25-50 UI/kg según el INR, MÁS vitamina K 10 mg IV lenta",
+        "posologia": "Dosis única, con reevaluación del INR a los 30 minutos",
+        "via": "IV",
+        "dosis_objetivo": "INR menor de 1,5 y control del sangrado",
+        "nota": "Hay que dar SIEMPRE los DOS: el complejo actúa en minutos y se consume en horas; sin la vitamina K, el INR REBOTA y el paciente vuelve a sangrar"
+      },
+      {
+        "patologia": "INR excesivo SIN hemorragia",
+        "dosis": "INR de 4,5-10: omitir dosis y control. INR mayor de 10: vitamina K 2,5-5 mg por vía ORAL",
+        "posologia": "Dosis única con control a las 24 horas",
+        "via": "VO",
+        "dosis_objetivo": "INR dentro del rango terapéutico sin sobrecorregir",
+        "nota": "SIN sangrado NO se usa complejo protrombínico. Y la vitamina K a dosis altas deja al paciente RESISTENTE al anticoagulante durante una semana, lo que es un problema en una válvula mecánica"
+      },
+      {
+        "patologia": "Hemorragia grave o cirugía urgente con DABIGATRÁN",
+        "dosis": "Idarucizumab 5 g IV (dos viales de 2,5 g consecutivos)",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "dosis_objetivo": "Normalización del tiempo de trombina y control del sangrado, en minutos",
+        "nota": "Es el único ACOD DIALIZABLE, de modo que la hemodiálisis es una alternativa si no se dispone del antídoto"
+      },
+      {
+        "patologia": "Hemorragia grave con APIXABÁN o RIVAROXABÁN",
+        "dosis": "Andexanet alfa: dosis baja de 400 mg en bolo y 480 mg en perfusión de 2 horas, o dosis alta de 800 mg en bolo y 960 mg en perfusión, según el fármaco, la dosis y el tiempo transcurrido",
+        "posologia": "Bolo y perfusión de 2 horas",
+        "via": "IV",
+        "nota": "Si no está disponible, se emplea complejo protrombínico a 50 UI/kg como alternativa no específica"
+      },
+      {
+        "patologia": "Reversión de la HEPARINA",
+        "dosis": "Protamina 1 mg por cada 100 UI de heparina no fraccionada administrada en las 2-3 horas previas; 1 mg por cada 1 mg de enoxaparina",
+        "posologia": "Perfusión LENTA en 10 minutos",
+        "via": "IV",
+        "dosis_objetivo": "Normalización del TTPa",
+        "nota": "Revierte solo un 60-70% de la actividad anti-Xa de las heparinas de BAJO PESO molecular: la reversión es parcial"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo primero no es el antídoto: es la HEMOSTASIA local, la fluidoterapia, la transfusión y la identificación del punto sangrante. Preguntar QUÉ anticoagulante, a QUÉ dosis y CUÁNDO fue la última toma determina toda la estrategia.",
+      "titulacion": "El complejo protrombínico se dosifica según el INR y el peso; el andexanet, según el fármaco, la dosis y el tiempo transcurrido.",
+      "duracion": "Dosis única en la mayoría de los casos, con reevaluación clínica y analítica.",
+      "fin": "Hay que REANUDAR la anticoagulación en cuanto sea seguro: el paciente sigue teniendo el motivo por el que se anticoaguló, y el periodo posterior a la reversión es protrombótico.",
+      "via": "Intravenosa, salvo la vitamina K oral en la sobredosificación sin sangrado.",
+      "monitorizacion": "INR, TTPa, hemoglobina, y vigilancia de trombosis en los días siguientes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Parenteral (vitamina K también oral, con buena absorción).",
+      "distribucion": "Variable según el agente.",
+      "metabolismo": "El idarucizumab y el andexanet son proteínas de catabolismo proteico.",
+      "eliminacion": "Renal y reticuloendotelial.",
+      "vida_media": "Complejo protrombínico: horas (los factores tienen vidas medias distintas, y el VII es el más corto). Andexanet: efecto de unas 2 horas, y de ahí la necesidad de perfusión.",
+      "ajuste_renal": "Sin ajuste; el dabigatrán, en cambio, se acumula en la insuficiencia renal, que es la causa habitual de su sobredosificación.",
+      "ajuste_hepatico": "La vitamina K es ineficaz en la insuficiencia hepática grave, porque el hígado no puede sintetizar los factores aunque tenga el cofactor.",
+      "interacciones": [
+        {
+          "con": "Reanudación del anticoagulante tras la reversión",
+          "efecto": "Estado PROTROMBÓTICO tras revertir, con riesgo de ictus o de trombosis de válvula",
+          "gravedad": "alta",
+          "manejo": "Hay que planificar el reinicio desde el mismo momento de la reversión: el paciente sigue teniendo su indicación"
+        },
+        {
+          "con": "Vitamina K a DOSIS ALTAS",
+          "efecto": "RESISTENCIA al antivitamina K durante una semana o más",
+          "gravedad": "alta",
+          "manejo": "En el portador de válvula mecánica esa resistencia es peligrosa: usar la dosis mínima necesaria (1-2,5 mg) cuando no hay sangrado"
+        },
+        {
+          "con": "PROTAMINA en exceso",
+          "efecto": "Paradójicamente ANTICOAGULA por sí misma e inhibe la función plaquetaria",
+          "gravedad": "alta",
+          "manejo": "No sobredosificar: hay que calcular la heparina realmente circulante, no la total administrada"
+        },
+        {
+          "con": "PROTAMINA en pacientes con insulina NPH, alergia al pescado o vasectomizados",
+          "efecto": "ANAFILAXIA e hipotensión grave",
+          "gravedad": "alta",
+          "manejo": "Administrar LENTA, en 10 minutos, con el paciente monitorizado y adrenalina disponible"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacciones infusionales leves",
+        "Rubor y náuseas"
+      ],
+      "graves": [
+        "TROMBOSIS tras la reversión: infarto, ictus, trombosis de válvula y tromboembolia, descritos con complejo protrombínico y con andexanet",
+        "ANAFILAXIA por vitamina K INTRAVENOSA rápida: por eso se administra diluida y en 20-30 minutos",
+        "ANAFILAXIA e hipotensión grave por PROTAMINA, con mayor riesgo en diabéticos con insulina NPH (que contiene protamina), alérgicos al pescado y vasectomizados",
+        "Hipertensión pulmonar aguda por protamina",
+        "Sobrecarga de volumen con plasma fresco congelado (motivo por el que el complejo protrombínico lo ha desplazado)"
+      ]
+    },
+    "contraindicaciones": [
+      "Coagulación intravascular diseminada activa (relativa para el complejo protrombínico)",
+      "Trombocitopenia inducida por heparina para la heparina, no para los antídotos",
+      "Antecedente de anafilaxia a protamina",
+      "Uso de complejo protrombínico sin hemorragia significativa"
+    ],
+    "perlas": [
+      "En la hemorragia grave por antivitamina K hay que dar SIEMPRE LOS DOS: COMPLEJO PROTROMBÍNICO para corregir ahora y VITAMINA K para que no rebote. El complejo se consume en horas, y si no se ha repuesto la capacidad de síntesis, el INR vuelve a subir y el paciente vuelve a sangrar. Es el error más frecuente del manejo.",
+      "La VITAMINA K intravenosa se administra DILUIDA y LENTA, en 20-30 minutos: la anafilaxia por administración rápida es una complicación conocida y evitable.",
+      "SIN SANGRADO no se usa complejo protrombínico, por muy alto que esté el INR. Y la vitamina K se usa a la dosis mínima: dosis altas dejan al paciente resistente al anticoagulante durante más de una semana, lo que en un portador de válvula mecánica es un problema serio.",
+      "El PLASMA FRESCO CONGELADO ha quedado desplazado por el complejo protrombínico: requiere descongelación, grandes volúmenes con riesgo de sobrecarga, y corrige peor y más despacio.",
+      "El DABIGATRÁN es el único ACOD DIALIZABLE, porque tiene baja unión a proteínas. Si no hay idarucizumab, la hemodiálisis es una alternativa real, algo que no ocurre con el apixabán ni el rivaroxabán.",
+      "Ante una hemorragia en un paciente anticoagulado, las tres preguntas que ordenan todo son: QUÉ anticoagulante, a qué DOSIS y CUÁNDO fue la última toma. Con los ACOD, si han pasado más de 24 horas y la función renal es normal, puede que no haga falta ningún antídoto.",
+      "La PROTAMINA en EXCESO anticoagula por sí misma: hay que calcular la heparina realmente circulante y no la dosis total administrada. Es una paradoja farmacológica que sorprende y que puede empeorar el sangrado que se pretendía corregir.",
+      "Los pacientes con insulina NPH (que contiene protamina), los alérgicos al pescado y los vasectomizados tienen más riesgo de ANAFILAXIA por protamina: hay que preguntarlo y administrarla despacio.",
+      "Después de revertir hay que planificar el REINICIO. El paciente sigue teniendo fibrilación auricular o una válvula mecánica, y el periodo posterior a la reversión es protrombótico: la decisión de cuándo volver a anticoagular es tan importante como la reversión misma.",
+      "El ÁCIDO TRANEXÁMICO es un complemento útil en muchas hemorragias y no revierte nada: actúa sobre la fibrinólisis, no sobre la anticoagulación. Conviene no confundir ambos papeles."
+    ],
+    "embarazo_lactancia": "La vitamina K se usa con normalidad en el embarazo y se administra de forma sistemática al recién nacido para prevenir la enfermedad hemorrágica. El complejo protrombínico se emplea cuando está indicado. Los datos sobre idarucizumab y andexanet en gestantes son escasos, pero en una hemorragia con riesgo vital no hay alternativa.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; guías ISTH y ESC sobre manejo de la hemorragia en el paciente anticoagulado"
+  }
+]

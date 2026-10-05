@@ -1,0 +1,267 @@
+[
+  {
+    "id": "REU-colchicina",
+    "nombre": "Colchicina",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Antiinflamatorio no esteroideo atípico",
+    "subclase": "Inhibidor de la polimerización de los microtúbulos",
+    "mecanismo": "Se une a la tubulina e impide la formación de los microtúbulos. El neutrófilo depende de ellos para todo lo que hace en la crisis gotosa: migrar hacia la articulación, fagocitar los cristales de urato y desgranularse. Además bloquea el ENSAMBLAJE DEL INFLAMASOMA NLRP3, que es el sensor que reconoce los cristales de urato y libera interleucina 1 beta, el mediador central del ataque. No modifica en absoluto la uricemia: no es un hipouricemiante, es un antiinflamatorio dirigido a la vía concreta que activan los cristales. Ese mismo mecanismo antiinflamatorio explica su papel en la pericarditis y en la fiebre mediterránea familiar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis aguda de GOTA",
+        "dosis": "1 mg de entrada y 0,5 mg una hora después; máximo 2 mg el primer día, seguidos de 0,5 mg cada 12-24 horas",
+        "posologia": "Pauta de dosis baja el primer día y mantenimiento",
+        "via": "VO",
+        "nota": "La pauta clásica de dosis altas hasta la diarrea está ABANDONADA: era igual de eficaz y mucho más tóxica"
+      },
+      {
+        "patologia": "Profilaxis de la crisis al iniciar alopurinol o febuxostat",
+        "dosis": "0,5 mg una o dos veces al día",
+        "posologia": "Diaria durante 3-6 meses",
+        "via": "VO",
+        "nota": "Imprescindible: el descenso brusco de la uricemia moviliza los depósitos y DESENCADENA crisis, y esa es la causa habitual de que el paciente abandone el hipouricemiante"
+      },
+      {
+        "patologia": "PERICARDITIS aguda y recurrente",
+        "dosis": "0,5 mg cada 12 horas (0,5 mg al día si pesa menos de 70 kg)",
+        "posologia": "Cada 12 o cada 24 horas",
+        "via": "VO",
+        "nota": "Durante 3 meses en la aguda y 6 meses en la recurrente, siempre asociada a un AINE o a AAS. REDUCE A LA MITAD las recurrencias"
+      },
+      {
+        "patologia": "Fiebre mediterránea familiar",
+        "dosis": "1-2 mg al día",
+        "posologia": "Diaria, indefinida",
+        "via": "VO",
+        "nota": "Previene las crisis y, sobre todo, la AMILOIDOSIS renal, que es lo que determina el pronóstico"
+      },
+      {
+        "patologia": "Pseudogota (condrocalcinosis)",
+        "dosis": "0,5 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Misma lógica que en la gota: el inflamasoma responde también a los cristales de pirofosfato cálcico"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la crisis de gota, en las primeras 12-24 horas: pasado ese plazo pierde eficacia de forma notable. Cuanto antes se administre, mejor responde.",
+      "titulacion": "No se titula al alza. Se ajusta A LA BAJA por función renal, función hepática e interacciones.",
+      "duracion": "Días en la crisis. De 3 a 6 meses en la profilaxis al iniciar hipouricemiante y en la pericarditis. Indefinida en la fiebre mediterránea familiar.",
+      "fin": "Suspensión sin pauta descendente. En la pericarditis conviene completar el ciclo previsto aunque el paciente ya esté asintomático, porque acortarlo aumenta las recurrencias.",
+      "via": "Oral. La vía INTRAVENOSA está retirada en la mayoría de los países por muertes por sobredosificación.",
+      "monitorizacion": "Función renal, hemograma y transaminasas en el tratamiento prolongado; síntomas digestivos y debilidad muscular en cualquier caso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, con biodisponibilidad del 45%. Sufre circulación enterohepática.",
+      "distribucion": "Se concentra en los leucocitos, donde persiste días.",
+      "metabolismo": "Hepático por CYP3A4; es además sustrato de la GLICOPROTEÍNA P.",
+      "eliminacion": "Biliar y fecal en su mayor parte; entre el 10 y el 20% por vía renal.",
+      "vida_media": "20-40 horas, prolongada en la insuficiencia renal.",
+      "ajuste_renal": "Reducir la dosis con filtrado menor de 50 mL/min; evitar por debajo de 30 mL/min y en diálisis (no se dializa).",
+      "ajuste_hepatico": "Reducir la dosis; evitar en la cirrosis avanzada. La combinación de insuficiencia renal y hepática es especialmente peligrosa.",
+      "interacciones": [
+        {
+          "con": "CLARITROMICINA y otros inhibidores potentes del CYP3A4 (ketoconazol, ritonavir)",
+          "efecto": "Intoxicación colchicínica MORTAL, con pancitopenia y fracaso multiorgánico",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la combinación en el paciente con insuficiencia renal o hepática. Es una interacción con muertes documentadas y perfectamente evitable"
+        },
+        {
+          "con": "Inhibidores de la glicoproteína P (ciclosporina, verapamilo, amiodarona)",
+          "efecto": "Aumento importante de las concentraciones y de la toxicidad",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis o evitar la asociación"
+        },
+        {
+          "con": "ESTATINAS",
+          "efecto": "Miopatía y rabdomiólisis por suma de toxicidad muscular",
+          "gravedad": "media",
+          "manejo": "Advertir del dolor muscular y la debilidad; medir CK ante la sospecha"
+        },
+        {
+          "con": "Zumo de POMELO",
+          "efecto": "Inhibe el CYP3A4 intestinal y eleva las concentraciones",
+          "gravedad": "media",
+          "manejo": "Evitarlo durante el tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIARREA, náuseas, vómitos y dolor abdominal: es el efecto limitante y el primer aviso de exceso de dosis",
+        "Astenia"
+      ],
+      "graves": [
+        "MIELOSUPRESIÓN con pancitopenia",
+        "MIOPATÍA y neuropatía, sobre todo en la insuficiencia renal y asociada a estatinas",
+        "Rabdomiólisis",
+        "Alopecia con el uso prolongado",
+        "SOBREDOSIS potencialmente MORTAL, sin antídoto y con curso trifásico: fase digestiva, fracaso multiorgánico y, si sobrevive, recuperación con alopecia"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave (filtrado menor de 30 mL/min) combinada con insuficiencia hepática",
+      "Uso concomitante de inhibidores potentes del CYP3A4 o de la glicoproteína P en el paciente con insuficiencia renal o hepática",
+      "Discrasias sanguíneas",
+      "Embarazo, salvo en la fiebre mediterránea familiar"
+    ],
+    "perlas": [
+      "El MARGEN TERAPÉUTICO es estrechísimo y no hay antídoto. La sobredosis, sea accidental o intencionada, tiene una mortalidad alta y un curso trifásico característico. Por eso importa tanto la dosis prescrita como cuántos comprimidos hay en casa.",
+      "La combinación colchicina más CLARITROMICINA en un paciente con insuficiencia renal ha matado gente. Es una de las interacciones más citadas en la literatura de seguridad del paciente y una de las más fáciles de evitar: basta con elegir otro antibiótico.",
+      "La diarrea no es un efecto secundario menor: es el marcador clínico de que se está alcanzando el umbral tóxico. La pauta antigua de dar colchicina hasta que apareciera diarrea equivalía a dosificar por la toxicidad.",
+      "NO baja el ácido úrico. Un paciente al que solo se le trata la crisis con colchicina sigue teniendo la misma carga de urato y volverá a tener crisis: el tratamiento de fondo es el alopurinol o el febuxostat.",
+      "Al iniciar un hipouricemiante hay que dar profilaxis con colchicina de 3 a 6 meses. Sin ella, el paciente sufre una crisis a las pocas semanas, concluye que el alopurinol le ha sentado mal y lo abandona.",
+      "Su papel en la PERICARDITIS es de los datos mejor establecidos de la cardiología: añadida al AINE reduce a la mitad las recurrencias, y sin embargo se olvida con frecuencia en la prescripción del alta.",
+      "En la crisis de gota, el reloj manda: iniciada en las primeras 12-24 horas es muy eficaz; empezada al tercer día, poco más que un placebo caro."
+    ],
+    "embarazo_lactancia": "Se evita en el embarazo salvo en la fiebre mediterránea familiar, donde su mantenimiento está indicado y la experiencia acumulada es tranquilizadora. Pasa a la leche en pequeñas cantidades; se considera aceptable con vigilancia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; guías de la EULAR sobre gota y de la ESC sobre enfermedades del pericardio"
+  },
+  {
+    "id": "REU-metotrexato",
+    "nombre": "Metotrexato",
+    "sinonimos": [
+      "MTX"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "FAME sintético convencional (antirreumático modificador de la enfermedad)",
+    "subclase": "Antimetabolito antifolato",
+    "vs_clase": [
+      "**El FAME ANCLA de la artritis reumatoide** (y de la psoriasis y la artritis psoriásica).",
+      "**Dosis SEMANAL (7,5-25 mg una vez por semana)**: el error de tomarlo a diario es mortal (mielotoxicidad).",
+      "**Ácido fólico** para reducir toxicidad; **teratógeno**; **neumonitis**, hepatotoxicidad. **Cotrimoxazol, AINE e IBP aumentan su toxicidad.**"
+    ],
+    "mecanismo": "Inhibe la dihidrofolato reductasa y bloquea la síntesis de folato reducido, necesario para fabricar purinas y timidilato. A las dosis ONCOLÓGICAS ese bloqueo detiene la síntesis de ADN y mata las células en división. Pero a las dosis REUMATOLÓGICAS, mil veces menores y semanales, el mecanismo principal es otro: la inhibición de la AICAR transformilasa aumenta la ADENOSINA extracelular, que es potentemente antiinflamatoria. Esa diferencia de mecanismo explica por qué a dosis bajas es un inmunomodulador y no un citotóxico, y por qué su efecto tarda semanas en aparecer.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artritis reumatoide",
+        "dosis": "10-15 mg SEMANALES de inicio, con ascenso hasta 20-25 mg semanales",
+        "posologia": "Una vez a la SEMANA, siempre el mismo día",
+        "via": "VO",
+        "nota": "Es el fármaco ANCLA del tratamiento y la referencia con la que se combinan los biológicos"
+      },
+      {
+        "patologia": "Psoriasis y artritis psoriásica",
+        "dosis": "7,5-25 mg semanales",
+        "posologia": "Una vez a la semana",
+        "via": "VO",
+        "nota": "Vigilancia hepática más estrecha: coexisten con frecuencia obesidad, alcohol y esteatosis"
+      },
+      {
+        "patologia": "Artritis idiopática juvenil",
+        "dosis": "10-15 mg/m² semanales",
+        "posologia": "Una vez a la semana",
+        "via": "SC",
+        "nota": "La vía subcutánea se tolera mejor en el niño y evita la variabilidad de la absorción oral"
+      },
+      {
+        "patologia": "Embarazo ECTÓPICO no complicado y enfermedad trofoblástica",
+        "dosis": "50 mg/m² IM en dosis única",
+        "posologia": "Dosis única, repetible según la evolución de la beta-HCG",
+        "via": "IM",
+        "dosis_objetivo": "Descenso de la beta-HCG mayor del 15% entre los días 4 y 7",
+        "nota": "Requiere estabilidad hemodinámica, ausencia de rotura y seguimiento estrecho"
+      },
+      {
+        "patologia": "Corticodependencia en enfermedades inflamatorias (Crohn, arteritis de células gigantes, sarcoidosis)",
+        "dosis": "15-25 mg semanales",
+        "posologia": "Una vez a la semana",
+        "via": "SC",
+        "nota": "Se usa como ahorrador de corticoide"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de la primera dosis: hemograma, función renal, transaminasas, serologías de hepatitis B y C y VIH, radiografía de tórax, cribado de tuberculosis latente si se prevé asociar un biológico, y prueba de embarazo. Se pauta SIEMPRE con ÁCIDO FÓLICO.",
+      "titulacion": "Ascenso progresivo cada 4-8 semanas según respuesta y tolerancia. Si la respuesta oral es insuficiente o hay intolerancia digestiva, pasar a la vía SUBCUTÁNEA antes de darlo por fracasado.",
+      "duracion": "Prolongada, de años, mientras mantenga eficacia y tolerancia. El efecto clínico no se ve hasta las 6-12 semanas.",
+      "fin": "Retirada solo en remisión mantenida y de forma gradual. Suspender ante toxicidad hematológica, hepática o pulmonar, y transitoriamente ante infección grave o cirugía mayor.",
+      "via": "Oral o subcutánea. La subcutánea tiene absorción más previsible y menos náuseas, y es la vía a la que se recurre cuando la oral falla.",
+      "monitorizacion": "Hemograma, transaminasas y función renal cada 2-4 semanas al inicio y cada 3 meses después. Vigilar tos y disnea de nueva aparición."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral con biodisponibilidad variable y SATURABLE por encima de 15-20 mg, que es lo que limita la eficacia de la vía oral a dosis altas.",
+      "distribucion": "Se acumula en tercer espacio (ascitis, derrame pleural), desde donde se libera lentamente y prolonga la toxicidad.",
+      "metabolismo": "Hepático e intracelular a poliglutamatos, que son la forma activa retenida en la célula.",
+      "eliminacion": "RENAL, mayoritariamente sin metabolizar.",
+      "vida_media": "3-10 horas a dosis bajas; mucho más prolongada a dosis altas.",
+      "ajuste_renal": "Reducir con filtrado menor de 50 mL/min y CONTRAINDICADO por debajo de 30 mL/min: la toxicidad grave del metotrexato es, casi siempre, un problema de eliminación renal.",
+      "ajuste_hepatico": "Contraindicado en la hepatopatía crónica activa y en el consumo elevado de alcohol.",
+      "interacciones": [
+        {
+          "con": "TRIMETOPRIM-SULFAMETOXAZOL",
+          "efecto": "PANCITOPENIA grave por doble bloqueo del folato y desplazamiento de la unión a proteínas",
+          "gravedad": "alta",
+          "manejo": "Combinación a evitar. Es la interacción con más casos mortales descritos"
+        },
+        {
+          "con": "AINE a dosis altas",
+          "efecto": "Reducen la eliminación renal del metotrexato y aumentan su toxicidad",
+          "gravedad": "media",
+          "manejo": "A dosis reumatológicas la combinación es habitual y aceptable con vigilancia; el riesgo aparece con AINE a dosis altas o con deterioro renal"
+        },
+        {
+          "con": "Inhibidores de la bomba de protones",
+          "efecto": "Retrasan la eliminación renal, sobre todo con dosis altas",
+          "gravedad": "media",
+          "manejo": "Relevante en la pauta oncológica; poco significativo a dosis bajas"
+        },
+        {
+          "con": "Penicilinas y probenecid",
+          "efecto": "Compiten por la secreción tubular y elevan las concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar el hemograma"
+        },
+        {
+          "con": "ALCOHOL",
+          "efecto": "Multiplica el riesgo de hepatotoxicidad y fibrosis",
+          "gravedad": "alta",
+          "manejo": "Limitar drásticamente el consumo; es una condición para prescribirlo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, anorexia y malestar el día siguiente a la toma",
+        "ESTOMATITIS y aftas orales (marcador de déficit de folato)",
+        "Elevación de transaminasas",
+        "Alopecia leve",
+        "Astenia, la llamada resaca del metotrexato"
+      ],
+      "graves": [
+        "MIELOSUPRESIÓN con pancitopenia",
+        "NEUMONITIS por metotrexato, que aparece con cualquier dosis y en cualquier momento del tratamiento",
+        "Fibrosis y cirrosis hepáticas en el uso prolongado",
+        "Infecciones oportunistas",
+        "Insuficiencia renal aguda por precipitación tubular (a dosis altas)",
+        "SOBREDOSIS POR ERROR DE FRECUENCIA: tomarlo a diario en vez de semanalmente causa mucositis, aplasia medular y muerte"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO (es teratógeno y abortivo) y lactancia",
+      "Insuficiencia renal grave",
+      "Hepatopatía crónica activa y consumo elevado de alcohol",
+      "Discrasias sanguíneas e inmunodeficiencia",
+      "Infección activa grave",
+      "Derrame pleural o ascitis significativos"
+    ],
+    "perlas": [
+      "El error que más muertes causa con este fármaco no es farmacológico sino de PRESCRIPCIÓN: escribirlo como diario en vez de semanal. Ha ocurrido en recetas, en informes de alta y en cajas de pastilleros. Se previene escribiendo la frecuencia con palabras, señalando el día concreto de la semana y explicándoselo al paciente y a su familia.",
+      "SIEMPRE con ÁCIDO FÓLICO, 5 mg semanales en un día distinto al del metotrexato. Reduce la estomatitis, las náuseas y la alteración hepática sin restar eficacia, y su omisión es una causa frecuente de abandono del tratamiento.",
+      "TRIMETOPRIM-SULFAMETOXAZOL es la interacción a memorizar: dos antifolatos juntos producen pancitopenias mortales. Ante una infección urinaria en un paciente con metotrexato, hay que elegir otro antibiótico.",
+      "La NEUMONITIS por metotrexato no es dosis-dependiente ni tiene periodo de riesgo definido: puede aparecer en cualquier momento. Ante tos seca y disnea de nueva aparición hay que suspenderlo y estudiar al paciente, y la duda diagnóstica con la infección es real y difícil.",
+      "La ELIMINACIÓN es RENAL. Un deterioro de la función renal, aunque sea por una deshidratación banal, convierte una dosis estable en tóxica. Es la vía por la que se llega a la mayoría de las aplasias graves.",
+      "Si el paciente no responde por vía oral, antes de declarar el fracaso hay que probar la vía SUBCUTÁNEA: la absorción oral se satura por encima de 15-20 mg y muchos supuestos fracasos son en realidad un problema de biodisponibilidad.",
+      "El ÁCIDO FOLÍNICO (leucovorina), no el fólico, es el rescate de la toxicidad aguda o de la sobredosis: entra en la célula por delante del bloqueo enzimático. Saber cuál de los dos folatos se usa en cada situación es lo que separa una prescripción rutinaria de un rescate eficaz.",
+      "Es TERATÓGENO. Se requiere anticoncepción eficaz en la mujer y se recomienda esperar al menos 3 meses tras suspenderlo antes de buscar embarazo; en el varón la recomendación es similar por prudencia."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo: es teratógeno (embriopatía por metotrexato) y abortivo, hasta el punto de usarse con esa finalidad en el embarazo ectópico. Contraindicado también en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 54; recomendaciones de la EULAR y alertas de seguridad sobre la frecuencia semanal"
+  }
+]

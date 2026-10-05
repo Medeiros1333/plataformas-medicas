@@ -1,0 +1,249 @@
+[
+  {
+    "id": "CAR-adenosina",
+    "nombre": "Adenosina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Antiarrítmico",
+    "subclase": "Nucleósido endógeno agonista del receptor A1 (no clasificable en Vaughan-Williams)",
+    "vs_clase": [
+      "**Acción ULTRACORTA (<10 s)**: se administra en **bolo IV rápido seguido de lavado con suero**, en vena proximal.",
+      "**Fármaco de elección para cortar la TSV por reentrada nodal** y herramienta diagnóstica (desenmascara el flúter).",
+      "**Contraindicada en el ASMA grave** (broncoespasmo); el **dipiridamol potencia** su efecto y la **teofilina/cafeína lo antagonizan**.",
+      "Produce una breve sensación de muerte inminente, rubor y asistolia de segundos: avisar al paciente."
+    ],
+    "mecanismo": "Activa el receptor A1 del nodo auriculoventricular, que abre los canales de potasio dependientes de acetilcolina y reduce la corriente de calcio: la célula se hiperpolariza y la conducción por el nodo se BLOQUEA durante unos segundos. Ese bloqueo transitorio tiene dos usos que hay que distinguir. Si la taquicardia UTILIZA el nodo auriculoventricular como parte de su circuito (taquicardia por reentrada nodal o por vía accesoria), interrumpir el nodo CORTA el circuito y la arritmia CEDE: es terapéutica. Si la taquicardia nace por encima del nodo y este solo la conduce (flutter, fibrilación auricular, taquicardia auricular), el bloqueo transitorio no la corta pero enlentece la respuesta ventricular durante unos segundos y DESENMASCARA las ondas auriculares en el ECG: es diagnóstica. Su vida media es de menos de 10 segundos porque es captada por los eritrocitos y el endotelio y desaminada de inmediato, lo que la hace extraordinariamente segura pero exige una técnica de administración impecable.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "TAQUICARDIA SUPRAVENTRICULAR paroxística por reentrada",
+        "dosis": "6 mg IV en bolo RÁPIDO (1-2 segundos) seguido de 20 mL de suero salino a presión y elevación del brazo; si no cede, 12 mg y de nuevo 12 mg",
+        "posologia": "Bolos escalonados de 6, 12 y 12 mg",
+        "via": "IV",
+        "dosis_objetivo": "Reversión a ritmo sinusal, o desenmascaramiento del ritmo auricular subyacente",
+        "nota": "Se administra tras haber intentado las MANIOBRAS VAGALES, y la maniobra de Valsalva MODIFICADA (con elevación de piernas al final) es bastante más eficaz que la clásica"
+      },
+      {
+        "patologia": "DIAGNÓSTICO de taquicardia de QRS estrecho de origen incierto",
+        "dosis": "6-12 mg IV en bolo rápido, con REGISTRO CONTINUO del ECG durante la administración",
+        "posologia": "Bolo único con registro",
+        "via": "IV",
+        "nota": "El valor está en el TRAZADO durante el bloqueo: si no se registra, se pierde la información diagnóstica y el paciente ha pasado por el efecto adverso para nada"
+      },
+      {
+        "patologia": "Prueba de esfuerzo FARMACOLÓGICA en cardiología nuclear",
+        "dosis": "140 microgramos/kg/min en perfusión durante 4-6 minutos",
+        "posologia": "Perfusión continua breve",
+        "via": "IV",
+        "nota": "Produce vasodilatación coronaria y revela zonas isquémicas por robo coronario"
+      }
+    ],
+    "esquema": {
+      "inicio": "Vía venosa lo más PROXIMAL y de mayor calibre posible (antecubital o central), monitorización continua, desfibrilador cerca y ECG de 12 derivaciones registrando durante el bolo.",
+      "titulacion": "Escalado de 6 a 12 mg. En vía CENTRAL se empieza por 3 mg, y en el paciente trasplantado cardiaco por 1-3 mg, por su hipersensibilidad por denervación.",
+      "duracion": "Segundos.",
+      "fin": "Efecto autolimitado en menos de 30 segundos.",
+      "via": "Intravenosa en bolo RÁPIDO seguido de lavado a presión y elevación del brazo: administrarla despacio equivale a no administrarla.",
+      "monitorizacion": "ECG continuo durante y después del bolo; hay que guardar el trazado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Captación inmediata por eritrocitos y endotelio.",
+      "metabolismo": "Desaminación a inosina por la adenosina desaminasa.",
+      "eliminacion": "Metabólica, casi instantánea.",
+      "vida_media": "MENOS DE 10 SEGUNDOS: es la más corta de toda la farmacología clínica.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "DIPIRIDAMOL",
+          "efecto": "Inhibe la captación celular de adenosina y POTENCIA enormemente su efecto y su duración",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis a la cuarta parte o evitarla en el paciente tratado con dipiridamol"
+        },
+        {
+          "con": "CAFEÍNA, teofilina y otras metilxantinas",
+          "efecto": "ANTAGONIZAN el receptor de adenosina y BLOQUEAN su efecto",
+          "gravedad": "alta",
+          "manejo": "Explica fracasos aparentes: hay que preguntar por café y por teofilina, y a veces hacen falta dosis mayores. La AMINOFILINA es, de hecho, su antídoto"
+        },
+        {
+          "con": "Carbamazepina",
+          "efecto": "Aumenta el grado de bloqueo auriculoventricular",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        },
+        {
+          "con": "Trasplante cardiaco (corazón denervado)",
+          "efecto": "HIPERSENSIBILIDAD marcada con asistolias prolongadas",
+          "gravedad": "alta",
+          "manejo": "Empezar por 1-3 mg"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SENSACIÓN DE MUERTE INMINENTE, opresión torácica intensa y disnea: casi constantes, muy angustiosas y DURAN SEGUNDOS",
+        "Rubor facial",
+        "Cefalea y náuseas",
+        "Pausa sinusal breve con extrasístoles tras la reversión"
+      ],
+      "graves": [
+        "BRONCOESPASMO grave en el asmático",
+        "Asistolia prolongada, sobre todo en el corazón denervado o con dipiridamol",
+        "Fibrilación auricular transitoria tras la reversión",
+        "DEGENERACIÓN A FIBRILACIÓN VENTRICULAR si se administra en una fibrilación auricular PREEXCITADA (síndrome de Wolff-Parkinson-White con QRS ancho e irregular): al bloquear el nodo, todo el impulso pasa por la vía accesoria"
+      ]
+    },
+    "contraindicaciones": [
+      "FIBRILACIÓN AURICULAR PREEXCITADA (QRS ancho, irregular y muy rápido en el Wolff-Parkinson-White)",
+      "ASMA y broncoespasmo activo",
+      "Bloqueo auriculoventricular de segundo o tercer grado y enfermedad del seno sin marcapasos",
+      "Taquicardia ventricular (no es eficaz y retrasa el tratamiento correcto)"
+    ],
+    "perlas": [
+      "Hay que ADVERTIR al paciente antes del bolo de que va a sentir una opresión torácica intensa y una sensación de muerte inminente que durará unos segundos. Sin ese aviso, la experiencia es aterradora y el paciente rechazará una segunda dosis que probablemente sea la que funcione.",
+      "La TÉCNICA es tan importante como la dosis: vía gruesa y proximal, bolo en 1-2 segundos, lavado inmediato con 20 mL de salino a presión y elevación del brazo. Con una vida media de menos de 10 segundos, administrarla despacio equivale a no administrarla, y muchos fracasos son fracasos de técnica y no del fármaco.",
+      "Hay que REGISTRAR el ECG durante el bolo. Aunque no revierta, el trazado del bloqueo transitorio revela el flutter o la taquicardia auricular subyacente: es la mitad de su valor y se pierde si nadie está grabando.",
+      "En la FIBRILACIÓN AURICULAR PREEXCITADA está CONTRAINDICADA y puede matar: al bloquear el nodo, todo el impulso auricular se conduce por la vía accesoria, que no tiene conducción decremental, y puede degenerar en fibrilación ventricular. La pista es un QRS ANCHO, IRREGULAR y muy rápido; ahí el tratamiento es la cardioversión eléctrica.",
+      "La CAFEÍNA la antagoniza: un paciente que acaba de tomarse dos cafés puede no responder a 6 mg. Y a la inversa, el DIPIRIDAMOL la potencia enormemente y obliga a reducir la dosis a una cuarta parte.",
+      "En el TRASPLANTADO CARDIACO el corazón está denervado e hipersensible: se empieza por 1-3 mg, porque la dosis habitual puede producir asistolias prolongadas.",
+      "Antes de la adenosina van las MANIOBRAS VAGALES, y la de Valsalva MODIFICADA (soplar contra una jeringa y después tumbar al paciente y elevarle las piernas) revierte bastante más taquicardias que la clásica, sin ningún fármaco.",
+      "Su antídoto conceptual es la AMINOFILINA, que compite por el receptor: útil recordarlo en el raro caso de un bloqueo prolongado."
+    ],
+    "embarazo_lactancia": "Se considera segura en el embarazo y es el fármaco de elección para la taquicardia supraventricular de la gestante: su vida media brevísima y su naturaleza endógena limitan la exposición fetal. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 14; guías de la ESC sobre taquicardias supraventriculares"
+  },
+  {
+    "id": "CAR-isglt2-cardiorrenal",
+    "nombre": "iSGLT2 en insuficiencia cardiaca y enfermedad renal (dapagliflozina, empagliflozina)",
+    "sinonimos": [
+      "Glifozinas cardiorrenales"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "iSGLT2 (inhibidor del cotransportador sodio-glucosa tipo 2)",
+    "subclase": "Visión de clase en insuficiencia cardiaca y enfermedad renal",
+    "vs_clase": [
+      "**Visión de CLASE para la insuficiencia cardiaca y la ERC**: dapagliflozina y empagliflozina son intercambiables a 10 mg/día con beneficio independiente de la diabetes.",
+      "**Ver las fichas individuales** de dapagliflozina y empagliflozina para las diferencias de evidencia por indicación."
+    ],
+    "mecanismo": "Bloquean el cotransportador SGLT2 del túbulo proximal, responsable de reabsorber en torno al 90% de la glucosa filtrada, produciendo glucosuria y natriuresis. Pero su beneficio cardiovascular y renal NO se explica por el control glucémico, y la prueba es que funcionan igual en pacientes SIN diabetes. Los mecanismos propuestos son varios y complementarios: reducción de la precarga y de la poscarga por diuresis osmótica y natriuresis sin activar el eje renina-angiotensina como hacen los diuréticos clásicos; restauración de la RETROALIMENTACIÓN TUBULOGLOMERULAR, que al llevar más sodio a la mácula densa contrae la arteriola aferente y reduce la hiperfiltración glomerular, que es el motor del daño renal progresivo; un cambio del metabolismo miocárdico hacia los cuerpos cetónicos, más eficientes energéticamente; y reducción de la inflamación y de la fibrosis. Ese descenso INICIAL del filtrado glomerular es hemodinámico, esperado y protector a largo plazo, y confundirlo con nefrotoxicidad es el error más frecuente con esta familia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INSUFICIENCIA CARDIACA con fracción de eyección REDUCIDA, con o sin diabetes",
+        "dosis": "Dapagliflozina 10 mg al día o empagliflozina 10 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Dosis fija: NO se titula, a diferencia del resto de los pilares del tratamiento",
+        "nota": "Es uno de los CUATRO PILARES junto con el ARNI o IECA, el betabloqueante y el antagonista del receptor mineralocorticoide. Reduce mortalidad y hospitalizaciones"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con fracción de eyección PRESERVADA o levemente reducida",
+        "dosis": "Empagliflozina 10 mg o dapagliflozina 10 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Es el PRIMER tratamiento con beneficio demostrado en la fracción de eyección preservada, donde durante décadas no hubo nada eficaz"
+      },
+      {
+        "patologia": "ENFERMEDAD RENAL CRÓNICA con o sin diabetes",
+        "dosis": "Dapagliflozina 10 mg al día, iniciable con filtrado de hasta 20-25 mL/min",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Enlentecimiento de la caída del filtrado glomerular y reducción de la albuminuria",
+        "nota": "Enlentece la progresión a diálisis. Se MANTIENE aunque el filtrado siga bajando, mientras el paciente no entre en diálisis"
+      },
+      {
+        "patologia": "Diabetes tipo 2 con enfermedad cardiovascular establecida",
+        "dosis": "Empagliflozina 10-25 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Reduce la mortalidad cardiovascular; el efecto sobre la hemoglobina glucosilada es modesto y no es el motivo principal para prescribirla"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal e ionograma basales. Advertir de la HIGIENE GENITAL y de las señales de alarma de la cetoacidosis. Valorar reducir el diurético de asa un 25-50% al iniciarlo, sobre todo si el paciente está euvolémico.",
+      "titulacion": "NO se titula: dosis única fija. Es el más sencillo de los cuatro pilares y por eso conviene iniciarlo pronto.",
+      "duracion": "Indefinida.",
+      "fin": "Se SUSPENDE de forma TRANSITORIA ante cirugía mayor, ayuno prolongado, enfermedad aguda grave o deshidratación, por el riesgo de cetoacidosis euglucémica. No se retira por el descenso inicial del filtrado.",
+      "via": "Oral, con o sin alimentos.",
+      "monitorizacion": "Función renal a las 2-4 semanas del inicio (esperando y ACEPTANDO un descenso del filtrado de hasta un 10-15%), volemia y síntomas genitourinarios."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin efecto relevante de la comida.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Glucuronidación hepática.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "12-13 horas.",
+      "ajuste_renal": "No requieren ajuste de dosis. Su efecto GLUCEMIANTE desaparece con filtrados bajos, pero el beneficio CARDIORRENAL se mantiene: por eso se conservan aunque ya no bajen la glucemia.",
+      "ajuste_hepatico": "Precaución en la insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "DIURÉTICOS de asa y tiazidas",
+          "efecto": "Depleción de volumen e hipotensión aditivas",
+          "gravedad": "media",
+          "manejo": "Valorar reducir el diurético al iniciarlos, sobre todo en el paciente euvolémico o con tensión baja"
+        },
+        {
+          "con": "INSULINA y sulfonilureas",
+          "efecto": "Hipoglucemia (los iSGLT2 solos NO la producen)",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de insulina o de sulfonilurea al iniciarlos"
+        },
+        {
+          "con": "AYUNO, dieta cetogénica, cirugía y enfermedad aguda",
+          "efecto": "CETOACIDOSIS EUGLUCÉMICA",
+          "gravedad": "alta",
+          "manejo": "SUSPENDER 3 días antes de una cirugía programada y durante cualquier enfermedad aguda con ayuno. Es la regla de seguridad más importante de la clase"
+        },
+        {
+          "con": "IECA, ARA-II y antagonistas del receptor mineralocorticoide",
+          "efecto": "Descenso adicional del filtrado y del volumen",
+          "gravedad": "media",
+          "manejo": "Combinación BUSCADA y beneficiosa; requiere control analítico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "INFECCIONES GENITALES micóticas (candidiasis vulvovaginal y balanitis), consecuencia directa de la glucosuria",
+        "Poliuria y depleción leve de volumen",
+        "Descenso INICIAL del filtrado glomerular del 10-15%, esperado y reversible",
+        "Aumento del hematocrito"
+      ],
+      "graves": [
+        "CETOACIDOSIS EUGLUCÉMICA: cetoacidosis con glucemia normal o poco elevada, lo que retrasa el diagnóstico. Se precipita por ayuno, cirugía, enfermedad aguda o reducción brusca de insulina",
+        "GANGRENA DE FOURNIER (fascitis necrosante del periné), rara pero devastadora",
+        "Depleción de volumen con hipotensión y fracaso renal prerrenal en el anciano frágil",
+        "Infecciones urinarias, incluida la pielonefritis",
+        "Amputaciones y fracturas (señal descrita con canagliflozina, no confirmada con las demás)"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1 (fuera de indicación y con alto riesgo de cetoacidosis)",
+      "Cetoacidosis previa",
+      "Depleción de volumen no corregida",
+      "Embarazo y lactancia",
+      "Precaución en el anciano frágil con riesgo de caídas por hipotensión"
+    ],
+    "perlas": [
+      "El error más frecuente es SUSPENDERLOS por el descenso INICIAL del filtrado glomerular. Ese descenso del 10-15% es HEMODINÁMICO, esperado, reversible y refleja precisamente el mecanismo que protege el riñón a largo plazo: la reducción de la hiperfiltración. Retirarlos ahí es privar al paciente del fármaco que iba a preservarle la función renal.",
+      "Funcionan igual SIN DIABETES. Es el hallazgo que cambió su categoría: dejaron de ser antidiabéticos para convertirse en fármacos cardiorrenales. Un paciente con insuficiencia cardiaca y glucemia normal se beneficia exactamente igual.",
+      "La CETOACIDOSIS EUGLUCÉMICA es su complicación más traicionera: el paciente llega con acidosis, vómitos y malestar, y la glucemia es de 150. Si nadie mide cuerpos cetónicos porque la glucosa está normal, el diagnóstico se retrasa. Hay que SUSPENDERLOS 3 días antes de una cirugía y durante cualquier enfermedad aguda con ayuno.",
+      "NO se titulan: una dosis fija, un comprimido al día. En un tratamiento como el de la insuficiencia cardiaca, donde todo lo demás exige semanas de escalada, esa sencillez es una ventaja real y un argumento para iniciarlos pronto.",
+      "La CANDIDIASIS genital es consecuencia directa de tener azúcar en la orina, y es la causa más frecuente de abandono. Advertirla y explicar la higiene genital antes de empezar evita muchas retiradas.",
+      "En la insuficiencia cardiaca son uno de los CUATRO PILARES, y la estrategia actual es iniciar los cuatro pronto y a dosis bajas en lugar de titular uno hasta el máximo antes de empezar el siguiente.",
+      "Cuanto PEOR es la función renal, MENOS bajan la glucemia (hay menos glucosa filtrada) pero el beneficio cardiorrenal PERSISTE. Por eso se mantienen con filtrados bajos, algo contraintuitivo si se piensa en ellos como antidiabéticos.",
+      "La GANGRENA DE FOURNIER es rarísima pero catastrófica: dolor, eritema o tumefacción perineal en un paciente tratado obliga a una valoración quirúrgica urgente, no a esperar la evolución.",
+      "Al iniciarlos en un paciente euvolémico conviene BAJAR el diurético de asa: son natriuréticos, y no ajustarlo produce hipotensión y deterioro renal que se atribuyen erróneamente al iSGLT2."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo (toxicidad renal fetal descrita en animales) y en la lactancia. En la mujer en edad fértil hay que planificar el cambio a otro fármaco antes de la gestación.",
+    "micro_relacionado": [
+      "HON-candida-albicans"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ESC 2021 de insuficiencia cardiaca; ensayos DAPA-HF, EMPEROR y DAPA-CKD"
+  }
+]

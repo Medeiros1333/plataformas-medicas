@@ -1,0 +1,467 @@
+[
+  {
+    "id": "PAT-cistitis",
+    "nombre": "Cistitis aguda no complicada",
+    "sinonimos": ["Infección urinaria baja", "ITU baja"],
+    "area": "INF",
+    "resumen": "Disuria, polaquiuria y urgencia en mujer no gestante sin anomalías urológicas, sin fiebre ni dolor lumbar. **E. coli en el 75-95%**. Diagnóstico clínico (tira de orina útil); urocultivo solo en recurrencias, fracaso, embarazo o varones. **No usar quinolonas ni amoxicilina de primera línea** (resistencias y daño colateral).",
+    "objetivo": "Resolución de síntomas en 48-72 h.",
+    "escenarios": [
+      {
+        "titulo": "Mujer no gestante",
+        "farmacos": [
+          { "nombre": "Fosfomicina trometamol", "ref": "INF-fosfomicina", "dosis": "3 g (1 sobre)", "via": "VO", "intervalo": "Dosis única, en ayunas, con la vejiga vacía", "duracion": "Dosis única" },
+          { "nombre": "Nitrofurantoína", "ref": "INF-nitrofurantoina", "dosis": "50-100 mg (o 100 mg retard)", "via": "VO", "intervalo": "Cada 6-8 h (retard cada 12 h)", "duracion": "5 días", "nota": "No si FG <30-45; no útil en pielonefritis" },
+          { "nombre": "Cefuroxima axetilo", "ref": "INF-cefalosporinas-orales", "dosis": "250 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "3-5 días", "alternativa": "o amoxicilina-clavulánico 500/125 mg/8 h × 5-7 días" }
+        ]
+      },
+      {
+        "titulo": "Embarazo (también bacteriuria asintomática: siempre se trata)",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Fosfomicina trometamol", "ref": "INF-fosfomicina", "dosis": "3 g", "via": "VO", "intervalo": "Dosis única (repetir a las 72 h en algunas guías)", "duracion": "1-2 dosis", "nota": "Urocultivo de control 1-2 semanas después" },
+          { "nombre": "Cefuroxima axetilo", "ref": "INF-cefalosporinas-orales", "dosis": "250 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-7 días", "alternativa": "o amoxicilina-clavulánico según antibiograma" }
+        ]
+      },
+      {
+        "titulo": "Varón (ITU siempre complicada: valorar prostatitis)",
+        "farmacos": [
+          { "nombre": "Cotrimoxazol", "ref": "INF-cotrimoxazol", "dosis": "800/160 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7 días (prostatitis: 2-4 semanas)", "alternativa": "o ciprofloxacino 500 mg/12 h", "nota": "Según urocultivo" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hidratación abundante, micción frecuente y poscoital",
+      "Analgesia (AINE o fenazopiridina) para los síntomas",
+      "Recurrencias (≥3/año): profilaxis poscoital o continua, estrógenos vaginales en posmenopáusicas"
+    ],
+    "claves": [
+      "**Bacteriuria asintomática: NO tratar** salvo embarazo o antes de cirugía urológica con sangrado mucoso.",
+      "Fiebre o dolor lumbar = pielonefritis: fosfomicina y nitrofurantoína no sirven.",
+      "**Nitrofurantoína: contraindicada al final del embarazo** (hemólisis neonatal)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias; Katzung 15.ª ed., cap. 51; guía IDSA"
+  },
+  {
+    "id": "PAT-pielonefritis",
+    "nombre": "Pielonefritis aguda",
+    "sinonimos": ["ITU alta", "Infección urinaria febril"],
+    "area": "INF",
+    "resumen": "Fiebre, dolor lumbar y puñopercusión positiva ± síntomas miccionales. **Urocultivo siempre** (y hemocultivos si ingreso). Ingreso si sepsis, vómitos, embarazo, obstrucción o fracaso ambulatorio. Ecografía urgente si sepsis, obstrucción sospechada o no mejora en 72 h.",
+    "objetivo": "Defervescencia en 48-72 h; descartar obstrucción si no ocurre.",
+    "escenarios": [
+      {
+        "titulo": "Ambulatoria",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1 g", "via": "IV / IM", "intervalo": "Dosis inicial única", "duracion": "1 dosis, después VO", "nota": "Mientras se espera el urocultivo" },
+          { "nombre": "Cefixima", "ref": "INF-cefalosporinas-orales", "dosis": "400 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "10 días (7 si buena evolución)", "alternativa": "o cefuroxima 500 mg/12 h" },
+          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7 días", "nota": "Solo si resistencia local <10% o antibiograma sensible" }
+        ]
+      },
+      {
+        "titulo": "Hospitalaria",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1-2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Hasta afebril 48 h; completar 7-14 días con VO" },
+          { "nombre": "Ertapenem", "ref": "INF-ertapenem", "dosis": "1 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "7-14 días", "nota": "Riesgo o antecedente de BLEE" },
+          { "nombre": "Meropenem", "ref": "INF-meropenem", "dosis": "1 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "7-14 días", "nota": "Shock séptico o riesgo de Pseudomonas; ± amikacina 15-20 mg/kg/24 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hidratación y antitérmicos",
+      "Ecografía si sepsis, cólico, monorreno o mala evolución (descartar uropatía obstructiva: precisa drenaje)",
+      "Urocultivo de control solo en embarazo o recidiva"
+    ],
+    "claves": [
+      "**Pielonefritis obstructiva = urgencia urológica**: el antibiótico no basta sin drenaje.",
+      "Ajustar el antibiótico al urocultivo y pasar a VO al estar afebril 48 h."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias"
+  },
+  {
+    "id": "PAT-uretritis-cervicitis",
+    "nombre": "Uretritis y cervicitis (gonococo y clamidia)",
+    "sinonimos": ["ITS", "Gonorrea", "Infección por Chlamydia"],
+    "area": "INF",
+    "resumen": "Exudado uretral o cervical, disuria. **Tratamiento empírico de ambos gérmenes** cuando no hay diagnóstico microbiológico inmediato (frecuente coinfección). Pedir PCR de gonococo y clamidia y serologías de VIH, sífilis y hepatitis. Tratar a las parejas sexuales de los últimos 60 días.",
+    "objetivo": "Curación microbiológica y evitar complicaciones (EIP, epididimitis, infertilidad) y transmisión.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento empírico (adulto)",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1 g", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Gonococo (500 mg en guías de EE. UU.)" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7 días", "nota": "Clamidia (de elección; más eficaz que azitromicina en la rectal)" },
+          { "nombre": "Azitromicina", "ref": "INF-azitromicina", "dosis": "1 g", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Si doxiciclina contraindicada (embarazo) o mal cumplimiento" }
+        ]
+      },
+      {
+        "titulo": "Enfermedad inflamatoria pélvica ambulatoria",
+        "poblacion": "Mujer",
+        "farmacos": [
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1 g", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis única" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "14 días" },
+          { "nombre": "Metronidazol", "ref": "INF-metronidazol", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "14 días" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abstinencia sexual 7 días tras el tratamiento (y de la pareja)",
+      "Estudio y tratamiento de contactos",
+      "Cribado de otras ITS; test de curación en gonococo faríngeo y en embarazo"
+    ],
+    "claves": [
+      "**Las quinolonas ya no sirven para el gonococo** por resistencia.",
+      "Si persiste la uretritis: pensar en Mycoplasma genitalium o Trichomonas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de transmisión sexual; guía europea IUSTI"
+  },
+  {
+    "id": "PAT-sifilis",
+    "nombre": "Sífilis",
+    "sinonimos": ["Lúes", "Treponema pallidum"],
+    "area": "INF",
+    "resumen": "El tratamiento depende del estadio: **precoz (primaria, secundaria, latente <1 año): dosis única de penicilina benzatina**; latente tardía o de duración desconocida: 3 dosis semanales; **neurosífilis y sífilis ocular/ótica: penicilina G IV**. Control con pruebas no treponémicas (RPR/VDRL) a los 6 y 12 meses (descenso ≥4 veces).",
+    "objetivo": "Descenso de 4 veces (2 diluciones) del RPR/VDRL en 6-12 meses.",
+    "escenarios": [
+      {
+        "titulo": "Sífilis precoz (primaria, secundaria, latente precoz)",
+        "farmacos": [
+          { "nombre": "Penicilina G benzatina", "ref": "INF-penicilina-g-benzatina", "dosis": "2.400.000 UI", "via": "IM", "intervalo": "Dosis única", "duracion": "Dosis única" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "14 días", "nota": "Alergia a penicilina (no en embarazo)" }
+        ]
+      },
+      {
+        "titulo": "Latente tardía o de duración desconocida",
+        "farmacos": [
+          { "nombre": "Penicilina G benzatina", "ref": "INF-penicilina-g-benzatina", "dosis": "2.400.000 UI", "via": "IM", "intervalo": "Semanal", "duracion": "3 semanas (3 dosis)" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "28 días", "nota": "Alergia a penicilina" }
+        ]
+      },
+      {
+        "titulo": "Neurosífilis, sífilis ocular u ótica",
+        "farmacos": [
+          { "nombre": "Penicilina G sódica (cristalina)", "sin_ficha": true, "dosis": "3.000.000-4.000.000 UI (18-24 millones UI/día)", "via": "IV", "intervalo": "Cada 4 h o en perfusión continua", "duracion": "10-14 días" },
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "10-14 días", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Estudio de contactos y cribado de VIH",
+      "En el embarazo, la penicilina es la única opción: desensibilizar si hay alergia"
+    ],
+    "claves": [
+      "**Reacción de Jarisch-Herxheimer** (fiebre, mialgias en las primeras 24 h): avisar; se trata con antitérmicos, no es alergia.",
+      "Las pruebas treponémicas (TPHA, FTA) quedan positivas de por vida: no sirven para el seguimiento."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de sífilis; Katzung 15.ª ed., cap. 43"
+  },
+  {
+    "id": "PAT-tuberculosis",
+    "nombre": "Tuberculosis (enfermedad e infección latente)",
+    "sinonimos": ["TBC", "TB", "Infección tuberculosa latente"],
+    "area": "INF",
+    "resumen": "**Enfermedad activa**: pauta estándar de 6 meses (2 meses de isoniazida + rifampicina + pirazinamida + etambutol, y 4 meses de isoniazida + rifampicina), en dosis única diaria en ayunas, con tratamiento directamente observado si hay riesgo de abandono. Cultivo y antibiograma (o PCR de resistencia a rifampicina) antes de iniciar. **Infección latente**: tratar en contactos, VIH, candidatos a biológicos o inmunosupresión tras descartar enfermedad activa.",
+    "objetivo": "Cultivo negativo a los 2 meses; curación sin recaída; evitar resistencias.",
+    "escenarios": [
+      {
+        "titulo": "Tuberculosis pulmonar sensible: fase inicial (2 meses)",
+        "farmacos": [
+          { "nombre": "Isoniazida", "ref": "INF-isoniazida", "dosis": "5 mg/kg (máx. 300 mg)", "via": "VO", "intervalo": "Cada 24 h, en ayunas", "duracion": "6 meses (2 + 4)", "nota": "+ piridoxina 25 mg/día en riesgo de neuropatía" },
+          { "nombre": "Rifampicina", "ref": "INF-rifampicina", "dosis": "10 mg/kg (máx. 600 mg)", "via": "VO", "intervalo": "Cada 24 h, en ayunas", "duracion": "6 meses (2 + 4)" },
+          { "nombre": "Pirazinamida", "ref": "INF-pirazinamida", "dosis": "25 mg/kg (máx. 2 g)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2 meses" },
+          { "nombre": "Etambutol", "ref": "INF-etambutol", "dosis": "15-20 mg/kg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2 meses (o hasta confirmar sensibilidad)" }
+        ]
+      },
+      {
+        "titulo": "Infección tuberculosa latente (tras descartar enfermedad activa)",
+        "farmacos": [
+          { "nombre": "Isoniazida", "ref": "INF-isoniazida", "dosis": "5 mg/kg (máx. 300 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6-9 meses" },
+          { "nombre": "Rifampicina", "ref": "INF-rifampicina", "dosis": "10 mg/kg (máx. 600 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "4 meses", "alternativa": "o isoniazida + rifampicina 3 meses", "nota": "Mejor cumplimiento; revisar interacciones" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Aislamiento respiratorio hasta 2-3 semanas de tratamiento eficaz y mejoría clínica",
+      "Declaración obligatoria y estudio de contactos",
+      "Transaminasas basales y si síntomas; agudeza y visión de colores con etambutol"
+    ],
+    "claves": [
+      "**Nunca añadir un único fármaco a una pauta que fracasa** (selecciona resistencias).",
+      "**La rifampicina inactiva anticonceptivos, ACOD, antirretrovirales e inmunosupresores**: revisar toda la medicación.",
+      "Hepatotoxicidad: suspender si transaminasas >5 veces el normal (o >3 con síntomas) y reintroducir de forma escalonada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de tuberculosis; Katzung 15.ª ed., cap. 47"
+  },
+  {
+    "id": "PAT-gripe",
+    "nombre": "Gripe",
+    "sinonimos": ["Influenza"],
+    "area": "INF",
+    "resumen": "Tratamiento antivírico **en pacientes hospitalizados, con enfermedad grave o progresiva, o de alto riesgo** (≥65 años, embarazo, inmunodepresión, enfermedades crónicas, <2 años), idealmente en las primeras 48 h pero **también después si está hospitalizado**. En sanos sin riesgo, sintomático.",
+    "objetivo": "Reducir complicaciones y duración de síntomas.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          { "nombre": "Oseltamivir", "ref": "INF-oseltamivir", "dosis": "75 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5 días (más en inmunodeprimidos graves)", "nota": "Ajuste renal: 30 mg/12 h con FG 30-60" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "Mientras haya fiebre o mialgias" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis postexposición (contactos de alto riesgo no vacunados, brotes en residencias)",
+        "farmacos": [
+          { "nombre": "Oseltamivir", "ref": "INF-oseltamivir", "dosis": "75 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "10 días (brotes: hasta 1 semana tras el último caso)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Vacunación anual (la medida más eficaz)",
+      "Reposo, hidratación; aislamiento respiratorio",
+      "Vigilar sobreinfección bacteriana (neumococo, S. aureus) si empeora tras mejoría"
+    ],
+    "claves": [
+      "**Ácido acetilsalicílico contraindicado en niños y adolescentes con gripe** (síndrome de Reye).",
+      "No esperar al resultado de la PCR para tratar al paciente grave."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de gripe; Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "PAT-herpes-zoster",
+    "nombre": "Herpes zóster",
+    "sinonimos": ["Culebrilla", "Zóster"],
+    "area": "INF",
+    "resumen": "Tratar con antivírico **en las primeras 72 h** a mayores de 50 años, inmunodeprimidos, zóster oftálmico, dolor o exantema moderado-grave; más allá de 72 h si aparecen nuevas lesiones. Analgesia adecuada desde el inicio: el control precoz del dolor reduce la neuralgia postherpética.",
+    "objetivo": "Acelerar la curación, reducir el dolor agudo y las complicaciones (neuralgia, oculares).",
+    "escenarios": [
+      {
+        "titulo": "Zóster en inmunocompetente",
+        "farmacos": [
+          { "nombre": "Valaciclovir", "ref": "INF-valaciclovir", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "7 días" },
+          { "nombre": "Aciclovir", "ref": "INF-aciclovir", "dosis": "800 mg", "via": "VO", "intervalo": "5 veces al día (cada 4 h, sin la nocturna)", "duracion": "7 días", "nota": "Alternativa más barata, peor cumplimiento" },
+          { "nombre": "Paracetamol / AINE ± opioide débil", "ref": "REU-paracetamol", "dosis": "1 g (paracetamol)", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Según dolor" }
+        ]
+      },
+      {
+        "titulo": "Zóster diseminado, inmunodeprimido grave u oftálmico con afectación ocular",
+        "farmacos": [
+          { "nombre": "Aciclovir", "ref": "INF-aciclovir", "dosis": "10 mg/kg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "7-10 días (completar con VO)", "nota": "Hidratación por cristaluria; valoración oftalmológica urgente en el oftálmico" }
+        ]
+      },
+      {
+        "titulo": "Neuralgia postherpética",
+        "farmacos": [
+          { "nombre": "Pregabalina", "ref": "NEU-gabapentinoides", "dosis": "75 mg → 150-300 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Meses, con reevaluación", "alternativa": "o gabapentina 300 mg → 600-1.200 mg/8 h" },
+          { "nombre": "Amitriptilina", "ref": "PSQ-amitriptilina", "dosis": "10 mg → 25-75 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Meses", "nota": "Evitar en ancianos frágiles" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Mantener las lesiones limpias y secas; evitar contacto con embarazadas no inmunes e inmunodeprimidos hasta fase de costra",
+      "Parches de lidocaína al 5% o capsaicina en la neuralgia localizada",
+      "Vacuna recombinante frente al zóster en ≥50 años e inmunodeprimidos"
+    ],
+    "claves": [
+      "**Lesiones en la punta de la nariz (signo de Hutchinson) = riesgo de afectación ocular**: oftalmología.",
+      "Ajustar aciclovir y valaciclovir a la función renal (neurotoxicidad en ancianos con ERC)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por virus varicela-zóster; Katzung 15.ª ed., cap. 49"
+  },
+  {
+    "id": "PAT-herpes-genital",
+    "nombre": "Herpes genital",
+    "sinonimos": ["Herpes simple genital", "VHS-2"],
+    "area": "INF",
+    "resumen": "Primer episodio: tratar siempre (acorta el cuadro). Recurrencias: tratamiento episódico precoz (en el pródromo) o supresor continuo si ≥6 recurrencias al año o para reducir la transmisión a la pareja.",
+    "objetivo": "Acortar los episodios y reducir recurrencias y transmisión.",
+    "escenarios": [
+      {
+        "titulo": "Primer episodio",
+        "farmacos": [
+          { "nombre": "Valaciclovir", "ref": "INF-valaciclovir", "dosis": "1 g", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7-10 días", "alternativa": "o aciclovir 400 mg/8 h" }
+        ]
+      },
+      {
+        "titulo": "Recurrencia (tratamiento episódico)",
+        "farmacos": [
+          { "nombre": "Valaciclovir", "ref": "INF-valaciclovir", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "3 días", "nota": "Iniciar en el pródromo" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento supresor",
+        "farmacos": [
+          { "nombre": "Valaciclovir", "ref": "INF-valaciclovir", "dosis": "500 mg (1 g si ≥10 recurrencias/año)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "6-12 meses y reevaluar", "alternativa": "o aciclovir 400 mg/12 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Preservativo y abstinencia durante las lesiones",
+      "Cribado de otras ITS",
+      "Embarazo a término con lesiones activas: cesárea"
+    ],
+    "claves": [
+      "**Los antivíricos tópicos apenas aportan beneficio** frente a los orales.",
+      "La transmisión puede ocurrir sin lesiones (excreción asintomática)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por virus herpes simple"
+  },
+  {
+    "id": "PAT-candidiasis-vulvovaginal",
+    "nombre": "Candidiasis vulvovaginal",
+    "sinonimos": ["Vulvovaginitis candidiásica", "Micosis vaginal"],
+    "area": "INF",
+    "resumen": "Prurito vulvar intenso con flujo blanco grumoso, pH vaginal normal (<4,5). Tratamiento tópico u oral con igual eficacia en la no complicada. Complicada: recurrente (≥4/año), grave, por especies no albicans, en embarazo, diabetes mal controlada o inmunodepresión.",
+    "objetivo": "Resolución de síntomas.",
+    "escenarios": [
+      {
+        "titulo": "No complicada",
+        "farmacos": [
+          { "nombre": "Fluconazol", "ref": "INF-fluconazol", "dosis": "150 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "No en el embarazo" },
+          { "nombre": "Clotrimazol vaginal", "ref": "DER-azoles-topicos", "dosis": "500 mg (óvulo)", "via": "vaginal", "intervalo": "Dosis única", "duracion": "Dosis única", "alternativa": "o 100 mg/24 h × 6-7 días" }
+        ]
+      },
+      {
+        "titulo": "Embarazo",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Clotrimazol vaginal", "ref": "DER-azoles-topicos", "dosis": "100 mg", "via": "vaginal", "intervalo": "Cada 24 h", "duracion": "7 días", "nota": "Solo tratamiento tópico" }
+        ]
+      },
+      {
+        "titulo": "Recurrente (≥4 episodios/año)",
+        "farmacos": [
+          { "nombre": "Fluconazol (inducción)", "ref": "INF-fluconazol", "dosis": "150 mg", "via": "VO", "intervalo": "Cada 72 h", "duracion": "3 dosis" },
+          { "nombre": "Fluconazol (mantenimiento)", "ref": "INF-fluconazol", "dosis": "150 mg", "via": "VO", "intervalo": "Semanal", "duracion": "6 meses" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "No tratar a la pareja asintomática",
+      "Evitar duchas vaginales y ropa oclusiva; controlar la diabetes"
+    ],
+    "claves": [
+      "**pH >4,5 orienta a vaginosis bacteriana o tricomoniasis**, no a Candida (tratamiento con metronidazol).",
+      "La colonización asintomática por Candida no se trata."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de candidiasis; Katzung 15.ª ed., cap. 48"
+  },
+  {
+    "id": "PAT-colitis-clostridioides",
+    "nombre": "Infección por Clostridioides difficile",
+    "sinonimos": ["Colitis pseudomembranosa", "C. difficile"],
+    "area": "INF",
+    "resumen": "Diarrea (≥3 deposiciones/24 h) tras antibióticos u hospitalización con toxina o PCR positiva. **Suspender el antibiótico desencadenante si es posible** e IBP innecesarios. Grave: leucocitos >15.000 o creatinina >1,5 mg/dL. Fulminante: hipotensión, íleo o megacolon.",
+    "objetivo": "Resolución de la diarrea; prevenir recurrencias (20-30%).",
+    "escenarios": [
+      {
+        "titulo": "Primer episodio (no grave o grave)",
+        "farmacos": [
+          { "nombre": "Fidaxomicina", "sin_ficha": true, "dosis": "200 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "10 días", "nota": "Preferida (menos recurrencias)" },
+          { "nombre": "Vancomicina oral", "ref": "INF-vancomicina", "dosis": "125 mg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "10 días", "nota": "No se absorbe: actúa en la luz intestinal" },
+          { "nombre": "Metronidazol", "ref": "INF-metronidazol", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "10 días", "nota": "Solo si no hay acceso a los anteriores, en episodio no grave" }
+        ]
+      },
+      {
+        "titulo": "Fulminante",
+        "farmacos": [
+          { "nombre": "Vancomicina oral o por sonda", "ref": "INF-vancomicina", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "10-14 días", "nota": "Más vancomicina rectal si íleo" },
+          { "nombre": "Metronidazol", "ref": "INF-metronidazol", "dosis": "500 mg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "10-14 días" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Aislamiento de contacto; **lavado de manos con agua y jabón** (el alcohol no destruye las esporas)",
+      "Recurrencias múltiples: trasplante de microbiota fecal",
+      "Valoración quirúrgica precoz en la forma fulminante"
+    ],
+    "claves": [
+      "**No usar loperamida** en la colitis por C. difficile (megacolon tóxico).",
+      "No repetir la prueba para confirmar curación: puede quedar positiva."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infección por Clostridioides difficile; guía IDSA/SHEA 2021"
+  },
+  {
+    "id": "PAT-malaria",
+    "nombre": "Malaria (paludismo)",
+    "sinonimos": ["Paludismo"],
+    "area": "INF",
+    "resumen": "**Fiebre en el viajero procedente de zona endémica = malaria hasta demostrar lo contrario** (gota gruesa/frotis o test rápido, repetir si negativo). Distinguir malaria grave (alteración de conciencia, parasitemia ≥5%, fracaso renal, acidosis, hipoglucemia, distrés, shock): artesunato IV. P. vivax y ovale necesitan además primaquina (hipnozoítos).",
+    "objetivo": "Eliminación de la parasitemia; en vivax/ovale, cura radical.",
+    "escenarios": [
+      {
+        "titulo": "P. falciparum no complicada",
+        "farmacos": [
+          { "nombre": "Artemeter-lumefantrina", "ref": "INF-artemisininas", "dosis": "4 comprimidos (20/120 mg) por toma", "via": "VO", "intervalo": "A las 0, 8, 24, 36, 48 y 60 h, con comida grasa", "duracion": "3 días (6 tomas)" },
+          { "nombre": "Atovacuona-proguanil", "ref": "INF-atovacuona-proguanil", "dosis": "4 comprimidos (250/100 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 días", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Malaria grave",
+        "farmacos": [
+          { "nombre": "Artesunato", "ref": "INF-artemisininas", "dosis": "2,4 mg/kg", "via": "IV", "intervalo": "A las 0, 12 y 24 h; después cada 24 h", "duracion": "Mínimo 24 h y hasta tolerar VO; completar con ACT oral 3 días", "nota": "Control de Hb a los 7-30 días (hemólisis tardía)" }
+        ]
+      },
+      {
+        "titulo": "P. vivax / P. ovale",
+        "farmacos": [
+          { "nombre": "Cloroquina", "ref": "INF-cloroquina-hidroxicloroquina", "dosis": "10 mg base/kg, luego 5 mg/kg a las 6, 24 y 48 h", "via": "VO", "intervalo": "4 tomas", "duracion": "3 días", "alternativa": "o artemeter-lumefantrina", "nota": "Si zona de vivax resistente, usar ACT" },
+          { "nombre": "Primaquina", "ref": "INF-primaquina", "dosis": "0,5 mg/kg (30 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "14 días", "nota": "**Determinar G6PD antes**; contraindicada en embarazo" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis del viajero (zona de falciparum resistente a cloroquina)",
+        "farmacos": [
+          { "nombre": "Atovacuona-proguanil", "ref": "INF-atovacuona-proguanil", "dosis": "250/100 mg (1 comprimido)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "1-2 días antes, durante y 7 días después del viaje" },
+          { "nombre": "Doxiciclina", "ref": "INF-doxiciclina", "dosis": "100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "1-2 días antes, durante y 4 semanas después", "nota": "Fotosensibilidad" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Repelentes (DEET), mosquiteras y ropa larga",
+      "Ingreso de toda malaria por falciparum o con parasitemia alta"
+    ],
+    "claves": [
+      "**Un frotis negativo no descarta malaria**: repetir cada 12-24 h hasta 3 veces.",
+      "La quimioprofilaxis no es 100% eficaz: la fiebre tras el viaje obliga a descartar malaria aunque se haya hecho."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de malaria; Katzung 15.ª ed., cap. 52"
+  },
+  {
+    "id": "PAT-infeccion-vih",
+    "nombre": "Infección por VIH (inicio del tratamiento antirretroviral) y profilaxis",
+    "sinonimos": ["VIH", "TAR", "PrEP", "PEP"],
+    "area": "INF",
+    "resumen": "**Iniciar el TAR en todos los pacientes con VIH, lo antes posible tras el diagnóstico** (incluso el mismo día), con independencia de los CD4. Pautas preferentes: inhibidor de la integrasa + 2 análogos (o dolutegravir + lamivudina si no hay VHB ni carga viral muy alta). Antes: genotipo de resistencias, HLA-B*5701 si se valora abacavir, serologías de VHB/VHC.",
+    "objetivo": "Carga viral indetectable (<50 copias/mL) a las 24 semanas: «indetectable = intransmisible».",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento antirretroviral de inicio",
+        "farmacos": [
+          { "nombre": "Bictegravir/emtricitabina/tenofovir alafenamida", "ref": "INF-bictegravir-emtricitabina-tenofovir-alafenamida", "dosis": "50/200/25 mg (1 comprimido)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida" },
+          { "nombre": "Dolutegravir + tenofovir/emtricitabina", "ref": "INF-dolutegravir", "dosis": "50 mg + 1 comprimido de TDF/FTC o TAF/FTC", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Dolutegravir 50 mg/12 h con rifampicina" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis preexposición (PrEP)",
+        "farmacos": [
+          { "nombre": "Tenofovir disoproxilo/emtricitabina", "ref": "INF-tenofovir", "dosis": "245/200 mg (1 comprimido)", "via": "VO", "intervalo": "Cada 24 h (o pauta a demanda 2-1-1 en HSH)", "duracion": "Mientras persista el riesgo", "nota": "Serología VIH, función renal y cribado de ITS cada 3 meses" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis postexposición (PEP), en las primeras 72 h",
+        "farmacos": [
+          { "nombre": "Bictegravir/emtricitabina/tenofovir alafenamida", "ref": "INF-bictegravir-emtricitabina-tenofovir-alafenamida", "dosis": "1 comprimido", "via": "VO", "intervalo": "Cada 24 h", "duracion": "28 días", "nota": "Cuanto antes (ideal <24 h)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Adherencia: es el determinante principal del éxito",
+      "Profilaxis de infecciones oportunistas según CD4 (cotrimoxazol si <200)",
+      "Cribado de ITS, vacunación (VHB, neumococo, VPH)"
+    ],
+    "claves": [
+      "**Revisar SIEMPRE interacciones**: los potenciados (ritonavir, cobicistat) multiplican estatinas, corticoides inhalados (fluticasona) y antiarrítmicos; la rifampicina anula muchos antirretrovirales.",
+      "Antiácidos, calcio y hierro reducen la absorción de los inhibidores de la integrasa: separar tomas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad por VIH; Katzung 15.ª ed., cap. 49; GeSIDA"
+  }
+]

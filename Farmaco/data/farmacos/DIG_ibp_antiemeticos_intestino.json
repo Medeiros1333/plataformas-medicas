@@ -1,0 +1,523 @@
+[
+  {
+    "id": "DIG-pantoprazol",
+    "nombre": "Pantoprazol",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Inhibidor de la bomba de protones",
+    "subclase": "IBP con menor afinidad por el CYP2C19 y forma IV",
+    "vs_clase": [
+      "**El IBP con MENOS interacciones por CYP2C19**: de elección con **clopidogrel** (el omeprazol y el esomeprazol reducen su activación) y en polimedicados.",
+      "**Formulación INTRAVENOSA de uso hospitalario habitual**: hemorragia digestiva alta por úlcera (80 mg en bolo + 8 mg/h, o 40 mg/12 h).",
+      "40 mg de pantoprazol ≈ 20 mg de omeprazol en potencia antisecretora."
+    ],
+    "mecanismo": "Profármaco que se activa en el medio ácido del canalículo de la célula parietal y bloquea de forma IRREVERSIBLE la H+/K+-ATPasa (bomba de protones), paso final de la secreción ácida. Como solo bloquea bombas activas, **se toma 30-60 min antes de la primera comida**.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hemorragia digestiva alta por úlcera péptica (tras endoscopia terapéutica)",
+        "dosis": "80 mg en bolo, después 8 mg/h (o 40 mg cada 12 h)",
+        "posologia": "Perfusión continua 72 h o bolos intermitentes",
+        "via": "IV",
+        "nota": "Después 40 mg/12 h VO hasta completar 8 semanas"
+      },
+      {
+        "patologia": "Gastroprotección en paciente con clopidogrel, AAS o AINE y factores de riesgo",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 24 h, antes del desayuno",
+        "via": "VO",
+        "nota": "IBP preferido con clopidogrel"
+      },
+      {
+        "patologia": "Enfermedad por reflujo gastroesofágico y úlcera péptica",
+        "dosis": "40 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "4-8 semanas; después la dosis mínima eficaz o a demanda"
+      }
+    ],
+    "esquema": {
+      "inicio": "40 mg/día 30 min antes del desayuno; IV en la hemorragia.",
+      "titulacion": "Doble dosis (cada 12 h) en esofagitis grave o respuesta insuficiente.",
+      "duracion": "4-8 semanas en ERGE o úlcera; mientras dure el riesgo en la gastroprotección.",
+      "fin": "**Retirada gradual tras uso prolongado** (hipersecreción ácida de rebote). Revisar periódicamente si sigue indicado.",
+      "via": "VO e IV.",
+      "monitorizacion": "Revisar indicación cada 6-12 meses; magnesio y B12 en uso prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 77%, constante desde la primera dosis.",
+      "distribucion": "Unión a proteínas del 98%.",
+      "metabolismo": "Hepático por CYP2C19 y sulfotransferasa (**menor inhibición del CYP2C19** que omeprazol).",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "1 h (efecto de 24 h por bloqueo irreversible).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Insuficiencia grave: máximo 20 mg/día.",
+      "interacciones": [
+        {
+          "con": "Metotrexato a dosis altas",
+          "efecto": "Aumento de sus niveles",
+          "gravedad": "media",
+          "manejo": "Suspender el IBP durante el ciclo"
+        },
+        {
+          "con": "Fármacos que requieren pH ácido para absorberse (itraconazol, ketoconazol, atazanavir, hierro oral)",
+          "efecto": "Reducción de su absorción",
+          "gravedad": "media",
+          "manejo": "Evitar con atazanavir; separar o elegir alternativas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, diarrea, dolor abdominal"
+      ],
+      "graves": [
+        "Hipomagnesemia (uso prolongado)",
+        "Infección por Clostridioides difficile",
+        "Nefritis intersticial aguda",
+        "Fracturas óseas y déficit de B12 (uso prolongado)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a benzimidazoles",
+      "Uso con atazanavir o rilpivirina"
+    ],
+    "perlas": [
+      "**Paciente con doble antiagregación (AAS + clopidogrel): pantoprazol, no omeprazol.**"
+    ],
+    "embarazo_lactancia": "Datos aceptables; se prefiere omeprazol por mayor experiencia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., caps. de úlcera péptica y hemorragia digestiva"
+  },
+  {
+    "id": "DIG-esomeprazol",
+    "nombre": "Esomeprazol",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Inhibidor de la bomba de protones",
+    "subclase": "S-enantiómero del omeprazol",
+    "vs_clase": [
+      "**Es el S-enantiómero del omeprazol**: se metaboliza más lentamente y alcanza **niveles más altos y estables** (control ácido algo mayor a dosis equipotentes).",
+      "**Comparte la inhibición del CYP2C19 del omeprazol**: evitar con clopidogrel.",
+      "Útil en la **esofagitis erosiva grave** y en pautas de erradicación de H. pylori; dispone de forma IV."
+    ],
+    "mecanismo": "Inhibidor irreversible de la H+/K+-ATPasa parietal, activado en medio ácido. El enantiómero S sufre menos metabolismo de primer paso, lo que aumenta su biodisponibilidad con la dosis repetida.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Esofagitis erosiva por reflujo",
+        "dosis": "40 mg",
+        "posologia": "Cada 24 h, 30 min antes del desayuno",
+        "via": "VO",
+        "nota": "4-8 semanas; mantenimiento 20 mg/día"
+      },
+      {
+        "patologia": "Erradicación de Helicobacter pylori (dentro de terapia cuádruple)",
+        "dosis": "40 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "10-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "20-40 mg/día antes del desayuno.",
+      "titulacion": "40 mg cada 12 h en erradicación o síntomas refractarios.",
+      "duracion": "4-8 semanas; erradicación 14 días.",
+      "fin": "Retirada gradual tras uso prolongado.",
+      "via": "VO e IV.",
+      "monitorizacion": "Revisión periódica de la indicación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 64% (89% tras dosis repetidas).",
+      "distribucion": "Unión a proteínas del 97%.",
+      "metabolismo": "**CYP2C19 (del que es inhibidor)** y CYP3A4.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "1,3 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Insuficiencia grave: máximo 20 mg/día.",
+      "interacciones": [
+        {
+          "con": "Clopidogrel",
+          "efecto": "**Reduce su activación y su efecto antiagregante**",
+          "gravedad": "alta",
+          "manejo": "Usar pantoprazol"
+        },
+        {
+          "con": "Citalopram, escitalopram, diazepam",
+          "efecto": "Aumento de sus niveles (CYP2C19)",
+          "gravedad": "media",
+          "manejo": "Vigilar QT con citalopram"
+        },
+        {
+          "con": "Atazanavir, itraconazol",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, diarrea, náuseas"
+      ],
+      "graves": [
+        "Hipomagnesemia",
+        "Clostridioides difficile",
+        "Nefritis intersticial",
+        "Déficit de B12 y fracturas con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a benzimidazoles",
+      "Uso con atazanavir o nelfinavir"
+    ],
+    "perlas": [
+      "**La ventaja sobre el omeprazol es pequeña**: no justifica el cambio si el omeprazol controla los síntomas."
+    ],
+    "embarazo_lactancia": "Datos aceptables (como omeprazol).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de ERGE"
+  },
+  {
+    "id": "DIG-lansoprazol",
+    "nombre": "Lansoprazol",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Inhibidor de la bomba de protones",
+    "subclase": "IBP con formulación bucodispersable",
+    "vs_clase": [
+      "**Existe en comprimido BUCODISPERSABLE**: se deshace en la boca o se dispersa en agua para **sonda nasogástrica**, útil en disfagia, ancianos y niños.",
+      "**Más asociado a COLITIS MICROSCÓPICA** (colitis colágena o linfocítica: diarrea acuosa crónica) que otros IBP.",
+      "Dosis estándar 30 mg (≈ 20 mg de omeprazol)."
+    ],
+    "mecanismo": "Inhibidor irreversible de la H+/K+-ATPasa parietal, activado en medio ácido.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ERGE y úlcera péptica en pacientes con disfagia o sonda",
+        "dosis": "30 mg",
+        "posologia": "Cada 24 h, antes del desayuno",
+        "via": "VO",
+        "nota": "Bucodispersable dispersado en 10 mL de agua para sonda"
+      },
+      {
+        "patologia": "Gastroprotección en tratamiento con AINE",
+        "dosis": "15-30 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Mientras dure el AINE"
+      }
+    ],
+    "esquema": {
+      "inicio": "30 mg/día antes del desayuno.",
+      "titulacion": "30 mg cada 12 h en erradicación de H. pylori.",
+      "duracion": "4-8 semanas.",
+      "fin": "Retirada gradual si uso prolongado. **Suspender ante diarrea acuosa crónica** y valorar colitis microscópica.",
+      "via": "VO (incluida sonda).",
+      "monitorizacion": "Hábito intestinal; revisión de la indicación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 80%; la comida la reduce.",
+      "distribucion": "Unión a proteínas del 97%.",
+      "metabolismo": "CYP2C19 y CYP3A4.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "1,5 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis en insuficiencia moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Clopidogrel",
+          "efecto": "Posible reducción de su efecto (menor que con omeprazol)",
+          "gravedad": "media",
+          "manejo": "Preferir pantoprazol"
+        },
+        {
+          "con": "Tacrolimús",
+          "efecto": "Aumento de sus niveles",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, diarrea"
+      ],
+      "graves": [
+        "**Colitis microscópica**",
+        "Hipomagnesemia",
+        "Clostridioides difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a benzimidazoles",
+      "Uso con atazanavir"
+    ],
+    "perlas": [
+      "**Diarrea acuosa crónica en paciente con lansoprazol: pensar en colitis microscópica** (biopsias de colon con mucosa de aspecto normal)."
+    ],
+    "embarazo_lactancia": "Datos aceptables.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de ERGE"
+  },
+  {
+    "id": "DIG-domperidona",
+    "nombre": "Domperidona",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antiemético",
+    "subclase": "Antagonista dopaminérgico D2 periférico con acción procinética",
+    "vs_clase": [
+      "**NO atraviesa la barrera hematoencefálica**: a diferencia de la metoclopramida, **no produce efectos extrapiramidales** (distonías, discinesia tardía). **Es el antiemético de elección en la ENFERMEDAD DE PARKINSON** (náuseas por levodopa).",
+      "**Prolonga el QT**: dosis máxima 10 mg cada 8 h, máximo 7 días, y **contraindicada con inhibidores del CYP3A4 y otros fármacos que alargan el QT**.",
+      "Actúa en la zona gatillo quimiorreceptora (fuera de la barrera) y en el estómago.",
+      "**Eleva la prolactina** (galactorrea); se ha usado para estimular la lactancia (no autorizado)."
+    ],
+    "mecanismo": "Antagonista de receptores D2 periféricos: en el estómago aumenta el tono del esfínter esofágico inferior y acelera el vaciamiento gástrico; en la zona gatillo quimiorreceptora del área postrema (sin barrera hematoencefálica) bloquea el estímulo emético.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Náuseas y vómitos (incluidos los inducidos por fármacos dopaminérgicos en el Parkinson)",
+        "dosis": "10 mg",
+        "posologia": "Cada 8 h (máximo 30 mg/día)",
+        "via": "VO",
+        "nota": "Máximo 7 días; 15-30 min antes de las comidas"
+      }
+    ],
+    "esquema": {
+      "inicio": "**ECG si hay cardiopatía, alteraciones electrolíticas o fármacos que prolongan el QT.** 10 mg antes de las comidas.",
+      "titulacion": "No se supera 30 mg/día.",
+      "duracion": "**Máximo 7 días** (salvo uso especializado en Parkinson con control de QT).",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "QT en pacientes de riesgo; potasio y magnesio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 15% por primer paso.",
+      "distribucion": "**No atraviesa la barrera hematoencefálica.**",
+      "metabolismo": "**Hepático por CYP3A4.**",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "7-9 h.",
+      "ajuste_renal": "Insuficiencia grave: espaciar a cada 12-24 h.",
+      "ajuste_hepatico": "Contraindicada en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ketoconazol, claritromicina, eritromicina, ritonavir)",
+          "efecto": "**Aumento de niveles y del QT: torsade de pointes**",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Fármacos que prolongan el QT (antiarrítmicos, citalopram, haloperidol, metadona)",
+          "efecto": "Prolongación aditiva del QT",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Hiperprolactinemia (galactorrea, ginecomastia)",
+        "Cefalea"
+      ],
+      "graves": [
+        "**Prolongación del QT, arritmias ventriculares y muerte súbita** (sobre todo >60 años o >30 mg/día)"
+      ]
+    },
+    "contraindicaciones": [
+      "QT prolongado o cardiopatía significativa",
+      "Insuficiencia hepática moderada-grave",
+      "Uso con inhibidores potentes del CYP3A4 o fármacos que prolongan el QT",
+      "Prolactinoma",
+      "Hemorragia u obstrucción gastrointestinal"
+    ],
+    "perlas": [
+      "**Náuseas en un parkinsoniano: domperidona, nunca metoclopramida ni haloperidol** (empeoran el Parkinson).",
+      "Con levodopa, la domperidona no frena el efecto central del fármaco porque no entra en el SNC."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo. Pasa a la leche en baja cantidad.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de náuseas y vómitos"
+  },
+  {
+    "id": "DIG-bisacodilo",
+    "nombre": "Bisacodilo",
+    "sinonimos": [
+      "Senósidos (laxante estimulante de origen vegetal)"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante",
+    "subclase": "Estimulante (de contacto)",
+    "vs_clase": [
+      "**Laxante ESTIMULANTE**: actúa sobre el plexo mientérico y la secreción colónica; efecto en **6-12 h por VO** (se toma por la noche) y en **15-60 min por vía rectal**. El macrogol (osmótico) tarda 1-3 días.",
+      "**De elección en el ESTREÑIMIENTO POR OPIOIDES** junto con el osmótico (los formadores de masa están contraindicados ahí).",
+      "**Produce más dolor cólico** que los osmóticos.",
+      "**Comprimido gastrorresistente: no tomar con leche ni antiácidos ni masticar** (se disuelve en el estómago y causa dispepsia)."
+    ],
+    "mecanismo": "Profármaco hidrolizado en el colon a su forma activa, que estimula directamente las terminaciones nerviosas de la mucosa colónica (aumenta la peristalsis) y la secreción de agua y electrolitos a la luz.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estreñimiento ocasional o refractario a medidas dietéticas y osmóticos",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Evacuación a la mañana siguiente"
+      },
+      {
+        "patologia": "Estreñimiento por opioides",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Asociado a macrogol desde el inicio del opioide"
+      },
+      {
+        "patologia": "Evacuación rápida (impactación leve, preparación)",
+        "dosis": "10 mg",
+        "posologia": "Dosis única",
+        "via": "rectal",
+        "nota": "Efecto en 15-60 min"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg por la noche.",
+      "titulacion": "Subir a 10 mg si no hay respuesta.",
+      "duracion": "Corta en el estreñimiento ocasional; mientras dure el opioide en el inducido por opioides.",
+      "fin": "Suspensión directa.",
+      "via": "VO y rectal.",
+      "monitorizacion": "Ritmo intestinal, dolor abdominal, potasio en uso crónico intenso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima; activación local en el colon.",
+      "distribucion": "Local.",
+      "metabolismo": "Desacetilación por esterasas intestinales.",
+      "eliminacion": "Fecal (pequeña parte absorbida, renal).",
+      "vida_media": "No relevante (acción local).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, leche, IBP",
+          "efecto": "Disuelven la cubierta gastrorresistente: dispepsia y menor eficacia",
+          "gravedad": "baja",
+          "manejo": "Separar 1 h"
+        },
+        {
+          "con": "Diuréticos, corticoides, digoxina",
+          "efecto": "Hipopotasemia con abuso de laxantes, que favorece la toxicidad digitálica",
+          "gravedad": "media",
+          "manejo": "Evitar uso crónico intenso"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor cólico abdominal",
+        "Diarrea",
+        "Molestias rectales (supositorio)"
+      ],
+      "graves": [
+        "Deshidratación e hipopotasemia por abuso",
+        "Colitis isquémica (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal o íleo",
+      "Abdomen agudo",
+      "Enfermedad inflamatoria intestinal activa grave",
+      "Deshidratación grave"
+    ],
+    "perlas": [
+      "**Todo paciente que empieza un opioide crónico debe salir con laxante pautado** (osmótico ± estimulante), no «si precisa».",
+      "El temor al «colon catártico» por estimulantes procede de antiguos laxantes; a dosis habituales son seguros."
+    ],
+    "embarazo_lactancia": "Uso puntual aceptable; se prefieren los osmóticos o formadores de masa.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de estreñimiento"
+  },
+  {
+    "id": "DIG-racecadotrilo",
+    "nombre": "Racecadotrilo",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antidiarreico",
+    "subclase": "Antisecretor intestinal (inhibidor de la encefalinasa)",
+    "vs_clase": [
+      "**Antisecretor PURO: NO enlentece el tránsito** (la loperamida sí). No produce estreñimiento de rebote ni íleo.",
+      "**Utilizable en NIÑOS desde los 3 meses** (granulado por peso) como complemento de la rehidratación oral; la loperamida está contraindicada en menores de 2-3 años.",
+      "Sin efectos opioides centrales."
+    ],
+    "mecanismo": "Profármaco de tiorfano, que inhibe la encefalinasa intestinal: las encefalinas endógenas actúan más tiempo sobre los receptores delta del epitelio, reducen el AMPc y la **hipersecreción de agua y electrolitos**, sin modificar la motilidad.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diarrea aguda en adultos (complemento de la rehidratación)",
+        "dosis": "100 mg (primera dosis cualquier momento)",
+        "posologia": "Cada 8 h, antes de las comidas",
+        "via": "VO",
+        "nota": "Hasta que cese la diarrea, máximo 7 días"
+      },
+      {
+        "patologia": "Gastroenteritis aguda en niños ≥3 meses",
+        "dosis": "1,5 mg/kg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Siempre con SRO; máximo 7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con la solución de rehidratación oral.",
+      "titulacion": "No se titula.",
+      "duracion": "Hasta 2 deposiciones normales; máximo 7 días.",
+      "fin": "Suspensión directa al ceder la diarrea.",
+      "via": "VO.",
+      "monitorizacion": "Hidratación; reevaluar si hay sangre, fiebre alta o >7 días."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; se transforma en tiorfano.",
+      "distribucion": "No atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hidrólisis a tiorfano y metabolitos inactivos.",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h (efecto antisecretor ~8 h).",
+      "ajuste_renal": "Precaución en insuficiencia renal.",
+      "ajuste_hepatico": "Precaución en insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "IECA",
+          "efecto": "**Riesgo aumentado de angioedema** (ambos reducen la degradación de bradicinina)",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Exantema"
+      ],
+      "graves": [
+        "Angioedema",
+        "Reacciones cutáneas graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Diarrea con sangre o fiebre alta (disentería)",
+      "Antecedente de angioedema",
+      "Intolerancia a la fructosa (excipiente sacarosa en sobres)"
+    ],
+    "perlas": [
+      "**Ningún antidiarreico sustituye a la rehidratación**: son complementos.",
+      "**Paciente con IECA y diarrea: mejor loperamida que racecadotrilo** (angioedema)."
+    ],
+    "embarazo_lactancia": "No recomendado por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de diarrea aguda"
+  }
+]

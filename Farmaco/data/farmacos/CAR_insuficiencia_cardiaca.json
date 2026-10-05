@@ -1,0 +1,243 @@
+[
+  {
+    "id": "CAR-sacubitrilo-valsartan",
+    "nombre": "Sacubitrilo/valsartán",
+    "sinonimos": [
+      "ARNI",
+      "Inhibidor de la neprilisina y del receptor de angiotensina"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "ARNI (inhibidor de la neprilisina y del receptor de angiotensina)",
+    "subclase": "Inhibidor dual de la neprilisina y del receptor AT1 (ARNI)",
+    "mecanismo": "Combina dos fármacos con acciones complementarias sobre el corazón insuficiente. El SACUBITRILO, tras convertirse en sacubitrilato, inhibe la NEPRILISINA, la enzima que degrada los péptidos natriuréticos: al bloquearla se prolonga la vida del BNP y del péptido natriurético auricular, que producen vasodilatación, natriuresis y efecto antifibrótico y antihipertrófico. Pero la neprilisina degrada también la angiotensina II, de modo que inhibirla sola sería contraproducente; por eso se asocia el VALSARTÁN, que bloquea el receptor AT1. La consecuencia práctica de este diseño es que se potencia el brazo natriurético beneficioso mientras se sigue frenando el eje renina-angiotensina-aldosterona.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FRACCIÓN DE EYECCIÓN REDUCIDA",
+        "dosis": "49/51 mg cada 12 horas de inicio, duplicando cada 2-4 semanas hasta 97/103 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "dosis_objetivo": "Dosis máxima tolerada de 97/103 mg cada 12 horas, con tensión arterial, potasio y función renal aceptables",
+        "nota": "Es SUPERIOR al enalapril en mortalidad y hospitalizaciones (ensayo PARADIGM-HF): sustituye al IECA o al ARA-II, no se añade a ellos"
+      },
+      {
+        "patologia": "Inicio de dosis en el paciente naive o hipotenso",
+        "dosis": "24/26 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Dosis de inicio reducida si el paciente no venía tomando IECA o ARA-II, si toma dosis bajas, si tiene tensión sistólica de 100-110 mmHg, o si tiene insuficiencia renal o hepática moderada"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con fracción de eyección levemente reducida o preservada",
+        "dosis": "49/51 mg cada 12 horas, ascendiendo a 97/103 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Beneficio menor y limitado a las fracciones de eyección en el rango bajo del espectro; es una indicación de segunda línea tras los iSGLT2"
+      }
+    ],
+    "esquema": {
+      "inicio": "Solo tras un PERIODO DE LAVADO DE 36 HORAS desde la última dosis del IECA. Este intervalo no es negociable: solapar ambos produce angioedema por acumulación de bradicinina. Desde un ARA-II no hace falta lavado.",
+      "titulacion": "Duplicar la dosis cada 2-4 semanas hasta la máxima tolerada, vigilando tensión, potasio y creatinina en cada escalón.",
+      "duracion": "Indefinida, como todo el tratamiento modificador del pronóstico de la insuficiencia cardiaca.",
+      "fin": "No se suspende por una elevación moderada de la creatinina ni por hipotensión asintomática: primero se reducen los diuréticos y otros hipotensores. Solo se retira ante angioedema, hiperpotasemia refractaria o deterioro renal grave.",
+      "via": "Oral, con o sin alimentos.",
+      "monitorizacion": "Tensión arterial, potasio y función renal a las 1-2 semanas de cada aumento. El NT-proBNP sigue siendo válido para el seguimiento; el BNP NO, porque el propio fármaco impide su degradación y lo eleva artificialmente."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin influencia relevante de los alimentos.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "El sacubitrilo se hidroliza por esterasas a sacubitrilato (activo); el valsartán apenas se metaboliza.",
+      "eliminacion": "El sacubitrilato es de eliminación mayoritariamente renal; el valsartán, biliar.",
+      "vida_media": "Sacubitrilato 11 horas; valsartán 10 horas.",
+      "ajuste_renal": "Dosis de inicio reducida con filtrado menor de 30 mL/min. No hay experiencia en la enfermedad renal terminal.",
+      "ajuste_hepatico": "Dosis reducida en la insuficiencia hepática moderada; CONTRAINDICADO en la grave (Child-Pugh C).",
+      "interacciones": [
+        {
+          "con": "IECA",
+          "efecto": "ANGIOEDEMA por acumulación de bradicinina (ambos bloquean vías de su degradación)",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO. Lavado obligatorio de 36 horas al cambiar en cualquiera de los dos sentidos"
+        },
+        {
+          "con": "ARA-II",
+          "efecto": "Duplicación del bloqueo del receptor (ya contiene valsartán)",
+          "gravedad": "alta",
+          "manejo": "Contraindicado asociarlos"
+        },
+        {
+          "con": "Espironolactona, eplerenona y suplementos de potasio",
+          "efecto": "HIPERPOTASEMIA",
+          "gravedad": "alta",
+          "manejo": "Asociación habitual y beneficiosa, pero exige controles analíticos periódicos"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Deterioro de la función renal e hiperpotasemia; anulan el efecto natriurético",
+          "gravedad": "alta",
+          "manejo": "Evitar, sobre todo en el anciano (la triple whammy con el diurético)"
+        },
+        {
+          "con": "LITIO",
+          "efecto": "Aumento de la litemia con riesgo de intoxicación",
+          "gravedad": "alta",
+          "manejo": "Monitorizar la litemia estrechamente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOTENSIÓN, más frecuente que con el IECA y principal limitante de la titulación",
+        "Hiperpotasemia",
+        "Deterioro leve de la función renal",
+        "Mareo"
+      ],
+      "graves": [
+        "ANGIOEDEMA, más frecuente en pacientes de raza negra",
+        "Hiperpotasemia grave",
+        "Insuficiencia renal aguda, sobre todo con depleción de volumen o AINE",
+        "Hipotensión sintomática con síncope"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante de IECA o en las 36 horas siguientes a su retirada",
+      "Antecedente de ANGIOEDEMA con IECA o ARA-II",
+      "EMBARAZO (bloqueo del eje renina-angiotensina)",
+      "Insuficiencia hepática grave",
+      "Estenosis bilateral de la arteria renal",
+      "Uso concomitante de aliskiren en el diabético"
+    ],
+    "perlas": [
+      "Las 36 HORAS de lavado desde el IECA son la regla de seguridad que define este fármaco. Solapar ambos deja al paciente sin dos de las vías que degradan la bradicinina a la vez, y el angioedema resultante puede comprometer la vía aérea. Desde un ARA-II se puede cambiar directamente.",
+      "SUSTITUYE al IECA o al ARA-II, no se suma. Es un error de prescripción que se ve al alta, cuando el enalapril se queda en la lista por inercia.",
+      "El BNP deja de servir para el seguimiento: el fármaco inhibe precisamente la enzima que lo degrada, de modo que sube por motivos farmacológicos y no clínicos. El marcador válido es el NT-proBNP, que no es sustrato de la neprilisina.",
+      "La hipotensión asintomática NO es motivo para suspenderlo. Antes de tocar el ARNI hay que revisar el diurético, los nitratos, los calcioantagonistas y los alfabloqueantes: se retira primero lo que no mejora el pronóstico.",
+      "Forma parte de los CUATRO PILARES del tratamiento de la insuficiencia cardiaca con fracción de eyección reducida, junto con el betabloqueante, el antagonista del receptor mineralocorticoide y el iSGLT2. La estrategia actual es iniciarlos todos pronto y a dosis bajas, en lugar de titular uno hasta el máximo antes de empezar el siguiente.",
+      "El ANGIOEDEMA es más frecuente en pacientes de raza negra, un dato heredado de la experiencia con los IECA y que conviene tener presente antes de prescribirlo.",
+      "Su beneficio en la fracción de eyección preservada es mucho más discreto que en la reducida, y hoy queda por detrás de los iSGLT2 en esa población."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo: como todo bloqueante del eje renina-angiotensina, produce oligohidramnios, hipoplasia pulmonar, insuficiencia renal fetal y muerte. Debe suspenderse en cuanto se confirme la gestación. Contraindicado en la lactancia por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 13; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo PARADIGM-HF"
+  },
+  {
+    "id": "CAR-ivabradina",
+    "nombre": "Ivabradina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Bradicardizante",
+    "subclase": "Inhibidor selectivo de la corriente If del nodo sinusal",
+    "mecanismo": "Bloquea de forma selectiva la corriente If (funny current) de los canales HCN del NODO SINUSAL, que es la corriente responsable de la despolarización diastólica espontánea, es decir, del automatismo. Al frenarla, reduce la pendiente de esa despolarización y baja la frecuencia cardiaca SIN afectar a la contractilidad, a la conducción auriculoventricular ni a la tensión arterial. Es un bradicardizante puro: alarga la diástole, mejora la perfusión coronaria y reduce el consumo miocárdico de oxígeno sin ninguno de los efectos inotrópicos negativos ni hipotensores del betabloqueante. De ahí también su limitación fundamental: solo funciona si el marcapasos del corazón es el nodo sinusal, y por eso es inútil en la fibrilación auricular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con fracción de eyección reducida, en ritmo SINUSAL y frecuencia de 70 latidos por minuto o más pese al betabloqueante a dosis máxima tolerada",
+        "dosis": "5 mg cada 12 horas de inicio, ajustando a 7,5 mg cada 12 horas o bajando a 2,5 mg cada 12 horas",
+        "posologia": "Cada 12 horas con las comidas",
+        "via": "VO",
+        "dosis_objetivo": "Frecuencia cardiaca en reposo entre 50 y 60 latidos por minuto",
+        "nota": "Reduce hospitalizaciones por insuficiencia cardiaca (ensayo SHIFT). NO sustituye al betabloqueante: se añade cuando este, a la dosis máxima tolerada, no baja lo suficiente la frecuencia"
+      },
+      {
+        "patologia": "Angina estable crónica en el paciente que no tolera o no controla con betabloqueante",
+        "dosis": "5 mg cada 12 horas, ajustable a 7,5 mg cada 12 horas",
+        "posologia": "Cada 12 horas con las comidas",
+        "via": "VO",
+        "nota": "Alternativa útil en el asmático o en el bronquítico que no tolera el betabloqueante. Sin beneficio pronóstico demostrado en esta indicación"
+      },
+      {
+        "patologia": "Paciente mayor de 75 años o con riesgo de bradicardia",
+        "dosis": "2,5 mg cada 12 horas de inicio",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Titular con especial cautela"
+      }
+    ],
+    "esquema": {
+      "inicio": "Solo después de haber optimizado el betabloqueante hasta su dosis máxima tolerada. Comprobar antes que el ritmo es SINUSAL y que la frecuencia en reposo es de 70 latidos por minuto o más.",
+      "titulacion": "Revisión a las 2-4 semanas: si la frecuencia sigue por encima de 60, subir a 7,5 mg cada 12 horas; si baja de 50 o aparecen síntomas de bradicardia, reducir a 2,5 mg cada 12 horas.",
+      "duracion": "Indefinida mientras se mantengan el ritmo sinusal y el beneficio.",
+      "fin": "Suspender si el paciente pasa a FIBRILACIÓN AURICULAR, si aparece bradicardia sintomática que no responde a la reducción de dosis, o si aparecen alteraciones visuales molestas.",
+      "via": "Oral, con las comidas (mejora la previsibilidad de la absorción).",
+      "monitorizacion": "Frecuencia cardiaca y ritmo, con ECG periódico. Vigilar activamente la aparición de fibrilación auricular, que el fármaco favorece."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida, con biodisponibilidad del 40% por metabolismo presistémico. Los alimentos retrasan la absorción pero la hacen más constante.",
+      "distribucion": "Unión a proteínas del 70%.",
+      "metabolismo": "Hepático e intestinal por CYP3A4, del que es un sustrato muy sensible.",
+      "eliminacion": "Renal y fecal a partes similares, en forma de metabolitos.",
+      "vida_media": "Efectiva de unas 11 horas.",
+      "ajuste_renal": "No requiere ajuste hasta un filtrado de 15 mL/min.",
+      "ajuste_hepatico": "Precaución en la insuficiencia moderada; CONTRAINDICADO en la grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (claritromicina, ketoconazol, itraconazol, ritonavir, nefazodona)",
+          "efecto": "Aumento marcado de las concentraciones con BRADICARDIA grave",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS"
+        },
+        {
+          "con": "Diltiazem y verapamilo",
+          "efecto": "Inhiben el CYP3A4 y además bradicardizan por su cuenta",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la asociación"
+        },
+        {
+          "con": "Zumo de POMELO",
+          "efecto": "Duplica las concentraciones plasmáticas",
+          "gravedad": "media",
+          "manejo": "Evitarlo durante el tratamiento"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, hierba de San Juan, anticonvulsivantes)",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar o prever el ajuste de dosis"
+        },
+        {
+          "con": "Fármacos que alargan el QT (amiodarona, sotalol, quinidina)",
+          "efecto": "La bradicardia favorece las torsades de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación o vigilar el QT"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "FOSFENOS: destellos luminosos transitorios ante cambios bruscos de luz, en torno al 15% de los pacientes",
+        "Bradicardia",
+        "Cefalea y mareo",
+        "Visión borrosa"
+      ],
+      "graves": [
+        "Bradicardia sintomática grave con síncope",
+        "FIBRILACIÓN AURICULAR de nueva aparición, con incidencia aumentada respecto al placebo",
+        "Bloqueo auriculoventricular",
+        "Prolongación del QT con riesgo de torsades en combinaciones desfavorables"
+      ]
+    },
+    "contraindicaciones": [
+      "FIBRILACIÓN AURICULAR y cualquier ritmo no sinusal (es sencillamente ineficaz)",
+      "Frecuencia cardiaca en reposo menor de 70 latidos por minuto antes de iniciarlo",
+      "Enfermedad del seno, bloqueo sinoauricular, bloqueo auriculoventricular de tercer grado",
+      "Dependencia de marcapasos",
+      "Shock cardiogénico, infarto agudo de miocardio e hipotensión grave",
+      "Insuficiencia hepática grave",
+      "Uso concomitante de inhibidores potentes del CYP3A4",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "Solo sirve si el que manda es el NODO SINUSAL. En fibrilación auricular no hace nada, porque la frecuencia ventricular la determina la conducción por el nodo auriculoventricular y no el automatismo sinusal. Prescribirla a un paciente en fibrilación auricular es un error conceptual, no un matiz.",
+      "NO sustituye al betabloqueante: se añade. El betabloqueante mejora la supervivencia y la ivabradina no; el orden correcto es exprimir primero el betabloqueante y solo después, si la frecuencia sigue en 70 o más, añadir ivabradina.",
+      "Los FOSFENOS son su efecto adverso característico y una excelente pista de mecanismo: los canales HCN del nodo sinusal son los mismos que hay en la RETINA, y de ahí los destellos ante los cambios bruscos de luz. Son benignos, dosis-dependientes y suelen atenuarse; advertirlos de antemano evita abandonos y consultas urgentes de oftalmología.",
+      "Baja la frecuencia SIN bajar la tensión ni la contractilidad. Eso la convierte en el bradicardizante del paciente hipotenso o con función sistólica muy deprimida, en el que el betabloqueante no puede subirse más.",
+      "Paradójicamente, favorece la FIBRILACIÓN AURICULAR, que es a su vez la situación en la que deja de servir. Hay que buscarla activamente en el seguimiento y suspenderla si aparece.",
+      "Su beneficio en el ensayo SHIFT fue sobre hospitalizaciones por insuficiencia cardiaca, no sobre mortalidad total. Es un fármaco de síntomas y de ingresos, y así conviene explicárselo al paciente.",
+      "Es un sustrato muy sensible del CYP3A4: la claritromicina, un antifúngico azólico o incluso el zumo de pomelo pueden provocar una bradicardia grave en un paciente estable."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADA en el embarazo (embriotoxicidad y efectos cardiacos en animales) y en la lactancia. Requiere anticoncepción eficaz en la mujer en edad fértil.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12; guías de la ESC 2021 sobre insuficiencia cardiaca; ensayo SHIFT"
+  }
+]

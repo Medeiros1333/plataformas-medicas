@@ -1,0 +1,260 @@
+[
+  {
+    "id": "VIR-influenza",
+    "nombre": "Virus influenza (gripe A y B)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad NEGATIVA, SEGMENTADO (8 segmentos), con envoltura, familia Orthomyxoviridae",
+    "morfologia_tincion": "Virión pleomórfico con envoltura lipídica de la que sobresalen dos glucoproteínas: HEMAGLUTININA (H) y NEURAMINIDASA (N), que definen el subtipo (H1N1, H3N2…).",
+    "mecanismo_patogenia": [
+      "HEMAGLUTININA: se une a los residuos de ácido siálico del epitelio respiratorio y media la entrada del virus y la fusión de membranas. Es la principal diana de los anticuerpos neutralizantes y el antígeno clave de las vacunas.",
+      "NEURAMINIDASA: rompe el ácido siálico y permite la LIBERACIÓN de los viriones recién formados de la célula infectada. Es la diana del oseltamivir y el zanamivir.",
+      "DERIVA ANTIGÉNICA (antigenic drift): mutaciones puntuales acumuladas en H y N por la ausencia de corrección de la ARN polimerasa. Obliga a REFORMULAR LA VACUNA cada año y causa las epidemias estacionales.",
+      "SALTO ANTIGÉNICO (antigenic shift): reordenamiento (reassortment) de segmentos genómicos completos entre virus humano y animal en un huésped intermediario (clásicamente el cerdo). Genera un virus frente al que la población carece de inmunidad: es el mecanismo de las PANDEMIAS. Solo ocurre en el virus de la gripe A, porque solo este tiene reservorio animal amplio.",
+      "Destrucción del epitelio ciliado respiratorio: facilita la SOBREINFECCIÓN BACTERIANA secundaria por S. pneumoniae, S. aureus y H. influenzae, principal causa de mortalidad en la gripe.",
+      "Tormenta de citocinas en las formas graves, con neumonía vírica primaria y síndrome de distrés respiratorio."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gripe no complicada",
+        "clinica": "Comienzo BRUSCO (el paciente sabe decir la hora exacta) con fiebre alta, cefalea, mialgias intensas, astenia marcada y postración, junto a tos seca y odinofagia. Predominio de los síntomas SISTÉMICOS sobre los catarrales.",
+        "lesiones": "Traqueobronquitis con destrucción del epitelio ciliado.",
+        "clave": "La brusquedad del inicio y el predominio de mialgias y postración sobre la rinorrea distinguen la gripe del catarro común."
+      },
+      {
+        "cuadro": "Neumonía bacteriana secundaria",
+        "clinica": "Mejoría inicial de 3-5 días seguida de un NUEVO pico febril, con tos productiva purulenta y condensación.",
+        "lesiones": "Condensación lobar (neumococo) o neumonía necrosante y cavitada (S. aureus, incluida la productora de PVL).",
+        "clave": "El patrón bifásico (mejora y vuelve a empeorar) es la señal de alarma. La neumonía estafilocócica postgripal es especialmente grave."
+      },
+      {
+        "cuadro": "Neumonía vírica primaria",
+        "clinica": "Progresión SIN mejoría intermedia: disnea creciente, hipoxemia refractaria y distrés respiratorio en 24-48 h.",
+        "lesiones": "Daño alveolar difuso con membranas hialinas; infiltrados bilaterales.",
+        "clave": "Más frecuente en embarazadas, obesos y cardiópatas; alta mortalidad."
+      },
+      {
+        "cuadro": "Complicaciones extrapulmonares",
+        "clinica": "Miositis con rabdomiólisis (sobre todo en niños, con dolor en pantorrillas y CPK muy elevada), miocarditis, pericarditis, encefalitis, síndrome de Guillain-Barré.",
+        "lesiones": "Necrosis muscular; miocarditis linfocitaria.",
+        "clave": "El síndrome de Reye (encefalopatía y esteatosis hepática) se asocia al uso de ASPIRINA en niños con gripe o varicela: por eso está contraindicada en la infancia."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Solo la gripe A produce pandemias, porque solo ella tiene un reservorio animal amplio (aves acuáticas, cerdos) que permite el reordenamiento genético.",
+      "La deriva antigénica obliga a revacunar cada año; la vacuna debe administrarse anualmente incluso al ya vacunado.",
+      "La vacunación está indicada en mayores de 65 años, embarazadas (en cualquier trimestre), enfermos crónicos, inmunodeprimidos, personal sanitario y convivientes de personas de riesgo.",
+      "La causa más frecuente de muerte no es el virus sino la SOBREINFECCIÓN BACTERIANA: ante un segundo pico febril hay que pensar en neumonía bacteriana y no en «que la gripe dura más».",
+      "El oseltamivir es tanto más eficaz cuanto más precoz; en el paciente hospitalizado grave se administra aunque hayan pasado más de 48 h.",
+      "La aspirina está contraindicada en niños y adolescentes con gripe o varicela por el riesgo de síndrome de Reye.",
+      "La transmisión es por gotas y contacto; el paciente contagia desde 1 día antes de los síntomas y hasta 5-7 días después (más en niños e inmunodeprimidos)."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis o aspirado NASOFARÍNGEO; aspirado traqueal o lavado broncoalveolar en el paciente intubado.",
+      "pruebas": [
+        "PCR (RT-PCR) en muestra respiratoria: prueba de elección, alta sensibilidad y permite tipar A/B y subtipo",
+        "Test rápido de detección de antígeno: resultado en minutos, pero SENSIBILIDAD BAJA (50-70%); un negativo no descarta la gripe en plena epidemia",
+        "Cultivo viral: reservado a vigilancia epidemiológica",
+        "Radiografía de tórax ante sospecha de complicación"
+      ],
+      "claves": "En temporada epidémica, con clínica típica, el diagnóstico es clínico y no debe retrasarse el tratamiento por esperar la PCR en el paciente de riesgo."
+    },
+    "tratamiento": {
+      "eleccion": "OSELTAMIVIR 75 mg/12 h durante 5 días, iniciado idealmente en las primeras 48 h. Indicado en pacientes de riesgo, hospitalizados o con criterios de gravedad.",
+      "alternativas": "Zanamivir inhalado (evitar en asma y EPOC por broncoespasmo), peramivir IV, baloxavir. Tratamiento sintomático con paracetamol (NUNCA aspirina en niños).",
+      "resistencias": "Los virus estacionales actuales son mayoritariamente sensibles a oseltamivir. Resistencia universal a amantadina y rimantadina, que ya no se usan.",
+      "duracion": "5 días de tratamiento; 10 días de profilaxis postexposición.",
+      "notas": "La VACUNACIÓN ANUAL es la medida preventiva principal. En el paciente hospitalizado, aislamiento por gotas. Ante un segundo pico febril, valorar antibiótico por sobreinfección bacteriana."
+    },
+    "farmacos_relacionados": [
+      "INF-oseltamivir"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 48 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de gripe"
+  },
+  {
+    "id": "VIR-virus-herpes-simple",
+    "nombre": "Virus herpes simple tipo 1 y 2 (VHS-1, VHS-2)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN bicatenario con envoltura, familia Herpesviridae, subfamilia Alphaherpesvirinae; establece LATENCIA en los ganglios sensitivos",
+    "morfologia_tincion": "Virión icosaédrico con envoltura. En el frotis de Tzanck de una lesión se observan células gigantes multinucleadas con inclusiones intranucleares (indistinguibles de las del virus varicela-zóster).",
+    "mecanismo_patogenia": [
+      "Infección primaria del epitelio mucocutáneo con replicación lítica y formación de vesículas por degeneración balonizante de los queratinocitos.",
+      "LATENCIA de por vida en las neuronas de los ganglios sensitivos: VHS-1 en el ganglio del TRIGÉMINO, VHS-2 en los ganglios SACROS. Durante la latencia solo se transcriben los LAT (latency-associated transcripts), sin producción de proteínas virales, lo que lo hace invisible al sistema inmunitario y explica que NINGÚN antivírico pueda erradicarlo.",
+      "Reactivación desencadenada por fiebre, luz ultravioleta, estrés, menstruación, inmunodepresión o traumatismo local, con migración anterógrada por el axón hasta la piel o mucosa.",
+      "Codifica su propia TIMIDINA CINASA, que fosforila selectivamente el aciclovir solo en las células infectadas: esa es la base de la seguridad del fármaco y también el mecanismo por el que surgen resistencias (cepas deficientes en timidina cinasa).",
+      "En la encefalitis herpética, el virus alcanza los LÓBULOS TEMPORALES por vía neural desde el bulbo olfatorio o el trigémino, produciendo necrosis hemorrágica."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gingivoestomatitis herpética primaria (VHS-1)",
+        "clinica": "Niño pequeño con fiebre alta, irritabilidad, rechazo de la ingesta y múltiples vesículas y úlceras dolorosas en encías, lengua y mucosa oral, con adenopatías cervicales.",
+        "lesiones": "Vesículas que se ulceran, con gingivitis intensa y sangrante.",
+        "clave": "Es la primoinfección más frecuente por VHS-1; el principal problema es la deshidratación por rechazo de líquidos."
+      },
+      {
+        "cuadro": "Herpes labial recurrente",
+        "clinica": "Pródromo de quemazón u hormigueo, seguido de un ramillete de vesículas agrupadas sobre base eritematosa en el borde bermellón del labio, que se ulceran y forman costra en 7-10 días.",
+        "lesiones": "Vesículas agrupadas «en racimo» siempre en la misma localización.",
+        "clave": "El tratamiento tópico apenas modifica el curso; el tratamiento oral solo es útil si se inicia en la fase de pródromo."
+      },
+      {
+        "cuadro": "Herpes genital (VHS-2, cada vez más VHS-1)",
+        "clinica": "Primoinfección: vesículas y úlceras genitales MUY DOLOROSAS, múltiples y bilaterales, con adenopatías inguinales dolorosas, fiebre y disuria; puede haber retención urinaria. Las recurrencias son más leves y unilaterales.",
+        "lesiones": "Úlceras genitales dolorosas de fondo limpio (a diferencia del chancro sifilítico, único e INDOLORO).",
+        "clave": "Úlcera genital DOLOROSA y múltiple = herpes; INDOLORA y única = sífilis. Es la causa más frecuente de úlcera genital en países desarrollados."
+      },
+      {
+        "cuadro": "Encefalitis herpética (VHS-1)",
+        "clinica": "Fiebre, cefalea, alteración del comportamiento y del lenguaje, crisis convulsivas y disminución del nivel de conciencia, de instauración en días.",
+        "lesiones": "Necrosis HEMORRÁGICA de los LÓBULOS TEMPORALES, típicamente asimétrica; hiperintensidad temporal en la RM y actividad periódica lateralizada en el EEG.",
+        "clave": "Es la encefalitis esporádica más frecuente y una de las pocas TRATABLES: el aciclovir se inicia INMEDIATAMENTE ante la sospecha, antes de la PCR. Mortalidad >70% sin tratamiento."
+      },
+      {
+        "cuadro": "Queratitis herpética",
+        "clinica": "Dolor ocular, fotofobia, lagrimeo y visión borrosa unilateral.",
+        "lesiones": "ÚLCERA DENDRÍTICA corneal, visible con fluoresceína, con ramificaciones características.",
+        "clave": "Los CORTICOIDES TÓPICOS están CONTRAINDICADOS: agravan la úlcera y pueden causar perforación. Es la primera causa infecciosa de ceguera corneal en países desarrollados."
+      },
+      {
+        "cuadro": "Herpes neonatal",
+        "clinica": "Tres formas: piel-ojos-boca; afectación del SNC; y enfermedad diseminada con fallo multiorgánico. Adquirido en el 85% de los casos durante el parto.",
+        "lesiones": "Vesículas cutáneas, coriorretinitis, hepatitis y coagulopatía en la forma diseminada.",
+        "clave": "El riesgo es MUCHO mayor si la madre tiene una PRIMOINFECCIÓN cerca del parto (30-50%) que si tiene una recurrencia (<3%), porque en la primoinfección no hay anticuerpos maternos protectores. Indicación de cesárea si hay lesiones activas."
+      },
+      {
+        "cuadro": "Panadizo herpético y herpes gladiatorum",
+        "clinica": "Vesículas dolorosas en el pulpejo del dedo (sanitarios, odontólogos) o lesiones cutáneas en luchadores por contacto piel con piel.",
+        "lesiones": "Vesículas agrupadas sobre base eritematosa.",
+        "clave": "El panadizo herpético NO debe drenarse quirúrgicamente: se confunde con un panadizo bacteriano y la incisión empeora el cuadro."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La latencia neuronal hace la infección INCURABLE: los antivíricos controlan los brotes y reducen la transmisión, pero no erradican el virus. Explicarlo al paciente es parte del tratamiento.",
+      "VHS-1 se aloja en el ganglio del trigémino (herpes labial, queratitis, encefalitis); VHS-2 en los ganglios sacros (herpes genital, meningitis de Mollaret recurrente). La separación ya no es estricta: el VHS-1 causa hoy una proporción creciente de herpes genital.",
+      "En la sospecha de encefalitis herpética, el aciclovir se administra ANTES de la PCR del LCR: el retraso es la principal causa de secuelas.",
+      "El aciclovir depende de la timidina cinasa VIRAL; las cepas resistentes (en inmunodeprimidos) carecen de ella y requieren FOSCARNET, que actúa directamente sobre la ADN polimerasa sin necesitar activación previa.",
+      "La transmisión sexual del VHS-2 ocurre también en periodos ASINTOMÁTICOS por excreción vírica subclínica: el preservativo reduce pero no elimina el riesgo.",
+      "El tratamiento supresor crónico (valaciclovir diario) reduce las recurrencias y la transmisión a la pareja en aproximadamente un 50%.",
+      "El valaciclovir es preferible al aciclovir oral: misma eficacia con 2-3 tomas al día en lugar de 5."
+    ],
+    "diagnostico": {
+      "muestra": "Líquido de la base de una vesícula reciente (raspado), LCR en la encefalitis, exudado corneal.",
+      "pruebas": [
+        "PCR: prueba de elección en todas las localizaciones, especialmente en LCR para la encefalitis (sensibilidad >95%)",
+        "Cultivo viral de la vesícula: buena especificidad, menor sensibilidad, sobre todo en lesiones costrosas",
+        "Citodiagnóstico de Tzanck: rápido pero inespecífico (no distingue VHS de VVZ) y poco sensible",
+        "Serología tipo-específica (glucoproteína G): útil para saber si una persona está infectada, NO para diagnosticar un brote agudo",
+        "RM cerebral y EEG en la encefalitis"
+      ],
+      "claves": "Una PCR de LCR negativa en las primeras 24-48 h de una encefalitis no descarta el diagnóstico: hay que mantener el aciclovir y repetirla."
+    },
+    "tratamiento": {
+      "eleccion": "ENCEFALITIS: aciclovir 10 mg/kg/8 h IV durante 14-21 días. HERPES GENITAL primario: valaciclovir 1 g/12 h VO 7-10 días. RECURRENCIAS: valaciclovir 500 mg/12 h 3 días. SUPRESIÓN crónica: valaciclovir 500 mg/24 h.",
+      "alternativas": "Aciclovir oral 400 mg/8 h o famciclovir. En cepas resistentes al aciclovir (deficientes en timidina cinasa): FOSCARNET IV o cidofovir. Queratitis: antivíricos tópicos (ganciclovir gel, trifluridina) con seguimiento oftalmológico.",
+      "resistencias": "Poco frecuentes en inmunocompetentes; hasta el 5-10% en inmunodeprimidos con exposición repetida, por mutaciones en la timidina cinasa.",
+      "duracion": "14-21 días en la encefalitis; 7-10 días en la primoinfección genital; 1-5 días en las recurrencias; indefinida en la supresión crónica, con reevaluación anual.",
+      "notas": "En la gestante con herpes genital, tratamiento supresor desde la semana 36 y cesárea si hay lesiones activas o pródromos en el momento del parto."
+    },
+    "farmacos_relacionados": [
+      "DER-inhibidores-calcineurina-topicos",
+      "INF-aciclovir",
+      "INF-valaciclovir",
+      "OFT-antiinfecciosos-corticoides-oculares",
+      "PED-DER-corticoides-topicos"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 43 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por virus herpes simple"
+  },
+  {
+    "id": "VIR-virus-varicela-zoster",
+    "nombre": "Virus varicela-zóster (VVZ)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN bicatenario con envoltura, familia Herpesviridae (herpesvirus humano tipo 3); latencia en los ganglios de las raíces dorsales",
+    "morfologia_tincion": "Virión icosaédrico con envoltura, morfológicamente idéntico al VHS. El frotis de Tzanck muestra células gigantes multinucleadas indistinguibles de las del herpes simple.",
+    "mecanismo_patogenia": [
+      "Primoinfección por vía respiratoria (es ALTAMENTE contagioso por vía AÉREA, no solo por gotas): replicación en la mucosa respiratoria, viremia primaria, replicación en el sistema reticuloendotelial y viremia secundaria que siembra la PIEL, produciendo el exantema generalizado de la varicela.",
+      "LATENCIA en los ganglios de las raíces dorsales y en los ganglios de los pares craneales.",
+      "REACTIVACIÓN al declinar la inmunidad celular específica (edad, inmunosupresión, estrés): el virus se replica en el ganglio y desciende por el nervio sensitivo, produciendo un exantema limitado a un DERMATOMA — el herpes zóster.",
+      "La inflamación y necrosis del ganglio y del nervio explican el dolor neuropático intenso y la NEURALGIA POSTHERPÉTICA, que es una lesión nerviosa, no una infección persistente.",
+      "En el inmunodeprimido, la reactivación puede diseminarse por vía hematógena y afectar a múltiples dermatomas y a órganos internos (neumonitis, hepatitis, encefalitis)."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Varicela",
+        "clinica": "Fiebre y exantema PRURIGINOSO generalizado que evoluciona en brotes: mácula → pápula → vesícula «en gota de rocío» sobre base eritematosa → pústula → costra. Característicamente coexisten LESIONES EN DISTINTOS ESTADIOS en la misma zona.",
+        "lesiones": "Vesículas superficiales de contenido claro; afectación de mucosas y del cuero cabelludo (dato diferencial frente a otros exantemas).",
+        "clave": "El polimorfismo regional (lesiones en distintas fases a la vez) es el signo característico. En el ADULTO la varicela es mucho más grave, con riesgo de neumonía varicelosa."
+      },
+      {
+        "cuadro": "Neumonía varicelosa",
+        "clinica": "Tos, disnea e hipoxemia 3-5 días tras el exantema, sobre todo en ADULTOS, fumadores, embarazadas e inmunodeprimidos.",
+        "lesiones": "Infiltrados nodulares difusos bilaterales que pueden dejar CALCIFICACIONES pulmonares miliares residuales.",
+        "clave": "Es la complicación más grave de la varicela del adulto y la principal causa de mortalidad; obliga a aciclovir IV."
+      },
+      {
+        "cuadro": "Herpes zóster",
+        "clinica": "Dolor neuropático quemante que PRECEDE en 2-3 días al exantema, seguido de vesículas agrupadas limitadas a UN DERMATOMA, unilaterales y que no cruzan la línea media. Localización más frecuente: torácica.",
+        "lesiones": "Vesículas agrupadas sobre base eritematosa en banda metamérica.",
+        "clave": "El dolor previo al exantema es causa frecuente de errores diagnósticos (se confunde con cólico, infarto o lumbalgia). Un zóster en un paciente joven obliga a descartar inmunodepresión (VIH, neoplasia)."
+      },
+      {
+        "cuadro": "Herpes zóster oftálmico",
+        "clinica": "Afectación de la rama oftálmica del trigémino, con dolor y vesículas en frente y párpado; riesgo de queratitis, uveítis y glaucoma.",
+        "lesiones": "SIGNO DE HUTCHINSON: vesículas en la punta y el ala de la nariz (rama nasociliar), que predice afectación ocular.",
+        "clave": "El signo de Hutchinson obliga a derivación OFTALMOLÓGICA URGENTE: la afectación corneal puede dejar ceguera."
+      },
+      {
+        "cuadro": "Síndrome de Ramsay Hunt (zóster ótico)",
+        "clinica": "Parálisis facial periférica, otalgia intensa y vesículas en el conducto auditivo externo y el pabellón; puede haber hipoacusia y vértigo.",
+        "lesiones": "Vesículas en la concha auricular y el conducto.",
+        "clave": "Peor pronóstico de recuperación de la parálisis facial que la parálisis de Bell idiopática; requiere aciclovir MÁS corticoides."
+      },
+      {
+        "cuadro": "Neuralgia postherpética",
+        "clinica": "Dolor neuropático intenso persistente más de 90 días tras la resolución del exantema, con alodinia; el riesgo aumenta drásticamente con la edad (>50% en mayores de 70 años).",
+        "lesiones": "Lesión estructural del ganglio y del nervio sensitivo.",
+        "clave": "Es la complicación más frecuente e incapacitante. El tratamiento antivírico PRECOZ (<72 h) reduce su incidencia y duración; una vez establecida, se trata con gabapentina, pregabalina, amitriptilina o lidocaína tópica."
+      },
+      {
+        "cuadro": "Varicela congénita y neonatal",
+        "clinica": "Síndrome de varicela congénita (si la infección materna ocurre antes de la semana 20): cicatrices cutáneas cicatriciales metaméricas, hipoplasia de extremidades, atrofia cortical y coriorretinitis. Varicela neonatal grave si la madre enferma entre 5 días antes y 2 días después del parto.",
+        "lesiones": "Cicatrices en zigzag metaméricas; malformaciones neurológicas y oculares.",
+        "clave": "La ventana periparto (−5/+2 días) es la de máximo riesgo porque el neonato recibe el virus sin anticuerpos maternos: requiere inmunoglobulina específica."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Se transmite por vía AÉREA además de por contacto: el paciente con varicela o con zóster diseminado requiere aislamiento AÉREO y de contacto, no solo de gotas.",
+      "Un paciente con herpes zóster puede transmitir el virus por contacto con las vesículas y causar VARICELA (no zóster) en una persona susceptible.",
+      "El zóster en menores de 50 años sin causa aparente obliga a descartar inmunodepresión, especialmente infección por VIH.",
+      "El tratamiento antivírico del zóster debe iniciarse en las primeras 72 HORAS del exantema: pasada esa ventana su beneficio sobre la neuralgia postherpética se pierde en gran medida.",
+      "La aspirina está contraindicada en niños con varicela por el riesgo de síndrome de Reye.",
+      "Existen dos vacunas distintas: la de virus vivos atenuados frente a la VARICELA (calendario infantil, contraindicada en inmunodeprimidos y embarazadas) y la vacuna RECOMBINANTE frente al ZÓSTER (Shingrix), indicada a partir de los 50-65 años y segura en inmunodeprimidos.",
+      "La sobreinfección bacteriana de las lesiones por S. pyogenes o S. aureus es la complicación más frecuente en el niño y puede llegar a fascitis necrosante."
+    ],
+    "diagnostico": {
+      "muestra": "Raspado de la base de una vesícula reciente; LCR en la afectación neurológica; lavado broncoalveolar en la neumonitis.",
+      "pruebas": [
+        "PCR del líquido vesicular: prueba de elección, distingue VVZ de VHS",
+        "Inmunofluorescencia directa de células de la base de la vesícula: rápida y específica",
+        "Serología IgG para determinar susceptibilidad (útil antes de vacunar o en la embarazada expuesta)",
+        "Citodiagnóstico de Tzanck: inespecífico",
+        "El diagnóstico de la varicela y del zóster típicos es fundamentalmente CLÍNICO"
+      ],
+      "claves": "El Tzanck no distingue VVZ de VHS: si esa diferenciación importa (por ejemplo, en un inmunodeprimido), hay que hacer PCR."
+    },
+    "tratamiento": {
+      "eleccion": "HERPES ZÓSTER: valaciclovir 1 g/8 h VO 7 días (o aciclovir 800 mg 5 veces al día), iniciado en las primeras 72 h. VARICELA en adulto, inmunodeprimido o con complicaciones: aciclovir 10 mg/kg/8 h IV.",
+      "alternativas": "Famciclovir, brivudina (contraindicada con 5-fluorouracilo y capecitabina por toxicidad mortal). En el niño inmunocompetente con varicela no complicada, tratamiento SINTOMÁTICO (antihistamínicos, higiene) sin antivírico.",
+      "resistencias": "Raras; en inmunodeprimidos con exposición prolongada pueden aparecer cepas deficientes en timidina cinasa que requieren foscarnet.",
+      "duracion": "7 días en el zóster; 7-10 días en la varicela grave; 10-14 días IV en la afectación visceral o del SNC.",
+      "notas": "Profilaxis postexposición en susceptibles de riesgo: vacuna en las primeras 72-96 h (si no está contraindicada) o INMUNOGLOBULINA específica en embarazadas, inmunodeprimidos y neonatos expuestos. Los corticoides se añaden al antivírico en el Ramsay Hunt y en el zóster oftálmico, nunca en monoterapia."
+    },
+    "farmacos_relacionados": [
+      "INF-aciclovir",
+      "INF-valaciclovir",
+      "PED-NFR-prednisona-nefrotico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 43 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por virus varicela-zóster"
+  }
+]

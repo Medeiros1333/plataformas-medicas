@@ -1,0 +1,244 @@
+[
+  {
+    "id": "OFT-hipotensores-oculares",
+    "nombre": "Hipotensores oculares tópicos (análogos de prostaglandinas, betabloqueantes, inhibidores de la anhidrasa carbónica, alfa-2 agonistas)",
+    "sinonimos": [
+      "Colirios del glaucoma"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antiglaucomatoso",
+    "subclase": "Colirios que reducen la presión intraocular",
+    "mecanismo": "La presión intraocular depende del equilibrio entre la PRODUCCIÓN de humor acuoso por el cuerpo ciliar y su DRENAJE por dos vías: la trabecular (convencional) y la uveoescleral. Cada familia actúa sobre un punto distinto de ese equilibrio, y por eso se combinan. Los ANÁLOGOS DE PROSTAGLANDINAS (latanoprost, bimatoprost, travoprost) aumentan el drenaje UVEOESCLERAL al remodelar la matriz extracelular del músculo ciliar; son los más eficaces y los únicos de administración nocturna única. Los BETABLOQUEANTES (timolol) reducen la PRODUCCIÓN de acuoso al bloquear los receptores beta del epitelio ciliar. Los INHIBIDORES DE LA ANHIDRASA CARBÓNICA tópicos (dorzolamida, brinzolamida) también reducen la producción, bloqueando la enzima que genera el bicarbonato que arrastra el agua. Los ALFA-2 AGONISTAS (brimonidina) hacen las dos cosas: reducen la producción y aumentan el drenaje uveoescleral. La lección práctica es que el fármaco es tópico pero el efecto puede ser SISTÉMICO: el colirio drena por la vía lagrimal a la mucosa nasal, se absorbe y evita el primer paso hepático.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "GLAUCOMA CRÓNICO de ángulo abierto e hipertensión ocular",
+        "dosis": "Latanoprost 0,005%, una gota en el ojo afectado por la NOCHE",
+        "posologia": "Una gota al día, por la noche",
+        "via": "oftálmica",
+        "dosis_objetivo": "Reducción de la presión intraocular en un 20-30% respecto a la basal, o hasta la presión diana individual definida según el daño del nervio óptico",
+        "nota": "Los análogos de prostaglandinas son la PRIMERA LÍNEA: los más eficaces, una sola aplicación diaria y sin efectos sistémicos relevantes"
+      },
+      {
+        "patologia": "Glaucoma que no alcanza la presión diana en monoterapia",
+        "dosis": "Timolol 0,5% una gota cada 12 horas, o combinación fija de timolol con dorzolamida o con un análogo de prostaglandinas",
+        "posologia": "Cada 12 o cada 24 horas según la combinación",
+        "via": "oftálmica",
+        "nota": "Las COMBINACIONES FIJAS reducen el número de instilaciones y mejoran mucho la adherencia, que es el gran problema de esta enfermedad asintomática"
+      },
+      {
+        "patologia": "CRISIS DE GLAUCOMA AGUDO de ángulo cerrado",
+        "dosis": "Acetazolamida 500 mg IV, más timolol, brimonidina y pilocarpina 2% tópicas, y manitol 1-2 g/kg IV si no responde",
+        "posologia": "Tratamiento combinado urgente",
+        "via": "oftálmica",
+        "dosis_objetivo": "Descenso rápido de la presión intraocular por debajo de 30 mmHg y resolución del bloqueo pupilar",
+        "nota": "Es una URGENCIA que puede dejar ceguera en horas. El tratamiento definitivo es la IRIDOTOMÍA con láser, que hay que hacer también en el ojo contralateral de forma profiláctica"
+      },
+      {
+        "patologia": "Glaucoma en el paciente con contraindicación de betabloqueantes",
+        "dosis": "Brimonidina 0,2% cada 12 horas o brinzolamida 1% cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "oftálmica",
+        "nota": "La BRIMONIDINA está contraindicada en el LACTANTE y en el niño pequeño: produce apnea y depresión del sistema nervioso central"
+      }
+    ],
+    "esquema": {
+      "inicio": "Definir una PRESIÓN DIANA individual según la presión basal, el daño del nervio óptico, el campo visual y la esperanza de vida. Empezar por monoterapia con un análogo de prostaglandinas, habitualmente en UN solo ojo para comparar con el otro y comprobar la eficacia real.",
+      "titulacion": "Si no se alcanza la diana, se cambia de fármaco o se añade un segundo de mecanismo distinto, nunca dos de la misma familia.",
+      "duracion": "INDEFINIDA, de por vida.",
+      "fin": "No se retira. El glaucoma es asintomático hasta fases muy avanzadas y el daño es IRREVERSIBLE: abandonar el tratamiento no produce ningún síntoma que avise al paciente.",
+      "via": "Tópica oftálmica. La técnica correcta importa: una sola gota (el saco conjuntival no admite más), cerrar el ojo y comprimir el CANTO INTERNO durante 2 minutos, y esperar 5 minutos entre colirios distintos.",
+      "monitorizacion": "Presión intraocular, campo visual y tomografía de coherencia óptica del nervio óptico de forma periódica. Vigilar la adherencia, que es el punto débil del tratamiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "Escasa absorción intraocular, pero absorción SISTÉMICA significativa a través de la mucosa NASOLAGRIMAL, que evita el primer paso hepático: por eso un colirio de timolol puede producir efectos equivalentes a un betabloqueante oral.",
+      "distribucion": "Local y sistémica.",
+      "metabolismo": "Los análogos de prostaglandinas son profármacos que se hidrolizan en la córnea.",
+      "eliminacion": "Hepática y renal en la fracción absorbida.",
+      "vida_media": "El efecto hipotensor de los análogos dura más de 24 horas, lo que permite la dosis única nocturna.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes SISTÉMICOS",
+          "efecto": "Bradicardia y bloqueo aditivos con el timolol tópico",
+          "gravedad": "alta",
+          "manejo": "Sumar la carga betabloqueante: el colirio cuenta como fármaco sistémico y a menudo no figura en la lista de medicación del paciente"
+        },
+        {
+          "con": "Verapamilo, diltiazem, digoxina y amiodarona",
+          "efecto": "Bradicardia grave y bloqueo auriculoventricular",
+          "gravedad": "alta",
+          "manejo": "Precaución con el timolol tópico en el paciente cardiópata"
+        },
+        {
+          "con": "IMAO y antidepresivos tricíclicos (brimonidina)",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la brimonidina con IMAO"
+        },
+        {
+          "con": "Otro colirio administrado inmediatamente después",
+          "efecto": "El segundo LAVA el primero y ambos pierden eficacia",
+          "gravedad": "media",
+          "manejo": "Esperar al menos 5 minutos entre colirios distintos: es una instrucción sencilla que decide si el tratamiento funciona"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ANÁLOGOS DE PROSTAGLANDINAS: HIPERPIGMENTACIÓN del iris (permanente), crecimiento y oscurecimiento de las PESTAÑAS, hiperemia conjuntival y surco palpebral profundo",
+        "TIMOLOL: escozor y visión borrosa transitoria",
+        "DORZOLAMIDA: sabor AMARGO metálico (por drenaje a la faringe) y escozor intenso",
+        "BRIMONIDINA: sequedad de boca, somnolencia y conjuntivitis alérgica tardía"
+      ],
+      "graves": [
+        "TIMOLOL tópico: BRONCOESPASMO grave en el asmático y en el paciente con EPOC, BRADICARDIA, bloqueo, insuficiencia cardiaca y enmascaramiento de la hipoglucemia en el diabético; ha causado muertes",
+        "BRIMONIDINA: APNEA, hipotensión y depresión del sistema nervioso central en el LACTANTE y el niño pequeño",
+        "Análogos de prostaglandinas: reactivación de queratitis herpética, edema macular quístico y uveítis anterior",
+        "Reacciones alérgicas al conservante (cloruro de benzalconio) con queratitis y ojo seco crónico",
+        "Acidosis metabólica con los inhibidores de la anhidrasa carbónica"
+      ]
+    },
+    "contraindicaciones": [
+      "TIMOLOL: ASMA, EPOC grave, bradicardia sinusal, bloqueo auriculoventricular avanzado e insuficiencia cardiaca descompensada",
+      "BRIMONIDINA: menores de 2 años y uso de IMAO",
+      "Análogos de prostaglandinas: precaución en la uveítis activa y en el antecedente de herpes ocular",
+      "Alergia a las sulfamidas para los inhibidores de la anhidrasa carbónica"
+    ],
+    "perlas": [
+      "Un COLIRIO ES UN FÁRMACO SISTÉMICO. El timolol tópico ha provocado broncoespasmos mortales en asmáticos y bradicardias sintomáticas en cardiópatas, porque se absorbe por la mucosa nasal evitando el primer paso hepático. Y casi nunca aparece en la lista de medicación que el paciente refiere: hay que preguntar expresamente por colirios.",
+      "Comprimir el CANTO INTERNO durante 2 minutos tras instilar reduce a la mitad la absorción sistémica y aumenta la ocular. Es la instrucción más rentable que se le puede dar a un paciente con glaucoma, y prácticamente nadie se la explica.",
+      "Solo cabe UNA GOTA en el saco conjuntival: la segunda se desborda y solo aumenta la absorción sistémica. Poner dos gotas no mejora nada y sí añade riesgo.",
+      "Hay que esperar 5 MINUTOS entre colirios distintos, o el segundo arrastra al primero. En un paciente con tres colirios distintos, la técnica de administración determina la eficacia tanto como la elección de los fármacos.",
+      "La HIPERPIGMENTACIÓN del IRIS por los análogos de prostaglandinas es PERMANENTE, y en el tratamiento de un solo ojo produce una heterocromía visible que sorprende mucho al paciente si no se le ha advertido. El crecimiento de las pestañas, en cambio, se aprovechó como indicación cosmética.",
+      "El glaucoma crónico es ASINTOMÁTICO hasta que el daño es irreversible: no duele, no enrojece y la visión central se conserva hasta el final. Por eso la ADHERENCIA es pésima y por eso las combinaciones fijas, que reducen el número de instilaciones, tienen un valor real y no solo comercial.",
+      "La BRIMONIDINA está contraindicada en el LACTANTE: atraviesa la barrera hematoencefálica inmadura y produce apnea y depresión neurológica. Es un colirio aparentemente inocuo que ha causado ingresos en cuidados intensivos pediátricos.",
+      "El CLORURO DE BENZALCONIO, el conservante presente en la mayoría de los colirios, produce toxicidad corneal y ojo seco con el uso crónico. En el paciente que lleva tres colirios de por vida, las formulaciones SIN conservante no son un lujo.",
+      "La crisis de glaucoma AGUDO se reconoce por la tríada de ojo rojo doloroso, visión borrosa con halos y pupila en MIDRIASIS MEDIA arreactiva, a menudo con náuseas y vómitos que desvían el diagnóstico hacia el abdomen. Es una urgencia de horas y el tratamiento definitivo es la iridotomía con láser."
+    ],
+    "embarazo_lactancia": "Los datos son limitados. Los análogos de prostaglandinas se evitan en el embarazo por su potencial efecto uterotónico teórico. El timolol es el de mayor experiencia acumulada, con la precaución de la compresión del canto interno para minimizar la absorción y del riesgo de bradicardia neonatal. En la lactancia, el timolol pasa a la leche y hay que vigilar al lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 10; guías de la European Glaucoma Society"
+  },
+  {
+    "id": "OFT-anti-vegf",
+    "nombre": "Anti-VEGF intravítreos (ranibizumab, aflibercept, bevacizumab)",
+    "sinonimos": [
+      "Inyecciones intravítreas"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antiangiogénico",
+    "subclase": "Inhibidores del factor de crecimiento del endotelio vascular de administración intravítrea",
+    "mecanismo": "Neutralizan el FACTOR DE CRECIMIENTO DEL ENDOTELIO VASCULAR (VEGF), la citocina que en la retina isquémica induce la formación de vasos NUEVOS, anómalos y con una pared incompetente que deja escapar líquido y sangre. Ese proceso es el mecanismo común de las tres grandes causas de ceguera en países desarrollados: la degeneración macular asociada a la edad exudativa, el edema macular diabético y el edema por oclusión venosa retiniana. Al bloquear el VEGF se secan los neovasos, se reabsorbe el líquido subretiniano e intrarretiniano y se estabiliza o mejora la visión. Se administran por INYECCIÓN INTRAVÍTREA para alcanzar concentraciones altas en la retina evitando la exposición sistémica, aunque una pequeña fracción pasa a la circulación y reduce el VEGF plasmático, lo que sustenta la preocupación teórica por los eventos tromboembólicos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DEGENERACIÓN MACULAR asociada a la edad, forma EXUDATIVA (húmeda)",
+        "dosis": "Ranibizumab 0,5 mg o aflibercept 2 mg intravítreos: 3 dosis mensuales de carga y después según pauta de tratar y extender",
+        "posologia": "Mensual de carga y después intervalos crecientes",
+        "via": "intravítrea",
+        "dosis_objetivo": "Retina seca en la tomografía de coherencia óptica, sin líquido intrarretiniano ni subretiniano",
+        "nota": "Transformó una enfermedad que llevaba inexorablemente a la pérdida de la visión central en una enfermedad tratable, con ganancia visual en una proporción sustancial de pacientes"
+      },
+      {
+        "patologia": "EDEMA MACULAR DIABÉTICO",
+        "dosis": "Aflibercept 2 mg o ranibizumab 0,5 mg mensuales de carga y después según respuesta",
+        "posologia": "Mensual y después individualizada",
+        "via": "intravítrea",
+        "nota": "Ha desplazado a la fotocoagulación con láser como primera línea; el control de la glucemia y de la tensión sigue siendo imprescindible"
+      },
+      {
+        "patologia": "Edema macular por OCLUSIÓN VENOSA retiniana",
+        "dosis": "Ranibizumab 0,5 mg o aflibercept 2 mg mensuales",
+        "posologia": "Mensual hasta estabilización",
+        "via": "intravítrea",
+        "nota": "Hay que estudiar y tratar los factores de riesgo cardiovascular: la oclusión venosa es un marcador de enfermedad vascular sistémica"
+      },
+      {
+        "patologia": "Retinopatía diabética proliferativa y neovascularización del iris",
+        "dosis": "Aflibercept 2 mg intravítreo",
+        "posologia": "Según protocolo",
+        "via": "intravítrea",
+        "nota": "Complementa o pospone la panfotocoagulación; en el glaucoma neovascular es un tratamiento de rescate"
+      },
+      {
+        "patologia": "Retinopatía del PREMATURO",
+        "dosis": "Bevacizumab 0,25-0,625 mg o ranibizumab 0,2 mg intravítreos",
+        "posologia": "Dosis única, repetible",
+        "via": "intravítrea",
+        "nota": "Alternativa al láser que preserva más campo visual periférico, pero con dudas sobre el efecto sistémico del VEGF en un organismo en pleno desarrollo vascular"
+      }
+    ],
+    "esquema": {
+      "inicio": "Diagnóstico confirmado con tomografía de coherencia óptica y angiografía. Procedimiento en condiciones de ASEPSIA quirúrgica, con povidona yodada al 5% en el fondo de saco conjuntival, que es la medida que más reduce la endoftalmitis.",
+      "titulacion": "Fase de CARGA de 3 dosis mensuales y después pautas individualizadas: tratar y extender (alargando progresivamente el intervalo mientras la retina siga seca) o según necesidad guiada por la tomografía.",
+      "duracion": "AÑOS, a menudo indefinida. Es un tratamiento crónico con una carga asistencial y personal enorme para el paciente.",
+      "fin": "Se espacian las inyecciones mientras la retina permanezca seca. La reactivación es frecuente y obliga a un seguimiento indefinido.",
+      "via": "Inyección intravítrea en quirófano o en sala de procedimientos con condiciones de asepsia.",
+      "monitorizacion": "Agudeza visual y tomografía de coherencia óptica en cada visita. Tras la inyección: presión intraocular y advertencia de los signos de alarma."
+    },
+    "farmacocinetica": {
+      "absorcion": "Administración intravítrea directa; una fracción pequeña pasa a la circulación sistémica.",
+      "distribucion": "Concentraciones altas y mantenidas en el vítreo y la retina.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Aclaramiento vítreo y sistémico.",
+      "vida_media": "Vítrea de 5-10 días; el aflibercept tiene mayor afinidad y duración, lo que permite intervalos más largos.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros antiangiogénicos sistémicos",
+          "efecto": "Suma teórica de riesgo tromboembólico y de retraso en la cicatrización",
+          "gravedad": "media",
+          "manejo": "Valoración individual en el paciente oncológico tratado con bevacizumab sistémico"
+        },
+        {
+          "con": "Anticoagulantes y antiagregantes",
+          "efecto": "NO es necesario suspenderlos para la inyección intravítrea",
+          "gravedad": "baja",
+          "manejo": "Es una duda muy frecuente: la inyección se realiza sin retirar la anticoagulación, cuyo riesgo de suspensión supera al de una hemorragia conjuntival"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HEMORRAGIA SUBCONJUNTIVAL en el punto de inyección, muy llamativa y completamente banal",
+        "Sensación de cuerpo extraño y molestia ocular",
+        "MOSCAS VOLANTES transitorias por la burbuja del propio fármaco",
+        "Elevación transitoria de la presión intraocular tras la inyección"
+      ],
+      "graves": [
+        "ENDOFTALMITIS infecciosa: complicación más temida (en torno a 1 de cada 2000-5000 inyecciones), con dolor intenso, pérdida de visión y ojo rojo en los 3-7 días siguientes; puede dejar ceguera si no se trata en horas",
+        "Desprendimiento de retina y desgarro del epitelio pigmentario",
+        "Hemorragia vítrea",
+        "Uveítis y pseudoendoftalmitis inflamatoria estéril",
+        "Catarata traumática",
+        "Eventos tromboembólicos arteriales sistémicos (riesgo pequeño y discutido)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección ocular o periocular ACTIVA (blefaritis, conjuntivitis, dacriocistitis): hay que tratarla antes",
+      "Endoftalmitis previa reciente",
+      "Glaucoma no controlado",
+      "Ictus o infarto reciente (valoración individualizada)",
+      "EMBARAZO"
+    ],
+    "perlas": [
+      "La instrucción que hay que dar SIEMPRE al alta, y que puede salvar un ojo: si en los días siguientes a la inyección aparece DOLOR intenso, ENROJECIMIENTO creciente o PÉRDIDA DE VISIÓN, hay que acudir de urgencia el mismo día. Es la presentación de la endoftalmitis, y su pronóstico depende de horas.",
+      "La medida que más reduce la endoftalmitis es la POVIDONA YODADA al 5% en el fondo de saco conjuntival antes de la inyección; los antibióticos tópicos profilácticos, en cambio, NO han demostrado beneficio y favorecen resistencias.",
+      "La HEMORRAGIA SUBCONJUNTIVAL es aparatosa y absolutamente banal: un ojo rojo intenso que asusta al paciente y a su familia. Advertirla de antemano evita consultas urgentes innecesarias, y distinguirla del dolor con pérdida de visión es lo que importa.",
+      "Es un tratamiento CRÓNICO, no una cura. El paciente acudirá cada 4-12 semanas durante años a que le pinchen un ojo: la carga asistencial y personal es enorme, y el abandono del seguimiento es una causa frecuente de pérdida visual en pacientes que iban bien.",
+      "El BEVACIZUMAB no está autorizado para uso ocular pero se emplea de forma extendida por su coste, muchísimo menor. Los ensayos comparativos no han mostrado diferencias relevantes de eficacia frente al ranibizumab: es un caso interesante de tensión entre evidencia, regulación y economía sanitaria.",
+      "NO hay que suspender la anticoagulación para la inyección intravítrea. Es una duda que aparece constantemente, y suspender un anticoagulante conlleva mucho más riesgo que una hemorragia conjuntival.",
+      "En la degeneración macular hay que distinguir las dos formas: la SECA (atrófica) es la más frecuente y NO responde a los anti-VEGF, mientras que la HÚMEDA (exudativa) es la que se trata. Confundirlas genera expectativas imposibles.",
+      "Una OCLUSIÓN VENOSA retiniana es un marcador de enfermedad vascular sistémica: además de tratar el edema macular hay que estudiar y controlar la tensión arterial, la diabetes y el perfil lipídico, porque el ojo está avisando de algo que ocurre en todo el árbol vascular.",
+      "En el edema macular diabético, el anti-VEGF no sustituye al control metabólico: sin controlar la glucemia y la tensión arterial, el edema recidiva y las inyecciones se vuelven interminables."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo: el VEGF es esencial para la angiogénesis fetal y placentaria. Se recomienda anticoncepción eficaz durante el tratamiento y en los 3 meses siguientes. Datos escasos en la lactancia; se recomienda precaución.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; guías de la EURETINA sobre degeneración macular y edema macular diabético"
+  }
+]

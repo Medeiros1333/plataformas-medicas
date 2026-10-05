@@ -1,0 +1,270 @@
+[
+  {
+    "id": "PSQ-olanzapina",
+    "nombre": "Olanzapina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antipsicótico",
+    "subclase": "Antipsicótico atípico (antagonista dopaminérgico y serotoninérgico)",
+    "vs_clase": [
+      "**Muy eficaz pero el que más SÍNDROME METABÓLICO produce** (aumento de peso, diabetes, dislipemia), junto con la clozapina.",
+      "**Muy sedante**: útil en la agitación aguda (IM) y la manía.",
+      "**IM no combinable con benzodiacepinas parenterales** (depresión cardiorrespiratoria)."
+    ],
+    "mecanismo": "Bloquea receptores D2 dopaminérgicos y, con mayor afinidad todavía, receptores 5-HT2A serotoninérgicos. Esa proporción a favor de la serotonina es lo que define a los antipsicóticos ATÍPICOS: el bloqueo 5-HT2A desinhibe la liberación de dopamina en la vía NIGROESTRIADA, contrarrestando parcialmente el bloqueo D2 en esa vía concreta y reduciendo mucho los síntomas extrapiramidales, mientras se mantiene el bloqueo D2 en la vía mesolímbica, que es el que produce el efecto antipsicótico. El precio de esa ventaja está en su promiscuidad por otros receptores: bloquea H1 (sedación y aumento de apetito), muscarínicos (efectos anticolinérgicos) y alfa-1 (hipotensión), y actúa sobre receptores 5-HT2C hipotalámicos implicados en la saciedad. De ahí procede su gran problema, que no es neurológico sino METABÓLICO: es, junto con la clozapina, el antipsicótico que más peso, más dislipidemia y más diabetes produce.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ESQUIZOFRENIA y trastornos psicóticos",
+        "dosis": "5-10 mg al día de inicio, hasta 20 mg al día",
+        "posologia": "Una toma diaria, habitualmente nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Control de los síntomas positivos con la dosis mínima eficaz",
+        "nota": "Es uno de los antipsicóticos más eficaces, y su problema no es la eficacia sino la carga metabólica"
+      },
+      {
+        "patologia": "MANÍA aguda y mantenimiento del trastorno bipolar",
+        "dosis": "10-15 mg al día, hasta 20 mg",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Muy eficaz en la manía; en el mantenimiento hay que sopesar el beneficio frente al síndrome metabólico a largo plazo"
+      },
+      {
+        "patologia": "AGITACIÓN psicótica aguda",
+        "dosis": "10 mg IM, repetible hasta 30 mg al día",
+        "posologia": "Bolo repetible",
+        "via": "IM",
+        "nota": "NO administrar la formulación intramuscular junto con benzodiazepinas parenterales: se han descrito depresión respiratoria y muertes. Hay que separarlas al menos una hora"
+      },
+      {
+        "patologia": "Náuseas y vómitos refractarios en cuidados paliativos y por quimioterapia",
+        "dosis": "5-10 mg al día",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "Uso creciente y muy eficaz por su acción sobre múltiples receptores emetógenos, aprovechando además su efecto orexígeno"
+      }
+    ],
+    "esquema": {
+      "inicio": "PESO, perímetro abdominal, tensión arterial, glucemia, hemoglobina glucosilada y perfil LIPÍDICO basales. Sin esa analítica de partida no se puede detectar después lo que el fármaco produce.",
+      "titulacion": "Ascenso según respuesta; en el anciano, la mitad de la dosis.",
+      "duracion": "Prolongada en la esquizofrenia. En el delirium y en la agitación, DÍAS, con retirada explícita al alta.",
+      "fin": "Retirada gradual. Vigilar la reaparición de los síntomas y el rebote colinérgico.",
+      "via": "Oral (existe bucodispersable, útil para asegurar la toma), intramuscular y depot quincenal.",
+      "monitorizacion": "PESO en cada visita, y glucemia y perfil lipídico a los 3 meses y después anualmente. Prolactina y ECG si hay factores de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin efecto de la comida.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP1A2 y glucuronidación.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "30-38 horas, lo que permite una sola toma diaria.",
+      "ajuste_renal": "Sin ajuste relevante.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "TABACO",
+          "efecto": "Induce el CYP1A2 y REDUCE sus niveles hasta un 30-50%",
+          "gravedad": "alta",
+          "manejo": "Es una interacción de enorme relevancia práctica: un paciente esquizofrénico fumador que deja de fumar al ingresar en una planta sin humo puede INTOXICARSE con su dosis habitual. Hay que reducir la dosis al dejar de fumar y subirla al reanudarlo"
+        },
+        {
+          "con": "BENZODIAZEPINAS parenterales (con olanzapina intramuscular)",
+          "efecto": "Depresión respiratoria, hipotensión y muertes descritas",
+          "gravedad": "alta",
+          "manejo": "Separar al menos una hora; no administrarlas simultáneamente"
+        },
+        {
+          "con": "Ciprofloxacino y fluvoxamina (inhibidores del CYP1A2)",
+          "efecto": "Aumentan sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis"
+        },
+        {
+          "con": "Otros fármacos que aumentan de peso y que alargan el QT",
+          "efecto": "Efectos metabólicos y cardiacos aditivos",
+          "gravedad": "media",
+          "manejo": "Vigilar peso, perfil metabólico y ECG"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "AUMENTO DE PESO muy marcado, a menudo de más de 7 kg, y el mayor de los antipsicóticos junto con la clozapina",
+        "SEDACIÓN",
+        "Aumento del apetito",
+        "Sequedad de boca y estreñimiento",
+        "Hipotensión ortostática",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "SÍNDROME METABÓLICO completo: obesidad, DIABETES de nueva aparición, dislipidemia e hipertensión, que reducen la esperanza de vida más que la propia enfermedad psiquiátrica",
+        "CETOACIDOSIS diabética de debut, a veces sin obesidad previa",
+        "Síndrome neuroléptico maligno",
+        "Discinesia tardía (menos frecuente que con los típicos, pero posible)",
+        "Aumento de la mortalidad en el ANCIANO con demencia",
+        "Prolongación del QT",
+        "Convulsiones y descenso del umbral convulsivo"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Precaución máxima en el anciano con demencia (aumento de mortalidad)",
+      "Diabetes mal controlada y síndrome metabólico establecido",
+      "Administración intramuscular simultánea con benzodiazepinas parenterales"
+    ],
+    "perlas": [
+      "Su problema no es neurológico sino METABÓLICO. Da pocos extrapiramidales pero produce un aumento de peso considerable, diabetes y dislipidemia, y esa carga cardiovascular explica buena parte de los años de vida que pierden los pacientes con esquizofrenia. El seguimiento correcto no es preguntar por los síntomas psicóticos, es pesar al paciente y pedirle una analítica.",
+      "Hay que medir el PESO, el perímetro abdominal, la glucemia y los lípidos ANTES de la primera dosis. Sin basal no hay comparación posible, y el deterioro metabólico se instaura despacio y pasa desapercibido durante años.",
+      "La interacción con el TABACO es de las más prácticas de toda la psiquiatría: fumar induce el CYP1A2 y baja sus niveles hasta a la mitad. Un paciente fumador que ingresa en una planta sin humo deja de fumar de golpe y puede intoxicarse con su dosis de siempre, apareciendo sedado y rígido sin que nadie entienda por qué.",
+      "La olanzapina INTRAMUSCULAR y las benzodiazepinas PARENTERALES no se administran a la vez: hay muertes descritas por depresión respiratoria e hipotensión. En la agitación aguda, donde la tentación de darlo todo junto es máxima, hay que separarlas al menos una hora.",
+      "Puede debutar con una CETOACIDOSIS diabética sin obesidad previa: no es solo que engorde, es que altera directamente la sensibilidad a la insulina. Ante poliuria y polidipsia en un paciente tratado, hay que medir la glucemia sin demora.",
+      "En el ANCIANO con demencia aumenta la mortalidad, como todos los antipsicóticos. Eso no lo prohíbe, pero exige indicación estricta, dosis mínima, consentimiento informado y una FECHA DE REVISIÓN escrita.",
+      "Su uso como ANTIEMÉTICO en cuidados paliativos y en quimioterapia está creciendo con buenos resultados: bloquea varios receptores emetógenos a la vez y, en un paciente caquéctico, el aumento de apetito deja de ser un problema para convertirse en una ventaja.",
+      "La presentación BUCODISPERSABLE es útil en el paciente poco colaborador, aunque conviene saber que se absorbe igual y no evita el efecto sistémico: no es una forma de dar menos fármaco."
+    ],
+    "embarazo_lactancia": "Es de los antipsicóticos con más experiencia en el embarazo y no se ha asociado de forma consistente a malformaciones; el riesgo principal es la diabetes gestacional y la macrosomía. La decisión se individualiza sopesando el riesgo de recaída psicótica, que es alto. Compatible con la lactancia con vigilancia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; guías NICE de psicosis y esquizofrenia"
+  },
+  {
+    "id": "PSQ-clozapina",
+    "nombre": "Clozapina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Antipsicótico",
+    "subclase": "Antipsicótico atípico de segunda línea con perfil de receptores único",
+    "vs_clase": [
+      "**El ÚNICO eficaz en la ESQUIZOFRENIA RESISTENTE** y el que más reduce el suicidio.",
+      "**AGRANULOCITOSIS**: control obligatorio de neutrófilos (semanal 18 semanas, después mensual).",
+      "**Miocarditis**, convulsiones, **hipersalivación**, estreñimiento grave (íleo) y síndrome metabólico.",
+      "Sin extrapiramidalismo: útil en la psicosis del Parkinson. **El tabaco reduce sus niveles** (CYP1A2)."
+    ],
+    "mecanismo": "Tiene una afinidad por el receptor D2 sorprendentemente BAJA y se disocia de él con rapidez, mientras bloquea intensamente los receptores 5-HT2A, D4, muscarínicos, H1 y alfa-1. Esa baja ocupación D2 explica dos hechos aparentemente contradictorios: que apenas produzca síntomas extrapiramidales ni hiperprolactinemia (es el único antipsicótico realmente seguro en la enfermedad de Parkinson), y que, pese a ello, sea el MÁS EFICAZ de todos en la esquizofrenia resistente, lo que demuestra que el bloqueo D2 intenso no es toda la historia del efecto antipsicótico. Su mecanismo exacto sigue sin estar del todo aclarado, y es una de las pocas veces en que un fármaco de eficacia superior se mantiene en segunda línea no por su mecanismo sino por su toxicidad: la AGRANULOCITOSIS obliga a un control hematológico estricto de por vida.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ESQUIZOFRENIA RESISTENTE (fracaso de al menos dos antipsicóticos a dosis y tiempo adecuados)",
+        "dosis": "12,5 mg el primer día, con ascenso muy lento hasta 300-450 mg al día",
+        "posologia": "Repartida en 2 tomas, con la mayor por la noche",
+        "via": "VO",
+        "dosis_objetivo": "Nivel plasmático superior a 350 ng/mL antes de considerarla ineficaz",
+        "nota": "Es el ÚNICO fármaco con eficacia demostrada en la esquizofrenia resistente. Se infrautiliza y se retrasa años, y ese retraso tiene un coste real en la vida del paciente"
+      },
+      {
+        "patologia": "Reducción del riesgo de SUICIDIO en la esquizofrenia y el trastorno esquizoafectivo",
+        "dosis": "200-450 mg al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Es el único antipsicótico con reducción demostrada de la conducta suicida, y esa es una indicación por derecho propio"
+      },
+      {
+        "patologia": "PSICOSIS en la enfermedad de PARKINSON y en la demencia por cuerpos de Lewy",
+        "dosis": "6,25-12,5 mg por la noche, hasta 25-50 mg",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "A dosis muy bajas es el antipsicótico de elección aquí: NO empeora el parkinsonismo, a diferencia de todos los demás salvo la quetiapina"
+      },
+      {
+        "patologia": "Discinesia tardía grave y agresividad refractaria",
+        "dosis": "100-300 mg al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Es el único antipsicótico que puede MEJORAR una discinesia tardía en lugar de agravarla"
+      }
+    ],
+    "esquema": {
+      "inicio": "Registro del paciente en el programa de control hematológico. Hemograma basal con neutrófilos por encima de 1500. Ascenso MUY LENTO desde 12,5 mg, con control de tensión arterial, frecuencia cardiaca y temperatura.",
+      "titulacion": "Incrementos de 25-50 mg cada pocos días. Un ascenso rápido produce hipotensión, sedación extrema y riesgo de miocarditis.",
+      "duracion": "Indefinida mientras haya eficacia.",
+      "fin": "Retirada MUY gradual: la suspensión brusca produce psicosis de rebote grave y un síndrome colinérgico de retirada. Si se interrumpe más de 48 horas, hay que REINICIAR la titulación desde 12,5 mg.",
+      "via": "Oral.",
+      "monitorizacion": "HEMOGRAMA SEMANAL las primeras 18 semanas, después mensual DE POR VIDA. Además: temperatura y troponina las primeras semanas (miocarditis), peso, glucemia, lípidos, tensión arterial y hábito intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP1A2 (principal), CYP3A4 y CYP2D6.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "12-16 horas.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Reducir la dosis; contraindicada en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "TABACO",
+          "efecto": "Induce el CYP1A2 y reduce sus niveles hasta un 50%; DEJAR DE FUMAR puede DUPLICARLOS y producir sedación grave, convulsiones e intoxicación",
+          "gravedad": "alta",
+          "manejo": "Es la interacción crítica de este fármaco. Un ingreso hospitalario sin tabaco obliga a reducir la dosis de forma preventiva y a medir niveles"
+        },
+        {
+          "con": "CIPROFLOXACINO, fluvoxamina y otros inhibidores del CYP1A2",
+          "efecto": "Elevan mucho sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis y medir niveles; elegir otro antibiótico si es posible"
+        },
+        {
+          "con": "Carbamazepina y otros mielotóxicos",
+          "efecto": "AGRANULOCITOSIS aditiva",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA la combinación con carbamazepina"
+        },
+        {
+          "con": "Benzodiazepinas",
+          "efecto": "Depresión respiratoria y colapso, sobre todo al inicio de la titulación",
+          "gravedad": "alta",
+          "manejo": "Evitar o reducir mucho la dosis en las primeras semanas"
+        },
+        {
+          "con": "Fármacos anticolinérgicos y opioides",
+          "efecto": "Agravan el ÍLEO por el potente efecto anticolinérgico de la clozapina",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha del hábito intestinal y laxantes profilácticos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SIALORREA nocturna, paradójica en un fármaco anticolinérgico, muy frecuente y socialmente incapacitante",
+        "SEDACIÓN intensa",
+        "AUMENTO DE PESO marcado",
+        "Taquicardia sinusal",
+        "ESTREÑIMIENTO, muy frecuente y potencialmente grave",
+        "Hipotensión ortostática",
+        "Fiebre transitoria benigna en las primeras semanas"
+      ],
+      "graves": [
+        "AGRANULOCITOSIS (en torno al 1%), que motiva el control hematológico obligatorio de por vida",
+        "MIOCARDITIS y miocardiopatía, sobre todo en las primeras 8 semanas: fiebre, taquicardia, disnea y elevación de troponina",
+        "ÍLEO PARALÍTICO y megacolon tóxico con perforación: es hoy la causa de MÁS MUERTES por clozapina que la propia agranulocitosis, y sin embargo se vigila mucho menos",
+        "CONVULSIONES, dosis-dependientes (por encima de 600 mg al día)",
+        "Síndrome metabólico y diabetes",
+        "Tromboembolia venosa",
+        "Miocardiopatía y síndrome neuroléptico maligno"
+      ]
+    },
+    "contraindicaciones": [
+      "Neutrófilos por debajo de 1500 o antecedente de agranulocitosis por clozapina",
+      "Enfermedad mieloproliferativa o depresión medular",
+      "Uso concomitante de CARBAMAZEPINA",
+      "Íleo paralítico y estreñimiento grave no controlado",
+      "Epilepsia no controlada",
+      "Miocarditis previa por clozapina",
+      "Psicosis alcohólica y tóxica, y estados comatosos"
+    ],
+    "perlas": [
+      "Es el antipsicótico MÁS EFICAZ que existe en la esquizofrenia resistente, y sin embargo se retrasa años. Cada año de retraso son meses de síntomas, ingresos y deterioro funcional que probablemente se podrían haber evitado. Su infrautilización es un problema real de calidad asistencial.",
+      "El ESTREÑIMIENTO mata más que la agranulocitosis. Es el dato que más sorprende: la vigilancia hematológica está institucionalizada, pero el íleo paralítico y el megacolon tóxico, que son hoy la causa principal de muerte por clozapina, se vigilan poco. Hay que preguntar por el hábito intestinal en CADA visita y pautar laxante de forma preventiva.",
+      "La interacción con el TABACO es crítica y bidireccional: fumar reduce sus niveles hasta a la mitad, y dejar de fumar los duplica. Un paciente que ingresa en una planta sin humo, o que decide dejar de fumar por su cuenta, puede pasar de una dosis estable a una intoxicación con sedación grave y convulsiones.",
+      "Si el paciente deja de tomarla más de 48 HORAS, hay que REINICIAR la titulación desde 12,5 mg. Retomar la dosis previa tras un fin de semana sin medicación puede producir hipotensión grave y colapso.",
+      "La MIOCARDITIS aparece típicamente en las primeras 8 semanas y se presenta con fiebre, taquicardia y malestar, síntomas que se atribuyen fácilmente a una infección banal. Ante ese cuadro hay que pedir troponina, proteína C reactiva y ecocardiograma.",
+      "La SIALORREA nocturna es paradójica en un fármaco tan anticolinérgico, y es una de las causas más frecuentes de abandono por vergüenza social. Merece la pena preguntarla explícitamente y tratarla.",
+      "Es el ÚNICO antipsicótico con reducción demostrada del SUICIDIO, y también el único que puede MEJORAR una discinesia tardía. Son dos argumentos que se olvidan al valorar si vale la pena asumir su seguimiento.",
+      "En la psicosis del PARKINSON es el fármaco de elección, a dosis diez veces menores que las psiquiátricas: es el único, junto con la quetiapina, que no empeora el parkinsonismo.",
+      "Antes de declararla ineficaz hay que medir NIVELES: por debajo de 350 ng/mL el fármaco no ha tenido su oportunidad, y muchos supuestos fracasos son infradosificaciones."
+    ],
+    "embarazo_lactancia": "Datos limitados. Se puede mantener cuando la alternativa es una recaída psicótica grave, con vigilancia del recién nacido (riesgo de agranulocitosis neonatal, sedación y convulsiones). NO se recomienda la lactancia: se concentra en la leche y se han descrito agranulocitosis y sedación en el lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; guías NICE sobre esquizofrenia resistente y protocolos de monitorización de clozapina"
+  }
+]

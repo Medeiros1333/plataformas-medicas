@@ -1,0 +1,398 @@
+## 0. CABEÇALHO
+
+**Código:** PED-119 · **Especialidade:** Pediatria · **Tema:** Síndrome de Down · **Assunto:** Acompanhamento pediátrico (puericultura) da criança com síndrome de Down — rastreamento sistemático de comorbidades, curvas de crescimento específicas e calendário de exames complementares por idade · **Tier:** A · **Nº de questões:** 3 (INEP2023-1-Q098, INEP2023-2-Q058, INEP2024-1-Q053) — extraídas de 16 das 18 edições já classificadas no banco; as 2 edições restantes ainda não foram processadas · **Tempo estimado de estudo:** 75 min · **Pré-requisitos:** noções básicas de puericultura e curvas de crescimento (ver PED-02) · **Data de geração:** 2026-08-08
+
+---
+
+## 1. TEORIA
+
+A síndrome de Down (trissomia do cromossomo 21) é a cromossomopatia mais comum em nascidos vivos e uma das condições mais cobradas em pediatria no Revalida justamente porque testa uma habilidade central da 2ª fase e da prática real: **seguir um protocolo de rastreamento sistemático mesmo quando a criança parece clinicamente bem**. A banca não costuma pedir diagnóstico (o fenótipo é reconhecível), mas sim se o candidato sabe *o que pedir, quando pedir, e por que não dispensar um exame só porque o exame físico está normal*.
+
+**Características fenotípicas ao nascimento [CONSENSO].** O diagnóstico clínico costuma ser suspeitado já na sala de parto ou no alojamento conjunto pela combinação de achados craniofaciais e corporais — nenhum isoladamente é patognomônico, mas o conjunto é característico:
+- Face: pregas palpebrais oblíquas para cima (fissuras palpebrais ascendentes), epicanto, manchas de Brushfield na íris, ponte nasal achatada, protrusão/macroglossia relativa com língua sulcada, palato ogival, retrognatia, pavilhão auricular pequeno e de implantação baixa, occipital achatado (braquicefalia).
+- Corpo: hipotonia global e frouxidão ligamentar (achado quase universal e clinicamente relevante ao longo de toda a infância — ver instabilidade atlantoaxial e de quadril adiante), excesso de tecido adiposo/prega cutânea no dorso do pescoço, diástase dos músculos retos abdominais, braquidactilia, clinodactilia do 5º dedo, prega palmar única transversa (prega simiesca), aumento do espaço entre o hálux e o 2º pododáctilo ("sandal gap").
+- Nenhum desses achados isolados fecha diagnóstico — a confirmação é sempre por **cariótipo**.
+
+**Comorbidades que exigem rastreamento sistemático — o núcleo da prova [CONSENSO]:**
+
+| Sistema | Comorbidade | Por que rastrear ativamente |
+|---|---|---|
+| Cardiovascular | Cardiopatia congênita (~40-50% dos casos; defeito do septo atrioventricular é o mais característico, seguido de CIV, CIA e persistência do canal arterial) | 🚨 Pode ser **assintomática e sem sopro audível** nas primeiras semanas, especialmente em defeitos do septo atrioventricular com resistência vascular pulmonar ainda elevada — a ausência de sopro **não exclui** cardiopatia grave |
+| Endócrino | Hipotireoidismo congênito (maior incidência que a população geral) e adquirido (tireoidite autoimune ao longo da vida) | Curso insidioso e frequentemente assintomático na criança pequena; impacto direto sobre crescimento e neurodesenvolvimento se não tratado |
+| Musculoesquelético | Instabilidade atlantoaxial (frouxidão do ligamento transverso do atlas) e instabilidade de quadril | Geralmente assintomática; risco teórico de compressão medular com hiperextensão/flexão cervical intensa (esportes de contato, cambalhotas) |
+| Oftalmológico | Catarata congênita, erros refracionais, estrabismo, nistagmo, obstrução do ducto nasolacrimal | Impacto direto sobre desenvolvimento visual e aprendizagem se não corrigido precocemente |
+| Auditivo | Perda auditiva condutiva (por anatomia craniofacial/otite média serosa recorrente, a mais comum) e sensorioneural | Prejudica aquisição de linguagem; frequentemente subdiagnosticada sem triagem ativa |
+| Hematológico | Policitemia neonatal, mielopoese anormal transitória (TAM, associada a mutações em *GATA1*, geralmente autolimitada mas com necessidade de monitorização), maior risco de leucemia na infância (LMA, sobretudo antes dos 5 anos, e LLA) | Risco de leucemia 10-20x maior que a população geral — hemograma faz parte do seguimento de rotina, não apenas em caso de sintomas |
+| Metabólico/nutricional | Obesidade (hipotonia + menor gasto energético basal) | Necessidade de curva de crescimento apropriada e orientação nutricional precoce |
+| Gastrointestinal | Malformações estruturais no neonato (atresia duodenal, doença de Hirschsprung, ânus imperfurado) e doença celíaca ao longo da infância | Malformações exigem investigação se sinais obstrutivos/vômitos biliosos; doença celíaca tem prevalência aumentada e rastreamento sorológico dirigido por sintomas |
+| Respiratório/sono | Apneia obstrutiva do sono (hipotonia de vias aéreas superiores + hipertrofia relativa de adenoide/tonsilas + face médio hipoplásica) | Frequentemente subestimada pelos pais; associa-se a prejuízo cognitivo e cardiovascular se não tratada |
+
+**Curvas de crescimento — específicas vs. OMS [CONSENSO/⚠️ ponto mais cobrado da prova].** Crianças com síndrome de Down têm um padrão de crescimento estatural e ponderal diferente da população geral (tendem à baixa estatura mesmo sem patologia associada). Usar apenas as curvas de crescimento padrão (OMS) para acompanhar peso/estatura leva a rotular como "desnutrição" ou "falha de crescimento" crianças que estão, na verdade, dentro do esperado **para a condição** — e o inverso também é um risco (deixar de notar sobrepeso real). A conduta recomendada é o **uso combinado**:
+- **Curvas de crescimento específicas para síndrome de Down** (peso, estatura e perímetro cefálico por idade) — usadas como referência principal para avaliar se o crescimento estatuoponderal está adequado *para a síndrome*.
+- **Curvas de IMC da OMS** — mantidas para rastreio de sobrepeso/obesidade, já que esse é um problema de saúde real e comparável independentemente da síndrome de base.
+- [VARIÁVEL] O documento de referência específico (curvas nacionais adotadas pelo MS/SBP vs. curvas internacionais tipo Cronk/CDC-2015) pode variar conforme o serviço e o ano da diretriz consultada — ⚠️ VERIFICAR qual curva está oficialmente vigente na Caderneta de Saúde da Criança com Síndrome de Down do Ministério da Saúde no momento do estudo.
+
+**Calendário de acompanhamento por idade — o que pedir e quando [CONSENSO, com alguns pontos VARIÁVEL sinalizados]:**
+
+| Momento | Exames/avaliações |
+|---|---|
+| Ao nascimento / diagnóstico | **Cariótipo** (confirmação diagnóstica e definição do mecanismo genético); **ecocardiograma** (obrigatório mesmo sem sopro audível); hemograma completo (rastrear policitemia e mielopoese anormal transitória); triagem auditiva neonatal (teste da orelhinha); triagem neonatal metabólica (teste do pezinho, inclui TSH); avaliação do reflexo vermelho; avaliação de trânsito intestinal/eliminações (descartar malformação estrutural se sinais obstrutivos) |
+| 0-6 meses | TSH de controle por volta dos 6 meses (além do neonatal); acompanhamento cardiopediátrico se cardiopatia confirmada; estimulação precoce/fisioterapia; monitorização de curva de crescimento específica |
+| 6-12 meses | Hemograma de seguimento; avaliação/reforço da triagem auditiva; avaliação ortopédica se hipotonia importante ou sinais de instabilidade de quadril (USG de quadril, já que os núcleos de ossificação ainda não permitem avaliação radiográfica confiável nessa idade) |
+| A partir de 1 ano | TSH anual; avaliação oftalmológica anual; avaliação odontológica; hemograma periódico; rastreamento clínico de sinais de apneia do sono |
+| ~3-5 anos | Polissonografia para rastreio de apneia obstrutiva do sono (recomendada mesmo sem sintomas relatados pelos pais, dada a alta taxa de subnotificação); avaliação clínica (não necessariamente radiográfica de rotina — [VARIÁVEL]/⚠️ VERIFICAR versão vigente da diretriz) antes de liberar para esportes de contato/atividades com risco de hiperextensão cervical |
+| Ao longo de toda a infância/adolescência | TSH anual, hemograma periódico, avaliação auditiva e oftalmológica anuais, avaliação odontológica semestral, rastreamento de doença celíaca dirigido por sintomas (déficit de crescimento, sintomas gastrointestinais), monitorização de IMC pela curva da OMS |
+
+**Cariótipo e aconselhamento genético [CONSENSO].** O cariótipo deve ser solicitado em **todo** paciente com suspeita clínica, mesmo quando o fenótipo é inequívoco, porque define o mecanismo:
+- **Trissomia livre (não disjunção meiótica), ~95% dos casos** — risco de recorrência baixo, correlacionado principalmente com idade materna avançada.
+- **Translocação robertsoniana, ~3-4% dos casos** — 🚨 exige cariótipo dos **pais**, pois se um dos genitores for portador balanceado da translocação, o risco de recorrência em gestações futuras é substancialmente maior do que na trissomia livre — este é o cenário em que o aconselhamento genético formal é obrigatório.
+- **Mosaicismo, ~1-2% dos casos** — fenótipo por vezes mais brando; risco de recorrência geralmente baixo.
+
+🇧🇷 **CONDUTA DE PROVA (MS):** o acompanhamento segue a lógica da Caderneta de Saúde da Criança com Síndrome de Down (Ministério da Saúde/SBP), que sistematiza esse calendário de exames por idade e reforça que o rastreamento (cardíaco, tireoidiano, auditivo, oftalmológico, hematológico) deve ser **ativo e programado**, não deflagrado apenas por sintomas. O calendário vacinal segue o PNI padrão, sem diferenças estruturais, embora a maior suscetibilidade a infecções respiratórias reforce a importância de manter o esquema em dia. ⚠️ VERIFICAR edição vigente da Caderneta e eventuais atualizações de periodicidade.
+
+⚠️ **PEGADINHA DO INEP:** as duas armadilhas mais recorrentes são (1) o enunciado informar "ausculta cardíaca sem sopro" ou "exame cardiovascular normal" como se isso dispensasse o ecocardiograma — **não dispensa**, o ecocardiograma é obrigatório ao nascimento independentemente do achado auscultatório; e (2) confundir qual curva de crescimento usar — a banca testa se o candidato sabe que crianças com síndrome de Down devem ser acompanhadas por **curvas antropométricas específicas para a condição**, e não apenas pelas curvas gerais da OMS, sob risco de rotular crescimento normal-para-a-síndrome como patológico (ou vice-versa).
+
+### Referências
+1. Ministério da Saúde/Sociedade Brasileira de Pediatria. Caderneta de Saúde da Criança com Síndrome de Down — diretrizes de acompanhamento. ⚠️ VERIFICAR edição vigente.
+2. Sociedade Brasileira de Pediatria. Documento científico — Síndrome de Down: acompanhamento e comorbidades. ⚠️ VERIFICAR ano vigente.
+3. American Academy of Pediatrics. Health Supervision for Children and Adolescents with Down Syndrome (referência internacional, usada quando não há detalhamento equivalente em documento nacional). ⚠️ VERIFICAR versão vigente, especialmente quanto à recomendação de radiografia cervical de rotina para instabilidade atlantoaxial (mudou ao longo das revisões).
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na UBS/puericultura:** o cenário mais comum não é o diagnóstico (geralmente já feito ao nascimento ou logo após), mas sim consultas de **seguimento de rotina** em que o examinador quer ver se o candidato dispara os exames certos na idade certa — mesmo com a criança clinicamente bem, sem queixas novas dos pais. É exatamente o padrão das três questões reais desta seção: o "problema" da questão está em identificar o que falta rastrear ou o que fazer diante de um achado específico do exame físico, não em fechar um diagnóstico difícil.
+
+**Erros que profissionais cometem de verdade:**
+- Não rastrear hipotireoidismo periodicamente — pedir o TSH neonatal (teste do pezinho) e considerar "resolvido", sem repetir aos 6 meses e depois anualmente, deixando um hipotireoidismo adquirido insidioso passar despercebido por anos.
+- Não solicitar ecocardiograma por "ausculta normal" — um dos erros mais graves e mais citados na literatura de seguimento, já que defeitos do septo atrioventricular podem não gerar sopro nas primeiras semanas de vida.
+- Deixar de encaminhar para avaliação auditiva/oftalmológica anual quando a criança "parece enxergar e ouvir bem" — a triagem sistemática existe justamente porque déficits leves a moderados passam despercebidos na observação informal dos pais e do próprio pediatra.
+- Não orientar restrição de atividades de alto impacto cervical sem antes avaliar clinicamente sinais de instabilidade atlantoaxial (dor cervical, torcicolo, alteração de marcha, perda de força/sensibilidade, mudança de controle esfincteriano).
+- Tratar todo achado hipotônico/frouxidão ligamentar como "normal da síndrome" sem investigar quando há uma queixa específica associada (ex.: instabilidade de quadril à manobra de exame — não é "só hipotonia", merece avaliação ortopédica dirigida).
+
+**O que dizer aos pais/responsáveis:**
+- Explicar que o acompanhamento segue um calendário de exames programados (cardíaco, tireoidiano, auditivo, visual, hematológico), e que esses exames continuam necessários **mesmo que a criança pareça bem** — a maior parte das comorbidades rastreadas nesse calendário é assintomática nas fases iniciais.
+- Se o cariótipo mostrar translocação, explicar a necessidade de investigar o cariótipo dos pais e encaminhar para aconselhamento genético, deixando claro que isso muda o risco de recorrência em futuras gestações (diferente da trissomia livre).
+- Orientar sobre o uso de curvas de crescimento específicas, para que os pais não interpretem uma estatura menor (dentro do esperado para a síndrome) como sinal de desnutrição.
+- Reforçar a importância da estimulação precoce e do acompanhamento multiprofissional (fisioterapia, fonoaudiologia, terapia ocupacional) desde os primeiros meses.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Verificar, na história/prontuário simulado, se já foram realizados: cariótipo, ecocardiograma neonatal, triagem auditiva e visual, TSH (neonatal e de seguimento), hemograma.
+- ✅ Exame físico dirigido: ausculta cardíaca completa (mesmo sem sopro, não dispensa investigação prévia se não realizada), avaliação de tônus e frouxidão ligamentar, manobra de estabilidade de quadril, avaliação de marcha/sinais neurológicos cervicais, reflexo vermelho, fundoscopia se disponível.
+- ✅ Verbalizar qual exame está indicado *neste momento da consulta*, com justificativa por idade (não repetir exames já normais e recentes sem novo achado que justifique).
+- ✅ Explicar aos pais, em linguagem acessível, o motivo de cada exame e o caráter programado (não reativo) do rastreamento.
+- ✅ Encaminhamentos corretos: cardiologia pediátrica, endocrinologia pediátrica, oftalmologia, otorrinolaringologia/fonoaudiologia, ortopedia pediátrica, genética médica (se translocação), conforme o achado.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2023 · Edição 1 · Questão 98]**
+
+⚠️ **NOTA DE EXTRAÇÃO:** o campo de enunciado desta questão veio contaminado por *bleed* de outra questão do caderno de prova (um item completamente distinto, sobre determinantes sociais da saúde e o modelo de Dahlgren e Whitehead, aparece concatenado ao final do texto-fonte). Esse trecho final não pertence a esta questão e foi excluído abaixo — apenas o enunciado e as alternativas referentes à síndrome de Down (confirmadas pelo assunto catalogado e pelo gabarito oficial) são reproduzidos. A alternativa D também trazia um fragmento residual ("2023 PRIMEIRA EDIÇÃO") que é claramente rodapé/paginação do caderno de prova, não parte do texto da opção, e foi removido.
+
+Uma criança com 2 anos, do sexo feminino, com síndrome de Down, comparece à unidade básica de saúde para acompanhamento do estado nutricional. A respeito da avaliação nutricional de crianças com síndrome de Down, assinale a opção correta.
+
+A) O peso ideal, para crianças obesas com essa síndrome de Down, é utilizado para estimar as necessidades nutricionais.
+B) O peso corporal é utilizado como um dos marcadores diretos da massa proteica e de reservas de energia em crianças com e sem síndrome de Down.
+C) As curvas antropométricas específicas de desenvolvimento para a faixa de idade devem ser consultadas para crianças com síndrome de Down.
+D) As crianças com síndrome de Down, assim como os adultos, podem ter a sua altura estimada pela extensão da perna esquerda.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** como discutido na Seção 1, crianças com síndrome de Down têm um padrão de crescimento estatuoponderal diferente do da população geral, e o acompanhamento nutricional adequado exige o uso de **curvas antropométricas específicas para a condição** — usar apenas as curvas gerais leva a interpretações equivocadas (falso diagnóstico de desnutrição ou de crescimento inadequado quando, na verdade, o padrão é o esperado para a síndrome).
+
+**Por que as demais estão erradas:**
+- A) "Peso ideal" estimado por métodos genéricos de avaliação de obesidade não é a abordagem recomendada para estimar necessidades nutricionais nessa população — o acompanhamento correto passa pelas curvas específicas, não por uma estimativa de peso ideal isolada.
+- B) O peso corporal isoladamente **não** é um marcador direto de massa proteica ou de reservas energéticas — ele reflete a soma de múltiplos compartimentos (massa magra, massa gorda, água corporal, ossos), com ou sem síndrome de Down; essa é uma afirmação incorreta de fisiologia nutricional básica, não específica da síndrome.
+- D) Estimar altura pela extensão de segmentos corporais (ex.: altura do joelho) é uma técnica validada em contextos específicos (por exemplo, adultos ou idosos incapazes de ficar em pé), não uma prática padronizada para estimar estatura em crianças com síndrome de Down por extrapolação da prática do adulto.
+
+**O que a banca estava testando:** se o candidato sabe que a avaliação antropométrica de crianças com síndrome de Down exige referência específica (curva própria da condição), distinguindo isso de afirmações genéricas de nutrição que soam plausíveis mas estão fisiologicamente erradas (B) ou mal aplicadas (A, D).
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 53]**
+
+⚠️ **Nota de extração:** a alternativa A trazia um fragmento residual desconexo ("Reação hansênica tipo 2.") ao final do texto, claramente *bleed* de outra questão do caderno (tema de hanseníase, sem relação com este item). O fragmento foi removido abaixo por não pertencer à alternativa.
+
+Um paciente com Trissomia do 21 (T21) é atendido na unidade básica de saúde para realizar puericultura no 7º mês de vida. Sua genitora apresenta alguns exames que são registrados no prontuário: ecocardiograma realizado ao nascimento sem qualquer alteração; e hemograma e dosagem dos hormônios tireoidianos solicitados na consulta do 6º mês, que apresentam valores dentro das referências para a idade. Ao exame físico, observa-se, além das características fenotípicas do paciente, apenas hipotonia global e instabilidade do quadril. Nesse caso, de acordo com o que as diretrizes de acompanhamento ao paciente com T21 recomendam, qual é a conduta médica adequada?
+
+A) Repetir o ecocardiograma e realizar consulta com um cardiologista pediátrico.
+B) Fazer ultrassonografia do quadril e orientar acompanhamento com ortopedista pediátrico.
+C) Realizar ultrassonografia da tireoide e fazer acompanhamento com endocrinologista pediátrico.
+D) Coletar hemograma mensalmente e realizar acompanhamento com um hematologista pediátrico.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** o achado ativo e relevante no exame físico desta consulta é a **instabilidade de quadril** associada a hipotonia global — achado consistente com a frouxidão ligamentar típica da síndrome de Down. A conduta apropriada diante desse achado específico é a investigação por imagem adequada à idade: em lactentes, a **ultrassonografia de quadril** é o método de escolha (os núcleos de ossificação ainda não permitem avaliação radiográfica confiável), com encaminhamento e seguimento por ortopedista pediátrico.
+
+**Por que as demais estão erradas:**
+- A) O ecocardiograma neonatal já foi realizado e está normal, e o enunciado não traz nenhum sinal ou sintoma cardiovascular novo (sopro, sinais de insuficiência cardíaca) que justifique repeti-lo agora — repetir exames normais e recentes sem novo achado clínico não é a conduta indicada neste momento.
+- C) O TSH já foi solicitado na consulta do 6º mês e está dentro da normalidade; não há indicação de ultrassonografia de tireoide de rotina no rastreamento de hipotireoidismo (que é bioquímico, com TSH periódico, não um exame de imagem) nem qualquer sinal clínico sugestivo de disfunção tireoidiana atual.
+- D) O hemograma do 6º mês está normal e não há achado hematológico relatado; hemograma mensal não corresponde à periodicidade recomendada de seguimento, e não há indicação de acompanhamento com hematologista sem alteração hematológica.
+
+**O que a banca estava testando:** se o candidato consegue identificar, em uma consulta de puericultura com múltiplos exames de rastreamento já registrados (a maioria deles normais e recentes), qual é o **achado clínico ativo** que exige conduta agora — evitando tanto a armadilha de repetir exames desnecessários quanto a de ignorar um achado (instabilidade de quadril) que exige investigação dirigida.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 58]**
+
+Um neonato de 48 horas de vida, do sexo masculino, nascido com peso de 2.870 g, estatura de 47 cm e Apgar de 7/8, recebendo aleitamento materno exclusivo, encontra-se no alojamento conjunto, onde toda a equipe é capaz de verificar as seguintes alterações: pregas palpebrais oblíquas para cima, epicanto, protrusão lingual, palato ogival, retrognatia, pavilhão auricular pequeno de implantação baixa, braquidactilia, prega palmar única transversa, discreta hipotonia, frouxidão ligamentar, excesso de tecido adiposo no dorso do pescoço e diástase dos músculos dos retos abdominais. Nesse caso, a conduta médica a ser empregada imediatamente é solicitar
+
+A) seriografia de esôfago gastroduodenal para excluir anomalias congênitas do arco duodenal.
+B) radiografia de tórax, eletrocardiograma e ecocardiograma, devido ao risco aumentado de cardiopatias congênitas.
+C) teste do pezinho para investigação de hipertireoidismo, que é a patologia tireoidiana encontrada com mais frequência.
+D) radiografia de coluna cervical nas incidências em perfil, com flexão e extensão, para pesquisa de instabilidade atlantoaxial.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Por que a anulação faz sentido.** O diagnóstico clínico é inequívoco — **síndrome de Down** —, e a alternativa **B descreve a conduta correta**: avaliação cardiológica com **ecocardiograma** é a prioridade no período neonatal, porque as **cardiopatias congênitas** acometem cerca de **40 a 50%** dos recém-nascidos com trissomia do 21 e podem ser fatais se não detectadas [CONSENSO]. O provável motivo da anulação está na exigência de **"radiografia de tórax, eletrocardiograma E ecocardiograma"** como conjunto obrigatório, quando o exame que de fato define a conduta é o **ecocardiograma** — e, sobretudo, no fato de a questão pedir a conduta "**imediata**" num cenário em que a confirmação diagnóstica (cariótipo) também é prioritária. Seja qual for a razão formal, o conteúdo é de alto rendimento e merece estudo integral.
+
+**O diagnóstico é clínico, e o enunciado o entrega por inteiro.** Os achados descritos compõem o fenótipo clássico da síndrome de Down:
+
+| Achado no enunciado | Região |
+|---|---|
+| **Pregas palpebrais oblíquas para cima**, **epicanto** | face |
+| **Protrusão lingual**, **palato ogival**, **retrognatia** | face/boca |
+| **Pavilhão auricular pequeno de implantação baixa** | orelha |
+| **Braquidactilia**, **prega palmar única transversa** | mãos |
+| **Hipotonia**, **frouxidão ligamentar** | neuromuscular |
+| **Excesso de tecido adiposo no dorso do pescoço** | pescoço |
+| **Diástase dos retos abdominais** | abdome |
+
+A **hipotonia** é frequentemente o primeiro sinal percebido na sala de parto, e a **prega palmar única transversa**, embora presente em cerca de 45% dos casos, é o achado mais citado nas provas. O peso de 2.870 g está no limite inferior — recém-nascidos com síndrome de Down tendem a ser menores.
+
+**Por que a avaliação cardíaca é a prioridade do período neonatal.** As cardiopatias mais frequentes na trissomia do 21 são:
+
+| Cardiopatia | Frequência relativa |
+|---|---|
+| **Defeito do septo atrioventricular (DSAV)** | a mais característica |
+| Comunicação interventricular (CIV) | comum |
+| Comunicação interatrial (CIA) | comum |
+| Persistência do canal arterial | comum |
+| Tetralogia de Fallot | menos comum |
+
+⚠️ **O ponto crítico: a ausculta normal NÃO afasta cardiopatia.** No recém-nascido, a resistência vascular pulmonar ainda é elevada, e um **DSAV volumoso pode cursar sem sopro** nos primeiros dias, tornando-se audível apenas quando a resistência pulmonar cai — momento em que a criança já pode estar em insuficiência cardíaca. Por isso o **ecocardiograma é recomendado para TODO recém-nascido com síndrome de Down**, independentemente da ausculta [CONSENSO], idealmente ainda na maternidade ou no primeiro mês de vida.
+
+**Por que as demais estão erradas:**
+
+- **A) Seriografia de esôfago gastroduodenal.** As malformações gastrointestinais — sobretudo a **atresia duodenal**, cuja associação com a síndrome de Down é clássica — ocorrem em cerca de **5%** dos casos, frequência muito inferior à das cardiopatias. E o diagnóstico da atresia duodenal **não se faz por seriografia**: ela se manifesta com **vômitos biliosos** nas primeiras horas de vida e se reconhece pela **radiografia simples de abdome**, que mostra o **sinal da dupla bolha** (dupla-bolha gástrica e duodenal). Este neonato está com **48 horas de vida em aleitamento materno exclusivo**, sem vômitos — a obstrução duodenal já teria se manifestado. Investigar o que não se manifesta, deixando de investigar o que é silencioso e mais prevalente, inverte a prioridade.
+
+- **C) Teste do pezinho para "hipertireoidismo, a patologia tireoidiana mais frequente".** Contém um **erro factual direto**: a alteração tireoidiana mais comum na síndrome de Down é o **HIPOtireoidismo**, não o hipertireoidismo. O hipotireoidismo congênito é várias vezes mais frequente nesses recém-nascidos que na população geral, e o hipotireoidismo adquirido (frequentemente autoimune) surge ao longo da infância e da adolescência — razão pela qual se recomenda **dosagem de TSH e T4 livre ao nascimento, aos 6 e 12 meses, e anualmente** a partir daí. O **teste do pezinho** deve ser feito, evidentemente, mas como **triagem universal** de todo recém-nascido — não como conduta específica desta síndrome — e a justificativa apresentada está errada.
+
+- **D) Radiografia de coluna cervical para instabilidade atlantoaxial.** A instabilidade atlantoaxial é uma preocupação **real e importante** na síndrome de Down, presente em 10 a 20% dos casos (a maioria assintomática), com risco de compressão medular. Mas o rastreamento radiológico **não se faz no período neonatal**: a coluna cervical do recém-nascido ainda é predominantemente **cartilaginosa e não ossificada**, o que torna as medidas radiográficas **não confiáveis**. A avaliação é recomendada a partir dos **3 anos** de idade, e sobretudo antes da participação em **esportes de contato** ou de procedimentos que exijam **hiperextensão cervical** (intubação orotraqueal, por exemplo). No neonato, a conduta é **vigilância clínica** de sinais de mielopatia.
+
+⚠️ **PEGADINHA DO INEP:** as quatro alternativas descrevem **comorbidades verdadeiras** da síndrome de Down — cardiopatia, atresia duodenal, tireoidopatia, instabilidade atlantoaxial. A questão pede a conduta **imediata**, e resolvê-la exige hierarquizar por **prevalência e gravidade no período neonatal**. Duas alternativas erram ainda por **erro técnico**: o método (seriografia em A) e o diagnóstico (hipertireoidismo em C).
+
+**O acompanhamento da criança com síndrome de Down — o que investigar e quando** [CONSENSO]:
+
+| Sistema | Conduta | Quando |
+|---|---|---|
+| **Cardíaco** | **ecocardiograma** | **ao nascimento** (prioridade) |
+| Genético | **cariótipo** (confirma e identifica translocação, relevante para aconselhamento familiar) | ao nascimento |
+| Tireoide | TSH e T4 livre | nascimento, 6 e 12 meses, depois **anual** |
+| Auditivo | emissões otoacústicas / BERA | ao nascimento e periodicamente |
+| Visual | avaliação oftalmológica (catarata congênita, estrabismo, erro refrativo) | primeiros 6 meses e anual |
+| Hematológico | hemograma (risco de **leucemia** ~15-20× maior; reação leucemoide transitória) | ao nascimento e anual |
+| Cervical | radiografia para instabilidade atlantoaxial | **a partir dos 3 anos** |
+| Digestório | investigar se houver sintomas (atresia duodenal, Hirschsprung, doença celíaca) | conforme clínica |
+| Desenvolvimento | **estimulação precoce** — fisioterapia, fonoaudiologia, terapia ocupacional | **desde o nascimento** |
+
+⚠️ **Sobre a comunicação do diagnóstico.** É parte da conduta médica e frequentemente cobrada: deve ser feita **precocemente**, com **ambos os pais presentes**, em ambiente reservado, com linguagem acessível, na presença do bebê, evitando termos pejorativos e o tom de "má notícia irremediável". O foco deve estar no que a criança **precisa** — acompanhamento e estimulação — e não apenas no que ela tem. Encaminhar a família a grupos de apoio faz parte do cuidado.
+
+**O que a banca tentava testar:** reconhecer o fenótipo da **síndrome de Down** ao nascimento e hierarquizar as comorbidades pela prioridade neonatal — sabendo que a **cardiopatia congênita**, presente em quase metade dos casos e frequentemente **silenciosa à ausculta**, é o que exige avaliação imediata.
+
+---
+
+**[INEP 2017 · Edição 1 · Questão 83]**
+
+Um recém-nascido com 12 dias de vida, nascido de parto vaginal a termo, sem intercorrências, está internado desde o nascimento por apresentar dificuldade de sucção, tremores, apneia, irritabilidade e hipotonia. A mãe não realizou o pré-natal. Ao exame físico, o recém-nascido apresenta fissuras palpebrais pequenas, lábio superior vermelho e fino, filtro plano e narinas antevertidas; peso, comprimento e perímetro cefálico abaixo do Z escore – 3. A tomografia computadorizada e a ressonância magnética de crânio apresentam resultados normais. Nesse caso, a hipótese diagnóstica mais provável é
+
+A) sífilis congênita.
+B) síndrome de Turner.
+C) síndrome alcoólico-fetal.
+D) hipotireoidismo congênito.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a tríade facial da **síndrome alcoólica fetal** — **fissuras palpebrais pequenas**, **lábio superior fino** e **filtro liso (plano)** — associada a **restrição de crescimento** (peso, comprimento e **microcefalia**) e sinais neurológicos (tremores, irritabilidade, dificuldade de sucção — que também podem refletir abstinência). Mãe sem pré-natal reforça a exposição não detectada.
+
+**Por que as demais estão erradas:**
+- A) Sífilis congênita: hepatoesplenomegalia, lesões cutâneas, rinite, alterações ósseas — não essa face.
+- B) Turner: linfedema de mãos e pés, pescoço alado, em meninas — sem a tríade facial.
+- D) Hipotireoidismo congênito: icterícia prolongada, macroglossia, hérnia umbilical, fontanela ampla — não microcefalia com face característica.
+
+⚠️ **PEGADINHA DO INEP:** **fissura palpebral curta + lábio superior fino + filtro liso** = **SAF**. Não há dose segura de álcool na gestação.
+
+**O que a banca estava testando:** reconhecimento da síndrome alcoólica fetal.
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 73]**
+
+Lactente de 30 dias, portadora de síndrome de Down, apresenta sucção fraca e dificuldade de ganho de peso. Ela necessita ser encaminhada para acompanhamento de equipe multidisciplinar. Nessa situação, a orientação inicial a ser dada à mãe é
+
+A) oferecer o seio, realizar ordenha de 3 em 3 horas e iniciar fórmula de partida à noite.
+B) estimular a região perioral da criança e iniciar fórmula de partida exclusiva, para evitar broncoaspiração.
+C) evitar oferecer o seio, mesmo que a criança estabeleça coordenação entre sucção, deglutição e respiração.
+D) contraindicar amamentação, pois a hipotonia dificulta o aleitamento materno.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Análise:** o INEP não divulga o motivo da anulação — nenhuma alternativa traz a conduta padrão. Pelas Diretrizes de Atenção à Pessoa com Síndrome de Down (MS), o **aleitamento materno deve ser estimulado**: a hipotonia dificulta, mas **não contraindica** a amamentação. Orienta-se posicionamento adequado (sustentação da cabeça e da mandíbula), mamadas frequentes, **ordenha para oferecer leite materno** (copinho/sonda) quando a sucção é insuficiente, estimulação oral com fonoaudiologia e acompanhamento do ganho de peso; fórmula apenas se houver indicação real de complemento. Afaste também **cardiopatia** e **hipotireoidismo**, causas comuns de sucção fraca e baixo ganho de peso na síndrome.
+
+**O que a banca estava testando:** aleitamento materno na criança com síndrome de Down.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 98]**
+
+Um paciente de 15 anos é atendido em ambulatório de pediatria devido ao diagnóstico de deficiência intelectual. Ele apresenta crises convulsivas que estão sob controle com uso de medicamentos. Anteriormente, o psiquiatra fez o diagnóstico de transtorno do déficit de atenção e hiperatividade. Ao exame físico, o paciente apresenta perímetro cefálico acima da média, frontal alto, face alongada, orelhas proeminentes prognatismo. Além disso, é observado peito escavado, escoliose, macrorquidia, hérnia inguinal, pés planos e hiperextensibilidade de articulações metacarpofalangianas. Para confirmação da etiologia da deficiência intelectual e das características fenotípicas encontradas nesse caso, o exame indicado é a(o)
+
+A) sequenciamento genético.
+B) ressonância de sela túrcica.
+C) tomografia computadorizada de crânio.
+D) eletroencefalograma em sono induzido.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** deficiência intelectual + TDAH + **face alongada, orelhas proeminentes, prognatismo**, **macrorquidia** (pós-puberal) e **hiperextensibilidade articular** = **síndrome do X frágil**, principal causa **hereditária** de deficiência intelectual (expansão de repetições **CGG** no gene *FMR1*). A confirmação é por **teste molecular** — a banca chamou de "sequenciamento genético"; na prática, o exame específico é o **PCR/Southern blot para o número de repetições CGG** (o cariótipo convencional não é adequado).
+
+**Por que as demais estão erradas:**
+- B) Ressonância de sela seria para causas hipofisárias de macrorquidia/puberdade precoce — não explica o fenótipo.
+- C) e D) Neuroimagem e EEG avaliam complicações (convulsões), não a **etiologia genética**.
+
+⚠️ **PEGADINHA DO INEP:** **menino + deficiência intelectual + orelhas grandes + face longa + macrorquidia** = **X frágil** → estudo molecular do *FMR1*; aconselhamento genético (mãe portadora de pré-mutação).
+
+**O que a banca estava testando:** reconhecimento clínico e diagnóstico da síndrome do X frágil.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 93]**
+
+Ao atender um recém-nascido de sexo masculino, admitido em alojamento conjunto, um pediatra observa, ao exame físico, diversas características fenotípicas de síndrome de Down. Ele discute essas características com a família da criança e opta por solicitar um cariótipo desse paciente. A respeito da indicação da realização de cariótipo nesse caso, assinale a alternativa correta.
+
+A) O cariótipo pode ser dispensado caso haja presença de características fenotípicas muito sugestivas da síndrome, especialmente se a mãe tiver 35 anos ou mais, visto ser um exame dispendioso e que não acrescentará novas informações.
+B) O cariótipo está indicado para confirmação diagnóstica, para avaliação de possível mosaicismo e para diagnóstico de translocações do cromossomo 21, que podem representar translocação balanceada em um dos pais.
+C) O cariótipo pode ser solicitado para confirmação diagnóstica, no entanto seu resultado não terá impacto nas orientações sobre prognóstico do paciente nem no aconselhamento genético para o casal.
+D) O cariótipo deve ser solicitado quando os pais são jovens e há suspeita de translocação balanceada em um dos pais, devendo-se esperar, nesse caso, pelo resultado do exame para programar a alta da criança.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** o **cariótipo** é indicado em **todo** caso suspeito de síndrome de Down: **confirma** o diagnóstico e identifica o mecanismo — **trissomia livre** (~95%), **translocação robertsoniana** (~3–4%; em até 1/3 herdada de um genitor portador de translocação **balanceada**, com alto risco de recorrência) ou **mosaicismo** (~1–2%, fenótipo por vezes mais leve). Isso muda o **aconselhamento genético** da família.
+
+**Por que as demais estão erradas:**
+- A) O fenótipo **não substitui** o exame — sem cariótipo não se sabe se há translocação.
+- C) O resultado **tem** impacto no aconselhamento (translocação herdada × trissomia livre).
+- D) O cariótipo é indicado para todos, não só com pais jovens; e **não** se retém a alta à espera do resultado.
+
+⚠️ **PEGADINHA DO INEP:** Down por **translocação** → **cariotipar os pais**; risco de recorrência muito maior que na trissomia livre.
+
+**O que a banca estava testando:** indicação e utilidade do cariótipo na síndrome de Down.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 16]**
+
+Recém-nascido de 15 dias, a termo, Apgar 8/9, peso e comprimento ao nascer de 2.600 g e 46 cm, respectivamente, com síndrome de Down, e cuja gestação não apresentou outras intercorrências. Está na consulta de puericultura com peso e comprimento atuais de 2.900 g e 47 cm, respectivamente. Para o acompanhamento pôndero-estatural, os dados devem ser plotados nas
+
+A) curvas de crescimento da OMS desde o nascimento até a adolescência.
+B) curvas de crescimento específicas para síndrome de Down desde o nascimento.
+C) curvas de crescimento da OMS, corrigindo o peso e o comprimento para síndrome de Down.
+D) curvas de crescimento da OMS até os dois anos e, a partir daí, em curvas específicas para síndrome de Down.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** crianças com síndrome de Down têm **padrão de crescimento próprio** (menor estatura e velocidade de crescimento). As Diretrizes do MS e a SBP recomendam acompanhá-las em **curvas específicas para síndrome de Down desde o nascimento** — o uso das curvas da OMS levaria a diagnósticos falsos de desnutrição/baixa estatura (ou mascararia excesso de peso).
+
+**Por que as demais estão erradas:**
+- A) As curvas da OMS gerais não refletem o crescimento esperado na síndrome.
+- C) Não existe "correção" das curvas da OMS para a síndrome.
+- D) As curvas específicas são usadas **desde o nascimento**, não só após 2 anos.
+
+⚠️ **PEGADINHA DO INEP:** síndrome de Down tem **curvas próprias** (a Caderneta da Criança do MS traz curvas específicas) — use-as desde o nascimento.
+
+**O que a banca estava testando:** acompanhamento do crescimento na síndrome de Down.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual a incidência aproximada de cardiopatia congênita em crianças com síndrome de Down?	Cerca de 40-50%; o defeito do septo atrioventricular é o mais característico	Revalida::Pediatria::SindromeDown::Comorbidades
+O ecocardiograma neonatal pode ser dispensado se a ausculta cardíaca estiver normal?	Não — é obrigatório mesmo sem sopro audível, pois defeitos do septo atrioventricular podem ser assintomáticos nas primeiras semanas	Revalida::Pediatria::SindromeDown::Rastreamento
+Com que frequência o TSH deve ser rastreado na criança com síndrome de Down?	No nascimento (teste do pezinho), aos 6 meses, e depois anualmente ao longo da vida	Revalida::Pediatria::SindromeDown::Rastreamento
+Por que o hipotireoidismo precisa ser rastreado ativamente e não apenas por sintomas?	Curso insidioso e frequentemente assintomático na criança; maior incidência que a população geral	Revalida::Pediatria::SindromeDown::Comorbidades
+Qual curva de crescimento deve ser usada como referência principal de peso/estatura na síndrome de Down?	Curvas antropométricas específicas para síndrome de Down, não apenas as curvas gerais da OMS	Revalida::Pediatria::SindromeDown::Crescimento
+Qual curva ainda deve ser usada para rastrear sobrepeso/obesidade na síndrome de Down?	Curva de IMC da OMS	Revalida::Pediatria::SindromeDown::Crescimento
+O que é a instabilidade atlantoaxial e por que é relevante na síndrome de Down?	Frouxidão do ligamento transverso do atlas (C1-C2); risco teórico de compressão medular com hiperextensão/flexão cervical intensa (esportes de contato)	Revalida::Pediatria::SindromeDown::Comorbidades
+Lactente com síndrome de Down e instabilidade de quadril ao exame: qual exame de imagem solicitar?	Ultrassonografia de quadril (núcleos de ossificação ainda não permitem avaliação radiográfica confiável nessa idade)	Revalida::Pediatria::SindromeDown::Conduta
+Quais avaliações oftalmológicas/auditivas devem ser feitas na síndrome de Down e com que periodicidade?	Avaliação oftalmológica e auditiva anuais, além da triagem neonatal (teste da orelhinha e reflexo vermelho)	Revalida::Pediatria::SindromeDown::Rastreamento
+Qual o tipo de perda auditiva mais comum na síndrome de Down?	Perda auditiva condutiva, por anatomia craniofacial/otite média serosa recorrente	Revalida::Pediatria::SindromeDown::Comorbidades
+Qual o risco hematológico maligno aumentado na síndrome de Down?	Maior risco de leucemia (LMA principalmente antes dos 5 anos, e LLA) — cerca de 10-20x a população geral	Revalida::Pediatria::SindromeDown::Comorbidades
+O que é a mielopoese anormal transitória (TAM) e com que mutação se associa?	Alteração hematológica neonatal geralmente autolimitada, associada a mutações em GATA1; requer monitorização	Revalida::Pediatria::SindromeDown::Comorbidades
+Qual exame deve ser solicitado por volta dos 3-5 anos para rastrear apneia obstrutiva do sono?	Polissonografia, mesmo sem sintomas relatados pelos pais (alta subnotificação)	Revalida::Pediatria::SindromeDown::Rastreamento
+Por que o cariótipo deve ser solicitado mesmo com fenótipo clínico inequívoco de síndrome de Down?	Define o mecanismo genético (trissomia livre, translocação ou mosaicismo), o que muda o risco de recorrência e o aconselhamento genético	Revalida::Pediatria::SindromeDown::Diagnostico
+Cariótipo mostra translocação robertsoniana. Próximo passo recomendado?	Cariótipo dos pais e aconselhamento genético — risco de recorrência maior se um dos pais for portador balanceado	Revalida::Pediatria::SindromeDown::Genetica
+Qual a forma genética mais comum de síndrome de Down e seu risco de recorrência?	Trissomia livre (~95% dos casos), risco de recorrência baixo, associado à idade materna avançada	Revalida::Pediatria::SindromeDown::Genetica
+Cite 3 achados fenotípicos clássicos de síndrome de Down ao nascimento.	Pregas palpebrais oblíquas para cima, prega palmar única transversa, hipotonia global (entre outros: epicanto, orelhas de implantação baixa, prega cervical posterior)	Revalida::Pediatria::SindromeDown::Diagnostico
+Qual malformação gastrointestinal estrutural deve ser lembrada no neonato com síndrome de Down e sinais obstrutivos?	Atresia duodenal (entre outras: doença de Hirschsprung, ânus imperfurado)	Revalida::Pediatria::SindromeDown::Comorbidades
+Doença celíaca deve ser rastreada rotineiramente em todas as crianças com síndrome de Down?	Rastreamento sorológico dirigido por sintomas (déficit de crescimento, sintomas gastrointestinais), não necessariamente universal e assintomático	Revalida::Pediatria::SindromeDown::Comorbidades
+Por que a obesidade é mais prevalente na síndrome de Down?	Hipotonia associada a menor gasto energético basal	Revalida::Pediatria::SindromeDown::Comorbidades
+Criança com síndrome de Down "parece bem" clinicamente. Isso dispensa o calendário de exames de rastreamento programado?	Não — a maior parte das comorbidades rastreadas (cardíaca, tireoidiana, auditiva, visual, hematológica) é assintomática nas fases iniciais	Revalida::Pediatria::SindromeDown::Conduta
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Ecocardiograma ao nascimento é obrigatório mesmo sem sopro audível — cardiopatia (especialmente defeito do septo atrioventricular) pode ser assintomática.
+2. TSH deve ser rastreado no nascimento, aos 6 meses e depois anualmente — hipotireoidismo é insidioso e mais frequente nessa população.
+3. Use curvas de crescimento específicas para síndrome de Down para peso/estatura; use a curva de IMC da OMS para rastrear obesidade.
+4. Achado clínico ativo (ex.: instabilidade de quadril) direciona a conduta — não repita exames recentes e normais só porque a criança tem síndrome de Down.
+5. Cariótipo é sempre indicado, mesmo com fenótipo evidente — se translocação, investigar cariótipo dos pais e encaminhar para aconselhamento genético.
+
+📊 **Tabela-síntese — rastreamentos por idade**
+| Idade | O que fazer |
+|---|---|
+| Ao nascimento | Cariótipo, ecocardiograma (mesmo sem sopro), hemograma, triagem auditiva e do pezinho (inclui TSH), reflexo vermelho |
+| 6 meses | TSH de controle |
+| 6-12 meses | Hemograma de seguimento; USG de quadril se hipotonia importante/instabilidade ao exame |
+| A partir de 1 ano | TSH anual, avaliação oftalmológica anual, hemograma periódico, avaliação odontológica |
+| 3-5 anos | Polissonografia (apneia do sono); avaliação clínica antes de esportes de contato |
+| Ao longo da vida | TSH anual, hemograma periódico, oftalmologia e audiologia anuais, IMC pela curva OMS, rastreio de celíaca se sintomas |
+
+⚡ **Fluxograma textual:** suspeita/diagnóstico ao nascimento → cariótipo (confirma e define mecanismo genético) → se translocação, cariótipo parental + aconselhamento genético → ecocardiograma obrigatório (independente de sopro) → hemograma + triagem auditiva + teste do pezinho (TSH) → seguimento programado por idade (TSH, hemograma, oftalmo, audiologia, ortopedia se sinais, polissonografia por volta de 3-5 anos) → curva de crescimento específica para peso/estatura + curva OMS para IMC → ajustar conduta conforme achado clínico ativo em cada consulta.
+
+🚫 **Os 3 erros mais comuns:** (1) não solicitar/dispensar o ecocardiograma por ausculta normal; (2) não rastrear hipotireoidismo de forma periódica, tratando o TSH neonatal como suficiente; (3) usar apenas a curva de crescimento geral (OMS) para peso/estatura, gerando rótulo equivocado de desnutrição ou crescimento inadequado.
+
+🔗 **Conexões com outros módulos:** PED-11 (cardiopatias congênitas — defeito do septo atrioventricular e outras cardiopatias associadas), PED-02 (desenvolvimento neuropsicomotor — acompanhamento e estimulação precoce), PED-146 (calendário nacional de vacinação — sem diferenças estruturais, mas atenção à regularidade), END-05 (hipotireoidismo primário — rastreamento e tratamento).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-119",
+  "especialidade": "Pediatria",
+  "tema": "Síndrome de Down",
+  "assunto": "Acompanhamento pediátrico da criança com síndrome de Down: rastreamento sistemático de comorbidades, curvas de crescimento específicas e calendário de exames complementares por idade",
+  "tier": "A",
+  "n_questoes": 8,
+  "n_flashcards": 21,
+  "tempo_estudo_min": 75,
+  "prerequisitos": ["PED-02"],
+  "relacionados": ["PED-11", "PED-02", "PED-146", "END-05"],
+  "data_geracao": "2026-08-08",
+  "itens_a_verificar": [
+    "Confirmar a periodicidade exata (mensal, semestral, anual) recomendada pela Caderneta de Saúde da Criança com Síndrome de Down (MS/SBP) vigente para cada exame — este módulo usa periodicidades consensuais da literatura, mas não foi possível confirmar contra o documento oficial mais recente",
+    "Confirmar se a recomendação atual (AAP/SBP) para instabilidade atlantoaxial ainda inclui radiografia cervical de rotina em algum momento da infância, ou se a orientação vigente é exclusivamente avaliação clínica — essa recomendação mudou ao longo do tempo em diretrizes internacionais",
+    "Confirmar qual conjunto de curvas de crescimento específicas para síndrome de Down é oficialmente adotado no Brasil (nacional vs. internacional tipo Cronk/CDC-2015) no momento do estudo",
+    "Questão INEP2023-1-Q098: enunciado-fonte veio contaminado por bleed de outra questão (tema DSS/Dahlgren-Whitehead) e a alternativa D trazia rodapé residual ('2023 PRIMEIRA EDIÇÃO'); ambos foram removidos por não pertencerem ao item — verificar contra o PDF original se possível",
+    "Questão INEP2023-2-Q058: alternativas e gabarito não foram recuperados na extração (status 'revisar_extracao'); apenas o enunciado é confiável — não usar para treino de alternativas até nova extração ou confirmação contra o PDF original",
+    "Questão INEP2024-1-Q053: alternativa A trazia fragmento residual de outra questão ('Reação hansênica tipo 2.'), removido por não pertencer ao item — verificar contra o PDF original se possível",
+    "Confirmar se este módulo tem mais questões nas 2 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

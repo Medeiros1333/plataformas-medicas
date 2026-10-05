@@ -1,0 +1,278 @@
+[
+  {
+    "id": "PED-INF-amoxicilina-clavulanico",
+    "nombre": "Amoxicilina-clavulánico (pediatría)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antibiótico",
+    "subclase": "Aminopenicilina con inhibidor de betalactamasas",
+    "mecanismo": "La amoxicilina inhibe la transpeptidación de la pared bacteriana; el CLAVULÁNICO no tiene actividad antibiótica propia sino que actúa como INHIBIDOR SUICIDA de las betalactamasas, uniéndose irreversiblemente a ellas y protegiendo a la amoxicilina de su destrucción. Eso amplía el espectro a Haemophilus y Moraxella productores de betalactamasa, a S. aureus sensible a meticilina y a anaerobios. La consecuencia práctica en pediatría es que TODA la toxicidad añadida procede del clavulánico: la diarrea, el dolor abdominal y la hepatotoxicidad son suyos, no de la amoxicilina. De ahí la lógica de las formulaciones pediátricas de proporción ALTA (8:1 o 14:1): permiten subir la amoxicilina hasta los 80-90 mg/kg/día que exige el neumococo con sensibilidad disminuida SIN subir en la misma proporción el clavulánico, que es lo que produce la diarrea.",
+    "espectro": "Streptococcus pneumoniae (incluidas cepas con sensibilidad intermedia a penicilina, a dosis altas), Streptococcus pyogenes, Haemophilus influenzae y Moraxella catarrhalis productores de betalactamasa, S. aureus sensible a meticilina, anaerobios de la boca. NO cubre: SARM, Pseudomonas, atípicas (Mycoplasma, Chlamydia) ni enterobacterias productoras de betalactamasas de espectro extendido.",
+    "dosis_pediatrica_base": "80-90 mg/kg/día de amoxicilina repartidos en 3 tomas, con formulación de proporción 8:1; 45 mg/kg/día en las infecciones que no requieren dosis alta",
+    "dosis_maxima": "3 g al día de amoxicilina; el clavulánico no debe superar los 10 mg/kg/día",
+    "presentaciones": [
+      "Suspensión 100/12,5 mg/mL (proporción 8:1), la de elección para dosis altas",
+      "Suspensión 250/62,5 mg por 5 mL (proporción 4:1), NO adecuada para dosis altas",
+      "Comprimidos de 500/125 y 875/125 mg para el niño mayor"
+    ],
+    "edad_minima": "Desde el recién nacido, con dosis y proporción específicas",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido",
+        "ajuste": "Se prefiere la amoxicilina sola o la ampicilina; el clavulánico se ha asociado a enterocolitis necrosante en el prematuro"
+      },
+      {
+        "franja": "Lactante y preescolar",
+        "ajuste": "80-90 mg/kg/día con formulación 8:1 en la otitis y la neumonía; 45 mg/kg/día en infecciones leves"
+      },
+      {
+        "franja": "Niño mayor de 40 kg y adolescente",
+        "ajuste": "Dosis de adulto: 875/125 mg cada 8 horas"
+      }
+    ],
+    "peculiaridad_pediatrica": "La particularidad decisiva es la PROPORCIÓN entre amoxicilina y clavulánico, un concepto que solo existe en pediatría. En el adulto se usa un comprimido con una relación fija; en el niño se necesitan dosis ALTAS de amoxicilina (80-90 mg/kg/día) para vencer al neumococo con sensibilidad disminuida, y si se alcanzan usando una formulación de proporción baja (4:1), el niño recibe una cantidad de clavulánico que le producirá diarrea, dolor abdominal y, con frecuencia, el abandono del tratamiento. Por eso existen las formulaciones 8:1 y 14:1. A esto se añaden dos rasgos propios de la edad: la reconstitución de la SUSPENSIÓN (que requiere agitar bien, conservar en nevera y desechar a los 7-10 días, y que se hace mal con frecuencia) y el hecho de que la mayoría de las infecciones respiratorias del niño son VÍRICAS, de modo que el problema más común con este antibiótico no es cómo dosificarlo sino cuándo NO prescribirlo.",
+    "indicaciones": [
+      {
+        "patologia": "OTITIS MEDIA AGUDA con criterios de tratamiento antibiótico",
+        "dosis": "80-90 mg/kg/día de amoxicilina en 3 tomas, formulación 8:1",
+        "posologia": "Cada 8 horas durante 5-7 días (10 días en el menor de 2 años)",
+        "via": "VO",
+        "dosis_objetivo": "Resolución de la otalgia y de la fiebre en 48-72 horas",
+        "nota": "La primera línea es la AMOXICILINA SOLA; el clavulánico se reserva a la otitis que ha fracasado, la que se acompaña de conjuntivitis (sugiere Haemophilus) o el niño con antibiótico reciente"
+      },
+      {
+        "patologia": "NEUMONÍA adquirida en la comunidad del niño",
+        "dosis": "80-90 mg/kg/día de amoxicilina en 3 tomas",
+        "posologia": "Cada 8 horas durante 5-7 días",
+        "via": "VO",
+        "nota": "En el niño pequeño el patógeno dominante es el NEUMOCOCO y basta amoxicilina sola. En el escolar y el adolescente hay que pensar en MYCOPLASMA, que este fármaco NO cubre"
+      },
+      {
+        "patologia": "SINUSITIS bacteriana y adenitis cervical supurada",
+        "dosis": "80-90 mg/kg/día en 3 tomas",
+        "posologia": "Cada 8 horas durante 10 días",
+        "via": "VO",
+        "nota": "La sinusitis se diagnostica por criterios de duración (más de 10 días sin mejorar) o de empeoramiento tras una mejoría inicial, no por la radiografía"
+      },
+      {
+        "patologia": "MORDEDURA de perro, gato o humana",
+        "dosis": "45-50 mg/kg/día en 3 tomas",
+        "posologia": "Cada 8 horas durante 5-7 días",
+        "via": "VO",
+        "dosis_objetivo": "Profilaxis o tratamiento de la infección de la herida",
+        "nota": "Es el antibiótico de ELECCIÓN aquí: cubre PASTEURELLA (perro y gato), Capnocytophaga y EIKENELLA (mordedura humana), y los anaerobios de la boca"
+      },
+      {
+        "patologia": "Infección urinaria y neumonía por aspiración",
+        "dosis": "50 mg/kg/día en 3 tomas",
+        "posologia": "Cada 8 horas",
+        "via": "VO",
+        "nota": "En la infección urinaria hay que conocer el patrón local de resistencias de E. coli, que es alto en muchas zonas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de prescribir hay que responder a una pregunta: ¿es esto bacteriano? La mayoría de las infecciones respiratorias del niño son víricas y no se benefician de antibiótico.",
+      "titulacion": "Dosis fija por peso; elegir la PROPORCIÓN adecuada según la dosis que se busque.",
+      "duracion": "Ciclos CORTOS de 5-7 días en la mayoría de los casos, con evidencia sólida de no inferioridad; 10 días en el menor de 2 años con otitis y en la faringitis estreptocócica.",
+      "fin": "Al completar el ciclo. No se prolonga por la persistencia de tos o mocos, que son residuales.",
+      "via": "Oral. La suspensión se toma CON alimento (mejora la tolerancia digestiva) y hay que AGITARLA bien antes de cada dosis.",
+      "monitorizacion": "Respuesta clínica en 48-72 horas. Vigilar la aparición de diarrea y de exantema."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, mejorada por el alimento en cuanto a tolerancia.",
+      "distribucion": "Buena penetración en oído medio, senos, pulmón y orina. NO alcanza el sistema nervioso central en concentraciones útiles.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "RENAL, predominantemente.",
+      "vida_media": "1-1,5 horas, más prolongada en el neonato por inmadurez renal.",
+      "ajuste_renal": "Ajustar el intervalo por filtrado glomerular.",
+      "ajuste_hepatico": "Precaución: el CLAVULÁNICO es el responsable de la hepatotoxicidad.",
+      "interacciones": [
+        {
+          "con": "ALOPURINOL",
+          "efecto": "Aumenta la incidencia de exantema",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia habitual en pediatría"
+        },
+        {
+          "con": "MONONUCLEOSIS INFECCIOSA (virus de Epstein-Barr)",
+          "efecto": "EXANTEMA maculopapular casi universal, que NO es una alergia",
+          "gravedad": "media",
+          "manejo": "Es la situación que más falsas alergias a penicilina genera en pediatría: un adolescente con faringoamigdalitis que recibe amoxicilina y desarrolla un exantema suele tener mononucleosis, no alergia. Etiquetarlo como alérgico le condena de por vida a antibióticos peores"
+        },
+        {
+          "con": "Anticonceptivos orales (adolescente)",
+          "efecto": "NO reducen su eficacia de forma clínicamente relevante",
+          "gravedad": "baja",
+          "manejo": "Es un mito extendido que conviene desmentir: solo la rifampicina lo hace"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su eliminación renal y aumenta su toxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilar el hemograma en el niño con artritis idiopática juvenil"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIARREA y dolor abdominal, atribuibles al CLAVULÁNICO y muy dependientes de la proporción usada",
+        "Vómitos",
+        "EXANTEMA maculopapular",
+        "Candidiasis del pañal y muguet"
+      ],
+      "graves": [
+        "ANAFILAXIA (rara pero posible)",
+        "HEPATOTOXICIDAD colestásica por el clavulánico, que puede aparecer SEMANAS DESPUÉS de terminar el tratamiento",
+        "Colitis por Clostridioides difficile",
+        "Síndrome de Stevens-Johnson y DRESS",
+        "Cristaluria y nefritis intersticial",
+        "Convulsiones por acumulación en la insuficiencia renal sin ajuste"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia previa a penicilinas",
+      "Antecedente de ictericia o hepatotoxicidad por amoxicilina-clavulánico",
+      "Uso rutinario en infecciones respiratorias VÍRICAS",
+      "Prematuro: precaución por la asociación descrita con enterocolitis necrosante"
+    ],
+    "perlas": [
+      "La PROPORCIÓN es lo que distingue la prescripción pediátrica de la del adulto: para alcanzar los 80-90 mg/kg/día de amoxicilina que exige el neumococo hay que usar una formulación 8:1 o 14:1. Si se usa la de 4:1, el niño recibe demasiado clavulánico y tendrá diarrea, que es la causa principal de abandono del tratamiento.",
+      "Toda la toxicidad añadida es del CLAVULÁNICO: la diarrea, el dolor abdominal y la hepatotoxicidad. La amoxicilina sola es notablemente mejor tolerada, y por eso sigue siendo la primera línea en la otitis y en la neumonía del niño pequeño.",
+      "El EXANTEMA por amoxicilina en un adolescente con faringoamigdalitis suele ser MONONUCLEOSIS, no alergia. Es la principal fuente de etiquetas falsas de alergia a penicilina, y esa etiqueta condena al paciente durante toda su vida a antibióticos más caros, más tóxicos y menos eficaces. Merece la pena explicarlo a la familia y dejarlo escrito.",
+      "En la MORDEDURA de perro, gato o humana es el antibiótico de elección, porque cubre Pasteurella y Eikenella además de los anaerobios de la boca. Es una indicación en la que no tiene sustituto cómodo.",
+      "En el ESCOLAR y el ADOLESCENTE con neumonía hay que pensar en MYCOPLASMA, que este fármaco NO cubre: una neumonía que no mejora en ese grupo de edad suele necesitar un macrólido, no una dosis mayor de amoxicilina.",
+      "Los ciclos CORTOS de 5 días son suficientes en la mayoría de las infecciones respiratorias del niño mayor de 2 años, con evidencia sólida. Prolongarlos no cura mejor: produce más diarrea y más resistencias.",
+      "La SUSPENSIÓN hay que AGITARLA bien antes de cada dosis, conservarla en la nevera y DESECHARLA a los 7-10 días. Es una fuente silenciosa de infradosificación cuando la familia usa el frasco del mes pasado.",
+      "La HEPATOTOXICIDAD del clavulánico puede aparecer SEMANAS después de terminar el tratamiento: ante una ictericia en un niño que tomó este antibiótico hace un mes, hay que pensar en ello y no descartarlo por el intervalo."
+    ],
+    "embarazo_lactancia": "Compatible con el embarazo y de uso habitual en la infección urinaria de la gestante adolescente. Compatible con la lactancia, con posible diarrea leve en el lactante.",
+    "micro_relacionado": [
+      "BGN-haemophilus-influenzae",
+      "BGN-moraxella-catarrhalis",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pneumoniae",
+      "VIR-virus-epstein-barr"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; guías de la AEP sobre otitis media aguda y neumonía adquirida en la comunidad"
+  },
+  {
+    "id": "PED-INF-nirsevimab",
+    "nombre": "Nirsevimab y palivizumab (profilaxis del VRS)",
+    "sinonimos": [
+      "Anticuerpos monoclonales frente al virus respiratorio sincitial"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Inmunización pasiva",
+    "subclase": "Anticuerpos monoclonales frente a la proteína F del VRS",
+    "mecanismo": "Son anticuerpos monoclonales que se unen a la proteína F de FUSIÓN del virus respiratorio sincitial y la bloquean en su conformación de PREFUSIÓN, impidiendo que el virus fusione su envoltura con la membrana de la célula respiratoria y entre en ella. No es una vacuna: no estimula al sistema inmunitario del niño, sino que le proporciona el anticuerpo ya fabricado, de modo que la protección es INMEDIATA y no requiere respuesta inmunitaria propia, lo cual es decisivo en un recién nacido. La diferencia entre ambos es de ingeniería: el PALIVIZUMAB tiene una vida media normal y exige una inyección MENSUAL durante toda la estación; el NIRSEVIMAB lleva una modificación en su fragmento Fc que aumenta su afinidad por el receptor FcRn de reciclaje, prolongando su vida media hasta unos 70 días y permitiendo proteger toda la temporada con UNA SOLA dosis.",
+    "espectro": "Virus respiratorio sincitial (subtipos A y B). No cubre ningún otro virus respiratorio.",
+    "dosis_pediatrica_base": "Nirsevimab 50 mg IM en dosis ÚNICA si pesa menos de 5 kg, y 100 mg si pesa 5 kg o más (dosis por FRANJA de peso, no ponderal estricta)",
+    "dosis_maxima": "200 mg en el segundo año de vida en niños de alto riesgo; palivizumab 15 mg/kg mensual",
+    "presentaciones": [
+      "Nirsevimab jeringa precargada de 50 mg y de 100 mg",
+      "Palivizumab vial de 50 y 100 mg para administración mensual"
+    ],
+    "edad_minima": "Desde el NACIMIENTO: se administra en la maternidad a los nacidos durante la temporada de VRS",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido durante la temporada",
+        "ajuste": "Dosis única ANTES DEL ALTA de la maternidad: es el momento de máxima cobertura y la mejor oportunidad logística"
+      },
+      {
+        "franja": "Menor de 8-12 meses que entra en su primera temporada",
+        "ajuste": "Dosis única al inicio de la temporada (habitualmente octubre-noviembre)"
+      },
+      {
+        "franja": "Niño de alto riesgo en su SEGUNDA temporada",
+        "ajuste": "Segunda dosis de 200 mg: displasia broncopulmonar, cardiopatía hemodinámicamente significativa, inmunodeficiencia"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es un fármaco que solo tiene sentido en pediatría, y su lógica es enteramente pediátrica. El VRS produce en el adulto un catarro y en el LACTANTE una bronquiolitis que es la primera causa de hospitalización en el primer año de vida, y esa diferencia se debe a la anatomía: la vía aérea del lactante tiene un calibre tan pequeño que el edema y el detritus celular que el virus produce la obstruyen, mientras que en un bronquio adulto ese mismo grosor de moco es irrelevante. A ello se añade que el lactante menor de 3 meses tiene una respuesta inmunitaria inmadura y no responde bien a las vacunas, razón por la que aquí se recurre a la inmunización PASIVA: se le da el anticuerpo hecho en lugar de pedirle que lo fabrique. La incorporación del nirsevimab a los calendarios ha reducido de forma drástica los ingresos por bronquiolitis, y representa uno de los cambios más visibles de la pediatría hospitalaria en décadas.",
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS universal de la bronquiolitis por VRS en el lactante",
+        "dosis": "Nirsevimab 50 mg IM si pesa menos de 5 kg, o 100 mg si pesa 5 kg o más, en dosis única",
+        "posologia": "Dosis única por temporada",
+        "via": "IM",
+        "dosis_objetivo": "Protección durante toda la temporada de VRS (unos 5 meses)",
+        "nota": "Se administra a TODOS los lactantes que entran en su primera temporada, no solo a los de riesgo: ese cambio de estrategia es lo que ha reducido los ingresos"
+      },
+      {
+        "patologia": "Profilaxis en el prematuro y en el niño con displasia broncopulmonar",
+        "dosis": "Nirsevimab en dosis única; alternativamente palivizumab 15 mg/kg IM mensual durante 5 meses",
+        "posologia": "Dosis única o mensual según el producto",
+        "via": "IM",
+        "nota": "El PALIVIZUMAB exige 5 inyecciones y 5 visitas: su cumplimiento real siempre fue un problema, y el nirsevimab lo resuelve"
+      },
+      {
+        "patologia": "Cardiopatía congénita hemodinámicamente significativa e inmunodeficiencia",
+        "dosis": "Nirsevimab 200 mg en la segunda temporada en los de mayor riesgo",
+        "posologia": "Dosis única por temporada",
+        "via": "IM",
+        "nota": "En estos niños la bronquiolitis puede ser catastrófica, y son los que más se benefician"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el nacido durante la temporada, ANTES DEL ALTA de la maternidad. En el resto, al inicio de la campaña estacional.",
+      "titulacion": "No procede: dosis única por franja de peso.",
+      "duracion": "Protección de unos 5 meses, que cubre toda la temporada.",
+      "fin": "No requiere seguimiento.",
+      "via": "Intramuscular en el vasto lateral del muslo.",
+      "monitorizacion": "Observación breve tras la administración. No requiere control analítico."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intramuscular, con biodisponibilidad elevada.",
+      "distribucion": "Compartimento vascular y vía respiratoria.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "NIRSEVIMAB unos 70 días (frente a los 20 del palivizumab), gracias a la modificación del Fc que aumenta su reciclaje por el receptor FcRn.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "VACUNAS del calendario",
+          "efecto": "NINGUNA: no interfiere con las vacunas inactivadas ni con las vivas del calendario infantil",
+          "gravedad": "baja",
+          "manejo": "Se puede administrar en la misma visita y en la misma sesión que las vacunas, en un punto de inyección distinto. Es una duda muy frecuente en la consulta"
+        },
+        {
+          "con": "Inmunoglobulinas intravenosas",
+          "efecto": "Sin interacción relevante demostrada",
+          "gravedad": "baja",
+          "manejo": "Sin precauciones específicas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción local en el punto de inyección",
+        "Exantema leve en los días siguientes",
+        "Fiebre baja"
+      ],
+      "graves": [
+        "Reacciones de hipersensibilidad y anafilaxia (muy raras)",
+        "Precaución en el niño con trombocitopenia o trastorno de la coagulación por la vía intramuscular"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida al principio activo",
+      "Precaución en trastornos graves de la coagulación (vía intramuscular)"
+    ],
+    "perlas": [
+      "NO es una vacuna: es inmunización PASIVA. Se le da al niño el anticuerpo ya fabricado en lugar de pedirle que lo produzca, y esa distinción importa porque el lactante menor de 3 meses, que es el que más riesgo tiene, es precisamente el que peor responde a las vacunas.",
+      "NO interfiere con el calendario vacunal y se puede poner en la misma visita, en otro punto de inyección. Es la duda que más aparece en la consulta y la respuesta tranquiliza a las familias.",
+      "El cambio de estrategia de PROFILAXIS DE RIESGO a PROFILAXIS UNIVERSAL es lo que ha producido el impacto: la mayoría de los lactantes que ingresan por bronquiolitis grave son niños SANOS y a término, no prematuros, simplemente porque son muchísimos más. Proteger solo a los de riesgo dejaba fuera a la mayor parte de los ingresos.",
+      "Una sola dosis frente a cinco: la modificación del fragmento Fc del nirsevimab, que aumenta su reciclaje celular, resolvió el problema de adherencia que arrastraba el palivizumab durante veinte años. Es un ejemplo claro de cómo un cambio farmacocinético cambia la salud pública.",
+      "La razón de que el VRS sea banal en el adulto y grave en el lactante es puramente ANATÓMICA: en una vía aérea de pocos milímetros, el edema y el detritus celular obstruyen; en un bronquio adulto, no. Entender eso explica también por qué los broncodilatadores funcionan tan mal en la bronquiolitis: el problema no es el músculo liso, es el tapón.",
+      "El momento ideal de administración es ANTES DEL ALTA de la maternidad en el nacido durante la temporada: es cuando la cobertura es máxima y cuando no depende de que la familia acuda a una cita adicional.",
+      "Protege del VRS y de nada más. Un lactante inmunizado que ingresa con bronquiolitis puede tener rinovirus, metapneumovirus o bocavirus, y eso no significa que el fármaco haya fallado."
+    ],
+    "embarazo_lactancia": "No aplicable por la población a la que se dirige. Existe además una vacuna materna frente al VRS que se administra en el tercer trimestre y protege al recién nacido por transferencia transplacentaria de anticuerpos: es la estrategia alternativa y complementaria.",
+    "micro_relacionado": [
+      "VIR-virus-respiratorio-sincitial"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; recomendaciones de la AEP y de los calendarios de inmunización frente al VRS"
+  }
+]

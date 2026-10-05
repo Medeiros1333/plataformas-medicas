@@ -1,0 +1,281 @@
+[
+  {
+    "id": "PED-HEM-hierro-oral",
+    "nombre": "Hierro oral (pediatría)",
+    "sinonimos": [
+      "Sulfato ferroso",
+      "Ferroglicina sulfato"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Hematínico: sal de hierro oral",
+    "subclase": "Hierro ferroso (Fe2+)",
+    "mecanismo": "Aporta hierro ferroso, la única forma absorbible por el transportador DMT1 del enterocito duodenal, para la síntesis del grupo hemo. En el niño el hierro no solo sirve para la hemoglobina: es cofactor de enzimas implicadas en la MIELINIZACIÓN y en la síntesis de neurotransmisores, y su déficit en los primeros 2-3 años se asocia a alteraciones del desarrollo cognitivo y conductual que pueden ser IRREVERSIBLES aunque después se corrija la anemia. Esa es la diferencia esencial con el adulto.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Tratamiento: 3-6 mg/kg/día de hierro ELEMENTAL. Profilaxis: 1-2 mg/kg/día",
+    "dosis_maxima": "150-200 mg/día de hierro elemental (dosis de adulto)",
+    "presentaciones": [
+      "Gotas de sulfato ferroso (comprobar SIEMPRE la concentración de la presentación concreta)",
+      "Solución oral en jarabe",
+      "Comprimidos y sobres en el niño mayor"
+    ],
+    "edad_minima": "Desde el periodo neonatal (profilaxis del prematuro desde las 2-4 semanas de vida)",
+    "franjas_edad": [
+      {
+        "franja": "Prematuro y bajo peso al nacer",
+        "ajuste": "PROFILAXIS con 2-4 mg/kg/día desde las 2-4 semanas de vida hasta los 12 meses: sus depósitos, que se forman en el tercer trimestre, son insuficientes"
+      },
+      {
+        "franja": "Lactante a término con lactancia materna exclusiva",
+        "ajuste": "Los depósitos se agotan hacia los 4-6 meses: la alimentación complementaria debe aportar hierro (carne, legumbres) y se suplementa si hay factores de riesgo"
+      },
+      {
+        "franja": "6-24 meses",
+        "ajuste": "Franja de máximo riesgo y de máxima repercusión neurocognitiva. Limitar la leche de vaca a menos de 500 mL/día: su exceso desplaza alimentos ricos en hierro y puede causar microsangrado intestinal"
+      },
+      {
+        "franja": "Adolescente, especialmente mujer",
+        "ajuste": "La menarquia y el estirón puberal disparan las necesidades; dosis de adulto y estudio de la menorragia"
+      }
+    ],
+    "peculiaridad_pediatrica": "Tres diferencias respecto al adulto. La primera es de CONSECUENCIAS: la ferropenia entre los 6 y los 24 meses afecta al desarrollo neurocognitivo de forma potencialmente irreversible, de modo que se trata también la ferropenia SIN anemia y se hace cribado en los grupos de riesgo. La segunda es de SEGURIDAD: el hierro es una de las causas más frecuentes de intoxicación mortal en el niño, porque los preparados parecen caramelos y no existe vía fisiológica de excreción; guardar el frasco fuera del alcance forma parte de la prescripción. La tercera es de ADMINISTRACIÓN: las gotas tiñen los dientes, hay que darlas con jeringa hacia el carrillo y enjuagar después, y sobre todo hay que COMPROBAR LA CONCENTRACIÓN de la presentación concreta, porque los errores de dosificación entre presentaciones son frecuentes.",
+    "indicaciones": [
+      {
+        "patologia": "Anemia ferropénica del lactante y del niño",
+        "dosis": "3-6 mg/kg/día de hierro elemental",
+        "posologia": "1-2 tomas al día, en ayunas o entre comidas",
+        "via": "VO",
+        "nota": "Investigar SIEMPRE la causa: exceso de leche de vaca, dieta pobre, celiaquía, parasitosis o sangrado digestivo"
+      },
+      {
+        "patologia": "Profilaxis en el prematuro y el recién nacido de bajo peso",
+        "dosis": "2-4 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Desde las 2-4 semanas de vida hasta los 12 meses: los depósitos se forman en el tercer trimestre y el prematuro no los ha completado"
+      },
+      {
+        "patologia": "Ferropenia sin anemia con repercusión clínica",
+        "dosis": "3 mg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "También se trata: la ferropenia afecta al desarrollo y produce astenia, irritabilidad y peor rendimiento antes de que baje la hemoglobina"
+      },
+      {
+        "patologia": "Anemia ferropénica de la adolescente con menorragia",
+        "dosis": "100-200 mg/día de hierro elemental, o en días alternos",
+        "posologia": "Diaria o en días alternos",
+        "via": "VO",
+        "nota": "Tratar además la causa: ácido tranexámico o anticoncepción hormonal según el caso"
+      }
+    ],
+    "esquema": {
+      "inicio": "3-6 mg/kg/día repartidos, preferiblemente en ayunas o entre comidas, con zumo de naranja o vitamina C para mejorar la absorción.",
+      "titulacion": "Si hay intolerancia digestiva, bajar a 3 mg/kg/día o pasar a días alternos antes de renunciar al tratamiento.",
+      "duracion": "Hasta normalizar la hemoglobina y después 2-3 MESES MÁS para rellenar los depósitos.",
+      "fin": "Se retira con la ferritina normalizada y la causa corregida. La retirada precoz al normalizar la hemoglobina garantiza la recaída.",
+      "via": "VO, con jeringa dosificadora dirigida al carrillo; enjuagar la boca o dar agua después para evitar la tinción dental.",
+      "monitorizacion": "RETICULOCITOS a los 7-10 días (primera señal de respuesta), hemoglobina a las 4 semanas y FERRITINA al final. Vigilar el estreñimiento y advertir de las heces negras."
+    },
+    "farmacocinetica": {
+      "absorcion": "10-15% de la dosis, en duodeno; mejora con vitamina C y en ayunas, y se reduce mucho con leche, cereales, té y calcio.",
+      "distribucion": "Transportado por transferrina; almacenado como ferritina.",
+      "metabolismo": "No se metaboliza: se recicla.",
+      "eliminacion": "NO existe vía fisiológica de excreción del hierro; solo se pierde por descamación y sangrado. De ahí la gravedad de la intoxicación.",
+      "vida_media": "No aplicable; los depósitos tardan meses en repletarse.",
+      "ajuste_renal": "En la enfermedad renal crónica suele requerirse hierro intravenoso por el bloqueo de la absorción mediado por la hepcidina.",
+      "ajuste_hepatico": "Contraindicado en la sobrecarga férrica.",
+      "interacciones": [
+        {
+          "con": "LECHE, cereales, té y calcio",
+          "efecto": "Reducción marcada de la absorción",
+          "gravedad": "media",
+          "manejo": "Administrar en ayunas o entre comidas, separado al menos 1-2 h de los lácteos"
+        },
+        {
+          "con": "Levotiroxina, quinolonas, tetraciclinas, penicilamina",
+          "efecto": "Quelación mutua con pérdida de eficacia de ambos",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2-4 horas"
+        },
+        {
+          "con": "Inhibidores de la bomba de protones y antiácidos",
+          "efecto": "Menor acidez gástrica y menor absorción",
+          "gravedad": "media",
+          "manejo": "Revisar si el IBP sigue indicado"
+        },
+        {
+          "con": "Vitamina C",
+          "efecto": "AUMENTA la absorción al reducir el hierro férrico a ferroso",
+          "gravedad": "baja",
+          "manejo": "Interacción beneficiosa: administrarlo con zumo de naranja"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO (el más frecuente y la principal causa de abandono en el niño)",
+        "HECES NEGRAS (efecto esperable e inocuo, que hay que advertir)",
+        "TINCIÓN DENTAL con las formulaciones líquidas (reversible)",
+        "Náuseas y dolor abdominal"
+      ],
+      "graves": [
+        "INTOXICACIÓN AGUDA por ingesta accidental: gastroenteritis hemorrágica, shock, acidosis metabólica y necrosis hepática. Es una de las intoxicaciones pediátricas más letales",
+        "Sobrecarga férrica con administración prolongada sin indicación",
+        "Empeoramiento de una anemia no ferropénica mal diagnosticada (talasemia)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anemias no ferropénicas sin ferropenia asociada (talasemia, anemia sideroblástica)",
+      "Hemocromatosis y sobrecarga férrica",
+      "Hipersensibilidad al preparado"
+    ],
+    "perlas": [
+      "Lo que hace distinta a la ferropenia del niño pequeño no es la anemia sino el NEURODESARROLLO: entre los 6 y los 24 meses el hierro interviene en la mielinización, y el déficit se asocia a alteraciones cognitivas y conductuales que pueden persistir aunque después se corrija. Por eso en pediatría se trata también la ferropenia SIN anemia.",
+      "El EXCESO DE LECHE DE VACA es la causa dietética más frecuente y la más fácil de corregir: desplaza alimentos ricos en hierro, tiene muy poco hierro y de mala biodisponibilidad, y puede producir microsangrado intestinal. Limitar a menos de 500 mL/día es una intervención terapéutica en sí misma.",
+      "La INTOXICACIÓN accidental por hierro es una de las más letales de la infancia: los comprimidos parecen caramelos y no hay forma fisiológica de excretarlo. El antídoto es la DEFEROXAMINA. Advertir sobre dónde se guarda el frasco forma parte de la receta.",
+      "Hay que COMPROBAR LA CONCENTRACIÓN de la presentación concreta al calcular la dosis: las gotas y los jarabes tienen concentraciones de hierro elemental muy distintas, y los errores de diez veces la dosis se producen precisamente ahí.",
+      "Advertir de las HECES NEGRAS evita dos problemas: una consulta urgente por sospecha de melena y el abandono del tratamiento.",
+      "No hay que suspenderlo al normalizar la hemoglobina: faltan 2-3 meses más para llenar los depósitos. Es el error que más recaídas provoca.",
+      "El primer signo de respuesta son los RETICULOCITOS a los 7-10 días. Si no suben, hay que revisar cumplimiento, técnica de administración (dado con leche no se absorbe) y otras causas antes de subir la dosis."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante es seguro y con frecuencia necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; AMIR Pediatría"
+  },
+  {
+    "id": "PED-END-levotiroxina",
+    "nombre": "Levotiroxina (hipotiroidismo congénito)",
+    "sinonimos": [
+      "L-T4"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Hormona tiroidea sintética",
+    "subclase": "Tratamiento sustitutivo del hipotiroidismo del niño",
+    "mecanismo": "T4 sintética que se desyoda en los tejidos a T3, la forma activa, que regula la transcripción génica del metabolismo basal y, en el niño, del CRECIMIENTO y sobre todo de la MADURACIÓN DEL SISTEMA NERVIOSO CENTRAL. En los primeros 2-3 años de vida la hormona tiroidea es imprescindible para la mielinización, la sinaptogénesis y la migración neuronal: su déficit en esa ventana produce un daño cognitivo IRREVERSIBLE. Ese es el motivo por el que el hipotiroidismo congénito se criba a todos los recién nacidos y se trata con urgencia.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Recién nacido: 10-15 µg/kg/día. Lactante 3-12 meses: 6-8 µg/kg/día. 1-5 años: 5-6 µg/kg/día. 6-12 años: 4-5 µg/kg/día. Adolescente: 2-3 µg/kg/día",
+    "dosis_maxima": "50 µg/día en el recién nacido; en el adolescente, dosis de adulto (habitualmente 100-150 µg/día)",
+    "presentaciones": [
+      "Comprimidos de 25, 50, 75, 100 µg (se trituran y se disuelven en poca agua o leche materna)",
+      "Solución oral pediátrica en gotas, que facilita mucho la dosificación en el lactante"
+    ],
+    "edad_minima": "Recién nacido: debe iniciarse en las primeras 2 SEMANAS de vida",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido con cribado positivo",
+        "ajuste": "10-15 µg/kg/día INICIADOS ANTES DE LOS 15 DÍAS DE VIDA, sin esperar a completar el estudio etiológico: cada semana de retraso cuesta puntos de cociente intelectual"
+      },
+      {
+        "franja": "Lactante",
+        "ajuste": "La dosis POR KILO es la más alta de toda la vida y va disminuyendo con la edad, al contrario de lo que ocurre con casi todos los fármacos"
+      },
+      {
+        "franja": "Niño en edad escolar",
+        "ajuste": "Reajustar la dosis con cada cambio de peso y de talla; controles al menos cada 4-6 meses"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Dosis progresivamente de adulto; vigilar la adherencia, que es el principal problema en esta edad"
+      }
+    ],
+    "peculiaridad_pediatrica": "Lo que cambia en el niño no es el fármaco sino la URGENCIA y la DOSIS POR KILO. En el recién nacido con hipotiroidismo congénito hay una ventana de días: el tratamiento debe iniciarse antes de los 15 días de vida y normalizar la T4 en 2 semanas, porque el desarrollo cerebral no espera y el daño es irreversible. Además, la dosis por kilo es la mayor de toda la vida (10-15 µg/kg en el neonato frente a 1,6 µg/kg en el adulto) y va DISMINUYENDO con la edad, al revés que la intuición habitual. En cuanto a la administración, el comprimido se tritura y se disuelve en muy poca agua o leche materna, NUNCA en un biberón entero (si no lo termina, no se sabe qué dosis ha recibido) y separado de la fórmula de soja, del hierro y del calcio, que bloquean su absorción.",
+    "indicaciones": [
+      {
+        "patologia": "Hipotiroidismo congénito detectado en el cribado neonatal",
+        "dosis": "10-15 µg/kg/día",
+        "posologia": "Una vez al día, en ayunas",
+        "via": "VO",
+        "nota": "URGENTE: iniciar antes de los 15 días de vida sin esperar a la gammagrafía ni al estudio etiológico"
+      },
+      {
+        "patologia": "Hipotiroidismo adquirido (tiroiditis de Hashimoto, la causa más frecuente en el niño mayor)",
+        "dosis": "4-5 µg/kg/día en el escolar; 2-3 µg/kg/día en el adolescente",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Puede debutar como talla baja con retraso de la edad ósea, a veces sin otros síntomas"
+      },
+      {
+        "patologia": "Hipotiroidismo del prematuro y hipotiroxinemia transitoria",
+        "dosis": "8-10 µg/kg/día",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Requiere valoración por endocrinología pediátrica: no todo descenso de T4 en el prematuro debe tratarse"
+      },
+      {
+        "patologia": "Hipotiroidismo central (hipofisario)",
+        "dosis": "Según edad, ajustada por T4 LIBRE",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "dosis_objetivo": "T4 libre en la mitad superior del rango normal para la edad (la TSH no sirve para ajustar)",
+        "nota": "Descartar y tratar antes un déficit de cortisol asociado: primero hidrocortisona, después levotiroxina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena por kilo desde el primer día en el hipotiroidismo congénito, sin escalado: el objetivo es normalizar la T4 en 2 semanas.",
+      "titulacion": "Ajustes según TSH y T4 libre a las 2 y 4 semanas del inicio, después cada 1-2 meses en el primer año, cada 3-4 meses hasta los 3 años y cada 6-12 meses después.",
+      "duracion": "De por vida en la disgenesia tiroidea. En la dishormonogénesis y en las formas transitorias, puede reevaluarse retirándola a los 3 AÑOS, cuando el desarrollo cerebral crítico ya ha pasado.",
+      "fin": "No se retira antes de los 3 años bajo ningún concepto; a partir de esa edad puede hacerse una prueba de retirada controlada de 4-6 semanas para reclasificar el diagnóstico.",
+      "via": "VO, comprimido triturado en muy poca agua o leche materna con jeringa, en ayunas y separado del hierro, el calcio y la soja.",
+      "monitorizacion": "TSH y T4 LIBRE seriadas; TALLA, PESO y PERÍMETRO CEFÁLICO en cada visita; desarrollo psicomotor. En el niño, la monitorización del neurodesarrollo es tan importante como la analítica."
+    },
+    "farmacocinetica": {
+      "absorcion": "70-80% en yeyuno e íleon; muy sensible a interferencias: fórmula de SOJA, hierro, calcio, inhibidores de la bomba de protones y fibra.",
+      "distribucion": "Unión a proteínas superior al 99%.",
+      "metabolismo": "Desyodación periférica a T3 activa.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "7 días, que permite la dosis única diaria y tolera un olvido puntual.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Fórmula de SOJA, HIERRO, CALCIO, sucralfato, inhibidores de la bomba de protones",
+          "efecto": "Reducen de forma importante la absorción, con hipotiroidismo persistente pese a dosis correcta",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2-4 h. En el lactante alimentado con fórmula de soja hay que revisar la dosis: puede necesitar bastante más"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, fenobarbital",
+          "efecto": "Inducen su metabolismo y aumentan los requerimientos",
+          "gravedad": "media",
+          "manejo": "Controlar la función tiroidea al iniciarlos o retirarlos"
+        },
+        {
+          "con": "Corticoides en el niño con insuficiencia suprarrenal asociada",
+          "efecto": "Administrar levotiroxina antes que el corticoide puede precipitar una crisis suprarrenal",
+          "gravedad": "alta",
+          "manejo": "SIEMPRE hidrocortisona primero, levotiroxina después"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "A dosis correcta, ninguno: es hormona sustitutiva"
+      ],
+      "graves": [
+        "TIROTOXICOSIS IATROGÉNICA por sobredosificación: irritabilidad, insomnio, taquicardia, sudoración, diarrea y escasa ganancia ponderal en el lactante",
+        "CRANEOSINOSTOSIS PREMATURA y aceleración excesiva de la maduración ósea con sobredosificación mantenida en el lactante",
+        "Alteraciones del comportamiento y del sueño",
+        "Crisis suprarrenal si se administra antes de corregir un déficit de cortisol"
+      ]
+    },
+    "contraindicaciones": [
+      "Tirotoxicosis no tratada",
+      "INSUFICIENCIA SUPRARRENAL no corregida: administrar antes el glucocorticoide",
+      "Hipersensibilidad a los excipientes"
+    ],
+    "perlas": [
+      "El hipotiroidismo congénito es el ejemplo por excelencia de por qué existe el cribado neonatal: es una causa PREVENIBLE de discapacidad intelectual, y todo depende de una ventana de días. Iniciado antes de los 15 días de vida, el niño alcanza un desarrollo normal; con semanas de retraso, se pierden puntos de cociente intelectual de forma irreversible. Por eso se trata SIN esperar al estudio etiológico, que puede completarse después.",
+      "La dosis por kilo es la MÁS ALTA de toda la vida en el recién nacido (10-15 µg/kg frente a 1,6 µg/kg del adulto) y va DISMINUYENDO con la edad. Es contraintuitivo y una fuente clásica de infradosificación cuando se extrapola la dosis del adulto.",
+      "El comprimido se disuelve en MUY POCA agua o leche materna y se da con jeringa, nunca en un biberón entero: si el niño no lo termina, nadie sabe qué dosis ha recibido.",
+      "La FÓRMULA DE SOJA bloquea la absorción de forma clínicamente relevante: en el lactante alimentado con soja hay que sospecharla ante una TSH que no baja, antes de subir la dosis a ciegas.",
+      "El seguimiento pediátrico no es solo analítico: TALLA, PESO, PERÍMETRO CEFÁLICO y desarrollo psicomotor son parte de la monitorización, porque el objetivo del tratamiento es el neurodesarrollo, no un número.",
+      "La sobredosificación mantenida en el lactante tiene un riesgo propio y poco conocido: CRANEOSINOSTOSIS prematura y aceleración de la edad ósea.",
+      "No se plantea retirarla antes de los 3 AÑOS: pasada esa edad, el desarrollo cerebral crítico ya ha ocurrido y puede hacerse una prueba de retirada para distinguir las formas permanentes de las transitorias."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante las necesidades aumentan un 25-30% desde el primer trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38; AMIR Pediatría; programas de cribado neonatal"
+  }
+]

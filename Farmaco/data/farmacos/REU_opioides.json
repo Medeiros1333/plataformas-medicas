@@ -1,0 +1,261 @@
+[
+  {
+    "id": "REU-tramadol",
+    "nombre": "Tramadol",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico opioide",
+    "subclase": "Opioide débil de acción dual (agonista mu y monoaminérgico)",
+    "vs_clase": [
+      "**Opioide débil con efecto SEROTONINÉRGICO y NORADRENÉRGICO**: **síndrome serotoninérgico** con ISRS, IMAO, triptanes y rasagilina.",
+      "**Baja el umbral CONVULSIVO** (evitar en epilepsia) y causa **hipoglucemia e hiponatremia**.",
+      "**Profármaco por CYP2D6** (como la codeína), con náuseas y mareo muy frecuentes."
+    ],
+    "mecanismo": "Tiene DOS mecanismos que actúan a la vez y explican tanto su eficacia como sus problemas. El primero es opioide: su metabolito O-desmetiltramadol (M1), generado por el CYP2D6, es un agonista del receptor mu con una afinidad muy superior a la del fármaco original. El segundo es monoaminérgico: el propio tramadol inhibe la recaptación de SEROTONINA y NORADRENALINA, potenciando las vías descendentes inhibitorias del dolor. De ese segundo mecanismo derivan el riesgo de síndrome serotoninérgico, el descenso del umbral convulsivo y la limitada respuesta a la naloxona.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor moderado agudo (traumatismo, postoperatorio, cólico)",
+        "dosis": "50-100 mg cada 6-8 horas, máximo 400 mg al día",
+        "posologia": "Cada 6-8 horas a demanda o pautado",
+        "via": "VO",
+        "nota": "Empezar por 50 mg en el paciente sin exposición previa a opioides; las náuseas son la causa principal de abandono"
+      },
+      {
+        "patologia": "Dolor crónico no oncológico que no responde a paracetamol y AINE",
+        "dosis": "50-100 mg cada 12 horas en la formulación retardada",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Indicación cada vez más cuestionada: revisar periódicamente el beneficio real y planificar la retirada"
+      },
+      {
+        "patologia": "Dolor NEUROPÁTICO",
+        "dosis": "50-100 mg cada 8-12 horas",
+        "posologia": "Cada 8-12 horas",
+        "via": "VO",
+        "nota": "Su componente monoaminérgico le da eficacia en el dolor neuropático, superior a la de otros opioides débiles"
+      },
+      {
+        "patologia": "Dolor moderado en el paciente que no tolera la vía oral",
+        "dosis": "100 mg cada 8 horas IV lenta o IM, máximo 400 mg al día",
+        "posologia": "Cada 8 horas",
+        "via": "IV",
+        "nota": "Administrar la vía intravenosa DILUIDA y lenta: en bolo rápido produce náuseas intensas"
+      }
+    ],
+    "esquema": {
+      "inicio": "50 mg, o incluso 25 mg en el anciano, para valorar la tolerancia digestiva. Asociar un antiemético los primeros días mejora mucho la adherencia.",
+      "titulacion": "Ascenso progresivo hasta el control del dolor, con un techo de 400 mg al día (300 mg en el mayor de 75 años).",
+      "duracion": "En el dolor agudo, el tiempo estrictamente necesario, habitualmente días. En el crónico, con revisión periódica de si sigue aportando algo.",
+      "fin": "Retirada PROGRESIVA si se ha usado semanas: la suspensión brusca da un síndrome de abstinencia mixto, opioide y monoaminérgico (ansiedad, insomnio, parestesias, e incluso alucinaciones).",
+      "via": "Oral preferente; intravenosa lenta y diluida cuando no hay vía oral.",
+      "monitorizacion": "Eficacia analgésica, sedación, estreñimiento y, en el anciano, natremia y estado cognitivo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 70% en dosis única, que asciende al 90-100% con dosis repetidas.",
+      "distribucion": "Amplia; atraviesa la placenta y pasa a la leche.",
+      "metabolismo": "Hepático. El CYP2D6 genera el metabolito activo M1 y el CYP3A4 produce metabolitos inactivos. El polimorfismo del CYP2D6 hace que la respuesta varíe enormemente de un paciente a otro.",
+      "eliminacion": "Renal (90%).",
+      "vida_media": "6 horas (M1, 7-9 horas).",
+      "ajuste_renal": "Con filtrado menor de 30 mL/min, alargar el intervalo a cada 12 horas y no superar los 200 mg al día. Evitar por debajo de 10 mL/min.",
+      "ajuste_hepatico": "Reducir la dosis y alargar el intervalo en la cirrosis; evitar en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "ISRS, IRSN, tricíclicos, IMAO, triptanes, linezolid",
+          "efecto": "SÍNDROME SEROTONINÉRGICO",
+          "gravedad": "alta",
+          "manejo": "Contraindicado con IMAO. Con los demás, valorar alternativa; si se combina, informar al paciente de los síntomas de alarma"
+        },
+        {
+          "con": "Inhibidores potentes del CYP2D6 (fluoxetina, paroxetina, bupropión)",
+          "efecto": "Bloquean la formación del metabolito activo: PIERDE eficacia analgésica y aumenta el efecto serotoninérgico del fármaco original",
+          "gravedad": "media",
+          "manejo": "Explica muchos fracasos analgésicos inexplicables; considerar otro analgésico"
+        },
+        {
+          "con": "Fármacos que bajan el umbral convulsivo (bupropión, antipsicóticos, tramadol a dosis altas)",
+          "efecto": "CONVULSIONES",
+          "gravedad": "alta",
+          "manejo": "Evitar en el epiléptico y en el paciente con antecedentes de convulsión"
+        },
+        {
+          "con": "Benzodiazepinas, alcohol, gabapentinoides",
+          "efecto": "Depresión respiratoria y sedación por suma de efectos",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación o usar la dosis mínima con vigilancia"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Elevación del INR con riesgo hemorrágico",
+          "gravedad": "media",
+          "manejo": "Controlar el INR al iniciar y al retirar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS Y VÓMITOS, el efecto que más limita su uso",
+        "Mareo y somnolencia",
+        "Estreñimiento (menos que con los opioides potentes)",
+        "Sequedad de boca y sudoración",
+        "Confusión en el anciano"
+      ],
+      "graves": [
+        "CONVULSIONES, incluso a dosis terapéuticas y sobre todo con antidepresivos asociados",
+        "SÍNDROME SEROTONINÉRGICO",
+        "HIPONATREMIA por SIADH, especialmente en el anciano",
+        "Depresión respiratoria, sobre todo en el metabolizador ultrarrápido del CYP2D6 y en el paciente con insuficiencia renal",
+        "Hipoglucemia (asociación descrita e infravalorada)",
+        "Dependencia y abstinencia"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante o reciente de IMAO",
+      "Epilepsia mal controlada",
+      "Intoxicación aguda por alcohol, hipnóticos u otros opioides",
+      "Menores de 12 años y menores de 18 tras amigdalectomía o adenoidectomía",
+      "Insuficiencia renal o hepática graves"
+    ],
+    "perlas": [
+      "La fama de opioide inocuo es su mayor peligro. El tramadol tiene tres complicaciones que la morfina no tiene: convulsiones, síndrome serotoninérgico e hiponatremia. En el anciano polimedicado suele ser una elección peor que una dosis baja de un opioide clásico.",
+      "Depende del CYP2D6 para funcionar. El metabolizador LENTO (en torno al 7% de la población europea) no genera M1 y refiere que no le hace nada, aunque sufre los efectos adversos; el ULTRARRÁPIDO genera un exceso de M1 y puede hacer una depresión respiratoria con dosis normales. Esa variabilidad genética es la razón de su reputación de fármaco impredecible.",
+      "La combinación con un ISRS es cotidiana y arriesgada por partida doble: aumenta el riesgo serotoninérgico y, si el ISRS inhibe el CYP2D6 (fluoxetina, paroxetina), reduce la analgesia. Más efectos adversos y menos alivio.",
+      "La HIPONATREMIA por SIADH en el anciano es una causa muy infradiagnosticada de caída, confusión y deterioro tras iniciar tramadol. Ante un anciano confuso al que se le ha empezado tramadol, hay que medir el sodio.",
+      "La NALOXONA revierte solo el componente opioide. La convulsión y el síndrome serotoninérgico no responden, y la propia naloxona puede facilitar la convulsión al retirar el efecto opioide: la intoxicación por tramadol no se maneja como una intoxicación opioide corriente.",
+      "Está CONTRAINDICADO en el menor de 12 años y tras amigdalectomía en el menor de 18: hubo muertes por depresión respiratoria en niños metabolizadores ultrarrápidos, la misma historia que llevó a retirar la codeína en pediatría.",
+      "En el dolor neuropático es, entre los opioides, el que mejor se comporta, y esa es su indicación más defendible."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo, sobre todo cerca del parto (riesgo de síndrome de abstinencia neonatal y depresión respiratoria). En la lactancia se desaconseja por el mismo problema del metabolizador ultrarrápido que motivó su retirada en pediatría.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; alertas de la AEMPS y la FDA sobre tramadol y codeína en pediatría"
+  },
+  {
+    "id": "REU-fentanilo",
+    "nombre": "Fentanilo",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico opioide",
+    "subclase": "Agonista mu potente, sintético y muy lipófilo",
+    "vs_clase": [
+      "**Muy LIPÓFILO y 100 veces más potente que la morfina**: **parche transdérmico** (dolor crónico estable) y formas **transmucosas de acción rápida** para el dolor irruptivo.",
+      "**Sin metabolitos activos**: de elección en la **insuficiencia renal**.",
+      "**No liberador de histamina**; IV en anestesia y sedación (rigidez torácica con bolos rápidos).",
+      "**El calor y la fiebre aumentan la absorción del parche.**"
+    ],
+    "mecanismo": "Agonista puro y potente del receptor mu opioide, unas 100 veces más potente que la morfina. Su rasgo determinante es la LIPOFILIA extrema: atraviesa la barrera hematoencefálica en segundos, lo que da un inicio de acción casi inmediato por vía intravenosa, y permite su absorción a través de la piel y de la mucosa oral y nasal, algo imposible para la morfina. Esa misma lipofilia hace que se redistribuya con rapidez a la grasa y al músculo, de modo que el efecto de un bolo termina por redistribución y no por eliminación; con dosis repetidas o perfusiones largas la grasa se satura y la duración se alarga mucho.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Analgesia en el paciente crítico y en la intubación de secuencia rápida",
+        "dosis": "1-3 microgramos/kg IV (habitualmente 50-150 microgramos), con perfusión posterior de 0,5-3 microgramos/kg/h",
+        "posologia": "Bolo y perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Escala de dolor o de confort del paciente sedado dentro del objetivo pautado",
+        "nota": "Es el opioide de elección en el paciente hemodinámicamente inestable: libera poca histamina y apenas produce hipotensión"
+      },
+      {
+        "patologia": "Dolor crónico ONCOLÓGICO estable en el paciente ya tratado con opioides",
+        "dosis": "Parche transdérmico de 12-100 microgramos/h, cambiado cada 72 horas",
+        "posologia": "Un parche cada 72 horas",
+        "via": "transdérmica",
+        "nota": "NUNCA como primer opioide: requiere que el paciente ya tolere una dosis equivalente estable de otro opioide"
+      },
+      {
+        "patologia": "Dolor IRRUPTIVO oncológico",
+        "dosis": "Comprimido sublingual o pulverización nasal de 100-200 microgramos como dosis inicial, titulando al alza",
+        "posologia": "A demanda, con un máximo de 4 episodios al día",
+        "via": "SL",
+        "nota": "La dosis de rescate NO se calcula como un porcentaje de la dosis basal: se titula desde la más baja en cada paciente"
+      },
+      {
+        "patologia": "Analgesia y sedación en procedimientos dolorosos",
+        "dosis": "25-100 microgramos IV, repetibles",
+        "posologia": "Bolos repetidos",
+        "via": "IV",
+        "nota": "Exige monitorización, oxígeno, material de vía aérea y naloxona disponibles"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el parche, solo tras estabilizar el dolor con un opioide de vida media corta y convertir la dosis diaria a su equivalente. Empezar directamente con parche en un paciente sin exposición previa a opioides es un error grave y reiterado.",
+      "titulacion": "El parche se ajusta cada 3 días como mínimo, porque el estado estable no se alcanza antes. Las dosis de rescate se titulan una a una.",
+      "duracion": "Bolo intravenoso: 30-60 minutos. Parche: 72 horas por unidad. La perfusión prolongada acumula.",
+      "fin": "Al retirar el parche persiste un depósito subcutáneo que sigue liberando fármaco durante 12-24 horas: la vigilancia no termina cuando se despega el parche.",
+      "via": "IV, transdérmica, sublingual, nasal o epidural. NO por vía oral deglutida (metabolismo presistémico casi completo).",
+      "monitorizacion": "Frecuencia respiratoria, nivel de sedación (que precede a la depresión respiratoria), saturación y capnografía si se puede. Vigilar la fiebre y las fuentes de calor en el portador de parche."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio intravenoso en 1-2 minutos. El parche tarda 12-24 horas en alcanzar concentraciones eficaces. Las vías sublingual y nasal actúan en 10-15 minutos.",
+      "distribucion": "Muy lipófilo, con volumen de distribución grande y redistribución rápida a la grasa y al músculo.",
+      "metabolismo": "Hepático por CYP3A4 a norfentanilo, INACTIVO.",
+      "eliminacion": "Renal, casi toda en forma de metabolitos inactivos.",
+      "vida_media": "3-7 horas, pero la vida media CONTEXTO-DEPENDIENTE se alarga mucho con perfusiones prolongadas.",
+      "ajuste_renal": "Es el opioide de ELECCIÓN en la insuficiencia renal, porque sus metabolitos son inactivos y no se acumulan (a diferencia de la morfina).",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ritonavir, claritromicina, ketoconazol, zumo de pomelo)",
+          "efecto": "Aumentan sus concentraciones con riesgo de DEPRESIÓN RESPIRATORIA",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis y vigilar; con el parche el problema es especialmente insidioso por la liberación mantenida"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+          "efecto": "Pérdida de eficacia analgésica y posible abstinencia",
+          "gravedad": "media",
+          "manejo": "Prever el aumento de dosis"
+        },
+        {
+          "con": "BENZODIAZEPINAS y otros depresores del sistema nervioso central",
+          "efecto": "Depresión respiratoria y muerte; es la combinación implicada en la mayoría de las muertes por opioides",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación crónica; si es imprescindible, dosis mínimas y naloxona domiciliaria"
+        },
+        {
+          "con": "Serotoninérgicos (ISRS, IRSN, IMAO)",
+          "efecto": "Síndrome serotoninérgico (menos frecuente que con tramadol, pero descrito)",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento, que NO desarrolla tolerancia y exige laxante desde el primer día",
+        "Náuseas y vómitos",
+        "Somnolencia y prurito",
+        "Retención urinaria",
+        "Reacción cutánea local con el parche"
+      ],
+      "graves": [
+        "DEPRESIÓN RESPIRATORIA, dosis-dependiente y potenciada por benzodiazepinas",
+        "RIGIDEZ TORÁCICA (tórax leñoso) con bolos intravenosos rápidos a dosis altas, que puede impedir la ventilación",
+        "Bradicardia",
+        "Sobredosis por exposición del parche al CALOR (fiebre, manta eléctrica, sauna, ejercicio intenso)",
+        "Dependencia, tolerancia y síndrome de abstinencia",
+        "Hiperalgesia inducida por opioides en tratamientos prolongados"
+      ]
+    },
+    "contraindicaciones": [
+      "Paciente SIN exposición previa a opioides, para el parche y para las presentaciones del dolor irruptivo",
+      "Dolor AGUDO o postoperatorio, para el parche",
+      "Depresión respiratoria no monitorizada",
+      "Íleo paralítico",
+      "Uso concomitante de IMAO en las dos semanas previas"
+    ],
+    "perlas": [
+      "El parche transdérmico es una de las prescripciones que más yatrogenia grave produce. Tres reglas lo evitan: nunca como primer opioide, nunca para el dolor agudo, y nunca sin recordar que tarda de 12 a 24 horas en hacer efecto y otras tantas en dejar de hacerlo tras retirarlo.",
+      "El CALOR multiplica la absorción del parche. Fiebre, manta eléctrica, bolsa de agua caliente, sauna o un baño muy caliente pueden convertir una dosis estable en una sobredosis. Es una advertencia que hay que dar por escrito al paciente y a la familia.",
+      "Es el opioide de elección en la INSUFICIENCIA RENAL: su metabolito, el norfentanilo, es inactivo. La morfina, en cambio, acumula morfina-6-glucurónido activa y produce sedación y depresión respiratoria diferidas en el paciente renal.",
+      "También es el de elección en el paciente INESTABLE: apenas libera histamina y mantiene la tensión mucho mejor que la morfina.",
+      "La RIGIDEZ TORÁCICA es una emergencia poco conocida: un bolo rápido a dosis altas puede producir una rigidez de la pared torácica y de la glotis que impide ventilar con la bolsa, y se resuelve con relajante muscular, no con naloxona sola.",
+      "La vida media CONTEXTO-DEPENDIENTE explica por qué un paciente que ha estado días en perfusión tarda mucho en despertar: la grasa, saturada, devuelve fármaco al plasma durante horas. No es una complicación, es farmacocinética.",
+      "Las presentaciones del dolor irruptivo (sublingual, nasal, transmucosa) NO son intercambiables entre sí a dosis equivalentes, y su dosis no se deduce de la basal: cada paciente se titula desde la dosis más baja.",
+      "En el paciente en tratamiento opioide crónico, el estreñimiento es la única reacción adversa a la que nunca se desarrolla tolerancia. El laxante se prescribe el mismo día que el opioide, no cuando aparece el problema."
+    ],
+    "embarazo_lactancia": "Se emplea en la analgesia obstétrica y en la anestesia. El uso mantenido cerca del parto produce depresión respiratoria neonatal y síndrome de abstinencia. Compatible con la lactancia en dosis puntuales; en tratamiento crónico hay que vigilar la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; alertas de seguridad de la AEMPS sobre fentanilo transdérmico y de liberación rápida"
+  }
+]

@@ -1,0 +1,463 @@
+[
+  {
+    "id": "PSQ-diazepam",
+    "nombre": "Diazepam",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Benzodiacepina",
+    "subclase": "Acción prolongada, con metabolitos activos",
+    "vs_clase": [
+      "**Vida media MUY LARGA (20-100 h, y su metabolito desmetildiazepam hasta 200 h)**: retirada suave, ideal para **sustituir otras benzodiacepinas en las pautas de deshabituación** y para la **abstinencia alcohólica**.",
+      "**ACUMULACIÓN en ancianos y hepatópatas** (metabolismo oxidativo por CYP): somnolencia, caídas, confusión. **Evitar en ellos** (preferir lorazepam).",
+      "**Disponible por vía RECTAL** (cánula de 5-10 mg) e **IV** para la crisis convulsiva; la vía **IM es errática** y no se usa.",
+      "**Relajante muscular** (contractura, espasticidad, tétanos)."
+    ],
+    "mecanismo": "Modulador alostérico positivo del receptor GABA-A: aumenta la frecuencia de apertura del canal de cloro en presencia de GABA. Efectos ansiolítico, hipnótico, anticonvulsivante, miorrelajante y amnésico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síndrome de abstinencia alcohólica",
+        "dosis": "10-20 mg",
+        "posologia": "Cada 1-2 h según escala CIWA-Ar (dosis guiada por síntomas), o pauta fija 10 mg cada 6 h con reducción en 3-5 días",
+        "via": "VO / IV",
+        "nota": "En hepatopatía grave o ancianos, lorazepam"
+      },
+      {
+        "patologia": "Crisis convulsiva prolongada o estatus epiléptico (si no hay acceso a midazolam o lorazepam)",
+        "dosis": "10 mg IV (0,15-0,2 mg/kg) o 10-20 mg rectal",
+        "posologia": "Repetible una vez a los 5 min",
+        "via": "IV / rectal",
+        "nota": "IV a 5 mg/min; preparar soporte ventilatorio"
+      },
+      {
+        "patologia": "Ansiedad aguda y contractura muscular",
+        "dosis": "2-10 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Máximo 2-4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis mínima; advertir de somnolencia, conducción y alcohol.",
+      "titulacion": "Según síntomas.",
+      "duracion": "**Ansiedad: máximo 2-4 semanas (incluida la retirada).** Abstinencia alcohólica: 3-7 días.",
+      "fin": "**Tras uso >2-4 semanas, retirada gradual** (10-25% cada 2 semanas). Riesgo de abstinencia y convulsiones si se suspende de golpe.",
+      "via": "VO, IV, rectal.",
+      "monitorizacion": "Sedación, función respiratoria, caídas, signos de dependencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y completa por VO (inicio en 30-60 min); **IM errática**.",
+      "distribucion": "Muy lipófilo: entra rápido en el SNC y se redistribuye (efecto inicial breve pese a vida media larga).",
+      "metabolismo": "**Oxidativo hepático (CYP3A4, CYP2C19)** a desmetildiazepam, temazepam y oxazepam (activos).",
+      "eliminacion": "Renal como glucurónidos.",
+      "vida_media": "**20-100 h (metabolito activo 36-200 h).**",
+      "ajuste_renal": "No precisa ajuste, precaución.",
+      "ajuste_hepatico": "**Evitar en insuficiencia hepática** (acumulación, encefalopatía).",
+      "interacciones": [
+        {
+          "con": "Opioides, alcohol, otros depresores del SNC",
+          "efecto": "**Depresión respiratoria y muerte**",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Inhibidores del CYP3A4/2C19 (omeprazol, fluconazol, claritromicina)",
+          "efecto": "Prolongan su efecto",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, sedación residual",
+        "Ataxia, mareo",
+        "Alteración de memoria"
+      ],
+      "graves": [
+        "Depresión respiratoria (IV o con otros depresores)",
+        "**Caídas y fracturas en ancianos**",
+        "Dependencia y abstinencia",
+        "Reacciones paradójicas (agitación)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave, apnea del sueño grave",
+      "Miastenia gravis",
+      "Insuficiencia hepática grave",
+      "Intoxicación etílica aguda"
+    ],
+    "perlas": [
+      "**Para retirar una benzodiacepina de vida media corta (alprazolam, lorazepam), pasar a dosis equivalente de diazepam y reducir este.**",
+      "Equivalencias aproximadas: diazepam 10 mg ≈ lorazepam 1 mg ≈ alprazolam 0,5 mg ≈ clonazepam 0,5 mg."
+    ],
+    "embarazo_lactancia": "Evitar sobre todo al final del embarazo (síndrome del niño hipotónico). Evitar en la lactancia (se acumula en el lactante).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., caps. de alcoholismo y epilepsia"
+  },
+  {
+    "id": "PSQ-alprazolam",
+    "nombre": "Alprazolam",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Benzodiacepina",
+    "subclase": "Acción corta-intermedia, alta potencia",
+    "vs_clase": [
+      "**Alta potencia y vida media CORTA (6-12 h)**: **el mayor potencial de DEPENDENCIA, ansiedad de rebote entre dosis y abstinencia grave** de las benzodiacepinas de uso habitual.",
+      "**Inicio rápido**: muy usado (y sobreusado) para las crisis de ansiedad.",
+      "**Metabolismo por CYP3A4**: contraindicado con ketoconazol e itraconazol.",
+      "Para el **trastorno de pánico**, el tratamiento de fondo es un ISRS; el alprazolam solo como puente breve."
+    ],
+    "mecanismo": "Modulador alostérico positivo del receptor GABA-A, de alta potencia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Ansiedad aguda o crisis de pánico (puente mientras actúa el ISRS)",
+        "dosis": "0,25-0,5 mg",
+        "posologia": "Cada 8 h (o a demanda)",
+        "via": "VO",
+        "nota": "Máximo 2-4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,25 mg cada 8-12 h.",
+      "titulacion": "Mínima dosis eficaz.",
+      "duracion": "**Máximo 2-4 semanas.**",
+      "fin": "**Retirada MUY gradual** (0,25 mg cada 1-2 semanas) o paso a diazepam: riesgo de **convulsiones** con la retirada brusca.",
+      "via": "VO.",
+      "monitorizacion": "Uso a demanda creciente (dependencia), sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida (pico 1-2 h).",
+      "distribucion": "Unión a proteínas del 80%.",
+      "metabolismo": "**CYP3A4.**",
+      "eliminacion": "Renal.",
+      "vida_media": "**6-12 h.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis a la mitad.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, itraconazol, ritonavir",
+          "efecto": "Multiplican sus niveles",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Opioides, alcohol",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Fluvoxamina, claritromicina",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, mareo",
+        "Ansiedad de rebote entre dosis",
+        "Alteración de memoria"
+      ],
+      "graves": [
+        "**Dependencia y abstinencia grave con convulsiones**",
+        "Depresión respiratoria combinada",
+        "Caídas en ancianos"
+      ]
+    },
+    "contraindicaciones": [
+      "Miastenia gravis",
+      "Insuficiencia respiratoria grave o apnea del sueño",
+      "Uso con ketoconazol o itraconazol"
+    ],
+    "perlas": [
+      "**El paciente que toma alprazolam «a demanda» varias veces al día lleva camino de la dependencia**: priorizar ISRS y psicoterapia."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., cap. de trastornos de ansiedad"
+  },
+  {
+    "id": "PSQ-clonazepam",
+    "nombre": "Clonazepam",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Benzodiacepina",
+    "subclase": "Acción prolongada, alta potencia, con indicación antiepiléptica",
+    "vs_clase": [
+      "**Indicación ANTIEPILÉPTICA crónica** (mioclonías, ausencias atípicas) y **tratamiento del trastorno de conducta del sueño REM** (0,5-1 mg por la noche).",
+      "**Alta potencia con vida media LARGA (30-40 h)**: menos rebote entre dosis que alprazolam en el trastorno de pánico.",
+      "**Tolerancia al efecto anticonvulsivante** con el uso prolongado.",
+      "Útil en **acatisia**, síndrome de piernas inquietas y síndrome de boca ardiente (tópico)."
+    ],
+    "mecanismo": "Modulador alostérico positivo del receptor GABA-A de alta potencia; efecto anticonvulsivante marcado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Trastorno de pánico (con ISRS)",
+        "dosis": "0,25 mg → 0,5-1 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Retirar cuando actúe el ISRS"
+      },
+      {
+        "patologia": "Trastorno de conducta del sueño REM",
+        "dosis": "0,25-1 mg",
+        "posologia": "Cada 24 h, al acostarse",
+        "via": "VO",
+        "nota": "Alternativa: melatonina (preferible en ancianos)"
+      },
+      {
+        "patologia": "Epilepsia mioclónica y crisis refractarias (coadyuvante)",
+        "dosis": "0,5 mg → 2-8 mg/día",
+        "posologia": "Repartido cada 8-12 h",
+        "via": "VO",
+        "nota": "Pérdida de eficacia con el tiempo"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,25-0,5 mg por la noche.",
+      "titulacion": "Subir 0,25-0,5 mg cada 3 días.",
+      "duracion": "Pánico: semanas; epilepsia y parasomnias: prolongada.",
+      "fin": "**Retirada gradual**; en epilépticos, la retirada brusca puede precipitar un estatus.",
+      "via": "VO.",
+      "monitorizacion": "Sedación, caídas, salivación (niños), control de crisis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 90%.",
+      "distribucion": "Unión a proteínas del 85%.",
+      "metabolismo": "Hepático por CYP3A4 (nitrorreducción).",
+      "eliminacion": "Renal.",
+      "vida_media": "**30-40 h.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Opioides y alcohol",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Carbamazepina, fenitoína",
+          "efecto": "Reducen sus niveles",
+          "gravedad": "media",
+          "manejo": "Ajustar dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Ataxia",
+        "Hipersalivación (niños)",
+        "Alteración del ánimo"
+      ],
+      "graves": [
+        "Depresión respiratoria",
+        "Dependencia",
+        "Caídas en ancianos"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave, apnea del sueño",
+      "Miastenia gravis",
+      "Insuficiencia hepática grave",
+      "Glaucoma de ángulo cerrado agudo"
+    ],
+    "perlas": [
+      "**Paciente que «pega patadas y grita en sueños» (soñando que se defiende): trastorno de conducta del sueño REM**, posible pródromo de sinucleinopatía."
+    ],
+    "embarazo_lactancia": "Evitar salvo epilepsia sin alternativa.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 22 y 24; Harrison 20.ª ed., caps. de trastornos del sueño y epilepsia"
+  },
+  {
+    "id": "PSQ-midazolam",
+    "nombre": "Midazolam",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Benzodiacepina",
+    "subclase": "Acción ultracorta, hidrosoluble a pH ácido, de uso parenteral",
+    "vs_clase": [
+      "**La benzodiacepina de la SEDACIÓN para procedimientos** (endoscopia, sedación consciente) y de la **inducción y sedación en UCI**: inicio en 2-3 min IV y duración corta.",
+      "**Hidrosoluble: utilizable por vía IM, intranasal y bucal** (absorción fiable), a diferencia del diazepam. **Primera línea en la crisis convulsiva sin vía IV (10 mg IM)**.",
+      "**Metabolismo exclusivo por CYP3A4**: con ritonavir, claritromicina o azoles, sedación muy prolongada.",
+      "**Amnesia anterógrada intensa**, deseada en procedimientos."
+    ],
+    "mecanismo": "Modulador alostérico positivo del receptor GABA-A. A pH ácido su anillo se abre y es hidrosoluble (no irrita la vena); a pH fisiológico se cierra y se vuelve lipófilo, atravesando rápido la barrera hematoencefálica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estatus epiléptico o crisis prolongada (>5 min) sin vía IV",
+        "dosis": "10 mg (>40 kg) o 5 mg (13-40 kg)",
+        "posologia": "Dosis única IM; IV 0,1-0,2 mg/kg",
+        "via": "IM / IV",
+        "nota": "Tan eficaz como lorazepam IV (RAMPART)"
+      },
+      {
+        "patologia": "Sedación consciente para procedimientos",
+        "dosis": "1-2,5 mg; bolos adicionales de 1 mg",
+        "posologia": "Bolos IV lentos cada 2-3 min hasta efecto (máximo 5 mg habitual)",
+        "via": "IV",
+        "nota": "Ancianos: 0,5-1 mg. Monitorización de SpO2 y flumazenilo disponible"
+      },
+      {
+        "patologia": "Sedación en UCI y en cuidados paliativos (sedación paliativa)",
+        "dosis": "0,02-0,1 mg/kg/h (UCI); 0,5-1 mg/h SC en paliativos",
+        "posologia": "Perfusión continua",
+        "via": "IV / SC",
+        "nota": "Rescates de 2,5-5 mg SC en paliativos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Monitorización (SpO2, FR), oxígeno y material de vía aérea disponible.",
+      "titulacion": "Bolos hasta efecto; perfusión ajustada a escala de sedación (RASS).",
+      "duracion": "Procedimientos: dosis única; UCI y paliativos: según necesidad.",
+      "fin": "Tras perfusiones prolongadas (>3-5 días), descenso gradual para evitar abstinencia.",
+      "via": "IV, IM, SC, IN, bucal.",
+      "monitorizacion": "Nivel de sedación, FR, SpO2, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM 90%; inicio IV en 2-3 min.",
+      "distribucion": "Lipófilo a pH fisiológico; redistribución rápida.",
+      "metabolismo": "**CYP3A4 exclusivo** a alfa-hidroximidazolam (activo, se acumula en ERC).",
+      "eliminacion": "Renal.",
+      "vida_media": "**1,5-3 h** (prolongada en obesos, ancianos, UCI e insuficiencia hepática).",
+      "ajuste_renal": "Perfusiones prolongadas: acumulación del metabolito; reducir.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Ritonavir, cobicistat, ketoconazol, itraconazol, claritromicina",
+          "efecto": "**Sedación y depresión respiratoria muy prolongadas**",
+          "gravedad": "alta",
+          "manejo": "Contraindicado el midazolam oral; IV solo con monitorización y dosis reducidas"
+        },
+        {
+          "con": "Opioides (fentanilo)",
+          "efecto": "Depresión respiratoria sinérgica",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis de ambos y monitorizar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sedación, amnesia",
+        "Hipotensión leve",
+        "Hipo"
+      ],
+      "graves": [
+        "**Depresión respiratoria y apnea**",
+        "Hipotensión grave en hipovolémicos",
+        "Agitación paradójica (ancianos, niños)",
+        "Delirium en UCI"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave sin soporte ventilatorio",
+      "Miastenia gravis",
+      "Shock",
+      "Uso oral con inhibidores potentes del CYP3A4"
+    ],
+    "perlas": [
+      "**Crisis convulsiva sin vía venosa: midazolam IM, bucal o intranasal**; no esperar a canalizar.",
+      "La sobresedación se revierte con flumazenilo, pero su efecto dura menos que el del midazolam: vigilar la re-sedación."
+    ],
+    "embarazo_lactancia": "Uso puntual aceptable (procedimientos). Esperar 4 h para lactar tras dosis única.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 22 y 25; Harrison 20.ª ed., cap. de estatus epiléptico"
+  },
+  {
+    "id": "PSQ-zolpidem",
+    "nombre": "Zolpidem",
+    "sinonimos": [
+      "Zopiclona, eszopiclona (otros fármacos Z)"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Hipnótico no benzodiacepínico (fármaco Z)",
+    "subclase": "Agonista selectivo de la subunidad alfa-1 del receptor GABA-A",
+    "mecanismo": "Se une selectivamente a receptores GABA-A con subunidad alfa-1, responsables del efecto hipnótico, con poca acción ansiolítica, miorrelajante o anticonvulsivante. Acorta la latencia de sueño con escasa alteración de su arquitectura.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insomnio de conciliación grave e incapacitante (tratamiento breve)",
+        "dosis": "5 mg (mujeres y ancianos) a 10 mg (varones)",
+        "posologia": "Cada 24 h, inmediatamente al acostarse",
+        "via": "VO",
+        "nota": "Máximo 4 semanas incluida la retirada; la terapia cognitivo-conductual es de primera línea"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis más baja eficaz justo antes de acostarse, con al menos 7-8 h disponibles para dormir.",
+      "titulacion": "No superar 10 mg.",
+      "duracion": "**De días a 4 semanas como máximo.**",
+      "fin": "Retirada gradual si uso prolongado (insomnio de rebote).",
+      "via": "VO.",
+      "monitorizacion": "Conductas complejas durante el sueño, somnolencia matutina, dependencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida (efecto en 15-30 min).",
+      "distribucion": "Unión a proteínas del 92%.",
+      "metabolismo": "CYP3A4 a metabolitos inactivos.",
+      "eliminacion": "Renal.",
+      "vida_media": "**2-3 h** (más larga en mujeres y ancianos).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "**5 mg en insuficiencia hepática; contraindicado en la grave.**",
+      "interacciones": [
+        {
+          "con": "Alcohol, opioides, otros depresores",
+          "efecto": "Depresión respiratoria y conductas complejas",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (ketoconazol, ritonavir)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce su efecto",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia residual (sobre todo mujeres)",
+        "Mareo, cefalea",
+        "Amnesia anterógrada"
+      ],
+      "graves": [
+        "**Conductas complejas durante el sueño** (sonambulismo, conducir o cocinar dormido) con lesiones",
+        "Caídas y fracturas en ancianos",
+        "Dependencia",
+        "Alucinaciones"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de conductas complejas del sueño con fármacos Z",
+      "Insuficiencia respiratoria grave, apnea del sueño grave",
+      "Insuficiencia hepática grave",
+      "Miastenia gravis"
+    ],
+    "perlas": [
+      "**No es «más seguro» que una benzodiacepina** en dependencia o caídas: mismas precauciones.",
+      "En mujeres, la dosis de 10 mg deja concentraciones que alteran la conducción a la mañana siguiente: 5 mg."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., cap. de trastornos del sueño"
+  }
+]

@@ -1,0 +1,492 @@
+## 0. CABEÇALHO
+
+**Código:** PED-146 · **Especialidade:** Pediatria · **Tema:** Calendário Nacional de Vacinação · **Assunto:** Regularização de esquema vacinal atrasado, esquemas por idade de meningocócica (C conjugada x ACWY), HPV e febre amarela, e vacinação em imunossupressão/uso de corticoide (complementar ao PED-01, que cobre a estrutura geral do PNI, prematuridade/peso e eventos adversos) · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 15 (2024.1-Q80, 2024.2-Q68, 2025.1-Q80, 2025.2-Q47, 2017.1-Q75, 2020.1-Q12, 2020.1-Q36, 2020.1-Q90, 2022.2-Q53, 2023.2-Q70, 2024.1-Q28, 2023.2-Q68, 2012.1-Q93, 2022.1-Q13, 2022.1-Q70) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 70 min · **Pré-requisitos:** PED-01 (Imunizações — ler antes deste módulo) · **Data de geração:** 2026-08-08
+
+---
+
+## 1. TEORIA
+
+Este módulo é o complemento "de aplicação prática" do PED-01. Enquanto o PED-01 fixa a estrutura geral do calendário, a regra do peso na BCG e os eventos adversos, as questões mais recentes do INEP (2024-2025) deslocaram o foco para um cenário muito mais realista de UBS: **criança/adolescente com cartão de vacina incompleto**, e o candidato precisa saber exatamente **o que fazer agora** — não reiniciar o esquema, não vacinar demais, não deixar de vacinar por medo infundado. Também aparece a vacinação de adolescentes com esquemas novos (meningocócica ACWY, HPV em dose única) que o PED-01 deliberadamente não fixou em números por serem alvo de atualização frequente.
+
+**Princípio geral da regularização de calendário atrasado [CONSENSO, MS/PNI].** Vacina perdida não reinicia esquema: completa-se de onde parou, respeitando os intervalos mínimos entre doses da mesma vacina (não se "pula" doses, mas também não se recomeça do zero por atraso, por maior que seja). Exceções a checar caso a caso: (1) vacinas com **janela etária máxima rígida** para iniciar ou completar (o exemplo clássico do calendário é a vacina Rotavírus — ver PED-01); (2) BCG não se repete se já há cicatriz vacinal comprovada. ⚠️ VERIFICAR se há outras exceções de janela etária rígida no calendário vigente no ano da prova.
+
+**Regularização do atraso das vacinas "dos 15 meses" [CONSENSO — base da questão INEP2024-2-Q068].** Quando uma criança chega à UBS com atraso e não recebeu o bloco de vacinas previsto para os 15 meses, a conduta é aplicar, assim que identificado, o conjunto: 1º reforço de DTP (difteria, tétano, coqueluche), Hepatite A (dose única no calendário atual), o componente sarampo-caxumba-rubéola (SCR, geralmente parte do imunobiológico tetra viral já que a criança normalmente já recebeu a 1ª dose de SCR isolada aos 12 meses), Varicela e o reforço de poliomielite oral (VOP) — respeitando o esquema vigente de VOP/VIP no ano em questão. 🇧🇷 **CONDUTA DE PROVA (MS):** a banca espera que você reconheça esse "pacote dos 15 meses" como bloco, não vacina a vacina — decorar o pacote inteiro rende mais do que tentar deduzir na hora da prova.
+
+**Meningocócica C conjugada vs. meningocócica ACWY conjugada, por idade [CONSENSO — base da questão INEP2024-1-Q080].** Este é o ponto mais explorado nas provas recentes:
+- **Esquema básico do lactente:** 2 doses (aos 3 e 5 meses) + 1 reforço (por volta dos 12 meses) da **meningocócica C conjugada**. Assim, uma criança de 9 meses com calendário em dia deve ter **2 doses** (ainda não chegou a idade do reforço); uma criança de 4 anos com calendário em dia deve ter as **2 doses + o reforço** já completos.
+- **Adolescentes:** recebem **1 dose de meningocócica ACWY conjugada** (e não mais uma dose adicional de MenC isolada) — a ACWY amplia a cobertura para os sorogrupos A, C, W e Y, relevantes no perfil epidemiológico do adolescente/adulto jovem. ⚠️ VERIFICAR a faixa etária exata de indicação/resgate da ACWY no calendário vigente no ano da prova (historicamente na faixa dos 11-14 anos, com possibilidade de dose de resgate até idade maior se não vacinado antes).
+- ⚠️ **PEGADINHA DO INEP:** trocar o número de doses entre as faixas etárias (dar "2 doses + reforço" para o lactente de 9 meses, que na verdade só teve tempo de tomar 2 doses) ou dar meningocócica **C** para o adolescente em vez de **ACWY** (ou vice-versa, aplicar ACWY como se fosse o esquema do lactente).
+
+**Vacina HPV: janela etária e dose única [CONSENSO — base da questão INEP2025-1-Q080].** O calendário atual do PNI recomenda a vacina HPV para meninos e meninas dentro de uma janela etária definida (⚠️ VERIFICAR os limites exatos vigentes no ano da prova — historicamente citada como 9 a 14 anos para ambos os sexos, com esquema de **dose única**). Duas implicações cobradas na prova:
+- Uma adolescente **dentro da janela etária** (ex.: 12-13 anos) pode receber a dose única na própria consulta, sem necessidade de agendar uma segunda dose.
+- Uma criança **abaixo da idade mínima da janela** (ex.: 8 anos) **não tem indicação atual** de receber a vacina — não se antecipa a dose por conveniência (ex.: "já que a mãe trouxe os dois filhos"); a indicação só nasce quando a criança atinge a idade mínima do calendário.
+- ⚠️ **PEGADINHA DO INEP:** o distrator mais comum tenta fazer o candidato "vacinar todo mundo que está na sala" ou agendar um esquema de 2 doses com intervalo (esquema antigo, hoje substituído pela dose única no calendário vigente) — ⚠️ VERIFICAR se a dose única já é a política oficial no ano da prova, pois esquemas vacinais de HPV mudaram ao longo dos anos.
+
+**Febre amarela: esquema de 2 doses na infância e regularização [CONSENSO — base da questão INEP2025-2-Q047].** O calendário infantil da febre amarela prevê **1ª dose aos 9 meses** e **um reforço (2ª dose) por volta dos 4 anos de idade**. Se a criança/adolescente perdeu esse reforço, ele deve ser **completado assim que identificado, independentemente da idade atual** — não se descarta a necessidade da 2ª dose só porque a criança "cresceu". Por isso, um adolescente que tomou apenas 1 dose aos 9 meses e nunca recebeu o reforço ainda precisa da febre amarela quando reavaliado, mesmo anos depois.
+
+**Vacinação em imunossupressão e uso de corticoide sistêmico [CONSENSO, com números a verificar].** Diferente do cenário do PED-01 (criança saudável que **convive** com um imunossuprimido), aqui o paciente em si está imunossuprimido — por doença de base ou por corticoterapia:
+- **Vacinas de vírus vivo atenuado do calendário** (VOP, tríplice viral/SCR, tetra viral, varicela, febre amarela, BCG) são **contraindicadas** durante imunossupressão significativa, pelo risco de doença disseminada pelo próprio vírus vacinal.
+- **Vacinas inativadas** (Pentavalente, VIP, pneumocócica, meningocócicas conjugadas, HPV, Hepatite A/B, influenza inativada) podem ser mantidas no esquema normalmente durante a imunossupressão, ainda que a resposta imune possa ser reduzida (⚠️ VERIFICAR se há recomendação de dose de reforço adicional em protocolos específicos de doença de base).
+- O critério clássico de "corticoide em dose imunossupressora" citado em provas e protocolos de imunização é algo como **prednisona ≥ 2 mg/kg/dia (ou equivalente) ou dose total ≥ 20 mg/dia, por 14 dias ou mais** — ⚠️ VERIFICAR esse valor exato no manual de imunobiológicos especiais vigente antes de usar como corte fixo de flashcard, pois esse tipo de número é frequentemente atualizado e cobrado com precisão.
+- Após a suspensão de corticoide em dose imunossupressora, recomenda-se aguardar um intervalo (classicamente citado em torno de 1 mês, ⚠️ VERIFICAR) antes de aplicar vacinas de vírus vivo.
+- Corticoide em **dose baixa, uso tópico, inalatório, ou curso curto (<14 dias)** não é considerado imunossupressor para fins de contraindicação vacinal — **não é necessário adiar** vacina viva nesses casos.
+
+**Contraindicações verdadeiras vs. falsas contraindicações — pontos complementares ao PED-01 [CONSENSO].** O PED-01 já cobre febre baixa e uso de antibiótico como falsas contraindicações. Complementando:
+- Doença aguda leve (resfriado comum, diarreia leve sem desidratação, tosse sem repercussão sistêmica) **não contraindica** vacinação.
+- Desnutrição (exceto formas graves com imunodeficiência associada) **não contraindica**.
+- Alergia **não anafilática** a ovo **não contraindica** SCR nem febre amarela (o mito de que "alergia a ovo contraindica essas vacinas" é uma falsa contraindicação clássica cobrada em prova; a contraindicação real e rara é reação anafilática confirmada a algum componente específico da vacina).
+- Aleitamento materno **não contraindica** nenhuma vacina do calendário materno ou infantil.
+- 🚨 Contraindicação **verdadeira** e não negociável: reação anafilática confirmada a dose anterior da mesma vacina ou a um de seus componentes, e imunodeficiência grave (celular) para vacinas de vírus vivo.
+
+### Referências
+1. Ministério da Saúde. Calendário Nacional de Vacinação — PNI. ⚠️ VERIFICAR edição vigente no ano da prova (idades exatas de meningocócica ACWY, HPV e reforços mudam com frequência).
+2. Ministério da Saúde. Manual dos Centros de Referência para Imunobiológicos Especiais (CRIE) — critérios de imunossupressão e vacinação em situações especiais. ⚠️ VERIFICAR edição vigente, especialmente os cortes de dose de corticoide.
+3. Sociedade Brasileira de Pediatria/Sociedade Brasileira de Imunizações — Calendários de vacinação (referência complementar).
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na UBS de verdade:** a cena mais comum não é "qual vacina teoricamente existe no calendário", mas "a família trouxe a caderneta, está incompleta, e agora?". O médico de UBS/ESF que atende puericultura e visita domiciliar precisa, na prática, (1) ler a caderneta rapidamente, (2) identificar exatamente o que falta para a idade atual, e (3) aplicar tudo o que é elegível **na mesma visita**, sem reagendar desnecessariamente — cada retorno perdido é uma chance a menos de regularizar.
+
+**Situações que geram dúvida real e a conduta:**
+- Família com vários filhos de idades diferentes trazendo cadernetas na mesma visita (como no cenário da questão INEP2024-1-Q080) → conferir cada criança individualmente contra a idade dela, sem generalizar o esquema de uma para outra.
+- Adolescente que só recebeu vacinas na primeira infância e nunca voltou à UBS → aproveitar a consulta para fazer o "check-up vacinal do adolescente" completo (HPV se dentro da janela, meningocócica ACWY, reforços de febre amarela e de dT, dupla viral/hepatite B se pendente).
+- Criança com uso de corticoide sistêmico prescrito por outra especialidade (ex. nefrologia, reumatologia) → não assumir automaticamente contraindicação; checar dose, via e tempo de uso antes de adiar vacina viva.
+
+**Erros que profissionais cometem de verdade:**
+- Adiar toda a vacinação de uma criança com atraso "para reorganizar tudo depois", perdendo a oportunidade de aplicar o que já é elegível na própria consulta.
+- Vacinar contra HPV uma criança abaixo da idade mínima só porque "já que veio junto com a irmã", ou negar a dose à adolescente elegível por insegurança sobre o esquema vigente.
+- Esquecer de perguntar sobre o reforço de febre amarela em adolescentes/adultos jovens que só receberam a dose dos 9 meses.
+- Confundir a indicação de meningocócica C (lactente/pré-escolar) com a de meningocócica ACWY (adolescente), aplicando a errada ou nenhuma das duas.
+- Tratar qualquer corticoide como contraindicação automática a vacina viva, sem avaliar dose/tempo de uso.
+
+**O que dizer à família:** explicar que atraso vacinal não exige "recomeçar do zero" — isso reduz a resistência de famílias que temem doses repetidas; orientar que doenças leves não são motivo para adiar; para adolescentes, explicar objetivamente por que HPV e meningocócica ACWY fazem parte do calendário dessa faixa etária (prevenção de câncer relacionado ao HPV e de doença meningocócica invasiva, respectivamente).
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Solicitar e ler a caderneta de vacinação, identificando idade atual e o que está pendente para essa idade.
+- ✅ Verbalizar o princípio de regularização: "não reiniciamos o esquema, vamos completar o que falta respeitando os intervalos mínimos".
+- ✅ Checar elegibilidade específica: janela etária de HPV, esquema de meningocócica (C vs. ACWY) conforme idade, necessidade de reforço de febre amarela.
+- ✅ Perguntar ativamente sobre uso de corticoide/imunossupressor ou doença imunossupressora de base antes de indicar vacina viva.
+- ✅ Diferenciar contraindicação real de falsa contraindicação diante de queixas leves (resfriado, febre baixa, diarreia leve) apresentadas pela família como motivo para não vacinar.
+- ✅ Comunicação clara com a família sobre o plano de regularização e a próxima vacina/visita.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+⚠️ **Nota sobre a extração destas 4 questões:** os enunciados e/ou alternativas de 3 das 4 questões abaixo (INEP2024-1-Q080, INEP2024-2-Q068 e INEP2025-1-Q080) vieram do PDF original **contaminados por fragmentos de outras questões não relacionadas** (um caso de cardiologia, um caso de pancreatite, um caso de trauma urogenital e tabelas de valores de referência laboratorial, todos claramente estranhos ao tema de vacinação). Isso é um artefato conhecido de extração automática de PDF que junta blocos de texto adjacentes. Abaixo, o enunciado e as alternativas são apresentados **limpos** desses fragmentos estranhos sempre que a separação era inequívoca; onde a alternativa em si ficou cortada/ilegível de forma que não é possível reconstruir o texto original com confiança, isso é sinalizado explicitamente — nenhum texto foi inventado para preencher a lacuna.
+
+**[INEP 2024 · Edição 1 · Questão 80]**
+
+Ao realizar uma visita domiciliar, a médica da unidade básica de saúde avalia uma família de 6 pessoas, sendo a configuração familiar formada por pai, mãe, avó paterna, duas crianças — uma de 9 meses e outra de 4 anos — e uma adolescente de 15 anos. Durante a consulta, a médica solicita as cadernetas de vacina das crianças e da adolescente, a fim de conferir se estão em dia de acordo com o Calendário Nacional de Vacinação. Nesse caso, em relação às vacinas contra a meningite meningocócica, a médica deve observar se as crianças de 9 meses e de 4 anos e se a adolescente de 15 anos possuem, respectivamente,
+
+A) uma dose da vacina meningocócica C conjugada; uma dose e um reforço da vacina meningocócica C conjugada; e uma dose da vacina meningocócica ACWY conjugada.
+B) duas doses da vacina meningocócica C conjugada; duas doses e um reforço da vacina meningocócica C conjugada; e uma dose da vacina meningocócica ACWY conjugada.
+C) duas doses e um reforço da vacina meningocócica C conjugada; três doses e um reforço meningocócica C conjugada; e duas doses da vacina meningocócica ACWY conjugada.
+D) uma dose e um reforço da vacina meningocócica C conjugada; duas doses e um reforço da vacina meningocócica C conjugada; e uma dose e um reforço da vacina meningocócica ACWY conjugada.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** o esquema de meningocócica C conjugada do lactente é de 2 doses (3 e 5 meses) + 1 reforço (~12 meses). Uma criança de **9 meses** com calendário em dia teve tempo de completar apenas as **2 doses** (o reforço ainda não chegou, pois é aos 12 meses). Uma criança de **4 anos** com calendário em dia já deve ter as **2 doses + o reforço**, ou seja, o esquema completo do lactente. A **adolescente de 15 anos**, por sua vez, é candidata a **1 dose de meningocócica ACWY conjugada** — o esquema do adolescente não repete a MenC isolada, mas amplia a cobertura de sorogrupos com a ACWY.
+
+**Por que as demais provavelmente estão erradas (interpretação baseada no gabarito, já que o texto integral não foi recuperado):** A, C e D aparentemente trocam a quantidade de doses atribuída a cada faixa etária (por exemplo, atribuir "reforço" a quem só teve tempo de tomar 2 doses, ou o inverso) e/ou trocam o tipo de vacina do adolescente (ACWY por C, ou vice-versa, ou uma quantidade de doses de ACWY diferente de 1). Sem o texto literal recuperável, não é seguro detalhar erro por erro além dessa leitura geral baseada no padrão de distratores.
+
+**O que a banca estava testando:** se o candidato sabe diferenciar com precisão o número de doses esperado por idade **dentro do mesmo esquema de meningocócica C** (2 doses vs. 2 doses + reforço) e reconhece que o adolescente muda de vacina (ACWY, dose única), não apenas repete o esquema do lactente.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 68]**
+
+Uma criança de 3 anos, pré-escolar, é atendida na atenção primária à saúde. Ao verificar o cartão vacinal dela, o médico constata atraso. Ele verifica que não foram administradas as vacinas recomendadas aos 15 meses. Nesse caso, buscando regularizar o cartão vacinal o quanto antes, as vacinas a serem aplicadas nessa criança, devem ser
+
+A) difteria, tétano e pertussis; hepatite A; sarampo, caxumba e rubéola.
+B) sarampo, caxumba e rubéola; varicela; poliomielite oral; febre amarela.
+C) sarampo, caxumba e rubéola; hepatite A; difteria, tétano e pertussis; varicela; febre amarela.
+D) difteria, tétano e pertussis; hepatite A; sarampo, caxumba e rubéola; varicela; poliomielite oral.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o "pacote dos 15 meses" no calendário é: 1º reforço de DTP (difteria, tétano, pertussis), Hepatite A (dose única), o componente sarampo-caxumba-rubéola (geralmente pela tetra viral, já que a 1ª dose isolada de SCR é aos 12 meses), Varicela e o reforço de poliomielite oral (VOP). A alternativa D reúne exatamente esse conjunto completo.
+
+**Por que as demais estão erradas:**
+- A) Lista apenas 3 dos 5 componentes esperados (falta varicela e o reforço de VOP) — regulariza parcialmente, deixando a criança ainda incompleta.
+- B) Omite a DTP (1º reforço) e a Hepatite A, que são centrais no pacote dos 15 meses, e inclui febre amarela, que não é parte específica desse bloco etário (a febre amarela tem esquema próprio, aos 9 meses e reforço aos 4 anos).
+- C) Inclui febre amarela indevidamente (não faz parte do pacote dos 15 meses) e omite o reforço de VOP.
+- D é a única que reúne o conjunto completo e correto sem itens de fora do pacote.
+
+**O que a banca estava testando:** memorização do "pacote" de vacinas específico dos 15 meses como bloco (não vacina isolada), e a capacidade de não confundir esse bloco com vacinas de esquemas vizinhos (febre amarela, que tem calendário próprio).
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 80]**
+
+Mulher comparece na unidade básica de saúde (UBS) com seus dois filhos, um menino de 8 anos e uma menina de 13 anos, buscando orientações quanto à vacinação contra o HPV. Diante desse quadro, qual a orientação correta?
+
+A) O menino e a menina podem receber dose única nessa visita.
+B) O menino e a menina podem receber a primeira dose nessa visita e agendar a segunda dose em 60 dias.
+C) A menina não deve ser vacinada e o menino poderá receber a primeira dose ao completar 11 anos.
+D) A menina pode ser vacinada em dose única nessa visita e não há indicação para que o filho seja vacinado agora.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a menina de 13 anos está dentro da janela etária do calendário de HPV vigente e pode receber a dose única na própria consulta, sem necessidade de retorno agendado. O menino de 8 anos está **abaixo da idade mínima** da janela do calendário (⚠️ VERIFICAR o limite exato vigente no ano da prova) e por isso **não há indicação atual** — não se antecipa a dose por conveniência de a família já estar na UBS.
+
+**Por que as demais estão erradas:**
+- A) Erra ao vacinar o menino antes da idade mínima elegível.
+- B) Propõe um esquema de 2 doses com intervalo de 60 dias, que não corresponde ao esquema de **dose única** do calendário vigente para essa faixa etária, além de manter o erro de vacinar o menino fora da idade.
+- C) Erra ao negar a vacina à menina (que está dentro da janela e deveria ser vacinada) e propõe uma idade de início (11 anos) para o menino incompatível com a lógica de "esperar completar a idade mínima da janela vigente" (⚠️ VERIFICAR se 11 anos corresponde a algum limite oficial específico ou se é apenas um distrator).
+- D é a única que acerta as duas orientações simultaneamente: vacinar quem está elegível agora, não vacinar quem ainda não atingiu a idade mínima.
+
+**O que a banca estava testando:** se o candidato sabe que a indicação de HPV é definida por uma janela etária mínima-máxima (não "quanto antes melhor" nem "esperar por conveniência familiar") e que o esquema vigente é de dose única, não de duas doses com intervalo.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 47]**
+
+Adolescente de 12 anos, sexo feminino, é levada à Unidade Básica de Saúde (UBS) para verificar se suas vacinas estão atualizadas. Até os 8 anos, todas as vacinas preconizadas pelo Ministério da Saúde para o biênio 2024-2025 foram feitas, sendo que tomou 1 dose da vacina contra febre amarela aos 9 meses. Nesse momento, deve receber as vacinas
+
+A) HPV, reforço da hepatite B e dT.
+B) reforço da hepatite B, dT e SCR.
+C) HPV, meningocócica ACWY e febre amarela.
+D) SCR, meningocócica ACWY e febre amarela.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** aos 12 anos, com o esquema básico completo até os 8 anos, a adolescente ainda não recebeu HPV (indicada dentro da janela etária do calendário) nem meningocócica ACWY (dose do adolescente). Além disso, ela tomou apenas **1 dose de febre amarela aos 9 meses** e nunca recebeu o reforço (2ª dose, esperado por volta dos 4 anos) — esse reforço deve ser completado assim que identificado, independentemente da idade atual. As três vacinas de C (HPV, meningocócica ACWY, febre amarela) são exatamente as pendências reais dessa adolescente.
+
+**Por que as demais estão erradas:**
+- A) Inclui HPV corretamente, mas "reforço da hepatite B" e "dT" não são as pendências centrais deste caso (o esquema básico até os 8 anos já foi cumprido, incluindo hepatite B; dT entra em outro momento do calendário do adolescente/adulto) — e a alternativa **omite** a pendência mais evidente do enunciado, a febre amarela.
+- B) Erra ao propor SCR (a adolescente já deveria ter recebido as doses de SCR/tetra viral no esquema básico já cumprido) e novamente não aborda a pendência de febre amarela nem de meningocócica ACWY.
+- D) Repete o erro de propor SCR desnecessariamente em vez de HPV, que é uma pendência real e não mencionada nesta alternativa.
+- C é a única que identifica corretamente as 3 pendências reais: HPV, meningocócica ACWY e o reforço de febre amarela.
+
+**O que a banca estava testando:** a capacidade de cruzar a história vacinal pregressa (o que já foi feito) com o calendário do adolescente (o que passa a ser devido nessa faixa etária) e, especificamente, lembrar que uma única dose de febre amarela aos 9 meses **não fecha o esquema** — o reforço continua pendente anos depois se não foi aplicado.
+
+---
+
+**[INEP 2017 · Edição 1 · Questão 75]**
+
+A mãe de uma menina com 2 anos de idade, hígida, comparece à Unidade Básica de Saúde em busca de orientações quanto à atualização da caderneta de vacinas da criança. Relata que sua filha foi imunizada contra a febre amarela aos 6 meses de idade, por ocasião de surto da doença em sua cidade, e que não recebeu nenhuma outra dose da vacina desde então; a família continua morando em área de risco para febre amarela. Para essa criança, é adequado indicar
+
+A) uma dose de reforço aos 4 anos de idade.
+B) uma dose de reforço aos 10 anos de idade.
+C) uma dose da vacina hoje e uma segunda dose em 30 dias.
+D) uma dose da vacina hoje e uma dose de reforço aos 4 anos de idade.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Análise:** o INEP não divulga o motivo da anulação. Para revisar a regra do **PNI**: a dose de febre amarela aplicada **antes dos 9 meses** (a partir dos 6 meses, em situação de surto) **não é considerada** válida para o esquema de rotina — a criança deve receber a dose de rotina aos **9 meses** (ou assim que possível, se atrasada) e o **reforço aos 4 anos**. Com 2 anos e sem a dose de rotina, a criança precisa de **uma dose agora** e **reforço aos 4 anos** (respeitando intervalo mínimo de 30 dias entre as doses) — conforme as regras vigentes do calendário, que mudaram algumas vezes ao longo dos anos.
+
+**O que a banca estava testando:** esquema da vacina contra febre amarela na infância.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 12]**
+
+Uma mãe leva seu filho com 2 anos de idade para consulta na Unidade de Saúde da Família (USF) relatando que a criança apresenta febre não aferida e lesões vésico-pústulo-crostosas em tronco há 2 dias. Segundo o Programa Nacional de Imunização, o calendário de vacinação esteve completo somente até os 6 meses de idade, pois a mãe disse que deixou de vacinar a criança porque passou a trabalhar em turno integral, não tendo como levá-la à USF. Quais são a vacina que preveniria a atual doença e a idade para a sua administração?
+
+A) Vacina tetraviral; 12 meses.
+B) Vacina tetraviral; 15 meses.
+C) Vacina tríplice viral; 12 meses.
+D) Vacina tríplice viral; 15 meses.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** lesões em **diferentes estágios** (vesículas, pústulas, crostas) em tronco com febre = **varicela**. No calendário do PNI, a **vacina contra varicela** é dada como **tetraviral** (sarampo, caxumba, rubéola e **varicela**) aos **15 meses** (1ª dose de varicela), com 2ª dose de varicela aos 4 anos.
+
+**Por que as demais estão erradas:**
+- A) Aos **12 meses** aplica-se a **tríplice viral** (sem varicela).
+- C) e D) A **tríplice viral** não protege contra varicela.
+
+⚠️ **PEGADINHA DO INEP:** **12 meses = tríplice viral**; **15 meses = tetraviral** (inclui varicela); **4 anos = 2ª dose de varicela** (monovalente).
+
+**O que a banca estava testando:** calendário vacinal — vacina contra varicela.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 36]**
+
+Uma menina com 13 anos de idade comparece à Unidade Básica de Saúde acompanhada da mãe para consulta de rotina. A paciente tem um irmão de 11 anos de idade. Ao exame físico, não foram observadas alterações dignas de nota. Ao verificar o cartão de vacinação, constatou-se que a adolescente não havia sido vacinada contra o HPV. Nesse caso, o profissional de saúde deve
+
+A) orientar somente a vacinação do irmão.
+B) orientar somente a vacinação da adolescente.
+C) orientar a vacinação da adolescente e de seu irmão.
+D) orientar que não é recomendada a vacinação da adolescente e de seu irmão.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a vacina contra o **HPV** é oferecida no SUS para **meninas e meninos de 9 a 14 anos** (meninos incluídos desde 2017). A adolescente de 13 anos e o irmão de 11 estão na faixa — **ambos** devem ser vacinados.
+
+**Por que as demais estão erradas:** A) e B) excluem um dos irmãos elegíveis; D) ambos estão na faixa etária recomendada.
+
+⚠️ **PEGADINHA DO INEP / atualização:** desde **2024** o MS adota **dose única** para 9–14 anos (antes, 2 doses). Há também ampliações temporárias de faixa etária (resgate até 19 anos) e grupos especiais (imunossuprimidos, vítimas de violência sexual — até 45 anos, 3 doses) — ⚠️ VERIFICAR as regras vigentes.
+
+**O que a banca estava testando:** indicação da vacina contra HPV para meninas e meninos.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 90]**
+
+Uma lactente com 10 meses de idade é levada à Unidade Básica de Saúde pela mãe, a qual demonstra preocupação pelo contato da filha com um tio que, no dia anterior, chegou de viagem do exterior com sintomas respiratórios e manchas no corpo. Ele procurou atendimento no pronto-socorro e foi diagnosticado como caso suspeito de sarampo. A conduta médica indicada para a lactente é administrar a vacina
+
+A) tetraviral em até 48 horas após o contato com o caso suspeito, sendo essa a dose 1, seguida da segunda dose aos 12 meses.
+B) tetraviral em até 72 horas após o contato com caso suspeito, sendo essa a dose 1, seguida da vacinação habitual aos 12 meses.
+C) tríplice viral em até 48 horas após o contato com o caso suspeito, sendo essa a dose zero, seguida da segunda dose aos 12 meses.
+D) tríplice viral em até 72 horas após o contato com o caso suspeito, sendo essa a dose zero, seguida da vacinação habitual aos 12 meses.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a **profilaxia pós-exposição** ao sarampo com vacina deve ser feita **até 72 horas** após o contato. Em lactentes de **6 a 11 meses**, aplica-se a **tríplice viral** como **"dose zero"** — ela **não conta** para o calendário, e a criança recebe normalmente a dose de **12 meses** (e a de 15 meses). Para contatos em que a vacina é contraindicada (< 6 meses, gestantes, imunossuprimidos), usa-se **imunoglobulina** em até 6 dias.
+
+**Por que as demais estão erradas:**
+- A) e B) A **tetraviral** não é usada abaixo de 12 meses nem para bloqueio.
+- C) O prazo é **72 h**, não 48 h, e a dose zero **não substitui** a de 12 meses (a alternativa fala em "segunda dose").
+
+⚠️ **PEGADINHA DO INEP:** sarampo — **vacina até 72 h** / **imunoglobulina até 6 dias**. Dose antes de 12 meses = **dose zero**.
+
+**O que a banca estava testando:** bloqueio vacinal do sarampo em lactente.
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 53]**
+
+Lactente hígido de 12 meses foi levado pela mãe a consulta de rotina. No exame físico, não foi identificada a cicatriz da vacina BCG. Foi conferido o cartão vacinal e constatado que a vacina tinha sido administrada com 20 dias de vida. Nesse caso, a conduta mais apropriada é
+
+A) solicitar prova tuberculínica para eventual revacinação.
+B) administrar nova aplicação da BCG no dia da consulta.
+C) iniciar investigação laboratorial de imunodeficiência.
+D) orientar a mãe e não realizar a revacinação.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** desde **2019**, o Ministério da Saúde **não recomenda revacinar** crianças que receberam a BCG e **não desenvolveram cicatriz**, independentemente do tempo decorrido — a ausência de cicatriz não significa ausência de proteção. Basta **orientar** a família.
+
+**Por que as demais estão erradas:**
+- A) A prova tuberculínica não é usada para decidir revacinação.
+- B) A **revacinação** deixou de ser indicada (era a regra antiga: revacinar se sem cicatriz após 6 meses).
+- C) A ausência de cicatriz, isoladamente, não indica imunodeficiência.
+
+⚠️ **PEGADINHA DO INEP / atualização:** regra antiga (até 2019) = revacinar se sem cicatriz após 6 meses; **regra atual = não revacinar**. Questões mais antigas podem ter gabarito diferente.
+
+**O que a banca estava testando:** conduta diante da ausência de cicatriz vacinal da BCG.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 70]**
+
+Um paciente de 11 anos é trazido pela mãe para consulta de puericultura na unidade básica de saúde. A família vivia, anteriormente, em uma região de difícil acesso a serviços de saúde e se mudou para o território de abrangência há 3 meses. Durante a consulta, a mãe informa que a criança não apresenta problemas de saúde e não faz uso regular de medicamentos. Quando questionada sobre a situação vacinal da criança, a mãe informa que só se lembra de que o paciente recebeu algumas vacinas do primeiro ano de vida e que não tem o cartão vacinal. Nesse contexto, qual deve ser o esquema vacinal indicado para esse paciente?
+
+A) 3 doses de hepatite B, 3 doses da dupla adulto (dT), dose única de febre amarela, 2 doses de tríplice viral, 2 doses de HPV e dose única de meningocócica ACWY.
+B) 3 doses de hepatite B, 3 doses da dupla adulto (dT), dose única de febre amarela, dose única de tríplice viral, 3 doses de HPV e dose única de meningocócica C.
+C) 3 doses de hepatite B, 3 doses da dupla adulto (dT), dose única de febre amarela, 2 doses de tríplice viral e dose única de meningocócica ACWY.
+D) 3 doses da pentavalente, 2 doses de febre amarela, 2 doses de tríplice viral, 2 doses de HPV e 2 doses de meningocócica C.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** sem comprovação vacinal, **considera-se não vacinado**. Para **11 anos** (calendário do adolescente do PNI à época): **hepatite B 3 doses**, **dT 3 doses** (a partir dos 7 anos usa-se a dupla adulto), **febre amarela dose única** (a partir dos 5 anos, conforme a regra vigente), **tríplice viral 2 doses** (até 29 anos), **HPV 2 doses** (9–14 anos) e **meningocócica ACWY dose única** (11–14 anos).
+
+**Por que as demais estão erradas:**
+- B) Tríplice viral deve ter **2 doses**; HPV eram 2 doses nessa faixa (não 3); e aos 11–14 anos a meningocócica é a **ACWY**.
+- C) Omite o **HPV**, indicado para a idade.
+- D) **Pentavalente** é só para menores de 7 anos; febre amarela não precisa de 2 doses nessa idade.
+
+⚠️ **PEGADINHA DO INEP / atualização:** desde 2024 o HPV é **dose única** para 9–14 anos. **Sem cartão = não vacinado**.
+
+**O que a banca estava testando:** atualização do calendário vacinal do adolescente sem comprovação.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 28]**
+
+A mãe de uma criança com 6 anos procurou a unidade básica de saúde (UBS) para atualizar o cartão de vacina de seu filho. A criança é portadora de nefropatia crônica e está em uso de corticoide oral em dose > 3 mg/kg/dia. Na UBS, a mãe relata que perdeu o cartão vacinal do filho. Observando-se a criança, nota-se que não possui cicatriz de BCG visível em músculo deltoide direito. Considerando-se a situação apresentada, com relação à vacinação dessa criança, nesse momento, deve-se
+
+A) aplicar todas as vacinas indicadas para a idade.
+B) aplicar as vacinas tríplice bacteriana e hepatite b.
+C) aplicar as vacinas tetraviral e influenza.
+D) aplicar a vacina BCG e hepatite b.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** corticoide oral em **dose imunossupressora** (≥ 2 mg/kg/dia ou ≥ 20 mg/dia de prednisona por ≥ 14 dias) **contraindica vacinas de vírus/bactérias vivos atenuados**. Podem ser aplicadas as **inativadas**: **tríplice bacteriana (DTP)** e **hepatite B** (esta especialmente indicada para nefropatas).
+
+**Por que as demais estão erradas:**
+- A) "Todas" inclui vacinas **vivas** (tríplice viral, varicela, febre amarela), contraindicadas agora.
+- C) **Tetraviral** é **viva**.
+- D) **BCG** é **viva** (e, aos 6 anos, nem é mais indicada de rotina).
+
+⚠️ **PEGADINHA DO INEP:** vacinas **vivas**: BCG, tríplice/tetraviral, varicela, febre amarela, rotavírus, pólio oral. Em imunossupressão por corticoide em dose alta, aguardar **≥ 1 mês** após a suspensão para aplicá-las. Influenza e demais inativadas podem ser dadas.
+
+**O que a banca estava testando:** vacinação em criança imunossuprimida por corticoide.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 68]**
+
+Ao realizar visita domiciliar a uma família, a equipe da saúde da família (eSF) identifica atraso vacinal nas três crianças residentes na casa, todas menores de 5 anos de idade. Os pais informaram que optaram por suspender o esquema de vacinação dos seus filhos, pois questionam os benefícios de vacinas. De acordo com o Estatuto da Criança e do Adolescente, a eSF, nesse caso, deve
+
+A) acatar a decisão dos pais que possuem o pátrio poder, respeitando as convicções da família frente à questão da necessidade da imunização cada vez mais controversa.
+B) sensibilizar a família por meio de estratégias de convencimento sobre benefícios da vacinação e, em situações especiais, como em risco iminente de adoecimento, acionar o Conselho Tutelar.
+C) acionar o Conselho Tutelar de forma imediata e proceder à vacinação nessa mesma visita, uma vez que a imunização das crianças é obrigatória nos casos recomendados pelas autoridades sanitárias.
+D) realizar a vacinação das crianças nessa mesma visita, contrariando a opinião dos pais, pois, do ponto de vista da proteção à criança, negar-lhes a vacinação pode ser considerado negligência.
+
+**Gabarito oficial: C**
+
+**Por que C está correta (segundo a banca):** a questão pede a conduta "**de acordo com o ECA**". O **art. 14, §1º do ECA** estabelece que **é obrigatória a vacinação das crianças nos casos recomendados pelas autoridades sanitárias** — a recusa dos pais não tem amparo legal e configura ameaça a direito da criança, o que atrai a atuação do **Conselho Tutelar** (art. 13 e art. 136). A banca adotou a leitura estritamente legal: comunicar o Conselho Tutelar **de imediato** e garantir a vacinação.
+
+⚠️ **ATENÇÃO — leitura prática diferente:** na rotina da APS, a abordagem da hesitação vacinal costuma começar pelo **diálogo e sensibilização** da família (alternativa B), acionando o Conselho Tutelar diante da recusa persistente; e a equipe **não vacina** crianças contra a vontade dos responsáveis durante a visita — a execução compulsória depende de decisão do Conselho/Justiça. O gabarito oficial é **C** e é ele que vale na prova; registramos a nuance.
+
+**Por que as demais estão erradas (segundo a banca):**
+- A) A convicção dos pais **não** afasta a obrigatoriedade legal da vacinação.
+- B) Condiciona o acionamento do Conselho Tutelar a "situações especiais", quando a banca entendeu que a recusa por si já exige comunicação.
+- D) Vacina sem acionar a rede de proteção, apoiando-se apenas no conceito de negligência — a banca exigiu o **Conselho Tutelar**.
+
+⚠️ **PEGADINHA DO INEP:** "de acordo com o ECA" → o INEP cobra a letra da lei: **vacinação obrigatória (art. 14, §1º)** + **Conselho Tutelar**.
+
+**O que a banca estava testando:** obrigatoriedade legal da vacinação infantil e papel do Conselho Tutelar.
+
+---
+
+**[INEP 2012 · Edição 1 · Questão 93]**
+
+Uma criança de 4 anos de idade é trazida à Unidade de Saúde da Família (USF) pela mãe que refere que, há cerca de 12 horas, seu filho subitamente passou a apresentar febre e “fraqueza nas pernas”. Ao exame físico, a médica percebe diminuição importante da força e tônus muscular nos membros inferiores da criança, conclui que se trata de um quadro de paralisia flácida aguda, suspeita de poliomielite e preenche a ficha de notificação compulsória. Que outra característica clínica além das mencionadas é típica da poliomielite?
+
+A) Paralisia do terceiro par de nervos cranianos.
+B) Fotossensibilidade, cefaleia e convulsões.
+C) Acometimento simétrico dos membros inferiores.
+D) Perda da sensibilidade tátil nos membros inferiores.
+E) Flacidez e ausência de reflexos profundos nos membros inferiores.
+
+**Gabarito oficial: E**
+
+**Por que E está correta:** o poliovírus lesa o **neurônio motor inferior** (corno anterior da medula) → paralisia **flácida**, com **hipotonia e arreflexia (ou hiporreflexia) profunda**, de instalação **aguda** e acompanhada de febre.
+
+**Por que as demais estão erradas:**
+- A) Pares cranianos podem ser acometidos na forma **bulbar** (IX, X), mas paralisia do III par não é típica.
+- B) Fotossensibilidade e convulsões não fazem parte do quadro.
+- C) A paralisia da pólio é tipicamente **assimétrica** (segmentar); acometimento **simétrico e ascendente** sugere **Guillain-Barré**.
+- D) A **sensibilidade é preservada** na poliomielite (só a via motora é lesada) — perda sensitiva também sugere Guillain-Barré ou lesão medular.
+
+⚠️ **PEGADINHA DO INEP:** pólio = **assimétrica, febre, sensibilidade preservada, arreflexia, sequela**; Guillain-Barré = **simétrica, ascendente, sem febre na instalação, parestesias**. Toda **paralisia flácida aguda em < 15 anos** é de **notificação imediata** (vigilância da pólio erradicada).
+
+**O que a banca estava testando:** semiologia da poliomielite e diagnóstico diferencial da paralisia flácida aguda.
+
+**[INEP 2022 · Edição 1 · Questão 13]**
+
+Uma menina com 11 meses de idade comparece à consulta de puericultura na Unidade Básica de Saúde. A mãe questiona como deve seguir a vacinação, especificamente no caso do sarampo, uma vez que a criança recebeu uma dose dessa vacina aos 8 meses de idade, quando teve contato com um caso suspeito da doença. De acordo com o estabelecido pelo Ministério da Saúde, essa criança deve receber uma dose da vacina
+
+A) tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 15 meses.
+B) tríplice viral aos 12 meses e uma dose da vacina tetraviral aos 18 meses.
+C) antissarampo aos 12 meses e uma dose da vacina tríplice viral aos 15 meses.
+D) antissarampo aos 18 meses e outra dose da vacina tetraviral aos 18 meses.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** a vacina contra sarampo aplicada **antes dos 12 meses** (a "**dose zero**", usada em bloqueio vacinal ou surto, entre 6 e 11 meses) **não é contabilizada** para o calendário de rotina, porque os anticorpos maternos podem neutralizar a resposta. Por isso a criança segue o calendário normalmente: **tríplice viral aos 12 meses** e **tetraviral (sarampo, caxumba, rubéola e varicela) aos 15 meses**.
+
+**Por que as demais estão erradas:**
+- B) A tetraviral é aplicada aos **15** meses, não aos 18.
+- C) e D) Não existe "vacina antissarampo" monovalente no calendário do PNI; e as idades estão erradas.
+
+⚠️ **PEGADINHA DO INEP:** "dose zero não conta" — depois dela, o esquema de rotina é refeito por completo.
+
+**O que a banca estava testando:** dose zero da vacina contra sarampo e calendário do PNI.
+
+**[INEP 2022 · Edição 1 · Questão 70]**
+
+Uma criança de 18 meses de idade vem à consulta médica em uma unidade de saúde para puericultura. O médico observa que as vacinas que a criança deveria ter recebido aos 15 meses estão em atraso, mas recebeu todas as vacinas anteriores recomendadas pelo calendário de imunização atual do Ministério da Saúde. A mãe justifica o atraso vacinal porque ficou com medo de sair de casa devido à pandemia da COVID-19. Entre as vacinas a serem recomendadas a essa criança, está(ão)
+
+A) a tríplice viral juntamente com a tetraviral.
+B) o reforço da pneumocócica conjugada.
+C) o reforço da meningocócica C conjugada.
+D) a segunda dose da tríplice viral + varicela.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** no calendário do PNI (2022), aos **15 meses** a criança recebe: **DTP** (1º reforço), **VOP** (1º reforço), **hepatite A** (dose única) e **tetraviral** (sarampo, caxumba, rubéola e varicela) — que, na falta da tetraviral, é substituída pela **segunda dose da tríplice viral + varicela** monovalente. Como as vacinas dos 12 meses foram dadas, entre as opções está a **2ª dose da tríplice viral + varicela**.
+
+**Por que as demais estão erradas:**
+- A) Tríplice viral **e** tetraviral juntas duplicam os componentes do sarampo, da caxumba e da rubéola.
+- B) e C) Os reforços da pneumocócica 10 e da meningocócica C são dados aos **12 meses**, e a criança recebeu as vacinas anteriores.
+
+⚠️ **PEGADINHA DO INEP:** separe 12 meses (**pneumo 10, meningo C, tríplice viral**) de 15 meses (**DTP, VOP, hepatite A, tetraviral**).
+
+**O que a banca estava testando:** calendário vacinal do PNI aos 12 e 15 meses.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Regra geral de regularização de calendário vacinal atrasado: reinicia-se o esquema do zero?	Não — completa-se de onde parou, respeitando intervalos mínimos entre doses	Revalida::Pediatria::CalendarioVacinacao::Regularizacao
+Quais vacinas compõem o "pacote dos 15 meses" a ser regularizado se em atraso?	1º reforço de DTP, Hepatite A, componente SCR (tetra viral), Varicela e reforço de VOP	Revalida::Pediatria::CalendarioVacinacao::Regularizacao
+Esquema de doses da meningocócica C conjugada no lactente?	2 doses (3 e 5 meses) + 1 reforço (~12 meses)	Revalida::Pediatria::CalendarioVacinacao::Meningococica
+Uma criança de 9 meses com calendário em dia deve ter quantas doses de meningocócica C?	2 doses (o reforço ainda não chegou, é aos 12 meses)	Revalida::Pediatria::CalendarioVacinacao::Meningococica
+Qual vacina meningocócica é indicada para o adolescente, e em quantas doses?	Meningocócica ACWY conjugada, dose única	Revalida::Pediatria::CalendarioVacinacao::Meningococica
+Qual o esquema de doses da vacina HPV no calendário atual?	Dose única, dentro da janela etária vigente (⚠️ verificar limites exatos do ano)	Revalida::Pediatria::CalendarioVacinacao::HPV
+Uma criança abaixo da idade mínima da janela de HPV deve ser vacinada por conveniência (ex.: já está na UBS com um irmão elegível)?	Não — só se vacina ao atingir a idade mínima da janela vigente	Revalida::Pediatria::CalendarioVacinacao::HPV
+Esquema de doses da febre amarela na infância?	1ª dose aos 9 meses + reforço (2ª dose) por volta dos 4 anos	Revalida::Pediatria::CalendarioVacinacao::FebreAmarela
+Adolescente só tomou 1 dose de febre amarela aos 9 meses e nunca fez o reforço. Conduta?	Completar o reforço assim que identificado, independentemente da idade atual	Revalida::Pediatria::CalendarioVacinacao::FebreAmarela
+Vacinas de vírus vivo do calendário nacional (que exigem cautela em imunossupressão)?	VOP, SCR/tetra viral, varicela, febre amarela, BCG	Revalida::Pediatria::CalendarioVacinacao::Imunossupressao
+Vacinas inativadas podem ser mantidas durante imunossupressão?	Sim, geralmente — resposta imune pode ser reduzida, mas não são contraindicadas	Revalida::Pediatria::CalendarioVacinacao::Imunossupressao
+Corticoide sistêmico em qual faixa de dose é classicamente considerado imunossupressor para fins de vacina viva?	Ordem de prednisona ≥2 mg/kg/dia ou ≥20 mg/dia por ≥14 dias (⚠️ verificar valor exato vigente)	Revalida::Pediatria::CalendarioVacinacao::Imunossupressao
+Corticoide tópico, inalatório ou curso curto (<14 dias) contraindica vacina viva?	Não	Revalida::Pediatria::CalendarioVacinacao::Imunossupressao
+Diarreia leve sem desidratação contraindica vacinação?	Não	Revalida::Pediatria::CalendarioVacinacao::Contraindicacoes
+Alergia não anafilática a ovo contraindica SCR ou febre amarela?	Não — é uma falsa contraindicação clássica	Revalida::Pediatria::CalendarioVacinacao::Contraindicacoes
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Atraso vacinal não reinicia esquema — completa-se de onde parou, respeitando intervalos mínimos.
+2. Meningocócica C conjugada é do lactente (2 doses + reforço); meningocócica ACWY é do adolescente (dose única) — não confundir as duas.
+3. HPV: dose única, dentro da janela etária vigente; não se vacina abaixo da idade mínima por conveniência.
+4. Febre amarela tem 2 doses na infância (9 meses + reforço ~4 anos); reforço perdido deve ser completado a qualquer idade em que for identificado.
+5. Vacina viva é contraindicada em imunossupressão significativa (incluindo corticoide em dose imunossupressora); vacina inativada, em geral, pode ser mantida.
+
+📊 **Tabela-síntese — regularização de calendário atrasado**
+| Situação encontrada na caderneta | Conduta |
+|---|---|
+| Faltam doses do esquema básico (Penta, VIP, Pneumo, Rotavírus) | Completar as faltantes; não reiniciar; respeitar intervalo mínimo; rotavírus tem limite de idade rígido (ver PED-01) |
+| Faltam vacinas dos 15 meses | Aplicar o pacote: DTP (1º reforço), Hepatite A, SCR/tetra viral, Varicela, VOP (reforço) |
+| Falta reforço de meningocócica C (12 meses) | Completar assim que identificado |
+| Adolescente nunca recebeu meningocócica do adolescente | 1 dose de meningocócica ACWY conjugada |
+| Falta reforço (2ª dose) de febre amarela | Completar a qualquer idade em que identificado |
+| Não vacinado contra HPV, dentro da janela etária vigente | Completar dose única |
+| Não vacinado contra HPV, abaixo da idade mínima da janela | Não vacinar agora; aguardar idade mínima |
+| Uso de corticoide em dose imunossupressora | Adiar vacinas vivas; manter inativadas; reavaliar após suspensão (aguardar intervalo) |
+
+💊 **Doses essenciais:** este módulo não fixa como "verdade absoluta" os limites etários exatos de HPV, meningocócica ACWY e o corte numérico de dose imunossupressora de corticoide — todos marcados ⚠️ VERIFICAR no calendário/manual vigente no ano da prova, pois são pontos frequentemente atualizados.
+
+⚡ **Fluxograma textual:** ler caderneta → identificar idade atual → comparar com o esperado para essa idade → aplicar tudo que está pendente e é elegível hoje (sem reiniciar esquemas) → checar imunossupressão/corticoide antes de qualquer vacina viva → checar falsas contraindicações antes de adiar por doença leve → agendar o que ainda não é elegível hoje.
+
+🚫 **Os 3 erros mais comuns:** (1) tratar atraso vacinal como motivo para reiniciar o esquema ou adiar tudo; (2) confundir o esquema de meningocócica C (lactente) com o de ACWY (adolescente), ou vacinar HPV fora da janela etária; (3) tratar qualquer corticoide como contraindicação automática a vacina viva sem avaliar dose e tempo de uso.
+
+🔗 **Conexões com outros módulos:** PED-01 (estrutura geral do PNI, regra de peso da BCG, contactante domiciliar imunossuprimido, eventos adversos), INF-01 (Hib como componente vacinal e meningites), PREV-01 (Programa Nacional de Imunizações como política pública).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-146",
+  "especialidade": "Pediatria",
+  "tema": "Calendário Nacional de Vacinação",
+  "assunto": "Regularização de esquema vacinal atrasado, esquemas por idade de meningocócica (C x ACWY), HPV, febre amarela e vacinação em imunossupressão/uso de corticoide",
+  "tier": "A",
+  "n_questoes": 15,
+  "n_flashcards": 15,
+  "tempo_estudo_min": 70,
+  "prerequisitos": ["PED-01"],
+  "relacionados": ["PED-01"],
+  "data_geracao": "2026-08-08",
+  "itens_a_verificar": [
+    "Faixa etária exata (limites mínimo/máximo) de indicação da vacina HPV no calendário vigente no ano da prova",
+    "Faixa etária exata de indicação/resgate da meningocócica ACWY conjugada no calendário vigente",
+    "Valor exato do corte de dose de corticoide sistêmico considerado imunossupressor para fins de contraindicação de vacina viva (citado aqui como ordem de prednisona ≥2 mg/kg/dia ou ≥20 mg/dia por ≥14 dias, mas não confirmado em fonte primária atual)",
+    "Intervalo recomendado após suspensão de corticoide imunossupressor antes de aplicar vacina viva",
+    "Texto literal completo das alternativas A, C e D da questão INEP2024-1-Q080 — não recuperado com confiança da extração do PDF (contaminado por questão de cardiologia não relacionada); comentário da questão foi construído a partir do gabarito oficial e do padrão de distratores, não de transcrição literal verificada",
+    "Confirmar se há mais questões sobre este assunto nas 2 edições ainda não classificadas por corrupção de encoding (2022.1 e 2026.1)"
+  ]
+}
+```

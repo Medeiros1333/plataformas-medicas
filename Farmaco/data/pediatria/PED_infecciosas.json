@@ -1,0 +1,281 @@
+[
+  {
+    "id": "PED-INF-amoxicilina",
+    "nombre": "Amoxicilina (pediatría)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — aminopenicilina",
+    "subclase": "Antibiótico de primera línea en infección respiratoria pediátrica",
+    "mecanismo": "Inhibe la síntesis del peptidoglucano uniéndose a las PBP. Bactericida tiempo-dependiente: su eficacia depende del tiempo que la concentración se mantiene por encima de la CMI, lo que justifica repartir la dosis y, frente a neumococo con sensibilidad disminuida, SUBIR la dosis en lugar de cambiar de familia.",
+    "espectro": "Streptococcus pneumoniae (incluidas cepas con sensibilidad intermedia si se usa dosis alta), Streptococcus pyogenes, Haemophilus influenzae no productor de betalactamasa, Listeria, Enterococcus. NO cubre S. aureus, NO cubre productores de betalactamasa, NO cubre atípicas (Mycoplasma) ni Bordetella.",
+    "dosis_pediatrica_base": "80-90 mg/kg/día repartidos en 2-3 tomas (dosis alta); 40-50 mg/kg/día en indicaciones que no requieren cubrir neumococo resistente",
+    "dosis_maxima": "No superar la dosis de adulto: 2-3 g/día (hasta 4 g/día en dosis alta para otitis)",
+    "presentaciones": [
+      "Suspensión 125 mg/5 mL",
+      "Suspensión 250 mg/5 mL",
+      "Suspensión 500 mg/5 mL",
+      "Sobres 250, 500, 1000 mg",
+      "Cápsulas 500 mg"
+    ],
+    "edad_minima": "Desde el nacimiento (con ajuste de intervalo en el neonato)",
+    "franjas_edad": [
+      {
+        "franja": "Neonato (0-7 días)",
+        "ajuste": "50 mg/kg/día repartidos cada 12 h (aclaramiento renal inmaduro)"
+      },
+      {
+        "franja": "Neonato (8-28 días)",
+        "ajuste": "75 mg/kg/día repartidos cada 8 h"
+      },
+      {
+        "franja": "Lactante y niño (>1 mes)",
+        "ajuste": "80-90 mg/kg/día en 2-3 tomas para otitis, sinusitis y neumonía"
+      },
+      {
+        "franja": "≥40 kg",
+        "ajuste": "Dosis de adulto: 1 g/8 h"
+      }
+    ],
+    "peculiaridad_pediatrica": "En pediatría se usa la DOSIS ALTA (80-90 mg/kg/día) como estándar en otitis, sinusitis y neumonía, mientras que en el adulto la dosis alta es una decisión selectiva. El motivo es la elevada prevalencia de neumococo con sensibilidad intermedia a penicilina en la población infantil, sobre todo en niños que acuden a guardería o han recibido antibióticos en los 3 meses previos. Además, el niño con MONONUCLEOSIS INFECCIOSA desarrolla exantema en el 80-100% de los casos si recibe amoxicilina: es un fenómeno inmunológico transitorio, NO una alergia, y etiquetarlo como alérgico condiciona erróneamente toda su vida terapéutica.",
+    "indicaciones": [
+      {
+        "patologia": "Otitis media aguda",
+        "dosis": "80-90 mg/kg/día",
+        "posologia": "Repartidos cada 8-12 h",
+        "via": "VO",
+        "nota": "Duración: 10 días en <2 años; 5-7 días en ≥2 años sin complicaciones. En el niño mayor sin criterios de gravedad puede optarse por observación 48 h con analgesia"
+      },
+      {
+        "patologia": "Faringoamigdalitis estreptocócica",
+        "dosis": "50 mg/kg/día (máx. 1 g/día)",
+        "posologia": "Cada 12-24 h, 10 días",
+        "via": "VO",
+        "nota": "La dosis única diaria es válida y mejora el cumplimiento. 10 días completos para prevenir la fiebre reumática"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad típica",
+        "dosis": "80-90 mg/kg/día",
+        "posologia": "Cada 8 h, 5-7 días",
+        "via": "VO",
+        "nota": "El neumococo sigue siendo el principal agente bacteriano; si se sospecha Mycoplasma (escolar con tos seca prolongada), asociar o cambiar a macrólido"
+      },
+      {
+        "patologia": "Sinusitis bacteriana aguda",
+        "dosis": "80-90 mg/kg/día",
+        "posologia": "Cada 8-12 h, 10 días",
+        "via": "VO",
+        "nota": "Criterio diagnóstico: síntomas >10 días sin mejoría, o empeoramiento tras mejoría inicial"
+      },
+      {
+        "patologia": "Profilaxis de endocarditis en cardiopatía de alto riesgo",
+        "dosis": "50 mg/kg (máx. 2 g)",
+        "posologia": "Dosis única 30-60 min antes del procedimiento",
+        "via": "VO",
+        "nota": "Solo en cardiopatías congénitas cianóticas, prótesis valvulares y endocarditis previa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena por peso desde la primera toma. Confirmar con la familia la concentración de la suspensión y prescribir en mililitros.",
+      "titulacion": "No se titula.",
+      "duracion": "10 días en faringitis estreptocócica y en otitis del menor de 2 años; 5-7 días en la mayoría del resto de indicaciones.",
+      "fin": "Suspensión brusca al completar la pauta. Insistir a la familia en completar el ciclo aunque el niño esté bien a las 48 h.",
+      "via": "VO.",
+      "monitorizacion": "Clínica. Reevaluar si no hay mejoría en 48-72 h: puede indicar productor de betalactamasa (pasar a amoxicilina-clavulánico) o etiología no bacteriana."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 75-90%, poco afectada por los alimentos.",
+      "distribucion": "Buena en oído medio, senos y pulmón — precisamente las localizaciones de sus indicaciones pediátricas.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal, mayoritariamente inalterada. En el neonato el aclaramiento renal es inmaduro y obliga a espaciar los intervalos.",
+      "vida_media": "1-1,3 h en el niño; 3-4 h en el neonato.",
+      "ajuste_renal": "FG 10-30: cada 12 h. FG <10: cada 24 h.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Alopurinol",
+          "efecto": "Aumenta la incidencia de exantema",
+          "gravedad": "baja",
+          "manejo": "Informar a la familia"
+        },
+        {
+          "con": "Metotrexato (en oncología o reumatología pediátrica)",
+          "efecto": "Reduce su aclaramiento renal y eleva su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar niveles y hemograma"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Exantema maculopapular tardío no alérgico",
+        "Candidiasis del pañal o muguet",
+        "Vómitos"
+      ],
+      "graves": [
+        "Anafilaxia (rara)",
+        "Colitis por C. difficile",
+        "Nefritis intersticial",
+        "Reacciones cutáneas graves (Stevens-Johnson), excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia mediada por IgE a betalactámicos",
+      "Mononucleosis infecciosa (contraindicación relativa por el exantema, no por peligro real)"
+    ],
+    "perlas": [
+      "El exantema por amoxicilina en la mononucleosis NO es alergia: es un fenómeno inmunológico ligado al VEB. Etiquetar al niño como «alérgico a la penicilina» por este motivo lo condena de por vida a antibióticos de segunda línea, más caros, más tóxicos y ecológicamente peores. La mayoría de los adultos etiquetados como alérgicos a penicilina en la infancia NO lo son.",
+      "Ante una faringoamigdalitis en un adolescente con adenopatías generalizadas y esplenomegalia, hay que pensar en mononucleosis ANTES de prescribir amoxicilina.",
+      "En pediatría la dosis alta (80-90 mg/kg/día) es el estándar en otitis, sinusitis y neumonía: infradosificar es la causa más frecuente de fracaso frente al neumococo con sensibilidad disminuida.",
+      "La faringitis estreptocócica admite dosis ÚNICA diaria de amoxicilina, lo que mejora enormemente el cumplimiento en el niño.",
+      "En la otitis media aguda del niño mayor de 2 años sin otorrea, fiebre alta ni afectación general, la observación durante 48 h con analgesia adecuada es una estrategia válida y recomendada.",
+      "La amoxicilina no cubre Mycoplasma: en el escolar con tos seca prolongada e infiltrado intersticial, el fracaso de la amoxicilina orienta a atípica y no a resistencia."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la madre gestante o lactante es un antibiótico de primera elección.",
+    "micro_relacionado": [
+      "BGN-haemophilus-influenzae",
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 43 y 59; AMIR Pediatría; Harrison 20.ª ed."
+  },
+  {
+    "id": "PED-INF-azitromicina",
+    "nombre": "Azitromicina (pediatría)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Macrólido (azálido)",
+    "subclase": "Macrólido de elección en el lactante",
+    "mecanismo": "Se une a la subunidad 50S ribosómica e inhibe la síntesis proteica. Su enorme volumen de distribución y su acumulación intracelular en fagocitos permiten pautas cortas de 3-5 días con concentraciones tisulares activas durante varios días más.",
+    "espectro": "Atípicas (Mycoplasma pneumoniae, Chlamydia trachomatis), Bordetella pertussis, Campylobacter. Cobertura de neumococo poco fiable en España por la alta resistencia por metilación ribosómica.",
+    "dosis_pediatrica_base": "10 mg/kg/día el primer día y 5 mg/kg/día los días 2-5 (o 10 mg/kg/día durante 3 días)",
+    "dosis_maxima": "500 mg/día (dosis de adulto)",
+    "presentaciones": [
+      "Suspensión 200 mg/5 mL",
+      "Suspensión 100 mg/5 mL",
+      "Sobres 250 y 500 mg",
+      "Comprimidos 500 mg"
+    ],
+    "edad_minima": "Desde el nacimiento cuando está indicada (tos ferina); es el macrólido de elección en el menor de 1 mes",
+    "franjas_edad": [
+      {
+        "franja": "Neonato (<1 mes) con tos ferina",
+        "ajuste": "10 mg/kg/día durante 5 días. Es el macrólido de ELECCIÓN a esta edad por el menor riesgo de estenosis hipertrófica de píloro frente a la eritromicina"
+      },
+      {
+        "franja": "Lactante y niño >1 mes",
+        "ajuste": "10 mg/kg el día 1 y 5 mg/kg los días 2-5; o 10 mg/kg/día 3 días"
+      },
+      {
+        "franja": "Adolescente >45 kg",
+        "ajuste": "Dosis de adulto: 500 mg el día 1 y 250 mg los días 2-5"
+      }
+    ],
+    "peculiaridad_pediatrica": "Los macrólidos en el lactante menor de 1 mes se asocian a ESTENOSIS HIPERTRÓFICA DE PÍLORO, con un riesgo claramente demostrado para la ERITROMICINA y bastante menor para la azitromicina: por eso, cuando un neonato necesita un macrólido (esencialmente por tos ferina o por infección por Chlamydia), la elección es la azitromicina, y hay que advertir a la familia de que consulte si el niño empieza con vómitos proyectivos. Además, en pediatría la azitromicina es el fármaco de la TOS FERINA, donde su papel principal no es acortar la enfermedad (que en la fase paroxística ya no se modifica) sino CORTAR LA TRANSMISIÓN, especialmente hacia lactantes no vacunados.",
+    "indicaciones": [
+      {
+        "patologia": "Tos ferina (tratamiento y profilaxis de contactos)",
+        "dosis": "10 mg/kg día 1 y 5 mg/kg días 2-5 (neonato: 10 mg/kg/día 5 días)",
+        "posologia": "Cada 24 h, 5 días",
+        "via": "VO",
+        "nota": "Tratar al caso y dar QUIMIOPROFILAXIS con la misma pauta a todos los convivientes, independientemente de su estado vacunal"
+      },
+      {
+        "patologia": "Neumonía atípica por Mycoplasma en el escolar",
+        "dosis": "10 mg/kg día 1 y 5 mg/kg días 2-5",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Sospechar en el niño mayor de 5 años con tos seca prolongada, febrícula y auscultación pobre"
+      },
+      {
+        "patologia": "Conjuntivitis y neumonía del lactante por Chlamydia trachomatis",
+        "dosis": "20 mg/kg/día",
+        "posologia": "Cada 24 h, 3 días",
+        "via": "VO",
+        "nota": "Neumonía afebril con tos staccato y eosinofilia entre las 4 y 12 semanas de vida"
+      },
+      {
+        "patologia": "Faringoamigdalitis estreptocócica en alérgicos a betalactámicos",
+        "dosis": "12 mg/kg/día (máx. 500 mg)",
+        "posologia": "Cada 24 h, 5 días",
+        "via": "VO",
+        "nota": "Comprobar la sensibilidad local: la resistencia de S. pyogenes a macrólidos alcanza el 10-25%"
+      },
+      {
+        "patologia": "Gastroenteritis por Campylobacter con criterios de tratamiento",
+        "dosis": "10 mg/kg/día",
+        "posologia": "Cada 24 h, 3 días",
+        "via": "VO",
+        "nota": "De elección frente a las quinolonas por la alta resistencia de Campylobacter a ciprofloxacino"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga el primer día (el doble de la de mantenimiento) por su gran volumen de distribución. Administrar preferentemente con el estómago vacío.",
+      "titulacion": "No se titula.",
+      "duracion": "3-5 días. Explicar a la familia que el efecto persiste días tras la última dosis, para que la pauta corta no se interprete como tratamiento insuficiente.",
+      "fin": "Suspensión brusca al completar los días pautados.",
+      "via": "VO.",
+      "monitorizacion": "En el neonato, vigilar la aparición de VÓMITOS PROYECTIVOS (estenosis hipertrófica de píloro). ECG solo si hay cardiopatía o QT largo conocido."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 37%, reducida por los alimentos.",
+      "distribucion": "Volumen de distribución enorme, con acumulación intracelular en macrófagos y neutrófilos, que la transportan al foco infeccioso.",
+      "metabolismo": "Escaso; NO es inhibidora relevante del CYP3A4, a diferencia de la claritromicina — ventaja importante en el niño polimedicado o con cardiopatía.",
+      "eliminacion": "Biliar mayoritaria.",
+      "vida_media": "68 h (tisular aún mayor).",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Riesgo aditivo de arritmia",
+          "gravedad": "alta",
+          "manejo": "Relevante en el niño con cardiopatía congénita o QT largo; hacer ECG previo"
+        },
+        {
+          "con": "Antiácidos con aluminio o magnesio",
+          "efecto": "Reducen el pico plasmático",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea y dolor abdominal",
+        "Vómitos",
+        "Exantema"
+      ],
+      "graves": [
+        "ESTENOSIS HIPERTRÓFICA DE PÍLORO en el lactante menor de 1 mes",
+        "Prolongación del QT",
+        "Hepatotoxicidad",
+        "Reacciones cutáneas graves",
+        "Colitis por C. difficile (poco frecuente en el niño)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a macrólidos",
+      "QT largo congénito o adquirido significativo",
+      "Antecedente de hepatotoxicidad por macrólidos"
+    ],
+    "perlas": [
+      "En el lactante menor de 1 mes que recibe un macrólido hay que advertir a la familia sobre los VÓMITOS PROYECTIVOS: la estenosis hipertrófica de píloro asociada a macrólidos es una complicación real y quirúrgica, y detectarla pronto evita la deshidratación grave.",
+      "En la tos ferina, el antibiótico se pauta aunque el niño lleve semanas tosiendo: el objetivo pasa a ser cortar la transmisión, no acortar la tos.",
+      "La quimioprofilaxis a los convivientes es obligatoria y a menudo se olvida: es lo que protege al lactante no vacunado del domicilio, que es quien puede morir por la enfermedad.",
+      "La azitromicina no es un buen antibiótico para el neumococo en España: usarla como antitérmico-antibiótico polivalente en la neumonía del niño pequeño es un error frecuente.",
+      "Frente a la claritromicina tiene la ventaja de no inhibir el CYP3A4: en el niño con cardiopatía, epilepsia o trasplante es mucho más segura.",
+      "La tos ferina en el lactante puede manifestarse solo con APNEAS, sin el gallo inspiratorio clásico: una apnea en un lactante con contacto tosedor obliga a descartarla."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la gestante es el macrólido de elección.",
+    "micro_relacionado": [
+      "ATI-chlamydia-trachomatis",
+      "ATI-mycoplasma-pneumoniae",
+      "BGN-bordetella-pertussis",
+      "BGN-campylobacter-jejuni"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 44 y 59; AMIR Pediatría; Harrison 20.ª ed."
+  }
+]

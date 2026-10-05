@@ -1,0 +1,477 @@
+[
+  {
+    "id": "DIG-loperamida",
+    "nombre": "Loperamida",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Antidiarreico",
+    "subclase": "Agonista opioide mu de acción periférica",
+    "vs_clase": [
+      "**Opioide periférico que ENLENTECE EL TRÁNSITO**: el antidiarreico más eficaz, pero **contraindicado en la diarrea con sangre o fiebre** (disentería) y en la colitis por C. difficile (megacolon tóxico).",
+      "El racecadotrilo, en cambio, es solo antisecretor y no frena el tránsito.",
+      "**Dosis masivas (abuso) prolongan el QT** y producen arritmias."
+    ],
+    "mecanismo": "Es un agonista de los receptores opioides MU del plexo mientérico intestinal. Inhibe la liberación de acetilcolina y de prostaglandinas, con lo que reduce el peristaltismo propulsivo, aumenta el tono segmentario y prolonga el tiempo de tránsito, favoreciendo la absorción de agua y electrolitos. Además aumenta el tono del esfínter anal. Es sustrato de la GLUCOPROTEÍNA P de la barrera hematoencefálica, que lo expulsa activamente del sistema nervioso central: por eso, a dosis normales, carece de efectos opioides centrales y no produce euforia ni dependencia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diarrea aguda inespecífica del adulto, sin fiebre ni sangre",
+        "dosis": "4 mg iniciales, después 2 mg tras cada deposición líquida (máximo 16 mg/día)",
+        "posologia": "A demanda tras cada deposición",
+        "via": "VO",
+        "nota": "Nunca sustituye a la rehidratación, que es el tratamiento principal de cualquier diarrea"
+      },
+      {
+        "patologia": "Diarrea crónica funcional y síndrome de intestino irritable con predominio de diarrea",
+        "dosis": "2-4 mg/día, ajustada a la respuesta",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "Puede usarse de forma preventiva antes de salir de casa o de un compromiso social, lo que mejora mucho la calidad de vida"
+      },
+      {
+        "patologia": "Diarrea del viajero sin criterios de gravedad",
+        "dosis": "4 mg iniciales y 2 mg tras cada deposición",
+        "posologia": "A demanda",
+        "via": "VO",
+        "nota": "Puede asociarse a azitromicina en las formas moderadas-graves; contraindicada si hay fiebre alta o sangre en heces"
+      },
+      {
+        "patologia": "Diarrea por quimioterapia, ostomías de alto débito o resección intestinal",
+        "dosis": "2-4 mg/6 h, con dosis a veces superiores bajo supervisión",
+        "posologia": "Cada 6 h",
+        "via": "VO",
+        "nota": "En la diarrea por irinotecán tardía se emplean pautas intensivas específicas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga de 4 mg seguida de 2 mg tras cada deposición líquida.",
+      "titulacion": "Se ajusta a la respuesta, sin superar 16 mg al día en el adulto.",
+      "duracion": "48 horas como máximo en la diarrea aguda: si no cede, hay que reevaluar el diagnóstico, no aumentar la dosis.",
+      "fin": "Se suspende al normalizarse las deposiciones. No produce dependencia ni efecto rebote.",
+      "via": "VO.",
+      "monitorizacion": "Vigilancia clínica de distensión abdominal, ausencia de ruidos y dolor: son los signos de alarma de íleo o de megacolon tóxico y obligan a suspenderla."
+    },
+    "farmacocinetica": {
+      "absorcion": "Baja biodisponibilidad sistémica (menos del 1%) por un intenso efecto de primer paso y por la expulsión mediada por la glucoproteína P.",
+      "distribucion": "Actúa localmente en el intestino; la glucoproteína P le impide alcanzar el sistema nervioso central a dosis terapéuticas.",
+      "metabolismo": "Hepático por CYP3A4 y CYP2C8.",
+      "eliminacion": "Fundamentalmente biliar y fecal.",
+      "vida_media": "10-12 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "PRECAUCIÓN en la insuficiencia hepática: al reducirse el primer paso hepático aumenta la exposición sistémica y pueden aparecer efectos centrales.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de la GLUCOPROTEÍNA P y del CYP3A4: quinidina, verapamilo, ritonavir, itraconazol, claritromicina",
+          "efecto": "Permiten el paso al sistema nervioso central y elevan las concentraciones, con depresión respiratoria y efectos opioides centrales",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación; extremar la precaución en el paciente polimedicado"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "A dosis SUPRATERAPÉUTICAS la loperamida bloquea canales cardiacos y prolonga QT y QRS: efecto aditivo",
+          "gravedad": "alta",
+          "manejo": "No superar nunca la dosis máxima; investigar el abuso en pacientes con arritmias inexplicadas"
+        },
+        {
+          "con": "Anticolinérgicos y opioides",
+          "efecto": "Suma de enlentecimiento del tránsito con riesgo de íleo",
+          "gravedad": "media",
+          "manejo": "Vigilar la aparición de distensión abdominal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO",
+        "Dolor abdominal y distensión",
+        "Náuseas",
+        "Sequedad de boca"
+      ],
+      "graves": [
+        "ÍLEO PARALÍTICO y MEGACOLON TÓXICO, sobre todo en colitis infecciosa invasiva o en la enfermedad inflamatoria intestinal grave",
+        "ARRITMIAS VENTRICULARES graves y muerte súbita con dosis muy altas (abuso como sustituto de opioides o para tratar el síndrome de abstinencia)",
+        "Depresión del sistema nervioso central en el lactante y en el niño pequeño",
+        "Reacciones de hipersensibilidad y necrólisis epidérmica tóxica (excepcionales)"
+      ]
+    },
+    "contraindicaciones": [
+      "DIARREA CON FIEBRE ALTA O SANGRE (sospecha de colitis invasiva por Shigella, Salmonella, Campylobacter o E. coli enterohemorrágica)",
+      "Colitis por Clostridioides difficile",
+      "Brote grave de colitis ulcerosa (riesgo de megacolon tóxico)",
+      "Íleo, obstrucción o distensión abdominal",
+      "MENORES DE 2 AÑOS (y no recomendada en menores de 6 en la práctica pediátrica habitual)"
+    ],
+    "perlas": [
+      "La regla que hay que tener grabada: FIEBRE ALTA o SANGRE en heces es una contraindicación. Frenar el tránsito en una colitis invasiva prolonga el contacto de la mucosa con el patógeno y sus toxinas, y puede precipitar un megacolon tóxico o, en la infección por E. coli enterohemorrágica, favorecer el síndrome hemolítico urémico.",
+      "En el NIÑO con gastroenteritis está formalmente desaconsejada: el riesgo de íleo y de depresión neurológica supera con creces el beneficio de reducir el número de deposiciones. Lo que salva al niño es la rehidratación oral, no el antidiarreico.",
+      "Su seguridad depende por completo de la GLUCOPROTEÍNA P, que la mantiene fuera del cerebro. Cualquier inhibidor de esa bomba (quinidina, verapamilo, ritonavir) desmonta esa barrera y convierte un antidiarreico local en un opioide sistémico.",
+      "El ABUSO a dosis muy altas (decenas de comprimidos, buscando efecto opioide o aliviando la abstinencia) produce ARRITMIAS VENTRICULARES por bloqueo de canales de sodio y potasio cardiacos, con casos de muerte súbita. Ante una arritmia inexplicada en un paciente con antecedentes de consumo de opioides, hay que preguntar por la loperamida.",
+      "En el síndrome de intestino irritable con diarrea, usarla de forma PREVENTIVA antes de una situación concreta (un viaje, una reunión) es una estrategia sencilla que cambia mucho la calidad de vida y que suele pasarse por alto.",
+      "No trata la deshidratación ni acorta la infección: reduce el número de deposiciones. La rehidratación sigue siendo el tratamiento principal de cualquier diarrea.",
+      "Si en 48 horas la diarrea no ha cedido, la respuesta correcta es reevaluar el diagnóstico, no subir la dosis."
+    ],
+    "embarazo_lactancia": "No se recomienda en el primer trimestre por datos limitados; en el resto del embarazo se usa solo si es necesario. Compatible con la lactancia por su escaso paso a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de diarrea y estreñimiento"
+  },
+  {
+    "id": "DIG-macrogol",
+    "nombre": "Macrogol (polietilenglicol)",
+    "sinonimos": [
+      "PEG 3350",
+      "Lactulosa (laxante osmótico alternativo)"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante",
+    "subclase": "Osmótico: polímero inerte no absorbible",
+    "vs_clase": [
+      "**Laxante OSMÓTICO de primera elección** en el estreñimiento crónico del adulto y del niño y en la **impactación fecal** (pauta de desimpactación).",
+      "**Efecto en 1-3 días**, sin dolor cólico ni flatulencia (a diferencia de la lactulosa y de los estimulantes).",
+      "Sin absorción ni fermentación: seguro en el uso prolongado."
+    ],
+    "mecanismo": "Es un polímero de alto peso molecular que NO se absorbe, NO se metaboliza y NO es fermentado por la flora colónica. Retiene agua en la luz intestinal por puentes de hidrógeno, aumentando el volumen y ablandando las heces, lo que estimula de forma mecánica el peristaltismo. Al no fermentarse, no produce el gas ni la distensión característicos de la lactulosa, que sí es metabolizada por las bacterias colónicas a ácidos grasos de cadena corta.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estreñimiento crónico funcional del adulto",
+        "dosis": "1-2 sobres (13-26 g) al día disueltos en agua",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "Laxante de PRIMERA ELECCIÓN por eficacia, seguridad y ausencia de tolerancia, incluso en tratamientos prolongados"
+      },
+      {
+        "patologia": "Estreñimiento e impactación fecal del niño",
+        "dosis": "0,4-0,8 g/kg/día de mantenimiento; 1-1,5 g/kg/día durante 3-6 días en la desimpactación",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es de elección también en pediatría; la desimpactación oral evita en la mayoría de los casos los enemas, mal tolerados por el niño"
+      },
+      {
+        "patologia": "Estreñimiento inducido por opioides",
+        "dosis": "1-2 sobres al día, pautados de forma PROFILÁCTICA",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "Debe pautarse desde el mismo día en que se inicia el opioide, no cuando ya aparece el estreñimiento"
+      },
+      {
+        "patologia": "Preparación para colonoscopia",
+        "dosis": "Soluciones evacuantes de 2-4 L con electrolitos, o formulaciones de bajo volumen",
+        "posologia": "Fraccionada (dosis dividida la tarde previa y la mañana del procedimiento)",
+        "via": "VO",
+        "nota": "La pauta FRACCIONADA mejora de forma clara la calidad de la limpieza frente a la dosis única"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 sobre al día, disuelto en 125 mL de agua. Junto con medidas higiénico-dietéticas: fibra, líquidos, actividad física y respeto del reflejo defecatorio.",
+      "titulacion": "Ajustar entre 1 y 3 sobres al día según la consistencia de las heces. El objetivo no es un número de deposiciones sino unas heces blandas y una defecación sin esfuerzo.",
+      "duracion": "Puede usarse durante MESES O AÑOS sin problema: no produce tolerancia, dependencia ni daño de la mucosa.",
+      "fin": "Retirada progresiva reduciendo la dosis. En el niño, la retirada prematura es la causa más frecuente de recaída: hay que mantenerlo varios meses tras la normalización.",
+      "via": "VO, siempre disuelto en agua suficiente.",
+      "monitorizacion": "Ninguna de rutina. En dosis altas o en el anciano frágil, vigilar los electrolitos."
+    },
+    "farmacocinetica": {
+      "absorcion": "NULA: es un polímero inerte que no se absorbe en absoluto. Esa ausencia total de absorción es la base de su seguridad y de su ausencia de interacciones sistémicas.",
+      "distribucion": "No aplicable: permanece en la luz intestinal.",
+      "metabolismo": "Ninguno; tampoco es fermentado por la flora.",
+      "eliminacion": "Se elimina íntegro por las heces.",
+      "vida_media": "No aplicable. El efecto aparece en 24-48 h.",
+      "ajuste_renal": "No precisa ajuste (a diferencia de los laxantes con fosfato o magnesio, que están contraindicados en la insuficiencia renal).",
+      "ajuste_hepatico": "No precisa ajuste. En la ENCEFALOPATÍA HEPÁTICA, sin embargo, se prefiere la LACTULOSA, cuyo efecto terapéutico depende precisamente de su fermentación y de la acidificación colónica que atrapa el amonio.",
+      "interacciones": [
+        {
+          "con": "Fármacos administrados por vía oral en la misma toma",
+          "efecto": "El aumento del tránsito puede reducir la absorción de otros fármacos",
+          "gravedad": "baja",
+          "manejo": "Separar 1-2 horas los fármacos de margen terapéutico estrecho"
+        },
+        {
+          "con": "Diuréticos, en dosis altas y de forma prolongada",
+          "efecto": "Alteraciones electrolíticas aditivas",
+          "gravedad": "baja",
+          "manejo": "Control periódico de iones en el anciano frágil"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Distensión abdominal y borborigmos leves",
+        "Náuseas",
+        "Diarrea por dosis excesiva (se corrige reduciendo la dosis)"
+      ],
+      "graves": [
+        "Alteraciones hidroelectrolíticas con dosis altas prolongadas o en la preparación colonoscópica del anciano",
+        "Broncoaspiración de la solución evacuante en pacientes con alteración de la deglución",
+        "Reacciones alérgicas (excepcionales)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción o perforación intestinal",
+      "Íleo paralítico",
+      "Megacolon tóxico y brote grave de enfermedad inflamatoria intestinal",
+      "Hipersensibilidad al macrogol"
+    ],
+    "perlas": [
+      "Ha desplazado a todos los demás laxantes como primera opción por una combinación difícil de igualar: eficaz, no se absorbe, no produce tolerancia y puede usarse durante años, incluso en niños y embarazadas.",
+      "La diferencia práctica con la LACTULOSA está en la fermentación: la lactulosa es metabolizada por la flora y produce gas, distensión y flatulencia, mientras que el macrogol no. Pero esa misma fermentación es lo que hace insustituible a la lactulosa en la ENCEFALOPATÍA HEPÁTICA, donde el objetivo es acidificar el colon para atrapar el amonio. Elegir uno u otro depende de si se busca solo el efecto laxante o también el metabólico.",
+      "La idea de que los laxantes crean dependencia procede de los ESTIMULANTES antraquinónicos (sen, cáscara sagrada) y se ha extendido erróneamente a todos. Con el macrogol no ocurre, y ese miedo infundado deja a muchos pacientes con estreñimiento mal tratado.",
+      "Todo paciente que recibe un OPIOIDE debe llevar un laxante PAUTADO desde el primer día, no a demanda. El estreñimiento por opioides no desarrolla tolerancia: persiste todo el tratamiento y es una de las causas más frecuentes de abandono de la analgesia.",
+      "En el niño, el error más frecuente no es de dosis sino de DURACIÓN: se retira en cuanto mejora, y el estreñimiento recidiva porque el recto dilatado necesita meses para recuperar su sensibilidad. Hay que mantenerlo varios meses tras la normalización.",
+      "En la preparación para colonoscopia, la pauta FRACCIONADA (parte la tarde antes y parte la mañana del procedimiento) mejora de forma consistente la calidad de la limpieza, lo que a su vez aumenta la detección de adenomas.",
+      "A diferencia de los laxantes con FOSFATO, es seguro en la insuficiencia renal y en el anciano: los enemas de fosfato pueden producir hiperfosfatemia y nefropatía aguda por fosfato."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo y la lactancia: al no absorberse, no alcanza al feto ni a la leche. Es el laxante de elección en la gestante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de estreñimiento"
+  },
+  {
+    "id": "DIG-mesalazina",
+    "nombre": "Mesalazina (5-ASA)",
+    "sinonimos": [
+      "Ácido 5-aminosalicílico",
+      "Sulfasalazina (profármaco clásico)"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antiinflamatorio intestinal",
+    "subclase": "Aminosalicilato de acción tópica sobre la mucosa colónica",
+    "mecanismo": "Actúa TÓPICAMENTE sobre el epitelio colónico, no por vía sistémica: inhibe la ciclooxigenasa y la lipooxigenasa reduciendo prostaglandinas y leucotrienos, capta radicales libres, inhibe la activación del NF-kappa-B y modula la producción de citocinas proinflamatorias. La consecuencia práctica de que su acción sea tópica es que TODO el diseño farmacéutico del fármaco está orientado a liberarlo en el segmento intestinal enfermo: cubiertas pH-dependientes, matrices de liberación prolongada, profármacos azo-unidos que solo rompen las bacterias colónicas, y formulaciones rectales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Colitis ulcerosa leve-moderada: inducción de la remisión",
+        "dosis": "2,4-4,8 g/24 h VO, asociada a 1 g/24 h en supositorio o enema si hay afectación distal",
+        "posologia": "Una vez al día (la toma única es tan eficaz como la fraccionada y mejora la adherencia)",
+        "via": "VO más rectal",
+        "nota": "La combinación oral MÁS rectal es netamente superior a cualquiera de las dos por separado"
+      },
+      {
+        "patologia": "Colitis ulcerosa: mantenimiento de la remisión",
+        "dosis": "2-2,4 g/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Debe mantenerse de forma INDEFINIDA: reduce las recaídas y, además, el riesgo de cáncer colorrectal"
+      },
+      {
+        "patologia": "Proctitis ulcerosa (afectación limitada al recto)",
+        "dosis": "1 g/24 h en supositorio",
+        "posologia": "Una vez al día, por la noche",
+        "via": "Rectal",
+        "nota": "En la proctitis, el supositorio SOLO es más eficaz que el tratamiento oral solo: el fármaco tiene que llegar donde está la inflamación"
+      },
+      {
+        "patologia": "Colitis izquierda",
+        "dosis": "Enema de 1-4 g por la noche, asociado al tratamiento oral",
+        "posologia": "Una vez al día",
+        "via": "Rectal",
+        "nota": "El enema alcanza hasta el ángulo esplénico; el supositorio solo llega al recto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis alta para inducir la remisión (hasta 4,8 g/día), combinando la vía oral y la rectal según la extensión de la enfermedad.",
+      "titulacion": "Se desciende a la dosis de mantenimiento tras alcanzar la remisión clínica y, a ser posible, la curación mucosa.",
+      "duracion": "INDEFINIDA en el mantenimiento de la colitis ulcerosa.",
+      "fin": "No se retira: la suspensión multiplica el riesgo de recaída y pierde el efecto quimiopreventivo sobre el cáncer colorrectal.",
+      "via": "VO (formulaciones de liberación específica que NO deben masticarse ni triturarse) y RECTAL (supositorio para el recto, espuma para el rectosigma, enema hasta el ángulo esplénico).",
+      "monitorizacion": "FUNCIÓN RENAL (creatinina) antes de iniciar, a los 3 meses y después ANUALMENTE, por el riesgo de nefritis intersticial. Hemograma y transaminasas periódicos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Se busca deliberadamente que sea BAJA: cuanto menos se absorbe, más fármaco queda disponible en la mucosa, que es donde actúa. Las distintas formulaciones se diferencian precisamente en dónde liberan el principio activo.",
+      "distribucion": "Fundamentalmente local en la mucosa colónica.",
+      "metabolismo": "Acetilación en la pared intestinal y en el hígado a N-acetil-5-ASA, inactivo.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "Variable según la formulación; poco relevante clínicamente por su acción tópica.",
+      "ajuste_renal": "PRECAUCIÓN: evitar con FG por debajo de 30. La monitorización de la creatinina no es opcional.",
+      "ajuste_hepatico": "Precaución en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "AZATIOPRINA y mercaptopurina",
+          "efecto": "Inhibe la tiopurina metiltransferasa y aumenta las concentraciones de los metabolitos activos, con riesgo de MIELOSUPRESIÓN",
+          "gravedad": "alta",
+          "manejo": "Hemograma más frecuente al asociarlos; puede requerir reducir la dosis de la tiopurina"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Nefrotoxicidad aditiva y posible reactivación del brote de enfermedad inflamatoria intestinal",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE en el paciente con enfermedad inflamatoria intestinal; usar paracetamol"
+        },
+        {
+          "con": "Antivitamina K",
+          "efecto": "Posible reducción del efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR al iniciar o suspender"
+        },
+        {
+          "con": "Lactulosa y otros fármacos que acidifican el colon",
+          "efecto": "Pueden alterar la liberación de las formulaciones pH-dependientes",
+          "gravedad": "baja",
+          "manejo": "Tener en cuenta ante una respuesta inesperadamente pobre"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Náuseas, dispepsia y dolor abdominal",
+        "Diarrea",
+        "Exantema"
+      ],
+      "graves": [
+        "NEFRITIS INTERSTICIAL con insuficiencia renal, dosis-independiente e idiosincrásica: es el efecto adverso que justifica la vigilancia periódica de la creatinina",
+        "PANCREATITIS aguda",
+        "SÍNDROME DE INTOLERANCIA AL 5-ASA: diarrea sanguinolenta que simula un brote de la propia enfermedad y que empeora al subir la dosis",
+        "Miocarditis y pericarditis (raras)",
+        "Discrasias sanguíneas",
+        "Neumonitis intersticial"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a los salicilatos o a la mesalazina",
+      "Insuficiencia renal grave",
+      "Úlcera péptica activa",
+      "Discrasias sanguíneas graves"
+    ],
+    "perlas": [
+      "El SÍNDROME DE INTOLERANCIA AL 5-ASA es una trampa diagnóstica de manual: el paciente empeora con diarrea sanguinolenta, se interpreta como un brote resistente, se sube la dosis y empeora aún más. La clave es que el cuadro apareció al iniciar o aumentar el fármaco y mejora al retirarlo.",
+      "TODO el diseño galénico de este fármaco existe porque su acción es TÓPICA. De ahí dos consecuencias prácticas: las formulaciones orales NO se pueden triturar ni masticar sin destruir el sistema de liberación, y en la enfermedad distal la vía RECTAL es superior a la oral, aunque muchos pacientes la rechacen por incomodidad.",
+      "La combinación ORAL MÁS RECTAL es superior a cualquiera de las dos aisladas en la colitis ulcerosa izquierda y extensa: es una de esas mejoras terapéuticas sencillas que se dejan de aplicar solo por no insistir con el paciente en la aceptación del enema.",
+      "Tiene efecto QUIMIOPREVENTIVO sobre el cáncer colorrectal en la colitis ulcerosa: es un argumento adicional, y a menudo decisivo, para mantener el tratamiento en el paciente asintomático que quiere abandonarlo.",
+      "La NEFRITIS INTERSTICIAL es idiosincrásica y no depende de la dosis: puede aparecer en cualquier momento. Por eso el control de la creatinina es anual y de por vida, no solo al inicio.",
+      "Su eficacia en la ENFERMEDAD DE CROHN es escasa: es un fármaco fundamentalmente de la COLITIS ULCEROSA. Usarlo como tratamiento de mantenimiento en Crohn es una práctica heredada y con poco respaldo.",
+      "La SULFASALAZINA es un profármaco unido a sulfapiridina, y es esta última la responsable de la mayoría de sus efectos adversos (náuseas, cefalea, oligospermia reversible, hemólisis en el déficit de G6PD). La mesalazina se desarrolló precisamente para eliminarlos; la sulfasalazina conserva su papel cuando hay artropatía asociada, en la que sí es superior."
+    ],
+    "embarazo_lactancia": "Compatible con el embarazo y recomendable mantenerla: el riesgo de un brote activo para el feto es mayor que el del fármaco. Compatible con la lactancia, vigilando la aparición de diarrea en el lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal"
+  },
+  {
+    "id": "DIG-butilescopolamina",
+    "nombre": "Butilescopolamina (bromuro de hioscina)",
+    "sinonimos": [
+      "Buscapina",
+      "N-butilbromuro de hioscina"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Espasmolítico",
+    "subclase": "Anticolinérgico antimuscarínico cuaternario",
+    "mecanismo": "Antagonista competitivo de los receptores MUSCARÍNICOS del músculo liso del tubo digestivo, la vía biliar y el aparato genitourinario, donde relaja la contracción espástica. Es una AMINA CUATERNARIA con carga permanente, lo que le impide atravesar la barrera hematoencefálica: por eso, a diferencia de la escopolamina (amina terciaria), no produce sedación, confusión ni delirio anticolinérgico central. Su acción es esencialmente periférica y visceral.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor cólico abdominal y espasmo digestivo",
+        "dosis": "10-20 mg/6-8 h",
+        "posologia": "Cada 6-8 h",
+        "via": "VO, IM o IV lenta",
+        "nota": "Su eficacia es mayor en el dolor claramente espasmódico que en el dolor abdominal inespecífico"
+      },
+      {
+        "patologia": "Cólico biliar",
+        "dosis": "20 mg IV o IM",
+        "posologia": "Dosis única, repetible",
+        "via": "IM o IV",
+        "nota": "Se asocia a un AINE (dexketoprofeno o metamizol), que es el que aporta la mayor parte de la analgesia"
+      },
+      {
+        "patologia": "Cólico nefrítico",
+        "dosis": "20 mg IV o IM",
+        "posologia": "Dosis única, repetible",
+        "via": "IM o IV",
+        "nota": "Papel SECUNDARIO: el tratamiento de elección son los AINE, que reducen la presión intraureteral por su efecto antiinflamatorio"
+      },
+      {
+        "patologia": "Dismenorrea y dolor espasmódico genitourinario",
+        "dosis": "10-20 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Suele combinarse con un AINE, que es más eficaz por su acción sobre las prostaglandinas"
+      },
+      {
+        "patologia": "ESTERTORES PREMORTEM en cuidados paliativos",
+        "dosis": "20 mg/6-8 h SC o en perfusión continua",
+        "posologia": "Cada 6-8 h o en perfusión",
+        "via": "SC",
+        "nota": "Reduce las secreciones respiratorias que angustian a la familia; debe iniciarse PRECOZMENTE, porque no elimina las secreciones ya acumuladas"
+      }
+    ],
+    "esquema": {
+      "inicio": "10-20 mg por la vía adecuada al cuadro. En el dolor agudo intenso, vía parenteral.",
+      "titulacion": "No se titula. Se emplea a demanda o pautada por poco tiempo.",
+      "duracion": "Días en el dolor agudo. No es un fármaco de uso crónico.",
+      "fin": "Suspensión directa sin descenso progresivo.",
+      "via": "VO (biodisponibilidad muy baja), IM, IV LENTA o SC (en cuidados paliativos).",
+      "monitorizacion": "Vigilancia clínica de efectos anticolinérgicos: retención urinaria en el varón con hipertrofia prostática y taquicardia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral MUY BAJA (menos del 1%) por ser una molécula cuaternaria con carga. Esa escasa absorción explica que gran parte de su efecto oral sea local sobre la pared intestinal y que las vías parenterales sean claramente más eficaces.",
+      "distribucion": "NO atraviesa la barrera hematoencefálica: esa es su característica farmacológica definitoria.",
+      "metabolismo": "Hidrólisis escasa.",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "5-6 h.",
+      "ajuste_renal": "No precisa ajuste relevante.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros ANTICOLINÉRGICOS: antihistamínicos de primera generación, antidepresivos tricíclicos, antipsicóticos, oxibutinina",
+          "efecto": "Suma de CARGA ANTICOLINÉRGICA con retención urinaria, estreñimiento, sequedad y taquicardia",
+          "gravedad": "media",
+          "manejo": "Revisar la carga anticolinérgica total del paciente, especialmente en el anciano"
+        },
+        {
+          "con": "METOCLOPRAMIDA y otros procinéticos",
+          "efecto": "ANTAGONISMO directo: uno estimula y otro inhibe la motilidad",
+          "gravedad": "media",
+          "manejo": "No prescribirlos simultáneamente; es una asociación contradictoria y sorprendentemente frecuente"
+        },
+        {
+          "con": "Betabloqueantes y antiarrítmicos",
+          "efecto": "La taquicardia anticolinérgica puede contrarrestar su efecto",
+          "gravedad": "baja",
+          "manejo": "Vigilancia clínica"
+        },
+        {
+          "con": "Opioides",
+          "efecto": "Suma de enlentecimiento del tránsito con riesgo de íleo",
+          "gravedad": "media",
+          "manejo": "Asegurar profilaxis del estreñimiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Taquicardia",
+        "Visión borrosa por alteración de la acomodación",
+        "Estreñimiento"
+      ],
+      "graves": [
+        "RETENCIÓN URINARIA aguda, sobre todo en el varón con hipertrofia prostática",
+        "GLAUCOMA AGUDO DE ÁNGULO CERRADO en el paciente predispuesto",
+        "Íleo paralítico",
+        "Anafilaxia y reacciones cutáneas graves (raras)",
+        "Taquiarritmia en el cardiópata"
+      ]
+    },
+    "contraindicaciones": [
+      "GLAUCOMA DE ÁNGULO ESTRECHO",
+      "HIPERTROFIA PROSTÁTICA con retención urinaria",
+      "MIASTENIA GRAVIS",
+      "Megacolon, íleo paralítico y estenosis mecánica del tubo digestivo",
+      "Taquiarritmias no controladas"
+    ],
+    "perlas": [
+      "Su rasgo farmacológico definitorio es la carga cuaternaria que le impide entrar en el cerebro: por eso NO produce el delirio anticolinérgico ni la sedación de la escopolamina clásica, lo que la hace mucho más segura en el anciano en ese aspecto concreto. Los efectos periféricos (retención urinaria, glaucoma, taquicardia), en cambio, se mantienen íntegros.",
+      "En el CÓLICO NEFRÍTICO su papel es secundario, aunque la costumbre la sitúe en primera línea: el tratamiento más eficaz son los AINE, que reducen la presión intraureteral por un mecanismo antiinflamatorio. La butilescopolamina puede añadirse, pero no debe sustituirlos.",
+      "Las TRES contraindicaciones que hay que preguntar sistemáticamente antes de administrarla en urgencias son glaucoma de ángulo estrecho, prostatismo y miastenia gravis. Son tres preguntas de diez segundos que evitan complicaciones evitables.",
+      "Su indicación quizá más valiosa y menos conocida está en CUIDADOS PALIATIVOS: los ESTERTORES premortem. Y tiene una lógica temporal exigente: solo impide que se produzcan secreciones nuevas, no elimina las ya acumuladas, así que hay que iniciarla precozmente para que sirva de algo.",
+      "Su biodisponibilidad oral es inferior al 1%, de modo que el comprimido actúa sobre todo localmente. En un dolor cólico intenso, la vía parenteral no es un lujo sino la única que garantiza un efecto sistémico.",
+      "Prescribirla junto a METOCLOPRAMIDA es una contradicción farmacológica (una frena la motilidad, la otra la estimula) que sin embargo aparece con cierta frecuencia en las órdenes de urgencias.",
+      "En el anciano polimedicado, conviene sumar la CARGA ANTICOLINÉRGICA total: aunque esta molécula no llegue al cerebro, los demás anticolinérgicos de su lista sí lo hacen, y el resultado conjunto puede ser un delirio."
+    ],
+    "embarazo_lactancia": "Se considera aceptable en el embarazo cuando está indicada, con datos tranquilizadores. Compatible con la lactancia por su escaso paso a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., cap. de dolor abdominal"
+  }
+]

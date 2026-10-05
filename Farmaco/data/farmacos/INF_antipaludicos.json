@@ -1,0 +1,250 @@
+[
+  {
+    "id": "INF-artemisininas",
+    "nombre": "Derivados de la ARTEMISININA (artesunato, artemeter-lumefantrina)",
+    "sinonimos": [
+      "ACT",
+      "Terapia combinada con artemisinina"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antipalúdico",
+    "subclase": "Endoperóxidos de acción esquizonticida sanguínea rápida",
+    "vs_clase": [
+      "**Esquizonticidas sanguíneos de ACCIÓN MÁS RÁPIDA**: el **artesunato IV es el tratamiento de la malaria GRAVE** y las combinaciones (ACT) el de la no complicada por P. falciparum.",
+      "**Vida media muy corta**: siempre combinadas con otro antipalúdico de vida larga.",
+      "Hemólisis tardía tras el artesunato IV (control de Hb a los 7-30 días)."
+    ],
+    "mecanismo": "Contienen un PUENTE ENDOPERÓXIDO que se activa al entrar en contacto con el HIERRO HEMO liberado por la digestión de la hemoglobina dentro del parásito. Esa activación genera radicales libres que alquilan proteínas y lípidos parasitarios e inhiben la bomba PfATP6. El mecanismo explica su selectividad (solo se activa donde hay hierro hemo, es decir, dentro del parásito) y su velocidad: reducen la parasitemia unas 10.000 veces por ciclo, mucho más rápido que cualquier otro antipalúdico. Actúan además sobre estadios muy jóvenes del anillo, lo que impide la citoadherencia y la progresión a formas graves. Su vida media es MUY CORTA, y de ahí que se combinen siempre con un fármaco de vida media larga (lumefantrina, piperaquina, amodiaquina) que elimine los parásitos residuales y proteja frente a la aparición de resistencia.",
+    "espectro": "Todas las especies de Plasmodium, incluido P. falciparum resistente a cloroquina. Activos también sobre gametocitos jóvenes, lo que reduce la transmisión. NO actúan sobre los hipnozoítos hepáticos de P. vivax y P. ovale.",
+    "indicaciones": [
+      {
+        "patologia": "Paludismo GRAVE por P. falciparum (o de especie no identificada)",
+        "dosis": "Artesunato 2,4 mg/kg IV a las 0, 12 y 24 horas y después cada 24 horas (3 mg/kg en el niño de menos de 20 kg)",
+        "posologia": "Bolos intravenosos según ese esquema",
+        "via": "IV",
+        "dosis_objetivo": "Descenso de la parasitemia con tolerancia de la vía oral, momento en que se pasa a un ciclo completo de ACT",
+        "nota": "Es SUPERIOR a la quinina en mortalidad, tanto en el adulto como en el niño (ensayos SEAQUAMAT y AQUAMAT). Es el tratamiento de elección sin discusión"
+      },
+      {
+        "patologia": "Paludismo NO complicado por P. falciparum",
+        "dosis": "Artemeter-lumefantrina 80/480 mg (4 comprimidos) cada 12 horas durante 3 días, con dosis adicional a las 8 horas de la primera",
+        "posologia": "6 dosis en 3 días",
+        "via": "VO",
+        "nota": "Debe tomarse CON GRASA (leche entera, comida): la absorción de la lumefantrina es muy dependiente de ella, y el fracaso terapéutico por tomarla en ayunas está descrito"
+      },
+      {
+        "patologia": "Paludismo no complicado por P. vivax en zonas con resistencia a cloroquina",
+        "dosis": "Artemeter-lumefantrina 80/480 mg cada 12 horas durante 3 días",
+        "posologia": "6 dosis en 3 días",
+        "via": "VO",
+        "nota": "Hay que añadir SIEMPRE primaquina para la cura radical: la ACT no toca los hipnozoítos"
+      },
+      {
+        "patologia": "Continuación oral tras el artesunato intravenoso",
+        "dosis": "Artemeter-lumefantrina 80/480 mg cada 12 horas durante 3 días: ciclo COMPLETO de 6 dosis",
+        "posologia": "6 dosis en 3 días",
+        "via": "VO",
+        "nota": "El ciclo completo es obligatorio aunque el paciente ya esté asintomático y con parasitemia negativa: si no, recrudece"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el paludismo grave, el artesunato se administra en cuanto se sospecha, sin esperar a la confirmación de la especie. El retraso en la primera dosis es el factor que más pesa en la mortalidad.",
+      "titulacion": "No se titula: la dosis es fija por peso.",
+      "duracion": "Artesunato intravenoso al menos 24 horas y hasta que el paciente tolere la vía oral; después, siempre 3 días completos de ACT.",
+      "fin": "Al terminar el ciclo. Es imprescindible seguir la parasitemia hasta su negativización y vigilar la anemia hemolítica tardía durante las semanas siguientes.",
+      "via": "Intravenosa en el grave; oral en el no complicado; intramuscular o rectal como puente en el medio rural sin acceso venoso.",
+      "monitorizacion": "Parasitemia diaria hasta la negativización, glucemia (la hipoglucemia es del paludismo, no del fármaco), hemograma a las 1, 2 y 4 semanas por la hemólisis tardía, y ECG si se usa una ACT con piperaquina (alarga el QT)."
+    },
+    "farmacocinetica": {
+      "absorcion": "La lumefantrina es muy LIPÓFILA y su absorción depende críticamente de la ingesta de grasa; el artemeter se absorbe bien.",
+      "distribucion": "Amplia; el artesunato se convierte con rapidez en dihidroartemisinina, su metabolito activo.",
+      "metabolismo": "Hepático; la lumefantrina por CYP3A4.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "Dihidroartemisinina, 1-2 horas (muy corta, y por eso nunca se usa sola); lumefantrina, 3-6 días.",
+      "ajuste_renal": "No requieren ajuste.",
+      "ajuste_hepatico": "Precaución en la insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, efavirenz, carbamazepina, hierba de San Juan)",
+          "efecto": "Reducen las concentraciones de lumefantrina con riesgo de FRACASO TERAPÉUTICO",
+          "gravedad": "alta",
+          "manejo": "Especialmente relevante en el paciente con VIH o con tuberculosis; valorar otra ACT y seguir la parasitemia de cerca"
+        },
+        {
+          "con": "Fármacos que alargan el QT (quinolonas, macrólidos, antipsicóticos, ondansetrón)",
+          "efecto": "Prolongación aditiva del QT, sobre todo con las ACT que contienen piperaquina",
+          "gravedad": "alta",
+          "manejo": "Revisar la medicación concomitante y realizar un ECG"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (ritonavir, azoles, claritromicina)",
+          "efecto": "Aumentan las concentraciones de lumefantrina y el riesgo de QT largo",
+          "gravedad": "media",
+          "manejo": "Vigilancia con ECG"
+        },
+        {
+          "con": "Comidas grasas",
+          "efecto": "AUMENTAN la absorción de la lumefantrina hasta 16 veces",
+          "gravedad": "baja",
+          "manejo": "Es una interacción BUSCADA: hay que insistir en tomarla con leche entera o comida"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos y dolor abdominal (a menudo indistinguibles de los del propio paludismo)",
+        "Cefalea y mareo",
+        "Astenia",
+        "Alteraciones del sueño"
+      ],
+      "graves": [
+        "ANEMIA HEMOLÍTICA TARDÍA tras artesunato, entre 1 y 3 semanas después, hasta en el 10-20% de los pacientes con parasitemias altas",
+        "Prolongación del QT (sobre todo con piperaquina)",
+        "Reacciones de hipersensibilidad, incluida la anafilaxia (raras)",
+        "Neutropenia y elevación de transaminasas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "Precaución con el QT largo congénito o adquirido",
+      "Primer trimestre del embarazo, salvo en el paludismo grave, donde el beneficio es claramente superior al riesgo"
+    ],
+    "perlas": [
+      "El ARTESUNATO INTRAVENOSO desplazó a la quinina en el paludismo grave porque salva más vidas, y con margen. Es una de las sustituciones terapéuticas mejor demostradas de la medicina tropical, y sin embargo la quinina sigue usándose donde no hay artesunato disponible.",
+      "La MONOTERAPIA con artemisinina está PROSCRITA. Su vida media brevísima deja parásitos residuales expuestos a concentraciones subterapéuticas, que es exactamente la receta para seleccionar resistencia. Siempre en combinación con un fármaco de vida media larga.",
+      "La lumefantrina hay que tomarla CON GRASA. Un paciente con náuseas que no come apenas la absorbe, y el tratamiento fracasa por un motivo que no tiene nada que ver con la resistencia. Leche entera, yogur o una comida completa resuelven el problema.",
+      "La ANEMIA HEMOLÍTICA TARDÍA post-artesunato es una complicación que hay que anticipar: el paciente vuelve a las 2 semanas, curado del paludismo, pálido y cansado, y se le puede diagnosticar cualquier otra cosa. Se explica porque el bazo elimina los hematíes que quedaron con el parásito muerto dentro. Exige control de hemograma programado.",
+      "El artesunato NO TOCA los hipnozoítos. En P. vivax y P. ovale, curar el episodio agudo sin dar primaquina garantiza la recaída meses después.",
+      "El ciclo oral de 3 días DEBE completarse aunque el paciente esté asintomático desde el primer día. La mejoría clínica es espectacularmente rápida y por eso el abandono precoz es un riesgo real que conviene anticipar en la explicación.",
+      "La resistencia parcial a las artemisininas, definida por un aclaramiento parasitario lento, se detectó en el sudeste asiático y ya se ha documentado en el Cuerno de África. Es la amenaza más seria para el control mundial del paludismo."
+    ],
+    "embarazo_lactancia": "En el segundo y tercer trimestres las ACT son de elección. En el PRIMER trimestre se prefería tradicionalmente la quinina más clindamicina, aunque las recomendaciones actuales de la OMS ya admiten el artemeter-lumefantrina. En el paludismo GRAVE se administra artesunato en cualquier trimestre: la enfermedad mata a la madre y al feto. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "PAR-plasmodium-falciparum",
+      "PAR-plasmodium-vivax"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; guías de la OMS sobre el tratamiento del paludismo; ensayos SEAQUAMAT y AQUAMAT"
+  },
+  {
+    "id": "INF-primaquina",
+    "nombre": "Primaquina (y tafenoquina)",
+    "sinonimos": [
+      "8-aminoquinolinas"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antipalúdico",
+    "subclase": "8-aminoquinolina de acción hepática (esquizonticida tisular y gametocida)",
+    "vs_clase": [
+      "**El único que elimina los HIPNOZOÍTOS hepáticos** de P. vivax y P. ovale (cura radical, evita recaídas) y gametocida frente a P. falciparum.",
+      "**HEMÓLISIS en el déficit de G6PD**: determinar G6PD antes de usarla.",
+      "Contraindicada en el embarazo."
+    ],
+    "mecanismo": "Sus metabolitos generan especies reactivas de oxígeno e interfieren en el transporte de electrones de la mitocondria del parásito. Es el ÚNICO grupo farmacológico, junto con la tafenoquina, capaz de destruir los HIPNOZOÍTOS de P. vivax y P. ovale, las formas latentes que permanecen en el hepatocito y causan las recaídas meses o años después. También es GAMETOCIDA frente a P. falciparum, por lo que una dosis única bloquea la transmisión al mosquito. Su gran limitación deriva del mismo mecanismo oxidativo: en el hematíe con déficit de GLUCOSA-6-FOSFATO DESHIDROGENASA, que no puede regenerar glutatión reducido, produce una hemólisis aguda que puede ser grave.",
+    "espectro": "Hipnozoítos hepáticos de P. vivax y P. ovale; gametocitos de todas las especies, incluido P. falciparum. NO tiene actividad relevante sobre las formas eritrocitarias asexuadas: no sirve para tratar el episodio agudo.",
+    "indicaciones": [
+      {
+        "patologia": "CURA RADICAL del paludismo por P. vivax y P. ovale (erradicación de hipnozoítos)",
+        "dosis": "0,25-0,5 mg base/kg al día (habitualmente 15-30 mg al día en el adulto) durante 14 días",
+        "posologia": "Una toma al día con comida",
+        "via": "VO",
+        "dosis_objetivo": "Completar los 14 días: la eficacia depende de la dosis TOTAL acumulada",
+        "nota": "Se administra JUNTO con el tratamiento del episodio agudo (cloroquina o ACT), no en su lugar. Determinar la G6PD ANTES"
+      },
+      {
+        "patologia": "Bloqueo de la TRANSMISIÓN en el paludismo por P. falciparum",
+        "dosis": "0,25 mg base/kg en dosis ÚNICA (unos 15 mg en el adulto)",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "A esta dosis única la OMS la considera segura incluso sin conocer la G6PD, por su uso en campañas de eliminación"
+      },
+      {
+        "patologia": "Cura radical con dosis única (tafenoquina)",
+        "dosis": "Tafenoquina 300 mg en dosis única",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Ventaja evidente de adherencia frente a 14 días de primaquina, pero exige una actividad de G6PD superior al 70% y está contraindicada en el embarazo y en el menor de 16 años"
+      },
+      {
+        "patologia": "Profilaxis terminal en el viajero con exposición prolongada a P. vivax",
+        "dosis": "30 mg al día durante 14 días al regresar",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Indicada cuando la exposición ha sido intensa o prolongada en zona con predominio de vivax"
+      }
+    ],
+    "esquema": {
+      "inicio": "Nunca antes de conocer la actividad de la G6PD. Se inicia junto con el tratamiento del episodio agudo o al terminarlo.",
+      "titulacion": "Dosis fija. En el déficit LEVE de G6PD existe una pauta alternativa de 0,75 mg/kg SEMANAL durante 8 semanas con control del hemograma.",
+      "duracion": "14 días (o dosis única en el caso de la tafenoquina y del bloqueo de transmisión).",
+      "fin": "Al completar el ciclo. La eficacia depende de la dosis total, así que un ciclo interrumpido no protege de la recaída.",
+      "via": "Oral, con alimentos para reducir la intolerancia digestiva.",
+      "monitorizacion": "G6PD antes de empezar. Durante el tratamiento: color de la orina, hemoglobina y síntomas de hemólisis. Advertir al paciente de que consulte si la orina se oscurece."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Amplia, con buena penetración hepática.",
+      "metabolismo": "Hepático por CYP2D6 a metabolitos ACTIVOS: el metabolizador lento del CYP2D6 puede sufrir un fracaso terapéutico con recaída pese a un tratamiento correcto.",
+      "eliminacion": "Renal.",
+      "vida_media": "4-6 horas la primaquina; unos 15 DÍAS la tafenoquina, lo que permite la dosis única pero también prolonga el riesgo hemolítico.",
+      "ajuste_renal": "Precaución en la insuficiencia renal.",
+      "ajuste_hepatico": "Precaución en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Otros fármacos oxidantes (sulfamidas, nitrofurantoína, dapsona, rasburicasa)",
+          "efecto": "HEMÓLISIS aditiva en el paciente con déficit de G6PD",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Inhibidores del CYP2D6 (fluoxetina, paroxetina, bupropión)",
+          "efecto": "Bloquean la formación de los metabolitos activos: FRACASO de la cura radical",
+          "gravedad": "media",
+          "manejo": "Explica recaídas de P. vivax pese a un tratamiento aparentemente correcto"
+        },
+        {
+          "con": "Quinacrina y antipalúdicos relacionados",
+          "efecto": "Aumento de la toxicidad",
+          "gravedad": "media",
+          "manejo": "Evitar la asociación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas, náuseas y dolor abdominal (mejoran tomándola con comida)",
+        "Cefalea",
+        "Sabor metálico"
+      ],
+      "graves": [
+        "HEMÓLISIS AGUDA en el déficit de G6PD, potencialmente grave",
+        "METAHEMOGLOBINEMIA, sobre todo en el déficit de NADH-metahemoglobina reductasa",
+        "Agranulocitosis y leucopenia (raras)",
+        "Arritmias (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "DÉFICIT GRAVE de G6PD",
+      "EMBARAZO (no se puede conocer el estado de G6PD del feto): se difiere la cura radical y se hace profilaxis semanal con cloroquina hasta el parto",
+      "Lactancia si el lactante no tiene G6PD conocida",
+      "Menor de 6 meses",
+      "Enfermedades que cursan con granulocitopenia (artritis reumatoide activa, lupus)"
+    ],
+    "perlas": [
+      "Es el único fármaco, junto con la tafenoquina, que CURA de verdad el paludismo por vivax. Todos los demás tratan el episodio; solo las 8-aminoquinolinas vacían el reservorio hepático. Sin ellas, el paciente recaerá.",
+      "La G6PD ANTES DE PRESCRIBIR. No es una recomendación de buena práctica, es una condición: en el paciente deficitario, la primaquina puede desencadenar una hemólisis grave. Es especialmente relevante en varones de origen mediterráneo, africano o del sudeste asiático.",
+      "La distinción entre RECAÍDA, RECRUDESCENCIA y REINFECCIÓN ordena todo el manejo: la recaída viene del hipnozoíto hepático (solo vivax y ovale) y se previene con primaquina; la recrudescencia viene de formas eritrocitarias que sobrevivieron a un tratamiento insuficiente; la reinfección viene de una nueva picadura.",
+      "En el EMBARAZO está contraindicada porque no se puede saber si el feto tiene déficit de G6PD. La conducta es diferir la cura radical y mantener profilaxis semanal con cloroquina hasta después del parto.",
+      "El metabolizador LENTO del CYP2D6 puede recaer pese a haber tomado los 14 días completos: no es incumplimiento del paciente, es farmacogenética, y conviene tenerlo presente antes de atribuirle la culpa.",
+      "La TAFENOQUINA resuelve el problema de la adherencia de 14 días con una sola dosis, pero su vida media de dos semanas significa que, si hay hemólisis, no se puede retirar el fármaco. Exige un umbral de G6PD más exigente.",
+      "Los 14 días son un problema real de adherencia: el paciente ya está curado del episodio agudo y no entiende para qué sigue tomando pastillas. Explicar el hipnozoíto en una frase mejora el cumplimiento más que cualquier recordatorio."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADA en el embarazo por el riesgo de hemólisis en un feto potencialmente deficitario en G6PD. En la lactancia, solo si se conoce que el lactante no tiene déficit. La alternativa durante la gestación es la profilaxis semanal con cloroquina hasta el parto.",
+    "micro_relacionado": [
+      "PAR-plasmodium-falciparum",
+      "PAR-plasmodium-vivax"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; guías de la OMS sobre el tratamiento del paludismo y sobre el uso de primaquina en zonas de baja transmisión"
+  }
+]

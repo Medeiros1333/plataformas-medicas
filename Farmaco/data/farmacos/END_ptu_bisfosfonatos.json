@@ -1,0 +1,292 @@
+[
+  {
+    "id": "END-propiltiouracilo",
+    "nombre": "Propiltiouracilo",
+    "sinonimos": [
+      "PTU"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antitiroideo de síntesis (tionamida)",
+    "subclase": "Tionamida con inhibición de la desyodación periférica",
+    "vs_clase": [
+      "**De elección en el PRIMER TRIMESTRE del embarazo**: el tiamazol produce embriopatía (aplasia cutis, atresia de coanas o esófago). En el 2.º trimestre se vuelve a tiamazol.",
+      "**De elección en la CRISIS TIROTÓXICA**: además de bloquear la síntesis, **inhibe la conversión periférica de T4 a T3**.",
+      "**HEPATOTOXICIDAD GRAVE (necrosis hepática fulminante)**, mucho más que con tiamazol: no es de primera línea fuera de esas dos situaciones.",
+      "**Vida media corta: 2-3 tomas al día** (tiamazol, una)."
+    ],
+    "mecanismo": "Inhibe la peroxidasa tiroidea, bloqueando la organificación del yodo y el acoplamiento de yodotirosinas. **A diferencia del tiamazol, inhibe también la 5'-desyodasa tipo 1 periférica**, reduciendo rápidamente la T3 circulante. No actúa sobre la hormona ya almacenada (efecto clínico en 3-6 semanas).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertiroidismo en el primer trimestre del embarazo (o en la mujer que planifica gestación)",
+        "dosis": "50-100 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Dosis mínima eficaz; objetivo T4 libre en el límite alto de la normalidad. Pasar a tiamazol en el 2.º trimestre"
+      },
+      {
+        "patologia": "Crisis tirotóxica",
+        "dosis": "500-1.000 mg de carga, después 250 mg",
+        "posologia": "Carga y luego cada 4 h",
+        "via": "VO (o por sonda nasogástrica o vía rectal)",
+        "nota": "Con propranolol, hidrocortisona y, 1 h después del PTU, yodo (Lugol)"
+      },
+      {
+        "patologia": "Hipertiroidismo con intolerancia o reacción no grave al tiamazol",
+        "dosis": "100 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "No usar si la reacción al tiamazol fue agranulocitosis"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma y función hepática basales. 50-100 mg cada 8 h.",
+      "titulacion": "T4L y T3 cada 4-6 semanas; reducir al alcanzar eutiroidismo.",
+      "duracion": "Embarazo: hasta el 2.º trimestre (luego tiamazol). Crisis: días, hasta estabilizar.",
+      "fin": "**Suspender inmediatamente ante fiebre u odinofagia (descartar agranulocitosis), ictericia, coluria o elevación de transaminasas.**",
+      "via": "VO (rectal en la crisis si no hay vía oral).",
+      "monitorizacion": "Función tiroidea cada 4-6 semanas; **transaminasas periódicas**; hemograma si fiebre o dolor de garganta."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y completa.",
+      "distribucion": "**Unión a proteínas del 80% (atraviesa menos la placenta y pasa poco a la leche).**",
+      "metabolismo": "Hepático (glucuronidación).",
+      "eliminacion": "Renal.",
+      "vida_media": "**1-2 h** (se concentra en el tiroides y actúa más).",
+      "ajuste_renal": "Reducir dosis en insuficiencia renal grave.",
+      "ajuste_hepatico": "**Evitar en hepatopatía.**",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Al normalizar el tiroides cambia la sensibilidad a la warfarina",
+          "gravedad": "media",
+          "manejo": "INR más frecuente durante la corrección"
+        },
+        {
+          "con": "Digoxina y betabloqueantes",
+          "efecto": "Al alcanzar eutiroidismo aumentan sus niveles",
+          "gravedad": "baja",
+          "manejo": "Reducir dosis según respuesta"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema, prurito, urticaria",
+        "Artralgias",
+        "Alteración del gusto, náuseas"
+      ],
+      "graves": [
+        "**Hepatotoxicidad grave (necrosis hepática, trasplante, muerte)**",
+        "**Agranulocitosis** (0,2-0,5%, primeros 3 meses)",
+        "Vasculitis ANCA-positiva (más que con tiamazol)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía previa",
+      "Antecedente de agranulocitosis por tionamidas",
+      "Fuera del primer trimestre del embarazo y de la crisis tirotóxica: preferir tiamazol"
+    ],
+    "perlas": [
+      "**Regla: PTU en el 1.er trimestre y en la tormenta tiroidea; tiamazol en todo lo demás.**",
+      "**En la crisis tirotóxica, el yodo se da al menos 1 h DESPUÉS del PTU** (para que no sirva de sustrato a nueva síntesis)."
+    ],
+    "embarazo_lactancia": "De elección en el 1.er trimestre. Compatible con la lactancia (preferible a dosis bajas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38; Harrison 20.ª ed., cap. de hipertiroidismo"
+  },
+  {
+    "id": "END-acido-zoledronico",
+    "nombre": "Ácido zoledrónico",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Bisfosfonato",
+    "subclase": "Bisfosfonato nitrogenado intravenoso de máxima potencia",
+    "vs_clase": [
+      "**Una sola infusión IV AL AÑO** en osteoporosis (5 mg): evita los problemas de adherencia y tolerancia digestiva de los orales.",
+      "**El más potente de la clase**: también trata la **hipercalcemia tumoral** (4 mg) y previene eventos óseos en metástasis y mieloma.",
+      "**Reacción de fase aguda** tras la primera infusión (fiebre, mialgias, síntomas gripales en 1 de cada 3 pacientes).",
+      "**Nefrotóxico**: contraindicado con FG <35 (osteoporosis); infundir en ≥15 min y con buena hidratación.",
+      "**Única evidencia de reducir mortalidad tras fractura de cadera** (HORIZON-RFT)."
+    ],
+    "mecanismo": "Se fija a la hidroxiapatita en las zonas de remodelado; al ser fagocitado por el osteoclasto inhibe la farnesil pirofosfato sintasa, lo que altera la prenilación de proteínas y provoca la apoptosis del osteoclasto. Reduce la resorción ósea durante más de un año por su gran afinidad por el hueso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Osteoporosis posmenopáusica o masculina (incluida tras fractura de cadera)",
+        "dosis": "5 mg",
+        "posologia": "Infusión de ≥15 min, una vez al año",
+        "via": "IV",
+        "nota": "3 años (6 si alto riesgo) y valorar descanso terapéutico"
+      },
+      {
+        "patologia": "Hipercalcemia tumoral",
+        "dosis": "4 mg",
+        "posologia": "Dosis única en ≥15 min; repetir a los 7 días si no responde",
+        "via": "IV",
+        "nota": "Tras hidratación con suero salino; efecto en 2-4 días"
+      },
+      {
+        "patologia": "Prevención de eventos óseos en metástasis óseas y mieloma",
+        "dosis": "4 mg",
+        "posologia": "Cada 3-4 semanas (o cada 12 semanas)",
+        "via": "IV",
+        "nota": "Ajustar a FG; revisión dental previa"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Corregir antes el déficit de vitamina D y calcio** (riesgo de hipocalcemia). FG, calcio y revisión dental. Paracetamol para la reacción de fase aguda.",
+      "titulacion": "No se titula.",
+      "duracion": "Osteoporosis: 3 dosis anuales (6 en alto riesgo) y reevaluar.",
+      "fin": "Descanso terapéutico tras 3-6 años si el riesgo de fractura se ha reducido.",
+      "via": "IV, infusión en ≥15 min, con hidratación previa.",
+      "monitorizacion": "FG antes de cada infusión, calcio, densitometría a los 2-3 años."
+    },
+    "farmacocinetica": {
+      "absorcion": "No aplica (IV).",
+      "distribucion": "**El 40-60% se fija al hueso** de forma prolongada (años).",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal, inalterado (la fracción no fijada al hueso).",
+      "vida_media": "Plasmática 146 h; ósea de años.",
+      "ajuste_renal": "**Osteoporosis: contraindicado con FG <35.** Oncología: reducir dosis según FG.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos, diuréticos de asa",
+          "efecto": "Hipocalcemia aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar calcio"
+        },
+        {
+          "con": "Nefrotóxicos (AINE, contrastes)",
+          "efecto": "Mayor riesgo de fracaso renal",
+          "gravedad": "media",
+          "manejo": "Evitar en días próximos a la infusión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Reacción de fase aguda**: fiebre, mialgias, artralgias, cefalea (1-3 días tras la 1.ª infusión)",
+        "Hipocalcemia leve",
+        "Náuseas"
+      ],
+      "graves": [
+        "Fracaso renal agudo",
+        "**Osteonecrosis de mandíbula** (sobre todo en dosis oncológicas)",
+        "Fractura atípica de fémur (uso prolongado)",
+        "Uveítis o escleritis",
+        "Fibrilación auricular"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <35 mL/min (osteoporosis)",
+      "Hipocalcemia no corregida",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Dar paracetamol tras la infusión** reduce la reacción de fase aguda; avisar al paciente de que no es una infección.",
+      "La reacción suele aparecer solo con la primera dosis."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., caps. de osteoporosis e hipercalcemia"
+  },
+  {
+    "id": "END-risedronato",
+    "nombre": "Risedronato",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Bisfosfonato",
+    "subclase": "Bisfosfonato nitrogenado oral, semanal o mensual",
+    "vs_clase": [
+      "**Evidencia en reducción de fractura vertebral y de CADERA** (como alendronato) y en la **osteoporosis inducida por glucocorticoides**.",
+      "**Algo mejor tolerancia esofágica** que el alendronato en algunos estudios, y existe una **formulación gastrorresistente que puede tomarse tras el desayuno**.",
+      "**Unión al hueso menos intensa que el alendronato**: el efecto se pierde antes al suspenderlo (útil si se prevé descanso terapéutico corto)."
+    ],
+    "mecanismo": "Inhibe la farnesil pirofosfato sintasa del osteoclasto, reduciendo la resorción ósea. Como todos los bisfosfonatos orales, su absorción es mínima (<1%) y muy sensible a la comida y al calcio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Osteoporosis posmenopáusica y masculina",
+        "dosis": "35 mg (semanal) o 75 mg dos días seguidos al mes, o 150 mg mensual",
+        "posologia": "Cada 7 días (o mensual)",
+        "via": "VO",
+        "nota": "En ayunas, con un vaso de agua, 30 min antes de comer, sin tumbarse"
+      },
+      {
+        "patologia": "Prevención y tratamiento de la osteoporosis por glucocorticoides (≥7,5 mg/día de prednisona ≥3 meses)",
+        "dosis": "35 mg",
+        "posologia": "Cada 7 días",
+        "via": "VO",
+        "nota": "Iniciar a la vez que el corticoide si se prevé uso prolongado"
+      },
+      {
+        "patologia": "Enfermedad de Paget ósea",
+        "dosis": "30 mg",
+        "posologia": "Cada 24 h durante 2 meses",
+        "via": "VO",
+        "nota": "Control con fosfatasa alcalina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Calcio y vitamina D suficientes; FG; revisión dental si hay factores de riesgo.",
+      "titulacion": "No se titula.",
+      "duracion": "5 años y reevaluar descanso terapéutico (10 si alto riesgo).",
+      "fin": "Descanso terapéutico de 1-2 años si el riesgo de fractura es bajo.",
+      "via": "VO en ayunas (salvo la forma gastrorresistente).",
+      "monitorizacion": "Densitometría a los 2-3 años, calcio y vitamina D."
+    },
+    "farmacocinetica": {
+      "absorcion": "**<1%; anulada por comida, café, calcio o antiácidos.**",
+      "distribucion": "50% se fija al hueso.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "Ósea prolongada (menos que alendronato).",
+      "ajuste_renal": "No usar con FG <30.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Calcio, hierro, antiácidos, leche",
+          "efecto": "Impiden su absorción",
+          "gravedad": "media",
+          "manejo": "Separar al menos 30 min (mejor 2 h)"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Más irritación gastroesofágica",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, dolor abdominal",
+        "Mialgias y artralgias"
+      ],
+      "graves": [
+        "Esofagitis y úlcera esofágica",
+        "Osteonecrosis de mandíbula (rara)",
+        "Fractura atípica de fémur (uso prolongado)",
+        "Hipocalcemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alteraciones esofágicas que retrasan el vaciamiento (acalasia, estenosis)",
+      "Imposibilidad de mantenerse erguido 30 min",
+      "Hipocalcemia",
+      "FG <30",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Si el paciente no puede cumplir el ayuno estricto, la forma gastrorresistente de 35 mg se toma justo después del desayuno.**"
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., cap. de osteoporosis"
+  }
+]

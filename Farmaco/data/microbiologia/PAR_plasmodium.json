@@ -1,0 +1,158 @@
+[
+  {
+    "id": "PAR-plasmodium-falciparum",
+    "nombre": "Plasmodium falciparum",
+    "grupo": "PAR",
+    "nivel": 1,
+    "clasificacion": "PROTOZOO apicomplejo intracelular, transmitido por la picadura del mosquito ANOPHELES hembra; agente del paludismo grave",
+    "morfologia_tincion": "Diagnóstico por frotis y GOTA GRUESA con tinción de GIEMSA. Los rasgos que identifican a P. falciparum son: anillos finos y pequeños con doble cromatina (forma en auriculares), hematíes con VARIOS anillos en su interior, formas en bandera apoyadas en el borde del hematíe, PARASITEMIA ALTA que afecta a hematíes de cualquier edad, ausencia de esquizontes en sangre periférica (quedan secuestrados en el endotelio) y gametocitos en forma de PLÁTANO o media luna, que son patognomónicos.",
+    "mecanismo_patogenia": [
+      "El esporozoíto inoculado por el mosquito alcanza el HÍGADO, donde se multiplica sin dar síntomas (fase preeritrocitaria). P. falciparum NO forma hipnozoítos: no produce recaídas tardías.",
+      "Los merozoítos liberados invaden los HEMATÍES y se multiplican en ciclos de 48 horas, cuya rotura sincrónica explica la fiebre terciana.",
+      "CITOADHERENCIA: la proteína PfEMP1 expresada en la superficie del hematíe parasitado se une a receptores endoteliales (CD36, ICAM-1) y SECUESTRA el hematíe en la microcirculación. Este es el mecanismo central de todas las complicaciones graves y la razón de que los esquizontes no se vean en sangre periférica.",
+      "ROSETTING: los hematíes parasitados se agrupan con hematíes sanos, agravando la obstrucción capilar.",
+      "Invade hematíes de CUALQUIER EDAD, lo que permite parasitemias muy altas, a diferencia de P. vivax (solo reticulocitos) y P. malariae (solo hematíes viejos).",
+      "La obstrucción microvascular produce hipoxia tisular, ACIDOSIS LÁCTICA y disfunción de órganos: cerebro (paludismo cerebral), riñón, pulmón y placenta.",
+      "La hemólisis y la diseritropoyesis causan anemia; el consumo de glucosa por el parásito y el hiperinsulinismo inducido por la quinina causan HIPOGLUCEMIA."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Paludismo no complicado",
+        "clinica": "Fiebre (a menudo IRREGULAR, no la terciana clásica de los libros), escalofríos, cefalea, mialgias, náuseas y malestar general en un viajero procedente de zona endémica. Puede simular una gripe o una gastroenteritis.",
+        "lesiones": "Anemia, trombocitopenia (muy característica), hiperbilirrubinemia leve, esplenomegalia.",
+        "clave": "FIEBRE EN UN VIAJERO PROCEDENTE DE ZONA ENDÉMICA ES PALUDISMO HASTA QUE SE DEMUESTRE LO CONTRARIO. La trombocitopenia con fiebre en ese contexto es un dato de alarma. El periodo de incubación mínimo es de 7 días: una fiebre en la primera semana de viaje no es paludismo."
+      },
+      {
+        "cuadro": "Paludismo GRAVE (criterios de la OMS)",
+        "clinica": "Alteración de la conciencia o convulsiones, dificultad respiratoria por acidosis, shock, sangrado, ictericia con disfunción de otro órgano, oliguria.",
+        "lesiones": "Parasitemia superior al 2-5%, hipoglucemia menor de 40 mg/dL, acidosis metabólica, anemia grave, insuficiencia renal aguda, edema pulmonar no cardiogénico, coagulación intravascular diseminada.",
+        "clave": "Cualquiera de estos criterios convierte el cuadro en una URGENCIA VITAL que exige artesunato INTRAVENOSO y unidad de cuidados intensivos, no tratamiento oral."
+      },
+      {
+        "cuadro": "Paludismo CEREBRAL",
+        "clinica": "Coma no atribuible a otra causa, convulsiones repetidas, postura de descerebración; en el niño, el cuadro puede instaurarse en horas.",
+        "lesiones": "Secuestro masivo de hematíes parasitados en los capilares cerebrales; hemorragias retinianas y retinopatía palúdica en el fondo de ojo.",
+        "clave": "Mortalidad del 15-20% incluso con tratamiento óptimo, y secuelas neurológicas en el niño superviviente. La hipoglucemia coexiste con frecuencia y hay que descartarla siempre antes de atribuir el coma al parásito."
+      },
+      {
+        "cuadro": "Paludismo en el EMBARAZO",
+        "clinica": "Cuadro más grave, con hipoglucemia y edema pulmonar más frecuentes; a menudo con parasitemia periférica baja.",
+        "lesiones": "Secuestro placentario de hematíes parasitados mediado por la unión de PfEMP1 al condroitín sulfato A de la placenta.",
+        "clave": "Explica el bajo peso al nacer, el aborto y la muerte fetal. Es una de las razones por las que la quimioprofilaxis en la gestante viajera es innegociable."
+      },
+      {
+        "cuadro": "Fiebre biliosa hemoglobinúrica",
+        "clinica": "Hemólisis masiva intravascular con orinas oscuras (color coca-cola) e insuficiencia renal.",
+        "lesiones": "Hemoglobinuria y necrosis tubular aguda.",
+        "clave": "Complicación clásica asociada al uso previo de quinina en el paciente semiinmune."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es la ÚNICA especie que mata de forma habitual, y la responsable de casi toda la mortalidad palúdica mundial, sobre todo en niños africanos menores de 5 años.",
+      "NO tiene hipnozoítos hepáticos: no recae. Lo que sí puede hacer es RECRUDECER si el tratamiento fue insuficiente, que no es lo mismo.",
+      "Invade hematíes de cualquier edad, lo que le permite alcanzar parasitemias altísimas.",
+      "Una GOTA GRUESA NEGATIVA NO DESCARTA el diagnóstico: hay que repetirla cada 12-24 horas hasta tres veces antes de excluirlo.",
+      "La resistencia a la CLOROQUINA es prácticamente universal en P. falciparum, lo que convierte a los derivados de la ARTEMISININA en el tratamiento de elección en todo el mundo.",
+      "La monoterapia con artemisininas está PROSCRITA: siempre en combinación (ACT), para evitar la aparición de resistencia. Ya hay resistencia parcial documentada en el sudeste asiático y, más recientemente, en África oriental.",
+      "El rasgo DREPANOCÍTICO, la talasemia, el déficit de G6PD y la ausencia del antígeno Duffy (esta última frente a P. vivax) son ejemplos clásicos de selección genética por presión del paludismo.",
+      "La profilaxis NUNCA es del 100%: un viajero que ha tomado correctamente la quimioprofilaxis y presenta fiebre puede tener paludismo igualmente."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre periférica (EDTA), extraída idealmente durante el pico febril aunque no es imprescindible.",
+      "pruebas": [
+        "GOTA GRUESA: técnica de referencia para la detección y para cuantificar la parasitemia (mayor sensibilidad por concentración)",
+        "FROTIS FINO teñido con Giemsa: identifica la ESPECIE y calcula el porcentaje de hematíes parasitados",
+        "Pruebas rápidas de detección de antígeno (HRP2 para P. falciparum, LDH para el resto): útiles y rápidas, pero HRP2 permanece positiva semanas tras la curación y algunas cepas han perdido el gen hrp2",
+        "PCR: la más sensible, útil para especies mixtas y parasitemias bajas, pero no disponible con la rapidez que exige la decisión terapéutica",
+        "Repetir la gota gruesa cada 12-24 horas hasta 3 veces antes de descartar el diagnóstico"
+      ],
+      "claves": "La PARASITEMIA debe cuantificarse siempre y repetirse a diario: es el parámetro que define la gravedad y el que permite comprobar la respuesta al tratamiento. La identificación de la especie no es un detalle académico: decide si hace falta primaquina y si el caso es potencialmente mortal."
+    },
+    "tratamiento": {
+      "eleccion": "NO COMPLICADO: terapia combinada con artemisinina (ACT), de elección ARTEMETER-LUMEFANTRINA por vía oral durante 3 días. GRAVE: ARTESUNATO INTRAVENOSO (2,4 mg/kg a las 0, 12 y 24 horas y después cada 24 horas), seguido de un ciclo completo de ACT oral cuando el paciente tolere la vía oral.",
+      "alternativas": "Atovacuona-proguanil o dihidroartemisinina-piperaquina en el no complicado. Quinina intravenosa más doxiciclina o clindamicina si no se dispone de artesunato (peor tolerada y con más hipoglucemia).",
+      "resistencias": "Resistencia a cloroquina prácticamente universal; resistencia parcial a artemisininas descrita en el sudeste asiático y en el Cuerno de África. La monoterapia con artemisinina está prohibida por este motivo.",
+      "duracion": "3 días de ACT en el no complicado. En el grave, artesunato intravenoso al menos 24 horas y hasta que tolere la vía oral, seguido siempre de un ciclo completo de ACT.",
+      "notas": "Vigilar la ANEMIA HEMOLÍTICA TARDÍA tras artesunato, que aparece entre 1 y 3 semanas después y exige control del hemograma. Corregir la hipoglucemia. NO usar corticoides en el paludismo cerebral: empeoran el pronóstico. La exanguinotransfusión ya no se recomienda de rutina."
+    },
+    "farmacos_relacionados": [
+      "INF-artemisininas",
+      "INF-atovacuona-proguanil",
+      "INF-primaquina"
+    ],
+    "fuente": "Murray 9.ª ed., sección de parasitología; guías de la OMS sobre el tratamiento del paludismo; Harrison 20.ª ed., cap. de malaria"
+  },
+  {
+    "id": "PAR-plasmodium-vivax",
+    "nombre": "Plasmodium vivax, ovale, malariae y knowlesi",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "Protozoos apicomplejos transmitidos por Anopheles; especies palúdicas NO falciparum",
+    "morfologia_tincion": "P. VIVAX y P. OVALE: hematíes AGRANDADOS y deformados con granulaciones de Schüffner, anillos grandes y ameboides, esquizontes visibles en sangre periférica; P. ovale da hematíes ovalados con extremo fimbriado. P. MALARIAE: hematíes de tamaño NORMAL o pequeño, trofozoítos en BANDA ECUATORIAL y esquizontes en ROSETA de 6-12 merozoítos. P. KNOWLESI: morfológicamente indistinguible de P. malariae, lo que constituye un problema diagnóstico grave.",
+    "mecanismo_patogenia": [
+      "P. VIVAX y P. OVALE forman HIPNOZOÍTOS: formas latentes que permanecen en el hepatocito durante meses o años y son la causa de las RECAÍDAS tardías. Es la diferencia fundamental frente a P. falciparum.",
+      "P. vivax invade únicamente RETICULOCITOS, y P. malariae solo hematíes viejos, por lo que la parasitemia es baja y el cuadro rara vez es mortal.",
+      "P. vivax necesita el antígeno DUFFY del hematíe para invadirlo, y su ausencia en gran parte de la población de África occidental explica que allí esta especie sea casi inexistente.",
+      "P. MALARIAE produce ciclos de 72 horas (fiebre cuartana) y puede persistir décadas a bajo nivel, causando parasitemias crónicas y un síndrome NEFRÓTICO por depósito de inmunocomplejos.",
+      "P. KNOWLESI es una zoonosis de macacos del sudeste asiático, con ciclo de 24 HORAS (fiebre cotidiana), replicación rapidísima y capacidad de causar enfermedad GRAVE como P. falciparum.",
+      "P. vivax puede producir enfermedad grave, sobre todo por afectación respiratoria y rotura esplénica, aunque con menos frecuencia que P. falciparum."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Paludismo terciano benigno (P. vivax y P. ovale)",
+        "clinica": "Fiebre cada 48 horas con escalofrío, pico febril y sudoración profusa, más sincronizada que en falciparum; esplenomegalia y anemia.",
+        "lesiones": "Anemia hemolítica, esplenomegalia (con riesgo de ROTURA ESPLÉNICA, complicación clásica de P. vivax).",
+        "clave": "Cursa con parasitemias bajas y rara vez mata, pero RECAE meses después si no se erradican los hipnozoítos hepáticos."
+      },
+      {
+        "cuadro": "RECAÍDA tardía",
+        "clinica": "Nuevo episodio febril semanas o meses después del cuadro inicial en un paciente ya tratado y que no ha vuelto a viajar.",
+        "lesiones": "Reactivación de los hipnozoítos hepáticos.",
+        "clave": "Es la razón de ser de la PRIMAQUINA (o la tafenoquina): el tratamiento del episodio agudo no toca los hipnozoítos, y sin la cura radical el paciente recaerá."
+      },
+      {
+        "cuadro": "Paludismo cuartano y nefropatía (P. malariae)",
+        "clinica": "Fiebre cada 72 horas; posibilidad de parasitemia crónica de muy bajo nivel durante décadas.",
+        "lesiones": "Síndrome NEFRÓTICO por glomerulonefritis por inmunocomplejos, de mal pronóstico y mala respuesta al tratamiento.",
+        "clave": "Se ha transmitido por transfusión décadas después de la infección original. Cursa sin hipnozoítos: sus reapariciones son recrudescencias, no recaídas."
+      },
+      {
+        "cuadro": "Paludismo por P. knowlesi",
+        "clinica": "Fiebre COTIDIANA en un viajero procedente de la selva del sudeste asiático (Borneo, Malasia), con deterioro rápido.",
+        "lesiones": "Puede producir hiperparasitemia, insuficiencia renal, distrés respiratorio y shock.",
+        "clave": "Se confunde con P. malariae en el microscopio, y esa confusión es peligrosa: P. malariae es benigno y P. knowlesi puede matar en días. Ante fiebre cuartana o cotidiana procedente del sudeste asiático hay que tratarlo como grave y confirmar por PCR."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La distinción práctica que importa: P. VIVAX y P. OVALE tienen HIPNOZOÍTOS y requieren cura radical con primaquina; P. FALCIPARUM y P. MALARIAE no.",
+      "Antes de dar PRIMAQUINA hay que medir la G6PD: en el paciente deficitario produce una hemólisis grave. Es una determinación obligatoria, no opcional.",
+      "P. vivax es la especie palúdica más extendida geográficamente fuera de África, y la más frecuente en América Latina y en Asia.",
+      "La ausencia del antígeno DUFFY protege frente a P. vivax y explica su rareza en África occidental: es uno de los ejemplos más citados de resistencia genética a un patógeno.",
+      "P. knowlesi es un recordatorio de que el paludismo también es una zoonosis, y de que la identificación morfológica tiene límites.",
+      "Ha aparecido resistencia de P. vivax a la cloroquina en Oceanía e Indonesia, donde el tratamiento de elección pasa a ser una ACT."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre periférica en EDTA.",
+      "pruebas": [
+        "Gota gruesa y frotis con Giemsa, buscando granulaciones de Schüffner, hematíes agrandados y esquizontes en sangre periférica",
+        "Pruebas rápidas basadas en LDH del parásito (la HRP2 solo detecta P. falciparum)",
+        "PCR: imprescindible para confirmar P. knowlesi y para las infecciones mixtas",
+        "Determinación de G6PD ANTES de indicar primaquina o tafenoquina"
+      ],
+      "claves": "Una infección MIXTA con P. falciparum es frecuente y se pasa por alto con facilidad: si hay cualquier duda, hay que tratar como falciparum, que es la especie que mata."
+    },
+    "tratamiento": {
+      "eleccion": "Episodio agudo: CLOROQUINA 25 mg base/kg repartidos en 3 días, o una ACT donde haya resistencia. CURA RADICAL de las recaídas (solo vivax y ovale): PRIMAQUINA 0,25-0,5 mg/kg al día durante 14 días, tras comprobar la G6PD.",
+      "alternativas": "Artemeter-lumefantrina o dihidroartemisinina-piperaquina en zonas con vivax resistente a cloroquina. TAFENOQUINA en dosis única de 300 mg como alternativa a la primaquina para la cura radical, con las mismas precauciones respecto a la G6PD.",
+      "resistencias": "P. vivax resistente a cloroquina en Papúa Nueva Guinea, Indonesia y focos de Oceanía. La resistencia de P. vivax a la primaquina es rara pero existe.",
+      "duracion": "3 días para el episodio agudo; 14 días de primaquina para la cura radical.",
+      "notas": "En el déficit LEVE de G6PD puede usarse primaquina 0,75 mg/kg SEMANAL durante 8 semanas con control del hemograma; en el déficit grave está contraindicada. La primaquina también es gametocida frente a P. falciparum y se emplea en dosis única para bloquear la transmisión."
+    },
+    "farmacos_relacionados": [
+      "INF-artemisininas",
+      "INF-cloroquina-hidroxicloroquina",
+      "INF-primaquina"
+    ],
+    "fuente": "Murray 9.ª ed., sección de parasitología; guías de la OMS sobre el tratamiento del paludismo"
+  }
+]

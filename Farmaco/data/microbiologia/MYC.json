@@ -1,0 +1,235 @@
+[
+  {
+    "id": "MYC-mycobacterium-tuberculosis",
+    "nombre": "Mycobacterium tuberculosis",
+    "grupo": "MYC",
+    "nivel": 1,
+    "clasificacion": "Bacilo ÁCIDO-ALCOHOL RESISTENTE (BAAR), aerobio estricto, no esporulado, inmóvil, de crecimiento muy lento (tiempo de duplicación 15-20 h)",
+    "morfologia_tincion": "Bacilo fino, ligeramente curvado. NO se tiñe con Gram por el alto contenido en lípidos de su pared: requiere tinción de Ziehl-Neelsen o auramina-rodamina (fluorescencia), donde aparece como bacilo rojo sobre fondo azul. La pared, riquísima en ácidos micólicos, es la responsable de la ácido-alcohol resistencia.",
+    "mecanismo_patogenia": [
+      "Pared rica en ácidos micólicos, arabinogalactano y factor cordón (trehalosa-6,6'-dimicolato): confiere resistencia a la desecación, a los desinfectantes y a la digestión enzimática del macrófago. Es también la diana de isoniazida (ácidos micólicos) y etambutol (arabinogalactano).",
+      "Supervivencia DENTRO del macrófago alveolar: inhibe la fusión fagosoma-lisosoma y la acidificación del fagosoma. La defensa depende por completo de la inmunidad CELULAR (linfocitos T CD4, interferón gamma, TNF-alfa).",
+      "Formación de GRANULOMA con necrosis caseosa central: es a la vez el mecanismo de contención del huésped y la lesión característica. El bacilo persiste vivo pero latente en su interior durante décadas.",
+      "El bloqueo del TNF-alfa (fármacos anti-TNF) o la caída de los CD4 (VIH) desorganizan el granuloma y REACTIVAN la infección latente: de ahí el cribado obligatorio antes de iniciar biológicos.",
+      "Transmisión por vía aérea mediante núcleos goticulares (gotas de Wells) de menos de 5 µm que alcanzan el alvéolo; la dosis infectante es de muy pocos bacilos."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Primoinfección tuberculosa",
+        "clinica": "Habitualmente asintomática o con síntomas inespecíficos; en el niño puede dar fiebre y eritema nodoso.",
+        "lesiones": "Complejo de Ghon: foco parenquimatoso subpleural en campos medios/inferiores + linfangitis + adenopatía hiliar. Al calcificarse constituye el complejo de Ranke.",
+        "clave": "En el 90% de los inmunocompetentes la infección queda contenida como infección latente, sin enfermedad."
+      },
+      {
+        "cuadro": "Tuberculosis pulmonar posprimaria (de reactivación)",
+        "clinica": "Tos de más de 2-3 semanas, expectoración, hemoptisis, fiebre vespertina, SUDORACIÓN NOCTURNA profusa y pérdida de peso, de instauración insidiosa durante semanas o meses.",
+        "lesiones": "Infiltrado y CAVITACIÓN en los SEGMENTOS APICALES y POSTERIORES de los lóbulos superiores (donde la presión de oxígeno es mayor, y el bacilo es aerobio estricto). Diseminación broncógena a otras zonas.",
+        "clave": "La localización apical en la radiografía junto a la clínica constitucional de semanas es el patrón que obliga a aislar al paciente y solicitar baciloscopias."
+      },
+      {
+        "cuadro": "Tuberculosis miliar y diseminada",
+        "clinica": "Fiebre prolongada, síndrome constitucional grave, hepatoesplenomegalia; más frecuente en el inmunodeprimido, el niño pequeño y el anciano.",
+        "lesiones": "Micronódulos de 1-3 mm distribuidos uniformemente por ambos campos pulmonares («en grano de mijo»); tubérculos coroideos en el fondo de ojo, muy específicos.",
+        "clave": "El fondo de ojo puede dar el diagnóstico en minutos: los tubérculos coroideos son prácticamente patognomónicos."
+      },
+      {
+        "cuadro": "Meningitis tuberculosa",
+        "clinica": "Curso SUBAGUDO de 1-3 semanas: cefalea, febrícula, cambio de carácter, y después afectación de PARES CRANEALES (III, VI, VII) por el exudado basal, con deterioro de la conciencia.",
+        "lesiones": "Exudado gelatinoso en la BASE del cráneo con vasculitis (infartos de ganglios basales) e hidrocefalia comunicante. LCR: pleocitosis LINFOCITARIA, glucosa BAJA y proteínas MUY ALTAS, con ADA elevada.",
+        "clave": "La combinación de curso subagudo, linfocitosis en LCR, hipoglucorraquia y afectación de pares craneales debe hacer iniciar tratamiento empírico sin esperar al cultivo: el retraso deja secuelas irreversibles."
+      },
+      {
+        "cuadro": "Tuberculosis extrapulmonar (ganglionar, pleural, osteoarticular, genitourinaria)",
+        "clinica": "Adenopatía cervical fría no dolorosa (escrófula); derrame pleural linfocitario con ADA alta; dolor lumbar con destrucción vertebral y disco afectado (mal de Pott); piuria estéril con cultivos convencionales negativos.",
+        "lesiones": "Espondilitis con destrucción de cuerpos vertebrales adyacentes Y del disco, con absceso paravertebral frío; riñón mastic; salpingitis con esterilidad.",
+        "clave": "La PIURIA ESTÉRIL (leucocituria con urocultivo convencional negativo) obliga a pensar en tuberculosis genitourinaria."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es aerobio estricto: por eso reactiva en los vértices pulmonares, donde la presión de oxígeno es más alta.",
+      "Su crecimiento lentísimo explica que el cultivo tarde 3-8 semanas en medio sólido (Löwenstein-Jensen) y 1-3 semanas en medio líquido automatizado, y también por qué el tratamiento debe durar meses.",
+      "La baciloscopia detecta MICOBACTERIAS, no específicamente M. tuberculosis: una baciloscopia positiva puede ser una micobacteria no tuberculosa. La confirmación requiere cultivo o técnica molecular.",
+      "El Xpert MTB/RIF (PCR) da el diagnóstico y la resistencia a rifampicina en 2 horas, y ha transformado el manejo inicial.",
+      "La infección LATENTE no es enfermedad ni contagia: se diagnostica con Mantoux o IGRA y se trata con monoterapia (isoniazida o rifampicina). Confundirla con enfermedad activa y tratarla en monoterapia genera resistencias.",
+      "El Mantoux tiene falsos positivos con la vacuna BCG y con micobacterias ambientales; los IGRA (QuantiFERON, T-SPOT) no se afectan por la BCG y son preferibles en el vacunado.",
+      "Antes de iniciar un fármaco anti-TNF hay que descartar infección latente y tratarla: la reactivación tuberculosa fue el efecto adverso que definió la seguridad de esta clase."
+    ],
+    "diagnostico": {
+      "muestra": "3 muestras de esputo en días distintos (o esputo inducido, aspirado gástrico en niños, broncoaspirado); líquido pleural y BIOPSIA pleural; LCR (volumen alto, ≥5-10 mL); orina de 3 días; tejido ganglionar.",
+      "pruebas": [
+        "Baciloscopia con Ziehl-Neelsen o auramina: rápida, poco sensible (requiere 5000-10 000 bacilos/mL), pero identifica al paciente CONTAGIOSO",
+        "Xpert MTB/RIF o PCR: diagnóstico y detección de resistencia a rifampicina en horas",
+        "CULTIVO en medio líquido y sólido: prueba de referencia, permite el antibiograma completo; 2-8 semanas",
+        "ADA en líquido pleural, LCR y ascítico: elevada, útil como apoyo",
+        "Mantoux e IGRA: diagnostican INFECCIÓN (latente o activa), NUNCA enfermedad activa",
+        "Radiografía y TC de tórax"
+      ],
+      "claves": "Mantoux e IGRA no sirven para diagnosticar ni descartar tuberculosis activa: un IGRA negativo no excluye enfermedad, sobre todo en el inmunodeprimido y en la forma diseminada."
+    },
+    "tratamiento": {
+      "eleccion": "Pauta estándar de 6 meses: 2 meses de ISONIAZIDA + RIFAMPICINA + PIRAZINAMIDA + ETAMBUTOL (fase intensiva), seguidos de 4 meses de ISONIAZIDA + RIFAMPICINA (fase de continuación). Todos en toma única diaria en ayunas.",
+      "alternativas": "Infección latente: isoniazida 6-9 meses, rifampicina 4 meses, o isoniazida + rifapentina semanal 3 meses. Tuberculosis multirresistente: regímenes prolongados con bedaquilina, linezolid, levofloxacino y clofazimina, siempre dirigidos por antibiograma.",
+      "resistencias": "Multirresistencia (MDR) = resistencia a isoniazida Y rifampicina. Extremadamente resistente (XDR) = MDR más resistencia a fluoroquinolonas y a otro fármaco clave. La monoterapia o el tratamiento irregular son la causa de su aparición.",
+      "duracion": "6 meses en la forma pulmonar sensible. 9-12 meses en meningitis (con corticoides) y en tuberculosis osteoarticular. 9 meses si persiste cultivo positivo a los 2 meses o hay cavitación extensa.",
+      "notas": "Corticoides indicados en la meningitis tuberculosa y en la pericarditis tuberculosa: reducen la mortalidad y las secuelas. Aislamiento respiratorio hasta 2 semanas de tratamiento eficaz con mejoría clínica y descenso de la baciloscopia. Enfermedad de declaración obligatoria con estudio de contactos."
+    },
+    "farmacos_relacionados": [
+      "INF-etambutol",
+      "INF-isoniazida",
+      "INF-levofloxacino",
+      "INF-linezolid",
+      "INF-moxifloxacino",
+      "INF-pirazinamida",
+      "INF-rifampicina",
+      "INM-anti-tnf",
+      "INM-tocilizumab"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 23 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de tuberculosis"
+  },
+  {
+    "id": "MYC-mycobacterium-avium",
+    "nombre": "Complejo Mycobacterium avium (MAC)",
+    "grupo": "MYC",
+    "nivel": 2,
+    "clasificacion": "Micobacteria NO TUBERCULOSA (ambiental), ácido-alcohol resistente, de crecimiento lento, ubicua en agua y suelo",
+    "morfologia_tincion": "Bacilos ácido-alcohol resistentes indistinguibles de M. tuberculosis en la tinción de Ziehl-Neelsen: la diferenciación exige cultivo o técnicas moleculares.",
+    "mecanismo_patogenia": [
+      "Es un microorganismo AMBIENTAL ubicuo (agua corriente, suelo, sistemas de agua caliente, cabezales de ducha): la infección se adquiere del ambiente, NO de otra persona. No hay transmisión interhumana ni se requiere aislamiento.",
+      "Supervivencia intracelular en los macrófagos, con multiplicación en pacientes cuya inmunidad celular está profundamente deprimida (CD4 <50).",
+      "Escasa capacidad de formar granulomas organizados en el inmunodeprimido: en lugar de granulomas, produce infiltración difusa de macrófagos abarrotados de bacilos.",
+      "En el paciente con enfermedad pulmonar estructural (EPOC, bronquiectasias, fibrosis quística), coloniza la vía aérea alterada y produce infección crónica progresiva.",
+      "Resistencia intrínseca a la mayoría de antituberculosos clásicos, incluida la isoniazida y la pirazinamida."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Enfermedad diseminada por MAC en el paciente con VIH avanzado",
+        "clinica": "CD4 <50: fiebre prolongada, sudoración nocturna, pérdida de peso importante, diarrea, dolor abdominal, hepatoesplenomegalia y anemia intensa.",
+        "lesiones": "Infiltración difusa de médula ósea, hígado, bazo y ganglios por macrófagos espumosos repletos de bacilos, con escasa formación de granulomas. Fosfatasa alcalina muy elevada.",
+        "clave": "Fiebre + CD4 <50 + fosfatasa alcalina alta + anemia = sospecha de MAC diseminado; el diagnóstico se hace con hemocultivo para micobacterias."
+      },
+      {
+        "cuadro": "Enfermedad pulmonar por MAC en el paciente con patología pulmonar previa",
+        "clinica": "Varón con EPOC o antecedente de tabaquismo: tos crónica, expectoración, pérdida de peso; curso indolente de meses a años.",
+        "lesiones": "Infiltrados fibrocavitarios en lóbulos superiores, muy similares a los tuberculosos.",
+        "clave": "Radiológicamente indistinguible de la tuberculosis: la diferenciación es microbiológica."
+      },
+      {
+        "cuadro": "Síndrome de Lady Windermere",
+        "clinica": "Mujer mayor, delgada, no fumadora, sin enfermedad pulmonar previa: tos crónica seca persistente durante años.",
+        "lesiones": "Bronquiectasias y nódulos centrolobulillares «en árbol en brote» en el lóbulo medio y la língula.",
+        "clave": "Se ha atribuido a la supresión voluntaria de la tos; la localización en lóbulo medio y língula en una mujer mayor delgada es muy característica."
+      },
+      {
+        "cuadro": "Linfadenitis cervical en el niño",
+        "clinica": "Adenopatía cervical o submandibular unilateral, indolora, de crecimiento lento, en niños de 1-5 años inmunocompetentes, sin fiebre ni afectación general.",
+        "lesiones": "Adenopatía que fistuliza a la piel con drenaje crónico.",
+        "clave": "El tratamiento de elección es la EXÉRESIS QUIRÚRGICA completa, no el tratamiento antibiótico prolongado."
+      }
+    ],
+    "caracteristicas_clave": [
+      "No se transmite de persona a persona: no requiere aislamiento respiratorio ni estudio de contactos, a diferencia de la tuberculosis.",
+      "El aislamiento en una única muestra de esputo puede reflejar simple colonización ambiental: los criterios diagnósticos exigen clínica compatible, hallazgos radiológicos y DOS cultivos de esputo positivos o uno de lavado broncoalveolar.",
+      "El tratamiento se basa en un MACRÓLIDO (claritromicina o azitromicina) como fármaco central, acompañado siempre de etambutol y a menudo rifabutina: la monoterapia con macrólido genera resistencia rápidamente.",
+      "Es intrínsecamente resistente a isoniazida y pirazinamida: el régimen antituberculoso estándar no sirve.",
+      "La profilaxis primaria con azitromicina semanal en pacientes con VIH y CD4 <50 ha perdido protagonismo con el tratamiento antirretroviral eficaz, que es la verdadera prevención.",
+      "Puede desencadenar un síndrome inflamatorio de reconstitución inmune (SIRI) al iniciar el tratamiento antirretroviral, con empeoramiento paradójico de las adenopatías y la fiebre."
+    ],
+    "diagnostico": {
+      "muestra": "HEMOCULTIVOS específicos para micobacterias (alta rentabilidad en la forma diseminada), esputo (dos muestras), lavado broncoalveolar, biopsia de médula ósea, ganglio o hígado.",
+      "pruebas": [
+        "Hemocultivo para micobacterias en la enfermedad diseminada",
+        "Cultivo de esputo o lavado broncoalveolar con identificación de especie por sondas moleculares o MALDI-TOF",
+        "TC de alta resolución torácica: bronquiectasias y patrón de árbol en brote",
+        "Biopsia con tinción de Ziehl-Neelsen: macrófagos repletos de bacilos",
+        "Antibiograma para macrólidos (el único con valor clínico demostrado)"
+      ],
+      "claves": "Distinguir colonización de enfermedad es el reto central: exige combinar criterios clínicos, radiológicos y microbiológicos, nunca un cultivo aislado."
+    },
+    "tratamiento": {
+      "eleccion": "CLARITROMICINA 500 mg/12 h o AZITROMICINA 500 mg/24 h + ETAMBUTOL 15 mg/kg/día + RIFABUTINA o rifampicina. Siempre en combinación triple.",
+      "alternativas": "Amikacina (IV o inhalada liposomal) en la enfermedad grave o refractaria. En la linfadenitis del niño, la exéresis quirúrgica es de elección.",
+      "resistencias": "Resistencia intrínseca a isoniazida y pirazinamida. La resistencia adquirida a macrólidos aparece con la monoterapia y empeora radicalmente el pronóstico.",
+      "duracion": "Enfermedad pulmonar: hasta 12 meses DESPUÉS de la negativización de los cultivos (habitualmente 15-18 meses en total). Enfermedad diseminada en VIH: hasta 12 meses y con CD4 >100 mantenidos.",
+      "notas": "En el paciente con VIH, la piedra angular es iniciar o optimizar el tratamiento antirretroviral: la recuperación inmune es lo que cura la infección."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-claritromicina",
+      "INF-etambutol",
+      "INF-rifampicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 24 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de micobacterias no tuberculosas"
+  },
+  {
+    "id": "MYC-mycobacterium-leprae",
+    "nombre": "Mycobacterium leprae",
+    "grupo": "MYC",
+    "nivel": 3,
+    "clasificacion": "Bacilo ácido-alcohol resistente, intracelular obligado, NO CULTIVABLE en medios artificiales, con predilección por temperaturas bajas (30-33 °C)",
+    "morfologia_tincion": "Bacilos ácido-alcohol resistentes que en la forma lepromatosa aparecen agrupados en «globias» dentro de macrófagos espumosos (células de Virchow). Se tiñe con Ziehl-Neelsen modificado (Fite-Faraco).",
+    "mecanismo_patogenia": [
+      "Es INCAPAZ de crecer en medios de cultivo artificiales: se propaga experimentalmente en la almohadilla plantar del ratón y en el armadillo. El diagnóstico es, por tanto, clínico e histológico, nunca por cultivo.",
+      "Tiene predilección por temperaturas de 30-33 °C: por eso afecta a piel, NERVIOS PERIFÉRICOS SUPERFICIALES, mucosa nasal, cámara anterior del ojo y testículos, y respeta las zonas calientes (axila, ingle, cuero cabelludo, línea media del tronco).",
+      "Invade las CÉLULAS DE SCHWANN uniéndose a la laminina de la lámina basal: de ahí la lesión nerviosa periférica, que es la causa de toda la discapacidad de la enfermedad.",
+      "El espectro clínico depende por completo de la respuesta INMUNITARIA CELULAR del huésped: una respuesta Th1 potente produce la forma tuberculoide (pocos bacilos, mucha inflamación); una respuesta Th2 con anergia celular produce la forma lepromatosa (bacilos incontables, poca inflamación).",
+      "Periodo de incubación extraordinariamente largo: de 2 a 10 años o más."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Lepra tuberculoide (paucibacilar)",
+        "clinica": "Una o pocas lesiones cutáneas bien delimitadas, hipopigmentadas o eritematosas, con ANESTESIA marcada y anhidrosis; engrosamiento de un tronco nervioso próximo.",
+        "lesiones": "Granulomas bien formados con células epitelioides y linfocitos, sin bacilos visibles; destrucción nerviosa localizada.",
+        "clave": "Mancha cutánea con pérdida de sensibilidad = lepra hasta que se demuestre lo contrario. Mantoux/lepromina positiva por buena inmunidad celular."
+      },
+      {
+        "cuadro": "Lepra lepromatosa (multibacilar)",
+        "clinica": "Lesiones nodulares y placas infiltradas simétricas y numerosas, madarosis (pérdida de cejas, sobre todo la cola), infiltración difusa de la cara con «facies leonina», obstrucción nasal y epistaxis, afectación testicular con esterilidad y ginecomastia.",
+        "lesiones": "Macrófagos espumosos (células de Virchow) repletos de bacilos en globias; ausencia de granulomas organizados; neuropatía en guante y calcetín.",
+        "clave": "Anergia celular con lepromina negativa; es la forma CONTAGIOSA por la eliminación masiva de bacilos por vía nasal."
+      },
+      {
+        "cuadro": "Neuropatía leprosa y discapacidad",
+        "clinica": "Engrosamiento palpable de nervios superficiales (cubital en el codo, peroneo común, auricular mayor, tibial posterior), con déficit sensitivo y motor: mano en garra, pie caído, lagoftalmos.",
+        "lesiones": "Úlceras plantares neuropáticas indoloras, reabsorción de falanges por traumatismos repetidos sobre un miembro anestésico.",
+        "clave": "Las mutilaciones NO las produce la bacteria: son consecuencia de traumatismos y quemaduras repetidos sobre tejido insensible e infecciones secundarias."
+      },
+      {
+        "cuadro": "Reacciones leprosas (tipo 1 y tipo 2)",
+        "clinica": "Tipo 1 (reacción reversa): inflamación aguda de lesiones preexistentes con neuritis dolorosa y riesgo de daño nervioso irreversible en días. Tipo 2 (eritema nodoso leproso): nódulos subcutáneos dolorosos, fiebre, artralgias y afectación sistémica.",
+        "lesiones": "Tipo 1: hipersensibilidad retardada. Tipo 2: vasculitis por inmunocomplejos.",
+        "clave": "Son URGENCIAS: la neuritis aguda requiere corticoides inmediatos para evitar la discapacidad permanente. NO se suspende el tratamiento antibiótico durante la reacción."
+      }
+    ],
+    "caracteristicas_clave": [
+      "No es cultivable: el diagnóstico se basa en la clínica (lesión cutánea con pérdida de sensibilidad, nervio engrosado) y en la baciloscopia de linfa dérmica o la biopsia.",
+      "La discapacidad se debe a la lesión NERVIOSA, no a la infección en sí: la prevención de la discapacidad (cuidado de los pies, protección ocular, educación) es tan importante como los antibióticos.",
+      "Es mucho menos contagiosa de lo que su estigma histórico sugiere: requiere contacto estrecho y prolongado, y el paciente deja de ser contagioso a los pocos días de iniciar el tratamiento.",
+      "El tratamiento es siempre MULTIBACTERIANO (poliquimioterapia OMS) para evitar resistencias, con rifampicina como fármaco central.",
+      "La clofazimina produce una pigmentación cutánea pardo-negruzca reversible que es una causa importante de abandono del tratamiento: hay que advertirlo.",
+      "La dapsona puede causar hemólisis, especialmente en el déficit de G6PD, y metahemoglobinemia."
+    ],
+    "diagnostico": {
+      "muestra": "Linfa dérmica obtenida por escarificación de lesión y de lóbulo de la oreja, biopsia cutánea de borde de lesión, biopsia de nervio en casos seleccionados.",
+      "pruebas": [
+        "Baciloscopia de linfa dérmica con índice bacilar (Ziehl-Neelsen o Fite-Faraco)",
+        "Biopsia cutánea con histopatología: granulomas frente a macrófagos espumosos",
+        "Exploración de la SENSIBILIDAD de las lesiones (térmica, dolorosa y táctil) y palpación de troncos nerviosos",
+        "PCR de M. leprae",
+        "Prueba de la lepromina: no diagnóstica, sino clasificatoria del estado inmunitario"
+      ],
+      "claves": "El diagnóstico es clínico: mancha hipopigmentada anestésica, nervio periférico engrosado o baciloscopia positiva — cualquiera de los tres criterios cardinales de la OMS."
+    },
+    "tratamiento": {
+      "eleccion": "Poliquimioterapia de la OMS. Multibacilar: rifampicina 600 mg mensual supervisada + clofazimina 300 mg mensual y 50 mg diarios + dapsona 100 mg diaria, durante 12 meses. Paucibacilar: rifampicina mensual + dapsona diaria, durante 6 meses.",
+      "alternativas": "Ofloxacino, minociclina o claritromicina en caso de intolerancia. Para las reacciones: corticoides (prednisona) en la tipo 1 y en la neuritis; talidomida en el eritema nodoso leproso tipo 2 (jamás en mujeres en edad fértil sin anticoncepción estricta).",
+      "resistencias": "La resistencia a dapsona motivó el paso a la poliquimioterapia; la resistencia a rifampicina es rara pero existe.",
+      "duracion": "6 meses (paucibacilar) o 12 meses (multibacilar). El tratamiento se completa aunque persistan bacilos muertos en la baciloscopia.",
+      "notas": "El paciente deja de ser contagioso a los pocos días de la primera dosis de rifampicina. Enfermedad de declaración obligatoria; profilaxis postexposición de los contactos con rifampicina en dosis única en programas de la OMS."
+    },
+    "farmacos_relacionados": [
+      "INF-claritromicina",
+      "INF-rifampicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 24 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de lepra"
+  }
+]

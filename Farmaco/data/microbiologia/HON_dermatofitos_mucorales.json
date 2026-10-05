@@ -1,0 +1,165 @@
+[
+  {
+    "id": "HON-dermatofitos",
+    "nombre": "Dermatofitos (Trichophyton, Microsporum, Epidermophyton)",
+    "grupo": "HON",
+    "nivel": 1,
+    "clasificacion": "Hongos FILAMENTOSOS QUERATINOFÍLICOS: colonizan exclusivamente el estrato córneo, el pelo y la uña, sin invadir tejido vivo. Se clasifican por su reservorio en ANTROPOFÍLICOS (humano), ZOOFÍLICOS (animal) y GEOFÍLICOS (suelo)",
+    "morfologia_tincion": "Examen directo con KOH (potasa) del raspado de la lesión: hifas SEPTADAS y tabicadas, a veces artrosporadas, entre los queratinocitos. Cultivo en agar Sabouraud con cicloheximida durante 2-4 semanas para identificar el género por sus macroconidios: Microsporum los tiene fusiformes y rugosos, Trichophyton cilíndricos y de pared lisa, y Epidermophyton en forma de maza y en racimos. La luz de Wood da fluorescencia VERDOSA en las tiñas por Microsporum, pero NO en las causadas por Trichophyton, que son la mayoría hoy.",
+    "mecanismo_patogenia": [
+      "Producen QUERATINASAS, elastasas y proteasas que degradan la queratina y les permiten nutrirse del estrato córneo, del pelo y de la uña.",
+      "NO invaden tejido vivo en el huésped inmunocompetente: la barrera es la capa granulosa. Toda la clínica deriva de la colonización del tejido queratinizado y de la respuesta inflamatoria que provoca.",
+      "La lesión crece de forma CENTRÍFUGA: el hongo avanza por la periferia mientras el centro se aclara, lo que produce la lesión anular con borde activo descamativo o vesiculoso.",
+      "Los ZOOFÍLICOS (M. canis del gato y el perro, T. mentagrophytes del conejo y el roedor) producen una respuesta INFLAMATORIA INTENSA porque el sistema inmunitario humano no está adaptado a ellos: son los que dan el querión.",
+      "Los ANTROPOFÍLICOS (T. rubrum, el más frecuente con diferencia) producen lesiones crónicas, poco inflamatorias y persistentes, precisamente porque provocan poca respuesta inmunitaria.",
+      "La reacción de HIPERSENSIBILIDAD a distancia (dermatofítide o reacción íde) produce lesiones estériles en manos o tronco alejadas del foco, típicamente al iniciar el tratamiento: son inmunológicas, no infecciosas, y no requieren cambiar de fármaco.",
+      "Los factores que favorecen la infección son la humedad, la oclusión, el calor, la sudoración, la diabetes, la inmunodepresión y el calzado cerrado."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Tinea capitis (tiña del cuero cabelludo)",
+        "clinica": "Placa alopécica descamativa con pelos rotos a ras de piel en un NIÑO. Puede haber adenopatías cervicales.",
+        "lesiones": "Alopecia en placas con puntos negros (pelos rotos); en la forma inflamatoria, QUERIÓN DE CELSO: placa sobreelevada, dolorosa, con pústulas y supuración a través de los orificios foliculares.",
+        "clave": "SIEMPRE requiere tratamiento ORAL: el fármaco tópico no alcanza el interior del folículo. Es prácticamente exclusiva de la infancia y desaparece en la pubertad por los ácidos grasos del sebo. El querión se confunde con un absceso bacteriano y se drena o se trata con antibiótico por error, con riesgo de alopecia cicatricial definitiva."
+      },
+      {
+        "cuadro": "Tinea corporis (herpes circinado)",
+        "clinica": "Placa anular pruriginosa de crecimiento centrífugo, con borde activo eritematodescamativo y centro aclarado.",
+        "lesiones": "Lesión anular con borde vesiculodescamativo bien delimitado.",
+        "clave": "La TINEA INCÓGNITO es el gran error: al aplicar un corticoide tópico la lesión pierde el borde, se atenúa el prurito y deja de parecer una tiña, mientras el hongo se extiende. Es una de las consecuencias más frecuentes de tratar sin diagnosticar."
+      },
+      {
+        "cuadro": "Tinea pedis (pie de atleta) y tinea manuum",
+        "clinica": "Descamación y maceración interdigital (sobre todo del cuarto espacio), prurito, o forma en mocasín con descamación difusa de la planta.",
+        "lesiones": "Fisuración interdigital, vesículas plantares o hiperqueratosis en mocasín.",
+        "clave": "Es la PUERTA DE ENTRADA más frecuente de las CELULITIS y erisipelas de repetición de la pierna. Tratar el pie de atleta de un paciente con celulitis recurrente es una medida preventiva de primer orden y a menudo olvidada. El patrón de UNA mano y DOS pies es característico."
+      },
+      {
+        "cuadro": "Tinea cruris (eccema marginado de Hebra)",
+        "clinica": "Placa eritematosa pruriginosa en la ingle, con borde activo, que se extiende hacia el muslo.",
+        "lesiones": "Lesión de borde neto y policíclico que RESPETA EL ESCROTO.",
+        "clave": "El respeto del escroto la distingue de la candidiasis inguinal, que sí lo afecta y presenta lesiones satélite."
+      },
+      {
+        "cuadro": "Onicomicosis (tinea unguium)",
+        "clinica": "Uña engrosada, amarillenta, quebradiza y con despegamiento distal; más frecuente en los pies y en el primer dedo.",
+        "lesiones": "Hiperqueratosis subungueal, onicólisis distal y lateral, cambio de color.",
+        "clave": "Exige CONFIRMACIÓN MICOLÓGICA antes de tratar: solo la mitad de las distrofias ungueales son micóticas, y el tratamiento oral dura meses y no es inocuo. La psoriasis ungueal y el traumatismo crónico son los grandes imitadores."
+      },
+      {
+        "cuadro": "Tinea barbae y granuloma de Majocchi",
+        "clinica": "Foliculitis de la barba, o nódulos perifoliculares en las piernas de mujeres que se depilan.",
+        "lesiones": "Afectación folicular profunda con granulomas.",
+        "clave": "La afectación FOLICULAR profunda obliga a tratamiento oral: el tópico no llega."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La regla que decide el tratamiento: PELO y UÑA exigen tratamiento ORAL; la piel lampiña se trata por vía TÓPICA. El motivo es puramente farmacocinético: el fármaco tópico no penetra en el folículo ni en la lámina ungueal.",
+      "TRICHOPHYTON RUBRUM es el dermatofito más frecuente del mundo y el responsable de la mayoría de las tiñas del pie, del cuerpo y de las uñas.",
+      "La TINEA INCÓGNITO, causada por el corticoide tópico aplicado sobre una tiña no diagnosticada, es un error frecuentísimo en atención primaria y hace irreconocible la lesión.",
+      "La luz de Wood ya no es la herramienta que fue: solo son fluorescentes las tiñas por Microsporum, y hoy predomina Trichophyton, que no lo es. Una luz de Wood negativa no descarta nada.",
+      "El QUERIÓN es inflamatorio pero NO bacteriano: drenarlo o darle antibiótico retrasa el tratamiento correcto y favorece la alopecia cicatricial. Se trata con antifúngico oral, a menudo con corticoide asociado.",
+      "En la tiña de la cabeza hay que buscar y tratar el ANIMAL de origen y estudiar a los convivientes: si no, la reinfección está garantizada.",
+      "La reacción ÍDE aparece al iniciar el tratamiento y hace pensar en alergia al fármaco: es una hipersensibilidad al hongo y no obliga a suspenderlo."
+    ],
+    "diagnostico": {
+      "muestra": "Raspado del BORDE ACTIVO de la lesión (no del centro), pelos arrancados con la raíz, o fragmento de uña del lecho subungueal más proximal.",
+      "pruebas": [
+        "Examen directo con KOH al 10-20%: hifas septadas, resultado inmediato",
+        "CULTIVO en agar Sabouraud con cicloheximida (2-4 semanas): identifica el género y la especie, y orienta sobre el reservorio",
+        "PCR de dermatofitos: rápida y sensible, cada vez más disponible",
+        "Luz de Wood: fluorescencia verdosa solo en Microsporum",
+        "Histología con PAS del fragmento ungueal cuando el cultivo es negativo y la sospecha alta"
+      ],
+      "claves": "En la ONICOMICOSIS la confirmación es obligatoria antes de un tratamiento oral de meses. Hay que suspender cualquier antifúngico tópico al menos 2 semanas antes de tomar la muestra, o el cultivo saldrá falsamente negativo."
+    },
+    "tratamiento": {
+      "eleccion": "PIEL LAMPIÑA: azol o TERBINAFINA tópicos durante 2-4 semanas. UÑA: terbinafina oral 250 mg al día, 6 semanas en las manos y 12 semanas en los pies. CUERO CABELLUDO: terbinafina oral (mejor para Trichophyton) o griseofulvina (mejor para Microsporum) durante 4-8 semanas.",
+      "alternativas": "Itraconazol oral en pauta continua o en pulsos; fluconazol semanal. Amorolfina o ciclopirox en laca para la onicomicosis leve sin afectación de la matriz.",
+      "resistencias": "Trichophyton indotineae es una especie emergente RESISTENTE A TERBINAFINA, procedente del sur de Asia, con lesiones extensas y recalcitrantes: obliga a plantear itraconazol y a pensar en ella ante un fracaso terapéutico.",
+      "duracion": "2-4 semanas en la piel; 4-8 semanas en el cuero cabelludo; 6 semanas (manos) o 12 semanas (pies) en la uña, aunque la uña tarda MESES en tener aspecto normal después de curada.",
+      "notas": "Hay que advertir de que la uña seguirá con mal aspecto durante meses tras terminar el tratamiento, porque lo que se ve es la lámina ya crecida: si no, el paciente cree que ha fracasado. Tratar el calzado y los calcetines, secar bien los espacios interdigitales y tratar a los convivientes y a la mascota cuando proceda."
+    },
+    "farmacos_relacionados": [
+      "DER-azoles-topicos",
+      "DER-terbinafina",
+      "INF-itraconazol",
+      "PED-DER-corticoides-topicos"
+    ],
+    "fuente": "Murray 9.ª ed., sección de micología; AMIR Dermatología; Harrison 20.ª ed., cap. de micosis superficiales"
+  },
+  {
+    "id": "HON-mucorales",
+    "nombre": "Mucorales (Rhizopus, Mucor, Lichtheimia) — mucormicosis",
+    "grupo": "HON",
+    "nivel": 2,
+    "clasificacion": "Hongos FILAMENTOSOS ambientales del orden Mucorales: hifas ANCHAS, de pared irregular, NO SEPTADAS (cenocíticas), con ramificación en ÁNGULO RECTO (90°)",
+    "morfologia_tincion": "La morfología es el dato diagnóstico decisivo y hay que saber contraponerla a la de Aspergillus. MUCORALES: hifas anchas (10-20 micras), de grosor IRREGULAR, sin tabiques o con muy pocos, que se ramifican en ÁNGULO RECTO y aparecen a menudo retorcidas o colapsadas en los cortes. ASPERGILLUS: hifas finas (3-5 micras), de grosor uniforme, SEPTADAS y ramificadas en ángulo AGUDO de 45°. Se visualizan con plata-metenamina o PAS; el cultivo puede ser negativo con frecuencia porque el triturado de la muestra rompe las hifas cenocíticas, por lo que la biopsia debe enviarse SIN triturar.",
+    "mecanismo_patogenia": [
+      "Los esporangiosporos son ubicuos en el ambiente (suelo, materia orgánica en descomposición, pan enmohecido) y se inhalan o penetran por una solución de continuidad en la piel.",
+      "ANGIOINVASIÓN masiva: invaden la pared de los vasos, producen trombosis e INFARTO tisular, y de ahí la necrosis negruzca característica y la mala penetración del antifúngico en el tejido ya desvitalizado.",
+      "Requieren HIERRO libre para crecer, y ese requerimiento explica sus factores de riesgo más específicos: la CETOACIDOSIS diabética (la acidosis desplaza el hierro de la transferrina y lo deja disponible) y el tratamiento con DEFEROXAMINA, que actúa como sideróforo que el hongo puede utilizar.",
+      "La proteína GRP78 del endotelio, sobreexpresada en la hiperglucemia y la acidosis, es el receptor al que se adhieren: es la explicación molecular de por qué el diabético descompensado es el huésped típico.",
+      "Los NEUTRÓFILOS son la defensa esencial: la neutropenia prolongada y los corticoides a dosis altas son los otros grandes factores de riesgo.",
+      "La progresión es de horas a días, mucho más rápida que la de la aspergilosis."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Mucormicosis RINO-ORBITO-CEREBRAL",
+        "clinica": "Diabético en CETOACIDOSIS o paciente hematológico con dolor facial o periorbitario, congestión nasal, secreción oscura, fiebre, edema periorbitario, oftalmoplejía, proptosis y pérdida de visión.",
+        "lesiones": "ESCARA NEGRUZCA en el cornete medio, en el paladar o en la mucosa nasal, resultado del infarto tisular. Extensión por contigüidad a órbita, seno cavernoso y cerebro.",
+        "clave": "Una escara negra en el paladar o en la fosa nasal de un diabético descompensado es mucormicosis mientras no se demuestre lo contrario, y es una urgencia quirúrgica inmediata. Cada hora de retraso en el desbridamiento aumenta la mortalidad."
+      },
+      {
+        "cuadro": "Mucormicosis PULMONAR",
+        "clinica": "Paciente neutropénico o trasplantado con fiebre refractaria a antibióticos y a antifúngicos, tos, dolor pleurítico y HEMOPTISIS, a veces masiva.",
+        "lesiones": "Consolidación con cavitación, signo del halo INVERTIDO (zona de vidrio deslustrado rodeada de un anillo de consolidación), nódulos múltiples y derrame.",
+        "clave": "La aparición de una infección fúngica progresiva en un paciente que ya recibe VORICONAZOL o un profiláctico sin actividad frente a mucorales debe hacer pensar de inmediato en esta entidad: el voriconazol no cubre los mucorales."
+      },
+      {
+        "cuadro": "Mucormicosis CUTÁNEA",
+        "clinica": "Lesión en el punto de una herida, una quemadura, un catéter o un apósito contaminado, que evoluciona a una placa necrótica.",
+        "lesiones": "Placa indurada que progresa a escara negra con halo eritematoso; puede extenderse en profundidad hasta la fascia.",
+        "clave": "Es la forma con mejor pronóstico si se desbrida a tiempo, y se ha descrito en brotes nosocomiales asociados a material sanitario contaminado y tras catástrofes naturales."
+      },
+      {
+        "cuadro": "Mucormicosis gastrointestinal y diseminada",
+        "clinica": "Dolor abdominal, hemorragia digestiva y perforación en el prematuro o en el desnutrido grave; la forma diseminada aparece en el inmunodeprimido profundo.",
+        "lesiones": "Úlceras necróticas con infarto de la pared intestinal.",
+        "clave": "Mortalidad superior al 90% en la forma diseminada."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La distinción morfológica frente a Aspergillus no es un detalle académico: cambia el fármaco por completo. Hifas ANCHAS, NO SEPTADAS y en ÁNGULO RECTO son mucorales; hifas finas, septadas y en ángulo agudo son Aspergillus.",
+      "El VORICONAZOL y las EQUINOCANDINAS NO cubren los mucorales. Es más: el uso extendido de profilaxis con voriconazol se ha asociado a un aumento relativo de la mucormicosis de brecha en las unidades de hematología.",
+      "El tratamiento tiene TRES patas, y ninguna basta por sí sola: CIRUGÍA de desbridamiento agresivo y repetido, ANFOTERICINA B liposomal a dosis altas, y CORRECCIÓN del factor predisponente (la cetoacidosis, la neutropenia, la retirada de la deferoxamina).",
+      "El HIERRO es el hilo conductor de su epidemiología: cetoacidosis diabética, deferoxamina y sobrecarga férrica son factores de riesgo por el mismo motivo.",
+      "El galactomanano y el beta-D-glucano son NEGATIVOS en la mucormicosis, a diferencia de la aspergilosis. Un paciente con enfermedad fúngica invasiva progresiva y marcadores negativos apunta hacia aquí.",
+      "El diagnóstico exige BIOPSIA y visualización de las hifas: el cultivo es negativo con frecuencia, y triturar la muestra destruye las hifas cenocíticas.",
+      "La mortalidad global ronda el 50% y supera el 90% en la forma diseminada; la supervivencia depende sobre todo de la precocidad de la cirugía."
+    ],
+    "diagnostico": {
+      "muestra": "BIOPSIA del tejido afectado, enviada SIN triturar. Muestras endoscópicas nasales, lavado broncoalveolar, tejido de desbridamiento quirúrgico.",
+      "pruebas": [
+        "Histología con plata-metenamina o PAS: hifas anchas, no septadas, en ángulo recto, con angioinvasión y necrosis",
+        "Cultivo en Sabouraud (frecuentemente negativo; no descarta el diagnóstico)",
+        "PCR panfúngica o específica de mucorales en tejido o en sangre, cada vez más utilizada",
+        "TC de senos y de órbita, y TC torácica (signo del halo INVERTIDO)",
+        "Galactomanano y beta-D-glucano: NEGATIVOS, lo que ayuda a diferenciarla de la aspergilosis"
+      ],
+      "claves": "Ante la sospecha clínica no se espera a la confirmación: se inicia anfotericina B liposomal y se avisa al cirujano el mismo día. El diagnóstico definitivo llega después."
+    },
+    "tratamiento": {
+      "eleccion": "ANFOTERICINA B LIPOSOMAL a dosis altas (5-10 mg/kg al día) junto con DESBRIDAMIENTO QUIRÚRGICO precoz, agresivo y repetido, y corrección del factor predisponente.",
+      "alternativas": "ISAVUCONAZOL o POSACONAZOL como tratamiento de rescate, de continuación oral o cuando la anfotericina no se tolera. Son los únicos azoles con actividad frente a mucorales.",
+      "resistencias": "Resistencia INTRÍNSECA a voriconazol, fluconazol y equinocandinas.",
+      "duracion": "Prolongada, de semanas o meses, hasta la resolución radiológica y clínica y la recuperación de la inmunodepresión.",
+      "notas": "La cirugía no es un complemento sino parte del tratamiento: el tejido infartado no recibe antifúngico por vía sanguínea, de modo que sin desbridamiento el fármaco no llega donde está el hongo."
+    },
+    "farmacos_relacionados": [
+      "INF-anfotericina-b-liposomal",
+      "INF-voriconazol"
+    ],
+    "fuente": "Murray 9.ª ed., sección de micología; Harrison 20.ª ed., cap. de mucormicosis; guías ECMM/ESCMID de mucormicosis"
+  }
+]

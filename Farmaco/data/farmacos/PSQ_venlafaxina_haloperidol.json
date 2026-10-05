@@ -1,0 +1,287 @@
+[
+  {
+    "id": "PSQ-venlafaxina",
+    "nombre": "Venlafaxina (y duloxetina)",
+    "sinonimos": [
+      "IRSN",
+      "Inhibidores de la recaptación de serotonina y noradrenalina"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "IRSN: inhibidor de la recaptación de serotonina y noradrenalina",
+    "vs_clase": [
+      "**IRSN**: a dosis bajas actúa como ISRS; a partir de 150 mg añade efecto noradrenérgico.",
+      "**ELEVA la PRESIÓN ARTERIAL** (dosis-dependiente) y tiene un **síndrome de discontinuación intenso**.",
+      "**Útil en el dolor neuropático** (duloxetina) y en los sofocos; venlafaxina es el antidepresivo de elección con **tamoxifeno**."
+    ],
+    "mecanismo": "Inhibe la recaptación de SEROTONINA y de NORADRENALINA, sin apenas afinidad por los receptores muscarínicos, histaminérgicos ni alfa-adrenérgicos, lo que le da un perfil de efectos adversos mucho más limpio que el de los tricíclicos con un mecanismo similar. En la venlafaxina el efecto es DOSIS-DEPENDIENTE y escalonado: por debajo de 150 mg al día se comporta prácticamente como un ISRS puro, y solo por encima de esa dosis aparece el bloqueo noradrenérgico relevante, que es el que aporta el efecto dual y también el que eleva la tensión arterial. La duloxetina es dual desde la dosis inicial y añade eficacia demostrada en el dolor neuropático, lo que la hace preferible cuando coexisten depresión y dolor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Episodio depresivo mayor, sobre todo con inhibición, dolor o falta de respuesta a un ISRS",
+        "dosis": "Venlafaxina retard 75 mg al día, ascendiendo hasta 150-225 mg al día (máximo 375 mg); duloxetina 30-60 mg al día",
+        "posologia": "Una toma al día por la mañana con comida",
+        "via": "VO",
+        "dosis_objetivo": "Remisión sintomática mantenida, no solo respuesta parcial",
+        "nota": "Por encima de 150 mg al día es cuando la venlafaxina se vuelve realmente dual, y también cuando hay que empezar a vigilar la tensión arterial"
+      },
+      {
+        "patologia": "Trastorno de ansiedad generalizada y trastorno de angustia",
+        "dosis": "Venlafaxina retard 75 mg al día, hasta 225 mg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Empezar por 37,5 mg: el aumento paradójico de la ansiedad en los primeros días es la causa principal de abandono"
+      },
+      {
+        "patologia": "Dolor NEUROPÁTICO diabético y fibromialgia (duloxetina)",
+        "dosis": "Duloxetina 60 mg al día, hasta 120 mg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Indicación propia de la duloxetina, de primera línea junto con los gabapentinoides"
+      },
+      {
+        "patologia": "Sofocos de la menopausia sin indicación de tratamiento hormonal",
+        "dosis": "Venlafaxina 37,5-75 mg al día",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "nota": "Alternativa útil en la superviviente de cáncer de mama con tamoxifeno, pero eligiendo el antidepresivo que NO inhiba el CYP2D6"
+      },
+      {
+        "patologia": "Incontinencia urinaria de esfuerzo (duloxetina)",
+        "dosis": "Duloxetina 40 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Eficacia moderada y tolerancia digestiva limitante"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja durante la primera semana, con la comida, para reducir las náuseas y el aumento inicial de la ansiedad. Medir la tensión arterial ANTES de empezar.",
+      "titulacion": "Ascenso cada 1-2 semanas según respuesta y tolerancia. El efecto antidepresivo pleno tarda de 4 a 6 semanas.",
+      "duracion": "Al menos 6-12 meses tras la remisión del primer episodio, y varios años o de forma indefinida si ha habido episodios recurrentes.",
+      "fin": "Retirada MUY lenta, a lo largo de semanas o meses. La venlafaxina tiene el síndrome de discontinuación más intenso de todos los antidepresivos por su vida media corta.",
+      "via": "Oral, preferiblemente la formulación de liberación prolongada (mejor tolerancia y una sola toma).",
+      "monitorizacion": "TENSIÓN ARTERIAL periódica, sobre todo por encima de 150 mg al día. Natremia en el anciano en las primeras semanas. Ideación suicida en las primeras semanas y en el paciente joven."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; los alimentos mejoran la tolerancia digestiva.",
+      "distribucion": "Unión a proteínas baja (27%) en el caso de la venlafaxina.",
+      "metabolismo": "Hepático por CYP2D6 a desvenlafaxina, que es ACTIVA. La duloxetina se metaboliza por CYP1A2 y CYP2D6.",
+      "eliminacion": "Renal.",
+      "vida_media": "Venlafaxina 5 horas (desvenlafaxina 11 horas); duloxetina 12 horas. Vidas medias CORTAS, que son la causa del síndrome de discontinuación.",
+      "ajuste_renal": "Reducir un 25-50% con filtrado menor de 30 mL/min. Duloxetina contraindicada por debajo de 30 mL/min.",
+      "ajuste_hepatico": "Reducir un 50%. La DULOXETINA está CONTRAINDICADA en la hepatopatía y en el consumo elevado de alcohol.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "SÍNDROME SEROTONINÉRGICO potencialmente mortal",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO. Respetar 14 días de lavado en ambos sentidos"
+        },
+        {
+          "con": "Tramadol, triptanes, litio, linezolid, hierba de San Juan",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar estrechamente; informar al paciente de los síntomas de alarma"
+        },
+        {
+          "con": "AINE, AAS, anticoagulantes y antiagregantes",
+          "efecto": "HEMORRAGIA DIGESTIVA por depleción de serotonina plaquetaria",
+          "gravedad": "alta",
+          "manejo": "Asociar un inhibidor de la bomba de protones si la combinación es necesaria"
+        },
+        {
+          "con": "Diuréticos y otros fármacos que producen hiponatremia",
+          "efecto": "SIADH e hiponatremia, sobre todo en el anciano",
+          "gravedad": "alta",
+          "manejo": "Medir el sodio a las 2-4 semanas del inicio en el paciente mayor"
+        },
+        {
+          "con": "TAMOXIFENO (duloxetina, inhibidora moderada del CYP2D6)",
+          "efecto": "Reduce la conversión del tamoxifeno a su metabolito activo",
+          "gravedad": "media",
+          "manejo": "Preferir venlafaxina, que apenas inhibe el CYP2D6, en la paciente con tamoxifeno"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS, muy frecuentes al inicio y habitualmente transitorias",
+        "Cefalea, insomnio y sudoración",
+        "DISFUNCIÓN SEXUAL, causa muy frecuente de abandono silencioso",
+        "Sequedad de boca y estreñimiento",
+        "Aumento de la ansiedad en los primeros días"
+      ],
+      "graves": [
+        "HIPERTENSIÓN ARTERIAL dosis-dependiente, característica de la venlafaxina",
+        "HIPONATREMIA por SIADH, sobre todo en el anciano",
+        "Síndrome serotoninérgico",
+        "Hemorragia digestiva",
+        "SÍNDROME DE DISCONTINUACIÓN intenso",
+        "CARDIOTOXICIDAD en sobredosis, muy superior a la de los ISRS",
+        "Hepatotoxicidad (duloxetina)",
+        "Viraje a manía en el paciente bipolar no diagnosticado"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de IMAO en las dos semanas previas",
+      "Hipertensión arterial no controlada (venlafaxina)",
+      "Hepatopatía y consumo elevado de alcohol (duloxetina)",
+      "Insuficiencia renal grave (duloxetina)",
+      "Glaucoma de ángulo cerrado no tratado (duloxetina)",
+      "Trastorno bipolar sin estabilizador del ánimo asociado"
+    ],
+    "perlas": [
+      "La venlafaxina es un ISRS por debajo de 150 mg al día. Si se prescribe a 75 mg porque un ISRS ha fracasado, no se está cambiando de mecanismo, solo de molécula: para que sea dual hay que llegar a la dosis en que bloquea la noradrenalina.",
+      "El precio de esa misma dosis es la TENSIÓN ARTERIAL. La hipertensión inducida por venlafaxina es dosis-dependiente y hay que medirla antes de empezar y en cada aumento; es una causa reconocida y evitable de hipertensión de nueva aparición.",
+      "El SÍNDROME DE DISCONTINUACIÓN de la venlafaxina es el más intenso de los antidepresivos: mareo, calambrazos eléctricos en la cabeza, insomnio, irritabilidad y síntomas seudogripales. Aparece con olvidar una o dos dosis, y no es adicción sino adaptación del receptor; explicárselo al paciente evita que crea que se ha vuelto dependiente.",
+      "La HIPONATREMIA por SIADH en el anciano es una causa frecuente y poco buscada de caídas, confusión y malestar en el primer mes de tratamiento. Medir el sodio a las 2-4 semanas en el mayor de 65 años debería ser rutina.",
+      "La DISFUNCIÓN SEXUAL afecta a una proporción muy alta de pacientes y casi nunca se comenta de forma espontánea. Preguntarla explícitamente evita abandonos que después se interpretan como falta de eficacia.",
+      "En SOBREDOSIS es bastante más peligrosa que un ISRS: produce convulsiones y arritmias con prolongación del QRS. Es un dato a tener en cuenta al elegir antidepresivo en un paciente con riesgo suicida y acceso a la medicación.",
+      "La DULOXETINA es la opción cuando coexisten depresión y DOLOR (neuropatía diabética, fibromialgia, lumbalgia crónica): un solo fármaco cubre las dos indicaciones. Pero está contraindicada si hay hepatopatía o consumo importante de alcohol.",
+      "En la mujer con TAMOXIFENO que necesita tratamiento para los sofocos o para la depresión, hay que elegir un antidepresivo que no inhiba el CYP2D6: la venlafaxina sirve, la paroxetina y la fluoxetina no."
+    ],
+    "embarazo_lactancia": "Se puede mantener cuando la indicación es firme, valorando el riesgo de recaída frente al del fármaco. Cerca del parto se han descrito síndrome de adaptación neonatal y, de forma infrecuente, hipertensión pulmonar persistente del recién nacido. Compatible con la lactancia, vigilando la sedación y la ganancia de peso del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; guías NICE de depresión y de dolor neuropático"
+  },
+  {
+    "id": "PSQ-haloperidol",
+    "nombre": "Haloperidol",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antipsicótico",
+    "subclase": "Antipsicótico típico (de primera generación), butirofenona de alta potencia",
+    "vs_clase": [
+      "**Antipsicótico TÍPICO de alta potencia**: el que **más extrapiramidalismo** produce (distonía, acatisia, parkinsonismo) y más hiperprolactinemia.",
+      "**Poco sedante, sin efecto anticolinérgico ni hipotensor**: útil en el **delirium** y la agitación del paciente médico, y por **vía IV/IM**.",
+      "**Prolonga el QT** (ECG con dosis IV) y es antiemético potente. **Contraindicado en Parkinson y demencia con cuerpos de Lewy.**"
+    ],
+    "mecanismo": "Antagonista potente y bastante selectivo del receptor D2 de la dopamina. El bloqueo de la vía MESOLÍMBICA es el que produce el efecto antipsicótico sobre los síntomas positivos; el de la vía NIGROESTRIADA causa los síntomas extrapiramidales; el de la vía TUBEROINFUNDIBULAR eleva la prolactina; y el de la zona gatillo quimiorreceptora del área postrema explica su potente efecto ANTIEMÉTICO. Al tener escasa afinidad por los receptores muscarínicos, histaminérgicos y alfa-1, es poco sedante, poco anticolinérgico y poco hipotensor comparado con los antipsicóticos de baja potencia; ese mismo perfil limpio es el que deja el bloqueo D2 sin contrapeso y multiplica los efectos extrapiramidales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Agitación psicomotriz grave y psicosis aguda",
+        "dosis": "2,5-5 mg IM o IV lenta, repetibles cada 30-60 minutos, máximo 20 mg al día",
+        "posologia": "Dosis repetible hasta el control",
+        "via": "IM",
+        "nota": "Se asocia con frecuencia a una benzodiazepina, lo que permite bajar la dosis de haloperidol y reduce los extrapiramidales"
+      },
+      {
+        "patologia": "DELIRIUM con agitación o síntomas psicóticos en el paciente hospitalizado",
+        "dosis": "0,5-2 mg VO o IM, repetibles; en el anciano, 0,25-0,5 mg",
+        "posologia": "Dosis mínima eficaz, revisada a diario",
+        "via": "VO",
+        "nota": "Solo cuando las medidas no farmacológicas fracasan y hay riesgo para el paciente. NO trata el delirium ni acorta su duración: controla los síntomas mientras se corrige la causa"
+      },
+      {
+        "patologia": "Esquizofrenia y trastornos psicóticos crónicos",
+        "dosis": "5-15 mg al día repartidos en 1-2 tomas",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Hoy relegado a segunda línea frente a los antipsicóticos atípicos por su carga de efectos extrapiramidales"
+      },
+      {
+        "patologia": "NÁUSEAS Y VÓMITOS refractarios, y en cuidados paliativos",
+        "dosis": "0,5-2 mg cada 8-12 horas VO o SC",
+        "posologia": "Cada 8-12 horas o en perfusión subcutánea",
+        "via": "SC",
+        "nota": "Muy eficaz en los vómitos de origen central, metabólico o por opioides. Es un antiemético de referencia en paliativos"
+      },
+      {
+        "patologia": "Tics graves y síndrome de Gilles de la Tourette",
+        "dosis": "0,5-3 mg al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Eficaz, pero limitado por los efectos adversos en tratamiento prolongado"
+      }
+    ],
+    "esquema": {
+      "inicio": "La dosis mínima eficaz, y en el anciano una cuarta parte de la del adulto joven. Antes de administrarlo por vía intravenosa conviene un ECG y comprobar el potasio y el magnesio.",
+      "titulacion": "Ascenso lento en el tratamiento crónico. En la agitación, dosis repetidas con reevaluación tras cada una.",
+      "duracion": "En el delirium, DÍAS, con retirada en cuanto se resuelva el cuadro. En la esquizofrenia, prolongada.",
+      "fin": "Retirada gradual tras tratamientos prolongados para evitar la discinesia de retirada y las recaídas. En el delirium, la retirada debe quedar escrita en el informe de alta: la perpetuación involuntaria de un antipsicótico iniciado en planta es un problema real y frecuente.",
+      "via": "Oral, IM, SC (paliativos) e IV (con monitorización de ECG). Existe decanoato depot cada 4 semanas.",
+      "monitorizacion": "ECG con medición del QTc, potasio y magnesio; síntomas extrapiramidales; prolactina en tratamiento prolongado; temperatura y CK ante la sospecha de síndrome neuroléptico maligno."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 60-70%; intramuscular rápida y completa.",
+      "distribucion": "Muy lipófilo, atraviesa bien la barrera hematoencefálica.",
+      "metabolismo": "Hepático por CYP3A4 y CYP2D6.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "12-36 horas; el decanoato, unas 3 semanas.",
+      "ajuste_renal": "Sin ajuste relevante.",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Fármacos que alargan el QT (amiodarona, sotalol, macrólidos, quinolonas, ondansetrón, antidepresivos)",
+          "efecto": "Prolongación aditiva del QT y TORSADES DE POINTES",
+          "gravedad": "alta",
+          "manejo": "Revisar la lista completa del paciente; corregir potasio y magnesio; ECG"
+        },
+        {
+          "con": "LEVODOPA y agonistas dopaminérgicos",
+          "efecto": "Antagonismo mutuo: empeora el parkinsonismo y pierde efecto antipsicótico",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO en la enfermedad de Parkinson y en la demencia por cuerpos de Lewy; usar quetiapina o clozapina"
+        },
+        {
+          "con": "Depresores del sistema nervioso central (benzodiazepinas, opioides, alcohol)",
+          "efecto": "Sedación y depresión respiratoria",
+          "gravedad": "media",
+          "manejo": "Combinación útil en la agitación, pero con vigilancia"
+        },
+        {
+          "con": "LITIO",
+          "efecto": "Neurotoxicidad y mayor riesgo de síndrome neuroléptico maligno con dosis altas de ambos",
+          "gravedad": "alta",
+          "manejo": "Vigilar la litemia y la clínica neurológica"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 y del CYP2D6",
+          "efecto": "Aumento de las concentraciones y del riesgo de QT largo y extrapiramidalismo",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SÍNTOMAS EXTRAPIRAMIDALES: distonía aguda, acatisia, parkinsonismo",
+        "Sedación (menor que con los antipsicóticos de baja potencia)",
+        "HIPERPROLACTINEMIA con galactorrea, amenorrea y disfunción sexual",
+        "Sequedad de boca y estreñimiento"
+      ],
+      "graves": [
+        "SÍNDROME NEUROLÉPTICO MALIGNO: fiebre, rigidez, alteración de la conciencia, disautonomía y CK muy elevada",
+        "PROLONGACIÓN DEL QT y torsades de pointes, sobre todo por vía intravenosa",
+        "DISCINESIA TARDÍA, frecuentemente irreversible, con el uso prolongado",
+        "DISTONÍA AGUDA con crisis oculógiras y laringoespasmo",
+        "Aumento de la mortalidad en el anciano con demencia",
+        "Descenso del umbral convulsivo"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad de PARKINSON y demencia por cuerpos de LEWY",
+      "QT largo congénito o adquirido y antecedente de torsades",
+      "Depresión grave del sistema nervioso central y coma",
+      "Uso con precaución máxima en el anciano con demencia (aumento de mortalidad)",
+      "Hipopotasemia e hipomagnesemia no corregidas antes de la vía intravenosa"
+    ],
+    "perlas": [
+      "La DISTONÍA AGUDA asusta y se resuelve en minutos: tortícolis, crisis oculógira o trismus en las horas siguientes a una dosis, típicamente en un varón joven. El tratamiento es biperideno o difenhidramina parenteral, y la respuesta es tan rápida que resulta diagnóstica. No es una reacción alérgica y no es una convulsión.",
+      "La ACATISIA es el efecto adverso que más se confunde con la propia enfermedad: el paciente no puede parar quieto y se le interpreta como más agitado, así que se le sube la dosis y empeora. Ante un paciente que empeora tras cada dosis, hay que pensar en acatisia antes que en falta de respuesta.",
+      "En el PARKINSON y en la demencia por cuerpos de Lewy está contraindicado, y en esta última puede producir una reacción de hipersensibilidad grave con deterioro brusco. La alternativa es la quetiapina o la clozapina.",
+      "En el DELIRIUM no cura nada: controla la agitación mientras se busca y se corrige la causa (infección, fármacos, dolor, retención urinaria, hipoxia, abstinencia). Y hay que dejar escrito cuándo se retira, porque de lo contrario el paciente sale del hospital con un antipsicótico crónico que nadie indicó.",
+      "En el delirium por ABSTINENCIA ALCOHÓLICA el tratamiento son las BENZODIAZEPINAS, no el haloperidol, que además baja el umbral convulsivo. Es una distinción que cambia el manejo por completo.",
+      "El SÍNDROME NEUROLÉPTICO MALIGNO es la urgencia a reconocer: fiebre, rigidez en tubo de plomo, alteración de la conciencia, inestabilidad autonómica y CK alta. Se retira el fármaco, se enfría y se hidrata al paciente, y se valoran dantroleno y bromocriptina. Se distingue del síndrome serotoninérgico porque este cursa con hiperreflexia, clonus y midriasis, y se instaura en horas en vez de en días.",
+      "Por vía INTRAVENOSA prolonga más el QT que por vía oral o intramuscular. Antes de usarla conviene un ECG y corregir el potasio y el magnesio; es una precaución que se salta a menudo en la urgencia y que a veces se paga.",
+      "En cuidados paliativos es un antiemético de primera línea a dosis mucho menores que las psiquiátricas: 0,5-1,5 mg controlan las náuseas de causa central, metabólica u opioide.",
+      "En el anciano con demencia, todos los antipsicóticos aumentan la mortalidad. Eso no los prohíbe, pero obliga a una indicación estricta, a la dosis mínima, al consentimiento informado y a una fecha de revisión."
+    ],
+    "embarazo_lactancia": "Es uno de los antipsicóticos con más experiencia acumulada en el embarazo y se considera de uso aceptable cuando está indicado; el uso en el tercer trimestre puede producir síntomas extrapiramidales y de abstinencia en el recién nacido. Pasa a la leche en pequeñas cantidades; la lactancia se considera posible con vigilancia de la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; guías NICE de psicosis y de delirium"
+  }
+]

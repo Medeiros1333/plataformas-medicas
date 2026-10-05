@@ -1,0 +1,133 @@
+[
+  {
+    "id": "END-desmopresina",
+    "nombre": "Desmopresina",
+    "sinonimos": [
+      "DDAVP"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Análogo hormonal",
+    "subclase": "Análogo sintético de la vasopresina con selectividad V2",
+    "mecanismo": "Es un análogo sintético de la vasopresina modificado en dos posiciones, y esas modificaciones consiguen tres cosas: SELECTIVIDAD por el receptor V2 (antidiurético) con pérdida casi total de la acción V1 (vasoconstrictora), lo que evita la hipertensión y la isquemia; una vida media mucho más larga; y resistencia a la degradación, permitiendo la vía oral y nasal. El receptor V2 del túbulo colector inserta acuaporinas 2 en la membrana luminal y permite reabsorber agua libre, concentrando la orina. Tiene además un segundo efecto que no tiene nada que ver con el riñón y que sorprende: la estimulación V2 del ENDOTELIO libera los depósitos preformados de FACTOR VIII y de FACTOR DE VON WILLEBRAND, multiplicando por dos o por cuatro sus concentraciones plasmáticas. De ahí su uso hemostático, y de ahí también su limitación: solo funciona si hay depósitos que liberar, y esos depósitos se AGOTAN (taquifilaxia) tras dos o tres dosis.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DIABETES INSÍPIDA CENTRAL",
+        "dosis": "0,1-0,4 mg al día por vía oral repartidos en 2-3 tomas, o 10-40 microgramos al día por vía intranasal",
+        "posologia": "Dos o tres tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Control de la poliuria y de la sed, permitiendo dormir de noche, con NATREMIA normal",
+        "nota": "NO sirve en la diabetes insípida NEFROGÉNICA, donde el problema es que el receptor no responde: es el fundamento de la prueba de deprivación de agua con desmopresina"
+      },
+      {
+        "patologia": "ENFERMEDAD DE VON WILLEBRAND tipo 1 y HEMOFILIA A leve",
+        "dosis": "0,3 microgramos/kg IV o SC en 30 minutos, o 300 microgramos por vía intranasal",
+        "posologia": "Dosis única, repetible cada 12-24 horas un máximo de 2-3 veces",
+        "via": "IV",
+        "dosis_objetivo": "Factor VIII o de von Willebrand por encima del 50% antes de un procedimiento",
+        "nota": "Hay que hacer una PRUEBA DE RESPUESTA previa: no todos los pacientes responden, y conviene saberlo antes de una cirugía y no durante"
+      },
+      {
+        "patologia": "ENURESIS NOCTURNA primaria del niño mayor de 5 años",
+        "dosis": "0,2 mg por vía oral (comprimido o liofilizado sublingual) 1 hora antes de acostarse",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Noches secas, con RESTRICCIÓN de líquidos desde 1 hora antes hasta 8 horas después",
+        "nota": "La restricción de líquidos NO es opcional: beber tras la dosis es la causa de las intoxicaciones hídricas descritas en niños, algunas con convulsiones"
+      },
+      {
+        "patologia": "NICTURIA del adulto y poliuria nocturna",
+        "dosis": "25-50 microgramos sublinguales por la noche (dosis MENOR en la mujer que en el varón)",
+        "posologia": "Una toma nocturna",
+        "via": "SL",
+        "nota": "La HIPONATREMIA es frecuente y grave en el ANCIANO: hay que medir el sodio a los 3-7 días y al mes, y no usarla por encima de los 65 años sin una vigilancia estrecha"
+      },
+      {
+        "patologia": "Hemorragia urémica y reversión parcial de la disfunción plaquetaria",
+        "dosis": "0,3 microgramos/kg IV",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Mejora la hemostasia en el paciente urémico con sangrado, con efecto de 4-8 horas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Natremia basal. Explicar la RESTRICCIÓN DE LÍQUIDOS, que es la medida de seguridad esencial y no una recomendación accesoria.",
+      "titulacion": "Se ajusta a la dosis mínima que controle los síntomas. En la diabetes insípida es deseable permitir un breve periodo de poliuria cada día para evitar la intoxicación hídrica.",
+      "duracion": "Indefinida en la diabetes insípida; puntual en las indicaciones hemostáticas; meses con reevaluación en la enuresis.",
+      "fin": "En la enuresis se hacen descansos periódicos para comprobar si ya no hace falta. En la diabetes insípida no se retira.",
+      "via": "Oral, sublingual, intranasal, subcutánea o intravenosa. Las biodisponibilidades son MUY distintas entre vías y NO son intercambiables miligramo a miligramo.",
+      "monitorizacion": "SODIO sérico: basal, a los 3-7 días, al mes y después periódicamente, sobre todo en el anciano. Balance hídrico y peso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral muy baja (0,1%) y nasal en torno al 3-5%: por eso las dosis de cada vía difieren en un factor enorme y confundirlas es peligroso.",
+      "distribucion": "Amplia; no atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal.",
+      "vida_media": "1,5-3 horas, con efecto antidiurético de 6-12 horas.",
+      "ajuste_renal": "Evitar con filtrado menor de 50 mL/min en las indicaciones de nicturia y enuresis por el riesgo de hiponatremia.",
+      "ajuste_hepatico": "Sin ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "AINE, ISRS, carbamazepina, tiazidas y clorpropamida",
+          "efecto": "Potencian el efecto antidiurético y multiplican el riesgo de HIPONATREMIA",
+          "gravedad": "alta",
+          "manejo": "Combinaciones muy frecuentes en el anciano: revisar la lista antes de prescribirla"
+        },
+        {
+          "con": "Aporte excesivo de LÍQUIDOS",
+          "efecto": "INTOXICACIÓN HÍDRICA con hiponatremia, convulsiones y coma",
+          "gravedad": "alta",
+          "manejo": "La restricción hídrica es parte del tratamiento, no un consejo. En el niño con enuresis, nada de beber desde 1 hora antes hasta 8 horas después"
+        },
+        {
+          "con": "Loperamida",
+          "efecto": "Triplica la absorción de la desmopresina oral",
+          "gravedad": "media",
+          "manejo": "Vigilar la natremia"
+        },
+        {
+          "con": "Glucocorticoides",
+          "efecto": "Antagonizan su efecto antidiurético",
+          "gravedad": "baja",
+          "manejo": "Prever ajuste de dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Náuseas y dolor abdominal",
+        "Rubor facial",
+        "Congestión nasal y epistaxis con la vía intranasal"
+      ],
+      "graves": [
+        "HIPONATREMIA con convulsiones, edema cerebral y coma: es SU riesgo, y es especialmente grave en el ANCIANO y en el NIÑO que bebe tras la dosis",
+        "Intoxicación hídrica",
+        "Trombosis arterial (descrita con dosis hemostáticas repetidas en pacientes de riesgo)",
+        "TAQUIFILAXIA del efecto hemostático tras 2-3 dosis, por agotamiento de los depósitos endoteliales"
+      ]
+    },
+    "contraindicaciones": [
+      "HIPONATREMIA y SIADH",
+      "Polidipsia primaria o psicógena (el problema es el exceso de ingesta, y la desmopresina lo convierte en hiponatremia)",
+      "Insuficiencia cardiaca y situaciones que exijan tratamiento diurético",
+      "Insuficiencia renal moderada-grave para las indicaciones urológicas",
+      "Enfermedad de von Willebrand tipo 2B (puede agravar la trombopenia)"
+    ],
+    "perlas": [
+      "Todo el manejo de este fármaco gira alrededor del AGUA: si el paciente sigue bebiendo mientras el riñón ha dejado de eliminar, hace una hiponatremia. La RESTRICCIÓN DE LÍQUIDOS no es un consejo higiénico, es parte de la prescripción, y explicarla mal ha causado convulsiones en niños tratados por enuresis.",
+      "Las dosis de cada VÍA son radicalmente distintas: la biodisponibilidad oral es del 0,1% y la nasal en torno al 3-5%. Pasar de una vía a otra usando el mismo número de microgramos es un error de sobredosificación grave, y ha ocurrido.",
+      "Tiene DOS mecanismos completamente distintos según la indicación: ANTIDIURÉTICO por el receptor V2 renal, y HEMOSTÁTICO por liberación endotelial de factor VIII y de von Willebrand. Es el mismo receptor V2 en dos tejidos, y verlo así ordena unas indicaciones que de otro modo parecen no tener nada que ver.",
+      "El efecto HEMOSTÁTICO se AGOTA: solo libera los depósitos ya formados, y tras dos o tres dosis aparece taquifilaxia. No sirve para un sangrado prolongado, sirve para cubrir un procedimiento.",
+      "Antes de contar con ella para una cirugía hay que hacer una PRUEBA DE RESPUESTA: no todos los pacientes con von Willebrand tipo 1 responden, y descubrirlo en el quirófano es descubrirlo tarde.",
+      "En la diabetes insípida NEFROGÉNICA no funciona, porque el receptor no responde. Esa diferencia es precisamente lo que permite distinguir ambas formas en la prueba de deprivación de agua: si la orina se concentra tras administrar desmopresina, la causa es central.",
+      "En el ANCIANO con NICTURIA la hiponatremia es frecuente y potencialmente grave, sobre todo si además toma un diurético, un ISRS o un AINE. Hay que medir el sodio a los pocos días de empezar, y la dosis en la mujer es menor que en el varón.",
+      "En la POLIDIPSIA PRIMARIA está contraindicada: el paciente bebe en exceso por un problema conductual, y bloquear la eliminación de agua transforma una poliuria molesta en una hiponatremia peligrosa.",
+      "En la enuresis conviene hacer DESCANSOS periódicos: muchos niños dejan de necesitarla con el tiempo, y sin esas pausas el tratamiento se prolonga años sin motivo."
+    ],
+    "embarazo_lactancia": "Se puede usar en el embarazo cuando está indicada (diabetes insípida): apenas es degradada por la oxitocinasa placentaria y no tiene efecto oxitócico relevante a las dosis empleadas. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37; guías de la Endocrine Society sobre diabetes insípida y recomendaciones sobre hiponatremia por desmopresina"
+  }
+]

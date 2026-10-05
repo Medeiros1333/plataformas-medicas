@@ -1,0 +1,257 @@
+[
+  {
+    "id": "ONC-fluoropirimidinas",
+    "nombre": "5-fluorouracilo y capecitabina",
+    "sinonimos": [
+      "Fluoropirimidinas"
+    ],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico antimetabolito (fluoropirimidina)",
+    "subclase": "Antimetabolito análogo de pirimidinas",
+    "mecanismo": "Su metabolito principal, el FdUMP, forma un complejo ternario estable con la TIMIDILATO SINTASA y con el folato reducido, bloqueando la única vía de síntesis DE NOVO de timidina. Sin timidina no hay ADN: la célula entra en lo que se llama muerte sin timina. Ese es el motivo por el que el ÁCIDO FOLÍNICO (leucovorina) se administra siempre junto al 5-FU: no es un rescate como en el metotrexato, sino todo lo contrario, aumenta la disponibilidad de folato reducido, estabiliza el complejo ternario y POTENCIA el efecto citotóxico. Otros metabolitos se incorporan además al ARN y al ADN, alterando su función. La CAPECITABINA es un profármaco oral que atraviesa tres pasos enzimáticos y se activa preferentemente en el TUMOR, donde la timidina fosforilasa está sobreexpresada: es una forma elegante de conseguir selectividad y de evitar la infusión continua.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer COLORRECTAL, adyuvancia y enfermedad metastásica",
+        "dosis": "5-FU 400 mg/m² en bolo y 2400 mg/m² en infusión continua de 46 horas con ácido folínico (esquema FOLFOX o FOLFIRI); capecitabina 1000-1250 mg/m² cada 12 horas, 14 días de cada 21",
+        "posologia": "Cada 2 semanas (infusional) o 14 días de cada 21 (oral)",
+        "via": "IV",
+        "nota": "La infusión CONTINUA es más eficaz y menos tóxica que el bolo: es un fármaco cuya eficacia depende del TIEMPO de exposición"
+      },
+      {
+        "patologia": "Cáncer GÁSTRICO y de páncreas",
+        "dosis": "5-FU 2600 mg/m² en infusión de 24 horas (FLOT) o 400 mg/m² en bolo más 2400 mg/m² en 46 horas (FOLFIRINOX), cada 2 semanas",
+        "posologia": "Ciclos de 14 días",
+        "via": "IV",
+        "nota": "Forma parte de prácticamente todos los esquemas de tumores digestivos"
+      },
+      {
+        "patologia": "Cáncer de MAMA",
+        "dosis": "Capecitabina 1000-1250 mg/m² cada 12 horas, 14 días de cada 21",
+        "posologia": "Cada 12 horas con comida, 14 días de cada 21",
+        "via": "VO",
+        "nota": "Muy usada en la enfermedad metastásica y en la adyuvancia tras respuesta patológica incompleta en el triple negativo"
+      },
+      {
+        "patologia": "Radioquimioterapia del cáncer de RECTO y de canal anal",
+        "dosis": "Capecitabina 825 mg/m² cada 12 horas los días de radioterapia",
+        "posologia": "Cada 12 horas durante la radioterapia",
+        "via": "VO",
+        "nota": "Actúa como radiosensibilizante y ha sustituido a la infusión continua de 5-FU por comodidad"
+      },
+      {
+        "patologia": "Queratosis actínicas y carcinoma basocelular superficial",
+        "dosis": "5-FU al 5% en crema, una o dos aplicaciones al día durante 2-4 semanas",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Produce una reacción inflamatoria intensa que es SEÑAL DE EFICACIA: hay que advertirla o el paciente abandonará el tratamiento"
+      }
+    ],
+    "esquema": {
+      "inicio": "Valorar el cribado del déficit de DPD (genotipado de DPYD o determinación de uracilo plasmático), hoy RECOMENDADO antes de la primera dosis en Europa. Hemograma, función renal y hepática basales.",
+      "titulacion": "Reducción de dosis según toxicidad (mucositis, diarrea, síndrome mano-pie), que es lo que limita el tratamiento.",
+      "duracion": "6 meses en adyuvancia; hasta progresión o toxicidad en la enfermedad metastásica.",
+      "fin": "Suspensión ante toxicidad grado 3-4, reiniciando a dosis reducida tras la recuperación.",
+      "via": "Intravenosa en infusión continua (requiere reservorio y bomba portátil) u oral (capecitabina, siempre CON COMIDA, en los 30 minutos siguientes).",
+      "monitorizacion": "Hemograma, mucosa oral, deposiciones, y exploración de PALMAS Y PLANTAS en cada visita. En pacientes anticoagulados con antivitamina K, INR frecuente."
+    },
+    "farmacocinetica": {
+      "absorcion": "El 5-FU no se absorbe de forma fiable por vía oral; la CAPECITABINA sí, y debe tomarse con comida.",
+      "distribucion": "Amplia; atraviesa la barrera hematoencefálica.",
+      "metabolismo": "El 80-90% se cataboliza por la DIHIDROPIRIMIDINA DESHIDROGENASA (DPD) a metabolitos inactivos. El déficit de DPD, presente en un 3-8% de la población en forma parcial y en un 0,1-0,5% en forma completa, produce una toxicidad devastadora.",
+      "eliminacion": "Respiratoria y renal en forma de metabolitos.",
+      "vida_media": "Muy corta, de 10-20 minutos, lo que justifica la infusión continua.",
+      "ajuste_renal": "La CAPECITABINA requiere reducción con filtrado de 30-50 mL/min y está CONTRAINDICADA por debajo de 30.",
+      "ajuste_hepatico": "Precaución en la disfunción hepática significativa.",
+      "interacciones": [
+        {
+          "con": "ANTICOAGULANTES antivitamina K (warfarina, acenocumarol)",
+          "efecto": "Elevación marcada e imprevisible del INR con hemorragias graves",
+          "gravedad": "alta",
+          "manejo": "Es una interacción frecuente e infravalorada. Controlar el INR con mucha más frecuencia o cambiar a heparina de bajo peso molecular, que además es la anticoagulación preferida en el paciente oncológico"
+        },
+        {
+          "con": "BRIVUDINA y sorivudina (antivíricos)",
+          "efecto": "Inhiben IRREVERSIBLEMENTE la DPD y provocan una toxicidad MORTAL por 5-FU",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICACIÓN ABSOLUTA. Hay que respetar un intervalo de al menos 4 SEMANAS entre la brivudina y el 5-FU. Se han producido muertes por prescribir brivudina para un herpes zóster a un paciente en tratamiento"
+        },
+        {
+          "con": "Ácido folínico (leucovorina)",
+          "efecto": "POTENCIA su citotoxicidad al estabilizar el complejo ternario",
+          "gravedad": "baja",
+          "manejo": "Interacción BUSCADA y parte del esquema estándar"
+        },
+        {
+          "con": "Alopurinol y metronidazol",
+          "efecto": "Modifican su toxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "MUCOSITIS y estomatitis",
+        "DIARREA, que puede ser grave y deshidratante",
+        "Mielosupresión",
+        "SÍNDROME MANO-PIE (eritrodisestesia palmoplantar): eritema, descamación, dolor y fisuras en palmas y plantas, muy característico de la CAPECITABINA",
+        "Hiperpigmentación cutánea y del trayecto venoso",
+        "Conjuntivitis y epífora por estenosis del conducto lagrimal"
+      ],
+      "graves": [
+        "TOXICIDAD DEVASTADORA en el déficit de DPD: mucositis extrema, diarrea incoercible, aplasia medular y muerte, con dosis perfectamente estándar",
+        "CARDIOTOXICIDAD por VASOESPASMO CORONARIO: dolor torácico e incluso infarto durante la infusión, en pacientes a menudo sin cardiopatía previa",
+        "Encefalopatía hiperamoniémica",
+        "Diarrea grave con deshidratación y sepsis",
+        "Síndrome de leucoencefalopatía"
+      ]
+    },
+    "contraindicaciones": [
+      "DÉFICIT COMPLETO de DPD",
+      "Uso de BRIVUDINA en las 4 semanas previas",
+      "Mielosupresión grave",
+      "Insuficiencia renal grave (capecitabina)",
+      "EMBARAZO y lactancia"
+    ],
+    "perlas": [
+      "El déficit de DPD es el ejemplo actual de farmacogenética que salva vidas: entre el 3 y el 8% de la población tiene un déficit parcial y sufre toxicidad grave con dosis normales. El cribado (genotipado de DPYD o uracilemia) antes del primer ciclo es hoy una recomendación europea, y su omisión ha causado muertes evitables.",
+      "La interacción con la BRIVUDINA es de las pocas que matan de forma prácticamente segura: inhibe irreversiblemente la DPD, y prescribirla para un herpes zóster a un paciente que recibe capecitabina desencadena una toxicidad mortal. Hay que dejar 4 semanas de margen. Es un antivírico que muchos médicos no oncólogos prescriben sin pensar en esto.",
+      "El ÁCIDO FOLÍNICO aquí POTENCIA la toxicidad y la eficacia, al revés que en el metotrexato, donde RESCATA. Es un contraste que ordena las dos situaciones: con metotrexato el folínico salva, con 5-FU el folínico refuerza.",
+      "El SÍNDROME MANO-PIE es la toxicidad que define a la capecitabina y hay que buscarla activamente en cada visita: empieza con hormigueo y eritema, y si no se reduce la dosis progresa a fisuras dolorosas que impiden caminar y usar las manos. Emolientes con urea y evitar la fricción y el calor son medidas preventivas eficaces.",
+      "La CARDIOTOXICIDAD por vasoespasmo coronario sorprende porque no encaja con la idea de un antimetabolito: dolor torácico durante la infusión, a veces con elevación del segmento ST, en pacientes jóvenes sin cardiopatía. Obliga a suspender e impide, en general, la reexposición.",
+      "La INFUSIÓN CONTINUA es más eficaz y menos tóxica que el bolo porque el fármaco tiene una vida media de minutos y actúa sobre la fase S: lo que importa es el TIEMPO de exposición, no el pico.",
+      "La CAPECITABINA se toma CON COMIDA y en los 30 minutos siguientes: en ayunas cambia su absorción y su toxicidad.",
+      "En un paciente anticoagulado con acenocumarol, iniciar capecitabina descontrola el INR de forma imprevisible. En oncología, la anticoagulación preferente es con heparina de bajo peso molecular, y esta interacción es uno de los motivos.",
+      "En el uso TÓPICO por queratosis actínicas, la reacción inflamatoria intensa (eritema, costras, erosión) es SEÑAL DE QUE FUNCIONA. Sin esa advertencia, el paciente suspende el tratamiento a mitad convencido de que le ha sentado mal."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADAS en el embarazo (teratógenas) y en la lactancia. Se requiere anticoncepción eficaz durante el tratamiento y en los meses siguientes.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; recomendaciones de la EMA sobre cribado de DPD antes del tratamiento con fluoropirimidinas"
+  },
+  {
+    "id": "ONC-inhibidores-checkpoint",
+    "nombre": "Inhibidores de puntos de control inmunitario (pembrolizumab, nivolumab, atezolizumab, ipilimumab)",
+    "sinonimos": [
+      "Inmunoterapia",
+      "Anti-PD1, anti-PDL1, anti-CTLA4"
+    ],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico inmunoterápico",
+    "subclase": "Anticuerpos monoclonales frente a puntos de control inmunitario",
+    "mecanismo": "No atacan al tumor: LIBERAN EL FRENO del sistema inmunitario para que sea este quien lo ataque. El eje PD-1/PD-L1 es un mecanismo fisiológico de tolerancia periférica que apaga al linfocito T cuando reconoce PD-L1 en un tejido sano; muchos tumores lo secuestran expresando PD-L1 y desactivando así al linfocito que los ha reconocido. Los anti-PD1 y anti-PD-L1 bloquean esa interacción y devuelven la función citotóxica al linfocito infiltrante. El CTLA-4 actúa antes, en el ganglio linfático, compitiendo con el CD28 por la señal coestimuladora durante el CEBADO del linfocito; bloquearlo amplía el repertorio de linfocitos activados. De ese mecanismo se deducen directamente sus dos rasgos clínicos característicos: una toxicidad que es AUTOINMUNITARIA y no citotóxica, y respuestas que, cuando ocurren, pueden ser MUY DURADERAS porque quedan sostenidas por la memoria inmunitaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "MELANOMA avanzado",
+        "dosis": "Pembrolizumab 200 mg cada 3 semanas o 400 mg cada 6 semanas; nivolumab 240 mg cada 2 semanas; combinación nivolumab más ipilimumab en casos seleccionados",
+        "posologia": "Cada 2, 3 o 6 semanas",
+        "via": "IV",
+        "nota": "Transformó el pronóstico de una enfermedad con supervivencia de meses en supervivencias prolongadas en una fracción sustancial de pacientes"
+      },
+      {
+        "patologia": "Cáncer de PULMÓN no microcítico",
+        "dosis": "Pembrolizumab 200 mg cada 3 semanas, solo o con quimioterapia",
+        "posologia": "Cada 3 semanas",
+        "via": "IV",
+        "dosis_objetivo": "En monoterapia de primera línea se exige expresión tumoral de PD-L1 superior al 50%",
+        "nota": "La expresión de PD-L1 es un biomarcador imperfecto pero decide entre monoterapia y combinación con quimioterapia"
+      },
+      {
+        "patologia": "Tumores con INESTABILIDAD DE MICROSATÉLITES o déficit de reparación (dMMR/MSI-H), con independencia del órgano de origen",
+        "dosis": "Pembrolizumab 200 mg cada 3 semanas",
+        "posologia": "Cada 3 semanas",
+        "via": "IV",
+        "nota": "Es la primera aprobación AGNÓSTICA DEL TUMOR de la historia: la indicación la da el biomarcador, no la localización. Alta carga mutacional significa más neoantígenos y más respuesta"
+      },
+      {
+        "patologia": "Carcinoma renal, urotelial, de cabeza y cuello, hepatocarcinoma y linfoma de Hodgkin",
+        "dosis": "Pembrolizumab 200 mg cada 3 semanas, nivolumab 240 mg cada 2 semanas o atezolizumab 1200 mg cada 3 semanas",
+        "posologia": "Cada 2-3 semanas",
+        "via": "IV",
+        "nota": "El linfoma de Hodgkin, con amplificación de PD-L1, responde de forma especialmente llamativa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de empezar: función TIROIDEA, cortisol, glucemia, función hepática y renal, y una anamnesis dirigida a ENFERMEDADES AUTOINMUNES previas y a trasplante de órgano. Determinar los biomarcadores (PD-L1, MSI, carga mutacional) según el tumor.",
+      "titulacion": "Dosis fija, no ajustada por peso en la mayoría de los esquemas actuales.",
+      "duracion": "Hasta progresión, toxicidad inaceptable o 2 años, según indicación.",
+      "fin": "Ante toxicidad inmunorrelacionada grave se suspende y se trata con CORTICOIDES a dosis altas; si no responden en 48-72 horas, se escala a infliximab, micofenolato u otro inmunosupresor según el órgano afectado.",
+      "via": "Intravenosa (existen formulaciones subcutáneas).",
+      "monitorizacion": "Función tiroidea, hepática, renal y glucemia ANTES DE CADA CICLO. Anamnesis dirigida a diarrea, disnea, exantema, astenia y cefalea, que son las primeras manifestaciones de las toxicidades más importantes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Compartimento vascular e intersticial.",
+      "metabolismo": "Catabolismo proteico; sin interacciones por citocromo P450.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "20-30 días; el efecto biológico persiste MESES tras la última dosis, y con él la posibilidad de toxicidad tardía.",
+      "ajuste_renal": "No requieren ajuste.",
+      "ajuste_hepatico": "No requieren ajuste, salvo suspensión por hepatitis inmunomediada.",
+      "interacciones": [
+        {
+          "con": "CORTICOIDES a dosis inmunosupresoras al inicio",
+          "efecto": "Pueden reducir la eficacia si se administran antes o al principio del tratamiento",
+          "gravedad": "media",
+          "manejo": "Evitar corticoides no imprescindibles al inicio. En cambio, una vez aparecida una toxicidad inmunorrelacionada, el corticoide es el tratamiento y NO parece comprometer el beneficio"
+        },
+        {
+          "con": "ANTIBIÓTICOS de amplio espectro",
+          "efecto": "Alteran la MICROBIOTA intestinal, que modula la respuesta a la inmunoterapia; se asocian a peores resultados",
+          "gravedad": "media",
+          "manejo": "Evitar antibióticos innecesarios en las semanas previas y durante el tratamiento"
+        },
+        {
+          "con": "Inmunosupresores (trasplantados)",
+          "efecto": "Riesgo de RECHAZO del injerto al reactivar la inmunidad",
+          "gravedad": "alta",
+          "manejo": "Decisión individualizada y de alto riesgo en el paciente trasplantado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Astenia",
+        "EXANTEMA y prurito",
+        "DIARREA",
+        "HIPOTIROIDISMO (a menudo precedido de una fase de tirotoxicitis transitoria)",
+        "Artralgias"
+      ],
+      "graves": [
+        "COLITIS inmunomediada, que puede llegar a la perforación: es la toxicidad más frecuente y peligrosa del IPILIMUMAB",
+        "NEUMONITIS inmunomediada, la más letal de las toxicidades de los anti-PD1",
+        "HEPATITIS autoinmune",
+        "HIPOFISITIS con insuficiencia suprarrenal secundaria, típica del ipilimumab y frecuentemente IRREVERSIBLE",
+        "DIABETES tipo 1 de inicio brusco, a veces debutando con cetoacidosis",
+        "MIOCARDITIS: rara pero con mortalidad muy alta",
+        "Miastenia, síndrome de Guillain-Barré, encefalitis y neuropatías",
+        "Nefritis intersticial",
+        "Toxicidades cutáneas graves (Stevens-Johnson, DRESS)"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad AUTOINMUNE activa y grave (valoración individualizada)",
+      "Trasplante de órgano sólido (riesgo de rechazo)",
+      "Toxicidad inmunorrelacionada previa grave con el mismo fármaco",
+      "Uso de corticoides a dosis inmunosupresoras al inicio",
+      "EMBARAZO"
+    ],
+    "perlas": [
+      "El cambio de paradigma es total y hay que interiorizarlo: la toxicidad no es citotóxica sino AUTOINMUNITARIA, y por tanto no se maneja reduciendo dosis sino con CORTICOIDES a dosis altas. Cualquier síntoma nuevo en un paciente con inmunoterapia es una toxicidad inmunomediada hasta que se demuestre lo contrario.",
+      "Puede afectar a CUALQUIER órgano y aparecer en CUALQUIER momento, incluso MESES DESPUÉS de la última dosis. Un paciente que terminó el tratamiento hace medio año y consulta por diarrea o disnea sigue en riesgo, y el médico de urgencias necesita saberlo.",
+      "El ritmo temporal ayuda a orientar: la toxicidad cutánea aparece en las primeras semanas, la colitis y la hepatitis hacia el segundo o tercer mes, y las endocrinopatías más tarde.",
+      "La HIPOFISITIS con insuficiencia suprarrenal secundaria se presenta como astenia, cefalea, náuseas e hipotensión, y se confunde con progresión tumoral o con depresión. Es potencialmente mortal si no se sospecha y suele ser IRREVERSIBLE, obligando a sustitución hormonal de por vida.",
+      "La MIOCARDITIS es rara pero mata: mortalidad en torno al 50%. Cualquier dolor torácico, disnea o arritmia obliga a medir troponina y a actuar de inmediato.",
+      "La diferencia de perfil entre familias es útil: el IPILIMUMAB (anti-CTLA4) da más colitis e hipofisitis y más toxicidad global, porque actúa en la fase de cebado; los anti-PD1 dan más neumonitis y tiroiditis. La combinación multiplica la eficacia y también la toxicidad grave.",
+      "La PSEUDOPROGRESIÓN es un fenómeno propio de esta clase: el tumor parece crecer en la primera TC por infiltrado de linfocitos y después regresa. Retirar el tratamiento por una imagen aislada puede privar al paciente de una respuesta duradera, y por eso existen criterios de respuesta específicos (iRECIST).",
+      "El resultado que justifica todo el entusiasmo es la DURABILIDAD: una fracción de pacientes con enfermedad metastásica mantiene la respuesta años después de suspender el tratamiento, algo que la quimioterapia clásica prácticamente nunca conseguía.",
+      "Los ANTIBIÓTICOS de amplio espectro en las semanas previas se asocian a peores resultados, probablemente por su efecto sobre la MICROBIOTA. Es un argumento más para no prescribir antibióticos innecesarios en el paciente oncológico.",
+      "La indicación por MSI-H o dMMR fue la primera aprobación de la historia basada en un biomarcador y no en el órgano de origen: un tumor con muchas mutaciones genera muchos neoantígenos, y ahí la inmunoterapia funciona sea cual sea su localización."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo: el eje PD-1/PD-L1 mantiene la tolerancia materno-fetal, y su bloqueo se asocia a aborto y muerte fetal. Se exige anticoncepción eficaz durante el tratamiento y hasta 4-5 meses después. Contraindicados en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y ASCO sobre manejo de las toxicidades inmunorrelacionadas"
+  }
+]

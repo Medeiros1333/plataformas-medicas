@@ -1,0 +1,253 @@
+[
+  {
+    "id": "PSQ-mirtazapina",
+    "nombre": "Mirtazapina",
+    "sinonimos": [
+      "Antidepresivo noradrenérgico y serotoninérgico específico"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "NaSSA: antagonista alfa-2 presináptico con bloqueo 5-HT2 y 5-HT3",
+    "vs_clase": [
+      "**SEDANTE y orexígena**: útil en la depresión con **insomnio y pérdida de apetito o peso** (anciano, oncológico).",
+      "**Sin disfunción sexual** y sin náuseas (bloquea 5-HT3).",
+      "**Aumento de peso** importante; **la sedación es mayor a dosis bajas (15 mg)** que a dosis altas."
+    ],
+    "mecanismo": "Su mecanismo es el opuesto al de los ISRS y por eso su perfil clínico también lo es. Bloquea el AUTORRECEPTOR ALFA-2 presináptico, que normalmente frena la liberación de noradrenalina y serotonina: al bloquearlo, AUMENTA la liberación de ambas en lugar de impedir su recaptación. A la vez bloquea los receptores postsinápticos 5-HT2A, 5-HT2C y 5-HT3, de modo que la serotonina liberada solo actúa sobre el receptor 5-HT1A, que es el que media el efecto antidepresivo. Ese bloqueo selectivo explica que carezca de los efectos adversos característicos de los ISRS: el bloqueo 5-HT2 evita la disfunción sexual, el insomnio y la ansiedad, y el bloqueo 5-HT3 evita las náuseas y de hecho tiene efecto antiemético. Su potente antagonismo H1 (histaminérgico) produce la SEDACIÓN y el AUMENTO DE APETITO, que son sus dos efectos adversos y, en el paciente adecuado, sus dos mejores indicaciones. Una particularidad clave: la sedación es MAYOR a dosis BAJAS, porque a dosis altas el efecto noradrenérgico contrarresta el antihistamínico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DEPRESIÓN mayor con INSOMNIO, ANOREXIA y pérdida de peso",
+        "dosis": "15 mg por la noche de inicio, con ascenso a 30-45 mg al día",
+        "posologia": "Una toma diaria por la NOCHE",
+        "via": "VO",
+        "dosis_objetivo": "Remisión sintomática con recuperación del sueño, del apetito y del peso",
+        "nota": "Es la indicación donde brilla: el paciente que no duerme, no come y ha perdido peso obtiene tres beneficios de un solo fármaco"
+      },
+      {
+        "patologia": "Depresión en el paciente ANCIANO u ONCOLÓGICO con caquexia",
+        "dosis": "7,5-15 mg por la noche, con ascenso lento",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "En cuidados paliativos es especialmente útil: trata a la vez el ánimo, el insomnio, la anorexia, las náuseas y el prurito"
+      },
+      {
+        "patologia": "Depresión con DISFUNCIÓN SEXUAL por ISRS",
+        "dosis": "15-45 mg al día",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "El bloqueo 5-HT2 hace que prácticamente NO produzca disfunción sexual: es la alternativa cuando ese es el motivo del abandono"
+      },
+      {
+        "patologia": "Insomnio asociado a depresión o a ansiedad",
+        "dosis": "7,5-15 mg por la noche",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "A DOSIS BAJAS es más sedante que a dosis altas: subirla para dormir mejor consigue lo contrario"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar por 15 mg por la noche (7,5 mg en el anciano). Advertir de la sedación de los primeros días y del aumento de apetito.",
+      "titulacion": "Ascenso cada 1-2 semanas hasta 30-45 mg. Si el problema es la sedación excesiva, a veces la solución es SUBIR la dosis, no bajarla.",
+      "duracion": "Al menos 6-12 meses tras la remisión del primer episodio.",
+      "fin": "Retirada gradual a lo largo de semanas.",
+      "via": "Oral; existe presentación bucodispersable, útil en el paciente con dificultad para tragar o poca colaboración.",
+      "monitorizacion": "PESO y perfil metabólico (glucemia y lípidos), estado de ánimo y, ante fiebre o infección, hemograma por el riesgo de agranulocitosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin efecto relevante de la comida.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP2D6, CYP3A4 y CYP1A2.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "20-40 horas, lo que permite la toma única nocturna.",
+      "ajuste_renal": "Reducir la dosis en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO; respetar 14 días de lavado"
+        },
+        {
+          "con": "Alcohol, benzodiazepinas y otros sedantes",
+          "efecto": "Sedación aditiva marcada",
+          "gravedad": "alta",
+          "manejo": "Evitar o reducir dosis; advertir sobre la conducción"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (azoles, macrólidos, ritonavir)",
+          "efecto": "Aumentan sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis"
+        },
+        {
+          "con": "Antipsicóticos y otros fármacos que aumentan de peso",
+          "efecto": "Ganancia ponderal y síndrome metabólico aditivos",
+          "gravedad": "media",
+          "manejo": "Vigilar peso, glucemia y lípidos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN y somnolencia diurna, máximas al inicio y con dosis bajas",
+        "AUMENTO DE APETITO y GANANCIA DE PESO, muy marcados",
+        "Sequedad de boca",
+        "Mareo y edemas",
+        "Sueños vívidos"
+      ],
+      "graves": [
+        "AGRANULOCITOSIS y neutropenia grave (raras, en torno a 1 de cada 1000): ante fiebre, odinofagia o infección hay que hacer un hemograma",
+        "Síndrome metabólico con dislipidemia y diabetes por la ganancia de peso",
+        "Hiponatremia por SIADH, sobre todo en el anciano",
+        "Síndrome serotoninérgico en combinación",
+        "Viraje a manía en el paciente bipolar",
+        "Síndrome de piernas inquietas"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante de IMAO",
+      "Trastorno bipolar sin estabilizador del ánimo",
+      "Precaución en el paciente con obesidad, síndrome metabólico o diabetes mal controlada",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "La paradoja de la dosis es lo primero que hay que saber: SEDA MÁS a 15 mg que a 45 mg. A dosis bajas domina el bloqueo H1 (sedante) y al subir aparece el efecto noradrenérgico que lo contrarresta. Si el paciente está demasiado somnoliento, a menudo la solución correcta es SUBIR la dosis, algo que resulta contraintuitivo y que se hace justo al revés.",
+      "Sus dos efectos adversos son sus dos mejores indicaciones. En el anciano deprimido, insomne, sin apetito y perdiendo peso, la sedación y la ganancia ponderal no son un problema sino exactamente lo que se busca. Elegir bien el paciente convierte los inconvenientes en beneficios.",
+      "Prácticamente NO produce DISFUNCIÓN SEXUAL, gracias al bloqueo 5-HT2. Es la alternativa lógica cuando un ISRS funciona pero el paciente lo abandona por ese motivo, que es una causa de abandono mucho más frecuente de lo que se registra.",
+      "Tampoco produce NÁUSEAS, y de hecho es ANTIEMÉTICA por el bloqueo 5-HT3, el mismo mecanismo del ondansetrón. En cuidados paliativos eso convierte un antidepresivo en un fármaco que resuelve varios problemas a la vez: ánimo, sueño, apetito, náuseas y prurito.",
+      "La AGRANULOCITOSIS es rara pero real: ante fiebre, dolor de garganta o cualquier infección en un paciente que la toma, hay que hacer un hemograma antes de tratar el cuadro como una infección banal.",
+      "La GANANCIA DE PESO puede ser considerable y es la causa principal de abandono en el paciente joven. Hay que advertirla desde el principio y no elegirla en quien ya tiene obesidad o síndrome metabólico.",
+      "Se toma por la NOCHE, y esa sencilla instrucción convierte la sedación en un beneficio en lugar de un problema."
+    ],
+    "embarazo_lactancia": "Datos más limitados que con los ISRS pero sin señales de teratogenia. Puede mantenerse cuando la indicación es firme, valorando el riesgo de recaída. Compatible con la lactancia, vigilando la sedación y la ganancia de peso del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; guías NICE de depresión"
+  },
+  {
+    "id": "PSQ-trazodona",
+    "nombre": "Trazodona",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "SARI: antagonista 5-HT2 e inhibidor débil de la recaptación de serotonina",
+    "vs_clase": [
+      "**Antidepresivo SEDANTE** usado sobre todo a dosis bajas (50-100 mg) como **hipnótico** y en la agitación del anciano con demencia.",
+      "**Sin efectos anticolinérgicos** relevantes y poca disfunción sexual.",
+      "**PRIAPISMO** (raro, urgencia) e hipotensión ortostática (bloqueo alfa-1)."
+    ],
+    "mecanismo": "Es un antidepresivo cuyo uso real hoy es mayoritariamente el de HIPNÓTICO, y la explicación está en la dosis. A dosis BAJAS (25-100 mg) domina el bloqueo de los receptores 5-HT2A, H1 (histaminérgico) y alfa-1 adrenérgico, y el resultado es sedación e inducción del sueño con una arquitectura del sueño mejor conservada que con las benzodiazepinas: aumenta el sueño de ondas lentas y no suprime la fase REM. A dosis ALTAS (150-400 mg) aparece la inhibición de la recaptación de serotonina y con ella el efecto antidepresivo. Su gran ventaja frente a las benzodiazepinas y a los fármacos Z es que NO produce dependencia ni tolerancia, lo que la ha convertido en la alternativa preferida para el insomnio crónico cuando hay que evitar las benzodiazepinas. Su antagonismo alfa-1 explica la hipotensión ortostática y también el efecto adverso más singular de toda la psicofarmacología: el priapismo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INSOMNIO, especialmente el asociado a depresión, ansiedad o abstinencia de benzodiazepinas",
+        "dosis": "25-100 mg por la noche, 30-60 minutos antes de acostarse",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Conciliación y mantenimiento del sueño sin somnolencia matutina residual",
+        "nota": "Es su uso más extendido. NO genera dependencia ni tolerancia, a diferencia de las benzodiazepinas y de los fármacos Z"
+      },
+      {
+        "patologia": "Depresión mayor, sola o asociada a un ISRS",
+        "dosis": "150 mg al día con ascenso hasta 300-400 mg al día",
+        "posologia": "Repartida en 2-3 tomas o en formulación retardada nocturna",
+        "via": "VO",
+        "nota": "A dosis antidepresivas la sedación y la hipotensión ortostática limitan mucho su uso, y por eso hoy se usa más como coadyuvante que en monoterapia"
+      },
+      {
+        "patologia": "Insomnio y agitación nocturna en la DEMENCIA",
+        "dosis": "25-50 mg por la noche",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "Alternativa razonable a los antipsicóticos, que aumentan la mortalidad en el anciano con demencia; empezar por la dosis más baja"
+      },
+      {
+        "patologia": "Retirada de BENZODIAZEPINAS en el insomnio crónico",
+        "dosis": "25-100 mg por la noche durante la reducción escalonada",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "Facilita la deshabituación al cubrir el insomnio de rebote sin sustituir una dependencia por otra"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar por 25-50 mg (25 mg en el anciano) y tomarla 30-60 minutos antes de acostarse. Advertir de la hipotensión ortostática y del riesgo de caídas al levantarse por la noche.",
+      "titulacion": "Ascenso lento. Si aparece somnolencia matutina, adelantar la hora de la toma antes que reducir la dosis.",
+      "duracion": "En el insomnio, revisión periódica de si sigue siendo necesaria; el tratamiento del insomnio crónico es cognitivo-conductual y el fármaco es un apoyo.",
+      "fin": "Puede retirarse sin pauta descendente prolongada, aunque conviene hacerlo de forma gradual tras un uso largo.",
+      "via": "Oral; existe formulación de liberación prolongada.",
+      "monitorizacion": "Tensión arterial (ortostatismo), somnolencia diurna, y en el varón hay que preguntar activamente por erecciones prolongadas o dolorosas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena; los alimentos retrasan el pico y reducen algo la sedación inicial.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP3A4 a m-CPP, un metabolito activo que puede producir ansiedad y disforia.",
+      "eliminacion": "Renal.",
+      "vida_media": "5-9 horas, corta, lo que la hace adecuada como hipnótico con poca resaca.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ritonavir, azoles, claritromicina)",
+          "efecto": "Aumentan mucho sus concentraciones con sedación e hipotensión",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis"
+        },
+        {
+          "con": "Antihipertensivos y alfabloqueantes",
+          "efecto": "HIPOTENSIÓN ORTOSTÁTICA aditiva con riesgo de CAÍDAS",
+          "gravedad": "alta",
+          "manejo": "Muy relevante en el anciano: es la causa principal de daño real con este fármaco"
+        },
+        {
+          "con": "ISRS, IRSN, IMAO y triptanes",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Contraindicada con IMAO; vigilancia con los demás, aunque la combinación con ISRS a dosis bajas es habitual y bien tolerada"
+        },
+        {
+          "con": "Fármacos que alargan el QT",
+          "efecto": "Prolongación aditiva del QT",
+          "gravedad": "media",
+          "manejo": "ECG en el paciente con factores de riesgo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN y somnolencia matutina residual",
+        "HIPOTENSIÓN ORTOSTÁTICA y mareo, con riesgo de caídas en el anciano",
+        "Sequedad de boca y visión borrosa",
+        "Cefalea y náuseas"
+      ],
+      "graves": [
+        "PRIAPISMO: erección prolongada y dolorosa que constituye una URGENCIA UROLÓGICA y puede dejar disfunción eréctil permanente si se demora más de 4 horas",
+        "Hipotensión grave con síncope y fractura de cadera en el anciano",
+        "Prolongación del QT y arritmias",
+        "Hiponatremia por SIADH",
+        "Síndrome serotoninérgico",
+        "Hepatotoxicidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de IMAO",
+      "Infarto de miocardio reciente",
+      "Precaución en el varón con antecedente de priapismo o con anemia falciforme y mieloma (predisponentes)",
+      "Precaución máxima en el anciano con riesgo de caídas"
+    ],
+    "perlas": [
+      "La DOSIS decide qué fármaco es: a 25-100 mg es un HIPNÓTICO, y a 150-400 mg es un ANTIDEPRESIVO. La inmensa mayoría de las prescripciones actuales son de la primera clase, y confundir ambos rangos lleva a esperar un efecto antidepresivo de una dosis que nunca lo va a producir.",
+      "Su gran virtud como hipnótico es que NO genera DEPENDENCIA ni TOLERANCIA. En un paciente con insomnio crónico al que hay que evitar o retirar las benzodiazepinas, esa característica lo convierte en la alternativa de referencia.",
+      "El PRIAPISMO es su efecto adverso más singular y hay que advertirlo expresamente al varón, con instrucciones claras: una erección de más de 4 horas es una URGENCIA que puede dejar disfunción eréctil permanente. Es un aviso que se omite casi siempre por pudor y cuyas consecuencias son irreversibles.",
+      "La HIPOTENSIÓN ORTOSTÁTICA es lo que más daño causa en la práctica: un anciano que se levanta al baño de madrugada bajo el efecto de la trazodona puede fracturarse la cadera. Hay que advertir que se incorpore despacio y en dos tiempos.",
+      "En la agitación nocturna de la DEMENCIA es una alternativa razonable a los antipsicóticos, que aumentan la mortalidad en esa población. No es inocua, pero el balance suele ser mejor.",
+      "El tratamiento de fondo del insomnio crónico es la TERAPIA COGNITIVO-CONDUCTUAL, no el fármaco. La trazodona es un apoyo mientras se instaura, y prescribirla sin abordar la higiene del sueño perpetúa el problema.",
+      "Su metabolito m-CPP puede producir ANSIEDAD y disforia en algunos pacientes, sobre todo en metabolizadores lentos: explica reacciones paradójicas que de otro modo resultan desconcertantes."
+    ],
+    "embarazo_lactancia": "Datos limitados, sin señales claras de teratogenia. Se usa cuando el beneficio lo justifica. Compatible con la lactancia vigilando la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; guías sobre manejo del insomnio crónico"
+  }
+]

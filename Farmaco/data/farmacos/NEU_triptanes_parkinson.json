@@ -1,0 +1,380 @@
+[
+  {
+    "id": "NEU-rizatriptan",
+    "nombre": "Rizatriptán",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Triptán (agonista 5-HT1B/1D)",
+    "subclase": "Triptán oral de inicio rápido, con forma bucodispersable",
+    "vs_clase": [
+      "**El triptán oral de INICIO MÁS RÁPIDO y de los más eficaces** (alivio a las 2 h).",
+      "**Liofilizado BUCODISPERSABLE (Maxalt Max)**: se disuelve en la lengua sin agua, útil con náuseas (aunque se absorbe en el intestino, no por la mucosa).",
+      "**Con PROPRANOLOL hay que usar 5 mg** (el propranolol duplica sus niveles al inhibir la MAO-A).",
+      "**Tasa de recurrencia alta** por su vida media corta (2 h)."
+    ],
+    "mecanismo": "Agonista de receptores 5-HT1B (vasoconstricción de las arterias meníngeas dilatadas) y 5-HT1D (inhibe la liberación de CGRP y sustancia P en las terminaciones trigeminales, bloqueando la inflamación neurógena).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis de migraña moderada-grave (con o sin aura)",
+        "dosis": "10 mg (5 mg con propranolol)",
+        "posologia": "Al inicio del dolor; repetir a las 2 h si recurre (máximo 20 mg/24 h)",
+        "via": "VO",
+        "nota": "Tomar en la fase de dolor, no durante el aura"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg al inicio de la cefalea.",
+      "titulacion": "Si no responde en 3 crisis, probar otro triptán.",
+      "duracion": "Dosis única por crisis.",
+      "fin": "**No más de 10 días al mes** (cefalea por abuso de medicación).",
+      "via": "VO (comprimido o liofilizado bucodispersable).",
+      "monitorizacion": "Diario de cefaleas: número de crisis y días de toma."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 45%; pico en 1-1,5 h.",
+      "distribucion": "Unión a proteínas baja (14%).",
+      "metabolismo": "**MAO-A.**",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Precaución; en hemodiálisis aumenta la exposición.",
+      "ajuste_hepatico": "Precaución en moderada; evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Propranolol",
+          "efecto": "**Aumenta sus niveles un 70%**",
+          "gravedad": "media",
+          "manejo": "**Usar 5 mg** y separar 2 h"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Aumento de niveles y riesgo de síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Contraindicado (hasta 2 semanas después)"
+        },
+        {
+          "con": "Ergotamínicos y otros triptanes",
+          "efecto": "Vasoconstricción aditiva",
+          "gravedad": "alta",
+          "manejo": "Separar 24 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Opresión torácica, cervical o mandibular** («síntomas triptán», habitualmente no isquémicos)",
+        "Mareo, somnolencia",
+        "Parestesias, sensación de calor"
+      ],
+      "graves": [
+        "Isquemia miocárdica o cerebral en pacientes con enfermedad vascular",
+        "Síndrome serotoninérgico (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica, ictus o AIT previos, arteriopatía periférica",
+      "Hipertensión no controlada",
+      "Migraña hemipléjica o con aura del tronco",
+      "Uso de IMAO"
+    ],
+    "perlas": [
+      "**El migrañoso con propranolol preventivo y rizatriptán para las crisis: 5 mg.**"
+    ],
+    "embarazo_lactancia": "Datos limitados; el sumatriptán tiene más experiencia en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16; Harrison 20.ª ed., cap. de migraña"
+  },
+  {
+    "id": "NEU-zolmitriptan",
+    "nombre": "Zolmitriptán",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Triptán (agonista 5-HT1B/1D)",
+    "subclase": "Triptán lipófilo con formulación INTRANASAL",
+    "vs_clase": [
+      "**Spray INTRANASAL de 5 mg con absorción por la mucosa nasal**: útil en crisis con **vómitos** y **eficaz en la CEFALEA EN RACIMOS** (junto con el sumatriptán SC y el oxígeno).",
+      "**Más lipófilo**: atraviesa la barrera hematoencefálica (actúa también sobre el núcleo trigeminal) y causa algo más de somnolencia.",
+      "**Metabolito activo (N-desmetil) y metabolismo por CYP1A2**: la fluvoxamina y la cimetidina obligan a reducir la dosis."
+    ],
+    "mecanismo": "Agonista 5-HT1B/1D con acción periférica y también central en el complejo trigeminovascular del tronco.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis de migraña",
+        "dosis": "2,5-5 mg",
+        "posologia": "Al inicio del dolor; repetible a las 2 h (máximo 10 mg/24 h)",
+        "via": "VO / IN",
+        "nota": "Spray nasal útil si hay vómitos"
+      },
+      {
+        "patologia": "Ataque de cefalea en racimos",
+        "dosis": "5-10 mg",
+        "posologia": "Al inicio del ataque",
+        "via": "IN",
+        "nota": "Alternativa al sumatriptán SC y al oxígeno al 100%"
+      }
+    ],
+    "esquema": {
+      "inicio": "2,5 mg VO (o 5 mg IN) al inicio del dolor.",
+      "titulacion": "Subir a 5 mg en la siguiente crisis si 2,5 mg no bastó.",
+      "duracion": "Por crisis.",
+      "fin": "**Máximo 10 días al mes.**",
+      "via": "VO, bucodispersable e IN.",
+      "monitorizacion": "Diario de cefaleas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 40%; nasal con absorción parcial transmucosa.",
+      "distribucion": "**Lipófilo; atraviesa la barrera hematoencefálica.**",
+      "metabolismo": "**CYP1A2** y MAO-A; metabolito activo.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5-3 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Moderada-grave: máximo 5 mg/24 h.",
+      "interacciones": [
+        {
+          "con": "Fluvoxamina, cimetidina, ciprofloxacino (inhibidores del CYP1A2)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Máximo 5 mg/24 h"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Síndrome serotoninérgico, aumento de niveles",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Ergotamínicos",
+          "efecto": "Vasoespasmo",
+          "gravedad": "alta",
+          "manejo": "Separar 24 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, mareo",
+        "Opresión torácica o cervical",
+        "Alteración del gusto (spray nasal)"
+      ],
+      "graves": [
+        "Isquemia coronaria en pacientes de riesgo"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica, enfermedad cerebrovascular o periférica",
+      "Hipertensión no controlada",
+      "Síndrome de Wolff-Parkinson-White",
+      "Uso de IMAO"
+    ],
+    "perlas": [
+      "**Migraña con vómitos precoces: triptán nasal (zolmitriptán) o SC (sumatriptán)**, porque el oral no se absorbe."
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16; Harrison 20.ª ed., cap. de cefaleas"
+  },
+  {
+    "id": "NEU-pramipexol",
+    "nombre": "Pramipexol",
+    "sinonimos": [
+      "Ropinirol (agonista dopaminérgico similar)"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiparkinsoniano",
+    "subclase": "Agonista dopaminérgico no ergótico (D2/D3)",
+    "vs_clase": [
+      "**Estimula DIRECTAMENTE el receptor** (no necesita neuronas dopaminérgicas): opción inicial en el **paciente joven** para retrasar la levodopa y sus discinesias.",
+      "**Menos eficaz que la levodopa** sobre la motilidad, pero con **menos discinesias**.",
+      "**TRASTORNOS DEL CONTROL DE IMPULSOS** (ludopatía, hipersexualidad, compras o ingesta compulsivas) en hasta el 15-20%: propio de los agonistas, mucho menos con levodopa. **Preguntar activamente.**",
+      "**Ataques de sueño súbitos** (prohibir conducir si aparecen) y **edemas maleolares**.",
+      "**De elección en el SÍNDROME DE PIERNAS INQUIETAS** a dosis bajas (0,088-0,54 mg por la noche).",
+      "**Eliminación RENAL**: ajustar en ERC (el ropinirol es hepático)."
+    ],
+    "mecanismo": "Agonista de receptores dopaminérgicos D2 y D3 en el estriado, independiente de la conversión presináptica de levodopa. La alta afinidad D3 (sistema límbico) explica los trastornos de impulsos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Parkinson inicial (monoterapia en joven) o avanzada (asociado a levodopa)",
+        "dosis": "0,088 mg (sal) → 1,5-3,3 mg/día",
+        "posologia": "Cada 8 h (o liberación prolongada cada 24 h)",
+        "via": "VO",
+        "nota": "Titular semanalmente; dosis expresadas como base en algunos países (0,125-1 mg)"
+      },
+      {
+        "patologia": "Síndrome de piernas inquietas moderado-grave",
+        "dosis": "0,088-0,54 mg",
+        "posologia": "Cada 24 h, 2-3 h antes de acostarse",
+        "via": "VO",
+        "nota": "Vigilar el fenómeno de aumento (síntomas más precoces e intensos)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis mínima con titulación lenta; advertir de somnolencia, ataques de sueño e impulsividad (también a la familia).",
+      "titulacion": "Subir cada 5-7 días según respuesta y tolerancia.",
+      "duracion": "Indefinida.",
+      "fin": "**Retirada GRADUAL**: la suspensión brusca puede causar un síndrome similar al neuroléptico maligno o **síndrome de abstinencia de agonistas dopaminérgicos** (ansiedad, disforia, dolor).",
+      "via": "VO.",
+      "monitorizacion": "**Conductas compulsivas en cada visita**, somnolencia diurna, edemas, alucinaciones en ancianos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad >90%.",
+      "distribucion": "Unión a proteínas baja (15%).",
+      "metabolismo": "**Mínimo.**",
+      "eliminacion": "**Renal, inalterado (90%).**",
+      "vida_media": "8-12 h.",
+      "ajuste_renal": "**FG 20-50: cada 12 h. FG <20: cada 24 h.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antipsicóticos típicos y metoclopramida",
+          "efecto": "Antagonizan su efecto",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar quetiapina o clozapina si se necesita un antipsicótico"
+        },
+        {
+          "con": "Cimetidina, amantadina",
+          "efecto": "Reducen su eliminación renal",
+          "gravedad": "media",
+          "manejo": "Valorar reducir dosis"
+        },
+        {
+          "con": "Sedantes y alcohol",
+          "efecto": "Somnolencia aditiva",
+          "gravedad": "media",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Somnolencia",
+        "**Edemas maleolares**",
+        "Hipotensión ortostática"
+      ],
+      "graves": [
+        "**Trastornos del control de impulsos**",
+        "**Ataques de sueño súbitos** (al volante)",
+        "Alucinaciones y psicosis (ancianos)",
+        "Fenómeno de aumento en piernas inquietas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Psicosis activa (relativa)",
+      "Antecedente de trastorno del control de impulsos (relativa)"
+    ],
+    "perlas": [
+      "**Un parkinsoniano que se arruina en el bingo o el juego online: revisar el agonista dopaminérgico**; el paciente rara vez lo cuenta espontáneamente.",
+      "En el anciano con deterioro cognitivo, la levodopa es preferible (menos confusión y alucinaciones)."
+    ],
+    "embarazo_lactancia": "Datos limitados. Inhibe la prolactina: suprime la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 28; Harrison 20.ª ed., caps. de enfermedad de Parkinson y piernas inquietas"
+  },
+  {
+    "id": "NEU-rasagilina",
+    "nombre": "Rasagilina",
+    "sinonimos": [
+      "Safinamida",
+      "Selegilina"
+    ],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiparkinsoniano",
+    "subclase": "Inhibidor irreversible y selectivo de la MAO-B",
+    "vs_clase": [
+      "**Inhibe la DEGRADACIÓN de dopamina** en lugar de aportarla: efecto sintomático MODESTO, **útil en fases iniciales** o para **reducir los periodos «off»** asociada a levodopa.",
+      "**Una sola toma diaria, muy bien tolerada** (sin los efectos de impulsividad de los agonistas).",
+      "**Interacciones SEROTONINÉRGICAS**: precaución con ISRS, IRSN, tramadol, meperidina, dextrometorfano (síndrome serotoninérgico).",
+      "**A diferencia de la selegilina, no produce metabolitos anfetamínicos** (menos insomnio)."
+    ],
+    "mecanismo": "Inhibe de forma irreversible la monoaminooxidasa B del cerebro, que degrada la dopamina en la sinapsis estriatal. Aumenta la disponibilidad de dopamina endógena y prolonga el efecto de cada dosis de levodopa. A dosis terapéuticas mantiene selectividad sobre la MAO-B (sin «efecto queso»).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Parkinson inicial (monoterapia)",
+        "dosis": "1 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Síntomas leves; retrasa la necesidad de levodopa"
+      },
+      {
+        "patologia": "Fluctuaciones motoras (periodos «off» de fin de dosis) con levodopa",
+        "dosis": "1 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce ~1 h al día el tiempo en «off»"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 mg/día; revisar fármacos serotoninérgicos.",
+      "titulacion": "No se titula.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa; **esperar 14 días antes de iniciar fármacos contraindicados** (inhibición irreversible).",
+      "via": "VO.",
+      "monitorizacion": "Respuesta motora, discinesias al asociar a levodopa, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 36%.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "**Hepático por CYP1A2.**",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "0,6-2 h (efecto de semanas: inhibición irreversible).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicada en moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Meperidina, tramadol, metadona, dextrometorfano, otros IMAO",
+          "efecto": "**Síndrome serotoninérgico grave**",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "ISRS, IRSN, tricíclicos",
+          "efecto": "Riesgo de síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Dosis bajas y vigilancia; evitar fluvoxamina"
+        },
+        {
+          "con": "Ciprofloxacino, fluvoxamina (inhibidores del CYP1A2)",
+          "efecto": "Duplican sus niveles",
+          "gravedad": "media",
+          "manejo": "Evitar o reducir"
+        },
+        {
+          "con": "Simpaticomiméticos (descongestionantes nasales)",
+          "efecto": "Crisis hipertensiva (rara a dosis selectivas)",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, artralgias",
+        "Dispepsia",
+        "Aumento de discinesias al asociar a levodopa"
+      ],
+      "graves": [
+        "Síndrome serotoninérgico con interacciones",
+        "Hipotensión ortostática",
+        "Alucinaciones"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con otros IMAO, meperidina, tramadol, metadona o dextrometorfano",
+      "Insuficiencia hepática moderada-grave"
+    ],
+    "perlas": [
+      "**Antes de pautar tramadol a un parkinsoniano, preguntar por rasagilina, selegilina o safinamida.**"
+    ],
+    "embarazo_lactancia": "Sin datos suficientes; evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 28; Harrison 20.ª ed., cap. de enfermedad de Parkinson"
+  }
+]

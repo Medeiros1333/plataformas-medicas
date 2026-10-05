@@ -1,0 +1,9 @@
+O que vai na linha "a" da Parte I da Declaração de Óbito?	A causa terminal — a mais próxima da morte	Revalida::Preventiva::DocumentacaoMedicoLegal::DO
+O que vai na linha de baixo (última) da Parte I?	A causa básica — o evento que iniciou toda a cadeia	Revalida::Preventiva::DocumentacaoMedicoLegal::DO
+Onde entram comorbidades/fatores de risco (ex. tabagismo) na Declaração de Óbito?	Parte II — não são elo direto da cadeia causal	Revalida::Preventiva::DocumentacaoMedicoLegal::DO
+"Parada cardiorrespiratória" pode ser usada como causa na Parte I?	Não — é o modo de morte, não uma causa mórbida	Revalida::Preventiva::DocumentacaoMedicoLegal::DO
+Quem emite a DO quando há médico assistente que acompanhava o paciente, mesmo em óbito domiciliar?	O próprio médico assistente, presencialmente	Revalida::Preventiva::DocumentacaoMedicoLegal::Fluxo
+Quando acionar o SVO (Serviço de Verificação de Óbito)?	Morte natural, sem médico assistente ou causa indeterminada	Revalida::Preventiva::DocumentacaoMedicoLegal::Fluxo
+Quando acionar o IML em vez de atestar como morte natural?	Quando a cadeia causal remonta, mesmo remotamente, a uma causa externa/traumática/violenta	Revalida::Preventiva::DocumentacaoMedicoLegal::Fluxo
+Paciente morre de sepse hospitalar 3 meses após trauma raquimedular por mergulho. IML ou atestação direta?	IML — a cadeia causal remonta ao trauma (causa externa), mesmo com mecanismo terminal clínico	Revalida::Preventiva::DocumentacaoMedicoLegal::Fluxo
+Sintomas (ex. "dispneia") podem ser usados como causa na Parte I?	Não — a Parte I deve conter diagnósticos/causas, não sintomas	Revalida::Preventiva::DocumentacaoMedicoLegal::DO

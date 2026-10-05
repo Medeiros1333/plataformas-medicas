@@ -1,0 +1,207 @@
+## 0. CABEÇALHO
+
+**Código:** PREV-24 · **Especialidade:** Preventiva · **Tema:** Imunizações na gestação · **Assunto:** Vacina antitetânica - esquema conforme histórico vacinal prévio · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 4 (2013.1-Q72, 2011.1-Q104, 2016.1-Q53, 2022.1-Q69) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 80 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29
+
+📋 **Nota de consolidação:** este módulo foi expandido para absorver o código **OBS-11** (2011.1-Q104), que trata exatamente do mesmo assunto (vacina antitetânica na gestação conforme histórico vacinal), com um cenário complementar (reforço devido, no lugar de dispensado). `OBS-11` foi marcado como `"gerado"` apontando para este arquivo.
+
+---
+
+## 1. TEORIA
+
+A indicação de vacina antitetânica na gestação depende inteiramente do **histórico vacinal prévio** da paciente — o Revalida testa se o candidato aplica a vacina "por rotina" sem checar esse histórico, ou se avalia corretamente a necessidade real de reforço.
+
+**Regras de indicação de vacina antitetânica (dT) na gestação:**
+- Gestante **sem** esquema vacinal prévio ou com esquema **incompleto**: iniciar/completar o esquema (geralmente 3 doses, com intervalo de 2 meses entre elas), preferencialmente concluindo antes do parto.
+- Gestante com esquema **completo** (3 doses ao longo da vida) e **última dose há menos de 5 anos**: **não é necessário** reforço adicional durante esta gestação.
+- Gestante com esquema completo e última dose entre **5 e 10 anos**: aplicar uma dose de reforço.
+- Gestante com esquema completo e última dose há **mais de 10 anos**, ou esquema desconhecido/incompleto: reiniciar ou completar o esquema.
+
+⚠️ **PEGADINHA DO INEP central deste tema:** o erro mais comum é aplicar a vacina antitetânica "por rotina" em toda gestante, sem checar se ela já possui esquema vacinal completo e recente — se a gestante já tem esquema completo (incluindo doses da infância) e a última dose foi há **poucos anos** (dentro do intervalo de proteção considerado adequado, tipicamente <5 anos), **não há indicação de nova dose** nesta gestação, mesmo estando grávida.
+
+**Cuidado ao interpretar "última dose aplicada":** a expressão "última imunização aplicada foi a vacina dupla adulto, aos X anos" não significa necessariamente que essa foi a ÚNICA dose da vida — geralmente pressupõe-se um esquema vacinal completo prévio (incluindo as doses de rotina da infância), com a dose mencionada sendo apenas o reforço mais recente. Se esse reforço mais recente foi há poucos anos, a proteção já está adequada.
+
+### Referências
+1. Ministério da Saúde — Calendário Nacional de Vacinação, esquema para gestantes.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no pré-natal real:** gestante traz caderneta de vacinação para consulta de rotina — o desafio prático é avaliar corretamente o histórico vacinal antes de decidir pela aplicação (ou não) de nova dose antitetânica.
+
+**Sequência prática de conduta:**
+1. Solicitar e revisar a caderneta de vacinação da gestante.
+2. Verificar se o esquema é completo (3+ doses ao longo da vida) e há quanto tempo foi a última dose.
+3. Se completo e última dose <5 anos: não aplicar nova dose nesta gestação.
+4. Se completo e última dose entre 5-10 anos: aplicar 1 dose de reforço.
+5. Se incompleto/desconhecido ou >10 anos: iniciar/completar esquema (2-3 doses, intervalo de 2 meses).
+
+**Erros que médicos cometem de verdade:**
+- Vacinar "por rotina" toda gestante, sem checar o histórico vacinal prévio.
+- Não diferenciar esquema completo recente (sem necessidade de reforço) de esquema incompleto/antigo (com necessidade de reforço/esquema completo).
+
+**O que dizer à gestante:** explicar que a necessidade de vacina depende do histórico dela — se já está adequadamente protegida por doses recentes, não há necessidade de nova aplicação nesta gestação.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Revisar caderneta de vacinação antes de decidir pela aplicação.
+- ✅ Não vacinar "por rotina" sem checar necessidade real.
+- ✅ Aplicar reforço apenas quando o intervalo desde a última dose justificar.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-23: este módulo passou a cobrir **todas as 16 edições já extraídas** do banco (2011.1–2025.2). Gabaritos conferidos um a um contra os PDFs oficiais do INEP na auditoria de 2026-09-23.*
+
+**[INEP 2013 · Edição 1 · Questão 72]**
+
+Primigesta com 18 anos de idade, 22 semanas de idade gestacional, comparece à Unidade Básica de Saúde para realização de vacinação antitetânica. Traz consigo eupneica, carteira de vacinação que registra que a última imunização aplicada foi a vacina dupla para adulto, aos 15 anos de idade. Considerando-se o estado vacinal e a idade gestacional, deve-se:
+
+A) aplicar pelo menos duas doses de vacina antitetânica durante a gestação, com intervalo de dois meses.
+B) aplicar a dose de reforço da vacina antitetânica, como feito habitualmente durante a gestação.
+C) aplicar uma dose de vacina antitetânica durante a gestação e uma nova dose no puerpério.
+D) não aplicar vacina antitetânica, pela cobertura vacinal prévia.
+E) aplicar a vacina antitetânica, pois cobrir o risco fetal é a prioridade.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a gestante tem 18 anos e sua última dose (dupla adulto) foi aos 15 anos — ou seja, há apenas 3 anos, dentro do intervalo considerado de proteção adequada (esquema completo com última dose há menos de 5 anos). Não há indicação de nova dose nesta gestação.
+
+**Por que as demais estão erradas:**
+- A) Aplicar duas novas doses seria apropriado apenas se o esquema fosse incompleto ou desconhecido — não é o caso aqui.
+- B) "Aplicar reforço como feito habitualmente" ignora que o reforço só é indicado quando o intervalo desde a última dose justifica (5-10 anos ou mais) — aqui o intervalo é de apenas 3 anos.
+- C) Não há indicação de dose durante a gestação nem no puerpério, dado o esquema já adequado e recente.
+- E) "Cobrir o risco fetal como prioridade" não é o raciocínio correto — a decisão deve se basear no histórico vacinal real da gestante, não em vacinação indiscriminada.
+
+**O que a banca estava testando:** capacidade de avaliar o histórico vacinal antitetânico antes de decidir pela aplicação de nova dose, reconhecendo que esquema completo com última dose recente (<5 anos) não exige reforço adicional durante a gestação.
+
+---
+
+**[INEP 2011 · Edição 1 · Questão 104]**
+
+Gestante, primigesta, 18 anos de idade, com dezessete semanas de gestação, traz cartão de vacinação para a consulta de pré-natal, mostrando esquema vacinal completo para tétano aos 10 anos de idade. Em relação à recomendação do esquema vacinal da dupla adulto (difteria e tétano), durante a gravidez, qual a conduta correta para essa gestante?
+
+A) Repetir esquema vacinal completo, composto por três doses.
+B) Repetir esquema vacinal modificado, composto por duas doses.
+C) Aplicar dose de reforço, pois o esquema vacinal completo foi realizado há mais de cinco anos.
+D) Não aplicar dose de reforço, já que o esquema vacinal completo foi realizado há menos de dez anos.
+E) Não realizar vacinação, pois a vacina dupla adulto não faz parte dos cuidados da assistência pré-natal.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** o esquema vacinal completo foi realizado aos 10 anos de idade, e a gestante tem agora 18 anos — ou seja, 8 anos se passaram, dentro do intervalo de 5 a 10 anos que indica **dose de reforço** (diferente do caso da questão anterior, em que o intervalo era de apenas 3 anos, não exigindo reforço).
+
+**Por que as demais estão erradas:**
+- B) Repetir o esquema completo (2 doses) não é necessário quando já há esquema completo prévio — apenas uma dose de reforço é suficiente.
+- D) Afirma incorretamente que não é necessário reforço "porque foi há menos de dez anos" — mas o intervalo de 5 a 10 anos, embora menor que 10, já indica a necessidade de reforço (a alternativa ignora a faixa intermediária de 5-10 anos).
+- E) A vacinação antitetânica faz sim parte dos cuidados de rotina da assistência pré-natal.
+
+**O que a banca estava testando:** aplicação do mesmo raciocínio da questão anterior, mas no cenário complementar (intervalo de 5-10 anos desde a última dose = reforço indicado), reforçando que a faixa "menos de 10 anos" não dispensa automaticamente o reforço — é preciso diferenciar <5 anos (sem reforço) de 5-10 anos (com reforço).
+
+---
+
+**[INEP 2016 · Edição 1 · Questão 53]**
+
+Uma mulher com 26 anos de idade, Gesta 2 Para 1, com 22 semanas de gestação, comparece à consulta de pré-natal para checar resultados de exames e situação vacinal. Os resultados dos exames revelam VDRL, anti-HIV, HBsAg e anti-HBs negativos. No cartão de vacinas constam 2 doses de vacina contra hepatite B, com última dose há 3 anos, 1 dose de vacina contra febre amarela há 12 anos e 3 doses de vacina para difteria e tétano (dT), com última dose há 4 anos. Para a atualização da situação vacinal dessa gestante, deve-se recomendar a aplicação de
+
+A) 1 dose de vacina contra hepatite B + 1 dose de vacina contra febre amarela + 1 dose de vacina contra influenza, todas nessa consulta.
+B) 1 dose de vacina contra hepatite B + 1 dose de vacina contra influenza, ambas nessa consulta, e uma dose de vacina dTpa entre 27 e 36 semanas de gestação.
+C) 3 doses de vacina contra hepatite B, com intervalos de 30 dias entre as doses, e 1 dose de vacina contra influenza + 1 dose de vacina dTpa, ambas nessa consulta.
+D) 3 doses de vacina contra hepatite B, com intervalos de 30 dias entre as doses, 1 dose de vacina contra febre amarela, nessa consulta, e 1 dose de vacina dTpa entre 27 e 36 semanas de gestação.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** são três decisões independentes, e B acerta as três:
+1. **Hepatite B — completar, nunca reiniciar.** Ela tem 2 doses; falta **1 dose**. Esquema interrompido é retomado de onde parou, qualquer que seja o intervalo. A vacina é segura na gestação e indicada para toda gestante suscetível (HBsAg e anti-HBs negativos).
+2. **Influenza — dose única** em qualquer idade gestacional, na campanha anual. Gestante é grupo de risco para influenza grave.
+3. **dTpa em toda gestação.** Mesmo com dT completa e recente, a **dTpa** é aplicada **a cada gestação** — o objetivo não é proteger a mãe do tétano, e sim transferir anticorpos contra **coqueluche** para o recém-nascido, que só começa a ser vacinado aos 2 meses. À época da prova, a janela era de **27 a 36 semanas**.
+
+**Por que as demais estão erradas:**
+- A) **Febre amarela é vacina de vírus vivo atenuado — contraindicada na gestação**, exceto em situação de risco epidemiológico elevado e inevitável, que não é o caso. Além disso, ela já recebeu uma dose, e a dose única vale para toda a vida em adultos. Falta a dTpa.
+- C) **Reinicia** a hepatite B (3 doses) sem motivo — erro clássico. E, pela norma vigente em 2016, a dTpa ainda não estava indicada com 22 semanas.
+- D) Reinicia a hepatite B **e** indica febre amarela na gestante — os dois erros juntos.
+
+⚠️ **PEGADINHA DO INEP:** "anti-HBs negativo" tenta induzir a reiniciar o esquema. Mas anti-HBs negativo em quem tem esquema **incompleto** é esperado — a conduta é completar. A outra armadilha é a dT recente: quem pensa só em tétano conclui que não precisa de nada; a dTpa na gestação é **para o bebê**, contra coqueluche.
+
+📌 **Atualização:** o Ministério da Saúde hoje recomenda a dTpa **a partir da 20ª semana** de cada gestação (quanto antes, dentro da janela, maior a transferência de anticorpos), e não mais apenas entre 27 e 36 semanas. A resposta B continua correta — a dose feita na janela citada está dentro da recomendação atual —, mas, numa prova recente, "dTpa já com 22 semanas" também estaria certo.
+
+**O que a banca estava testando:** as regras-mestras da vacinação da gestante — vírus vivo é contraindicado, esquema interrompido se completa, influenza sempre, dTpa em toda gestação para proteger o recém-nascido da coqueluche.
+
+**[INEP 2022 · Edição 1 · Questão 69]**
+
+Uma paciente secundigesta, com 25 anos de idade, 28 semanas de amenorreia, vem à Unidade Básica de Saúde para receber as vacinas que viu em uma campanha na televisão. Em seu cartão de vacinas consta vacinação contra influenza e administração da dTpa há 2 anos, durante sua primeira gestação. Com relação à vacinação dessa paciente contra influenza e coqueluche, deve-se
+
+A) realizar a vacinação contra influenza em dose única imediata e administrar nova dose de dTpa.
+B) administrar nova dose de dTpa, não havendo necessidade de nova vacinação contra influenza.
+C) realizar vacinação contra influenza em 2 doses (imediata e após 30 dias) e administrar nova dose de dTpa.
+D) realizar vacinação contra influenza em dose única imediata, não havendo indicação de nova dose da dTpa.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** na gestação, a **vacina contra influenza** é recomendada em **dose única** a cada campanha/sazonalidade, em qualquer idade gestacional — a dose da gestação anterior não protege a atual. A **dTpa** deve ser aplicada **em toda gestação**, a partir de **20 semanas**, independentemente de doses anteriores, para transferir anticorpos contra coqueluche ao recém-nascido. Com 28 semanas, a gestante recebe **as duas agora**.
+
+**Por que as demais estão erradas:**
+- B) A vacina contra influenza deve ser repetida a cada ano/gestação.
+- C) Para gestante, a influenza é **dose única**; o esquema de 2 doses é para crianças pequenas na primeira vacinação.
+- D) A dTpa é **repetida em cada gestação**.
+
+⚠️ **PEGADINHA DO INEP:** "já tomou dTpa na gestação anterior" não dispensa a dose — a proteção do bebê depende dos anticorpos maternos **desta** gestação.
+
+**O que a banca estava testando:** imunização da gestante (influenza e dTpa).
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Gestante com esquema antitetânico completo e última dose há menos de 5 anos: aplicar nova dose?	Não	Revalida::Preventiva::ImunizacoesGestacao::Antitetanica
+Gestante com esquema completo e última dose entre 5-10 anos: qual a conduta?	Aplicar 1 dose de reforço	Revalida::Preventiva::ImunizacoesGestacao::Antitetanica
+Gestante com esquema incompleto ou desconhecido: qual a conduta?	Iniciar/completar esquema (2-3 doses, intervalo de 2 meses)	Revalida::Preventiva::ImunizacoesGestacao::Antitetanica
+Esquema completo há 8 anos (faixa 5-10 anos): aplicar reforço?	Sim — a faixa de 5-10 anos indica reforço, mesmo sendo "menos de 10 anos"	Revalida::Preventiva::ImunizacoesGestacao::Antitetanica
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Sempre checar histórico vacinal antes de decidir pela vacinação antitetânica na gestação.
+2. Esquema completo + última dose <5 anos = não vacinar.
+3. Esquema completo + última dose 5-10 anos = 1 dose de reforço.
+4. Esquema incompleto/desconhecido ou >10 anos = iniciar/completar esquema.
+5. Não vacinar "por rotina" sem checar necessidade real.
+
+📊 **Tabela-síntese**
+| Histórico vacinal | Conduta na gestação |
+|---|---|
+| Completo, última dose <5 anos | Não vacinar |
+| Completo, última dose 5-10 anos | 1 dose de reforço |
+| Incompleto/desconhecido ou >10 anos | Completar/reiniciar esquema |
+
+⚡ **Fluxograma textual:** gestante para vacinação antitetânica → revisar caderneta → esquema completo e recente → não vacinar → esquema incompleto/antigo → vacinar conforme intervalo.
+
+🚫 **Os 3 erros mais comuns:** (1) vacinar por rotina sem checar histórico; (2) não diferenciar os intervalos de tempo; (3) achar que "cobrir risco fetal" justifica vacinação indiscriminada.
+
+🔗 **Conexões com outros módulos:** [[PREV-35]] (Profilaxia antitetânica).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PREV-24",
+  "especialidade": "Preventiva",
+  "tema": "Imunizações na gestação",
+  "assunto": "Vacina antitetânica - esquema conforme histórico vacinal prévio",
+  "tier": "A",
+  "n_questoes": 4,
+  "n_flashcards": 4,
+  "tempo_estudo_min": 80,
+  "prerequisitos": [],
+  "relacionados": ["PREV-35"],
+  "data_geracao": "2026-07-29",
+  "codigos_mesclados": ["PREV-24", "OBS-11"],
+  "itens_a_verificar": [
+    "Alternativa A da questão 2011.1-Q104 sem texto recuperado no arquivo fonte — omitida (não é gabarito)",
+    "Módulo com 2 questões na amostra atual — prioridade para revisão quando mais edições forem classificadas"
+  ]
+}
+```

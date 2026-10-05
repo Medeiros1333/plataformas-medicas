@@ -1,0 +1,566 @@
+[
+  {
+    "id": "REU-dexketoprofeno",
+    "nombre": "Dexketoprofeno",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "AINE (antiinflamatorio no esteroideo)",
+    "subclase": "Derivado del ácido propiónico, enantiómero activo del ketoprofeno",
+    "vs_clase": [
+      "**AINE de perfil fundamentalmente ANALGÉSICO y de inicio rápido** (30 min): muy usado en dolor agudo (cólico renal, dolor dental, posoperatorio, dismenorrea).",
+      "**Disponible por vía IV e IM** (50 mg cada 8-12 h), útil en urgencias y en el posoperatorio.",
+      "**Duración corta**: tratamientos de pocos días; no es el AINE de las enfermedades inflamatorias crónicas.",
+      "Riesgo gastrointestinal intermedio, como el ibuprofeno a dosis altas."
+    ],
+    "mecanismo": "Inhibe de forma no selectiva COX-1 y COX-2, reduciendo la síntesis de prostaglandinas que sensibilizan los nociceptores. **Es el enantiómero S (activo) del ketoprofeno**, lo que permite la mitad de dosis con igual eficacia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor agudo leve-moderado (musculoesquelético, dental, dismenorrea)",
+        "dosis": "25 mg",
+        "posologia": "Cada 8 h (máximo 75 mg/día)",
+        "via": "VO",
+        "nota": "Máximo 3-5 días"
+      },
+      {
+        "patologia": "Cólico renal y dolor agudo moderado-intenso",
+        "dosis": "50 mg",
+        "posologia": "Cada 8-12 h (máximo 150 mg/día)",
+        "via": "IV / IM",
+        "nota": "Máximo 2 días por vía parenteral; después pasar a VO"
+      }
+    ],
+    "esquema": {
+      "inicio": "Valorar riesgo gastrointestinal, renal y cardiovascular antes de pautarlo.",
+      "titulacion": "No se titula; dosis mínima eficaz.",
+      "duracion": "**Lo más corta posible (3-5 días).**",
+      "fin": "Suspensión directa.",
+      "via": "VO, IV, IM.",
+      "monitorizacion": "Función renal y PA si hay factores de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida (pico en 30 min); la comida la retrasa.",
+      "distribucion": "Unión a proteínas del 99%.",
+      "metabolismo": "Glucuronidación hepática.",
+      "eliminacion": "Renal.",
+      "vida_media": "1,6 h.",
+      "ajuste_renal": "FG 60-89: máximo 50 mg/día. Contraindicado si FG <60 en uso continuado.",
+      "ajuste_hepatico": "Leve-moderada: máximo 50 mg/día. Contraindicado en la grave.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes, antiagregantes, ISRS",
+          "efecto": "Hemorragia digestiva",
+          "gravedad": "alta",
+          "manejo": "Evitar o asociar IBP"
+        },
+        {
+          "con": "IECA/ARA-II + diurético",
+          "efecto": "Fracaso renal agudo («triple whammy»)",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Metotrexato, litio",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "alta",
+          "manejo": "Evitar o monitorizar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, náuseas, dolor abdominal",
+        "Mareo, cefalea"
+      ],
+      "graves": [
+        "Úlcera y hemorragia digestiva",
+        "Fracaso renal agudo",
+        "Broncoespasmo en asma con intolerancia a AINE",
+        "Eventos cardiovasculares trombóticos"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera o hemorragia digestiva activa",
+      "Insuficiencia cardiaca grave, renal o hepática grave",
+      "Asma con intolerancia a AINE",
+      "Tercer trimestre del embarazo"
+    ],
+    "perlas": [
+      "**En el cólico renal, el AINE IV es más eficaz que el opioide** y reduce la presión intrapiélica."
+    ],
+    "embarazo_lactancia": "Contraindicado en el 3.er trimestre (cierre del ductus); evitar en el resto. No recomendado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; Harrison 20.ª ed., cap. de dolor"
+  },
+  {
+    "id": "REU-metamizol",
+    "nombre": "Metamizol",
+    "sinonimos": [
+      "Dipirona"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico y antipirético no opioide",
+    "subclase": "Pirazolona con efecto espasmolítico",
+    "vs_clase": [
+      "**MÁS POTENTE como analgésico que el paracetamol** y con **efecto ESPASMOLÍTICO** sobre la musculatura lisa (útil en cólico renal y biliar).",
+      "**Riesgo de AGRANULOCITOSIS** (idiosincrásica, impredecible, incluso con dosis únicas): exclusivo de este fármaco. Por eso está retirado en EE. UU., Reino Unido y otros países.",
+      "**Sin efecto gastrolesivo relevante** ni antiagregante clínico: alternativa al AINE en pacientes con riesgo digestivo.",
+      "**HIPOTENSIÓN con la administración IV rápida.**"
+    ],
+    "mecanismo": "Inhibición de la COX predominantemente central y activación de vías analgésicas descendentes (sistema cannabinoide y opioide endógeno). Débil efecto antiinflamatorio. Relaja la musculatura lisa visceral.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor agudo moderado (posoperatorio, cólico renal o biliar)",
+        "dosis": "575 mg-2 g",
+        "posologia": "Cada 6-8 h (máximo 6 g/día)",
+        "via": "VO / IV",
+        "nota": "IV en infusión lenta (≥5 min o diluido en 100 mL) para evitar hipotensión"
+      },
+      {
+        "patologia": "Fiebre refractaria a otros antipiréticos",
+        "dosis": "575 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Tratamiento corto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Preguntar por reacciones previas a pirazolonas. Informar de que debe consultar si aparece fiebre, odinofagia o úlceras orales.",
+      "titulacion": "No se titula.",
+      "duracion": "**Lo más corta posible (idealmente ≤7 días).**",
+      "fin": "**Suspender inmediatamente ante fiebre o dolor de garganta** y pedir hemograma.",
+      "via": "VO, IV, IM, rectal.",
+      "monitorizacion": "**Hemograma si el tratamiento se prolonga más de 7 días** o ante síntomas de infección."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa; se hidroliza a 4-metilaminoantipirina (activo).",
+      "distribucion": "Unión a proteínas baja.",
+      "metabolismo": "Hepático; metabolitos activos.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5-3,5 h (metabolito activo).",
+      "ajuste_renal": "Evitar dosis altas en insuficiencia renal.",
+      "ajuste_hepatico": "Evitar dosis altas en insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Metotrexato y otros mielotóxicos (clozapina, azatioprina)",
+          "efecto": "Mielotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Ciclosporina",
+          "efecto": "Reduce sus niveles",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        },
+        {
+          "con": "AAS a dosis antiagregante",
+          "efecto": "Interfiere con su efecto antiagregante si se toma antes",
+          "gravedad": "media",
+          "manejo": "Tomar el AAS al menos 30 min antes"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión (IV)",
+        "Sudoración",
+        "Orina rojiza (metabolito, sin relevancia)"
+      ],
+      "graves": [
+        "**AGRANULOCITOSIS** (fiebre, odinofagia, úlceras orales), con mayor riesgo en ciertas poblaciones y con tratamientos largos",
+        "Shock anafiláctico",
+        "Reacciones cutáneas graves (Stevens-Johnson, NET)",
+        "Hepatotoxicidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de agranulocitosis o alergia a pirazolonas",
+      "Alteración de la médula ósea",
+      "Porfiria aguda intermitente",
+      "Déficit de G6PD",
+      "Tercer trimestre del embarazo"
+    ],
+    "perlas": [
+      "**Educar al paciente**: fiebre o dolor de garganta con metamizol = consultar ese mismo día.",
+      "Para prescripciones prolongadas, el balance beneficio-riesgo empeora: valorar alternativas."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er y 3.er trimestre. No recomendado en la lactancia (esperar 48 h tras la dosis).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; Harrison 20.ª ed., cap. de dolor"
+  },
+  {
+    "id": "REU-codeina",
+    "nombre": "Codeína",
+    "sinonimos": [
+      "Paracetamol/codeína"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Analgésico opioide",
+    "subclase": "Opioide débil, profármaco de la morfina",
+    "vs_clase": [
+      "**PROFÁRMACO: su efecto depende de la conversión a MORFINA por el CYP2D6**. Los metabolizadores lentos (5-10% caucásicos) no notan efecto; los **ultrarrápidos** pueden intoxicarse (depresión respiratoria) a dosis normales.",
+      "**CONTRAINDICADA en menores de 12 años** y en adolescentes tras amigdalectomía, y en la **lactancia** (muertes de lactantes de madres ultrarrápidas).",
+      "**Potente ANTITUSÍGENO** (10-20 mg) a dosis menores que las analgésicas.",
+      "**Muy estreñidora** para su potencia analgésica."
+    ],
+    "mecanismo": "Agonista débil del receptor mu. El 5-10% se O-desmetila a morfina por CYP2D6, responsable de la analgesia. Deprime el centro de la tos del bulbo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor moderado (2.º escalón), en combinación con paracetamol",
+        "dosis": "30 mg (con paracetamol 500 mg)",
+        "posologia": "Cada 6 h (máximo 240 mg/día de codeína)",
+        "via": "VO",
+        "nota": "Tratamiento corto; laxante asociado"
+      },
+      {
+        "patologia": "Tos seca improductiva intensa",
+        "dosis": "10-20 mg",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Máximo 7 días; no en tos productiva"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar edad (>12 años), que no hay lactancia ni inhibidores del CYP2D6 que lo anulen.",
+      "titulacion": "Si no es eficaz, pasar a otro opioide (tramadol o morfina a dosis baja), no subir indefinidamente.",
+      "duracion": "Corta (días).",
+      "fin": "Tras >1-2 semanas, retirada gradual.",
+      "via": "VO.",
+      "monitorizacion": "Eficacia, sedación, estreñimiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 60%.",
+      "distribucion": "Atraviesa la barrera hematoencefálica y la placenta; pasa a la leche.",
+      "metabolismo": "**CYP2D6 (a morfina)** y CYP3A4 (a norcodeína); glucuronidación.",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h.",
+      "ajuste_renal": "Evitar en insuficiencia renal grave (acumulación de metabolitos de morfina).",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inhibidores del CYP2D6 (fluoxetina, paroxetina, bupropión, quinidina)",
+          "efecto": "**Anulan el efecto analgésico**",
+          "gravedad": "media",
+          "manejo": "Usar otro opioide"
+        },
+        {
+          "con": "Benzodiacepinas, alcohol, gabapentinoides",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Estreñimiento**",
+        "Náuseas, somnolencia",
+        "Mareo"
+      ],
+      "graves": [
+        "**Depresión respiratoria en metabolizadores ultrarrápidos**",
+        "Dependencia y abuso (jarabes)"
+      ]
+    },
+    "contraindicaciones": [
+      "**Menores de 12 años**; menores de 18 tras amigdalectomía o adenoidectomía por apnea",
+      "**Lactancia**",
+      "Metabolizadores ultrarrápidos conocidos del CYP2D6",
+      "Insuficiencia respiratoria grave"
+    ],
+    "perlas": [
+      "**«No noto la codeína»** puede ser un metabolizador lento o un paciente con fluoxetina/paroxetina.",
+      "En el niño con dolor se usa ibuprofeno, paracetamol o morfina a dosis pediátricas, nunca codeína."
+    ],
+    "embarazo_lactancia": "Evitar al final del embarazo (abstinencia neonatal). **Contraindicada en la lactancia.**",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; Harrison 20.ª ed., cap. de dolor"
+  },
+  {
+    "id": "REU-buprenorfina",
+    "nombre": "Buprenorfina",
+    "sinonimos": [
+      "Buprenorfina/naloxona (tratamiento de la dependencia)"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Analgésico opioide",
+    "subclase": "Agonista PARCIAL mu y antagonista kappa, de alta afinidad",
+    "vs_clase": [
+      "**AGONISTA PARCIAL con «efecto techo» para la depresión respiratoria**: el opioide más seguro en este sentido (salvo combinado con benzodiacepinas o alcohol).",
+      "**Afinidad muy alta por el receptor mu**: **desplaza a otros opioides** (puede precipitar abstinencia en un paciente con morfina o heroína) y **la naloxona la revierte mal** (se necesitan dosis altas en perfusión).",
+      "**Parche TRANSDÉRMICO semanal o de 3-4 días** para dolor crónico; vía **sublingual** en el tratamiento de la dependencia de opioides.",
+      "**No requiere ajuste renal** (eliminación biliar): útil en el anciano y en la ERC."
+    ],
+    "mecanismo": "Agonista parcial de alta afinidad y disociación lenta del receptor mu y antagonista kappa. Produce analgesia con un techo en la depresión respiratoria y la euforia. Su ocupación prolongada del receptor bloquea el efecto de otros opioides.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor crónico moderado-intenso (oncológico y no oncológico)",
+        "dosis": "5-20 µg/h (parches de 7 días) o 35-70 µg/h (parches de 3-4 días)",
+        "posologia": "Cambio de parche cada 7 días o cada 3-4 días según presentación",
+        "via": "transdérmica",
+        "nota": "Inicio de efecto en 12-24 h; rescate con opioide de acción corta"
+      },
+      {
+        "patologia": "Tratamiento de mantenimiento de la dependencia de opioides",
+        "dosis": "2-4 mg inicial; mantenimiento 8-24 mg",
+        "posologia": "Cada 24 h",
+        "via": "SL",
+        "nota": "Iniciar cuando haya signos de abstinencia moderada (12-24 h tras heroína)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Parche de dosis baja en el paciente sin opioides previos; laxante pautado.",
+      "titulacion": "Aumentar la dosis del parche tras al menos 3 días (estado estable).",
+      "duracion": "Según la indicación (crónica).",
+      "fin": "**Retirada gradual**; la abstinencia es más leve y tardía que con agonistas puros.",
+      "via": "Transdérmica, SL, IV/IM.",
+      "monitorizacion": "Dolor, sedación, estreñimiento, irritación local; rotar zona del parche."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral casi nula (primer paso): por eso SL o transdérmica.",
+      "distribucion": "Muy lipófila; unión a proteínas del 96%.",
+      "metabolismo": "CYP3A4 (a norbuprenorfina) y glucuronidación.",
+      "eliminacion": "**Biliar (70%).**",
+      "vida_media": "24-37 h (SL); el parche mantiene niveles estables.",
+      "ajuste_renal": "**No precisa.**",
+      "ajuste_hepatico": "Precaución en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Benzodiacepinas, alcohol, otros depresores",
+          "efecto": "**Depresión respiratoria grave (el techo se pierde)**",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Agonistas opioides puros",
+          "efecto": "Puede precipitar abstinencia o reducir su efecto",
+          "gravedad": "media",
+          "manejo": "No combinar salvo protocolos específicos de rescate"
+        },
+        {
+          "con": "Inhibidores e inductores del CYP3A4",
+          "efecto": "Aumentan o reducen sus niveles",
+          "gravedad": "media",
+          "manejo": "Ajustar según respuesta"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, mareo, somnolencia",
+        "Estreñimiento",
+        "**Irritación y prurito en la zona del parche**"
+      ],
+      "graves": [
+        "Depresión respiratoria combinada con otros depresores",
+        "Abstinencia precipitada",
+        "Hepatotoxicidad (vía SL en usuarios de drogas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave",
+      "Dependencia de opioides en tratamiento con agonistas puros (salvo transición planificada)",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "**La sobredosis de buprenorfina responde mal a la naloxona**: dosis altas (2-4 mg) y perfusión.",
+      "**El calor (fiebre, mantas eléctricas) aumenta la absorción del parche.**"
+    ],
+    "embarazo_lactancia": "De elección (con metadona) en la gestante dependiente de opioides. Compatible con la lactancia en programas de mantenimiento.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 31 y 32; Harrison 20.ª ed., caps. de dolor y de trastornos por opioides"
+  },
+  {
+    "id": "REU-febuxostat",
+    "nombre": "Febuxostat",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Hipouricemiante inhibidor de la xantina oxidasa",
+    "subclase": "Inhibidor NO purínico selectivo",
+    "vs_clase": [
+      "**NO es análogo de purinas**: **no causa el síndrome de hipersensibilidad del alopurinol (DRESS/HLA-B*5801)** — alternativa cuando el alopurinol no se tolera.",
+      "**Metabolismo HEPÁTICO: no precisa ajuste en ERC leve-moderada** (el alopurinol sí).",
+      "**Aumento de la MORTALIDAD CARDIOVASCULAR frente a alopurinol** en pacientes con enfermedad cardiovascular previa (CARES): **evitar en cardiopatía isquémica o ictus previo**.",
+      "**Más potente** por miligramo: 80 mg reduce el urato más que 300 mg de alopurinol."
+    ],
+    "mecanismo": "Inhibe de forma selectiva y potente la xantina oxidasa (formas oxidada y reducida), bloqueando la conversión de hipoxantina en xantina y de xantina en ácido úrico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperuricemia con gota (tofos, crisis recurrentes, artropatía) con intolerancia o contraindicación al alopurinol",
+        "dosis": "80 mg (hasta 120 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "dosis_objetivo": "Uricemia <6 mg/dL (<5 si hay tofos)"
+      },
+      {
+        "patologia": "Prevención de la hiperuricemia en el síndrome de lisis tumoral (riesgo intermedio-alto)",
+        "dosis": "120 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar 2 días antes de la quimioterapia y mantener 7-9 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "80 mg/día, **con profilaxis de crisis con colchicina 0,5-1 mg/día (o AINE a dosis baja) durante 3-6 meses**. Iniciar con la crisis resuelta (o durante ella si ya hay antiinflamatorio).",
+      "titulacion": "Uricemia a las 2-4 semanas; subir a 120 mg si no se alcanza el objetivo.",
+      "duracion": "Indefinida en gota.",
+      "fin": "No suspender durante una crisis.",
+      "via": "VO.",
+      "monitorizacion": "Uricemia cada 3-6 meses hasta objetivo; transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 85%.",
+      "distribucion": "Unión a proteínas del 99%.",
+      "metabolismo": "**Hepático** (glucuronidación y oxidación).",
+      "eliminacion": "Mixta, renal y fecal.",
+      "vida_media": "5-8 h.",
+      "ajuste_renal": "No precisa en leve-moderada; datos limitados con FG <30.",
+      "ajuste_hepatico": "Leve: máximo 80 mg. Sin datos en grave.",
+      "interacciones": [
+        {
+          "con": "Azatioprina y mercaptopurina",
+          "efecto": "**Acumulación y mielotoxicidad grave** (xantina oxidasa)",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Teofilina",
+          "efecto": "Puede aumentar sus niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Crisis de gota al iniciar** (movilización de urato)",
+        "Elevación de transaminasas",
+        "Diarrea, náuseas, exantema"
+      ],
+      "graves": [
+        "**Muerte cardiovascular aumentada en cardiopatía previa**",
+        "Hepatotoxicidad",
+        "Reacciones cutáneas graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con azatioprina o mercaptopurina",
+      "Cardiopatía isquémica o insuficiencia cardiaca congestiva (relativa: evitar)",
+      "Hiperuricemia asintomática"
+    ],
+    "perlas": [
+      "**Orden práctico: alopurinol primero; febuxostat si no se tolera o no basta, y evitarlo en el cardiópata.**"
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; Harrison 20.ª ed., cap. de gota"
+  },
+  {
+    "id": "REU-leflunomida",
+    "nombre": "Leflunomida",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "FAME sintético convencional (antirreumático modificador de la enfermedad)",
+    "subclase": "Inhibidor de la dihidroorotato deshidrogenasa (síntesis de pirimidinas)",
+    "vs_clase": [
+      "**Alternativa al metotrexato en la artritis reumatoide** cuando este está contraindicado o no se tolera.",
+      "**Vida media de ~2 SEMANAS con circulación enterohepática**: persiste en el organismo hasta 2 años. **Antes de un embarazo (en mujeres Y en varones) se requiere un PROCEDIMIENTO DE LAVADO con colestiramina** (8 g cada 8 h durante 11 días) y comprobar niveles.",
+      "**Eleva la presión arterial y produce diarrea** con más frecuencia que el metotrexato.",
+      "**Hepatotóxica**: más aún combinada con metotrexato."
+    ],
+    "mecanismo": "Su metabolito activo (teriflunomida) inhibe la dihidroorotato deshidrogenasa, enzima clave de la síntesis de novo de pirimidinas. Los linfocitos T activados, que dependen de esta vía, detienen su proliferación en G1.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artritis reumatoide activa",
+        "dosis": "20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "10 mg si no se tolera; efecto en 4-6 semanas. La dosis de carga (100 mg/día × 3 días) ya no se recomienda"
+      },
+      {
+        "patologia": "Artritis psoriásica activa",
+        "dosis": "20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Alternativa a metotrexato"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Hemograma, transaminasas, PA, serologías de VHB y VHC, y prueba de embarazo.** Anticoncepción eficaz.",
+      "titulacion": "Sin titulación; reducir a 10 mg ante efectos adversos.",
+      "duracion": "Indefinida mientras sea eficaz.",
+      "fin": "Suspensión con **procedimiento de lavado (colestiramina)** si hay toxicidad grave o deseo de embarazo.",
+      "via": "VO.",
+      "monitorizacion": "**Hemograma y transaminasas cada 2 semanas los primeros 6 meses y después cada 8 semanas; PA en cada visita.**"
+    },
+    "farmacocinetica": {
+      "absorcion": "Conversión casi completa en teriflunomida.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar y renal; **circulación enterohepática** (base del lavado con colestiramina).",
+      "vida_media": "**≈2 semanas.**",
+      "ajuste_renal": "No recomendada en insuficiencia renal moderada-grave.",
+      "ajuste_hepatico": "**Contraindicada en hepatopatía.**",
+      "interacciones": [
+        {
+          "con": "Metotrexato y otros hepatotóxicos (alcohol)",
+          "efecto": "Hepatotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Monitorización estrecha si se combinan; evitar alcohol"
+        },
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección vacunal",
+          "gravedad": "alta",
+          "manejo": "Contraindicadas"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea**",
+        "**Hipertensión arterial**",
+        "Alopecia, exantema",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Hepatotoxicidad grave",
+        "Citopenias e infecciones",
+        "Neumopatía intersticial",
+        "Neuropatía periférica",
+        "Teratogenicidad"
+      ]
+    },
+    "contraindicaciones": [
+      "**Embarazo** y deseo gestacional sin lavado previo",
+      "Hepatopatía",
+      "Inmunodeficiencia grave o infección activa",
+      "Citopenias significativas",
+      "Lactancia"
+    ],
+    "perlas": [
+      "**Paciente con leflunomida que desea embarazo: colestiramina y medir teriflunomida (<0,02 mg/L en dos determinaciones separadas 14 días).**"
+    ],
+    "embarazo_lactancia": "**Contraindicada (teratógena).** Requiere lavado antes de concebir. Contraindicada en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; Harrison 20.ª ed., cap. de artritis reumatoide"
+  }
+]

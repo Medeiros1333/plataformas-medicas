@@ -1,0 +1,1330 @@
+[
+  {
+    "id": "CAR-enalapril",
+    "nombre": "Enalapril",
+    "sinonimos": [
+      "Enalaprilato (forma IV activa)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "IECA (inhibidor de la enzima convertidora de angiotensina)",
+    "subclase": "Profármaco de acción intermedia",
+    "vs_clase": [
+      "**IECA de referencia en insuficiencia cardiaca** (CONSENSUS, SOLVD), con la pauta **cada 12 h** (vida media efectiva más corta que ramipril o lisinopril).",
+      "**Único IECA con forma IV (enalaprilato)**, útil en la crisis hipertensiva.",
+      "**Profármaco de activación hepática**: en la cirrosis se prefiere lisinopril o captopril.",
+      "**Compatible con la lactancia** (con captopril, el IECA de elección en la madre lactante)."
+    ],
+    "mecanismo": "Bloquea la ECA, impidiendo la conversión de angiotensina I en angiotensina II: reduce la vasoconstricción, la secreción de aldosterona y la retención de sodio, y disminuye el remodelado ventricular y vascular. La misma enzima degrada la BRADICININA, cuya acumulación explica tanto parte del efecto vasodilatador beneficioso como la TOS y el ANGIOEDEMA. Su efecto renal es hemodinámico: dilata preferentemente la arteriola EFERENTE, reduciendo la presión intraglomerular (nefroprotección) y también el filtrado glomerular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "Inicio 2,5 mg/12 h; objetivo 10-20 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Fármaco de primer nivel pronóstico: reduce mortalidad. Titular hasta la dosis máxima tolerada, no hasta que el paciente esté asintomático"
+      },
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "Inicio 5-10 mg/24 h; mantenimiento 10-40 mg/día",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "De elección en el hipertenso joven, diabético o con proteinuria"
+      },
+      {
+        "patologia": "Nefropatía diabética y proteinuria",
+        "dosis": "10-20 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Reduce la proteinuria y enlentece la progresión a insuficiencia renal terminal, con independencia del efecto sobre la presión arterial"
+      },
+      {
+        "patologia": "Disfunción ventricular izquierda tras infarto de miocardio",
+        "dosis": "Inicio 2,5 mg/12 h, titulando",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Iniciar en las primeras 24-48 h si el paciente está estable hemodinámicamente"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja (2,5 mg), preferiblemente por la noche por el riesgo de hipotensión de primera dosis. Analítica basal con creatinina, potasio y filtrado glomerular. Extremar la precaución si el paciente está hipovolémico o en tratamiento diurético intensivo.",
+      "titulacion": "Doblar la dosis cada 2 semanas hasta la dosis objetivo o la máxima tolerada, con control de creatinina y potasio a los 7-14 días de cada escalón.",
+      "duracion": "INDEFINIDA en insuficiencia cardiaca, nefropatía y post-infarto: es un tratamiento pronóstico, no sintomático.",
+      "fin": "No se suspende por mejoría clínica. Se retira si aparece angioedema (definitivo y para toda la clase), hiperpotasemia refractaria, deterioro renal >30% no atribuible a otra causa, o embarazo (retirada inmediata).",
+      "via": "VO (enalaprilato IV disponible para urgencias hipertensivas).",
+      "monitorizacion": "Creatinina y potasio basales, a las 1-2 semanas de iniciar y tras cada aumento de dosis; después cada 3-6 meses. Presión arterial."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad ~60%; es un PROFÁRMACO que requiere hidrólisis hepática a enalaprilato, la forma activa. No se afecta de forma relevante por los alimentos.",
+      "distribucion": "Amplia; escasa unión a proteínas del metabolito activo.",
+      "metabolismo": "Hidrólisis hepática a enalaprilato. No depende del citocromo P450, por lo que tiene pocas interacciones metabólicas.",
+      "eliminacion": "Renal, mayoritariamente como enalaprilato.",
+      "vida_media": "11 h la del enalaprilato (permite dosificación cada 12-24 h).",
+      "ajuste_renal": "FG 30-60: iniciar con 2,5-5 mg/24 h. FG <30: 2,5 mg/24 h con titulación muy prudente. No está contraindicado en la insuficiencia renal crónica: precisamente ahí aporta nefroprotección.",
+      "ajuste_hepatico": "Precaución: la conversión a la forma activa puede estar reducida en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "AINE (incluidos los inhibidores de la COX-2)",
+          "efecto": "«Triple whammy» si además hay un diurético: fracaso renal agudo por pérdida simultánea de la vasodilatación aferente (prostaglandinas) y de la eferente. Además reducen el efecto antihipertensivo",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación, sobre todo en ancianos y deshidratados; si es imprescindible, controlar creatinina en 5-7 días"
+        },
+        {
+          "con": "Diuréticos ahorradores de potasio, suplementos de potasio, cotrimoxazol, heparina",
+          "efecto": "Hiperpotasemia grave",
+          "gravedad": "alta",
+          "manejo": "Controlar el potasio; evitar los sustitutos de la sal, que son cloruro potásico"
+        },
+        {
+          "con": "ARA-II o inhibidores directos de la renina (aliskireno)",
+          "efecto": "El doble bloqueo del sistema renina-angiotensina aumenta la hiperpotasemia, la hipotensión y el fracaso renal SIN beneficio pronóstico",
+          "gravedad": "alta",
+          "manejo": "Combinación desaconsejada; contraindicada con aliskireno en diabéticos"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Reduce su excreción renal y eleva la litemia hasta la intoxicación",
+          "gravedad": "alta",
+          "manejo": "Monitorizar litemia estrechamente"
+        },
+        {
+          "con": "Sacubitrilo-valsartán",
+          "efecto": "Riesgo aditivo de angioedema al inhibirse simultáneamente la ECA y la neprilisina",
+          "gravedad": "alta",
+          "manejo": "Respetar un periodo de lavado de 36 h entre ambos, en cualquier dirección del cambio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "TOS SECA e irritativa (5-20%, más frecuente en mujeres y en asiáticos), por acumulación de bradicinina; puede aparecer semanas o meses después de iniciar",
+        "Hipotensión, especialmente con la primera dosis",
+        "Elevación de la creatinina hasta un 30%, que es ESPERABLE y ACEPTABLE",
+        "Hiperpotasemia",
+        "Mareo y cefalea"
+      ],
+      "graves": [
+        "ANGIOEDEMA (0,1-0,7%, más frecuente en pacientes de raza negra), que puede comprometer la vía aérea y aparecer años después del inicio",
+        "Fracaso renal agudo en la estenosis bilateral de la arteria renal o en el paciente hipovolémico",
+        "Hiperpotasemia grave con arritmias",
+        "Fetopatía: oligoamnios, hipoplasia pulmonar y renal, muerte fetal",
+        "Neutropenia (rara, sobre todo en colagenosis con insuficiencia renal)"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO (contraindicación absoluta en cualquier trimestre)",
+      "Antecedente de angioedema por IECA o hereditario",
+      "Estenosis bilateral de la arteria renal o estenosis en riñón único",
+      "Hiperpotasemia significativa (>5,5 mmol/L)",
+      "Uso concomitante con sacubitrilo-valsartán"
+    ],
+    "perlas": [
+      "Un ascenso de la creatinina de hasta el 30% tras iniciar un IECA es ESPERABLE y NO obliga a suspenderlo: refleja la reducción deseada de la presión intraglomerular. Suspenderlo por ese ascenso priva al paciente de nefroprotección. Solo se retira si supera el 30% o si el potasio se dispara.",
+      "La tos por IECA no es dosis-dependiente y no mejora bajando la dosis: la solución es cambiar a un ARA-II, que no acumula bradicinina.",
+      "El angioedema puede debutar AÑOS después de iniciar el fármaco, lo que hace que a menudo no se relacione con él. Una vez ocurre, contraindica toda la clase de por vida.",
+      "Los sustitutos de la sal «sin sodio» son cloruro POTÁSICO: en un paciente con IECA son una causa frecuente y evitable de hiperpotasemia.",
+      "En la insuficiencia cardiaca la dosis objetivo es la de los ensayos clínicos, no la que quita los síntomas: infradosificar es el error más común y anula gran parte del beneficio pronóstico."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en todo el embarazo: en el segundo y tercer trimestre produce oligoamnios, hipoplasia pulmonar, contracturas y fallo renal fetal. Toda mujer en edad fértil debe usar anticoncepción eficaz y consultar antes de buscar embarazo. En la lactancia, el enalapril se considera aceptable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 17; Harrison 20.ª ed., caps. de hipertensión e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-losartan",
+    "nombre": "Losartán",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "ARA-II (antagonista del receptor de angiotensina II)",
+    "subclase": "Bloqueo selectivo del receptor AT1",
+    "vs_clase": [
+      "**Único ARA-II URICOSÚRICO**: reduce el ácido úrico, útil en el hipertenso con gota o hiperuricemia.",
+      "**Profármaco con metabolito activo (EXP3174) por CYP2C9 y CYP3A4**: más variabilidad e interacciones que valsartán o candesartán.",
+      "**El menos potente de la clase**, a veces requiere 2 tomas diarias.",
+      "Evidencia en **hipertrofia ventricular izquierda (LIFE)** y en **nefropatía diabética (RENAAL)**."
+    ],
+    "mecanismo": "Bloquea selectivamente el receptor AT1 de la angiotensina II, impidiendo la vasoconstricción, la liberación de aldosterona y el remodelado. A diferencia de los IECA, NO interfiere con el metabolismo de la BRADICININA: por eso no produce tos ni (casi nunca) angioedema. El bloqueo es más completo que el del IECA, porque la angiotensina II también se genera por vías alternativas a la ECA (quimasas).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "50-100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Equivalente a los IECA en eficacia, con mejor tolerancia"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida (intolerancia a IECA)",
+        "dosis": "Inicio 12,5-25 mg/24 h; objetivo 150 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Alternativa cuando el IECA produce tos; hoy la primera opción es sacubitrilo-valsartán en muchos pacientes"
+      },
+      {
+        "patologia": "Nefropatía diabética con proteinuria",
+        "dosis": "100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce la progresión a enfermedad renal terminal"
+      },
+      {
+        "patologia": "Hipertensión con hipertrofia ventricular izquierda",
+        "dosis": "50-100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Demostró superioridad frente a atenolol en la regresión de la hipertrofia y en la prevención de ictus (estudio LIFE)"
+      },
+      {
+        "patologia": "Hipertensión con hiperuricemia o gota",
+        "dosis": "50-100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "El losartán tiene un efecto URICOSÚRICO propio, exclusivo dentro de la clase"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja, con analítica basal de creatinina y potasio. Menor riesgo de hipotensión de primera dosis que con los IECA.",
+      "titulacion": "Doblar cada 2-4 semanas hasta la dosis objetivo, con control de función renal e iones tras cada escalón.",
+      "duracion": "Indefinida: tratamiento pronóstico y de control tensional crónico.",
+      "fin": "No se suspende por control de la presión arterial. Retirada inmediata si hay embarazo, hiperpotasemia refractaria o deterioro renal significativo.",
+      "via": "VO.",
+      "monitorizacion": "Creatinina y potasio basales, a las 1-2 semanas y tras cada aumento; después cada 3-6 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 33%, con efecto de primer paso importante.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP2C9 y CYP3A4 a un metabolito activo (EXP-3174) mucho más potente y de vida media más larga que el propio losartán.",
+      "eliminacion": "Biliar (60%) y renal (40%).",
+      "vida_media": "2 h el losartán, 6-9 h su metabolito activo — de ahí la dosis única diaria.",
+      "ajuste_renal": "No precisa ajuste de inicio; misma precaución que con los IECA en insuficiencia renal avanzada.",
+      "ajuste_hepatico": "Reducir la dosis inicial a 25 mg en hepatopatía moderada (se depende de la activación hepática).",
+      "interacciones": [
+        {
+          "con": "AINE",
+          "efecto": "Reducen su eficacia antihipertensiva y aumentan el riesgo de fracaso renal agudo, sobre todo asociados a diurético",
+          "gravedad": "alta",
+          "manejo": "Evitar el uso conjunto crónico; controlar creatinina si es inevitable"
+        },
+        {
+          "con": "Ahorradores de potasio, suplementos de potasio, sustitutos de la sal",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Monitorizar el potasio"
+        },
+        {
+          "con": "IECA o aliskireno",
+          "efecto": "Doble bloqueo sin beneficio y con más eventos adversos renales y electrolíticos",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumenta la litemia",
+          "gravedad": "alta",
+          "manejo": "Monitorizar niveles"
+        },
+        {
+          "con": "Fluconazol y otros inhibidores del CYP2C9",
+          "efecto": "Reducen la conversión al metabolito activo y con ello la eficacia",
+          "gravedad": "media",
+          "manejo": "Vigilar el control tensional"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo e hipotensión",
+        "Hiperpotasemia",
+        "Elevación leve de la creatinina",
+        "Cefalea",
+        "Astenia"
+      ],
+      "graves": [
+        "Fracaso renal agudo en estenosis bilateral de arteria renal o hipovolemia",
+        "Hiperpotasemia grave",
+        "Angioedema (mucho más raro que con IECA, pero descrito)",
+        "Fetopatía con oligoamnios e insuficiencia renal fetal"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO (contraindicación absoluta)",
+      "Estenosis bilateral de la arteria renal",
+      "Hiperpotasemia significativa",
+      "Combinación con aliskireno en diabéticos o con insuficiencia renal"
+    ],
+    "perlas": [
+      "El losartán es el ÚNICO ARA-II con efecto uricosúrico propio: es la elección lógica en el hipertenso con gota o hiperuricemia, o en el tratado con diuréticos tiazídicos que le elevan el ácido úrico.",
+      "No produce tos porque no interfiere con la bradicinina: es la razón exacta por la que se cambia un IECA a un ARA-II, y explica que el cambio resuelva el síntoma.",
+      "Aunque el angioedema es muchísimo menos frecuente, un paciente que tuvo angioedema por IECA tiene un riesgo pequeño pero real de repetirlo con un ARA-II: hay que valorar el caso individualmente y no darlo por seguro.",
+      "Comparte TODAS las contraindicaciones y precauciones renales y electrolíticas del IECA: cambiar de clase resuelve la tos, no la hiperpotasemia ni el problema renal.",
+      "Es un profármaco parcial: su metabolito EXP-3174 es el responsable de la mayor parte del efecto, por lo que la hepatopatía sí condiciona la dosis."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en todo el embarazo, con el mismo perfil de fetopatía que los IECA. Evitar en la lactancia (existen alternativas mejor documentadas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11; Harrison 20.ª ed., cap. de hipertensión"
+  },
+  {
+    "id": "CAR-amlodipino",
+    "nombre": "Amlodipino",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Antagonista del calcio dihidropiridínico",
+    "subclase": "Vasoselectivo de acción prolongada",
+    "vs_clase": [
+      "**Vida media muy larga (35-50 h)**: una toma diaria con descenso de PA suave y sin taquicardia refleja (a diferencia del nifedipino de liberación inmediata).",
+      "**Seguro en la insuficiencia cardiaca con FEVI reducida** (neutro en PRAISE), a diferencia de diltiazem y verapamilo.",
+      "**Edema maleolar dosis-dependiente** (más que con lercanidipino).",
+      "**Limita la simvastatina a 20 mg/día** (inhibición débil del CYP3A4)."
+    ],
+    "mecanismo": "Bloquea los canales de calcio de tipo L del músculo liso vascular, impidiendo la entrada de calcio y produciendo VASODILATACIÓN ARTERIAL periférica con reducción de las resistencias vasculares. Las DIHIDROPIRIDINAS son VASOSELECTIVAS: apenas actúan sobre el nodo sinusal, el nodo AV ni la contractilidad, a diferencia del verapamilo y el diltiazem, que sí son cardioselectivos y por eso son cronotrópicos e inotrópicos negativos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Especialmente eficaz en el anciano, en el paciente de raza negra y en la hipertensión sistólica aislada"
+      },
+      {
+        "patologia": "Angina de esfuerzo estable",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce la poscarga y la demanda miocárdica de oxígeno; se asocia a betabloqueante si no hay control"
+      },
+      {
+        "patologia": "Angina vasoespástica (de Prinzmetal)",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Es el tratamiento de ELECCIÓN; los betabloqueantes pueden EMPEORARLA por vasoconstricción coronaria sin oposición"
+      },
+      {
+        "patologia": "Fenómeno de Raynaud",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Primera línea farmacológica cuando fracasan las medidas de protección frente al frío"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg al día (2,5 mg en el anciano frágil o el hepatópata). No requiere ajuste renal.",
+      "titulacion": "Subir a 10 mg tras 1-2 semanas si el control es insuficiente. Su larguísima vida media hace que el efecto pleno tarde 7-10 días en establecerse: no reevaluar antes.",
+      "duracion": "Indefinida como tratamiento antihipertensivo o antianginoso crónico.",
+      "fin": "Puede suspenderse de forma brusca sin efecto rebote, a diferencia de los betabloqueantes o de la clonidina. Se retira si aparecen edemas incapacitantes.",
+      "via": "VO.",
+      "monitorizacion": "Presión arterial y frecuencia cardiaca; exploración de edemas maleolares en cada revisión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 60-65%, no afectada por los alimentos. Absorción lenta, con pico a las 6-12 h: por eso NO produce la taquicardia refleja ni la hipotensión brusca del nifedipino de liberación rápida.",
+      "distribucion": "Muy amplia, con alta unión a proteínas.",
+      "metabolismo": "Hepático extenso por CYP3A4.",
+      "eliminacion": "Renal en forma de metabolitos inactivos.",
+      "vida_media": "30-50 h: la más larga de su clase, lo que asegura cobertura de 24 h y perdona el olvido de una dosis.",
+      "ajuste_renal": "NO precisa ajuste, ni siquiera en diálisis. Es un antihipertensivo cómodo en el nefrópata.",
+      "ajuste_hepatico": "Iniciar con 2,5 mg y titular lentamente en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Simvastatina",
+          "efecto": "El amlodipino inhibe el CYP3A4 y eleva sus concentraciones, con riesgo de miopatía y rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "No superar 20 mg/día de simvastatina; preferir atorvastatina, pravastatina o rosuvastatina"
+        },
+        {
+          "con": "Inhibidores potentes del CYP3A4 (claritromicina, itraconazol, ritonavir, zumo de pomelo)",
+          "efecto": "Aumentan sus concentraciones y provocan hipotensión y edemas",
+          "gravedad": "media",
+          "manejo": "Reducir dosis y vigilar la presión arterial"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, carbamazepina, hierba de San Juan)",
+          "efecto": "Pérdida de eficacia antihipertensiva",
+          "gravedad": "media",
+          "manejo": "Vigilar el control tensional y ajustar"
+        },
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Combinación SEGURA y frecuentemente sinérgica con las dihidropiridinas (a diferencia de verapamilo/diltiazem, donde el riesgo de bradicardia grave y bloqueo es alto)",
+          "gravedad": "baja",
+          "manejo": "Asociación habitual y recomendada en la angina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "EDEMA MALEOLAR bilateral (10-20%, dosis-dependiente), que NO responde a diuréticos porque no es un edema por sobrecarga de volumen sino por vasodilatación arteriolar precapilar con aumento de la presión hidrostática capilar",
+        "Rubefacción facial y sensación de calor",
+        "Cefalea",
+        "Palpitaciones (mucho menos que con dihidropiridinas de acción corta)"
+      ],
+      "graves": [
+        "Hipotensión sintomática",
+        "Hiperplasia gingival (poco frecuente, reversible al suspender)",
+        "Empeoramiento de la insuficiencia cardiaca con FEVI reducida (efecto de clase; amlodipino y felodipino son los más seguros)",
+        "Isquemia miocárdica por robo coronario con las formas de acción rápida (no con amlodipino)"
+      ]
+    },
+    "contraindicaciones": [
+      "Shock cardiogénico",
+      "Estenosis aórtica grave",
+      "Angina inestable e infarto agudo en fase aguda",
+      "Hipotensión grave",
+      "Insuficiencia cardiaca con FEVI reducida (contraindicación relativa: si es imprescindible un calcioantagonista, se usa amlodipino o felodipino)"
+    ],
+    "perlas": [
+      "El edema maleolar del amlodipino NO se trata con diuréticos: es un edema de origen arteriolar, no de sobrecarga de volumen. La conducta correcta es reducir la dosis o asociar un IECA o ARA-II, que al dilatar el lecho venoso equilibran la presión capilar y hacen desaparecer el edema. Es una de las razones fisiopatológicas de la combinación IECA + amlodipino.",
+      "Es el calcioantagonista con mayor evidencia de seguridad en la insuficiencia cardiaca (estudios PRAISE): cuando un paciente con FEVI reducida necesita un calcioantagonista, este es el que se elige.",
+      "En la angina de Prinzmetal es el fármaco de elección y los betabloqueantes pueden empeorarla: bloquear los receptores beta2 coronarios deja sin oposición la vasoconstricción alfa.",
+      "Su vida media de 30-50 h explica que el efecto tarde una semana en ser pleno y que no rebote al suspenderlo: es un fármaco «perdonador» con el mal cumplimiento.",
+      "A diferencia del verapamilo y el diltiazem, se puede combinar con betabloqueantes sin riesgo de bradicardia grave: la distinción dihidropiridina / no dihidropiridina es clínicamente decisiva."
+    ],
+    "embarazo_lactancia": "Puede usarse en el embarazo si es necesario, aunque el nifedipino de liberación prolongada y el labetalol están mejor documentados. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 12; Harrison 20.ª ed., caps. de hipertensión y cardiopatía isquémica"
+  },
+  {
+    "id": "CAR-bisoprolol",
+    "nombre": "Bisoprolol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Betabloqueante",
+    "subclase": "Cardioselectivo (beta1) sin actividad simpaticomimética intrínseca",
+    "vs_clase": [
+      "**El betabloqueante MÁS cardioselectivo (beta-1)**: el mejor tolerado en EPOC y diabetes.",
+      "**Evidencia en insuficiencia cardiaca (CIBIS-II)** en una sola toma diaria.",
+      "**Eliminación mixta renal y hepática (50/50)**: sin acumulación importante en insuficiencia renal o hepática aislada y **sin interacciones por CYP2D6** (a diferencia de metoprolol y carvedilol)."
+    ],
+    "mecanismo": "Bloquea de forma selectiva los receptores beta1 cardiacos: reduce la frecuencia cardiaca, la contractilidad y la velocidad de conducción AV, disminuyendo el consumo miocárdico de oxígeno. En la insuficiencia cardiaca su beneficio no es hemodinámico sino ANTIRREMODELADO: contrarresta la toxicidad crónica de las catecolaminas sobre el miocardio, mejora la FEVI a medio plazo y reduce la mortalidad y la muerte súbita. La cardioselectividad se PIERDE a dosis altas, momento en que reaparecen los efectos beta2 (broncoespasmo, vasoconstricción periférica, enmascaramiento de hipoglucemia).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "Inicio 1,25 mg/24 h; objetivo 10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce mortalidad. NUNCA iniciar en descompensación aguda: solo en el paciente estable y euvolémico"
+      },
+      {
+        "patologia": "Cardiopatía isquémica: angina estable y post-infarto",
+        "dosis": "2,5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Objetivo de frecuencia cardiaca en reposo de 55-60 lpm"
+      },
+      {
+        "patologia": "Control de la frecuencia en la fibrilación auricular",
+        "dosis": "2,5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Primera línea para el control de frecuencia, especialmente si coexiste insuficiencia cardiaca"
+      },
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "5-10 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ya NO es primera línea en la hipertensión no complicada; sí lo es si hay cardiopatía isquémica, insuficiencia cardiaca o fibrilación auricular asociadas"
+      }
+    ],
+    "esquema": {
+      "inicio": "En insuficiencia cardiaca, «empezar bajo e ir despacio»: 1,25 mg/24 h, solo con el paciente ESTABLE, sin signos congestivos y sin necesidad de inotrópicos. Advertir de que puede haber un empeoramiento transitorio de los síntomas en las primeras semanas.",
+      "titulacion": "Doblar la dosis cada 2 SEMANAS como mínimo (1,25 → 2,5 → 3,75 → 5 → 7,5 → 10 mg), vigilando peso, presión arterial y frecuencia cardiaca. No subir si hay congestión, hipotensión sintomática o frecuencia <50 lpm.",
+      "duracion": "Indefinida: es un tratamiento pronóstico.",
+      "fin": "NUNCA suspender de forma brusca: el efecto REBOTE por hipersensibilidad de los receptores beta puede desencadenar angina, crisis hipertensiva, arritmias o infarto. La retirada, cuando está indicada, se hace reduciendo la dosis a la mitad cada 3-7 días durante 1-2 semanas. Ante una descompensación aguda se prefiere REDUCIR la dosis a la mitad antes que suspenderlo.",
+      "via": "VO.",
+      "monitorizacion": "Frecuencia cardiaca, presión arterial y peso en cada escalón. ECG si hay bradicardia o síntomas. Glucemias en el diabético con hipoglucemias frecuentes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad muy alta (~90%), poco afectada por los alimentos.",
+      "distribucion": "Lipofilia intermedia: menor paso al SNC que el propranolol (menos pesadillas e insomnio) y mayor que el atenolol.",
+      "metabolismo": "Hepático (50%) por CYP3A4 y CYP2D6.",
+      "eliminacion": "Equilibrada: 50% renal inalterado y 50% hepático — esa doble vía lo hace más predecible que el atenolol (renal puro) o el metoprolol (hepático puro).",
+      "vida_media": "10-12 h, lo que permite la dosis única diaria.",
+      "ajuste_renal": "FG <20: no superar 10 mg/día y titular con precaución.",
+      "ajuste_hepatico": "No superar 10 mg/día en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Verapamilo o diltiazem",
+          "efecto": "Bradicardia grave, bloqueo AV completo y depresión de la contractilidad por suma de efectos cronotrópicos e inotrópicos negativos",
+          "gravedad": "alta",
+          "manejo": "Combinación a EVITAR, sobre todo por vía IV. Con las dihidropiridinas (amlodipino) NO existe este problema"
+        },
+        {
+          "con": "Amiodarona, digoxina, ivabradina",
+          "efecto": "Bradicardia y bloqueo AV aditivos",
+          "gravedad": "alta",
+          "manejo": "Vigilar frecuencia y ECG; puede requerir reducción de dosis"
+        },
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "ENMASCARAN los síntomas adrenérgicos de la hipoglucemia (temblor, palpitaciones, ansiedad), dejando solo la sudoración; además prolongan la recuperación glucémica",
+          "gravedad": "alta",
+          "manejo": "Advertir al paciente diabético y reforzar los autocontroles; preferir betabloqueantes cardioselectivos"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Reducen su efecto antihipertensivo",
+          "gravedad": "media",
+          "manejo": "Vigilar la presión arterial"
+        },
+        {
+          "con": "Clonidina",
+          "efecto": "La retirada de la clonidina en un paciente betabloqueado provoca una crisis hipertensiva grave por estimulación alfa sin oposición",
+          "gravedad": "alta",
+          "manejo": "Retirar SIEMPRE primero el betabloqueante y después la clonidina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Bradicardia",
+        "Astenia y sensación de cansancio en las primeras semanas",
+        "Frialdad y parestesias en manos y pies",
+        "Empeoramiento transitorio de los síntomas de insuficiencia cardiaca al iniciar o subir dosis",
+        "Disfunción eréctil"
+      ],
+      "graves": [
+        "Bloqueo auriculoventricular avanzado",
+        "Broncoespasmo (menor con los cardioselectivos, pero posible a dosis altas)",
+        "Descompensación de insuficiencia cardiaca si se inicia en fase aguda o se titula demasiado rápido",
+        "Enmascaramiento de la hipoglucemia grave",
+        "Efecto rebote por retirada brusca: angina, arritmias, infarto",
+        "Empeoramiento de la isquemia en la angina vasoespástica"
+      ]
+    },
+    "contraindicaciones": [
+      "Bloqueo AV de 2.º o 3.er grado sin marcapasos",
+      "Bradicardia sintomática (<50 lpm)",
+      "Shock cardiogénico e insuficiencia cardiaca aguda descompensada",
+      "Asma bronquial grave o mal controlada (en la EPOC son en general seguros y su beneficio supera al riesgo)",
+      "Enfermedad arterial periférica grave con isquemia crítica",
+      "Angina vasoespástica de Prinzmetal",
+      "Feocromocitoma sin alfabloqueo previo"
+    ],
+    "perlas": [
+      "En el feocromocitoma, dar un betabloqueante ANTES de haber alfabloqueado provoca una crisis hipertensiva grave: al bloquear la vasodilatación beta2 se deja la vasoconstricción alfa sin oposición. La secuencia correcta es SIEMPRE alfa primero (fenoxibenzamina o doxazosina), beta después.",
+      "En la insuficiencia cardiaca se empieza cuando el paciente está seco y estable, nunca durante la descompensación; y ante una descompensación posterior se REDUCE la dosis a la mitad antes que suspenderlo, porque la retirada empeora el pronóstico.",
+      "La EPOC NO es una contraindicación: los betabloqueantes cardioselectivos reducen la mortalidad en el paciente con EPOC y cardiopatía isquémica o insuficiencia cardiaca. La contraindicación real es el asma grave.",
+      "En el diabético con hipoglucemias inadvertidas hay que valorar el riesgo: el betabloqueante suprime los síntomas de alarma adrenérgicos y deja la sudoración como único aviso.",
+      "La retirada brusca es peligrosa por hipersensibilidad de los receptores beta regulados al alza: siempre retirada gradual en 1-2 semanas.",
+      "Solo cuatro betabloqueantes han demostrado reducir la mortalidad en la insuficiencia cardiaca: bisoprolol, carvedilol, metoprolol succinato y nebivolol. No son intercambiables con el resto de la clase."
+    ],
+    "embarazo_lactancia": "El labetalol es el betabloqueante de elección en el embarazo. El bisoprolol se usa solo si es imprescindible; los betabloqueantes en general pueden producir bradicardia fetal y retraso del crecimiento. Compatible con la lactancia con vigilancia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 13; Harrison 20.ª ed., cap. de insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-furosemida",
+    "nombre": "Furosemida",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Diurético de asa",
+    "subclase": "Inhibidor del cotransportador Na-K-2Cl",
+    "vs_clase": [
+      "**Biodisponibilidad oral MUY variable (10-90%)**: en la congestión intestinal puede fallar por VO y funcionar IV; la torasemida no tiene ese problema.",
+      "**Acción corta (6 h): «efecto rebote»** de retención de sodio entre dosis, por eso suele pautarse 2 veces al día.",
+      "**El diurético de asa IV de referencia** en el edema agudo de pulmón (efecto venodilatador precoz además del diurético).",
+      "**Ototoxicidad con bolos IV rápidos y dosis altas** (máximo 4 mg/min)."
+    ],
+    "mecanismo": "Inhibe el cotransportador NKCC2 en la rama ascendente gruesa del asa de Henle, el segmento que reabsorbe el 25% del sodio filtrado: de ahí su enorme potencia diurética («diurético de techo alto»). Al bloquear la reabsorción de sodio destruye el gradiente medular corticopapilar necesario para concentrar la orina. Además tiene un efecto VENODILATADOR precoz, mediado por prostaglandinas, que reduce la precarga y alivia la disnea del edema agudo de pulmón ANTES de que se produzca la diuresis — por eso el paciente mejora en minutos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Edema agudo de pulmón / insuficiencia cardiaca descompensada",
+        "dosis": "20-40 mg IV en bolo (o el doble de la dosis oral domiciliaria si ya la tomaba)",
+        "posologia": "Repetir cada 6-12 h o perfusión continua",
+        "via": "IV",
+        "nota": "El efecto venodilatador alivia la disnea antes que la diuresis. Sentar al paciente y asociar oxígeno y, si procede, ventilación no invasiva y nitratos"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca crónica con congestión",
+        "dosis": "20-80 mg/24 h (hasta 250-500 mg en casos refractarios)",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Es un tratamiento SINTOMÁTICO: mejora la congestión pero NO reduce la mortalidad, a diferencia de IECA, betabloqueantes, antialdosterónicos e iSGLT2"
+      },
+      {
+        "patologia": "Edemas por síndrome nefrótico, cirrosis o insuficiencia renal",
+        "dosis": "40-500 mg/día según la función renal",
+        "posologia": "Cada 8-24 h",
+        "via": "VO o IV",
+        "nota": "En el síndrome nefrótico y en la insuficiencia renal se requieren dosis mayores para alcanzar la luz tubular"
+      },
+      {
+        "patologia": "Hipercalcemia (junto a hidratación salina intensiva)",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 6-12 h",
+        "via": "IV",
+        "nota": "Solo TRAS una hidratación adecuada; nunca en el paciente deshidratado, donde empeoraría la hipercalcemia"
+      },
+      {
+        "patologia": "Hiperpotasemia (como medida coadyuvante)",
+        "dosis": "40 mg",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "nota": "Aumenta la eliminación renal de potasio; medida complementaria, nunca única"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la descompensación aguda, IV desde el principio: el edema de la pared intestinal reduce la absorción oral de forma impredecible. La dosis IV equivale aproximadamente a la MITAD de la dosis oral.",
+      "titulacion": "Doblar la dosis (no acortar el intervalo) hasta obtener respuesta diurética. Si con dosis altas repetidas no hay respuesta, pasar a perfusión continua o asociar una tiazida (bloqueo secuencial de la nefrona).",
+      "duracion": "Días en la descompensación aguda; indefinida y a la MÍNIMA dosis eficaz en la insuficiencia cardiaca crónica.",
+      "fin": "Reducir progresivamente hasta la mínima dosis que mantenga al paciente sin congestión, guiándose por el PESO DIARIO. En muchos pacientes bien tratados con el resto de fármacos puede llegar a retirarse.",
+      "via": "VO o IV (la IM es dolorosa y poco usada).",
+      "monitorizacion": "PESO DIARIO (es el mejor indicador de respuesta), diuresis, presión arterial, creatinina e IONES (sodio, potasio, magnesio) a las 48-72 h de iniciar o cambiar la dosis, y después periódicamente."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral ERRÁTICA (10-100%, media 50%) y muy reducida por el edema de la pared intestinal en la insuficiencia cardiaca descompensada. La torasemida tiene una biodisponibilidad del 80-100%, mucho más predecible.",
+      "distribucion": "Alta unión a proteínas (>95%): debe ser SECRETADA activamente al túbulo proximal para llegar a su diana, y no llega por filtración. En la hipoalbuminemia y en la insuficiencia renal, esa secreción está comprometida y se necesitan dosis mayores.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal, por secreción tubular activa mediante los transportadores de aniones orgánicos.",
+      "vida_media": "1,5-2 h, muy corta: de ahí el fenómeno de rebote de retención de sodio entre dosis, que obliga a dosificar 2 veces al día en muchos pacientes.",
+      "ajuste_renal": "NO se reduce la dosis: se AUMENTA. En la insuficiencia renal avanzada se necesitan dosis mucho mayores para alcanzar concentraciones tubulares eficaces.",
+      "ajuste_hepatico": "Precaución en la cirrosis: el desequilibrio hidroelectrolítico puede precipitar encefalopatía hepática y síndrome hepatorrenal.",
+      "interacciones": [
+        {
+          "con": "AINE",
+          "efecto": "Bloquean las prostaglandinas necesarias para su efecto y compiten por la secreción tubular: resistencia diurética y riesgo de fracaso renal",
+          "gravedad": "alta",
+          "manejo": "Evitar; es una causa muy frecuente de descompensación en el paciente con insuficiencia cardiaca"
+        },
+        {
+          "con": "Aminoglucósidos, cisplatino",
+          "efecto": "OTOTOXICIDAD aditiva, potencialmente irreversible",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; si es inevitable, infundir la furosemida lentamente (no más de 4 mg/min) y vigilar la audición"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "La hipopotasemia y la hipomagnesemia inducidas potencian la toxicidad digitálica y las arritmias",
+          "gravedad": "alta",
+          "manejo": "Mantener el potasio en 4-5 mmol/L y corregir el magnesio"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Reduce su aclaramiento y aumenta la litemia",
+          "gravedad": "alta",
+          "manejo": "Monitorizar litemia"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "La hipopotasemia y la hipomagnesemia favorecen la torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Corregir electrolitos antes y durante"
+        },
+        {
+          "con": "IECA/ARA-II + AINE",
+          "efecto": "«Triple whammy»: fracaso renal agudo",
+          "gravedad": "alta",
+          "manejo": "Evitar la triple asociación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOPOTASEMIA e hipomagnesemia",
+        "HIPONATREMIA",
+        "Hipovolemia con hipotensión ortostática y deterioro prerrenal de la función renal",
+        "Hiperuricemia con posible crisis gotosa (compite con el ácido úrico por la secreción tubular)",
+        "Alcalosis metabólica hipoclorémica"
+      ],
+      "graves": [
+        "OTOTOXICIDAD con hipoacusia y acúfenos, dependiente de la VELOCIDAD de infusión IV y de la dosis, potenciada por aminoglucósidos",
+        "Fracaso renal agudo prerrenal por diuresis excesiva",
+        "Arritmias secundarias a la hipopotasemia",
+        "Nefritis intersticial alérgica",
+        "Reacción cruzada en alérgicos a sulfamidas (la furosemida es un derivado sulfonamídico; el ácido etacrínico es la alternativa sin sulfa)",
+        "Hiperglucemia y empeoramiento del perfil lipídico"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria establecida sin respuesta previa",
+      "Depleción de volumen o deshidratación grave no corregida",
+      "Hipopotasemia o hiponatremia graves no corregidas",
+      "Alergia a sulfamidas (contraindicación relativa: usar ácido etacrínico)",
+      "Encefalopatía hepática activa"
+    ],
+    "perlas": [
+      "El alivio de la disnea en el edema agudo de pulmón se debe al efecto VENODILATADOR, que ocurre en 5-15 minutos, mucho antes que la diuresis: por eso el paciente mejora antes de orinar.",
+      "En la insuficiencia renal la dosis se SUBE, no se baja: el fármaco debe ser secretado al túbulo para actuar, y con menos nefronas funcionantes hace falta más fármaco para alcanzar la concentración tubular eficaz. Es contraintuitivo y es un error frecuente.",
+      "Ante resistencia diurética, la maniobra correcta es DOBLAR LA DOSIS, no acortar el intervalo: existe un umbral de dosis por debajo del cual no hay ninguna respuesta, y por encima la respuesta es máxima.",
+      "El PESO DIARIO es el mejor parámetro de seguimiento, muy superior al balance hídrico anotado y a la exploración: una pérdida objetivo de 0,5-1 kg al día es lo razonable en la descompensación.",
+      "La furosemida mejora los síntomas pero NO la supervivencia: no debe desplazar la optimización de IECA/ARNI, betabloqueante, antialdosterónico e iSGLT2, que son los que cambian el pronóstico.",
+      "La combinación con una tiazida (bloqueo secuencial de la nefrona) es muy potente en la resistencia diurética, pero también muy hipopotasemiante: exige control analítico estrecho."
+    ],
+    "embarazo_lactancia": "Usar solo si es imprescindible: reduce el volumen plasmático y puede comprometer la perfusión placentaria. No se usa para tratar los edemas fisiológicos ni la preeclampsia. Compatible con la lactancia, aunque puede reducir la producción de leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., cap. de insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-espironolactona",
+    "nombre": "Espironolactona",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Antagonista del receptor mineralocorticoide (ARM)",
+    "subclase": "Esteroideo no selectivo",
+    "vs_clase": [
+      "**Antiandrogénico y progestagénico**: ginecomastia (~10%), mastodinia, impotencia y alteraciones menstruales (la eplerenona no las produce). Ese efecto se aprovecha en el **hirsutismo y el acné femenino**.",
+      "**De elección en la ASCITIS cirrótica** (100-400 mg) y en el **hiperaldosteronismo primario**, y **cuarto fármaco en la hipertensión resistente** (PATHWAY-2).",
+      "**Metabolitos activos de vida muy larga (canrenona)** y sin metabolismo por CYP3A4: sin las interacciones de la eplerenona.",
+      "Evidencia en insuficiencia cardiaca grave (RALES); la más barata de la clase."
+    ],
+    "mecanismo": "Antagoniza competitivamente el receptor de mineralocorticoides en el túbulo colector, bloqueando la reabsorción de sodio y la excreción de potasio dependientes de aldosterona. Su efecto diurético es modesto (el túbulo colector reabsorbe solo el 2-3% del sodio), pero su beneficio pronóstico en la insuficiencia cardiaca deriva del bloqueo del efecto PROFIBRÓTICO y de remodelado de la aldosterona sobre el miocardio y el vaso, no de la diuresis. Al no ser selectiva, también bloquea receptores androgénicos y de progesterona: de ahí la ginecomastia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "Inicio 12,5-25 mg/24 h; máximo 50 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce mortalidad (estudio RALES). Solo si el potasio es <5,0 mmol/L y el FG >30 mL/min"
+      },
+      {
+        "patologia": "Ascitis por cirrosis hepática",
+        "dosis": "100-400 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Es el diurético de ELECCIÓN en la ascitis, porque el hiperaldosteronismo secundario es el mecanismo central. Se combina con furosemida en proporción 100:40"
+      },
+      {
+        "patologia": "Hiperaldosteronismo primario (síndrome de Conn)",
+        "dosis": "25-100 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Tratamiento médico de elección en la forma bilateral no quirúrgica"
+      },
+      {
+        "patologia": "Hipertensión arterial RESISTENTE (no controlada con 3 fármacos incluido un diurético)",
+        "dosis": "25-50 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Es el CUARTO fármaco de elección, con evidencia clara de superioridad frente a otras alternativas (estudio PATHWAY-2)"
+      },
+      {
+        "patologia": "Acné, hirsutismo y síndrome de ovario poliquístico en la mujer",
+        "dosis": "50-200 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Se aprovecha su efecto ANTIANDROGÉNICO, que en el varón es un efecto adverso"
+      }
+    ],
+    "esquema": {
+      "inicio": "12,5-25 mg/24 h, SOLO si el potasio es <5,0 mmol/L y el filtrado glomerular >30 mL/min. Analítica basal obligatoria.",
+      "titulacion": "Control de potasio y creatinina a los 3-7 DÍAS, al mes y luego cada 3 meses. Subir a 50 mg solo si persiste la congestión y el potasio lo permite.",
+      "duracion": "Indefinida en la insuficiencia cardiaca (tratamiento pronóstico) y en el hiperaldosteronismo.",
+      "fin": "Se suspende si el potasio supera 5,5-6,0 mmol/L o si el filtrado cae por debajo de 30 mL/min. En el varón, la ginecomastia dolorosa obliga a cambiar a eplerenona.",
+      "via": "VO.",
+      "monitorizacion": "POTASIO y creatinina a los 3-7 días de iniciar o subir dosis, después al mes y cada 3-6 meses. Vigilar la aparición de ginecomastia en el varón."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; los alimentos aumentan su biodisponibilidad.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático extenso a metabolitos ACTIVOS de vida media larga (canrenona), que prolongan el efecto mucho más allá de lo que sugiere la vida media del fármaco original.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "1,4 h la del fármaco original, pero 16-20 h la de sus metabolitos activos: el efecto pleno tarda 2-3 días en establecerse y persiste días tras suspenderla.",
+      "ajuste_renal": "CONTRAINDICADA si FG <30 mL/min. Con FG 30-50, usar 12,5 mg y controlar el potasio con especial frecuencia.",
+      "ajuste_hepatico": "Precaución en la cirrosis avanzada por el riesgo de desequilibrio hidroelectrolítico y encefalopatía.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, sacubitrilo-valsartán",
+          "efecto": "HIPERPOTASEMIA, que es la interacción más relevante y peligrosa de la cardiología ambulatoria",
+          "gravedad": "alta",
+          "manejo": "Combinación indicada y beneficiosa en la insuficiencia cardiaca, pero exige control analítico estricto y protocolizado"
+        },
+        {
+          "con": "Suplementos de potasio y sustitutos de la sal",
+          "efecto": "Hiperpotasemia grave",
+          "gravedad": "alta",
+          "manejo": "Retirar los suplementos salvo indicación expresa; advertir sobre las sales «sin sodio»"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Reducen el efecto diurético y aumentan la hiperpotasemia y el riesgo renal",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Cotrimoxazol",
+          "efecto": "El trimetoprim bloquea el canal epitelial de sodio y suma hiperpotasemia; asociación descrita como causa de muerte súbita en ancianos",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación o controlar el potasio a los 3-5 días"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Aumenta sus niveles e interfiere con algunos inmunoensayos de digoxinemia",
+          "gravedad": "media",
+          "manejo": "Interpretar con cautela los niveles de digoxina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPERPOTASEMIA (el efecto adverso limitante)",
+        "GINECOMASTIA dolorosa y mastodinia en el varón (hasta el 10% con 50 mg y más con dosis altas), por su acción antiandrogénica",
+        "Trastornos menstruales y mastalgia en la mujer",
+        "Náuseas y molestias digestivas",
+        "Somnolencia y cefalea"
+      ],
+      "graves": [
+        "Hiperpotasemia grave con arritmias y parada cardiaca",
+        "Fracaso renal agudo, especialmente combinada con IECA y AINE",
+        "Acidosis metabólica hiperclorémica",
+        "Impotencia y disminución de la libido en el varón"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperpotasemia (>5,0 mmol/L al inicio)",
+      "Insuficiencia renal con FG <30 mL/min",
+      "Enfermedad de Addison",
+      "Anuria",
+      "Combinación con otros ahorradores de potasio o suplementos de potasio"
+    ],
+    "perlas": [
+      "Su beneficio en la insuficiencia cardiaca NO es diurético sino ANTIFIBRÓTICO: bloquea el remodelado inducido por la aldosterona. Por eso funciona a dosis bajas (25 mg) que apenas producen diuresis.",
+      "La GINECOMASTIA es el motivo más frecuente de abandono en varones: la solución no es suspender el tratamiento sino cambiar a EPLERENONA, que es selectiva del receptor mineralocorticoide y no tiene efecto antiandrogénico.",
+      "En la ascitis cirrótica es el diurético de PRIMERA elección (no la furosemida), porque el mecanismo dominante es el hiperaldosteronismo secundario. La proporción clásica es 100 mg de espironolactona por cada 40 mg de furosemida, que mantiene el potasio estable.",
+      "Es el CUARTO fármaco de elección en la hipertensión resistente, por delante de betabloqueantes y alfabloqueantes: el hiperaldosteronismo subclínico es más prevalente de lo que se creía.",
+      "La combinación IECA + espironolactona salva vidas pero también las quita si no se controla el potasio: tras la publicación del estudio RALES aumentaron los ingresos y las muertes por hiperpotasemia porque se prescribió sin el control analítico del protocolo.",
+      "Su efecto tarda 2-3 días en aparecer y persiste días tras suspenderla, por sus metabolitos activos de vida media larga: no esperar respuesta inmediata ni asumir que el riesgo desaparece al retirarla."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo por su efecto antiandrogénico (riesgo teórico de feminización del feto varón). En la lactancia, sus metabolitos pasan a la leche pero se considera aceptable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 15 y 39; Harrison 20.ª ed., caps. de insuficiencia cardiaca y cirrosis"
+  },
+  {
+    "id": "CAR-atorvastatina",
+    "nombre": "Atorvastatina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Estatina (inhibidor de la HMG-CoA reductasa)",
+    "subclase": "Estatina de alta intensidad",
+    "vs_clase": [
+      "**Eliminación BILIAR: NO necesita ajuste renal**; es la estatina de elección en la **enfermedad renal crónica** (la rosuvastatina sí se ajusta).",
+      "**Alta intensidad (40-80 mg)** y vida media larga con metabolitos activos: **a cualquier hora del día** (la simvastatina, por la noche).",
+      "**Metabolismo por CYP3A4**: interacciones con claritromicina, azoles, ciclosporina (menos que simvastatina, más que rosuvastatina o pravastatina).",
+      "Se inicia en el propio ingreso por síndrome coronario agudo a 80 mg."
+    ],
+    "mecanismo": "Inhibe competitivamente la HMG-CoA reductasa, enzima limitante de la síntesis hepática de colesterol. La caída del colesterol intracelular induce la expresión de RECEPTORES DE LDL en la superficie del hepatocito, que captan LDL circulante: ese es el mecanismo principal del descenso del colesterol plasmático. Además tienen efectos PLEIOTRÓPICOS independientes del descenso lipídico: estabilización de la placa de ateroma, efecto antiinflamatorio (descenso de la PCR), mejora de la función endotelial y efecto antitrombótico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención secundaria: cardiopatía isquémica, ictus aterotrombótico, arteriopatía periférica",
+        "dosis": "40-80 mg/24 h (alta intensidad)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Objetivo de LDL <55 mg/dL y descenso ≥50% respecto al basal. Se inicia en el propio ingreso por síndrome coronario agudo, con independencia del LDL basal"
+      },
+      {
+        "patologia": "Prevención primaria en paciente de alto riesgo cardiovascular",
+        "dosis": "10-40 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Indicación guiada por el riesgo estimado (SCORE2) y por el LDL, no solo por la cifra de colesterol"
+      },
+      {
+        "patologia": "Diabetes mellitus con factores de riesgo o lesión de órgano diana",
+        "dosis": "20-40 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "La mayoría de los diabéticos de más de 40 años tienen indicación de estatina"
+      },
+      {
+        "patologia": "Hipercolesterolemia familiar",
+        "dosis": "40-80 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Habitualmente en combinación con ezetimiba y, si no se alcanza el objetivo, con un inhibidor de PCSK9"
+      },
+      {
+        "patologia": "Enfermedad renal crónica moderada-grave (no en diálisis)",
+        "dosis": "20-40 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "La atorvastatina es de elección en el nefrópata por su eliminación biliar"
+      }
+    ],
+    "esquema": {
+      "inicio": "Analítica basal con perfil lipídico, transaminasas y CK (esta última si hay factores de riesgo muscular). Dosis según la intensidad requerida, no según el peso.",
+      "titulacion": "Reevaluar el perfil lipídico a las 4-12 SEMANAS. Si no se alcanza el objetivo, subir a dosis máxima tolerada y después AÑADIR ezetimiba, y en su caso un inhibidor de PCSK9. Duplicar la dosis solo reduce el LDL un 6% adicional («regla del 6%»): añadir un segundo fármaco rinde mucho más que seguir subiendo.",
+      "duracion": "INDEFINIDA, de por vida en prevención secundaria. La suspensión revierte el beneficio y se asocia a aumento de eventos.",
+      "fin": "No se suspende por alcanzar el objetivo de LDL: el objetivo se mantiene GRACIAS al fármaco. Se retira ante rabdomiólisis, hepatotoxicidad significativa o embarazo.",
+      "via": "VO. La atorvastatina y la rosuvastatina pueden tomarse a cualquier hora; la simvastatina debe tomarse por la NOCHE (vida media corta y síntesis de colesterol nocturna).",
+      "monitorizacion": "Perfil lipídico a las 4-12 semanas y luego anual. Transaminasas basales y solo si hay síntomas. CK únicamente si aparecen síntomas musculares. NO está indicado el control rutinario de CK ni de transaminasas en el paciente asintomático."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad baja (12%) por metabolismo de primer paso, pero eso es irrelevante porque su diana es precisamente el hígado.",
+      "distribucion": "Alta unión a proteínas; es lipofílica.",
+      "metabolismo": "Hepático por CYP3A4, con metabolitos ACTIVOS. La rosuvastatina y la pravastatina apenas dependen del CYP3A4, lo que las hace preferibles en pacientes polimedicados.",
+      "eliminacion": "BILIAR casi exclusiva: por eso NO precisa ajuste renal, a diferencia de la rosuvastatina.",
+      "vida_media": "14 h (pero sus metabolitos activos prolongan el efecto a 20-30 h), lo que permite tomarla a cualquier hora del día.",
+      "ajuste_renal": "NO precisa ajuste, ni siquiera en insuficiencia renal avanzada. Es la estatina de elección en el nefrópata.",
+      "ajuste_hepatico": "Contraindicada en la hepatopatía activa o en la elevación persistente e inexplicada de transaminasas.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4: claritromicina, itraconazol, ritonavir, ciclosporina, verapamilo, diltiazem, zumo de POMELO",
+          "efecto": "Multiplican sus concentraciones y el riesgo de miopatía y RABDOMIÓLISIS",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina durante el ciclo de claritromicina; con inhibidores crónicos, limitar la dosis o cambiar a pravastatina o rosuvastatina"
+        },
+        {
+          "con": "Fibratos, especialmente GEMFIBROZILO",
+          "efecto": "Riesgo muy elevado de rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Si hace falta un fibrato, usar FENOFIBRATO, que no comparte esa interacción"
+        },
+        {
+          "con": "Colchicina",
+          "efecto": "Miopatía aditiva",
+          "gravedad": "alta",
+          "manejo": "Vigilar síntomas musculares y CK"
+        },
+        {
+          "con": "Ciclosporina y tacrolimús",
+          "efecto": "Elevación marcada de las concentraciones de estatina",
+          "gravedad": "alta",
+          "manejo": "Limitar la dosis; en el trasplantado, la pravastatina o la fluvastatina son más seguras"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Posible aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar el INR al iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "MIALGIAS sin elevación de CK (5-10% en la práctica, aunque en los ensayos con doble ciego la incidencia es similar al placebo: gran componente nocebo)",
+        "Elevación asintomática de transaminasas (<3 veces el límite normal)",
+        "Molestias digestivas",
+        "Cefalea"
+      ],
+      "graves": [
+        "RABDOMIÓLISIS con CK >10 veces el límite normal, mioglobinuria e insuficiencia renal aguda (muy rara, ~1/100 000, pero grave)",
+        "Hepatotoxicidad significativa (excepcional)",
+        "Miopatía necrotizante autoinmune mediada por anticuerpos anti-HMGCR, que persiste tras suspender el fármaco y requiere inmunosupresión",
+        "Aumento discreto del riesgo de diabetes de nueva aparición (el beneficio cardiovascular supera claramente a este riesgo)"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO y lactancia",
+      "Hepatopatía activa o elevación persistente e inexplicada de transaminasas",
+      "Miopatía activa",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "La atorvastatina es de eliminación BILIAR y no precisa ajuste renal: es la estatina de elección en la enfermedad renal crónica, donde la rosuvastatina sí exige reducir la dosis.",
+      "«Regla del 6%»: duplicar la dosis de estatina solo reduce el LDL un 6% adicional. Cuando no se alcanza el objetivo, añadir ezetimiba (que baja un 15-20% más) rinde mucho más que seguir subiendo la dosis.",
+      "El efecto NOCEBO en las mialgias es real y está bien documentado: en los ensayos con reintroducción a ciegas, la mayoría de los pacientes «intolerantes» toleran la estatina. Ante mialgias, la conducta correcta es suspender, esperar, y reintroducir la misma u otra estatina a dosis baja o en pauta alterna, no renunciar de entrada al tratamiento.",
+      "NO hay que monitorizar CK ni transaminasas de forma rutinaria en el paciente asintomático: solo se determinan si aparecen síntomas. La analítica de control innecesaria genera hallazgos irrelevantes y abandonos.",
+      "La simvastatina debe tomarse por la noche (vida media corta); la atorvastatina y la rosuvastatina, por su vida media larga, pueden tomarse a cualquier hora, lo que mejora el cumplimiento.",
+      "La combinación con claritromicina es una causa clásica y evitable de rabdomiólisis: durante el ciclo de macrólido lo correcto es suspender la estatina o elegir azitromicina, que no inhibe el CYP3A4."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADA en el embarazo y la lactancia. El colesterol es imprescindible para la esteroidogénesis y el desarrollo fetal. Suspenderla al planificar el embarazo o ante su confirmación.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo lipídico"
+  },
+  {
+    "id": "CAR-amiodarona",
+    "nombre": "Amiodarona",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antiarrítmico",
+    "subclase": "Clase III de Vaughan-Williams (con propiedades de las cuatro clases)",
+    "vs_clase": [
+      "**El antiarrítmico de la CARDIOPATÍA ESTRUCTURAL**: utilizable con FEVI reducida o cardiopatía isquémica (la flecainida está contraindicada ahí).",
+      "**Toxicidad extracardiaca acumulativa** propia: tiroides (hipo e hipertiroidismo), pulmón (fibrosis), hígado, piel (fotosensibilidad, coloración gris-azulada), depósitos corneales.",
+      "**Vida media de 40-60 días**: sus efectos e interacciones duran meses.",
+      "**Inhibe CYP2C9, CYP3A4 y P-gp**: duplica la digoxina y sube el INR del acenocumarol (reducir ambos)."
+    ],
+    "mecanismo": "Su acción principal es el bloqueo de los canales de POTASIO, que prolonga la repolarización y el periodo refractario efectivo (clase III). Pero además bloquea canales de sodio (clase I), tiene efecto antiadrenérgico no competitivo (clase II) y bloquea canales de calcio (clase IV): esa acción sobre las cuatro clases explica su eficacia en prácticamente cualquier arritmia. Es un análogo estructural de la HORMONA TIROIDEA y contiene DOS ÁTOMOS DE YODO por molécula, de donde derivan sus efectos tiroideos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Fibrilación auricular: control del ritmo (cardioversión farmacológica y mantenimiento)",
+        "dosis": "Carga 600-800 mg/día hasta 10 g totales; mantenimiento 200 mg/24 h",
+        "posologia": "Cada 24 h tras la carga",
+        "via": "VO",
+        "nota": "Es el único antiarrítmico seguro en el paciente con CARDIOPATÍA ESTRUCTURAL o insuficiencia cardiaca"
+      },
+      {
+        "patologia": "Taquicardia ventricular y prevención de recurrencias",
+        "dosis": "150 mg IV en 10 min, seguidos de 1 mg/min durante 6 h y 0,5 mg/min 18 h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Por vía central siempre que sea posible: es muy flebítica por vía periférica"
+      },
+      {
+        "patologia": "Parada cardiaca por fibrilación ventricular o taquicardia ventricular sin pulso refractaria a desfibrilación",
+        "dosis": "300 mg en bolo (y una segunda dosis de 150 mg si persiste)",
+        "posologia": "Dosis única, repetible",
+        "via": "IV/intraósea",
+        "nota": "Se administra tras la tercera descarga, junto con la adrenalina"
+      },
+      {
+        "patologia": "Reducción de descargas apropiadas en portadores de desfibrilador implantable",
+        "dosis": "200 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Asociada a betabloqueante"
+      }
+    ],
+    "esquema": {
+      "inicio": "Requiere DOSIS DE CARGA por su enorme volumen de distribución: sin ella, el estado estacionario tardaría meses. Antes de iniciar: ECG con QTc, hormonas tiroideas (TSH y T4 libre), transaminasas, radiografía de tórax y valoración basal de la función pulmonar.",
+      "titulacion": "Tras la carga (habitualmente 10 g totales repartidos en 1-2 semanas), reducir a la mínima dosis eficaz de mantenimiento, típicamente 200 mg/día o incluso 200 mg 5 días por semana.",
+      "duracion": "Puede ser indefinida, pero la toxicidad acumulativa obliga a reevaluar periódicamente la relación beneficio-riesgo.",
+      "fin": "La retirada NO produce rebote inmediato: por su vida media de 40-100 días, el efecto persiste SEMANAS O MESES tras suspenderla. Eso significa que la toxicidad tampoco desaparece rápido y que las interacciones se mantienen mucho tiempo.",
+      "via": "VO o IV (esta última preferentemente por vía central).",
+      "monitorizacion": "PROTOCOLO OBLIGATORIO: TSH y T4 libre cada 6 meses; transaminasas cada 6 meses; radiografía de tórax anual y pruebas de función respiratoria con DLCO si aparece disnea; exploración oftalmológica anual; ECG con QTc periódico; exploración neurológica y cutánea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral variable (35-65%), aumentada por los alimentos grasos.",
+      "distribucion": "VOLUMEN DE DISTRIBUCIÓN ENORME (~5000 L): es extremadamente lipofílica y se acumula en tejido adiposo, hígado, pulmón, tiroides, córnea y piel. Ese depósito tisular explica la necesidad de dosis de carga y la persistencia del efecto tras suspenderla.",
+      "metabolismo": "Hepático por CYP3A4 a desetilamiodarona, metabolito ACTIVO. Es a la vez INHIBIDOR potente de CYP3A4, CYP2C9, CYP2D6 y de la glicoproteína P.",
+      "eliminacion": "Biliar y por la piel; eliminación renal despreciable.",
+      "vida_media": "40-100 DÍAS (la más larga de la farmacopea cardiológica habitual).",
+      "ajuste_renal": "NO precisa ajuste.",
+      "ajuste_hepatico": "Reducir dosis y vigilar transaminasas.",
+      "interacciones": [
+        {
+          "con": "DIGOXINA",
+          "efecto": "Duplica sus concentraciones al inhibir la glicoproteína P, con intoxicación digitálica",
+          "gravedad": "alta",
+          "manejo": "REDUCIR A LA MITAD la dosis de digoxina al iniciar la amiodarona y monitorizar niveles"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K (warfarina, acenocumarol)",
+          "efecto": "Potencia su efecto hasta duplicar el INR, con riesgo hemorrágico grave; el efecto persiste semanas tras suspenderla",
+          "gravedad": "alta",
+          "manejo": "Reducir preventivamente la dosis del anticoagulante un 30-50% y controlar el INR estrechamente durante semanas"
+        },
+        {
+          "con": "Fármacos que prolongan el QT (quinolonas, macrólidos, antipsicóticos, ondansetrón, sotalol)",
+          "efecto": "Riesgo aditivo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación; corregir potasio y magnesio"
+        },
+        {
+          "con": "Betabloqueantes, verapamilo, diltiazem",
+          "efecto": "Bradicardia grave y bloqueo AV",
+          "gravedad": "alta",
+          "manejo": "Vigilar frecuencia y conducción; ajustar dosis"
+        },
+        {
+          "con": "Estatinas (simvastatina)",
+          "efecto": "Aumento del riesgo de miopatía y rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Limitar simvastatina a 20 mg o cambiar a pravastatina/rosuvastatina"
+        },
+        {
+          "con": "Anticoagulantes orales directos (dabigatrán, apixabán, rivaroxabán)",
+          "efecto": "Aumento de sus concentraciones por inhibición de la glicoproteína P",
+          "gravedad": "media",
+          "manejo": "Valorar reducción de dosis según la ficha técnica y la función renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "MICRODEPÓSITOS CORNEALES en más del 90% de los pacientes (habitualmente asintomáticos; solo producen halos alrededor de las luces y NO obligan a suspender)",
+        "Fotosensibilidad intensa",
+        "Alteraciones tiroideas (hipotiroidismo en el 5-15%, hipertiroidismo en el 2-10%)",
+        "Náuseas y anorexia",
+        "Elevación asintomática de transaminasas",
+        "Bradicardia"
+      ],
+      "graves": [
+        "TOXICIDAD PULMONAR: neumonitis por hipersensibilidad o fibrosis pulmonar, potencialmente MORTAL. Es la toxicidad más temida; se manifiesta como disnea progresiva y tos seca con infiltrados intersticiales",
+        "Hepatitis y cirrosis",
+        "Tirotoxicosis inducida por amiodarona tipo I (hiperfunción por exceso de yodo, en tiroides patológica) y tipo II (tiroiditis destructiva, en tiroides sana): distinción crítica porque el tratamiento es distinto (antitiroideos frente a corticoides)",
+        "Coloración cutánea GRIS-AZULADA en zonas fotoexpuestas, característica y a menudo irreversible",
+        "Neuropatía periférica y neuropatía óptica",
+        "Bradicardia grave y bloqueo AV",
+        "Torsade de pointes (paradójicamente MENOS frecuente que con otros fármacos que alargan el QT)"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia sinusal grave, enfermedad del seno o bloqueo AV avanzado sin marcapasos",
+      "Hipertiroidismo no controlado",
+      "Alergia al yodo",
+      "Embarazo y lactancia",
+      "QT largo congénito",
+      "Enfermedad pulmonar intersticial avanzada"
+    ],
+    "perlas": [
+      "Es un fármaco «lento en todo»: tarda semanas en actuar plenamente y semanas o meses en desaparecer. Suspenderla no resuelve la toxicidad ni las interacciones a corto plazo, y hay que seguir vigilando al paciente durante meses tras la retirada.",
+      "Contiene dos átomos de yodo por molécula: una dosis de 200 mg aporta unas 75 mg de yodo, más de 100 veces el aporte diario recomendado. De ahí las alteraciones tiroideas y la necesidad de controlar la TSH cada 6 meses.",
+      "Los microdepósitos corneales son casi universales y NO son indicación de suspender: solo si producen alteración visual significativa. En cambio, la NEUROPATÍA ÓPTICA sí obliga a retirarla de inmediato.",
+      "La toxicidad pulmonar es la complicación mortal: ante disnea o tos seca de nueva aparición en un paciente con amiodarona hay que pensar en neumonitis ANTES que en insuficiencia cardiaca, y solicitar radiografía y DLCO.",
+      "Al iniciar amiodarona en un paciente digitalizado hay que reducir a la mitad la digoxina el mismo día: es una de las interacciones más predecibles y más frecuentemente olvidadas.",
+      "Es el ÚNICO antiarrítmico seguro en el paciente con cardiopatía estructural: la flecainida y la propafenona están contraindicadas ahí por su efecto proarrítmico (lección del estudio CAST).",
+      "Pese a alargar mucho el QT, su tasa de torsade de pointes es baja: prolonga la repolarización de forma homogénea en todo el miocardio, lo que no genera la dispersión que causa la arritmia."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADA: el yodo atraviesa la placenta y causa hipotiroidismo y bocio fetal. Contraindicada en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 14; Harrison 20.ª ed., caps. de arritmias y fibrilación auricular"
+  },
+  {
+    "id": "CAR-digoxina",
+    "nombre": "Digoxina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Glucósido cardiotónico (digitálico)",
+    "subclase": "Inhibidor de la bomba Na+/K+-ATPasa",
+    "mecanismo": "Inhibe la bomba Na+/K+-ATPasa de la membrana del miocardiocito: el sodio intracelular aumenta, lo que reduce el gradiente que impulsa el intercambiador Na+/Ca2+ y hace que se acumule CALCIO intracelular → mayor contractilidad (INOTROPISMO POSITIVO). Simultáneamente tiene un potente efecto VAGOTÓNICO que enlentece la conducción por el nodo AV (efecto cronotrópico y dromotrópico negativos), que es la base de su uso en la fibrilación auricular. El POTASIO compite con la digoxina por el mismo sitio de unión en la bomba: por eso la HIPOPOTASEMIA potencia la toxicidad digitálica aunque los niveles del fármaco sean normales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Fibrilación auricular con respuesta ventricular rápida (control de frecuencia)",
+        "dosis": "Carga 0,5 mg y luego 0,25 mg/6 h hasta 1-1,5 mg; mantenimiento 0,125-0,25 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO o IV",
+        "nota": "Controla la frecuencia EN REPOSO pero NO durante el ejercicio (su efecto es vagal y el ejercicio suprime el tono vagal): es de segunda línea tras los betabloqueantes, o se asocia a ellos"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida sintomática pese a tratamiento optimizado",
+        "dosis": "0,125-0,25 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce los INGRESOS por descompensación pero NO la mortalidad (estudio DIG). Se reserva para el paciente que sigue sintomático"
+      },
+      {
+        "patologia": "Control de frecuencia en el paciente hipotenso o con insuficiencia cardiaca aguda",
+        "dosis": "0,25-0,5 mg IV lenta",
+        "posologia": "Repetible cada 6 h hasta 1,5 mg/24 h",
+        "via": "IV",
+        "nota": "Útil cuando los betabloqueantes y los calcioantagonistas están contraindicados por hipotensión o bajo gasto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con o sin dosis de carga según la urgencia. Antes de iniciar: función renal, potasio, magnesio y calcio. En el anciano y en la insuficiencia renal, iniciar directamente con dosis bajas de mantenimiento sin carga.",
+      "titulacion": "Ajustar por función renal, peso magro y respuesta clínica. Objetivo de digoxinemia BAJO: 0,5-0,9 ng/mL. Niveles superiores a 1,2 ng/mL se asocian a MAYOR MORTALIDAD sin beneficio adicional.",
+      "duracion": "Indefinida mientras persista la indicación, revisando periódicamente la dosis frente a los cambios de función renal.",
+      "fin": "Se suspende ante signos de toxicidad, deterioro de la función renal o si deja de ser necesaria. Su retirada en la insuficiencia cardiaca puede provocar empeoramiento sintomático.",
+      "via": "VO o IV (nunca IM: es errática y dolorosa).",
+      "monitorizacion": "DIGOXINEMIA extraída al menos 6-8 h DESPUÉS de la última dosis (antes, refleja la fase de distribución y da falsos valores altos). Función renal, potasio y magnesio periódicos. ECG."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 60-80%, reducida por la fibra, la colestiramina y algunos antiácidos.",
+      "distribucion": "Volumen de distribución grande; se une a la musculatura esquelética, por lo que la dosis debe calcularse sobre el PESO MAGRO (importante en el obeso, donde una dosis por peso real produciría intoxicación).",
+      "metabolismo": "Escaso; es sustrato de la GLICOPROTEÍNA P, lo que explica la mayoría de sus interacciones.",
+      "eliminacion": "RENAL, mayoritariamente inalterada: la insuficiencia renal es la causa más frecuente de intoxicación.",
+      "vida_media": "36-48 h con función renal normal; hasta 5 días o más en la insuficiencia renal.",
+      "ajuste_renal": "IMPRESCINDIBLE. FG 30-50: reducir la dosis a la mitad. FG <30: 0,0625-0,125 mg/24 h o en días alternos, siempre con niveles. Es la principal causa de toxicidad.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "AMIODARONA",
+          "efecto": "Duplica los niveles de digoxina al inhibir la glicoproteína P",
+          "gravedad": "alta",
+          "manejo": "Reducir la digoxina A LA MITAD al iniciar la amiodarona"
+        },
+        {
+          "con": "Verapamilo, quinidina, propafenona, dronedarona",
+          "efecto": "Aumentan sus concentraciones por el mismo mecanismo",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis un 30-50% y monitorizar niveles"
+        },
+        {
+          "con": "Diuréticos de asa y tiazidas",
+          "efecto": "La HIPOPOTASEMIA y la hipomagnesemia inducidas potencian la toxicidad aunque la digoxinemia sea normal",
+          "gravedad": "alta",
+          "manejo": "Mantener el potasio en 4-5 mmol/L y corregir el magnesio"
+        },
+        {
+          "con": "Claritromicina y eritromicina",
+          "efecto": "Elevan sus niveles por inhibición de la glicoproteína P y por alteración de la flora intestinal que la metaboliza",
+          "gravedad": "alta",
+          "manejo": "Monitorizar niveles o preferir azitromicina"
+        },
+        {
+          "con": "Calcio intravenoso",
+          "efecto": "Puede precipitar arritmias graves («corazón de piedra») en el paciente digitalizado",
+          "gravedad": "alta",
+          "manejo": "Evitar el calcio IV rápido; administrarlo lentamente y solo si es imprescindible"
+        },
+        {
+          "con": "Espironolactona",
+          "efecto": "Aumenta los niveles e interfiere con algunos inmunoensayos de digoxinemia",
+          "gravedad": "media",
+          "manejo": "Interpretar los niveles con cautela"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Anorexia, náuseas y vómitos (a menudo los PRIMEROS síntomas de intoxicación)",
+        "Bradicardia",
+        "Cefalea y astenia",
+        "Extrasístoles ventriculares"
+      ],
+      "graves": [
+        "INTOXICACIÓN DIGITÁLICA: arritmias de casi cualquier tipo, siendo muy características la taquicardia auricular con bloqueo AV, la taquicardia ventricular bidireccional y el bloqueo AV avanzado",
+        "Alteraciones visuales: visión BORROSA y AMARILLENTA (xantopsia), halos alrededor de las luces — muy características",
+        "Confusión, desorientación y delirium en el anciano",
+        "Ginecomastia con el uso prolongado",
+        "Hiperpotasemia en la intoxicación AGUDA (por bloqueo generalizado de la bomba Na/K), que es un marcador de gravedad"
+      ]
+    },
+    "contraindicaciones": [
+      "Bloqueo AV de 2.º o 3.er grado sin marcapasos",
+      "Síndrome de WOLFF-PARKINSON-WHITE con fibrilación auricular: al bloquear el nodo AV favorece la conducción por la vía accesoria y puede degenerar en fibrilación ventricular",
+      "Miocardiopatía hipertrófica obstructiva (el inotropismo positivo aumenta la obstrucción)",
+      "Intoxicación digitálica previa no aclarada",
+      "Hipopotasemia grave no corregida"
+    ],
+    "perlas": [
+      "El descenso «en cubeta» del segmento ST (cazoleta digitálica) en el ECG indica IMPREGNACIÓN, no intoxicación: aparece a dosis terapéuticas y no obliga a modificar nada.",
+      "El síntoma visual característico es la XANTOPSIA (visión amarillenta con halos), atribuida clásicamente a la paleta amarilla del último periodo de Van Gogh, que tomaba digital.",
+      "En la intoxicación AGUDA hay HIPERpotasemia (por bloqueo global de la bomba) y en la CRÓNICA suele haber HIPOpotasemia (por los diuréticos concomitantes): distinguirlo cambia el manejo, y una potasemia >5,5 mmol/L en la intoxicación aguda es indicación de anticuerpos antidigoxina.",
+      "El antídoto son los ANTICUERPOS ANTIDIGOXINA (Fab), indicados en arritmias ventriculares graves, bradicardia refractaria a atropina o hiperpotasemia significativa. Tras administrarlos, la digoxinemia total medida se dispara y deja de ser interpretable.",
+      "NUNCA administrar calcio IV a un paciente digitalizado con hiperpotasemia: puede provocar una contractura miocárdica irreversible.",
+      "El objetivo de digoxinemia es BAJO (0,5-0,9 ng/mL): con niveles superiores aumenta la mortalidad sin ganar eficacia. El rango «clásico» de hasta 2 ng/mL está obsoleto.",
+      "No controla la frecuencia durante el ejercicio porque su efecto es vagal, y el ejercicio suprime el tono vagal: por eso es mal fármaco en monoterapia en el paciente activo y buen fármaco en el anciano sedentario o hipotenso."
+    ],
+    "embarazo_lactancia": "Puede usarse en el embarazo si está indicada; es uno de los antiarrítmicos con más experiencia acumulada, incluido el tratamiento de arritmias fetales. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 13 y 14; Harrison 20.ª ed., caps. de insuficiencia cardiaca y fibrilación auricular"
+  },
+  {
+    "id": "CAR-nitroglicerina",
+    "nombre": "Nitroglicerina",
+    "sinonimos": [
+      "Trinitrato de glicerilo"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Nitrato orgánico (donante de óxido nítrico)",
+    "subclase": "Vasodilatador de predominio venoso",
+    "vs_clase": [
+      "**Nitrato de ACCIÓN INMEDIATA**: sublingual (efecto en 1-3 min) para la **crisis de angina** y IV en el síndrome coronario agudo y el edema agudo de pulmón hipertensivo.",
+      "**Primer paso hepático masivo**: no se usa por VO (para profilaxis oral, el mononitrato).",
+      "**Taquifilaxia rápida en perfusión IV continua** (24-48 h).",
+      "También en parche transdérmico (con retirada nocturna) y pomada rectal para la fisura anal."
+    ],
+    "mecanismo": "Se metaboliza liberando ÓXIDO NÍTRICO, que activa la guanilato ciclasa del músculo liso vascular; el aumento de GMPc produce desfosforilación de la miosina y relajación. Es predominantemente VENODILATADOR a dosis bajas: reduce el retorno venoso y con ello la PRECARGA, la tensión parietal y el consumo miocárdico de oxígeno — ese es el mecanismo principal del alivio de la angina, más que la dilatación coronaria. A dosis altas también dilata arterias y reduce la poscarga.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis de angina de pecho (tratamiento de rescate)",
+        "dosis": "0,4-0,8 mg",
+        "posologia": "Sublingual, repetible cada 5 min hasta 3 dosis",
+        "via": "SL",
+        "nota": "Si el dolor persiste tras 3 dosis en 15 minutos, el paciente debe acudir a urgencias: puede tratarse de un síndrome coronario agudo"
+      },
+      {
+        "patologia": "Síndrome coronario agudo con dolor persistente o hipertensión",
+        "dosis": "10-200 µg/min",
+        "posologia": "Perfusión continua titulada",
+        "via": "IV",
+        "nota": "Titular según el dolor y la presión arterial; suspender si la presión sistólica cae por debajo de 90-100 mmHg"
+      },
+      {
+        "patologia": "Edema agudo de pulmón hipertensivo",
+        "dosis": "10-200 µg/min (o 0,4 mg SL mientras se prepara la vía)",
+        "posologia": "Perfusión continua",
+        "via": "IV o SL",
+        "nota": "Es un fármaco de PRIMERA línea en el edema agudo de pulmón con presión arterial conservada, junto con la ventilación no invasiva"
+      },
+      {
+        "patologia": "Profilaxis de la angina de esfuerzo",
+        "dosis": "Mononitrato de isosorbida 20-40 mg/12 h o parche de nitroglicerina 5-15 mg/24 h",
+        "posologia": "Con INTERVALO LIBRE de 8-12 h al día",
+        "via": "VO o transdérmica",
+        "nota": "El intervalo libre nocturno es imprescindible para evitar la tolerancia"
+      },
+      {
+        "patologia": "Fisura anal crónica",
+        "dosis": "Pomada de nitroglicerina al 0,4%",
+        "posologia": "Cada 12 h, 6-8 semanas",
+        "via": "tópica",
+        "nota": "Relaja el esfínter anal interno y mejora la perfusión; la cefalea es el efecto limitante"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la crisis anginosa, sentado o tumbado (por el riesgo de síncope por hipotensión). En perfusión IV, empezar bajo y titular cada 3-5 minutos según el dolor y la presión arterial.",
+      "titulacion": "Ascenso progresivo de la perfusión hasta el alivio del dolor o hasta el límite tensional. En el tratamiento crónico, la dosis se ajusta a la clínica manteniendo siempre el intervalo libre.",
+      "duracion": "Minutos (crisis aguda), horas o días (perfusión IV), indefinida como profilaxis crónica.",
+      "fin": "La perfusión IV se retira progresivamente para evitar rebote isquémico. En el tratamiento crónico transdérmico, el parche se retira 8-12 h al día (habitualmente por la noche) para restaurar la sensibilidad.",
+      "via": "Sublingual, IV, transdérmica, oral (mononitrato) o tópica.",
+      "monitorizacion": "Presión arterial y frecuencia cardiaca continuas en la perfusión IV. Preguntar SIEMPRE por el uso de inhibidores de la fosfodiesterasa-5 antes de administrarla."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sublingual: efecto en 1-3 minutos gracias a la absorción directa a la circulación sistémica, evitando el primer paso hepático. La vía ORAL es inútil para la nitroglicerina por un metabolismo de primer paso casi completo (por eso el nitrato oral es el mononitrato de isosorbida, que carece de primer paso).",
+      "distribucion": "Rápida y amplia.",
+      "metabolismo": "Hepático muy extenso por la nitrato reductasa.",
+      "eliminacion": "Renal, como metabolitos.",
+      "vida_media": "1-4 minutos la nitroglicerina; 4-5 h el mononitrato de isosorbida.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "INHIBIDORES DE LA FOSFODIESTERASA-5 (sildenafilo, tadalafilo, vardenafilo)",
+          "efecto": "HIPOTENSIÓN GRAVE Y REFRACTARIA, potencialmente mortal: ambos actúan sobre la misma vía del GMPc y el efecto es sinérgico",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICACIÓN ABSOLUTA. Respetar 24 h desde el sildenafilo o el vardenafilo y 48 h desde el TADALAFILO (vida media más larga). Preguntarlo siempre y explícitamente, incluso en pacientes mayores"
+        },
+        {
+          "con": "Riociguat (estimulador de la guanilato ciclasa)",
+          "efecto": "Hipotensión grave por el mismo mecanismo",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Otros antihipertensivos y alcohol",
+          "efecto": "Hipotensión aditiva",
+          "gravedad": "media",
+          "manejo": "Titular con precaución"
+        },
+        {
+          "con": "Heparina no fraccionada",
+          "efecto": "La nitroglicerina IV puede reducir su efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Vigilar el TTPa al iniciar o suspender la perfusión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "CEFALEA pulsátil (muy frecuente, es el efecto limitante; suele atenuarse con los días y responde a paracetamol)",
+        "Rubefacción facial",
+        "Hipotensión ortostática y mareo",
+        "Taquicardia refleja"
+      ],
+      "graves": [
+        "Hipotensión grave con síncope, especialmente en el infarto de VENTRÍCULO DERECHO, donde el gasto cardiaco es dependiente de la precarga",
+        "Colapso circulatorio con inhibidores de la fosfodiesterasa-5",
+        "Metahemoglobinemia (rara, con dosis muy altas y prolongadas)",
+        "Taquifilaxia (tolerancia) con la administración continua"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de inhibidores de la fosfodiesterasa-5 en las 24-48 h previas (contraindicación absoluta)",
+      "INFARTO DE VENTRÍCULO DERECHO (precarga-dependiente: la venodilatación provoca colapso)",
+      "Hipotensión (PAS <90 mmHg)",
+      "Estenosis aórtica grave y miocardiopatía hipertrófica obstructiva",
+      "Taponamiento cardiaco y pericarditis constrictiva",
+      "Hipertensión intracraneal"
+    ],
+    "perlas": [
+      "En todo paciente con dolor torácico hay que preguntar EXPLÍCITAMENTE por el uso de sildenafilo o tadalafilo antes de administrar nitroglicerina: es una interacción mortal y los pacientes no la mencionan espontáneamente. Con tadalafilo hay que esperar 48 h, no 24.",
+      "En el infarto INFERIOR hay que sospechar extensión al ventrículo derecho (derivaciones derechas V3R-V4R) ANTES de dar nitratos: en el infarto de ventrículo derecho el tratamiento es carga de volumen, y la nitroglicerina puede provocar un colapso hemodinámico.",
+      "La TOLERANCIA aparece en 24-48 h de exposición continua: por eso los parches y los nitratos orales exigen un intervalo libre diario de 8-12 h. Un parche puesto las 24 h del día deja de funcionar.",
+      "El alivio del dolor con nitroglicerina NO confirma que sea de origen coronario: el espasmo esofágico también responde. Es un error diagnóstico clásico.",
+      "El mecanismo antianginoso principal es la reducción de la PRECARGA (venodilatación), no la dilatación coronaria: por eso funciona incluso en coronarias con estenosis fijas.",
+      "El comprimido sublingual pierde actividad con la exposición al aire y a la luz: hay que revisar la caducidad y conservarlo en su envase original opaco. Muchos «fracasos» son comprimidos inactivos."
+    ],
+    "embarazo_lactancia": "Puede usarse si es necesario; se ha empleado como tocolítico. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 12 y 19; Harrison 20.ª ed., caps. de cardiopatía isquémica"
+  }
+]

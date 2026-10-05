@@ -1,0 +1,581 @@
+[
+  {
+    "id": "INF-moxifloxacino",
+    "nombre": "Moxifloxacino",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Fluoroquinolona",
+    "subclase": "4.ª generación, «quinolona respiratoria» con actividad antianaerobia",
+    "vs_clase": [
+      "**La fluoroquinolona más activa frente a NEUMOCOCO y la única con buena actividad ANAEROBIA** (útil en infecciones mixtas).",
+      "**SIN actividad útil frente a Pseudomonas** (el ciprofloxacino es la antipseudomónica) **y sin eliminación urinaria relevante: NO sirve para la ITU.**",
+      "**Eliminación HEPÁTICA: no precisa ajuste renal.**",
+      "**La quinolona que MÁS prolonga el QT.**",
+      "Fármaco de segunda línea en la **tuberculosis multirresistente**."
+    ],
+    "mecanismo": "Inhibe la ADN girasa (topoisomerasa II) y la topoisomerasa IV bacterianas, bloqueando la replicación del ADN. Bactericida concentración-dependiente. Su estructura (grupo 8-metoxi) aumenta la afinidad por la topoisomerasa IV de grampositivos.",
+    "espectro": "Cubre: neumococo (incluido resistente a penicilina), H. influenzae, Moraxella, atípicos (Mycoplasma, Chlamydophila, Legionella), S. aureus sensible a meticilina, enterobacterias y **anaerobios** (B. fragilis con resistencias crecientes), M. tuberculosis. NO cubre: **Pseudomonas aeruginosa**, SARM fiable, enterococo. **No alcanza concentraciones urinarias útiles.**",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía adquirida en la comunidad (alergia a betalactámicos o fracaso)",
+        "dosis": "400 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO / IV",
+        "nota": "5-7 días; monoterapia"
+      },
+      {
+        "patologia": "Exacerbación de EPOC y sinusitis bacteriana (segunda línea)",
+        "dosis": "400 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "5-7 días; reservar por sus efectos adversos"
+      },
+      {
+        "patologia": "Infección intraabdominal leve-moderada adquirida en la comunidad",
+        "dosis": "400 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO / IV",
+        "nota": "Cubre anaerobios en monoterapia; resistencias crecientes de Bacteroides"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECG si hay factores de riesgo de QT largo; corregir potasio y magnesio.",
+      "titulacion": "Dosis fija.",
+      "duracion": "5-7 días en NAC y EPOC; 5-14 días en el resto.",
+      "fin": "Suspender ante tendinitis, neuropatía, alteraciones psiquiátricas o QT >500 ms.",
+      "via": "VO (biodisponibilidad ~90%) e IV, con paso precoz a VO.",
+      "monitorizacion": "QT, glucemia en diabéticos, síntomas tendinosos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 90%. **Los cationes (calcio, magnesio, hierro, zinc, antiácidos) la reducen** (separar 4 h antes o 8 h después).",
+      "distribucion": "Excelente penetración pulmonar y tisular.",
+      "metabolismo": "**Hepático (glucuronidación y sulfatación), no por CYP.**",
+      "eliminacion": "**Fecal/biliar mayoritaria**; escasa renal.",
+      "vida_media": "12 h.",
+      "ajuste_renal": "**No precisa.**",
+      "ajuste_hepatico": "Contraindicado en insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT (antiarrítmicos IA/III, antipsicóticos, macrólidos, ondansetrón)",
+          "efecto": "**Torsade de pointes**",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Antiácidos, calcio, hierro, zinc, sucralfato",
+          "efecto": "Quelación: pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Separar las tomas"
+        },
+        {
+          "con": "Corticoides sistémicos",
+          "efecto": "Aumentan el riesgo de rotura tendinosa",
+          "gravedad": "alta",
+          "manejo": "Evitar en ancianos"
+        },
+        {
+          "con": "Antidiabéticos (sulfonilureas, insulina)",
+          "efecto": "Hipo o hiperglucemia graves",
+          "gravedad": "media",
+          "manejo": "Control glucémico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea",
+        "Mareo, cefalea",
+        "Alteración del gusto"
+      ],
+      "graves": [
+        "**Prolongación del QT**",
+        "Tendinitis y rotura del tendón de Aquiles",
+        "Neuropatía periférica, alteraciones psiquiátricas",
+        "Disglucemias, aneurisma o disección aórtica",
+        "Hepatotoxicidad grave (rara)",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo, bradicardia, hipopotasemia no corregida",
+      "Insuficiencia hepática grave",
+      "Antecedente de tendinopatía por quinolonas",
+      "Embarazo, lactancia y menores de 18 años"
+    ],
+    "perlas": [
+      "**Cistitis tratada con moxifloxacino = cistitis infratratada**: no llega a la orina.",
+      "Las alertas de seguridad (EMA 2018-2019) restringen las quinolonas a infecciones en las que no hay alternativa."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [
+      "ATI-chlamydophila-pneumoniae",
+      "ATI-mycoplasma-pneumoniae",
+      "BGN-haemophilus-influenzae",
+      "BGN-legionella-pneumophila",
+      "BGN-moraxella-catarrhalis",
+      "BGP-streptococcus-pneumoniae",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46; Harrison 20.ª ed., cap. de neumonía"
+  },
+  {
+    "id": "INF-ceftazidima",
+    "nombre": "Ceftazidima",
+    "sinonimos": [
+      "Ceftazidima-avibactam (con inhibidor de carbapenemasas KPC/OXA-48)"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporina de 3.ª generación",
+    "subclase": "Cefalosporina de 3.ª generación ANTIPSEUDOMÓNICA",
+    "vs_clase": [
+      "**La única cefalosporina de 3.ª generación ANTIPSEUDOMÓNICA** (ceftriaxona y cefotaxima no cubren Pseudomonas).",
+      "**MUY POBRE actividad frente a grampositivos** (neumococo, S. aureus): no sirve en monoterapia para la neumonía comunitaria ni la meningitis neumocócica.",
+      "**Vida media corta y eliminación renal**: cada 8 h y ajuste renal (la ceftriaxona va cada 24 h sin ajuste).",
+      "**Combinada con avibactam** cubre enterobacterias productoras de carbapenemasas KPC y OXA-48."
+    ],
+    "mecanismo": "Betalactámico que se une a las PBP (sobre todo PBP3 de gramnegativos) e inhibe la síntesis de la pared. Bactericida tiempo-dependiente: lo que importa es el tiempo por encima de la CMI (de ahí la perfusión extendida).",
+    "espectro": "Cubre: **Pseudomonas aeruginosa**, enterobacterias (no productoras de BLEE ni AmpC desreprimida), H. influenzae, Neisseria. NO cubre: **grampositivos de forma útil** (neumococo, S. aureus), enterococo, Listeria, anaerobios, Acinetobacter de forma fiable, BLEE.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por Pseudomonas aeruginosa sensible (neumonía nosocomial, bacteriemia, infección urinaria complicada, otitis externa maligna)",
+        "dosis": "2 g",
+        "posologia": "Cada 8 h (perfusión extendida de 3-4 h preferible)",
+        "via": "IV",
+        "nota": "Según antibiograma"
+      },
+      {
+        "patologia": "Neutropenia febril (alternativa a cefepima o piperacilina-tazobactam)",
+        "dosis": "2 g",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Añadir cobertura de grampositivos si hay mucositis, catéter o inestabilidad"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemocultivos y cultivos antes de la primera dosis; FG para ajustar.",
+      "titulacion": "Ajuste al antibiograma; desescalar si es posible.",
+      "duracion": "7-14 días según foco.",
+      "fin": "Suspensión al completar el ciclo.",
+      "via": "IV (o IM).",
+      "monitorizacion": "Función renal, respuesta clínica, neurotoxicidad en ERC."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe VO.",
+      "distribucion": "Buena difusión, incluido LCR con meninges inflamadas.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "**Renal, inalterada.**",
+      "vida_media": "**2 h.**",
+      "ajuste_renal": "FG 30-50: 1 g/12 h; FG 15-30: 1 g/24 h; FG <15: 0,5 g/24 h; dializable.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos y diuréticos de asa",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "media",
+          "manejo": "Monitorizar función renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis, exantema",
+        "Diarrea",
+        "Eosinofilia, elevación de transaminasas"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "**Neurotoxicidad (encefalopatía, convulsiones) en insuficiencia renal no ajustada**",
+        "Colitis por C. difficile",
+        "Selección de resistencias (AmpC, BLEE)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia grave a cefalosporinas",
+      "Alergia inmediata grave a penicilinas (relativa; comparte cadena lateral con aztreonam)"
+    ],
+    "perlas": [
+      "**Ceftazidima y aztreonam comparten cadena lateral**: alergia cruzada posible entre ambos (el aztreonam no tiene reactividad cruzada con otros betalactámicos)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de Pseudomonas"
+  },
+  {
+    "id": "INF-ertapenem",
+    "nombre": "Ertapenem",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — carbapenem",
+    "subclase": "Carbapenem NO antipseudomónico de dosis única diaria",
+    "vs_clase": [
+      "**NO cubre Pseudomonas ni Acinetobacter** (meropenem e imipenem sí): carbapenem de la infección **comunitaria por BLEE**.",
+      "**Una sola dosis diaria (1 g)** por su alta unión a proteínas: permite **tratamiento domiciliario** (TADE) e incluso IM.",
+      "**Útil para AHORRAR meropenem** y preservar los carbapenémicos antipseudomónicos.",
+      "Menor riesgo de convulsiones que imipenem."
+    ],
+    "mecanismo": "Betalactámico estable frente a casi todas las betalactamasas (incluidas BLEE y AmpC); se une a PBP e inhibe la síntesis de pared. Su cadena lateral reduce la entrada por porinas de Pseudomonas.",
+    "espectro": "Cubre: enterobacterias **incluidas BLEE y AmpC**, anaerobios (B. fragilis), estreptococos, S. aureus sensible a meticilina, H. influenzae. NO cubre: **Pseudomonas, Acinetobacter**, enterococo, SARM, atípicos, productores de carbapenemasas.",
+    "indicaciones": [
+      {
+        "patologia": "Infección por enterobacterias productoras de BLEE (urinaria complicada, intraabdominal, bacteriemia)",
+        "dosis": "1 g",
+        "posologia": "Cada 24 h",
+        "via": "IV / IM",
+        "nota": "Según antibiograma; desescalar si es posible"
+      },
+      {
+        "patologia": "Infección intraabdominal comunitaria complicada y pie diabético moderado-grave",
+        "dosis": "1 g",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "4-7 días tras control del foco (intraabdominal)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cultivos previos. Ajustar a FG.",
+      "titulacion": "Dosis fija.",
+      "duracion": "Según foco (5-14 días).",
+      "fin": "Desescalar a antibiótico oral según antibiograma (fosfomicina, cotrimoxazol, quinolona) cuando sea posible.",
+      "via": "IV en 30 min, o IM.",
+      "monitorizacion": "Función renal, respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM 90%.",
+      "distribucion": "**Unión a proteínas del 85-95%** (vida media larga).",
+      "metabolismo": "Hidrólisis mínima.",
+      "eliminacion": "Renal.",
+      "vida_media": "**4 h.**",
+      "ajuste_renal": "**FG <30: 500 mg/24 h.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ácido valproico",
+          "efecto": "**Caída brusca de los niveles de valproato y crisis**",
+          "gravedad": "alta",
+          "manejo": "Evitar; cambiar de antibiótico o de antiepiléptico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea, flebitis",
+        "Cefalea, náuseas"
+      ],
+      "graves": [
+        "Convulsiones (raras; más en ERC)",
+        "Colitis por C. difficile",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia grave a carbapenémicos",
+      "Alergia inmediata grave a otros betalactámicos (relativa: reactividad cruzada <1%)"
+    ],
+    "perlas": [
+      "**¿Pseudomonas posible (nosocomial, neutropenia, estructural pulmonar)? Entonces ertapenem NO.**"
+    ],
+    "embarazo_lactancia": "Datos limitados; usar si es necesario.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-proteus-mirabilis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de enterobacterias"
+  },
+  {
+    "id": "INF-imipenem",
+    "nombre": "Imipenem-cilastatina",
+    "sinonimos": [
+      "Imipenem-cilastatina-relebactam"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Betalactámico — carbapenem",
+    "subclase": "Primer carbapenem, combinado con inhibidor de la dehidropeptidasa renal",
+    "vs_clase": [
+      "**Siempre con CILASTATINA**, que inhibe la dehidropeptidasa I renal (sin ella el imipenem se inactiva en el riñón y es nefrotóxico).",
+      "**El carbapenem con MÁS riesgo de CONVULSIONES**: evitar en meningitis, patología del SNC o insuficiencia renal (se prefiere meropenem).",
+      "**Algo más activo frente a grampositivos y Enterococcus faecalis** que meropenem; algo menos frente a Pseudomonas.",
+      "Activo frente a micobacterias de crecimiento rápido y Nocardia."
+    ],
+    "mecanismo": "Betalactámico estable frente a la mayoría de betalactamasas; se une a PBP (sobre todo PBP2) e inhibe la síntesis de pared. Efecto postantibiótico frente a gramnegativos.",
+    "espectro": "Cubre: enterobacterias (incluidas BLEE y AmpC), **Pseudomonas aeruginosa**, Acinetobacter (variable), anaerobios, estreptococos, S. aureus sensible a meticilina, **E. faecalis**, Nocardia, micobacterias de crecimiento rápido. NO cubre: SARM, E. faecium, Stenotrophomonas, atípicos, productores de carbapenemasas.",
+    "indicaciones": [
+      {
+        "patologia": "Infecciones graves por gramnegativos multirresistentes o polimicrobianas (cuando no está disponible meropenem)",
+        "dosis": "500 mg-1 g",
+        "posologia": "Cada 6-8 h",
+        "via": "IV",
+        "nota": "Máximo 4 g/día; evitar en meningitis"
+      },
+      {
+        "patologia": "Infección por micobacterias de crecimiento rápido (M. abscessus) y nocardiosis grave",
+        "dosis": "500 mg-1 g",
+        "posologia": "Cada 6-12 h",
+        "via": "IV",
+        "nota": "En combinación según sensibilidad"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cultivos previos; ajustar a FG y peso.",
+      "titulacion": "Ajuste según antibiograma.",
+      "duracion": "Según foco.",
+      "fin": "Desescalar en cuanto sea posible.",
+      "via": "IV en 20-60 min.",
+      "monitorizacion": "Función renal, estado neurológico."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Amplia; pasa a LCR.",
+      "metabolismo": "**Dehidropeptidasa I renal (bloqueada por cilastatina).**",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "**Reducir dosis según FG; no usar con FG <15 sin diálisis** (convulsiones).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Ácido valproico",
+          "efecto": "Caída de niveles de valproato",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Ganciclovir",
+          "efecto": "Convulsiones",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos (infusión rápida)",
+        "Flebitis, exantema"
+      ],
+      "graves": [
+        "**Convulsiones**",
+        "Colitis por C. difficile",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia grave a carbapenémicos",
+      "Meningitis (preferir meropenem)",
+      "Epilepsia no controlada (relativa)"
+    ],
+    "perlas": [
+      "**Entre carbapenémicos, para el SNC: meropenem.** El imipenem queda para situaciones concretas."
+    ],
+    "embarazo_lactancia": "Usar solo si es necesario.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-acinetobacter-baumannii",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-enterococcus",
+      "BGP-nocardia",
+      "MYC-micobacterias-crecimiento-rapido"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de antimicrobianos"
+  },
+  {
+    "id": "INF-ampicilina",
+    "nombre": "Ampicilina",
+    "sinonimos": [
+      "Ampicilina-sulbactam"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — aminopenicilina",
+    "subclase": "Aminopenicilina de uso intravenoso",
+    "vs_clase": [
+      "**Es la aminopenicilina INTRAVENOSA** (la amoxicilina se usa por VO): mismo espectro, pero **mala biodisponibilidad oral (40%)**, por lo que no se usa VO.",
+      "**De elección frente a LISTERIA y ENTEROCOCCUS faecalis**: por eso se **añade a la cefalosporina en la meningitis del neonato, el >50 años, el inmunodeprimido o el alcohólico**.",
+      "**Endocarditis por E. faecalis**: ampicilina + ceftriaxona (o + gentamicina).",
+      "**Exantema no alérgico en la mononucleosis infecciosa** (hasta el 70-90%), igual que amoxicilina."
+    ],
+    "mecanismo": "Betalactámico que se une a las PBP e inhibe la transpeptidación de la pared. Su grupo amino aumenta la penetración en gramnegativos respecto a la penicilina G. Hidrolizable por betalactamasas (de ahí la combinación con sulbactam).",
+    "espectro": "Cubre: **Listeria monocytogenes**, **Enterococcus faecalis**, estreptococos (incluido S. agalactiae), neumococo sensible, H. influenzae no productor de betalactamasa, algunas E. coli y Proteus. Con sulbactam: anaerobios, productores de betalactamasa y **Acinetobacter** (actividad propia del sulbactam). NO cubre: S. aureus productor de penicilinasa, Klebsiella, Pseudomonas, E. faecium, atípicos.",
+    "indicaciones": [
+      {
+        "patologia": "Meningitis bacteriana con riesgo de Listeria (neonato, >50 años, inmunodepresión, alcoholismo, embarazo)",
+        "dosis": "2 g",
+        "posologia": "Cada 4 h",
+        "via": "IV",
+        "nota": "Asociada a cefotaxima o ceftriaxona y vancomicina; 21 días si se confirma Listeria"
+      },
+      {
+        "patologia": "Endocarditis por Enterococcus faecalis",
+        "dosis": "2 g",
+        "posologia": "Cada 4 h",
+        "via": "IV",
+        "nota": "Con ceftriaxona 2 g/12 h (menos nefrotóxica que con gentamicina); 6 semanas"
+      },
+      {
+        "patologia": "Profilaxis intraparto de estreptococo del grupo B (alternativa a penicilina G)",
+        "dosis": "2 g, después 1 g",
+        "posologia": "Dosis inicial y luego cada 4 h hasta el parto",
+        "via": "IV",
+        "nota": "Al menos 4 h antes del parto para que sea eficaz"
+      }
+    ],
+    "esquema": {
+      "inicio": "Preguntar por alergia a penicilinas. Cultivos previos.",
+      "titulacion": "Ajuste a FG y antibiograma.",
+      "duracion": "Meningitis por Listeria 21 días; endocarditis enterocócica 6 semanas.",
+      "fin": "Suspensión al completar el ciclo.",
+      "via": "IV (cada 4-6 h por su vida media corta).",
+      "monitorizacion": "Función renal, exantemas, hemograma en tratamientos largos."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Oral del 40%** (por eso se usa IV; la amoxicilina se absorbe un 80-90%).",
+      "distribucion": "Amplia; **pasa al LCR con meninges inflamadas**.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG 10-30: cada 6-8 h; FG <10: cada 12 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Alopurinol",
+          "efecto": "Más exantema",
+          "gravedad": "baja",
+          "manejo": "Informar"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su eliminación renal",
+          "gravedad": "media",
+          "manejo": "Vigilar toxicidad"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema maculopapular",
+        "Diarrea",
+        "Flebitis"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por C. difficile",
+        "Nefritis intersticial",
+        "Convulsiones con dosis muy altas en ERC"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a penicilinas",
+      "Mononucleosis infecciosa (exantema)"
+    ],
+    "perlas": [
+      "**Las cefalosporinas NO cubren Listeria ni enterococo**: ese es el hueco que llena la ampicilina en la meningitis empírica de riesgo.",
+      "En alérgicos a penicilina con sospecha de Listeria, la alternativa es cotrimoxazol."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGN-acinetobacter-baumannii",
+      "BGP-enterococcus",
+      "BGP-listeria-monocytogenes",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de meningitis y endocarditis"
+  },
+  {
+    "id": "INF-daptomicina",
+    "nombre": "Daptomicina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antibiótico frente a grampositivos resistentes (anti-SARM)",
+    "subclase": "Lipopéptido cíclico",
+    "vs_clase": [
+      "**Bactericida RÁPIDO y concentración-dependiente** (la vancomicina es lenta): de elección en la **bacteriemia y endocarditis por SARM** con CMI de vancomicina ≥1,5 o fracaso.",
+      "**INACTIVADA por el SURFACTANTE PULMONAR: NO sirve para la NEUMONÍA.** (Linezolid y vancomicina sí.)",
+      "**Toxicidad MUSCULAR (CPK, rabdomiólisis)** y **neumonía eosinofílica**; **no es nefrotóxica**, a diferencia de la vancomicina.",
+      "**Dosis única diaria** (8-12 mg/kg) y activa frente a **enterococo resistente a vancomicina**."
+    ],
+    "mecanismo": "Se inserta en la membrana citoplasmática de grampositivos de forma dependiente de calcio, provoca su despolarización y la muerte celular sin lisis.",
+    "espectro": "Cubre: **S. aureus (incluido SARM y con sensibilidad intermedia a vancomicina)**, estafilococos coagulasa negativos, estreptococos, **Enterococcus faecalis y faecium, incluidos resistentes a vancomicina**. NO cubre: gramnegativos, anaerobios gramnegativos, **infección pulmonar** (inactivada por surfactante).",
+    "indicaciones": [
+      {
+        "patologia": "Bacteriemia y endocarditis derecha por S. aureus (incluido SARM)",
+        "dosis": "8-12 mg/kg",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "2-6 semanas según complicaciones"
+      },
+      {
+        "patologia": "Infección complicada de piel y partes blandas por grampositivos resistentes",
+        "dosis": "4-6 mg/kg",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "7-14 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "**CPK basal**; suspender estatinas si es posible. Ajuste a FG y peso.",
+      "titulacion": "Según gravedad.",
+      "duracion": "Según foco.",
+      "fin": "**Suspender si CPK >5 veces con síntomas o >10 veces sin síntomas**, o ante neumonía eosinofílica.",
+      "via": "IV en 2 min (bolo) o 30 min.",
+      "monitorizacion": "**CPK semanal** (más frecuente con estatinas o ERC); función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "No VO.",
+      "distribucion": "Unión a proteínas del 92%; mala penetración en pulmón (inactivación) y en LCR.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "8-9 h.",
+      "ajuste_renal": "**FG <30: misma dosis cada 48 h.**",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Estatinas",
+          "efecto": "**Miopatía y rabdomiólisis aditivas**",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina durante el tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación de CPK",
+        "Diarrea, cefalea",
+        "Reacción en el punto de infusión"
+      ],
+      "graves": [
+        "**Miopatía y rabdomiólisis**",
+        "**Neumonía eosinofílica**",
+        "Neuropatía periférica",
+        "Colitis por C. difficile"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "**Neumonía** (no es una contraindicación formal, pero es ineficaz)"
+    ],
+    "perlas": [
+      "**SARM en sangre: daptomicina. SARM en pulmón: vancomicina o linezolid.**"
+    ],
+    "embarazo_lactancia": "Datos limitados.",
+    "micro_relacionado": [
+      "BGP-enterococcus",
+      "BGP-staphylococcus-aureus",
+      "BGP-staphylococcus-epidermidis",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estafilocócicas"
+  }
+]

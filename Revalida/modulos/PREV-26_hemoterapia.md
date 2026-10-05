@@ -1,0 +1,151 @@
+## 0. CABEÇALHO
+
+**Código:** PREV-26 · **Especialidade:** Preventiva · **Tema:** Hemoterapia · **Assunto:** Guia para uso de hemocomponentes - indicação de transfusão perioperatória · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 2 (2013.1-Q100, 2024.2-Q28) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 70 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29
+
+---
+
+## 1. TEORIA
+
+O uso racional de hemocomponentes é um tema de segurança do paciente muito cobrado no Revalida — a banca testa o conhecimento de que a transfusão sanguínea **não é isenta de riscos** e não deve ser indicada "por precaução" sem critério objetivo.
+
+**Princípio central do Guia para Uso de Hemocomponentes (Ministério da Saúde):**
+- A transfusão de hemocomponentes traz **riscos imediatos** (reações transfusionais agudas, hemolíticas, alérgicas, sobrecarga circulatória) e **riscos tardios** (transmissão de infecções, aloimunização, sobrecarga de ferro) — por isso, deve ser **evitada sempre que possível**, reservada para situações com indicação clínica objetiva.
+- Anemia leve isolada (ex.: Hb=11g/dL) **não é indicação** de reserva ou transfusão profilática para cirurgia eletiva — a decisão de transfundir deve se basear em critérios objetivos de perda volêmica estimada, sintomas de anemia aguda, e não em "prevenção" genérica.
+
+⚠️ **PEGADINHA DO INEP central deste tema:** os erros mais comuns são: (a) reservar sangue "porque é cirurgia de abdome" ou "porque a paciente tem mais de 40 anos", sem critério objetivo de necessidade transfusional; (b) definir um limiar fixo de perda volêmica (ex.: >8% da volemia) como indicação automática e universal de transfusão, sem considerar o quadro clínico individual; (c) indicar transfusão com objetivo de "acelerar recuperação" sem indicação clínica real. A resposta tecnicamente correta reconhece que a transfusão **traz riscos** e deve ser **evitada quando possível**, não usada por conveniência, faixa etária ou tipo de cirurgia.
+
+**Quando a transfusão é de fato indicada:** perda sanguínea significativa com repercussão hemodinâmica, anemia sintomática, ou hemoglobina abaixo de limiares específicos conforme o contexto clínico (não um valor fixo universal, mas avaliado caso a caso) — sempre pesando riscos e benefícios.
+
+### Referências
+1. Ministério da Saúde — Guia para o Uso de Hemocomponentes, 2ª edição.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no pré-operatório real:** paciente com anemia leve (Hb próxima ao limite inferior da normalidade) pergunta sobre risco de necessidade de transfusão durante cirurgia eletiva — o desafio prático é explicar que a transfusão não é rotina nem indicada "por precaução", e que traz riscos próprios.
+
+**Sequência prática de conduta:**
+1. Avaliar o grau real de anemia e o tipo/porte da cirurgia proposta.
+2. Explicar que a transfusão traz riscos imediatos e tardios, devendo ser evitada quando possível.
+3. Reservar hemocomponentes apenas com indicação objetiva (perda volêmica estimada significativa, sintomas de anemia aguda).
+4. Não reservar sangue "por rotina" apenas pelo tipo de cirurgia ou faixa etária.
+
+**Erros que médicos cometem de verdade:**
+- Reservar sangue rotineiramente para cirurgias de abdome "por precaução", sem critério objetivo.
+- Considerar anemia leve relacionada à idade como indicação automática de reserva transfusional.
+- Indicar transfusão com o objetivo de "acelerar recuperação" sem indicação clínica real.
+
+**O que dizer ao paciente:** explicar que a transfusão de sangue traz riscos próprios e por isso só é indicada quando realmente necessária, com base em critérios objetivos avaliados durante a cirurgia, não por precaução antecipada.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Reconhecer que a transfusão traz riscos imediatos e tardios, devendo ser evitada quando possível.
+- ✅ Não reservar sangue "por rotina" sem critério objetivo.
+- ✅ Basear a decisão de transfusão em critérios clínicos objetivos, não em conveniência.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2013 · Edição 1 · Questão 100]**
+
+Mulher com 45 anos de idade, em preparo para colecistectomia por doença calculosa, procura o médico da Unidade Básica de Saúde de seu bairro, apresentando os resultados dos exames laboratoriais solicitados. O hemograma apresenta hemoglobina = 11 g/dL. Ela quer saber sobre o risco da necessidade de transfusão de sangue durante a operação. Salienta que não perguntou ao cirurgião a respeito da necessidade de transfusão. Tendo como base o Guia para o Uso de Hemocomponentes do Ministério da Saúde, o médico formulará a resposta à paciente com base no fato de que:
+
+A) a transfusão de hemocomponentes traz riscos imediatos ou tardios e por isso deve ser evitada na cirurgia proposta, se possível.
+B) a transfusão de concentrado de hemácias está recomendada após perda volêmica superior a 8% da volemia total.
+C) as cirurgias de abdome exigem reserva de sangue para transfusão porque pode ser necessário ampliar a ressecção.
+D) as mulheres, após os 40 anos de idade, podem ter anemia leve, por isso é correto reservar sangue para a cirurgia.
+E) a transfusão poderá ser indicada com a finalidade de proporcionar a mais rápida recuperação da paciente.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o Guia para o Uso de Hemocomponentes reconhece que a transfusão traz riscos imediatos (reações agudas) e tardios (transmissão de infecções, aloimunização), devendo ser evitada sempre que possível — anemia leve isolada (Hb=11) não é indicação de transfusão/reserva profilática para colecistectomia eletiva.
+
+**Por que as demais estão erradas:**
+- B) Definir um limiar fixo (8% da volemia) como indicação automática e universal não reflete a avaliação individualizada recomendada pelo Guia.
+- C) "Cirurgias de abdome exigem reserva" generaliza incorretamente — a reserva deve ser baseada em avaliação de risco individual, não no tipo de cirurgia isoladamente.
+- D) Anemia leve relacionada à idade não é indicação automática de reserva transfusional.
+- E) "Acelerar recuperação" não é indicação clínica válida para transfusão, que deve ser reservada para necessidade real.
+
+**O que a banca estava testando:** reconhecimento de que a transfusão de hemocomponentes traz riscos próprios e deve ser evitada quando possível, sem indicações "por precaução" baseadas em tipo de cirurgia, faixa etária ou desejo de acelerar recuperação.
+
+---
+
+**[INEP 2024 · Edição 2 · Questão 28]**
+
+Um escolar de 9 anos, portador de anemia falciforme, politransfundido, encontra-se internado há 3 dias devido a uma crise álgica. Evoluiu com melhora da dor e estava afebril e estável clinicamente. Em hemograma, obteve-se hemoglobina de 5,8 g/dL e hematócrito de 16,5%. Iniciou-se transfusão de concentrado de hemácias desleucocitadas e fenotipadas. Quase ao término da transfusão, o menino passa a apresentar febre de 38,4 °C, calafrios, dor no local do acesso e nos flancos e epistaxe, mantendo-se com estabilidade hemodinâmica, acianótico, anictérico e sem outras alterações ao exame físico. A radiografia de tórax está sem alterações. Nesse caso, o que provavelmente está acontecendo é uma
+
+A) sobrecarga circulatória associada à transfusão.
+B) lesão pulmonar aguda relacionada à transfusão (TRALI).
+C) reação febril não hemolítica.
+D) hemólise aguda.
+
+**Gabarito oficial: C**
+
+**Por que C está correta (segundo a banca):** febre e calafrios durante a transfusão, em paciente **estável**, **anictérico**, sem hipotensão, sem comprometimento respiratório e com radiografia normal, apontam para a **reação febril não hemolítica** — a reação transfusional **mais comum**, causada por citocinas e anticorpos contra leucócitos do doador, frequente em **politransfundidos**.
+
+**Por que as demais estão erradas:**
+- A) **TACO** (sobrecarga circulatória) cursa com dispneia, hipertensão, congestão e alterações radiológicas.
+- B) **TRALI** cursa com insuficiência respiratória e infiltrado pulmonar bilateral nas primeiras 6 horas.
+- D) A banca afastou a **hemólise aguda** pela estabilidade hemodinâmica, ausência de icterícia e uso de hemácias fenotipadas.
+
+⚠️ **ATENÇÃO CLÍNICA:** **dor no local do acesso, dor lombar/nos flancos e sangramento (epistaxe)** são sinais clássicos de **reação hemolítica aguda** (com CIVD). O gabarito oficial é C, mas **na prática** esse quadro obriga a **suspender a transfusão imediatamente** e investigar hemólise (Coombs direto, LDH, bilirrubinas, haptoglobina, hemoglobinúria, conferência da bolsa) — a reação febril não hemolítica é **diagnóstico de exclusão**. Em anemia falciforme politransfundida, lembre ainda da **hiper-hemólise**.
+
+**O que a banca estava testando:** diagnóstico diferencial das reações transfusionais agudas.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+A transfusão de hemocomponentes é isenta de riscos?	Não — traz riscos imediatos (reações agudas) e tardios (infecções, aloimunização)	Revalida::Preventiva::Hemoterapia::Conceito
+Anemia leve isolada (Hb=11) é indicação de reserva transfusional para cirurgia eletiva?	Não	Revalida::Preventiva::Hemoterapia::Indicacao
+"Cirurgia de abdome" ou "idade acima de 40 anos" são, isoladamente, indicação de reserva de sangue?	Não — a decisão deve ser individualizada, baseada em critérios clínicos objetivos	Revalida::Preventiva::Hemoterapia::Indicacao
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Transfusão traz riscos imediatos e tardios — evitar quando possível.
+2. Anemia leve isolada não é indicação de reserva/transfusão profilática.
+3. Não usar limiares fixos universais (ex.: % de volemia) sem avaliação individual.
+4. Tipo de cirurgia ou faixa etária, isoladamente, não justificam reserva de sangue.
+5. Transfusão não deve ser indicada para "acelerar recuperação" sem indicação clínica real.
+
+📊 **Tabela-síntese**
+| Situação | Indicação de transfusão? |
+|---|---|
+| Anemia leve isolada (Hb=11) | Não |
+| Perda volêmica significativa com repercussão | Sim |
+| "Por precaução" (tipo de cirurgia/idade) | Não |
+| "Acelerar recuperação" | Não |
+
+⚡ **Fluxograma textual:** paciente com anemia leve para cirurgia eletiva → avaliar riscos e benefícios individualmente → sem indicação clínica objetiva → não reservar sangue por rotina.
+
+🚫 **Os 3 erros mais comuns:** (1) reservar sangue por tipo de cirurgia; (2) reservar por faixa etária; (3) indicar transfusão para "acelerar recuperação".
+
+🔗 **Conexões com outros módulos:** nenhum diretamente relacionado neste lote.
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PREV-26",
+  "especialidade": "Preventiva",
+  "tema": "Hemoterapia",
+  "assunto": "Guia para uso de hemocomponentes - indicação de transfusão perioperatória",
+  "tier": "A",
+  "n_questoes": 2,
+  "n_flashcards": 3,
+  "tempo_estudo_min": 70,
+  "prerequisitos": [],
+  "relacionados": [],
+  "data_geracao": "2026-07-29",
+  "itens_a_verificar": [
+    "Módulo com apenas 1 questão na amostra atual — prioridade para revisão quando mais edições forem classificadas"
+  ]
+}
+```

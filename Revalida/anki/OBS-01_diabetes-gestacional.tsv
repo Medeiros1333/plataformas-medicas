@@ -1,0 +1,14 @@
+Qual exame se solicita na 1ª consulta de pré-natal para rastreio de diabetes?	Glicemia de jejum	Revalida::Obstetricia::DiabetesGestacional::Rastreamento
+Glicemia de jejum ≥126 mg/dL na 1ª consulta indica o quê?	Diabetes mellitus prévio à gestação (overt diabetes), não DMG	Revalida::Obstetricia::DiabetesGestacional::Diagnostico
+Glicemia de jejum entre 92-125 mg/dL na 1ª consulta indica o quê?	Diagnóstico de DMG já fechado nesse momento, sem necessidade de TOTG	Revalida::Obstetricia::DiabetesGestacional::Diagnostico
+Glicemia de jejum <92 mg/dL na 1ª consulta: descarta DMG?	Não — repetir avaliação (TOTG 75g) entre 24-28 semanas	Revalida::Obstetricia::DiabetesGestacional::Diagnostico
+Quando solicitar o TOTG 75g na gestação?	Entre 24-28 semanas, se glicemia de jejum inicial foi normal	Revalida::Obstetricia::DiabetesGestacional::Rastreamento
+Quais os 3 valores de corte do TOTG 75g (jejum/1h/2h)?	Jejum ≥92, 1h ≥180, 2h ≥153 mg/dL — basta 1 alterado para DMG	Revalida::Obstetricia::DiabetesGestacional::Diagnostico
+HbA1c é o exame de rastreio de rotina do DMG?	Não — é distrator clássico de prova, não faz parte do algoritmo de rastreio gestacional	Revalida::Obstetricia::DiabetesGestacional::Diagnostico
+Cite 4 fatores de risco clássicos para DMG	Idade ≥35a, obesidade pré-gestacional, DMG prévio, macrossomia prévia (RN ≥4000g)	Revalida::Obstetricia::DiabetesGestacional::FatoresDeRisco
+Antecedente de RN macrossômico (>4000g): o que isso sinaliza na gestação atual?	Fator de risco para DMG na gestação atual, reforça necessidade de rastreio	Revalida::Obstetricia::DiabetesGestacional::FatoresDeRisco
+Gestante obesa pré-gestacional com glicemia de jejum normal na 1ª consulta: conduta?	Orientar dieta + reagendar rastreio (glicemia de jejum/TOTG) entre 24-28 semanas	Revalida::Obstetricia::DiabetesGestacional::Conduta
+Qual a 1ª linha de tratamento do DMG?	Dieta e atividade física	Revalida::Obstetricia::DiabetesGestacional::Tratamento
+Se dieta e atividade física não controlam a glicemia no DMG, qual o fármaco de escolha?	Insulina	Revalida::Obstetricia::DiabetesGestacional::Tratamento
+Cite 3 complicações do DMG não controlado	Macrossomia fetal, polidrâmnio, hipoglicemia neonatal (também: pré-eclâmpsia, distocia de ombro)	Revalida::Obstetricia::DiabetesGestacional::Complicacoes
+Como calcular o IMC pré-gravídico e qual limiar já é fator de risco para DMG?	Peso pré-gestacional (kg)/altura²(m); IMC ≥25-27 kg/m² já é fator de risco	Revalida::Obstetricia::DiabetesGestacional::FatoresDeRisco

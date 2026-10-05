@@ -1,0 +1,101 @@
+{
+  "CIR-115": {
+    "teoria_md": "### Trauma de uretra (quase sempre masculino)\n| | Uretra posterior (prostatomembranosa) | Uretra anterior (bulbar/peniana) |\n|---|---|---|\n| Mecanismo | **Fratura de pelve** (cisalhamento) — acidentes, atropelamentos | **Queda a cavaleiro** (straddle), trauma perineal direto, instrumentação |\n| Sinais | Uretrorragia, retenção, **próstata \"alta\"/flutuante** ao toque, hematoma | Uretrorragia, **hematoma perineal em \"asa de borboleta\"** (limitado pela fáscia de Colles), retenção |\n\n- **Sinais de alerta:** **sangue no meato uretral (uretrorragia)**, **hematoma perineal/escrotal**, **incapacidade de urinar com globo vesical**, próstata elevada ao toque, fratura pélvica (anel anterior).\n- **Conduta:** **não tentar cateterismo uretral** (pode transformar lesão parcial em total e contaminar o hematoma) → **uretrocistografia retrógrada** para confirmar e classificar → derivação urinária por **cistostomia suprapúbica** (por punção ou aberta) → reconstrução uretral posterior, de forma programada.\n- Se já há sonda passada às cegas com sangue vivo saindo e retenção → **retirar a sonda e fazer cistostomia**.\n\n### Trauma de bexiga\n- **Extraperitoneal** (mais comum; associada a fratura de pelve): tratamento com **sondagem vesical** por 10–14 dias (se não houver lesão uretral).\n- **Intraperitoneal** (trauma com bexiga cheia — cinto de segurança, chute): urina livre no peritônio → **cirurgia** (rafia).\n- Diagnóstico: **cistografia retrógrada** (ou cisto-TC). Hematúria macroscópica + fratura pélvica → investigar bexiga.\n\n### Trauma de ureter\n- Raro no trauma externo (ferimentos penetrantes); mais frequente **iatrogênico** (histerectomia, colectomia). Diagnóstico frequentemente **tardio**: **fístula** (perda de urina pela vagina/ferida), urinoma, **hidronefrose**, febre.\n- **Fístula vesicovaginal** + **ureterovaginal/hidronefrose** após cirurgia pélvica → reabordagem com **reparo da bexiga e reimplante ureteral** (ureteroneocistostomia), conforme a extensão.\n\n### Trauma renal\n- Hematúria + trauma lombar/desaceleração; **TC com contraste** em paciente estável; a maioria das lesões é tratada **conservadoramente**; cirurgia se instabilidade/lesão vascular grave.",
+    "pratica_md": "**Como aparece no dia a dia.** O motociclista com fratura de bacia e sangue no meato, em quem o interno \"tenta passar a sonda\"; o pedreiro que caiu \"a cavaleiro\" e não consegue urinar; a paciente que, dias após histerectomia de urgência, perde urina pela vagina.\n\n**Condutas práticas:**\n- Antes de sondar todo politraumatizado: **inspecionar o meato e o períneo** e fazer **toque retal** se houver suspeita.\n- Uretrorragia/hematoma perineal + globo → **cistostomia suprapúbica** (punção guiada, se bexiga palpável/distendida) e encaminhar à urologia.\n- Paciente estável com suspeita de lesão uretral → **uretrocistografia retrógrada** antes de qualquer cateterismo.\n\n**Erros reais:**\n- Sondagem vesical às cegas com uretrorragia.\n- Irrigar sob pressão uma sonda \"obstruída\" que, na verdade, está fora da bexiga.\n- Atribuir perda de urina vaginal pós-operatória a \"incontinência\" e não investigar fístula.\n\n**ESTAÇÃO PRÁTICA (2ª etapa):**\n- ✅ Na avaliação secundária do trauma, examinar meato, períneo e escroto antes da sondagem.\n- ✅ Verbalizar a contraindicação ao cateterismo uretral e propor uretrocistografia retrógrada/cistostomia.\n- ✅ Explicar ao paciente a derivação urinária temporária.",
+    "resumo_md": "🎯 **As 5 frases que resolvem a maioria das questões:**\n1. **Sangue no meato + hematoma perineal (± fratura de pelve)** = lesão de uretra.\n2. **Não sondar**; confirmar com **uretrocistografia retrógrada**.\n3. Retenção urinária com lesão de uretra → **cistostomia suprapúbica**.\n4. Bexiga: extraperitoneal → sonda; intraperitoneal → cirurgia.\n5. Fístula urinária + hidronefrose pós-cirurgia pélvica → reparo e **reimplante ureteral**.\n\n📊 **Tabela-síntese**\n\n| Lesão | Exame | Tratamento |\n|---|---|---|\n| Uretra | Uretrocistografia retrógrada | Cistostomia + reparo tardio |\n| Bexiga extraperitoneal | Cistografia/cisto-TC | Sonda vesical |\n| Bexiga intraperitoneal | Cistografia/cisto-TC | Cirurgia |\n| Ureter | TC com fase excretora / pielografia | Reimplante/reparo |\n| Rim | TC com contraste | Conservador na maioria |\n\n⚡ **Fluxograma textual:** trauma pélvico/perineal → inspeção do meato e períneo → sinais de lesão uretral? → sim: não sondar → uretrocistografia → cistostomia; não: sonda → hematúria? → avaliar bexiga/rim.\n\n🚫 **Os 4 erros mais comuns:** (1) sondar com uretrorragia; (2) irrigar sonda mal posicionada; (3) não examinar períneo; (4) atrasar diagnóstico de fístula iatrogênica.\n\n🔗 **Conexões com outros módulos:** CIR-123 (atendimento inicial ao politraumatizado), CIR-52 (trauma abdominal fechado), CIR-31 (trauma penetrante).\n\n<!-- METADADOS -->\n```json\n{\n  \"codigo\": \"CIR-115\",\n  \"especialidade\": \"Cirurgia\",\n  \"tema\": \"Trauma urogenital\",\n  \"assunto\": \"Trauma de uretra (sinais, contraindicação ao cateterismo, uretrocistografia retrógrada, cistostomia), trauma de bexiga, ureter e rim, e fístulas pós-traumáticas\",\n  \"tier\": \"B\",\n  \"n_questoes\": 7,\n  \"n_flashcards\": 11,\n  \"tempo_estudo_min\": 45,\n  \"prerequisitos\": [\"CIR-123\"],\n  \"relacionados\": [\"CIR-123\", \"CIR-52\", \"CIR-31\"],\n  \"data_geracao\": \"2026-09-30\",\n  \"itens_a_verificar\": []\n}\n```",
+    "flashcards_tsv": "Quais os sinais de lesão de uretra no trauma?\tUretrorragia (sangue no meato), hematoma perineal/escrotal, retenção urinária com globo, próstata alta ao toque\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nNa suspeita de lesão de uretra, pode-se passar sonda vesical?\tNão — contraindicado até excluir a lesão\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nQual o exame para confirmar lesão de uretra?\tUretrocistografia retrógrada\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nComo drenar a bexiga quando há lesão de uretra?\tCistostomia suprapúbica (por punção ou aberta)\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nFratura de pelve lesa qual porção da uretra?\tUretra posterior (prostatomembranosa)\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nQueda a cavaleiro lesa qual porção da uretra?\tUretra anterior (bulbar), com hematoma perineal em asa de borboleta\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nPaciente sondado às cegas com saída de sangue e globo vesical doloroso: conduta?\tRetirar a sonda e realizar cistostomia\tRevalida::Cirurgia::TraumaUrogenital::Uretra\nQual o tratamento da rotura extraperitoneal de bexiga?\tSondagem vesical de demora (10–14 dias), se não houver lesão uretral\tRevalida::Cirurgia::TraumaUrogenital::Bexiga\nQual o tratamento da rotura intraperitoneal de bexiga?\tCirurgia (rafia vesical)\tRevalida::Cirurgia::TraumaUrogenital::Bexiga\nPerda de urina pela vagina e hidronefrose após histerectomia sugerem o quê?\tFístula vesicovaginal e lesão ureteral — reparo vesical e reimplante ureteral\tRevalida::Cirurgia::TraumaUrogenital::Ureter\nQual exame avalia trauma renal no paciente estável?\tTC de abdome com contraste\tRevalida::Cirurgia::TraumaUrogenital::Rim",
+    "questoes": [
+      {
+        "id": "INEP2020-1-Q053",
+        "enunciado": "Um paciente com 23 anos de idade, do sexo masculino, vítima de acidente automobilístico, foi trazido ao setor de Trauma pela equipe de suporte avançado do Serviço de Atendimento Móvel de Urgência (SAMU). Apresenta vias aéreas pérvias, ausculta pulmonar normal, PA = 100 x 60 mmHg, FC = 100 bpm, FR = 24 irpm, Glasgow = 14. Durante a inspeção, nota-se equimose perineal. O paciente está com sonda vesical de duas vias com débito de 40 mL de sangue vivo. Queixa-se de dor intensa em hipogástrio, onde se nota abaulamento extremamente doloroso à palpação que vai do púbis até cerca de 5 cm abaixo da cicatriz umbilical. Nesse caso, o diagnóstico e a conduta médica inicial para esse paciente são",
+        "alternativas": {
+          "A": "trauma renal e tomografia computadorizada de abdome com contraste endovenoso.",
+          "B": "trauma de bexiga e colocação de sonda vesical em três vias para irrigação contínua.",
+          "C": "trauma de uretra e retirada da sonda vesical com cistostomia percutânea.",
+          "D": "obstrução da sonda vesical e desobstrução com irrigação sob pressão."
+        },
+        "gabarito_oficial": "C",
+        "anulada": false,
+        "comentario": "**Por que C está correta:** **equimose perineal** + sonda que drena **sangue vivo** (e não urina) + **globo vesical** doloroso (bexiga cheia, não drenada) = a sonda passada às cegas está no trajeto de uma **uretra lesada**, não na bexiga. Conduta: **retirar a sonda** e drenar a bexiga por **cistostomia suprapúbica** (percutânea); depois, uretrocistografia retrógrada e reparo programado.\n\n\n\n**Por que as demais estão erradas:**\n- A) Trauma renal não explica o hematoma perineal nem o globo.\n- B) Irrigação com sonda de 3 vias trata coágulos na bexiga — mas a sonda nem está na bexiga.\n- D) Irrigar sob pressão uma sonda mal posicionada agrava a lesão e espalha o hematoma.\n\n⚠️ **PEGADINHA DO INEP:** o erro inicial foi **sondar sem examinar** meato e períneo. Com sinais de lesão uretral, **não se passa sonda**.\n\n**O que a banca estava testando:** reconhecimento e conduta na lesão de uretra.\n\n---"
+      },
+      {
+        "id": "INEP2023-2-Q007",
+        "enunciado": "Os plantonistas do serviço de atendimento pré-hospitalar socorrem um rapaz de 18 anos, que foi atropelado por carro ao atravessar uma rodovia, e o levam até a emergência hospitalar para continuidade do atendimento. Após estabilização hemodinâmica e realização de exames complementares, é diagnosticada fratura de pelve anterior e posterior e, no exame físico, observa-se hematoma perineal e sangue no óstio externo da uretra. Nesse caso, para confirmar o diagnóstico de lesão uretral total associada, é indicado realizar uma",
+        "alternativas": {
+          "A": "uretrocistografia retrógrada.",
+          "B": "cateterização suprapúbica.",
+          "C": "cateterização uretral.",
+          "D": "tomografia pélvica."
+        },
+        "gabarito_oficial": "A",
+        "anulada": false,
+        "comentario": "**Por que A está correta:** **fratura de pelve** + **hematoma perineal** + **sangue no meato** = suspeita de **lesão de uretra posterior**. O exame que **confirma e classifica** (parcial × total) é a **uretrocistografia retrógrada** (contraste injetado pelo meato).\n\n\n\n**Por que as demais estão erradas:**\n- B) A cistostomia suprapúbica é **tratamento** (derivação), não diagnóstico.\n- C) **Cateterização uretral é contraindicada** com esses sinais.\n- D) A TC avalia a pelve e a bexiga, mas não é o exame de escolha para a uretra.\n\n⚠️ **PEGADINHA DO INEP:** fratura do **anel pélvico anterior** (ramos púbicos, diástase da sínfise) é a que mais lesa a uretra posterior.\n\n**O que a banca estava testando:** diagnóstico da lesão de uretra no trauma pélvico.\n\n---"
+      },
+      {
+        "id": "INEP2024-1-Q002",
+        "enunciado": "Um paciente com 28 anos, vítima de atropelamento, é levado ao departamento de emergência pelo Serviço de atendimento médico de urgência (SAMU). Ao exame abdominal, apresenta escoriações e hematoma em baixo ventre, instabilidade à palpação da pelve e hematoma perineal. Após avaliação primária, qual das seguintes alternativas corresponde ao melhor método diagnóstico de possível lesão do trato urinário, no caso apresentado?",
+        "alternativas": {
+          "A": "Uretrocistografia retrógrada.",
+          "B": "Cistostomia suprapúbica aberta.",
+          "C": "Tomografia pélvica sem contraste.",
+          "D": "Ultrassonografia de abdome e pelve."
+        },
+        "gabarito_oficial": "A",
+        "anulada": false,
+        "comentario": "**Por que A está correta:** **pelve instável** + **hematoma perineal** = risco elevado de **lesão de uretra** (e de bexiga). O melhor método diagnóstico é a **uretrocistografia retrógrada** (com fase cistográfica, avalia uretra e bexiga), realizada **antes** de qualquer tentativa de sondagem.\n\n\n\n**Por que as demais estão erradas:**\n- B) Cistostomia é procedimento terapêutico.\n- C) TC **sem contraste** não avalia lesões das vias urinárias (precisaria de fase excretora/cisto-TC).\n- D) USG (FAST) avalia líquido livre, não lesões uretrais.\n\n⚠️ **PEGADINHA DO INEP:** \"melhor método diagnóstico\" × \"melhor conduta\" — o primeiro é a **uretrocistografia**; a conduta para drenar a bexiga é a **cistostomia**.\n\n**O que a banca estava testando:** investigação de lesão urinária no trauma pélvico.\n\n---"
+      },
+      {
+        "id": "INEP2024-2-Q067",
+        "enunciado": "Uma paciente de 30 anos, vítima de ferimento em hipogástrio por projétil de arma de fogo, é submetida a procedimento de vesicorrafia e de histerectomia total de urgência. Durante a internação hospitalar, ela evolui com perda de urina pela vagina e hidronefrose à esquerda, demonstrada em tomografia de abdome. Diante desse quadro, deve-se proceder com a",
+        "alternativas": {
+          "A": "reabordagem da laparotomia, vesicorrafia e reimplante ureteral.",
+          "B": "reabordagem da laparotomia e reimplante ureterovesical.",
+          "C": "nefrostomia percutânea à esquerda.",
+          "D": "fistulorrafia por via transvaginal."
+        },
+        "gabarito_oficial": "A",
+        "anulada": false,
+        "comentario": "**Por que A está correta:** perda de urina pela vagina após vesicorrafia e histerectomia = **fístula** (vesicovaginal — falha da rafia vesical — e/ou ureterovaginal); a **hidronefrose à esquerda** indica **lesão/obstrução do ureter** (ligadura ou lesão inadvertida). É preciso corrigir as duas coisas: **reabordagem**, nova **vesicorrafia** e **reimplante ureteral** (ureteroneocistostomia).\n\n\n\n**Por que as demais estão erradas:**\n- B) Reimplante ureteral isolado não corrige a fístula vesical.\n- C) Nefrostomia é uma **derivação temporária** (útil se a paciente não tiver condições de reabordagem), não o tratamento definitivo.\n- D) Fistulorrafia vaginal não trata a obstrução ureteral.\n\n⚠️ **PEGADINHA DO INEP:** o ureter é lesado com frequência na **histerectomia** (cruza sob a artéria uterina — \"água sob a ponte\").\n\n**O que a banca estava testando:** conduta em fístula urinária com lesão ureteral pós-trauma/cirurgia.\n\n---"
+      },
+      {
+        "id": "INEP2025-1-Q082",
+        "enunciado": "Homem de 20 anos, pedreiro, é atendido em um pronto-socorro após cair de um andaime a uma altura de, aproximadamente, 2 metros, com impacto direto na região urogenital. Refere impossibilidade de micção espontânea. O exame físico revela equimose em “asa de borboleta” no períneo, uretrorragia e globo vesical palpável abaixo da cicatriz umbilical. Frente ao quadro clínico desse paciente, qual é a conduta médica mais adequada?",
+        "alternativas": {
+          "A": "Passagem de sonda vesical de demora.",
+          "B": "Realização de cistostomia por punção.",
+          "C": "Estímulo com diurético endovenoso.",
+          "D": "Incremento da hidratação venosa."
+        },
+        "gabarito_oficial": "B",
+        "anulada": false,
+        "comentario": "**Por que B está correta:** **queda a cavaleiro** com **hematoma perineal em \"asa de borboleta\"** (limitado pela fáscia de Colles), **uretrorragia** e **retenção urinária com globo** = **lesão de uretra anterior (bulbar)**. A bexiga precisa ser drenada **sem passar pela uretra**: **cistostomia suprapúbica por punção** (bexiga distendida e palpável).\n\n\n\n**Por que as demais estão erradas:**\n- A) Sondagem uretral é **contraindicada** com uretrorragia.\n- C) e D) Diurético e hidratação **pioram** a distensão de uma bexiga que não esvazia.\n\n⚠️ **PEGADINHA DO INEP:** \"asa de borboleta\" = **uretra anterior** (bulbar); fratura de pelve = **uretra posterior**.\n\n**O que a banca estava testando:** conduta na lesão de uretra anterior com retenção urinária.\n\n---"
+      },
+      {
+        "id": "INEP2025-2-Q093",
+        "enunciado": "Paciente de 40 anos, vítima de atropelamento havia 90 minutos. Foi conduzido pelo Serviço de Atendimento Móvel de Urgência (SAMU), imobilizado com colar cervical, prancha rígida e imobilização pélvica. Durante avaliação inicial, apresentava-se consciente e orientado, com queixa de dor abdominal e pélvica. Ao exame físico, observou-se estabilidade hemodinâmica, presença de hematoma perineal, desalinhamento da pelve, bem como uretrorragia e globo vesical palpável. Diante do caso, qual o procedimento indicado nesse momento?",
+        "alternativas": {
+          "A": "Cistostomia.",
+          "B": "Uretrocistoscopia.",
+          "C": "Laparotomia exploratória.",
+          "D": "Sondagem vesical de alívio."
+        },
+        "gabarito_oficial": "A",
+        "anulada": false,
+        "comentario": "**Por que A está correta:** fratura de pelve (desalinhamento) + **hematoma perineal** + **uretrorragia** + **globo vesical** = lesão de uretra com retenção. A bexiga deve ser drenada por **cistostomia suprapúbica**, sem manipular a uretra.\n\n\n\n**Por que as demais estão erradas:**\n- B) Uretrocistoscopia não é a conduta inicial no trauma agudo (pode agravar a lesão).\n- C) Paciente estável, sem sinais de lesão intra-abdominal que exija laparotomia.\n- D) **Sondagem uretral contraindicada**.\n\n⚠️ **PEGADINHA DO INEP:** as 5 questões do INEP sobre o tema têm a mesma lógica — **sangue no meato = não sondar**.\n\n**O que a banca estava testando:** conduta inicial na lesão de uretra associada a fratura pélvica."
+      },
+      {
+        "id": "INEP2022-1-Q027",
+        "enunciado": "Um homem com 23 anos de idade, em atendimento no Pronto-Socorro de hospital de nível terciário, apresenta trauma abdominal contuso após acidente automobilístico, sem evidências de lesões em outros segmentos corpóreos. Ao exame físico, apresenta frequência cardíaca de 84 batimentos por minuto, preenchimento capilar menor que 2 segundos, pressão arterial de 115 x 65 mmHg. Durante o atendimento inicial foi utilizada sondagem vesical de demora que evidenciou hematúria maciça. A tomografia de abdome com contraste endovenoso mostrou uma lesão renal grau III, correspondendo a laceração cortical do parênquima renal maior que 1 cm, sem extravasamento urinário. Não foram evidenciadas outras lesões no abdome. Considerando essa história clínica, os dados do exame físico e da tomografia, a conduta correta é indicar",
+        "alternativas": {
+          "A": "arteriografia e embolização para coibir o sangramento.",
+          "B": "tratamento operatório em função da hematúria maciça.",
+          "C": "sonda vesical de três vias e irrigação com solução salina 0,9%.",
+          "D": "repouso até resolução da hematúria, hematócrito seriado e antibióticos."
+        },
+        "gabarito_oficial": null,
+        "anulada": true,
+        "comentario": ""
+      }
+    ]
+  }
+}

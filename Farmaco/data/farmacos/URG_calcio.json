@@ -1,0 +1,131 @@
+[
+  {
+    "id": "URG-gluconato-calcico",
+    "nombre": "Gluconato cálcico (y cloruro cálcico)",
+    "sinonimos": [
+      "Calcio intravenoso"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Electrolito y antídoto",
+    "subclase": "Sal de calcio para administración intravenosa",
+    "mecanismo": "Aporta calcio iónico, con dos acciones distintas según la indicación. En la HIPERPOTASEMIA no modifica en absoluto la cifra de potasio: eleva el umbral de despolarización del miocardio, restaurando la diferencia entre el potencial de reposo (que el potasio ha desplazado hacia arriba) y el umbral, con lo que la excitabilidad se normaliza y el ECG se estabiliza. Es un ANTAGONISTA DE MEMBRANA, no un tratamiento del potasio. En la HIPOCALCEMIA y en la intoxicación por CALCIOANTAGONISTAS o por MAGNESIO actúa como aporte directo del ion, restaurando la contractilidad y la transmisión neuromuscular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperpotasemia con alteraciones del ECG",
+        "dosis": "Gluconato cálcico 10%: 10-30 mL (1-3 ampollas) IV en 2-5 minutos, repetible a los 5-10 minutos",
+        "posologia": "Bolo lento repetible",
+        "via": "IV",
+        "dosis_objetivo": "Normalización del ECG: estrechamiento del QRS y reaparición de la onda P",
+        "nota": "Es la PRIMERA medida, antes que la insulina. Su efecto dura solo 30-60 minutos: hay que seguir de inmediato con redistribución y eliminación del potasio"
+      },
+      {
+        "patologia": "Hipocalcemia sintomática (tetania, laringoespasmo, convulsiones, QT largo)",
+        "dosis": "10-20 mL de gluconato cálcico 10% IV en 10 minutos, seguidos de perfusión",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "dosis_objetivo": "Desaparición de la tetania y calcio iónico normalizado",
+        "nota": "Corregir simultáneamente el MAGNESIO: una hipomagnesemia no corregida hace refractaria la hipocalcemia"
+      },
+      {
+        "patologia": "Intoxicación por CALCIOANTAGONISTAS (verapamilo, diltiazem, amlodipino)",
+        "dosis": "30-60 mL de gluconato cálcico 10% IV, con dosis repetidas o perfusión",
+        "posologia": "Bolos repetidos y perfusión",
+        "via": "IV",
+        "nota": "Se combina con glucagón, insulina a dosis altas con glucosa y vasopresores; puede requerir dosis muy superiores a las habituales"
+      },
+      {
+        "patologia": "Intoxicación por sulfato de magnesio (paciente obstétrica con preeclampsia)",
+        "dosis": "10 mL de gluconato cálcico 10% IV lento",
+        "posologia": "Dosis única repetible",
+        "via": "IV",
+        "nota": "Antídoto de la hipermagnesemia yatrógena: revierte la depresión respiratoria y la arreflexia"
+      },
+      {
+        "patologia": "Quemaduras y exposición al ÁCIDO FLUORHÍDRICO",
+        "dosis": "Gel de gluconato cálcico al 2,5% tópico; infiltración local o vía intraarterial en casos graves",
+        "posologia": "Aplicación repetida",
+        "via": "tópica",
+        "nota": "El flúor quela el calcio y produce hipocalcemia sistémica y dolor intenso desproporcionado a la lesión visible"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la hiperpotasemia con cambios en el ECG se administra INMEDIATAMENTE, sin esperar confirmación analítica repetida.",
+      "titulacion": "Se repite a los 5-10 minutos si el ECG no mejora. En la intoxicación por calcioantagonistas pueden necesitarse dosis muy superiores.",
+      "duracion": "Efecto de 30-60 minutos en la hiperpotasemia: es una medida PUENTE.",
+      "fin": "No requiere retirada progresiva. Lo que no puede faltar es el paso siguiente: los tratamientos que redistribuyen y los que eliminan el potasio.",
+      "via": "IV lenta, preferiblemente por vía de buen calibre. El CLORURO cálcico aporta 3 veces más calcio elemental pero es mucho más esclerosante y exige vía CENTRAL; el gluconato es el de elección por vía periférica.",
+      "monitorizacion": "ECG CONTINUO durante la administración, calcio iónico, potasio, magnesio y función renal. Vigilar el punto de punción por el riesgo de extravasación."
+    },
+    "farmacocinetica": {
+      "absorcion": "No aplicable: administración intravenosa. Efecto en 1-3 minutos.",
+      "distribucion": "Espacio extracelular; parte se une a la albúmina, por lo que el calcio TOTAL no refleja bien el iónico en el hipoalbuminémico.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Renal y por depósito óseo.",
+      "vida_media": "Efecto clínico de 30-60 minutos en la hiperpotasemia.",
+      "ajuste_renal": "Precaución en la insuficiencia renal por riesgo de hipercalcemia con dosis repetidas.",
+      "ajuste_hepatico": "El gluconato requiere metabolismo hepático para liberar el calcio; en la insuficiencia hepática grave se prefiere el CLORURO cálcico por vía central.",
+      "interacciones": [
+        {
+          "con": "BICARBONATO SÓDICO",
+          "efecto": "PRECIPITAN formando carbonato cálcico insoluble, que obstruye la vía",
+          "gravedad": "alta",
+          "manejo": "Nunca por la misma vía sin lavarla antes. Es un error frecuente porque ambos se usan en la hiperpotasemia"
+        },
+        {
+          "con": "CEFTRIAXONA",
+          "efecto": "Precipitación con embolias pulmonares y renales mortales en el NEONATO",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la combinación en el recién nacido; en el resto, vías separadas"
+        },
+        {
+          "con": "DIGOXINA",
+          "efecto": "El calcio potencia la toxicidad digitálica y puede desencadenar arritmias graves (el clásico corazón de piedra, hoy considerado menos absoluto de lo que se creía)",
+          "gravedad": "alta",
+          "manejo": "En el paciente digitalizado con hiperpotasemia, administrarlo diluido y LENTO, con ECG continuo, o valorar anticuerpos antidigoxina"
+        },
+        {
+          "con": "Betabloqueantes y calcioantagonistas",
+          "efecto": "El calcio antagoniza su efecto: interacción BUSCADA en la intoxicación",
+          "gravedad": "baja",
+          "manejo": "Es el fundamento de su uso como antídoto"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sensación de calor y rubor durante la administración",
+        "Sabor metálico o a tiza",
+        "Bradicardia si se administra demasiado deprisa",
+        "Dolor en el punto de infusión"
+      ],
+      "graves": [
+        "NECROSIS TISULAR por extravasación, especialmente grave con el cloruro cálcico",
+        "Bradicardia grave, bloqueo y ASISTOLIA por administración rápida",
+        "Arritmias en el paciente digitalizado",
+        "Hipercalcemia con dosis repetidas, sobre todo en la insuficiencia renal",
+        "Calcificaciones tisulares y calcifilaxis con aportes elevados mantenidos"
+      ]
+    },
+    "contraindicaciones": [
+      "HIPERCALCEMIA",
+      "Fibrilación ventricular durante la reanimación (no está indicado de rutina)",
+      "Precaución extrema en el paciente digitalizado",
+      "No administrar por la misma vía que el bicarbonato o la ceftriaxona"
+    ],
+    "perlas": [
+      "La frase que evita el error más grave del manejo de la hiperpotasemia: el calcio NO BAJA EL POTASIO. Estabiliza la membrana del miocardio y compra 30-60 minutos. Un paciente al que solo se le administra calcio sigue teniendo la misma hiperpotasemia y volverá a tener alteraciones del ECG en cuanto pase el efecto.",
+      "El manejo completo tiene TRES pisos y hay que recorrerlos los tres: ESTABILIZAR la membrana (calcio), REDISTRIBUIR el potasio al interior de la célula (insulina con glucosa, salbutamol nebulizado, bicarbonato si hay acidosis) y ELIMINARLO del organismo (diuréticos, quelantes orales, diálisis). Quedarse en los dos primeros garantiza el rebote en horas.",
+      "PRECIPITA con el BICARBONATO. Como ambos se usan en la misma situación clínica y a veces casi a la vez, hay que lavar la vía entre uno y otro o usar accesos distintos: el carbonato cálcico obstruye la línea justo cuando más se necesita.",
+      "GLUCONATO frente a CLORURO: el cloruro aporta unas 3 veces más calcio elemental y actúa más rápido, pero es mucho más esclerosante y exige vía CENTRAL. El gluconato es el de elección por vía periférica, que es la que suele haber en urgencias.",
+      "En el paciente DIGITALIZADO hay que administrarlo diluido y lento con ECG continuo: el clásico temor al corazón de piedra se considera hoy menos absoluto de lo que se creía, pero la prudencia sigue siendo razonable.",
+      "En la HIPOCALCEMIA refractaria hay que medir y corregir el MAGNESIO: sin magnesio no se secreta ni actúa bien la PTH, y el calcio administrado no consigue normalizar la calcemia. Es la causa más frecuente de hipocalcemia que no responde.",
+      "El calcio TOTAL engaña en el paciente hipoalbuminémico, que es la mayoría de los ingresados: hay que pedir CALCIO IÓNICO o corregir por albúmina antes de tratar una cifra aparentemente baja.",
+      "En la quemadura por ÁCIDO FLUORHÍDRICO el dolor es desproporcionado a la lesión visible porque el flúor quela el calcio de los tejidos: el gel de gluconato cálcico tópico es el tratamiento específico y hay que aplicarlo cuanto antes."
+    ],
+    "embarazo_lactancia": "Seguro y de uso habitual, incluida su indicación como antídoto de la intoxicación por sulfato de magnesio en la paciente con preeclampsia. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., caps. de trastornos del potasio y del calcio"
+  }
+]

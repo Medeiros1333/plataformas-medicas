@@ -1,0 +1,423 @@
+[
+  {
+    "id": "PAT-diabetes-tipo-2",
+    "nombre": "Diabetes mellitus tipo 2",
+    "sinonimos": ["DM2"],
+    "area": "END",
+    "resumen": "**Metformina de base** salvo contraindicación. **Si hay enfermedad cardiovascular, insuficiencia cardiaca o ERC, añadir desde el inicio un iSGLT2 y/o un agonista GLP-1 con beneficio demostrado, con independencia de la HbA1c.** En obesidad, priorizar GLP-1/tirzepatida. Insulina basal si HbA1c >10%, síntomas catabólicos o fracaso de lo anterior.",
+    "objetivo": "HbA1c <7% en general (6,5% en jóvenes sin hipoglucemias; 7,5-8% en ancianos frágiles); control de PA, LDL y peso.",
+    "escenarios": [
+      {
+        "titulo": "Base del tratamiento",
+        "farmacos": [
+          { "nombre": "Metformina", "ref": "END-metformina", "dosis": "425-850 mg → 2.000 mg/día", "via": "VO", "intervalo": "Cada 8-12 h con las comidas (o retard cada 24 h)", "duracion": "Indefinida", "nota": "Subir cada 1-2 semanas; FG 30-45: máx. 1.000 mg/día; FG <30: suspender" }
+        ]
+      },
+      {
+        "titulo": "Con enfermedad cardiovascular, insuficiencia cardiaca o ERC (protección orgánica)",
+        "farmacos": [
+          { "nombre": "Empagliflozina", "ref": "END-empagliflozina", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o dapagliflozina 10 mg", "nota": "De elección en IC y ERC" },
+          { "nombre": "Semaglutida", "ref": "END-semaglutida", "dosis": "0,25 mg → 1 mg (2 mg)", "via": "SC", "intervalo": "Semanal", "duracion": "Indefinida", "alternativa": "o dulaglutida 1,5 mg/semana, liraglutida 1,2-1,8 mg/día; semaglutida oral 3 → 14 mg/día", "nota": "De elección en enfermedad aterosclerótica y obesidad" }
+        ]
+      },
+      {
+        "titulo": "Intensificación según perfil",
+        "farmacos": [
+          { "nombre": "Tirzepatida", "ref": "END-tirzepatida", "dosis": "2,5 mg → 5-15 mg", "via": "SC", "intervalo": "Semanal", "duracion": "Indefinida", "nota": "Máximo efecto sobre HbA1c y peso" },
+          { "nombre": "Sitagliptina (iDPP4)", "ref": "END-idpp4", "dosis": "100 mg (50 mg si FG 30-45; 25 mg si <30)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o linagliptina 5 mg (sin ajuste renal)", "nota": "Neutro en peso; ancianos; **no combinar con GLP-1**" },
+          { "nombre": "Gliclazida (sulfonilurea)", "ref": "END-sulfonilureas", "dosis": "30-120 mg (liberación modificada)", "via": "VO", "intervalo": "Cada 24 h con el desayuno", "duracion": "Indefinida", "nota": "Barata; riesgo de hipoglucemia y aumento de peso" }
+        ]
+      },
+      {
+        "titulo": "Insulinización",
+        "farmacos": [
+          { "nombre": "Insulina glargina", "ref": "END-insulina-glargina", "dosis": "10 UI o 0,1-0,2 UI/kg", "dosis_objetivo": "Glucemia basal 80-130 mg/dL", "via": "SC", "intervalo": "Cada 24 h, a la misma hora", "duracion": "Indefinida", "alternativa": "o degludec (horario flexible) / NPH al acostarse (barata)", "nota": "+2 UI cada 3 días hasta objetivo; mantener metformina y GLP-1/iSGLT2" },
+          { "nombre": "Insulina rápida (prandial)", "ref": "END-insulina-rapida", "dosis": "4 UI o 10% de la basal en la comida principal", "via": "SC", "intervalo": "0-15 min antes de la comida", "duracion": "Indefinida", "nota": "Si HbA1c alta con basal ya ajustada (basal-plus → basal-bolo)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Dieta mediterránea, pérdida de peso ≥5-10% y ejercicio 150 min/semana",
+      "Educación diabetológica; autocontrol si insulina o sulfonilurea",
+      "Cribado anual de retinopatía, nefropatía (FG y albuminuria) y pie diabético",
+      "Estatina en la mayoría (>40 años) y control de PA <130/80"
+    ],
+    "claves": [
+      "**Suspender metformina e iSGLT2 ante deshidratación, vómitos, contraste yodado con FG bajo o cirugía mayor.**",
+      "**Cetoacidosis euglucémica con iSGLT2**: gasometría aunque la glucemia sea normal.",
+      "Sulfonilureas en el anciano con ERC: causa clásica de hipoglucemia grave y prolongada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diabetes mellitus: tratamiento; Katzung 15.ª ed., cap. 41; ADA 2025"
+  },
+  {
+    "id": "PAT-diabetes-tipo-1",
+    "nombre": "Diabetes mellitus tipo 1",
+    "sinonimos": ["DM1"],
+    "area": "END",
+    "resumen": "**Insulinoterapia intensiva basal-bolo desde el diagnóstico** (o bomba de insulina, idealmente con sistema híbrido de asa cerrada). Dosis total inicial 0,4-0,6 UI/kg/día (más en la pubertad y la cetosis): ~50% basal y ~50% prandial repartida según raciones de hidratos de carbono, más dosis correctoras.",
+    "objetivo": "HbA1c <7% sin hipoglucemias graves; tiempo en rango (70-180 mg/dL) >70%.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Insulina glargina", "ref": "END-insulina-glargina", "dosis": "≈50% de la dosis total (0,2-0,3 UI/kg)", "dosis_objetivo": "Glucemia basal 80-130 mg/dL", "via": "SC", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o degludec cada 24 h" },
+          { "nombre": "Insulina rápida (aspart, lispro, glulisina)", "ref": "END-insulina-rapida", "dosis": "Ratio insulina/raciones (p. ej., 1 UI/10 g HC) + factor de sensibilidad", "dosis_objetivo": "Glucemia posprandial <180 mg/dL", "via": "SC", "intervalo": "0-15 min antes de cada comida", "duracion": "Indefinida" }
+        ]
+      },
+      {
+        "titulo": "Niño y adolescente",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Insulina (basal-bolo o bomba)", "ref": "PED-END-insulina", "dosis": "0,5-1 UI/kg/día (hasta 1,5 en la pubertad)", "dosis_objetivo": "HbA1c <7%; tiempo en rango >70%", "via": "SC", "intervalo": "Basal cada 24 h + bolos antes de cada comida", "duracion": "Indefinida", "nota": "Fase de luna de miel con necesidades muy bajas" }
+        ]
+      },
+      {
+        "titulo": "Hipoglucemia (rescate)",
+        "farmacos": [
+          { "nombre": "Glucagón", "ref": "URG-glucagon", "dosis": "1 mg IM/SC (0,5 mg si <25 kg) o 3 mg intranasal", "via": "IM / IN", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Si el paciente no puede tragar; todo DM1 debe tenerlo en casa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Educación en recuento de hidratos de carbono y ajuste de dosis",
+      "Monitorización continua de glucosa",
+      "Cribado de celiaquía y tiroiditis autoinmune"
+    ],
+    "claves": [
+      "**Nunca suspender la insulina basal aunque el paciente no coma** (cetoacidosis).",
+      "Regla del 15: 15 g de glucosa ante hipoglucemia leve y control a los 15 min."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diabetes mellitus; Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "PAT-cetoacidosis-diabetica",
+    "nombre": "Cetoacidosis diabética",
+    "sinonimos": ["CAD"],
+    "area": "END",
+    "resumen": "Glucemia >250 mg/dL (o diabetes conocida; puede ser euglucémica con iSGLT2), pH <7,30 o bicarbonato <18 y cetonemia. **Orden del tratamiento: 1) fluidos, 2) POTASIO (no iniciar insulina si K <3,3), 3) insulina IV en perfusión, 4) añadir glucosa cuando la glucemia baje de 200-250**. Buscar el desencadenante (infección, abandono de insulina, IAM).",
+    "objetivo": "Resolución: pH >7,30, bicarbonato ≥18 y cetonemia <0,6 mmol/L; descenso de glucemia 50-75 mg/dL/h.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Suero salino 0,9% (o cristaloide balanceado)", "ref": "NFR-cristaloides", "dosis": "1-1,5 L la 1.ª hora, después 250-500 mL/h", "via": "IV", "intervalo": "Continuo", "duracion": "Hasta corregir la deshidratación (déficit ~5-7 L)", "nota": "Pasar a glucosalino al 5% cuando la glucemia <200-250 mg/dL" },
+          { "nombre": "Cloruro potásico", "sin_ficha": true, "dosis": "20-30 mEq por cada litro de suero", "via": "IV", "intervalo": "Añadido a los sueros", "duracion": "Mientras dure la perfusión de insulina", "dosis_objetivo": "K 4-5 mmol/L", "nota": "K <3,3: reponer ANTES de la insulina; K >5,2: no añadir y controlar cada 2 h" },
+          { "nombre": "Insulina rápida (regular) en perfusión", "ref": "END-insulina-rapida", "dosis": "0,1 UI/kg/h (± bolo de 0,1 UI/kg)", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta resolución de la cetoacidosis", "nota": "Solapar 1-2 h con la insulina SC basal antes de retirarla" },
+          { "nombre": "Bicarbonato sódico", "ref": "NFR-bicarbonato-sodico", "dosis": "100 mEq en 2 h (con 20 mEq de K)", "via": "IV", "intervalo": "Repetir hasta pH >7", "duracion": "Solo si pH <6,9", "nota": "No de rutina" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Sueroterapia IV", "ref": "PED-NFR-sueroterapia", "dosis": "10-20 mL/kg en 1 h y reposición del déficit en 48 h", "via": "IV", "intervalo": "Continuo", "duracion": "48 h", "nota": "Reposición lenta por riesgo de edema cerebral" },
+          { "nombre": "Insulina en perfusión", "ref": "PED-END-insulina", "dosis": "0,05-0,1 UI/kg/h, SIN bolo", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta resolución", "nota": "Iniciar 1 h después de los líquidos" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Glucemia capilar horaria; gasometría venosa, iones y cetonemia cada 2-4 h",
+      "Monitorización cardiaca si alteración del potasio",
+      "En niños: vigilar cefalea, bradicardia o bajo nivel de conciencia (edema cerebral)"
+    ],
+    "claves": [
+      "**El potasio total está muy bajo aunque el sérico parezca normal**: la insulina lo desplaza al interior celular.",
+      "**No retirar la perfusión de insulina hasta 1-2 h después de la primera dosis de insulina SC basal.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diabetes mellitus: complicaciones agudas; Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "PAT-hipoglucemia",
+    "nombre": "Hipoglucemia",
+    "sinonimos": ["Hipoglucemia grave"],
+    "area": "END",
+    "resumen": "Glucemia <70 mg/dL (grave: requiere ayuda de terceros). **Consciente y capaz de tragar: 15-20 g de glucosa oral. Inconsciente: glucosa IV o glucagón.** Si es por sulfonilureas o insulina de larga acción, observación prolongada (puede recurrir durante horas o días).",
+    "objetivo": "Glucemia >100 mg/dL y recuperación neurológica.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          { "nombre": "Glucosa oral (comprimidos, zumo)", "sin_ficha": true, "dosis": "15-20 g", "via": "VO", "intervalo": "Repetir a los 15 min si persiste <70", "duracion": "Hasta normalizar; después HC de absorción lenta" },
+          { "nombre": "Glucosa hipertónica", "sin_ficha": true, "dosis": "25 g (50 mL de glucosa al 50% o 250 mL al 10%)", "via": "IV", "intervalo": "Bolo; repetir según glucemia", "duracion": "Seguido de perfusión de glucosado al 10% si sulfonilurea", "nota": "Niños: 2-5 mL/kg de glucosa al 10%" },
+          { "nombre": "Glucagón", "ref": "URG-glucagon", "dosis": "1 mg (0,5 mg si <25 kg) o 3 mg intranasal", "via": "IM / SC / IN", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Sin vía IV; ineficaz en alcohólicos o ayuno prolongado (sin glucógeno)" },
+          { "nombre": "Tiamina", "sin_ficha": true, "dosis": "100 mg", "via": "IV", "intervalo": "Antes o con la glucosa", "duracion": "Dosis única", "nota": "En alcohólicos o desnutridos (encefalopatía de Wernicke)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Revisar y ajustar el tratamiento que la causó",
+      "Ingreso y observación ≥24 h si sulfonilurea o insulina de larga acción",
+      "Educación del paciente y familiares; glucagón en domicilio"
+    ],
+    "claves": [
+      "**La hipoglucemia por sulfonilureas puede durar 24-72 h**; octreótido si recurre pese a glucosa.",
+      "Betabloqueantes enmascaran los síntomas adrenérgicos (queda la sudoración)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipoglucemia; Katzung 15.ª ed., cap. 41"
+  },
+  {
+    "id": "PAT-hipotiroidismo",
+    "nombre": "Hipotiroidismo",
+    "sinonimos": ["Tiroiditis de Hashimoto", "Hipotiroidismo subclínico"],
+    "area": "END",
+    "resumen": "Hipotiroidismo primario manifiesto (TSH alta, T4L baja): **levotiroxina a dosis plena (1,6 µg/kg/día) en jóvenes sanos**; dosis baja y subida lenta en ancianos y cardiópatas. Subclínico (TSH alta, T4L normal): tratar si TSH >10, embarazo o deseo gestacional, o síntomas con anti-TPO positivos.",
+    "objetivo": "TSH en rango normal (0,5-2,5 en embarazo según trimestre).",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Levotiroxina", "ref": "END-levotiroxina", "dosis": "1,6 µg/kg/día (25-50 µg en >60 años o cardiopatía)", "via": "VO", "intervalo": "Cada 24 h, en ayunas 30-60 min antes del desayuno", "duracion": "Indefinida", "nota": "TSH a las 6-8 semanas de cada cambio; ajustes de 12,5-25 µg" }
+        ]
+      },
+      {
+        "titulo": "Embarazo",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Levotiroxina", "ref": "END-levotiroxina", "dosis": "Aumentar un 25-30% la dosis previa al confirmar el embarazo", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta el parto; después volver a la dosis previa", "dosis_objetivo": "TSH <2,5 mU/L", "nota": "TSH cada 4 semanas en la 1.ª mitad del embarazo" }
+        ]
+      },
+      {
+        "titulo": "Hipotiroidismo congénito",
+        "poblacion": "Pediatría (neonatos)",
+        "farmacos": [
+          { "nombre": "Levotiroxina", "ref": "PED-END-levotiroxina", "dosis": "10-15 µg/kg/día", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida (reevaluar a los 3 años si dudoso)", "nota": "**Iniciar antes de las 2 semanas de vida** (desarrollo neurológico)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Separar la levotiroxina 4 h del hierro, calcio, IBP y antiácidos",
+      "Coma mixedematoso: levotiroxina IV + hidrocortisona (descartar insuficiencia suprarrenal)"
+    ],
+    "claves": [
+      "**En el anciano cardiópata, empezar con 12,5-25 µg** (riesgo de angina y FA).",
+      "**Si hay insuficiencia suprarrenal asociada, dar primero corticoide** (crisis addisoniana)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipotiroidismo; Katzung 15.ª ed., cap. 38"
+  },
+  {
+    "id": "PAT-hipertiroidismo",
+    "nombre": "Hipertiroidismo (enfermedad de Graves) y crisis tirotóxica",
+    "sinonimos": ["Graves-Basedow", "Tirotoxicosis", "Tormenta tiroidea"],
+    "area": "END",
+    "resumen": "**Betabloqueante para los síntomas desde el primer día + antitiroideo** (tiamazol de elección; propiltiouracilo en el 1.er trimestre y la crisis). En Graves, 12-18 meses de tratamiento y retirada; si recidiva, radioyodo o cirugía. Las tiroiditis (subaguda, posparto, amiodarona tipo 2) NO se tratan con antitiroideos.",
+    "objetivo": "Eutiroidismo (T4L y T3 normales; la TSH tarda meses en normalizarse).",
+    "escenarios": [
+      {
+        "titulo": "Enfermedad de Graves",
+        "farmacos": [
+          { "nombre": "Tiamazol", "ref": "END-tiamazol", "dosis": "10-30 mg (según T4L)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "12-18 meses (pauta descendente)", "nota": "Hemograma si fiebre u odinofagia (agranulocitosis)" },
+          { "nombre": "Propranolol", "ref": "CAR-propranolol", "dosis": "10-40 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "Hasta eutiroidismo", "alternativa": "o atenolol 25-100 mg/24 h", "nota": "Control de taquicardia y temblor" }
+        ]
+      },
+      {
+        "titulo": "Embarazo (1.er trimestre)",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Propiltiouracilo", "ref": "END-propiltiouracilo", "dosis": "50-100 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "Hasta la semana 16; después cambiar a tiamazol", "dosis_objetivo": "T4L en el límite alto de la normalidad" }
+        ]
+      },
+      {
+        "titulo": "Crisis tirotóxica",
+        "farmacos": [
+          { "nombre": "Propiltiouracilo", "ref": "END-propiltiouracilo", "dosis": "500-1.000 mg de carga, después 250 mg", "via": "VO", "intervalo": "Cada 4 h", "duracion": "Hasta estabilización" },
+          { "nombre": "Yodo (solución de Lugol)", "sin_ficha": true, "dosis": "5-10 gotas", "via": "VO", "intervalo": "Cada 6-8 h, **1 h después del PTU**", "duracion": "Días" },
+          { "nombre": "Propranolol", "ref": "CAR-propranolol", "dosis": "60-80 mg", "via": "VO", "intervalo": "Cada 4 h", "duracion": "Hasta estabilización" },
+          { "nombre": "Hidrocortisona", "ref": "END-hidrocortisona", "dosis": "100 mg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Hasta estabilización", "nota": "Reduce la conversión de T4 a T3 y cubre insuficiencia suprarrenal relativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Radioyodo (contraindicado en embarazo y oftalmopatía activa grave) o tiroidectomía",
+      "Abandono del tabaco (empeora la oftalmopatía)",
+      "Crisis: UCI, enfriamiento, tratamiento del desencadenante"
+    ],
+    "claves": [
+      "**Antitiroideo + fiebre u odinofagia = hemograma urgente** (agranulocitosis).",
+      "Hipertiroidismo con captación baja en gammagrafía = tiroiditis: solo betabloqueante."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipertiroidismo; Katzung 15.ª ed., cap. 38"
+  },
+  {
+    "id": "PAT-osteoporosis",
+    "nombre": "Osteoporosis",
+    "sinonimos": ["Osteoporosis posmenopáusica"],
+    "area": "END",
+    "resumen": "Tratar si fractura por fragilidad (vertebral o de cadera), T-score ≤-2,5 o riesgo alto por FRAX. **Calcio y vitamina D suficientes en todos.** Primera línea: bisfosfonato oral; IV (zoledrónico) si intolerancia, mala adherencia o tras fractura de cadera; denosumab en ERC o intolerancia; anabólico (teriparatida, romosozumab) en riesgo muy alto.",
+    "objetivo": "Reducir fracturas; T-score >-2,5 y sin fracturas nuevas para plantear descanso terapéutico.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento de base",
+        "farmacos": [
+          { "nombre": "Calcio + vitamina D", "ref": "END-vitamina-d-calcio", "dosis": "Calcio 500-1.000 mg + colecalciferol 800-1.000 UI", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras dure el tratamiento", "nota": "Priorizar el calcio de la dieta" }
+        ]
+      },
+      {
+        "titulo": "Antirresortivos",
+        "farmacos": [
+          { "nombre": "Alendronato", "ref": "END-alendronato", "dosis": "70 mg", "via": "VO", "intervalo": "Semanal, en ayunas, 30 min erguido", "duracion": "5 años y reevaluar", "alternativa": "o risedronato 35 mg semanal" },
+          { "nombre": "Ácido zoledrónico", "ref": "END-acido-zoledronico", "dosis": "5 mg", "via": "IV", "intervalo": "Anual", "duracion": "3 años (6 si alto riesgo)", "nota": "FG ≥35; paracetamol para la reacción de fase aguda" },
+          { "nombre": "Denosumab", "ref": "END-denosumab", "dosis": "60 mg", "via": "SC", "intervalo": "Cada 6 meses", "duracion": "Indefinida o hasta pasar a bisfosfonato", "nota": "**No suspender sin secuenciar a bisfosfonato** (fracturas vertebrales múltiples de rebote)" }
+        ]
+      },
+      {
+        "titulo": "Osteoporosis inducida por glucocorticoides",
+        "farmacos": [
+          { "nombre": "Risedronato", "ref": "END-risedronato", "dosis": "35 mg", "via": "VO", "intervalo": "Semanal", "duracion": "Mientras dure el corticoide", "alternativa": "o alendronato 70 mg / zoledrónico 5 mg anual", "nota": "Si ≥7,5 mg/día de prednisona ≥3 meses" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio de carga y fuerza, prevención de caídas",
+      "Abandono de tabaco y alcohol",
+      "Revisión dental antes de antirresortivos potentes"
+    ],
+    "claves": [
+      "**Corregir el déficit de vitamina D antes del zoledrónico o el denosumab** (hipocalcemia).",
+      "Dolor en el muslo con uso prolongado de bisfosfonatos: descartar fractura atípica de fémur."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de osteoporosis; Katzung 15.ª ed., cap. 42"
+  },
+  {
+    "id": "PAT-insuficiencia-suprarrenal",
+    "nombre": "Insuficiencia suprarrenal y crisis addisoniana",
+    "sinonimos": ["Enfermedad de Addison", "Crisis suprarrenal"],
+    "area": "END",
+    "resumen": "Crisis suprarrenal (hipotensión refractaria, vómitos, dolor abdominal, hiponatremia, hiperpotasemia): **hidrocortisona IV de inmediato, sin esperar a confirmar el cortisol**, y suero salino. Crónica: sustitución con hidrocortisona (+ fludrocortisona en la primaria) y educación en dosis de estrés.",
+    "objetivo": "Estabilidad hemodinámica; sustitución fisiológica sin sobredosificación.",
+    "escenarios": [
+      {
+        "titulo": "Crisis suprarrenal",
+        "farmacos": [
+          { "nombre": "Hidrocortisona", "ref": "END-hidrocortisona", "dosis": "100 mg en bolo, después 200 mg/24 h", "via": "IV", "intervalo": "Bolo + perfusión (o 50 mg cada 6 h)", "duracion": "Hasta estabilizar; descenso a dosis de mantenimiento en 1-3 días" },
+          { "nombre": "Suero salino 0,9% (con glucosa si hipoglucemia)", "ref": "NFR-cristaloides", "dosis": "1 L en la 1.ª hora, después según volemia", "via": "IV", "intervalo": "Continuo", "duracion": "24-48 h" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento crónico",
+        "farmacos": [
+          { "nombre": "Hidrocortisona", "ref": "END-hidrocortisona", "dosis": "15-25 mg/día", "via": "VO", "intervalo": "Repartida en 2-3 tomas (la mayor al despertar)", "duracion": "Indefinida", "nota": "Duplicar o triplicar en fiebre o enfermedad («reglas del día de enfermedad»)" },
+          { "nombre": "Fludrocortisona", "sin_ficha": true, "dosis": "0,05-0,2 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Solo en la insuficiencia suprarrenal primaria" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Tarjeta o pulsera de paciente con insuficiencia suprarrenal",
+      "Kit de hidrocortisona inyectable para vómitos",
+      "Dosis de estrés en cirugía (hidrocortisona 100 mg IV en la inducción)"
+    ],
+    "claves": [
+      "**Ante sospecha de crisis suprarrenal, tratar primero y confirmar después.**",
+      "La retirada brusca de corticoides crónicos es la causa más frecuente de insuficiencia suprarrenal secundaria."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de la corteza suprarrenal; Katzung 15.ª ed., cap. 39"
+  },
+  {
+    "id": "PAT-enfermedad-tromboembolica-venosa",
+    "nombre": "Trombosis venosa profunda y tromboembolia pulmonar",
+    "sinonimos": ["TVP", "TEP", "ETV", "Embolia pulmonar"],
+    "area": "HEM",
+    "resumen": "**Anticoagular en cuanto haya sospecha clínica alta**, sin esperar a la confirmación si no hay contraindicación. ACOD (apixabán o rivaroxabán, sin heparina previa) de elección; HBPM en cáncer activo con alto riesgo de sangrado digestivo, embarazo o interacciones. TEP de alto riesgo (shock): fibrinólisis sistémica.",
+    "objetivo": "Prevenir extensión, recurrencia y muerte; mínimo 3 meses de anticoagulación.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento inicial y mantenimiento",
+        "farmacos": [
+          { "nombre": "Apixabán", "ref": "HEM-apixaban", "dosis": "10 mg × 7 días, después 5 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "3 meses (provocada) o indefinida (no provocada o recurrente)", "nota": "Prevención extendida: 2,5 mg/12 h tras 6 meses" },
+          { "nombre": "Rivaroxabán", "ref": "HEM-rivaroxaban", "dosis": "15 mg × 21 días, después 20 mg", "via": "VO", "intervalo": "Cada 12 h → cada 24 h, con comida", "duracion": "Igual" },
+          { "nombre": "Enoxaparina", "ref": "HEM-enoxaparina", "dosis": "1 mg/kg", "via": "SC", "intervalo": "Cada 12 h", "duracion": "≥5 días y hasta pasar a edoxabán, dabigatrán o AVK; o todo el tratamiento", "alternativa": "o bemiparina 115 UI/kg/24 h", "nota": "De elección en embarazo y en muchos pacientes con cáncer" },
+          { "nombre": "Edoxabán", "ref": "HEM-edoxaban", "dosis": "60 mg (30 mg si criterios)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 meses o más", "alternativa": "o dabigatrán 150 mg/12 h", "nota": "Tras ≥5 días de HBPM" },
+          { "nombre": "Acenocumarol", "ref": "HEM-acenocumarol", "dosis": "Dosis individualizada", "dosis_objetivo": "INR 2-3", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3 meses o más", "nota": "Síndrome antifosfolípido o FG <15; solapar con HBPM ≥5 días" }
+        ]
+      },
+      {
+        "titulo": "TEP de alto riesgo (shock o hipotensión mantenida)",
+        "farmacos": [
+          { "nombre": "Heparina no fraccionada", "ref": "HEM-heparina-no-fraccionada", "dosis": "80 UI/kg bolo, después 18 UI/kg/h", "via": "IV", "intervalo": "Perfusión continua ajustada a TTPa", "duracion": "Hasta estabilizar y pasar a anticoagulante oral" },
+          { "nombre": "Alteplasa (fibrinólisis)", "sin_ficha": true, "dosis": "100 mg en 2 h (o 0,6 mg/kg en 15 min en parada)", "via": "IV", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Contraindicaciones: hemorragia activa, ictus hemorrágico, cirugía mayor reciente" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Deambulación precoz (no reposo absoluto en la TVP)",
+      "Medias de compresión solo para síntomas",
+      "Filtro de vena cava solo si contraindicación absoluta de anticoagulación"
+    ],
+    "claves": [
+      "**Los ACOD están contraindicados en el síndrome antifosfolípido triple positivo** (más trombosis arteriales).",
+      "ETV no provocada: valorar anticoagulación indefinida y cribado de cáncer básico (no exhaustivo)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trombosis venosa profunda y tromboembolia pulmonar; Katzung 15.ª ed., cap. 34; ESC 2019"
+  },
+  {
+    "id": "PAT-anemia-ferropenica",
+    "nombre": "Anemia ferropénica",
+    "sinonimos": ["Ferropenia", "Déficit de hierro"],
+    "area": "HEM",
+    "resumen": "Anemia microcítica con ferritina baja (<30 ng/mL; <100 si inflamación). **Buscar siempre la causa** (pérdidas digestivas en varones y posmenopáusicas, menstruación, celiaquía, gastritis atrófica, H. pylori). Hierro oral a días alternos de primera línea; hierro IV si intolerancia, malabsorción, necesidad de corrección rápida, insuficiencia cardiaca o ERC.",
+    "objetivo": "Subida de Hb ≥1-2 g/dL a las 3-4 semanas; ferritina >100 ng/mL al final.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Sulfato ferroso", "ref": "HEM-sulfato-ferroso", "dosis": "80-100 mg de hierro elemental", "via": "VO", "intervalo": "**A días alternos** (o cada 24 h), en ayunas con vitamina C", "duracion": "3 meses tras normalizar la Hb", "nota": "Lejos de IBP, calcio, té y café" },
+          { "nombre": "Hierro carboximaltosa", "ref": "HEM-hierro-carboximaltosa", "dosis": "1.000 mg (20 mg/kg)", "via": "IV", "intervalo": "Infusión de 15 min; 2.ª dosis a la semana si es necesario", "duracion": "1-2 dosis", "nota": "Intolerancia, malabsorción, EII, IC, ERC, 2.º-3.er trimestre del embarazo" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Hierro oral", "ref": "PED-HEM-hierro-oral", "dosis": "3-6 mg/kg/día de hierro elemental", "via": "VO", "intervalo": "Cada 24 h (o en 2 tomas)", "duracion": "3 meses tras normalizar la Hb", "nota": "Limitar la leche de vaca a <500 mL/día" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Estudio etiológico: endoscopia y colonoscopia en varones y mujeres posmenopáusicas",
+      "Serología de celiaquía y H. pylori si no hay causa evidente",
+      "Transfusión solo si inestabilidad o Hb muy baja sintomática"
+    ],
+    "claves": [
+      "**Tratar la ferropenia sin buscar su causa puede retrasar el diagnóstico de un cáncer de colon.**",
+      "Falta de respuesta al hierro oral: incumplimiento, malabsorción, pérdidas activas o diagnóstico erróneo (talasemia)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de anemia ferropénica; Katzung 15.ª ed., cap. 33"
+  },
+  {
+    "id": "PAT-anemia-megaloblastica",
+    "nombre": "Anemia megaloblástica (déficit de B12 y folato)",
+    "sinonimos": ["Déficit de vitamina B12", "Anemia perniciosa", "Déficit de folato"],
+    "area": "HEM",
+    "resumen": "Anemia macrocítica con déficit de B12 (anemia perniciosa, gastrectomía, metformina, IBP, veganos) o de folato (alcohol, malnutrición, embarazo, metotrexato). **Ante duda, reponer B12 ANTES o junto al folato**: el folato solo corrige la anemia pero deja progresar la neuropatía de la B12.",
+    "objetivo": "Reticulocitosis en 5-7 días; normalización de la Hb en 6-8 semanas.",
+    "escenarios": [
+      {
+        "titulo": "Déficit de vitamina B12",
+        "farmacos": [
+          { "nombre": "Cianocobalamina / hidroxocobalamina", "ref": "HEM-acido-folico-b12", "dosis": "1.000 µg", "via": "IM", "intervalo": "Diaria o a días alternos 1-2 semanas, semanal hasta normalizar, después mensual", "duracion": "De por vida en anemia perniciosa", "alternativa": "o 1.000-2.000 µg/día VO (también eficaz en la perniciosa)" }
+        ]
+      },
+      {
+        "titulo": "Déficit de ácido fólico",
+        "farmacos": [
+          { "nombre": "Ácido fólico", "ref": "HEM-acido-folico-b12", "dosis": "5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "4 meses (o mientras persista la causa)" }
+        ]
+      },
+      {
+        "titulo": "Prevención de defectos del tubo neural",
+        "poblacion": "Embarazo",
+        "farmacos": [
+          { "nombre": "Ácido fólico", "ref": "HEM-acido-folico-b12", "dosis": "0,4 mg (4-5 mg si antecedente de defecto, antiepilépticos u obesidad)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Desde 1-3 meses antes de la concepción hasta la semana 12" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Suplemento de potasio si la respuesta medular es intensa (hipopotasemia los primeros días)",
+      "Cribado de cáncer gástrico en la anemia perniciosa (gastritis atrófica)"
+    ],
+    "claves": [
+      "**Nunca dar folato solo ante una macrocitosis sin descartar déficit de B12.**",
+      "La metformina y los IBP crónicos causan déficit de B12: medirla periódicamente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de anemias megaloblásticas; Katzung 15.ª ed., cap. 33"
+  }
+]

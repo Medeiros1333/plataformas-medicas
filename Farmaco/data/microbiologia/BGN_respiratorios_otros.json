@@ -1,0 +1,717 @@
+[
+  {
+    "id": "BGN-pseudomonas-aeruginosa",
+    "nombre": "Pseudomonas aeruginosa",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo NO FERMENTADOR, aerobio estricto, OXIDASA POSITIVO, móvil por flagelo polar único",
+    "morfologia_tincion": "Bacilos gramnegativos finos. Produce pigmentos característicos: piocianina (azul-verdoso) y pioverdina (amarillo-verde fluorescente), que dan a las colonias y al pus un color verdoso y un olor dulzón «a uva» o «a tila» muy reconocible.",
+    "mecanismo_patogenia": [
+      "Exotoxina A: inhibe el factor de elongación 2 y bloquea la síntesis proteica, con el mismo mecanismo que la toxina diftérica.",
+      "Elastasas y proteasas: destruyen el tejido conectivo, la elastina y las inmunoglobulinas; responsables de la destrucción vascular en el ectima gangrenoso.",
+      "Fosfolipasa C y ramnolípidos: degradan el surfactante y las membranas celulares.",
+      "Sistema de secreción de tipo III con exoenzimas (ExoU, ExoS): inyecta toxinas directamente en la célula del huésped; ExoU se asocia a las cepas más virulentas.",
+      "Alginato y biofilm mucoide: en la fibrosis quística, las cepas se convierten en mucoides, formando un biofilm inaccesible a antibióticos y anticuerpos, causa de infección crónica irreversible.",
+      "Resistencia intrínseca múltiple: baja permeabilidad de la membrana externa, bombas de expulsión activa (MexAB-OprM) y betalactamasa AmpC cromosómica inducible."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía asociada a ventilación mecánica",
+        "clinica": "Fiebre, secreciones purulentas verdosas y deterioro respiratorio en el paciente intubado más de 5 días.",
+        "lesiones": "Bronconeumonía con microabscesos y necrosis por vasculitis.",
+        "clave": "Es uno de los principales patógenos de la neumonía nosocomial tardía, con mortalidad elevada."
+      },
+      {
+        "cuadro": "Infección crónica en la fibrosis quística y las bronquiectasias",
+        "clinica": "Deterioro progresivo de la función pulmonar con exacerbaciones repetidas y esputo verdoso abundante.",
+        "lesiones": "Colonización mucoide crónica con biofilm; destrucción bronquial progresiva.",
+        "clave": "Una vez que la cepa se hace mucoide, la erradicación es prácticamente imposible: el objetivo pasa a ser la supresión crónica."
+      },
+      {
+        "cuadro": "Otitis externa maligna (necrotizante)",
+        "clinica": "Otalgia intensa desproporcionada, otorrea persistente y tejido de granulación en el conducto auditivo, en un DIABÉTICO anciano; puede progresar a parálisis facial y osteomielitis de la base del cráneo.",
+        "lesiones": "Osteomielitis del hueso temporal con afectación de pares craneales.",
+        "clave": "Diabético + otalgia intensa + granulación en el conducto = otitis externa maligna hasta que se demuestre lo contrario. Requiere TC/RM y tratamiento antipseudomónico prolongado."
+      },
+      {
+        "cuadro": "Ectima gangrenoso en el neutropénico",
+        "clinica": "Lesión cutánea que comienza como mácula eritematosa, evoluciona a vesícula hemorrágica y termina en úlcera necrótica con escara negra rodeada de halo eritematoso.",
+        "lesiones": "Vasculitis necrotizante por invasión bacteriana directa de la pared vascular.",
+        "clave": "Es un signo de bacteriemia por Pseudomonas en el neutropénico: obliga a tratamiento antipseudomónico inmediato."
+      },
+      {
+        "cuadro": "Infección de quemaduras y de heridas",
+        "clinica": "Exudado verdoso con olor dulzón, fiebre y deterioro de la herida.",
+        "lesiones": "Necrosis del lecho de la quemadura con invasión vascular.",
+        "clave": "Los pigmentos y el olor característico orientan al diagnóstico antes del cultivo."
+      },
+      {
+        "cuadro": "Infección urinaria complicada y foliculitis del jacuzzi",
+        "clinica": "ITU en portador de sonda o tras instrumentación; foliculitis pruriginosa 1-2 días tras un baño en agua caliente insuficientemente clorada.",
+        "lesiones": "Pústulas foliculares en las zonas cubiertas por el bañador.",
+        "clave": "La foliculitis del jacuzzi es autolimitada y no requiere antibiótico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es OXIDASA POSITIVO y NO fermenta la lactosa: esas dos pruebas lo separan de todas las enterobacterias.",
+      "Sobrevive en ambientes húmedos con mínimos nutrientes: grifos, respiradores, humidificadores, jabones, soluciones antisépticas e incluso agua destilada.",
+      "Es intrínsecamente resistente a la mayoría de antibióticos: solo son antipseudomónicos ceftazidima, cefepima, piperacilina-tazobactam, carbapenemes (no ertapenem), aztreonam, aminoglucósidos, ciprofloxacino y levofloxacino a dosis altas, y colistina.",
+      "ERTAPENEM NO cubre Pseudomonas, a diferencia de meropenem e imipenem: es un error frecuente y grave.",
+      "CEFTRIAXONA NO cubre Pseudomonas, aunque sea de 3.ª generación; sí lo hace ceftazidima.",
+      "Sus factores de riesgo son netos: neutropenia, fibrosis quística, bronquiectasias, ventilación mecánica, quemaduras extensas, sonda urinaria prolongada y antibioterapia previa de amplio espectro."
+    ],
+    "diagnostico": {
+      "muestra": "Aspirado traqueal o lavado broncoalveolar, esputo, hemocultivos, exudado de herida o quemadura, exudado ótico, urocultivo.",
+      "pruebas": [
+        "Cultivo con producción de pigmentos y olor característico",
+        "Prueba de la OXIDASA positiva (clave diferencial)",
+        "Crecimiento a 42 °C",
+        "Antibiograma obligatorio con CMI: la resistencia es tan variable que el tratamiento empírico debe reevaluarse siempre",
+        "TC o RM en la sospecha de otitis externa maligna"
+      ],
+      "claves": "El aislamiento en esputo de un paciente con EPOC o bronquiectasias puede representar colonización y no infección: hay que valorar el contexto clínico antes de tratar."
+    },
+    "tratamiento": {
+      "eleccion": "Betalactámico antipseudomónico: piperacilina-tazobactam, cefepima, ceftazidima o meropenem, en perfusión extendida en el paciente grave. Ciprofloxacino 750 mg/12 h VO cuando se puede tratar por vía oral.",
+      "alternativas": "Combinación con aminoglucósido (amikacina, tobramicina) en el paciente crítico o neutropénico durante los primeros días. Ceftolozano-tazobactam o ceftazidima-avibactam en cepas multirresistentes. Colistina como último recurso. Tobramicina inhalada en la infección crónica de la fibrosis quística.",
+      "resistencias": "Resistencia intrínseca amplia; desrepresión de AmpC, bombas de expulsión y pérdida de porina OprD (resistencia a carbapenemes). Puede adquirir resistencia DURANTE el tratamiento, lo que obliga a repetir cultivos si no hay mejoría.",
+      "duracion": "Neumonía asociada a ventilación: 7 días si hay buena evolución. Bacteriemia: 7-14 días. Otitis externa maligna: 6-8 semanas. Infección crónica en fibrosis quística: supresión crónica.",
+      "notas": "La combinación empírica inicial de dos antipseudomónicos busca aumentar la probabilidad de acertar con un fármaco activo, no una sinergia real; se desescala a monoterapia en cuanto llega el antibiograma."
+    },
+    "farmacos_relacionados": [
+      "INF-amikacina",
+      "INF-cefepima",
+      "INF-ceftazidima",
+      "INF-ciprofloxacino",
+      "INF-gentamicina",
+      "INF-imipenem",
+      "INF-levofloxacino",
+      "INF-meropenem",
+      "INF-piperacilina-tazobactam",
+      "OFT-antiinfecciosos-corticoides-oculares"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 27 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por Pseudomonas"
+  },
+  {
+    "id": "BGN-acinetobacter-baumannii",
+    "nombre": "Acinetobacter baumannii",
+    "grupo": "BGN",
+    "nivel": 3,
+    "clasificacion": "Cocobacilo gramnegativo NO fermentador, aerobio estricto, OXIDASA NEGATIVO (lo que lo diferencia de Pseudomonas), inmóvil",
+    "morfologia_tincion": "Cocobacilos gramnegativos que con frecuencia retienen el cristal violeta y pueden confundirse con cocos grampositivos o con Neisseria en la tinción de Gram. Colonias no pigmentadas.",
+    "mecanismo_patogenia": [
+      "Extraordinaria resistencia a la desecación y a los desinfectantes: sobrevive semanas en superficies inertes de la UCI, lo que le permite protagonizar brotes hospitalarios persistentes.",
+      "Formación de biofilm sobre catéteres, tubos endotraqueales y superficies.",
+      "Betalactamasas de tipo OXA (carbapenemasas de clase D) y metalobetalactamasas.",
+      "Bombas de expulsión y pérdida de porinas, que suman resistencia a múltiples familias.",
+      "Baja virulencia intrínseca: coloniza mucho más de lo que infecta, lo que hace crítico distinguir colonización de infección real."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía asociada a ventilación mecánica",
+        "clinica": "Fiebre, secreciones purulentas y empeoramiento del intercambio gaseoso en el paciente intubado de larga estancia.",
+        "lesiones": "Bronconeumonía, a menudo bilateral.",
+        "clave": "Distinguir infección de colonización del tubo endotraqueal es el principal reto clínico."
+      },
+      {
+        "cuadro": "Bacteriemia asociada a catéter",
+        "clinica": "Fiebre en portador de vía central en UCI.",
+        "lesiones": "Biofilm en el catéter.",
+        "clave": "Requiere retirada del catéter."
+      },
+      {
+        "cuadro": "Infección de herida traumática y de quemaduras",
+        "clinica": "Sobreinfección de heridas complejas, clásicamente en heridas de guerra y politraumatismos.",
+        "lesiones": "Infección profunda de partes blandas y osteomielitis.",
+        "clave": "Se conoce como «Iraqibacter» por su papel en las heridas de los conflictos bélicos recientes."
+      },
+      {
+        "cuadro": "Meningitis nosocomial posquirúrgica",
+        "clinica": "Fiebre y deterioro neurológico tras neurocirugía o en portador de derivación ventricular.",
+        "lesiones": "Meningitis con LCR purulento.",
+        "clave": "Difícil de tratar por la escasa penetración en LCR de los fármacos activos frente a cepas multirresistentes."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es OXIDASA NEGATIVO, lo que lo distingue de Pseudomonas (oxidasa positivo), siendo ambos bacilos gramnegativos no fermentadores.",
+      "Su supervivencia en superficies secas durante semanas explica los brotes hospitalarios y la necesidad de limpieza ambiental intensiva además del aislamiento de contacto.",
+      "Con frecuencia se comporta como colonizador: el aislamiento en aspirado traqueal sin datos clínicos de infección no debe tratarse.",
+      "La resistencia a carbapenemes por OXA-23 y similares es hoy la norma en muchas UCI, dejando como opciones colistina, tigeciclina, sulbactam a dosis altas o cefiderocol.",
+      "El sulbactam tiene actividad intrínseca frente a Acinetobacter (no como inhibidor, sino como antibiótico propio), rasgo único entre los inhibidores de betalactamasas.",
+      "Es un patógeno casi exclusivamente nosocomial y de UCI."
+    ],
+    "diagnostico": {
+      "muestra": "Aspirado traqueal, lavado broncoalveolar, hemocultivos, punta de catéter, LCR, exudado de herida.",
+      "pruebas": [
+        "Cultivo e identificación por MALDI-TOF",
+        "Prueba de la oxidasa negativa",
+        "Antibiograma con CMI ampliado, incluyendo colistina y sulbactam",
+        "Detección de carbapenemasas de tipo OXA",
+        "Tipado molecular en el estudio de brotes"
+      ],
+      "claves": "Diferenciar colonización de infección exige combinar el cultivo con criterios clínicos, radiológicos y de respuesta inflamatoria."
+    },
+    "tratamiento": {
+      "eleccion": "Según el antibiograma: carbapenem si es sensible; en cepas resistentes a carbapenemes, combinaciones basadas en colistina, sulbactam a dosis altas, tigeciclina o cefiderocol.",
+      "alternativas": "Ampicilina-sulbactam a dosis altas por la actividad intrínseca del sulbactam. Aminoglucósidos como acompañantes.",
+      "resistencias": "Multirresistencia extensa y frecuente pan-resistencia. Resistencia a carbapenemes por OXA-23/24/58.",
+      "duracion": "Neumonía asociada a ventilación: 7-14 días. Bacteriemia: 7-14 días tras retirar el catéter. Meningitis: 21 días.",
+      "notas": "El control de la transmisión (aislamiento de contacto, limpieza ambiental, cohortización) tiene tanto peso como el tratamiento antibiótico."
+    },
+    "farmacos_relacionados": [
+      "INF-amikacina",
+      "INF-ampicilina",
+      "INF-gentamicina",
+      "INF-imipenem",
+      "INF-meropenem"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 27 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones nosocomiales"
+  },
+  {
+    "id": "BGN-haemophilus-influenzae",
+    "nombre": "Haemophilus influenzae",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Cocobacilo gramnegativo pequeño, pleomórfico, anaerobio facultativo, exigente: requiere factor X (hemina) y factor V (NAD) para crecer",
+    "morfologia_tincion": "Cocobacilos gramnegativos muy pequeños y pleomórficos, difíciles de ver en la tinción de Gram. Crece solo en agar chocolate (que aporta los factores X y V liberados por los hematíes lisados), no en agar sangre convencional. Presenta el fenómeno de satelitismo alrededor de colonias de S. aureus.",
+    "mecanismo_patogenia": [
+      "Cápsula de polirribosil-ribitol-fosfato (PRP) en el serotipo b: principal factor de virulencia de las formas invasivas, antifagocítica. Es el antígeno de la vacuna conjugada Hib.",
+      "Las cepas NO capsuladas (no tipables) carecen de cápsula y causan infección mucosa localizada (otitis, sinusitis, exacerbación de EPOC) en lugar de enfermedad invasiva.",
+      "Proteasa de IgA1: escinde la IgA secretora y facilita la colonización de la mucosa respiratoria.",
+      "Lipooligosacárido: inhibe el batido ciliar y desencadena inflamación.",
+      "Producción de betalactamasa por plásmido en el 15-25% de las cepas: mecanismo principal de resistencia a ampicilina."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Otitis media aguda, sinusitis y conjuntivitis (cepas no tipables)",
+        "clinica": "Otalgia y fiebre en el niño; conjuntivitis purulenta que a menudo se asocia a otitis (síndrome otitis-conjuntivitis).",
+        "lesiones": "Tímpano abombado e hiperémico; exudado purulento conjuntival.",
+        "clave": "Es el segundo agente de otitis tras el neumococo, y el primero en el síndrome otitis-conjuntivitis."
+      },
+      {
+        "cuadro": "Exacerbación infecciosa de la EPOC",
+        "clinica": "Aumento de la disnea, del volumen y de la purulencia del esputo (criterios de Anthonisen).",
+        "lesiones": "Inflamación bronquial con aumento de la secreción.",
+        "clave": "Es el patógeno bacteriano más frecuente de la exacerbación de EPOC."
+      },
+      {
+        "cuadro": "Epiglotitis aguda (serotipo b)",
+        "clinica": "Niño de 2-6 años con fiebre alta, babeo, disfagia, voz apagada, estridor y posición «en trípode» inclinado hacia delante; progresión en horas.",
+        "lesiones": "Epiglotis edematosa y de color rojo cereza; signo radiológico «del pulgar» en la radiografía lateral de cuello.",
+        "clave": "URGENCIA VITAL: no explorar la faringe ni tumbar al niño (riesgo de obstrucción completa). Asegurar la vía aérea en quirófano. Su incidencia ha caído radicalmente con la vacuna Hib."
+      },
+      {
+        "cuadro": "Meningitis por Hib",
+        "clinica": "Fiebre, vómitos, rigidez de nuca y alteración del nivel de conciencia en lactantes y niños pequeños no vacunados.",
+        "lesiones": "Meningitis purulenta con riesgo de sordera neurosensorial y secuelas neurológicas.",
+        "clave": "Era la primera causa de meningitis bacteriana infantil antes de la vacuna conjugada; hoy es excepcional en países con cobertura vacunal."
+      },
+      {
+        "cuadro": "Neumonía",
+        "clinica": "Fiebre, tos y expectoración purulenta, sobre todo en el paciente con EPOC o el anciano.",
+        "lesiones": "Bronconeumonía.",
+        "clave": "Es una causa frecuente de neumonía comunitaria en el paciente con enfermedad pulmonar crónica."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Requiere los factores X (hemina) y V (NAD): por eso crece en agar chocolate y no en agar sangre, y por eso muestra satelitismo junto a S. aureus, que lisa los hematíes y libera los factores.",
+      "La vacuna conjugada frente al serotipo b ha eliminado prácticamente la epiglotitis y la meningitis por Hib en los países con cobertura vacunal: es uno de los éxitos vacunales más rotundos.",
+      "Las cepas no tipables NO se previenen con la vacuna y siguen causando otitis, sinusitis y exacerbaciones de EPOC.",
+      "Es una de las tres bacterias capsuladas peligrosas para el asplénico, junto al neumococo y al meningococo.",
+      "El 15-25% de las cepas produce betalactamasa, por lo que amoxicilina sola puede fallar y se prefiere amoxicilina-clavulánico.",
+      "En la epiglotitis, la exploración faríngea puede desencadenar un laringoespasmo mortal: la vía aérea se asegura en quirófano con anestesista y ORL presentes."
+    ],
+    "diagnostico": {
+      "muestra": "Esputo, exudado conjuntival, hemocultivos, LCR, exudado del oído medio (timpanocentesis).",
+      "pruebas": [
+        "Cultivo en agar chocolate",
+        "Determinación de los requerimientos de factor X y V y prueba del satelitismo",
+        "Serotipado capsular para identificar el tipo b",
+        "Detección de betalactamasa (nitrocefina)",
+        "PCR múltiple en LCR",
+        "Radiografía lateral de cuello con signo del pulgar en la epiglotitis"
+      ],
+      "claves": "Si el laboratorio no siembra en agar chocolate, no crecerá: hay que orientar la sospecha en la petición."
+    },
+    "tratamiento": {
+      "eleccion": "Amoxicilina-clavulánico VO en la infección mucosa; ceftriaxona o cefotaxima IV en la enfermedad invasiva (epiglotitis, meningitis).",
+      "alternativas": "Azitromicina o cefalosporinas orales de 2.ª-3.ª generación. En alérgicos, quinolonas en el adulto.",
+      "resistencias": "Producción de betalactamasa en el 15-25% de las cepas. Existen cepas BLNAR (resistentes a ampicilina sin betalactamasa, por alteración de PBP), en las que el clavulánico tampoco sirve.",
+      "duracion": "Otitis y sinusitis: 5-10 días. Exacerbación de EPOC: 5-7 días. Meningitis: 7-10 días. Epiglotitis: 7-10 días.",
+      "notas": "Profilaxis de contactos de un caso invasivo por Hib con rifampicina si hay niños no vacunados o inmunodeprimidos en el domicilio. Vacunación sistemática con Hib en el calendario infantil y en el asplénico."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-amoxicilina-clavulanico",
+      "INF-azitromicina",
+      "INF-cefalosporinas-orales",
+      "INF-ceftazidima",
+      "INF-ceftriaxona",
+      "INF-levofloxacino",
+      "INF-moxifloxacino",
+      "PED-INF-amoxicilina",
+      "PED-INF-amoxicilina-clavulanico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 28 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por Haemophilus"
+  },
+  {
+    "id": "BGN-moraxella-catarrhalis",
+    "nombre": "Moraxella catarrhalis",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "Diplococo gramnegativo, aerobio, OXIDASA POSITIVO, catalasa positivo, DNasa positivo, no fermentador de azúcares",
+    "morfologia_tincion": "Diplococos gramnegativos en granos de café, morfológicamente indistinguibles de Neisseria. Colonias que se deslizan enteras por la placa al empujarlas con el asa («signo del disco de hockey»), rasgo muy característico.",
+    "mecanismo_patogenia": [
+      "Adhesinas de superficie (UspA1, UspA2) que median la unión al epitelio respiratorio y confieren resistencia al suero.",
+      "Producción prácticamente universal de betalactamasa (BRO-1/BRO-2): más del 90% de las cepas son resistentes a ampicilina y amoxicilina.",
+      "Lipooligosacárido con actividad endotóxica que induce inflamación local.",
+      "Formación de biofilm en el oído medio y en la vía respiratoria, que contribuye a la otitis recurrente y a la colonización crónica en la EPOC."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Otitis media aguda",
+        "clinica": "Otalgia y fiebre en el niño, habitualmente de intensidad algo menor que la neumocócica.",
+        "lesiones": "Tímpano abombado e hiperémico.",
+        "clave": "Es el tercer agente de la otitis media tras neumococo y Haemophilus; tiene mayor tasa de resolución espontánea."
+      },
+      {
+        "cuadro": "Sinusitis aguda",
+        "clinica": "Dolor facial, rinorrea purulenta y congestión de más de 10 días de evolución.",
+        "lesiones": "Ocupación de los senos paranasales.",
+        "clave": "Completa la tríada bacteriana clásica de la sinusitis junto a neumococo y Haemophilus."
+      },
+      {
+        "cuadro": "Exacerbación de la EPOC",
+        "clinica": "Aumento de disnea, volumen y purulencia del esputo en el paciente con EPOC, típicamente en los meses fríos.",
+        "lesiones": "Inflamación bronquial.",
+        "clave": "Es el tercer patógeno bacteriano de la exacerbación de EPOC y muestra clara estacionalidad invernal."
+      },
+      {
+        "cuadro": "Neumonía en el anciano con comorbilidad",
+        "clinica": "Fiebre y tos productiva en el anciano con EPOC o inmunodepresión.",
+        "lesiones": "Bronconeumonía.",
+        "clave": "Rara vez causa enfermedad invasiva o bacteriemia."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es un diplococo gramnegativo oxidasa positivo, igual que Neisseria, pero se diferencia por ser DNasa positivo y no fermentar azúcares.",
+      "Más del 90% de las cepas produce betalactamasa: la amoxicilina sola es inútil y hay que usar amoxicilina-clavulánico.",
+      "Forma parte de la tríada clásica de patógenos de la otitis, la sinusitis y la exacerbación de EPOC, junto con S. pneumoniae y H. influenzae no tipable.",
+      "El «signo del disco de hockey» (la colonia se desliza entera por el agar) es un rasgo de laboratorio muy característico.",
+      "Su virulencia es baja: causa infección mucosa, casi nunca enfermedad invasiva.",
+      "Muestra estacionalidad invernal marcada."
+    ],
+    "diagnostico": {
+      "muestra": "Esputo, exudado del oído medio, aspirado sinusal.",
+      "pruebas": [
+        "Cultivo en agar sangre y chocolate",
+        "Prueba de la oxidasa positiva y de la DNasa positiva",
+        "Detección de betalactamasa",
+        "MALDI-TOF"
+      ],
+      "claves": "Su aislamiento en esputo debe interpretarse en contexto: también forma parte de la flora orofaríngea normal en niños."
+    },
+    "tratamiento": {
+      "eleccion": "Amoxicilina-clavulánico VO.",
+      "alternativas": "Cefalosporinas de 2.ª-3.ª generación orales, azitromicina, claritromicina o cotrimoxazol. Quinolonas respiratorias en el adulto.",
+      "resistencias": "Betalactamasa en más del 90% de las cepas, lo que hace inútiles la penicilina y la amoxicilina; el resto de familias mantiene buena actividad.",
+      "duracion": "5-10 días en otitis y sinusitis; 5-7 días en la exacerbación de EPOC.",
+      "notas": "En la otitis media no complicada del niño mayor puede optarse por observación con analgesia y reevaluación en 48-72 h antes de iniciar antibiótico."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-azitromicina",
+      "INF-cefalosporinas-orales",
+      "INF-claritromicina",
+      "INF-levofloxacino",
+      "INF-moxifloxacino",
+      "PED-INF-amoxicilina-clavulanico"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 28 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones respiratorias"
+  },
+  {
+    "id": "BGN-neisseria-meningitidis",
+    "nombre": "Neisseria meningitidis (meningococo)",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Diplococo gramnegativo, aerobio, OXIDASA POSITIVO, fermentador de glucosa Y maltosa (rasgo que lo diferencia del gonococo, que solo fermenta glucosa), capsulado",
+    "morfologia_tincion": "Diplococos gramnegativos arriñonados «en grano de café», enfrentados por su cara cóncava y característicamente INTRACELULARES dentro de los neutrófilos en la tinción de Gram del LCR.",
+    "mecanismo_patogenia": [
+      "CÁPSULA de polisacárido: define los serogrupos (A, B, C, W, X, Y) y es antifagocítica. La del serogrupo B mimetiza el ácido siálico del tejido neural humano, lo que la hace poco inmunógena y explica por qué su vacuna tuvo que desarrollarse con proteínas de superficie en lugar de con el polisacárido.",
+      "Endotoxina (lipooligosacárido) liberada masivamente en vesículas de membrana: es responsable del shock séptico fulminante y de la coagulación intravascular diseminada, con una potencia inflamatoria excepcional.",
+      "Pili de tipo IV: median la adherencia al epitelio nasofaríngeo, primer paso de la colonización.",
+      "Proteasa de IgA1: degrada la IgA secretora y facilita la colonización.",
+      "Captación de hierro de la transferrina y la lactoferrina humanas mediante receptores específicos.",
+      "El déficit de los componentes terminales del complemento (C5-C9) impide formar el complejo de ataque a membrana, único mecanismo eficaz frente a Neisseria: por eso estos pacientes sufren meningococemias de repetición."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Meningitis meningocócica",
+        "clinica": "Comienzo brusco con fiebre, cefalea intensa, rigidez de nuca, fotofobia y vómitos; alteración del nivel de conciencia; el exantema petequial puede aparecer o no.",
+        "lesiones": "Exudado purulento en las leptomeninges, con predominio en la base y la convexidad.",
+        "clave": "Es la causa más frecuente de meningitis bacteriana en niños mayores, adolescentes y adultos jóvenes; el pronóstico es mejor que el de la neumocócica si se trata a tiempo."
+      },
+      {
+        "cuadro": "Meningococemia fulminante y púrpura fulminante",
+        "clinica": "Fiebre alta, postración, hipotensión y exantema PETEQUIAL Y PURPÚRICO que progresa en horas, con coagulación intravascular diseminada y fallo multiorgánico. Puede cursar SIN meningitis.",
+        "lesiones": "Púrpura confluente con necrosis cutánea; síndrome de Waterhouse-Friderichsen por hemorragia bilateral de las suprarrenales.",
+        "clave": "Es una de las verdaderas emergencias de la medicina: cada hora de retraso en el antibiótico aumenta la mortalidad. Ante fiebre con petequias, antibiótico INMEDIATO."
+      },
+      {
+        "cuadro": "Meningococemia crónica",
+        "clinica": "Fiebre intermitente durante semanas, exantema, artralgias y artritis, con buen estado general entre los episodios.",
+        "lesiones": "Exantema maculopapular o petequial recurrente.",
+        "clave": "Cuadro raro que simula una enfermedad reumatológica; obliga a extraer hemocultivos durante los picos febriles."
+      },
+      {
+        "cuadro": "Estado de portador nasofaríngeo",
+        "clinica": "Asintomático; hasta el 10-25% de la población es portadora, y mucho más en colectividades cerradas (cuarteles, residencias universitarias).",
+        "lesiones": "Colonización de la nasofaringe sin invasión.",
+        "clave": "El portador es el reservorio y el objetivo de la quimioprofilaxis de los contactos."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Fermenta glucosa Y maltosa; el gonococo solo glucosa. Regla mnemotécnica: Meningitidis = Maltosa.",
+      "En la tinción de Gram del LCR aparece como diplococos gramnegativos INTRAcelulares dentro de los neutrófilos: hallazgo prácticamente diagnóstico.",
+      "El déficit de complemento terminal (C5-C9) y el déficit de properdina predisponen a meningococemias de repetición: ante un segundo episodio, hay que estudiar el complemento (CH50).",
+      "El eculizumab y otros inhibidores del complemento multiplican por miles el riesgo de enfermedad meningocócica: la vacunación previa es obligatoria antes de iniciarlos.",
+      "Ante fiebre con exantema petequial, el antibiótico se administra ANTES del traslado y antes de la punción lumbar: es la conducta que salva vidas.",
+      "Es una de las tres bacterias capsuladas de riesgo en el asplénico, junto al neumococo y a Haemophilus."
+    ],
+    "diagnostico": {
+      "muestra": "LCR, hemocultivos, aspirado o biopsia de las lesiones cutáneas petequiales, exudado nasofaríngeo para el estudio de portadores.",
+      "pruebas": [
+        "Tinción de Gram del LCR: diplococos gramnegativos intracelulares",
+        "Cultivo del LCR y hemocultivos (se negativizan muy rápido tras el antibiótico)",
+        "PCR en sangre y LCR: mantiene el rendimiento aunque ya se haya administrado antibiótico",
+        "Bioquímica del LCR: pleocitosis neutrofílica, glucosa baja, proteínas altas",
+        "Serogrupado para orientar la vacunación y la salud pública"
+      ],
+      "claves": "La PCR es la prueba que salva el diagnóstico cuando el antibiótico se ha administrado antes de la punción lumbar, que es exactamente lo que debe hacerse."
+    },
+    "tratamiento": {
+      "eleccion": "Ceftriaxona 2 g/12 h IV (o cefotaxima). Si se confirma sensibilidad a penicilina, puede desescalarse a penicilina G a dosis altas.",
+      "alternativas": "Meropenem o cloranfenicol en alergia grave a betalactámicos. Dexametasona: su beneficio está demostrado en la meningitis neumocócica, no en la meningocócica, pero se administra empíricamente porque el agente no se conoce al inicio.",
+      "resistencias": "Sensibilidad conservada a cefalosporinas de 3.ª generación. Sensibilidad disminuida a penicilina en una proporción creciente de cepas.",
+      "duracion": "5-7 días de tratamiento, que es suficiente en la meningitis meningocócica.",
+      "notas": "QUIMIOPROFILAXIS OBLIGATORIA de los contactos estrechos (convivientes, contacto con secreciones, personal que hizo maniobras de reanimación sin protección) en las primeras 24 h: ciprofloxacino 500 mg en dosis única, rifampicina 600 mg/12 h 2 días, o ceftriaxona 250 mg IM en dosis única (de elección en la embarazada). Vacunas conjugadas ACWY y vacuna frente al serogrupo B."
+    },
+    "farmacos_relacionados": [
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino",
+      "INF-meropenem",
+      "INF-penicilina-g-benzatina",
+      "INF-rifampicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 25 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones meningocócicas"
+  },
+  {
+    "id": "BGN-neisseria-gonorrhoeae",
+    "nombre": "Neisseria gonorrhoeae (gonococo)",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Diplococo gramnegativo, aerobio, OXIDASA POSITIVO, fermentador SOLO de glucosa (no de maltosa), NO capsulado",
+    "morfologia_tincion": "Diplococos gramnegativos en grano de café, característicamente INTRACELULARES en los neutrófilos del exudado uretral. Exigente: requiere medio de Thayer-Martin y atmósfera con CO2.",
+    "mecanismo_patogenia": [
+      "Pili de tipo IV con VARIACIÓN ANTIGÉNICA continua: cambia constantemente sus antígenos de superficie, lo que impide la inmunidad protectora duradera y explica las reinfecciones repetidas y la ausencia de vacuna.",
+      "Proteínas Opa (opacidad) y Por: median la adherencia e invasión del epitelio cilíndrico y la supervivencia intracelular.",
+      "Proteasa de IgA1: degrada la IgA secretora de las mucosas.",
+      "Lipooligosacárido con sialilación: mimetiza estructuras del huésped y confiere resistencia al suero.",
+      "Ausencia de cápsula, a diferencia del meningococo: por eso no dispone de vacuna polisacarídica.",
+      "El déficit de complemento terminal predispone a la infección gonocócica DISEMINADA."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Uretritis gonocócica en el varón",
+        "clinica": "Secreción uretral purulenta abundante y disuria intensa, 2-5 días tras la exposición; muy sintomática.",
+        "lesiones": "Inflamación purulenta de la uretra anterior.",
+        "clave": "El periodo de incubación corto y la secreción francamente purulenta la distinguen de la uretritis por Chlamydia, más larvada y mucoide."
+      },
+      {
+        "cuadro": "Cervicitis e infección genital en la mujer",
+        "clinica": "Con frecuencia ASINTOMÁTICA (hasta el 50%) o con leucorrea y sangrado intermenstrual leve.",
+        "lesiones": "Cervicitis mucopurulenta con friabilidad del cuello.",
+        "clave": "El carácter asintomático en la mujer es lo que permite la progresión silenciosa a enfermedad inflamatoria pélvica y esterilidad."
+      },
+      {
+        "cuadro": "Enfermedad inflamatoria pélvica y síndrome de Fitz-Hugh-Curtis",
+        "clinica": "Dolor abdominal bajo, dolor a la movilización cervical, fiebre; en el Fitz-Hugh-Curtis, dolor en hipocondrio derecho por perihepatitis.",
+        "lesiones": "Salpingitis con adherencias tuboováricas; adherencias «en cuerda de violín» entre el hígado y la pared abdominal.",
+        "clave": "Secuelas: esterilidad tubárica, embarazo ectópico y dolor pélvico crónico."
+      },
+      {
+        "cuadro": "Infección gonocócica diseminada",
+        "clinica": "Dos formas: el síndrome artritis-dermatitis (poliartralgias migratorias, tenosinovitis y pústulas hemorrágicas escasas en extremidades) y la artritis séptica purulenta monoarticular.",
+        "lesiones": "Pústulas necróticas de base eritematosa en extremidades distales; derrame articular purulento.",
+        "clave": "Es la causa más frecuente de artritis séptica en el adulto joven sexualmente activo. Obliga a descartar déficit de complemento si es recurrente."
+      },
+      {
+        "cuadro": "Oftalmía neonatal",
+        "clinica": "Conjuntivitis purulenta intensa en las primeras 48 h de vida (más precoz que la clamidiásica, que aparece a los 5-14 días).",
+        "lesiones": "Conjuntivitis hiperaguda con edema palpebral y riesgo de úlcera y perforación corneal.",
+        "clave": "Se previene con la profilaxis ocular neonatal; sin tratamiento puede causar ceguera en días."
+      },
+      {
+        "cuadro": "Faringitis y proctitis gonocócicas",
+        "clinica": "A menudo asintomáticas; molestias faríngeas leves o tenesmo y secreción rectal.",
+        "lesiones": "Inflamación mucosa.",
+        "clave": "Los reservorios faríngeo y rectal se pasan por alto si no se toman muestras de todos los sitios expuestos; la faringe es además el lugar donde se seleccionan las resistencias."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Fermenta SOLO glucosa, a diferencia del meningococo que fermenta glucosa y maltosa.",
+      "No tiene cápsula y presenta variación antigénica constante de sus pili: por eso no hay inmunidad protectora ni vacuna, y las reinfecciones son la norma.",
+      "En el varón la tinción de Gram del exudado uretral con diplococos gramnegativos intracelulares es prácticamente diagnóstica; en la mujer, en cambio, es poco sensible y hay que recurrir a técnicas moleculares.",
+      "El tratamiento actual es ceftriaxona IM en dosis única, con dosis que se han ido incrementando por el aumento de las CMI: es un patógeno en carrera hacia la multirresistencia y figura en la lista de prioridades de la OMS.",
+      "Hay que tomar muestras de TODOS los sitios expuestos (uretra o cérvix, faringe y recto): las infecciones extragenitales suelen ser asintomáticas y perpetúan la transmisión.",
+      "Siempre hay que cotratar Chlamydia si no se ha descartado, cribar otras ITS (VIH, sífilis, hepatitis) y tratar a las parejas sexuales de los últimos 60 días."
+    ],
+    "diagnostico": {
+      "muestra": "Exudado uretral, endocervical, faríngeo, rectal; orina de primer chorro para técnicas moleculares; líquido articular y hemocultivos en la forma diseminada.",
+      "pruebas": [
+        "TÉCNICAS DE AMPLIFICACIÓN DE ÁCIDOS NUCLEICOS (TAAN/PCR): prueba de elección por sensibilidad, incluidas muestras faríngeas y rectales",
+        "Tinción de Gram del exudado uretral en el varón: sensibilidad >95%",
+        "Cultivo en medio de Thayer-Martin: imprescindible cuando se necesita ANTIBIOGRAMA (fracaso terapéutico, vigilancia de resistencias)",
+        "Cultivo del líquido articular y hemocultivos en la infección diseminada"
+      ],
+      "claves": "La PCR es la prueba diagnóstica, pero el cultivo sigue siendo necesario para conocer la sensibilidad: ante un fracaso terapéutico hay que cultivar siempre."
+    },
+    "tratamiento": {
+      "eleccion": "CEFTRIAXONA 500 mg IM en dosis única (1 g si el peso supera los 150 kg). Añadir doxiciclina 100 mg/12 h durante 7 días si no se ha descartado la coinfección por Chlamydia.",
+      "alternativas": "Cefixima 800 mg VO en dosis única cuando no es posible la vía IM (menos eficaz, sobre todo en la faringe). En alergia grave a betalactámicos, pautas alternativas con gentamicina más azitromicina.",
+      "resistencias": "Resistencia prácticamente universal a penicilina, tetraciclinas y quinolonas. CMI crecientes frente a cefalosporinas y resistencia emergente a azitromicina. La OMS lo considera una amenaza prioritaria de resistencia.",
+      "duracion": "Dosis única en la infección no complicada. Enfermedad inflamatoria pélvica: 14 días de pauta combinada. Infección diseminada: ceftriaxona IV 7 días o más. Artritis séptica: 7-14 días con drenaje articular.",
+      "notas": "Prueba de curación obligatoria en la infección faríngea y ante persistencia de síntomas. Notificación y tratamiento de todas las parejas de los últimos 60 días."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ceftriaxona",
+      "INF-doxiciclina",
+      "OFT-antiinfecciosos-corticoides-oculares"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 25 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones gonocócicas"
+  },
+  {
+    "id": "BGN-legionella-pneumophila",
+    "nombre": "Legionella pneumophila",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo pleomórfico, aerobio, INTRACELULAR facultativo, exigente: requiere L-cisteína y hierro para crecer (medio BCYE)",
+    "morfologia_tincion": "Bacilo gramnegativo fino y pleomórfico que se tiñe MAL con la tinción de Gram convencional — un hallazgo diagnóstico en sí mismo: esputo purulento con abundantes neutrófilos y ninguna bacteria visible. Se visualiza con tinción de plata (Dieterle) o inmunofluorescencia.",
+    "mecanismo_patogenia": [
+      "Parasitismo intracelular del MACRÓFAGO alveolar: inhibe la fusión fagosoma-lisosoma mediante el sistema de secreción Dot/Icm y se multiplica dentro de una vacuola replicativa. Por eso la defensa depende de la inmunidad CELULAR y los antibióticos eficaces deben ser los que penetran en la célula.",
+      "Este parasitismo intracelular es también la razón por la que los BETALACTÁMICOS, que no penetran en la célula, son ineficaces aunque el antibiograma in vitro sugiera lo contrario.",
+      "Supervivencia y multiplicación dentro de amebas de vida libre en los sistemas de agua: es su reservorio ambiental natural y el motivo de su presencia en torres de refrigeración, aljibes y circuitos de agua caliente.",
+      "Formación de biofilm en las conducciones de agua, protegido frente a la cloración.",
+      "Transmisión exclusivamente por AEROSOLES; NO hay transmisión persona a persona."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Enfermedad del legionario (neumonía por Legionella)",
+        "clinica": "Fiebre muy alta con bradicardia relativa, tos escasamente productiva, gran afectación general, y de forma característica SÍNTOMAS EXTRAPULMONARES: diarrea, dolor abdominal, cefalea, confusión y otros signos neurológicos.",
+        "lesiones": "Condensación alveolar unilateral que progresa rápidamente y puede hacerse bilateral; a veces derrame pleural.",
+        "clave": "La combinación de neumonía + diarrea + confusión + HIPONATREMIA + elevación de transaminasas y de CPK es el patrón que debe hacer pensar en Legionella."
+      },
+      {
+        "cuadro": "Fiebre de Pontiac",
+        "clinica": "Síndrome pseudogripal autolimitado con fiebre, mialgias y cefalea, SIN neumonía, que se resuelve en 2-5 días sin tratamiento.",
+        "lesiones": "No hay afectación pulmonar radiológica.",
+        "clave": "Misma bacteria, cuadro completamente distinto; es una respuesta de hipersensibilidad y no requiere antibiótico."
+      },
+      {
+        "cuadro": "Neumonía nosocomial por contaminación del agua del hospital",
+        "clinica": "Neumonía grave en pacientes ingresados, especialmente trasplantados o con corticoterapia.",
+        "lesiones": "Neumonía extensa con alta mortalidad en el inmunodeprimido.",
+        "clave": "Un solo caso nosocomial obliga a investigar el sistema de agua del centro."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es intracelular: los betalactámicos NO sirven, aunque el laboratorio informe sensibilidad. Los fármacos eficaces son los que penetran en el macrófago: quinolonas y macrólidos.",
+      "No se tiñe con Gram: un esputo purulento con neutrófilos y sin bacterias visibles es una pista diagnóstica valiosa.",
+      "La hiponatremia es significativamente más frecuente en la neumonía por Legionella que en las demás neumonías, y es uno de los datos clínicos más útiles para sospecharla.",
+      "El antígeno urinario detecta solo el serogrupo 1 de L. pneumophila (que causa el 80-90% de los casos): un antígeno negativo NO descarta legionelosis.",
+      "El antígeno urinario permanece positivo durante semanas, incluso tras iniciar el tratamiento, lo que lo hace útil en el diagnóstico retrospectivo.",
+      "No hay transmisión de persona a persona: no se requiere aislamiento respiratorio del paciente, pero sí investigación ambiental de la fuente.",
+      "Es una enfermedad de DECLARACIÓN OBLIGATORIA."
+    ],
+    "diagnostico": {
+      "muestra": "Orina (antígeno), esputo o aspirado respiratorio (cultivo y PCR), suero pareado.",
+      "pruebas": [
+        "ANTÍGENO URINARIO de Legionella: rápido, sensible para el serogrupo 1, positivo desde el día 1 y durante semanas",
+        "Cultivo en medio BCYE con L-cisteína: es la prueba de referencia y la única que permite tipar la cepa para el estudio del brote",
+        "PCR en muestra respiratoria",
+        "Inmunofluorescencia directa",
+        "Serología con seroconversión en sueros pareados (diagnóstico retrospectivo)"
+      ],
+      "claves": "Solicitar SIEMPRE cultivo además del antígeno urinario cuando se sospecha un brote: el antígeno confirma el caso pero no permite relacionarlo con la fuente ambiental."
+    },
+    "tratamiento": {
+      "eleccion": "LEVOFLOXACINO 500-750 mg/24 h, o AZITROMICINA 500 mg/24 h.",
+      "alternativas": "Moxifloxacino, claritromicina. En el paciente muy grave o inmunodeprimido puede asociarse rifampicina, aunque su beneficio adicional es discutido.",
+      "resistencias": "No es un problema clínico relevante; el fracaso terapéutico se debe casi siempre a haber usado un betalactámico, no a resistencia adquirida.",
+      "duracion": "7-10 días con quinolonas en el inmunocompetente; 14-21 días en el inmunodeprimido, en la enfermedad grave o si hay cavitación.",
+      "notas": "Declaración obligatoria e investigación ambiental de la fuente (torres de refrigeración, sistemas de agua caliente sanitaria, jacuzzis, humidificadores)."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-claritromicina",
+      "INF-levofloxacino",
+      "INF-moxifloxacino",
+      "INF-rifampicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 29 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por Legionella"
+  },
+  {
+    "id": "BGN-bordetella-pertussis",
+    "nombre": "Bordetella pertussis",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "Cocobacilo gramnegativo muy pequeño, aerobio estricto, exigente (medio de Bordet-Gengou o Regan-Lowe), inmóvil, oxidasa positivo",
+    "morfologia_tincion": "Cocobacilos gramnegativos diminutos y difíciles de visualizar. Requiere medios de cultivo especiales con carbón o sangre y antibióticos selectivos; el crecimiento es lento (3-7 días).",
+    "mecanismo_patogenia": [
+      "TOXINA PERTUSSIS: ADP-ribosila la subunidad Gi de la proteína G, impidiendo la inhibición de la adenilato ciclasa; el AMPc intracelular se dispara. Produce LINFOCITOSIS marcada (bloquea la migración de los linfocitos a los ganglios), sensibilización a la histamina e hipoglucemia.",
+      "Citotoxina traqueal (fragmento de peptidoglucano): destruye específicamente las células ciliadas del epitelio respiratorio. Al perderse el aclaramiento mucociliar, el moco no puede eliminarse más que con accesos de tos violentos — este es el mecanismo directo de la tos paroxística.",
+      "Hemaglutinina filamentosa y pertactina: adhesinas al epitelio ciliado; son antígenos de las vacunas acelulares.",
+      "Adenilato ciclasa-hemolisina: inhibe la quimiotaxis y la fagocitosis de los neutrófilos.",
+      "La bacteria NO invade ni disemina: toda la enfermedad, incluida su duración de meses, es consecuencia del daño toxínico local del epitelio ciliado. Por eso el antibiótico no modifica el curso una vez establecida la fase paroxística."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Tos ferina — fase catarral (1-2 semanas)",
+        "clinica": "Rinorrea, estornudos, febrícula y tos leve, indistinguible de un catarro común.",
+        "lesiones": "Inflamación del epitelio respiratorio.",
+        "clave": "Es la fase de MÁXIMA CONTAGIOSIDAD y la única en la que el antibiótico modifica el curso clínico; por desgracia, casi nunca se diagnostica en este momento."
+      },
+      {
+        "cuadro": "Tos ferina — fase paroxística (2-6 semanas)",
+        "clinica": "Accesos de tos violenta en salvas, sin poder inspirar entre golpes, seguidos de un «gallo» inspiratorio y a menudo de vómito postusígeno. El paciente está bien entre los accesos y no suele tener fiebre.",
+        "lesiones": "Hemorragias subconjuntivales, petequias faciales y hernias por el esfuerzo; hiperinsuflación pulmonar.",
+        "clave": "La ausencia de fiebre con tos paroxística y vómito postusígeno es muy característica; el antibiótico en esta fase ya no acorta la enfermedad, pero sí corta la transmisión."
+      },
+      {
+        "cuadro": "Tos ferina del lactante menor de 3 meses",
+        "clinica": "Puede NO presentar el gallo inspiratorio típico y manifestarse con APNEAS, cianosis y bradicardia como único signo.",
+        "lesiones": "Neumonía, hipertensión pulmonar, leucocitosis extrema (>50 000) con hiperleucocitosis que se asocia a mortalidad.",
+        "clave": "Es el grupo con mayor mortalidad. La estrategia de protección es la vacunación de la EMBARAZADA en el tercer trimestre y la estrategia «nido» de vacunación de los convivientes."
+      },
+      {
+        "cuadro": "Tos ferina — fase de convalecencia (semanas a meses)",
+        "clinica": "Disminución progresiva de los accesos; la tos puede reaparecer con infecciones respiratorias posteriores durante meses.",
+        "lesiones": "Recuperación lenta del epitelio ciliado.",
+        "clave": "Se conoce como «la tos de los cien días»; explicárselo al paciente evita tratamientos antibióticos repetidos e inútiles."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La LINFOCITOSIS absoluta con leucocitosis en un niño con tos prolongada y sin fiebre es un dato de laboratorio muy orientativo, y es consecuencia directa de la toxina pertussis.",
+      "El antibiótico solo modifica el curso si se administra en la fase catarral; después, su único objetivo es cortar la transmisión, que es igualmente importante desde el punto de vista de la salud pública.",
+      "La inmunidad, tanto natural como vacunal, NO es permanente: la enfermedad reaparece en adolescentes y adultos, que son la fuente de contagio del lactante no vacunado.",
+      "La vacunación de la embarazada en el tercer trimestre transfiere anticuerpos al feto y es la medida más eficaz para proteger al lactante en sus primeros meses.",
+      "La PCR ha sustituido al cultivo por su rapidez y sensibilidad, aunque el cultivo sigue siendo útil en las primeras 2 semanas.",
+      "Es una enfermedad de declaración obligatoria con quimioprofilaxis de los convivientes."
+    ],
+    "diagnostico": {
+      "muestra": "Aspirado o frotis NASOFARÍNGEO con torunda de dacrón o alginato (nunca de algodón, que inhibe la bacteria).",
+      "pruebas": [
+        "PCR de aspirado nasofaríngeo: prueba de elección, útil hasta 3-4 semanas de tos",
+        "Cultivo en medio de Regan-Lowe o Bordet-Gengou: muy específico, rentable solo en las 2 primeras semanas",
+        "Hemograma: leucocitosis con LINFOCITOSIS absoluta",
+        "Serología: útil en adolescentes y adultos con tos de más de 3 semanas"
+      ],
+      "claves": "La rentabilidad de todas las pruebas cae drásticamente con el tiempo de evolución: cuanto más tarde se sospeche, menos posibilidades de confirmación microbiológica."
+    },
+    "tratamiento": {
+      "eleccion": "AZITROMICINA (500 mg el día 1 y 250 mg los días 2-5 en el adulto; 10 mg/kg el día 1 y 5 mg/kg los días 2-5 en el niño). Es el macrólido de elección en el lactante menor de 1 mes por el menor riesgo de estenosis hipertrófica de píloro.",
+      "alternativas": "Claritromicina, o cotrimoxazol en alérgicos a macrólidos o mayores de 2 meses.",
+      "resistencias": "La resistencia a macrólidos es excepcional en Europa, aunque se ha descrito en Asia.",
+      "duracion": "5 días con azitromicina; 7 días con claritromicina o cotrimoxazol.",
+      "notas": "QUIMIOPROFILAXIS con la misma pauta a todos los convivientes y contactos estrechos, con independencia de su estado vacunal, especialmente si hay lactantes o embarazadas en el domicilio."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-claritromicina",
+      "INF-cotrimoxazol",
+      "PED-INF-azitromicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 28 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de tos ferina"
+  },
+  {
+    "id": "BGN-brucella",
+    "nombre": "Brucella (melitensis, abortus, suis)",
+    "grupo": "BGN",
+    "nivel": 3,
+    "clasificacion": "Cocobacilo gramnegativo muy pequeño, aerobio, INTRACELULAR facultativo, inmóvil, no esporulado, de crecimiento lento",
+    "morfologia_tincion": "Cocobacilos gramnegativos diminutos, con aspecto de «arena fina» en la tinción de Gram. Crecimiento lento en los hemocultivos, por lo que hay que prolongar la incubación y avisar al laboratorio.",
+    "mecanismo_patogenia": [
+      "Supervivencia y multiplicación DENTRO de los macrófagos del sistema reticuloendotelial: inhibe la fusión fagosoma-lisosoma y la apoptosis del macrófago. Esa localización intracelular explica el curso crónico, las recaídas y la necesidad de tratamientos prolongados y combinados con fármacos que penetren en la célula.",
+      "Lipopolisacárido de tipo liso con baja actividad endotóxica: provoca poca respuesta inflamatoria aguda, lo que favorece la infección persistente y larvada.",
+      "Formación de GRANULOMAS no caseificantes en hígado, bazo y médula ósea.",
+      "Transmisión por consumo de leche y quesos frescos no pasteurizados, o por contacto directo con animales infectados y sus productos (ganaderos, veterinarios, matarifes) e inhalación en el laboratorio."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Brucelosis aguda (fiebre de Malta)",
+        "clinica": "Fiebre ONDULANTE con sudoración profusa de olor característico, astenia intensa, artromialgias y cefalea; gran discordancia entre la escasez de signos y la intensidad de los síntomas.",
+        "lesiones": "Hepatoesplenomegalia, adenopatías, granulomas hepáticos no caseificantes.",
+        "clave": "Sospecharla ante fiebre prolongada de origen desconocido con antecedente de consumo de lácteos no pasteurizados o exposición profesional a ganado."
+      },
+      {
+        "cuadro": "Brucelosis osteoarticular",
+        "clinica": "Dolor lumbar o sacroilíaco persistente con fiebre; es la localización focal más frecuente (hasta el 30-40%).",
+        "lesiones": "Sacroileítis, espondilitis lumbar con el signo de Pedro Pons (erosión del ángulo anterosuperior del cuerpo vertebral), artritis periférica.",
+        "clave": "La espondilitis brucelósica preserva relativamente el disco y el cuerpo vertebral, a diferencia de la tuberculosa, que los destruye más."
+      },
+      {
+        "cuadro": "Orquiepididimitis brucelósica",
+        "clinica": "Dolor e inflamación testicular unilateral con fiebre.",
+        "lesiones": "Inflamación granulomatosa del epidídimo y el testículo.",
+        "clave": "Es la complicación genitourinaria más frecuente en el varón."
+      },
+      {
+        "cuadro": "Endocarditis brucelósica",
+        "clinica": "Fiebre prolongada, soplo, insuficiencia cardiaca.",
+        "lesiones": "Vegetaciones, habitualmente sobre la válvula aórtica, con destrucción valvular.",
+        "clave": "Es rara pero constituye la principal causa de muerte por brucelosis; casi siempre exige cirugía además del tratamiento médico prolongado."
+      },
+      {
+        "cuadro": "Neurobrucelosis",
+        "clinica": "Meningitis o meningoencefalitis subaguda, con afectación de pares craneales, depresión y alteraciones de conducta.",
+        "lesiones": "Meningitis linfocitaria con glucosa baja; puede simular tuberculosis.",
+        "clave": "Requiere añadir un tercer fármaco con buena penetración en el SNC y prolongar el tratamiento."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es un patógeno intracelular: el tratamiento debe ser COMBINADO y PROLONGADO (mínimo 6 semanas) con fármacos que penetren en el macrófago. La monoterapia condena a la recaída.",
+      "Es la zoonosis bacteriana más extendida del mundo y sigue siendo endémica en la cuenca mediterránea.",
+      "El consumo de queso fresco de oveja o cabra no pasteurizado es el antecedente epidemiológico clave que hay que preguntar en toda fiebre de origen desconocido.",
+      "Es una de las principales causas de infección adquirida en el LABORATORIO: hay que avisar al microbiólogo ante la sospecha para que manipule las muestras con nivel de bioseguridad 3.",
+      "Los hemocultivos requieren incubación prolongada; su rendimiento es mayor en la fase aguda y menor en las formas focales crónicas.",
+      "El signo de Pedro Pons en la espondilitis lumbar es un hallazgo radiológico muy característico."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos (avisando al laboratorio para prolongar la incubación), médula ósea (mayor rendimiento), líquido articular, LCR, biopsia hepática.",
+      "pruebas": [
+        "Hemocultivo y cultivo de médula ósea con incubación prolongada",
+        "Rosa de Bengala como prueba de cribado rápido",
+        "Seroaglutinación de Wright, con título significativo ≥1/160",
+        "Prueba de Coombs para brucela en las formas crónicas con anticuerpos bloqueantes",
+        "PCR",
+        "RM de columna en la sospecha de espondilitis"
+      ],
+      "claves": "Una seroaglutinación negativa con alta sospecha clínica en un cuadro crónico obliga a hacer la prueba de Coombs: los anticuerpos bloqueantes dan falsos negativos en la aglutinación."
+    },
+    "tratamiento": {
+      "eleccion": "DOXICICLINA 100 mg/12 h durante 6 semanas MÁS estreptomicina IM 2-3 semanas o gentamicina IV 7-10 días. Alternativa clásica: doxiciclina más rifampicina 6 semanas.",
+      "alternativas": "En niños menores de 8 años y embarazadas: cotrimoxazol más rifampicina. En la neurobrucelosis y la endocarditis, triple terapia (doxiciclina + rifampicina + cotrimoxazol o ceftriaxona) durante meses.",
+      "resistencias": "No es un problema clínico relevante; las recaídas se deben a tratamiento insuficiente en duración o en número de fármacos, no a resistencia.",
+      "duracion": "6 semanas en la forma no focal. Espondilitis: 3 meses. Neurobrucelosis y endocarditis: 6 meses o más.",
+      "notas": "La tasa de recaída es del 5-15% y ocurre habitualmente en los primeros 6 meses; la recaída no implica resistencia y se retrata con la misma pauta."
+    },
+    "farmacos_relacionados": [
+      "INF-cotrimoxazol",
+      "INF-doxiciclina",
+      "INF-gentamicina",
+      "INF-rifampicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 33 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de brucelosis"
+  }
+]

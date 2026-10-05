@@ -1,0 +1,441 @@
+[
+  {
+    "id": "CAR-simvastatina",
+    "nombre": "Simvastatina",
+    "sinonimos": [
+      "Simvastatina/ezetimiba (combinación a dosis fija)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Estatina (inhibidor de la HMG-CoA reductasa)",
+    "subclase": "Estatina de intensidad moderada, lipófila, de vida media corta",
+    "vs_clase": [
+      "**Vida media muy corta (1-3 h): se toma por la NOCHE**, cuando es máxima la síntesis hepática de colesterol. Atorvastatina y rosuvastatina pueden tomarse a cualquier hora.",
+      "**Es la estatina más dependiente del CYP3A4**: contraindicada con claritromicina, itraconazol, ketoconazol, posaconazol, inhibidores de la proteasa, ciclosporina y gemfibrozilo.",
+      "**Techos de dosis por interacción**: máximo **20 mg** con amlodipino, amiodarona o ranolazina y **10 mg** con verapamilo o diltiazem.",
+      "**La dosis de 80 mg ya no se usa** por el exceso de miopatía (y más en portadores de la variante SLCO1B1). Por eso NO es una estatina de alta intensidad: si hace falta más, se cambia a atorvastatina o rosuvastatina.",
+      "Es un **profármaco (lactona)** que se activa en el hígado; es la más barata y la que tiene más años de evidencia (estudio 4S)."
+    ],
+    "mecanismo": "Inhibe competitivamente la HMG-CoA reductasa, la enzima limitante de la síntesis hepática de colesterol. El descenso del colesterol intracelular aumenta la expresión de receptores de LDL en el hepatocito, que retiran LDL del plasma. Comparte los efectos pleiotrópicos de la clase (estabilización de placa, efecto antiinflamatorio). **Se administra como lactona inactiva (profármaco) que se hidroliza en el hígado a su forma ácida activa.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipercolesterolemia y prevención cardiovascular de riesgo moderado",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 24 h, **por la noche**",
+        "via": "VO",
+        "nota": "Intensidad moderada: reduce el LDL un 30-40%. Insuficiente si el objetivo exige un descenso ≥50%"
+      },
+      {
+        "patologia": "Prevención secundaria cuando no se tolera una estatina de alta intensidad",
+        "dosis": "40 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Habitualmente asociada a ezetimiba 10 mg (existe en combinación fija) para acercarse al objetivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg por la noche (40 mg si se busca más descenso). Perfil lipídico, transaminasas y, si hay factores de riesgo muscular, CK basales. **Revisar SIEMPRE la medicación concomitante antes de pautarla** por su dependencia del CYP3A4.",
+      "titulacion": "Perfil lipídico a las 4-12 semanas. Si no se alcanza el objetivo, NO subir a 80 mg: cambiar a atorvastatina o rosuvastatina de alta intensidad o añadir ezetimiba.",
+      "duracion": "Indefinida en prevención cardiovascular.",
+      "fin": "No se suspende al alcanzar el objetivo. Se retira ante rabdomiólisis, hepatotoxicidad o embarazo, y **se suspende temporalmente durante un ciclo de claritromicina, eritromicina o azoles**.",
+      "via": "VO, por la noche.",
+      "monitorizacion": "Perfil lipídico a las 4-12 semanas y luego anual. CK y transaminasas solo si hay síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad <5% por primer paso hepático intenso (irrelevante: su diana es el hígado).",
+      "distribucion": "Lipófila; alta unión a proteínas (95%). Penetra en tejidos extrahepáticos, incluido el músculo.",
+      "metabolismo": "**CYP3A4 de forma casi exclusiva**: es la estatina más vulnerable a los inhibidores de esta enzima. Transportador hepático OATP1B1 (gen SLCO1B1): sus variantes elevan la concentración y el riesgo de miopatía.",
+      "eliminacion": "Biliar (60%) y renal en pequeña parte (13%).",
+      "vida_media": "**1-3 h**: obliga a la toma nocturna.",
+      "ajuste_renal": "No precisa en insuficiencia leve-moderada. Con FG <30 mL/min empezar con 5-10 mg y vigilar.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía activa o elevación persistente e inexplicada de transaminasas.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4: claritromicina, eritromicina, itraconazol, ketoconazol, posaconazol, inhibidores de la proteasa del VIH, cobicistat, nefazodona",
+          "efecto": "Elevación de 10-20 veces de su concentración: miopatía y rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "**CONTRAINDICADA la combinación.** Suspender la simvastatina durante el ciclo antibiótico o usar pravastatina/rosuvastatina"
+        },
+        {
+          "con": "Gemfibrozilo, ciclosporina, danazol",
+          "efecto": "Riesgo muy alto de rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Contraindicada. Si se necesita un fibrato, usar fenofibrato"
+        },
+        {
+          "con": "Amlodipino, amiodarona, ranolazina",
+          "efecto": "Aumento moderado de su exposición",
+          "gravedad": "alta",
+          "manejo": "**No superar 20 mg/día** de simvastatina"
+        },
+        {
+          "con": "Verapamilo, diltiazem, dronedarona",
+          "efecto": "Inhibición moderada del CYP3A4",
+          "gravedad": "alta",
+          "manejo": "**No superar 10 mg/día**; mejor cambiar de estatina"
+        },
+        {
+          "con": "Zumo de pomelo (más de 1 L/día)",
+          "efecto": "Inhibición intestinal del CYP3A4",
+          "gravedad": "media",
+          "manejo": "Evitar grandes cantidades"
+        },
+        {
+          "con": "Antagonistas de la vitamina K",
+          "efecto": "Aumento discreto del INR",
+          "gravedad": "media",
+          "manejo": "Controlar el INR al iniciar o cambiar la dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mialgias sin elevación de CK",
+        "Elevación leve y asintomática de transaminasas",
+        "Molestias digestivas y cefalea"
+      ],
+      "graves": [
+        "Miopatía y RABDOMIÓLISIS, **dosis-dependiente y máxima con 80 mg o con inhibidores del CYP3A4**",
+        "Miopatía necrotizante autoinmune anti-HMGCR (rara)",
+        "Hepatotoxicidad significativa (excepcional)",
+        "Ligero aumento del riesgo de diabetes de nueva aparición"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Hepatopatía activa",
+      "**Uso concomitante con inhibidores potentes del CYP3A4, gemfibrozilo, ciclosporina o danazol**",
+      "Miopatía activa"
+    ],
+    "perlas": [
+      "**Simvastatina + claritromicina es la interacción de estatinas que más rabdomiólisis produce en la práctica.** Ante un ciclo de macrólido: azitromicina, o suspender la simvastatina 7 días.",
+      "**El paciente con amlodipino (muy frecuente) no debe tomar más de 20 mg.** Es un límite que se olvida al subir la dosis.",
+      "Si el paciente toma simvastatina por la mañana, gran parte del efecto se pierde: comprobar la hora de la toma antes de considerarla «ineficaz».",
+      "40 mg de simvastatina equivalen aproximadamente a 10 mg de atorvastatina o a 5 mg de rosuvastatina."
+    ],
+    "embarazo_lactancia": "Contraindicada en embarazo y lactancia, como toda la clase. Suspender al planificar la gestación.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas"
+  },
+  {
+    "id": "CAR-rosuvastatina",
+    "nombre": "Rosuvastatina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Estatina (inhibidor de la HMG-CoA reductasa)",
+    "subclase": "Estatina de alta intensidad, hidrófila",
+    "vs_clase": [
+      "**La estatina más potente por miligramo**: 20-40 mg reducen el LDL un 50-63%; con 5-10 mg ya es de intensidad moderada.",
+      "**Hidrófila y apenas metabolizada por el CYP450** (solo un 10% por CYP2C9): muchas menos interacciones por CYP3A4 que simvastatina o atorvastatina.",
+      "**A diferencia de la atorvastatina, SÍ depende de la función renal**: con FG 30-60 mL/min se empieza con 5 mg y **no se usa la dosis de 40 mg**; con FG <30 mL/min está **contraindicada** según la ficha técnica europea.",
+      "**En población asiática la exposición se duplica**: empezar con 5 mg y no usar 40 mg.",
+      "**Proteinuria tubular transitoria** con dosis altas (40 mg), propia de esta estatina.",
+      "**Contraindicada con ciclosporina** (multiplica por 7 su concentración por inhibición del OATP1B1, no del CYP)."
+    ],
+    "mecanismo": "Inhibidor competitivo de la HMG-CoA reductasa con la mayor afinidad de la clase. **Es hidrófila: penetra en el hepatocito de forma selectiva a través del transportador OATP1B1**, con menor paso a tejidos periféricos. Induce receptores hepáticos de LDL y comparte los efectos pleiotrópicos de la clase; **en el ensayo JUPITER redujo eventos en prevención primaria con PCR ultrasensible elevada**.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención secundaria (cardiopatía isquémica, ictus aterotrombótico, arteriopatía periférica)",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 24 h, a cualquier hora",
+        "via": "VO",
+        "nota": "Alta intensidad. Objetivo LDL <55 mg/dL y descenso ≥50%"
+      },
+      {
+        "patologia": "Prevención primaria y dislipemia de riesgo moderado-alto",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Intensidad moderada"
+      },
+      {
+        "patologia": "Hipercolesterolemia familiar",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Casi siempre con ezetimiba y, si no basta, con un inhibidor de PCSK9"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg (5 mg en asiáticos, FG 30-60 mL/min o >70 años con factores de riesgo de miopatía); 20 mg si se busca alta intensidad desde el inicio. Analítica basal con perfil lipídico, función renal y transaminasas.",
+      "titulacion": "Perfil lipídico a las 4-12 semanas. Subir a 20 y después a 40 mg si es necesario (**40 mg solo con FG ≥60 y fuera de población asiática**); si no basta, añadir ezetimiba.",
+      "duracion": "Indefinida.",
+      "fin": "No se suspende por alcanzar el objetivo. Retirar ante rabdomiólisis, hepatotoxicidad, embarazo o proteinuria persistente sin otra causa.",
+      "via": "VO, a cualquier hora del día (vida media larga).",
+      "monitorizacion": "Perfil lipídico a las 4-12 semanas y luego anual. **Función renal y, con 40 mg, tira de orina para proteinuria.** CK solo si hay síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 20%. **Los antiácidos de aluminio y magnesio reducen su absorción** (separar 2 h).",
+      "distribucion": "Hidrófila; unión a proteínas del 90%. Captación hepática selectiva por OATP1B1.",
+      "metabolismo": "**Mínimo (10%) y por CYP2C9, no por CYP3A4.** Se excreta mayoritariamente inalterada.",
+      "eliminacion": "Fecal (90%) y renal (10%); aun así **la exposición aumenta 3 veces con FG <30 mL/min**.",
+      "vida_media": "19 h: permite tomarla a cualquier hora.",
+      "ajuste_renal": "**FG 30-60: iniciar con 5 mg y no usar 40 mg. FG <30: contraindicada** (ficha técnica europea; la estadounidense permite 5-10 mg). No dializable.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía activa. Precaución en Child-Pugh B.",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumento de 7 veces de su exposición por inhibición del OATP1B1",
+          "gravedad": "alta",
+          "manejo": "**Contraindicada la combinación**; en el trasplantado usar pravastatina o fluvastatina"
+        },
+        {
+          "con": "Gemfibrozilo",
+          "efecto": "Duplica su concentración: riesgo de miopatía",
+          "gravedad": "alta",
+          "manejo": "Evitar; si hace falta un fibrato, fenofibrato y rosuvastatina ≤10 mg"
+        },
+        {
+          "con": "Inhibidores de la proteasa potenciados (atazanavir, lopinavir con ritonavir)",
+          "efecto": "Aumento de su exposición por inhibición de transportadores",
+          "gravedad": "alta",
+          "manejo": "No superar 10 mg/día"
+        },
+        {
+          "con": "Antagonistas de la vitamina K",
+          "efecto": "Aumento del INR, más marcado que con otras estatinas",
+          "gravedad": "media",
+          "manejo": "Control del INR al iniciar y al modificar la dosis"
+        },
+        {
+          "con": "Antiácidos de aluminio o magnesio",
+          "efecto": "Reducen su absorción un 50%",
+          "gravedad": "baja",
+          "manejo": "Tomar el antiácido al menos 2 h después"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mialgias sin elevación de CK",
+        "Cefalea, mareo, molestias digestivas",
+        "**Proteinuria leve transitoria con dosis altas**"
+      ],
+      "graves": [
+        "Miopatía y rabdomiólisis (riesgo mayor con 40 mg, asiáticos, insuficiencia renal o ciclosporina)",
+        "Miopatía necrotizante autoinmune anti-HMGCR",
+        "Hepatotoxicidad (rara)",
+        "Ligero aumento del riesgo de diabetes de nueva aparición"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Hepatopatía activa",
+      "**Tratamiento con ciclosporina**",
+      "**FG <30 mL/min (ficha europea) y FG <60 mL/min para la dosis de 40 mg**",
+      "Miopatía activa"
+    ],
+    "perlas": [
+      "**En el nefrópata la estatina de elección es la atorvastatina, no la rosuvastatina**: la rosuvastatina necesita reducción de dosis y su dosis máxima está vetada con FG <60.",
+      "**Es la mejor opción en el paciente polimedicado con inhibidores del CYP3A4** (por ejemplo, con amiodarona, diltiazem o antifúngicos azólicos), salvo que tome ciclosporina.",
+      "Con 5-10 mg logra el descenso que la simvastatina consigue con 40 mg: útil en el paciente que tolera mal dosis altas.",
+      "Al añadirla a un paciente anticoagulado con acenocumarol, pedir un INR a la semana."
+    ],
+    "embarazo_lactancia": "Contraindicada en embarazo y lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas"
+  },
+  {
+    "id": "CAR-pravastatina",
+    "nombre": "Pravastatina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Estatina (inhibidor de la HMG-CoA reductasa)",
+    "subclase": "Estatina de intensidad baja-moderada, hidrófila, sin metabolismo por CYP450",
+    "vs_clase": [
+      "**NO se metaboliza por el citocromo P450** (se sulfata en el citosol): es la estatina con **menos interacciones**, de elección en trasplantados con ciclosporina, pacientes con antirretrovirales potenciados y polimedicados complejos.",
+      "**Potencia baja-moderada**: 40 mg reducen el LDL solo un 30-35%. No sirve cuando se necesita un descenso ≥50%.",
+      "**Hidrófila: menos miopatía** que las lipófilas; es la alternativa clásica en el paciente con mialgias por otras estatinas.",
+      "**Vida media corta: toma nocturna**, igual que la simvastatina.",
+      "**Única estatina con indicación pediátrica desde los 8 años** en la hipercolesterolemia familiar heterocigota (junto a otras más recientes)."
+    ],
+    "mecanismo": "Inhibidor competitivo de la HMG-CoA reductasa. **Es hidrófila y se capta en el hígado por transporte activo (OATP1B1), con escasa penetración en el músculo**, lo que explica su menor miotoxicidad. Comparte el aumento de receptores de LDL y los efectos pleiotrópicos de la clase.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipercolesterolemia en paciente polimedicado o con interacciones por CYP3A4",
+        "dosis": "20-40 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Reduce el LDL un 25-35%; suele requerir ezetimiba para alcanzar objetivos exigentes"
+      },
+      {
+        "patologia": "Dislipemia tras trasplante de órgano sólido en tratamiento con ciclosporina o tacrolimús",
+        "dosis": "20 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Con ciclosporina no superar 20 mg"
+      },
+      {
+        "patologia": "Hipercolesterolemia familiar heterocigota en niños de 8 años o más",
+        "dosis": "10-20 mg (8-13 años) y 10-40 mg (14-18 años)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Indicación pediátrica autorizada"
+      }
+    ],
+    "esquema": {
+      "inicio": "20-40 mg por la noche (10 mg en insuficiencia renal o hepática significativa, ancianos frágiles y trasplantados). Analítica basal habitual.",
+      "titulacion": "Perfil lipídico a las 4-12 semanas. Dosis máxima 40 mg (80 mg en algunos países). Si no se alcanza el objetivo, añadir ezetimiba o cambiar a una estatina más potente si las interacciones lo permiten.",
+      "duracion": "Indefinida.",
+      "fin": "No se suspende por alcanzar el objetivo. Retirar ante miopatía, hepatotoxicidad o embarazo.",
+      "via": "VO, por la noche.",
+      "monitorizacion": "Perfil lipídico a las 4-12 semanas y luego anual. CK y transaminasas solo si hay síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 17%; la comida la reduce algo, sin relevancia clínica.",
+      "distribucion": "Hidrófila; **unión a proteínas baja (50%)**, a diferencia del resto de la clase (>90%).",
+      "metabolismo": "**Sulfatación citosólica e isomerización en el medio ácido gástrico; NO por CYP450.**",
+      "eliminacion": "Mixta: biliar (70%) y renal (20%).",
+      "vida_media": "1,5-2 h: toma nocturna.",
+      "ajuste_renal": "Insuficiencia renal moderada-grave: iniciar con 10 mg.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía activa; 10 mg de inicio en hepatopatía crónica estable.",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumenta su exposición (por OATP1B1), mucho menos que con otras estatinas",
+          "gravedad": "media",
+          "manejo": "Empezar con 10 mg y no superar 20 mg"
+        },
+        {
+          "con": "Gemfibrozilo",
+          "efecto": "Aumenta el riesgo de miopatía",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar fenofibrato si se necesita un fibrato"
+        },
+        {
+          "con": "Resinas de intercambio (colestiramina, colestipol)",
+          "efecto": "Reducen su absorción",
+          "gravedad": "baja",
+          "manejo": "Tomar la pravastatina 1 h antes o 4 h después de la resina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mialgias (menos frecuentes que con estatinas lipófilas)",
+        "Molestias digestivas",
+        "Cefalea"
+      ],
+      "graves": [
+        "Miopatía y rabdomiólisis (muy raras)",
+        "Hepatotoxicidad (excepcional)",
+        "Miopatía necrotizante autoinmune (excepcional)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Hepatopatía activa o elevación persistente de transaminasas",
+      "Miopatía activa"
+    ],
+    "perlas": [
+      "**Es la estatina de elección cuando las interacciones mandan**: trasplante con ciclosporina, VIH con inhibidores de proteasa potenciados, o paciente con varios inhibidores del CYP3A4.",
+      "**Primera opción para reintroducir una estatina tras mialgias** con otra, por su hidrofilia y su baja miotoxicidad.",
+      "Su potencia limitada obliga casi siempre a asociar ezetimiba en prevención secundaria."
+    ],
+    "embarazo_lactancia": "Contraindicada en embarazo y lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas"
+  },
+  {
+    "id": "CAR-ezetimiba",
+    "nombre": "Ezetimiba",
+    "sinonimos": [
+      "Ezetimiba/simvastatina, ezetimiba/atorvastatina, ezetimiba/rosuvastatina (combinaciones fijas)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Inhibidor de la absorción intestinal de colesterol",
+    "subclase": "Inhibidor del transportador NPC1L1 del enterocito",
+    "mecanismo": "Inhibe la proteína NPC1L1 del borde en cepillo del enterocito, que capta el colesterol de la dieta y el biliar. Al llegar menos colesterol al hígado, este aumenta la expresión de receptores de LDL y el LDL plasmático baja un 15-20%. **Es complementaria de la estatina**: la estatina aumenta de forma compensadora la absorción intestinal de colesterol, y la ezetimiba bloquea precisamente esa vía.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipercolesterolemia que no alcanza el objetivo con estatina a dosis máxima tolerada",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h, a cualquier hora",
+        "via": "VO",
+        "nota": "Reduce un 20-25% adicional el LDL. Beneficio en eventos demostrado en el ensayo IMPROVE-IT tras síndrome coronario agudo"
+      },
+      {
+        "patologia": "Intolerancia a estatinas",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "En monoterapia o con estatina a dosis baja o en días alternos"
+      },
+      {
+        "patologia": "Sitosterolemia homocigota",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reduce la absorción de esteroles vegetales"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día, dosis única (no se titula). Habitualmente asociada a una estatina, idealmente en comprimido combinado.",
+      "titulacion": "No hay escalada de dosis. Si con estatina + ezetimiba no se alcanza el objetivo, el siguiente paso es un inhibidor de PCSK9 o ácido bempedoico.",
+      "duracion": "Indefinida, como la estatina.",
+      "fin": "Suspensión directa, sin retirada gradual.",
+      "via": "VO, con o sin alimentos.",
+      "monitorizacion": "Perfil lipídico a las 4-12 semanas. Transaminasas si se asocia a estatina y hay síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; se glucuroniza en el intestino a un metabolito activo.",
+      "distribucion": "Unión a proteínas >90%. **Circulación enterohepática** que la devuelve una y otra vez a su lugar de acción.",
+      "metabolismo": "Glucuronidación intestinal y hepática; no por CYP450.",
+      "eliminacion": "Fecal (78%) y renal (11%).",
+      "vida_media": "22 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No recomendada en insuficiencia hepática moderada-grave (Child-Pugh B-C).",
+      "interacciones": [
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumentan mutuamente sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles de ciclosporina al iniciar"
+        },
+        {
+          "con": "Resinas (colestiramina)",
+          "efecto": "Reducen su absorción un 55%",
+          "gravedad": "media",
+          "manejo": "Ezetimiba 2 h antes o 4 h después de la resina"
+        },
+        {
+          "con": "Fibratos",
+          "efecto": "Posible aumento de la litiasis biliar",
+          "gravedad": "baja",
+          "manejo": "Vigilar síntomas biliares"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea y dolor abdominal leve",
+        "Cefalea, cansancio",
+        "Elevación de transaminasas cuando se asocia a estatina"
+      ],
+      "graves": [
+        "Hepatotoxicidad (muy rara)",
+        "Rabdomiólisis (excepcional, casi siempre en asociación con estatina)",
+        "Reacciones de hipersensibilidad con angioedema"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Cuando se asocia a estatina: hepatopatía activa, embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Añadir ezetimiba rinde más que duplicar la estatina**: un 20-25% de descenso adicional frente al 6% de doblar la dosis.",
+      "Es de las pocas opciones en el paciente que no tolera ninguna estatina, y su tolerancia es prácticamente la del placebo.",
+      "La combinación fija en un solo comprimido mejora mucho la adherencia: es la forma preferente de prescribirla."
+    ],
+    "embarazo_lactancia": "Sin datos suficientes en monoterapia; contraindicada cuando va asociada a estatina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 35; Harrison 20.ª ed., cap. de trastornos del metabolismo de las lipoproteínas"
+  }
+]

@@ -1,0 +1,600 @@
+[
+  {
+    "id": "END-metformina",
+    "nombre": "Metformina",
+    "sinonimos": [
+      "Dimetilbiguanida"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Antidiabético oral: biguanida",
+    "subclase": "Sensibilizador de la acción de la insulina",
+    "mecanismo": "Activa la AMPK hepática e inhibe el complejo I mitocondrial, con dos consecuencias: reduce la NEOGLUCOGÉNESIS HEPÁTICA (su efecto principal, responsable del descenso de la glucemia basal) y mejora la captación periférica de glucosa en el músculo. NO estimula la secreción de insulina, y esa es la clave de todo su perfil: por sí sola NO produce hipoglucemia ni aumento de peso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2",
+        "dosis": "Inicio 425-850 mg/24 h; mantenimiento 850-1000 mg/12 h (máximo 2550 mg/día)",
+        "posologia": "Con las comidas, 1-2 veces al día",
+        "via": "VO",
+        "nota": "Fármaco de PRIMERA LÍNEA en toda diabetes tipo 2 desde el diagnóstico, junto con las medidas de estilo de vida"
+      },
+      {
+        "patologia": "Prediabetes con alto riesgo de progresión",
+        "dosis": "850 mg/12 h",
+        "posologia": "Cada 12 h con las comidas",
+        "via": "VO",
+        "nota": "Indicada sobre todo en menores de 60 años con obesidad, IMC alto o antecedente de diabetes gestacional, cuando el estilo de vida no basta"
+      },
+      {
+        "patologia": "Síndrome de ovario poliquístico con resistencia a la insulina",
+        "dosis": "850-1000 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Mejora la resistencia a la insulina y puede restaurar la ovulación; no es el tratamiento de primera línea del hirsutismo"
+      },
+      {
+        "patologia": "Prevención del aumento de peso asociado a antipsicóticos",
+        "dosis": "500-1000 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Uso creciente en pacientes con olanzapina o clozapina y ganancia ponderal significativa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar BAJO y SUBIR DESPACIO: 425-850 mg con la cena durante 1-2 semanas. Ese escalado lento es lo que evita el abandono por intolerancia digestiva, que es la principal causa de fracaso del tratamiento.",
+      "titulacion": "Incrementos de 425-850 mg cada 1-2 semanas según tolerancia hasta 850-1000 mg/12 h. La formulación de liberación prolongada en toma única nocturna es la alternativa cuando la digestiva es el problema.",
+      "duracion": "Indefinida mientras persista la indicación y la función renal lo permita. Es el fármaco que se mantiene al añadir otros.",
+      "fin": "Se suspende de forma TEMPORAL ante contraste yodado, cirugía mayor, sepsis, deshidratación, vómitos o diarrea intensos (las llamadas reglas de días de enfermedad), y de forma definitiva si el filtrado glomerular baja de 30.",
+      "via": "VO, siempre CON las comidas para minimizar la intolerancia digestiva.",
+      "monitorizacion": "HbA1c cada 3-6 meses; filtrado glomerular al menos anual (semestral si está entre 30 y 60); VITAMINA B12 cada 1-2 años en el tratamiento prolongado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 50-60%, en el intestino delgado; el alimento la retrasa ligeramente pero mejora mucho la tolerancia.",
+      "distribucion": "NO se une a proteínas plasmáticas; se acumula en la pared intestinal y en el eritrocito.",
+      "metabolismo": "NINGUNO: no se metaboliza en absoluto. Esa ausencia de metabolismo hepático explica que carezca prácticamente de interacciones por citocromo P450.",
+      "eliminacion": "RENAL, íntegramente inalterada, por filtración y SECRECIÓN TUBULAR activa mediante los transportadores OCT2 y MATE. De ahí que la insuficiencia renal sea su contraindicación central y que los inhibidores de OCT2 eleven sus concentraciones.",
+      "vida_media": "4-9 h (más prolongada en la insuficiencia renal).",
+      "ajuste_renal": "FG por encima de 60: dosis plena. FG 45-59: mantener con vigilancia. FG 30-44: reducir a la mitad (máximo 1000 mg/día) y no iniciar de novo. FG por debajo de 30: CONTRAINDICADA.",
+      "ajuste_hepatico": "Contraindicada en la insuficiencia hepática grave y en el alcoholismo activo por el riesgo de acidosis láctica (el hígado es el órgano que aclara el lactato).",
+      "interacciones": [
+        {
+          "con": "CONTRASTES YODADOS intravenosos",
+          "efecto": "Nefropatía por contraste que puede desencadenar acumulación del fármaco y ACIDOSIS LÁCTICA",
+          "gravedad": "alta",
+          "manejo": "Suspender el día de la prueba y reanudar a las 48 h tras comprobar que la función renal se mantiene"
+        },
+        {
+          "con": "Alcohol en consumo agudo intenso o crónico",
+          "efecto": "Inhibe la gluconeogénesis y el aclaramiento hepático de lactato, aumentando el riesgo de acidosis láctica",
+          "gravedad": "alta",
+          "manejo": "Contraindicada en el alcoholismo activo; advertir del riesgo de las ingestas intensas"
+        },
+        {
+          "con": "Diuréticos, IECA, ARA-II y AINE en situación de deshidratación",
+          "efecto": "Deterioro agudo de la función renal con acumulación de metformina",
+          "gravedad": "alta",
+          "manejo": "Regla de los días de enfermedad: suspender todos ellos ante vómitos, diarrea o fiebre con mala ingesta"
+        },
+        {
+          "con": "Cimetidina, dolutegravir, bictegravir, ranolazina, vandetanib (inhibidores de OCT2 y MATE)",
+          "efecto": "Reducen su secreción tubular y elevan sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de metformina (con dolutegravir, limitar a 1 g/día)"
+        },
+        {
+          "con": "Glucocorticoides, tiazidas, antipsicóticos atípicos",
+          "efecto": "Efecto hiperglucemiante que puede descompensar el control",
+          "gravedad": "baja",
+          "manejo": "Reforzar la monitorización de la glucemia al iniciarlos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "INTOLERANCIA DIGESTIVA: diarrea, náuseas, dolor abdominal, sabor metálico (hasta el 25%, dosis-dependiente y habitualmente transitoria)",
+        "Anorexia y pérdida discreta de peso",
+        "Malabsorción de VITAMINA B12 (hasta el 10-30% en tratamientos prolongados)"
+      ],
+      "graves": [
+        "ACIDOSIS LÁCTICA: rara (menos de 10 casos por 100 000 pacientes-año) pero con mortalidad elevada; prácticamente siempre en presencia de un factor precipitante como insuficiencia renal aguda, sepsis, hipoxia o alcoholismo",
+        "Déficit sintomático de vitamina B12 con anemia megaloblástica y neuropatía periférica"
+      ]
+    },
+    "contraindicaciones": [
+      "Filtrado glomerular por debajo de 30 mL/min/1,73 m²",
+      "Insuficiencia hepática grave y alcoholismo activo",
+      "Situaciones de hipoxia tisular: insuficiencia cardiaca descompensada, insuficiencia respiratoria, shock, infarto agudo",
+      "Cetoacidosis diabética o estado hiperosmolar",
+      "Deshidratación, sepsis o cualquier cuadro agudo con riesgo de fracaso renal"
+    ],
+    "perlas": [
+      "Es el único antidiabético oral que NO produce hipoglucemia en monoterapia ni aumento de peso, y por eso sigue siendo el fármaco de primera línea a pesar de tener décadas de antigüedad. Si el paciente con metformina tiene hipoglucemias, la causa es otro fármaco de su lista, no la metformina.",
+      "La intolerancia digestiva es la principal causa de abandono y es en gran medida un problema de PRESCRIPCIÓN, no del fármaco: empezar con dosis alta o sin comida garantiza el fracaso. Empezar con media dosis en la cena y subir cada 1-2 semanas resuelve la mayoría de los casos, y la formulación de liberación prolongada rescata al resto.",
+      "La NEUROPATÍA por déficit de B12 en un diabético se confunde con la polineuropatía diabética y se atribuye erróneamente al mal control glucémico. Ante un diabético con metformina de años y parestesias, hay que medir la vitamina B12 antes de intensificar el tratamiento.",
+      "La ACIDOSIS LÁCTICA casi nunca es un accidente imprevisible: aparece cuando se mantiene el fármaco en una situación en la que debía haberse suspendido. Enseñar al paciente las REGLAS DE DÍAS DE ENFERMEDAD (suspender si hay vómitos, diarrea o fiebre con mala ingesta) es más eficaz que cualquier control analítico.",
+      "El límite renal actual es 30, no 60: durante años se retiró innecesariamente a pacientes que podían seguir beneficiándose. Entre 30 y 45 se mantiene a dosis reducida sin iniciarla de nuevo.",
+      "Ante una prueba con contraste yodado, se suspende el mismo día y se reanuda a las 48 h COMPROBANDO la creatinina: reanudarla sin comprobar es donde se producen los accidentes.",
+      "No hay que retirarla al añadir insulina o cualquier otro antidiabético: se mantiene porque reduce las necesidades de insulina y limita el aumento de peso."
+    ],
+    "embarazo_lactancia": "Puede utilizarse en el embarazo (diabetes gestacional y ovario poliquístico) con seguridad razonable, aunque la insulina sigue siendo el tratamiento de referencia. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus: tratamiento"
+  },
+  {
+    "id": "END-empagliflozina",
+    "nombre": "Empagliflozina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "iSGLT2 (inhibidor del cotransportador sodio-glucosa tipo 2)",
+    "subclase": "Fármaco cardio y nefroprotector con efecto glucosúrico",
+    "vs_clase": [
+      "**Primer fármaco hipoglucemiante que redujo la MORTALIDAD cardiovascular** (EMPA-REG OUTCOME).",
+      "**Evidencia en insuficiencia cardiaca con FEVI reducida y preservada** (EMPEROR-Reduced y EMPEROR-Preserved) y en **ERC** (EMPA-KIDNEY, hasta FG 20).",
+      "Dosis de 10 mg para la indicación cardiorrenal; 25 mg solo si se busca más efecto glucémico."
+    ],
+    "mecanismo": "Inhibe el SGLT2 del túbulo contorneado proximal, responsable de reabsorber el 90% de la glucosa filtrada: se produce GLUCOSURIA de 60-100 g al día, con descenso de la glucemia INDEPENDIENTE DE LA INSULINA (por eso no causa hipoglucemia por sí solo). Además restaura el FEEDBACK TUBULOGLOMERULAR al aumentar el sodio que llega a la mácula densa, lo que contrae la arteriola aferente y reduce la hiperfiltración glomerular: ese es el mecanismo de su nefroprotección. La natriuresis, la reducción de precarga y postcarga y el cambio a un metabolismo miocárdico más eficiente explican su beneficio en insuficiencia cardiaca.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2 con enfermedad cardiovascular establecida o alto riesgo",
+        "dosis": "10 mg/24 h, aumentable a 25 mg/24 h",
+        "posologia": "Una vez al día, por la mañana",
+        "via": "VO",
+        "nota": "Se añade a la metformina o se usa desde el inicio; reduce mortalidad cardiovascular y hospitalización por insuficiencia cardiaca"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca (con fracción de eyección reducida o preservada), CON O SIN diabetes",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es uno de los cuatro pilares del tratamiento de la insuficiencia cardiaca con fracción de eyección reducida, junto a IECA/ARNI, betabloqueante y antialdosterónico"
+      },
+      {
+        "patologia": "Enfermedad renal crónica con albuminuria, con o sin diabetes",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Enlentece la progresión de la enfermedad renal y reduce la albuminuria; puede iniciarse con filtrado glomerular hasta 20"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/24 h por la mañana. Antes de iniciar: revisar el riesgo de depleción de volumen y ajustar a la baja diuréticos si el paciente está euvolémico o seco. Advertir sobre higiene genital y sobre las normas de días de enfermedad.",
+      "titulacion": "En la diabetes puede subirse a 25 mg. En la indicación cardiaca y renal NO se titula: la dosis eficaz es 10 mg.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender TEMPORALMENTE ante ayuno prolongado, cirugía (3 días antes), enfermedad aguda intercurrente, deshidratación o sospecha de cetoacidosis. No hay efecto rebote.",
+      "via": "VO.",
+      "monitorizacion": "Función renal a las 2-4 semanas (es normal un DESCENSO INICIAL del filtrado que después se estabiliza y es marcador de buen efecto), volemia y tensión arterial, HbA1c. Vigilar síntomas genitourinarios."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida, con o sin alimento.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Glucuronidación por UGT; no depende de forma significativa del citocromo P450, lo que le da un perfil de interacciones muy limpio.",
+      "eliminacion": "Mitad renal, mitad fecal.",
+      "vida_media": "12 h aproximadamente, suficiente para la dosis única diaria.",
+      "ajuste_renal": "Su efecto GLUCOSÚRICO disminuye al bajar el filtrado, pero el beneficio cardiorrenal se mantiene: puede iniciarse hasta un FG de 20 y continuarse por debajo. Con FG bajo ya no sirve para controlar la glucemia, pero sigue protegiendo el corazón y el riñón.",
+      "ajuste_hepatico": "No precisa ajuste en la insuficiencia leve-moderada; no recomendada en la grave.",
+      "interacciones": [
+        {
+          "con": "Diuréticos de asa y tiazidas",
+          "efecto": "Suma de efecto natriurético con hipovolemia, hipotensión y deterioro renal prerrenal",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis del diurético al iniciar, especialmente en el anciano y en el paciente euvolémico"
+        },
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Aumento del riesgo de HIPOGLUCEMIA (que el iSGLT2 no produce por sí mismo)",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de insulina o de sulfonilurea al añadirlo, pero NO retirar bruscamente la insulina en el tipo 2 insulinizado: precipita cetoacidosis"
+        },
+        {
+          "con": "IECA, ARA-II y AINE en situación de deshidratación",
+          "efecto": "Fracaso renal agudo prerrenal",
+          "gravedad": "media",
+          "manejo": "Suspender todos ellos durante los días de enfermedad"
+        },
+        {
+          "con": "Litio",
+          "efecto": "La natriuresis puede reducir sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Vigilar la litemia tras iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "INFECCIONES GENITALES MICÓTICAS: candidiasis vulvovaginal y balanitis (el efecto adverso más frecuente, consecuencia directa de la glucosuria)",
+        "Poliuria y aumento de la frecuencia miccional",
+        "Depleción de volumen, hipotensión y mareo, sobre todo en el anciano",
+        "Descenso inicial reversible del filtrado glomerular"
+      ],
+      "graves": [
+        "CETOACIDOSIS DIABÉTICA EUGLUCÉMICA: con glucemia normal o solo levemente elevada, lo que retrasa el diagnóstico",
+        "Gangrena de Fournier (fascitis necrosante del periné): muy rara pero potencialmente mortal",
+        "Infecciones urinarias complicadas y pielonefritis",
+        "Fracaso renal agudo en situación de depleción de volumen",
+        "Amputaciones de extremidad inferior (señal descrita sobre todo con canagliflozina)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fármaco",
+      "Diabetes tipo 1 (fuera de indicación y con alto riesgo de cetoacidosis; solo en casos muy seleccionados y por especialista)",
+      "Cetoacidosis diabética",
+      "Depleción de volumen no corregida"
+    ],
+    "perlas": [
+      "Nació como antidiabético y hoy su indicación principal ya no es la diabetes: se prescribe en insuficiencia cardiaca y en enfermedad renal crónica A PACIENTES SIN DIABETES. Es un caso poco habitual de fármaco cuyo beneficio real resultó ser distinto del que motivó su desarrollo.",
+      "La CETOACIDOSIS EUGLUCÉMICA es su trampa diagnóstica más peligrosa: el paciente llega con náuseas, vómitos, dolor abdominal y taquipnea, pero con la glucemia en 180 mg/dL, y se descarta la cetoacidosis por la cifra. Ante un paciente con iSGLT2 y ese cuadro hay que medir CETONAS y gasometría aunque la glucemia sea normal.",
+      "El DESCENSO INICIAL del filtrado glomerular en las primeras semanas no es toxicidad: es el efecto hemodinámico que reduce la hiperfiltración y precisamente el mecanismo de la nefroprotección. Suspender el fármaco por ese descenso es un error frecuente que priva al paciente del beneficio a largo plazo.",
+      "La candidiasis genital es tan previsible que conviene advertirla y explicar la higiene desde la primera receta: anticiparla reduce mucho el abandono del tratamiento.",
+      "Hay que suspenderlo 3 DÍAS ANTES de una cirugía programada y durante cualquier enfermedad aguda con ayuno: el ayuno más el fármaco es la combinación que precipita la cetoacidosis euglucémica.",
+      "En el diabético tipo 2 insulinizado, al añadirlo se reduce la insulina, pero NUNCA se retira del todo: la supresión brusca de insulina con un iSGLT2 a bordo es otra vía directa a la cetoacidosis.",
+      "Su beneficio en insuficiencia cardiaca es independiente de la fracción de eyección y aparece en semanas, mucho antes de lo que podría explicar cualquier efecto sobre la glucemia."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo (toxicidad renal fetal en estudios animales) y durante la lactancia. Suspender al planificar la gestación y sustituir por insulina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus e insuficiencia cardiaca"
+  },
+  {
+    "id": "END-semaglutida",
+    "nombre": "Semaglutida",
+    "sinonimos": [
+      "arGLP1"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Agonista del receptor de GLP-1 (incretinmimético)",
+    "subclase": "Incretinmimético de acción prolongada (semanal u oral diario)",
+    "vs_clase": [
+      "**El GLP-1 con MAYOR descenso de HbA1c y de peso** (solo superado por tirzepatida, que es dual).",
+      "**Única forma ORAL** de la clase (comprimido diario en ayunas, 30 min antes de comer con poca agua) además de la SC semanal.",
+      "**Indicada en la OBESIDAD a 2,4 mg/semana** y con beneficio cardiovascular demostrado incluso sin diabetes (SELECT).",
+      "**Empeoramiento inicial de la retinopatía diabética** si baja la HbA1c muy rápido (SUSTAIN-6): fondo de ojo en retinopatía previa."
+    ],
+    "mecanismo": "Agonista del receptor del péptido similar al glucagón tipo 1. Produce cuatro efectos: estimula la secreción de insulina de forma DEPENDIENTE DE LA GLUCEMIA (solo cuando la glucosa está elevada, por eso no causa hipoglucemia en monoterapia), suprime la secreción de glucagón, ENLENTECE EL VACIAMIENTO GÁSTRICO y actúa sobre los centros hipotalámicos de la saciedad. Los dos últimos explican la pérdida de peso y también las náuseas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2, especialmente con obesidad o enfermedad cardiovascular",
+        "dosis": "Subcutánea: 0,25 mg/semana 4 semanas, luego 0,5 mg/semana, hasta 1-2 mg/semana. Oral: 3 mg/24 h 30 días, luego 7-14 mg/24 h",
+        "posologia": "Semanal (subcutánea) o diaria (oral)",
+        "via": "SC o VO",
+        "nota": "Reduce eventos cardiovasculares mayores; combinación especialmente útil con metformina"
+      },
+      {
+        "patologia": "Obesidad o sobrepeso con comorbilidad, con o sin diabetes",
+        "dosis": "Escalado hasta 2,4 mg/semana",
+        "posologia": "Una vez por semana",
+        "via": "SC",
+        "nota": "Pérdida de peso media del 15%; debe acompañarse de dieta, ejercicio y refuerzo de masa muscular"
+      },
+      {
+        "patologia": "Prevención cardiovascular secundaria en el diabético tipo 2",
+        "dosis": "1 mg/semana",
+        "posologia": "Una vez por semana",
+        "via": "SC",
+        "nota": "Beneficio demostrado sobre todo en la reducción de ictus y de eventos ateroscleróticos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja obligatoria (0,25 mg/semana) durante 4 semanas: no es una dosis terapéutica, es una dosis de TOLERANCIA destinada a que el paciente se adapte a la lentificación del vaciamiento gástrico.",
+      "titulacion": "Duplicar cada 4 semanas según tolerancia y objetivo. Si aparecen náuseas intensas, mantener la dosis actual más tiempo en lugar de suspender.",
+      "duracion": "Indefinida. En la obesidad, la retirada se sigue de REGANANCIA de peso en la mayoría de los pacientes: es un tratamiento crónico, no un ciclo.",
+      "fin": "Suspender antes de cirugía programada o endoscopia con sedación por el riesgo de contenido gástrico retenido y broncoaspiración.",
+      "via": "SC semanal en abdomen, muslo o brazo, rotando el punto; o VO en ayunas con poca agua y esperando 30 minutos antes de comer o tomar otra medicación.",
+      "monitorizacion": "HbA1c, peso, tolerancia digestiva. Vigilar síntomas de pancreatitis y de colelitiasis. Retinopatía en el diabético con retinopatía previa al mejorar rápidamente el control."
+    },
+    "farmacocinetica": {
+      "absorcion": "Subcutánea lenta y sostenida. La formulación ORAL incorpora un potenciador de absorción y exige condiciones estrictas: en ayunas, con un máximo de 120 mL de agua y esperando 30 minutos; sin ello no se absorbe.",
+      "distribucion": "Muy alta unión a albúmina, que es lo que prolonga su vida media.",
+      "metabolismo": "Proteólisis y betaoxidación; no depende del citocromo P450.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "Aproximadamente 1 SEMANA, lo que permite la administración semanal y explica que los efectos adversos tarden en desaparecer tras suspenderla.",
+      "ajuste_renal": "No precisa ajuste, ni siquiera en la enfermedad renal avanzada. Precaución si hay vómitos o diarrea intensos que provoquen deshidratación.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Riesgo de HIPOGLUCEMIA (que la semaglutida no produce por sí sola)",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de insulina o de sulfonilurea al iniciar y al titular"
+        },
+        {
+          "con": "Fármacos de absorción sensible al vaciamiento gástrico (levotiroxina, anticoagulantes orales, antibióticos)",
+          "efecto": "El enlentecimiento gástrico modifica la velocidad y a veces la cantidad absorbida",
+          "gravedad": "media",
+          "manejo": "Vigilar el efecto clínico (INR, TSH) tras iniciar o subir la dosis"
+        },
+        {
+          "con": "Anestesia general y sedación para endoscopia",
+          "efecto": "Retención de contenido gástrico con riesgo de BRONCOASPIRACIÓN pese al ayuno correcto",
+          "gravedad": "alta",
+          "manejo": "Informar al anestesista; suspender antes del procedimiento según el protocolo local y prolongar el ayuno"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS (el efecto más frecuente, hasta el 20-40%, dosis-dependiente y habitualmente transitorio)",
+        "Vómitos, diarrea o estreñimiento",
+        "Dispepsia y sensación de plenitud precoz",
+        "Reacción en el punto de inyección"
+      ],
+      "graves": [
+        "PANCREATITIS AGUDA (poco frecuente pero descrita: obliga a suspender definitivamente)",
+        "COLELITIASIS y colecistitis, favorecidas por la pérdida rápida de peso",
+        "Empeoramiento de una RETINOPATÍA DIABÉTICA preexistente al mejorar bruscamente el control glucémico",
+        "Deshidratación y fracaso renal agudo por vómitos o diarrea intensos",
+        "Riesgo teórico de carcinoma medular de tiroides (visto en roedores; no confirmado en humanos)",
+        "Gastroparesia sintomática persistente",
+        "Pérdida de MASA MUSCULAR junto con la pérdida de grasa, especialmente relevante en el anciano"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fármaco",
+      "Antecedente personal o familiar de CARCINOMA MEDULAR DE TIROIDES o neoplasia endocrina múltiple tipo 2",
+      "Antecedente de pancreatitis (contraindicación relativa)",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "Las NÁUSEAS no son una intolerancia caprichosa: son la expresión directa de su mecanismo (enlentecimiento gástrico), el mismo que produce la saciedad y la pérdida de peso. Por eso el escalado lento es obligatorio y por eso la respuesta correcta a las náuseas es MANTENER la dosis unas semanas más, no suspender el tratamiento.",
+      "La vida media de una semana tiene una consecuencia práctica que se olvida: cuando aparece un efecto adverso, suspender el fármaco no lo resuelve de inmediato: sigue actuando durante semanas.",
+      "El riesgo de BRONCOASPIRACIÓN en anestesia y en endoscopia es un problema nuevo y real, derivado de que el estómago puede tener contenido pese a un ayuno correcto. Hay que decírselo al anestesista y al endoscopista: es de las pocas veces en que el paciente debe informar activamente de un fármaco antes de un procedimiento.",
+      "En la obesidad, la retirada se sigue de reganancia del peso perdido en la mayoría de los pacientes. Plantearlo como un tratamiento crónico desde el principio evita la frustración y las expectativas equivocadas.",
+      "La pérdida de peso incluye MASA MUSCULAR: el consejo de ejercicio de fuerza y de ingesta proteica adecuada forma parte de la prescripción, sobre todo en el anciano, donde la sarcopenia puede hacer más daño que el beneficio ponderal.",
+      "La formulación ORAL solo funciona si se toma exactamente como está indicado: en ayunas, con un sorbo de agua y esperando 30 minutos. Tomarla con el desayuno equivale a no tomarla.",
+      "Si el paciente tiene retinopatía diabética avanzada, la mejoría muy rápida de la HbA1c puede empeorarla de forma transitoria: conviene una revisión oftalmológica antes de intensificar."
+    ],
+    "embarazo_lactancia": "Contraindicada en el embarazo y la lactancia. Debe suspenderse al menos 2 meses antes de una gestación planificada, dada su larga vida media, y sustituirse por insulina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y obesidad"
+  },
+  {
+    "id": "END-insulina-glargina",
+    "nombre": "Insulina glargina (insulina basal)",
+    "sinonimos": [
+      "Insulina degludec, detemir (análogos basales)",
+      "NPH (basal humana)"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina basal",
+    "subclase": "Análogo de acción prolongada",
+    "vs_clase": [
+      "**Análogo basal de 24 h sin pico pronunciado**: menos hipoglucemia nocturna que la NPH.",
+      "**Debe ponerse a la misma hora cada día** (la degludec permite flexibilidad horaria).",
+      "**Disponible en U100 y U300** (la U300 tiene un perfil más plano y prolongado) y en biosimilares.",
+      "Ajuste cada 3 días según glucemia basal."
+    ],
+    "mecanismo": "Análogo de insulina modificado para precipitar a pH neutro en el tejido subcutáneo, formando un microdepósito del que se libera lentamente. El resultado es un perfil SIN PICO y de 24 h de duración, que imita la secreción basal del páncreas y controla fundamentalmente la NEOGLUCOGÉNESIS HEPÁTICA NOCTURNA, es decir, la glucemia en ayunas. Actúa sobre el receptor de insulina, promoviendo la captación de glucosa y frenando la lipólisis y la proteólisis.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 1 (componente basal del régimen bolo-basal)",
+        "dosis": "Aproximadamente el 50% de la dosis diaria total (0,4-0,6 UI/kg/día en total)",
+        "posologia": "Una vez al día, a la misma hora",
+        "via": "SC",
+        "nota": "Debe acompañarse SIEMPRE de insulina rápida en las comidas: la basal sola no cubre la ingesta"
+      },
+      {
+        "patologia": "Diabetes mellitus tipo 2 con fracaso de los antidiabéticos orales",
+        "dosis": "Inicio 10 UI o 0,1-0,2 UI/kg/día, con titulación posterior",
+        "posologia": "Una vez al día, habitualmente por la noche",
+        "via": "SC",
+        "nota": "Se mantiene la metformina y, si el paciente los toma, el iSGLT2 y el agonista de GLP-1"
+      },
+      {
+        "patologia": "Diabetes gestacional o pregestacional que no se controla con dieta",
+        "dosis": "Individualizada según controles",
+        "posologia": "1-2 veces al día",
+        "via": "SC",
+        "nota": "La insulina es el tratamiento de elección en el embarazo; NPH y detemir son las de más experiencia acumulada",
+        "dosis_objetivo": "Glucemia basal por debajo de 95 mg/dL y posprandial de 1 h por debajo de 140 mg/dL"
+      },
+      {
+        "patologia": "Hiperglucemia hospitalaria (pauta basal-bolo-corrección)",
+        "dosis": "0,2-0,3 UI/kg/día de basal, ajustada a diario",
+        "posologia": "Una vez al día",
+        "via": "SC",
+        "nota": "La pauta basal-bolo-corrección sustituye a la pauta móvil de insulina rápida aislada, que es inferior y debe abandonarse"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el tipo 2: 10 UI o 0,1-0,2 UI/kg en una sola dosis nocturna, manteniendo la metformina. En el tipo 1: dosis total de 0,4-0,6 UI/kg repartida al 50% entre basal y bolos prandiales.",
+      "titulacion": "Regla práctica: ajustar la BASAL exclusivamente en función de la GLUCEMIA EN AYUNAS, subiendo 2 UI cada 3 días hasta alcanzar el objetivo (habitualmente 80-130 mg/dL). Si aparece hipoglucemia nocturna, reducir un 10-20%.",
+      "duracion": "Indefinida en el tipo 1. En el tipo 2 puede ser transitoria si se corrige la glucotoxicidad o el factor precipitante.",
+      "fin": "En el tipo 1 NUNCA se suspende, ni siquiera en ayunas o en enfermedad aguda: retirarla precipita cetoacidosis. En el tipo 2 puede reducirse o retirarse si se logra el control con otros fármacos.",
+      "via": "SC, rotando el punto de inyección dentro de la misma zona para evitar lipohipertrofia.",
+      "monitorizacion": "Glucemia capilar en ayunas para titular; monitorización continua de glucosa cuando esté disponible; HbA1c cada 3 meses; INSPECCIÓN de los puntos de inyección en cada revisión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Lenta y constante desde el microprecipitado subcutáneo. La absorción es más rápida en el abdomen que en el muslo o la nalga, y se acelera con el ejercicio de esa extremidad, el calor y el masaje.",
+      "distribucion": "Circulante libre; la degludec se une a albúmina, lo que prolonga aún más su acción.",
+      "metabolismo": "Hepático y renal por insulinasas.",
+      "eliminacion": "Renal en un 30-80%: por eso la insuficiencia renal PROLONGA su efecto y aumenta el riesgo de hipoglucemia.",
+      "vida_media": "Duración de acción de 20-24 h (glargina U100), 24-36 h (glargina U300) y más de 42 h (degludec).",
+      "ajuste_renal": "REDUCIR la dosis: en torno al 25% con FG 10-50 y al 50% con FG por debajo de 10. La insuficiencia renal es una causa muy frecuente de hipoglucemias inexplicadas en el diabético de larga evolución.",
+      "ajuste_hepatico": "Reducir la dosis en la hepatopatía avanzada por menor neoglucogénesis y menor depósito de glucógeno.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes no cardioselectivos (propranolol)",
+          "efecto": "ENMASCARAN los síntomas adrenérgicos de la hipoglucemia (temblor, palpitaciones) y prolongan la recuperación",
+          "gravedad": "alta",
+          "manejo": "Preferir betabloqueantes cardioselectivos; advertir al paciente de que puede perder los síntomas de alarma"
+        },
+        {
+          "con": "Glucocorticoides",
+          "efecto": "Hiperglucemia marcada, sobre todo posprandial y vespertina",
+          "gravedad": "alta",
+          "manejo": "Aumentar la insulina de forma anticipada al iniciar corticoides y reducirla al retirarlos, para evitar hipoglucemias"
+        },
+        {
+          "con": "Alcohol",
+          "efecto": "Inhibe la neoglucogénesis y produce hipoglucemia RETARDADA, hasta 12-24 h después",
+          "gravedad": "alta",
+          "manejo": "Advertir de que hay que ingerir hidratos de carbono con el alcohol y controlar la glucemia esa noche"
+        },
+        {
+          "con": "iSGLT2, agonistas de GLP-1, sulfonilureas",
+          "efecto": "Efecto hipoglucemiante aditivo",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de insulina al añadirlos; nunca retirar la insulina del tipo 1"
+        },
+        {
+          "con": "Tiazidas, antipsicóticos atípicos, tacrolimús",
+          "efecto": "Empeoran el control glucémico",
+          "gravedad": "baja",
+          "manejo": "Reforzar la monitorización tras iniciarlos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOGLUCEMIA (el efecto adverso limitante y el que determina el objetivo terapéutico de cada paciente)",
+        "Aumento de peso",
+        "LIPOHIPERTROFIA en los puntos de inyección repetidos",
+        "Reacción local y, con la glargina, escozor por el pH ácido de la solución"
+      ],
+      "graves": [
+        "Hipoglucemia grave con alteración del nivel de conciencia, convulsiones o coma",
+        "Hipoglucemia INADVERTIDA por pérdida de los síntomas de alarma en el diabético de larga evolución",
+        "Edema insulínico y empeoramiento transitorio de la retinopatía al normalizar rápidamente glucemias muy altas",
+        "Hipopotasemia por desplazamiento intracelular del potasio (relevante en el tratamiento de la cetoacidosis)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia activa",
+      "Hipersensibilidad al principio activo o a los excipientes"
+    ],
+    "perlas": [
+      "La regla que ordena toda la titulación: la BASAL se ajusta mirando la glucemia EN AYUNAS y nada más. Subir la basal para corregir hiperglucemias posprandiales es el error más común y lleva a sobredosificarla y a provocar hipoglucemias nocturnas.",
+      "La LIPOHIPERTROFIA es la causa más frecuente de control errático y de hipoglucemias inexplicables, y solo se detecta si se PALPAN los puntos de inyección. Inyectar en una zona hipertrofiada da una absorción impredecible; cambiar a piel sana puede reducir de golpe las necesidades hasta un 20%, por lo que hay que bajar la dosis al mismo tiempo.",
+      "En el diabético TIPO 1, la insulina basal NO se suspende nunca, aunque el paciente esté en ayunas o vaya a quirófano: sin insulina basal aparece cetoacidosis aunque no coma. Esta es una de las órdenes médicas que con más frecuencia se equivocan en el hospital.",
+      "Las HIPOGLUCEMIAS DE NUEVA APARICIÓN en un diabético estable de larga evolución no son casualidad: obligan a buscar deterioro de la función renal, pérdida de peso, insuficiencia suprarrenal o enfermedad celíaca antes de limitarse a bajar la dosis.",
+      "La pauta MÓVIL de insulina rápida aislada en el hospital (dar insulina solo cuando la glucemia ya está alta) es reactiva e inferior: la pauta correcta es basal más bolos más corrección.",
+      "Los betabloqueantes no cardioselectivos borran los síntomas de alarma de la hipoglucemia: en el diabético insulinizado conviene elegir uno cardioselectivo si se necesita betabloqueo.",
+      "La insulina glargina no debe mezclarse en la misma jeringa con ninguna otra insulina: su pH ácido precipitaría la rápida y alteraría el perfil de ambas."
+    ],
+    "embarazo_lactancia": "La insulina es el tratamiento de elección de la diabetes en el embarazo, ya que no atraviesa la placenta. NPH y detemir son las basales con mayor experiencia; la glargina se considera aceptable. Compatible con la lactancia, en la que suelen reducirse las necesidades.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus: tratamiento"
+  },
+  {
+    "id": "END-insulina-rapida",
+    "nombre": "Insulina rápida (análogos: aspart, lispro, glulisina)",
+    "sinonimos": [
+      "Insulina prandial",
+      "Insulina regular o cristalina (humana)"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina prandial (de acción rápida)",
+    "subclase": "Insulina prandial y de corrección",
+    "mecanismo": "Análogos con la secuencia de aminoácidos modificada para que NO se agrupen en hexámeros en el tejido subcutáneo: al permanecer en forma monomérica se absorben con rapidez, con inicio en 10-20 minutos, pico a la hora y duración de 3-5 h. Ese perfil imita el pico prandial fisiológico y reduce las hipoglucemias tardías que produce la insulina regular humana, más lenta y más prolongada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 1 y tipo 2 insulinizada: cobertura de las comidas",
+        "dosis": "Aproximadamente el 50% de la dosis diaria total, repartida entre las comidas según su contenido en hidratos",
+        "posologia": "Antes de cada comida principal",
+        "via": "SC",
+        "nota": "La dosis se calcula por raciones de hidratos de carbono mediante el cociente insulina/hidratos individualizado"
+      },
+      {
+        "patologia": "Corrección de hiperglucemia (bolo corrector)",
+        "dosis": "Según el factor de sensibilidad individual (regla de 1800 o 1500 dividido entre la dosis total diaria)",
+        "posologia": "Puntual, respetando al menos 3-4 h entre correcciones",
+        "via": "SC",
+        "nota": "Corregir antes de que hayan pasado 3-4 h del bolo previo produce APILAMIENTO de insulina e hipoglucemia",
+        "dosis_objetivo": "Glucemia objetivo 100-140 mg/dL, respetando 3-4 h entre correcciones"
+      },
+      {
+        "patologia": "Cetoacidosis diabética y estado hiperosmolar",
+        "dosis": "Perfusión continua de 0,1 UI/kg/h (insulina regular)",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Solo la insulina rápida o regular se administra por vía intravenosa; requiere reposición previa de volumen y control estrecho del POTASIO"
+      },
+      {
+        "patologia": "Hiperpotasemia grave con alteraciones del ECG",
+        "dosis": "10 UI de insulina regular IV junto con 25 g de glucosa",
+        "posologia": "Dosis única, repetible",
+        "via": "IV",
+        "nota": "Desplaza el potasio al interior de la célula; es una medida transitoria que no elimina potasio del organismo"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el régimen bolo-basal, el 50% de la dosis total repartido entre las tres comidas. Se administra 10-15 minutos ANTES de comer (la insulina regular humana requiere 30 minutos).",
+      "titulacion": "Se ajusta cada bolo según la glucemia POSPRANDIAL de esa comida y la preprandial de la siguiente, no según la glucemia en ayunas, que corresponde a la basal.",
+      "duracion": "Indefinida en el tipo 1.",
+      "fin": "Los bolos prandiales se omiten si el paciente no come; la insulina BASAL, en cambio, se mantiene siempre en el tipo 1.",
+      "via": "SC en el abdomen (absorción más rápida y predecible para los bolos); IV en perfusión en la cetoacidosis y en el paciente crítico.",
+      "monitorizacion": "Glucemia preprandial y posprandial, o monitorización continua; cetonemia en la enfermedad intercurrente; potasio de forma estrecha en la perfusión intravenosa."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio en 10-20 min, pico a los 60-90 min, duración 3-5 h. La absorción se acelera con el ejercicio del miembro inyectado, el calor, el masaje y la inyección abdominal.",
+      "distribucion": "Circulante libre.",
+      "metabolismo": "Hepático y renal por insulinasas.",
+      "eliminacion": "Renal en proporción importante.",
+      "vida_media": "Efecto de 3-5 h por vía subcutánea; de minutos por vía intravenosa, lo que obliga a administrarla en perfusión continua.",
+      "ajuste_renal": "Reducir la dosis: aproximadamente un 25% con FG 10-50 y un 50% con FG por debajo de 10.",
+      "ajuste_hepatico": "Reducir en la hepatopatía avanzada.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes no cardioselectivos",
+          "efecto": "Enmascaran los síntomas de la hipoglucemia y retrasan la recuperación",
+          "gravedad": "alta",
+          "manejo": "Preferir cardioselectivos y advertir al paciente"
+        },
+        {
+          "con": "Glucocorticoides",
+          "efecto": "Hiperglucemia sobre todo posprandial y vespertina, que obliga a subir los bolos",
+          "gravedad": "alta",
+          "manejo": "Aumentar los bolos de comida y reducirlos al retirar el corticoide"
+        },
+        {
+          "con": "Alcohol",
+          "efecto": "Hipoglucemia retardada por bloqueo de la neoglucogénesis",
+          "gravedad": "alta",
+          "manejo": "Ingerir hidratos con el alcohol y controlar la glucemia durante la noche"
+        },
+        {
+          "con": "Agonistas de GLP-1 (enlentecimiento gástrico)",
+          "efecto": "Desacoplamiento entre el pico de insulina y la llegada de los nutrientes, con hipoglucemia precoz e hiperglucemia tardía",
+          "gravedad": "media",
+          "manejo": "Reducir el bolo y valorar administrarlo después de comer en pacientes con vaciamiento muy lento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOGLUCEMIA, especialmente posprandial tardía si el bolo fue excesivo o la comida menor de lo previsto",
+        "Aumento de peso",
+        "Lipohipertrofia en los puntos de inyección",
+        "Reacción local leve"
+      ],
+      "graves": [
+        "Hipoglucemia grave con convulsiones o coma",
+        "HIPOPOTASEMIA grave durante la perfusión intravenosa en la cetoacidosis",
+        "Edema cerebral en la corrección demasiado rápida de la cetoacidosis, sobre todo en niños"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia activa",
+      "Hipersensibilidad al principio activo o a los excipientes"
+    ],
+    "perlas": [
+      "Es la ÚNICA insulina que puede administrarse por vía INTRAVENOSA: las insulinas basales nunca se ponen en vena. Confundirlo en el tratamiento de una cetoacidosis o de una hiperpotasemia es un error grave.",
+      "En la cetoacidosis, la regla de oro es que el POTASIO manda sobre la insulina: si el potasio inicial es menor de 3,3 mEq/L, primero se repone potasio y solo después se inicia la insulina, porque esta lo introduce en la célula y puede provocar una hipopotasemia mortal. Y siempre se repone volumen antes.",
+      "El APILAMIENTO de bolos correctores (corregir cada hora porque la glucemia no baja) es una causa clásica y evitable de hipoglucemia grave: hay que respetar 3-4 h entre correcciones porque la insulina previa sigue actuando.",
+      "Los análogos rápidos se ponen 10-15 minutos antes de comer, no en el momento de empezar: ese pequeño desfase mejora de forma notable la glucemia posprandial sin coste alguno.",
+      "El ajuste es especular: los BOLOS se ajustan por la glucemia posprandial y preprandial siguiente; la BASAL, por la glucemia en ayunas. Mezclar ambos criterios lleva a pautas mal repartidas y a hipoglucemias.",
+      "El ejercicio de la extremidad donde se inyectó acelera la absorción: inyectar en el muslo antes de correr es una receta para la hipoglucemia; en esa situación conviene el abdomen y reducir el bolo.",
+      "En la corrección de la cetoacidosis hay que añadir GLUCOSA al suero cuando la glucemia baja de 200-250 mg/dL, manteniendo la insulina: lo que se está corrigiendo es la cetosis, no solo la cifra de glucosa."
+    ],
+    "embarazo_lactancia": "Tratamiento de elección en la diabetes durante el embarazo; los análogos aspart y lispro tienen amplia experiencia y son seguros. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y de urgencias hiperglucémicas"
+  }
+]

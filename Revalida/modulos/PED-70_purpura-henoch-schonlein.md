@@ -1,0 +1,253 @@
+## 0. CABEÇALHO
+
+**Código:** PED-70 · **Especialidade:** Pediatria · **Tema:** Púrpura de Henoch-Schönlein (vasculite por IgA) · **Assunto:** Diagnóstico diferencial de púrpura palpável em criança com dor abdominal, artralgia e acometimento renal; tratamento e seguimento nefrológico · **Tier:** A · **Nº de questões históricas do INEP:** 4 (INEP2017-1-Q015, INEP2023-2-Q043, INEP2024-1-Q078, INEP2025-1-Q078) — extraídas de 16 das 18 edições já classificadas (faltam 2022.1 e 2026.1, encoding corrompido) · **Tempo estimado de estudo:** 75 min · **Pré-requisitos:** nenhum (recomenda-se noção básica de síndrome nefrítica — ver NEF-01) · **Data de geração:** 2026-08-08
+
+---
+
+## 1. TEORIA
+
+A púrpura de Henoch-Schönlein (PHS), hoje nomeada oficialmente **vasculite por IgA** (nomenclatura da Consensus Conference de Chapel Hill 2012, adotada progressivamente pela literatura e já cobrada dessa forma pelo INEP), é a **vasculite mais comum da infância**. É uma vasculite de pequenos vasos mediada por depósitos de imunocomplexos de IgA na parede vascular, tipicamente **desencadeada por uma infecção prévia** (viral de vias aéreas superiores ou, menos comumente, estreptocócica/bacteriana), com pico de incidência entre 3 e 10 anos e discreto predomínio no sexo masculino. O Revalida cobra de forma muito consistente três eixos: reconhecer a tétrade clássica, diferenciar de outras causas de púrpura (sobretudo PTI e meningococcemia) e saber conduzir o seguimento renal ambulatorial — que é o ponto mais frequentemente esquecido na prática real.
+
+**Etiopatogenia [CONSENSO].** Cerca de 50-90% dos casos são precedidos, em 1-3 semanas, por infecção de vias aéreas superiores (viral ou por *Streptococcus pyogenes*). A doença resulta de vasculite leucocitoclástica por deposição de IgA1 (com predomínio de glicosilação anômala) em pequenos vasos da pele, articulações, trato gastrointestinal e rim — o mesmo mecanismo fisiopatológico da nefropatia por IgA (doença de Berger), da qual a PHS é considerada a forma sistêmica/pediátrica.
+
+**Tétrade clássica [CONSENSO]** (nem todos os componentes precisam estar presentes simultaneamente; a púrpura cutânea é o achado mais constante e geralmente o primeiro a ser notado, embora dor abdominal possa preceder a púrpura em até 1/3 dos casos, dificultando o diagnóstico inicial):
+1. **Púrpura palpável, sem plaquetopenia** — o achado definidor. Distribuição característica em **membros inferiores e região glútea/nádegas**, simétrica, poupando geralmente tronco e face; pode ser precedida por lesões maculopapulares ou urticariformes. Não é pruriginosa na maioria dos casos e não desaparece à digitopressão (verdadeira púrpura, não eritema).
+2. **Artrite/artralgia** — geralmente oligoarticular, transitória e migratória, acometendo predominantemente grandes articulações de membros inferiores (joelhos e tornozelos), com edema periarticular; **não deixa sequela** e não é erosiva.
+3. **Dor abdominal** — em cólica, periumbilical ou difusa, por vasculite/edema da parede intestinal; pode se acompanhar de sangue oculto positivo ou até enterorragia franca. É o principal motivo de confusão com abdome agudo cirúrgico.
+4. **Acometimento renal (nefrite da PHS)** — o determinante do prognóstico a longo prazo. Varia de hematúria microscópica isolada (mais comum) a hematúria macroscópica, proteinúria, síndrome nefrítica ou, raramente, síndrome nefrótica/GNRP. Histologicamente é indistinguível da nefropatia por IgA.
+
+**Achados laboratoriais [CONSENSO]:** não há exame confirmatório específico e sensível de rotina. Tipicamente: hemograma normal ou com discreta leucocitose, **contagem de plaquetas normal ou até aumentada** (achado crucial de diferenciação — ver pegadinha abaixo), provas de fase aguda (VHS, PCR) discretamente elevadas, coagulograma normal, FAN e complemento geralmente normais (diferencia de LES). EAS pode mostrar hematúria/proteinúria quando há nefrite. Os níveis séricos de IgA podem estar elevados, mas isso não é usado rotineiramente para diagnóstico.
+
+**Diagnóstico [CONSENSO]:** é **eminentemente clínico**, baseado nos critérios do EULAR/PRINTO/PRES (púrpura palpável — obrigatória, tipicamente em membros inferiores, na ausência de coagulopatia ou plaquetopenia — associada a pelo menos um de: dor abdominal, artrite/artralgia, acometimento renal, ou biópsia mostrando depósito predominante de IgA). **Biópsia de pele ou de rim não é necessária na maioria dos casos** — reservada para apresentações atípicas (púrpura em locais incomuns, ausência de distribuição característica, dúvida diagnóstica) ou para casos com nefrite significativa (proteinúria maciça, síndrome nefrótica, disfunção renal, hematúria macroscópica persistente), quando a biópsia renal orienta prognóstico e tratamento.
+
+**Diagnóstico diferencial — o núcleo do que a banca testa:**
+| Diagnóstico | Como diferenciar da PHS |
+|---|---|
+| Púrpura trombocitopênica imune (PTI) | Plaquetopenia (geralmente <100.000, muitas vezes <20.000); púrpura **não palpável** (petéquias/equimoses planas); sem dor abdominal, artrite ou nefrite típicas |
+| Meningococcemia | Toxemia, febre alta, evolução rápida para choque, **plaquetopenia e coagulopatia** (CIVD), petéquias que evoluem rapidamente para necrose — emergência com antibiótico imediato |
+| Lúpus eritematoso sistêmico juvenil | FAN positivo, acometimento multissistêmico mais amplo, mais comum em adolescentes do sexo feminino |
+| Doença de Kawasaki | Febre ≥5 dias, conjuntivite, alterações de mucosa oral, exantema polimorfo, edema de extremidades, adenomegalia cervical — não cursa com púrpura palpável típica |
+| Glomerulonefrite pós-estreptocócica isolada | Síndrome nefrítica sem púrpura cutânea nem dor abdominal (ver módulo NEF-01) |
+| Abdome agudo cirúrgico (apendicite, invaginação) | Deve ser sempre considerado no diagnóstico diferencial da dor abdominal da PHS, inclusive porque a própria PHS pode **causar** invaginação intestinal como complicação |
+
+⚠️ **PEGADINHA DO INEP:** a banca explora sistematicamente a **contagem de plaquetas normal** como o dado laboratorial-chave que diferencia PHS de PTI diante de uma púrpura em criança — nas questões INEP2017-1-Q015 e INEP2024-1-Q078, o enunciado inclui deliberadamente "plaquetas normais" (ou "levemente aumentadas") para que o candidato descarte PTI e feche o diagnóstico de vasculite por IgA. Não caia na armadilha de associar automaticamente "púrpura em criança" a plaquetopenia.
+
+**Avaliação e monitoramento do acometimento renal [CONSENSO] — o ponto mais cobrado na prática e mais esquecido no dia a dia:** mesmo crianças sem alterações urinárias na apresentação inicial devem ter **EAS seriado (com atenção a hematúria e proteinúria) e aferição de pressão arterial** por semanas a meses após o quadro agudo, porque a nefrite pode se manifestar tardiamente (dentro de 6 semanas a 6 meses do início da doença, ocasionalmente até 12 meses depois). [VARIÁVEL] — o esquema exato de periodicidade do seguimento (semanal no primeiro mês, depois quinzenal/mensal) varia entre protocolos e serviços; ⚠️ VERIFICAR o cronograma vigente do serviço/diretriz de referência antes de orientar a família com números fixos. A maioria dos protocolos recomenda seguimento mínimo de 6 meses, estendendo-se por até 12 meses se houver qualquer alteração urinária.
+
+**Tratamento [CONSENSO]:**
+- **Suporte** é a base do tratamento na maioria dos casos: hidratação, repouso relativo, analgesia.
+- **AINE** (ex.: ibuprofeno/naproxeno) para artralgia/artrite — evitar em vigência de sangramento gastrointestinal ativo ou nefrite significativa (nefrotoxicidade e risco de sangramento).
+- **Corticoide sistêmico** (prednisona/prednisolona oral, ou pulsoterapia com metilprednisolona em casos graves) é indicado para **dor abdominal significativa** (reduz duração e intensidade dos sintomas gastrointestinais) e para **acometimento renal grave** (proteinúria importante, síndrome nefrótica, GNRP) — não é indicado rotineiramente apenas para a púrpura cutânea isolada, que é autolimitada e não responde a corticoide.
+- Casos de nefrite grave/GNRP podem necessitar imunossupressores adicionais (ciclofosfamida, azatioprina) sob condução de nefrologia pediátrica — [VARIÁVEL], conduzido em centro de referência.
+- A doença é **autolimitada** na grande maioria das crianças, com resolução em 4-6 semanas, mas recorrências cutâneas/articulares ocorrem em até 1/3 dos pacientes, geralmente nos primeiros meses.
+
+**Complicações [CONSENSO]:**
+- **Intussuscepção (invaginação) intestinal** — a complicação gastrointestinal mais temida; ao contrário da invaginação idiopática do lactente (ileocólica), a da PHS é tipicamente **ileoileal**, o que a torna mais difícil de reduzir por enema e mais frequentemente cirúrgica. Suspeitar quando a dor abdominal muda de padrão (piora súbita, torna-se localizada, associa-se a massa palpável ou parada de eliminação de gases/fezes).
+- **Nefrite crônica** — é o principal determinante de morbidade a longo prazo; uma minoria evolui para doença renal crônica/insuficiência renal terminal, sobretudo quando há proteinúria maciça ou crescentes na biópsia. É a razão de ser do seguimento ambulatorial prolongado.
+- Outras complicações raras: hemorragia gastrointestinal significativa, orquite, hemorragia pulmonar, acometimento de SNC.
+
+🇧🇷 **CONDUTA DE PROVA (MS):** não há um PCDT nacional específico e amplamente divulgado exclusivamente para PHS; a conduta de prova segue as diretrizes de sociedades pediátricas/reumatológicas (SBP, SBR) e critérios internacionais (EULAR/PRINTO/PRES), sem, até onde se pôde verificar, divergência relevante em relação ao consenso internacional descrito acima. ⚠️ VERIFICAR se há protocolo específico do MS ou de diretriz brasileira mais recente antes de afirmar ausência de divergência.
+
+### Referências
+1. Sociedade Brasileira de Pediatria / Sociedade Brasileira de Reumatologia. Vasculite por IgA (Púrpura de Henoch-Schönlein) — diretrizes de diagnóstico e manejo. ⚠️ VERIFICAR documento e ano vigentes.
+2. EULAR/PRINTO/PRES Consensus Criteria for Henoch-Schönlein Purpura (vasculite por IgA) — critérios classificatórios de referência internacional. ⚠️ VERIFICAR versão vigente.
+3. Chapel Hill Consensus Conference Nomenclature of Vasculitides (2012) — origem da nomenclatura "vasculite por IgA".
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no PS pediátrico real:** o cenário típico é criança de 3-10 anos trazida por manchas roxas nas pernas e nádegas, dias a semanas após um resfriado/quadro de vias aéreas superiores, associadas a dor nas pernas para andar (por artrite de tornozelo/joelho) e/ou dor de barriga. Muitas vezes a família já passou por uma consulta prévia com hipótese de "alergia" ou "reação a picada de inseto" antes de a púrpura característica (palpável, em membros inferiores e glúteos) ficar evidente. Quando a dor abdominal precede a púrpura — o que ocorre em parcela relevante dos casos — o quadro pode ser inicialmente rotulado de abdome agudo e gerar avaliação cirúrgica antes do diagnóstico correto.
+
+**Fluxo prático de atendimento:**
+1. Reconhecer o padrão de púrpura (palpável, membros inferiores/nádegas, sem trombocitopenia) associado a pelo menos um dos outros três componentes da tétrade.
+2. Solicitar hemograma completo com plaquetas (para excluir PTI e avaliar sinais de toxemia/infecção), coagulograma (excluir coagulopatia), EAS (rastrear acometimento renal já na apresentação inicial), função renal, e PA.
+3. Considerar pesquisa de sangue oculto nas fezes se houver dor abdominal, e avaliação de imagem abdominal (USG) se houver suspeita de intussuscepção (mudança do padrão da dor, massa palpável, vômitos biliosos).
+4. Definir necessidade de corticoide (dor abdominal significativa ou nefrite relevante) versus manejo apenas sintomático (analgesia/AINE para artralgia, hidratação).
+5. **Programar seguimento ambulatorial com EAS seriado e aferição de PA** — este passo é sistematicamente negligenciado na alta do PS, que tende a focar no alívio do sintoma agudo e esquecer o risco de nefrite tardia.
+
+**Erros reais mais comuns:**
+- Confundir a dor abdominal da PHS com abdome cirúrgico e indicar laparotomia/apendicectomia desnecessária quando, na verdade, o diagnóstico correto explicaria o quadro sem necessidade de cirurgia (embora seja fundamental não deixar de investigar intussuscepção real, que é uma complicação verdadeira da PHS).
+- Pedir plaquetas, ver resultado normal, e mesmo assim tratar como PTI por reflexo diante de qualquer púrpura em criança — sem reparar que a púrpura é palpável (e não puramente petequial) e vem acompanhada de artrite/dor abdominal.
+- **Dar alta sem programar seguimento renal ambulatorial** — o erro mais consequente a longo prazo, pois a nefrite pode surgir semanas a meses depois do quadro agudo, quando a família já não associa mais o sintoma urinário à doença antiga.
+- Prescrever corticoide de forma rotineira para todo caso de PHS (inclusive púrpura isolada leve), quando a evidência sustenta seu uso principalmente para dor abdominal significativa e nefrite — sem benefício demonstrado consistente sobre a duração da púrpura cutânea isolada.
+- Não orientar a família sobre a possibilidade de recorrência cutânea/articular nos meses seguintes, gerando susto e novas idas desnecessárias a emergências.
+
+**O que dizer aos pais:** explicar que é uma doença inflamatória dos pequenos vasos, geralmente desencadeada por uma infecção prévia, autolimitada na grande maioria dos casos (resolução em semanas), mas que **precisa de acompanhamento com exames de urina e aferição de pressão por alguns meses** mesmo depois que as manchas na pele desaparecerem, porque o rim pode ser afetado de forma silenciosa e tardia. Orientar sinais de alarme para retorno imediato: piora ou mudança do padrão da dor abdominal, vômitos persistentes/biliosos, sangue nas fezes, urina muito escura/com sangue visível, diminuição do volume urinário, ou edema.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Anamnese dirigida: tempo de evolução das lesões cutâneas, infecção de vias aéreas recente, característica e localização da púrpura, presença de dor abdominal (características, sangue nas fezes), dor/edema articular (quais articulações), sintomas urinários (hematúria macroscópica, edema, oligúria), uso de medicações prévias (excluir vasculite por drogas).
+- ✅ Exame físico: caracterizar a púrpura (palpável × plana, distribuição, digitopressão), exame articular (edema, dor, limitação, ausência de sequela), exame abdominal (dor, sinais de irritação peritoneal, massa sugestiva de invaginação), aferição de pressão arterial, sinais de toxemia (para descartar meningococcemia).
+- ✅ Hipótese diagnóstica verbalizada com justificativa (tétrade + plaquetas normais, excluindo PTI e meningococcemia).
+- ✅ Conduta: solicitação de hemograma com plaquetas, coagulograma, EAS, função renal, PA; decisão fundamentada sobre corticoide; orientação de sinais de alarme para intussuscepção.
+- ✅ Comunicação: explicar a natureza autolimitada da doença, mas enfatizar a necessidade de seguimento renal ambulatorial prolongado — este é frequentemente um item explicitamente pontuado em checklist de estação prática.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2017 · Edição 1 · Questão 15]**
+
+Uma criança do sexo masculino com 6 anos de idade é internada em hospital para investigação de púrpura palpável, não pruriginosa, com lesões de tamanhos variados, acometendo, bilateralmente, a região glútea e membros inferiores, incluindo planta dos pés. Há um mês, as lesões cutâneas vêm aparecendo em surtos, com intervalos de uma semana. A mãe nega rigidez matinal e relata que o quadro iniciou com dor abdominal difusa, às vezes definida como periumbilical, em cólicas, com pesquisa de sangue oculto positiva nas fezes. A criança não apresenta febre, lesões de face ou mucosas, nem adenomegalias. Não houve uso de medicações antes do aparecimento dos sintomas. Ao exame, além da púrpura, apresenta edema e dor em joelhos e tornozelos. Entre os exames laboratoriais, foram evidenciados leucocitose discreta sem desvio à esquerda; anemia normocítica e normocrômica, sem reticulocitose; número de plaquetas levemente aumentado; velocidade de hemossedimentação e proteína C reativa levemente elevadas, além de pesquisa de antinuclear (FAN) negativo. Exame simples de urina apresentou hematúria microscópica e proteinúria (+), anterior à internação, mas, no momento, o sedimento urinário está normal. De acordo com os dados clínicos e laboratoriais do paciente, o diagnóstico e o tratamento adequados são
+
+A) doença de Kawasaki; gamaglobulina endovenosa e ácido acetilsalicílico.
+B) lúpus eritematoso sistêmico juvenil; pulsoterapia com metilprednisolona.
+C) púrpura de Henoch-Schönlein; prednisona.
+D) artrite idiopática juvenil; ibuprofeno.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a tétrade está presente de forma quase didática — púrpura palpável não pruriginosa em membros inferiores e nádegas (com padrão em surtos), dor abdominal em cólica com sangue oculto positivo, artrite/artralgia de joelhos e tornozelos, e acometimento renal (hematúria e proteinúria prévias). O achado de **plaquetas normais/levemente aumentadas** e FAN negativo descarta PTI e LES, fechando o diagnóstico de púrpura de Henoch-Schönlein (vasculite por IgA). O tratamento com prednisona é apropriado diante da dor abdominal significativa com sangramento e do histórico de acometimento renal.
+
+**Por que as demais estão erradas:**
+- A) Doença de Kawasaki cursa com febre ≥5 dias, alterações de mucosa oral, conjuntivite e exantema polimorfo — ausentes no caso, que explicitamente nega febre e lesões de mucosa; e não se trata com gamaglobulina/AAS um quadro de púrpura palpável sem os critérios de Kawasaki.
+- B) LES juvenil é descartado pelo FAN negativo, e a pulsoterapia com metilprednisolona é reservada para acometimento grave (não indicada como conduta inicial neste quadro).
+- D) Artrite idiopática juvenil não explica a púrpura palpável, a dor abdominal com sangue oculto, nem o acometimento renal; e a mãe nega rigidez matinal, achado tipicamente buscado nessa hipótese.
+
+**O que a banca estava testando:** a capacidade de reunir tétrade clínica completa (púrpura + artrite + dor abdominal + nefrite) e usar plaquetas normais/FAN negativo para excluir os principais diferenciais (PTI, LES), associando corretamente ao tratamento com corticoide diante de manifestação gastrointestinal e renal.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 43]**
+
+Um menino de 3 anos encontra-se em consulta em serviço de especialidades com história de ter apresentado quadro autolimitado de rinofaringite há 9 dias. Na ocasião, foi realizado painel viral por meio de RT-PCR para SARS-CoV-2, Vírus Sincicial Respiratório e Influenza A e B, o qual resultou negativo para todas as doenças. Há 1 dia, o paciente está apresentando petéquias e equimoses não pruriginosas em extremidades inferiores e em região glútea associadas à artralgia e à limitação de movimento em joelhos e tornozelos, além de dor abdominal peri-umbilical intermitente. Sua responsável refere, ainda, que hoje o menino teve um episódio de vômito pós-prandial. Sua pressão arterial apresenta-se sem alterações. Exames complementares, hemograma completo, parasitológico de fezes, coagulograma, ureia e creatinina normais. Apresenta ASLO negativo e seu resultado de urina de rotina mostra hematúria +, proteinúria +, sem piúria. Diante do quadro desse paciente, qual é a hipótese diagnóstica mais provável?
+
+A) Glomerulonefrite pós-estreptocócica.
+B) Síndrome-hemolítico urêmica.
+C) Lúpus eritematoso sistêmico.
+D) Vasculite por IgA.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** infecção viral de vias aéreas superiores recente seguida, em cerca de uma semana, de púrpura em membros inferiores e nádegas, artralgia de grandes articulações, dor abdominal e achados urinários leves (hematúria e proteinúria discretas, sem piúria) compõe o quadro clássico de vasculite por IgA (nome atual da púrpura de Henoch-Schönlein). O hemograma e coagulograma normais reforçam a ausência de plaquetopenia/coagulopatia.
+
+**Por que as demais estão erradas:**
+- A) Glomerulonefrite pós-estreptocócica cursaria tipicamente com ASLO positivo (ou evidência de infecção estreptocócica prévia) e síndrome nefrítica mais evidente (hematúria macroscópica, hipertensão, edema); aqui o ASLO é negativo e a PA está normal, além de não explicar a púrpura palpável nem a dor abdominal.
+- B) Síndrome hemolítico-urêmica cursa com anemia hemolítica microangiopática, plaquetopenia e lesão renal aguda — o hemograma normal e a função renal normal afastam essa hipótese.
+- C) LES é incomum nessa faixa etária (3 anos) e cursaria com quadro multissistêmico mais amplo; não há dados sugestivos de LES no enunciado (não menciona FAN ou outros critérios).
+
+**O que a banca estava testando:** reconhecimento do padrão pós-infeccioso típico da vasculite por IgA e a diferenciação laboratorial de outras causas de púrpura/hematúria em criança (GNPE, SHU, LES) usando dados normais (hemograma, coagulograma, ASLO) como pistas negativas.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 78]**
+
+Um menino com 7 anos é admitido na unidade de terapia intensiva de um hospital de alta complexidade devido a uma dor abdominal intensa, com vômitos e enterorragia. No relatório de transferência, consta que o paciente apresentou amigdalite bacteriana, com exsudato, há cerca de 10 dias, a qual foi tratada com amoxicilina. A criança desenvolveu artralgia em joelhos e, 2 dias após o surgimento das dores, notou-se púrpura palpável que não desaparece à digitopressão e que se estende dos membros inferiores até a região glútea. No hemograma, observa-se anemia, leucocitose moderada, plaquetas com dosagem dentro da normalidade e ausência de eosinofilia. Observam-se, também, VHS e PCR discretamente elevados e funções hepáticas e renais dentro das referências para a idade. Considerando-se essas informações, é correto afirmar que o quadro clínico desse paciente é compatível com o diagnóstico de:
+
+A) poliarterite nodosa.
+B) arterite de Takayasu.
+C) doença de Kawasaki.
+D) vasculite por imunoglobulina A.
+
+**Gabarito oficial: D**
+
+**Por que D está correta (com base no exposto acima):** a combinação de púrpura palpável não desaparecendo à digitopressão em membros inferiores/nádegas, artralgia de joelhos, dor abdominal intensa com enterorragia (manifestação gastrointestinal grave da vasculite, exigindo UTI), gatilho infeccioso recente (amigdalite bacteriana) e **plaquetas normais** é o padrão-ouro clínico da vasculite por IgA — inclusive a ausência de eosinofilia e função hepática/renal normais ajudam a excluir outras hipóteses.
+
+**Por que as demais estão erradas:**
+- A) Poliarterite nodosa é uma vasculite de médios vasos, rara na infância, que cursa com acometimento sistêmico mais amplo (renal, cutâneo nodular, neurológico periférico), não tipicamente com púrpura palpável em membros inferiores/nádegas nesse padrão.
+- B) Arterite de Takayasu acomete grandes vasos (aorta e ramos), manifestando-se por claudicação, assimetria de pulsos e hipertensão — não por púrpura cutânea.
+- C) Doença de Kawasaki cursa com febre prolongada, conjuntivite, alterações de mucosa oral, exantema polimorfo e adenomegalia cervical — não com púrpura palpável nem enterorragia como manifestação central.
+
+**O que a banca estava testando:** reconhecimento da apresentação grave (gastrointestinal, com enterorragia e necessidade de UTI) da vasculite por IgA como diagnóstico diferencial entre as vasculites pediátricas, usando plaquetas normais e ausência de acometimento hepático/renal como pistas negativas contra outras vasculites sistêmicas.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 78]**
+
+Menino de 7 anos é levado à unidade de pronto atendimento com dor abdominal intensa e febre intermitente nos últimos 3 dias. Segundo relato da mãe, ele apresentou um quadro gripal há cerca de uma semana. Ao exame físico, o paciente apresenta púrpura palpável localizada principalmente nos membros inferiores e nas nádegas, além de edema nos tornozelos e dor nas articulações dos joelhos e cotovelos. A dor abdominal é difusa e não é aliviada com analgesia simples. Testes laboratoriais mostram proteinúria leve e hematúria microscópica.
+
+A) hipótese diagnóstica, com justificativa correta para o caso, é A doença de Kawasaki; presença de febre e envolvimento articular.
+B) artrite reumatoide juvenil; presença de febre, edema articular e dor.
+C) lúpus eritematoso sistêmico; artralgia, púrpura palpável e achados urinários.
+D) vasculite por imunoglobulina A; púrpura palpável, dor abdominal e achados urinários.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** quadro gripal antecedendo em cerca de uma semana o surgimento de púrpura palpável em membros inferiores/nádegas, artrite de joelhos e cotovelos com edema, dor abdominal intensa não responsiva a analgesia simples e achados urinários leves (proteinúria e hematúria microscópica) reproduz exatamente a tétrade da vasculite por IgA, com gatilho pós-infeccioso típico.
+
+**Por que as demais estão erradas:**
+- A) Doença de Kawasaki exige febre ≥5 dias (aqui é intermitente e há apenas 3 dias) e não cursa com púrpura palpável nem achados urinários típicos.
+- B) Artrite reumatoide juvenil (artrite idiopática juvenil) não explica a púrpura palpável nem os achados urinários, e tipicamente não tem gatilho infeccioso agudo imediatamente anterior nesse padrão.
+- C) LES poderia ter achados urinários e artralgia, mas é bem menos comum nessa faixa etária/sexo e não é a explicação mais provável diante do padrão pós-infeccioso claro e da púrpura palpável típica; o enunciado não fornece dados sorológicos (FAN, complemento) que sustentem LES.
+
+**O que a banca estava testando:** reconhecimento direto da tétrade da vasculite por IgA (púrpura + artrite + dor abdominal + achados urinários) associada a gatilho infeccioso recente, exigindo diferenciação de Kawasaki pelo critério temporal da febre e de LES/AIJ pela ausência de achados sorológicos/padrão típico.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual é a vasculite mais comum da infância?	Púrpura de Henoch-Schönlein (vasculite por IgA)	Revalida::Pediatria::PurpuraHenochSchonlein::Epidemiologia
+Qual o nome atual/oficial da púrpura de Henoch-Schönlein desde a nomenclatura de Chapel Hill 2012?	Vasculite por IgA	Revalida::Pediatria::PurpuraHenochSchonlein::Nomenclatura
+Quais são os 4 componentes da tétrade clássica da PHS?	Púrpura palpável, artrite/artralgia, dor abdominal, acometimento renal	Revalida::Pediatria::PurpuraHenochSchonlein::QuadroClinico
+Qual a distribuição típica da púrpura na PHS?	Membros inferiores e região glútea/nádegas, simétrica, poupando tronco e face	Revalida::Pediatria::PurpuraHenochSchonlein::QuadroClinico
+A púrpura da PHS é palpável ou plana? E some com plaquetopenia?	Palpável; sem plaquetopenia (plaquetas normais ou aumentadas)	Revalida::Pediatria::PurpuraHenochSchonlein::QuadroClinico
+Qual o achado laboratorial mais usado para diferenciar PHS de PTI?	Contagem de plaquetas: normal na PHS, baixa na PTI	Revalida::Pediatria::PurpuraHenochSchonlein::DiagnosticoDiferencial
+Como diferenciar PHS de meningococcemia diante de púrpura em criança?	Meningococcemia cursa com toxemia, evolução rápida, plaquetopenia e coagulopatia (CIVD); PHS não	Revalida::Pediatria::PurpuraHenochSchonlein::DiagnosticoDiferencial
+O que geralmente precede o quadro de PHS?	Infecção de vias aéreas superiores (viral ou estreptocócica) 1-3 semanas antes	Revalida::Pediatria::PurpuraHenochSchonlein::Etiopatogenia
+O diagnóstico da PHS é predominantemente clínico ou depende de biópsia?	Clínico na maioria dos casos; biópsia reservada a apresentações atípicas ou nefrite significativa	Revalida::Pediatria::PurpuraHenochSchonlein::Diagnostico
+Qual complicação intestinal grave deve ser suspeitada na PHS diante de mudança do padrão da dor abdominal?	Intussuscepção (invaginação) intestinal, tipicamente ileoileal	Revalida::Pediatria::PurpuraHenochSchonlein::Complicacoes
+Por que a invaginação da PHS é mais difícil de tratar que a invaginação idiopática do lactente?	Porque é tipicamente ileoileal (não ileocólica), respondendo pior a enema e sendo mais frequentemente cirúrgica	Revalida::Pediatria::PurpuraHenochSchonlein::Complicacoes
+Qual é a principal determinante de morbidade em longo prazo na PHS?	Nefrite crônica (acometimento renal)	Revalida::Pediatria::PurpuraHenochSchonlein::Complicacoes
+Por quanto tempo deve-se manter o seguimento com EAS e PA após o quadro agudo de PHS?	Por semanas a meses (mínimo cerca de 6 meses) pelo risco de nefrite tardia	Revalida::Pediatria::PurpuraHenochSchonlein::Seguimento
+Qual a principal indicação de corticoide sistêmico na PHS?	Dor abdominal significativa e acometimento renal grave (não para púrpura cutânea isolada)	Revalida::Pediatria::PurpuraHenochSchonlein::Tratamento
+Qual classe de medicamento é usada para artralgia/artrite na PHS, e qual cuidado tomar?	AINE; evitar se houver sangramento GI ativo ou nefrite significativa	Revalida::Pediatria::PurpuraHenochSchonlein::Tratamento
+A artrite da PHS deixa sequela articular?	Não; é transitória, migratória e não erosiva	Revalida::Pediatria::PurpuraHenochSchonlein::QuadroClinico
+Qual doença renal primária compartilha a mesma fisiopatologia (depósito de IgA) da nefrite da PHS?	Nefropatia por IgA (doença de Berger)	Revalida::Pediatria::PurpuraHenochSchonlein::Fisiopatologia
+Como a dor abdominal da PHS pode ser confundida no pronto-socorro, e qual o risco disso?	Com abdome agudo cirúrgico, levando a laparotomia desnecessária (mas invaginação real deve sempre ser descartada)	Revalida::Pediatria::PurpuraHenochSchonlein::PraticaClinica
+Qual achado sorológico tipicamente é negativo na PHS e ajuda a excluir LES?	FAN negativo	Revalida::Pediatria::PurpuraHenochSchonlein::DiagnosticoDiferencial
+Qual a evolução esperada da PHS na maioria das crianças?	Autolimitada, resolução em 4-6 semanas, com recorrências cutâneas/articulares possíveis em até 1/3 dos casos	Revalida::Pediatria::PurpuraHenochSchonlein::Prognostico
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Púrpura palpável em membros inferiores/nádegas + plaquetas normais + (artrite e/ou dor abdominal e/ou nefrite) = vasculite por IgA (Henoch-Schönlein).
+2. Plaquetas normais é o dado que descarta PTI diante de qualquer púrpura em criança — não assuma plaquetopenia por reflexo.
+3. Corticoide é indicado para dor abdominal significativa e nefrite grave — não para tratar a púrpura cutânea isolada.
+4. Todo caso de PHS precisa de seguimento ambulatorial com EAS seriado e PA por meses, mesmo sem alteração urinária inicial, pelo risco de nefrite tardia.
+5. Mudança do padrão da dor abdominal na PHS = suspeitar de invaginação intestinal (tipicamente ileoileal, mais cirúrgica que a idiopática).
+
+📊 **Tabela-síntese — diagnóstico diferencial de púrpuras na infância**
+| Condição | Tipo de púrpura | Plaquetas | Pista-chave adicional |
+|---|---|---|---|
+| Vasculite por IgA (PHS) | Palpável, MMII/nádegas | Normais/aumentadas | Dor abdominal, artrite, nefrite, gatilho infeccioso prévio |
+| PTI | Plana (petéquias/equimoses) | Baixas | Sem artrite/dor abdominal/nefrite típicas |
+| Meningococcemia | Petéquias evoluindo a necrose | Baixas (CIVD) | Toxemia, febre alta, evolução rápida, choque |
+| LES juvenil | Variável, pode incluir vasculite | Normais ou baixas | FAN positivo, acometimento multissistêmico, adolescente do sexo feminino |
+| GNPE isolada | Ausente | Normais | Síndrome nefrítica sem púrpura nem dor abdominal |
+
+⚡ **Fluxograma textual — seguimento renal pós-PHS:** diagnóstico do quadro agudo → EAS + PA na apresentação inicial (mesmo se normal) → reavaliação ambulatorial seriada de EAS e PA por semanas a meses (⚠️ VERIFICAR periodicidade exata no protocolo de referência) → se hematúria/proteinúria/hipertensão surgirem → encaminhar à nefrologia pediátrica, considerar biópsia renal se proteinúria maciça/síndrome nefrótica/disfunção renal → manter seguimento mínimo de 6 meses (estender até 12 meses se houver qualquer alteração urinária).
+
+🚫 **Os 3 erros mais comuns:** (1) confundir a dor abdominal da PHS com abdome cirúrgico e operar desnecessariamente, sem também deixar de excluir invaginação real; (2) dar alta sem programar seguimento renal ambulatorial, perdendo o diagnóstico de nefrite tardia; (3) tratar toda púrpura em criança como PTI sem reparar que é palpável e vem com artrite/dor abdominal, ou prescrever corticoide de forma rotineira para púrpura cutânea isolada sem indicação.
+
+🔗 **Conexões com outros módulos:** NEF-01 (glomerulonefrite pós-estreptocócica — diferencial de síndrome nefrítica em criança), PED-23 (síndrome nefrótica — diferencial de proteinúria maciça), PED-16 (abdome agudo na infância — diferencial da dor abdominal), HEM (púrpuras e trombocitopenias — diferencial da PTI), INF-08 (doença meningocócica — diferencial de púrpura com toxemia).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-70",
+  "especialidade": "Pediatria",
+  "tema": "Púrpura de Henoch-Schönlein",
+  "assunto": "Diagnóstico diferencial de púrpura palpável em criança com dor abdominal, artralgia e acometimento renal; tratamento e seguimento nefrológico",
+  "tier": "A",
+  "n_questoes": 4,
+  "n_flashcards": 20,
+  "tempo_estudo_min": 75,
+  "prerequisitos": [],
+  "relacionados": ["NEF-01", "PED-23", "PED-16", "INF-08"],
+  "data_geracao": "2026-08-08",
+  "itens_a_verificar": [
+    "Texto exato da alternativa D da questão INEP2024-1-Q078 — não recuperado na extração do PDF; conteúdo inferido pelo gabarito e coerência clínica, não citado literalmente",
+    "Contaminação de texto na alternativa D da questão INEP2017-1-Q015 (mistura com questão de cisto de ovário) — reconstituída apenas com o trecho pertinente",
+    "Periodicidade exata do seguimento ambulatorial com EAS/PA pós-PHS (semanal/quinzenal/mensal) — confirmar no protocolo/diretriz de referência vigente antes de orientar a família com números fixos",
+    "Existência de PCDT nacional específico do MS para vasculite por IgA — não localizado; verificar se existe diretriz brasileira mais recente e específica",
+    "Ano/edição vigente das diretrizes SBP/SBR e dos critérios EULAR/PRINTO/PRES citados nas referências",
+    "Confirmar se há questões adicionais sobre o tema nas edições 2022.1 e 2026.1, ainda não classificadas por encoding corrompido"
+  ]
+}
+```

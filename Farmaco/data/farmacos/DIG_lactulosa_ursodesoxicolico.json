@@ -1,0 +1,243 @@
+[
+  {
+    "id": "DIG-lactulosa-rifaximina",
+    "nombre": "Lactulosa y rifaximina",
+    "sinonimos": [
+      "Tratamiento de la encefalopatía hepática"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Laxante osmótico y antibiótico no absorbible",
+    "subclase": "Disacárido no absorbible y rifamicina de acción intraluminal",
+    "mecanismo": "La LACTULOSA es un disacárido que el intestino humano NO puede digerir porque carece de la disacaridasa correspondiente: llega intacta al colon, donde la flora la fermenta produciendo ácidos grasos de cadena corta. De ahí salen sus dos efectos, y el segundo es el que importa en la encefalopatía. El primero es OSMÓTICO: retiene agua y produce el efecto laxante. El segundo es la ACIDIFICACIÓN del contenido colónico, que convierte el AMONIACO (NH3, liposoluble y absorbible) en AMONIO (NH4+, ionizado y no absorbible), atrapándolo en la luz para que se elimine con las heces; además el pH ácido desfavorece a las bacterias productoras de ureasa. La RIFAXINIMA es un derivado de la rifamicina con absorción prácticamente NULA (menos del 0,4%), de modo que actúa solo dentro de la luz intestinal reduciendo la flora productora de amoniaco, sin exposición sistémica y sin las interacciones de la rifampicina.",
+    "espectro": "Rifaximina: flora intestinal aerobia y anaerobia, grampositiva y gramnegativa, dentro de la luz intestinal.",
+    "indicaciones": [
+      {
+        "patologia": "ENCEFALOPATÍA HEPÁTICA aguda y su prevención",
+        "dosis": "Lactulosa 30-45 mL cada 8-12 horas por vía oral, o 300 mL en 700 mL de agua en enema si hay bajo nivel de conciencia",
+        "posologia": "Ajustada para conseguir 2-3 DEPOSICIONES BLANDAS al día",
+        "via": "VO",
+        "dosis_objetivo": "2-3 deposiciones blandas diarias: es el objetivo terapéutico, ni menos (no funciona) ni más (deshidrata y empeora)",
+        "nota": "La dosis NO es fija: se titula por deposiciones. Es uno de los pocos fármacos que se dosifican por un resultado observable directamente por el paciente"
+      },
+      {
+        "patologia": "PREVENCIÓN de recurrencias de la encefalopatía hepática",
+        "dosis": "Rifaximina 550 mg cada 12 horas, AÑADIDA a la lactulosa",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "La combinación reduce las recurrencias y los ingresos mucho más que la lactulosa sola. Se AÑADE, no la sustituye"
+      },
+      {
+        "patologia": "ESTREÑIMIENTO crónico",
+        "dosis": "Lactulosa 15-30 mL al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "El macrogol se tolera mejor y produce menos flatulencia: en el estreñimiento simple es preferible"
+      },
+      {
+        "patologia": "Diarrea del viajero y sobrecrecimiento bacteriano intestinal (rifaximina)",
+        "dosis": "Rifaximina 200 mg cada 8 horas durante 3 días (viajero) o 400-550 mg cada 8-12 horas durante 14 días (sobrecrecimiento)",
+        "posologia": "Cada 8-12 horas",
+        "via": "VO",
+        "nota": "Al no absorberse, trata la luz intestinal sin exposición sistémica ni presión selectiva relevante sobre la flora del resto del organismo"
+      },
+      {
+        "patologia": "Síndrome de intestino irritable con diarrea",
+        "dosis": "Rifaximina 550 mg cada 8 horas durante 14 días",
+        "posologia": "Cada 8 horas durante 2 semanas",
+        "via": "VO",
+        "nota": "Beneficio modesto y a menudo transitorio; se puede repetir el ciclo"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la encefalopatía, empezar por 30 mL cada 8 horas y ajustar. Y sobre todo BUSCAR EL DESENCADENANTE: infección (peritonitis bacteriana espontánea), hemorragia digestiva, estreñimiento, deshidratación, alteración hidroelectrolítica, sedantes o transgresión dietética.",
+      "titulacion": "Por número de DEPOSICIONES, no por miligramos. Menos de 2 al día: subir. Más de 4: bajar.",
+      "duracion": "Indefinida tras un primer episodio de encefalopatía, por el alto riesgo de recurrencia.",
+      "fin": "No se retira, salvo trasplante hepático.",
+      "via": "Oral o en ENEMA en el paciente con bajo nivel de conciencia que no puede tragar con seguridad.",
+      "monitorizacion": "Número de deposiciones, estado mental (test psicométricos o simplemente la capacidad de escribir o dibujar), sodio, potasio y función renal. El AMONIACO en sangre NO sirve para seguir la evolución."
+    },
+    "farmacocinetica": {
+      "absorcion": "Lactulosa: NO se absorbe. Rifaximina: menos del 0,4%.",
+      "distribucion": "Limitada a la luz intestinal.",
+      "metabolismo": "Fermentación bacteriana colónica (lactulosa).",
+      "eliminacion": "Fecal.",
+      "vida_media": "No aplicable clínicamente.",
+      "ajuste_renal": "No requieren ajuste.",
+      "ajuste_hepatico": "No requieren ajuste, y precisamente ahí está su valor: son fármacos para el hepatópata que no dependen del hígado.",
+      "interacciones": [
+        {
+          "con": "Antiácidos y otros laxantes",
+          "efecto": "Modifican el pH colónico y pueden reducir la eficacia de la lactulosa",
+          "gravedad": "baja",
+          "manejo": "Evitar la asociación innecesaria"
+        },
+        {
+          "con": "Diuréticos",
+          "efecto": "La diarrea excesiva por lactulosa suma deshidratación e hipopotasemia, que a su vez PRECIPITAN la encefalopatía",
+          "gravedad": "alta",
+          "manejo": "Es una trampa clásica: pasarse con la lactulosa empeora la encefalopatía que se quiere tratar, por deshidratación y alcalosis hipopotasémica"
+        },
+        {
+          "con": "Antibióticos sistémicos de amplio espectro",
+          "efecto": "Reducen la flora fermentadora y con ella la eficacia de la lactulosa",
+          "gravedad": "media",
+          "manejo": "Tenerlo en cuenta en el cirrótico ingresado con antibioterapia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "FLATULENCIA, distensión abdominal y retortijones (lactulosa), causa muy frecuente de mala adherencia",
+        "Sabor excesivamente dulce y empalagoso",
+        "Diarrea excesiva",
+        "Rifaximina: muy bien tolerada, con molestias digestivas leves"
+      ],
+      "graves": [
+        "DESHIDRATACIÓN, HIPERNATREMIA e HIPOPOTASEMIA por diarrea excesiva, que PRECIPITAN la encefalopatía en lugar de tratarla",
+        "Broncoaspiración al administrar lactulosa oral a un paciente encefalopático con bajo nivel de conciencia (por eso se usa el enema)",
+        "Megacolon y neumatosis intestinal (excepcionales)",
+        "Colitis por Clostridioides difficile con rifaximina (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal y sospecha de perforación",
+      "Galactosemia (la lactulosa contiene galactosa)",
+      "Lactulosa oral en el paciente con bajo nivel de conciencia sin vía aérea protegida",
+      "Hipersensibilidad a las rifamicinas"
+    ],
+    "perlas": [
+      "La dosis de lactulosa se titula por DEPOSICIONES: el objetivo son 2-3 blandas al día. Ni una menos, porque entonces no funciona, ni cinco más, porque la diarrea deshidrata, produce hipopotasemia y PRECIPITA la encefalopatía que se pretendía tratar. Es el error más frecuente y más contraproducente del manejo del cirrótico.",
+      "El AMONIACO en sangre NO sirve para seguir la evolución. Correlaciona mal con el estado mental, y perseguir la cifra en lugar de mirar al paciente lleva a decisiones equivocadas. El seguimiento es CLÍNICO: orientación, asterixis, capacidad de escribir o de dibujar una estrella.",
+      "Ante una encefalopatía hay que BUSCAR EL DESENCADENANTE, porque casi siempre lo hay: infección (y en el cirrótico con ascitis, siempre una paracentesis para descartar peritonitis bacteriana espontánea), hemorragia digestiva, estreñimiento, deshidratación, hipopotasemia, sedantes o exceso de diuréticos. Tratar la encefalopatía sin buscar la causa es tratar la mitad del problema.",
+      "El mecanismo se resume en una idea química: la acidificación del colon convierte el AMONIACO absorbible en AMONIO no absorbible, atrapándolo en la luz. La lactulosa no elimina amoniaco, impide que se reabsorba.",
+      "La RIFAXIMINA se AÑADE a la lactulosa, no la sustituye. La combinación reduce las recurrencias y los ingresos hospitalarios de forma sustancial, y su gran virtud es que no se absorbe: no interacciona ni obliga a ajustar nada en un paciente que ya tiene el hígado comprometido.",
+      "En el paciente ENCEFALOPÁTICO con bajo nivel de conciencia, la lactulosa se administra en ENEMA, no por boca: darle 45 mL de un jarabe espeso a alguien que no protege la vía aérea es una broncoaspiración esperando a ocurrir.",
+      "La restricción PROTEICA está ABANDONADA: el cirrótico está desnutrido y sarcopénico, y restringirle las proteínas empeora su pronóstico. Hoy se recomienda un aporte proteico normal o incluso alto, con preferencia por proteínas vegetales y lácteas.",
+      "La FLATULENCIA y el sabor empalagoso son la causa principal de que el paciente abandone la lactulosa. Preguntarlo y ajustar la presentación o la dosis vale más que insistir en la importancia del tratamiento."
+    ],
+    "embarazo_lactancia": "La lactulosa es segura en el embarazo y en la lactancia por su nula absorción, y es uno de los laxantes de elección en la gestante. La rifaximina apenas se absorbe, aunque los datos en gestantes son limitados.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías AASLD/EASL sobre encefalopatía hepática"
+  },
+  {
+    "id": "DIG-acido-ursodesoxicolico",
+    "nombre": "Ácido ursodesoxicólico",
+    "sinonimos": [
+      "UDCA"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Ácido biliar",
+    "subclase": "Ácido biliar hidrófilo de acción coleréticа y citoprotectora",
+    "mecanismo": "Es un ácido biliar HIDRÓFILO que en el ser humano representa menos del 3% del pool biliar y que, administrado por vía oral, pasa a representar el 40-50%. Ese desplazamiento del pool es su mecanismo esencial: sustituye a los ácidos biliares HIDRÓFOBOS (quenodesoxicólico, litocólico), que son detergentes y tóxicos para la membrana del hepatocito y del colangiocito. A partir de ahí actúa por tres vías: CITOPROTECCIÓN de la membrana frente a la toxicidad de los ácidos biliares retenidos, estimulación de la SECRECIÓN biliar por inserción de transportadores en la membrana canalicular, con lo que aumenta el flujo y arrastra la bilis estancada, y un efecto INMUNOMODULADOR que reduce la expresión de HLA en el epitelio biliar. En la litiasis, además, reduce la saturación de colesterol de la bilis y permite disolver lentamente cálculos pequeños y no calcificados.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "COLANGITIS BILIAR PRIMARIA (antigua cirrosis biliar primaria)",
+        "dosis": "13-15 mg/kg/día",
+        "posologia": "Repartido en 2 tomas o en una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Normalización o descenso de la FOSFATASA ALCALINA por debajo de 1,67 veces el límite superior, con bilirrubina normal, a los 12 meses",
+        "nota": "Es el ÚNICO tratamiento que modifica el pronóstico de esta enfermedad: retrasa la progresión histológica, la necesidad de trasplante y aumenta la supervivencia"
+      },
+      {
+        "patologia": "COLESTASIS INTRAHEPÁTICA DEL EMBARAZO",
+        "dosis": "10-15 mg/kg/día",
+        "posologia": "Repartido en 2-3 tomas",
+        "via": "VO",
+        "dosis_objetivo": "Alivio del PRURITO y descenso de los ácidos biliares séricos",
+        "nota": "Mejora el prurito materno y la analítica; su efecto sobre el pronóstico fetal es más discutido y no sustituye a la vigilancia obstétrica ni a la decisión sobre el momento del parto"
+      },
+      {
+        "patologia": "Prevención de la litiasis biliar tras cirugía bariátrica o pérdida rápida de peso",
+        "dosis": "500-600 mg al día durante 6 meses",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Reduce de forma significativa la formación de cálculos en un periodo de riesgo muy alto"
+      },
+      {
+        "patologia": "Disolución de cálculos de COLESTEROL pequeños y no calcificados con vesícula funcionante",
+        "dosis": "8-10 mg/kg/día durante 6-24 meses",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Disolución ecográfica del cálculo",
+        "nota": "Indicación muy limitada y lenta, con recidiva frecuente al suspenderlo: la colecistectomía sigue siendo el tratamiento definitivo"
+      },
+      {
+        "patologia": "Fibrosis quística con afectación hepática y colestasis del recién nacido",
+        "dosis": "20 mg/kg/día",
+        "posologia": "Repartido en 2 tomas",
+        "via": "VO",
+        "nota": "Uso extendido, aunque el beneficio a largo plazo sobre la supervivencia no está firmemente demostrado"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar el diagnóstico (en la colangitis biliar primaria, fosfatasa alcalina elevada más anticuerpos antimitocondriales positivos, sin necesidad de biopsia en la mayoría de los casos).",
+      "titulacion": "Ascenso progresivo hasta la dosis por peso; se tolera bien.",
+      "duracion": "INDEFINIDA en la colangitis biliar primaria; hasta el parto en la colestasis del embarazo.",
+      "fin": "No se retira en la colangitis biliar primaria. En la litiasis, la recidiva tras suspenderlo es la norma.",
+      "via": "Oral, preferiblemente con la cena o repartido con las comidas.",
+      "monitorizacion": "Fosfatasa alcalina, gamma-GT, bilirrubina y transaminasas a los 3, 6 y 12 meses. La RESPUESTA BIOQUÍMICA al año es el mejor factor pronóstico de la enfermedad."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; entra en la circulación enterohepática.",
+      "distribucion": "Circulación enterohepática, con captación hepática de primer paso muy eficiente.",
+      "metabolismo": "Conjugación hepática con glicina y taurina; parte se transforma en ácido litocólico por la flora.",
+      "eliminacion": "Biliar y fecal.",
+      "vida_media": "3-6 días en el pool biliar.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución en la cirrosis descompensada, donde puede empeorar el pronóstico.",
+      "interacciones": [
+        {
+          "con": "COLESTIRAMINA, colestipol y antiácidos con aluminio",
+          "efecto": "Lo SECUESTRAN e impiden su absorción",
+          "gravedad": "alta",
+          "manejo": "Interacción muy relevante porque la colestiramina se usa para el mismo síntoma (el PRURITO colestásico): hay que separarlos al menos 4 horas"
+        },
+        {
+          "con": "Estrógenos, anticonceptivos y fibratos",
+          "efecto": "Aumentan la litogenicidad de la bilis y contrarrestan su efecto disolvente",
+          "gravedad": "media",
+          "manejo": "Valorar suspenderlos en la indicación de litiasis"
+        },
+        {
+          "con": "Ciclosporina y nitrendipino",
+          "efecto": "Modifica su absorción",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles de ciclosporina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIARREA y heces blandas, el efecto adverso más frecuente y dosis-dependiente",
+        "Molestias abdominales",
+        "Náuseas"
+      ],
+      "graves": [
+        "Empeoramiento y descompensación en la CIRROSIS BILIAR AVANZADA, sobre todo a dosis altas: en la colangitis esclerosante primaria, las dosis altas (28-30 mg/kg/día) AUMENTARON los eventos graves y la mortalidad en un ensayo, y por eso están desaconsejadas",
+        "Calcificación de los cálculos con el uso prolongado",
+        "Reacciones alérgicas (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Colecistitis aguda y obstrucción de la vía biliar",
+      "Cálculos calcificados o radiopacos y vesícula no funcionante (para la indicación de disolución)",
+      "Cirrosis descompensada",
+      "DOSIS ALTAS en la colangitis esclerosante primaria"
+    ],
+    "perlas": [
+      "En la COLANGITIS BILIAR PRIMARIA es el único fármaco que modifica el pronóstico, y la RESPUESTA BIOQUÍMICA al año (fosfatasa alcalina por debajo de 1,67 veces el límite superior con bilirrubina normal) es el mejor factor pronóstico disponible: identifica a los pacientes que necesitarán una segunda línea, como el ácido obeticólico o los fibratos.",
+      "La lección más interesante de este fármaco es que MÁS NO ES MEJOR: en la colangitis esclerosante primaria, las dosis altas de 28-30 mg/kg/día AUMENTARON los eventos graves y la mortalidad. Es un recordatorio de que extrapolar de una enfermedad colestásica a otra puede salir caro.",
+      "La COLESTIRAMINA lo SECUESTRA, y ambas se usan para el mismo paciente y el mismo síntoma: hay que separarlas al menos 4 horas o el ursodesoxicólico no llega a absorberse. Es un fallo de coordinación terapéutica muy fácil de cometer.",
+      "En la COLESTASIS DEL EMBARAZO alivia el prurito, que puede ser desesperante e impedir dormir, y mejora la analítica. Pero su efecto sobre el pronóstico FETAL es discutido: no sustituye a la vigilancia obstétrica ni a la decisión sobre el momento de finalizar la gestación, que se basa en los niveles de ácidos biliares.",
+      "Su indicación para DISOLVER cálculos es muy limitada: solo cálculos de colesterol, pequeños, no calcificados y con vesícula funcionante, y aun así tarda meses o años y recidiva al suspenderlo. La colecistectomía sigue siendo el tratamiento definitivo de la litiasis sintomática.",
+      "Tras la CIRUGÍA BARIÁTRICA o una pérdida rápida de peso, seis meses de tratamiento reducen mucho la formación de cálculos, un periodo en el que el riesgo es especialmente alto. Es una profilaxis sencilla que se olvida con frecuencia.",
+      "Su mecanismo es fácil de recordar: DESPLAZA el pool de ácidos biliares tóxicos e hidrófobos y lo sustituye por uno hidrófilo e inofensivo. No es un colerético cualquiera, es un cambio de composición de la bilis."
+    ],
+    "embarazo_lactancia": "Es el tratamiento de elección de la colestasis intrahepática del embarazo y se considera seguro en la gestación. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías EASL sobre enfermedades colestásicas del hígado"
+  }
+]

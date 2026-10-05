@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farmaco Hub · Farmacoterapia, pediatría y microbiología</title>
+<link rel="stylesheet" href="style.css">
+<script>
+// Aplicar el tema guardado ANTES de pintar la página, para evitar parpadeo (FOUC).
+(function () {
+  try {
+    var t = localStorage.getItem('farmacohub-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { /* localStorage no disponible (p.ej. file:// en algunos navegadores) — se ignora */ }
+})();
+</script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">Farmaco<span>Hub</span></div>
+  <nav class="mainnav">
+    <button class="navbtn active" data-view="panel">Panel</button>
+    <button class="navbtn" data-view="patologias">Patologías</button>
+    <button class="navbtn" data-view="vademecum">Vademécum</button>
+    <button class="navbtn" data-view="pediatria">Pediatría</button>
+    <button class="navbtn" data-view="microbiologia">Microbiología</button>
+    <button class="navbtn" data-view="correlacion">Correlación</button>
+    <button class="navbtn" data-view="comparar">Comparar</button>
+  </nav>
+  <div class="busqueda-global">
+    <input type="text" id="busqueda-input" placeholder="Buscar patología, fármaco o patógeno…" autocomplete="off">
+    <div id="busqueda-resultados" class="busqueda-resultados hidden"></div>
+  </div>
+  <button id="btn-tema" class="btn-tema" title="Cambiar tema">🌗 Tema</button>
+</header>
+
+<main id="app">
+  <div id="loading" class="loading">Cargando fichas…</div>
+
+  <!-- ================= PANEL ================= -->
+  <section id="view-panel" class="view hidden">
+    <h1>Panel general</h1>
+    <p class="sub">Plataforma de farmacoterapia clínica y microbiología. Prioridad: <strong>nivel 1</strong> = núcleo del clínico general · <strong>nivel 2</strong> = frecuente con matiz · <strong>nivel 3</strong> = hospitalario/específico.</p>
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <h2>Cobertura por área terapéutica</h2>
+    <div class="table-wrap">
+      <table id="tabla-areas">
+        <thead><tr><th>Área</th><th>Fármacos</th><th>Pediatría</th><th>Nivel 1</th><th>Nivel 2</th><th>Nivel 3</th><th>Clases cubiertas</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <h2>Cobertura por grupo microbiológico</h2>
+    <div class="table-wrap">
+      <table id="tabla-grupos">
+        <thead><tr><th>Grupo</th><th>Patógenos</th><th>Nivel 1</th><th>Nivel 2</th><th>Nivel 3</th><th>Con tratamiento correlacionado</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= PATOLOGÍAS ================= -->
+  <section id="view-patologias" class="view hidden">
+    <h1>Tratamiento por patología</h1>
+    <p class="sub">Busca el cuadro clínico y ve de un vistazo con qué se trata: fármaco, dosis, vía, cada cuántas horas y durante cuánto tiempo, ordenado por línea de tratamiento. Pulsa cualquier fármaco para abrir su ficha completa (interacciones, ajustes, particularidades).</p>
+    <div class="filters">
+      <label>Área <select id="pat-area"></select></label>
+      <label>Población <select id="pat-pob">
+        <option value="todos">Todas</option>
+        <option value="adulto">Con pauta de adulto</option>
+        <option value="pediatria">Con pauta pediátrica</option>
+      </select></label>
+      <label>Buscar patología, síntoma o fármaco <input type="text" id="pat-filtro" placeholder="p. ej. neumonía, HTA, amoxicilina"></label>
+    </div>
+    <div class="split">
+      <div class="lista" id="pat-lista"></div>
+      <div class="ficha" id="pat-ficha"><div class="vacio">Selecciona una patología de la lista.</div></div>
+    </div>
+  </section>
+
+  <!-- ================= VADEMÉCUM ================= -->
+  <section id="view-vademecum" class="view hidden">
+    <h1>Vademécum clínico</h1>
+    <p class="sub">Ficha completa por fármaco: clasificación, mecanismo, indicación con dosis, esquema de tratamiento, farmacocinética e interacciones, efectos adversos y particularidades.</p>
+    <div class="filters">
+      <label>Área <select id="vad-area"></select></label>
+      <label>Clase <select id="vad-clase"></select></label>
+      <label>Nivel de prioridad <select id="vad-nivel">
+        <option value="todos">Todos</option>
+        <option value="1">Nivel 1 — núcleo</option>
+        <option value="2">Nivel 2 — frecuente</option>
+        <option value="3">Nivel 3 — específico</option>
+      </select></label>
+      <label>Filtrar por nombre <input type="text" id="vad-filtro" placeholder="p. ej. amoxi"></label>
+    </div>
+    <div class="split">
+      <div class="lista" id="vad-lista"></div>
+      <div class="ficha" id="vad-ficha"><div class="vacio">Selecciona un fármaco de la lista.</div></div>
+    </div>
+  </section>
+
+  <!-- ================= PEDIATRÍA ================= -->
+  <section id="view-pediatria" class="view hidden">
+    <h1>Farmacoterapia pediátrica</h1>
+    <p class="sub">Sección independiente: mismos fármacos, datos propios del niño (mg/kg, dosis máxima, edad mínima, presentaciones y lo que cambia respecto al adulto).</p>
+    <div class="filters">
+      <label>Área <select id="ped-area"></select></label>
+      <label>Nivel de prioridad <select id="ped-nivel">
+        <option value="todos">Todos</option>
+        <option value="1">Nivel 1 — núcleo</option>
+        <option value="2">Nivel 2 — frecuente</option>
+        <option value="3">Nivel 3 — específico</option>
+      </select></label>
+      <label>Filtrar por nombre <input type="text" id="ped-filtro" placeholder="p. ej. parace"></label>
+    </div>
+    <div class="split">
+      <div class="lista" id="ped-lista"></div>
+      <div class="ficha" id="ped-ficha"><div class="vacio">Selecciona un fármaco de la lista.</div></div>
+    </div>
+  </section>
+
+  <!-- ================= MICROBIOLOGÍA ================= -->
+  <section id="view-microbiologia" class="view hidden">
+    <h1>Microbiología clínica</h1>
+    <p class="sub">Ficha por patógeno: clasificación, patogenia, cuadros y lesiones, características clave, diagnóstico y tratamiento/sensibilidad.</p>
+    <div class="filters">
+      <label>Grupo <select id="mic-grupo"></select></label>
+      <label>Nivel de prioridad <select id="mic-nivel">
+        <option value="todos">Todos</option>
+        <option value="1">Nivel 1 — núcleo</option>
+        <option value="2">Nivel 2 — frecuente</option>
+        <option value="3">Nivel 3 — específico</option>
+      </select></label>
+      <label>Filtrar por nombre o cuadro <input type="text" id="mic-filtro" placeholder="p. ej. neumonía"></label>
+    </div>
+    <div class="split">
+      <div class="lista" id="mic-lista"></div>
+      <div class="ficha" id="mic-ficha"><div class="vacio">Selecciona un patógeno de la lista.</div></div>
+    </div>
+  </section>
+
+  <!-- ================= CORRELACIÓN ================= -->
+  <section id="view-correlacion" class="view hidden">
+    <h1>Correlación fármaco ↔ patógeno</h1>
+    <p class="sub">La vista puente: desde el patógeno, qué antimicrobianos lo cubren; desde el antimicrobiano, qué patógenos entran en su espectro.</p>
+    <div class="filters">
+      <label>Punto de partida <select id="corr-modo">
+        <option value="patogeno">Patógeno → antimicrobianos</option>
+        <option value="farmaco">Antimicrobiano → patógenos</option>
+      </select></label>
+      <label>Buscar <input type="text" id="corr-filtro" placeholder="Filtrar…"></label>
+    </div>
+    <div class="corr-grid">
+      <div class="corr-col">
+        <h3 id="corr-titulo-izq">Patógenos</h3>
+        <div id="corr-lista"></div>
+      </div>
+      <div class="corr-col">
+        <h3 id="corr-titulo-der">Selecciona un elemento</h3>
+        <div id="corr-detalle"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPARAR ================= -->
+  <section id="view-comparar" class="view hidden">
+    <h1>Comparar fármacos de una misma clase</h1>
+    <p class="sub">La pregunta real en la consulta: dentro de esta clase, ¿cuál elijo? Comparativa lado a lado de dosis, esquema, farmacocinética, efectos adversos graves y particularidades.</p>
+    <div class="filters">
+      <label>Ámbito <select id="cmp-ambito">
+        <option value="farmacos">Adulto</option>
+        <option value="pediatria">Pediatría</option>
+      </select></label>
+      <label>Área <select id="cmp-area"></select></label>
+      <label>Clase <select id="cmp-clase"></select></label>
+    </div>
+    <div class="cmp-wrap table-wrap" id="cmp-tabla"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  Farmaco Hub — vademécum clínico + microbiología correlacionada.<br>
+  Fuentes: Katzung 15.ª ed. · Harrison 20.ª ed. · Murray 9.ª ed. (estructura) · AMIR Infecciosas y Microbiología 18.ª ed.<br>
+  Datos locales, sin envío a servidores externos. Herramienta de estudio: verificar siempre la ficha técnica antes de prescribir.
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

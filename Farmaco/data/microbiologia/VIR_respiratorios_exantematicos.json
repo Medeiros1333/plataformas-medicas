@@ -1,0 +1,566 @@
+[
+  {
+    "id": "VIR-virus-respiratorio-sincitial",
+    "nombre": "Virus respiratorio sincitial (VRS)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad NEGATIVA, NO segmentado, con envoltura, familia Pneumoviridae (antes Paramyxoviridae), género Orthopneumovirus; subtipos A y B",
+    "morfologia_tincion": "Virión pleomórfico con envoltura y dos glucoproteínas de superficie: G (adhesión) y F (fusión). La proteína F es la que fusiona las células infectadas formando SINCITIOS, de donde toma el nombre, y es la diana del palivizumab y del nirsevimab.",
+    "mecanismo_patogenia": [
+      "Transmisión por gotas y sobre todo por CONTACTO con secreciones y fómites; sobrevive horas en superficies, lo que explica los brotes nosocomiales y la importancia del lavado de manos.",
+      "Infecta el epitelio respiratorio y, mediante la proteína F, forma sincitios que se descaman y OBSTRUYEN las vías aéreas de pequeño calibre.",
+      "La obstrucción bronquiolar por edema, moco y detritos celulares, sumada a la escasa ventilación colateral del lactante, produce ATRAPAMIENTO AÉREO e hiperinsuflación: por eso los broncodilatadores sirven de poco, ya que el problema no es fundamentalmente el broncoespasmo.",
+      "La inmunidad que deja es INCOMPLETA y de corta duración: se producen reinfecciones a lo largo de toda la vida, cada vez más leves en el sano pero potencialmente graves en el anciano y el inmunodeprimido.",
+      "La infección grave en el lactante se asocia a sibilancias recurrentes y a mayor riesgo de asma posterior."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Bronquiolitis aguda del lactante",
+        "clinica": "Primer episodio de dificultad respiratoria en un menor de 2 años (típicamente menor de 12 meses), precedido de 2-3 días de catarro, con tos, taquipnea, tiraje, aleteo, SIBILANCIAS y crepitantes, y con frecuencia rechazo de la alimentación. Puede haber APNEAS como forma de presentación en el lactante muy pequeño y en el prematuro.",
+        "lesiones": "Bronquiolitis necrosante con descamación epitelial, edema, tapones de moco y atrapamiento aéreo; radiografía con hiperinsuflación y atelectasias laminares.",
+        "clave": "Es la causa más frecuente de ingreso hospitalario en el lactante. El tratamiento es de SOPORTE: oxígeno, hidratación y lavados nasales. NO están indicados de rutina broncodilatadores, corticoides, antibióticos ni fisioterapia respiratoria."
+      },
+      {
+        "cuadro": "Neumonía y traqueobronquitis",
+        "clinica": "Fiebre, tos y dificultad respiratoria; en el niño mayor y el adulto se comporta como una infección respiratoria de vías bajas.",
+        "lesiones": "Infiltrados intersticiales bilaterales.",
+        "clave": "El VRS es una causa infravalorada de neumonía en el ANCIANO, con una mortalidad comparable a la de la gripe en residencias."
+      },
+      {
+        "cuadro": "Infección grave del paciente de riesgo",
+        "clinica": "Insuficiencia respiratoria en prematuros, cardiópatas con repercusión hemodinámica, displasia broncopulmonar, inmunodeprimidos y ancianos.",
+        "lesiones": "Insuficiencia respiratoria hipoxémica; en el trasplantado de progenitores hematopoyéticos puede progresar a neumonía grave.",
+        "clave": "Estos son los grupos diana de la inmunización pasiva."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es la causa más frecuente de bronquiolitis y de ingreso hospitalario en el lactante, con epidemias anuales de otoño-invierno muy predecibles.",
+      "El tratamiento de la bronquiolitis es de SOPORTE. La evidencia no respalda broncodilatadores, adrenalina nebulizada, corticoides, suero salino hipertónico sistemático ni antibióticos.",
+      "La prevención ha cambiado radicalmente: el NIRSEVIMAB, anticuerpo monoclonal de vida media prolongada frente a la proteína F, se administra en DOSIS ÚNICA a todos los lactantes en su primera temporada; el palivizumab mensual queda relegado.",
+      "Existe además vacuna materna (durante el embarazo) y vacunas para mayores de 60 años.",
+      "La inmunidad no es duradera: hay reinfecciones toda la vida, y en el anciano pueden ser graves.",
+      "Las APNEAS pueden ser la primera manifestación en el lactante menor de 2 meses y en el prematuro, incluso sin dificultad respiratoria evidente.",
+      "El VRS se transmite sobre todo por CONTACTO: el lavado de manos y el aislamiento de contacto son las medidas nosocomiales más eficaces."
+    ],
+    "diagnostico": {
+      "muestra": "Aspirado o frotis nasofaríngeo.",
+      "pruebas": [
+        "Test rápido de antígeno en aspirado nasofaríngeo: rápido y razonablemente sensible en el lactante, que tiene carga viral alta",
+        "PCR múltiple respiratoria: mayor sensibilidad; útil en el adulto, el inmunodeprimido y el control de brotes",
+        "Radiografía de tórax: NO indicada de rutina en la bronquiolitis típica; solo ante duda diagnóstica o mala evolución",
+        "Pulsioximetría: guía la indicación de oxigenoterapia y de ingreso"
+      ],
+      "claves": "El diagnóstico de la bronquiolitis es CLÍNICO. Identificar el virus no cambia el tratamiento; solo sirve para decidir el aislamiento por cohortes en el hospital."
+    },
+    "tratamiento": {
+      "eleccion": "SOPORTE: oxigenoterapia si la saturación es baja, lavados nasales, alimentación fraccionada o sonda nasogástrica, hidratación intravenosa si hay mala tolerancia oral. Oxigenoterapia de alto flujo en las formas moderadas-graves.",
+      "alternativas": "Ribavirina inhalada solo en casos excepcionales del inmunodeprimido grave. Prueba terapéutica única con broncodilatador únicamente en casos seleccionados, retirándolo si no hay respuesta objetiva.",
+      "resistencias": "No aplicable en la práctica clínica habitual.",
+      "duracion": "El cuadro dura 7-12 días, con pico de gravedad en el 3.º-5.º día; la tos puede persistir 3-4 semanas.",
+      "notas": "PREVENCIÓN: nirsevimab en dosis única a todos los lactantes en su primera temporada epidémica; vacunación materna; vacuna en mayores de 60 años. Aislamiento de contacto en el hospital."
+    },
+    "farmacos_relacionados": [
+      "PED-INF-nirsevimab",
+      "PED-NML-montelukast"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 49 (estructura); AMIR Pediatría; Harrison 20.ª ed., cap. de infecciones respiratorias víricas"
+  },
+  {
+    "id": "VIR-sars-cov-2",
+    "nombre": "SARS-CoV-2 (COVID-19)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA con envoltura, familia Coronaviridae, betacoronavirus",
+    "morfologia_tincion": "Virión con envoltura de la que sobresalen las espículas de la proteína S (spike), que dan el aspecto de corona. La proteína S se une al receptor ECA2 y es la diana de las vacunas y de los anticuerpos neutralizantes.",
+    "mecanismo_patogenia": [
+      "La proteína S se une al receptor ECA2, presente en el epitelio respiratorio, el endotelio, el intestino y el riñón; la proteasa celular TMPRSS2 escinde la espícula y permite la fusión.",
+      "Fase inicial de replicación viral (primeros días, cuando son útiles los ANTIVÍRICOS) seguida, en los casos graves, de una fase INFLAMATORIA e inmunomediada a partir de la segunda semana (cuando son útiles los CORTICOIDES e inmunomoduladores). Entender esas dos fases es lo que ordena todo el tratamiento.",
+      "Disfunción endotelial y estado PROTROMBÓTICO con microtrombosis pulmonar: de ahí la profilaxis antitrombótica sistemática en el paciente hospitalizado.",
+      "Alteración del epitelio olfatorio (células sustentaculares) que explica la ANOSMIA precoz y desproporcionada.",
+      "Elevada variabilidad de la proteína S: las variantes sucesivas escapan parcialmente a la inmunidad previa y obligan a actualizar las vacunas."
+    ],
+    "patologias": [
+      {
+        "cuadro": "COVID-19 leve",
+        "clinica": "Fiebre, tos seca, odinofagia, cefalea, mialgias, astenia, congestión nasal, y de forma bastante característica ANOSMIA y AGEUSIA de aparición brusca. Diarrea en una minoría.",
+        "lesiones": "Sin lesiones radiológicas significativas.",
+        "clave": "La mayoría de los casos en población vacunada son leves y se manejan de forma ambulatoria y sintomática."
+      },
+      {
+        "cuadro": "Neumonía por COVID-19 e insuficiencia respiratoria",
+        "clinica": "Empeoramiento típicamente en la SEGUNDA semana, con disnea e hipoxemia que puede ser desproporcionada a la sensación subjetiva de falta de aire.",
+        "lesiones": "Opacidades en VIDRIO DESLUSTRADO bilaterales, periféricas y de predominio en bases y zonas posteriores; en las formas graves, daño alveolar difuso.",
+        "clave": "El deterioro en la segunda semana es inflamatorio: ahí el tratamiento es DEXAMETASONA (solo si hay necesidad de oxígeno), más tocilizumab o baricitinib en la progresión, y no antivíricos."
+      },
+      {
+        "cuadro": "Complicaciones trombóticas",
+        "clinica": "Tromboembolia pulmonar, trombosis venosa profunda e ictus, con dímero D muy elevado.",
+        "lesiones": "Microtrombosis capilar pulmonar y trombosis macrovascular.",
+        "clave": "Todo paciente hospitalizado recibe profilaxis con heparina de bajo peso molecular salvo contraindicación."
+      },
+      {
+        "cuadro": "Síndrome inflamatorio multisistémico pediátrico (SIM-PedS)",
+        "clinica": "Semanas después de la infección, en niños y adolescentes: fiebre persistente, afectación gastrointestinal marcada, exantema, conjuntivitis, shock y disfunción miocárdica, con reactantes muy elevados.",
+        "lesiones": "Miocarditis, dilatación coronaria, exantema y conjuntivitis no purulenta (solapamiento con la enfermedad de Kawasaki).",
+        "clave": "Es POSTINFECCIOSO: la PCR suele ser negativa y la serología positiva. Se trata con inmunoglobulinas y corticoides."
+      },
+      {
+        "cuadro": "COVID persistente",
+        "clinica": "Astenia, disnea, niebla mental, palpitaciones, intolerancia al esfuerzo y alteraciones del olfato que persisten más de 12 semanas.",
+        "lesiones": "Sin sustrato lesional específico en la mayoría de los casos.",
+        "clave": "Diagnóstico clínico y de exclusión; el manejo es rehabilitador y sintomático, con descarte activo de causas alternativas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Las DOS FASES ordenan el tratamiento: antivírico precoz (primeros 5 días, paciente de riesgo sin oxígeno) frente a corticoides e inmunomoduladores en la fase inflamatoria (paciente que ya precisa oxígeno).",
+      "La dexametasona SOLO beneficia al paciente que necesita oxígeno; en el paciente sin hipoxemia puede ser PERJUDICIAL.",
+      "NIRMATRELVIR/RITONAVIR es el antivírico oral de elección en el paciente ambulatorio de riesgo, pero el ritonavir es un potente inhibidor del CYP3A4 y tiene MUCHAS interacciones graves (estatinas, anticoagulantes directos, inmunosupresores, amiodarona): revisar toda la medicación antes de prescribirlo.",
+      "La anosmia brusca y aislada es un dato clínico de alto valor orientativo.",
+      "Los antibióticos NO están indicados salvo sobreinfección bacteriana documentada o alta sospecha.",
+      "Todo paciente hospitalizado debe recibir profilaxis antitrombótica.",
+      "La vacunación reduce de forma marcada la enfermedad grave y la mortalidad, y se actualiza periódicamente frente a las variantes circulantes; se recomiendan dosis de refuerzo estacionales en mayores, inmunodeprimidos y personal sanitario."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis nasofaríngeo; aspirado traqueal en el paciente intubado.",
+      "pruebas": [
+        "PCR (RT-PCR) en muestra respiratoria: prueba de referencia",
+        "Test rápido de antígeno: útil en fase sintomática precoz con alta carga viral; un negativo no descarta",
+        "Radiografía o TC de tórax ante hipoxemia o mala evolución (patrón en vidrio deslustrado bilateral)",
+        "Analítica: linfopenia, dímero D, ferritina, PCR y LDH como marcadores de gravedad",
+        "Gasometría y pulsioximetría: la hipoxemia decide el ingreso y el uso de corticoides"
+      ],
+      "claves": "Una PCR positiva persistente semanas después no significa infectividad: el ARN residual puede detectarse mucho tiempo tras la resolución."
+    },
+    "tratamiento": {
+      "eleccion": "AMBULATORIO DE RIESGO en los primeros 5 días: NIRMATRELVIR/RITONAVIR 300/100 mg/12 h VO durante 5 días. HOSPITALIZADO CON OXÍGENO: DEXAMETASONA 6 mg/24 h durante 10 días.",
+      "alternativas": "Remdesivir IV (3 días en ambulatorio de riesgo, 5 días en hospitalizado). Tocilizumab o baricitinib añadidos en la progresión inflamatoria pese a corticoides. Soporte respiratorio escalonado: oxígeno, alto flujo, ventilación no invasiva, decúbito prono, intubación.",
+      "resistencias": "Variantes con escape a los anticuerpos monoclonales han hecho que estos pierdan su papel; los antivíricos de molécula pequeña mantienen su actividad.",
+      "duracion": "5 días de nirmatrelvir/ritonavir; 10 días de dexametasona o hasta el alta.",
+      "notas": "Profilaxis antitrombótica con HBPM en todo hospitalizado. Comprobar exhaustivamente las interacciones del ritonavir. No usar antibióticos de rutina."
+    },
+    "farmacos_relacionados": [
+      "INF-nirmatrelvir-ritonavir"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 49 (estructura); Harrison 20.ª ed. y actualizaciones sobre COVID-19; protocolos clínicos vigentes"
+  },
+  {
+    "id": "VIR-virus-sarampion",
+    "nombre": "Virus del sarampión",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad NEGATIVA, no segmentado, con envoltura, familia Paramyxoviridae, género Morbillivirus. Serotipo ÚNICO, lo que hace posible su erradicación mediante vacunación",
+    "morfologia_tincion": "Virión pleomórfico con envoltura y glucoproteínas H (adhesión) y F (fusión). Forma células gigantes multinucleadas (células de Warthin-Finkeldey) en el tejido linfoide.",
+    "mecanismo_patogenia": [
+      "Es uno de los agentes infecciosos MÁS CONTAGIOSOS que se conocen, con transmisión por vía AÉREA y un número reproductivo de 12-18: un caso puede contagiar a casi todos los susceptibles de una sala de espera.",
+      "Entra por vía respiratoria, replica en el epitelio y el tejido linfoide regional y produce dos viremias que siembran piel, mucosas, pulmón y sistema nervioso.",
+      "Produce INMUNOSUPRESIÓN TRANSITORIA marcada, con linfopenia y borrado parcial de la memoria inmunitaria previa, lo que favorece las sobreinfecciones bacterianas durante semanas o meses tras la enfermedad.",
+      "El exantema es INMUNOMEDIADO por linfocitos T frente a células infectadas del endotelio dérmico: por eso aparece cuando ya hay respuesta inmunitaria y coincide con el descenso de la infectividad.",
+      "La persistencia en el SNC de una forma defectiva del virus puede producir años después la PANENCEFALITIS ESCLEROSANTE SUBAGUDA."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Sarampión típico",
+        "clinica": "Incubación de 10-14 días. Fase prodrómica CATARRAL de 3-4 días con fiebre alta y las tres C: coriza, conjuntivitis y tos, con fotofobia. Después aparece un exantema MACULOPAPULAR CONFLUENTE de progresión CRANEOCAUDAL, que empieza detrás de las orejas y en la línea de implantación del pelo y desciende, con descamación furfurácea posterior.",
+        "lesiones": "MANCHAS DE KOPLIK: pápulas blanquecinas sobre base eritematosa en la mucosa yugal frente a los molares, que aparecen 1-2 días ANTES del exantema y son PATOGNOMÓNICAS.",
+        "clave": "La fiebre es máxima cuando aparece el exantema y desciende después; si la fiebre reaparece o persiste más de 3-4 días tras el exantema, hay que sospechar una complicación."
+      },
+      {
+        "cuadro": "Complicaciones respiratorias y óticas",
+        "clinica": "Otitis media (la complicación más frecuente), neumonía (la causa más frecuente de muerte, sobre todo en el lactante), laringotraqueítis, diarrea.",
+        "lesiones": "Neumonía de células gigantes en el inmunodeprimido; condensación bacteriana en la sobreinfección.",
+        "clave": "La mayoría de las complicaciones son sobreinfecciones bacterianas favorecidas por la inmunosupresión transitoria."
+      },
+      {
+        "cuadro": "Encefalitis aguda postinfecciosa",
+        "clinica": "Convulsiones, alteración de la conciencia y focalidad neurológica en la primera semana tras el exantema, en aproximadamente 1 de cada 1000 casos.",
+        "lesiones": "Desmielinización perivenosa de mecanismo autoinmune.",
+        "clave": "Deja secuelas neurológicas en un porcentaje elevado de los supervivientes."
+      },
+      {
+        "cuadro": "Panencefalitis esclerosante subaguda",
+        "clinica": "Años (7-10) después del sarampión, sobre todo si se padeció antes de los 2 años: deterioro cognitivo progresivo, mioclonías y crisis, con evolución a estado vegetativo y muerte.",
+        "lesiones": "Panencefalitis con inclusiones intranucleares e infiltrado inflamatorio; EEG con complejos periódicos.",
+        "clave": "Es rara pero invariablemente MORTAL y no tiene tratamiento: es uno de los argumentos más potentes a favor de la vacunación."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Las manchas de Koplik son PATOGNOMÓNICAS y aparecen ANTES del exantema: reconocerlas permite aislar al paciente en el momento de máxima contagiosidad.",
+      "El periodo de contagio va desde 4 días antes hasta 4 días después del inicio del exantema. Requiere aislamiento AÉREO.",
+      "La vacuna es de virus VIVOS ATENUADOS (triple vírica): contraindicada en embarazadas e inmunodeprimidos graves. Se administra a los 12 meses y a los 3-4 años.",
+      "La VITAMINA A reduce la morbimortalidad del sarampión, sobre todo en niños desnutridos o en países de baja renta, y está recomendada por la OMS en todo niño hospitalizado por sarampión.",
+      "Profilaxis postexposición: vacuna en las primeras 72 h en susceptibles sanos, o inmunoglobulina en los primeros 6 días en menores de 12 meses, embarazadas e inmunodeprimidos.",
+      "Es una enfermedad de DECLARACIÓN OBLIGATORIA URGENTE: un solo caso obliga a estudio de contactos y a búsqueda activa.",
+      "La inmunosupresión transitoria que produce explica que las complicaciones bacterianas puedan aparecer semanas después."
+    ],
+    "diagnostico": {
+      "muestra": "Suero para serología; frotis faríngeo y orina para PCR.",
+      "pruebas": [
+        "IgM específica en suero: prueba de elección; puede ser negativa en las primeras 72 h del exantema, por lo que conviene repetirla",
+        "PCR en exudado faríngeo, nasofaríngeo u orina: confirma y permite genotipar para el estudio del brote",
+        "Seroconversión de IgG en muestras pareadas",
+        "Hemograma con leucopenia y linfopenia"
+      ],
+      "claves": "Ante la sospecha clínica hay que notificar y aislar SIN esperar a la confirmación de laboratorio."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO: antitérmicos, hidratación y aislamiento aéreo. VITAMINA A en dos dosis en niños hospitalizados o de riesgo.",
+      "alternativas": "Antibióticos únicamente si hay sobreinfección bacteriana documentada (otitis, neumonía). Soporte respiratorio en las formas graves.",
+      "resistencias": "No aplicable: no hay antivírico específico.",
+      "duracion": "El cuadro se resuelve en 7-10 días; el aislamiento se mantiene hasta 4 días tras el inicio del exantema.",
+      "notas": "Declaración obligatoria urgente, estudio de contactos y vacunación o inmunoglobulina postexposición según el perfil del contacto."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. 49 (estructura); AMIR Pediatría; Harrison 20.ª ed., cap. de sarampión"
+  },
+  {
+    "id": "VIR-virus-rubeola",
+    "nombre": "Virus de la rubéola",
+    "grupo": "VIR",
+    "nivel": 2,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA con envoltura, familia Matonaviridae (antes Togaviridae), género Rubivirus",
+    "morfologia_tincion": "Virión esférico con envoltura y glucoproteínas E1 y E2. Serotipo único.",
+    "mecanismo_patogenia": [
+      "Transmisión respiratoria por gotas; replicación en la nasofaringe y el tejido linfoide con viremia posterior.",
+      "En la embarazada atraviesa la PLACENTA y produce una infección fetal persistente que INHIBE LA MITOSIS y daña el endotelio de los vasos fetales, lo que interrumpe la organogénesis.",
+      "El riesgo y la gravedad de la embriopatía dependen críticamente de la EDAD GESTACIONAL: cercano al 90% de afectación antes de la semana 11, y muy bajo después de la semana 20.",
+      "En el niño con rubéola congénita el virus persiste y se excreta durante MESES: es una fuente de contagio para el personal y para embarazadas susceptibles.",
+      "En el adulto, la respuesta inmunitaria y los inmunocomplejos explican la artritis, mucho más frecuente en mujeres."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Rubéola adquirida",
+        "clinica": "Cuadro LEVE: febrícula, exantema maculopapular ROSADO tenue de progresión craneocaudal que confluye poco y desaparece en unos 3 días, precedido de ADENOPATÍAS RETROAURICULARES, OCCIPITALES y cervicales posteriores, que son el signo más característico.",
+        "lesiones": "Exantema rosado no confluente; manchas de Forchheimer (petequias en el paladar blando, inespecíficas).",
+        "clave": "Las adenopatías retroauriculares y occipitales dolorosas preceden al exantema y son la clave clínica. El cuadro es tan leve que su importancia real está en la mujer embarazada."
+      },
+      {
+        "cuadro": "Artritis y artralgias postrubeólicas",
+        "clinica": "Poliartritis simétrica de pequeñas articulaciones en mujeres adolescentes y adultas, autolimitada en semanas.",
+        "lesiones": "Sinovitis leve.",
+        "clave": "Complicación frecuente en la mujer adulta y rara en el niño."
+      },
+      {
+        "cuadro": "Síndrome de rubéola congénita",
+        "clinica": "TRÍADA clásica: SORDERA neurosensorial (la manifestación más frecuente y a veces la única), CATARATAS y otras alteraciones oculares, y CARDIOPATÍA congénita (ductus arterioso persistente y estenosis de la arteria pulmonar). Además: microcefalia, retraso del crecimiento, hepatoesplenomegalia, trombocitopenia y púrpura.",
+        "lesiones": "Exantema purpúrico en BLUEBERRY MUFFIN por hematopoyesis extramedular dérmica; retinopatía en sal y pimienta; cataratas.",
+        "clave": "La sordera puede ser la única secuela y aparecer de forma tardía. El riesgo de embriopatía es máximo en el primer trimestre y prácticamente nulo tras la semana 20."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La importancia clínica de la rubéola no está en la enfermedad del niño, que es banal, sino en la INFECCIÓN DE LA EMBARAZADA.",
+      "El cribado serológico de la rubéola forma parte del control prenatal: a la mujer susceptible se la vacuna en el POSPARTO, nunca durante el embarazo.",
+      "La vacuna es de virus VIVOS ATENUADOS (triple vírica): contraindicada en el embarazo, y se recomienda evitar la gestación durante el mes siguiente a su administración.",
+      "La rubéola congénita no tiene tratamiento: solo prevención mediante vacunación poblacional.",
+      "El niño con rubéola congénita EXCRETA virus durante meses y debe mantenerse aislado del personal y de las embarazadas susceptibles.",
+      "La reinfección en una persona inmune es posible pero el riesgo fetal es muy bajo.",
+      "El diagnóstico clínico es POCO fiable porque muchos exantemas víricos son indistinguibles: en la embarazada expuesta hay que confirmar siempre con serología."
+    ],
+    "diagnostico": {
+      "muestra": "Suero; exudado faríngeo y orina para PCR; sangre fetal o líquido amniótico en el diagnóstico prenatal.",
+      "pruebas": [
+        "IgM específica de rubéola: infección aguda",
+        "IgG con estudio de AVIDEZ: la avidez baja indica infección reciente, dato clave en la gestante",
+        "PCR en exudado faríngeo u orina",
+        "Cribado de IgG en el control prenatal para conocer la susceptibilidad",
+        "Ecografía fetal y amniocentesis con PCR ante primoinfección materna confirmada"
+      ],
+      "claves": "En la gestante con exantema o contacto, hay que comparar con la serología del cribado prenatal: una IgG previa positiva descarta prácticamente la primoinfección."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO: antitérmicos y analgésicos. No existe tratamiento antivírico.",
+      "alternativas": "AINE para la artritis postrubeólica. En el síndrome congénito, tratamiento de las secuelas: cirugía de cataratas, corrección cardiaca, audífonos o implante coclear.",
+      "resistencias": "No aplicable.",
+      "duracion": "Exantema de unos 3 días; artritis de semanas.",
+      "notas": "Declaración obligatoria. Aislamiento de gotas hasta 7 días tras el exantema. Vacunación posparto de la mujer susceptible."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. 53 (estructura); AMIR Pediatría; Harrison 20.ª ed., cap. de rubéola"
+  },
+  {
+    "id": "VIR-parvovirus-b19",
+    "nombre": "Parvovirus B19",
+    "grupo": "VIR",
+    "nivel": 2,
+    "clasificacion": "Virus ADN monocatenario, SIN envoltura, el más pequeño de los virus ADN humanos, familia Parvoviridae, género Erythroparvovirus",
+    "morfologia_tincion": "Virión icosaédrico desnudo de 22-25 nm, muy resistente en el ambiente y a la inactivación (persiste en hemoderivados).",
+    "mecanismo_patogenia": [
+      "Su receptor es el ANTÍGENO P (globósido) de la membrana del PRECURSOR ERITROIDE: por eso su tropismo es la médula ósea y su efecto es la detención transitoria de la eritropoyesis.",
+      "En una persona sana, la parada eritropoyética de una semana pasa desapercibida porque la vida media del hematíe es de 120 días. En quien tiene una HEMÓLISIS CRÓNICA (drepanocitosis, esferocitosis, talasemia) la misma parada produce una CRISIS APLÁSICA grave.",
+      "El EXANTEMA y la ARTRITIS son INMUNOMEDIADOS por inmunocomplejos y aparecen cuando ya hay anticuerpos: por eso el niño con la típica cara abofeteada YA NO CONTAGIA.",
+      "En la embarazada atraviesa la placenta y ataca los precursores eritroides fetales, produciendo anemia grave, insuficiencia cardiaca de alto gasto e HÍDROPS FETAL NO INMUNITARIO.",
+      "En el inmunodeprimido, la incapacidad de producir anticuerpos neutralizantes hace que la infección se cronifique y produzca aplasia pura de serie roja persistente."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Eritema infeccioso (quinta enfermedad)",
+        "clinica": "Niño con febrícula o sin fiebre y eritema intenso en ambas mejillas (CARA ABOFETEADA) con palidez peribucal, seguido a los pocos días de un exantema RETICULADO o en encaje en tronco y extremidades, que fluctúa durante semanas con el calor, el sol y el ejercicio.",
+        "lesiones": "Eritema malar confluente; exantema reticulado en encaje.",
+        "clave": "Cuando aparece el exantema el niño YA NO ES CONTAGIOSO y no necesita ser excluido del colegio: la fase contagiosa fue la febril previa."
+      },
+      {
+        "cuadro": "Artropatía por parvovirus",
+        "clinica": "Poliartritis simétrica de manos, muñecas, rodillas y tobillos, sobre todo en MUJERES ADULTAS, de semanas o meses de duración.",
+        "lesiones": "Sinovitis no erosiva.",
+        "clave": "Es un imitador de la artritis reumatoide de inicio, incluso con factor reumatoide transitoriamente positivo. No es erosiva y se resuelve sola: hay que pensar en ella antes de etiquetar a una mujer joven de artritis reumatoide."
+      },
+      {
+        "cuadro": "Crisis aplásica transitoria",
+        "clinica": "Descenso brusco de la hemoglobina con RETICULOCITOPENIA en un paciente con anemia hemolítica crónica; palidez, astenia intensa e insuficiencia cardiaca.",
+        "lesiones": "Médula ósea con ausencia de precursores eritroides y proeritroblastos gigantes con inclusiones.",
+        "clave": "Reticulocitos BAJOS en un paciente hemolítico (que normalmente los tiene altos) es el dato que delata la crisis aplásica por parvovirus."
+      },
+      {
+        "cuadro": "Hídrops fetal no inmunitario",
+        "clinica": "Anemia fetal grave con insuficiencia cardiaca, ascitis y edema generalizado, sobre todo si la infección materna ocurre antes de la semana 20.",
+        "lesiones": "Edema generalizado, ascitis y derrames fetales.",
+        "clave": "Es tratable: se vigila con Doppler de la ARTERIA CEREBRAL MEDIA y, si hay anemia significativa, se realiza TRANSFUSIÓN INTRAUTERINA. No produce malformaciones."
+      },
+      {
+        "cuadro": "Aplasia pura de serie roja crónica",
+        "clinica": "Anemia persistente dependiente de transfusiones en el inmunodeprimido (VIH, trasplante, quimioterapia), sin respuesta reticulocitaria.",
+        "lesiones": "Ausencia selectiva de precursores eritroides en la médula.",
+        "clave": "Responde a INMUNOGLOBULINAS intravenosas, que aportan los anticuerpos neutralizantes que el paciente no puede fabricar."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El mismo virus produce tres cuadros muy distintos según el huésped: exantema banal en el niño sano, crisis aplásica en el hemolítico crónico e hídrops en el feto.",
+      "El niño con eritema infeccioso ya no contagia cuando aparece el exantema; el paciente con crisis aplásica, en cambio, SÍ es muy contagioso y requiere aislamiento de gotas.",
+      "A diferencia de otras infecciones congénitas, NO produce malformaciones: produce ANEMIA fetal, que es potencialmente tratable con transfusión intrauterina.",
+      "Hay que sospecharlo ante una poliartritis simétrica de aparición brusca en una mujer joven antes de diagnosticar artritis reumatoide.",
+      "En el inmunodeprimido la serología no es fiable (no produce anticuerpos): hay que pedir PCR.",
+      "El tratamiento de la aplasia crónica del inmunodeprimido son las inmunoglobulinas intravenosas.",
+      "Resiste la inactivación por su ausencia de envoltura y puede transmitirse por hemoderivados."
+    ],
+    "diagnostico": {
+      "muestra": "Suero; sangre para PCR; líquido amniótico o sangre fetal en el diagnóstico prenatal.",
+      "pruebas": [
+        "IgM e IgG específicas: diagnóstico en el inmunocompetente",
+        "PCR de ADN viral en sangre: obligada en el inmunodeprimido, en la crisis aplásica y en el diagnóstico fetal",
+        "Hemograma con reticulocitos: la reticulocitopenia es la clave de la crisis aplásica",
+        "Doppler de arteria cerebral media fetal para detectar anemia fetal",
+        "Aspirado medular con proeritroblastos gigantes en casos seleccionados"
+      ],
+      "claves": "En el eritema infeccioso típico del niño no hace falta confirmación de laboratorio; sí es imprescindible en la gestante expuesta, el hemolítico crónico y el inmunodeprimido."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO en el eritema infeccioso y la artropatía (AINE). No hay antivírico específico.",
+      "alternativas": "TRANSFUSIÓN de concentrado de hematíes en la crisis aplásica; INMUNOGLOBULINAS intravenosas en la aplasia crónica del inmunodeprimido; transfusión intrauterina en el hídrops fetal.",
+      "resistencias": "No aplicable.",
+      "duracion": "Exantema fluctuante durante semanas; artropatía de semanas a meses; crisis aplásica de 7-10 días.",
+      "notas": "Aislamiento de gotas del paciente con crisis aplásica o infección crónica, NO del niño con eritema infeccioso. Las embarazadas expuestas requieren serología y, si hay primoinfección, seguimiento ecográfico con Doppler."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. 54 (estructura); AMIR Pediatría; Harrison 20.ª ed., cap. de infecciones por parvovirus"
+  },
+  {
+    "id": "VIR-rotavirus",
+    "nombre": "Rotavirus",
+    "grupo": "VIR",
+    "nivel": 2,
+    "clasificacion": "Virus ARN bicatenario SEGMENTADO (11 segmentos), SIN envoltura, familia Reoviridae, género Rotavirus",
+    "morfologia_tincion": "Virión desnudo de doble cápside con aspecto de RUEDA al microscopio electrónico, del que toma su nombre. La ausencia de envoltura lo hace muy resistente en el ambiente y a los desinfectantes habituales.",
+    "mecanismo_patogenia": [
+      "Transmisión FECAL-ORAL con una dosis infectante muy baja y una excreción fecal enorme: por eso los brotes en guarderías y hospitales son explosivos.",
+      "Infecta los enterocitos MADUROS de las vellosidades del intestino delgado, produciendo atrofia vellositaria y pérdida de disacaridasas, con la consiguiente DIARREA OSMÓTICA e intolerancia transitoria a la lactosa.",
+      "La proteína NSP4 actúa como una ENTEROTOXINA vírica: activa la secreción de cloro dependiente de calcio, añadiendo un componente SECRETOR a la diarrea. Este doble mecanismo explica lo abundante de las deposiciones.",
+      "Estimula además el sistema nervioso entérico, lo que contribuye a la secreción y al vómito.",
+      "La inmunidad tras la primera infección es parcial: las reinfecciones existen pero son progresivamente más leves, por lo que la enfermedad grave se concentra entre los 6 y los 24 meses."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gastroenteritis aguda del lactante",
+        "clinica": "VÓMITOS de inicio brusco y fiebre, seguidos en horas de diarrea ACUOSA muy abundante, sin sangre ni moco, durante 3-8 días. El riesgo principal es la DESHIDRATACIÓN, que puede instaurarse en pocas horas.",
+        "lesiones": "Atrofia de las vellosidades del intestino delgado con pérdida de borde en cepillo.",
+        "clave": "Es la causa más frecuente de gastroenteritis grave y de deshidratación en menores de 2 años. La secuencia vómitos primero y diarrea acuosa después, sin productos patológicos, orienta a etiología vírica."
+      },
+      {
+        "cuadro": "Deshidratación e intolerancia secundaria a la lactosa",
+        "clinica": "Deshidratación isonatrémica o hipernatrémica; tras el cuadro agudo, diarrea prolongada con distensión y eritema perianal por intolerancia transitoria a la lactosa.",
+        "lesiones": "Déficit transitorio de lactasa por pérdida del borde en cepillo.",
+        "clave": "La intolerancia transitoria a la lactosa explica la diarrea que se prolonga después de la fase aguda; suele bastar con paciencia y rara vez precisa fórmula sin lactosa."
+      },
+      {
+        "cuadro": "Infección nosocomial",
+        "clinica": "Brotes en plantas de pediatría y en guarderías por la elevada resistencia ambiental del virus.",
+        "lesiones": "Idénticas a la forma comunitaria.",
+        "clave": "Los geles hidroalcohólicos son MENOS eficaces frente a los virus sin envoltura: hay que lavarse las manos con agua y jabón."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El pilar del tratamiento es la REHIDRATACIÓN ORAL con soluciones de osmolaridad reducida; la vía intravenosa se reserva al shock, la intolerancia oral mantenida o el fracaso de la rehidratación oral.",
+      "NO se debe suspender la alimentación: se reintroduce la dieta normal precozmente, y la lactancia materna se mantiene siempre.",
+      "Los ANTIDIARREICOS (loperamida) están CONTRAINDICADOS en el niño con gastroenteritis aguda por riesgo de íleo y de toxicidad neurológica.",
+      "Los antibióticos no tienen ningún papel; el ondansetrón en dosis única puede facilitar la tolerancia oral en el niño con vómitos incoercibles.",
+      "La VACUNA es oral y de virus vivos atenuados; ha reducido drásticamente los ingresos por gastroenteritis. Debe administrarse dentro de una ventana de edad estricta por el riesgo de INVAGINACIÓN INTESTINAL, que aumenta con la edad de la primera dosis.",
+      "El alcohol en gel es poco eficaz frente a este virus desnudo: agua y jabón.",
+      "La duración de la excreción fecal se prolonga tras la resolución de los síntomas, lo que perpetúa los brotes."
+    ],
+    "diagnostico": {
+      "muestra": "Heces.",
+      "pruebas": [
+        "Detección de antígeno en heces por inmunocromatografía o ELISA: rápida, sensible y suficiente en la práctica",
+        "PCR múltiple en heces: útil en brotes y en el inmunodeprimido",
+        "Ionograma, gasometría y función renal solo si hay deshidratación moderada o grave",
+        "Coprocultivo únicamente si hay sangre, moco, fiebre alta persistente o sospecha de etiología bacteriana"
+      ],
+      "claves": "El diagnóstico etiológico no cambia el tratamiento del caso individual: se pide sobre todo para aislar por cohortes en el hospital y para el control de brotes."
+    },
+    "tratamiento": {
+      "eleccion": "REHIDRATACIÓN ORAL con solución de osmolaridad reducida, a demanda y en tomas pequeñas y frecuentes, reponiendo las pérdidas; realimentación precoz con dieta normal.",
+      "alternativas": "Rehidratación intravenosa con suero salino isotónico en el shock o la intolerancia oral. Ondansetrón en dosis única para facilitar la tolerancia en el niño con vómitos repetidos. Racecadotrilo como antisecretor en casos seleccionados.",
+      "resistencias": "No aplicable.",
+      "duracion": "3-8 días; la excreción fecal se prolonga más.",
+      "notas": "Vacunación oral en el calendario infantil dentro de la ventana de edad establecida. Lavado de manos con agua y jabón. Aislamiento entérico y de contacto en el hospital."
+    },
+    "farmacos_relacionados": [
+      "PED-DIG-ondansetron",
+      "PED-DIG-suero-rehidratacion-oral"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 57 (estructura); AMIR Pediatría; Harrison 20.ª ed., cap. de gastroenteritis víricas"
+  },
+  {
+    "id": "VIR-virus-papiloma-humano",
+    "nombre": "Virus del papiloma humano (VPH)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN bicatenario circular, SIN envoltura, familia Papillomaviridae; más de 200 genotipos, divididos en de BAJO riesgo (6, 11) y de ALTO riesgo oncogénico (16, 18 y otros)",
+    "morfologia_tincion": "Virión icosaédrico desnudo de 55 nm. En la citología, la célula infectada muestra un COILOCITO: célula escamosa con halo perinuclear claro y núcleo irregular e hipercromático.",
+    "mecanismo_patogenia": [
+      "Infecta las células basales del epitelio escamoso a través de microtraumatismos; la zona de TRANSFORMACIÓN del cérvix, donde el epitelio cilíndrico se convierte en escamoso, es especialmente vulnerable y es donde asienta la mayoría de las lesiones precancerosas.",
+      "Los genotipos de ALTO RIESGO expresan las oncoproteínas E6 y E7: E6 degrada la proteína p53 (bloqueando la apoptosis) y E7 inactiva la proteína del retinoblastoma (liberando el ciclo celular). Ese es el mecanismo oncogénico central.",
+      "La INTEGRACIÓN del genoma viral en el ADN celular desregula la expresión de E6 y E7 y marca el paso de la infección productiva a la transformación neoplásica.",
+      "Los genotipos de BAJO RIESGO (6 y 11) no integran y producen lesiones proliferativas benignas: condilomas acuminados y papilomatosis respiratoria recurrente.",
+      "La mayoría de las infecciones (más del 80%) se ACLARAN espontáneamente en 1-2 años: solo la infección PERSISTENTE por un genotipo de alto riesgo conduce a lesión precancerosa y cáncer, en un proceso que tarda años o décadas.",
+      "El tabaco, la inmunodepresión (VIH) y la coinfección por otras ITS favorecen la persistencia."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Condilomas acuminados (verrugas genitales)",
+        "clinica": "Lesiones exofíticas blandas, en cresta de gallo o coliflor, en genitales externos, periné y región perianal; habitualmente asintomáticas o con prurito.",
+        "lesiones": "Papilomas exofíticos con coilocitosis; genotipos 6 y 11 en más del 90%.",
+        "clave": "Son la ITS vírica más frecuente. NO tienen riesgo oncogénico, pero su presencia obliga a cribar otras ITS y a explorar toda la región anogenital."
+      },
+      {
+        "cuadro": "Lesiones precancerosas y cáncer de cérvix",
+        "clinica": "ASINTOMÁTICAS en la fase precancerosa: se detectan por cribado. El cáncer invasivo produce metrorragia, sinusorragia y flujo maloliente.",
+        "lesiones": "Lesión escamosa intraepitelial de bajo y de alto grado (CIN 1-3) y carcinoma escamoso invasivo; coilocitos en la citología.",
+        "clave": "El VPH de alto riesgo es causa NECESARIA del cáncer de cérvix: prácticamente el 100% de los casos son VPH positivos. Por eso el cribado ha pasado de la citología a la determinación de ADN de VPH de alto riesgo, más sensible."
+      },
+      {
+        "cuadro": "Otros cánceres asociados",
+        "clinica": "Carcinoma de canal ANAL (especialmente en HSH y en personas con VIH), de vulva, vagina, pene y OROFARINGE (amígdala y base de lengua).",
+        "lesiones": "Carcinoma escamoso; el orofaríngeo VPH positivo tiene MEJOR pronóstico que el asociado a tabaco y alcohol.",
+        "clave": "El cáncer de orofaringe por VPH está aumentando en varones y ya supera en número al de cérvix en algunos países."
+      },
+      {
+        "cuadro": "Verrugas cutáneas comunes y plantares",
+        "clinica": "Pápulas queratósicas en manos y dedos, o lesiones dolorosas a la presión en la planta del pie.",
+        "lesiones": "Hiperqueratosis con puntos negros (capilares trombosados) que las distinguen de un callo.",
+        "clave": "Genotipos 1, 2 y 4; benignas y frecuentemente autolimitadas, sobre todo en niños."
+      },
+      {
+        "cuadro": "Papilomatosis respiratoria recurrente",
+        "clinica": "Disfonía progresiva y estridor en el niño por papilomas laríngeos, adquiridos en el canal del parto de una madre con condilomas.",
+        "lesiones": "Papilomas laríngeos recidivantes que requieren cirugías repetidas.",
+        "clave": "Rara pero muy incapacitante; genotipos 6 y 11, prevenible mediante la vacunación."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El VPH de alto riesgo es causa NECESARIA pero no suficiente del cáncer de cérvix: lo determinante es la PERSISTENCIA de la infección, no el contacto puntual.",
+      "La mayoría de las infecciones se aclaran solas: una prueba de VPH positiva en una mujer joven NO significa cáncer ni requiere alarma, sino seguimiento.",
+      "La VACUNA es de partículas similares al virus (VLP, sin ADN viral, por tanto no infecciosa) y es PREVENTIVA, no terapéutica: no elimina una infección ya establecida.",
+      "La vacunación se recomienda ANTES del inicio de las relaciones sexuales, a los 11-12 años, y hoy en ambos SEXOS: protege también frente al cáncer anal y orofaríngeo y a los condilomas.",
+      "La vacuna nonavalente cubre los genotipos 6, 11, 16, 18, 31, 33, 45, 52 y 58.",
+      "La mujer vacunada DEBE seguir el cribado: la vacuna no cubre todos los genotipos oncogénicos.",
+      "El preservativo reduce pero no elimina la transmisión, porque el virus infecta zonas de piel no cubiertas.",
+      "El tratamiento de los condilomas elimina la lesión, no el virus: las recidivas son frecuentes."
+    ],
+    "diagnostico": {
+      "muestra": "Toma cervical para citología y determinación de ADN; biopsia de lesión sospechosa.",
+      "pruebas": [
+        "Determinación de ADN de VPH de alto riesgo: prueba de CRIBADO primario actual, más sensible que la citología",
+        "Citología cervicovaginal (Papanicolaou): detecta alteraciones celulares y coilocitos; se usa como triaje del VPH positivo",
+        "Colposcopia con ácido acético y biopsia dirigida ante citología o VPH alterados",
+        "Anatomía patológica de la biopsia: define el grado de la lesión intraepitelial",
+        "Los condilomas típicos se diagnostican por INSPECCIÓN clínica, sin necesidad de tipar el virus"
+      ],
+      "claves": "El cribado con prueba de VPH permite alargar el intervalo a 5 años cuando es negativo, porque su valor predictivo negativo es muy alto."
+    },
+    "tratamiento": {
+      "eleccion": "CONDILOMAS: imiquimod tópico al 5% 3 veces por semana o podofilotoxina al 0,5%, aplicados por el paciente; crioterapia, electrocoagulación o exéresis aplicadas por el profesional. LESIÓN CERVICAL DE ALTO GRADO: conización con asa diatérmica.",
+      "alternativas": "Ácido tricloroacético (opción de elección en el embarazo, en el que el imiquimod y la podofilotoxina están contraindicados). Sinecatequinas tópicas. Cirugía y radioquimioterapia en el cáncer invasivo.",
+      "resistencias": "No aplicable: no hay antivírico sistémico frente al VPH.",
+      "duracion": "Semanas de tratamiento tópico, con recidivas frecuentes que obligan a repetir ciclos.",
+      "notas": "La vacunación es la medida más eficaz. Cribar otras ITS ante condilomas. En la persona con VIH, cribado anal además del cervical."
+    },
+    "farmacos_relacionados": [
+      "DER-imiquimod"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 52 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por papilomavirus"
+  },
+  {
+    "id": "VIR-virus-dengue",
+    "nombre": "Virus del dengue",
+    "grupo": "VIR",
+    "nivel": 2,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA con envoltura, familia Flaviviridae, género Orthoflavivirus; CUATRO serotipos (DENV 1-4). Arbovirus transmitido por mosquitos Aedes",
+    "morfologia_tincion": "Virión esférico con envoltura y proteína E de superficie. La proteína no estructural NS1 se secreta a la sangre y es la base del test de diagnóstico rápido.",
+    "mecanismo_patogenia": [
+      "Transmisión por la picadura de AEDES AEGYPTI y Aedes albopictus, mosquitos de hábitos DIURNOS y urbanos, que crían en pequeñas acumulaciones de agua limpia.",
+      "Replicación en células dendríticas y macrófagos, con viremia y liberación masiva de citocinas que aumentan la PERMEABILIDAD VASCULAR: el problema del dengue grave es la EXTRAVASACIÓN DE PLASMA, no la hemorragia.",
+      "AMPLIFICACIÓN DEPENDIENTE DE ANTICUERPOS: la infección por un serotipo deja inmunidad de por vida frente a ese serotipo, pero los anticuerpos subneutralizantes frente a un serotipo DISTINTO facilitan la entrada del virus en los macrófagos vía receptor Fc. Por eso la SEGUNDA infección por otro serotipo tiene mucho más riesgo de dengue grave.",
+      "La proteína NS1 daña el glucocálix endotelial, contribuyendo a la fuga capilar.",
+      "Trombocitopenia por supresión medular y por destrucción periférica inmunomediada."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Dengue sin signos de alarma",
+        "clinica": "Fiebre alta de inicio brusco tras 4-10 días de incubación, con CEFALEA RETROORBITARIA, mialgias y ARTRALGIAS intensas (la fiebre rompehuesos), exantema maculopapular y náuseas. Prueba del torniquete positiva.",
+        "lesiones": "Exantema maculopapular con islotes de piel sana (islas blancas en un mar rojo); petequias.",
+        "clave": "Ante fiebre en un viajero procedente del trópico, dengue, malaria y fiebre tifoidea son las tres entidades a descartar de forma prioritaria; la malaria es la que hay que excluir con más urgencia."
+      },
+      {
+        "cuadro": "Dengue con signos de alarma",
+        "clinica": "Aparecen al DEFERVESCER la fiebre, entre el 3.er y el 7.º día: dolor abdominal intenso y mantenido, vómitos persistentes, acumulación de líquidos (ascitis, derrame pleural), sangrado de mucosas, letargia o irritabilidad, hepatomegalia mayor de 2 cm y aumento del hematocrito con descenso rápido de las plaquetas.",
+        "lesiones": "Derrame pleural y ascitis por extravasación de plasma; hepatomegalia.",
+        "clave": "La FASE CRÍTICA empieza cuando BAJA la fiebre, justo cuando el paciente parece mejorar. Ese es el error clínico clásico: dar de alta al paciente en el momento de máximo riesgo."
+      },
+      {
+        "cuadro": "Dengue grave",
+        "clinica": "Shock por extravasación de plasma (con presión de pulso estrecha y extremidades frías), hemorragia grave o afectación orgánica (hepatitis con transaminasas muy altas, miocarditis, encefalitis).",
+        "lesiones": "Hemoconcentración, derrames, hepatitis, hemorragia digestiva.",
+        "clave": "El tratamiento es la REPOSICIÓN CUIDADOSA DE VOLUMEN con cristaloides, guiada por el hematocrito y la diuresis; tanto la infradosificación como la sobrecarga son peligrosas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La fase crítica comienza con la DEFERVESCENCIA, no con el pico febril: es entonces cuando hay que vigilar de cerca al paciente.",
+      "Están CONTRAINDICADOS el ácido acetilsalicílico y los AINE por el riesgo hemorrágico y de síndrome de Reye: el antitérmico es el PARACETAMOL.",
+      "El haber pasado un dengue NO protege frente a los otros serotipos y, de hecho, aumenta el riesgo de forma grave en una segunda infección por serotipo distinto (amplificación dependiente de anticuerpos).",
+      "El vector Aedes pica de DÍA, a diferencia del Anopheles de la malaria, que pica de noche: eso condiciona las medidas de protección personal.",
+      "El descenso de plaquetas con AUMENTO del hematocrito indica extravasación de plasma y es el binomio analítico que anuncia la fase crítica.",
+      "Las vacunas disponibles tienen indicaciones restringidas por el fenómeno de amplificación dependiente de anticuerpos: la vacuna basada en el serotipo dengvaxia solo se administra a personas con infección previa demostrada.",
+      "Es una enfermedad de declaración obligatoria; en zonas con Aedes albopictus establecido puede haber transmisión autóctona a partir de un caso importado."
+    ],
+    "diagnostico": {
+      "muestra": "Suero.",
+      "pruebas": [
+        "Antígeno NS1: positivo desde el primer día y hasta el 5.º-7.º, prueba rápida de elección en la fase precoz",
+        "RT-PCR: confirma y permite serotipar en los primeros 5 días",
+        "Serología IgM (a partir del 5.º día) e IgG: hay reacción cruzada con otros flavivirus, incluida la vacuna de la fiebre amarilla",
+        "Hemograma seriado: LEUCOPENIA precoz, TROMBOCITOPENIA progresiva y HEMATOCRITO en ascenso son los parámetros de vigilancia",
+        "Transaminasas, albúmina, ecografía para detectar derrames y ascitis",
+        "Gota gruesa y test rápido de malaria de forma obligada en el diagnóstico diferencial"
+      ],
+      "claves": "El seguimiento se hace con hemograma diario durante la fase crítica: el hematocrito y las plaquetas son la brújula del manejo."
+    },
+    "tratamiento": {
+      "eleccion": "SOPORTE: hidratación oral abundante y PARACETAMOL. En el dengue con signos de alarma o grave, cristaloides intravenosos ajustados al hematocrito, la diuresis y la situación hemodinámica.",
+      "alternativas": "Transfusión de hemoderivados solo ante sangrado significativo; no se transfunden plaquetas de forma profiláctica por la cifra aislada. No existe antivírico específico.",
+      "resistencias": "No aplicable.",
+      "duracion": "Fiebre de 2-7 días; fase crítica de 24-48 h desde la defervescencia; convalecencia con astenia prolongada.",
+      "notas": "PROHIBIDOS aspirina y AINE. Control de vectores y protección frente a picaduras diurnas (repelente, ropa, mosquiteras). Declaración obligatoria."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. 60 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por flavivirus"
+  }
+]

@@ -1,0 +1,308 @@
+## 0. CABEÇALHO
+
+**Código:** PNE-03 · **Especialidade:** Pneumologia · **Tema:** Doença pulmonar obstrutiva crônica · **Assunto:** Exacerbação da DPOC - causa mais frequente · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 6 (2011.1-Q25, 2020.1-Q59, 2021.1-Q75, 2025.1-Q21, 2025.1-Q26, 2022.1-Q61) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 90 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-31
+
+---
+
+## 1. TEORIA
+
+A exacerbação da DPOC é um evento clínico agudo com piora dos sintomas respiratórios basais — o Revalida testa o conhecimento epidemiológico sobre a causa mais frequente dessas exacerbações, frequentemente alvo de confusão com outras causas menos comuns.
+
+**Conceitos centrais sobre exacerbação da DPOC:**
+- A **infecção respiratória** é a causa mais frequente de exacerbação da DPOC, sendo a maioria de origem **viral** (rinovírus, influenza, vírus sincicial respiratório, entre outros) — mais comum do que infecções bacterianas como causa desencadeante isolada.
+- Outras causas de exacerbação incluem poluição ambiental, não adesão à medicação, e comorbidades descompensadas — mas a infecção respiratória (predominantemente viral) continua sendo a causa mais comum.
+- Diagnósticos diferenciais importantes de piora respiratória aguda em paciente com DPOC — mas que NÃO são as causas mais frequentes de exacerbação típica — incluem: tromboembolismo pulmonar, pneumonia por germes oportunistas, cor pulmonale descompensado, e pneumotórax espontâneo. Esses diagnósticos devem sempre ser considerados no diagnóstico diferencial, especialmente quando a apresentação foge do padrão habitual, mas não representam a causa etiológica mais comum.
+
+⚠️ **PEGADINHA DO INEP central deste tema — a causa mais frequente de exacerbação da DPOC é a INFECÇÃO RESPIRATÓRIA VIRAL, não tromboembolismo pulmonar, cor pulmonale ou pneumotórax:** diante de paciente com DPOC apresentando piora súbita da dispneia e da tosse, a causa mais provável a ser considerada primeiro é a **infecção respiratória viral** — as demais causas (TEP, pneumonia oportunista, cor pulmonale, pneumotórax) são diagnósticos diferenciais relevantes, mas não a causa mais frequente estatisticamente.
+
+**Por que não considerar as demais causas como as mais frequentes:** tromboembolismo pulmonar, pneumotórax espontâneo e cor pulmonale são causas menos comuns de exacerbação, embora devam ser lembradas como diagnósticos diferenciais quando a apresentação clínica sugerir especificamente esses quadros (ex.: dor torácica pleurítica súbita, assimetria de murmúrio vesicular); pneumonia por germes oportunistas é rara em pacientes sem imunossupressão significativa.
+
+### Referências
+1. Global Initiative for Chronic Obstructive Lung Disease (GOLD) — Report on Management and Prevention of COPD.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no pronto atendimento real:** paciente tabagista de longa data, com DPOC conhecida, apresentando piora aguda da dispneia e da tosse — o desafio prático é considerar a infecção respiratória (predominantemente viral) como a causa mais provável, sem deixar de investigar diagnósticos diferenciais quando a apresentação for atípica.
+
+**Sequência prática de conduta:**
+1. Avaliar a gravidade da exacerbação (sinais vitais, saturação, uso de musculatura acessória).
+2. Considerar infecção respiratória (viral, mais comum) como a causa mais provável.
+3. Investigar diagnósticos diferenciais (TEP, pneumotórax, cor pulmonale) se a apresentação clínica sugerir especificamente esses quadros.
+4. Tratar a exacerbação conforme protocolo (broncodilatadores, corticoide sistêmico, antibiótico se indicado).
+
+**Erros que médicos cometem de verdade:**
+- Investigar exaustivamente causas raras (TEP, pneumotórax) antes de considerar a causa mais comum (infecção viral) em apresentação típica.
+- Prescrever antibiótico automaticamente para toda exacerbação, sem considerar que a maioria tem origem viral.
+
+**O que dizer ao paciente:** explicar que a piora da falta de ar geralmente está relacionada a uma infecção respiratória, frequentemente viral, e que o tratamento envolve otimizar a medicação broncodilatadora e, quando indicado, um curso de corticoide.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Reconhecer infecção respiratória viral como causa mais comum de exacerbação da DPOC.
+- ✅ Considerar diagnósticos diferenciais quando a apresentação for atípica.
+- ✅ Tratar a exacerbação conforme protocolo padrão.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2011 · Edição 1 · Questão 25]**
+
+Um homem, com 68 anos de idade, tabagista de 40 cigarros/dia, com história de dispneia, tosse produtiva e expectoração catarral abundante, chega à Unidade de Pronto Atendimento, com piora súbita da dispneia e da frequência da tosse . Na avaliação clínica você deve investigar as causas de piora, entre elas, devemos considerar como a mais frequente
+
+A) a infecção respiratória viral.
+B) a tromboembolia pulmonar.
+C) a pneumonia por germes oportunistas.
+D) o cor pulmonale.
+E) o pneumotórax espontâneo seguido de infecção.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** a infecção respiratória, predominantemente de origem viral, é a causa mais frequente de exacerbação da DPOC.
+
+**Por que as demais estão erradas:**
+- B) Tromboembolismo pulmonar é diagnóstico diferencial relevante, mas não a causa mais frequente de exacerbação.
+- C) Pneumonia por germes oportunistas é rara em pacientes sem imunossupressão significativa.
+- D) Cor pulmonale descompensado é uma complicação possível, mas não a causa mais comum de exacerbação aguda.
+- E) Pneumotórax espontâneo é causa incomum de piora respiratória aguda na DPOC.
+
+**O que a banca estava testando:** conhecimento epidemiológico de que a infecção respiratória viral é a causa mais frequente de exacerbação da DPOC, em comparação com outras causas menos comuns listadas como distratores.
+
+---
+
+**[INEP 2020 · Edição 1 · Questão 59]**
+
+Uma mulher com 64 anos de idade é encaminhada para investigação diagnóstica de quadro de tosse seca e dispneia ao realizar esforços. A paciente é portadora, há 3 décadas, de hipertensão arterial sistêmica, sendo tabagista e etilista social. Seu exame físico revela IMC = 33 kg/m², eupneica em repouso, mas com acrocianose (+/4+) e murmúrio vesicular reduzido difusamente, sendo auscultados sibilos esparsos em todo tórax. O ritmo cardíaco é regular, em 2 tempos, com 2.ª bulha hiperfonética em foco pulmonar. Há turgência de veia jugular quando a cabeceira da maca é elevada a 45 graus, além de edema de membros inferiores (2+/4+). A paciente traz à consulta uma espirometria realizada recentemente que evidencia um volume expiratório forçado no 1.º segundo (VEF1) reduzido (68% do previsto com base em sua idade e altura), sendo a relação entre esse parâmetro e a capacidade vital forçada (VEF1/CVF) inferior a 70%; não há elevação de 20% ou aumento superior a 200 mL em nenhum desses dois parâmetros espirométricos após a administração de broncodilatador. Com base no caso clínico e no resultado da espirometria, qual é o diagnóstico da paciente?
+
+A) Asma persistente moderada.
+B) Doença pulmonar obstrutiva crônica.
+C) Pneumopatia restritiva pela obesidade.
+D) Derrame pleural por insuficiência cardíaca.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** a espirometria fecha o diagnóstico de **DPOC** — e o faz por dois achados que precisam aparecer juntos.
+
+**1. A obstrução: VEF1/CVF < 70%.** Esta é a relação de Tiffeneau, e seu valor abaixo de 0,70 **após broncodilatador** é o critério diagnóstico de DPOC [CONSENSO]. É o que define um distúrbio **obstrutivo**: o ar entra, mas encontra dificuldade para sair.
+
+**2. A irreversibilidade:** "não há elevação de 20% **ou** aumento superior a 200 mL" após broncodilatador. Ou seja, a obstrução **não reverte** — e é isso que separa a DPOC da asma. Na asma, a obstrução é característicamente **reversível**, com ganho de VEF1 de pelo menos 200 mL **e** 12% após broncodilatador.
+
+**O contexto clínico corrobora ponto a ponto:**
+- **Tabagismo** — o fator de risco dominante, responsável por 80-90% dos casos.
+- **64 anos** — DPOC é doença de instalação insidiosa, que se manifesta tipicamente após os 40-50 anos.
+- **Dispneia aos esforços e tosse crônica** — os sintomas cardinais.
+- **Murmúrio vesicular difusamente reduzido** — hiperinsuflação pulmonar.
+- **Sibilos esparsos** — obstrução ao fluxo aéreo.
+
+**O que significam a turgência jugular, o edema e a hiperfonese de P2.** Longe de apontarem outro diagnóstico, esses achados compõem o quadro de **cor pulmonale** — insuficiência cardíaca **direita secundária à hipertensão pulmonar** de origem respiratória, complicação bem conhecida da DPOC avançada. A sequência fisiopatológica é: hipoxemia crônica → vasoconstrição pulmonar hipóxica → hipertensão pulmonar (**B2 hiperfonética em foco pulmonar**) → sobrecarga do ventrículo direito → falência direita (**turgência jugular, edema de membros inferiores**). A **acrocianose** completa o quadro de hipoxemia crônica. Reconhecer o cor pulmonale como *parte* da DPOC, e não como diagnóstico concorrente, é o que a questão pede.
+
+**Por que as demais estão erradas:**
+
+- **A) Asma persistente moderada.** É a distratora principal, e o discriminador é explícito no enunciado: **ausência de resposta ao broncodilatador**. A asma exige reversibilidade (ganho de VEF1 ≥ 200 mL **e** ≥ 12%), e o enunciado a nega de forma categórica. Além disso, o perfil não é de asma: início na sexta década (asma costuma começar na infância ou juventude), história de tabagismo pesado, sintomas **progressivos e persistentes** em vez de episódicos com períodos livres, e ausência de atopia ou variabilidade. Os sibilos, isoladamente, não fazem asma — a DPOC também sibila.
+
+- **C) Pneumopatia restritiva pela obesidade.** Erra o **padrão espirométrico**, e esse é o ponto conceitual. A obesidade (IMC 33 kg/m²) pode de fato causar distúrbio **restritivo** — mas o padrão restritivo se caracteriza por **CVF reduzida com relação VEF1/CVF normal ou aumentada**, porque tanto o volume quanto o fluxo caem proporcionalmente (ou o fluxo cai menos). Aqui ocorre o contrário: a relação VEF1/CVF está **abaixo de 70%**, definindo **obstrução**. É a diferença fundamental entre "não consegue encher o pulmão" (restrição) e "não consegue esvaziá-lo" (obstrução).
+
+| | **Obstrutivo** (DPOC, asma) | **Restritivo** (obesidade, fibrose) |
+|---|---|---|
+| **VEF1/CVF** | **< 0,70** | normal ou **aumentada** |
+| CVF | normal ou reduzida | **reduzida** |
+| VEF1 | **reduzido** | reduzido proporcionalmente |
+| CPT | aumentada (hiperinsuflação) | **reduzida** |
+
+- **D) Derrame pleural por insuficiência cardíaca.** O enunciado descreve **murmúrio vesicular reduzido difusamente** — e a palavra "difusamente" é a chave. O derrame pleural produz abolição do murmúrio **localizada**, na base do hemitórax acometido, com macicez à percussão e frêmito toracovocal reduzido naquela região. Redução difusa e bilateral é hiperinsuflação, não derrame. Ademais, derrame pleural **não altera a relação VEF1/CVF** dessa forma — se causasse alteração espirométrica, seria de padrão restritivo. Os sinais de congestão presentes (turgência, edema) se explicam pelo cor pulmonale, como já visto, e não exigem um diagnóstico cardíaco primário.
+
+⚠️ **PEGADINHA DO INEP:** o enunciado é deliberadamente carregado de achados que sugerem outros diagnósticos — obesidade (restrição), sibilos (asma), turgência e edema (insuficiência cardíaca). Todos são reais, e todos são **consequências ou comorbidades** da DPOC. A espirometria é o árbitro, e ela é inequívoca: obstrução irreversível.
+
+**O que a banca estava testando:** ler uma espirometria e distinguir padrão **obstrutivo de restritivo** pela relação VEF1/CVF; usar a **ausência de reversibilidade** para separar DPOC de asma; e reconhecer o **cor pulmonale** como complicação da DPOC, e não como diagnóstico alternativo.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 75]**
+
+Um homem de 67 anos de idade, tabagista inveterado (carga tabágica = 82 maços-ano), retorna ao ambulatório de clínica médica para trazer os resultados dos exames complementares que haviam sido solicitados na sua última consulta, quando havia se queixado de dispneia aos esforços e tosse crônica produtiva. Reunindo os dados da anamnese e do exame físico, o médico que o atendera considerou como mais provável o diagnóstico de doença pulmonar obstrutiva crônica (DPOC), solicitando, entre outros exames, a realização de uma espirometria. No resultado desse exame, foram registrados os valores do volume expiratório forçado no 1.º segundo (VEF1), da capacidade vital (CVF), da relação VEF1/CVF, do FEF25-75 (fluxo medioexpiratório forçado entre 25% e 75% da CVF) e a resposta ao estímulo com broncodilatador (REB). Para confirmar tal impressão diagnóstica, o resultado que deve estar indispensavelmente presente em sua espirometria é
+
+A) FEF25-75 superior a 100% do previsto.
+B) REB com aumento do VEF1 maior que 200 mL.
+C) VEF1 inferior a 80% do previsto antes ou após broncodilatador.
+D) VEF1/CVF inferior a 0,7 mesmo após broncodilatador.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** a relação **VEF1/CVF < 0,70 após broncodilatador** é o **único** critério espirométrico obrigatório para o diagnóstico de DPOC [CONSENSO]. A palavra-chave do enunciado é "**indispensavelmente**" — a questão pergunta o que *tem* de estar presente, não o que *pode* estar.
+
+**Por que a relação, e não o VEF1 isolado.** A DPOC é definida pela **limitação persistente ao fluxo aéreo**. A relação VEF1/CVF mede exatamente isso: que fração da capacidade vital o paciente consegue expelir no primeiro segundo. Um indivíduo normal expele 70-80% ou mais; abaixo de 0,70, há obstrução. O VEF1 isolado, em valor absoluto ou percentual do previsto, mede a **gravidade** da obstrução — não a sua existência.
+
+**Por que "após broncodilatador".** A prova broncodilatadora separa DPOC de asma. Se a relação normalizasse após o broncodilatador, a obstrução seria reversível — e o diagnóstico, outro. A persistência de VEF1/CVF < 0,70 **mesmo depois** do broncodilatador é o que caracteriza a limitação **fixa** da DPOC.
+
+**Os dois papéis, que não se confundem:**
+
+| Parâmetro | Para que serve |
+|---|---|
+| **VEF1/CVF pós-BD < 0,70** | **DIAGNOSTICA** a DPOC — obrigatório |
+| **VEF1 (% do previsto)** | **GRADUA** a gravidade — classificação GOLD 1 a 4 |
+
+Uma vez feito o diagnóstico pela relação, o VEF1 pós-broncodilatador define o estágio: **GOLD 1** (≥ 80%), **GOLD 2** (50-79%), **GOLD 3** (30-49%), **GOLD 4** (< 30%).
+
+**Por que as demais estão erradas:**
+
+- **A) FEF25-75 superior a 100% do previsto.** Afirma o **contrário** do esperado. O FEF25-75 avalia o fluxo nas **pequenas vias aéreas** e tende a estar **reduzido** — não elevado — na DPOC, sendo inclusive um dos parâmetros que se alteram mais precocemente na doença. Além disso, o FEF25-75 tem **grande variabilidade interindividual** e baixa reprodutibilidade, razão pela qual **não é critério diagnóstico** de nada: serve como dado auxiliar, sugestivo, jamais definidor.
+
+- **B) REB com aumento do VEF1 maior que 200 mL.** Descreve a **resposta broncodilatadora positiva** — que é o achado característico da **asma**, não da DPOC. O critério completo de reversibilidade exige ganho de **≥ 200 mL e ≥ 12%** do VEF1 pós-broncodilatador. Marcar B é inverter os diagnósticos. Vale um cuidado: cerca de um quarto dos pacientes com DPOC apresenta alguma resposta ao broncodilatador sem que isso mude o diagnóstico — o que não se admite é que a relação VEF1/CVF **normalize**.
+
+- **C) VEF1 inferior a 80% do previsto antes ou após broncodilatador.** Esta é a distratora mais sofisticada, porque confunde **diagnóstico com gravidade**. O VEF1 < 80% é o limite do estágio **GOLD 1 (leve)** — ou seja, um paciente com DPOC **GOLD 1** tem VEF1 **≥ 80%** do previsto e, ainda assim, **tem DPOC**, porque sua relação VEF1/CVF está abaixo de 0,70. Portanto o VEF1 reduzido **não é indispensável**. A alternativa erra ainda ao aceitar a medida "antes ou após" broncodilatador: a classificação GOLD usa exclusivamente o valor **pós-broncodilatador**.
+
+⚠️ **PEGADINHA DO INEP:** a questão gira sobre o advérbio "**indispensavelmente**". Três alternativas descrevem achados que **podem** aparecer (FEF25-75 alterado, alguma resposta ao broncodilatador, VEF1 reduzido); apenas uma descreve o que **tem** de estar presente. Ler o comando com atenção vale mais, aqui, do que saber os números.
+
+**O que a banca estava testando:** saber que o diagnóstico espirométrico de DPOC repousa **exclusivamente** sobre a relação VEF1/CVF < 0,70 pós-broncodilatador, e não confundir esse critério com os parâmetros que medem **gravidade** (VEF1) ou que caracterizam **outra doença** (reversibilidade).
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 21]**
+
+Homem de 55 anos procura atendimento em unidade básica de saúde (UBS) para renovar prescrição de losartana. Durante a consulta, relata dispneia aos esforços físicos moderados. Além disso, refere tosse pouco produtiva há alguns anos, o que atribui ao uso de 20 cigarros por dia há 20 anos. Radiografia do tórax revela alargamento dos espaços intercostais, sem outras alterações. Espirometria apresenta os seguintes resultados:
+
+| Parâmetro | Pré-broncodilatador | Pós-broncodilatador | Previsto |
+|---|---|---|---|
+| VEF1 (L) | 1,72 | **1,73** | **3,65** |
+| CVF (L) | 3,13 | 3,14 | — |
+| VEF1/CVF | 0,55 | **0,55** | 0,79 |
+
+Diante dos achados, define-se doença pulmonar obstrutiva crônica. Nesse caso, de acordo com os critérios GOLD, a doença do paciente pode ser funcionalmente classificada em
+
+A) estágio 1.
+B) estágio 2.
+C) estágio 3.
+D) estágio 4.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a classificação funcional GOLD usa o **VEF1 pós-broncodilatador expresso como percentual do previsto**. O cálculo:
+
+$$\frac{\text{VEF1 pós-BD}}{\text{VEF1 previsto}} = \frac{1{,}73}{3{,}65} = 0{,}474 \rightarrow \mathbf{47\%\ do\ previsto}$$
+
+**47% cai na faixa de 30 a 49% — GOLD 3 (grave).**
+
+| Estágio GOLD | VEF1 pós-BD (% do previsto) | Gravidade |
+|---|---|---|
+| **GOLD 1** | ≥ 80% | leve |
+| **GOLD 2** | 50 a 79% | moderada |
+| **GOLD 3** | **30 a 49%** | **grave** ← 47% |
+| **GOLD 4** | < 30% | muito grave |
+
+**Antes de classificar, confirme o diagnóstico.** A relação **VEF1/CVF = 0,55 pós-broncodilatador**, bem abaixo de 0,70, estabelece a obstrução. E a ausência de resposta ao broncodilatador é evidente: o VEF1 subiu de 1,72 para 1,73 L — **10 mL**, muito aquém dos 200 mL e 12% que caracterizariam reversibilidade. Obstrução fixa, portanto: DPOC confirmada, e só então se classifica.
+
+**O resto do caso é coerente.** Carga tabágica de **20 maços-ano** (20 cigarros/dia ÷ 20 por maço × 20 anos), tosse crônica pouco produtiva e dispneia aos esforços moderados. A radiografia com **alargamento dos espaços intercostais** traduz **hiperinsuflação** — achado radiológico clássico, ao lado da retificação das cúpulas diafragmáticas e do aumento do espaço aéreo retroesternal.
+
+⚠️ **O erro de cálculo que a questão persegue.** A armadilha é usar o número errado como numerador ou denominador:
+
+| Cálculo | Resultado | Leva a |
+|---|---|---|
+| **1,73 ÷ 3,65 = 47%** | ✔️ **GOLD 3** | **correto** |
+| 0,55 ÷ 0,79 = 70% | GOLD 2 | usa a *relação*, não o VEF1 |
+| 1,73 ÷ 3,14 = 55% | GOLD 2 | divide pela CVF medida, não pelo previsto |
+| lê "0,55" como 55% | GOLD 2 | confunde relação com percentual do previsto |
+
+Repare que **três** dos quatro caminhos errados desembocam no **estágio 2** — que é exatamente a alternativa B. A questão foi construída em torno desse erro.
+
+**Por que as demais estão erradas:**
+
+- **A) Estágio 1.** Exigiria VEF1 ≥ 80% do previsto — o paciente tem 47%. GOLD 1 é DPOC leve, frequentemente assintomática ou com tosse isolada, não com dispneia aos esforços moderados.
+- **B) Estágio 2.** Exigiria VEF1 entre 50 e 79%. É o destino de quem erra o cálculo, como mostrado acima. Os 47% ficam **três pontos abaixo** do limite inferior da faixa — margem estreita de propósito.
+- **D) Estágio 4.** Exigiria VEF1 < 30%, correspondendo a doença muito grave, com dispneia ao mínimo esforço ou em repouso, frequentemente com insuficiência respiratória crônica ou cor pulmonale. Os 47% estão bem acima desse limiar, e o paciente ainda tolera esforços moderados.
+
+⚠️ **A classificação GOLD atual não é só o VEF1.** Vale saber, ainda que a questão peça apenas o estágio funcional: desde 2011 a GOLD combina a **espirometria (1 a 4)** com a avaliação de **sintomas** (escalas mMRC ou CAT) e o **histórico de exacerbações**, resultando nos **grupos A, B e E** — e é essa combinação, não o VEF1 isolado, que orienta a escolha do tratamento farmacológico. O VEF1 classifica a **limitação funcional**; os grupos orientam a **terapia**.
+
+**O que a banca estava testando:** aplicar corretamente a fórmula do percentual do previsto — **VEF1 pós-broncodilatador ÷ VEF1 previsto** — sem confundi-la com a relação VEF1/CVF, e conhecer os pontos de corte dos estágios GOLD.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 26]**
+
+Homem de 67 anos, com histórico de doença pulmonar obstrutiva crônica há 10 anos e tabagismo há 50 anos, é levado a unidade de pronto atendimento com desconforto respiratório, tosse e confusão mental há 2 horas. Familiar relata que, nos últimos 5 dias, houve piora progressiva da dispneia e aumento do volume de expectoração, além de mudança no aspecto dessa secreção, que passou de amarelo claro para verde escuro. Ao exame físico, encontra-se torporoso, com extremidades cianóticas e com sibilos e estertores difusos em todos os campos pulmonares. Considerando a situação apresentada, a condução clínica desse paciente deve incluir, obrigatoriamente, corticoterapia
+
+A) sistêmica e acompanhamento ambulatorial.
+B) inalatória e acompanhamento ambulatorial.
+C) inalatória e internação hospitalar.
+D) sistêmica e internação hospitalar.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** **exacerbação grave da DPOC** — piora da dispneia, **aumento do volume** e **purulência do escarro** (os três critérios de Anthonisen: tipo 1, com indicação de antibiótico) — com **sinais de gravidade**: **confusão mental e torpor** (provável hipercapnia), **cianose**. Exige **internação** (possivelmente UTI e ventilação não invasiva) e **corticoide sistêmico** (prednisona 40 mg/dia por 5 dias), que reduz tempo de internação e falência terapêutica, além de broncodilatadores, oxigênio controlado (SatO₂ 88–92%) e antibiótico.
+
+**Por que as demais estão erradas:**
+- A) e B) Alteração do nível de consciência e cianose **contraindicam** tratamento ambulatorial.
+- B) e C) Corticoide **inalatório** é tratamento de manutenção, não de exacerbação.
+
+⚠️ **PEGADINHA DO INEP:** na DPOC exacerbada com rebaixamento, cuidado com **oxigênio em excesso** (piora a hipercapnia); alvo de SatO₂ 88–92%. VNI é a primeira escolha na acidose respiratória (pH < 7,35 e PaCO₂ > 45).
+
+**O que a banca estava testando:** critérios de gravidade e internação na exacerbação da DPOC e o papel do corticoide sistêmico.
+
+**[INEP 2022 · Edição 1 · Questão 61]**
+
+Uma mulher com 54 anos de idade, tabagista, cujo consumo é de 30 maços de cigarro por ano, comparece à consulta por dispneia e tosse que, segundo relata, se iniciaram há aproximadamente 1 ano. A paciente traz uma espirometria com uma razão entre o volume expiratório forçado no primeiro segundo e a capacidade vital forçada de 0.7 e um volume expiratório forçado no primeiro segundo de 80% do predito, sem resposta ao broncodilatador. O exame foi realizado com técnica correta. Considerando os dados apresentados, é correto afirmar que
+
+A) a falta de resposta ao broncodilatador sugere o diagnóstico de asma nessa paciente.
+B) os resultados da espirometria estabelecem o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente.
+C) a espirometria precisa ser repetida para se confirmar o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente.
+D) os valores do volume expiratório forçado no primeiro segundo afastam o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Análise:** o INEP não divulga o motivo da anulação. Para revisar: tabagista com 30 maços-ano, dispneia e tosse crônicas e espirometria com **VEF1/CVF = 0,70**, VEF1 de 80% do predito e **sem resposta ao broncodilatador**. O diagnóstico de DPOC exige **VEF1/CVF < 0,70 pós-broncodilatador**. Um valor **exatamente igual a 0,70** fica no limite, e o GOLD recomenda **repetir a espirometria** quando a relação está próxima ao corte (0,6–0,8), para confirmar o diagnóstico. A falta de resposta ao broncodilatador não define asma (A errada) e o VEF1 de 80% não afasta DPOC (D errada) — ele só gradua a obstrução. O valor limítrofe deixou B e C discutíveis, o que provavelmente motivou a anulação.
+
+**O que a banca estava testando:** critério espirométrico de DPOC.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual a causa mais frequente de exacerbação da DPOC?	Infecção respiratória, predominantemente de origem viral	Revalida::Pneumologia::DPOC::Diagnostico
+TEP, pneumotórax e cor pulmonale são causas comuns de exacerbação da DPOC?	Não — são diagnósticos diferenciais relevantes, mas não as causas mais frequentes	Revalida::Pneumologia::DPOC::Diagnostico
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Infecção respiratória viral é a causa mais frequente de exacerbação da DPOC.
+2. TEP, pneumotórax, cor pulmonale e pneumonia oportunista são diferenciais, não a causa mais comum.
+3. Considerar diagnósticos diferenciais quando a apresentação for atípica (dor pleurítica súbita, assimetria).
+4. Nem toda exacerbação precisa de antibiótico — muitas são virais.
+5. Avaliar gravidade da exacerbação antes de definir a conduta terapêutica.
+
+📊 **Tabela-síntese**
+| Causa de exacerbação | Frequência |
+|---|---|
+| Infecção respiratória viral | Mais comum |
+| TEP, pneumotórax, cor pulmonale, pneumonia oportunista | Menos comuns — diferenciais |
+
+⚡ **Fluxograma textual:** DPOC + piora aguda de dispneia/tosse → considerar infecção respiratória (viral) como causa mais provável → investigar diferenciais se apresentação atípica → tratar conforme protocolo.
+
+🚫 **Os 3 erros mais comuns:** (1) investigar causas raras antes da mais comum; (2) prescrever antibiótico automaticamente; (3) não considerar diferenciais quando a apresentação for atípica.
+
+🔗 **Conexões com outros módulos:** [[PNE-06]] (DPOC — oxigenoterapia domiciliar), [[PNE-05]] (Tromboembolismo pulmonar).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PNE-03",
+  "especialidade": "Pneumologia",
+  "tema": "Doença pulmonar obstrutiva crônica",
+  "assunto": "Exacerbação da DPOC - causa mais frequente",
+  "tier": "A",
+  "n_questoes": 6,
+  "n_flashcards": 2,
+  "tempo_estudo_min": 90,
+  "prerequisitos": [],
+  "relacionados": ["PNE-06", "PNE-05"],
+  "data_geracao": "2026-07-31",
+  "itens_a_verificar": [
+    "Módulo com apenas 1 questão na amostra atual — prioridade para revisão quando mais edições forem classificadas"
+  ]
+}
+```

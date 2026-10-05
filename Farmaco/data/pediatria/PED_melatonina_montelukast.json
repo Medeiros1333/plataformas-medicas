@@ -1,0 +1,291 @@
+[
+  {
+    "id": "PED-PSQ-melatonina",
+    "nombre": "Melatonina (insomnio infantil)",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Cronobiótico",
+    "subclase": "Agonista de los receptores MT1 y MT2 de melatonina",
+    "mecanismo": "Es la hormona que la glándula pineal secreta en respuesta a la OSCURIDAD y que informa al organismo de que es de noche. Actúa sobre los receptores MT1 y MT2 del núcleo supraquiasmático, el reloj central del hipotálamo, produciendo dos efectos distintos que conviene no confundir: a dosis bajas y administrada VARIAS HORAS ANTES de dormir actúa como CRONOBIÓTICO, adelantando la fase del sueño; a dosis mayores y cerca de la hora de acostarse tiene un efecto HIPNÓTICO leve. En el niño ese matiz es determinante: la mayoría de los insomnios infantiles no son un problema de falta de sueño sino de RETRASO DE FASE (el niño no tiene sueño a la hora que la familia quiere que se duerma), y ahí lo que funciona es la dosis baja administrada temprano, no una dosis alta a las once de la noche.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,5-3 mg administrados 30-60 minutos antes de la hora deseada de dormir; como cronobiótico, 0,5 mg administrados 3-5 horas antes (dosis FIJA por franja de edad, no ponderal)",
+    "dosis_maxima": "5-10 mg en el niño con trastorno del neurodesarrollo; por encima no hay más beneficio",
+    "presentaciones": [
+      "Comprimidos y gotas de 1 mg y 5 mg",
+      "Formulaciones de liberación prolongada autorizadas en el trastorno del espectro autista",
+      "Muchos productos son COMPLEMENTOS ALIMENTICIOS con contenido real muy variable respecto al declarado"
+    ],
+    "edad_minima": "Uso habitual a partir de los 2 años; por debajo, solo con indicación específica y tras descartar causas orgánicas",
+    "franjas_edad": [
+      {
+        "franja": "Lactante",
+        "ajuste": "NO indicada: el despertar nocturno del lactante es FISIOLÓGICO, y el problema suele ser de expectativas y de asociaciones al inicio del sueño"
+      },
+      {
+        "franja": "Preescolar y escolar sano",
+        "ajuste": "0,5-3 mg, siempre DESPUÉS de haber trabajado las medidas conductuales y de higiene del sueño, que son el tratamiento de fondo"
+      },
+      {
+        "franja": "Niño con TEA o TDAH",
+        "ajuste": "1-5 mg, y hasta 10 mg en algunos casos: es donde la evidencia es más sólida y donde el beneficio es mayor"
+      },
+      {
+        "franja": "Adolescente con RETRASO DE FASE",
+        "ajuste": "0,5 mg administrados 3-5 horas ANTES de la hora objetivo, no al acostarse: aquí se busca el efecto cronobiótico y no el hipnótico"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es el fármaco más prescrito y más automedicado para el sueño infantil, y su uso está lleno de malentendidos que conviene deshacer. El primero es de INDICACIÓN: el despertar nocturno del lactante y la resistencia a acostarse del preescolar son problemas CONDUCTUALES y de higiene del sueño, no un déficit de melatonina, y en ellos el fármaco añade poco a lo que consiguen las rutinas, los horarios estables y la retirada de pantallas. El segundo es de MOMENTO: administrada al acostarse actúa como hipnótico leve, pero administrada 3-5 horas antes actúa como cronobiótico y adelanta la fase, que es lo que necesita el adolescente que no se duerme hasta las dos de la madrugada. El tercero es de CALIDAD: buena parte de los productos disponibles son complementos alimenticios sin garantía farmacéutica, y los análisis independientes han encontrado contenidos que van desde una fracción hasta varias veces la dosis declarada. Donde la evidencia sí es sólida es en el niño con TRASTORNO DEL ESPECTRO AUTISTA o TDAH, en los que el insomnio es de base neurobiológica y la respuesta suele ser buena.",
+    "indicaciones": [
+      {
+        "patologia": "INSOMNIO de conciliación en el niño con TRASTORNO DEL ESPECTRO AUTISTA o TDAH",
+        "dosis": "1-5 mg, 30-60 minutos antes de acostarse",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Reducción de la latencia de sueño y aumento del tiempo total, con mejoría del funcionamiento diurno",
+        "nota": "Es la indicación con MEJOR evidencia. En el TDAH tratado con estimulantes, hay que descartar primero que el insomnio no sea del propio metilfenidato"
+      },
+      {
+        "patologia": "SÍNDROME DE RETRASO DE FASE del adolescente",
+        "dosis": "0,5 mg administrados 3-5 HORAS ANTES de la hora objetivo de dormir",
+        "posologia": "Una toma vespertina, no al acostarse",
+        "via": "VO",
+        "dosis_objetivo": "ADELANTO progresivo de la fase de sueño",
+        "nota": "Aquí el momento importa más que la dosis, y hay que combinarla con LUZ intensa por la mañana y evitación de pantallas por la noche"
+      },
+      {
+        "patologia": "Insomnio de conciliación del niño sano tras fracasar las medidas conductuales",
+        "dosis": "0,5-3 mg, 30-60 minutos antes de acostarse, durante periodos limitados",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "nota": "SIEMPRE después de trabajar la higiene del sueño, nunca en su lugar: el fármaco no sustituye a una rutina"
+      },
+      {
+        "patologia": "Facilitación de pruebas diagnósticas (electroencefalograma de sueño, resonancia)",
+        "dosis": "3-6 mg antes de la prueba",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "dosis_objetivo": "Inducción de sueño espontáneo que permita realizar la prueba sin sedación",
+        "nota": "Permite evitar una sedación farmacológica en un número apreciable de niños, con el ahorro de riesgo que eso supone"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de prescribirla hay que descartar causas ORGÁNICAS del mal sueño: apnea obstructiva por hipertrofia adenoamigdalar (que es frecuente y tratable), síndrome de piernas inquietas con ferritina baja, reflujo, dermatitis atópica con prurito nocturno y ansiedad. Y hay que trabajar la HIGIENE DEL SUEÑO.",
+      "titulacion": "Empezar por la dosis MÁS BAJA: subirla no mejora los resultados y sí aumenta la somnolencia matutina.",
+      "duracion": "Periodos limitados con reevaluación periódica; en el niño con trastorno del neurodesarrollo puede ser prolongada.",
+      "fin": "Se intenta retirar periódicamente para comprobar si sigue siendo necesaria. No produce dependencia ni efecto rebote significativo.",
+      "via": "Oral.",
+      "monitorizacion": "Latencia de sueño, número de despertares y funcionamiento diurno. Un DIARIO DE SUEÑO de dos semanas aporta más información que cualquier descripción retrospectiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; los alimentos, sobre todo grasos, retrasan el pico.",
+      "distribucion": "Atraviesa con facilidad la barrera hematoencefálica.",
+      "metabolismo": "Hepático por CYP1A2, con metabolismo presistémico importante y muy variable entre individuos: eso explica que la respuesta varíe tanto de un niño a otro.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "30-60 minutos en la formulación inmediata, lo que la hace útil para conciliar el sueño pero poco para mantenerlo. Las formulaciones de liberación prolongada cubren mejor la noche completa.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución: el aclaramiento disminuye.",
+      "interacciones": [
+        {
+          "con": "FLUVOXAMINA y otros inhibidores del CYP1A2 (ciprofloxacino)",
+          "efecto": "Multiplican sus concentraciones de forma muy marcada",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis; la fluvoxamina puede multiplicar por diez la exposición"
+        },
+        {
+          "con": "LUZ, especialmente la de PANTALLAS por la noche",
+          "efecto": "SUPRIME la secreción endógena de melatonina y ANTAGONIZA el efecto del tratamiento",
+          "gravedad": "alta",
+          "manejo": "Es la interacción más importante y la que menos se aborda: dar melatonina a un adolescente que usa el móvil hasta las dos de la madrugada es intentar corregir con un comprimido lo que la luz está deshaciendo"
+        },
+        {
+          "con": "Estimulantes (metilfenidato) en el TDAH",
+          "efecto": "El insomnio puede ser del ESTIMULANTE y no un problema de sueño independiente",
+          "gravedad": "media",
+          "manejo": "Antes de añadir melatonina, valorar adelantar o reducir la dosis vespertina del estimulante"
+        },
+        {
+          "con": "Anticoagulantes y antiepilépticos",
+          "efecto": "Interacciones descritas de relevancia clínica limitada",
+          "gravedad": "baja",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SOMNOLENCIA matutina residual, sobre todo con dosis altas",
+        "Cefalea",
+        "Sueños vívidos o pesadillas",
+        "Enuresis nocturna (descrita y poco conocida)"
+      ],
+      "graves": [
+        "Muy pocos: es un fármaco notablemente seguro a corto plazo",
+        "Agravamiento de crisis en algunos niños con epilepsia (descrito, con datos contradictorios)",
+        "Preocupación teórica no confirmada sobre el eje puberal con el uso prolongado, que es el motivo por el que se recomienda reevaluar periódicamente",
+        "SOBREDOSIS accidental por productos de venta libre con gominolas atractivas para los niños: es un motivo creciente de consulta en toxicología"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "Uso como sustituto de las medidas conductuales, que son el tratamiento de fondo",
+      "Enfermedad autoinmune (relativa, por su efecto inmunomodulador teórico)"
+    ],
+    "perlas": [
+      "El MOMENTO importa más que la dosis, y esa es la clave que casi nadie explica: administrada 30-60 minutos antes de acostarse actúa como hipnótico leve; administrada 3-5 HORAS antes actúa como CRONOBIÓTICO y adelanta la fase del sueño. En el adolescente que no se duerme hasta las dos de la madrugada, lo segundo es lo que funciona.",
+      "La LUZ de las PANTALLAS suprime la melatonina endógena y antagoniza directamente el tratamiento. Dar un comprimido a un adolescente que usa el móvil en la cama es intentar corregir con farmacología lo que la conducta está deshaciendo. Sin abordar la luz nocturna, el fármaco tiene poco que hacer.",
+      "En el niño SANO la evidencia es modesta y el tratamiento de fondo es CONDUCTUAL: rutinas estables, horarios regulares también el fin de semana, y retirada de pantallas. En el niño con TEA o TDAH, en cambio, la evidencia es sólida y el beneficio es real.",
+      "Antes de tratar hay que DESCARTAR lo orgánico: la APNEA OBSTRUCTIVA por hipertrofia adenoamigdalar es frecuente, tratable y produce un sueño fragmentado con hiperactividad diurna que se confunde con TDAH. Preguntar por ronquido y por pausas respiratorias cambia el diagnóstico en más casos de los que parece.",
+      "El SÍNDROME DE PIERNAS INQUIETAS del niño se asocia a FERRITINA baja y responde al hierro: es una causa de insomnio infrecuentemente buscada y muy agradecida cuando se encuentra.",
+      "Menos es más: la dosis más BAJA suele funcionar igual y produce menos somnolencia matutina. Subirla porque no funciona rara vez es la respuesta correcta.",
+      "Buena parte de los productos son COMPLEMENTOS ALIMENTICIOS sin control farmacéutico, y los análisis independientes han encontrado contenidos muy alejados del declarado. Conviene recomendar preparados con garantía y advertir de que no todos son equivalentes.",
+      "Las presentaciones en GOMINOLAS de venta libre son un problema creciente de toxicología pediátrica: son atractivas, están al alcance y las ingestas accidentales han aumentado de forma notable.",
+      "En el niño con TDAH tratado con estimulantes, el insomnio puede ser del PROPIO estimulante: adelantar o reducir la dosis vespertina resuelve el problema sin añadir otro fármaco.",
+      "Un DIARIO DE SUEÑO de dos semanas aporta más información que cualquier descripción retrospectiva de la familia, y a menudo revela que el problema no es el que se creía."
+    ],
+    "embarazo_lactancia": "No recomendada en el embarazo ni en la lactancia por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; guías de la AEP sobre trastornos del sueño en la infancia"
+  },
+  {
+    "id": "PED-NML-montelukast",
+    "nombre": "Montelukast (pediatría)",
+    "sinonimos": [
+      "Antileucotrieno"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Antiasmático",
+    "subclase": "Antagonista del receptor de cisteinil-leucotrienos",
+    "mecanismo": "Bloquea el receptor CysLT1 de los leucotrienos C4, D4 y E4, mediadores derivados del ácido araquidónico por la vía de la 5-lipooxigenasa que producen broncoconstricción, edema de la mucosa, hipersecreción y reclutamiento de eosinófilos. Su efecto antiinflamatorio es MODESTO comparado con el del corticoide inhalado, que actúa sobre muchas más vías, pero tiene dos ventajas prácticas en pediatría: se administra por vía ORAL en un comprimido masticable, lo que evita el problema de la técnica inhalatoria, y bloquea específicamente la vía que domina en dos escenarios concretos: el asma inducida por el EJERCICIO y las sibilancias desencadenadas por INFECCIÓN VÍRICA en el preescolar, en las que el componente leucotriénico pesa más que en el asma alérgica clásica.",
+    "espectro": null,
+    "dosis_pediatrica_base": "4 mg al día de 6 meses a 5 años; 5 mg al día de 6 a 14 años; 10 mg al día a partir de los 15 (dosis por FRANJA de edad, no ponderal)",
+    "dosis_maxima": "10 mg al día: no hay beneficio adicional al subir",
+    "presentaciones": [
+      "Granulado de 4 mg para el lactante y el niño pequeño",
+      "Comprimidos masticables de 4 y 5 mg",
+      "Comprimidos de 10 mg para el adolescente"
+    ],
+    "edad_minima": "6 meses",
+    "franjas_edad": [
+      {
+        "franja": "6 meses a 5 años",
+        "ajuste": "4 mg al día en granulado o masticable. Es la franja donde más se usa, en sibilancias recurrentes desencadenadas por virus"
+      },
+      {
+        "franja": "6-14 años",
+        "ajuste": "5 mg al día en comprimido masticable, por la noche"
+      },
+      {
+        "franja": "15 años y adolescente",
+        "ajuste": "10 mg al día"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es un fármaco cuya percepción ha cambiado por completo en los últimos años y conviene entender por qué. Durante mucho tiempo fue muy prescrito en pediatría porque resolvía dos problemas prácticos reales: se toma por boca, evitando la dificultad de la técnica inhalatoria en un niño pequeño, y las familias lo aceptan mejor que un corticoide, del que muchas desconfían. Pero su eficacia es INFERIOR a la del corticoide inhalado en el asma persistente, y en 2020 las agencias reguladoras emitieron una ADVERTENCIA DESTACADA por efectos NEUROPSIQUIÁTRICOS: pesadillas intensas, terrores nocturnos, agitación, irritabilidad, ansiedad, depresión y, en adolescentes, ideación suicida. Esos efectos son a menudo llamativos, aparecen en las primeras semanas, revierten al suspenderlo, y sin embargo casi nunca se relacionan con el fármaco porque nadie pregunta por ellos. La consecuencia práctica es que hoy hay que informar EXPRESAMENTE a la familia de estos síntomas antes de prescribirlo y preguntar por ellos en cada revisión.",
+    "indicaciones": [
+      {
+        "patologia": "ASMA persistente leve, como alternativa al corticoide inhalado o añadido a él",
+        "dosis": "4 mg (6 meses-5 años), 5 mg (6-14 años) o 10 mg (más de 15 años) al día por la noche",
+        "posologia": "Una toma nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Control del asma sin síntomas diurnos ni nocturnos y sin necesidad de rescate",
+        "nota": "Es INFERIOR al corticoide inhalado, que sigue siendo el tratamiento de fondo de elección. Su lugar es la intolerancia o el rechazo del inhalado, o como fármaco añadido"
+      },
+      {
+        "patologia": "ASMA INDUCIDA POR EL EJERCICIO",
+        "dosis": "Dosis habitual por edad, tomada de forma continua",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Prevención de la broncoconstricción con el esfuerzo",
+        "nota": "Es una de sus mejores indicaciones: aquí el componente leucotriénico es dominante y el beneficio es apreciable"
+      },
+      {
+        "patologia": "SIBILANCIAS RECURRENTES desencadenadas por virus en el PREESCOLAR",
+        "dosis": "4 mg al día, de forma continua o en ciclos coincidiendo con los episodios",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Reducción del número y de la gravedad de los episodios",
+        "nota": "Es una indicación muy pediátrica, con beneficio modesto y variable: conviene pactar de antemano cuándo se dará por fracasado el ensayo"
+      },
+      {
+        "patologia": "RINITIS ALÉRGICA asociada al asma",
+        "dosis": "4 mg al día de 6 meses a 5 años, 5 mg de 6 a 14 años o 10 mg a partir de los 15",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Permite tratar la vía aérea superior e inferior con un solo fármaco, aunque es menos eficaz que el corticoide nasal para la rinitis"
+      }
+    ],
+    "esquema": {
+      "inicio": "INFORMAR expresamente a la familia de los posibles efectos NEUROPSIQUIÁTRICOS y de que hay que consultar si aparecen. Es hoy parte obligada de la prescripción.",
+      "titulacion": "Dosis fija por edad; no se titula.",
+      "duracion": "Ensayo de 4-8 semanas: si no hay beneficio claro, se RETIRA en lugar de mantenerse indefinidamente.",
+      "fin": "Retirada sin pauta descendente.",
+      "via": "Oral, por la noche (el ritmo circadiano del asma empeora de madrugada).",
+      "monitorizacion": "Control del asma, número de exacerbaciones y, de forma ACTIVA, SUEÑO, CONDUCTA y estado de ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el granulado se puede mezclar con una cucharada de alimento blando frío o a temperatura ambiente, pero debe administrarse en los 15 minutos siguientes.",
+      "distribucion": "Muy alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP2C8, CYP3A4 y CYP2C9.",
+      "eliminacion": "Biliar.",
+      "vida_media": "2,7-5,5 horas en el adulto, más corta en el niño.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "Precaución en la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Fenobarbital, fenitoína y rifampicina",
+          "efecto": "Inducen su metabolismo y reducen sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar la eficacia clínica"
+        },
+        {
+          "con": "Corticoide inhalado",
+          "efecto": "Efecto ADITIVO sobre el control del asma",
+          "gravedad": "baja",
+          "manejo": "Combinación válida, aunque subir el corticoide inhalado o añadir un broncodilatador de acción larga suele ser más eficaz"
+        },
+        {
+          "con": "Gemfibrozilo",
+          "efecto": "Aumenta sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia habitual en pediatría"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "PESADILLAS y TERRORES NOCTURNOS, muy característicos y frecuentemente no atribuidos al fármaco",
+        "IRRITABILIDAD, agitación e hiperactividad",
+        "Cefalea y dolor abdominal",
+        "Alteraciones del sueño"
+      ],
+      "graves": [
+        "EFECTOS NEUROPSIQUIÁTRICOS con advertencia destacada de las agencias reguladoras: ansiedad, DEPRESIÓN, agresividad, alteraciones del comportamiento y, en adolescentes, IDEACIÓN y conducta SUICIDA",
+        "Reacciones de hipersensibilidad y angioedema",
+        "Vasculitis eosinofílica (granulomatosis eosinofílica con poliangeítis) al retirar el corticoide oral: probablemente por desenmascaramiento y no por causalidad directa",
+        "Hepatitis (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de efectos neuropsiquiátricos con el fármaco",
+      "Hipersensibilidad conocida",
+      "Uso como tratamiento del BRONCOESPASMO AGUDO: no es un broncodilatador de rescate",
+      "Precaución en el niño con trastorno psiquiátrico o del comportamiento previo"
+    ],
+    "perlas": [
+      "Hay que preguntar ACTIVAMENTE por PESADILLAS, terrores nocturnos, irritabilidad y cambios de comportamiento en cada revisión. Son frecuentes, aparecen en las primeras semanas, revierten al suspenderlo y casi nunca se relacionan con el fármaco porque nadie los busca. Muchas familias llevan meses conviviendo con un niño que duerme mal y está irritable sin sospechar la causa.",
+      "En el ADOLESCENTE, la advertencia incluye ideación y conducta SUICIDA. Es una información que hay que dar de forma explícita a la familia al prescribirlo, no una letra pequeña del prospecto.",
+      "Es INFERIOR al CORTICOIDE INHALADO en el asma persistente. Su atractivo es práctico (vía oral, buena aceptación familiar, sin problemas de técnica), no de eficacia, y esa comodidad ha hecho que se prescriba más de lo que su beneficio justifica.",
+      "Sus MEJORES indicaciones son dos y muy concretas: el asma inducida por el EJERCICIO y las sibilancias del preescolar desencadenadas por VIRUS, donde el componente leucotriénico pesa más.",
+      "Si no funciona, se RETIRA. El ensayo terapéutico dura 4-8 semanas y hay que pactar con la familia de antemano cómo se juzgará: mantener indefinidamente un fármaco que nunca aportó nada es exponer al niño a los efectos neuropsiquiátricos sin ninguna contrapartida.",
+      "NO es un broncodilatador de rescate: no sirve para una crisis. Es un error de comprensión frecuente en las familias que conviene aclarar al prescribirlo.",
+      "Antes de escalar el tratamiento del asma hay que comprobar tres cosas: que el diagnóstico es correcto, que la TÉCNICA INHALATORIA es adecuada y que hay ADHERENCIA. Un porcentaje alto de asmas mal controlados mejora corrigiendo la técnica del inhalador con cámara, y añadir montelukast no arregla un inhalador mal usado.",
+      "Se toma por la NOCHE porque el asma tiene un ritmo circadiano y empeora de madrugada; el granulado se mezcla con alimento blando y se da en los 15 minutos siguientes."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE gestante puede mantenerse si el asma lo requiere, aunque hay más experiencia con el corticoide inhalado, que es el tratamiento de fondo preferente. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "VIR-virus-respiratorio-sincitial"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 20; guías GEMA y GINA sobre asma infantil; alerta de la FDA y de la AEMPS sobre efectos neuropsiquiátricos del montelukast"
+  }
+]

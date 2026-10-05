@@ -1,0 +1,237 @@
+[
+  {
+    "id": "DER-permetrina",
+    "nombre": "Permetrina e ivermectina (escabiosis y pediculosis)",
+    "sinonimos": [
+      "Escabicidas y pediculicidas"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antiparasitario externo",
+    "subclase": "Piretroide tópico y lactona macrocíclica oral",
+    "mecanismo": "La PERMETRINA es un piretroide sintético que actúa sobre los canales de SODIO del artrópodo, manteniéndolos abiertos y produciendo despolarización mantenida, parálisis y muerte del ácaro y del piojo. Su selectividad es excelente porque los mamíferos metabolizan rápidamente los piretroides por esterasas cutáneas y hepáticas y sus canales de sodio son mucho menos sensibles. La IVERMECTINA actúa sobre los canales de CLORO dependientes de glutamato, exclusivos de invertebrados, hiperpolarizando la célula y produciendo parálisis flácida; no atraviesa la barrera hematoencefálica del mamífero adulto porque la glicoproteína P la expulsa, y esa es la razón de su seguridad. Un dato que ordena todo el manejo de la sarna: el PRURITO no lo produce el ácaro directamente sino una reacción de HIPERSENSIBILIDAD retardada a sus antígenos, y por eso persiste SEMANAS después de que el parásito haya muerto.",
+    "espectro": "Sarcoptes scabiei, Pediculus humanus capitis y corporis, Phthirus pubis. La ivermectina cubre además Strongyloides, oncocercosis y Demodex.",
+    "indicaciones": [
+      {
+        "patologia": "ESCABIOSIS (sarna)",
+        "dosis": "Permetrina 5% en crema aplicada en TODO el cuerpo desde el cuello hasta los pies, dejándola actuar 8-12 horas, y REPETIR a los 7 días",
+        "posologia": "Dos aplicaciones separadas 7 días",
+        "via": "tópica",
+        "dosis_objetivo": "Desaparición de los surcos y de las lesiones nuevas; el prurito puede persistir semanas",
+        "nota": "La SEGUNDA aplicación a los 7 días es imprescindible: el escabicida no mata los huevos, y hay que esperar a que eclosionen. Omitirla es la causa más frecuente de fracaso"
+      },
+      {
+        "patologia": "Escabiosis: tratamiento ORAL",
+        "dosis": "Ivermectina 200 microgramos/kg en dosis única, REPETIDA a los 7-14 días",
+        "posologia": "Dos dosis separadas 7-14 días",
+        "via": "VO",
+        "nota": "De elección en BROTES institucionales, en la sarna costrosa y cuando la aplicación tópica correcta no es viable. Se toma CON COMIDA, que duplica su absorción"
+      },
+      {
+        "patologia": "SARNA COSTROSA (noruega)",
+        "dosis": "Ivermectina oral 200 microgramos/kg en los días 1, 2, 8, 9 y 15, junto con permetrina tópica diaria y queratolíticos",
+        "posologia": "Pauta combinada prolongada",
+        "via": "VO",
+        "nota": "Carga parasitaria de MILLONES de ácaros y contagiosidad extrema: requiere AISLAMIENTO de contacto y tratamiento simultáneo de todo el personal y los convivientes"
+      },
+      {
+        "patologia": "PEDICULOSIS de la cabeza",
+        "dosis": "Permetrina 1-1,5% en loción sobre pelo seco, dejándola 10 minutos, repitiendo a los 7-9 días; o dimeticona 4% en la misma pauta",
+        "posologia": "Dos aplicaciones separadas 7-9 días",
+        "via": "tópica",
+        "nota": "La DIMETICONA actúa FÍSICAMENTE, asfixiando al piojo, y por eso no genera resistencias: es hoy preferible en zonas con resistencia establecida a piretroides"
+      },
+      {
+        "patologia": "ROSÁCEA papulopustulosa con Demodex",
+        "dosis": "Ivermectina 1% en crema, una aplicación al día",
+        "posologia": "Una aplicación diaria durante meses",
+        "via": "tópica",
+        "nota": "Combina el efecto antiparasitario sobre Demodex con un efecto antiinflamatorio propio"
+      }
+    ],
+    "esquema": {
+      "inicio": "Diagnóstico clínico (prurito de predominio NOCTURNO, surcos en espacios interdigitales, muñecas, axilas, areolas y genitales, con afectación de varios convivientes). Tratar SIMULTÁNEAMENTE a todos los contactos, tengan o no síntomas.",
+      "titulacion": "No procede: son pautas fijas con repetición obligada.",
+      "duracion": "Dos aplicaciones o dos dosis separadas por una semana.",
+      "fin": "El PRURITO POSESCABIÓTICO persiste 2-4 semanas tras la curación y NO significa fracaso: se trata con emolientes, antihistamínicos y un corticoide tópico suave, no con más escabicida.",
+      "via": "Tópica u oral.",
+      "monitorizacion": "Aparición de lesiones NUEVAS (eso sí indica fracaso o reinfestación) frente a persistencia del prurito sobre lesiones antiguas (que es lo esperable)."
+    },
+    "farmacocinetica": {
+      "absorcion": "La permetrina tópica se absorbe menos del 2%. La ivermectina oral se absorbe bien y su biodisponibilidad se DUPLICA con la comida.",
+      "distribucion": "La ivermectina no atraviesa la barrera hematoencefálica del adulto por la acción de la glicoproteína P.",
+      "metabolismo": "Permetrina: esterasas cutáneas. Ivermectina: hepático por CYP3A4.",
+      "eliminacion": "Fecal.",
+      "vida_media": "Ivermectina 12-18 horas.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución con la ivermectina en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 y de la glicoproteína P (ritonavir, ketoconazol, ciclosporina)",
+          "efecto": "Aumentan la exposición a ivermectina y su paso al sistema nervioso central",
+          "gravedad": "media",
+          "manejo": "Precaución; vigilar clínica neurológica"
+        },
+        {
+          "con": "Comida (ivermectina)",
+          "efecto": "DUPLICA su absorción",
+          "gravedad": "baja",
+          "manejo": "Interacción BUSCADA en la escabiosis: tomarla con alimento. En cambio, en la estrongiloidiasis intestinal se prefiere en ayunas"
+        },
+        {
+          "con": "Corticoides y prurito posescabiótico",
+          "efecto": "Alivian la hipersensibilidad residual",
+          "gravedad": "baja",
+          "manejo": "Asociación útil tras completar el tratamiento antiparasitario"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor y quemazón durante la aplicación de la permetrina",
+        "Empeoramiento TRANSITORIO del prurito los primeros días",
+        "Sequedad y eritema",
+        "Náuseas y mareo con la ivermectina oral"
+      ],
+      "graves": [
+        "Dermatitis alérgica de contacto a los piretroides",
+        "Reacción de MAZZOTTI con ivermectina en pacientes con oncocercosis o con carga parasitaria alta: fiebre, prurito intenso, adenopatías e hipotensión",
+        "Neurotoxicidad de la ivermectina en pacientes con la barrera hematoencefálica alterada o con déficit de glicoproteína P",
+        "Sobreinfección bacteriana de las lesiones de rascado, con riesgo de glomerulonefritis postestreptocócica en el niño"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a piretroides o a los crisantemos",
+      "IVERMECTINA en menores de 15 kg o de 5 años, y en el embarazo (datos limitados)",
+      "Permetrina: precaución en menores de 2 meses"
+    ],
+    "perlas": [
+      "La regla que evita casi todos los fracasos: hay que tratar a TODOS LOS CONVIVIENTES A LA VEZ, tengan síntomas o no. El periodo de incubación del primer contacto es de 4-6 semanas, de modo que quien todavía no pica probablemente ya está infestado y reinfestará al resto.",
+      "La SEGUNDA aplicación a los 7 días no es opcional: el escabicida no mata los HUEVOS, y hay que esperar a que eclosionen para matar a las larvas. Omitirla es la causa número uno de fracaso aparente.",
+      "El PRURITO POSESCABIÓTICO dura de 2 a 4 SEMANAS tras la curación porque es una hipersensibilidad a los antígenos del ácaro muerto, no una infestación persistente. Si no se explica, el paciente se aplica escabicida una y otra vez y acaba con una dermatitis irritativa que perpetúa el picor. Lo que indica fracaso real son las lesiones NUEVAS, no el prurito.",
+      "Hay que aplicar la crema en TODA la superficie corporal del cuello a los pies, incluyendo espacios interdigitales, ombligo, genitales, pliegue interglúteo y BAJO LAS UÑAS. En el lactante y en el anciano, también cuero cabelludo y cara. Las zonas olvidadas son donde sobrevive el ácaro.",
+      "La SARNA COSTROSA es una entidad completamente distinta: millones de ácaros, poco o ningún prurito (porque el paciente es inmunodeprimido y no monta la respuesta de hipersensibilidad) y contagiosidad extrema. Es la causa de los brotes en residencias, y exige aislamiento, ivermectina oral repetida y tratamiento simultáneo del personal.",
+      "La IVERMECTINA se toma CON COMIDA en la escabiosis, porque la grasa duplica su absorción y hay que alcanzar la piel. Es exactamente lo contrario de lo que se recomienda en la estrongiloidiasis intestinal.",
+      "La ropa y la ropa de cama se lavan a 60 °C o se guardan en bolsa cerrada 72 horas: el ácaro no sobrevive fuera del huésped más de 2-3 días. No hace falta fumigar la casa ni desinfectar el mobiliario, y decirlo evita mucho gasto y mucha angustia.",
+      "En la PEDICULOSIS la resistencia a piretroides es hoy muy extendida. La DIMETICONA, que asfixia físicamente al piojo, no puede generar resistencia y se ha convertido en la primera opción en muchos lugares.",
+      "El diagnóstico de sarna se apoya en tres datos que valen más que cualquier prueba: prurito de predominio NOCTURNO, distribución característica que RESPETA la cara y el cuero cabelludo en el adulto, y varios convivientes afectados."
+    ],
+    "embarazo_lactancia": "La PERMETRINA tópica es el tratamiento de ELECCIÓN en la embarazada y en la lactante por su absorción mínima. La IVERMECTINA oral se evita en el embarazo por datos limitados; en la lactancia se considera aceptable. Limpiar el pezón antes de la toma.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 53 y 61; guías de la OMS y de la AEDV sobre escabiosis"
+  },
+  {
+    "id": "DER-minoxidil-finasterida",
+    "nombre": "Minoxidil y finasterida (alopecia androgénica)",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento de la alopecia",
+    "subclase": "Vasodilatador abridor de canales de potasio e inhibidor de la 5-alfa-reductasa",
+    "mecanismo": "El MINOXIDIL es un abridor de los canales de POTASIO dependientes de ATP: fue desarrollado como antihipertensivo y su efecto sobre el pelo se descubrió como reacción adversa. En el folículo prolonga la fase ANÁGENA (de crecimiento), acorta la telógena y aumenta el tamaño del folículo miniaturizado, probablemente por vasodilatación local y por estimulación directa de la papila dérmica; requiere ser sulfatado por la enzima folicular SULFOTRANSFERASA para activarse, y la variabilidad de esa enzima explica por qué hay respondedores y no respondedores. La FINASTERIDA inhibe la 5-ALFA-REDUCTASA tipo 2, bloqueando la conversión de testosterona en DIHIDROTESTOSTERONA, que es la hormona responsable de la miniaturización folicular en la alopecia androgénica; reduce la dihidrotestosterona sérica en torno a un 70% sin bajar la testosterona, que incluso sube ligeramente.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ALOPECIA ANDROGÉNICA masculina",
+        "dosis": "Minoxidil 5% en solución o espuma, 1 mL dos veces al día; finasterida 1 mg al día por vía oral",
+        "posologia": "Minoxidil dos veces al día; finasterida una vez al día",
+        "via": "tópica",
+        "dosis_objetivo": "Detención de la caída y repoblación parcial, valorada con fotografías estandarizadas a los 6-12 meses",
+        "nota": "La combinación de ambos es más eficaz que cualquiera por separado. El objetivo realista es DETENER la progresión; la repoblación es un beneficio adicional"
+      },
+      {
+        "patologia": "Alopecia androgénica FEMENINA",
+        "dosis": "Minoxidil 2-5%, una o dos aplicaciones al día",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "La finasterida NO está autorizada en la mujer y está CONTRAINDICADA en edad fértil por teratogenia; en la posmenopáusica se usa fuera de indicación con precaución"
+      },
+      {
+        "patologia": "HIPERPLASIA BENIGNA DE PRÓSTATA (finasterida 5 mg)",
+        "dosis": "Finasterida 5 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "REDUCE el PSA aproximadamente a la MITAD: hay que multiplicar por dos el valor medido para interpretarlo, o se retrasará el diagnóstico de un cáncer de próstata"
+      },
+      {
+        "patologia": "Alopecia areata y efluvio telógeno crónico (minoxidil)",
+        "dosis": "Minoxidil 5%, dos aplicaciones al día",
+        "posologia": "Dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Eficacia modesta y como coadyuvante; en la areata extensa el tratamiento son los inmunomoduladores"
+      }
+    ],
+    "esquema": {
+      "inicio": "Fotografías estandarizadas basales: sin ellas, ni el paciente ni el médico podrán juzgar la respuesta dentro de un año. Advertir del EFLUVIO INICIAL de las primeras semanas.",
+      "titulacion": "Dosis fija.",
+      "duracion": "INDEFINIDA. Es el punto que hay que dejar claro antes de empezar.",
+      "fin": "Al suspender, todo el pelo ganado se PIERDE en 3-6 meses y la alopecia vuelve al punto en el que estaría sin tratamiento. No hay curación, hay control.",
+      "via": "Tópica (minoxidil) y oral (finasterida). Existe minoxidil ORAL a dosis bajas, cada vez más usado fuera de indicación.",
+      "monitorizacion": "Fotografías cada 6 meses. Con finasterida: función sexual y estado de ánimo; recordar el ajuste del PSA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Minoxidil tópico: absorción sistémica baja pero NO nula (1-2%). Finasterida: buena absorción oral.",
+      "distribucion": "La finasterida pasa al SEMEN en cantidades mínimas, sin riesgo demostrado para la pareja gestante.",
+      "metabolismo": "El minoxidil requiere SULFATACIÓN folicular para activarse; la finasterida se metaboliza por CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "Finasterida 6-8 horas, pero su efecto sobre la enzima es prolongado.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución con la finasterida.",
+      "interacciones": [
+        {
+          "con": "Antihipertensivos (minoxidil tópico en superficies extensas)",
+          "efecto": "Hipotensión y taquicardia por absorción sistémica",
+          "gravedad": "media",
+          "manejo": "Precaución en el cardiópata; no aplicar sobre piel erosionada, que multiplica la absorción"
+        },
+        {
+          "con": "Testosterona y suplementos androgénicos",
+          "efecto": "Antagonizan el efecto de la finasterida",
+          "gravedad": "media",
+          "manejo": "Valorar la indicación conjunta"
+        },
+        {
+          "con": "Determinación de PSA",
+          "efecto": "La finasterida lo REDUCE aproximadamente a la mitad",
+          "gravedad": "alta",
+          "manejo": "MULTIPLICAR POR DOS el PSA medido para interpretarlo. Es un error que retrasa diagnósticos de cáncer de próstata y hay que dejarlo anotado en la historia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "MINOXIDIL: dermatitis de contacto irritativa (a menudo por el propilenglicol de la solución; la espuma lo evita), prurito, descamación e HIPERTRICOSIS FACIAL, sobre todo en la mujer",
+        "EFLUVIO INICIAL en las primeras 2-8 semanas con ambos fármacos: caída transitoria que precede a la mejoría",
+        "FINASTERIDA: disminución de la libido, disfunción eréctil y alteración de la eyaculación, en torno al 2-4%"
+      ],
+      "graves": [
+        "MINOXIDIL: taquicardia, edemas y derrame pericárdico con absorción sistémica significativa",
+        "FINASTERIDA: síndrome POSTFINASTERIDA, con persistencia de disfunción sexual y síntomas depresivos tras suspenderlo (entidad debatida pero descrita y motivo de advertencia regulatoria)",
+        "Depresión e ideación suicida (advertencia añadida a la ficha técnica)",
+        "GINECOMASTIA",
+        "TERATOGENIA: la finasterida produce feminización de los genitales externos del FETO VARÓN",
+        "Riesgo aumentado de cáncer de próstata de alto grado (hallazgo debatido y probablemente artefactual)"
+      ]
+    },
+    "contraindicaciones": [
+      "FINASTERIDA en la MUJER en edad fértil y en el EMBARAZO (la mujer gestante no debe siquiera manipular comprimidos partidos o triturados)",
+      "Hipersensibilidad conocida",
+      "Minoxidil: precaución en la cardiopatía y en la hipotensión",
+      "No aplicar minoxidil sobre cuero cabelludo inflamado o erosionado"
+    ],
+    "perlas": [
+      "Lo primero que hay que decir al paciente es que el tratamiento es INDEFINIDO: si lo suspende, en 3-6 meses pierde todo lo ganado y vuelve al punto donde estaría sin haberlo tomado nunca. No es una cura, es un control, y quien no acepta eso no debería empezar.",
+      "Hay que ANTICIPAR el EFLUVIO INICIAL de las primeras semanas: el fármaco sincroniza los folículos hacia la fase anágena y en el camino se caen los telógenos. El paciente ve más pelo en la almohada justo después de empezar y abandona convencido de que le está empeorando.",
+      "La FINASTERIDA REDUCE EL PSA a la mitad. Hay que multiplicar por dos el valor medido, y anotarlo en la historia: es una causa reconocida de retraso diagnóstico del cáncer de próstata en varones que toman finasterida por alopecia, a menudo sin que el urólogo lo sepa.",
+      "La finasterida es TERATÓGENA para el feto VARÓN: produce feminización de los genitales externos. Una mujer embarazada no debe ni manipular comprimidos partidos o triturados, y esta advertencia hay que darla en casa, no solo en la consulta.",
+      "El objetivo realista es DETENER la progresión. Prometer repoblación genera decepción; explicar que el éxito es que dentro de dos años el pelo esté como hoy convierte una expectativa imposible en un resultado satisfactorio.",
+      "El resultado no se juzga a ojo sino con FOTOGRAFÍAS estandarizadas comparadas a los 6-12 meses. La percepción subjetiva del propio pelo es notoriamente poco fiable en ambas direcciones.",
+      "La dermatitis por minoxidil suele deberse al PROPILENGLICOL del vehículo, no al principio activo: cambiar de la solución a la ESPUMA resuelve la mayoría de los casos sin renunciar al tratamiento.",
+      "En la MUJER hay que advertir de la HIPERTRICOSIS facial por el minoxidil, que aparece por absorción sistémica y por transferencia accidental con las manos y la almohada. Lavarse las manos tras aplicarlo y hacerlo por la noche reduce el problema.",
+      "El minoxidil nació como ANTIHIPERTENSIVO y su efecto capilar fue una reacción adversa. Es un recordatorio útil de que sigue siendo un vasodilatador: aplicado en grandes cantidades o sobre piel erosionada puede producir taquicardia y edemas."
+    ],
+    "embarazo_lactancia": "La FINASTERIDA está CONTRAINDICADA en la mujer en edad fértil por teratogenia sobre el feto varón, y las embarazadas no deben manipular los comprimidos. El MINOXIDIL tópico se desaconseja en el embarazo y la lactancia por datos limitados y por su absorción sistémica, aunque baja.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 40; guías de la AEDV sobre alopecia androgénica"
+  }
+]

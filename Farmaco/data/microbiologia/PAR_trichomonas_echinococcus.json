@@ -1,0 +1,152 @@
+[
+  {
+    "id": "PAR-trichomonas-vaginalis",
+    "nombre": "Trichomonas vaginalis",
+    "grupo": "PAR",
+    "nivel": 1,
+    "clasificacion": "PROTOZOO FLAGELADO anaerobio, de transmisión SEXUAL; carece de forma quística, por lo que solo existe como TROFOZOÍTO y no sobrevive fuera del huésped",
+    "morfologia_tincion": "Trofozoíto piriforme de 10-20 micras con 4 flagelos anteriores, un quinto flagelo recurrente que forma una MEMBRANA ONDULANTE que recorre la mitad del cuerpo, y un axostilo central rígido que lo atraviesa. En el examen en FRESCO del exudado vaginal se identifica por su MOVILIDAD EN SACUDIDAS, característica e inconfundible. NO tiene forma quística: eso explica que se transmita casi exclusivamente por contacto sexual directo.",
+    "mecanismo_patogenia": [
+      "Se adhiere al epitelio escamoso vaginal y uretral mediante adhesinas y produce citotoxicidad por contacto, con destrucción de las células epiteliales.",
+      "Libera factores citotóxicos y proteasas de cisteína que degradan la IgA secretora local y las proteínas de la matriz.",
+      "Consume el GLUCÓGENO vaginal y desplaza a los LACTOBACILOS, con lo que el pH vaginal SUBE por encima de 4,5; ese cambio de ecosistema es responsable de gran parte de la clínica y explica la coexistencia frecuente con la vaginosis bacteriana.",
+      "Produce una intensa respuesta INFLAMATORIA con abundantes neutrófilos, a diferencia de la vaginosis bacteriana, que apenas los tiene: es la clave de la distinción microscópica entre ambas.",
+      "La inflamación de la mucosa genital AUMENTA la transmisión y la adquisición del VIH, por rotura de la barrera epitelial y reclutamiento de linfocitos CD4 activados en la mucosa.",
+      "En el VARÓN suele ser ASINTOMÁTICA y autolimitada, lo que lo convierte en el RESERVORIO silencioso que perpetúa la reinfección de la pareja."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Vaginitis por Trichomonas",
+        "clinica": "Leucorrea abundante, ESPUMOSA, de color amarillo-verdoso y con MAL OLOR, junto con prurito, escozor, dispareunia y disuria externa.",
+        "lesiones": "Eritema vaginal difuso y CÉRVIX EN FRESA (colpitis macular): petequias puntiformes en el cuello uterino, presente en una minoría de los casos pero muy característica cuando aparece.",
+        "clave": "El pH vaginal es MAYOR de 4,5, igual que en la vaginosis bacteriana, y ambos comparten el mal olor. Lo que las separa es la INFLAMACIÓN: la tricomoniasis cursa con eritema, prurito, dolor y abundantes leucocitos, y la vaginosis bacteriana no inflama."
+      },
+      {
+        "cuadro": "Infección en el VARÓN",
+        "clinica": "Asintomática en la mayoría de los casos. Cuando da síntomas: uretritis con escaso exudado claro, disuria, prurito uretral, y con menos frecuencia prostatitis o epididimitis.",
+        "lesiones": "Uretritis leve.",
+        "clave": "Es la causa de la REINFECCIÓN de ida y vuelta: si no se trata a la pareja, la mujer vuelve a infectarse. En el varón con uretritis no gonocócica que no responde a doxiciclina hay que pensar en Trichomonas."
+      },
+      {
+        "cuadro": "Complicaciones OBSTÉTRICAS",
+        "clinica": "En la gestante se asocia a rotura prematura de membranas, PARTO PRETÉRMINO y bajo peso al nacer.",
+        "lesiones": "Corioamnionitis subclínica.",
+        "clave": "Es una infección de transmisión sexual con consecuencias obstétricas reales, y ese es el motivo por el que se trata a la embarazada sintomática. El metronidazol se considera seguro en el embarazo."
+      },
+      {
+        "cuadro": "Facilitación de la transmisión del VIH",
+        "clinica": "Sin clínica propia añadida.",
+        "lesiones": "Rotura de la barrera mucosa e infiltrado de células CD4 activadas.",
+        "clave": "Multiplica por dos o tres el riesgo de adquirir y de transmitir el VIH. Es una razón de salud pública para diagnosticarla y tratarla incluso cuando los síntomas son leves."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es una INFECCIÓN DE TRANSMISIÓN SEXUAL, no un desequilibrio de la flora, y esa es la diferencia conceptual con la vaginosis bacteriana y la candidiasis. Por eso obliga a tratar a la PAREJA y a hacer cribado del resto de infecciones de transmisión sexual, incluido el VIH.",
+      "La tríada diagnóstica de las tres vaginitis se ordena bien por pH y por inflamación: CANDIDIASIS con pH normal (menor de 4,5), sin mal olor y con leucorrea en requesón; VAGINOSIS BACTERIANA con pH mayor de 4,5, mal olor y SIN inflamación; TRICOMONIASIS con pH mayor de 4,5, mal olor Y con inflamación intensa.",
+      "El examen en FRESCO tiene solo un 50-60% de sensibilidad y pierde valor si la muestra se enfría o se retrasa: un fresco negativo NO descarta. La PCR es hoy la prueba de elección.",
+      "El tratamiento es METRONIDAZOL, y el dato práctico que ha cambiado la pauta es que en la mujer la pauta de 7 días resulta SUPERIOR a la dosis única de 2 g; en el varón la dosis única sigue siendo válida.",
+      "Hay que tratar SIEMPRE a la pareja, aunque esté asintomática: es el motivo principal de fracaso aparente del tratamiento.",
+      "El efecto ANTABÚS del metronidazol obliga a advertir de que no se debe tomar alcohol durante el tratamiento ni en las 72 horas siguientes (24 horas con tinidazol).",
+      "Existe RESISTENCIA a nitroimidazoles, poco frecuente pero real: ante un fracaso con buen cumplimiento y pareja tratada, se sube la dosis o se pasa a TINIDAZOL, que alcanza concentraciones más altas y tiene mejor tolerancia."
+    ],
+    "diagnostico": {
+      "muestra": "Exudado vaginal (fondo de saco posterior), orina de primer chorro o exudado uretral en el varón.",
+      "pruebas": [
+        "PCR o pruebas de amplificación de ácidos nucleicos: prueba de ELECCIÓN, con sensibilidad superior al 95%, válida también en orina y en el varón",
+        "Examen en FRESCO con suero salino: trofozoítos móviles con movimiento en sacudidas y abundantes leucocitos. Barato e inmediato, pero solo 50-60% de sensibilidad y hay que mirarlo enseguida",
+        "Medición del pH vaginal (mayor de 4,5) y prueba de aminas con KOH (olor a pescado, que puede ser positiva)",
+        "Pruebas rápidas de antígeno en consulta",
+        "Cribado simultáneo de VIH, sífilis, gonococo y Chlamydia: es una infección de transmisión sexual y rara vez viene sola",
+        "La CITOLOGÍA cervical detecta Trichomonas de forma incidental, con especificidad limitada: conviene confirmar antes de tratar"
+      ],
+      "claves": "El cultivo en medio de Diamond fue la referencia clásica y hoy está desplazado por la PCR. Nunca hay que apoyarse solo en un fresco negativo para descartar la infección en una paciente con clínica compatible."
+    },
+    "tratamiento": {
+      "eleccion": "METRONIDAZOL 500 mg cada 12 horas durante 7 DÍAS por vía oral en la MUJER (pauta superior a la dosis única). En el VARÓN, metronidazol 2 g en dosis única.",
+      "alternativas": "TINIDAZOL 2 g en dosis única (mejor tolerado y con concentraciones más altas, útil en el fracaso o en la resistencia). En el fracaso reiterado: metronidazol 2 g al día durante 7 días, y valoración de sensibilidad en centro de referencia.",
+      "resistencias": "Resistencia a nitroimidazoles en un pequeño porcentaje de aislados, con resistencia cruzada parcial entre metronidazol y tinidazol.",
+      "duracion": "7 días en la mujer; dosis única en el varón.",
+      "notas": "TRATAR SIEMPRE A LA PAREJA y recomendar abstinencia sexual hasta 7 días después de terminar ambos. Advertir del efecto ANTABÚS con el alcohol. El metronidazol tópico vaginal NO es eficaz: no alcanza la uretra ni las glándulas parauretrales, que son reservorios. Recomendado el cribado de reinfección a los 3 meses en la mujer."
+    },
+    "farmacos_relacionados": [
+      "INF-metronidazol"
+    ],
+    "fuente": "Murray 9.ª ed., sección de parasitología; guías de los CDC sobre infecciones de transmisión sexual"
+  },
+  {
+    "id": "PAR-echinococcus-granulosus",
+    "nombre": "Echinococcus granulosus (hidatidosis) y E. multilocularis",
+    "grupo": "PAR",
+    "nivel": 2,
+    "clasificacion": "CESTODO (tenia) diminuto de 3-6 mm cuyo huésped DEFINITIVO es el PERRO y otros cánidos; el ser humano es un huésped INTERMEDIARIO ACCIDENTAL y un callejón sin salida biológico",
+    "morfologia_tincion": "El adulto vive en el intestino del perro y mide apenas unos milímetros, con 3-4 proglótides. Lo que interesa en clínica es el QUISTE HIDATÍDICO en el tejido humano, con su triple pared: adventicia (reacción fibrosa del huésped), laminada (acelular, propia del parásito) y germinal (la capa viva, que produce los protoescólices). En el líquido del quiste se ve la ARENILLA HIDATÍDICA: protoescólices y GANCHOS refringentes, cuya presencia confirma el diagnóstico.",
+    "mecanismo_patogenia": [
+      "El ciclo se cierra entre el PERRO (huésped definitivo, que alberga el gusano adulto) y la OVEJA u otro herbívoro (huésped intermediario, que desarrolla los quistes). El perro se infecta al comer vísceras crudas de oveja, y de ahí que la enfermedad sea propia de zonas de pastoreo.",
+      "El ser humano se infecta al ingerir los HUEVOS eliminados en las heces del perro, por contacto directo con el animal o por verduras y agua contaminadas. Es una vía puramente FECAL-ORAL: no se contagia entre personas y no se adquiere comiendo cordero.",
+      "El embrión atraviesa la pared intestinal, llega por la vena porta al HÍGADO, que actúa como primer filtro (60-70% de los quistes), y lo que lo sobrepasa alcanza el PULMÓN, que es el segundo filtro (20-25%). El resto se distribuye por vía sistémica.",
+      "El quiste crece muy LENTAMENTE, alrededor de 1 cm al año, y por eso permanece ASINTOMÁTICO durante años o décadas; la mayoría se descubre de forma incidental en una ecografía.",
+      "La pared del quiste aísla al parásito del sistema inmunitario. Cuando esa pared se ROMPE, el contenido antigénico se libera de golpe y puede desencadenar una ANAFILAXIA, además de sembrar protoescólices que formarán quistes secundarios: es la razón por la que la punción no controlada está proscrita.",
+      "E. MULTILOCULARIS es una entidad distinta y mucho más grave: su ciclo es zorro-roedor, y en el ser humano crece de forma INFILTRANTE, sin pared definida, imitando un carcinoma hepático e invadiendo vasos y vía biliar."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Hidatidosis HEPÁTICA",
+        "clinica": "Asintomática durante años. Cuando crece: dolor en hipocondrio derecho, masa palpable, hepatomegalia y sensación de plenitud.",
+        "lesiones": "Quiste uniloculado con pared bien definida, calcificaciones parietales, vesículas hijas en su interior y a veces DESPRENDIMIENTO DE LA MEMBRANA, que da la imagen del signo del camalote o del nenúfar.",
+        "clave": "Es la localización más frecuente. El diagnóstico es habitualmente incidental por ECOGRAFÍA, y la clasificación de la OMS por imagen (CE1 a CE5) es la que decide el tratamiento: los quistes activos se tratan y los inactivos calcificados se vigilan."
+      },
+      {
+        "cuadro": "Hidatidosis PULMONAR",
+        "clinica": "Tos, dolor torácico, hemoptisis y disnea. Si el quiste se abre a un bronquio: VÓMICA, es decir, expectoración de líquido salado con restos de membrana, a veces descrita por el paciente como agua salada o piel de uva.",
+        "lesiones": "Masa redondeada bien delimitada; tras la rotura, imagen de NENÚFAR (membrana flotando sobre el nivel líquido) o de doble arco.",
+        "clave": "Es la localización más frecuente en el NIÑO. Los quistes pulmonares crecen más rápido y se rompen con más facilidad que los hepáticos porque el parénquima ofrece menos resistencia."
+      },
+      {
+        "cuadro": "ROTURA del quiste y anafilaxia",
+        "clinica": "Dolor brusco, urticaria, broncoespasmo, hipotensión y shock ANAFILÁCTICO; o cuadro de colangitis y obstrucción biliar si se abre a la vía biliar.",
+        "lesiones": "Siembra peritoneal o pleural con desarrollo de quistes secundarios múltiples meses o años después.",
+        "clave": "La rotura es la complicación temida y la razón de todas las precauciones del manejo: nunca se punciona un quiste sin cobertura antiparasitaria previa, sin escolicida y sin tener preparado el tratamiento de la anafilaxia."
+      },
+      {
+        "cuadro": "Equinococosis ALVEOLAR (E. multilocularis)",
+        "clinica": "Dolor abdominal, ictericia obstructiva, hepatomegalia y síndrome constitucional, con curso progresivo durante años.",
+        "lesiones": "Masa hepática INFILTRANTE, de bordes mal definidos, con calcificaciones y necrosis central, que invade vasos y vía biliar y puede metastatizar a pulmón y cerebro.",
+        "clave": "Se comporta como un CÁNCER: sin tratamiento la mortalidad a 10 años supera el 90%. Requiere resección radical si es posible y albendazol de por vida en la enfermedad irresecable."
+      }
+    ],
+    "caracteristicas_clave": [
+      "NUNCA se punciona un quiste hidatídico sin preparación: el riesgo de anafilaxia y de siembra es real. La técnica PAIR (punción, aspiración, inyección de escolicida y reaspiración) es un procedimiento reglado, no una punción diagnóstica, y se hace bajo cobertura con albendazol.",
+      "El hígado es el primer filtro y el pulmón el segundo: la distribución de los quistes es un mapa de la circulación portal y sistémica.",
+      "La SEROLOGÍA es más sensible en los quistes hepáticos que en los pulmonares, y puede ser NEGATIVA en quistes íntegros, calcificados o pulmonares: una serología negativa no descarta la enfermedad.",
+      "La EOSINOFILIA solo aparece en una minoría, típicamente cuando el quiste ha fisurado: su ausencia no significa nada.",
+      "El tratamiento se decide por la ESTADIFICACIÓN ECOGRÁFICA de la OMS: los quistes CE1 y CE3a pequeños se manejan con albendazol o PAIR, los CE2 y CE3b grandes con cirugía, y los CE4 y CE5 inactivos con VIGILANCIA, sin tratar.",
+      "El ALBENDAZOL se administra ANTES y DESPUÉS de cualquier procedimiento (cirugía o PAIR) para reducir la viabilidad de los protoescólices y el riesgo de siembra secundaria.",
+      "Es una enfermedad de PREVENCIÓN veterinaria: desparasitar a los perros, no darles vísceras crudas y controlar los mataderos. Donde se ha hecho bien, la enfermedad prácticamente ha desaparecido.",
+      "E. GRANULOSUS forma un quiste único y delimitado; E. MULTILOCULARIS infiltra como un tumor. Confundirlos lleva a un manejo equivocado en la entidad que menos perdona."
+    ],
+    "diagnostico": {
+      "muestra": "Imagen (es el pilar del diagnóstico) y suero para serología. La punción diagnóstica NO se realiza salvo en el contexto reglado de la técnica PAIR.",
+      "pruebas": [
+        "ECOGRAFÍA abdominal: prueba de elección, permite la clasificación de la OMS (CE1-CE5) que decide el tratamiento",
+        "TC y RM para localizaciones complejas, planificación quirúrgica y afectación de vía biliar",
+        "SEROLOGÍA (ELISA, hemaglutinación, western blot): apoya el diagnóstico, con falsos negativos en quistes íntegros, calcificados o pulmonares y reacciones cruzadas con otros cestodos",
+        "Radiografía de tórax en toda hidatidosis hepática, para descartar afectación pulmonar",
+        "Eosinofilia: presente solo en una minoría",
+        "Examen del líquido en caso de rotura o de cirugía: arenilla hidatídica con ganchos"
+      ],
+      "claves": "El diagnóstico es de IMAGEN, apoyado por la serología y por la epidemiología (contacto con perros en zona de pastoreo). La clasificación ecográfica no es un detalle académico: es lo que determina si el quiste se opera, se punciona, se trata con fármaco o solo se vigila."
+    },
+    "tratamiento": {
+      "eleccion": "Depende del estadio ecográfico. QUISTES PEQUEÑOS Y ACTIVOS (CE1, CE3a) de menos de 5 cm: ALBENDAZOL 400 mg cada 12 horas con comida grasa, en ciclos de 3-6 meses. QUISTES MEDIANOS: técnica PAIR bajo cobertura de albendazol. QUISTES GRANDES, COMPLICADOS O MULTIVESICULARES (CE2, CE3b): CIRUGÍA (quistoperiquistectomía), con albendazol desde una semana antes hasta 1-3 meses después. QUISTES INACTIVOS (CE4, CE5): VIGILANCIA, sin tratamiento.",
+      "alternativas": "Praziquantel asociado al albendazol antes de la cirugía o de la PAIR, por su acción protoescolicida. Mebendazol como alternativa al albendazol, aunque con peor absorción.",
+      "resistencias": "No aplicable en sentido estricto; los fracasos se relacionan con la mala absorción del albendazol (que requiere comida grasa) y con quistes de pared gruesa o calcificada que el fármaco no penetra.",
+      "duracion": "3-6 meses en el tratamiento médico, en ciclos continuos con controles analíticos. En la equinococosis ALVEOLAR por E. multilocularis, albendazol INDEFINIDO (de por vida si la resección no es completa).",
+      "notas": "El albendazol exige control de HEMOGRAMA y TRANSAMINASAS cada 2-4 semanas por el riesgo de hepatotoxicidad y de neutropenia. Se toma CON COMIDA GRASA, que multiplica su absorción. Durante la cirugía se aísla el campo y se usa un escolicida (suero salino hipertónico) para evitar la siembra. Prevención: desparasitación periódica de los perros, no darles vísceras crudas, higiene de manos y lavado de verduras."
+    },
+    "farmacos_relacionados": [
+      "INF-albendazol",
+      "INF-praziquantel"
+    ],
+    "fuente": "Murray 9.ª ed., sección de cestodos; Harrison 20.ª ed., cap. de equinococosis; clasificación ecográfica de la OMS-IWGE"
+  }
+]

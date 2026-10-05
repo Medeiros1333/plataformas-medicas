@@ -1,0 +1,283 @@
+## 0. CABEÇALHO
+
+**Código:** OBS-05 · **Especialidade:** Obstetrícia · **Tema:** Infecção urinária na gestação · **Assunto:** Bacteriúria assintomática, cistite e pielonefrite gestacional — diagnóstico e conduta por gravidade · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 6 (2011.1-Q85, 2013.1-Q86, 2017.1-Q91, 2016.1-Q11, 2023.2-Q74, 2026.1-Q4) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 85 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29 (ampliado em 2026-08-13)
+
+> **Nota de consolidação (2026-08-13):** o candidato `OBS-42` ("Pielonefrite na gestação", 2 questões) foi identificado como duplicata de conteúdo deste módulo antes da geração — mesmo assunto central. Apenas 1 das 2 questões de OBS-42 (2017.1-Q91) pôde ser incorporada: a segunda (2023.2-Q72) mostrou, ao ser lida, conteúdo de uma questão totalmente diferente (fissura anal) sob a mesma classificação — provável erro de alinhamento na Fase B de classificação (mesmo padrão do erro #47), registrado no backlog para auditoria, não usada aqui.
+
+---
+
+## 1. TEORIA
+
+Infecção do trato urinário (ITU) é uma das intercorrências mais comuns da gestação, favorecida por alterações anatômicas/hormonais que promovem estase urinária (dilatação ureteral pela progesterona, compressão mecânica pelo útero gravídico). O Revalida cobra o espectro de gravidade — **bacteriúria assintomática → cistite → pielonefrite** — e a conduta específica para cada nível.
+
+**Bacteriúria assintomática [CONSENSO]:** urocultura com contagem significativa de colônias (>100.000 UFC/mL) **sem sintomas urinários**. Na gestação, ao contrário da população geral (onde geralmente não se trata bacteriúria assintomática), **sempre se trata** — o risco de progressão para pielonefrite é elevado na gestante, com repercussões para mãe e feto (parto prematuro, baixo peso ao nascer).
+- **Conduta:** antibioticoterapia dirigida + **repetir urocultura de controle de cura** (⚠️ VERIFICAR intervalo exato vigente — classicamente citado em torno de 7 dias após o término do tratamento) para confirmar erradicação, já que recorrência é comum na gestação.
+
+⚠️ **PEGADINHA DO INEP:** diante de urocultura com contagem significativa **mesmo sem sintomas**, a banca testa se o candidato erra ao (a) considerar "contaminação da amostra" e apenas repetir o exame sem tratar, ou (b) tratar sem depois confirmar cura com nova urocultura — ambos incorretos. A conduta correta é sempre **tratar + confirmar cura com nova urocultura**.
+
+**Pielonefrite gestacional [CONSENSO]:** quadro sistêmico — febre, calafrios, dor lombar (punho-percussão positiva), náuseas, mal-estar — configura infecção do trato urinário **alto** (acometimento renal), com risco de sepse, parto prematuro e outras complicações gestacionais.
+- **Conduta:** **internação hospitalar** + hidratação + antibioticoterapia **endovenosa** (não oral) + investigação laboratorial (hemograma, eletrólitos, cultura de urina) — diferente da cistite/bacteriúria assintomática, que podem ser tratadas ambulatorialmente por via oral.
+
+⚠️ **PEGADINHA DO INEP:** diante de quadro compatível com pielonefrite (febre, dor lombar importante, calafrios, taquicardia), a banca testa se o candidato subestima a gravidade propondo tratamento **ambulatorial** com retorno em 24h — a conduta correta é **internação** com antibioticoterapia **endovenosa** imediata, não aguardar resultado de cultura para iniciar o tratamento (que deve ser empírico).
+
+**Tabela-síntese de conduta por gravidade:**
+| Entidade | Sintomas | Via de tratamento | Necessita internação? |
+|---|---|---|---|
+| Bacteriúria assintomática | Nenhum | Oral | Não |
+| Cistite | Disúria, polaciúria, urgência | Oral | Não (geralmente) |
+| Pielonefrite | Febre, dor lombar, calafrios, mal-estar sistêmico | Endovenosa | Sim |
+
+### Referências
+1. Ministério da Saúde. Manual de Gestação de Alto Risco, capítulo de Infecção Urinária na Gestação, edição vigente.
+2. FEBRASGO. Infecção do Trato Urinário na Gestação — Manual de Orientação, edição vigente.
+3. ⚠️ VERIFICAR esquema antibiótico exato e intervalo de controle de cura vigentes antes de prescrever.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no pré-natal/PS real:** urocultura de rotina do pré-natal frequentemente revela bacteriúria assintomática (achado incidental, sem queixa da paciente) — e o PS recebe gestantes com quadro agudo de dor lombar e febre sugestivo de pielonefrite, que exige reconhecimento rápido da gravidade.
+
+**Sequência prática de conduta:**
+1. Bacteriúria assintomática (achado de rotina, sem sintomas): tratar via oral + confirmar cura com nova urocultura.
+2. Cistite (sintomas urinários baixos, sem febre/dor lombar): tratar via oral ambulatorial.
+3. Pielonefrite (febre, dor lombar, calafrios): internar + hidratação + antibiótico endovenoso + investigação laboratorial.
+
+**Erros que médicos cometem de verdade:**
+- Não tratar bacteriúria assintomática na gestante (achando que "sem sintomas, sem necessidade" — diferente da população geral não gestante).
+- Não repetir urocultura de controle de cura após tratamento.
+- Tratar pielonefrite ambulatorialmente por via oral, subestimando a gravidade sistêmica.
+- Considerar contagem significativa de colônias como "contaminação" sem investigar/tratar adequadamente.
+
+**O que dizer à gestante:** explicar a importância de tratar mesmo infecções assintomáticas durante a gestação (risco de progressão e complicações), reforçar a necessidade de completar o tratamento e realizar o exame de controle de cura, e explicar sinais de alarme (febre, dor lombar) que exigem atendimento urgente.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Interpretar corretamente resultado de urocultura assintomática vs. sintomática.
+- ✅ Diferenciar cistite de pielonefrite pelos sintomas sistêmicos.
+- ✅ Prescrever tratamento e via correta conforme gravidade (oral ambulatorial vs. internação/endovenoso).
+- ✅ Orientar controle de cura com nova urocultura.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-23: este módulo passou a cobrir **todas as 16 edições já extraídas** do banco (2011.1–2025.2). Gabaritos conferidos um a um contra os PDFs oficiais do INEP na auditoria de 2026-09-23.*
+
+**[INEP 2011 · Edição 1 · Questão 85]**
+
+Primigesta, com 23 anos de idade, 27 semanas de gestação, procura serviço de urgência relatando que, há dois dias, apresenta dor na região lombar à direita. Relata, ainda, que há um dia vem se sentindo muito mal, com calafrios e náuseas. Hoje, pela manhã, apresentou febre de 38,5 ºC, tendo feito uso de antitérmico. Ao exame físico: estado geral regular; descorada +/4+; levemente desidratada; afebril, eupneica; frequência cardíaca de 104 bpm; Pressão arterial = 110 x 70 mmHg. Relatou dor intensa à punho percussão na região lombar direita. Ao exame obstétrico: altura uterina de 28 cm, 156 batimentos cardíacos fetais por minuto, movimentos fetais presentes, ausência de contrações uterinas. Qual a conduta a ser tomada?
+
+A) Solicitar exame sumário de urina e de urocultura e retorno em 24 horas para resultado de exames.
+B) Hemograma, urocultura, antibioticoterapia e retorno em 24 horas para resultado de urocultura.
+C) Internação hospitalar, hidratação e antibioticoterapia, após resultado da cultura de urina.
+D) Hemograma, ultrassonografia de abdome e de vias urinárias e antibioticoterapia por via oral.
+E) Internação hospitalar, hemograma, eletrólitos, cultura de urina e antibioticoterapia endovenosa.
+
+**Gabarito oficial: E**
+
+**Por que E está correta:** o quadro (dor lombar com punho-percussão positiva, febre, calafrios, náuseas, taquicardia) é clássico de **pielonefrite gestacional** — infecção urinária alta com repercussão sistêmica. A conduta correta é **internação hospitalar** com investigação laboratorial completa (hemograma, eletrólitos, cultura de urina) e **antibioticoterapia endovenosa** imediata (empírica, sem aguardar resultado da cultura para iniciar).
+
+**Por que as demais estão erradas:**
+- A) Apenas retorno em 24h para exames é insuficiente e perigosamente expectante diante de um quadro sistêmico já estabelecido.
+- B) Propõe antibioticoterapia (correto iniciar) mas em regime ambulatorial com retorno em 24h — subestima a gravidade sistêmica que justifica internação.
+- C) Propõe internação e antibioticoterapia, mas condiciona o início do antibiótico ao "resultado da cultura de urina" — o tratamento de pielonefrite deve ser empírico e imediato, não aguardar confirmação laboratorial.
+- D) Propõe investigação de imagem com conduta ambulatorial — insuficiente e não prioriza o tratamento antimicrobiano imediato que a gravidade do quadro exige.
+
+**O que a banca estava testando:** reconhecimento do quadro sistêmico de pielonefrite gestacional (não apenas cistite) e da conduta correta — internação + antibioticoterapia endovenosa empírica imediata, sem aguardar confirmação de cultura nem manejar ambulatorialmente.
+
+---
+
+**[INEP 2013 · Edição 1 · Questão 86]**
+
+Secundigesta, com 18 semanas de idade gestacional, comparece à segunda consulta de pré-natal em Unidade Básica de Saúde. Traz resultado de exame de urocultura com mais de 100 mil unidades formadoras de colônias bacterianas por mL. Nega queixas urinárias e febre. Ao exame físico: bom estado geral, corada, hidratada, eupneica, pressão arterial = 120x80 mmHg. Exame obstétrico: altura uterina de 17 cm, batimentos cardíacos fetais presentes, rítmicos, 136 batimentos por minutos. A conduta indicada é:
+
+A) iniciar tratamento profilático com cefalosporina diariamente até o parto.
+B) iniciar antibioticoterapia e repetir urocultura sete dias após o término do tratamento.
+C) repetição da urocultura em duas semanas, pois o resultado sugere contaminação da amostra.
+D) solicitar ultrassonografia das vias urinárias e realizar uroculturas bimensais para monitoramento do quadro.
+E) solicitar sedimento urinário para confirmar infecção urinária e, se mostrar a presença de nitritos, iniciar tratamento.
+
+⚠️ *Nota de extração: a alternativa E do arquivo fonte tinha número de página ao final, removido nesta transcrição, sem impacto no conteúdo clínico.*
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** urocultura com **contagem significativa** (>100.000 UFC/mL), mesmo **sem sintomas** (bacteriúria assintomática), **deve ser tratada** na gestação, pelo risco de progressão para pielonefrite. A conduta correta é **iniciar antibioticoterapia** e **repetir a urocultura 7 dias após o término do tratamento** para confirmar erradicação (controle de cura) — passo essencial, já que a recorrência é comum na gestação.
+
+**Por que as demais estão erradas:**
+- A) "Tratamento profilático diário até o parto" não é a conduta padrão inicial diante do primeiro achado de bacteriúria assintomática — o tratamento inicial é um curso definido de antibiótico, com controle de cura; profilaxia contínua seria considerada apenas em casos de recorrência repetida, não como abordagem inicial.
+- C) Considerar "contaminação da amostra" e apenas repetir o exame sem tratar ignora o critério diagnóstico já preenchido (>100.000 UFC/mL é contagem significativa, não sugestiva de contaminação) — erro conceitual que atrasa tratamento necessário.
+- D) Investigação de imagem e uroculturas bimensais são condutas de investigação mais extensa, não a resposta inicial padrão diante do primeiro achado de bacteriúria assintomática.
+- E) Solicitar sedimento urinário adicional para "confirmar" o diagnóstico já estabelecido pela urocultura quantitativa é redundante e atrasa o tratamento necessário.
+
+**O que a banca estava testando:** reconhecimento de que bacteriúria assintomática na gestação sempre deve ser tratada (diferente da conduta em população geral não gestante) e que o controle de cura com nova urocultura é etapa essencial do manejo, não uma opção descartável.
+
+---
+
+**[INEP 2017 · Edição 1 · Questão 91]**
+
+Uma mulher com 20 anos de idade, primigesta na 19ª semana de gestação, procura o Pronto-Socorro com história de febre não medida há 24 horas e queixa de disúria, polaciúria, urgência miccional, dor lombar e náuseas. Ao exame físico, apresenta-se em regular estado geral, afebril, frequência cardíaca = 98 bpm, frequência respiratória = 25 irpm, pressão arterial = 90 x 60 mmHg, desidratada ++/4+ e com dor à punho-percussão da região lombar direita. Diante desse quadro clínico, a conduta adequada é
+
+A) internação hospitalar para hidratação e administração de analgésicos, antiespasmódicos e antieméticos endovenosos; solicitação de urocultura e antibiograma para início de antibioticoterapia.
+B) acompanhamento na Unidade de Atenção Básica; solicitação de urocultura e antibiograma para início de antibioticoterapia por via oral.
+C) acompanhamento na Unidade de Atenção Básica; início do tratamento sintomático e antibioticoterapia por via oral.
+D) internação hospitalar para antibioticoterapia e hidratação endovenosas; administração de analgésicos, antiespasmódicos e antieméticos.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** quadro sistêmico completo de pielonefrite (febre, disúria/polaciúria/urgência miccional, dor lombar com punho-percussão positiva, náuseas, taquicardia, taquipneia, hipotensão relativa e desidratação ++/4+) — a paciente já apresenta sinais de repercussão hemodinâmica (PA 90x60, desidratação importante), reforçando a indicação de internação com **tratamento empírico imediato** (antibiótico + hidratação endovenosos), sem aguardar urocultura/antibiograma.
+
+**Por que as demais estão erradas:**
+- A) Propõe internação e hidratação corretas, mas condiciona o **início do antibiótico** ao resultado de urocultura/antibiograma — atrasa o tratamento empírico que a gravidade do quadro exige.
+- B) e C) Propõem manejo **ambulatorial** (Atenção Básica) diante de um quadro sistêmico com sinais de desidratação importante e instabilidade hemodinâmica relativa — subestimam gravemente a gravidade do caso.
+
+**O que a banca estava testando:** reforço do mesmo eixo central do módulo — reconhecer pielonefrite sistêmica (aqui com sinais de desidratação/hipotensão relativa, um grau a mais de gravidade que o caso de 2011.1) e não hesitar em iniciar antibiótico empírico assim que a internação é decidida, sem aguardar confirmação laboratorial.
+
+---
+
+**[INEP 2016 · Edição 1 · Questão 11]**
+
+Uma mulher com 25 anos de idade, primigesta, no curso da 16a semana de gestação, é atendida em consulta pré-natal na Unidade Básica de Saúde. A paciente queixa-se de leve desconforto em baixo ventre e relata que a urina apresenta coloração turva e cheiro forte; nega febre. Os resultados do exame de urina são: cor amarelo âmbar; aspecto ligeiramente turvo; densidade = 1.025 (valor de referência: 1.015 a 1.025); nitrito positivo; proteínas < 30 mg/dL; glicose = 1,0 mg/dL (valor de referência: 1,0 a 16,5 mg/dL); corpos cetônicos ausentes (valor de referência: ausente); pH = 7,5 (valor de referência: 4,5 a 6,5); urobilogênio < 1 mg/dL (valor de referência: 0,21 a 1,0 mg/dL); bilirrubina ausente (valor de referência: ausente); sangue/hemoglobina presente (+/+++); esterase leucocitária presente; leucócitos = 15/campo (valor de referência: 5/campo); urocultura > 105 ufc de Escherichia coli. Considerando o quadro clínico-laboratorial da paciente, o plano terapêutico indicado é
+
+A) prescrever norfloxacino 400 mg, a cada 12 horas, durante 7 dias; repetir urocultura no terceiro trimestre.
+B) prescrever cefalexina 500 mg, a cada 6 horas, durante 10 dias; repetir urocultura uma semana após o tratamento e a cada mês, até o parto.
+C) prescrever sulfametoxazol-trimetoprima 1.600/320 mg, a cada 24 horas, durante 7 dias; repetir urocultura duas semanas após o tratamento.
+D) acompanhar mensalmente a gestante, sem prescrição imediata de medicamentos; solicitar uroculturas de controle até a definição do caso.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** **cistite** na gestação (desconforto suprapúbico, urina turva, nitrito e esterase positivos, piúria, urocultura > 10⁵ UFC de *E. coli*) — sempre tratar. Antibióticos seguros: **cefalexina**, amoxicilina, nitrofurantoína (evitar no termo). Após o tratamento, **urocultura de controle** (1–2 semanas) e **seguimento mensal** até o parto, pelo risco de recorrência e pielonefrite.
+
+**Por que as demais estão erradas:**
+- A) **Quinolonas** (norfloxacino) são evitadas na gestação (toxicidade em cartilagem em estudos animais); e o controle tardio é inadequado.
+- C) **Sulfametoxazol-trimetoprima** é evitado (antagonista de folato no 1º trimestre; risco de kernicterus no 3º); a posologia também é inadequada.
+- D) Infecção urinária na gestação — sintomática ou assintomática — **sempre se trata** (risco de pielonefrite e parto prematuro).
+
+⚠️ **PEGADINHA DO INEP:** na gestante, a **bacteriúria assintomática** também é rastreada (urocultura) e tratada.
+
+**O que a banca estava testando:** tratamento da infecção urinária baixa na gestação.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 74]**
+
+Uma paciente primigesta de 25 anos, com 30 semanas de idade gestacional, comparece para a consulta de pré-natal de rotina na unidade básica de saúde apresentando febre, lombalgia e queda do estado geral. Nega sinais e sintomas de infecção de vias aéreas superiores e possui diagnóstico prévio de litíase renal. Ao exame físico, apresenta regular estado geral, acianótica, anictérica, corada e hidratada. Temperatura axilar de 38,5 °C, frequência cardíaca de 98 batimentos por minuto, frequência respiratória de 20 incursões respiratórias por minuto, pressão arterial de 120 × 80 mmHg, abdome gravídico, tônus uterino normal e ausência de contrações. Altura uterina de 29 cm, frequência cardíaca fetal de 158 batimentos por minuto e ausência de edemas em membros inferiores. Diante desses achados na paciente, a conduta médica adequada é
+
+A) prescrever antitérmico para a gestante e marcar retorno ambulatorial em 7 dias.
+B) prescrever antiespasmódico para a gestante e referenciá-la para uma avaliação eletiva com o infectologista.
+C) prescrever antitérmico para a gestante e referenciá-la para uma avaliação urgente no pronto-socorro obstétrico.
+D) prescrever antiespasmódico para a gestante e referenciá-la para uma avaliação de urgência no pronto socorro obstétrico.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** **febre + lombalgia + queda do estado geral** em gestante (com litíase renal) = suspeita de **pielonefrite aguda**. Na gestação, a pielonefrite exige **internação** com antibiótico **endovenoso** (risco de sepse, insuficiência respiratória, parto prematuro). Na UBS: **antitérmico** (paracetamol — a febre materna faz mal ao feto) e **encaminhamento urgente** ao pronto-socorro obstétrico.
+
+**Por que as demais estão erradas:**
+- A) Retorno em 7 dias é inaceitável para pielonefrite na gestação.
+- B) Avaliação **eletiva** é inadequada; o problema principal é a infecção febril, não a cólica.
+- D) O quadro é de febre e lombalgia (infecção), não de cólica renal — o antitérmico é a medicação sintomática pertinente.
+
+⚠️ **PEGADINHA DO INEP:** pielonefrite na gestante → **sempre internar**; após o tratamento, considerar **profilaxia** até o parto e urocultura mensal.
+
+**O que a banca estava testando:** conduta na suspeita de pielonefrite na gestação.
+
+**[INEP 2026 · Edição 1 · Questão 4]**
+
+Gestante de 30 anos, G2 P1, com 28 semanas de gestação, comparece à Unidade Básica de Saúde para consulta de rotina. Nega disúria, urgência miccional, dor suprapúbica, lombar, febre ou comorbidades. Traz exames solicitados da rotina pré-natal, cujos resultados são apresentados a seguir:
+
+EAS (urina tipo I)
+
+| Exame | Resultado | Valor de Referência |
+|---|---|---|
+| Aspecto | Ligeiramente turvo | Límpido |
+| Densidade | 1.015 | 1.010 a 1.030 |
+| pH | 5,5 | 5,0 a 8,0 |
+| Proteínas | Traços | Ausentes |
+| Nitrito | Negativo | Negativo |
+| Leucócitos | 4 por campo | Até 5 por campo |
+| Hemácias | 2 por campo | Até 2 por campo |
+| Células epiteliais | Raras | Raras |
+| Bactérias | Moderadas | Ausentes |
+| Urocultura: | Crescimento de Escherichia coli 30.000 UFC/mL | |
+
+Qual é a interpretação para os exames laboratoriais e o manejo adequado da paciente?
+
+A) Diagnosticar bacteriúria assintomática e iniciar tratamento imediato.
+B) Considerar o exame contaminado e repetir a urocultura com nova coleta.
+C) Diagnosticar cistite aguda subclínica e iniciar antibiótico.
+D) Considerar o resultado da urocultura alterado e acompanhar a gestação.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** gestante **assintomática**, EAS praticamente normal (nitrito negativo, leucócitos normais) e urocultura com **30.000 UFC/mL** de *E. coli*. A **bacteriúria assintomática** exige **≥ 100.000 UFC/mL** de um único uropatógeno. A cultura tem crescimento (resultado "alterado", não estéril), mas **abaixo do critério diagnóstico**: não há indicação de antibiótico, e a gestante segue o **acompanhamento pré-natal de rotina** (com nova urocultura conforme o protocolo).
+
+**Por que as demais estão erradas:**
+- A) Bacteriúria assintomática não está caracterizada (contagem < 10⁵ UFC/mL).
+- B) Contaminação sugere flora mista e muitas células epiteliais; aqui as células epiteliais são raras e há um único germe.
+- C) "Cistite subclínica" não é diagnóstico; cistite exige sintomas.
+
+⚠️ **PEGADINHA DO INEP:** a presença de *E. coli* na cultura tenta induzir ao tratamento. O que define bacteriúria assintomática é a **contagem (≥ 10⁵ UFC/mL)**.
+
+**O que a banca estava testando:** critérios de bacteriúria assintomática na gestação.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Bacteriúria assintomática na gestante deve ser tratada mesmo sem sintomas?	Sim — sempre, pelo risco de progressão para pielonefrite	Revalida::Obstetricia::ITUGestacao::Conduta
+Após tratar bacteriúria assintomática/ITU na gestante, o que fazer em seguida?	Repetir urocultura de controle de cura (~7 dias após o término do tratamento)	Revalida::Obstetricia::ITUGestacao::Conduta
+Quais achados clínicos diferenciam pielonefrite de cistite?	Febre, calafrios, dor lombar/punho-percussão positiva, mal-estar sistêmico (ausentes na cistite simples)	Revalida::Obstetricia::ITUGestacao::DiagnosticoDiferencial
+Conduta na pielonefrite gestacional?	Internação hospitalar + antibioticoterapia ENDOVENOSA empírica (não aguardar cultura)	Revalida::Obstetricia::ITUGestacao::Conduta
+Cistite/bacteriúria assintomática na gestante: tratamento ambulatorial ou hospitalar?	Ambulatorial, via oral	Revalida::Obstetricia::ITUGestacao::Conduta
+Contagem >100.000 UFC/mL em urocultura assintomática deve ser interpretada como contaminação?	Não — é contagem significativa, deve ser tratada	Revalida::Obstetricia::ITUGestacao::Diagnostico
+Pielonefrite gestacional com sinais de desidratação/instabilidade hemodinâmica: iniciar antibiótico antes ou depois do resultado de urocultura?	Antes — tratamento empírico imediato, nunca aguardar confirmação laboratorial	Revalida::Obstetricia::ITUGestacao::Conduta
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Bacteriúria assintomática na gestante SEMPRE se trata (diferente de não gestante).
+2. Sempre repetir urocultura de controle de cura após o tratamento.
+3. Febre + dor lombar + calafrios = pielonefrite = internação + antibiótico endovenoso.
+4. Pielonefrite: tratamento empírico imediato, não esperar resultado de cultura.
+5. Contagem significativa (>100.000 UFC/mL) não é "contaminação" — trate.
+
+📊 **Tabela-síntese**
+| Entidade | Sintomas | Via/Local |
+|---|---|---|
+| Bacteriúria assintomática | Nenhum | Oral, ambulatorial |
+| Cistite | Disúria/polaciúria | Oral, ambulatorial |
+| Pielonefrite | Febre/dor lombar/calafrios | Endovenoso, internação |
+
+⚡ **Fluxograma textual:** urocultura positiva ou sintomas urinários → avaliar sinais sistêmicos (febre, dor lombar) → ausentes → bacteriúria/cistite → tratar oral + controle de cura → presentes → pielonefrite → internar + antibiótico EV empírico + investigação laboratorial.
+
+🚫 **Os 3 erros mais comuns:** (1) não tratar bacteriúria assintomática; (2) não repetir urocultura de controle de cura; (3) tratar pielonefrite ambulatorialmente/por via oral.
+
+🔗 **Conexões com outros módulos:** OBS-03 (pré-natal — rastreio de rotina), OBS-04 (outras intercorrências gestacionais), GAS-01/INF (infecções em geral).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "OBS-05",
+  "especialidade": "Obstetrícia",
+  "tema": "Infecção urinária na gestação",
+  "assunto": "Bacteriúria assintomática, cistite e pielonefrite gestacional — diagnóstico e conduta por gravidade",
+  "tier": "A",
+  "n_questoes": 6,
+  "n_flashcards": 7,
+  "tempo_estudo_min": 85,
+  "prerequisitos": [],
+  "relacionados": ["OBS-03", "OBS-04"],
+  "data_geracao": "2026-07-29",
+  "data_ampliacao": "2026-08-13",
+  "codigos_mesclados": ["OBS-42"],
+  "itens_a_verificar": [
+    "Alternativa D de 2011.1-Q85 foi completada a partir de fragmento truncado — não é transcrição literal confirmada",
+    "Intervalo exato de controle de cura (7 dias) e esquema antibiótico não fixados com fonte primária confirmada",
+    "INEP2023-2-Q72 (classificado originalmente como OBS-42/pielonefrite) contém, na verdade, conteúdo de uma questão sobre fissura anal — provável erro de alinhamento na Fase B de classificação, registrado para auditoria, não incorporado a este módulo",
+    "Confirmar se este módulo tem mais questões nas 15 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

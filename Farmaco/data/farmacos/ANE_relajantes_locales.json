@@ -1,0 +1,260 @@
+[
+  {
+    "id": "ANE-bloqueantes-neuromusculares",
+    "nombre": "Bloqueantes neuromusculares (rocuronio, succinilcolina, cisatracurio) y sugammadex",
+    "sinonimos": [
+      "Relajantes musculares"
+    ],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Bloqueante neuromuscular",
+    "subclase": "Despolarizantes y no despolarizantes, con su agente de reversión",
+    "mecanismo": "Actúan sobre el receptor nicotínico de la placa motora por dos mecanismos opuestos. La SUCCINILCOLINA es DESPOLARIZANTE: se une al receptor y lo activa, pero al no ser degradada por la acetilcolinesterasa lo mantiene despolarizado, de modo que tras una fase inicial de fasciculaciones la membrana queda inexcitable. De ahí sus dos efectos característicos: las FASCICULACIONES visibles y la salida de POTASIO de la célula muscular, que es inocua en el paciente normal y letal en el quemado, el denervado o el inmovilizado, donde los receptores extraunionales proliferan y la hiperpotasemia puede ser masiva. El ROCURONIO y el CISATRACURIO son NO DESPOLARIZANTES: antagonistas competitivos que simplemente impiden que la acetilcolina se una, sin activar nada, por lo que no hay fasciculaciones ni liberación de potasio. Ninguno de ellos tiene efecto hipnótico ni analgésico. El SUGAMMADEX no actúa sobre el receptor: es una ciclodextrina modificada que ENCAPSULA físicamente la molécula de rocuronio en el plasma y la retira de la circulación, revirtiendo incluso un bloqueo profundo en dos o tres minutos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INTUBACIÓN DE SECUENCIA RÁPIDA",
+        "dosis": "Rocuronio 1,2 mg/kg IV o succinilcolina 1-1,5 mg/kg IV",
+        "posologia": "Bolo único",
+        "via": "IV",
+        "dosis_objetivo": "Relajación completa a los 45-60 segundos",
+        "nota": "El rocuronio a dosis alta iguala la rapidez de la succinilcolina y, con sugammadex disponible, permite revertir el bloqueo en minutos si la intubación fracasa"
+      },
+      {
+        "patologia": "Mantenimiento de la relajación en cirugía",
+        "dosis": "Rocuronio 0,15 mg/kg en bolos o perfusión de 0,3-0,6 mg/kg/h; cisatracurio 1-3 microgramos/kg/min",
+        "posologia": "Bolos o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Tren de cuatro (TOF) de 1-2 respuestas durante la cirugía",
+        "nota": "El CISATRACURIO se elimina por degradación de Hofmann, independiente del hígado y del riñón: es el de elección en el fallo multiorgánico"
+      },
+      {
+        "patologia": "Distrés respiratorio agudo grave, en las primeras 48 horas",
+        "dosis": "Cisatracurio 37,5 mg/h en perfusión",
+        "posologia": "Perfusión continua durante 48 horas",
+        "via": "IV",
+        "nota": "Mejora la sincronía con el ventilador y reduce el barotrauma; siempre con sedación profunda garantizada"
+      },
+      {
+        "patologia": "REVERSIÓN del bloqueo por rocuronio",
+        "dosis": "Sugammadex 2 mg/kg (bloqueo moderado), 4 mg/kg (profundo) o 16 mg/kg (reversión inmediata tras dosis de intubación)",
+        "posologia": "Bolo único",
+        "via": "IV",
+        "dosis_objetivo": "Tren de cuatro con cociente superior a 0,9, que es el umbral de recuperación segura de la vía aérea",
+        "nota": "16 mg/kg revierte en 2-3 minutos incluso un bloqueo recién instaurado: ha cambiado el manejo de la vía aérea difícil no prevista"
+      }
+    ],
+    "esquema": {
+      "inicio": "NUNCA antes de garantizar la HIPNOSIS. Paralizar a un paciente consciente es una de las yatrogenias más graves que existen y produce despertar intraoperatorio con recuerdo, con secuelas psicológicas duraderas.",
+      "titulacion": "Guiada por MONITORIZACIÓN NEUROMUSCULAR objetiva (tren de cuatro), no por criterios clínicos.",
+      "duracion": "Minutos (succinilcolina) a horas (no despolarizantes) o días (perfusión en cuidados intensivos).",
+      "fin": "No se extuba hasta un cociente de tren de cuatro superior a 0,9. El bloqueo residual es una causa frecuente y evitable de complicaciones respiratorias postoperatorias.",
+      "via": "Intravenosa.",
+      "monitorizacion": "MONITORIZACIÓN NEUROMUSCULAR OBJETIVA, profundidad anestésica, potasio (con succinilcolina), temperatura y capnografía."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Moléculas muy polares que no atraviesan la barrera hematoencefálica ni la placenta de forma significativa: por eso NO producen sedación ni afectan al feto.",
+      "metabolismo": "Succinilcolina: colinesterasa PLASMÁTICA (su déficit genético prolonga el bloqueo horas). Rocuronio: hepático. CISATRACURIO: degradación de HOFMANN, espontánea y dependiente solo del pH y la temperatura.",
+      "eliminacion": "Biliar y renal según el fármaco; el complejo sugammadex-rocuronio se elimina por vía RENAL.",
+      "vida_media": "Succinilcolina 5-10 minutos; rocuronio 30-60 minutos; cisatracurio 20-30 minutos.",
+      "ajuste_renal": "El SUGAMMADEX está limitado con filtrado menor de 30 mL/min (el complejo no se elimina). El CISATRACURIO no requiere ajuste.",
+      "ajuste_hepatico": "El rocuronio se prolonga en la insuficiencia hepática; el cisatracurio no.",
+      "interacciones": [
+        {
+          "con": "AMINOGLUCÓSIDOS, sulfato de MAGNESIO, calcioantagonistas y anestésicos halogenados",
+          "efecto": "POTENCIAN y PROLONGAN el bloqueo neuromuscular",
+          "gravedad": "alta",
+          "manejo": "Muy relevante en la obstétrica tratada con magnesio y en el paciente séptico con aminoglucósidos: reducir la dosis y monitorizar"
+        },
+        {
+          "con": "SUGAMMADEX y ANTICONCEPTIVOS hormonales",
+          "efecto": "El sugammadex encapsula también el progestágeno y equivale a la OMISIÓN de una dosis del anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "Hay que ADVERTIR a la paciente de que use un método adicional durante 7 días. Es una interacción sorprendente y sistemáticamente olvidada al alta"
+        },
+        {
+          "con": "Anticolinesterásicos (neostigmina)",
+          "efecto": "Revierten el bloqueo NO despolarizante, pero PROLONGAN el de la succinilcolina",
+          "gravedad": "alta",
+          "manejo": "Se administran con atropina o glicopirrolato para contrarrestar la bradicardia. No sirven para revertir un bloqueo profundo"
+        },
+        {
+          "con": "Hipotermia, acidosis e hipopotasemia",
+          "efecto": "Prolongan el bloqueo",
+          "gravedad": "media",
+          "manejo": "Corregir antes de plantear la extubación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mialgias postoperatorias intensas tras la succinilcolina, por las fasciculaciones",
+        "Taquicardia o bradicardia según el fármaco",
+        "Liberación de histamina con algunos no despolarizantes"
+      ],
+      "graves": [
+        "HIPERPOTASEMIA MORTAL con succinilcolina en el QUEMADO (a partir de las 24-48 horas), el DENERVADO, el lesionado medular, el inmovilizado prolongado y las miopatías: la proliferación de receptores extraunionales libera potasio de forma masiva",
+        "HIPERTERMIA MALIGNA desencadenada por succinilcolina y halogenados en el susceptible, con hipercapnia, rigidez, acidosis y fiebre: el antídoto es el DANTROLENO",
+        "BLOQUEO PROLONGADO por déficit de colinesterasa plasmática (horas de parálisis con vía aérea asegurada)",
+        "DESPERTAR INTRAOPERATORIO si la hipnosis es insuficiente: el paciente está paralizado y consciente",
+        "BLOQUEO RESIDUAL postoperatorio con aspiración e insuficiencia respiratoria",
+        "Anafilaxia (los relajantes son la causa más frecuente de anafilaxia perioperatoria)",
+        "Aumento de la presión intraocular e intragástrica con succinilcolina"
+      ]
+    },
+    "contraindicaciones": [
+      "SUCCINILCOLINA: quemado de más de 24-48 horas, lesión medular o denervación, inmovilización prolongada, rabdomiólisis, hiperpotasemia, miopatías (especialmente la distrofia de Duchenne no diagnosticada en el niño) y antecedente de hipertermia maligna",
+      "Ausencia de capacidad para asegurar la vía aérea",
+      "Sedación insuficiente",
+      "SUGAMMADEX: insuficiencia renal grave"
+    ],
+    "perlas": [
+      "La regla de seguridad número uno: PRIMERO DORMIR, DESPUÉS PARALIZAR. Un paciente paralizado y consciente no puede comunicar nada, y el despertar intraoperatorio con parálisis es una de las experiencias más traumáticas que puede sufrir un paciente. Nunca se administra un relajante sin haber garantizado la hipnosis.",
+      "Los relajantes no sedan, no analgesian y no hacen nada más que paralizar. Parece obvio y sin embargo es la fuente de los errores más graves con esta familia, incluidos los que ocurren fuera de quirófano cuando se confunde una jeringa.",
+      "La SUCCINILCOLINA mata por HIPERPOTASEMIA en un grupo de pacientes concreto: quemado de más de 24-48 horas, lesionado medular, denervado e inmovilizado prolongado. En todos ellos han proliferado receptores extraunionales y la despolarización libera potasio de forma masiva. Es una lista que hay que tener memorizada.",
+      "El caso más trágico es el NIÑO con distrofia muscular NO DIAGNOSTICADA que recibe succinilcolina para una cirugía banal y hace una parada por hiperpotasemia y rabdomiólisis. Por eso su uso rutinario en pediatría se ha abandonado.",
+      "El SUGAMMADEX cambió el manejo de la vía aérea difícil: a 16 mg/kg revierte un bloqueo profundo por rocuronio en 2-3 minutos, lo que permite despertar a un paciente que no se ha podido intubar. Antes de él, el argumento a favor de la succinilcolina era su corta duración; hoy ese argumento se ha debilitado mucho.",
+      "El sugammadex ENCAPSULA también los progestágenos: equivale a haber olvidado una píldora anticonceptiva, y hay que advertir a la paciente de que use un método adicional durante 7 días. Es una interacción que casi nunca llega al informe de alta.",
+      "El CISATRACURIO se degrada por la reacción de HOFMANN, espontánea y dependiente solo del pH y la temperatura: no necesita hígado ni riñón. Es el relajante del paciente con fallo multiorgánico, y su elegancia farmacológica se aprecia justo cuando todo lo demás falla.",
+      "El BLOQUEO RESIDUAL es más frecuente de lo que se cree y produce hipoxemia, aspiración y reintubación. Solo la monitorización OBJETIVA con tren de cuatro superior a 0,9 lo descarta: los signos clínicos (levantar la cabeza, apretar la mano) son insuficientes.",
+      "Los relajantes son la causa MÁS FRECUENTE de anafilaxia perioperatoria, con reactividad cruzada entre ellos y con algunos cosméticos que contienen iones de amonio cuaternario.",
+      "El déficit genético de COLINESTERASA PLASMÁTICA convierte una succinilcolina de 5 minutos en horas de parálisis. No es peligroso si se reconoce: basta mantener la sedación y la ventilación hasta que se recupere, pero desconcierta si nadie ha pensado en ello."
+    ],
+    "embarazo_lactancia": "No atraviesan la placenta de forma significativa por su alta polaridad, por lo que no afectan al feto y se usan con normalidad en la cesárea. El sulfato de magnesio, frecuente en obstetricia, POTENCIA el bloqueo y obliga a reducir la dosis. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27; guías de manejo de la vía aérea difícil y de monitorización neuromuscular"
+  },
+  {
+    "id": "ANE-anestesicos-locales",
+    "nombre": "Anestésicos locales (lidocaína, bupivacaína, ropivacaína, mepivacaína)",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico local",
+    "subclase": "Bloqueantes de los canales de sodio dependientes de voltaje",
+    "mecanismo": "Bloquean los canales de sodio dependientes de voltaje DESDE DENTRO del axón, impidiendo la propagación del potencial de acción. Para llegar a su diana deben atravesar la membrana en su forma NO IONIZADA (liposoluble) y actuar después en su forma ionizada: de ahí un hecho clínico decisivo, en el TEJIDO INFECTADO el pH ácido ioniza el fármaco, impide su entrada y el bloqueo FALLA, que es la razón por la que anestesiar un absceso resulta tan difícil. El bloqueo es uso-dependiente y sigue un orden por tipo de fibra: primero las fibras pequeñas y amielínicas (dolor y temperatura), después el tacto y la propiedad y por último las fibras motoras gruesas. Ese gradiente permite la analgesia epidural del parto sin bloqueo motor. La toxicidad sistémica sigue el mismo orden en el sistema nervioso: primero se bloquean las neuronas inhibidoras (de ahí las convulsiones) y después las excitadoras (coma y parada respiratoria).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANESTESIA LOCAL por infiltración y bloqueo de nervios periféricos",
+        "dosis": "Lidocaína 1-2%, máximo 4,5 mg/kg (7 mg/kg CON adrenalina); mepivacaína 2%; bupivacaína 0,25-0,5%, máximo 2 mg/kg (3 mg/kg con adrenalina)",
+        "posologia": "Dosis única, con dosis máxima estricta por peso",
+        "via": "SC",
+        "dosis_objetivo": "Anestesia completa del territorio con respeto estricto de la dosis máxima calculada por PESO",
+        "nota": "Hay que CALCULAR la dosis máxima antes de infiltrar. La adrenalina asociada prolonga el efecto, reduce el sangrado y disminuye la absorción sistémica"
+      },
+      {
+        "patologia": "ANESTESIA NEUROAXIAL: epidural e intradural",
+        "dosis": "Bupivacaína 0,5% hiperbara 10-15 mg intradural; ropivacaína 0,1-0,2% en perfusión epidural para el parto",
+        "posologia": "Dosis única o perfusión continua",
+        "via": "epidural",
+        "dosis_objetivo": "Nivel sensitivo adecuado con el mínimo bloqueo motor posible",
+        "nota": "La ROPIVACAÍNA y la levobupivacaína son MENOS cardiotóxicas que la bupivacaína racémica y producen menos bloqueo motor a igual analgesia"
+      },
+      {
+        "patologia": "ARRITMIAS ventriculares (lidocaína)",
+        "dosis": "1-1,5 mg/kg IV en bolo, seguidos de perfusión de 1-4 mg/min",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "nota": "Antiarrítmico de clase Ib; hoy de segunda línea tras la amiodarona"
+      },
+      {
+        "patologia": "Anestesia TÓPICA de piel y mucosas",
+        "dosis": "Crema EMLA (lidocaína-prilocaína) aplicada 60 minutos antes con oclusión; lidocaína en gel al 2%",
+        "posologia": "Aplicación única previa al procedimiento",
+        "via": "tópica",
+        "nota": "Muy útil en pediatría antes de una venopunción; la prilocaína puede producir METAHEMOGLOBINEMIA en el lactante"
+      },
+      {
+        "patologia": "Dolor NEUROPÁTICO localizado (neuralgia postherpética)",
+        "dosis": "Parche de lidocaína 5%, 12 horas al día",
+        "posologia": "12 horas de aplicación y 12 de descanso",
+        "via": "transdérmica",
+        "nota": "Acción local sin absorción sistémica relevante: excelente opción en el anciano polimedicado"
+      }
+    ],
+    "esquema": {
+      "inicio": "CALCULAR la dosis máxima por peso ANTES de cargar la jeringa. Disponer de material de reanimación y de EMULSIÓN LIPÍDICA al 20% cuando se realicen bloqueos con dosis altas.",
+      "titulacion": "Se administra la dosis mínima eficaz. En los bloqueos se ASPIRA antes de cada inyección y se inyecta de forma FRACCIONADA para detectar precozmente una inyección intravascular.",
+      "duracion": "Lidocaína 1-2 horas (3-4 con adrenalina); bupivacaína y ropivacaína 4-12 horas.",
+      "fin": "Recuperación espontánea. Hay que advertir del riesgo de lesionarse la zona anestesiada mientras dura el bloqueo.",
+      "via": "Infiltración local, perineural, epidural, intradural, tópica, transdérmica o intravenosa.",
+      "monitorizacion": "En bloqueos mayores: ECG, tensión arterial, saturación y nivel de conciencia. Los primeros síntomas de toxicidad son NEUROLÓGICOS y hay que preguntar por ellos activamente."
+    },
+    "farmacocinetica": {
+      "absorcion": "Depende del territorio: la absorción es máxima en la mucosa intercostal y traqueal y mínima en el tejido subcutáneo. La ADRENALINA asociada reduce la absorción sistémica y prolonga el efecto.",
+      "distribucion": "Amplia; la bupivacaína tiene alta afinidad por el canal de sodio CARDIACO, del que se disocia muy lentamente, y de ahí su cardiotoxicidad característica.",
+      "metabolismo": "Las AMIDAS (lidocaína, bupivacaína, ropivacaína, mepivacaína) se metabolizan en el HÍGADO; los ÉSTERES (procaína, tetracaína) por colinesterasas plasmáticas, generando PABA, responsable de las reacciones alérgicas.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "Lidocaína 1,5-2 horas; bupivacaína 2,7 horas.",
+      "ajuste_renal": "Ajuste modesto.",
+      "ajuste_hepatico": "REDUCIR la dosis de las amidas en la insuficiencia hepática y en el paciente con bajo gasto cardiaco (menor flujo hepático).",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes, cimetidina y amiodarona",
+          "efecto": "Reducen el aclaramiento hepático de la lidocaína y aumentan su toxicidad",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis en tratamiento crónico con estos fármacos"
+        },
+        {
+          "con": "Antiarrítmicos de clase I y III",
+          "efecto": "Toxicidad cardiaca aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar dosis altas"
+        },
+        {
+          "con": "EMULSIÓN LIPÍDICA al 20%",
+          "efecto": "ANTÍDOTO de la toxicidad sistémica: actúa como sumidero lipídico que secuestra el anestésico del tejido cardiaco",
+          "gravedad": "baja",
+          "manejo": "1,5 mL/kg en bolo seguidos de perfusión. Debe estar DISPONIBLE en todo lugar donde se realicen bloqueos"
+        },
+        {
+          "con": "Fármacos metahemoglobinizantes (prilocaína, benzocaína, nitratos)",
+          "efecto": "METAHEMOGLOBINEMIA",
+          "gravedad": "alta",
+          "manejo": "Precaución en el lactante; el antídoto es el AZUL DE METILENO"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor durante la infiltración (se reduce tamponando con bicarbonato y calentando la solución)",
+        "Sabor metálico y acorchamiento peribucal (primer síntoma de absorción sistémica)",
+        "Hipotensión y bradicardia en la anestesia neuroaxial por bloqueo simpático",
+        "Retención urinaria tras la epidural"
+      ],
+      "graves": [
+        "TOXICIDAD SISTÉMICA con secuencia característica: acorchamiento peribucal, sabor metálico, acúfenos y visión borrosa, seguidos de agitación, CONVULSIONES, coma y por último COLAPSO CARDIOVASCULAR",
+        "PARADA CARDIACA POR BUPIVACAÍNA, especialmente refractaria a la reanimación por su lenta disociación del canal de sodio cardiaco",
+        "Metahemoglobinemia (prilocaína, benzocaína)",
+        "Síndrome de cola de caballo y lesión neurológica tras la anestesia neuroaxial",
+        "Cefalea pospunción dural",
+        "NECROSIS DIGITAL si se usan soluciones con adrenalina en territorios de vascularización terminal (concepto hoy matizado, pero la prudencia sigue siendo razonable)",
+        "Anafilaxia, casi siempre con ésteres o con conservantes"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia demostrada al anestésico o a sus conservantes",
+      "Infección en el punto de punción para bloqueos y anestesia neuroaxial",
+      "Coagulopatía o anticoagulación para la anestesia neuroaxial",
+      "Hipovolemia grave para la anestesia neuroaxial",
+      "Bloqueo cardiaco avanzado para la lidocaína intravenosa"
+    ],
+    "perlas": [
+      "La DOSIS MÁXIMA POR PESO hay que calcularla ANTES de infiltrar, no estimarla al ojo. La toxicidad sistémica por anestésicos locales se produce casi siempre por superar la dosis o por inyección intravascular inadvertida, y ambas cosas son evitables.",
+      "La secuencia de toxicidad es constante y hay que conocerla: primero acorchamiento peribucal y sabor metálico, después acúfenos y visión borrosa, luego agitación y CONVULSIONES, y por último el colapso cardiovascular. Los primeros síntomas son la señal para parar, y por eso hay que hablar con el paciente durante el bloqueo.",
+      "La BUPIVACAÍNA es la más CARDIOTÓXICA: se disocia muy lentamente del canal de sodio cardiaco, y la parada cardiaca que produce es notoriamente resistente a la reanimación. Es el motivo por el que se prefieren la ropivacaína y la levobupivacaína cuando hacen falta dosis altas.",
+      "El ANTÍDOTO es la EMULSIÓN LIPÍDICA al 20%, que actúa como sumidero secuestrando el anestésico del miocardio. Debe estar físicamente disponible en cualquier lugar donde se hagan bloqueos, y saber dónde está es tan importante como saber la dosis.",
+      "En el TEJIDO INFECTADO el anestésico local FALLA: el pH ácido lo mantiene ionizado y no puede atravesar la membrana. Por eso duele tanto drenar un absceso, y por eso la solución es un bloqueo troncular a distancia y no más volumen local.",
+      "Las AMIDAS (lidocaína, bupivacaína, ropivacaína, mepivacaína) tienen DOS íes en su nombre y se metabolizan en el hígado; los ÉSTERES tienen una sola í y se hidrolizan en el plasma generando PABA, que es lo que causa la mayoría de las alergias verdaderas. La regla de las íes es fea pero funciona.",
+      "La alergia REAL a las amidas es rarísima: casi siempre lo que se describe como alergia es un episodio vasovagal, una taquicardia por la adrenalina asociada o una reacción a un conservante.",
+      "Ante una inyección con riesgo intravascular hay que ASPIRAR y administrar FRACCIONADO, comprobando el estado del paciente entre dosis: es lo que convierte una toxicidad grave en un susto detectado a tiempo.",
+      "La ADRENALINA asociada prolonga el bloqueo, reduce el sangrado y disminuye la absorción sistémica, permitiendo dosis máximas mayores. La prohibición clásica en dedos, nariz y orejas se ha matizado con la evidencia actual, pero la prudencia sigue siendo razonable fuera de manos expertas.",
+      "En la epidural del parto se busca un bloqueo SENSITIVO sin bloqueo MOTOR, y eso es posible porque las fibras del dolor son finas y se bloquean antes que las motoras, gruesas. Es la anatomía de la fibra nerviosa traducida en una decisión de concentración del fármaco."
+    ],
+    "embarazo_lactancia": "De uso rutinario en obstetricia: la analgesia epidural del parto y la anestesia intradural de la cesárea son sus indicaciones más frecuentes. La embarazada es MÁS sensible a la toxicidad (mayor gasto cardiaco, menor unión a proteínas), por lo que las dosis se reducen. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 26; guías ASRA sobre toxicidad sistémica por anestésicos locales"
+  }
+]

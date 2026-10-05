@@ -1,0 +1,241 @@
+[
+  {
+    "id": "VIR-virus-hepatitis-a",
+    "nombre": "Virus de la hepatitis A (VHA)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA, SIN envoltura, familia Picornaviridae, género Hepatovirus",
+    "morfologia_tincion": "Virión icosaédrico desnudo de 27 nm. La ausencia de envoltura lo hace resistente al ácido gástrico, a los detergentes y a la desecación, lo que explica su transmisión FECAL-ORAL y su supervivencia en alimentos y agua.",
+    "mecanismo_patogenia": [
+      "Transmisión FECAL-ORAL: agua y alimentos contaminados (moluscos bivalvos crudos, verduras regadas con aguas residuales), contacto persona a persona y transmisión sexual oro-anal (brotes en HSH).",
+      "Replica en el hepatocito SIN efecto citopático directo: el daño hepático está mediado por la respuesta inmunitaria CITOTÓXICA (linfocitos T CD8 y NK) frente al hepatocito infectado. Por eso el cuadro es tanto más sintomático cuanto más maduro es el sistema inmunitario.",
+      "Se elimina por la bilis a las heces: la excreción fecal es MÁXIMA en las 2 semanas PREVIAS a la ictericia, cuando el paciente aún no se sabe enfermo. Ahí está el máximo riesgo de contagio.",
+      "NUNCA cronifica: no integra su genoma ni establece persistencia. La infección deja inmunidad de por vida.",
+      "En el adulto y sobre todo en el hepatópata crónico previo puede producir hepatitis fulminante por una respuesta inmunitaria desproporcionada."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Hepatitis aguda ictérica",
+        "clinica": "Fase prodrómica de 1-2 semanas con astenia, anorexia, náuseas, febrícula y dolor en hipocondrio derecho, seguida de fase ictérica con coluria, acolia, prurito e ictericia. Paradójicamente el paciente MEJORA de los síntomas generales al aparecer la ictericia.",
+        "lesiones": "Necrosis hepatocitaria panlobulillar con infiltrado portal linfocitario y colestasis. Transaminasas muy elevadas (más de 1000 U/L), con ALT superior a AST.",
+        "clave": "Elevación de transaminasas de miles con bilirrubina alta y buen estado general orienta a hepatitis vírica aguda; la hepatitis alcohólica cursa con transaminasas por debajo de 400 y cociente AST/ALT mayor de 2."
+      },
+      {
+        "cuadro": "Infección anictérica de la infancia",
+        "clinica": "En menores de 6 años más del 70% son ASINTOMÁTICOS o solo tienen un cuadro pseudogripal o diarreico inespecífico.",
+        "lesiones": "Elevación leve de transaminasas sin ictericia.",
+        "clave": "El niño asintomático es el principal transmisor doméstico e institucional: los brotes en guarderías se detectan cuando enferman los adultos convivientes."
+      },
+      {
+        "cuadro": "Hepatitis colestásica prolongada",
+        "clinica": "Ictericia y prurito intensos que se prolongan durante semanas o meses, con bilirrubina persistentemente alta.",
+        "lesiones": "Colestasis intrahepática marcada.",
+        "clave": "Variante benigna: pese a lo llamativo del cuadro, la resolución es completa. No cronifica."
+      },
+      {
+        "cuadro": "Hepatitis fulminante",
+        "clinica": "Encefalopatía hepática e INR alargado en las primeras 8 semanas, con descenso paradójico de las transaminasas por agotamiento del parénquima.",
+        "lesiones": "Necrosis hepática masiva.",
+        "clave": "Ocurre en menos del 1% de los casos, pero el riesgo aumenta con la edad y es MUCHO mayor si hay hepatopatía crónica previa (VHB, VHC, alcohol): por eso se vacuna frente al VHA a todo hepatópata crónico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "NUNCA cronifica y NO produce estado de portador: si a los 6 meses persisten alteraciones, hay que buscar otra causa.",
+      "La excreción fecal máxima es ANTES de la ictericia: cuando se diagnostica al paciente, el periodo de máximo contagio ya ha pasado, pero sus contactos ya están expuestos.",
+      "IgM anti-VHA significa infección AGUDA. IgG anti-VHA aislada significa infección pasada o vacunación, con inmunidad de por vida.",
+      "La vacuna (virus inactivado) es muy eficaz e indicada en viajeros a zonas endémicas, HSH, usuarios de drogas, hepatópatas crónicos y contactos domiciliarios.",
+      "Profilaxis postexposición: vacuna en los primeros 14 días en el sano de 1 a 40 años; inmunoglobulina en menores de 1 año, mayores de 40, inmunodeprimidos y hepatópatas.",
+      "NO hay tratamiento antivírico específico: el manejo es de soporte. Los corticoides no están indicados.",
+      "El paciente NO necesita reposo absoluto ni dieta especial; solo evitar alcohol y fármacos hepatotóxicos."
+    ],
+    "diagnostico": {
+      "muestra": "Suero.",
+      "pruebas": [
+        "IgM anti-VHA: prueba diagnóstica de la infección aguda; positiva desde el inicio de los síntomas y hasta 3-6 meses",
+        "IgG anti-VHA: marcador de inmunidad (infección pasada o vacunación)",
+        "Perfil hepático: ALT y AST muy elevadas, bilirrubina directa alta, fosfatasa alcalina moderadamente elevada",
+        "INR y albúmina para valorar la función de síntesis: el alargamiento del INR es el marcador de gravedad",
+        "PCR en heces o suero: solo en investigación de brotes"
+      ],
+      "claves": "El parámetro que define la gravedad no es la cifra de transaminasas sino el INR y el nivel de conciencia."
+    },
+    "tratamiento": {
+      "eleccion": "SINTOMÁTICO: hidratación, antieméticos, retirada de alcohol y de fármacos hepatotóxicos. No hay antivírico específico.",
+      "alternativas": "Colestiramina o antihistamínicos para el prurito de la forma colestásica. Trasplante hepático urgente en la forma fulminante.",
+      "resistencias": "No aplicable: no se emplean antivíricos.",
+      "duracion": "Resolución espontánea en 2-8 semanas; hasta 6 meses en la forma colestásica.",
+      "notas": "Enfermedad de DECLARACIÓN OBLIGATORIA. Aislamiento entérico. Vacunar a los contactos susceptibles en los primeros 14 días."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. 51 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de hepatitis vírica aguda"
+  },
+  {
+    "id": "VIR-virus-hepatitis-b",
+    "nombre": "Virus de la hepatitis B (VHB)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ADN parcialmente bicatenario CON envoltura, familia Hepadnaviridae. Es el único virus ADN humano que replica mediante TRANSCRIPTASA INVERSA a partir de un ARN intermediario",
+    "morfologia_tincion": "Partícula de Dane de 42 nm: nucleocápside (HBcAg) que contiene el ADN circular y la polimerasa, rodeada de una envoltura con el antígeno de superficie (HBsAg). En el suero hay además un gran exceso de partículas esféricas y filamentosas de HBsAg vacías, no infecciosas.",
+    "mecanismo_patogenia": [
+      "Transmisión PARENTERAL, SEXUAL y VERTICAL (perinatal). La transmisión vertical es la vía dominante en zonas de alta endemia y la que más cronifica.",
+      "El virus NO es citopático: el daño hepático lo produce la respuesta CITOTÓXICA T frente a los hepatocitos que expresan antígenos virales. De ahí la paradoja central de la enfermedad: cuanto MÁS eficaz es la respuesta inmunitaria, más sintomática es la hepatitis aguda pero MENOS probable la cronificación.",
+      "Forma en el núcleo del hepatocito un ADN circular covalentemente cerrado (cccDNA) que actúa como reservorio estable: por eso los antivíricos suprimen la replicación pero NO curan la infección, y por eso puede haber REACTIVACIÓN al inmunodeprimir al paciente.",
+      "INTEGRA su ADN en el genoma del hepatocito, lo que le confiere capacidad ONCOGÉNICA DIRECTA: puede producir hepatocarcinoma SIN pasar por cirrosis, a diferencia del VHC.",
+      "El HBeAg es un marcador de replicación activa y alta infectividad. Las cepas MUTANTES PRECORE no lo producen pese a replicar activamente: cursan con HBeAg negativo, anti-HBe positivo y ADN viral alto (hepatitis crónica HBeAg-negativa, la más frecuente en el área mediterránea).",
+      "El depósito de inmunocomplejos explica las manifestaciones extrahepáticas: poliarteritis nodosa y glomerulonefritis membranosa."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Hepatitis aguda B",
+        "clinica": "Periodo de incubación LARGO (1-6 meses). Cuadro similar al de la hepatitis A pero con más frecuencia de manifestaciones prodrómicas por inmunocomplejos: artralgias, exantema urticarial (síndrome pseudo-enfermedad del suero).",
+        "lesiones": "Necroinflamación lobulillar; hepatocitos en vidrio esmerilado en la infección crónica, por acúmulo de HBsAg en el retículo endoplásmico.",
+        "clave": "El adulto inmunocompetente resuelve la infección en más del 95% de los casos; el neonato infectado por vía vertical cronifica en el 90%. La probabilidad de cronificar es INVERSA a la edad y a la intensidad de la respuesta inmunitaria."
+      },
+      {
+        "cuadro": "Hepatitis crónica B",
+        "clinica": "HBsAg positivo más de 6 meses. Habitualmente ASINTOMÁTICA durante años; se detecta por cribado o por elevación de transaminasas. Evoluciona en fases: inmunotolerancia, aclaramiento inmunitario, portador inactivo y reactivación.",
+        "lesiones": "Fibrosis progresiva hasta cirrosis; hepatocitos en vidrio esmerilado.",
+        "clave": "La distinción entre PORTADOR INACTIVO (ADN bajo, transaminasas normales, sin fibrosis: no requiere tratamiento pero sí seguimiento) y HEPATITIS CRÓNICA ACTIVA (ADN alto y/o transaminasas altas y/o fibrosis: requiere tratamiento) es la decisión clínica central."
+      },
+      {
+        "cuadro": "Cirrosis y hepatocarcinoma",
+        "clinica": "Descompensación hidrópica, hemorragia por varices, encefalopatía; el hepatocarcinoma puede ser la forma de debut.",
+        "lesiones": "Cirrosis macronodular; hepatocarcinoma.",
+        "clave": "El VHB puede producir hepatocarcinoma SIN cirrosis previa por integración del genoma: por eso se hace cribado ecográfico semestral en portadores de riesgo (asiáticos, africanos, antecedente familiar) aunque no tengan cirrosis."
+      },
+      {
+        "cuadro": "Reactivación por inmunosupresión",
+        "clinica": "Reaparición del ADN viral y de la citólisis, a veces con hepatitis grave o fulminante, al iniciar quimioterapia, RITUXIMAB, corticoides a dosis altas o biológicos.",
+        "lesiones": "Necrosis hepática extensa.",
+        "clave": "Hay riesgo incluso en el paciente con HBsAg NEGATIVO y anti-HBc POSITIVO (infección oculta), especialmente con rituximab. Obliga a cribar HBsAg y anti-HBc a TODO paciente antes de inmunosuprimir y a dar profilaxis con entecavir o tenofovir."
+      },
+      {
+        "cuadro": "Coinfección y sobreinfección por virus delta (VHD)",
+        "clinica": "La COINFECCIÓN simultánea VHB más VHD suele ser autolimitada pero con más riesgo de forma fulminante; la SOBREINFECCIÓN de un portador crónico de VHB por VHD produce cronificación casi universal y progresión acelerada a cirrosis.",
+        "lesiones": "Hepatitis grave, progresión rápida de la fibrosis.",
+        "clave": "El VHD es un virus DEFECTIVO que necesita el HBsAg del VHB para su envoltura: no existe hepatitis D sin hepatitis B, y por tanto la vacuna del VHB protege también frente al VHD."
+      },
+      {
+        "cuadro": "Manifestaciones extrahepáticas",
+        "clinica": "Poliarteritis nodosa (la asociación clásica), glomerulonefritis membranosa, crioglobulinemia.",
+        "lesiones": "Vasculitis necrosante de vaso mediano con microaneurismas.",
+        "clave": "Ante una poliarteritis nodosa hay que solicitar serología de VHB."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Interpretación serológica: HBsAg indica infección (aguda o crónica); anti-HBs indica INMUNIDAD (vacunación o curación); anti-HBc IgM indica infección aguda reciente; anti-HBc IgG indica contacto previo con el virus (nunca aparece tras la vacuna); HBeAg indica replicación activa.",
+      "VACUNADO es anti-HBs positivo AISLADO. CURADO es anti-HBs positivo MÁS anti-HBc IgG positivo. La presencia de anti-HBc es lo que distingue al curado del vacunado.",
+      "Periodo VENTANA: entre la desaparición del HBsAg y la aparición del anti-HBs, el único marcador positivo puede ser el anti-HBc IgM.",
+      "El riesgo de cronificar es inverso a la edad: 90% en el recién nacido, 30% en el niño pequeño, menos del 5% en el adulto inmunocompetente.",
+      "Los análogos de nucleósido (entecavir, tenofovir) SUPRIMEN pero no erradican: el cccDNA persiste y la retirada del fármaco puede provocar una reactivación grave.",
+      "Cribar HBsAg y anti-HBc antes de cualquier inmunosupresión, sobre todo antes de RITUXIMAB: la reactivación puede ser mortal y es totalmente prevenible.",
+      "Profilaxis del recién nacido de madre HBsAg positiva: vacuna MÁS inmunoglobulina específica en las primeras 12 horas de vida; reduce la transmisión del 90% a menos del 5%.",
+      "La vacuna es recombinante (HBsAg), forma parte del calendario infantil universal y previene también la hepatitis D y el hepatocarcinoma asociado."
+    ],
+    "diagnostico": {
+      "muestra": "Suero; biopsia hepática o elastografía para estadificar la fibrosis.",
+      "pruebas": [
+        "HBsAg, anti-HBs, anti-HBc total e IgM: panel básico de cribado e interpretación",
+        "HBeAg y anti-HBe: estado replicativo y detección de mutante precore",
+        "ADN-VHB cuantitativo (carga viral): decide la indicación de tratamiento y monitoriza la respuesta",
+        "Serología de VHD (anti-VHD) en todo HBsAg positivo",
+        "Elastografía de transición (FibroScan) o biopsia para el grado de fibrosis",
+        "Ecografía abdominal semestral y alfafetoproteína para cribado de hepatocarcinoma"
+      ],
+      "claves": "Un anti-HBc positivo AISLADO puede corresponder a periodo ventana, infección oculta o falso positivo: hay que pedir ADN viral, y en todo caso obliga a profilaxis si se va a inmunosuprimir."
+    },
+    "tratamiento": {
+      "eleccion": "TENOFOVIR (TDF 245 mg/24 h o TAF 25 mg/24 h VO) o ENTECAVIR 0,5 mg/24 h VO en la hepatitis crónica con ADN elevado y/o transaminasas altas y/o fibrosis significativa, y en toda cirrosis con ADN detectable.",
+      "alternativas": "Interferón pegilado alfa durante 48 semanas en pacientes jóvenes seleccionados sin cirrosis (ventaja: duración finita; inconveniente: mala tolerancia). La hepatitis aguda NO se trata salvo forma grave o fulminante.",
+      "resistencias": "Prácticamente nulas con tenofovir; muy bajas con entecavir salvo en pacientes previamente tratados con lamivudina, en los que hay resistencia cruzada y debe usarse tenofovir. La lamivudina en monoterapia está desaconsejada por su alta tasa de resistencia.",
+      "duracion": "INDEFINIDA en la mayoría de los casos; puede plantearse la retirada tras la pérdida del HBsAg o, en el HBeAg positivo, tras seroconversión a anti-HBe consolidada al menos 12 meses. En cirrosis no se retira nunca.",
+      "notas": "Profilaxis con entecavir o tenofovir en todo paciente HBsAg positivo (y en el anti-HBc positivo que vaya a recibir rituximab) durante la inmunosupresión y hasta 6-12 meses después. Vacunar frente a hepatitis A. Cribado semestral de hepatocarcinoma."
+    },
+    "farmacos_relacionados": [
+      "INF-bictegravir-emtricitabina-tenofovir-alafenamida",
+      "INF-entecavir",
+      "INF-tenofovir",
+      "INM-anti-tnf",
+      "INM-rituximab"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 55 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., caps. de hepatitis vírica aguda y crónica"
+  },
+  {
+    "id": "VIR-virus-hepatitis-c",
+    "nombre": "Virus de la hepatitis C (VHC)",
+    "grupo": "VIR",
+    "nivel": 1,
+    "clasificacion": "Virus ARN monocatenario de polaridad POSITIVA con envoltura, familia Flaviviridae, género Hepacivirus; 6 genotipos principales",
+    "morfologia_tincion": "Virión con envoltura de 55-65 nm, con glucoproteínas E1 y E2 muy variables. Circula asociado a lipoproteínas, lo que dificulta su neutralización por anticuerpos.",
+    "mecanismo_patogenia": [
+      "Transmisión fundamentalmente PARENTERAL: uso de drogas por vía inyectada (vía dominante hoy), transfusiones anteriores a 1992, material sanitario no estéril. La transmisión sexual es POCO eficiente salvo en HSH con VIH, y la vertical es del 5%.",
+      "Su ARN polimerasa carece de corrección de errores: genera una CUASIESPECIE de variantes que escapa continuamente a la respuesta de anticuerpos. Es la razón por la que NO existe vacuna y por la que la infección cronifica en el 70-85% de los casos, al contrario que el VHB.",
+      "Daño hepático mixto: efecto citopático directo leve más lesión inmunomediada, con inflamación crónica de bajo grado que produce fibrosis progresiva a lo largo de décadas.",
+      "NO integra su genoma, por ser un virus ARN: su carcinogénesis es INDIRECTA, a través de la cirrosis. Por eso el hepatocarcinoma por VHC aparece prácticamente siempre sobre hígado cirrótico.",
+      "Estimulación crónica de linfocitos B: produce CRIOGLOBULINEMIA MIXTA tipo II y aumenta el riesgo de linfoma B de zona marginal."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Hepatitis aguda C",
+        "clinica": "ASINTOMÁTICA en el 70-80% de los casos. Cuando da síntomas son leves e inespecíficos. Rara vez es fulminante.",
+        "lesiones": "Necroinflamación leve.",
+        "clave": "La paradoja de la hepatitis C: cuanto más leve es la fase aguda, más probable es la cronificación. Al ser asintomática, la mayoría de los infectados se diagnostican años después."
+      },
+      {
+        "cuadro": "Hepatitis crónica C",
+        "clinica": "Asintomática o con astenia inespecífica durante décadas. Transaminasas fluctuantes, a menudo solo discretamente elevadas o incluso normales.",
+        "lesiones": "Infiltrado linfoide portal con folículos linfoides, esteatosis (típica del genotipo 3) y fibrosis progresiva.",
+        "clave": "Unas transaminasas NORMALES no descartan fibrosis avanzada: hay que estadificar con elastografía a todo infectado."
+      },
+      {
+        "cuadro": "Cirrosis y hepatocarcinoma",
+        "clinica": "Aparecen tras 20-30 años de evolución en el 20-30% de los infectados; el alcohol, la coinfección por VIH, el sexo masculino y la esteatosis aceleran la progresión.",
+        "lesiones": "Cirrosis; hepatocarcinoma sobre hígado cirrótico.",
+        "clave": "Tras la curación con antivíricos, el paciente que ya tenía CIRROSIS mantiene riesgo de hepatocarcinoma y debe seguir el cribado ecográfico semestral DE POR VIDA."
+      },
+      {
+        "cuadro": "Crioglobulinemia mixta esencial",
+        "clinica": "Púrpura palpable en miembros inferiores, artralgias, astenia, neuropatía periférica y glomerulonefritis membranoproliferativa, con complemento C4 bajo y factor reumatoide positivo.",
+        "lesiones": "Vasculitis leucocitoclástica de pequeño vaso por depósito de inmunocomplejos.",
+        "clave": "El VHC es la causa más frecuente de crioglobulinemia mixta tipo II: ante púrpura palpable con C4 bajo, pedir serología de VHC."
+      },
+      {
+        "cuadro": "Otras manifestaciones extrahepáticas",
+        "clinica": "Porfiria cutánea tarda, liquen plano, linfoma B de zona marginal, diabetes tipo 2, tiroiditis autoinmune.",
+        "lesiones": "Ampollas y fragilidad cutánea en zonas fotoexpuestas en la porfiria cutánea tarda.",
+        "clave": "El tratamiento antivírico puede hacer regresar el linfoma de zona marginal asociado al VHC."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La serología (anti-VHC) indica CONTACTO, no infección activa: hay que confirmar SIEMPRE con ARN-VHC. El curado y el tratado mantienen los anticuerpos positivos de por vida.",
+      "No existe vacuna por la enorme variabilidad genética, y haber pasado la infección NO protege frente a una reinfección.",
+      "Los antivíricos de acción directa han transformado la enfermedad: CURAN a más del 95% de los pacientes en 8-12 semanas por vía oral y con muy buena tolerancia. Las pautas pangenotípicas hacen innecesario genotipar en la mayoría de los casos.",
+      "La curación se define como respuesta viral sostenida: ARN indetectable a las 12 semanas de finalizar el tratamiento.",
+      "A diferencia del VHB, el VHC no integra su genoma: el hepatocarcinoma aparece casi siempre sobre cirrosis establecida.",
+      "Antes de iniciar antivíricos de acción directa hay que descartar coinfección por VHB: la supresión del VHC puede desencadenar una REACTIVACIÓN del VHB.",
+      "Los antivíricos de acción directa tienen interacciones relevantes con estatinas, amiodarona (bradicardia grave con sofosbuvir), inductores enzimáticos y algunos antirretrovirales: revisar toda la medicación antes de empezar."
+    ],
+    "diagnostico": {
+      "muestra": "Suero.",
+      "pruebas": [
+        "Anticuerpos anti-VHC: prueba de cribado; permanece positiva de por vida aunque el paciente esté curado",
+        "ARN-VHC cuantitativo por PCR: confirma la infección ACTIVA y es la prueba que decide tratar",
+        "Genotipo: cada vez menos necesario con las pautas pangenotípicas; útil en retratamientos",
+        "Elastografía o índices no invasivos (FIB-4, APRI) para estadificar la fibrosis",
+        "HBsAg, anti-HBc y serología de VIH antes de iniciar el tratamiento"
+      ],
+      "claves": "Anti-VHC positivo con ARN negativo en dos determinaciones significa infección pasada resuelta o curada, y no requiere tratamiento."
+    },
+    "tratamiento": {
+      "eleccion": "Antivíricos de acción directa PANGENOTÍPICOS: SOFOSBUVIR/VELPATASVIR 400/100 mg/24 h durante 12 semanas, o GLECAPREVIR/PIBRENTASVIR 300/120 mg/24 h durante 8 semanas en el paciente sin cirrosis.",
+      "alternativas": "Sofosbuvir/velpatasvir/voxilaprevir en el retratamiento tras fracaso. Glecaprevir/pibrentasvir se evita en la insuficiencia hepática descompensada (Child B-C) por contener un inhibidor de la proteasa.",
+      "resistencias": "Existen variantes asociadas a resistencia, pero con las pautas actuales la tasa de curación supera el 95%; el estudio de resistencias se reserva al fracaso terapéutico.",
+      "duracion": "8-12 semanas en la mayoría de los casos; 12-16 semanas en cirrosis descompensada o retratamiento.",
+      "notas": "Se trata a TODO paciente con infección activa, independientemente del grado de fibrosis. Comprobar interacciones (amiodarona, estatinas, inductores). Tras la curación, el paciente con cirrosis mantiene el cribado de hepatocarcinoma de por vida; el paciente sin fibrosis avanzada es dado de alta."
+    },
+    "farmacos_relacionados": [
+      "INF-sofosbuvir-velpatasvir"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 55 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de hepatitis crónica"
+  }
+]

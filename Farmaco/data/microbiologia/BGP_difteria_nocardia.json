@@ -1,0 +1,151 @@
+[
+  {
+    "id": "BGP-corynebacterium-diphtheriae",
+    "nombre": "Corynebacterium diphtheriae",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "BACILO grampositivo aerobio, NO esporulado, pleomorfo, dispuesto en empalizada o en letras chinas; su patogenicidad depende de una TOXINA codificada por un BACTERIÓFAGO lisogénico",
+    "morfologia_tincion": "Bacilos grampositivos pleomorfos, en forma de maza, agrupados en ángulo formando figuras de letras chinas o empalizada. Con la tinción de Albert o de Neisser se ven los GRÁNULOS METACROMÁTICOS de Babes-Ernst (polifosfato). Crece en medio de LOEFFLER y en agar TELURITO, donde forma colonias NEGRAS o grisáceas por reducción del telurito.",
+    "mecanismo_patogenia": [
+      "La virulencia depende por completo de la TOXINA DIFTÉRICA, y el gen tox NO es propio de la bacteria: lo aporta un BACTERIÓFAGO beta lisogénico. Una cepa no lisogenizada coloniza pero no produce enfermedad tóxica; es el ejemplo clásico de conversión lisogénica.",
+      "La toxina tiene estructura A-B: el fragmento B se une al receptor del factor de crecimiento epidérmico de unión a heparina y permite la entrada, y el fragmento A ribosila el ADP del FACTOR DE ELONGACIÓN 2 (EF-2), bloqueando la síntesis proteica de la célula humana y matándola.",
+      "En la faringe, la necrosis del epitelio junto con la fibrina, los leucocitos y los hematíes forma la PSEUDOMEMBRANA gris adherente, que es la lesión característica y la responsable de la obstrucción de la vía aérea.",
+      "La toxina se disemina por vía hematógena y alcanza dos órganos con especial afinidad: el MIOCARDIO (miocarditis con bloqueo de la conducción) y el SISTEMA NERVIOSO (neuropatía desmielinizante, empezando por la parálisis del velo del paladar).",
+      "La bacteria en sí apenas invade: toda la gravedad de la enfermedad es TOXÍGENA. Por eso el tratamiento decisivo es la ANTITOXINA y no el antibiótico.",
+      "La forma CUTÁNEA es hoy más frecuente en países de renta alta que la respiratoria, y aparece en personas sin techo, con consumo de alcohol o en condiciones de hacinamiento."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Difteria faríngea y laríngea",
+        "clinica": "Odinofagia, fiebre moderada (llamativamente baja para la gravedad del cuadro), malestar intenso, disfagia y voz gangosa; adenopatías cervicales que dan el aspecto de CUELLO DE TORO (bull neck).",
+        "lesiones": "PSEUDOMEMBRANA gris-blanquecina que cubre amígdalas, úvula y paladar, firmemente ADHERIDA: al intentar desprenderla SANGRA. Puede extenderse a la laringe y obstruir la vía aérea.",
+        "clave": "La pseudomembrana adherente y sangrante es el signo que la distingue de la faringitis estreptocócica y de la mononucleosis, en las que el exudado se desprende con facilidad. El desequilibrio entre una fiebre baja y un paciente con aspecto tóxico es otro dato de alarma."
+      },
+      {
+        "cuadro": "MIOCARDITIS diftérica",
+        "clinica": "Aparece hacia la segunda semana, cuando el cuadro faríngeo ya mejora: insuficiencia cardiaca, arritmias y bloqueos de la conducción.",
+        "lesiones": "Degeneración grasa y necrosis miocárdica por bloqueo de la síntesis proteica.",
+        "clave": "Es la causa más frecuente de MUERTE. La aparición diferida, cuando el paciente parecía mejorar, hace que se pase por alto si no se monitoriza el ECG."
+      },
+      {
+        "cuadro": "NEUROPATÍA diftérica",
+        "clinica": "Comienza por la PARÁLISIS DEL VELO DEL PALADAR (voz nasal, regurgitación de líquidos por la nariz) en la segunda o tercera semana; después parálisis oculomotora con visión borrosa, y semanas más tarde una polineuropatía de predominio motor, ascendente, similar a un Guillain-Barré.",
+        "lesiones": "Desmielinización segmentaria.",
+        "clave": "La secuencia es característica: primero el paladar, luego los ojos, luego las extremidades. Es reversible casi siempre, pero puede requerir ventilación mecánica."
+      },
+      {
+        "cuadro": "Difteria CUTÁNEA",
+        "clinica": "Úlcera crónica de bordes netos cubierta por una membrana grisácea, indolora o poco dolorosa, en extremidades.",
+        "lesiones": "Úlcera en sacabocados con membrana adherente.",
+        "clave": "Es la forma predominante hoy en países con alta cobertura vacunal. Produce poca toxemia pero es un RESERVORIO eficaz de transmisión."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El gen de la toxina lo aporta un BACTERIÓFAGO: es el ejemplo canónico de conversión lisogénica, junto con la toxina eritrogénica de S. pyogenes, la de Clostridium botulinum y la Shiga de E. coli.",
+      "La toxina inactiva el FACTOR DE ELONGACIÓN 2 (EF-2). La exotoxina A de Pseudomonas aeruginosa tiene exactamente la misma diana, lo que es una pareja clásica de examen y también un buen recordatorio de convergencia evolutiva.",
+      "El tratamiento que salva la vida es la ANTITOXINA, y hay que administrarla SIN ESPERAR la confirmación microbiológica: solo neutraliza la toxina circulante, no la ya unida a la célula, de modo que cada hora de retraso deja daño irreversible.",
+      "El antibiótico no trata la enfermedad tóxica: erradica la bacteria, corta la transmisión y detiene la producción de más toxina.",
+      "La VACUNA es un TOXOIDE: no impide la colonización, previene la enfermedad. Por eso puede haber portadores vacunados y por eso la enfermedad reaparece cuando cae la cobertura vacunal, como ocurrió en la epidemia de la antigua Unión Soviética en los años noventa.",
+      "La inmunidad vacunal DECAE: el adulto necesita recuerdo cada 10 años, algo que se olvida sistemáticamente en la población adulta.",
+      "Haber pasado la enfermedad NO inmuniza: la cantidad de toxina necesaria para enfermar es menor que la necesaria para inmunizar, de modo que el convaleciente debe VACUNARSE."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis de la faringe tomado POR DEBAJO de la pseudomembrana, o fragmento de la propia membrana; exudado de la úlcera cutánea.",
+      "pruebas": [
+        "Tinción de Gram y de Albert (gránulos metacromáticos)",
+        "Cultivo en medio de LOEFFLER y en agar TELURITO (colonias negras): AVISAR AL LABORATORIO de la sospecha, porque requiere medios específicos que no se siembran de rutina",
+        "Prueba de ELEK o PCR del gen tox para demostrar la TOXIGENICIDAD: aislar la bacteria no basta, hay que saber si produce toxina",
+        "ECG seriado y troponina para vigilar la miocarditis"
+      ],
+      "claves": "El diagnóstico es CLÍNICO y el tratamiento no espera al laboratorio. Confirmar la toxigenicidad importa para la salud pública y para el manejo de contactos, no para decidir si se administra la antitoxina."
+    },
+    "tratamiento": {
+      "eleccion": "ANTITOXINA diftérica equina por vía intravenosa, en dosis de 20.000 a 100.000 unidades según la extensión y el tiempo de evolución, administrada de forma INMEDIATA ante la sospecha clínica, con prueba de sensibilidad previa por el riesgo de anafilaxia. Junto a ella, PENICILINA G o ERITROMICINA/AZITROMICINA durante 14 días para erradicar la bacteria.",
+      "alternativas": "Azitromicina o claritromicina en el alérgico a betalactámicos. Aislamiento respiratorio y de contacto hasta obtener dos cultivos negativos.",
+      "resistencias": "Se han descrito cepas con sensibilidad reducida a macrólidos; la penicilina mantiene su actividad.",
+      "duracion": "14 días de antibiótico; la antitoxina es de dosis única.",
+      "notas": "A los CONTACTOS: cultivo faríngeo, profilaxis con azitromicina o penicilina benzatina, y actualización de la vacunación. Al PACIENTE hay que vacunarlo durante la convalecencia, porque la enfermedad no deja inmunidad. Monitorización cardiaca y neurológica durante semanas."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-penicilina-g-benzatina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de Corynebacterium; Harrison 20.ª ed., cap. de difteria; documento de la OMS sobre control de la difteria"
+  },
+  {
+    "id": "BGP-nocardia",
+    "nombre": "Nocardia (N. asteroides, N. brasiliensis, N. farcinica)",
+    "grupo": "BGP",
+    "nivel": 2,
+    "clasificacion": "ACTINOMICETO AEROBIO grampositivo, filamentoso y ramificado, PARCIALMENTE ácido-alcohol resistente; ambiental, de vida libre en el suelo",
+    "morfologia_tincion": "Filamentos grampositivos finos, ramificados en ángulo recto y con tendencia a fragmentarse en bacilos y cocos, con aspecto de cuentas de rosario. Es PARCIALMENTE ácido-alcohol resistente: se tiñe con Ziehl-Neelsen MODIFICADO (Kinyoun con ácido débil) pero no con el Ziehl convencional, y esa combinación de filamentos grampositivos parcialmente ácido-resistentes es prácticamente diagnóstica. Crece lentamente, de 3 a 5 días o más, en medios habituales.",
+    "mecanismo_patogenia": [
+      "Es un patógeno AMBIENTAL de vida libre: se adquiere por INHALACIÓN de polvo o tierra, o por INOCULACIÓN traumática directa en la piel. NO hay transmisión de persona a persona.",
+      "La defensa esencial es la INMUNIDAD CELULAR mediada por linfocitos T y macrófagos: por eso afecta al paciente con corticoides prolongados, trasplantado, con neoplasia hematológica, con VIH avanzado o con proteinosis alveolar pulmonar.",
+      "Resiste la muerte intracelular en el macrófago inhibiendo la fusión fagosoma-lisosoma y neutralizando los radicales de oxígeno mediante catalasa y superóxido dismutasa: la misma estrategia que las micobacterias.",
+      "Produce ABSCESOS supurativos con tendencia a la DISEMINACIÓN HEMATÓGENA, con predilección notable por el SISTEMA NERVIOSO CENTRAL.",
+      "La forma cutánea primaria por inoculación (micetoma actinomicótico o pie de Madura por N. brasiliensis) es distinta epidemiológicamente: aparece en el inmunocompetente que trabaja descalzo en contacto con el suelo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Nocardiosis PULMONAR",
+        "clinica": "Paciente inmunodeprimido, típicamente en tratamiento corticoide prolongado, con tos, fiebre, disnea, dolor torácico y pérdida de peso, de curso SUBAGUDO durante semanas.",
+        "lesiones": "Consolidaciones, nódulos múltiples con tendencia a la CAVITACIÓN, masas y derrame pleural. La imagen imita la tuberculosis, la aspergilosis y la neoplasia.",
+        "clave": "Es el gran imitador radiológico del inmunodeprimido. Un nódulo cavitado en un paciente con corticoides crónicos obliga a pensar en ella y a PEDIR EXPRESAMENTE la tinción de Ziehl modificado y cultivos prolongados, porque de otro modo el laboratorio no la busca."
+      },
+      {
+        "cuadro": "ABSCESO CEREBRAL por Nocardia",
+        "clinica": "Cefalea, focalidad neurológica, crisis comiciales o deterioro cognitivo, a menudo sin fiebre.",
+        "lesiones": "Abscesos únicos o MÚLTIPLES, con captación en anillo, frecuentemente multiloculados.",
+        "clave": "Hasta un tercio de las nocardiosis pulmonares tienen diseminación cerebral, y muchas veces sin síntomas neurológicos. Por eso toda nocardiosis pulmonar obliga a hacer una RM o TC CRANEAL de cribado, aunque el paciente no tenga clínica: el hallazgo cambia el fármaco y prolonga el tratamiento a un año."
+      },
+      {
+        "cuadro": "Nocardiosis CUTÁNEA primaria y linfocutánea",
+        "clinica": "Tras un traumatismo con material del suelo: pústula, absceso o úlcera, a veces con nódulos que ascienden siguiendo los linfáticos.",
+        "lesiones": "Patrón ESPOROTRICOIDE de nódulos linfangíticos ascendentes.",
+        "clave": "El patrón esporotricoide obliga a un diagnóstico diferencial concreto: Sporothrix, Mycobacterium marinum, Leishmania y Nocardia."
+      },
+      {
+        "cuadro": "MICETOMA actinomicótico (pie de Madura)",
+        "clinica": "En el inmunocompetente de zonas tropicales, tumefacción crónica e indolora del pie, deformante, con fístulas que drenan GRÁNULOS.",
+        "lesiones": "Destrucción de partes blandas y hueso, con granos de colonias bacterianas en el exudado.",
+        "clave": "Hay que distinguirlo del micetoma FÚNGICO (eumicetoma), porque el tratamiento es completamente distinto: el actinomicótico responde a antibióticos y el fúngico requiere antifúngicos y a menudo cirugía."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La pareja que conviene tener clara es NOCARDIA frente a ACTINOMYCES: ambos son filamentosos y ramificados, pero Nocardia es AEROBIA, parcialmente ácido-resistente, ambiental y afecta al INMUNODEPRIMIDO; Actinomyces es ANAEROBIA, no ácido-resistente, forma parte de la flora oral normal y afecta al inmunocompetente tras una rotura de mucosa.",
+      "Hay que AVISAR AL LABORATORIO cuando se sospecha: requiere cultivos prolongados (hasta 2-3 semanas) y tinción de Ziehl MODIFICADO, y si no se pide expresamente el crecimiento se descarta como contaminante.",
+      "Toda nocardiosis obliga a buscar el SISTEMA NERVIOSO CENTRAL con imagen craneal, aunque no haya síntomas.",
+      "El tratamiento es LARGO: de 6 a 12 meses, y hasta un año en la afectación cerebral o en el inmunodeprimido, por la alta tendencia a la recidiva.",
+      "El COTRIMOXAZOL es el fármaco de referencia, y su uso profiláctico frente a Pneumocystis reduce, aunque no elimina, el riesgo de nocardiosis en el trasplantado.",
+      "La identificación de ESPECIE importa: N. farcinica es resistente a cefalosporinas de tercera generación y tiene peor pronóstico.",
+      "Encontrar Nocardia obliga a preguntarse por qué: en un paciente sin inmunodepresión conocida hay que buscarla, incluida la PROTEINOSIS ALVEOLAR pulmonar, una asociación clásica."
+    ],
+    "diagnostico": {
+      "muestra": "Esputo, lavado broncoalveolar, aspirado de absceso, biopsia tisular, líquido cefalorraquídeo.",
+      "pruebas": [
+        "Gram: filamentos grampositivos finos y ramificados en cuentas de rosario",
+        "ZIEHL-NEELSEN MODIFICADO (Kinyoun con decoloración débil): parcialmente ácido-alcohol resistente",
+        "Cultivo prolongado en medios habituales o en agar Sabouraud, hasta 2-3 semanas: hay que avisar al laboratorio",
+        "Identificación de ESPECIE por MALDI-TOF o secuenciación, y ANTIBIOGRAMA (imprescindible por la variabilidad entre especies)",
+        "TC o RM CRANEAL en toda nocardiosis, aunque no haya clínica neurológica"
+      ],
+      "claves": "El diagnóstico se pierde con frecuencia por dos motivos evitables: no avisar al laboratorio y descartar el aislamiento como contaminación ambiental. En un inmunodeprimido, Nocardia en una muestra respiratoria casi nunca es un contaminante."
+    },
+    "tratamiento": {
+      "eleccion": "COTRIMOXAZOL (trimetoprim-sulfametoxazol) a dosis altas, 10-15 mg/kg/día de trimetoprim, repartido en 2-4 tomas. En la enfermedad grave o diseminada, terapia combinada inicial: cotrimoxazol más IMIPENEM o meropenem, con AMIKACINA añadida en la afectación del sistema nervioso central.",
+      "alternativas": "Linezolid (activo frente a prácticamente todas las especies y con buena penetración en el SNC), ceftriaxona, minociclina, amoxicilina-clavulánico según el antibiograma.",
+      "resistencias": "N. farcinica es resistente a cefalosporinas de tercera generación. La sensibilidad varía mucho entre especies, por lo que el ANTIBIOGRAMA no es opcional.",
+      "duracion": "6 meses en la forma cutánea; 6-12 meses en la pulmonar; 12 meses en la afectación del sistema nervioso central o en el inmunodeprimido grave.",
+      "notas": "El drenaje quirúrgico de los abscesos grandes forma parte del tratamiento. Hay que reducir la inmunosupresión en lo posible. La duración prolongada obliga a vigilar la toxicidad del cotrimoxazol: hiperpotasemia, deterioro renal, citopenias y exantema."
+    },
+    "farmacos_relacionados": [
+      "INF-amikacina",
+      "INF-cotrimoxazol",
+      "INF-imipenem",
+      "INF-linezolid",
+      "INF-meropenem"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de Nocardia y actinomicetos aerobios; Harrison 20.ª ed., cap. de nocardiosis"
+  }
+]

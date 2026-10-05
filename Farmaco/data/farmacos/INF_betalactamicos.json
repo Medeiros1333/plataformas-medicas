@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "INF-penicilina-g-benzatina",
+    "nombre": "Penicilina G benzatina",
+    "sinonimos": [
+      "Benzatina bencilpenicilina"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — penicilina natural",
+    "subclase": "Depósito intramuscular de liberación lenta",
+    "mecanismo": "Se une a las PBP (proteínas fijadoras de penicilina) e inhibe la transpeptidación del peptidoglucano; activa además autolisinas. Bactericida tiempo-dependiente. La sal benzatina es muy poco soluble: forma un depósito IM que libera penicilina durante 3-4 semanas, manteniendo concentraciones bajas pero continuas.",
+    "espectro": "Estrecho: Streptococcus pyogenes (nunca ha desarrollado resistencia a penicilina) y demás estreptococos betahemolíticos, Treponema pallidum. NO cubre estafilococos (>90% productores de penicilinasa), NO cubre gramnegativos ni anaerobios de la boca resistentes.",
+    "indicaciones": [
+      {
+        "patologia": "Faringoamigdalitis estreptocócica (dosis única cuando no se garantiza el cumplimiento oral)",
+        "dosis": "1 200 000 UI (adulto y >27 kg)",
+        "posologia": "Dosis única",
+        "via": "IM profunda",
+        "nota": "Alternativa a 10 días de penicilina V o amoxicilina oral; erradica el estreptococo y previene la fiebre reumática"
+      },
+      {
+        "patologia": "Profilaxis secundaria de fiebre reumática",
+        "dosis": "1 200 000 UI",
+        "posologia": "Cada 21-28 días",
+        "via": "IM profunda",
+        "nota": "Cada 21 días si hay carditis con valvulopatía establecida"
+      },
+      {
+        "patologia": "Sífilis primaria, secundaria y latente precoz (<1 año)",
+        "dosis": "2 400 000 UI",
+        "posologia": "Dosis única",
+        "via": "IM profunda",
+        "nota": "Repartir 1,2 MUI en cada glúteo"
+      },
+      {
+        "patologia": "Sífilis latente tardía o de duración desconocida",
+        "dosis": "2 400 000 UI",
+        "posologia": "Semanal, 3 dosis (total 7,2 MUI)",
+        "via": "IM profunda",
+        "nota": "Si se pierde una dosis con más de 10-14 días de retraso, reiniciar la serie"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde la primera administración; no requiere titulación. Antes de la primera dosis, interrogar dirigidamente sobre alergia a betalactámicos.",
+      "titulacion": "No aplica.",
+      "duracion": "Dosis única en faringitis y sífilis precoz; 3 dosis semanales en sífilis tardía; años o de por vida en profilaxis de fiebre reumática (hasta los 21-40 años o 10 años tras el último brote, según haya o no carditis).",
+      "fin": "Se suspende al completar el número de dosis pautado. No requiere retirada gradual. En profilaxis reumática, la retirada se decide por edad y estado valvular, no por la clínica.",
+      "via": "IM profunda exclusivamente — NUNCA IV ni intraarterial.",
+      "monitorizacion": "En sífilis, VDRL/RPR cuantitativo a los 6 y 12 meses: se espera un descenso de 4 veces (2 diluciones) del título. Vigilar 30 min tras la inyección por riesgo de anafilaxia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Absorción IM muy lenta y sostenida desde el depósito; concentraciones detectables 3-4 semanas.",
+      "distribucion": "Amplia en líquidos corporales. Penetración en LCR escasa e insuficiente — por eso NO sirve para neurosífilis.",
+      "metabolismo": "Mínimo; se hidroliza a bencilpenicilina.",
+      "eliminacion": "Renal, 90% por secreción tubular activa.",
+      "vida_media": "Bencilpenicilina libre 30 min, pero la liberación desde el depósito prolonga la exposición 3-4 semanas.",
+      "ajuste_renal": "En insuficiencia renal grave (FG <10) se prolonga la exposición; en profilaxis, espaciar. En pauta única de sífilis no se ajusta.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Bloquea la secreción tubular y aumenta y prolonga las concentraciones de penicilina",
+          "gravedad": "media",
+          "manejo": "Interacción históricamente aprovechada de forma terapéutica; hoy rara vez se usa"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Las penicilinas compiten por la secreción tubular y elevan las concentraciones de metotrexato, con riesgo de mielotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Vigilar hemograma y niveles; evitar la asociación con metotrexato a dosis altas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor intenso e induración en el punto de inyección",
+        "Exantema maculopapular",
+        "Reacción de Jarisch-Herxheimer en las primeras 24 h del tratamiento de la sífilis (fiebre, mialgias, exacerbación del exantema)"
+      ],
+      "graves": [
+        "Anafilaxia (0,01-0,05%): la penicilina es la primera causa de anafilaxia farmacológica",
+        "Síndrome de Hoigné: embolia microcristalina por inyección intravascular accidental, con sensación de muerte inminente, alucinaciones y taquicardia (no es alérgico)",
+        "Parada cardiaca por inyección IV accidental de la sal benzatina",
+        "Nefritis intersticial aguda"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia mediada por IgE a penicilinas",
+      "Administración IV o intraarterial (riesgo vital)",
+      "Neurosífilis, sífilis ocular u otosífilis: no alcanza concentración treponemicida en LCR — usar penicilina G sódica IV"
+    ],
+    "perlas": [
+      "Es el único tratamiento con eficacia probada de la sífilis en la embarazada: si hay alergia, la conducta correcta es la desensibilización, no cambiar de fármaco.",
+      "La reacción de Jarisch-Herxheimer NO es alergia y no contraindica continuar: es lisis masiva de treponemas. Avisar siempre al paciente antes de la inyección para evitar que abandone el tratamiento.",
+      "Streptococcus pyogenes sigue siendo universalmente sensible a penicilina tras 80 años de uso — es el gran ejemplo de bacteria sin resistencia adquirida a un betalactámico.",
+      "No confundir con penicilina G procaína ni con penicilina G sódica: son sales distintas, con vías y duraciones no intercambiables."
+    ],
+    "embarazo_lactancia": "De elección en el embarazo (categoría B). Compatible con la lactancia. En la embarazada con sífilis, la segunda dosis a la semana está indicada aunque sea sífilis precoz.",
+    "micro_relacionado": [
+      "ANA-clostridium-perfringens",
+      "ANA-clostridium-tetani",
+      "ATI-leptospira",
+      "ATI-treponema-pallidum",
+      "BGN-neisseria-meningitidis",
+      "BGP-corynebacterium-diphtheriae",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., secc. de enfermedades por espiroquetas"
+  },
+  {
+    "id": "INF-amoxicilina",
+    "nombre": "Amoxicilina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — aminopenicilina",
+    "subclase": "Espectro ampliado a gramnegativos",
+    "vs_clase": [
+      "**La aminopenicilina ORAL** (biodisponibilidad 80-90%); la ampicilina es la IV.",
+      "**De elección en la neumonía neumocócica, la otitis y la faringoamigdalitis**, y componente de la erradicación de H. pylori.",
+      "**No resiste betalactamasas**: no cubre S. aureus productor de penicilinasa, H. influenzae productor ni anaerobios (para eso, amoxicilina-clavulánico)."
+    ],
+    "mecanismo": "Inhibe la síntesis de la pared bacteriana uniéndose a las PBP. El grupo amino extra respecto a la penicilina le permite atravesar las porinas de la membrana externa de los gramnegativos, ampliando el espectro. Sigue siendo hidrolizada por las betalactamasas.",
+    "espectro": "Estreptococos (incluido S. pneumoniae, incluso con sensibilidad disminuida si se usa dosis alta), Enterococcus faecalis, Listeria, Haemophilus influenzae no productor de betalactamasa, Helicobacter pylori, Borrelia. NO cubre S. aureus, NO cubre productores de betalactamasa (gran parte de E. coli y Moraxella), NO cubre Pseudomonas ni anaerobios de la vía respiratoria baja.",
+    "indicaciones": [
+      {
+        "patologia": "Faringoamigdalitis estreptocócica",
+        "dosis": "500 mg/8 h o 1 g/12 h",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "10 días completos: la duración corta previene la supuración pero no la fiebre reumática"
+      },
+      {
+        "patologia": "Otitis media aguda / sinusitis bacteriana aguda",
+        "dosis": "875 mg-1 g/8 h (dosis alta)",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "La dosis alta vence al neumococo con sensibilidad intermedia a penicilina"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad no grave, ambulatoria",
+        "dosis": "1 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "De elección en España por la alta prevalencia de neumococo y las resistencias a macrólidos"
+      },
+      {
+        "patologia": "Erradicación de Helicobacter pylori (terapia cuádruple concomitante)",
+        "dosis": "1 g/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Combinada con IBP + claritromicina + metronidazol"
+      },
+      {
+        "patologia": "Profilaxis de endocarditis en procedimientos dentales de riesgo",
+        "dosis": "2 g",
+        "posologia": "Dosis única 30-60 min antes",
+        "via": "VO",
+        "nota": "Solo en cardiopatías de alto riesgo"
+      },
+      {
+        "patologia": "Enfermedad de Lyme precoz (eritema migratorio) en embarazo o <8 años",
+        "dosis": "500 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Alternativa a doxiciclina cuando esta no puede usarse"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día. Elegir directamente dosis alta (1 g/8 h) si se sospecha neumococo o si hay factores de riesgo de resistencia.",
+      "titulacion": "No requiere titulación.",
+      "duracion": "5-7 días en la mayoría de infecciones respiratorias; 10 días en faringitis estreptocócica; 14 días en erradicación de H. pylori; 14-21 días en Lyme precoz.",
+      "fin": "Suspensión brusca al completar los días pautados. No se prolonga «hasta que mejore»: acortar cuando el paciente está afebril y estable 48-72 h es la práctica actual en NAC.",
+      "via": "VO (la biodisponibilidad del 80% la hace preferible a ampicilina oral).",
+      "monitorizacion": "Clínica. No precisa analíticas de rutina en tratamientos cortos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral 75-90%, no afectada de forma relevante por los alimentos (ventaja clave sobre ampicilina oral, cuya absorción es del 40% y cae con la comida).",
+      "distribucion": "Buena en oído medio, senos, pulmón, líquido pleural y orina. Penetración en LCR solo con meninges inflamadas.",
+      "metabolismo": "Escaso; se excreta mayoritariamente sin metabolizar.",
+      "eliminacion": "Renal, 60-70% inalterada por secreción tubular.",
+      "vida_media": "1-1,3 h (por eso la posología cada 8 h).",
+      "ajuste_renal": "FG 10-30: 500 mg/12 h. FG <10: 500 mg/24 h. Dializable — administrar tras la sesión de hemodiálisis.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Alopurinol",
+          "efecto": "Aumenta notablemente la incidencia de exantema maculopapular",
+          "gravedad": "baja",
+          "manejo": "Advertir al paciente; no obliga a suspender el alopurinol"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su aclaramiento renal y eleva su toxicidad hematológica y mucosa",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación o vigilar niveles y hemograma"
+        },
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Reducción teórica de la eficacia por alteración de la flora intestinal; la evidencia real es débil salvo si hay diarrea o vómitos",
+          "gravedad": "baja",
+          "manejo": "Método adicional solo si aparece diarrea o vómitos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas",
+        "Exantema maculopapular tardío (no mediado por IgE)",
+        "Candidiasis vaginal u oral"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Colitis por Clostridioides difficile",
+        "Nefritis intersticial aguda",
+        "Hepatitis colestásica (más frecuente con la asociación a clavulánico que con amoxicilina sola)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a betalactámicos mediada por IgE",
+      "Mononucleosis infecciosa: produce exantema en el 80-100% de los casos (no es alergia, pero conviene evitarla)"
+    ],
+    "perlas": [
+      "El exantema de la amoxicilina en la mononucleosis infecciosa NO es una alergia y no etiqueta al paciente como alérgico de por vida: es un fenómeno inmunológico transitorio ligado a la infección por VEB.",
+      "En neumococo con sensibilidad intermedia, la solución no es cambiar de familia sino subir la dosis: el efecto es tiempo-dependiente y la dosis alta prolonga el tiempo por encima de la CMI.",
+      "Su biodisponibilidad oral muy superior a la de ampicilina hace que ampicilina oral esté prácticamente obsoleta; ampicilina se reserva para la vía IV (Listeria, Enterococcus).",
+      "Es el único betalactámico oral con actividad útil frente a Listeria y Enterococcus faecalis."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo y compatible con la lactancia. Es uno de los antibióticos de primera elección en gestantes.",
+    "micro_relacionado": [
+      "ANA-actinomyces-israelii",
+      "ATI-borrelia-burgdorferi",
+      "BGN-haemophilus-influenzae",
+      "BGN-helicobacter-pylori",
+      "BGP-enterococcus",
+      "BGP-listeria-monocytogenes",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de neumonía"
+  },
+  {
+    "id": "INF-amoxicilina-clavulanico",
+    "nombre": "Amoxicilina-clavulánico",
+    "sinonimos": [
+      "Coamoxiclav"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — aminopenicilina + inhibidor de betalactamasas",
+    "subclase": "Espectro ampliado a productores de betalactamasa y anaerobios",
+    "mecanismo": "La amoxicilina inhibe las PBP; el ácido clavulánico es un betalactámico sin actividad antibiótica propia relevante que actúa como inhibidor suicida de las betalactamasas de clase A, protegiendo a la amoxicilina de su hidrólisis. El clavulánico NO inhibe las betalactamasas de tipo AmpC ni las carbapenemasas.",
+    "espectro": "Todo lo de amoxicilina más: Staphylococcus aureus sensible a meticilina, Haemophilus influenzae y Moraxella productores de betalactamasa, E. coli y Klebsiella no BLEE, anaerobios (Bacteroides fragilis, flora oral). NO cubre SARM, NO cubre Pseudomonas, NO cubre BLEE ni AmpC, NO cubre atípicas (Mycoplasma, Legionella, Chlamydia).",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía adquirida en la comunidad con comorbilidad o riesgo de aspiración",
+        "dosis": "875/125 mg/8 h o 2000/125 mg/12 h (formulación retard)",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Asociar macrólido si se sospecha atípica o si hay criterios de gravedad"
+      },
+      {
+        "patologia": "Exacerbación de EPOC con criterios de Anthonisen",
+        "dosis": "875/125 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Indicado si hay aumento de disnea, volumen y purulencia del esputo"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas / mordedura de perro, gato o humana",
+        "dosis": "875/125 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "De elección en mordeduras: cubre Pasteurella multocida, Eikenella corrodens, estafilococos y anaerobios orales"
+      },
+      {
+        "patologia": "Infección odontógena / absceso periapical",
+        "dosis": "875/125 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Cubre la flora mixta anaerobia oral"
+      },
+      {
+        "patologia": "Infección intraabdominal leve-moderada de origen comunitario",
+        "dosis": "1-2 g/200 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Alternativa a la asociación de una cefalosporina con metronidazol"
+      },
+      {
+        "patologia": "Sinusitis bacteriana aguda con fracaso previo de amoxicilina",
+        "dosis": "875/125 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Fracaso de amoxicilina sugiere productor de betalactamasa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el inicio, con las comidas para reducir la intolerancia digestiva.",
+      "titulacion": "No requiere titulación.",
+      "duracion": "5-7 días en infecciones respiratorias; 7-10 días en piel y partes blandas; 3-5 días de profilaxis en mordedura no infectada; 4-7 días en infección intraabdominal con control del foco adecuado.",
+      "fin": "Suspensión brusca al completar la pauta. Si a las 72 h no hay mejoría, replantear el diagnóstico y el foco antes de prolongar.",
+      "via": "VO o IV.",
+      "monitorizacion": "Transaminasas si el tratamiento supera los 10-14 días o hay hepatopatía previa."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el clavulánico se absorbe mejor con alimento, que además reduce las náuseas.",
+      "distribucion": "Similar a la de amoxicilina; buena en senos, oído, pulmón, piel y bilis.",
+      "metabolismo": "El clavulánico sí sufre metabolismo hepático apreciable, a diferencia de la amoxicilina.",
+      "eliminacion": "Renal para ambos componentes.",
+      "vida_media": "Amoxicilina 1-1,3 h; clavulánico 1 h.",
+      "ajuste_renal": "FG 10-30: 875/125 mg/12 h. FG <10: 500/125 mg/24 h. No usar la formulación retard de 2000/125 mg si FG <30.",
+      "ajuste_hepatico": "Usar con precaución; es la principal causa farmacológica de hepatitis colestásica en muchas series.",
+      "interacciones": [
+        {
+          "con": "Metotrexato",
+          "efecto": "Aumenta sus concentraciones y su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar o monitorizar estrechamente"
+        },
+        {
+          "con": "Alopurinol",
+          "efecto": "Aumenta el riesgo de exantema",
+          "gravedad": "baja",
+          "manejo": "Informar al paciente"
+        },
+        {
+          "con": "Anticoagulantes orales antivitamina K",
+          "efecto": "Puede prolongar el INR por alteración de la flora productora de vitamina K",
+          "gravedad": "media",
+          "manejo": "Controlar el INR a los 3-5 días de iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea (claramente más frecuente que con amoxicilina sola, por el clavulánico)",
+        "Náuseas y dolor abdominal",
+        "Exantema",
+        "Candidiasis"
+      ],
+      "graves": [
+        "Hepatitis colestásica, típicamente 1-6 semanas DESPUÉS de terminar el tratamiento, más frecuente en varones mayores de 55 años y con tratamientos repetidos",
+        "Colitis por C. difficile",
+        "Anafilaxia",
+        "Nefritis intersticial"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a betalactámicos",
+      "Antecedente de ictericia o disfunción hepática asociada previamente a amoxicilina-clavulánico (contraindicación absoluta de reexposición)"
+    ],
+    "perlas": [
+      "Su hepatotoxicidad colestásica puede aparecer semanas DESPUÉS de haber terminado el antibiótico: ante una colestasis de causa no clara, preguntar por antibióticos de los 2 meses previos.",
+      "Es el antibiótico de elección en mordeduras de todo tipo, porque es el único oral que cubre a la vez Pasteurella (perro/gato) y Eikenella (humana) junto con estafilococos y anaerobios.",
+      "El clavulánico no aporta nada frente al neumococo: si el objetivo es solo neumococo, amoxicilina a dosis alta es igual de eficaz y mejor tolerada.",
+      "La dosis de clavulánico se mantiene fija (125 mg) al subir la de amoxicilina, porque la diarrea es dosis-dependiente del clavulánico: por eso existen las presentaciones 875/125 y 2000/125."
+    ],
+    "embarazo_lactancia": "Aceptable en el embarazo. Evitar en la amenaza de parto pretérmino con rotura prematura de membranas por asociación con enterocolitis necrosante neonatal. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-moraxella-catarrhalis",
+      "BGN-proteus-mirabilis",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de infecciones de piel y partes blandas"
+  },
+  {
+    "id": "INF-cloxacilina",
+    "nombre": "Cloxacilina",
+    "sinonimos": [
+      "Flucloxacilina",
+      "Equivalente funcional de nafcilina/oxacilina"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — penicilina antiestafilocócica (isoxazolil-penicilina)",
+    "subclase": "Resistente a penicilinasa",
+    "mecanismo": "Inhibe las PBP como el resto de penicilinas, pero su cadena lateral voluminosa impide el acceso de la penicilinasa estafilocócica, por lo que conserva actividad frente a S. aureus productor de betalactamasa. La resistencia a meticilina (SARM) es por otro mecanismo distinto: la PBP2a codificada por mecA, con baja afinidad por todos los betalactámicos.",
+    "espectro": "Muy estrecho y dirigido: Staphylococcus aureus sensible a meticilina (SASM) y estreptococos. NO cubre SARM, NO cubre enterococos, NO cubre gramnegativos ni anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Bacteriemia y endocarditis por SASM",
+        "dosis": "2 g/4 h (12 g/día)",
+        "posologia": "Cada 4 h",
+        "via": "IV",
+        "nota": "Es superior a vancomicina en SASM: nunca usar vancomicina si el estafilococo es sensible a meticilina"
+      },
+      {
+        "patologia": "Celulitis y absceso cutáneo por S. aureus",
+        "dosis": "500 mg-1 g/6 h",
+        "posologia": "Cada 6 h",
+        "via": "VO",
+        "nota": "Tomar en ayunas: los alimentos reducen su absorción"
+      },
+      {
+        "patologia": "Artritis séptica y osteomielitis por SASM",
+        "dosis": "2 g/4-6 h",
+        "posologia": "Cada 4-6 h",
+        "via": "IV",
+        "nota": "Terapia secuencial a vía oral tras control del foco y mejoría clínica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena IV desde el inicio en infección grave; no requiere dosis de carga distinta.",
+      "titulacion": "No aplica.",
+      "duracion": "Bacteriemia no complicada por SASM: 14 días desde el primer hemocultivo negativo. Endocarditis sobre válvula nativa: 4-6 semanas. Osteomielitis: 4-6 semanas. Celulitis: 5-7 días.",
+      "fin": "Se completa el curso íntegro; en bacteriemia estafilocócica no se acorta por mejoría clínica, porque el riesgo de recaída y de foco metastásico es alto.",
+      "via": "IV en infección grave; VO en infección cutánea leve.",
+      "monitorizacion": "Hemocultivos de control a las 48-72 h en bacteriemia (obligatorios). Hemograma y transaminasas semanales en tratamientos prolongados. Función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral baja e irregular (~50%), reducida por los alimentos: administrar 1 h antes o 2 h después de comer.",
+      "distribucion": "Alta unión a proteínas (>90%). Mala penetración en LCR.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Mixta: biliar y renal — es la penicilina menos dependiente del riñón.",
+      "vida_media": "30-60 min.",
+      "ajuste_renal": "No precisa ajuste salvo en FG <10 combinado con hepatopatía, gracias a su eliminación biliar.",
+      "ajuste_hepatico": "Reducir dosis en hepatopatía grave; la flucloxacilina se asocia a colestasis.",
+      "interacciones": [
+        {
+          "con": "Warfarina / acenocumarol",
+          "efecto": "Reduce el efecto anticoagulante (inducción del metabolismo)",
+          "gravedad": "media",
+          "manejo": "Control estrecho del INR al iniciar y al suspender"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Aumenta sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas",
+        "Flebitis en el punto de infusión (frecuente con las dosis altas cada 4 h)",
+        "Exantema"
+      ],
+      "graves": [
+        "Hepatitis colestásica (sobre todo flucloxacilina, en mayores y tratamientos >2 semanas)",
+        "Nefritis intersticial aguda",
+        "Neutropenia con tratamientos prolongados a dosis altas",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a betalactámicos",
+      "SARM confirmado o alta sospecha (es intrínsecamente inactiva)"
+    ],
+    "perlas": [
+      "En bacteriemia por S. aureus sensible a meticilina, cloxacilina es MEJOR que vancomicina: cambiar de vancomicina empírica a cloxacilina en cuanto llega el antibiograma reduce la mortalidad.",
+      "Su eliminación biliar hace que sea uno de los pocos antibióticos que no precisa ajuste en insuficiencia renal — útil en el paciente nefrópata con infección estafilocócica.",
+      "Necesita una posología cada 4 horas (12 g/día en endocarditis), lo que en la práctica obliga a perfusión continua o a bomba: es un factor logístico real al decidir el alta con tratamiento domiciliario.",
+      "La sensibilidad a cloxacilina se predice con el disco de cefoxitina en el antibiograma, no con un disco de cloxacilina."
+    ],
+    "embarazo_lactancia": "Aceptable en el embarazo. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus",
+      "BGP-staphylococcus-epidermidis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones estafilocócicas"
+  },
+  {
+    "id": "INF-piperacilina-tazobactam",
+    "nombre": "Piperacilina-tazobactam",
+    "sinonimos": [
+      "Pip-tazo"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — ureidopenicilina + inhibidor de betalactamasas",
+    "subclase": "Antipseudomónico de amplio espectro",
+    "mecanismo": "La piperacilina es una ureidopenicilina que atraviesa bien las porinas de gramnegativos y se une a las PBP; el tazobactam inhibe las betalactamasas de clase A, restaurando la actividad frente a productores de penicilinasa. Bactericida tiempo-dependiente: su eficacia depende del tiempo por encima de la CMI, de ahí la perfusión extendida.",
+    "espectro": "Muy amplio: grampositivos (SASM, estreptococos, Enterococcus faecalis), gramnegativos incluidos Pseudomonas aeruginosa y enterobacterias, y anaerobios (Bacteroides fragilis). NO cubre SARM, NO cubre atípicas, NO es fiable frente a BLEE ni AmpC desreprimida.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía nosocomial o asociada a ventilación mecánica",
+        "dosis": "4/0,5 g/6-8 h",
+        "posologia": "Cada 6-8 h, en perfusión extendida de 3-4 h",
+        "via": "IV",
+        "nota": "Asociar cobertura de SARM si hay factores de riesgo"
+      },
+      {
+        "patologia": "Neutropenia febril de alto riesgo",
+        "dosis": "4/0,5 g/6 h",
+        "posologia": "Cada 6 h",
+        "via": "IV",
+        "nota": "Monoterapia empírica de elección junto a cefepima y meropenem"
+      },
+      {
+        "patologia": "Infección intraabdominal complicada / peritonitis secundaria",
+        "dosis": "4/0,5 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Cubre por sí sola la flora mixta: no precisa añadir metronidazol"
+      },
+      {
+        "patologia": "Pie diabético infectado grave",
+        "dosis": "4/0,5 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Cubre grampositivos, gramnegativos y anaerobios simultáneamente"
+      },
+      {
+        "patologia": "Sepsis de origen urinario o abdominal en paciente con factores de riesgo de Pseudomonas",
+        "dosis": "4/0,5 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Desescalar en cuanto se disponga del antibiograma"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga de 4/0,5 g en la primera hora y, a continuación, perfusión extendida de 3-4 h cada 8 h, que maximiza el tiempo por encima de la CMI.",
+      "titulacion": "No aplica; lo que se ajusta es la duración de la perfusión, no la dosis.",
+      "duracion": "7 días en la mayoría de infecciones nosocomiales con control del foco; 4-7 días en infección intraabdominal drenada; hasta la resolución de la neutropenia en el neutropénico febril.",
+      "fin": "Desescalada dirigida por el antibiograma en cuanto esté disponible (a las 48-72 h): mantener un antipseudomónico de amplio espectro sin justificación microbiológica es el principal generador de resistencias.",
+      "via": "IV exclusivamente.",
+      "monitorizacion": "Función renal y hemograma (neutropenia con tratamientos >2 semanas). Vigilar la creatinina si se asocia a vancomicina."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe por vía oral; solo IV.",
+      "distribucion": "Buena en pulmón, peritoneo, bilis y tejidos blandos. Escasa en LCR.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal, mayoritariamente inalterado.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG 20-40: 4/0,5 g/8 h. FG <20: 4/0,5 g/12 h. Hemodiálisis: dosis extra tras la sesión.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Vancomicina",
+          "efecto": "La asociación multiplica el riesgo de fracaso renal agudo respecto a cada fármaco por separado",
+          "gravedad": "alta",
+          "manejo": "Si es posible, sustituir por cefepima o meropenem; si no, vigilar la creatinina a diario"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce su aclaramiento y eleva su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación"
+        },
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Inactivación in vitro si se mezclan en la misma vía",
+          "gravedad": "media",
+          "manejo": "No mezclar en la misma línea; administrar por separado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas",
+        "Exantema",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Fracaso renal agudo, especialmente asociado a vancomicina",
+        "Colitis por C. difficile",
+        "Neutropenia y trombocitopenia en tratamientos prolongados",
+        "Encefalopatía y crisis convulsivas por acumulación en insuficiencia renal no ajustada",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a betalactámicos",
+      "No usar como tratamiento definitivo de bacteriemia por BLEE (aunque el antibiograma parezca sensible, el resultado clínico es peor que con carbapenem)"
+    ],
+    "perlas": [
+      "La asociación piperacilina-tazobactam + vancomicina es una de las combinaciones nefrotóxicas más relevantes de la práctica hospitalaria: si necesitas cobertura de SARM y de Pseudomonas, valorar cefepima o meropenem con la vancomicina en lugar de pip-tazo.",
+      "Cubre anaerobios por sí sola: añadirle metronidazol es un error frecuente y solo aporta toxicidad.",
+      "La perfusión extendida de 3-4 horas no es un capricho: en un betalactámico tiempo-dependiente frente a Pseudomonas mejora de forma medible los resultados clínicos.",
+      "Puede dar falsos positivos del galactomanano sérico (antígeno de Aspergillus) — un clásico error diagnóstico en el paciente neutropénico."
+    ],
+    "embarazo_lactancia": "Aceptable si está indicado. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-enterococcus",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de sepsis y shock séptico"
+  },
+  {
+    "id": "INF-cefazolina",
+    "nombre": "Cefazolina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 1.ª generación",
+    "subclase": "Antiestafilocócica parenteral",
+    "mecanismo": "Se une a las PBP e inhibe la síntesis de la pared. Las cefalosporinas de 1.ª generación son estables frente a la penicilinasa estafilocócica pero muy sensibles a las betalactamasas de gramnegativos.",
+    "espectro": "Excelente frente a SASM y estreptococos; actividad limitada frente a los tres gramnegativos clásicos «PEK» (Proteus mirabilis, E. coli, Klebsiella). NO cubre SARM, NO cubre enterococos, NO cubre Haemophilus, NO cubre anaerobios ni Pseudomonas, NO atraviesa la barrera hematoencefálica.",
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis quirúrgica (cirugía limpia, cardiaca, ortopédica, vascular)",
+        "dosis": "2 g (3 g si >120 kg)",
+        "posologia": "Dosis única 30-60 min antes de la incisión; redosificar a las 4 h si la cirugía se prolonga",
+        "via": "IV",
+        "nota": "Es la profilaxis quirúrgica estándar por su vida media y su cobertura estafilocócica"
+      },
+      {
+        "patologia": "Bacteriemia y endocarditis por SASM (alternativa a cloxacilina)",
+        "dosis": "2 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Mejor tolerada que cloxacilina y con posología más cómoda"
+      },
+      {
+        "patologia": "Celulitis y otras infecciones de piel y partes blandas",
+        "dosis": "1-2 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Terapia secuencial a cefalexina oral"
+      },
+      {
+        "patologia": "Profilaxis intraparto de Streptococcus agalactiae en alérgicas a penicilina de bajo riesgo",
+        "dosis": "2 g de carga y luego 1 g/8 h",
+        "posologia": "Hasta el parto",
+        "via": "IV",
+        "nota": "Solo si la alergia no es anafiláctica"
+      }
+    ],
+    "esquema": {
+      "inicio": "En profilaxis quirúrgica, la dosis debe estar infundida en los 60 minutos previos a la incisión — administrarla después no previene nada.",
+      "titulacion": "No aplica.",
+      "duracion": "Profilaxis quirúrgica: dosis única (no prolongar más allá de 24 h, ni siquiera con drenajes). Bacteriemia por SASM: 14 días. Endocarditis: 6 semanas.",
+      "fin": "En profilaxis, se termina en el quirófano. Prolongar la profilaxis quirúrgica no reduce la infección de herida y sí aumenta las resistencias y el C. difficile.",
+      "via": "IV o IM.",
+      "monitorizacion": "Función renal. Hemocultivos de control en bacteriemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe por vía oral (el equivalente oral es cefalexina).",
+      "distribucion": "Buena en hueso, tejidos blandos y líquido sinovial. NO atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Nulo.",
+      "eliminacion": "Renal, inalterada.",
+      "vida_media": "1,8-2 h (la más larga de las cefalosporinas de 1.ª generación, lo que permite dosificar cada 8 h y hace innecesaria la redosificación en cirugías cortas).",
+      "ajuste_renal": "FG 11-34: 1 g/12 h. FG <10: 1 g/24 h. Dializable.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Aumenta sus concentraciones al bloquear la secreción tubular",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia práctica actual"
+        },
+        {
+          "con": "Anticoagulantes orales",
+          "efecto": "Posible potenciación del efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis",
+        "Diarrea",
+        "Exantema",
+        "Elevación transitoria de transaminasas"
+      ],
+      "graves": [
+        "Colitis por C. difficile",
+        "Anafilaxia",
+        "Nefritis intersticial",
+        "Crisis convulsivas por acumulación en insuficiencia renal no ajustada",
+        "Anemia hemolítica inmune (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Antecedente de anafilaxia a penicilina (aunque la reactividad cruzada real con cefazolina es <1% por su cadena lateral única, se evita en la alergia grave documentada)",
+      "Infección del SNC (no penetra en LCR)"
+    ],
+    "perlas": [
+      "Cefazolina tiene una cadena lateral distinta a la de todas las demás cefalosporinas y a la de la penicilina: la reactividad cruzada es prácticamente nula, y por eso es la cefalosporina de elección en la mayoría de pacientes etiquetados como alérgicos a penicilina no anafilácticos.",
+      "En profilaxis quirúrgica el error más frecuente no es elegir mal el antibiótico, sino administrarlo tarde (tras la incisión) o prolongarlo días después de la cirugía.",
+      "Es el único de su grupo con vida media suficiente para dosificar cada 8 h — cefalotina y cefapirina quedaron obsoletas por esto.",
+      "Regla mnemotécnica del espectro de 1.ª generación en gramnegativos: PEK (Proteus mirabilis, E. coli, Klebsiella)."
+    ],
+    "embarazo_lactancia": "Segura en el embarazo y compatible con la lactancia.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-proteus-mirabilis",
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-agalactiae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de profilaxis quirúrgica"
+  },
+  {
+    "id": "INF-ceftriaxona",
+    "nombre": "Ceftriaxona",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Betalactámico — cefalosporina de 3.ª generación",
+    "subclase": "Larga vida media, eliminación mixta",
+    "vs_clase": [
+      "**Vida media larga (8 h) y eliminación mixta biliar-renal**: **UNA dosis diaria y sin ajuste renal**.",
+      "**De elección en meningitis bacteriana empírica, gonococo, NAC hospitalaria y pielonefritis**; buen paso a LCR.",
+      "**NO cubre Pseudomonas** (la ceftazidima sí), ni Listeria ni enterococo.",
+      "**Barro biliar (pseudolitiasis)** y **precipitación con calcio IV en neonatos**."
+    ],
+    "mecanismo": "Inhibe las PBP. Las cefalosporinas de 3.ª generación son mucho más estables frente a las betalactamasas de gramnegativos y penetran mejor la membrana externa, a costa de perder actividad frente a estafilococos respecto a la 1.ª generación.",
+    "espectro": "Enterobacterias no productoras de BLEE/AmpC, Neisseria meningitidis, Neisseria gonorrhoeae, Haemophilus influenzae, Streptococcus pneumoniae (incluidas cepas con sensibilidad disminuida a penicilina), Borrelia, Treponema, Salmonella. NO cubre Pseudomonas (a diferencia de ceftazidima), NO cubre enterococos ni Listeria, NO cubre SARM, NO cubre anaerobios, NO cubre atípicas.",
+    "indicaciones": [
+      {
+        "patologia": "Meningitis bacteriana adquirida en la comunidad (empírico)",
+        "dosis": "2 g/12 h",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "Asociar vancomicina, dexametasona y, si >50 años o inmunodepresión, ampicilina para cubrir Listeria"
+      },
+      {
+        "patologia": "Neumonía adquirida en la comunidad que requiere ingreso",
+        "dosis": "1-2 g/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Asociar siempre un macrólido o usar levofloxacino para cubrir atípicas"
+      },
+      {
+        "patologia": "Pielonefritis aguda / infección urinaria complicada",
+        "dosis": "1-2 g/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV o IM",
+        "nota": "Permite tratamiento ambulatorio en dosis única diaria"
+      },
+      {
+        "patologia": "Gonococia no complicada",
+        "dosis": "500 mg (1 g si >150 kg)",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "nota": "Añadir doxiciclina 100 mg/12 h 7 días si no se ha descartado Chlamydia"
+      },
+      {
+        "patologia": "Peritonitis bacteriana espontánea",
+        "dosis": "2 g/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Asociar albúmina IV los días 1 y 3 para prevenir el síndrome hepatorrenal"
+      },
+      {
+        "patologia": "Neuroborreliosis de Lyme",
+        "dosis": "2 g/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "14-21 días"
+      },
+      {
+        "patologia": "Endocarditis por estreptococo del grupo viridans sensible",
+        "dosis": "2 g/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "4 semanas, o 2 semanas asociado a gentamicina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena inmediata. En sospecha de meningitis, la primera dosis debe administrarse en la primera hora, antes de la TC si esta retrasa el tratamiento; los hemocultivos se extraen antes, pero nunca se retrasa el antibiótico.",
+      "titulacion": "No aplica. En meningitis se emplea directamente la dosis alta (2 g/12 h) por la barrera hematoencefálica.",
+      "duracion": "Meningitis meningocócica 5-7 días, neumocócica 10-14 días. NAC 5-7 días. Pielonefritis 7 días. Gonococia dosis única. Endocarditis 4 semanas.",
+      "fin": "Suspensión brusca al completar el curso. En NAC, la desescalada a vía oral se hace cuando el paciente lleva 48 h afebril y estable hemodinámicamente.",
+      "via": "IV o IM (la IM es dolorosa: reconstituir con lidocaína al 1%, que nunca debe administrarse IV).",
+      "monitorizacion": "Ecografía abdominal si aparece dolor en hipocondrio derecho (pseudolitiasis biliar). Hemograma en tratamientos prolongados."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe por vía oral.",
+      "distribucion": "Excelente penetración en LCR con meninges inflamadas — es la razón de su papel en meningitis. Alta unión a proteínas (85-95%).",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Mixta y singular: 60% renal y 40% biliar. Esa doble vía es la razón de que no requiera ajuste renal.",
+      "vida_media": "6-9 h — la más larga de las cefalosporinas, lo que permite la dosis única diaria.",
+      "ajuste_renal": "No precisa ajuste hasta FG <10; incluso entonces basta con no superar 2 g/día. Es la cefalosporina de elección en el paciente con insuficiencia renal.",
+      "ajuste_hepatico": "Precaución si coexisten insuficiencia hepática y renal graves: no superar 2 g/día.",
+      "interacciones": [
+        {
+          "con": "Soluciones y fármacos con calcio (Ringer lactato, nutrición parenteral con calcio)",
+          "efecto": "Precipitación de sales de ceftriaxona-calcio; en neonatos ha causado embolias pulmonares y renales mortales",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO en neonatos <28 días que reciban calcio IV. En adultos, no administrar por la misma vía; separar las infusiones y lavar la vía"
+        },
+        {
+          "con": "Anticoagulantes orales",
+          "efecto": "Puede prolongar el INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Exantema",
+        "Flebitis",
+        "Elevación de transaminasas",
+        "Dolor en la inyección IM"
+      ],
+      "graves": [
+        "Pseudolitiasis biliar (barro biliar por precipitación de la sal cálcica), sobre todo con dosis altas y prolongadas; suele ser reversible al suspender",
+        "Colitis por C. difficile (es uno de los antibióticos con mayor riesgo)",
+        "Anemia hemolítica inmune",
+        "Kernícterus en el neonato por desplazamiento de la bilirrubina de la albúmina",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Neonatos con hiperbilirrubinemia (riesgo de kernícterus)",
+      "Neonatos <28 días que precisen soluciones IV con calcio"
+    ],
+    "perlas": [
+      "Es la cefalosporina de 3.ª generación que NO cubre Pseudomonas: si el paciente tiene riesgo de Pseudomonas, hay que ir a ceftazidima, cefepima, pip-tazo o carbapenem.",
+      "Su doble eliminación renal y biliar la convierte en el betalactámico más cómodo en insuficiencia renal: una dosis al día, sin ajuste.",
+      "El binomio ceftriaxona + calcio IV en el neonato es una contraindicación absoluta con muertes documentadas por precipitación intravascular — comprobar siempre las sueroterapias concurrentes.",
+      "Su altísima presión selectiva la hace la principal responsable hospitalaria de selección de BLEE y de C. difficile: no usarla «por comodidad» de la dosis única cuando bastaría un espectro más estrecho.",
+      "En la gonococia la dosis se ha ido subiendo con los años (de 250 a 500 mg) por el aumento de las CMI: comprobar siempre la recomendación vigente."
+    ],
+    "embarazo_lactancia": "Segura en el embarazo; es de elección para la gonococia en gestantes. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ATI-borrelia-burgdorferi",
+      "ATI-leptospira",
+      "ATI-treponema-pallidum",
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-neisseria-gonorrhoeae",
+      "BGN-neisseria-meningitidis",
+      "BGN-proteus-mirabilis",
+      "BGN-salmonella",
+      "BGN-shigella",
+      "BGN-vibrio",
+      "BGP-streptococcus-pneumoniae"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., caps. de meningitis aguda y neumonía"
+  },
+  {
+    "id": "INF-cefepima",
+    "nombre": "Cefepima",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporina de 4.ª generación",
+    "subclase": "Antipseudomónica, estable frente a AmpC",
+    "mecanismo": "Zwitterión que atraviesa las porinas de gramnegativos con especial rapidez y tiene baja afinidad por las betalactamasas cromosómicas de tipo AmpC, lo que le permite mantener actividad frente a Enterobacter, Serratia y Citrobacter, donde las cefalosporinas de 3.ª generación fracasan por desrepresión de AmpC.",
+    "espectro": "Amplio: Pseudomonas aeruginosa, enterobacterias incluidas las AmpC (grupo Enterobacter/Serratia/Citrobacter), neumococo y SASM. NO cubre SARM, NO cubre enterococos, NO cubre anaerobios, NO es fiable frente a BLEE.",
+    "indicaciones": [
+      {
+        "patologia": "Neutropenia febril de alto riesgo",
+        "dosis": "2 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Monoterapia empírica de elección"
+      },
+      {
+        "patologia": "Neumonía nosocomial / asociada a ventilación mecánica",
+        "dosis": "2 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Perfusión extendida de 3 h si hay CMI elevada"
+      },
+      {
+        "patologia": "Infección grave por Enterobacter, Serratia o Citrobacter",
+        "dosis": "2 g/8-12 h",
+        "posologia": "Cada 8-12 h",
+        "via": "IV",
+        "nota": "Preferible a ceftriaxona: evita el fracaso por desrepresión de AmpC durante el tratamiento"
+      },
+      {
+        "patologia": "Infección urinaria complicada por gramnegativo multirresistente sensible",
+        "dosis": "2 g/12 h",
+        "posologia": "Cada 12 h",
+        "via": "IV",
+        "nota": "Desescalar según antibiograma"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena; en el paciente crítico, considerar dosis de carga y después perfusión extendida.",
+      "titulacion": "No aplica.",
+      "duracion": "7 días en neumonía nosocomial con buena evolución; hasta la resolución de la neutropenia en el neutropénico febril.",
+      "fin": "Desescalada guiada por cultivo a las 48-72 h. Suspensión brusca.",
+      "via": "IV.",
+      "monitorizacion": "Función renal a diario (el ajuste es crítico: la neurotoxicidad aparece por infradosificar el ajuste renal). Nivel de conciencia — vigilar aparición de mioclonías o confusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "No oral.",
+      "distribucion": "Buena, incluida penetración en LCR con meninges inflamadas.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal casi exclusiva.",
+      "vida_media": "2 h; se prolonga mucho en insuficiencia renal.",
+      "ajuste_renal": "Imprescindible. FG 30-60: 2 g/12 h. FG 11-29: 2 g/24 h. FG <11: 1 g/24 h. El fallo en ajustar es la causa habitual de la encefalopatía.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Suma de nefrotoxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilar función renal y niveles del aminoglucósido"
+        },
+        {
+          "con": "Furosemida a dosis altas",
+          "efecto": "Aumento del riesgo nefrotóxico",
+          "gravedad": "baja",
+          "manejo": "Vigilar creatinina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Exantema",
+        "Flebitis",
+        "Elevación de transaminasas",
+        "Prueba de Coombs directa positiva sin hemólisis"
+      ],
+      "graves": [
+        "Encefalopatía por cefepima: confusión, mioclonías, estado epiléptico no convulsivo — casi siempre por dosis no ajustada a la función renal, y reversible al suspender",
+        "Colitis por C. difficile",
+        "Anafilaxia",
+        "Neutropenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a cefalosporinas",
+      "Precaución extrema en insuficiencia renal sin ajuste de dosis"
+    ],
+    "perlas": [
+      "La encefalopatía por cefepima es un diagnóstico clínico que se pasa por alto con frecuencia: paciente séptico, con insuficiencia renal, que se pone confuso o con mioclonías y al que se atribuye a «encefalopatía séptica». El EEG puede mostrar estado epiléptico no convulsivo y todo revierte al retirar el fármaco.",
+      "Es la alternativa correcta a piperacilina-tazobactam cuando hay que asociar vancomicina, porque no comparte con ella el riesgo aditivo de fracaso renal.",
+      "Frente a Enterobacter/Serratia/Citrobacter, usar ceftriaxona puede llevar a fracaso terapéutico durante el propio tratamiento por selección de mutantes AmpC desreprimidas: cefepima evita ese problema.",
+      "Es «antipseudomónica» pero NO cubre anaerobios: en la infección intraabdominal hay que asociarle metronidazol."
+    ],
+    "embarazo_lactancia": "Aceptable si está indicada. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-pseudomonas-aeruginosa"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de infecciones en el paciente neutropénico"
+  },
+  {
+    "id": "INF-meropenem",
+    "nombre": "Meropenem",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — carbapenem",
+    "subclase": "Antipseudomónico de máximo espectro",
+    "vs_clase": [
+      "**El carbapenem ANTIPSEUDOMÓNICO de referencia**, de elección en infecciones nosocomiales graves y por BLEE con riesgo de Pseudomonas.",
+      "**Menor riesgo de convulsiones que imipenem**: el carbapenem para la meningitis.",
+      "**Baja drásticamente los niveles de VALPROATO** (crisis).",
+      "Perfusión extendida de 3 h en infecciones graves (tiempo-dependiente)."
+    ],
+    "mecanismo": "Se une con muy alta afinidad a la PBP2 y PBP3 y es extraordinariamente estable frente a casi todas las betalactamasas, incluidas BLEE y AmpC. Solo lo hidrolizan las carbapenemasas (KPC, OXA-48, metalobetalactamasas).",
+    "espectro": "El más amplio de los betalactámicos: grampositivos (salvo SARM y E. faecium), prácticamente todas las enterobacterias incluidas BLEE y AmpC, Pseudomonas aeruginosa, Acinetobacter y todos los anaerobios. NO cubre SARM, NO cubre Enterococcus faecium, NO cubre Stenotrophomonas, NO cubre atípicas.",
+    "indicaciones": [
+      {
+        "patologia": "Sepsis grave o shock séptico con riesgo de multirresistencia",
+        "dosis": "1-2 g/8 h",
+        "posologia": "Cada 8 h, en perfusión extendida de 3 h",
+        "via": "IV",
+        "nota": "Reservado a pacientes con colonización previa por BLEE, ingreso prolongado o antibioterapia reciente"
+      },
+      {
+        "patologia": "Infección por enterobacteria productora de BLEE (bacteriemia, pielonefritis)",
+        "dosis": "1 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Es el tratamiento de referencia; superior a pip-tazo aunque el antibiograma de este sea sensible"
+      },
+      {
+        "patologia": "Meningitis nosocomial o posquirúrgica",
+        "dosis": "2 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "A diferencia de imipenem, meropenem no es proconvulsivante de forma relevante y sí puede usarse en meningitis"
+      },
+      {
+        "patologia": "Infección intraabdominal complicada grave",
+        "dosis": "1 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Cubre anaerobios: no asociar metronidazol"
+      },
+      {
+        "patologia": "Neutropenia febril con fracaso del tratamiento empírico inicial",
+        "dosis": "1 g/8 h",
+        "posologia": "Cada 8 h",
+        "via": "IV",
+        "nota": "Valorar añadir antifúngico si la fiebre persiste >4-7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena inmediata en el paciente séptico; primera dosis en la primera hora del reconocimiento del shock séptico.",
+      "titulacion": "No aplica; se optimiza mediante perfusión extendida de 3 h, no subiendo la dosis puntual.",
+      "duracion": "7 días es suficiente en la mayoría de infecciones nosocomiales con control del foco; 10-14 días en bacteriemia por BLEE; 21 días en meningitis por gramnegativo.",
+      "fin": "Desescalada obligatoria a las 48-72 h según cultivo. Mantener un carbapenem sin justificación microbiológica es el principal motor de aparición de carbapenemasas en un hospital.",
+      "via": "IV.",
+      "monitorizacion": "Función renal, hemograma. Valorar niveles en el paciente crítico con aclaramiento aumentado."
+    },
+    "farmacocinetica": {
+      "absorcion": "No oral.",
+      "distribucion": "Muy amplia, incluida buena penetración en LCR con meninges inflamadas.",
+      "metabolismo": "Hidrólisis por la dehidropeptidasa-1 renal, pero mucho menor que la de imipenem: por eso meropenem no necesita cilastatina.",
+      "eliminacion": "Renal.",
+      "vida_media": "1 h.",
+      "ajuste_renal": "FG 26-50: 1 g/12 h. FG 10-25: 500 mg/12 h. FG <10: 500 mg/24 h.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Ácido valproico",
+          "efecto": "Reduce las concentraciones de valproato hasta un 60-90% en 24-48 h, con riesgo real de crisis convulsivas",
+          "gravedad": "alta",
+          "manejo": "Interacción clínicamente crítica: evitar la asociación; si es inevitable, cambiar de antiepiléptico, no basta con subir la dosis de valproato"
+        },
+        {
+          "con": "Probenecid",
+          "efecto": "Aumenta las concentraciones de meropenem",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia práctica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas",
+        "Exantema",
+        "Flebitis",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Colitis por C. difficile",
+        "Crisis convulsivas (mucho menos frecuentes que con imipenem; sobre todo si hay insuficiencia renal o patología del SNC)",
+        "Anafilaxia",
+        "Trombocitopenia y neutropenia",
+        "Selección de bacterias productoras de carbapenemasa"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a carbapenemes o anafilaxia previa a betalactámicos",
+      "Uso empírico rutinario sin factores de riesgo de multirresistencia (contraindicación ecológica, no farmacológica)"
+    ],
+    "perlas": [
+      "La interacción meropenem-valproato es una de las pocas interacciones antibióticas capaces de provocar un estatus epiléptico: en el paciente epiléptico tratado con valproato que necesita un carbapenem, hay que cambiar el antiepiléptico.",
+      "A diferencia de imipenem, meropenem sí puede usarse en meningitis: imipenem tiene un umbral convulsivo mucho más bajo.",
+      "No cubre SARM, E. faecium ni Stenotrophomonas: la idea de que «el meropenem cubre todo» es falsa y causa fracasos terapéuticos concretos.",
+      "Cuando el antibiograma de una BLEE informa pip-tazo como sensible, el resultado clínico en bacteriemia sigue siendo peor que con carbapenem (ensayo MERINO): la sensibilidad in vitro no sustituye a la evidencia clínica."
+    ],
+    "embarazo_lactancia": "Aceptable si está indicado. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "ANA-bacteroides-fragilis",
+      "BGN-acinetobacter-baumannii",
+      "BGN-enterobacter",
+      "BGN-escherichia-coli",
+      "BGN-klebsiella-pneumoniae",
+      "BGN-neisseria-meningitidis",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-listeria-monocytogenes",
+      "BGP-nocardia",
+      "MYC-micobacterias-crecimiento-rapido"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; Harrison 20.ª ed., cap. de sepsis"
+  }
+]

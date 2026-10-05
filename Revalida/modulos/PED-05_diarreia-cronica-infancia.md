@@ -1,0 +1,287 @@
+## 0. CABEÇALHO
+
+**Código:** PED-05 · **Especialidade:** Pediatria · **Tema:** Diarreia crônica na infância · **Assunto:** Diagnóstico e conduta da intolerância à lactose na criança pequena · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 4 (2011.1-Q71, 2013.1-Q97, 2011.1-Q71, 2012.1-Q11) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 80 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29 (ampliado em 2026-08-13)
+
+📋 **Nota de consolidação:** os candidatos `PED-42` ("Diarreia/enteropatias na infância") e `PED-43` ("Enteropatia ambiental") foram identificados como o mesmo domínio central deste módulo — o diferencial de diarreia crônica/recorrente na infância que este módulo já organiza em tabela. Ambos incorporados como notas de texto corrido na seção 3 (nenhum dos dois tem alternativas suficientes para virar card interativo), acrescentando 2 entidades novas à tabela diferencial: **enteropatia infecciosa aguda** e **enteropatia ambiental**.
+
+---
+
+## 1. TEORIA
+
+Diarreia crônica/persistente na infância (geralmente definida como episódio com duração ≥14 dias) tem múltiplas causas, mas o Revalida foca fortemente na diferenciação diagnóstica por meio de **exames simples de fezes** e no reconhecimento do quadro clínico típico de **intolerância à lactose**, secundária a lesão da borda em escova intestinal (deficiência transitória de lactase).
+
+**Fisiopatologia da intolerância à lactose (mecanismo mais cobrado):** a lactase é uma enzima da borda em escova do enterócito, particularmente vulnerável a lesão da mucosa intestinal. Após um episódio de diarreia aguda (infecciosa, por exemplo), pode haver **deficiência secundária/transitória de lactase**, levando a má absorção de lactose — o açúcar não digerido é fermentado no cólon, gerando ácidos graxos de cadeia curta e gases, o que causa o quadro clínico característico.
+
+**Quadro clínico clássico [CONSENSO]:**
+- Diarreia **explosiva**, frequentemente **logo após a ingestão de alimentos** (leite/derivados).
+- Fezes ácidas e irritantes → **assadura/dermatite perianal** (eritema de fralda) é achado de apoio frequente.
+- Distensão abdominal, flatulência, cólicas.
+- Pode haver desidratação nos casos mais intensos, mas frequentemente sem perda de peso significativa se a criança compensa a ingestão calórica de outras formas.
+
+**Exames diagnósticos simples e muito cobrados [CONSENSO]:**
+- **Substâncias redutoras nas fezes positivas** — detecta açúcares não absorvidos (lactose e outros carboidratos) na luz intestinal.
+- **pH fecal <5,5** (fezes ácidas) — resultado da fermentação bacteriana dos carboidratos não absorvidos, gerando ácidos graxos de cadeia curta.
+- A combinação **substâncias redutoras positivas + pH fecal ácido** é o padrão-ouro clínico/laboratorial simples para apontar má absorção de carboidratos (tipicamente lactose) como causa da diarreia crônica.
+
+**Tratamento:** dieta isenta de lactose (ou com baixo teor de lactose) — na maioria dos casos de deficiência secundária, é transitória, e a lactose pode ser reintroduzida gradualmente após a recuperação da mucosa intestinal (semanas a poucos meses).
+
+**Diferenciação com outras causas de diarreia crônica (a prova gosta de contrastar):**
+| Causa | Achado diferencial | Conduta |
+|---|---|---|
+| Intolerância à lactose (secundária) | Substâncias redutoras+, pH fecal ácido, relação temporal com laticínios | Dieta isenta de lactose |
+| Doença celíaca | Diarreia com esteatorreia, relação com glúten, sorologia específica (antitransglutaminase) | Dieta isenta de glúten |
+| Alergia à proteína do leite de vaca (APLV) | Pode ter sangue nas fezes, outras manifestações alérgicas associadas | Dieta isenta de proteína do leite de vaca |
+| Fibrose cística | Esteatorreia, história respiratória associada, teste do suor | Reposição enzimática (enzimas pancreáticas) |
+| Parasitose intestinal | Exame parasitológico de fezes positivo | Antiparasitário específico |
+| Enteropatia infecciosa aguda (persistente) | Diarreia aguda que não resolve, episódio ainda dentro de contexto infeccioso claro | Coprocultura + antibiótico dirigido (ver nota na seção 3) |
+| Enteropatia ambiental | Diarreia recorrente/crônica em criança de área de saneamento precário (assentamentos, zona rural vulnerável), episódios repetidos ao longo do ano, desmame precoce para leite de vaca, sem os marcadores específicos de APLV/celíaca | Parasitológico de fezes + tratamento antiparasitário dirigido + melhoria de saneamento/higiene (ver nota na seção 3) |
+
+**Enteropatia ambiental (entidade adicional, menos citada mas cobrada) [CONSENSO, com nuance]:** também chamada de "disfunção entérica ambiental", é uma condição subclínica de inflamação crônica da mucosa intestinal decorrente de exposição repetida a patógenos entéricos em ambientes de saneamento precário (água/alimentos contaminados, contato com solo/fezes) — mesmo sem um único agente infeccioso identificável a cada episódio. Resulta em atrofia parcial de vilosidades, má absorção crônica de baixo grau, e é uma causa importante (e subdiagnosticada) de desnutrição crônica/baixa estatura em populações vulneráveis. Diferencia-se de uma parasitose única tratável porque o problema de fundo é a EXPOSIÇÃO AMBIENTAL repetida, não um único parasita — por isso a conduta inclui tanto tratamento antiparasitário dirigido ao que for identificado no momento quanto orientação sobre saneamento/higiene, sem a qual o quadro tende a recorrer.
+
+⚠️ **PEGADINHA DO INEP:** o candidato precisa reconhecer que o achado **"substâncias redutoras positivas + pH ácido"** aponta especificamente para **má absorção de carboidratos (lactose)**, não para infecção, parasitose, ou doença inflamatória — é um teste simples e direto que resolve a questão sem precisar de exames sofisticados.
+
+**Contexto de introdução de leite de vaca:** o quadro de intolerância à lactose secundária é particularmente comum quando há transição precoce do aleitamento materno exclusivo para fórmulas lácteas ou leite de vaca integral em pó, especialmente em lactentes pequenos cuja mucosa intestinal ainda está em maturação ou foi recentemente lesada por episódio infeccioso.
+
+### Referências
+1. Sociedade Brasileira de Pediatria. Manual de Diarreia Aguda e Crônica na Infância, edição vigente.
+2. ESPGHAN (European Society for Paediatric Gastroenterology, Hepatology and Nutrition) — Guidelines on Chronic Diarrhoea.
+3. Ministério da Saúde. Manual de Atenção à Saúde da Criança — Doenças Diarreicas, edição vigente.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece na UBS/ambulatório real:** criança com história de diarreia prolongada, muitas vezes com relato claro de piora após mamadeira/leite, dermatite de fralda persistente e distensão abdominal — o diagnóstico na atenção primária costuma ser clínico + exame simples de fezes (substâncias redutoras e pH), sem necessidade de exames sofisticados na maioria dos casos.
+
+**Sequência prática de raciocínio:**
+1. Caracterizar a diarreia (duração, relação temporal com alimentação, presença de sangue/muco, sinais de má absorção como distensão/flatulência).
+2. Avaliar estado nutricional e hidratação.
+3. Solicitar substâncias redutoras nas fezes e pH fecal — exames simples e de baixo custo, primeira linha para suspeita de má absorção de carboidratos.
+4. Se positivos e quadro compatível → dieta isenta de lactose como conduta inicial.
+5. Reavaliar resposta clínica e considerar reintrodução gradual de lactose após período de recuperação.
+
+**Erros que médicos cometem de verdade:**
+- Solicitar exames complexos (colonoscopia, exames sorológicos extensos) antes de tentar a abordagem simples (substâncias redutoras + pH fecal + prova terapêutica com dieta isenta de lactose).
+- Não associar a introdução recente de leite de vaca/fórmula à piora do quadro diarreico.
+- Confundir intolerância à lactose com alergia à proteína do leite de vaca (mecanismos e condutas diferentes, embora ambas envolvam produtos lácteos).
+
+**O que dizer aos pais:** explicar que a condição é geralmente transitória (a mucosa intestinal se recupera), orientar sobre leite/produtos isentos de lactose durante o período de tratamento, e explicar que a reintrodução gradual de lactose costuma ser possível depois de algumas semanas a meses.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Anamnese dirigida: relação temporal entre diarreia e ingestão de leite/derivados, características das fezes (explosivas, ácidas), presença de assadura, estado nutricional.
+- ✅ Solicitar corretamente substâncias redutoras nas fezes e pH fecal como exames de primeira linha.
+- ✅ Diferenciar de outras causas de diarreia crônica (celíaca, APLV, fibrose cística, parasitose).
+- ✅ Prescrever dieta isenta de lactose e orientar reavaliação.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-23: este módulo passou a cobrir **todas as 16 edições já extraídas** do banco (2011.1–2025.2). Gabaritos conferidos um a um contra os PDFs oficiais do INEP na auditoria de 2026-09-23.*
+
+**[INEP 2013 · Edição 1 · Questão 97]**
+
+Mãe comparece à Unidade Básica de Saúde com filha de 7 meses, previamente hígida, com quadro de diarreia há 12 dias, com fezes líquidas desde o início do quadro. Nega cirurgias prévias, vômitos, febre ou presença de sangue nas fezes. Atualmente apresenta dermatite em região de fraldas e evacuações explosivas. Alimentada exclusivamente com leite materno até completar 4 meses de idade, sua alimentação consiste em leite em pó integral, suco e papa de frutas. Não apresenta perda de peso significante. Com base no quadro clínico apresentado, o diagnóstico e a conduta adequada para esta lactente são, respectivamente:
+
+A) doença celíaca; dieta isenta de glúten.
+B) intolerância à lactose; dieta isenta de lactose.
+C) alergia ao leite de vaca; dieta isenta de leite.
+D) fibrose cística; terapia de reposição enzimática.
+E) doença inflamatória intestinal; antibioticoterapia.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** o quadro (diarreia crônica com evacuações explosivas, dermatite de fralda, sem sangue nas fezes, sem perda de peso significativa) associado à história de transição do aleitamento materno exclusivo para **leite em pó integral** (leite de vaca) após os 4 meses é o cenário clássico de **intolerância à lactose secundária** — a introdução do leite de vaca fornece a carga de lactose que a mucosa (possivelmente ainda imatura ou lesada) não consegue absorver adequadamente. A conduta correta é dieta isenta de lactose.
+
+**Por que as demais estão erradas:**
+- A) Doença celíaca se relaciona à exposição ao glúten (trigo, cevada, centeio), não descrita na alimentação desta lactente (leite em pó, suco, papa de frutas — sem menção a cereais com glúten); também tipicamente cursaria com esteatorreia e outros achados nutricionais mais proeminentes.
+- C) Alergia à proteína do leite de vaca é diagnóstico diferencial relevante, mas classicamente pode cursar com sangue nas fezes e outras manifestações alérgicas (o enunciado nega sangue nas fezes explicitamente) — o quadro descrito (explosivo, ácido, sem sangue) é mais consistente com má absorção de carboidratos que com processo alérgico.
+- D) Fibrose cística cursaria com esteatorreia, história respiratória associada (infecções de repetição) e comprometimento nutricional mais evidente — não sustentada pelo quadro descrito.
+- E) Doença inflamatória intestinal é rara nessa faixa etária e o tratamento com antibioticoterapia não é a conduta padrão para essa condição.
+
+**O que a banca estava testando:** associação da história de introdução de leite de vaca com o quadro clínico compatível com má absorção de carboidratos, e diferenciação frente a alternativas que "parecem" plausíveis (celíaca, APLV, fibrose cística) mas não são sustentadas pelos detalhes específicos do caso (ausência de sangue, ausência de exposição a glúten, ausência de sinais respiratórios).
+
+---
+
+**[INEP 2011 · Edição 1 · Questão 71]**
+
+Criança em idade pré-escolar foi atendida na Unidade Básica de Saúde, por diversas vezes, com quadro diarreico semelhante: diarreia importante e evacuações explosivas logo após a ingestão de alimentos. No atendimento atual a criança encontra-se desidratada, apresenta assadura perianal e distensão abdominal. Os exames laboratoriais evidenciaram a presença de substâncias redutoras nas fezes e pH fecal menor do que 5,5. Qual a suspeita diagnóstica principal?
+
+A) Diarreia infecciosa persistente.
+B) Diarreia aguda recorrente.
+C) Parasitose intestinal.
+D) Intolerância à lactose.
+E) Doença inflamatória pélvica.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** os dois exames laboratoriais citados — **substâncias redutoras positivas** e **pH fecal < 5,5** — são o **padrão-ouro da má absorção de carboidratos**, e o quadro clínico completa o diagnóstico de **intolerância à lactose**.
+
+**A fisiopatologia explica cada achado:**
+
+Sem a enzima **lactase** na borda em escova do intestino delgado, a lactose **não é digerida** e chega intacta ao cólon. Ali:
+
+| Etapa | Consequência clínica |
+|---|---|
+| A lactose não absorvida exerce **efeito OSMÓTICO** | **diarreia aquosa e volumosa** |
+| Bactérias colônicas **fermentam** a lactose | produção de **gases** (H₂, CO₂, metano) → **distensão abdominal**, flatulência, **evacuações EXPLOSIVAS** |
+| A fermentação gera **ácidos graxos de cadeia curta** (lático, acético) | **pH fecal ÁCIDO (< 5,5)** |
+| Fezes ácidas em contato com a pele perineal | **ASSADURA PERIANAL** ← achado muito característico |
+| Lactose não digerida eliminada nas fezes | **SUBSTÂNCIAS REDUTORAS positivas** |
+
+⚠️ **A assadura perianal é o sinal clínico mais específico.** A acidez fecal produz dermatite de contato perineal, frequentemente intensa e refratária — e é achado que praticamente não aparece nas diarreias infecciosas ou parasitárias.
+
+**Os dois exames, explicados:**
+
+| Exame | O que detecta | Resultado esperado |
+|---|---|---|
+| **Substâncias redutoras nas fezes** (teste de Benedict / Clinitest) | **açúcares não absorvidos** — lactose, glicose, galactose, frutose | **POSITIVO** na má absorção de carboidratos |
+| **pH fecal** | acidez pela fermentação bacteriana | **< 5,5** (normal 6-7,5) |
+
+⚠️ **Detalhe técnico:** a **sacarose não é açúcar redutor** — para detectá-la é preciso hidrolisá-la previamente com ácido. Isso é ocasionalmente cobrado em prova.
+
+**A cronologia sela o diagnóstico.** "Diarreia importante e evacuações explosivas **LOGO APÓS a ingestão de alimentos**" descreve a relação **temporal direta** entre a ingesta e o sintoma — marca da intolerância alimentar, e não de infecção. E o caráter **recorrente**, com episódios semelhantes repetidos ao longo do tempo, reforça: a criança melhora quando não consome lactose e recai quando volta a consumi-la.
+
+**Os tipos de intolerância à lactose** [CONSENSO]:
+
+| Tipo | Mecanismo | Quando aparece |
+|---|---|---|
+| **SECUNDÁRIA** (a mais comum na infância) | lesão transitória da borda em escova — após gastroenterite viral (**rotavírus**), giardíase, doença celíaca, desnutrição | após um insulto intestinal; **reversível** em semanas a meses |
+| **Primária (do adulto)** | declínio geneticamente programado da lactase | tipicamente após os 5 anos; muito prevalente na população mundial |
+| **Congênita** | ausência total de lactase — **rara**, autossômica recessiva | **desde as primeiras mamadas**; grave |
+
+⚠️ Numa **criança pré-escolar com episódios recorrentes**, a hipótese mais provável é a **secundária** — e isso importa, porque ela é **transitória**: a conduta é retirar temporariamente a lactose e **reintroduzir gradualmente** após a recuperação da mucosa. A exclusão permanente de laticínios numa criança em crescimento compromete o aporte de **cálcio, proteína e vitamina D**, e deve ser evitada quando desnecessária.
+
+**Conduta:**
+1. **Redução ou retirada temporária da lactose** — fórmula sem lactose ou leite com lactase adicionada
+2. **Reidratação** — a criança está desidratada
+3. **Tratamento da assadura** — barreira (óxido de zinco), trocas frequentes
+4. **Reintrodução gradual** após 2 a 4 semanas, testando a tolerância
+5. **Investigar a causa subjacente** se houver recorrência — parasitoses, doença celíaca, desnutrição
+6. ⚠️ **Manter o aleitamento materno**, quando presente: o leite materno contém lactose, mas seus benefícios superam amplamente, e a intolerância raramente exige sua suspensão
+
+**Por que as demais estão erradas:**
+
+- **A) Diarreia infecciosa persistente.** Definida como diarreia de origem infecciosa que se prolonga **além de 14 dias**. O enunciado descreve **episódios REPETIDOS e semelhantes**, com relação clara à alimentação — não um episódio único arrastado. E os exames apontam para outro mecanismo: na diarreia infecciosa, esperam-se **leucócitos fecais**, possivelmente sangue, e o pH fecal tende a ser **neutro ou alcalino**, não ácido.
+
+- **B) Diarreia aguda recorrente.** É uma **descrição**, não um diagnóstico — não explica o mecanismo nem orienta conduta. A questão pede a "suspeita diagnóstica", e os exames fornecidos apontam especificamente para **má absorção de carboidratos**. Escolher essa alternativa é renunciar à informação laboratorial que o enunciado oferece.
+
+- **C) Parasitose intestinal.** Diagnóstico plausível em criança com diarreia recorrente — a **giardíase**, em particular, cursa com diarreia crônica e distensão abdominal. Mas o diagnóstico se faz por **parasitológico de fezes**, e os exames citados são outros. ⚠️ Vale a ressalva clínica: a giardíase é uma das causas de **intolerância à lactose secundária**, por lesão da mucosa duodenojejunal — de modo que as duas condições podem coexistir, e a investigação parasitológica é pertinente. Mas o que os exames **mostram** é a má absorção de carboidratos.
+
+- **E) Doença inflamatória pélvica.** Diagnóstico **ginecológico**, de mulheres sexualmente ativas — infecção ascendente do trato genital superior. Não tem qualquer relação com o quadro de uma criança pré-escolar. É alternativa de descarte imediato.
+
+⚠️ **PEGADINHA DO INEP:** a questão entrega **dois exames laboratoriais específicos** e espera que o candidato os interprete. Quem os ignora escolhe pelo quadro clínico genérico ("diarreia recorrente em criança") e cai nas alternativas A, B ou C.
+
+**Diagnóstico diferencial da diarreia crônica na infância — o quadro que organiza o tema:**
+
+| Condição | Pista clínica | Exame |
+|---|---|---|
+| **Intolerância à lactose** | evacuação **explosiva pós-ingesta**, **assadura perianal** | **substâncias redutoras +, pH < 5,5** ← o caso |
+| **Doença celíaca** | fezes volumosas e fétidas, **hipotrofia glútea**, distensão | antitransglutaminase, **biópsia duodenal** |
+| **APLV** (alergia à proteína do leite de vaca) | lactente, sangue nas fezes, dermatite atópica | teste de exclusão e provocação |
+| **Giardíase** | diarreia crônica, distensão, má absorção | parasitológico, pesquisa de antígeno |
+| **Diarreia funcional** (*toddler's diarrhea*) | criança **bem**, crescimento **normal**, restos alimentares | diagnóstico de exclusão |
+| Fibrose cística | esteatorreia, infecções pulmonares de repetição | **teste do suor** |
+
+**O que a banca estava testando:** interpretar **substâncias redutoras positivas e pH fecal ácido** como marcadores de **má absorção de carboidratos**, e correlacioná-los ao quadro clínico — evacuações explosivas pós-prandiais, distensão abdominal e **assadura perianal** — para diagnosticar intolerância à lactose.
+
+---
+
+**[INEP 2012 · Edição 1 · Questão 11]**
+
+Um menino de dois anos de idade é levado à Unidade Básica de Saúde (UBS) próxima ao assentamento onde sua família reside, com queixa de diarreia intermitente, com restos alimentares em alguns episódios, sem sangue ou muco, associada a dor epigástrica e hiporexia, iniciada há 15 dias. No último ano, a criança foi levada à UBS duas vezes pelo mesmo motivo. A genitora relata que, há dois meses, a criança também apresentou lesões de pele muito pruriginosas, seguidas de tosse, com resolução espontânea em 3 dias. O padrão alimentar inclui alimentos da família e leite de vaca engrossado com farináceos desde que foi suspenso o aleitamento materno aos 3 meses de vida. A situação vacinal está adequada à idade. O médico observou: peso = 11 kg (percentil 15); turgor e elasticidade da pele um pouco diminuídos, mucosas hipocoradas, distensão abdominal moderada, com dolorimento discreto e difuso e ausência de edema, de lesões de pele significativas ou de sinais de instabilidade respiratória ou hemodinâmica. Para esse paciente, foram prescritas reidratação oral e orientação higiênico-sanitária. Qual a hipótese diagnóstica que melhor explica o quadro descrito acima e qual a conduta que deve ser aplicada?
+
+A) Enteropatia ambiental; solicitar parasitológico de fezes e tratar com antiparasitário adequado ao agente identificado.
+B) Enteropatia dependente do glúten; solicitar anticorpo antigliadina e antiendomísio e excluir da dieta glúten e farináceos em geral.
+C) Enteropatia por alergia ao leite de vaca; solicitar dosagem de IgA secretora, excluir leite de vaca da dieta e prescrever fórmula isenta de proteínas do leite.
+D) Enteropatia infecciosa aguda; solicitar coprocultura, iniciar sulfametexazol-trimetoprim ou cefalosporina de primeira geração durante 7 a 10 dias.
+E) Enteropatia dependente da lactose; excluir fontes de lactose da dieta, prescrever probióticos, prebióticos e usar leite de soja ou fórmula láctea isenta de lactose.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o enunciado constrói um quadro de **geo-helmintíase** numa criança de assentamento rural, e cada dado tem função:
+- **lesões de pele muito pruriginosas seguidas de tosse**, que somem sozinhas em dias — é o **ciclo pulmonar das larvas**: penetração pela pele (dermatite larvária de *Ancylostoma* ou *Strongyloides*) e passagem pelos pulmões (**síndrome de Löeffler**: tosse, sibilos, eosinofilia transitória);
+- **dor epigástrica, hiporexia e diarreia intermitente recorrente** — parasitismo do intestino delgado proximal (ancilostomídeos, estrongiloides, giárdia);
+- **mucosas hipocoradas** — anemia ferropriva por perda crônica de sangue, típica da ancilostomíase;
+- **distensão abdominal** e crescimento no limite inferior (P15) com episódios de repetição.
+
+"Enteropatia ambiental" é o termo para a lesão intestinal crônica de crianças expostas continuamente a saneamento precário e contaminação fecal — com parasitoses como principal causa tratável. A conduta é **parasitológico de fezes** (e tratamento dirigido ao agente), junto com a reidratação e as medidas de higiene já prescritas.
+
+**Por que as demais estão erradas:**
+- B) Doença celíaca não explica pele pruriginosa seguida de tosse nem o contexto sanitário. A conduta também está errada: **antigliadina** é teste obsoleto (usa-se **antitransglutaminase IgA** com IgA total), e **não se retira glúten antes de confirmar o diagnóstico** por biópsia — a exclusão prévia negativa os exames.
+- C) Alergia ao leite de vaca não se diagnostica por "IgA secretora" (não é exame diagnóstico). A APLV não gastrointestinal-isolada tampouco explica o ciclo pele → pulmão.
+- D) Não é **aguda**: são 15 dias e episódios recorrentes no último ano (diarreia **persistente** e recorrente). Antibiótico empírico em diarreia sem sangue e sem toxemia não tem indicação.
+- E) Intolerância à lactose daria diarreia **explosiva, ácida**, com assadura perianal, relacionada à ingestão de leite; não explica anemia, pele nem tosse.
+
+⚠️ **PEGADINHA DO INEP:** o dado do **leite de vaca engrossado com farináceos desde os 3 meses** é um chamariz para glúten, APLV e lactose — três das cinco alternativas. O fio que amarra o caso é outro: **assentamento + pele que coça + tosse que passa sozinha + anemia**. Quando o INEP descreve uma lesão cutânea pruriginosa seguida de sintoma respiratório transitório, está descrevendo o ciclo de Looss de um helminto.
+
+**O que a banca estava testando:** reconhecer parasitose intestinal pelo ciclo biológico (penetração cutânea e passagem pulmonar) e pelo contexto socioambiental, e não se deixar desviar pelos dados alimentares.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual o padrão laboratorial simples que aponta má absorção de carboidratos (lactose) na diarreia crônica infantil?	Substâncias redutoras nas fezes positivas + pH fecal <5,5	Revalida::Pediatria::DiarreiaCronica::Diagnostico
+Qual o mecanismo da intolerância à lactose secundária pós-diarreia?	Lesão da borda em escova intestinal reduz a lactase, causando má absorção transitória de lactose	Revalida::Pediatria::DiarreiaCronica::Fisiopatologia
+Quadro clínico clássico de intolerância à lactose na criança?	Diarreia explosiva pós-prandial, distensão abdominal, assadura perianal	Revalida::Pediatria::DiarreiaCronica::QuadroClinico
+Tratamento da intolerância à lactose secundária?	Dieta isenta/com baixo teor de lactose, geralmente transitória	Revalida::Pediatria::DiarreiaCronica::Tratamento
+Diarreia crônica + sangue nas fezes sugere qual diagnóstico diferencial?	Alergia à proteína do leite de vaca (APLV)	Revalida::Pediatria::DiarreiaCronica::DiagnosticoDiferencial
+Diarreia crônica + esteatorreia + relação com glúten sugere qual diagnóstico?	Doença celíaca	Revalida::Pediatria::DiarreiaCronica::DiagnosticoDiferencial
+Diarreia crônica + esteatorreia + infecções respiratórias de repetição sugere qual diagnóstico?	Fibrose cística	Revalida::Pediatria::DiarreiaCronica::DiagnosticoDiferencial
+O que caracteriza enteropatia ambiental?	Inflamação crônica de mucosa por exposição repetida a patógenos entéricos em saneamento precário — episódios recorrentes, não um único evento	Revalida::Pediatria::DiarreiaCronica::DiagnosticoDiferencial
+Diarreia crônica recorrente em criança de área de saneamento precário, sem marcadores de APLV/celíaca: conduta?	Parasitológico de fezes + antiparasitário dirigido + orientação de saneamento/higiene	Revalida::Pediatria::DiarreiaCronica::Conduta
+Enteropatia infecciosa aguda com suspeita bacteriana: conduta diagnóstica e terapêutica?	Coprocultura + antibioticoterapia dirigida (ex.: sulfametoxazol-trimetoprima ou cefalosporina 1ª geração, 7-10 dias)	Revalida::Pediatria::DiarreiaCronica::Tratamento
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Substâncias redutoras+ e pH fecal <5,5 = má absorção de carboidratos = suspeitar de intolerância à lactose.
+2. Diarreia explosiva pós-prandial + assadura + distensão = quadro clínico clássico da intolerância à lactose.
+3. Introdução recente de leite de vaca/fórmula é o gatilho típico do quadro.
+4. Tratamento: dieta isenta de lactose, geralmente transitória.
+5. Sangue nas fezes desvia o raciocínio para APLV, não para intolerância à lactose simples.
+
+📊 **Tabela-síntese — diagnóstico diferencial**
+| Causa | Achado-chave |
+|---|---|
+| Intolerância à lactose | Substâncias redutoras+, pH ácido, relação com laticínios |
+| Doença celíaca | Esteatorreia, relação com glúten |
+| APLV | Sangue nas fezes possível, outras manifestações alérgicas |
+| Fibrose cística | Esteatorreia, quadro respiratório associado |
+| Enteropatia infecciosa aguda | Coprocultura+, antibioticoterapia dirigida |
+| Enteropatia ambiental | Episódios recorrentes, saneamento precário, sem marcadores de APLV/celíaca |
+
+⚡ **Fluxograma textual:** diarreia crônica → caracterizar relação temporal com alimentação e presença de sangue → solicitar substâncias redutoras + pH fecal → positivo e sem sangue = intolerância à lactose → dieta isenta de lactose → reavaliar e considerar reintrodução gradual.
+
+🚫 **Os 3 erros mais comuns:** (1) pular direto para exames complexos sem tentar a via simples (substâncias redutoras + pH); (2) não relacionar a introdução de leite de vaca ao quadro; (3) confundir intolerância à lactose com APLV.
+
+🔗 **Conexões com outros módulos:** GAS-01 (doenças gastrointestinais), PED-06 (nutrição infantil), PED-02 (desenvolvimento e crescimento).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-05",
+  "especialidade": "Pediatria",
+  "tema": "Diarreia crônica na infância",
+  "assunto": "Diagnóstico e conduta da intolerância à lactose na criança pequena",
+  "tier": "A",
+  "n_questoes": 3,
+  "n_flashcards": 10,
+  "tempo_estudo_min": 80,
+  "prerequisitos": [],
+  "relacionados": ["GAS-01", "PED-06", "INF-02"],
+  "data_geracao": "2026-07-29",
+  "data_ampliacao": "2026-08-13",
+  "codigos_mesclados": ["PED-42", "PED-43"],
+  "itens_a_verificar": [
+    "Questão 2011.1-Q71 tinha bleed extenso de uma questão de otite média — removido manualmente, ver nota na seção 3",
+    "2012.1-Q10: sem vinheta recuperável, apenas 3 de 5 alternativas com texto — discutida em texto corrido",
+    "2012.1-Q11: vinheta completa, mas apenas 2 de 5 alternativas com texto — discutida em texto corrido",
+    "Confirmar se este módulo tem mais questões nas 14 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "REU-naproxeno-diclofenaco",
+    "nombre": "Naproxeno, diclofenaco y celecoxib",
+    "sinonimos": [
+      "AINE de vida media larga y coxibs"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "AINE (antiinflamatorio no esteroideo)",
+    "subclase": "Inhibidores de la ciclooxigenasa con distinta selectividad COX-1/COX-2",
+    "vs_clase": [
+      "**Naproxeno: el AINE con MENOR riesgo CARDIOVASCULAR** (preferible en el paciente cardiovascular si es imprescindible un AINE), con vida media larga (2 tomas).",
+      "**Diclofenaco: alto riesgo cardiovascular** (similar a los coxib) y hepatotoxicidad; muy usado en gel tópico.",
+      "**Celecoxib (COX-2 selectivo): menos gastrolesivo**, sin efecto antiagregante; contraindicado en cardiopatía isquémica e ictus."
+    ],
+    "mecanismo": "Inhiben la ciclooxigenasa y con ella la síntesis de prostaglandinas. La clave para elegir entre ellos está en el equilibrio entre las dos isoformas. La COX-1 es CONSTITUTIVA y produce las prostaglandinas que protegen la mucosa gástrica, mantienen el flujo renal y generan el TROMBOXANO A2 plaquetario, que agrega. La COX-2 es INDUCIBLE en la inflamación y produce también la PROSTACICLINA endotelial, que es antiagregante y vasodilatadora. De ahí se deduce todo el perfil de riesgo: inhibir COX-1 daña el estómago y el riñón pero frena el tromboxano; inhibir selectivamente COX-2 respeta el estómago pero deja el tromboxano intacto mientras suprime la prostaciclina, desequilibrando la balanza hacia la TROMBOSIS. El NAPROXENO, por su inhibición COX-1 potente y sostenida, es el que menos riesgo cardiovascular tiene; el DICLOFENACO es el que más, comparable a los coxibs; el CELECOXIB es el más seguro para el estómago.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor inflamatorio crónico: artritis, espondiloartritis, artrosis con brote inflamatorio",
+        "dosis": "Naproxeno 500 mg cada 12 horas; diclofenaco 50 mg cada 8 horas; celecoxib 200 mg al día",
+        "posologia": "Cada 8-12 horas o una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Control del dolor con la dosis MÍNIMA eficaz y durante el MENOR tiempo posible",
+        "nota": "En la ESPONDILOARTRITIS axial los AINE son el tratamiento de primera línea y a menudo continuado, a diferencia del resto de indicaciones"
+      },
+      {
+        "patologia": "CRISIS DE GOTA aguda",
+        "dosis": "Naproxeno 500 mg cada 12 horas durante 5-7 días",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "A dosis plenas desde el primer momento. Alternativa a la colchicina y al corticoide, con eficacia comparable entre los tres"
+      },
+      {
+        "patologia": "CÓLICO NEFRÍTICO",
+        "dosis": "Diclofenaco 75 mg IM, o dexketoprofeno 50 mg IV",
+        "posologia": "Dosis única, repetible",
+        "via": "IM",
+        "dosis_objetivo": "Alivio del dolor cólico",
+        "nota": "Los AINE son SUPERIORES a los opioides en el cólico renal: reducen la presión intraureteral además de analgesiar"
+      },
+      {
+        "patologia": "DISMENORREA y dolor menstrual",
+        "dosis": "Naproxeno 500 mg de inicio y después 250 mg cada 8 horas",
+        "posologia": "Cada 8 horas durante los primeros días",
+        "via": "VO",
+        "nota": "Es más eficaz empezar ANTES de que el dolor se instaure, ya que actúan impidiendo la síntesis de prostaglandinas y no revirtiendo su efecto"
+      },
+      {
+        "patologia": "Paciente con ALTO riesgo digestivo que necesita un AINE",
+        "dosis": "Celecoxib 200 mg al día ASOCIADO a inhibidor de la bomba de protones",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La combinación de coxib más protector gástrico es la estrategia de menor riesgo digestivo, pero no resuelve el riesgo cardiovascular"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de prescribir hay que evaluar TRES riesgos: DIGESTIVO (edad, antecedente de úlcera, corticoide, anticoagulante, Helicobacter), CARDIOVASCULAR (cardiopatía isquémica, insuficiencia cardiaca, hipertensión) y RENAL (filtrado, diuréticos, IECA o ARA-II).",
+      "titulacion": "Dosis mínima eficaz. En el dolor crónico conviene pautar el AINE en la fase inflamatoria y no de forma indefinida.",
+      "duracion": "La MÁS CORTA posible. La excepción es la espondiloartritis axial, donde el tratamiento continuado tiene además un posible efecto sobre la progresión radiológica.",
+      "fin": "Retirada sin pauta descendente. Ante cualquier signo de sangrado digestivo, deterioro renal o descompensación cardiaca, suspensión inmediata.",
+      "via": "Oral preferentemente; la vía TÓPICA (diclofenaco en gel) tiene eficacia real en la artrosis de rodilla y de manos con exposición sistémica mínima y es la primera opción en el anciano.",
+      "monitorizacion": "Tensión arterial, función renal e ionograma a las 2-4 semanas en el tratamiento continuado, y hemoglobina en el paciente de riesgo digestivo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Muy alta unión a proteínas (más del 99%), lo que explica sus interacciones por desplazamiento.",
+      "metabolismo": "Hepático, principalmente por CYP2C9.",
+      "eliminacion": "Renal.",
+      "vida_media": "Naproxeno 12-17 horas (permite dos tomas diarias); diclofenaco 1-2 horas; celecoxib 11 horas.",
+      "ajuste_renal": "EVITAR con filtrado menor de 30 mL/min. En el paciente renal, prácticamente ningún AINE es seguro.",
+      "ajuste_hepatico": "Reducir la dosis; el diclofenaco es el más hepatotóxico del grupo.",
+      "interacciones": [
+        {
+          "con": "IECA o ARA-II más DIURÉTICO (la TRIPLE COMBINACIÓN)",
+          "efecto": "FRACASO RENAL AGUDO por pérdida simultánea de los tres mecanismos que mantienen el filtrado",
+          "gravedad": "alta",
+          "manejo": "Es la interacción que más ingresos por fracaso renal causa en atención primaria, sobre todo cuando el paciente añade un AINE por su cuenta ante una gripe o un dolor. Hay que advertirlo expresamente"
+        },
+        {
+          "con": "AAS a dosis antiagregante (con IBUPROFENO y naproxeno)",
+          "efecto": "Compiten por el sitio de la COX-1 plaquetaria y ANULAN el efecto cardioprotector del AAS",
+          "gravedad": "alta",
+          "manejo": "Tomar el AAS al menos 2 horas ANTES del AINE. El celecoxib no tiene este problema"
+        },
+        {
+          "con": "Anticoagulantes, antiagregantes, corticoides e ISRS",
+          "efecto": "HEMORRAGIA DIGESTIVA multiplicada",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; si es imprescindible, protección gástrica obligada"
+        },
+        {
+          "con": "LITIO y METOTREXATO",
+          "efecto": "Reducen su eliminación renal y producen intoxicación",
+          "gravedad": "alta",
+          "manejo": "Monitorizar litemia; a dosis reumatológicas de metotrexato el riesgo es menor pero existe"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Reducen su eficacia al retener sodio y agua",
+          "gravedad": "media",
+          "manejo": "Vigilar la tensión: un AINE puede desestabilizar una hipertensión bien controlada"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia y epigastralgia",
+        "Retención hidrosalina con EDEMAS y aumento de la tensión arterial",
+        "Cefalea y mareo"
+      ],
+      "graves": [
+        "ÚLCERA y HEMORRAGIA DIGESTIVA, que puede ser SILENTE hasta la hemorragia, sobre todo en el anciano",
+        "FRACASO RENAL AGUDO, nefritis intersticial y necrosis papilar",
+        "INFARTO e ICTUS: el riesgo cardiovascular es de clase, MÁXIMO con diclofenaco y coxibs y MÍNIMO con naproxeno",
+        "DESCOMPENSACIÓN de insuficiencia cardiaca",
+        "HIPERPOTASEMIA",
+        "Broncoespasmo en la enfermedad respiratoria exacerbada por AINE (asma, poliposis nasal e intolerancia al AAS)",
+        "Hepatotoxicidad (diclofenaco)",
+        "Reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera péptica activa y hemorragia digestiva",
+      "Insuficiencia renal con filtrado menor de 30 mL/min",
+      "INSUFICIENCIA CARDIACA, cardiopatía isquémica y enfermedad arterial periférica (especialmente diclofenaco y coxibs)",
+      "TERCER TRIMESTRE del embarazo",
+      "Enfermedad respiratoria exacerbada por AINE",
+      "Cirugía de revascularización coronaria (coxibs)"
+    ],
+    "perlas": [
+      "La TRIPLE COMBINACIÓN de AINE, IECA o ARA-II y DIURÉTICO es una de las causas evitables más frecuentes de fracaso renal agudo. Los tres mecanismos que mantienen el filtrado glomerular se pierden a la vez, y basta una gastroenteritis o una ola de calor para precipitarlo. El paciente suele añadir el AINE por su cuenta, así que la advertencia hay que darla de forma activa.",
+      "El riesgo CARDIOVASCULAR no es uniforme dentro de la clase: el NAPROXENO es el más seguro, y el DICLOFENACO es comparable a los coxibs. Si un paciente con cardiopatía necesita un AINE, la elección razonable es naproxeno a la dosis mínima y el menor tiempo posible.",
+      "El IBUPROFENO ANULA el efecto cardioprotector del AAS al competir por el mismo sitio de la COX-1 plaquetaria. En un paciente que toma AAS por prevención secundaria, hay que tomar el AAS al menos 2 horas antes del AINE, o elegir otro analgésico.",
+      "En el ANCIANO la hemorragia digestiva por AINE puede ser SILENTE: no hay dispepsia previa, y el primer síntoma es la anemia o la melena. La ausencia de molestias no es un dato tranquilizador.",
+      "La vía TÓPICA es una opción infrautilizada y muy razonable: el diclofenaco en gel tiene eficacia real en la artrosis de rodilla y de manos con una exposición sistémica mínima. En el anciano polimedicado debería ser la primera opción antes que cualquier AINE oral.",
+      "En el CÓLICO NEFRÍTICO los AINE son SUPERIORES a los opioides, porque además de analgesiar reducen la presión intraureteral y el edema. Es una de las pocas situaciones en que el AINE gana claramente a la morfina.",
+      "La ENFERMEDAD RESPIRATORIA EXACERBADA POR AINE (asma, poliposis nasal e intolerancia al AAS) es una reacción de clase, no una alergia: el paciente reacciona a todos los inhibidores de COX-1. El paracetamol a dosis bajas y los coxibs suelen tolerarse.",
+      "El CELECOXIB protege el estómago pero NO el corazón. Elegirlo por seguridad global es un error: intercambia un riesgo por otro, y en el paciente con riesgo digestivo Y cardiovascular la respuesta suele ser no dar AINE.",
+      "En el TERCER TRIMESTRE están contraindicados: cierran el ductus arterioso y producen oligoamnios. Es una contraindicación absoluta que se pasa por alto en analgésicos de venta libre."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS a partir de la semana 20 y de forma absoluta en el TERCER TRIMESTRE: producen cierre precoz del ductus arterioso, oligoamnios e insuficiencia renal fetal. En el primer y segundo trimestre se usan solo si es imprescindible. El IBUPROFENO y el naproxeno son compatibles con la lactancia por su escaso paso a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36; alertas de la EMA sobre riesgo cardiovascular de los AINE"
+  },
+  {
+    "id": "REU-oxicodona",
+    "nombre": "Oxicodona (y oxicodona/naloxona, hidromorfona, tapentadol)",
+    "sinonimos": [
+      "Opioides potentes orales"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Analgésico opioide",
+    "subclase": "Agonistas mu potentes de administración oral",
+    "vs_clase": [
+      "**Biodisponibilidad oral alta (60-87%)** y menos variable que la morfina: 10 mg de oxicodona ≈ 20 mg de morfina oral.",
+      "**Con NALOXONA oral** (no absorbida) para reducir el estreñimiento opioide.",
+      "Metabolismo por CYP3A4: interacciones con inhibidores e inductores; menos acumulación renal que la morfina."
+    ],
+    "mecanismo": "Agonista puro del receptor mu, con potencia analgésica aproximadamente el doble que la de la morfina por vía oral. A diferencia de la codeína y del tramadol, NO es un profármaco dependiente del CYP2D6: aunque parte se convierte en oximorfona, la molécula original ya es activa, y por eso su efecto es mucho más predecible. La combinación OXICODONA/NALOXONA aprovecha un detalle farmacocinético elegante: la naloxona administrada por vía oral bloquea los receptores mu del INTESTINO, previniendo el estreñimiento, pero sufre un metabolismo presistémico hepático prácticamente completo (biodisponibilidad inferior al 3%), de modo que no alcanza el sistema nervioso central y no antagoniza la analgesia. El TAPENTADOL añade a la acción mu una inhibición de la recaptación de noradrenalina, lo que le da eficacia en el dolor neuropático con menos efectos digestivos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DOLOR ONCOLÓGICO moderado-intenso",
+        "dosis": "Oxicodona de liberación prolongada 10 mg cada 12 horas, con ascenso según necesidad, más rescates de liberación inmediata",
+        "posologia": "Cada 12 horas la basal, con rescates a demanda",
+        "via": "VO",
+        "dosis_objetivo": "Control del dolor con menos de 4 rescates al día; si necesita más, hay que subir la dosis basal",
+        "nota": "La dosis de RESCATE es aproximadamente un SEXTO de la dosis diaria total, y se recalcula cada vez que se sube la basal"
+      },
+      {
+        "patologia": "Dolor agudo intenso que no responde a analgésicos no opioides",
+        "dosis": "Oxicodona de liberación inmediata 5 mg cada 4-6 horas",
+        "posologia": "Cada 4-6 horas",
+        "via": "VO",
+        "nota": "En el dolor agudo la prescripción debe tener FECHA DE FIN escrita desde el primer día"
+      },
+      {
+        "patologia": "Dolor crónico no oncológico con estreñimiento limitante",
+        "dosis": "Oxicodona/naloxona 10/5 mg cada 12 horas, hasta 40/20 mg cada 12 horas",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Reduce el estreñimiento sin perder analgesia. Está también indicada en el síndrome de PIERNAS INQUIETAS grave refractario"
+      },
+      {
+        "patologia": "Dolor en la INSUFICIENCIA RENAL",
+        "dosis": "Hidromorfona 1,3 mg cada 4-6 horas, o fentanilo transdérmico 12 microgramos/h, con reducción del 25-50% de la dosis equivalente",
+        "posologia": "Según el fármaco",
+        "via": "VO",
+        "nota": "La MORFINA acumula metabolitos activos en el riñón; la oxicodona algo menos, y el fentanilo y la hidromorfona son las opciones más seguras"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de prescribir un opioide potente en dolor crónico NO oncológico: valorar el riesgo de mal uso, fijar OBJETIVOS FUNCIONALES (no solo de intensidad del dolor) y acordar una fecha de reevaluación. Pautar LAXANTE desde el primer día.",
+      "titulacion": "Ascenso del 25-50% según los rescates consumidos. Si hace falta subir a diario, hay que replantear el diagnóstico del dolor.",
+      "duracion": "En el dolor agudo, días, con fecha de fin escrita. En el crónico no oncológico, revisión periódica del beneficio real y planteamiento de la retirada.",
+      "fin": "Retirada PROGRESIVA (reducción del 10-25% cada 1-2 semanas) para evitar la abstinencia. En el dolor crónico no oncológico, la deprescripción forma parte del plan desde el principio.",
+      "via": "Oral (inmediata y retardada). NO triturar las formulaciones retardadas: la liberación completa de golpe puede ser mortal.",
+      "monitorizacion": "Analgesia, FUNCIÓN (lo que el paciente puede hacer), efectos adversos, estreñimiento y conductas de riesgo. En tratamiento crónico, testosterona y cortisol."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 60-87%, muy superior a la de la morfina, lo que la hace más predecible.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático por CYP3A4 (principal) y CYP2D6 (a oximorfona, activa).",
+      "eliminacion": "Renal.",
+      "vida_media": "3-5 horas la inmediata; 12 horas la formulación retardada.",
+      "ajuste_renal": "Reducir la dosis un 50% con filtrado menor de 30 mL/min. En la insuficiencia renal, fentanilo e hidromorfona son preferibles.",
+      "ajuste_hepatico": "Reducir la dosis un 50%.",
+      "interacciones": [
+        {
+          "con": "BENZODIAZEPINAS, gabapentinoides, alcohol y otros depresores",
+          "efecto": "DEPRESIÓN RESPIRATORIA y muerte: es la combinación implicada en la mayoría de las muertes por opioides",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación crónica; si es inevitable, dosis mínimas, advertencia explícita y NALOXONA domiciliaria"
+        },
+        {
+          "con": "Inhibidores potentes del CYP3A4 (claritromicina, azoles, ritonavir, zumo de pomelo)",
+          "efecto": "Aumentan sus concentraciones y el riesgo de sobredosis",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis y vigilar la sedación"
+        },
+        {
+          "con": "Rifampicina, carbamazepina y fenitoína",
+          "efecto": "Reducen su eficacia y pueden precipitar abstinencia",
+          "gravedad": "media",
+          "manejo": "Prever el ajuste de dosis"
+        },
+        {
+          "con": "Serotoninérgicos (ISRS, IRSN, tramadol)",
+          "efecto": "Síndrome serotoninérgico, sobre todo con tapentadol",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO, que NO desarrolla tolerancia y exige laxante desde el primer día",
+        "Náuseas y vómitos (estos sí ceden en días)",
+        "Somnolencia y mareo",
+        "Prurito y sequedad de boca",
+        "Retención urinaria"
+      ],
+      "graves": [
+        "DEPRESIÓN RESPIRATORIA, sobre todo asociada a benzodiazepinas, en el anciano y en la apnea del sueño",
+        "DEPENDENCIA, tolerancia y trastorno por uso de opioides: la oxicodona fue el fármaco central de la crisis de opioides en Norteamérica",
+        "HIPERALGESIA inducida por opioides: paradójicamente, el paciente tiene MÁS dolor cuanto más opioide recibe",
+        "HIPOGONADISMO e insuficiencia suprarrenal en el tratamiento prolongado, causa infradiagnosticada de astenia y disfunción sexual",
+        "Síndrome de abstinencia por retirada brusca",
+        "Sobredosis mortal al TRITURAR una formulación retardada"
+      ]
+    },
+    "contraindicaciones": [
+      "Depresión respiratoria no monitorizada",
+      "Íleo paralítico",
+      "Uso de IMAO en las dos semanas previas",
+      "Precaución máxima en la apnea obstructiva del sueño, en el anciano y en el trastorno por uso de sustancias",
+      "Dolor crónico no oncológico como primera opción"
+    ],
+    "perlas": [
+      "En el dolor crónico NO oncológico, el objetivo no es el número de la escala de dolor sino la FUNCIÓN: qué puede hacer el paciente que antes no podía. Un opioide que reduce el dolor de 7 a 5 pero deja al paciente sedado, estreñido y sin salir de casa no está funcionando, por mucho que la cifra haya bajado.",
+      "El LAXANTE se prescribe el MISMO DÍA que el opioide, no cuando aparece el problema. El estreñimiento opioide es el único efecto adverso al que NO se desarrolla tolerancia: estará ahí mientras dure el tratamiento.",
+      "NUNCA TRITURAR una formulación de liberación prolongada. La liberación de golpe de una dosis pensada para 12 horas puede ser mortal, y es también el mecanismo del uso indebido. En el paciente con disfagia hay que cambiar de formulación, no machacar el comprimido.",
+      "La OXICODONA/NALOXONA es una solución farmacológica elegante: la naloxona bloquea los receptores del intestino pero se destruye en el primer paso hepático, de modo que previene el estreñimiento sin quitar la analgesia. Todo depende de esa biodisponibilidad oral inferior al 3%.",
+      "A diferencia de la codeína y del tramadol, NO depende del CYP2D6 para funcionar: su efecto es predecible y no varía con el genotipo del paciente ni con los ISRS que inhiben esa enzima.",
+      "La HIPERALGESIA inducida por opioides es contraintuitiva y crucial: un paciente con dolor creciente pese a dosis crecientes puede estar sufriendo el propio tratamiento. La respuesta correcta no es subir más, sino REDUCIR o rotar de opioide.",
+      "En el tratamiento prolongado hay que buscar el HIPOGONADISMO: astenia, pérdida de libido, disfunción eréctil y depresión que se atribuyen al dolor crónico y son del opioide. Medir testosterona y cortisol en un paciente con opioides durante años es un gesto sencillo y muy rentable.",
+      "La combinación con BENZODIAZEPINAS está detrás de la mayoría de las muertes por opioides. Si es inevitable, hay que dar la dosis mínima, advertir explícitamente y prescribir NALOXONA domiciliaria al paciente y a su familia.",
+      "En la INSUFICIENCIA RENAL, la morfina acumula metabolitos activos y produce sedación diferida; el fentanilo y la hidromorfona son opciones más seguras y la oxicodona ocupa un lugar intermedio.",
+      "Toda prescripción de opioide en dolor AGUDO debe llevar FECHA DE FIN escrita. La crisis de opioides no empezó con el abuso callejero, empezó con prescripciones legítimas que nadie se planteó retirar."
+    ],
+    "embarazo_lactancia": "Se evitan salvo necesidad clara; el uso mantenido cerca del parto produce síndrome de abstinencia neonatal, que requiere vigilancia y a veces tratamiento. En la lactancia se prefieren dosis bajas y de corta duración, vigilando la sedación y las tomas del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; guías CDC sobre prescripción de opioides en dolor crónico"
+  }
+]

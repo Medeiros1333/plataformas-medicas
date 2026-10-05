@@ -1,0 +1,410 @@
+[
+  {
+    "id": "CAR-torasemida",
+    "nombre": "Torasemida",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Diurético de asa",
+    "subclase": "Diurético de asa de alta biodisponibilidad y acción prolongada",
+    "vs_clase": [
+      "**Biodisponibilidad oral del 80-100% y predecible** (furosemida: 10-90%, muy variable): **la dosis oral equivale a la IV** y responde igual con el intestino edematoso de la insuficiencia cardiaca congestiva.",
+      "**Acción más prolongada (12-16 h): una sola toma diaria** suele bastar, frente a las 2 tomas de furosemida.",
+      "**Metabolismo HEPÁTICO (CYP2C9)**: no se acumula en la insuficiencia renal.",
+      "**Equivalencia práctica**: furosemida 40 mg VO ≈ torasemida 10-20 mg VO ≈ bumetanida 1 mg."
+    ],
+    "mecanismo": "Inhibe el cotransportador Na-K-2Cl de la rama ascendente gruesa del asa de Henle, que reabsorbe el 25% del sodio filtrado: diuresis potente y dosis-dependiente, con pérdida de potasio, magnesio y calcio. **Tiene además un efecto antialdosterónico débil y, en estudios pequeños, antifibrótico miocárdico.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con congestión (mantenimiento)",
+        "dosis": "10-20 mg (hasta 200 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis mínima que mantenga la euvolemia; ajustar según peso diario"
+      },
+      {
+        "patologia": "Edemas por síndrome nefrótico, cirrosis o enfermedad renal crónica",
+        "dosis": "5-20 mg (hasta 100-200 mg en ERC avanzada)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "En la cirrosis, siempre asociada a espironolactona"
+      },
+      {
+        "patologia": "Hipertensión arterial (dosis baja)",
+        "dosis": "2,5-5 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Útil en hipertensos con FG <30 donde las tiazidas pierden eficacia"
+      }
+    ],
+    "esquema": {
+      "inicio": "10-20 mg/día en insuficiencia cardiaca; en el paciente que viene de furosemida, usar la equivalencia (40 mg de furosemida ≈ 10-20 mg de torasemida).",
+      "titulacion": "Ajustar al peso: subir si gana >2 kg en 3 días; bajar si hay deshidratación, hipotensión o subida de creatinina con euvolemia.",
+      "duracion": "Mientras persista la tendencia a la congestión (con frecuencia indefinida en insuficiencia cardiaca).",
+      "fin": "Reducción progresiva; puede suspenderse si el paciente queda euvolémico de forma estable con los fármacos modificadores de la enfermedad.",
+      "via": "VO (existe forma IV en algunos países).",
+      "monitorizacion": "Peso diario, sodio, potasio, magnesio y creatinina a la semana de cambiar la dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Biodisponibilidad del 80-100%**, poco afectada por la comida o el edema intestinal.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "**Hepático (80%) por CYP2C9.**",
+      "eliminacion": "Renal (20% inalterada) y como metabolitos.",
+      "vida_media": "3-4 h (efecto diurético de 12-16 h).",
+      "ajuste_renal": "**No se acumula.** En ERC avanzada se necesitan dosis más altas para alcanzar el efecto (menos fármaco llega a la luz tubular).",
+      "ajuste_hepatico": "Precaución en cirrosis: riesgo de encefalopatía si hay alteraciones electrolíticas.",
+      "interacciones": [
+        {
+          "con": "AINE",
+          "efecto": "Reducen la respuesta diurética y favorecen el fracaso renal",
+          "gravedad": "alta",
+          "manejo": "Evitar en insuficiencia cardiaca"
+        },
+        {
+          "con": "Aminoglucósidos y vancomicina",
+          "efecto": "Ototoxicidad y nefrotoxicidad aditivas",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles y audición"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "alta",
+          "manejo": "Controlar litemia"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "La hipopotasemia y la hipomagnesemia aumentan su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Mantener potasio >4 y magnesio normal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Poliuria, hipovolemia",
+        "Hipopotasemia, hipomagnesemia, alcalosis metabólica",
+        "Hiperuricemia",
+        "Mareo"
+      ],
+      "graves": [
+        "Deshidratación con fracaso renal prerrenal",
+        "Hiponatremia o hipopotasemia graves con arritmias",
+        "Ototoxicidad (menor que con furosemida)",
+        "Encefalopatía hepática precipitada por trastornos electrolíticos"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria",
+      "Hipovolemia o deshidratación graves",
+      "Coma hepático",
+      "Hipopotasemia o hiponatremia graves no corregidas"
+    ],
+    "perlas": [
+      "**Si un paciente con insuficiencia cardiaca no responde a furosemida oral pero sí a la IV, el problema puede ser la absorción**: la torasemida es la alternativa oral lógica.",
+      "En el ensayo TRANSFORM-HF no redujo la mortalidad frente a furosemida: su ventaja es farmacocinética y de comodidad, no pronóstica."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo (reduce la perfusión placentaria). Evitar en la lactancia (puede inhibirla).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., cap. de insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-eplerenona",
+    "nombre": "Eplerenona",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del receptor mineralocorticoide (ARM)",
+    "subclase": "Esteroideo selectivo",
+    "vs_clase": [
+      "**Selectivo del receptor mineralocorticoide: SIN efectos antiandrogénicos** (ginecomastia en <1% frente al ~10% con espironolactona). Es la alternativa cuando la espironolactona produce ginecomastia o mastodinia.",
+      "**Metabolismo por CYP3A4 (la espironolactona no)**: contraindicada con inhibidores potentes; con inhibidores moderados (verapamilo, diltiazem, fluconazol, eritromicina), **máximo 25 mg/día**.",
+      "**Vida media corta (4-6 h) y sin metabolitos activos**, frente a los metabolitos de vida muy larga de la espironolactona.",
+      "**Evidencia propia en el postinfarto** con FEVI ≤40% e insuficiencia cardiaca o diabetes (EPHESUS) y en insuficiencia cardiaca leve (EMPHASIS-HF).",
+      "**Menos potente por miligramo**: no es la elección en ascitis cirrótica ni en el hiperaldosteronismo primario."
+    ],
+    "mecanismo": "Antagonista competitivo y selectivo del receptor mineralocorticoide en el túbulo colector (natriuresis con retención de potasio) y en el miocardio y los vasos, donde bloquea la fibrosis y el remodelado inducidos por la aldosterona. **No se une a los receptores de andrógenos ni de progesterona.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida (NYHA II-IV)",
+        "dosis": "25 mg → 50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Subir a 50 mg a las 4 semanas si K <5,0 mmol/L"
+      },
+      {
+        "patologia": "Postinfarto con FEVI ≤40% e insuficiencia cardiaca o diabetes",
+        "dosis": "25 mg → 50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar a los 3-14 días del infarto"
+      }
+    ],
+    "esquema": {
+      "inicio": "25 mg/día **solo si K ≤5,0 mmol/L y FG ≥30**. Potasio y creatinina basales.",
+      "titulacion": "Subir a 50 mg a las 4 semanas si K <5,0. Si K 5,5-5,9: reducir a la mitad; si K ≥6,0: suspender.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa ante hiperpotasemia ≥6,0 mmol/L o deterioro renal significativo.",
+      "via": "VO.",
+      "monitorizacion": "**Potasio y creatinina a la 1.ª semana, al mes, a los 3 meses y después cada 4-6 meses**, y siempre tras cambios en otros fármacos que eleven el potasio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 70%.",
+      "distribucion": "Unión a proteínas del 50%.",
+      "metabolismo": "**Hepático por CYP3A4**, sin metabolitos activos.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "**4-6 h.**",
+      "ajuste_renal": "FG 30-50: iniciar con 25 mg a días alternos. **Contraindicada con FG <30.**",
+      "ajuste_hepatico": "Contraindicada en Child-Pugh C.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir, nefazodona)",
+          "efecto": "Aumento de 5 veces de su exposición: hiperpotasemia grave",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Inhibidores moderados del CYP3A4 (verapamilo, diltiazem, eritromicina, fluconazol)",
+          "efecto": "Aumento de 2-3 veces de su exposición",
+          "gravedad": "alta",
+          "manejo": "**No superar 25 mg/día**"
+        },
+        {
+          "con": "IECA, ARA-II, sacubitrilo/valsartán, suplementos de potasio, cotrimoxazol, AINE",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio a la semana; no usar suplementos de potasio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperpotasemia leve",
+        "Elevación de creatinina",
+        "Mareo, hipotensión"
+      ],
+      "graves": [
+        "Hiperpotasemia grave con arritmias",
+        "Fracaso renal agudo en situaciones de deshidratación"
+      ]
+    },
+    "contraindicaciones": [
+      "Potasio >5,0 mmol/L al inicio",
+      "FG <30 mL/min",
+      "Insuficiencia hepática grave",
+      "Uso con inhibidores potentes del CYP3A4 o con otro ARM"
+    ],
+    "perlas": [
+      "**Paso de espironolactona a eplerenona por ginecomastia**: 25 mg de espironolactona ≈ 50 mg de eplerenona en insuficiencia cardiaca.",
+      "La causa más frecuente de hiperpotasemia grave con ARM es la deshidratación intercurrente (gastroenteritis): instruir al paciente para suspenderlo esos días."
+    ],
+    "embarazo_lactancia": "Datos insuficientes; evitar salvo necesidad. Evitar en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 13 y 15; Harrison 20.ª ed., cap. de insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-mononitrato-isosorbida",
+    "nombre": "Mononitrato de isosorbida",
+    "sinonimos": [
+      "Dinitrato de isosorbida (nitrato oral con primer paso hepático)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Nitrato orgánico (donante de óxido nítrico)",
+    "subclase": "Nitrato oral de acción prolongada para profilaxis",
+    "vs_clase": [
+      "**Nitrato ORAL de PROFILAXIS**, no de rescate: no sirve para cortar una crisis de angina (para eso, nitroglicerina sublingual).",
+      "**Sin primer paso hepático (biodisponibilidad cercana al 100%)**, a diferencia del dinitrato y de la nitroglicerina oral.",
+      "**Pauta ASIMÉTRICA obligatoria** (8:00 y 15:00) o **una sola dosis matutina de la forma retard**, para dejar un **intervalo libre de nitratos de 10-14 h cada noche** y evitar la tolerancia."
+    ],
+    "mecanismo": "Libera óxido nítrico, que activa la guanilato ciclasa del músculo liso vascular: **venodilatación predominante (menor precarga y tensión de pared, menor consumo de O2)** y dilatación de las arterias coronarias epicárdicas y de los vasos colaterales. **El uso continuo agota los grupos sulfhidrilo y genera tolerancia**, de ahí el intervalo libre.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la angina estable (2.ª línea, añadido a betabloqueante o calcioantagonista)",
+        "dosis": "20 mg (liberación inmediata) o 50-60 mg (retard)",
+        "posologia": "**Inmediata: 2 tomas asimétricas (8:00 y 15:00). Retard: 1 vez al día por la mañana**",
+        "via": "VO",
+        "nota": "Retard: subir a 120 mg si es necesario"
+      },
+      {
+        "patologia": "Angina vasoespástica",
+        "dosis": "20-40 mg (o 60 mg retard)",
+        "posologia": "Pauta asimétrica (o retard por la mañana)",
+        "via": "VO",
+        "nota": "Asociado a un calcioantagonista"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg a las 8:00 y 15:00, o 30-60 mg de retard por la mañana. Advertir de la cefalea inicial, que suele ceder en 1-2 semanas.",
+      "titulacion": "Subir según síntomas, manteniendo siempre el intervalo nocturno libre.",
+      "duracion": "Indefinida, mientras persista la angina.",
+      "fin": "**Retirada gradual**: la suspensión brusca puede precipitar angina de rebote.",
+      "via": "VO.",
+      "monitorizacion": "Síntomas anginosos, PA (ortostatismo) y cefalea."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Biodisponibilidad cercana al 100%** (no sufre primer paso).",
+      "distribucion": "Unión a proteínas mínima.",
+      "metabolismo": "Hepático por desnitración y glucuronidación.",
+      "eliminacion": "Renal.",
+      "vida_media": "4-5 h (la forma retard extiende el efecto a 12-14 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de la fosfodiesterasa 5 (sildenafilo, tadalafilo, vardenafilo) y riociguat",
+          "efecto": "**Hipotensión grave y potencialmente mortal**",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado.** Separar 24 h del sildenafilo y 48 h del tadalafilo"
+        },
+        {
+          "con": "Otros antihipertensivos y alcohol",
+          "efecto": "Hipotensión aditiva",
+          "gravedad": "media",
+          "manejo": "Advertir del riesgo de síncope"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Cefalea** (muy frecuente al inicio)",
+        "Rubor facial, mareo",
+        "Hipotensión ortostática",
+        "Taquicardia refleja"
+      ],
+      "graves": [
+        "Hipotensión grave y síncope",
+        "Angina de rebote tras retirada brusca",
+        "Metahemoglobinemia (excepcional, a dosis muy altas)"
+      ]
+    },
+    "contraindicaciones": [
+      "**Uso de inhibidores de la PDE5 o riociguat**",
+      "Hipotensión grave o shock",
+      "Miocardiopatía hipertrófica obstructiva",
+      "Estenosis aórtica grave",
+      "Infarto de ventrículo derecho"
+    ],
+    "perlas": [
+      "**La causa más frecuente de «nitrato que ya no funciona» es la tolerancia por pauta simétrica** (cada 12 h): cambiar a 8:00 y 15:00.",
+      "En la insuficiencia cardiaca de pacientes de origen africano se usa la combinación de **dinitrato** de isosorbida con hidralazina (A-HeFT), no el mononitrato."
+    ],
+    "embarazo_lactancia": "Datos limitados; usar solo si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12; Harrison 20.ª ed., cap. de cardiopatía isquémica estable"
+  },
+  {
+    "id": "CAR-flecainida",
+    "nombre": "Flecainida",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antiarrítmico",
+    "subclase": "Clase IC de Vaughan-Williams: bloqueante potente de los canales de sodio",
+    "vs_clase": [
+      "**SOLO en corazón estructuralmente sano**: en cardiopatía isquémica o con FEVI reducida **aumenta la mortalidad** (estudio CAST). La amiodarona, en cambio, sí se puede usar en cardiopatía estructural.",
+      "**Cardioversión farmacológica de la FA reciente** en el paciente sin cardiopatía, incluida la estrategia de **«pastilla en el bolsillo»** (200-300 mg VO en dosis única).",
+      "**Puede convertir la FA en flúter con conducción 1:1** (FC 250-300 lpm): **SIEMPRE asociar un frenador del nodo AV** (betabloqueante o calcioantagonista no dihidropiridínico).",
+      "**Sin la toxicidad tiroidea, pulmonar ni hepática de la amiodarona**: es la opción de control del ritmo de elección en el joven sin cardiopatía."
+    ],
+    "mecanismo": "Bloquea de forma potente los canales rápidos de sodio con cinética de disociación lenta (**dependencia de uso: más bloqueo a mayor frecuencia**). Enlentece la conducción en aurículas, ventrículos y vías accesorias y **ensancha el QRS**, con poco efecto sobre la repolarización. Tiene un efecto inotrópico negativo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cardioversión farmacológica de fibrilación auricular de <48 h sin cardiopatía estructural",
+        "dosis": "200-300 mg VO o 2 mg/kg IV (máximo 150 mg)",
+        "posologia": "Dosis única (IV en 10-20 min)",
+        "via": "VO / IV",
+        "nota": "Monitorización ECG; cardioversión en 3-8 h (VO) o en 1 h (IV)"
+      },
+      {
+        "patologia": "«Pastilla en el bolsillo» para episodios de FA paroxística (probada antes en el hospital)",
+        "dosis": "200 mg (<70 kg) o 300 mg (≥70 kg)",
+        "posologia": "Dosis única al inicio del episodio, junto con un betabloqueante",
+        "via": "VO",
+        "nota": "Solo si la primera administración en el hospital fue eficaz y segura"
+      },
+      {
+        "patologia": "Mantenimiento del ritmo sinusal en FA paroxística o persistente sin cardiopatía estructural",
+        "dosis": "50-150 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Asociado a betabloqueante o calcioantagonista no dihidropiridínico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ecocardiograma (FEVI normal, sin hipertrofia grave) y descartar cardiopatía isquémica. ECG basal (QRS). 50 mg cada 12 h en mantenimiento.",
+      "titulacion": "Subir cada 4-5 días (tiempo hasta el estado estable). **ECG tras cada aumento: reducir si el QRS se ensancha >25% respecto al basal.**",
+      "duracion": "Indefinida mientras sea eficaz y siga sin cardiopatía estructural.",
+      "fin": "**Suspender si aparece cardiopatía isquémica o disfunción ventricular.** Retirada directa.",
+      "via": "VO e IV.",
+      "monitorizacion": "**ECG (QRS y PR) tras cada cambio de dosis**, función renal, y reevaluación de cardiopatía estructural si aparecen síntomas nuevos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 90-95%.",
+      "distribucion": "Unión a proteínas del 40%.",
+      "metabolismo": "Hepático por **CYP2D6** (variabilidad genética).",
+      "eliminacion": "Renal (35% inalterada).",
+      "vida_media": "12-27 h.",
+      "ajuste_renal": "FG <35: iniciar con 50 mg cada 12 h y monitorizar niveles o QRS.",
+      "ajuste_hepatico": "Evitar en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Amiodarona",
+          "efecto": "Duplica sus niveles",
+          "gravedad": "alta",
+          "manejo": "Reducir la flecainida un 50%"
+        },
+        {
+          "con": "Inhibidores del CYP2D6 (paroxetina, fluoxetina, quinidina)",
+          "efecto": "Aumentan sus niveles: proarritmia",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis y vigilar QRS"
+        },
+        {
+          "con": "Betabloqueantes y verapamilo",
+          "efecto": "Inotropismo negativo aditivo",
+          "gravedad": "media",
+          "manejo": "Combinación deseable para evitar el flúter 1:1, pero vigilar"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Aumento leve de la digoxinemia",
+          "gravedad": "baja",
+          "manejo": "Vigilar niveles"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo y visión borrosa",
+        "Ensanchamiento del QRS",
+        "Náuseas, cefalea"
+      ],
+      "graves": [
+        "**Proarritmia: taquicardia ventricular monomorfa incesante**, sobre todo con cardiopatía estructural",
+        "**Flúter auricular con conducción 1:1**",
+        "Insuficiencia cardiaca en FEVI reducida",
+        "**Desenmascaramiento de un patrón de Brugada**"
+      ]
+    },
+    "contraindicaciones": [
+      "**Cardiopatía isquémica (infarto previo) o FEVI reducida**",
+      "Hipertrofia ventricular izquierda grave",
+      "Síndrome de Brugada",
+      "Bloqueo de rama o BAV de 2.º-3.er grado sin marcapasos",
+      "Shock cardiogénico"
+    ],
+    "perlas": [
+      "**«Flecainida sin frenador del nodo es un error»**: el flúter 1:1 resultante puede producir síncope.",
+      "**La intoxicación por flecainida (QRS ancho, TV) se trata con BICARBONATO sódico IV**, como la de los antidepresivos tricíclicos.",
+      "Antes de usarla en cualquier paciente: ¿ecocardiograma normal y sin cardiopatía isquémica? Si no se sabe, no se da."
+    ],
+    "embarazo_lactancia": "Se ha usado en el embarazo para tratar taquicardias fetales; usar solo si es necesario. Se excreta en la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 14; Harrison 20.ª ed., cap. de fibrilación auricular"
+  }
+]

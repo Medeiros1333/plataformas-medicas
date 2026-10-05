@@ -1,0 +1,541 @@
+[
+  {
+    "id": "END-dapagliflozina",
+    "nombre": "Dapagliflozina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "iSGLT2 (inhibidor del cotransportador sodio-glucosa tipo 2)",
+    "subclase": "iSGLT2 con indicación cardiorrenal independiente de la diabetes",
+    "vs_clase": [
+      "**Primer iSGLT2 con beneficio demostrado en ERC SIN diabetes** (DAPA-CKD) y en insuficiencia cardiaca con cualquier FEVI (DAPA-HF y DELIVER): la misma dosis fija de **10 mg** para todas las indicaciones.",
+      "**Se puede iniciar con FG ≥25 mL/min** para protección renal y cardiaca (el efecto hipoglucemiante desaparece con FG <45).",
+      "Frente a empagliflozina: eficacia cardiorrenal equivalente; **la diferencia práctica es de evidencia por indicación y de financiación**, no de mecanismo."
+    ],
+    "mecanismo": "Inhibe el SGLT2 del túbulo contorneado proximal, que reabsorbe el 90% de la glucosa filtrada: **glucosuria (≈70 g/día, unas 280 kcal), natriuresis y diuresis osmótica**. Restaura el feedback tubuloglomerular (vasoconstricción de la arteriola aferente → menor hiperfiltración) y mejora el metabolismo energético miocárdico. **No produce hipoglucemia por sí solo** (efecto independiente de la insulina).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2 (especialmente con enfermedad cardiovascular, insuficiencia cardiaca o ERC)",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Eficacia hipoglucemiante solo con FG ≥45"
+      },
+      {
+        "patologia": "Insuficiencia cardiaca (FEVI reducida, ligeramente reducida o preservada), con o sin diabetes",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Uno de los 4 pilares; se puede iniciar en el ingreso una vez estable"
+      },
+      {
+        "patologia": "Enfermedad renal crónica con o sin diabetes (FG ≥25 y albuminuria)",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Mantener hasta diálisis"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día, sin titulación. FG basal. **Si toma insulina o sulfonilurea, reducir su dosis** (riesgo de hipoglucemia). Si hay hipovolemia o diurético a dosis alta, valorar bajar el diurético.",
+      "titulacion": "No se titula. **Es esperable una caída inicial del FG del 3-5 mL/min** (hemodinámica, reversible): no suspender por ello.",
+      "duracion": "Indefinida.",
+      "fin": "**Suspender 3 días antes de cirugía mayor** y en enfermedad aguda con ingesta escasa, vómitos o deshidratación («días de enfermedad»), por riesgo de cetoacidosis euglucémica. Reiniciar al comer con normalidad.",
+      "via": "VO, a cualquier hora.",
+      "monitorizacion": "FG a las 2-4 semanas y después según ERC; volemia; higiene genital."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 78%.",
+      "distribucion": "Unión a proteínas del 91%.",
+      "metabolismo": "Glucuronidación (UGT1A9), sin CYP relevante.",
+      "eliminacion": "Renal como metabolito inactivo.",
+      "vida_media": "13 h.",
+      "ajuste_renal": "Iniciar con FG ≥25 para indicación cardiorrenal; continuar hasta diálisis. Con FG <45 apenas baja la glucemia.",
+      "ajuste_hepatico": "Hepatopatía grave: iniciar con 5 mg.",
+      "interacciones": [
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Reducir insulina un 10-20% o la sulfonilurea al iniciar si HbA1c <8%"
+        },
+        {
+          "con": "Diuréticos de asa",
+          "efecto": "Depleción de volumen e hipotensión",
+          "gravedad": "media",
+          "manejo": "Valorar reducir el diurético"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Reduce la litemia (más excreción renal)",
+          "gravedad": "media",
+          "manejo": "Controlar litemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Infecciones micóticas genitales** (vulvovaginitis, balanitis)",
+        "Poliuria, depleción de volumen",
+        "Infección urinaria",
+        "Caída inicial del FG"
+      ],
+      "graves": [
+        "**Cetoacidosis diabética EUGLUCÉMICA** (glucemia <250 mg/dL), sobre todo con ayuno, cirugía o reducción brusca de insulina",
+        "Gangrena de Fournier (excepcional)",
+        "Deshidratación con fracaso renal prerrenal"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1 (fuera de ficha y con alto riesgo de cetoacidosis)",
+      "Diálisis",
+      "Cetoacidosis previa con iSGLT2",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Cetoacidosis euglucémica**: un paciente con iSGLT2, vómitos y malestar con glucemia «normal» necesita gasometría y cetonemia.",
+      "La caída inicial del FG es un efecto deseado (menos hiperfiltración), no nefrotoxicidad."
+    ],
+    "embarazo_lactancia": "Contraindicada en embarazo (2.º-3.er trimestre afecta al desarrollo renal en animales) y lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus e insuficiencia cardiaca"
+  },
+  {
+    "id": "END-liraglutida",
+    "nombre": "Liraglutida",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Agonista del receptor de GLP-1 (incretinmimético)",
+    "subclase": "Agonista GLP-1 de administración DIARIA",
+    "vs_clase": [
+      "**Inyección DIARIA** (semaglutida, dulaglutida y tirzepatida son semanales).",
+      "**Indicada también en la OBESIDAD a 3 mg/día** (la dosis para diabetes es 1,2-1,8 mg) y **autorizada en adolescentes desde los 12 años**.",
+      "**Beneficio cardiovascular demostrado** (LEADER: menos muerte cardiovascular).",
+      "**Vida media de 13 h: si aparecen efectos adversos o hay que suspenderla (cirugía), desaparece en 1-2 días**, frente a las semanas de los semanales."
+    ],
+    "mecanismo": "Análogo de GLP-1 con un ácido graso que lo une a la albúmina y prolonga su acción. Estimula la secreción de insulina **dependiente de glucosa** (sin hipoglucemia en monoterapia), inhibe el glucagón, **enlentece el vaciamiento gástrico** y actúa sobre el hipotálamo reduciendo el apetito.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2",
+        "dosis": "0,6 mg → 1,2 mg → 1,8 mg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "Subir 0,6 mg cada semana según tolerancia digestiva"
+      },
+      {
+        "patologia": "Obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "dosis": "0,6 mg → 3 mg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "nota": "Escalada semanal de 0,6 mg; suspender si no pierde ≥5% del peso a las 12 semanas de dosis plena"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,6 mg/día durante 1 semana (dosis de tolerancia, no eficaz). Reducir sulfonilurea o insulina si se asocian.",
+      "titulacion": "Subir cada semana hasta 1,2-1,8 mg (diabetes) o 3 mg (obesidad). Si hay náuseas, mantener la dosis 1 semana más.",
+      "duracion": "Indefinida mientras sea eficaz; al suspenderla se recupera gran parte del peso.",
+      "fin": "Suspensión directa. Suspender ante pancreatitis.",
+      "via": "SC (abdomen, muslo o brazo), a cualquier hora del día pero siempre a la misma.",
+      "monitorizacion": "HbA1c cada 3 meses, peso, síntomas digestivos y de pancreatitis o colelitiasis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad SC del 55%; pico en 8-12 h.",
+      "distribucion": "Unión a albúmina >98%.",
+      "metabolismo": "Proteólisis endógena (DPP-4 y endopeptidasas), sin CYP.",
+      "eliminacion": "Sin vía específica (degradación proteica).",
+      "vida_media": "**13 h.**",
+      "ajuste_renal": "No precisa; no recomendada en enfermedad renal terminal.",
+      "ajuste_hepatico": "No recomendada en insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Reducir su dosis al iniciar"
+        },
+        {
+          "con": "Fármacos orales de margen estrecho (warfarina, levotiroxina)",
+          "efecto": "Absorción alterada por el retraso del vaciamiento gástrico",
+          "gravedad": "baja",
+          "manejo": "Control de INR o TSH al iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas, vómitos, diarrea** (dosis-dependientes, transitorios)",
+        "Saciedad precoz, estreñimiento",
+        "Aumento leve de la FC"
+      ],
+      "graves": [
+        "Pancreatitis aguda",
+        "Colelitiasis y colecistitis",
+        "Deshidratación con fracaso renal por vómitos",
+        "Tumores de células C tiroideas (en roedores; no demostrado en humanos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente personal o familiar de carcinoma medular de tiroides o MEN 2",
+      "Antecedente de pancreatitis (relativa)",
+      "Diabetes tipo 1",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Es la opción de GLP-1 cuando interesa una vida media corta** (paciente con mala tolerancia digestiva o pendiente de cirugía).",
+      "Todos los GLP-1 retrasan el vaciamiento gástrico: riesgo de aspiración en la anestesia; informar al anestesista."
+    ],
+    "embarazo_lactancia": "Contraindicada; suspender al planificar la gestación.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y obesidad"
+  },
+  {
+    "id": "END-dulaglutida",
+    "nombre": "Dulaglutida",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Agonista del receptor de GLP-1 (incretinmimético)",
+    "subclase": "Agonista GLP-1 semanal unido a fragmento Fc",
+    "vs_clase": [
+      "**Semanal, en pluma precargada de un solo uso sin necesidad de ajustar ni ver la aguja**: el más sencillo de administrar del grupo.",
+      "**Beneficio cardiovascular en una población mayoritariamente en PREVENCIÓN PRIMARIA** (REWIND), a diferencia del resto de ensayos.",
+      "**Menor pérdida de peso que semaglutida y tirzepatida**; sin indicación para la obesidad.",
+      "**Unido a un fragmento Fc de IgG4**: no se filtra por el riñón, sin ajuste renal."
+    ],
+    "mecanismo": "Dos moléculas análogas de GLP-1 unidas a un fragmento Fc de inmunoglobulina, que impide su filtración renal y su degradación por DPP-4. Acción incretina dependiente de glucosa, inhibición del glucagón, retraso del vaciamiento gástrico y saciedad.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2",
+        "dosis": "0,75-1,5 mg (hasta 3-4,5 mg)",
+        "posologia": "Cada 7 días, el mismo día de la semana",
+        "via": "SC",
+        "nota": "Subir a 3 y 4,5 mg cada ≥4 semanas si no se alcanza el objetivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,75 mg/semana (1,5 mg si se busca más efecto y se tolera). Reducir sulfonilurea o insulina.",
+      "titulacion": "Cada 4 semanas: 1,5 → 3 → 4,5 mg.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa (el efecto persiste 1-2 semanas). Si se olvida una dosis, ponerla si faltan ≥72 h para la siguiente.",
+      "via": "SC semanal.",
+      "monitorizacion": "HbA1c, peso, tolerancia digestiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad SC del 47-65%.",
+      "distribucion": "Volumen pequeño (proteína grande).",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Proteólisis; no se filtra.",
+      "vida_media": "**≈5 días.**",
+      "ajuste_renal": "No precisa; no recomendada en ERC terminal.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Reducir su dosis al iniciar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea, vómitos",
+        "Dispepsia, pérdida de apetito"
+      ],
+      "graves": [
+        "Pancreatitis aguda",
+        "Colelitiasis",
+        "Fracaso renal por deshidratación"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de carcinoma medular de tiroides o MEN 2",
+      "Diabetes tipo 1",
+      "Gastroparesia grave",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**El paciente con dificultad para manipular plumas (anciano, temblor, baja visión) suele administrarse mejor la dulaglutida.**"
+    ],
+    "embarazo_lactancia": "Contraindicada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus"
+  },
+  {
+    "id": "END-tirzepatida",
+    "nombre": "Tirzepatida",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Agonista del receptor de GLP-1 (incretinmimético)",
+    "subclase": "Agonista DUAL de los receptores de GIP y GLP-1, semanal",
+    "vs_clase": [
+      "**Agonista DUAL GIP + GLP-1** («twincretina»): no es un GLP-1 puro.",
+      "**El fármaco con mayor descenso de HbA1c y de peso del grupo** (hasta un 20-22% del peso en obesidad, SURMOUNT; superior a semaglutida en SURPASS-2).",
+      "**Indicada en la obesidad** y con beneficio en la apnea del sueño asociada a obesidad.",
+      "**Puede reducir la eficacia de los anticonceptivos orales** en las 4 semanas tras iniciar o subir la dosis (retraso del vaciamiento): añadir método barrera."
+    ],
+    "mecanismo": "Péptido que activa los receptores del polipéptido insulinotrópico dependiente de glucosa (GIP) y de GLP-1: aumenta la secreción de insulina dependiente de glucosa, mejora la sensibilidad a la insulina, reduce el glucagón, enlentece el vaciamiento gástrico y disminuye el apetito.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes mellitus tipo 2",
+        "dosis": "2,5 mg → 5-15 mg",
+        "posologia": "Cada 7 días",
+        "via": "SC",
+        "nota": "Subir 2,5 mg cada ≥4 semanas"
+      },
+      {
+        "patologia": "Obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "dosis": "2,5 mg → 5-15 mg",
+        "posologia": "Cada 7 días",
+        "via": "SC",
+        "nota": "Dosis de mantenimiento según respuesta y tolerancia"
+      }
+    ],
+    "esquema": {
+      "inicio": "2,5 mg/semana durante 4 semanas (dosis de inicio, no de mantenimiento).",
+      "titulacion": "Subir 2,5 mg cada 4 semanas hasta 5, 10 o 15 mg.",
+      "duracion": "Indefinida; al suspenderla se recupera peso.",
+      "fin": "Suspensión directa; pancreatitis obliga a retirarla definitivamente.",
+      "via": "SC semanal.",
+      "monitorizacion": "HbA1c, peso, tolerancia digestiva, síntomas biliares."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad SC del 80%.",
+      "distribucion": "Unida a albúmina (cadena de ácido graso).",
+      "metabolismo": "Proteólisis y beta-oxidación.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "≈5 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "**Menor absorción del anticonceptivo**",
+          "gravedad": "media",
+          "manejo": "Método barrera 4 semanas tras iniciar y tras cada subida, o cambiar a método no oral"
+        },
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Reducir su dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea, vómitos, estreñimiento",
+        "Disminución del apetito",
+        "Reacciones en el punto de inyección"
+      ],
+      "graves": [
+        "Pancreatitis",
+        "Colelitiasis (asociada a la pérdida rápida de peso)",
+        "Deshidratación y fracaso renal"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de carcinoma medular de tiroides o MEN 2",
+      "Diabetes tipo 1",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**La pérdida de peso incluye masa magra**: asociar dieta rica en proteínas y ejercicio de fuerza.",
+      "En mujeres en edad fértil con anticonceptivo oral, avisar de la interacción al iniciar."
+    ],
+    "embarazo_lactancia": "Contraindicada; suspender al menos 1 mes antes de la concepción.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., caps. de diabetes mellitus y obesidad"
+  },
+  {
+    "id": "END-insulina-degludec",
+    "nombre": "Insulina degludec",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina basal",
+    "subclase": "Análogo de acción ultraprolongada",
+    "vs_clase": [
+      "**Duración >42 h y perfil completamente plano**: **menos hipoglucemias nocturnas** que glargina U100 (DEVOTE).",
+      "**FLEXIBILIDAD horaria**: puede ponerse a horas distintas cada día siempre que pasen al menos 8 h entre dosis.",
+      "**Tarda 3-4 días en alcanzar el estado estable**: los ajustes de dosis se hacen cada 3-4 días, no a diario.",
+      "Disponible en U100 y U200 (menos volumen en dosis altas)."
+    ],
+    "mecanismo": "Tras la inyección forma multihexámeros solubles en el tejido subcutáneo que liberan monómeros de forma lenta y continua; además se une a la albúmina. Resultado: insulinemia basal sin pico, que suprime la producción hepática de glucosa entre comidas y por la noche.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Diabetes tipo 1 (insulina basal del esquema basal-bolo)",
+        "dosis": "≈50% de la dosis total diaria (0,2-0,3 UI/kg)",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "dosis_objetivo": "Glucemia basal en ayunas 80-130 mg/dL sin hipoglucemias nocturnas"
+      },
+      {
+        "patologia": "Diabetes tipo 2 que requiere insulinización",
+        "dosis": "10 UI o 0,1-0,2 UI/kg",
+        "posologia": "Cada 24 h",
+        "via": "SC",
+        "dosis_objetivo": "Glucemia basal 80-130 mg/dL",
+        "nota": "Ajuste: +2 UI cada 3-4 días si la glucemia basal está por encima del objetivo"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 UI/día (DM2) o 0,2-0,3 UI/kg/día (DM1). Paso desde otra basal: unidad por unidad.",
+      "titulacion": "Ajustar 2 UI **cada 3-4 días** según la media de glucemias en ayunas. Reducir un 10-20% si hay hipoglucemia.",
+      "duracion": "Indefinida.",
+      "fin": "No se suspende en la DM1. En la DM2 puede desescalarse si mejora el control con otros fármacos.",
+      "via": "SC, con flexibilidad horaria (intervalo mínimo 8 h).",
+      "monitorizacion": "Glucemias capilares o monitorización continua, HbA1c cada 3 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación lenta y constante desde el depósito subcutáneo.",
+      "distribucion": "Unión a albúmina >99%.",
+      "metabolismo": "Como la insulina humana.",
+      "eliminacion": "Degradación por insulinasas (hígado y riñón).",
+      "vida_media": "**25 h (duración >42 h).**",
+      "ajuste_renal": "Necesidades menores en ERC avanzada: titulación prudente.",
+      "ajuste_hepatico": "Necesidades menores: titulación prudente.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Enmascaran la hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación sobre síntomas"
+        },
+        {
+          "con": "Glucocorticoides",
+          "efecto": "Hiperglucemia vespertina",
+          "gravedad": "media",
+          "manejo": "Aumentar sobre todo la insulina prandial o NPH matutina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipoglucemia (menor que con otras basales)",
+        "Aumento de peso",
+        "Lipohipertrofia si no se rotan los puntos"
+      ],
+      "graves": [
+        "Hipoglucemia grave (más prolongada por su larga acción)",
+        "Hipopotasemia (dosis altas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia",
+      "No para administración IV ni en bomba de insulina",
+      "No apta para la cetoacidosis (se usa insulina rápida IV)"
+    ],
+    "perlas": [
+      "**Si hay hipoglucemia con degludec, su efecto persiste: vigilancia prolongada.**",
+      "Es la basal ideal para el paciente con horarios irregulares (trabajo a turnos)."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo (datos de seguridad favorables). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus"
+  },
+  {
+    "id": "END-insulina-nph",
+    "nombre": "Insulina NPH (isófana)",
+    "sinonimos": [
+      "Insulina humana isófana",
+      "Insulina premezclada 30/70 (con regular)"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Insulina basal",
+    "subclase": "Insulina humana de acción intermedia",
+    "vs_clase": [
+      "**Acción INTERMEDIA con PICO a las 4-8 h** (los análogos basales no tienen pico): **más hipoglucemia nocturna** y suele necesitar **2 dosis al día**.",
+      "**Es una SUSPENSIÓN turbia: hay que agitar (rodar) el vial o la pluma 10-20 veces** antes de inyectar, o la dosis es irregular.",
+      "**Su pico la hace ideal para la HIPERGLUCEMIA POR CORTICOIDES** (dosis matutina con la prednisona: el pico coincide con el de la hiperglucemia vespertina).",
+      "**Mucho más barata** y con amplia experiencia en el embarazo."
+    ],
+    "mecanismo": "Insulina humana combinada con protamina, que forma cristales y retrasa su absorción subcutánea. Inicio a 1-2 h, pico a 4-8 h y duración de 12-16 h.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperglucemia inducida por glucocorticoides (dosis única matutina de prednisona)",
+        "dosis": "0,1 UI/kg por cada 10 mg de prednisona (máximo 0,4 UI/kg)",
+        "posologia": "Una vez al día, por la mañana con el corticoide",
+        "via": "SC",
+        "nota": "Reducir a la par que se baja el corticoide"
+      },
+      {
+        "patologia": "Diabetes tipo 2 que requiere insulina basal (opción económica)",
+        "dosis": "10 UI o 0,1-0,2 UI/kg",
+        "posologia": "Cada 24 h al acostarse, o repartida cada 12 h",
+        "via": "SC",
+        "dosis_objetivo": "Glucemia basal 80-130 mg/dL"
+      },
+      {
+        "patologia": "Diabetes gestacional o pregestacional",
+        "dosis": "Dosis individualizada (inicio 0,1-0,2 UI/kg)",
+        "posologia": "Cada 12 h (antes del desayuno y al acostarse)",
+        "via": "SC",
+        "dosis_objetivo": "Glucemia basal <95 mg/dL"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 UI al acostarse (DM2), o según el corticoide. Agitar antes de usar.",
+      "titulacion": "+2 UI cada 3 días según glucemia basal (o vespertina en hiperglucemia por corticoides).",
+      "duracion": "Indefinida en DM2; mientras dure el corticoide en la hiperglucemia esteroidea; hasta el parto en la gestacional.",
+      "fin": "En la gestacional se suspende tras el parto con control glucémico posterior. En la esteroidea, reducir proporcionalmente al corticoide.",
+      "via": "SC (nunca IV: es una suspensión).",
+      "monitorizacion": "Glucemias capilares, incluida alguna nocturna (3:00) si se pone al acostarse."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio 1-2 h; **pico 4-8 h**; duración 12-16 h. Variabilidad alta día a día.",
+      "distribucion": "Como la insulina endógena.",
+      "metabolismo": "Degradación por insulinasas.",
+      "eliminacion": "Hepática y renal.",
+      "vida_media": "Efecto de 12-16 h.",
+      "ajuste_renal": "Reducir dosis en ERC avanzada.",
+      "ajuste_hepatico": "Reducir dosis en insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Enmascaran la hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación"
+        },
+        {
+          "con": "Glucocorticoides y tiazidas",
+          "efecto": "Aumentan las necesidades de insulina",
+          "gravedad": "media",
+          "manejo": "Ajustar dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hipoglucemia, sobre todo nocturna** (pico de madrugada)",
+        "Aumento de peso",
+        "Lipohipertrofia"
+      ],
+      "graves": [
+        "Hipoglucemia grave",
+        "Alergia a la protamina (rara; relevante si después se necesita protamina IV)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipoglucemia",
+      "**Administración IV**",
+      "Cetoacidosis (usar insulina rápida IV)"
+    ],
+    "perlas": [
+      "**«Agitar la NPH» es una instrucción esencial**: sin homogeneizar, la primera mitad del vial es casi diluyente y la última, casi pura.",
+      "**Hiperglucemia por prednisona matutina = hiperglucemia de tarde**: la NPH por la mañana la cubre mejor que una basal plana."
+    ],
+    "embarazo_lactancia": "De elección en el embarazo junto con detemir y análogos rápidos. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; Harrison 20.ª ed., cap. de diabetes mellitus"
+  }
+]

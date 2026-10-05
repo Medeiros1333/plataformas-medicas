@@ -1,0 +1,278 @@
+[
+  {
+    "id": "PED-HEM-vitamina-k",
+    "nombre": "Vitamina K (profilaxis de la enfermedad hemorrágica del recién nacido)",
+    "sinonimos": [
+      "Fitomenadiona"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Vitamina",
+    "subclase": "Cofactor de la gamma-carboxilación de los factores de la coagulación",
+    "mecanismo": "Es el cofactor de la gamma-glutamil carboxilasa, la enzima que carboxila los residuos de ácido glutámico de los factores II, VII, IX y X y de las proteínas C y S. Sin esa carboxilación, los factores existen pero no pueden unirse al calcio ni anclarse a la superficie fosfolipídica de la plaqueta: están fabricados pero son funcionalmente inertes. El recién nacido nace con un déficit fisiológico por tres motivos que se suman: la vitamina K atraviesa MAL la placenta, la leche materna contiene muy poca (unos 2 microgramos por litro frente a los 50 de la fórmula) y el intestino del neonato es ESTÉRIL las primeras semanas, de modo que no hay flora que la sintetice. El resultado es una ventana de vulnerabilidad que la profilaxis al nacimiento cierra por completo.",
+    "espectro": null,
+    "dosis_pediatrica_base": "1 mg por vía intramuscular en dosis ÚNICA al nacimiento en el recién nacido de más de 1500 g (dosis FIJA, no ponderal)",
+    "dosis_maxima": "En el sangrado establecido, 1-2 mg IV lentos, repetibles; en el prematuro de menos de 1500 g, 0,5 mg",
+    "presentaciones": [
+      "Ampollas de 2 mg/0,2 mL (formulación pediátrica) y de 10 mg",
+      "Preparados orales para la pauta oral repetida donde se emplea"
+    ],
+    "edad_minima": "Primeras horas de vida: es el primer fármaco que recibe la inmensa mayoría de los seres humanos",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido a término (más de 1500 g)",
+        "ajuste": "1 mg IM en dosis única en las primeras horas de vida"
+      },
+      {
+        "franja": "Prematuro de menos de 1500 g",
+        "ajuste": "0,5 mg IM o 0,3-0,5 mg/kg: dosis reducida por su menor masa y su inmadurez hepática"
+      },
+      {
+        "franja": "Rechazo familiar de la vía intramuscular",
+        "ajuste": "Pauta ORAL de 2 mg al nacimiento, a la semana y al mes (y semanal hasta las 12 semanas en el amamantado según protocolo): es MENOS eficaz para prevenir la forma TARDÍA y exige cumplimiento estricto"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es probablemente la profilaxis con mejor relación entre coste, esfuerzo y daño evitado de toda la medicina, y su historia explica por qué. Existen tres formas de enfermedad hemorrágica: la PRECOZ (primeras 24 horas, asociada a fármacos maternos como antiepilépticos inductores o warfarina), la CLÁSICA (días 2-7) y la TARDÍA (de 2 a 12 semanas), que es la más temida porque hasta la mitad de los casos debuta como HEMORRAGIA INTRACRANEAL en un lactante previamente sano, con una mortalidad en torno al 20% y secuelas neurológicas graves en los supervivientes. La forma tardía afecta casi exclusivamente a lactantes AMAMANTADOS que NO recibieron profilaxis, y también a los que tienen una colestasis no diagnosticada que impide absorber la vitamina liposoluble. El rechazo de la profilaxis por parte de algunas familias, alimentado por una asociación con leucemia que fue investigada y DESCARTADA hace décadas, ha producido un resurgimiento de casos en varios países: es un ejemplo de manual de cómo una información falsa cuesta vidas.",
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS universal de la enfermedad hemorrágica del recién nacido",
+        "dosis": "1 mg IM en dosis única en las primeras horas de vida",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "dosis_objetivo": "Prevención de las tres formas, incluida la TARDÍA con hemorragia intracraneal",
+        "nota": "Se administra a TODOS los recién nacidos. Una sola inyección elimina prácticamente el riesgo durante los primeros meses"
+      },
+      {
+        "patologia": "Enfermedad hemorrágica ESTABLECIDA",
+        "dosis": "1-2 mg IV lentos, repetibles cada 8-12 horas, junto con PLASMA FRESCO o complejo protrombínico si hay sangrado activo",
+        "posologia": "Repetible según respuesta",
+        "via": "IV",
+        "dosis_objetivo": "Normalización del tiempo de protrombina y cese del sangrado",
+        "nota": "La vitamina K tarda HORAS en hacer efecto porque hay que sintetizar factores nuevos: ante un sangrado grave hay que aportar los factores YA HECHOS con plasma o complejo protrombínico"
+      },
+      {
+        "patologia": "Recién nacido de madre con antiepilépticos INDUCTORES, rifampicina o warfarina",
+        "dosis": "1 mg IM al nacimiento, con valoración de dosis materna prenatal",
+        "posologia": "Dosis única, con posible repetición",
+        "via": "IM",
+        "dosis_objetivo": "Prevención de la forma PRECOZ, que aparece en las primeras 24 horas",
+        "nota": "Estos niños tienen riesgo de la forma PRECOZ, que la profilaxis estándar no siempre previene por completo"
+      },
+      {
+        "patologia": "Lactante con COLESTASIS o malabsorción de grasas (fibrosis quística, atresia de vías biliares)",
+        "dosis": "1-2 mg semanales o según niveles",
+        "posologia": "Semanal",
+        "via": "VO",
+        "dosis_objetivo": "Tiempo de protrombina normal",
+        "nota": "Una hemorragia intracraneal por déficit de vitamina K puede ser la PRIMERA manifestación de una atresia de vías biliares no diagnosticada"
+      }
+    ],
+    "esquema": {
+      "inicio": "En las primeras horas de vida, idealmente tras el contacto piel con piel y la primera toma, para no interferir con el vínculo ni con el inicio de la lactancia.",
+      "titulacion": "Dosis fija.",
+      "duracion": "Dosis única intramuscular; la pauta oral requiere varias dosis repartidas en semanas.",
+      "fin": "No requiere seguimiento en el niño sano.",
+      "via": "INTRAMUSCULAR en el vasto lateral del muslo. Es MÁS eficaz que la oral para prevenir la forma tardía, porque crea un depósito de liberación lenta.",
+      "monitorizacion": "Ninguna en el niño sano. En el sangrado, tiempo de protrombina e INR."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liposoluble: la absorción ORAL requiere sales biliares, y por eso FALLA precisamente en el lactante con colestasis, que es uno de los que más la necesita. La vía intramuscular crea un DEPÓSITO que se libera durante semanas.",
+      "distribucion": "Hígado principalmente.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "Corta en plasma, pero el depósito intramuscular mantiene concentraciones durante semanas: esa es la clave de su eficacia en la forma tardía.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "En la colestasis, la vía oral no es fiable: hay que usar la parenteral.",
+      "interacciones": [
+        {
+          "con": "ANTIEPILÉPTICOS inductores maternos (fenobarbital, fenitoína, carbamazepina) y rifampicina",
+          "efecto": "Aceleran el catabolismo de la vitamina K fetal y producen la forma PRECOZ de la enfermedad hemorrágica",
+          "gravedad": "alta",
+          "manejo": "Algunos protocolos añaden vitamina K a la MADRE en las últimas semanas de gestación, además de la profilaxis del recién nacido"
+        },
+        {
+          "con": "COLESTASIS y malabsorción de grasas",
+          "efecto": "Impiden la absorción de la vitamina K ORAL",
+          "gravedad": "alta",
+          "manejo": "Es el motivo por el que la pauta oral falla justo en los niños de mayor riesgo, y un argumento sólido a favor de la vía intramuscular"
+        },
+        {
+          "con": "Antibióticos de amplio espectro prolongados",
+          "efecto": "Destruyen la flora intestinal que sintetiza vitamina K",
+          "gravedad": "media",
+          "manejo": "Relevante en el lactante con tratamientos antibióticos prolongados"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "La vitamina K es su ANTÍDOTO",
+          "gravedad": "baja",
+          "manejo": "Es la base de la reversión del acenocumarol y de la warfarina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor y hematoma en el punto de inyección",
+        "Prácticamente ningún efecto sistémico a las dosis profilácticas"
+      ],
+      "graves": [
+        "Reacciones anafilactoides con la administración INTRAVENOSA RÁPIDA en el adulto (no con la intramuscular neonatal): hipotensión, broncoespasmo y colapso",
+        "Hemólisis y kernicterus con dosis MUY altas en el prematuro (motivo histórico por el que se abandonaron las dosis altas)"
+      ]
+    },
+    "contraindicaciones": [
+      "Prácticamente ninguna a las dosis profilácticas neonatales",
+      "Administración intravenosa RÁPIDA (hay que diluirla y pasarla lenta)",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "Una sola inyección de 1 mg previene una hemorragia intracraneal con un 20% de mortalidad en un lactante sano. Es, en relación con el esfuerzo, una de las intervenciones más rentables de toda la medicina, y por eso su rechazo tiene consecuencias tan desproporcionadas.",
+      "La forma TARDÍA es la que hay que temer: aparece entre las 2 y las 12 semanas, casi siempre en lactantes AMAMANTADOS que no recibieron profilaxis, y hasta la mitad debuta directamente como hemorragia INTRACRANEAL, sin sangrado previo que avise.",
+      "La asociación con LEUCEMIA que motivó el rechazo de algunas familias fue investigada a fondo y DESCARTADA hace décadas. Conocer ese dato permite responder a la objeción con información concreta en lugar de con autoridad, que es lo que suele funcionar en la consulta.",
+      "La vía INTRAMUSCULAR es superior a la ORAL para prevenir la forma tardía, porque crea un depósito que libera vitamina durante semanas. Si una familia rechaza la inyección, la pauta oral es mejor que nada, pero exige varias dosis y un cumplimiento estricto, y hay que explicar que protege menos.",
+      "La vía oral FALLA justo en quien más la necesita: el lactante con COLESTASIS no diagnosticada no puede absorber una vitamina liposoluble. Es una de las razones de peso a favor de la vía intramuscular universal.",
+      "Una hemorragia por déficit de vitamina K en un lactante de dos meses puede ser la PRIMERA manifestación de una ATRESIA DE VÍAS BILIARES: ante ese cuadro hay que mirar el color de las heces y la bilirrubina directa.",
+      "La vitamina K tarda HORAS en actuar porque hay que sintetizar factores NUEVOS. En un sangrado activo hay que aportar los factores ya hechos con plasma fresco o complejo protrombínico: la vitamina K trata la causa, no la hemorragia de ahora.",
+      "La leche materna es superior a la fórmula en casi todo, y en esto no: contiene unos 2 microgramos por litro frente a los 50 de la fórmula. Es un dato concreto que ayuda a explicar a una familia por qué su bebé amamantado necesita esta inyección precisamente."
+    ],
+    "embarazo_lactancia": "Se administra a la MADRE en las últimas semanas de gestación cuando toma antiepilépticos inductores o rifampicina, para prevenir la forma precoz. La suplementación materna durante la lactancia NO sustituye a la profilaxis del recién nacido.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; recomendaciones de la AEP y de la Academia Americana de Pediatría sobre profilaxis con vitamina K"
+  },
+  {
+    "id": "PED-NML-surfactante",
+    "nombre": "Surfactante pulmonar exógeno",
+    "sinonimos": [
+      "Poractant alfa, beractant"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Agente tensioactivo",
+    "subclase": "Surfactante natural de origen porcino o bovino para administración intratraqueal",
+    "mecanismo": "El surfactante es una mezcla de fosfolípidos (sobre todo dipalmitoilfosfatidilcolina) y proteínas específicas (SP-B y SP-C) que el neumocito tipo II empieza a producir hacia la semana 24 y no alcanza cantidades suficientes hasta la 34-36. Su función es reducir la TENSIÓN SUPERFICIAL en la interfase aire-líquido del alvéolo, y su propiedad clave es que esa reducción es mayor cuanto MENOR es el radio alveolar: eso estabiliza los alvéolos pequeños e impide que se vacíen dentro de los grandes, que es lo que predice la ley de Laplace. Sin surfactante, el pulmón del prematuro colapsa al final de cada espiración, hay que volver a abrirlo en cada respiración con presiones enormes, y aparecen la atelectasia difusa, el edema y las membranas hialinas. El surfactante exógeno restituye esa película y transforma la mecánica pulmonar en minutos: es uno de los tratamientos con efecto más espectacular y más inmediato de toda la medicina.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Poractant alfa 100-200 mg/kg en la primera dosis, con dosis posteriores de 100 mg/kg si es preciso",
+    "dosis_maxima": "Habitualmente 2-3 dosis en total, separadas 6-12 horas",
+    "presentaciones": [
+      "Poractant alfa (origen porcino) en viales de 120 y 240 mg",
+      "Beractant (origen bovino)",
+      "Requiere conservación en nevera y calentamiento suave antes de administrar; NO se agita (produce espuma y se inactiva)"
+    ],
+    "edad_minima": "Recién nacido prematuro, desde la sala de partos",
+    "franjas_edad": [
+      {
+        "franja": "Prematuro extremo (menos de 28 semanas)",
+        "ajuste": "Es el grupo de máxima indicación; se administra precozmente ante la primera evidencia de dificultad respiratoria"
+      },
+      {
+        "franja": "Prematuro moderado-tardío",
+        "ajuste": "Se administra si hay distrés establecido con necesidad creciente de oxígeno pese al soporte con presión positiva continua"
+      },
+      {
+        "franja": "Recién nacido a término con síndrome de ASPIRACIÓN MECONIAL o neumonía",
+        "ajuste": "El surfactante está INACTIVADO por el meconio o el exudado: se usan dosis mayores o repetidas, y el efecto es menos espectacular"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es un fármaco que solo existe para el recién nacido y que resume la lógica entera de la neonatología: se trata de suplir una FUNCIÓN QUE AÚN NO HA MADURADO, no de combatir una enfermedad. Su historia es además una de las mejores de la medicina moderna, porque muestra cómo dos intervenciones que actúan sobre el mismo problema en momentos distintos se potencian: los CORTICOIDES PRENATALES administrados a la madre aceleran la producción ENDÓGENA de surfactante, y el surfactante EXÓGENO suple lo que falta al nacer; juntos redujeron la mortalidad del distrés respiratorio del prematuro de forma drástica. La segunda peculiaridad es de técnica: la tendencia actual es evitar la intubación siempre que sea posible y administrarlo por métodos MENOS INVASIVOS (LISA o MIST, mediante una sonda fina con el niño respirando espontáneamente con presión positiva continua), porque cada minuto de ventilación mecánica en un pulmón inmaduro contribuye a la displasia broncopulmonar.",
+    "indicaciones": [
+      {
+        "patologia": "SÍNDROME DE DISTRÉS RESPIRATORIO del prematuro (enfermedad de membrana hialina)",
+        "dosis": "Poractant alfa 200 mg/kg en la primera dosis por vía intratraqueal",
+        "posologia": "Dosis única, repetible a las 6-12 horas si persiste la necesidad de oxígeno",
+        "via": "intratraqueal",
+        "dosis_objetivo": "Descenso rápido de la fracción inspirada de oxígeno y mejoría de la mecánica pulmonar en minutos",
+        "nota": "La administración PRECOZ (en las primeras 2 horas de vida) mejora los resultados frente a la tardía. Y hay que ANTICIPARSE al descenso de las necesidades: si no se baja el respirador enseguida, se produce hiperoxia y barotrauma"
+      },
+      {
+        "patologia": "Administración MÍNIMAMENTE INVASIVA (LISA/MIST)",
+        "dosis": "Misma dosis, administrada por una sonda fina con el niño respirando espontáneamente con presión positiva continua",
+        "posologia": "Dosis única",
+        "via": "intratraqueal",
+        "dosis_objetivo": "Aportar el surfactante EVITANDO la intubación y la ventilación mecánica",
+        "nota": "Es la tendencia actual: reduce la displasia broncopulmonar frente a la técnica clásica de intubar, dar surfactante y extubar"
+      },
+      {
+        "patologia": "Síndrome de ASPIRACIÓN MECONIAL",
+        "dosis": "Poractant alfa 200 mg/kg, repetible cada 6 horas, o lavado broncoalveolar con surfactante diluido a 5 mg/mL",
+        "posologia": "Dosis repetidas",
+        "via": "intratraqueal",
+        "nota": "Aquí el surfactante está INACTIVADO por el meconio, no ausente: el mecanismo del problema es distinto y la respuesta, menos brillante"
+      },
+      {
+        "patologia": "Neumonía connatal y hemorragia pulmonar",
+        "dosis": "Poractant alfa 100-200 mg/kg, valorando la repetición a las 6-12 horas",
+        "posologia": "Según evolución",
+        "via": "intratraqueal",
+        "nota": "El exudado y la sangre inactivan el surfactante endógeno; su reposición puede ayudar como medida de rescate"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible ante un distrés establecido del prematuro, idealmente en las primeras 2 horas de vida. Comprobar la posición del tubo o de la sonda ANTES de administrarlo: darlo en un bronquio principal reparte mal el fármaco.",
+      "titulacion": "Se repite a las 6-12 horas si persisten las necesidades altas de oxígeno.",
+      "duracion": "1-3 dosis en total.",
+      "fin": "Cuando las necesidades de oxígeno son bajas y estables.",
+      "via": "INTRATRAQUEAL, en bolo rápido a través del tubo endotraqueal o de una sonda fina (técnica LISA), con el niño en decúbito supino.",
+      "monitorizacion": "Saturación, fracción inspirada de oxígeno y parámetros del respirador de forma CONTINUA durante y después: las necesidades caen en MINUTOS y hay que bajar el soporte con rapidez para evitar hiperoxia y neumotórax."
+    },
+    "farmacocinetica": {
+      "absorcion": "Administración directa en el alvéolo; no se absorbe a la circulación.",
+      "distribucion": "Se distribuye por el árbol bronquial y la superficie alveolar; la posición del niño y la técnica influyen en su reparto.",
+      "metabolismo": "Es reciclado y reutilizado por el propio neumocito tipo II, lo que prolonga su efecto.",
+      "eliminacion": "Catabolismo alveolar local.",
+      "vida_media": "Efecto clínico de horas a días, gracias al reciclaje por el neumocito.",
+      "ajuste_renal": "No aplicable.",
+      "ajuste_hepatico": "No aplicable.",
+      "interacciones": [
+        {
+          "con": "CORTICOIDES PRENATALES maternos",
+          "efecto": "SINERGIA: aceleran la producción endógena de surfactante y potencian el efecto del exógeno",
+          "gravedad": "baja",
+          "manejo": "Es una de las sinergias mejor demostradas de la medicina perinatal, y el motivo por el que ambas intervenciones se consideran conjuntamente"
+        },
+        {
+          "con": "MECONIO, sangre y exudado inflamatorio",
+          "efecto": "INACTIVAN el surfactante",
+          "gravedad": "alta",
+          "manejo": "Explica por qué en la aspiración meconial y en la neumonía hacen falta dosis mayores y la respuesta es menos brillante"
+        },
+        {
+          "con": "Parámetros del RESPIRADOR",
+          "efecto": "Tras la administración, la distensibilidad mejora en minutos: mantener los mismos parámetros produce HIPEROXIA, hipocapnia y NEUMOTÓRAX",
+          "gravedad": "alta",
+          "manejo": "Hay que estar a pie de incubadora para bajar la presión y la fracción inspirada de oxígeno de inmediato. Es el error más frecuente tras administrarlo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "BRADICARDIA y desaturación TRANSITORIAS durante la instilación",
+        "Obstrucción transitoria del tubo endotraqueal",
+        "Reflujo del producto por el tubo"
+      ],
+      "graves": [
+        "NEUMOTÓRAX y enfisema intersticial si no se bajan los parámetros del respirador tras la mejoría",
+        "HEMORRAGIA PULMONAR, asociada sobre todo a la reapertura del ductus arterioso que sigue a la mejoría de la distensibilidad",
+        "Hipocapnia con riesgo de lesión cerebral si no se ajusta la ventilación",
+        "Apnea y necesidad de reintubación en la técnica menos invasiva"
+      ]
+    },
+    "contraindicaciones": [
+      "Malformaciones pulmonares o de la vía aérea incompatibles con la administración",
+      "Hemorragia pulmonar activa (valoración individualizada)",
+      "No está indicado como profilaxis universal en prematuros estables con presión positiva continua eficaz"
+    ],
+    "perlas": [
+      "El error más frecuente y más peligroso ocurre DESPUÉS de administrarlo: la distensibilidad pulmonar mejora en MINUTOS, y si no se bajan enseguida la presión y el oxígeno del respirador, el mismo tratamiento que ha salvado al niño le produce un neumotórax y una hiperoxia. Hay que estar a pie de incubadora ajustando parámetros, no esperando a la siguiente gasometría.",
+      "Es un fármaco que suple una FUNCIÓN INMADURA, no que combate una enfermedad, y esa idea resume buena parte de la neonatología. El prematuro no tiene un pulmón enfermo: tiene un pulmón que aún no ha terminado de fabricar lo que necesita.",
+      "Su combinación con los CORTICOIDES PRENATALES es una de las sinergias mejor documentadas de la medicina perinatal: el corticoide acelera la producción endógena y el surfactante aporta lo que falta. Juntos transformaron el pronóstico del prematuro.",
+      "La tendencia actual es EVITAR LA INTUBACIÓN: las técnicas LISA y MIST permiten administrarlo por una sonda fina con el niño respirando espontáneamente, y reducen la displasia broncopulmonar frente a la técnica clásica. Cada minuto de ventilación mecánica en un pulmón inmaduro deja huella.",
+      "El MECONIO, la sangre y el exudado INACTIVAN el surfactante. Por eso en la aspiración meconial hacen falta dosis mayores y la respuesta es mucho menos espectacular: el problema no es que falte, es que lo están destruyendo.",
+      "La mejoría de la distensibilidad puede REABRIR el ductus arterioso y precipitar una hemorragia pulmonar: es una complicación que aparece justo cuando todo parecía ir bien, y conviene anticiparla.",
+      "NO se AGITA el vial: produce espuma y desnaturaliza las proteínas SP-B y SP-C, que son las que le dan su actividad. Se calienta suavemente en la mano y se voltea con cuidado.",
+      "La administración PRECOZ, en las primeras dos horas, da mejores resultados que la tardía: el pulmón colapsado repetidamente se lesiona deprisa, y cada hora cuenta."
+    ],
+    "embarazo_lactancia": "No aplicable por la población a la que se dirige. La intervención materna equivalente son los CORTICOIDES PRENATALES, que aceleran la producción endógena de surfactante fetal.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; guías europeas de consenso sobre el manejo del síndrome de distrés respiratorio del prematuro"
+  }
+]

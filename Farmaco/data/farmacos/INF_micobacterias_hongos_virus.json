@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "INF-isoniazida",
+    "nombre": "Isoniazida",
+    "sinonimos": [
+      "INH"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antituberculoso de primera línea",
+    "subclase": "Inhibidor de la síntesis de ácidos micólicos",
+    "vs_clase": [
+      "**Bactericida potente frente a bacilos en multiplicación activa** y base de la **profilaxis de la infección tuberculosa latente**.",
+      "**Neuropatía periférica** (dar piridoxina) y **hepatotoxicidad** (mayor en acetiladores lentos, edad avanzada, alcohol).",
+      "Inhibe el CYP2C19 y CYP3A4 (fenitoína, carbamazepina)."
+    ],
+    "mecanismo": "Profármaco activado por la catalasa-peroxidasa micobacteriana KatG; el metabolito activo inhibe la enzima InhA de la síntesis de ácidos micólicos, componentes esenciales y exclusivos de la pared de las micobacterias. De ahí su espectro estrechísimo y su ausencia de efecto sobre la flora normal. Bactericida frente a bacilos en división activa.",
+    "espectro": "Mycobacterium tuberculosis exclusivamente (y M. kansasii). NO tiene actividad frente a ninguna otra bacteria, hongo ni virus.",
+    "indicaciones": [
+      {
+        "patologia": "Tuberculosis activa (fase intensiva y de continuación)",
+        "dosis": "5 mg/kg/día (máx. 300 mg)",
+        "posologia": "Cada 24 h, en ayunas",
+        "via": "VO",
+        "nota": "Siempre en combinación (2 meses HRZE + 4 meses HR). Nunca en monoterapia en enfermedad activa"
+      },
+      {
+        "patologia": "Infección tuberculosa latente",
+        "dosis": "5 mg/kg/día (máx. 300 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "6-9 meses en monoterapia; alternativas más cortas: 3 meses de isoniazida + rifapentina semanal, o 4 meses de rifampicina"
+      },
+      {
+        "patologia": "Prevención de la neuropatía asociada (siempre junto a isoniazida)",
+        "dosis": "Piridoxina 25-50 mg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Obligatoria en embarazo, desnutrición, alcoholismo, diabetes, VIH e insuficiencia renal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día, en ayunas (los alimentos reducen su absorción). Analítica hepática basal en mayores de 35 años, hepatópatas, alcohólicos o embarazadas.",
+      "titulacion": "No se titula. Lo que se ajusta es la asociación de fármacos, no la dosis.",
+      "duracion": "6 meses en la tuberculosis pulmonar sensible (2 HRZE + 4 HR); 9-12 meses en meningitis o tuberculosis osteoarticular; 6-9 meses en infección latente.",
+      "fin": "Se completa el número de meses pautado; se suspende de forma brusca. Suspensión INMEDIATA si las transaminasas superan 3 veces el límite alto con síntomas o 5 veces sin síntomas.",
+      "via": "VO (existe formulación IV).",
+      "monitorizacion": "Transaminasas basales y mensuales en pacientes de riesgo. Preguntar en cada visita por náuseas, anorexia, ictericia, coluria y parestesias. Exploración neurológica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; se reduce con los alimentos y con los antiácidos.",
+      "distribucion": "Excelente en todos los tejidos, incluidos LCR (alcanza el 90% de la concentración plasmática) y las lesiones caseosas.",
+      "metabolismo": "Hepático por N-acetiltransferasa 2 (NAT2), con polimorfismo genético: acetiladores lentos (más frecuentes en poblaciones mediterráneas) tienen mayor riesgo de neuropatía y hepatotoxicidad; acetiladores rápidos, mayor riesgo de fracaso con pautas intermitentes. Inhibe el CYP2C19 y el CYP3A4.",
+      "eliminacion": "Renal, en forma de metabolitos acetilados.",
+      "vida_media": "1 h en acetiladores rápidos, 3 h en lentos.",
+      "ajuste_renal": "No precisa ajuste hasta FG <10; en diálisis, administrar después de la sesión.",
+      "ajuste_hepatico": "Precaución extrema en hepatopatía; es el principal fármaco hepatotóxico del régimen.",
+      "interacciones": [
+        {
+          "con": "Fenitoína y carbamazepina",
+          "efecto": "La isoniazida inhibe su metabolismo y provoca intoxicación (ataxia, nistagmo, somnolencia)",
+          "gravedad": "alta",
+          "manejo": "Monitorizar niveles y reducir la dosis del antiepiléptico"
+        },
+        {
+          "con": "Alcohol y paracetamol",
+          "efecto": "Suma de hepatotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Abstinencia alcohólica; limitar el paracetamol a 2 g/día"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Asociación obligada en el régimen, pero la hepatotoxicidad es aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilancia hepática conjunta; no es motivo para separarlas"
+        },
+        {
+          "con": "Alimentos ricos en tiramina e histamina (queso curado, atún, vino tinto)",
+          "efecto": "La isoniazida inhibe la MAO y la diaminooxidasa: rubefacción, cefalea, palpitaciones",
+          "gravedad": "media",
+          "manejo": "Recomendar evitar esos alimentos si aparecen los síntomas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Elevación asintomática de transaminasas hasta en el 10-20% (habitualmente transitoria y sin necesidad de suspender)",
+        "Náuseas y anorexia",
+        "Parestesias distales"
+      ],
+      "graves": [
+        "Hepatitis clínica, cuyo riesgo aumenta con la edad (raro por debajo de 20 años, hasta el 2-3% por encima de los 50) y con el alcohol",
+        "Neuropatía periférica por depleción de piridoxina, prevenible",
+        "Neuritis óptica",
+        "Psicosis y crisis convulsivas",
+        "Lupus inducido por fármacos con ANA positivos",
+        "Agranulocitosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía activa grave",
+      "Antecedente de hepatitis por isoniazida",
+      "Neuropatía periférica grave preexistente"
+    ],
+    "perlas": [
+      "La piridoxina (vitamina B6) no es un suplemento opcional: la isoniazida es estructuralmente análoga y provoca su depleción. En el embarazo, el alcohólico, el desnutrido y el paciente con VIH es obligatoria.",
+      "La elevación asintomática de transaminasas es tan frecuente que no debe llevar a suspender de forma automática: el criterio es >3 veces con síntomas o >5 veces sin síntomas.",
+      "El fenotipo acetilador determina la toxicidad: el acetilador lento acumula el fármaco y tiene más neuropatía y hepatitis.",
+      "Es uno de los pocos antituberculosos con penetración excelente en el LCR, lo que la hace imprescindible en la meningitis tuberculosa.",
+      "En la intoxicación aguda por isoniazida (convulsiones refractarias, acidosis láctica), el antídoto es la piridoxina IV a dosis gramo por gramo de la isoniazida ingerida."
+    ],
+    "embarazo_lactancia": "Segura y de elección en el embarazo, siempre con piridoxina. Compatible con la lactancia (añadir piridoxina también al lactante).",
+    "micro_relacionado": [
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de tuberculosis"
+  },
+  {
+    "id": "INF-rifampicina",
+    "nombre": "Rifampicina",
+    "sinonimos": [
+      "Rifampin"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antituberculoso de primera línea",
+    "subclase": "Rifamicina: inhibidor de la ARN polimerasa bacteriana",
+    "vs_clase": [
+      "**Esterilizante: actúa sobre bacilos de multiplicación intermitente**; su presencia permite pautas de 6 meses.",
+      "**El INDUCTOR enzimático más potente** (CYP3A4, 2C9, P-gp): reduce anticonceptivos, anticoagulantes, antirretrovirales, inmunosupresores.",
+      "**Coloración naranja de orina, lágrimas y lentes de contacto**; hepatotoxicidad y trombocitopenia inmunológica."
+    ],
+    "mecanismo": "Se une a la subunidad beta de la ARN polimerasa dependiente de ADN bacteriana e impide el inicio de la transcripción. La enzima humana no se ve afectada. Bactericida frente a bacilos intracelulares y de crecimiento lento, incluidos los persistentes en el caseum. La monoterapia genera resistencia rápidamente por mutación puntual del gen rpoB.",
+    "espectro": "Mycobacterium tuberculosis y micobacterias atípicas; además, excelente actividad frente a estafilococos (incluido SARM) en el biofilm de prótesis, Neisseria meningitidis (portadores), Brucella y Legionella. NO se usa nunca en monoterapia salvo en profilaxis de contactos.",
+    "indicaciones": [
+      {
+        "patologia": "Tuberculosis activa",
+        "dosis": "10 mg/kg/día (máx. 600 mg)",
+        "posologia": "Cada 24 h, en ayunas",
+        "via": "VO",
+        "nota": "Componente esencial del régimen; su presencia es lo que permite acortar el tratamiento a 6 meses"
+      },
+      {
+        "patologia": "Infección tuberculosa latente (pauta corta)",
+        "dosis": "10 mg/kg/día (máx. 600 mg)",
+        "posologia": "Cada 24 h, 4 meses",
+        "via": "VO",
+        "nota": "Mejor cumplimiento y menos hepatotoxicidad que 9 meses de isoniazida"
+      },
+      {
+        "patologia": "Infección de prótesis articular o material protésico por estafilococo",
+        "dosis": "600 mg/día (o 450 mg/12 h)",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "SIEMPRE combinada (con levofloxacino, cotrimoxazol o linezolid): es el único fármaco con actividad real sobre el biofilm"
+      },
+      {
+        "patologia": "Profilaxis de contactos de meningitis meningocócica",
+        "dosis": "600 mg/12 h",
+        "posologia": "Cada 12 h, 2 días (4 dosis)",
+        "via": "VO",
+        "nota": "Alternativa: ciprofloxacino en dosis única o ceftriaxona IM"
+      },
+      {
+        "patologia": "Brucelosis",
+        "dosis": "600-900 mg/día",
+        "posologia": "Cada 24 h, 6 semanas",
+        "via": "VO",
+        "nota": "Asociada a doxiciclina"
+      },
+      {
+        "patologia": "Lepra multibacilar",
+        "dosis": "600 mg",
+        "posologia": "Mensual, supervisada",
+        "via": "VO",
+        "nota": "Con dapsona y clofazimina, 12 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena en ayunas (1 h antes o 2 h después de comer). Antes de iniciarla, revisar TODA la medicación crónica del paciente por sus interacciones.",
+      "titulacion": "No se titula.",
+      "duracion": "6 meses en tuberculosis pulmonar; 4 meses en infección latente; 6 semanas en brucelosis; 3-6 meses en infección de prótesis articular junto al tratamiento quirúrgico.",
+      "fin": "Suspensión brusca al completar la pauta. Recordar que la inducción enzimática tarda 1-2 semanas en desaparecer tras suspenderla, por lo que las dosis de los fármacos ajustados deben revisarse de nuevo.",
+      "via": "VO o IV.",
+      "monitorizacion": "Transaminasas y bilirrubina basales y periódicas. Hemograma. Advertir SIEMPRE del color anaranjado de los fluidos antes de la primera dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena en ayunas; los alimentos reducen el pico.",
+      "distribucion": "Excelente, incluidos LCR, hueso, biofilm de prótesis y macrófagos. Es muy lipofílica.",
+      "metabolismo": "Hepático, con desacetilación; INDUCTOR POTENTÍSIMO del CYP3A4, CYP2C9, CYP2C19 y de la glicoproteína P. Además autoinduce su propio metabolismo.",
+      "eliminacion": "Biliar mayoritaria, con circulación enterohepática.",
+      "vida_media": "2-5 h, que se acorta con la autoinducción.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir o evitar en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos hormonales",
+          "efecto": "Reduce drásticamente su eficacia por inducción enzimática, con embarazos no deseados",
+          "gravedad": "alta",
+          "manejo": "Método anticonceptivo no hormonal o de barrera durante el tratamiento y hasta 4 semanas después"
+        },
+        {
+          "con": "Anticoagulantes orales (antivitamina K y directos)",
+          "efecto": "Caída marcada del efecto anticoagulante con riesgo trombótico",
+          "gravedad": "alta",
+          "manejo": "Control estrecho del INR y aumento de dosis; los anticoagulantes directos están prácticamente contraindicados"
+        },
+        {
+          "con": "Inmunosupresores (tacrolimús, ciclosporina, corticoides)",
+          "efecto": "Descenso profundo de sus niveles con riesgo de rechazo del injerto",
+          "gravedad": "alta",
+          "manejo": "Evitar en el trasplantado; si es imprescindible, ajustar por niveles y usar rifabutina"
+        },
+        {
+          "con": "Antirretrovirales (inhibidores de la proteasa, algunos inhibidores de la integrasa)",
+          "efecto": "Pérdida de eficacia del tratamiento antirretroviral",
+          "gravedad": "alta",
+          "manejo": "Sustituir por rifabutina o ajustar el régimen antirretroviral"
+        },
+        {
+          "con": "Antidiabéticos orales, estatinas, azoles, metadona",
+          "efecto": "Reducción de su eficacia por inducción",
+          "gravedad": "alta",
+          "manejo": "Revisar y ajustar todo el tratamiento crónico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Coloración anaranjada-rojiza de orina, sudor, lágrimas y saliva (inofensiva, pero tiñe permanentemente las lentes de contacto blandas)",
+        "Molestias digestivas",
+        "Exantema",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Hepatitis colestásica",
+        "Síndrome pseudogripal con fiebre y mialgias, típico de las pautas intermitentes",
+        "Trombocitopenia inmune, anemia hemolítica",
+        "Fracaso renal agudo por nefritis intersticial inmunoalérgica",
+        "Fracaso terapéutico y rechazo de trasplante por interacciones"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía grave descompensada",
+      "Porfiria",
+      "Uso concomitante con la mayoría de inhibidores de la proteasa del VIH",
+      "Alergia a rifamicinas"
+    ],
+    "perlas": [
+      "Es el inductor enzimático más potente de la farmacopea: iniciar rifampicina obliga a revisar toda la medicación crónica del paciente. Un fallo aquí produce rechazo de trasplante, trombosis o embarazos no deseados.",
+      "Avisar del color anaranjado de los fluidos antes de la primera dosis evita consultas urgentes alarmadas y mejora la adherencia; advertir también de que tiñe irreversiblemente las lentes de contacto blandas.",
+      "Es el único antibiótico con actividad real sobre el biofilm estafilocócico: por eso es imprescindible en la infección de prótesis que no se retira. Pero jamás en monoterapia — la resistencia surge en días.",
+      "La rifabutina es la alternativa cuando la inducción enzimática es inasumible (paciente con VIH en tratamiento antirretroviral o trasplantado): induce mucho menos.",
+      "El síndrome pseudogripal aparece sobre todo con pautas intermitentes y puede confundirse con una infección intercurrente."
+    ],
+    "embarazo_lactancia": "Se considera segura y se usa en el embarazo. Compatible con la lactancia. Añadir vitamina K al recién nacido si se ha usado en el tercer trimestre.",
+    "micro_relacionado": [
+      "BGN-brucella",
+      "BGN-legionella-pneumophila",
+      "BGN-neisseria-meningitidis",
+      "BGP-staphylococcus-aureus",
+      "BGP-staphylococcus-epidermidis",
+      "MYC-mycobacterium-avium",
+      "MYC-mycobacterium-leprae",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de tuberculosis"
+  },
+  {
+    "id": "INF-pirazinamida",
+    "nombre": "Pirazinamida",
+    "sinonimos": [
+      "PZA"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antituberculoso de primera línea",
+    "subclase": "Activo en medio ácido intracelular",
+    "vs_clase": [
+      "**Activa en el medio ÁCIDO intracelular** (bacilos dentro de macrófagos): permite acortar la pauta a 6 meses (solo los 2 primeros meses).",
+      "**HIPERURICEMIA** (artralgias, gota) y la **mayor hepatotoxicidad** de los cuatro.",
+      "M. bovis es intrínsecamente resistente."
+    ],
+    "mecanismo": "Profármaco convertido por la pirazinamidasa micobacteriana en ácido pirazinoico, que se acumula en medio ácido y desestabiliza la membrana y el metabolismo energético del bacilo. Su rasgo diferencial es que solo actúa en medio ácido, es decir, sobre los bacilos semilatentes en el interior de los macrófagos y en las lesiones inflamatorias — precisamente la población que hace largo el tratamiento.",
+    "espectro": "Mycobacterium tuberculosis exclusivamente. M. bovis es intrínsecamente resistente.",
+    "indicaciones": [
+      {
+        "patologia": "Tuberculosis activa, fase intensiva",
+        "dosis": "25 mg/kg/día (máx. 2 g)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Solo durante los 2 primeros meses; su inclusión es lo que permitió pasar de 9 a 6 meses de tratamiento"
+      },
+      {
+        "patologia": "Meningitis tuberculosa",
+        "dosis": "25 mg/kg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Penetra bien en LCR; se mantiene durante la fase intensiva"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día, junto con el resto del régimen. Determinar ácido úrico y transaminasas basales.",
+      "titulacion": "No se titula.",
+      "duracion": "Exactamente 2 meses (fase intensiva). Prolongarla no aporta beneficio y sí toxicidad.",
+      "fin": "Se retira al terminar el segundo mes, continuando con isoniazida y rifampicina 4 meses más.",
+      "via": "VO.",
+      "monitorizacion": "Transaminasas mensuales. Ácido úrico si aparece artralgia. Interrogar por dolor articular en cada visita."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Amplia, incluida buena penetración en LCR.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal, en forma de ácido pirazinoico, que compite con el ácido úrico por la secreción tubular.",
+      "vida_media": "9-10 h.",
+      "ajuste_renal": "FG <30: 25-35 mg/kg tres veces por semana, no a diario.",
+      "ajuste_hepatico": "Contraindicada en hepatopatía significativa: es el antituberculoso más hepatotóxico a dosis plenas.",
+      "interacciones": [
+        {
+          "con": "Alopurinol y uricosúricos",
+          "efecto": "Antagonismo: la pirazinamida eleva el ácido úrico y contrarresta el tratamiento hipouricemiante",
+          "gravedad": "media",
+          "manejo": "La hiperuricemia asintomática no requiere tratar; si hay gota clínica, valorar retirar la pirazinamida"
+        },
+        {
+          "con": "Isoniazida y rifampicina",
+          "efecto": "Hepatotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Control analítico conjunto; ante hepatitis, la pirazinamida suele ser el primer fármaco a retirar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperuricemia asintomática (casi constante, no requiere tratamiento por sí sola)",
+        "Artralgias no gotosas",
+        "Náuseas y anorexia",
+        "Exantema y fotosensibilidad"
+      ],
+      "graves": [
+        "Hepatotoxicidad dosis-dependiente, la más grave de los antituberculosos de primera línea",
+        "Crisis gotosa aguda",
+        "Rabdomiólisis (rara)",
+        "Trombocitopenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía grave",
+      "Gota aguda",
+      "Porfiria",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "Su papel es exclusivamente esterilizante: mata a los bacilos latentes intracelulares en medio ácido, que son los responsables de las recaídas. Sin pirazinamida, el tratamiento de la tuberculosis vuelve a durar 9 meses.",
+      "La hiperuricemia que produce es casi universal y NO debe tratarse ni motivar la retirada si el paciente está asintomático: solo la gota clínica obliga a reconsiderarla.",
+      "Es el primer fármaco que se retira ante una hepatitis por antituberculosos, por ser el más hepatotóxico a dosis plenas.",
+      "Mycobacterium bovis es resistente de forma natural: en una tuberculosis por M. bovis (leche no pasteurizada) hay que ajustar el régimen y prolongarlo a 9 meses."
+    ],
+    "embarazo_lactancia": "Se usa en el embarazo en la mayoría de guías internacionales (OMS), aunque algunas guías estadounidenses la evitan por falta de datos. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de tuberculosis"
+  },
+  {
+    "id": "INF-etambutol",
+    "nombre": "Etambutol",
+    "sinonimos": [
+      "EMB"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antituberculoso de primera línea",
+    "subclase": "Inhibidor de la arabinosil transferasa",
+    "vs_clase": [
+      "**Bacteriostático**: se añade para **evitar la selección de resistencias** hasta conocer el antibiograma.",
+      "**NEURITIS ÓPTICA** (alteración de la visión de colores rojo-verde): control oftalmológico y precaución en niños pequeños.",
+      "**Eliminación renal**: ajustar en ERC."
+    ],
+    "mecanismo": "Inhibe las arabinosil transferasas (embAB), enzimas de la síntesis del arabinogalactano de la pared micobacteriana. Es bacteriostático; su función real en el régimen es proteger a los demás fármacos frente a la aparición de resistencias mientras se conoce el antibiograma.",
+    "espectro": "Mycobacterium tuberculosis y micobacterias atípicas (complejo M. avium, M. kansasii).",
+    "indicaciones": [
+      {
+        "patologia": "Tuberculosis activa, fase intensiva",
+        "dosis": "15-20 mg/kg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Se mantiene los 2 primeros meses y puede retirarse antes si el antibiograma confirma sensibilidad a isoniazida y rifampicina"
+      },
+      {
+        "patologia": "Infección por complejo Mycobacterium avium",
+        "dosis": "15 mg/kg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Asociado a claritromicina o azitromicina; tratamiento prolongado ≥12 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena junto al resto del régimen. Exploración oftalmológica basal OBLIGATORIA: agudeza visual y visión de colores.",
+      "titulacion": "No se titula; la dosis se calcula por peso y debe recalcularse si el paciente gana peso durante el tratamiento.",
+      "duracion": "2 meses (fase intensiva) o hasta disponer del antibiograma que permita retirarlo.",
+      "fin": "Retirada al confirmar la sensibilidad a los demás fármacos, o al completar la fase intensiva. Suspensión INMEDIATA ante cualquier alteración visual.",
+      "via": "VO.",
+      "monitorizacion": "Agudeza visual y discriminación rojo-verde MENSUALES. Instruir al paciente para que consulte de inmediato ante visión borrosa o cambios en la percepción del color."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, poco afectada por los alimentos.",
+      "distribucion": "Amplia; penetración en LCR escasa salvo con meninges inflamadas.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal mayoritaria (80%) — de ahí la importancia del ajuste renal.",
+      "vida_media": "3-4 h.",
+      "ajuste_renal": "Imprescindible: FG <30, administrar 15-25 mg/kg tres veces por semana. El fallo en ajustar es la causa habitual de la neuritis óptica.",
+      "ajuste_hepatico": "No precisa ajuste (es el antituberculoso de primera línea menos hepatotóxico).",
+      "interacciones": [
+        {
+          "con": "Antiácidos con aluminio",
+          "efecto": "Reducen su absorción",
+          "gravedad": "media",
+          "manejo": "Separar las tomas al menos 4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Artralgias",
+        "Hiperuricemia leve"
+      ],
+      "graves": [
+        "Neuritis óptica retrobulbar: pérdida de agudeza visual y discromatopsia rojo-verde, dosis y tiempo dependiente, reversible si se detecta pronto e IRREVERSIBLE si se mantiene el fármaco",
+        "Neuropatía periférica",
+        "Exantema y reacciones de hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Neuritis óptica preexistente",
+      "Niños demasiado pequeños para colaborar en la exploración visual (contraindicación relativa: la OMS lo permite ajustando la dosis)",
+      "Insuficiencia renal sin ajuste de dosis"
+    ],
+    "perlas": [
+      "«E de Etambutol, E de Eyes»: la toxicidad ocular es su rasgo definitorio. Explorar la visión de colores cada mes no es burocracia — detectada a tiempo, la neuritis revierte; mantenida, deja ceguera parcial permanente.",
+      "Es el antituberculoso de primera línea menos hepatotóxico: en un paciente con hepatitis por antituberculosos, es de los que se pueden mantener mientras se reintroducen los demás.",
+      "Su papel es defensivo, no curativo: protege al régimen frente a resistencias primarias desconocidas. Por eso puede retirarse en cuanto el antibiograma confirma sensibilidad.",
+      "Se elimina por vía renal en un 80%: en el paciente nefrópata no ajustado, la neuritis óptica es prácticamente esperable."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo y compatible con la lactancia.",
+    "micro_relacionado": [
+      "MYC-mycobacterium-avium",
+      "MYC-mycobacterium-tuberculosis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 47; Harrison 20.ª ed., cap. de tuberculosis"
+  },
+  {
+    "id": "INF-fluconazol",
+    "nombre": "Fluconazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antifúngico sistémico",
+    "subclase": "Triazol hidrosoluble de alta biodisponibilidad oral",
+    "vs_clase": [
+      "**Hidrosoluble, biodisponibilidad oral >90% y excelente paso a LCR y orina**: de elección en candidiasis mucosas, ITU por Candida y consolidación de la meningitis criptocócica.",
+      "**No cubre Aspergillus ni mucorales**; C. krusei es intrínsecamente resistente y C. glabrata con frecuencia.",
+      "Ajuste renal y prolongación del QT."
+    ],
+    "mecanismo": "Inhibe la 14-alfa-desmetilasa fúngica (CYP51), enzima dependiente del citocromo P450 que convierte el lanosterol en ergosterol, el esterol estructural de la membrana fúngica. La membrana pierde integridad y se acumulan esteroles metilados tóxicos. Fungistático frente a Candida.",
+    "espectro": "Candida albicans (excelente), Cryptococcus neoformans, Coccidioides. NO cubre Aspergillus (limitación clave), NO cubre mucorales, NO cubre Candida krusei (resistencia intrínseca) y es poco fiable frente a Candida glabrata (resistencia dosis-dependiente).",
+    "indicaciones": [
+      {
+        "patologia": "Candidiasis vulvovaginal no complicada",
+        "dosis": "150 mg",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "En la forma recurrente: 150 mg cada 72 h, 3 dosis, y luego semanal 6 meses"
+      },
+      {
+        "patologia": "Candidiasis orofaríngea y esofágica",
+        "dosis": "200 mg de carga y luego 100-200 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "7-14 días (orofaríngea) o 14-21 días (esofágica)"
+      },
+      {
+        "patologia": "Candidemia y candidiasis invasiva por cepa sensible",
+        "dosis": "800 mg de carga (12 mg/kg) y luego 400 mg/24 h (6 mg/kg)",
+        "posologia": "Cada 24 h",
+        "via": "IV o VO",
+        "nota": "Solo como desescalada; el tratamiento inicial de elección en el paciente inestable es una equinocandina"
+      },
+      {
+        "patologia": "Meningitis criptocócica (fase de consolidación y mantenimiento)",
+        "dosis": "400-800 mg/24 h (consolidación); 200 mg/24 h (mantenimiento)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Tras la fase de inducción con anfotericina B liposomal + flucitosina"
+      },
+      {
+        "patologia": "Profilaxis antifúngica en el neutropénico de alto riesgo",
+        "dosis": "400 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "No protege frente a Aspergillus: si el riesgo es de mohos, usar posaconazol"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga del doble de la dosis diaria en las indicaciones sistémicas, por su larga vida media (sin carga tardaría 5-7 días en alcanzar el estado estacionario).",
+      "titulacion": "No se titula; la dosis se elige por indicación y peso.",
+      "duracion": "Dosis única en vaginitis; 14 días desde el primer hemocultivo negativo en candidemia; 8 semanas de consolidación y ≥1 año de mantenimiento en criptococosis.",
+      "fin": "En candidemia, la duración se cuenta desde el primer hemocultivo NEGATIVO, no desde el inicio del tratamiento. Retirar siempre el catéter venoso central.",
+      "via": "VO o IV, intercambiables sin cambio de dosis (biodisponibilidad >90%).",
+      "monitorizacion": "Transaminasas y función renal en tratamientos prolongados. Fondo de ojo en candidemia (endoftalmitis). ECG si hay riesgo de QT largo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral >90%, independiente del pH gástrico y de los alimentos — a diferencia de itraconazol.",
+      "distribucion": "Hidrosoluble, con excelente penetración en LCR (50-90% de la concentración plasmática), humor vítreo y orina. Es el azol de elección cuando hay que llegar al SNC o a la orina.",
+      "metabolismo": "Escaso; es INHIBIDOR del CYP2C9, CYP2C19 y, en menor medida, del CYP3A4.",
+      "eliminacion": "Renal, mayoritariamente inalterado (por eso alcanza concentraciones altas en orina).",
+      "vida_media": "30 h — permite la dosis única diaria.",
+      "ajuste_renal": "FG <50: reducir la dosis al 50%. En hemodiálisis, administrar la dosis completa después de cada sesión.",
+      "ajuste_hepatico": "Precaución en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Warfarina / acenocumarol",
+          "efecto": "Aumento marcado del INR con riesgo hemorrágico (inhibición del CYP2C9)",
+          "gravedad": "alta",
+          "manejo": "Controlar el INR a las 48-72 h y reducir el anticoagulante"
+        },
+        {
+          "con": "Fenitoína",
+          "efecto": "Eleva sus concentraciones hasta la intoxicación",
+          "gravedad": "alta",
+          "manejo": "Monitorizar niveles"
+        },
+        {
+          "con": "Estatinas (simvastatina, atorvastatina)",
+          "efecto": "Aumento de sus concentraciones con riesgo de rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina durante el tratamiento"
+        },
+        {
+          "con": "Fármacos que prolongan el QT (amiodarona, haloperidol, ondansetrón, quinolonas)",
+          "efecto": "Prolongación aditiva del QT",
+          "gravedad": "alta",
+          "manejo": "ECG y corrección de electrolitos"
+        },
+        {
+          "con": "Sulfonilureas",
+          "efecto": "Hipoglucemia por inhibición de su metabolismo",
+          "gravedad": "media",
+          "manejo": "Vigilar glucemias"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y dolor abdominal",
+        "Cefalea",
+        "Exantema",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "Hepatotoxicidad, ocasionalmente grave",
+        "Prolongación del QT y torsade de pointes",
+        "Síndrome de Stevens-Johnson",
+        "Alopecia con tratamientos prolongados a dosis altas",
+        "Teratogenia (síndrome malformativo con dosis altas mantenidas en el primer trimestre)"
+      ]
+    },
+    "contraindicaciones": [
+      "Primer trimestre del embarazo a dosis altas o mantenidas",
+      "Uso concomitante con fármacos de estrecho margen que prolonguen el QT",
+      "Alergia a azoles"
+    ],
+    "perlas": [
+      "Es el único azol con excelente penetración en LCR y en orina: en la meningitis criptocócica y en la candiduria es insustituible por itraconazol o voriconazol.",
+      "No cubre Aspergillus: usar fluconazol como profilaxis en un paciente con riesgo de aspergilosis invasiva da una falsa sensación de seguridad.",
+      "Candida krusei es intrínsecamente resistente y C. glabrata lo es de forma dosis-dependiente: ante una candidemia en paciente que ya recibía fluconazol, hay que asumir una de estas especies y cambiar a equinocandina.",
+      "Su vida media de 30 h justifica la dosis de carga: sin ella, el fármaco tarda casi una semana en ser eficaz en una infección grave.",
+      "En candidemia, la duración de 14 días se cuenta desde el primer hemocultivo negativo, y siempre hay que hacer fondo de ojo para descartar endoftalmitis."
+    ],
+    "embarazo_lactancia": "La dosis única de 150 mg para la vaginitis se considera aceptable. Las dosis altas y mantenidas están contraindicadas en el primer trimestre por teratogenia. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "HON-candida-albicans",
+      "HON-cryptococcus-neoformans"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; Harrison 20.ª ed., cap. de candidiasis y criptococosis"
+  },
+  {
+    "id": "INF-anfotericina-b-liposomal",
+    "nombre": "Anfotericina B liposomal",
+    "sinonimos": [
+      "L-AmB"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antifúngico sistémico",
+    "subclase": "Poliénico: formulación lipídica de toxicidad reducida",
+    "vs_clase": [
+      "**El antifúngico de MÁS amplio espectro**, incluidos los **MUCORALES**; de elección en la mucormicosis y en la inducción de la meningitis criptocócica (con flucitosina).",
+      "**Nefrotoxicidad, hipopotasemia e hipomagnesemia** (menos con la forma liposomal) y reacciones infusionales.",
+      "Solo IV; también tratamiento de la leishmaniasis visceral."
+    ],
+    "mecanismo": "Se une al ergosterol de la membrana fúngica y forma poros que permiten la salida de potasio y otros iones, causando la muerte celular. Es fungicida. Su afinidad, mucho menor, por el colesterol humano explica su toxicidad. La formulación liposomal vehiculiza el fármaco y reduce drásticamente la nefrotoxicidad y las reacciones infusionales respecto al desoxicolato clásico.",
+    "espectro": "El más amplio de los antifúngicos: Candida (todas las especies, incluidas krusei y glabrata), Aspergillus, Cryptococcus, mucorales (Mucor, Rhizopus — donde es de elección), Histoplasma, Leishmania. NO cubre Aspergillus terreus ni Scedosporium.",
+    "indicaciones": [
+      {
+        "patologia": "Meningitis criptocócica, fase de inducción",
+        "dosis": "3-4 mg/kg/24 h",
+        "posologia": "Cada 24 h, 2 semanas",
+        "via": "IV",
+        "nota": "Asociada a flucitosina; después consolidación con fluconazol. Manejar la presión intracraneal con punciones evacuadoras"
+      },
+      {
+        "patologia": "Mucormicosis",
+        "dosis": "5-10 mg/kg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "De elección; requiere desbridamiento quirúrgico urgente y control de la cetoacidosis o de la inmunosupresión"
+      },
+      {
+        "patologia": "Aspergilosis invasiva (alternativa a voriconazol)",
+        "dosis": "3-5 mg/kg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Cuando el voriconazol está contraindicado o hay intolerancia"
+      },
+      {
+        "patologia": "Candidemia en paciente inestable con posible resistencia a azoles",
+        "dosis": "3 mg/kg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Alternativa a las equinocandinas"
+      },
+      {
+        "patologia": "Leishmaniasis visceral",
+        "dosis": "3 mg/kg/día los días 1-5, 14 y 21",
+        "posologia": "Según pauta",
+        "via": "IV",
+        "nota": "De elección en el paciente inmunocompetente en Europa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Prehidratación con suero salino (500-1000 mL) antes de la infusión para reducir la nefrotoxicidad. Infundir en 2 h (o más lentamente si hay reacción). Corregir previamente el potasio y el magnesio.",
+      "titulacion": "No requiere escalada progresiva de dosis, a diferencia de la anfotericina B desoxicolato clásica.",
+      "duracion": "2 semanas de inducción en criptococosis; 6-12 semanas o más en mucormicosis y aspergilosis, guiadas por la respuesta clínica y radiológica y por la recuperación inmune.",
+      "fin": "Desescalada a un azol oral cuando el paciente mejora y el hongo es sensible. Suspensión definitiva guiada por imagen y por la reversión de la inmunosupresión.",
+      "via": "IV exclusivamente.",
+      "monitorizacion": "DIARIA: creatinina, potasio y magnesio. Hemograma. Reponer potasio y magnesio de forma proactiva, no reactiva."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula por vía oral.",
+      "distribucion": "Amplia; se acumula en hígado, bazo y pulmón. La penetración en LCR es baja, pero clínicamente eficaz en la criptococosis.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Lenta, por vías hepática y renal; se detecta en tejidos durante semanas.",
+      "vida_media": "Prolongada y multifásica (hasta 100-150 h con la formulación liposomal).",
+      "ajuste_renal": "No requiere ajuste de dosis formal, pero la nefrotoxicidad obliga a vigilar y a espaciar si la creatinina sube.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos, ciclosporina, tacrolimús, cisplatino, contrastes yodados",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar la coincidencia; hidratación y monitorización diaria"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "La hipopotasemia inducida potencia la toxicidad digitálica y las arritmias",
+          "gravedad": "alta",
+          "manejo": "Corregir el potasio y monitorizar la digoxinemia"
+        },
+        {
+          "con": "Corticoides y diuréticos del asa",
+          "efecto": "Agravan la hipopotasemia",
+          "gravedad": "media",
+          "manejo": "Reposición intensiva de potasio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción infusional: fiebre, escalofríos, rigidez, cefalea (mucho menor que con el desoxicolato)",
+        "Hipopotasemia e hipomagnesemia por pérdida tubular — casi constantes",
+        "Elevación de creatinina",
+        "Náuseas"
+      ],
+      "graves": [
+        "Nefrotoxicidad con acidosis tubular renal tipo I y diabetes insípida nefrogénica",
+        "Hipopotasemia grave con arritmias",
+        "Anemia por descenso de la eritropoyetina",
+        "Reacción infusional grave con hipotensión y broncoespasmo",
+        "Toxicidad hepática"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a la anfotericina",
+      "Precaución extrema en insuficiencia renal preexistente o con otros nefrotóxicos"
+    ],
+    "perlas": [
+      "La formulación liposomal no es simplemente «una versión más cara»: reduce de forma decisiva la nefrotoxicidad y las reacciones infusionales, lo que permite alcanzar las dosis altas necesarias en la mucormicosis.",
+      "La hipopotasemia y la hipomagnesemia no son complicaciones ocasionales sino un efecto esperable a diario: hay que reponer de forma proactiva, antes de que aparezcan las arritmias.",
+      "Es el antifúngico de elección en la mucormicosis, donde ningún azol de uso común (salvo isavuconazol y posaconazol) es activo — y donde el retraso en el desbridamiento quirúrgico mata más que el hongo.",
+      "La prehidratación con salino antes de cada infusión es la medida individual más eficaz para prevenir la nefrotoxicidad.",
+      "Aspergillus terreus es intrínsecamente resistente: ante esa especie hay que ir a voriconazol."
+    ],
+    "embarazo_lactancia": "Es el antifúngico sistémico más seguro en el embarazo (categoría B), a diferencia de los azoles. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "HON-aspergillus-fumigatus",
+      "HON-candida-albicans",
+      "HON-cryptococcus-neoformans",
+      "HON-histoplasma-capsulatum",
+      "HON-mucorales",
+      "PAR-leishmania"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; Harrison 20.ª ed., caps. de micosis invasivas"
+  },
+  {
+    "id": "INF-aciclovir",
+    "nombre": "Aciclovir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antiherpético (análogo de nucleósido)",
+    "subclase": "Activación selectiva por la timidina cinasa viral",
+    "vs_clase": [
+      "**Forma IV de elección en las infecciones graves por herpes simple y varicela-zóster** (encefalitis herpética: 10 mg/kg/8 h).",
+      "**Biodisponibilidad oral baja (15-30%)**: por VO requiere 5 tomas al día (el valaciclovir, 2-3).",
+      "**Nefrotoxicidad por cristaluria** con dosis IV altas: hidratación abundante.",
+      "Inactivo frente a CMV."
+    ],
+    "mecanismo": "Profármaco que requiere una primera fosforilación por la TIMIDINA CINASA VIRAL — presente solo en las células infectadas — y dos fosforilaciones más por cinasas celulares. El aciclovir trifosfato inhibe la ADN polimerasa viral y actúa como terminador de cadena. Esta doble selectividad (activación solo en la célula infectada, inhibición preferente de la polimerasa viral) explica su extraordinaria seguridad.",
+    "espectro": "Virus herpes simple 1 y 2 (máxima actividad), virus varicela-zóster (requiere dosis más altas). Actividad escasa frente a CMV y VEB. NO cubre otros virus.",
+    "indicaciones": [
+      {
+        "patologia": "Encefalitis herpética",
+        "dosis": "10 mg/kg/8 h",
+        "posologia": "Cada 8 h, 14-21 días",
+        "via": "IV",
+        "nota": "URGENCIA: iniciar ante la sospecha, antes de la PCR en LCR. El retraso multiplica la mortalidad y las secuelas"
+      },
+      {
+        "patologia": "Herpes zóster en el adulto",
+        "dosis": "800 mg 5 veces al día (o valaciclovir 1 g/8 h)",
+        "posologia": "5 veces al día, 7 días",
+        "via": "VO",
+        "nota": "Debe iniciarse en las primeras 72 h del exantema para reducir la neuralgia postherpética"
+      },
+      {
+        "patologia": "Primoinfección genital por VHS",
+        "dosis": "400 mg/8 h (o valaciclovir 1 g/12 h)",
+        "posologia": "Cada 8 h, 7-10 días",
+        "via": "VO",
+        "nota": "El tratamiento no erradica el virus latente en el ganglio"
+      },
+      {
+        "patologia": "Herpes genital recurrente: tratamiento supresor",
+        "dosis": "400 mg/12 h (o valaciclovir 500 mg/24 h)",
+        "posologia": "Cada 12 h, de forma continuada",
+        "via": "VO",
+        "nota": "Indicado si hay ≥6 recurrencias al año; reduce además la transmisión a la pareja"
+      },
+      {
+        "patologia": "Varicela en adulto o inmunodeprimido",
+        "dosis": "800 mg 5 veces al día (VO) o 10 mg/kg/8 h (IV)",
+        "posologia": "5 veces al día o cada 8 h",
+        "via": "VO o IV",
+        "nota": "Iniciar en las primeras 24-48 h del exantema"
+      },
+      {
+        "patologia": "Herpes zóster oftálmico",
+        "dosis": "800 mg 5 veces al día",
+        "posologia": "5 veces al día, 7-10 días",
+        "via": "VO",
+        "nota": "Derivación oftalmológica urgente; el signo de Hutchinson (lesión en la punta nasal) predice afectación ocular"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cuanto antes: en el zóster, dentro de las primeras 72 h; en la encefalitis herpética, inmediatamente ante la sospecha. Hidratación abundante desde la primera dosis IV.",
+      "titulacion": "No se titula; la dosis depende del virus (el VVZ necesita el doble o el triple que el VHS).",
+      "duracion": "7 días en zóster; 7-10 días en primoinfección genital; 14-21 días en encefalitis; supresión crónica indefinida en el herpes genital recurrente.",
+      "fin": "Suspensión brusca. En el tratamiento supresor, se reevalúa anualmente porque la frecuencia de recurrencias disminuye con el tiempo.",
+      "via": "VO, IV o tópica. Preferir valaciclovir por vía oral: su biodisponibilidad es 3-5 veces mayor y permite 2-3 tomas al día en lugar de 5.",
+      "monitorizacion": "Creatinina y estado de hidratación en el tratamiento IV. Vigilar la aparición de temblor, mioclonías o confusión (neurotoxicidad)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral baja e irregular (15-30%) — el motivo de las 5 tomas diarias. El valaciclovir, su profármaco, alcanza el 55%.",
+      "distribucion": "Amplia, incluida buena penetración en LCR (50% de la plasmática), lo que permite tratar la encefalitis.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal, por filtración y secreción tubular activa, prácticamente inalterado.",
+      "vida_media": "2,5-3 h con función renal normal; hasta 20 h en la anuria.",
+      "ajuste_renal": "Imprescindible. FG 25-50: cada 12 h. FG 10-25: cada 24 h. FG <10: mitad de dosis cada 24 h. Es la clave para prevenir tanto la nefrotoxicidad como la neurotoxicidad.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Bloquea su secreción tubular y eleva sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar toxicidad neurológica"
+        },
+        {
+          "con": "AINE, aminoglucósidos, contrastes yodados y otros nefrotóxicos",
+          "efecto": "Suma de nefrotoxicidad y riesgo de cristaluria",
+          "gravedad": "alta",
+          "manejo": "Hidratación forzada y control de la creatinina"
+        },
+        {
+          "con": "Micofenolato",
+          "efecto": "Elevación mutua de las concentraciones",
+          "gravedad": "media",
+          "manejo": "Vigilar en el trasplantado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos, cefalea",
+        "Flebitis en el punto de infusión",
+        "Malestar general"
+      ],
+      "graves": [
+        "Nefropatía cristalina obstructiva por precipitación de cristales de aciclovir en los túbulos: se previene con hidratación y con infusión lenta (≥1 h)",
+        "Neurotoxicidad: temblor, mioclonías, alucinaciones, confusión y convulsiones, sobre todo en insuficiencia renal no ajustada y en ancianos",
+        "Púrpura trombótica trombocitopénica / síndrome hemolítico-urémico con dosis muy altas en inmunodeprimidos"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al aciclovir o al valaciclovir",
+      "Precaución mayor en insuficiencia renal sin ajuste"
+    ],
+    "perlas": [
+      "En la sospecha de encefalitis herpética, el aciclovir se inicia INMEDIATAMENTE y no se espera a la PCR del LCR: cada hora de retraso empeora el pronóstico neurológico, y el fármaco es lo bastante seguro como para no justificar la espera.",
+      "Su selectividad depende de la timidina cinasa viral: por eso solo actúa en las células infectadas y por eso las cepas resistentes son precisamente las deficientes en timidina cinasa, que obligan a usar foscarnet (que no la necesita).",
+      "La nefropatía por cristales es prevenible al 100% con hidratación e infusión lenta: nunca administrar el aciclovir IV en bolo rápido.",
+      "El valaciclovir hace lo mismo con muchas menos tomas: mantener el aciclovir oral 5 veces al día cuando existe valaciclovir es una fuente evitable de incumplimiento.",
+      "No erradica el virus latente en el ganglio: hay que explicarlo al paciente para que entienda que las recurrencias no significan fracaso del tratamiento."
+    ],
+    "embarazo_lactancia": "Seguro en el embarazo, con amplia experiencia acumulada. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "VIR-virus-herpes-simple",
+      "VIR-virus-varicela-zoster"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., caps. de infecciones por herpesvirus"
+  },
+  {
+    "id": "INF-oseltamivir",
+    "nombre": "Oseltamivir",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Antivírico inhibidor de la neuraminidasa",
+    "subclase": "Profármaco oral",
+    "mecanismo": "Inhibe la neuraminidasa del virus influenza, la enzima que rompe los residuos de ácido siálico y permite que los viriones recién formados se liberen de la célula infectada. Al bloquearla, los nuevos viriones quedan agregados en la superficie celular y no se propagan. No mata al virus ya formado: por eso su eficacia depende críticamente de la precocidad.",
+    "espectro": "Virus influenza A y B exclusivamente. NO tiene actividad frente a ningún otro virus respiratorio (VRS, rinovirus, SARS-CoV-2, adenovirus).",
+    "indicaciones": [
+      {
+        "patologia": "Gripe en paciente de riesgo o con criterios de gravedad",
+        "dosis": "75 mg/12 h",
+        "posologia": "Cada 12 h, 5 días",
+        "via": "VO",
+        "nota": "Máximo beneficio si se inicia en las primeras 48 h. En el paciente hospitalizado grave se inicia aunque hayan pasado más de 48 h"
+      },
+      {
+        "patologia": "Profilaxis postexposición en contacto de alto riesgo",
+        "dosis": "75 mg/24 h",
+        "posologia": "Cada 24 h, 10 días",
+        "via": "VO",
+        "nota": "Iniciar en las 48 h siguientes al contacto"
+      },
+      {
+        "patologia": "Profilaxis en brote en institución cerrada (residencia)",
+        "dosis": "75 mg/24 h",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Durante al menos 2 semanas y hasta 7 días tras el último caso"
+      }
+    ],
+    "esquema": {
+      "inicio": "Lo antes posible tras el inicio de los síntomas, idealmente en las primeras 48 h. En el paciente ingresado grave o inmunodeprimido, se inicia con independencia del tiempo transcurrido.",
+      "titulacion": "No se titula.",
+      "duracion": "5 días de tratamiento; 10 días de profilaxis postexposición. Puede prolongarse en el inmunodeprimido con replicación persistente.",
+      "fin": "Suspensión brusca al completar los días pautados.",
+      "via": "VO (existe zanamivir inhalado y peramivir IV como alternativas).",
+      "monitorizacion": "Clínica. En niños y adolescentes, vigilar la aparición de alteraciones de conducta."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 80%; se hidroliza en el hígado a su metabolito activo, el carboxilato de oseltamivir.",
+      "distribucion": "Buena en el tracto respiratorio.",
+      "metabolismo": "Hidrólisis hepática por esterasas; no depende del citocromo P450, de ahí su escaso perfil de interacciones.",
+      "eliminacion": "Renal, por secreción tubular.",
+      "vida_media": "6-10 h la del metabolito activo.",
+      "ajuste_renal": "FG 30-60: 30 mg/12 h. FG 10-30: 30 mg/24 h. Diálisis: 30 mg tras cada sesión.",
+      "ajuste_hepatico": "No precisa ajuste en insuficiencia leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Probenecid",
+          "efecto": "Duplica las concentraciones del metabolito activo",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia práctica habitual"
+        },
+        {
+          "con": "Vacuna antigripal de virus vivos atenuados (intranasal)",
+          "efecto": "El antivírico inactiva la vacuna",
+          "gravedad": "media",
+          "manejo": "Separar: no vacunar con virus vivos hasta 48 h después de terminar el oseltamivir"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos (se reducen tomándolo con alimento)",
+        "Cefalea",
+        "Insomnio"
+      ],
+      "graves": [
+        "Alteraciones neuropsiquiátricas: delirio, alucinaciones y conducta autolesiva, descritas sobre todo en niños y adolescentes en Japón",
+        "Reacciones cutáneas graves (Stevens-Johnson, eritema multiforme)",
+        "Anafilaxia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al oseltamivir"
+    ],
+    "perlas": [
+      "Su beneficio es tiempo-dependiente de forma muy marcada: iniciado en las primeras 48 h acorta la enfermedad alrededor de un día y reduce complicaciones en el paciente de riesgo; iniciado tarde en un paciente sano, el beneficio es marginal.",
+      "En el paciente ingresado con gripe grave sí se inicia aunque hayan pasado más de 48 h, porque la replicación viral persiste más tiempo en la enfermedad grave y en el inmunodeprimido.",
+      "No cubre ningún otro virus respiratorio: prescribirlo ante un cuadro gripal sin confirmación en época de baja circulación de influenza es tratar lo que no es.",
+      "Inactiva la vacuna antigripal intranasal de virus vivos; con la vacuna inactivada intramuscular no hay problema.",
+      "Las náuseas, su efecto adverso más limitante, se reducen notablemente tomándolo con comida."
+    ],
+    "embarazo_lactancia": "Se recomienda en la embarazada con gripe: el embarazo es un factor de riesgo de gripe grave y el beneficio supera claramente al riesgo. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "VIR-influenza"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 49; Harrison 20.ª ed., cap. de gripe"
+  },
+  {
+    "id": "INF-albendazol",
+    "nombre": "Albendazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antihelmíntico bencimidazólico",
+    "subclase": "Inhibidor de la polimerización de la tubulina",
+    "mecanismo": "Se une con alta afinidad a la beta-tubulina del parásito e impide la polimerización de los microtúbulos, bloqueando la captación de glucosa. El helminto pierde su reserva energética y muere. La selectividad se debe a la mayor afinidad por la tubulina del parásito que por la humana.",
+    "espectro": "Amplio espectro antihelmíntico: nematodos intestinales (Ascaris, Enterobius, Trichuris, anquilostomas, Strongyloides), cestodos tisulares (Echinococcus en la hidatidosis, Taenia solium en la neurocisticercosis) y microsporidios.",
+    "indicaciones": [
+      {
+        "patologia": "Oxiuriasis (Enterobius vermicularis)",
+        "dosis": "400 mg",
+        "posologia": "Dosis única, repetida a las 2 semanas",
+        "via": "VO",
+        "nota": "Tratar simultáneamente a TODOS los convivientes; la segunda dosis elimina los huevos que eclosionan después"
+      },
+      {
+        "patologia": "Ascariasis, tricocefalosis, anquilostomiasis",
+        "dosis": "400 mg",
+        "posologia": "Dosis única (3 días en tricocefalosis)",
+        "via": "VO",
+        "nota": "Alta tasa de curación en dosis única"
+      },
+      {
+        "patologia": "Hidatidosis (Echinococcus granulosus)",
+        "dosis": "10-15 mg/kg/día (400 mg/12 h)",
+        "posologia": "Cada 12 h con comida grasa",
+        "via": "VO",
+        "nota": "Ciclos de 28 días; se usa antes y después de la cirugía o el PAIR para prevenir la siembra peritoneal"
+      },
+      {
+        "patologia": "Neurocisticercosis",
+        "dosis": "15 mg/kg/día",
+        "posologia": "Cada 12 h, 8-30 días",
+        "via": "VO",
+        "nota": "SIEMPRE con corticoides (y antiepilépticos si hay crisis): la muerte de los quistes provoca una intensa reacción inflamatoria"
+      },
+      {
+        "patologia": "Estrongiloidiasis (alternativa a ivermectina)",
+        "dosis": "400 mg/12 h",
+        "posologia": "Cada 12 h, 7 días",
+        "via": "VO",
+        "nota": "La ivermectina es más eficaz y de elección"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena. En las indicaciones sistémicas (hidatidosis, cisticercosis), administrar con una comida rica en grasa, que multiplica por 5 su absorción.",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis única en las helmintiasis intestinales; ciclos de 28 días repetidos durante meses en la hidatidosis; 8-30 días en la neurocisticercosis.",
+      "fin": "En las parasitosis intestinales termina con la dosis (más la repetición a las 2 semanas en oxiuros). En la hidatidosis, la duración depende de la respuesta ecográfica.",
+      "via": "VO.",
+      "monitorizacion": "En tratamientos prolongados: hemograma y transaminasas cada 2 semanas durante el primer ciclo y luego mensual."
+    },
+    "farmacocinetica": {
+      "absorcion": "Muy baja en ayunas (<5%), lo que resulta ideal para los parásitos intestinales; aumenta 5 veces con comida grasa, que es lo que se busca en la enfermedad tisular.",
+      "distribucion": "Su metabolito sulfóxido penetra bien en el quiste hidatídico, el LCR y el hueso.",
+      "metabolismo": "Hepático de primer paso intenso, a albendazol sulfóxido, que es el metabolito activo sistémico.",
+      "eliminacion": "Biliar.",
+      "vida_media": "8-12 h la del sulfóxido.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución; contraindicado en hepatopatía descompensada.",
+      "interacciones": [
+        {
+          "con": "Dexametasona",
+          "efecto": "Aumenta las concentraciones del metabolito activo (interacción beneficiosa y buscada en la neurocisticercosis)",
+          "gravedad": "baja",
+          "manejo": "No requiere ajuste; se aprovecha clínicamente"
+        },
+        {
+          "con": "Praziquantel",
+          "efecto": "Aumenta las concentraciones de albendazol",
+          "gravedad": "baja",
+          "manejo": "Se usan asociados en la neurocisticercosis con múltiples quistes"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital",
+          "efecto": "Inducen su metabolismo y reducen las concentraciones sistémicas",
+          "gravedad": "media",
+          "manejo": "Relevante en el paciente con neurocisticercosis y epilepsia: valorar aumentar la dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal, náuseas",
+        "Cefalea",
+        "Elevación reversible de transaminasas (frecuente en tratamientos prolongados)"
+      ],
+      "graves": [
+        "Hepatotoxicidad",
+        "Mielosupresión con neutropenia o pancitopenia (dosis altas prolongadas)",
+        "Alopecia reversible",
+        "Reacción inflamatoria grave por muerte parasitaria: hipertensión intracraneal en la neurocisticercosis, shock anafiláctico por rotura de quiste hidatídico"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo (primer trimestre especialmente; es teratógeno en animales)",
+      "Hepatopatía descompensada",
+      "Cisticercosis ocular o medular no tratada previamente con corticoides (la reacción inflamatoria puede causar ceguera o lesión medular)"
+    ],
+    "perlas": [
+      "La regla de la grasa: para los gusanos del intestino se toma en ayunas (interesa que NO se absorba); para el quiste hidatídico o la cisticercosis se toma con comida grasa (interesa que sí se absorba). Es el mismo fármaco con dos estrategias opuestas.",
+      "En la oxiuriasis hay que tratar a toda la familia y repetir a las 2 semanas: el fracaso casi siempre se debe a reinfestación doméstica, no a resistencia.",
+      "En la neurocisticercosis, los corticoides no son un accesorio: la muerte simultánea de los quistes desencadena un edema cerebral que puede ser mortal.",
+      "Antes de tratar una cisticercosis hay que descartar la localización ocular con fondo de ojo: la reacción inflamatoria intraocular puede provocar ceguera irreversible."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo, sobre todo en el primer trimestre. En campañas de desparasitación masiva la OMS lo permite a partir del segundo trimestre. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "PAR-ascaris-lumbricoides",
+      "PAR-echinococcus-granulosus",
+      "PAR-enterobius-vermicularis",
+      "PAR-giardia-lamblia",
+      "PAR-strongyloides-stercoralis",
+      "PAR-taenia-solium"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., caps. de helmintiasis"
+  },
+  {
+    "id": "INF-ivermectina",
+    "nombre": "Ivermectina",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antiparasitario lactona macrocíclica",
+    "subclase": "Agonista de canales de cloro dependientes de glutamato",
+    "mecanismo": "Se une a los canales de cloro dependientes de glutamato, exclusivos de invertebrados, provocando hiperpolarización, parálisis flácida y muerte del parásito. No atraviesa la barrera hematoencefálica humana porque la glicoproteína P la expulsa activamente: en eso reside su seguridad, y su fallo explica la neurotoxicidad en perros de razas con esa proteína defectuosa.",
+    "espectro": "Strongyloides stercoralis (de elección), Onchocerca volvulus, Wuchereria, Sarcoptes scabiei (sarna), Pediculus (piojos), Demodex. NO es activa frente a cestodos ni trematodos.",
+    "indicaciones": [
+      {
+        "patologia": "Estrongiloidiasis no complicada",
+        "dosis": "200 µg/kg/día",
+        "posologia": "Dosis única, repetida a las 2 semanas",
+        "via": "VO",
+        "nota": "De elección; cribar SIEMPRE en pacientes de zona endémica antes de iniciar corticoides o inmunosupresores"
+      },
+      {
+        "patologia": "Síndrome de hiperinfestación por Strongyloides",
+        "dosis": "200 µg/kg/día",
+        "posologia": "Diaria hasta 2 semanas tras la negativización parasitológica",
+        "via": "VO",
+        "nota": "Emergencia médica; mortalidad elevada en el inmunodeprimido"
+      },
+      {
+        "patologia": "Sarna (escabiosis)",
+        "dosis": "200 µg/kg",
+        "posologia": "Dosis única, repetida a los 7-14 días",
+        "via": "VO",
+        "nota": "Tratar a todos los convivientes y descontaminar la ropa; la permetrina tópica es la alternativa de primera línea"
+      },
+      {
+        "patologia": "Sarna costrosa (noruega)",
+        "dosis": "200 µg/kg",
+        "posologia": "Días 1, 2, 8, 9 y 15",
+        "via": "VO",
+        "nota": "Combinada con permetrina o benzoato de bencilo tópicos; altamente contagiosa, aislamiento de contacto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis calculada por peso, en ayunas o con comida (la comida grasa aumenta su absorción, lo que se aprovecha en la sarna costrosa).",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis única con repetición a las 2 semanas en la mayoría de indicaciones; pauta prolongada en la hiperinfestación.",
+      "fin": "Se completa el número de dosis. En estrongiloidiasis, confirmar la erradicación con estudios de heces seriados o serología descendente.",
+      "via": "VO (existe formulación tópica para rosácea).",
+      "monitorizacion": "En zonas endémicas de Loa loa, descartar loiasis antes de tratar (riesgo de encefalopatía mortal). Vigilar la reacción de Mazzotti en la oncocercosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; la comida grasa aumenta la biodisponibilidad.",
+      "distribucion": "Amplia en tejidos; NO atraviesa la barrera hematoencefálica en el ser humano gracias a la glicoproteína P.",
+      "metabolismo": "Hepático por CYP3A4.",
+      "eliminacion": "Fecal casi exclusiva.",
+      "vida_media": "12-18 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 y de la glicoproteína P (ritonavir, ciclosporina, ketoconazol)",
+          "efecto": "Aumentan sus concentraciones y podrían facilitar el paso al SNC",
+          "gravedad": "media",
+          "manejo": "Vigilar la aparición de somnolencia o ataxia"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Posible potenciación del efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prurito y exantema (a menudo por la propia muerte del parásito, no por el fármaco)",
+        "Mareo, náuseas",
+        "Astenia"
+      ],
+      "graves": [
+        "Reacción de Mazzotti en la oncocercosis: fiebre, hipotensión, edema y adenopatías por lisis masiva de microfilarias",
+        "Encefalopatía grave en pacientes coinfectados por Loa loa con alta carga de microfilarias",
+        "Reacciones cutáneas graves (Stevens-Johnson)"
+      ]
+    },
+    "contraindicaciones": [
+      "Coinfección por Loa loa con alta microfilaremia (riesgo de encefalopatía mortal)",
+      "Niños de menos de 15 kg (datos limitados)",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "El cribado de Strongyloides antes de iniciar corticoides o biológicos en un paciente procedente de zona endémica es una de las intervenciones preventivas más rentables que existen: la hiperinfestación desencadenada por corticoides tiene una mortalidad muy alta.",
+      "No atraviesa la barrera hematoencefálica humana por acción de la glicoproteína P: esa es la clave de su seguridad, y explica por qué es neurotóxica en razas caninas con esa proteína defectuosa.",
+      "En la sarna, tratar solo al paciente índice condena al fracaso: hay que tratar a todos los convivientes el mismo día y descontaminar ropa y textiles.",
+      "En zonas de África central hay que descartar loiasis antes de administrarla: la lisis masiva de microfilarias de Loa loa puede causar una encefalopatía mortal."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo por datos limitados. Precaución en la lactancia.",
+    "micro_relacionado": [
+      "PAR-strongyloides-stercoralis"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 53; Harrison 20.ª ed., cap. de nematodos tisulares e intestinales"
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "id": "NEU-carbamazepina",
+    "nombre": "Carbamazepina (y oxcarbazepina)",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Bloqueante de los canales de sodio dependientes de voltaje e inductor enzimático",
+    "vs_clase": [
+      "**De elección en la NEURALGIA DEL TRIGÉMINO** y eficaz en crisis focales.",
+      "**INDUCTOR enzimático potente** (y autoinductor): reduce anticonceptivos, anticoagulantes, otros antiepilépticos.",
+      "**HLA-B*1502** (asiáticos): Stevens-Johnson; **hiponatremia (SIADH)**, agranulocitosis.",
+      "**Empeora las ausencias y las mioclonías.**"
+    ],
+    "mecanismo": "Bloquea de forma uso-dependiente los canales de sodio, prolongando su estado inactivado y limitando las descargas repetitivas de alta frecuencia. Sobre esa base se explican sus dos usos principales: el control de las crisis focales y, sobre todo, la NEURALGIA DEL TRIGÉMINO, donde es el fármaco de elección con una eficacia que ningún otro alcanza. Lo que domina su manejo clínico, sin embargo, no es el mecanismo sino su condición de INDUCTOR ENZIMÁTICO POTENTE del CYP3A4 y de otros citocromos: acelera el metabolismo de casi todo lo demás, incluidos los anticonceptivos, los anticoagulantes, los inmunosupresores y los antirretrovirales, y además se AUTOINDUCE, de modo que sus propios niveles caen a las 3-4 semanas de haber alcanzado una dosis estable. La OXCARBAZEPINA comparte el mecanismo con mucha menos inducción enzimática, aunque produce más hiponatremia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "NEURALGIA DEL TRIGÉMINO",
+        "dosis": "100 mg cada 12 horas de inicio, ascendiendo hasta 600-1200 mg al día repartidos en 2-3 tomas",
+        "posologia": "Dos o tres tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Desaparición de las crisis de dolor con la dosis mínima tolerada",
+        "nota": "Es el tratamiento de PRIMERA LÍNEA y su eficacia es tan característica que una respuesta espectacular apoya el diagnóstico"
+      },
+      {
+        "patologia": "EPILEPSIA FOCAL con o sin generalización secundaria",
+        "dosis": "200 mg cada 12 horas de inicio, hasta 800-1200 mg al día",
+        "posologia": "Dos o tres tomas al día (una si es de liberación prolongada)",
+        "via": "VO",
+        "dosis_objetivo": "Control de las crisis; niveles de 4-12 microgramos/mL si se miden",
+        "nota": "NO usar en la epilepsia GENERALIZADA: puede AGRAVAR las ausencias y las mioclonías"
+      },
+      {
+        "patologia": "Trastorno BIPOLAR, prevención de episodios",
+        "dosis": "400-1200 mg al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Alternativa al litio y al valproato, hoy de segunda línea por sus interacciones"
+      },
+      {
+        "patologia": "Dolor neuropático y neuralgia del glosofaríngeo",
+        "dosis": "200-800 mg al día",
+        "posologia": "Dos o tres tomas al día",
+        "via": "VO",
+        "nota": "La oxcarbazepina se tolera mejor y tiene menos interacciones, a costa de más hiponatremia"
+      }
+    ],
+    "esquema": {
+      "inicio": "En pacientes de origen ASIÁTICO hay que determinar el HLA-B*1502 ANTES de la primera dosis: su presencia multiplica por más de diez el riesgo de síndrome de Stevens-Johnson. Hemograma, sodio y transaminasas basales. Empezar por dosis bajas.",
+      "titulacion": "Ascenso lento cada 1-2 semanas. Hay que reevaluar los niveles y la dosis A LAS 3-4 SEMANAS por la AUTOINDUCCIÓN: la misma dosis producirá niveles menores que al principio.",
+      "duracion": "Prolongada. En la neuralgia del trigémino se puede intentar reducir en los periodos libres de dolor.",
+      "fin": "Retirada gradual: la suspensión brusca puede desencadenar crisis.",
+      "via": "Oral; existe formulación de liberación prolongada que mejora la tolerancia y permite dos tomas.",
+      "monitorizacion": "SODIO (hiponatremia), hemograma (leucopenia), transaminasas y niveles plasmáticos. Vigilancia estrecha de exantema en las primeras 8 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Lenta y errática, mejorada con la comida.",
+      "distribucion": "Unión a proteínas del 75%.",
+      "metabolismo": "Hepático por CYP3A4 a carbamazepina-10,11-epóxido, que es ACTIVO y responsable de buena parte de la toxicidad. Es INDUCTOR POTENTE y AUTOINDUCTOR.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "25-65 horas al principio y solo 12-17 horas tras la autoinducción: la propia farmacocinética cambia con el tiempo.",
+      "ajuste_renal": "Ajuste modesto.",
+      "ajuste_hepatico": "Reducir la dosis; contraindicada en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "ANTICONCEPTIVOS hormonales",
+          "efecto": "Los INACTIVA por inducción: FALLO ANTICONCEPTIVO con embarazo, en un fármaco que además es TERATÓGENO",
+          "gravedad": "alta",
+          "manejo": "Es la interacción más importante en la mujer en edad fértil: doble contrariedad, porque expone a un embarazo no deseado con un fármaco que produce defectos del tubo neural. Elegir DIU o cambiar de antiepiléptico"
+        },
+        {
+          "con": "Anticoagulantes (ACOD y antivitamina K), inmunosupresores, antirretrovirales, estatinas, quimioterápicos",
+          "efecto": "Reduce drásticamente sus concentraciones por inducción del CYP3A4",
+          "gravedad": "alta",
+          "manejo": "Prácticamente cualquier fármaco del paciente puede verse afectado: hay que revisar toda la lista al iniciarla y al retirarla"
+        },
+        {
+          "con": "Macrólidos (claritromicina, eritromicina), azoles, verapamilo y zumo de POMELO",
+          "efecto": "INHIBEN su metabolismo y producen INTOXICACIÓN por carbamazepina",
+          "gravedad": "alta",
+          "manejo": "Es una intoxicación clásica y evitable: elegir azitromicina en lugar de claritromicina"
+        },
+        {
+          "con": "VALPROATO",
+          "efecto": "Aumenta el metabolito EPÓXIDO tóxico sin que suban los niveles del fármaco original",
+          "gravedad": "alta",
+          "manejo": "El paciente puede estar intoxicado con niveles de carbamazepina aparentemente normales"
+        },
+        {
+          "con": "Diuréticos, ISRS y otros fármacos hiponatremiantes",
+          "efecto": "HIPONATREMIA aditiva por SIADH",
+          "gravedad": "alta",
+          "manejo": "Medir el sodio, sobre todo en el anciano"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "MAREO, diplopía, ataxia y visión borrosa, sobre todo al subir la dosis (dosis-dependientes)",
+        "Somnolencia y náuseas",
+        "HIPONATREMIA por SIADH, más frecuente con oxcarbazepina y en el anciano",
+        "Leucopenia leve, habitualmente benigna y no progresiva",
+        "Exantema"
+      ],
+      "graves": [
+        "SÍNDROME DE STEVENS-JOHNSON y necrólisis epidérmica tóxica, fuertemente asociados al HLA-B*1502 en población asiática",
+        "Síndrome DRESS con eosinofilia y afectación multiorgánica (asociado al HLA-A*3101)",
+        "AGRANULOCITOSIS y aplasia medular (raras pero mortales)",
+        "Hepatitis",
+        "Hiponatremia grave con convulsiones",
+        "TERATOGENIA: defectos del tubo neural y malformaciones craneofaciales",
+        "Bloqueo auriculoventricular en el anciano"
+      ]
+    },
+    "contraindicaciones": [
+      "Bloqueo auriculoventricular y antecedente de depresión medular",
+      "Porfiria aguda intermitente",
+      "Uso con IMAO",
+      "HLA-B*1502 positivo",
+      "Epilepsia generalizada con ausencias o mioclonías (las agrava)",
+      "Embarazo, salvo que no haya alternativa"
+    ],
+    "perlas": [
+      "Es el fármaco de la NEURALGIA DEL TRIGÉMINO y su eficacia allí es tan alta que una respuesta espectacular refuerza el diagnóstico. En cambio, en la epilepsia GENERALIZADA está contraindicada porque puede empeorar las ausencias y las mioclonías: la misma molécula, indicación opuesta según el tipo de crisis.",
+      "Es un INDUCTOR ENZIMÁTICO POTENTE, y esa condición domina su manejo más que su propio mecanismo. Al iniciarla o retirarla hay que revisar TODA la medicación del paciente, porque baja los niveles de anticoagulantes, inmunosupresores, antirretrovirales, estatinas y anticonceptivos.",
+      "La combinación con los ANTICONCEPTIVOS es doblemente peligrosa: los inactiva, produciendo embarazos no deseados, y además es TERATÓGENA con defectos del tubo neural. En la mujer en edad fértil, esto solo ya es motivo suficiente para elegir levetiracetam o lamotrigina.",
+      "Se AUTOINDUCE: a las 3-4 semanas de una dosis estable, sus propios niveles han bajado. Es una de las pocas situaciones en que hay que subir la dosis sin que haya cambiado nada más, y desconcierta a quien no lo espera.",
+      "El HLA-B*1502 debe determinarse antes de prescribirla a pacientes de origen ASIÁTICO: multiplica por más de diez el riesgo de necrólisis epidérmica tóxica. Es farmacogenética con impacto directo y con recomendación regulatoria.",
+      "La CLARITROMICINA la intoxica: inhibe el CYP3A4 y multiplica sus niveles, produciendo ataxia, diplopía y somnolencia. Ante un paciente estable que se descompensa neurológicamente, hay que mirar qué antibiótico le han dado.",
+      "La HIPONATREMIA es frecuente, más con oxcarbazepina, y en el anciano se manifiesta como confusión, caídas o simple malestar. Es una causa muy infradiagnosticada de deterioro en un paciente que llevaba años estable.",
+      "El VALPROATO asociado aumenta el metabolito EPÓXIDO tóxico sin elevar los niveles de carbamazepina: el paciente puede tener síntomas de intoxicación con un nivel plasmático perfectamente normal, lo que despista por completo si no se conoce.",
+      "La OXCARBAZEPINA es la alternativa cuando el problema son las interacciones: mismo mecanismo, mucha menos inducción, a cambio de más hiponatremia."
+    ],
+    "embarazo_lactancia": "TERATÓGENA: se asocia a defectos del tubo neural y a malformaciones craneofaciales, con un riesgo intermedio entre el levetiracetam (bajo) y el valproato (alto). En la mujer en edad fértil se prefieren levetiracetam o lamotrigina. Si se mantiene, hay que suplementar con ácido fólico. Compatible con la lactancia vigilando la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; guías NICE de epilepsia y recomendaciones de farmacogenética sobre HLA-B*1502"
+  },
+  {
+    "id": "NEU-fenitoina",
+    "nombre": "Fenitoína",
+    "sinonimos": [
+      "Difenilhidantoína"
+    ],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Bloqueante de los canales de sodio con cinética de orden CERO",
+    "vs_clase": [
+      "**Cinética de orden CERO (saturable)**: pequeños aumentos de dosis disparan los niveles (nistagmo, ataxia).",
+      "**Forma IV para el estatus epiléptico** (con monitorización: arritmias, hipotensión, síndrome del guante púrpura).",
+      "**Hiperplasia gingival, hirsutismo, rasgos toscos**; inductor enzimático. Hoy relegada por levetiracetam y valproato."
+    ],
+    "mecanismo": "Bloquea los canales de sodio dependientes de voltaje prolongando su estado inactivado, con lo que impide las descargas repetitivas sin afectar a la actividad neuronal normal. Lo que la distingue de todos los demás antiepilépticos no es el mecanismo sino su FARMACOCINÉTICA: dentro del rango terapéutico, las enzimas que la metabolizan se SATURAN, y a partir de ahí sigue una cinética de ORDEN CERO (se elimina una cantidad fija por unidad de tiempo, no una fracción). La consecuencia práctica es que un pequeño aumento de dosis puede producir un salto enorme de concentración: subir de 300 a 400 mg al día puede duplicar o triplicar el nivel plasmático y llevar a un paciente estable a la intoxicación. A ello se añade una alta unión a la ALBÚMINA (90%), de modo que en el hipoalbuminémico o en el urémico la fracción LIBRE (la activa) es mucho mayor de lo que sugiere el nivel total medido.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ESTATUS EPILÉPTICO, tras las benzodiazepinas",
+        "dosis": "Fosfenitoína 20 mg equivalentes de fenitoína/kg IV a un máximo de 150 mg/min, o fenitoína 20 mg/kg IV a un máximo de 50 mg/min",
+        "posologia": "Dosis de carga única",
+        "via": "IV",
+        "dosis_objetivo": "Cese de las crisis; nivel total de 10-20 microgramos/mL",
+        "nota": "La velocidad MÁXIMA de infusión no es negociable: administrarla más deprisa produce hipotensión y arritmias por el PROPILENGLICOL del disolvente"
+      },
+      {
+        "patologia": "EPILEPSIA FOCAL y tonicoclónica generalizada",
+        "dosis": "300-400 mg al día en 1-2 tomas",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Nivel TOTAL de 10-20 microgramos/mL, o nivel LIBRE de 1-2 microgramos/mL en el hipoalbuminémico",
+        "nota": "Los ajustes deben ser de 25-50 mg, NUNCA de 100 mg, por la cinética de orden cero"
+      },
+      {
+        "patologia": "Profilaxis de crisis en el traumatismo craneoencefálico grave",
+        "dosis": "Carga de 20 mg/kg y mantenimiento de 300-400 mg al día durante 7 días",
+        "posologia": "Carga y mantenimiento",
+        "via": "IV",
+        "nota": "Solo previene las crisis PRECOCES (primera semana), no la epilepsia postraumática: prolongarla más allá de 7 días no aporta nada"
+      },
+      {
+        "patologia": "Neuralgia del trigémino y arritmias por intoxicación digitálica (usos históricos)",
+        "dosis": "200-400 mg al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Indicaciones hoy residuales, desplazadas por fármacos mejores"
+      }
+    ],
+    "esquema": {
+      "inicio": "Determinar la ALBÚMINA basal. En pacientes de origen asiático, valorar el HLA-B*1502 como con la carbamazepina.",
+      "titulacion": "Ajustes PEQUEÑOS, de 25-50 mg, y esperando 1-2 semanas a que se alcance el nuevo estado estable. Es el fármaco donde más daño hace la impaciencia.",
+      "duracion": "Prolongada, aunque hoy se prefiere sustituirla por antiepilépticos de manejo más sencillo en tratamientos crónicos.",
+      "fin": "Retirada muy gradual.",
+      "via": "Oral e intravenosa. La FOSFENITOÍNA es un profármaco hidrosoluble que se puede administrar más deprisa y por vía intramuscular, y que evita el síndrome del guante morado.",
+      "monitorizacion": "NIVELES plasmáticos (y nivel LIBRE si hay hipoalbuminemia o insuficiencia renal), hemograma, transaminasas, y exploración de encías y de la marcha."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral lenta y variable entre formulaciones; la vía intramuscular de la fenitoína clásica es errática y dolorosa (la fosfenitoína no).",
+      "distribucion": "Unión a ALBÚMINA del 90%: en la hipoalbuminemia, la uremia y el embarazo la fracción libre aumenta y el paciente puede intoxicarse con un nivel total normal.",
+      "metabolismo": "Hepático por CYP2C9 y CYP2C19, SATURABLE. Es además INDUCTOR ENZIMÁTICO potente.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "Variable y DEPENDIENTE de la concentración: de 12 a más de 60 horas a medida que sube el nivel.",
+      "ajuste_renal": "El nivel TOTAL infraestima la fracción libre en la uremia: hay que medir el nivel LIBRE o corregirlo.",
+      "ajuste_hepatico": "Reducir la dosis y monitorizar niveles.",
+      "interacciones": [
+        {
+          "con": "Prácticamente TODO por inducción del CYP3A4 (anticonceptivos, anticoagulantes, inmunosupresores, antirretrovirales, corticoides, quimioterápicos)",
+          "efecto": "Reduce drásticamente sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "Revisar toda la medicación al iniciarla y al retirarla"
+        },
+        {
+          "con": "Cotrimoxazol, fluconazol, amiodarona, isoniazida, omeprazol",
+          "efecto": "INHIBEN su metabolismo y producen intoxicación con rapidez",
+          "gravedad": "alta",
+          "manejo": "Medir niveles al añadir cualquiera de ellos"
+        },
+        {
+          "con": "VALPROATO",
+          "efecto": "La DESPLAZA de la albúmina: el nivel TOTAL baja mientras la fracción LIBRE (activa) sube",
+          "gravedad": "alta",
+          "manejo": "Es una trampa clásica: el nivel medido parece bajo y se sube la dosis, intoxicando al paciente. Hay que medir el nivel LIBRE"
+        },
+        {
+          "con": "NUTRICIÓN ENTERAL por sonda",
+          "efecto": "Reduce drásticamente su absorción",
+          "gravedad": "alta",
+          "manejo": "Suspender la nutrición 1-2 horas antes y después de la dosis, y monitorizar niveles"
+        },
+        {
+          "con": "Suero GLUCOSADO",
+          "efecto": "PRECIPITA",
+          "gravedad": "alta",
+          "manejo": "Diluir SIEMPRE en suero salino"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NISTAGMO, ataxia y diplopía (signos de nivel alto, en ese orden a medida que sube)",
+        "HIPERPLASIA GINGIVAL, muy característica y desfigurante en el joven",
+        "HIRSUTISMO y engrosamiento de los rasgos faciales",
+        "Somnolencia y sedación",
+        "Acné"
+      ],
+      "graves": [
+        "SÍNDROME DE STEVENS-JOHNSON y DRESS",
+        "Discrasias sanguíneas y anemia MEGALOBLÁSTICA por déficit de folato",
+        "NEUROPATÍA periférica y ATROFIA CEREBELOSA con el uso prolongado",
+        "OSTEOMALACIA y osteoporosis por inducción del metabolismo de la vitamina D",
+        "Hepatitis",
+        "SÍNDROME DEL GUANTE MORADO: isquemia y necrosis distal por extravasación o por infusión rápida",
+        "Hipotensión y arritmias por infusión intravenosa rápida",
+        "SÍNDROME FETAL POR HIDANTOÍNA"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia sinusal, bloqueo auriculoventricular de segundo o tercer grado y síndrome de Adams-Stokes",
+      "Porfiria",
+      "Hipersensibilidad a las hidantoínas",
+      "HLA-B*1502 positivo",
+      "Embarazo, salvo que no haya alternativa"
+    ],
+    "perlas": [
+      "La CINÉTICA DE ORDEN CERO es lo que define a este fármaco: dentro del rango terapéutico las enzimas se saturan, y pasar de 300 a 400 mg al día puede triplicar el nivel plasmático. Los ajustes se hacen de 25-50 mg y esperando una o dos semanas. Es el antiepiléptico donde la prisa intoxica.",
+      "En el HIPOALBUMINÉMICO y en el URÉMICO hay que medir el nivel LIBRE. Un nivel total de 8 puede corresponder a una fracción libre tóxica, y subir la dosis en esa situación es un error frecuente y grave.",
+      "El VALPROATO asociado la DESPLAZA de la albúmina: el nivel total baja aunque la fracción activa suba. Si se corrige la dosis al alza guiándose por el nivel total, se intoxica al paciente. Es la trampa farmacocinética más elegante y más peligrosa de la neurología.",
+      "Los signos de intoxicación aparecen en un orden reconocible que permite estimar el nivel sin analítica: primero NISTAGMO, después ATAXIA y por último confusión y letargia.",
+      "Por vía intravenosa NUNCA más rápido de 50 mg/min, y siempre en SALINO (precipita en glucosado). La hipotensión y las arritmias las produce el PROPILENGLICOL del disolvente, no la fenitoína, y por eso la FOSFENITOÍNA, que no lo lleva, se puede administrar tres veces más deprisa.",
+      "La NUTRICIÓN ENTERAL bloquea su absorción de forma drástica. En un paciente con sonda que sufre crisis pese a una dosis correcta, es la primera causa que hay que descartar: se suspende la nutrición una hora antes y después de la dosis.",
+      "La HIPERPLASIA GINGIVAL afecta a la mitad de los pacientes y es desfigurante en el joven. Una higiene bucal meticulosa la reduce, y es una razón sólida para elegir otro antiepiléptico en un adolescente.",
+      "El SÍNDROME DEL GUANTE MORADO es una isquemia distal por extravasación o infusión rápida que puede llegar a la amputación: exige una vía de buen calibre, dilución adecuada y vigilancia del punto de punción.",
+      "Es un INDUCTOR potente y con el uso prolongado produce OSTEOMALACIA por acelerar el metabolismo de la vitamina D, además de anemia megaloblástica por déficit de folato. En tratamientos de años hay que suplementar ambos.",
+      "Hoy es un fármaco de segunda línea en el tratamiento crónico precisamente por todo lo anterior, pero sigue siendo pieza clave en el ESTATUS EPILÉPTICO, donde su rapidez de acción justifica la complejidad."
+    ],
+    "embarazo_lactancia": "TERATÓGENA: el síndrome fetal por hidantoína incluye hipoplasia de las falanges distales y de las uñas, rasgos faciales característicos, labio y paladar hendidos y retraso del crecimiento. En la mujer en edad fértil se prefieren levetiracetam o lamotrigina. Durante la gestación la fracción libre aumenta y hay que monitorizarla. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; guías sobre manejo del estatus epiléptico"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "INF-itraconazol",
+    "nombre": "Itraconazol",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antifúngico sistémico",
+    "subclase": "Triazol de primera generación activo frente a filamentosos y dimórficos",
+    "vs_clase": [
+      "**De elección en las micosis endémicas por hongos DIMÓRFICOS** (histoplasmosis, blastomicosis, esporotricosis) y alternativa en onicomicosis.",
+      "**Absorción errática**: la cápsula necesita comida y acidez; la solución, ayunas. Monitorizar niveles.",
+      "**Inotropismo negativo: contraindicado en insuficiencia cardiaca**; inhibidor potente del CYP3A4."
+    ],
+    "mecanismo": "Inhibe la 14-alfa-desmetilasa fúngica (CYP51) y bloquea la conversión de lanosterol en ERGOSTEROL, desestabilizando la membrana del hongo. Frente al fluconazol amplía el espectro a Aspergillus, a los dermatofitos y, sobre todo, a los HONGOS DIMÓRFICOS endémicos, que son su territorio propio. Su comportamiento clínico está dominado por dos rasgos farmacocinéticos que hay que tener siempre presentes: una absorción ERRÁTICA y dependiente del pH y de la comida, y una inhibición potentísima del CYP3A4 y de la glicoproteína P, que lo convierte en uno de los fármacos con más interacciones de todo el vademécum. A ello se añade un efecto INOTROPO NEGATIVO propio, poco intuitivo en un antifúngico, que contraindica su uso en la insuficiencia cardiaca.",
+    "espectro": "HONGOS DIMÓRFICOS: Histoplasma, Blastomyces, Coccidioides, Paracoccidioides y Sporothrix (es el fármaco de referencia en todos ellos). DERMATOFITOS, incluido Trichophyton indotineae resistente a terbinafina. Candida (incluidas especies resistentes a fluconazol), Malassezia y Aspergillus (aquí es de segunda línea, por detrás del voriconazol). NO cubre mucorales ni Fusarium.",
+    "indicaciones": [
+      {
+        "patologia": "HISTOPLASMOSIS leve-moderada y continuación de la forma diseminada",
+        "dosis": "200 mg cada 8 horas durante 3 días (carga) y después 200 mg cada 12 horas",
+        "posologia": "Cada 8 horas 3 días y luego cada 12 horas",
+        "via": "VO",
+        "dosis_objetivo": "Concentración plasmática valle superior a 1 microgramo/mL, medida a las 2 semanas",
+        "nota": "6-12 semanas en la forma pulmonar aguda; 12 meses en la crónica cavitada y en la diseminada"
+      },
+      {
+        "patologia": "ESPOROTRICOSIS cutánea y linfocutánea",
+        "dosis": "200 mg al día",
+        "posologia": "Una toma diaria con comida",
+        "via": "VO",
+        "nota": "Es el tratamiento de elección. Se mantiene 2-4 semanas DESPUÉS de la resolución de las lesiones, con una duración total de 3-6 meses"
+      },
+      {
+        "patologia": "ONICOMICOSIS y dermatofitosis resistentes a terbinafina",
+        "dosis": "200 mg cada 12 horas una semana al mes (pauta en PULSOS): 2 pulsos en las uñas de las manos y 3 en las de los pies",
+        "posologia": "Pulsos mensuales de 7 días",
+        "via": "VO",
+        "nota": "La pauta en pulsos aprovecha su persistencia en la queratina y reduce la exposición sistémica y el coste"
+      },
+      {
+        "patologia": "PITIRIASIS VERSICOLOR extensa y foliculitis por Malassezia",
+        "dosis": "200 mg al día durante 5-7 días",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Reservado a las formas extensas o refractarias; la primera línea es el tratamiento tópico. Aquí la terbinafina oral NO sirve"
+      },
+      {
+        "patologia": "Aspergilosis broncopulmonar alérgica y aspergilosis pulmonar crónica",
+        "dosis": "200 mg cada 12 horas",
+        "posologia": "Cada 12 horas con comida",
+        "via": "VO",
+        "nota": "Permite reducir la dosis de corticoide en la aspergilosis broncopulmonar alérgica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Comprobar la medicación concomitante ANTES de la primera dosis: es un fármaco que obliga a revisar toda la lista del paciente. Determinar transaminasas basales y valorar la función cardiaca.",
+      "titulacion": "No se titula, pero SÍ se monitorizan NIVELES a las 2 semanas por la variabilidad de la absorción.",
+      "duracion": "Días en la pitiriasis versicolor; meses en las micosis endémicas; 12 meses en la histoplasmosis diseminada; pulsos mensuales en la onicomicosis.",
+      "fin": "Se retira al completar el ciclo. En la esporotricosis se prolonga 2-4 semanas más allá de la curación clínica.",
+      "via": "Oral. La CÁPSULA requiere ACIDEZ y comida (se toma con una comida completa o con una bebida ácida tipo cola); la SOLUCIÓN ORAL se absorbe mejor y debe tomarse en AYUNAS. Es una diferencia que se invierte entre formulaciones y que se confunde constantemente.",
+      "monitorizacion": "Transaminasas cada 4 semanas en tratamiento prolongado; niveles plasmáticos a las 2 semanas; signos de insuficiencia cardiaca; potasio (produce hipopotasemia)."
+    },
+    "farmacocinetica": {
+      "absorcion": "ERRÁTICA y muy variable. La CÁPSULA necesita pH ácido y alimento; la SOLUCIÓN ORAL en ciclodextrina se absorbe mejor y en ayunas. Los inhibidores de la bomba de protones y los antiácidos ANULAN la absorción de la cápsula.",
+      "distribucion": "Muy lipófilo, con altísima unión a proteínas (99%). Se concentra en piel, uña y tejido adiposo, donde persiste semanas. NO penetra en el sistema nervioso central ni alcanza concentraciones útiles en orina.",
+      "metabolismo": "Hepático por CYP3A4, con un metabolito activo (hidroxi-itraconazol). Es a la vez SUSTRATO e INHIBIDOR POTENTE del CYP3A4 y de la glicoproteína P.",
+      "eliminacion": "Biliar, en su mayor parte.",
+      "vida_media": "20-40 horas, que se prolonga con el tratamiento continuado.",
+      "ajuste_renal": "No requiere ajuste del fármaco, pero la formulación INTRAVENOSA (con ciclodextrina) se evita con filtrado menor de 30 mL/min.",
+      "ajuste_hepatico": "Evitar en la hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "INHIBIDORES DE LA BOMBA DE PROTONES, antiH2 y antiácidos",
+          "efecto": "ANULAN la absorción de la cápsula al elevar el pH gástrico: fracaso terapéutico completo",
+          "gravedad": "alta",
+          "manejo": "Es la interacción práctica más frecuente y la más olvidada. Usar la solución oral, o tomar la cápsula con una bebida de cola y separar del inhibidor"
+        },
+        {
+          "con": "Estatinas metabolizadas por CYP3A4 (simvastatina, atorvastatina, lovastatina)",
+          "efecto": "RABDOMIÓLISIS",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADAS simvastatina y lovastatina; suspender la estatina durante el tratamiento o cambiar a pravastatina o rosuvastatina"
+        },
+        {
+          "con": "ACOD (apixabán, rivaroxabán), dabigatrán",
+          "efecto": "Aumento marcado de las concentraciones con riesgo HEMORRÁGICO",
+          "gravedad": "alta",
+          "manejo": "Combinación contraindicada o que exige cambio de anticoagulante"
+        },
+        {
+          "con": "Tacrolimus, ciclosporina, sirolimus",
+          "efecto": "Elevación importante de sus concentraciones con nefrotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis del inmunosupresor y monitorizar niveles"
+        },
+        {
+          "con": "Quinidina, dofetilida, pimozida, cisaprida, alcaloides ergóticos",
+          "efecto": "Arritmias graves y torsades de pointes",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS"
+        },
+        {
+          "con": "Rifampicina, isoniazida, carbamazepina, fenitoína, hierba de San Juan",
+          "efecto": "Inducen su metabolismo y reducen drásticamente sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación: el fracaso terapéutico es casi seguro"
+        },
+        {
+          "con": "Midazolam y otras benzodiazepinas de metabolismo hepático",
+          "efecto": "Sedación prolongada",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis o elegir lorazepam, que se glucuronida"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, dolor abdominal y diarrea",
+        "Cefalea y mareo",
+        "Elevación de transaminasas",
+        "Exantema",
+        "HIPOPOTASEMIA (efecto mineralocorticoide indirecto)"
+      ],
+      "graves": [
+        "INSUFICIENCIA CARDIACA por efecto INOTROPO NEGATIVO directo: es un efecto de clase poco conocido y motivo de contraindicación formal",
+        "Hepatotoxicidad grave, incluida la insuficiencia hepática",
+        "Neuropatía periférica",
+        "Edemas e hipertensión por retención hidrosalina",
+        "Reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "INSUFICIENCIA CARDIACA o antecedente de disfunción ventricular",
+      "Uso concomitante de los fármacos contraindicados (simvastatina, pimozida, quinidina, dofetilida, alcaloides ergóticos, ACOD según el caso)",
+      "Hepatopatía activa",
+      "EMBARAZO (teratógeno)",
+      "Insuficiencia renal grave para la formulación intravenosa"
+    ],
+    "perlas": [
+      "La regla que decide si funciona: la CÁPSULA necesita ÁCIDO y COMIDA; la SOLUCIÓN ORAL se toma en AYUNAS. Es una inversión entre formulaciones que se confunde a menudo, y es la causa número uno de que un tratamiento correcto no alcance concentraciones eficaces.",
+      "Un paciente con OMEPRAZOL y itraconazol en cápsulas está, en la práctica, sin tratamiento antifúngico. Antes de concluir que el hongo es resistente, hay que revisar el pH gástrico del paciente.",
+      "Es un INHIBIDOR POTENTE del CYP3A4 y de la glicoproteína P: iniciarlo obliga a revisar toda la medicación del paciente. Estatinas, anticoagulantes directos, inmunosupresores y antiarrítmicos son las familias que más problemas dan.",
+      "El efecto INOTROPO NEGATIVO es su rareza farmacológica: un antifúngico que puede descompensar una insuficiencia cardiaca. Está formalmente contraindicado en el paciente con disfunción ventricular, algo que sorprende y que se pasa por alto con facilidad.",
+      "Es el fármaco de referencia de los HONGOS DIMÓRFICOS y de la ESPOROTRICOSIS: ahí no tiene competidor cómodo.",
+      "NO penetra en el sistema nervioso central ni en la orina: en la meningitis fúngica y en la candiduria hay que elegir otro fármaco. Es la misma laguna que tienen las equinocandinas.",
+      "Exige MEDIR NIVELES a las 2 semanas cuando la indicación es seria: su absorción es tan variable que dosificar a ciegas equivale a esperar suerte.",
+      "En la ONICOMICOSIS la pauta en PULSOS (una semana al mes) aprovecha su persistencia en la queratina: menos exposición sistémica, mismo resultado."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo por teratogenia demostrada; se exige anticoncepción eficaz durante el tratamiento y hasta dos ciclos menstruales después. Se excreta en la leche: no recomendado durante la lactancia.",
+    "micro_relacionado": [
+      "HON-aspergillus-fumigatus",
+      "HON-dermatofitos",
+      "HON-histoplasma-capsulatum",
+      "HON-malassezia"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; guías IDSA de histoplasmosis y esporotricosis"
+  },
+  {
+    "id": "INF-praziquantel",
+    "nombre": "Praziquantel",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antiparasitario",
+    "subclase": "Antihelmíntico frente a trematodos y cestodos",
+    "mecanismo": "Aumenta la permeabilidad de la membrana del parásito al CALCIO, provocando una entrada masiva de calcio que produce una CONTRACCIÓN TETÁNICA de su musculatura y una parálisis espástica inmediata. A la vez, vacuoliza y desintegra el TEGUMENTO, la cubierta externa del gusano, dejando al descubierto antígenos que hasta entonces estaban ocultos al sistema inmunitario del huésped. Esa doble acción explica tanto su eficacia como su principal problema: la destrucción brusca del parásito libera antígenos y desencadena una respuesta INFLAMATORIA que, según dónde esté alojado el gusano, puede ser más peligrosa que la propia parasitosis. De ahí que en la neurocisticercosis y en la afectación ocular haya que anticipar y frenar esa inflamación.",
+    "espectro": "TREMATODOS: Schistosoma (todas las especies), Clonorchis, Opisthorchis, Paragonimus, Fasciolopsis. CESTODOS: Taenia solium y saginata, Diphyllobothrium, Hymenolepis, y actividad protoescolicida frente a Echinococcus. NO es activo frente a Fasciola hepatica (que se trata con triclabendazol) ni frente a los nematodos, que son territorio del albendazol y la ivermectina.",
+    "indicaciones": [
+      {
+        "patologia": "ESQUISTOSOMIASIS (todas las especies)",
+        "dosis": "40 mg/kg en dosis única, o 60 mg/kg repartidos en 2-3 tomas el mismo día en S. japonicum y S. mekongi",
+        "posologia": "Dosis única o fraccionada en un día",
+        "via": "VO",
+        "nota": "Es el tratamiento de elección mundial y la base de las campañas de administración masiva. Actúa mal sobre las formas inmaduras: en el viajero recién infectado conviene repetir a las 4-6 semanas"
+      },
+      {
+        "patologia": "TENIASIS intestinal (T. solium, T. saginata, Diphyllobothrium)",
+        "dosis": "5-10 mg/kg en dosis única",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Dosis mucho MENOR que en la esquistosomiasis. En la teniasis por T. solium hay que valorar antes la posibilidad de neurocisticercosis coexistente"
+      },
+      {
+        "patologia": "NEUROCISTICERCOSIS parenquimatosa con quistes viables",
+        "dosis": "50 mg/kg/día repartidos en 3 tomas, asociado a albendazol",
+        "posologia": "Cada 8 horas durante 10-14 días",
+        "via": "VO",
+        "nota": "OBLIGATORIO asociar CORTICOIDE (dexametasona o prednisona) iniciado ANTES del antiparasitario, y antiepiléptico. Hay que descartar cisticercosis OCULAR con fondo de ojo antes de tratar"
+      },
+      {
+        "patologia": "Cobertura protoescolicida en la cirugía o la PAIR del quiste hidatídico",
+        "dosis": "40 mg/kg semanal o 25 mg/kg/día, asociado a albendazol",
+        "posologia": "Según pauta perioperatoria",
+        "via": "VO",
+        "nota": "Reduce la viabilidad de los protoescólices y el riesgo de siembra secundaria si el quiste se rompe"
+      },
+      {
+        "patologia": "Distomatosis hepática y pulmonar (Clonorchis, Opisthorchis, Paragonimus)",
+        "dosis": "25 mg/kg cada 8 horas durante 2 días",
+        "posologia": "Cada 8 horas",
+        "via": "VO",
+        "nota": "NO es eficaz frente a Fasciola hepatica, para la que el fármaco es el triclabendazol"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la neurocisticercosis, el CORTICOIDE se inicia 1-2 días ANTES que el antiparasitario. En cualquier localización sensible (ojo, médula, sistema nervioso) hay que valorar el riesgo inflamatorio antes de matar al parásito.",
+      "titulacion": "Dosis fija por peso; no se titula.",
+      "duracion": "Dosis única en la mayoría de las indicaciones; 10-14 días en la neurocisticercosis.",
+      "fin": "Control parasitológico posterior (a las 4-6 semanas en la esquistosomiasis) y repetición del ciclo si persiste.",
+      "via": "Oral, CON COMIDA, tragando los comprimidos enteros: son intensamente AMARGOS y masticarlos provoca náuseas y vómitos, sobre todo en niños.",
+      "monitorizacion": "En la neurocisticercosis, vigilancia neurológica estrecha y control de la presión intracraneal. En la esquistosomiasis, huevos en heces u orina a las 4-6 semanas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y buena, mejorada por los alimentos, especialmente los ricos en hidratos de carbono.",
+      "distribucion": "Amplia; ATRAVIESA la barrera hematoencefálica y alcanza el líquido cefalorraquídeo, lo que permite su uso en la neurocisticercosis.",
+      "metabolismo": "Metabolismo presistémico MUY EXTENSO por CYP3A4, lo que deja una biodisponibilidad baja y hace que los inductores enzimáticos lo inutilicen.",
+      "eliminacion": "Renal, en forma de metabolitos.",
+      "vida_media": "1-3 horas (metabolitos, 4-6 horas).",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática grave y en la esquistosomiasis hepatoesplénica avanzada.",
+      "interacciones": [
+        {
+          "con": "DEXAMETASONA",
+          "efecto": "Reduce las concentraciones plasmáticas de praziquantel hasta un 50%",
+          "gravedad": "alta",
+          "manejo": "Es una interacción incómoda porque ambos se usan a la vez en la neurocisticercosis: se compensa con la dosis alta de praziquantel de esa indicación, y algunos protocolos prefieren prednisona"
+        },
+        {
+          "con": "Carbamazepina, fenitoína, fenobarbital y rifampicina",
+          "efecto": "Inducen su metabolismo y reducen sus niveles drásticamente; la RIFAMPICINA puede hacerlo indetectable",
+          "gravedad": "alta",
+          "manejo": "La rifampicina está CONTRAINDICADA con praziquantel: hay que suspenderla 4 semanas antes o elegir otro antiparasitario"
+        },
+        {
+          "con": "CIMETIDINA y otros inhibidores del CYP3A4 (azoles, macrólidos, zumo de pomelo)",
+          "efecto": "Aumentan sus concentraciones",
+          "gravedad": "media",
+          "manejo": "Puede aprovecharse para mejorar la biodisponibilidad, pero vigilando los efectos adversos"
+        },
+        {
+          "con": "Albendazol",
+          "efecto": "El praziquantel eleva las concentraciones del sulfóxido de albendazol",
+          "gravedad": "baja",
+          "manejo": "Interacción BUSCADA: la combinación es sinérgica en la neurocisticercosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias abdominales, náuseas y diarrea",
+        "Cefalea, mareo y somnolencia",
+        "Sabor MUY AMARGO y náuseas si se mastica el comprimido",
+        "Urticaria y prurito (habitualmente por la lisis del parásito, no por alergia al fármaco)",
+        "Fiebre y mialgias"
+      ],
+      "graves": [
+        "REACCIÓN INFLAMATORIA por lisis del parásito, que en la neurocisticercosis produce cefalea intensa, crisis comiciales, edema cerebral e HIPERTENSIÓN INTRACRANEAL",
+        "Ceguera irreversible si hay cisticercos OCULARES no detectados antes del tratamiento",
+        "Empeoramiento neurológico en la afectación medular",
+        "Arritmias (raras)",
+        "Reacción de Jarisch-Herxheimer-like en cargas parasitarias muy altas"
+      ]
+    },
+    "contraindicaciones": [
+      "CISTICERCOSIS OCULAR (la destrucción del quiste dentro del ojo causa ceguera): hay que hacer FONDO DE OJO antes de tratar",
+      "Uso concomitante de RIFAMPICINA",
+      "Neurocisticercosis con hipertensión intracraneal no controlada o con encefalitis por cisticercos múltiples: primero se estabiliza",
+      "Hipersensibilidad conocida",
+      "Primer trimestre del embarazo por precaución, aunque la OMS lo considera aceptable en campañas masivas"
+    ],
+    "perlas": [
+      "El principio que ordena su uso: el peligro no está en el fármaco sino en DÓNDE MUERE EL PARÁSITO. Matar un gusano en el intestino es inocuo; matarlo en el cerebro o en el ojo desencadena una inflamación que puede provocar crisis, hipertensión intracraneal o ceguera. Por eso, antes de tratar una cisticercosis, se hace FONDO DE OJO y se administra CORTICOIDE.",
+      "En la neurocisticercosis, el corticoide se empieza ANTES que el antiparasitario, y el antiepiléptico también. Es una de las pocas situaciones en que se prepara al paciente para el tratamiento antes de administrarlo.",
+      "Las DOSIS varían enormemente según la indicación: 5-10 mg/kg en la teniasis intestinal, 40 mg/kg en la esquistosomiasis y 50 mg/kg/día durante dos semanas en la neurocisticercosis. Un factor de diez entre la más baja y la más alta, y confundirlas tiene consecuencias en las dos direcciones.",
+      "NO cubre FASCIOLA hepatica, pese a ser un trematodo: es la excepción del espectro y el fármaco allí es el triclabendazol.",
+      "Tampoco cubre los NEMATODOS: ese territorio es del albendazol y de la ivermectina. Praziquantel es para gusanos PLANOS, trematodos y cestodos.",
+      "Los comprimidos son intensamente AMARGOS y no deben masticarse; en el niño, disimularlos en un alimento dulce y espeso mejora mucho la tolerancia.",
+      "La RIFAMPICINA lo inutiliza por completo: es una contraindicación absoluta que importa en pacientes con tuberculosis concomitante, situación nada rara en las mismas zonas geográficas.",
+      "Actúa mal sobre los esquistosomas INMADUROS. En el viajero que se ha bañado en agua dulce y se trata precozmente hay que REPETIR el tratamiento a las 4-6 semanas, cuando los gusanos ya son adultos."
+    ],
+    "embarazo_lactancia": "La OMS lo considera aceptable en el embarazo a partir del segundo trimestre y lo incluye en las campañas masivas en zonas endémicas, dado que la esquistosomiasis no tratada perjudica a la gestación. Compatible con la lactancia; antiguamente se recomendaba suspenderla 72 horas, recomendación hoy considerada innecesaria.",
+    "micro_relacionado": [
+      "PAR-echinococcus-granulosus",
+      "PAR-taenia-solium"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 53; guías de la OMS sobre esquistosomiasis y helmintiasis transmitidas por el suelo; recomendaciones IDSA/ASTMH sobre neurocisticercosis"
+  }
+]

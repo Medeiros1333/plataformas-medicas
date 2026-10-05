@@ -1,0 +1,299 @@
+[
+  {
+    "id": "INM-anticalcineurinicos",
+    "nombre": "Tacrolimus y ciclosporina",
+    "sinonimos": [
+      "Anticalcineurínicos",
+      "Inhibidores de la calcineurina"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunosupresor",
+    "subclase": "Inhibidores de la calcineurina",
+    "vs_clase": [
+      "**Base de la inmunosupresión del TRASPLANTE**: bloquean la activación del linfocito T (IL-2).",
+      "**Nefrotoxicidad, HTA, hiperpotasemia, neurotoxicidad (temblor) y diabetes**; niveles valle obligatorios.",
+      "**Metabolismo por CYP3A4**: interacciones con azoles, macrólidos, diltiazem, rifampicina, pomelo."
+    ],
+    "mecanismo": "Ambos se unen a una inmunofilina intracelular (el tacrolimus a la FKBP-12 y la ciclosporina a la ciclofilina) y el complejo resultante inhibe la CALCINEURINA, la fosfatasa que desfosforila el factor de transcripción NFAT. Sin esa desfosforilación, el NFAT no entra en el núcleo y no se transcribe la INTERLEUCINA 2, que es la señal que hace proliferar al linfocito T activado. El bloqueo es, por tanto, muy selectivo sobre la activación del linfocito T. El precio de esa selectividad es que la calcineurina también existe en el riñón y en el sistema nervioso: su inhibición produce vasoconstricción de la arteriola aferente y, a largo plazo, una FIBROSIS INTERSTICIAL crónica. Es una paradoja central del trasplante renal: el fármaco que salva el injerto es también el que lo va deteriorando con los años.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Mantenimiento del TRASPLANTE de órgano sólido",
+        "dosis": "Tacrolimus 0,1-0,2 mg/kg/día repartidos en 2 tomas; ciclosporina 5-10 mg/kg/día en 2 tomas",
+        "posologia": "Cada 12 horas, a horas fijas",
+        "via": "VO",
+        "dosis_objetivo": "Nivel VALLE de tacrolimus de 8-12 ng/mL el primer mes y 5-8 ng/mL en el mantenimiento; ciclosporina 150-300 ng/mL según el periodo y el órgano",
+        "nota": "Se combina con micofenolato y corticoide. El TACROLIMUS ha desplazado a la ciclosporina en casi todos los protocolos por mayor eficacia y menos efectos cosméticos"
+      },
+      {
+        "patologia": "Enfermedad injerto contra huésped y trasplante de progenitores hematopoyéticos",
+        "dosis": "Tacrolimus 0,03 mg/kg/día en perfusión continua o dosis oral equivalente",
+        "posologia": "Perfusión continua o cada 12 horas",
+        "via": "IV",
+        "dosis_objetivo": "Nivel valle de 5-15 ng/mL",
+        "nota": "Profilaxis y tratamiento, asociado a metotrexato o micofenolato"
+      },
+      {
+        "patologia": "Colitis ulcerosa grave corticorrefractaria",
+        "dosis": "Ciclosporina 2 mg/kg/día en perfusión continua",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Nivel de 150-250 ng/mL",
+        "nota": "Terapia de RESCATE para evitar la colectomía urgente, como puente a la azatioprina o al biológico"
+      },
+      {
+        "patologia": "Síndrome nefrótico corticodependiente o corticorresistente",
+        "dosis": "Ciclosporina 3-5 mg/kg/día o tacrolimus 0,05-0,1 mg/kg/día",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Eficaz en la nefropatía membranosa y en la enfermedad de cambios mínimos, con el problema de la recaída al retirarlo"
+      },
+      {
+        "patologia": "Dermatitis atópica moderada-grave y psoriasis graves",
+        "dosis": "Ciclosporina 2,5-5 mg/kg/día",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Ciclos CORTOS de 3-6 meses: el uso prolongado en dermatología produce nefrotoxicidad irreversible"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal, tensión arterial, glucemia, perfil lipídico, magnesio y potasio basales. Revisar exhaustivamente la medicación concomitante: casi todo lo que pasa por el CYP3A4 interacciona.",
+      "titulacion": "Guiada por NIVELES VALLE, medidos siempre inmediatamente ANTES de la siguiente dosis. Es un fármaco de margen terapéutico estrecho en el que la dosis por sí sola no dice nada.",
+      "duracion": "Indefinida en el trasplante; ciclos limitados en dermatología (máximo 1-2 años, preferiblemente menos).",
+      "fin": "En el trasplante no se retira; se minimiza. En las indicaciones no trasplante, retirada progresiva por el riesgo de recaída.",
+      "via": "Oral, a horas fijas y siempre con la misma relación con las comidas. Existe formulación intravenosa y tópica (tacrolimus en pomada).",
+      "monitorizacion": "NIVELES valle, creatinina, tensión arterial, glucemia, potasio, magnesio, ácido úrico y perfil lipídico. Vigilancia de infecciones oportunistas y de neoplasias cutáneas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Variable e influida por la comida (los alimentos grasos reducen la absorción del tacrolimus). Existen formulaciones de liberación prolongada de toma única diaria, que NO son intercambiables miligramo a miligramo con las convencionales.",
+      "distribucion": "El tacrolimus se une a los eritrocitos, por lo que los niveles se miden en SANGRE TOTAL y no en plasma.",
+      "metabolismo": "Hepático e intestinal por CYP3A4 y CYP3A5, con transporte por glicoproteína P. El polimorfismo del CYP3A5 explica que algunos pacientes necesiten el doble de dosis que otros para el mismo nivel.",
+      "eliminacion": "Biliar.",
+      "vida_media": "Tacrolimus 12 horas; ciclosporina 8-20 horas.",
+      "ajuste_renal": "No se ajusta por filtrado, sino por NIVELES. Pero la nefrotoxicidad obliga a minimizar la dosis en el paciente con deterioro renal.",
+      "ajuste_hepatico": "Reducir la dosis y vigilar niveles: la insuficiencia hepática eleva mucho las concentraciones.",
+      "interacciones": [
+        {
+          "con": "AZOLES (itraconazol, voriconazol, fluconazol, posaconazol)",
+          "efecto": "Elevan las concentraciones de forma masiva, hasta varias veces",
+          "gravedad": "alta",
+          "manejo": "Al iniciar voriconazol hay que reducir el tacrolimus a un TERCIO el mismo día y medir niveles a las 48 horas. Es la interacción cotidiana del trasplantado infectado"
+        },
+        {
+          "con": "Macrólidos (claritromicina, eritromicina), diltiazem, verapamilo, amiodarona",
+          "efecto": "Aumentan las concentraciones",
+          "gravedad": "alta",
+          "manejo": "Elegir azitromicina en lugar de claritromicina; si se combina, reducir dosis y medir niveles"
+        },
+        {
+          "con": "RIFAMPICINA, carbamazepina, fenitoína, hierba de San Juan",
+          "efecto": "Reducen las concentraciones drásticamente con riesgo de RECHAZO del injerto",
+          "gravedad": "alta",
+          "manejo": "Evitar. La hierba de San Juan es un caso descrito de pérdida de injerto por automedicación"
+        },
+        {
+          "con": "Zumo de POMELO",
+          "efecto": "Eleva las concentraciones de forma imprevisible",
+          "gravedad": "alta",
+          "manejo": "Prohibirlo expresamente al paciente: es una advertencia dietética que hay que dar por escrito"
+        },
+        {
+          "con": "AINE, aminoglucósidos, anfotericina, contrastes yodados",
+          "efecto": "NEFROTOXICIDAD aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE de forma sistemática en el trasplantado"
+        },
+        {
+          "con": "Estatinas (ciclosporina)",
+          "efecto": "Riesgo de rabdomiólisis por inhibición de OATP1B1",
+          "gravedad": "alta",
+          "manejo": "Usar dosis bajas de pravastatina o fluvastatina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NEFROTOXICIDAD, aguda (funcional y reversible) y crónica (fibrosis irreversible)",
+        "HIPERTENSIÓN arterial",
+        "TEMBLOR, cefalea y parestesias",
+        "HIPERPOTASEMIA, HIPOMAGNESEMIA e hiperuricemia",
+        "DIABETES postrasplante, mucho más frecuente con TACROLIMUS",
+        "HIPERTRICOSIS e HIPERPLASIA GINGIVAL, características de la CICLOSPORINA (el tacrolimus produce más bien alopecia)"
+      ],
+      "graves": [
+        "Insuficiencia renal crónica progresiva con fibrosis intersticial",
+        "NEUROTOXICIDAD grave: convulsiones, confusión y síndrome de encefalopatía posterior reversible (PRES)",
+        "MICROANGIOPATÍA TROMBÓTICA",
+        "Infecciones oportunistas (CMV, Pneumocystis, BK virus, aspergilosis)",
+        "Neoplasias: cáncer cutáneo y síndrome linfoproliferativo postrasplante asociado al virus de Epstein-Barr",
+        "Prolongación del QT"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida (o al aceite de ricino polioxietilado de la formulación intravenosa de ciclosporina)",
+      "Uso concomitante de inductores potentes como la rifampicina o la hierba de San Juan",
+      "Neoplasia activa no controlada",
+      "Precaución máxima en la insuficiencia renal preexistente y en el QT largo"
+    ],
+    "perlas": [
+      "La paradoja que define a esta familia: es el fármaco que mantiene vivo el injerto renal y, a la vez, el que lo destruye lentamente por fibrosis intersticial. Toda la estrategia moderna del trasplante consiste en MINIMIZAR la exposición sin perder eficacia, apoyándose en el micofenolato, que no es nefrotóxico.",
+      "Se dosifica por NIVELES, no por miligramos, y el nivel es siempre el VALLE, medido justo antes de la siguiente toma. Un nivel extraído a media mañana no significa nada y es un error de enfermería frecuente que lleva a ajustes equivocados.",
+      "Los perfiles de efectos adversos de los dos fármacos se distinguen bien y ayudan a elegir: la CICLOSPORINA produce hipertricosis e hiperplasia gingival (muy mal tolerados por adolescentes) y más dislipidemia; el TACROLIMUS produce más DIABETES, más temblor y más alopecia, y es más nefrotóxico a igualdad de eficacia inmunosupresora.",
+      "El ZUMO DE POMELO es una advertencia que hay que dar por escrito. Y la HIERBA DE SAN JUAN ha causado pérdidas de injerto documentadas en pacientes que la tomaban por su cuenta para el ánimo: hay que preguntar activamente por productos de herbolario.",
+      "Iniciar un antifúngico AZÓLICO en un trasplantado obliga a reducir el tacrolimus el mismo día, típicamente a un tercio con voriconazol. No hacerlo produce una nefrotoxicidad y una neurotoxicidad perfectamente evitables.",
+      "Los AINE están prácticamente proscritos en el trasplantado: suman nefrotoxicidad a un riñón que ya vive con vasoconstricción de la aferente.",
+      "El PRES (encefalopatía posterior reversible) con cefalea, crisis y alteración visual en un trasplantado con niveles altos es un diagnóstico que hay que tener presente: se resuelve al reducir el fármaco y controlar la tensión.",
+      "El polimorfismo del CYP3A5 explica que dos pacientes con el mismo peso necesiten dosis muy distintas: quien expresa CYP3A5 metaboliza más deprisa y requiere aproximadamente el doble. Por eso las primeras semanas exigen ajustes frecuentes."
+    ],
+    "embarazo_lactancia": "COMPATIBLES con el embarazo cuando son necesarios (trasplantada gestante): no son teratógenos, aunque se asocian a prematuridad, bajo peso, hipertensión y diabetes gestacional. Los requerimientos de dosis CAMBIAN durante la gestación y obligan a controlar niveles con más frecuencia. Compatibles con la lactancia según la mayoría de las recomendaciones actuales.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías KDIGO de trasplante renal"
+  },
+  {
+    "id": "INM-anti-tnf",
+    "nombre": "Anti-TNF (infliximab, adalimumab, etanercept, golimumab, certolizumab)",
+    "sinonimos": [
+      "Biológicos anti-factor de necrosis tumoral"
+    ],
+    "area": "INM",
+    "nivel": 1,
+    "clase": "Inmunosupresor biológico",
+    "subclase": "Anticuerpos monoclonales y proteína de fusión frente al TNF-alfa",
+    "vs_clase": [
+      "**El biológico de primera línea** en artritis reumatoide, espondiloartritis, psoriasis y EII.",
+      "**Reactivación de TUBERCULOSIS latente** (cribado obligatorio) y de VHB.",
+      "**Contraindicados en insuficiencia cardiaca grave y enfermedades desmielinizantes.**"
+    ],
+    "mecanismo": "Neutralizan el FACTOR DE NECROSIS TUMORAL ALFA, la citocina que ocupa la posición más alta de la cascada inflamatoria en las enfermedades inmunomediadas: induce otras citocinas (IL-1, IL-6), moléculas de adhesión, quimiocinas y metaloproteasas. Bloquearlo apaga la inflamación aguas abajo de forma muy eficaz. Pero el TNF cumple además una función fisiológica insustituible: es la citocina que mantiene la integridad del GRANULOMA, la estructura con la que el organismo encapsula al bacilo tuberculoso latente. Al neutralizarlo, el granuloma se desestructura y el bacilo se libera. Toda la seguridad de esta familia gira alrededor de ese hecho, y de ahí que el cribado de tuberculosis latente antes de iniciarlos no sea una recomendación sino un requisito.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ARTRITIS REUMATOIDE con fracaso del metotrexato",
+        "dosis": "Adalimumab 40 mg cada 2 semanas SC; etanercept 50 mg semanal SC; infliximab 3 mg/kg IV en semanas 0, 2 y 6 y después cada 8 semanas",
+        "posologia": "Según fármaco: semanal, quincenal o cada 8 semanas",
+        "via": "SC",
+        "nota": "Se mantiene el METOTREXATO asociado siempre que sea posible: reduce la formación de anticuerpos antifármaco y prolonga la eficacia"
+      },
+      {
+        "patologia": "Enfermedad de CROHN y colitis ulcerosa moderada-grave",
+        "dosis": "Infliximab 5 mg/kg IV en semanas 0, 2 y 6 y después cada 8 semanas; adalimumab 160 mg, 80 mg y después 40 mg cada 2 semanas SC",
+        "posologia": "Inducción y mantenimiento",
+        "via": "IV",
+        "dosis_objetivo": "Nivel valle de infliximab superior a 5 microgramos/mL en el mantenimiento",
+        "nota": "El INFLIXIMAB es el de elección en la enfermedad FISTULIZANTE. El ETANERCEPT NO es eficaz en la enfermedad inflamatoria intestinal, una excepción importante dentro de la clase"
+      },
+      {
+        "patologia": "ESPONDILOARTRITIS axial y artritis psoriásica",
+        "dosis": "Adalimumab 40 mg cada 2 semanas SC; etanercept 50 mg semanal SC",
+        "posologia": "Semanal o quincenal",
+        "via": "SC",
+        "nota": "En la espondiloartritis axial los anti-TNF son de primera línea biológica, ya que los antirreumáticos convencionales no funcionan en la afectación axial"
+      },
+      {
+        "patologia": "PSORIASIS en placas moderada-grave",
+        "dosis": "Adalimumab 80 mg y después 40 mg cada 2 semanas SC",
+        "posologia": "Quincenal",
+        "via": "SC",
+        "nota": "Hoy compiten con los anti-IL17 y anti-IL23, que son más eficaces en piel"
+      },
+      {
+        "patologia": "Uveítis no infecciosa y enfermedad de Behçet",
+        "dosis": "Adalimumab 80 mg y después 40 mg cada 2 semanas SC",
+        "posologia": "Quincenal",
+        "via": "SC",
+        "nota": "El ETANERCEPT tampoco es eficaz en la uveítis: dentro de la clase, la proteína de fusión se comporta de forma distinta a los anticuerpos monoclonales"
+      }
+    ],
+    "esquema": {
+      "inicio": "CRIBADO OBLIGATORIO antes de la primera dosis: tuberculosis latente (Mantoux e IGRA, más radiografía de tórax), serologías de VHB, VHC y VIH, descartar infección activa, insuficiencia cardiaca y enfermedad desmielinizante, y actualizar el CALENDARIO VACUNAL (las vacunas VIVAS deben ponerse ANTES, porque después estarán contraindicadas).",
+      "titulacion": "Pauta de inducción y después mantenimiento fijo. Ante pérdida de respuesta, medir NIVELES y ANTICUERPOS antifármaco antes de cambiar de biológico: la causa puede ser inmunogenicidad y no fracaso real.",
+      "duracion": "Prolongada mientras mantenga eficacia y seguridad.",
+      "fin": "Suspensión temporal ante infección grave y 2-4 semanas antes de una cirugía mayor programada, reanudando con la herida cicatrizada. La retirada por remisión mantenida es posible en casos seleccionados, con riesgo de recaída.",
+      "via": "Subcutánea (adalimumab, etanercept, golimumab, certolizumab) o intravenosa (infliximab).",
+      "monitorizacion": "Hemograma, transaminasas, vigilancia clínica de infecciones, exploración cutánea anual y cribado de tuberculosis anual en zonas de alta incidencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad subcutánea del 60-80%.",
+      "distribucion": "Limitada al compartimento vascular e intersticial. El CERTOLIZUMAB es un fragmento Fab pegilado SIN porción Fc, y esa particularidad estructural hace que NO atraviese activamente la placenta en el tercer trimestre, lo que lo convierte en el anti-TNF de elección en el embarazo.",
+      "metabolismo": "Catabolismo proteolítico, como cualquier proteína: NO pasan por el citocromo P450 y por eso apenas tienen interacciones farmacocinéticas.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "10-20 días, salvo el etanercept, que tiene unos 4 días.",
+      "ajuste_renal": "No requieren ajuste.",
+      "ajuste_hepatico": "No requieren ajuste.",
+      "interacciones": [
+        {
+          "con": "ANAKINRA, abatacept y otros biológicos",
+          "efecto": "Aumento marcado del riesgo de infección grave sin ganancia de eficacia",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA la combinación de dos biológicos"
+        },
+        {
+          "con": "VACUNAS VIVAS (fiebre amarilla, triple vírica, varicela, herpes zóster atenuada, BCG)",
+          "efecto": "Riesgo de infección por el microorganismo vacunal",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADAS durante el tratamiento. Hay que ponerlas ANTES de iniciarlo, con al menos 4 semanas de margen. Las vacunas INACTIVADAS sí se administran y se recomiendan"
+        },
+        {
+          "con": "Tiopurinas (azatioprina) en varón joven",
+          "efecto": "Riesgo aumentado de LINFOMA HEPATOESPLÉNICO DE CÉLULAS T, raro pero de altísima mortalidad",
+          "gravedad": "alta",
+          "manejo": "Valorar la combinación con especial cautela en varones menores de 35 años"
+        },
+        {
+          "con": "Metotrexato",
+          "efecto": "Reduce la formación de anticuerpos antifármaco y prolonga la eficacia",
+          "gravedad": "baja",
+          "manejo": "Interacción BUSCADA: es el motivo de mantener el metotrexato asociado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción local en el punto de inyección",
+        "Infecciones respiratorias altas",
+        "Cefalea",
+        "Reacciones infusionales con infliximab",
+        "Positivización de anticuerpos antinucleares (habitualmente sin significado clínico)"
+      ],
+      "graves": [
+        "REACTIVACIÓN DE TUBERCULOSIS LATENTE, con presentaciones atípicas, extrapulmonares y diseminadas",
+        "REACTIVACIÓN DE HEPATITIS B, potencialmente fulminante",
+        "Infecciones bacterianas graves e infecciones fúngicas (histoplasmosis, coccidioidomicosis)",
+        "Enfermedad DESMIELINIZANTE de nueva aparición o agravamiento de una esclerosis múltiple",
+        "EMPEORAMIENTO de la INSUFICIENCIA CARDIACA (contraindicados en clase III-IV)",
+        "LUPUS inducido por fármacos",
+        "PSORIASIS paradójica: aparición de psoriasis en pacientes tratados por otra indicación",
+        "Cáncer cutáneo no melanoma y linfoma (riesgo pequeño pero descrito)",
+        "Citopenias"
+      ]
+    },
+    "contraindicaciones": [
+      "TUBERCULOSIS activa o latente no tratada",
+      "Infección activa grave, incluida la sepsis y el absceso no drenado",
+      "INSUFICIENCIA CARDIACA en clase funcional III-IV de la NYHA",
+      "Enfermedad DESMIELINIZANTE (esclerosis múltiple, neuritis óptica)",
+      "Vacunas vivas concomitantes",
+      "Neoplasia reciente (valoración individualizada)"
+    ],
+    "perlas": [
+      "La regla que resume la seguridad de toda la familia: el TNF mantiene el GRANULOMA, y sin granuloma la tuberculosis latente se libera. Por eso el cribado con Mantoux, IGRA y radiografía de tórax es OBLIGATORIO antes de la primera dosis, y por eso la tuberculosis en estos pacientes se presenta de forma atípica, extrapulmonar y diseminada, sin la imagen clásica que uno espera.",
+      "Si el cribado detecta tuberculosis LATENTE, no se renuncia al biológico: se trata la infección latente con isoniazida y se inicia el anti-TNF al menos un mes después.",
+      "La HEPATITIS B hay que cribarla siempre: la reactivación en un portador puede ser fulminante y es completamente evitable con profilaxis antiviral.",
+      "Las VACUNAS VIVAS se ponen ANTES de empezar, con un margen de al menos 4 semanas. Después estarán contraindicadas, y explicárselo al paciente que planea un viaje (fiebre amarilla) evita un problema serio.",
+      "El ETANERCEPT es la oveja negra de la clase: NO funciona en la enfermedad inflamatoria intestinal ni en la uveítis. Es una proteína de fusión del receptor, no un anticuerpo monoclonal, y esa diferencia estructural se traduce en diferencias clínicas reales.",
+      "Ante una PÉRDIDA DE RESPUESTA hay que medir NIVELES y ANTICUERPOS antifármaco antes de cambiar de biológico: si los niveles son bajos por inmunogenicidad, la solución puede ser subir la dosis o añadir un inmunomodulador, y no gastar la siguiente línea terapéutica.",
+      "El CERTOLIZUMAB carece de porción Fc y por eso no cruza activamente la placenta en el tercer trimestre: es el anti-TNF de elección en la mujer embarazada que necesita mantener el tratamiento.",
+      "Los hijos de madres tratadas con anti-TNF durante el tercer trimestre NO deben recibir vacunas VIVAS (rotavirus, BCG) durante los primeros 6 meses: el fármaco materno sigue circulando en el lactante. Es un detalle que se olvida y que ha causado infecciones vacunales.",
+      "La PSORIASIS PARADÓJICA es desconcertante la primera vez que se ve: un paciente tratado de Crohn o de artritis desarrolla psoriasis por el propio fármaco que la trataría en otra indicación.",
+      "Están CONTRAINDICADOS en la insuficiencia cardiaca avanzada: los ensayos que exploraron el TNF como diana en la insuficiencia cardiaca mostraron un empeoramiento, y ese resultado negativo se convirtió en una contraindicación."
+    ],
+    "embarazo_lactancia": "Se pueden mantener durante el embarazo cuando la enfermedad lo exige; el CERTOLIZUMAB es el de elección por su mínimo paso transplacentario. Los demás atraviesan activamente la placenta en el tercer trimestre y obligan a evitar las VACUNAS VIVAS en el lactante durante los primeros 6 meses. Compatibles con la lactancia: el paso a la leche es mínimo y el lactante los digiere.",
+    "micro_relacionado": [
+      "HON-histoplasma-capsulatum",
+      "MYC-mycobacterium-tuberculosis",
+      "VIR-virus-hepatitis-b"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 55; guías EULAR de artritis reumatoide y ECCO de enfermedad inflamatoria intestinal"
+  }
+]

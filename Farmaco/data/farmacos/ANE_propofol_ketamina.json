@@ -1,0 +1,266 @@
+[
+  {
+    "id": "ANE-propofol",
+    "nombre": "Propofol",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico general",
+    "subclase": "Hipnótico intravenoso potenciador del receptor GABA-A",
+    "mecanismo": "Potencia la acción del GABA sobre el receptor GABA-A, prolongando la apertura del canal de cloro e hiperpolarizando la neurona; a concentraciones altas activa el receptor por sí mismo. El resultado es una hipnosis profunda de instauración casi inmediata. Su comportamiento clínico lo determina la LIPOFILIA extrema: alcanza el cerebro en un brazo-cerebro (unos 30 segundos) y el despertar tras un bolo único no se debe a que el fármaco se haya eliminado, sino a su REDISTRIBUCIÓN al músculo y a la grasa. Ese mismo hecho explica su otra cara: con perfusiones prolongadas los tejidos se saturan y la vida media contexto-dependiente se alarga, aunque mucho menos que con otros hipnóticos, lo que lo hace idóneo para la sedación en cuidados intensivos. NO tiene ningún efecto analgésico, y olvidarlo lleva a sedar profundamente a un paciente que sigue teniendo dolor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INDUCCIÓN de la anestesia general",
+        "dosis": "1,5-2,5 mg/kg IV en el adulto; 1-1,5 mg/kg en el anciano o en el paciente inestable",
+        "posologia": "Bolo único de inducción",
+        "via": "IV",
+        "dosis_objetivo": "Pérdida de conciencia con abolición del reflejo ciliar",
+        "nota": "En el ANCIANO y en el HIPOVOLÉMICO hay que reducir la dosis a la mitad o más: la hipotensión de inducción es una causa real de morbilidad"
+      },
+      {
+        "patologia": "MANTENIMIENTO de la anestesia (anestesia total intravenosa)",
+        "dosis": "4-12 mg/kg/h en perfusión continua",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Índice biespectral (BIS) de 40-60 o ausencia de signos clínicos de despertar",
+        "nota": "Reduce mucho las náuseas y vómitos postoperatorios frente a los halogenados, y es la técnica de elección en el paciente con riesgo de hipertermia maligna"
+      },
+      {
+        "patologia": "SEDACIÓN en cuidados intensivos y en el paciente ventilado",
+        "dosis": "0,5-4 mg/kg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Escala RASS dentro del objetivo pautado, con interrupción diaria de la sedación",
+        "nota": "NO superar 4 mg/kg/h durante más de 48 horas por el riesgo de síndrome de infusión de propofol"
+      },
+      {
+        "patologia": "Sedación para procedimientos (endoscopia, cardioversión, reducción de fracturas)",
+        "dosis": "0,5-1 mg/kg IV, con bolos adicionales de 10-20 mg",
+        "posologia": "Bolos tituladados",
+        "via": "IV",
+        "nota": "Requiere monitorización, oxígeno, aspiración y material de vía aérea disponibles: el margen entre sedación y apnea es estrecho"
+      },
+      {
+        "patologia": "ESTATUS EPILÉPTICO refractario",
+        "dosis": "1-2 mg/kg en bolo y perfusión de 2-10 mg/kg/h",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "dosis_objetivo": "Patrón de brote-supresión en el electroencefalograma",
+        "nota": "Requiere intubación y monitorización electroencefalográfica continua"
+      }
+    ],
+    "esquema": {
+      "inicio": "Vía venosa de buen calibre, monitorización completa y material de vía aérea preparado antes de administrar la primera dosis. Preoxigenar.",
+      "titulacion": "Se titula por efecto clínico. En el anciano el volumen de distribución y la sensibilidad cambian: la dosis puede ser la mitad de la del adulto joven.",
+      "duracion": "Minutos (bolo) o días (perfusión en cuidados intensivos).",
+      "fin": "Despertar rápido y de buena calidad, con menos confusión residual que con otros hipnóticos. En perfusiones prolongadas se recomienda la interrupción diaria de la sedación.",
+      "via": "Intravenosa exclusivamente.",
+      "monitorizacion": "Tensión arterial, saturación, capnografía y profundidad anestésica. En perfusión prolongada: TRIGLICÉRIDOS, CK, LACTATO, gasometría y ECG, para detectar precozmente el síndrome de infusión de propofol."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa. Se presenta en una EMULSIÓN LIPÍDICA blanca que aporta 1,1 kcal/mL: en perfusiones prolongadas es una fuente calórica que hay que descontar de la nutrición.",
+      "distribucion": "Muy lipófilo, con volumen de distribución enorme; el fin del efecto tras un bolo se debe a la REDISTRIBUCIÓN, no al metabolismo.",
+      "metabolismo": "Hepático y extrahepático (pulmón, riñón) por glucuronidación, con un aclaramiento muy alto.",
+      "eliminacion": "Renal en forma de metabolitos inactivos.",
+      "vida_media": "Contexto-dependiente: 3-8 minutos tras un bolo, y significativamente más larga tras perfusiones de días, aunque menos que con midazolam.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "Ajuste modesto por su elevado aclaramiento extrahepático.",
+      "interacciones": [
+        {
+          "con": "OPIOIDES (fentanilo, remifentanilo)",
+          "efecto": "SINERGIA marcada: reducen la dosis necesaria de propofol pero potencian la hipotensión y la apnea",
+          "gravedad": "alta",
+          "manejo": "Sinergia BUSCADA, pero obliga a reducir la dosis de ambos, sobre todo en el anciano"
+        },
+        {
+          "con": "Benzodiazepinas y alcohol",
+          "efecto": "Suma de depresión respiratoria y hemodinámica",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Betabloqueantes y antihipertensivos",
+          "efecto": "Hipotensión de inducción más profunda",
+          "gravedad": "media",
+          "manejo": "Anticiparla con volumen o vasopresor preparado"
+        },
+        {
+          "con": "Nutrición parenteral con lípidos",
+          "efecto": "Suma el aporte lipídico con riesgo de hipertrigliceridemia",
+          "gravedad": "media",
+          "manejo": "Contabilizar las calorías del propofol y controlar los triglicéridos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DOLOR EN EL PUNTO DE INYECCIÓN, muy frecuente y desagradable: se reduce usando una vena gruesa y administrando lidocaína previa",
+        "HIPOTENSIÓN por vasodilatación y depresión miocárdica",
+        "APNEA transitoria tras la inducción, prácticamente constante",
+        "Movimientos mioclónicos",
+        "Coloración verdosa de la orina (inocua)"
+      ],
+      "graves": [
+        "SÍNDROME DE INFUSIÓN DE PROPOFOL: acidosis metabólica, rabdomiólisis, hiperpotasemia, insuficiencia renal, hepatomegalia, bradiarritmias e insuficiencia cardiaca refractaria, con alta mortalidad. Aparece con dosis superiores a 4 mg/kg/h durante más de 48 horas, y es más frecuente en el NIÑO y en el paciente crítico con corticoides y catecolaminas",
+        "Hipotensión grave en el hipovolémico y en el anciano",
+        "Depresión respiratoria y apnea prolongada",
+        "Hipertrigliceridemia y pancreatitis",
+        "Contaminación bacteriana de la emulsión (no lleva conservantes eficaces: hay que desechar la jeringa a las 6-12 horas)",
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al propofol (la alergia al huevo o a la soja NO es contraindicación absoluta: la emulsión contiene lecitina de huevo purificada, no proteína)",
+      "Sedación prolongada en el NIÑO en cuidados intensivos",
+      "Precaución máxima en el hipovolémico, en el anciano y en la insuficiencia cardiaca",
+      "Ausencia de material de vía aérea y de personal capacitado"
+    ],
+    "perlas": [
+      "NO ANALGESIA. Es la característica que más se olvida: el propofol duerme pero no quita el dolor. Un paciente sedado con propofol para reducir una fractura sigue percibiendo el estímulo nociceptivo y necesita un analgésico asociado.",
+      "El SÍNDROME DE INFUSIÓN DE PROPOFOL es raro pero devastador, y la clave está en no cruzar los umbrales: por encima de 4 mg/kg/h y más de 48 horas. Los primeros signos son una acidosis metabólica inexplicada, elevación del lactato y de la CK, y bradiarritmias. Ante esa combinación en un paciente sedado, hay que retirar el propofol antes de buscar otras causas.",
+      "La HIPOTENSIÓN de inducción es dosis-dependiente y muy marcada en el anciano y en el hipovolémico. En el paciente inestable, la dosis puede ser la mitad o menos, y conviene tener el vasopresor cargado antes de inducir.",
+      "El despertar rápido tras un bolo se debe a la REDISTRIBUCIÓN, no a que el fármaco se haya eliminado. Entendido esto, se comprende por qué las dosis repetidas se acumulan y por qué el despertar se retrasa tras una perfusión larga.",
+      "La emulsión NO lleva conservante eficaz y es un excelente medio de cultivo: hay que manipularla con asepsia estricta y desechar la jeringa a las 6-12 horas. Se han descrito brotes de sepsis por incumplir esto.",
+      "APORTA CALORÍAS: 1,1 kcal por mL de emulsión lipídica. En una perfusión de días es una cantidad significativa que hay que descontar de la nutrición y que puede producir hipertrigliceridemia.",
+      "La alergia al HUEVO no lo contraindica de forma automática: la emulsión contiene lecitina purificada, no la ovoalbúmina que causa la alergia alimentaria. Rechazarlo por este motivo priva al paciente del mejor hipnótico disponible.",
+      "Es antiemético por sí mismo, y la anestesia total intravenosa con propofol reduce de forma notable las náuseas y vómitos postoperatorios frente a los halogenados: un argumento real en pacientes con antecedentes.",
+      "Es la técnica de elección en el paciente con riesgo de HIPERTERMIA MALIGNA, porque permite anestesiar sin halogenados ni succinilcolina."
+    ],
+    "embarazo_lactancia": "Se usa habitualmente en la anestesia obstétrica, incluida la cesárea; atraviesa la placenta y puede producir depresión neonatal transitoria si se administran dosis altas antes del pinzamiento. Compatible con la lactancia: se puede amamantar en cuanto la madre esté despierta y orientada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedación en cuidados intensivos"
+  },
+  {
+    "id": "ANE-ketamina",
+    "nombre": "Ketamina (y esketamina)",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico general y analgésico",
+    "subclase": "Antagonista no competitivo del receptor NMDA",
+    "mecanismo": "Bloquea de forma no competitiva el receptor NMDA del glutamato, produciendo una ANESTESIA DISOCIATIVA: el paciente queda desconectado funcionalmente del entorno, con los ojos a menudo abiertos, catalepsia, amnesia y una analgesia intensa, pero manteniendo los reflejos protectores de la vía aérea y el impulso respiratorio. Es el único anestésico que es a la vez potente analgésico. A diferencia de todos los demás, ESTIMULA el sistema simpático por inhibición de la recaptación de catecolaminas, de modo que sube la tensión y la frecuencia cardiacas en lugar de bajarlas: eso lo convierte en el inductor del paciente en shock. Ese mismo mecanismo tiene un límite importante que hay que conocer: en el paciente con las catecolaminas endógenas AGOTADAS por un shock prolongado, el efecto simpaticomimético no aparece y queda al descubierto su depresión miocárdica DIRECTA, con hipotensión brusca. Su acción sobre el NMDA explica además su efecto antidepresivo rápido y su papel en la hiperalgesia y la tolerancia opioides.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INDUCCIÓN anestésica en el paciente en SHOCK o hemodinámicamente inestable",
+        "dosis": "1-2 mg/kg IV o 4-5 mg/kg IM",
+        "posologia": "Bolo de inducción",
+        "via": "IV",
+        "dosis_objetivo": "Estado disociativo con mantenimiento de la tensión arterial",
+        "nota": "Es el inductor de elección en el politraumatizado, en el shock hemorrágico y en la sepsis, donde el propofol produciría un colapso"
+      },
+      {
+        "patologia": "Sedoanalgesia para PROCEDIMIENTOS dolorosos",
+        "dosis": "0,5-1 mg/kg IV o 3-4 mg/kg IM",
+        "posologia": "Bolo, repetible",
+        "via": "IV",
+        "nota": "Especialmente útil en el NIÑO (curas de quemaduras, reducción de fracturas) y en entornos sin ventilador, porque preserva la respiración espontánea"
+      },
+      {
+        "patologia": "ANALGESIA a dosis SUBANESTÉSICAS y dolor refractario a opioides",
+        "dosis": "0,1-0,3 mg/kg IV en bolo, o perfusión de 0,1-0,3 mg/kg/h",
+        "posologia": "Bolo o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Control del dolor con reducción de la dosis total de opioide",
+        "nota": "A estas dosis no produce disociación. Reduce el consumo de opioides y revierte la HIPERALGESIA inducida por ellos"
+      },
+      {
+        "patologia": "ASMA CASI FATAL y broncoespasmo refractario",
+        "dosis": "1-2 mg/kg IV en la inducción, seguidos de perfusión",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "nota": "Es BRONCODILATADOR, lo que la hace el inductor de elección en el asmático que hay que intubar"
+      },
+      {
+        "patologia": "DEPRESIÓN resistente al tratamiento (esketamina)",
+        "dosis": "Esketamina intranasal 56-84 mg dos veces por semana en la fase inicial",
+        "posologia": "Dos veces por semana y después espaciada",
+        "via": "IN",
+        "nota": "Efecto antidepresivo en HORAS, frente a las semanas de los antidepresivos clásicos. Requiere administración supervisada por el riesgo de disociación y de abuso"
+      }
+    ],
+    "esquema": {
+      "inicio": "Preparar el entorno: luz tenue y ambiente tranquilo reducen las reacciones de emergencia. Valorar una benzodiazepina asociada en el adulto.",
+      "titulacion": "Se titula por efecto. Las dosis analgésicas son de 5 a 10 veces menores que las anestésicas, y el efecto es completamente distinto.",
+      "duracion": "10-20 minutos tras un bolo; perfusión continua en la analgesia y en el broncoespasmo.",
+      "fin": "Despertar con posible fase de agitación y alucinaciones (reacción de emergencia), que es breve y se maneja con ambiente tranquilo y midazolam si es intensa.",
+      "via": "Intravenosa, intramuscular (útil cuando no hay acceso venoso, especialmente en el niño agitado), intranasal, oral y subcutánea.",
+      "monitorizacion": "Tensión arterial, frecuencia cardiaca, saturación y nivel de conciencia. Vigilar la hipersalivación y la vía aérea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía intramuscular e intranasal; biodisponibilidad oral baja por metabolismo presistémico.",
+      "distribucion": "Muy lipófila, con paso rápido al sistema nervioso central.",
+      "metabolismo": "Hepático por CYP3A4 y CYP2B6 a NORKETAMINA, que es ACTIVA y contribuye al efecto analgésico prolongado.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "2-3 horas.",
+      "ajuste_renal": "Precaución por acumulación de metabolitos en uso prolongado.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "BENZODIAZEPINAS",
+          "efecto": "Reducen las reacciones de emergencia (alucinaciones y agitación al despertar) y prolongan la sedación",
+          "gravedad": "baja",
+          "manejo": "Asociación BUSCADA en el adulto; en el NIÑO las reacciones de emergencia son mucho menos frecuentes y no suele hacer falta"
+        },
+        {
+          "con": "Simpaticomiméticos, inhibidores de la MAO y hormona tiroidea",
+          "efecto": "Crisis hipertensiva y taquiarritmias por suma de efecto simpático",
+          "gravedad": "alta",
+          "manejo": "Precaución y monitorización"
+        },
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, anticonvulsivantes)",
+          "efecto": "Reducen su efecto",
+          "gravedad": "media",
+          "manejo": "Prever dosis mayores"
+        },
+        {
+          "con": "OPIOIDES",
+          "efecto": "Sinergia analgésica; la ketamina reduce la tolerancia y la hiperalgesia inducidas por opioides",
+          "gravedad": "baja",
+          "manejo": "Combinación BUSCADA en el dolor refractario y en la analgesia multimodal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "REACCIONES DE EMERGENCIA: alucinaciones vívidas, sueños desagradables, agitación y desorientación al despertar, sobre todo en el ADULTO",
+        "HIPERSALIVACIÓN, que puede comprometer la vía aérea",
+        "Nistagmo y diplopía",
+        "Hipertensión y taquicardia",
+        "Náuseas y vómitos"
+      ],
+      "graves": [
+        "LARINGOESPASMO, sobre todo en el lactante y con la hipersalivación no controlada",
+        "Depresión miocárdica DIRECTA e hipotensión en el paciente con catecolaminas AGOTADAS por shock prolongado",
+        "Crisis hipertensiva y aumento de la demanda miocárdica de oxígeno en el cardiópata",
+        "CISTITIS ULCERATIVA y fibrosis vesical con el uso recreativo o terapéutico prolongado",
+        "Colangiopatía con el uso crónico",
+        "Dependencia y abuso"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica inestable, hipertensión grave no controlada y aneurisma",
+      "Preeclampsia y eclampsia",
+      "Psicosis activa",
+      "Precaución en el lactante menor de 3 meses (mayor riesgo de laringoespasmo)",
+      "Hipertiroidismo no controlado"
+    ],
+    "perlas": [
+      "Es el ÚNICO anestésico que SUBE la tensión arterial, y por eso es el inductor del paciente en SHOCK. En un politraumatizado hipotenso, el propofol puede provocar una parada y la ketamina mantiene la hemodinámica: la elección del inductor no es un detalle técnico, es una decisión de supervivencia.",
+      "Pero hay un límite que hay que conocer: en el shock PROLONGADO, con las catecolaminas endógenas agotadas, el efecto simpaticomimético no aparece y queda al descubierto su depresión miocárdica DIRECTA. En ese paciente, la ketamina también puede hipotensar, y hay que reducir la dosis.",
+      "Es a la vez ANESTÉSICO y ANALGÉSICO potente, algo que ningún otro hipnótico ofrece. Y preserva los reflejos de la vía aérea y la ventilación espontánea, lo que la hace insustituible en entornos sin ventilador y en medicina de catástrofes.",
+      "Es BRONCODILATADORA: en el asmático que hay que intubar, es el inductor de elección y actúa sobre el problema en lugar de agravarlo.",
+      "La contraindicación clásica por HIPERTENSIÓN INTRACRANEAL ha sido revisada: la evidencia actual no respalda que la aumente de forma clínicamente relevante en el paciente ventilado, y hoy se usa en el traumatismo craneal con hipotensión, donde mantener la presión de perfusión cerebral importa más.",
+      "Las dosis ANALGÉSICAS son de 5 a 10 veces menores que las anestésicas y no producen disociación. A esas dosis reduce el consumo de opioides y revierte la hiperalgesia inducida por ellos: es una herramienta central de la analgesia multimodal.",
+      "Las REACCIONES DE EMERGENCIA son mucho más frecuentes en el adulto que en el niño, y se reducen con un ambiente tranquilo, poca luz y poco ruido al despertar, y con midazolam asociado. Advertirlas de antemano es parte del consentimiento.",
+      "La HIPERSALIVACIÓN puede comprometer la vía aérea, sobre todo en el niño pequeño; conviene tener la aspiración preparada.",
+      "El uso RECREATIVO o terapéutico prolongado produce una CISTITIS ULCERATIVA que puede llegar a la vejiga retraída y a la insuficiencia renal. Es una complicación creciente y poco conocida fuera de la urología.",
+      "La ESKETAMINA intranasal produce respuesta antidepresiva en HORAS en la depresión resistente, frente a las semanas de los antidepresivos clásicos. Es el hallazgo psicofarmacológico más relevante de las últimas décadas y ha reabierto toda la investigación sobre el glutamato en la depresión."
+    ],
+    "embarazo_lactancia": "Se emplea en anestesia obstétrica cuando la situación hemodinámica lo aconseja, evitándola en la preeclampsia por su efecto hipertensor. Atraviesa la placenta. Compatible con la lactancia una vez recuperada la conciencia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedoanalgesia en urgencias"
+  }
+]

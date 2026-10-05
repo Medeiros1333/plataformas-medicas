@@ -1,0 +1,694 @@
+[
+  {
+    "id": "PAT-erge",
+    "nombre": "Enfermedad por reflujo gastroesofágico",
+    "sinonimos": [
+      "ERGE",
+      "Pirosis",
+      "Esofagitis péptica"
+    ],
+    "area": "DIG",
+    "resumen": "Pirosis y regurgitación típicas sin síntomas de alarma: **prueba terapéutica con IBP** 4-8 semanas. Endoscopia si disfagia, odinofagia, pérdida de peso, anemia, hemorragia, >50 años con síntomas nuevos o fracaso del IBP. Después, **reducir a la dosis mínima eficaz o a demanda**.",
+    "objetivo": "Control de síntomas y cicatrización de la esofagitis.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento inicial",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol",
+            "ref": "DIG-omeprazol",
+            "dosis": "20 mg (40 mg en esofagitis grave)",
+            "via": "VO",
+            "intervalo": "Cada 24 h, 30 min antes del desayuno",
+            "duracion": "4-8 semanas",
+            "alternativa": "o pantoprazol 40 mg / esomeprazol 20-40 mg / lansoprazol 30 mg"
+          },
+          {
+            "nombre": "Antiácido o alginato",
+            "ref": "DIG-sucralfato-antiacidos",
+            "dosis": "10-20 mL",
+            "via": "VO",
+            "intervalo": "A demanda, tras comidas y al acostarse",
+            "duracion": "Síntomas ocasionales"
+          }
+        ]
+      },
+      {
+        "titulo": "Mantenimiento",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol",
+            "ref": "DIG-omeprazol",
+            "dosis": "10-20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h o a demanda",
+            "duracion": "Según síntomas; continuo en esofagitis grave o Barrett"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Elevar el cabecero; no acostarse hasta 2-3 h tras cenar",
+      "Pérdida de peso; evitar comidas copiosas, alcohol y tabaco",
+      "Cirugía antirreflujo en casos seleccionados"
+    ],
+    "claves": [
+      "**El IBP se toma ANTES de la comida**: tomado después pierde gran parte del efecto.",
+      "Revisar la indicación del IBP crónico: hipomagnesemia, déficit de B12, C. difficile y fracturas con uso prolongado.",
+      "Con clopidogrel, usar pantoprazol."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades del esófago; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-hemorragia-digestiva-alta",
+    "nombre": "Hemorragia digestiva alta no varicosa (úlcera péptica)",
+    "sinonimos": [
+      "HDA",
+      "Úlcera sangrante",
+      "Melenas"
+    ],
+    "area": "DIG",
+    "resumen": "Hematemesis o melenas. **Reanimación hemodinámica, transfusión restrictiva (Hb <7 g/dL; <8 si cardiopatía), IBP IV y endoscopia en <24 h** (antes si inestable). Estratificar con Glasgow-Blatchford. Tras la endoscopia terapéutica, IBP a dosis altas 72 h y erradicación de H. pylori si positivo.",
+    "objetivo": "Control de la hemorragia; prevención de la recidiva.",
+    "escenarios": [
+      {
+        "titulo": "Antes y después de la endoscopia",
+        "farmacos": [
+          {
+            "nombre": "Pantoprazol",
+            "ref": "DIG-pantoprazol",
+            "dosis": "80 mg en bolo, después 8 mg/h (o 40 mg/12 h)",
+            "via": "IV",
+            "intervalo": "Perfusión continua o bolos cada 12 h",
+            "duracion": "72 h tras la endoscopia terapéutica",
+            "alternativa": "o esomeprazol IV a igual dosis"
+          },
+          {
+            "nombre": "Eritromicina (procinético)",
+            "sin_ficha": true,
+            "dosis": "250 mg",
+            "via": "IV",
+            "intervalo": "Dosis única 30-120 min antes de la endoscopia",
+            "duracion": "Dosis única",
+            "nota": "Vacía el estómago de sangre y mejora la visión"
+          },
+          {
+            "nombre": "Pantoprazol oral",
+            "ref": "DIG-pantoprazol",
+            "dosis": "40 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h (2 semanas), después cada 24 h",
+            "duracion": "6-8 semanas en total"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Dos vías periféricas gruesas, cristaloides, pruebas cruzadas",
+      "Endoscopia terapéutica (inyección, clips, térmica)",
+      "Reiniciar AAS en prevención secundaria en 3-5 días; suspender AINE"
+    ],
+    "claves": [
+      "**Sobretransfundir aumenta la recidiva y la mortalidad.**",
+      "Biopsia o test de H. pylori en el episodio (puede dar falso negativo durante el sangrado: repetir).",
+      "El anticoagulado: valorar reversión según gravedad (ver ficha de reversión de la anticoagulación)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hemorragia digestiva; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-helicobacter-pylori",
+    "nombre": "Infección por Helicobacter pylori (erradicación)",
+    "sinonimos": [
+      "H. pylori",
+      "Úlcera péptica"
+    ],
+    "area": "DIG",
+    "resumen": "Erradicar siempre que se diagnostique (úlcera, linfoma MALT, dispepsia, antecedentes familiares de cáncer gástrico, antes de AINE/AAS crónico). **En España, con resistencia a claritromicina >15%, se usan cuádruples terapias de 10-14 días**: con bismuto o concomitante sin bismuto. Confirmar la erradicación con test del aliento al menos 4 semanas tras acabar (y 2 semanas sin IBP).",
+    "objetivo": "Erradicación confirmada (>90% con las pautas actuales).",
+    "escenarios": [
+      {
+        "titulo": "Primera línea: cuádruple con bismuto (10 días)",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol",
+            "ref": "DIG-omeprazol",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "10 días",
+            "alternativa": "o esomeprazol 40 mg/12 h"
+          },
+          {
+            "nombre": "Subcitrato de bismuto + metronidazol + tetraciclina (cápsula combinada)",
+            "sin_ficha": true,
+            "dosis": "3 cápsulas (140/125/125 mg)",
+            "via": "VO",
+            "intervalo": "Cada 6 h (tras comidas y al acostarse)",
+            "duracion": "10 días",
+            "nota": "Heces negras; válida en alérgicos a penicilina"
+          }
+        ]
+      },
+      {
+        "titulo": "Alternativa: cuádruple concomitante sin bismuto (14 días)",
+        "farmacos": [
+          {
+            "nombre": "Esomeprazol",
+            "ref": "DIG-esomeprazol",
+            "dosis": "40 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días"
+          },
+          {
+            "nombre": "Amoxicilina",
+            "ref": "INF-amoxicilina",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días"
+          },
+          {
+            "nombre": "Claritromicina",
+            "ref": "INF-claritromicina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días",
+            "nota": "Revisar interacciones (CYP3A4)"
+          },
+          {
+            "nombre": "Metronidazol",
+            "ref": "INF-metronidazol",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días",
+            "nota": "Efecto antabús: sin alcohol"
+          }
+        ]
+      },
+      {
+        "titulo": "Rescate tras fracaso",
+        "farmacos": [
+          {
+            "nombre": "Levofloxacino",
+            "ref": "INF-levofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "10-14 días",
+            "nota": "Con IBP + amoxicilina 1 g/12 h ± bismuto"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar la importancia de completar la pauta (efectos adversos frecuentes)",
+      "Test del aliento con urea marcada de control ≥4 semanas tras el tratamiento"
+    ],
+    "claves": [
+      "**Suspender el IBP 2 semanas antes del test** (falsos negativos).",
+      "No repetir un antibiótico que ya ha fracasado (claritromicina o levofloxacino)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de úlcera péptica; IV Conferencia Española de Consenso sobre H. pylori"
+  },
+  {
+    "id": "PAT-nauseas-vomitos",
+    "nombre": "Náuseas y vómitos",
+    "sinonimos": [
+      "Emesis",
+      "Antieméticos"
+    ],
+    "area": "DIG",
+    "resumen": "Elegir el antiemético según la causa: **gastroparesia o íleo funcional → procinético**; **quimioterapia, posoperatorio y gastroenteritis → antagonista 5-HT3**; **Parkinson → domperidona**; vértigo → antihistamínico (dimenhidrinato); paliativos o por opioides → haloperidol. Corregir la deshidratación y los electrolitos.",
+    "objetivo": "Control sintomático y tolerancia oral.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Metoclopramida",
+            "ref": "DIG-metoclopramida",
+            "dosis": "10 mg",
+            "via": "VO / IV",
+            "intervalo": "Cada 8 h (máx. 30 mg/día)",
+            "duracion": "**Máximo 5 días**",
+            "nota": "Distonías en jóvenes; no en Parkinson"
+          },
+          {
+            "nombre": "Ondansetrón",
+            "ref": "DIG-ondansetron",
+            "dosis": "4-8 mg",
+            "via": "VO / IV",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "1-5 días",
+            "nota": "Prolonga el QT; estreñimiento"
+          },
+          {
+            "nombre": "Domperidona",
+            "ref": "DIG-domperidona",
+            "dosis": "10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Máximo 7 días",
+            "nota": "Parkinsonianos; QT"
+          },
+          {
+            "nombre": "Haloperidol",
+            "ref": "PSQ-haloperidol",
+            "dosis": "0,5-1,5 mg",
+            "via": "VO / SC",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "Según necesidad",
+            "nota": "Paliativos y náuseas por opioides"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño con gastroenteritis y vómitos",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Ondansetrón",
+            "ref": "PED-DIG-ondansetron",
+            "dosis": "0,15 mg/kg (máx. 8 mg)",
+            "via": "VO",
+            "intervalo": "Dosis única",
+            "duracion": "Dosis única",
+            "nota": "Mayores de 6 meses; facilita la rehidratación oral"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Rehidratación oral fraccionada (pequeñas cantidades frecuentes)",
+      "Descartar causas graves: obstrucción intestinal, hipertensión intracraneal, embarazo, cetoacidosis, IAM inferior"
+    ],
+    "claves": [
+      "**Metoclopramida contraindicada en la obstrucción intestinal mecánica.**",
+      "Hiperémesis gravídica: piridoxina-doxilamina de primera línea."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de náuseas y vómitos; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-estrenimiento",
+    "nombre": "Estreñimiento crónico funcional",
+    "sinonimos": [
+      "Estreñimiento"
+    ],
+    "area": "DIG",
+    "resumen": "Descartar signos de alarma (sangrado, anemia, pérdida de peso, inicio reciente en >50 años) y causas secundarias (fármacos: opioides, anticolinérgicos, hierro, calcioantagonistas; hipotiroidismo, hipercalcemia). Escalera: fibra y medidas higiénicas → **laxante osmótico (macrogol de elección)** → estimulante.",
+    "objetivo": "≥3 deposiciones blandas por semana sin esfuerzo.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Plantago ovata (fibra)",
+            "sin_ficha": true,
+            "dosis": "3,5 g (1 sobre)",
+            "via": "VO",
+            "intervalo": "Cada 8-24 h con abundante agua",
+            "duracion": "Continuo",
+            "nota": "No en estreñimiento por opioides ni en impactación"
+          },
+          {
+            "nombre": "Macrogol",
+            "ref": "DIG-macrogol",
+            "dosis": "13-26 g (1-2 sobres)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo, ajustando a la respuesta"
+          },
+          {
+            "nombre": "Lactulosa",
+            "ref": "DIG-lactulosa-rifaximina",
+            "dosis": "15-30 mL",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Continuo",
+            "nota": "Más flatulencia que el macrogol"
+          },
+          {
+            "nombre": "Bisacodilo",
+            "ref": "DIG-bisacodilo",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h, por la noche",
+            "duracion": "A demanda o continuo si refractario",
+            "nota": "Estimulante; de elección añadido en el estreñimiento por opioides"
+          }
+        ]
+      },
+      {
+        "titulo": "Impactación fecal",
+        "farmacos": [
+          {
+            "nombre": "Macrogol (desimpactación)",
+            "ref": "DIG-macrogol",
+            "dosis": "8 sobres (104 g) en 1 L de agua",
+            "via": "VO",
+            "intervalo": "En 6 h, cada día",
+            "duracion": "Hasta 3 días",
+            "nota": "O enemas si impactación rectal baja"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Macrogol",
+            "ref": "PED-DIG-macrogol",
+            "dosis": "Mantenimiento 0,4-0,8 g/kg/día; desimpactación 1-1,5 g/kg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Desimpactación 3-6 días; mantenimiento ≥2 meses y retirada gradual"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fibra dietética 25-30 g/día, líquidos y ejercicio",
+      "Horario fijo tras las comidas (reflejo gastrocólico), postura con los pies elevados",
+      "En niños: no retirar el laxante demasiado pronto (recaída por el círculo de retención)"
+    ],
+    "claves": [
+      "**Todo opioide pautado debe ir con laxante pautado.**",
+      "Los laxantes estimulantes son seguros a dosis habituales a largo plazo."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de estreñimiento; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-gastroenteritis-aguda",
+    "nombre": "Gastroenteritis y diarrea aguda",
+    "sinonimos": [
+      "GEA",
+      "Diarrea aguda",
+      "Diarrea del viajero"
+    ],
+    "area": "DIG",
+    "resumen": "La mayoría es vírica y autolimitada. **La rehidratación es el tratamiento principal.** Antibiótico solo si diarrea disentérica (sangre y fiebre), sepsis, inmunodepresión, diarrea del viajero moderada-grave o cólera. Antidiarreicos solo en adultos sin fiebre ni sangre.",
+    "objetivo": "Mantener la hidratación; resolución en 2-5 días.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Suero de rehidratación oral",
+            "ref": "PED-DIG-suero-rehidratacion-oral",
+            "dosis": "200-400 mL",
+            "via": "VO",
+            "intervalo": "Tras cada deposición líquida",
+            "duracion": "Mientras dure la diarrea",
+            "otra_poblacion": true
+          },
+          {
+            "nombre": "Loperamida",
+            "ref": "DIG-loperamida",
+            "dosis": "4 mg, después 2 mg tras cada deposición (máx. 12-16 mg/día)",
+            "via": "VO",
+            "intervalo": "Tras cada deposición",
+            "duracion": "Máximo 2 días",
+            "nota": "**No si sangre o fiebre**"
+          },
+          {
+            "nombre": "Racecadotrilo",
+            "ref": "DIG-racecadotrilo",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta 7 días",
+            "nota": "Antisecretor; evitar con IECA"
+          },
+          {
+            "nombre": "Azitromicina",
+            "ref": "INF-azitromicina",
+            "dosis": "1 g (o 500 mg/24 h × 3 días)",
+            "via": "VO",
+            "intervalo": "Dosis única",
+            "duracion": "1-3 días",
+            "alternativa": "o ciprofloxacino 500 mg/12 h × 3 días",
+            "nota": "Disentérica, viajero moderada-grave; azitromicina en Asia (Campylobacter resistente a quinolonas)"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Solución de rehidratación oral (osmolaridad reducida)",
+            "ref": "PED-DIG-suero-rehidratacion-oral",
+            "dosis": "50-100 mL/kg (según deshidratación) + 10 mL/kg por deposición",
+            "via": "VO",
+            "intervalo": "En 4 h, en tomas de 5 mL cada 1-2 min",
+            "duracion": "Rehidratación en 4 h; después reposición de pérdidas"
+          },
+          {
+            "nombre": "Ondansetrón",
+            "ref": "PED-DIG-ondansetron",
+            "dosis": "0,15 mg/kg (máx. 8 mg)",
+            "via": "VO",
+            "intervalo": "Dosis única",
+            "duracion": "Dosis única",
+            "nota": "Si los vómitos impiden la rehidratación oral"
+          },
+          {
+            "nombre": "Sueroterapia IV",
+            "ref": "PED-NFR-sueroterapia",
+            "dosis": "20 mL/kg de suero isotónico (bolo) si shock",
+            "via": "IV",
+            "intervalo": "Bolo, después mantenimiento",
+            "duracion": "Hasta tolerar VO",
+            "nota": "Deshidratación grave o fracaso de la vía oral"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Realimentación precoz con dieta normal para la edad (no dietas astringentes prolongadas)",
+      "No usar bebidas isotónicas deportivas ni refrescos como sustituto de la SRO en niños",
+      "Higiene de manos"
+    ],
+    "claves": [
+      "**Loperamida contraindicada en niños pequeños, diarrea con sangre y colitis por C. difficile.**",
+      "**No dar antibiótico en la diarrea por E. coli enterohemorrágico** (síndrome hemolítico urémico)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diarrea infecciosa aguda; AMIR Pediatría"
+  },
+  {
+    "id": "PAT-encefalopatia-hepatica",
+    "nombre": "Encefalopatía hepática",
+    "sinonimos": [
+      "Encefalopatía portosistémica"
+    ],
+    "area": "DIG",
+    "resumen": "Alteración neuropsiquiátrica del cirrótico (de la desorientación al coma, con asterixis). **Buscar y tratar el desencadenante** (infección, hemorragia digestiva, estreñimiento, diuréticos, hiponatremia, hipopotasemia, benzodiacepinas). Lactulosa de primera línea; rifaximina añadida para prevenir recurrencias.",
+    "objetivo": "2-3 deposiciones blandas al día y resolución de la encefalopatía.",
+    "escenarios": [
+      {
+        "titulo": "Episodio agudo y prevención",
+        "farmacos": [
+          {
+            "nombre": "Lactulosa",
+            "ref": "DIG-lactulosa-rifaximina",
+            "dosis": "20-30 mL",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h, ajustando a 2-3 deposiciones/día",
+            "duracion": "Indefinida tras un primer episodio",
+            "alternativa": "enemas de lactulosa (300 mL en 700 mL de agua) si no hay VO",
+            "nota": "Por sonda nasogástrica si bajo nivel de conciencia"
+          },
+          {
+            "nombre": "Rifaximina",
+            "ref": "DIG-lactulosa-rifaximina",
+            "dosis": "550 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "nota": "Añadida a lactulosa tras una recurrencia"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "**No restringir proteínas** (1,2-1,5 g/kg/día; preferir vegetales y lácteos)",
+      "Corregir hipopotasemia y deshidratación; suspender sedantes",
+      "Valorar trasplante hepático"
+    ],
+    "claves": [
+      "**Las benzodiacepinas precipitan y empeoran la encefalopatía.**",
+      "La amonemia no se usa para el diagnóstico ni para el seguimiento."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis y sus complicaciones; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-hemorragia-varicosa",
+    "nombre": "Hemorragia por varices esofágicas",
+    "sinonimos": [
+      "HDA varicosa",
+      "Hipertensión portal"
+    ],
+    "area": "DIG",
+    "resumen": "Urgencia del cirrótico. **Tres medidas desde el primer momento: fármaco vasoactivo, profilaxis antibiótica y endoscopia con ligadura en <12 h.** Transfusión restrictiva (Hb 7-8 g/dL). TIPS precoz en pacientes de alto riesgo (Child C <14 o B con sangrado activo).",
+    "objetivo": "Control de la hemorragia; prevención de resangrado, infecciones y encefalopatía.",
+    "escenarios": [
+      {
+        "titulo": "Episodio agudo",
+        "farmacos": [
+          {
+            "nombre": "Terlipresina",
+            "ref": "DIG-terlipresina-octreotido",
+            "dosis": "2 mg (1 mg si <50 kg) durante 48 h, después 1 mg",
+            "via": "IV",
+            "intervalo": "Cada 4 h",
+            "duracion": "2-5 días",
+            "alternativa": "o somatostatina 250 µg bolo + 250-500 µg/h / octreótido 50 µg + 50 µg/h",
+            "nota": "Isquemia: no en cardiopatía isquémica o arteriopatía"
+          },
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "1 g",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Máximo 7 días",
+            "nota": "Reduce infecciones, resangrado y mortalidad"
+          },
+          {
+            "nombre": "Pantoprazol",
+            "ref": "DIG-pantoprazol",
+            "dosis": "40-80 mg",
+            "via": "IV",
+            "intervalo": "Cada 12 h",
+            "duracion": "Hasta la endoscopia",
+            "nota": "Suspender si se confirma origen varicoso"
+          },
+          {
+            "nombre": "Lactulosa",
+            "ref": "DIG-lactulosa-rifaximina",
+            "dosis": "20-30 mL",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "Durante el ingreso",
+            "nota": "Prevención de encefalopatía"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis secundaria (tras el episodio)",
+        "farmacos": [
+          {
+            "nombre": "Propranolol",
+            "ref": "CAR-propranolol",
+            "dosis": "20-40 mg → máx. tolerada",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "alternativa": "o carvedilol 6,25-12,5 mg/24 h",
+            "nota": "Combinado con ligadura endoscópica periódica"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ligadura endoscópica con bandas; balón (Sengstaken) o prótesis como puente si hemorragia masiva",
+      "Protección de la vía aérea si hematemesis masiva o encefalopatía",
+      "TIPS precoz en alto riesgo; TIPS de rescate si fracaso"
+    ],
+    "claves": [
+      "**Sobretransfundir aumenta la presión portal y el resangrado.**",
+      "Iniciar el vasoactivo antes de la endoscopia, ya en urgencias."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis; Baveno VII"
+  },
+  {
+    "id": "PAT-colitis-ulcerosa",
+    "nombre": "Colitis ulcerosa (brote leve-moderado y grave)",
+    "sinonimos": [
+      "CU",
+      "Enfermedad inflamatoria intestinal"
+    ],
+    "area": "DIG",
+    "resumen": "Brote leve-moderado: **mesalazina oral a dosis altas + mesalazina tópica** (supositorios en proctitis, enemas en colitis izquierda). Si no responde en 2-4 semanas: corticoides. Brote grave (Truelove-Witts): ingreso, corticoide IV, descartar C. difficile y CMV; rescate con infliximab o ciclosporina si no responde al día 3.",
+    "objetivo": "Remisión clínica y endoscópica; mantenimiento sin corticoides.",
+    "escenarios": [
+      {
+        "titulo": "Brote leve-moderado",
+        "farmacos": [
+          {
+            "nombre": "Mesalazina oral",
+            "ref": "DIG-mesalazina",
+            "dosis": "2,4-4,8 g",
+            "via": "VO",
+            "intervalo": "Cada 24 h (dosis única)",
+            "duracion": "Inducción 6-8 semanas; mantenimiento 2-2,4 g/día indefinido"
+          },
+          {
+            "nombre": "Mesalazina rectal",
+            "ref": "DIG-mesalazina",
+            "dosis": "1 g (supositorio o enema)",
+            "via": "rectal",
+            "intervalo": "Cada 24 h, al acostarse",
+            "duracion": "4-8 semanas",
+            "nota": "La combinación oral + rectal es superior a cada una por separado"
+          },
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Descenso de 5 mg/semana (8-10 semanas en total)",
+            "nota": "Si no responde a mesalazina"
+          }
+        ]
+      },
+      {
+        "titulo": "Brote grave (ingreso)",
+        "farmacos": [
+          {
+            "nombre": "Metilprednisolona",
+            "ref": "REU-metilprednisolona",
+            "dosis": "40-60 mg",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Evaluar respuesta al día 3 (índice de Oxford)"
+          },
+          {
+            "nombre": "Enoxaparina (profilaxis)",
+            "ref": "HEM-enoxaparina",
+            "dosis": "40 mg",
+            "via": "SC",
+            "intervalo": "Cada 24 h",
+            "duracion": "Durante el ingreso",
+            "nota": "Alto riesgo trombótico, incluso con rectorragia"
+          },
+          {
+            "nombre": "Infliximab (rescate)",
+            "ref": "INM-anti-tnf",
+            "dosis": "5-10 mg/kg",
+            "via": "IV",
+            "intervalo": "Semanas 0, 2 y 6 (pauta acelerada si grave)",
+            "duracion": "Mantenimiento cada 8 semanas",
+            "alternativa": "o ciclosporina 2 mg/kg/día IV",
+            "nota": "Cribado de TBC y VHB"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Coprocultivo y toxina de C. difficile en todo brote",
+      "Colectomía si megacolon tóxico, perforación o fracaso del rescate",
+      "Cribado de cáncer colorrectal a los 8 años del diagnóstico"
+    ],
+    "claves": [
+      "**Los corticoides inducen pero NO mantienen la remisión.**",
+      "Evitar AINE, antidiarreicos y opioides en el brote grave (megacolon)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal; Katzung 15.ª ed., cap. 62"
+  }
+]

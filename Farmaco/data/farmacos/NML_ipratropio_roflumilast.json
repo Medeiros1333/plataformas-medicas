@@ -1,0 +1,238 @@
+[
+  {
+    "id": "NML-ipratropio",
+    "nombre": "Bromuro de ipratropio",
+    "sinonimos": [
+      "Anticolinérgico de acción corta (SAMA)"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Broncodilatador antimuscarínico inhalado",
+    "subclase": "SAMA (acción corta)",
+    "vs_clase": [
+      "**SAMA (acción CORTA)**: se usa **nebulizado junto al salbutamol en la crisis asmática grave y la exacerbación de EPOC**.",
+      "**No como mantenimiento**: superado por los LAMA (tiotropio, umeclidinio).",
+      "También en spray nasal para la rinorrea."
+    ],
+    "mecanismo": "Bloquea los receptores muscarínicos M3 del músculo liso bronquial, impidiendo la broncoconstricción mediada por el tono VAGAL, que es el principal componente reversible de la obstrucción en la EPOC. Su rasgo farmacológico esencial es que se trata de una amina CUATERNARIA, es decir, una molécula con carga permanente que NO atraviesa las membranas: no se absorbe desde el pulmón ni desde el tubo digestivo, y no cruza la barrera hematoencefálica. De ahí que, a diferencia de la atropina, carezca de efectos anticolinérgicos sistémicos relevantes. Actúa de forma más lenta que el salbutamol (15-20 minutos frente a 5) pero su efecto es aditivo, y por eso la combinación de ambos en la crisis es más eficaz que cualquiera por separado. Un dato práctico derivado de la misma química: si el aerosol escapa de la mascarilla y alcanza el OJO, produce midriasis y puede desencadenar un glaucoma agudo, porque allí sí actúa localmente.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EXACERBACIÓN de la EPOC",
+        "dosis": "0,5 mg nebulizados cada 4-6 horas, o 4-8 pulsaciones de 20 microgramos con cámara cada 4-6 horas, SIEMPRE junto a salbutamol",
+        "posologia": "Cada 4-6 horas",
+        "via": "nebulizada",
+        "dosis_objetivo": "Mejoría del trabajo respiratorio y del flujo espiratorio",
+        "nota": "La combinación con salbutamol es SINÉRGICA: dos mecanismos broncodilatadores distintos, y en la EPOC el componente colinérgico es el más importante"
+      },
+      {
+        "patologia": "CRISIS ASMÁTICA moderada-grave",
+        "dosis": "0,5 mg nebulizados junto con salbutamol, en las PRIMERAS 3 dosis (primeras horas)",
+        "posologia": "Cada 20 minutos las primeras 3 dosis",
+        "via": "nebulizada",
+        "nota": "Su beneficio en el asma se concentra en las primeras horas de la crisis grave: reduce ingresos. Mantenerlo después no aporta nada"
+      },
+      {
+        "patologia": "Broncoespasmo por BETABLOQUEANTES",
+        "dosis": "0,5 mg nebulizados, repetibles",
+        "posologia": "Repetible cada 4-6 horas",
+        "via": "nebulizada",
+        "nota": "Aquí es de ELECCIÓN: el receptor beta está bloqueado y el salbutamol no puede actuar, mientras que la vía colinérgica sigue intacta"
+      },
+      {
+        "patologia": "RINORREA acuosa persistente (rinitis vasomotora y del anciano)",
+        "dosis": "Ipratropio nasal 42 microgramos por fosa nasal, 2-3 veces al día",
+        "posologia": "Dos o tres aplicaciones diarias",
+        "via": "IN",
+        "nota": "Muy eficaz sobre la rinorrea acuosa, que es puramente colinérgica; no actúa sobre la congestión ni sobre el picor"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la exacerbación, junto con el broncodilatador beta desde la primera dosis. En la nebulización hay que usar una BOQUILLA en lugar de mascarilla si es posible, o ajustar bien la mascarilla, para evitar la exposición ocular.",
+      "titulacion": "Se repite cada 4-6 horas mientras dure la exacerbación.",
+      "duracion": "Días, durante la exacerbación. En el tratamiento crónico de la EPOC ha sido desplazado por los anticolinérgicos de acción LARGA, mucho más cómodos y eficaces.",
+      "fin": "Se suspende al resolverse la crisis, pasando al tratamiento de mantenimiento inhalado.",
+      "via": "Nebulizada o en cartucho presurizado con cámara. La cámara es tan eficaz como el nebulizador en la mayoría de las crisis y evita la aerosolización.",
+      "monitorizacion": "Respuesta clínica, saturación y trabajo respiratorio. Vigilar la aparición de dolor ocular durante la nebulización."
+    },
+    "farmacocinetica": {
+      "absorcion": "MÍNIMA: al ser una amina cuaternaria con carga permanente, no atraviesa las membranas ni se absorbe desde el pulmón ni desde el intestino.",
+      "distribucion": "Prácticamente limitada al árbol bronquial.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Fecal la fracción deglutida.",
+      "vida_media": "Efecto de 4-6 horas, con inicio a los 15-20 minutos y pico a los 30-60.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "Anticolinérgicos de acción LARGA (tiotropio)",
+          "efecto": "Duplicación del mecanismo sin beneficio adicional",
+          "gravedad": "media",
+          "manejo": "No se combinan de forma crónica; en la exacerbación aguda de un paciente que ya toma tiotropio, se suele suspender este mientras se nebuliza ipratropio"
+        },
+        {
+          "con": "Salbutamol",
+          "efecto": "SINERGIA broncodilatadora por mecanismos distintos",
+          "gravedad": "baja",
+          "manejo": "Combinación BUSCADA y estándar en la exacerbación"
+        },
+        {
+          "con": "Contacto OCULAR del aerosol",
+          "efecto": "Midriasis, visión borrosa y GLAUCOMA AGUDO de ángulo cerrado",
+          "gravedad": "alta",
+          "manejo": "Usar boquilla o ajustar bien la mascarilla, sobre todo en el anciano con cámara anterior estrecha"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEQUEDAD DE BOCA y sabor metálico o amargo",
+        "Tos e irritación faríngea",
+        "Cefalea"
+      ],
+      "graves": [
+        "GLAUCOMA AGUDO de ángulo cerrado por contacto ocular del aerosol nebulizado: dolor ocular, visión borrosa y halos durante o después de la nebulización",
+        "Retención urinaria en el varón con hiperplasia prostática",
+        "Broncoespasmo paradójico (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a la atropina o a sus derivados",
+      "Precaución en el glaucoma de ángulo estrecho y en la hiperplasia prostática con obstrucción",
+      "Alergia a la soja o al cacahuete para algunas formulaciones presurizadas antiguas"
+    ],
+    "perlas": [
+      "Su química lo explica casi todo: al ser una amina CUATERNARIA con carga permanente, no se absorbe ni atraviesa la barrera hematoencefálica, de modo que carece de los efectos sistémicos de la atropina. Es un anticolinérgico que solo actúa donde se deposita.",
+      "Y ese mismo hecho explica su efecto adverso más característico: si el aerosol alcanza el OJO durante la nebulización con mascarilla, actúa LOCALMENTE y puede desencadenar un GLAUCOMA AGUDO. Usar boquilla, o ajustar bien la mascarilla en el anciano, previene una complicación que sorprende porque nadie espera que un broncodilatador dañe un ojo.",
+      "En el BRONCOESPASMO POR BETABLOQUEANTES es el fármaco de elección: el receptor beta está bloqueado y el salbutamol no tiene dónde actuar, mientras que la vía colinérgica permanece intacta. Es una situación en la que el reflejo habitual (más salbutamol) no sirve.",
+      "En la EPOC el componente colinérgico del tono bronquial pesa MÁS que en el asma, y por eso los anticolinérgicos son ahí protagonistas y en el asma solo coadyuvantes de la crisis.",
+      "En la crisis ASMÁTICA su beneficio se concentra en las PRIMERAS HORAS: añadido al salbutamol en las tres primeras dosis reduce ingresos. Mantenerlo después no aporta nada y solo añade sequedad de boca.",
+      "La CÁMARA ESPACIADORA con cartucho presurizado es tan eficaz como el nebulizador en la mayoría de las crisis, y evita la aerosolización, algo que importó especialmente durante la pandemia y que sigue siendo relevante en el control de infecciones.",
+      "En el tratamiento CRÓNICO de la EPOC ha sido desplazado por el tiotropio y los demás anticolinérgicos de acción larga: una toma al día frente a cuatro, y mejor control. Su lugar hoy es la agudización."
+    ],
+    "embarazo_lactancia": "Se considera seguro en el embarazo por su absorción sistémica mínima, y es de uso habitual en la crisis asmática de la gestante. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; guías GOLD y GEMA sobre EPOC y asma"
+  },
+  {
+    "id": "NML-roflumilast-mucoliticos",
+    "nombre": "Roflumilast y mucolíticos (N-acetilcisteína, carbocisteína)",
+    "sinonimos": [
+      "Inhibidor de la fosfodiesterasa 4 y mucolíticos"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Antiinflamatorio respiratorio y mucolítico",
+    "subclase": "Inhibidor selectivo de la PDE4 y agentes mucoactivos",
+    "mecanismo": "El ROFLUMILAST inhibe de forma selectiva la FOSFODIESTERASA 4, la enzima que degrada el AMPc en las células inflamatorias del pulmón (neutrófilos, macrófagos, linfocitos T). Al elevar el AMPc reduce la inflamación NEUTROFÍLICA que caracteriza a la EPOC, distinta de la eosinofílica del asma y mucho menos sensible a los corticoides. No es broncodilatador: no mejora la disnea de forma inmediata, sino que reduce las EXACERBACIONES en un fenotipo muy concreto. La N-ACETILCISTEÍNA actúa por otra vía completamente distinta: rompe los PUENTES DISULFURO de las glucoproteínas del moco, reduciendo su viscosidad, y además aporta cisteína para regenerar el GLUTATIÓN, lo que le da un efecto antioxidante que es, de hecho, el fundamento de su otro uso, como antídoto del paracetamol.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC grave con BRONQUITIS CRÓNICA y exacerbaciones frecuentes",
+        "dosis": "Roflumilast 250 microgramos al día durante 4 semanas y después 500 microgramos al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Reducción del número de exacerbaciones",
+        "nota": "El FENOTIPO importa: solo funciona en el paciente con FEV1 menor del 50%, TOS y EXPECTORACIÓN CRÓNICAS y exacerbaciones repetidas pese al tratamiento inhalado óptimo. Fuera de ese perfil no aporta nada"
+      },
+      {
+        "patologia": "Bronquitis crónica con expectoración difícil",
+        "dosis": "N-acetilcisteína 600 mg al día, o carbocisteína 1500 mg al día",
+        "posologia": "Una o tres tomas al día",
+        "via": "VO",
+        "nota": "Reduce modestamente las exacerbaciones a dosis altas y mantenidas; el beneficio sintomático sobre la expectoración es limitado y muy variable entre pacientes"
+      },
+      {
+        "patologia": "FIBROSIS QUÍSTICA y bronquiectasias con secreciones espesas",
+        "dosis": "N-acetilcisteína nebulizada, o suero salino HIPERTÓNICO al 7%, o dornasa alfa en la fibrosis quística",
+        "posologia": "Una o dos veces al día",
+        "via": "nebulizada",
+        "nota": "En la fibrosis quística la DORNASA ALFA (que degrada el ADN de los neutrófilos, responsable de la viscosidad) y el salino hipertónico han demostrado más beneficio que la acetilcisteína"
+      },
+      {
+        "patologia": "Prevención de la nefropatía por contraste (uso discutido)",
+        "dosis": "N-acetilcisteína 600-1200 mg cada 12 horas el día previo y el día del procedimiento",
+        "posologia": "Cada 12 horas durante 2 días",
+        "via": "VO",
+        "nota": "Los ensayos amplios NO han confirmado el beneficio: la hidratación con salino sigue siendo la única medida eficaz demostrada"
+      }
+    ],
+    "esquema": {
+      "inicio": "El roflumilast se inicia a MEDIA dosis durante 4 semanas para mejorar la tolerancia digestiva y la pérdida de peso, que son sus efectos limitantes. Registrar el PESO basal y descartar depresión.",
+      "titulacion": "Ascenso a dosis plena a las 4 semanas si se tolera.",
+      "duracion": "Prolongada mientras reduzca las exacerbaciones.",
+      "fin": "Se suspende si hay pérdida de peso significativa, síntomas psiquiátricos o ausencia de beneficio tras varios meses.",
+      "via": "Oral; la acetilcisteína también nebulizada.",
+      "monitorizacion": "PESO en cada visita (la pérdida de peso es frecuente y clínicamente relevante en un paciente con EPOC ya sarcopénico), estado de ánimo y número de exacerbaciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "Roflumilast: buena por vía oral, sin efecto de la comida.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Roflumilast por CYP3A4 y CYP1A2, con un metabolito N-óxido ACTIVO que aporta la mayor parte del efecto.",
+      "eliminacion": "Renal en forma de metabolitos.",
+      "vida_media": "Roflumilast 17 horas; su metabolito activo, 30 horas.",
+      "ajuste_renal": "Sin ajuste relevante.",
+      "ajuste_hepatico": "CONTRAINDICADO el roflumilast en la insuficiencia hepática moderada-grave (Child-Pugh B y C).",
+      "interacciones": [
+        {
+          "con": "Inhibidores del CYP1A2 y CYP3A4 (fluvoxamina, cimetidina, ciprofloxacino, eritromicina)",
+          "efecto": "Aumentan las concentraciones de roflumilast y sus efectos adversos",
+          "gravedad": "media",
+          "manejo": "Vigilar la tolerancia digestiva"
+        },
+        {
+          "con": "Rifampicina, carbamazepina y fenobarbital",
+          "efecto": "Reducen su eficacia por inducción",
+          "gravedad": "media",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "NITRATOS y N-acetilcisteína",
+          "efecto": "Potencia la vasodilatación y la cefalea",
+          "gravedad": "media",
+          "manejo": "Relevante en el paciente coronario"
+        },
+        {
+          "con": "Antibióticos y N-acetilcisteína nebulizada",
+          "efecto": "Inactivación in vitro de algunos antibióticos",
+          "gravedad": "baja",
+          "manejo": "No mezclar en el mismo nebulizador"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ROFLUMILAST: DIARREA, náuseas y dolor abdominal (muy frecuentes al inicio)",
+        "PÉRDIDA DE PESO significativa, de 2-3 kg de media, con predominio de masa grasa pero relevante en el paciente ya delgado",
+        "Cefalea e insomnio",
+        "N-ACETILCISTEÍNA: molestias digestivas y olor sulfuroso desagradable"
+      ],
+      "graves": [
+        "TRASTORNOS PSIQUIÁTRICOS con el roflumilast: ansiedad, insomnio, DEPRESIÓN e ideación SUICIDA, con advertencia expresa en ficha técnica",
+        "Pérdida de peso grave en el paciente con EPOC caquéctico",
+        "Broncoespasmo con la N-acetilcisteína NEBULIZADA, sobre todo en el asmático",
+        "Reacciones anafilactoides con la N-acetilcisteína intravenosa"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia hepática moderada-grave (roflumilast)",
+      "Depresión con ideación suicida (roflumilast)",
+      "Bajo peso o caquexia (roflumilast, relativa)",
+      "N-acetilcisteína nebulizada en el asmático sin broncodilatador previo"
+    ],
+    "perlas": [
+      "El ROFLUMILAST solo sirve en un FENOTIPO muy concreto: EPOC con FEV1 menor del 50%, BRONQUITIS CRÓNICA (tos y expectoración) y exacerbaciones repetidas pese al tratamiento inhalado óptimo. Fuera de ese perfil no aporta nada y sí produce diarrea, pérdida de peso y riesgo psiquiátrico. Es un ejemplo claro de que el beneficio de un fármaco puede depender por completo de a quién se le da.",
+      "NO es un broncodilatador: no mejora la disnea de forma inmediata y el paciente no notará nada al tomarlo. Si no se explica, lo abandonará en dos semanas convencido de que no le sirve.",
+      "La PÉRDIDA DE PESO es su efecto adverso más relevante en la práctica, porque el paciente con EPOC avanzada suele estar ya sarcopénico y el bajo peso es un factor pronóstico adverso en esta enfermedad. Hay que pesar al paciente en cada visita.",
+      "Los síntomas PSIQUIÁTRICOS tienen advertencia expresa en ficha técnica: ansiedad, insomnio, depresión e ideación suicida. Hay que preguntar por el ánimo antes de prescribirlo y en el seguimiento.",
+      "El escalado a media dosis durante las primeras 4 semanas reduce mucho la intolerancia digestiva y es la diferencia entre un paciente que continúa y uno que abandona.",
+      "La N-ACETILCISTEÍNA tiene DOS mecanismos y por eso dos usos que parecen no tener relación: rompe los puentes disulfuro del moco (mucolítico) y regenera el GLUTATIÓN (antioxidante). El segundo es el que la convierte en el antídoto del paracetamol, y verlo así conecta dos fichas que en el vademécum aparecen separadas.",
+      "NEBULIZADA puede producir BRONCOESPASMO, sobre todo en el asmático: si se usa por esa vía, conviene administrar antes un broncodilatador.",
+      "En la FIBROSIS QUÍSTICA el mucolítico que ha demostrado beneficio no es la acetilcisteína sino la DORNASA ALFA, que degrada el ADN liberado por los neutrófilos, que es lo que de verdad da viscosidad a ese moco. El mecanismo del moco no es el mismo en todas las enfermedades.",
+      "En la prevención de la nefropatía por contraste, los ensayos amplios no han confirmado el beneficio: lo único demostrado sigue siendo la HIDRATACIÓN con salino."
+    ],
+    "embarazo_lactancia": "El roflumilast no se recomienda en el embarazo por falta de datos. La N-acetilcisteína se considera segura y se usa sin restricción como antídoto del paracetamol en la gestante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; guías GOLD sobre EPOC"
+  }
+]

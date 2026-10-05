@@ -1,0 +1,274 @@
+[
+  {
+    "id": "PSQ-quetiapina",
+    "nombre": "Quetiapina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antipsicótico",
+    "subclase": "Atípico (segunda generación): antagonista D2 de disociación rápida y 5-HT2A",
+    "vs_clase": [
+      "**Disociación rápida del receptor D2: casi SIN efectos extrapiramidales**; antipsicótico de elección en la **psicosis del Parkinson y la demencia con cuerpos de Lewy** (con clozapina).",
+      "**Muy SEDANTE** (bloqueo H1) y con efecto antidepresivo en la depresión bipolar.",
+      "**Síndrome metabólico** e hipotensión ortostática; prolonga el QT."
+    ],
+    "mecanismo": "Antagonista de los receptores D2 y 5-HT2A, con afinidad además por receptores histaminérgicos H1 (sedación y aumento de peso), alfa-1 adrenérgicos (hipotensión ortostática) y muscarínicos. Su rasgo diferencial es una unión al receptor D2 DÉBIL y RÁPIDAMENTE REVERSIBLE (disociación rápida): ocupa el receptor lo justo para el efecto antipsicótico y se separa enseguida, lo que explica su bajísima tasa de efectos extrapiramidales y por qué es uno de los pocos antipsicóticos utilizables en la enfermedad de Parkinson. El precio de esa promiscuidad de receptores es un perfil METABÓLICO desfavorable.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Esquizofrenia y trastorno psicótico",
+        "dosis": "Inicio 25 mg/12 h; mantenimiento 300-750 mg/día",
+        "posologia": "Cada 12 h, o dosis única nocturna con la formulación retardada",
+        "via": "VO",
+        "nota": "Requiere titulación rápida en los primeros días para evitar la hipotensión ortostática"
+      },
+      {
+        "patologia": "Episodio maníaco del trastorno bipolar",
+        "dosis": "Escalado hasta 400-800 mg/día",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Eficaz en monoterapia o asociada a litio o valproato"
+      },
+      {
+        "patologia": "Depresión bipolar",
+        "dosis": "300 mg/24 h por la noche",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es uno de los pocos fármacos con eficacia demostrada en la fase DEPRESIVA del trastorno bipolar, donde los antidepresivos pueden provocar viraje"
+      },
+      {
+        "patologia": "Psicosis y alucinaciones en la enfermedad de Parkinson o en la demencia por cuerpos de Lewy",
+        "dosis": "12,5-50 mg por la noche",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Junto con la CLOZAPINA, es de los pocos antipsicóticos tolerables en el parkinsoniano; a dosis muy bajas"
+      },
+      {
+        "patologia": "Potenciación en la depresión resistente",
+        "dosis": "50-300 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Añadida al antidepresivo cuando este ha sido insuficiente a dosis plena y tiempo suficiente"
+      }
+    ],
+    "esquema": {
+      "inicio": "25 mg/12 h con escalado rápido en los primeros días. Antes de iniciar: PESO, perímetro abdominal, tensión arterial, glucemia, perfil lipídico y ECG.",
+      "titulacion": "Incrementos diarios según tolerancia hasta la dosis terapéutica. Las dosis bajas (25-100 mg) tienen efecto fundamentalmente SEDANTE-antihistamínico, no antipsicótico: para la psicosis hacen falta 300-750 mg.",
+      "duracion": "Prolongada en la esquizofrenia y en el trastorno bipolar. En el insomnio, uso NO recomendado.",
+      "fin": "Retirada gradual: la suspensión brusca puede producir insomnio de rebote, náuseas y recaída psicótica.",
+      "via": "VO (comprimido normal o de liberación prolongada, que permite dosis única nocturna).",
+      "monitorizacion": "SÍNDROME METABÓLICO: peso y perímetro abdominal cada 3 meses, glucemia y lípidos al inicio, a los 3 meses y anualmente. ECG con QT. Prolactina si hay síntomas. Signos extrapiramidales."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; la formulación retardada debe tomarse sin alimento o con una comida ligera.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "HEPÁTICO por CYP3A4, con un metabolito activo (norquetiapina) que es además inhibidor de la recaptación de noradrenalina y contribuye al efecto antidepresivo.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "6-7 h (la norquetiapina, 12 h).",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir la dosis: iniciar con 25 mg/día y subir despacio.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4: ketoconazol, itraconazol, claritromicina, ritonavir",
+          "efecto": "Aumento marcado de sus concentraciones con sedación e hipotensión",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis a la sexta parte o evitar la combinación"
+        },
+        {
+          "con": "Inductores: carbamazepina, fenitoína, rifampicina",
+          "efecto": "Caída de las concentraciones con pérdida de eficacia y riesgo de recaída psicótica",
+          "gravedad": "alta",
+          "manejo": "Puede requerir multiplicar la dosis por 5; vigilar la clínica"
+        },
+        {
+          "con": "Fármacos que prolongan el QT y alteraciones electrolíticas",
+          "efecto": "Prolongación aditiva del QT con riesgo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "ECG basal y de control; corregir potasio y magnesio"
+        },
+        {
+          "con": "Alcohol, benzodiacepinas, opioides",
+          "efecto": "Sedación y depresión respiratoria aditivas",
+          "gravedad": "media",
+          "manejo": "Revisar la carga sedante total"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Hipotensión ortostática aditiva, con riesgo de caídas",
+          "gravedad": "media",
+          "manejo": "Titular despacio y medir la tensión en bipedestación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEDACIÓN marcada (efecto antihistamínico, muy intenso al inicio)",
+        "AUMENTO DE PESO y aumento del apetito",
+        "HIPOTENSIÓN ORTOSTÁTICA y mareo",
+        "Sequedad de boca y estreñimiento",
+        "Elevación de triglicéridos y colesterol"
+      ],
+      "graves": [
+        "SÍNDROME METABÓLICO: obesidad central, dislipemia y DIABETES de nueva aparición (la quetiapina y la olanzapina son las peores de su clase en este aspecto)",
+        "Prolongación del QT y torsade de pointes",
+        "SÍNDROME NEUROLÉPTICO MALIGNO: hipertermia, rigidez, alteración de la conciencia, CPK muy elevada e inestabilidad autonómica",
+        "Cetoacidosis diabética de debut, incluso sin obesidad previa",
+        "AUMENTO DE MORTALIDAD en el anciano con demencia y síntomas psicóticos o conductuales (advertencia con recuadro negro)",
+        "Discinesia tardía (menos frecuente que con los típicos, pero posible)",
+        "Cataratas (recomendación de revisión oftalmológica periódica)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fármaco",
+      "Uso concomitante con inhibidores potentes del CYP3A4 sin ajuste",
+      "Precaución en cardiopatía con QT largo, epilepsia y demencia (mayor mortalidad)",
+      "No indicada como hipnótico"
+    ],
+    "perlas": [
+      "Su uso más extendido es probablemente el menos justificado: se prescribe a dosis bajas (25-50 mg) como HIPNÓTICO. A esas dosis actúa casi solo como antihistamínico, no tiene efecto antipsicótico, y expone al paciente a aumento de peso, riesgo metabólico y prolongación del QT para tratar un insomnio que respondería a terapia cognitivo-conductual. Es una de las prescripciones inadecuadas más frecuentes de la psiquiatría actual.",
+      "La DOSIS DEFINE EL EFECTO de forma muy marcada: 25-100 mg es sedación antihistamínica, 300 mg tiene efecto antidepresivo en la depresión bipolar, y 400-750 mg es la dosis antipsicótica. Prescribir 100 mg esperando controlar una psicosis es infradosificar.",
+      "Su disociación RÁPIDA del receptor D2 es lo que la hace utilizable, junto con la clozapina, en la psicosis del paciente PARKINSONIANO o con demencia por cuerpos de Lewy, donde el resto de antipsicóticos produce un bloqueo motor grave. Ahí se usa a dosis mínimas (12,5-25 mg).",
+      "El SÍNDROME METABÓLICO no es un efecto secundario menor: es la principal causa de la reducción de esperanza de vida de los pacientes con esquizofrenia, y es en gran parte prevenible con control de peso, dieta, ejercicio y elección de fármaco. La monitorización metabólica es parte del tratamiento, no un extra.",
+      "En el ANCIANO CON DEMENCIA y agitación, todos los antipsicóticos aumentan la mortalidad. Antes de prescribirlos hay que descartar causas orgánicas (dolor, infección urinaria, estreñimiento, fármacos, retención) y agotar las medidas no farmacológicas.",
+      "El SÍNDROME NEUROLÉPTICO MALIGNO hay que reconocerlo pronto: fiebre, rigidez en tubo de plomo, alteración de la conciencia y CPK muy elevada. Se retira el antipsicótico y se trata con soporte, dantroleno y bromocriptina.",
+      "La interacción con CARBAMAZEPINA es dramática: puede reducir las concentraciones hasta un 80% y precipitar una recaída psicótica que se interpreta erróneamente como fracaso del tratamiento."
+    ],
+    "embarazo_lactancia": "Se usa si es necesaria; la interrupción del antipsicótico en la gestante con esquizofrenia conlleva un riesgo de recaída alto que suele superar al del fármaco. Vigilar la ganancia ponderal y la diabetes gestacional. Precaución durante la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; Harrison 20.ª ed., cap. de esquizofrenia y trastornos psicóticos"
+  },
+  {
+    "id": "PSQ-litio",
+    "nombre": "Litio (carbonato de litio)",
+    "sinonimos": [
+      "Sales de litio"
+    ],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Estabilizador del ánimo",
+    "subclase": "Catión monovalente",
+    "mecanismo": "Su mecanismo no está completamente aclarado, pero se atribuye a la inhibición de la INOSITOL MONOFOSFATASA (con depleción del inositol y atenuación de la señalización por fosfatidilinositol) y de la GLUCÓGENO SINTASA CINASA 3 (GSK-3), con efectos sobre la neuroplasticidad y la neuroprotección. Es un ION, no una molécula orgánica: no se metaboliza, se maneja como el sodio y se elimina íntegro por el riñón, y esa naturaleza iónica explica todo su comportamiento clínico, incluida la interacción crítica con la volemia y con el sodio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Trastorno bipolar: tratamiento de mantenimiento",
+        "dosis": "400-1200 mg/día ajustados por litemia",
+        "posologia": "Cada 12 h o dosis única nocturna",
+        "via": "VO",
+        "dosis_objetivo": "Litemia 0,6-0,8 mEq/L en mantenimiento, extraída 12 h después de la última dosis",
+        "nota": "Es el estabilizador con más evidencia y el ÚNICO que ha demostrado reducir el SUICIDIO en el trastorno bipolar"
+      },
+      {
+        "patologia": "Episodio maníaco agudo",
+        "dosis": "900-1800 mg/día",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "dosis_objetivo": "Litemia 0,8-1,2 mEq/L en la fase aguda",
+        "nota": "Tarda 1-2 semanas en hacer efecto: en la manía aguda grave se asocia un antipsicótico"
+      },
+      {
+        "patologia": "Potenciación en la depresión unipolar resistente",
+        "dosis": "600-900 mg/día",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "dosis_objetivo": "Litemia 0,4-0,8 mEq/L",
+        "nota": "Estrategia de potenciación con evidencia sólida cuando el antidepresivo a dosis plena ha sido insuficiente"
+      },
+      {
+        "patologia": "Prevención del suicidio en el trastorno afectivo recurrente",
+        "dosis": "600-1200 mg/día",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "dosis_objetivo": "Litemia 0,6-0,8 mEq/L",
+        "nota": "Efecto antisuicida independiente del efecto estabilizador, propio y exclusivo del litio"
+      }
+    ],
+    "esquema": {
+      "inicio": "400-600 mg/día repartidos. Antes de iniciar: función renal, ionograma, TSH, calcio, ECG y prueba de embarazo.",
+      "titulacion": "Ajuste por LITEMIA extraída 12 h después de la última dosis, a los 5-7 días de cada cambio (el tiempo necesario para alcanzar el estado de equilibrio).",
+      "duracion": "Prolongada, con frecuencia de por vida en el trastorno bipolar.",
+      "fin": "Retirada MUY gradual (meses). La suspensión brusca produce un REBOTE con riesgo elevado de recaída maníaca precoz, mayor que si nunca se hubiera tratado.",
+      "via": "VO, con las comidas para reducir las molestias digestivas.",
+      "monitorizacion": "LITEMIA cada 3-6 meses una vez estable; FUNCIÓN RENAL, TSH y CALCIO cada 6-12 meses. Educación al paciente sobre las situaciones que elevan la litemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa por vía oral.",
+      "distribucion": "Se distribuye en el agua corporal total; NO se une a proteínas.",
+      "metabolismo": "NINGUNO: no se metaboliza en absoluto.",
+      "eliminacion": "RENAL íntegramente. Se filtra y se reabsorbe en el TÚBULO PROXIMAL junto con el SODIO: cualquier situación que aumente la reabsorción de sodio (deshidratación, dieta hiposódica, diuréticos tiazídicos, insuficiencia cardiaca) aumenta también la de litio y ELEVA la litemia. Ese acoplamiento con el sodio es la clave de toda su toxicidad.",
+      "vida_media": "18-24 h, más prolongada en el anciano y en la insuficiencia renal.",
+      "ajuste_renal": "Reducir la dosis y monitorizar de forma estrecha; contraindicado en la insuficiencia renal grave. Es dializable, y la hemodiálisis es el tratamiento de la intoxicación grave.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "AINE (excepto AAS y sulindaco)",
+          "efecto": "Reducen el flujo renal y la excreción de litio, ELEVANDO la litemia hasta niveles tóxicos",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE. Es la causa más frecuente de intoxicación por litio en la práctica, y muchas veces el paciente los compra sin receta"
+        },
+        {
+          "con": "DIURÉTICOS TIAZÍDICOS",
+          "efecto": "Aumentan la reabsorción proximal de litio y elevan mucho la litemia",
+          "gravedad": "alta",
+          "manejo": "Evitar; los diuréticos de asa son algo más seguros pero también requieren vigilancia"
+        },
+        {
+          "con": "IECA y ARA-II",
+          "efecto": "Reducen la excreción de litio",
+          "gravedad": "alta",
+          "manejo": "Controlar la litemia a las 1-2 semanas de iniciarlos y reducir la dosis si procede"
+        },
+        {
+          "con": "Deshidratación, fiebre, vómitos, diarrea, dieta hiposódica, ejercicio intenso con sudoración",
+          "efecto": "Elevan la litemia por aumento de la reabsorción de sodio y de litio",
+          "gravedad": "alta",
+          "manejo": "Educar al paciente: mantener ingesta constante de sal y líquidos, y consultar ante cualquier proceso agudo con deshidratación"
+        },
+        {
+          "con": "Metronidazol, metildopa, carbamazepina",
+          "efecto": "Aumento de la litemia o de la neurotoxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles y clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "TEMBLOR fino postural de las manos",
+        "POLIURIA y POLIDIPSIA (diabetes insípida nefrogénica por resistencia tubular a la ADH)",
+        "Aumento de peso",
+        "Náuseas, diarrea y molestias digestivas",
+        "Acné y psoriasis o su empeoramiento"
+      ],
+      "graves": [
+        "INTOXICACIÓN AGUDA: temblor GRUESO, ataxia, disartria, vómitos, confusión, convulsiones, coma y arritmias. Su margen terapéutico es MUY ESTRECHO",
+        "HIPOTIROIDISMO (frecuente, hasta el 20%) y, con menos frecuencia, hipertiroidismo",
+        "HIPERPARATIROIDISMO con hipercalcemia",
+        "NEFROPATÍA CRÓNICA intersticial con el uso prolongado",
+        "DIABETES INSÍPIDA nefrogénica",
+        "TERATOGENIA: anomalía de EBSTEIN (malformación de la válvula tricúspide) con la exposición en el primer trimestre",
+        "Disfunción del nodo sinusal y alteraciones de la onda T"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave",
+      "Deshidratación grave o hiponatremia significativa",
+      "Enfermedad de Addison no tratada",
+      "Síndrome de Brugada y enfermedad del seno",
+      "Primer trimestre del embarazo (contraindicación relativa, valorando riesgo-beneficio)"
+    ],
+    "perlas": [
+      "Es un ION que se comporta como el SODIO, y de ahí se deduce toda su toxicidad: cualquier cosa que haga al riñón retener sodio le hace retener litio. Deshidratación, gastroenteritis, fiebre, dieta sin sal, una tiazida o un AINE pueden convertir una dosis estable en una intoxicación. Explicárselo así al paciente vale más que cualquier lista memorizada.",
+      "La intoxicación por AINE es la más frecuente en la práctica y es evitable: el paciente los compra sin receta para una lumbalgia y nadie relaciona su confusión de la semana siguiente con el ibuprofeno. Hay que decirle expresamente qué analgésico SÍ puede tomar (paracetamol).",
+      "REGLA DE DÍAS DE ENFERMEDAD también aquí: ante gastroenteritis, fiebre alta o cualquier cuadro con deshidratación, hay que consultar y considerar suspender temporalmente el litio.",
+      "Es el ÚNICO psicofármaco con evidencia de reducción del SUICIDIO, y ese efecto parece independiente de su acción estabilizadora del ánimo. Es un argumento de peso a su favor en el bipolar con riesgo suicida, pese a lo incómodo de su seguimiento.",
+      "La litemia se extrae 12 HORAS después de la última dosis: hacerlo en otro momento da cifras no interpretables y lleva a ajustes erróneos.",
+      "El TEMBLOR FINO es un efecto habitual y tolerable; el TEMBLOR GRUESO con ataxia y disartria es INTOXICACIÓN. Distinguirlos es la principal habilidad clínica en el seguimiento de este fármaco.",
+      "Su vigilancia crónica va más allá de la litemia: TIROIDES (hipotiroidismo en hasta el 20%), CALCIO (hiperparatiroidismo) y FUNCIÓN RENAL. Un paciente con litio y astenia tiene hipotiroidismo hasta que se demuestre lo contrario.",
+      "La retirada brusca provoca un rebote maníaco de riesgo superior al basal: si hay que suspenderlo, se hace a lo largo de meses."
+    ],
+    "embarazo_lactancia": "Riesgo de anomalía de EBSTEIN con la exposición en el primer trimestre, aunque el riesgo absoluto es menor de lo que se creía. La decisión es individualizada: la recaída bipolar en el posparto también es grave. Si se mantiene, ecocardiografía fetal y ajuste de dosis al final de la gestación y tras el parto, cuando la volemia cambia bruscamente. Desaconsejado durante la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; Harrison 20.ª ed., cap. de trastorno bipolar"
+  }
+]

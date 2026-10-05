@@ -1,0 +1,136 @@
+[
+  {
+    "id": "DER-terbinafina",
+    "nombre": "Terbinafina",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antifúngico dermatológico",
+    "subclase": "Alilamina inhibidora de la escualeno epoxidasa",
+    "vs_clase": [
+      "**Antifúngico ORAL de elección en la ONICOMICOSIS por dermatofitos** (fungicida, se acumula en la uña): 250 mg/día 6 semanas (manos) o 12 semanas (pies).",
+      "**Sin actividad útil frente a Candida por VO**, a diferencia de los azoles.",
+      "**Hepatotoxicidad** (perfil hepático basal) y alteración del gusto; inhibidor del CYP2D6."
+    ],
+    "mecanismo": "Inhibe la ESCUALENO EPOXIDASA, una enzima que actúa en un punto de la síntesis del ergosterol ANTERIOR al que bloquean los azoles y que, a diferencia de aquellos, NO pertenece al citocromo P450. De ahí derivan sus dos rasgos distintivos. El primero es la potencia: el bloqueo produce a la vez déficit de ergosterol y acumulación intracelular de ESCUALENO, que es tóxico para la membrana del hongo, y esa doble acción la hace FUNGICIDA frente a los dermatofitos, mientras que los azoles solo son fungistáticos. El segundo es la seguridad de interacciones: al no depender del CYP3A4, no arrastra la maraña de interacciones del itraconazol, aunque sí inhibe con fuerza el CYP2D6. Su altísima lipofilia hace que se concentre y persista en el estrato córneo, el sebo, el pelo y la lámina ungueal durante meses después de terminar el tratamiento.",
+    "espectro": "DERMATOFITOS (Trichophyton, Microsporum, Epidermophyton): es fungicida y de elección. Actividad limitada frente a Candida (fungistática) y escasa frente a Malassezia, por lo que NO es el tratamiento de la pitiriasis versicolor ni de la candidiasis mucosa.",
+    "indicaciones": [
+      {
+        "patologia": "ONICOMICOSIS por dermatofitos",
+        "dosis": "250 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "6 semanas en las uñas de las MANOS y 12 semanas en las de los PIES. Confirmar micológicamente antes de iniciar un tratamiento de meses"
+      },
+      {
+        "patologia": "Tinea capitis (tiña del cuero cabelludo)",
+        "dosis": "250 mg al día en el adulto; 62,5-250 mg al día en el niño según peso",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "4-8 semanas. Es superior a la griseofulvina frente a TRICHOPHYTON; para MICROSPORUM la griseofulvina sigue siendo mejor. Nunca tratamiento tópico solo"
+      },
+      {
+        "patologia": "Tinea corporis, cruris y pedis extensas o resistentes al tratamiento tópico",
+        "dosis": "250 mg al día durante 2-4 semanas",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La forma localizada se trata por vía tópica; la oral se reserva a las formas extensas, foliculares o refractarias"
+      },
+      {
+        "patologia": "Tinea corporis, cruris y pedis localizadas",
+        "dosis": "Crema al 1%, una o dos aplicaciones al día durante 1-2 semanas (2-4 semanas en el pie)",
+        "posologia": "Una o dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "Aplicar sobrepasando 2 cm el borde de la lesión y continuar una semana tras la desaparición clínica"
+      },
+      {
+        "patologia": "Granuloma de Majocchi y tinea barbae (afectación folicular)",
+        "dosis": "250 mg al día durante 4-6 semanas",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La afectación del folículo obliga a la vía oral: el tópico no penetra"
+      }
+    ],
+    "esquema": {
+      "inicio": "En el tratamiento oral: confirmación micológica previa (KOH, cultivo o PCR) y determinación basal de transaminasas.",
+      "titulacion": "Dosis fija, sin titulación.",
+      "duracion": "2-4 semanas en la piel; 4-8 semanas en el cuero cabelludo; 6 semanas en las uñas de las manos y 12 semanas en las de los pies.",
+      "fin": "Se termina el ciclo y se ESPERA. La uña seguirá con mal aspecto durante meses porque lo que se ve es lámina ya crecida y enferma: la curación se juzga por la uña NUEVA que emerge desde la matriz, no por la que ya estaba.",
+      "via": "Oral en pelo y uña; tópica en la piel lampiña.",
+      "monitorizacion": "Transaminasas basales y a las 4-6 semanas en el tratamiento oral prolongado. Vigilar exantema, alteraciones del gusto e ictericia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin influencia relevante de los alimentos.",
+      "distribucion": "Muy LIPÓFILA: se concentra en el sebo, el estrato córneo, el pelo y la uña, donde alcanza concentraciones muy superiores a las plasmáticas y PERSISTE durante meses tras terminar el tratamiento. Es lo que permite ciclos más cortos que la duración del crecimiento de la uña.",
+      "metabolismo": "Hepático extenso por varias isoenzimas del citocromo P450.",
+      "eliminacion": "Renal.",
+      "vida_media": "Plasmática de 17 horas, pero la terminal desde el tejido queratinizado es de semanas.",
+      "ajuste_renal": "No recomendada con filtrado menor de 50 mL/min por falta de datos.",
+      "ajuste_hepatico": "CONTRAINDICADA en la hepatopatía crónica o activa.",
+      "interacciones": [
+        {
+          "con": "Sustratos del CYP2D6: antidepresivos tricíclicos, ISRS, betabloqueantes (metoprolol), antiarrítmicos, TAMOXIFENO, codeína y tramadol",
+          "efecto": "La terbinafina es un INHIBIDOR POTENTE del CYP2D6 y eleva sus concentraciones; en el caso de la codeína y el tramadol, en cambio, BLOQUEA su activación y les hace perder eficacia analgésica",
+          "gravedad": "alta",
+          "manejo": "Es su interacción característica y la que se olvida por creerla un fármaco sin interacciones. Revisar la medicación del paciente antes de un ciclo de 3 meses"
+        },
+        {
+          "con": "RIFAMPICINA",
+          "efecto": "Reduce sus concentraciones a la mitad",
+          "gravedad": "media",
+          "manejo": "Valorar otra alternativa"
+        },
+        {
+          "con": "Cimetidina",
+          "efecto": "Aumenta sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Sin relevancia clínica habitual"
+        },
+        {
+          "con": "Cafeína y ciclosporina",
+          "efecto": "Alteración modesta de sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas: náuseas, dolor abdominal y diarrea",
+        "Cefalea",
+        "Exantema",
+        "ALTERACIÓN O PÉRDIDA DEL GUSTO, característica, que puede tardar semanas o meses en recuperarse y llegar a producir pérdida de peso"
+      ],
+      "graves": [
+        "HEPATOTOXICIDAD, incluida la insuficiencia hepática aguda (rara pero descrita, y motivo de la determinación basal de transaminasas)",
+        "Reacciones cutáneas graves: Stevens-Johnson, necrólisis epidérmica tóxica, DRESS y pustulosis exantemática aguda generalizada",
+        "Inducción o exacerbación de LUPUS cutáneo y sistémico",
+        "Neutropenia y agranulocitosis (raras)",
+        "Agravamiento de la psoriasis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía crónica o activa",
+      "Insuficiencia renal con filtrado menor de 50 mL/min (falta de datos)",
+      "Antecedente de lupus",
+      "Hipersensibilidad conocida",
+      "Embarazo, salvo indicación clara: la onicomicosis siempre puede esperar"
+    ],
+    "perlas": [
+      "El principio que ordena el tratamiento de las tiñas: PELO y UÑA, tratamiento ORAL; piel lampiña, tratamiento TÓPICO. El motivo es farmacocinético y no admite excepciones de comodidad: el antifúngico tópico no penetra en el folículo ni en la lámina ungueal, y tratar una tiña del cuero cabelludo con crema es garantizar el fracaso.",
+      "En la ONICOMICOSIS hay que CONFIRMAR antes de tratar. Solo la mitad de las uñas distróficas son micóticas, y el paciente que no lo es se expone a tres meses de un fármaco hepatotóxico para tratar una psoriasis ungueal o un traumatismo crónico.",
+      "Hay que ADVERTIR de que la uña seguirá fea meses después de terminar. Lo que se ve es lámina ya crecida y enferma; la curación se juzga por la uña nueva. Sin esa explicación, el paciente concluye que el tratamiento no ha funcionado justo cuando sí lo ha hecho.",
+      "La ALTERACIÓN DEL GUSTO es su efecto adverso más característico y una causa real de abandono: puede persistir semanas tras retirar el fármaco y llegar a producir pérdida de peso y anorexia en el anciano.",
+      "Se cree, equivocadamente, que no tiene interacciones porque no depende del CYP3A4. Pero es un INHIBIDOR POTENTE del CYP2D6: eleva los niveles de tricíclicos, metoprolol y tamoxifeno, y en cambio anula la analgesia de la codeína y el tramadol, que necesitan esa enzima para activarse.",
+      "Es FUNGICIDA frente a los dermatofitos, mientras que los azoles solo son fungistáticos: por eso permite ciclos más cortos y tiene menos recidivas en la onicomicosis.",
+      "NO sirve para la pitiriasis versicolor ni para la candidiasis: Malassezia y Candida responden mal. Frente a Candida el fármaco es un azol, y confundirlo es un error frecuente ante una lesión de pliegues.",
+      "TRICHOPHYTON INDOTINEAE, procedente del sur de Asia, es RESISTENTE a terbinafina y está produciendo tiñas extensas y recalcitrantes. Ante un fracaso terapéutico con buen cumplimiento hay que pensar en ella y plantear itraconazol.",
+      "En la tiña del cuero cabelludo hay que buscar el ORIGEN: la mascota, el conviviente, la maquinilla del barbero. Tratar solo al niño y no al gato garantiza la reinfección."
+    ],
+    "embarazo_lactancia": "No se recomienda en el embarazo por falta de datos, y la indicación habitual (la onicomicosis) siempre puede posponerse. Se excreta en la leche: se desaconseja durante la lactancia.",
+    "micro_relacionado": [
+      "HON-dermatofitos"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 48; guías de dermatología sobre micosis superficiales"
+  }
+]

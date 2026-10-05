@@ -1,0 +1,618 @@
+[
+  {
+    "id": "BGN-escherichia-coli",
+    "nombre": "Escherichia coli",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo, enterobacteria, anaerobio facultativo, oxidasa NEGATIVO, FERMENTADOR de lactosa, indol positivo, móvil por flagelos peritricos",
+    "morfologia_tincion": "Bacilos gramnegativos cortos. En agar MacConkey fermenta la lactosa y da colonias rosadas; en agar EMB produce el brillo verde metálico característico.",
+    "mecanismo_patogenia": [
+      "Fimbrias o pili P y de tipo 1: median la adherencia al urotelio; las cepas uropatógenas (UPEC) las expresan y son el determinante clave de la infección urinaria ascendente.",
+      "Endotoxina (lipopolisacárido, lípido A): desencadena la cascada inflamatoria del shock séptico por gramnegativos.",
+      "Cápsula K1: antifagocítica; es la responsable de la meningitis neonatal.",
+      "Toxinas según patotipo intestinal: ETEC produce toxina termolábil (similar a la colérica, activa la adenilato ciclasa) y termoestable → diarrea acuosa del viajero. EHEC/STEC (O157:H7) produce toxina Shiga (verotoxina) que inhibe la subunidad 60S ribosómica y daña el endotelio → colitis hemorrágica y síndrome hemolítico-urémico. EIEC invade la mucosa colónica como Shigella. EPEC produce la lesión de adherencia y borrado de las microvellosidades.",
+      "Betalactamasas de espectro extendido (BLEE) y carbapenemasas: mecanismos de resistencia adquiridos por plásmidos, de enorme impacto terapéutico actual."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección urinaria (cistitis y pielonefritis)",
+        "clinica": "Cistitis: disuria, polaquiuria, urgencia, sin fiebre. Pielonefritis: fiebre alta, dolor lumbar, puñopercusión positiva, náuseas.",
+        "lesiones": "Inflamación de la mucosa vesical; en la pielonefritis, infiltrado neutrofílico del intersticio renal con posible absceso.",
+        "clave": "Es responsable del 75-90% de las infecciones urinarias no complicadas: el patógeno urinario por antonomasia."
+      },
+      {
+        "cuadro": "Sepsis de origen abdominal o urinario",
+        "clinica": "Fiebre, hipotensión, taquicardia y fallo orgánico; es la causa más frecuente de sepsis por gramnegativos.",
+        "lesiones": "Foco primario abdominal (peritonitis, colangitis, diverticulitis) o urinario obstruido.",
+        "clave": "Toda sepsis urinaria con hidronefrosis exige drenaje urgente: el antibiótico solo no basta."
+      },
+      {
+        "cuadro": "Diarrea del viajero (ETEC)",
+        "clinica": "Diarrea acuosa abundante sin sangre ni fiebre alta, 1-3 días tras la llegada a zona endémica; autolimitada en 3-5 días.",
+        "lesiones": "No hay invasión: la toxina provoca secreción de agua y electrolitos sin daño histológico.",
+        "clave": "El tratamiento fundamental es la rehidratación; el antibiótico acorta el cuadro pero no es imprescindible."
+      },
+      {
+        "cuadro": "Colitis hemorrágica y síndrome hemolítico-urémico (EHEC O157:H7)",
+        "clinica": "Diarrea que se vuelve sanguinolenta en 2-3 días, dolor abdominal intenso y AUSENCIA de fiebre alta; a los 5-10 días, en niños y ancianos, anemia hemolítica microangiopática, trombocitopenia y fracaso renal agudo.",
+        "lesiones": "Colitis hemorrágica con edema submucoso; microangiopatía trombótica renal con trombos de plaquetas y fibrina en los glomérulos.",
+        "clave": "Los ANTIBIÓTICOS ESTÁN CONTRAINDICADOS: aumentan la liberación de toxina Shiga y el riesgo de síndrome hemolítico-urémico. Los antimotilidad también."
+      },
+      {
+        "cuadro": "Meningitis neonatal (cepas K1)",
+        "clinica": "Fiebre o hipotermia, irritabilidad, rechazo de la toma, fontanela abombada en el neonato.",
+        "lesiones": "Meningitis purulenta con alto riesgo de ventriculitis y absceso cerebral.",
+        "clave": "Segunda causa de meningitis neonatal tras S. agalactiae; la cápsula K1 es el determinante de virulencia."
+      },
+      {
+        "cuadro": "Infección intraabdominal (peritonitis secundaria, colangitis, diverticulitis)",
+        "clinica": "Dolor abdominal, fiebre, signos de irritación peritoneal.",
+        "lesiones": "Peritonitis polimicrobiana junto a anaerobios; abscesos.",
+        "clave": "Casi siempre polimicrobiana con Bacteroides: el tratamiento debe cubrir ambos."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Fermenta la lactosa (colonias rosadas en MacConkey) y es oxidasa negativo: eso lo sitúa dentro de las enterobacterias y lo separa de Pseudomonas (oxidasa positivo, no fermentador).",
+      "Es el patógeno más frecuente de la infección urinaria, de la sepsis por gramnegativos y de la infección intraabdominal comunitaria.",
+      "Sus patotipos intestinales (ETEC, EHEC, EIEC, EPEC, EAEC) producen enfermedades completamente distintas con la misma especie: el mecanismo, no la especie, define el cuadro.",
+      "En el EHEC/O157:H7 el tratamiento antibiótico está contraindicado por aumentar el riesgo de síndrome hemolítico-urémico — una de las pocas infecciones donde el antibiótico empeora el pronóstico.",
+      "La producción de BLEE (habitualmente CTX-M) ha convertido a E. coli comunitario en un problema terapéutico de primer orden: obliga a carbapenem o a fosfomicina según la localización.",
+      "El O157:H7 NO fermenta el sorbitol, característica que se usa para su detección en el laboratorio (agar MacConkey-sorbitol)."
+    ],
+    "diagnostico": {
+      "muestra": "Urocultivo (chorro medio, recuento significativo), hemocultivos, coprocultivo, líquido peritoneal, LCR en el neonato.",
+      "pruebas": [
+        "Urocultivo cuantitativo con antibiograma",
+        "Cultivo en MacConkey (lactosa positivo) y pruebas bioquímicas: indol positivo, oxidasa negativo",
+        "Agar MacConkey-sorbitol para O157:H7 (sorbitol negativo)",
+        "Detección de toxina Shiga por EIA o PCR en heces",
+        "Detección fenotípica y molecular de BLEE y carbapenemasas",
+        "MALDI-TOF"
+      ],
+      "claves": "Ante una diarrea sanguinolenta sin fiebre alta, hay que solicitar específicamente la detección de toxina Shiga: el coprocultivo convencional puede no identificar el O157:H7."
+    },
+    "tratamiento": {
+      "eleccion": "Cistitis no complicada: fosfomicina 3 g en dosis única o nitrofurantoína 5 días. Pielonefritis: ceftriaxona IV o ciprofloxacino si la resistencia local es baja. Sepsis: betalactámico de amplio espectro según el riesgo de BLEE.",
+      "alternativas": "Infección por BLEE: meropenem (de elección en bacteriemia); fosfomicina oral en la cistitis por BLEE, lo que evita el ingreso. Amoxicilina-clavulánico en cepas sensibles.",
+      "resistencias": "Resistencia a amoxicilina muy alta (>50%). BLEE de tipo CTX-M en aumento en la comunidad. Resistencia a quinolonas del 20-35% en España, lo que impide su uso empírico en muchas áreas. Carbapenemasas todavía poco frecuentes pero crecientes.",
+      "duracion": "Cistitis: dosis única (fosfomicina) o 5 días (nitrofurantoína). Pielonefritis: 7 días. Bacteriemia: 7-14 días. Diarrea del viajero: 1-3 días. EHEC: NINGÚN antibiótico.",
+      "notas": "En la infección urinaria, el dato local de resistencia manda sobre la recomendación general: no usar empíricamente un antibiótico con más del 20% de resistencia en la comunidad."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-cefalosporinas-orales",
+      "INF-cefazolina",
+      "INF-cefepima",
+      "INF-ceftazidima",
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino",
+      "INF-cotrimoxazol",
+      "INF-ertapenem",
+      "INF-fosfomicina",
+      "INF-gentamicina",
+      "INF-levofloxacino",
+      "INF-meropenem",
+      "INF-nitrofurantoina",
+      "INF-piperacilina-tazobactam"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., caps. de infecciones urinarias y diarreas infecciosas"
+  },
+  {
+    "id": "BGN-klebsiella-pneumoniae",
+    "nombre": "Klebsiella pneumoniae",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo, enterobacteria, INMÓVIL, muy capsulado, fermentador de lactosa, oxidasa negativo, ureasa positivo",
+    "morfologia_tincion": "Bacilos gramnegativos gruesos rodeados de una cápsula prominente que se ve como halo claro. Colonias grandes, mucosas y filantes en agar (el asa «hace hilo»), rosadas en MacConkey por fermentar la lactosa.",
+    "mecanismo_patogenia": [
+      "Cápsula de polisacárido muy abundante: principal factor de virulencia, antifagocítica y responsable del aspecto mucoide de las colonias y de la viscosidad del esputo.",
+      "Fimbrias de tipo 1 y 3: adherencia al urotelio y a los dispositivos médicos.",
+      "Sideróforos (aerobactina, yersiniabactina): captación de hierro del huésped; su hiperproducción define las cepas hipervirulentas.",
+      "Betalactamasas: produce de forma NATURAL una penicilinasa cromosómica que la hace intrínsecamente resistente a ampicilina y amoxicilina. Además, es el reservorio principal de BLEE y de carbapenemasas de tipo KPC y OXA-48.",
+      "Cepas hipervirulentas (hipermucoviscosas, serotipos K1/K2): capaces de causar absceso hepático primario y enfermedad invasiva metastásica en pacientes sanos, sobre todo en el Sudeste Asiático."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía nosocomial y neumonía del alcohólico",
+        "clinica": "Fiebre alta, esputo espeso, gelatinoso y hemoptoico («en jalea de grosella»), gran afectación general.",
+        "lesiones": "Condensación de lóbulos superiores con tendencia a la NECROSIS y a la cavitación; el abombamiento de la cisura por el exudado espeso es un signo radiológico clásico.",
+        "clave": "Sospechar en el alcohólico, el diabético y el paciente con EPOC; su tendencia a necrosar la distingue del neumococo."
+      },
+      {
+        "cuadro": "Infección urinaria complicada y asociada a sonda",
+        "clinica": "Síndrome miccional o fiebre en portador de sonda; frecuente en el paciente con manipulación urológica previa.",
+        "lesiones": "Biofilm sobre la sonda; pielonefritis.",
+        "clave": "Es la segunda enterobacteria uropatógena tras E. coli."
+      },
+      {
+        "cuadro": "Sepsis nosocomial y bacteriemia asociada a catéter",
+        "clinica": "Fiebre y shock en el paciente hospitalizado con antibioterapia previa de amplio espectro.",
+        "lesiones": "Foco pulmonar, urinario o de catéter.",
+        "clave": "Es uno de los principales patógenos multirresistentes de UCI, junto a Pseudomonas y Acinetobacter."
+      },
+      {
+        "cuadro": "Absceso hepático piógeno primario (cepas hipervirulentas)",
+        "clinica": "Fiebre, dolor en hipocondrio derecho y hepatomegalia en un paciente sin patología biliar previa; puede acompañarse de endoftalmitis y meningitis metastásicas.",
+        "lesiones": "Absceso hepático único de gran tamaño, con siembra a distancia.",
+        "clave": "Cuadro característico del diabético y del paciente de origen asiático; la endoftalmitis metastásica puede causar ceguera y obliga a fondo de ojo."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es INTRÍNSECAMENTE RESISTENTE a ampicilina y amoxicilina por su penicilinasa cromosómica: nunca son opción terapéutica.",
+      "Es inmóvil, a diferencia de la mayoría de enterobacterias, y muy capsulada: colonias mucosas que hacen hilo.",
+      "El esputo «en jalea de grosella» y la neumonía necrosante de lóbulos superiores en un alcohólico constituyen su estampa clínica clásica.",
+      "Es el reservorio principal de carbapenemasas KPC y OXA-48, que representan hoy uno de los mayores problemas de resistencia hospitalaria.",
+      "Las cepas hipervirulentas hipermucoviscosas causan enfermedad invasiva en personas sanas, con abscesos hepáticos y siembra ocular y meníngea.",
+      "Es ureasa positivo, aunque mucho menos potente que Proteus."
+    ],
+    "diagnostico": {
+      "muestra": "Esputo o aspirado traqueal, hemocultivos, urocultivo, aspirado del absceso hepático.",
+      "pruebas": [
+        "Cultivo en MacConkey: colonias mucosas rosadas",
+        "Pruebas bioquímicas: inmóvil, lactosa positivo, indol negativo, ureasa positivo",
+        "Prueba del hilo (string test) para las cepas hipermucoviscosas",
+        "Detección fenotípica y molecular de BLEE y carbapenemasas (KPC, OXA-48, metalobetalactamasas)",
+        "Ecografía o TC abdominal en la sospecha de absceso hepático",
+        "Fondo de ojo si hay bacteriemia por cepa hipervirulenta"
+      ],
+      "claves": "Ante un absceso hepático por Klebsiella hay que buscar activamente endoftalmitis: la pérdida visual es rápida e irreversible si no se trata."
+    },
+    "tratamiento": {
+      "eleccion": "Cepas sensibles: cefalosporina de 3.ª generación o amoxicilina-clavulánico. Productoras de BLEE: meropenem. Productoras de carbapenemasa: combinaciones dirigidas (ceftazidima-avibactam, meropenem-vaborbactam) según el tipo de enzima.",
+      "alternativas": "Piperacilina-tazobactam en cepas sensibles no BLEE; aminoglucósidos y fosfomicina como acompañantes en la multirresistencia.",
+      "resistencias": "Resistencia INTRÍNSECA a ampicilina. BLEE frecuente. Carbapenemasas KPC y OXA-48 en aumento, que obligan a antibióticos de última línea.",
+      "duracion": "Neumonía: 7-14 días (más en la forma necrosante). Bacteriemia: 7-14 días. Absceso hepático: 4-6 semanas junto con drenaje percutáneo.",
+      "notas": "El absceso hepático requiere drenaje además del antibiótico. En la neumonía necrosante puede ser necesario un tratamiento más prolongado guiado por la imagen."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-cefazolina",
+      "INF-cefepima",
+      "INF-ceftazidima",
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino",
+      "INF-ertapenem",
+      "INF-fosfomicina",
+      "INF-gentamicina",
+      "INF-imipenem",
+      "INF-meropenem",
+      "INF-piperacilina-tazobactam"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por enterobacterias"
+  },
+  {
+    "id": "BGN-proteus-mirabilis",
+    "nombre": "Proteus mirabilis",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "Bacilo gramnegativo, enterobacteria, muy MÓVIL, NO fermentador de lactosa, UREASA fuertemente positivo, indol negativo (a diferencia de P. vulgaris)",
+    "morfologia_tincion": "Bacilos gramnegativos pleomórficos. En agar sangre produce un crecimiento en «oleadas» concéntricas (swarming) que invade toda la placa; huele característicamente a putrefacción. En MacConkey da colonias incoloras por no fermentar la lactosa.",
+    "mecanismo_patogenia": [
+      "UREASA muy potente: hidroliza la urea de la orina a amoniaco, alcalinizando el pH urinario. Esta alcalinización precipita fosfato amónico magnésico (estruvita) y fosfato cálcico → cálculos coraliformes. Es su mecanismo patogénico definitorio.",
+      "Motilidad por flagelos peritricos con fenómeno de swarming: facilita el ascenso desde la vejiga hacia el riñón.",
+      "Fimbrias de adherencia al urotelio.",
+      "Formación de biofilm sobre sondas vesicales, incrustado con cristales de estruvita, que obstruye la sonda.",
+      "El cálculo actúa como santuario bacteriano: los antibióticos no penetran en su interior, por lo que la infección no se cura sin retirar el cálculo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección urinaria complicada con litiasis",
+        "clinica": "Síndrome miccional o pielonefritis de repetición en paciente con litiasis o sonda permanente; orina alcalina y de olor amoniacal intenso.",
+        "lesiones": "Cálculos coraliformes de estruvita que ocupan el sistema pielocalicial; pielonefritis crónica con cicatrices.",
+        "clave": "Un pH urinario persistentemente alcalino (>7) en una infección urinaria sugiere fuertemente un microorganismo productor de ureasa."
+      },
+      {
+        "cuadro": "Infección de sonda vesical con obstrucción",
+        "clinica": "Obstrucción repetida de la sonda por incrustaciones, con fugas y retención.",
+        "lesiones": "Biofilm mineralizado en la luz y la superficie de la sonda.",
+        "clave": "La solución es el recambio de la sonda, no un nuevo ciclo antibiótico."
+      },
+      {
+        "cuadro": "Bacteriemia de origen urinario",
+        "clinica": "Fiebre alta y sepsis a partir de un foco urinario obstruido.",
+        "lesiones": "Pielonefritis con posible absceso o pionefrosis.",
+        "clave": "La obstrucción por el cálculo convierte una infección banal en una sepsis grave: requiere drenaje urgente."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La producción de ureasa y la formación de cálculos de estruvita constituyen su rasgo definitorio y explican por qué la infección recidiva mientras el cálculo permanezca.",
+      "Es un gran productor de amoniaco: la orina alcalina y maloliente es una pista clínica directa.",
+      "El fenómeno de swarming en agar es tan característico que dificulta el aislamiento de otras bacterias en la misma placa.",
+      "P. mirabilis es indol NEGATIVO y sensible a ampicilina y cefalosporinas de 1.ª generación (a diferencia de la mayoría de enterobacterias); P. vulgaris es indol positivo y más resistente.",
+      "Es intrínsecamente RESISTENTE a la nitrofurantoína, dato práctico esencial al elegir tratamiento urinario.",
+      "La curación de una infección con cálculo coraliforme exige la eliminación completa del cálculo: cualquier fragmento residual reinfecta."
+    ],
+    "diagnostico": {
+      "muestra": "Urocultivo, hemocultivos, análisis del cálculo.",
+      "pruebas": [
+        "Urocultivo con antibiograma",
+        "pH urinario alcalino y cristales de estruvita («tapa de ataúd») en el sedimento",
+        "Prueba de la ureasa positiva y del indol negativa",
+        "Fenómeno de swarming en agar sangre",
+        "Ecografía o TC para identificar litiasis coraliforme"
+      ],
+      "claves": "Los cristales de estruvita en forma de «tapa de ataúd» en el sedimento urinario son prácticamente diagnósticos de infección por productor de ureasa."
+    },
+    "tratamiento": {
+      "eleccion": "Amoxicilina-clavulánico o cefalosporina (a diferencia de otras enterobacterias, P. mirabilis suele ser sensible a ampicilina). Ceftriaxona en la pielonefritis.",
+      "alternativas": "Cotrimoxazol o quinolonas según antibiograma. Aminoglucósidos en la infección grave.",
+      "resistencias": "Resistencia INTRÍNSECA a nitrofurantoína y a colistina/polimixinas. Puede adquirir BLEE.",
+      "duracion": "Infección urinaria complicada: 7-14 días. La duración es secundaria: sin retirar el cálculo, la recidiva es la norma.",
+      "notas": "El tratamiento definitivo es urológico: eliminación completa del cálculo coraliforme. La acidificación urinaria y los inhibidores de la ureasa tienen un papel muy limitado."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-cefazolina",
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino",
+      "INF-ertapenem"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones urinarias"
+  },
+  {
+    "id": "BGN-enterobacter",
+    "nombre": "Enterobacter, Serratia y Citrobacter (grupo AmpC)",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "Bacilos gramnegativos, enterobacterias, oxidasa negativos, fermentadores de lactosa (variable), con betalactamasa cromosómica AmpC INDUCIBLE",
+    "morfologia_tincion": "Bacilos gramnegativos. Serratia marcescens produce un pigmento rojo característico (prodigiosina) a temperatura ambiente, útil para su reconocimiento.",
+    "mecanismo_patogenia": [
+      "Betalactamasa cromosómica AmpC inducible: normalmente reprimida, se desreprime por mutación durante el tratamiento con betalactámicos, generando resistencia a cefalosporinas de 3.ª generación EN MEDIO DEL TRATAMIENTO. Es el mecanismo clave del grupo.",
+      "Capacidad de colonizar superficies húmedas hospitalarias, sueros, respiradores y soluciones de desinfección.",
+      "Biofilm sobre catéteres y dispositivos.",
+      "Endotoxina con capacidad de desencadenar shock séptico.",
+      "Elevada capacidad de adquirir determinantes adicionales de resistencia (BLEE, carbapenemasas)."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía asociada a ventilación mecánica",
+        "clinica": "Fiebre, secreciones purulentas y deterioro del intercambio gaseoso en el paciente intubado.",
+        "lesiones": "Infiltrados alveolares de nueva aparición, a menudo bilaterales.",
+        "clave": "Patógeno típicamente nosocomial y tardío (>5 días de ingreso)."
+      },
+      {
+        "cuadro": "Bacteriemia asociada a catéter y sepsis nosocomial",
+        "clinica": "Fiebre en paciente con vía central o nutrición parenteral.",
+        "lesiones": "Biofilm en el dispositivo.",
+        "clave": "Serratia se asocia clásicamente a brotes por contaminación de soluciones intravenosas."
+      },
+      {
+        "cuadro": "Infección urinaria y de herida quirúrgica nosocomiales",
+        "clinica": "Fiebre y signos locales tras instrumentación o cirugía.",
+        "lesiones": "Infección de herida con supuración.",
+        "clave": "Aparece tras exposición a cefalosporinas de amplio espectro."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La regla clínica esencial: en una infección grave por Enterobacter, Serratia o Citrobacter, NO usar cefalosporinas de 3.ª generación aunque el antibiograma diga «sensible», porque la AmpC se desreprime durante el tratamiento y el paciente recae con una cepa ya resistente.",
+      "La alternativa correcta es cefepima (4.ª generación, estable frente a AmpC) o un carbapenem.",
+      "El clavulánico y el tazobactam NO inhiben la AmpC: amoxicilina-clavulánico y piperacilina-tazobactam no son opciones fiables.",
+      "Serratia marcescens produce pigmento rojo y se asocia a brotes por soluciones contaminadas; también es intrínsecamente resistente a colistina.",
+      "Son intrínsecamente resistentes a ampicilina y a cefalosporinas de 1.ª y 2.ª generación.",
+      "Regla mnemotécnica clásica del grupo AmpC: «SPACE» o «SPICE» (Serratia, Pseudomonas/Providencia, Acinetobacter, Citrobacter, Enterobacter)."
+    ],
+    "diagnostico": {
+      "muestra": "Aspirado traqueal o lavado broncoalveolar, hemocultivos, urocultivo, exudado de herida.",
+      "pruebas": [
+        "Cultivo con identificación de especie por MALDI-TOF",
+        "Antibiograma, interpretado con el conocimiento del riesgo de AmpC inducible",
+        "Detección de BLEE y carbapenemasas asociadas",
+        "Pigmento rojo en Serratia a temperatura ambiente"
+      ],
+      "claves": "El antibiograma inicial puede ser engañoso: la sensibilidad a ceftriaxona no garantiza el éxito terapéutico en este grupo."
+    },
+    "tratamiento": {
+      "eleccion": "Cefepima o carbapenem (meropenem) en la infección grave. En infecciones leves y localizadas pueden usarse quinolonas o cotrimoxazol según antibiograma.",
+      "alternativas": "Aminoglucósidos como acompañantes. Ceftazidima-avibactam en cepas con resistencias adicionales.",
+      "resistencias": "Resistencia intrínseca a ampicilina y a cefalosporinas de 1.ª-2.ª generación. Desrepresión de AmpC durante el tratamiento con cefalosporinas de 3.ª generación. Serratia es resistente intrínsecamente a colistina.",
+      "duracion": "Neumonía asociada a ventilación: 7 días. Bacteriemia: 7-14 días tras retirar el foco.",
+      "notas": "Retirar el catéter o el dispositivo implicado es habitualmente imprescindible."
+    },
+    "farmacos_relacionados": [
+      "INF-cefepima",
+      "INF-ciprofloxacino",
+      "INF-ertapenem",
+      "INF-gentamicina",
+      "INF-meropenem",
+      "INF-piperacilina-tazobactam"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones nosocomiales"
+  },
+  {
+    "id": "BGN-salmonella",
+    "nombre": "Salmonella (enterica no tifoidea y Typhi)",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo, enterobacteria, móvil, NO fermentador de lactosa, productor de H2S, oxidasa negativo",
+    "morfologia_tincion": "Bacilos gramnegativos móviles. En agar MacConkey da colonias incoloras (lactosa negativo); en agar Hektoen o SS produce colonias con centro negro por la producción de sulfhídrico.",
+    "mecanismo_patogenia": [
+      "Sistemas de secreción de tipo III (islas de patogenicidad SPI-1 y SPI-2): inyectan proteínas efectoras en el enterocito que reorganizan el citoesqueleto y fuerzan la propia internalización de la bacteria.",
+      "Invasión de las células M de las placas de Peyer: puerta de entrada al tejido linfoide intestinal.",
+      "Supervivencia y multiplicación DENTRO de los macrófagos (SPI-2), lo que le permite diseminarse por vía linfática y sanguínea — base de la fiebre tifoidea.",
+      "Antígeno Vi (capsular) en S. Typhi: antifagocítico, inhibe la activación del complemento y es la base de una de las vacunas.",
+      "Resistencia a la acidez gástrica variable: la hipoclorhidria (IBP, gastrectomía) reduce mucho la dosis infectante.",
+      "Colonización crónica de la vesícula biliar, sobre todo si hay litiasis: origen del estado de portador crónico."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gastroenteritis por Salmonella no tifoidea",
+        "clinica": "Diarrea, dolor abdominal cólico, náuseas y fiebre 6-48 h tras la ingesta (huevo, pollo, productos lácteos); autolimitada en 4-7 días.",
+        "lesiones": "Enterocolitis con infiltrado neutrofílico de la mucosa ileal y colónica; heces con leucocitos.",
+        "clave": "NO tratar con antibióticos al paciente inmunocompetente sin criterios de gravedad: el antibiótico prolonga el estado de portador y no acorta el cuadro."
+      },
+      {
+        "cuadro": "Fiebre tifoidea (S. Typhi y Paratyphi)",
+        "clinica": "Fiebre en ascenso escalonado durante la primera semana, cefalea, dolor abdominal, ESTREÑIMIENTO más que diarrea al inicio, bradicardia relativa (signo de Faget), hepatoesplenomegalia y roséola tífica en el tronco.",
+        "lesiones": "Hiperplasia y ulceración de las placas de Peyer del íleon terminal, con riesgo de HEMORRAGIA y PERFORACIÓN intestinal en la 3.ª semana.",
+        "clave": "Los hemocultivos son positivos sobre todo en la 1.ª semana; los coprocultivos, en la 2.ª-3.ª. La perforación ileal es la complicación temida."
+      },
+      {
+        "cuadro": "Bacteriemia y focos metastásicos",
+        "clinica": "Fiebre persistente con siembra a distancia: osteomielitis, abscesos, endocarditis, aneurisma micótico.",
+        "lesiones": "Osteomielitis, especialmente vertebral; infección de placas de ateroma en el anciano.",
+        "clave": "En el paciente con DREPANOCITOSIS, Salmonella es una causa característica de osteomielitis."
+      },
+      {
+        "cuadro": "Estado de portador crónico",
+        "clinica": "Excreción de S. Typhi durante más de 12 meses, habitualmente asintomática.",
+        "lesiones": "Colonización de la vesícula biliar, frecuentemente con litiasis asociada.",
+        "clave": "El caso histórico de «Mary la tifoidea»; la colecistectomía puede ser necesaria para erradicarlo."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es lactosa negativo y productor de H2S: dos rasgos de laboratorio que la separan de E. coli.",
+      "Se distinguen dos comportamientos radicalmente distintos: las no tifoideas causan gastroenteritis autolimitada (no tratar), y S. Typhi causa enfermedad sistémica (siempre tratar).",
+      "El antibiótico en la gastroenteritis no tifoidea del inmunocompetente PROLONGA la excreción fecal y no aporta beneficio: es un error frecuente en la práctica.",
+      "Sí hay que tratar a los grupos de riesgo: menores de 3 meses, mayores de 50 años con ateromatosis, inmunodeprimidos, portadores de prótesis, drepanocíticos y pacientes con bacteriemia.",
+      "En el paciente con drepanocitosis es la causa característica de osteomielitis, por el infarto óseo y la asplenia funcional.",
+      "El estado de portador crónico se asienta en la vesícula biliar litiásica."
+    ],
+    "diagnostico": {
+      "muestra": "Coprocultivo, hemocultivos (esenciales en la fiebre tifoidea), médula ósea (la muestra de mayor rendimiento en la tifoidea, incluso con antibiótico previo), orina.",
+      "pruebas": [
+        "Coprocultivo en medios selectivos (Hektoen, SS, XLD) con colonias de centro negro",
+        "Hemocultivos seriados",
+        "Cultivo de médula ósea en casos dudosos o con antibioterapia previa",
+        "Serotipado (antígenos O, H y Vi)",
+        "La reacción de Widal ha quedado obsoleta por su baja especificidad"
+      ],
+      "claves": "La secuencia temporal importa: hemocultivos en la 1.ª semana, coprocultivos en la 2.ª-3.ª. El cultivo de médula ósea mantiene el rendimiento aunque ya se haya iniciado el antibiótico."
+    },
+    "tratamiento": {
+      "eleccion": "Gastroenteritis no tifoidea en inmunocompetente: NINGÚN antibiótico, solo rehidratación. Si hay indicación: ciprofloxacino o azitromicina. Fiebre tifoidea: ceftriaxona IV o azitromicina VO.",
+      "alternativas": "Cefixima oral en la tifoidea no grave. Dexametasona asociada en la tifoidea con shock o alteración del nivel de conciencia, que reduce la mortalidad.",
+      "resistencias": "Resistencia creciente a quinolonas en cepas del subcontinente indio y del Sudeste Asiático (mutaciones en gyrA), donde azitromicina o ceftriaxona son preferibles. Han aparecido cepas extremadamente resistentes de S. Typhi.",
+      "duracion": "Gastroenteritis (si se trata): 3-7 días. Fiebre tifoidea: 7-14 días. Bacteriemia con foco endovascular: 4-6 semanas. Portador crónico: 4-6 semanas de ciprofloxacino, con colecistectomía si hay litiasis.",
+      "notas": "La prevención en el viajero incluye vacunación frente a S. Typhi y medidas alimentarias e hídricas."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., caps. de salmonelosis y fiebre tifoidea"
+  },
+  {
+    "id": "BGN-shigella",
+    "nombre": "Shigella",
+    "grupo": "BGN",
+    "nivel": 2,
+    "clasificacion": "Bacilo gramnegativo, enterobacteria, INMÓVIL, no fermentador de lactosa, NO productor de H2S (a diferencia de Salmonella), oxidasa negativo",
+    "morfologia_tincion": "Bacilos gramnegativos inmóviles. Colonias incoloras en MacConkey, sin centro negro en medios con hierro (a diferencia de Salmonella).",
+    "mecanismo_patogenia": [
+      "Invasión de la mucosa COLÓNICA a través de las células M, con multiplicación intracelular y propagación de célula a célula mediante polimerización de actina (igual estrategia que Listeria).",
+      "Toxina Shiga (sobre todo S. dysenteriae tipo 1): inhibe la subunidad 60S ribosómica; produce daño endotelial y puede causar síndrome hemolítico-urémico.",
+      "Dosis infectante extraordinariamente baja: 10-100 bacterias bastan, porque resiste muy bien la acidez gástrica. Esto explica la transmisión persona a persona directa (fecal-oral, guarderías, instituciones) sin necesidad de vehículo alimentario.",
+      "Sistema de secreción de tipo III que inyecta efectores para forzar su internalización y provocar apoptosis de los macrófagos.",
+      "La invasión se limita a la mucosa y submucosa: rara vez produce bacteriemia, a diferencia de Salmonella."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Disentería bacilar",
+        "clinica": "Fiebre alta, dolor abdominal cólico intenso, TENESMO y deposiciones escasas, frecuentes, con SANGRE, MOCO y PUS. Comienza como diarrea acuosa y evoluciona a disentería en 1-2 días.",
+        "lesiones": "Colitis con úlceras superficiales de la mucosa del colon distal y el recto, exudado purulento y hemorragia; NO hay invasión profunda ni perforación habitual.",
+        "clave": "El tenesmo con deposiciones escasas y sanguinolentas es su marca clínica; a diferencia de Salmonella, la bacteriemia es rara."
+      },
+      {
+        "cuadro": "Complicaciones neurológicas en el niño",
+        "clinica": "Convulsiones febriles, letargo, confusión, incluso antes o sin diarrea llamativa.",
+        "lesiones": "Encefalopatía tóxica sin invasión directa del SNC.",
+        "clave": "Las convulsiones en la shigelosis infantil pueden preceder al cuadro digestivo y confundir el diagnóstico."
+      },
+      {
+        "cuadro": "Síndrome hemolítico-urémico (S. dysenteriae tipo 1)",
+        "clinica": "Anemia hemolítica microangiopática, trombocitopenia e insuficiencia renal aguda tras la disentería.",
+        "lesiones": "Microangiopatía trombótica glomerular por toxina Shiga.",
+        "clave": "Mismo mecanismo que en el E. coli O157:H7 productor de toxina Shiga."
+      },
+      {
+        "cuadro": "Artritis reactiva postinfecciosa",
+        "clinica": "Semanas después: oligoartritis asimétrica de miembros inferiores, uretritis y conjuntivitis en el portador de HLA-B27.",
+        "lesiones": "Sinovitis estéril.",
+        "clave": "Shigella es uno de los desencadenantes clásicos de artritis reactiva junto a Yersinia, Campylobacter, Salmonella y Chlamydia."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Su dosis infectante bajísima (10-100 bacterias) la convierte en un patógeno de transmisión directa persona a persona y de brotes en guarderías e instituciones cerradas.",
+      "Es inmóvil y H2S negativa: eso la distingue de Salmonella en el laboratorio.",
+      "Produce disentería (sangre, moco, pus, tenesmo) por invasión de la mucosa colónica, no diarrea secretora.",
+      "A diferencia de la salmonelosis, aquí SÍ se recomienda tratamiento antibiótico: acorta la enfermedad y, sobre todo, reduce la excreción y la transmisión, que es el objetivo de salud pública.",
+      "Los antidiarreicos que enlentecen la motilidad (loperamida) están contraindicados: prolongan la enfermedad y aumentan el riesgo de megacolon tóxico.",
+      "S. sonnei es la especie más frecuente en países desarrollados y produce un cuadro más leve; S. dysenteriae tipo 1 es la más grave por la toxina Shiga."
+    ],
+    "diagnostico": {
+      "muestra": "Coprocultivo (procesar rápidamente: es una bacteria lábil), muestra rectal con hisopo si el paciente no defeca.",
+      "pruebas": [
+        "Coprocultivo en medios selectivos (MacConkey, Hektoen, XLD)",
+        "Examen en fresco de las heces: abundantes leucocitos y hematíes",
+        "Pruebas bioquímicas: inmóvil, lactosa negativo, H2S negativo",
+        "Serotipado por grupos (A: dysenteriae, B: flexneri, C: boydii, D: sonnei)",
+        "PCR múltiple de patógenos gastrointestinales"
+      ],
+      "claves": "La presencia de abundantes leucocitos en heces orienta a diarrea inflamatoria/invasiva y separa Shigella de las diarreas secretoras."
+    },
+    "tratamiento": {
+      "eleccion": "Ciprofloxacino 500 mg/12 h 3 días, o azitromicina 500 mg/24 h 3 días.",
+      "alternativas": "Ceftriaxona IV en el paciente grave o en el niño. Cotrimoxazol solo si el antibiograma lo permite (resistencias muy altas).",
+      "resistencias": "Resistencia muy extendida a ampicilina y cotrimoxazol. Aumento de la resistencia a quinolonas y a azitromicina, especialmente en cepas asociadas a transmisión sexual entre hombres.",
+      "duracion": "3 días en el cuadro no complicado; 5 días en el inmunodeprimido.",
+      "notas": "Además del antibiótico, la medida esencial es la higiene de manos: es lo que corta la transmisión en el brote."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ceftriaxona",
+      "INF-ciprofloxacino"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 26 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de shigelosis"
+  },
+  {
+    "id": "BGN-campylobacter-jejuni",
+    "nombre": "Campylobacter jejuni",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo CURVADO en coma o en «ala de gaviota», microaerófilo, oxidasa POSITIVO, catalasa positivo, termófilo (crece a 42 °C)",
+    "morfologia_tincion": "Bacilos gramnegativos curvos, en forma de coma, S o «ala de gaviota» cuando se agrupan dos. Muy móvil, con desplazamiento «en sacacorchos» visible en fresco.",
+    "mecanismo_patogenia": [
+      "Motilidad en sacacorchos gracias a un flagelo polar: le permite atravesar la capa de moco intestinal y alcanzar el epitelio.",
+      "Adhesión e invasión de la mucosa del íleon terminal y del colon, con inflamación y ulceración.",
+      "Citotoxina distensora citoletal (CDT): bloquea el ciclo celular del enterocito.",
+      "MIMETISMO MOLECULAR entre los lipooligosacáridos de su superficie y los gangliósidos GM1 de los nervios periféricos: los anticuerpos generados contra la bacteria atacan la mielina y los axones → síndrome de Guillain-Barré.",
+      "Microaerofilia y termofilia: requiere una atmósfera con 5-10% de O2 y 42 °C para crecer, lo que obliga a solicitar cultivo específico."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gastroenteritis por Campylobacter",
+        "clinica": "Pródromo de 12-24 h con fiebre, cefalea y mialgias, seguido de dolor abdominal cólico INTENSO (que puede simular apendicitis) y diarrea, con frecuencia sanguinolenta.",
+        "lesiones": "Ileocolitis con inflamación y ulceración de la mucosa; adenitis mesentérica.",
+        "clave": "Es la causa bacteriana más frecuente de gastroenteritis en muchos países desarrollados; el dolor abdominal puede ser tan intenso que motive una laparotomía innecesaria."
+      },
+      {
+        "cuadro": "Síndrome de Guillain-Barré postinfeccioso",
+        "clinica": "1-3 semanas después de la diarrea: debilidad muscular ascendente simétrica, arreflexia, con posible afectación respiratoria.",
+        "lesiones": "Polirradiculoneuropatía desmielinizante o, en la variante axonal asociada a Campylobacter, degeneración axonal motora (AMAN).",
+        "clave": "Campylobacter es el desencadenante identificable más frecuente del Guillain-Barré, y se asocia especialmente a las formas axonales, de peor pronóstico."
+      },
+      {
+        "cuadro": "Artritis reactiva",
+        "clinica": "Oligoartritis asimétrica de miembros inferiores 1-4 semanas tras la infección, en portadores de HLA-B27.",
+        "lesiones": "Sinovitis estéril.",
+        "clave": "Junto con Shigella, Salmonella, Yersinia y Chlamydia, es uno de los cinco desencadenantes clásicos."
+      },
+      {
+        "cuadro": "Bacteriemia en el inmunodeprimido",
+        "clinica": "Fiebre prolongada y bacteriemia, sobre todo por C. fetus en pacientes con hepatopatía o inmunodepresión.",
+        "lesiones": "Endocarditis, aneurisma micótico, tromboflebitis.",
+        "clave": "C. fetus tiene una capa S proteica que le confiere resistencia al suero y facilita la diseminación."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Su morfología curva en «ala de gaviota» y su oxidasa positiva lo separan inmediatamente de las enterobacterias.",
+      "Requiere cultivo específico: medio selectivo (Skirrow, Campy-BAP), atmósfera microaerófila y 42 °C. Si no se solicita expresamente, el coprocultivo estándar puede no detectarlo.",
+      "Es el desencadenante identificable más frecuente del síndrome de Guillain-Barré, por mimetismo molecular con los gangliósidos GM1.",
+      "Su reservorio es el pollo: la transmisión ocurre por carne de ave poco cocinada, leche no pasteurizada y contaminación cruzada en la cocina.",
+      "El tratamiento de elección es un MACRÓLIDO (azitromicina), no una quinolona, por la altísima resistencia de las cepas a ciprofloxacino, especialmente las adquiridas en el Sudeste Asiático.",
+      "La mayoría de los casos son autolimitados y no requieren antibiótico."
+    ],
+    "diagnostico": {
+      "muestra": "Coprocultivo con solicitud específica de Campylobacter; hemocultivos en el inmunodeprimido.",
+      "pruebas": [
+        "Cultivo selectivo en atmósfera microaerófila a 42 °C",
+        "Examen en fresco de heces: motilidad en sacacorchos",
+        "Tinción de Gram de las heces: bacilos curvos",
+        "PCR múltiple de patógenos gastrointestinales, que ha aumentado mucho su detección",
+        "Prueba de la oxidasa positiva"
+      ],
+      "claves": "Sin condiciones de cultivo específicas no crece: en un paciente con diarrea inflamatoria y coprocultivo «negativo», hay que preguntarse si se buscó Campylobacter."
+    },
+    "tratamiento": {
+      "eleccion": "AZITROMICINA 500 mg/24 h durante 3 días. La mayoría de los casos leves no requieren antibiótico.",
+      "alternativas": "Eritromicina. Ciprofloxacino solo si el antibiograma confirma sensibilidad. En la bacteriemia por C. fetus, aminoglucósido o carbapenem.",
+      "resistencias": "Resistencia a quinolonas superior al 50-80% en muchas zonas (uso de quinolonas en avicultura), especialmente en cepas del Sudeste Asiático. Los macrólidos mantienen buena actividad.",
+      "duracion": "3-5 días en la gastroenteritis; 2-4 semanas en la bacteriemia.",
+      "notas": "Indicaciones de tratamiento: fiebre alta, diarrea sanguinolenta, más de 8 deposiciones al día, síntomas de más de una semana, embarazo o inmunodepresión."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ciprofloxacino",
+      "PED-INF-azitromicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 30 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por Campylobacter"
+  },
+  {
+    "id": "BGN-helicobacter-pylori",
+    "nombre": "Helicobacter pylori",
+    "grupo": "BGN",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo espiral o curvado, microaerófilo, UREASA fuertemente positivo, oxidasa y catalasa positivos, móvil por flagelos polares",
+    "morfologia_tincion": "Bacilos gramnegativos curvos o espirales con flagelos polares múltiples. Se identifican en la biopsia gástrica con tinción de Giemsa, Warthin-Starry o inmunohistoquímica, situados sobre el epitelio y bajo la capa de moco.",
+    "mecanismo_patogenia": [
+      "UREASA extraordinariamente potente: hidroliza la urea y genera una nube de amoniaco que neutraliza el ácido a su alrededor, permitiéndole sobrevivir en el estómago. Es la base de todas las pruebas diagnósticas (test del aliento, test rápido de ureasa) y de su supervivencia.",
+      "Motilidad en espiral con flagelos polares: le permite atravesar la capa de moco y alcanzar el epitelio, donde el pH es casi neutro.",
+      "Adhesinas (BabA, SabA): fijación al epitelio gástrico.",
+      "Citotoxina VacA: forma poros y produce vacuolización y apoptosis del epitelio.",
+      "Isla de patogenicidad cag con la proteína CagA: se inyecta en la célula epitelial mediante un sistema de secreción de tipo IV y altera la señalización celular; las cepas CagA positivas se asocian a mayor riesgo de úlcera y de adenocarcinoma.",
+      "Inflamación crónica mantenida: gastritis crónica → atrofia → metaplasia intestinal → displasia → adenocarcinoma (cascada de Correa). Además, la estimulación linfoide crónica origina el linfoma MALT."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gastritis crónica y úlcera péptica",
+        "clinica": "Dolor epigástrico, dispepsia, pirosis. La úlcera duodenal cursa con dolor que calma con la comida; la gástrica, con dolor que empeora al comer.",
+        "lesiones": "Gastritis crónica activa antral; úlcera duodenal (asociada a hipersecreción ácida) o gástrica (asociada a gastritis atrófica).",
+        "clave": "Está presente en el 90-95% de las úlceras duodenales y en el 70-80% de las gástricas; su erradicación cura la úlcera y evita las recidivas."
+      },
+      {
+        "cuadro": "Adenocarcinoma gástrico",
+        "clinica": "Síndrome constitucional, dispepsia persistente, anemia ferropénica, saciedad precoz; síntomas tardíos.",
+        "lesiones": "Adenocarcinoma de tipo intestinal precedido por la secuencia gastritis crónica → atrofia → metaplasia intestinal → displasia.",
+        "clave": "La OMS lo clasifica como carcinógeno de tipo I: es la única bacteria reconocida formalmente como causa de cáncer en el ser humano."
+      },
+      {
+        "cuadro": "Linfoma MALT gástrico",
+        "clinica": "Dispepsia, dolor epigástrico, anemia; a menudo hallazgo endoscópico.",
+        "lesiones": "Proliferación linfoide B de la zona marginal con lesiones linfoepiteliales.",
+        "clave": "En los estadios iniciales, la sola ERRADICACIÓN del H. pylori consigue la remisión del linfoma en el 60-80% de los casos: un tumor que se cura con antibióticos."
+      },
+      {
+        "cuadro": "Anemia ferropénica refractaria y púrpura trombocitopénica inmune",
+        "clinica": "Ferropenia que no responde al hierro oral; trombocitopenia inmune.",
+        "lesiones": "Alteración de la absorción de hierro por hipoclorhidria y consumo bacteriano.",
+        "clave": "Son indicaciones reconocidas de búsqueda y erradicación aunque no haya síntomas digestivos."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Su ureasa es la clave de todo: le permite sobrevivir en el ácido y es el fundamento del test del aliento con urea marcada y del test rápido de ureasa en la biopsia.",
+      "Es el único agente infeccioso clasificado como carcinógeno humano de tipo I por la OMS.",
+      "El linfoma MALT gástrico precoz es uno de los pocos tumores que se curan erradicando una infección.",
+      "Antes de cualquier prueba diagnóstica basada en la ureasa o en el antígeno, hay que suspender los IBP 2 semanas y los antibióticos 4 semanas: si no, el resultado será falsamente negativo.",
+      "La resistencia a claritromicina es hoy el principal determinante del fracaso terapéutico: si supera el 15% en la zona o el paciente ya la recibió, hay que elegir otra pauta.",
+      "La erradicación siempre se comprueba: test del aliento o antígeno en heces al menos 4 semanas después de terminar el tratamiento."
+    ],
+    "diagnostico": {
+      "muestra": "Aire espirado (test del aliento), heces (antígeno), biopsia gástrica endoscópica (antro y cuerpo), suero (serología).",
+      "pruebas": [
+        "TEST DEL ALIENTO con urea marcada con C13: prueba no invasiva de elección para el diagnóstico y la confirmación de la erradicación",
+        "Antígeno en heces monoclonal: alternativa no invasiva",
+        "Test rápido de ureasa en la biopsia (CLO-test) durante la endoscopia",
+        "Histología con tinción de Giemsa o Warthin-Starry",
+        "Cultivo con antibiograma: solo en fracasos repetidos, por su dificultad técnica",
+        "Serología: no distingue infección activa de pasada, no sirve para confirmar erradicación"
+      ],
+      "claves": "IBP suspendidos 2 semanas antes y antibióticos 4 semanas antes: es el error preanalítico más frecuente y produce falsos negativos."
+    },
+    "tratamiento": {
+      "eleccion": "Terapia cuádruple CONCOMITANTE 14 días: IBP a dosis doble cada 12 h + amoxicilina 1 g/12 h + claritromicina 500 mg/12 h + metronidazol 500 mg/12 h.",
+      "alternativas": "Terapia cuádruple con bismuto (IBP + bismuto + tetraciclina + metronidazol), de elección si la resistencia a claritromicina es alta o el paciente ya la ha recibido. En alérgicos a penicilina, la pauta con bismuto es la opción.",
+      "resistencias": "Resistencia a claritromicina del 15-25% en España y creciente; resistencia a metronidazol elevada pero parcialmente superable con dosis y duración. La resistencia a amoxicilina es rara.",
+      "duracion": "14 días (las pautas de 7 y 10 días tienen tasas de erradicación inferiores y han quedado desaconsejadas).",
+      "notas": "Nunca repetir una pauta que ya ha fracasado con el mismo antibiótico clave. Comprobar SIEMPRE la erradicación 4 semanas después del tratamiento y 2 semanas después de retirar el IBP."
+    },
+    "farmacos_relacionados": [
+      "DIG-sucralfato-antiacidos",
+      "INF-amoxicilina",
+      "INF-claritromicina",
+      "INF-metronidazol",
+      "PED-DIG-omeprazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 31 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infección por H. pylori"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "OFT-antiinfecciosos-corticoides-oculares",
+    "nombre": "Antibióticos y corticoides tópicos oculares",
+    "sinonimos": [
+      "Colirios antibióticos y antiinflamatorios"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "subclase": "Colirios y pomadas antibióticas, antivíricas y corticoideas",
+    "mecanismo": "Los ANTIBIÓTICOS tópicos alcanzan en la superficie ocular concentraciones cientos de veces superiores a la concentración mínima inhibitoria, lo que permite tratar infecciones superficiales con moléculas que por vía sistémica no servirían. Su limitación es la penetración: NO alcanzan concentraciones útiles en la cámara anterior ni en el vítreo, de modo que la endoftalmitis exige inyección INTRAVÍTREA y la celulitis orbitaria, antibiótico intravenoso. Los CORTICOIDES tópicos suprimen la inflamación de la superficie y de la cámara anterior con la misma potencia con que suprimen la defensa local, y de ahí nacen sus tres complicaciones características: agravan la QUERATITIS HERPÉTICA hasta la perforación, favorecen la infección fúngica y elevan la PRESIÓN INTRAOCULAR en los individuos respondedores, que son en torno a un tercio de la población, produciendo un glaucoma silente e irreversible.",
+    "espectro": "Antibióticos tópicos: cobertura amplia de grampositivos y gramnegativos de la superficie ocular; las QUINOLONAS tópicas cubren además Pseudomonas, lo que las hace obligadas en la queratitis del portador de lentes de contacto. Aciclovir en pomada y ganciclovir en gel para el herpes simple corneal.",
+    "indicaciones": [
+      {
+        "patologia": "CONJUNTIVITIS bacteriana",
+        "dosis": "Tobramicina 0,3% o azitromicina 1,5% en colirio, una gota cada 4-6 horas durante 5-7 días",
+        "posologia": "Cada 4-6 horas",
+        "via": "oftálmica",
+        "nota": "La mayoría de las conjuntivitis son VÍRICAS y autolimitadas: el antibiótico se prescribe en exceso. La secreción purulenta y las legañas que pegan los párpados por la mañana orientan a bacteriana"
+      },
+      {
+        "patologia": "QUERATITIS BACTERIANA (úlcera corneal), especialmente en portador de lentes de contacto",
+        "dosis": "Ciprofloxacino 0,3% o moxifloxacino 0,5% en colirio, una gota CADA HORA incluida la noche las primeras 48 horas",
+        "posologia": "Horaria al inicio, con descenso progresivo",
+        "via": "oftálmica",
+        "dosis_objetivo": "Reducción del infiltrado corneal y reepitelización",
+        "nota": "Es una URGENCIA oftalmológica. En el portador de lentes hay que cubrir PSEUDOMONAS, que puede perforar la córnea en 24-48 horas. NUNCA ocluir el ojo ni poner corticoide"
+      },
+      {
+        "patologia": "QUERATITIS HERPÉTICA (úlcera dendrítica)",
+        "dosis": "Aciclovir pomada al 3% cinco veces al día, o ganciclovir gel 0,15% cinco veces al día, durante 7-10 días",
+        "posologia": "Cinco aplicaciones al día",
+        "via": "oftálmica",
+        "nota": "Los CORTICOIDES están CONTRAINDICADOS en la forma epitelial: agravan la úlcera y pueden llevar a la perforación. En la queratitis estromal se usan bajo control oftalmológico y siempre con cobertura antivírica"
+      },
+      {
+        "patologia": "Inflamación postoperatoria y UVEÍTIS anterior",
+        "dosis": "Dexametasona 0,1% o prednisolona 1% en colirio, una gota cada 1-6 horas según la intensidad, con descenso progresivo",
+        "posologia": "Pauta descendente a lo largo de semanas",
+        "via": "oftálmica",
+        "nota": "En la uveítis anterior se asocia un CICLOPLÉJICO para romper y prevenir las sinequias posteriores y aliviar el dolor del espasmo ciliar"
+      },
+      {
+        "patologia": "Profilaxis de la oftalmía neonatal",
+        "dosis": "Pomada de eritromicina al 0,5% en ambos ojos en la primera hora de vida",
+        "posologia": "Aplicación única",
+        "via": "oftálmica",
+        "nota": "Previene la conjuntivitis gonocócica neonatal, que puede perforar la córnea en días. NO previene la conjuntivitis por Chlamydia, que requiere tratamiento sistémico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ante un OJO ROJO hay que descartar primero los signos de alarma: DOLOR intenso, PÉRDIDA DE VISIÓN, fotofobia marcada e inyección CILIAR (periquerática). Cualquiera de ellos excluye una conjuntivitis banal y obliga a valoración oftalmológica antes de prescribir nada.",
+      "titulacion": "En la queratitis bacteriana la pauta es HORARIA las primeras 48 horas y después descendente. Los corticoides se retiran de forma PROGRESIVA para evitar el rebote inflamatorio.",
+      "duracion": "5-7 días en la conjuntivitis; semanas con pauta descendente en la uveítis.",
+      "fin": "Los corticoides oculares NUNCA se retiran de golpe tras un uso prolongado, y NUNCA se prescriben sin fecha de revisión.",
+      "via": "Tópica oftálmica; la pomada da mayor tiempo de contacto y es preferible por la noche, aunque emborrona la visión.",
+      "monitorizacion": "PRESIÓN INTRAOCULAR en todo paciente con corticoide tópico más de 2 semanas. Reevaluación en 48 horas de toda queratitis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Concentraciones muy altas en la superficie ocular; penetración limitada a cámara anterior y prácticamente nula al vítreo.",
+      "distribucion": "Fundamentalmente local, con drenaje nasolagrimal y cierta absorción sistémica.",
+      "metabolismo": "Local y sistémico en la fracción absorbida.",
+      "eliminacion": "Lágrima y vía nasolagrimal.",
+      "vida_media": "Corta en la superficie ocular, lo que obliga a instilaciones frecuentes.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Lentes de CONTACTO",
+          "efecto": "Absorben el conservante y el principio activo, y en una queratitis empeoran la infección",
+          "gravedad": "alta",
+          "manejo": "RETIRAR las lentes durante todo el tratamiento y no reponerlas hasta la curación completa. En la queratitis hay que cultivar la lente y su estuche"
+        },
+        {
+          "con": "Corticoide tópico y QUERATITIS HERPÉTICA o fúngica",
+          "efecto": "AGRAVAMIENTO grave con riesgo de perforación corneal",
+          "gravedad": "alta",
+          "manejo": "Es el error más grave del manejo del ojo rojo: nunca se pone un corticoide en un ojo rojo sin haber descartado una úlcera con fluoresceína"
+        },
+        {
+          "con": "Aminoglucósidos tópicos en uso prolongado",
+          "efecto": "Toxicidad epitelial que retrasa la reepitelización",
+          "gravedad": "media",
+          "manejo": "Limitar la duración"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor y visión borrosa transitoria",
+        "Conjuntivitis alérgica de contacto al fármaco o al conservante",
+        "Sabor amargo por drenaje nasolagrimal",
+        "Toxicidad epitelial con el uso prolongado"
+      ],
+      "graves": [
+        "GLAUCOMA CORTICOIDEO: elevación de la presión intraocular en un tercio de la población, silente y con pérdida de campo visual IRREVERSIBLE",
+        "CATARATA subcapsular posterior con el uso prolongado de corticoides",
+        "PERFORACIÓN CORNEAL por corticoide aplicado sobre una queratitis herpética o fúngica no diagnosticada",
+        "Sobreinfección fúngica",
+        "Retraso de la cicatrización epitelial",
+        "Selección de resistencias con el uso repetido de quinolonas tópicas"
+      ]
+    },
+    "contraindicaciones": [
+      "CORTICOIDES: queratitis herpética epitelial (dendrítica), infección fúngica y micobacteriana, y úlcera corneal no filiada",
+      "Uso de corticoide tópico sin exploración con FLUORESCEÍNA previa",
+      "Oclusión del ojo en la queratitis del portador de lentes de contacto",
+      "Hipersensibilidad al principio activo o a los conservantes"
+    ],
+    "perlas": [
+      "La regla que evita la mayoría de los desastres del ojo rojo: NUNCA un corticoide tópico sin haber teñido con FLUORESCEÍNA. Un corticoide sobre una úlcera herpética dendrítica puede llevar a la perforación de la córnea, y es un error que se comete precisamente porque el corticoide alivia los síntomas al principio y el paciente refiere mejoría.",
+      "Los signos de ALARMA del ojo rojo que descartan una conjuntivitis banal son cuatro: DOLOR intenso, PÉRDIDA DE VISIÓN, FOTOFOBIA marcada e inyección CILIAR alrededor del limbo. Con cualquiera de ellos, no se prescribe un colirio, se deriva.",
+      "En el PORTADOR DE LENTES DE CONTACTO con ojo rojo doloroso hay que pensar en PSEUDOMONAS y actuar como una urgencia: puede perforar la córnea en 24-48 horas. Se retira la lente, se cultiva junto con el estuche y se inicia una quinolona tópica horaria.",
+      "NUNCA se ocluye un ojo con una queratitis del portador de lentes: la oclusión crea un ambiente cálido y húmedo que favorece precisamente a Pseudomonas.",
+      "La mayoría de las CONJUNTIVITIS son VÍRICAS, autolimitadas y muy contagiosas: lo que necesitan es higiene de manos, no antibiótico. La prescripción sistemática de colirio antibiótico en toda conjuntivitis es uno de los usos inadecuados más extendidos.",
+      "El GLAUCOMA CORTICOIDEO es silencioso: aproximadamente un tercio de las personas responde al corticoide tópico con una elevación significativa de la presión intraocular, y el daño del campo visual es irreversible. Cualquier corticoide ocular más de 2 semanas obliga a medir la presión.",
+      "Los corticoides oculares no deberían prescribirse sin FECHA DE REVISIÓN. El paciente que se autorrenueva un colirio de dexametasona durante meses porque le alivia acaba con catarata, glaucoma o una úlcera sobreinfectada.",
+      "La profilaxis neonatal con eritromicina previene la conjuntivitis GONOCÓCICA, que es fulminante y perforante, pero NO la clamidial, que aparece más tarde y requiere tratamiento sistémico con azitromicina.",
+      "En la UVEÍTIS anterior, el ciclopléjico no es un añadido: rompe las sinequias posteriores que pueden dejar la pupila deformada de forma permanente y alivia el dolor del espasmo ciliar, que es la causa real del dolor del paciente."
+    ],
+    "embarazo_lactancia": "Los antibióticos tópicos oculares se consideran seguros por su mínima absorción sistémica; se evitan las quinolonas de forma sistemática solo cuando existe alternativa. Los corticoides tópicos oculares son compatibles en cursos cortos. Compatibles con la lactancia.",
+    "micro_relacionado": [
+      "ATI-chlamydia-trachomatis",
+      "BGN-neisseria-gonorrhoeae",
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-staphylococcus-aureus",
+      "VIR-virus-herpes-simple"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 62; guías de la Academia Americana de Oftalmología sobre conjuntivitis y queratitis"
+  },
+  {
+    "id": "OFT-midriaticos-lagrimas",
+    "nombre": "Midriáticos, ciclopléjicos y lágrimas artificiales",
+    "sinonimos": [
+      "Tropicamida, ciclopentolato, atropina, fenilefrina; lubricantes oculares"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Fármacos diagnósticos y de superficie ocular",
+    "subclase": "Anticolinérgicos, simpaticomiméticos y lubricantes",
+    "mecanismo": "Los MIDRIÁTICOS actúan por dos vías distintas y conviene diferenciarlas. Los ANTICOLINÉRGICOS (tropicamida, ciclopentolato, atropina) bloquean el receptor muscarínico del esfínter del iris y del músculo ciliar: producen midriasis Y CICLOPLEJIA, es decir, parálisis de la acomodación con visión de cerca borrosa. Los SIMPATICOMIMÉTICOS (fenilefrina) estimulan el receptor alfa-1 del músculo dilatador y producen midriasis SIN cicloplejia. Esa diferencia decide cuál se usa: para explorar el fondo de ojo basta la midriasis, mientras que para medir la refracción real de un niño hace falta la cicloplejia, porque su enorme capacidad de acomodación falsea cualquier medición. Las LÁGRIMAS ARTIFICIALES no tienen mecanismo farmacológico: reponen volumen y estabilizan la película lagrimal, cuya capa lipídica externa procede de las glándulas de Meibomio, y por eso la disfunción de estas glándulas es hoy la causa más frecuente de ojo seco.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dilatación pupilar para EXPLORACIÓN del fondo de ojo",
+        "dosis": "Tropicamida 1%, una gota, repetible a los 5-10 minutos",
+        "posologia": "Una o dos gotas",
+        "via": "oftálmica",
+        "dosis_objetivo": "Midriasis suficiente para explorar la retina periférica",
+        "nota": "Es el midriático de elección por su efecto CORTO (4-6 horas). Hay que advertir de que NO se puede conducir hasta que pase"
+      },
+      {
+        "patologia": "CICLOPLEJIA para refracción en el NIÑO",
+        "dosis": "Ciclopentolato 1%, una gota repetida a los 5 minutos, 40 minutos antes de la exploración",
+        "posologia": "Dos gotas separadas 5 minutos",
+        "via": "oftálmica",
+        "nota": "Sin cicloplejia, la acomodación del niño enmascara la HIPERMETROPÍA y se le prescriben gafas incorrectas o no se detecta la causa de un estrabismo"
+      },
+      {
+        "patologia": "UVEÍTIS anterior: alivio del dolor y prevención de sinequias",
+        "dosis": "Ciclopentolato 1% cada 8 horas o atropina 1% cada 12-24 horas",
+        "posologia": "Cada 8-24 horas según el fármaco",
+        "via": "oftálmica",
+        "nota": "El ciclopléjico ROMPE las sinequias posteriores ya formadas, previene las nuevas y alivia el dolor del espasmo ciliar, que es el que hace sufrir al paciente"
+      },
+      {
+        "patologia": "OJO SECO y disfunción de la película lagrimal",
+        "dosis": "Lágrimas artificiales sin conservante, una gota cada 2-6 horas según la intensidad; geles o pomada por la noche",
+        "posologia": "Cada 2-6 horas, ajustable",
+        "via": "oftálmica",
+        "dosis_objetivo": "Control sintomático con la mínima frecuencia necesaria",
+        "nota": "En el uso frecuente hay que elegir formulaciones SIN CONSERVANTE: el cloruro de benzalconio empeora el ojo seco que se pretende tratar"
+      },
+      {
+        "patologia": "Control de la progresión de la MIOPÍA infantil",
+        "dosis": "Atropina 0,01% en colirio, una gota por la noche",
+        "posologia": "Una gota nocturna",
+        "via": "oftálmica",
+        "nota": "A esta concentración mínima frena la progresión de la miopía sin producir midriasis ni cicloplejia apreciables: una aplicación novedosa y muy eficaz de un fármaco antiguo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de dilatar hay que valorar el riesgo de GLAUCOMA AGUDO de ángulo cerrado: cámara anterior estrecha, hipermetropía, edad avanzada y antecedente familiar.",
+      "titulacion": "Se repite la instilación si la midriasis es insuficiente, sobre todo en el iris oscuro, que dilata peor.",
+      "duracion": "Tropicamida 4-6 horas; ciclopentolato 24 horas; ATROPINA hasta 7-14 DÍAS.",
+      "fin": "Recuperación espontánea. En el ojo seco, el tratamiento es crónico y se ajusta a los síntomas.",
+      "via": "Tópica oftálmica.",
+      "monitorizacion": "Vigilar el dolor ocular tras la dilatación (posible crisis de ángulo cerrado). En el niño, vigilar los efectos anticolinérgicos sistémicos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Absorción sistémica por la mucosa nasolagrimal, relevante sobre todo en el NIÑO por su menor peso corporal.",
+      "distribucion": "Fundamentalmente local.",
+      "metabolismo": "Hepático en la fracción absorbida.",
+      "eliminacion": "Renal.",
+      "vida_media": "El efecto local es lo que cuenta: de horas (tropicamida) a hasta dos semanas (atropina).",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros ANTICOLINÉRGICOS sistémicos",
+          "efecto": "Suma de carga anticolinérgica con confusión, retención urinaria y taquicardia, sobre todo en el anciano y en el niño",
+          "gravedad": "media",
+          "manejo": "Considerar la carga total; el colirio cuenta"
+        },
+        {
+          "con": "IMAO y antidepresivos tricíclicos (fenilefrina)",
+          "efecto": "Crisis hipertensiva con la fenilefrina al 10%",
+          "gravedad": "alta",
+          "manejo": "Usar fenilefrina al 2,5% y evitar la concentración alta en el cardiópata y en el hipertenso"
+        },
+        {
+          "con": "Lágrimas artificiales y otros colirios",
+          "efecto": "Diluyen y arrastran el fármaco activo",
+          "gravedad": "media",
+          "manejo": "Separar al menos 5-10 minutos; la lágrima se instila SIEMPRE en último lugar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "FOTOFOBIA y visión de cerca borrosa durante horas: hay que advertir que NO se puede conducir",
+        "Escozor a la instilación",
+        "Taquicardia y sequedad de boca (efecto anticolinérgico sistémico)",
+        "Rubor facial, especialmente en el niño"
+      ],
+      "graves": [
+        "CRISIS DE GLAUCOMA AGUDO de ángulo cerrado en el ojo predispuesto: ojo rojo doloroso con visión borrosa, halos, náuseas y vómitos en las horas siguientes a la dilatación",
+        "TOXICIDAD ANTICOLINÉRGICA SISTÉMICA en el NIÑO con ciclopentolato o atropina: fiebre, rubor, taquicardia, agitación, alucinaciones y alteración del comportamiento, que se confunden con un cuadro psiquiátrico o infeccioso",
+        "Crisis hipertensiva con fenilefrina al 10%",
+        "Empeoramiento del ojo seco por el conservante en el uso frecuente de lágrimas"
+      ]
+    },
+    "contraindicaciones": [
+      "Cámara anterior estrecha y riesgo conocido de glaucoma de ángulo cerrado (valorar antes de dilatar)",
+      "Fenilefrina al 10% en el cardiópata, el hipertenso mal controlado y el lactante",
+      "Precaución con el ciclopentolato y la atropina en el niño pequeño por la toxicidad anticolinérgica sistémica"
+    ],
+    "perlas": [
+      "Hay que ADVERTIR SIEMPRE de que tras la dilatación no se puede CONDUCIR ni leer durante horas. Es la queja más frecuente tras una exploración de fondo de ojo, y una frase antes de instilar evita el problema.",
+      "El síntoma que hay que enseñar al paciente tras una dilatación es el DOLOR OCULAR con visión borrosa y halos en las horas siguientes: es la crisis de glaucoma de ángulo cerrado y necesita atención inmediata. Es infrecuente, pero conocer el aviso es lo que marca la diferencia.",
+      "La distinción MIDRIASIS frente a CICLOPLEJIA ordena la elección: si solo hay que ver el fondo de ojo, tropicamida; si hay que medir la refracción real de un niño, hace falta cicloplejia porque su acomodación falsea cualquier medición y esconde la hipermetropía.",
+      "La ATROPINA dura hasta DOS SEMANAS. Usarla para una exploración rutinaria condena al paciente a media semana sin poder leer ni conducir. Su lugar es la uveítis y la penalización en la ambliopía, no la exploración.",
+      "En el NIÑO, el ciclopentolato y la atropina pueden producir una toxicidad anticolinérgica SISTÉMICA con fiebre, rubor, taquicardia y alucinaciones que se confunde con una encefalitis o con un brote psiquiátrico. La compresión del canto interno tras instilar reduce mucho ese riesgo.",
+      "La ATROPINA al 0,01%, cien veces más diluida que la de uso clásico, frena la progresión de la MIOPÍA infantil sin producir midriasis ni cicloplejia apreciables. Es uno de los ejemplos más elegantes de que la dosis define el fármaco.",
+      "En el OJO SECO tratado con lágrimas más de cuatro veces al día hay que usar formulaciones SIN CONSERVANTE: el cloruro de benzalconio es tóxico para el epitelio corneal y acaba empeorando exactamente lo que se pretendía tratar.",
+      "La causa más frecuente de ojo seco hoy es la DISFUNCIÓN DE LAS GLÁNDULAS DE MEIBOMIO, es decir, un problema de la capa LIPÍDICA y de evaporación, no de falta de agua. Por eso la higiene palpebral con calor local es tan importante como la lágrima artificial, y sin ella el tratamiento no funciona.",
+      "La lágrima artificial se instila SIEMPRE en último lugar cuando hay varios colirios: si se pone antes, diluye y arrastra al fármaco activo."
+    ],
+    "embarazo_lactancia": "Los midriáticos tópicos se consideran de riesgo bajo por su escasa absorción, aplicando compresión del canto interno para minimizarla; se prefiere evitar la fenilefrina al 10%. Las lágrimas artificiales son totalmente seguras. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 8 y 62; guías del TFOS DEWS II sobre ojo seco"
+  }
+]

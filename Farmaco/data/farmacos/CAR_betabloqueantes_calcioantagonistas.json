@@ -1,0 +1,902 @@
+[
+  {
+    "id": "CAR-carvedilol",
+    "nombre": "Carvedilol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Betabloqueante",
+    "subclase": "No selectivo (beta1 y beta2) con bloqueo alfa-1 vasodilatador",
+    "vs_clase": [
+      "**Bloquea también los receptores ALFA-1: es vasodilatador**. Baja más la PA y produce más **hipotensión ortostática** y mareo que bisoprolol o metoprolol.",
+      "**NO selectivo**: bloquea beta-2, por lo que está contraindicado en el asma (a diferencia de los cardioselectivos, tolerados en EPOC).",
+      "**Neutro o favorable sobre el metabolismo glucídico y lipídico**, a diferencia de atenolol o metoprolol: preferible en el diabético.",
+      "**Betabloqueante de elección en la cirrosis con hipertensión portal en muchas guías** (más potente que propranolol para bajar el gradiente portal).",
+      "**Se toma CON COMIDA** para atenuar el pico de absorción y la hipotensión ortostática, y en **dos tomas diarias**."
+    ],
+    "mecanismo": "Antagonista competitivo de receptores beta-1 y beta-2 (cronotropismo e inotropismo negativos, menor liberación de renina) y de receptores **alfa-1 (vasodilatación arterial y venosa)**. Tiene además **efecto antioxidante y antiproliferativo**. En la insuficiencia cardiaca bloquea la cardiotoxicidad de la activación simpática crónica y revierte el remodelado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida (estable, euvolémica)",
+        "dosis": "3,125 mg → 25 mg (50 mg si >85 kg)",
+        "posologia": "Cada 12 h, con comida",
+        "via": "VO",
+        "nota": "Doblar cada 2 semanas («empezar bajo, ir despacio»). Beneficio en mortalidad demostrado (COPERNICUS)"
+      },
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "12,5-25 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "No es de primera línea salvo indicación cardiaca acompañante"
+      },
+      {
+        "patologia": "Profilaxis de la hemorragia por varices en la cirrosis con hipertensión portal clínicamente significativa",
+        "dosis": "6,25 mg → 12,5 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Objetivo PAS >90 mmHg y FC 55-60 lpm; suspender si hay ascitis refractaria con hipotensión o fracaso renal"
+      }
+    ],
+    "esquema": {
+      "inicio": "3,125 mg cada 12 h en insuficiencia cardiaca, solo con el paciente estable y sin congestión. 6,25 mg cada 12 h en hipertensión.",
+      "titulacion": "Doblar cada 2 semanas hasta la dosis objetivo o la máxima tolerada. Si empeora la congestión, aumentar el diurético antes que bajar el betabloqueante.",
+      "duracion": "Indefinida.",
+      "fin": "**Retirada GRADUAL en 1-2 semanas**: la suspensión brusca puede precipitar angina, infarto o taquiarritmias por hipersensibilidad de receptores.",
+      "via": "VO, con alimentos.",
+      "monitorizacion": "FC (objetivo en reposo 55-70 lpm), PA de pie y sentado, signos de congestión y peso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida; biodisponibilidad del 25-35% por primer paso. La comida retrasa la absorción y reduce la hipotensión ortostática.",
+      "distribucion": "Lipófilo; unión a proteínas del 98%.",
+      "metabolismo": "Hepático por **CYP2D6 y CYP2C9**.",
+      "eliminacion": "Biliar.",
+      "vida_media": "6-10 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en insuficiencia hepática grave (salvo uso en hipertensión portal a dosis bajas y con control estrecho).",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem",
+          "efecto": "Bradicardia extrema, bloqueo AV e insuficiencia cardiaca",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación, sobre todo por vía IV"
+        },
+        {
+          "con": "Inhibidores del CYP2D6 (fluoxetina, paroxetina, bupropión)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar FC y PA"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Aumenta la digoxinemia (≈15%) y suma bradicardia",
+          "gravedad": "media",
+          "manejo": "Vigilar FC y niveles"
+        },
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "Enmascara la taquicardia de la hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educar en otros síntomas (sudoración)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Mareo e hipotensión ortostática** (más que otros betabloqueantes)",
+        "Cansancio, bradicardia",
+        "Empeoramiento transitorio de la congestión al iniciar",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "Bradicardia sintomática y bloqueo AV",
+        "Broncoespasmo en asmáticos",
+        "Descompensación de insuficiencia cardiaca si se inicia en fase congestiva",
+        "Hipotensión y fracaso renal en cirrosis con ascitis refractaria"
+      ]
+    },
+    "contraindicaciones": [
+      "**Asma bronquial**",
+      "Insuficiencia cardiaca descompensada que requiere inotrópicos IV",
+      "Bradicardia sinusal <50 lpm, enfermedad del seno o BAV de 2.º-3.er grado sin marcapasos",
+      "Insuficiencia hepática grave",
+      "Shock cardiogénico"
+    ],
+    "perlas": [
+      "**El betabloqueante de la insuficiencia cardiaca se inicia en el paciente SECO**, nunca en plena congestión.",
+      "**En el diabético con insuficiencia cardiaca o hipertensión, carvedilol no empeora el control glucémico** (estudio GEMINI frente a metoprolol).",
+      "Si un paciente con carvedilol se marea al levantarse, revisar que lo tome con la comida antes de bajar la dosis."
+    ],
+    "embarazo_lactancia": "Datos limitados; se prefiere labetalol o metoprolol en el embarazo. Evitar en lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 13; Harrison 20.ª ed., caps. de insuficiencia cardiaca y de cirrosis"
+  },
+  {
+    "id": "CAR-metoprolol",
+    "nombre": "Metoprolol",
+    "sinonimos": [
+      "Metoprolol succinato (liberación prolongada)",
+      "Metoprolol tartrato (liberación inmediata e IV)"
+    ],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Betabloqueante",
+    "subclase": "Cardioselectivo (beta1), lipófilo",
+    "vs_clase": [
+      "**Dos sales que NO son intercambiables**: el **succinato** de liberación prolongada (una toma diaria) es el que tiene evidencia en insuficiencia cardiaca (MERIT-HF); el **tartrato** es de acción corta (2-3 tomas) y es la forma **IV**.",
+      "**Es el betabloqueante IV de referencia** en el síndrome coronario agudo y para el control agudo de la frecuencia (5 mg IV cada 5 min, hasta 15 mg).",
+      "**Metabolismo por CYP2D6**: los metabolizadores lentos y los pacientes con paroxetina, fluoxetina o bupropión alcanzan niveles varias veces mayores (bradicardia).",
+      "**Lipófilo: atraviesa la barrera hematoencefálica** (pesadillas, cansancio, depresión), a diferencia del atenolol."
+    ],
+    "mecanismo": "Antagonista competitivo selectivo de los receptores beta-1: reduce FC, contractilidad, consumo de oxígeno miocárdico, conducción AV y liberación de renina. La selectividad beta-1 es relativa y se pierde a dosis altas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia cardiaca con FEVI reducida",
+        "dosis": "12,5-25 mg → 200 mg (succinato)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Solo la forma de liberación prolongada; doblar cada 2 semanas"
+      },
+      {
+        "patologia": "Síndrome coronario agudo con taquicardia o hipertensión, sin insuficiencia cardiaca",
+        "dosis": "5 mg (tartrato)",
+        "posologia": "Cada 5 min, hasta 3 dosis; después 25-50 mg VO cada 6-12 h",
+        "via": "IV → VO",
+        "nota": "No administrar si hay signos de insuficiencia cardiaca, bajo gasto o Killip ≥II"
+      },
+      {
+        "patologia": "Control de frecuencia en fibrilación auricular",
+        "dosis": "2,5-5 mg IV; mantenimiento 50-200 mg VO",
+        "posologia": "IV en bolo lento (repetible cada 5 min); VO cada 24 h (succinato) o cada 12 h (tartrato)",
+        "via": "IV / VO",
+        "nota": "Objetivo FC en reposo <110 lpm"
+      },
+      {
+        "patologia": "Hipertensión arterial y angina estable",
+        "dosis": "50-200 mg",
+        "posologia": "Cada 24 h (succinato)",
+        "via": "VO",
+        "nota": "En hipertensión, solo si hay otra indicación del betabloqueante"
+      }
+    ],
+    "esquema": {
+      "inicio": "12,5-25 mg/día de succinato en insuficiencia cardiaca; 50 mg/día en hipertensión o angina. IV: 5 mg en 2 min.",
+      "titulacion": "Doblar cada 2 semanas en insuficiencia cardiaca hasta 200 mg; en angina, ajustar a FC en reposo 55-60 lpm.",
+      "duracion": "Indefinida en insuficiencia cardiaca y postinfarto.",
+      "fin": "**Retirada gradual en 1-2 semanas** (riesgo de rebote isquémico).",
+      "via": "VO (succinato o tartrato) e IV (tartrato).",
+      "monitorizacion": "FC, PA, ECG (PR) y síntomas de congestión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa; biodisponibilidad del 50% por primer paso.",
+      "distribucion": "**Lipófilo; atraviesa la barrera hematoencefálica.**",
+      "metabolismo": "**Hepático por CYP2D6**, con polimorfismo genético (metabolizadores lentos: niveles hasta 5 veces mayores).",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "3-4 h (tartrato); el succinato libera el fármaco durante 24 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis en cirrosis (mayor biodisponibilidad).",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem (sobre todo IV)",
+          "efecto": "Bradicardia grave, bloqueo AV y asistolia",
+          "gravedad": "alta",
+          "manejo": "No combinar por vía IV"
+        },
+        {
+          "con": "Inhibidores potentes del CYP2D6: paroxetina, fluoxetina, bupropión, quinidina",
+          "efecto": "**Multiplican sus niveles: bradicardia sintomática**",
+          "gravedad": "alta",
+          "manejo": "Usar bisoprolol o atenolol, o reducir la dosis"
+        },
+        {
+          "con": "Clonidina",
+          "efecto": "Hipertensión de rebote grave si se retira la clonidina con el betabloqueante en curso",
+          "gravedad": "media",
+          "manejo": "Retirar primero el betabloqueante"
+        },
+        {
+          "con": "Insulina",
+          "efecto": "Enmascara la hipoglucemia",
+          "gravedad": "media",
+          "manejo": "Educación del paciente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cansancio, bradicardia",
+        "Frialdad de extremidades",
+        "**Pesadillas e insomnio (paso a SNC)**",
+        "Disfunción eréctil"
+      ],
+      "graves": [
+        "Bradicardia grave y bloqueo AV",
+        "Insuficiencia cardiaca aguda si se administra IV en bajo gasto",
+        "Broncoespasmo a dosis altas en asmáticos",
+        "Rebote isquémico tras retirada brusca"
+      ]
+    },
+    "contraindicaciones": [
+      "Shock cardiogénico o insuficiencia cardiaca aguda descompensada",
+      "Bradicardia <50 lpm, BAV de 2.º-3.er grado o enfermedad del seno sin marcapasos",
+      "Asma grave",
+      "Isquemia arterial periférica crítica"
+    ],
+    "perlas": [
+      "**En insuficiencia cardiaca no vale cualquier metoprolol: solo el succinato de liberación prolongada.**",
+      "**Antes de pautar metoprolol a un paciente con paroxetina o fluoxetina, mejor elegir bisoprolol**: la bradicardia por inhibición del CYP2D6 es frecuente y evitable.",
+      "En el SCA, el metoprolol IV precoz solo en pacientes sin signos de insuficiencia cardiaca: en el Killip ≥II aumenta el shock cardiogénico (COMMIT)."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo si es necesario (vigilar crecimiento fetal y bradicardia neonatal). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 13; Harrison 20.ª ed., caps. de cardiopatía isquémica e insuficiencia cardiaca"
+  },
+  {
+    "id": "CAR-atenolol",
+    "nombre": "Atenolol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Betabloqueante",
+    "subclase": "Cardioselectivo (beta1), hidrófilo, de eliminación renal",
+    "vs_clase": [
+      "**HIDRÓFILO: no atraviesa la barrera hematoencefálica** (menos pesadillas y depresión) y **se elimina inalterado por el RIÑÓN** → hay que ajustarlo al FG y es dializable.",
+      "**Sin evidencia de beneficio en insuficiencia cardiaca** y **peor que otros antihipertensivos en la prevención del ictus** (LIFE frente a losartán): ya no es de elección en hipertensión.",
+      "**En el embarazo se asocia a retraso del crecimiento intrauterino**: evitarlo en la gestante (se prefieren labetalol o metoprolol).",
+      "Sin metabolismo hepático: **no tiene las interacciones por CYP2D6 de metoprolol, carvedilol o propranolol**."
+    ],
+    "mecanismo": "Antagonista selectivo de receptores beta-1, sin actividad simpaticomimética intrínseca ni estabilizadora de membrana. Reduce FC, contractilidad y liberación de renina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Angina estable y control de frecuencia",
+        "dosis": "50-100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ajustar a FC en reposo 55-60 lpm"
+      },
+      {
+        "patologia": "Hipertensión arterial (cuando ya está bien controlada con él o hay otra indicación de betabloqueante)",
+        "dosis": "25-100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "No es de primera línea en el anciano por su menor protección frente al ictus"
+      },
+      {
+        "patologia": "Síntomas adrenérgicos del hipertiroidismo y ansiedad somática",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Alternativa al propranolol cuando conviene evitar efectos centrales"
+      }
+    ],
+    "esquema": {
+      "inicio": "25-50 mg/día; 25 mg en ancianos o insuficiencia renal.",
+      "titulacion": "Subir a 100 mg a las 1-2 semanas según FC y PA. No aporta más efecto por encima de 100 mg.",
+      "duracion": "Indefinida según indicación.",
+      "fin": "Retirada gradual en 1-2 semanas.",
+      "via": "VO.",
+      "monitorizacion": "FC, PA y función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 50%, sin primer paso hepático.",
+      "distribucion": "**Hidrófilo; escaso paso a SNC.** Unión a proteínas baja.",
+      "metabolismo": "**Prácticamente nulo.**",
+      "eliminacion": "**Renal, inalterado.**",
+      "vida_media": "6-9 h (se prolonga mucho en la insuficiencia renal).",
+      "ajuste_renal": "**FG 15-35: máximo 50 mg/día. FG <15: máximo 25 mg/día o 50 mg a días alternos. Hemodiálisis: dosis tras la sesión.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem",
+          "efecto": "Bradicardia grave y bloqueo AV",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Clonidina",
+          "efecto": "Hipertensión de rebote al retirar la clonidina",
+          "gravedad": "media",
+          "manejo": "Retirar primero el betabloqueante"
+        },
+        {
+          "con": "Antiácidos y sales de calcio",
+          "efecto": "Reducen su absorción",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cansancio, bradicardia",
+        "Frialdad de extremidades",
+        "Disfunción eréctil"
+      ],
+      "graves": [
+        "Bradicardia grave y bloqueo AV",
+        "Acumulación con bradicardia extrema en la insuficiencia renal no ajustada",
+        "Rebote isquémico tras retirada brusca",
+        "Retraso del crecimiento intrauterino"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia <50 lpm, BAV de 2.º-3.er grado o enfermedad del seno sin marcapasos",
+      "Shock cardiogénico o insuficiencia cardiaca descompensada",
+      "Asma grave",
+      "Embarazo (relativa: preferir otras opciones)"
+    ],
+    "perlas": [
+      "**En el anciano renal, el atenolol se acumula**: la bradicardia de un anciano con atenolol y deterioro de función renal es un cuadro típico de urgencias.",
+      "Su único hueco real hoy: el paciente que necesita un betabloqueante sin efectos centrales y sin interacciones por CYP2D6, con función renal conservada."
+    ],
+    "embarazo_lactancia": "**Evitar en el embarazo** (retraso del crecimiento intrauterino). En la lactancia se acumula en el lactante: preferir metoprolol o propranolol.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 10; Harrison 20.ª ed., cap. de hipertensión arterial"
+  },
+  {
+    "id": "CAR-propranolol",
+    "nombre": "Propranolol",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Betabloqueante",
+    "subclase": "No selectivo (beta1 y beta2), lipófilo, con efecto estabilizador de membrana",
+    "vs_clase": [
+      "**El betabloqueante de las indicaciones NO cardiovasculares**: profilaxis de la hemorragia por varices, profilaxis de la migraña, temblor esencial, síntomas del hipertiroidismo y de la crisis tirotóxica, ansiedad escénica y hemangioma infantil.",
+      "**No selectivo**: el bloqueo beta-2 reduce el flujo portal por vasoconstricción esplácnica (de ahí su uso en hipertensión portal) pero lo **contraindica en el asma**.",
+      "**Muy lipófilo**: atraviesa la barrera hematoencefálica (útil en migraña y temblor, pero causa cansancio, depresión y pesadillas).",
+      "**A dosis altas inhibe la conversión periférica de T4 a T3**: por eso es el betabloqueante de la tirotoxicosis.",
+      "**Efecto estabilizador de membrana: su sobredosis es la más grave de la clase** (ensanchamiento del QRS, convulsiones y coma).",
+      "**Sin evidencia de beneficio en insuficiencia cardiaca**: no sustituye a bisoprolol, carvedilol o metoprolol succinato."
+    ],
+    "mecanismo": "Antagonista competitivo no selectivo de receptores beta-1 y beta-2. En la hipertensión portal reduce el gasto cardiaco (beta-1) y provoca vasoconstricción esplácnica al dejar sin oposición el tono alfa (beta-2). **A dosis altas inhibe la 5'-desyodasa periférica (menos T3)** y tiene efecto anestésico local (estabilizador de membrana) sobre los canales de sodio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la hemorragia por varices esofágicas (primaria y secundaria, con ligadura)",
+        "dosis": "20-40 mg → máximo 160 mg/día",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Titular hasta FC 55-60 lpm o máxima tolerada con PAS >90 mmHg"
+      },
+      {
+        "patologia": "Profilaxis de la migraña",
+        "dosis": "40-160 mg/día",
+        "posologia": "Cada 12 h (o formulación retard cada 24 h)",
+        "via": "VO",
+        "nota": "Valorar eficacia a los 2-3 meses; mantener 6-12 meses"
+      },
+      {
+        "patologia": "Temblor esencial",
+        "dosis": "40-240 mg/día",
+        "posologia": "Repartido cada 8-12 h",
+        "via": "VO",
+        "nota": "Primera línea junto con primidona"
+      },
+      {
+        "patologia": "Hipertiroidismo sintomático y crisis tirotóxica",
+        "dosis": "10-40 mg (crisis: 60-80 mg)",
+        "posologia": "Cada 6-8 h (crisis: cada 4 h)",
+        "via": "VO",
+        "nota": "Control de taquicardia, temblor y ansiedad mientras actúan los antitiroideos"
+      },
+      {
+        "patologia": "Ansiedad de ejecución (escénica)",
+        "dosis": "10-40 mg",
+        "posologia": "Dosis única 1 h antes del evento",
+        "via": "VO",
+        "nota": "Controla los síntomas somáticos (temblor, palpitaciones), no la ansiedad psíquica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis bajas (10-20 mg cada 8-12 h) y subida según FC y tolerancia.",
+      "titulacion": "Cada 2-3 días en hipertensión portal (objetivo FC 55-60); cada 1-2 semanas en migraña y temblor.",
+      "duracion": "Indefinida en hipertensión portal; 6-12 meses en profilaxis de migraña; hasta el eutiroidismo en el hipertiroidismo.",
+      "fin": "**Retirada gradual en 1-2 semanas**. En la cirrosis, suspender si aparece PAS <90 mmHg, fracaso renal agudo, hiponatremia grave o peritonitis bacteriana espontánea con inestabilidad.",
+      "via": "VO.",
+      "monitorizacion": "FC y PA; en cirrosis, función renal y sodio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa pero con **primer paso hepático masivo: biodisponibilidad del 25%** y gran variabilidad interindividual (de ahí el amplio rango de dosis).",
+      "distribucion": "**Muy lipófilo; alto paso a SNC.** Unión a proteínas del 90%.",
+      "metabolismo": "Hepático (CYP2D6, CYP1A2, CYP2C19).",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "3-6 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "En la cirrosis aumenta la biodisponibilidad: empezar con dosis bajas.",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem",
+          "efecto": "Bradicardia grave, bloqueo AV",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Rizatriptán",
+          "efecto": "**Duplica los niveles de rizatriptán**",
+          "gravedad": "media",
+          "manejo": "Usar rizatriptán 5 mg (no 10 mg) en pacientes con propranolol"
+        },
+        {
+          "con": "Insulina y sulfonilureas",
+          "efecto": "**Enmascara la hipoglucemia y retrasa su recuperación** (bloqueo beta-2 de la glucogenólisis)",
+          "gravedad": "media",
+          "manejo": "Preferir un cardioselectivo en el diabético en tratamiento con insulina"
+        },
+        {
+          "con": "Adrenalina (anafilaxia)",
+          "efecto": "Respuesta reducida a la adrenalina e hipertensión por estímulo alfa sin oposición",
+          "gravedad": "alta",
+          "manejo": "En anafilaxia refractaria con betabloqueante: glucagón IV"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cansancio, bradicardia",
+        "**Pesadillas, insomnio y depresión**",
+        "Frialdad de extremidades, Raynaud",
+        "Disfunción eréctil"
+      ],
+      "graves": [
+        "Broncoespasmo en asmáticos",
+        "Hipoglucemia prolongada y enmascarada",
+        "**Sobredosis: shock, ensanchamiento del QRS, convulsiones y coma** (efecto estabilizador de membrana)",
+        "Hipotensión y fracaso renal en cirrosis con ascitis refractaria"
+      ]
+    },
+    "contraindicaciones": [
+      "**Asma bronquial**",
+      "Bradicardia <50 lpm, BAV de 2.º-3.er grado o enfermedad del seno",
+      "Shock cardiogénico, insuficiencia cardiaca descompensada",
+      "Isquemia arterial periférica crítica, angina vasoespástica (Prinzmetal)"
+    ],
+    "perlas": [
+      "**La intoxicación por propranolol se comporta como la de un antiarrítmico de clase I**: QRS ancho y convulsiones. Además del glucagón, puede requerir bicarbonato sódico.",
+      "**En la cirrosis, el propranolol tiene una «ventana terapéutica»**: protege frente a la hemorragia, pero en la ascitis refractaria con hipotensión empeora la perfusión renal.",
+      "En el hipertiroidismo controla los síntomas en horas; los antitiroideos tardan semanas."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo si es necesario (vigilar crecimiento fetal, bradicardia e hipoglucemia neonatal). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 10 y 38; Harrison 20.ª ed., caps. de cirrosis, migraña y tiroides"
+  },
+  {
+    "id": "CAR-nifedipino",
+    "nombre": "Nifedipino",
+    "sinonimos": [
+      "Nifedipino de liberación prolongada (retard / OROS)"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del calcio dihidropiridínico",
+    "subclase": "Dihidropiridina de primera generación; solo útil en formulación de liberación prolongada",
+    "vs_clase": [
+      "**La forma de LIBERACIÓN INMEDIATA está proscrita en hipertensión** (incluida la «sublingual» en la urgencia hipertensiva): produce descensos bruscos, taquicardia refleja, isquemia coronaria y cerebral.",
+      "**Solo se usa en formulación de liberación prolongada** (retard u OROS), una vez al día.",
+      "**Antihipertensivo de primera línea en el EMBARAZO** (junto con labetalol y metildopa) y **tocolítico** en la amenaza de parto pretérmino.",
+      "**Tratamiento del fenómeno de Raynaud** y de la angina vasoespástica.",
+      "**Más taquicardia refleja, cefalea y rubor** que amlodipino, por su vida media más corta."
+    ],
+    "mecanismo": "Bloquea los canales de calcio tipo L de la musculatura lisa arterial con gran selectividad vascular: vasodilatación arteriolar periférica y coronaria, sin efecto relevante sobre el nodo sinusal ni la conducción AV. **La vasodilatación rápida activa el reflejo barorreceptor (taquicardia refleja)**, de ahí la importancia de la liberación prolongada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial (incluida la del embarazo)",
+        "dosis": "30-90 mg (liberación prolongada)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Comprimido entero, sin partir ni masticar"
+      },
+      {
+        "patologia": "Amenaza de parto pretérmino (tocólisis)",
+        "dosis": "20 mg de carga, después 10-20 mg",
+        "posologia": "Carga y luego cada 6-8 h",
+        "via": "VO",
+        "nota": "Durante 48 h, para completar la maduración pulmonar con corticoides"
+      },
+      {
+        "patologia": "Fenómeno de Raynaud y angina vasoespástica",
+        "dosis": "30-60 mg (liberación prolongada)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "En Raynaud, valorar respuesta en 2-4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "30 mg/día de liberación prolongada.",
+      "titulacion": "Subir a 60 y 90 mg cada 1-2 semanas según PA y edemas.",
+      "duracion": "Indefinida en hipertensión; 48 h en tocólisis; estacional o continua en Raynaud.",
+      "fin": "Suspensión directa en hipertensión (sin rebote relevante con la forma retard). En angina vasoespástica, retirada gradual.",
+      "via": "VO, liberación prolongada.",
+      "monitorizacion": "PA, FC y edemas maleolares."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida en la forma de liberación inmediata (pico en 30 min); sostenida en la retard.",
+      "distribucion": "Unión a proteínas del 95%.",
+      "metabolismo": "**Hepático por CYP3A4**, con primer paso.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "2-5 h (la formulación prolonga el efecto a 24 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis en la cirrosis.",
+      "interacciones": [
+        {
+          "con": "Inductores del CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+          "efecto": "Reducen drásticamente sus niveles",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar otro antihipertensivo"
+        },
+        {
+          "con": "Inhibidores del CYP3A4 (claritromicina, azoles, zumo de pomelo)",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Evitar el pomelo; vigilar PA"
+        },
+        {
+          "con": "Sulfato de magnesio",
+          "efecto": "Hipotensión y bloqueo neuromuscular potenciados",
+          "gravedad": "media",
+          "manejo": "Vigilancia estrecha si se combinan en la preeclampsia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubor facial",
+        "Edemas maleolares",
+        "Taquicardia refleja y palpitaciones",
+        "Hiperplasia gingival"
+      ],
+      "graves": [
+        "**Hipotensión brusca, isquemia miocárdica y cerebral con la forma de liberación inmediata**",
+        "Empeoramiento de la angina por taquicardia refleja"
+      ]
+    },
+    "contraindicaciones": [
+      "**Formulación de liberación inmediata en hipertensión y en la cardiopatía isquémica**",
+      "Shock cardiogénico, estenosis aórtica grave",
+      "Síndrome coronario agudo en la primera semana",
+      "Uso con inductores potentes del CYP3A4"
+    ],
+    "perlas": [
+      "**«Nifedipino sublingual» en la urgencia hipertensiva es un error clásico**: no hay que bajar la PA en minutos, y además la absorción sublingual no existe (se absorbe al tragarlo).",
+      "En la gestante hipertensa, nifedipino retard y labetalol son las primeras opciones; los IECA y ARA-II están contraindicados."
+    ],
+    "embarazo_lactancia": "**De primera línea en la hipertensión del embarazo** (forma retard). Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 12; Harrison 20.ª ed., cap. de hipertensión arterial"
+  },
+  {
+    "id": "CAR-lercanidipino",
+    "nombre": "Lercanidipino",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del calcio dihidropiridínico",
+    "subclase": "Dihidropiridina de tercera generación, muy lipófila",
+    "vs_clase": [
+      "**Produce MENOS EDEMAS MALEOLARES que amlodipino y nifedipino**: la alternativa cuando el edema obliga a retirar el amlodipino.",
+      "**Muy lipófilo: se acumula en las membranas**, con efecto de 24 h pese a una vida media plasmática corta y sin taquicardia refleja relevante.",
+      "**Debe tomarse al menos 15 min ANTES de las comidas**: una comida grasa multiplica por 4 su absorción.",
+      "**Muy dependiente del CYP3A4**: contraindicado con inhibidores potentes, ciclosporina y zumo de pomelo."
+    ],
+    "mecanismo": "Bloqueo de los canales de calcio tipo L del músculo liso arterial con elevada vasoselectividad. **Su alta lipofilia le permite acumularse en la bicapa lipídica y liberarse de forma lenta**: inicio gradual y acción prolongada. **Dilata tanto la arteriola aferente como la eferente**, lo que contribuye a menos edema por menor presión capilar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "10-20 mg",
+        "posologia": "Cada 24 h, 15 min antes de una comida",
+        "via": "VO",
+        "nota": "Alternativa al amlodipino cuando aparecen edemas"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día antes del desayuno.",
+      "titulacion": "Subir a 20 mg a las 2 semanas si no se alcanza el objetivo.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa.",
+      "via": "VO, en ayunas o 15 min antes de comer.",
+      "monitorizacion": "PA, FC y edemas."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Muy dependiente de la comida**: la ingesta grasa multiplica por 4 su biodisponibilidad.",
+      "distribucion": "Muy lipófilo; unión a proteínas >98%.",
+      "metabolismo": "**Hepático por CYP3A4**, con primer paso intenso.",
+      "eliminacion": "Renal y fecal como metabolitos.",
+      "vida_media": "8-10 h (efecto de 24 h por acumulación en membranas).",
+      "ajuste_renal": "No precisa en leve-moderada; no recomendado con FG <30.",
+      "ajuste_hepatico": "No recomendado en insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+          "efecto": "Aumento de 8-15 veces de sus niveles",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Ciclosporina",
+          "efecto": "Aumento mutuo de concentraciones",
+          "gravedad": "alta",
+          "manejo": "**Contraindicado**"
+        },
+        {
+          "con": "Zumo de pomelo",
+          "efecto": "Aumenta sus niveles",
+          "gravedad": "alta",
+          "manejo": "No tomar pomelo"
+        },
+        {
+          "con": "Simvastatina",
+          "efecto": "Aumento discreto de la simvastatina",
+          "gravedad": "baja",
+          "manejo": "Separar tomas (lercanidipino por la mañana, simvastatina por la noche)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea, rubor",
+        "Edemas maleolares (menos que con otras dihidropiridinas)",
+        "Palpitaciones"
+      ],
+      "graves": [
+        "Hipotensión sintomática",
+        "Angina paradójica (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con inhibidores potentes del CYP3A4 o ciclosporina",
+      "Estenosis aórtica grave, insuficiencia cardiaca no controlada, angina inestable",
+      "FG <30 e insuficiencia hepática grave",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "**Si un paciente refiere que «el lercanidipino no le hace nada», preguntar cuándo lo toma**: después de comer o en ayunas cambian mucho sus niveles; la toma debe ser constante.",
+      "Ante edemas por amlodipino, cambiar a lercanidipino o añadir un IECA/ARA-II (que dilatan la vénula y reducen el edema) antes de abandonar la clase."
+    ],
+    "embarazo_lactancia": "Contraindicado en embarazo y lactancia por falta de datos (en la gestante se usa nifedipino).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 11; Harrison 20.ª ed., cap. de hipertensión arterial"
+  },
+  {
+    "id": "CAR-diltiazem",
+    "nombre": "Diltiazem",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 1,
+    "clase": "Antagonista del calcio no dihidropiridínico",
+    "subclase": "Benzotiazepina, de acción intermedia entre el corazón y los vasos",
+    "vs_clase": [
+      "**Efecto intermedio entre verapamilo y las dihidropiridinas**: frena el nodo AV (control de frecuencia) y vasodilata, con **menos estreñimiento** que el verapamilo.",
+      "**Es el no dihidropiridínico IV más usado para el control agudo de frecuencia en la fibrilación auricular** (0,25 mg/kg IV en 2 min).",
+      "**Inhibidor moderado del CYP3A4**: limita la simvastatina a 10 mg y eleva ciclosporina, tacrolimús y algunos ACOD."
+    ],
+    "mecanismo": "Bloquea los canales de calcio tipo L del miocardio, del tejido de conducción y del músculo liso vascular. **Reduce la conducción y el periodo refractario del nodo AV (efecto antiarrítmico clase IV), la FC y la contractilidad**, y produce vasodilatación coronaria y periférica sin taquicardia refleja.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Control agudo de la frecuencia ventricular en fibrilación o flúter auricular (FEVI conservada)",
+        "dosis": "0,25 mg/kg (≈20 mg); 2.ª dosis 0,35 mg/kg a los 15 min",
+        "posologia": "Bolo IV en 2 min; después perfusión 5-15 mg/h si es necesario",
+        "via": "IV",
+        "nota": "No usar si hay insuficiencia cardiaca con FEVI reducida o preexcitación"
+      },
+      {
+        "patologia": "Control crónico de frecuencia en fibrilación auricular",
+        "dosis": "120-360 mg (liberación prolongada)",
+        "posologia": "Cada 24 h (o 60-120 mg cada 8 h de liberación inmediata)",
+        "via": "VO",
+        "nota": "Alternativa al betabloqueante cuando este no se tolera (asma)"
+      },
+      {
+        "patologia": "Angina estable y angina vasoespástica",
+        "dosis": "120-360 mg/día",
+        "posologia": "Cada 8 h (liberación inmediata) o cada 12-24 h (retard)",
+        "via": "VO",
+        "nota": "De elección en la angina vasoespástica junto con nitratos"
+      },
+      {
+        "patologia": "Fisura anal crónica",
+        "dosis": "Pomada al 2%",
+        "posologia": "Cada 12 h",
+        "via": "tópica (rectal)",
+        "nota": "6-8 semanas; menos cefalea que la nitroglicerina tópica"
+      }
+    ],
+    "esquema": {
+      "inicio": "IV: 0,25 mg/kg en 2 min. VO: 60 mg cada 8 h o 120-180 mg/día de retard.",
+      "titulacion": "Ajustar cada 1-2 semanas según FC (objetivo en reposo <110 lpm en FA) o síntomas anginosos.",
+      "duracion": "Indefinida en FA y angina; 6-8 semanas en fisura anal.",
+      "fin": "Retirada gradual en la angina; suspensión directa en el resto.",
+      "via": "VO, IV y tópica rectal.",
+      "monitorizacion": "FC, PA, ECG (PR) y signos de insuficiencia cardiaca."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 40% por primer paso.",
+      "distribucion": "Unión a proteínas del 80%.",
+      "metabolismo": "**Hepático por CYP3A4, del que es inhibidor moderado.**",
+      "eliminacion": "Biliar y renal como metabolitos (desacetildiltiazem, activo).",
+      "vida_media": "3,5-6 h.",
+      "ajuste_renal": "No precisa (precaución).",
+      "ajuste_hepatico": "Reducir dosis en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes (sobre todo IV)",
+          "efecto": "Bradicardia grave, bloqueo AV, asistolia",
+          "gravedad": "alta",
+          "manejo": "No combinar por vía IV; por VO solo con monitorización"
+        },
+        {
+          "con": "Simvastatina y lovastatina",
+          "efecto": "Aumento de sus niveles: miopatía",
+          "gravedad": "alta",
+          "manejo": "**Simvastatina máximo 10 mg**; mejor rosuvastatina o pravastatina"
+        },
+        {
+          "con": "Ciclosporina, tacrolimús, sirolimús",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis y monitorizar niveles"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "Aumento de la digoxinemia y bradicardia aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar niveles y FC"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Bradicardia, mareo",
+        "Edemas maleolares",
+        "Cefalea, rubor",
+        "Estreñimiento (menos que con verapamilo)"
+      ],
+      "graves": [
+        "Bloqueo AV avanzado",
+        "Insuficiencia cardiaca en FEVI reducida (inotropismo negativo)",
+        "Hipotensión grave tras bolo IV",
+        "Exantemas graves (raros)"
+      ]
+    },
+    "contraindicaciones": [
+      "**Insuficiencia cardiaca con FEVI reducida**",
+      "BAV de 2.º-3.er grado o enfermedad del seno sin marcapasos",
+      "**Fibrilación auricular preexcitada (Wolff-Parkinson-White)**",
+      "Hipotensión o shock",
+      "Taquicardia de QRS ancho de origen incierto"
+    ],
+    "perlas": [
+      "**Antes de pautar diltiazem para controlar la FA, mirar la FEVI**: con FEVI <40% está contraindicado y la opción es betabloqueante, digoxina o amiodarona.",
+      "**En la FA preexcitada, bloquear el nodo AV deriva toda la conducción por la vía accesoria** y puede precipitar fibrilación ventricular."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo salvo necesidad (teratogénico en animales). Compatible con la lactancia con precaución.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 12 y 14; Harrison 20.ª ed., caps. de fibrilación auricular y cardiopatía isquémica"
+  },
+  {
+    "id": "CAR-verapamilo",
+    "nombre": "Verapamilo",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Antagonista del calcio no dihidropiridínico",
+    "subclase": "Fenilalquilamina, el calcioantagonista más cardioselectivo",
+    "vs_clase": [
+      "**El calcioantagonista con MÁS efecto cardiaco** (nodo AV, contractilidad) y menos vascular: el de mayor poder antiarrítmico y el de mayor inotropismo negativo.",
+      "**Tratamiento de la taquicardia supraventricular paroxística** cuando la adenosina está contraindicada o falla (5-10 mg IV).",
+      "**Inhibidor de la glicoproteína P**: **duplica la digoxinemia** (reducir la digoxina a la mitad) y eleva el dabigatrán.",
+      "**El ESTREÑIMIENTO es su efecto adverso más característico** (hasta 1 de cada 4 pacientes).",
+      "**Profiláctico de elección en la cefalea en racimos** (240-960 mg/día, con ECG de control)."
+    ],
+    "mecanismo": "Bloquea los canales de calcio tipo L con **marcada preferencia por el miocardio y el tejido de conducción**: deprime el nodo sinusal y, sobre todo, el nodo AV (prolonga el PR y el periodo refractario), reduce la contractilidad y produce una vasodilatación moderada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Taquicardia supraventricular paroxística (reentrada nodal o por vía accesoria ortodrómica) con QRS estrecho",
+        "dosis": "5-10 mg",
+        "posologia": "IV en 2-3 min; repetir 5-10 mg a los 15-30 min si es necesario",
+        "via": "IV",
+        "nota": "Tras maniobras vagales y si la adenosina está contraindicada (asma grave) o falla"
+      },
+      {
+        "patologia": "Control de frecuencia en fibrilación auricular (FEVI conservada)",
+        "dosis": "120-480 mg/día",
+        "posologia": "Cada 8 h (liberación inmediata) o cada 12-24 h (retard)",
+        "via": "VO",
+        "nota": "Objetivo FC en reposo <110 lpm"
+      },
+      {
+        "patologia": "Profilaxis de la cefalea en racimos",
+        "dosis": "240 mg/día, subiendo hasta 480-960 mg/día",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "**ECG antes de cada aumento de dosis** (bloqueo AV)"
+      },
+      {
+        "patologia": "Hipertensión y angina (incluida la vasoespástica)",
+        "dosis": "120-480 mg/día",
+        "posologia": "Cada 12-24 h (retard)",
+        "via": "VO",
+        "nota": "Útil en la miocardiopatía hipertrófica obstructiva sintomática"
+      }
+    ],
+    "esquema": {
+      "inicio": "IV: 5 mg en 2-3 min. VO: 80 mg cada 8 h o 120-240 mg/día de retard.",
+      "titulacion": "Subir cada 1-2 semanas según FC, PA y ECG.",
+      "duracion": "Dosis única IV en la TSV; indefinida en el resto; durante el periodo de racimos y 2 semanas más en la cefalea en racimos.",
+      "fin": "Retirada gradual en angina; reducción progresiva al acabar el periodo de racimos.",
+      "via": "VO e IV.",
+      "monitorizacion": "FC, PA, ECG (PR) y hábito intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 20% por primer paso intenso (por eso la dosis IV es mucho menor que la oral).",
+      "distribucion": "Unión a proteínas del 90%.",
+      "metabolismo": "**Hepático por CYP3A4, del que es inhibidor moderado; inhibidor de la glicoproteína P.**",
+      "eliminacion": "Renal como metabolitos (norverapamilo, activo).",
+      "vida_media": "4-12 h (se prolonga con el uso crónico).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "**Reducir al 20-30% de la dosis en la cirrosis.**",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes IV",
+          "efecto": "**Bradicardia extrema, bloqueo AV completo y asistolia**",
+          "gravedad": "alta",
+          "manejo": "**Nunca combinar por vía IV**; separar al menos varias horas"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "**Aumento del 50-75% de la digoxinemia** (glicoproteína P) y bradicardia aditiva",
+          "gravedad": "alta",
+          "manejo": "Reducir la digoxina a la mitad y medir niveles"
+        },
+        {
+          "con": "Dabigatrán",
+          "efecto": "Aumento de sus niveles (glicoproteína P)",
+          "gravedad": "alta",
+          "manejo": "Dabigatrán 110 mg cada 12 h y tomarlo 2 h antes que el verapamilo"
+        },
+        {
+          "con": "Simvastatina, ciclosporina, tacrolimús",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "alta",
+          "manejo": "Simvastatina máximo 10 mg; monitorizar inmunosupresores"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**ESTREÑIMIENTO**",
+        "Bradicardia y prolongación del PR",
+        "Mareo, cefalea, edemas",
+        "Hiperplasia gingival"
+      ],
+      "graves": [
+        "Bloqueo AV completo, asistolia",
+        "**Colapso hemodinámico si se administra en una taquicardia ventricular confundida con supraventricular**",
+        "Insuficiencia cardiaca en FEVI reducida",
+        "Fibrilación ventricular en FA preexcitada"
+      ]
+    },
+    "contraindicaciones": [
+      "**Insuficiencia cardiaca con FEVI reducida**",
+      "BAV de 2.º-3.er grado o enfermedad del seno",
+      "**Fibrilación auricular preexcitada (WPW)**",
+      "**Taquicardia de QRS ancho no filiada**",
+      "Hipotensión, shock",
+      "Betabloqueante IV reciente"
+    ],
+    "perlas": [
+      "**«Taquicardia de QRS ancho = ventricular hasta que se demuestre lo contrario»**: el verapamilo IV en una TV puede ser mortal.",
+      "**Excepción: la taquicardia ventricular fascicular idiopática** (QRS con imagen de bloqueo de rama derecha y eje superior en un joven) es sensible al verapamilo.",
+      "Paciente con digoxina que empieza verapamilo: reducir la digoxina a la mitad desde el primer día."
+    ],
+    "embarazo_lactancia": "Utilizable en el embarazo para TSV si la adenosina falla. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 12 y 14; Harrison 20.ª ed., caps. de taquiarritmias y cefaleas"
+  }
+]

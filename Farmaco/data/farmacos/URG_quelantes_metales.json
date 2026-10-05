@@ -1,0 +1,143 @@
+[
+  {
+    "id": "URG-quelantes-metales",
+    "nombre": "Quelantes de metales pesados (dimercaprol, succímero, EDTA cálcico, penicilamina, deferoxamina)",
+    "sinonimos": [
+      "Antídotos de las intoxicaciones metálicas"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Quelante de metales pesados",
+    "subclase": "Agentes quelantes",
+    "mecanismo": "Todos actúan por el mismo principio: aportan grupos donadores de electrones (sulfhidrilo, amino, carboxilo) que forman con el metal un COMPLEJO estable, hidrosoluble y NO tóxico, que se elimina por la orina o por la bilis. La clave del mecanismo está en la competencia: el quelante debe unir el metal con más avidez que las enzimas del organismo a las que este ha secuestrado, y de ahí que cada metal tenga su quelante preferente. El DIMERCAPROL y el SUCCÍMERO aportan grupos SULFHIDRILO, que es exactamente lo que el arsénico, el mercurio y el plomo bloquean en las enzimas. El EDTA CÁLCICO intercambia su calcio por el plomo, y su formulación con calcio no es un detalle sino una precaución vital: el EDTA sódico produciría una hipocalcemia mortal. La DEFEROXAMINA es un sideróforo bacteriano que capta hierro férrico y forma ferrioxamina, que tiñe la orina de color vino rosado. El problema común a todos ellos es que NO son selectivos: arrastran también zinc, cobre y otros oligoelementos esenciales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por PLOMO grave o con encefalopatía",
+        "dosis": "Dimercaprol 3-5 mg/kg IM cada 4 horas, seguido a las 4 horas de EDTA cálcico 1500 mg/m²/día en perfusión continua durante 5 días",
+        "posologia": "Dimercaprol cada 4 horas; EDTA en perfusión continua",
+        "via": "IM",
+        "dosis_objetivo": "Descenso de la plumbemia y resolución de la encefalopatía",
+        "nota": "El ORDEN importa: primero el DIMERCAPROL y a las 4 horas el EDTA. Administrar EDTA solo en una encefalopatía redistribuye el plomo hacia el cerebro y la EMPEORA"
+      },
+      {
+        "patologia": "Intoxicación por plomo LEVE-MODERADA, sobre todo en el NIÑO",
+        "dosis": "Succímero (DMSA) 10 mg/kg cada 8 horas durante 5 días y después cada 12 horas durante 14 días",
+        "posologia": "Cada 8-12 horas por vía oral",
+        "via": "VO",
+        "dosis_objetivo": "Plumbemia inferior a 45 microgramos/dL",
+        "nota": "Es ORAL y mucho mejor tolerado que el dimercaprol. Lo esencial, sin embargo, es RETIRAR LA FUENTE: quelar y devolver al niño a la misma casa con pintura de plomo no sirve de nada"
+      },
+      {
+        "patologia": "Intoxicación por HIERRO",
+        "dosis": "Deferoxamina 15 mg/kg/h en perfusión IV, máximo 6 g al día",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Resolución de la acidosis y del shock; la orina de color VINO ROSADO indica que se está quelando hierro",
+        "nota": "La intoxicación por hierro es una de las más frecuentes en el NIÑO por ingesta de suplementos maternos, y tiene una fase de mejoría ENGAÑOSA a las 6-24 horas antes del fallo hepático"
+      },
+      {
+        "patologia": "Sobrecarga férrica crónica en el politransfundido (talasemia)",
+        "dosis": "Deferasirox 20-40 mg/kg al día por vía oral, o deferiprona 75-100 mg/kg al día",
+        "posologia": "Una toma diaria (deferasirox) o tres (deferiprona)",
+        "via": "VO",
+        "dosis_objetivo": "Ferritina inferior a 1000 ng/mL y concentración hepática de hierro controlada por resonancia",
+        "nota": "La DEFERIPRONA produce AGRANULOCITOSIS y obliga a hemograma SEMANAL; el deferasirox puede dar fracaso renal y hemorragia digestiva"
+      },
+      {
+        "patologia": "Enfermedad de WILSON e intoxicación por mercurio o arsénico",
+        "dosis": "Penicilamina 250 mg cada 6 horas, ascendiendo hasta 1-1,5 g al día; o succímero en el mercurio y el arsénico",
+        "posologia": "Cada 6-8 horas",
+        "via": "VO",
+        "dosis_objetivo": "Cupruria de 24 horas y cobre libre en descenso",
+        "nota": "En la enfermedad de Wilson hay que SUPLEMENTAR PIRIDOXINA, porque la penicilamina la antagoniza y produce neuropatía"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de quelar: RETIRAR LA EXPOSICIÓN. Es la medida más importante y la que más se descuida. Determinar la concentración del metal, la función renal y el hemograma.",
+      "titulacion": "Según las concentraciones del metal y la respuesta clínica, en ciclos con periodos de descanso que permiten la REDISTRIBUCIÓN del metal desde los depósitos hacia la sangre.",
+      "duracion": "Ciclos de 5 días a varias semanas, con reevaluación entre ellos.",
+      "fin": "Cuando la concentración se normaliza de forma sostenida tras un periodo de descanso, y no en la primera determinación baja tras el ciclo.",
+      "via": "Oral (succímero, penicilamina, deferasirox), intramuscular (dimercaprol) o intravenosa (EDTA, deferoxamina).",
+      "monitorizacion": "Concentración del metal, FUNCIÓN RENAL (los complejos se eliminan por el riñón y son nefrotóxicos), hemograma, y oligoelementos ESENCIALES (zinc y cobre), que también se quelan."
+    },
+    "farmacocinetica": {
+      "absorcion": "El succímero, la penicilamina y el deferasirox se absorben bien por vía oral; el dimercaprol solo por vía intramuscular en solución oleosa de cacahuete, y la inyección es muy dolorosa.",
+      "distribucion": "El DIMERCAPROL atraviesa la barrera hematoencefálica, y por eso es el único útil en la encefalopatía por plomo; el EDTA NO la atraviesa.",
+      "metabolismo": "Formación de complejos metal-quelante.",
+      "eliminacion": "RENAL en su mayor parte, y de ahí su nefrotoxicidad.",
+      "vida_media": "Variable según el agente.",
+      "ajuste_renal": "Fundamental: los complejos se eliminan por el riñón y su acumulación es tóxica. En la insuficiencia renal grave puede hacer falta hemodiálisis concomitante.",
+      "ajuste_hepatico": "Precaución con el deferasirox y la penicilamina.",
+      "interacciones": [
+        {
+          "con": "EDTA SÓDICO en lugar de EDTA CÁLCICO",
+          "efecto": "HIPOCALCEMIA MORTAL: el EDTA sódico quela el calcio del propio paciente",
+          "gravedad": "alta",
+          "manejo": "Es un error de medicación con muertes documentadas, incluidas las de niños tratados con quelación sin indicación. SIEMPRE la forma CÁLCICA"
+        },
+        {
+          "con": "Suplementos de HIERRO, ZINC y COBRE",
+          "efecto": "Compiten con la quelación; a la inversa, la quelación produce déficit de estos oligoelementos",
+          "gravedad": "media",
+          "manejo": "Suplementar zinc y cobre tras ciclos prolongados, separando las tomas"
+        },
+        {
+          "con": "PIRIDOXINA y penicilamina",
+          "efecto": "La penicilamina la antagoniza y produce NEUROPATÍA",
+          "gravedad": "alta",
+          "manejo": "Suplementar piridoxina de forma sistemática"
+        },
+        {
+          "con": "Cacahuete (dimercaprol)",
+          "efecto": "Su vehículo es aceite de cacahuete: riesgo de reacción alérgica",
+          "gravedad": "alta",
+          "manejo": "Preguntar por alergia al cacahuete antes de administrarlo"
+        },
+        {
+          "con": "Deferoxamina y YERSINIA",
+          "efecto": "El complejo ferrioxamina es un SIDERÓFORO que las bacterias del género Yersinia pueden usar como nutriente",
+          "gravedad": "media",
+          "manejo": "Se han descrito sepsis y enterocolitis por Yersinia en pacientes quelados: es una interacción microbiológica insólita y bien documentada"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIMERCAPROL: dolor intenso en la inyección, hipertensión, taquicardia, fiebre y sabor metálico",
+        "EDTA: nefrotoxicidad y flebitis",
+        "SUCCÍMERO: molestias digestivas, exantema y olor sulfuroso desagradable",
+        "DEFEROXAMINA: hipotensión con la perfusión rápida y orina de color VINO ROSADO"
+      ],
+      "graves": [
+        "NEFROTOXICIDAD, sobre todo con EDTA: necrosis tubular aguda",
+        "HIPOCALCEMIA MORTAL por confusión entre EDTA sódico y cálcico",
+        "DEFERIPRONA: AGRANULOCITOSIS, que obliga a hemograma SEMANAL",
+        "PENICILAMINA: síndromes autoinmunes inducidos (miastenia, lupus, pénfigo, síndrome de Goodpasture), proteinuria y aplasia",
+        "Deferoxamina prolongada: toxicidad RETINIANA y AUDITIVA, y síndrome de distrés respiratorio",
+        "Depleción de oligoelementos esenciales (zinc, cobre, manganeso)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave sin soporte dialítico",
+      "Alergia al cacahuete (dimercaprol)",
+      "EDTA sódico en cualquier circunstancia como quelante de metales",
+      "QUELACIÓN sin intoxicación demostrada: la terapia de quelación como pseudoterapia ha causado MUERTES por hipocalcemia"
+    ],
+    "perlas": [
+      "La medida más importante no es el quelante: es RETIRAR LA FUENTE. Quelar a un niño con intoxicación por plomo y devolverlo a la misma vivienda con pintura antigua es un esfuerzo perdido, y el mismo razonamiento vale para la exposición laboral. Sin control ambiental, el tratamiento es un ciclo interminable.",
+      "El ORDEN en la encefalopatía por plomo es una regla de seguridad: primero DIMERCAPROL y solo 4 horas después el EDTA. El dimercaprol atraviesa la barrera hematoencefálica y el EDTA no; administrar EDTA solo redistribuye el plomo hacia el cerebro y puede EMPEORAR la encefalopatía.",
+      "EDTA CÁLCICO, nunca sódico. La confusión entre ambas formulaciones ha causado muertes por hipocalcemia, incluidas las de niños sometidos a quelación sin indicación real. Es uno de los errores de medicación mejor documentados y más evitables.",
+      "La QUELACIÓN sin intoxicación demostrada es una pseudoterapia peligrosa: se ha ofrecido para el autismo, la arteriosclerosis y la desintoxicación general, y ha matado. No es un tratamiento inocuo que pueda darse por si acaso.",
+      "En la intoxicación por HIERRO del niño hay una trampa temporal: tras la fase digestiva inicial llega una fase de MEJORÍA APARENTE de 6 a 24 horas, y después el shock y el fallo hepático. Dar de alta durante esa ventana engañosa es un error clásico.",
+      "La ORINA COLOR VINO ROSADO de la deferoxamina indica que se está quelando hierro: es un indicador visual gratuito de que el tratamiento está funcionando.",
+      "Los quelantes NO son selectivos: arrastran también ZINC y COBRE. Tras ciclos prolongados hay que reponer esos oligoelementos, y su déficit explica parte de los síntomas que a veces se atribuyen a la propia intoxicación.",
+      "La DEFERIPRONA obliga a un HEMOGRAMA SEMANAL por el riesgo de agranulocitosis, y esa carga de seguimiento es la que decide, más que la eficacia, entre ella y el deferasirox.",
+      "La DEFEROXAMINA convierte el hierro en un SIDERÓFORO que las Yersinia pueden aprovechar: es una de las interacciones más curiosas de la toxicología, y hay sepsis descritas por este mecanismo.",
+      "La PENICILAMINA es un fármaco con una capacidad notable para inducir enfermedades AUTOINMUNES: miastenia, lupus, pénfigo, Goodpasture. Ante cualquier síntoma nuevo en un paciente que la toma, hay que pensar en ella."
+    ],
+    "embarazo_lactancia": "La quelación se realiza solo cuando la intoxicación amenaza la vida de la madre: los quelantes atraviesan la placenta y arrastran oligoelementos esenciales para el feto. El succímero y la deferoxamina tienen algo más de experiencia; la penicilamina es teratógena y está contraindicada salvo en la enfermedad de Wilson, donde se mantiene a la dosis mínima.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 57; protocolos de toxicología clínica sobre metales pesados"
+  }
+]

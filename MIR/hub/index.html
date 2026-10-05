@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MIR Hub · Banco de preguntas y calendario</title>
+<link rel="stylesheet" href="style.css">
+<script>
+// Aplicar el tema guardado ANTES de pintar la página, para evitar parpadeo (FOUC).
+(function () {
+  try {
+    var t = localStorage.getItem('mirhub-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { /* localStorage no disponible (p.ej. algunos navegadores en file://) — se ignora */ }
+})();
+</script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">MIR<span>Hub</span></div>
+  <nav class="mainnav">
+    <button class="navbtn active" data-view="dashboard">Panel</button>
+    <button class="navbtn" data-view="banco">Banco de preguntas</button>
+    <button class="navbtn" data-view="calendario">Calendario</button>
+    <button class="navbtn" data-view="simulacro">Simulacro</button>
+  </nav>
+  <div class="busqueda-global">
+    <input type="text" id="busqueda-input" placeholder="Buscar preguntas…" autocomplete="off">
+    <div id="busqueda-resultados" class="busqueda-resultados hidden"></div>
+  </div>
+  <button id="btn-tema" class="btn-tema" title="Cambiar tema">🌗 Tema</button>
+</header>
+
+<main id="app">
+  <div id="loading" class="loading">Cargando banco de datos…</div>
+
+  <!-- ================= DASHBOARD ================= -->
+  <section id="view-dashboard" class="view hidden">
+    <h1>Panel general</h1>
+    <div class="stats-grid" id="stats-grid"></div>
+    <h2>Cobertura por especialidad troncal</h2>
+    <div class="table-wrap">
+      <table id="tabla-especialidades">
+        <thead>
+          <tr><th>Especialidad troncal</th><th>Preguntas</th><th>Con explicación</th><th>Semanas asignadas</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= BANCO DE PREGUNTAS ================= -->
+  <section id="view-banco" class="view hidden">
+    <h1>Banco de preguntas por tema</h1>
+    <div class="filters" id="banco-filters">
+      <label>Especialidad
+        <select id="sel-especialidad"></select>
+      </label>
+      <label>Tema
+        <select id="sel-tema"></select>
+      </label>
+      <label>Año
+        <select id="sel-anio">
+          <option value="todos">Todos los años</option>
+        </select>
+      </label>
+      <button id="btn-iniciar-estudio" class="btn-primary">Estudiar esta selección</button>
+    </div>
+    <div id="banco-resumen" class="banco-resumen"></div>
+
+    <div id="estudio-session" class="hidden">
+      <div class="session-progress">
+        <span id="estudio-contador"></span>
+        <div class="progress-bar"><div id="estudio-progress-fill" class="progress-fill"></div></div>
+      </div>
+      <div id="estudio-tarjeta" class="tarjeta-pregunta"></div>
+      <div class="session-nav">
+        <button id="btn-estudio-anterior">← Anterior</button>
+        <button id="btn-estudio-siguiente">Siguiente →</button>
+        <button id="btn-estudio-terminar" class="btn-secondary">Terminar sesión</button>
+      </div>
+    </div>
+    <div id="estudio-resumen" class="hidden"></div>
+  </section>
+
+  <!-- ================= CALENDARIO ================= -->
+  <section id="view-calendario" class="view hidden">
+    <h1>Calendario de estudio</h1>
+    <p id="calendario-periodo" class="calendario-periodo"></p>
+    <div class="filters">
+      <label>Mostrar
+        <select id="sel-calendario-filtro">
+          <option value="todas">Todas las semanas</option>
+          <option value="pendientes">Desde hoy en adelante</option>
+        </select>
+      </label>
+    </div>
+    <div id="calendario-lista" class="calendario-lista"></div>
+  </section>
+
+  <!-- ================= SIMULACRO ================= -->
+  <section id="view-simulacro" class="view hidden">
+    <h1>Modo simulacro</h1>
+    <div id="simulacro-config" class="filters">
+      <label>Nº de preguntas
+        <select id="sim-num">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="all">Todas las disponibles</option>
+        </select>
+      </label>
+      <label>Especialidad
+        <select id="sim-especialidad"><option value="todas">Todas</option></select>
+      </label>
+      <label>Corrección negativa
+        <select id="sim-negativa">
+          <option value="0.3333333333">-1/3 por fallo (estándar MIR)</option>
+          <option value="0">Sin penalización</option>
+        </select>
+      </label>
+      <button id="btn-iniciar-simulacro" class="btn-primary">Iniciar simulacro</button>
+    </div>
+
+    <div id="simulacro-session" class="hidden">
+      <div class="session-progress">
+        <span id="sim-contador"></span>
+        <span id="sim-cronometro">00:00</span>
+        <div class="progress-bar"><div id="sim-progress-fill" class="progress-fill"></div></div>
+      </div>
+      <div id="simulacro-tarjeta" class="tarjeta-pregunta"></div>
+      <div class="session-nav">
+        <button id="btn-sim-anterior">← Anterior</button>
+        <button id="btn-sim-siguiente">Siguiente →</button>
+        <button id="btn-sim-finalizar" class="btn-secondary">Finalizar y corregir</button>
+      </div>
+      <div id="sim-mapa-preguntas" class="mapa-preguntas"></div>
+    </div>
+
+    <div id="simulacro-resultado" class="hidden"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  MIR Hub — banco de preguntas por tema (bibliografía 2009-2025) + calendario de estudio. Datos locales, sin envío a servidores externos.
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

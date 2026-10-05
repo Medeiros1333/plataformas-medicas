@@ -1,0 +1,249 @@
+[
+  {
+    "id": "NML-biologicos-asma",
+    "nombre": "Biológicos del asma grave (omalizumab, mepolizumab, benralizumab, dupilumab)",
+    "sinonimos": [
+      "Anti-IgE, anti-IL5, anti-IL4/13"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Inmunomodulador biológico",
+    "subclase": "Anticuerpos monoclonales frente a mediadores de la inflamación tipo 2",
+    "mecanismo": "Bloquean puntos distintos de la misma cascada, la inflamación TIPO 2, y el punto elegido determina qué paciente responde. El OMALIZUMAB se une a la IgE libre e impide su unión al receptor de alta afinidad del mastocito y del basófilo, evitando la desgranulación: es el fármaco del asma ALÉRGICA con sensibilización demostrada. El MEPOLIZUMAB neutraliza la INTERLEUCINA 5, la citocina que recluta, madura y mantiene vivo al eosinófilo; el BENRALIZUMAB va un paso más allá y se une al receptor de IL-5 induciendo la destrucción del eosinófilo por citotoxicidad celular, con lo que lo elimina casi por completo de la sangre. El DUPILUMAB bloquea la subunidad alfa del receptor de IL-4, común a la IL-4 y a la IL-13, y por tanto apaga la vía tipo 2 más arriba: de ahí que sirva además en dermatitis atópica, poliposis nasal y esofagitis eosinofílica. La consecuencia práctica de todo esto es que la elección del biológico no depende de la gravedad del asma sino del BIOMARCADOR: IgE y sensibilización, eosinófilos en sangre y óxido nítrico exhalado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ASMA ALÉRGICA grave no controlada (omalizumab)",
+        "dosis": "75-600 mg por vía subcutánea cada 2 o 4 semanas, según el PESO y la IgE total basal",
+        "posologia": "Cada 2-4 semanas",
+        "via": "SC",
+        "dosis_objetivo": "Reducción de exacerbaciones y de la dosis de corticoide oral, evaluada a los 4-6 meses",
+        "nota": "La dosis se calcula con una TABLA que cruza peso e IgE: es el único biológico del asma cuya dosis depende de un biomarcador cuantitativo"
+      },
+      {
+        "patologia": "ASMA EOSINOFÍLICA grave (mepolizumab, benralizumab)",
+        "dosis": "Mepolizumab 100 mg SC cada 4 semanas; benralizumab 30 mg SC cada 4 semanas las 3 primeras dosis y después cada 8 semanas",
+        "posologia": "Cada 4 u 8 semanas",
+        "via": "SC",
+        "dosis_objetivo": "Eosinófilos en sangre por encima de 300 células por microlitro como criterio de selección; reducción de exacerbaciones y del corticoide oral",
+        "nota": "El BENRALIZUMAB permite la administración cada 8 semanas tras la carga y llega a domicilio con autoinyector"
+      },
+      {
+        "patologia": "Asma grave tipo 2 con poliposis nasal, dermatitis atópica o esofagitis eosinofílica asociadas (dupilumab)",
+        "dosis": "600 mg SC de carga y después 300 mg cada 2 semanas",
+        "posologia": "Cada 2 semanas",
+        "via": "SC",
+        "nota": "Su ventaja es que trata VARIAS enfermedades tipo 2 a la vez: un solo fármaco para el asma, los pólipos y el eccema del mismo paciente"
+      },
+      {
+        "patologia": "Asma corticodependiente, para retirar el corticoide oral",
+        "dosis": "Según el biológico elegido",
+        "posologia": "Cada 2-8 semanas",
+        "via": "SC",
+        "dosis_objetivo": "Retirada o reducción máxima de la prednisona oral, que es el objetivo terapéutico más valioso",
+        "nota": "El beneficio más importante no es la función pulmonar sino LIBRAR AL PACIENTE del corticoide oral crónico y de su morbilidad acumulada"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de indicar un biológico hay que comprobar tres cosas que fallan en la mayoría de los supuestos asmas graves: que el DIAGNÓSTICO es correcto, que la TÉCNICA INHALATORIA es adecuada y que hay ADHERENCIA. Después, medir los biomarcadores (IgE con sensibilización, eosinófilos, óxido nítrico exhalado) para elegir la diana.",
+      "titulacion": "Dosis fija, salvo el omalizumab, que se calcula por peso e IgE.",
+      "duracion": "Evaluación de la respuesta a los 4-6 meses. Si responde, se mantiene de forma prolongada.",
+      "fin": "En el respondedor se plantea espaciar o retirar tras años de control, con riesgo de recaída.",
+      "via": "Subcutánea; varios disponen de autoinyector domiciliario.",
+      "monitorizacion": "Exacerbaciones, dosis de corticoide oral, función pulmonar y cuestionarios de control. Con el omalizumab, observación tras las primeras dosis por el riesgo de anafilaxia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Subcutánea, con biodisponibilidad del 50-80%.",
+      "distribucion": "Compartimento vascular e intersticial.",
+      "metabolismo": "Catabolismo proteico; sin interacciones por citocromo P450.",
+      "eliminacion": "Sistema reticuloendotelial.",
+      "vida_media": "2-4 semanas, lo que permite intervalos largos.",
+      "ajuste_renal": "No requieren ajuste.",
+      "ajuste_hepatico": "No requieren ajuste.",
+      "interacciones": [
+        {
+          "con": "CORTICOIDES sistémicos",
+          "efecto": "Su retirada al iniciar el biológico puede desenmascarar una VASCULITIS EOSINOFÍLICA (granulomatosis eosinofílica con poliangeítis) previamente contenida por el corticoide",
+          "gravedad": "alta",
+          "manejo": "Ante mononeuritis, exantema, afectación cardiaca o renal durante la retirada del corticoide, hay que pensar en ello y no atribuirlo al biológico"
+        },
+        {
+          "con": "Vacunas VIVAS",
+          "efecto": "Precaución general con los inmunomoduladores",
+          "gravedad": "media",
+          "manejo": "Preferible administrarlas antes de iniciar"
+        },
+        {
+          "con": "Infección por HELMINTOS",
+          "efecto": "El eosinófilo participa en la defensa antiparasitaria: los anti-IL5 podrían reducirla",
+          "gravedad": "media",
+          "manejo": "Tratar una parasitosis conocida antes de empezar, sobre todo en pacientes procedentes de zonas endémicas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción local en el punto de inyección",
+        "Cefalea",
+        "Nasofaringitis",
+        "Artralgias y mialgias transitorias"
+      ],
+      "graves": [
+        "ANAFILAXIA con el OMALIZUMAB, que puede ser TARDÍA (hasta 24 horas después) y aparecer tras dosis previamente bien toleradas: motiva observación tras las primeras administraciones y la prescripción de un autoinyector de adrenalina",
+        "CONJUNTIVITIS y queratitis con el DUPILUMAB, frecuente y a veces limitante, sobre todo en el paciente con dermatitis atópica",
+        "Desenmascaramiento de granulomatosis eosinofílica con poliangeítis al retirar el corticoide",
+        "Eosinofilia paradójica transitoria con el dupilumab",
+        "Infecciones por helmintos (teórico)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al fármaco",
+      "Infección parasitaria activa no tratada",
+      "No indicados en el asma leve-moderada ni sin biomarcador compatible"
+    ],
+    "perlas": [
+      "Antes de indicar un biológico hay que descartar las TRES causas reales de la mayoría de los asmas mal controlados: DIAGNÓSTICO equivocado, TÉCNICA INHALATORIA incorrecta y FALTA DE ADHERENCIA. Un porcentaje muy alto de los pacientes derivados como asma grave mejora simplemente corrigiendo la técnica del inhalador, y esa comprobación cuesta cinco minutos frente a un tratamiento de miles de euros al año.",
+      "La elección NO depende de la gravedad sino del BIOMARCADOR: IgE y sensibilización alérgica para el omalizumab, eosinófilos para los anti-IL5, y perfil tipo 2 amplio con comorbilidades para el dupilumab. Es medicina de precisión aplicada a una enfermedad común.",
+      "El objetivo más valioso no es mejorar el FEV1 sino RETIRAR EL CORTICOIDE ORAL. Un paciente que lleva años con prednisona acumula osteoporosis, diabetes, cataratas, hipertensión e infecciones, y librarlo de ella cambia su pronóstico más que unos puntos de función pulmonar.",
+      "La ANAFILAXIA por OMALIZUMAB puede ser TARDÍA, hasta 24 horas después, y aparecer tras dosis previamente bien toleradas. Por eso se observa al paciente tras las primeras administraciones y se le prescribe un autoinyector de adrenalina: es una precaución que no se aplica con los demás biológicos.",
+      "La CONJUNTIVITIS del DUPILUMAB es su efecto adverso característico y desconcierta porque nada en el mecanismo lo hace obvio. Es frecuente, sobre todo en el paciente con dermatitis atópica, y a veces obliga a tratamiento oftalmológico específico.",
+      "El DUPILUMAB tiene una ventaja práctica que se aprovecha poco: trata a la vez el asma, la poliposis nasal, la dermatitis atópica y la esofagitis eosinofílica. En el paciente con varias enfermedades tipo 2, un solo fármaco resuelve lo que antes eran tres consultas y tres tratamientos.",
+      "Al retirar el corticoide oral bajo un anti-IL5 puede DESENMASCARARSE una granulomatosis eosinofílica con poliangeítis que el corticoide mantenía silenciada. Mononeuritis, exantema o afectación cardiaca en ese contexto obligan a pensar en ella.",
+      "El BENRALIZUMAB elimina prácticamente todos los eosinófilos circulantes, no solo los reduce: es la diferencia entre bloquear la citocina y destruir la célula, y explica por qué su efecto sobre el recuento es tan absoluto."
+    ],
+    "embarazo_lactancia": "El OMALIZUMAB es el que tiene más experiencia acumulada en el embarazo, con un registro específico y sin señales de alarma; se puede mantener si el asma lo justifica. Con los demás los datos son limitados. Un asma mal controlada perjudica al feto más que el fármaco. Como IgG, atraviesan la placenta en el tercer trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; guías GINA y GEMA sobre asma grave"
+  },
+  {
+    "id": "NML-oxigenoterapia",
+    "nombre": "Oxigenoterapia",
+    "sinonimos": [
+      "Oxígeno medicinal"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Gas medicinal",
+    "subclase": "Tratamiento de la hipoxemia",
+    "mecanismo": "Aumenta la fracción inspirada de oxígeno para elevar la presión arterial de oxígeno y, con ella, el contenido arterial de oxígeno y su aporte a los tejidos. Es un FÁRMACO, con dosis, indicaciones, objetivos y toxicidad, y tratarlo como una medida de confort es la fuente de casi todos los problemas. Dos mecanismos explican su cara tóxica. El primero es la HIPERCAPNIA en el paciente con EPOC retenedor: la teoría clásica del impulso hipóxico es solo una parte, y hoy se sabe que pesa más la pérdida de la VASOCONSTRICCIÓN PULMONAR HIPÓXICA, que redistribuye el flujo hacia alvéolos mal ventilados y empeora el desequilibrio ventilación-perfusión, junto con el efecto Haldane. El segundo es la toxicidad por RADICALES LIBRES con fracciones inspiradas altas y mantenidas, que produce atelectasias por reabsorción y daño alveolar. De ahí que la hiperoxia no sea inocua: en el infarto, en el ictus y en la parada recuperada se ha asociado a peores resultados.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "HIPOXEMIA aguda en el paciente SIN riesgo de hipercapnia",
+        "dosis": "El flujo necesario para una saturación del 94-98%, mediante gafas nasales a 1-6 L/min o mascarilla",
+        "posologia": "Continua, titulada por pulsioximetría",
+        "via": "inhalada",
+        "dosis_objetivo": "Saturación de oxígeno del 94-98%: ni menos, ni MÁS",
+        "nota": "El objetivo tiene un techo, no solo un suelo. La hiperoxia se asocia a peores resultados en el infarto, el ictus y la parada cardiaca recuperada"
+      },
+      {
+        "patologia": "Paciente con EPOC o con riesgo de HIPERCAPNIA",
+        "dosis": "Mascarilla VENTURI al 24-28%, o gafas nasales a 1-2 L/min",
+        "posologia": "Continua, con gasometría de control",
+        "via": "inhalada",
+        "dosis_objetivo": "Saturación de 88-92%",
+        "nota": "El objetivo es MÁS BAJO a propósito. Y no darle oxígeno a un paciente hipoxémico por miedo a la hipercapnia es un error igual de grave: se titula, no se retira"
+      },
+      {
+        "patologia": "OXIGENOTERAPIA CRÓNICA DOMICILIARIA en la EPOC",
+        "dosis": "Flujo suficiente para una presión arterial de oxígeno superior a 60 mmHg, al menos 15 HORAS al día",
+        "posologia": "Un mínimo de 15 horas diarias, incluida la noche",
+        "via": "inhalada",
+        "dosis_objetivo": "Presión arterial de oxígeno mayor de 60 mmHg o saturación superior al 90%",
+        "nota": "Es, junto con dejar de fumar, la ÚNICA medida que aumenta la SUPERVIVENCIA en la EPOC, y solo si se cumplen esas 15 horas mínimas"
+      },
+      {
+        "patologia": "Intoxicación por MONÓXIDO DE CARBONO",
+        "dosis": "Oxígeno al 100% con mascarilla con reservorio; oxígeno hiperbárico en casos seleccionados",
+        "posologia": "Continua hasta la normalización",
+        "via": "inhalada",
+        "dosis_objetivo": "Carboxihemoglobina menor del 5% y resolución de los síntomas",
+        "nota": "Aquí la PULSIOXIMETRÍA ENGAÑA: la carboxihemoglobina se lee como oxihemoglobina y el saturómetro marca 100% con un paciente gravemente intoxicado"
+      },
+      {
+        "patologia": "Cefalea en RACIMOS, crisis aguda",
+        "dosis": "Oxígeno al 100% a 12-15 L/min con mascarilla con reservorio durante 15-20 minutos",
+        "posologia": "Durante la crisis",
+        "via": "inhalada",
+        "nota": "Es un tratamiento de PRIMERA LÍNEA muy eficaz y poco conocido fuera de la neurología"
+      }
+    ],
+    "esquema": {
+      "inicio": "PRESCRIBIRLO como un fármaco: indicación, dispositivo, flujo y OBJETIVO DE SATURACIÓN escrito en la orden de tratamiento. Sin objetivo escrito, cada profesional que pasa ajusta el flujo a su criterio.",
+      "titulacion": "Al alza o a la baja según la pulsioximetría, con gasometría en el paciente con riesgo de hipercapnia.",
+      "duracion": "El tiempo que dure la hipoxemia; indefinida en la oxigenoterapia crónica domiciliaria.",
+      "fin": "Se RETIRA cuando la saturación se mantiene en objetivo sin él. Mantenerlo por inercia retrasa la movilización y el alta.",
+      "via": "Gafas nasales, mascarilla simple, mascarilla VENTURI (la única que ofrece una fracción inspirada CONTROLADA), mascarilla con reservorio y alto flujo nasal.",
+      "monitorizacion": "Pulsioximetría continua o intermitente, gasometría ARTERIAL en el paciente con riesgo de hipercapnia (la venosa no sirve para el oxígeno), nivel de conciencia y trabajo respiratorio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Difusión alveolocapilar.",
+      "distribucion": "Transportado por la hemoglobina y, en pequeña proporción, disuelto en plasma.",
+      "metabolismo": "Consumo en la cadena respiratoria mitocondrial.",
+      "eliminacion": "Como dióxido de carbono por la ventilación.",
+      "vida_media": "No aplicable; el efecto es inmediato y cesa en minutos al retirarlo.",
+      "ajuste_renal": "No aplicable.",
+      "ajuste_hepatico": "No aplicable.",
+      "interacciones": [
+        {
+          "con": "BLEOMICINA",
+          "efecto": "Fracciones inspiradas altas potencian la FIBROSIS PULMONAR incluso años después del tratamiento",
+          "gravedad": "alta",
+          "manejo": "Hay que avisar al anestesista y limitar la fracción inspirada al mínimo necesario en cualquier paciente que haya recibido bleomicina, aunque fuera hace años"
+        },
+        {
+          "con": "PARAQUAT",
+          "efecto": "El oxígeno AGRAVA la lesión pulmonar por generación de radicales libres",
+          "gravedad": "alta",
+          "manejo": "Es la excepción histórica: en la intoxicación por paraquat se restringe el oxígeno al mínimo imprescindible"
+        },
+        {
+          "con": "TABACO y fuentes de ignición",
+          "efecto": "Riesgo de INCENDIO y quemaduras graves",
+          "gravedad": "alta",
+          "manejo": "Es una causa real y recurrente de quemaduras faciales y muertes domiciliarias: hay que advertirlo de forma explícita y repetida al paciente y a la familia"
+        },
+        {
+          "con": "Opioides, benzodiazepinas y sedantes en el retenedor",
+          "efecto": "Suman depresión ventilatoria y agravan la hipercapnia",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha, y considerar ventilación no invasiva"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de mucosas, epistaxis y molestias nasales",
+        "Lesiones por presión del dispositivo en pabellones auriculares y puente nasal",
+        "Claustrofobia con las mascarillas"
+      ],
+      "graves": [
+        "HIPERCAPNIA con acidosis respiratoria y narcosis por CO2 en el paciente retenedor sometido a oxígeno sin control",
+        "TOXICIDAD por oxígeno con atelectasias de reabsorción y daño alveolar difuso con fracciones inspiradas altas y prolongadas",
+        "Peores resultados por HIPEROXIA en el infarto, el ictus y la parada cardiaca recuperada",
+        "RETINOPATÍA de la prematuridad y displasia broncopulmonar en el recién nacido",
+        "QUEMADURAS e incendios domiciliarios en el paciente que FUMA con oxígeno"
+      ]
+    },
+    "contraindicaciones": [
+      "No hay contraindicación absoluta ante una hipoxemia que amenaza la vida",
+      "Precaución extrema con fracciones altas en el paciente tratado con BLEOMICINA y en la intoxicación por PARAQUAT",
+      "Uso sin objetivo de saturación definido"
+    ],
+    "perlas": [
+      "El oxígeno es un FÁRMACO y hay que prescribirlo como tal: con indicación, dispositivo, flujo y OBJETIVO DE SATURACIÓN escrito. En la práctica se administra sin orden, se ajusta por criterio de quien pasa y no se retira nunca. Escribir el objetivo en la orden de tratamiento resuelve la mayor parte del problema.",
+      "El objetivo tiene TECHO además de suelo: 94-98% en general y 88-92% en el retenedor. La HIPEROXIA no es inocua y se ha asociado a peores resultados en el infarto, el ictus y la parada cardiaca recuperada. Poner a todo el mundo al 100% no es prudencia, es un error.",
+      "En el retenedor de CO2 hay dos errores simétricos y ambos matan: darle oxígeno sin control hasta narcotizarlo, y NEGARLE oxígeno a un paciente hipoxémico por miedo a la hipercapnia. La respuesta correcta no es elegir entre uno y otro, es TITULAR con mascarilla Venturi y controlar con gasometría.",
+      "La mascarilla VENTURI es la única que administra una fracción inspirada CONTROLADA e independiente del patrón ventilatorio del paciente. Las gafas y la mascarilla simple entregan una fracción variable e imprevisible, y por eso no sirven cuando la precisión importa.",
+      "En la intoxicación por MONÓXIDO DE CARBONO el pulsioxímetro MIENTE: no distingue la carboxihemoglobina de la oxihemoglobina y marca 100% en un paciente que se está muriendo. Hace falta cooximetría, y el tratamiento es oxígeno al 100% desde el primer momento.",
+      "La OXIGENOTERAPIA CRÓNICA DOMICILIARIA es, junto con dejar de fumar, la única medida que aumenta la SUPERVIVENCIA en la EPOC. Pero solo funciona con al menos 15 HORAS al día: usarla unas pocas horas cuando el paciente se encuentra mal no aporta beneficio pronóstico alguno, y eso hay que explicarlo bien.",
+      "El paciente que FUMA con oxígeno domiciliario se quema. Es una causa real y recurrente de quemaduras faciales graves y de incendios con víctimas mortales, y merece una advertencia explícita y repetida a la familia.",
+      "En el paciente que recibió BLEOMICINA, aunque fuera hace años, las fracciones inspiradas altas pueden desencadenar fibrosis pulmonar. Hay que avisar al anestesista antes de cualquier cirugía.",
+      "El oxígeno NO trata la disnea sin hipoxemia. En el paciente con disnea y saturación normal, lo que alivia es un ventilador de aire en la cara, la posición y, en su caso, la morfina, no el oxígeno.",
+      "En la CEFALEA EN RACIMOS el oxígeno al 100% con reservorio corta la crisis en minutos: es un tratamiento de primera línea sorprendentemente poco conocido fuera de la neurología."
+    ],
+    "embarazo_lactancia": "Seguro y de uso habitual. En la gestante los objetivos de saturación son algo más altos, ya que la curva de disociación fetal y la reserva de oxígeno son menos tolerantes a la hipoxemia materna.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; guías de la British Thoracic Society sobre uso de oxígeno en el adulto"
+  }
+]

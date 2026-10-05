@@ -1,0 +1,623 @@
+[
+  {
+    "id": "PSQ-escitalopram",
+    "nombre": "Escitalopram",
+    "sinonimos": [
+      "Citalopram (mezcla racémica)"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo ISRS (inhibidor selectivo de la recaptación de serotonina)",
+    "subclase": "S-enantiómero del citalopram, el ISRS más selectivo",
+    "vs_clase": [
+      "**El ISRS más SELECTIVO y de los mejor tolerados**, con **pocas interacciones** (débil inhibidor del CYP2D6).",
+      "**Prolonga el QT de forma dosis-dependiente** (como el citalopram): **máximo 10 mg en >65 años** o con hepatopatía; evitar con otros fármacos que alargan el QT.",
+      "**Muy utilizado en los trastornos de ANSIEDAD** (ansiedad generalizada, pánico, fobia social).",
+      "Rango de dosis estrecho (10-20 mg): fácil de manejar."
+    ],
+    "mecanismo": "Inhibe de forma muy selectiva el transportador de serotonina (SERT); se une además a un sitio alostérico que estabiliza la inhibición. El efecto antidepresivo aparece en 2-4 semanas por adaptación de receptores (desensibilización de 5-HT1A).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Episodio depresivo mayor",
+        "dosis": "10 mg → 20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "≥65 años: máximo 10 mg"
+      },
+      {
+        "patologia": "Trastorno de ansiedad generalizada, trastorno de pánico y fobia social",
+        "dosis": "5-10 mg → 20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "En pánico empezar con 5 mg (inquietud inicial)"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día (5 mg en pánico). ECG si cardiopatía o fármacos que alargan el QT. Avisar de efectos iniciales y del retraso del efecto.",
+      "titulacion": "Subir a 20 mg a las 2-4 semanas si respuesta parcial.",
+      "duracion": "**Mantener 6-12 meses tras la remisión** del primer episodio; 2 años o indefinido si recurrente.",
+      "fin": "**Retirada GRADUAL en 4 semanas** (síndrome de discontinuación).",
+      "via": "VO.",
+      "monitorizacion": "Respuesta a las 4-6 semanas; **ideación suicida en <25 años** al inicio; sodio en ancianos; ECG si dosis máximas en riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 80%.",
+      "distribucion": "Unión a proteínas del 56%.",
+      "metabolismo": "**CYP2C19**, CYP3A4 y CYP2D6.",
+      "eliminacion": "Renal y hepática.",
+      "vida_media": "30 h.",
+      "ajuste_renal": "Precaución con FG <30.",
+      "ajuste_hepatico": "**Máximo 10 mg** en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT (antiarrítmicos, antipsicóticos, macrólidos, metadona, ondansetrón)",
+          "efecto": "**Torsade de pointes**",
+          "gravedad": "alta",
+          "manejo": "Evitar o ECG de control"
+        },
+        {
+          "con": "IMAO, linezolid, tramadol, triptanes, fentanilo",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "IMAO contraindicados; vigilancia con el resto"
+        },
+        {
+          "con": "Omeprazol, esomeprazol (inhibidores del CYP2C19)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Preferir pantoprazol o limitar dosis"
+        },
+        {
+          "con": "AINE, anticoagulantes, antiagregantes",
+          "efecto": "Hemorragia digestiva (los ISRS deplecionan la serotonina plaquetaria)",
+          "gravedad": "media",
+          "manejo": "IBP si se combinan"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas iniciales",
+        "**Disfunción sexual**",
+        "Insomnio o somnolencia, sudoración",
+        "Inquietud o ansiedad las primeras semanas"
+      ],
+      "graves": [
+        "**Prolongación del QT**",
+        "Hiponatremia por SIADH (ancianos)",
+        "Síndrome serotoninérgico",
+        "Viraje maníaco en bipolares",
+        "Ideación suicida en jóvenes al inicio"
+      ]
+    },
+    "contraindicaciones": [
+      "**QT largo congénito o adquirido**",
+      "Uso de IMAO o linezolid",
+      "Uso con otros fármacos que prolongan el QT"
+    ],
+    "perlas": [
+      "**El anciano con escitalopram 20 mg está por encima de la dosis máxima recomendada**: bajar a 10 mg."
+    ],
+    "embarazo_lactancia": "Utilizable si es necesario (vigilar adaptación neonatal). Compatible con la lactancia, aunque se prefiere sertralina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; Harrison 20.ª ed., cap. de trastornos depresivos y de ansiedad"
+  },
+  {
+    "id": "PSQ-fluoxetina",
+    "nombre": "Fluoxetina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo ISRS (inhibidor selectivo de la recaptación de serotonina)",
+    "subclase": "ISRS de vida media muy larga, activador",
+    "vs_clase": [
+      "**VIDA MEDIA LARGUÍSIMA (norfluoxetina: 7-15 días)**: **casi sin síndrome de discontinuación** (se autorretira), pero **sus interacciones persisten semanas** tras suspenderla (esperar **5 semanas** antes de un IMAO).",
+      "**Inhibidor POTENTE del CYP2D6**: anula la codeína y el tramadol, sube metoprolol, flecainida, antipsicóticos y tricíclicos, y **reduce el efecto del tamoxifeno** (contraindicada con él).",
+      "**Perfil ACTIVADOR** (insomnio, inquietud): se toma por la mañana; útil en depresión con apatía e hipersomnia.",
+      "**ISRS con indicación en NIÑOS y adolescentes** (depresión desde los 8 años) y en **bulimia nerviosa** (60 mg)."
+    ],
+    "mecanismo": "Inhibe el transportador de serotonina. Su metabolito norfluoxetina es igualmente activo y de eliminación muy lenta. Tiene un débil efecto 5-HT2C antagonista que contribuye a su perfil activador.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Episodio depresivo mayor (adulto)",
+        "dosis": "20 mg (hasta 60 mg)",
+        "posologia": "Cada 24 h, por la mañana",
+        "via": "VO",
+        "nota": "Efecto en 3-6 semanas"
+      },
+      {
+        "patologia": "Depresión moderada-grave en niños ≥8 años y adolescentes (con psicoterapia)",
+        "dosis": "10 mg → 20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Vigilancia estrecha de ideación suicida"
+      },
+      {
+        "patologia": "Bulimia nerviosa",
+        "dosis": "60 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis superior a la antidepresiva"
+      },
+      {
+        "patologia": "Trastorno obsesivo-compulsivo",
+        "dosis": "20-60 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Respuesta en 8-12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "20 mg por la mañana (10 mg en niños, ancianos o pánico). **Revisar interacciones por CYP2D6.**",
+      "titulacion": "Subir 20 mg cada 3-4 semanas (lento: tarda en alcanzar el estado estable).",
+      "duracion": "6-12 meses tras la remisión.",
+      "fin": "**Puede suspenderse sin pauta descendente larga** por su vida media. Antes de un IMAO, esperar 5 semanas.",
+      "via": "VO.",
+      "monitorizacion": "Ideación suicida en jóvenes, insomnio, peso, sodio en ancianos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad >70%.",
+      "distribucion": "Unión a proteínas del 95%; gran volumen de distribución.",
+      "metabolismo": "**CYP2D6 (del que es inhibidor potente)**; metabolito activo norfluoxetina.",
+      "eliminacion": "Renal.",
+      "vida_media": "**Fluoxetina 1-3 días (4-6 en uso crónico); norfluoxetina 7-15 días.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir dosis o espaciar (días alternos).",
+      "interacciones": [
+        {
+          "con": "**Tamoxifeno**",
+          "efecto": "**Impide su activación a endoxifeno: menor eficacia y más recidivas de cáncer de mama**",
+          "gravedad": "alta",
+          "manejo": "**No combinar**; usar venlafaxina o escitalopram"
+        },
+        {
+          "con": "IMAO, linezolid",
+          "efecto": "Síndrome serotoninérgico grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado; **5 semanas de lavado antes de un IMAO**"
+        },
+        {
+          "con": "Tricíclicos, antipsicóticos, metoprolol, flecainida",
+          "efecto": "Aumento marcado de sus niveles",
+          "gravedad": "alta",
+          "manejo": "Reducir sus dosis"
+        },
+        {
+          "con": "Codeína y tramadol",
+          "efecto": "Pérdida de analgesia (y riesgo serotoninérgico con tramadol)",
+          "gravedad": "media",
+          "manejo": "Elegir otro analgésico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Insomnio, nerviosismo, inquietud**",
+        "Náuseas, cefalea",
+        "Disfunción sexual",
+        "Pérdida de apetito inicial"
+      ],
+      "graves": [
+        "Ideación suicida en jóvenes",
+        "Hiponatremia",
+        "Síndrome serotoninérgico",
+        "Viraje maníaco"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de IMAO o en las 2 semanas previas",
+      "Tratamiento con tamoxifeno",
+      "Tratamiento con pimozida o tioridazina"
+    ],
+    "perlas": [
+      "**Mujer con cáncer de mama en tamoxifeno y depresión: ni fluoxetina ni paroxetina.**",
+      "Su autorretirada la hace útil en pacientes con mal cumplimiento (olvidos sin síntomas de discontinuación)."
+    ],
+    "embarazo_lactancia": "Mucha experiencia en el embarazo; pasa a la leche y por su vida media larga se acumula en el lactante (preferir sertralina).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; Harrison 20.ª ed., cap. de trastornos depresivos"
+  },
+  {
+    "id": "PSQ-paroxetina",
+    "nombre": "Paroxetina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Antidepresivo ISRS (inhibidor selectivo de la recaptación de serotonina)",
+    "subclase": "ISRS sedante con efecto anticolinérgico",
+    "vs_clase": [
+      "**El ISRS con PEOR SÍNDROME DE DISCONTINUACIÓN** (vida media corta y sin metabolitos activos): retirada muy lenta.",
+      "**El ISRS más ANTICOLINÉRGICO y sedante** (sequedad de boca, estreñimiento, aumento de peso); evitar en ancianos.",
+      "**Riesgo de MALFORMACIONES CARDIACAS en el primer trimestre**: el ISRS a evitar en la mujer que planifica embarazo.",
+      "**Inhibidor potente del CYP2D6** (como fluoxetina): contraindicada con tamoxifeno.",
+      "**Más disfunción sexual** que otros ISRS."
+    ],
+    "mecanismo": "Inhibidor potente del transportador de serotonina, con afinidad moderada por receptores muscarínicos y por el transportador de noradrenalina a dosis altas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Trastorno de pánico, ansiedad social y TOC",
+        "dosis": "10 mg → 20-40 mg (hasta 60 mg)",
+        "posologia": "Cada 24 h, por la mañana",
+        "via": "VO",
+        "nota": "Subir 10 mg semanales"
+      },
+      {
+        "patologia": "Episodio depresivo mayor",
+        "dosis": "20 mg (hasta 50 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ancianos: máximo 40 mg"
+      }
+    ],
+    "esquema": {
+      "inicio": "10-20 mg/día; descartar embarazo o deseo gestacional.",
+      "titulacion": "Subir 10 mg cada 1-2 semanas.",
+      "duracion": "6-12 meses tras la remisión.",
+      "fin": "**Retirada MUY lenta** (10 mg cada 2-4 semanas, y al final usar solución oral o días alternos): mareo, parestesias tipo «descarga», irritabilidad, insomnio.",
+      "via": "VO.",
+      "monitorizacion": "Ideación suicida en jóvenes, peso, sodio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa, con primer paso saturable (cinética no lineal).",
+      "distribucion": "Unión a proteínas del 95%.",
+      "metabolismo": "**CYP2D6, del que es inhibidor potente (inhibe su propio metabolismo)**.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "**21 h, sin metabolitos activos.**",
+      "ajuste_renal": "FG <30: reducir dosis.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Tamoxifeno",
+          "efecto": "Menor eficacia antitumoral",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "IMAO, linezolid",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Metoprolol, tricíclicos, antipsicóticos, atomoxetina",
+          "efecto": "Aumento de sus niveles (CYP2D6)",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sequedad de boca, estreñimiento, somnolencia**",
+        "**Aumento de peso**",
+        "**Disfunción sexual** (la más frecuente de la clase)",
+        "Sudoración"
+      ],
+      "graves": [
+        "**Malformaciones cardiacas fetales**",
+        "**Síndrome de discontinuación intenso**",
+        "Hiponatremia, síndrome serotoninérgico",
+        "Ideación suicida en jóvenes"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de IMAO, linezolid, tioridazina o pimozida",
+      "Tratamiento con tamoxifeno",
+      "Embarazo (1.er trimestre, relativa)"
+    ],
+    "perlas": [
+      "**Paciente que «no puede dejar la paroxetina» por los síntomas al bajarla**: cambiar a fluoxetina y retirar esta (técnica del puente)."
+    ],
+    "embarazo_lactancia": "**Evitar en el embarazo** (cardiopatía congénita). Compatible con la lactancia (bajos niveles en leche).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; Harrison 20.ª ed., cap. de trastornos de ansiedad"
+  },
+  {
+    "id": "PSQ-risperidona",
+    "nombre": "Risperidona",
+    "sinonimos": [
+      "Paliperidona (metabolito activo, 9-hidroxirrisperidona)"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antipsicótico",
+    "subclase": "Atípico (segunda generación) de alta potencia D2",
+    "vs_clase": [
+      "**El atípico que MÁS se parece a un típico**: a dosis >6 mg produce **efectos EXTRAPIRAMIDALES** dosis-dependientes.",
+      "**El antipsicótico con MAYOR HIPERPROLACTINEMIA** (galactorrea, amenorrea, ginecomastia, disfunción sexual), junto con la paliperidona.",
+      "**Indicaciones propias**: **agitación y agresividad persistente en la demencia** (corto plazo, ≤6 semanas) y **en niños con trastorno de conducta o autismo**.",
+      "**Formulaciones DEPOT** (inyectable de acción prolongada; y paliperidona mensual o trimestral) para mal cumplimiento.",
+      "**Menos aumento de peso y sedación que olanzapina o quetiapina.**"
+    ],
+    "mecanismo": "Antagonista potente de receptores 5-HT2A y D2 (relación 5-HT2A/D2 alta). A dosis bajas el bloqueo serotoninérgico protege frente a los efectos extrapiramidales; a dosis altas predomina el bloqueo D2. Bloqueo alfa-1 (hipotensión ortostática).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Esquizofrenia y otros trastornos psicóticos",
+        "dosis": "2 mg → 4-6 mg",
+        "posologia": "Cada 24 h (o repartida cada 12 h)",
+        "via": "VO",
+        "nota": "Depot: 25-50 mg IM cada 2 semanas"
+      },
+      {
+        "patologia": "Episodio maníaco en trastorno bipolar",
+        "dosis": "2-6 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Sola o con estabilizador"
+      },
+      {
+        "patologia": "Agresividad persistente en la demencia de Alzheimer moderada-grave",
+        "dosis": "0,25 mg → 0,5-1 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "**Máximo 6 semanas**; aumenta mortalidad e ictus en ancianos con demencia"
+      }
+    ],
+    "esquema": {
+      "inicio": "Peso, perímetro abdominal, glucemia, lípidos, prolactina si síntomas, ECG si factores de riesgo. 1-2 mg/día.",
+      "titulacion": "Subir 1-2 mg cada 1-2 días hasta 4-6 mg; en ancianos, 0,25 mg de forma lenta.",
+      "duracion": "Esquizofrenia: al menos 1-2 años tras el primer episodio; indefinida si recaídas.",
+      "fin": "Retirada gradual (riesgo de recaída y de discinesias de retirada).",
+      "via": "VO e IM (depot).",
+      "monitorizacion": "Peso, glucemia y lípidos a las 12 semanas y después anual; síntomas extrapiramidales; prolactina si clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 70%.",
+      "distribucion": "Unión a proteínas del 90%.",
+      "metabolismo": "**CYP2D6 a 9-hidroxirrisperidona (paliperidona), igual de activa.**",
+      "eliminacion": "Renal.",
+      "vida_media": "20 h (fracción activa).",
+      "ajuste_renal": "**Reducir a la mitad** (la paliperidona se elimina por riñón).",
+      "ajuste_hepatico": "Reducir a la mitad.",
+      "interacciones": [
+        {
+          "con": "Fluoxetina, paroxetina (inhibidores del CYP2D6)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Carbamazepina, rifampicina",
+          "efecto": "Reducen sus niveles",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        },
+        {
+          "con": "Levodopa y agonistas dopaminérgicos",
+          "efecto": "Antagonismo mutuo",
+          "gravedad": "alta",
+          "manejo": "Evitar en Parkinson (usar quetiapina o clozapina)"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hiperprolactinemia**",
+        "Extrapiramidalismo a dosis altas (acatisia, parkinsonismo)",
+        "Hipotensión ortostática",
+        "Aumento de peso moderado"
+      ],
+      "graves": [
+        "**Ictus y mayor mortalidad en ancianos con demencia**",
+        "Síndrome neuroléptico maligno",
+        "Discinesia tardía",
+        "Prolongación del QT"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad de Parkinson y demencia con cuerpos de Lewy",
+      "Hiperprolactinemia o prolactinoma (relativa)",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "**Amenorrea o galactorrea en una paciente con risperidona: mirar la prolactina**, y valorar aripiprazol (que la reduce).",
+      "En la demencia, intentar antes medidas no farmacológicas; si se pauta, plan de retirada a las 6 semanas."
+    ],
+    "embarazo_lactancia": "Utilizable si es necesario (síntomas extrapiramidales neonatales). Pasa a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; Harrison 20.ª ed., cap. de esquizofrenia"
+  },
+  {
+    "id": "PSQ-aripiprazol",
+    "nombre": "Aripiprazol",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antipsicótico",
+    "subclase": "Agonista PARCIAL D2 (tercera generación)",
+    "vs_clase": [
+      "**AGONISTA PARCIAL D2**, no antagonista: estabiliza la vía dopaminérgica.",
+      "**El perfil METABÓLICO más favorable**: apenas aumenta el peso, la glucemia o los lípidos; **REDUCE la prolactina** (se usa para corregir la hiperprolactinemia de otros antipsicóticos).",
+      "**Poco sedante**, sin efecto anticolinérgico y **sin prolongación relevante del QT**.",
+      "**Su efecto adverso típico es la ACATISIA** (inquietud motora) y los **trastornos del control de impulsos** (juego, compras).",
+      "**Potenciador en la depresión resistente** (2-5 mg) y formulación depot mensual."
+    ],
+    "mecanismo": "Agonista parcial de receptores D2 y 5-HT1A y antagonista 5-HT2A. En la vía mesolímbica hiperactiva actúa como antagonista funcional; en la mesocortical y tuberoinfundibular (con poca dopamina) como agonista, lo que explica menos síntomas negativos y la reducción de prolactina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Esquizofrenia",
+        "dosis": "10-15 mg (hasta 30 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Depot: 400 mg IM mensual"
+      },
+      {
+        "patologia": "Episodio maníaco y mantenimiento en trastorno bipolar tipo I",
+        "dosis": "15 mg (hasta 30 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Agitación aguda: 9,75 mg IM"
+      },
+      {
+        "patologia": "Depresión mayor resistente (potenciación de antidepresivo)",
+        "dosis": "2-5 mg (hasta 15 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Uso fuera de ficha en algunos países"
+      }
+    ],
+    "esquema": {
+      "inicio": "10-15 mg/día en psicosis; 2 mg en potenciación. Perfil metabólico basal.",
+      "titulacion": "Ajustar cada ≥2 semanas (vida media larga).",
+      "duracion": "Como el resto de antipsicóticos.",
+      "fin": "Retirada gradual.",
+      "via": "VO e IM.",
+      "monitorizacion": "Acatisia, conductas compulsivas, perfil metabólico anual."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 87%.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "**CYP2D6 y CYP3A4**; metabolito activo (dehidroaripiprazol).",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "**75 h** (94 h el metabolito).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa (precaución en grave).",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes del CYP2D6 o CYP3A4 (fluoxetina, paroxetina, claritromicina, ketoconazol)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "**Reducir a la mitad**"
+        },
+        {
+          "con": "Inductores del CYP3A4 (carbamazepina, rifampicina)",
+          "efecto": "Reducen sus niveles",
+          "gravedad": "media",
+          "manejo": "Duplicar la dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Acatisia** e inquietud",
+        "Insomnio, náuseas, cefalea"
+      ],
+      "graves": [
+        "**Trastornos del control de impulsos (juego patológico, compras)**",
+        "Mayor mortalidad en ancianos con demencia",
+        "Síndrome neuroléptico maligno, discinesia tardía"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Antecedente de juego patológico (relativa)"
+    ],
+    "perlas": [
+      "**Paciente con antipsicótico y obesidad, diabetes o hiperprolactinemia: el aripiprazol es la alternativa lógica.**",
+      "La acatisia se confunde con agitación psicótica: subir la dosis la empeora."
+    ],
+    "embarazo_lactancia": "Datos limitados; puede reducir la lactancia (baja la prolactina).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 29; Harrison 20.ª ed., cap. de esquizofrenia y trastorno bipolar"
+  },
+  {
+    "id": "PSQ-amitriptilina",
+    "nombre": "Amitriptilina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "Tricíclico (inhibidor de la recaptación de serotonina y noradrenalina con bloqueo de múltiples receptores)",
+    "vs_clase": [
+      "**Hoy se usa sobre todo a DOSIS BAJAS (10-50 mg) como ANALGÉSICO**: dolor neuropático, profilaxis de la migraña y de la cefalea tensional, fibromialgia, colon irritable.",
+      "**Bloquea receptores muscarínicos, H1 y alfa-1**: sedación, efectos **anticolinérgicos** (boca seca, estreñimiento, retención urinaria, confusión) e hipotensión ortostática. **Evitar en ancianos (criterios de Beers).**",
+      "**Bloquea canales de sodio cardiacos: LETAL en sobredosis** (QRS ancho, arritmias, convulsiones). Tratamiento con **bicarbonato sódico**. Precaución en pacientes con riesgo suicida.",
+      "**Contraindicada en el postinfarto reciente, bloqueos de rama, glaucoma de ángulo cerrado y prostatismo.**"
+    ],
+    "mecanismo": "Inhibe la recaptación de serotonina y noradrenalina (refuerza las vías inhibitorias descendentes del dolor) y bloquea receptores muscarínicos, histamínicos H1 y alfa-1, y canales de sodio (efecto analgésico y cardiotoxicidad).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor neuropático (neuropatía diabética, neuralgia postherpética)",
+        "dosis": "10 mg → 25-75 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Subir 10-25 mg cada semana; efecto analgésico en 2-4 semanas"
+      },
+      {
+        "patologia": "Profilaxis de la migraña y de la cefalea tensional crónica",
+        "dosis": "10-50 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Útil si coexisten insomnio o depresión"
+      },
+      {
+        "patologia": "Depresión mayor (hoy de 2.ª línea)",
+        "dosis": "75-150 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Monitorizar ECG"
+      }
+    ],
+    "esquema": {
+      "inicio": "**ECG si >50 años o cardiopatía.** 10 mg por la noche (2 h antes de acostarse para evitar resaca matutina).",
+      "titulacion": "Subir 10-25 mg semanales según respuesta y tolerancia.",
+      "duracion": "Dolor y profilaxis: 6-12 meses y reevaluar.",
+      "fin": "Retirada gradual (rebote colinérgico: náuseas, malestar, insomnio).",
+      "via": "VO.",
+      "monitorizacion": "Efectos anticolinérgicos, sedación, ECG a dosis antidepresivas, ideación suicida."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa, con primer paso.",
+      "distribucion": "Muy lipófila; gran volumen de distribución (no dializable en sobredosis).",
+      "metabolismo": "CYP2D6 y CYP2C19 a nortriptilina (activa).",
+      "eliminacion": "Renal.",
+      "vida_media": "10-28 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Dosis bajas.",
+      "interacciones": [
+        {
+          "con": "IMAO, tramadol, ISRS, linezolid",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "IMAO contraindicados; precaución con el resto"
+        },
+        {
+          "con": "Fluoxetina, paroxetina, bupropión (CYP2D6)",
+          "efecto": "Aumento de niveles y cardiotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Otros anticolinérgicos y fármacos que prolongan el QT",
+          "efecto": "Confusión, íleo, arritmias",
+          "gravedad": "alta",
+          "manejo": "Evitar acumulación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**",
+        "**Boca seca, estreñimiento, visión borrosa**",
+        "Aumento de peso",
+        "Hipotensión ortostática"
+      ],
+      "graves": [
+        "**Arritmias y QRS ancho (sobredosis letal)**",
+        "Retención urinaria, glaucoma agudo",
+        "Delirium en ancianos",
+        "Convulsiones"
+      ]
+    },
+    "contraindicaciones": [
+      "**Infarto reciente, bloqueo de rama o QT largo**",
+      "Glaucoma de ángulo cerrado",
+      "Hiperplasia prostática con retención",
+      "Uso de IMAO",
+      "Fase maníaca"
+    ],
+    "perlas": [
+      "**Intoxicación por tricíclicos: QRS >100 ms = bicarbonato sódico 1-2 mEq/kg IV.**",
+      "En el paciente con riesgo suicida, la amitriptilina es de los fármacos más letales: prescribir envases pequeños."
+    ],
+    "embarazo_lactancia": "Utilizable si es necesario. Compatible con la lactancia a dosis bajas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; Harrison 20.ª ed., caps. de dolor neuropático y cefaleas"
+  }
+]

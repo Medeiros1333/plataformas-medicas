@@ -1,0 +1,284 @@
+[
+  {
+    "id": "PED-ANE-ketamina",
+    "nombre": "Ketamina (sedoanalgesia pediátrica)",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 1,
+    "clase": "Anestésico y analgésico",
+    "subclase": "Antagonista no competitivo del receptor NMDA",
+    "mecanismo": "Bloquea el receptor NMDA produciendo una ANESTESIA DISOCIATIVA: el niño queda desconectado del entorno, con amnesia y analgesia intensa, pero conservando los reflejos protectores de la vía aérea, el tono muscular y la respiración espontánea. Esa combinación es la que la convierte en el fármaco de referencia de la sedoanalgesia pediátrica en urgencias: permite hacer una cura de quemadura o reducir una fractura sin intubar al niño. Al contrario que todos los demás anestésicos, ESTIMULA el sistema simpático y mantiene o eleva la tensión arterial, lo que la hace segura en el niño inestable. Y es broncodilatadora, lo que la convierte en el inductor de elección del asmático que hay que intubar.",
+    "espectro": null,
+    "dosis_pediatrica_base": "1-2 mg/kg IV lentos en 1-2 minutos para procedimientos; 4-5 mg/kg IM cuando no hay acceso venoso",
+    "dosis_maxima": "Dosis adicionales de 0,5-1 mg/kg IV cada 10 minutos según la duración del procedimiento",
+    "presentaciones": [
+      "Viales de 50 mg/mL y de 10 mg/mL",
+      "Se puede administrar por vía intravenosa, intramuscular, intranasal y oral"
+    ],
+    "edad_minima": "Mayor de 3 meses: por debajo aumenta el riesgo de laringoespasmo y de complicaciones respiratorias",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 3 meses",
+        "ajuste": "EVITAR: mayor riesgo de laringoespasmo y de apnea. Se prefieren otras estrategias"
+      },
+      {
+        "franja": "Lactante y preescolar",
+        "ajuste": "1-2 mg/kg IV. Es la franja donde más se usa: curas de quemaduras, reducción de fracturas, suturas complejas y punciones. Las reacciones de emergencia son MUCHO menos frecuentes que en el adulto"
+      },
+      {
+        "franja": "Escolar y adolescente",
+        "ajuste": "1-2 mg/kg IV; a partir de la adolescencia las reacciones de emergencia se aproximan a las del adulto y puede asociarse midazolam"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es probablemente el fármaco que más ha cambiado la experiencia del niño en urgencias, y hay una razón concreta: las REACCIONES DE EMERGENCIA (alucinaciones, agitación y disforia al despertar) que limitan tanto su uso en el adulto son MUCHO menos frecuentes e intensas en el niño, de modo que la relación entre beneficio y molestia es mucho más favorable a esta edad. A eso se añaden dos ventajas prácticas específicas: preserva la respiración espontánea y los reflejos de la vía aérea, lo que permite realizar procedimientos dolorosos sin intubar en un lugar donde no hay quirófano; y funciona por vía INTRAMUSCULAR, lo que resuelve el problema del niño aterrorizado al que no se le puede canalizar una vía. La contrapartida pediátrica es la HIPERSALIVACIÓN, que en una vía aérea pequeña puede desencadenar un LARINGOESPASMO, y el hecho de que el dolor y el miedo del niño se recuerdan: un procedimiento mal analgesiado condiciona todas las consultas médicas posteriores de ese niño.",
+    "indicaciones": [
+      {
+        "patologia": "SEDOANALGESIA para procedimientos DOLOROSOS (reducción de fracturas, curas de quemaduras, suturas complejas, drenaje de abscesos)",
+        "dosis": "1-2 mg/kg IV en 1-2 minutos, con dosis adicionales de 0,5 mg/kg si el procedimiento se prolonga",
+        "posologia": "Bolo inicial y dosis adicionales según duración",
+        "via": "IV",
+        "dosis_objetivo": "Estado disociativo con nistagmo, ojos abiertos y ausencia de respuesta al dolor, manteniendo la respiración espontánea",
+        "nota": "Requiere monitorización, oxígeno, aspiración y material de vía aérea preparados, y un profesional dedicado exclusivamente a vigilar al niño"
+      },
+      {
+        "patologia": "Procedimiento urgente SIN acceso venoso en el niño agitado",
+        "dosis": "4-5 mg/kg IM",
+        "posologia": "Dosis única, repetible",
+        "via": "IM",
+        "dosis_objetivo": "Sedación disociativa que permita canalizar una vía y realizar el procedimiento",
+        "nota": "Es una ventaja enorme en pediatría: resuelve el círculo del niño aterrorizado al que no se le puede coger una vía porque no colabora"
+      },
+      {
+        "patologia": "INDUCCIÓN de la intubación en el niño con SHOCK o con ASMA GRAVE",
+        "dosis": "1-2 mg/kg IV",
+        "posologia": "Bolo de inducción",
+        "via": "IV",
+        "dosis_objetivo": "Intubación manteniendo la estabilidad hemodinámica",
+        "nota": "Es el inductor de ELECCIÓN en ambos casos: mantiene la tensión en el shock y es BRONCODILATADORA en el asma casi fatal"
+      },
+      {
+        "patologia": "Analgesia a dosis SUBANESTÉSICAS en el dolor refractario",
+        "dosis": "0,1-0,3 mg/kg IV en bolo, o perfusión de 0,1-0,3 mg/kg/h",
+        "posologia": "Bolo o perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Control del dolor con reducción de la dosis de opioide",
+        "nota": "A estas dosis no produce disociación y reduce el consumo de opioides y la hiperalgesia inducida por ellos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Preparar el entorno ANTES: monitorización, oxígeno, aspiración, material de vía aérea del tamaño adecuado y un profesional dedicado solo a vigilar al niño. Ambiente tranquilo y con poca estimulación.",
+      "titulacion": "Bolo inicial lento y dosis adicionales según la duración. La administración RÁPIDA aumenta el riesgo de apnea.",
+      "duracion": "10-20 minutos por bolo.",
+      "fin": "Recuperación progresiva con posible fase de agitación breve, que se maneja con ambiente tranquilo y, si es intensa, con midazolam.",
+      "via": "Intravenosa, intramuscular, intranasal u oral según la situación y la colaboración del niño.",
+      "monitorizacion": "Saturación, frecuencia cardiaca, tensión arterial y observación CONTINUA de la vía aérea. Vigilar la hipersalivación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía intramuscular e intranasal; biodisponibilidad oral baja por metabolismo presistémico.",
+      "distribucion": "Muy lipófila, con paso rápido al sistema nervioso central: el efecto aparece en 1 minuto por vía intravenosa y en 5 por vía intramuscular.",
+      "metabolismo": "Hepático por CYP3A4 y CYP2B6 a NORKETAMINA, que es activa.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 horas.",
+      "ajuste_renal": "Precaución en el uso prolongado por acumulación de metabolitos.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "MIDAZOLAM",
+          "efecto": "Reduce las reacciones de emergencia pero PROLONGA la sedación y aumenta el riesgo de depresión respiratoria",
+          "gravedad": "media",
+          "manejo": "En el NIÑO las reacciones de emergencia son poco frecuentes: no se asocia de rutina, a diferencia del adulto. Añadirlo alarga la estancia y añade riesgo sin beneficio claro"
+        },
+        {
+          "con": "ATROPINA como antisialagogo",
+          "efecto": "Reduce la hipersalivación",
+          "gravedad": "baja",
+          "manejo": "Ya NO se recomienda de rutina: los estudios no han demostrado que reduzca las complicaciones respiratorias, y añade taquicardia y sequedad"
+        },
+        {
+          "con": "OPIOIDES",
+          "efecto": "Sinergia analgésica; permite reducir la dosis de ambos",
+          "gravedad": "media",
+          "manejo": "Combinación útil en el dolor intenso, vigilando la depresión respiratoria aditiva"
+        },
+        {
+          "con": "Inductores del CYP3A4",
+          "efecto": "Reducen su efecto",
+          "gravedad": "baja",
+          "manejo": "Prever dosis mayores"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPERSALIVACIÓN, más problemática en el niño por el pequeño calibre de su vía aérea",
+        "VÓMITOS al despertar, frecuentes y benignos",
+        "Nistagmo y movimientos oculares que asustan a la familia si no se advierten",
+        "Taquicardia e hipertensión leves",
+        "Reacciones de emergencia LEVES, mucho menos frecuentes que en el adulto"
+      ],
+      "graves": [
+        "LARINGOESPASMO: la complicación temida en pediatría, favorecida por la hipersalivación y por la estimulación de la vía aérea. Se maneja con presión positiva y, si no cede, con relajante muscular",
+        "APNEA transitoria con la administración rápida o con dosis altas",
+        "Depresión respiratoria al asociarse a otros sedantes",
+        "Aumento de la presión intraocular",
+        "Reacción de emergencia intensa en el adolescente"
+      ]
+    },
+    "contraindicaciones": [
+      "Menor de 3 meses",
+      "Infección activa de la vía aérea superior con secreciones abundantes (aumenta el riesgo de laringoespasmo)",
+      "Psicosis (relevante en el adolescente)",
+      "Hipertensión arterial grave y cardiopatía isquémica (excepcionales en el niño)",
+      "Ausencia de material y de personal preparados para manejar la vía aérea"
+    ],
+    "perlas": [
+      "Es el fármaco que permite hacer daño sin hacer sufrir, y esa es su aportación real a la pediatría: reducir una fractura o curar una quemadura sin dolor y sin recuerdo, en un servicio de urgencias y sin intubar. El dolor del procedimiento mal tratado en la infancia condiciona la relación del niño con la medicina durante años.",
+      "Las REACCIONES DE EMERGENCIA son MUCHO menos frecuentes en el niño que en el adulto, y por eso NO hace falta asociar midazolam de rutina como se hace en el adulto. Añadirlo prolonga la sedación, alarga la estancia y aumenta el riesgo respiratorio sin un beneficio claro.",
+      "La ATROPINA profiláctica ha dejado de recomendarse: no ha demostrado reducir las complicaciones respiratorias y añade taquicardia y sequedad. Es un ejemplo de práctica arraigada que la evidencia desmontó.",
+      "El LARINGOESPASMO es la complicación que hay que estar preparado para manejar: favorecido por la hipersalivación y por la manipulación de la vía aérea. Aspiración preparada, presión positiva y, si no cede, relajante muscular.",
+      "Funciona por vía INTRAMUSCULAR, y eso resuelve un problema muy pediátrico: el niño aterrorizado al que no se le puede canalizar una vía porque no colabora, y al que no se le puede sedar porque no hay vía. La intramuscular rompe ese círculo.",
+      "Es el inductor de ELECCIÓN en el niño con SHOCK, porque mantiene la tensión arterial, y en el ASMA GRAVE, porque es broncodilatadora. En ambos casos actúa sobre el problema en lugar de agravarlo.",
+      "Hay que ADVERTIR a la familia de que el niño tendrá los OJOS ABIERTOS y hará movimientos oculares: sin ese aviso, la escena resulta angustiosa para unos padres que están mirando.",
+      "La contraindicación clásica por hipertensión intracraneal está hoy muy matizada, y la ketamina se usa en el traumatismo craneal con hipotensión, donde mantener la presión de perfusión cerebral importa más.",
+      "El ambiente importa: poca luz, poco ruido y pocas personas hablando reducen las reacciones al despertar. Es una intervención sin coste que mejora la experiencia del niño y de la familia."
+    ],
+    "embarazo_lactancia": "En la ADOLESCENTE se emplea en anestesia obstétrica cuando la situación hemodinámica lo aconseja, evitándola en la preeclampsia por su efecto hipertensor. Compatible con la lactancia una vez recuperada la conciencia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 25; guías de sedoanalgesia en urgencias pediátricas"
+  },
+  {
+    "id": "PED-DER-mupirocina",
+    "nombre": "Mupirocina y ácido fusídico tópicos (impétigo)",
+    "sinonimos": [
+      "Antibióticos tópicos"
+    ],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antibiótico tópico",
+    "subclase": "Inhibidor de la isoleucil-ARNt sintetasa (mupirocina) e inhibidor del factor de elongación G (ácido fusídico)",
+    "mecanismo": "La MUPIROCINA inhibe la ISOLEUCIL-ARNt SINTETASA bacteriana, impidiendo la incorporación de isoleucina a las proteínas. Ese mecanismo es ÚNICO entre los antibióticos de uso clínico, y de ahí su rasgo más valioso: NO hay resistencia cruzada con ninguna otra familia, lo que la hace útil frente a estafilococos resistentes a otros antibióticos, incluido el SARM. Además es inestable a temperatura corporal y se degrada rápidamente, de modo que no genera concentraciones sistémicas ni presión selectiva fuera de la piel. El ÁCIDO FUSÍDICO actúa sobre el factor de elongación G y también es muy activo frente a estafilococo, pero desarrolla resistencia con mucha más facilidad, y en países donde se ha usado de forma masiva las tasas de resistencia estafilocócica han subido de forma preocupante.",
+    "espectro": "Staphylococcus aureus (incluido SARM para la mupirocina) y Streptococcus pyogenes, que son los dos agentes del impétigo. NO cubre gramnegativos ni anaerobios.",
+    "dosis_pediatrica_base": "Aplicación de una capa fina sobre las lesiones 2-3 veces al día durante 5-7 días (aplicación por SUPERFICIE, no ponderal)",
+    "dosis_maxima": "Superficie limitada: si las lesiones son extensas o numerosas, hay que pasar a tratamiento ORAL",
+    "presentaciones": [
+      "Mupirocina pomada al 2% (dérmica) y pomada NASAL al 2%",
+      "Ácido fusídico crema o pomada al 2%"
+    ],
+    "edad_minima": "Desde el recién nacido para la formulación dérmica; la pomada nasal, desde el año",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido y lactante",
+        "ajuste": "Evitar superficies extensas: la pomada dérmica contiene polietilenglicol, que puede absorberse a través de piel lesionada y acumularse en el neonato con función renal inmadura"
+      },
+      {
+        "franja": "Niño y adolescente",
+        "ajuste": "Aplicación 2-3 veces al día durante 5-7 días sobre lesiones limitadas"
+      }
+    ],
+    "peculiaridad_pediatrica": "El IMPÉTIGO es una de las infecciones bacterianas más frecuentes de la infancia y su manejo es casi enteramente pediátrico. La lección práctica que lo ordena todo es la extensión: si las lesiones son POCAS y LOCALIZADAS, el tratamiento es TÓPICO y es igual de eficaz que el oral, con muchos menos efectos adversos y sin presión selectiva sobre la flora del niño; si son extensas, numerosas o hay afectación sistémica, hace falta antibiótico ORAL. A ello se añaden dos particularidades: la primera es que el impétigo es MUY CONTAGIOSO entre niños, y las medidas de higiene, el corte de uñas, el lavado de manos y la exclusión escolar hasta 24-48 horas de tratamiento pesan tanto como el antibiótico; la segunda es que el impétigo estreptocócico puede desencadenar una GLOMERULONEFRITIS POSTESTREPTOCÓCICA, y el tratamiento antibiótico, a diferencia de lo que ocurre con la fiebre reumática tras la faringitis, NO la previene, aunque sí reduce la transmisión.",
+    "indicaciones": [
+      {
+        "patologia": "IMPÉTIGO no ampolloso y ampolloso LOCALIZADO",
+        "dosis": "Mupirocina 2% o ácido fusídico 2%, una capa fina 2-3 veces al día durante 5-7 días",
+        "posologia": "Dos o tres aplicaciones diarias",
+        "via": "tópica",
+        "dosis_objetivo": "Desaparición de las lesiones y de las costras",
+        "nota": "En lesiones POCAS y localizadas es tan eficaz como el antibiótico oral y con muchos menos efectos adversos. Hay que retirar suavemente las COSTRAS con agua y jabón antes de aplicarlo"
+      },
+      {
+        "patologia": "DESCOLONIZACIÓN NASAL de Staphylococcus aureus, incluido SARM",
+        "dosis": "Mupirocina pomada nasal 2% en ambas fosas nasales, 2-3 veces al día durante 5 días",
+        "posologia": "Dos o tres aplicaciones diarias durante 5 días",
+        "via": "IN",
+        "dosis_objetivo": "Erradicación del estado de portador nasal",
+        "nota": "Indicada en el niño con FORUNCULOSIS de repetición y en programas de descolonización familiar: el reservorio nasal es el origen de la reinfección"
+      },
+      {
+        "patologia": "Sobreinfección de eccema, picaduras o heridas superficiales",
+        "dosis": "Mupirocina 2% dos veces al día durante 5-7 días",
+        "posologia": "Dos aplicaciones diarias",
+        "via": "tópica",
+        "nota": "En la dermatitis atópica sobreinfectada, el tratamiento de fondo sigue siendo el corticoide y el emoliente: el antibiótico trata la sobreinfección, no el eccema"
+      },
+      {
+        "patologia": "Impétigo EXTENSO, con lesiones numerosas o afectación sistémica",
+        "dosis": "Cefadroxilo 30 mg/kg/día o cloxacilina 50 mg/kg/día por vía ORAL durante 7 días",
+        "posologia": "Cada 8-12 horas",
+        "via": "VO",
+        "dosis_objetivo": "Resolución de las lesiones",
+        "nota": "Aquí el tópico ya no basta: la extensión es el criterio que decide entre una vía y la otra"
+      }
+    ],
+    "esquema": {
+      "inicio": "Retirar suavemente las COSTRAS con agua tibia y jabón antes de aplicar el antibiótico: bajo la costra está la bacteria, y el fármaco no penetra a través de ella.",
+      "titulacion": "No procede.",
+      "duracion": "5-7 días. Los tratamientos prolongados son la vía principal de aparición de RESISTENCIAS.",
+      "fin": "Al resolverse las lesiones. Si a los 5-7 días no ha mejorado, hay que replantear el diagnóstico o pasar a la vía oral.",
+      "via": "Tópica o nasal.",
+      "monitorizacion": "Respuesta clínica. Vigilar el desarrollo de nuevas lesiones en el propio niño y en los convivientes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima a través de piel intacta; algo mayor a través de piel lesionada.",
+      "distribucion": "Local.",
+      "metabolismo": "La mupirocina se INACTIVA rápidamente a temperatura corporal, lo que impide cualquier efecto sistémico.",
+      "eliminacion": "Local y renal en la fracción absorbida.",
+      "vida_media": "Muy corta; el efecto es local y depende de la frecuencia de aplicación.",
+      "ajuste_renal": "Precaución con la aplicación en superficies extensas de piel lesionada en el neonato y en el insuficiente renal, por el POLIETILENGLICOL del excipiente.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Uso PROLONGADO o repetido",
+          "efecto": "Desarrollo de RESISTENCIA estafilocócica, que compromete su utilidad frente a SARM",
+          "gravedad": "alta",
+          "manejo": "Es un antibiótico que conviene RESERVAR: ciclos cortos y no usarlo como crema de uso general para cualquier lesión"
+        },
+        {
+          "con": "Corticoide tópico en combinación fija",
+          "efecto": "Suele sustituir al diagnóstico y prolonga innecesariamente ambos tratamientos",
+          "gravedad": "media",
+          "manejo": "Evitar las combinaciones fijas; si el eccema está sobreinfectado, se tratan las dos cosas por separado y se retira antes el antibiótico"
+        },
+        {
+          "con": "Excipiente de POLIETILENGLICOL en piel muy lesionada del neonato",
+          "efecto": "Posible absorción y acumulación con función renal inmadura",
+          "gravedad": "media",
+          "manejo": "Limitar la superficie tratada en el recién nacido y en el gran quemado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, prurito y eritema local",
+        "Sequedad de la zona",
+        "Molestia nasal con la formulación intranasal"
+      ],
+      "graves": [
+        "Dermatitis alérgica de contacto",
+        "RESISTENCIA bacteriana con el uso prolongado o repetido",
+        "Absorción del excipiente en el neonato con piel muy lesionada"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad conocida",
+      "Aplicación sobre superficies extensas o mucosas (salvo la formulación nasal específica)",
+      "Uso como antibiótico tópico de uso general para cualquier herida: es un fármaco a reservar"
+    ],
+    "perlas": [
+      "La EXTENSIÓN decide la vía: pocas lesiones localizadas se tratan bien por vía TÓPICA, con la misma eficacia que el oral y sin sus efectos adversos ni su impacto sobre la flora del niño; las lesiones extensas o con afectación sistémica necesitan antibiótico ORAL. Es una decisión sencilla que se toma mirando la piel.",
+      "Hay que RETIRAR LAS COSTRAS con agua tibia y jabón antes de aplicar el antibiótico: la bacteria está debajo, y la pomada no atraviesa la costra. Es el paso que más se omite y explica bastantes fracasos.",
+      "La MUPIROCINA tiene un mecanismo ÚNICO y por eso NO presenta resistencia cruzada con ninguna otra familia, ni siquiera frente a SARM. Precisamente por eso es un fármaco a RESERVAR: usarla como crema para cualquier rozadura desperdicia un recurso valioso y selecciona resistencias.",
+      "El reservorio del estafilococo está en la NARIZ. En el niño con forunculosis de repetición, la descolonización nasal con mupirocina, a menudo extendida a los convivientes, corta un ciclo de reinfecciones que puede durar años.",
+      "El impétigo estreptocócico puede desencadenar una GLOMERULONEFRITIS POSTESTREPTOCÓCICA, y el antibiótico NO la previene, a diferencia de lo que ocurre con la fiebre reumática tras la faringitis. Sí reduce, en cambio, la transmisión a otros niños.",
+      "Es MUY CONTAGIOSO: las medidas de higiene, el corte de uñas, no compartir toallas y la exclusión escolar hasta 24-48 horas de tratamiento pesan tanto como el propio antibiótico, sobre todo en guarderías.",
+      "El ÁCIDO FUSÍDICO desarrolla resistencia con mucha más facilidad que la mupirocina, y en países donde se ha usado de forma masiva las tasas de resistencia estafilocócica han subido de forma llamativa. Es un argumento a favor de alternar y de limitar la duración.",
+      "En la dermatitis atópica SOBREINFECTADA, el antibiótico trata la sobreinfección pero el tratamiento del eccema sigue siendo el CORTICOIDE y el EMOLIENTE: retirar el corticoide por miedo a la infección es lo que perpetúa el problema.",
+      "Un impétigo que no mejora en 5-7 días obliga a replantearse el diagnóstico: puede ser una tiña, una escabiosis sobreinfectada, un herpes o una infección por un estafilococo resistente."
+    ],
+    "embarazo_lactancia": "Compatibles con el embarazo y con la lactancia por su absorción mínima. En la lactante con grietas del pezón, limpiar la zona antes de la toma.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61; guías de la AEP sobre infecciones cutáneas bacterianas en la infancia"
+  }
+]

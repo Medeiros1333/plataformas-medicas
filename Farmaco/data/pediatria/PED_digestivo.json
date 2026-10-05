@@ -1,0 +1,267 @@
+[
+  {
+    "id": "PED-DIG-suero-rehidratacion-oral",
+    "nombre": "Solución de rehidratación oral (SRO de osmolaridad reducida)",
+    "sinonimos": [
+      "SRO",
+      "Suero oral hiposódico"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Solución hidroelectrolítica de rehidratación",
+    "subclase": "Fórmula de osmolaridad reducida (60 mmol/L de sodio, 75-90 mOsm/L de glucosa)",
+    "mecanismo": "Aprovecha el COTRANSPORTADOR SODIO-GLUCOSA (SGLT1) del enterocito, que permanece INTACTO en la gastroenteritis vírica pese a la lesión de la vellosidad: por cada molécula de glucosa absorbida entra un ion sodio, y el agua sigue al sodio por arrastre osmótico. Ese es el fundamento fisiológico de que se pueda rehidratar por boca a un niño que está teniendo diarrea secretora. La proporción glucosa-sodio debe ser aproximadamente equimolar: más azúcar del necesario (zumos, refrescos) invierte el gradiente y EMPEORA la diarrea por efecto osmótico.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Deshidratación leve: 50 mL/kg en 4 h. Moderada: 100 mL/kg en 4 h. Mantenimiento posterior: 10 mL/kg por cada deposición líquida y 2 mL/kg por cada vómito",
+    "dosis_maxima": "No hay dosis máxima: se administra a demanda; el límite lo pone la tolerancia oral",
+    "presentaciones": [
+      "Sobres para reconstituir en el volumen exacto de agua indicado",
+      "Solución lista para usar",
+      "Polos y preparados congelados de SRO (mejoran la aceptación en el niño con vómitos)"
+    ],
+    "edad_minima": "Desde el recién nacido",
+    "franjas_edad": [
+      {
+        "franja": "Lactante amamantado",
+        "ajuste": "MANTENER la lactancia materna a demanda y ofrecer la SRO ENTRE las tomas: nunca sustituir el pecho por suero"
+      },
+      {
+        "franja": "Lactante con lactancia artificial",
+        "ajuste": "Rehidratar 4 h con SRO y después reintroducir la fórmula HABITUAL sin diluir; no está indicada la fórmula sin lactosa de rutina"
+      },
+      {
+        "franja": "Niño con vómitos",
+        "ajuste": "5 mL cada 1-2 minutos con jeringa o cucharita: el volumen pequeño y repetido se tolera cuando el vaso entero se vomita"
+      },
+      {
+        "franja": "Niño mayor y adolescente",
+        "ajuste": "A demanda, reponiendo pérdidas. La aceptación del sabor salado es el principal obstáculo"
+      }
+    ],
+    "peculiaridad_pediatrica": "El lactante deshidrata mucho más rápido que el adulto por tres motivos: mayor superficie corporal relativa, mayor proporción de agua corporal con recambio diario más alto, y dependencia total de un cuidador para beber. Por eso la deshidratación puede instaurarse en horas. La particularidad de manejo más importante no es la dosis sino la TÉCNICA: volúmenes pequeños y muy frecuentes (5 mL cada 1-2 minutos), porque el estómago tolera 5 mL cuando rechaza 100. El error clásico de los cuidadores es sustituir el suero por bebidas azucaradas o isotónicas de deportistas, que tienen demasiada glucosa y muy poco sodio y empeoran la diarrea; y diluir mal los sobres, lo que puede producir hipernatremia o hiponatremia.",
+    "indicaciones": [
+      {
+        "patologia": "Gastroenteritis aguda con deshidratación leve (3-5%)",
+        "dosis": "50 mL/kg en 4 h, más reposición de pérdidas",
+        "posologia": "Fraccionada en tomas pequeñas y frecuentes",
+        "via": "VO",
+        "nota": "Tratamiento de PRIMERA LÍNEA: la vía oral es tan eficaz como la intravenosa, con menos complicaciones y menos ingresos"
+      },
+      {
+        "patologia": "Gastroenteritis con deshidratación moderada (6-9%)",
+        "dosis": "100 mL/kg en 4 h",
+        "posologia": "Fraccionada, con reevaluación a las 4 h",
+        "via": "VO o por sonda nasogástrica",
+        "nota": "La sonda nasogástrica es preferible a la vía intravenosa si el problema es solo la tolerancia oral"
+      },
+      {
+        "patologia": "Prevención de la deshidratación en el niño con diarrea sin deshidratación",
+        "dosis": "10 mL/kg por deposición y 2 mL/kg por vómito",
+        "posologia": "Tras cada pérdida",
+        "via": "VO",
+        "nota": "Mantener la alimentación normal desde el principio: no hay indicación de dieta astringente ni de ayuno"
+      }
+    ],
+    "esquema": {
+      "inicio": "Fase de REHIDRATACIÓN de 4 h con el volumen calculado según el grado de deshidratación, administrada en tomas de 5-10 mL cada 1-2 minutos.",
+      "titulacion": "Reevaluar a las 4 h: si el niño está rehidratado, se pasa a la fase de mantenimiento reponiendo pérdidas; si no, se repite el ciclo.",
+      "duracion": "Mientras duren las pérdidas, habitualmente 3-7 días.",
+      "fin": "Se retira al cesar la diarrea. La alimentación normal se reintroduce PRECOZMENTE, a las 4 h, sin esperar a que cese la diarrea.",
+      "via": "VO; sonda nasogástrica si no tolera; IV solo en shock, alteración de la conciencia, íleo o fracaso de la vía oral bien intentada.",
+      "monitorizacion": "PESO (el mejor indicador de la reposición), diuresis, estado de conciencia, relleno capilar y tolerancia oral. Ionograma solo si hay deshidratación grave o sospecha de trastorno del sodio."
+    },
+    "farmacocinetica": {
+      "absorcion": "Por el cotransportador SGLT1 del enterocito, funcionante incluso con atrofia vellositaria.",
+      "distribucion": "Compartimento extracelular.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Renal.",
+      "vida_media": "No aplicable.",
+      "ajuste_renal": "Precaución en la insuficiencia renal con oliguria por el aporte de potasio.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Bebidas azucaradas, zumos y bebidas isotónicas de deportistas",
+          "efecto": "Carga osmótica alta con sodio insuficiente: EMPEORAN la diarrea y pueden producir hiponatremia",
+          "gravedad": "alta",
+          "manejo": "Desaconsejarlas expresamente: es el error doméstico más frecuente y hay que nombrarlo de forma explícita"
+        },
+        {
+          "con": "LOPERAMIDA y otros antidiarreicos",
+          "efecto": "Riesgo de íleo, distensión y depresión neurológica en el niño",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS en la gastroenteritis del niño"
+        },
+        {
+          "con": "Ondansetrón",
+          "efecto": "Interacción FAVORABLE: una dosis única facilita la tolerancia oral y permite completar la rehidratación",
+          "gravedad": "baja",
+          "manejo": "Asociación útil en el niño con vómitos repetidos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Rechazo por el sabor salado (principal causa de fracaso de la rehidratación oral)",
+        "Vómito si se administran volúmenes grandes de golpe"
+      ],
+      "graves": [
+        "HIPERNATREMIA por reconstituir el sobre con menos agua de la indicada",
+        "HIPONATREMIA por diluirlo en exceso o por sustituirlo por agua o zumos",
+        "Sobrecarga de volumen en el cardiópata o el nefrópata",
+        "Broncoaspiración si se administra a un niño con disminución del nivel de conciencia"
+      ]
+    },
+    "contraindicaciones": [
+      "SHOCK o deshidratación grave (requiere vía intravenosa inmediata)",
+      "Disminución del nivel de conciencia por riesgo de aspiración",
+      "Íleo paralítico u obstrucción intestinal",
+      "Vómitos incoercibles pese a la técnica correcta y al ondansetrón"
+    ],
+    "perlas": [
+      "Es probablemente la intervención médica que más vidas infantiles ha salvado en el mundo, y su fundamento cabe en una frase: el cotransportador sodio-glucosa sigue funcionando aunque la vellosidad esté destruida. Entender eso explica por qué la glucosa es imprescindible en la fórmula y por qué el agua sola no rehidrata igual.",
+      "La TÉCNICA es lo que decide el éxito: 5 mL cada 1-2 minutos con jeringa. Un niño que vomita un vaso entero tolera perfectamente 5 mL repetidos. Cuando la rehidratación oral fracasa, casi siempre es porque nadie explicó esto.",
+      "Hay que NOMBRAR expresamente lo que no se debe dar: zumos, refrescos y bebidas isotónicas de deportistas. Tienen demasiada glucosa y poco sodio, aumentan la carga osmótica y empeoran la diarrea. Si no se dicen por su nombre, los cuidadores las usan por lógica intuitiva.",
+      "La LACTANCIA MATERNA no se suspende nunca: se mantiene a demanda y el suero se ofrece entre las tomas. Tampoco se diluye la fórmula artificial ni se cambia a una sin lactosa de rutina.",
+      "La realimentación PRECOZ (a las 4 h, con la dieta habitual) acorta la duración de la diarrea. El ayuno prolongado y la dieta astringente clásica son prácticas obsoletas que empeoran el estado nutricional.",
+      "La SONDA NASOGÁSTRICA es una opción infrautilizada y preferible a la vía intravenosa cuando el único problema es que el niño no bebe: es menos invasiva, más fisiológica y evita los errores de sueroterapia.",
+      "El PESO es el mejor parámetro de seguimiento: la diferencia con el peso previo cuantifica el déficit mejor que cualquier signo clínico aislado."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; la solución es segura a cualquier edad.",
+    "micro_relacionado": [
+      "VIR-rotavirus"
+    ],
+    "fuente": "AMIR Pediatría; Harrison 20.ª ed., cap. de gastroenteritis; recomendaciones de la OMS sobre rehidratación oral"
+  },
+  {
+    "id": "PED-DIG-ondansetron",
+    "nombre": "Ondansetrón (pediatría)",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Antiemético: antagonista de los receptores 5-HT3",
+    "subclase": "Setrón",
+    "mecanismo": "Bloquea los receptores 5-HT3 de los aferentes vagales intestinales y de la zona gatillo quimiorreceptora. En la gastroenteritis, el epitelio dañado libera serotonina que estimula el vago y desencadena el vómito: bloquear ese primer eslabón corta el círculo que impide beber. A diferencia de la metoclopramida, no tiene acción antidopaminérgica, por lo que NO produce reacciones extrapiramidales, algo especialmente relevante en el niño, que es el grupo de máximo riesgo de distonía aguda.",
+    "espectro": null,
+    "dosis_pediatrica_base": "0,15 mg/kg en dosis ÚNICA, o por tramos de peso: 2 mg si pesa 8-15 kg, 4 mg si 15-30 kg, 8 mg si más de 30 kg",
+    "dosis_maxima": "8 mg por dosis; máximo 16 mg IV por dosis en oncología",
+    "presentaciones": [
+      "Liofilizado oral (bucodispersable) de 4 y 8 mg: la forma idónea en el niño que vomita",
+      "Solución oral 4 mg/5 mL",
+      "Ampollas IV 4 y 8 mg"
+    ],
+    "edad_minima": "6 meses en la indicación oncológica; en la gastroenteritis se usa habitualmente a partir de los 6 meses y con más respaldo por encima de los 4 años",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 6 meses",
+        "ajuste": "NO recomendado: escasa evidencia y hay que descartar otras causas de vómito (estenosis pilórica, invaginación, sepsis, error metabólico)"
+      },
+      {
+        "franja": "6 meses - 4 años",
+        "ajuste": "Dosis única de 2 mg (8-15 kg) en liofilizado oral, con vigilancia de la tolerancia posterior"
+      },
+      {
+        "franja": "4-12 años",
+        "ajuste": "4 mg en dosis única; es la franja con mejor evidencia de que evita la canalización y el ingreso"
+      },
+      {
+        "franja": "Mayor de 12 años y adolescente",
+        "ajuste": "8 mg, con las mismas precauciones de QT que en el adulto"
+      }
+    ],
+    "peculiaridad_pediatrica": "Lo característico de su uso pediátrico es que se emplea en DOSIS ÚNICA y con un objetivo muy concreto: romper el círculo del vómito para que el niño pueda beber la solución de rehidratación oral. No es un tratamiento de la gastroenteritis ni se pauta de forma repetida. Dos consecuencias prácticas: la primera es que aumenta la DIARREA en las 24-48 h siguientes, algo esperable que hay que advertir a los padres para que no lo interpreten como empeoramiento; la segunda, más importante, es que su capacidad de suprimir el vómito puede ENMASCARAR una causa quirúrgica o grave. Antes de administrarlo hay que haber descartado invaginación, estenosis pilórica, abdomen agudo, hipertensión intracraneal, cetoacidosis y sepsis: el vómito del niño no siempre es una gastroenteritis.",
+    "indicaciones": [
+      {
+        "patologia": "Vómitos de la gastroenteritis aguda que impiden la rehidratación oral",
+        "dosis": "0,15 mg/kg (2 mg si 8-15 kg, 4 mg si 15-30 kg, 8 mg si más de 30 kg) en dosis ÚNICA",
+        "posologia": "Dosis única",
+        "via": "VO (liofilizado bucodispersable)",
+        "nota": "Reduce la necesidad de canalizar una vía y de ingresar; se administra y se espera 15-20 minutos antes de reiniciar la rehidratación"
+      },
+      {
+        "patologia": "Náuseas y vómitos inducidos por quimioterapia en el niño",
+        "dosis": "5 mg/m² o 0,15 mg/kg antes de la quimioterapia y cada 8-12 h",
+        "posologia": "Cada 8-12 h durante 1-3 días",
+        "via": "VO o IV",
+        "nota": "Se combina con dexametasona en los esquemas altamente emetógenos"
+      },
+      {
+        "patologia": "Vómitos postoperatorios en el niño",
+        "dosis": "0,1 mg/kg IV (máximo 4 mg) al final de la cirugía",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Profilaxis eficaz, especialmente en amigdalectomía y cirugía del estrabismo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única del liofilizado oral, esperando 15-20 minutos antes de reiniciar la rehidratación oral con volúmenes pequeños.",
+      "titulacion": "No se titula.",
+      "duracion": "Dosis ÚNICA en la gastroenteritis. Si persisten los vómitos tras ella, la conducta correcta es REEVALUAR el diagnóstico, no repetir el fármaco.",
+      "fin": "No requiere retirada.",
+      "via": "VO en liofilizado bucodispersable, que se disuelve en la lengua y no necesita agua: es la ventaja decisiva en el niño que vomita todo lo que traga.",
+      "monitorizacion": "Tolerancia oral posterior, número de deposiciones (aumentarán) y estado de hidratación. ECG solo si hay cardiopatía, alteraciones electrolíticas u otros fármacos que prolonguen el QT."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el liofilizado se absorbe por la mucosa y por deglución de la saliva.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático por varias isoenzimas del citocromo P450, lo que reduce la vulnerabilidad a un solo inhibidor.",
+      "eliminacion": "Renal y biliar como metabolitos.",
+      "vida_media": "2-4 h en el niño, algo más corta que en el adulto.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "En la insuficiencia hepática grave, no superar 8 mg al día.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT (macrólidos, quinolonas, antipsicóticos, antiarrítmicos)",
+          "efecto": "Prolongación aditiva del QT con riesgo de torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Corregir potasio y magnesio; ECG si hay factores de riesgo"
+        },
+        {
+          "con": "ISRS, tramadol",
+          "efecto": "Riesgo de síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica; poco frecuente en pediatría"
+        },
+        {
+          "con": "Solución de rehidratación oral",
+          "efecto": "Interacción FAVORABLE y buscada: permite completar la rehidratación",
+          "gravedad": "baja",
+          "manejo": "Esperar 15-20 minutos tras el ondansetrón antes de reiniciar la ingesta"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "AUMENTO DE LA DIARREA en las 24-48 h siguientes (esperable y benigno, pero hay que advertirlo)",
+        "Cefalea",
+        "Estreñimiento en el uso repetido",
+        "Somnolencia leve"
+      ],
+      "graves": [
+        "Prolongación del QT y torsade de pointes (dosis-dependiente, sobre todo por vía intravenosa rápida)",
+        "ENMASCARAMIENTO de una causa quirúrgica o grave del vómito, con retraso diagnóstico",
+        "Reacciones de hipersensibilidad",
+        "Síndrome serotoninérgico (excepcional en pediatría)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a los setrones",
+      "Uso concomitante con APOMORFINA",
+      "Síndrome de QT largo congénito",
+      "Vómito de causa NO aclarada, especialmente con signos de alarma abdominales o neurológicos"
+    ],
+    "perlas": [
+      "Su valor está en una única dosis con un propósito muy definido: permitir que el niño beba. No trata la gastroenteritis; hace posible el tratamiento, que es la rehidratación oral. Entendido así, no tiene sentido pautarlo cada 8 h durante días.",
+      "La advertencia que hay que dar siempre a los padres: la DIARREA AUMENTARÁ en las próximas 24-48 h. Si no se anticipa, vuelven pensando que el niño ha empeorado o que el fármaco le ha sentado mal.",
+      "El riesgo real no es la toxicidad sino el ENMASCARAMIENTO: un antiemético eficaz puede silenciar el vómito de una invaginación, una estenosis pilórica, una hipertensión intracraneal o una cetoacidosis. La regla es explorar bien y descartar signos de alarma ANTES de administrarlo, no después.",
+      "Su gran ventaja sobre la metoclopramida en pediatría es que NO produce distonía aguda. El niño y el adolescente son precisamente el grupo de máximo riesgo de reacción extrapiramidal, lo que ha desplazado a la metoclopramida de esta indicación.",
+      "El LIOFILIZADO bucodispersable resuelve el problema práctico central: se disuelve en la lengua sin agua, de modo que un niño que vomita todo lo que traga puede recibirlo y retenerlo.",
+      "Si tras la dosis única los vómitos persisten, la respuesta correcta es repetir la EXPLORACIÓN, no la dosis.",
+      "En el menor de 6 meses no se recomienda: a esa edad el vómito tiene un diagnóstico diferencial muy distinto y más peligroso."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual; en la adolescente gestante se reserva como segunda línea por la señal de hendiduras orofaciales en el primer trimestre.",
+    "micro_relacionado": [
+      "VIR-rotavirus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 62; AMIR Pediatría"
+  }
+]

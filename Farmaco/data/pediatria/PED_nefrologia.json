@@ -1,0 +1,153 @@
+[
+  {
+    "id": "PED-NFR-sueroterapia",
+    "nombre": "Sueroterapia intravenosa pediátrica",
+    "sinonimos": [
+      "Fluidoterapia de mantenimiento y reposición en el niño",
+      "Regla de Holliday-Segar"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Fluidoterapia intravenosa",
+    "subclase": "Soluciones cristaloides isotónicas con glucosa",
+    "mecanismo": "Aporta agua, electrolitos y glucosa según tres objetivos que deben calcularse POR SEPARADO: mantenimiento (lo que el niño gasta cada día en pérdidas insensibles y diuresis), déficit (lo que ya ha perdido, estimado por el porcentaje de deshidratación o por la diferencia de peso) y pérdidas mantenidas (lo que sigue perdiendo por vómitos, diarrea o drenajes). Las soluciones ISOTÓNICAS permanecen en el espacio extracelular y expanden la volemia; las hipotónicas aportan agua libre y, en un niño con ADH elevada, producen hiponatremia. La glucosa se añade para evitar la cetosis del ayuno, a la que el niño pequeño es mucho más susceptible por sus escasos depósitos de glucógeno.",
+    "espectro": null,
+    "dosis_pediatrica_base": "Mantenimiento por la regla de Holliday-Segar: 100 mL/kg/día para los primeros 10 kg, más 50 mL/kg/día para los siguientes 10 kg, más 20 mL/kg/día para cada kg por encima de 20",
+    "dosis_maxima": "2400 mL/día de mantenimiento en el niño mayor; expansión inicial de 20 mL/kg por bolo (máximo 500-1000 mL), repetible",
+    "presentaciones": [
+      "Suero salino 0,9% con glucosa al 5% (solución isotónica de mantenimiento de elección)",
+      "Suero salino 0,9% y Ringer lactato para la expansión",
+      "Soluciones hipotónicas (glucosalino 1/5, 1/3): NO recomendadas como mantenimiento estándar"
+    ],
+    "edad_minima": "Desde el recién nacido, con cálculos y soluciones específicas del periodo neonatal",
+    "franjas_edad": [
+      {
+        "franja": "Recién nacido",
+        "ajuste": "Cálculo DISTINTO: se empieza con 60-80 mL/kg/día y se asciende progresivamente durante la primera semana, con aportes de glucosa mayores (tasa de infusión de glucosa de 4-8 mg/kg/min) y sin sodio los primeros días"
+      },
+      {
+        "franja": "Lactante",
+        "ajuste": "Holliday-Segar completo (100 mL/kg/día). Es la edad de MÁXIMO riesgo de deshidratación rápida y de hipoglucemia por ayuno"
+      },
+      {
+        "franja": "Niño de 10-20 kg",
+        "ajuste": "1000 mL más 50 mL/kg por cada kg por encima de 10"
+      },
+      {
+        "franja": "Niño de más de 20 kg y adolescente",
+        "ajuste": "1500 mL más 20 mL/kg por encima de 20, con un techo práctico de unos 2400 mL/día"
+      }
+    ],
+    "peculiaridad_pediatrica": "Tres diferencias hacen que la sueroterapia pediátrica no sea una versión reducida de la del adulto. La primera es el CÁLCULO: el niño no se dosifica por mililitros al día sino por la regla de Holliday-Segar, escalonada por peso, porque su gasto metabólico por kilo es mucho mayor. La segunda es la HIPOGLUCEMIA: el niño pequeño tiene depósitos de glucógeno escasos y entra en cetosis en pocas horas de ayuno, por lo que la solución de mantenimiento SIEMPRE lleva glucosa, algo que en el adulto es opcional. La tercera, y la que más daño ha causado históricamente, es la TONICIDAD: durante décadas se usaron soluciones hipotónicas de mantenimiento, y produjeron hiponatremias yatrógenas graves, con encefalopatía, convulsiones y muertes en niños por lo demás sanos ingresados por cuadros banales. Hoy la recomendación es clara: soluciones ISOTÓNICAS con glucosa para el mantenimiento, y control de sodio.",
+    "indicaciones": [
+      {
+        "patologia": "Deshidratación moderada-grave con fracaso o imposibilidad de la vía oral",
+        "dosis": "Expansión de 20 mL/kg de salino 0,9% o Ringer en 20-30 minutos, repetible hasta 2-3 veces",
+        "posologia": "Bolos con reevaluación tras cada uno",
+        "via": "IV",
+        "dosis_objetivo": "Relleno capilar menor de 2 s, diuresis mayor de 1 mL/kg/h, normalización de la frecuencia cardiaca y del nivel de conciencia",
+        "nota": "La vía ORAL o por sonda nasogástrica es preferible siempre que sea viable: la intravenosa se reserva al shock, la alteración de la conciencia o el fracaso de la oral"
+      },
+      {
+        "patologia": "Mantenimiento en el niño en dieta absoluta",
+        "dosis": "Holliday-Segar con suero salino 0,9% y glucosa al 5%",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Solución ISOTÓNICA con glucosa; añadir potasio (20 mEq/L) solo tras comprobar diuresis"
+      },
+      {
+        "patologia": "Shock hipovolémico o séptico del niño",
+        "dosis": "20 mL/kg en bolo rápido, repetible hasta 40-60 mL/kg en la primera hora",
+        "posologia": "Bolos rápidos con reevaluación",
+        "via": "IV o intraósea",
+        "dosis_objetivo": "Perfusión periférica, nivel de conciencia y diuresis; iniciar inotrópicos si no responde tras 40-60 mL/kg",
+        "nota": "La vía INTRAÓSEA se establece sin demora si no se consigue acceso venoso en 1-2 minutos"
+      },
+      {
+        "patologia": "Cetoacidosis diabética del niño",
+        "dosis": "Expansión de 10-20 mL/kg de salino 0,9% y después reposición LENTA del déficit en 48 h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Corrección del déficit repartida en 48 h, con descenso de la glucemia no superior a 50-100 mg/dL/h",
+        "nota": "La rehidratación LENTA es deliberada: la corrección rápida se asocia a EDEMA CEREBRAL, complicación temida y casi exclusiva del niño"
+      }
+    ],
+    "esquema": {
+      "inicio": "Pesar al niño SIEMPRE: todo el cálculo depende del peso, y estimarlo a ojo es la principal fuente de error. Decidir después si se trata de expansión, mantenimiento o reposición.",
+      "titulacion": "Reevaluación clínica tras cada bolo y al menos cada 4-6 h en perfusión: frecuencia cardiaca, relleno capilar, diuresis, nivel de conciencia y peso.",
+      "duracion": "El menor tiempo posible: en cuanto el niño tolere la vía oral, se retira y se pasa a rehidratación oral.",
+      "fin": "Retirada precoz. La sueroterapia mantenida por inercia en un niño que ya bebe es una fuente evitable de hiponatremia.",
+      "via": "IV; INTRAÓSEA si no se logra acceso venoso en 1-2 minutos en una situación crítica.",
+      "monitorizacion": "PESO (el mejor indicador del déficit y de su corrección), diuresis, IONES al menos diarios (el sodio es imprescindible), GLUCEMIA capilar, balance y nivel de conciencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "No aplicable: administración intravenosa directa.",
+      "distribucion": "Determinada por la tonicidad: los isotónicos quedan en el extracelular; los hipotónicos se reparten por el agua corporal total, que en el lactante representa una proporción del peso mayor que en el adulto.",
+      "metabolismo": "La glucosa se consume; el lactato del Ringer se metaboliza a bicarbonato.",
+      "eliminacion": "Renal. La capacidad de concentración y de dilución del riñón del lactante es LIMITADA, lo que estrecha su margen de tolerancia a los errores de tonicidad.",
+      "vida_media": "El efecto expansor de un bolo isotónico es breve: buena parte abandona el intravascular en menos de una hora.",
+      "ajuste_renal": "En la oligoanuria hay que restringir el volumen y NO añadir potasio hasta comprobar diuresis.",
+      "ajuste_hepatico": "El lactato del Ringer se metaboliza peor en la hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "CEFTRIAXONA y el calcio del Ringer lactato",
+          "efecto": "Precipitación de sales con embolias pulmonares y renales MORTALES en el NEONATO",
+          "gravedad": "alta",
+          "manejo": "Contraindicada la combinación en el recién nacido; en el niño mayor, no por la misma vía"
+        },
+        {
+          "con": "Soluciones HIPOTÓNICAS en el niño ingresado",
+          "efecto": "HIPONATREMIA yatrógena con encefalopatía, convulsiones y muerte: el niño hospitalizado tiene la ADH elevada por dolor, náuseas, fiebre o el propio estrés",
+          "gravedad": "alta",
+          "manejo": "Usar soluciones ISOTÓNICAS para el mantenimiento y controlar el sodio a diario"
+        },
+        {
+          "con": "Corrección rápida del déficit en la cetoacidosis",
+          "efecto": "EDEMA CEREBRAL, complicación grave y casi exclusiva del niño",
+          "gravedad": "alta",
+          "manejo": "Reponer el déficit a lo largo de 48 h y vigilar cefalea, bradicardia, hipertensión o deterioro de la conciencia"
+        },
+        {
+          "con": "Potasio en el niño oligúrico",
+          "efecto": "Hiperpotasemia grave",
+          "gravedad": "alta",
+          "manejo": "No añadir potasio hasta comprobar que el niño orina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis y extravasación de la vía periférica",
+        "Sobrecarga de volumen con edemas",
+        "Hiperglucemia si la tasa de infusión de glucosa es excesiva",
+        "Dolor y ansiedad asociados a la canalización"
+      ],
+      "graves": [
+        "HIPONATREMIA YATRÓGENA con encefalopatía, convulsiones y muerte, por soluciones hipotónicas de mantenimiento",
+        "EDEMA CEREBRAL en la cetoacidosis diabética por rehidratación demasiado rápida",
+        "Edema agudo de pulmón por sobrecarga en el cardiópata o el nefrópata",
+        "Hiperpotasemia por aporte de potasio sin diuresis establecida",
+        "Hipoglucemia si se omite la glucosa en el lactante en ayunas",
+        "Necrosis por extravasación de soluciones hiperosmolares"
+      ]
+    },
+    "contraindicaciones": [
+      "Soluciones HIPOTÓNICAS como mantenimiento estándar en el niño hospitalizado",
+      "Aporte de potasio antes de comprobar diuresis",
+      "Ringer lactato junto con ceftriaxona en el neonato",
+      "Sobrecarga de volumen establecida con edema pulmonar"
+    ],
+    "perlas": [
+      "La lección histórica más importante de la sueroterapia pediátrica: durante décadas se usaron soluciones HIPOTÓNICAS de mantenimiento y produjeron hiponatremias graves, con encefalopatía, convulsiones y muertes en niños sanos ingresados por procesos banales. El niño hospitalizado tiene la ADH elevada por dolor, fiebre, náuseas y estrés, no puede excretar agua libre, y se le estaba administrando exactamente eso. Hoy la regla es: ISOTÓNICO con glucosa para mantenimiento, y sodio de control a diario.",
+      "PESAR AL NIÑO no es un trámite: todo el cálculo depende del peso, y la diferencia con el peso previo es el mejor indicador del déficit. Estimarlo a ojo introduce errores que en un lactante de 8 kg son proporcionalmente enormes.",
+      "La glucosa en el mantenimiento no es opcional como en el adulto: el niño pequeño tiene depósitos de glucógeno escasos y entra en cetosis e hipoglucemia en pocas horas de ayuno.",
+      "En la CETOACIDOSIS del niño la rehidratación es deliberadamente LENTA, repartida en 48 h, porque la corrección rápida se asocia a EDEMA CEREBRAL, una complicación con mortalidad alta y casi exclusiva de la edad pediátrica. Los signos de alarma son cefalea, bradicardia con hipertensión y deterioro de la conciencia durante el tratamiento, justo cuando la analítica parece mejorar.",
+      "La vía ORAL o por SONDA NASOGÁSTRICA es preferible a la intravenosa siempre que sea viable, incluso en deshidrataciones moderadas: es más fisiológica, evita los errores de cálculo y no requiere canalizar a un niño deshidratado, en el que además es difícil.",
+      "NO añadir potasio hasta comprobar que el niño ORINA es una regla simple que evita hiperpotasemias graves.",
+      "En una situación crítica, si no se consigue acceso venoso en 1-2 minutos, se pasa a la vía INTRAÓSEA sin dudar: en el niño en shock es rápida, fiable y admite cualquier fluido y fármaco."
+    ],
+    "embarazo_lactancia": "No aplicable en la edad pediátrica habitual.",
+    "micro_relacionado": [],
+    "fuente": "AMIR Pediatría; Harrison 20.ª ed., cap. de trastornos hidroelectrolíticos; recomendaciones actuales sobre fluidoterapia isotónica de mantenimiento en pediatría"
+  }
+]

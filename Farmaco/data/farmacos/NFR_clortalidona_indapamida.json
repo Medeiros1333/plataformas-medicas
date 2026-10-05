@@ -1,0 +1,213 @@
+[
+  {
+    "id": "NFR-clortalidona",
+    "nombre": "Clortalidona",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Diurético tiazídico",
+    "subclase": "Análogo tiazídico («tiazida-like») de acción muy prolongada",
+    "vs_clase": [
+      "**Vida media muy larga (40-60 h)**: efecto antihipertensivo sostenido de 24-72 h, que cubre la noche y la mañana mejor que la hidroclorotiazida.",
+      "**Unas 1,5-2 veces más potente que la hidroclorotiazida por miligramo** (12,5 mg de clortalidona ≈ 25 mg de hidroclorotiazida).",
+      "**Mayor evidencia en eventos cardiovasculares** (ALLHAT, SHEP) que la hidroclorotiazida.",
+      "**Más hipopotasemia e hiponatremia** que la hidroclorotiazida a dosis equipotentes, por su larga acción.",
+      "**Eficaz incluso en enfermedad renal crónica avanzada** (FG 15-30) en la hipertensión resistente (ensayo CLICK), contra la idea clásica de que las tiazidas no funcionan con FG <30."
+    ],
+    "mecanismo": "Inhibe el cotransportador Na-Cl del túbulo contorneado distal. Natriuresis moderada, con pérdida de potasio y magnesio, y **retención de calcio** (útil en la hipercalciuria). A largo plazo, su efecto antihipertensivo depende de la reducción de las resistencias periféricas más que de la diuresis.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "12,5-25 mg",
+        "posologia": "Cada 24 h, por la mañana",
+        "via": "VO",
+        "nota": "Dosis superiores a 25 mg añaden poco efecto y mucha hipopotasemia"
+      },
+      {
+        "patologia": "Hipertensión resistente en enfermedad renal crónica estadio 4",
+        "dosis": "12,5 mg → 50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Titular cada 4 semanas con control de electrolitos y creatinina"
+      },
+      {
+        "patologia": "Hipercalciuria con litiasis cálcica recurrente",
+        "dosis": "25 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Con restricción de sal y citrato potásico si hay hipopotasemia"
+      }
+    ],
+    "esquema": {
+      "inicio": "12,5 mg/día por la mañana. Sodio, potasio, creatinina, glucemia y ácido úrico basales.",
+      "titulacion": "Subir a 25 mg a las 4 semanas si no se alcanza el objetivo; antes de seguir subiendo, añadir otro antihipertensivo.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa.",
+      "via": "VO, por la mañana.",
+      "monitorizacion": "**Sodio y potasio a las 2-4 semanas** (sobre todo en mujeres ancianas de bajo peso, con más riesgo de hiponatremia), y después cada 6-12 meses. Glucemia y ácido úrico anuales."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad del 65%.",
+      "distribucion": "**Se une ávidamente a la anhidrasa carbónica de los hematíes, que actúa como reservorio**: de ahí su vida media tan larga.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal, mayoritariamente inalterada.",
+      "vida_media": "**40-60 h.**",
+      "ajuste_renal": "Útil hasta FG 15-30 en hipertensión resistente; vigilar estrechamente electrolitos y creatinina.",
+      "ajuste_hepatico": "Precaución en la cirrosis (hiponatremia, hipopotasemia, encefalopatía).",
+      "interacciones": [
+        {
+          "con": "Litio",
+          "efecto": "Aumenta la litemia un 25-40%",
+          "gravedad": "alta",
+          "manejo": "Evitar o reducir la dosis de litio con control de litemia"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "La hipopotasemia favorece la toxicidad digitálica",
+          "gravedad": "alta",
+          "manejo": "Mantener potasio >4 mmol/L"
+        },
+        {
+          "con": "Fármacos que prolongan el QT (sotalol, antipsicóticos, macrólidos)",
+          "efecto": "La hipopotasemia y la hipomagnesemia favorecen torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Corregir potasio y magnesio"
+        },
+        {
+          "con": "ISRS, carbamazepina",
+          "efecto": "Hiponatremia aditiva",
+          "gravedad": "media",
+          "manejo": "Control de sodio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Hipopotasemia** (más que con hidroclorotiazida)",
+        "Hiperuricemia y crisis de gota",
+        "Hiperglucemia, hipertrigliceridemia",
+        "Hipomagnesemia, disfunción eréctil"
+      ],
+      "graves": [
+        "**Hiponatremia grave** (típica de la mujer anciana en las primeras semanas)",
+        "Hipopotasemia con arritmias",
+        "Fotosensibilidad y reacciones cutáneas",
+        "Pancreatitis (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria",
+      "Hiponatremia o hipopotasemia refractarias",
+      "Hipercalcemia",
+      "Gota activa (relativa)",
+      "Alergia a sulfonamidas con reacción grave previa"
+    ],
+    "perlas": [
+      "**La hiponatremia por tiazidas aparece típicamente en las primeras 2 semanas** en mujeres mayores y delgadas: pedir un ionograma precoz.",
+      "Si se cambia de hidroclorotiazida a clortalidona, hacerlo a la mitad de la dosis."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo (hipovolemia materna, trombocitopenia neonatal). Puede inhibir la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 15; Harrison 20.ª ed., cap. de hipertensión arterial"
+  },
+  {
+    "id": "NFR-indapamida",
+    "nombre": "Indapamida",
+    "sinonimos": [
+      "Indapamida retard 1,5 mg",
+      "Perindopril/indapamida (combinación fija)"
+    ],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Diurético tiazídico",
+    "subclase": "Análogo tiazídico con efecto vasodilatador directo",
+    "vs_clase": [
+      "**Perfil METABÓLICO más neutro** de la clase a dosis bajas (1,5 mg retard): menos hiperglucemia, dislipemia e hipopotasemia. Preferible en el diabético y en el síndrome metabólico.",
+      "**Efecto VASODILATADOR directo** además del diurético.",
+      "**Evidencia en el MUY anciano (≥80 años)**: redujo mortalidad e ictus (HYVET), y tras el ictus asociada a perindopril (PROGRESS).",
+      "**Metabolismo HEPÁTICO mayoritario** (la hidroclorotiazida y la clortalidona se eliminan inalteradas por el riñón)."
+    ],
+    "mecanismo": "Inhibe el cotransportador Na-Cl del túbulo distal y **reduce además directamente el tono vascular** (modulación del calcio en el músculo liso y de prostaglandinas vasodilatadoras). A la dosis de 1,5 mg retard, el efecto antihipertensivo predomina sobre el diurético.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial (especialmente en anciano, diabético o tras un ictus)",
+        "dosis": "1,5 mg (retard) o 2,5 mg (liberación inmediata)",
+        "posologia": "Cada 24 h, por la mañana",
+        "via": "VO",
+        "nota": "No aumentar la dosis: por encima de 2,5 mg solo aumenta el efecto diurético y los efectos metabólicos"
+      },
+      {
+        "patologia": "Prevención secundaria tras ictus o AIT",
+        "dosis": "2,5 mg (con perindopril 4 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Pauta del estudio PROGRESS"
+      }
+    ],
+    "esquema": {
+      "inicio": "1,5 mg retard por la mañana. Sodio, potasio y creatinina basales.",
+      "titulacion": "**No se titula**: si no basta, se añade otro antihipertensivo.",
+      "duracion": "Indefinida.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Sodio y potasio a las 2-4 semanas y después cada 6-12 meses; ECG si hay otros fármacos que prolongan el QT."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas del 79%; lipófila, con captación eritrocitaria.",
+      "metabolismo": "**Hepático extenso (CYP3A4).**",
+      "eliminacion": "Renal (70%, como metabolitos) y fecal.",
+      "vida_media": "14-18 h.",
+      "ajuste_renal": "No precisa en leve-moderada; evitar con FG <30.",
+      "ajuste_hepatico": "Contraindicada en insuficiencia hepática grave (encefalopatía).",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "**Prolongación del QT y torsade de pointes, favorecidas por la hipopotasemia**",
+          "gravedad": "alta",
+          "manejo": "Evitar combinaciones; corregir potasio y magnesio"
+        },
+        {
+          "con": "Litio",
+          "efecto": "Aumento de la litemia",
+          "gravedad": "alta",
+          "manejo": "Evitar o controlar litemia"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Reducen el efecto antihipertensivo y favorecen el fracaso renal",
+          "gravedad": "media",
+          "manejo": "Evitar el uso crónico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipopotasemia leve (menor que otras tiazidas a dosis bajas)",
+        "Mareo, cefalea",
+        "Exantema"
+      ],
+      "graves": [
+        "Hiponatremia grave",
+        "Prolongación del QT con hipopotasemia",
+        "Reacciones cutáneas graves (raras)",
+        "Encefalopatía en cirróticos"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave (FG <30)",
+      "Encefalopatía o insuficiencia hepática grave",
+      "Hipopotasemia",
+      "Alergia grave a sulfonamidas"
+    ],
+    "perlas": [
+      "**En el hipertenso de más de 80 años, la indapamida tiene la evidencia más sólida** (HYVET).",
+      "Su combinación fija con perindopril facilita la adherencia y compensa la tendencia a la hipopotasemia."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo y la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 11 y 15; Harrison 20.ª ed., cap. de hipertensión arterial"
+  }
+]

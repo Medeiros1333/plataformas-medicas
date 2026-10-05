@@ -1,0 +1,256 @@
+[
+  {
+    "id": "NFR-acetazolamida",
+    "nombre": "Acetazolamida",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Diurético",
+    "subclase": "Inhibidor de la anhidrasa carbónica",
+    "mecanismo": "Inhibe la anhidrasa carbónica, la enzima que interconvierte dióxido de carbono y agua en bicarbonato y protones. En el TÚBULO PROXIMAL esa reacción es la que permite reabsorber el bicarbonato filtrado: al bloquearla se pierde bicarbonato por la orina, arrastrando sodio y agua, y el resultado es una diuresis alcalina con ACIDOSIS METABÓLICA hiperclorémica. Su potencia diurética es escasa y se agota en pocos días, porque la nefrona distal compensa la pérdida; su interés no está en la diuresis sino en las consecuencias de la acidosis y de la alcalinización de la orina. En el OJO reduce la producción de humor acuoso por el cuerpo ciliar, y en el sistema nervioso central la acidosis metabólica que produce estimula el centro respiratorio, que es el fundamento de su uso en el mal de altura.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ALCALOSIS METABÓLICA del paciente con insuficiencia cardiaca tratado con diuréticos de asa",
+        "dosis": "250-500 mg al día VO o IV durante 2-3 días",
+        "posologia": "Una toma al día",
+        "via": "VO",
+        "dosis_objetivo": "Descenso del bicarbonato sérico hacia el rango normal manteniendo la respuesta diurética",
+        "nota": "Indicación muy práctica y a menudo olvidada: la alcalosis por contracción frena la diuresis, y corregirla devuelve eficacia a la furosemida"
+      },
+      {
+        "patologia": "GLAUCOMA de ángulo abierto y crisis de glaucoma agudo",
+        "dosis": "250 mg cada 6-12 horas VO; en la crisis aguda, 500 mg IV seguidos de 250 mg cada 6 horas",
+        "posologia": "Cada 6-12 horas",
+        "via": "VO",
+        "nota": "En la crisis aguda forma parte del tratamiento médico inicial junto con los hipotensores tópicos y el manitol"
+      },
+      {
+        "patologia": "Profilaxis y tratamiento del MAL DE ALTURA",
+        "dosis": "125-250 mg cada 12 horas, empezando 24 horas antes del ascenso",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Acelera la aclimatación al provocar una acidosis metabólica que estimula la ventilación; no sustituye al descenso si el cuadro es grave"
+      },
+      {
+        "patologia": "Hipertensión intracraneal idiopática",
+        "dosis": "250-500 mg cada 12 horas, hasta 4 g al día según tolerancia",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "Reduce la producción de líquido cefalorraquídeo; es el tratamiento médico de primera línea"
+      },
+      {
+        "patologia": "Alcalinización de la orina en la intoxicación por salicilatos y en la profilaxis de la nefropatía por ácido úrico",
+        "dosis": "250-500 mg, ajustada al pH urinario",
+        "posologia": "Según pH urinario",
+        "via": "VO",
+        "dosis_objetivo": "pH urinario superior a 7,5",
+        "nota": "En la intoxicación grave por salicilatos se prefiere el bicarbonato intravenoso, porque la acetazolamida agrava la acidosis sistémica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja y con analítica basal de potasio, sodio, bicarbonato y función renal.",
+      "titulacion": "Poco margen: por encima de cierta dosis solo aumenta la acidosis, no el efecto.",
+      "duracion": "Cursos CORTOS, de días, en la alcalosis metabólica. Prolongada en el glaucoma y en la hipertensión intracraneal, con controles periódicos.",
+      "fin": "Suspensión sin pauta descendente. En el tratamiento crónico hay que vigilar la aparición de acidosis mantenida, litiasis e hipopotasemia.",
+      "via": "Oral e intravenosa.",
+      "monitorizacion": "Potasio, bicarbonato, sodio y función renal. En tratamiento prolongado, hemograma (riesgo de discrasias por su estructura sulfamídica)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Se une a la anhidrasa carbónica de los eritrocitos y del riñón.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "RENAL, sin modificar, por secreción tubular.",
+      "vida_media": "6-9 horas.",
+      "ajuste_renal": "Evitar con filtrado menor de 30 mL/min: se acumula, deja de ser eficaz y agrava la acidosis.",
+      "ajuste_hepatico": "CONTRAINDICADA en la cirrosis: la alcalinización de la orina reduce la eliminación de amonio y puede precipitar una ENCEFALOPATÍA HEPÁTICA.",
+      "interacciones": [
+        {
+          "con": "AAS a dosis altas y salicilatos",
+          "efecto": "Aumenta la fracción no ionizada del salicilato y su paso al sistema nervioso central; toxicidad grave",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación en el paciente que toma salicilatos a dosis altas"
+        },
+        {
+          "con": "Diuréticos de asa y tiazidas",
+          "efecto": "HIPOPOTASEMIA aditiva",
+          "gravedad": "alta",
+          "manejo": "Controlar el potasio; la asociación con la furosemida es útil pero exige vigilancia"
+        },
+        {
+          "con": "LITIO",
+          "efecto": "Aumenta su eliminación y reduce la litemia con pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Monitorizar la litemia"
+        },
+        {
+          "con": "TOPIRAMATO y zonisamida",
+          "efecto": "Ambos inhiben la anhidrasa carbónica: acidosis metabólica y LITIASIS renal aditivas",
+          "gravedad": "media",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Metformina",
+          "efecto": "La acidosis metabólica aumenta el riesgo de acidosis láctica",
+          "gravedad": "media",
+          "manejo": "Precaución en el diabético con deterioro renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "PARESTESIAS peribucales y en manos y pies, casi constantes y muy características",
+        "Alteración del GUSTO, sobre todo el sabor metálico de las bebidas carbonatadas",
+        "Poliuria",
+        "Astenia, somnolencia y anorexia",
+        "Acidosis metabólica hiperclorémica"
+      ],
+      "graves": [
+        "HIPOPOTASEMIA",
+        "Acidosis metabólica grave, sobre todo en la insuficiencia renal o hepática",
+        "LITIASIS renal de fosfato cálcico (orina alcalina con hipocitraturia)",
+        "Encefalopatía hepática en el cirrótico",
+        "Discrasias sanguíneas y síndrome de Stevens-Johnson, por su naturaleza sulfamídica"
+      ]
+    },
+    "contraindicaciones": [
+      "CIRROSIS e insuficiencia hepática (riesgo de encefalopatía)",
+      "Insuficiencia renal grave",
+      "Hipopotasemia e hiponatremia significativas",
+      "Acidosis metabólica o respiratoria preexistente",
+      "Alergia a las sulfamidas",
+      "Insuficiencia suprarrenal"
+    ],
+    "perlas": [
+      "Su lugar hoy no es la diuresis sino la CORRECCIÓN DE LA ALCALOSIS. En el paciente con insuficiencia cardiaca al que la furosemida ha dejado de responder, la alcalosis por contracción es una causa frecuente y reversible de resistencia diurética, y una tanda corta de acetazolamida devuelve la respuesta. Es un recurso muy rentable y poco usado.",
+      "Es un diurético que se AGOTA: a los pocos días la nefrona distal compensa la pérdida de bicarbonato y el efecto natriurético desaparece. Por eso se pauta en ciclos cortos y no como diurético de mantenimiento.",
+      "Las PARESTESIAS peribucales son casi la firma del fármaco: avisar de ellas evita consultas y abandonos innecesarios. El sabor metálico de las bebidas con gas es otro dato clásico que sorprende al paciente si no se le anticipa.",
+      "En el CIRRÓTICO está contraindicada: alcaliniza la orina, reduce la eliminación de amonio y puede desencadenar una encefalopatía hepática. Es un error fácil de cometer porque el cirrótico con ascitis recibe muchos diuréticos.",
+      "Es una SULFAMIDA, con todo lo que ello implica: reacciones cutáneas graves y discrasias sanguíneas, y precaución en el paciente con antecedente de alergia a las sulfamidas.",
+      "En el mal de altura funciona porque produce acidosis, y la acidosis estimula la ventilación acelerando la aclimatación. Es un caso poco habitual en farmacología: el efecto adverso principal del fármaco es exactamente su mecanismo terapéutico.",
+      "Alcaliniza la orina, lo que favorece la LITIASIS de fosfato cálcico en tratamiento prolongado, sobre todo asociada a topiramato, que comparte mecanismo."
+    ],
+    "embarazo_lactancia": "Evitar en el primer trimestre (teratogenia descrita en animales). Su uso en el glaucoma o en la hipertensión intracraneal durante el embarazo se valora individualmente. Pasa a la leche en cantidades mínimas; se considera compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; guías de la ESC sobre insuficiencia cardiaca y estudios de acetazolamida en la descongestión"
+  },
+  {
+    "id": "NFR-quelantes-fosforo",
+    "nombre": "Quelantes del fósforo (carbonato cálcico, sevelámero, carbonato de lantano)",
+    "sinonimos": [
+      "Captores del fósforo"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante intestinal",
+    "subclase": "Captores del fosfato de la dieta",
+    "mecanismo": "Se unen al FOSFATO de los alimentos dentro de la luz intestinal y forman un complejo no absorbible que se elimina con las heces. No actúan sobre el riñón ni sobre el fósforo ya absorbido: solo impiden que entre. Por eso su eficacia depende por completo de que se tomen CON LA COMIDA, y el mismo comprimido tomado en ayunas es prácticamente inútil. La diferencia entre ellos está en lo que aportan además del efecto quelante: los CÁLCICOS son baratos pero suman carga de calcio y favorecen la calcificación vascular; el SEVELÁMERO es un polímero que no se absorbe, no aporta calcio y además baja el colesterol LDL y capta ácidos biliares; el LANTANO es muy potente y permite menos comprimidos, pero se deposita en el hueso y en el tubo digestivo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "HIPERFOSFATEMIA de la enfermedad renal crónica avanzada y en diálisis",
+        "dosis": "Carbonato cálcico 500-1500 mg de calcio elemento al día; sevelámero 800-1600 mg en cada comida; carbonato de lantano 500-1000 mg en cada comida",
+        "posologia": "En CADA comida principal, repartido según el contenido en fósforo de esa comida",
+        "via": "VO",
+        "dosis_objetivo": "Fósforo sérico dentro del rango normal, o en descenso hacia él, con calcio y PTH controlados",
+        "nota": "Es el segundo escalón: primero la restricción dietética de fósforo y la adecuación de la diálisis"
+      },
+      {
+        "patologia": "Hiperfosfatemia con hipocalcemia asociada",
+        "dosis": "Carbonato cálcico 500-1000 mg de calcio elemento en cada comida",
+        "posologia": "En cada comida",
+        "via": "VO",
+        "nota": "El quelante cálcico aporta las dos cosas, pero hay que vigilar el producto calcio-fósforo y el riesgo de calcificación"
+      },
+      {
+        "patologia": "Hiperfosfatemia en el paciente con calcificación vascular, hipercalcemia o PTH suprimida",
+        "dosis": "Sevelámero 800-1600 mg en cada comida, o carbonato de lantano 500-1000 mg en cada comida",
+        "posologia": "En cada comida",
+        "via": "VO",
+        "nota": "Indicación de los quelantes SIN calcio: el objetivo es bajar el fósforo sin añadir carga cálcica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras haber intentado la restricción dietética de fósforo (lácteos, refrescos de cola, conservas y todos los aditivos con fosfato, que son los que más se absorben) y haber optimizado la diálisis.",
+      "titulacion": "Ajuste mensual según el fósforo sérico, adaptando el número de comprimidos al contenido en fósforo de cada comida.",
+      "duracion": "Indefinida mientras persista la hiperfosfatemia.",
+      "fin": "Se suspenden o se reducen si aparece hipofosfatemia, hipercalcemia o si el paciente recibe un trasplante renal funcionante.",
+      "via": "Oral, MASTICADOS o tragados JUNTO con la comida. Nunca en ayunas ni entre horas.",
+      "monitorizacion": "Fósforo, calcio, PTH y fosfatasa alcalina periódicos. Bicarbonato con el sevelámero (produce acidosis). Vigilar el estreñimiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "El SEVELÁMERO no se absorbe en absoluto. El calcio de los quelantes cálcicos SÍ se absorbe en parte, y eso es lo que limita su uso. El lantano se absorbe de forma mínima pero se deposita en hueso y tubo digestivo.",
+      "distribucion": "No aplicable para el sevelámero.",
+      "metabolismo": "No aplicable.",
+      "eliminacion": "Fecal.",
+      "vida_media": "No aplicable: el efecto es local e inmediato en la luz intestinal.",
+      "ajuste_renal": "Son fármacos concebidos precisamente para la insuficiencia renal; no requieren ajuste por filtrado.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "LEVOTIROXINA",
+          "efecto": "Se une al quelante y no se absorbe: hipotiroidismo por falta de absorción",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 4 horas; la levotiroxina en ayunas y el quelante con las comidas"
+        },
+        {
+          "con": "QUINOLONAS y tetraciclinas",
+          "efecto": "Quelación con pérdida de eficacia antibiótica",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2 horas antes o 4 después"
+        },
+        {
+          "con": "Hierro oral",
+          "efecto": "Reducción de su absorción",
+          "gravedad": "media",
+          "manejo": "Separar las tomas"
+        },
+        {
+          "con": "Micofenolato y ciclosporina (sevelámero)",
+          "efecto": "Reducción de las concentraciones del inmunosupresor",
+          "gravedad": "alta",
+          "manejo": "Muy relevante en el trasplantado: separar las tomas y monitorizar niveles"
+        },
+        {
+          "con": "Vitamina D y análogos",
+          "efecto": "Aumentan la absorción intestinal de fósforo y de calcio, contrarrestando el efecto",
+          "gravedad": "media",
+          "manejo": "Ajustar ambos a la vez dentro del manejo global del metabolismo óseo-mineral"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO, náuseas y distensión abdominal",
+        "Sabor desagradable y elevado número de comprimidos, que es el mayor problema de adherencia",
+        "Dispepsia"
+      ],
+      "graves": [
+        "HIPERCALCEMIA y CALCIFICACIÓN VASCULAR con los quelantes cálcicos",
+        "ACIDOSIS METABÓLICA con el sevelámero",
+        "Obstrucción intestinal, íleo y perforación, descritos sobre todo con el sevelámero en el paciente con dismotilidad",
+        "Depósito de lantano en hueso y mucosa digestiva con el uso prolongado",
+        "Hipofosfatemia por sobretratamiento"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipofosfatemia",
+      "Obstrucción intestinal e íleo",
+      "Hipercalcemia (para los quelantes cálcicos)",
+      "Precaución en la dismotilidad digestiva y en el antecedente de cirugía abdominal (sevelámero)"
+    ],
+    "perlas": [
+      "La regla que decide si funciona o no: CON LA COMIDA. Un quelante tomado en ayunas o entre horas no quela nada, porque no hay fosfato en la luz intestinal al que unirse. Es la causa número uno de fracaso terapéutico, y se corrige explicando el mecanismo al paciente en vez de subiendo la dosis.",
+      "La dosis se reparte SEGÚN LO QUE SE COME: más comprimidos en la comida rica en fósforo y menos en la ligera. El paciente que entiende esto controla mucho mejor su fósforo que el que toma un número fijo de comprimidos.",
+      "El fósforo de los ADITIVOS alimentarios (conservantes de embutidos, refrescos de cola, precocinados) se absorbe casi por completo, mientras que el de las proteínas vegetales apenas se absorbe. Leer las etiquetas buscando la palabra fosfato rinde más que retirar alimentos naturalmente ricos en fósforo.",
+      "Los quelantes CÁLCICOS son baratos y eficaces, pero cada gramo de calcio que se absorbe se deposita en la pared arterial del paciente urémico. La calcificación vascular es una de las razones por las que estos pacientes mueren de causa cardiovascular, y de ahí el desplazamiento hacia los quelantes sin calcio.",
+      "El SEVELÁMERO tiene dos efectos añadidos que a veces se aprovechan: baja el colesterol LDL al captar ácidos biliares y no aporta calcio. A cambio produce acidosis metabólica y una carga elevada de comprimidos.",
+      "El ALUMINIO como quelante quedó abandonado por la encefalopatía y la osteomalacia por depósito. Es una lección histórica que conviene recordar cuando aparece un quelante nuevo muy potente: el problema no fue su eficacia, sino lo que acumulaba.",
+      "El número de comprimidos es el verdadero enemigo de la adherencia: un paciente en diálisis puede llegar a tomar más de diez al día solo de quelante. Cualquier decisión que reduzca esa carga mejora el control real del fósforo más que cambiar de molécula.",
+      "La LEVOTIROXINA es la interacción que más se olvida: si el paciente la toma a la vez que el quelante, deja de absorberla y el hipotiroidismo se descontrola sin causa aparente."
+    ],
+    "embarazo_lactancia": "Datos escasos. El carbonato cálcico se considera seguro. El sevelámero, al no absorberse, se considera de riesgo bajo, aunque puede reducir la absorción de vitaminas liposolubles y de folato, lo que importa especialmente en la gestación. El lantano se evita.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; guías KDIGO sobre alteraciones del metabolismo óseo-mineral en la enfermedad renal crónica"
+  }
+]

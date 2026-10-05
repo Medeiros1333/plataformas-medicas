@@ -1,0 +1,245 @@
+[
+  {
+    "id": "GIN-oxitocina",
+    "nombre": "Oxitocina",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Uterotónico",
+    "subclase": "Análogo sintético de la hormona neurohipofisaria",
+    "mecanismo": "Se une a receptores acoplados a proteína Gq del miometrio, aumenta el calcio intracelular y produce contracciones rítmicas y coordinadas. El dato que gobierna toda su clínica es que la DENSIDAD DE RECEPTORES miometriales es mínima al principio del embarazo y se multiplica más de cien veces al término: por eso es un fármaco casi inerte en el útero pretérmino y potentísimo al final de la gestación. Tras el parto, la contracción mantenida comprime mecánicamente los vasos del lecho placentario y detiene la hemorragia; ese es su papel en la hemorragia posparto. Su estructura es casi idéntica a la de la VASOPRESINA (difieren en dos aminoácidos), y de ahí un efecto adverso que sorprende a quien no lo espera: a dosis altas y en perfusiones prolongadas con soluciones hipotónicas produce RETENCIÓN DE AGUA LIBRE con hiponatremia dilucional, convulsiones y coma.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INDUCCIÓN y conducción del parto",
+        "dosis": "Perfusión de 1-2 mUI/min, aumentando 1-2 mUI/min cada 30 minutos, máximo 20-30 mUI/min",
+        "posologia": "Perfusión continua titulada",
+        "via": "IV",
+        "dosis_objetivo": "Dinámica uterina de 3-5 contracciones cada 10 minutos con relajación completa entre ellas y registro cardiotocográfico normal",
+        "nota": "El cuello debe estar MADURO (Bishop favorable); si no lo está, primero se madura con prostaglandinas o con métodos mecánicos"
+      },
+      {
+        "patologia": "Profilaxis de la HEMORRAGIA POSPARTO (manejo activo del alumbramiento)",
+        "dosis": "10 UI IM o 5 UI IV lenta tras la salida del hombro anterior o del feto",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "nota": "Es la intervención que MÁS reduce la hemorragia posparto y forma parte del manejo activo del alumbramiento en todas las guías. Es una medida sencilla y de enorme impacto en salud materna mundial"
+      },
+      {
+        "patologia": "HEMORRAGIA POSPARTO establecida por atonía uterina",
+        "dosis": "10 UI IV lenta o IM, seguidas de perfusión de 20-40 UI en 500 mL a 125 mL/h",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "dosis_objetivo": "Útero contraído y firme, con cese del sangrado",
+        "nota": "Junto con el masaje uterino bimanual. Si no responde, se escala a misoprostol, carbetocina, metilergometrina y balón de taponamiento"
+      },
+      {
+        "patologia": "Cesárea",
+        "dosis": "3-5 UI IV lenta tras la extracción fetal, seguidas de perfusión",
+        "posologia": "Bolo y perfusión",
+        "via": "IV",
+        "nota": "El bolo debe administrarse LENTO: en bolo rápido produce hipotensión grave y taquicardia"
+      }
+    ],
+    "esquema": {
+      "inicio": "Solo con indicación obstétrica establecida, monitorización cardiotocográfica CONTINUA y posibilidad de cesárea urgente. Comprobar la presentación y descartar desproporción y placenta previa.",
+      "titulacion": "Ascenso LENTO cada 30 minutos: el receptor tarda en equilibrarse y subir deprisa produce taquisistolia.",
+      "duracion": "Hasta el parto en la inducción; unas horas de perfusión tras el alumbramiento en la profilaxis.",
+      "fin": "Se reduce o se suspende ante TAQUISISTOLIA (más de 5 contracciones en 10 minutos) o ante alteraciones del registro fetal. La vida media es de minutos, de modo que suspenderla es una medida rápidamente eficaz.",
+      "via": "Intravenosa en perfusión con bomba (nunca en bolo rápido) o intramuscular.",
+      "monitorizacion": "Dinámica uterina y registro cardiotocográfico continuos, tensión arterial, balance hídrico y NATREMIA en perfusiones prolongadas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Se destruye por vía oral (es un péptido). Intravenosa e intramuscular.",
+      "distribucion": "Espacio extracelular; atraviesa poco la placenta.",
+      "metabolismo": "Oxitocinasas hepáticas, renales y placentarias.",
+      "eliminacion": "Renal.",
+      "vida_media": "1-6 MINUTOS, lo que permite titular con precisión y revertir el efecto simplemente parando la perfusión.",
+      "ajuste_renal": "Precaución por el riesgo de intoxicación hídrica.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "PROSTAGLANDINAS (misoprostol, dinoprostona)",
+          "efecto": "Potencian la actividad uterina con riesgo de HIPERESTIMULACIÓN y ROTURA UTERINA",
+          "gravedad": "alta",
+          "manejo": "Respetar un intervalo mínimo de 4 horas (30 minutos si se ha retirado un dispositivo de dinoprostona) antes de iniciar la oxitocina"
+        },
+        {
+          "con": "Anestésicos y vasoconstrictores simpaticomiméticos",
+          "efecto": "Hipertensión grave",
+          "gravedad": "alta",
+          "manejo": "Precaución con la efedrina y los vasopresores en el contexto de la anestesia regional"
+        },
+        {
+          "con": "Soluciones HIPOTÓNICAS en perfusiones prolongadas",
+          "efecto": "INTOXICACIÓN HÍDRICA con hiponatremia, convulsiones y coma por el efecto antidiurético",
+          "gravedad": "alta",
+          "manejo": "Usar soluciones isotónicas, limitar el volumen y controlar la natremia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos",
+        "Cefalea y rubor",
+        "Dolor por la propia dinámica uterina",
+        "Taquicardia"
+      ],
+      "graves": [
+        "TAQUISISTOLIA e hiperestimulación uterina con SUFRIMIENTO FETAL por reducción del flujo placentario",
+        "ROTURA UTERINA, sobre todo en la multípara y en la mujer con CESÁREA previa",
+        "INTOXICACIÓN HÍDRICA con hiponatremia grave, convulsiones y coma",
+        "HIPOTENSIÓN grave y arritmias con el bolo intravenoso rápido",
+        "Desprendimiento de placenta y embolia de líquido amniótico (asociación con la hiperestimulación)"
+      ]
+    },
+    "contraindicaciones": [
+      "Desproporción pelvicofetal y situación transversa",
+      "PLACENTA PREVIA y vasa previa",
+      "Sufrimiento fetal que exija extracción inmediata",
+      "Cicatriz uterina previa de riesgo (cesárea corporal, miomectomía transmural)",
+      "Prolapso de cordón e hipertonía uterina"
+    ],
+    "perlas": [
+      "El número de RECEPTORES explica por qué el mismo fármaco no sirve para todo: son escasísimos en el segundo trimestre y se multiplican por cien al término. Por eso la oxitocina no interrumpe un embarazo precoz y sí desencadena un parto a término. Entendido esto, no hay que memorizar nada más sobre su selectividad.",
+      "La VIDA MEDIA de minutos es su gran ventaja de seguridad: ante una taquisistolia, basta con PARAR la perfusión para que el efecto ceda en pocos minutos. Es un fármaco potente pero perfectamente reversible, al contrario que el misoprostol, que una vez administrado no se puede retirar.",
+      "El bolo intravenoso RÁPIDO produce vasodilatación brusca con hipotensión, taquicardia y a veces isquemia miocárdica. En la cesárea hay que darlo LENTO y diluido: es una causa conocida de colapso intraoperatorio.",
+      "La INTOXICACIÓN HÍDRICA se olvida siempre y sorprende cuando aparece: la oxitocina se parece a la vasopresina, y en una perfusión prolongada con suero hipotónico produce hiponatremia con convulsiones. La prevención es usar soluciones isotónicas y vigilar el balance.",
+      "El MANEJO ACTIVO DEL ALUMBRAMIENTO con oxitocina profiláctica es una de las intervenciones con mayor impacto en la mortalidad materna mundial: reduce a la mitad la hemorragia posparto, cuesta poco y es sencillo de aplicar.",
+      "Ante una hemorragia posparto hay que recordar las CUATRO T como causa: TONO (atonía, la más frecuente), TEJIDO (restos placentarios), TRAUMA (desgarros) y TROMBINA (coagulopatía). La oxitocina solo resuelve la primera: si el útero está bien contraído y sigue sangrando, la causa es otra y hay que buscarla.",
+      "Antes de inducir, hay que MADURAR el cuello si el Bishop es desfavorable. Poner oxitocina en un cuello inmaduro produce horas de contracciones dolorosas y una probabilidad alta de acabar en cesárea.",
+      "La CARBETOCINA es un análogo de vida media larga que permite sustituir la perfusión por una dosis única y no requiere cadena de frío en sus formulaciones termoestables, lo que la ha hecho muy relevante para la salud materna en países de renta baja."
+    ],
+    "embarazo_lactancia": "Es un fármaco de uso obstétrico: se emplea precisamente al final del embarazo y en el parto. Compatible con la lactancia; de hecho, la oxitocina endógena es la responsable del reflejo de eyección de la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37; guías de la OMS sobre prevención y tratamiento de la hemorragia posparto"
+  },
+  {
+    "id": "GIN-misoprostol",
+    "nombre": "Misoprostol (y mifepristona)",
+    "sinonimos": [
+      "Análogo de prostaglandina E1"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Uterotónico y protector gástrico",
+    "subclase": "Análogo sintético de la prostaglandina E1",
+    "mecanismo": "Análogo de la PGE1 que actúa sobre receptores EP2 y EP3. En el ÚTERO produce dos efectos complementarios: MADURA EL CUELLO, degradando el colágeno cervical y aumentando su contenido en agua, y CONTRAE el miometrio. A diferencia de la oxitocina, su acción NO depende de la densidad de receptores oxitocínicos, y por eso es eficaz en CUALQUIER momento de la gestación, incluido el primer trimestre: es lo que lo convierte en el fármaco central del aborto farmacológico y del manejo del aborto diferido. En el ESTÓMAGO, su acción sobre el receptor EP3 de la célula parietal reduce la secreción ácida y aumenta la producción de moco y bicarbonato, que fue su indicación original. La MIFEPRISTONA, con la que se combina, es un antagonista del receptor de progesterona que desprende la decidua y SENSIBILIZA el útero al misoprostol, multiplicando su eficacia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ABORTO FARMACOLÓGICO del primer trimestre",
+        "dosis": "Mifepristona 200 mg VO y, 24-48 horas después, misoprostol 800 microgramos por vía bucal, sublingual o vaginal",
+        "posologia": "Dosis secuencial, repetible a las 3-4 horas si es preciso",
+        "via": "bucal",
+        "dosis_objetivo": "Expulsión completa confirmada clínicamente o por ecografía o descenso de la beta-HCG",
+        "nota": "La combinación con mifepristona alcanza más del 95% de eficacia, muy superior al misoprostol solo"
+      },
+      {
+        "patologia": "Aborto DIFERIDO y aborto incompleto",
+        "dosis": "Misoprostol 600-800 microgramos por vía vaginal o sublingual, repetible",
+        "posologia": "Dosis repetible cada 3-4 horas",
+        "via": "vaginal",
+        "nota": "Alternativa al legrado, con menos complicaciones y sin necesidad de quirófano"
+      },
+      {
+        "patologia": "HEMORRAGIA POSPARTO cuando no hay oxitocina disponible o esta ha fracasado",
+        "dosis": "600-800 microgramos por vía sublingual o rectal",
+        "posologia": "Dosis única",
+        "via": "SL",
+        "nota": "No requiere CADENA DE FRÍO ni personal para canalizar una vía: por eso es una herramienta decisiva en entornos de recursos limitados"
+      },
+      {
+        "patologia": "MADURACIÓN CERVICAL e inducción del parto a término",
+        "dosis": "25 microgramos por vía vaginal cada 4-6 horas, o 25 microgramos por vía oral cada 2 horas",
+        "posologia": "Dosis repetidas hasta conseguir dinámica",
+        "via": "vaginal",
+        "dosis_objetivo": "Cuello maduro y dinámica uterina establecida, sin taquisistolia",
+        "nota": "La dosis a TÉRMINO es de 25 microgramos, TREINTA VECES menor que la del primer trimestre: el útero a término es incomparablemente más sensible"
+      },
+      {
+        "patologia": "Prevención de la úlcera gástrica por AINE (indicación original)",
+        "dosis": "200 microgramos cada 6-8 horas",
+        "posologia": "Cada 6-8 horas con las comidas",
+        "via": "VO",
+        "nota": "Desplazada por los inhibidores de la bomba de protones, mucho mejor tolerados"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar la localización del embarazo (descartar ECTÓPICO) y la edad gestacional. En la inducción a término, monitorización cardiotocográfica y comprobación de que no hay cesárea previa.",
+      "titulacion": "Dosis repetidas según respuesta, respetando el intervalo mínimo entre dosis.",
+      "duracion": "Horas o un par de días según la indicación.",
+      "fin": "Confirmar la expulsión completa. En la inducción, se suspende al establecerse la dinámica y se espera al menos 4 horas antes de iniciar oxitocina.",
+      "via": "Oral, sublingual, bucal, vaginal o rectal. Las vías VAGINAL y SUBLINGUAL dan concentraciones más altas y sostenidas que la oral, y esa diferencia de vía cambia radicalmente la eficacia.",
+      "monitorizacion": "Sangrado, dolor, signos de infección y, en la inducción a término, dinámica uterina y registro fetal continuos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida por todas las vías. La VAGINAL y la SUBLINGUAL alcanzan mayor biodisponibilidad y efecto uterino más sostenido que la oral, que da un pico rápido y breve.",
+      "distribucion": "Se hidroliza rápidamente a ácido misoprostólico, la forma activa.",
+      "metabolismo": "Hidrólisis del éster y oxidación hepática.",
+      "eliminacion": "Renal.",
+      "vida_media": "20-40 minutos, aunque el efecto uterino dura varias horas.",
+      "ajuste_renal": "Reducir la dosis en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Sin ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "OXITOCINA",
+          "efecto": "Hiperestimulación uterina y riesgo de ROTURA",
+          "gravedad": "alta",
+          "manejo": "Respetar al menos 4 horas entre la última dosis de misoprostol y el inicio de la oxitocina"
+        },
+        {
+          "con": "Antiácidos con magnesio",
+          "efecto": "Agravan la diarrea",
+          "gravedad": "baja",
+          "manejo": "Evitarlos"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Antagonizan parcialmente su efecto sobre la mucosa gástrica; en cambio NO comprometen el aborto farmacológico",
+          "gravedad": "baja",
+          "manejo": "El ibuprofeno se puede usar sin problema para el dolor durante el aborto farmacológico, algo que a menudo se duda"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DOLOR abdominal de tipo cólico, intenso y esperable: forma parte del proceso y hay que pautar analgesia de antemano",
+        "SANGRADO vaginal más abundante que una regla",
+        "DIARREA, náuseas y vómitos (efecto prostaglandínico clásico)",
+        "ESCALOFRÍOS y FIEBRE transitoria en las primeras horas, que no significan infección",
+        "Cefalea"
+      ],
+      "graves": [
+        "TAQUISISTOLIA con sufrimiento fetal y ROTURA UTERINA, sobre todo si se usa a término en una mujer con CESÁREA PREVIA",
+        "Hemorragia grave que requiera transfusión o legrado",
+        "Aborto incompleto con retención de restos e infección",
+        "SEPSIS por Clostridium sordellii, complicación excepcional pero descrita y de altísima mortalidad, con hipotensión, hemoconcentración y leucocitosis extrema SIN FIEBRE",
+        "TERATOGENIA si el embarazo continúa: síndrome de Möbius y defectos de reducción de extremidades"
+      ]
+    },
+    "contraindicaciones": [
+      "CESÁREA PREVIA u otra cicatriz uterina, para la inducción a término (riesgo de rotura)",
+      "Embarazo ECTÓPICO conocido o no descartado",
+      "Sospecha de sufrimiento fetal en la inducción",
+      "Dispositivo intrauterino in situ (retirarlo antes)",
+      "Alergia a prostaglandinas y porfiria",
+      "Insuficiencia suprarrenal crónica o corticoterapia prolongada, para la MIFEPRISTONA"
+    ],
+    "perlas": [
+      "La DOSIS cambia por un factor de TREINTA según la edad gestacional: 800 microgramos en el primer trimestre y 25 microgramos a término. El motivo es que el útero a término es incomparablemente más sensible, y confundir las dosis en la dirección equivocada provoca una hiperestimulación con riesgo de rotura uterina.",
+      "En la inducción a término está CONTRAINDICADO si hay CESÁREA PREVIA: el riesgo de rotura uterina es inaceptable y esta es una de las contraindicaciones absolutas mejor establecidas de la obstetricia.",
+      "A diferencia de la oxitocina, una vez administrado NO SE PUEDE RETIRAR. Esa irreversibilidad es la razón de empezar por dosis bajas a término y de vigilar estrechamente la dinámica.",
+      "Su gran virtud en salud global es logística: es BARATO, ESTABLE a temperatura ambiente, no necesita cadena de frío, no necesita jeringas ni personal cualificado para una vía intravenosa. Eso lo convierte en un fármaco que salva vidas maternas allí donde no hay hospital.",
+      "Los ESCALOFRÍOS y la FIEBRE de las primeras horas son un efecto prostaglandínico esperado y NO significan infección. Advertirlo evita ciclos de antibiótico y consultas urgentes innecesarias.",
+      "El DOLOR es intenso y previsible: hay que pautar analgesia de antemano, y el IBUPROFENO se puede usar sin miedo, ya que no reduce la eficacia del aborto farmacológico. La creencia contraria hace que muchas mujeres pasen un dolor evitable.",
+      "La combinación con MIFEPRISTONA es claramente superior al misoprostol solo (más del 95% frente a en torno al 85%): la mifepristona antagoniza la progesterona, desprende la decidua y sensibiliza el útero.",
+      "Antes de usarlo hay que DESCARTAR EL EMBARAZO ECTÓPICO: el sangrado y el dolor del aborto farmacológico pueden enmascarar una rotura tubárica, y esa confusión ha costado vidas.",
+      "Si el embarazo CONTINÚA tras la exposición, hay riesgo TERATÓGENO (síndrome de Möbius, defectos de reducción de extremidades) por vasoconstricción e hipoperfusión embrionaria. Por eso el fracaso del método obliga a completar el procedimiento y no simplemente a esperar.",
+      "En su indicación gástrica original quedó desplazado por los inhibidores de la bomba de protones, y hoy su principal utilidad allí es recordar por qué está CONTRAINDICADO en la embarazada que toma AINE: la advertencia del prospecto es exactamente el efecto que se busca en obstetricia."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo cuando se desea continuarlo: es abortivo y teratógeno. Sus indicaciones obstétricas son precisamente aquellas en que se busca la contracción uterina. Compatible con la lactancia: el paso a la leche es mínimo y de vida media muy corta.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 18 y 37; guías de la OMS sobre aborto seguro y sobre hemorragia posparto"
+  }
+]

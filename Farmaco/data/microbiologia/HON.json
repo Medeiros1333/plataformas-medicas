@@ -1,0 +1,324 @@
+[
+  {
+    "id": "HON-candida-albicans",
+    "nombre": "Candida albicans y otras especies de Candida",
+    "grupo": "HON",
+    "nivel": 1,
+    "clasificacion": "Levadura DIMÓRFICA, hongo comensal de piel, tubo digestivo y vagina; forma tubos germinales y pseudohifas en los tejidos invadidos",
+    "morfologia_tincion": "Levaduras ovaladas con gemación, junto a PSEUDOHIFAS e hifas verdaderas en los tejidos. C. albicans produce TUBO GERMINAL en suero a 37 °C (prueba rápida de identificación) y clamidosporas terminales. Se tiñe bien con KOH, Gram, PAS y plata-metenamina.",
+    "mecanismo_patogenia": [
+      "Transición LEVADURA → HIFA: la forma de levadura coloniza, mientras que la forma filamentosa invade los tejidos. Es su principal factor de virulencia y está regulada por temperatura, pH y disponibilidad de nutrientes.",
+      "Adhesinas (Als, Hwp1) que median la unión al epitelio y a los materiales protésicos.",
+      "Formación de BIOFILM sobre catéteres venosos, sondas urinarias, prótesis valvulares y dentaduras: reduce drásticamente la eficacia de los antifúngicos (excepto de las equinocandinas y la anfotericina liposomal) y hace imprescindible retirar el dispositivo.",
+      "Candidalisina: toxina peptídica que lisa las células epiteliales.",
+      "Proteasas aspárticas y fosfolipasas que degradan las barreras tisulares.",
+      "La enfermedad requiere ROTURA de barreras (catéter, cirugía abdominal, mucositis) o INMUNODEPRESIÓN: la candidiasis mucosa refleja déficit de inmunidad CELULAR (T), mientras que la candidemia refleja rotura de barrera y neutropenia."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Candidiasis orofaríngea (muguet)",
+        "clinica": "Placas blanquecinas cremosas en lengua, paladar y mucosa yugal, DESPRENDIBLES al raspado y dejando una base eritematosa; sensación de quemazón y alteración del gusto.",
+        "lesiones": "Pseudomembranas de levaduras, hifas y detritos epiteliales.",
+        "clave": "En un ADULTO sin causa aparente (sin corticoide inhalado, prótesis dental ni antibiótico reciente), obliga a descartar INFECCIÓN POR VIH o diabetes."
+      },
+      {
+        "cuadro": "Candidiasis esofágica",
+        "clinica": "ODINOFAGIA y disfagia intensas, con o sin muguet oral.",
+        "lesiones": "Placas blanquecinas confluentes en la mucosa esofágica; en la radiografía baritada, mucosa «en empedrado».",
+        "clave": "Es una enfermedad DEFINITORIA DE SIDA (CD4 <200). En el paciente con VIH y odinofagia se trata empíricamente con fluconazol; si no mejora en 3-5 días, endoscopia para descartar CMV o VHS."
+      },
+      {
+        "cuadro": "Candidiasis vulvovaginal",
+        "clinica": "Prurito vulvar intenso, leucorrea espesa y blanquecina «en requesón» sin mal olor, dispareunia y disuria externa; pH vaginal NORMAL (<4,5).",
+        "lesiones": "Eritema y edema vulvovaginal con placas adheridas.",
+        "clave": "El pH normal y la ausencia de mal olor la distinguen de la vaginosis bacteriana y de la tricomoniasis, que cursan con pH >4,5. La forma recurrente (≥4 episodios/año) obliga a descartar diabetes."
+      },
+      {
+        "cuadro": "Candidemia y candidiasis invasiva",
+        "clinica": "Fiebre persistente sin foco que no responde a antibióticos de amplio espectro, en paciente con catéter venoso central, nutrición parenteral, cirugía abdominal previa o neutropenia.",
+        "lesiones": "Siembra en retina (ENDOFTALMITIS), hígado y bazo (candidiasis hepatoesplénica en el neutropénico al recuperar los neutrófilos), riñón, endocardio y piel (lesiones papulonodulares).",
+        "clave": "TODA candidemia obliga a FONDO DE OJO (endoftalmitis, que cambia la duración y el fármaco), ecocardiograma y RETIRADA del catéter venoso central."
+      },
+      {
+        "cuadro": "Candidiasis cutánea e intertrigo",
+        "clinica": "Placas eritematosas maceradas en pliegues (inguinal, submamario, interdigital) con lesiones satélite pustulosas en la periferia, muy características.",
+        "lesiones": "Eritema con collarete descamativo y pústulas satélite.",
+        "clave": "Las LESIONES SATÉLITE son el signo diferencial frente a otras dermatosis de los pliegues."
+      },
+      {
+        "cuadro": "Candiduria",
+        "clinica": "Habitualmente asintomática en portador de sonda vesical.",
+        "lesiones": "Colonización de la sonda; rara vez pielonefritis o bola fúngica.",
+        "clave": "La candiduria asintomática en el paciente sondado NO se trata: se retira o se cambia la sonda. Solo se trata si hay síntomas, neutropenia, trasplante renal o cirugía urológica prevista."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La ESPECIE determina el tratamiento: C. albicans y C. parapsilosis suelen ser sensibles a fluconazol; C. glabrata tiene sensibilidad reducida dosis-dependiente; C. krusei es INTRÍNSECAMENTE RESISTENTE a fluconazol; C. parapsilosis tiene CMI más altas frente a equinocandinas.",
+      "En el paciente inestable o con exposición previa a azoles, el tratamiento empírico de la candidemia es una EQUINOCANDINA, no fluconazol.",
+      "Candida auris es una especie emergente multirresistente, de transmisión nosocomial, que exige aislamiento de contacto y limpieza ambiental específica.",
+      "La retirada del catéter venoso central en la candidemia se asocia a menor mortalidad y a aclaramiento más rápido de los hemocultivos: no es opcional.",
+      "El fondo de ojo es obligatorio: la endoftalmitis candidiásica obliga a prolongar el tratamiento y a usar un fármaco con penetración ocular (las equinocandinas penetran mal; hay que pasar a fluconazol o anfotericina).",
+      "La duración de la candidemia se cuenta 14 días DESDE EL PRIMER HEMOCULTIVO NEGATIVO, no desde el inicio del tratamiento.",
+      "El muguet en un adulto sin factores locales es un marcador de inmunodepresión hasta que se demuestre lo contrario."
+    ],
+    "diagnostico": {
+      "muestra": "Hemocultivos (sensibilidad limitada, ~50%), raspado de lesión mucosa o cutánea, exudado vaginal, biopsia tisular, líquido peritoneal.",
+      "pruebas": [
+        "Examen directo con KOH o Gram: levaduras y pseudohifas",
+        "Cultivo en agar Sabouraud e identificación de ESPECIE por MALDI-TOF o CHROMagar (imprescindible para elegir el antifúngico)",
+        "Prueba del tubo germinal para identificación rápida de C. albicans",
+        "ANTIFUNGIGRAMA en toda candidemia y en toda candidiasis invasiva",
+        "BETA-D-GLUCANO sérico: marcador de candidiasis invasiva, con buen valor predictivo negativo (también positivo en Pneumocystis y Aspergillus, pero NO en mucorales ni criptococo)",
+        "Fondo de ojo y ecocardiograma en toda candidemia"
+      ],
+      "claves": "Un hemocultivo negativo NO descarta la candidiasis invasiva: la sensibilidad es baja y el beta-D-glucano y la sospecha clínica orientan el tratamiento empírico."
+    },
+    "tratamiento": {
+      "eleccion": "CANDIDEMIA / invasiva: EQUINOCANDINA (caspofungina, anidulafungina o micafungina) como tratamiento inicial, con desescalada a fluconazol si la cepa es sensible y el paciente está estable. MUCOSA: fluconazol 100-200 mg/24 h (orofaríngea/esofágica). VULVOVAGINAL: fluconazol 150 mg en dosis única o azol tópico.",
+      "alternativas": "Anfotericina B liposomal en la afectación del SNC, en la endoftalmitis o ante resistencia a azoles y equinocandinas. Voriconazol frente a C. krusei. Nistatina tópica en la candidiasis oral leve y en el lactante.",
+      "resistencias": "C. krusei: resistencia intrínseca a fluconazol. C. glabrata: resistencia dosis-dependiente a azoles y creciente a equinocandinas. C. auris: multirresistencia frecuente.",
+      "duracion": "Candidemia: 14 días desde el primer hemocultivo NEGATIVO. Endoftalmitis y endocarditis: 4-6 semanas o más. Esofágica: 14-21 días. Orofaríngea: 7-14 días. Vulvovaginal: dosis única.",
+      "notas": "Retirar SIEMPRE el catéter venoso central. Hemocultivos diarios o cada 48 h hasta la negativización, para poder contar la duración del tratamiento."
+    },
+    "farmacos_relacionados": [
+      "CAR-isglt2-cardiorrenal",
+      "DER-azoles-topicos",
+      "INF-anfotericina-b-liposomal",
+      "INF-equinocandinas",
+      "INF-fluconazol",
+      "INF-voriconazol",
+      "PED-DER-corticoides-topicos"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 60 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de candidiasis"
+  },
+  {
+    "id": "HON-aspergillus-fumigatus",
+    "nombre": "Aspergillus fumigatus",
+    "grupo": "HON",
+    "nivel": 2,
+    "clasificacion": "Hongo FILAMENTOSO (moho) ambiental, ubicuo; hifas HIALINAS, SEPTADAS, con ramificación en ÁNGULO AGUDO (45°) y dicotómica",
+    "morfologia_tincion": "Hifas hialinas septadas de grosor uniforme que se ramifican en ángulo agudo de 45°, visibles con plata-metenamina o PAS. En cultivo, cabezas conidiales características. La distinción morfológica frente a los MUCORALES (hifas anchas, NO septadas, ramificadas en ángulo RECTO) es decisiva para el tratamiento.",
+    "mecanismo_patogenia": [
+      "Sus CONIDIOS son ubicuos en el aire (obras, macetas, sistemas de ventilación, alimentos) y se inhalan a diario; en el inmunocompetente los macrófagos alveolares y los neutrófilos los eliminan.",
+      "La NEUTROPENIA es el factor de riesgo dominante: los neutrófilos son la defensa esencial frente a las hifas. Los corticoides son el segundo gran factor, al inhibir la función macrofágica.",
+      "ANGIOINVASIÓN: las hifas invaden la pared de los vasos, causando trombosis, INFARTO y NECROSIS del tejido. Es el mecanismo del signo del halo y de la hemoptisis.",
+      "Gliotoxina: inmunosupresor fúngico que inhibe la fagocitosis y la función de los neutrófilos.",
+      "En el pulmón con cavidades previas (tuberculosis, sarcoidosis) coloniza sin invadir y forma un ASPERGILOMA.",
+      "En el asmático y en el paciente con fibrosis quística, la colonización bronquial desencadena una respuesta de HIPERSENSIBILIDAD mixta tipo I y III: la aspergilosis broncopulmonar alérgica, que no es una infección invasiva sino una reacción inmunológica."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Aspergilosis pulmonar invasiva",
+        "clinica": "Neutropénico prolongado o trasplantado con fiebre persistente pese a antibióticos de amplio espectro, dolor pleurítico, tos y HEMOPTISIS.",
+        "lesiones": "Nódulos con SIGNO DEL HALO (nódulo rodeado de vidrio deslustrado por hemorragia perilesional) en la TC precoz, que evoluciona al SIGNO DEL MENISCO O DE LA MEDIA LUNA AÉREA al recuperar los neutrófilos. Infarto pulmonar por angioinvasión.",
+        "clave": "El signo del halo en un neutropénico febril es prácticamente diagnóstico y obliga a iniciar voriconazol de inmediato: la mortalidad se dispara con el retraso."
+      },
+      {
+        "cuadro": "Aspergiloma (bola fúngica)",
+        "clinica": "Paciente con cavidad pulmonar previa (secuela de tuberculosis) que presenta HEMOPTISIS recurrente, a veces masiva, con escasos síntomas sistémicos.",
+        "lesiones": "Masa fúngica móvil dentro de una cavidad, con el signo del CASCABEL o de la media luna aérea, que se DESPLAZA al cambiar la posición del paciente.",
+        "clave": "No es una infección invasiva: los antifúngicos sistémicos son poco eficaces y el tratamiento definitivo de la hemoptisis grave es la EMBOLIZACIÓN o la cirugía."
+      },
+      {
+        "cuadro": "Aspergilosis broncopulmonar alérgica (ABPA)",
+        "clinica": "Asmático o paciente con fibrosis quística con mal control, sibilancias refractarias, expectoración de TAPONES MUCOSOS pardos e infiltrados migratorios.",
+        "lesiones": "BRONQUIECTASIAS CENTRALES (proximales) características, impactación mucoide en «dedo de guante», eosinofilia periférica, IgE total muy elevada (>1000 UI/mL) e IgE específica frente a Aspergillus.",
+        "clave": "El tratamiento es CORTICOIDES sistémicos (la enfermedad es inmunológica), con itraconazol como ahorrador de corticoide. No es una infección invasiva."
+      },
+      {
+        "cuadro": "Aspergilosis invasiva extrapulmonar",
+        "clinica": "Sinusitis invasiva con dolor facial y necrosis del paladar o del cornete; afectación cerebral con focalidad neurológica y convulsiones por diseminación hematógena.",
+        "lesiones": "Necrosis tisular por angioinvasión; abscesos cerebrales con infarto.",
+        "clave": "La afectación del SNC tiene muy mal pronóstico y exige voriconazol, que atraviesa la barrera hematoencefálica."
+      },
+      {
+        "cuadro": "Aspergilosis pulmonar crónica necrotizante",
+        "clinica": "Paciente con EPOC, diabetes o alcoholismo (inmunodepresión leve): tos, pérdida de peso y febrícula durante meses.",
+        "lesiones": "Cavitación progresiva con engrosamiento pleural.",
+        "clave": "Curso subagudo intermedio entre el aspergiloma y la forma invasiva; requiere tratamiento antifúngico prolongado (6-12 meses)."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La diferenciación histológica frente a los MUCORALES es terapéuticamente decisiva: Aspergillus tiene hifas septadas y ramificadas a 45°, y se trata con VORICONAZOL; los mucorales tienen hifas no septadas y ramificadas a 90°, son RESISTENTES al voriconazol y se tratan con anfotericina B liposomal.",
+      "El VORICONAZOL es el tratamiento de elección de la aspergilosis invasiva y ha demostrado superioridad frente a la anfotericina B en supervivencia.",
+      "El GALACTOMANANO sérico o en lavado broncoalveolar es un marcador útil para el diagnóstico precoz y el seguimiento, pero da FALSOS POSITIVOS con piperacilina-tazobactam y otros betalactámicos derivados de hongos.",
+      "El fluconazol NO cubre Aspergillus: usarlo como profilaxis en un paciente con riesgo de mohos ofrece una falsa seguridad; ahí corresponde posaconazol.",
+      "Aspergillus terreus es intrínsecamente resistente a la anfotericina B.",
+      "La ABPA no se trata con antifúngicos en monoterapia: es una enfermedad de hipersensibilidad cuyo tratamiento son los corticoides.",
+      "El voriconazol tiene interacciones muy numerosas (CYP2C19, CYP3A4), produce alteraciones visuales reversibles, fototoxicidad con riesgo de carcinoma cutáneo a largo plazo y requiere monitorización de niveles."
+    ],
+    "diagnostico": {
+      "muestra": "Lavado broncoalveolar, esputo, biopsia pulmonar o de senos, suero para galactomanano y beta-D-glucano.",
+      "pruebas": [
+        "TC TORÁCICA de alta resolución: signo del halo y, más tarde, media luna aérea",
+        "GALACTOMANANO en suero y, sobre todo, en lavado broncoalveolar (mayor rendimiento)",
+        "Beta-D-glucano sérico (inespecífico: también positivo en Candida y Pneumocystis)",
+        "Cultivo y examen directo con visualización de hifas septadas en ángulo agudo",
+        "PCR de Aspergillus",
+        "Histopatología con plata-metenamina: demuestra INVASIÓN tisular, que es el criterio de certeza",
+        "IgE total y específica, precipitinas y eosinofilia en la ABPA"
+      ],
+      "claves": "El aislamiento de Aspergillus en esputo de un paciente inmunocompetente suele ser colonización; en un neutropénico, debe considerarse infección hasta que se demuestre lo contrario."
+    },
+    "tratamiento": {
+      "eleccion": "VORICONAZOL IV u oral (carga de 6 mg/kg/12 h el primer día y luego 4 mg/kg/12 h) para la aspergilosis invasiva. Isavuconazol como alternativa de primera línea con mejor tolerancia y menos interacciones.",
+      "alternativas": "Anfotericina B liposomal si el voriconazol está contraindicado. Equinocandinas como tratamiento de rescate o en combinación. ABPA: corticoides sistémicos ± itraconazol. Aspergiloma: cirugía o embolización arterial bronquial en la hemoptisis grave.",
+      "resistencias": "Resistencia a azoles en aumento por el uso de fungicidas agrícolas (mutación TR34/L98H de cyp51A), especialmente en Países Bajos. A. terreus es resistente a anfotericina B.",
+      "duracion": "Mínimo 6-12 semanas en la forma invasiva, y siempre hasta la resolución radiológica y la recuperación de la inmunodepresión (especialmente de la neutropenia).",
+      "notas": "Monitorizar NIVELES de voriconazol (margen terapéutico estrecho, farmacocinética no lineal y polimorfismo del CYP2C19). Prevención en el neutropénico de alto riesgo: habitaciones con filtros HEPA y profilaxis con posaconazol."
+    },
+    "farmacos_relacionados": [
+      "INF-anfotericina-b-liposomal",
+      "INF-equinocandinas",
+      "INF-itraconazol",
+      "INF-voriconazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 61 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de aspergilosis"
+  },
+  {
+    "id": "HON-cryptococcus-neoformans",
+    "nombre": "Cryptococcus neoformans",
+    "grupo": "HON",
+    "nivel": 2,
+    "clasificacion": "LEVADURA CAPSULADA, con una gruesa cápsula de polisacárido (glucuronoxilomanano); ureasa positiva, productora de MELANINA (fenoloxidasa positiva)",
+    "morfologia_tincion": "Levadura redonda con GEMACIÓN de base estrecha rodeada de una cápsula enorme, que se visualiza como un halo claro con la TINTA CHINA en el LCR. Se tiñe con mucicarmín (que colorea la cápsula) y con PAS.",
+    "mecanismo_patogenia": [
+      "CÁPSULA de polisacárido: es el factor de virulencia esencial. Es antifagocítica, inhibe la presentación antigénica y la respuesta inflamatoria — por eso la meningitis criptocócica cursa con ESCASA inflamación (LCR con pocas células) y sin apenas rigidez de nuca.",
+      "Producción de MELANINA por la fenoloxidasa, usando sustratos catecolamínicos: explica su NEUROTROPISMO, ya que el tejido cerebral es rico en catecolaminas. La melanina también le protege del estrés oxidativo.",
+      "Ureasa: facilita el paso a través de la barrera hematoencefálica.",
+      "Crece a 37 °C (a diferencia de C. gattii y de muchas levaduras ambientales), lo que le permite parasitar al ser humano.",
+      "Reservorio ambiental en excrementos de PALOMA y suelo contaminado (C. neoformans) o en eucaliptos (C. gattii, que afecta a INMUNOCOMPETENTES).",
+      "La defensa depende de la inmunidad CELULAR: la enfermedad aparece con CD4 <100, en trasplantados y en tratamientos con corticoides o anti-TNF.",
+      "La acumulación de polisacárido capsular en el espacio subaracnoideo bloquea la reabsorción del LCR y produce HIPERTENSIÓN INTRACRANEAL, principal causa de muerte y de ceguera."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Meningitis criptocócica",
+        "clinica": "Curso SUBAGUDO de semanas: cefalea progresiva, febrícula, náuseas y alteración del comportamiento. La RIGIDEZ DE NUCA suele FALTAR y los signos meníngeos son escasos, por la pobre respuesta inflamatoria.",
+        "lesiones": "Meningitis basal con escasa reacción inflamatoria; LCR con pleocitosis linfocitaria LEVE, glucosa baja, proteínas altas y PRESIÓN DE APERTURA MUY ELEVADA. Lesiones quísticas gelatinosas en ganglios basales («pseudoquistes»).",
+        "clave": "Es la infección fúngica más frecuente del SNC y una enfermedad definitoria de SIDA. La MEDICIÓN DE LA PRESIÓN DE APERTURA en la punción lumbar es obligatoria: es tan importante como el antifúngico."
+      },
+      {
+        "cuadro": "Criptococosis pulmonar",
+        "clinica": "Desde asintomática (hallazgo casual) hasta neumonía con tos, disnea y fiebre; en el inmunocompetente suele ser un nódulo solitario.",
+        "lesiones": "Nódulo pulmonar solitario o infiltrados; puede simular una neoplasia.",
+        "clave": "En todo paciente con criptococosis pulmonar hay que hacer PUNCIÓN LUMBAR para descartar afectación meníngea, aunque no tenga clínica neurológica."
+      },
+      {
+        "cuadro": "Criptococosis cutánea y diseminada",
+        "clinica": "Lesiones papulonodulares umbilicadas que recuerdan al MOLUSCO CONTAGIOSO, en el paciente con VIH avanzado; fungemia y afectación de próstata y hueso.",
+        "lesiones": "Pápulas umbilicadas; la próstata actúa como santuario y origen de recaídas.",
+        "clave": "Lesiones tipo molusco contagioso en un paciente con VIH avanzado obligan a descartar criptococosis e histoplasmosis diseminadas."
+      },
+      {
+        "cuadro": "Síndrome inflamatorio de reconstitución inmune (SIRI)",
+        "clinica": "Empeoramiento paradójico (fiebre, cefalea, aumento de la presión intracraneal) semanas después de iniciar el tratamiento antirretroviral, con cultivos ya negativos.",
+        "lesiones": "Respuesta inflamatoria intensa frente a antígenos fúngicos residuales.",
+        "clave": "Por eso el tratamiento antirretroviral se RETRASA 4-6 semanas tras iniciar el antifúngico en la meningitis criptocócica: iniciarlo antes aumenta la mortalidad."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El control de la PRESIÓN INTRACRANEAL mediante punciones lumbares evacuadoras repetidas (diarias si es preciso, hasta normalizar la presión) reduce la mortalidad más que cualquier ajuste del antifúngico. Los corticoides y el manitol NO están indicados.",
+      "El ANTÍGENO CRIPTOCÓCICO (CrAg) en suero y LCR tiene sensibilidad y especificidad superiores al 95%: es la prueba diagnóstica de elección y muy superior a la tinta china.",
+      "La tinta china tiene una sensibilidad de solo el 50-80%: un resultado negativo no descarta el diagnóstico.",
+      "El tratamiento tiene tres fases obligadas: INDUCCIÓN (anfotericina B liposomal + flucitosina, 2 semanas), CONSOLIDACIÓN (fluconazol 400-800 mg, 8 semanas) y MANTENIMIENTO (fluconazol 200 mg, ≥1 año o hasta CD4 >100 sostenidos).",
+      "El tratamiento antirretroviral se difiere 4-6 semanas para evitar el síndrome inflamatorio de reconstitución inmune, que en el SNC puede ser mortal.",
+      "C. gattii afecta a personas INMUNOCOMPETENTES, forma criptococomas cerebrales y pulmonares y requiere tratamientos más prolongados.",
+      "En pacientes con VIH y CD4 <100 se recomienda cribado con antígeno criptocócico sérico, que permite tratar antes de que aparezca la meningitis."
+    ],
+    "diagnostico": {
+      "muestra": "LCR (con MEDICIÓN DE LA PRESIÓN DE APERTURA), suero, esputo o lavado broncoalveolar, biopsia cutánea, hemocultivos.",
+      "pruebas": [
+        "ANTÍGENO CRIPTOCÓCICO (CrAg) en suero y LCR por aglutinación de látex o test de flujo lateral: prueba de elección",
+        "Tinción con TINTA CHINA del LCR: levaduras capsuladas con halo (sensibilidad limitada)",
+        "Cultivo de LCR y hemocultivos en agar Sabouraud",
+        "MEDICIÓN OBLIGATORIA DE LA PRESIÓN DE APERTURA en toda punción lumbar",
+        "Bioquímica del LCR: pleocitosis linfocitaria leve, hipoglucorraquia, hiperproteinorraquia",
+        "TC o RM craneal previa si hay focalidad o bajo nivel de conciencia"
+      ],
+      "claves": "El LCR puede ser casi normal en el paciente con SIDA profundo: la escasez de células no descarta la meningitis criptocócica, porque la cápsula inhibe la inflamación."
+    },
+    "tratamiento": {
+      "eleccion": "INDUCCIÓN: anfotericina B LIPOSOMAL 3-4 mg/kg/24 h + flucitosina 100 mg/kg/día durante 2 semanas. CONSOLIDACIÓN: fluconazol 400-800 mg/24 h durante 8 semanas. MANTENIMIENTO: fluconazol 200 mg/24 h durante al menos 1 año.",
+      "alternativas": "Anfotericina B liposomal + fluconazol a dosis altas si no se dispone de flucitosina. Fluconazol a dosis altas en monoterapia solo como último recurso (peores resultados).",
+      "resistencias": "Poco frecuentes; el fracaso suele deberse al mal control de la presión intracraneal o a la ausencia de recuperación inmunitaria.",
+      "duracion": "2 semanas de inducción + 8 semanas de consolidación + ≥1 año de mantenimiento, que se suspende con CD4 >100 durante 3 meses y carga viral indetectable.",
+      "notas": "PUNCIONES LUMBARES EVACUADORAS repetidas para mantener la presión de apertura por debajo de 20 cmH2O. RETRASAR el inicio del tratamiento antirretroviral 4-6 semanas."
+    },
+    "farmacos_relacionados": [
+      "INF-anfotericina-b-liposomal",
+      "INF-fluconazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 62 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de criptococosis"
+  },
+  {
+    "id": "HON-pneumocystis-jirovecii",
+    "nombre": "Pneumocystis jirovecii",
+    "grupo": "HON",
+    "nivel": 1,
+    "clasificacion": "HONGO atípico (reclasificado desde los protozoos por su ARN ribosómico), con pared rica en beta-D-glucano pero SIN ERGOSTEROL en la membrana, NO CULTIVABLE",
+    "morfologia_tincion": "Quistes de 5-8 µm con 8 cuerpos intraquísticos, teñidos con PLATA-METENAMINA de Grocott, azul de toluidina o blanco de calcoflúor; los trofozoítos se ven con Giemsa. Se dispone además de inmunofluorescencia directa y PCR.",
+    "mecanismo_patogenia": [
+      "La ausencia de ERGOSTEROL en su membrana explica por qué NO responde a los azoles ni a la anfotericina B, pese a ser un hongo: no tienen diana. Su tratamiento es el cotrimoxazol, que bloquea la vía del folato.",
+      "Se adhiere a los neumocitos tipo I mediante interacción con la fibronectina y la laminina, sin invadir: produce un exudado alveolar espumoso que bloquea el intercambio gaseoso.",
+      "El daño principal deriva de la respuesta INFLAMATORIA del huésped: al iniciar el tratamiento, la lisis masiva de microorganismos empeora transitoriamente la oxigenación — de ahí el beneficio de los CORTICOIDES administrados ANTES o a la vez que el antibiótico.",
+      "Casi toda la población se infecta asintomáticamente en la infancia; la enfermedad refleja inmunodepresión CELULAR: VIH con CD4 <200, corticoterapia prolongada (>20 mg/día de prednisona más de 4 semanas), trasplante, quimioterapia o fármacos anti-CD20 y anti-TNF.",
+      "La transmisión es por vía aérea de persona a persona, por lo que puede haber brotes en unidades de trasplantados."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía por Pneumocystis en el paciente con VIH",
+        "clinica": "Instauración SUBAGUDA a lo largo de 2-4 semanas: disnea de esfuerzo progresiva, tos SECA y fiebre, con auscultación pulmonar habitualmente NORMAL pese a la hipoxemia.",
+        "lesiones": "Infiltrado INTERSTICIAL BILATERAL PERIHILIAR «en alas de mariposa» o en vidrio deslustrado; puede haber quistes y NEUMOTÓRAX espontáneo. La radiografía puede ser normal en fases iniciales.",
+        "clave": "La DESATURACIÓN CON EL ESFUERZO en un paciente con auscultación normal y radiografía poco llamativa es el dato clínico clave. LDH elevada y beta-D-glucano positivo apoyan el diagnóstico."
+      },
+      {
+        "cuadro": "Neumonía por Pneumocystis en el paciente NO VIH (trasplantado, corticoterapia, oncológico)",
+        "clinica": "Presentación mucho más AGUDA y FULMINANTE, en días, con insuficiencia respiratoria rápida.",
+        "lesiones": "Daño alveolar difuso; carga de microorganismos MENOR pero respuesta inflamatoria mucho MAYOR.",
+        "clave": "Paradoja clínica: menos microorganismos y peor pronóstico. El diagnóstico es más difícil porque la carga fúngica baja reduce la sensibilidad de las tinciones."
+      },
+      {
+        "cuadro": "Neumotórax y afectación extrapulmonar",
+        "clinica": "Neumotórax espontáneo (especialmente en pacientes que recibían pentamidina inhalada); rara vez afectación de ganglios, bazo, hígado o médula ósea.",
+        "lesiones": "Quistes subpleurales; lesiones necróticas extrapulmonares.",
+        "clave": "El neumotórax en un paciente con VIH y disnea debe hacer pensar en Pneumocystis."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es un hongo SIN ergosterol: los antifúngicos convencionales (azoles, anfotericina B) son INEFICACES. El tratamiento es COTRIMOXAZOL.",
+      "Los CORTICOIDES deben iniciarse ANTES o AL MISMO TIEMPO que el cotrimoxazol si la PaO2 es <70 mmHg o el gradiente alveoloarterial >35 mmHg: administrarlos después no previene el deterioro respiratorio inicial. Reducen la mortalidad de forma demostrada.",
+      "No es cultivable: el diagnóstico exige visualización directa o PCR en muestra respiratoria (esputo inducido o, mejor, lavado broncoalveolar).",
+      "El beta-D-glucano sérico está elevado y tiene buen valor predictivo negativo, pero no es específico (también positivo en Candida y Aspergillus).",
+      "La profilaxis con cotrimoxazol está indicada con CD4 <200, en la corticoterapia prolongada y en muchos trasplantados; además protege frente a Toxoplasma y Nocardia.",
+      "En el paciente con VIH, la profilaxis se suspende cuando los CD4 superan 200 durante más de 3 meses con tratamiento antirretroviral eficaz.",
+      "El cuadro es subagudo en el VIH y fulminante en el no VIH: la sospecha clínica debe adaptarse al tipo de inmunodepresión."
+    ],
+    "diagnostico": {
+      "muestra": "LAVADO BRONCOALVEOLAR (rendimiento >90%), esputo INDUCIDO con suero salino hipertónico (menor rendimiento, no vale el esputo espontáneo), biopsia transbronquial.",
+      "pruebas": [
+        "Tinción de PLATA-METENAMINA de Grocott o azul de toluidina (quistes) y Giemsa (trofozoítos)",
+        "Inmunofluorescencia directa con anticuerpos monoclonales: mayor sensibilidad",
+        "PCR en lavado broncoalveolar: muy sensible, pero puede detectar colonización — la PCR cuantitativa ayuda a distinguirlas",
+        "BETA-D-GLUCANO sérico: apoyo diagnóstico con buen valor predictivo negativo",
+        "LDH sérica elevada (inespecífica pero útil como marcador de gravedad y respuesta)",
+        "GASOMETRÍA ARTERIAL para calcular el gradiente A-a y decidir los corticoides",
+        "TC de alta resolución: vidrio deslustrado bilateral"
+      ],
+      "claves": "La gasometría no es un dato accesorio: determina si el paciente debe recibir corticoides, decisión que cambia la mortalidad."
+    },
+    "tratamiento": {
+      "eleccion": "COTRIMOXAZOL 15-20 mg/kg/día de trimetoprim repartidos en 3-4 tomas, durante 21 días, VO o IV. Añadir PREDNISONA (40 mg/12 h 5 días, luego 40 mg/24 h 5 días, luego 20 mg/24 h hasta completar 21 días) si PaO2 <70 mmHg o gradiente A-a >35 mmHg.",
+      "alternativas": "Clindamicina + primaquina (previa determinación de G6PD), pentamidina IV, atovacuona (formas leves), trimetoprim + dapsona.",
+      "resistencias": "Se han descrito mutaciones en el gen de la dihidropteroato sintasa asociadas a la exposición previa a sulfamidas, aunque su relevancia clínica es discutida.",
+      "duracion": "21 días de tratamiento en el paciente con VIH (14 días en el no VIH según algunas guías), seguidos de PROFILAXIS SECUNDARIA con cotrimoxazol hasta la recuperación inmunitaria.",
+      "notas": "PROFILAXIS PRIMARIA con cotrimoxazol 160/800 mg tres días por semana en pacientes con CD4 <200, candidiasis orofaríngea, corticoterapia prolongada o inmunosupresión equivalente."
+    },
+    "farmacos_relacionados": [
+      "INF-atovacuona-proguanil",
+      "INF-clindamicina",
+      "INF-cotrimoxazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 64 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones en el paciente con VIH"
+  }
+]

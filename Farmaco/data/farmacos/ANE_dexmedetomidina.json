@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ANE-dexmedetomidina",
+    "nombre": "Dexmedetomidina",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Sedante",
+    "subclase": "Agonista alfa-2 adrenérgico selectivo",
+    "mecanismo": "Es un agonista muy selectivo del receptor ALFA-2 adrenérgico (unas ocho veces más selectivo que la clonidina). Actúa en el LOCUS COERULEUS, el núcleo pontino que regula el despertar, reduciendo la liberación de noradrenalina. El resultado es una sedación que reproduce las vías del SUEÑO NO REM FISIOLÓGICO, y de ahí su rasgo distintivo: el paciente parece dormido pero se DESPIERTA con facilidad al hablarle, colabora y vuelve a dormirse, sin depresión respiratoria significativa. Ningún otro sedante consigue esto. Además tiene efecto analgésico propio a nivel medular y simpaticolítico, lo que reduce el consumo de opioides. El precio de ese mecanismo son sus dos efectos cardiovasculares característicos: BRADICARDIA e HIPOTENSIÓN por reducción del tono simpático central, y una HIPERTENSIÓN transitoria si se administra un bolo rápido, por estimulación de los receptores alfa-2 postsinápticos del músculo liso vascular antes de que actúe el efecto central.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "SEDACIÓN en el paciente crítico ventilado o en destete de la ventilación",
+        "dosis": "0,2-1,4 microgramos/kg/h en perfusión continua, habitualmente SIN dosis de carga",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "dosis_objetivo": "Escala RASS de 0 a -2: paciente tranquilo, despertable y colaborador",
+        "nota": "Se asocia a menos DELIRIUM y a menos días de ventilación mecánica que las benzodiazepinas, y ese es su argumento principal"
+      },
+      {
+        "patologia": "Sedación para procedimientos con paciente COLABORADOR",
+        "dosis": "Carga de 1 microgramo/kg en 10 minutos y perfusión de 0,2-1 microgramo/kg/h",
+        "posologia": "Carga lenta y perfusión",
+        "via": "IV",
+        "nota": "Permite la INTUBACIÓN CON FIBROSCOPIO EN PACIENTE DESPIERTO y la cirugía con el paciente colaborando (craneotomía despierto), porque preserva la ventilación espontánea"
+      },
+      {
+        "patologia": "DELIRIUM hiperactivo del paciente crítico",
+        "dosis": "0,2-0,7 microgramos/kg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Es preferible a las benzodiazepinas, que EMPEORAN el delirium, y facilita el destete del paciente agitado"
+      },
+      {
+        "patologia": "Abstinencia alcohólica grave, como coadyuvante",
+        "dosis": "0,2-1,4 microgramos/kg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Controla la hiperactividad simpática pero NO previene las convulsiones: NO sustituye a las benzodiazepinas, que siguen siendo el tratamiento de base"
+      },
+      {
+        "patologia": "Reducción del consumo de opioides en la analgesia perioperatoria",
+        "dosis": "0,2-0,5 microgramos/kg/h intraoperatoria",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Reduce el consumo de opioides, el dolor postoperatorio y el temblor postanestésico"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la mayoría de los casos SIN dosis de carga, o con una carga LENTA en 10-20 minutos: el bolo rápido produce hipertensión seguida de bradicardia e hipotensión.",
+      "titulacion": "Ascenso progresivo cada 30 minutos según la escala de sedación, vigilando la frecuencia cardiaca.",
+      "duracion": "Autorizada hasta 24 horas en ficha técnica, aunque en la práctica se usa durante más tiempo en cuidados intensivos.",
+      "fin": "Retirada progresiva tras perfusiones prolongadas: la suspensión brusca produce un SÍNDROME DE ABSTINENCIA con hipertensión de rebote, taquicardia y agitación, exactamente igual que ocurre con la clonidina.",
+      "via": "Intravenosa (existe uso intranasal en pediatría para sedación de procedimientos).",
+      "monitorizacion": "Frecuencia cardiaca y tensión arterial CONTINUAS, nivel de sedación con escala validada. No requiere la misma vigilancia respiratoria que los demás sedantes, pero no la sustituye por completo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa; buena absorción intranasal y bucal.",
+      "distribucion": "Elevada unión a proteínas (94%).",
+      "metabolismo": "Hepático extenso por glucuronidación y CYP2A6.",
+      "eliminacion": "Renal en forma de metabolitos inactivos.",
+      "vida_media": "2-3 horas, más prolongada en la insuficiencia hepática.",
+      "ajuste_renal": "No requiere ajuste, aunque puede haber sedación más prolongada.",
+      "ajuste_hepatico": "REDUCIR la dosis: el aclaramiento cae de forma proporcional a la gravedad de la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes, digoxina y otros bradicardizantes",
+          "efecto": "BRADICARDIA grave y bloqueo",
+          "gravedad": "alta",
+          "manejo": "Vigilancia estrecha; tener atropina disponible"
+        },
+        {
+          "con": "Anestésicos, opioides, benzodiazepinas y propofol",
+          "efecto": "Potenciación de la sedación y de la hipotensión; reduce los requerimientos de todos ellos",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de los demás sedantes: la ventaja buscada es precisamente ahorrar opioide y benzodiazepina"
+        },
+        {
+          "con": "Vasodilatadores y antihipertensivos",
+          "efecto": "Hipotensión aditiva",
+          "gravedad": "media",
+          "manejo": "Ajustar dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "BRADICARDIA, muy frecuente y dosis-dependiente",
+        "HIPOTENSIÓN",
+        "Hipertensión TRANSITORIA durante la carga rápida",
+        "Sequedad de boca",
+        "Náuseas"
+      ],
+      "graves": [
+        "Bradicardia grave, bloqueo auriculoventricular y ASISTOLIA, sobre todo en pacientes con tono vagal alto o en tratamiento con betabloqueantes",
+        "Hipotensión refractaria que requiere vasopresores",
+        "SÍNDROME DE ABSTINENCIA tras retirada brusca de perfusiones prolongadas, con hipertensión de rebote, taquicardia y agitación",
+        "Hipertermia y fiebre",
+        "Sedación insuficiente cuando se necesita una sedación profunda: no alcanza niveles profundos de forma fiable"
+      ]
+    },
+    "contraindicaciones": [
+      "Bloqueo auriculoventricular de segundo o tercer grado sin marcapasos",
+      "Bradicardia sintomática e hipotensión no controlada",
+      "Insuficiencia cerebrovascular aguda grave",
+      "Necesidad de sedación PROFUNDA o de bloqueo neuromuscular sostenido, para lo que no es adecuada"
+    ],
+    "perlas": [
+      "Su rasgo definitorio es la SEDACIÓN COOPERATIVA: el paciente parece dormido y sin embargo se despierta al hablarle, obedece órdenes y vuelve a dormirse, sin depresión respiratoria significativa. Es el único sedante que reproduce las vías del sueño no REM fisiológico, y eso lo hace insustituible en el destete de la ventilación y en la intubación con fibroscopio despierto.",
+      "Produce MENOS DELIRIUM que las benzodiazepinas, y ese es hoy su argumento más sólido en cuidados intensivos: el delirium del paciente crítico alarga el ingreso, aumenta la mortalidad y deja secuelas cognitivas, y el midazolam lo empeora.",
+      "NO se administra en bolo rápido. La carga acelerada produce primero una HIPERTENSIÓN paradójica por estimulación alfa-2 vascular y después bradicardia e hipotensión. La carga, si se hace, es lenta en 10-20 minutos, y muchas veces es preferible prescindir de ella.",
+      "La BRADICARDIA es su efecto adverso característico y puede llegar a la asistolia en pacientes con tono vagal alto, deportistas o betabloqueados. Hay que tener la atropina disponible y monitorizar de forma continua.",
+      "Como todo agonista alfa-2, produce ABSTINENCIA al retirarlo bruscamente: hipertensión de rebote, taquicardia y agitación, igual que la clonidina. Tras varios días de perfusión hay que reducirla de forma progresiva.",
+      "NO alcanza sedación PROFUNDA de forma fiable. Si el objetivo es un paciente en brote-supresión o con bloqueo neuromuscular, hace falta otro fármaco: pretender usarla para todo lleva a pacientes insuficientemente sedados.",
+      "En la ABSTINENCIA ALCOHÓLICA controla la hiperactividad simpática pero NO previene las convulsiones ni el delirium tremens: es un coadyuvante y no sustituye a las benzodiazepinas. Confundirlo puede costar una convulsión.",
+      "Reduce el TEMBLOR postanestésico, un efecto secundario menor pero muy apreciado por el paciente que sale de quirófano tiritando."
+    ],
+    "embarazo_lactancia": "Datos limitados; se usa cuando el beneficio lo justifica. Atraviesa la placenta. Se considera compatible con la lactancia por su vida media corta y su baja biodisponibilidad oral en el lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; guías PADIS sobre dolor, agitación y delirium en el paciente crítico"
+  }
+]

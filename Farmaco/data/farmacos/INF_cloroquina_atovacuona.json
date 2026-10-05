@@ -1,0 +1,276 @@
+[
+  {
+    "id": "INF-cloroquina-hidroxicloroquina",
+    "nombre": "Cloroquina e hidroxicloroquina",
+    "sinonimos": [
+      "4-aminoquinolinas"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antipalúdico",
+    "subclase": "4-aminoquinolina (también inmunomodulador)",
+    "vs_clase": [
+      "**Útil solo frente a P. vivax, ovale, malariae y P. falciparum sensible** (resistencia generalizada de falciparum).",
+      "**La hidroxicloroquina es un FAME** de base en el lupus y la artritis reumatoide.",
+      "**Retinopatía** con uso prolongado (control oftalmológico anual tras 5 años) y prolongación del QT."
+    ],
+    "mecanismo": "Es una base débil que se concentra en compartimentos ácidos. Dentro de la VACUOLA DIGESTIVA del parásito impide la polimerización del hemo tóxico en hemozoína, de modo que el hemo libre se acumula y destruye la membrana del plasmodio; ese es su efecto antipalúdico. En la célula humana se acumula en el LISOSOMA y eleva su pH, lo que interfiere en el procesamiento de antígenos, en la señalización de los receptores tipo Toll (TLR7 y TLR9) y en la presentación antigénica; ese es su efecto inmunomodulador, que es la base de su uso en el lupus y en la artritis reumatoide. Un mismo mecanismo fisicoquímico, la acumulación en orgánulos ácidos, explica dos indicaciones que no tienen nada que ver entre sí y también su toxicidad: la retina y el músculo cardiaco acumulan el fármaco a lo largo de años.",
+    "espectro": "P. vivax, P. ovale, P. malariae y P. knowlesi. P. falciparum es RESISTENTE en casi todo el mundo. Actividad también sobre Entamoeba histolytica en el absceso hepático amebiano.",
+    "indicaciones": [
+      {
+        "patologia": "Paludismo no complicado por P. vivax, P. ovale, P. malariae o P. knowlesi",
+        "dosis": "25 mg base/kg repartidos en 3 días (600 mg base de entrada, 300 mg a las 6, 24 y 48 horas)",
+        "posologia": "Cuatro tomas en 3 días",
+        "via": "VO",
+        "nota": "Hay que añadir PRIMAQUINA en vivax y ovale para erradicar los hipnozoítos"
+      },
+      {
+        "patologia": "LUPUS eritematoso sistémico y lupus cutáneo (hidroxicloroquina)",
+        "dosis": "200-400 mg al día, sin superar 5 mg/kg de peso real al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Es el tratamiento de FONDO de TODO paciente con lupus, salvo contraindicación: reduce los brotes, la afectación renal, la trombosis y la mortalidad"
+      },
+      {
+        "patologia": "Artritis reumatoide y síndrome de Sjögren",
+        "dosis": "200-400 mg al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "nota": "Antirreumático modificador de la enfermedad de potencia moderada; útil en formas leves y en combinación"
+      },
+      {
+        "patologia": "Profilaxis del paludismo en zonas SIN resistencia a cloroquina",
+        "dosis": "300 mg base una vez a la semana, desde 1-2 semanas antes hasta 4 semanas después del viaje",
+        "posologia": "Semanal",
+        "via": "VO",
+        "nota": "Indicación cada vez más residual: quedan muy pocas zonas sin resistencia. Sigue siendo la profilaxis de elección en la EMBARAZADA en esas zonas"
+      },
+      {
+        "patologia": "Absceso hepático amebiano, como complemento del metronidazol",
+        "dosis": "600 mg base al día durante 2 días y después 300 mg al día durante 2-3 semanas",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Se concentra en el hígado; hoy es una indicación de segunda línea"
+      }
+    ],
+    "esquema": {
+      "inicio": "En las indicaciones reumatológicas, exploración oftalmológica BASAL en el primer año de tratamiento. Calcular la dosis por peso REAL, no ideal, sin superar 5 mg/kg al día de hidroxicloroquina.",
+      "titulacion": "Dosis fija. El efecto inmunomodulador tarda de 3 a 6 meses en manifestarse plenamente, lo que hay que advertir para evitar abandonos precoces.",
+      "duracion": "Días en el paludismo; AÑOS o de por vida en el lupus.",
+      "fin": "En el lupus no se suspende ni siquiera en remisión: su retirada se asocia a brotes. Se retira ante toxicidad retiniana confirmada.",
+      "via": "Oral, con comida para reducir las molestias digestivas.",
+      "monitorizacion": "En el uso crónico: CRIBADO OFTALMOLÓGICO anual a partir del quinto año (antes si hay factores de riesgo) con campimetría y OCT de dominio espectral. Hemograma y función hepática y renal periódicos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Prácticamente completa por vía oral.",
+      "distribucion": "VOLUMEN DE DISTRIBUCIÓN ENORME, con acumulación en hígado, bazo, riñón, pulmón, RETINA y músculo. Es lo que explica tanto la eficacia de la dosis semanal como la toxicidad acumulada a lo largo de años.",
+      "metabolismo": "Hepático por CYP2D6, CYP3A4 y CYP2C8.",
+      "eliminacion": "Renal, lenta.",
+      "vida_media": "40-60 DÍAS. El estado estable tarda meses en alcanzarse.",
+      "ajuste_renal": "Reducir la dosis en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Precaución en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Fármacos que alargan el QT (amiodarona, macrólidos, quinolonas, antipsicóticos)",
+          "efecto": "Prolongación aditiva del QT y torsades de pointes",
+          "gravedad": "alta",
+          "manejo": "Revisar la medicación y realizar un ECG en tratamiento prolongado"
+        },
+        {
+          "con": "DIGOXINA",
+          "efecto": "Aumento de las concentraciones de digoxina",
+          "gravedad": "media",
+          "manejo": "Monitorizar la digoxinemia"
+        },
+        {
+          "con": "ANTIÁCIDOS y caolín",
+          "efecto": "Reducen su absorción",
+          "gravedad": "media",
+          "manejo": "Separar 4 horas"
+        },
+        {
+          "con": "Metotrexato y otros hepatotóxicos",
+          "efecto": "Suma de toxicidad hepática",
+          "gravedad": "media",
+          "manejo": "Combinación habitual en reumatología; controles analíticos"
+        },
+        {
+          "con": "Tamoxifeno",
+          "efecto": "Aumenta el riesgo de retinopatía de forma marcada",
+          "gravedad": "alta",
+          "manejo": "Es un factor de riesgo mayor reconocido: cribado oftalmológico más frecuente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas: náuseas, dolor abdominal y diarrea",
+        "PRURITO, especialmente frecuente e intenso en pacientes de piel negra",
+        "Cefalea y visión borrosa transitoria",
+        "Hiperpigmentación cutánea grisácea y blanqueamiento del pelo con el uso prolongado"
+      ],
+      "graves": [
+        "RETINOPATÍA en ojo de buey, dependiente de la dosis acumulada y habitualmente IRREVERSIBLE",
+        "MIOCARDIOPATÍA y trastornos de la conducción con el uso prolongado",
+        "Miopatía y neuropatía",
+        "HEMÓLISIS en el déficit grave de G6PD (menos que con primaquina)",
+        "Discrasias sanguíneas",
+        "SOBREDOSIS con cardiotoxicidad grave, potencialmente MORTAL con pocos comprimidos en el niño",
+        "Psicosis y agitación (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Retinopatía o maculopatía preexistente",
+      "Hipersensibilidad a las 4-aminoquinolinas",
+      "Precaución en el déficit de G6PD, en la miastenia gravis y en la porfiria",
+      "Precaución en el QT largo y en la miocardiopatía"
+    ],
+    "perlas": [
+      "La HIDROXICLOROQUINA es el fármaco de fondo de todo paciente con lupus. No es un tratamiento sintomático: reduce los brotes, protege el riñón, disminuye la trombosis y mejora la supervivencia. Suspenderla porque el paciente está bien es uno de los errores de manejo más costosos del lupus.",
+      "La RETINOPATÍA en ojo de buey es la toxicidad que define el seguimiento. Depende de la dosis DIARIA POR PESO REAL (no superar 5 mg/kg al día) y de la dosis acumulada a lo largo de los años, y es en gran medida irreversible una vez establecida. El cribado con OCT y campimetría permite detectarla antes de que el paciente note nada.",
+      "Los factores que multiplican el riesgo retiniano son la dosis por encima de 5 mg/kg, la insuficiencia renal, el uso de TAMOXIFENO y una enfermedad retiniana previa. En esos casos el cribado empieza antes del quinto año.",
+      "La vida media es de 40 a 60 DÍAS. Eso significa que el efecto tarda meses en aparecer, que la dosis semanal basta como profilaxis, y que retirarlo no produce un cambio inmediato: hay que explicárselo al paciente que espera resultados en dos semanas.",
+      "La CLOROQUINA ya no sirve frente a P. falciparum en casi ningún lugar del mundo. Sigue siendo válida para vivax, ovale, malariae y knowlesi, salvo en los focos de vivax resistente de Oceanía e Indonesia.",
+      "En el PALUDISMO POR VIVAX, la cloroquina cura el episodio pero no impide la recaída: hay que añadir primaquina para vaciar el reservorio hepático.",
+      "En SOBREDOSIS es muy cardiotóxica y de manejo difícil, y unos pocos comprimidos pueden matar a un niño pequeño. Es un fármaco que conviene guardar con especial cuidado en casa.",
+      "Es de los pocos antirreumáticos COMPATIBLES con el embarazo, y de hecho se mantiene durante toda la gestación en la paciente con lupus, en la que retirarlo aumenta los brotes y las complicaciones obstétricas."
+    ],
+    "embarazo_lactancia": "COMPATIBLE y recomendada su continuación durante el embarazo en la paciente con lupus: el riesgo del brote supera con mucho al del fármaco, y reduce el bloqueo cardiaco congénito en la gestante con anticuerpos anti-Ro. Es también la profilaxis antipalúdica de elección en la embarazada en zonas sin resistencia. Compatible con la lactancia.",
+    "micro_relacionado": [
+      "PAR-entamoeba-histolytica",
+      "PAR-plasmodium-vivax"
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 52; recomendaciones de la Academia Americana de Oftalmología sobre cribado de retinopatía; guías EULAR de lupus"
+  },
+  {
+    "id": "INF-atovacuona-proguanil",
+    "nombre": "Atovacuona/proguanil",
+    "sinonimos": [
+      "Malarone"
+    ],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Antipalúdico",
+    "subclase": "Combinación de un inhibidor mitocondrial y un antifolato",
+    "vs_clase": [
+      "**De elección en la PROFILAXIS de viajeros** a zonas de resistencia a cloroquina: se toma 1-2 días antes, durante y **solo 7 días después** del viaje (actúa también en la fase hepática).",
+      "**Bien tolerada**, sin los efectos neuropsiquiátricos de la mefloquina.",
+      "También tratamiento de la malaria no complicada."
+    ],
+    "mecanismo": "Combina dos fármacos que atacan la misma célula por dos puntos distintos y se potencian entre sí. La ATOVACUONA es un análogo de la ubiquinona que bloquea el complejo citocromo bc1 de la MITOCONDRIA del parásito, colapsando su potencial de membrana mitocondrial e interrumpiendo la síntesis de pirimidinas, de la que el plasmodio depende por completo porque no puede recuperarlas de una vía de rescate. El PROGUANIL tiene dos acciones: su metabolito cicloguanil inhibe la dihidrofolato reductasa parasitaria, y el propio proguanil potencia de forma directa el colapso mitocondrial inducido por la atovacuona. Actúa además sobre las formas HEPÁTICAS preeritrocitarias, lo que le da una ventaja práctica decisiva en profilaxis: basta con mantenerla 7 días tras salir de la zona endémica, en lugar de las 4 semanas de la mefloquina o la doxiciclina.",
+    "espectro": "Todas las especies de Plasmodium, incluido P. falciparum resistente a cloroquina. Actividad sobre las formas hepáticas preeritrocitarias, pero NO sobre los hipnozoítos de P. vivax y P. ovale. La atovacuona sola es además activa frente a Pneumocystis jirovecii y Toxoplasma gondii.",
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS del paludismo en el viajero",
+        "dosis": "1 comprimido de 250/100 mg al día, desde 1-2 días ANTES de entrar en la zona hasta 7 días DESPUÉS de salir",
+        "posologia": "Una toma diaria a la misma hora, con comida o leche",
+        "via": "VO",
+        "nota": "La pauta de solo 7 días tras el regreso es su gran ventaja frente a la doxiciclina y la mefloquina, que exigen 4 semanas y en las que el abandono es frecuente"
+      },
+      {
+        "patologia": "TRATAMIENTO del paludismo no complicado por P. falciparum",
+        "dosis": "4 comprimidos de 250/100 mg al día durante 3 días",
+        "posologia": "Una toma diaria durante 3 días",
+        "via": "VO",
+        "nota": "Alternativa al artemeter-lumefantrina. NO debe usarse para tratar a un paciente que estaba tomando este mismo fármaco como profilaxis"
+      },
+      {
+        "patologia": "Profilaxis en el viajero con estancia corta o con intolerancia a otras pautas",
+        "dosis": "1 comprimido al día",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Es la mejor tolerada de las profilaxis, sin fotosensibilidad ni efectos neuropsiquiátricos"
+      },
+      {
+        "patologia": "Neumonía por Pneumocystis jirovecii leve-moderada (atovacuona sola)",
+        "dosis": "Atovacuona 750 mg cada 12 horas",
+        "posologia": "Cada 12 horas con comida grasa",
+        "via": "VO",
+        "nota": "Alternativa en el paciente que no tolera cotrimoxazol; menos eficaz que este"
+      }
+    ],
+    "esquema": {
+      "inicio": "1-2 días antes de entrar en la zona endémica, lo que permite comprobar la tolerancia antes de viajar.",
+      "titulacion": "Dosis fija.",
+      "duracion": "Toda la estancia más 7 días tras la salida en profilaxis; 3 días en tratamiento.",
+      "fin": "A los 7 días de abandonar la zona. Insistir en que la profilaxis no es completa: una fiebre posterior obliga a descartar paludismo aunque se haya cumplido bien.",
+      "via": "Oral, SIEMPRE con comida o con una bebida láctea: la absorción de la atovacuona depende de la grasa.",
+      "monitorizacion": "Tolerancia digestiva. En tratamientos prolongados, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "La ATOVACUONA es muy lipófila y su biodisponibilidad depende críticamente de la GRASA de la comida, que puede triplicarla. Tomarla en ayunas es la causa más frecuente de fracaso.",
+      "distribucion": "Unión a proteínas superior al 99% en el caso de la atovacuona.",
+      "metabolismo": "El proguanil se metaboliza por CYP2C19 a cicloguanil; la atovacuona apenas se metaboliza.",
+      "eliminacion": "Atovacuona por vía fecal casi íntegra; proguanil por vía renal.",
+      "vida_media": "Atovacuona 2-3 días; proguanil 12-21 horas.",
+      "ajuste_renal": "CONTRAINDICADA en profilaxis con filtrado menor de 30 mL/min.",
+      "ajuste_hepatico": "Precaución en la insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "RIFAMPICINA y rifabutina",
+          "efecto": "Reducen las concentraciones de atovacuona hasta un 50%: FRACASO de la profilaxis",
+          "gravedad": "alta",
+          "manejo": "Combinación a evitar; elegir otra profilaxis"
+        },
+        {
+          "con": "METOCLOPRAMIDA",
+          "efecto": "Reduce las concentraciones de atovacuona",
+          "gravedad": "media",
+          "manejo": "Evitar; usar otro antiemético"
+        },
+        {
+          "con": "Tetraciclinas",
+          "efecto": "Reducen las concentraciones de atovacuona",
+          "gravedad": "media",
+          "manejo": "Vigilar la eficacia"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "El proguanil puede potenciar el efecto anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        },
+        {
+          "con": "Efavirenz y algunos inhibidores de la proteasa",
+          "efecto": "Reducen las concentraciones de atovacuona",
+          "gravedad": "media",
+          "manejo": "Relevante en el viajero con VIH: valorar otra profilaxis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal, náuseas y diarrea",
+        "Cefalea",
+        "Sueños vívidos (mucho menos frecuentes que con mefloquina)",
+        "Elevación leve de transaminasas"
+      ],
+      "graves": [
+        "Reacciones cutáneas graves, incluido el síndrome de Stevens-Johnson (raras)",
+        "Hepatitis",
+        "Anemia y neutropenia (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave (filtrado menor de 30 mL/min) para la profilaxis",
+      "Hipersensibilidad conocida",
+      "Embarazo: no recomendada por datos insuficientes",
+      "No usarla como tratamiento en quien la estaba tomando como profilaxis"
+    ],
+    "perlas": [
+      "Su ventaja competitiva es el CALENDARIO: solo 7 días después de salir de la zona, frente a las 4 semanas de la doxiciclina y de la mefloquina. Como el abandono de la profilaxis al volver a casa es un fenómeno masivo, un régimen que termina pronto es un régimen que se cumple.",
+      "Es la profilaxis mejor TOLERADA: sin fotosensibilidad (doxiciclina), sin pesadillas ni ansiedad (mefloquina) y sin las molestias esofágicas de las tetraciclinas. Su principal desventaja es el precio y la toma diaria.",
+      "SIEMPRE CON COMIDA GRASA o leche. La atovacuona es extremadamente lipófila y en ayunas se absorbe una fracción de la dosis; el fracaso profiláctico por tomarla con el estómago vacío está descrito y es totalmente evitable.",
+      "Actúa sobre las formas HEPÁTICAS preeritrocitarias, y eso es lo que le permite acortar la profilaxis postexposición. Pero no toca los HIPNOZOÍTOS: no protege de las recaídas por P. vivax.",
+      "No se debe usar para TRATAR a un paciente que la estaba tomando como PROFILAXIS: si ha desarrollado paludismo pese a ella, la probabilidad de resistencia o de mala absorción es alta y hay que cambiar de familia.",
+      "NINGUNA profilaxis es completa. Un viajero cumplidor con fiebre a la vuelta necesita gota gruesa, y la respuesta de que estaba tomando la profilaxis no descarta nada.",
+      "Las medidas de barrera (repelente con DEET, mosquitera impregnada, ropa cubriente al atardecer y al amanecer, que es cuando pica Anopheles) reducen el riesgo tanto como la quimioprofilaxis y hay que explicarlas con el mismo detalle."
+    ],
+    "embarazo_lactancia": "No recomendada en el embarazo por datos insuficientes; en la gestante que viaja a zona endémica se prefiere mefloquina o cloroquina según el patrón de resistencias, y lo primero que hay que valorar es si el viaje es aplazable. Datos limitados en la lactancia.",
+    "micro_relacionado": [
+      "HON-pneumocystis-jirovecii",
+      "PAR-plasmodium-falciparum"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 52; recomendaciones de los CDC y de la OMS sobre quimioprofilaxis en el viajero"
+  }
+]

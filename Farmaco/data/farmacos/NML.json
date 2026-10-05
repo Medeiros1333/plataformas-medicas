@@ -1,0 +1,475 @@
+[
+  {
+    "id": "NML-salbutamol",
+    "nombre": "Salbutamol",
+    "sinonimos": [
+      "Albuterol"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Broncodilatador beta-2 agonista de acción corta (SABA)",
+    "subclase": "Medicación de rescate",
+    "vs_clase": [
+      "**El SABA de referencia**, con todas las vías: cartucho presurizado con cámara, nebulizado e IV.",
+      "**Nebulizado o con cámara en la crisis**; también tratamiento de la **hiperpotasemia** (10-20 mg nebulizado).",
+      "En el asma, el rescate preferido hoy es budesonida-formoterol (MART) frente al SABA solo."
+    ],
+    "mecanismo": "Agonista selectivo de los receptores BETA-2 del músculo liso bronquial: activa la adenilato ciclasa, eleva el AMP cíclico intracelular y produce relajación del músculo liso, con broncodilatación en minutos. Actúa además reduciendo la liberación de mediadores por los mastocitos y mejorando el aclaramiento mucociliar. NO tiene ningún efecto antiinflamatorio, y esa es la limitación que define todo su papel: alivia el síntoma sin tocar la causa. La estimulación beta-2 extrapulmonar explica el temblor, la taquicardia y la HIPOPOTASEMIA por entrada de potasio en la célula.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis asmática leve-moderada",
+        "dosis": "4-10 pulsaciones de 100 µg con cámara, repetibles cada 20 minutos la primera hora",
+        "posologia": "Cada 20 minutos hasta 3 tandas, después según respuesta",
+        "via": "inhalada",
+        "nota": "El inhalador presurizado CON CÁMARA es al menos igual de eficaz que el nebulizador en la crisis leve-moderada, y con menos efectos adversos"
+      },
+      {
+        "patologia": "Crisis asmática grave o estado asmático",
+        "dosis": "2,5-5 mg nebulizados con oxígeno, repetibles cada 20 minutos o en nebulización continua",
+        "posologia": "Cada 20 minutos o continua",
+        "via": "nebulizada",
+        "nota": "Se asocia BROMURO DE IPRATROPIO nebulizado y CORTICOIDE sistémico precoz, que es el que modifica realmente el curso"
+      },
+      {
+        "patologia": "Asma: alivio de síntomas (rescate)",
+        "dosis": "2 pulsaciones de 100 µg a demanda",
+        "posologia": "A demanda",
+        "via": "inhalada",
+        "nota": "La necesidad de más de 2 veces por semana indica MAL CONTROL y obliga a revisar el tratamiento de fondo, no a repetir el rescate"
+      },
+      {
+        "patologia": "Broncoespasmo inducido por ejercicio",
+        "dosis": "2 pulsaciones 10-15 minutos antes del esfuerzo",
+        "posologia": "Preventiva, antes del ejercicio",
+        "via": "inhalada",
+        "nota": "Si el paciente lo necesita a diario, el asma de base está mal controlada"
+      },
+      {
+        "patologia": "Agudización de EPOC",
+        "dosis": "4-8 pulsaciones con cámara o 2,5-5 mg nebulizados cada 4-6 h",
+        "posologia": "Cada 4-6 h",
+        "via": "inhalada o nebulizada",
+        "nota": "Nebulizar con AIRE, no con oxígeno a alto flujo, en el paciente retenedor de carbónico"
+      },
+      {
+        "patologia": "Hiperpotasemia grave (medida transitoria)",
+        "dosis": "10-20 mg nebulizados",
+        "posologia": "Dosis única, repetible",
+        "via": "nebulizada",
+        "nota": "Introduce el potasio en la célula; se combina con insulina y glucosa, y no elimina potasio del organismo"
+      }
+    ],
+    "esquema": {
+      "inicio": "A demanda, no pautado. En la crisis, tandas repetidas cada 20 minutos durante la primera hora, junto con oxígeno y corticoide sistémico.",
+      "titulacion": "No se titula al alza como tratamiento crónico: si hacen falta más dosis, lo que hay que subir es el tratamiento ANTIINFLAMATORIO de fondo.",
+      "duracion": "Puntual. En la crisis, se espacia progresivamente a medida que el paciente mejora (de cada 20 minutos a cada 4-6 h).",
+      "fin": "Se suspende al ceder el broncoespasmo, manteniéndolo solo como rescate a demanda.",
+      "via": "Inhalada con CÁMARA ESPACIADORA (nunca el cartucho solo, salvo técnica impecable) o nebulizada. La vía oral e intravenosa están prácticamente abandonadas por su peor relación eficacia-toxicidad.",
+      "monitorizacion": "Frecuencia y saturación, POTASIO en las tandas repetidas o en nebulización continua, y sobre todo el NÚMERO DE ENVASES CONSUMIDOS AL AÑO, que es un indicador directo de control y de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio del efecto en 3-5 minutos por vía inhalada, pico a los 30-60 minutos. Solo el 10-20% de la dosis alcanza el pulmón con buena técnica; el resto se deposita en la orofaringe y se deglute.",
+      "distribucion": "Escasa unión a proteínas; acción fundamentalmente local en la vía aérea.",
+      "metabolismo": "Hepático por sulfoconjugación.",
+      "eliminacion": "Renal, como fármaco inalterado y metabolitos.",
+      "vida_media": "4-6 h de duración del efecto broncodilatador.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "BETABLOQUEANTES no cardioselectivos (propranolol, timolol, incluido el COLIRIO para el glaucoma)",
+          "efecto": "ANTAGONISMO directo del receptor beta-2: pueden desencadenar broncoespasmo grave y anular el efecto del rescate",
+          "gravedad": "alta",
+          "manejo": "Evitar en el asmático; si se necesita betabloqueo, usar uno cardioselectivo (bisoprolol) y a la menor dosis. Preguntar SIEMPRE por el colirio del glaucoma"
+        },
+        {
+          "con": "Diuréticos de asa y tiazidas, corticoides sistémicos, insulina",
+          "efecto": "HIPOPOTASEMIA aditiva, relevante en la crisis grave tratada con tandas repetidas",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio en la crisis grave y en la nebulización continua"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "La hipopotasemia potencia la toxicidad digitálica",
+          "gravedad": "media",
+          "manejo": "Vigilar el potasio y la clínica de intoxicación digitálica"
+        },
+        {
+          "con": "Antidepresivos tricíclicos e IMAO",
+          "efecto": "Potenciación de los efectos cardiovasculares",
+          "gravedad": "baja",
+          "manejo": "Precaución en el cardiópata"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "TEMBLOR fino distal (el más frecuente y el que más alarma al paciente)",
+        "TAQUICARDIA y palpitaciones",
+        "Cefalea y nerviosismo",
+        "Calambres musculares"
+      ],
+      "graves": [
+        "HIPOPOTASEMIA con arritmias, sobre todo en tandas repetidas o nebulización continua",
+        "Arritmias supraventriculares y agravamiento de la isquemia en el cardiópata",
+        "ACIDOSIS LÁCTICA con taquipnea paradójica en la crisis grave tratada con dosis altas: se confunde con empeoramiento del asma y lleva a dar aún más salbutamol",
+        "Broncoespasmo paradójico (raro, obliga a suspender)",
+        "Hiperglucemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al salbutamol",
+      "Precaución (no contraindicación absoluta) en taquiarritmias, cardiopatía isquémica inestable, hipertiroidismo no controlado e hipopotasemia grave"
+    ],
+    "perlas": [
+      "La regla clínica que mejor resume su papel: NO es un tratamiento del asma, es un tratamiento del SÍNTOMA. Necesitarlo más de 2 veces por semana define mal control, y consumir más de 3 envases al año se asocia a mayor riesgo de crisis grave y de muerte por asma. El número de envases dispensados es uno de los mejores predictores de riesgo que existen y está en la historia farmacéutica de cualquier paciente.",
+      "Por eso las guías actuales han abandonado la monoterapia con SABA en el asma del adulto: el rescate recomendado es la combinación de FORMOTEROL con corticoide inhalado, que alivia igual de rápido pero además trata la inflamación de la crisis incipiente.",
+      "La CÁMARA ESPACIADORA no es un accesorio pediátrico: en la crisis del adulto el cartucho con cámara es al menos tan eficaz como el nebulizador, más rápido de administrar y con menos taquicardia y temblor. El error más frecuente en urgencias es nebulizar por costumbre.",
+      "La ACIDOSIS LÁCTICA por betaagonistas a dosis altas es una trampa poco conocida: el paciente en crisis grave respira más rápido, se interpreta como empeoramiento del broncoespasmo y se administra más salbutamol, cerrando un círculo vicioso. Ante una taquipnea que no encaja con la auscultación, hay que gasometrar y mirar el lactato.",
+      "Hay que preguntar por el COLIRIO DEL GLAUCOMA: el timolol tópico se absorbe lo suficiente para producir broncoespasmo grave en un asmático, y el paciente no lo menciona porque no lo considera un medicamento.",
+      "En el EPOC retenedor de carbónico, nebulizar con OXÍGENO a alto flujo puede empeorar la hipercapnia: hay que nebulizar con aire y dar el oxígeno aparte, ajustado a una saturación diana del 88-92%.",
+      "El temblor es beta-2 mediado y no indica sobredosis peligrosa ni intolerancia: explicarlo de antemano evita que el paciente deje de usar el rescate cuando lo necesita."
+    ],
+    "embarazo_lactancia": "Seguro y NECESARIO en el embarazo: el riesgo del asma mal controlada para el feto (hipoxia, bajo peso, prematuridad) es muy superior al del fármaco. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., caps. de asma y EPOC"
+  },
+  {
+    "id": "NML-budesonida-formoterol",
+    "nombre": "Budesonida/formoterol (corticoide inhalado con LABA)",
+    "sinonimos": [
+      "ICS-LABA"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Corticoide inhalado con LABA (combinación)",
+    "subclase": "Tratamiento de fondo y de rescate (MART) del asma",
+    "vs_clase": [
+      "**El FORMOTEROL tiene INICIO RÁPIDO (1-3 min)**: la combinación **sirve como RESCATE** y permite la **estrategia MART** (un solo inhalador de fondo y rescate), que reduce las crisis graves.",
+      "**Budesonida: corticoide inhalado con más experiencia en el EMBARAZO** y menos neumonías en EPOC que la fluticasona.",
+      "Pautas a demanda en el asma leve (escalones 1-2 de GINA)."
+    ],
+    "mecanismo": "La BUDESONIDA es un glucocorticoide que se une al receptor citoplasmático y modula la transcripción génica en la mucosa bronquial: reduce la producción de citocinas, la infiltración eosinofílica y la hiperreactividad bronquial. Es el tratamiento de la CAUSA del asma. El FORMOTEROL es un agonista beta-2 de acción prolongada (12 h) pero de inicio RÁPIDO (1-3 minutos, a diferencia del salmeterol), lo que le permite servir tanto de mantenimiento como de rescate. Ambos se potencian: el corticoide aumenta la expresión de receptores beta-2 y el betaagonista facilita la translocación nuclear del receptor de glucocorticoides.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente: tratamiento de fondo y de rescate (estrategia MART)",
+        "dosis": "160/4,5 µg, 1-2 inhalaciones/12 h de mantenimiento MÁS 1 inhalación a demanda como rescate (máximo 12 al día)",
+        "posologia": "Cada 12 h más rescate a demanda",
+        "via": "inhalada",
+        "nota": "Estrategia de mantenimiento y alivio con un único inhalador: reduce las crisis graves frente a usar un SABA como rescate"
+      },
+      {
+        "patologia": "Asma leve: rescate a demanda sin mantenimiento",
+        "dosis": "160/4,5 µg, 1 inhalación a demanda cuando hay síntomas",
+        "posologia": "A demanda",
+        "via": "inhalada",
+        "nota": "Ha sustituido al salbutamol solo como rescate en el asma leve: cada rescate lleva incorporado el antiinflamatorio"
+      },
+      {
+        "patologia": "Asma moderada-grave persistente",
+        "dosis": "320/9 µg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "Si no se controla, añadir un LAMA (tiotropio) antes de subir el corticoide inhalado a dosis muy altas"
+      },
+      {
+        "patologia": "EPOC con agudizaciones frecuentes y eosinofilia",
+        "dosis": "320/9 µg/12 h, habitualmente dentro de una triple terapia con LAMA",
+        "posologia": "Cada 12 h",
+        "via": "inhalada",
+        "nota": "En EPOC el corticoide inhalado solo se justifica con 2 o más agudizaciones al año o eosinófilos por encima de 300/µL: no es un tratamiento universal del EPOC"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis según la gravedad del asma en el momento del diagnóstico. Enseñar y COMPROBAR la técnica inhalatoria en la propia consulta; es la intervención con mayor rendimiento de toda la prescripción.",
+      "titulacion": "Escalado y DESESCALADO según el control: revisar cada 2-3 meses. Una vez controlado el asma durante 3 meses, hay que BAJAR al escalón mínimo eficaz, algo que se hace mucho menos de lo que se debería.",
+      "duracion": "Prolongada, mientras persista el asma persistente. No es un tratamiento a demanda.",
+      "fin": "Nunca se retira de forma brusca en el asma persistente: la inflamación reaparece y con ella las crisis. El descenso es gradual y con reevaluación.",
+      "via": "Inhalada, con CÁMARA si es cartucho presurizado. Es imprescindible ENJUAGARSE LA BOCA después de cada toma.",
+      "monitorizacion": "Control clínico (cuestionarios ACT), espirometría periódica, número de crisis y de ciclos de corticoide oral, TÉCNICA INHALATORIA en cada revisión y adherencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Solo el 10-40% de la dosis llega al pulmón; el resto se deposita en la orofaringe y se DEGLUTE. Enjuagarse la boca reduce tanto la candidiasis local como esa absorción digestiva.",
+      "distribucion": "Acción fundamentalmente local en la vía aérea.",
+      "metabolismo": "La budesonida sufre un intenso PRIMER PASO HEPÁTICO por CYP3A4 (más del 90% de la fracción deglutida se inactiva), lo que limita sus efectos sistémicos. Esa dependencia del CYP3A4 es también su punto vulnerable frente a los inhibidores potentes.",
+      "eliminacion": "Renal y biliar como metabolitos inactivos.",
+      "vida_media": "Efecto broncodilatador del formoterol de 12 h; efecto antiinflamatorio de la budesonida sostenido con la dosificación cada 12 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Precaución en la hepatopatía grave: al reducirse el primer paso, aumenta la exposición sistémica al corticoide.",
+      "interacciones": [
+        {
+          "con": "RITONAVIR, cobicistat, itraconazol, ketoconazol, claritromicina (inhibidores potentes del CYP3A4)",
+          "efecto": "Bloquean el primer paso hepático de la budesonida y elevan mucho su exposición sistémica: se han descrito SÍNDROMES DE CUSHING iatrogénicos e insuficiencia suprarrenal con un corticoide inhalado",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; en el paciente con VIH o con antifúngico azólico, elegir beclometasona, que depende menos del CYP3A4"
+        },
+        {
+          "con": "Betabloqueantes no cardioselectivos, incluido el colirio de timolol",
+          "efecto": "Antagonismo del componente beta-2 con riesgo de broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar; usar cardioselectivos si el betabloqueo es imprescindible"
+        },
+        {
+          "con": "Diuréticos, corticoides sistémicos",
+          "efecto": "Hipopotasemia aditiva",
+          "gravedad": "baja",
+          "manejo": "Relevante solo con dosis altas o en la crisis"
+        },
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "Efecto aditivo del componente betaagonista",
+          "gravedad": "baja",
+          "manejo": "Vigilancia en el cardiópata"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "CANDIDIASIS OROFARÍNGEA (muguet), prevenible enjuagándose la boca",
+        "DISFONÍA y carraspera por miopatía local de la musculatura laríngea",
+        "Temblor y palpitaciones por el componente beta-2",
+        "Tos irritativa tras la inhalación"
+      ],
+      "graves": [
+        "NEUMONÍA en el paciente con EPOC (efecto de clase de los corticoides inhalados, más marcado con fluticasona)",
+        "Supresión del eje hipotálamo-hipófiso-suprarrenal con dosis altas mantenidas o con inhibidores del CYP3A4",
+        "Osteoporosis, cataratas y glaucoma con dosis altas prolongadas",
+        "Retraso del crecimiento en el niño (leve y con recuperación posterior de la talla)",
+        "Broncoespasmo paradójico"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a cualquiera de los componentes",
+      "El LABA NUNCA debe usarse SOLO en el asma, sin corticoide inhalado: aumenta la mortalidad. Por eso solo se comercializa en combinación fija",
+      "Precaución en tuberculosis pulmonar activa e infecciones respiratorias fúngicas no tratadas"
+    ],
+    "perlas": [
+      "La lección histórica que explica por qué estos fármacos solo existen combinados: el LABA en MONOTERAPIA en el asma aumenta la MORTALIDAD, porque enmascara la inflamación mientras alivia el síntoma. Por eso la combinación fija es obligatoria y por eso jamás debe prescribirse un LABA suelto a un asmático.",
+      "La estrategia MART (mantenimiento y alivio con el mismo inhalador) es posible por una particularidad farmacológica concreta: el FORMOTEROL, a diferencia del salmeterol, es de acción prolongada pero de INICIO RÁPIDO. Eso permite que cada rescate administre también corticoide, justo cuando la inflamación está aumentando.",
+      "ENJUAGARSE LA BOCA después de cada inhalación no es un consejo menor: evita la candidiasis y la disfonía, que son las dos causas más frecuentes de abandono del tratamiento de fondo.",
+      "La interacción con RITONAVIR o cobicistat es sorprendente por su magnitud: un corticoide INHALADO puede producir un síndrome de Cushing completo si se bloquea su primer paso hepático. En el paciente con VIH tratado, hay que revisar el inhalador.",
+      "La TÉCNICA INHALATORIA mal ejecutada es la causa más frecuente de asma aparentemente refractaria. Antes de subir de escalón hay que pedir al paciente que use el inhalador delante de uno: se corrigen más asmas mal controladas enseñando la técnica que añadiendo fármacos.",
+      "En EPOC el corticoide inhalado NO es universal: solo se justifica con agudizaciones frecuentes o eosinofilia, porque aumenta el riesgo de neumonía. Es una diferencia esencial con el asma, donde es el pilar del tratamiento.",
+      "Una vez controlado el asma durante 3 meses, hay que DESESCALAR. La inercia terapéutica en sentido descendente es tan real como la ascendente y expone al paciente a dosis innecesarias durante años."
+    ],
+    "embarazo_lactancia": "La budesonida es el corticoide inhalado con más datos de seguridad en el embarazo y debe MANTENERSE: el asma mal controlada es más peligrosa para el feto que el fármaco. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de asma; guías GINA"
+  },
+  {
+    "id": "NML-tiotropio",
+    "nombre": "Tiotropio",
+    "sinonimos": [
+      "LAMA"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Broncodilatador antimuscarínico inhalado",
+    "subclase": "LAMA (acción prolongada)",
+    "vs_clase": [
+      "**LAMA de 24 h con la mayor evidencia en EPOC** (UPLIFT) y añadido en el **asma grave**.",
+      "**Dispositivo Respimat** (niebla suave, útil con flujo inspiratorio bajo) o HandiHaler.",
+      "No es de rescate (para eso, ipratropio o SABA)."
+    ],
+    "mecanismo": "Antagonista de los receptores muscarínicos M1, M2 y M3 del músculo liso bronquial. Su selectividad es CINÉTICA, no estructural: se disocia muy lentamente del receptor M3 (el que media la broncoconstricción) y con rapidez del M2 (autorreceptor presináptico inhibidor, cuyo bloqueo sería contraproducente). De ahí una broncodilatación mantenida durante más de 24 h con una sola dosis diaria. Al bloquear el tono vagal colinérgico, que es el principal componente REVERSIBLE de la obstrucción en el EPOC, resulta especialmente eficaz en esa enfermedad.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "EPOC: tratamiento de fondo",
+        "dosis": "18 µg (cápsula para inhalar) o 5 µg (inhalador de niebla fina) cada 24 h",
+        "posologia": "Una vez al día, a la misma hora",
+        "via": "inhalada",
+        "nota": "Broncodilatador de mantenimiento de primera línea en EPOC; reduce las agudizaciones más que un LABA solo"
+      },
+      {
+        "patologia": "EPOC con agudizaciones pese a monoterapia: doble broncodilatación",
+        "dosis": "LAMA más LABA en combinación fija, 1 inhalación/24 h",
+        "posologia": "Una vez al día",
+        "via": "inhalada",
+        "nota": "La doble broncodilatación LAMA+LABA es preferible a añadir un corticoide inhalado salvo eosinofilia o asma concomitante"
+      },
+      {
+        "patologia": "Asma grave no controlada pese a corticoide inhalado y LABA",
+        "dosis": "5 µg/24 h (inhalador de niebla fina)",
+        "posologia": "Una vez al día",
+        "via": "inhalada",
+        "nota": "Escalón añadido antes de plantear los biológicos; NUNCA sustituye al corticoide inhalado"
+      }
+    ],
+    "esquema": {
+      "inicio": "1 inhalación al día desde el principio, sin escalado. Comprobar la técnica: el dispositivo de cápsulas requiere una inspiración enérgica que muchos pacientes con EPOC avanzado no generan.",
+      "titulacion": "No se titula: dosis fija.",
+      "duracion": "Indefinida en el EPOC.",
+      "fin": "No se retira salvo intolerancia. Su retirada se asocia a empeoramiento sintomático y funcional.",
+      "via": "Inhalada. El dispositivo de polvo seco exige flujo inspiratorio suficiente; el de niebla fina no, y es preferible en el paciente muy obstruido o débil.",
+      "monitorizacion": "Disnea, tolerancia al esfuerzo, número de agudizaciones y espirometría periódica. Vigilar retención urinaria y síntomas oculares."
+    },
+    "farmacocinetica": {
+      "absorcion": "Muy escasa absorción sistémica desde la vía aérea; la fracción deglutida apenas se absorbe por ser una AMINA CUATERNARIA con carga permanente.",
+      "distribucion": "Acción local; no atraviesa la barrera hematoencefálica, por lo que carece de efectos anticolinérgicos centrales.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "RENAL, mayoritariamente inalterado.",
+      "vida_media": "Muy prolongada por la disociación lenta del receptor M3: más de 24 h de efecto.",
+      "ajuste_renal": "PRECAUCIÓN con FG por debajo de 50: se elimina por vía renal y puede acumularse. Vigilar efectos anticolinérgicos.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros ANTICOLINÉRGICOS (oxibutinina, antidepresivos tricíclicos, antihistamínicos de primera generación, butilescopolamina)",
+          "efecto": "Suma de carga anticolinérgica periférica: retención urinaria, estreñimiento, sequedad, glaucoma",
+          "gravedad": "media",
+          "manejo": "Revisar la carga anticolinérgica total, sobre todo en el varón anciano con prostatismo"
+        },
+        {
+          "con": "Bromuro de IPRATROPIO",
+          "efecto": "Duplicidad terapéutica: son el mismo mecanismo, uno de acción corta y otro prolongada",
+          "gravedad": "media",
+          "manejo": "No asociarlos de forma crónica. En la agudización aguda puede usarse ipratropio nebulizado suspendiendo temporalmente el tiotropio"
+        },
+        {
+          "con": "Betabloqueantes",
+          "efecto": "No interaccionan directamente, pero pueden empeorar la obstrucción del paciente con componente asmático",
+          "gravedad": "baja",
+          "manejo": "Preferir cardioselectivos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SEQUEDAD DE BOCA (el más frecuente con diferencia)",
+        "Tos irritativa tras la inhalación",
+        "Estreñimiento",
+        "Faringitis y disfonía"
+      ],
+      "graves": [
+        "RETENCIÓN URINARIA aguda en el varón con hipertrofia prostática",
+        "GLAUCOMA AGUDO DE ÁNGULO CERRADO si el aerosol alcanza el ojo",
+        "Broncoespasmo paradójico",
+        "Taquicardia supraventricular y fibrilación auricular (señal descrita, de magnitud discutida)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al tiotropio, al ipratropio o a la atropina",
+      "Precaución en glaucoma de ángulo estrecho, hipertrofia prostática con retención y obstrucción del cuello vesical",
+      "No indicado como medicación de RESCATE: su inicio de acción es demasiado lento"
+    ],
+    "perlas": [
+      "Su duración de más de 24 h no se debe a que se elimine despacio del organismo, sino a que se DISOCIA MUY LENTAMENTE del receptor M3. Es un buen ejemplo de que la duración del efecto de un fármaco puede depender de la cinética del receptor y no de la del plasma.",
+      "En el EPOC el componente reversible de la obstrucción es fundamentalmente el TONO VAGAL: por eso los anticolinérgicos funcionan mejor en EPOC que en asma, mientras que en el asma, enfermedad inflamatoria, el pilar es el corticoide inhalado. Esa asimetría explica los dos algoritmos terapéuticos.",
+      "El GLAUCOMA AGUDO por proyección del aerosol sobre el ojo es un efecto adverso evitable con una instrucción sencilla: cerrar bien los labios en torno a la boquilla y no dirigir la nube hacia la cara. Ocurre sobre todo con las formas nebulizadas de ipratropio y mascarilla facial.",
+      "El DISPOSITIVO importa tanto como el fármaco: el inhalador de polvo seco necesita un flujo inspiratorio que el paciente con EPOC muy avanzado o en agudización no siempre genera. En ese paciente hay que elegir el de niebla fina o un cartucho con cámara.",
+      "Asociar tiotropio e IPRATROPIO de forma crónica es una duplicidad frecuente y silenciosa: son el mismo mecanismo. Conviene buscarla activamente al revisar la medicación inhalada.",
+      "En el asma grave es un escalón añadido útil y barato ANTES de plantear un biológico, pero nunca sustituye al corticoide inhalado.",
+      "En el varón anciano con EPOC hay que preguntar por el prostatismo antes de prescribirlo: la retención urinaria aguda es la complicación que más veces obliga a retirarlo."
+    ],
+    "embarazo_lactancia": "Datos limitados; se usa solo si el beneficio supera el riesgo. En el asma de la gestante se prefieren corticoide inhalado y beta-2. Precaución durante la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 8 y 20; Harrison 20.ª ed., cap. de EPOC; guías GOLD"
+  },
+  {
+    "id": "NML-montelukast",
+    "nombre": "Montelukast",
+    "sinonimos": [
+      "Antileucotrieno"
+    ],
+    "area": "NML",
+    "nivel": 2,
+    "clase": "Antagonista de los receptores de leucotrienos",
+    "subclase": "Antiinflamatorio no esteroideo de la vía aérea",
+    "mecanismo": "Antagonista selectivo del receptor CysLT1 de los cisteinil-leucotrienos (LTC4, LTD4, LTE4), mediadores derivados del ácido araquidónico por la vía de la 5-LIPOOXIGENASA. Esos leucotrienos producen broncoconstricción potente, secreción de moco, edema de la mucosa y reclutamiento de eosinófilos. Bloquear su receptor tiene un efecto antiinflamatorio modesto pero muy específico, que resulta especialmente útil en los fenotipos donde esa vía predomina: asma inducida por ejercicio, asma con rinitis alérgica y ENFERMEDAD RESPIRATORIA EXACERBADA POR AAS, en la que los AINE desvían el araquidónico hacia la vía de los leucotrienos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Asma persistente leve-moderada como tratamiento añadido",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día, por la noche",
+        "via": "VO",
+        "nota": "Añadido al corticoide inhalado, NUNCA en su lugar: es menos eficaz que este como tratamiento de fondo"
+      },
+      {
+        "patologia": "Broncoespasmo inducido por ejercicio",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Indicación en la que su rendimiento es mejor; útil en el deportista que no quiere depender del rescate previo"
+      },
+      {
+        "patologia": "Asma con rinitis alérgica concomitante",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Trata las dos entidades a la vez, lo que simplifica el tratamiento del paciente con vía aérea única"
+      },
+      {
+        "patologia": "Enfermedad respiratoria exacerbada por AAS (tríada de Widal)",
+        "dosis": "10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Fenotipo en el que su base fisiopatológica es más sólida: los AINE desvían el metabolismo hacia los leucotrienos"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg por la noche, sin escalado.",
+      "titulacion": "No se titula.",
+      "duracion": "Se evalúa la respuesta a las 2-4 SEMANAS: si no hay mejoría objetiva, se RETIRA. Es un fármaco de respuesta muy heterogénea, con pacientes que responden bien y otros que no responden en absoluto.",
+      "fin": "Retirada directa si no hay beneficio o si aparecen síntomas neuropsiquiátricos.",
+      "via": "VO (comprimido, comprimido masticable o granulado en pediatría).",
+      "monitorizacion": "Respuesta clínica a las 2-4 semanas y, de forma expresa, VIGILANCIA NEUROPSIQUIÁTRICA: preguntar activamente por pesadillas, alteración del ánimo, agresividad e ideación suicida."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y buena por vía oral; el alimento no altera de forma relevante su absorción.",
+      "distribucion": "Unión a proteínas superior al 99%.",
+      "metabolismo": "Hepático por CYP2C8, CYP3A4 y CYP2C9.",
+      "eliminacion": "Biliar y fecal casi por completo.",
+      "vida_media": "3-6 h, suficiente para la toma única nocturna por la duración del bloqueo del receptor.",
+      "ajuste_renal": "No precisa ajuste (eliminación biliar).",
+      "ajuste_hepatico": "Precaución en la insuficiencia hepática moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Fenobarbital, rifampicina, carbamazepina (inductores)",
+          "efecto": "Reducen sus concentraciones y su eficacia",
+          "gravedad": "media",
+          "manejo": "Valorar la respuesta clínica; puede perder utilidad"
+        },
+        {
+          "con": "Gemfibrozilo (inhibidor de CYP2C8)",
+          "efecto": "Aumenta de forma notable sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Vigilancia clínica; no suele requerir cambio de dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Dolor abdominal",
+        "Sed y síntomas catarrales",
+        "PESADILLAS y alteraciones del sueño (especialmente en niños)"
+      ],
+      "graves": [
+        "TRASTORNOS NEUROPSIQUIÁTRICOS: agitación, agresividad, ansiedad, depresión, alteraciones del sueño, IDEACIÓN Y CONDUCTA SUICIDA. Motivaron una advertencia con recuadro negro de la FDA en 2020",
+        "Elevación de transaminasas y hepatitis",
+        "Síndrome de Churg-Strauss (granulomatosis eosinofílica con poliangeítis), casi siempre al desenmascararse al reducir el corticoide sistémico",
+        "Reacciones de hipersensibilidad y angioedema"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al montelukast",
+      "NO es medicación de rescate: no sirve para la crisis aguda",
+      "Precaución (valorar alternativas) en pacientes con antecedentes psiquiátricos o de conducta suicida"
+    ],
+    "perlas": [
+      "El dato que ha cambiado su posición terapéutica es la ADVERTENCIA CON RECUADRO NEGRO por efectos NEUROPSIQUIÁTRICOS, incluida la conducta suicida. Hoy no basta con prescribirlo: hay que INFORMAR al paciente y a la familia y preguntar activamente en cada revisión por pesadillas, cambios de carácter y ánimo. En el niño, las pesadillas y la irritabilidad son las manifestaciones más frecuentes y a menudo no se relacionan con el fármaco.",
+      "Su eficacia es MENOR que la del corticoide inhalado en el asma: es un fármaco AÑADIDO, no un sustituto. Se prescribe con frecuencia como alternativa cómoda al inhalador (es un comprimido, y eso gusta), y ese cambio empeora el control.",
+      "La respuesta es muy HETEROGÉNEA entre pacientes: hay respondedores claros y no respondedores. Por eso conviene fijar una regla desde el inicio: si a las 2-4 semanas no hay beneficio objetivo, se retira. Mantenerlo indefinidamente sin haber comprobado que sirve es la práctica más común y la menos justificable.",
+      "Sus dos fenotipos de elección tienen una base fisiopatológica clara: el broncoespasmo por EJERCICIO y la enfermedad respiratoria exacerbada por AAS, en la que la inhibición de la COX desvía el ácido araquidónico hacia la vía de los leucotrienos, precisamente la que este fármaco bloquea.",
+      "La aparición de un SÍNDROME DE CHURG-STRAUSS tras iniciarlo casi nunca es causada por el fármaco: lo que ocurre es que permite reducir el corticoide sistémico y así se desenmascara una vasculitis que estaba enmascarada.",
+      "Trata a la vez el asma y la rinitis alérgica, lo que encaja con el concepto de VÍA AÉREA ÚNICA y simplifica el tratamiento del paciente que tiene ambas.",
+      "No sirve para la crisis: su inicio de acción es demasiado lento y su efecto broncodilatador, mínimo."
+    ],
+    "embarazo_lactancia": "Puede mantenerse en el embarazo si era eficaz antes de la gestación y el asma lo requiere, aunque hay menos datos que con los corticoides inhalados. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 20; Harrison 20.ª ed., cap. de asma"
+  }
+]

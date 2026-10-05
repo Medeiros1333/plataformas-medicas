@@ -1,0 +1,389 @@
+[
+  {
+    "id": "PAT-gota",
+    "nombre": "Gota (crisis aguda y tratamiento hipouricemiante)",
+    "sinonimos": ["Artritis gotosa", "Hiperuricemia", "Podagra"],
+    "area": "REU",
+    "resumen": "**Crisis: antiinflamatorio lo antes posible** (colchicina a dosis baja, AINE o corticoide; elegir según comorbilidad). **Hipouricemiante si ≥2 crisis/año, tofos, artropatía, litiasis o ERC**, con estrategia «treat to target» y profilaxis de crisis los primeros 3-6 meses. No suspender el hipouricemiante durante una crisis.",
+    "objetivo": "Uricemia <6 mg/dL (<5 mg/dL si tofos); sin crisis.",
+    "escenarios": [
+      {
+        "titulo": "Crisis aguda",
+        "farmacos": [
+          { "nombre": "Colchicina", "ref": "REU-colchicina", "dosis": "1 mg, y 0,5 mg 1 h después; desde el día siguiente 0,5 mg", "via": "VO", "intervalo": "Después cada 8-12 h", "duracion": "Hasta resolución (habitualmente 7-10 días)", "nota": "Mejor en las primeras 12-36 h; reducir en ERC; interacciones con claritromicina, verapamilo" },
+          { "nombre": "Naproxeno", "ref": "REU-naproxeno-diclofenaco", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "5-7 días", "alternativa": "o ibuprofeno 600 mg/8 h, dexketoprofeno 25 mg/8 h", "nota": "Evitar en ERC, IC, úlcera o anticoagulados" },
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "30-35 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5 días", "nota": "Si AINE y colchicina contraindicados; o corticoide intraarticular en monoartritis" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento hipouricemiante",
+        "farmacos": [
+          { "nombre": "Alopurinol", "ref": "REU-alopurinol", "dosis": "100 mg (50 mg si ERC) → subir 100 mg cada 2-4 semanas (máx. 800-900 mg)", "dosis_objetivo": "Uricemia <6 mg/dL", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "HLA-B*5801 en asiáticos; no con azatioprina" },
+          { "nombre": "Febuxostat", "ref": "REU-febuxostat", "dosis": "80 mg (hasta 120 mg)", "dosis_objetivo": "Uricemia <6 mg/dL", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si alopurinol no tolerado; evitar en cardiopatía isquémica" },
+          { "nombre": "Colchicina (profilaxis de crisis)", "ref": "REU-colchicina", "dosis": "0,5-1 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "3-6 meses tras iniciar el hipouricemiante" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reducir alcohol (cerveza), carnes rojas, marisco y bebidas con fructosa",
+      "Pérdida de peso; hidratación",
+      "Revisar fármacos hiperuricemiantes (tiazidas, AAS a dosis baja); losartán como antihipertensivo uricosúrico"
+    ],
+    "claves": [
+      "**No iniciar ni suspender el alopurinol en plena crisis**: si ya lo toma, mantenerlo.",
+      "La hiperuricemia asintomática no se trata."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de gota; Katzung 15.ª ed., cap. 36; EULAR 2016"
+  },
+  {
+    "id": "PAT-artritis-reumatoide",
+    "nombre": "Artritis reumatoide",
+    "sinonimos": ["AR"],
+    "area": "REU",
+    "resumen": "**FAME desde el diagnóstico («ventana de oportunidad»): metotrexato es el ancla.** Corticoide a dosis baja como puente y retirada en ≤3-6 meses. Si no se alcanza la remisión o baja actividad a los 3-6 meses: añadir FAME biológico (anti-TNF de primera elección) o inhibidor de JAK si hay factores de mal pronóstico.",
+    "objetivo": "Remisión o baja actividad (DAS28 <2,6 o <3,2) en 6 meses.",
+    "escenarios": [
+      {
+        "titulo": "Inicio",
+        "farmacos": [
+          { "nombre": "Metotrexato", "ref": "REU-metotrexato", "dosis": "15 mg → 20-25 mg", "via": "VO / SC", "intervalo": "**SEMANAL (un solo día a la semana)**", "duracion": "Indefinida", "nota": "+ ácido fólico 5 mg semanal 24-48 h después; hemograma, función hepática y renal" },
+          { "nombre": "Prednisona (puente)", "ref": "REU-prednisona", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h, por la mañana", "duracion": "Retirar en 3-6 meses", "nota": "Profilaxis ósea si se prolonga" }
+        ]
+      },
+      {
+        "titulo": "Alternativas o combinación de FAME sintéticos",
+        "farmacos": [
+          { "nombre": "Leflunomida", "ref": "REU-leflunomida", "dosis": "20 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Si metotrexato contraindicado" },
+          { "nombre": "Sulfasalazina", "ref": "REU-sulfasalazina", "dosis": "500 mg → 1 g", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Indefinida", "nota": "Compatible con embarazo" },
+          { "nombre": "Hidroxicloroquina", "ref": "INF-cloroquina-hidroxicloroquina", "dosis": "200-400 mg (≤5 mg/kg/día)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "En triple terapia; control oftalmológico" }
+        ]
+      },
+      {
+        "titulo": "FAME biológicos",
+        "farmacos": [
+          { "nombre": "Adalimumab (anti-TNF)", "ref": "INM-anti-tnf", "dosis": "40 mg", "via": "SC", "intervalo": "Cada 2 semanas", "duracion": "Indefinida", "alternativa": "o etanercept 50 mg/semana, infliximab, golimumab, certolizumab", "nota": "Cribado de TBC latente y VHB; asociar a metotrexato" },
+          { "nombre": "Tocilizumab", "ref": "INM-tocilizumab", "dosis": "162 mg SC o 8 mg/kg IV", "via": "SC / IV", "intervalo": "Semanal (SC) o cada 4 semanas (IV)", "duracion": "Indefinida", "nota": "Útil en monoterapia; enmascara la PCR" },
+          { "nombre": "Rituximab", "ref": "INM-rituximab", "dosis": "1.000 mg", "via": "IV", "intervalo": "2 dosis separadas 2 semanas, cada 6 meses", "duracion": "Según respuesta", "nota": "Seropositiva; antecedente de linfoma" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio y terapia ocupacional; abandono del tabaco",
+      "Vacunación (gripe, neumococo, zóster recombinante) antes de inmunosuprimir",
+      "Control del riesgo cardiovascular (aumentado en la AR)"
+    ],
+    "claves": [
+      "**Metotrexato diario por error = mielotoxicidad mortal**: explicar «un día a la semana».",
+      "**Metotrexato + cotrimoxazol = toxicidad medular grave.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de artritis reumatoide; Katzung 15.ª ed., caps. 36 y 55"
+  },
+  {
+    "id": "PAT-dolor-agudo",
+    "nombre": "Dolor agudo (escalera analgésica)",
+    "sinonimos": ["Analgesia", "Dolor postoperatorio", "Escalera de la OMS"],
+    "area": "REU",
+    "resumen": "Elegir el escalón según la intensidad (EVA): **leve (1-3) analgésico no opioide; moderado (4-6) + opioide débil; intenso (7-10) opioide potente**, siempre con no opioide de base y coadyuvantes según el tipo de dolor. Pautar a horario fijo (no «si dolor») y prevenir efectos adversos (laxante, antiemético).",
+    "objetivo": "EVA ≤3 o reducción ≥50% con función conservada.",
+    "escenarios": [
+      {
+        "titulo": "Escalón 1: dolor leve",
+        "farmacos": [
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g (máx. 4 g/día; 2-3 g en hepatópatas)", "via": "VO / IV", "intervalo": "Cada 6-8 h", "duracion": "Según dolor" },
+          { "nombre": "Metamizol", "ref": "REU-metamizol", "dosis": "575 mg-2 g", "via": "VO / IV", "intervalo": "Cada 6-8 h", "duracion": "≤7 días", "nota": "Dolor visceral o cólico" },
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400-600 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "≤5-7 días", "alternativa": "o dexketoprofeno 25 mg/8 h", "nota": "Dolor inflamatorio; evitar en ERC, IC, úlcera, anticoagulados" }
+        ]
+      },
+      {
+        "titulo": "Escalón 2: dolor moderado",
+        "farmacos": [
+          { "nombre": "Tramadol", "ref": "REU-tramadol", "dosis": "50-100 mg (máx. 400 mg/día; 300 mg en >75 años)", "via": "VO", "intervalo": "Cada 6-8 h (retard cada 12 h)", "duracion": "Corta", "nota": "Náuseas; convulsiones; síndrome serotoninérgico con ISRS" },
+          { "nombre": "Codeína (con paracetamol)", "ref": "REU-codeina", "dosis": "30-60 mg", "via": "VO", "intervalo": "Cada 6 h", "duracion": "Corta", "nota": "No en <12 años ni lactancia" }
+        ]
+      },
+      {
+        "titulo": "Escalón 3: dolor intenso",
+        "farmacos": [
+          { "nombre": "Morfina", "ref": "REU-morfina", "dosis": "5-10 mg VO (liberación rápida) o 2,5-5 mg SC/IV", "via": "VO / SC / IV", "intervalo": "Cada 4 h (o retard cada 12 h tras titular)", "duracion": "Según evolución", "nota": "Rescate: 1/6 de la dosis diaria; ajustar en ERC" },
+          { "nombre": "Oxicodona", "ref": "REU-oxicodona", "dosis": "5-10 mg (retard)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Según evolución" },
+          { "nombre": "Fentanilo transdérmico", "ref": "REU-fentanilo", "dosis": "12-25 µg/h", "via": "transdérmica", "intervalo": "Cambio cada 72 h", "duracion": "Dolor crónico estable", "nota": "**No en dolor agudo ni en pacientes sin opioides previos**; de elección en ERC" },
+          { "nombre": "Bisacodilo (prevención del estreñimiento)", "ref": "DIG-bisacodilo", "dosis": "5-10 mg", "via": "VO", "intervalo": "Por la noche", "duracion": "Mientras dure el opioide", "alternativa": "o macrogol 1-2 sobres/día" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Frío/calor local, inmovilización relativa según la lesión",
+      "Analgesia multimodal y bloqueos regionales en el posoperatorio"
+    ],
+    "claves": [
+      "**No combinar dos AINE ni dos opioides** de forma pautada.",
+      "Opioide + benzodiacepina o gabapentinoide = riesgo de depresión respiratoria.",
+      "Revisar la necesidad de opioides a los 3-7 días en el dolor agudo (riesgo de dependencia)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de dolor; Katzung 15.ª ed., caps. 31 y 36"
+  },
+  {
+    "id": "PAT-colico-renal",
+    "nombre": "Cólico renoureteral",
+    "sinonimos": ["Litiasis renal", "Cólico nefrítico"],
+    "area": "REU",
+    "resumen": "**AINE parenteral de primera elección** (más eficaz que los opioides y reduce la presión intrapiélica). Opioide como rescate. **Tratamiento expulsivo con alfabloqueante** en cálculos distales de 5-10 mm. Derivación urgente si fiebre (pielonefritis obstructiva), monorreno, anuria o dolor incontrolable.",
+    "objetivo": "Control del dolor; expulsión del cálculo; descartar obstrucción infectada.",
+    "escenarios": [
+      {
+        "titulo": "Analgesia",
+        "farmacos": [
+          { "nombre": "Dexketoprofeno", "ref": "REU-dexketoprofeno", "dosis": "50 mg", "via": "IV / IM", "intervalo": "Cada 8-12 h", "duracion": "≤2 días parenteral, después VO", "alternativa": "o diclofenaco 75 mg IM" },
+          { "nombre": "Metamizol", "ref": "REU-metamizol", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Según dolor", "nota": "Si AINE contraindicado; infusión lenta" },
+          { "nombre": "Morfina", "ref": "REU-morfina", "dosis": "2-4 mg", "via": "IV", "intervalo": "Cada 5-10 min hasta control", "duracion": "Rescate" }
+        ]
+      },
+      {
+        "titulo": "Tratamiento médico expulsivo",
+        "farmacos": [
+          { "nombre": "Tamsulosina", "sin_ficha": true, "dosis": "0,4 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta 4 semanas", "nota": "Cálculos ureterales distales 5-10 mm" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hidratación normal (no forzar líquidos en la fase aguda)",
+      "Filtrar la orina para analizar el cálculo",
+      "Prevención: ingesta hídrica >2-2,5 L/día; estudio metabólico si recurrente"
+    ],
+    "claves": [
+      "**Cólico con fiebre = urgencia urológica** (drenaje + antibiótico).",
+      "La butilescopolamina no aporta beneficio frente al AINE."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de nefrolitiasis"
+  },
+  {
+    "id": "PAT-hiperpotasemia",
+    "nombre": "Hiperpotasemia",
+    "sinonimos": ["Potasio alto"],
+    "area": "NFR",
+    "resumen": "Tratamiento en tres pisos: **1) ESTABILIZAR la membrana** (calcio IV si hay cambios ECG o K ≥6,5); **2) REDISTRIBUIR el potasio al interior celular** (insulina + glucosa, salbutamol, bicarbonato si acidosis); **3) ELIMINARLO** (diuréticos de asa, quelantes intestinales, diálisis). Revisar fármacos (IECA, ARA-II, ARM, AINE, trimetoprim).",
+    "objetivo": "K <5,5 mmol/L y ECG normal; evitar recurrencia.",
+    "escenarios": [
+      {
+        "titulo": "1. Estabilizar (cambios en el ECG)",
+        "farmacos": [
+          { "nombre": "Gluconato cálcico 10%", "ref": "URG-gluconato-calcico", "dosis": "10-30 mL (1-3 g)", "via": "IV", "intervalo": "En 5-10 min; repetir a los 5 min si persisten los cambios", "duracion": "Efecto 30-60 min", "nota": "Precaución con digoxina (administrar lento)" }
+        ]
+      },
+      {
+        "titulo": "2. Redistribuir",
+        "farmacos": [
+          { "nombre": "Insulina rápida + glucosa", "ref": "END-insulina-rapida", "dosis": "10 UI de insulina + 25-50 g de glucosa", "via": "IV", "intervalo": "En 15-30 min; repetible", "duracion": "Efecto 4-6 h", "nota": "Glucemia horaria (hipoglucemia tardía)" },
+          { "nombre": "Salbutamol", "ref": "NML-salbutamol", "dosis": "10-20 mg", "via": "nebulizada", "intervalo": "En 10-15 min", "duracion": "Efecto 2-4 h", "nota": "Suma su efecto al de la insulina; taquicardia" },
+          { "nombre": "Bicarbonato sódico", "ref": "NFR-bicarbonato-sodico", "dosis": "50-100 mEq", "via": "IV", "intervalo": "En 5-30 min", "duracion": "Dosis puntual", "nota": "Solo si acidosis metabólica" }
+        ]
+      },
+      {
+        "titulo": "3. Eliminar",
+        "farmacos": [
+          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "40-80 mg", "via": "IV", "intervalo": "Cada 6-12 h", "duracion": "Según K y volemia", "nota": "Si hay diuresis y no hay hipovolemia" },
+          { "nombre": "Ciclosilicato de sodio y circonio", "ref": "NFR-quelantes-potasio", "dosis": "10 g", "via": "VO", "intervalo": "Cada 8 h (48 h), después 5-10 g/24 h", "duracion": "Corrección y mantenimiento", "alternativa": "o patiromer 8,4 g/24 h (crónico)", "nota": "Permite mantener IECA/ARA-II/ARM" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "ECG inmediato y monitorización",
+      "Hemodiálisis si refractaria, fracaso renal oligúrico o K ≥6,5 con insuficiencia renal avanzada",
+      "Descartar pseudohiperpotasemia (hemólisis, leucocitosis, trombocitosis)"
+    ],
+    "claves": [
+      "**El calcio NO baja el potasio**: protege el corazón mientras actúa el resto.",
+      "No suspender definitivamente los bloqueantes del SRAA en la ERC o la IC: usar quelantes para mantenerlos."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del potasio; Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "PAT-hiponatremia",
+    "nombre": "Hiponatremia",
+    "sinonimos": ["Sodio bajo", "SIADH"],
+    "area": "NFR",
+    "resumen": "**Con síntomas graves (convulsiones, coma, vómitos), salino hipertónico al 3% en bolos** independientemente de la causa. Si no es grave: tratar según volemia (hipovolémica: salino 0,9%; euvolémica/SIADH: restricción hídrica, urea o tolvaptán; hipervolémica: restricción y diuréticos). **No corregir más de 8-10 mEq/L en 24 h** (mielinólisis osmótica).",
+    "objetivo": "Aumento de 4-6 mEq/L en las primeras horas si grave; máximo 8-10 mEq/L/24 h (6-8 si alto riesgo: alcoholismo, desnutrición, hipopotasemia).",
+    "escenarios": [
+      {
+        "titulo": "Hiponatremia grave sintomática",
+        "farmacos": [
+          { "nombre": "Salino hipertónico al 3%", "ref": "NFR-salino-hipertonico", "dosis": "150 mL (o 2 mL/kg)", "via": "IV", "intervalo": "En 20 min; repetir hasta 2-3 veces con Na cada 20 min", "duracion": "Hasta subir 5 mEq/L o ceder los síntomas" }
+        ]
+      },
+      {
+        "titulo": "Hipovolémica (vómitos, diuréticos, insuficiencia suprarrenal)",
+        "farmacos": [
+          { "nombre": "Suero salino 0,9%", "ref": "NFR-cristaloides", "dosis": "500-1.000 mL", "via": "IV", "intervalo": "Según volemia y Na cada 4-6 h", "duracion": "Hasta euvolemia", "nota": "Al reponer volumen se suprime la ADH: riesgo de sobrecorrección por acuaresis" }
+        ]
+      },
+      {
+        "titulo": "SIADH (euvolémica) crónica",
+        "farmacos": [
+          { "nombre": "Urea", "sin_ficha": true, "dosis": "15-30 g", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras persista la causa", "nota": "Junto a restricción hídrica <800-1.000 mL/día" },
+          { "nombre": "Tolvaptán", "ref": "NFR-tolvaptan", "dosis": "15 mg → 30-60 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Corta (≤30 días)", "nota": "**Iniciar en el hospital** (sobrecorrección); no restringir agua con él; hepatotoxicidad" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Natremia cada 2-4 h al inicio; balance hídrico",
+      "Retirar fármacos causales (tiazidas, ISRS, carbamazepina, desmopresina)",
+      "Si sobrecorrección: agua libre o glucosado 5% ± desmopresina para re-bajar"
+    ],
+    "claves": [
+      "**Corregir demasiado rápido produce mielinólisis osmótica** (disartria, tetraparesia) días después.",
+      "Calcular la osmolalidad: descartar pseudohiponatremia (hiperglucemia, hiperlipemia)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del sodio y el agua; Katzung 15.ª ed., cap. 15"
+  },
+  {
+    "id": "PAT-enfermedad-renal-cronica",
+    "nombre": "Enfermedad renal crónica (nefroprotección)",
+    "sinonimos": ["ERC", "Insuficiencia renal crónica", "Nefropatía diabética"],
+    "area": "NFR",
+    "resumen": "**Pilares de la nefroprotección: IECA o ARA-II a la dosis máxima tolerada + iSGLT2 (FG ≥20) + estatina**, y en diabéticos tipo 2 con albuminuria persistente, finerenona. Control de la PA, la glucemia y las complicaciones (anemia, metabolismo óseo-mineral, acidosis). **Ajustar todos los fármacos al FG.**",
+    "objetivo": "PAS <120-130 mmHg; reducir la albuminuria ≥30%; frenar la caída del FG.",
+    "escenarios": [
+      {
+        "titulo": "Nefroprotección",
+        "farmacos": [
+          { "nombre": "Ramipril", "ref": "CAR-ramipril", "dosis": "2,5 → 10 mg (máx. tolerada)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o losartán 50-100 mg / candesartán", "nota": "Aceptar subida de creatinina ≤30%" },
+          { "nombre": "Dapagliflozina", "ref": "END-dapagliflozina", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta diálisis", "alternativa": "o empagliflozina 10 mg", "nota": "Con o sin diabetes, FG ≥20-25" },
+          { "nombre": "Finerenona", "ref": "NFR-finerenona", "dosis": "10 mg (FG 25-60) o 20 mg (FG ≥60)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "DM2 con albuminuria; K ≤5,0 al iniciar" },
+          { "nombre": "Atorvastatina", "ref": "CAR-atorvastatina", "dosis": "20-40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Sin ajuste renal" }
+        ]
+      },
+      {
+        "titulo": "Complicaciones",
+        "farmacos": [
+          { "nombre": "Bicarbonato sódico", "ref": "NFR-bicarbonato-sodico", "dosis": "500-1.000 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Mientras HCO3 <22 mEq/L" },
+          { "nombre": "Quelante del fósforo (carbonato cálcico, sevelámero)", "ref": "NFR-quelantes-fosforo", "dosis": "800-1.600 mg de sevelámero (o 500-1.000 mg de carbonato cálcico)", "via": "VO", "intervalo": "Con cada comida", "duracion": "Mientras hiperfosfatemia" },
+          { "nombre": "Epoetina / darbepoetina", "ref": "HEM-eritropoyetina", "dosis": "Darbepoetina 0,45 µg/kg", "via": "SC", "intervalo": "Semanal o quincenal", "duracion": "Indefinida", "dosis_objetivo": "Hb 10-11,5 g/dL (nunca >13)", "nota": "Tras reponer hierro" },
+          { "nombre": "Hierro IV", "ref": "HEM-hierro-carboximaltosa", "dosis": "500-1.000 mg", "via": "IV", "intervalo": "Según ferritina e IST", "duracion": "Hasta ferritina >200 e IST >20%" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Restricción de sal (<5 g/día) y proteínas moderada (0,8 g/kg/día)",
+      "Evitar nefrotóxicos: AINE, contrastes innecesarios, aminoglucósidos",
+      "Vacunación de VHB; preparación de diálisis o trasplante con FG <20"
+    ],
+    "claves": [
+      "**Doble bloqueo IECA + ARA-II: contraindicado.**",
+      "**Metformina: máximo 1.000 mg con FG 30-45 y suspender con FG <30.**",
+      "La caída inicial del FG con iSGLT2 o IECA es hemodinámica y esperable."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad renal crónica; KDIGO 2024"
+  },
+  {
+    "id": "PAT-anafilaxia",
+    "nombre": "Anafilaxia",
+    "sinonimos": ["Shock anafiláctico", "Reacción alérgica grave"],
+    "area": "URG",
+    "resumen": "**ADRENALINA IM en el muslo, de inmediato**, ante afectación de piel/mucosas con compromiso respiratorio, cardiovascular o digestivo grave (o hipotensión tras exposición a un alérgeno conocido). Antihistamínicos y corticoides son coadyuvantes y **nunca la sustituyen**. Observación 6-12 h (reacción bifásica).",
+    "objetivo": "Reversión de la hipotensión y del compromiso respiratorio.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          { "nombre": "Adrenalina 1 mg/mL (1:1.000)", "ref": "URG-adrenalina", "dosis": "0,5 mg (0,01 mg/kg)", "via": "IM", "intervalo": "Cara anterolateral del muslo; repetir cada 5-15 min", "duracion": "Hasta respuesta", "nota": "Refractaria: perfusión IV 0,05-0,1 µg/kg/min con monitorización" },
+          { "nombre": "Suero salino 0,9% / cristaloides", "ref": "NFR-cristaloides", "dosis": "500-1.000 mL (20 mL/kg)", "via": "IV", "intervalo": "Bolo rápido; repetir", "duracion": "Según respuesta" },
+          { "nombre": "Salbutamol", "ref": "NML-salbutamol", "dosis": "2,5-5 mg", "via": "nebulizada", "intervalo": "Repetible", "duracion": "Si broncoespasmo persistente" },
+          { "nombre": "Dexclorfeniramina", "ref": "INM-antihistaminicos-h1", "dosis": "5 mg", "via": "IV / IM", "intervalo": "Cada 8 h", "duracion": "24-48 h", "nota": "Solo síntomas cutáneos; tras la adrenalina" },
+          { "nombre": "Glucagón", "ref": "URG-glucagon", "dosis": "1-5 mg", "via": "IV", "intervalo": "En 5 min, después 5-15 µg/min", "duracion": "Hasta respuesta", "nota": "Paciente betabloqueado refractario a adrenalina" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Adrenalina 1 mg/mL", "ref": "PED-URG-adrenalina", "dosis": "0,01 mg/kg (máx. 0,5 mg); autoinyector 0,15 mg (<25 kg) o 0,3 mg", "via": "IM", "intervalo": "Repetir cada 5-15 min", "duracion": "Hasta respuesta" },
+          { "nombre": "Antihistamínico H1", "ref": "PED-INM-antihistaminicos", "dosis": "Dexclorfeniramina 0,15 mg/kg/día", "via": "VO / IV", "intervalo": "Cada 6-8 h", "duracion": "24-48 h", "nota": "Coadyuvante" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar el alérgeno; decúbito con piernas elevadas (sentado si disnea; decúbito lateral en embarazo)",
+      "Oxígeno a alto flujo; vía aérea avanzada si edema laríngeo",
+      "Al alta: 2 autoinyectores de adrenalina, plan de acción y derivación a Alergología; triptasa sérica en las primeras horas"
+    ],
+    "claves": [
+      "**No hay contraindicación absoluta para la adrenalina en la anafilaxia**, tampoco en ancianos o cardiópatas.",
+      "**Adrenalina IV en bolo sin monitorización: arritmias e isquemia**; solo en parada o en perfusión controlada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de anafilaxia; Katzung 15.ª ed., cap. 9; guía GALAXIA"
+  },
+  {
+    "id": "PAT-intoxicacion-paracetamol",
+    "nombre": "Intoxicación por paracetamol",
+    "sinonimos": ["Sobredosis de paracetamol"],
+    "area": "URG",
+    "resumen": "Dosis potencialmente tóxica >150 mg/kg (o >7,5-10 g en adultos; menos en alcohólicos, desnutridos o con inductores). **Medir la paracetamolemia a las 4 h y llevarla al nomograma de Rumack-Matthew; N-acetilcisteína si está por encima de la línea de tratamiento, o de entrada si la hora es desconocida, la ingesta es escalonada o hay daño hepático.** La NAC es casi 100% eficaz en las primeras 8 h.",
+    "objetivo": "Prevenir el fallo hepático; INR, transaminasas y creatinina normales al final de la infusión.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          { "nombre": "Carbón activado", "ref": "URG-carbon-activado", "dosis": "1 g/kg (máx. 50 g)", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Si <1-2 h desde la ingesta y vía aérea protegida" },
+          { "nombre": "N-acetilcisteína", "ref": "URG-n-acetilcisteina", "dosis": "150 mg/kg en 1 h → 50 mg/kg en 4 h → 100 mg/kg en 16 h", "via": "IV", "intervalo": "Pauta de 3 bolsas (21 h)", "duracion": "21 h; prolongar si transaminasas o INR siguen alterados", "alternativa": "pauta SNAP: 100 mg/kg en 2 h + 200 mg/kg en 10 h", "nota": "Reacciones anafilactoides (pausar y reanudar más lento)" }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Carbón activado", "ref": "PED-URG-carbon-activado", "dosis": "1 g/kg (máx. 50 g)", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Ingesta >150 mg/kg en <1-2 h" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Analítica: paracetamolemia ≥4 h, transaminasas, INR, creatinina, gasometría",
+      "Valoración psiquiátrica si intencionada",
+      "Criterios del King's College: derivación a unidad de trasplante"
+    ],
+    "claves": [
+      "**Ante la duda, iniciar NAC y suspender si la paracetamolemia es baja**: el retraso cuesta hígados.",
+      "El nomograma no sirve en ingestas escalonadas ni con hora desconocida."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., cap. 58"
+  },
+  {
+    "id": "PAT-intoxicacion-opioides-benzodiacepinas",
+    "nombre": "Intoxicación por opioides y por benzodiacepinas",
+    "sinonimos": ["Sobredosis de opioides", "Sobredosis de benzodiacepinas"],
+    "area": "URG",
+    "resumen": "**Opioides: miosis + depresión respiratoria + coma → ventilar con bolsa y NALOXONA** a dosis tituladas (objetivo: respirar, no despertar del todo). **Benzodiacepinas: soporte; el flumazenilo solo en casos seleccionados** (sedación iatrogénica, sin dependencia ni coingesta proconvulsivante).",
+    "objetivo": "FR >12/min y SpO2 >94% sin precipitar abstinencia grave.",
+    "escenarios": [
+      {
+        "titulo": "Opioides (adulto)",
+        "farmacos": [
+          { "nombre": "Naloxona", "ref": "URG-naloxona", "dosis": "0,04-0,1 mg (dependientes) o 0,4 mg; hasta 2 mg por bolo (total 10 mg)", "via": "IV / IM / IN", "intervalo": "Cada 2-3 min hasta respuesta", "duracion": "Perfusión de 2/3 de la dosis eficaz por hora si opioide de acción larga", "nota": "Su efecto dura 30-90 min: vigilar la re-narcosis" }
+        ]
+      },
+      {
+        "titulo": "Opioides (niño)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          { "nombre": "Naloxona", "ref": "PED-URG-naloxona", "dosis": "0,1 mg/kg (máx. 2 mg)", "via": "IV / IM / IN", "intervalo": "Repetir cada 2-3 min", "duracion": "Observación ≥6-12 h" }
+        ]
+      },
+      {
+        "titulo": "Benzodiacepinas",
+        "farmacos": [
+          { "nombre": "Flumazenilo", "ref": "URG-flumazenilo", "dosis": "0,2 mg en 15 s, después 0,1 mg/min (máx. 1 mg)", "via": "IV", "intervalo": "Cada minuto hasta respuesta", "duracion": "Re-sedación frecuente (vida media 1 h)", "nota": "**Contraindicado en consumidores crónicos, epilepsia o coingesta de tricíclicos** (convulsiones)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "ABC: ventilación con bolsa y mascarilla antes que el antídoto si hay apnea",
+      "Glucemia capilar; buscar coingestas (paracetamol, alcohol)",
+      "Kit de naloxona intranasal al alta en consumidores de opioides"
+    ],
+    "claves": [
+      "**Revertir por completo a un dependiente de opioides precipita una abstinencia brusca** (agitación, vómitos, edema pulmonar).",
+      "La metadona y los opioides retard requieren observación prolongada (≥24 h)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., caps. 22, 31 y 58"
+  }
+]

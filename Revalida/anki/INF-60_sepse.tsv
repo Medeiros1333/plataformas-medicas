@@ -1,0 +1,30 @@
+Como o Sepsis-3 (2016) define sepse?	Disfunção orgânica ameaçadora à vida causada por resposta desregulada do hospedeiro à infecção	Revalida::Infectologia::Sepse::Definicao
+Operacionalmente, como se define disfunção orgânica no Sepsis-3?	Aumento ≥2 pontos no escore SOFA em relação ao basal, atribuível à infecção	Revalida::Infectologia::Sepse::Definicao
+Quais os 3 critérios do qSOFA?	Alteração do nível de consciência, FR ≥22 irpm, PAS ≤100 mmHg	Revalida::Infectologia::Sepse::Rastreio
+O qSOFA é critério diagnóstico de sepse?	Não — é ferramenta de rastreio de risco à beira do leito, não define sepse isoladamente	Revalida::Infectologia::Sepse::Rastreio
+qSOFA negativo/baixo exclui sepse?	Não — não deve ser usado isoladamente para descartar sepse em paciente com forte suspeita clínica	Revalida::Infectologia::Sepse::Rastreio
+Qual a definição clínica de choque séptico?	Hipotensão refratária a volume exigindo vasopressor para PAM ≥65 mmHg, associada a lactato >2 mmol/L apesar de ressuscitação adequada	Revalida::Infectologia::Sepse::Definicao
+A hemocultura deve atrasar o início do antibiótico em paciente séptico com choque instalado?	Não — colher hemocultura sem atrasar a antibioticoterapia empírica	Revalida::Infectologia::Sepse::Conduta
+Qual o modelo de definição de sepse anterior ao Sepsis-3, hoje considerado pouco específico?	SIRS/Sepsis-2 (infecção + 2 critérios de resposta inflamatória sistêmica)	Revalida::Infectologia::Sepse::Definicao
+Por que os critérios de SIRS são considerados pouco específicos para sepse?	Podem estar presentes em qualquer resposta inflamatória banal, não só em infecção grave	Revalida::Infectologia::Sepse::Definicao
+Qual o principal marcador dinâmico de resposta à ressuscitação no choque séptico?	Depuração (clearance) do lactato sérico em reavaliações seriadas	Revalida::Infectologia::Sepse::Monitorizacao
+Qual a 1ª linha de fluido para ressuscitação volêmica na sepse?	Cristaloide (soro fisiológico 0,9% ou Ringer lactato)	Revalida::Infectologia::Sepse::Tratamento
+Qual o vasopressor de 1ª linha no choque séptico refratário a volume?	Noradrenalina	Revalida::Infectologia::Sepse::Tratamento
+Qual a meta de pressão arterial média (PAM) no choque séptico em vasopressor?	PAM ≥65 mmHg	Revalida::Infectologia::Sepse::Tratamento
+Glicocorticoide é conduta de rotina na 1ª hora do choque séptico?	Não — reservado a choque refratário a volume e a vasopressor em doses crescentes	Revalida::Infectologia::Sepse::Conduta
+Hemoglobina de 8,5 g/dL isolada, sem sangramento ativo, indica transfusão imediata no choque séptico?	Não — estratégia transfusional restritiva; prioridade é a ressuscitação volêmica	Revalida::Infectologia::Sepse::Conduta
+Creatinina/ureia elevadas em paciente hipotenso e em choque séptico indicam diálise imediata?	Não, geralmente — sugerem lesão renal aguda pré-renal por hipoperfusão, potencialmente reversível com volume	Revalida::Infectologia::Sepse::Conduta
+Quais ações compõem o pacote ("bundle") inicial de sepse/choque séptico?	Lactato, hemoculturas antes do antibiótico (sem atrasá-lo), antibiótico de amplo espectro precoce, cristaloide para hipoperfusão, vasopressor se refratário	Revalida::Infectologia::Sepse::Tratamento
+Por que a apresentação de sepse no idoso costuma ser atípica?	Pode faltar febre franca; delirium/apatia/recusa alimentar/queda funcional são frequentemente os sinais mais precoces	Revalida::Infectologia::Sepse::Idoso
+Qual o foco infeccioso sugerido por broncoaspiração recente + estertores em base + febre em idoso acamado?	Pneumonia aspirativa	Revalida::Infectologia::Sepse::Idoso
+No choque séptico, ao iniciar vasopressor, deve-se suspender a infusão de cristaloide?	Não — mantém-se volume e vasopressor concomitantemente, com reavaliação contínua	Revalida::Infectologia::Sepse::Conduta
+Quais os focos infecciosos mais comuns de sepse no adulto/idoso?	Pulmonar, urinário, abdominal e de pele/partes moles	Revalida::Infectologia::Sepse::Epidemiologia
+Por que o lactato se eleva na sepse além da hipóxia tecidual pura?	Disfunção mitocondrial/celular compromete a extração e utilização de oxigênio mesmo com oferta preservada	Revalida::Infectologia::Sepse::Fisiopatologia
+Extremidades quentes e pressão de pulso ampla em paciente hipotenso sugerem qual tipo de choque?	Choque séptico (fase quente/inicial, por vasodilatação patológica)	Revalida::Infectologia::Sepse::DiagnosticoDiferencial
+Estase jugular e estertores pulmonares em paciente em choque sugerem qual etiologia, a diferenciar de choque séptico?	Choque cardiogênico (congestivo) — cautela com volume nesse perfil	Revalida::Infectologia::Sepse::DiagnosticoDiferencial
+Qual a diferença central entre sepse e choque séptico?	Choque séptico é sepse com hipoperfusão persistente apesar de volume adequado, exigindo vasopressor e com lactato >2 mmol/L	Revalida::Infectologia::Sepse::Definicao
+Vancomicina é sempre indicada empiricamente na sepse?	Não — associada apenas quando há risco/suspeita de cobertura para MRSA, conforme foco e epidemiologia local	Revalida::Infectologia::Sepse::Tratamento
+O que é controle de foco no tratamento da sepse, e por que é um pilar terapêutico?	Drenagem de abscesso, retirada de cateter infectado, desbridamento ou resolução cirúrgica do foco — sem controlar a fonte, o antibiótico isoladamente pode ser insuficiente	Revalida::Infectologia::Sepse::Tratamento
+Qual esquema empírico é citado no banco INEP para sepse por provável foco pulmonar grave (PAC grave)?	Ceftriaxona + azitromicina intravenosos	Revalida::Infectologia::Sepse::Tratamento
+Em paciente com sepse e choque já instalado, qual é a única prioridade que não pode ser adiada, segundo o banco INEP?	Início imediato da antibioticoterapia empírica de amplo espectro (hemocultura colhida em paralelo, sem atrasar o antibiótico)	Revalida::Infectologia::Sepse::Conduta
+Instituto Latino-Americano de Sepse (ILAS) — o que representa no contexto brasileiro?	Referência nacional que difunde protocolo/pacote de tratamento de sepse alinhado ao modelo internacional	Revalida::Infectologia::Sepse::Brasil

@@ -1,0 +1,615 @@
+[
+  {
+    "id": "ATI-mycoplasma-pneumoniae",
+    "nombre": "Mycoplasma pneumoniae",
+    "grupo": "ATI",
+    "nivel": 1,
+    "clasificacion": "Bacteria SIN PARED CELULAR (carece de peptidoglucano), la más pequeña capaz de vida libre; membrana con esteroles, pleomórfica, de crecimiento muy lento",
+    "morfologia_tincion": "NO se tiñe con Gram: al carecer de pared no retiene ningún colorante de esa técnica. Requiere medios especiales enriquecidos con esteroles y da colonias «en huevo frito» tras 2-3 semanas, por lo que el cultivo carece de utilidad clínica.",
+    "mecanismo_patogenia": [
+      "AUSENCIA DE PARED CELULAR: es el dato con mayor impacto terapéutico de toda la ficha. Todos los antibióticos que actúan sobre la pared (betalactámicos, glucopéptidos, fosfomicina) son intrínsecamente INÚTILES.",
+      "Adhesina P1: se fija a la base de los CILIOS del epitelio respiratorio, produce ciliostasis y destrucción del epitelio ciliado, lo que explica la tos seca, persistente e irritativa durante semanas.",
+      "Producción de peróxido de hidrógeno y radicales superóxido que dañan directamente la membrana del epitelio respiratorio.",
+      "Toxina CARDS (community-acquired respiratory distress syndrome toxin): ADP-ribosila proteínas del huésped y produce vacuolización y daño epitelial extenso.",
+      "MIMETISMO MOLECULAR entre los glucolípidos de su membrana y antígenos de hematíes, cerebro y piel: origina crioaglutininas (anticuerpos IgM anti-antígeno I), anemia hemolítica y las manifestaciones extrapulmonares autoinmunes."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía atípica («neumonía errante»)",
+        "clinica": "Comienzo INSIDIOSO durante días: cefalea, malestar, febrícula, odinofagia y después TOS SECA persistente e intensa. El paciente sigue haciendo vida casi normal, de ahí el nombre de neumonía errante. La auscultación es llamativamente pobre en relación con la radiografía.",
+        "lesiones": "Infiltrado intersticial reticulonodular o parcheado, con frecuencia bilateral y de predominio en lóbulos inferiores; la DISOCIACIÓN clínico-radiológica es característica.",
+        "clave": "Es la causa más frecuente de neumonía en niños mayores, adolescentes y adultos jóvenes, con brotes en colectividades cerradas (colegios, cuarteles, residencias)."
+      },
+      {
+        "cuadro": "Traqueobronquitis y faringitis",
+        "clinica": "Tos seca prolongada de semanas sin infiltrado radiológico, con febrícula; forma clínica mucho más frecuente que la neumonía.",
+        "lesiones": "Inflamación de la vía aérea con destrucción del epitelio ciliado.",
+        "clave": "La tos puede persistir 4-6 semanas tras la resolución por la lentitud de la regeneración ciliar."
+      },
+      {
+        "cuadro": "Manifestaciones extrapulmonares autoinmunes",
+        "clinica": "Anemia hemolítica por crioaglutininas, exantema maculopapular, eritema multiforme y síndrome de Stevens-Johnson (con predilección por la afectación mucosa: MIRM), miringitis bullosa, artralgias.",
+        "lesiones": "Ampollas hemorrágicas en la membrana timpánica (miringitis bullosa); lesiones en diana del eritema multiforme; hemólisis con test de Coombs positivo para complemento.",
+        "clave": "La miringitis bullosa dolorosa junto a un cuadro respiratorio es un hallazgo muy sugestivo de Mycoplasma."
+      },
+      {
+        "cuadro": "Complicaciones neurológicas",
+        "clinica": "Encefalitis, meningoencefalitis, mielitis transversa, síndrome de Guillain-Barré o ataxia cerebelosa, 1-3 semanas después del cuadro respiratorio.",
+        "lesiones": "Desmielinización de mecanismo inmunitario, más que invasión directa.",
+        "clave": "Es una de las causas infecciosas identificables más frecuentes de encefalitis en el niño."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Sin pared celular: los betalactámicos NO sirven. Un paciente con «neumonía» que no mejora con amoxicilina debe hacer pensar en atípicas.",
+      "Es la causa más frecuente de neumonía atípica en jóvenes y de neumonía en escolares y adolescentes.",
+      "La disociación clínico-radiológica (paciente con buen aspecto y radiografía llamativa, o auscultación pobre con infiltrado extenso) es su marca clínica.",
+      "Las CRIOAGLUTININAS aparecen en el 50-70% de los casos: son inespecíficas pero clásicas, y pueden causar hemólisis con la exposición al frío.",
+      "El cultivo no tiene ningún valor práctico (2-3 semanas): el diagnóstico es por PCR o por serología con seroconversión.",
+      "El tratamiento es macrólido, doxiciclina o quinolona respiratoria; en el niño pequeño, macrólido (la doxiciclina se reserva por la edad).",
+      "La resistencia a macrólidos por mutación del ARNr 23S es muy alta en Asia (>80%) y aún baja en Europa, pero está aumentando."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis o aspirado nasofaríngeo, esputo, suero pareado (fase aguda y convalecencia).",
+      "pruebas": [
+        "PCR en muestra respiratoria: prueba de elección por rapidez y sensibilidad",
+        "Serología IgM e IgG con seroconversión o aumento de 4 veces el título en sueros separados 2-4 semanas",
+        "Crioaglutininas: inespecíficas, hoy poco usadas, pero históricamente clásicas",
+        "Radiografía de tórax con patrón intersticial",
+        "El CULTIVO no se usa en la práctica clínica"
+      ],
+      "claves": "La IgM puede tardar 7-10 días en positivizarse y persistir meses: una IgM aislada positiva en un adulto no siempre indica infección aguda."
+    },
+    "tratamiento": {
+      "eleccion": "AZITROMICINA 500 mg el día 1 y 250 mg los días 2-5, o claritromicina 500 mg/12 h. En el adulto, también doxiciclina 100 mg/12 h.",
+      "alternativas": "Levofloxacino o moxifloxacino en el adulto, especialmente si hay sospecha de resistencia a macrólidos o coinfección con neumococo.",
+      "resistencias": "Resistencia INTRÍNSECA a todos los betalactámicos, glucopéptidos y fosfomicina por ausencia de pared. Resistencia adquirida a macrólidos por mutación del ARNr 23S, muy prevalente en Asia.",
+      "duracion": "5 días con azitromicina; 7-10 días con doxiciclina o claritromicina.",
+      "notas": "La tos puede persistir semanas tras completar el antibiótico por la lentitud en la regeneración del epitelio ciliar: explicarlo evita ciclos antibióticos repetidos e innecesarios."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-claritromicina",
+      "INF-doxiciclina",
+      "INF-levofloxacino",
+      "INF-moxifloxacino",
+      "PED-INF-azitromicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 36 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por micoplasmas"
+  },
+  {
+    "id": "ATI-chlamydia-trachomatis",
+    "nombre": "Chlamydia trachomatis",
+    "grupo": "ATI",
+    "nivel": 1,
+    "clasificacion": "Bacteria INTRACELULAR OBLIGADA con ciclo bifásico (cuerpo elemental infeccioso extracelular / cuerpo reticulado replicativo intracelular); carece de la capacidad de producir su propio ATP",
+    "morfologia_tincion": "No se visualiza con la tinción de Gram habitual. Se identifica por inclusiones citoplasmáticas en las células epiteliales infectadas (tinción de Giemsa o inmunofluorescencia). Sus serovares determinan el cuadro clínico.",
+    "mecanismo_patogenia": [
+      "Ciclo bifásico: el CUERPO ELEMENTAL, metabólicamente inerte pero infeccioso, entra en la célula; se transforma en CUERPO RETICULADO, que se multiplica dentro de una vacuola (inclusión) usando el ATP de la célula huésped — es un «parásito energético».",
+      "Su localización intracelular explica que los betalactámicos y aminoglucósidos sean ineficaces, y que los fármacos útiles sean los que penetran en la célula: tetraciclinas y macrólidos.",
+      "El daño no procede de toxinas sino de la respuesta INFLAMATORIA e inmunitaria repetida: la infección persistente o recurrente genera fibrosis y cicatrización, mecanismo de la esterilidad tubárica y del tracoma.",
+      "La proteína de choque térmico HSP60 desencadena hipersensibilidad retardada y es responsable de gran parte del daño cicatricial.",
+      "Serovares: A-C causan tracoma ocular; D-K, infecciones genitales y conjuntivitis/neumonía neonatales; L1-L3, linfogranuloma venéreo, con capacidad invasiva del tejido linfático."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Uretritis y cervicitis (serovares D-K)",
+        "clinica": "Uretritis no gonocócica con secreción MUCOIDE escasa y disuria leve, tras un periodo de incubación de 1-3 semanas; en la mujer, ASINTOMÁTICA en el 70-80% de los casos.",
+        "lesiones": "Cervicitis mucopurulenta con friabilidad y ectopia hipertrófica.",
+        "clave": "Es la ITS bacteriana más frecuente del mundo. Su carácter asintomático en la mujer es lo que permite la progresión silenciosa a esterilidad."
+      },
+      {
+        "cuadro": "Enfermedad inflamatoria pélvica y sus secuelas",
+        "clinica": "Dolor abdominal bajo, dispareunia, dolor a la movilización cervical, febrícula; con frecuencia de curso más larvado que la gonocócica.",
+        "lesiones": "Salpingitis con destrucción del epitelio ciliado tubárico y adherencias; síndrome de Fitz-Hugh-Curtis con adherencias perihepáticas en «cuerda de violín».",
+        "clave": "Es la principal causa infecciosa evitable de esterilidad tubárica y de embarazo ectópico."
+      },
+      {
+        "cuadro": "Conjuntivitis y neumonía del recién nacido",
+        "clinica": "Conjuntivitis a los 5-14 días de vida (más tardía que la gonocócica, que aparece en las primeras 48 h). Neumonía afebril entre las 4 y 12 semanas, con tos «staccato» entrecortada, taquipnea y EOSINOFILIA.",
+        "lesiones": "Conjuntivitis mucopurulenta sin membranas; infiltrados intersticiales bilaterales con hiperinsuflación.",
+        "clave": "Neumonía AFEBRIL del lactante con tos staccato y eosinofilia = Chlamydia trachomatis hasta que se demuestre lo contrario."
+      },
+      {
+        "cuadro": "Tracoma (serovares A-C)",
+        "clinica": "Conjuntivitis folicular crónica y recurrente desde la infancia en zonas endémicas, con prurito y secreción.",
+        "lesiones": "Folículos tarsales, pannus corneal, cicatrización conjuntival con líneas de Arlt, entropión y triquiasis, que erosiona la córnea y produce opacificación.",
+        "clave": "Es la principal causa infecciosa de CEGUERA evitable en el mundo; el daño lo produce la cicatrización repetida, no la infección aguda."
+      },
+      {
+        "cuadro": "Linfogranuloma venéreo (serovares L1-L3)",
+        "clinica": "Tres fases: pápula o úlcera genital indolora fugaz, seguida de adenopatía inguinal dolorosa y fluctuante (bubón) con el «signo del surco» por la separación del ligamento inguinal, y finalmente fibrosis. En hombres que tienen sexo con hombres, se presenta como PROCTITIS hemorrágica grave.",
+        "lesiones": "Adenitis supurativa con fístulas; proctocolitis ulcerada que puede simular una enfermedad inflamatoria intestinal.",
+        "clave": "Requiere 21 días de doxiciclina, no 7: la pauta corta habitual de la clamidia genital fracasa."
+      },
+      {
+        "cuadro": "Artritis reactiva",
+        "clinica": "Oligoartritis asimétrica, uretritis y conjuntivitis 1-4 semanas después, en portadores de HLA-B27.",
+        "lesiones": "Sinovitis estéril; balanitis circinada y queratodermia blenorrágica.",
+        "clave": "Es el desencadenante genitourinario clásico de la artritis reactiva."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es intracelular obligada y no produce ATP: los betalactámicos son inútiles y el tratamiento se basa en doxiciclina o azitromicina.",
+      "Es la infección de transmisión sexual bacteriana más frecuente, y es asintomática en la mayoría de las mujeres: de ahí la recomendación de cribado en mujeres jóvenes sexualmente activas.",
+      "Los serovares determinan la enfermedad: A-C tracoma, D-K genital y neonatal, L1-L3 linfogranuloma venéreo.",
+      "Ante toda gonococia hay que cotratar Chlamydia si no se ha descartado, porque la coinfección es muy frecuente.",
+      "Hoy se prefiere DOXICICLINA 7 días a azitromicina en dosis única, porque la eficacia es superior, sobre todo en la infección rectal.",
+      "En la mujer se recomienda repetir la prueba a los 3 meses tras el tratamiento: no como prueba de curación, sino para detectar la frecuente REINFECCIÓN.",
+      "En el embarazo, la azitromicina sustituye a la doxiciclina, que está contraindicada."
+    ],
+    "diagnostico": {
+      "muestra": "Orina de primer chorro en el varón, exudado endocervical o vaginal (autotoma válida) en la mujer, exudado rectal y faríngeo según las prácticas sexuales, exudado conjuntival, aspirado nasofaríngeo en el lactante.",
+      "pruebas": [
+        "TÉCNICAS DE AMPLIFICACIÓN DE ÁCIDOS NUCLEICOS (TAAN/PCR): prueba de elección, con excelente sensibilidad en todas las localizaciones",
+        "Genotipado para identificar serovares L en la sospecha de linfogranuloma venéreo",
+        "Inmunofluorescencia directa o cultivo celular: hoy en desuso",
+        "Serología: solo útil en el linfogranuloma venéreo y en la neumonía del lactante; no sirve para la infección genital no complicada"
+      ],
+      "claves": "La PCR de orina en el varón y la autotoma vaginal en la mujer tienen sensibilidad excelente y facilitan enormemente el cribado."
+    },
+    "tratamiento": {
+      "eleccion": "DOXICICLINA 100 mg/12 h durante 7 días (infección genital no complicada).",
+      "alternativas": "Azitromicina 1 g en dosis única (de elección en el EMBARAZO y cuando no se garantiza el cumplimiento). Levofloxacino 500 mg/24 h 7 días como alternativa.",
+      "resistencias": "La resistencia clínicamente relevante es excepcional; los fracasos suelen ser reinfecciones o mal cumplimiento.",
+      "duracion": "7 días en la infección genital. 14 días en la enfermedad inflamatoria pélvica. 21 días en el LINFOGRANULOMA VENÉREO. 14 días en la conjuntivitis y la neumonía del lactante (con eritromicina o azitromicina).",
+      "notas": "Tratar SIEMPRE a las parejas sexuales de los últimos 60 días y recomendar abstinencia 7 días tras completar el tratamiento. Cribar el resto de ITS."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-doxiciclina",
+      "INF-levofloxacino",
+      "OFT-antiinfecciosos-corticoides-oculares",
+      "PED-INF-azitromicina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 37 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por clamidias"
+  },
+  {
+    "id": "ATI-chlamydophila-pneumoniae",
+    "nombre": "Chlamydophila pneumoniae (y C. psittaci)",
+    "grupo": "ATI",
+    "nivel": 2,
+    "clasificacion": "Bacteria intracelular obligada con ciclo bifásico, del mismo grupo que C. trachomatis pero con reservorio y epidemiología distintos",
+    "morfologia_tincion": "No visible en la tinción de Gram. Cuerpos elementales con morfología «en pera», a diferencia de los redondos de C. trachomatis. Cultivo celular difícil y de escaso uso clínico.",
+    "mecanismo_patogenia": [
+      "Mismo ciclo bifásico intracelular obligado (cuerpo elemental / cuerpo reticulado) y misma dependencia energética de la célula huésped.",
+      "C. pneumoniae: transmisión INTERHUMANA por vía respiratoria, sin reservorio animal; muy prevalente, con serología positiva en más de la mitad de los adultos.",
+      "C. psittaci: reservorio en AVES (loros, periquitos, palomas, pavos); se transmite por inhalación de aerosoles de heces o plumas desecadas, sin transmisión interhumana relevante.",
+      "Infección persistente de baja intensidad del endotelio y de los macrófagos, que se ha relacionado epidemiológicamente con la aterosclerosis, aunque sin demostración causal ni beneficio del tratamiento antibiótico.",
+      "La inflamación crónica de la vía aérea puede desencadenar o agravar el asma."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Neumonía atípica por C. pneumoniae",
+        "clinica": "Comienzo gradual con FARINGITIS y RONQUERA prominentes, seguidas de tos seca persistente y febrícula; cuadro leve pero prolongado, sobre todo en adultos jóvenes y ancianos.",
+        "lesiones": "Infiltrado intersticial o parcheado unilateral, generalmente de escasa extensión.",
+        "clave": "La ronquera y la faringitis previas son un rasgo diferencial frente a Mycoplasma; puede coinfectar con neumococo en el anciano."
+      },
+      {
+        "cuadro": "Bronquitis, sinusitis y exacerbación de asma",
+        "clinica": "Tos prolongada de semanas, con o sin sibilancias; puede desencadenar crisis asmáticas.",
+        "lesiones": "Inflamación crónica de la vía aérea.",
+        "clave": "Es una causa infravalorada de tos crónica postinfecciosa en el adulto."
+      },
+      {
+        "cuadro": "Psitacosis (ornitosis) por C. psittaci",
+        "clinica": "Fiebre alta de comienzo brusco, CEFALEA INTENSA desproporcionada, mialgias, tos seca y, característicamente, disociación entre la gravedad de los síntomas sistémicos y la escasez de hallazgos auscultatorios. Puede haber hepatoesplenomegalia y bradicardia relativa.",
+        "lesiones": "Neumonía intersticial con infiltrados parcheados; ocasionalmente hepatitis, miocarditis o encefalitis. Exantema macular (manchas de Horder).",
+        "clave": "El ANTECEDENTE DE CONTACTO CON AVES es la clave diagnóstica: hay que preguntar activamente por loros, periquitos y palomas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Ambas forman parte de las «atípicas» que un betalactámico no cubre: en la neumonía comunitaria justifican añadir un macrólido al betalactámico o usar una quinolona respiratoria.",
+      "C. pneumoniae es de transmisión interhumana; C. psittaci procede de las aves y obliga a preguntar por la exposición.",
+      "La psitacosis presenta cefalea intensa y afectación sistémica desproporcionada respecto a los hallazgos pulmonares.",
+      "La doxiciclina es el tratamiento de elección de la psitacosis, con respuesta clínica rápida y llamativa en 48 h.",
+      "La relación epidemiológica de C. pneumoniae con la aterosclerosis no se ha traducido en ningún beneficio del tratamiento antibiótico: los ensayos han sido negativos.",
+      "El diagnóstico serológico es difícil de interpretar por la alta seroprevalencia poblacional de C. pneumoniae."
+    ],
+    "diagnostico": {
+      "muestra": "Frotis o aspirado nasofaríngeo, esputo, suero pareado.",
+      "pruebas": [
+        "PCR en muestra respiratoria: método de elección",
+        "Microinmunofluorescencia con sueros pareados (seroconversión o aumento de 4 veces el título)",
+        "Radiografía de tórax",
+        "Historia epidemiológica dirigida: contacto con aves en la sospecha de psitacosis"
+      ],
+      "claves": "La alta seroprevalencia de C. pneumoniae hace que un título aislado no tenga valor: se necesita seroconversión."
+    },
+    "tratamiento": {
+      "eleccion": "DOXICICLINA 100 mg/12 h (de elección en psitacosis) o azitromicina 500 mg/24 h.",
+      "alternativas": "Claritromicina, levofloxacino o moxifloxacino.",
+      "resistencias": "No constituyen un problema clínico relevante.",
+      "duracion": "7-10 días en la neumonía por C. pneumoniae. En la PSITACOSIS, 10-14 días y al menos 10-14 días tras la defervescencia, por el riesgo de recaída con pautas más cortas.",
+      "notas": "La psitacosis es enfermedad de declaración obligatoria; investigar la fuente aviar y valorar a los convivientes expuestos."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-claritromicina",
+      "INF-doxiciclina",
+      "INF-levofloxacino",
+      "INF-moxifloxacino"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 37 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por clamidias"
+  },
+  {
+    "id": "ATI-treponema-pallidum",
+    "nombre": "Treponema pallidum (sífilis)",
+    "grupo": "ATI",
+    "nivel": 1,
+    "clasificacion": "ESPIROQUETA fina y helicoidal, móvil por endoflagelos (filamentos axiales), microaerófila, NO CULTIVABLE en medios artificiales",
+    "morfologia_tincion": "Demasiado fina para verse con la tinción de Gram. Se visualiza en fresco con MICROSCOPIO DE CAMPO OSCURO (espiroqueta con movimiento característico de rotación y flexión) o con inmunofluorescencia; en los tejidos, con impregnación argéntica.",
+    "mecanismo_patogenia": [
+      "NO produce toxinas ni enzimas líticas conocidas: todo el daño deriva de la respuesta INMUNITARIA e inflamatoria del huésped, con endarteritis obliterante como lesión vascular fundamental en todas las fases.",
+      "Su superficie tiene muy pocas proteínas expuestas («patógeno sigiloso»), lo que le permite evadir la respuesta inmunitaria y persistir décadas.",
+      "Diseminación hematógena PRECOZ, ya desde la fase primaria: por eso la sífilis es una enfermedad sistémica desde el principio, aunque la lesión visible sea local.",
+      "Endarteritis obliterante con infiltrado de células plasmáticas: es el sustrato de la aortitis, de la neurosífilis y de las gomas.",
+      "Atraviesa la placenta en cualquier momento de la gestación (con mayor riesgo en la sífilis precoz materna), causando la sífilis congénita."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Sífilis primaria",
+        "clinica": "CHANCRO DURO: úlcera ÚNICA, INDOLORA, de bordes indurados y fondo limpio, con adenopatía regional también indolora, 3 semanas tras el contacto. Cura espontáneamente en 3-6 semanas aunque no se trate.",
+        "lesiones": "Úlcera de base limpia e indurada, con infiltrado de células plasmáticas y endarteritis.",
+        "clave": "Úlcera genital INDOLORA = sífilis; úlcera DOLOROSA y sucia con adenopatía supurativa = chancroide (Haemophilus ducreyi). La curación espontánea del chancro no significa curación de la enfermedad."
+      },
+      {
+        "cuadro": "Sífilis secundaria",
+        "clinica": "6-8 semanas después: exantema maculopapular generalizado que característicamente afecta a PALMAS Y PLANTAS, febrícula, poliadenopatías, alopecia «en claros», condilomas planos en zonas húmedas.",
+        "lesiones": "Roséola sifilítica; CONDILOMA LATA (placas húmedas, altamente contagiosas); parches mucosos.",
+        "clave": "Es la fase de máxima contagiosidad. Todo exantema que afecte a palmas y plantas obliga a solicitar serología de sífilis."
+      },
+      {
+        "cuadro": "Sífilis latente",
+        "clinica": "Asintomática, detectada solo por serología. Precoz si lleva menos de 1 año; tardía si más de 1 año o de duración desconocida.",
+        "lesiones": "Ninguna clínicamente evidente.",
+        "clave": "La distinción precoz/tardía cambia el tratamiento: 1 dosis de penicilina benzatina frente a 3 dosis semanales."
+      },
+      {
+        "cuadro": "Sífilis terciaria",
+        "clinica": "Años o décadas después: gomas (lesiones granulomatosas destructivas en piel, hueso y vísceras), sífilis cardiovascular con aortitis de la aorta ASCENDENTE, aneurisma e insuficiencia aórtica.",
+        "lesiones": "Endarteritis de los vasa vasorum de la aorta ascendente con destrucción de la media y calcificación «en cáscara de huevo»; gomas necróticas.",
+        "clave": "La afectación de la aorta ASCENDENTE (a diferencia de la aterosclerótica, que predomina en la descendente y abdominal) es característica."
+      },
+      {
+        "cuadro": "Neurosífilis",
+        "clinica": "Puede aparecer en CUALQUIER fase. Precoz: meningitis, afectación de pares craneales, sífilis meningovascular con ictus en el joven. Tardía: tabes dorsal (ataxia sensitiva, dolores lancinantes, arreflexia, pupila de Argyll Robertson) y parálisis general progresiva (demencia, delirios de grandeza).",
+        "lesiones": "Desmielinización de los cordones posteriores en la tabes; atrofia cortical en la parálisis general. PUPILA DE ARGYLL ROBERTSON: acomoda pero no reacciona a la luz.",
+        "clave": "La penicilina benzatina IM NO alcanza concentraciones treponemicidas en el LCR: la neurosífilis exige penicilina G sódica IV a dosis altas."
+      },
+      {
+        "cuadro": "Sífilis congénita",
+        "clinica": "Precoz: rinitis serosanguinolenta persistente, exantema ampolloso palmoplantar (pénfigo sifilítico), hepatoesplenomegalia, pseudoparálisis de Parrot por osteocondritis dolorosa. Tardía: tríada de Hutchinson (dientes de Hutchinson, queratitis intersticial y sordera), nariz en silla de montar, tibias en sable, articulaciones de Clutton.",
+        "lesiones": "Osteocondritis y periostitis; hepatitis; neumonía alba.",
+        "clave": "Es totalmente prevenible con el cribado serológico universal en el embarazo y el tratamiento con penicilina."
+      }
+    ],
+    "caracteristicas_clave": [
+      "NO es cultivable: el diagnóstico es serológico (o por campo oscuro/PCR en las lesiones activas).",
+      "Se necesitan DOS tipos de pruebas serológicas: las NO treponémicas (RPR, VDRL), que son cuantitativas y sirven para valorar actividad y RESPUESTA AL TRATAMIENTO, y las TREPONÉMICAS (FTA-abs, TPHA, EIA), que confirman pero permanecen positivas de por vida y NO sirven para el seguimiento.",
+      "Fenómeno de PROZONA: en la sífilis secundaria con títulos muy altos, el RPR puede dar falsamente negativo por exceso de anticuerpo; hay que pedir dilución de la muestra si la sospecha clínica es alta.",
+      "La PENICILINA sigue siendo el único tratamiento con eficacia probada tras 80 años, sin ninguna resistencia descrita. En la EMBARAZADA alérgica, la conducta correcta es la DESENSIBILIZACIÓN, no cambiar de fármaco.",
+      "La reacción de JARISCH-HERXHEIMER (fiebre, mialgias y exacerbación del exantema en las primeras 24 h) no es alergia: es la lisis masiva de treponemas. Hay que advertirla para que el paciente no abandone el tratamiento.",
+      "Toda sífilis obliga a descartar VIH y otras ITS, y toda persona con VIH debe ser cribada de sífilis.",
+      "El seguimiento se hace con RPR/VDRL cuantitativo a los 6 y 12 meses: se espera un descenso de 4 veces (2 diluciones) del título."
+    ],
+    "diagnostico": {
+      "muestra": "Exudado del chancro o de lesiones húmedas (campo oscuro, PCR), suero, LCR en la sospecha de neurosífilis.",
+      "pruebas": [
+        "Pruebas NO treponémicas: RPR y VDRL, cuantitativas, para cribado, actividad y seguimiento",
+        "Pruebas TREPONÉMICAS: FTA-abs, TPHA, EIA/quimioluminiscencia, confirmatorias y positivas de por vida",
+        "Microscopía de CAMPO OSCURO o PCR del exudado del chancro: diagnóstico directo en la fase primaria, antes de que se positivice la serología",
+        "VDRL en LCR (muy específico, poco sensible) junto a pleocitosis y proteínas en la neurosífilis",
+        "Serología obligatoria en el cribado del embarazo"
+      ],
+      "claves": "Falsos positivos de las pruebas no treponémicas: embarazo, lupus, síndrome antifosfolípido, hepatopatía, edad avanzada, infecciones agudas y adicción a drogas por vía parenteral. Siempre hay que confirmar con una prueba treponémica."
+    },
+    "tratamiento": {
+      "eleccion": "PENICILINA G BENZATINA 2 400 000 UI IM en dosis única (sífilis primaria, secundaria y latente precoz); 2 400 000 UI IM SEMANALES durante 3 semanas (latente tardía o de duración desconocida). NEUROSÍFILIS, sífilis ocular u otosífilis: penicilina G SÓDICA acuosa 18-24 MUI/día IV durante 10-14 días.",
+      "alternativas": "Doxiciclina 100 mg/12 h durante 14 días (primaria/secundaria) o 28 días (latente tardía) en alérgicos NO embarazados. Ceftriaxona como alternativa. En la EMBARAZADA alérgica: DESENSIBILIZACIÓN a penicilina, sin excepción.",
+      "resistencias": "NO se ha descrito resistencia a penicilina. Sí existe resistencia a azitromicina (mutación del ARNr 23S), por lo que ya no se recomienda.",
+      "duracion": "Dosis única en la sífilis precoz; 3 dosis semanales en la tardía; 10-14 días de penicilina IV en la neurosífilis.",
+      "notas": "Seguimiento serológico con RPR/VDRL cuantitativo a los 6 y 12 meses (y a los 24 en la latente tardía y en el paciente con VIH), esperando un descenso de 4 veces el título. Tratar a todas las parejas de los últimos 90 días."
+    },
+    "farmacos_relacionados": [
+      "INF-ceftriaxona",
+      "INF-doxiciclina",
+      "INF-penicilina-g-benzatina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 34 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de sífilis"
+  },
+  {
+    "id": "ATI-borrelia-burgdorferi",
+    "nombre": "Borrelia burgdorferi (enfermedad de Lyme)",
+    "grupo": "ATI",
+    "nivel": 2,
+    "clasificacion": "ESPIROQUETA de gran tamaño, laxamente enrollada, microaerófila, transmitida por GARRAPATAS del género Ixodes",
+    "morfologia_tincion": "Espiroqueta grande y de espiras irregulares, visible con tinción de Giemsa o Wright en muestras (raramente). Cultivo posible en medio de Barbour-Stoenner-Kelly, pero lento y de escaso rendimiento.",
+    "mecanismo_patogenia": [
+      "Transmisión por la picadura de garrapatas del género IXODES: se requieren habitualmente 36-48 HORAS de fijación para que la espiroqueta migre del intestino de la garrapata a las glándulas salivales e infecte. Retirar la garrapata en las primeras 24 h previene prácticamente la transmisión.",
+      "Diseminación desde la piel por vía hematógena y por migración a través del tejido conectivo, con tropismo por articulaciones, corazón y sistema nervioso.",
+      "Variación antigénica de la lipoproteína VlsE: le permite evadir la respuesta inmunitaria y persistir.",
+      "El daño articular y neurológico se debe en gran medida a la respuesta INFLAMATORIA e inmunitaria del huésped, más que a la carga bacteriana.",
+      "En la artritis de Lyme refractaria, el mimetismo molecular y la autoinmunidad en pacientes con determinados HLA-DR explican la persistencia de la inflamación tras la erradicación de la bacteria."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Lyme precoz localizado — eritema migratorio",
+        "clinica": "3-30 días tras la picadura: lesión eritematosa que se expande de forma centrífuga, con aclaramiento central en «diana» u «ojo de buey», habitualmente INDOLORA y no pruriginosa, de más de 5 cm; puede acompañarse de síndrome pseudogripal.",
+        "lesiones": "Eritema anular expansivo con centro claro en la zona de la picadura (axila, ingle, hueco poplíteo).",
+        "clave": "El eritema migratorio es DIAGNÓSTICO por sí solo: se trata sin esperar a la serología, que en esta fase suele ser todavía NEGATIVA."
+      },
+      {
+        "cuadro": "Lyme precoz diseminado",
+        "clinica": "Semanas después: eritemas migratorios múltiples, PARÁLISIS FACIAL (que puede ser bilateral, un dato muy sugestivo), meningitis linfocitaria, radiculoneuritis dolorosa y BLOQUEO AURICULOVENTRICULAR fluctuante.",
+        "lesiones": "Carditis con bloqueo AV de grado variable, habitualmente transitorio; neuroborreliosis con afectación de pares craneales.",
+        "clave": "Parálisis facial BILATERAL en zona endémica = Lyme hasta que se demuestre lo contrario. El bloqueo AV suele ser reversible y raramente precisa marcapasos definitivo."
+      },
+      {
+        "cuadro": "Lyme tardío — artritis de Lyme",
+        "clinica": "Meses después: MONOARTRITIS u oligoartritis intermitente de grandes articulaciones, sobre todo la RODILLA, con derrame abundante y dolor sorprendentemente moderado.",
+        "lesiones": "Sinovitis con derrame; en los casos refractarios, sinovitis proliferativa autoinmune persistente.",
+        "clave": "Monoartritis de rodilla con derrame llamativo y poco dolor en zona endémica debe hacer pensar en Lyme."
+      },
+      {
+        "cuadro": "Neuroborreliosis tardía y acrodermatitis crónica atrófica",
+        "clinica": "Encefalomielitis, polineuropatía sensitiva, alteraciones cognitivas. La acrodermatitis crónica atrófica (más frecuente en Europa, por B. afzelii) cursa con lesión violácea en zonas acras que evoluciona a piel atrófica «en papel de fumar».",
+        "lesiones": "Atrofia dérmica con pérdida de anejos.",
+        "clave": "La acrodermatitis crónica atrófica es la manifestación tardía europea característica, prácticamente ausente en América."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El eritema migratorio se trata por CLÍNICA: la serología en la fase precoz es a menudo negativa y esperarla retrasa el tratamiento sin aportar nada.",
+      "El diagnóstico serológico es en DOS PASOS: cribado con EIA y, si es positivo o dudoso, confirmación con inmunoblot (Western blot). Una serología aislada sin confirmación genera muchos falsos positivos y sobrediagnóstico.",
+      "La IgG persiste años tras la curación: una serología positiva no significa infección activa ni justifica retratamiento.",
+      "Retirar la garrapata en menos de 24-36 h previene prácticamente la transmisión: la extracción precoz con pinzas, traccionando de forma perpendicular y sin aplastar el cuerpo, es la mejor prevención.",
+      "En la mayoría de las picaduras NO está indicada la profilaxis antibiótica; solo se considera dosis única de doxiciclina 200 mg en circunstancias muy concretas (garrapata Ixodes fijada >36 h, zona de alta endemia, en las 72 h siguientes).",
+      "Doxiciclina es preferible a amoxicilina porque cubre además la coinfección por Anaplasma phagocytophilum, transmitida por la misma garrapata.",
+      "El «Lyme crónico» con síntomas inespecíficos persistentes y serología no confirmada no responde a antibióticos prolongados, que además son perjudiciales."
+    ],
+    "diagnostico": {
+      "muestra": "Suero; LCR en la neuroborreliosis; líquido sinovial en la artritis.",
+      "pruebas": [
+        "ERITEMA MIGRATORIO: diagnóstico CLÍNICO, no requiere serología",
+        "Serología en dos pasos: EIA de cribado seguido de inmunoblot IgM/IgG confirmatorio",
+        "PCR en líquido sinovial (alta sensibilidad en la artritis de Lyme) o en LCR",
+        "Índice de anticuerpos en LCR frente a suero en la neuroborreliosis",
+        "ECG en la sospecha de carditis"
+      ],
+      "claves": "No solicitar serología de Lyme como cribado ante síntomas inespecíficos sin exposición ni clínica compatible: la baja probabilidad pretest convierte los positivos en su mayoría en falsos positivos."
+    },
+    "tratamiento": {
+      "eleccion": "DOXICICLINA 100 mg/12 h durante 10-14 días en el eritema migratorio; 14-21 días en la enfermedad diseminada precoz.",
+      "alternativas": "Amoxicilina 500 mg/8 h o cefuroxima-axetilo en niños menores de 8 años, embarazadas o alérgicos a tetraciclinas. CEFTRIAXONA 2 g/24 h IV 14-21 días en la neuroborreliosis con afectación del SNC, la carditis con bloqueo AV de alto grado y la artritis refractaria.",
+      "resistencias": "No se han descrito resistencias clínicamente relevantes.",
+      "duracion": "10-14 días (eritema migratorio), 14-21 días (diseminada precoz, neuroborreliosis), 28 días (artritis de Lyme). Los tratamientos prolongados de meses NO están justificados y son perjudiciales.",
+      "notas": "Puede aparecer una reacción de Jarisch-Herxheimer en las primeras 24 h. Los síntomas residuales tras un tratamiento correcto (síndrome post-Lyme) NO responden a más antibióticos."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-ceftriaxona",
+      "INF-doxiciclina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 35 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de enfermedad de Lyme"
+  },
+  {
+    "id": "ATI-rickettsia",
+    "nombre": "Rickettsia (conorii, rickettsii, typhi)",
+    "grupo": "ATI",
+    "nivel": 2,
+    "clasificacion": "Cocobacilos gramnegativos INTRACELULARES OBLIGADOS, transmitidos por artrópodos vectores (garrapatas, pulgas, piojos, ácaros)",
+    "morfologia_tincion": "Cocobacilos gramnegativos muy pequeños que se tiñen mal con Gram; se visualizan con tinción de Giménez o inmunohistoquímica en biopsia cutánea. No cultivables en medios habituales (requieren cultivo celular en laboratorios de bioseguridad).",
+    "mecanismo_patogenia": [
+      "Parasitismo intracelular obligado del ENDOTELIO VASCULAR: entra en la célula endotelial y se multiplica en el citoplasma, provocando VASCULITIS generalizada. Ese tropismo endotelial explica TODA la clínica: exantema, edema, hipovolemia, fallo multiorgánico.",
+      "La vasculitis con aumento de la permeabilidad capilar produce hipoalbuminemia, edema, hiponatremia y, en casos graves, edema pulmonar y cerebral no cardiogénico.",
+      "Trombocitopenia por consumo en los focos de lesión endotelial, sin coagulación intravascular diseminada franca en la mayoría de los casos.",
+      "Transmisión por vector: R. conorii (fiebre botonosa mediterránea) por la garrapata del perro; R. rickettsii (fiebre maculosa de las Montañas Rocosas) por garrapatas; R. typhi (tifus murino) por la pulga de la rata; R. prowazekii (tifus epidémico) por el piojo del cuerpo.",
+      "La localización intracelular hace ineficaces a los betalactámicos y explica la eficacia exclusiva de tetraciclinas y cloranfenicol."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Fiebre botonosa mediterránea (R. conorii)",
+        "clinica": "Fiebre alta de comienzo brusco, cefalea intensa y mialgias, seguidas a los 3-5 días de un EXANTEMA maculopapular que se inicia en las extremidades (incluidas PALMAS Y PLANTAS) y se generaliza. Antecedente de contacto con perros en primavera-verano.",
+        "lesiones": "MANCHA NEGRA (tache noire): escara necrótica indolora con halo eritematoso en el punto de la picadura, presente en el 50-70% de los casos y prácticamente diagnóstica; hay que buscarla en cuero cabelludo, pliegues e ingles.",
+        "clave": "Fiebre + exantema palmoplantar + escara negra en primavera-verano en el Mediterráneo = fiebre botonosa. Buscar activamente la escara desnudando al paciente."
+      },
+      {
+        "cuadro": "Fiebre maculosa de las Montañas Rocosas (R. rickettsii)",
+        "clinica": "Fiebre, cefalea intensa y mialgias; exantema que comienza en MUÑECAS Y TOBILLOS y progresa de forma CENTRÍPETA hacia el tronco, afectando palmas y plantas; puede hacerse petequial.",
+        "lesiones": "Vasculitis grave con necrosis cutánea, gangrena distal, edema cerebral y fallo renal.",
+        "clave": "Es la rickettsiosis más grave, con mortalidad del 20-25% sin tratamiento. NO tiene escara. El retraso en iniciar doxiciclina más allá del 5.º día multiplica la mortalidad."
+      },
+      {
+        "cuadro": "Tifus murino (R. typhi)",
+        "clinica": "Fiebre, cefalea y exantema macular de predominio en el TRONCO que respeta palmas y plantas; curso más leve. Antecedente de exposición a ratas o a sus pulgas.",
+        "lesiones": "Vasculitis de menor intensidad.",
+        "clave": "Distribución del exantema opuesta a la de las fiebres maculosas: aquí es centrífuga desde el tronco y respeta palmas y plantas."
+      },
+      {
+        "cuadro": "Complicaciones de la vasculitis rickettsiósica",
+        "clinica": "Confusión, meningismo, insuficiencia renal aguda, edema pulmonar no cardiogénico, hepatitis, miocarditis.",
+        "lesiones": "Vasculitis multiorgánica con nódulos gliales en el SNC.",
+        "clave": "La HIPONATREMIA, la trombocitopenia y la elevación de transaminasas son los tres datos analíticos que acompañan clásicamente al cuadro."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El tratamiento se inicia por SOSPECHA CLÍNICA Y EPIDEMIOLÓGICA, sin esperar la confirmación serológica: la serología tarda 1-2 semanas en positivizarse y el retraso terapéutico aumenta la mortalidad.",
+      "La DOXICICLINA es el tratamiento de elección a CUALQUIER EDAD, incluidos los niños menores de 8 años: en ciclos cortos el riesgo de tinción dental es despreciable y el beneficio es vital. Esta es una excepción explícita y bien establecida a la contraindicación pediátrica clásica.",
+      "La escara negra (tache noire) es prácticamente diagnóstica y suele pasarse por alto por no explorar cuero cabelludo, pliegues y zona genital.",
+      "La tríada analítica de hiponatremia, trombocitopenia y elevación de transaminasas en un paciente febril con exantema debe hacer pensar en rickettsiosis.",
+      "El exantema PUEDE FALTAR o aparecer tarde, sobre todo en ancianos: su ausencia no descarta el diagnóstico.",
+      "Los betalactámicos y los aminoglucósidos son ineficaces por su localización intracelular; el cotrimoxazol puede EMPEORAR el cuadro.",
+      "La prevención es la retirada precoz de garrapatas y el uso de repelentes."
+    ],
+    "diagnostico": {
+      "muestra": "Suero pareado (fase aguda y a las 2-4 semanas); biopsia de la escara o de una lesión cutánea.",
+      "pruebas": [
+        "Inmunofluorescencia indirecta con sueros pareados: seroconversión o aumento de 4 veces el título (prueba de referencia, pero RETROSPECTIVA)",
+        "PCR de biopsia de la escara o de sangre: permite diagnóstico precoz",
+        "Inmunohistoquímica de la biopsia cutánea",
+        "La reacción de Weil-Felix está obsoleta por su baja sensibilidad y especificidad",
+        "Analítica: hiponatremia, trombocitopenia, transaminasas elevadas"
+      ],
+      "claves": "Ninguna prueba disponible confirma el diagnóstico en la fase aguda con la rapidez necesaria: el tratamiento es siempre empírico ante la sospecha."
+    },
+    "tratamiento": {
+      "eleccion": "DOXICICLINA 100 mg/12 h (niños: 2,2 mg/kg/12 h), a cualquier edad.",
+      "alternativas": "Cloranfenicol (única alternativa clásica, con peores resultados y toxicidad hematológica); azitromicina o josamicina como alternativa en la embarazada, aunque con menor evidencia.",
+      "resistencias": "No constituyen un problema clínico.",
+      "duracion": "Hasta 3 días DESPUÉS de la defervescencia, con un mínimo de 5-7 días. La respuesta clínica en 48-72 h es tan característica que su ausencia debe hacer replantear el diagnóstico.",
+      "notas": "El COTRIMOXAZOL está contraindicado: puede agravar la enfermedad. La defervescencia en 48 h con doxiciclina es en sí misma un criterio diagnóstico de apoyo."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-doxiciclina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 38 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de rickettsiosis"
+  },
+  {
+    "id": "ATI-coxiella-burnetii",
+    "nombre": "Coxiella burnetii (fiebre Q)",
+    "grupo": "ATI",
+    "nivel": 3,
+    "clasificacion": "Cocobacilo gramnegativo INTRACELULAR OBLIGADO, con forma esporulada de gran resistencia ambiental; se multiplica en el FAGOLISOSOMA ácido del macrófago",
+    "morfologia_tincion": "Cocobacilo muy pequeño, no visible en la práctica con Gram. Se multiplica dentro de vacuolas ácidas (fagolisosomas), a diferencia de las rickettsias, que lo hacen en el citoplasma.",
+    "mecanismo_patogenia": [
+      "Se multiplica DENTRO DEL FAGOLISOSOMA, en pH ácido: por eso la hidroxicloroquina, que alcaliniza el fagolisosoma, se asocia a la doxiciclina en la fiebre Q crónica para hacerla bactericida. Es un ejemplo excepcional de un fármaco antipalúdico usado como potenciador antibiótico.",
+      "Su forma de pequeña variante celular es extraordinariamente resistente a la desecación y a los desinfectantes, y se transmite por AEROSOLES a gran distancia; la dosis infectante puede ser de UN SOLO microorganismo, lo que la convierte en un potencial agente de bioterrorismo.",
+      "Reservorio en ganado ovino, caprino y bovino, con eliminación masiva en los PRODUCTOS DE LA PARICIÓN (placenta y líquido amniótico), leche y heces. La exposición típica es profesional (ganaderos, veterinarios, matarifes) o por residir cerca de explotaciones.",
+      "Variación de fase antigénica del lipopolisacárido: los anticuerpos frente a la FASE II predominan en la infección aguda y los de FASE I en la crónica. Esa distinción serológica es la clave diagnóstica.",
+      "Persistencia en macrófagos de válvulas cardíacas dañadas y de aneurismas o prótesis vasculares, donde origina la forma crónica."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Fiebre Q aguda",
+        "clinica": "Fiebre alta prolongada con cefalea intensa y mialgias; puede cursar como neumonía atípica o como HEPATITIS granulomatosa. Con frecuencia es asintomática (hasta el 60%).",
+        "lesiones": "Neumonía intersticial; en el hígado, GRANULOMAS EN ROSQUILLA (doughnut granuloma): un granuloma con un vacuolo lipídico central rodeado de un anillo de fibrina, muy característico.",
+        "clave": "Fiebre prolongada + hepatitis granulomatosa + exposición a ganado = fiebre Q. Es una causa clásica de fiebre de origen desconocido."
+      },
+      {
+        "cuadro": "Fiebre Q crónica — endocarditis",
+        "clinica": "Meses o años después: endocarditis con HEMOCULTIVOS NEGATIVOS, fiebre larvada, astenia, pérdida de peso, insuficiencia cardíaca y esplenomegalia, en pacientes con valvulopatía o prótesis previas.",
+        "lesiones": "Vegetaciones pequeñas de difícil visualización ecocardiográfica; destrucción valvular lenta.",
+        "clave": "Es una de las principales causas de ENDOCARDITIS CON HEMOCULTIVOS NEGATIVOS: en ese escenario hay que solicitar serología de Coxiella y Bartonella."
+      },
+      {
+        "cuadro": "Infección vascular crónica",
+        "clinica": "Fiebre, dolor abdominal o lumbar en portador de aneurisma aórtico o prótesis vascular.",
+        "lesiones": "Infección del aneurisma o de la prótesis, con riesgo de rotura.",
+        "clave": "En un paciente con antecedente de fiebre Q aguda y aneurisma, la infección vascular crónica es una complicación temible."
+      },
+      {
+        "cuadro": "Fiebre Q en el embarazo",
+        "clinica": "A menudo asintomática, pero con riesgo de aborto, parto pretérmino y bajo peso.",
+        "lesiones": "Placentitis con multiplicación masiva del microorganismo.",
+        "clave": "Requiere tratamiento con cotrimoxazol durante toda la gestación (la doxiciclina está contraindicada)."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La distinción entre fase I y fase II es la clave del diagnóstico: predominio de anticuerpos frente a fase II = infección AGUDA; título alto frente a fase I (IgG ≥1:800) = infección CRÓNICA, que obliga a buscar endocarditis o infección vascular.",
+      "Es una causa destacada de endocarditis con hemocultivos negativos y de fiebre de origen desconocido.",
+      "La hidroxicloroquina asociada a doxiciclina en la forma crónica no es un antipalúdico «de más»: alcaliniza el fagolisosoma y convierte a la doxiciclina en bactericida. Es lo que ha permitido acortar tratamientos que antes duraban años.",
+      "No requiere vector artrópodo: se transmite por inhalación de aerosoles, incluso a kilómetros de la fuente, y con una dosis infectante mínima.",
+      "El granuloma hepático «en rosquilla» es un hallazgo histológico muy sugestivo.",
+      "Todo paciente con fiebre Q aguda y valvulopatía, prótesis valvular, aneurisma o inmunodepresión debe recibir seguimiento serológico prolongado por el riesgo de cronificación."
+    ],
+    "diagnostico": {
+      "muestra": "Suero (fase aguda y convalecencia), sangre para PCR en la fase aguda precoz, válvula cardíaca o tejido vascular explantado.",
+      "pruebas": [
+        "SEROLOGÍA por inmunofluorescencia indirecta con determinación de anticuerpos frente a FASE I y FASE II: es la prueba fundamental",
+        "PCR en sangre o suero: útil en la primera semana, antes de la seroconversión",
+        "PCR e inmunohistoquímica de la válvula explantada",
+        "Ecocardiograma transesofágico en la sospecha de endocarditis",
+        "Biopsia hepática con granulomas en rosquilla"
+      ],
+      "claves": "Ante una endocarditis con hemocultivos negativos, solicitar expresamente serología de Coxiella y Bartonella: no se detectan con los métodos convencionales."
+    },
+    "tratamiento": {
+      "eleccion": "Fiebre Q AGUDA: doxiciclina 100 mg/12 h durante 14 días. Fiebre Q CRÓNICA (endocarditis): DOXICICLINA 100 mg/12 h MÁS HIDROXICLOROQUINA 200 mg/8 h durante 18-24 meses.",
+      "alternativas": "En el embarazo: cotrimoxazol durante toda la gestación. Quinolonas o macrólidos como alternativas de segunda línea en la forma aguda.",
+      "resistencias": "No son un problema clínico relevante.",
+      "duracion": "14 días en la forma aguda. 18 meses (válvula nativa) a 24 meses (prótesis) en la endocarditis, guiados por el descenso de los títulos de fase I.",
+      "notas": "El seguimiento del tratamiento crónico se hace con serología seriada; hay que monitorizar la retina por la hidroxicloroquina y vigilar la fotosensibilidad de la doxiciclina."
+    },
+    "farmacos_relacionados": [
+      "INF-cotrimoxazol",
+      "INF-doxiciclina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 38 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de fiebre Q"
+  },
+  {
+    "id": "ATI-leptospira",
+    "nombre": "Leptospira interrogans",
+    "grupo": "ATI",
+    "nivel": 2,
+    "clasificacion": "ESPIROQUETA fina y muy enrollada con los extremos en forma de GANCHO, aerobia estricta, móvil, transmitida por la orina de animales infectados",
+    "morfologia_tincion": "Espiroqueta delgadísima con extremos ganchudos, visible por microscopía de CAMPO OSCURO o inmunofluorescencia. Cultivable en medios especiales (Fletcher, EMJH), pero con crecimiento muy lento (semanas).",
+    "mecanismo_patogenia": [
+      "Penetra a través de la piel erosionada o de las mucosas (conjuntiva, oral) tras el contacto con AGUA DULCE O BARRO contaminados con la orina de roedores, perros o ganado. Es la zoonosis de mayor distribución mundial.",
+      "Diseminación hematógena rápida (fase leptospirémica) con invasión de prácticamente todos los órganos.",
+      "Daño ENDOTELIAL con vasculitis generalizada: es la lesión fundamental y explica la hemorragia pulmonar, la ictericia, la insuficiencia renal y la miocarditis.",
+      "En el riñón produce NEFRITIS TUBULOINTERSTICIAL con disfunción tubular, que causa una insuficiencia renal característicamente HIPOPOTASÉMICA y no oligúrica — un rasgo distintivo frente a otras causas de fracaso renal agudo.",
+      "Persistencia en los túbulos renales del huésped animal (y transitoriamente del humano), con eliminación por la orina durante semanas.",
+      "Los brotes se asocian a INUNDACIONES, deportes acuáticos, triatlones y profesiones de riesgo (alcantarilleros, arroceros, veterinarios)."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Leptospirosis anictérica (fase leptospirémica)",
+        "clinica": "Fiebre alta de comienzo brusco, cefalea intensa, MIALGIAS MUY INTENSAS (sobre todo en pantorrillas y región lumbar) y, de forma muy característica, SUFUSIÓN CONJUNTIVAL (hiperemia conjuntival sin secreción ni exudado).",
+        "lesiones": "Vasculitis leve; hemorragias conjuntivales.",
+        "clave": "Fiebre + mialgias intensas en pantorrillas + sufusión conjuntival + antecedente de contacto con agua dulce es el cuadro clásico. La sufusión conjuntival sin exudado es un signo muy poco frecuente en otras enfermedades febriles."
+      },
+      {
+        "cuadro": "Enfermedad de Weil (leptospirosis grave)",
+        "clinica": "Ictericia intensa de tinte anaranjado-rojizo (por la combinación de hiperbilirrubinemia y vasodilatación), insuficiencia renal aguda, hemorragias y alteración del nivel de conciencia.",
+        "lesiones": "Necrosis tubular e intersticial renal, colestasis hepática SIN necrosis hepatocelular importante (por eso la bilirrubina está muy alta con transaminasas solo moderadamente elevadas), hemorragias en múltiples órganos.",
+        "clave": "La DISOCIACIÓN entre una bilirrubina muy elevada y unas transaminasas solo discretamente altas es un dato analítico muy orientativo."
+      },
+      {
+        "cuadro": "Hemorragia pulmonar grave",
+        "clinica": "Disnea, hemoptisis e insuficiencia respiratoria de progresión rápida.",
+        "lesiones": "Hemorragia alveolar difusa con infiltrados algodonosos bilaterales.",
+        "clave": "Es hoy la principal causa de muerte por leptospirosis, con mortalidad superior al 50%, y puede aparecer sin ictericia."
+      },
+      {
+        "cuadro": "Meningitis aséptica",
+        "clinica": "En la segunda fase (inmunitaria): cefalea, rigidez de nuca y fotofobia con LCR de perfil linfocitario.",
+        "lesiones": "Meningitis linfocitaria con glucosa normal.",
+        "clave": "La leptospirosis es una causa a considerar en la meningitis linfocitaria con exposición epidemiológica compatible."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es la zoonosis más extendida del mundo, con brotes tras INUNDACIONES y actividades en agua dulce: la historia epidemiológica es la clave del diagnóstico.",
+      "La SUFUSIÓN CONJUNTIVAL sin exudado, junto con mialgias intensas en pantorrillas, es el hallazgo físico más orientativo.",
+      "Produce una insuficiencia renal aguda con HIPOPOTASEMIA, algo excepcional (la mayoría de los fracasos renales cursan con hiperpotasemia): se debe a la disfunción tubular específica.",
+      "La disociación bilirrubina muy alta / transaminasas moderadas distingue la ictericia leptospirósica de la hepatitis vírica.",
+      "El curso es BIFÁSICO: fase leptospirémica (primera semana, con la bacteria en sangre y LCR) seguida de fase inmunitaria (segunda semana, con aparición de anticuerpos, meningitis y eliminación urinaria).",
+      "El diagnóstico varía con la fase: hemocultivo y PCR en la primera semana; serología (MAT) a partir de la segunda.",
+      "El tratamiento debe iniciarse por sospecha clínica: la doxiciclina en la forma leve y la penicilina o ceftriaxona en la grave."
+    ],
+    "diagnostico": {
+      "muestra": "Sangre y LCR en la primera semana; orina a partir de la segunda semana; suero pareado para serología.",
+      "pruebas": [
+        "PCR en sangre u orina: diagnóstico precoz en la fase leptospirémica",
+        "Test de microaglutinación (MAT): prueba de referencia serológica, requiere sueros pareados y laboratorio de referencia",
+        "ELISA IgM: cribado más accesible, positiva a partir del 5.º-7.º día",
+        "Cultivo en medio EMJH: lento (semanas) y de escaso uso práctico",
+        "Analítica: hipopotasemia, bilirrubina muy alta con transaminasas moderadas, trombocitopenia, CPK elevada"
+      ],
+      "claves": "La CPK elevada (por la miositis) junto a insuficiencia renal hipopotasémica es una combinación analítica muy sugestiva."
+    },
+    "tratamiento": {
+      "eleccion": "Forma LEVE: doxiciclina 100 mg/12 h durante 7 días. Forma GRAVE (enfermedad de Weil, hemorragia pulmonar): PENICILINA G 1,5 MUI/6 h IV o CEFTRIAXONA 1-2 g/24 h IV durante 7 días.",
+      "alternativas": "Azitromicina o amoxicilina en pacientes que no toleren doxiciclina o en el embarazo.",
+      "resistencias": "No constituyen un problema clínico.",
+      "duracion": "7 días. El soporte (diálisis, ventilación mecánica) es determinante en la forma grave.",
+      "notas": "Puede producirse reacción de Jarisch-Herxheimer al iniciar el tratamiento. Profilaxis con doxiciclina 200 mg semanal en exposiciones de alto riesgo de corta duración (militares, triatletas, trabajos tras inundaciones)."
+    },
+    "farmacos_relacionados": [
+      "INF-azitromicina",
+      "INF-ceftriaxona",
+      "INF-doxiciclina",
+      "INF-penicilina-g-benzatina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 35 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de leptospirosis"
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "URG-n-acetilcisteina",
+    "nombre": "N-acetilcisteína",
+    "sinonimos": [
+      "NAC",
+      "Acetilcisteína"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Antídoto del paracetamol",
+    "subclase": "Precursor del glutatión y donante de grupos tiol",
+    "mecanismo": "Repone las reservas de GLUTATIÓN hepático aportando cisteína, su aminoácido limitante. En la sobredosis de paracetamol, las vías de conjugación se saturan y el CYP2E1 genera un exceso del metabolito tóxico NAPQI, que agota el glutatión y se une covalentemente a las proteínas del hepatocito produciendo necrosis centrolobulillar. La N-acetilcisteína actúa por tres vías: repone glutatión, actúa ella misma como sustrato tiol que conjuga directamente el NAPQI, y en fases tardías mejora la microcirculación y el aporte de oxígeno hepático, lo que explica que siga siendo útil incluso cuando el daño ya está establecido.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por paracetamol",
+        "dosis": "Pauta IV de 21 h: 150 mg/kg en 1 h, después 50 mg/kg en 4 h y 100 mg/kg en 16 h",
+        "posologia": "Perfusión en tres fases consecutivas",
+        "via": "IV",
+        "nota": "La decisión de tratar se toma con el NOMOGRAMA DE RUMACK-MATTHEW, que exige una paracetamolemia extraída al menos 4 h tras la ingesta"
+      },
+      {
+        "patologia": "Intoxicación por paracetamol de tiempo desconocido, ingesta escalonada o presentación tardía",
+        "dosis": "150 mg/kg en 1 h, 50 mg/kg en 4 h y 100 mg/kg en 16 h, iniciada SIN esperar niveles",
+        "posologia": "Perfusión continua hasta criterios de retirada",
+        "via": "IV",
+        "nota": "En estos escenarios el nomograma NO es aplicable: se trata de entrada y se decide después con transaminasas, INR y paracetamolemia"
+      },
+      {
+        "patologia": "Fallo hepático agudo de cualquier causa",
+        "dosis": "150 mg/kg/24 h en perfusión",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Mejora la supervivencia sin trasplante en el fallo hepático agudo no debido a paracetamol, sobre todo en estadios precoces de encefalopatía"
+      },
+      {
+        "patologia": "Prevención de la nefropatía por contraste (uso discutido)",
+        "dosis": "600-1200 mg/12 h el día previo y el día de la prueba",
+        "posologia": "Cada 12 h, 4 dosis",
+        "via": "VO",
+        "nota": "La evidencia actual es negativa o neutra: lo que realmente protege es la HIDRATACIÓN con suero salino"
+      },
+      {
+        "patologia": "Fluidificación de secreciones respiratorias espesas",
+        "dosis": "200 mg/8 h o 600 mg/24 h",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Indicación menor y de eficacia modesta; nada que ver con su papel como antídoto"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cuanto ANTES: la eficacia es prácticamente completa si se inicia en las primeras 8-10 h y decae progresivamente después. Ante duda o retraso, se inicia sin esperar a la analítica.",
+      "titulacion": "No se titula: dosis ajustada al peso según protocolo.",
+      "duracion": "21 h en la pauta clásica intravenosa; se PROLONGA si al terminar persisten transaminasas en ascenso, INR alargado o paracetamolemia detectable.",
+      "fin": "Criterios de retirada: paracetamolemia indetectable, INR menor de 1,3, transaminasas normales o en descenso claro y paciente asintomático. Terminar la pauta por reloj sin comprobar esos criterios es un error.",
+      "via": "IV de elección (más rápida y segura ante los vómitos); VO como alternativa en pauta de 72 h, mal tolerada por su olor sulfuroso.",
+      "monitorizacion": "Transaminasas, INR, bilirrubina, función renal, glucemia y equilibrio ácido-base seriados. Vigilar la reacción anafilactoide durante la primera hora de perfusión."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, aunque con un intenso primer paso; la vía intravenosa evita el problema de los vómitos, muy frecuentes en la intoxicación.",
+      "distribucion": "Amplia, con paso hepático rápido.",
+      "metabolismo": "Se incorpora a la síntesis de glutatión y a otras vías de aminoácidos azufrados.",
+      "eliminacion": "Renal.",
+      "vida_media": "5-6 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste: es precisamente el órgano que se busca proteger.",
+      "interacciones": [
+        {
+          "con": "Carbón activado",
+          "efecto": "Puede adsorber la N-acetilcisteína ORAL y reducir su eficacia",
+          "gravedad": "media",
+          "manejo": "Separar la administración, o usar la vía intravenosa, que resuelve el problema"
+        },
+        {
+          "con": "Nitroglicerina",
+          "efecto": "Potencia la vasodilatación y la hipotensión (los tioles regeneran los grupos necesarios para su acción)",
+          "gravedad": "baja",
+          "manejo": "Vigilar la tensión arterial"
+        },
+        {
+          "con": "Antibióticos en la misma vía",
+          "efecto": "Incompatibilidad física en la mezcla",
+          "gravedad": "baja",
+          "manejo": "No mezclar en la misma línea de perfusión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos (muy frecuentes con la vía oral por su olor y sabor sulfurosos)",
+        "REACCIÓN ANAFILACTOIDE durante la primera hora de perfusión: exantema, rubor, prurito, angioedema leve, broncoespasmo",
+        "Cefalea"
+      ],
+      "graves": [
+        "Broncoespasmo grave e hipotensión en la reacción anafilactoide, sobre todo en asmáticos",
+        "Hiponatremia y convulsiones por errores en la dilución, especialmente en niños de bajo peso",
+        "Anafilaxia verdadera (excepcional)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad verdadera documentada a la acetilcisteína (excepcional)",
+      "No existe contraindicación relevante ante una intoxicación grave por paracetamol: el riesgo de no tratar es mucho mayor"
+    ],
+    "perlas": [
+      "La REACCIÓN ANAFILACTOIDE de la primera hora es la confusión más frecuente y más costosa: NO es una alergia, es una liberación de histamina dependiente de la velocidad de infusión. El manejo correcto es ENLENTECER o pausar brevemente la perfusión y dar un antihistamínico, y después REANUDARLA. Etiquetar al paciente de alérgico y suspender el antídoto lo deja sin el único tratamiento eficaz.",
+      "La trampa clínica de la intoxicación por paracetamol es que el paciente está ASINTOMÁTICO o solo con náuseas durante las primeras 24 h. Esa falsa tranquilidad hace que consulte tarde, justo cuando el antídoto ya es mucho menos eficaz. Por eso ante una ingesta de riesgo se actúa por el nomograma y no por el estado del paciente.",
+      "El NOMOGRAMA DE RUMACK-MATTHEW solo sirve en la ingesta ÚNICA y de hora conocida, y exige una muestra extraída al menos 4 HORAS después (antes no es interpretable). En la ingesta escalonada, la de hora incierta o la presentación tardía, el nomograma no se aplica: se trata directamente.",
+      "Sigue siendo útil pasadas 24 h, cosa poco intuitiva en un antídoto: en fases tardías ya no previene la formación de NAPQI, pero mejora la microcirculación y la oxigenación hepática. Nunca se descarta por llegar tarde.",
+      "Hay pacientes que se intoxican con dosis apenas superiores a las terapéuticas: alcohólicos crónicos, desnutridos, anoréxicos y quienes toman inductores del CYP2E1. En ellos las reservas de glutatión ya están agotadas y el umbral de toxicidad es mucho más bajo.",
+      "La pauta no termina por reloj: si al acabar las 21 h el INR sigue alargado o las transaminasas suben, hay que PROLONGAR la perfusión. Suspenderla por protocolo mientras el hígado sigue deteriorándose es un error grave.",
+      "Su otra indicación importante y menos conocida es el FALLO HEPÁTICO AGUDO NO por paracetamol, donde mejora la supervivencia sin trasplante."
+    ],
+    "embarazo_lactancia": "Segura y de uso obligado en la gestante intoxicada: atraviesa la placenta y protege también al hígado fetal. La demora en administrarla es más peligrosa que el fármaco. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 58; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+  },
+  {
+    "id": "URG-atropina",
+    "nombre": "Atropina",
+    "sinonimos": [
+      "Sulfato de atropina"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Anticolinérgico antimuscarínico",
+    "subclase": "Amina terciaria de acción central y periférica",
+    "mecanismo": "Antagonista competitivo de los receptores MUSCARÍNICOS. En el nodo sinusal y auriculoventricular bloquea el tono vagal y aumenta la frecuencia cardiaca y la conducción; en las glándulas exocrinas reduce las secreciones; en el músculo liso produce relajación, midriasis y cicloplejía. Al ser una AMINA TERCIARIA atraviesa la barrera hematoencefálica, lo que le da acción central (útil en la intoxicación por organofosforados, pero responsable del delirio anticolinérgico). NO revierte la nicotínica: por eso en la intoxicación por organofosforados no corrige la debilidad muscular ni las fasciculaciones, para lo que hace falta pralidoxima.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Bradicardia sintomática con inestabilidad",
+        "dosis": "0,5-1 mg IV en bolo, repetible cada 3-5 minutos hasta 3 mg",
+        "posologia": "Bolos repetidos",
+        "via": "IV",
+        "nota": "Si no responde: marcapasos transcutáneo, adrenalina o dopamina. Poco eficaz en el bloqueo de grado avanzado, que es infranodal"
+      },
+      {
+        "patologia": "Intoxicación por ORGANOFOSFORADOS o carbamatos",
+        "dosis": "1-3 mg IV, DOBLANDO la dosis cada 3-5 minutos hasta secar las secreciones bronquiales; después perfusión",
+        "posologia": "Escalado por duplicación hasta atropinización",
+        "via": "IV",
+        "nota": "Se necesitan dosis enormes (decenas o cientos de miligramos). El objetivo es SECAR EL ÁRBOL BRONQUIAL, no la frecuencia cardiaca ni las pupilas"
+      },
+      {
+        "patologia": "Reducción de secreciones respiratorias en la agonía (cuidados paliativos)",
+        "dosis": "0,5-1 mg SC cada 4-6 h",
+        "posologia": "Cada 4-6 h",
+        "via": "SC",
+        "nota": "Se prefiere la butilescopolamina, que no atraviesa la barrera hematoencefálica y no produce delirio"
+      },
+      {
+        "patologia": "Premedicación anestésica y bloqueo del reflejo vagal en la intubación",
+        "dosis": "0,01-0,02 mg/kg IV (mínimo 0,1 mg)",
+        "posologia": "Dosis única antes del procedimiento",
+        "via": "IV",
+        "nota": "Especialmente relevante en el LACTANTE, cuyo gasto cardiaco depende críticamente de la frecuencia"
+      },
+      {
+        "patologia": "Reversión del bloqueo neuromuscular junto a neostigmina",
+        "dosis": "0,02 mg/kg IV, administrada CON la neostigmina",
+        "posologia": "Dosis única simultánea",
+        "via": "IV",
+        "nota": "Contrarresta la bradicardia y la hipersecreción que produciría la neostigmina sola"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la bradicardia, 0,5-1 mg en bolo rápido. En la intoxicación por organofosforados, escalado por DUPLICACIÓN cada 3-5 minutos sin techo prefijado.",
+      "titulacion": "Bradicardia: hasta frecuencia y perfusión aceptables, máximo 3 mg. Organofosforados: hasta ATROPINIZACIÓN, definida por auscultación pulmonar LIMPIA y piel seca; después, perfusión ajustada.",
+      "duracion": "Minutos u horas en la bradicardia; DÍAS en la intoxicación grave por organofosforados, que requiere perfusión mantenida.",
+      "fin": "Retirada progresiva de la perfusión en la intoxicación, vigilando la reaparición del cuadro colinérgico (los organofosforados liposolubles se redistribuyen desde la grasa durante días).",
+      "via": "IV de elección; IM, SC o intraósea si no hay acceso venoso.",
+      "monitorizacion": "Frecuencia cardiaca, ECG, AUSCULTACIÓN PULMONAR (el parámetro que guía la atropinización), estado de la piel, temperatura, diuresis y nivel de conciencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio en menos de 1 minuto por vía intravenosa, con efecto máximo a los 2-4 minutos.",
+      "distribucion": "Amplia; atraviesa la barrera hematoencefálica y la placenta.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal, en buena parte inalterada.",
+      "vida_media": "2-4 h; el efecto sobre la frecuencia cardiaca es más breve que el efecto sobre las secreciones y la midriasis, que puede durar horas o días en el ojo.",
+      "ajuste_renal": "Precaución en la insuficiencia renal por acumulación con dosis repetidas.",
+      "ajuste_hepatico": "No precisa ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "Otros ANTICOLINÉRGICOS: antidepresivos tricíclicos, antihistamínicos de primera generación, antipsicóticos, oxibutinina, tiotropio",
+          "efecto": "Suma de carga anticolinérgica: delirio, hipertermia, retención urinaria, íleo",
+          "gravedad": "alta",
+          "manejo": "Revisar la carga anticolinérgica total, sobre todo en el anciano"
+        },
+        {
+          "con": "Betabloqueantes, verapamilo, diltiazem, digoxina",
+          "efecto": "Son causa frecuente de la bradicardia que se intenta revertir y limitan la respuesta a la atropina",
+          "gravedad": "media",
+          "manejo": "Si no responde, tratar la causa (glucagón en la intoxicación por betabloqueantes, calcio en la de calcioantagonistas)"
+        },
+        {
+          "con": "Neostigmina y otros anticolinesterásicos",
+          "efecto": "Antagonismo mutuo, que aquí se busca de forma deliberada",
+          "gravedad": "baja",
+          "manejo": "Es el fundamento de la asociación en la reversión del bloqueo neuromuscular"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca y de mucosas",
+        "Visión borrosa por cicloplejía y midriasis",
+        "Taquicardia",
+        "Retención urinaria y estreñimiento"
+      ],
+      "graves": [
+        "DELIRIO ANTICOLINÉRGICO: agitación, alucinaciones visuales, desorientación (rojo, seco, caliente, ciego y loco)",
+        "HIPERTERMIA por bloqueo de la sudoración, especialmente peligrosa en el niño y en ambiente caluroso",
+        "GLAUCOMA AGUDO de ángulo cerrado",
+        "Taquiarritmias e isquemia miocárdica en el cardiópata",
+        "BRADICARDIA PARADÓJICA con dosis demasiado BAJAS (por debajo de 0,5 mg en el adulto), por efecto agonista central paradójico"
+      ]
+    },
+    "contraindicaciones": [
+      "En la emergencia (bradicardia inestable, intoxicación colinérgica) NO hay contraindicaciones absolutas",
+      "Uso electivo: glaucoma de ángulo estrecho, hipertrofia prostática con retención, miastenia gravis, megacolon y taquiarritmias"
+    ],
+    "perlas": [
+      "La regla de la DOSIS MÍNIMA: por debajo de 0,5 mg en el adulto puede producir BRADICARDIA PARADÓJICA por un efecto agonista central. Por eso nunca se dan dosis menores, y en el niño se respeta un mínimo absoluto de 0,1 mg por muy pequeño que sea.",
+      "En la intoxicación por ORGANOFOSFORADOS, el parámetro que guía la dosificación es la AUSCULTACIÓN PULMONAR, no la frecuencia cardiaca ni las pupilas: el objetivo es secar el árbol bronquial, porque el paciente muere ahogado en sus propias secreciones. Con ese criterio se llegan a necesitar decenas o cientos de miligramos, cifras que asustan si se piensa en las dosis de la bradicardia.",
+      "La atropina NO corrige los efectos NICOTÍNICOS de los organofosforados: la debilidad muscular, las fasciculaciones y la parálisis diafragmática necesitan PRALIDOXIMA, que reactiva la colinesterasa antes de que envejezca de forma irreversible. Por eso ambos antídotos son complementarios, no alternativos.",
+      "En la bradicardia por BLOQUEO AURICULOVENTRICULAR DE GRADO AVANZADO su eficacia es escasa, porque el problema está por debajo del nodo, donde el tono vagal apenas influye. Insistir con más atropina retrasa lo que realmente hace falta: el marcapasos.",
+      "El síndrome anticolinérgico se recuerda con una descripción clásica: rojo como una remolacha, seco como un hueso, caliente como el infierno, ciego como un topo y loco como una cabra.",
+      "En el LACTANTE el gasto cardiaco depende críticamente de la frecuencia, porque su volumen sistólico es poco modificable: por eso la bradicardia se trata con decisión, aunque en el niño la primera causa a corregir sea siempre la HIPOXIA, no el tono vagal.",
+      "En la intoxicación grave por organofosforados liposolubles el paciente puede recaer DÍAS después por redistribución desde el tejido graso: la retirada de la perfusión debe ser progresiva y vigilada."
+    ],
+    "embarazo_lactancia": "Puede utilizarse en el embarazo cuando está indicada en la emergencia; atraviesa la placenta y puede producir taquicardia fetal. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 8; Harrison 20.ª ed., caps. de bradiarritmias e intoxicaciones"
+  }
+]

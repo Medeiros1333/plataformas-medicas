@@ -1,0 +1,281 @@
+[
+  {
+    "id": "PED-NML-salbutamol",
+    "nombre": "Salbutamol (pediatría)",
+    "sinonimos": [
+      "Albuterol"
+    ],
+    "area": "NML",
+    "nivel": 1,
+    "clase": "Agonista beta2-adrenérgico de acción corta (SABA)",
+    "subclase": "Broncodilatador de rescate",
+    "mecanismo": "Estimula selectivamente los receptores beta2 del músculo liso bronquial, activando la adenilato ciclasa y aumentando el AMPc, lo que produce relajación del músculo liso y broncodilatación en minutos. La selectividad beta2 se PIERDE al aumentar la dosis, momento en que aparecen los efectos beta1 (taquicardia) y los metabólicos (temblor, hipopotasemia por entrada de potasio a la célula, hiperglucemia y acidosis láctica).",
+    "espectro": null,
+    "dosis_pediatrica_base": "Inhalador presurizado con cámara: 2-10 pulsaciones de 100 µg según gravedad (regla práctica: 1 pulsación por cada 3 kg, con mínimo 2 y máximo 10). Nebulizado: 0,15 mg/kg/dosis (mínimo 2,5 mg, máximo 5 mg)",
+    "dosis_maxima": "10 pulsaciones o 5 mg nebulizados por dosis; en la crisis grave puede repetirse cada 20 minutos durante la primera hora o administrarse de forma continua",
+    "presentaciones": [
+      "Inhalador presurizado 100 µg/pulsación",
+      "Solución para nebulizar 5 mg/mL",
+      "Ampollas para nebulizar 2,5 mg/2,5 mL",
+      "Jarabe 2 mg/5 mL (NO recomendado)"
+    ],
+    "edad_minima": "Desde el nacimiento en indicaciones específicas; la respuesta broncodilatadora es escasa o nula en el menor de 12 meses",
+    "franjas_edad": [
+      {
+        "franja": "Menor de 12 meses (bronquiolitis)",
+        "ajuste": "NO indicado de forma sistemática: el músculo liso bronquial está poco desarrollado y la obstrucción de la bronquiolitis es por moco y edema, no por broncoespasmo"
+      },
+      {
+        "franja": "1-4 años",
+        "ajuste": "Inhalador presurizado con cámara y MASCARILLA facial; 2-6 pulsaciones según gravedad"
+      },
+      {
+        "franja": "≥4-5 años",
+        "ajuste": "Inhalador presurizado con cámara y BOQUILLA; 2-10 pulsaciones"
+      },
+      {
+        "franja": "Adolescente",
+        "ajuste": "Dosis de adulto: 2-10 pulsaciones o 2,5-5 mg nebulizados"
+      }
+    ],
+    "peculiaridad_pediatrica": "El punto más importante y peor aplicado: el INHALADOR PRESURIZADO CON CÁMARA ESPACIADORA es tan eficaz o MÁS eficaz que la nebulización en la crisis asmática del niño, con menos efectos adversos (menos taquicardia e hipoxemia transitoria), menor coste, menor tiempo de administración y sin generar aerosoles. La nebulización debe reservarse a la crisis muy grave o al niño incapaz de coordinar con la cámara. Además, en el MENOR DE 12 MESES con bronquiolitis el salbutamol NO está indicado de forma sistemática: no modifica el curso, la estancia ni la necesidad de ingreso, porque la obstrucción es por moco y edema y no por broncoespasmo.",
+    "indicaciones": [
+      {
+        "patologia": "Crisis asmática (rescate)",
+        "dosis": "2-10 pulsaciones de 100 µg con cámara",
+        "posologia": "Cada 20 min durante la primera hora, después según respuesta",
+        "via": "inhalada",
+        "nota": "Reevaluar tras cada tanda; si la respuesta es insuficiente, añadir bromuro de ipratropio y corticoide sistémico"
+      },
+      {
+        "patologia": "Asma: alivio de síntomas y prevención del broncoespasmo por ejercicio",
+        "dosis": "2 pulsaciones",
+        "posologia": "A demanda, o 10-15 min antes del ejercicio",
+        "via": "inhalada",
+        "nota": "Necesitar el rescate más de 2 veces por semana indica MAL CONTROL y obliga a revisar el tratamiento de fondo, no a repetir el rescate"
+      },
+      {
+        "patologia": "Hiperpotasemia (medida coadyuvante)",
+        "dosis": "2,5-5 mg nebulizados",
+        "posologia": "Dosis única, repetible",
+        "via": "nebulizada",
+        "nota": "Introduce potasio en la célula; es una medida temporal que no elimina potasio del organismo"
+      },
+      {
+        "patologia": "Bronquiolitis aguda",
+        "dosis": "2-4 pulsaciones de 100 µg con cámara (prueba terapéutica única)",
+        "posologia": "Dosis única con evaluación de respuesta",
+        "via": "inhalada",
+        "nota": "NO se recomienda de forma sistemática. Si se prueba y no hay respuesta objetiva, NO se debe continuar"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la crisis: oxígeno si la saturación es <92%, salbutamol con cámara y corticoide sistémico precoz si la crisis es moderada o grave. La técnica inhalatoria debe COMPROBARSE, no suponerse.",
+      "titulacion": "Se ajusta por respuesta clínica (trabajo respiratorio, saturación, auscultación), no por una pauta fija: tandas cada 20 minutos en la primera hora y después espaciando.",
+      "duracion": "Días en la crisis, con reducción progresiva de la frecuencia. En el asma estable, solo a demanda.",
+      "fin": "Se espacia progresivamente según mejora. El uso de rescate debe tender a cero: un consumo alto de salbutamol es un marcador de riesgo de crisis grave y de mortalidad por asma.",
+      "via": "Inhalada con CÁMARA ESPACIADORA (de elección) o nebulizada.",
+      "monitorizacion": "Frecuencia cardiaca, saturación de oxígeno, trabajo respiratorio. Potasio y glucemia en la crisis grave con dosis repetidas o nebulización continua."
+    },
+    "farmacocinetica": {
+      "absorcion": "Por vía inhalada, solo el 10-20% alcanza el pulmón (más con cámara y buena técnica); el resto se deglute y sufre primer paso hepático.",
+      "distribucion": "Acción local en la vía aérea; el efecto sistémico depende de la fracción absorbida.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "3-6 h; inicio de acción en 5 minutos y duración de 4-6 h.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Corticoides sistémicos y diuréticos",
+          "efecto": "HIPOPOTASEMIA aditiva, relevante en la crisis grave con dosis repetidas",
+          "gravedad": "alta",
+          "manejo": "Controlar el potasio en la crisis grave tratada con nebulización continua y corticoides"
+        },
+        {
+          "con": "Betabloqueantes no selectivos",
+          "efecto": "Antagonizan su efecto broncodilatador y pueden desencadenar broncoespasmo",
+          "gravedad": "alta",
+          "manejo": "Evitar los betabloqueantes no selectivos en el niño asmático"
+        },
+        {
+          "con": "Teofilina",
+          "efecto": "Taquicardia y arritmias aditivas",
+          "gravedad": "media",
+          "manejo": "Monitorizar frecuencia cardiaca"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "TEMBLOR fino distal",
+        "TAQUICARDIA",
+        "Nerviosismo, agitación e hiperactividad (muy llamativa en el niño pequeño y motivo frecuente de alarma familiar)",
+        "Cefalea",
+        "Tos irritativa con la inhalación"
+      ],
+      "graves": [
+        "HIPOPOTASEMIA con dosis altas repetidas",
+        "Hiperglucemia y acidosis láctica en la crisis grave",
+        "Arritmias",
+        "Hipoxemia transitoria por alteración de la relación ventilación-perfusión al inicio del tratamiento",
+        "Broncoespasmo paradójico (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad al salbutamol",
+      "Precaución en cardiopatía, hipertiroidismo e hipopotasemia previa"
+    ],
+    "perlas": [
+      "Cámara espaciadora SIEMPRE: es igual o más eficaz que el nebulizador en la crisis asmática infantil, con menos efectos adversos y menor coste. Nebulizar por costumbre es peor medicina.",
+      "Con mascarilla facial hasta los 4 años y con boquilla a partir de los 4-5: usar la interfaz equivocada reduce drásticamente el depósito pulmonar.",
+      "La técnica inhalatoria debe COMPROBARSE en cada visita haciendo que el niño y el cuidador la realicen delante del médico: la mayoría de los «fracasos del tratamiento» del asma infantil son en realidad fallos de técnica.",
+      "En la BRONQUIOLITIS del lactante, el salbutamol no funciona: la obstrucción es por moco, edema y detritos, no por broncoespasmo. El tratamiento es de soporte (oxígeno, hidratación, aspiración de secreciones).",
+      "La hiperactividad y el temblor tras el salbutamol asustan mucho a las familias: advertirlo por anticipado evita consultas urgentes y abandonos del tratamiento.",
+      "El consumo elevado de salbutamol de rescate (más de un envase al mes) es uno de los marcadores más potentes de riesgo de crisis grave y de muerte por asma: obliga a revisar el tratamiento de fondo, no a renovar la receta."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la gestante asmática es seguro y su uso es preferible al asma mal controlada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 20 y 59; AMIR Pediatría; Harrison 20.ª ed., cap. de asma"
+  },
+  {
+    "id": "PED-URG-adrenalina",
+    "nombre": "Adrenalina (pediatría)",
+    "sinonimos": [
+      "Epinefrina"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Catecolamina agonista alfa y beta adrenérgico",
+    "subclase": "Fármaco de primera línea de la anafilaxia y de la parada cardiaca",
+    "mecanismo": "Agonista no selectivo alfa1, beta1 y beta2. En la ANAFILAXIA cada acción resuelve un componente del cuadro: el efecto ALFA1 produce vasoconstricción que revierte la hipotensión y el edema de mucosas (incluido el laríngeo); el BETA1 aumenta la frecuencia y la contractilidad; y el BETA2 broncodilata y ESTABILIZA LOS MASTOCITOS, frenando la liberación adicional de mediadores. Ningún otro fármaco cubre los tres frentes: por eso los antihistamínicos y los corticoides NO la sustituyen.",
+    "espectro": null,
+    "dosis_pediatrica_base": "ANAFILAXIA: 0,01 mg/kg IM de la solución 1 mg/mL (1:1000), máximo 0,5 mg. PARADA CARDIACA: 0,01 mg/kg IV/IO de la solución 0,1 mg/mL (1:10 000), máximo 1 mg",
+    "dosis_maxima": "0,5 mg por dosis IM en la anafilaxia; 1 mg por dosis IV/IO en la parada cardiaca",
+    "presentaciones": [
+      "Ampolla 1 mg/mL (1:1000) para uso IM",
+      "Jeringa precargada 0,1 mg/mL (1:10 000) para uso IV",
+      "Autoinyector 0,15 mg (niños 7,5-25 kg) y 0,3 mg (>25 kg)",
+      "Ampollas para nebulizar (crup)"
+    ],
+    "edad_minima": "Desde el nacimiento",
+    "franjas_edad": [
+      {
+        "franja": "Lactante y niño <7,5 kg",
+        "ajuste": "0,01 mg/kg IM calculado con ampolla 1:1000; no hay autoinyector adecuado a este peso"
+      },
+      {
+        "franja": "7,5-25 kg",
+        "ajuste": "Autoinyector de 0,15 mg IM"
+      },
+      {
+        "franja": ">25 kg",
+        "ajuste": "Autoinyector de 0,3 mg IM"
+      },
+      {
+        "franja": "Adolescente >50 kg",
+        "ajuste": "0,3-0,5 mg IM (dosis de adulto)"
+      }
+    ],
+    "peculiaridad_pediatrica": "El problema pediátrico central de la adrenalina NO es la dosis sino el RETRASO EN ADMINISTRARLA: en las muertes por anafilaxia en niños y adolescentes, el factor común es que la adrenalina se administró tarde o no se administró, sustituida por antihistamínicos y corticoides. La segunda peculiaridad es el DISPOSITIVO: existen dos concentraciones (1:1000 para IM y 1:10 000 para IV) y confundirlas puede ser mortal; en pediatría, además, el peso del niño determina el autoinyector, y muchos lactantes pequeños quedan por debajo del rango de los dispositivos comerciales, por lo que la familia necesita instrucciones específicas. Toda prescripción de autoinyector debe incluir DOS dispositivos, un plan de acción por escrito y el entrenamiento práctico de la familia y del colegio.",
+    "indicaciones": [
+      {
+        "patologia": "Anafilaxia",
+        "dosis": "0,01 mg/kg (máx. 0,5 mg) de la solución 1:1000",
+        "posologia": "IM en la cara ANTEROLATERAL DEL MUSLO, repetible cada 5-15 min",
+        "via": "IM",
+        "nota": "Es el tratamiento de PRIMERA línea y no tiene contraindicaciones absolutas en la anafilaxia. Tumbar al paciente con las piernas elevadas; NUNCA sentarlo o ponerlo de pie bruscamente"
+      },
+      {
+        "patologia": "Parada cardiorrespiratoria",
+        "dosis": "0,01 mg/kg (máx. 1 mg) de la solución 1:10 000",
+        "posologia": "IV o intraósea cada 3-5 minutos",
+        "via": "IV/intraósea",
+        "nota": "En los ritmos no desfibrilables se administra lo antes posible; en los desfibrilables, tras la tercera descarga"
+      },
+      {
+        "patologia": "Crup (laringitis) moderado-grave con estridor en reposo",
+        "dosis": "0,5 mg/kg de adrenalina al 1:1000 (máx. 5 mg) diluida en suero salino",
+        "posologia": "Nebulizada, repetible",
+        "via": "nebulizada",
+        "nota": "Efecto rápido pero TRANSITORIO (2 h): el niño debe permanecer en observación al menos 2-3 h por el riesgo de rebote. Asociar SIEMPRE dexametasona oral"
+      },
+      {
+        "patologia": "Bradicardia sintomática refractaria a oxigenación y ventilación",
+        "dosis": "0,01 mg/kg",
+        "posologia": "IV/intraósea",
+        "via": "IV/intraósea",
+        "nota": "En pediatría la bradicardia es casi siempre HIPÓXICA: la primera medida es oxigenar y ventilar, no el fármaco"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la anafilaxia, INMEDIATO ante la sospecha: no esperar a que aparezca hipotensión ni a completar la valoración. La vía es INTRAMUSCULAR en el vasto lateral del muslo, que alcanza concentraciones más rápidas y altas que la vía subcutánea o que la inyección en el deltoides.",
+      "titulacion": "Repetir cada 5-15 minutos si no hay respuesta. Si se precisan más de 2 dosis, valorar perfusión IV en un entorno monitorizado.",
+      "duracion": "Dosis puntuales; perfusión continua solo en shock refractario y con monitorización.",
+      "fin": "Tras la resolución, mantener OBSERVACIÓN 6-12 h por el riesgo de reacción BIFÁSICA (recurrencia sin nueva exposición, en el 5-20% de los casos), y prescribir al alta autoinyectores y plan de acción.",
+      "via": "IM (anafilaxia), IV/intraósea (parada, shock), nebulizada (crup).",
+      "monitorizacion": "Monitorización continua de frecuencia cardiaca, presión arterial, saturación y estado respiratorio. Vigilancia prolongada por la posible reacción bifásica."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM en el muslo: pico en 5-10 minutos. La vía SUBCUTÁNEA es más lenta y errática, sobre todo en el paciente hipotenso con vasoconstricción periférica, y NO debe usarse en la anafilaxia.",
+      "distribucion": "Rápida y amplia.",
+      "metabolismo": "Muy rápido, por la COMT y la MAO.",
+      "eliminacion": "Renal, como metabolitos inactivos.",
+      "vida_media": "2-3 minutos: de ahí la necesidad de repetir las dosis y de perfusión continua en el shock mantenido.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Pueden hacer que la anafilaxia sea REFRACTARIA a la adrenalina, al bloquear sus receptores beta; además dejan la acción alfa sin oposición, con hipertensión y bradicardia paradójicas",
+          "gravedad": "alta",
+          "manejo": "En el paciente betabloqueado con anafilaxia refractaria, el fármaco de rescate es el GLUCAGÓN, que actúa por una vía independiente de los receptores beta"
+        },
+        {
+          "con": "Antidepresivos tricíclicos e IMAO",
+          "efecto": "Potencian su efecto presor y arritmogénico",
+          "gravedad": "alta",
+          "manejo": "Monitorización estrecha"
+        },
+        {
+          "con": "Anestésicos halogenados",
+          "efecto": "Sensibilizan el miocardio y facilitan arritmias ventriculares",
+          "gravedad": "alta",
+          "manejo": "Precaución en quirófano"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Palidez, temblor, palpitaciones y ansiedad (esperables y transitorios, y NO son motivo para no administrarla)",
+        "Cefalea",
+        "Taquicardia",
+        "Náuseas"
+      ],
+      "graves": [
+        "Arritmias ventriculares",
+        "Isquemia miocárdica (excepcional en el niño sano)",
+        "Crisis hipertensiva",
+        "Edema agudo de pulmón por sobredosis IV",
+        "Necrosis tisular por extravasación de la perfusión"
+      ]
+    },
+    "contraindicaciones": [
+      "NINGUNA en la anafilaxia: es una situación de riesgo vital y no existe contraindicación absoluta",
+      "Precaución en la administración IV, que se reserva a la parada cardiaca y al shock refractario monitorizado"
+    ],
+    "perlas": [
+      "En la anafilaxia NO hay contraindicaciones para la adrenalina: el riesgo de administrarla es infinitamente menor que el de no hacerlo. El error mortal no es el exceso de adrenalina, sino el retraso.",
+      "Los ANTIHISTAMÍNICOS y los CORTICOIDES no son tratamiento de la anafilaxia: los antihistamínicos alivian el prurito y la urticaria, y los corticoides pueden reducir la reacción bifásica, pero NINGUNO revierte el edema laríngeo, el broncoespasmo ni el shock. Nunca deben retrasar la adrenalina.",
+      "Vía IM en el MUSLO (vasto lateral), no subcutánea ni en el deltoides: la concentración plasmática alcanzada es sustancialmente mayor y más rápida.",
+      "Nunca poner de pie ni sentar bruscamente a un paciente con anafilaxia: se han descrito paradas cardiacas por «síndrome del ventrículo vacío» al perder el retorno venoso. Debe estar tumbado con las piernas elevadas (o sentado si predomina la disnea, pero nunca incorporado de golpe).",
+      "Confundir las concentraciones 1:1000 (IM) y 1:10 000 (IV) es un error clásico y potencialmente mortal: hay que verbalizar siempre en voz alta la concentración y la vía.",
+      "Se prescriben DOS autoinyectores, no uno: hasta un 20% de las anafilaxias requiere una segunda dosis, y el dispositivo puede fallar o usarse mal.",
+      "En el niño betabloqueado (poco frecuente, pero existe en cardiopatías) con anafilaxia refractaria, el rescate es el GLUCAGÓN.",
+      "En el crup, la adrenalina nebulizada mejora en minutos pero el efecto dura ~2 horas: dar de alta antes de ese plazo expone a un rebote del estridor."
+    ],
+    "embarazo_lactancia": "No aplica en el paciente pediátrico. En la gestante con anafilaxia, la adrenalina se administra igualmente sin restricciones.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 9 y 59; AMIR Pediatría; Harrison 20.ª ed., cap. de anafilaxia"
+  }
+]

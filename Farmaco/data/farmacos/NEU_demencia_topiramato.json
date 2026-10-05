@@ -1,0 +1,261 @@
+[
+  {
+    "id": "NEU-antidemencia",
+    "nombre": "Donepezilo, rivastigmina, galantamina y memantina",
+    "sinonimos": [
+      "Anticolinesterásicos y antagonista NMDA"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antidemencia",
+    "subclase": "Inhibidores de la acetilcolinesterasa y antagonista no competitivo del receptor NMDA",
+    "mecanismo": "Los ANTICOLINESTERÁSICOS parten de la observación de que en la enfermedad de Alzheimer degeneran precozmente las neuronas colinérgicas del núcleo basal de Meynert, que proyectan a la corteza y al hipocampo: al inhibir la acetilcolinesterasa aumentan la acetilcolina disponible en la sinapsis y mejoran transitoriamente la cognición. NO modifican la enfermedad ni frenan la neurodegeneración: compensan un déficit de neurotransmisor mientras queden neuronas que lo produzcan, y por eso su efecto se agota a medida que avanza la enfermedad. La MEMANTINA actúa por otra vía: bloquea de forma no competitiva y con baja afinidad el receptor NMDA, reduciendo la excitotoxicidad crónica por glutamato sin impedir la señalización fisiológica necesaria para el aprendizaje, que requiere activaciones intensas y breves. Esa baja afinidad, que permite que el receptor siga funcionando cuando hace falta, es la clave de su tolerabilidad.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ENFERMEDAD DE ALZHEIMER leve-moderada",
+        "dosis": "Donepezilo 5 mg al día durante 4 semanas y después 10 mg al día, en toma NOCTURNA",
+        "posologia": "Una toma diaria por la noche",
+        "via": "VO",
+        "dosis_objetivo": "Estabilización o enlentecimiento del deterioro cognitivo y funcional, valorado a los 3-6 meses",
+        "nota": "El beneficio es MODESTO: unos meses de estabilización. Hay que explicarlo con honestidad para que la familia no espere una recuperación"
+      },
+      {
+        "patologia": "Enfermedad de Alzheimer moderada-grave",
+        "dosis": "Memantina 5 mg al día con ascenso semanal hasta 20 mg al día, sola o ASOCIADA al anticolinesterásico",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La combinación de ambos es una estrategia habitual en fases moderadas-graves; los mecanismos son complementarios"
+      },
+      {
+        "patologia": "Demencia por CUERPOS DE LEWY y demencia de la enfermedad de Parkinson",
+        "dosis": "Rivastigmina 1,5 mg cada 12 horas con ascenso hasta 6 mg cada 12 horas, o parche transdérmico de 4,6-13,3 mg/24 h",
+        "posologia": "Dos tomas al día o un parche diario",
+        "via": "transdérmica",
+        "nota": "Aquí el beneficio es MAYOR que en el Alzheimer, sobre todo sobre las ALUCINACIONES VISUALES y la fluctuación de la atención: es la demencia que mejor responde"
+      },
+      {
+        "patologia": "Demencia VASCULAR y demencia mixta",
+        "dosis": "Donepezilo 10 mg al día o memantina 20 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Beneficio menor y menos establecido; lo esencial es el control de los factores de riesgo vascular"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar el diagnóstico y descartar causas reversibles (déficit de B12, hipotiroidismo, depresión, fármacos anticolinérgicos, hidrocefalia). Frecuencia cardiaca y ECG basal antes del anticolinesterásico.",
+      "titulacion": "Ascenso mensual para minimizar los efectos digestivos y colinérgicos. La rivastigmina en PARCHE tiene mucha mejor tolerancia digestiva que la oral.",
+      "duracion": "Mientras haya beneficio clínico o funcional apreciable, revaluado cada 6 meses.",
+      "fin": "Se retira cuando la enfermedad es tan avanzada que el fármaco ya no aporta nada, y la retirada debe ser GRADUAL: la suspensión brusca puede producir un empeoramiento cognitivo agudo.",
+      "via": "Oral o transdérmica (rivastigmina).",
+      "monitorizacion": "Frecuencia cardiaca (bradicardia), peso (pérdida de peso frecuente e infravalorada), tolerancia digestiva y valoración cognitiva y funcional cada 6 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el parche de rivastigmina evita el pico plasmático responsable de las náuseas.",
+      "distribucion": "Atraviesan la barrera hematoencefálica.",
+      "metabolismo": "Donepezilo y galantamina por CYP2D6 y CYP3A4; la rivastigmina apenas se metaboliza por el citocromo, lo que la libera de interacciones.",
+      "eliminacion": "Renal.",
+      "vida_media": "Donepezilo 70 horas (permite una toma diaria); memantina 60-100 horas.",
+      "ajuste_renal": "REDUCIR la MEMANTINA a 10 mg al día con filtrado de 30-49 mL/min: se elimina por vía renal y su acumulación produce confusión, que es exactamente el síntoma que se pretende tratar.",
+      "ajuste_hepatico": "Reducir donepezilo y galantamina.",
+      "interacciones": [
+        {
+          "con": "FÁRMACOS ANTICOLINÉRGICOS (antihistamínicos de primera generación, oxibutinina, tricíclicos, antiespasmódicos)",
+          "efecto": "ANTAGONISMO DIRECTO: anulan el efecto del anticolinesterásico y empeoran la cognición",
+          "gravedad": "alta",
+          "manejo": "Es la contradicción más frecuente y absurda de la prescripción geriátrica: dar un anticolinesterásico para la memoria y a la vez oxibutinina para la incontinencia. Revisar y retirar la carga anticolinérgica es a menudo más eficaz que el propio fármaco"
+        },
+        {
+          "con": "BETABLOQUEANTES, digoxina y verapamilo",
+          "efecto": "BRADICARDIA grave, bloqueo y SÍNCOPE",
+          "gravedad": "alta",
+          "manejo": "Es una causa reconocida de caídas, fracturas y de implante innecesario de marcapasos en el anciano"
+        },
+        {
+          "con": "Succinilcolina y anestesia",
+          "efecto": "Prolongación del bloqueo neuromuscular",
+          "gravedad": "alta",
+          "manejo": "Avisar al anestesista antes de una cirugía"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Mayor riesgo de úlcera y hemorragia digestiva por la hipersecreción ácida colinérgica",
+          "gravedad": "media",
+          "manejo": "Evitar o asociar protección gástrica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS, vómitos, diarrea y anorexia (efectos colinérgicos, dosis-dependientes y máximos al subir la dosis)",
+        "PÉRDIDA DE PESO, frecuente e infravalorada en un paciente que ya está en riesgo nutricional",
+        "Calambres musculares e insomnio o sueños vívidos",
+        "Bradicardia",
+        "MEMANTINA: mareo, cefalea y confusión (mejor tolerada en conjunto)"
+      ],
+      "graves": [
+        "BRADICARDIA sintomática, bloqueo auriculoventricular y SÍNCOPE con caídas y fracturas",
+        "Crisis comiciales",
+        "Hemorragia digestiva por hipersecreción ácida",
+        "Síndrome colinérgico en sobredosis",
+        "Empeoramiento del asma y de la EPOC por broncoconstricción",
+        "Agravamiento de la obstrucción urinaria"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia significativa, bloqueo auriculoventricular y enfermedad del seno sin marcapasos",
+      "Asma y EPOC graves (anticolinesterásicos)",
+      "Úlcera péptica activa",
+      "Obstrucción urinaria",
+      "Insuficiencia renal grave para la memantina sin ajuste"
+    ],
+    "perlas": [
+      "La contradicción terapéutica más común en geriatría: prescribir un ANTICOLINESTERÁSICO para la memoria mientras el paciente toma OXIBUTININA para la incontinencia, un antihistamínico de primera generación para dormir o un tricíclico para el dolor. Se están dando dos fármacos que se anulan. Revisar y retirar la carga anticolinérgica de la lista suele mejorar la cognición más que añadir cualquier fármaco.",
+      "El beneficio es MODESTO y hay que decirlo con honestidad: unos meses de estabilización, no una recuperación. Una expectativa mal fijada convierte un resultado normal en una decepción y hace que la familia abandone el seguimiento.",
+      "La BRADICARDIA y el SÍNCOPE son la toxicidad que más daño real causa: caídas, fracturas de cadera e incluso implantes de marcapasos que no habrían hecho falta. Hay que tomar el pulso en cada revisión y hacer un ECG antes de empezar.",
+      "En la demencia por CUERPOS DE LEWY funcionan MEJOR que en el Alzheimer, especialmente sobre las alucinaciones visuales y la fluctuación de la atención. Y esto importa el doble porque en esos pacientes los ANTIPSICÓTICOS están contraindicados: el anticolinesterásico es la herramienta que sí se puede usar.",
+      "La MEMANTINA se elimina por el RIÑÓN, y en el anciano con filtrado bajo se acumula y produce CONFUSIÓN, que es exactamente el síntoma que se quería tratar. Un paciente que empeora tras subir la memantina puede estar intoxicado, no progresando.",
+      "La retirada debe ser GRADUAL: suspender bruscamente un anticolinesterásico puede producir un empeoramiento cognitivo brusco que a veces no se recupera al reintroducirlo.",
+      "La PÉRDIDA DE PESO se olvida sistemáticamente y en un anciano con demencia es un problema de primer orden. Hay que pesar al paciente en cada revisión, y a veces la respuesta correcta es retirar el fármaco.",
+      "El PARCHE de rivastigmina resuelve buena parte de la intolerancia digestiva al evitar el pico plasmático, y además simplifica la administración en un paciente que puede no colaborar con la vía oral.",
+      "Antes de diagnosticar una demencia hay que descartar lo REVERSIBLE: déficit de vitamina B12, hipotiroidismo, depresión (pseudodemencia), hidrocefalia normotensiva y, sobre todo, FÁRMACOS. La revisión de la medicación es la intervención más rentable de toda la consulta de memoria."
+    ],
+    "embarazo_lactancia": "No aplicable en la práctica por la población a la que se dirigen. No hay datos y no se recomiendan en el embarazo ni en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 7; guías NICE sobre demencia"
+  },
+  {
+    "id": "NEU-topiramato",
+    "nombre": "Topiramato",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Mecanismo múltiple; también profiláctico de la migraña",
+    "vs_clase": [
+      "**Antiepiléptico que además PREVIENE LA MIGRAÑA** y produce **pérdida de peso**.",
+      "**Efectos cognitivos** (dificultad para encontrar palabras), parestesias, **litiasis renal**, acidosis metabólica y **glaucoma agudo de ángulo cerrado**.",
+      "**Teratógeno** (fisura labiopalatina) y reduce la eficacia de los anticonceptivos a dosis >200 mg."
+    ],
+    "mecanismo": "Actúa por al menos cuatro vías simultáneas, lo que explica su amplio espectro y también su carga de efectos adversos: bloquea canales de sodio dependientes de voltaje, potencia la acción del GABA sobre el receptor GABA-A en un sitio distinto al de las benzodiazepinas, antagoniza el receptor de glutamato de tipo AMPA y kainato, e inhibe débilmente la ANHIDRASA CARBÓNICA. De esta última acción, aparentemente secundaria, derivan tres de sus efectos adversos característicos y aparentemente inconexos: las PARESTESIAS, la LITIASIS renal (por orina alcalina con hipocitraturia) y la acidosis metabólica; y contribuye también al glaucoma agudo y a la oligohidrosis. Su efecto anorexígeno, mediado en parte por la alteración del gusto y por acción central, es tan constante que se ha aprovechado en combinación como tratamiento de la obesidad.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS de la MIGRAÑA",
+        "dosis": "25 mg por la noche, con ascenso semanal de 25 mg hasta 50-100 mg al día",
+        "posologia": "Una o dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Reducción de al menos el 50% en la frecuencia de las crisis, evaluada tras 2-3 meses",
+        "nota": "Junto con el propranolol es el profiláctico de primera línea. Requiere 2-3 MESES para juzgar la eficacia: retirarlo antes es no haberlo probado"
+      },
+      {
+        "patologia": "EPILEPSIA focal y generalizada, en monoterapia o asociado",
+        "dosis": "25-50 mg al día de inicio, con ascenso hasta 200-400 mg al día en 2 tomas",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "dosis_objetivo": "Control de las crisis con la dosis mínima tolerada cognitivamente",
+        "nota": "Es de amplio espectro: sirve en crisis focales, generalizadas y en el síndrome de Lennox-Gastaut"
+      },
+      {
+        "patologia": "Hipertensión intracraneal idiopática",
+        "dosis": "50-200 mg al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Combina la inhibición de la anhidrasa carbónica con el efecto anorexígeno, y la pérdida de peso es en sí misma terapéutica en esta enfermedad"
+      },
+      {
+        "patologia": "Trastorno por atracón y obesidad (en combinación con fentermina)",
+        "dosis": "Topiramato 23-92 mg al día en combinación fija con fentermina 3,75-15 mg",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Aprovecha como efecto principal lo que en las demás indicaciones es un efecto adverso"
+      }
+    ],
+    "esquema": {
+      "inicio": "Ascenso MUY LENTO (25 mg por semana): la tolerabilidad cognitiva depende directamente de la velocidad de titulación. En la mujer en edad fértil, anticoncepción eficaz y consejo previo.",
+      "titulacion": "Semanal, con la mayor parte de la dosis por la noche. La mayoría de los abandonos ocurren por subir demasiado deprisa.",
+      "duracion": "En la migraña, 6-12 meses y después intentar la retirada. En la epilepsia, prolongada.",
+      "fin": "Retirada gradual.",
+      "via": "Oral.",
+      "monitorizacion": "Bicarbonato sérico, peso, función cognitiva (fluidez verbal y capacidad de encontrar palabras) y síntomas de litiasis. Hidratación abundante."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena y rápida, sin efecto de la comida.",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "Escaso; se elimina mayoritariamente sin metabolizar.",
+      "eliminacion": "RENAL, en un 70% sin modificar.",
+      "vida_media": "20-30 horas.",
+      "ajuste_renal": "REDUCIR la dosis a la mitad con filtrado menor de 70 mL/min.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "ANTICONCEPTIVOS hormonales (a dosis superiores a 200 mg al día)",
+          "efecto": "Reduce las concentraciones de etinilestradiol con riesgo de FALLO ANTICONCEPTIVO",
+          "gravedad": "alta",
+          "manejo": "Especialmente grave porque el topiramato es TERATÓGENO: doble problema en la mujer joven, que es exactamente la población de la profilaxis de la migraña"
+        },
+        {
+          "con": "ACETAZOLAMIDA y otros inhibidores de la anhidrasa carbónica",
+          "efecto": "Acidosis metabólica y LITIASIS renal aditivas",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Fenitoína y carbamazepina",
+          "efecto": "Reducen las concentraciones de topiramato",
+          "gravedad": "media",
+          "manejo": "Prever dosis mayores"
+        },
+        {
+          "con": "METFORMINA y otros fármacos que producen acidosis",
+          "efecto": "Acidosis aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar el bicarbonato"
+        },
+        {
+          "con": "Alcohol y depresores centrales",
+          "efecto": "Suma de sedación y deterioro cognitivo",
+          "gravedad": "media",
+          "manejo": "Advertir al paciente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "PARESTESIAS distales y peribucales, casi constantes y directamente atribuibles a la inhibición de la anhidrasa carbónica",
+        "DETERIORO COGNITIVO: lentitud de pensamiento, dificultad para ENCONTRAR PALABRAS y pérdida de fluidez verbal, lo que le ha valido apodos poco halagadores entre los pacientes",
+        "PÉRDIDA DE PESO y anorexia",
+        "Alteración del GUSTO, sobre todo de las bebidas carbonatadas",
+        "Somnolencia y mareo"
+      ],
+      "graves": [
+        "GLAUCOMA AGUDO de ángulo cerrado por efusión ciliocoroidea, en las primeras SEMANAS de tratamiento y en ojos sin predisposición anatómica previa: es una urgencia oftalmológica que obliga a suspenderlo",
+        "LITIASIS RENAL (en torno al 1,5% de los pacientes)",
+        "ACIDOSIS METABÓLICA hiperclorémica",
+        "OLIGOHIDROSIS con golpe de calor, sobre todo en NIÑOS y en climas cálidos",
+        "TERATOGENIA: labio leporino, paladar hendido y bajo peso al nacer",
+        "Depresión e ideación suicida"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO para la profilaxis de la migraña (indicación no vital con fármaco teratógeno)",
+      "Antecedente de litiasis renal (relativa)",
+      "Glaucoma de ángulo cerrado",
+      "Acidosis metabólica",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "Todo lo que parece inconexo en sus efectos adversos se ordena desde un solo mecanismo: la inhibición de la ANHIDRASA CARBÓNICA. Parestesias, litiasis renal, acidosis metabólica, alteración del sabor de las bebidas con gas y contribución al glaucoma agudo salen todos de ahí. Entendido el mecanismo, la lista se memoriza sola.",
+      "El DETERIORO COGNITIVO es su efecto adverso más limitante y depende de la VELOCIDAD de titulación mucho más que de la dosis final. Subir 25 mg por semana en lugar de 50 cambia por completo la tolerabilidad, y la mayoría de los abandonos son abandonos por titulación apresurada.",
+      "La combinación TERATOGENIA más FALLO ANTICONCEPTIVO es especialmente peligrosa aquí, porque la población típica de la profilaxis de la migraña es la mujer joven en edad fértil. Hay que hablar de anticoncepción ANTES de la primera receta.",
+      "El GLAUCOMA AGUDO por topiramato es distinto del clásico: se produce por efusión ciliocoroidea, aparece en las primeras semanas y ocurre en ojos SIN estrechez anatómica previa. Dolor ocular y visión borrosa en un paciente que acaba de empezar obligan a suspenderlo y a derivar el mismo día.",
+      "La OLIGOHIDROSIS con riesgo de golpe de calor es especialmente relevante en NIÑOS y en verano: un niño que no suda haciendo deporte en agosto puede llegar a la hipertermia. Es una advertencia que hay que dar de forma explícita a las familias.",
+      "En la profilaxis de la migraña hay que esperar 2-3 MESES antes de juzgar la eficacia, y explicarlo desde el principio. Muchos fracasos son en realidad tratamientos abandonados en la cuarta semana.",
+      "La HIDRATACIÓN abundante reduce el riesgo de litiasis y es una recomendación sencilla que casi nunca se da.",
+      "Su efecto ANOREXÍGENO puede ser una ventaja o un problema según el paciente: en la migrañosa con sobrepeso es un beneficio añadido, y en el anciano o en el niño con bajo peso es un motivo para elegir otro fármaco."
+    ],
+    "embarazo_lactancia": "TERATÓGENO: aumenta el riesgo de labio leporino y paladar hendido y de bajo peso al nacer. En la profilaxis de la MIGRAÑA, que no es una indicación vital, está contraindicado en el embarazo y exige anticoncepción eficaz. En la epilepsia, la decisión se individualiza. Se excreta en la leche; se recomienda vigilar la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; guías sobre profilaxis de la migraña y alertas de la AEMPS sobre topiramato en el embarazo"
+  }
+]

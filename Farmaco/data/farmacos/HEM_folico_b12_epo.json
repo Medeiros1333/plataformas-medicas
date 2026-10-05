@@ -1,0 +1,264 @@
+[
+  {
+    "id": "HEM-acido-folico-b12",
+    "nombre": "Ácido fólico y vitamina B12",
+    "sinonimos": [
+      "Folato, cianocobalamina, hidroxocobalamina"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Suplemento hematínico",
+    "subclase": "Vitaminas del complejo B implicadas en la síntesis de ADN",
+    "mecanismo": "Ambas convergen en la misma reacción y por eso su déficit produce la misma anemia. El FOLATO, en forma de metilentetrahidrofolato, cede un grupo metilo para convertir el dUMP en dTMP, es decir, para fabricar TIMIDINA. Sin timidina no se sintetiza ADN, la célula no puede dividirse pero sigue creciendo, y de ahí la MEGALOBLASTOSIS: núcleos inmaduros en células de citoplasma maduro, con hipersegmentación de los neutrófilos y hematopoyesis ineficaz. La VITAMINA B12 es el cofactor de dos reacciones: la metionina sintasa, que regenera el tetrahidrofolato a partir del metiltetrahidrofolato (por eso su déficit produce una TRAMPA DEL FOLATO y una anemia idéntica), y la metilmalonil-CoA mutasa, que NO depende del folato y cuyo fallo acumula ácido metilmalónico y propionato, alterando la síntesis de mielina. Esa segunda reacción, exclusiva de la B12, es la que explica la afectación NEUROLÓGICA y la razón por la que dar folato a un paciente con déficit de B12 corrige la anemia mientras la médula espinal sigue degenerándose.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANEMIA MEGALOBLÁSTICA por déficit de B12 y ANEMIA PERNICIOSA",
+        "dosis": "Hidroxocobalamina 1 mg IM en días alternos durante 1-2 semanas y después 1 mg cada 1-3 MESES de por vida",
+        "posologia": "Intramuscular mensual o trimestral, indefinida",
+        "via": "IM",
+        "dosis_objetivo": "Normalización del hemograma, del ácido metilmalónico y estabilización o mejoría neurológica",
+        "nota": "En la anemia perniciosa el tratamiento es DE POR VIDA: falta el factor intrínseco y eso no se recupera"
+      },
+      {
+        "patologia": "PROFILAXIS PRECONCEPCIONAL de los defectos del tubo neural",
+        "dosis": "Ácido fólico 0,4 mg al día desde al menos 1 MES ANTES de la concepción hasta la semana 12",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Cierre normal del tubo neural, que ocurre en la semana 4, ANTES de que muchas mujeres sepan que están embarazadas",
+        "nota": "5 mg al día si hay antecedente de defecto del tubo neural, diabetes, obesidad, epilepsia con antiepilépticos o malabsorción"
+      },
+      {
+        "patologia": "Suplementación con METOTREXATO",
+        "dosis": "Ácido fólico 5 mg SEMANALES, en un día DISTINTO al del metotrexato",
+        "posologia": "Una toma semanal",
+        "via": "VO",
+        "nota": "Reduce la estomatitis, las náuseas y la toxicidad hepática SIN restar eficacia antirreumática, y es una de las prescripciones acompañantes más rentables"
+      },
+      {
+        "patologia": "Déficit de folato por alcoholismo, malabsorción, hemólisis crónica o embarazo múltiple",
+        "dosis": "Ácido fólico 5 mg al día durante 1-4 meses",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "La respuesta reticulocitaria aparece a los 5-7 días y confirma el diagnóstico"
+      },
+      {
+        "patologia": "Déficit de B12 por metformina, gastrectomía, cirugía bariátrica o vegetarianismo estricto",
+        "dosis": "Cianocobalamina 1000-2000 microgramos al día por VÍA ORAL",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "A dosis altas, entre el 1 y el 2% se absorbe por difusión PASIVA sin necesidad de factor intrínseco: la vía oral funciona incluso en la anemia perniciosa si la adherencia es buena"
+      }
+    ],
+    "esquema": {
+      "inicio": "ANTES de suplementar hay que determinar AMBAS vitaminas. Iniciar folato en un paciente con déficit de B12 no diagnosticado corrige la anemia y ENMASCARA el déficit mientras la degeneración medular progresa.",
+      "titulacion": "Dosis fijas.",
+      "duracion": "De por vida en la anemia perniciosa y en la gastrectomía; limitada en los déficits nutricionales corregibles.",
+      "fin": "Se retira el folato cuando se corrige la causa; la B12 de la anemia perniciosa nunca.",
+      "via": "Oral o intramuscular. La vía ORAL a dosis altas es eficaz incluso sin factor intrínseco, y muchos protocolos la prefieren hoy por comodidad.",
+      "monitorizacion": "Hemograma y reticulocitos a la semana (respuesta reticulocitaria), POTASIO en los primeros días del tratamiento de una anemia megaloblástica grave, y evaluación neurológica."
+    },
+    "farmacocinetica": {
+      "absorcion": "El FOLATO se absorbe en el yeyuno. La B12 requiere un recorrido complejo: ácido gástrico para liberarla del alimento, FACTOR INTRÍNSECO de la célula parietal y receptores en el ÍLEON TERMINAL. Cualquier eslabón roto produce déficit.",
+      "distribucion": "La B12 se almacena en el HÍGADO en cantidad suficiente para 3-5 AÑOS; el FOLATO solo para 3-4 MESES. Por eso el déficit de folato aparece en meses y el de B12 tarda años.",
+      "metabolismo": "Conversión a formas activas (tetrahidrofolato, metilcobalamina y adenosilcobalamina).",
+      "eliminacion": "Renal y biliar, con circulación enterohepática de la B12.",
+      "vida_media": "Depósitos hepáticos de B12 de años.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "METFORMINA",
+          "efecto": "Reduce la absorción ileal de B12 y produce déficit en el 10-30% de los tratados a largo plazo",
+          "gravedad": "media",
+          "manejo": "Determinar B12 periódicamente en el diabético con metformina, sobre todo si aparece neuropatía: se atribuye a la diabetes y puede ser del fármaco"
+        },
+        {
+          "con": "INHIBIDORES DE LA BOMBA DE PROTONES y antiH2",
+          "efecto": "Reducen la liberación de B12 del alimento al suprimir el ácido",
+          "gravedad": "media",
+          "manejo": "Relevante en tratamientos de años, muy frecuentes en el anciano"
+        },
+        {
+          "con": "METOTREXATO, trimetoprim, pirimetamina y fenitoína",
+          "efecto": "Antifolatos: producen déficit funcional de folato",
+          "gravedad": "alta",
+          "manejo": "Suplementar de forma sistemática con metotrexato; recordar que en la toxicidad AGUDA por metotrexato el rescate es con ácido FOLÍNICO, no fólico"
+        },
+        {
+          "con": "ÓXIDO NITROSO (anestesia)",
+          "efecto": "INACTIVA irreversiblemente la B12 oxidando el cobalto: puede precipitar una degeneración medular aguda en el paciente con déficit subclínico",
+          "gravedad": "alta",
+          "manejo": "Es una causa clásica de mielopatía postoperatoria inexplicada, y explica también la mielopatía por consumo recreativo de óxido nitroso, hoy en aumento"
+        },
+        {
+          "con": "Alcohol",
+          "efecto": "Reduce la absorción y los depósitos de folato",
+          "gravedad": "media",
+          "manejo": "Suplementar en el paciente con consumo elevado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Muy bien tolerados",
+        "Molestias digestivas leves",
+        "Dolor en el punto de inyección intramuscular"
+      ],
+      "graves": [
+        "ENMASCARAMIENTO del déficit de B12 por el folato, con progresión de la degeneración medular pese a un hemograma normalizado: es el error clásico y sus secuelas neurológicas pueden ser irreversibles",
+        "HIPOPOTASEMIA GRAVE en los primeros días del tratamiento de una anemia megaloblástica intensa, por consumo masivo de potasio en la eritropoyesis súbita",
+        "Reacciones anafilácticas a la cianocobalamina parenteral (raras)",
+        "Acné y reacciones cutáneas con la B12"
+      ]
+    },
+    "contraindicaciones": [
+      "Iniciar FOLATO solo sin haber descartado un déficit de B12",
+      "Hipersensibilidad a la cobalamina",
+      "Enfermedad de Leber y ambliopía tabaco-alcohol (la cianocobalamina puede agravarlas; usar hidroxocobalamina)"
+    ],
+    "perlas": [
+      "El error clásico y el que más secuelas deja: dar FOLATO a un paciente con déficit de B12. La anemia se corrige, el hemograma se normaliza, todo el mundo se queda tranquilo, y mientras tanto la degeneración combinada subaguda de la médula sigue progresando y puede llegar a ser irreversible. Por eso SIEMPRE se determinan LAS DOS antes de suplementar.",
+      "La razón de esa disociación está en el mecanismo: la B12 tiene DOS funciones, y el folato solo puede sustituirla en UNA. La metilmalonil-CoA mutasa, que interviene en la mielina, no tiene alternativa.",
+      "La VÍA ORAL a dosis altas funciona incluso en la ANEMIA PERNICIOSA: entre el 1 y el 2% se absorbe por difusión pasiva sin factor intrínseco, y 1000-2000 microgramos diarios bastan. Es un cambio de práctica que ahorra inyecciones mensuales de por vida y que muchos clínicos desconocen.",
+      "Los DEPÓSITOS explican los tiempos: el hígado guarda B12 para 3-5 AÑOS y folato solo para 3-4 MESES. Por eso un vegano estricto tarda años en dar la cara y un alcohólico o un paciente con malabsorción se queda sin folato en un trimestre.",
+      "El ÓXIDO NITROSO inactiva la B12 de forma irreversible. Es una causa reconocida de mielopatía tras una anestesia en un paciente con déficit subclínico, y hoy también de mielopatía en jóvenes por consumo recreativo, un cuadro que va en aumento y que se diagnostica tarde porque nadie pregunta.",
+      "La METFORMINA produce déficit de B12 en el 10-30% de los tratados a largo plazo. En un diabético con neuropatía, atribuirla toda a la diabetes sin medir la B12 es perder una causa tratable.",
+      "El ácido fólico preconcepcional hay que empezarlo UN MES ANTES de la concepción, porque el tubo neural se cierra en la semana 4, cuando muchas mujeres aún no saben que están embarazadas. Empezarlo cuando se confirma el embarazo suele ser tarde.",
+      "Hay que vigilar el POTASIO en los primeros días del tratamiento de una anemia megaloblástica grave: la eritropoyesis se dispara y consume potasio con avidez, y se han descrito hipopotasemias graves e incluso muertes.",
+      "El ácido FÓLICO y el ácido FOLÍNICO no son intercambiables: en la toxicidad por metotrexato el rescate es con FOLÍNICO, que entra en la célula por delante del bloqueo enzimático. Confundirlos en una urgencia es un error grave.",
+      "Un déficit de B12 puede presentarse SIN ANEMIA y con macrocitosis mínima, sobre todo si coexiste una ferropenia que la enmascara. Los síntomas neurológicos pueden preceder en meses a cualquier alteración del hemograma."
+    ],
+    "embarazo_lactancia": "El ácido fólico es un suplemento RECOMENDADO en el embarazo y una de las intervenciones preventivas más eficaces que existen. La B12 es segura y necesaria, especialmente en la gestante vegetariana estricta, cuyo lactante puede desarrollar un déficit grave con afectación neurológica.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; guías de la BSH sobre déficit de cobalamina y folato"
+  },
+  {
+    "id": "HEM-eritropoyetina",
+    "nombre": "Agentes estimulantes de la eritropoyesis (epoetina, darbepoetina)",
+    "sinonimos": [
+      "EPO"
+    ],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Factor de crecimiento hematopoyético",
+    "subclase": "Análogos recombinantes de la eritropoyetina",
+    "vs_clase": [
+      "**Estimula la serie ROJA** (eritropoyesis); el G-CSF estimula los neutrófilos.",
+      "**Requiere depósitos de hierro suficientes** (ferritina >100-200, IST >20%) para funcionar.",
+      "**Objetivo de Hb 10-11,5 g/dL, nunca >13**: por encima aumentan la trombosis, el ictus y la HTA."
+    ],
+    "mecanismo": "Reproducen la acción de la eritropoyetina endógena, la hormona que produce el riñón (concretamente los fibroblastos peritubulares) en respuesta a la hipoxia y que estimula la proliferación y la diferenciación de los progenitores eritroides en la médula, impidiendo además su apoptosis. En la ENFERMEDAD RENAL CRÓNICA el déficit es el mecanismo principal de la anemia, y por eso la respuesta es excelente. Pero hay un requisito que se olvida constantemente: para fabricar hematíes hace falta HIERRO, y estimular la médula sin asegurar el aporte férrico produce una ferropenia FUNCIONAL en la que la médula está estimulada pero sin materia prima, y el fármaco no funciona. La DARBEPOETINA lleva cadenas de glúcidos adicionales que prolongan su vida media y permiten administrarla cada 2-4 semanas en lugar de tres veces por semana.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANEMIA de la ENFERMEDAD RENAL CRÓNICA",
+        "dosis": "Epoetina 50-100 UI/kg tres veces por semana, o darbepoetina 0,45 microgramos/kg semanal o cada 2 semanas",
+        "posologia": "Una a tres veces por semana según el preparado",
+        "via": "SC",
+        "dosis_objetivo": "Hemoglobina entre 10 y 12 g/dL: NUNCA normalizarla por encima de 13",
+        "nota": "Los ensayos que buscaron normalizar la hemoglobina (CHOIR, CREATE, TREAT) mostraron MÁS ictus, más trombosis y más mortalidad. El objetivo es corregir los síntomas, no la cifra"
+      },
+      {
+        "patologia": "Anemia inducida por QUIMIOTERAPIA",
+        "dosis": "Epoetina 40.000 UI semanales o darbepoetina 500 microgramos cada 3 semanas",
+        "posologia": "Semanal o cada 3 semanas",
+        "via": "SC",
+        "dosis_objetivo": "Hemoglobina de 10-12 g/dL, con el objetivo de evitar transfusiones",
+        "nota": "Solo en tratamiento con intención PALIATIVA, no curativa: se ha descrito peor supervivencia y progresión tumoral en algunos tumores"
+      },
+      {
+        "patologia": "Síndromes mielodisplásicos de bajo riesgo",
+        "dosis": "Epoetina 30.000-60.000 UI semanales, a menudo con G-CSF",
+        "posologia": "Semanal",
+        "via": "SC",
+        "dosis_objetivo": "Independencia transfusional",
+        "nota": "Predicen buena respuesta una eritropoyetina endógena baja y una escasa necesidad transfusional previa"
+      },
+      {
+        "patologia": "Programa de autotransfusión y anemia perioperatoria",
+        "dosis": "Epoetina 600 UI/kg semanal durante 3 semanas antes de la cirugía, con hierro",
+        "posologia": "Semanal",
+        "via": "SC",
+        "nota": "Forma parte de los programas de gestión de la sangre del paciente, junto con el hierro intravenoso"
+      }
+    ],
+    "esquema": {
+      "inicio": "ANTES de empezar hay que corregir el HIERRO (objetivo de ferritina superior a 100-200 ng/mL y saturación de transferrina superior al 20%) y descartar otras causas: déficit de B12 o folato, hemólisis, sangrado oculto, inflamación e hiperparatiroidismo.",
+      "titulacion": "Ajuste cada 4 semanas, con cambios no superiores al 25%: la respuesta es lenta y sobrecorregir es peligroso.",
+      "duracion": "Indefinida en la enfermedad renal crónica; limitada al periodo de quimioterapia en oncología.",
+      "fin": "Se suspende si la hemoglobina supera los 12-13 g/dL, si no hay respuesta tras 8-12 semanas con hierro adecuado, o si aparece hipertensión no controlable.",
+      "via": "Subcutánea (más eficiente, requiere menos dosis) o intravenosa en el paciente en hemodiálisis.",
+      "monitorizacion": "Hemoglobina cada 2-4 semanas al inicio, TENSIÓN ARTERIAL, y estado del hierro (ferritina y saturación de transferrina) de forma periódica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Subcutánea con biodisponibilidad del 20-30% pero mayor eficiencia por concentraciones más sostenidas.",
+      "distribucion": "Compartimento vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Reticuloendotelial.",
+      "vida_media": "Epoetina 4-13 horas; DARBEPOETINA unas 25 horas subcutáneas, lo que permite administrarla cada 2-4 semanas.",
+      "ajuste_renal": "No requiere ajuste; es su población diana.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "DÉFICIT DE HIERRO",
+          "efecto": "FERROPENIA FUNCIONAL: la médula estimulada consume el hierro disponible y el fármaco deja de funcionar",
+          "gravedad": "alta",
+          "manejo": "Es la causa NÚMERO UNO de resistencia. Hay que asegurar el hierro ANTES y DURANTE, con frecuencia por vía intravenosa en el paciente renal"
+        },
+        {
+          "con": "INFLAMACIÓN e infección activa",
+          "efecto": "La hepcidina secuestra el hierro en los macrófagos y produce resistencia",
+          "gravedad": "alta",
+          "manejo": "Buscar y tratar el foco inflamatorio antes de subir la dosis"
+        },
+        {
+          "con": "IECA y ARA-II",
+          "efecto": "Descritos como posible causa de menor respuesta",
+          "gravedad": "baja",
+          "manejo": "Relevancia clínica limitada"
+        },
+        {
+          "con": "Estados protrombóticos y accesos vasculares",
+          "efecto": "Aumento del riesgo de TROMBOSIS del acceso de diálisis y de eventos tromboembólicos",
+          "gravedad": "alta",
+          "manejo": "No sobrepasar el objetivo de hemoglobina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPERTENSIÓN ARTERIAL, en torno al 20-30% de los pacientes",
+        "Cefalea y síntomas seudogripales tras la inyección",
+        "Dolor en el punto de inyección",
+        "Trombocitosis"
+      ],
+      "graves": [
+        "ICTUS, infarto y TROMBOSIS, sobre todo si se sobrepasa el objetivo de hemoglobina o se corrige demasiado deprisa",
+        "TROMBOSIS del acceso vascular de diálisis",
+        "Crisis HIPERTENSIVAS y encefalopatía con convulsiones",
+        "APLASIA PURA DE SERIE ROJA por anticuerpos neutralizantes anti-eritropoyetina, que anulan también la hormona ENDÓGENA y dejan al paciente dependiente de transfusiones",
+        "Progresión tumoral y menor supervivencia en algunos tumores tratados con intención curativa"
+      ]
+    },
+    "contraindicaciones": [
+      "HIPERTENSIÓN ARTERIAL no controlada",
+      "Antecedente de aplasia pura de serie roja por estos fármacos",
+      "Tumor tratado con intención CURATIVA",
+      "Trombosis reciente (valoración individualizada)"
+    ],
+    "perlas": [
+      "MÁS HEMOGLOBINA NO ES MEJOR, y esta es una de las lecciones más importantes que ha dado la nefrología. Los ensayos que intentaron NORMALIZAR la hemoglobina encontraron más ictus, más trombosis y más mortalidad. El objetivo es 10-12 g/dL: se trata de que el paciente no esté sintomático ni necesite transfusiones, no de que su analítica parezca normal.",
+      "La causa NÚMERO UNO de que no funcione es la FALTA DE HIERRO. Estimular la médula sin materia prima no produce hematíes; produce una ferropenia funcional. Antes de subir la dosis hay que mirar la ferritina y la saturación de transferrina, y en el paciente renal el hierro suele necesitar la vía intravenosa.",
+      "La segunda causa de resistencia es la INFLAMACIÓN: la hepcidina secuestra el hierro en los macrófagos y lo hace inaccesible. Ante un paciente que deja de responder, hay que buscar una infección, una inflamación crónica o un catéter infectado antes que aumentar la dosis.",
+      "La APLASIA PURA DE SERIE ROJA por anticuerpos neutralizantes es rara pero devastadora: los anticuerpos generados contra el fármaco neutralizan también la eritropoyetina ENDÓGENA, dejando al paciente con dependencia transfusional absoluta. Se sospecha ante una caída brusca de la hemoglobina con reticulocitos casi ausentes.",
+      "La HIPERTENSIÓN aparece en hasta un tercio de los pacientes y se debe al aumento de la viscosidad y a la vasoconstricción: hay que medir la tensión antes de cada ajuste, y una hipertensión no controlable es motivo de suspensión.",
+      "En ONCOLOGÍA solo se usan con intención PALIATIVA: en tumores tratados con intención curativa se ha descrito peor supervivencia y progresión, posiblemente por receptores de eritropoyetina en el tumor.",
+      "La corrección debe ser LENTA: subidas superiores a 1-2 g/dL al mes se asocian a más eventos adversos. La prisa aquí no aporta beneficio y sí riesgo.",
+      "Antes de atribuir una anemia a la enfermedad renal hay que descartar lo demás: B12, folato, hierro, hemólisis, sangrado digestivo oculto e hiperparatiroidismo. Etiquetarla de renal sin estudiarla es dejar pasar causas tratables."
+    ],
+    "embarazo_lactancia": "Se emplea en la gestante con enfermedad renal crónica cuando está indicado; no atraviesa la placenta de forma significativa. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; guías KDIGO sobre anemia en la enfermedad renal crónica; ensayos CHOIR, CREATE y TREAT"
+  }
+]

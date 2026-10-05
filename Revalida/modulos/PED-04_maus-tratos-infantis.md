@@ -1,0 +1,505 @@
+## 0. CABEÇALHO
+
+**Código:** PED-04 · **Especialidade:** Pediatria · **Tema:** Maus-tratos infantis · **Assunto:** Reconhecimento clínico/radiológico da síndrome do bebê espancado, abuso sexual infantil e conduta de notificação · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 12 (2011.1-Q40, 2015.1-Q3, 2023.1-Q25, 2012.1-Q76, 2014.1-Q46, 2016.1-Q75, 2021.1-Q2, 2023.1-Q88, 2025.1-Q15, 2025.2-Q23, 2025.1-Q15, 2025.2-Q23) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 85 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29 · **Última atualização:** 2026-08-08
+
+📋 **Nota de consolidação:** este módulo incorporou o código **PED-87** (`tema` "Abuso sexual infantil" no `modulos.json`) — subtema específico de maus-tratos já coberto pelos princípios gerais de notificação deste módulo (mesmo fluxo de notificação ao Conselho Tutelar). PED-87 foi marcado como `"gerado"` apontando para este arquivo, sem `.md` próprio.
+
+---
+
+## 1. TEORIA
+
+Maus-tratos infantis (abuso físico, negligência, abuso sexual, abuso psicológico) são uma das competências éticas/legais mais cobradas do Revalida, porque testam simultaneamente reconhecimento clínico E conduta legal correta — e a banca tem um gabarito muito consistente sobre **quem** deve ser notificado e **quando**.
+
+**Achados clínicos suspeitos de abuso físico [CONSENSO]:**
+- Lesões incompatíveis com o mecanismo relatado (ex.: fratura grave em criança "que caiu do berço" — quedas de baixa altura raramente causam fraturas importantes).
+- Lesões em diferentes estágios de cicatrização (sugerindo eventos repetidos, não um único acidente).
+- Padrões de lesão específicos: equimoses em formato de objeto (cinto, mão), queimaduras em "luva/meia" (imersão forçada), lesões em áreas não usuais para trauma acidental (orelhas, genitália, face interna de coxas).
+- Atraso na busca por atendimento médico após a lesão.
+- Histórias inconsistentes entre cuidadores ou que mudam ao longo do atendimento.
+
+**Achados radiológicos clássicos da síndrome do bebê espancado (abuso físico grave) [CONSENSO]:**
+- **Fraturas metafisárias** ("bucket-handle" ou "corner fracture") — muito específicas de trauma não acidental por mecanismo de tração/torção.
+- **Espessamento periosteal** e lesões osteolíticas.
+- Fraturas em diferentes estágios de consolidação (múltiplas idades).
+- Fraturas de costelas posteriores (muito específicas — raramente ocorrem por acidente ou RCP).
+- Associação com lesões de partes moles compatíveis com trauma (equimoses, coriza mucossanguinolenta por trauma facial repetido, erosões labiais por alimentação forçada).
+
+⚠️ **PEGADINHA DO INEP:** a banca gosta de apresentar um quadro com **achados sugestivos de abuso mas sem menção explícita a "suspeita de maus-tratos"** — o candidato precisa reconhecer o padrão (fratura incompatível com a história, lesões em diferentes estágios, achados radiológicos específicos) sem que isso seja dito literalmente no enunciado.
+
+**Conduta legal diante de suspeita de maus-tratos [CONSENSO, ECA — Estatuto da Criança e do Adolescente]:**
+- **A notificação de suspeita de maus-tratos ao Conselho Tutelar é OBRIGATÓRIA** para o médico, independentemente de confirmação — não é uma denúncia policial nem judicial em primeira instância.
+- A notificação **não** deve ser feita diretamente à polícia ou ao Juizado de Menores como primeira conduta — o fluxo correto passa pelo **Conselho Tutelar**, que é o órgão responsável por acionar as demais instâncias (Ministério Público, Judiciário, polícia) se necessário.
+- A notificação é **compulsória** e a simples suspeita (não é necessário ter certeza/prova) já é suficiente e é dever legal do médico — deixar de notificar é omissão passível de responsabilização.
+- O tratamento das lesões físicas sempre precede/acompanha a notificação — a notificação **complementa** o cuidado clínico, não o substitui.
+
+⚠️ **Distinção que a prova cobra sistematicamente:** notificar ao **Conselho Tutelar** (correto, sempre) ≠ "formalizar denúncia" à polícia ou ao Juizado de Menores (não é o fluxo correto na notificação inicial de suspeita por parte do médico) ≠ apenas "orientar os pais" sem notificar (nunca é conduta adequada diante de suspeita real).
+
+**Abuso sexual infantil — perfil epidemiológico e conduta [CONSENSO]:** o agressor, na grande maioria dos casos, **é pessoa conhecida da criança ou membro da própria família** (não um estranho) — esse dado é epidemiologicamente central e favorece a repetição do abuso, já que a criança tem contato regular e confiança prévia com o agressor. A equipe de saúde **não deve se restringir ao tratamento das lesões físicas/psicológicas** — deve também se envolver ativamente no fluxo de encaminhamento e notificação (Conselho Tutelar), como em qualquer suspeita de maus-tratos.
+
+**Profilaxias específicas diante de abuso sexual [CONSENSO]:** além da notificação obrigatória, a avaliação inclui profilaxia de IST (incluindo HIV, conforme janela de exposição) e, quando a criança **não tem imunidade comprovada contra hepatite B** (anti-HBs negativo ou esquema vacinal incompleto/desconhecido), indica-se **imunoglobulina específica anti-hepatite B em dose única, associada ao início/complementação do esquema vacinal** — mesmo racional de profilaxia pós-exposição usado em outras situações de exposição a fluidos corporais de risco.
+
+### Referências
+1. Estatuto da Criança e do Adolescente (ECA), Lei 8.069/1990, artigos sobre notificação compulsória (art. 13).
+2. Sociedade Brasileira de Pediatria. Guia de Atuação frente a Maus-Tratos na Infância e Adolescência, edição vigente.
+3. Ministério da Saúde. Linha de Cuidado para a Atenção Integral à Saúde de Crianças, Adolescentes e suas Famílias em Situação de Violências, edição vigente.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no PS/UBS real:** criança trazida com lesão cuja história não bate com o padrão do trauma (mecanismo trivial relatado para lesão grave), ou com achados radiológicos incidentais sugestivos de trauma prévio não relatado — o desafio real é manter um alto índice de suspeição sem acusar precipitadamente, documentando objetivamente os achados.
+
+**Sequência prática de conduta:**
+1. Tratar as lesões agudas (sempre prioridade clínica imediata).
+2. Documentar objetivamente todos os achados (fotos quando possível, descrição detalhada, avaliação radiológica dirigida).
+3. Avaliar a compatibilidade entre a história relatada e o padrão/gravidade da lesão.
+4. Diante de suspeita (mesmo sem certeza), **notificar ao Conselho Tutelar** — passo obrigatório, não opcional.
+5. Não confrontar os cuidadores de forma acusatória; a notificação é function do serviço de saúde, não do médico individualmente "denunciando".
+
+**Erros que médicos cometem de verdade:**
+- Não notificar por "não ter certeza" — a notificação de suspeita não exige certeza/prova, apenas suspeita razoável.
+- Notificar diretamente à polícia ou ao Juizado de Menores em vez do Conselho Tutelar como primeiro passo.
+- Apenas orientar os pais a terem mais cuidado, sem notificar formalmente, diante de achados sugestivos.
+- Deixar de investigar radiologicamente (ex.: radiografia de ossos longos) diante de lesão incompatível com a história.
+
+**O que dizer à família:** comunicar de forma não acusatória que, por protocolo/lei, toda lesão com características que geram dúvida precisa ser comunicada ao Conselho Tutelar, que é o órgão responsável por avaliar e apoiar a família — não é uma acusação definitiva, é um passo de proteção obrigatório.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Reconhecer incompatibilidade entre história e lesão, e/ou achados radiológicos específicos de trauma não acidental.
+- ✅ Tratar as lesões agudas apropriadamente.
+- ✅ Verbalizar corretamente a obrigatoriedade e o destinatário correto da notificação (Conselho Tutelar).
+- ✅ Comunicação não acusatória com a família, mantendo o foco em proteção da criança.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-23: este módulo passou a cobrir **todas as 16 edições já extraídas** do banco (2011.1–2025.2). Gabaritos conferidos um a um contra os PDFs oficiais do INEP na auditoria de 2026-09-23.*
+
+**[INEP 2011 · Edição 1 · Questão 40]**
+
+Criança, com oito meses de idade, dá entrada em pronto socorro acompanhada pela mãe que se encontra muito aflita. Ela diz que o bebê havia caído do berço há poucas horas. Afirma, ainda, que a criança não apresentou perda de consciência ou vômitos. Ao exame físico foi evidenciada fratura de fêmur e escoriações leves no tronco. Após o devido tratamento das lesões, que medida deve complementar o cuidado a essa criança?
+
+A) Formalizar denúncia contra a mãe junto à autoridade policial.
+B) Formalizar denúncia contra a mãe junto ao Juizado de Menores.
+C) Comunicar a suspeita de maus-tratos ao Conselho Tutelar.
+D) Alertar a mãe que aumente seus cuidados para evitar acidentes.
+E) Solicitar realização de perícia médico-legal.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** uma **fratura de fêmur** (lesão grave, que exige força considerável) atribuída a uma queda do berço (mecanismo de baixa energia, incompatível com fratura femoral em lactente) é um padrão clássico de **incompatibilidade entre história e lesão**, levantando suspeita de maus-tratos. A conduta legal correta, complementar ao tratamento já realizado, é **comunicar a suspeita ao Conselho Tutelar** — órgão responsável por avaliar e encaminhar o caso conforme necessário. É obrigação do médico notificar diante de suspeita razoável, independentemente de certeza.
+
+**Por que as demais estão erradas:**
+- A) Formalizar denúncia diretamente à autoridade policial não é o fluxo correto de notificação inicial pelo médico — o canal correto é o Conselho Tutelar, que pode acionar outras instâncias se necessário.
+- B) Da mesma forma, "denúncia" ao Juizado de Menores não é o passo correto/imediato do médico — foge do fluxo estabelecido pelo ECA.
+- D) Apenas orientar a mãe a ter mais cuidado, sem notificar, ignora a obrigatoriedade legal de notificação diante de suspeita razoável — conduta insuficiente e potencialmente negligente por parte do médico.
+- E) Solicitar perícia médico-legal isoladamente, sem notificação ao Conselho Tutelar, não cumpre o fluxo legal estabelecido — a perícia pode ser parte do processo posterior, mas não substitui a notificação obrigatória.
+
+**O que a banca estava testando:** reconhecimento do padrão de incompatibilidade entre mecanismo relatado (queda do berço) e gravidade da lesão (fratura de fêmur) como sinal de alarme para maus-tratos, e conhecimento de que o canal de notificação correto e obrigatório é especificamente o Conselho Tutelar, não a polícia nem o Judiciário diretamente.
+
+---
+
+**[INEP 2015 · Edição 1 · Questão 3]**
+
+Lactente masculino de três meses de idade é trazido pela mãe ao ambulatório de Pediatria. A mãe refere que há um mês a criança iniciou com coriza mucossanguinolenta e irritabilidade com choro fácil. Ao nascimento: peso = 2,2 Kg; perímetro cefálico = 35 cm; comprimento = 48 cm. Ao exame físico verifica-se dor à mobilização de braço esquerdo com choro intenso, coriza mucossanguinolenta bilateral e erosões em lábio superior; palidez cutâneo-mucosa ++/4+; fígado a 3,5 cm do rebordo costal direito e 3,5 cm do apêndice xifoide; baço a 4 cm do rebordo costal esquerdo. Considerando a principal hipótese diagnóstica, quais são, respectivamente, o exame a ser solicitado e o resultado mais provável?
+
+A) Tomografia computadorizada do crânio; velamento dos seios da face.
+B) Tomografia computadorizada de crânio; calcificações cranianas corticais.
+C) Radiograma de crânio; microcefalia e suturas cranianas parcialmente soldadas.
+D) Radiograma de ossos longos; lesões osteolíticas em epífise e espessamento periosteal.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o conjunto de achados — **dor à mobilização de um membro com choro intenso** (sugerindo fratura/lesão óssea não relatada), **coriza mucossanguinolenta e erosões labiais recorrentes** (compatíveis com trauma facial repetido, possivelmente por alimentação forçada ou agressão), **palidez e hepatoesplenomegalia leve** — compõe um quadro sugestivo de **síndrome do bebê espancado** (maus-tratos físicos crônicos). O exame indicado para confirmar lesões ósseas não aparentes é o **radiograma de ossos longos**, e o achado radiológico clássico e específico de trauma não acidental é a presença de **lesões osteolíticas metafisárias e espessamento periosteal** (reflexo de traumas repetidos por tração/torção).
+
+**Por que as demais estão erradas:**
+- A) e B) Tomografia de crânio seria indicada se houvesse suspeita de trauma craniano/neurológico específico, mas o achado central deste caso é a dor à mobilização do braço (sugerindo lesão óssea de membro), não um quadro neurológico predominante; "velamento de seios da face" e "calcificações corticais" não são os achados mais associados ao quadro descrito.
+- C) Microcefalia e suturas cranianas parcialmente soldadas (sugestivo de craniossinostose) não têm relação com o quadro clínico apresentado (dor em membro, lesões faciais recorrentes, hepatoesplenomegalia leve) — é um diagnóstico completamente distinto, não sustentado pelos achados.
+
+**O que a banca estava testando:** reconhecimento do conjunto de achados sugestivos de maus-tratos físicos crônicos (mesmo sem menção explícita a "suspeita de abuso" no enunciado) e conhecimento do exame e achado radiológico específicos (radiografia de ossos longos, lesões metafisárias/periosteais) que confirmam a síndrome do bebê espancado.
+
+---
+
+**[INEP 2023 · Edição 1 · Questão 25]**
+
+Uma mulher leva sua filha de 6 anos para uma consulta na unidade básica de saúde do bairro, por suspeitar que a filha esteja sendo abusada sexualmente pelo tio de 24 anos de idade. O tio toma conta da menina quando ela se ausenta para trabalhar como faxineira. A menina conta que brinca de "papai e mamãe" com o tio, mas afirma não querer falar mais sobre o assunto, dizendo que o tio lhe havia dito que a “brincadeira” era um segredo apenas entre os dois. Com relação a situações de suspeita de abuso infantil, a exemplo da descrita, é correto afirmar que
+
+A) o mais comum é o agressor/abusador ser uma pessoa conhecida da família, ou um membro dela, o que favorece a repetição do abuso.
+B) os casos de abusos sexuais contra meninos são mais recorrentes do que contra meninas, pois eles tendem a esconder mais as agressões de que são vítimas.
+C) as crianças muito novas que sofrem abuso sexual tendem a esquecer o que aconteceu na fase adulta, havendo, portanto, pouca repercussão desse abuso no futuro.
+D) a equipe de saúde da família deve se restringir ao tratamento das lesões físicas e eventuais danos psicológicos, sem se envolver no encaminhamento da denúncia às autoridades policiais.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o caso descrito ilustra exatamente o padrão epidemiológico mais comum — o agressor é **pessoa conhecida da família** (tio, cuidador de confiança), o que favorece a **repetição** do abuso (acesso regular e confiança prévia da vítima). Esse é o dado epidemiológico central que a banca cobra sistematicamente sobre o perfil do abusador.
+
+**Por que as demais estão erradas:**
+- B) Não é verdade que o abuso contra meninos seja mais recorrente que contra meninas — a epidemiologia mostra maior prevalência de abuso sexual contra meninas, embora o abuso contra meninos seja subnotificado.
+- C) É falso que crianças "esqueçam" o abuso sofrido sem repercussões futuras — abuso sexual infantil tem impacto psicológico significativo e frequentemente duradouro, exigindo acompanhamento.
+- D) Contradiz diretamente o princípio central deste módulo: a equipe de saúde tem o dever de se envolver no fluxo de notificação (ao Conselho Tutelar, não à polícia diretamente como denúncia formal), não apenas tratar lesões físicas/psicológicas.
+
+**O que a banca estava testando:** conhecimento do perfil epidemiológico típico do abusador (pessoa conhecida/familiar, favorecendo repetição) e reforço de que a equipe de saúde deve se envolver ativamente no fluxo de proteção da criança, não apenas no tratamento clínico.
+
+---
+
+⚠️ **Nota sobre item do banco não incluído como card interativo (INEP 2020 · Edição 1 · Questão 99):** o `assunto` classificado no banco identifica esta questão como sendo sobre "profilaxia para hepatite B após abuso sexual em criança não imune (anti-HBs negativo) — dose única de imunoglobulina associada à vacinação", com gabarito oficial D. Porém, o arquivo fonte trouxe o enunciado e as alternativas **completamente fundidos com uma questão de cardiologia não relacionada** (aneurisma de aorta torácica, estenose aórtica), tornando o texto de A-D integralmente incoerente com o tema de abuso sexual/hepatite B. Não incluída como card interativo por dano severo de extração — mantida como registro do conceito (profilaxia de hepatite B pós-exposição sexual, já incorporado à Teoria deste módulo) para eventual reconstrução futura contra o PDF original.
+
+---
+
+**[INEP 2012 · Edição 1 · Questão 76]**
+
+Um lactente com 12 meses de idade é levado ao Pronto-Socorro por sua genitora com relato de choro intenso, edema na perna e queda do berço há 8 horas aproximadamente. Tem antecedente de TCE há dois meses, também por queda do berço, segundo a mãe. Foi realizada uma radiografia, cuja imagem está reproduzida abaixo. A indicação de internação para essa criança será feita considerando como diagnóstico mais provável a
+
+A) síndrome de Munchausen.
+B) doença de Legg-Perthes.
+C) osteogênese imperfeita.
+D) hiperostose cortical.
+E) injúria intencional.
+
+⚠️ *Nota: a radiografia citada no enunciado não está disponível neste banco. Os dados de texto bastam para o raciocínio.*
+
+**Gabarito oficial: E**
+
+**Por que E está correta:** o caso reúne os principais **sinais de alerta de violência física** contra a criança, e a hipótese que se impõe é a de **injúria intencional** — maus-tratos.
+
+Os quatro elementos que compõem o alerta:
+
+1. **História incompatível com a lesão.** Queda do berço em lactente de 12 meses raramente produz fratura de ossos longos. Berços têm grades baixas e o impacto é de pequena altura; a energia envolvida não costuma bastar.
+2. **Repetição.** É a **segunda** lesão grave em dois meses, ambas atribuídas ao mesmo mecanismo — "queda do berço". Recorrência com explicação idêntica é um dos marcadores mais fortes.
+3. **Lesão prévia em outro sítio.** Um **TCE** há dois meses e agora uma fratura de membro inferior — lesões em locais e tempos diferentes.
+4. **Demora na procura de atendimento.** **Oito horas** entre o evento e a chegada ao pronto-socorro, com uma criança em choro intenso e com edema na perna. Atraso injustificado é um sinal clássico.
+
+Em lactentes que ainda **não deambulam**, a regra prática é direta e vale memorizar: **"if you don't cruise, you don't bruise"** — quem ainda não anda não costuma ter hematomas nem fraturas de ossos longos por mecanismos próprios. Fratura em criança que não anda é maus-tratos até prova em contrário.
+
+**Por que as demais estão erradas:**
+- A) **Síndrome de Munchausen por procuração** (hoje chamada de transtorno factício imposto a outro) é uma forma específica de maus-tratos em que o cuidador **simula, inventa ou provoca** sintomas para que a criança seja submetida a exames e internações — busca ativa do sistema de saúde, com peregrinação por serviços. O padrão aqui é outro: há **trauma físico real** com história inconsistente e **demora** em procurar atendimento, não procura excessiva.
+- B) A **doença de Legg-Calvé-Perthes** é a necrose avascular idiopática da cabeça femoral, típica de meninos **entre 4 e 8 anos**. Manifesta-se com **claudicação e dor insidiosa** em quadril ou joelho, sem trauma. Não ocorre aos 12 meses e não causa fratura aguda.
+- C) A **osteogênese imperfeita** é o principal **diagnóstico diferencial** dos maus-tratos e precisa ser considerada — mas o enunciado não traz nenhum de seus achados: **esclera azulada**, dentinogênese imperfeita, baixa estatura, frouxidão ligamentar, perda auditiva, história familiar ou fraturas múltiplas por traumas mínimos desde o nascimento. Duas lesões em dois meses, com histórias inconsistentes, não desenham o quadro.
+- D) A **hiperostose cortical infantil** (doença de Caffey) é rara e autolimitada, com início antes dos 6 meses: **febre, irritabilidade e tumefação dolorosa** sobre os ossos — a **mandíbula é o sítio mais acometido** —, com aposição periosteal à radiografia. Não produz fratura traumática.
+
+⚠️ **PEGADINHA DO INEP:** as alternativas C e D oferecem **doenças ósseas** que "explicariam" a fratura sem culpar ninguém — e é exatamente essa a tentação que a questão testa. O erro real, na prática clínica, é o oposto de acusar sem base: é **não levantar a hipótese**. Guarde os sinais de alerta:
+
+| Sinal de alerta | Por quê |
+|---|---|
+| **História incompatível** com a lesão ou com o desenvolvimento da criança | Mecanismo relatado não produz aquela lesão |
+| **História mutável** — muda a cada narrador ou a cada vez | Relato construído, não vivido |
+| **Demora** injustificada em procurar atendimento | Tentativa de que a lesão "passe" |
+| **Lesões em estágios evolutivos diferentes** | Agressões repetidas ao longo do tempo |
+| **Lesões em áreas protegidas** — dorso, face interna das coxas, orelhas, pescoço, genitália | Não são locais de queda acidental |
+| **Fratura em lactente que não anda** | Não há mecanismo próprio plausível |
+| Fraturas **metafisárias em alça de balde**, **costais posteriores**, de escápula ou esterno | Altamente específicas de maus-tratos |
+
+**Sobre a conduta:** a indicação de internação serve a dois propósitos — investigar (inquérito ósseo radiológico, fundo de olho, tomografia de crânio, coagulograma) e **proteger** a criança enquanto o caso é apurado. A notificação ao **Conselho Tutelar é compulsória diante da suspeita**, não da confirmação, e não depende de autorização da família.
+
+**O que a banca estava testando:** reconhecer os sinais de alerta de violência física em lactente — história incompatível, recorrência, demora no atendimento — e diferenciá-los das doenças ósseas que entram no diagnóstico diferencial, sem deixar de levantar a hipótese por receio de acusar.
+
+---
+
+**[INEP 2014 · Edição 1 · Questão 46]**
+
+Uma criança de 2 anos de idade é trazida ao Setor de Emergência em decorrência de crise convulsiva. A mãe refere que o seu filho sofreu uma queda no dia anterior, batendo a cabeça contra o chão. Imediatamente após esse evento, apresentou movimentos tônico-clônicos generalizados, associados a sialorreia e desvio conjugado do olhar, com duração de 1 minuto. Nega qualquer internação anterior ou presença de doenças crônicas. Gestação, parto e desenvolvimento normais. Ao exame, a criança mostra-se emagrecida, sonolenta, hipocorada (++/4+), hidratada e acianótica. Pupilas isocóricas e fotorreativas. Aparelhos cardiovascular e respiratório, bem como abdome sem anormalidades ao exame físico. Observam-se equimoses em diferentes fases de evolução em membros inferiores e em áreas usualmente cobertas do corpo (dorso e região interna da coxa) e couro cabeludo. Há também hematoma subgaleal em região têmporo-parietal esquerda. Exame do fundo de olho demonstra a presença de hemorragia retiniana em ambos os olhos. Entre os exames solicitados pelo pediatra para esclarecimento diagnóstico, encontra-se tomografia computadorizada de crânio, que evidencia hematoma subdural esquerdo, e radiografia de membros inferiores, que demonstra fraturas atuais e consolidadas. Tendo em vista o quadro descrito, a conduta indicada é
+
+A) repreender veementemente os pais e não os denunciar ao Conselho Tutelar, uma vez que as informações fornecidas pela mãe durante a consulta são protegidas pelo segredo médico.
+B) acompanhar o caso, realizando o encaminhamento da criança para exame de perito médico-legal, a quem cabe o encaminhamento do caso após a confirmação diagnóstica.
+C) transcrever, na anamnese, as suas interpretações pessoais a respeito da narrativa dos fatos e encaminhar o caso para a próxima reunião da Comissão de Ética do Hospital.
+D) notificar o Conselho Tutelar paralelamente ao atendimento da criança, incluindo a prescrição de medicamentos.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o caso é de **maus-tratos com síndrome do bebê sacudido**, e a conduta correta é **tratar e notificar ao mesmo tempo** — as duas coisas, em paralelo.
+
+O diagnóstico está fechado pela **tríade do bebê sacudido**, presente por inteiro:
+- **Hematoma subdural** (tomografia);
+- **Hemorragia retiniana bilateral** (fundo de olho);
+- **Encefalopatia** — a criança está sonolenta e convulsionou.
+
+E há muito mais sinal de alerta ao redor:
+- **Equimoses em diferentes fases de evolução** — agressões repetidas ao longo do tempo;
+- Equimoses em **áreas protegidas** (dorso, face interna da coxa) — não são locais de queda;
+- **Fraturas atuais e consolidadas** — de novo, agressões em momentos distintos;
+- **Emagrecimento e palidez** — sugerem negligência associada;
+- **História incompatível**: uma queda da própria altura não produz hematoma subdural com hemorragia retiniana bilateral.
+
+A notificação é regida pelo **Estatuto da Criança e do Adolescente (Lei 8.069/1990, art. 13 e 245)**, e três pontos precisam estar claros:
+
+1. É **compulsória diante da suspeita** — não se exige confirmação;
+2. **Não depende de autorização da família** nem configura quebra de sigilo, porque há **justa causa** prevista no Código de Ética Médica;
+3. **Não substitui o atendimento** — a criança é tratada normalmente, e a notificação corre em paralelo.
+
+A palavra **"paralelamente"** na alternativa é justamente o que a torna correta: não se adia o cuidado para notificar, nem se adia a notificação para cuidar.
+
+**Por que as demais estão erradas:**
+- A) Inverte o conceito de sigilo. O segredo médico **não protege o agressor** — o ECA impõe a notificação, e o Código de Ética Médica prevê a **justa causa** e o **dever legal** como exceções ao sigilo. Deixar de notificar é infração ética e sujeita a **multa** pelo art. 245 do ECA. Além disso, "repreender os pais" não é conduta médica: pode precipitar retaliação contra a criança e comprometer a investigação.
+- B) **Adia a proteção** e transfere ao perito uma responsabilidade que é do médico assistente. A notificação **não exige laudo pericial prévio** — exige suspeita. Esperar a perícia significa devolver a criança ao ambiente onde foi agredida.
+- C) Erra duas vezes. A anamnese deve registrar **fatos objetivos** — o que foi relatado, entre aspas, e o que foi encontrado ao exame —, **não interpretações pessoais**, que fragilizam o documento como prova. E a **Comissão de Ética hospitalar não é a via**: a notificação vai ao **Conselho Tutelar**, e "a próxima reunião" seria um atraso inaceitável.
+
+⚠️ **PEGADINHA DO INEP:** as três alternativas erradas oferecem versões de **adiar ou terceirizar** a proteção, cada uma com uma justificativa que soa razoável — sigilo, perícia, comissão de ética. A regra é única: **suspeita fundamentada → notificação imediata ao Conselho Tutelar, sem prejuízo do atendimento**.
+
+| Situação | Para onde vai |
+|---|---|
+| Suspeita de maus-tratos contra **criança ou adolescente** | **Conselho Tutelar** (ECA, art. 13) |
+| Fora do horário do Conselho, ou risco iminente | Autoridade policial / Vara da Infância |
+| **Violência sexual** | Conselho Tutelar + notificação compulsória + atendimento em serviço de referência |
+| Violência contra **idoso** | Conselho do Idoso, Ministério Público ou delegacia |
+| Toda violência (qualquer faixa etária) | **Ficha de notificação do SINAN** — epidemiológica, além da comunicação ao Conselho |
+
+**Sobre a síndrome do bebê sacudido:** o mecanismo é a aceleração e desaceleração rotacional do crânio, que rompe as **veias-ponte** (daí o hematoma subdural) e produz hemorragias retinianas por forças de cisalhamento na interface vítreo-retiniana. **A ausência de fratura de crânio ou de sinais externos de trauma não afasta o diagnóstico** — muitas vezes não há impacto direto. É a principal causa de morte por maus-tratos em menores de 1 ano.
+
+**O que a banca estava testando:** reconhecer a síndrome do bebê sacudido pela tríade e pelos sinais de alerta associados, e saber que a **notificação ao Conselho Tutelar é compulsória diante da suspeita**, simultânea ao atendimento, sem depender de perícia, de autorização familiar ou de comissão interna.
+
+---
+
+**[INEP 2016 · Edição 1 · Questão 75]**
+
+Um menino com 9 anos de idade é levado a consulta médica por sua tia. Ela refere que, há 4 meses, o menino vem apresentando períodos de choro alternados com irritabilidade e que está mais triste. Além disso, seu rendimento escolar tem diminuído progressivamente e, à noite, tem acordado com frequência, devido a pesadelos. Questionada se ocorreu algo diferente na vida do menino que pudesse ter ocasionado os sintomas, a tia refere que a mudança de comportamento coincidiu com a época em que o namorado da mãe passou a morar com eles, e que, até então, ele era um menino alegre, falante e estudioso. Segundo a tia, o namorado da mãe é agressivo e consome álcool diariamente. Ao exame clínico do menino, observam-se hematomas em membros superiores e inferiores e três lesões semelhantes a queimadura de cigarro. O médico suspeita que a criança esteja sendo vítima de violência. Nesse caso, além de convocar a mãe para comparecer ao serviço de saúde, o médico deve
+
+A) fazer Boletim de Ocorrência Policial.
+B) notificar a suspeita ao Conselho Tutelar.
+C) agendar retorno em 15 dias para reavaliação.
+D) solicitar realização de perícia para confirmar a suspeita de violência.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** diante da suspeita de violência contra criança, a conduta do médico é **notificar o Conselho Tutelar** — e a suspeita já está amplamente fundamentada.
+
+O caso combina **sinais físicos** e **sinais comportamentais**, e é a soma dos dois que torna a hipótese robusta:
+
+**Sinais físicos:**
+- **Queimaduras de cigarro** — lesões circulares, de bordas bem delimitadas, profundas e de tamanho uniforme. São praticamente **patognomônicas de violência**: não existe mecanismo acidental que as produza em número de três;
+- **Hematomas em membros superiores e inferiores**.
+
+**Sinais comportamentais**, de início definido há 4 meses:
+- Choro alternado com irritabilidade, tristeza;
+- **Queda do rendimento escolar**;
+- **Pesadelos e despertares noturnos**;
+- **Mudança de comportamento** em criança antes alegre e estudiosa.
+
+**Contexto de risco:** a mudança coincide com a chegada de um adulto **agressivo e com uso diário de álcool** ao domicílio — dois dos fatores de risco mais consistentes para violência intrafamiliar.
+
+A notificação ao Conselho Tutelar é **compulsória** (ECA, art. 13) e **baseada na suspeita**. O Conselho é o órgão com atribuição legal para **apurar e aplicar medidas de proteção**, inclusive afastar a criança do agressor se necessário — algo que o médico, sozinho, não pode fazer.
+
+**Por que as demais estão erradas:**
+- A) O **Boletim de Ocorrência** não é a via prevista para o profissional de saúde diante de suspeita de maus-tratos contra criança. O caminho é o **Conselho Tutelar**, que aciona o Ministério Público e a autoridade policial quando cabível. Registrar B.O. não é errado em si, mas **não substitui** a notificação — e não é o que a lei determina ao médico.
+- C) **Agendar retorno em 15 dias** é a alternativa mais perigosa: devolve a criança ao ambiente de risco por mais duas semanas, sem nenhuma medida de proteção. Diante de lesões físicas compatíveis com violência, **não existe conduta expectante**.
+- D) **Solicitar perícia para confirmar** inverte a lógica legal. A notificação decorre da **suspeita**, não da confirmação. Cabe ao Conselho Tutelar e às autoridades apurar — não ao médico produzir prova antes de comunicar. Exigir confirmação prévia é o raciocínio que mais atrasa a proteção, e por isso a alternativa é construída para parecer criteriosa.
+
+⚠️ **PEGADINHA DO INEP:** a questão explora o receio de "acusar sem certeza". Três alternativas oferecem formas de **esperar por mais evidência** — B.O. formal, reavaliação em 15 dias, perícia. Fixe a regra: **o médico notifica a suspeita; quem investiga é o Conselho Tutelar**. Notificar não é acusar, é proteger.
+
+**Sinais comportamentais que devem levantar a hipótese**, além dos físicos: mudança abrupta de comportamento, queda do rendimento escolar, distúrbios do sono e pesadelos, enurese secundária, isolamento, comportamento regressivo, medo de determinada pessoa ou de voltar para casa, comportamento sexualizado inadequado para a idade, automutilação e ideação suicida.
+
+**Sobre convocar a mãe:** o enunciado já a inclui na conduta, e isso é apropriado — a mãe pode ser também vítima de violência pelo mesmo agressor. A conversa deve ser acolhedora e sem confronto, e **não substitui nem posterga** a notificação.
+
+**O que a banca estava testando:** reconhecer o conjunto de sinais físicos e comportamentais de violência contra a criança e saber que a conduta médica é a **notificação ao Conselho Tutelar diante da suspeita**, sem exigir confirmação pericial nem adiar para reavaliação.
+
+---
+
+**[INEP 2021 · Edição 1 · Questão 2]**
+
+Um recém-nascido com 20 dias de vida dá entrada em serviço médico de urgência com história referida de queda da cama após ter rolado para fora dela há 6 horas. Pais referem hipoatividade desde então. Ao exame, está em regular estado geral e apresenta hematoma subgaleal em região parietal. A fundoscopia evidencia hemorragia retiniana bilateral e a tomografia de crânio apresenta hemorragia subaracnóidea, sem sinais de fratura. Com base nos dados apresentados, o diagnóstico mais provável é
+
+A) traumatismo crânio encefálico decorrente da queda da cama.
+B) acidente vascular cerebral decorrente de malformação vascular.
+C) síndrome de Shaken Baby (bebê sacudido) decorrente de maus-tratos.
+D) tromboembolismo gorduroso resultante da queda.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** há um detalhe no enunciado que decide a questão inteira — **um recém-nascido de 20 dias não rola**.
+
+O rolar (virar de barriga para cima para barriga para baixo e vice-versa) é um marco motor que aparece por volta dos **4 a 6 meses**. Aos 20 dias, o bebê tem controle cervical mínimo e nenhuma capacidade de se deslocar sozinho. A história contada é, portanto, **fisicamente impossível** — e história incompatível com o estágio de desenvolvimento é o sinal de alerta mais forte que existe em maus-tratos.
+
+O restante do quadro confirma:
+- **Hemorragia retiniana bilateral** — nesta faixa etária, é altamente específica de mecanismo de **aceleração e desaceleração rotacional**. Queda de pequena altura praticamente não a produz;
+- **Hemorragia subaracnóidea** por ruptura de veias-ponte;
+- **Hipoatividade** — a encefalopatia que completa a tríade;
+- **Ausência de fratura de crânio** — que, longe de afastar o diagnóstico, o **reforça**: no bebê sacudido a lesão vem da **sacudida**, não necessariamente de um impacto;
+- **Seis horas** entre o evento referido e a chegada ao serviço — demora injustificada.
+
+**Por que as demais estão erradas:**
+- A) **TCE por queda da cama** é a explicação oferecida pelos pais, e é preciso recusá-la por três razões: a criança **não tem capacidade motora para rolar**; quedas de baixa altura em lactentes tipicamente causam, no máximo, hematoma subgaleal ou fratura linear simples, **sem** hemorragia retiniana bilateral; e há **demora** na procura de atendimento.
+- B) **AVC por malformação vascular** pode, de fato, causar hemorragia subaracnóidea em recém-nascido — mas **não explica a hemorragia retiniana bilateral nem o hematoma subgaleal**. E um evento vascular espontâneo não vem acompanhado de uma história de trauma inventada.
+- D) **Tromboembolismo gorduroso** decorre de **fratura de ossos longos**, cursa com a tríade hipoxemia, alterações neurológicas e **rash petequial**, e surge 24 a 72 horas após o trauma. Não há fratura, não há rash, e o quadro não corresponde.
+
+⚠️ **PEGADINHA DO INEP:** a alternativa A é a mais atraente porque **repete a versão dos pais**, e o candidato desatento aceita a história como dado. O ponto da questão é que **a história é parte do exame** e precisa ser confrontada com o desenvolvimento da criança. Guarde a régua dos marcos motores, que resolve várias questões de maus-tratos:
+
+| Marco | Idade esperada |
+|---|---|
+| Sustentar a cabeça | 3 meses |
+| **Rolar** | **4 a 6 meses** |
+| Sentar sem apoio | 6 a 8 meses |
+| Engatinhar | 8 a 10 meses |
+| Andar com apoio | 10 a 12 meses |
+| Andar sozinho | 12 a 15 meses |
+
+Toda vez que a história atribuir à criança uma **habilidade que ela ainda não tem**, a história é falsa.
+
+**Conduta que se segue ao diagnóstico:** internação para proteção e investigação completa — **inquérito ósseo radiológico** (série esquelética), fundo de olho por oftalmologista, neuroimagem, coagulograma para afastar discrasias — e **notificação imediata ao Conselho Tutelar**.
+
+**O que a banca estava testando:** confrontar a história relatada com o **desenvolvimento neuropsicomotor** da criança e reconhecer a síndrome do bebê sacudido pela hemorragia retiniana bilateral associada a hemorragia intracraniana, sabendo que a ausência de fratura não afasta — e até reforça — o diagnóstico.
+
+---
+
+**[INEP 2023 · Edição 1 · Questão 88]**
+
+Uma criança com dois anos é atendida em consulta de puericultura com história de ter apresentado, há aproximadamente 1 mês, uma queimadura de segundo grau em tronco devido a derramamento de conteúdo de uma panela que estava sobre o fogão e foi puxada pelo cabo pela criança. Esse tipo de queimadura caracteriza
+
+A) um acidente, porque foi um evento fortuito, que ocorreu ao acaso.
+B) um caso de maus tratos devido às características clínicas da queimadura.
+C) uma negligência, uma vez que existiam fatores de risco que poderiam ser evitadas.
+D) um caso de violência doméstica devido às características epidemiológicas da queimadura.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** o evento é **previsível e evitável**, e deixar de evitá-lo configura **negligência** — que é uma forma de maus-tratos por **omissão**.
+
+O raciocínio central da questão é a distinção entre **acidente** e **negligência**:
+
+- **Acidente** é o evento **imprevisível e inevitável**, que ocorre apesar dos cuidados adequados;
+- **Negligência** é a **falha do cuidador em prover proteção**, supervisão, saúde, alimentação, higiene, educação ou afeto adequados ao desenvolvimento da criança.
+
+Uma panela **com o cabo voltado para fora do fogão**, ao alcance de uma criança de 2 anos, é um risco conhecido, documentado em toda orientação de prevenção de acidentes domésticos — e a medida preventiva é elementar: **virar o cabo para dentro** e usar preferencialmente as bocas de trás. A criança de 2 anos está na fase de exploração, alcança superfícies, puxa objetos e não tem noção de perigo. A queimadura era, portanto, **previsível e evitável**.
+
+A negligência é a forma **mais prevalente** de maus-tratos na infância e a mais subnotificada, justamente porque costuma ser lida como "acidente" ou "falta de sorte". É importante ressaltar que reconhecê-la **não significa punir a família**: a resposta adequada é **orientação sobre prevenção**, avaliação do contexto social e, quando há risco ou repetição, **notificação ao Conselho Tutelar** — que pode oferecer apoio à família antes de qualquer medida mais grave.
+
+**Por que as demais estão erradas:**
+- A) Chamar de **"evento fortuito, ao acaso"** é exatamente a leitura que a questão quer desfazer. Não houve acaso: houve um fator de risco identificável e uma medida preventiva simples que não foi tomada. A maioria dos chamados "acidentes domésticos" na infância é, na verdade, **evitável** — daí a preferência atual pelo termo **"causas externas"** ou "lesões não intencionais" em lugar de "acidente".
+- B) **Maus-tratos por ação** — violência física intencional — teriam **características clínicas próprias**, e o enunciado não as traz. A queimadura intencional por imersão tem padrão típico: **bordas bem delimitadas**, distribuição **simétrica**, em **luva** ou em **meia**, poupando as áreas de flexão, frequentemente em nádegas e períneo, **sem marcas de respingo**. Aqui o mecanismo descrito — derramamento a partir de uma panela puxada — produz o padrão oposto: lesão em **tronco**, assimétrica, com **respingos** e distribuição por escorrimento.
+- D) **Violência doméstica** pressupõe **intencionalidade** e não se caracteriza por "características epidemiológicas" de uma queimadura. A epidemiologia descreve populações, não estabelece a natureza de um caso individual.
+
+⚠️ **PEGADINHA DO INEP:** a questão opõe duas leituras extremas — "foi só um acidente" (A) e "foi agressão" (B, D) — e a resposta está no meio, no conceito de **negligência**, que muitos candidatos associam apenas a abandono ou desnutrição. Fixe as formas de maus-tratos:
+
+| Forma | Natureza | Exemplos |
+|---|---|---|
+| **Física** | Ação | Espancamento, queimadura intencional, sacudida |
+| **Psicológica** | Ação | Humilhação, ameaça, rejeição, exposição a violência |
+| **Sexual** | Ação | Abuso, exploração |
+| **Negligência** | **Omissão** | Falta de supervisão, não vacinar, não levar ao médico, desnutrição, abandono |
+| **Munchausen por procuração** | Ação | Simular ou provocar doença |
+
+E o padrão que distingue queimadura intencional de acidental:
+
+| | Intencional | Acidental |
+|---|---|---|
+| Bordas | **Nítidas**, bem delimitadas | Irregulares |
+| Simetria | **Simétrica** (em luva, em meia) | Assimétrica |
+| Respingos | **Ausentes** | **Presentes** |
+| Profundidade | Uniforme | Variável |
+| Localização | Nádegas, períneo, extremidades | Face anterior do tronco, face, mãos |
+| História | Incompatível ou mutável | Compatível e consistente |
+
+**O que a banca estava testando:** diferenciar **acidente** de **negligência** pela existência de fator de risco previsível e evitável, reconhecendo a negligência como forma de maus-tratos por omissão — e distingui-la da violência física intencional, que tem padrão clínico próprio.
+
+---
+
+**[INEP 2025 · Edição 1 · Questão 15]**
+
+Menina de 6 anos é paciente do mesmo médico na unidade básica de saúde (UBS) desde que nasceu. Sempre foi uma criança alegre, saudável e sociável. Na última consulta, há cerca de 15 dias, o pai a trouxe porque ela estava com “dor de barriga”, mas a paciente permaneceu encolhida e calada todo o tempo, quase não deixando o médico examiná-la. Há 2 dias, a professora da criança procurou a equipe preocupada com a mudança de comportamento da criança. Relatou que foi informada sobre a existência de fotos íntimas da criança numa rede social. A mãe, quando chamada, relatou que está trabalhando e a criança tem ficado com o pai na maior parte do tempo. Nessa situação, além da avaliação clínica, o médico deve
+
+A) registrar, em prontuário, dados clínicos de forma isenta de interpretações pessoais; notificar violência no SINAN e contatar os equipamentos sociais e conselho tutelar para o seguimento do caso juntamente com a equipe.
+B) encaminhar a criança à perícia médica mais próxima da unidade, onde será realizado exame físico mais detalhado e coleta de vestígios da violência; confirmar a violência antes da notificação no SINAN e contatar o conselho tutelar.
+C) confrontar os dados relatados pela professora com os pais, questionando-os sobre a denúncia e demonstrando preocupação; orientar as medidas de apoio à criança e à família.
+D) anotar, em prontuário, os dados da história com suspeita de abuso e denunciar o caso na delegacia mais próxima; encaminhar a criança para um serviço de proteção social local.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** há **suspeita de violência sexual** (mudança súbita de comportamento, fotos íntimas em rede social). O médico deve: **registrar objetivamente** em prontuário (sem juízo de valor — o prontuário pode virar prova); **notificar no SINAN** — obrigatório já na **suspeita**; e **comunicar ao Conselho Tutelar** (ECA, art. 13), articulando a **rede de proteção** com a equipe.
+
+**Por que as demais estão erradas:**
+- B) **Não se espera confirmar** a violência para notificar — a notificação é de **suspeita**.
+- C) **Confrontar os pais** (o pai é possível agressor) pode colocar a criança em risco e atrapalhar a proteção.
+- D) O fluxo da saúde é notificar e acionar o **Conselho Tutelar**, que aciona os demais órgãos; e o registro deve ser de dados clínicos, não de "suspeitas" interpretativas.
+
+⚠️ **PEGADINHA DO INEP:** criança/adolescente → **suspeita basta** → SINAN + Conselho Tutelar. Nunca confronte o possível agressor na consulta.
+
+**O que a banca estava testando:** conduta diante de suspeita de violência sexual infantil na APS.
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 23]**
+
+A violência contra adolescentes pode ter várias causas e atores. Os sinais que demonstram essas ações podem ser indiretos, mas devem ser observados pelos profissionais da saúde. Assinale a alternativa com a situação em que se deve notificar o Conselho Tutelar.
+
+A) Manuel, 15 anos, abandonado pelos pais e sob os cuidados de uma família acolhedora, apresenta febre, vômitos, petéquias que evoluem para púrpuras em MMII e SS, rigidez de nuca e história vacinal desconhecida.
+B) Michele, 13 anos, está morando temporariamente com os tios enquanto a mãe faz um curso no exterior. Há 1 mês vem apresentando equimoses em face, pernas, coxas, em vários estágios de evolução, e evita falar sobre o fato.
+C) Felipe, 11 anos, acolhido em um abrigo desde os 9 anos, há 3 dias está mais recolhido no seu quarto e dorme quase o tempo todo. Apresenta febre, muita dor no corpo e retro-orbitária, sangramento gengival quando escova os dentes e petéquias pelo corpo.
+D) Edilene, 16 anos, que cumpre medidas socioeducativas em uma instituição do Estado, apresenta várias equimoses nos membros superiores e inferiores, além do tronco. Refere também suores noturnos, febre inexplicada, perda de peso e linfonodos aumentados de tamanho em região cervical, supraclavicular e inguinal bilateralmente.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** **equimoses em vários estágios de evolução** (lesões de idades diferentes), em **face e coxas** (áreas pouco expostas a traumas acidentais), sem explicação e com a adolescente **evitando falar** do assunto — padrão sugestivo de **violência física repetida**. Suspeita → notificação e **comunicação ao Conselho Tutelar**.
+
+**Por que as demais estão erradas:** as outras apresentam **explicação clínica** para os sangramentos/lesões:
+- A) Febre, petéquias → púrpura e rigidez de nuca = **meningococcemia** (emergência infecciosa).
+- C) Febre, dor retro-orbitária, gengivorragia e petéquias = **dengue**.
+- D) Equimoses com sintomas B e linfonodomegalia generalizada = **doença hematológica** (leucemia/linfoma).
+
+⚠️ **PEGADINHA DO INEP:** situações de vulnerabilidade (abandono, abrigo, medida socioeducativa) estão em todas as alternativas como distratores. O que indica violência é a **lesão sem explicação clínica**, em **estágios diferentes** e em **locais atípicos**.
+
+**O que a banca estava testando:** sinais de alerta de violência física contra adolescentes.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual órgão deve ser notificado pelo médico diante de suspeita de maus-tratos infantis?	Conselho Tutelar (obrigatório, independente de certeza)	Revalida::Pediatria::MausTratos::Conduta
+A notificação de suspeita de maus-tratos exige certeza/prova?	Não — suspeita razoável já é suficiente e a notificação é obrigatória	Revalida::Pediatria::MausTratos::Conduta
+Notificar diretamente à polícia ou ao Juizado de Menores é o fluxo correto do médico?	Não — o fluxo correto passa pelo Conselho Tutelar, que aciona outras instâncias se necessário	Revalida::Pediatria::MausTratos::Conduta
+Fratura grave (ex.: fêmur) atribuída a queda de baixa altura em lactente: o que isso sugere?	Incompatibilidade entre história e lesão — sinal de alarme para maus-tratos	Revalida::Pediatria::MausTratos::Diagnostico
+Qual achado radiológico é muito específico de trauma não acidental (síndrome do bebê espancado)?	Fratura metafisária ("bucket-handle"/"corner fracture") e espessamento periosteal	Revalida::Pediatria::MausTratos::Diagnostico
+Fraturas em diferentes estágios de consolidação em uma criança sugerem o quê?	Trauma repetido (maus-tratos), não um evento acidental único	Revalida::Pediatria::MausTratos::Diagnostico
+Qual exame de imagem investiga lesões ósseas ocultas em suspeita de maus-tratos?	Radiografia de ossos longos	Revalida::Pediatria::MausTratos::Diagnostico
+A notificação ao Conselho Tutelar substitui o tratamento clínico das lesões?	Não — o tratamento sempre precede/acompanha a notificação, que é complementar	Revalida::Pediatria::MausTratos::Conduta
+Qual o perfil mais comum do agressor em casos de abuso sexual infantil?	Pessoa conhecida da família ou membro dela — favorece a repetição do abuso	Revalida::Pediatria::MausTratos::Epidemiologia
+A equipe de saúde deve se restringir ao tratamento clínico em caso de abuso sexual infantil?	Não — deve se envolver ativamente no fluxo de notificação/encaminhamento (Conselho Tutelar)	Revalida::Pediatria::MausTratos::Conduta
+Criança vítima de abuso sexual sem imunidade comprovada contra hepatite B: conduta profilática?	Imunoglobulina anti-hepatite B em dose única + início/complementação do esquema vacinal	Revalida::Pediatria::MausTratos::Conduta
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Lesão grave + mecanismo trivial relatado = incompatibilidade = suspeita de maus-tratos.
+2. Notificação de suspeita é obrigatória, mesmo sem certeza.
+3. O destinatário correto da notificação é o Conselho Tutelar — NUNCA polícia ou Judiciário como primeiro passo do médico.
+4. Fratura metafisária/espessamento periosteal em radiografia de ossos longos = achado clássico de trauma não acidental.
+5. Tratar as lesões primeiro, notificar sempre em seguida — a notificação complementa, não substitui, o cuidado clínico.
+
+📊 **Tabela-síntese**
+| Achado | Interpretação |
+|---|---|
+| Fratura grave + trauma trivial relatado | Incompatibilidade — suspeitar de abuso |
+| Fraturas em estágios diferentes | Trauma repetido |
+| Fratura metafisária/periosteal | Muito específica de trauma não acidental |
+| Notificação | Sempre ao Conselho Tutelar |
+
+⚡ **Fluxograma textual:** lesão suspeita → tratar → avaliar compatibilidade história-lesão → se incompatível/sugestivo → documentar + investigar (radiografia de ossos longos, se indicado) → notificar ao Conselho Tutelar (obrigatório).
+
+🚫 **Os 3 erros mais comuns:** (1) não notificar por falta de certeza; (2) notificar ao órgão errado (polícia/Judiciário em vez do Conselho Tutelar); (3) apenas orientar a família sem notificar formalmente.
+
+🔗 **Conexões com outros módulos:** PREV (ética médica, notificação compulsória), PED-02 (desenvolvimento — regressão pode ser sinal de abuso/negligência).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-04",
+  "especialidade": "Pediatria",
+  "tema": "Maus-tratos infantis",
+  "assunto": "Reconhecimento clínico/radiológico da síndrome do bebê espancado e conduta de notificação",
+  "tier": "A",
+  "n_questoes": 10,
+  "n_flashcards": 12,
+  "tempo_estudo_min": 85,
+  "prerequisitos": [],
+  "relacionados": ["PREV-01", "PED-02"],
+  "data_geracao": "2026-07-29",
+  "data_atualizacao": "2026-08-08",
+  "codigos_mesclados": ["PED-04", "PED-87"],
+  "itens_a_verificar": [
+    "2020.1-Q99 (ex-PED-87) não incluída como card interativo — enunciado/alternativas fundidos com questão de cardiologia não relacionada, tema real (profilaxia hepatite B pós-abuso) incorporado apenas à Teoria",
+    "Confirmar se este módulo tem mais questões nas edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

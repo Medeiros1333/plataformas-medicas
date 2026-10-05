@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ANA-clostridioides-difficile",
+    "nombre": "Clostridioides difficile",
+    "grupo": "ANA",
+    "nivel": 1,
+    "clasificacion": "Bacilo grampositivo ANAEROBIO estricto, ESPORULADO, productor de las toxinas A (enterotoxina) y B (citotoxina)",
+    "morfologia_tincion": "Bacilos grampositivos grandes con esporas subterminales. Anaerobio estricto; crece en medio selectivo CCFA (cicloserina-cefoxitina-fructosa-agar).",
+    "mecanismo_patogenia": [
+      "Las ESPORAS resisten el calor, la desecación, el alcohol de las soluciones hidroalcohólicas y la mayoría de desinfectantes: por eso la higiene de manos frente a C. difficile debe hacerse con AGUA Y JABÓN, no con gel hidroalcohólico, y la limpieza ambiental requiere hipoclorito.",
+      "Toxina A (enterotoxina): daña el borde en cepillo, aumenta la permeabilidad y atrae neutrófilos.",
+      "Toxina B (citotoxina): glucosila e inactiva las proteínas Rho, con despolimerización del citoesqueleto de actina, redondeamiento y muerte celular. Es la principal responsable del daño.",
+      "Toxina binaria (cepa hipervirulenta NAP1/BI/027): asociada a mayor gravedad, más recurrencias y mayor mortalidad.",
+      "La antibioterapia previa destruye la flora anaerobia colónica protectora y permite la germinación de las esporas y la proliferación del bacilo: es una enfermedad causada por los antibióticos, no solo tratada con ellos."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Diarrea asociada a antibióticos",
+        "clinica": "Diarrea acuosa abundante, dolor abdominal cólico y febrícula, durante o hasta 8-12 semanas después del antibiótico.",
+        "lesiones": "Colitis inespecífica con edema y eritema de la mucosa.",
+        "clave": "Los antibióticos de mayor riesgo son clindamicina, cefalosporinas de amplio espectro, quinolonas y amoxicilina-clavulánico."
+      },
+      {
+        "cuadro": "Colitis pseudomembranosa",
+        "clinica": "Diarrea profusa, dolor abdominal, fiebre y leucocitosis marcada (a menudo >15 000).",
+        "lesiones": "PSEUDOMEMBRANAS: placas amarillentas de 2-10 mm adheridas a la mucosa colónica, compuestas por fibrina, mucina, neutrófilos y detritos celulares.",
+        "clave": "El hallazgo endoscópico de pseudomembranas es prácticamente diagnóstico, pero la colonoscopia rara vez es necesaria."
+      },
+      {
+        "cuadro": "Colitis fulminante y megacolon tóxico",
+        "clinica": "Dolor abdominal intenso, distensión, íleo (la diarrea puede CESAR, lo que es un signo de alarma y no de mejoría), fiebre alta, hipotensión, leucocitosis extrema y elevación del lactato.",
+        "lesiones": "Dilatación colónica >6 cm, riesgo de perforación y peritonitis.",
+        "clave": "La desaparición de la diarrea en un paciente que empeora indica íleo y megacolon: es una urgencia quirúrgica, no una mejoría."
+      },
+      {
+        "cuadro": "Infección recurrente",
+        "clinica": "Reaparición de la diarrea en las 8 semanas siguientes a la resolución de un episodio; ocurre en el 20-25% tras el primer episodio y en más del 40% tras el segundo.",
+        "lesiones": "Recolonización desde esporas persistentes o reinfección.",
+        "clave": "A partir de la segunda recurrencia, el trasplante de microbiota fecal alcanza tasas de curación muy superiores a las de cualquier antibiótico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El gel hidroalcohólico NO destruye sus esporas: hay que lavarse con agua y jabón y usar hipoclorito para la limpieza ambiental. Es una de las pocas situaciones en que el gel es insuficiente.",
+      "El metronidazol ha dejado de ser el tratamiento de elección: la vancomicina ORAL y la fidaxomicina son superiores y hoy son la primera línea.",
+      "La vancomicina se administra por vía ORAL precisamente porque NO se absorbe: la vancomicina IV es inútil frente a C. difficile.",
+      "NO se debe hacer prueba de curación ni repetir la determinación de toxina tras el tratamiento: la toxina y el ADN permanecen positivos semanas en pacientes ya curados, y su repetición lleva a sobretratamiento.",
+      "Tampoco se debe estudiar a pacientes sin diarrea: el 5-15% de los adultos sanos y hasta el 50% de los ingresados están colonizados sin enfermedad.",
+      "Los antiperistálticos (loperamida) están contraindicados: favorecen el megacolon tóxico.",
+      "El primer paso terapéutico, cuando es posible, es SUSPENDER el antibiótico desencadenante."
+    ],
+    "diagnostico": {
+      "muestra": "Heces DIARREICAS (que adopten la forma del recipiente); no procesar heces formadas.",
+      "pruebas": [
+        "Algoritmo en dos pasos: glutamato deshidrogenasa (GDH, muy sensible, detecta la presencia del microorganismo) seguida de detección de TOXINAS A/B por enzimoinmunoanálisis (específica de enfermedad)",
+        "PCR de genes de toxina cuando GDH y toxina son discordantes",
+        "Colonoscopia solo en casos dudosos o con íleo sin posibilidad de obtener heces",
+        "TC abdominal en la sospecha de colitis fulminante o megacolon"
+      ],
+      "claves": "Una PCR positiva aislada indica presencia del gen de la toxina, no necesariamente enfermedad: sin diarrea, es colonización y no debe tratarse."
+    },
+    "tratamiento": {
+      "eleccion": "VANCOMICINA ORAL 125 mg/6 h durante 10 días, o FIDAXOMICINA 200 mg/12 h durante 10 días (menor tasa de recurrencia).",
+      "alternativas": "Metronidazol 500 mg/8 h VO solo si no se dispone de las anteriores. En la colitis fulminante: vancomicina oral a dosis alta (500 mg/6 h) MÁS metronidazol IV, con valoración quirúrgica urgente (colectomía). Bezlotoxumab como prevención de recurrencias en pacientes de alto riesgo.",
+      "resistencias": "No se describen resistencias relevantes a vancomicina o fidaxomicina; el fracaso se debe al mantenimiento del antibiótico desencadenante o a la gravedad del cuadro.",
+      "duracion": "10 días. En la recurrencia, pautas descendentes y pulsátiles de vancomicina durante semanas.",
+      "notas": "A partir del segundo episodio recurrente, el TRASPLANTE DE MICROBIOTA FECAL consigue tasas de curación superiores al 85%. Aislamiento de contacto durante toda la diarrea y 48 h después."
+    },
+    "farmacos_relacionados": [
+      "INF-metronidazol",
+      "INF-vancomicina",
+      "PED-DIG-omeprazol"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 30 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infección por C. difficile"
+  },
+  {
+    "id": "ANA-clostridium-perfringens",
+    "nombre": "Clostridium perfringens",
+    "grupo": "ANA",
+    "nivel": 2,
+    "clasificacion": "Bacilo grampositivo grande, ANAEROBIO, esporulado, INMÓVIL (a diferencia de la mayoría de clostridios), productor de la toxina alfa (lecitinasa)",
+    "morfologia_tincion": "Bacilos grampositivos grandes y rectangulares «en vagón de tren», con esporas raramente visibles en la muestra clínica. Produce DOBLE hemólisis en agar sangre (halo interno completo por la toxina theta y halo externo incompleto por la toxina alfa).",
+    "mecanismo_patogenia": [
+      "TOXINA ALFA (lecitinasa/fosfolipasa C): hidroliza la lecitina de las membranas celulares, destruyendo hematíes, plaquetas, leucocitos y células musculares. Es el determinante de la mionecrosis y de la hemólisis masiva.",
+      "Toxina theta (perfringolisina O): citolisina formadora de poros que contribuye a la destrucción tisular y bloquea la llegada de neutrófilos.",
+      "Enzimas de diseminación (colagenasa, hialuronidasa, DNasa) que licuan la matriz y permiten la extensión fulminante por el plano muscular.",
+      "Fermentación de los hidratos de carbono del músculo con producción de GAS (hidrógeno y dióxido de carbono): la crepitación y el gas en la imagen.",
+      "Enterotoxina termolábil producida en el intestino durante la esporulación: responsable de la intoxicación alimentaria, un mecanismo completamente distinto del de la gangrena."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Gangrena gaseosa (mionecrosis clostridiana)",
+        "clinica": "Dolor INTENSO y desproporcionado que aparece en horas tras una herida contaminada o una cirugía; la piel pasa de pálida a bronceada-violácea, con ampollas hemorrágicas, exudado serosanguinolento maloliente y CREPITACIÓN. Shock, hemólisis intravascular masiva e insuficiencia renal.",
+        "lesiones": "Necrosis muscular extensa con gas en los planos musculares; el músculo no sangra ni se contrae al estímulo.",
+        "clave": "URGENCIA QUIRÚRGICA ABSOLUTA: el desbridamiento amplio (a menudo amputación) es lo que salva la vida; el antibiótico solo es coadyuvante."
+      },
+      {
+        "cuadro": "Intoxicación alimentaria por C. perfringens",
+        "clinica": "Diarrea acuosa y dolor abdominal cólico 8-16 h tras la ingesta, SIN vómitos prominentes ni fiebre; se resuelve en 24 h.",
+        "lesiones": "No hay invasión ni lesión histológica relevante.",
+        "clave": "Típica de carnes y guisos cocinados y mantenidos a temperatura ambiente (las esporas sobreviven a la cocción y germinan al enfriarse lentamente). El periodo de 8-16 h la sitúa entre la de S. aureus (1-6 h) y la de Salmonella (12-48 h)."
+      },
+      {
+        "cuadro": "Enteritis necrotizante (pigbel)",
+        "clinica": "Dolor abdominal intenso, diarrea sanguinolenta, vómitos y shock; alta mortalidad.",
+        "lesiones": "Necrosis segmentaria del yeyuno por la toxina beta.",
+        "clave": "Rara; asociada a dietas pobres en proteínas y a la ingesta de grandes cantidades de carne (Papúa Nueva Guinea)."
+      },
+      {
+        "cuadro": "Celulitis anaerobia e infección de partes blandas",
+        "clinica": "Infección de una herida con crepitación pero SIN afectación muscular ni toxicidad sistémica.",
+        "lesiones": "Gas en el tejido celular subcutáneo con músculo respetado.",
+        "clave": "Distinguirla de la mionecrosis es esencial: el pronóstico y la agresividad quirúrgica son completamente distintos."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Es el clostridio INMÓVIL, a diferencia de C. tetani, C. botulinum y C. septicum.",
+      "La doble zona de hemólisis en agar sangre y la reacción de Nagler positiva (inhibición de la lecitinasa por antisuero) son sus marcas de laboratorio.",
+      "En la gangrena gaseosa el diagnóstico es CLÍNICO y quirúrgico: esperar al cultivo o a la imagen cuesta vidas.",
+      "La clindamicina se asocia a la penicilina no por su efecto bactericida sino para bloquear la síntesis de toxina alfa, igual que en las infecciones estreptocócicas graves.",
+      "La bacteriemia por C. septicum (no perfringens) obliga a descartar neoplasia de colon o neutropenia: es un marcador de cáncer colorrectal oculto.",
+      "El oxígeno hiperbárico es un tratamiento coadyuvante discutido que nunca debe retrasar la cirugía."
+    ],
+    "diagnostico": {
+      "muestra": "Tejido muscular y exudado de la herida obtenidos en quirófano; hemocultivos; heces y alimento sospechoso en la intoxicación alimentaria.",
+      "pruebas": [
+        "Tinción de Gram del exudado: bacilos grampositivos grandes con ESCASOS neutrófilos (las toxinas los destruyen) — combinación muy sugestiva",
+        "Cultivo anaerobio",
+        "Radiografía o TC: gas disecando los planos musculares",
+        "Reacción de Nagler",
+        "Detección de enterotoxina en heces en la intoxicación alimentaria"
+      ],
+      "claves": "Bacilos grampositivos abundantes con escasez llamativa de neutrófilos en una herida con dolor desproporcionado es la imagen clásica de la mionecrosis."
+    },
+    "tratamiento": {
+      "eleccion": "DESBRIDAMIENTO QUIRÚRGICO URGENTE Y AMPLIO, más penicilina G 4 MUI/4 h IV MÁS clindamicina 900 mg/8 h IV.",
+      "alternativas": "En alérgicos: metronidazol, meropenem o cloranfenicol asociados a clindamicina. Oxígeno hiperbárico como coadyuvante en centros con disponibilidad, nunca como sustituto de la cirugía.",
+      "resistencias": "Sensible a penicilina; algunas cepas presentan resistencia a clindamicina, aunque su papel principal es antitoxínico.",
+      "duracion": "Hasta 48-72 h después de la última intervención quirúrgica y con estabilidad clínica. La intoxicación alimentaria NO requiere antibiótico.",
+      "notas": "La prevención es el desbridamiento adecuado y precoz de toda herida contaminada con tierra o material orgánico."
+    },
+    "farmacos_relacionados": [
+      "INF-clindamicina",
+      "INF-metronidazol",
+      "INF-penicilina-g-benzatina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 30 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por clostridios"
+  },
+  {
+    "id": "ANA-bacteroides-fragilis",
+    "nombre": "Bacteroides fragilis",
+    "grupo": "ANA",
+    "nivel": 1,
+    "clasificacion": "Bacilo gramnegativo ANAEROBIO estricto, NO esporulado, pleomórfico, resistente a la bilis, productor de betalactamasa",
+    "morfologia_tincion": "Bacilos gramnegativos pleomórficos que se tiñen de forma irregular. Anaerobio estricto pero relativamente aerotolerante en comparación con otros anaerobios, lo que facilita su aislamiento.",
+    "mecanismo_patogenia": [
+      "CÁPSULA de polisacárido: es su principal factor de virulencia y tiene una propiedad singular — por sí sola es capaz de inducir la formación de ABSCESOS, incluso sin bacterias viables. Es antifagocítica y estimula la respuesta de linfocitos T que organizan el absceso.",
+      "Producción de betalactamasa (cefalosporinasa), que lo hace resistente a penicilina y a la mayoría de cefalosporinas.",
+      "Superóxido dismutasa y catalasa: le confieren una aerotolerancia superior a la de otros anaerobios y le permiten sobrevivir en tejidos parcialmente oxigenados hasta que el potencial redox baja.",
+      "Enzimas (colagenasa, heparinasa, hialuronidasa) que favorecen la destrucción tisular y la tromboflebitis séptica.",
+      "Sinergia con aerobios: los aerobios consumen oxígeno y bajan el potencial redox, creando el ambiente que el anaerobio necesita. De ahí el carácter polimicrobiano de estas infecciones."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Infección intraabdominal y absceso",
+        "clinica": "Fiebre, dolor abdominal y masa palpable tras perforación de víscera hueca, cirugía abdominal o diverticulitis.",
+        "lesiones": "Absceso intraabdominal o pélvico con pus fétido; peritonitis polimicrobiana.",
+        "clave": "Es el anaerobio más frecuentemente aislado en la infección intraabdominal, pese a representar menos del 1% de la flora colónica normal."
+      },
+      {
+        "cuadro": "Absceso hepático y pélvico",
+        "clinica": "Fiebre prolongada, dolor y afectación del estado general.",
+        "lesiones": "Colección con contenido purulento maloliente.",
+        "clave": "El drenaje es imprescindible: los antibióticos no esterilizan un absceso organizado."
+      },
+      {
+        "cuadro": "Infección de partes blandas polimicrobiana (pie diabético, úlcera por presión, fascitis tipo I)",
+        "clinica": "Herida de mal olor, exudado, celulitis y necrosis; a menudo con crepitación.",
+        "lesiones": "Necrosis tisular con flora mixta aerobia-anaerobia.",
+        "clave": "El OLOR FÉTIDO del exudado es la pista clínica de infección anaerobia."
+      },
+      {
+        "cuadro": "Bacteriemia anaerobia y tromboflebitis séptica",
+        "clinica": "Fiebre y sepsis a partir de un foco abdominal o pélvico; puede complicarse con embolias sépticas.",
+        "lesiones": "Trombosis venosa séptica (pileflebitis portal en el foco abdominal).",
+        "clave": "La bacteriemia por B. fragilis tiene mortalidad elevada y obliga a buscar y drenar el foco."
+      }
+    ],
+    "caracteristicas_clave": [
+      "Su cápsula puede inducir la formación de abscesos por sí sola: es un mecanismo de virulencia excepcional entre las bacterias.",
+      "Es RESISTENTE a penicilina por producción de betalactamasa: los antibióticos fiables son metronidazol, carbapenemes, piperacilina-tazobactam y amoxicilina-clavulánico.",
+      "La clindamicina ha perdido fiabilidad frente a B. fragilis (resistencia del 20-30%) y ya no debe usarse empíricamente para cubrir anaerobios por debajo del diafragma.",
+      "El olor fétido del pus, la presencia de gas en los tejidos y la localización adyacente a una superficie mucosa son las tres pistas clásicas de infección anaerobia.",
+      "Los cultivos anaerobios exigen transporte en medio adecuado y sin exposición al aire: buena parte de los «cultivos negativos» en abscesos se deben a un transporte inadecuado.",
+      "Regla operativa: por encima del diafragma predominan los anaerobios orales (sensibles a penicilina y clindamicina); por debajo, B. fragilis (que requiere metronidazol o betalactámico con inhibidor)."
+    ],
+    "diagnostico": {
+      "muestra": "Pus obtenido por ASPIRACIÓN con jeringa (no con torunda) y transportado en medio anaerobio; hemocultivos con frasco anaerobio; tejido de biopsia.",
+      "pruebas": [
+        "Cultivo anaerobio en medios selectivos con bilis y esculina",
+        "Tinción de Gram del pus: flora mixta con bacilos gramnegativos pleomórficos",
+        "Hemocultivo en frasco anaerobio",
+        "Prueba de resistencia a bilis y de producción de betalactamasa",
+        "TC abdominal para localizar el absceso"
+      ],
+      "claves": "La torunda expuesta al aire mata los anaerobios: la muestra correcta es el aspirado en jeringa sin burbujas o el tejido, procesados con rapidez."
+    },
+    "tratamiento": {
+      "eleccion": "METRONIDAZOL 500 mg/8 h (asociado a cobertura de gramnegativos aerobios), o monoterapia con piperacilina-tazobactam, amoxicilina-clavulánico o un carbapenem, que ya cubren anaerobios.",
+      "alternativas": "Moxifloxacino tiene actividad anaerobia, pero la resistencia es creciente. La clindamicina ya no es fiable frente a B. fragilis.",
+      "resistencias": "Resistencia a penicilina prácticamente universal por betalactamasa. Resistencia a clindamicina del 20-30%. Resistencia a metronidazol excepcional pero descrita.",
+      "duracion": "4-7 días en la infección intraabdominal con control adecuado del foco; más prolongada si el drenaje es incompleto.",
+      "notas": "El DRENAJE del absceso y el control del foco son el tratamiento principal; el antibiótico es complementario. Si se usa piperacilina-tazobactam o un carbapenem, añadir metronidazol es redundante."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina-clavulanico",
+      "INF-clindamicina",
+      "INF-ertapenem",
+      "INF-imipenem",
+      "INF-meropenem",
+      "INF-metronidazol",
+      "INF-piperacilina-tazobactam"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 32 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de infecciones por anaerobios"
+  },
+  {
+    "id": "ANA-clostridium-tetani",
+    "nombre": "Clostridium tetani",
+    "grupo": "ANA",
+    "nivel": 2,
+    "clasificacion": "Bacilo grampositivo ANAEROBIO estricto, MÓVIL, esporulado con espora TERMINAL que le da aspecto de «palillo de tambor» o raqueta",
+    "morfologia_tincion": "Bacilo grampositivo fino con espora terminal esférica que deforma el bacilo (imagen en palillo de tambor), muy característica.",
+    "mecanismo_patogenia": [
+      "TETANOSPASMINA: neurotoxina que asciende por transporte axonal RETRÓGRADO desde la herida hasta el asta anterior de la médula y el tronco encefálico.",
+      "En las terminaciones presinápticas de las interneuronas INHIBITORIAS de Renshaw, escinde la sinaptobrevina (VAMP) e impide la liberación de GLICINA y GABA.",
+      "El resultado es la desinhibición de la motoneurona: contracción simultánea de agonistas y antagonistas → espasmos tetánicos y rigidez. Es exactamente el mecanismo inverso de la toxina botulínica, que bloquea la liberación de acetilcolina en la unión neuromuscular y produce parálisis flácida.",
+      "La unión de la toxina a la terminación nerviosa es IRREVERSIBLE: la recuperación exige la formación de nuevas terminaciones, lo que explica que la enfermedad dure semanas.",
+      "Las esporas están en la tierra y el polvo; germinan en heridas con bajo potencial redox (profundas, punzantes, con tejido necrótico o cuerpos extraños). La bacteria NO invade: toda la enfermedad es toxínica."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Tétanos generalizado",
+        "clinica": "TRISMO (contractura del masetero, primer síntoma en el 75%), risa sardónica por contractura de los músculos faciales, disfagia, rigidez de nuca y OPISTÓTONOS; espasmos tetánicos dolorosos desencadenados por estímulos mínimos (ruido, luz, tacto), con conciencia CONSERVADA.",
+        "lesiones": "No hay lesión anatómica: es una disfunción neuroquímica pura. Complicaciones: fracturas vertebrales por los espasmos, rabdomiólisis, laringoespasmo e insuficiencia respiratoria.",
+        "clave": "La conservación de la conciencia durante espasmos extremadamente dolorosos es un rasgo definitorio y especialmente cruel de la enfermedad."
+      },
+      {
+        "cuadro": "Disautonomía tetánica",
+        "clinica": "En la segunda semana: taquicardia e hipertensión alternando con bradicardia e hipotensión, sudoración profusa, fiebre e hiperactividad simpática.",
+        "lesiones": "Hiperactividad autonómica por desinhibición.",
+        "clave": "Es hoy la principal causa de muerte en el tétanos tratado en UCI, una vez controlada la vía aérea."
+      },
+      {
+        "cuadro": "Tétanos neonatal",
+        "clinica": "En el recién nacido de madre no vacunada, entre el 3.er y el 14.º día de vida: rechazo de la succión, rigidez y espasmos.",
+        "lesiones": "Puerta de entrada habitual: el muñón umbilical contaminado.",
+        "clave": "Prácticamente erradicado donde se vacuna a la embarazada; sigue causando muertes en países sin cobertura vacunal."
+      },
+      {
+        "cuadro": "Tétanos localizado y cefálico",
+        "clinica": "Rigidez y espasmos limitados a la región de la herida; en el cefálico, tras heridas de la cara, parálisis de pares craneales (sobre todo el facial) junto a trismo.",
+        "lesiones": "Afectación segmentaria.",
+        "clave": "Puede generalizarse; el tétanos cefálico tiene peor pronóstico."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El diagnóstico es CLÍNICO: el cultivo es positivo en menos del 30% de los casos y un cultivo negativo NO descarta la enfermedad.",
+      "La enfermedad NO confiere inmunidad: la cantidad de toxina necesaria para matar es menor que la necesaria para inmunizar, por lo que hay que VACUNAR al paciente durante su convalecencia.",
+      "Espasmos con conciencia conservada: los sedantes y relajantes son parte esencial del tratamiento por razones humanitarias además de clínicas.",
+      "Mecanismo espejo del botulismo: tétanos = bloqueo de la inhibición (parálisis espástica); botulismo = bloqueo de la excitación colinérgica (parálisis flácida).",
+      "El manejo de la herida es clave: desbridamiento amplio de todo tejido necrótico y cuerpos extraños, que es donde germina la espora.",
+      "La inmunoglobulina antitetánica solo neutraliza la toxina CIRCULANTE, no la ya fijada al nervio: por eso hay que administrarla lo antes posible y no revierte los síntomas ya establecidos."
+    ],
+    "diagnostico": {
+      "muestra": "Diagnóstico clínico. Muestra de la herida para cultivo anaerobio, de bajo rendimiento.",
+      "pruebas": [
+        "Diagnóstico CLÍNICO basado en trismo, risa sardónica, espasmos y conciencia conservada",
+        "Cultivo anaerobio de la herida (positivo en <30%)",
+        "Prueba del bajalenguas: al tocar la pared faríngea posterior, el paciente muerde el depresor en lugar de tener náusea — muy específica",
+        "Determinación de anticuerpos antitetánicos: un título protector hace el diagnóstico muy improbable"
+      ],
+      "claves": "Nunca esperar a la confirmación microbiológica para iniciar el tratamiento: el diagnóstico es clínico y el tiempo es crítico."
+    },
+    "tratamiento": {
+      "eleccion": "INMUNOGLOBULINA ANTITETÁNICA HUMANA 3000-6000 UI IM (neutraliza la toxina circulante) + METRONIDAZOL 500 mg/8 h IV 7-10 días + desbridamiento quirúrgico de la herida + control de espasmos con benzodiacepinas a dosis altas y, si es preciso, bloqueo neuromuscular con ventilación mecánica.",
+      "alternativas": "Penicilina G como antibiótico alternativo, aunque el metronidazol es preferible (la penicilina es un antagonista del GABA y podría teóricamente agravar los espasmos). Sulfato de magnesio para la disautonomía.",
+      "resistencias": "No es un problema; el antibiótico solo erradica la bacteria productora, no actúa sobre la toxina ya liberada.",
+      "duracion": "Antibiótico 7-10 días. El soporte en UCI se prolonga 3-6 semanas hasta la regeneración de las terminaciones nerviosas.",
+      "notas": "VACUNAR al paciente durante la convalecencia (la enfermedad no inmuniza). Profilaxis de la herida: valorar estado vacunal y tipo de herida; en herida tetanígena con vacunación incompleta o desconocida, administrar vacuna E inmunoglobulina en lugares anatómicos distintos."
+    },
+    "farmacos_relacionados": [
+      "INF-metronidazol",
+      "INF-penicilina-g-benzatina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. 30 (estructura); AMIR Infecciosas y Microbiología 18.ª ed.; Harrison 20.ª ed., cap. de tétanos"
+  }
+]

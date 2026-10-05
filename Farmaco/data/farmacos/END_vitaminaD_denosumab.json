@@ -1,0 +1,251 @@
+[
+  {
+    "id": "END-vitamina-d-calcio",
+    "nombre": "Vitamina D y calcio",
+    "sinonimos": [
+      "Colecalciferol, calcifediol, calcitriol"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Suplemento del metabolismo óseo-mineral",
+    "subclase": "Vitamina liposoluble prohormonal y sal de calcio",
+    "mecanismo": "La vitamina D no es realmente una vitamina sino una PROHORMONA que requiere dos hidroxilaciones sucesivas: el COLECALCIFEROL (D3) se hidroxila en el HÍGADO a calcifediol (25-OH-vitamina D), que es la forma que se mide en sangre porque refleja los depósitos, y después en el RIÑÓN a CALCITRIOL (1,25-dihidroxivitamina D), que es la forma activa. Esa segunda hidroxilación está regulada por la PTH y por el fósforo, y es el paso que FALLA en la insuficiencia renal: por eso el paciente renal necesita calcitriol o sus análogos y no colecalciferol. El calcitriol aumenta la absorción intestinal de calcio y fósforo, favorece la mineralización ósea y frena la secreción de PTH. Sin vitamina D suficiente, el calcio ingerido no se absorbe y el organismo lo obtiene del hueso a costa de elevar la PTH, produciendo hiperparatiroidismo secundario y osteomalacia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DÉFICIT de vitamina D y prevención en el anciano institucionalizado",
+        "dosis": "Colecalciferol 800-2000 UI al día, o 25.000 UI mensuales; en el déficit grave, 50.000 UI semanales durante 6-8 semanas",
+        "posologia": "Diaria, semanal o mensual",
+        "via": "VO",
+        "dosis_objetivo": "Concentración de 25-OH-vitamina D superior a 30 ng/mL (75 nmol/L)",
+        "nota": "La determinación de vitamina D NO debe pedirse a la población general asintomática: es una de las pruebas más sobreutilizadas del laboratorio"
+      },
+      {
+        "patologia": "OSTEOPOROSIS, como base de cualquier tratamiento específico",
+        "dosis": "Calcio 1000-1200 mg al día (contando la DIETA) y vitamina D 800 UI al día",
+        "posologia": "Repartido en 2 tomas de calcio de no más de 500 mg",
+        "via": "VO",
+        "dosis_objetivo": "Aporte total de calcio de 1000-1200 mg al día sumando dieta y suplemento",
+        "nota": "Los bisfosfonatos y el denosumab NO funcionan bien sin un aporte adecuado de calcio y vitamina D: es el suelo sobre el que se construye todo lo demás"
+      },
+      {
+        "patologia": "Prevención del RAQUITISMO en el LACTANTE",
+        "dosis": "400 UI al día durante el primer año de vida, en TODOS los lactantes",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Se recomienda a todos los lactantes amamantados, ya que la leche materna aporta poca vitamina D. Es una de las profilaxis más coste-efectivas de la pediatría"
+      },
+      {
+        "patologia": "Enfermedad renal crónica e hipoparatiroidismo (CALCITRIOL)",
+        "dosis": "Calcitriol 0,25-1 microgramo al día, o paricalcitol según PTH",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "PTH dentro del rango recomendado para el estadio de enfermedad renal, con calcio y fósforo normales",
+        "nota": "En la insuficiencia renal el riñón no puede hidroxilar: hay que dar la forma YA ACTIVADA, y por eso el colecalciferol no basta"
+      },
+      {
+        "patologia": "Prevención de caídas y fracturas en el anciano",
+        "dosis": "800 UI al día de colecalciferol",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Las dosis ANUALES o trimestrales muy altas AUMENTAN las caídas y las fracturas: la pauta correcta es la diaria o semanal a dosis moderadas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Determinar 25-OH-vitamina D solo si hay indicación (osteoporosis, malabsorción, enfermedad renal, fármacos que la alteran, sospecha clínica), no como cribado poblacional. Calcio y función renal basales.",
+      "titulacion": "Ajuste según los niveles a los 3 meses. El calcio se ajusta contando primero lo que aporta la DIETA.",
+      "duracion": "Prolongada en el anciano y en el paciente con osteoporosis.",
+      "fin": "Se revisa la necesidad periódicamente; en el paciente con exposición solar y dieta adecuadas puede no hacer falta.",
+      "via": "Oral. El calcio se toma CON las comidas (el carbonato requiere acidez gástrica; el citrato no y es preferible con inhibidores de la bomba de protones).",
+      "monitorizacion": "Calcio sérico, función renal y 25-OH-vitamina D a los 3 meses. En tratamiento con calcitriol, calcio y fósforo mucho más frecuentes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liposoluble: requiere GRASA y sales biliares. Se absorbe mal en la malabsorción, tras cirugía bariátrica y en la colestasis.",
+      "distribucion": "Se almacena en el tejido ADIPOSO, lo que explica que el obeso necesite dosis mayores: la vitamina queda secuestrada en la grasa.",
+      "metabolismo": "Hidroxilación HEPÁTICA a calcifediol y RENAL a calcitriol.",
+      "eliminacion": "Biliar.",
+      "vida_media": "Calcifediol 2-3 SEMANAS (permite pautas semanales o mensuales); calcitriol 5-8 horas.",
+      "ajuste_renal": "En la insuficiencia renal hay que usar CALCITRIOL o paricalcitol: el colecalciferol no puede activarse.",
+      "ajuste_hepatico": "La hepatopatía grave dificulta la primera hidroxilación; se prefiere calcifediol.",
+      "interacciones": [
+        {
+          "con": "LEVOTIROXINA, hierro oral, QUINOLONAS, tetraciclinas y bisfosfonatos",
+          "efecto": "El CALCIO forma quelatos e IMPIDE su absorción",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 2-4 horas. Es una de las interacciones más frecuentes y más olvidadas de la prescripción crónica"
+        },
+        {
+          "con": "TIAZIDAS",
+          "efecto": "Reducen la excreción renal de calcio y favorecen la HIPERCALCEMIA",
+          "gravedad": "media",
+          "manejo": "Vigilar la calcemia en el paciente con suplementos"
+        },
+        {
+          "con": "Inductores enzimáticos (fenitoína, carbamazepina, rifampicina) y corticoides",
+          "efecto": "Aceleran su catabolismo y producen OSTEOMALACIA con el uso prolongado",
+          "gravedad": "alta",
+          "manejo": "Suplementar de forma sistemática en el paciente con antiepilépticos inductores o corticoterapia crónica"
+        },
+        {
+          "con": "DIGOXINA",
+          "efecto": "La hipercalcemia potencia la toxicidad digitálica",
+          "gravedad": "alta",
+          "manejo": "Vigilar la calcemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO y dispepsia por el suplemento de CALCIO, causa muy frecuente de abandono",
+        "Náuseas",
+        "Flatulencia"
+      ],
+      "graves": [
+        "HIPERCALCEMIA e HIPERCALCIURIA por sobredosificación, sobre todo con calcitriol o con megadosis de vitamina D",
+        "LITIASIS renal y nefrocalcinosis",
+        "AUMENTO DE CAÍDAS Y FRACTURAS con dosis ANUALES muy altas (500.000 UI), un hallazgo contraintuitivo y bien documentado",
+        "Intoxicación por vitamina D con confusión, poliuria, deshidratación y fracaso renal",
+        "Posible aumento de eventos cardiovasculares con suplementos de calcio a dosis altas SIN vitamina D (debatido)"
+      ]
+    },
+    "contraindicaciones": [
+      "HIPERCALCEMIA e hipercalciuria",
+      "Litiasis cálcica recidivante",
+      "Sarcoidosis y otras enfermedades granulomatosas (producen calcitriol de forma no regulada)",
+      "Hiperparatiroidismo primario no tratado",
+      "Metástasis óseas con hipercalcemia"
+    ],
+    "perlas": [
+      "La determinación de vitamina D es una de las pruebas MÁS SOBREUTILIZADAS del laboratorio. Pedirla a población sana asintomática genera un enorme volumen de resultados bajos sin significado clínico, tratamientos innecesarios y ansiedad. Se pide cuando hay una razón: osteoporosis, malabsorción, enfermedad renal, fármacos que la alteran o clínica compatible.",
+      "MÁS NO ES MEJOR, y hay evidencia sólida de ello: las dosis ANUALES muy altas AUMENTAN las caídas y las fracturas en lugar de reducirlas. La pauta correcta es diaria o semanal a dosis moderadas, y es un ejemplo excelente de que una pauta más cómoda puede ser peor.",
+      "En la INSUFICIENCIA RENAL el colecalciferol no basta: falla la hidroxilación RENAL, que es el paso activador. Hay que dar CALCITRIOL o un análogo ya activado. Es un error frecuente que deja al paciente renal con hiperparatiroidismo secundario pese a estar suplementado.",
+      "El CALCIO quela la LEVOTIROXINA, el HIERRO y las QUINOLONAS. Un paciente que toma su calcio con la levotiroxina del desayuno simplemente no absorbe la hormona tiroidea, y el hipotiroidismo no se controla por un motivo que nada tiene que ver con la dosis.",
+      "Hay que contar el calcio de la DIETA antes de suplementar. Un vaso de leche aporta unos 300 mg; con tres raciones de lácteos al día, el paciente ya llega al objetivo y el suplemento solo añade estreñimiento y riesgo de litiasis.",
+      "El calcio se reparte en tomas de no más de 500 mg: por encima de esa cantidad la absorción se satura y el resto solo produce molestias digestivas.",
+      "El CITRATO cálcico se absorbe sin necesidad de acidez gástrica, y es la sal de elección en el paciente que toma un inhibidor de la bomba de protones o que ha sufrido cirugía bariátrica.",
+      "El OBESO necesita dosis mayores porque la vitamina D queda secuestrada en el tejido adiposo: no es que la metabolice más, es que está guardada donde no se usa.",
+      "En la SARCOIDOSIS y en los granulomatosos los macrófagos producen calcitriol sin regulación: suplementar vitamina D ahí puede desencadenar una hipercalcemia grave.",
+      "Todos los lactantes AMAMANTADOS necesitan 400 UI diarias durante el primer año: la leche materna, excelente en casi todo, es pobre en vitamina D."
+    ],
+    "embarazo_lactancia": "Recomendados en el embarazo y en la lactancia a las dosis habituales; el déficit materno se asocia a raquitismo neonatal y a hipocalcemia. Se evitan las megadosis. El lactante amamantado necesita su propio suplemento de 400 UI diarias.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society y recomendaciones sobre uso adecuado de la determinación de vitamina D"
+  },
+  {
+    "id": "END-denosumab",
+    "nombre": "Denosumab",
+    "sinonimos": [
+      "Anti-RANKL"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antirresortivo",
+    "subclase": "Anticuerpo monoclonal frente al ligando de RANK",
+    "mecanismo": "Es un anticuerpo monoclonal contra el RANKL, la citocina que el osteoblasto y las células del estroma producen para reclutar, diferenciar y activar al OSTEOCLASTO. Al secuestrar el RANKL, el osteoclasto no se forma ni se activa, y la resorción ósea se detiene de forma rápida y profunda. La diferencia esencial con los BISFOSFONATOS es que estos se INCORPORAN al hueso y permanecen allí durante años, de modo que su efecto persiste tras suspenderlos, mientras que el denosumab es un anticuerpo circulante que NO se deposita en el hueso: cuando desaparece, el efecto desaparece por completo y de golpe. Ese detalle farmacológico tiene una consecuencia clínica decisiva y peligrosa: al suspenderlo se produce un REBOTE de resorción con pérdida acelerada de masa ósea y FRACTURAS VERTEBRALES MÚLTIPLES en pocos meses.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "OSTEOPOROSIS posmenopáusica y del varón con alto riesgo de fractura",
+        "dosis": "60 mg por vía subcutánea cada 6 MESES",
+        "posologia": "Una inyección cada 6 meses",
+        "via": "SC",
+        "dosis_objetivo": "Aumento de la densidad mineral ósea y reducción de fracturas vertebrales, no vertebrales y de cadera",
+        "nota": "Es de PRIMERA ELECCIÓN en la INSUFICIENCIA RENAL, donde los bisfosfonatos están contraindicados: no se elimina por el riñón"
+      },
+      {
+        "patologia": "Osteoporosis inducida por CORTICOIDES",
+        "dosis": "60 mg SC cada 6 meses",
+        "posologia": "Cada 6 meses",
+        "via": "SC",
+        "nota": "Se asocia siempre calcio y vitamina D, y hay que garantizar niveles adecuados ANTES de la inyección"
+      },
+      {
+        "patologia": "Pérdida ósea por terapia hormonal en el cáncer de próstata o de mama",
+        "dosis": "60 mg SC cada 6 meses",
+        "posologia": "Cada 6 meses",
+        "via": "SC",
+        "nota": "Los inhibidores de la aromatasa y la deprivación androgénica producen pérdida ósea acelerada que justifica el tratamiento preventivo"
+      },
+      {
+        "patologia": "Prevención de eventos óseos en METÁSTASIS óseas (dosis oncológica)",
+        "dosis": "120 mg SC cada 4 semanas",
+        "posologia": "Mensual",
+        "via": "SC",
+        "dosis_objetivo": "Reducción de fracturas patológicas, compresión medular y necesidad de radioterapia",
+        "nota": "La dosis oncológica es DOBLE y DOCE veces más frecuente que la de osteoporosis, y con ella el riesgo de osteonecrosis mandibular es mucho mayor"
+      }
+    ],
+    "esquema": {
+      "inicio": "CORREGIR la HIPOCALCEMIA y el déficit de vitamina D ANTES de la primera dosis: inyectarlo con calcio bajo puede producir una hipocalcemia grave y sintomática. REVISIÓN DENTAL previa y tratamiento de los focos infecciosos.",
+      "titulacion": "Dosis fija.",
+      "duracion": "Prolongada, pero con una salida PLANIFICADA desde el principio.",
+      "fin": "Este es el punto crítico: NO se suspende sin más. Al retirarlo hay que administrar un BISFOSFONATO (zoledronato o alendronato) para consolidar el hueso y evitar el rebote. Y no se debe RETRASAR una dosis: pasados 7 meses desde la última, el riesgo de fracturas vertebrales múltiples se dispara.",
+      "via": "Subcutánea.",
+      "monitorizacion": "CALCIO sérico antes de cada dosis (y a las 2 semanas en el paciente renal), vitamina D, y revisión odontológica periódica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad subcutánea del 60%.",
+      "distribucion": "Compartimento vascular; NO se deposita en el hueso, a diferencia de los bisfosfonatos.",
+      "metabolismo": "Catabolismo proteico, como cualquier anticuerpo.",
+      "eliminacion": "Sistema reticuloendotelial; NO se elimina por vía renal.",
+      "vida_media": "26 días, con efecto que se agota entre los 6 y los 9 meses tras la última dosis.",
+      "ajuste_renal": "NO requiere ajuste y es de elección en la insuficiencia renal, pero el riesgo de HIPOCALCEMIA GRAVE aumenta mucho con filtrado bajo: hay que vigilar el calcio estrechamente.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "Otros antirresortivos y ácido zoledrónico",
+          "efecto": "Supresión excesiva del remodelado óseo",
+          "gravedad": "media",
+          "manejo": "No se administran simultáneamente, aunque el bisfosfonato SÍ se usa de forma secuencial al retirarlo"
+        },
+        {
+          "con": "Corticoides y quimioterapia",
+          "efecto": "Aumentan el riesgo de osteonecrosis mandibular y de infección",
+          "gravedad": "media",
+          "manejo": "Extremar la vigilancia dental"
+        },
+        {
+          "con": "Déficit de VITAMINA D no corregido",
+          "efecto": "HIPOCALCEMIA GRAVE y sintomática tras la inyección",
+          "gravedad": "alta",
+          "manejo": "Corregir SIEMPRE antes de la primera dosis: es la precaución más importante"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor musculoesquelético y artralgias",
+        "Infecciones cutáneas y celulitis",
+        "Molestias en el punto de inyección",
+        "Hipocalcemia leve"
+      ],
+      "graves": [
+        "FRACTURAS VERTEBRALES MÚLTIPLES POR REBOTE al suspenderlo o al retrasar una dosis: es su complicación más característica y más peligrosa, y ocurre en pacientes que dejaron el tratamiento creyendo que ya no lo necesitaban",
+        "HIPOCALCEMIA GRAVE, sobre todo en la insuficiencia renal y con déficit de vitamina D no corregido",
+        "OSTEONECROSIS DE LA MANDÍBULA, muy poco frecuente con la dosis de osteoporosis y bastante más con la dosis oncológica",
+        "FRACTURA FEMORAL ATÍPICA subtrocantérea con el uso prolongado",
+        "Infecciones graves (celulitis, endocarditis, diverticulitis)",
+        "Reacciones de hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "HIPOCALCEMIA no corregida",
+      "Embarazo",
+      "Hipersensibilidad conocida",
+      "Precaución en la insuficiencia renal grave por el riesgo de hipocalcemia"
+    ],
+    "perlas": [
+      "El REBOTE al suspenderlo es la característica que hay que conocer antes de prescribirlo. A diferencia de los bisfosfonatos, no se deposita en el hueso: cuando desaparece del plasma, el efecto se pierde de golpe y se produce una oleada de resorción con fracturas vertebrales MÚLTIPLES en pocos meses, a veces en pacientes que nunca habían tenido ninguna.",
+      "De ahí la regla práctica: al retirarlo hay que dar SIEMPRE un BISFOSFONATO para consolidar. Denosumab es un tratamiento con SALIDA PLANIFICADA desde el día en que se empieza, y esa planificación forma parte de la indicación.",
+      "NO SE PUEDE RETRASAR una dosis. Pasados 7 meses desde la anterior, el riesgo de fractura vertebral múltiple aumenta de forma significativa. Un paciente que se salta la cita de los 6 meses por cualquier motivo administrativo está en riesgo real, y eso obliga a un circuito de citación fiable.",
+      "Hay que CORREGIR el CALCIO y la VITAMINA D ANTES de la primera inyección. Administrarlo con hipovitaminosis D produce hipocalcemia sintomática, y en el paciente renal puede ser grave.",
+      "Es de PRIMERA ELECCIÓN en la INSUFICIENCIA RENAL, donde los bisfosfonatos están contraindicados, porque no se elimina por el riñón. Pero es precisamente en esos pacientes donde más hay que vigilar el calcio: la ventaja y el riesgo vienen juntos.",
+      "La dosis ONCOLÓGICA (120 mg mensuales) es doce veces mayor en exposición anual que la de osteoporosis (60 mg semestrales), y con ella la osteonecrosis mandibular deja de ser una rareza. No hay que trasladar la percepción de seguridad de una indicación a la otra.",
+      "La REVISIÓN DENTAL antes de empezar y la evitación de extracciones durante el tratamiento son medidas sencillas que previenen la osteonecrosis mandibular, y se olvidan sistemáticamente en la consulta no odontológica.",
+      "Un dolor persistente en el muslo o en la ingle en un paciente tratado durante años obliga a descartar una FRACTURA FEMORAL ATÍPICA, que suele avisar semanas antes de completarse."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo: el RANKL interviene en el desarrollo óseo y en el de la glándula mamaria fetal. Requiere anticoncepción eficaz durante el tratamiento y en los 5 meses siguientes. No recomendado en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; guías de la Endocrine Society sobre osteoporosis y alertas sobre el efecto rebote del denosumab"
+  }
+]

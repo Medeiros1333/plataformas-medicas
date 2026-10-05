@@ -1,0 +1,264 @@
+[
+  {
+    "id": "ONC-platinos",
+    "nombre": "Cisplatino, carboplatino y oxaliplatino",
+    "sinonimos": [
+      "Derivados del platino"
+    ],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico alquilante (derivado del platino)",
+    "subclase": "Agentes alquilantes atípicos (formadores de aductos de platino en el ADN)",
+    "mecanismo": "Tras perder sus ligandos por hidrólisis intracelular, el átomo de platino se une covalentemente al nitrógeno 7 de la GUANINA y forma ADUCTOS, en su mayoría enlaces cruzados INTRACATENARIOS entre guaninas adyacentes. Esos aductos distorsionan la doble hélice, bloquean la replicación y la transcripción y, si el daño no se repara, desencadenan la apoptosis. No son ciclo-específicos. La reparación del daño depende de la vía de ESCISIÓN DE NUCLEÓTIDOS: los tumores con esa vía deficiente (como los que tienen mutación de BRCA) son especialmente sensibles al platino, y ese es el fundamento de su uso preferente en cáncer de ovario y en el cáncer de mama triple negativo con mutación BRCA. Las tres moléculas comparten el mecanismo pero difieren radicalmente en su TOXICIDAD, y esa diferencia es la que decide cuál se elige.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Tumores germinales de testículo",
+        "dosis": "Cisplatino 20 mg/m² al día durante 5 días, cada 3 semanas (esquema BEP con bleomicina y etopósido)",
+        "posologia": "Ciclos de 21 días",
+        "via": "IV",
+        "nota": "Es el ejemplo histórico de una neoplasia diseminada que pasó a ser CURABLE en más del 80% de los casos gracias al cisplatino"
+      },
+      {
+        "patologia": "Cáncer de PULMÓN no microcítico y microcítico",
+        "dosis": "Cisplatino 75 mg/m² o carboplatino AUC 5-6, cada 3 semanas, en combinación",
+        "posologia": "Ciclos de 21 días",
+        "via": "IV",
+        "nota": "El CARBOPLATINO se dosifica por AUC con la fórmula de Calvert, que incorpora el filtrado glomerular, y no por superficie corporal"
+      },
+      {
+        "patologia": "Cáncer COLORRECTAL (oxaliplatino)",
+        "dosis": "Oxaliplatino 85 mg/m² cada 2 semanas (esquema FOLFOX) o 130 mg/m² cada 3 semanas (CAPOX)",
+        "posologia": "Ciclos de 14 o 21 días",
+        "via": "IV",
+        "nota": "El oxaliplatino es el único platino con actividad relevante en cáncer colorrectal, y su toxicidad limitante es NEUROLÓGICA, no renal"
+      },
+      {
+        "patologia": "Cáncer de OVARIO",
+        "dosis": "Carboplatino AUC 5-6 asociado a paclitaxel, cada 3 semanas",
+        "posologia": "Ciclos de 21 días",
+        "via": "IV",
+        "dosis_objetivo": "AUC de 5-6 calculada por la fórmula de Calvert a partir del filtrado glomerular",
+        "nota": "La SENSIBILIDAD AL PLATINO (recaída antes o después de 6 meses desde el último ciclo) es el factor que más determina el tratamiento posterior"
+      },
+      {
+        "patologia": "Cáncer de cabeza y cuello, vejiga y cérvix",
+        "dosis": "Cisplatino 100 mg/m² cada 3 semanas o 40 mg/m² semanal como radiosensibilizante",
+        "posologia": "Semanal o cada 3 semanas",
+        "via": "IV",
+        "nota": "El cisplatino semanal concurrente con radioterapia es el estándar en varios tumores localmente avanzados"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de cada ciclo de CISPLATINO: función renal, ionograma con MAGNESIO, audiometría basal, y una HIPERHIDRATACIÓN con suero salino de al menos 2-3 litros. Antiemesis de alto riesgo emetógeno (antagonista NK1, setrón y corticoide).",
+      "titulacion": "Reducción de dosis o cambio de fármaco según toxicidad acumulada, no según respuesta.",
+      "duracion": "Habitualmente 4-6 ciclos; la toxicidad ACUMULATIVA (neuropatía, ototoxicidad, deterioro renal) es lo que limita la duración, no la eficacia.",
+      "fin": "Se suspende por progresión, por toxicidad limitante o al completar el número de ciclos previstos.",
+      "via": "Intravenosa. El oxaliplatino se administra en glucosado, NO en salino (precipita con el cloruro).",
+      "monitorizacion": "Función renal, magnesio, potasio y calcio antes de cada ciclo; audiometría con cisplatino; exploración NEUROLÓGICA sistemática con oxaliplatino; hemograma."
+    },
+    "farmacocinetica": {
+      "absorcion": "Administración intravenosa exclusiva.",
+      "distribucion": "Amplia; muy alta unión a proteínas plasmáticas de la fracción no ligada al ADN. NO atraviesan la barrera hematoencefálica.",
+      "metabolismo": "Hidrólisis no enzimática intracelular.",
+      "eliminacion": "RENAL, lo que explica que el deterioro de la función renal aumente la toxicidad de todos ellos.",
+      "vida_media": "Compleja y multifásica; el platino unido a proteínas persiste meses en el organismo.",
+      "ajuste_renal": "El CARBOPLATINO se dosifica directamente en función del filtrado glomerular (fórmula de Calvert). El CISPLATINO se evita con filtrado menor de 60 mL/min: se sustituye por carboplatino.",
+      "ajuste_hepatico": "Sin ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "AMINOGLUCÓSIDOS, vancomicina, anfotericina, AINE, contrastes yodados",
+          "efecto": "NEFROTOXICIDAD y OTOTOXICIDAD aditivas con el cisplatino",
+          "gravedad": "alta",
+          "manejo": "Evitar durante el tratamiento; si es imprescindible un aminoglucósido, buscar alternativa"
+        },
+        {
+          "con": "Furosemida",
+          "efecto": "Suma ototoxicidad y depleción de volumen, que agrava la nefrotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar durante la hiperhidratación; usar manitol si hace falta diuresis"
+        },
+        {
+          "con": "Fenitoína",
+          "efecto": "El platino reduce sus concentraciones con riesgo de crisis",
+          "gravedad": "media",
+          "manejo": "Monitorizar niveles"
+        },
+        {
+          "con": "Suero SALINO (oxaliplatino)",
+          "efecto": "El cloruro desplaza los ligandos y lo inactiva o precipita",
+          "gravedad": "alta",
+          "manejo": "El oxaliplatino se diluye SIEMPRE en glucosado al 5%. Es un error de preparación con consecuencias reales"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "NÁUSEAS Y VÓMITOS intensos (el cisplatino es el fármaco MÁS emetógeno de la oncología)",
+        "Astenia y anorexia",
+        "Mielosupresión (predominante con carboplatino)",
+        "Alopecia (leve con platinos)"
+      ],
+      "graves": [
+        "CISPLATINO: NEFROTOXICIDAD por necrosis tubular, OTOTOXICIDAD IRREVERSIBLE con sordera para frecuencias agudas, y pérdida renal de MAGNESIO con hipomagnesemia grave y persistente",
+        "OXALIPLATINO: NEUROTOXICIDAD en dos formas distintas: una AGUDA por disestesias desencadenadas por el FRÍO, en las horas siguientes a la infusión, y otra CRÓNICA y ACUMULATIVA con neuropatía sensitiva que puede ser incapacitante y persistir años",
+        "CARBOPLATINO: MIELOSUPRESIÓN dosis-limitante, sobre todo trombopenia, y REACCIONES DE HIPERSENSIBILIDAD que aparecen típicamente a partir del sexto ciclo o en la reexposición",
+        "Neuropatía periférica también con cisplatino",
+        "Síndrome hemolítico-urémico y microangiopatía",
+        "Infertilidad y toxicidad gonadal",
+        "Segundas neoplasias (leucemias) a largo plazo"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal significativa (cisplatino)",
+      "Hipoacusia preexistente relevante (cisplatino)",
+      "Neuropatía periférica establecida (oxaliplatino)",
+      "Mielosupresión grave",
+      "EMBARAZO",
+      "Hipersensibilidad previa a platinos"
+    ],
+    "perlas": [
+      "Los tres platinos comparten mecanismo y se distinguen por su TOXICIDAD, y esa es la forma correcta de recordarlos: CISPLATINO daña riñón, oído y magnesio; CARBOPLATINO daña la médula; OXALIPLATINO daña los nervios. Elegir entre ellos es elegir qué toxicidad puede permitirse ese paciente.",
+      "La HIPERHIDRATACIÓN con salino antes y después del cisplatino no es un ritual: reduce de forma sustancial la necrosis tubular. Un cisplatino administrado sin hidratación adecuada es un error de protocolo con daño renal permanente.",
+      "La HIPOMAGNESEMIA del cisplatino es persistente, se olvida y produce calambres, tetania, arritmias e hipopotasemia refractaria (sin corregir el magnesio, el potasio no sube). Hay que medirla y reponerla en cada ciclo.",
+      "La OTOTOXICIDAD del cisplatino es IRREVERSIBLE y empieza por las frecuencias agudas, que el paciente no nota. Sin audiometría seriada se detecta cuando ya afecta a la conversación, y entonces ya no hay marcha atrás. En el niño esa sordera compromete el desarrollo del lenguaje.",
+      "La neurotoxicidad AGUDA del oxaliplatino es inconfundible y hay que anticiparla al paciente: disestesias en manos, pies y garganta desencadenadas por el FRÍO en las horas siguientes al ciclo. Beber algo frío o coger algo del congelador produce una sensación alarmante. Se previene evitando el frío, no reduciendo la dosis.",
+      "El CARBOPLATINO se dosifica por AUC con la fórmula de Calvert, que incorpora el filtrado glomerular: es de los pocos fármacos que se prescriben por un objetivo de exposición y no por superficie corporal.",
+      "La HIPERSENSIBILIDAD al carboplatino aparece de forma característica a partir del SEXTO ciclo o en la reexposición del cáncer de ovario recidivado: no es una alergia de la primera dosis, sino una sensibilización adquirida, y existen protocolos de desensibilización que permiten seguir usándolo.",
+      "El OXALIPLATINO se diluye en GLUCOSADO, nunca en salino. Es un detalle de preparación que corresponde a farmacia pero que conviene conocer, porque el cloruro lo inactiva.",
+      "El cisplatino es el fármaco más EMETÓGENO que existe: exige triple antiemesis profiláctica (antagonista NK1, setrón y corticoide), no un antiemético de rescate cuando el paciente ya está vomitando."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo, especialmente en el primer trimestre. Producen toxicidad gonadal e infertilidad, por lo que hay que ofrecer PRESERVACIÓN DE FERTILIDAD (criopreservación de semen u ovocitos) antes de iniciar el tratamiento en pacientes jóvenes. Contraindicados en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO y protocolos de quimioterapia"
+  },
+  {
+    "id": "ONC-antraciclinas",
+    "nombre": "Antraciclinas (doxorubicina, epirubicina, daunorubicina)",
+    "sinonimos": [],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico: antraciclina (inhibidor de la topoisomerasa II)",
+    "subclase": "Antibióticos antitumorales inhibidores de la topoisomerasa II",
+    "mecanismo": "Actúan por tres vías simultáneas. La principal es el ENVENENAMIENTO DE LA TOPOISOMERASA II: estabilizan el complejo enzima-ADN en el momento en que la doble hebra está cortada, impidiendo que se vuelva a unir y dejando roturas de doble cadena letales. Además se INTERCALAN entre los pares de bases, distorsionando la hélice, y generan RADICALES LIBRES a través de un ciclo redox catalizado por el HIERRO. Esa tercera vía es la que explica la CARDIOTOXICIDAD: el miocardiocito tiene pocas defensas antioxidantes y abundante topoisomerasa II beta, y el resultado es una muerte celular progresiva, ACUMULATIVA y en gran medida IRREVERSIBLE, que no se recupera al retirar el fármaco.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de MAMA, adyuvancia y enfermedad avanzada",
+        "dosis": "Doxorubicina 60 mg/m² o epirubicina 90-100 mg/m² cada 3 semanas, con ciclofosfamida",
+        "posologia": "Ciclos de 21 días",
+        "via": "IV",
+        "dosis_objetivo": "No superar la dosis ACUMULADA de 450-550 mg/m² de doxorubicina (900-1000 mg/m² de epirubicina)",
+        "nota": "La dosis acumulada máxima es el límite que define todo el tratamiento y hay que llevar la cuenta a lo largo de la vida del paciente"
+      },
+      {
+        "patologia": "LINFOMAS (esquema CHOP y ABVD)",
+        "dosis": "Doxorubicina 50 mg/m² (CHOP) o 25 mg/m² los días 1 y 15 (ABVD)",
+        "posologia": "Ciclos de 14 o 21 días",
+        "via": "IV",
+        "nota": "La antraciclina es la pieza con nombre propio de ambos esquemas: la H de CHOP y la A de ABVD"
+      },
+      {
+        "patologia": "LEUCEMIA AGUDA MIELOIDE (inducción)",
+        "dosis": "Daunorubicina 60-90 mg/m² los días 1 a 3, con citarabina (esquema 3+7)",
+        "posologia": "Tres días consecutivos",
+        "via": "IV",
+        "nota": "El esquema clásico de inducción, prácticamente inalterado durante décadas"
+      },
+      {
+        "patologia": "SARCOMAS de partes blandas y osteosarcoma",
+        "dosis": "Doxorubicina 60-75 mg/m² cada 3 semanas",
+        "posologia": "Ciclos de 21 días",
+        "via": "IV",
+        "nota": "Es el fármaco más activo en sarcomas y sigue siendo la base del tratamiento"
+      },
+      {
+        "patologia": "Cáncer de VEJIGA no músculo-invasivo (instilación)",
+        "dosis": "Doxorubicina o epirubicina 50 mg en instilación intravesical",
+        "posologia": "Instilación única postoperatoria o semanal",
+        "via": "intravesical",
+        "nota": "La instilación local evita casi por completo la toxicidad sistémica"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECOCARDIOGRAMA con fracción de eyección ANTES del primer ciclo, y registro de la dosis acumulada de partida (incluyendo tratamientos previos, que a veces son de la infancia). Antiemesis de riesgo moderado-alto.",
+      "titulacion": "No se titula al alza. Se lleva la cuenta ESTRICTA de la dosis acumulada.",
+      "duracion": "Limitada por la dosis acumulada máxima, no por la respuesta.",
+      "fin": "Se detiene al alcanzar el techo acumulado o ante un descenso significativo de la fracción de eyección.",
+      "via": "Intravenosa por vía CENTRAL siempre que sea posible: son VESICANTES y su extravasación produce necrosis extensa.",
+      "monitorizacion": "Fracción de eyección basal, periódica durante el tratamiento y en el SEGUIMIENTO A LARGO PLAZO (la cardiotoxicidad tardía puede aparecer 10-20 años después). Hemograma, función hepática, y registro permanente de la dosis acumulada."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa exclusiva.",
+      "distribucion": "Amplia, con alta afinidad tisular; NO atraviesan la barrera hematoencefálica. La formulación LIPOSOMAL PEGILADA modifica por completo la distribución, reduce la cardiotoxicidad y cambia el perfil de toxicidad hacia la eritrodisestesia palmoplantar.",
+      "metabolismo": "Hepático a doxorubicinol.",
+      "eliminacion": "BILIAR mayoritariamente.",
+      "vida_media": "20-48 horas, multifásica.",
+      "ajuste_renal": "Ajuste menor; la eliminación es fundamentalmente biliar.",
+      "ajuste_hepatico": "REDUCCIÓN OBLIGATORIA según la bilirrubina: es el ajuste que hay que recordar, ya que se eliminan por vía biliar.",
+      "interacciones": [
+        {
+          "con": "TRASTUZUMAB y otros anti-HER2",
+          "efecto": "CARDIOTOXICIDAD sinérgica y muy superior a la suma de ambas",
+          "gravedad": "alta",
+          "manejo": "NO se administran de forma concurrente: se dan de forma SECUENCIAL, primero la antraciclina y después el anti-HER2, con vigilancia ecocardiográfica"
+        },
+        {
+          "con": "Ciclofosfamida, taxanos, radioterapia mediastínica",
+          "efecto": "Suman cardiotoxicidad",
+          "gravedad": "alta",
+          "manejo": "Reducir el techo acumulado en pacientes irradiados en el tórax"
+        },
+        {
+          "con": "Verapamilo, ciclosporina (inhibidores de la glicoproteína P)",
+          "efecto": "Aumentan sus concentraciones y su toxicidad",
+          "gravedad": "media",
+          "manejo": "Vigilancia estrecha"
+        },
+        {
+          "con": "DEXRAZOXANO",
+          "efecto": "Quela el hierro y REDUCE la cardiotoxicidad",
+          "gravedad": "baja",
+          "manejo": "Interacción BUSCADA: es el cardioprotector y también el antídoto de la extravasación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ALOPECIA prácticamente universal",
+        "MIELOSUPRESIÓN con nadir a los 10-14 días",
+        "Mucositis y náuseas",
+        "ORINA ROJA durante 1-2 días, inofensiva pero muy alarmante si no se advierte"
+      ],
+      "graves": [
+        "CARDIOTOXICIDAD en tres formas: AGUDA (arritmias y alteraciones del ECG, transitorias), CRÓNICA precoz (miocardiopatía dilatada en el primer año, dependiente de la dosis acumulada) y TARDÍA (insuficiencia cardiaca 10-20 años después, especialmente relevante en supervivientes de cáncer INFANTIL)",
+        "EXTRAVASACIÓN con necrosis tisular extensa que puede requerir cirugía reconstructiva",
+        "Neutropenia febril",
+        "SEGUNDAS NEOPLASIAS: leucemia mieloide aguda secundaria relacionada con la topoisomerasa II, de aparición precoz (1-3 años) y mal pronóstico",
+        "Eritrodisestesia palmoplantar con la formulación liposomal",
+        "Infertilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Dosis acumulada máxima ya alcanzada",
+      "Insuficiencia cardiaca o fracción de eyección deprimida",
+      "Infarto de miocardio reciente y arritmias graves",
+      "Mielosupresión grave e insuficiencia hepática avanzada",
+      "EMBARAZO"
+    ],
+    "perlas": [
+      "La DOSIS ACUMULADA es el número que define toda la relación del paciente con este fármaco: por encima de 450-550 mg/m² de doxorubicina, la incidencia de insuficiencia cardiaca se dispara. Ese número acompaña al paciente DE POR VIDA, y hay que conocerlo antes de plantear una antraciclina a alguien que ya recibió una hace veinte años, a veces en la infancia.",
+      "La cardiotoxicidad TARDÍA es el gran problema de los supervivientes de cáncer INFANTIL: adultos jóvenes que desarrollan insuficiencia cardiaca dos décadas después de curarse. Es la razón de que estos pacientes necesiten seguimiento cardiológico de por vida, y de que un médico que atiende a un adulto de 30 años con miocardiopatía deba preguntar por oncología pediátrica.",
+      "La combinación con TRASTUZUMAB multiplica el daño cardiaco: no se administran a la vez, sino de forma secuencial. Es una de las reglas de seguridad más importantes del cáncer de mama HER2 positivo.",
+      "La ORINA ROJA de los días siguientes asusta muchísimo si no se ha advertido, y se confunde con hematuria. Una frase al prescribir evita una consulta urgente angustiada.",
+      "Son VESICANTES: la extravasación produce una necrosis progresiva que puede llegar al tendón y al hueso. El antídoto es el DEXRAZOXANO sistémico y el frío local, y por eso se administran preferentemente por vía central.",
+      "El DEXRAZOXANO ilustra el mecanismo mejor que ninguna explicación: quela el HIERRO, y al quitarle el hierro al ciclo redox desaparece buena parte de la cardiotoxicidad. Es la prueba práctica de que los radicales libres dependientes de hierro son la causa.",
+      "La formulación LIPOSOMAL PEGILADA cambia el intercambio de toxicidades: mucha menos cardiotoxicidad y alopecia, a cambio de eritrodisestesia palmoplantar. Es la opción en pacientes con riesgo cardiaco.",
+      "La LEUCEMIA SECUNDARIA relacionada con la topoisomerasa II aparece PRONTO (1-3 años), sin fase mielodisplásica previa y con translocaciones de MLL, a diferencia de la asociada a alquilantes, que tarda 5-7 años y pasa por una mielodisplasia. Es una distinción clásica y con implicación pronóstica.",
+      "El ajuste que se olvida es el HEPÁTICO: se eliminan por vía biliar, y una bilirrubina elevada obliga a reducir la dosis para evitar una toxicidad grave."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADAS en el embarazo, sobre todo en el primer trimestre; en el segundo y tercero se han usado con precaución en el cáncer de mama gestacional. Producen infertilidad, por lo que hay que plantear la preservación de fertilidad antes de empezar. Contraindicadas en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; guías ESMO de cardio-oncología"
+  }
+]

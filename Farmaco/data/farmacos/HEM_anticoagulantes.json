@@ -1,0 +1,528 @@
+[
+  {
+    "id": "HEM-enoxaparina",
+    "nombre": "Enoxaparina (heparina de bajo peso molecular)",
+    "sinonimos": [
+      "HBPM"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Anticoagulante parenteral (heparinas y fondaparinux)",
+    "subclase": "Heparina de bajo peso molecular: inhibidor indirecto del factor Xa",
+    "vs_clase": [
+      "**La HBPM con MÁS evidencia** y la de referencia en síndrome coronario agudo, ETV y profilaxis.",
+      "**Dosis terapéutica 1 mg/kg cada 12 h** (o 1,5 mg/kg/24 h); con FG <30, 1 mg/kg/24 h.",
+      "**La protamina la revierte solo parcialmente (~60%)**; control con anti-Xa en obesos, embarazadas e insuficiencia renal."
+    ],
+    "mecanismo": "Se une a la ANTITROMBINA y multiplica por mil su capacidad de inactivar factores de la coagulación. Al ser cadenas cortas (menos de 18 sacáridos), no puede formar el puente ternario necesario para inactivar la TROMBINA (factor IIa) y actúa casi exclusivamente sobre el FACTOR Xa: el cociente anti-Xa/anti-IIa es de 3-4 a 1, frente al 1 a 1 de la heparina no fraccionada. De esa selectividad derivan sus tres ventajas: respuesta predecible sin controles, menor unión a proteínas y plaquetas (menos trombocitopenia inducida por heparina) y administración subcutánea cada 12-24 h.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la enfermedad tromboembólica en el paciente médico o quirúrgico hospitalizado",
+        "dosis": "40 mg/24 h (20 mg/24 h si el peso es bajo o el filtrado glomerular está reducido)",
+        "posologia": "Una vez al día",
+        "via": "SC",
+        "nota": "Es la intervención preventiva más eficaz del paciente hospitalizado; debe evaluarse el riesgo trombótico y hemorrágico al ingreso"
+      },
+      {
+        "patologia": "Tratamiento de la trombosis venosa profunda y del tromboembolismo pulmonar",
+        "dosis": "1 mg/kg/12 h, o 1,5 mg/kg/24 h",
+        "posologia": "Cada 12 h (preferida) o cada 24 h",
+        "via": "SC",
+        "nota": "La pauta cada 12 h es preferible en obesidad, cáncer y embolia pulmonar de riesgo intermedio"
+      },
+      {
+        "patologia": "Enfermedad tromboembólica asociada a CÁNCER",
+        "dosis": "1 mg/kg/12 h el primer mes, después 1,5 mg/kg/24 h",
+        "posologia": "Diaria o cada 12 h",
+        "via": "SC",
+        "nota": "Durante años fue el tratamiento de elección; hoy compite con los anticoagulantes orales directos, que se prefieren salvo en tumores gastrointestinales o genitourinarios con riesgo de sangrado"
+      },
+      {
+        "patologia": "Síndrome coronario agudo sin elevación del ST",
+        "dosis": "1 mg/kg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "SC",
+        "nota": "Se asocia a la doble antiagregación; en mayores de 75 años se omite el bolo intravenoso y se reduce la dosis"
+      },
+      {
+        "patologia": "Anticoagulación en el embarazo (terapia puente o tratamiento)",
+        "dosis": "Profiláctica 40 mg/24 h; terapéutica 1 mg/kg/12 h",
+        "posologia": "Diaria o cada 12 h",
+        "via": "SC",
+        "nota": "Es el anticoagulante DE ELECCIÓN en el embarazo porque no atraviesa la placenta"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde la primera administración, calculada por PESO REAL en la indicación terapéutica. Antes de iniciar: hemograma con plaquetas, función renal, y valorar el riesgo hemorrágico.",
+      "titulacion": "No se titula ni se monitoriza de rutina. Solo se mide la ACTIVIDAD ANTI-Xa en situaciones concretas: insuficiencia renal, obesidad extrema, peso muy bajo, embarazo y niños.",
+      "duracion": "Profilaxis mientras dure el ingreso o el periodo de riesgo. Tratamiento: mínimo 3 meses en la enfermedad tromboembólica; indefinido si el episodio fue no provocado y con bajo riesgo hemorrágico, o mientras el cáncer esté activo.",
+      "fin": "Suspensión sin necesidad de descenso progresivo. Antes de una punción neuroaxial hay que respetar 12 h desde la dosis profiláctica y 24 h desde la terapéutica.",
+      "via": "SC en el abdomen, en el pliegue cutáneo, SIN purgar la burbuja de aire y SIN masajear después.",
+      "monitorizacion": "PLAQUETAS antes de empezar y periódicamente en tratamientos prolongados o tras cirugía, para detectar trombocitopenia inducida por heparina; función renal; hemoglobina; signos de sangrado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad subcutánea superior al 90%, muy predecible: esa es la razón de que no precise controles de coagulación.",
+      "distribucion": "Escasa unión a proteínas plasmáticas, a diferencia de la heparina no fraccionada, cuya unión inespecífica explica su respuesta errática.",
+      "metabolismo": "Desulfatación y despolimerización hepática, de importancia menor.",
+      "eliminacion": "RENAL en proporción elevada. Es su punto débil: en la insuficiencia renal se ACUMULA y aumenta el riesgo hemorrágico.",
+      "vida_media": "4-7 h; se prolonga de forma marcada con filtrado glomerular reducido.",
+      "ajuste_renal": "FG 15-30: reducir a 1 mg/kg/24 h en tratamiento y a 20 mg/24 h en profilaxis. FG por debajo de 15: preferir HEPARINA NO FRACCIONADA, que no depende del riñón.",
+      "ajuste_hepatico": "No precisa ajuste específico, pero la hepatopatía avanzada añade riesgo hemorrágico por déficit de factores.",
+      "interacciones": [
+        {
+          "con": "Antiagregantes (AAS, clopidogrel), AINE, anticoagulantes orales",
+          "efecto": "Riesgo hemorrágico aditivo",
+          "gravedad": "alta",
+          "manejo": "Combinar solo cuando exista indicación clara; evitar AINE, y valorar protección gástrica"
+        },
+        {
+          "con": "IECA, ARA-II, antialdosterónicos",
+          "efecto": "HIPERPOTASEMIA por inhibición de la secreción de aldosterona (efecto de la heparina poco conocido)",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio en tratamientos prolongados, sobre todo en el nefrópata y el diabético"
+        },
+        {
+          "con": "Anestesia neuroaxial y punción lumbar",
+          "efecto": "HEMATOMA EPIDURAL o espinal con paraplejía",
+          "gravedad": "alta",
+          "manejo": "Respetar 12 h (dosis profiláctica) o 24 h (terapéutica) antes de la punción y 4 h después de retirar el catéter"
+        },
+        {
+          "con": "Corticoides sistémicos",
+          "efecto": "Fragilidad vascular con más riesgo de sangrado",
+          "gravedad": "baja",
+          "manejo": "Vigilancia clínica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HEMATOMA y dolor en el punto de inyección",
+        "Sangrado menor: equimosis, gingivorragia, epistaxis",
+        "Elevación asintomática de transaminasas",
+        "Hiperpotasemia leve"
+      ],
+      "graves": [
+        "HEMORRAGIA MAYOR: digestiva, intracraneal o retroperitoneal (esta última con dolor lumbar o inguinal y anemización, fácil de pasar por alto)",
+        "TROMBOCITOPENIA INDUCIDA POR HEPARINA tipo II: mediada por anticuerpos frente al complejo heparina-factor 4 plaquetario, PROTROMBÓTICA pese a la trombopenia; menos frecuente que con heparina no fraccionada pero posible",
+        "HEMATOMA EPIDURAL tras punción neuroaxial",
+        "Osteoporosis en tratamientos muy prolongados (menor que con heparina no fraccionada)",
+        "Necrosis cutánea en el punto de inyección"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa mayor",
+      "Antecedente de trombocitopenia inducida por heparina",
+      "Hemorragia intracraneal reciente",
+      "Endocarditis infecciosa aguda con vegetaciones (contraindicación relativa)",
+      "Punción neuroaxial reciente sin respetar los intervalos"
+    ],
+    "perlas": [
+      "La TROMBOCITOPENIA INDUCIDA POR HEPARINA tipo II es contraintuitiva y hay que tenerla presente: el paciente tiene POCAS plaquetas y sin embargo TROMBOSA. Se sospecha por la regla de las 4 T (trombopenia de más del 50% entre los días 5 y 10, trombosis nueva, ausencia de otra causa). El tratamiento es RETIRAR TODA HEPARINA y anticoagular con un inhibidor directo de la trombina, NUNCA transfundir plaquetas ni pasar a antivitamina K en fase aguda.",
+      "En la insuficiencia renal avanzada la heparina de bajo peso molecular pierde su principal virtud: la previsibilidad. Con filtrado por debajo de 15 se prefiere la HEPARINA NO FRACCIONADA, cuya eliminación no depende del riñón.",
+      "La burbuja de aire de la jeringa precargada NO se purga: está diseñada para que la dosis completa quede en el tejido y no en la aguja. Purgarla equivale a infradosificar.",
+      "La PROTAMINA solo revierte parcialmente su efecto (alrededor del 60%): a diferencia de la heparina no fraccionada, no hay antídoto completo. Es un factor a considerar al elegir el anticoagulante en un paciente con riesgo hemorrágico alto.",
+      "Es el anticoagulante DE ELECCIÓN EN EL EMBARAZO porque no atraviesa la placenta, frente a los antivitamina K, que son teratógenos, y a los anticoagulantes directos, que están contraindicados.",
+      "La HIPERPOTASEMIA por inhibición de la aldosterona es un efecto real y poco recordado: en el diabético nefrópata que además toma un IECA, puede ser clínicamente relevante.",
+      "La hemorragia RETROPERITONEAL se presenta como dolor lumbar o inguinal con anemización y sin sangrado visible: en un paciente anticoagulado hay que pensar en ella antes de atribuir el dolor a una causa musculoesquelética."
+    ],
+    "embarazo_lactancia": "Anticoagulante de ELECCIÓN durante todo el embarazo, ya que no atraviesa la placenta. Compatible con la lactancia (no se absorbe por vía oral en el lactante).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., caps. de trombosis venosa y de fármacos antitrombóticos"
+  },
+  {
+    "id": "HEM-heparina-no-fraccionada",
+    "nombre": "Heparina sódica no fraccionada",
+    "sinonimos": [
+      "HNF",
+      "Heparina intravenosa"
+    ],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Anticoagulante parenteral (heparinas y fondaparinux)",
+    "subclase": "Heparina no fraccionada: inhibidor indirecto de trombina y factor Xa",
+    "vs_clase": [
+      "**Vida media CORTA (60-90 min) y REVERSIBLE por completo con protamina**: de elección cuando puede necesitarse una reversión rápida (cirugía inminente, alto riesgo hemorrágico) y en la **insuficiencia renal grave**.",
+      "**Requiere control con TTPa** (o anti-Xa) por su respuesta impredecible.",
+      "**Mayor riesgo de trombocitopenia inducida por heparina** que las HBPM.",
+      "Anticoagulante de la **circulación extracorpórea, la hemodiálisis y la angioplastia**."
+    ],
+    "mecanismo": "Se une a la ANTITROMBINA a través de un pentasacárido específico y acelera mil veces su acción. Al tratarse de cadenas LARGAS, puede formar el puente ternario heparina-antitrombina-trombina y por tanto inactiva por igual la TROMBINA (IIa) y el factor Xa (cociente 1 a 1). Su unión inespecífica a proteínas plasmáticas, a células endoteliales y a macrófagos explica su respuesta impredecible y la necesidad de monitorizar el TTPA.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Anticoagulación terapéutica en el paciente con insuficiencia renal grave o alto riesgo hemorrágico",
+        "dosis": "Bolo de 80 UI/kg seguido de perfusión de 18 UI/kg/h, ajustada por TTPA",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Elección cuando se necesita poder revertir rápido o cuando el filtrado glomerular es menor de 15"
+      },
+      {
+        "patologia": "Tromboembolismo pulmonar de alto riesgo (con inestabilidad hemodinámica)",
+        "dosis": "Bolo de 80 UI/kg y perfusión ajustada por TTPA",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Permite suspenderla en minutos si se decide fibrinólisis o si aparece sangrado"
+      },
+      {
+        "patologia": "Síndrome coronario agudo y intervencionismo coronario percutáneo",
+        "dosis": "Bolo de 60-70 UI/kg (máximo 5000 UI) y perfusión de 12-15 UI/kg/h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "En la sala de hemodinámica se ajusta por tiempo de coagulación activado, no por TTPA"
+      },
+      {
+        "patologia": "Anticoagulación de circuitos extracorpóreos (hemodiálisis, ECMO)",
+        "dosis": "Según protocolo del circuito",
+        "posologia": "Perfusión o bolos",
+        "via": "IV",
+        "nota": "Su vida media corta y su reversibilidad completa la hacen idónea para estos escenarios",
+        "dosis_objetivo": "Tiempo de coagulación activado según el protocolo de la unidad (habitualmente 180-220 s en ECMO)"
+      },
+      {
+        "patologia": "Profilaxis tromboembólica en insuficiencia renal grave",
+        "dosis": "5000 UI/8-12 h",
+        "posologia": "Cada 8-12 h",
+        "via": "SC",
+        "nota": "Alternativa a la heparina de bajo peso molecular cuando esta no puede dosificarse con seguridad"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo intravenoso ajustado al peso seguido de perfusión continua, con TTPA a las 6 h y tras cada modificación, usando un nomograma de ajuste.",
+      "titulacion": "Objetivo de TTPA 1,5-2,5 veces el control (o su equivalente en actividad anti-Xa, 0,3-0,7 UI/mL, que es más fiable). Los ajustes se hacen sobre la velocidad de perfusión según nomograma, no a ojo.",
+      "duracion": "Habitualmente días, como puente hasta un anticoagulante oral o hasta que el escenario agudo se resuelva.",
+      "fin": "Suspensión SIN descenso progresivo: su efecto desaparece en 1-2 h. Si se pasa a antivitamina K, hay que solapar al menos 5 días y hasta dos INR en rango.",
+      "via": "IV en perfusión continua (terapéutica) o SC (profilaxis).",
+      "monitorizacion": "TTPA o actividad anti-Xa a las 6 h del inicio y de cada cambio, después cada 24 h; PLAQUETAS cada 2-3 días (riesgo de trombocitopenia inducida por heparina, mayor que con las de bajo peso molecular); hemoglobina y potasio."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe por vía oral. Por vía subcutánea la biodisponibilidad es baja y errática.",
+      "distribucion": "Unión extensa e inespecífica a proteínas plasmáticas de fase aguda, endotelio y macrófagos: esa unión saturable es la causa de su cinética NO LINEAL y de su respuesta impredecible.",
+      "metabolismo": "Desulfatación por el sistema reticuloendotelial (mecanismo saturable) y, a dosis altas, eliminación renal.",
+      "eliminacion": "Reticuloendotelial y, en menor medida, renal. Al no depender del riñón, es la heparina de elección en la insuficiencia renal grave.",
+      "vida_media": "60-90 minutos, dosis-dependiente. Esa brevedad es su gran ventaja en el paciente inestable.",
+      "ajuste_renal": "NO precisa ajuste: es la principal razón para elegirla frente a la de bajo peso molecular.",
+      "ajuste_hepatico": "No precisa ajuste formal; extremar la vigilancia por el riesgo hemorrágico añadido.",
+      "interacciones": [
+        {
+          "con": "Antiagregantes, AINE, trombolíticos, anticoagulantes orales",
+          "efecto": "Riesgo hemorrágico aditivo",
+          "gravedad": "alta",
+          "manejo": "Asociar solo con indicación clara y vigilancia estrecha"
+        },
+        {
+          "con": "Nitroglicerina intravenosa",
+          "efecto": "Puede reducir el efecto anticoagulante y elevar las necesidades de heparina",
+          "gravedad": "media",
+          "manejo": "Vigilar el TTPA al retirar la nitroglicerina, momento en el que puede aparecer sobreanticoagulación"
+        },
+        {
+          "con": "IECA, ARA-II, antialdosterónicos",
+          "efecto": "Hiperpotasemia por hipoaldosteronismo inducido por la heparina",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio, especialmente en el nefrópata"
+        },
+        {
+          "con": "Anestesia neuroaxial",
+          "efecto": "Hematoma espinal",
+          "gravedad": "alta",
+          "manejo": "Suspender la perfusión y comprobar la normalización del TTPA antes de la punción"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado menor",
+        "Hematoma en el punto de punción",
+        "Elevación de transaminasas",
+        "Hiperpotasemia"
+      ],
+      "graves": [
+        "HEMORRAGIA MAYOR",
+        "TROMBOCITOPENIA INDUCIDA POR HEPARINA tipo II, más frecuente que con las heparinas de bajo peso molecular (hasta el 3-5% en cirugía cardiaca)",
+        "OSTEOPOROSIS con fracturas en tratamientos prolongados (más de 3 meses)",
+        "Necrosis cutánea y reacciones de hipersensibilidad",
+        "Hipoaldosteronismo con hiperpotasemia grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa mayor",
+      "Antecedente de trombocitopenia inducida por heparina",
+      "Hemorragia intracraneal reciente",
+      "Hipertensión arterial grave no controlada",
+      "Cirugía reciente del sistema nervioso central o del ojo"
+    ],
+    "perlas": [
+      "Se elige por dos motivos muy concretos: porque se REVIERTE por completo con protamina y porque su efecto desaparece en 1-2 horas. Es decir, se usa precisamente cuando se prevé que puede hacer falta apagarla deprisa: paciente inestable, candidato a fibrinólisis o a cirugía urgente, o alto riesgo hemorrágico.",
+      "Es la heparina de elección con FILTRADO GLOMERULAR POR DEBAJO DE 15, porque no se elimina por el riñón y no se acumula.",
+      "La PROTAMINA la revierte de forma COMPLETA (1 mg por cada 100 UI de heparina administrada en la última hora), a diferencia de la reversión solo parcial de las de bajo peso molecular. La propia protamina puede causar hipotensión y reacciones anafilactoides, sobre todo en pacientes con exposición previa o alérgicos al pescado.",
+      "Un TTPA que no se alarga pese a dosis crecientes debe hacer pensar en un DÉFICIT DE ANTITROMBINA (la heparina necesita antitrombina para funcionar) o en una elevación masiva de reactantes de fase aguda que la secuestran, no simplemente en una dosis insuficiente.",
+      "El riesgo de TROMBOCITOPENIA INDUCIDA POR HEPARINA es netamente MAYOR que con las de bajo peso molecular: por eso el control de plaquetas cada 2-3 días es obligado, sobre todo en el postoperatorio de cirugía cardiaca.",
+      "La monitorización con TTPA tiene limitaciones reales (lo alteran el anticoagulante lúpico y los reactantes de fase aguda); la ACTIVIDAD ANTI-Xa es más fiable cuando el TTPA da resultados discordantes.",
+      "En perfusión, los cambios se hacen con NOMOGRAMA ajustado al peso: el ajuste intuitivo es una fuente clásica de infra y sobreanticoagulación."
+    ],
+    "embarazo_lactancia": "No atraviesa la placenta: segura en el embarazo, aunque se prefiere la de bajo peso molecular por comodidad y menor riesgo de osteoporosis y trombocitopenia. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de fármacos antitrombóticos"
+  },
+  {
+    "id": "HEM-apixaban",
+    "nombre": "Apixabán",
+    "sinonimos": [
+      "ACOD"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Anticoagulante oral de acción directa (ACOD)",
+    "subclase": "Inhibidor directo y reversible del factor Xa",
+    "vs_clase": [
+      "**El ACOD con MENOS SANGRADO** (incluido digestivo) en los ensayos y estudios observacionales (ARISTOTLE).",
+      "**Menor dependencia renal (27%)**: el ACOD más usado en ancianos e insuficiencia renal (hasta FG 15).",
+      "**Dos tomas al día**; dosis reducida 2,5 mg/12 h si cumple **2 de 3 criterios**: edad ≥80, peso ≤60 kg, creatinina ≥1,5 mg/dL.",
+      "En la ETV no necesita heparina previa (10 mg/12 h × 7 días, luego 5 mg/12 h)."
+    ],
+    "mecanismo": "Inhibe de forma directa, selectiva y reversible el FACTOR Xa, tanto el libre como el unido al complejo protrombinasa y el ligado al coágulo, sin necesidad de antitrombina como cofactor. Al actuar sobre un único factor situado en el punto de convergencia de las vías intrínseca y extrínseca, produce una anticoagulación PREVISIBLE que no requiere controles ni ajustes dietéticos, a diferencia de los antivitamina K, que deplecionan cuatro factores por una vía indirecta y lenta.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención de ictus en la fibrilación auricular NO valvular",
+        "dosis": "5 mg/12 h; 2,5 mg/12 h si cumple 2 de 3 criterios: edad 80 años o más, peso 60 kg o menos, creatinina 1,5 mg/dL o más",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Indicación principal; superior a la warfarina en seguridad, con menos hemorragia intracraneal"
+      },
+      {
+        "patologia": "Tratamiento de la trombosis venosa profunda y del tromboembolismo pulmonar",
+        "dosis": "10 mg/12 h durante 7 días, después 5 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "No requiere heparina inicial, a diferencia del dabigatrán y del edoxabán, que sí necesitan 5 días de tratamiento parenteral previo"
+      },
+      {
+        "patologia": "Prevención secundaria prolongada de la enfermedad tromboembólica",
+        "dosis": "2,5 mg/12 h a partir de los 6 meses",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Dosis reducida que mantiene la protección con menor riesgo hemorrágico"
+      },
+      {
+        "patologia": "Profilaxis tras artroplastia de cadera o rodilla",
+        "dosis": "2,5 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Se inicia 12-24 h después de la cirugía; 32-38 días en cadera y 10-14 días en rodilla"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día, sin necesidad de heparina previa ni de solapamiento. Antes de iniciar: hemograma, función renal (con aclaramiento de Cockcroft-Gault, no solo creatinina), función hepática y revisión de interacciones.",
+      "titulacion": "No se titula: la dosis es fija, con criterios objetivos de reducción bien definidos.",
+      "duracion": "Indefinida en la fibrilación auricular. Mínimo 3 meses en la enfermedad tromboembólica, prolongado o indefinido según si fue provocada o no.",
+      "fin": "Suspensión 24-48 h antes de cirugía según el riesgo hemorrágico y la función renal. NO requiere terapia puente con heparina en la mayoría de los casos: hacerla aumenta el sangrado sin reducir la trombosis.",
+      "via": "VO, con o sin alimento (el rivaroxabán a dosis altas SÍ debe tomarse con comida).",
+      "monitorizacion": "NO precisa control de coagulación. Se monitoriza la FUNCIÓN RENAL al menos anualmente (más a menudo si el aclaramiento es menor de 60 o el paciente es anciano), el hemograma y, sobre todo, la ADHERENCIA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad en torno al 50%, con o sin alimento.",
+      "distribucion": "Alta unión a proteínas (87%), lo que hace que NO sea dializable.",
+      "metabolismo": "Parcialmente por CYP3A4; es además sustrato de la GLUCOPROTEÍNA P. La inhibición o inducción simultánea de ambas vías es lo que produce sus interacciones relevantes.",
+      "eliminacion": "Solo el 27% por vía RENAL, la proporción más baja de todos los anticoagulantes directos (dabigatrán 80%, edoxabán 50%, rivaroxabán 35%). Por eso es el preferido en la enfermedad renal crónica avanzada.",
+      "vida_media": "12 h, que sostiene la posología cada 12 h.",
+      "ajuste_renal": "Reducir a 2,5 mg/12 h si cumple 2 de los 3 criterios clínicos, o si el aclaramiento está entre 15 y 29 mL/min. Por debajo de 15 no está autorizado de forma general, aunque es el que más se ha usado en diálisis.",
+      "ajuste_hepatico": "Contraindicado en la hepatopatía con coagulopatía (Child C); precaución en Child B.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes de CYP3A4 y glucoproteína P: ketoconazol, itraconazol, ritonavir, claritromicina",
+          "efecto": "Aumento marcado de las concentraciones con riesgo HEMORRÁGICO",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; si es imprescindible, reducir la dosis o cambiar de anticoagulante"
+        },
+        {
+          "con": "Inductores potentes: rifampicina, carbamazepina, fenitoína, fenobarbital, hierba de San Juan",
+          "efecto": "Descenso de las concentraciones con riesgo de TROMBOSIS",
+          "gravedad": "alta",
+          "manejo": "Contraindicados; usar antivitamina K si el inductor no puede retirarse"
+        },
+        {
+          "con": "Antiagregantes y AINE",
+          "efecto": "Riesgo hemorrágico aditivo, sobre todo digestivo",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE; la triple terapia con doble antiagregación se limita al menor tiempo posible tras un intervencionismo coronario"
+        },
+        {
+          "con": "Inhibidores selectivos de la recaptación de serotonina",
+          "efecto": "Disfunción plaquetaria añadida con más sangrado digestivo",
+          "gravedad": "media",
+          "manejo": "Valorar protección gástrica y vigilar signos de sangrado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado menor: equimosis, epistaxis, gingivorragia",
+        "Anemia leve",
+        "Náuseas"
+      ],
+      "graves": [
+        "HEMORRAGIA MAYOR digestiva o genitourinaria",
+        "Hemorragia intracraneal (netamente MENOS frecuente que con antivitamina K: es su principal ventaja clínica)",
+        "Sangrado por acumulación en la insuficiencia renal no detectada",
+        "Trombosis por dosis insuficiente o por mala adherencia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hemorragia activa clínicamente significativa",
+      "PRÓTESIS VALVULAR MECÁNICA y ESTENOSIS MITRAL REUMÁTICA moderada-grave (en ambas, solo antivitamina K)",
+      "Síndrome antifosfolípido con triple positividad",
+      "Hepatopatía con coagulopatía (Child C)",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "El error más frecuente y más grave con esta clase es prescribirlos en una PRÓTESIS VALVULAR MECÁNICA o en una estenosis mitral reumática: el ensayo con dabigatrán en prótesis mecánicas se detuvo por exceso de trombosis y de sangrado. En esas dos situaciones el único anticoagulante válido sigue siendo el antivitamina K.",
+      "Su gran ventaja frente a la warfarina no es tanto la eficacia como la reducción de la HEMORRAGIA INTRACRANEAL, aproximadamente a la mitad. Ese es el argumento clínico decisivo en el anciano con fibrilación auricular.",
+      "La reducción de dosis a 2,5 mg tiene criterios OBJETIVOS (2 de 3: edad, peso, creatinina) y no debe hacerse por impresión de fragilidad. Infradosificar por prudencia es un error frecuente que deja al paciente sin protección frente al ictus manteniendo el riesgo de sangrado.",
+      "Es el anticoagulante directo con MENOR eliminación renal (27%), lo que lo convierte en el preferido en la enfermedad renal crónica avanzada. En el otro extremo, el dabigatrán elimina el 80% por el riñón y es el más peligroso en el nefrópata, aunque también el único dializable.",
+      "NO hay que hacer TERAPIA PUENTE con heparina al suspenderlo para una cirugía: por su inicio y fin de acción rápidos, basta con suspender 24-48 h antes. La terapia puente, heredada de la era de la warfarina, solo añade sangrado.",
+      "Su vida media corta convierte la ADHERENCIA en un asunto crítico: olvidar una toma deja al paciente sin anticoagulación en horas, mientras que con warfarina el efecto persiste días. La ausencia de controles periódicos, que es una ventaja, elimina también la ocasión de detectar el incumplimiento.",
+      "Existe antídoto específico: ANDEXANET ALFA para los inhibidores del Xa e IDARUCIZUMAB para el dabigatrán. Cuando no se dispone de ellos, se usa concentrado de complejo protrombínico. El apixabán NO es dializable por su alta unión a proteínas; el dabigatrán sí.",
+      "Los tiempos de coagulación habituales no sirven para medir su efecto: un TP y un TTPA normales NO descartan que el paciente esté anticoagulado."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo y la lactancia por ausencia de datos de seguridad y por paso placentario. La mujer en edad fértil debe usar anticoncepción eficaz, y ante una gestación se cambia a heparina de bajo peso molecular.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., caps. de fibrilación auricular y de fármacos antitrombóticos"
+  },
+  {
+    "id": "HEM-acenocumarol",
+    "nombre": "Acenocumarol",
+    "sinonimos": [
+      "Antivitamina K",
+      "AVK"
+    ],
+    "area": "HEM",
+    "nivel": 1,
+    "clase": "Anticoagulante oral antagonista de la vitamina K",
+    "subclase": "Cumarínico",
+    "vs_clase": [
+      "**El AVK más usado en España**; **vida media CORTA (8-11 h)**: INR más inestable que con warfarina y más sensible a los olvidos, pero desaparece antes.",
+      "**Dosis en mg mucho menores que la warfarina** (≈1 mg de acenocumarol por cada 2-2,5 mg de warfarina).",
+      "Imprescindible en **prótesis valvulares mecánicas y estenosis mitral** (donde los ACOD están contraindicados)."
+    ],
+    "mecanismo": "Inhibe la enzima VITAMINA K EPÓXIDO REDUCTASA (VKORC1), impidiendo regenerar la vitamina K reducida necesaria para la gamma-carboxilación de los factores II, VII, IX y X y de las proteínas C y S. No inactiva los factores ya circulantes: el efecto aparece a medida que estos se van consumiendo, lo que explica el retraso de 3-5 días en alcanzar la anticoagulación plena. Como la PROTEÍNA C tiene una vida media MUY CORTA (8 h), en las primeras horas cae antes que los factores procoagulantes y se genera un estado transitoriamente PROTROMBÓTICO: ese es el fundamento de la necrosis cutánea cumarínica y de la necesidad de solapar con heparina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prótesis valvular MECÁNICA",
+        "dosis": "Individualizada según INR (objetivo 2,5-3,5 según posición y tipo de prótesis)",
+        "posologia": "Una vez al día, a la misma hora",
+        "via": "VO",
+        "nota": "Indicación en la que es INSUSTITUIBLE: los anticoagulantes directos están contraindicados",
+        "dosis_objetivo": "INR 2,5-3,5 (2-3 en prótesis aórtica de bajo riesgo)"
+      },
+      {
+        "patologia": "Fibrilación auricular VALVULAR (estenosis mitral reumática o prótesis mecánica)",
+        "dosis": "Ajustada a INR 2-3",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "También aquí es la única opción válida",
+        "dosis_objetivo": "INR 2-3"
+      },
+      {
+        "patologia": "Síndrome antifosfolípido, especialmente con triple positividad",
+        "dosis": "Ajustada a INR 2-3 (o 3-4 en trombosis recurrente)",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Los anticoagulantes directos han demostrado ser inferiores en esta indicación",
+        "dosis_objetivo": "INR 2-3, o 3-4 si hay trombosis recurrente pese a rango correcto"
+      },
+      {
+        "patologia": "Enfermedad tromboembólica venosa cuando no se puede usar un anticoagulante directo",
+        "dosis": "Ajustada a INR 2-3, con solapamiento inicial con heparina",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Insuficiencia renal muy avanzada, coste, o interacción con un inductor enzimático inevitable",
+        "dosis_objetivo": "INR 2-3"
+      }
+    ],
+    "esquema": {
+      "inicio": "SOLAPAMIENTO obligatorio con heparina durante al menos 5 días Y hasta tener el INR en rango en dos determinaciones separadas 24 h. Iniciar el cumarínico sin heparina expone al paciente al estado protrombótico inicial.",
+      "titulacion": "Ajuste por INR: al principio cada 2-3 días, después semanal y finalmente cada 4-6 semanas cuando la dosis es estable. Los cambios se hacen sobre la dosis SEMANAL total (aumentos o descensos del 10-20%), no dosis a dosis.",
+      "duracion": "Indefinida en la prótesis mecánica y en la fibrilación auricular valvular; según indicación en el resto.",
+      "fin": "Suspender 3-5 días antes de una cirugía, comprobando el INR. La terapia PUENTE con heparina solo se hace en pacientes de ALTO riesgo trombótico (prótesis mecánica, ictus reciente, trombosis reciente); en el resto añade sangrado sin beneficio.",
+      "via": "VO, siempre a la MISMA HORA (habitualmente por la tarde, para poder corregir el mismo día tras conocer el INR).",
+      "monitorizacion": "INR, que es el único parámetro válido. Objetivo 2-3 en la mayoría de las indicaciones y 2,5-3,5 en prótesis mecánicas mitrales o de alto riesgo. Valorar el TIEMPO EN RANGO TERAPÉUTICO: por debajo del 65% hay que replantear el tratamiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y completa por vía oral.",
+      "distribucion": "Unión a albúmina superior al 97%: el desplazamiento por otros fármacos altamente ligados aumenta la fracción libre y potencia el efecto.",
+      "metabolismo": "HEPÁTICO por CYP2C9 (principal) y CYP3A4. El polimorfismo de CYP2C9 y de VKORC1 explica buena parte de la enorme variabilidad interindividual de dosis, que va de 1 a 10 mg.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "8-11 h el acenocumarol (frente a 40 h la warfarina): por eso el acenocumarol es más maniobrable pero también más lábil frente a los olvidos.",
+      "ajuste_renal": "No precisa ajuste de dosis, pero la uremia altera la función plaquetaria y aumenta el riesgo hemorrágico.",
+      "ajuste_hepatico": "Precaución extrema: el hígado sintetiza los factores y metaboliza el fármaco; la hepatopatía potencia mucho su efecto.",
+      "interacciones": [
+        {
+          "con": "Antibióticos: cotrimoxazol, metronidazol, ciprofloxacino, macrólidos, fluconazol",
+          "efecto": "Inhiben el CYP2C9 y destruyen la flora productora de vitamina K: elevación importante del INR con riesgo de hemorragia",
+          "gravedad": "alta",
+          "manejo": "Controlar el INR a los 3-5 días de iniciar cualquier antibiótico y reducir la dosis de forma anticipada"
+        },
+        {
+          "con": "AMIODARONA",
+          "efecto": "Inhibición del metabolismo con elevación del INR que aparece de forma diferida y persiste semanas por su larga vida media",
+          "gravedad": "alta",
+          "manejo": "Reducir la dosis del cumarínico entre un 30 y un 50% al iniciar amiodarona y controlar el INR estrechamente"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, hierba de San Juan",
+          "efecto": "Inducción enzimática con caída del INR y riesgo de TROMBOSIS",
+          "gravedad": "alta",
+          "manejo": "Aumentar la dosis con controles frecuentes; recordar reducirla al retirar el inductor"
+        },
+        {
+          "con": "AINE, AAS, antiagregantes, ISRS",
+          "efecto": "Riesgo hemorrágico aditivo, digestivo sobre todo, incluso sin cambio del INR",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE; usar paracetamol como analgésico y valorar protección gástrica"
+        },
+        {
+          "con": "Alimentos ricos en VITAMINA K (verduras de hoja verde, brócoli, coles) y alcohol",
+          "efecto": "Fluctuaciones del INR en ambos sentidos",
+          "gravedad": "media",
+          "manejo": "No prohibir esos alimentos: lo importante es una ingesta CONSTANTE, no nula"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado menor: equimosis, gingivorragia, epistaxis, hematuria microscópica",
+        "Fluctuaciones del INR por interacciones y por cambios en la dieta"
+      ],
+      "graves": [
+        "HEMORRAGIA MAYOR, incluida la INTRACRANEAL (más frecuente que con los anticoagulantes directos)",
+        "NECROSIS CUTÁNEA CUMARÍNICA en los primeros días, en zonas de tejido graso (mama, muslo, nalga), especialmente en el déficit de proteína C o S",
+        "SÍNDROME DEL DEDO AZUL por microembolias de colesterol",
+        "TERATOGENIA: embriopatía warfarínica con hipoplasia nasal y punteado epifisario si se usa entre las semanas 6 y 12",
+        "Calcificación vascular y osteoporosis en tratamientos muy prolongados"
+      ]
+    },
+    "contraindicaciones": [
+      "EMBARAZO, sobre todo el primer trimestre (teratógeno) y el final de la gestación (hemorragia fetal)",
+      "Hemorragia activa mayor",
+      "Hepatopatía grave con coagulopatía",
+      "Hipertensión arterial grave no controlada",
+      "Riesgo elevado de caídas con mal cumplimiento y sin posibilidad de control del INR"
+    ],
+    "perlas": [
+      "Pese a la llegada de los anticoagulantes directos, sigue siendo INSUSTITUIBLE en tres escenarios que hay que tener siempre presentes: PRÓTESIS VALVULAR MECÁNICA, ESTENOSIS MITRAL REUMÁTICA y SÍNDROME ANTIFOSFOLÍPIDO con triple positividad. En ellos los directos han demostrado ser peores.",
+      "El estado PROTROMBÓTICO INICIAL es la explicación de dos hechos que de otro modo parecen arbitrarios: por qué hay que solapar con heparina al menos 5 días y por qué existe la necrosis cutánea cumarínica. La proteína C, anticoagulante natural, se agota en 8 h, mucho antes que el factor II, que tarda 60-72 h.",
+      "Los antibióticos son la causa más frecuente de INR descontrolado en la práctica ambulatoria: elevan el INR por un doble mecanismo, inhibición enzimática y destrucción de la flora intestinal productora de vitamina K. Ante cualquier antibiótico, control del INR a los 3-5 días.",
+      "Al paciente NO se le prohíben las verduras: se le pide CONSTANCIA en la dieta. La prohibición es un error extendido que empobrece la alimentación sin mejorar el control, y que además provoca INR altos cuando el paciente vuelve a comer normal.",
+      "El TIEMPO EN RANGO TERAPÉUTICO es el indicador de calidad que decide si este tratamiento le sirve a este paciente: por debajo del 65% el beneficio se pierde y hay que plantear el cambio a un anticoagulante directo si no hay contraindicación.",
+      "El manejo del INR alto sin sangrado no es transfundir ni pinchar: con INR entre 4,5 y 10 sin hemorragia, basta con omitir dosis; por encima de 10 se añade vitamina K ORAL. La vitamina K intravenosa y el complejo protrombínico se reservan al sangrado grave.",
+      "El acenocumarol tiene una vida media mucho más corta que la warfarina, lo que lo hace más maniobrable pero también más sensible a olvidos y a los cambios de dosis: un solo día olvidado se nota en el INR."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADO en el embarazo: es teratógeno entre las semanas 6 y 12 (embriopatía warfarínica) y produce hemorragia fetal al final de la gestación. Se sustituye por heparina de bajo peso molecular. Es COMPATIBLE con la lactancia, ya que apenas pasa a la leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de fármacos antitrombóticos"
+  }
+]

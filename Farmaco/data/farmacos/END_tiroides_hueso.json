@@ -1,0 +1,504 @@
+[
+  {
+    "id": "END-levotiroxina",
+    "nombre": "Levotiroxina",
+    "sinonimos": [
+      "L-T4"
+    ],
+    "area": "END",
+    "nivel": 1,
+    "clase": "Hormona tiroidea sintética",
+    "subclase": "Tiroxina (T4) sódica",
+    "mecanismo": "Es T4 sintética idéntica a la endógena. Actúa como PROHORMONA: se desyoda en los tejidos periféricos a T3, que es la forma activa y que se une a receptores nucleares regulando la transcripción de genes del metabolismo basal, la termogénesis, el crecimiento y el desarrollo del sistema nervioso. Administrar T4 en lugar de T3 permite que sea el propio organismo el que module cuánta hormona activa genera en cada tejido, lo que da un efecto estable con una sola toma diaria.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipotiroidismo primario",
+        "dosis": "1,6 mcg/kg/día (dosis plena en el adulto joven sano); 25-50 mcg/día de inicio en el anciano o cardiópata",
+        "posologia": "Una vez al día, en ayunas",
+        "via": "VO",
+        "nota": "En el adulto joven sin cardiopatía puede iniciarse directamente la dosis plena calculada por peso"
+      },
+      {
+        "patologia": "Hipotiroidismo subclínico con TSH mayor de 10 o con síntomas y anticuerpos positivos",
+        "dosis": "25-75 mcg/día",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "La indicación con TSH entre 4,5 y 10 es individualizada: síntomas, anticuerpos antiperoxidasa positivos, embarazo o deseo gestacional"
+      },
+      {
+        "patologia": "Hipotiroidismo en el embarazo",
+        "dosis": "Aumentar un 25-30% la dosis previa en cuanto se confirme la gestación",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Objetivo de TSH por debajo de 2,5 mUI/L; el aumento debe ser INMEDIATO, no esperar a la analítica"
+      },
+      {
+        "patologia": "Supresión de TSH tras cáncer diferenciado de tiroides",
+        "dosis": "Dosis supresora, en general por encima de 2 mcg/kg/día",
+        "posologia": "Una vez al día en ayunas",
+        "via": "VO",
+        "nota": "Objetivo de TSH suprimida según el riesgo de recidiva, equilibrando el riesgo de fibrilación auricular y de osteoporosis"
+      },
+      {
+        "patologia": "Coma mixedematoso",
+        "dosis": "Carga de 200-400 mcg IV seguida de 50-100 mcg/24 h",
+        "posologia": "Diaria",
+        "via": "IV",
+        "nota": "Emergencia endocrinológica: administrar HIDROCORTISONA ANTES que la levotiroxina para no desencadenar una crisis suprarrenal"
+      }
+    ],
+    "esquema": {
+      "inicio": "Adulto joven sano: dosis plena por peso desde el principio. Anciano, cardiópata o hipotiroidismo de larga evolución: empezar con 12,5-25 mcg y subir despacio, porque un aumento brusco del metabolismo puede desencadenar angina o fibrilación auricular.",
+      "titulacion": "Ajustes de 12,5-25 mcg cada 6-8 SEMANAS, midiendo la TSH. No tiene sentido repetir la TSH antes de ese plazo: la vida media de 7 días exige unas 5-6 semanas para alcanzar el estado de equilibrio.",
+      "duracion": "Habitualmente DE POR VIDA en el hipotiroidismo primario establecido.",
+      "fin": "No se suspende. Tras una tiroiditis subaguda o posparto, en cambio, puede reevaluarse retirándola a los 6-12 meses para comprobar si la función se ha recuperado.",
+      "via": "VO en AYUNAS, 30-60 minutos antes del desayuno, con agua; alternativa igual de válida: al acostarse, 3 h después de la última comida. IV solo en el coma mixedematoso, a la mitad de la dosis oral.",
+      "monitorizacion": "TSH a las 6-8 semanas de cada cambio y después cada 6-12 meses. En el embarazo, cada 4 semanas. En el hipotiroidismo CENTRAL la TSH no sirve: se ajusta por T4 LIBRE."
+    },
+    "farmacocinetica": {
+      "absorcion": "70-80% en yeyuno e íleon, MUY sensible a interferencias: alimentos (sobre todo café, soja y fibra), fármacos quelantes, y patología intestinal (celiaquía, gastritis atrófica, infección por Helicobacter pylori, cirugía bariátrica) reducen la absorción de forma importante.",
+      "distribucion": "Unión a proteínas superior al 99% (TBG, transtiretina, albúmina). Los cambios en la TBG (estrógenos, embarazo) modifican la hormona total pero no la libre.",
+      "metabolismo": "Desyodación periférica a T3 (activa) y a T3 reversa (inactiva). El cortisol, el ayuno, la enfermedad grave, la amiodarona y los betabloqueantes inhiben esa conversión.",
+      "eliminacion": "Biliar y renal como conjugados.",
+      "vida_media": "7 días, muy larga: sostiene la dosis única diaria, tolera bien un olvido puntual y obliga a esperar 6 semanas para valorar cualquier cambio.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "HIERRO, CALCIO, magnesio, sales de aluminio, colestiramina, sucralfato, inhibidores de la bomba de protones",
+          "efecto": "QUELACIÓN o reducción de la absorción, con hipotiroidismo persistente pese a dosis correcta",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 4 HORAS. Es la causa más frecuente de aparente resistencia al tratamiento"
+        },
+        {
+          "con": "Estrógenos orales y embarazo",
+          "efecto": "Aumentan la TBG y con ello las necesidades de levotiroxina",
+          "gravedad": "media",
+          "manejo": "Aumentar la dosis un 25-30% y controlar la TSH a las 4-6 semanas"
+        },
+        {
+          "con": "Rifampicina, carbamazepina, fenitoína, fenobarbital",
+          "efecto": "Inducen su metabolismo y aumentan los requerimientos",
+          "gravedad": "media",
+          "manejo": "Vigilar la TSH y subir la dosis si procede"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Aumenta el catabolismo de los factores de la coagulación y potencia el efecto anticoagulante",
+          "gravedad": "alta",
+          "manejo": "Controlar el INR estrechamente al iniciar o modificar la levotiroxina"
+        },
+        {
+          "con": "Amiodarona",
+          "efecto": "Puede producir tanto hipotiroidismo como tirotoxicosis y bloquea la conversión de T4 a T3",
+          "gravedad": "alta",
+          "manejo": "Controlar la función tiroidea antes y cada 6 meses durante el tratamiento con amiodarona"
+        },
+        {
+          "con": "Digoxina",
+          "efecto": "El hipertiroidismo iatrogénico reduce su efecto; corregir el hipotiroidismo puede requerir reajustarla",
+          "gravedad": "baja",
+          "manejo": "Revisar la digoxinemia si el estado tiroideo cambia mucho"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "A dosis correcta, NINGUNO: es hormona sustitutiva, y todo efecto adverso es en realidad sobredosificación"
+      ],
+      "graves": [
+        "TIROTOXICOSIS IATROGÉNICA por exceso de dosis: palpitaciones, temblor, insomnio, pérdida de peso, intolerancia al calor",
+        "FIBRILACIÓN AURICULAR, sobre todo en mayores de 60 años, incluso con TSH solo discretamente suprimida",
+        "OSTEOPOROSIS y aumento del riesgo de fractura por supresión mantenida de la TSH, en especial en la mujer posmenopáusica",
+        "Angina o infarto al iniciar dosis altas en el cardiópata con hipotiroidismo de larga evolución",
+        "Crisis suprarrenal si se administra a un paciente con insuficiencia suprarrenal no tratada"
+      ]
+    },
+    "contraindicaciones": [
+      "Tirotoxicosis no tratada",
+      "Infarto agudo de miocardio reciente (contraindicación relativa: iniciar con dosis muy bajas)",
+      "INSUFICIENCIA SUPRARRENAL no corregida: hay que dar antes glucocorticoide"
+    ],
+    "perlas": [
+      "El orden importa y puede ser mortal: en un paciente con hipotiroidismo e insuficiencia suprarrenal (por ejemplo, en un síndrome poliglandular o en un panhipopituitarismo), administrar levotiroxina ANTES que el corticoide acelera el metabolismo del cortisol residual y precipita una CRISIS SUPRARRENAL. Primero hidrocortisona, después levotiroxina.",
+      "Ante un paciente con TSH persistentemente alta pese a dosis aparentemente suficientes, la explicación casi nunca es resistencia: es INCUMPLIMIENTO o INTERFERENCIA con la absorción. Hay que preguntar por el hierro, el calcio, el omeprazol y el café del desayuno antes de subir la dosis.",
+      "La vida media de 7 días tiene dos consecuencias prácticas: olvidar una dosis apenas tiene impacto (puede tomarse doble al día siguiente), y no sirve de nada repetir la TSH antes de 6 semanas tras un cambio.",
+      "En el EMBARAZO las necesidades aumentan de inmediato: la mujer hipotiroidea debe subir la dosis un 25-30% en cuanto tenga la prueba de gestación positiva, sin esperar a la analítica. El hipotiroidismo materno mal controlado afecta al desarrollo neurológico fetal.",
+      "En el HIPOTIROIDISMO CENTRAL (hipofisario) la TSH es inútil para el seguimiento, porque la hipófisis es precisamente el órgano enfermo: el ajuste se hace con la T4 LIBRE.",
+      "Los dos riesgos de la sobredosificación crónica son cardiológico y óseo: FIBRILACIÓN AURICULAR y OSTEOPOROSIS. Por eso en el anciano se aceptan objetivos de TSH algo más altos, y por eso la supresión mantenida solo se justifica en el cáncer de tiroides de alto riesgo.",
+      "Conviene mantener siempre la MISMA marca comercial: las diferencias de biodisponibilidad entre presentaciones pueden ser suficientes para desestabilizar a un paciente bien ajustado."
+    ],
+    "embarazo_lactancia": "Segura e IMPRESCINDIBLE en el embarazo; las necesidades aumentan un 25-30% desde el primer trimestre, con objetivo de TSH por debajo de 2,5 mUI/L. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38; Harrison 20.ª ed., cap. de trastornos de la glándula tiroides"
+  },
+  {
+    "id": "END-tiamazol",
+    "nombre": "Tiamazol (metimazol)",
+    "sinonimos": [
+      "Metimazol",
+      "Carbimazol (profármaco)"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Antitiroideo de síntesis (tionamida)",
+    "subclase": "Inhibidor de la peroxidasa tiroidea",
+    "vs_clase": [
+      "**Antitiroideo de ELECCIÓN en todo salvo el 1.er trimestre del embarazo y la crisis tirotóxica** (ahí, propiltiouracilo).",
+      "**Una sola toma diaria** (vida media intratiroidea larga) y **menor hepatotoxicidad** que el propiltiouracilo.",
+      "**Embriopatía en el 1.er trimestre** (aplasia cutis, atresia de coanas o esófago)."
+    ],
+    "mecanismo": "Inhibe la PEROXIDASA TIROIDEA, bloqueando la organificación del yodo y el acoplamiento de yodotirosinas: impide la SÍNTESIS de hormona nueva, pero NO afecta a la hormona ya almacenada en el coloide. Por eso el efecto clínico tarda 2-6 semanas en aparecer, el tiempo que el tiroides tarda en agotar sus depósitos. El propiltiouracilo añade la inhibición de la conversión periférica de T4 a T3, motivo por el que se prefiere en la crisis tirotóxica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertiroidismo por enfermedad de Graves-Basedow",
+        "dosis": "Inicio 15-30 mg/24 h (hasta 40 mg en formas graves); mantenimiento 5-10 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Se asocia un betabloqueante al inicio para controlar los síntomas adrenérgicos mientras el antitiroideo hace efecto"
+      },
+      {
+        "patologia": "Bocio multinodular tóxico y adenoma tóxico",
+        "dosis": "10-30 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Aquí no hay remisión espontánea: el antitiroideo prepara al paciente para el tratamiento definitivo (yodo radiactivo o cirugía)"
+      },
+      {
+        "patologia": "Preparación prequirúrgica o previa al yodo radiactivo",
+        "dosis": "15-30 mg/24 h hasta normalizar la función",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Se busca el eutiroidismo antes de la cirugía para evitar una crisis tirotóxica perioperatoria"
+      },
+      {
+        "patologia": "Crisis tirotóxica",
+        "dosis": "Tiamazol 20 mg/4-6 h, o propiltiouracilo 200 mg/4 h",
+        "posologia": "Cada 4-6 h",
+        "via": "VO o por sonda",
+        "nota": "El propiltiouracilo es preferible por bloquear también la conversión periférica. El YODO se administra al menos 1 h DESPUÉS del antitiroideo"
+      }
+    ],
+    "esquema": {
+      "inicio": "15-30 mg/24 h según la gravedad, junto con un betabloqueante (propranolol o bisoprolol) para el control sintomático inmediato. Antes de empezar: hemograma y transaminasas basales.",
+      "titulacion": "Reducir progresivamente según la T4 libre a partir de las 4-6 semanas. Existen dos estrategias: TITULACIÓN (bajar hasta la dosis mínima eficaz, la habitual) o BLOQUEO Y SUSTITUCIÓN (dosis alta fija más levotiroxina), reservada a casos de difícil control.",
+      "duracion": "12-18 MESES en la enfermedad de Graves, plazo tras el cual se retira para comprobar si hay remisión (que se logra en el 40-50%). En el bocio nodular tóxico no hay remisión: es un puente hacia el tratamiento definitivo.",
+      "fin": "Retirada progresiva tras 12-18 meses con función normal y anticuerpos antirreceptor de TSH negativos, seguida de controles periódicos por el riesgo de recidiva (mayor en bocios grandes, tabaquismo y anticuerpos persistentes).",
+      "via": "VO.",
+      "monitorizacion": "T4 LIBRE y T3 cada 4-6 semanas al inicio (la TSH permanece suprimida durante meses y no sirve para ajustar). Hemograma y transaminasas basales y ante cualquier síntoma sospechoso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y casi completa por vía oral.",
+      "distribucion": "Se CONCENTRA en el tiroides, lo que explica que su efecto dure más que su presencia en plasma y permita la toma única diaria pese a una vida media corta.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "4-6 h en plasma, pero con duración de acción intratiroidea superior a 24 h.",
+      "ajuste_renal": "No precisa ajuste significativo.",
+      "ajuste_hepatico": "Precaución; suspender ante hepatotoxicidad. El propiltiouracilo tiene mayor riesgo de fallo hepático fulminante.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Al corregirse el hipertiroidismo disminuye el catabolismo de los factores de la coagulación y cambia la respuesta al anticoagulante",
+          "gravedad": "media",
+          "manejo": "Controlar el INR durante la normalización de la función tiroidea"
+        },
+        {
+          "con": "Digoxina y betabloqueantes",
+          "efecto": "Al corregirse el hipertiroidismo aumentan sus concentraciones y su efecto",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis a medida que el paciente se hace eutiroideo"
+        },
+        {
+          "con": "Contrastes yodados y amiodarona",
+          "efecto": "La sobrecarga de yodo puede agravar o desencadenar el hipertiroidismo y reduce la eficacia del yodo radiactivo posterior",
+          "gravedad": "alta",
+          "manejo": "Evitar el yodo antes de una gammagrafía o de un tratamiento con yodo radiactivo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema y prurito (el más frecuente, en el 3-5%)",
+        "Artralgias",
+        "Molestias gastrointestinales",
+        "Alteración del gusto y del olfato"
+      ],
+      "graves": [
+        "AGRANULOCITOSIS: rara (0,2-0,5%) pero potencialmente mortal, de aparición típicamente en los primeros 3 meses y BRUSCA",
+        "HEPATOTOXICIDAD: colestásica con tiamazol; NECROSIS HEPÁTICA FULMINANTE con propiltiouracilo, motivo por el que este ha dejado de ser de primera línea",
+        "Vasculitis asociada a ANCA (más frecuente con propiltiouracilo)",
+        "APLASIA CUTIS y embriopatía por metimazol (atresia de coanas, atresia esofágica) si se usa en el primer trimestre del embarazo",
+        "Síndrome tipo lupus"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a las tionamidas",
+      "Antecedente de agranulocitosis o de hepatotoxicidad grave por antitiroideos",
+      "Primer trimestre del embarazo (usar propiltiouracilo)"
+    ],
+    "perlas": [
+      "La instrucción de seguridad que hay que dar SIEMPRE, por escrito, en la primera consulta: ante FIEBRE Y DOLOR DE GARGANTA, suspender el fármaco y acudir a hacerse un hemograma urgente. La agranulocitosis es brusca y no se detecta con hemogramas periódicos de rutina; se detecta educando al paciente.",
+      "El cambio de trimestre en el embarazo es una de las secuencias más específicas de la endocrinología: PROPILTIOURACILO en el PRIMER trimestre (el tiamazol es teratógeno, con aplasia cutis y atresia de coanas) y CAMBIO A TIAMAZOL a partir del segundo (el propiltiouracilo puede producir fallo hepático fulminante).",
+      "La TSH NO sirve para ajustar el tratamiento durante los primeros meses: permanece suprimida por inercia hipofisaria mucho después de que la T4 se haya normalizado. Guiarse por la TSH lleva a sobretratar y a producir hipotiroidismo iatrogénico. Se ajusta por T4 LIBRE.",
+      "El efecto tarda 2-6 semanas porque el fármaco impide fabricar hormona nueva pero no toca la ya almacenada: por eso al inicio se añade un BETABLOQUEANTE, que sí controla los síntomas de inmediato.",
+      "En la crisis tirotóxica el ORDEN es crítico: primero la tionamida y solo AL MENOS UNA HORA DESPUÉS el yodo. Administrar yodo antes aportaría sustrato para sintetizar más hormona y agravaría la crisis (efecto Jod-Basedow).",
+      "La enfermedad de Graves remite en el 40-50% tras 12-18 meses de tratamiento; el bocio multinodular tóxico NO remite nunca, y en él el antitiroideo es solo un puente hacia el yodo radiactivo o la cirugía. Confundir ambos escenarios lleva a tratamientos indefinidos e inútiles.",
+      "Hay que evitar toda sobrecarga de YODO (contrastes, amiodarona) antes de una gammagrafía o de un tratamiento con yodo radiactivo: satura la glándula y anula la captación."
+    ],
+    "embarazo_lactancia": "Primer trimestre: PROPILTIOURACILO. Segundo y tercero: tiamazol. Se usa la MENOR dosis eficaz manteniendo la T4 libre en el límite alto de la normalidad, porque el fármaco atraviesa la placenta y puede provocar hipotiroidismo fetal. Ambos son compatibles con la lactancia a dosis bajas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 38; Harrison 20.ª ed., cap. de trastornos de la glándula tiroides"
+  },
+  {
+    "id": "END-alendronato",
+    "nombre": "Alendronato",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Bisfosfonato",
+    "subclase": "Bisfosfonato nitrogenado oral semanal",
+    "vs_clase": [
+      "**El bisfosfonato oral con más evidencia y el más usado**: reduce fracturas vertebrales y de cadera (70 mg semanal).",
+      "**Exigencias de toma estrictas**: en ayunas, con un vaso de agua, 30 min sin comer ni tumbarse (esofagitis).",
+      "**Gran retención ósea**: efecto residual que permite el descanso terapéutico tras 5 años."
+    ],
+    "mecanismo": "Se adsorbe con avidez a los cristales de hidroxiapatita de las superficies óseas en remodelado; cuando el OSTEOCLASTO reabsorbe esa zona, lo internaliza e inhibe la FARNESIL PIROFOSFATO SINTASA de la vía del mevalonato, impidiendo la prenilación de proteínas necesarias para su citoesqueleto y su supervivencia. El osteoclasto pierde su borde en cepillo y entra en apoptosis: se frena la resorción, el hueso gana densidad y disminuye el riesgo de fractura.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Osteoporosis posmenopáusica con alto riesgo de fractura",
+        "dosis": "70 mg/semana o 10 mg/24 h",
+        "posologia": "Semanal (preferida) o diaria",
+        "via": "VO",
+        "nota": "Reduce las fracturas vertebrales, de cadera y no vertebrales; siempre con calcio y vitamina D suficientes"
+      },
+      {
+        "patologia": "Osteoporosis del varón",
+        "dosis": "70 mg/semana",
+        "posologia": "Semanal",
+        "via": "VO",
+        "nota": "Descartar antes causas secundarias: hipogonadismo, alcohol, corticoides, mieloma"
+      },
+      {
+        "patologia": "Osteoporosis inducida por glucocorticoides",
+        "dosis": "70 mg/semana desde el inicio del corticoide",
+        "posologia": "Semanal",
+        "via": "VO",
+        "nota": "Indicada de forma PREVENTIVA en quien vaya a recibir prednisona 7,5 mg/día o más durante 3 meses o más y tenga riesgo elevado"
+      },
+      {
+        "patologia": "Enfermedad de Paget ósea sintomática",
+        "dosis": "40 mg/24 h durante 6 meses",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Hoy suele preferirse una dosis única de ácido zoledrónico intravenoso, más cómoda y eficaz"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de la primera dosis: corregir el DÉFICIT DE VITAMINA D y la hipocalcemia, y revisar la salud dental. Instruir con detalle sobre la forma de tomarlo, porque de ella depende toda su eficacia y su seguridad.",
+      "titulacion": "No se titula: dosis fija.",
+      "duracion": "5 AÑOS por vía oral (3 años si es zoledrónico intravenoso), tras los cuales se reevalúa el riesgo.",
+      "fin": "VACACIONES TERAPÉUTICAS: si el riesgo ha pasado a ser bajo o moderado, se suspende y se reevalúa a los 2-3 años. Si el riesgo sigue siendo alto (fractura previa, densitometría muy baja, corticoides), se prolonga hasta 10 años. El efecto persiste tras la retirada por su larga permanencia en el hueso.",
+      "via": "VO, EN AYUNAS, con un vaso lleno de AGUA (nunca otra bebida) y permaneciendo INCORPORADO, sin tumbarse, al menos 30 minutos y hasta el primer alimento.",
+      "monitorizacion": "Densitometría cada 2 años; calcio, vitamina D y función renal; vigilancia de síntomas esofágicos, dolor en muslo o ingle y salud dental."
+    },
+    "farmacocinetica": {
+      "absorcion": "MUY BAJA, menos del 1%, y se ANULA por completo con alimentos, calcio, café, zumo o cualquier bebida distinta del agua. De ahí las instrucciones estrictas de administración.",
+      "distribucion": "Aproximadamente la mitad de lo absorbido se fija al HUESO; el resto se elimina por orina.",
+      "metabolismo": "NO se metaboliza: se elimina inalterado.",
+      "eliminacion": "Renal.",
+      "vida_media": "Plasmática de horas, pero la vida media ÓSEA es de más de 10 AÑOS: esa retención es lo que permite las vacaciones terapéuticas y lo que explica que su efecto persista tras suspenderlo.",
+      "ajuste_renal": "CONTRAINDICADO con filtrado glomerular por debajo de 30-35 mL/min.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "Calcio, hierro, antiácidos, cualquier alimento o bebida distinta del agua",
+          "efecto": "Anulan la ya escasa absorción",
+          "gravedad": "alta",
+          "manejo": "Tomarlo en ayunas solo con agua y esperar al menos 30 minutos antes de cualquier otra cosa"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Suma de daño de la mucosa esofágica y gástrica",
+          "gravedad": "media",
+          "manejo": "Precaución en el paciente con AINE crónico; extremar las medidas posturales"
+        },
+        {
+          "con": "Corticoides sistémicos",
+          "efecto": "No es una interacción farmacológica sino una potenciación del riesgo óseo, que refuerza la indicación",
+          "gravedad": "baja",
+          "manejo": "Es motivo para tratar, no para evitar el bisfosfonato"
+        },
+        {
+          "con": "Aminoglucósidos",
+          "efecto": "Riesgo aditivo de hipocalcemia",
+          "gravedad": "baja",
+          "manejo": "Vigilar la calcemia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESOFAGITIS, pirosis, disfagia y dolor retroesternal (relacionados casi siempre con una administración incorrecta)",
+        "Dolor musculoesquelético difuso",
+        "Dispepsia y dolor abdominal",
+        "Síndrome pseudogripal tras la primera dosis intravenosa de zoledrónico"
+      ],
+      "graves": [
+        "ÚLCERA y estenosis ESOFÁGICA",
+        "OSTEONECROSIS DE MANDÍBULA: rara con las dosis de osteoporosis, mucho más frecuente con las dosis oncológicas intravenosas, y desencadenada típicamente por una extracción dental",
+        "FRACTURAS ATÍPICAS DE FÉMUR (subtrocantéreas o diafisarias), asociadas al uso prolongado y precedidas de DOLOR EN MUSLO O INGLE de semanas de evolución",
+        "Hipocalcemia sintomática, sobre todo si hay déficit de vitamina D no corregido",
+        "Uveítis y escleritis (poco frecuentes)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alteraciones esofágicas que retrasen el vaciamiento: acalasia, estenosis, varices",
+      "INCAPACIDAD PARA PERMANECER INCORPORADO al menos 30 minutos",
+      "Hipocalcemia no corregida",
+      "Filtrado glomerular por debajo de 30-35 mL/min"
+    ],
+    "perlas": [
+      "Todas sus instrucciones de administración derivan de un mismo hecho farmacocinético: se absorbe menos del 1% y solo con el estómago vacío y agua. Un café con leche anula la dosis por completo, y quedarse tumbado la deja en el esófago y produce esofagitis. Explicar bien la toma es literalmente la mitad del tratamiento.",
+      "El DOLOR EN MUSLO O INGLE en un paciente que lleva años con bisfosfonatos no es artrosis: es el pródromo de una FRACTURA ATÍPICA de fémur y obliga a radiografía o resonancia de ambos fémures. Estas fracturas suelen ser bilaterales y son la razón principal de las vacaciones terapéuticas.",
+      "La OSTEONECROSIS DE MANDÍBULA es en gran medida prevenible: la revisión odontológica y el tratamiento de los focos infecciosos ANTES de iniciar el fármaco evitan la mayoría de los casos. Si hace falta una extracción durante el tratamiento, se coordina con el dentista.",
+      "Su vida media ÓSEA de más de 10 años es lo que hace posible un concepto poco habitual en farmacología: la vacación terapéutica. El fármaco sigue actuando años después de retirarlo, algo que no ocurre con el denosumab.",
+      "Corregir la VITAMINA D antes de empezar no es un detalle accesorio: iniciar un antirresortivo potente sobre un déficit no corregido puede producir hipocalcemia sintomática.",
+      "A diferencia del denosumab, suspenderlo NO produce un efecto rebote con fracturas vertebrales múltiples. Esa diferencia es determinante al elegir entre uno y otro en un paciente con adherencia dudosa.",
+      "La formulación intravenosa (zoledrónico anual) resuelve de golpe el problema de la tolerancia esofágica y el de la adherencia, a cambio de un cuadro pseudogripal tras la primera dosis que conviene anticipar."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo y la lactancia: atraviesa la placenta y se deposita en el hueso fetal, con permanencia de años en el esqueleto materno.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 42; Harrison 20.ª ed., cap. de osteoporosis"
+  },
+  {
+    "id": "END-hidrocortisona",
+    "nombre": "Hidrocortisona (sustitución suprarrenal)",
+    "sinonimos": [
+      "Cortisol",
+      "Fludrocortisona (mineralocorticoide asociado)"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Glucocorticoide sistémico",
+    "subclase": "Acción corta, potencia mineralocorticoide plena: tratamiento sustitutivo suprarrenal",
+    "vs_clase": [
+      "**Es el cortisol: potencia mineralocorticoide plena**. El glucocorticoide de elección en la **insuficiencia suprarrenal** (sustitución y crisis addisoniana: 100 mg IV).",
+      "**Acción corta (8-12 h)**: se da en 2-3 tomas imitando el ritmo circadiano.",
+      "**Menos potente** como antiinflamatorio (20 mg ≈ 5 mg de prednisona) y retiene sodio: no es el adecuado para tratar inflamación crónica.",
+      "A dosis ≥50 mg/día no necesita fludrocortisona añadida."
+    ],
+    "mecanismo": "Es CORTISOL idéntico al endógeno. Se une al receptor de glucocorticoides citoplasmático y el complejo migra al núcleo para regular la transcripción génica: mantiene la neoglucogénesis y la glucemia en el ayuno, la reactividad vascular a las catecolaminas (efecto permisivo, clave en el shock), el metabolismo proteico y lipídico y el tono del sistema inmunitario. A diferencia de la prednisona o la dexametasona, conserva una actividad MINERALOCORTICOIDE apreciable, lo que la hace idónea como sustitutivo fisiológico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia suprarrenal primaria (enfermedad de Addison): sustitución",
+        "dosis": "15-25 mg/día repartidos en 2-3 tomas (por ejemplo 10-5-5 mg)",
+        "posologia": "Dosis mayor al despertar, imitando el ritmo circadiano",
+        "via": "VO",
+        "nota": "En la insuficiencia PRIMARIA hay que añadir FLUDROCORTISONA 0,05-0,2 mg/24 h como mineralocorticoide"
+      },
+      {
+        "patologia": "Insuficiencia suprarrenal secundaria (hipofisaria)",
+        "dosis": "15-20 mg/día en 2 tomas",
+        "posologia": "Mayor por la mañana",
+        "via": "VO",
+        "nota": "NO precisa fludrocortisona: el eje renina-angiotensina-aldosterona está intacto porque no depende de la ACTH"
+      },
+      {
+        "patologia": "Crisis suprarrenal (emergencia)",
+        "dosis": "100 mg IV en bolo, seguidos de 200 mg/24 h en perfusión o 50 mg/6 h",
+        "posologia": "Cada 6 h o en perfusión continua",
+        "via": "IV",
+        "nota": "Junto con reposición agresiva de volumen con suero salino y glucosa. NO se espera a la confirmación analítica para tratar"
+      },
+      {
+        "patologia": "Cobertura de estrés en el paciente con insuficiencia suprarrenal",
+        "dosis": "Doblar o triplicar la dosis habitual en fiebre o enfermedad; 50-100 mg/8 h IV en cirugía mayor",
+        "posologia": "Según la magnitud del estrés",
+        "via": "VO o IV",
+        "nota": "Regla de los días de enfermedad: doblar la dosis con fiebre; si hay vómitos, pasar a la vía parenteral"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la sustitución crónica, dosis fraccionada con la mayor parte al despertar para imitar el pico matutino de cortisol. En la crisis, bolo intravenoso inmediato sin esperar resultados.",
+      "titulacion": "Se ajusta por CLÍNICA (astenia, peso, tensión arterial, hiperpigmentación), no por cortisolemias, que no son útiles para monitorizar la sustitución. La fludrocortisona se ajusta por tensión arterial, presencia de hipotensión ortostática, potasio y actividad de renina plasmática.",
+      "duracion": "DE POR VIDA en la insuficiencia suprarrenal establecida.",
+      "fin": "NO se suspende nunca en la insuficiencia establecida. En la insuficiencia secundaria a corticoterapia prolongada, la retirada es lenta y guiada por el cortisol matutino y, si procede, por prueba de estimulación.",
+      "via": "VO en la sustitución; IV o IM en la crisis y siempre que haya vómitos.",
+      "monitorizacion": "Peso, tensión arterial con ortostatismo, iones (sodio y potasio), sensación de bienestar y energía. En la primaria, actividad de renina plasmática para ajustar la fludrocortisona."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y prácticamente completa por vía oral.",
+      "distribucion": "Circula unida a la transcortina (CBG) y a la albúmina; los estrógenos aumentan la CBG y elevan el cortisol total sin cambiar el libre.",
+      "metabolismo": "Hepático por CYP3A4, con reducción e inactivación. La 11-beta-hidroxiesteroide deshidrogenasa tipo 2 renal lo inactiva localmente para proteger al receptor mineralocorticoide, mecanismo que el regaliz bloquea.",
+      "eliminacion": "Renal como metabolitos conjugados.",
+      "vida_media": "Biológica de 8-12 h, corta: por eso hace falta fraccionar la dosis y por eso es la que mejor imita el ritmo fisiológico.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Puede requerir ajuste en la hepatopatía grave por menor aclaramiento.",
+      "interacciones": [
+        {
+          "con": "RIFAMPICINA, fenitoína, carbamazepina, fenobarbital",
+          "efecto": "Inducen el CYP3A4, aceleran su metabolismo y pueden PRECIPITAR UNA CRISIS SUPRARRENAL",
+          "gravedad": "alta",
+          "manejo": "Aumentar la dosis sustitutiva (a menudo al doble) al iniciar un inductor potente"
+        },
+        {
+          "con": "LEVOTIROXINA",
+          "efecto": "Acelera el metabolismo del cortisol y puede desencadenar una crisis si se inicia antes de sustituir el corticoide",
+          "gravedad": "alta",
+          "manejo": "En el paciente con ambos déficits, iniciar SIEMPRE el corticoide ANTES que la levotiroxina"
+        },
+        {
+          "con": "Ketoconazol, itraconazol, ritonavir, claritromicina (inhibidores del CYP3A4)",
+          "efecto": "Aumentan las concentraciones; el ketoconazol además inhibe la esteroidogénesis suprarrenal",
+          "gravedad": "media",
+          "manejo": "Vigilar signos de exceso o de defecto según el fármaco"
+        },
+        {
+          "con": "Regaliz",
+          "efecto": "Inhibe la 11-beta-hidroxiesteroide deshidrogenasa y produce un cuadro de exceso mineralocorticoide con hipertensión e hipopotasemia",
+          "gravedad": "media",
+          "manejo": "Preguntar por su consumo ante hipertensión con hipopotasemia inexplicada"
+        },
+        {
+          "con": "Diuréticos perdedores de potasio",
+          "efecto": "Hipopotasemia aditiva con la fludrocortisona",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "A dosis SUSTITUTIVAS correctas, prácticamente ninguno: es reposición fisiológica",
+        "Insomnio si se administra la dosis demasiado tarde",
+        "Dispepsia"
+      ],
+      "graves": [
+        "Manifestaciones de SÍNDROME DE CUSHING por sobredosificación mantenida: obesidad central, estrías, osteoporosis, diabetes, hipertensión, fragilidad cutánea",
+        "CRISIS SUPRARRENAL por dosis insuficiente ante estrés, vómitos o retirada brusca: hipotensión refractaria, hiponatremia, hiperpotasemia, hipoglucemia y shock",
+        "Con fludrocortisona en exceso: hipertensión, edemas e hipopotasemia",
+        "Inmunosupresión y osteoporosis solo con dosis suprafisiológicas mantenidas"
+      ]
+    },
+    "contraindicaciones": [
+      "No hay contraindicaciones absolutas cuando la indicación es SUSTITUTIVA: sin cortisol el paciente muere",
+      "Precaución con las dosis suprafisiológicas en infección no controlada, úlcera péptica activa y diabetes descompensada"
+    ],
+    "perlas": [
+      "En la insuficiencia suprarrenal aguda NO SE ESPERA a la confirmación analítica: se extrae la muestra para cortisol y ACTH y se administra el corticoide de inmediato. Retrasar el tratamiento para completar el estudio es un error potencialmente mortal. La dexametasona, si se prefiere, no interfiere con la determinación de cortisol posterior.",
+      "El paciente debe llevar una TARJETA o pulsera de identificación y tener en casa hidrocortisona INYECTABLE con instrucciones de autoadministración: la crisis suele desencadenarse por una gastroenteritis banal en la que no puede retener la medicación oral.",
+      "REGLAS DE DÍAS DE ENFERMEDAD: doblar o triplicar la dosis ante fiebre o enfermedad intercurrente y pasar a la vía parenteral si hay vómitos o diarrea. Enseñarlas es más eficaz para evitar ingresos que cualquier ajuste fino de la dosis basal.",
+      "La distinción entre insuficiencia PRIMARIA y SECUNDARIA tiene una consecuencia práctica directa: solo la primaria necesita FLUDROCORTISONA, porque en la secundaria la aldosterona depende de la renina y no de la ACTH, y por eso tampoco hay hiperpotasemia ni hiperpigmentación.",
+      "El orden con la LEVOTIROXINA es una de esas secuencias que hay que saber de memoria: primero el corticoide, después la hormona tiroidea. Al revés se puede precipitar una crisis suprarrenal.",
+      "La RIFAMPICINA puede desencadenar una crisis en un paciente previamente estable al acelerar el metabolismo del cortisol: al iniciarla hay que subir la dosis sustitutiva, algo que se pasa por alto con frecuencia al tratar una tuberculosis.",
+      "El seguimiento de la sustitución es CLÍNICO: peso, tensión con ortostatismo, energía y iones. Medir cortisol en un paciente que toma hidrocortisona no aporta nada útil."
+    ],
+    "embarazo_lactancia": "Segura y necesaria en el embarazo; las necesidades aumentan en el tercer trimestre y se requiere cobertura de estrés durante el parto. La hidrocortisona es preferible porque la placenta la inactiva parcialmente, protegiendo al feto. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39; Harrison 20.ª ed., cap. de trastornos de la corteza suprarrenal"
+  }
+]

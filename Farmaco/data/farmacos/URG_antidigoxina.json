@@ -1,0 +1,123 @@
+[
+  {
+    "id": "URG-anticuerpos-antidigoxina",
+    "nombre": "Fragmentos Fab antidigoxina",
+    "sinonimos": [
+      "Anticuerpos antidigital"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto inmunológico (fragmentos Fab)",
+    "subclase": "Fragmentos Fab de inmunoglobulina ovina específicos frente a la digoxina",
+    "mecanismo": "Son fragmentos Fab (la porción de unión al antígeno de un anticuerpo, sin la porción Fc) obtenidos de oveja inmunizada, con una afinidad por la DIGOXINA muy superior a la del receptor de la bomba sodio-potasio ATPasa. Al administrarlos, secuestran la digoxina LIBRE del plasma, y ese descenso brusco crea un gradiente que extrae la digoxina desde el tejido, incluido el miocardio, hacia el compartimento vascular: el complejo Fab-digoxina, inactivo, se elimina después por la orina. La consecuencia es doble y explica todo el manejo posterior. La primera es terapéutica: la bomba sodio-potasio se libera, el potasio vuelve a entrar en la célula y la HIPERPOTASEMIA de la intoxicación aguda se corrige sola en horas. La segunda es analítica: la digoxinemia MEDIDA se dispara, porque los métodos habituales cuantifican la digoxina total (libre más unida al Fab), de modo que un nivel altísimo tras el antídoto NO significa fracaso sino todo lo contrario.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "INTOXICACIÓN DIGITÁLICA AGUDA con arritmia grave o hiperpotasemia",
+        "dosis": "En la intoxicación aguda de dosis conocida: número de viales = dosis ingerida en mg multiplicada por 0,8 y dividida entre 0,5. Empíricamente, 10-20 viales en la intoxicación aguda grave",
+        "posologia": "Perfusión intravenosa en 30 minutos, o en bolo si hay parada inminente",
+        "via": "IV",
+        "dosis_objetivo": "Resolución de la arritmia, normalización del potasio y estabilidad hemodinámica",
+        "nota": "Los criterios que obligan a administrarlo son: arritmia ventricular, bradiarritmia que no responde a atropina, POTASIO superior a 5-5,5 mmol/L en la intoxicación aguda, o ingesta superior a 10 mg en el adulto"
+      },
+      {
+        "patologia": "Intoxicación digitálica CRÓNICA en el anciano",
+        "dosis": "1-2 viales, con reevaluación; o número de viales = digoxinemia (ng/mL) multiplicada por el peso en kg y dividida entre 100",
+        "posologia": "Perfusión en 30 minutos",
+        "via": "IV",
+        "dosis_objetivo": "Control de la arritmia con la dosis mínima necesaria",
+        "nota": "En la intoxicación CRÓNICA bastan dosis mucho menores: el paciente tiene menos carga corporal total y el objetivo es controlar la arritmia, no neutralizar toda la digoxina"
+      },
+      {
+        "patologia": "Intoxicación por PLANTAS y animales con glucósidos cardiotónicos",
+        "dosis": "Dosis empírica de 10-20 viales, guiada por la respuesta clínica",
+        "posologia": "Perfusión, repetible",
+        "via": "IV",
+        "dosis_objetivo": "Resolución de las alteraciones del ritmo",
+        "nota": "Hay REACTIVIDAD CRUZADA con adelfa (Nerium oleander), digital (Digitalis purpurea), lirio de los valles y con el veneno del sapo Bufo: funciona, aunque hacen falta dosis mayores y la digoxinemia no sirve para guiarlas"
+      },
+      {
+        "patologia": "Parada cardiaca por intoxicación digitálica",
+        "dosis": "20 viales en BOLO intravenoso rápido",
+        "posologia": "Bolo único",
+        "via": "IV",
+        "nota": "En la parada no hay tiempo para perfusiones ni cálculos: se administra la dosis empírica máxima de inmediato"
+      }
+    ],
+    "esquema": {
+      "inicio": "Extraer una digoxinemia y un potasio ANTES de administrarlo (después, la digoxinemia dejará de ser interpretable). Monitorización continua y desfibrilador disponible.",
+      "titulacion": "Se reevalúa a los 30-60 minutos y se repite la dosis si persiste la arritmia. El efecto empieza en 30 minutos y es máximo a las 3-4 horas.",
+      "duracion": "Dosis única o pocas dosis.",
+      "fin": "Tras la estabilización. Hay que vigilar 24-48 horas: en la insuficiencia renal el complejo Fab-digoxina se elimina mal y puede REDISTRIBUIRSE, con REBOTE de la intoxicación días después.",
+      "via": "Intravenosa, en perfusión de 30 minutos con filtro, o en bolo en la parada.",
+      "monitorizacion": "ECG continuo, POTASIO cada 1-2 horas (puede caer con rapidez), función renal y estado hemodinámico."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intravenosa.",
+      "distribucion": "Compartimento vascular e intersticial, desde donde arrastra la digoxina del tejido.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "RENAL, en forma de complejo Fab-digoxina.",
+      "vida_media": "15-20 horas, muy prolongada en la insuficiencia renal.",
+      "ajuste_renal": "No se ajusta la dosis, pero en la insuficiencia renal el complejo se elimina mal y hay riesgo de REBOTE: la vigilancia debe prolongarse.",
+      "ajuste_hepatico": "Sin ajuste.",
+      "interacciones": [
+        {
+          "con": "DETERMINACIÓN DE DIGOXINEMIA",
+          "efecto": "Tras el antídoto, la digoxinemia MEDIDA se dispara porque los inmunoensayos habituales cuantifican la digoxina TOTAL, incluida la ya neutralizada",
+          "gravedad": "alta",
+          "manejo": "Es la trampa clásica: un nivel de 30 ng/mL tras el Fab no significa intoxicación masiva sino tratamiento eficaz. Hay que guiarse por la CLÍNICA y el ECG, no por el número, y anotarlo en la historia para el turno siguiente"
+        },
+        {
+          "con": "CALCIO intravenoso",
+          "efecto": "Riesgo teórico de agravar la toxicidad digitálica (el clásico corazón de piedra)",
+          "gravedad": "media",
+          "manejo": "En la hiperpotasemia de la intoxicación digitálica el tratamiento es el ANTÍDOTO, no el calcio: el potasio se corrige solo al liberarse la bomba. Si se usa calcio, diluido y lento con ECG continuo"
+        },
+        {
+          "con": "INSULINA con glucosa y salbutamol para la hiperpotasemia",
+          "efecto": "Pueden producir una HIPOPOTASEMIA brusca cuando el antídoto libera la bomba y el potasio entra de golpe en la célula",
+          "gravedad": "alta",
+          "manejo": "Conviene ser prudente con las medidas redistribuidoras si ya se ha administrado el Fab, y controlar el potasio cada 1-2 horas"
+        },
+        {
+          "con": "Fármacos que elevan la digoxinemia (amiodarona, verapamilo, claritromicina, quinidina)",
+          "efecto": "Son la causa habitual de la intoxicación CRÓNICA",
+          "gravedad": "alta",
+          "manejo": "Al alta hay que revisar la lista completa: la intoxicación crónica casi siempre viene de una interacción o de un deterioro de la función renal, no de un error de dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOPOTASEMIA al corregirse la intoxicación y volver el potasio al interior de la célula",
+        "Empeoramiento de la INSUFICIENCIA CARDIACA o reaparición de la fibrilación auricular rápida, al retirar el efecto inotrópico y frenador de la digoxina",
+        "Reacciones infusionales leves"
+      ],
+      "graves": [
+        "REBOTE de la intoxicación en la insuficiencia renal, días después, por redistribución del complejo no eliminado",
+        "Reacciones de hipersensibilidad y anafilaxia (raras; producto de origen ovino)",
+        "Enfermedad del suero (muy rara con los fragmentos Fab, que carecen de porción Fc)",
+        "Descompensación cardiaca en el paciente que dependía de la digoxina"
+      ]
+    },
+    "contraindicaciones": [
+      "No hay contraindicación absoluta ante una intoxicación digitálica con riesgo vital",
+      "Precaución en el paciente con alergia conocida a proteínas ovinas o a la papaína",
+      "Uso sin indicación: una digoxinemia elevada SIN arritmia ni hiperpotasemia no justifica el antídoto"
+    ],
+    "perlas": [
+      "La regla que evita el error de interpretación más frecuente: tras administrar el antídoto, la DIGOXINEMIA MEDIDA SE DISPARA. Los inmunoensayos cuantifican la digoxina total, incluida la ya secuestrada e inactiva. Un nivel altísimo a las dos horas del Fab significa que el tratamiento ha funcionado, no que haya fracasado. Conviene dejarlo escrito en la historia para el compañero del turno siguiente.",
+      "La HIPERPOTASEMIA de la intoxicación digitálica AGUDA es un marcador PRONÓSTICO y no solo un problema electrolítico: un potasio superior a 5,5 mmol/L predice mortalidad y es por sí mismo indicación de antídoto. Y se corrige SOLA al administrarlo, porque la bomba sodio-potasio vuelve a funcionar.",
+      "En esa hiperpotasemia concreta el tratamiento NO es el calcio ni el protocolo habitual: es el ANTÍDOTO. Y hay que ser prudente con la insulina y el salbutamol, porque cuando el Fab libera la bomba el potasio entra de golpe en la célula y puede producirse una hipopotasemia brusca.",
+      "AGUDA y CRÓNICA son dos intoxicaciones distintas. La AGUDA cursa con hiperpotasemia, náuseas, vómitos y bradiarritmias, y exige dosis altas. La CRÓNICA aparece en el anciano con deterioro renal o con una interacción, cursa con potasio normal o bajo, síntomas neurológicos y visuales, y responde a 1-2 viales.",
+      "Los síntomas VISUALES de la intoxicación crónica son característicos y muy poco conocidos: visión borrosa, escotomas y sobre todo XANTOPSIA, es decir, ver los objetos con un halo amarillento. En un anciano confuso con digoxina, preguntar por los colores puede orientar el diagnóstico.",
+      "En la INSUFICIENCIA RENAL hay que prolongar la vigilancia: el complejo Fab-digoxina no se elimina bien y puede redistribuirse, produciendo un REBOTE de la intoxicación varios días después de un episodio aparentemente resuelto.",
+      "Funciona por REACTIVIDAD CRUZADA en las intoxicaciones por plantas con glucósidos cardiotónicos: adelfa, digital, lirio de los valles e incluso el veneno del sapo Bufo. Ahí la digoxinemia no sirve para dosificar y hay que guiarse por la clínica.",
+      "Al retirar la digoxina se retira también su efecto: un paciente que dependía de ella para frenar una fibrilación auricular rápida o para sostener su función ventricular puede descompensarse. Hay que anticiparlo y tener preparada la alternativa.",
+      "La intoxicación CRÓNICA casi nunca es un error de dosis: es una INTERACCIÓN (amiodarona, verapamilo, claritromicina) o un deterioro de la función renal. Al alta, la revisión de la lista de fármacos es tan importante como el propio antídoto."
+    ],
+    "embarazo_lactancia": "Se emplea sin restricción ante una intoxicación digitálica con riesgo vital para la madre, y se ha usado con éxito en la gestante. Los datos son escasos pero la alternativa es una arritmia potencialmente mortal.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 13 y 58; protocolos de toxicología clínica sobre intoxicación digitálica"
+  }
+]

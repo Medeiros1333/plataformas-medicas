@@ -1,0 +1,245 @@
+## 0. CABEÇALHO
+
+**Código:** PED-21 · **Especialidade:** Pediatria · **Assunto:** Graduação da desidratação e planos de reidratação (A/B/C) · **Tema:** Desidratação na infância · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 6 (2013.1-Q60, 2017.1-Q60, 2023.2-Q33, 2024.1-Q43, 2025.2-Q73, 2022.1-Q98) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 75 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-07-29
+
+---
+
+## 1. TEORIA
+
+A graduação da desidratação e a escolha do plano de reidratação correspondente é um dos algoritmos mais testados em Pediatria/Emergência — o Revalida cobra o reconhecimento dos sinais clínicos de cada grau e a escolha do **plano de tratamento (A, B ou C)** correspondente.
+
+**Planos de reidratação (OMS/MS) [CONSENSO]:**
+| Plano | Grau de desidratação | Conduta |
+|---|---|---|
+| **Plano A** | Sem desidratação (ou risco mínimo) | Prevenção domiciliar — aumentar líquidos, manter alimentação, orientar sinais de alarme |
+| **Plano B** | Desidratação leve/moderada (alguns sinais presentes) | Terapia de reidratação oral (TRO) **na unidade de saúde**, sob observação, com SRO em volume calculado |
+| **Plano C** | Desidratação grave | Reidratação **intravenosa** rápida (fase de expansão), com fases subsequentes de manutenção/reposição |
+
+**Sinais que compõem a avaliação de gravidade [CONSENSO]:** estado geral (irritado/inquieto vs. letárgico/inconsciente), olhos (normais vs. fundos), lágrimas (presentes vs. ausentes), boca/língua (úmidas vs. secas), sede (bebe normalmente vs. bebe avidamente vs. incapaz de beber), sinal da prega cutânea (desaparece rápido vs. lentamente vs. muito lentamente/>2seg), pulso, tempo de enchimento capilar.
+
+⚠️ **PEGADINHA DO INEP central deste tema — reconhecer desidratação leve/moderada (não grave) e escolher o Plano B, não C:** um lactente com sinais de desidratação presentes (chorando sem lágrimas, olhos fundos, saliva espessa, sinal da prega **desaparecendo lentamente** — não "muito lentamente"), mas **ainda aceitando líquidos por via oral satisfatoriamente**, sem choque/hipotensão franca, classifica-se como desidratação **leve/moderada** (não grave) — a conduta correta é **Plano B: TRO na unidade de saúde**, não reidratação intravenosa (Plano C), que seria reservada para sinais mais graves (letargia/inconsciência, incapacidade de beber, choque).
+
+**Diferenciação Plano B vs. Plano C — sinal mais discriminante:** a **capacidade de aceitar líquidos por via oral** e a **ausência de choque/comprometimento hemodinâmico grave** são os fatores centrais que mantêm a criança no Plano B — se a criança consegue beber e não está em choque, a via oral é preferida (mais fisiológica, menos invasiva, e a evidência mostra eficácia comparável à via intravenosa para desidratação não grave).
+
+**TRO na unidade de saúde (Plano B) vs. no domicílio:** quando já há sinais de desidratação estabelecidos (não apenas prevenção), a reidratação oral deve ser feita **na unidade de saúde**, sob observação médica/de enfermagem, com volume calculado e reavaliação periódica — não simplesmente "enviar para casa com SRO" sem essa supervisão inicial.
+
+### Referências
+1. Organização Mundial da Saúde/Ministério da Saúde. Manual de Manejo do Paciente com Diarreia — Planos A, B e C de reidratação, edição vigente.
+2. Sociedade Brasileira de Pediatria. Desidratação na Infância — Manual de Orientação, edição vigente.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no PS/UBS real:** criança com diarreia e sinais de desidratação é um dos atendimentos mais comuns — o desafio prático real é graduar corretamente a desidratação para escolher o plano certo, evitando tanto a subestimação (que atrasaria hidratação necessária) quanto a superestimação (que levaria a via intravenosa desnecessária quando a oral seria suficiente e preferível).
+
+**Sequência prática de conduta:**
+1. Avaliar sinais de desidratação (estado geral, olhos, lágrimas, mucosas, sede, sinal da prega, pulso).
+2. Classificar: sem desidratação (Plano A) / leve-moderada (Plano B) / grave (Plano C).
+3. Se leve/moderada e aceitando via oral: TRO na unidade de saúde, com volume calculado e reavaliação.
+4. Se grave (letargia, incapacidade de beber, choque): reidratação intravenosa (Plano C).
+
+**Erros que médicos cometem de verdade:**
+- Indicar reidratação intravenosa (Plano C) para uma criança com desidratação leve/moderada que ainda aceita líquidos via oral bem.
+- Enviar a criança para casa com SRO sem supervisão inicial na unidade quando já há sinais de desidratação estabelecidos (deveria ser Plano B na unidade, não em domicílio direto).
+- Não reavaliar a criança durante a TRO para confirmar melhora e decidir alta/manutenção do plano.
+
+**O que dizer à família:** explicar a importância de completar a reidratação oral supervisionada antes de ir para casa, orientar continuação da SRO no domicílio conforme necessário, e sinais de piora (recusa de líquidos, letargia) que exigem retorno imediato.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Avaliar sistematicamente os sinais de desidratação.
+- ✅ Classificar corretamente o grau (sem desidratação/leve-moderada/grave).
+- ✅ Escolher o plano de reidratação correto (A/B/C) e verbalizar a conduta correspondente.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2013 · Edição 1 · Questão 60]**
+
+Lactente com seis meses de idade é trazido à Unidade Básica de Saúde pela mãe porque há um dia apresentava diarreia com seis a sete evacuações, com fezes líquidas, acompanhada de redução da diurese e inapetência; mantendo, porém, a ingestão de líquidos satisfatória. Não apresenta febre ou vômitos e sintomas respiratórios. Ao exame físico, o médico observa que a criança apresenta-se irritada, chorando sem lágrimas, com olhos fundos e saliva espessa. A pesquisa de turgor da pele mostra prega cutânea desaparecendo lentamente. Observa-se também aumento da frequência cardíaca com pulso débil. Com base nos dados observados e no grau de desidratação estimado, a conduta terapêutica adequada nesta situação é realizar:
+
+A) terapia de reidratação oral na Unidade.
+B) terapia de reidratação oral no domicílio.
+C) hidratação intravenosa com fase rápida.
+D) reidratação intravenosa com fase de reposição.
+E) reidratação intravenosa com fase de manutenção.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** o lactente apresenta sinais de desidratação (irritabilidade, choro sem lágrimas, olhos fundos, saliva espessa, sinal da prega **desaparecendo lentamente** — não "muito lentamente", que seria mais grave) caracterizando desidratação **leve/moderada**, mas mantém **ingestão de líquidos satisfatória** por via oral e não apresenta sinais de choque franco/comprometimento hemodinâmico grave incompatível com via oral. A conduta correta é **terapia de reidratação oral (TRO), realizada na Unidade de Saúde** (não em casa, já que há sinais de desidratação estabelecidos que exigem supervisão e volume calculado).
+
+**Por que as demais estão erradas:**
+- B) TRO no domicílio (sem supervisão inicial) é insuficiente diante de sinais de desidratação já estabelecidos — o Plano B exige reidratação supervisionada na unidade de saúde primeiro.
+- C), D) e E) Propõem reidratação **intravenosa** (fases rápida, de reposição, de manutenção) — desproporcional para um quadro de desidratação leve/moderada em que a criança **ainda aceita líquidos por via oral satisfatoriamente**, sem sinais de choque. A via intravenosa é reservada para desidratação grave/incapacidade de ingestão oral.
+
+**O que a banca estava testando:** reconhecimento de que desidratação leve/moderada, com aceitação de via oral preservada e sem choque, deve ser tratada com TRO **na unidade de saúde** (Plano B), não em domicílio isoladamente nem com via intravenosa — a capacidade de beber é o fator discriminante central entre os planos.
+
+---
+
+**[INEP 2017 · Edição 1 · Questão 60]**
+
+Um lactente com 8 meses de vida é levado pela mãe à Unidade Básica de Saúde (UBS), que relata que a criança, anteriormente hígida, vem apresentando, há 8 dias, evacuações líquidas, sem muco e sem sangue, com hiperemia perianal e fezes explosivas, chegando a apresentar cerca de dez episódios em 24 horas. O lactente não está aceitando bem a alimentação, nem o soro caseiro, apresentando vômitos. O médico da UBS encaminha o paciente a um Pronto-Socorro público para avaliação, dada a não aceitação do soro de reidratação oral oferecido, com total de seis episódios de vômitos em uma hora, mesmo com fracionamento do soro. Ao exame, constatam-se os seguintes achados: temperatura axilar igual a 36 ºC, letargia, olhos muito encovados, fontanela deprimida, prega cutânea que se desfaz em mais de 2 segundos e mucosas secas. Em face do presente caso clínico, o diagnóstico e a conduta adequados são
+
+A) diarreia aguda com desidratação; iniciar hidratação por gastróclise com soro de reidratação oral, 50 mL/kg de peso, em 2 horas.
+B) diarreia persistente com desidratação; iniciar antiemético, antidiarreico e soro de reidratação oral, 50 mL/kg de peso, em 2 horas.
+C) diarreia aguda com desidratação grave; iniciar hidratação venosa com solução fisiológica 0,9%, 20 mL/kg de peso, em 30 minutos.
+D) diarreia persistente com desidratação grave; iniciar hidratação venosa com solução glicofisiológica 1:2, 100 mL/kg de peso, em 4 horas.
+
+**Gabarito oficial: C**
+
+**Por que C está correta:** a diarreia tem **8 dias** — **aguda** (< 14 dias). Há **desidratação grave**: **letargia**, olhos muito encovados, fontanela deprimida, **sinal da prega muito lento (> 2 s)**, incapacidade de beber (vômitos incoercíveis). Conduta: **Plano C — hidratação venosa** com **soro fisiológico 0,9%** na fase rápida (na versão do manual adotada pela banca, **20 mL/kg em 30 minutos**, repetido até melhora).
+
+**Por que as demais estão erradas:**
+- A) Gastróclise é para desidratação **sem** gravidade quando a TRO falha por vômitos; com **letargia**, a via é **venosa**.
+- B) Não é persistente (< 14 dias); e **antidiarreicos** são contraindicados em criança.
+- D) Não é persistente; e **soro glicofisiológico** não é usado na fase de expansão.
+
+⚠️ **PEGADINHA DO INEP / atualização:** o **fluxograma do MS de 2023** passou a usar na fase rápida **SF 0,9% ou Ringer lactato 30 mL/kg** (em 30 min se ≥ 1 ano; em 1 h se < 1 ano), seguido de **70 mL/kg** (em 2h30 se ≥ 1 ano; em 5 h se < 1 ano). Classificação: **aguda < 14 dias; persistente ≥ 14 dias; crônica > 30 dias**.
+
+**O que a banca estava testando:** classificação da diarreia e hidratação venosa na desidratação grave.
+
+---
+
+**[INEP 2023 · Edição 2 · Questão 33]**
+
+Um menino de 15 meses, previamente hígido e com peso de 11,0 kg, aferido há 1 semana, apresenta-se em uma unidade de pronto-atendimento com quadro de diarreia e de vômitos persistente há 3 dias. Na última hora, já apresentou 5 episódios de vômitos de conteúdo alimentar. Ao exame físico durante a consulta, apresenta-se com peso de 10,0 kg, hipotônico, com pulsos fracos, com tempo de enchimento capilar de 3 segundos, com olhos fundos, choro sem lágrimas, e sem conseguir ingerir líquidos. Diante do quadro desse paciente, a conduta inicial e imediata do médico deve ser realizar administração endovenosa de
+
+A) 200 mL de cloreto de sódio a 0,9% por 20 minutos.
+B) 300 mL de cloreto de sódio a 0,9% por 30 minutos.
+C) 300 mL da solução de Ringer com lactato por 1 hora.
+D) 200 mL da solução de Ringer com lactato por 20 minutos.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** **desidratação grave** (hipotonia, pulsos fracos, não consegue beber, perda de **~9% do peso**). Pelo **Plano C do MS (2023)**, para criança **≥ 1 ano**: fase rápida com **30 mL/kg em 30 minutos** de SF 0,9% (ou Ringer lactato). Com o **peso atual de 10 kg** → **300 mL em 30 minutos**; depois, 70 mL/kg em 2h30 e reavaliação.
+
+**Por que as demais estão erradas:**
+- A) e D) 200 mL (20 mL/kg) em 20 min corresponde ao esquema antigo/bolus de choque, não ao plano C vigente usado pela banca.
+- C) **30 mL/kg em 1 hora** é o esquema para **menores de 1 ano**; o menino tem 15 meses.
+
+⚠️ **PEGADINHA DO INEP:** **Plano C (MS 2023)** — **< 1 ano:** 30 mL/kg em 1 h + 70 mL/kg em 5 h; **≥ 1 ano:** 30 mL/kg em 30 min + 70 mL/kg em 2h30. Use o **peso atual**.
+
+**O que a banca estava testando:** cálculo da hidratação venosa no Plano C.
+
+---
+
+**[INEP 2024 · Edição 1 · Questão 43]**
+
+Um lactente com 2 anos, previamente hígido, é levado à unidade de pronto atendimento com quadro de diarreia, com fezes líquidas sem muco ou sangue. Além disso, apresenta vômitos e febre há 48 horas. Ao exame físico, o paciente está sonolento, hipotônico, com olhos fundos, mucosas secas e ausência de lágrimas. O pulso está débil e o enchimento capilar é > 5 segundos. Nesse caso, qual tratamento inicial deve ser ministrado, segundo o fluxograma do Ministério da Saúde do Brasil de 2023?
+
+A) Solução de reidratação oral de 50 a 100 mL/kg por via oral, por um período de 4 a 6 horas.
+B) Solução de reidratação oral de 50 a 100 mL/kg por gastróclise, por um período de 4 a 6 horas.
+C) Soro fisiológico a 0,9% 30 mL/kg por via endovenosa; em 30 minutos, administrar + Ringer Lactato 30 mL/kg em 2 horas.
+D) Soro fisiológico a 0,9% 20 mL/kg por via endovenosa; em 30 minutos, repetir essa quantidade até que a criança esteja hidratada.
+
+**Gabarito oficial: ANULADA** — o INEP anulou esta questão; não há resposta oficial.
+
+**Análise:** o INEP não divulga o motivo da anulação. O quadro é de **desidratação grave** (sonolência, hipotonia, pulso débil, TEC > 5 s) → **Plano C**, via **venosa**. Pelo **fluxograma do MS de 2023**, para criança **≥ 1 ano**: **30 mL/kg em 30 minutos** (SF 0,9% ou Ringer lactato) seguidos de **70 mL/kg em 2 horas e 30 minutos** — compare com os números das alternativas. A e B (TRO) são para desidratação sem gravidade.
+
+**O que a banca estava testando:** Plano C de hidratação do Ministério da Saúde (2023).
+
+---
+
+**[INEP 2025 · Edição 2 · Questão 73]**
+
+Lactente de 5 meses é atendido na Unidade de Pronto Atendimento (UPA) apresentando diarreia aguda, com desidratação classificada como moderada. Foi indicada a permanência na unidade para terapia de reidratação oral (TRO). Durante a primeira hora de administração, vomitou 5 vezes, mantendo o mesmo estado de desidratação. Segundo às recomendações do Ministério da Saúde de 2024, a próxima conduta nesse caso é
+
+A) prescrever antiemético e reiniciar TRO após 30 minutos.
+B) suspender TRO e iniciar terapia intravenosa com soro fisiológico.
+C) diminuir a dose e aumentar o intervalo da administração da TRO.
+D) introduzir sonda nasogástrica e iniciar TRO por gastróclise.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** no **Plano B** (desidratação sem sinais de gravidade), se a criança **vomita persistentemente** a TRO ou não ganha peso após 2 horas, a recomendação do MS é administrar o **soro de reidratação oral por sonda nasogástrica (gastróclise)**, 20–30 mL/kg/hora. Só se a gastróclise falhar (ou houver piora para desidratação grave) passa-se à via venosa.
+
+**Por que as demais estão erradas:**
+- A) Antieméticos não são rotina no manejo da diarreia pelo MS (a ondansetrona é citada em algumas diretrizes internacionais, mas não é a recomendação do fluxograma).
+- B) Sem sinais de gravidade, **ainda não** é caso de via venosa — há o passo da gastróclise.
+- C) Se vomitou 5 vezes em 1 hora, oferecer menos e mais espaçado não resolve; o fluxograma indica gastróclise.
+
+⚠️ **PEGADINHA DO INEP:** falha da TRO por vômitos **sem** desidratação grave → **gastróclise**; desidratação **grave** → **venosa** (Plano C).
+
+**O que a banca estava testando:** conduta na falha da terapia de reidratação oral.
+
+**[INEP 2022 · Edição 1 · Questão 98]**
+
+Uma criança do sexo masculino com 10 meses de idade, previamente hígida, comparece à unidade de pronto atendimento com quadro de diarreia e vômitos há 2 dias, e oligúria há 1 dia, segundo relato da mãe. Ao exame físico, apresenta frequência respiratória = 55 incursões respiratórias por minuto, saturometria de 98%; auscultas cardíaca e respiratória sem alterações; frequência cardíaca = 140 batimentos por minuto; pressão arterial adequada; ausência de edema. Os exames laboratoriais mostram: sódio = 128 mEq/L, K = 4,8 mEq/L, bicarbonato = 13 mEq/L, ureia = 62 mg/dL, creatinina = 1,4 mg/dL, fração de excreção de sódio < 1%. Diante desse quadro, a conduta imediata mais adequada em relação ao paciente, após medidas de suporte e acesso venoso, é solicitar
+
+A) expansão volêmica endovenosa com cloreto de sódio (NaCl) a 0,9%.
+B) aplicação endovenosa de bicarbonato de sódio a 8,4%.
+C) realização de tratamento de substituição renal.
+D) aplicação endovenosa de furosemida.
+
+**Gabarito oficial: A**
+
+**Por que A está correta:** lactente com **diarreia e vômitos** há 2 dias e **oligúria**, com taquicardia, **hiponatremia** (128), **acidose metabólica** (bicarbonato 13, com taquipneia compensatória), ureia e creatinina elevadas e **fração de excreção de sódio < 1%** = **lesão renal aguda pré-renal** por **desidratação/hipovolemia**. A conduta imediata é **expansão volêmica com soro fisiológico 0,9%** (20 mL/kg, repetida se necessário), que restaura a perfusão renal e corrige a acidose e a hiponatremia.
+
+**Por que as demais estão erradas:**
+- B) A acidose é consequência da hipoperfusão e das perdas fecais e corrige com o volume; bicarbonato não está indicado com esses valores.
+- C) Não há indicação de diálise (sem hipercalemia grave, congestão, acidose refratária ou uremia sintomática); a lesão é pré-renal e reversível.
+- D) Furosemida em paciente **hipovolêmico** piora a perfusão renal.
+
+⚠️ **PEGADINHA DO INEP:** **FENa < 1%** = rim preservado, poupando sódio → causa **pré-renal** → a resposta é **volume**.
+
+**O que a banca estava testando:** diagnóstico da lesão renal aguda pré-renal e tratamento da desidratação no lactente.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Quais os 3 planos de reidratação (OMS/MS)?	A (sem desidratação, domiciliar), B (leve/moderada, TRO na unidade), C (grave, intravenosa)	Revalida::Pediatria::DesidratacaoInfancia::Classificacao
+Qual o fator mais discriminante entre Plano B e Plano C?	Capacidade de aceitar líquidos por via oral e ausência de choque (mantém em B; perde em C)	Revalida::Pediatria::DesidratacaoInfancia::Diagnostico
+TRO do Plano B deve ser feita onde?	Na unidade de saúde, sob supervisão, não apenas enviada para o domicílio	Revalida::Pediatria::DesidratacaoInfancia::Conduta
+Sinal da prega cutânea "desaparecendo lentamente" indica que grau de desidratação?	Leve/moderada (não a forma mais grave, que seria "muito lentamente")	Revalida::Pediatria::DesidratacaoInfancia::Diagnostico
+Reidratação intravenosa é indicada quando a criança ainda aceita bem líquidos por via oral?	Não — via oral é preferida quando há aceitação adequada e ausência de choque	Revalida::Pediatria::DesidratacaoInfancia::Conduta
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Plano A: sem desidratação, domiciliar. Plano B: leve/moderada, TRO na unidade. Plano C: grave, intravenosa.
+2. Capacidade de beber + ausência de choque = mantém em TRO oral (Plano B), não escala para IV.
+3. TRO do Plano B é feita NA UNIDADE, não apenas orientada para casa.
+4. Sinal da prega "lentamente" = leve/moderada; "muito lentamente" = mais grave.
+5. Via intravenosa é reservada para desidratação grave/incapacidade de ingestão oral.
+
+📊 **Tabela-síntese**
+| Sinal | Leve/moderada (Plano B) | Grave (Plano C) |
+|---|---|---|
+| Aceita líquidos | Sim | Não/mal |
+| Sinal da prega | Lentamente | Muito lentamente |
+| Estado geral | Irritado | Letárgico/inconsciente |
+
+⚡ **Fluxograma textual:** criança com diarreia/desidratação → avaliar sinais → sem desidratação → Plano A (domiciliar) → leve/moderada + aceita VO → Plano B (TRO na unidade) → grave/não aceita VO/choque → Plano C (IV).
+
+🚫 **Os 3 erros mais comuns:** (1) escalar para IV desnecessariamente quando a criança aceita VO bem; (2) mandar para casa sem TRO supervisionada na unidade quando já há sinais de desidratação; (3) confundir gravidade pelo sinal da prega (lentamente vs. muito lentamente).
+
+🔗 **Conexões com outros módulos:** PED-13 (diarreia aguda), PED-12 (ITU na infância — outra causa de desidratação por diminuição de ingesta).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-21",
+  "especialidade": "Pediatria",
+  "tema": "Desidratação na infância",
+  "assunto": "Graduação da desidratação e planos de reidratação (A/B/C)",
+  "tier": "A",
+  "n_questoes": 6,
+  "n_flashcards": 5,
+  "tempo_estudo_min": 75,
+  "prerequisitos": [],
+  "relacionados": ["PED-13", "PED-12"],
+  "data_geracao": "2026-07-29",
+  "itens_a_verificar": [
+    "Módulo com apenas 1 questão na amostra atual — prioridade para revisão quando mais edições forem classificadas",
+    "Confirmar se este módulo tem mais questões nas 17 edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

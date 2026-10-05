@@ -1,0 +1,260 @@
+[
+  {
+    "id": "GIN-anticonceptivos-combinados",
+    "nombre": "Anticonceptivos hormonales combinados",
+    "sinonimos": [
+      "Píldora combinada",
+      "Anillo vaginal, parche transdérmico"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticonceptivo hormonal",
+    "subclase": "Combinación de estrógeno (etinilestradiol o estradiol) y progestágeno",
+    "vs_clase": [
+      "**Contienen ESTRÓGENO**: **riesgo de tromboembolia venosa** e ictus; contraindicados en migraña con aura, fumadoras >35 años, HTA no controlada, trombofilia y posparto inmediato.",
+      "**Beneficios no anticonceptivos**: regulan el ciclo, reducen dismenorrea, acné e hirsutismo y el riesgo de cáncer de ovario y endometrio.",
+      "**Interacción con inductores enzimáticos** (rifampicina, carbamazepina) y **aumento del metabolismo de la lamotrigina**."
+    ],
+    "mecanismo": "El efecto anticonceptivo lo aporta sobre todo el PROGESTÁGENO, que inhibe el pico de LH y con él la OVULACIÓN, espesa el moco cervical haciéndolo impenetrable al espermatozoide y atrofia el endometrio. El ESTRÓGENO cumple dos funciones distintas: refuerza la inhibición de la FSH, impidiendo el desarrollo folicular, y sobre todo ESTABILIZA EL ENDOMETRIO para evitar el sangrado irregular, que es el motivo principal de abandono. Toda la seguridad de la clase depende del estrógeno: el etinilestradiol aumenta la síntesis hepática de factores de coagulación y de angiotensinógeno, y de ahí salen el riesgo TROMBÓTICO y el aumento de la tensión arterial. Los progestágenos de tercera y cuarta generación (desogestrel, gestodeno, drospirenona) tienen mejor perfil androgénico y cutáneo pero MÁS riesgo trombótico que el levonorgestrel, que es de segunda generación: es un intercambio que conviene tener claro al prescribir.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANTICONCEPCIÓN",
+        "dosis": "Etinilestradiol 20-35 microgramos con un progestágeno, un comprimido al día durante 21 días y 7 de descanso, o en pauta continua",
+        "posologia": "Un comprimido diario a la misma hora",
+        "via": "VO",
+        "dosis_objetivo": "Ausencia de ovulación con buen control del ciclo y mínimo sangrado intermenstrual",
+        "nota": "Existen el ANILLO vaginal mensual y el PARCHE semanal, que evitan el olvido diario. El parche es menos eficaz por encima de 90 kg"
+      },
+      {
+        "patologia": "DISMENORREA y sangrado menstrual abundante",
+        "dosis": "Etinilestradiol 20-30 microgramos con levonorgestrel, un comprimido al día en régimen CONTINUO sin descanso",
+        "posologia": "Diaria continua",
+        "via": "VO",
+        "nota": "La pauta continua elimina la menstruación y es especialmente útil aquí; no hay ninguna necesidad fisiológica de sangrar cada mes"
+      },
+      {
+        "patologia": "SÍNDROME DE OVARIO POLIQUÍSTICO con hirsutismo y acné",
+        "dosis": "Etinilestradiol 30-35 microgramos con drospirenona 3 mg o acetato de ciproterona 2 mg, un comprimido al día",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Aumenta la globulina transportadora de hormonas sexuales y reduce la testosterona libre: mejora hirsutismo y acné, y además protege el endometrio de la anovulación crónica"
+      },
+      {
+        "patologia": "ENDOMETRIOSIS, control del dolor",
+        "dosis": "Etinilestradiol 20 microgramos con un progestágeno, un comprimido al día en pauta CONTINUA sin semana de descanso",
+        "posologia": "Diaria continua",
+        "via": "VO",
+        "nota": "La supresión de la menstruación es el objetivo terapéutico, no un efecto secundario"
+      }
+    ],
+    "esquema": {
+      "inicio": "Anamnesis de FACTORES DE RIESGO TROMBÓTICO (tabaquismo, edad, obesidad, inmovilización, antecedentes personales y familiares de trombosis, trombofilia) y de MIGRAÑA CON AURA, más tensión arterial. No hace falta exploración ginecológica ni citología previas para prescribirla, y exigirlas es una barrera innecesaria.",
+      "titulacion": "Se empieza por la dosis más baja de etinilestradiol que controle el ciclo. El sangrado intermenstrual de los primeros 3 meses suele ser transitorio y no obliga a cambiar.",
+      "duracion": "Mientras se desee anticoncepción y no aparezcan contraindicaciones. NO hay que hacer descansos periódicos: es un mito sin fundamento que solo produce embarazos no deseados.",
+      "fin": "La fertilidad se recupera de forma prácticamente inmediata al suspenderla, sin retraso relevante.",
+      "via": "Oral, vaginal (anillo mensual) o transdérmica (parche semanal).",
+      "monitorizacion": "Tensión arterial anual. No se requiere control analítico rutinario en la mujer sana."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el anillo y el parche evitan el primer paso hepático y dan niveles más estables.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP3A4, con circulación enterohepática del etinilestradiol.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "Variable; el etinilestradiol unas 24 horas.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Contraindicados en la hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos: RIFAMPICINA, carbamazepina, fenitoína, fenobarbital, topiramato y HIERBA DE SAN JUAN",
+          "efecto": "Reducen las concentraciones hormonales y producen FALLO ANTICONCEPTIVO con embarazo",
+          "gravedad": "alta",
+          "manejo": "Es la interacción que más embarazos no deseados causa. Hay que usar un método adicional o cambiar a un método no hormonal, como el DIU de cobre. El LEVETIRACETAM, la lamotrigina y el valproato NO son inductores y no la comprometen"
+        },
+        {
+          "con": "LAMOTRIGINA",
+          "efecto": "El anticonceptivo REDUCE los niveles de lamotrigina hasta un 50%, con riesgo de crisis, y en la semana de descanso rebotan a niveles tóxicos",
+          "gravedad": "alta",
+          "manejo": "Interacción bidireccional que hay que anticipar en la mujer epiléptica: pauta continua sin descanso y ajuste de la dosis de lamotrigina"
+        },
+        {
+          "con": "Antibióticos NO inductores (amoxicilina, doxiciclina)",
+          "efecto": "NO reducen la eficacia anticonceptiva de forma clínicamente relevante",
+          "gravedad": "baja",
+          "manejo": "Es un mito muy extendido que conviene desmentir: solo la rifampicina y la rifabutina la comprometen entre los antibióticos"
+        },
+        {
+          "con": "Lamivudina, antirretrovirales potenciados con ritonavir",
+          "efecto": "Modifican los niveles hormonales",
+          "gravedad": "media",
+          "manejo": "Consultar interacciones específicas en la mujer con VIH"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado intermenstrual en los primeros ciclos",
+        "Náuseas, tensión mamaria y cefalea",
+        "Cambios del estado de ánimo y de la libido",
+        "Cloasma",
+        "Aumento leve de la tensión arterial"
+      ],
+      "graves": [
+        "TROMBOSIS VENOSA PROFUNDA y EMBOLIA PULMONAR: el riesgo se multiplica por 2-4, y es MÁXIMO en el PRIMER AÑO de uso y al reiniciar tras una interrupción",
+        "ICTUS e INFARTO de miocardio, sobre todo en fumadoras mayores de 35 años y en la migraña CON AURA",
+        "Hipertensión arterial",
+        "Adenoma hepático y colestasis",
+        "Aumento pequeño del riesgo de cáncer de mama y de cérvix, que desaparece años después de suspenderlos"
+      ]
+    },
+    "contraindicaciones": [
+      "MIGRAÑA CON AURA a cualquier edad",
+      "FUMADORA de más de 15 cigarrillos al día y MAYOR DE 35 AÑOS",
+      "Antecedente de trombosis venosa o arterial, o trombofilia conocida",
+      "Hipertensión arterial no controlada",
+      "Cáncer de mama actual",
+      "Hepatopatía activa y tumor hepático",
+      "Lupus con anticuerpos antifosfolípido positivos",
+      "Menos de 6 semanas posparto en la lactante; menos de 3 semanas posparto en cualquier mujer",
+      "Diabetes con afectación vascular, y cirugía mayor con inmovilización prolongada"
+    ],
+    "perlas": [
+      "Las dos contraindicaciones que más se pasan por alto y más daño causan: MIGRAÑA CON AURA (multiplica el riesgo de ictus isquémico, a cualquier edad) y FUMADORA MAYOR DE 35 AÑOS. Preguntar por el aura antes de prescribir cuesta diez segundos y es una de las preguntas más rentables de la consulta.",
+      "El riesgo TROMBÓTICO es MÁXIMO EN EL PRIMER AÑO y vuelve a subir al reiniciar tras un descanso. Ese hecho destruye el mito de los descansos periódicos: no solo no protegen, sino que exponen a la mujer al periodo de mayor riesgo una y otra vez, además de a embarazos no deseados.",
+      "Hay que poner el riesgo en contexto o se toman malas decisiones: el riesgo trombótico del EMBARAZO y sobre todo del PUERPERIO es bastante MAYOR que el de la píldora. La comparación correcta no es píldora frente a nada, sino píldora frente a la posibilidad de embarazo.",
+      "El mito de los ANTIBIÓTICOS sigue vivo en consultas y prospectos: solo la RIFAMPICINA y la rifabutina reducen la eficacia. La amoxicilina de una otitis no obliga a usar preservativo, y afirmarlo genera desconfianza en el método.",
+      "La interacción con la LAMOTRIGINA es bidireccional y peligrosa en las dos direcciones: el anticonceptivo baja la lamotrigina a la mitad (crisis) y en la semana de descanso rebota (toxicidad). En la mujer epiléptica hay que usar pauta continua y ajustar.",
+      "La pauta CONTINUA, sin semana de descanso, es perfectamente válida y a menudo preferible: no hay ninguna necesidad fisiológica de menstruar, y elimina la dismenorrea, la cefalea catamenial y el riesgo de ovulación por olvido en la semana de descanso.",
+      "No hace falta citología ni exploración ginecológica para prescribir un anticonceptivo. Exigirlas es una barrera de acceso sin base clínica que retrasa la anticoncepción en mujeres jóvenes.",
+      "Los progestágenos de TERCERA y CUARTA generación tienen mejor perfil sobre el acné y el hirsutismo pero MÁS riesgo trombótico que el LEVONORGESTREL. En una primera prescripción sin problema androgénico, el levonorgestrel es la opción más segura.",
+      "Reducen el riesgo de cáncer de OVARIO y de ENDOMETRIO de forma sustancial y duradera, un beneficio que casi nunca se menciona al informar sobre riesgos y que forma parte de una información honesta."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo (aunque la exposición inadvertida no obliga a interrumpirlo ni se asocia a malformaciones). En la LACTANCIA se evitan las primeras 6 semanas por el riesgo trombótico y por el posible efecto sobre la producción de leche; el método hormonal de elección durante la lactancia es el de SOLO PROGESTÁGENO.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS para el uso de anticonceptivos"
+  },
+  {
+    "id": "GIN-progestagenos-urgencia",
+    "nombre": "Anticoncepción de solo progestágeno y anticoncepción de urgencia",
+    "sinonimos": [
+      "Píldora del día después",
+      "Desogestrel, levonorgestrel, acetato de ulipristal, DIU hormonal, implante"
+    ],
+    "area": "GIN",
+    "nivel": 1,
+    "clase": "Anticonceptivo hormonal",
+    "subclase": "Progestágenos solos y modulador del receptor de progesterona",
+    "vs_clase": [
+      "**SIN estrógeno**: utilizables cuando los combinados están contraindicados (riesgo trombótico, migraña con aura, lactancia).",
+      "**Su efecto adverso propio es el SANGRADO IRREGULAR** (manchado).",
+      "Incluye la **anticoncepción de URGENCIA**: levonorgestrel (hasta 72 h) o ulipristal (hasta 120 h, más eficaz); el DIU de cobre es el método más eficaz (5 días)."
+    ],
+    "mecanismo": "Los métodos de SOLO PROGESTÁGENO actúan sin estrógeno y por tanto SIN el riesgo trombótico que este aporta. Su mecanismo varía con la dosis: el desogestrel y el implante inhiben la ovulación de forma constante; la minipíldora clásica de levonorgestrel y el DIU hormonal actúan sobre todo espesando el MOCO CERVICAL y atrofiando el endometrio, con inhibición ovulatoria inconstante. La ANTICONCEPCIÓN DE URGENCIA funciona de un modo que hay que entender bien para explicarlo: el LEVONORGESTREL RETRASA o impide el pico de LH, de modo que solo es eficaz ANTES de que este haya comenzado; el ACETATO DE ULIPRISTAL es un modulador del receptor de progesterona que bloquea la ovulación incluso cuando el pico de LH YA HA EMPEZADO, y por eso es más eficaz en los días de máxima fertilidad. Ninguno de los dos es abortivo: si la implantación ya se ha producido, no la interrumpen. El DIU DE COBRE es el método de urgencia más eficaz de todos y actúa impidiendo la fecundación y la implantación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ANTICONCEPCIÓN de urgencia",
+        "dosis": "Levonorgestrel 1,5 mg en dosis única (hasta 72 horas); acetato de ulipristal 30 mg en dosis única (hasta 120 horas)",
+        "posologia": "Dosis única, lo antes posible",
+        "via": "VO",
+        "dosis_objetivo": "Administración lo más precoz posible: la eficacia cae con cada hora que pasa",
+        "nota": "El DIU DE COBRE insertado en los 5 días siguientes es el método de urgencia MÁS EFICAZ (más del 99%) y además deja anticoncepción para 10 años"
+      },
+      {
+        "patologia": "Anticoncepción en la LACTANCIA o con contraindicación de estrógenos",
+        "dosis": "Desogestrel 75 microgramos al día, sin descanso",
+        "posologia": "Un comprimido diario a la misma hora, sin interrupciones",
+        "via": "VO",
+        "nota": "Es el método hormonal de elección durante la lactancia, en la migraña con aura y en la fumadora mayor de 35 años"
+      },
+      {
+        "patologia": "Anticoncepción de LARGA DURACIÓN",
+        "dosis": "Implante subdérmico de etonogestrel 68 mg (3 años); DIU de levonorgestrel 52 mg (5-8 años); medroxiprogesterona depot 150 mg IM cada 12 semanas",
+        "posologia": "Según el método: 3 años, 5-8 años o trimestral",
+        "via": "SC",
+        "nota": "Son los métodos MÁS EFICACES en uso real porque eliminan el error de cumplimiento: su fallo típico es prácticamente igual a su fallo perfecto"
+      },
+      {
+        "patologia": "Sangrado menstrual abundante y protección endometrial",
+        "dosis": "DIU de levonorgestrel 52 mg",
+        "posologia": "Un dispositivo cada 5-8 años",
+        "via": "vaginal",
+        "nota": "Reduce el sangrado más del 90% y es alternativa a la histerectomía; también protege el endometrio en la terapia hormonal de la menopausia"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la anticoncepción de urgencia, CUANTO ANTES. En los métodos regulares, se puede iniciar en cualquier momento del ciclo si hay certeza razonable de que no hay embarazo, usando protección adicional los primeros 7 días (2 días con el desogestrel).",
+      "titulacion": "No procede.",
+      "duracion": "Según el método: diaria, trimestral, 3 años (implante) o 5-8 años (DIU).",
+      "fin": "La fertilidad se recupera rápido salvo con la MEDROXIPROGESTERONA DEPOT, tras la cual puede tardar hasta 12 meses.",
+      "via": "Oral, intramuscular, subdérmica o intrauterina.",
+      "monitorizacion": "Patrón de sangrado (es la causa principal de abandono) y densitometría solo en usuarias de larga duración de medroxiprogesterona depot con factores de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral; el implante y el DIU liberan de forma sostenida durante años.",
+      "distribucion": "El DIU actúa fundamentalmente a nivel LOCAL, con concentraciones plasmáticas mínimas: de ahí su excelente perfil sistémico.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "Variable según el preparado.",
+      "ajuste_renal": "Sin ajuste.",
+      "ajuste_hepatico": "Precaución en la hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos (rifampicina, anticonvulsivantes, hierba de San Juan)",
+          "efecto": "Reducen la eficacia de los métodos hormonales, incluida la anticoncepción de urgencia",
+          "gravedad": "alta",
+          "manejo": "Se DUPLICA la dosis de levonorgestrel de urgencia (3 mg) y se prefiere el DIU DE COBRE. El DIU HORMONAL y el implante mantienen su eficacia, ya que el DIU actúa localmente"
+        },
+        {
+          "con": "Anticoncepción hormonal regular y ACETATO DE ULIPRISTAL",
+          "efecto": "Se antagonizan MUTUAMENTE: el progestágeno reduce la eficacia del ulipristal, y el ulipristal retrasa el efecto del anticonceptivo",
+          "gravedad": "alta",
+          "manejo": "Tras el ulipristal hay que esperar 5 DÍAS para (re)iniciar la píldora, con preservativo mientras tanto. Con levonorgestrel se puede reiniciar de inmediato. Es un detalle que casi nunca se explica en la farmacia"
+        },
+        {
+          "con": "PESO corporal elevado",
+          "efecto": "El LEVONORGESTREL de urgencia pierde eficacia por encima de 70-75 kg",
+          "gravedad": "media",
+          "manejo": "Preferir ulipristal o DIU de cobre en mujeres con peso elevado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SANGRADO IRREGULAR o manchado, el efecto adverso principal y la causa número uno de abandono",
+        "AMENORREA (que es un efecto esperable y no perjudicial, pero hay que anticiparlo)",
+        "Cefalea, mastalgia y acné",
+        "Náuseas con la anticoncepción de urgencia",
+        "Aumento de peso con la medroxiprogesterona depot"
+      ],
+      "graves": [
+        "Pérdida de DENSIDAD MINERAL ÓSEA con el uso prolongado de medroxiprogesterona depot, especialmente relevante en la adolescente que aún no ha alcanzado su pico de masa ósea",
+        "Quistes ováricos funcionales",
+        "Perforación uterina en la inserción del DIU (rara) y expulsión",
+        "Embarazo ECTÓPICO si falla el método (aunque el riesgo absoluto es menor que sin anticoncepción)",
+        "Depresión (asociación descrita, sobre todo en adolescentes)"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo confirmado",
+      "Cáncer de mama actual",
+      "Sangrado vaginal no filiado (antes de estudiarlo)",
+      "Hepatopatía grave y tumor hepático",
+      "Para el DIU: infección pélvica activa, distorsión grave de la cavidad y sospecha de neoplasia genital"
+    ],
+    "perlas": [
+      "El mensaje más importante sobre la anticoncepción de urgencia es que NO ES ABORTIVA: actúa retrasando o impidiendo la OVULACIÓN, y si la implantación ya se ha producido no tiene efecto. Explicarlo con claridad respeta las creencias de la paciente y evita que renuncie a un método eficaz por una información falsa.",
+      "ULIPRISTAL frente a LEVONORGESTREL: el ulipristal funciona incluso cuando el pico de LH ya ha empezado, y por eso es más eficaz precisamente en los días de máxima fertilidad, que son los que más importan. Es la opción preferente salvo que no esté disponible.",
+      "Después del ULIPRISTAL hay que esperar 5 DÍAS antes de (re)iniciar la píldora, porque se antagonizan. Este detalle casi nunca se explica, y produce fallos anticonceptivos en el mismo ciclo en que se usó la urgencia.",
+      "El DIU DE COBRE es el método de urgencia MÁS EFICAZ, con más del 99%, y además resuelve la anticoncepción durante los siguientes 10 años. Ofrecerlo convierte un episodio de riesgo en una solución a largo plazo, y sin embargo casi nunca se plantea.",
+      "El LEVONORGESTREL de urgencia pierde eficacia por encima de 70-75 kg: en esa situación hay que ofrecer ulipristal o DIU de cobre y no una dosis estándar que probablemente no funcione.",
+      "Los métodos de LARGA DURACIÓN (implante y DIU) son los más eficaces en la vida real por una razón sencilla: eliminan el error humano. Su eficacia de uso típico coincide con la de uso perfecto, algo que ninguna píldora puede ofrecer.",
+      "El SANGRADO IRREGULAR es el precio de todos los métodos de solo progestágeno y la causa principal de abandono. Anticiparlo antes de insertar un implante, explicando que suele mejorar con los meses, es lo que decide si la mujer lo mantiene o lo retira a los tres meses.",
+      "Son el método hormonal de elección en la LACTANCIA, en la MIGRAÑA CON AURA, en la fumadora mayor de 35 años y en cualquier mujer con contraindicación de estrógenos: sin estrógeno no hay riesgo trombótico añadido.",
+      "La MEDROXIPROGESTERONA DEPOT tiene dos particularidades que hay que advertir: la fertilidad puede tardar hasta un año en recuperarse tras suspenderla, y produce pérdida de masa ósea, lo que la hace poco recomendable como primera opción en la adolescente."
+    ],
+    "embarazo_lactancia": "Compatibles con la LACTANCIA desde el posparto inmediato y método hormonal de elección en esa situación: no afectan a la producción de leche. La exposición inadvertida en el embarazo no se asocia a malformaciones ni obliga a ninguna medida.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; criterios médicos de elegibilidad de la OMS; guías de la SEC sobre anticoncepción de urgencia"
+  }
+]

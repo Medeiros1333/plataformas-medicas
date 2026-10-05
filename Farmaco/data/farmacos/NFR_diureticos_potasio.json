@@ -1,0 +1,260 @@
+[
+  {
+    "id": "NFR-hidroclorotiazida",
+    "nombre": "Hidroclorotiazida",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 1,
+    "clase": "Diurético tiazídico",
+    "subclase": "Inhibidor del cotransportador sodio-cloro del túbulo distal",
+    "vs_clase": [
+      "**La tiazida de las COMBINACIONES FIJAS** con IECA, ARA-II y betabloqueantes.",
+      "**Vida media más corta (6-15 h) y menos potente** que la clortalidona; **menos evidencia** de reducción de eventos.",
+      "**Fotosensibilidad y riesgo de CÁNCER CUTÁNEO NO MELANOMA** con la dosis acumulada (alerta EMA 2018): protección solar y revisión de lesiones."
+    ],
+    "mecanismo": "Bloquea el cotransportador NCC (sodio-cloro) del TÚBULO CONTORNEADO DISTAL, donde solo se reabsorbe el 5-8% del sodio filtrado: por eso su potencia diurética es MODESTA comparada con la de un diurético de asa. Sin embargo, su efecto ANTIHIPERTENSIVO es notable y, tras las primeras semanas, deja de depender de la depleción de volumen para pasar a depender de una VASODILATACIÓN periférica sostenida. Esa disociación entre potencia diurética y potencia antihipertensiva es la clave para entender por qué en la hipertensión funciona a dosis bajas y por qué en el edema no sirve. Al aumentar el flujo distal de sodio, favorece su intercambio por potasio e hidrogenión en el túbulo colector: de ahí la hipopotasemia y la alcalosis metabólica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertensión arterial",
+        "dosis": "Hidroclorotiazida 12,5-25 mg/24 h, o CLORTALIDONA 12,5-25 mg/24 h",
+        "posologia": "Una vez al día, por la mañana",
+        "via": "VO",
+        "nota": "Uno de los cuatro grupos de primera línea. La CLORTALIDONA es preferible por su mayor duración de acción y mejor evidencia en reducción de eventos"
+      },
+      {
+        "patologia": "Prevención de la recurrencia de la litiasis cálcica (hipercalciuria idiopática)",
+        "dosis": "25 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es una de las pocas indicaciones en que se busca deliberadamente su efecto HIPOCALCIÚRICO, opuesto al de los diuréticos de asa"
+      },
+      {
+        "patologia": "Diabetes insípida nefrogénica",
+        "dosis": "25-50 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Efecto paradójico: al producir depleción leve de volumen aumenta la reabsorción proximal y REDUCE la poliuria"
+      },
+      {
+        "patologia": "Edema leve asociado a insuficiencia cardiaca o a fármacos",
+        "dosis": "25-50 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Poco eficaz como diurético en el edema significativo: ahí corresponde un diurético de ASA"
+      },
+      {
+        "patologia": "Bloqueo secuencial de la nefrona en la resistencia a diuréticos de asa",
+        "dosis": "25 mg/24 h asociada a furosemida",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Sinergia potente al bloquear dos segmentos consecutivos; requiere vigilancia ESTRECHA de iones y volemia por el riesgo de depleción brusca"
+      }
+    ],
+    "esquema": {
+      "inicio": "12,5-25 mg por la mañana (nunca por la noche, para no provocar nicturia). Antes de iniciar: iones, función renal, ácido úrico y glucemia.",
+      "titulacion": "En hipertensión NO tiene sentido subir por encima de 25 mg: el efecto antihipertensivo se agota y solo aumentan las alteraciones metabólicas. Si no basta, se AÑADE otro fármaco en lugar de subir la dosis.",
+      "duracion": "Indefinida mientras persista la indicación.",
+      "fin": "Retirada sin descenso progresivo. Puede haber un ascenso tensional de rebote transitorio.",
+      "via": "VO, por la mañana.",
+      "monitorizacion": "IONES (sodio y potasio) a las 2-4 SEMANAS de iniciar y periódicamente después; función renal, ácido úrico, glucemia y calcio. El sodio a las 2-4 semanas es la determinación que más hiponatremias graves evita en el anciano."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Unión moderada a proteínas.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "RENAL, por SECRECIÓN TUBULAR activa: debe alcanzar la luz del túbulo para actuar. Por eso, cuando el filtrado glomerular cae, deja de llegar en cantidad suficiente y PIERDE EFICACIA.",
+      "vida_media": "6-15 h la hidroclorotiazida; 40-60 h la CLORTALIDONA, que es lo que le da su mejor cobertura de 24 h y su ventaja en la reducción de eventos.",
+      "ajuste_renal": "INEFICAZ con filtrado glomerular por debajo de 30 mL/min: a partir de ahí hay que cambiar a un diurético de ASA, que sí conserva su efecto. Es la limitación más importante de la clase.",
+      "ajuste_hepatico": "Precaución en la cirrosis: la hipopotasemia y la alcalosis pueden precipitar una ENCEFALOPATÍA hepática.",
+      "interacciones": [
+        {
+          "con": "LITIO",
+          "efecto": "Aumentan su reabsorción proximal y ELEVAN la litemia hasta niveles tóxicos",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación; si es inevitable, reducir la dosis de litio y monitorizar la litemia estrechamente"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Reducen su efecto antihipertensivo y diurético e incrementan el riesgo de fracaso renal, sobre todo asociados a IECA o ARA-II (la llamada triple whammy)",
+          "gravedad": "alta",
+          "manejo": "Evitar los AINE crónicos; la combinación tiazida + IECA/ARA-II + AINE es una causa clásica de fracaso renal agudo"
+        },
+        {
+          "con": "DIGOXINA",
+          "efecto": "La hipopotasemia potencia la toxicidad digitálica",
+          "gravedad": "alta",
+          "manejo": "Vigilar el potasio de forma estrecha"
+        },
+        {
+          "con": "ISRS, carbamazepina, desmopresina",
+          "efecto": "HIPONATREMIA aditiva, especialmente en el anciano",
+          "gravedad": "alta",
+          "manejo": "Control de sodio a las 2-4 semanas de asociar cualquiera de ellos"
+        },
+        {
+          "con": "Corticoides y agonistas beta-2",
+          "efecto": "Hipopotasemia aditiva",
+          "gravedad": "media",
+          "manejo": "Controlar el potasio"
+        },
+        {
+          "con": "Antiarrítmicos que prolongan el QT",
+          "efecto": "La hipopotasemia favorece la torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Corregir el potasio y el magnesio antes de usarlos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOPOTASEMIA (el más característico y el que da más problemas clínicos)",
+        "HIPONATREMIA, especialmente en la mujer anciana y en las primeras semanas",
+        "HIPERURICEMIA y crisis de gota",
+        "Hiperglucemia y empeoramiento del control de la diabetes",
+        "Disfunción eréctil",
+        "Hipomagnesemia"
+      ],
+      "graves": [
+        "HIPONATREMIA GRAVE con confusión, caídas y convulsiones, sobre todo en el anciano y en las primeras 2-4 semanas",
+        "Hipopotasemia grave con arritmias, especialmente en el paciente digitalizado o con QT largo",
+        "Alcalosis metabólica hipoclorémica",
+        "Pancreatitis (rara)",
+        "FOTOSENSIBILIDAD y aumento del riesgo de cáncer cutáneo NO melanoma con exposición acumulada prolongada",
+        "Reacciones de hipersensibilidad, incluido edema pulmonar no cardiogénico (excepcional)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anuria",
+      "Filtrado glomerular por debajo de 30 mL/min (por INEFICACIA, no por toxicidad)",
+      "Hiponatremia o hipopotasemia graves no corregidas",
+      "Alergia a las sulfamidas (contraindicación relativa; la reactividad cruzada real es baja)",
+      "Gota mal controlada (contraindicación relativa)"
+    ],
+    "perlas": [
+      "La regla que más se olvida: por debajo de un filtrado de 30 la tiazida deja de funcionar, y no por toxicidad sino porque necesita ser SECRETADA al túbulo para actuar y ya no llega. Ver a un paciente con enfermedad renal avanzada tomando hidroclorotiazida para su hipertensión es ver un comprimido que no hace nada. Ahí hay que cambiar a un diurético de asa.",
+      "En hipertensión, subir de 25 mg no aporta más control tensional y sí más hipopotasemia, hiperuricemia e hiperglucemia. La curva dosis-respuesta antihipertensiva es plana muy pronto: si no basta, se añade otro fármaco.",
+      "CLORTALIDONA frente a hidroclorotiazida: la clortalidona tiene una vida media de 40-60 h frente a 6-15 h, cubre las 24 h de verdad y tiene mejor evidencia en reducción de eventos cardiovasculares. Con dosis equipotentes, es la opción preferible, aunque produce algo más de hipopotasemia.",
+      "Es el único diurético que RETIENE calcio, al contrario que los de asa, que lo eliminan. Esa diferencia tiene dos aplicaciones prácticas opuestas: la tiazida sirve para prevenir la litiasis cálcica recurrente, y el diurético de asa se usa en la hipercalcemia.",
+      "La HIPONATREMIA de la mujer anciana en las primeras semanas es un cuadro clásico, se presenta como confusión o caídas atribuidas a la edad, y se detecta con una analítica de control a las 2-4 semanas. Es probablemente la intervención de seguimiento más rentable de este fármaco.",
+      "La combinación tiazida + IECA/ARA-II + AINE es la triple asociación que precipita fracasos renales agudos en el paciente que además se deshidrata por una gastroenteritis. Merece la misma regla de días de enfermedad que la metformina.",
+      "El efecto antihipertensivo mantenido no se debe a la diuresis sino a una VASODILATACIÓN periférica que se instaura en semanas: por eso funciona a dosis que apenas producen diuresis apreciable."
+    ],
+    "embarazo_lactancia": "No se recomienda en el embarazo: reduce el volumen plasmático y puede comprometer la perfusión placentaria. Los antihipertensivos de elección en la gestante son labetalol, metildopa y nifedipino. Compatible con la lactancia a dosis bajas, aunque puede reducir la producción de leche.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., caps. de hipertensión arterial y diuréticos"
+  },
+  {
+    "id": "NFR-quelantes-potasio",
+    "nombre": "Quelantes del potasio (patiromer, ciclosilicato de sodio y circonio, poliestireno sulfonato)",
+    "sinonimos": [
+      "Resincalcio",
+      "Resinas de intercambio catiónico"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Quelante intestinal de potasio",
+    "subclase": "Resinas de intercambio catiónico y quelantes selectivos",
+    "mecanismo": "Actúan EXCLUSIVAMENTE en la luz intestinal, sin absorberse: intercambian potasio por otro catión (calcio en el poliestireno cálcico, sodio en el sulfonato sódico y en el ciclosilicato, calcio en el patiromer) y lo fijan para eliminarlo por las heces. Son los únicos fármacos que ELIMINAN potasio del organismo por vía digestiva; todo lo demás que se usa en la hiperpotasemia aguda (insulina con glucosa, salbutamol, bicarbonato) solo lo REDISTRIBUYE al interior de la célula, y el calcio ni siquiera lo mueve: solo estabiliza la membrana del miocardio. Entender esa división en tres acciones es lo que ordena el tratamiento de la hiperpotasemia.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperpotasemia crónica en la enfermedad renal crónica",
+        "dosis": "Patiromer 8,4 g/24 h; ciclosilicato 5-10 g/24 h de mantenimiento",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Su gran valor es PERMITIR MANTENER el IECA o el ARA-II, que son nefro y cardioprotectores y que de otro modo habría que retirar"
+      },
+      {
+        "patologia": "Hiperpotasemia crónica en la insuficiencia cardiaca tratada con antialdosterónicos",
+        "dosis": "Patiromer 8,4-25,2 g/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Permite mantener la espironolactona, que reduce mortalidad, en pacientes que tienden a la hiperpotasemia"
+      },
+      {
+        "patologia": "Hiperpotasemia aguda no grave (sin alteraciones del ECG)",
+        "dosis": "Ciclosilicato 10 g/8 h durante 48 h",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "El ciclosilicato es el más rápido de los tres (efecto en 1-2 h), pero NUNCA es el tratamiento de la hiperpotasemia GRAVE con cambios electrocardiográficos"
+      },
+      {
+        "patologia": "Prevención de la hiperpotasemia recurrente que impide optimizar el tratamiento cardiorrenal",
+        "dosis": "Patiromer 8,4 g/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Cambia el enfoque: en lugar de retirar el fármaco que protege al paciente, se trata el efecto adverso"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja diaria, con potasio de control a los 3-7 días. Junto con dieta pobre en potasio y revisión de TODOS los fármacos que lo elevan.",
+      "titulacion": "Ajuste semanal según la potasemia, hasta mantenerla en 4-5 mEq/L.",
+      "duracion": "Crónica mientras persista la causa y se quiera mantener el bloqueo del sistema renina-angiotensina.",
+      "fin": "Se retira si desaparece la causa o si se suspende el fármaco que producía la hiperpotasemia. Vigilar el rebote.",
+      "via": "VO, en suspensión con agua, SEPARADO al menos 3 horas de cualquier otro medicamento oral.",
+      "monitorizacion": "POTASIO a los 3-7 días y después periódicamente; MAGNESIO y CALCIO (el patiromer puede producir hipomagnesemia); sodio y volemia con el ciclosilicato, que aporta sodio."
+    },
+    "farmacocinetica": {
+      "absorcion": "NULA: no se absorben. Toda su acción es intraluminal, lo que explica su seguridad sistémica y también que su única toxicidad relevante sea digestiva y por interferencia con otros fármacos.",
+      "distribucion": "No aplicable.",
+      "metabolismo": "Ninguno.",
+      "eliminacion": "Fecal, junto con el potasio fijado.",
+      "vida_media": "No aplicable. El inicio de acción es de 1-2 h con el ciclosilicato y de 7 h a días con el patiromer.",
+      "ajuste_renal": "No precisa ajuste: es precisamente el escenario de uso. Vigilar la sobrecarga de sodio del ciclosilicato en el paciente con insuficiencia cardiaca.",
+      "ajuste_hepatico": "No precisa ajuste.",
+      "interacciones": [
+        {
+          "con": "PRÁCTICAMENTE CUALQUIER FÁRMACO ORAL: levotiroxina, quinolonas, metformina, ciclosporina, tacrolimús, anticoagulantes",
+          "efecto": "Fijan o retrasan la absorción de otros medicamentos administrados a la vez",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 3 HORAS antes o después de cualquier otro fármaco oral. Es la regla práctica que define su administración"
+        },
+        {
+          "con": "Sorbitol (excipiente clásico del poliestireno sulfonato)",
+          "efecto": "NECROSIS INTESTINAL, descrita sobre todo en el postoperatorio y en el urémico",
+          "gravedad": "alta",
+          "manejo": "Evitar las formulaciones con sorbitol; es una de las razones del desplazamiento del poliestireno por los quelantes modernos"
+        },
+        {
+          "con": "IECA, ARA-II, antialdosterónicos, heparina, trimetoprim",
+          "efecto": "Elevan el potasio; el quelante existe precisamente para contrarrestarlos",
+          "gravedad": "media",
+          "manejo": "Interacción buscada: el objetivo terapéutico es poder mantener esos fármacos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO (el más frecuente, sobre todo con el poliestireno)",
+        "Náuseas, distensión y molestias abdominales",
+        "Diarrea",
+        "Hipomagnesemia (característica del patiromer)"
+      ],
+      "graves": [
+        "NECROSIS INTESTINAL con el poliestireno sulfonato asociado a sorbitol, sobre todo en el postoperatorio, el urémico y el paciente con íleo",
+        "EDEMA y descompensación de insuficiencia cardiaca con el ciclosilicato, que aporta SODIO",
+        "Hipopotasemia por sobrecorrección",
+        "Impactación fecal"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal, íleo y megacolon",
+      "Estreñimiento grave no controlado",
+      "Hipopotasemia",
+      "Postoperatorio abdominal reciente (para las formulaciones con sorbitol)"
+    ],
+    "perlas": [
+      "El error conceptual más grave en la hiperpotasemia es confundir los tres tipos de tratamiento. El CALCIO no baja el potasio: estabiliza la membrana del miocardio y compra tiempo. La INSULINA con glucosa, el salbutamol y el bicarbonato REDISTRIBUYEN el potasio al interior de la célula, con efecto transitorio de horas. Solo los QUELANTES, los diuréticos y la DIÁLISIS lo ELIMINAN del organismo. Tratar una hiperpotasemia grave solo con redistribuidores es garantizar el rebote.",
+      "Estos fármacos NO son el tratamiento de la hiperpotasemia grave con alteraciones del ECG: ahí la secuencia es calcio, insulina con glucosa, salbutamol y valoración de diálisis. Confiar en un quelante oral en esa situación es perder un tiempo crítico.",
+      "Su valor real es CRÓNICO y cambia el enfoque del problema: permiten MANTENER el IECA, el ARA-II o la espironolactona en el paciente con enfermedad renal crónica o insuficiencia cardiaca. Antes se retiraba el fármaco que protegía al paciente para evitar la hiperpotasemia; ahora se puede tratar el efecto adverso y conservar el beneficio.",
+      "La regla de las 3 HORAS de separación con cualquier otro medicamento oral es la instrucción práctica clave: al no absorberse, todo su potencial de daño está en lo que fijan en el intestino. Un paciente con levotiroxina o tacrolimús puede quedarse infratratado sin que nadie lo relacione.",
+      "El SORBITOL del poliestireno clásico se asocia a necrosis intestinal, un cuadro grave y bien documentado. Es una de las razones por las que el patiromer y el ciclosilicato lo están desplazando pese a su mayor coste.",
+      "El CICLOSILICATO aporta SODIO: en el paciente con insuficiencia cardiaca o cirrosis puede producir edema y descompensación. En ese perfil se prefiere el patiromer, que intercambia calcio.",
+      "Antes de prescribir un quelante hay que hacer lo barato: revisar la dieta (sustitutos de la sal sin sodio son cloruro POTÁSICO y son una causa frecuente y oculta de hiperpotasemia) y la lista de fármacos (trimetoprim, heparina, AINE, betabloqueantes)."
+    ],
+    "embarazo_lactancia": "Al no absorberse, el riesgo sistémico es mínimo; los datos son limitados y se usan solo si son necesarios. Compatibles con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 15; Harrison 20.ª ed., cap. de trastornos del potasio"
+  }
+]

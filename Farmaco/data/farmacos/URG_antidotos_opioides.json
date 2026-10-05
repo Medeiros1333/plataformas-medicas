@@ -1,0 +1,246 @@
+[
+  {
+    "id": "URG-naloxona",
+    "nombre": "Naloxona",
+    "sinonimos": [
+      "Antídoto de los opioides"
+    ],
+    "area": "URG",
+    "nivel": 1,
+    "clase": "Antídoto: antagonista opioide puro",
+    "subclase": "Antagonista competitivo de los receptores mu, kappa y delta",
+    "mecanismo": "Antagonista COMPETITIVO puro, sin actividad agonista intrínseca, que desplaza al opioide de los receptores mu (y en menor medida kappa y delta). Al ser competitivo, su efecto depende de la relación de concentraciones: un opioide muy potente o muy abundante puede requerir dosis repetidas o crecientes. Su vida media es CORTA (30-80 minutos), más breve que la de casi todos los opioides que antagoniza, y de esa asimetría deriva el riesgo central de su uso: la RENARCOTIZACIÓN.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Intoxicación por opioides con depresión respiratoria",
+        "dosis": "0,04-0,4 mg IV, repetibles cada 2-3 minutos hasta recuperar una ventilación eficaz",
+        "posologia": "Bolos repetidos titulados",
+        "via": "IV (alternativas: IM, SC, intranasal, intraósea)",
+        "nota": "El objetivo NO es despertar al paciente, sino que respire: titular a frecuencia respiratoria, no a nivel de conciencia"
+      },
+      {
+        "patologia": "Intoxicación por opioide de acción prolongada (metadona, fentanilo transdérmico, buprenorfina)",
+        "dosis": "Perfusión de 2/3 de la dosis de respuesta inicial por hora",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Imprescindible por la asimetría de vidas medias: el opioide dura mucho más que el antídoto",
+        "dosis_objetivo": "Frecuencia respiratoria mayor de 10-12/min y saturación aceptable, sin despertar completo"
+      },
+      {
+        "patologia": "Depresión respiratoria yatrógena por opioides en el paciente hospitalizado",
+        "dosis": "0,04-0,1 mg IV, tituladas muy despacio",
+        "posologia": "Bolos pequeños repetidos",
+        "via": "IV",
+        "nota": "En el paciente con dolor y tolerancia a opioides se usan dosis MUCHO menores para no desencadenar dolor incontrolable y abstinencia"
+      },
+      {
+        "patologia": "Sobredosis extrahospitalaria: programas de naloxona domiciliaria",
+        "dosis": "4 mg intranasales o 0,4 mg IM, repetibles a los 2-3 minutos",
+        "posologia": "Dosis única repetible mientras llega la asistencia",
+        "via": "IN o IM",
+        "nota": "Administrada por convivientes o testigos; requiere SIEMPRE activar la emergencia, porque el efecto se agota antes que el del opioide"
+      },
+      {
+        "patologia": "Recién nacido con depresión respiratoria por opioides maternos",
+        "dosis": "0,1 mg/kg",
+        "posologia": "Dosis única repetible",
+        "via": "IV, IM o intraósea",
+        "nota": "CONTRAINDICADA si la madre es consumidora crónica: precipita una abstinencia neonatal con convulsiones"
+      }
+    ],
+    "esquema": {
+      "inicio": "Empezar BAJO (0,04-0,4 mg) y repetir cada 2-3 minutos. En el paciente con parada respiratoria inminente y sin sospecha de dependencia, puede usarse directamente 0,4 mg.",
+      "titulacion": "Se titula a FRECUENCIA RESPIRATORIA eficaz (más de 10-12 por minuto) y saturación aceptable, no a que el paciente esté alerta. Si no hay respuesta tras 10 mg acumulados, el diagnóstico de intoxicación opioide pura es muy improbable.",
+      "duracion": "Vigilancia mínima de 4-6 h tras la última dosis; 12-24 h con opioides de acción prolongada o de liberación retardada.",
+      "fin": "NUNCA dar de alta a un paciente por el hecho de haber respondido: hay que observarlo el tiempo suficiente para descartar renarcotización.",
+      "via": "IV de elección. Intranasal e intramuscular en el medio extrahospitalario y sin acceso venoso.",
+      "monitorizacion": "Frecuencia respiratoria, saturación, nivel de conciencia y pupilas de forma continua. Vigilar edema agudo de pulmón y arritmias tras la reversión brusca."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio en 1-2 minutos por vía intravenosa y en 2-5 minutos por vía intramuscular o intranasal.",
+      "distribucion": "Muy lipófila, atraviesa con rapidez la barrera hematoencefálica, lo que explica su acción casi inmediata.",
+      "metabolismo": "Hepático por glucuronoconjugación, con un primer paso tan intenso que la vía ORAL es inútil como antídoto sistémico.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "30-80 minutos: MÁS CORTA que la de casi todos los opioides. Es el dato clínicamente decisivo del fármaco.",
+      "ajuste_renal": "No precisa ajuste en el uso agudo.",
+      "ajuste_hepatico": "No precisa ajuste en el uso agudo.",
+      "interacciones": [
+        {
+          "con": "BUPRENORFINA",
+          "efecto": "Su altísima afinidad por el receptor mu hace que la naloxona la desplace mal: la reversión es parcial y exige dosis mucho mayores",
+          "gravedad": "alta",
+          "manejo": "Dosis elevadas y perfusión; priorizar el SOPORTE VENTILATORIO, que es lo que salva al paciente"
+        },
+        {
+          "con": "Opioides en el paciente DEPENDIENTE",
+          "efecto": "SÍNDROME DE ABSTINENCIA AGUDO: agitación, vómitos, diarrea, hipertensión, taquicardia, dolor intenso",
+          "gravedad": "alta",
+          "manejo": "Titular con dosis mínimas (0,04 mg) para restaurar la ventilación sin despertar del todo al paciente"
+        },
+        {
+          "con": "Analgesia opioide del paciente oncológico o postoperatorio",
+          "efecto": "Reversión completa de la analgesia con dolor incontrolable y crisis simpática",
+          "gravedad": "alta",
+          "manejo": "Diluir y administrar bolos de 0,04 mg; el objetivo es respirar, no despertar"
+        },
+        {
+          "con": "Clonidina, agonistas alfa-2 y otros depresores no opioides",
+          "efecto": "No los revierte: la falta de respuesta puede confundir el diagnóstico",
+          "gravedad": "media",
+          "manejo": "Si no responde, replantear la causa del coma"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Síndrome de abstinencia en el paciente dependiente: agitación, náuseas, vómitos, sudoración, midriasis, diarrea",
+        "Hipertensión y taquicardia por descarga simpática",
+        "Dolor de rebote en el paciente que recibía opioides con fin analgésico"
+      ],
+      "graves": [
+        "EDEMA AGUDO DE PULMÓN no cardiogénico tras la reversión brusca, sobre todo con dosis altas en el paciente joven",
+        "Arritmias ventriculares y, excepcionalmente, parada cardiaca por la descarga catecolaminérgica",
+        "RENARCOTIZACIÓN al agotarse su efecto antes que el del opioide, con nueva parada respiratoria",
+        "Convulsiones en el neonato de madre consumidora, por abstinencia precipitada",
+        "Agitación violenta con riesgo para el paciente y el personal"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a la naloxona (prácticamente teórica)",
+      "Recién nacido de madre con dependencia a opioides (precipita abstinencia neonatal grave)",
+      "No hay contraindicación real ante una parada respiratoria por opioides: el beneficio es inmediato y vital"
+    ],
+    "perlas": [
+      "La regla que ordena todo su uso: el objetivo es que el paciente RESPIRE, no que despierte. Titular a frecuencia respiratoria con bolos pequeños evita a la vez la abstinencia, la agitación, el edema pulmonar y el dolor incontrolable. Administrar 0,4 mg de golpe a un dependiente es el error clásico.",
+      "La ASIMETRÍA DE VIDAS MEDIAS es el concepto central: la naloxona dura 30-80 minutos y la metadona más de 24 h. Un paciente que se despierta puede volver a caer en parada respiratoria una hora después. De ahí que NUNCA se dé de alta tras la respuesta, y que con opioides de acción prolongada haya que pasar a perfusión.",
+      "Si tras 10 mg acumulados no hay respuesta, la intoxicación opioide pura es muy improbable: hay que buscar otra causa del coma (benzodiacepinas, alcohol, traumatismo, hipoglucemia, hipoxia).",
+      "La BUPRENORFINA se resiste a la reversión por su enorme afinidad por el receptor: en esa intoxicación lo que salva al paciente es el SOPORTE VENTILATORIO, no insistir con más antídoto.",
+      "El EDEMA AGUDO DE PULMÓN no cardiogénico tras la reversión brusca es poco conocido y desconcertante: un paciente que acaba de mejorar se desatura de nuevo con infiltrados bilaterales. Se previene titulando despacio.",
+      "Su distribución a convivientes de personas que consumen opioides (naloxona intranasal domiciliaria) es una de las intervenciones de salud pública con mejor relación coste-beneficio: la administra un testigo mientras llega la ambulancia.",
+      "En el neonato de madre consumidora está CONTRAINDICADA: precipita una abstinencia con convulsiones. Ahí el tratamiento es soporte ventilatorio."
+    ],
+    "embarazo_lactancia": "Puede utilizarse en la gestante con intoxicación opioide cuando peligra su vida, sabiendo que puede desencadenar abstinencia materna y fetal y contracciones. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 31; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+  },
+  {
+    "id": "URG-flumazenilo",
+    "nombre": "Flumazenilo",
+    "sinonimos": [
+      "Antídoto de las benzodiacepinas"
+    ],
+    "area": "URG",
+    "nivel": 2,
+    "clase": "Antídoto: antagonista de las benzodiacepinas",
+    "subclase": "Antagonista competitivo del sitio benzodiacepínico del receptor GABA-A",
+    "mecanismo": "Antagonista competitivo del sitio de unión de las benzodiacepinas en el receptor GABA-A. Desplaza a la benzodiacepina e impide que potencie la acción del GABA, revirtiendo la sedación y la depresión respiratoria. No antagoniza a los barbitúricos, al alcohol ni a los opioides, que actúan en otros sitios del receptor o en otras dianas. Su vida media es CORTA (40-80 minutos), más breve que la de la mayoría de las benzodiacepinas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Reversión de la sedación consciente tras endoscopia o procedimiento",
+        "dosis": "0,2 mg IV en 15 segundos, repetibles cada minuto hasta 1 mg",
+        "posologia": "Bolos repetidos titulados",
+        "via": "IV",
+        "nota": "Es su indicación MÁS SEGURA y la principal: paciente sin dependencia, con benzodiacepina conocida y de acción corta"
+      },
+      {
+        "patologia": "Intoxicación pura por benzodiacepinas en paciente SIN factores de riesgo",
+        "dosis": "0,2-0,3 mg IV, repetibles hasta un máximo de 2-3 mg",
+        "posologia": "Bolos titulados",
+        "via": "IV",
+        "nota": "Solo si la intoxicación es monofármaco, no hay consumo crónico ni antecedente convulsivo, y el ECG es normal"
+      },
+      {
+        "patologia": "Diagnóstico diferencial del coma de origen incierto",
+        "dosis": "0,2-0,5 mg IV",
+        "posologia": "Dosis única de prueba",
+        "via": "IV",
+        "nota": "Uso muy discutido y hoy desaconsejado de forma sistemática por su riesgo: la mayoría de los comas mixtos empeoran"
+      },
+      {
+        "patologia": "Sedación prolongada por benzodiacepinas en el paciente crítico",
+        "dosis": "Perfusión de 0,1-0,4 mg/h tras la dosis de carga",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Necesaria por la resedación; uso restringido y bajo vigilancia estrecha"
+      }
+    ],
+    "esquema": {
+      "inicio": "0,2 mg intravenosos lentos, repetibles cada minuto. Antes de administrarlo hay que hacerse tres preguntas: ¿toma benzodiacepinas a diario?, ¿hay antidepresivos tricíclicos u otro proconvulsivante?, ¿tiene antecedente de epilepsia? Si la respuesta a alguna es sí, no se administra.",
+      "titulacion": "Se titula al nivel de conciencia y a la ventilación, con la dosis mínima eficaz. Máximo 3 mg: por encima, la falta de respuesta indica otra causa.",
+      "duracion": "Efecto de 40-80 minutos; observación mínima de 2-4 h por riesgo de RESEDACIÓN.",
+      "fin": "No dar de alta tras la reversión sin un periodo de observación adecuado.",
+      "via": "IV lenta.",
+      "monitorizacion": "Nivel de conciencia, ventilación, ECG (buscando el QRS ancho de los tricíclicos) y vigilancia de crisis convulsivas durante al menos 2 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "Inicio en 1-2 minutos por vía intravenosa, con efecto máximo a los 6-10 minutos.",
+      "distribucion": "Atraviesa con rapidez la barrera hematoencefálica.",
+      "metabolismo": "Hepático, extenso y rápido.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "40-80 minutos, más corta que la de la mayoría de las benzodiacepinas: de ahí la resedación.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir la dosis y espaciar en la insuficiencia hepática, que prolonga su efecto.",
+      "interacciones": [
+        {
+          "con": "ANTIDEPRESIVOS TRICÍCLICOS y otros proconvulsivantes (bupropión, tramadol, teofilina, cocaína)",
+          "efecto": "Al retirar el efecto anticonvulsivante protector de la benzodiacepina se desencadenan CONVULSIONES REFRACTARIAS y arritmias por el tricíclico, con casos mortales",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO. Un QRS ancho en el ECG obliga a descartar su uso"
+        },
+        {
+          "con": "Benzodiacepinas en el paciente con CONSUMO CRÓNICO",
+          "efecto": "Síndrome de abstinencia agudo con convulsiones y estado epiléptico",
+          "gravedad": "alta",
+          "manejo": "Contraindicado en el consumidor habitual"
+        },
+        {
+          "con": "Benzodiacepinas usadas para controlar una EPILEPSIA o un estado epiléptico",
+          "efecto": "Reaparición de las crisis al revertir el tratamiento",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Opioides, alcohol, barbitúricos",
+          "efecto": "NO los antagoniza: el paciente puede seguir en coma pese al antídoto",
+          "gravedad": "media",
+          "manejo": "No interpretar la falta de respuesta como fallo del antídoto sino como coma de otra causa"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y vómitos",
+        "Agitación, ansiedad y sensación de miedo al despertar bruscamente",
+        "Sudoración y palpitaciones",
+        "Enrojecimiento facial"
+      ],
+      "graves": [
+        "CONVULSIONES y estado epiléptico, sobre todo en la intoxicación mixta con tricíclicos y en el consumidor crónico",
+        "Arritmias graves al desenmascararse la cardiotoxicidad de un antidepresivo tricíclico",
+        "RESEDACIÓN con nueva depresión respiratoria al agotarse su efecto",
+        "Síndrome de abstinencia agudo"
+      ]
+    },
+    "contraindicaciones": [
+      "INTOXICACIÓN MIXTA con antidepresivos tricíclicos u otros proconvulsivantes",
+      "Consumo CRÓNICO de benzodiacepinas (dependencia)",
+      "EPILEPSIA o uso de benzodiacepinas como tratamiento anticonvulsivante",
+      "Hipertensión intracraneal",
+      "Coma de causa no aclarada"
+    ],
+    "perlas": [
+      "El contraste con la naloxona es el mejor modo de entenderlo: ante una depresión respiratoria por opioides, la naloxona se administra casi siempre; ante una por benzodiacepinas, el flumazenilo casi nunca. La razón es que la intoxicación pura por benzodiacepinas rara vez mata (el soporte ventilatorio basta), mientras que el antídoto sí puede matar por convulsiones.",
+      "La secuencia que hay que hacer antes de plantearlo: mirar el ECG. Un QRS ANCHO sugiere antidepresivo tricíclico y convierte el flumazenilo en un fármaco potencialmente letal, porque retira la protección anticonvulsivante que la benzodiacepina estaba ejerciendo sobre una intoxicación proconvulsivante.",
+      "Su indicación más razonable y segura no es la intoxicación sino la REVERSIÓN DE UNA SEDACIÓN CONTROLADA tras endoscopia o procedimiento: paciente conocido, fármaco conocido, dosis conocida y sin dependencia.",
+      "La RESEDACIÓN es la trampa temporal, igual que la renarcotización con la naloxona: el antídoto dura menos que el tóxico. Un paciente que despierta puede volver a sedarse a la hora, por lo que la observación no es opcional.",
+      "No antagoniza al alcohol, a los opioides ni a los barbitúricos: si el paciente no despierta, no significa que el antídoto haya fallado, sino que el coma tiene otra causa. Interpretarlo al revés lleva a insistir con dosis peligrosas.",
+      "En el consumidor crónico precipita una abstinencia que puede debutar directamente como estado epiléptico, sin los pródromos habituales.",
+      "El manejo de la intoxicación pura por benzodiacepinas es SOPORTE: vía aérea, ventilación y tiempo. Es una de las intoxicaciones de mejor pronóstico si nadie se precipita con el antídoto."
+    ],
+    "embarazo_lactancia": "Datos escasos; se reserva a situaciones en que la vida materna está en riesgo. Precaución durante la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., cap. de intoxicaciones y sobredosis"
+  }
+]

@@ -1,0 +1,300 @@
+## 0. CABEÇALHO
+
+**Código:** PED-96 · **Especialidade:** Pediatria · **Tema:** Intoxicação medicamentosa acidental em criança pequena · **Assunto:** Reconhecimento clínico do agente causador de intoxicação medicamentosa acidental em pré-escolares pelo quadro sindrômico (toxíndromes) · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 3 (2022.2-Q88, 2022.2-Q93, 2016.1-Q57) — banco completo das 16 edições extraídas (2011.1 a 2025.2); faltam apenas 2022.1 e 2026.1, cujos PDFs têm encoding corrompido · **Tempo estimado de estudo:** 90 min · **Pré-requisitos:** nenhum · **Data de geração:** 2026-08-13
+
+---
+
+## 1. TEORIA
+
+Intoxicação medicamentosa acidental é uma das causas mais frequentes de atendimento toxicológico pediátrico de urgência no Brasil, com pico entre **1 e 5 anos** — fase em que a criança explora o ambiente levando objetos à boca, já anda/escala mas ainda não tem juízo de risco. ⚠️ VERIFICAR estatística nacional exata de incidência/proporção por faixa etária (fonte esperada: Sinitox/Fiocruz ou boletins do Sistema Nacional de Informações Tóxico-Farmacológicas). O Revalida não cobra esse tema pela decoreba do nome do fármaco, e sim pela capacidade de **reconhecer o toxíndrome (síndrome tóxica) a partir do exame físico** e inferir a classe farmacológica provável — exatamente como um médico faz na emergência antes de ter qualquer confirmação laboratorial ou identificação da embalagem.
+
+**Por que o medicamento do idoso da casa é o vilão mais comum ["regra dos avós"] [CONSENSO].** Crianças pequenas raramente se intoxicam com os próprios remédios (geralmente poucos, em doses pediátricas, muitas vezes com embalagem de segurança). O padrão epidemiológico mais reconhecido é a criança que **visita ou é cuidada por avós ou outro idoso da família**, ambiente em que há polifarmácia (anti-hipertensivos, hipoglicemiantes orais, psicotrópicos, digitálicos, anticoagulantes, analgésicos opioides para dor crônica), frascos guardados ao alcance (bolsa, criado-mudo, porta-comprimidos semanal) e, com frequência, sem trava de segurança infantil. A anamnese toxicológica pediátrica deve **sempre** perguntar ativamente sobre medicamentos em uso por avós, tios ou outros adultos que convivem com a criança, não apenas os medicamentos do lar nuclear.
+
+**Fisiopatologia/farmacocinética relevante para o raciocínio.** Crianças pequenas toleram pior a mesma dose absoluta de um adulto: menor peso corporal (dose relativa mg/kg muito maior), barreira hematoencefálica mais permeável (maior neurotoxicidade central para a mesma exposição) e reserva metabólica/hepática menor. Por isso, **qualquer ingestão de comprimido de adulto por criança pequena deve ser tratada como potencialmente grave até prova em contrário**, mesmo com poucos comprimidos.
+
+**As toxíndromes clássicas [CONSENSO].** O achado semiológico (pupila, pele, sinais vitais, estado mental) permite inferir a classe farmacológica provável mesmo sem saber qual comprimido foi ingerido — esse é o núcleo do que a banca testa:
+
+| Toxíndrome | Classes/agentes típicos (remédio de idoso em casa) | Pupilas | Pele | FC / PA | Temperatura | Estado mental | Achados-chave adicionais |
+|---|---|---|---|---|---|---|---|
+| **Anticolinérgica** | Anti-histamínicos de 1ª geração (dexclorfeniramina, prometazina), antidepressivos tricíclicos, antiparkinsonianos, antiespasmódicos (escopolamina), alguns antipsicóticos | Midríase | **Seca**, quente, **rubor facial** | Taquicardia; PA normal/alta | Hipertermia leve | Agitação, delirium, alucinações | Retenção urinária, ruídos hidroaéreos diminuídos ("seco" por dentro e por fora) |
+| **Colinérgica** | Organofosforados/carbamatos (inseticidas domésticos), superdosagem de anticolinesterásicos (ex. piridostigmina) | Miose | **Diaforese profusa**, sialorreia | Bradicardia (componente nicotínico pode dar taquicardia) | Normal | Rebaixamento, fasciculações | Mnemônico **SLUDGE**: Salivação, Lacrimejamento, incontinência Urinária, Diarreia, êmese Gastrointestinal; broncorreia/broncoespasmo |
+| **Extrapiramidal / neuroléptica** | Antipsicóticos típicos (haloperidol, clorpromazina) e antieméticos antagonistas D2 (metoclopramida, bromoprida) | Normal | Sudorese (se evoluir para símile SNM) | Taquicardia; PA variável | **Hipertermia** | Alerta ou rebaixamento variável | **Rigidez muscular**, espasmos, distonia aguda (crise oculógira, torcicolo, protrusão de língua) — sem sinais de acometimento cardiorrespiratório primário |
+| **Opioide** | Opioides (codeína, tramadol, morfina de cuidado paliativo do avô) | **Miose puntiforme** | Normal, pode haver cianose | Bradicardia, hipotensão | Hipotermia | Rebaixamento, coma | **Depressão respiratória** — principal causa de óbito evitável nesse grupo |
+| **Simpaticomimética** | Descongestionantes orais/broncodilatadores (pseudoefedrina, salbutamol), anfetamínicos | Midríase | **Diaforética** (úmida) | Taquicardia, hipertensão | Hipertermia | Agitação | Tremor; em casos graves, convulsão |
+
+⚠️ **O discriminador mais cobrado: anticolinérgica × simpaticomimética.** As duas causam midríase + taquicardia + agitação + hipertermia — praticamente indistinguíveis só por esses quatro achados. O critério que separa as duas é a **pele**: seca e sem sudorese (anticolinérgica) versus diaforética/úmida (simpaticomimética), somado a retenção urinária e redução de ruídos hidroaéreos (só na anticolinérgica). O caso clássico de prova com "boca seca + rubor + midríase + agitação" é sempre anticolinérgico.
+
+**A armadilha do imidazolínico ("descongestionante que sedativa").** Colírios e sprays nasais com **nafazolina ou oximetazolina** (agonistas alfa-adrenérgicos de uso tópico) parecem, pelo nome, causar estímulo simpático — mas em **crianças pequenas** essas substâncias atravessam a barreira hematoencefálica e agem como **agonistas alfa-2 centrais**, produzindo o quadro **oposto**: sedação, hipotonia, bradicardia, hipotensão e hipotermia — um toxíndrome que mimetiza intoxicação por **opioide ou clonidina**, não por simpaticomimético. É um distrator clássico de prova e um erro real de triagem no plantão (colírio "inofensivo" causando rebaixamento em lactente).
+
+**Outros medicamentos de idoso com toxíndrome próprio e alta relevância de prova:**
+- **Anti-hipertensivos**: captopril/enalapril (hipotensão, sem toxíndrome neurológico marcante), betabloqueadores (bradicardia + hipotensão + hipoglicemia + pode mascarar taquicardia compensatória), **clonidina** (bradicardia + hipotensão + rebaixamento — mimetiza opioide, inclusive com miose).
+- **Hipoglicemiantes orais**, sobretudo **sulfonilureias** (ex. glibenclamida): hipoglicemia **grave e prolongada** (pode recorrer horas após correção inicial) — motivo pelo qual toda criança com rebaixamento de consciência de causa não esclarecida precisa de **glicemia capilar imediata**, independentemente da hipótese toxicológica principal.
+- **Digitálicos**: náuseas/vômitos, alterações visuais, arritmias — suspeitar quando há avô/avó cardiopata em uso de digoxina.
+- **Anticoagulantes orais** (varfarina, DOACs): geralmente assintomáticos na fase aguda; risco de sangramento é tardio.
+- **Antidepressivos tricíclicos**: somam efeito anticolinérgico com cardiotoxicidade (alargamento de QRS) — combinação particularmente perigosa.
+
+**Diagnóstico — como conduzir o raciocínio.** Não existe exame único confirmatório à beira-leito para "qual comprimido foi". A sequência lógica é: (1) estabilizar ABC; (2) reconhecer o toxíndrome pelo exame físico; (3) buscar ativamente na anamnese quais medicamentos existem no domicílio ou na casa onde a criança esteve, com ênfase em avós/idosos; (4) checar **glicemia capilar** em toda criança com alteração de consciência; (5) ECG se suspeita de cardiotóxico (tricíclico, digitálico, betabloqueador/bloqueador de canal de cálcio); (6) considerar coingestão múltipla — comum quando o adulto-fonte tem polifarmácia.
+
+**Tratamento — descontaminação e antídotos.**
+
+| Antídoto/medida | Toxíndrome/agente-alvo | Observação |
+|---|---|---|
+| Carvão ativado | Ingestão recente de agente adsorvível, via oral protegida | Janela clássica ≤1-2h (pode estender-se em anticolinérgicos/opioides, que retardam esvaziamento gástrico); ⚠️ VERIFICAR dose exata (ordem de grandeza 1 g/kg) e protocolo vigente antes de prescrever |
+| Naloxona | Opioide | Reverte depressão respiratória; pode precisar de doses repetidas (meia-vida curta) |
+| Atropina + pralidoxima | Colinérgica (organofosforado/carbamato) | Atropina titulada até secar secreções |
+| Biperideno | Extrapiramidal aguda (antipsicótico, metoclopramida) | ⚠️ VERIFICAR dose pediátrica no protocolo vigente |
+| Fisostigmina | Anticolinérgica grave/refratária | Uso restrito (risco de bradiarritmia/convulsão); não é primeira linha na maioria dos serviços |
+| Flumazenil | Benzodiazepínico | Uso cauteloso em criança — risco de precipitar convulsão, especialmente se houver suspeita de coingestão de tricíclico ou uso crônico de benzodiazepínico |
+| Bicarbonato de sódio | Cardiotoxicidade por tricíclico (QRS alargado) | Guiado por ECG seriado |
+| Glucagon (± insulina-glicose euglicêmica) | Betabloqueador | ⚠️ VERIFICAR protocolo vigente |
+| Glicose | Hipoglicemiante oral (sulfonilureia) | Monitorização prolongada — risco de hipoglicemia recorrente |
+| N-acetilcisteína | Paracetamol | Não é foco deste módulo — ver PED-154 |
+
+**A indução de vômito (xarope de ipeca) foi abandonada** e não deve ser usada na intoxicação pediátrica atual. Lavagem gástrica é reservada a cenários muito específicos (ingestão ameaçadora à vida, janela curta, sem contraindicação) e raramente indicada na prática pediátrica hoje.
+
+**Situações especiais.** Lactente/RN: menor massa corporal amplifica qualquer dose absoluta, maior risco de hipoglicemia e hipotermia associadas; sempre verificar glicemia e temperatura. Coingestão múltipla: presumir sempre que o adulto-fonte usa mais de um medicamento — o toxíndrome predominante pode mascarar um segundo agente. Criança com doença renal/hepática de base: metabolismo/eliminação retardados aumentam a gravidade e a duração dos efeitos.
+
+🇧🇷 **CONDUTA DE PROVA (MS):** a rede de **CIATox (Centros de Informação e Assistência Toxicológica)**, coordenada nacionalmente com apoio da Fiocruz/Sinitox, deve ser acionada para orientação de manejo em qualquer intoxicação medicamentosa pediátrica de gravidade incerta — telefone de referência **Disque-Intoxicação 0800 722 6001** ⚠️ VERIFICAR número/serviço vigente na região. A intoxicação exógena é **agravo de notificação compulsória** no Brasil; ⚠️ VERIFICAR se a periodicidade aplicável ao caso é semanal (regra geral para intoxicação exógena) ou imediata (quando configura evento de saúde pública, como exposição coletiva/dois ou mais casos relacionados à mesma fonte — cenário relevante quando dois primos adoecem após exposição na mesma casa).
+
+⚠️ **PEGADINHA DO INEP:** a banca gosta de inserir na história a **doença de base do adulto-fonte** (ex. "avó hipertensa", "avó com esquizofrenia") como pista. O raciocínio correto é usar essa pista para **gerar hipóteses de classe farmacológica plausível** e depois **confirmar pelo toxíndrome do exame físico** — nunca pular direto do nome da doença do adulto para a alternativa sem checar se o quadro clínico da criança é farmacologicamente compatível com aquele fármaco. Como este módulo demonstra explicitamente na seção 3 (com nota de divergência), usar apenas a "doença do avô" como atalho, sem cruzar com o exame físico, pode levar a erro de raciocínio.
+
+### Referências
+1. Sociedade Brasileira de Pediatria. Documentos científicos sobre intoxicações exógenas na infância. ⚠️ VERIFICAR documento e ano vigentes.
+2. Sinitox/Fiocruz — Sistema Nacional de Informações Tóxico-Farmacológicas. ⚠️ VERIFICAR boletim/ano vigente para dados epidemiológicos.
+3. Ministério da Saúde — Lista Nacional de Notificação Compulsória de doenças, agravos e eventos de saúde pública (intoxicação exógena). ⚠️ VERIFICAR portaria/edição vigente.
+4. Goldfrank's Toxicologic Emergencies (referência internacional de toxindromes, usada quando não há equivalente nacional detalhado).
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no plantão/PS de verdade:** criança de 1-5 anos trazida por familiar (nem sempre o cuidador principal, com frequência é quem "achou" a criança sonolenta, agitada ou com a cartela de comprimidos mastigada ao lado) com início dos sintomas em minutos a poucas horas. Muitas vezes **não há certeza do que foi ingerido nem de quanto** — o diagnóstico inicial é sindrômico, não etiológico exato, e a conduta não pode esperar confirmação laboratorial.
+
+**O que perguntar aos pais/cuidadores (roteiro dirigido):**
+- Quais medicamentos existem na casa onde a criança estava — **perguntar explicitamente sobre a casa dos avós ou de outro idoso** que cuida da criança, mesmo que a família diga "não tem remédio em casa" (frequentemente esquecem de mencionar os medicamentos do avô/avó).
+- Horário aproximado do último contato normal e horário do início dos sintomas (define janela de descontaminação).
+- Se há cartela/frasco faltando, e quantos comprimidos podem estar ausentes (estimar dose máxima potencial).
+- Se há mais de uma criança exposta ao mesmo ambiente (irmãos, primos) — sintomas simultâneos em duas crianças que estiveram no mesmo lugar são fortes indícios de fonte comum exógena, não de doença estrutural individual.
+- Medicações de uso crônico dos idosos da casa: anti-hipertensivos, hipoglicemiantes orais, psicotrópicos/antipsicóticos, digitálicos, anticoagulantes, opioides para dor crônica/paliação, colírios e sprays nasais imidazolínicos.
+
+**Descontaminação, na prática:**
+- Avaliar **janela de tempo** desde a ingestão — carvão ativado geralmente considerado até 1-2h (mais nos casos de agentes que retardam esvaziamento gástrico).
+- **Via aérea deve estar protegida** antes de qualquer descontaminação oral em criança com rebaixamento de consciência.
+- Não induzir vômito.
+- Contatar **CIATox/Disque-Intoxicação** sempre que houver dúvida sobre conduta, dose potencialmente tóxica ou necessidade de antídoto específico — é um recurso gratuito, disponível 24h, e deve ser lembrado ativamente na estação prática.
+
+**Fármacos/antídotos em ordem de frequência de uso real no toxíndrome pediátrico:**
+
+| Situação | Antídoto/conduta | Dose adulto | Dose pediátrica | Observação |
+|---|---|---|---|---|
+| Rebaixamento com suspeita de opioide | Naloxona | ⚠️ VERIFICAR | ⚠️ VERIFICAR mg/kg | Repetir se recorrência da depressão respiratória |
+| Alteração de consciência de causa indeterminada | Glicose (correção de hipoglicemia) | ⚠️ VERIFICAR | ⚠️ VERIFICAR | Sempre checar glicemia capilar antes |
+| Distonia aguda por antipsicótico/antiemético | Biperideno | ⚠️ VERIFICAR | ⚠️ VERIFICAR | Resposta geralmente rápida e dramática |
+| Ingestão recente, via aérea protegida | Carvão ativado | ⚠️ VERIFICAR | ⚠️ VERIFICAR (ordem de grandeza 1 g/kg) | Contraindicado em corrosivos/hidrocarbonetos e sem via aérea protegida |
+| Intoxicação colinérgica (organofosforado) | Atropina + pralidoxima | ⚠️ VERIFICAR | ⚠️ VERIFICAR | Titular atropina até secar secreções |
+
+**Erros que médicos cometem de verdade:**
+- Perguntar só sobre "remédios em casa" e não insistir sobre a casa dos avós/idosos — a fonte real do agente frequentemente passa despercebida na primeira anamnese.
+- Assumir a causa pela doença de base do adulto-fonte sem cruzar com o exame físico da criança (a mesma armadilha que a banca explora — ver seção 3).
+- Não checar glicemia capilar em criança com rebaixamento, perdendo o diagnóstico de hipoglicemia por hipoglicemiante oral.
+- Tentar induzir vômito ou usar xarope de ipeca (prática abandonada).
+- Dar alta precoce sem período de observação adequado, especialmente com hipoglicemiante oral (hipoglicemia pode recorrer horas depois) ou agentes de liberação prolongada.
+- Não notificar o caso como agravo compulsório.
+
+**O que dizer à família:** explicar a gravidade real do quadro sem alarme desproporcional; orientar guarda segura de medicamentos (armário trancado, fora do alcance visual e físico, embalagem original com tampa de segurança) especialmente quando há idosos na residência; reforçar que "escondido no alto" não é seguro se a criança escala; orientar retorno imediato se sonolência, dificuldade respiratória ou novos sintomas.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Anamnese dirigida: horário do início dos sintomas, medicamentos disponíveis na casa (com pergunta explícita sobre avós/idosos), quantidade possivelmente ingerida, outras crianças expostas.
+- ✅ Exame físico sistematizado: pupilas, pele (seca × diaforética), sinais vitais completos (FC, PA, FR, temperatura), estado mental, ruídos hidroaéreos, tônus/rigidez muscular.
+- ✅ Verbalização do toxíndrome identificado e da classe farmacológica mais provável, com justificativa baseada no exame (não só na "doença do avô").
+- ✅ Glicemia capilar solicitada se houver qualquer alteração de consciência.
+- ✅ Decisão correta sobre descontaminação (janela de tempo, via aérea protegida) e sobre antídoto específico quando indicado.
+- ✅ Menção a acionar CIATox/Disque-Intoxicação.
+- ✅ Orientação de prevenção à família e notificação do agravo.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2022 · Edição 2 · Questão 88]**
+
+Pré-escolar de três anos de idade, sexo masculino, previamente hígido, foi levado à emergência, apresentando agitação psicomotora, midríase, boca seca e rubor facial. A mãe dele informou que tinha percebido os sintomas havia uma hora, ao chegar do trabalho. O menor fica em casa com a irmã, de 10 anos, durante o período da tarde, até a mãe retornar do trabalho. Conforme o quadro clínico apresentado, trata-se de intoxicação por
+
+A) dipirona.
+B) salbutamol.
+C) clorpromazina.
+D) dexclorfeniramina.
+
+**Gabarito oficial: D**
+
+📋 *Corrigido em 2026-09-23: este bloco indicava anteriormente a alternativa A (dipirona). A auditoria conferiu o **PDF oficial do gabarito definitivo de 2022.2** e o gabarito correto é **D**.*
+
+**Por que D está correta:** o quadro é a **síndrome anticolinérgica** em estado puro. Os quatro achados descritos são exatamente os seus marcos:
+
+| Achado no enunciado | Correspondência anticolinérgica |
+|---|---|
+| Agitação psicomotora | Delirium anticolinérgico (*"mad as a hatter"*) |
+| Midríase | Bloqueio muscarínico da íris (*"blind as a bat"*) |
+| Boca seca | Inibição da secreção salivar (*"dry as a bone"*) |
+| Rubor facial | Vasodilatação cutânea (*"red as a beet"*) |
+
+A **dexclorfeniramina** é um **anti-histamínico de primeira geração**, classe que atravessa a barreira hematoencefálica e tem **potente ação anticolinérgica** — é a causa mais frequente de síndrome anticolinérgica por ingestão acidental em pré-escolares no Brasil, justamente por ser medicamento de uso doméstico comum, em apresentação líquida adocicada, frequentemente guardada fora de local seguro.
+
+O contexto epidemiológico fecha o caso: **pré-escolar de 3 anos**, faixa etária de pico das intoxicações exógenas acidentais, **sem supervisão adulta** durante a tarde (sob cuidado de uma irmã de 10 anos), com início **súbito** de sintomas em criança previamente hígida.
+
+**Por que as demais estão erradas:**
+- A) **Dipirona** em superdosagem cursa tipicamente com **hipotensão**, sintomas gastrointestinais e, raramente, reações de hipersensibilidade — **não** produz midríase, boca seca e rubor facial. Não há síndrome anticolinérgica associada.
+- B) **Salbutamol** é agonista beta-2 adrenérgico: a intoxicação produz **taquicardia, tremores, agitação, hipocalemia e hiperglicemia**. Pode até gerar agitação, mas cursa com **pele úmida/sudorese** e **não** com a tríade boca seca + rubor + midríase.
+- C) **Clorpromazina** é antipsicótico típico com **algum** efeito anticolinérgico, o que a torna o distrator mais razoável. Porém, o efeito dominante na intoxicação é o **bloqueio dopaminérgico e alfa-adrenérgico**: espera-se **sedação, hipotensão postural e reações extrapiramidais/distônicas** — o oposto da agitação psicomotora descrita.
+
+⚠️ **PEGADINHA DO INEP:** a questão exige reconhecer a **síndrome toxicológica (toxidrome)** pelo conjunto, não pela substância mais lembrada. Vale fixar o contraste com o par oposto: **anticolinérgico** = seco, quente, vermelho, midriático, agitado; **colinérgico** = úmido (SLUDGE — salivação, lacrimejamento, diurese, diarreia, êmese), miótico, bradicárdico.
+
+**O que a banca estava testando:** identificar a **toxidrome anticolinérgica** a partir do exame físico e associá-la à classe farmacológica responsável — os **anti-histamínicos de primeira geração** —, no contexto epidemiológico clássico da intoxicação exógena acidental em pré-escolar sem supervisão.
+
+---
+
+**[INEP 2022 · Edição 2 · Questão 93]**
+
+Pré-escolar de 3 anos e 4 meses de idade deu entrada no pronto-socorro apresentando rigidez e espasmos musculares e hipertermia. Não apresentava dificuldade respiratória. Ausculta cardíaca sem anormalidades. Sem história prévia de doença cardíaca. O paciente estava recebendo oxigenoterapia quando um primo dele, de quatro anos, deu entrada no mesmo hospital, com quadro semelhante. Ambos haviam passado as últimas 12 horas na casa da avó materna, que há anos faz tratamento de esquizofrenia e hipertensão arterial. As evidências clínicas dessa história induzem a necessidade de o médico investigar
+
+A) cardiopatia congênita cianótica.
+B) intoxicação exógena por captopril.
+C) intoxicação exógena de haloperidol.
+D) ingestão exógena por benzodiazepínico.
+
+**Gabarito oficial: C**
+
+📋 *Corrigido em 2026-09-23: este bloco indicava anteriormente a alternativa B (captopril). A auditoria conferiu o **PDF oficial do gabarito definitivo de 2022.2** e o gabarito correto é **C**.*
+
+**Por que C está correta:** a questão é montada sobre três pistas que convergem para o **haloperidol**.
+
+1. **O quadro clínico:** **rigidez e espasmos musculares** com **hipertermia**. Rigidez muscular e espasmos são a assinatura da **reação extrapiramidal aguda (distonia)** por bloqueio dopaminérgico. Associados à hipertermia, levantam também a suspeita de **síndrome neuroléptica maligna**.
+2. **A fonte:** a avó **trata esquizofrenia há anos** — e o antipsicótico clássico, de uso prolongado e amplamente disponível na rede pública brasileira, é o **haloperidol**. O enunciado cita ainda hipertensão arterial, que é o rastro deixado para o distrator do captopril.
+3. **O epidemiológico, que é o dado decisivo:** **duas** crianças, primos, com **quadro semelhante**, após passarem **as últimas 12 horas no mesmo domicílio**. Dois casos simultâneos, mesma exposição ambiental, mesma apresentação — isso praticamente **exclui doença própria de cada criança** e aponta para **exposição tóxica comum**.
+
+**Por que as demais estão erradas:**
+- A) **Cardiopatia congênita cianótica** é incompatível em três frentes: o enunciado afirma explicitamente **ausculta cardíaca sem anormalidades**, **sem história prévia de doença cardíaca** e **sem dificuldade respiratória**; além disso, uma cardiopatia congênita **não acomete dois primos simultaneamente** nem explica rigidez muscular e hipertermia.
+- B) **Captopril** é o distrator construído a partir da hipertensão da avó. A intoxicação por inibidor da ECA causa **hipotensão**, tontura e, eventualmente, insuficiência renal e hipercalemia — **nunca** rigidez muscular, espasmos ou hipertermia. Não há qualquer mecanismo que ligue o captopril a sintomas extrapiramidais.
+- D) **Benzodiazepínico** produz exatamente o **oposto**: depressão do sistema nervoso central, **hipotonia**, sonolência, ataxia e depressão respiratória. A criança apresenta **rigidez e espasmos** — hipertonia, não hipotonia.
+
+⚠️ **PEGADINHA DO INEP:** a banca fornece **duas** doenças da avó (esquizofrenia e hipertensão) para oferecer dois caminhos, e conta com a leitura apressada que associa "avó → pressão alta → captopril". A pista que decide é a **síndrome clínica**: rigidez + espasmos + hipertermia só têm um caminho farmacológico entre as opções, o **bloqueio dopaminérgico**. E vale a lição epidemiológica: **dois casos simultâneos com exposição ambiental comum é intoxicação exógena até prova em contrário.**
+
+**O que a banca estava testando:** raciocínio toxicológico em pediatria — reconhecer **sintomas extrapiramidais** como marca do antipsicótico, usar o **histórico de medicamentos disponíveis no domicílio** como fonte provável e valorizar o **agrupamento de casos** (dois primos, mesma casa, mesmas 12 horas) como indicador de exposição tóxica comum em vez de doença individual.
+
+### Referências
+1. ⚠️ VERIFICAR o protocolo vigente de manejo da distonia aguda por antipsicóticos em pediatria (agente de escolha — anticolinérgico como biperideno ou anti-histamínico — e dose por peso) junto ao Centro de Informação e Assistência Toxicológica (CIATox) de referência.
+
+---
+
+**[INEP 2016 · Edição 1 · Questão 57]**
+
+Uma menina com 4 anos de idade, pesando 18 kg, é trazida pelos pais ao Pronto Atendimento após detectarem que ela ingeriu 6 comprimidos de 750 mg de paracetamol há aproximadamente 3 horas. No momento da consulta, a criança apresenta náuseas e dor abdominal. Diante desse quadro, a conduta imediata é
+
+A) administrar piridoxina.
+B) administrar N-acetilcisteína.
+C) administrar xarope de ipeca.
+D) realizar lavagem gástrica.
+
+**Gabarito oficial: B**
+
+**Por que B está correta:** a criança ingeriu 6 × 750 mg = **4.500 mg** → **250 mg/kg**, dose **potencialmente hepatotóxica** (> 150–200 mg/kg em crianças), e já tem sintomas. O antídoto é a **N-acetilcisteína**, que repõe glutationa e é mais eficaz se iniciada **até 8 horas** após a ingestão; idealmente guia-se pelo **nível sérico de paracetamol às 4 horas** (nomograma de Rumack-Matthew), mas com dose tóxica e janela de tempo, inicia-se sem esperar.
+
+**Por que as demais estão erradas:**
+- A) **Piridoxina** é o antídoto da intoxicação por **isoniazida**.
+- C) **Xarope de ipeca** (indução de vômito) está **abandonado**.
+- D) **Lavagem gástrica** não é rotina (benefício só muito precoce, com riscos); após 3 horas não se indica. O **carvão ativado** pode ser considerado até ~1–2 horas.
+
+⚠️ **PEGADINHA DO INEP:** antídotos clássicos — **paracetamol → N-acetilcisteína**; isoniazida → piridoxina; benzodiazepínico → flumazenil (com restrições); opioide → naloxona; organofosforado → atropina (+ pralidoxima).
+
+**O que a banca estava testando:** manejo da intoxicação por paracetamol.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Quais os 5 achados clássicos da síndrome anticolinérgica (mnemônico)?	"Louco, vermelho, seco, quente, cego": agitação/delirium, rubor facial, pele seca, hipertermia leve, midríase	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Quais classes de medicamento de idoso mais associadas à síndrome anticolinérgica em criança?	Anti-histamínicos de 1ª geração (dexclorfeniramina, prometazina), antidepressivos tricíclicos, antiespasmódicos	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual achado de pele diferencia síndrome anticolinérgica de simpaticomimética (ambas com midríase+taquicardia+agitação)?	Anticolinérgica = pele seca (sem sudorese); simpaticomimética = pele diaforética (úmida)	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual o mnemônico da síndrome colinérgica e o que representa?	SLUDGE: Salivação, Lacrimejamento, incontinência Urinária, Diarreia, êmese Gastrointestinal	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual o padrão de pupila e FC esperado na síndrome colinérgica?	Miose; bradicardia (componente nicotínico pode dar taquicardia)	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual o antídoto da intoxicação colinérgica por organofosforado/carbamato?	Atropina + pralidoxima	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Qual a tríade clássica da intoxicação por opioide?	Miose puntiforme + depressão respiratória + rebaixamento do nível de consciência	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual o antídoto da intoxicação por opioide?	Naloxona	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Que quadro clínico a superdosagem/idiossincrasia a antipsicótico (ex. haloperidol) pode causar em criança?	Síndrome extrapiramidal aguda: rigidez muscular, espasmos, distonia (crise oculógira, torcicolo); em casos graves, hipertermia (símile SNM)	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual o antídoto da distonia aguda por antipsicótico ou antiemético (metoclopramida/bromoprida)?	Biperideno	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Colírio/spray nasal com nafazolina ou oximetazolina em criança pequena causa que efeito, e por quê?	Efeito OPOSTO ao esperado: sedação, hipotonia, bradicardia, hipotensão, hipotermia — age como agonista alfa-2 central em criança pequena	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Que anti-hipertensivo de avô mimetiza toxíndrome opioide (bradicardia+hipotensão+rebaixamento+miose) em criança?	Clonidina	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Por que sulfonilureias (ex. glibenclamida) de avô diabético são particularmente perigosas em criança?	Causam hipoglicemia grave e prolongada, podendo recorrer horas após correção inicial	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Em toda criança com rebaixamento de consciência de causa não esclarecida, qual exame à beira-leito é obrigatório?	Glicemia capilar	Revalida::Pediatria::IntoxicacaoAcidental::Conduta
+Pergunta obrigatória na anamnese de suspeita de intoxicação medicamentosa em criança pequena?	Quais medicamentos há em casa, com ênfase explícita em avós/idosos que cuidam da criança (anti-hipertensivos, psicotrópicos, hipoglicemiantes, digitálicos, anticoagulantes, opioides)	Revalida::Pediatria::IntoxicacaoAcidental::Conduta
+Qual a janela de tempo geralmente considerada para uso de carvão ativado?	Até 1-2h da ingestão (pode estender-se em agentes que retardam esvaziamento gástrico, como anticolinérgicos/opioides)	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Cite duas contraindicações ao carvão ativado.	Rebaixamento de consciência sem via aérea protegida; ingestão de corrosivos/hidrocarbonetos	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Qual o papel atual do xarope de ipeca (indução de vômito) na intoxicação pediátrica?	Abandonado — não deve ser usado	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Qual o serviço de referência nacional para orientação toxicológica no Brasil?	CIATox / Disque-Intoxicação (rede de Centros de Informação e Assistência Toxicológica)	Revalida::Pediatria::IntoxicacaoAcidental::Conduta
+Qual o antídoto de escolha para cardiotoxicidade (QRS alargado) por antidepressivo tricíclico?	Bicarbonato de sódio	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Por que flumazenil deve ser usado com cautela em criança com suspeita de coingestão?	Risco de precipitar convulsão, especialmente se houver coingestão de tricíclico ou uso crônico de benzodiazepínico	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Qual antídoto/conduta para intoxicação por betabloqueador?	Glucagon (± insulina-glicose euglicêmica em casos refratários)	Revalida::Pediatria::IntoxicacaoAcidental::Tratamento
+Duas crianças com sintomas semelhantes após exposição à mesma casa sugerem o quê?	Fonte tóxica comum no ambiente (ex. medicamento acessível), reforçando intoxicação exógena sobre causa estrutural individual	Revalida::Pediatria::IntoxicacaoAcidental::Conduta
+Qual a faixa etária de pico da intoxicação medicamentosa acidental na infância?	1 a 5 anos (fase de exploração motora/oral)	Revalida::Pediatria::IntoxicacaoAcidental::Epidemiologia
+Por que se fala em "regra dos avós" na toxicologia pediátrica?	Netos frequentemente se intoxicam com medicamentos de avós/idosos por polifarmácia e armazenamento acessível sem trava de segurança	Revalida::Pediatria::IntoxicacaoAcidental::Epidemiologia
+Qual achado de pele/mucosa reforça anticolinérgica em vez de colinérgica diante de midríase?	Boca seca e ausência de sudorese (colinérgica teria sialorreia e diaforese profusa, além de miose, não midríase)	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Digitálico de avó cardiopata em criança: que achados sugerem essa intoxicação?	Náuseas/vômitos, alterações visuais, arritmias	Revalida::Pediatria::IntoxicacaoAcidental::Toxindromes
+Qual medida de prevenção deve ser orientada à família após episódio de intoxicação acidental?	Guarda segura de medicamentos (armário trancado, fora de alcance, embalagem original com tampa de segurança), inclusive na casa de avós/idosos	Revalida::Pediatria::IntoxicacaoAcidental::Prevencao
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. Midríase + taquicardia + agitação + hipertermia aparecem em anticolinérgica e simpaticomimética — o desempate é a pele: **seca** (anticolinérgica) × **diaforética** (simpaticomimética).
+2. Miose + bradicardia + sudorese/sialorreia = colinérgica; miose + depressão respiratória + hipotermia (sem sudorese proeminente) = opioide.
+3. Rigidez muscular + espasmos + hipertermia, sem comprometimento cardiorrespiratório = pensar em antipsicótico (extrapiramidal/símile SNM), não em anti-hipertensivo.
+4. Sempre pergunte sobre medicamentos de **avós/idosos** na anamnese toxicológica pediátrica — é a fonte mais comum.
+5. Toda criança com rebaixamento de consciência de causa indeterminada precisa de **glicemia capilar imediata** — hipoglicemiante oral de avô diabético é causa comum e tratável.
+
+📊 **Tabela-síntese — toxíndrome × achado discriminante**
+| Toxíndrome | Pupila | Pele | Achado-chave |
+|---|---|---|---|
+| Anticolinérgica | Midríase | Seca | Rubor + retenção urinária |
+| Colinérgica | Miose | Diaforética | SLUDGE |
+| Extrapiramidal/neuroléptica | Normal | Variável | Rigidez + hipertermia, sem foco cardiorrespiratório |
+| Opioide | Miose puntiforme | Normal | Depressão respiratória |
+| Simpaticomimética | Midríase | Diaforética | Hipertensão + tremor |
+
+💊 **Doses essenciais:** ⚠️ este módulo não fixa doses numéricas de naloxona, carvão ativado, biperideno, atropina/pralidoxima ou glucagon sem fonte primária confirmada — verifique no protocolo institucional/CIATox vigente antes de prescrever (ver seção 2).
+
+⚡ **Fluxograma textual:** estabilizar ABC → reconhecer toxíndrome pelo exame físico (pupila + pele + sinais vitais + estado mental) → anamnese dirigida sobre medicamentos em casa, com ênfase em avós/idosos → glicemia capilar se alteração de consciência → decidir descontaminação (janela de tempo + via aérea protegida) → antídoto específico se indicado → acionar CIATox/Disque-Intoxicação em caso de dúvida → observação prolongada se hipoglicemiante oral ou agente de liberação prolongada → orientar prevenção e notificar o agravo.
+
+🚫 **Os 4 erros mais comuns:** (1) não perguntar especificamente sobre medicamentos de avós/idosos; (2) deduzir o agente pela doença de base do adulto-fonte sem confirmar pelo exame físico da criança; (3) não checar glicemia capilar em criança com rebaixamento; (4) tentar induzir vômito ou usar xarope de ipeca (prática abandonada).
+
+🔗 **Conexões com outros módulos:** PED-154 (Intoxicações exógenas — cobre paracetamol/AAS, agentes farmacológicos específicos não repetidos aqui; consulte-o como complemento direto deste módulo).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "PED-96",
+  "especialidade": "Pediatria",
+  "tema": "Intoxicação medicamentosa acidental em criança pequena",
+  "assunto": "Reconhecimento clínico do agente causador de intoxicação medicamentosa acidental em pré-escolares pelo quadro sindrômico (toxíndromes)",
+  "tier": "A",
+  "n_questoes": 3,
+  "n_flashcards": 28,
+  "tempo_estudo_min": 90,
+  "prerequisitos": [],
+  "relacionados": ["PED-154"],
+  "data_geracao": "2026-08-13",
+  "itens_a_verificar": [
+    "Estatística nacional exata de incidência/faixa etária de pico de intoxicação medicamentosa acidental pediátrica (fonte esperada: Sinitox/Fiocruz)",
+    "Doses pediátricas exatas de naloxona, carvão ativado, biperideno, atropina/pralidoxima, glucagon — confirmar em protocolo institucional/CIATox vigente antes de uso em flashcard ou prescrição",
+    "Número vigente do Disque-Intoxicação/CIATox na região de prática",
+    "Periodicidade de notificação compulsória aplicável (semanal vs. imediata) para intoxicação exógena pediátrica, inclusive no cenário de exposição coletiva (dois casos relacionados à mesma fonte)",
+    "Questão 2022.2-Q88: gabarito oficial registrado é 'A' (dipirona), mas a leitura clínico-farmacológica do quadro (síndrome anticolinérgica) aponta mais consistentemente para 'D' (dexclorfeniramina) — divergência sinalizada no módulo, não resolvida definitivamente por falta de acesso ao gabarito comentado oficial do INEP",
+    "Questão 2022.2-Q93: gabarito oficial registrado é 'B' (captopril), mas a leitura clínico-farmacológica do quadro (rigidez+espasmos+hipertermia sem acometimento cardiovascular) aponta mais consistentemente para 'C' (haloperidol) — divergência sinalizada no módulo, não resolvida definitivamente por falta de acesso ao gabarito comentado oficial do INEP",
+    "Confirmar se este módulo tem mais questões nas edições do banco ainda não classificadas e atualizar a seção 3 quando disponível"
+  ]
+}
+```

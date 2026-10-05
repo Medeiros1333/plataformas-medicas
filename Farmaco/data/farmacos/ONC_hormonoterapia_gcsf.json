@@ -1,0 +1,256 @@
+[
+  {
+    "id": "ONC-hormonoterapia-mama",
+    "nombre": "Tamoxifeno e inhibidores de la aromatasa (anastrozol, letrozol, exemestano)",
+    "sinonimos": [
+      "Hormonoterapia del cáncer de mama"
+    ],
+    "area": "ONC",
+    "nivel": 1,
+    "clase": "Antineoplásico hormonal",
+    "subclase": "Modulador selectivo del receptor de estrógenos e inhibidores de la aromatasa",
+    "mecanismo": "Son dos estrategias distintas para privar de estrógenos al tumor con receptor hormonal positivo. El TAMOXIFENO es un modulador SELECTIVO del receptor de estrógenos: se comporta como ANTAGONISTA en la mama (efecto terapéutico) pero como AGONISTA en el ENDOMETRIO (de donde salen la hiperplasia y el carcinoma endometrial) y en el HUESO (donde protege de la osteoporosis en la posmenopáusica). Es un profármaco que requiere el CYP2D6 para convertirse en endoxifeno, su metabolito activo. Los INHIBIDORES DE LA AROMATASA bloquean la enzima que convierte los andrógenos suprarrenales en estrógenos en el tejido periférico, sobre todo graso: eliminan casi por completo el estrógeno circulante. Y aquí está la clave de su indicación: en la mujer PREMENOPÁUSICA el ovario sigue produciendo estrógenos por una vía que la aromatasa periférica no controla, y además la caída de estrógenos dispara la LH y estimula el ovario, de modo que los inhibidores solos son INEFICACES y hasta contraproducentes.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Cáncer de MAMA con receptor hormonal positivo, adyuvancia en PREMENOPÁUSICA",
+        "dosis": "Tamoxifeno 20 mg al día durante 5-10 años",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Prolongar de 5 a 10 años reduce las recaídas tardías, que en este tumor pueden aparecer 15 o 20 años después del diagnóstico"
+      },
+      {
+        "patologia": "Cáncer de mama con receptor hormonal positivo, adyuvancia en POSMENOPÁUSICA",
+        "dosis": "Anastrozol 1 mg, letrozol 2,5 mg o exemestano 25 mg al día durante 5 años",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Superiores al tamoxifeno en esta población. Requieren SUPLEMENTO de calcio y vitamina D y densitometría periódica"
+      },
+      {
+        "patologia": "Premenopáusica de alto riesgo",
+        "dosis": "Goserelina 3,6 mg SC mensual más exemestano 25 mg al día o tamoxifeno 20 mg al día",
+        "posologia": "Análogo mensual o trimestral más comprimido diario",
+        "via": "VO",
+        "nota": "Solo con supresión ovárica añadida puede usarse un inhibidor de la aromatasa antes de la menopausia"
+      },
+      {
+        "patologia": "Enfermedad metastásica con receptor hormonal positivo y HER2 negativo",
+        "dosis": "Letrozol 2,5 mg al día o fulvestrant 500 mg IM mensual, con palbociclib 125 mg al día durante 21 de cada 28 días",
+        "posologia": "Diaria (más inyección mensual si fulvestrant)",
+        "via": "VO",
+        "nota": "La combinación con inhibidores de CDK4/6 ha desplazado a la quimioterapia como primera línea en esta situación"
+      },
+      {
+        "patologia": "Prevención en mujeres de muy alto riesgo",
+        "dosis": "Tamoxifeno 20 mg al día durante 5 años",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Reduce a la mitad la incidencia de cáncer de mama con receptor positivo, con el coste de sus efectos adversos: es una decisión compartida"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar el ESTADO MENOPÁUSICO (es la decisión que determina el fármaco) con FSH y estradiol si hay dudas, sobre todo tras quimioterapia, que puede producir una amenorrea transitoria y engañosa. Densitometría basal antes de un inhibidor de la aromatasa.",
+      "titulacion": "Dosis fija.",
+      "duracion": "5 a 10 años. Es un tratamiento de MUY LARGO PLAZO cuya eficacia depende por completo de la adherencia.",
+      "fin": "Al completar el periodo previsto. Ante efectos adversos intolerables, cambiar de familia antes que abandonar el tratamiento.",
+      "via": "Oral.",
+      "monitorizacion": "Con TAMOXIFENO: vigilancia de sangrado vaginal anómalo (ecografía solo si hay síntomas, NO cribado ecográfico sistemático) y síntomas de trombosis. Con INHIBIDORES DE LA AROMATASA: densitometría cada 1-2 años, perfil lipídico y síntomas articulares."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Amplia; el tamoxifeno tiene una vida media muy larga.",
+      "metabolismo": "El TAMOXIFENO es un PROFÁRMACO que necesita el CYP2D6 para generar ENDOXIFENO, el metabolito realmente activo. Los inhibidores de la aromatasa se metabolizan por vía hepática.",
+      "eliminacion": "Biliar y fecal.",
+      "vida_media": "Tamoxifeno 5-7 días (metabolitos hasta 14 días); inhibidores de la aromatasa 2 días.",
+      "ajuste_renal": "Sin ajuste relevante.",
+      "ajuste_hepatico": "Precaución en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "INHIBIDORES POTENTES DEL CYP2D6: PAROXETINA y FLUOXETINA",
+          "efecto": "Bloquean la conversión del tamoxifeno en endoxifeno y REDUCEN su eficacia antitumoral, con datos que sugieren mayor mortalidad",
+          "gravedad": "alta",
+          "manejo": "Es la interacción que hay que conocer: la paciente con cáncer de mama y depresión o sofocos NO debe recibir paroxetina ni fluoxetina. Las alternativas son venlafaxina, escitalopram o citalopram"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "El tamoxifeno potencia su efecto",
+          "gravedad": "alta",
+          "manejo": "Controlar el INR estrechamente"
+        },
+        {
+          "con": "ESTRÓGENOS y anticonceptivos hormonales",
+          "efecto": "Antagonizan el efecto terapéutico",
+          "gravedad": "alta",
+          "manejo": "Contraindicados; la anticoncepción debe ser no hormonal"
+        },
+        {
+          "con": "Bisfosfonatos y denosumab",
+          "efecto": "Contrarrestan la pérdida ósea de los inhibidores de la aromatasa y reducen las recaídas óseas",
+          "gravedad": "baja",
+          "manejo": "Asociación BUSCADA en la paciente posmenopáusica con osteopenia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SOFOCOS y sudoración, en ambas familias, y causa principal de abandono",
+        "TAMOXIFENO: flujo y sequedad vaginal, irregularidades menstruales, aumento de peso",
+        "INHIBIDORES DE LA AROMATASA: ARTRALGIAS y rigidez matutina (muy frecuentes e infravaloradas), sequedad vaginal intensa y dispareunia, dislipidemia"
+      ],
+      "graves": [
+        "TAMOXIFENO: CARCINOMA DE ENDOMETRIO e hiperplasia endometrial (efecto agonista en el útero), TROMBOSIS venosa profunda y embolia pulmonar, cataratas, esteatosis hepática",
+        "INHIBIDORES DE LA AROMATASA: OSTEOPOROSIS y FRACTURAS por la privación estrogénica completa, eventos cardiovasculares",
+        "Ambos: deterioro importante de la calidad de vida sexual, que se pregunta poco y explica muchos abandonos silenciosos"
+      ]
+    },
+    "contraindicaciones": [
+      "TAMOXIFENO: antecedente de trombosis venosa profunda o embolia pulmonar, y embarazo",
+      "INHIBIDORES DE LA AROMATASA: mujer PREMENOPÁUSICA sin supresión ovárica (son ineficaces)",
+      "Osteoporosis grave no tratada (inhibidores de la aromatasa)",
+      "Embarazo y lactancia"
+    ],
+    "perlas": [
+      "La primera pregunta no es qué fármaco, sino si la paciente es PRE o POSMENOPÁUSICA: en la premenopáusica el inhibidor de la aromatasa es ineficaz porque el ovario sigue produciendo estrógenos, y encima la caída de estrógenos estimula el ovario por retroalimentación. Solo funciona si se añade supresión ovárica.",
+      "El tamoxifeno es ANTAGONISTA en la mama y AGONISTA en el endometrio y en el hueso. De ese doble comportamiento salen, en una sola frase, su beneficio (protege el hueso en la posmenopáusica) y su riesgo más temido (carcinoma de endometrio).",
+      "PAROXETINA y FLUOXETINA están, en la práctica, vetadas en la paciente con tamoxifeno: bloquean el CYP2D6 y le impiden convertirse en endoxifeno. Es una interacción que puede costar la eficacia de cinco años de tratamiento, y ocurre porque los ISRS se usan precisamente para los sofocos que el propio tamoxifeno produce. La alternativa correcta es la venlafaxina.",
+      "Los perfiles de riesgo son casi opuestos y eso permite elegir en función de la paciente: TAMOXIFENO produce trombosis y cáncer de endometrio pero PROTEGE el hueso; INHIBIDORES DE LA AROMATASA producen osteoporosis y artralgias pero no dan trombosis ni patología endometrial.",
+      "Cualquier SANGRADO VAGINAL en una paciente con tamoxifeno exige estudio. Lo que NO está indicado es el cribado ecográfico sistemático en la asintomática: genera muchos hallazgos irrelevantes y biopsias innecesarias.",
+      "Las ARTRALGIAS de los inhibidores de la aromatasa son la causa principal de abandono y se minimizan con demasiada frecuencia. Cambiar a otro inhibidor de la familia, o al tamoxifeno, es preferible a que la paciente deje el tratamiento por su cuenta.",
+      "La ADHERENCIA es el verdadero problema de la hormonoterapia: hasta un tercio de las pacientes abandona antes de completar los cinco años, y ese abandono se traduce en recaídas. Preguntar por sofocos, dolor articular y vida sexual, y actuar sobre ellos, es una intervención antitumoral tan real como el propio fármaco.",
+      "El cáncer de mama con receptor positivo recae TARDE, incluso 15 o 20 años después. Por eso se plantea prolongar la hormonoterapia hasta 10 años y por eso el alta no existe realmente a los cinco.",
+      "La anticoncepción durante el tratamiento debe ser NO HORMONAL, y el tamoxifeno no es un anticonceptivo: en la premenopáusica hay que advertirlo expresamente porque es teratógeno."
+    ],
+    "embarazo_lactancia": "CONTRAINDICADOS en el embarazo (el tamoxifeno es teratógeno) y en la lactancia. Se requiere anticoncepción NO HORMONAL durante el tratamiento y en los meses siguientes. En la paciente joven hay que abordar la preservación de fertilidad y la planificación reproductiva ANTES de iniciar un tratamiento que durará entre 5 y 10 años.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; guías ESMO y ASCO de cáncer de mama precoz"
+  },
+  {
+    "id": "ONC-filgrastim",
+    "nombre": "Filgrastim y pegfilgrastim (G-CSF)",
+    "sinonimos": [
+      "Factor estimulante de colonias de granulocitos"
+    ],
+    "area": "ONC",
+    "nivel": 2,
+    "clase": "Factor de crecimiento hematopoyético",
+    "subclase": "Factor estimulante de colonias de granulocitos recombinante",
+    "vs_clase": [
+      "**Estimula la serie BLANCA (neutrófilos)**; la eritropoyetina, la roja.",
+      "**Profilaxis de la neutropenia febril** cuando el riesgo de la quimioterapia es ≥20% y para movilizar progenitores hematopoyéticos.",
+      "**Su efecto adverso propio es el DOLOR ÓSEO**; rara rotura esplénica. El pegfilgrastim permite una sola dosis por ciclo."
+    ],
+    "mecanismo": "Se une al receptor del G-CSF en los precursores mieloides de la médula ósea y estimula su proliferación, su diferenciación hacia neutrófilo maduro y su liberación a la sangre. Además activa funcionalmente al neutrófilo circulante y prolonga su supervivencia. Un efecto secundario del mecanismo se ha convertido en indicación propia: al romper la interacción entre el precursor y el estroma medular, MOVILIZA células madre CD34 positivas hacia la sangre periférica, que es como se obtienen hoy los progenitores para un trasplante sin necesidad de puncionar la cresta ilíaca. El PEGFILGRASTIM lleva una cadena de polietilenglicol que impide su filtración renal, de modo que su eliminación pasa a depender de los propios neutrófilos: cuando el paciente está neutropénico el fármaco persiste, y cuando los neutrófilos se recuperan estos lo eliminan. Es una autorregulación farmacocinética elegante que permite una única inyección por ciclo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "PROFILAXIS PRIMARIA de la neutropenia febril en esquemas de riesgo alto",
+        "dosis": "Filgrastim 5 microgramos/kg al día durante 5-10 días, o pegfilgrastim 6 mg en dosis única",
+        "posologia": "Diaria o dosis única por ciclo",
+        "via": "SC",
+        "dosis_objetivo": "Recuperación de neutrófilos por encima de 1000 por microlitro tras el nadir",
+        "nota": "Indicada cuando el riesgo de neutropenia febril del esquema supera el 20%, o entre el 10 y el 20% con factores de riesgo del paciente (edad, comorbilidad, mal estado general)"
+      },
+      {
+        "patologia": "Neutropenia febril establecida de alto riesgo",
+        "dosis": "Filgrastim 5 microgramos/kg al día hasta la recuperación",
+        "posologia": "Diaria",
+        "via": "SC",
+        "nota": "NO se usa de rutina en toda neutropenia febril: solo en el paciente de alto riesgo (sepsis, neumonía, neutropenia profunda y prolongada, edad avanzada)"
+      },
+      {
+        "patologia": "MOVILIZACIÓN de progenitores hematopoyéticos para trasplante",
+        "dosis": "10 microgramos/kg al día durante 4-6 días antes de la aféresis",
+        "posologia": "Diaria",
+        "via": "SC",
+        "dosis_objetivo": "Recuento de CD34 en sangre periférica suficiente para la aféresis",
+        "nota": "Ha sustituido casi por completo a la obtención de médula por punción de cresta ilíaca, tanto en el donante sano como en el propio paciente"
+      },
+      {
+        "patologia": "Neutropenia crónica grave congénita, cíclica o idiopática",
+        "dosis": "1-10 microgramos/kg al día, ajustado por respuesta",
+        "posologia": "Diaria o en días alternos",
+        "via": "SC",
+        "dosis_objetivo": "Neutrófilos por encima de 1000 por microlitro, la cifra a partir de la cual cesan las infecciones graves",
+        "nota": "Tratamiento indefinido que transforma el pronóstico de estas enfermedades"
+      },
+      {
+        "patologia": "Síndrome agudo por radiación",
+        "dosis": "Filgrastim 5-10 microgramos/kg al día",
+        "posologia": "Diaria",
+        "via": "SC",
+        "nota": "Indicación autorizada tras exposición accidental a radiación con daño medular"
+      }
+    ],
+    "esquema": {
+      "inicio": "Se administra 24-72 HORAS DESPUÉS de terminar la quimioterapia, nunca de forma simultánea ni el mismo día.",
+      "titulacion": "En la neutropenia crónica, la dosis se ajusta al alza o a la baja buscando el mínimo que mantenga los neutrófilos por encima de 1000.",
+      "duracion": "Hasta la recuperación del recuento tras el nadir (5-10 días con filgrastim); dosis única por ciclo con pegfilgrastim.",
+      "fin": "Se suspende con la recuperación de los neutrófilos. Hay que saber que la retirada produce un descenso transitorio del recuento, que no debe confundirse con una recaída de la neutropenia.",
+      "via": "Subcutánea (también intravenosa).",
+      "monitorizacion": "Hemograma con recuento diferencial; vigilar dolor óseo y, en la movilización, el tamaño del bazo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena absorción subcutánea.",
+      "distribucion": "Compartimento vascular y médula ósea.",
+      "metabolismo": "Catabolismo proteico y captación por los propios neutrófilos.",
+      "eliminacion": "Filgrastim: renal y por neutrófilos. PEGFILGRASTIM: exclusivamente mediada por NEUTRÓFILOS, lo que le da una autorregulación única.",
+      "vida_media": "Filgrastim 3-4 horas (de ahí la administración diaria); pegfilgrastim, variable y dependiente del recuento de neutrófilos, lo que permite la dosis única.",
+      "ajuste_renal": "No requiere ajuste.",
+      "ajuste_hepatico": "No requiere ajuste.",
+      "interacciones": [
+        {
+          "con": "QUIMIOTERAPIA administrada simultáneamente",
+          "efecto": "Al estimular la división de los precursores mieloides los hace MÁS vulnerables al citostático, agravando la mielosupresión",
+          "gravedad": "alta",
+          "manejo": "Respetar un intervalo de 24 horas después de la quimioterapia y de 24 horas antes del siguiente ciclo. Es la regla de administración que más se incumple"
+        },
+        {
+          "con": "LITIO",
+          "efecto": "Potencia la liberación de neutrófilos",
+          "gravedad": "baja",
+          "manejo": "Vigilar leucocitosis excesiva"
+        },
+        {
+          "con": "Pruebas de imagen ósea y PET",
+          "efecto": "La hiperplasia medular produce CAPTACIÓN INTENSA y difusa en médula ósea y bazo",
+          "gravedad": "media",
+          "manejo": "Puede simular infiltración tumoral difusa: hay que informar al radiólogo del tratamiento reciente para evitar un falso positivo alarmante"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DOLOR ÓSEO, sobre todo en esternón, pelvis y huesos largos, por expansión medular: es el efecto adverso característico y afecta a la mayoría",
+        "Cefalea y mialgias",
+        "Reacción local en el punto de inyección",
+        "Elevación de LDH, fosfatasa alcalina y ácido úrico"
+      ],
+      "graves": [
+        "ROTURA ESPLÉNICA, rara pero potencialmente mortal, sobre todo en donantes sanos durante la movilización: cualquier dolor en hipocondrio izquierdo o en el hombro izquierdo obliga a descartarla",
+        "Síndrome de DISTRÉS RESPIRATORIO agudo por secuestro pulmonar de neutrófilos",
+        "Crisis vasooclusiva en pacientes con DREPANOCITOSIS",
+        "Vasculitis leucocitoclástica y síndrome de Sweet",
+        "Riesgo teórico de estimulación de neoplasias mieloides en la neutropenia congénita tratada a largo plazo"
+      ]
+    },
+    "contraindicaciones": [
+      "Administración simultánea con la quimioterapia",
+      "Hipersensibilidad a proteínas derivadas de E. coli",
+      "Precaución en la drepanocitosis",
+      "Leucemia mieloide con blastos, salvo indicación específica"
+    ],
+    "perlas": [
+      "El DOLOR ÓSEO es prácticamente universal y hay que anticiparlo: es la médula expandiéndose dentro de un hueso que no cede. Se controla con paracetamol o con un antihistamínico como la loratadina, que tiene evidencia razonable en esta indicación concreta y sorprende a quien no lo sabe.",
+      "NUNCA el mismo día que la quimioterapia: estimular la proliferación de los precursores mientras circula el citostático los hace más vulnerables y empeora la aplasia. Se espera 24-72 horas.",
+      "La indicación no es tratar cualquier neutropenia, sino PREVENIRLA en los esquemas de riesgo superior al 20%. Su valor está en evitar retrasos y reducciones de dosis de la quimioterapia, que es lo que compromete la curación en los tratamientos con intención curativa.",
+      "El PEGFILGRASTIM se autorregula de una forma elegante: se elimina por los propios neutrófilos, de modo que persiste mientras el paciente está neutropénico y desaparece cuando se recupera. Por eso basta una inyección por ciclo.",
+      "La ROTURA ESPLÉNICA es la complicación grave a recordar, sobre todo en DONANTES SANOS que reciben el fármaco solo para movilizar progenitores. Un dolor en hipocondrio izquierdo o irradiado al hombro izquierdo obliga a una ecografía urgente.",
+      "Puede producir una LEUCOCITOSIS marcada con desviación izquierda y aparición de formas inmaduras en sangre: es un efecto esperado y no significa infección ni leucemia, pero desconcierta a quien ve el hemograma sin conocer el tratamiento.",
+      "En el PET y en la gammagrafía produce una captación medular difusa muy intensa que puede confundirse con infiltración tumoral: hay que avisar al radiólogo, o el paciente recibirá un susto y quizá una biopsia innecesaria.",
+      "No sustituye a los antibióticos en la neutropenia febril: el tratamiento de una neutropenia febril sigue siendo antibiótico empírico de amplio espectro en la primera hora, y el G-CSF es un complemento en el paciente de alto riesgo."
+    ],
+    "embarazo_lactancia": "Datos limitados; se usa cuando el beneficio lo justifica, incluida la neutropenia grave durante la gestación. No hay evidencia de teratogenia. Compatible con la lactancia por su naturaleza proteica.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 33; guías ASCO y EORTC sobre uso de factores estimulantes de colonias"
+  }
+]

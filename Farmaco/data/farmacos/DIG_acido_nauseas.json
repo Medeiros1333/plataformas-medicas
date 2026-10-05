@@ -1,0 +1,413 @@
+[
+  {
+    "id": "DIG-omeprazol",
+    "nombre": "Omeprazol",
+    "sinonimos": [
+      "IBP"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Inhibidor de la bomba de protones",
+    "subclase": "Benzimidazol sustituido, profármaco",
+    "vs_clase": [
+      "**El IBP de referencia y con más experiencia**, incluido el **embarazo**.",
+      "**Inhibidor del CYP2C19**: **reduce la activación del CLOPIDOGREL** (usar pantoprazol) y aumenta citalopram y diazepam.",
+      "20 mg de omeprazol ≈ 40 mg de pantoprazol ≈ 30 mg de lansoprazol ≈ 20 mg de esomeprazol."
+    ],
+    "mecanismo": "Es un PROFÁRMACO base débil que se concentra selectivamente en el medio ácido del canalículo secretor de la célula parietal, donde se protona y se transforma en sulfenamida activa que se une de forma COVALENTE e IRREVERSIBLE a la H+/K+-ATPasa (la bomba de protones), el paso final común de toda secreción ácida. Al bloquear el paso final, inhibe la secreción venga del estímulo que venga: gastrina, acetilcolina o histamina. La recuperación exige sintetizar bombas nuevas, lo que explica que su efecto dure 24-48 h pese a una vida media de una hora.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad por reflujo gastroesofágico y esofagitis",
+        "dosis": "20-40 mg/24 h",
+        "posologia": "Una vez al día, 30 minutos ANTES del desayuno",
+        "via": "VO",
+        "nota": "4-8 semanas en la esofagitis erosiva; después, la dosis mínima eficaz o a demanda"
+      },
+      {
+        "patologia": "Úlcera péptica gástrica o duodenal",
+        "dosis": "20-40 mg/24 h durante 4-8 semanas",
+        "posologia": "Una vez al día antes del desayuno",
+        "via": "VO",
+        "nota": "Investigar SIEMPRE Helicobacter pylori y el consumo de AINE: sin tratar la causa, la úlcera recidiva"
+      },
+      {
+        "patologia": "Erradicación de Helicobacter pylori (terapia cuádruple)",
+        "dosis": "40 mg/12 h junto a amoxicilina, claritromicina y metronidazol durante 14 días",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "El IBP a DOBLE dosis es parte esencial del tratamiento: los antibióticos necesitan pH elevado para ser eficaces"
+      },
+      {
+        "patologia": "Profilaxis de úlcera por AINE o por antiagregación en paciente de riesgo",
+        "dosis": "20 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Indicada con edad avanzada, antecedente ulceroso, corticoides, anticoagulantes o doble antiagregación. Con clopidogrel, usar PANTOPRAZOL"
+      },
+      {
+        "patologia": "Hemorragia digestiva alta por úlcera péptica",
+        "dosis": "Bolo de 80 mg IV seguido de perfusión de 8 mg/h durante 72 h",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "El pH elevado estabiliza el coágulo; se administra tras la endoscopia terapéutica en las lesiones de alto riesgo"
+      },
+      {
+        "patologia": "Síndrome de Zollinger-Ellison",
+        "dosis": "60-120 mg/24 h",
+        "posologia": "1-2 veces al día",
+        "via": "VO",
+        "nota": "Requiere dosis muy superiores y de forma indefinida"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis plena desde el primer día, siempre 30-60 minutos ANTES de la primera comida: necesita que las bombas estén activas para unirse a ellas.",
+      "titulacion": "No se titula al alza salvo en el Zollinger-Ellison. Lo que hay que hacer es DESESCALAR: reducir a la mínima dosis eficaz o pasar a tratamiento a demanda una vez controlado el cuadro.",
+      "duracion": "4-8 semanas en la úlcera y en la esofagitis; 14 días a doble dosis en la erradicación de Helicobacter; indefinida solo en el esófago de Barrett, la esofagitis grave recidivante, el Zollinger-Ellison y la profilaxis mantenida con indicación firme.",
+      "fin": "La retirada brusca tras meses de tratamiento produce HIPERSECRECIÓN ÁCIDA DE REBOTE por hipergastrinemia, con síntomas que el paciente y el médico interpretan como recaída y que llevan a reinstaurarlo indefinidamente. Se retira de forma progresiva o pasando a tratamiento a demanda.",
+      "via": "VO en ayunas; IV en la hemorragia digestiva o cuando no hay vía oral.",
+      "monitorizacion": "Ninguna de rutina. En tratamientos prolongados: MAGNESIO, vitamina B12 y valoración periódica de si la indicación sigue vigente (deprescripción)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida, con cubierta entérica para protegerlo del ácido gástrico. Debe tomarse EN AYUNAS: con el estómago lleno pierde eficacia porque no coincide con la activación máxima de las bombas.",
+      "distribucion": "Alta unión a proteínas; se concentra en el canalículo de la célula parietal.",
+      "metabolismo": "HEPÁTICO por CYP2C19 (principal) y CYP3A4. El polimorfismo de CYP2C19 explica una variabilidad importante de respuesta: los metabolizadores rápidos pueden requerir dosis mayores.",
+      "eliminacion": "Renal como metabolitos inactivos.",
+      "vida_media": "1 h, pero con efecto de 24-48 h por la unión irreversible a la bomba. Es una disociación análoga a la del AAS con la plaqueta.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir la dosis a la mitad en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "CLOPIDOGREL",
+          "efecto": "El omeprazol y el esomeprazol inhiben el CYP2C19 y reducen la activación del clopidogrel, disminuyendo su efecto antiagregante",
+          "gravedad": "media",
+          "manejo": "Sustituir por PANTOPRAZOL, que apenas inhibe esa enzima"
+        },
+        {
+          "con": "Fármacos que necesitan ACIDEZ para absorberse: ketoconazol, itraconazol, atazanavir, hierro, calcio, levotiroxina, velpatasvir",
+          "efecto": "Reducción significativa de su absorción y posible fracaso terapéutico",
+          "gravedad": "alta",
+          "manejo": "Separar las tomas, retirar el IBP si no está indicado, o elegir alternativas que no dependan del pH"
+        },
+        {
+          "con": "Metotrexato a dosis altas",
+          "efecto": "Reduce su eliminación renal y aumenta su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Suspender el IBP durante los ciclos de metotrexato a dosis altas"
+        },
+        {
+          "con": "Diazepam, fenitoína, antivitamina K",
+          "efecto": "Inhibición de su metabolismo con aumento del efecto",
+          "gravedad": "media",
+          "manejo": "Vigilar sedación, concentraciones e INR"
+        },
+        {
+          "con": "Diuréticos",
+          "efecto": "Hipomagnesemia aditiva",
+          "gravedad": "media",
+          "manejo": "Controlar el magnesio en tratamientos prolongados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Diarrea, estreñimiento, flatulencia y dolor abdominal",
+        "Náuseas",
+        "En conjunto, muy bien tolerado a corto plazo"
+      ],
+      "graves": [
+        "HIPOMAGNESEMIA con tetania, arritmias y convulsiones (tratamientos prolongados)",
+        "Aumento del riesgo de INFECCIÓN POR CLOSTRIDIOIDES DIFFICILE y de otras infecciones entéricas, al perderse la barrera ácida",
+        "Déficit de VITAMINA B12 y de hierro por malabsorción",
+        "NEFRITIS INTERSTICIAL AGUDA (reacción idiosincrásica, causa a menudo no reconocida de deterioro renal)",
+        "Neumonía adquirida en la comunidad y sobrecrecimiento bacteriano intestinal",
+        "Asociación (no causalidad demostrada) con fracturas osteoporóticas en uso prolongado a dosis altas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a los benzimidazoles sustituidos",
+      "Uso concomitante con rilpivirina, atazanavir y nelfinavir"
+    ],
+    "perlas": [
+      "El problema clínico más importante de este fármaco no es su toxicidad sino su SOBREUTILIZACIÓN: se inicia por una indicación transitoria y se mantiene años sin revisar. La deprescripción periódica forma parte del buen uso, y en una revisión de medicación el IBP debería ser siempre el primer candidato a revisarse.",
+      "Debe tomarse 30-60 minutos ANTES del desayuno, y esto no es un formalismo: necesita que las bombas de protones estén siendo activadas por la comida para unirse a ellas. Tomarlo con el estómago lleno o al acostarse reduce mucho su eficacia. Es un error de administración extraordinariamente frecuente.",
+      "El REBOTE ÁCIDO tras la retirada es un fenómeno real, mediado por la hipergastrinemia compensadora, que genera un círculo vicioso: el paciente empeora al dejarlo, se interpreta como recaída y se reinstaura de por vida. La solución es retirarlo de forma progresiva o pasar a pauta a demanda.",
+      "En un paciente con clopidogrel, la elección correcta es PANTOPRAZOL: mantiene la protección gástrica sin comprometer la antiagregación.",
+      "Suprimir el ácido no es inocuo: el ácido gástrico es una barrera antimicrobiana y un facilitador de la absorción de hierro, calcio y B12. De ahí el aumento de infecciones por Clostridioides difficile y los déficits nutricionales del tratamiento prolongado.",
+      "Ante un deterioro renal inexplicado en un paciente con IBP crónico hay que pensar en NEFRITIS INTERSTICIAL AGUDA: es una reacción idiosincrásica poco recordada y potencialmente reversible si se retira el fármaco a tiempo.",
+      "En la ÚLCERA, el IBP cicatriza pero no cura la causa: sin erradicar Helicobacter pylori o sin retirar el AINE, la úlcera recidiva. Prescribir el IBP y no investigar la causa es un tratamiento incompleto."
+    ],
+    "embarazo_lactancia": "Amplia experiencia sin señal de teratogenicidad; el omeprazol es el IBP con más datos en el embarazo. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., caps. de enfermedad ulcerosa péptica y reflujo gastroesofágico"
+  },
+  {
+    "id": "DIG-metoclopramida",
+    "nombre": "Metoclopramida",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Antiemético",
+    "subclase": "Antagonista dopaminérgico D2 con acción procinética colinérgica",
+    "vs_clase": [
+      "**Atraviesa la barrera hematoencefálica**: **distonías agudas** (jóvenes), acatisia, parkinsonismo y **discinesia tardía** (por eso máximo 5 días). La domperidona no las produce.",
+      "**Procinético real** (acción colinérgica): útil en gastroparesia y como facilitador del vaciamiento antes de una endoscopia por hemorragia.",
+      "**Contraindicada en la enfermedad de Parkinson** y en <1 año."
+    ],
+    "mecanismo": "Bloquea los receptores D2 de la ZONA GATILLO QUIMIORRECEPTORA del área postrema (efecto antiemético central) y los del plexo mientérico, donde la dopamina inhibe la liberación de acetilcolina: al bloquearla, aumenta la actividad colinérgica y con ella el tono del esfínter esofágico inferior, la amplitud de las contracciones antrales y el VACIAMIENTO GÁSTRICO (efecto procinético). A dosis altas antagoniza también receptores 5-HT3. El bloqueo D2 en la vía nigroestriada es el que produce sus efectos extrapiramidales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Náuseas y vómitos de causa diversa (postoperatorios, farmacológicos, gastroenteritis del adulto)",
+        "dosis": "10 mg/8 h (máximo 30 mg/día)",
+        "posologia": "Cada 8 h, hasta un máximo de 5 días",
+        "via": "VO, IV o IM",
+        "nota": "La duración está LIMITADA a 5 días por el riesgo de efectos extrapiramidales"
+      },
+      {
+        "patologia": "Gastroparesia diabética",
+        "dosis": "10 mg antes de las comidas y al acostarse",
+        "posologia": "Antes de cada comida",
+        "via": "VO",
+        "nota": "Es la indicación clásica del efecto procinético, pero la limitación de duración obliga a ciclos y a valorar alternativas"
+      },
+      {
+        "patologia": "Náuseas y vómitos inducidos por quimioterapia (esquemas de bajo potencial emetógeno)",
+        "dosis": "10-20 mg/6-8 h",
+        "posologia": "Cada 6-8 h",
+        "via": "VO o IV",
+        "nota": "En quimioterapia altamente emetógena se prefieren los antagonistas 5-HT3 y los antagonistas de NK1"
+      },
+      {
+        "patologia": "Facilitación de la intubación intestinal y de estudios radiológicos digestivos",
+        "dosis": "10-20 mg en dosis única",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Acelera el tránsito y mejora la calidad del estudio"
+      },
+      {
+        "patologia": "Crisis de migraña con náuseas",
+        "dosis": "10 mg IV junto al analgésico",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Además de controlar el vómito, mejora la absorción del analgésico oral al corregir la gastroparesia de la crisis"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg por la vía disponible; en el vómito activo se prefiere la vía parenteral.",
+      "titulacion": "No se titula. Se emplea la menor dosis eficaz.",
+      "duracion": "MÁXIMO 5 DÍAS. Esta limitación, establecida por las agencias reguladoras, es una de las restricciones de duración más concretas de la farmacología clínica.",
+      "fin": "Suspensión sin descenso progresivo.",
+      "via": "VO, IV (lentamente, en 3 minutos, para evitar acatisia) o IM.",
+      "monitorizacion": "Vigilar la aparición de síntomas extrapiramidales, sobre todo en jóvenes y en las primeras 48 h. En uso prolongado (que debe evitarse), vigilar discinesia tardía."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida y buena por vía oral.",
+      "distribucion": "ATRAVIESA la barrera hematoencefálica, y esa es la diferencia esencial con la domperidona, que apenas lo hace: por eso la metoclopramida da efectos extrapiramidales y la domperidona, en cambio, prolonga el QT.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal, en proporción importante inalterada.",
+      "vida_media": "5-6 h; se prolonga en la insuficiencia renal, lo que aumenta el riesgo de efectos extrapiramidales.",
+      "ajuste_renal": "REDUCIR la dosis a la mitad con FG por debajo de 60 y a un cuarto por debajo de 15. La falta de ajuste renal es una causa frecuente de distonía aguda.",
+      "ajuste_hepatico": "Reducir la dosis en la insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "ANTIPSICÓTICOS (haloperidol, risperidona) y otros antidopaminérgicos",
+          "efecto": "Suma de bloqueo D2 con riesgo elevado de reacción extrapiramidal y de síndrome neuroléptico maligno",
+          "gravedad": "alta",
+          "manejo": "Evitar la asociación"
+        },
+        {
+          "con": "LEVODOPA y agonistas dopaminérgicos",
+          "efecto": "ANTAGONISMO mutuo: empeora el parkinsonismo y reduce la eficacia del tratamiento antiparkinsoniano",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA en el paciente con enfermedad de Parkinson; usar domperidona u ondansetrón"
+        },
+        {
+          "con": "ISRS y otros serotoninérgicos",
+          "efecto": "Riesgo de síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Vigilancia clínica"
+        },
+        {
+          "con": "Digoxina, ciclosporina, paracetamol, levodopa (por el vaciamiento gástrico)",
+          "efecto": "Modifica la velocidad de absorción: la acelera para los fármacos que se absorben en intestino y la reduce para los de absorción gástrica",
+          "gravedad": "baja",
+          "manejo": "Vigilar el efecto clínico si el margen terapéutico es estrecho"
+        },
+        {
+          "con": "Anticolinérgicos y opioides",
+          "efecto": "Antagonizan su efecto procinético",
+          "gravedad": "media",
+          "manejo": "El efecto procinético será menor; considerarlo al valorar el fracaso terapéutico"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia y astenia",
+        "ACATISIA: inquietud motora intensa, muy angustiosa y a menudo confundida con ansiedad",
+        "Diarrea",
+        "Cefalea"
+      ],
+      "graves": [
+        "DISTONÍA AGUDA: crisis oculógiras, tortícolis, trismo y protrusión lingual, sobre todo en NIÑOS y ADULTOS JÓVENES, en las primeras 48 h. Muy alarmante pero reversible",
+        "PARKINSONISMO farmacológico, sobre todo en el anciano",
+        "DISCINESIA TARDÍA con el uso prolongado, potencialmente IRREVERSIBLE: es la razón de la limitación a 5 días",
+        "Síndrome neuroléptico maligno",
+        "Hiperprolactinemia con galactorrea, ginecomastia y amenorrea",
+        "Metahemoglobinemia en el neonato"
+      ]
+    },
+    "contraindicaciones": [
+      "ENFERMEDAD DE PARKINSON",
+      "Antecedente de discinesia tardía o de reacción extrapiramidal a antidopaminérgicos",
+      "Obstrucción, perforación o hemorragia digestiva (un procinético en una obstrucción es peligroso)",
+      "Feocromocitoma (puede desencadenar crisis hipertensiva)",
+      "Epilepsia no controlada",
+      "Menores de 1 año"
+    ],
+    "perlas": [
+      "La DISTONÍA AGUDA es la reacción que hay que saber reconocer y tratar: un joven que acude con tortícolis, crisis oculógira y protrusión lingual tras un antiemético no está teniendo una crisis conversiva ni una convulsión. El tratamiento es BIPERIDENO intramuscular o intravenoso, con respuesta espectacular en minutos.",
+      "La ACATISIA se confunde sistemáticamente con ansiedad, y el error tiene consecuencias: si se interpreta como ansiedad, se administra otra dosis del mismo antiemético y se agrava el cuadro. Es una inquietud motora que el paciente describe como imposibilidad de estarse quieto.",
+      "La limitación a 5 DÍAS de tratamiento es una de las restricciones de duración más concretas y peor recordadas de la farmacología: obedece al riesgo de DISCINESIA TARDÍA, que puede ser irreversible.",
+      "La diferencia entre metoclopramida y DOMPERIDONA se resume en una frase: la domperidona no atraviesa la barrera hematoencefálica. Por eso no da extrapiramidalismos y es la opción en el paciente parkinsoniano, pero a cambio prolonga el QT y tiene su propia limitación de uso.",
+      "En la ENFERMEDAD DE PARKINSON está contraindicada: bloquea precisamente los receptores que se intenta estimular con la levodopa y puede provocar un deterioro motor grave. Es un error de prescripción frecuente en urgencias.",
+      "En la crisis de MIGRAÑA hace un doble trabajo: controla el vómito y corrige la gastroparesia que impide absorber el analgésico oral, mejorando la eficacia de este.",
+      "El ajuste RENAL es obligatorio y se olvida con frecuencia: en el anciano con filtrado reducido, la dosis estándar de 10 mg/8 h puede acumularse y desencadenar parkinsonismo farmacológico que se confunde con una enfermedad de Parkinson de novo."
+    ],
+    "embarazo_lactancia": "Es uno de los antieméticos con más experiencia en el embarazo y se considera seguro, incluida la hiperémesis gravídica. Compatible con la lactancia a corto plazo, aunque puede aumentar la prolactina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de náuseas, vómitos e indigestión"
+  },
+  {
+    "id": "DIG-ondansetron",
+    "nombre": "Ondansetrón",
+    "sinonimos": [
+      "Granisetrón, palonosetrón (misma clase)"
+    ],
+    "area": "DIG",
+    "nivel": 1,
+    "clase": "Antiemético",
+    "subclase": "Antagonista de los receptores 5-HT3 (setrón)",
+    "vs_clase": [
+      "**Antagonista 5-HT3: de elección en las náuseas por QUIMIOTERAPIA, posoperatorias y en la GASTROENTERITIS pediátrica**.",
+      "**Sin efectos extrapiramidales** (no bloquea D2).",
+      "**Prolonga el QT** (máximo 16 mg IV por dosis) y causa **estreñimiento**.",
+      "**No es útil en el vértigo ni en la cinetosis.**"
+    ],
+    "mecanismo": "Bloquea los receptores de SEROTONINA 5-HT3 en dos localizaciones complementarias: los terminales VAGALES AFERENTES del intestino y la ZONA GATILLO QUIMIORRECEPTORA del área postrema. La quimioterapia y la radioterapia dañan las células enterocromafines intestinales, que liberan grandes cantidades de serotonina; esta estimula el vago y desencadena el vómito. Bloquear ese primer eslabón es lo que hace a los setrones tan superiores en el vómito de origen intestinal. NO actúan sobre receptores dopaminérgicos, y de ahí que no produzcan efectos extrapiramidales.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Náuseas y vómitos inducidos por quimioterapia o radioterapia",
+        "dosis": "8 mg antes de la quimioterapia y 8 mg/12 h durante 1-2 días",
+        "posologia": "Cada 12 h",
+        "via": "VO o IV",
+        "nota": "En esquemas altamente emetógenos se combina con dexametasona y con un antagonista de NK1 (aprepitant)"
+      },
+      {
+        "patologia": "Náuseas y vómitos postoperatorios: prevención y tratamiento",
+        "dosis": "4 mg IV al final de la cirugía",
+        "posologia": "Dosis única",
+        "via": "IV",
+        "nota": "Antiemético de elección en este contexto por su eficacia y su ausencia de sedación"
+      },
+      {
+        "patologia": "Gastroenteritis aguda del niño con vómitos que impiden la rehidratación oral",
+        "dosis": "Dosis ÚNICA de 0,15 mg/kg (2 mg si pesa 8-15 kg, 4 mg si 15-30 kg, 8 mg si más de 30 kg)",
+        "posologia": "Dosis única",
+        "via": "VO (liofilizado oral)",
+        "nota": "Una sola dosis facilita la tolerancia oral y evita muchas canalizaciones e ingresos; no se pauta de forma repetida"
+      },
+      {
+        "patologia": "Hiperémesis gravídica refractaria",
+        "dosis": "4-8 mg/8 h",
+        "posologia": "Cada 8 h",
+        "via": "VO o IV",
+        "nota": "Segunda línea, tras doxilamina con piridoxina y metoclopramida, por la señal de riesgo malformativo en el primer trimestre"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única antes del estímulo emetógeno (quimioterapia, fin de la cirugía) o al inicio del vómito.",
+      "titulacion": "No se titula. La dosis intravenosa única máxima recomendada es de 16 mg por el riesgo de prolongación del QT.",
+      "duracion": "1-3 días en la quimioterapia; dosis única en el postoperatorio y en la gastroenteritis del niño.",
+      "fin": "Suspensión directa. Si tras 2-3 días persisten los vómitos, hay que replantear el diagnóstico en lugar de prolongar el antiemético.",
+      "via": "VO (comprimido o liofilizado bucodispersable, útil cuando el paciente no retiene nada), IV lenta o IM.",
+      "monitorizacion": "ECG con medición del QT en pacientes con factores de riesgo: cardiopatía, alteraciones electrolíticas u otros fármacos que prolongan el QT. Vigilar el estreñimiento en tratamientos repetidos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, con biodisponibilidad del 60% por efecto de primer paso.",
+      "distribucion": "Amplia; unión moderada a proteínas.",
+      "metabolismo": "Hepático por CYP3A4, CYP2D6 y CYP1A2. La redundancia de vías hace que ningún inhibidor aislado altere mucho su exposición.",
+      "eliminacion": "Renal y biliar como metabolitos.",
+      "vida_media": "3-5 h, más prolongada en el anciano y en la hepatopatía.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "En la insuficiencia hepática GRAVE, no superar 8 mg al día: su aclaramiento cae de forma marcada.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT: amiodarona, sotalol, haloperidol, quinolonas, macrólidos, antidepresivos",
+          "efecto": "Prolongación aditiva del QT con riesgo de TORSADE DE POINTES",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación o monitorizar el ECG; corregir potasio y magnesio"
+        },
+        {
+          "con": "ISRS, IMAO, tramadol, triptanes",
+          "efecto": "Riesgo de SÍNDROME SEROTONINÉRGICO",
+          "gravedad": "media",
+          "manejo": "Vigilar agitación, clonus, hiperreflexia e hipertermia"
+        },
+        {
+          "con": "TRAMADOL",
+          "efecto": "Además del riesgo serotoninérgico, REDUCE el efecto analgésico del tramadol (que necesita la vía serotoninérgica)",
+          "gravedad": "media",
+          "manejo": "Considerar otro analgésico o esperar mayor requerimiento de dosis"
+        },
+        {
+          "con": "Rifampicina, fenitoína, carbamazepina",
+          "efecto": "Inducen su metabolismo y reducen su eficacia",
+          "gravedad": "baja",
+          "manejo": "Puede requerir dosis mayores"
+        },
+        {
+          "con": "Apomorfina",
+          "efecto": "Hipotensión grave y pérdida de conciencia",
+          "gravedad": "alta",
+          "manejo": "Combinación CONTRAINDICADA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "ESTREÑIMIENTO (el efecto adverso más frecuente y muy relevante en el paciente oncológico, que ya suele tomar opioides)",
+        "Cefalea",
+        "Sofocos y sensación de calor con la administración intravenosa",
+        "Elevación transitoria de transaminasas"
+      ],
+      "graves": [
+        "PROLONGACIÓN DEL QT y torsade de pointes, dosis-dependiente y máxima con la vía intravenosa rápida",
+        "Síndrome serotoninérgico en combinación con otros fármacos serotoninérgicos",
+        "Reacciones de hipersensibilidad, incluida anafilaxia",
+        "Isquemia miocárdica transitoria (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad a los setrones",
+      "Uso concomitante con APOMORFINA",
+      "Síndrome de QT largo congénito",
+      "Precaución en alteraciones electrolíticas no corregidas"
+    ],
+    "perlas": [
+      "Su gran ventaja frente a la metoclopramida es que NO produce efectos extrapiramidales, porque no toca los receptores dopaminérgicos. Eso lo convierte en el antiemético de elección en el paciente con enfermedad de Parkinson, en el joven y en quien ya ha tenido una distonía por antidopaminérgicos.",
+      "Su contrapartida es el QT: la dosis intravenosa única de 32 mg fue RETIRADA por este motivo, y hoy el máximo es 16 mg. En el paciente oncológico, que con frecuencia toma varios fármacos que prolongan el QT y tiene alteraciones electrolíticas, conviene revisar el ECG y corregir potasio y magnesio.",
+      "En la GASTROENTERITIS del niño, una DOSIS ÚNICA de liofilizado oral facilita la tolerancia a la rehidratación y evita canalizaciones e ingresos. La clave está en que es una sola dosis para romper el círculo del vómito, no una pauta: prolongarla favorece la diarrea.",
+      "El ESTREÑIMIENTO es el efecto adverso más frecuente y el más olvidado: en el paciente oncológico que además toma opioides puede llegar a la impactación fecal. Al pautar un setrón conviene pautar también un laxante.",
+      "La combinación con TRAMADOL es doblemente desfavorable: aumenta el riesgo serotoninérgico y además reduce la analgesia del tramadol, que depende en parte de la vía serotoninérgica.",
+      "El formato BUCODISPERSABLE resuelve un problema práctico específico: el paciente que vomita todo lo que traga puede tomar el liofilizado sin agua y retenerlo.",
+      "No es un buen antiemético para el vértigo ni para la cinetosis, cuyo mecanismo es histaminérgico y colinérgico: ahí corresponden antihistamínicos o escopolamina. Elegir el antiemético según el MECANISMO del vómito es lo que distingue una prescripción razonada de una automática."
+    ],
+    "embarazo_lactancia": "Existe una señal de posible aumento discreto de malformaciones (hendiduras orofaciales) con la exposición en el primer trimestre, por lo que se reserva como segunda línea tras doxilamina con piridoxina y metoclopramida. Compatible con la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de náuseas y vómitos"
+  }
+]

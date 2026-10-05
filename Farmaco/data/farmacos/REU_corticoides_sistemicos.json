@@ -1,0 +1,229 @@
+[
+  {
+    "id": "REU-dexametasona",
+    "nombre": "Dexametasona",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Glucocorticoide sistémico",
+    "subclase": "Acción prolongada, sin efecto mineralocorticoide",
+    "vs_clase": [
+      "**El glucocorticoide más POTENTE (25-30 veces la hidrocortisona; 0,75 mg ≈ 5 mg de prednisona) y de acción más LARGA (36-72 h).**",
+      "**Efecto mineralocorticoide NULO**: no retiene sodio. Por eso **no sirve para la insuficiencia suprarrenal** como sustituto aislado, pero **es de elección en el EDEMA CEREBRAL** (tumoral) y donde no se quiere retención hidrosalina.",
+      "**Indicaciones propias**: meningitis bacteriana (antes del antibiótico), laringitis/crup, COVID-19 con oxígeno, maduración pulmonar fetal, náuseas por quimioterapia, prueba de supresión con 1 mg.",
+      "**Por su larga acción, frena más el eje hipotálamo-hipófiso-suprarrenal**: no es adecuada para pautas crónicas a días alternos."
+    ],
+    "mecanismo": "Se une al receptor citosólico de glucocorticoides y modifica la transcripción génica: inhibe NF-κB y la síntesis de citocinas, prostaglandinas y leucotrienos, reduce la migración leucocitaria y la permeabilidad capilar. **Su estructura fluorada elimina el efecto mineralocorticoide y prolonga la vida media biológica.**",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Edema cerebral vasogénico (tumor cerebral, metástasis)",
+        "dosis": "10 mg de carga, después 4 mg",
+        "posologia": "Carga y luego cada 6 h",
+        "via": "IV / VO",
+        "nota": "Reducir a la mínima dosis eficaz; no útil en el edema citotóxico del ictus ni del TCE"
+      },
+      {
+        "patologia": "Meningitis bacteriana aguda (sospecha neumocócica)",
+        "dosis": "10 mg (0,15 mg/kg en niños)",
+        "posologia": "Cada 6 h durante 4 días",
+        "via": "IV",
+        "nota": "**Primera dosis 15-20 min antes o con la primera dosis de antibiótico**"
+      },
+      {
+        "patologia": "COVID-19 con necesidad de oxígeno",
+        "dosis": "6 mg",
+        "posologia": "Cada 24 h hasta 10 días",
+        "via": "VO / IV",
+        "nota": "No indicada en pacientes sin oxigenoterapia"
+      },
+      {
+        "patologia": "Maduración pulmonar fetal (24-34 semanas con riesgo de parto pretérmino)",
+        "dosis": "6 mg",
+        "posologia": "Cada 12 h, 4 dosis",
+        "via": "IM",
+        "nota": "Alternativa a betametasona 12 mg/24 h × 2"
+      },
+      {
+        "patologia": "Náuseas y vómitos por quimioterapia",
+        "dosis": "8-12 mg",
+        "posologia": "Día de la quimioterapia y 8 mg/24 h los 2-3 días siguientes",
+        "via": "IV / VO",
+        "nota": "Con setrón y antagonista NK1"
+      },
+      {
+        "patologia": "Prueba de supresión nocturna (cribado del síndrome de Cushing)",
+        "dosis": "1 mg",
+        "posologia": "Dosis única a las 23:00",
+        "via": "VO",
+        "nota": "Cortisol a las 8:00 <1,8 µg/dL descarta hipercortisolismo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis según indicación; en tratamientos de pocos días no requiere protección específica.",
+      "titulacion": "Reducir a la dosis mínima eficaz en cuanto sea posible (edema cerebral).",
+      "duracion": "Corta en la mayoría de indicaciones (1-10 días).",
+      "fin": "**Si se ha usado >2-3 semanas, retirada gradual** por supresión suprarrenal; pautas cortas se suspenden directamente.",
+      "via": "VO, IV, IM.",
+      "monitorizacion": "Glucemia (hiperglucemia frecuente), PA, estado mental; en uso prolongado, densitometría y protección ósea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 80-90%.",
+      "distribucion": "Atraviesa bien la barrera hematoencefálica y la placenta (de ahí su uso fetal).",
+      "metabolismo": "Hepático por CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "Plasmática 3-4 h; **biológica 36-72 h**.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa ajuste habitual.",
+      "interacciones": [
+        {
+          "con": "Inductores del CYP3A4 (fenitoína, carbamazepina, rifampicina)",
+          "efecto": "Reducen mucho su efecto (relevante en el edema cerebral tratado con fenitoína)",
+          "gravedad": "alta",
+          "manejo": "Aumentar la dosis o cambiar el antiepiléptico (levetiracetam)"
+        },
+        {
+          "con": "AINE",
+          "efecto": "Más úlcera y hemorragia digestiva",
+          "gravedad": "media",
+          "manejo": "IBP si se combinan"
+        },
+        {
+          "con": "Antidiabéticos e insulina",
+          "efecto": "Hiperglucemia",
+          "gravedad": "media",
+          "manejo": "Ajustar tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperglucemia",
+        "Insomnio, euforia, irritabilidad",
+        "Aumento del apetito",
+        "Dispepsia"
+      ],
+      "graves": [
+        "Psicosis esteroidea",
+        "Supresión del eje suprarrenal con insuficiencia suprarrenal al retirarla",
+        "Infecciones oportunistas (candidiasis, Pneumocystis en uso prolongado)",
+        "Miopatía esteroidea, hemorragia digestiva"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección sistémica no tratada (salvo indicaciones específicas como meningitis o COVID-19)",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "**Equivalencias**: 0,75 mg de dexametasona = 5 mg de prednisona = 4 mg de metilprednisolona = 20 mg de hidrocortisona.",
+      "**En la insuficiencia suprarrenal no sirve sola**: falta el efecto mineralocorticoide de la hidrocortisona.",
+      "En el edema cerebral tumoral mejora los síntomas en horas; en el TCE grave aumenta la mortalidad (CRASH)."
+    ],
+    "embarazo_lactancia": "Atraviesa la placenta sin inactivarse: útil para maduración fetal, pero evitar tratamientos maternos prolongados (se prefiere prednisona). Compatible con la lactancia a dosis moderadas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39; Harrison 20.ª ed., caps. de meningitis y de tumores del SNC"
+  },
+  {
+    "id": "REU-metilprednisolona",
+    "nombre": "Metilprednisolona",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "Glucocorticoide sistémico",
+    "subclase": "Acción intermedia, efecto mineralocorticoide mínimo, de uso parenteral",
+    "vs_clase": [
+      "**El glucocorticoide de los BOLOS («pulsos») IV de 250-1.000 mg/día** en brotes graves de enfermedades autoinmunes: lupus, vasculitis, esclerosis múltiple, rechazo de trasplante.",
+      "**Algo más potente que la prednisona (4 mg ≈ 5 mg de prednisona) y con menos efecto mineralocorticoide.**",
+      "**Forma IV de uso hospitalario más habitual** para la exacerbación de asma o EPOC cuando no hay vía oral.",
+      "**Es ya activa** (no necesita activación hepática, como la prednisona → prednisolona)."
+    ],
+    "mecanismo": "Agonista del receptor de glucocorticoides con efectos genómicos antiinflamatorios e inmunosupresores. **A dosis de pulso (≥250 mg) añade efectos no genómicos rápidos** sobre membranas y linfocitos, con una inmunosupresión intensa en horas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Brote grave de enfermedad autoinmune (nefritis lúpica, vasculitis ANCA, brote de esclerosis múltiple, rechazo agudo)",
+        "dosis": "500-1.000 mg",
+        "posologia": "Cada 24 h durante 3 días (pulsos)",
+        "via": "IV",
+        "nota": "Infusión en 30-60 min; después prednisona oral 0,5-1 mg/kg/día en pauta descendente"
+      },
+      {
+        "patologia": "Exacerbación de asma o EPOC sin vía oral disponible",
+        "dosis": "40 mg (EPOC) o 40-80 mg (asma)",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Pasar a prednisona 40 mg VO en cuanto sea posible; 5 días en total"
+      },
+      {
+        "patologia": "Infiltración intraarticular (artritis, bursitis)",
+        "dosis": "20-80 mg (acetato)",
+        "posologia": "Dosis única; no más de 3-4 al año en la misma articulación",
+        "via": "intraarticular",
+        "nota": "Descartar antes artritis séptica"
+      }
+    ],
+    "esquema": {
+      "inicio": "Pulsos: glucemia, PA, electrolitos y descartar infección activa. Profilaxis de Pneumocystis si se mantiene dosis alta prolongada con otros inmunosupresores.",
+      "titulacion": "Tras los pulsos, pauta descendente oral.",
+      "duracion": "Pulsos: 3 días. Exacerbaciones: 5 días.",
+      "fin": "Pauta corta (<2-3 semanas): suspensión directa. Larga: descenso gradual.",
+      "via": "IV, IM, intraarticular y VO.",
+      "monitorizacion": "Glucemia, PA, potasio, ritmo cardiaco durante pulsos, estado mental."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral del 80-90%.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático (CYP3A4).",
+      "eliminacion": "Renal.",
+      "vida_media": "Plasmática 2-3 h; biológica 12-36 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inhibidores del CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+          "efecto": "Aumentan sus niveles (Cushing iatrogénico)",
+          "gravedad": "media",
+          "manejo": "Valorar reducir dosis"
+        },
+        {
+          "con": "Diuréticos y anfotericina B",
+          "efecto": "Hipopotasemia",
+          "gravedad": "media",
+          "manejo": "Controlar potasio"
+        },
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección por la vacuna con dosis inmunosupresoras",
+          "gravedad": "alta",
+          "manejo": "Contraindicadas con ≥20 mg/día de prednisona-equivalente ≥2 semanas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hiperglucemia",
+        "Rubor, sabor metálico durante el pulso",
+        "Insomnio, alteración del ánimo",
+        "Retención hidrosalina leve"
+      ],
+      "graves": [
+        "**Arritmias y muerte súbita con pulsos infundidos demasiado rápido**",
+        "Psicosis esteroidea",
+        "Infecciones graves",
+        "Necrosis avascular de cabeza femoral",
+        "Hemorragia digestiva"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección sistémica no controlada",
+      "Vacunas vivas recientes con dosis inmunosupresoras"
+    ],
+    "perlas": [
+      "**Los pulsos se infunden en ≥30-60 min**: la infusión rápida de dosis altas se ha asociado a arritmias.",
+      "En la exacerbación de EPOC, 40 mg 5 días son tan eficaces como pautas largas (REDUCE)."
+    ],
+    "embarazo_lactancia": "Se inactiva parcialmente en la placenta; utilizable si es necesario. Compatible con la lactancia (esperar 4 h tras dosis altas).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 39; Harrison 20.ª ed., caps. de lupus y vasculitis"
+  }
+]

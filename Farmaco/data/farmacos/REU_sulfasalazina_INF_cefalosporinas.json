@@ -1,0 +1,273 @@
+[
+  {
+    "id": "REU-sulfasalazina",
+    "nombre": "Sulfasalazina",
+    "sinonimos": [
+      "Salazopirina"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "FAME sintético convencional (antirreumático modificador de la enfermedad)",
+    "subclase": "Profármaco escindido por la flora colónica en sulfapiridina y mesalazina",
+    "vs_clase": [
+      "**El FAME utilizable en el EMBARAZO** (con ácido fólico) y útil en la **espondiloartritis periférica** y la colitis ulcerosa.",
+      "**Oligospermia reversible** en varones y coloración naranja de orina y lentillas.",
+      "**Agranulocitosis y hepatotoxicidad** en los primeros meses (control analítico); contraindicada en alergia a sulfamidas y déficit de G6PD."
+    ],
+    "mecanismo": "Es un profármaco que une por un enlace AZO dos moléculas: la SULFAPIRIDINA (una sulfamida) y el ÁCIDO 5-AMINOSALICÍLICO o mesalazina. Ese enlace resiste el estómago y el intestino delgado y solo lo rompen las AZORREDUCTASAS de la FLORA COLÓNICA, de modo que el fármaco llega intacto al colon y allí libera sus dos componentes. La lógica de todo su comportamiento clínico se deduce de esa escisión: la MESALAZINA se queda actuando LOCALMENTE en la mucosa colónica (inhibe la ciclooxigenasa, la lipooxigenasa y el NF-kB) y apenas se absorbe, y es la responsable del efecto en la colitis ulcerosa; la SULFAPIRIDINA sí SE ABSORBE, pasa a la circulación y es la responsable tanto del efecto ANTIRREUMÁTICO sistémico como de casi TODOS los efectos adversos. De ahí que en la enfermedad inflamatoria intestinal se prefiera hoy la mesalazina sola, que evita la mitad tóxica de la molécula.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "ARTRITIS REUMATOIDE, sola o en terapia combinada",
+        "dosis": "500 mg al día con ascenso semanal hasta 2-3 g al día repartidos en 2 tomas",
+        "posologia": "Dos tomas al día con las comidas",
+        "via": "VO",
+        "dosis_objetivo": "Remisión o baja actividad de la enfermedad, evaluada a los 3-6 meses",
+        "nota": "Forma parte de la TRIPLE TERAPIA clásica con metotrexato e hidroxicloroquina, una combinación barata y con eficacia comparable a la de algunos biológicos"
+      },
+      {
+        "patologia": "ARTRITIS PSORIÁSICA y espondiloartritis con afectación PERIFÉRICA",
+        "dosis": "2-3 g al día",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Solo funciona en la afectación PERIFÉRICA: en la enfermedad AXIAL es ineficaz, y ahí el tratamiento son los AINE y los biológicos"
+      },
+      {
+        "patologia": "COLITIS ULCEROSA leve-moderada",
+        "dosis": "2-4 g al día en el brote y 2 g al día en el mantenimiento",
+        "posologia": "Repartida en 2-4 tomas",
+        "via": "VO",
+        "nota": "Hoy se prefiere la MESALAZINA sola, que tiene la misma eficacia intestinal sin la toxicidad de la sulfapiridina. La sulfasalazina conserva su lugar cuando coexisten artritis y colitis"
+      },
+      {
+        "patologia": "Artritis idiopática juvenil poliarticular",
+        "dosis": "30-50 mg/kg/día, máximo 2 g",
+        "posologia": "Dos tomas al día",
+        "via": "VO",
+        "nota": "Alternativa al metotrexato en formas seleccionadas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma, transaminasas y función renal basales. Ascenso MUY LENTO (500 mg por semana) para reducir la intolerancia digestiva, que es la causa principal de abandono. Suplementar ÁCIDO FÓLICO.",
+      "titulacion": "Semanal hasta 2-3 g al día. El efecto antirreumático tarda de 6 a 12 SEMANAS en aparecer.",
+      "duracion": "Prolongada mientras mantenga eficacia.",
+      "fin": "Retirada gradual en remisión mantenida; suspensión inmediata ante citopenia, exantema o hepatitis.",
+      "via": "Oral con las comidas; existe formulación con cubierta entérica que mejora la tolerancia.",
+      "monitorizacion": "Hemograma y transaminasas cada 2 semanas los 3 primeros meses, después cada 3 meses. Vigilancia de exantema."
+    },
+    "farmacocinetica": {
+      "absorcion": "La molécula intacta apenas se absorbe (menos del 15%): llega al COLON, donde la flora rompe el enlace azo.",
+      "distribucion": "La sulfapiridina se absorbe y se distribuye por todo el organismo; la mesalazina permanece en la luz colónica.",
+      "metabolismo": "La sulfapiridina se ACETILA en el hígado. Los ACETILADORES LENTOS alcanzan concentraciones mayores y sufren más efectos adversos.",
+      "eliminacion": "Renal (sulfapiridina) y fecal (mesalazina).",
+      "vida_media": "Sulfapiridina 6-14 horas, más prolongada en los acetiladores lentos.",
+      "ajuste_renal": "Precaución; evitar en la insuficiencia renal significativa.",
+      "ajuste_hepatico": "Evitar en la hepatopatía.",
+      "interacciones": [
+        {
+          "con": "ÁCIDO FÓLICO",
+          "efecto": "La sulfasalazina INHIBE su absorción intestinal y produce anemia megaloblástica",
+          "gravedad": "alta",
+          "manejo": "Suplementar folato de forma sistemática, y con especial atención en la mujer en edad fértil"
+        },
+        {
+          "con": "DIGOXINA",
+          "efecto": "Reduce su absorción hasta un 25%",
+          "gravedad": "media",
+          "manejo": "Monitorizar la digoxinemia"
+        },
+        {
+          "con": "AZATIOPRINA y mercaptopurina",
+          "efecto": "Inhibe la TPMT y aumenta el riesgo de MIELOSUPRESIÓN",
+          "gravedad": "alta",
+          "manejo": "Combinación frecuente en la enfermedad inflamatoria intestinal: exige hemogramas más estrechos"
+        },
+        {
+          "con": "ANTIBIÓTICOS de amplio espectro",
+          "efecto": "Destruyen la flora colónica que ESCINDE el profármaco: pierde eficacia",
+          "gravedad": "media",
+          "manejo": "Interacción conceptualmente elegante y poco conocida: sin bacterias no hay fármaco activo"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Potencia el efecto anticoagulante por desplazamiento proteico",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, anorexia y dispepsia (dosis-dependientes y causa principal de abandono)",
+        "Cefalea y mareo",
+        "COLORACIÓN NARANJA-AMARILLENTA de la orina, la piel, el sudor y las LENTES DE CONTACTO blandas, que quedan teñidas de forma permanente",
+        "Exantema y prurito",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "AGRANULOCITOSIS y aplasia medular (raras pero potencialmente mortales, sobre todo en los 3 primeros meses)",
+        "Síndrome DRESS y síndrome de Stevens-Johnson",
+        "Hepatitis",
+        "OLIGOSPERMIA con INFERTILIDAD MASCULINA REVERSIBLE, que se recupera a los 2-3 meses de suspenderla",
+        "Anemia hemolítica en el déficit de G6PD",
+        "Neumonitis por hipersensibilidad",
+        "Anemia megaloblástica por déficit de folato"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a las SULFAMIDAS o a los salicilatos",
+      "Porfiria",
+      "Obstrucción intestinal o urinaria",
+      "Déficit de G6PD (relativa)",
+      "Insuficiencia hepática o renal grave"
+    ],
+    "perlas": [
+      "Toda su farmacología se entiende desde la ESCISIÓN por la flora del colon: la MESALAZINA se queda actuando localmente en el intestino y la SULFAPIRIDINA se absorbe y produce el efecto antirreumático y casi toda la toxicidad. Esa es la razón por la que en la colitis ulcerosa se prefiere hoy la mesalazina sola, y por la que en la artritis hace falta la molécula entera.",
+      "Un corolario poco conocido: los ANTIBIÓTICOS de amplio espectro destruyen la flora que escinde el profármaco y pueden hacerle perder eficacia. Es de los pocos fármacos que dependen del microbioma para activarse.",
+      "La INFERTILIDAD MASCULINA por oligospermia es reversible y se recupera a los 2-3 meses de suspenderla, pero hay que ADVERTIRLA a cualquier varón joven que planee tener hijos. No se pregunta casi nunca y es un motivo de estudio de esterilidad que se resuelve retirando un comprimido.",
+      "TIÑE de naranja la orina, el sudor y, de forma PERMANENTE, las LENTES DE CONTACTO BLANDAS. Es inofensivo pero sorprende, y avisarlo evita una consulta urgente y unas lentillas arruinadas.",
+      "En las espondiloartritis solo funciona en la afectación PERIFÉRICA. En la enfermedad AXIAL es ineficaz, y prescribirla ahí retrasa el acceso al tratamiento que sí funciona.",
+      "La TRIPLE TERAPIA clásica (metotrexato, sulfasalazina e hidroxicloroquina) tiene una eficacia comparable a la de algunos biológicos a una fracción del coste, y sigue siendo una opción muy razonable donde el acceso a los biológicos es limitado.",
+      "Hay que SUPLEMENTAR FOLATO: inhibe su absorción intestinal y produce anemia megaloblástica, algo especialmente relevante en la mujer en edad fértil por el riesgo de defectos del tubo neural.",
+      "Los ACETILADORES LENTOS acumulan sulfapiridina y sufren más efectos adversos: es la explicación farmacogenética de por qué unos pacientes la toleran sin problema y otros la abandonan en dos semanas.",
+      "El ascenso LENTO, de 500 mg por semana, es lo que decide si el paciente llega a la dosis terapéutica. Empezar directamente con 2 g garantiza el abandono por náuseas.",
+      "Es uno de los pocos antirreumáticos COMPATIBLES con el EMBARAZO, junto con la hidroxicloroquina y la azatioprina, lo que le da un lugar propio en la mujer joven con artritis que desea gestar."
+    ],
+    "embarazo_lactancia": "COMPATIBLE con el embarazo y una de las opciones preferentes en la artritis de la gestante, siempre con suplementación de ácido fólico a dosis altas. Compatible con la lactancia en el recién nacido a término y sano, evitándola en el prematuro y en el niño con hiperbilirrubinemia o déficit de G6PD.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 62; guías EULAR de artritis reumatoide"
+  },
+  {
+    "id": "INF-cefalosporinas-orales",
+    "nombre": "Cefalosporinas orales (cefuroxima axetilo, cefixima, cefditoreno, cefalexina)",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Betalactámico — cefalosporinas orales",
+    "subclase": "Betalactámicos de administración oral",
+    "mecanismo": "Se unen a las proteínas fijadoras de penicilina e inhiben la transpeptidación que entrecruza el peptidoglicano, con lo que la pared bacteriana pierde su resistencia y la célula se lisa: acción BACTERICIDA dependiente del TIEMPO por encima de la concentración mínima inhibitoria, y de ahí que lo que importe sea repartir bien las dosis y no dar picos altos. La progresión por generaciones sigue una regla que ordena toda la familia: al avanzar de la primera a la tercera generación se GANA cobertura de gramnegativos y se PIERDE actividad frente a grampositivos. La CEFALEXINA (primera generación) cubre bien estafilococo y estreptococo y sirve para la piel; la CEFUROXIMA (segunda) equilibra ambos y añade Haemophilus y Moraxella, lo que la hace idónea para la vía respiratoria; la CEFIXIMA (tercera) es potente frente a gramnegativos pero MALA frente a neumococo y estafilococo, y por eso no sirve para la neumonía ni para la piel. Ninguna cefalosporina cubre ENTEROCOCO ni SARM, y ninguna oral cubre Pseudomonas.",
+    "espectro": "CEFALEXINA: estreptococo, S. aureus sensible a meticilina, E. coli, Proteus. CEFUROXIMA: lo anterior más Haemophilus influenzae, Moraxella y mejor cobertura de neumococo. CEFIXIMA y CEFDITORENO: gramnegativos y, en el caso del cefditoreno, buena actividad frente a neumococo. NUNCA cubren: ENTEROCOCO, SARM, Listeria, Pseudomonas ni atípicas.",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía adquirida en la comunidad ambulatoria y exacerbación de EPOC",
+        "dosis": "Cefuroxima axetilo 500 mg cada 12 horas, o cefditoreno 200-400 mg cada 12 horas, durante 5-7 días",
+        "posologia": "Cada 12 horas CON alimento",
+        "via": "VO",
+        "dosis_objetivo": "Resolución clínica; asociar macrólido si se sospecha atípica",
+        "nota": "La CEFIXIMA NO sirve aquí: su actividad frente a NEUMOCOCO es insuficiente, y es un error de prescripción frecuente"
+      },
+      {
+        "patologia": "Otitis media aguda y sinusitis con alergia NO grave a penicilina",
+        "dosis": "Cefuroxima axetilo 250-500 mg cada 12 horas durante 5-7 días",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "La reactividad cruzada real con la penicilina es MUCHO menor de lo que se creía (en torno al 1-2%, no al 10%) y depende de la cadena lateral, no del anillo betalactámico"
+      },
+      {
+        "patologia": "INFECCIÓN URINARIA en la embarazada y pielonefritis no complicada",
+        "dosis": "Cefuroxima axetilo 250 mg cada 12 horas, o cefixima 400 mg al día, durante 7-10 días",
+        "posologia": "Cada 12 o 24 horas",
+        "via": "VO",
+        "nota": "Son de elección en la GESTANTE por su seguridad; y la cefixima sí es adecuada aquí, porque el problema son gramnegativos"
+      },
+      {
+        "patologia": "Infección de piel y partes blandas no complicada",
+        "dosis": "Cefalexina 500 mg cada 6-8 horas durante 7 días",
+        "posologia": "Cada 6-8 horas",
+        "via": "VO",
+        "nota": "Cubre estreptococo y S. aureus sensible a meticilina. Si se sospecha SARM (absceso, colonización previa), hay que elegir cotrimoxazol o doxiciclina"
+      },
+      {
+        "patologia": "Terapia secuencial tras tratamiento intravenoso",
+        "dosis": "Cefuroxima axetilo 500 mg cada 12 horas para completar el ciclo",
+        "posologia": "Cada 12 horas",
+        "via": "VO",
+        "nota": "El paso precoz de la vía intravenosa a la oral acorta el ingreso, reduce las complicaciones del catéter y no empeora los resultados en el paciente estable"
+      }
+    ],
+    "esquema": {
+      "inicio": "Precisar la ALERGIA declarada a penicilina antes de descartar toda la familia: la mayoría de las alergias declaradas no se confirman, y etiquetar a un paciente como alérgico le condena a antibióticos peores durante toda la vida.",
+      "titulacion": "Dosis fija por indicación.",
+      "duracion": "Cursos CORTOS: 5-7 días en la mayoría de las infecciones respiratorias, con evidencia sólida de que no son inferiores a los ciclos largos.",
+      "fin": "Al completar el ciclo previsto; no se prolonga por la persistencia de tos o de secreción, que son residuales.",
+      "via": "Oral. La CEFUROXIMA AXETILO y el CEFDITORENO deben tomarse CON ALIMENTO, que mejora mucho su absorción; es lo contrario de lo que se recomienda para la mayoría de los antibióticos orales.",
+      "monitorizacion": "Respuesta clínica a las 48-72 horas. Vigilar diarrea (Clostridioides difficile)."
+    },
+    "farmacocinetica": {
+      "absorcion": "La cefuroxima axetilo es un PROFÁRMACO ESTERIFICADO que necesita hidrólisis intestinal: su biodisponibilidad pasa del 35% en ayunas al 50-60% CON COMIDA. El cefditoreno también mejora notablemente con alimento.",
+      "distribucion": "Buena en tejidos blandos, vía respiratoria y orina. NO alcanzan el sistema nervioso central en concentraciones útiles.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "RENAL, predominantemente.",
+      "vida_media": "1-4 horas según el compuesto.",
+      "ajuste_renal": "OBLIGATORIO ajustar por filtrado glomerular: se eliminan por el riñón y su acumulación produce neurotoxicidad y convulsiones.",
+      "ajuste_hepatico": "Sin ajuste relevante.",
+      "interacciones": [
+        {
+          "con": "INHIBIDORES DE LA BOMBA DE PROTONES y antiácidos",
+          "efecto": "Reducen la absorción de la CEFUROXIMA y del cefditoreno, que necesitan medio ácido",
+          "gravedad": "alta",
+          "manejo": "Muy relevante porque muchos pacientes toman omeprazol de forma crónica: separar las tomas o elegir otro antibiótico"
+        },
+        {
+          "con": "Probenecid",
+          "efecto": "Bloquea su secreción tubular y eleva sus concentraciones",
+          "gravedad": "baja",
+          "manejo": "Interacción históricamente aprovechada para prolongar el efecto"
+        },
+        {
+          "con": "Anticoagulantes antivitamina K",
+          "efecto": "Elevación del INR por alteración de la flora productora de vitamina K",
+          "gravedad": "media",
+          "manejo": "Controlar el INR durante y después del ciclo"
+        },
+        {
+          "con": "Carnitina (cefditoreno)",
+          "efecto": "El cefditoreno pivoxilo depleta CARNITINA con el uso prolongado",
+          "gravedad": "media",
+          "manejo": "Evitar ciclos prolongados y en el paciente con déficit de carnitina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "DIARREA y molestias digestivas",
+        "Náuseas",
+        "Candidiasis vaginal",
+        "Exantema"
+      ],
+      "graves": [
+        "COLITIS por CLOSTRIDIOIDES DIFFICILE: las cefalosporinas son, junto con las quinolonas y la clindamicina, las que más la producen",
+        "Reacciones de hipersensibilidad, incluida la anafilaxia",
+        "Síndrome de Stevens-Johnson y DRESS",
+        "NEUROTOXICIDAD con convulsiones por acumulación en la insuficiencia renal sin ajuste",
+        "Anemia hemolítica inmune y test de Coombs positivo",
+        "Nefritis intersticial"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia previa a cefalosporinas",
+      "Anafilaxia previa a penicilina con cadena lateral compartida (valoración individualizada)",
+      "Precaución en la insuficiencia renal sin ajuste de dosis"
+    ],
+    "perlas": [
+      "La regla que ordena toda la familia: al subir de generación se GANA gramnegativo y se PIERDE grampositivo. De ahí se deduce sin memorizar que la cefalexina sirve para la piel, la cefuroxima para la vía respiratoria y la cefixima para la orina.",
+      "El error de prescripción más frecuente es usar CEFIXIMA para una NEUMONÍA: su actividad frente a NEUMOCOCO es insuficiente, y es precisamente el patógeno que hay que cubrir. Para la vía respiratoria, cefuroxima o cefditoreno.",
+      "Las cefalosporinas NO cubren ENTEROCOCO ni SARM. Es una laguna de clase, absoluta y sin excepciones entre las orales, y explica muchos fracasos en infecciones urinarias y de piel mal orientadas.",
+      "La CEFUROXIMA AXETILO se toma CON COMIDA: es un profármaco que necesita hidrólisis, y con alimento su biodisponibilidad casi se duplica. Es lo contrario de lo que se recomienda para la mayoría de los antibióticos orales, y por eso se incumple.",
+      "La ALERGIA CRUZADA con la penicilina es MUCHO menor de lo que se enseñó durante décadas: en torno al 1-2% y no al 10%, y depende de la CADENA LATERAL y no del anillo betalactámico. La etiqueta de alérgico a penicilina, casi siempre no confirmada, condena al paciente a antibióticos peores, más caros y con más efectos adversos durante toda su vida: merece la pena estudiarla.",
+      "Son de las que más COLITIS POR C. DIFFICILE producen, junto con las quinolonas y la clindamicina. Una diarrea que aparece durante o semanas después del ciclo obliga a pensar en ello.",
+      "El AJUSTE RENAL es obligatorio: la acumulación de betalactámicos produce neurotoxicidad con mioclonías y convulsiones, un cuadro que se atribuye a la infección o a la encefalopatía del anciano y que en realidad es del antibiótico.",
+      "Los ciclos CORTOS de 5-7 días son suficientes en la mayoría de las infecciones respiratorias, con evidencia sólida de no inferioridad. Prolongarlos no cura mejor: selecciona resistencias y aumenta el riesgo de C. difficile.",
+      "El OMEPRAZOL, que toma medio mundo de forma crónica, reduce la absorción de las cefalosporinas orales que necesitan medio ácido. Es una causa silenciosa de fracaso terapéutico."
+    ],
+    "embarazo_lactancia": "Los betalactámicos son de los antibióticos más seguros del embarazo y las cefalosporinas son de PRIMERA ELECCIÓN en la infección urinaria de la gestante. Compatibles con la lactancia.",
+    "micro_relacionado": [
+      "BGN-escherichia-coli",
+      "BGN-haemophilus-influenzae",
+      "BGN-moraxella-catarrhalis",
+      "BGP-streptococcus-pneumoniae",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 43; guías de uso de antimicrobianos en atención primaria"
+  }
+]

@@ -1,0 +1,134 @@
+## 0. CABEÇALHO
+
+**Código:** CAR-08 · **Especialidade:** Cardiologia · **Tema:** Insuficiência cardíaca e arritmias · **Assunto:** ICC descompensada com fibrilação atrial - controle de frequência e anticoagulação · **Tier:** A · **Nº de questões históricas do INEP sobre o assunto:** 1 (2013.1-Q42) — amostra parcial de 1/18 edição já classificada; número real de questões no banco completo é maior · **Tempo estimado de estudo:** 110 min · **Pré-requisitos:** [[CAR-03]], [[CAR-06]] · **Data de geração:** 2026-07-30
+
+---
+
+## 1. TEORIA
+
+A combinação de **insuficiência cardíaca descompensada** com **fibrilação atrial de início recente** exige uma conduta em duas frentes simultâneas — controle da frequência ventricular e anticoagulação — sem partir precipitadamente para reversão elétrica ou química da arritmia.
+
+**Conceitos centrais sobre ICC descompensada com FA:**
+- Paciente com **cardiopatia estrutural prévia conhecida** (FE 35%, câmaras aumentadas, hipertrofia concêntrica de VE, insuficiência tricúspide moderada) que descompensa (dispneia progressiva, ortopneia/DPN, edema, B3, turgência jugular) na vigência de **FA de início recente** (irregular em três tempos, com B3) — quadro clássico de **ICC descompensada com FA de início indeterminado/recente**.
+- **Controle de frequência** (não reversão do ritmo) é a conduta inicial apropriada em paciente com FA de duração indeterminada/desconhecida, especialmente com cardiopatia estrutural de base — **digoxina** é uma opção segura para controle de frequência em paciente com FE reduzida (ao contrário de betabloqueadores/bloqueadores de canal de cálcio, que podem ter efeito inotrópico negativo relevante em descompensação aguda).
+- **Anticoagulação** (heparina de baixo peso molecular) deve ser iniciada diante de FA de duração desconhecida/recente, pelo risco de formação de trombo atrial e embolização — não se deve tentar reversão (elétrica ou química) sem anticoagulação adequada ou sem excluir trombo atrial (ecocardiograma transesofágico), pelo risco de embolização no momento da reversão.
+- **Cardioversão elétrica imediata** e **reversão química imediata** (amiodarona) são conceitualmente inadequadas neste momento: a duração da FA é desconhecida, e reverter sem anticoagulação prévia adequada (ou sem excluir trombo atrial) expõe o paciente a risco significativo de acidente vascular cerebral embólico.
+
+⚠️ **PEGADINHA DO INEP central deste tema — em FA de duração desconhecida associada à ICC descompensada, a conduta inicial é CONTROLE DE FREQUÊNCIA + ANTICOAGULAÇÃO, não reversão (elétrica ou química) imediata da arritmia:** diante desse quadro (cardiopatia estrutural conhecida, FA de início recente/indeterminado, ICC descompensada), a conduta correta é **digoxina para controle de frequência + heparina de baixo peso molecular para anticoagulação** — não cardioversão elétrica imediata, nem reversão química com amiodarona sem anticoagulação prévia.
+
+**Por que não reverter a arritmia imediatamente:** sem saber há quanto tempo a FA está presente (pode ser > 48h), há risco real de trombo atrial já formado — reverter o ritmo (elétrica ou quimicamente) nesse cenário pode deslocar o trombo e causar embolização sistêmica (AVC, embolia periférica).
+
+### Referências
+1. Diretriz Brasileira de Fibrilação Atrial (Sociedade Brasileira de Cardiologia).
+2. American College of Cardiology/American Heart Association (ACC/AHA) — Guideline for Management of Atrial Fibrillation.
+
+---
+
+## 2. PRÁTICA CLÍNICA REAL
+
+**Como aparece no pronto-socorro real:** paciente com cardiopatia estrutural conhecida, descompensando com dispneia progressiva, edema e FA de início recente/indeterminado — o desafio prático é resistir à tentação de reverter a arritmia imediatamente, e em vez disso controlar a frequência e anticoagular.
+
+**Sequência prática de conduta:**
+1. Reconhecer a FA de duração desconhecida associada à descompensação da ICC.
+2. Controlar a frequência ventricular (digoxina, considerando a FE reduzida).
+3. Iniciar anticoagulação (heparina de baixo peso molecular).
+4. Tratar a descompensação da ICC (diuréticos, otimização volêmica) em paralelo.
+5. Considerar reversão do ritmo apenas após anticoagulação adequada ou exclusão de trombo atrial (ecocardiograma transesofágico).
+
+**Erros que médicos cometem de verdade:**
+- Tentar cardioversão elétrica ou química imediata em FA de duração desconhecida, sem anticoagulação prévia.
+- Não reconhecer a necessidade de anticoagulação em toda FA de início recente/indeterminado associada a cardiopatia estrutural.
+
+**O que dizer ao paciente:** explicar que a arritmia será controlada com medicação para diminuir a frequência cardíaca, e que será iniciado um anticoagulante para prevenir a formação de coágulos, antes de considerar tentar normalizar o ritmo cardíaco.
+
+**ESTAÇÃO PRÁTICA (2ª etapa):**
+- ✅ Reconhecer a necessidade de controle de frequência (não reversão) em FA de duração desconhecida.
+- ✅ Iniciar anticoagulação diante de FA associada a cardiopatia estrutural.
+- ✅ Não reverter o ritmo sem anticoagulação prévia ou exclusão de trombo atrial.
+
+---
+
+## 3. QUESTÕES DO INEP (banco histórico)
+
+📌 *Atualizado em 2026-09-30: este módulo cobre **todas as 16 edições já extraídas** do banco (2011.1–2025.2); gabaritos conferidos um a um contra os PDFs oficiais do INEP.*
+
+**[INEP 2013 · Edição 1 · Questão 42]**
+
+Homem com 64 anos de idade, portador de hipertensão arterial e diabetes há mais de 20 anos, procurou Serviço de Urgência com queixas de dispneia aos médios esforços, que progrediu para dispneia aos pequenos esforços, além de dispneia paroxística noturna, surgimento de edema de membros inferiores, mole, frio e ascendente e também palpitações, há cerca de dois dias. O paciente refere que havia interrompido o uso das medicações de uso crônico há 30 dias e consumido álcool e comida em excesso há três dias. Nega dor precordial. O exame físico mostrou paciente em regular estado geral, consciente e orientado, levemente taquipneico em repouso. Temperatura axilar = 36 ºC, pressão arterial = 135x75 mmHg, frequência cardíaca = 122 bpm, frequência respiratória = 22 irpm, glicemia capilar = 321 mg/dL. A ausculta cardíaca revelou bulhas normofonéticas, ritmo cardíaco irregular em três tempos, com presença de B3, com frequência cardíaca de 122 bpm, com sopro sistólico de regurgitação tricúspide. Turgência jugular a 45.º presente. A ausculta pulmonar evidenciou estertores crepitantes em bases. Nos membros inferiores havia edema 2+/4+, mole, frio e indolor. O paciente trazia ecocardiograma realizado há três meses com os seguintes achados: aumento das câmaras cardíacas, hipertrofia concêntrica de ventrículo esquerdo, insuficiência tricúspide moderada e fração de ejeção de 35%. O eletrocardiograma da admissão atual é reproduzido abaixo.
+
+*[eletrocardiograma não reproduzido — imagem ausente no texto extraído]*
+
+Com base nos dados apresentados, pode-se afirmar que:
+
+A) a arritmia do paciente se deve à descompensação da insuficiência cardíaca e não é necessário tratamento específico.
+B) a insuficiência cardíaca se deve a uma arritmia aguda e o paciente deve ser submetido à cardioversão elétrica imediata.
+C) o paciente deve ser submetido à anticoagulação com heparina e reversão química imediata da arritmia com amiodarona.
+D) o paciente deve receber digoxina para controle da frequência cardíaca e heparina de baixo peso molecular para anticoagulação.
+E) o paciente deve ser internado na Unidade de Terapia Intensiva e receber furosemida, morfina, ventilação não invasiva e dobutamina.
+
+**Gabarito oficial: D**
+
+**Por que D está correta:** o paciente tem cardiopatia estrutural conhecida (FE 35%, câmaras aumentadas) descompensando com FA de duração indeterminada — a conduta correta é controlar a frequência ventricular (digoxina, segura em FE reduzida) e anticoagular (heparina de baixo peso molecular), pelo risco de trombo atrial em FA de duração desconhecida.
+
+**Por que as demais estão erradas:**
+- A) A arritmia (FA) contribui para a descompensação e exige tratamento específico (controle de frequência + anticoagulação), não deve ser ignorada.
+- B) Cardioversão elétrica imediata sem anticoagulação prévia expõe o paciente a risco de embolização por trombo atrial, já que a duração da FA é desconhecida.
+- C) Reversão química imediata (amiodarona) tem o mesmo risco de embolização da cardioversão elétrica sem anticoagulação/exclusão de trombo prévia — associar heparina é correto, mas reverter quimicamente de imediato não é.
+- E) Embora o suporte para a descompensação da IC seja relevante, a alternativa não trata da arritmia (controle de frequência + anticoagulação), que é o cerne do que a questão pede.
+
+**O que a banca estava testando:** reconhecimento de que FA de duração desconhecida associada a descompensação de ICC deve ser tratada com controle de frequência (não reversão imediata) e anticoagulação, pelo risco de trombo atrial e embolização.
+
+---
+
+## 4. FLASHCARDS (Anki)
+
+```
+Qual a conduta correta diante de FA de duração desconhecida associada a ICC descompensada?	Controle de frequência (digoxina) + anticoagulação (heparina de baixo peso molecular) — não reversão imediata	Revalida::Cardiologia::InsuficienciaCardiacaArritmias::Conduta
+Por que não reverter (elétrica ou quimicamente) uma FA de duração desconhecida sem anticoagulação prévia?	Risco de trombo atrial já formado — a reversão pode causar embolização (AVC, embolia periférica)	Revalida::Cardiologia::InsuficienciaCardiacaArritmias::Conduta
+Digoxina é uma opção segura para controle de frequência em paciente com FE reduzida?	Sim — ao contrário de betabloqueadores/BCC, que podem ter efeito inotrópico negativo relevante na descompensação aguda	Revalida::Cardiologia::InsuficienciaCardiacaArritmias::Tratamento
+```
+
+---
+
+## 5. RESUMO DE FIXAÇÃO (1 página)
+
+🎯 **As 5 frases que resolvem a maioria das questões:**
+1. FA de duração desconhecida + ICC descompensada = controle de frequência + anticoagulação.
+2. Não reverter (elétrica ou quimicamente) sem anticoagulação prévia ou exclusão de trombo atrial.
+3. Digoxina é segura para controle de frequência em FE reduzida.
+4. Anticoagulação previne embolização de possível trombo atrial já formado.
+5. Reversão do ritmo é considerada só após anticoagulação adequada ou ecocardiograma transesofágico normal.
+
+📊 **Tabela-síntese**
+| Situação | Conduta |
+|---|---|
+| FA duração desconhecida + cardiopatia estrutural | Controle de frequência + anticoagulação |
+| FA < 48h confirmadas, estável | Reversão pode ser considerada mais precocemente |
+
+⚡ **Fluxograma textual:** ICC descompensada + FA de duração desconhecida → controle de frequência (digoxina) + anticoagulação (HBPM) → tratar descompensação → considerar reversão só após anticoagulação adequada.
+
+🚫 **Os 3 erros mais comuns:** (1) reverter a arritmia imediatamente sem anticoagulação; (2) ignorar a arritmia como parte do quadro; (3) usar betabloqueador/BCC sem considerar a FE reduzida.
+
+🔗 **Conexões com outros módulos:** [[CAR-03]] (Insuficiência cardíaca), [[CAR-06]] (Arritmias).
+
+<!-- METADADOS -->
+```json
+{
+  "codigo": "CAR-08",
+  "especialidade": "Cardiologia",
+  "tema": "Insuficiência cardíaca e arritmias",
+  "assunto": "ICC descompensada com fibrilação atrial - controle de frequência e anticoagulação",
+  "tier": "A",
+  "n_questoes": 1,
+  "n_flashcards": 3,
+  "tempo_estudo_min": 110,
+  "prerequisitos": ["CAR-03", "CAR-06"],
+  "relacionados": ["CAR-03", "CAR-06"],
+  "data_geracao": "2026-07-30",
+  "itens_a_verificar": [
+    "Início do enunciado cortado no arquivo fonte (faltava apresentação inicial do paciente) — verificar contra PDF original na auditoria final",
+    "Bleed de outra questão removido do final da alternativa E — verificar contra PDF original na auditoria final",
+    "Módulo com apenas 1 questão na amostra atual — prioridade para revisão quando mais edições forem classificadas"
+  ]
+}
+```

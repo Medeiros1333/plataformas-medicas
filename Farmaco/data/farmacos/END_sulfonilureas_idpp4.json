@@ -1,0 +1,245 @@
+[
+  {
+    "id": "END-sulfonilureas",
+    "nombre": "Sulfonilureas (gliclazida, glimepirida, glibenclamida) y repaglinida",
+    "sinonimos": [
+      "Secretagogos de insulina"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Sulfonilurea y glinida (secretagogo de insulina)",
+    "subclase": "Secretagogos que actúan sobre el canal de potasio dependiente de ATP",
+    "mecanismo": "Se unen al receptor SUR1 del canal de POTASIO DEPENDIENTE DE ATP de la célula beta pancreática y lo CIERRAN. Al cerrarse, la célula se despolariza, entra calcio y se libera INSULINA. La diferencia crucial con los secretagogos fisiológicos es que ese cierre ocurre CON INDEPENDENCIA DE LA GLUCEMIA: la insulina se secreta aunque el paciente esté en ayunas o hipoglucémico, y ahí reside el riesgo de HIPOGLUCEMIA, que es su gran problema y lo que las diferencia de la metformina, los iSGLT2 y los fármacos incretínicos, que solo actúan cuando hay glucosa. Al forzar la secreción también favorecen el aumento de peso. La REPAGLINIDA actúa sobre el mismo canal pero en un sitio distinto y con vida media muy corta, de modo que se toma antes de cada comida y produce menos hipoglucemia interprandial. Un dato práctico: la glibenclamida tiene metabolitos activos de eliminación renal y por eso es, con diferencia, la que más hipoglucemias graves causa en el anciano.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DIABETES TIPO 2 con hemoglobina glucosilada no controlada pese a metformina",
+        "dosis": "Gliclazida de liberación modificada 30-120 mg al día, o glimepirida 1-4 mg al día",
+        "posologia": "Una toma diaria con el desayuno",
+        "via": "VO",
+        "dosis_objetivo": "Hemoglobina glucosilada individualizada (7% en el adulto joven; 8-8,5% en el anciano frágil)",
+        "nota": "Se emplean cuando el coste importa o no hay acceso a fármacos con beneficio cardiovascular, que hoy son preferibles"
+      },
+      {
+        "patologia": "Diabetes tipo 2 con patrón de hiperglucemia POSPRANDIAL o con horarios de comida irregulares",
+        "dosis": "Repaglinida 0,5-4 mg antes de cada comida principal",
+        "posologia": "Antes de cada comida; SIN comida, NO se toma",
+        "via": "VO",
+        "nota": "La regla es sencilla y muy útil: una comida, una dosis; ninguna comida, ninguna dosis"
+      },
+      {
+        "patologia": "Diabetes MONOGÉNICA tipo MODY 3 (mutación HNF1A)",
+        "dosis": "Gliclazida 20-40 mg al día, muy inferior a la dosis habitual de la diabetes tipo 2",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Aquí son el tratamiento de ELECCIÓN y funcionan espectacularmente mejor que la insulina: identificar un MODY permite retirar la insulina a un paciente etiquetado de diabético tipo 1"
+      },
+      {
+        "patologia": "Diabetes NEONATAL por mutación del canal KATP",
+        "dosis": "Glibenclamida 0,2-1 mg/kg/día, muy superior a la dosis del adulto",
+        "posologia": "Diaria",
+        "via": "VO",
+        "nota": "Permite pasar de insulina a comprimidos en lactantes con diabetes neonatal: uno de los ejemplos más brillantes de medicina de precisión"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja, con el desayuno, y EDUCACIÓN sobre la hipoglucemia: cómo reconocerla y cómo tratarla, tanto para el paciente como para su familia.",
+      "titulacion": "Ascenso cada 2-4 semanas. En el anciano, empezar por la mitad y elegir gliclazida en lugar de glibenclamida.",
+      "duracion": "Prolongada, pero con pérdida progresiva de eficacia (fallo secundario) a medida que se agota la reserva de célula beta.",
+      "fin": "Se suspenden ante hipoglucemias repetidas, ayuno, enfermedad aguda o cirugía, y cuando se inicia insulina prandial.",
+      "via": "Oral.",
+      "monitorizacion": "Glucemia capilar, hemoglobina glucosilada, PESO y episodios de hipoglucemia, que hay que preguntar activamente porque el paciente no siempre los relaciona."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "Hepático por CYP2C9 (variabilidad genética relevante).",
+      "eliminacion": "Renal y biliar. La GLIBENCLAMIDA tiene metabolitos ACTIVOS de eliminación renal que se acumulan.",
+      "vida_media": "Gliclazida de liberación modificada, 12-20 horas; repaglinida, 1 hora.",
+      "ajuste_renal": "La GLIBENCLAMIDA está CONTRAINDICADA en la insuficiencia renal. La gliclazida y la repaglinida son las opciones más seguras. La repaglinida se puede usar incluso con filtrado bajo.",
+      "ajuste_hepatico": "Reducir la dosis; evitar en la insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "BETABLOQUEANTES",
+          "efecto": "ENMASCARAN los síntomas adrenérgicos de la hipoglucemia (temblor, palpitaciones), de modo que el paciente no la percibe hasta que aparece la neuroglucopenia",
+          "gravedad": "alta",
+          "manejo": "Combinación muy frecuente en el diabético cardiópata: hay que advertir de que la hipoglucemia se manifestará sobre todo por sudoración, que sí se conserva"
+        },
+        {
+          "con": "GEMFIBROZILO (con repaglinida)",
+          "efecto": "Multiplica sus concentraciones por 8 con hipoglucemia grave",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADA la combinación"
+        },
+        {
+          "con": "Cotrimoxazol, fluconazol, claritromicina, fibratos, AINE y warfarina",
+          "efecto": "Potencian el efecto hipoglucemiante por inhibición del CYP2C9 o por desplazamiento proteico",
+          "gravedad": "alta",
+          "manejo": "Vigilar la glucemia al añadir cualquiera de ellos"
+        },
+        {
+          "con": "ALCOHOL",
+          "efecto": "Hipoglucemia prolongada por inhibición de la gluconeogénesis; efecto antabús con algunas sulfonilureas",
+          "gravedad": "alta",
+          "manejo": "Advertir expresamente, sobre todo del consumo nocturno sin comida"
+        },
+        {
+          "con": "Corticoides, tiazidas y antipsicóticos atípicos",
+          "efecto": "Reducen su eficacia al elevar la glucemia",
+          "gravedad": "media",
+          "manejo": "Prever el ajuste al iniciar un ciclo de corticoides"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "HIPOGLUCEMIA, el efecto adverso definitorio",
+        "AUMENTO DE PESO de 2-4 kg",
+        "Molestias digestivas",
+        "Fallo secundario con pérdida de eficacia a lo largo de los años"
+      ],
+      "graves": [
+        "HIPOGLUCEMIA GRAVE y PROLONGADA, especialmente con glibenclamida en el anciano con deterioro renal: puede durar más de 24 horas y REAPARECER tras la corrección inicial, lo que obliga a OBSERVACIÓN HOSPITALARIA de al menos 24 horas",
+        "Hipoglucemias inadvertidas por pérdida de los síntomas de alarma",
+        "Reacciones cutáneas graves y discrasias sanguíneas (raras)",
+        "Hiponatremia por SIADH (clorpropamida, ya en desuso)",
+        "Colestasis"
+      ]
+    },
+    "contraindicaciones": [
+      "DIABETES TIPO 1 y cetoacidosis (no hay célula beta que estimular)",
+      "GLIBENCLAMIDA en la insuficiencia renal",
+      "Insuficiencia hepática grave",
+      "Embarazo (salvo gliburida en algunos protocolos de diabetes gestacional)",
+      "Alergia a sulfamidas (relativa)"
+    ],
+    "perlas": [
+      "La diferencia conceptual con los fármacos modernos está en una palabra: son GLUCOSA-INDEPENDIENTES. Fuerzan la secreción de insulina esté o no esté alta la glucemia, y por eso producen hipoglucemia, mientras que la metformina, los iSGLT2 y los incretínicos no la producen en monoterapia. Entendido esto, se entiende por qué han pasado a segunda fila.",
+      "La hipoglucemia por sulfonilurea es LARGA y RECURRE. A diferencia de la hipoglucemia por insulina rápida, puede reaparecer horas después de haberla corregido, y por eso un anciano con hipoglucemia por glibenclamida necesita OBSERVACIÓN de al menos 24 horas, no un vaso de zumo y el alta.",
+      "La GLIBENCLAMIDA es la que más hipoglucemias graves causa, por sus metabolitos activos de eliminación renal, y sigue prescribiéndose en ancianos con función renal deteriorada. Cambiarla por gliclazida es una de las intervenciones de deprescripción más rentables en atención primaria.",
+      "Los BETABLOQUEANTES enmascaran las señales de alarma: el diabético cardiópata no notará el temblor ni las palpitaciones y pasará directamente a la confusión. Lo que sí se conserva es la SUDORACIÓN, y conviene enseñárselo.",
+      "La regla de la REPAGLINIDA es limpia y fácil de explicar: una comida, una dosis; ninguna comida, ninguna dosis. Eso la hace muy útil en el paciente con horarios irregulares o que se salta comidas, que es precisamente quien más hipoglucemias sufre con una sulfonilurea de acción prolongada.",
+      "En el MODY 3 son el tratamiento de ELECCIÓN y funcionan mucho mejor que la insulina. Identificar un MODY en un paciente joven, delgado, con historia familiar de diabetes en varias generaciones y etiquetado de tipo 1 permite retirarle la insulina: es uno de los diagnósticos más agradecidos de la endocrinología.",
+      "Con el ALCOHOL nocturno y sin comida, la hipoglucemia puede ser grave y prolongada, y además se confunde con la embriaguez. Es una advertencia concreta que hay que dar, sobre todo a pacientes jóvenes.",
+      "Van perdiendo eficacia con los años (fallo secundario) porque dependen de que quede reserva de célula beta: no es un fallo de cumplimiento, es la historia natural de la enfermedad."
+    ],
+    "embarazo_lactancia": "En general no se recomiendan; la insulina es el tratamiento de elección de la diabetes en el embarazo, aunque la metformina y en algunos protocolos la gliburida se emplean en la diabetes gestacional. La glibenclamida atraviesa poco la placenta. Compatibles con la lactancia vigilando la glucemia del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD sobre manejo de la hiperglucemia en la diabetes tipo 2"
+  },
+  {
+    "id": "END-idpp4",
+    "nombre": "Inhibidores de la DPP-4 (sitagliptina, linagliptina, vildagliptina)",
+    "sinonimos": [
+      "Gliptinas"
+    ],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Inhibidor de la DPP-4 (gliptina)",
+    "subclase": "Inhibidores de la dipeptidil peptidasa 4",
+    "mecanismo": "Bloquean la DIPEPTIDIL PEPTIDASA 4, la enzima que degrada en pocos minutos las INCRETINAS endógenas (GLP-1 y GIP) liberadas por el intestino tras la comida. Al inhibirla, las incretinas propias duran más y ejercen su efecto: estimulan la secreción de insulina e inhiben la de glucagón, ambas cosas de forma DEPENDIENTE DE LA GLUCOSA. Esa dependencia de la glucosa es la clave de su perfil: cuando la glucemia baja, el estímulo desaparece, y por eso NO producen hipoglucemia en monoterapia. Como amplifican una señal fisiológica en lugar de forzarla, su potencia es MODESTA (bajan la hemoglobina glucosilada en torno a 0,5-0,8 puntos), y a cambio son extraordinariamente bien tolerados y neutros sobre el peso. Ese perfil (poca potencia, ninguna hipoglucemia, ningún efecto sobre el peso y muy buena tolerancia) define exactamente su lugar: el paciente ANCIANO y frágil.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "DIABETES TIPO 2 en el paciente ANCIANO o FRÁGIL",
+        "dosis": "Sitagliptina 100 mg al día o linagliptina 5 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Hemoglobina glucosilada de 7,5-8,5% en el anciano frágil, evitando por completo la hipoglucemia",
+        "nota": "Es su mejor indicación: en el anciano, evitar la hipoglucemia importa más que apurar la cifra de glucosilada"
+      },
+      {
+        "patologia": "Diabetes tipo 2 con INSUFICIENCIA RENAL avanzada",
+        "dosis": "LINAGLIPTINA 5 mg al día, SIN ajuste de dosis en ningún grado de insuficiencia renal, ni siquiera en diálisis",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "dosis_objetivo": "Control glucémico sin riesgo de acumulación",
+        "nota": "La linagliptina se elimina por vía BILIAR, no renal: es la única gliptina que no requiere ajuste, y eso la hace muy práctica en nefrología"
+      },
+      {
+        "patologia": "Diabetes tipo 2 en combinación con metformina",
+        "dosis": "Sitagliptina 100 mg al día asociada a metformina",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Combinación cómoda y bien tolerada, aunque hoy los iSGLT2 y los arGLP1 son preferibles cuando hay enfermedad cardiovascular o renal"
+      },
+      {
+        "patologia": "Paciente con intolerancia digestiva a otros antidiabéticos",
+        "dosis": "Sitagliptina 100 mg al día",
+        "posologia": "Una toma diaria",
+        "via": "VO",
+        "nota": "Es probablemente el antidiabético oral mejor tolerado del arsenal terapéutico"
+      }
+    ],
+    "esquema": {
+      "inicio": "Función renal basal para elegir la molécula y la dosis.",
+      "titulacion": "Dosis fija, sin titulación: otra de sus ventajas prácticas.",
+      "duracion": "Indefinida mientras aporte control.",
+      "fin": "Se suspenden si aparece pancreatitis o si se sustituyen por un fármaco con beneficio cardiovascular demostrado.",
+      "via": "Oral, con o sin alimentos.",
+      "monitorizacion": "Hemoglobina glucosilada, función renal y vigilancia de dolor abdominal (pancreatitis) y de artralgias."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral, sin efecto de la comida.",
+      "distribucion": "Amplia; la linagliptina tiene alta unión a proteínas.",
+      "metabolismo": "Escaso; la mayoría se eliminan sin metabolizar.",
+      "eliminacion": "RENAL para la mayoría; BILIAR para la LINAGLIPTINA, que es la excepción que la hace útil en la insuficiencia renal.",
+      "vida_media": "12-24 horas.",
+      "ajuste_renal": "Sitagliptina y vildagliptina requieren reducción de dosis según el filtrado. LINAGLIPTINA: sin ajuste en ningún grado.",
+      "ajuste_hepatico": "Precaución con la vildagliptina, que exige control de transaminasas.",
+      "interacciones": [
+        {
+          "con": "IECA y ARA-II",
+          "efecto": "Riesgo aumentado de ANGIOEDEMA (la DPP-4 degrada también la sustancia P y la bradicinina)",
+          "gravedad": "media",
+          "manejo": "Combinación muy frecuente en el diabético hipertenso: tenerlo presente ante un angioedema aparentemente atribuible al IECA"
+        },
+        {
+          "con": "Sulfonilureas e insulina",
+          "efecto": "HIPOGLUCEMIA (las gliptinas solas no la producen, pero potencian a los secretagogos)",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis de la sulfonilurea o de la insulina al añadirlas"
+        },
+        {
+          "con": "Rifampicina (linagliptina)",
+          "efecto": "Reduce su eficacia por inducción",
+          "gravedad": "media",
+          "manejo": "Valorar otra opción"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Infecciones respiratorias altas y nasofaringitis",
+        "Cefalea",
+        "ARTRALGIAS, a veces intensas y de instauración tardía",
+        "Molestias digestivas leves"
+      ],
+      "graves": [
+        "PANCREATITIS aguda (señal de seguridad de clase, con riesgo absoluto bajo)",
+        "ANGIOEDEMA, sobre todo asociado a IECA",
+        "PENFIGOIDE AMPOLLOSO, una asociación bien establecida y característica de esta clase",
+        "Hepatotoxicidad (vildagliptina)",
+        "Hospitalización por insuficiencia cardiaca (descrita con SAXAGLIPTINA en el ensayo SAVOR-TIMI, no con las demás)"
+      ]
+    },
+    "contraindicaciones": [
+      "Diabetes tipo 1 y cetoacidosis",
+      "Antecedente de pancreatitis (relativa)",
+      "SAXAGLIPTINA en la insuficiencia cardiaca",
+      "Hipersensibilidad conocida"
+    ],
+    "perlas": [
+      "Su perfil se resume en cuatro rasgos que apuntan todos al mismo paciente: potencia MODESTA, NINGUNA hipoglucemia, peso NEUTRO y tolerancia excelente. Ese es exactamente el perfil que necesita el ANCIANO FRÁGIL, en quien una hipoglucemia produce caídas, fracturas y hospitalización, y en quien apurar la hemoglobina glucosilada no aporta nada.",
+      "La LINAGLIPTINA se elimina por vía BILIAR y no requiere ajuste renal en ningún grado, ni siquiera en diálisis. Es un dato muy práctico: en el paciente con enfermedad renal crónica avanzada, donde casi todo hay que ajustar o retirar, es una opción que simplemente funciona.",
+      "NO producen hipoglucemia POR SÍ SOLAS, pero SÍ potencian a las sulfonilureas y a la insulina. Al añadirlas hay que bajar la dosis del secretagogo, y ese ajuste se olvida con frecuencia.",
+      "El PENFIGOIDE AMPOLLOSO es la asociación más característica y menos conocida: un anciano diabético que desarrolla ampollas tensas debe hacer sospechar la gliptina antes que cualquier otra causa, y suspenderla suele resolver el cuadro.",
+      "Aumentan el riesgo de ANGIOEDEMA junto con los IECA, porque la DPP-4 también degrada bradicinina y sustancia P. Ante un angioedema en un paciente que toma ambos, no basta con retirar el IECA.",
+      "Su gran desventaja hoy es lo que NO tienen: a diferencia de los iSGLT2 y los arGLP1, no han demostrado beneficio cardiovascular ni renal. En un diabético con enfermedad cardiovascular o renal establecida, elegir una gliptina es renunciar a un beneficio disponible.",
+      "La SAXAGLIPTINA se asoció a más hospitalizaciones por insuficiencia cardiaca, un hallazgo que NO se ha replicado con las demás gliptinas: es un efecto de molécula y no de clase, y conviene no extenderlo a toda la familia."
+    ],
+    "embarazo_lactancia": "No recomendadas en el embarazo por falta de datos; el tratamiento de la diabetes en la gestación es la insulina, y en algunos casos la metformina. No recomendadas en la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 41; guías ADA/EASD y documentos de consenso sobre diabetes en el anciano"
+  }
+]

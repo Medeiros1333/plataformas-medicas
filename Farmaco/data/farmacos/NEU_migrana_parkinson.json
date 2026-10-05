@@ -1,0 +1,255 @@
+[
+  {
+    "id": "NEU-sumatriptan",
+    "nombre": "Sumatriptán",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Triptán (agonista 5-HT1B/1D)",
+    "subclase": "Primer triptán; el único disponible por vía SC",
+    "vs_clase": [
+      "**El único triptán disponible por vía SUBCUTÁNEA (6 mg)**: el más rápido y eficaz, de elección en la **cefalea en racimos** y en la migraña con vómitos.",
+      "**El triptán con más experiencia en el EMBARAZO.**",
+      "Por VO, biodisponibilidad baja (15%) y vida media corta (recurrencia)."
+    ],
+    "mecanismo": "Agonista selectivo de los receptores 5-HT1B y 5-HT1D, con tres acciones convergentes: vasoconstricción de los vasos meníngeos dilatados (5-HT1B), inhibición de la liberación de péptidos vasoactivos (CGRP y sustancia P) en las terminaciones trigeminales (5-HT1D) y bloqueo de la transmisión nociceptiva en el núcleo caudal del trigémino. Es un tratamiento ESPECÍFICO de la migraña, no un analgésico: no sirve para otros dolores. La acción sobre el 5-HT1B, presente también en la vasculatura coronaria, es la que explica sus contraindicaciones cardiovasculares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis de migraña moderada-grave",
+        "dosis": "50-100 mg VO al inicio del dolor; repetible una vez a las 2 h (máximo 200 mg/día)",
+        "posologia": "A demanda al inicio de la crisis",
+        "via": "VO",
+        "nota": "La eficacia depende críticamente de la PRECOCIDAD: administrado cuando el dolor ya está establecido y hay alodinia, funciona mucho peor"
+      },
+      {
+        "patologia": "Crisis de migraña con vómitos o de instauración muy rápida",
+        "dosis": "6 mg SC, repetible a la hora (máximo 12 mg/día); o 10-20 mg intranasales",
+        "posologia": "A demanda",
+        "via": "SC o IN",
+        "nota": "La vía subcutánea es la más rápida y eficaz, y evita el problema de la gastroparesia de la crisis"
+      },
+      {
+        "patologia": "Cefalea en racimos (cluster)",
+        "dosis": "6 mg SC",
+        "posologia": "A demanda, máximo 2 dosis al día",
+        "via": "SC",
+        "nota": "Tratamiento de elección de la crisis junto con el OXÍGENO al 100% a alto flujo; la vía oral es demasiado lenta para un ataque que dura 45-90 minutos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis única en cuanto el paciente reconoce la crisis, idealmente en los primeros 20-30 minutos. Puede combinarse con un AINE y con metoclopramida.",
+      "titulacion": "No se titula. Si un triptán no funciona en 3 crisis distintas, se PRUEBA OTRO: la respuesta entre triptanes es individual y no intercambiable.",
+      "duracion": "Uso puntual. LÍMITE ESTRICTO: no más de 9-10 días al mes.",
+      "fin": "Si el paciente necesita triptanes más de 9 días al mes o AINE más de 15, hay dos problemas simultáneos: falta tratamiento PREVENTIVO y probablemente ya existe una CEFALEA POR ABUSO DE MEDICACIÓN.",
+      "via": "VO; SC o IN si hay vómitos, instauración rápida o cefalea en racimos.",
+      "monitorizacion": "CALENDARIO DE CEFALEAS con el número de días de dolor y de días de consumo al mes: es la herramienta clave y la que detecta el abuso antes de que se cronifique. Valoración del riesgo cardiovascular antes de la primera prescripción."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad oral baja (14%) por primer paso, y además ERRÁTICA durante la crisis por la gastroparesia que acompaña a la migraña. La vía subcutánea alcanza el 96% y actúa en 10-15 minutos.",
+      "distribucion": "Escasa penetración en el sistema nervioso central (el sumatriptán es el menos lipófilo de la clase).",
+      "metabolismo": "Por la MONOAMINOOXIDASA A, no por el citocromo P450: de ahí su interacción crítica con los IMAO.",
+      "eliminacion": "Renal como metabolito inactivo.",
+      "vida_media": "2 h, corta: por eso la RECURRENCIA de la cefalea a las horas es frecuente. El naratriptán y el frovatriptán, de vida media larga, son preferibles en las crisis prolongadas o en la migraña menstrual.",
+      "ajuste_renal": "Precaución en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Reducir la dosis (máximo 50 mg) en la insuficiencia hepática; contraindicado en la grave.",
+      "interacciones": [
+        {
+          "con": "IMAO (fenelzina, tranilcipromina, moclobemida)",
+          "efecto": "Bloquean su metabolismo por la MAO-A y elevan mucho sus concentraciones",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO durante el tratamiento y las 2 semanas siguientes a su retirada"
+        },
+        {
+          "con": "ERGOTAMINA y derivados ergóticos",
+          "efecto": "Vasoconstricción aditiva con riesgo de isquemia coronaria y periférica",
+          "gravedad": "alta",
+          "manejo": "Separar al menos 24 h entre uno y otro; no administrarlos en la misma crisis"
+        },
+        {
+          "con": "ISRS e IRSN",
+          "efecto": "Riesgo teórico de SÍNDROME SEROTONINÉRGICO",
+          "gravedad": "media",
+          "manejo": "La combinación es habitual y el riesgo real es BAJO; no está contraindicada, pero conviene informar de los síntomas de alarma"
+        },
+        {
+          "con": "Otros triptanes",
+          "efecto": "Vasoconstricción aditiva",
+          "gravedad": "media",
+          "manejo": "No combinar dos triptanes en la misma crisis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "SÍNDROME DEL TRIPTÁN: opresión o pesadez en el pecho, el cuello o la garganta, hormigueo y sensación de calor. Es benigno y NO es isquemia, pero alarma mucho al paciente",
+        "Somnolencia, mareo y astenia",
+        "Dolor y escozor en el punto de inyección subcutánea",
+        "Sabor amargo con la formulación intranasal"
+      ],
+      "graves": [
+        "ISQUEMIA MIOCÁRDICA, angina e infarto en pacientes con enfermedad coronaria",
+        "Ictus isquémico y vasoespasmo cerebral",
+        "Isquemia mesentérica y colitis isquémica (raras)",
+        "CEFALEA POR ABUSO DE MEDICACIÓN con el uso de más de 9-10 días al mes: paradójicamente, el tratamiento se convierte en la causa del dolor",
+        "Crisis hipertensiva"
+      ]
+    },
+    "contraindicaciones": [
+      "CARDIOPATÍA ISQUÉMICA, angina de Prinzmetal, infarto previo",
+      "ICTUS o accidente isquémico transitorio previo",
+      "ARTERIOPATÍA PERIFÉRICA",
+      "HIPERTENSIÓN ARTERIAL NO CONTROLADA",
+      "MIGRAÑA HEMIPLÉJICA, basilar o con aura de tronco",
+      "Uso de IMAO o de ergotamina en las 24 h previas",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "La PRECOCIDAD lo es todo: el triptán se toma en los primeros 20-30 minutos, cuando el paciente reconoce la crisis. Una vez instaurada la ALODINIA (que le duela el roce del pelo o de las gafas), la sensibilización central ya está establecida y el fármaco funciona mucho peor. Enseñar al paciente a tratarse pronto vale más que cambiar de triptán.",
+      "El SÍNDROME DEL TRIPTÁN (opresión torácica y cervical) es benigno y NO es isquemia coronaria, pero si no se advierte de antemano el paciente acude a urgencias convencido de tener un infarto y abandona el tratamiento. Anticiparlo evita las dos cosas.",
+      "La falta de respuesta a UN triptán no predice la respuesta a otro: hay que probar el mismo en 3 crisis distintas antes de darlo por ineficaz, y después cambiar de molécula. Es un fármaco con respuesta muy individual.",
+      "La regla de los 9-10 DÍAS AL MES es el límite que separa el tratamiento del problema: por encima aparece la CEFALEA POR ABUSO DE MEDICACIÓN, en la que el propio analgésico perpetúa el dolor. El paciente lo interpreta como empeoramiento de su migraña y consume más, cerrando el círculo. La solución es retirar el fármaco de abuso e iniciar tratamiento preventivo.",
+      "Necesitar triptanes con frecuencia no significa que haga falta un triptán mejor: significa que falta tratamiento PREVENTIVO (propranolol, topiramato, amitriptilina, candesartán o anticuerpos anti-CGRP).",
+      "En la CEFALEA EN RACIMOS la vía oral es inútil porque el ataque dura 45-90 minutos y alcanza su pico en minutos: hay que usar sumatriptán SUBCUTÁNEO u oxígeno al 100% a alto flujo con mascarilla con reservorio.",
+      "En la MIGRAÑA CON AURA los triptanes se administran cuando empieza el DOLOR, no durante el aura. Y en la migraña hemipléjica o basilar están contraindicados.",
+      "La vía SUBCUTÁNEA resuelve tres problemas a la vez: la gastroparesia de la crisis, los vómitos y la instauración rápida. Está infrautilizada."
+    ],
+    "embarazo_lactancia": "El sumatriptán es el triptán con más datos en el embarazo y no ha mostrado señal teratógena clara; se usa si el paracetamol es insuficiente. Compatible con la lactancia (se recomienda esperar unas horas tras la dosis).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 16; Harrison 20.ª ed., cap. de migraña y otras cefaleas primarias"
+  },
+  {
+    "id": "NEU-levodopa-carbidopa",
+    "nombre": "Levodopa/carbidopa",
+    "sinonimos": [
+      "Levodopa/benserazida"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antiparkinsoniano",
+    "subclase": "Precursor dopaminérgico con inhibidor periférico de la descarboxilasa",
+    "vs_clase": [
+      "**El antiparkinsoniano MÁS EFICAZ** sobre la motilidad y el de elección en el **anciano**.",
+      "**Complicaciones motoras con los años**: fluctuaciones (wearing-off, on-off) y **discinesias**.",
+      "**Absorción competida por las PROTEÍNAS de la dieta**; la carbidopa evita la conversión periférica (náuseas, hipotensión).",
+      "Su suspensión brusca puede provocar un síndrome tipo neuroléptico maligno."
+    ],
+    "mecanismo": "La DOPAMINA no atraviesa la barrera hematoencefálica; su precursor LEVODOPA sí lo hace mediante el transportador de aminoácidos neutros grandes, y una vez en el cerebro las neuronas nigroestriadas supervivientes la descarboxilan a dopamina. El problema es que si se administra sola, más del 95% se descarboxila en la periferia produciendo náuseas, vómitos e hipotensión, y apenas llega al cerebro. La CARBIDOPA es un inhibidor de la descarboxilasa que NO atraviesa la barrera: bloquea la conversión periférica sin tocar la central, multiplicando por 5-10 la levodopa disponible en el cerebro y eliminando la mayoría de los efectos periféricos. Es un ejemplo modélico de diseño farmacológico basado en la distribución.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Parkinson: tratamiento sintomático",
+        "dosis": "Inicio 50/12,5 mg (media pastilla de 100/25) 3 veces al día; mantenimiento 300-800 mg/día de levodopa repartidos",
+        "posologia": "3-5 tomas al día, 30-60 minutos ANTES de las comidas",
+        "via": "VO",
+        "nota": "Es el fármaco MÁS EFICAZ de todos los antiparkinsonianos; ninguno lo supera en control motor"
+      },
+      {
+        "patologia": "Parkinson avanzado con fluctuaciones motoras",
+        "dosis": "Misma dosis diaria total (300-800 mg de levodopa) fraccionada en tomas de 50-100 mg más frecuentes",
+        "posologia": "5-8 tomas al día",
+        "via": "VO",
+        "nota": "Se asocian inhibidores de la COMT (entacapona) o IMAO-B (rasagilina) para prolongar el efecto de cada dosis"
+      },
+      {
+        "patologia": "Parkinson muy avanzado con fluctuaciones incapacitantes",
+        "dosis": "Gel intestinal: dosis de carga matinal de 100-150 mg y perfusión de 40-120 mg/h durante 16 h",
+        "posologia": "Perfusión diurna continua",
+        "via": "Intestinal por gastrostomía",
+        "nota": "Mantiene concentraciones estables y suprime las fluctuaciones; alternativa a la estimulación cerebral profunda"
+      },
+      {
+        "patologia": "Test diagnóstico de respuesta a levodopa en el parkinsonismo dudoso",
+        "dosis": "200/50 mg en dosis única y valoración motora a la hora",
+        "posologia": "Dosis única",
+        "via": "VO",
+        "nota": "Una respuesta pobre y mantenida orienta a parkinsonismo ATÍPICO (parálisis supranuclear progresiva, atrofia multisistémica) más que a Parkinson idiopático"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja y ascenso lento para minimizar las náuseas. En el paciente joven suele retrasarse su inicio usando primero agonistas dopaminérgicos, aunque hoy se acepta empezar por levodopa cuando la discapacidad lo justifica.",
+      "titulacion": "Incrementos semanales según respuesta motora, buscando la MENOR dosis que dé una funcionalidad aceptable, no la abolición completa del temblor.",
+      "duracion": "De por vida.",
+      "fin": "NUNCA se retira de forma brusca: puede desencadenar un SÍNDROME NEUROLÉPTICO MALIGNO-LIKE (síndrome de hiperpirexia parkinsoniana) con rigidez, fiebre, rabdomiólisis y muerte. Esto incluye el paciente ingresado en ayunas o intubado, en el que hay que buscar una vía alternativa.",
+      "via": "VO, 30-60 minutos antes de las comidas y separada de las proteínas; en el paciente sin vía oral, por sonda nasogástrica.",
+      "monitorizacion": "Escala motora y de fluctuaciones, DIARIO de periodos on-off, tensión arterial en bipedestación (hipotensión ortostática), peso, control del impulso y síntomas psicóticos."
+    },
+    "farmacocinetica": {
+      "absorcion": "En el intestino DELGADO, mediante el transportador de AMINOÁCIDOS NEUTROS GRANDES, por el que COMPITE con las proteínas de la dieta: una comida rica en proteínas puede bloquear una dosis. El vaciamiento gástrico enlentecido (frecuente en el Parkinson) hace la absorción errática.",
+      "distribucion": "Atraviesa la barrera hematoencefálica por el mismo transportador, donde vuelve a competir con los aminoácidos.",
+      "metabolismo": "Descarboxilasa periférica (bloqueada por la carbidopa) y COMT, que la convierte en 3-O-metildopa: por eso la entacapona, inhibidora de la COMT, prolonga su efecto.",
+      "eliminacion": "Renal como metabolitos.",
+      "vida_media": "1,5-2 h, MUY CORTA: esa brevedad, junto con la pérdida progresiva de neuronas capaces de almacenar dopamina, es la causa de las fluctuaciones motoras del Parkinson avanzado.",
+      "ajuste_renal": "Precaución en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Precaución en la hepatopatía avanzada.",
+      "interacciones": [
+        {
+          "con": "ANTIPSICÓTICOS típicos y METOCLOPRAMIDA",
+          "efecto": "ANTAGONISMO dopaminérgico directo: anulan el efecto y empeoran gravemente el parkinsonismo",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADOS. Si se precisa antipsicótico, usar QUETIAPINA o CLOZAPINA; si se precisa antiemético, DOMPERIDONA u ondansetrón"
+        },
+        {
+          "con": "Proteínas de la dieta",
+          "efecto": "Compiten por el transportador intestinal y por el de la barrera hematoencefálica: bloquean el efecto de la dosis",
+          "gravedad": "alta",
+          "manejo": "Tomarla 30-60 minutos antes de las comidas; en el paciente avanzado, redistribuir las proteínas a la cena"
+        },
+        {
+          "con": "HIERRO oral y sulfato ferroso",
+          "efecto": "Quelación con reducción importante de la absorción",
+          "gravedad": "media",
+          "manejo": "Separar al menos 2 horas"
+        },
+        {
+          "con": "IMAO no selectivos",
+          "efecto": "CRISIS HIPERTENSIVA",
+          "gravedad": "alta",
+          "manejo": "Contraindicados. La rasagilina y la selegilina, selectivas de la MAO-B, sí pueden asociarse"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Hipotensión ortostática aditiva",
+          "gravedad": "media",
+          "manejo": "Revisar y a menudo reducir la medicación antihipertensiva del paciente parkinsoniano"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas y anorexia (mucho menores gracias a la carbidopa)",
+        "HIPOTENSIÓN ORTOSTÁTICA, con riesgo de caídas",
+        "Somnolencia diurna y sueños vívidos",
+        "Coloración oscura de la orina y del sudor (inocua, pero conviene advertirla)",
+        "DISCINESIAS con el tratamiento prolongado"
+      ],
+      "graves": [
+        "DISCINESIAS de pico de dosis y distonías de periodo off, que tras 5-10 años afectan a la mayoría de los pacientes",
+        "FLUCTUACIONES motoras: deterioro de fin de dosis y fenómeno on-off impredecible",
+        "ALUCINACIONES visuales y psicosis dopaminérgica, sobre todo en el anciano con deterioro cognitivo",
+        "TRASTORNOS DEL CONTROL DE LOS IMPULSOS: ludopatía, hipersexualidad, compras compulsivas, atracones (más frecuentes con agonistas dopaminérgicos, pero también con levodopa)",
+        "SÍNDROME DE HIPERPIREXIA PARKINSONIANA por retirada brusca: rigidez, fiebre, rabdomiólisis y fracaso renal",
+        "Ataques de sueño súbitos, con riesgo al conducir"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo estrecho no tratado",
+      "Melanoma activo o lesión cutánea sospechosa no filiada",
+      "Uso de IMAO no selectivos",
+      "Psicosis grave no controlada (contraindicación relativa)"
+    ],
+    "perlas": [
+      "La combinación con carbidopa es un ejemplo elegante de farmacología aplicada: un inhibidor que NO atraviesa la barrera hematoencefálica bloquea solo el metabolismo periférico, multiplicando por 5-10 lo que llega al cerebro y eliminando de paso las náuseas. Entender eso explica por qué la levodopa nunca se administra sola.",
+      "La COMPETICIÓN CON LAS PROTEÍNAS de la dieta es la causa más frecuente y más corregible de fallo de dosis: la levodopa usa el mismo transportador que los aminoácidos, tanto en el intestino como en la barrera hematoencefálica. Tomarla 30-60 minutos antes de comer, y redistribuir las proteínas hacia la cena en el paciente avanzado, puede mejorar el control sin tocar la dosis.",
+      "La lista de fármacos PROHIBIDOS en el paciente parkinsoniano hay que tenerla presente porque se prescriben a diario en urgencias: METOCLOPRAMIDA como antiemético y HALOPERIDOL como sedante pueden dejar a un paciente bloqueado durante días. Las alternativas son domperidona u ondansetrón, y quetiapina o clozapina.",
+      "NUNCA se retira de golpe, ni siquiera en el paciente ingresado en ayunas o intubado: la retirada brusca puede desencadenar un síndrome de hiperpirexia parkinsoniana potencialmente mortal. Hay que buscar la vía (sonda nasogástrica, parche de rotigotina) antes que omitir la dosis.",
+      "Hay que preguntar activamente por LUDOPATÍA, compras compulsivas e hipersexualidad, y preguntárselo también a la familia: el paciente rara vez lo relaciona con la medicación y las consecuencias económicas y familiares pueden ser devastadoras antes de que nadie lo detecte.",
+      "Las DISCINESIAS no significan exceso de dopamina sin más: reflejan la estimulación PULSÁTIL que resulta de una vida media de 2 h en un cerebro que ya no puede almacenar dopamina. Por eso el tratamiento del Parkinson avanzado busca estimulación CONTINUA (entacapona, perfusión intestinal, apomorfina subcutánea).",
+      "Una respuesta pobre y mantenida a la levodopa es un dato en contra del Parkinson idiopático y debe hacer pensar en un parkinsonismo ATÍPICO o farmacológico.",
+      "El objetivo del tratamiento es la FUNCIONALIDAD, no abolir el temblor: perseguir el temblor residual con más dosis es la vía rápida a las discinesias."
+    ],
+    "embarazo_lactancia": "Experiencia limitada; el Parkinson es infrecuente en edad fértil. Se usa solo si es imprescindible. Inhibe la prolactina y puede suprimir la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 28; Harrison 20.ª ed., cap. de enfermedad de Parkinson"
+  }
+]

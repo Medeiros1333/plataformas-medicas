@@ -1,0 +1,147 @@
+[
+  {
+    "id": "ANA-clostridium-botulinum",
+    "nombre": "Clostridium botulinum",
+    "grupo": "ANA",
+    "nivel": 2,
+    "clasificacion": "BACILO grampositivo ANAEROBIO estricto, ESPORULADO, ambiental (suelo y sedimentos); productor de la neurotoxina más potente conocida",
+    "morfologia_tincion": "Bacilos grampositivos grandes con esporas SUBTERMINALES que deforman el bacilo dándole aspecto de raqueta. En la práctica clínica no se busca por tinción: el diagnóstico es la detección de la TOXINA, no de la bacteria.",
+    "mecanismo_patogenia": [
+      "Produce la TOXINA BOTULÍNICA, una metaloproteasa de zinc y la sustancia biológica más potente que se conoce. Existen siete serotipos; los que enferman al ser humano son sobre todo A, B y E (este último asociado a productos marinos).",
+      "La toxina se une de forma IRREVERSIBLE a la terminación presináptica de la placa motora COLINÉRGICA y escinde las proteínas SNARE (SNAP-25, sinaptobrevina, sintaxina), impidiendo la fusión de la vesícula con la membrana y BLOQUEANDO la liberación de ACETILCOLINA.",
+      "El resultado es una parálisis FLÁCIDA, descendente y simétrica, con afectación también del sistema parasimpático (de ahí la sequedad de boca, el íleo, la retención urinaria y la midriasis).",
+      "La recuperación exige que crezcan terminaciones nerviosas NUEVAS, un proceso de semanas a meses: es el motivo de que la ventilación mecánica pueda prolongarse tanto tiempo.",
+      "Hay cuatro mecanismos de adquisición distintos y hay que diferenciarlos: ALIMENTARIO (ingesta de toxina ya formada en conservas caseras mal esterilizadas), del LACTANTE (ingesta de ESPORAS que germinan en el colon inmaduro y producen la toxina in situ), de las HERIDAS (esporas que germinan en tejido desvitalizado, clásico del consumo de heroína inyectada) e IATROGÉNICO (toxina con fines estéticos o terapéuticos).",
+      "El gen de la toxina, como en la difteria, está codificado por un BACTERIÓFAGO o por plásmidos según el serotipo."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Botulismo ALIMENTARIO",
+        "clinica": "De 12 a 36 horas tras la ingesta: visión borrosa, DIPLOPÍA, ptosis, midriasis, disartria, disfagia y sequedad de boca intensa, seguidas de una parálisis flácida DESCENDENTE y SIMÉTRICA que llega a los músculos respiratorios. El paciente está AFEBRIL y CONSCIENTE, con sensibilidad conservada.",
+        "lesiones": "No hay lesión estructural: el bloqueo es funcional y presináptico.",
+        "clave": "La tríada que lo define: parálisis DESCENDENTE simétrica, AUSENCIA de fiebre y NIVEL DE CONCIENCIA NORMAL. La afectación de pares craneales precede siempre a la de las extremidades, al revés que en el Guillain-Barré, que es ascendente."
+      },
+      {
+        "cuadro": "Botulismo del LACTANTE",
+        "clinica": "Menor de 12 meses con ESTREÑIMIENTO como primer síntoma, seguido de hipotonía (bebé fláccido o floppy baby), llanto débil, succión pobre, ptosis y pérdida del control cefálico.",
+        "lesiones": "Colonización intestinal por esporas germinadas.",
+        "clave": "La MIEL es la fuente clásica y evitable: por eso NO debe darse miel a menores de 12 meses. Es la forma más frecuente de botulismo en países desarrollados. El estreñimiento como síntoma inicial hace que se retrase el diagnóstico."
+      },
+      {
+        "cuadro": "Botulismo de las HERIDAS",
+        "clinica": "Cuadro neurológico idéntico al alimentario, pero SIN síntomas digestivos y con incubación más larga (4-14 días); puede haber fiebre por sobreinfección de la herida.",
+        "lesiones": "Germinación de esporas en tejido desvitalizado o en el punto de inyección.",
+        "clave": "Clásico del consumo de heroína inyectada, sobre todo la llamada black tar. Ante una parálisis descendente en un consumidor de drogas por vía parenteral hay que pensar en ello, y hay que desbridar la herida."
+      },
+      {
+        "cuadro": "Botulismo IATROGÉNICO",
+        "clinica": "Debilidad regional o generalizada tras la aplicación de toxina botulínica con fines estéticos o terapéuticos, sobre todo con dosis altas o preparados no autorizados.",
+        "lesiones": "Difusión de la toxina más allá del músculo diana.",
+        "clave": "Es un riesgo creciente por el uso cosmético masivo, y a menudo no se relaciona con el procedimiento si ha pasado más de una semana."
+      }
+    ],
+    "caracteristicas_clave": [
+      "El contraste con el TÉTANOS es la mejor forma de fijar el mecanismo: ambas son metaloproteasas que escinden proteínas SNARE, pero la toxina TETÁNICA bloquea la liberación de neurotransmisores INHIBIDORES (glicina y GABA) en la médula y produce parálisis ESPÁSTICA, mientras que la BOTULÍNICA bloquea la liberación de ACETILCOLINA en la placa motora y produce parálisis FLÁCIDA.",
+      "La toxina es TERMOLÁBIL: se destruye hirviendo el alimento 10 minutos. Las ESPORAS, en cambio, resisten la ebullición y solo se destruyen en autoclave, que es la razón por la que las conservas caseras mal procesadas son la fuente clásica.",
+      "Ante la sospecha se administra la ANTITOXINA sin esperar a la confirmación: solo neutraliza la toxina CIRCULANTE, no la ya fijada al nervio. Cada hora cuenta.",
+      "En el botulismo del lactante NO se usa antitoxina equina sino INMUNOGLOBULINA BOTULÍNICA HUMANA (BabyBIG), y los ANTIBIÓTICOS están CONTRAINDICADOS porque la lisis bacteriana libera más toxina al intestino.",
+      "Los AMINOGLUCÓSIDOS y la clindamicina agravan el bloqueo neuromuscular y deben evitarse en cualquier forma de botulismo.",
+      "Es una ENFERMEDAD DE DECLARACIÓN OBLIGATORIA y urgente: un caso puede ser el primero de un brote alimentario o, en un escenario extremo, de una liberación deliberada.",
+      "La medida que decide el pronóstico no es la antitoxina sino la VIGILANCIA DE LA VÍA AÉREA: la capacidad vital forzada y la fuerza inspiratoria máxima, no la saturación, son lo que anticipa la necesidad de intubar."
+    ],
+    "diagnostico": {
+      "muestra": "Suero (antes de administrar la antitoxina), heces, contenido gástrico, alimento sospechoso, exudado de la herida.",
+      "pruebas": [
+        "Detección de la TOXINA en suero, heces o alimento (bioensayo en ratón o técnicas de detección de la actividad enzimática): es la prueba de referencia",
+        "Cultivo anaerobio de heces o de la herida",
+        "ELECTROMIOGRAFÍA: potenciales de acción motores de amplitud reducida con FACILITACIÓN POSTETÁNICA a estimulación repetitiva de alta frecuencia, que ayuda a distinguirlo del Guillain-Barré y de la miastenia",
+        "Punción lumbar y RM: NORMALES, y su normalidad sirve para descartar otras causas"
+      ],
+      "claves": "El diagnóstico es CLÍNICO y el tratamiento no espera al laboratorio. Extraer el suero ANTES de administrar la antitoxina es importante para la confirmación posterior y para la investigación del brote."
+    },
+    "tratamiento": {
+      "eleccion": "SOPORTE VENTILATORIO y vigilancia estrecha de la vía aérea con medición seriada de la capacidad vital, junto con ANTITOXINA botulínica heptavalente equina por vía intravenosa administrada lo antes posible ante la sospecha clínica.",
+      "alternativas": "En el LACTANTE, inmunoglobulina botulínica humana (BabyBIG) en lugar de la antitoxina equina. En el botulismo de las heridas, desbridamiento quirúrgico y penicilina o metronidazol.",
+      "resistencias": "No aplicable: el problema es la toxina, no la sensibilidad bacteriana.",
+      "duracion": "La antitoxina es de dosis única. El soporte ventilatorio puede prolongarse semanas o meses hasta la regeneración de las terminaciones nerviosas.",
+      "notas": "CONTRAINDICADOS los aminoglucósidos y la clindamicina, que agravan el bloqueo neuromuscular. En el botulismo del lactante NO se dan antibióticos: la lisis bacteriana liberaría más toxina. Declaración obligatoria urgente e investigación del brote."
+    },
+    "farmacos_relacionados": [],
+    "fuente": "Murray 9.ª ed., cap. de Clostridium; Harrison 20.ª ed., cap. de botulismo; guías de los CDC sobre antitoxina botulínica"
+  },
+  {
+    "id": "ANA-actinomyces-israelii",
+    "nombre": "Actinomyces israelii",
+    "grupo": "ANA",
+    "nivel": 2,
+    "clasificacion": "BACILO grampositivo ANAEROBIO o microaerófilo, filamentoso y ramificado, NO ácido-alcohol resistente; forma parte de la FLORA NORMAL de la boca, el tubo digestivo y el aparato genital femenino",
+    "morfologia_tincion": "Filamentos grampositivos finos y ramificados, no ácido-alcohol resistentes (a diferencia de Nocardia). En el pus y en la histología se ven los GRÁNULOS DE AZUFRE (sulfur granules): agregados macroscópicos amarillentos de filamentos bacterianos rodeados de material eosinófilo, visibles a simple vista en el exudado y prácticamente diagnósticos. Crece lentamente en anaerobiosis, de 5 a 20 días.",
+    "mecanismo_patogenia": [
+      "NO es un patógeno ambiental: es un COMENSAL de la boca, las criptas amigdalinas, el tubo digestivo y el tracto genital femenino. La enfermedad requiere que se ROMPA la barrera mucosa.",
+      "Los desencadenantes típicos son la mala higiene bucal, la extracción dentaria, el traumatismo maxilofacial, la aspiración, la cirugía abdominal, la apendicitis perforada, la diverticulitis y el DISPOSITIVO INTRAUTERINO de larga permanencia.",
+      "Rara vez actúa sola: casi siempre forma una infección POLIMICROBIANA con otros anaerobios y con Aggregatibacter actinomycetemcomitans, que consumen oxígeno y crean el ambiente que ella necesita.",
+      "Produce una inflamación crónica GRANULOMATOSA y SUPURATIVA a la vez, con intensa FIBROSIS, que forma masas induradas leñosas.",
+      "Su rasgo distintivo es que atraviesa los PLANOS ANATÓMICOS sin respetar barreras (fascias, pleura, diafragma, hueso) y forma FÍSTULAS que drenan a la piel. Ningún otro proceso infeccioso común hace esto, y por eso el cuadro imita a un TUMOR.",
+      "NO se disemina por vía linfática, lo que la distingue de la mayoría de las infecciones y también de la neoplasia con la que se confunde."
+    ],
+    "patologias": [
+      {
+        "cuadro": "Actinomicosis CERVICOFACIAL (mandíbula abultada o lumpy jaw)",
+        "clinica": "Es la forma más frecuente (más de la mitad de los casos). Masa indurada, leñosa, poco dolorosa, en el ángulo mandibular, semanas o meses después de una extracción dentaria o en un paciente con mala higiene bucal. Poca o ninguna fiebre.",
+        "lesiones": "Masa fibrosa con múltiples FÍSTULAS que drenan pus con GRÁNULOS DE AZUFRE; puede afectar al hueso mandibular.",
+        "clave": "Se confunde con un tumor de cabeza y cuello o con una tuberculosis ganglionar, y se biopsia como neoplasia. La ausencia de adenopatías regionales pese a la masa grande es un dato orientador importante."
+      },
+      {
+        "cuadro": "Actinomicosis TORÁCICA",
+        "clinica": "Tos crónica, fiebre baja, dolor torácico y pérdida de peso, tras un episodio de aspiración; curso de semanas o meses.",
+        "lesiones": "Masa o consolidación pulmonar que ATRAVIESA la pleura, invade la pared torácica, erosiona las COSTILLAS y fistuliza a la piel.",
+        "clave": "El paso de la lesión a través de la cisura, de la pleura y de la pared torácica, ignorando los planos anatómicos, es el hallazgo radiológico que la delata. Imita un carcinoma broncogénico."
+      },
+      {
+        "cuadro": "Actinomicosis ABDOMINOPÉLVICA",
+        "clinica": "Masa abdominal palpable, dolor, fiebre y síndrome constitucional meses después de una apendicitis perforada, una diverticulitis o una cirugía abdominal.",
+        "lesiones": "Masa inflamatoria que se extiende a la pared abdominal y fistuliza; puede afectar al hígado.",
+        "clave": "Es la gran imitadora del cáncer de colon y de la enfermedad de Crohn, y no es raro que el diagnóstico llegue tras una laparotomía por sospecha de neoplasia."
+      },
+      {
+        "cuadro": "Actinomicosis PÉLVICA asociada a DIU",
+        "clinica": "Dolor pélvico crónico, flujo, fiebre y masa anexial en una mujer portadora de dispositivo intrauterino de larga permanencia (habitualmente más de 2 años).",
+        "lesiones": "Absceso tuboovárico y masa inflamatoria pélvica.",
+        "clave": "Es la asociación que hay que conocer. El hallazgo de Actinomyces en una citología de una mujer ASINTOMÁTICA portadora de DIU NO obliga a tratar ni a retirar el dispositivo: es un hallazgo frecuente y de escaso valor predictivo. Solo se actúa si hay síntomas."
+      }
+    ],
+    "caracteristicas_clave": [
+      "La pareja obligada: ACTINOMYCES es ANAEROBIA, NO ácido-resistente, comensal de la boca y afecta al INMUNOCOMPETENTE tras romperse una mucosa; NOCARDIA es AEROBIA, PARCIALMENTE ácido-resistente, ambiental y afecta al INMUNODEPRIMIDO.",
+      "Los GRÁNULOS DE AZUFRE en el pus son casi diagnósticos, pero hay que buscarlos y avisar al laboratorio: se pierden si la muestra se procesa como un cultivo aerobio corriente.",
+      "ATRAVIESA los planos anatómicos y forma fístulas: es la característica clínica que más ayuda, porque casi nada más lo hace. Y NO se disemina por los linfáticos.",
+      "Es la gran IMITADORA DE TUMORES: cervicofacial, torácica o abdominal, la masa indurada de crecimiento lento hace pensar en neoplasia, y muchos casos se diagnostican tras una cirugía.",
+      "A pesar de todo lo anterior, es exquisitamente sensible a la PENICILINA. La dificultad no está en tratarla sino en pensar en ella.",
+      "El tratamiento es LARGO, de 6 a 12 meses, por la mala penetración del antibiótico en la masa fibrótica y en el tejido necrótico avascular. Acortarlo es la causa habitual de recidiva.",
+      "En la mujer con DIU asintomática y hallazgo citológico de Actinomyces, NO se trata ni se retira el dispositivo."
+    ],
+    "diagnostico": {
+      "muestra": "Pus del absceso o de la fístula, biopsia tisular. Hay que remitirla en condiciones de ANAEROBIOSIS y avisar de la sospecha.",
+      "pruebas": [
+        "Examen macroscópico del pus buscando GRÁNULOS DE AZUFRE",
+        "Gram: filamentos grampositivos ramificados, NO ácido-alcohol resistentes con Ziehl modificado (a diferencia de Nocardia)",
+        "Cultivo ANAEROBIO prolongado, de 5 a 20 días: el cultivo es negativo con frecuencia si el paciente ha recibido antibióticos o si la muestra se ha manejado mal",
+        "Histología: granos con filamentos rodeados de material eosinófilo (fenómeno de Splendore-Hoeppli) e inflamación mixta supurativa y granulomatosa",
+        "TC o RM para delimitar la extensión y guiar el drenaje"
+      ],
+      "claves": "El cultivo falla a menudo, de modo que la HISTOLOGÍA con gránulos de azufre suele ser lo que da el diagnóstico. La sospecha clínica ante una masa que cruza planos y fistuliza es lo que pone en marcha todo lo demás."
+    },
+    "tratamiento": {
+      "eleccion": "PENICILINA G intravenosa a dosis altas (18-24 millones de unidades al día) durante 2-6 semanas, seguida de AMOXICILINA oral 500 mg-1 g cada 8 horas hasta completar 6-12 meses.",
+      "alternativas": "Doxiciclina, ceftriaxona, clindamicina o eritromicina en el alérgico a betalactámicos. El metronidazol NO es activo frente a Actinomyces, pese a tratarse de un anaerobio: es una excepción que conviene recordar.",
+      "resistencias": "Excepcionales; mantiene una sensibilidad a la penicilina prácticamente universal.",
+      "duracion": "6-12 meses, guiada por la respuesta clínica y radiológica. Las formas leves y bien drenadas pueden tratarse durante menos tiempo.",
+      "notas": "El DRENAJE o la resección quirúrgica de las masas grandes y de los trayectos fistulosos acelera la curación y permite acortar el tratamiento. En la actinomicosis pélvica sintomática hay que RETIRAR el DIU."
+    },
+    "farmacos_relacionados": [
+      "INF-amoxicilina",
+      "INF-clindamicina",
+      "INF-doxiciclina"
+    ],
+    "fuente": "Murray 9.ª ed., cap. de Actinomyces; Harrison 20.ª ed., cap. de actinomicosis"
+  }
+]

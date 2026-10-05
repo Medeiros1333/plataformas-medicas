@@ -1,0 +1,276 @@
+[
+  {
+    "id": "PSQ-sertralina",
+    "nombre": "Sertralina",
+    "sinonimos": [
+      "ISRS"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo ISRS (inhibidor selectivo de la recaptación de serotonina)",
+    "subclase": "Antidepresivo de primera línea",
+    "vs_clase": [
+      "**El ISRS de elección en el EMBARAZO y la LACTANCIA** y en el **paciente cardiópata** (SADHART, poca prolongación del QT).",
+      "**Pocas interacciones** (inhibición débil del CYP2D6 a dosis habituales).",
+      "**Más efectos DIGESTIVOS** (diarrea) que otros ISRS."
+    ],
+    "mecanismo": "Bloquea el transportador presináptico de SEROTONINA (SERT), aumentando su disponibilidad en la hendidura sináptica. El bloqueo del transportador es inmediato, pero el efecto ANTIDEPRESIVO tarda 2-4 semanas: esa disociación se explica porque el beneficio clínico depende de la desensibilización progresiva de los autorreceptores 5-HT1A y de cambios en la neuroplasticidad y la expresión de factores neurotróficos, no del aumento agudo de serotonina. Entender ese desfase es lo que permite explicar al paciente por qué debe seguir tomándolo cuando aún no nota nada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Episodio depresivo mayor",
+        "dosis": "Inicio 50 mg/24 h; mantenimiento 50-200 mg/24 h",
+        "posologia": "Una vez al día, por la mañana",
+        "via": "VO",
+        "nota": "Primera línea junto con la psicoterapia; el efecto pleno tarda 4-6 semanas y no debe juzgarse antes"
+      },
+      {
+        "patologia": "Trastorno de ansiedad generalizada, crisis de angustia y fobia social",
+        "dosis": "Inicio 25 mg/24 h (la mitad de la habitual); mantenimiento 50-200 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "En los trastornos de ansiedad se empieza a MITAD de dosis porque el empeoramiento inicial de la ansiedad es frecuente y hace abandonar el tratamiento"
+      },
+      {
+        "patologia": "Trastorno obsesivo-compulsivo",
+        "dosis": "50-200 mg/24 h (con frecuencia se necesitan las dosis altas)",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Requiere dosis mayores y tiempos más largos (10-12 semanas) que la depresión antes de concluir que no responde"
+      },
+      {
+        "patologia": "Trastorno de estrés postraumático",
+        "dosis": "50-200 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es uno de los pocos fármacos con indicación aprobada en esta entidad"
+      },
+      {
+        "patologia": "Depresión en el paciente cardiópata o polimedicado",
+        "dosis": "50-100 mg/24 h",
+        "posologia": "Una vez al día",
+        "via": "VO",
+        "nota": "Es el ISRS de elección en el cardiópata: seguro tras el infarto y con escasa inhibición enzimática"
+      }
+    ],
+    "esquema": {
+      "inicio": "50 mg/24 h (25 mg en ansiedad, en el anciano y en el adolescente). Explicar SIEMPRE tres cosas: que tardará 2-4 semanas en notar mejoría, que los primeros días puede encontrarse algo peor, y que no debe suspenderlo por su cuenta.",
+      "titulacion": "Incrementos de 50 mg cada 2-4 semanas según respuesta y tolerancia, hasta 200 mg/día.",
+      "duracion": "Mínimo 6-12 MESES tras la remisión en un primer episodio. Tras dos o más episodios, 2 años o de forma indefinida. Retirarlo al mes de encontrarse bien es la causa más frecuente de recaída.",
+      "fin": "Retirada GRADUAL a lo largo de 4 semanas o más, por el síndrome de discontinuación.",
+      "via": "VO, con alimento para mejorar la tolerancia digestiva.",
+      "monitorizacion": "Respuesta clínica y, sobre todo, VIGILANCIA DE IDEACIÓN SUICIDA en las primeras semanas y en menores de 25 años. Sodio a las 2-4 semanas en el anciano (hiponatremia). Peso y función sexual."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena; el alimento aumenta ligeramente la biodisponibilidad.",
+      "distribucion": "Alta unión a proteínas (98%).",
+      "metabolismo": "Hepático por varias isoenzimas; es un inhibidor DÉBIL del CYP2D6, lo que la distingue de la fluoxetina y la paroxetina, que son inhibidores potentes. Esa es la razón principal de su preferencia en el paciente polimedicado.",
+      "eliminacion": "Fecal y renal como metabolitos.",
+      "vida_media": "26 h, que permite la dosis única diaria.",
+      "ajuste_renal": "No precisa ajuste.",
+      "ajuste_hepatico": "Reducir la dosis o espaciar en la insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "IMAO, linezolid, azul de metileno",
+          "efecto": "SÍNDROME SEROTONINÉRGICO: agitación, clonus, hiperreflexia, hipertermia y rigidez, potencialmente mortal",
+          "gravedad": "alta",
+          "manejo": "CONTRAINDICADO. Respetar 2 semanas de lavado entre un IMAO y un ISRS (5 semanas si el ISRS es fluoxetina)"
+        },
+        {
+          "con": "AINE, AAS, anticoagulantes",
+          "efecto": "La serotonina plaquetaria es necesaria para la agregación: los ISRS producen disfunción plaquetaria y el riesgo de HEMORRAGIA DIGESTIVA se multiplica al asociarlos",
+          "gravedad": "alta",
+          "manejo": "Añadir protección gástrica y evitar los AINE; es una asociación muy frecuente y poco vigilada"
+        },
+        {
+          "con": "TRAMADOL, triptanes, ondansetrón, litio, hierba de San Juan",
+          "efecto": "Riesgo de síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Vigilar los síntomas de alarma; el riesgo real con triptanes es bajo"
+        },
+        {
+          "con": "Diuréticos tiazídicos, carbamazepina",
+          "efecto": "HIPONATREMIA aditiva por SIADH, sobre todo en el anciano",
+          "gravedad": "alta",
+          "manejo": "Controlar el sodio a las 2-4 semanas de iniciar en el paciente mayor de 65 años"
+        },
+        {
+          "con": "TAMOXIFENO",
+          "efecto": "Los ISRS inhibidores potentes del CYP2D6 (fluoxetina, paroxetina) impiden su conversión al metabolito activo y REDUCEN su eficacia antitumoral",
+          "gravedad": "alta",
+          "manejo": "En la paciente con tamoxifeno, elegir SERTRALINA, escitalopram o venlafaxina, que apenas lo inhiben"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea y molestias digestivas en las primeras semanas (transitorias)",
+        "DISFUNCIÓN SEXUAL: descenso de la libido, anorgasmia, retraso de la eyaculación (hasta el 50-70%, persistente y principal causa de abandono)",
+        "Cefalea, insomnio o somnolencia",
+        "AUMENTO INICIAL DE LA ANSIEDAD y nerviosismo en los primeros días",
+        "Sudoración"
+      ],
+      "graves": [
+        "AUMENTO DE LA IDEACIÓN SUICIDA en las primeras semanas, especialmente en menores de 25 años (advertencia con recuadro negro)",
+        "SÍNDROME SEROTONINÉRGICO en combinación con otros serotoninérgicos",
+        "HIPONATREMIA por SIADH, sobre todo en el anciano y en las primeras semanas",
+        "Hemorragia digestiva por disfunción plaquetaria, potenciada por AINE",
+        "VIRAJE MANÍACO en el paciente con trastorno bipolar no diagnosticado",
+        "Prolongación del QT (más con citalopram y escitalopram que con sertralina)",
+        "Síndrome de discontinuación por retirada brusca"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso concomitante o reciente de IMAO, linezolid o azul de metileno",
+      "Hipersensibilidad al fármaco",
+      "TRASTORNO BIPOLAR sin estabilizador del ánimo asociado (riesgo de viraje maníaco)",
+      "Precaución en epilepsia, hepatopatía grave y antecedente de hemorragia digestiva"
+    ],
+    "perlas": [
+      "Lo que hay que explicar en la primera consulta, y que decide si el tratamiento funcionará: tardará 2-4 SEMANAS en notar mejoría; los primeros días puede encontrarse ALGO PEOR (más ansiedad, náuseas); y no debe suspenderlo por su cuenta. La mayoría de los abandonos ocurren en la primera semana, justo cuando solo hay efectos adversos y ningún beneficio.",
+      "El aumento de IDEACIÓN SUICIDA en las primeras semanas, sobre todo en menores de 25 años, tiene una explicación clínica importante: el fármaco recupera antes la INICIATIVA y la energía que el estado de ánimo, de modo que un paciente que quería morir pero no tenía energía para actuar puede pasar a tenerla. Por eso el seguimiento en las 2-4 primeras semanas es estrecho y se implica a la familia.",
+      "La DISFUNCIÓN SEXUAL es el efecto adverso que más tratamientos hace fracasar y el que menos se pregunta. El paciente casi nunca lo menciona espontáneamente y simplemente deja el fármaco. Preguntarlo abiertamente permite bajar la dosis, cambiar a bupropión o mirtazapina, o añadir un tratamiento específico.",
+      "Es el ISRS de elección en dos escenarios concretos: el CARDIÓPATA (seguro tras el infarto) y el paciente con TAMOXIFENO, porque apenas inhibe el CYP2D6. La fluoxetina y la paroxetina sí lo inhiben con potencia y pueden anular el efecto antitumoral del tamoxifeno.",
+      "La combinación ISRS más AINE es cotidiana y su riesgo hemorrágico está infravalorado: los ISRS agotan la serotonina plaquetaria, necesaria para la agregación. En el paciente que va a tomar ambos, la protección gástrica no es opcional.",
+      "Antes de prescribir un antidepresivo hay que descartar BIPOLARIDAD preguntando por episodios previos de euforia, hiperactividad o menor necesidad de sueño: un ISRS en un bipolar no diagnosticado puede desencadenar una manía.",
+      "La HIPONATREMIA por SIADH en el anciano es frecuente, aparece en las primeras semanas y se manifiesta como confusión o caídas que se atribuyen a la edad. Un control de sodio a las 2-4 semanas la detecta.",
+      "El tratamiento se mantiene 6-12 MESES tras la remisión, no hasta encontrarse bien: retirarlo al primer mes de mejoría es la causa evitable más frecuente de recaída."
+    ],
+    "embarazo_lactancia": "La sertralina es, junto con el citalopram, el ISRS de elección en el embarazo y la lactancia por su bajo paso placentario y a la leche. Puede haber síndrome de adaptación neonatal transitorio. La depresión no tratada también conlleva riesgos: la decisión es individualizada y no automáticamente a favor de retirar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30; Harrison 20.ª ed., cap. de trastornos psiquiátricos"
+  },
+  {
+    "id": "PSQ-lorazepam",
+    "nombre": "Lorazepam",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Benzodiacepina",
+    "subclase": "Acción intermedia, sin metabolitos activos (glucuronidación)",
+    "vs_clase": [
+      "**Metabolismo por GLUCURONIDACIÓN (sin CYP ni metabolitos activos)**: la benzodiacepina de elección en **ancianos y hepatópatas** (incluida la abstinencia alcohólica con cirrosis).",
+      "**De elección IV en el ESTATUS EPILÉPTICO** (4 mg; menos redistribución que el diazepam).",
+      "**Vida media intermedia (10-20 h)**: menos acumulación que el diazepam, pero más rebote al retirarla."
+    ],
+    "mecanismo": "Se une a un sitio alostérico del receptor GABA-A y aumenta la FRECUENCIA de apertura del canal de cloro en respuesta al GABA. Es un modulador, no un agonista directo: necesita que haya GABA endógeno, y esa dependencia explica su amplio margen de seguridad en sobredosis aislada frente a los barbitúricos, que abren el canal directamente. La tolerancia aparece de forma desigual: rápida para el efecto hipnótico y sedante, mucho más lenta para el ansiolítico y el anticonvulsivante.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis de ansiedad y ansiedad grave incapacitante",
+        "dosis": "0,5-1 mg, repetible; máximo 2-4 mg/día",
+        "posologia": "A demanda o cada 8-12 h",
+        "via": "VO o SL",
+        "nota": "SOLO como puente durante 2-4 SEMANAS mientras el ISRS hace efecto, nunca como tratamiento de fondo de la ansiedad"
+      },
+      {
+        "patologia": "Estado epiléptico y crisis convulsiva prolongada",
+        "dosis": "4 mg IV lentos, repetibles una vez a los 5-10 minutos",
+        "posologia": "Bolo repetible",
+        "via": "IV",
+        "nota": "PRIMERA LÍNEA del estado epiléptico; el lorazepam es preferible al diazepam por su menor redistribución y su efecto anticonvulsivante más duradero"
+      },
+      {
+        "patologia": "Síndrome de abstinencia alcohólica y delirium tremens",
+        "dosis": "1-4 mg/6-8 h, pautados o guiados por escala CIWA-Ar",
+        "posologia": "Cada 6-8 h o según escala",
+        "via": "VO o IV",
+        "nota": "Es el fármaco de elección; el lorazepam se prefiere al diazepam en el HEPATÓPATA por su metabolismo sin oxidación"
+      },
+      {
+        "patologia": "Insomnio de conciliación grave y transitorio",
+        "dosis": "1-2 mg al acostarse",
+        "posologia": "Una vez al día, por la noche",
+        "via": "VO",
+        "nota": "Máximo 2-4 semanas. El tratamiento de elección del insomnio crónico es la TERAPIA COGNITIVO-CONDUCTUAL, no un hipnótico"
+      },
+      {
+        "patologia": "Agitación aguda y sedación paliativa",
+        "dosis": "1-2 mg, repetible según respuesta",
+        "posologia": "A demanda",
+        "via": "VO, SL, IM o IV",
+        "nota": "En la agitación del anciano con demencia, valorar antes causas orgánicas: las benzodiacepinas pueden producir agitación PARADÓJICA"
+      }
+    ],
+    "esquema": {
+      "inicio": "La menor dosis eficaz y con FECHA DE FIN PACTADA desde la primera receta. Prescribir una benzodiacepina sin fecha de retirada es la vía directa a un consumo de años.",
+      "titulacion": "No se titula al alza de forma crónica: la necesidad de subir la dosis indica tolerancia y es motivo para revisar la indicación, no para aumentarla.",
+      "duracion": "2-4 SEMANAS como norma general. En el estado epiléptico y la abstinencia alcohólica, uso puntual de días.",
+      "fin": "Retirada MUY gradual: reducciones del 10-25% cada 2-4 semanas, más lentas cuanto mayor sea la duración del tratamiento. En consumos de años puede llevar meses. La retirada brusca puede provocar CONVULSIONES y delirium.",
+      "via": "VO, SL (rápida y útil en la crisis de ansiedad), IM o IV.",
+      "monitorizacion": "Nivel de sedación, marcha y riesgo de CAÍDAS en el anciano, función cognitiva, y revisión periódica de si la indicación sigue vigente. Vigilar la escalada de dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena por vía oral y sublingual; la vía intramuscular es fiable, a diferencia de la del diazepam, que es errática.",
+      "distribucion": "Menos lipófilo que el diazepam, por lo que se redistribuye menos al tejido graso: su efecto clínico dura MÁS pese a tener una vida media más corta. Esto es lo que lo hace preferible en el estado epiléptico.",
+      "metabolismo": "Solo GLUCURONOCONJUGACIÓN, sin oxidación hepática por citocromo P450. Es la clave de su seguridad en el hepatópata y en el anciano, y de su escasez de interacciones metabólicas.",
+      "eliminacion": "Renal como glucurónido inactivo, SIN metabolitos activos (a diferencia del diazepam, que los tiene y de vida media muy larga).",
+      "vida_media": "10-20 h, intermedia.",
+      "ajuste_renal": "Precaución en la insuficiencia renal grave.",
+      "ajuste_hepatico": "Es la benzodiacepina DE ELECCIÓN en la hepatopatía, junto con oxazepam y temazepam, porque no requiere oxidación hepática.",
+      "interacciones": [
+        {
+          "con": "OPIOIDES",
+          "efecto": "DEPRESIÓN RESPIRATORIA y muerte: la combinación multiplica el riesgo y está detrás de gran parte de la mortalidad por sobredosis",
+          "gravedad": "alta",
+          "manejo": "Advertencia con recuadro negro. Evitar la combinación; si es imprescindible, dosis mínimas y vigilancia"
+        },
+        {
+          "con": "ALCOHOL",
+          "efecto": "Depresión aditiva del sistema nervioso central con riesgo de coma y depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Advertir expresamente; es una combinación cotidiana y subestimada"
+        },
+        {
+          "con": "Antihistamínicos de primera generación, antipsicóticos, gabapentinoides",
+          "efecto": "Sedación aditiva y riesgo de caídas",
+          "gravedad": "media",
+          "manejo": "Revisar la carga sedante total, sobre todo en el anciano"
+        },
+        {
+          "con": "Inhibidores e inductores del CYP3A4",
+          "efecto": "APENAS le afectan, porque el lorazepam no se oxida: solo se glucuronoconjuga",
+          "gravedad": "baja",
+          "manejo": "Es una ventaja frente al midazolam y al diazepam en el paciente polimedicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia y sedación diurna residual",
+        "Alteración de la MEMORIA anterógrada y de la concentración",
+        "Ataxia e inestabilidad de la marcha",
+        "Debilidad muscular"
+      ],
+      "graves": [
+        "DEPENDENCIA física y psicológica, con tolerancia y escalada de dosis (aparece en semanas)",
+        "SÍNDROME DE ABSTINENCIA por retirada brusca: ansiedad de rebote, insomnio, temblor, CONVULSIONES y delirium",
+        "CAÍDAS Y FRACTURA DE CADERA en el anciano: es uno de los efectos con mayor impacto poblacional real",
+        "Depresión respiratoria, especialmente combinado con opioides o alcohol",
+        "AGITACIÓN PARADÓJICA con desinhibición y agresividad, típica en niños, ancianos y personas con deterioro cognitivo",
+        "Deterioro cognitivo y posible asociación con demencia en el uso muy prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "MIASTENIA GRAVIS",
+      "Síndrome de apnea del sueño grave no tratado",
+      "Insuficiencia respiratoria grave",
+      "Intoxicación etílica aguda con depresión de constantes vitales",
+      "Glaucoma de ángulo estrecho",
+      "Antecedente de dependencia a benzodiacepinas o a otras sustancias (contraindicación relativa)"
+    ],
+    "perlas": [
+      "La regla que evita casi todos los problemas de esta clase: prescribirla SIEMPRE con fecha de fin pactada desde la primera receta y explicada al paciente. Sin ese acuerdo inicial, la benzodiacepina de 2 semanas se convierte en un tratamiento de 10 años, y para entonces retirarla cuesta meses.",
+      "Su papel en la ansiedad es de PUENTE: cubre las 2-4 semanas que el ISRS tarda en hacer efecto y después se retira. No es un tratamiento de fondo de la ansiedad, y usarla como tal sustituye un problema tratable por una dependencia.",
+      "Su metabolismo por SOLA GLUCURONOCONJUGACIÓN, sin oxidación, es lo que la convierte en la benzodiacepina de elección en el HEPATÓPATA y en el ANCIANO, y lo que la libra de las interacciones por CYP3A4 que afectan al midazolam y al diazepam.",
+      "En el ESTADO EPILÉPTICO se prefiere al diazepam por una razón de distribución, no de vida media: el diazepam es más lipófilo, se redistribuye rápido al tejido graso y su efecto cerebral se agota antes, aunque su vida media plasmática sea mucho más larga. El lorazepam mantiene concentraciones cerebrales eficaces durante más tiempo.",
+      "En el ANCIANO, las caídas con fractura de cadera son probablemente el daño más importante que produce esta clase en términos poblacionales. Figura en todos los criterios de prescripción inadecuada en el mayor, y aun así sigue siendo uno de los fármacos más prescritos a esa edad.",
+      "La AGITACIÓN PARADÓJICA desconcierta cuando se ve por primera vez: se administra para calmar y el paciente se agita más. Ocurre en niños, ancianos y personas con deterioro cognitivo, y la respuesta correcta es RETIRARLA, no repetir la dosis.",
+      "La combinación con OPIOIDES es una de las causas principales de muerte por sobredosis, y con frecuencia son dos prescripciones legítimas de dos médicos distintos que nadie ha revisado juntas.",
+      "La retirada debe ser lentísima tras un consumo prolongado: reducciones del 10-25% cada 2-4 semanas. Hacerlo deprisa provoca abstinencia, el paciente lo vive como confirmación de que la necesita, y se refuerza el consumo."
+    ],
+    "embarazo_lactancia": "Evitar en el embarazo, especialmente en el tercer trimestre, por el síndrome del niño hipotónico y la abstinencia neonatal. Si es imprescindible, la menor dosis y el menor tiempo posible. Precaución durante la lactancia por la sedación del lactante.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22; Harrison 20.ª ed., caps. de trastornos de ansiedad y abstinencia alcohólica"
+  }
+]
