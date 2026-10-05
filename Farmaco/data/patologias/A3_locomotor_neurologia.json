@@ -1,0 +1,239 @@
+[
+  {
+    "id": "PAT-lumbalgia",
+    "nombre": "Lumbalgia aguda y crónica",
+    "sinonimos": ["Dolor lumbar", "Lumbociática", "Ciática"],
+    "area": "REU",
+    "resumen": "Más del 90% es **inespecífica** y mejora en 4-6 semanas. Buscar **signos de alarma** (fiebre, pérdida de peso, cáncer previo, traumatismo en osteoporosis, déficit neurológico progresivo, **síndrome de cola de caballo**: retención urinaria, anestesia en silla de montar) → imagen urgente. Sin alarma: **no pedir imagen**, mantener la actividad, calor local y analgesia breve. En la crónica, el ejercicio es el tratamiento principal.",
+    "objetivo": "Aliviar el dolor y mantener la funcionalidad evitando la cronificación.",
+    "escenarios": [
+      {
+        "titulo": "Lumbalgia aguda inespecífica",
+        "farmacos": [
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400-600 mg", "via": "VO", "intervalo": "Cada 8 h con comida", "duracion": "≤1-2 semanas" },
+          { "nombre": "Naproxeno", "ref": "REU-naproxeno", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "≤1-2 semanas", "nota": "Alternativa" },
+          { "nombre": "Ciclobenzaprina (espasmo que impide dormir)", "ref": "REU-ciclobenzaprina", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h por la noche (hasta cada 8 h)", "duracion": "≤2 semanas", "nota": "Añadido al AINE; sedante" },
+          { "nombre": "Metocarbamol", "ref": "REU-metocarbamol", "dosis": "1500 mg 2-3 días; después 750 mg", "via": "VO", "intervalo": "Cada 6-8 h", "duracion": "≤2 semanas", "nota": "Alternativa menos sedante" }
+        ]
+      },
+      {
+        "titulo": "Lumbalgia crónica (>12 semanas)",
+        "farmacos": [
+          { "nombre": "AINE a demanda", "ref": "REU-naproxeno", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h en reagudizaciones", "duracion": "Periodos cortos", "nota": "Con IBP si hay riesgo digestivo" },
+          { "nombre": "Duloxetina", "ref": "PSQ-duloxetina", "dosis": "30 mg 1 semana; después 60 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a las 12 semanas" },
+          { "nombre": "Tramadol (dolor intenso, periodos cortos)", "ref": "REU-tramadol", "dosis": "50 mg", "via": "VO", "intervalo": "Cada 8 h (máximo 400 mg/día; 300 en ancianos)", "duracion": "Lo más breve posible", "nota": "Los opioides no mejoran la función a largo plazo" }
+        ]
+      },
+      {
+        "titulo": "Radiculopatía (ciática)",
+        "farmacos": [
+          { "nombre": "AINE", "ref": "REU-ibuprofeno", "dosis": "600 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "1-2 semanas" },
+          { "nombre": "Pregabalina (solo si hay dolor neuropático persistente)", "ref": "NEU-pregabalina", "dosis": "75 mg (hasta 150 mg)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Prueba de 4-8 semanas", "nota": "Beneficio escaso en la ciática aguda" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Mantenerse activo; evitar el reposo en cama",
+      "Calor local superficial en la fase aguda",
+      "Ejercicio terapéutico, yoga, pilates o terapia cognitivo-conductual en la crónica",
+      "Cirugía en la hernia discal con déficit motor progresivo, cola de caballo o ciática refractaria >6 semanas"
+    ],
+    "claves": [
+      "**Retención urinaria o anestesia perineal con lumbalgia: cola de caballo, RM y cirugía urgentes.**",
+      "El paracetamol solo no es eficaz en la lumbalgia aguda."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de dolor de espalda y cuello; Katzung 15.ª ed., caps. 27 y 36"
+  },
+  {
+    "id": "PAT-artrosis",
+    "nombre": "Artrosis",
+    "sinonimos": ["Osteoartritis", "Gonartrosis", "Coxartrosis", "Rizartrosis"],
+    "area": "REU",
+    "resumen": "Dolor articular mecánico (empeora con el uso, rigidez matutina <30 min) en >45 años. El tratamiento es **escalonado**: **ejercicio y pérdida de peso** (lo más eficaz) → **AINE tópico** (rodilla y mano) → **AINE oral** a la dosis eficaz más baja y periodos cortos → infiltración de corticoide en brotes → prótesis en la enfermedad avanzada.",
+    "objetivo": "Reducir el dolor y mantener la función articular.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea farmacológica",
+        "farmacos": [
+          { "nombre": "Diclofenaco tópico", "ref": "REU-diclofenaco-topico", "dosis": "2-4 g de gel al 1%", "via": "tópica", "intervalo": "Cada 6-8 h", "duracion": "Continuo o a demanda", "nota": "De elección en rodilla y mano, sobre todo en ancianos" },
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400-600 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "Periodos cortos en los brotes", "nota": "Con IBP si ≥65 años o antecedente digestivo" },
+          { "nombre": "Naproxeno", "ref": "REU-naproxeno", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Periodos cortos", "nota": "Alternativa. Perfil cardiovascular algo más favorable" },
+          { "nombre": "Celecoxib (riesgo gastrointestinal)", "ref": "REU-celecoxib", "dosis": "200 mg", "via": "VO", "intervalo": "Cada 24 h (o 100 mg cada 12 h)", "duracion": "Periodos cortos", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Dolor crónico refractario o contraindicación de AINE",
+        "farmacos": [
+          { "nombre": "Duloxetina", "ref": "PSQ-duloxetina", "dosis": "30 mg 1 semana; después 60 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a las 12 semanas" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h (máximo 3 g/día)", "duracion": "A demanda", "nota": "Beneficio pequeño; útil cuando los AINE están contraindicados" },
+          { "nombre": "Tramadol", "ref": "REU-tramadol", "dosis": "50 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Periodos cortos", "nota": "Último recurso antes de la cirugía" }
+        ]
+      },
+      {
+        "titulo": "Brote inflamatorio de rodilla",
+        "farmacos": [
+          { "nombre": "Metilprednisolona acetato (o triamcinolona) intraarticular", "ref": "REU-metilprednisolona", "dosis": "40 mg (rodilla)", "via": "intraarticular", "intervalo": "Dosis única", "duracion": "Máximo 3-4 al año en la misma articulación", "nota": "Alivio de semanas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio de fortalecimiento (cuádriceps) y aeróbico de bajo impacto",
+      "Pérdida de peso (≥5-10%) en la artrosis de rodilla",
+      "Bastón en la mano contralateral, calzado adecuado, órtesis en la rizartrosis",
+      "Prótesis articular si el dolor y la limitación persisten pese al tratamiento"
+    ],
+    "claves": [
+      "**Glucosamina, condroitina y ácido hialurónico intraarticular tienen beneficio dudoso o nulo.**",
+      "Rigidez matutina >30-60 min, tumefacción de muchas articulaciones o afectación de MCF: pensar en artritis inflamatoria."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de artrosis; Katzung 15.ª ed., cap. 36"
+  },
+  {
+    "id": "PAT-cefalea-tensional",
+    "nombre": "Cefalea tensional",
+    "sinonimos": ["Cefalea de tensión"],
+    "area": "NEU",
+    "resumen": "Cefalea **bilateral, opresiva**, de intensidad leve-moderada, **no empeora con la actividad** y sin náuseas importantes. Episódica: analgésicos simples. **Crónica** (≥15 días/mes): profilaxis con **amitriptilina** y vigilar la **cefalea por abuso de analgésicos** (≥15 días/mes con analgésicos simples o ≥10 con combinados u opioides).",
+    "objetivo": "Aliviar los episodios y reducir su frecuencia sin abuso de analgésicos.",
+    "escenarios": [
+      {
+        "titulo": "Episodio agudo",
+        "farmacos": [
+          { "nombre": "Ibuprofeno", "ref": "REU-ibuprofeno", "dosis": "400 mg", "via": "VO", "intervalo": "Dosis única; repetir a las 6-8 h si hace falta", "duracion": "Máximo 2-3 días por semana" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "VO", "intervalo": "Dosis única", "duracion": "Máximo 2-3 días por semana", "nota": "Alternativa" },
+          { "nombre": "Ácido acetilsalicílico", "ref": "HEM-acido-acetilsalicilico", "dosis": "500-1000 mg", "via": "VO", "intervalo": "Dosis única", "duracion": "Máximo 2-3 días por semana", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis (cefalea tensional crónica o episódica frecuente)",
+        "farmacos": [
+          { "nombre": "Amitriptilina", "ref": "PSQ-amitriptilina", "dosis": "10 mg al inicio; 25-75 mg de mantenimiento", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "6 meses y retirada gradual" },
+          { "nombre": "Mirtazapina", "ref": "PSQ-mirtazapina", "dosis": "15-30 mg", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "6 meses", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Higiene del sueño, ejercicio regular, manejo del estrés",
+      "Fisioterapia y relajación; terapia cognitivo-conductual",
+      "Retirada de los analgésicos si hay abuso"
+    ],
+    "claves": [
+      "**Signos de alarma (SNOOP): síntomas sistémicos, focalidad, inicio súbito, >50 años de inicio, cambio de patrón.**",
+      "Los opioides y combinados con codeína empeoran la cefalea crónica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cefalea"
+  },
+  {
+    "id": "PAT-vertigo",
+    "nombre": "Vértigo periférico: VPPB, neuritis vestibular y enfermedad de Ménière",
+    "sinonimos": ["Vértigo", "Mareo", "VPPB", "Neuritis vestibular", "Ménière"],
+    "area": "NEU",
+    "resumen": "Distinguir **vértigo periférico** (nistagmo horizonto-rotatorio unidireccional que se inhibe con la fijación, sin focalidad) del **central** (protocolo HINTS: impulso cefálico normal, nistagmo cambiante o vertical, skew → **ictus**). **VPPB**: crisis de segundos con los cambios de posición → **maniobra de Epley**, sin fármacos. **Neuritis vestibular**: vértigo continuo de días → sedante vestibular breve ± corticoide. **Ménière**: crisis con hipoacusia, acúfenos y plenitud ótica.",
+    "objetivo": "Aliviar la crisis sin retrasar la compensación vestibular.",
+    "escenarios": [
+      {
+        "titulo": "Crisis aguda (neuritis vestibular, crisis de Ménière)",
+        "farmacos": [
+          { "nombre": "Dimenhidrinato", "ref": "NEU-dimenhidrinato", "dosis": "50-100 mg", "via": "VO, IM o IV", "intervalo": "Cada 6-8 h", "duracion": "≤3 días" },
+          { "nombre": "Diazepam", "ref": "PSQ-diazepam", "dosis": "2-5 mg", "via": "VO o IV", "intervalo": "Cada 8-12 h", "duracion": "≤3 días", "nota": "Alternativa" },
+          { "nombre": "Ondansetrón (náuseas)", "ref": "DIG-ondansetron", "dosis": "4-8 mg", "via": "VO o IV", "intervalo": "Cada 8 h", "duracion": "A demanda" }
+        ]
+      },
+      {
+        "titulo": "Neuritis vestibular (primeras 72 h)",
+        "farmacos": [
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "1 mg/kg/día (máximo 60-100 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5 días y descenso en 10 días", "nota": "Mejora la recuperación de la función vestibular (evidencia moderada)" }
+        ]
+      },
+      {
+        "titulo": "Prevención de crisis de Ménière",
+        "farmacos": [
+          { "nombre": "Betahistina", "ref": "NEU-betahistina", "dosis": "16-24 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "Meses, reevaluando" },
+          { "nombre": "Hidroclorotiazida", "ref": "NFR-hidroclorotiazida", "dosis": "25 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Meses", "nota": "Alternativa. Con restricción de sal (<1,5-2 g de sodio/día)" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "VPPB: maniobra de Dix-Hallpike para diagnosticar y de Epley para tratar (canal posterior)",
+      "Rehabilitación vestibular precoz tras la neuritis",
+      "Ménière: restricción de sal, cafeína y alcohol",
+      "Vértigo con signos centrales, cefalea brusca o factores de riesgo vascular: neuroimagen urgente"
+    ],
+    "claves": [
+      "**Los sedantes vestibulares no tratan el VPPB y prolongados retrasan la compensación.**",
+      "Vértigo con hipoacusia súbita: corticoide urgente y ORL (hipoacusia neurosensorial súbita)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de mareo y vértigo"
+  },
+  {
+    "id": "PAT-polimialgia-reumatica",
+    "nombre": "Polimialgia reumática y arteritis de células gigantes",
+    "sinonimos": ["PMR", "Arteritis temporal", "Arteritis de Horton"],
+    "area": "REU",
+    "resumen": "**Polimialgia**: >50 años, dolor y rigidez matutina de cinturas escapular y pelviana, VSG/PCR elevadas; **respuesta espectacular a prednisona a dosis bajas**. **Arteritis de células gigantes** (cefalea nueva, claudicación mandibular, alteraciones visuales, arteria temporal engrosada): **urgencia** por riesgo de ceguera → prednisona a dosis altas **antes** de la biopsia o la ecografía.",
+    "objetivo": "Controlar los síntomas con la menor dosis acumulada de corticoide y prevenir la ceguera.",
+    "escenarios": [
+      {
+        "titulo": "Polimialgia reumática",
+        "farmacos": [
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "12,5-25 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Descenso a 10 mg en 4-8 semanas; después 1 mg cada 4 semanas (total 1-2 años)" },
+          { "nombre": "Metotrexato (ahorrador de corticoides en recaídas)", "ref": "REU-metotrexato", "dosis": "7,5-10 mg/semana", "via": "VO", "intervalo": "Una vez por semana", "duracion": "Mientras dure el corticoide", "nota": "Con ácido fólico" }
+        ]
+      },
+      {
+        "titulo": "Arteritis de células gigantes",
+        "farmacos": [
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "40-60 mg (1 mg/kg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2-4 semanas y descenso lento (1-2 años)" },
+          { "nombre": "Metilprednisolona (pérdida visual)", "ref": "REU-metilprednisolona", "dosis": "500-1000 mg", "via": "IV", "intervalo": "Cada 24 h", "duracion": "3 días; después prednisona oral" },
+          { "nombre": "Tocilizumab (ahorrador de corticoides)", "ref": "INM-tocilizumab", "dosis": "162 mg", "via": "SC", "intervalo": "Cada semana", "duracion": "12 meses o más" },
+          { "nombre": "Ácido acetilsalicílico", "ref": "HEM-acido-acetilsalicilico", "dosis": "75-100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Según riesgo vascular", "nota": "Beneficio no demostrado; valorar si hay riesgo cardiovascular" }
+        ]
+      },
+      {
+        "titulo": "Prevención de la osteoporosis por corticoides",
+        "farmacos": [
+          { "nombre": "Alendronato", "ref": "END-alendronato", "dosis": "70 mg", "via": "VO", "intervalo": "Una vez por semana en ayunas", "duracion": "Mientras dure el corticoide" },
+          { "nombre": "Colecalciferol", "ref": "END-colecalciferol", "dosis": "800-2000 UI/día", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras dure el corticoide" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Biopsia o ecografía de la arteria temporal en la primera semana (no retrasar el corticoide)",
+      "Densitometría basal y protección gástrica si hay factores de riesgo"
+    ],
+    "claves": [
+      "**Sospecha de arteritis de células gigantes: corticoide el mismo día.**",
+      "Si la «polimialgia» no responde a 15-20 mg de prednisona en 1 semana, reconsiderar el diagnóstico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de polimialgia reumática y arteritis de células gigantes"
+  },
+  {
+    "id": "PAT-fibromialgia",
+    "nombre": "Fibromialgia",
+    "sinonimos": ["Dolor crónico generalizado"],
+    "area": "REU",
+    "resumen": "Dolor crónico generalizado (>3 meses) con **fatiga, sueño no reparador** y alteraciones cognitivas, por **sensibilización central**; exploración y analítica normales (descartar hipotiroidismo, polimialgia, miopatía). El tratamiento principal es **no farmacológico**: educación y **ejercicio aeróbico gradual**. Los fármacos tienen beneficio modesto; los AINE y opioides no son útiles.",
+    "objetivo": "Mejorar la función y la calidad de vida.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento farmacológico",
+        "farmacos": [
+          { "nombre": "Amitriptilina", "ref": "PSQ-amitriptilina", "dosis": "10-25 mg (hasta 50 mg)", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "Reevaluar a los 3 meses", "nota": "Mejora el sueño y el dolor" },
+          { "nombre": "Duloxetina", "ref": "PSQ-duloxetina", "dosis": "30 mg 1 semana; después 60 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a los 3 meses", "nota": "Si hay depresión o ansiedad asociadas" },
+          { "nombre": "Pregabalina", "ref": "NEU-pregabalina", "dosis": "75 mg (hasta 225 mg)", "via": "VO", "intervalo": "Cada 12 h", "duracion": "Reevaluar a los 3 meses", "nota": "Alternativa. Si predomina el insomnio" },
+          { "nombre": "Ciclobenzaprina", "ref": "REU-ciclobenzaprina", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "Periodos limitados", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Educación: es un trastorno real del procesamiento del dolor, sin daño estructural",
+      "Ejercicio aeróbico progresivo y de fuerza (lo más eficaz)",
+      "Terapia cognitivo-conductual, higiene del sueño, tratamiento de la depresión"
+    ],
+    "claves": [
+      "**Evitar opioides: no son eficaces y generan dependencia.**",
+      "Iniciar los fármacos a dosis bajas: estos pacientes toleran mal los efectos adversos."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de fibromialgia"
+  }
+]

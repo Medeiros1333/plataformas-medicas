@@ -1,0 +1,970 @@
+[
+  {
+    "id": "REU-ciclobenzaprina",
+    "nombre": "Ciclobenzaprina",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Relajante muscular de acción central",
+    "subclase": "Relajante de estructura tricíclica",
+    "vs_clase": [
+      "**Estructura TRICÍCLICA** (pariente de la amitriptilina): **sedación y efectos ANTICOLINÉRGICOS** marcados.",
+      "El relajante con **más evidencia en la lumbalgia AGUDA**, siempre en **ciclos cortos (≤2 semanas)**.",
+      "**Síndrome serotoninérgico** con ISRS, tramadol o IMAO; evitar en ancianos (criterios de Beers)."
+    ],
+    "mecanismo": "Actúa en el tronco del encéfalo reduciendo la actividad motora tónica somática; no actúa directamente sobre el músculo.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Espasmo muscular de la lumbalgia o cervicalgia aguda",
+        "dosis": "5-10 mg",
+        "posologia": "Cada 8 h (o solo por la noche)",
+        "via": "VO",
+        "nota": "Máximo 2-3 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja nocturna.",
+      "titulacion": "—",
+      "duracion": "≤2-3 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Somnolencia, retención urinaria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, buena.",
+      "distribucion": "Amplia.",
+      "metabolismo": "CYP3A4, 1A2 y 2D6.",
+      "eliminacion": "Renal.",
+      "vida_media": "18 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en insuficiencia moderada-grave.",
+      "interacciones": [
+        {
+          "con": "IMAO, ISRS, tramadol",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Evitar la combinación"
+        },
+        {
+          "con": "Alcohol, benzodiacepinas, opioides",
+          "efecto": "Depresión del SNC",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**",
+        "**Boca seca**",
+        "Mareo"
+      ],
+      "graves": [
+        "Arritmias, prolongación del QT",
+        "Retención urinaria, glaucoma agudo"
+      ]
+    },
+    "contraindicaciones": [
+      "IAM reciente, arritmias, insuficiencia cardiaca",
+      "Hipertiroidismo",
+      "IMAO en los 14 días previos"
+    ],
+    "perlas": [
+      "Darlo solo por la noche aprovecha la sedación y reduce la somnolencia diurna."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "REU-metocarbamol",
+    "nombre": "Metocarbamol",
+    "sinonimos": [
+      "Tiocolchicósido",
+      "Carisoprodol"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Relajante muscular de acción central",
+    "subclase": "Carbamato",
+    "vs_clase": [
+      "**MENOS SEDANTE** que la ciclobenzaprina y sin efectos anticolinérgicos.",
+      "**Orina oscura** (negra, marrón o verde) inocua.",
+      "El **carisoprodol** (pariente) tiene **potencial de abuso** (metaboliza a meprobamato); el **tiocolchicósido** se limitó a 7 días por genotoxicidad."
+    ],
+    "mecanismo": "Depresor del SNC que inhibe reflejos polisinápticos medulares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Espasmo muscular agudo (lumbalgia, contractura)",
+        "dosis": "1500 mg los 2-3 primeros días; después 750-1000 mg",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Máximo 2-3 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "Bajar dosis tras 48-72 h.",
+      "duracion": "≤2-3 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Somnolencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "1-2 h.",
+      "ajuste_renal": "Evitar la forma IV (excipiente polietilenglicol).",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol, benzodiacepinas, opioides",
+          "efecto": "Depresión del SNC",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, mareo",
+        "Orina oscura"
+      ],
+      "graves": [
+        "Reacciones alérgicas",
+        "Bradicardia (IV)"
+      ]
+    },
+    "contraindicaciones": [
+      "Miastenia gravis",
+      "Coma o depresión del SNC"
+    ],
+    "perlas": [
+      "Avisar del color de la orina para evitar consultas innecesarias."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "REU-tizanidina",
+    "nombre": "Tizanidina",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Relajante muscular de acción central",
+    "subclase": "Agonista alfa-2 adrenérgico central",
+    "vs_clase": [
+      "**Agonista ALFA-2** (pariente de la clonidina): útil en la **ESPASTICIDAD** (esclerosis múltiple, lesión medular, ictus) y en el espasmo musculoesquelético.",
+      "**HIPOTENSIÓN** y sequedad de boca; **HEPATOTOXICIDAD** (transaminasas en los primeros meses).",
+      "**CONTRAINDICADA con fluvoxamina y ciprofloxacino** (inhibidores de CYP1A2: hipotensión grave)."
+    ],
+    "mecanismo": "Estimula los receptores alfa-2 presinápticos medulares y reduce la liberación de aminoácidos excitadores en las interneuronas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Espasticidad",
+        "dosis": "2 mg al inicio; mantenimiento 12-24 mg/día (máximo 36 mg)",
+        "posologia": "Cada 6-8 h",
+        "via": "VO",
+        "nota": "Subir 2 mg cada 3-4 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "2 mg por la noche.",
+      "titulacion": "Lenta, según respuesta y PA.",
+      "duracion": "Crónica en la espasticidad.",
+      "fin": "**Retirada GRADUAL** (rebote de HTA y taquicardia).",
+      "via": "Oral.",
+      "monitorizacion": "PA, transaminasas a los 1, 3 y 6 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (primer paso importante).",
+      "distribucion": "—",
+      "metabolismo": "**CYP1A2**.",
+      "eliminacion": "Renal.",
+      "vida_media": "2,5 h.",
+      "ajuste_renal": "FG <25: reducir dosis.",
+      "ajuste_hepatico": "Evitar.",
+      "interacciones": [
+        {
+          "con": "Fluvoxamina, ciprofloxacino",
+          "efecto": "Niveles 10-30 veces mayores: hipotensión y sedación graves",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Antihipertensivos",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar PA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Boca seca",
+        "Hipotensión"
+      ],
+      "graves": [
+        "**Hepatotoxicidad**",
+        "Bradicardia",
+        "HTA de rebote al suspender"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia hepática",
+      "Tratamiento con fluvoxamina o ciprofloxacino"
+    ],
+    "perlas": [
+      "Antes de pautar ciprofloxacino a un paciente con espasticidad, revisar si toma tizanidina."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "NEU-baclofeno",
+    "nombre": "Baclofeno",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Relajante muscular de acción central",
+    "subclase": "Agonista GABA-B",
+    "vs_clase": [
+      "**Agonista GABA-B**: de elección en la **ESPASTICIDAD de origen MEDULAR** (esclerosis múltiple, lesión medular); vía **intratecal** con bomba en casos graves.",
+      "**Eliminación RENAL**: acumulación y **encefalopatía** en la insuficiencia renal.",
+      "**SÍNDROME DE ABSTINENCIA grave** (convulsiones, alucinaciones, hipertermia) si se suspende bruscamente, sobre todo el intratecal."
+    ],
+    "mecanismo": "Activa receptores GABA-B presinápticos y postsinápticos medulares y reduce la liberación de neurotransmisores excitadores.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Espasticidad (esclerosis múltiple, lesión medular, parálisis cerebral)",
+        "dosis": "5 mg al inicio; mantenimiento 30-80 mg/día",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Subir 5 mg por toma cada 3 días"
+      },
+      {
+        "patologia": "Espasticidad grave refractaria",
+        "dosis": "Prueba de 50 µg; mantenimiento individualizado (µg/día)",
+        "posologia": "Infusión continua con bomba",
+        "via": "intratecal",
+        "nota": "Unidades especializadas"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg cada 8 h.",
+      "titulacion": "Lenta.",
+      "duracion": "Crónica.",
+      "fin": "**Retirada en 1-2 semanas como mínimo.**",
+      "via": "Oral o intratecal.",
+      "monitorizacion": "Sedación, debilidad, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "Escaso paso al SNC (de ahí la vía intratecal).",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal, inalterado (70-80%)**.",
+      "vida_media": "3-4 h.",
+      "ajuste_renal": "Reducir dosis; evitar si FG <30.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Alcohol, opioides, benzodiacepinas",
+          "efecto": "Depresión del SNC",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Debilidad muscular",
+        "Mareo, náuseas"
+      ],
+      "graves": [
+        "**Encefalopatía en insuficiencia renal**",
+        "**Abstinencia** con convulsiones e hipertermia",
+        "Depresión respiratoria en sobredosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Precaución en epilepsia"
+    ],
+    "perlas": [
+      "Confusión en un paciente con baclofeno y deterioro renal: toxicidad por baclofeno (puede requerir diálisis)."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 27"
+  },
+  {
+    "id": "NEU-betahistina",
+    "nombre": "Betahistina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antivertiginoso",
+    "subclase": "Análogo de histamina (agonista H1 débil, antagonista H3)",
+    "vs_clase": [
+      "**NO es sedante vestibular**: se usa de forma **CRÓNICA** para reducir la frecuencia de crisis en la **enfermedad de MÉNIÈRE** (evidencia discutida).",
+      "**No sirve para la crisis aguda** de vértigo.",
+      "Precaución en **asma** y úlcera péptica (efecto histaminérgico)."
+    ],
+    "mecanismo": "Mejora la microcirculación del oído interno y modula la actividad de los núcleos vestibulares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Ménière (prevención de crisis)",
+        "dosis": "16-24 mg (48 mg/día)",
+        "posologia": "Cada 8-12 h con comida",
+        "via": "VO",
+        "nota": "Valorar a los 3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Meses.",
+      "fin": "Suspender si no reduce las crisis.",
+      "via": "Oral.",
+      "monitorizacion": "Diario de crisis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (ácido 2-piridilacético).",
+      "eliminacion": "Renal.",
+      "vida_media": "3-4 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antihistamínicos H1",
+          "efecto": "Antagonismo teórico",
+          "gravedad": "baja",
+          "manejo": "—"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Aumentan su exposición",
+          "gravedad": "baja",
+          "manejo": "Precaución"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, náuseas",
+        "Cefalea"
+      ],
+      "graves": [
+        "Broncoespasmo en asmáticos (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Feocromocitoma"
+    ],
+    "perlas": [
+      "Vértigo agudo con náuseas: sedante vestibular; prevención de crisis de Ménière: betahistina y restricción de sal."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de mareo y vértigo"
+  },
+  {
+    "id": "NEU-dimenhidrinato",
+    "nombre": "Dimenhidrinato",
+    "sinonimos": [
+      "Meclizina",
+      "Prometazina"
+    ],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antivertiginoso",
+    "subclase": "Antihistamínico H1 sedante (sedante vestibular)",
+    "vs_clase": [
+      "**SEDANTE VESTIBULAR** para el **vértigo agudo** (neuritis vestibular, crisis de Ménière) y la **cinetosis**.",
+      "**Solo 2-3 días**: el uso prolongado **retrasa la compensación central**.",
+      "**Anticolinérgico y sedante**: evitar en ancianos, glaucoma y prostatismo."
+    ],
+    "mecanismo": "Bloqueo H1 y muscarínico en los núcleos vestibulares y el centro del vómito.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vértigo agudo periférico",
+        "dosis": "50-100 mg",
+        "posologia": "Cada 6-8 h (máximo 400 mg/día)",
+        "via": "VO, IM o IV",
+        "nota": "2-3 días como máximo"
+      },
+      {
+        "patologia": "Prevención de la cinetosis",
+        "dosis": "50 mg",
+        "posologia": "30-60 min antes del viaje; repetir cada 6-8 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "En la crisis.",
+      "titulacion": "—",
+      "duracion": "≤3 días.",
+      "fin": "Retirar en cuanto ceda la fase aguda para no frenar la compensación.",
+      "via": "Oral o parenteral.",
+      "monitorizacion": "Sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, buena.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "4-8 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Alcohol, benzodiacepinas, opioides",
+          "efecto": "Sedación aditiva",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Otros anticolinérgicos",
+          "efecto": "Efecto anticolinérgico aditivo",
+          "gravedad": "media",
+          "manejo": "Evitar en ancianos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Somnolencia**",
+        "Boca seca, visión borrosa"
+      ],
+      "graves": [
+        "Confusión en ancianos",
+        "Retención urinaria"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Hiperplasia prostática con retención"
+    ],
+    "perlas": [
+      "La rehabilitación vestibular precoz mejora más que prolongar el sedante."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (meclizina con más datos en el embarazo).",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de mareo y vértigo; Katzung 15.ª ed., cap. 16"
+  },
+  {
+    "id": "NEU-cinarizina",
+    "nombre": "Cinarizina",
+    "sinonimos": [
+      "Flunarizina"
+    ],
+    "area": "NEU",
+    "nivel": 3,
+    "clase": "Antivertiginoso",
+    "subclase": "Antagonista del calcio y antihistamínico H1",
+    "vs_clase": [
+      "**Doble acción**: bloqueo de canales de calcio y H1; usada en el **vértigo** y la **cinetosis**.",
+      "**PARKINSONISMO y DEPRESIÓN** con uso prolongado, sobre todo en **ancianos** (igual que la flunarizina).",
+      "La **flunarizina** se usa además como **preventivo de la migraña**."
+    ],
+    "mecanismo": "Bloquea la entrada de calcio en las células vestibulares y los receptores H1.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vértigo periférico y cinetosis",
+        "dosis": "25 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Ciclos cortos"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Ciclos cortos.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "**Signos extrapiramidales**, ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático (CYP2D6).",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "4 h (flunarizina: 18 días).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar.",
+      "interacciones": [
+        {
+          "con": "Alcohol y depresores del SNC",
+          "efecto": "Sedación",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "**Parkinsonismo** y discinesias",
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad de Parkinson",
+      "Depresión",
+      "Ancianos (uso prolongado)"
+    ],
+    "perlas": [
+      "Parkinsonismo de nueva aparición en un anciano: revisar si toma cinarizina, flunarizina, metoclopramida o sulpirida."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 12; Harrison 20.ª ed., cap. de mareo y vértigo"
+  },
+  {
+    "id": "PSQ-duloxetina",
+    "nombre": "Duloxetina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "IRSN (inhibidor de la recaptación de serotonina y noradrenalina)",
+    "vs_clase": [
+      "**IRSN con indicaciones de DOLOR**: **neuropatía diabética**, **fibromialgia**, **artrosis y lumbalgia crónica**, además de depresión y ansiedad generalizada.",
+      "**Más balanceada sobre noradrenalina** que la venlafaxina a dosis bajas y **menos efecto sobre la PA**.",
+      "**Hepatotoxicidad**: evitar en hepatopatía y consumo de alcohol; **náuseas** al inicio (empezar con 30 mg)."
+    ],
+    "mecanismo": "Inhibe la recaptación de serotonina y noradrenalina y refuerza las vías descendentes inhibidoras del dolor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor neuropático diabético, fibromialgia, dolor musculoesquelético crónico",
+        "dosis": "30 mg 1 semana; después 60 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis superiores no aportan más analgesia"
+      },
+      {
+        "patologia": "Depresión mayor y ansiedad generalizada",
+        "dosis": "60 mg (hasta 120 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "30 mg con comida para reducir náuseas.",
+      "titulacion": "A 60 mg tras 1 semana.",
+      "duracion": "Reevaluar el dolor a las 8-12 semanas.",
+      "fin": "**Retirada gradual** (síndrome de discontinuación).",
+      "via": "Oral.",
+      "monitorizacion": "Náuseas, PA, sodio en ancianos, transaminasas si factores de riesgo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (cápsula gastrorresistente).",
+      "distribucion": "Unión a proteínas >90%.",
+      "metabolismo": "**CYP1A2 y 2D6**; inhibidor moderado de CYP2D6.",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "12 h.",
+      "ajuste_renal": "Evitar si FG <30.",
+      "ajuste_hepatico": "Contraindicada.",
+      "interacciones": [
+        {
+          "con": "Fluvoxamina, ciprofloxacino (inhibidores de CYP1A2)",
+          "efecto": "Aumentan mucho sus niveles",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "IMAO, tramadol, triptanes, linezolid",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar"
+        },
+        {
+          "con": "Anticoagulantes, AINE",
+          "efecto": "Sangrado",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas**",
+        "Boca seca, estreñimiento",
+        "Somnolencia o insomnio, sudoración"
+      ],
+      "graves": [
+        "**Hepatotoxicidad**",
+        "Hiponatremia (SIADH)",
+        "Síndrome serotoninérgico"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia hepática",
+      "FG <30",
+      "Glaucoma de ángulo cerrado no controlado",
+      "IMAO"
+    ],
+    "perlas": [
+      "Paciente con depresión y dolor crónico: la duloxetina trata ambos con un solo fármaco."
+    ],
+    "embarazo_lactancia": "Evitar si hay alternativas.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 30"
+  },
+  {
+    "id": "REU-diclofenaco-topico",
+    "nombre": "Diclofenaco tópico (gel)",
+    "sinonimos": [
+      "Ketoprofeno gel",
+      "Ibuprofeno gel"
+    ],
+    "area": "REU",
+    "nivel": 1,
+    "clase": "AINE no selectivo",
+    "subclase": "AINE tópico",
+    "vs_clase": [
+      "**De primera línea en la ARTROSIS de RODILLA y MANO** (articulaciones superficiales), sobre todo en **ancianos**.",
+      "**Exposición sistémica ~5%** de la oral: **mucho menos riesgo gastrointestinal, renal y cardiovascular**.",
+      "**Dermatitis local** como efecto principal; el **ketoprofeno tópico produce FOTOSENSIBILIDAD** (evitar el sol)."
+    ],
+    "mecanismo": "Inhibición local de COX-1 y COX-2 en los tejidos periarticulares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artrosis de rodilla o mano, dolor musculoesquelético localizado",
+        "dosis": "2-4 g de gel al 1% (o 2 g al 2,32%)",
+        "posologia": "Cada 6-8 h (cada 12 h la forma al 2,32%)",
+        "via": "tópica",
+        "nota": "Máximo 32 g/día del gel al 1%"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Continuo o a demanda; reevaluar a las 2-4 semanas.",
+      "fin": "—",
+      "via": "Tópica (piel intacta).",
+      "monitorizacion": "Irritación local."
+    },
+    "farmacocinetica": {
+      "absorcion": "Cutánea, ~5% de la exposición oral.",
+      "distribucion": "Tejido sinovial y periarticular.",
+      "metabolismo": "Hepático (CYP2C9).",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución en grandes superficies.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "AINE orales",
+          "efecto": "Efectos sistémicos aditivos",
+          "gravedad": "baja",
+          "manejo": "Evitar la duplicidad"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dermatitis de contacto, prurito, eritema"
+      ],
+      "graves": [
+        "Excepcionales (sistémicos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Piel lesionada",
+      "Alergia a AINE o asma inducida por AAS",
+      "Tercer trimestre del embarazo"
+    ],
+    "perlas": [
+      "En el anciano con artrosis de rodilla, antes que un AINE oral, gel de diclofenaco."
+    ],
+    "embarazo_lactancia": "Evitar en el tercer trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36"
+  },
+  {
+    "id": "REU-tofacitinib",
+    "nombre": "Tofacitinib",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Inhibidor de JAK",
+    "subclase": "Inhibidor de JAK1 y JAK3 (pan-JAK)",
+    "vs_clase": [
+      "**El primero de la clase**: artritis reumatoide, artritis psoriásica, espondiloartritis y **colitis ulcerosa**.",
+      "**ORAL**, de acción rápida; **más ZÓSTER** que los biológicos (vacunar antes).",
+      "**ORAL Surveillance**: más **eventos cardiovasculares, trombosis y cáncer** que anti-TNF en ≥65 años, fumadores o con riesgo CV → **solo si no hay alternativa** en esos pacientes (aplicable a toda la clase)."
+    ],
+    "mecanismo": "Inhibe las Janus quinasas y bloquea la señalización de múltiples citocinas (IL-6, IL-2, interferones).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artritis reumatoide y psoriásica con fracaso de FAME",
+        "dosis": "5 mg",
+        "posologia": "Cada 12 h (o 11 mg de liberación prolongada cada 24 h)",
+        "via": "VO",
+        "nota": "Con o sin metotrexato"
+      },
+      {
+        "patologia": "Colitis ulcerosa moderada-grave",
+        "dosis": "10 mg en inducción; 5 mg en mantenimiento",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Inducción 8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Cribado de tuberculosis latente, VHB, VHC**; vacuna del zóster recombinante; hemograma, lípidos y transaminasas.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Linfocitos, neutrófilos, Hb, lípidos y transaminasas a las 4-8 semanas y después cada 3 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 74%.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4** (70%).",
+      "eliminacion": "Renal (30%).",
+      "vida_media": "3 h.",
+      "ajuste_renal": "FG <30: 5 mg cada 24 h.",
+      "ajuste_hepatico": "Moderada: 5 mg cada 24 h; grave: contraindicado.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, fluconazol (inhibidores potentes de CYP3A4)",
+          "efecto": "Duplican sus niveles",
+          "gravedad": "media",
+          "manejo": "5 mg cada 24 h"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Biológicos, azatioprina, ciclosporina",
+          "efecto": "Inmunosupresión excesiva",
+          "gravedad": "alta",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Herpes zóster**",
+        "Infecciones respiratorias",
+        "Aumento de LDL y CPK"
+      ],
+      "graves": [
+        "**Trombosis venosa y TEP**",
+        "**Eventos cardiovasculares mayores**",
+        "Neoplasias, infecciones graves",
+        "Perforación intestinal"
+      ]
+    },
+    "contraindicaciones": [
+      "Tuberculosis o infección activa",
+      "Embarazo",
+      "Alto riesgo trombótico (relativa)"
+    ],
+    "perlas": [
+      "Paciente ≥65 años, fumador o con antecedentes CV: preferir un biológico a un inhibidor de JAK."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 36 y 55; comunicaciones de seguridad de la EMA y la FDA (2021-2023)"
+  },
+  {
+    "id": "REU-baricitinib",
+    "nombre": "Baricitinib",
+    "sinonimos": [],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Inhibidor de JAK",
+    "subclase": "Inhibidor de JAK1 y JAK2",
+    "vs_clase": [
+      "**JAK1/JAK2**, **una toma al día**: artritis reumatoide, **dermatitis atópica** grave, **alopecia areata**, y **COVID-19 grave** hospitalizada.",
+      "**Eliminación RENAL** (75%): **2 mg si FG 30-60**; evitar si <30.",
+      "Mismas advertencias de clase: trombosis, eventos CV, neoplasias y zóster."
+    ],
+    "mecanismo": "Inhibición de JAK1 y JAK2.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artritis reumatoide, dermatitis atópica, alopecia areata",
+        "dosis": "4 mg (2 mg en ≥75 años o FG 30-60)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "—"
+      },
+      {
+        "patologia": "COVID-19 hospitalizado con oxígeno y marcadores inflamatorios",
+        "dosis": "4 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Hasta 14 días o alta, junto a dexametasona"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de infecciones latentes; vacunas.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Hemograma, lípidos, transaminasas, creatinina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 80%.",
+      "distribucion": "—",
+      "metabolismo": "Escaso (CYP3A4).",
+      "eliminacion": "**Renal (75%, inalterado)**; sustrato de OAT3.",
+      "vida_media": "12 h.",
+      "ajuste_renal": "FG 30-60: 2 mg; FG <30: no recomendado.",
+      "ajuste_hepatico": "Evitar en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Probenecid (inhibidor de OAT3)",
+          "efecto": "Duplica su exposición",
+          "gravedad": "media",
+          "manejo": "2 mg/día"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Infecciones respiratorias",
+        "Herpes zóster",
+        "Aumento de LDL"
+      ],
+      "graves": [
+        "**Trombosis venosa y TEP**",
+        "Eventos CV mayores",
+        "Infecciones graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa",
+      "Embarazo",
+      "FG <30"
+    ],
+    "perlas": [
+      "En COVID-19 grave, baricitinib y tocilizumab son las dos opciones de inmunomodulación añadidas a la dexametasona."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; Harrison 20.ª ed., cap. de artritis reumatoide"
+  },
+  {
+    "id": "REU-upadacitinib",
+    "nombre": "Upadacitinib",
+    "sinonimos": [
+      "Filgotinib",
+      "Abrocitinib"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Inhibidor de JAK",
+    "subclase": "Inhibidor selectivo de JAK1",
+    "vs_clase": [
+      "**JAK1 SELECTIVO**, liberación prolongada **una vez al día**: el de **más indicaciones** (AR, artritis psoriásica, espondiloartritis, dermatitis atópica, colitis ulcerosa y **Crohn**).",
+      "**Inducción con dosis altas** en la EII (45 mg) y mantenimiento 15-30 mg.",
+      "**Acné** frecuente además de las advertencias de clase (trombosis, CV, neoplasias, zóster)."
+    ],
+    "mecanismo": "Inhibición preferente de JAK1.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Artritis reumatoide, artritis psoriásica, espondiloartritis",
+        "dosis": "15 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "—"
+      },
+      {
+        "patologia": "Colitis ulcerosa y enfermedad de Crohn",
+        "dosis": "45 mg en inducción; 15-30 mg en mantenimiento",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Inducción 8 semanas (12 en Crohn)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de infecciones latentes, vacunas.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Hemograma, lípidos, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "8-14 h.",
+      "ajuste_renal": "FG <30: dosis bajas.",
+      "ajuste_hepatico": "Contraindicado en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Ketoconazol, claritromicina (inhibidores potentes de CYP3A4)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Usar la dosis más baja"
+        },
+        {
+          "con": "Rifampicina",
+          "efecto": "Pérdida de eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Acné**",
+        "Infecciones respiratorias, zóster",
+        "Aumento de CPK y LDL"
+      ],
+      "graves": [
+        "**Trombosis venosa**",
+        "Eventos CV mayores",
+        "Perforación intestinal"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa",
+      "Embarazo (teratógeno en animales)",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "Anticoncepción eficaz durante el tratamiento y 4 semanas después."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  }
+]

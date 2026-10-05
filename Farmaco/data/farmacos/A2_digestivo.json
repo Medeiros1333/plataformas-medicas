@@ -1,0 +1,743 @@
+[
+  {
+    "id": "DIG-mebeverina",
+    "nombre": "Mebeverina",
+    "sinonimos": [
+      "Trimebutina",
+      "Pinaverio"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antiespasmódico intestinal",
+    "subclase": "Relajante musculotrópico directo",
+    "vs_clase": [
+      "**Musculotrópico DIRECTO, SIN efecto anticolinérgico**: no produce sequedad de boca, retención urinaria ni empeora el glaucoma (a diferencia de la butilescopolamina).",
+      "Útil en el **dolor abdominal del síndrome del intestino irritable**, a demanda o en ciclos.",
+      "Presentación **retard de 200 mg cada 12 h** que facilita el cumplimiento."
+    ],
+    "mecanismo": "Bloquea canales de sodio y calcio del músculo liso intestinal y reduce el espasmo sin alterar la motilidad normal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor abdominal y espasmo del síndrome del intestino irritable",
+        "dosis": "135 mg (o 200 mg retard)",
+        "posologia": "Cada 8 h, 20 min antes de las comidas (retard: cada 12 h)",
+        "via": "VO",
+        "nota": "Valorar a las 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras confirmar el diagnóstico (criterios de Roma IV, sin signos de alarma).",
+      "titulacion": "—",
+      "duracion": "Ciclos de 4-8 semanas o a demanda.",
+      "fin": "Sin retirada gradual.",
+      "via": "Oral.",
+      "monitorizacion": "Respuesta del dolor."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, rápida.",
+      "distribucion": "—",
+      "metabolismo": "Hidrólisis hepática completa (primer paso).",
+      "eliminacion": "Renal.",
+      "vida_media": "2 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Muy pocos: molestias digestivas, exantema"
+      ],
+      "graves": [
+        "Reacciones alérgicas (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Íleo paralítico"
+    ],
+    "perlas": [
+      "En el paciente con glaucoma o prostatismo, mejor un antiespasmódico musculotrópico que uno anticolinérgico."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de síndrome del intestino irritable"
+  },
+  {
+    "id": "DIG-otilonio",
+    "nombre": "Bromuro de otilonio",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Antiespasmódico intestinal",
+    "subclase": "Amonio cuaternario de acción local",
+    "vs_clase": [
+      "**Amonio CUATERNARIO que apenas se absorbe** (<5%): actúa sobre el colon **sin efectos sistémicos**.",
+      "Bloquea canales de calcio tipo L y receptores de taquicininas: **reduce el dolor y la distensión** del SII.",
+      "Pocas interacciones; uso extendido en Europa, América Latina y Asia."
+    ],
+    "mecanismo": "Bloqueo local de canales de calcio y receptores NK2 del músculo liso colónico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síndrome del intestino irritable (dolor y distensión)",
+        "dosis": "40 mg",
+        "posologia": "Cada 8-12 h, antes de las comidas",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Ciclos de 4-8 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima (<5%).",
+      "distribucion": "Pared intestinal.",
+      "metabolismo": "—",
+      "eliminacion": "Fecal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas leves"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal"
+    ],
+    "perlas": [
+      "Su escasa absorción lo hace útil en ancianos polimedicados."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de síndrome del intestino irritable"
+  },
+  {
+    "id": "DIG-aceite-menta",
+    "nombre": "Aceite de menta piperita (cápsulas entéricas)",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Antiespasmódico intestinal",
+    "subclase": "Antiespasmódico de origen vegetal (bloqueante del calcio)",
+    "vs_clase": [
+      "**De origen vegetal** (mentol) con **ensayos controlados favorables** en el dolor global del SII.",
+      "**Cápsulas con CUBIERTA ENTÉRICA**: si se rompen en el estómago, **producen PIROSIS** (relaja el esfínter esofágico inferior).",
+      "**Evitar en la ERGE**; no masticar las cápsulas."
+    ],
+    "mecanismo": "El mentol bloquea canales de calcio del músculo liso intestinal y modula la sensibilidad visceral.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síndrome del intestino irritable",
+        "dosis": "180-200 mg (0,2 mL)",
+        "posologia": "Cada 8 h, 30-60 min antes de las comidas",
+        "via": "VO",
+        "nota": "Ciclos de 4-12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "4-12 semanas.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Pirosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación en el íleon.",
+      "distribucion": "—",
+      "metabolismo": "Glucuronidación hepática del mentol.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antiácidos, IBP, anti-H2",
+          "efecto": "Disuelven antes la cubierta: pirosis",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Pirosis**",
+        "Olor a menta, quemazón perianal"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "ERGE, hernia de hiato sintomática",
+      "Aclorhidria"
+    ],
+    "perlas": [
+      "Si al paciente con SII le da pirosis, probablemente esté tomando las cápsulas con un antiácido."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de síndrome del intestino irritable"
+  },
+  {
+    "id": "DIG-linaclotida",
+    "nombre": "Linaclotida",
+    "sinonimos": [
+      "Plecanatida"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Secretagogo y procinético intestinal",
+    "subclase": "Agonista de la guanilato ciclasa C",
+    "vs_clase": [
+      "**De elección en el SII con ESTREÑIMIENTO** refractario a fibra y laxantes: mejora el estreñimiento **y el DOLOR abdominal** (reduce la hipersensibilidad visceral).",
+      "**Péptido que NO se absorbe**: acción luminal, sin interacciones.",
+      "**DIARREA** como efecto adverso principal; tomar **30 min antes del desayuno**."
+    ],
+    "mecanismo": "Activa la guanilato ciclasa C del enterocito: el GMPc estimula la secreción de cloruro y bicarbonato (vía CFTR) y agua a la luz, y reduce la actividad de las fibras del dolor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síndrome del intestino irritable con estreñimiento",
+        "dosis": "290 µg",
+        "posologia": "Cada 24 h, 30 min antes del desayuno",
+        "via": "VO",
+        "nota": "Reevaluar a las 4 semanas"
+      },
+      {
+        "patologia": "Estreñimiento crónico idiopático",
+        "dosis": "72-145 µg",
+        "posologia": "Cada 24 h en ayunas",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras fracaso de fibra y laxante osmótico.",
+      "titulacion": "—",
+      "duracion": "Continua si responde.",
+      "fin": "Suspender si no mejora a las 4 semanas.",
+      "via": "Oral.",
+      "monitorizacion": "Diarrea, deshidratación."
+    },
+    "farmacocinetica": {
+      "absorcion": "Prácticamente nula.",
+      "distribucion": "Luz intestinal.",
+      "metabolismo": "Proteólisis intestinal.",
+      "eliminacion": "Fecal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IBP, laxantes, AINE",
+          "efecto": "Más diarrea",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea** (20%)",
+        "Distensión, flatulencia"
+      ],
+      "graves": [
+        "Deshidratación por diarrea grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal mecánica",
+      "Niños pequeños (riesgo de deshidratación)"
+    ],
+    "perlas": [
+      "Si la diarrea es intensa en los primeros días, tomarla con más antelación al desayuno o suspender."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62; Harrison 20.ª ed., cap. de síndrome del intestino irritable"
+  },
+  {
+    "id": "DIG-prucaloprida",
+    "nombre": "Prucaloprida",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Secretagogo y procinético intestinal",
+    "subclase": "Agonista selectivo 5-HT4 (procinético)",
+    "vs_clase": [
+      "**PROCINÉTICO del colon**: aumenta los movimientos propulsivos (no es un laxante osmótico ni estimulante).",
+      "**Alta selectividad 5-HT4**: **sin la toxicidad cardiaca** (QT) de los antiguos agonistas 5-HT4 como la cisaprida.",
+      "**1 mg en mayores de 65 años** y en insuficiencia renal grave; cefalea típica el primer día."
+    ],
+    "mecanismo": "Agonista 5-HT4 entérico que estimula la liberación de acetilcolina y los complejos motores propulsivos del colon.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estreñimiento crónico refractario a laxantes",
+        "dosis": "2 mg (1 mg si >65 años)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Reevaluar a las 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras fracaso de ≥2 laxantes durante 6 meses.",
+      "titulacion": "—",
+      "duracion": "Continua si responde.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Respuesta, cefalea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, >90%.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal, inalterada.",
+      "vida_media": "24 h.",
+      "ajuste_renal": "FG <30: 1 mg; diálisis: contraindicada.",
+      "ajuste_hepatico": "Insuficiencia grave: 1 mg.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos orales",
+          "efecto": "Pérdida de eficacia si hay diarrea intensa",
+          "gravedad": "baja",
+          "manejo": "Método adicional"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Cefalea** (sobre todo el primer día)",
+        "Dolor abdominal, náuseas, diarrea"
+      ],
+      "graves": [
+        "Ideación suicida (casos aislados, sin causalidad establecida)"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción o perforación intestinal",
+      "Enfermedad inflamatoria intestinal grave, megacolon tóxico",
+      "Diálisis"
+    ],
+    "perlas": [
+      "Distinguir el estreñimiento por tránsito lento (responde a procinéticos) de la disinergia defecatoria (responde a biofeedback)."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "DIG-lubiprostona",
+    "nombre": "Lubiprostona",
+    "sinonimos": [],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Secretagogo y procinético intestinal",
+    "subclase": "Activador de los canales de cloruro ClC-2",
+    "vs_clase": [
+      "**Activa los canales de cloruro tipo 2**: secreción de líquido a la luz por una vía distinta a la linaclotida.",
+      "**Indicación propia: estreñimiento INDUCIDO POR OPIOIDES** (no metadona) en dolor no oncológico.",
+      "**NÁUSEAS frecuentes**: tomar con comida."
+    ],
+    "mecanismo": "Derivado de prostaglandina E1 que activa los canales ClC-2 del epitelio intestinal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Estreñimiento crónico idiopático y por opioides",
+        "dosis": "24 µg",
+        "posologia": "Cada 12 h con comida",
+        "via": "VO",
+        "nota": "SII con estreñimiento en mujeres: 8 µg cada 12 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Continua si responde.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Náuseas, disnea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "Carbonil reductasa en estómago y yeyuno.",
+      "eliminacion": "Renal y fecal (metabolitos).",
+      "vida_media": "1-1,5 h (metabolito).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir en insuficiencia moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Metadona",
+          "efecto": "Puede anular su eficacia",
+          "gravedad": "baja",
+          "manejo": "Elegir otra opción"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas** (hasta 30%)",
+        "Diarrea, cefalea"
+      ],
+      "graves": [
+        "Disnea y opresión torácica tras la dosis (transitoria)",
+        "Síncope"
+      ]
+    },
+    "contraindicaciones": [
+      "Obstrucción intestinal mecánica"
+    ],
+    "perlas": [
+      "Las náuseas disminuyen si se toma con el desayuno y la cena."
+    ],
+    "embarazo_lactancia": "Evitar (derivado de prostaglandina).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "NFR-albumina",
+    "nombre": "Albúmina humana",
+    "sinonimos": [],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Coloide natural (hemoderivado)",
+    "vs_clase": [
+      "**Coloide**: expande el volumen intravascular **más que los cristaloides** por mililitro.",
+      "**Indicaciones con beneficio demostrado en la CIRROSIS**: tras **paracentesis evacuadora >5 L**, en la **peritonitis bacteriana espontánea** y en el **síndrome hepatorrenal** (con terlipresina).",
+      "**No en la reanimación habitual** del shock ni para «corregir la albúmina baja» del paciente desnutrido."
+    ],
+    "mecanismo": "Aumenta la presión oncótica plasmática, retiene volumen en el compartimento vascular y fija toxinas y fármacos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Paracentesis evacuadora >5 L",
+        "dosis": "6-8 g por litro extraído",
+        "posologia": "Tras la paracentesis",
+        "via": "IV",
+        "nota": "Al 20%"
+      },
+      {
+        "patologia": "Peritonitis bacteriana espontánea",
+        "dosis": "1,5 g/kg el día 1 y 1 g/kg el día 3",
+        "posologia": "Dos dosis",
+        "via": "IV",
+        "nota": "Junto al antibiótico; reduce el fallo renal y la mortalidad"
+      },
+      {
+        "patologia": "Síndrome hepatorrenal",
+        "dosis": "1 g/kg (máximo 100 g) el día 1; después 20-40 g/día",
+        "posologia": "Cada 24 h",
+        "via": "IV",
+        "nota": "Con terlipresina"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "Según volemia.",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "**Sobrecarga de volumen y edema pulmonar**, creatinina."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Intravascular e intersticial.",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "15-20 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Fiebre, escalofríos"
+      ],
+      "graves": [
+        "**Sobrecarga de volumen, edema pulmonar**",
+        "Reacciones alérgicas"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia cardiaca descompensada",
+      "Anemia grave sin corregir"
+    ],
+    "perlas": [
+      "En la cirrosis, la albúmina tras una paracentesis grande previene la disfunción circulatoria posparacentesis."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis y sus complicaciones"
+  },
+  {
+    "id": "INM-ustekinumab",
+    "nombre": "Ustekinumab",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Biológico anti-IL-23 (y anti-IL-12/23)",
+    "subclase": "Anticuerpo anti-p40 (IL-12 e IL-23)",
+    "vs_clase": [
+      "**Bloquea la subunidad p40**, común a IL-12 e IL-23: el primero de la clase.",
+      "**Indicaciones**: **psoriasis**, artritis psoriásica, **enfermedad de Crohn** y **colitis ulcerosa** (inducción IV por peso, mantenimiento SC).",
+      "**Muy buen perfil de seguridad** (no aumenta tuberculosis como los anti-TNF); **biosimilares disponibles**."
+    ],
+    "mecanismo": "Anticuerpo monoclonal humano que bloquea la subunidad p40 de IL-12 e IL-23 e inhibe las vías Th1 y Th17.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave",
+        "dosis": "45 mg (90 mg si >100 kg)",
+        "posologia": "Semanas 0 y 4; después cada 12 semanas",
+        "via": "SC",
+        "nota": "—"
+      },
+      {
+        "patologia": "Enfermedad de Crohn y colitis ulcerosa",
+        "dosis": "Inducción ~6 mg/kg IV (260 mg ≤55 kg; 390 mg 55-85 kg; 520 mg >85 kg); mantenimiento 90 mg",
+        "posologia": "Dosis IV única; después SC cada 8 semanas (o cada 12)",
+        "via": "IV y SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Cribado de tuberculosis latente, VHB, VHC y VIH**; actualizar vacunas.",
+      "titulacion": "Acortar el intervalo si pierde respuesta.",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC (inducción IV en EII).",
+      "monitorizacion": "Infecciones, respuesta."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, biodisponibilidad 57%.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "3 semanas.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas de microorganismos vivos",
+          "efecto": "Riesgo de infección por la vacuna",
+          "gravedad": "alta",
+          "manejo": "Evitar durante el tratamiento"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Nasofaringitis",
+        "Reacción en el lugar de inyección",
+        "Cefalea"
+      ],
+      "graves": [
+        "Infecciones graves (poco frecuentes)",
+        "Leucoencefalopatía posterior reversible (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección activa clínicamente importante",
+      "Tuberculosis activa"
+    ],
+    "perlas": [
+      "En el paciente con antecedente de tuberculosis o insuficiencia cardiaca, los anti-IL-12/23 son más seguros que los anti-TNF."
+    ],
+    "embarazo_lactancia": "Usar si es necesario (datos tranquilizadores).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "INM-risankizumab",
+    "nombre": "Risankizumab",
+    "sinonimos": [
+      "Tildrakizumab",
+      "Mirikizumab"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Biológico anti-IL-23 (y anti-IL-12/23)",
+    "subclase": "Anticuerpo anti-p19 (IL-23 selectivo)",
+    "vs_clase": [
+      "**Anti-p19, selectivo de IL-23**: **más eficaz que ustekinumab** en psoriasis (aclaramiento PASI 90 muy alto).",
+      "**Mantenimiento cada 12 semanas** en psoriasis (4 inyecciones al año).",
+      "En la **enfermedad de Crohn**, inducción IV 600 mg; **vigilar transaminasas** (hepatotoxicidad descrita en la inducción)."
+    ],
+    "mecanismo": "Anticuerpo que bloquea la subunidad p19 de la IL-23 y frena la vía Th17 sin afectar a la IL-12.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave y artritis psoriásica",
+        "dosis": "150 mg",
+        "posologia": "Semanas 0 y 4; después cada 12 semanas",
+        "via": "SC",
+        "nota": "—"
+      },
+      {
+        "patologia": "Enfermedad de Crohn moderada-grave",
+        "dosis": "600 mg IV en inducción; 180-360 mg SC en mantenimiento",
+        "posologia": "IV semanas 0, 4 y 8; después SC cada 8 semanas",
+        "via": "IV y SC",
+        "nota": "Transaminasas y bilirrubina basales y durante la inducción"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente y hepatitis.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC (inducción IV en Crohn).",
+      "monitorizacion": "Infecciones; transaminasas en Crohn."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, 89%.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "28 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Infecciones respiratorias altas",
+        "Cefalea, astenia"
+      ],
+      "graves": [
+        "**Hepatotoxicidad** (inducción en Crohn)",
+        "Infecciones graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Tuberculosis activa",
+      "Infección activa importante"
+    ],
+    "perlas": [
+      "Psoriasis grave en un paciente que no quiere inyectarse a menudo: anti-IL-23 trimestral."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "INM-guselkumab",
+    "nombre": "Guselkumab",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Biológico anti-IL-23 (y anti-IL-12/23)",
+    "subclase": "Anticuerpo anti-p19 (IL-23 selectivo)",
+    "vs_clase": [
+      "**Anti-p19**: eficacia en psoriasis superior a adalimumab y secukinumab a largo plazo.",
+      "**Mantenimiento cada 8 semanas** en psoriasis; indicado también en **artritis psoriásica**, **colitis ulcerosa** y **Crohn**.",
+      "Se une además al receptor CD64 de los macrófagos productores de IL-23 (diana en el tejido inflamado)."
+    ],
+    "mecanismo": "Bloquea la subunidad p19 de la IL-23.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Psoriasis en placas moderada-grave",
+        "dosis": "100 mg",
+        "posologia": "Semanas 0 y 4; después cada 8 semanas",
+        "via": "SC",
+        "nota": "—"
+      },
+      {
+        "patologia": "Colitis ulcerosa y enfermedad de Crohn",
+        "dosis": "200 mg IV en inducción; 100 mg cada 8 semanas o 200 mg cada 4 semanas SC en mantenimiento",
+        "posologia": "IV semanas 0, 4 y 8; después SC",
+        "via": "IV y SC",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cribado de tuberculosis latente y hepatitis.",
+      "titulacion": "—",
+      "duracion": "Indefinida mientras responda.",
+      "fin": "—",
+      "via": "SC (inducción IV en EII).",
+      "monitorizacion": "Infecciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC, 49%.",
+      "distribucion": "Vascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "—",
+      "vida_media": "15-18 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Riesgo de infección",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Infecciones respiratorias altas",
+        "Cefalea, artralgias",
+        "Diarrea"
+      ],
+      "graves": [
+        "Infecciones graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Tuberculosis activa",
+      "Infección activa importante"
+    ],
+    "perlas": [
+      "Los anti-IL-23 no empeoran la enfermedad inflamatoria intestinal (los anti-IL-17 sí pueden)."
+    ],
+    "embarazo_lactancia": "Evitar por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  }
+]

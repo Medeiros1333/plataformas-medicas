@@ -1,0 +1,411 @@
+[
+  {
+    "id": "PAT-pancreatitis-aguda",
+    "nombre": "Pancreatitis aguda",
+    "sinonimos": ["Pancreatitis"],
+    "area": "DIG",
+    "resumen": "Diagnóstico con 2 de 3: dolor epigástrico típico, **lipasa o amilasa >3 veces** el límite superior, imagen compatible. Causas principales: **litiasis biliar y alcohol** (también hipertrigliceridemia >1000 mg/dL, CPRE, fármacos). Tratamiento de soporte: **fluidoterapia moderada guiada por objetivos**, **analgesia** suficiente (opioides incluidos) y **nutrición oral precoz**. **No antibióticos profilácticos**: solo si hay necrosis infectada o colangitis.",
+    "objetivo": "Mantener la perfusión sin sobrecarga, controlar el dolor y detectar complicaciones.",
+    "escenarios": [
+      {
+        "titulo": "Fluidoterapia",
+        "farmacos": [
+          { "nombre": "Ringer lactato", "ref": "NFR-ringer-lactato", "dosis": "Bolo de 10 mL/kg si hipovolemia; después 1,5 mL/kg/h", "via": "IV", "intervalo": "Perfusión continua", "duracion": "24-48 h, reevaluando cada 6 h", "nota": "Objetivo: diuresis >0,5 mL/kg/h, mejoría de BUN y hematocrito; evitar la sobrecarga agresiva" }
+        ]
+      },
+      {
+        "titulo": "Analgesia y antiemesis",
+        "farmacos": [
+          { "nombre": "Metamizol", "ref": "REU-metamizol", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Mientras haya dolor" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "IV", "intervalo": "Cada 6-8 h", "duracion": "Mientras haya dolor", "nota": "Alternativa" },
+          { "nombre": "Morfina (dolor intenso)", "ref": "REU-morfina", "dosis": "2-4 mg", "via": "IV o SC", "intervalo": "Cada 4 h o a demanda", "duracion": "Mientras haya dolor", "nota": "No empeora la pancreatitis; buprenorfina o fentanilo como alternativas" },
+          { "nombre": "Ondansetrón", "ref": "DIG-ondansetron", "dosis": "4-8 mg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "A demanda" }
+        ]
+      },
+      {
+        "titulo": "Necrosis infectada (gas en la TC, deterioro tras 7-10 días)",
+        "farmacos": [
+          { "nombre": "Meropenem", "ref": "INF-meropenem", "dosis": "1 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Según drenaje y evolución (semanas)", "nota": "Penetra bien en el tejido pancreático" },
+          { "nombre": "Piperacilina-tazobactam", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6-8 h", "duracion": "Según evolución", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Nutrición oral precoz (24-48 h) en cuanto lo tolere; enteral por sonda si no",
+      "Colecistectomía en el mismo ingreso si es biliar y leve",
+      "CPRE urgente solo si hay colangitis u obstrucción biliar persistente",
+      "Abstinencia de alcohol; tratar la hipertrigliceridemia"
+    ],
+    "claves": [
+      "**La gravedad la marca el fallo orgánico persistente (>48 h), no el nivel de lipasa.**",
+      "**Los antibióticos profilácticos no reducen la mortalidad.**"
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de pancreatitis aguda y crónica"
+  },
+  {
+    "id": "PAT-colico-biliar-colecistitis",
+    "nombre": "Cólico biliar, colecistitis y colangitis aguda",
+    "sinonimos": ["Colelitiasis", "Litiasis biliar", "Colecistitis aguda", "Colangitis"],
+    "area": "DIG",
+    "resumen": "**Cólico biliar**: dolor en hipocondrio derecho <6 h sin fiebre → analgesia (AINE) y colecistectomía programada. **Colecistitis**: dolor >6 h, Murphy positivo, fiebre y leucocitosis → antibiótico y **colecistectomía precoz** (<72 h). **Colangitis** (fiebre, ictericia, dolor; tríada de Charcot) → antibiótico IV y **drenaje biliar (CPRE)** urgente si es grave.",
+    "objetivo": "Aliviar el dolor, controlar la infección y resolver la causa.",
+    "escenarios": [
+      {
+        "titulo": "Cólico biliar",
+        "farmacos": [
+          { "nombre": "Diclofenaco", "ref": "REU-diclofenaco", "dosis": "75 mg", "via": "IM o VO", "intervalo": "Dosis única; repetir a las 12 h si hace falta", "duracion": "24-48 h", "nota": "Reduce además la progresión a colecistitis" },
+          { "nombre": "Butilescopolamina", "ref": "DIG-butilescopolamina", "dosis": "20 mg", "via": "IV o IM", "intervalo": "Cada 6-8 h", "duracion": "A demanda", "nota": "Coadyuvante" },
+          { "nombre": "Ácido ursodesoxicólico (solo litiasis de colesterol pequeña, no candidato a cirugía)", "ref": "DIG-acido-ursodesoxicolico", "dosis": "10-15 mg/kg/día", "via": "VO", "intervalo": "Repartido en 2 tomas o por la noche", "duracion": "6-24 meses", "nota": "Recidiva frecuente tras suspender" }
+        ]
+      },
+      {
+        "titulo": "Colecistitis aguda leve-moderada adquirida en la comunidad",
+        "farmacos": [
+          { "nombre": "Ceftriaxona + metronidazol", "ref": "INF-ceftriaxona", "dosis": "Ceftriaxona 2 g + metronidazol 500 mg", "via": "IV", "intervalo": "Ceftriaxona cada 24 h; metronidazol cada 8 h", "duracion": "Hasta 24 h tras la colecistectomía (4-7 días si no se opera)" },
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "1-2 g/200 mg", "via": "IV", "intervalo": "Cada 8 h", "duracion": "Igual que la anterior", "nota": "Alternativa en casos leves" }
+        ]
+      },
+      {
+        "titulo": "Colecistitis grave, colangitis o adquirida en el hospital",
+        "farmacos": [
+          { "nombre": "Piperacilina-tazobactam", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6 h", "duracion": "4-7 días tras el control del foco" },
+          { "nombre": "Meropenem", "ref": "INF-meropenem", "dosis": "1 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "4-7 días tras el control del foco", "nota": "Si BLEE o shock séptico" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Colecistectomía laparoscópica precoz en la colecistitis",
+      "CPRE en la coledocolitiasis y la colangitis (urgente si es grave)",
+      "Colecistostomía percutánea si el riesgo quirúrgico es prohibitivo"
+    ],
+    "claves": [
+      "**Tríada de Charcot (fiebre, ictericia, dolor) + hipotensión y confusión = pentada de Reynolds: drenaje urgente.**",
+      "La litiasis asintomática no se trata."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de la vesícula y las vías biliares"
+  },
+  {
+    "id": "PAT-diverticulitis",
+    "nombre": "Diverticulitis aguda",
+    "sinonimos": ["Enfermedad diverticular"],
+    "area": "DIG",
+    "resumen": "Dolor en fosa ilíaca izquierda con fiebre y elevación de PCR; confirmar con **TC**. La **diverticulitis no complicada** en inmunocompetentes, sin comorbilidad grave ni signos sistémicos, puede manejarse **sin antibiótico** (analgesia y dieta). Antibiótico si es complicada (absceso, perforación), hay sepsis, inmunodepresión, edad avanzada o mala evolución. Absceso >3-4 cm: drenaje percutáneo.",
+    "objetivo": "Resolver el episodio y detectar complicaciones.",
+    "escenarios": [
+      {
+        "titulo": "No complicada con criterios de antibiótico, ambulatoria",
+        "farmacos": [
+          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "4-7 días" },
+          { "nombre": "Ciprofloxacino + metronidazol (alergia a penicilina)", "ref": "INF-ciprofloxacino", "dosis": "Ciprofloxacino 500 mg + metronidazol 500 mg", "via": "VO", "intervalo": "Ciprofloxacino cada 12 h; metronidazol cada 8 h", "duracion": "4-7 días", "nota": "Alternativa" },
+          { "nombre": "Paracetamol", "ref": "REU-paracetamol", "dosis": "1 g", "via": "VO", "intervalo": "Cada 8 h", "duracion": "A demanda", "nota": "Evitar AINE y opioides si es posible (asociados a perforación)" }
+        ]
+      },
+      {
+        "titulo": "Complicada u hospitalizada",
+        "farmacos": [
+          { "nombre": "Ceftriaxona + metronidazol", "ref": "INF-ceftriaxona", "dosis": "Ceftriaxona 2 g + metronidazol 500 mg", "via": "IV", "intervalo": "Ceftriaxona cada 24 h; metronidazol cada 8 h", "duracion": "4 días tras el control del foco" },
+          { "nombre": "Piperacilina-tazobactam (grave o con riesgo de resistencias)", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6 h", "duracion": "4 días tras el control del foco" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Dieta líquida o blanda los primeros días",
+      "Colonoscopia a las 6-8 semanas tras un episodio complicado o si no se ha hecho recientemente (descartar cáncer)",
+      "Prevención: dieta rica en fibra, ejercicio, evitar tabaco y obesidad",
+      "Cirugía urgente en la peritonitis purulenta o fecaloidea"
+    ],
+    "claves": [
+      "**No hay que evitar las semillas ni los frutos secos.**",
+      "La mesalazina no previene las recurrencias."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad diverticular"
+  },
+  {
+    "id": "PAT-dispepsia-funcional",
+    "nombre": "Dispepsia funcional y no investigada",
+    "sinonimos": ["Dispepsia", "Epigastralgia"],
+    "area": "DIG",
+    "resumen": "Descartar **signos de alarma** (edad >55-60 años de inicio, pérdida de peso, disfagia, vómitos persistentes, anemia, sangrado, masa) → endoscopia. Sin alarma: **estrategia «test and treat» de H. pylori** (prueba del aliento o antígeno en heces). Si es negativo o persiste tras erradicar: **IBP** 4-8 semanas; después neuromoduladores (amitriptilina) o procinéticos.",
+    "objetivo": "Aliviar los síntomas y no pasar por alto una enfermedad orgánica.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          { "nombre": "Omeprazol", "ref": "DIG-omeprazol", "dosis": "20 mg", "via": "VO", "intervalo": "Cada 24 h, 30 min antes del desayuno", "duracion": "4-8 semanas y retirar o pasar a demanda" },
+          { "nombre": "Pantoprazol", "ref": "DIG-pantoprazol", "dosis": "40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "4-8 semanas", "nota": "Alternativa" }
+        ]
+      },
+      {
+        "titulo": "Refractaria a IBP",
+        "farmacos": [
+          { "nombre": "Amitriptilina (neuromodulador)", "ref": "PSQ-amitriptilina", "dosis": "10-25 mg (hasta 50 mg)", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "≥8-12 semanas", "nota": "Explicar que se usa por la hipersensibilidad visceral, no por depresión" },
+          { "nombre": "Domperidona (plenitud y saciedad precoz)", "ref": "DIG-domperidona", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 8 h antes de las comidas", "duracion": "Máximo 7 días por riesgo de QT largo", "nota": "Evitar en cardiopatía o con fármacos que alargan el QT" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Comidas pequeñas y frecuentes; reducir grasa, alcohol, café y tabaco",
+      "Retirar AINE",
+      "Terapia psicológica en los casos refractarios"
+    ],
+    "claves": [
+      "**H. pylori positivo en dispepsia: erradicar antes de cualquier otra cosa.**",
+      "La metoclopramida no se recomienda >5 días (discinesia tardía)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de dispepsia; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-sindrome-intestino-irritable",
+    "nombre": "Síndrome del intestino irritable",
+    "sinonimos": ["SII", "Colon irritable"],
+    "area": "DIG",
+    "resumen": "Dolor abdominal recurrente ≥1 día/semana en los últimos 3 meses, relacionado con la defecación o con cambios en la frecuencia o forma de las heces (**Roma IV**). Excluir signos de alarma, **celiaquía**, y en el SII con diarrea **calprotectina fecal**. El tratamiento se elige según el **subtipo** (estreñimiento, diarrea o mixto) y el síntoma predominante.",
+    "objetivo": "Controlar el dolor y el hábito intestinal; mejorar la calidad de vida.",
+    "escenarios": [
+      {
+        "titulo": "Dolor abdominal (todos los subtipos)",
+        "farmacos": [
+          { "nombre": "Mebeverina", "ref": "DIG-mebeverina", "dosis": "135 mg (200 mg retard)", "via": "VO", "intervalo": "Cada 8 h antes de las comidas (retard cada 12 h)", "duracion": "4-8 semanas o a demanda" },
+          { "nombre": "Bromuro de otilonio", "ref": "DIG-otilonio", "dosis": "40 mg", "via": "VO", "intervalo": "Cada 8-12 h", "duracion": "4-8 semanas", "nota": "Alternativa" },
+          { "nombre": "Aceite de menta piperita", "ref": "DIG-aceite-menta", "dosis": "180-200 mg", "via": "VO", "intervalo": "Cada 8 h antes de las comidas", "duracion": "4-12 semanas", "nota": "Alternativa. No en ERGE" },
+          { "nombre": "Amitriptilina (dolor refractario, SII-D)", "ref": "PSQ-amitriptilina", "dosis": "10-30 mg", "via": "VO", "intervalo": "Cada 24 h por la noche", "duracion": "≥3-6 meses", "nota": "En el SII con estreñimiento, mejor un ISRS" }
+        ]
+      },
+      {
+        "titulo": "SII con estreñimiento",
+        "farmacos": [
+          { "nombre": "Plantago ovata (fibra soluble)", "ref": "DIG-plantago", "dosis": "3,5 g", "via": "VO", "intervalo": "Cada 12-24 h con agua", "duracion": "Continuo", "nota": "La fibra insoluble (salvado) empeora la distensión" },
+          { "nombre": "Macrogol", "ref": "DIG-macrogol", "dosis": "13-26 g", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo" },
+          { "nombre": "Linaclotida", "ref": "DIG-linaclotida", "dosis": "290 µg", "via": "VO", "intervalo": "Cada 24 h, 30 min antes del desayuno", "duracion": "Reevaluar a las 4 semanas", "nota": "Mejora también el dolor" }
+        ]
+      },
+      {
+        "titulo": "SII con diarrea",
+        "farmacos": [
+          { "nombre": "Loperamida", "ref": "DIG-loperamida", "dosis": "2-4 mg", "via": "VO", "intervalo": "A demanda o antes de situaciones previsibles (máximo 16 mg/día)", "duracion": "A demanda", "nota": "Mejora la diarrea, no el dolor" },
+          { "nombre": "Rifaximina", "ref": "INF-rifaximina", "dosis": "550 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "14 días (repetible hasta 2 veces)", "nota": "Mejora distensión y diarrea" },
+          { "nombre": "Colestiramina (sospecha de malabsorción de ácidos biliares)", "ref": "DIG-colestiramina", "dosis": "4 g", "via": "VO", "intervalo": "Cada 12-24 h", "duracion": "Prueba de 4 semanas", "nota": "Separar 4 h de otros fármacos" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar el diagnóstico y la naturaleza benigna (relación médico-paciente)",
+      "Dieta baja en FODMAP guiada (exclusión 4-6 semanas y reintroducción)",
+      "Ejercicio; terapia cognitivo-conductual o hipnoterapia dirigida al intestino"
+    ],
+    "claves": [
+      "**Fiebre, sangrado, pérdida de peso, anemia o inicio >50 años no son SII hasta demostrar lo contrario.**",
+      "En el SII-D, descartar celiaquía y colitis microscópica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de síndrome del intestino irritable; Katzung 15.ª ed., cap. 62"
+  },
+  {
+    "id": "PAT-hemorroides-fisura-anal",
+    "nombre": "Hemorroides y fisura anal",
+    "sinonimos": ["Crisis hemorroidal", "Trombosis hemorroidal", "Fisura anal crónica"],
+    "area": "DIG",
+    "resumen": "**Hemorroides**: rectorragia roja indolora al final de la defecación o prolapso. Base: **fibra y agua** para heces blandas; tratamiento tópico breve en la crisis; ligadura con banda en las internas de grado I-III. **Fisura anal**: dolor intenso durante y tras la defecación; la crónica (>6 semanas) se trata con **relajantes del esfínter** tópicos y, si fracasan, toxina botulínica o esfinterotomía. Rectorragia en >45-50 años o con anemia: colonoscopia.",
+    "objetivo": "Aliviar los síntomas y cicatrizar la fisura.",
+    "escenarios": [
+      {
+        "titulo": "Base en ambas",
+        "farmacos": [
+          { "nombre": "Plantago ovata", "ref": "DIG-plantago", "dosis": "3,5 g", "via": "VO", "intervalo": "Cada 12-24 h con abundante agua", "duracion": "Continuo" }
+        ]
+      },
+      {
+        "titulo": "Crisis hemorroidal",
+        "farmacos": [
+          { "nombre": "Diosmina-hesperidina", "ref": "CAR-diosmina-hesperidina", "dosis": "3000 mg/día 4 días; después 2000 mg/día 3 días", "via": "VO", "intervalo": "Repartido en 2-3 tomas", "duracion": "7 días" },
+          { "nombre": "Hidrocortisona tópica (pomada o supositorio)", "ref": "DER-hidrocortisona-topica", "dosis": "Aplicación de pomada al 1% (o supositorio 25 mg)", "via": "rectal o tópica", "intervalo": "Cada 12 h", "duracion": "Máximo 7 días (atrofia de la mucosa)" },
+          { "nombre": "Lidocaína tópica", "ref": "ANE-lidocaina", "dosis": "Aplicación de pomada al 2-5%", "via": "tópica", "intervalo": "Cada 8-12 h", "duracion": "Pocos días" },
+          { "nombre": "Paracetamol o ibuprofeno", "ref": "REU-paracetamol", "dosis": "1 g (ibuprofeno 400 mg)", "via": "VO", "intervalo": "Cada 8 h", "duracion": "A demanda" }
+        ]
+      },
+      {
+        "titulo": "Fisura anal crónica",
+        "farmacos": [
+          { "nombre": "Nitroglicerina pomada al 0,4%", "ref": "CAR-nitroglicerina", "dosis": "375 mg de pomada (≈2,5 cm; 1,5 mg de nitroglicerina)", "via": "rectal (perianal)", "intervalo": "Cada 12 h", "duracion": "6-8 semanas", "nota": "Cefalea en el 30%; no con inhibidores de la PDE-5" },
+          { "nombre": "Diltiazem pomada al 2%", "ref": "CAR-diltiazem", "dosis": "Aplicación de 2,5 cm de pomada", "via": "rectal (perianal)", "intervalo": "Cada 12 h", "duracion": "6-8 semanas", "nota": "Igual de eficaz y con menos cefalea" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Baños de asiento con agua tibia 10-15 min tras la defecación",
+      "No prolongar el tiempo en el inodoro ni hacer esfuerzo",
+      "Trombosis hemorroidal externa muy dolorosa en <72 h: escisión",
+      "Fisura refractaria: toxina botulínica o esfinterotomía lateral interna"
+    ],
+    "claves": [
+      "**Fisura fuera de la línea media posterior o anterior: pensar en Crohn, sífilis, VIH, tuberculosis o cáncer.**",
+      "Atribuir una rectorragia a hemorroides sin explorar es un error clásico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades anorrectales"
+  },
+  {
+    "id": "PAT-hepatitis-b-cronica",
+    "nombre": "Hepatitis B crónica",
+    "sinonimos": ["VHB", "Infección crónica por virus de la hepatitis B"],
+    "area": "INF",
+    "resumen": "HBsAg positivo >6 meses. Tratar si **cirrosis** (con cualquier carga viral detectable), o **ADN-VHB >2000 UI/mL con ALT elevada y/o fibrosis** moderada, o antecedentes familiares de hepatocarcinoma, manifestaciones extrahepáticas o **inmunosupresión** prevista (profilaxis). Fármacos de elección: **tenofovir o entecavir** (alta barrera genética), en general de forma indefinida.",
+    "objetivo": "Suprimir el ADN viral para frenar la fibrosis y reducir el riesgo de cirrosis y hepatocarcinoma.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento de la hepatitis B crónica",
+        "farmacos": [
+          { "nombre": "Tenofovir disoproxilo (o alafenamida)", "ref": "INF-tenofovir", "dosis": "245 mg (alafenamida 25 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida (posible retirada tras pérdida de HBsAg)", "nota": "Alafenamida si hay enfermedad renal u osteoporosis" },
+          { "nombre": "Entecavir", "ref": "INF-entecavir", "dosis": "0,5 mg (1 mg si cirrosis descompensada o resistencia a lamivudina)", "via": "VO", "intervalo": "Cada 24 h en ayunas", "duracion": "Indefinida", "nota": "Ajustar a la función renal" }
+        ]
+      },
+      {
+        "titulo": "Embarazo con ADN-VHB >200 000 UI/mL",
+        "farmacos": [
+          { "nombre": "Tenofovir disoproxilo", "ref": "INF-tenofovir", "dosis": "245 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Desde la semana 24-28 hasta 12 semanas posparto", "nota": "Más inmunoglobulina y vacuna al recién nacido en las primeras 12 h" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de reactivación antes de quimioterapia o biológicos (HBsAg+, o anti-HBc+ con rituximab)",
+        "farmacos": [
+          { "nombre": "Entecavir", "ref": "INF-entecavir", "dosis": "0,5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Durante el tratamiento y 12-18 meses después" },
+          { "nombre": "Tenofovir", "ref": "INF-tenofovir", "dosis": "245 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Igual que la anterior", "nota": "Alternativa" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cribado de hepatocarcinoma con ecografía cada 6 meses en cirróticos y grupos de riesgo",
+      "Vacunar frente a VHA a los no inmunes y frente a VHB a los convivientes y parejas",
+      "Abstinencia de alcohol; descartar coinfección por VHD, VHC y VIH"
+    ],
+    "claves": [
+      "**Suspender tenofovir o entecavir sin control puede desencadenar una reactivación grave.**",
+      "Antes de rituximab o quimioterapia: HBsAg y anti-HBc en todos."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hepatitis crónica"
+  },
+  {
+    "id": "PAT-hepatitis-c",
+    "nombre": "Hepatitis C",
+    "sinonimos": ["VHC", "Infección por virus de la hepatitis C"],
+    "area": "INF",
+    "resumen": "Anti-VHC positivo → confirmar con **ARN-VHC**. **Tratar a TODOS los pacientes con viremia**: los antivirales de acción directa pangenotípicos curan >95% en 8-12 semanas (respuesta virológica sostenida). Antes: evaluar fibrosis (elastografía), interacciones farmacológicas y coinfección por VHB (riesgo de reactivación).",
+    "objetivo": "Respuesta virológica sostenida (ARN indetectable 12 semanas tras terminar).",
+    "escenarios": [
+      {
+        "titulo": "Sin tratamiento previo (sin cirrosis o con cirrosis compensada)",
+        "farmacos": [
+          { "nombre": "Glecaprevir/pibrentasvir", "ref": "INF-glecaprevir-pibrentasvir", "dosis": "300/120 mg (3 comprimidos)", "via": "VO", "intervalo": "Cada 24 h con comida", "duracion": "8 semanas", "nota": "No en cirrosis descompensada (inhibidor de proteasa)" },
+          { "nombre": "Sofosbuvir/velpatasvir", "ref": "INF-sofosbuvir-velpatasvir", "dosis": "400/100 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "12 semanas", "nota": "Válido también en cirrosis descompensada (con ribavirina)" }
+        ]
+      },
+      {
+        "titulo": "Fracaso previo a antivirales de acción directa",
+        "farmacos": [
+          { "nombre": "Sofosbuvir/velpatasvir/voxilaprevir", "ref": "INF-sofosbuvir-velpatasvir-voxilaprevir", "dosis": "400/100/100 mg", "via": "VO", "intervalo": "Cada 24 h con comida", "duracion": "12 semanas" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cribado de hepatocarcinoma cada 6 meses si hay cirrosis (aunque se cure)",
+      "Programas de reducción de daños en personas que se inyectan drogas",
+      "La curación no protege de la reinfección"
+    ],
+    "claves": [
+      "**Revisar interacciones antes de empezar (amiodarona con sofosbuvir: bradicardia grave).**",
+      "IBP y antiácidos reducen la absorción de velpatasvir."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hepatitis crónica"
+  },
+  {
+    "id": "PAT-cirrosis-ascitis",
+    "nombre": "Cirrosis: ascitis, peritonitis bacteriana espontánea y síndrome hepatorrenal",
+    "sinonimos": ["Ascitis", "PBE", "Síndrome hepatorrenal"],
+    "area": "DIG",
+    "resumen": "**Ascitis**: restricción de sodio (<2 g/día) y **diuréticos (espironolactona ± furosemida en proporción 100:40)**; paracentesis evacuadora con **albúmina** si es a tensión o refractaria. **PBE**: >250 neutrófilos/mm³ en el líquido ascítico → **cefalosporina de 3.ª generación + albúmina**; profilaxis posterior. **Síndrome hepatorrenal**: suspender diuréticos, albúmina y **terlipresina**. Evitar AINE, IECA/ARA-II y aminoglucósidos.",
+    "objetivo": "Controlar la ascitis, tratar y prevenir la infección y proteger la función renal.",
+    "escenarios": [
+      {
+        "titulo": "Ascitis",
+        "farmacos": [
+          { "nombre": "Espironolactona", "ref": "CAR-espironolactona", "dosis": "100 mg (hasta 400 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Crónica", "nota": "Subir cada 3-5 días; pérdida de peso objetivo 0,5 kg/día (1 kg si hay edemas)" },
+          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "40 mg (hasta 160 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Crónica", "nota": "Mantener la proporción 100:40 con espironolactona" },
+          { "nombre": "Albúmina tras paracentesis >5 L", "ref": "NFR-albumina", "dosis": "6-8 g por litro extraído", "via": "IV", "intervalo": "Tras cada paracentesis", "duracion": "—" }
+        ]
+      },
+      {
+        "titulo": "Peritonitis bacteriana espontánea",
+        "farmacos": [
+          { "nombre": "Cefotaxima", "ref": "INF-cefotaxima", "dosis": "2 g", "via": "IV", "intervalo": "Cada 8 h", "duracion": "5-7 días" },
+          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "5-7 días", "nota": "Alternativa. Nosocomial o con antibiótico reciente: piperacilina-tazobactam o meropenem" },
+          { "nombre": "Albúmina", "ref": "NFR-albumina", "dosis": "1,5 g/kg el día 1 y 1 g/kg el día 3", "via": "IV", "intervalo": "Dos dosis", "duracion": "—", "nota": "Reduce el fallo renal y la mortalidad" }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de PBE (tras un episodio, o proteínas en líquido <1,5 g/dL con disfunción hepática o renal)",
+        "farmacos": [
+          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida mientras haya ascitis" },
+          { "nombre": "Cotrimoxazol", "ref": "INF-cotrimoxazol", "dosis": "160/800 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida mientras haya ascitis", "nota": "Alternativa (también norfloxacino 400 mg/día donde esté disponible)" }
+        ]
+      },
+      {
+        "titulo": "Síndrome hepatorrenal",
+        "farmacos": [
+          { "nombre": "Terlipresina", "ref": "DIG-terlipresina", "dosis": "1 mg (hasta 2 mg) en bolo, o 2-12 mg/día en perfusión", "via": "IV", "intervalo": "Cada 4-6 h en bolo", "duracion": "Hasta respuesta (máximo 14 días)", "nota": "Contraindicada si SatO2 <90% o isquemia" },
+          { "nombre": "Albúmina", "ref": "NFR-albumina", "dosis": "1 g/kg (máximo 100 g) el día 1; después 20-40 g/día", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Junto a la terlipresina" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Paracentesis diagnóstica en toda ascitis nueva y en todo ingreso de un cirrótico con ascitis",
+      "Sodio <2 g/día; restricción hídrica solo si Na <125 mEq/L",
+      "TIPS en la ascitis refractaria seleccionada; valoración para trasplante (MELD)"
+    ],
+    "claves": [
+      "**Cirrótico con ascitis que empeora sin causa clara: paracentesis para descartar PBE.**",
+      "**Nada de AINE en el cirrótico con ascitis** (precipitan el fallo renal)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis y sus complicaciones"
+  },
+  {
+    "id": "PAT-enfermedad-crohn",
+    "nombre": "Enfermedad de Crohn",
+    "sinonimos": ["Crohn", "Enfermedad inflamatoria intestinal"],
+    "area": "DIG",
+    "resumen": "Inflamación transmural y segmentaria de cualquier tramo digestivo (sobre todo íleon terminal), con **estenosis, fístulas y abscesos**. Brotes: **corticoides** (budesonida si es ileocecal leve-moderada). Mantenimiento: **tiopurinas o metotrexato**, y en la enfermedad moderada-grave o de mal pronóstico, **biológicos de inicio** (anti-TNF, anti-IL-12/23 o IL-23, vedolizumab). **Dejar de fumar** es parte del tratamiento. La mesalazina no es eficaz.",
+    "objetivo": "Remisión clínica y endoscópica sin corticoides, evitando complicaciones y cirugía.",
+    "escenarios": [
+      {
+        "titulo": "Brote leve-moderado ileocecal",
+        "farmacos": [
+          { "nombre": "Budesonida oral", "ref": "DIG-budesonida-oral", "dosis": "9 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "8 semanas y descenso en 2-4 semanas" }
+        ]
+      },
+      {
+        "titulo": "Brote moderado-grave",
+        "farmacos": [
+          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "40-60 mg (0,75-1 mg/kg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta remisión y descenso de 5 mg/semana", "nota": "Grave hospitalizado: metilprednisolona 1 mg/kg IV" },
+          { "nombre": "Anti-TNF (infliximab o adalimumab)", "ref": "INM-anti-tnf", "dosis": "Infliximab 5 mg/kg IV; adalimumab 160 mg, 80 mg y después 40 mg SC", "via": "IV o SC", "intervalo": "Infliximab semanas 0, 2 y 6 y cada 8; adalimumab semanas 0 y 2 y cada 2", "duracion": "Mantenimiento indefinido si responde", "nota": "Infliximab + azatioprina es más eficaz que cada uno por separado" },
+          { "nombre": "Ustekinumab", "ref": "INM-ustekinumab", "dosis": "~6 mg/kg IV; después 90 mg SC", "via": "IV y SC", "intervalo": "Dosis IV única; después cada 8 semanas", "duracion": "Mantenimiento indefinido", "nota": "Alternativa" },
+          { "nombre": "Risankizumab", "ref": "INM-risankizumab", "dosis": "600 mg IV; después 180-360 mg SC", "via": "IV y SC", "intervalo": "IV semanas 0, 4 y 8; SC cada 8 semanas", "duracion": "Mantenimiento indefinido", "nota": "Alternativa" },
+          { "nombre": "Vedolizumab", "ref": "DIG-vedolizumab", "dosis": "300 mg", "via": "IV", "intervalo": "Semanas 0, 2 y 6; después cada 8 semanas", "duracion": "Mantenimiento indefinido", "nota": "Alternativa. Intestino-selectivo: perfil de seguridad favorable" }
+        ]
+      },
+      {
+        "titulo": "Mantenimiento inmunomodulador",
+        "farmacos": [
+          { "nombre": "Azatioprina", "ref": "INM-azatioprina", "dosis": "2-2,5 mg/kg/día", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Años", "nota": "TPMT antes de empezar; efecto en 3-6 meses" },
+          { "nombre": "Metotrexato", "ref": "REU-metotrexato", "dosis": "25 mg/semana en inducción; 15 mg/semana en mantenimiento", "via": "SC o IM", "intervalo": "Una vez por semana", "duracion": "Años", "nota": "Con ácido fólico; contraindicado en el embarazo" }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abandono del tabaco (duplica el riesgo de brote y de cirugía)",
+      "Cirugía en estenosis fibróticas, abscesos y fístulas complejas (con antibiótico y drenaje)",
+      "Cribado de déficit de hierro, B12 y vitamina D; vacunación antes de inmunosuprimir"
+    ],
+    "claves": [
+      "**Descartar absceso e infección (C. difficile, CMV) antes de intensificar la inmunosupresión.**",
+      "La enfermedad perianal fistulizante se trata con anti-TNF + drenaje con setón."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad inflamatoria intestinal; Katzung 15.ª ed., cap. 62"
+  }
+]

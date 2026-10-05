@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "PAT-ictus-isquemico",
+    "nombre": "Ictus isquémico agudo y prevención secundaria",
+    "sinonimos": [
+      "AVC isquémico",
+      "Infarto cerebral",
+      "Accidente cerebrovascular",
+      "AIT"
+    ],
+    "area": "NEU",
+    "resumen": "**Tiempo es cerebro**: activar el código ictus y hacer TC/angio-TC. Trombólisis IV si el inicio es ≤4,5 h (o hora desconocida con perfil favorable en RM) y no hay contraindicaciones; **trombectomía** si hay oclusión de gran vaso (hasta 24 h en pacientes seleccionados). Antes de trombolisar, **PA <185/110**; sin trombólisis, solo tratar si >220/120. Antiagregar a las 24 h de la trombólisis (o de inmediato si no se trombolisó).",
+    "objetivo": "Reperfundir lo antes posible (puerta-aguja <60 min) y evitar la recurrencia.",
+    "escenarios": [
+      {
+        "titulo": "Trombólisis intravenosa (≤4,5 h)",
+        "farmacos": [
+          {
+            "nombre": "Alteplasa",
+            "ref": "HEM-alteplasa",
+            "dosis": "0,9 mg/kg (máximo 90 mg)",
+            "via": "IV",
+            "intervalo": "10% en bolo en 1 min y el resto en perfusión de 60 min",
+            "duracion": "Dosis única",
+            "nota": "Sin antiagregantes ni anticoagulantes las 24 h siguientes"
+          },
+          {
+            "nombre": "Tenecteplasa",
+            "ref": "HEM-tenecteplasa",
+            "dosis": "0,25 mg/kg (máximo 25 mg)",
+            "via": "IV",
+            "intervalo": "Bolo único en 5-10 s",
+            "duracion": "Dosis única",
+            "nota": "Alternativa. Alternativa equivalente, más sencilla de administrar"
+          }
+        ]
+      },
+      {
+        "titulo": "Control de la presión arterial",
+        "nota": "Objetivo <185/110 antes y <180/105 durante las 24 h posteriores a la trombólisis.",
+        "farmacos": [
+          {
+            "nombre": "Labetalol",
+            "ref": "CAR-labetalol",
+            "dosis": "10-20 mg",
+            "via": "IV",
+            "intervalo": "En 1-2 min; repetir una vez a los 10 min",
+            "duracion": "Hasta PA objetivo; después perfusión 2-8 mg/min si hace falta"
+          },
+          {
+            "nombre": "Nicardipino",
+            "ref": "CAR-nicardipino",
+            "dosis": "5 mg/h",
+            "via": "IV",
+            "intervalo": "Perfusión; subir 2,5 mg/h cada 5-15 min",
+            "duracion": "Hasta PA objetivo (máximo 15 mg/h)",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Urapidilo",
+            "ref": "CAR-urapidilo",
+            "dosis": "10-25 mg",
+            "via": "IV",
+            "intervalo": "Bolo lento; perfusión 5-40 mg/h",
+            "duracion": "Hasta PA objetivo",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Antiagregación y prevención secundaria (ictus no cardioembólico)",
+        "farmacos": [
+          {
+            "nombre": "Ácido acetilsalicílico",
+            "ref": "HEM-acido-acetilsalicilico",
+            "dosis": "160-300 mg el primer día; después 75-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "En las primeras 48 h (a las 24 h si hubo trombólisis)"
+          },
+          {
+            "nombre": "Clopidogrel (doble antiagregación en AIT de alto riesgo o ictus menor)",
+            "ref": "HEM-clopidogrel",
+            "dosis": "Carga 300 mg; después 75 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "21 días junto al AAS; después monoterapia",
+            "nota": "Ictus menor (NIHSS ≤3) o AIT con ABCD² ≥4"
+          },
+          {
+            "nombre": "Atorvastatina",
+            "ref": "CAR-atorvastatina",
+            "dosis": "40-80 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Objetivo LDL <70 mg/dL"
+          }
+        ]
+      },
+      {
+        "titulo": "Ictus cardioembólico (fibrilación auricular)",
+        "farmacos": [
+          {
+            "nombre": "Apixabán",
+            "ref": "HEM-apixaban",
+            "dosis": "5 mg (2,5 mg si cumple 2 de: ≥80 años, ≤60 kg, creatinina ≥1,5 mg/dL)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "nota": "Iniciar a los 2-14 días según el tamaño del infarto (antes si es pequeño)"
+          },
+          {
+            "nombre": "Dabigatrán",
+            "ref": "HEM-dabigatran",
+            "dosis": "150 mg (110 mg si ≥80 años o riesgo hemorrágico)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Código ictus, TC y angio-TC urgentes; trombectomía mecánica si oclusión de gran vaso",
+      "Unidad de ictus: glucemia 140-180 mg/dL, temperatura <37,5 °C, SatO2 >94% (sin oxígeno si es normal)",
+      "Cribado de disfagia antes de dar nada por boca",
+      "Estudio etiológico: ECG-Holter, ecocardiograma, eco-Doppler de troncos supraaórticos"
+    ],
+    "claves": [
+      "**Hipoglucemia y crisis comiciales imitan un ictus: glucemia capilar antes de nada.**",
+      "**Sin trombólisis, no bajar la PA salvo >220/120**: la penumbra depende de la presión de perfusión.",
+      "Estenosis carotídea sintomática ≥70%: endarterectomía en las 2 primeras semanas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de ictus isquémico; Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "PAT-hemorragia-intracerebral",
+    "nombre": "Hemorragia intracerebral espontánea",
+    "sinonimos": [
+      "AVC hemorrágico",
+      "Ictus hemorrágico",
+      "Hematoma intracerebral"
+    ],
+    "area": "NEU",
+    "resumen": "TC urgente. Tres medidas que cambian el pronóstico: **bajar la PA sistólica a ~140 mmHg** de forma precoz y sostenida (sin bajar de 110-130), **revertir la anticoagulación de inmediato** y valorar cirugía (hematoma cerebeloso >3 cm, hidrocefalia). No antiagregar ni anticoagular en la fase aguda.",
+    "objetivo": "Evitar el crecimiento del hematoma en las primeras horas.",
+    "escenarios": [
+      {
+        "titulo": "Control de la presión arterial (objetivo PAS ~140 mmHg)",
+        "farmacos": [
+          {
+            "nombre": "Labetalol",
+            "ref": "CAR-labetalol",
+            "dosis": "10-20 mg",
+            "via": "IV",
+            "intervalo": "Bolo cada 10-15 min; perfusión 2-8 mg/min",
+            "duracion": "Primeras 24-72 h"
+          },
+          {
+            "nombre": "Nicardipino",
+            "ref": "CAR-nicardipino",
+            "dosis": "5-15 mg/h",
+            "via": "IV",
+            "intervalo": "Perfusión titulada",
+            "duracion": "Primeras 24-72 h",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Urapidilo",
+            "ref": "CAR-urapidilo",
+            "dosis": "10-25 mg en bolo; perfusión 5-40 mg/h",
+            "via": "IV",
+            "intervalo": "Según PA",
+            "duracion": "Primeras 24-72 h",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Reversión de la anticoagulación",
+        "farmacos": [
+          {
+            "nombre": "Complejo protrombínico (con AVK)",
+            "ref": "HEM-complejo-protrombinico",
+            "dosis": "25-50 UI/kg según INR",
+            "via": "IV",
+            "intervalo": "Dosis única",
+            "duracion": "Repetir según INR",
+            "nota": "Objetivo INR <1,4"
+          },
+          {
+            "nombre": "Vitamina K (con AVK)",
+            "ref": "HEM-vitamina-k",
+            "dosis": "10 mg",
+            "via": "IV",
+            "intervalo": "En 20-30 min",
+            "duracion": "Dosis única",
+            "nota": "Siempre junto al complejo protrombínico (efecto en 6-24 h)"
+          },
+          {
+            "nombre": "Idarucizumab (con dabigatrán)",
+            "ref": "HEM-idarucizumab",
+            "dosis": "5 g (2 viales de 2,5 g)",
+            "via": "IV",
+            "intervalo": "Dos bolos consecutivos",
+            "duracion": "Dosis única"
+          },
+          {
+            "nombre": "Complejo protrombínico (con anti-Xa si no se dispone de andexanet alfa)",
+            "ref": "HEM-complejo-protrombinico",
+            "dosis": "50 UI/kg",
+            "via": "IV",
+            "intervalo": "Dosis única",
+            "duracion": "Dosis única"
+          },
+          {
+            "nombre": "Protamina (con heparina no fraccionada)",
+            "ref": "HEM-protamina",
+            "dosis": "1 mg por cada 100 UI de heparina de las últimas 2-3 h (máximo 50 mg)",
+            "via": "IV",
+            "intervalo": "Lenta en 10 min",
+            "duracion": "Dosis única"
+          }
+        ]
+      },
+      {
+        "titulo": "Hipertensión intracraneal",
+        "farmacos": [
+          {
+            "nombre": "Manitol",
+            "ref": "NFR-manitol",
+            "dosis": "0,5-1 g/kg",
+            "via": "IV",
+            "intervalo": "En 15-20 min; repetir cada 6 h si hace falta",
+            "duracion": "Puente a la cirugía o mientras dure el edema",
+            "nota": "Vigilar osmolalidad (<320 mOsm/kg)"
+          },
+          {
+            "nombre": "Salino hipertónico",
+            "ref": "NFR-salino-hipertonico",
+            "dosis": "250 mL al 3% (o 30 mL al 23,4% por vía central)",
+            "via": "IV",
+            "intervalo": "En 15-30 min",
+            "duracion": "Según natremia y PIC",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cabecero a 30°, normotermia, normoglucemia",
+      "Neurocirugía: hematoma cerebeloso >3 cm con deterioro o hidrocefalia; drenaje ventricular",
+      "Profilaxis de TVP con compresión neumática; heparina profiláctica a partir de las 24-48 h si el hematoma es estable"
+    ],
+    "claves": [
+      "**El hematoma crece en las primeras 3-6 h: PA y reversión son urgentes.**",
+      "No se recomienda la profilaxis anticomicial sistemática.",
+      "Hemorragia lobar en anciano normotenso: pensar en angiopatía amiloide."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hemorragia intracraneal; Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "PAT-bradicardia-sintomatica",
+    "nombre": "Bradicardia sintomática y bloqueo auriculoventricular",
+    "sinonimos": [
+      "Bradiarritmia",
+      "Bloqueo AV"
+    ],
+    "area": "CAR",
+    "resumen": "Tratar solo si hay **signos de inestabilidad** (hipotensión, síncope, insuficiencia cardiaca, isquemia, alteración de conciencia). Buscar causas reversibles: **fármacos** (betabloqueantes, calcioantagonistas no DHP, digoxina, amiodarona), **hiperpotasemia**, isquemia inferior, hipotiroidismo, hipotermia. Secuencia: atropina → catecolamina en perfusión → **marcapasos** transcutáneo y transvenoso.",
+    "objetivo": "Recuperar una FC que mantenga la perfusión hasta el marcapasos o la corrección de la causa.",
+    "escenarios": [
+      {
+        "titulo": "Bradicardia inestable",
+        "farmacos": [
+          {
+            "nombre": "Atropina",
+            "ref": "URG-atropina",
+            "dosis": "1 mg",
+            "via": "IV",
+            "intervalo": "Cada 3-5 min",
+            "duracion": "Hasta un máximo de 3 mg",
+            "nota": "Ineficaz en el bloqueo infrahisiano (QRS ancho) y en el corazón trasplantado"
+          },
+          {
+            "nombre": "Adrenalina en perfusión",
+            "ref": "URG-adrenalina",
+            "dosis": "2-10 µg/min",
+            "via": "IV",
+            "intervalo": "Perfusión titulada a FC y PA",
+            "duracion": "Hasta marcapasos"
+          },
+          {
+            "nombre": "Dopamina en perfusión",
+            "ref": "CAR-dopamina",
+            "dosis": "5-20 µg/kg/min",
+            "via": "IV",
+            "intervalo": "Perfusión titulada",
+            "duracion": "Hasta marcapasos",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Isoprenalina",
+            "ref": "CAR-isoprenalina",
+            "dosis": "1-10 µg/min",
+            "via": "IV",
+            "intervalo": "Perfusión titulada",
+            "duracion": "Hasta marcapasos",
+            "nota": "Alternativa. Vasodilata: evitar si hay hipotensión marcada o isquemia"
+          }
+        ]
+      },
+      {
+        "titulo": "Bradicardia por intoxicación",
+        "farmacos": [
+          {
+            "nombre": "Glucagón (betabloqueantes)",
+            "ref": "URG-glucagon",
+            "dosis": "3-10 mg en bolo; después 3-5 mg/h",
+            "via": "IV",
+            "intervalo": "Bolo en 1-2 min y perfusión",
+            "duracion": "Según respuesta",
+            "nota": "Vómitos frecuentes: proteger la vía aérea"
+          },
+          {
+            "nombre": "Gluconato cálcico (calcioantagonistas)",
+            "ref": "URG-gluconato-calcico",
+            "dosis": "30-60 mL al 10%",
+            "via": "IV",
+            "intervalo": "En 10 min; repetible",
+            "duracion": "Según respuesta",
+            "nota": "Más insulina en dosis altas en los casos graves"
+          },
+          {
+            "nombre": "Anticuerpos antidigoxina (digoxina)",
+            "ref": "URG-anticuerpos-antidigoxina",
+            "dosis": "2-5 viales (40 mg cada uno) en bradiarritmia; 10-20 viales en parada",
+            "via": "IV",
+            "intervalo": "En 30 min (bolo en la parada)",
+            "duracion": "Dosis única, repetible"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Marcapasos transcutáneo si no responde a fármacos (con analgesia y sedación)",
+      "Marcapasos definitivo en el bloqueo AV de 2.º grado Mobitz II, el de 3.er grado y la enfermedad del seno sintomática",
+      "Retirar los fármacos bradicardizantes; corregir el potasio"
+    ],
+    "claves": [
+      "**Bloqueo AV en el IAM inferior suele ser nodal y transitorio (responde a atropina); en el anterior es infrahisiano y necesita marcapasos.**",
+      "Dosis de atropina <0,5 mg pueden producir bradicardia paradójica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de bradiarritmias; Katzung 15.ª ed., caps. 8 y 9"
+  },
+  {
+    "id": "PAT-sincope",
+    "nombre": "Síncope e hipotensión ortostática",
+    "sinonimos": [
+      "Desmayo",
+      "Lipotimia",
+      "Síncope vasovagal"
+    ],
+    "area": "CAR",
+    "resumen": "Lo esencial es **estratificar el riesgo**: ECG, PA en decúbito y bipedestación, y buscar cardiopatía estructural, síncope de esfuerzo o en decúbito, palpitaciones previas o antecedente familiar de muerte súbita (**síncope cardiaco → ingreso y monitorización**). El síncope reflejo (vasovagal) y la hipotensión ortostática se tratan sobre todo sin fármacos; estos se reservan para los casos recurrentes que no responden.",
+    "objetivo": "Descartar la causa arrítmica o estructural y evitar las recurrencias y las caídas.",
+    "escenarios": [
+      {
+        "titulo": "Hipotensión ortostática neurógena o refractaria",
+        "farmacos": [
+          {
+            "nombre": "Fludrocortisona",
+            "ref": "END-fludrocortisona",
+            "dosis": "0,1-0,2 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Crónica, reevaluando",
+            "nota": "Expande el volumen; vigilar potasio, edemas e hipertensión en decúbito"
+          },
+          {
+            "nombre": "Midodrina",
+            "ref": "CAR-midodrina",
+            "dosis": "2,5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h durante el día (última ≥4 h antes de acostarse)",
+            "duracion": "Crónica, reevaluando"
+          }
+        ]
+      },
+      {
+        "titulo": "Síncope vasovagal recurrente refractario a medidas físicas",
+        "farmacos": [
+          {
+            "nombre": "Midodrina",
+            "ref": "CAR-midodrina",
+            "dosis": "2,5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Meses",
+            "nota": "En pacientes jóvenes con PA baja y sin HTA"
+          },
+          {
+            "nombre": "Fludrocortisona",
+            "ref": "END-fludrocortisona",
+            "dosis": "0,1-0,2 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Meses",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar el mecanismo y reconocer los pródromos: tumbarse con las piernas elevadas",
+      "Maniobras de contrapresión (cruzar las piernas, apretar los puños)",
+      "Ingesta de agua 2-3 L/día y sal 6-10 g/día si no hay HTA ni insuficiencia cardiaca",
+      "Retirar o reducir fármacos hipotensores, diuréticos, alfabloqueantes y nitratos",
+      "Medias de compresión o faja abdominal; levantarse en dos tiempos"
+    ],
+    "claves": [
+      "**Síncope durante el ejercicio o en decúbito = cardiaco hasta demostrar lo contrario.**",
+      "Hipotensión ortostática: caída ≥20 mmHg sistólica o ≥10 diastólica a los 3 min de pie."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de síncope; Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "PAT-pericarditis-aguda",
+    "nombre": "Pericarditis aguda",
+    "sinonimos": [
+      "Pericarditis idiopática",
+      "Pericarditis vírica"
+    ],
+    "area": "CAR",
+    "resumen": "Diagnóstico con 2 de 4: dolor torácico pleurítico que mejora al inclinarse hacia delante, roce pericárdico, **ascenso difuso del ST con descenso del PR** y derrame pericárdico. Tratamiento: **AINE o AAS a dosis altas + colchicina** (reduce a la mitad las recurrencias). Ingreso si fiebre >38 °C, derrame importante, taponamiento, anticoagulación, inmunodepresión o falta de respuesta en una semana.",
+    "objetivo": "Controlar los síntomas, normalizar la PCR y evitar las recurrencias.",
+    "escenarios": [
+      {
+        "titulo": "Primer episodio",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "1-2 semanas; después descenso de 200-400 mg cada 1-2 semanas",
+            "nota": "Con protección gástrica"
+          },
+          {
+            "nombre": "Ácido acetilsalicílico",
+            "ref": "HEM-acido-acetilsalicilico",
+            "dosis": "750-1000 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "1-2 semanas; después descenso progresivo",
+            "nota": "Alternativa. De elección tras un IAM o si ya toma antiagregantes"
+          },
+          {
+            "nombre": "Colchicina",
+            "ref": "REU-colchicina",
+            "dosis": "0,5 mg (cada 24 h si <70 kg)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "3 meses (6 meses en la recurrencia)",
+            "nota": "Siempre añadida al AINE"
+          },
+          {
+            "nombre": "Omeprazol",
+            "ref": "DIG-omeprazol",
+            "dosis": "20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras dure el AINE"
+          }
+        ]
+      },
+      {
+        "titulo": "Contraindicación o fracaso de AINE (segunda línea)",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "0,2-0,5 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta resolución y descenso muy lento (meses)",
+            "nota": "Dosis bajas: las altas favorecen la recurrencia"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Restringir el ejercicio intenso hasta la resolución (3 meses en deportistas)",
+      "Ecocardiograma en todos; controlar la PCR para guiar la duración"
+    ],
+    "claves": [
+      "**Los corticoides de primera línea aumentan las recurrencias.**",
+      "Taponamiento: hipotensión, ingurgitación yugular, pulso paradójico → pericardiocentesis.",
+      "Tras un IAM, evitar AINE distintos del AAS (dificultan la cicatrización)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades del pericardio; Katzung 15.ª ed., cap. 36"
+  },
+  {
+    "id": "PAT-enfermedad-arterial-periferica",
+    "nombre": "Enfermedad arterial periférica e isquemia aguda de extremidades",
+    "sinonimos": [
+      "Claudicación intermitente",
+      "Arteriopatía periférica",
+      "Isquemia crítica"
+    ],
+    "area": "CAR",
+    "resumen": "Marcador de **riesgo cardiovascular muy alto** (ITB <0,9). Pilares: **dejar de fumar**, ejercicio supervisado, **estatina de alta intensidad** y antiagregación. Cilostazol solo para la claudicación que limita la vida pese al ejercicio. **Isquemia aguda** (dolor, palidez, ausencia de pulsos, parestesias, parálisis, frialdad): **heparina IV inmediata** y cirugía vascular urgente.",
+    "objetivo": "Reducir eventos cardiovasculares y amputaciones y mejorar la distancia de marcha.",
+    "escenarios": [
+      {
+        "titulo": "Enfermedad arterial periférica sintomática",
+        "farmacos": [
+          {
+            "nombre": "Clopidogrel",
+            "ref": "HEM-clopidogrel",
+            "dosis": "75 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Algo superior al AAS en esta población"
+          },
+          {
+            "nombre": "Ácido acetilsalicílico",
+            "ref": "HEM-acido-acetilsalicilico",
+            "dosis": "75-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Rivaroxabán (dosis vascular, con AAS)",
+            "ref": "HEM-rivaroxaban",
+            "dosis": "2,5 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "nota": "Riesgo isquémico alto y hemorrágico bajo, o tras revascularización"
+          },
+          {
+            "nombre": "Atorvastatina",
+            "ref": "CAR-atorvastatina",
+            "dosis": "40-80 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Objetivo LDL <55 mg/dL"
+          },
+          {
+            "nombre": "Cilostazol",
+            "ref": "HEM-cilostazol",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h, lejos de las comidas",
+            "duracion": "Reevaluar a los 3 meses",
+            "nota": "Contraindicado en insuficiencia cardiaca"
+          }
+        ]
+      },
+      {
+        "titulo": "Isquemia aguda de extremidad",
+        "farmacos": [
+          {
+            "nombre": "Heparina no fraccionada",
+            "ref": "HEM-heparina-no-fraccionada",
+            "dosis": "80 UI/kg en bolo; después 18 UI/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión ajustada al TTPa (1,5-2,5 veces el control)",
+            "duracion": "Hasta la revascularización",
+            "nota": "Analgesia con opioides"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abandono del tabaco (la medida más eficaz)",
+      "Ejercicio supervisado: 30-45 min, 3 veces/semana, ≥12 semanas",
+      "Cuidado de los pies, sobre todo en diabéticos",
+      "Revascularización en la isquemia crítica (dolor en reposo, úlceras, gangrena)"
+    ],
+    "claves": [
+      "**Las 6 P de la isquemia aguda: dolor, palidez, ausencia de pulso, parestesias, parálisis, poiquilotermia.**",
+      "Los betabloqueantes no empeoran la claudicación: no retirarlos si están indicados."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad arterial de las extremidades; Katzung 15.ª ed., cap. 34"
+  },
+  {
+    "id": "PAT-insuficiencia-venosa-cronica",
+    "nombre": "Insuficiencia venosa crónica, varices y trombosis venosa superficial",
+    "sinonimos": [
+      "Varices",
+      "Úlcera venosa",
+      "Tromboflebitis superficial"
+    ],
+    "area": "CAR",
+    "resumen": "La base es la **compresión elástica**, el ejercicio y la elevación de piernas. Los flebotónicos alivian síntomas (pesadez, dolor, edema) sin modificar la enfermedad. La **trombosis venosa superficial** ≥5 cm o cercana (<3 cm) a la unión safeno-femoral se anticoagula porque puede progresar a TVP.",
+    "objetivo": "Aliviar síntomas, curar úlceras y prevenir la TVP.",
+    "escenarios": [
+      {
+        "titulo": "Síntomas de insuficiencia venosa crónica",
+        "farmacos": [
+          {
+            "nombre": "Diosmina-hesperidina",
+            "ref": "CAR-diosmina-hesperidina",
+            "dosis": "1000 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "2-3 meses y reevaluar"
+          },
+          {
+            "nombre": "Oxerutinas",
+            "ref": "CAR-oxerutinas",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "4-8 semanas y reevaluar",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Dobesilato cálcico",
+            "ref": "CAR-dobesilato-calcico",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Ciclos de 1-3 meses",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Úlcera venosa",
+        "farmacos": [
+          {
+            "nombre": "Diosmina-hesperidina (coadyuvante)",
+            "ref": "CAR-diosmina-hesperidina",
+            "dosis": "1000 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Hasta la cicatrización",
+            "nota": "Acelera la curación junto a la compresión"
+          },
+          {
+            "nombre": "Amoxicilina-clavulánico (solo si celulitis periulcerosa)",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "7 días",
+            "nota": "La colonización sin signos de infección no se trata"
+          }
+        ]
+      },
+      {
+        "titulo": "Trombosis venosa superficial",
+        "farmacos": [
+          {
+            "nombre": "Fondaparinux",
+            "ref": "HEM-fondaparinux",
+            "dosis": "2,5 mg",
+            "via": "SC",
+            "intervalo": "Cada 24 h",
+            "duracion": "45 días",
+            "nota": "Si ≥5 cm de longitud; a <3 cm de la unión safeno-femoral, anticoagulación a dosis terapéutica como una TVP"
+          },
+          {
+            "nombre": "Ibuprofeno (trombosis corta y distal)",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "7-10 días",
+            "nota": "Con calor local"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Compresión elástica de 20-30 mmHg (30-40 en úlceras) si el ITB >0,8",
+      "Elevación de las piernas, ejercicio y control de peso",
+      "Escleroterapia, ablación endovenosa o cirugía en varices sintomáticas"
+    ],
+    "claves": [
+      "**Antes de comprimir, medir el ITB: la compresión en arteriopatía grave produce necrosis.**",
+      "Úlcera en maléolo interno, indolora y con edema: venosa; en dedos o maléolo externo, dolorosa: arterial."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades venosas y linfáticas"
+  },
+  {
+    "id": "PAT-tce-leve",
+    "nombre": "Traumatismo craneoencefálico leve",
+    "sinonimos": [
+      "TCE",
+      "Conmoción cerebral"
+    ],
+    "area": "NEU",
+    "resumen": "GCS 13-15. **TC craneal** si hay factores de riesgo: GCS <15 a las 2 h, sospecha de fractura, vómitos repetidos, ≥65 años, amnesia >30 min, mecanismo de alta energía, convulsión o **anticoagulación/antiagregación**. El tratamiento es sintomático; el paciente anticoagulado con sangrado se revierte de inmediato.",
+    "objetivo": "Detectar la lesión intracraneal y controlar los síntomas.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento sintomático",
+        "farmacos": [
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Pocos días, a demanda",
+            "nota": "Evitar opioides y sedantes que enmascaren el deterioro"
+          },
+          {
+            "nombre": "Ondansetrón",
+            "ref": "DIG-ondansetron",
+            "dosis": "4-8 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "A demanda",
+            "nota": "Vómitos persistentes obligan a TC"
+          }
+        ]
+      },
+      {
+        "titulo": "Paciente anticoagulado con lesión hemorrágica",
+        "farmacos": [
+          {
+            "nombre": "Complejo protrombínico (AVK o anti-Xa)",
+            "ref": "HEM-complejo-protrombinico",
+            "dosis": "25-50 UI/kg",
+            "via": "IV",
+            "intervalo": "Dosis única",
+            "duracion": "Según INR o fármaco",
+            "nota": "Con vitamina K 10 mg IV si es AVK"
+          },
+          {
+            "nombre": "Idarucizumab (dabigatrán)",
+            "ref": "HEM-idarucizumab",
+            "dosis": "5 g",
+            "via": "IV",
+            "intervalo": "Dos bolos de 2,5 g",
+            "duracion": "Dosis única"
+          }
+        ]
+      },
+      {
+        "titulo": "TCE moderado-grave con hemorragia (profilaxis de crisis precoces)",
+        "farmacos": [
+          {
+            "nombre": "Levetiracetam",
+            "ref": "NEU-levetiracetam",
+            "dosis": "500-1000 mg",
+            "via": "IV o VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "7 días",
+            "nota": "No indicado en el TCE leve sin lesión"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Observación 24 h por un acompañante; hoja de signos de alarma (cefalea creciente, vómitos, somnolencia, focalidad)",
+      "Reposo cognitivo y físico relativo 24-48 h y reincorporación progresiva",
+      "En anticoagulados con TC normal, valorar TC de control a las 24 h"
+    ],
+    "claves": [
+      "**El anciano anticoagulado con TCE leve necesita TC aunque esté asintomático.**",
+      "Síndrome posconmocional (cefalea, mareo, insomnio) puede durar semanas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de traumatismo craneoencefálico"
+  },
+  {
+    "id": "PAT-heridas-profilaxis-antitetanica",
+    "nombre": "Heridas: anestesia local, profilaxis antitetánica y antibiótica",
+    "sinonimos": [
+      "Profilaxis del tétanos",
+      "Laceraciones",
+      "Herida tetanígena"
+    ],
+    "area": "URG",
+    "resumen": "Limpieza con suero abundante, desbridamiento y cierre si tiene <12-24 h (más en la cara). **Profilaxis antitetánica según la herida y el historial vacunal**: herida limpia y menor → vacuna si la última dosis tiene >10 años; herida **tetanígena** (sucia, punzante, con tejido desvitalizado, quemadura, mordedura) → vacuna si >5 años **y además inmunoglobulina** si la vacunación es incompleta o desconocida. Antibiótico profiláctico solo en heridas de alto riesgo.",
+    "objetivo": "Cerrar la herida sin infección y sin riesgo de tétanos.",
+    "escenarios": [
+      {
+        "titulo": "Anestesia local para la sutura",
+        "farmacos": [
+          {
+            "nombre": "Lidocaína al 1-2%",
+            "ref": "ANE-lidocaina",
+            "dosis": "Hasta 4,5 mg/kg (7 mg/kg con adrenalina)",
+            "via": "Infiltración local (SC)",
+            "intervalo": "Dosis única",
+            "duracion": "Efecto 1-2 h",
+            "nota": "Sin adrenalina en zonas acras si hay vasculopatía"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis antitetánica",
+        "farmacos": [
+          {
+            "nombre": "Vacuna Td (o dTpa)",
+            "ref": "INF-vacuna-td-dtpa",
+            "dosis": "0,5 mL",
+            "via": "IM",
+            "intervalo": "Dosis única (completar la serie si estaba incompleta)",
+            "duracion": "—",
+            "nota": "Herida limpia: si la última dosis >10 años; tetanígena: si >5 años"
+          },
+          {
+            "nombre": "Inmunoglobulina antitetánica",
+            "ref": "INM-inmunoglobulina-antitetanica",
+            "dosis": "250 UI (500 UI si >24 h de evolución, alto riesgo o quemadura extensa)",
+            "via": "IM",
+            "intervalo": "Dosis única, en un lugar distinto a la vacuna",
+            "duracion": "—",
+            "nota": "Solo en herida tetanígena con <3 dosis o historial desconocido (o inmunodeprimido)"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis antibiótica en heridas de alto riesgo",
+        "nota": "Mordeduras, heridas de mano o pie muy contaminadas, fracturas abiertas, inmunodeprimidos, diabéticos.",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "3-5 días"
+          },
+          {
+            "nombre": "Cefalexina (alergia no grave a penicilina)",
+            "ref": "INF-cefalexina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "3-5 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Clindamicina (alergia grave a penicilina)",
+            "ref": "INF-clindamicina",
+            "dosis": "300 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "3-5 días",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Irrigación a presión con suero fisiológico (≥100 mL por cm de herida)",
+      "Retirada de cuerpos extraños y tejido desvitalizado",
+      "Retirada de puntos: cara 5 días, cuero cabelludo 7-10, tronco y extremidades 10-14"
+    ],
+    "claves": [
+      "**El tétanos se previene con la vacuna; la inmunoglobulina solo cubre a quien no está bien vacunado.**",
+      "Las heridas limpias suturadas no necesitan antibiótico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de tétanos y de inmunización del adulto"
+  },
+  {
+    "id": "PAT-mordeduras",
+    "nombre": "Mordeduras de animales y humanas",
+    "sinonimos": [
+      "Mordedura de perro",
+      "Mordedura de gato",
+      "Profilaxis de la rabia"
+    ],
+    "area": "URG",
+    "resumen": "Lavado inmediato y abundante con agua y jabón (15 min). **Profilaxis antibiótica** en mordeduras de **gato** (punzantes, alta tasa de infección), **humanas**, de **mano, cara o genitales**, profundas, en inmunodeprimidos o con edema. Valorar siempre **tétanos** y **rabia** (según el animal, su estado y la zona geográfica). Flora: Pasteurella (perro, gato), Capnocytophaga (perro, asplénicos), Eikenella y anaerobios (humana), S. aureus y estreptococos.",
+    "objetivo": "Prevenir la infección local, el tétanos y la rabia.",
+    "escenarios": [
+      {
+        "titulo": "Profilaxis antibiótica",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "3-5 días"
+          },
+          {
+            "nombre": "Doxiciclina + metronidazol (alergia a penicilina)",
+            "ref": "INF-doxiciclina",
+            "dosis": "Doxiciclina 100 mg + metronidazol 500 mg",
+            "via": "VO",
+            "intervalo": "Doxiciclina cada 12 h; metronidazol cada 8 h",
+            "duracion": "3-5 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Cotrimoxazol + clindamicina (alergia a penicilina; embarazo o niños)",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "160/800 mg + clindamicina 300 mg",
+            "via": "VO",
+            "intervalo": "Cotrimoxazol cada 12 h; clindamicina cada 8 h",
+            "duracion": "3-5 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Mordedura infectada (celulitis, absceso)",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "7-14 días (4-6 semanas si afecta a hueso o articulación)"
+          },
+          {
+            "nombre": "Ampicilina-sulbactam o amoxicilina-clavulánico IV (grave)",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "1-2 g/200 mg",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta mejoría y paso a vía oral"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de la rabia (animal sospechoso, no vacunado)",
+        "farmacos": [
+          {
+            "nombre": "Vacuna antirrábica",
+            "ref": "INF-vacuna-antirrabica",
+            "dosis": "1 dosis (1 mL o 0,5 mL según el preparado)",
+            "via": "IM",
+            "intervalo": "Días 0, 3, 7 y 14",
+            "duracion": "4 dosis (5 si inmunodeprimido)"
+          },
+          {
+            "nombre": "Inmunoglobulina antirrábica",
+            "ref": "INM-inmunoglobulina-antirrabica",
+            "dosis": "20 UI/kg",
+            "via": "Infiltración de la herida (resto IM)",
+            "intervalo": "Día 0",
+            "duracion": "Dosis única",
+            "nota": "Categoría III de la OMS (transdérmica, mucosas, murciélago)"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis antitetánica",
+        "farmacos": [
+          {
+            "nombre": "Vacuna Td (o dTpa)",
+            "ref": "INF-vacuna-td-dtpa",
+            "dosis": "0,5 mL",
+            "via": "IM",
+            "intervalo": "Dosis única",
+            "duracion": "—",
+            "nota": "Toda mordedura es herida tetanígena"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "No suturar de forma primaria las mordeduras de mano ni las punzantes; sí las de la cara tras lavado",
+      "Revisar a las 24-48 h",
+      "Observar al perro, gato o hurón 10 días si es posible"
+    ],
+    "claves": [
+      "**Herida en el nudillo tras un puñetazo = mordedura humana (riesgo de artritis séptica).**",
+      "Capnocytophaga canimorsus: sepsis fulminante en asplénicos y alcohólicos tras mordedura de perro."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de mordeduras y de rabia"
+  },
+  {
+    "id": "PAT-quemaduras",
+    "nombre": "Quemaduras",
+    "sinonimos": [
+      "Quemadura térmica",
+      "Gran quemado"
+    ],
+    "area": "URG",
+    "resumen": "Valorar extensión (**regla de los 9**; palma del paciente ≈1%) y profundidad. Primeros auxilios: **agua corriente 15-20 °C durante 20 min**. Derivar a un centro de quemados si >10-20% de superficie corporal, espesor total, cara, manos, pies, genitales o grandes articulaciones, quemadura eléctrica, química, por inhalación o circunferencial. Gran quemado: **fluidoterapia** (Parkland), analgesia potente y control de la vía aérea.",
+    "objetivo": "Evitar la profundización, el shock y la infección.",
+    "escenarios": [
+      {
+        "titulo": "Gran quemado (>20% SCQ en adultos)",
+        "farmacos": [
+          {
+            "nombre": "Ringer lactato (fórmula de Parkland)",
+            "ref": "NFR-ringer-lactato",
+            "dosis": "4 mL × kg × % superficie quemada en 24 h",
+            "via": "IV",
+            "intervalo": "La mitad en las primeras 8 h desde la quemadura y el resto en 16 h",
+            "duracion": "24 h y reajuste",
+            "nota": "Ajustar a diuresis 0,5 mL/kg/h (1 mL/kg/h en eléctricas)"
+          },
+          {
+            "nombre": "Morfina",
+            "ref": "REU-morfina",
+            "dosis": "0,05-0,1 mg/kg",
+            "via": "IV",
+            "intervalo": "Cada 2-4 h o a demanda",
+            "duracion": "Según dolor"
+          }
+        ]
+      },
+      {
+        "titulo": "Quemadura menor ambulatoria",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Pocos días"
+          },
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Pocos días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Sulfadiazina argéntica (2.º grado profundo)",
+            "ref": "DER-sulfadiazina-argentica",
+            "dosis": "Capa de crema al 1% de 2-3 mm",
+            "via": "tópica",
+            "intervalo": "Cada 24 h con cura",
+            "duracion": "Hasta la epitelización",
+            "nota": "En las superficiales, mejor apósitos no adherentes o de plata"
+          },
+          {
+            "nombre": "Vacuna Td (o dTpa)",
+            "ref": "INF-vacuna-td-dtpa",
+            "dosis": "0,5 mL",
+            "via": "IM",
+            "intervalo": "Dosis única",
+            "duracion": "—",
+            "nota": "La quemadura es herida tetanígena"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Enfriar con agua 20 min; nunca hielo",
+      "Retirar anillos y ropa no adherida; cubrir con apósito limpio",
+      "Las ampollas pequeñas se respetan; las grandes o a tensión se drenan",
+      "No usar antibiótico sistémico profiláctico"
+    ],
+    "claves": [
+      "**Hollín en boca, quemadura facial o voz ronca: intubación precoz (edema de vía aérea).**",
+      "Intoxicación por CO o cianuro en incendios en espacio cerrado: oxígeno al 100% e hidroxocobalamina."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de quemaduras; Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "PAT-cuidados-paliativos",
+    "nombre": "Cuidados paliativos: control de síntomas al final de la vida",
+    "sinonimos": [
+      "Paciente terminal",
+      "Situación de últimos días",
+      "Sedación paliativa"
+    ],
+    "area": "REU",
+    "resumen": "Objetivo: **confort**. Pautar los fármacos **a horas fijas con rescates**, preferir la vía oral y, cuando no sea posible, la **subcutánea**. Revisar y retirar la medicación fútil. Los opioides a dosis tituladas **no acortan la vida** y alivian el dolor y la disnea. Todo opioide va con laxante.",
+    "objetivo": "Aliviar dolor, disnea, náuseas, secreciones y agitación con los mínimos efectos adversos.",
+    "escenarios": [
+      {
+        "titulo": "Dolor",
+        "farmacos": [
+          {
+            "nombre": "Morfina de liberación rápida (paciente sin opioides previos)",
+            "ref": "REU-morfina",
+            "dosis": "5 mg VO (2,5 mg SC)",
+            "via": "VO o SC",
+            "intervalo": "Cada 4 h + rescates de 1/6 de la dosis diaria",
+            "duracion": "Continuo, titulando cada 24 h según rescates",
+            "nota": "Mitad de dosis en ancianos o insuficiencia renal"
+          },
+          {
+            "nombre": "Oxicodona (alternativa)",
+            "ref": "REU-oxicodona",
+            "dosis": "5 mg",
+            "via": "VO",
+            "intervalo": "Cada 4-6 h + rescates",
+            "duracion": "Continuo",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Fentanilo transdérmico (dolor estable, sin vía oral)",
+            "ref": "REU-fentanilo",
+            "dosis": "12-25 µg/h",
+            "via": "Transdérmica",
+            "intervalo": "Cambio de parche cada 72 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa. No para titular dolor inestable"
+          },
+          {
+            "nombre": "Bisacodilo (profilaxis del estreñimiento)",
+            "ref": "DIG-bisacodilo",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras tome opioides"
+          }
+        ]
+      },
+      {
+        "titulo": "Disnea",
+        "farmacos": [
+          {
+            "nombre": "Morfina",
+            "ref": "REU-morfina",
+            "dosis": "2,5-5 mg VO (1-2,5 mg SC)",
+            "via": "VO o SC",
+            "intervalo": "Cada 4 h",
+            "duracion": "Continuo",
+            "nota": "Dosis más bajas que para el dolor"
+          },
+          {
+            "nombre": "Midazolam (disnea con ansiedad)",
+            "ref": "PSQ-midazolam",
+            "dosis": "2,5-5 mg",
+            "via": "SC",
+            "intervalo": "Cada 4 h a demanda",
+            "duracion": "Según necesidad",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Estertores premortem",
+        "farmacos": [
+          {
+            "nombre": "Butilescopolamina",
+            "ref": "DIG-butilescopolamina",
+            "dosis": "20 mg",
+            "via": "SC",
+            "intervalo": "Cada 6-8 h (o 60-120 mg/día en infusión)",
+            "duracion": "Hasta el final",
+            "nota": "Más eficaz si se inicia pronto; no atraviesa la barrera hematoencefálica"
+          }
+        ]
+      },
+      {
+        "titulo": "Náuseas y vómitos",
+        "farmacos": [
+          {
+            "nombre": "Haloperidol (causa metabólica u opioides)",
+            "ref": "PSQ-haloperidol",
+            "dosis": "0,5-1,5 mg",
+            "via": "VO o SC",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Continuo"
+          },
+          {
+            "nombre": "Metoclopramida (estasis gástrica)",
+            "ref": "DIG-metoclopramida",
+            "dosis": "10 mg",
+            "via": "VO o SC",
+            "intervalo": "Cada 8 h",
+            "duracion": "Continuo",
+            "nota": "No en obstrucción intestinal completa"
+          }
+        ]
+      },
+      {
+        "titulo": "Delirium y agitación; sedación paliativa",
+        "farmacos": [
+          {
+            "nombre": "Haloperidol",
+            "ref": "PSQ-haloperidol",
+            "dosis": "0,5-2 mg (hasta 5 mg/día)",
+            "via": "VO o SC",
+            "intervalo": "Cada 8-12 h y rescates",
+            "duracion": "Según evolución"
+          },
+          {
+            "nombre": "Midazolam (sedación paliativa en síntoma refractario)",
+            "ref": "PSQ-midazolam",
+            "dosis": "Inducción 2,5-5 mg; mantenimiento 0,5-1 mg/h",
+            "via": "SC",
+            "intervalo": "Bolo y perfusión continua",
+            "duracion": "Hasta el final",
+            "nota": "Con consentimiento y registro en la historia"
+          }
+        ]
+      },
+      {
+        "titulo": "Astenia, anorexia y compresión tumoral",
+        "farmacos": [
+          {
+            "nombre": "Dexametasona",
+            "ref": "REU-dexametasona",
+            "dosis": "4-8 mg",
+            "via": "VO o SC",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Ciclos de 1-3 semanas",
+            "nota": "16 mg/día en compresión medular o hipertensión intracraneal"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Comunicación con el paciente y la familia; planificación anticipada de decisiones",
+      "Cuidado de la boca, cambios posturales, retirar sondas y analíticas innecesarias",
+      "Ventilador o aire fresco en la cara en la disnea"
+    ],
+    "claves": [
+      "**Todo opioide pautado, con laxante pautado.**",
+      "Paso de morfina oral a subcutánea: dividir la dosis entre 2.",
+      "Mioclonías o somnolencia con opioides: neurotoxicidad → reducir o rotar de opioide e hidratar."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cuidados paliativos y al final de la vida; Katzung 15.ª ed., cap. 31"
+  }
+]

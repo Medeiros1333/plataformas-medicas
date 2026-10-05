@@ -155,6 +155,9 @@ function validarPatologia(p, idsFarmacoTodos) {
       for (const c of ['nombre', 'dosis', 'via', 'intervalo', 'duracion']) {
         if (!noVacio(x[c])) err(p, `${donde}: falta ${c}`);
       }
+      // «alternativa» es un TEXTO que el Hub pinta junto al nombre (p. ej. "o empagliflozina 10 mg");
+      // un booleano se mostraría literalmente como «true».
+      if ('alternativa' in x && typeof x.alternativa !== 'string') err(p, `${donde}: "alternativa" debe ser texto, no ${typeof x.alternativa}`);
       if (noVacio(x.dosis) && !TIENE_UNIDAD.test(x.dosis) && !noVacio(x.dosis_objetivo)) {
         avi(p, `${donde}: la dosis no incluye cantidad con unidad → "${x.dosis}"`);
       }

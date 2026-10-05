@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "CAR-midodrina",
+    "nombre": "Midodrina",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Simpaticomimético no catecolamínico",
+    "subclase": "Agonista alfa-1 oral (profármaco)",
+    "vs_clase": [
+      "**El único de la clase por vía ORAL y de uso crónico**: hipotensión ortostática sintomática (disautonomía, Parkinson, fallo autonómico puro) y síncope vasovagal refractario.",
+      "**Profármaco** (desglimidodrina) que **no atraviesa la barrera hematoencefálica**: sin efectos centrales.",
+      "**HIPERTENSIÓN EN DECÚBITO**: la última dosis ≥4 h antes de acostarse y dormir con el cabecero elevado."
+    ],
+    "mecanismo": "Su metabolito activo estimula los receptores alfa-1 arteriolares y venosos: aumenta las resistencias periféricas y el retorno venoso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipotensión ortostática sintomática",
+        "dosis": "2,5-10 mg",
+        "posologia": "Cada 8 h durante el día (al levantarse, mediodía y media tarde)",
+        "via": "VO",
+        "nota": "Empezar con 2,5 mg y subir semanalmente"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA en decúbito y bipedestación basal.",
+      "titulacion": "Subir 2,5 mg por dosis cada semana según síntomas y PA en decúbito.",
+      "duracion": "Crónica mientras aporte beneficio.",
+      "fin": "Retirar si no mejora los síntomas.",
+      "via": "Oral.",
+      "monitorizacion": "**PA en DECÚBITO** (objetivo <180/100), retención urinaria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 93%.",
+      "distribucion": "No atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hidrólisis a desglimidodrina (activa).",
+      "eliminacion": "Renal.",
+      "vida_media": "3-4 h (metabolito).",
+      "ajuste_renal": "Empezar con 2,5 mg; evitar en insuficiencia renal aguda.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Digoxina, betabloqueantes",
+          "efecto": "Bradicardia",
+          "gravedad": "media",
+          "manejo": "Vigilar FC"
+        },
+        {
+          "con": "Fludrocortisona",
+          "efecto": "Hipertensión en decúbito aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar PA nocturna"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Piloerección y parestesias del cuero cabelludo**",
+        "Prurito",
+        "Urgencia o retención urinaria"
+      ],
+      "graves": [
+        "**Hipertensión en decúbito**",
+        "Bradicardia refleja"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía grave",
+      "Insuficiencia renal aguda",
+      "Retención urinaria",
+      "Feocromocitoma, tirotoxicosis"
+    ],
+    "perlas": [
+      "La «piel de gallina» y el hormigueo del cuero cabelludo son la señal de que el fármaco está actuando."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; Harrison 20.ª ed., cap. de síncope"
+  },
+  {
+    "id": "ANE-fenilefrina-iv",
+    "nombre": "Fenilefrina intravenosa",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Simpaticomimético no catecolamínico",
+    "subclase": "Agonista alfa-1 puro de acción directa",
+    "vs_clase": [
+      "**Alfa-1 PURO**: sube la PA por vasoconstricción y produce **BRADICARDIA REFLEJA** (útil si la hipotensión cursa con taquicardia).",
+      "**De elección en la hipotensión de la anestesia raquídea en la CESÁREA** (menos acidosis fetal que la efedrina).",
+      "**Bolos IV pequeños (µg)** de efecto inmediato y breve; también en la estenosis aórtica o la miocardiopatía hipertrófica obstructiva."
+    ],
+    "mecanismo": "Estimulación directa de receptores alfa-1 vasculares.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipotensión durante la anestesia (general o neuroaxial)",
+        "dosis": "50-100 µg en bolo",
+        "posologia": "Repetir cada 1-2 min según PA",
+        "via": "IV",
+        "nota": "Perfusión: 25-100 µg/min"
+      }
+    ],
+    "esquema": {
+      "inicio": "Corregir la hipovolemia.",
+      "titulacion": "Bolos o perfusión según PA.",
+      "duracion": "Mientras dure la hipotensión.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "PA continua, FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "—",
+      "metabolismo": "MAO.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h (efecto 10-20 min).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Oxitocina, ergóticos",
+          "efecto": "Hipertensión",
+          "gravedad": "media",
+          "manejo": "Vigilar PA"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Bradicardia refleja**"
+      ],
+      "graves": [
+        "Hipertensión",
+        "Isquemia periférica o esplácnica a dosis altas",
+        "Caída del gasto cardiaco"
+      ]
+    },
+    "contraindicaciones": [
+      "Bradicardia significativa",
+      "HTA grave"
+    ],
+    "perlas": [
+      "Hipotensión con bradicardia: efedrina (o atropina); hipotensión con taquicardia: fenilefrina."
+    ],
+    "embarazo_lactancia": "Compatible (de elección en la cesárea).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "ANE-efedrina",
+    "nombre": "Efedrina",
+    "sinonimos": [],
+    "area": "ANE",
+    "nivel": 2,
+    "clase": "Simpaticomimético no catecolamínico",
+    "subclase": "Simpaticomimético mixto (directo e indirecto)",
+    "vs_clase": [
+      "**Acción MIXTA**: libera noradrenalina y estimula directamente alfa y beta → **sube PA y FC**: de elección si la hipotensión se acompaña de **bradicardia**.",
+      "**TAQUIFILAXIA** con dosis repetidas (agota los depósitos de noradrenalina).",
+      "**Atraviesa la barrera hematoencefálica** (estimulante central) y puede producir acidosis fetal en la cesárea."
+    ],
+    "mecanismo": "Desplaza noradrenalina de las terminales simpáticas y es agonista directo alfa y beta.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipotensión durante la anestesia, sobre todo con bradicardia",
+        "dosis": "5-10 mg en bolo",
+        "posologia": "Repetir cada 3-5 min",
+        "via": "IV",
+        "nota": "Dosis total habitual ≤50 mg"
+      }
+    ],
+    "esquema": {
+      "inicio": "Corregir volemia.",
+      "titulacion": "Bolos sucesivos.",
+      "duracion": "Puntual.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "PA, FC."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV (también oral).",
+      "distribucion": "Atraviesa la barrera hematoencefálica y la placenta.",
+      "metabolismo": "Escaso (resistente a MAO y COMT).",
+      "eliminacion": "Renal, inalterada.",
+      "vida_media": "3-6 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva grave",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Reserpina, cocaína crónica",
+          "efecto": "Menor efecto (sin depósitos)",
+          "gravedad": "baja",
+          "manejo": "Usar fenilefrina o noradrenalina"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Taquicardia",
+        "Ansiedad, insomnio"
+      ],
+      "graves": [
+        "Arritmias",
+        "Hipertensión"
+      ]
+    },
+    "contraindicaciones": [
+      "Tratamiento con IMAO",
+      "Taquiarritmias"
+    ],
+    "perlas": [
+      "Si la efedrina deja de funcionar tras varias dosis, no es resistencia sino taquifilaxia: cambiar a un agonista directo."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "CAR-isoprenalina",
+    "nombre": "Isoprenalina (isoproterenol)",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Catecolamina y vasopresor",
+    "subclase": "Agonista beta-1 y beta-2 puro",
+    "vs_clase": [
+      "**Beta PURO (sin efecto alfa)**: sube la FC y la contractilidad pero **VASODILATA** (puede bajar la PA diastólica).",
+      "**Puente en la BRADICARDIA o el BLOQUEO AV refractarios a atropina** hasta el marcapasos, y en la **torsade de pointes** dependiente de pausas.",
+      "**No es vasopresor**: no usar en el shock."
+    ],
+    "mecanismo": "Agonista beta-1 (cronotropo, dromotropo e inotropo) y beta-2 (vasodilatador y broncodilatador).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Bradicardia sintomática o bloqueo AV refractario a atropina",
+        "dosis": "1-10 µg/min",
+        "posologia": "Perfusión continua",
+        "via": "IV",
+        "nota": "Titular a FC; puente al marcapasos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras atropina ineficaz.",
+      "titulacion": "Subir según FC objetivo.",
+      "duracion": "Hasta marcapasos.",
+      "fin": "—",
+      "via": "IV.",
+      "monitorizacion": "ECG continuo, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "—",
+      "metabolismo": "COMT.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-5 min.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Antagonismo",
+          "gravedad": "media",
+          "manejo": "Puede requerir dosis altas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Taquicardia, palpitaciones"
+      ],
+      "graves": [
+        "**Isquemia miocárdica**",
+        "Arritmias ventriculares",
+        "Hipotensión"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica activa",
+      "Taquiarritmias"
+    ],
+    "perlas": [
+      "En la bradicardia sintomática: atropina → adrenalina o dopamina en perfusión, o isoprenalina → marcapasos transcutáneo."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9"
+  },
+  {
+    "id": "HEM-cilostazol",
+    "nombre": "Cilostazol",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Antiagregante plaquetario",
+    "subclase": "Inhibidor de la fosfodiesterasa 3",
+    "vs_clase": [
+      "**Indicación propia: CLAUDICACIÓN INTERMITENTE** (aumenta la distancia caminada); **no** sustituye al AAS o clopidogrel en la prevención cardiovascular.",
+      "**Antiagregante Y VASODILATADOR** (inhibe la PDE-3).",
+      "**CONTRAINDICADO en CUALQUIER grado de INSUFICIENCIA CARDIACA** (los inhibidores de PDE-3 aumentan la mortalidad en IC)."
+    ],
+    "mecanismo": "Inhibe la fosfodiesterasa 3: aumenta el AMPc en plaquetas (antiagregación) y en el músculo liso vascular (vasodilatación).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Claudicación intermitente (enfermedad arterial periférica)",
+        "dosis": "100 mg",
+        "posologia": "Cada 12 h, 30 min antes o 2 h después de comer",
+        "via": "VO",
+        "nota": "Con inhibidores de CYP3A4 o CYP2C19: 50 mg cada 12 h"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras ≥6 meses de ejercicio supervisado y control de factores de riesgo sin mejoría suficiente.",
+      "titulacion": "—",
+      "duracion": "Reevaluar a los 3 meses: **suspender si no mejora**.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Distancia de claudicación, palpitaciones, sangrado."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (aumenta con comida grasa).",
+      "distribucion": "Unión a proteínas 95%.",
+      "metabolismo": "**CYP3A4 y CYP2C19**.",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "11-13 h.",
+      "ajuste_renal": "Contraindicado con FG <25.",
+      "ajuste_hepatico": "Contraindicado en insuficiencia moderada-grave.",
+      "interacciones": [
+        {
+          "con": "Claritromicina, ketoconazol, diltiazem, omeprazol",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir a 50 mg cada 12 h"
+        },
+        {
+          "con": "AAS + clopidogrel, anticoagulantes",
+          "efecto": "Sangrado",
+          "gravedad": "alta",
+          "manejo": "Evitar con doble antiagregación o anticoagulación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Cefalea**",
+        "**Diarrea** y heces blandas",
+        "Palpitaciones, taquicardia"
+      ],
+      "graves": [
+        "Arritmias ventriculares",
+        "Hemorragia"
+      ]
+    },
+    "contraindicaciones": [
+      "**Insuficiencia cardiaca de cualquier grado**",
+      "Angina inestable o IAM en los 6 meses previos",
+      "Taquiarritmias",
+      "Hemorragia activa"
+    ],
+    "perlas": [
+      "Antes de pautarlo, preguntar por disnea o edemas: si hay insuficiencia cardiaca, está contraindicado."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 34; Harrison 20.ª ed., cap. de enfermedad arterial periférica"
+  },
+  {
+    "id": "CAR-diosmina-hesperidina",
+    "nombre": "Diosmina-hesperidina (fracción flavonoica purificada micronizada)",
+    "sinonimos": [
+      "Diosmina"
+    ],
+    "area": "CAR",
+    "nivel": 2,
+    "clase": "Flebotónico (venoactivo)",
+    "subclase": "Flavonoide micronizado",
+    "vs_clase": [
+      "**El flebotónico con MÁS evidencia**: síntomas de la insuficiencia venosa crónica (pesadez, dolor, edema) y **crisis hemorroidal**.",
+      "**Pauta de choque en la crisis hemorroidal**: 3 g/día durante 4 días y 2 g/día durante 3 días.",
+      "**Muy bien tolerado**; trata síntomas, **no cura las varices** ni sustituye la compresión."
+    ],
+    "mecanismo": "Prolonga el efecto de la noradrenalina sobre la pared venosa (aumenta el tono), reduce la permeabilidad capilar y la adhesión leucocitaria al endotelio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insuficiencia venosa crónica sintomática",
+        "dosis": "1000 mg/día (500 mg cada 12 h o 1000 mg cada 24 h)",
+        "posologia": "Cada 12-24 h con comidas",
+        "via": "VO",
+        "nota": "Valorar a los 2-3 meses"
+      },
+      {
+        "patologia": "Crisis hemorroidal",
+        "dosis": "3000 mg/día 4 días; después 2000 mg/día 3 días",
+        "posologia": "Repartido en 2-3 tomas",
+        "via": "VO",
+        "nota": "Mantenimiento 1000 mg/día"
+      }
+    ],
+    "esquema": {
+      "inicio": "Junto a medidas posturales y compresión.",
+      "titulacion": "—",
+      "duracion": "Ciclos de 2-3 meses o continua si beneficio.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (la micronización mejora la absorción).",
+      "distribucion": "Tropismo por la pared venosa.",
+      "metabolismo": "Flora intestinal y hepático.",
+      "eliminacion": "Fecal y renal.",
+      "vida_media": "11 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas leves"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "La crisis hemorroidal con trombosis externa muy dolorosa en <72 h se beneficia más de la escisión que de cualquier fármaco."
+    ],
+    "embarazo_lactancia": "Usado en el embarazo (hemorroides); evitar en lactancia por falta de datos.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed.; Harrison 20.ª ed., cap. de enfermedades venosas"
+  },
+  {
+    "id": "CAR-dobesilato-calcico",
+    "nombre": "Dobesilato cálcico",
+    "sinonimos": [],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Flebotónico (venoactivo)",
+    "subclase": "Angioprotector sintético",
+    "vs_clase": [
+      "**Sintético** (no flavonoide); reduce la permeabilidad capilar y la viscosidad sanguínea.",
+      "**AGRANULOCITOSIS** (rara pero grave): avisar de **fiebre o dolor de garganta** → hemograma.",
+      "Evidencia modesta; **no se recomienda en la retinopatía diabética** (indicación antigua sin beneficio demostrado)."
+    ],
+    "mecanismo": "Disminuye la permeabilidad capilar y la agregación plaquetaria, y mejora la reología sanguínea.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síntomas de la insuficiencia venosa crónica",
+        "dosis": "500 mg",
+        "posologia": "Cada 12 h (hasta cada 8 h)",
+        "via": "VO",
+        "nota": "Ciclos limitados"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Ciclos de 1-3 meses.",
+      "fin": "Suspender ante fiebre inexplicada.",
+      "via": "Oral.",
+      "monitorizacion": "Fiebre, faringitis, aftas (agranulocitosis)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "5 h.",
+      "ajuste_renal": "Reducir en insuficiencia renal grave.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias gastrointestinales",
+        "Exantema"
+      ],
+      "graves": [
+        "**Agranulocitosis**",
+        "Fiebre medicamentosa"
+      ]
+    },
+    "contraindicaciones": [
+      "Antecedente de agranulocitosis"
+    ],
+    "perlas": [
+      "Fiebre alta sin foco en un paciente que toma dobesilato: hemograma urgente."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed.; evaluaciones de seguridad de las agencias reguladoras (EMA)"
+  },
+  {
+    "id": "CAR-oxerutinas",
+    "nombre": "Oxerutinas (hidroxietilrutósidos)",
+    "sinonimos": [
+      "Troxerutina",
+      "Rusco + hesperidina metilchalcona"
+    ],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Flebotónico (venoactivo)",
+    "subclase": "Flavonoide semisintético (rutósido)",
+    "vs_clase": [
+      "**Rutósidos semisintéticos**: reducen el **EDEMA** de la insuficiencia venosa (útil en el **edema por calor y en el embarazo** en algunas guías).",
+      "Eficacia sintomática similar a otros flavonoides; **sin toxicidad hematológica**.",
+      "El **rusco** (Ruscus aculeatus), otro venotónico vegetal, actúa como agonista alfa-adrenérgico venoso."
+    ],
+    "mecanismo": "Disminuyen la permeabilidad y la fragilidad capilar.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Edema y síntomas de la insuficiencia venosa crónica",
+        "dosis": "500 mg",
+        "posologia": "Cada 12 h (1000 mg/día)",
+        "via": "VO",
+        "nota": "Valorar a las 4-8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Junto a compresión.",
+      "titulacion": "—",
+      "duracion": "Ciclos.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Edema, síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, baja.",
+      "distribucion": "Pared vascular.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar.",
+      "vida_media": "10-25 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas",
+        "Cefalea, sofocos"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Ningún flebotónico sustituye a la compresión elástica, que es lo que cura las úlceras venosas."
+    ],
+    "embarazo_lactancia": "Evitar en el primer trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed.; Harrison 20.ª ed., cap. de enfermedades venosas"
+  },
+  {
+    "id": "INF-vacuna-td-dtpa",
+    "nombre": "Vacuna frente a tétanos y difteria (Td) y con tosferina acelular (dTpa)",
+    "sinonimos": [
+      "Vacuna antitetánica"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Vacuna del adulto",
+    "subclase": "Vacuna de toxoides (inactivada)",
+    "vs_clase": [
+      "**TOXOIDE inactivado**: base de la **profilaxis antitetánica de las HERIDAS** (junto a la inmunoglobulina si hace falta).",
+      "**dTpa en CADA EMBARAZO** (semanas 27-36) para proteger al lactante de la tosferina.",
+      "Pauta del adulto no vacunado: **3 dosis (0, 1 y 6-12 meses)** y recuerdos según calendario."
+    ],
+    "mecanismo": "Toxoides tetánico y diftérico (± antígenos de Bordetella pertussis) que inducen anticuerpos antitoxina.",
+    "espectro": "Inmuniza frente a: toxina tetánica (Clostridium tetani), toxina diftérica (Corynebacterium diphtheriae) y, la dTpa, Bordetella pertussis.",
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis antitetánica de heridas (vacunación incompleta, desconocida o última dosis >10 años en herida limpia o >5 años en herida tetanígena)",
+        "dosis": "0,5 mL",
+        "posologia": "Dosis única (completar la pauta si estaba incompleta)",
+        "via": "IM",
+        "nota": "Deltoides"
+      },
+      {
+        "patologia": "Prevención de la tosferina del lactante",
+        "dosis": "0,5 mL (dTpa)",
+        "posologia": "Una dosis en cada embarazo, semanas 27-36",
+        "via": "IM",
+        "nota": "—"
+      },
+      {
+        "patologia": "Primovacunación del adulto no vacunado",
+        "dosis": "0,5 mL",
+        "posologia": "3 dosis: 0, 1 y 6-12 meses",
+        "via": "IM",
+        "nota": "Recuerdos según el calendario vigente"
+      }
+    ],
+    "esquema": {
+      "inicio": "Revisar el historial vacunal en toda herida.",
+      "titulacion": "—",
+      "duracion": "Según pauta.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "Reacción local."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Protección ~10 años.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inmunoglobulina antitetánica",
+          "efecto": "Compatibles",
+          "gravedad": "baja",
+          "manejo": "Administrar en lugares anatómicos distintos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor e induración local",
+        "Febrícula"
+      ],
+      "graves": [
+        "Reacción de Arthus (dosis demasiado frecuentes)",
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia a una dosis previa",
+      "Encefalopatía tras vacuna de tosferina (solo el componente pertussis)"
+    ],
+    "perlas": [
+      "En la herida tetanígena de un paciente sin vacunación completa: vacuna + inmunoglobulina antitetánica, en brazos distintos."
+    ],
+    "embarazo_lactancia": "Recomendada en el embarazo (dTpa).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55; Harrison 20.ª ed., cap. de tétanos y de inmunización del adulto"
+  },
+  {
+    "id": "INF-vacuna-antigripal",
+    "nombre": "Vacuna antigripal inactivada",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Vacuna del adulto",
+    "subclase": "Vacuna inactivada estacional",
+    "vs_clase": [
+      "**ANUAL** (cambia la composición cada temporada según la OMS).",
+      "**Grupos**: ≥60-65 años, enfermedades crónicas, **embarazo (cualquier trimestre)**, inmunodeprimidos, sanitarios y convivientes de riesgo.",
+      "En mayores: **alta carga o adyuvada** (mejor respuesta). **La alergia al huevo NO la contraindica.**"
+    ],
+    "mecanismo": "Hemaglutinina y neuraminidasa de las cepas previstas inducen anticuerpos neutralizantes.",
+    "espectro": "Inmuniza frente a: virus de la gripe A (H1N1, H3N2) y B de la temporada.",
+    "indicaciones": [
+      {
+        "patologia": "Prevención de la gripe en grupos de riesgo",
+        "dosis": "0,5 mL",
+        "posologia": "Una dosis anual al inicio de la temporada",
+        "via": "IM",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Otoño (o antes de la temporada local).",
+      "titulacion": "—",
+      "duracion": "Anual.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Protección de una temporada.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inmunosupresores",
+          "efecto": "Menor respuesta",
+          "gravedad": "baja",
+          "manejo": "Vacunar igualmente"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local",
+        "Malestar, febrícula 1-2 días"
+      ],
+      "graves": [
+        "Síndrome de Guillain-Barré (muy raro)",
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia a una dosis previa"
+    ],
+    "perlas": [
+      "La vacuna inactivada no puede producir la gripe: el malestar de 1-2 días es la respuesta inmunitaria."
+    ],
+    "embarazo_lactancia": "Recomendada en cualquier trimestre.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de gripe y de inmunización del adulto"
+  },
+  {
+    "id": "INF-vacuna-antineumococica",
+    "nombre": "Vacuna antineumocócica conjugada",
+    "sinonimos": [
+      "VNC20",
+      "VNC21",
+      "VNC15 + VNP23"
+    ],
+    "area": "INF",
+    "nivel": 1,
+    "clase": "Vacuna del adulto",
+    "subclase": "Vacuna conjugada de polisacáridos",
+    "vs_clase": [
+      "**CONJUGADA** (polisacárido unido a proteína): respuesta T-dependiente con **memoria**, a diferencia de la polisacárida VNP23.",
+      "**Una sola dosis** de VNC20 o VNC21 basta en la mayoría de adultos (si se usa VNC15, completar con VNP23).",
+      "**Indicada en ≥65 años** y en adultos con enfermedad crónica, asplenia, inmunodepresión, fístula de LCR o implante coclear."
+    ],
+    "mecanismo": "Polisacáridos capsulares de 15-21 serotipos conjugados a una proteína transportadora.",
+    "espectro": "Inmuniza frente a: Streptococcus pneumoniae de los serotipos incluidos.",
+    "indicaciones": [
+      {
+        "patologia": "Prevención de la neumonía y la enfermedad neumocócica invasiva",
+        "dosis": "0,5 mL",
+        "posologia": "Dosis única",
+        "via": "IM",
+        "nota": "Con VNC15: VNP23 ≥1 año después (≥8 semanas si inmunodeprimido)"
+      }
+    ],
+    "esquema": {
+      "inicio": "≥65 años o grupo de riesgo.",
+      "titulacion": "—",
+      "duracion": "Dosis única en la mayoría.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Protección duradera.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacuna antigripal",
+          "efecto": "Compatibles el mismo día",
+          "gravedad": "baja",
+          "manejo": "Lugares distintos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local",
+        "Mialgias, astenia"
+      ],
+      "graves": [
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia a una dosis previa o al toxoide diftérico"
+    ],
+    "perlas": [
+      "Antes de una esplenectomía programada, vacunar ≥2 semanas antes."
+    ],
+    "embarazo_lactancia": "Si está indicada.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones neumocócicas y de inmunización del adulto"
+  },
+  {
+    "id": "INF-vacuna-zoster-recombinante",
+    "nombre": "Vacuna recombinante adyuvada frente al herpes zóster",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Vacuna del adulto",
+    "subclase": "Vacuna de subunidad (glicoproteína E) adyuvada",
+    "vs_clase": [
+      "**NO es de virus vivo**: se puede usar en **INMUNODEPRIMIDOS** (a diferencia de la antigua vacuna atenuada).",
+      "**Eficacia >90%** y reduce la neuralgia postherpética.",
+      "**2 dosis separadas 2-6 meses**; **reactogenicidad alta** (dolor, fiebre, mialgias 1-3 días)."
+    ],
+    "mecanismo": "Glicoproteína E del virus varicela-zóster con adyuvante AS01B: refuerza la inmunidad celular.",
+    "espectro": "Inmuniza frente a: reactivación del virus varicela-zóster.",
+    "indicaciones": [
+      {
+        "patologia": "Prevención del herpes zóster en ≥50 años y en inmunodeprimidos ≥18 años",
+        "dosis": "0,5 mL",
+        "posologia": "2 dosis separadas 2-6 meses (1-2 meses si inmunodeprimido)",
+        "via": "IM",
+        "nota": "También tras un zóster previo (esperar a que se resuelva)"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "2 dosis.",
+      "fin": "—",
+      "via": "IM.",
+      "monitorizacion": "Reacciones sistémicas transitorias."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Protección ≥10 años.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inmunosupresores",
+          "efecto": "Respuesta algo menor",
+          "gravedad": "baja",
+          "manejo": "Vacunar idealmente antes de iniciarlos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Dolor local intenso**",
+        "Mialgias, fiebre, astenia (1-3 días)"
+      ],
+      "graves": [
+        "Síndrome de Guillain-Barré (muy raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anafilaxia a componentes"
+    ],
+    "perlas": [
+      "Avisar de la reactogenicidad para que el paciente no abandone la segunda dosis."
+    ],
+    "embarazo_lactancia": "Posponer en el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por VVZ y de inmunización del adulto"
+  },
+  {
+    "id": "INF-vacuna-antirrabica",
+    "nombre": "Vacuna antirrábica",
+    "sinonimos": [],
+    "area": "INF",
+    "nivel": 2,
+    "clase": "Vacuna del adulto",
+    "subclase": "Vacuna inactivada de cultivo celular",
+    "vs_clase": [
+      "**Se usa sobre todo DESPUÉS de la exposición** (mordedura o arañazo de animal sospechoso): la rabia establecida es casi siempre mortal.",
+      "**No vacunado**: vacuna (días 0, 3, 7 y 14) **+ INMUNOGLOBULINA antirrábica** en la herida el día 0.",
+      "**Previamente vacunado**: solo 2 dosis (días 0 y 3), **sin inmunoglobulina**. En el deltoides, **nunca en el glúteo**."
+    ],
+    "mecanismo": "Virus de la rabia inactivado: induce anticuerpos neutralizantes antes de que el virus alcance el sistema nervioso.",
+    "espectro": "Inmuniza frente a: virus de la rabia (Lyssavirus).",
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis postexposición en no vacunados (exposición de categoría II-III de la OMS)",
+        "dosis": "1 dosis (1 mL o 0,5 mL según preparado)",
+        "posologia": "Días 0, 3, 7 y 14 (5.ª dosis el día 28 si inmunodeprimido)",
+        "via": "IM",
+        "nota": "Más inmunoglobulina antirrábica el día 0 en categoría III"
+      },
+      {
+        "patologia": "Profilaxis preexposición (viajeros a zonas endémicas, veterinarios)",
+        "dosis": "1 mL (o 0,5 mL según el preparado)",
+        "posologia": "Días 0 y 7",
+        "via": "IM",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "**Lavado de la herida 15 min con agua y jabón** e inicio inmediato de la pauta.",
+      "titulacion": "—",
+      "duracion": "Según pauta.",
+      "fin": "Suspender si el animal observado sigue sano a los 10 días (perro, gato, hurón).",
+      "via": "IM (deltoides).",
+      "monitorizacion": "Cumplimiento de las dosis."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM.",
+      "distribucion": "—",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "Anticuerpos a los 7-10 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Inmunoglobulina antirrábica",
+          "efecto": "La inmunoglobulina puede atenuar la respuesta si se excede la dosis",
+          "gravedad": "media",
+          "manejo": "No superar 20 UI/kg; nunca en el mismo sitio"
+        },
+        {
+          "con": "Cloroquina, inmunosupresores",
+          "efecto": "Menor respuesta",
+          "gravedad": "media",
+          "manejo": "Comprobar títulos"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local",
+        "Cefalea, mialgias"
+      ],
+      "graves": [
+        "Reacciones alérgicas (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Ninguna absoluta en la postexposición (enfermedad mortal)"
+    ],
+    "perlas": [
+      "Mordedura de murciélago, aunque sea mínima: profilaxis completa."
+    ],
+    "embarazo_lactancia": "Indicada si hay exposición.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de rabia"
+  },
+  {
+    "id": "INM-inmunoglobulina-antirrabica",
+    "nombre": "Inmunoglobulina antirrábica humana",
+    "sinonimos": [],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Inmunoglobulina",
+    "subclase": "Inmunoglobulina hiperinmune específica",
+    "vs_clase": [
+      "**Inmunidad PASIVA inmediata** que cubre los 7-10 días hasta que la vacuna genera anticuerpos.",
+      "**Se INFILTRA en y alrededor de TODA la herida** (no basta IM a distancia).",
+      "**Solo en no vacunados** y **dentro de los 7 días** del inicio de la vacunación."
+    ],
+    "mecanismo": "Anticuerpos neutralizantes del virus de la rabia de donantes hiperinmunizados.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Exposición a la rabia de categoría III en no vacunados",
+        "dosis": "20 UI/kg",
+        "posologia": "Dosis única el día 0",
+        "via": "Infiltración local de la herida (el resto IM en un lugar distante a la vacuna)",
+        "nota": "Si la herida es extensa, diluir para cubrirla toda"
+      }
+    ],
+    "esquema": {
+      "inicio": "El día 0, junto a la primera dosis de vacuna.",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "No administrar después del día 7.",
+      "via": "Infiltración e IM.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Local e IM.",
+      "distribucion": "—",
+      "metabolismo": "Catabolismo.",
+      "eliminacion": "—",
+      "vida_media": "21 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Vacuna antirrábica",
+          "efecto": "Interfiere con la respuesta si se sobredosifica o se pone en el mismo sitio",
+          "gravedad": "media",
+          "manejo": "Máximo 20 UI/kg y lugar distinto"
+        },
+        {
+          "con": "Vacunas de virus vivos",
+          "efecto": "Menor respuesta",
+          "gravedad": "baja",
+          "manejo": "Diferir 3-4 meses"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor local",
+        "Febrícula"
+      ],
+      "graves": [
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Paciente previamente vacunado (no la necesita)"
+    ],
+    "perlas": [
+      "Infiltrar la herida es lo esencial: la inmunoglobulina neutraliza el virus donde está."
+    ],
+    "embarazo_lactancia": "Indicada si hay exposición.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de rabia"
+  },
+  {
+    "id": "DER-mupirocina",
+    "nombre": "Mupirocina tópica",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 1,
+    "clase": "Antibacteriano y antiséptico tópico",
+    "subclase": "Antibiótico tópico (ácido pseudomónico)",
+    "vs_clase": [
+      "**De elección en el IMPÉTIGO localizado** y en la **descolonización NASAL de S. aureus / SARM** (pomada nasal).",
+      "**Mecanismo único** (inhibe la isoleucil-ARNt sintetasa): **sin resistencia cruzada** con otros antibióticos.",
+      "**Resistencias con uso prolongado o repetido**: ciclos cortos (5-10 días)."
+    ],
+    "mecanismo": "Inhibe la isoleucil-ARNt sintetasa bacteriana y la síntesis proteica.",
+    "espectro": "Cubre: Staphylococcus aureus (incluido SARM), Streptococcus pyogenes. No cubre: gramnegativos ni anaerobios.",
+    "indicaciones": [
+      {
+        "patologia": "Impétigo localizado e infecciones cutáneas superficiales",
+        "dosis": "Capa fina de pomada al 2%",
+        "posologia": "Cada 8 h",
+        "via": "tópica",
+        "nota": "5-7 días"
+      },
+      {
+        "patologia": "Descolonización nasal de S. aureus (prequirúrgica, SARM)",
+        "dosis": "Pomada nasal 2% en cada fosa",
+        "posologia": "Cada 12 h",
+        "via": "tópica (intranasal)",
+        "nota": "5 días, junto a lavados con clorhexidina"
+      }
+    ],
+    "esquema": {
+      "inicio": "Retirar costras con agua y jabón.",
+      "titulacion": "—",
+      "duracion": "5-10 días.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Respuesta a las 72 h; antibiótico oral si extenso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "Se inactiva rápidamente si se absorbe.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución con grandes superficies (excipiente polietilenglicol).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, prurito local"
+      ],
+      "graves": [
+        "Dermatitis de contacto (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Impétigo extenso, ampolloso o con fiebre: antibiótico oral (cefalexina o cloxacilina), no tópico."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus",
+      "BGP-streptococcus-pyogenes"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-acido-fusidico",
+    "nombre": "Ácido fusídico tópico",
+    "sinonimos": [
+      "Fusidato sódico"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Antibacteriano y antiséptico tópico",
+    "subclase": "Antibiótico esteroideo (fusidano)",
+    "vs_clase": [
+      "**Alternativa a la mupirocina en el impétigo** y la foliculitis estafilocócica; **buena penetración en la piel intacta**.",
+      "**Combinado con corticoide** (hidrocortisona o betametasona) en el **eccema sobreinfectado**.",
+      "**RESISTENCIAS RÁPIDAS** en S. aureus si se usa a menudo o de forma prolongada: ciclos ≤7-10 días."
+    ],
+    "mecanismo": "Inhibe el factor de elongación G y la síntesis proteica bacteriana.",
+    "espectro": "Cubre: Staphylococcus aureus (incluido parte de SARM), estreptococos (menos activo). No cubre: gramnegativos.",
+    "indicaciones": [
+      {
+        "patologia": "Impétigo y foliculitis localizados, eccema sobreinfectado",
+        "dosis": "Capa fina de crema al 2%",
+        "posologia": "Cada 8-12 h",
+        "via": "tópica",
+        "nota": "7 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "≤7-10 días.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Respuesta clínica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Escasa.",
+      "distribucion": "Penetra bien en la epidermis.",
+      "metabolismo": "Hepático (si se absorbe).",
+      "eliminacion": "Biliar.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Estatinas (solo la forma ORAL)",
+          "efecto": "Rabdomiólisis",
+          "gravedad": "alta",
+          "manejo": "Suspender la estatina durante el ácido fusídico oral"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Irritación local"
+      ],
+      "graves": [
+        "Dermatitis de contacto"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Alternar tópicos antibióticos y no prolongarlos es la única forma de mantenerlos útiles."
+    ],
+    "embarazo_lactancia": "Compatible (tópico).",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 61"
+  },
+  {
+    "id": "DER-sulfadiazina-argentica",
+    "nombre": "Sulfadiazina argéntica",
+    "sinonimos": [
+      "Apósitos de plata"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Antibacteriano y antiséptico tópico",
+    "subclase": "Sulfonamida con plata (quemaduras)",
+    "vs_clase": [
+      "**Antimicrobiano de las QUEMADURAS** de espesor parcial profundo y total (amplio espectro, incluida **Pseudomonas**).",
+      "**Retrasa la epitelización** de las quemaduras **superficiales**: en ellas son preferibles apósitos no adherentes o de plata.",
+      "**Sulfonamida**: evitar en alérgicos, al **final del embarazo y en neonatos <2 meses** (kernícterus); **leucopenia transitoria**."
+    ],
+    "mecanismo": "La plata y la sulfadiazina dañan la membrana y la pared bacterianas.",
+    "espectro": "Cubre: Staphylococcus aureus, Pseudomonas aeruginosa, enterobacterias, Candida.",
+    "indicaciones": [
+      {
+        "patologia": "Prevención de la infección en quemaduras de segundo grado profundo y tercer grado",
+        "dosis": "Capa de crema al 1% de 2-3 mm de grosor",
+        "posologia": "Cada 12-24 h, con cambio de apósito",
+        "via": "tópica",
+        "nota": "Retirar los restos de la aplicación previa con suero"
+      }
+    ],
+    "esquema": {
+      "inicio": "Limpieza de la quemadura.",
+      "titulacion": "—",
+      "duracion": "Hasta la epitelización o el injerto.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Signos de infección, hemograma si gran superficie."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica en grandes superficies.",
+      "distribucion": "—",
+      "metabolismo": "Acetilación hepática.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Precaución en grandes superficies.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Desbridantes enzimáticos (colagenasa)",
+          "efecto": "La plata los inactiva",
+          "gravedad": "baja",
+          "manejo": "No combinar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Ardor",
+        "Pseudoescara grisácea"
+      ],
+      "graves": [
+        "**Leucopenia transitoria**",
+        "Reacciones de hipersensibilidad a sulfonamidas",
+        "Argiria con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a sulfonamidas",
+      "Embarazo a término",
+      "Neonatos y lactantes <2 meses",
+      "Déficit de G6PD (relativa)"
+    ],
+    "perlas": [
+      "Antes de valorar una quemadura en un centro especializado, no aplicar cremas que oscurezcan el lecho (dificultan valorar la profundidad)."
+    ],
+    "embarazo_lactancia": "Evitar al final del embarazo y en la lactancia de prematuros o ictéricos.",
+    "micro_relacionado": [
+      "BGN-pseudomonas-aeruginosa",
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 46 y 61"
+  }
+]
