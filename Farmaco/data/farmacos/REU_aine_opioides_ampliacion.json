@@ -15,14 +15,78 @@
     "mecanismo": "Inhibición no selectiva de COX-1 y COX-2; efecto antiagregante reversible más prolongado que el ibuprofeno.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Crisis de gota, artritis inflamatoria, dolor musculoesquelético", "dosis": "500 mg (550 mg sódico)", "posologia": "Cada 12 h", "via": "VO", "nota": "Máx. 1.000-1.100 mg/día; ciclos cortos" },
-      { "patologia": "Dismenorrea y migraña", "dosis": "550 mg", "posologia": "Al inicio, después cada 12 h", "via": "VO", "nota": "2-3 días" }
+      {
+        "patologia": "Crisis de gota, artritis inflamatoria, dolor musculoesquelético",
+        "dosis": "500 mg (550 mg sódico)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Máx. 1.000-1.100 mg/día; ciclos cortos"
+      },
+      {
+        "patologia": "Dismenorrea y migraña",
+        "dosis": "550 mg",
+        "posologia": "Al inicio, después cada 12 h",
+        "via": "VO",
+        "nota": "2-3 días"
+      }
     ],
-    "esquema": { "inicio": "Valorar riesgo GI, renal y CV.", "titulacion": "Dosis mínima eficaz.", "duracion": "Lo más corta posible.", "fin": "Suspensión directa.", "via": "VO.", "monitorizacion": "PA, función renal en tratamientos largos." },
-    "farmacocinetica": { "absorcion": "Completa.", "distribucion": "Unión a proteínas 99%.", "metabolismo": "Hepático (CYP2C9).", "eliminacion": "Renal.", "vida_media": "**12-17 h.**", "ajuste_renal": "Evitar con FG <30.", "ajuste_hepatico": "Reducir en hepatopatía.", "interacciones": [ { "con": "Anticoagulantes, ISRS, corticoides", "efecto": "Hemorragia digestiva", "gravedad": "alta", "manejo": "Evitar o IBP" }, { "con": "IECA/ARA-II + diurético", "efecto": "Fracaso renal", "gravedad": "alta", "manejo": "Evitar" }, { "con": "Litio, metotrexato", "efecto": "Toxicidad", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Dispepsia, náuseas", "Edemas"], "graves": ["Úlcera y hemorragia digestiva", "Fracaso renal agudo", "Broncoespasmo en asma por AINE"] },
-    "contraindicaciones": ["Úlcera activa", "IC grave, FG <30", "3.er trimestre del embarazo", "Asma por AINE"],
-    "perlas": ["Entre los AINE, naproxeno para el cardiópata y ibuprofeno a dosis baja para el riesgo digestivo."],
+    "esquema": {
+      "inicio": "Valorar riesgo GI, renal y CV.",
+      "titulacion": "Dosis mínima eficaz.",
+      "duracion": "Lo más corta posible.",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "PA, función renal en tratamientos largos."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas 99%.",
+      "metabolismo": "Hepático (CYP2C9).",
+      "eliminacion": "Renal.",
+      "vida_media": "**12-17 h.**",
+      "ajuste_renal": "Evitar con FG <30.",
+      "ajuste_hepatico": "Reducir en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes, ISRS, corticoides",
+          "efecto": "Hemorragia digestiva",
+          "gravedad": "alta",
+          "manejo": "Evitar o IBP"
+        },
+        {
+          "con": "IECA/ARA-II + diurético",
+          "efecto": "Fracaso renal",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Litio, metotrexato",
+          "efecto": "Toxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, náuseas",
+        "Edemas"
+      ],
+      "graves": [
+        "Úlcera y hemorragia digestiva",
+        "Fracaso renal agudo",
+        "Broncoespasmo en asma por AINE"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera activa",
+      "IC grave, FG <30",
+      "3.er trimestre del embarazo",
+      "Asma por AINE"
+    ],
+    "perlas": [
+      "Entre los AINE, naproxeno para el cardiópata y ibuprofeno a dosis baja para el riesgo digestivo."
+    ],
     "embarazo_lactancia": "Evitar; contraindicado en el 3.er trimestre.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -30,7 +94,9 @@
   {
     "id": "REU-diclofenaco",
     "nombre": "Diclofenaco",
-    "sinonimos": ["Diclofenaco tópico (gel)"],
+    "sinonimos": [
+      "Diclofenaco tópico (gel)"
+    ],
     "area": "REU",
     "nivel": 1,
     "clase": "AINE no selectivo",
@@ -43,14 +109,72 @@
     "mecanismo": "Inhibición de COX con preferencia por COX-2.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor musculoesquelético y artrosis", "dosis": "50 mg (o gel al 1-2%)", "posologia": "Cada 8-12 h (gel cada 6-12 h)", "via": "VO / tópica", "nota": "Máx. 150 mg/día VO" },
-      { "patologia": "Cólico renal", "dosis": "75 mg", "posologia": "Dosis única, repetible a las 12 h", "via": "IM", "nota": "Máx. 2 días" }
+      {
+        "patologia": "Dolor musculoesquelético y artrosis",
+        "dosis": "50 mg (o gel al 1-2%)",
+        "posologia": "Cada 8-12 h (gel cada 6-12 h)",
+        "via": "VO / tópica",
+        "nota": "Máx. 150 mg/día VO"
+      },
+      {
+        "patologia": "Cólico renal",
+        "dosis": "75 mg",
+        "posologia": "Dosis única, repetible a las 12 h",
+        "via": "IM",
+        "nota": "Máx. 2 días"
+      }
     ],
-    "esquema": { "inicio": "Descartar enfermedad cardiovascular.", "titulacion": "Mínima dosis eficaz.", "duracion": "Corta.", "fin": "—", "via": "VO, IM, rectal, tópica.", "monitorizacion": "Transaminasas si uso prolongado, PA, función renal." },
-    "farmacocinetica": { "absorcion": "Completa, primer paso 50%.", "distribucion": "Se acumula en líquido sinovial.", "metabolismo": "CYP2C9.", "eliminacion": "Renal y biliar.", "vida_media": "1-2 h.", "ajuste_renal": "Evitar con FG <30.", "ajuste_hepatico": "Contraindicado en grave.", "interacciones": [ { "con": "Anticoagulantes, ISRS", "efecto": "Hemorragia", "gravedad": "alta", "manejo": "Evitar" }, { "con": "IECA/ARA-II + diurético", "efecto": "Fracaso renal", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Dispepsia", "Elevación de transaminasas"], "graves": ["**Infarto e ictus**", "**Hepatotoxicidad**", "Hemorragia digestiva", "Fracaso renal"] },
-    "contraindicaciones": ["Cardiopatía isquémica, enfermedad cerebrovascular o arterial periférica, IC NYHA II-IV", "Úlcera activa", "3.er trimestre del embarazo"],
-    "perlas": ["En la artrosis de rodilla del anciano, el diclofenaco en gel antes que cualquier AINE oral."],
+    "esquema": {
+      "inicio": "Descartar enfermedad cardiovascular.",
+      "titulacion": "Mínima dosis eficaz.",
+      "duracion": "Corta.",
+      "fin": "—",
+      "via": "VO, IM, rectal, tópica.",
+      "monitorizacion": "Transaminasas si uso prolongado, PA, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa, primer paso 50%.",
+      "distribucion": "Se acumula en líquido sinovial.",
+      "metabolismo": "CYP2C9.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "1-2 h.",
+      "ajuste_renal": "Evitar con FG <30.",
+      "ajuste_hepatico": "Contraindicado en grave.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes, ISRS",
+          "efecto": "Hemorragia",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "IECA/ARA-II + diurético",
+          "efecto": "Fracaso renal",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia",
+        "Elevación de transaminasas"
+      ],
+      "graves": [
+        "**Infarto e ictus**",
+        "**Hepatotoxicidad**",
+        "Hemorragia digestiva",
+        "Fracaso renal"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica, enfermedad cerebrovascular o arterial periférica, IC NYHA II-IV",
+      "Úlcera activa",
+      "3.er trimestre del embarazo"
+    ],
+    "perlas": [
+      "En la artrosis de rodilla del anciano, el diclofenaco en gel antes que cualquier AINE oral."
+    ],
     "embarazo_lactancia": "Evitar; contraindicado en el 3.er trimestre.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -71,13 +195,64 @@
     "mecanismo": "Inhibición no selectiva potente de COX-1 y COX-2.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor agudo moderado-intenso (posoperatorio, cólico renal)", "dosis": "10-30 mg (15 mg si >65 años, <50 kg o ERC leve)", "posologia": "Cada 6-8 h (máx. 90 mg/día; 60 en ancianos)", "via": "IV / IM", "nota": "Máx. 2 días parenteral; VO 10 mg/6 h hasta 5 días en total" }
+      {
+        "patologia": "Dolor agudo moderado-intenso (posoperatorio, cólico renal)",
+        "dosis": "10-30 mg (15 mg si >65 años, <50 kg o ERC leve)",
+        "posologia": "Cada 6-8 h (máx. 90 mg/día; 60 en ancianos)",
+        "via": "IV / IM",
+        "nota": "Máx. 2 días parenteral; VO 10 mg/6 h hasta 5 días en total"
+      }
     ],
-    "esquema": { "inicio": "Función renal y riesgo hemorrágico.", "titulacion": "—", "duracion": "**Máximo 5 días.**", "fin": "—", "via": "IV, IM, VO.", "monitorizacion": "Función renal, signos de sangrado." },
-    "farmacocinetica": { "absorcion": "IM y VO completas.", "distribucion": "Unión a proteínas 99%.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "5 h.", "ajuste_renal": "Contraindicado con FG <30.", "ajuste_hepatico": "Precaución.", "interacciones": [ { "con": "Anticoagulantes, otros AINE, AAS", "efecto": "Hemorragia", "gravedad": "alta", "manejo": "Contraindicado" }, { "con": "Probenecid, pentoxifilina", "efecto": "Aumento de niveles", "gravedad": "alta", "manejo": "Contraindicado" } ] },
-    "efectos_adversos": { "frecuentes": ["Dispepsia, somnolencia"], "graves": ["**Hemorragia digestiva**", "**Fracaso renal agudo**", "Sangrado posoperatorio"] },
-    "contraindicaciones": ["Úlcera o hemorragia previa", "Riesgo hemorrágico, anticoagulación", "FG <30, hipovolemia", "Parto y lactancia"],
-    "perlas": ["Su potencia invita a alargarlo: el límite de 5 días no es negociable."],
+    "esquema": {
+      "inicio": "Función renal y riesgo hemorrágico.",
+      "titulacion": "—",
+      "duracion": "**Máximo 5 días.**",
+      "fin": "—",
+      "via": "IV, IM, VO.",
+      "monitorizacion": "Función renal, signos de sangrado."
+    },
+    "farmacocinetica": {
+      "absorcion": "IM y VO completas.",
+      "distribucion": "Unión a proteínas 99%.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "5 h.",
+      "ajuste_renal": "Contraindicado con FG <30.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Anticoagulantes, otros AINE, AAS",
+          "efecto": "Hemorragia",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Probenecid, pentoxifilina",
+          "efecto": "Aumento de niveles",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia, somnolencia"
+      ],
+      "graves": [
+        "**Hemorragia digestiva**",
+        "**Fracaso renal agudo**",
+        "Sangrado posoperatorio"
+      ]
+    },
+    "contraindicaciones": [
+      "Úlcera o hemorragia previa",
+      "Riesgo hemorrágico, anticoagulación",
+      "FG <30, hipovolemia",
+      "Parto y lactancia"
+    ],
+    "perlas": [
+      "Su potencia invita a alargarlo: el límite de 5 días no es negociable."
+    ],
     "embarazo_lactancia": "Contraindicado.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -98,14 +273,72 @@
     "mecanismo": "Inhibición selectiva de la COX-2 (inducible en la inflamación), respetando la COX-1 gástrica y plaquetaria.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Artrosis, artritis reumatoide, espondiloartritis", "dosis": "100-200 mg", "posologia": "Cada 12-24 h", "via": "VO", "nota": "Máx. 400 mg/día" },
-      { "patologia": "Dolor agudo en paciente con alto riesgo gastrointestinal", "dosis": "200 mg", "posologia": "Cada 12 h", "via": "VO", "nota": "Ciclos cortos" }
+      {
+        "patologia": "Artrosis, artritis reumatoide, espondiloartritis",
+        "dosis": "100-200 mg",
+        "posologia": "Cada 12-24 h",
+        "via": "VO",
+        "nota": "Máx. 400 mg/día"
+      },
+      {
+        "patologia": "Dolor agudo en paciente con alto riesgo gastrointestinal",
+        "dosis": "200 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Ciclos cortos"
+      }
     ],
-    "esquema": { "inicio": "Valorar riesgo CV.", "titulacion": "—", "duracion": "Mínima necesaria.", "fin": "—", "via": "VO.", "monitorizacion": "PA, función renal." },
-    "farmacocinetica": { "absorcion": "Buena.", "distribucion": "Unión a proteínas 97%.", "metabolismo": "**CYP2C9.**", "eliminacion": "Biliar y renal.", "vida_media": "11 h.", "ajuste_renal": "Evitar con FG <30.", "ajuste_hepatico": "Reducir 50% en moderada.", "interacciones": [ { "con": "Warfarina", "efecto": "Aumento del INR", "gravedad": "media", "manejo": "Controlar INR" }, { "con": "Fluconazol (inhibidor CYP2C9)", "efecto": "Duplica sus niveles", "gravedad": "media", "manejo": "Mitad de dosis" } ] },
-    "efectos_adversos": { "frecuentes": ["Dispepsia (menor)", "Edemas, HTA"], "graves": ["Eventos cardiovasculares trombóticos", "Fracaso renal", "Reacciones cutáneas graves"] },
-    "contraindicaciones": ["Cardiopatía isquémica, ictus, IC NYHA II-IV", "Alergia a sulfonamidas", "Asma por AINE", "FG <30"],
-    "perlas": ["Si toma AAS a dosis baja, el coxib pierde parte de su ventaja gástrica: añadir IBP igualmente."],
+    "esquema": {
+      "inicio": "Valorar riesgo CV.",
+      "titulacion": "—",
+      "duracion": "Mínima necesaria.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "PA, función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "Unión a proteínas 97%.",
+      "metabolismo": "**CYP2C9.**",
+      "eliminacion": "Biliar y renal.",
+      "vida_media": "11 h.",
+      "ajuste_renal": "Evitar con FG <30.",
+      "ajuste_hepatico": "Reducir 50% en moderada.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "media",
+          "manejo": "Controlar INR"
+        },
+        {
+          "con": "Fluconazol (inhibidor CYP2C9)",
+          "efecto": "Duplica sus niveles",
+          "gravedad": "media",
+          "manejo": "Mitad de dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dispepsia (menor)",
+        "Edemas, HTA"
+      ],
+      "graves": [
+        "Eventos cardiovasculares trombóticos",
+        "Fracaso renal",
+        "Reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica, ictus, IC NYHA II-IV",
+      "Alergia a sulfonamidas",
+      "Asma por AINE",
+      "FG <30"
+    ],
+    "perlas": [
+      "Si toma AAS a dosis baja, el coxib pierde parte de su ventaja gástrica: añadir IBP igualmente."
+    ],
     "embarazo_lactancia": "Evitar.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -126,14 +359,70 @@
     "mecanismo": "Inhibición altamente selectiva de COX-2.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Crisis aguda de gota", "dosis": "120 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Máx. 8 días" },
-      { "patologia": "Artrosis, artritis reumatoide, espondilitis anquilosante", "dosis": "30-90 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Dosis mínima eficaz" }
+      {
+        "patologia": "Crisis aguda de gota",
+        "dosis": "120 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Máx. 8 días"
+      },
+      {
+        "patologia": "Artrosis, artritis reumatoide, espondilitis anquilosante",
+        "dosis": "30-90 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Dosis mínima eficaz"
+      }
     ],
-    "esquema": { "inicio": "PA controlada y sin cardiopatía isquémica.", "titulacion": "—", "duracion": "Según indicación.", "fin": "—", "via": "VO.", "monitorizacion": "**PA a las 2 semanas.**" },
-    "farmacocinetica": { "absorcion": "Completa.", "distribucion": "Unión a proteínas 92%.", "metabolismo": "CYP3A4.", "eliminacion": "Renal.", "vida_media": "22 h.", "ajuste_renal": "Evitar con FG <30.", "ajuste_hepatico": "Máx. 60 mg en leve; 30 mg en moderada.", "interacciones": [ { "con": "Rifampicina", "efecto": "Reduce sus niveles", "gravedad": "media", "manejo": "—" }, { "con": "Anticonceptivos con etinilestradiol", "efecto": "Aumenta el estrógeno (trombosis)", "gravedad": "media", "manejo": "Vigilar" } ] },
-    "efectos_adversos": { "frecuentes": ["**HTA, edemas**", "Dispepsia"], "graves": ["Eventos cardiovasculares", "Fracaso renal"] },
-    "contraindicaciones": ["HTA no controlada", "Cardiopatía isquémica, ictus, IC NYHA II-IV", "FG <30"],
-    "perlas": ["Antes de pautarlo, medir la PA: es el coxib de la hipertensión."],
+    "esquema": {
+      "inicio": "PA controlada y sin cardiopatía isquémica.",
+      "titulacion": "—",
+      "duracion": "Según indicación.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "**PA a las 2 semanas.**"
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas 92%.",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "22 h.",
+      "ajuste_renal": "Evitar con FG <30.",
+      "ajuste_hepatico": "Máx. 60 mg en leve; 30 mg en moderada.",
+      "interacciones": [
+        {
+          "con": "Rifampicina",
+          "efecto": "Reduce sus niveles",
+          "gravedad": "media",
+          "manejo": "—"
+        },
+        {
+          "con": "Anticonceptivos con etinilestradiol",
+          "efecto": "Aumenta el estrógeno (trombosis)",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**HTA, edemas**",
+        "Dispepsia"
+      ],
+      "graves": [
+        "Eventos cardiovasculares",
+        "Fracaso renal"
+      ]
+    },
+    "contraindicaciones": [
+      "HTA no controlada",
+      "Cardiopatía isquémica, ictus, IC NYHA II-IV",
+      "FG <30"
+    ],
+    "perlas": [
+      "Antes de pautarlo, medir la PA: es el coxib de la hipertensión."
+    ],
     "embarazo_lactancia": "Evitar.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -154,13 +443,57 @@
     "mecanismo": "Profármaco hidrolizado a valdecoxib, inhibidor selectivo de COX-2.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor posoperatorio moderado-intenso", "dosis": "40 mg, después 20-40 mg", "posologia": "Cada 6-12 h (máx. 80 mg/día)", "via": "IV / IM", "nota": "≤3 días" }
+      {
+        "patologia": "Dolor posoperatorio moderado-intenso",
+        "dosis": "40 mg, después 20-40 mg",
+        "posologia": "Cada 6-12 h (máx. 80 mg/día)",
+        "via": "IV / IM",
+        "nota": "≤3 días"
+      }
     ],
-    "esquema": { "inicio": "En el posoperatorio.", "titulacion": "—", "duracion": "≤3 días.", "fin": "Paso a VO.", "via": "IV/IM.", "monitorizacion": "Función renal, PA." },
-    "farmacocinetica": { "absorcion": "IV/IM; conversión en minutos.", "distribucion": "—", "metabolismo": "CYP3A4 y CYP2C9 (valdecoxib).", "eliminacion": "Renal.", "vida_media": "8 h (valdecoxib).", "ajuste_renal": "Precaución.", "ajuste_hepatico": "Mitad en moderada.", "interacciones": [ { "con": "Fluconazol", "efecto": "Aumento de niveles", "gravedad": "media", "manejo": "Reducir dosis" } ] },
-    "efectos_adversos": { "frecuentes": ["Náuseas, hipertensión", "Edemas"], "graves": ["Eventos cardiovasculares (tras bypass)", "Reacciones cutáneas graves"] },
-    "contraindicaciones": ["Posoperatorio de bypass coronario", "Cardiopatía isquémica, IC", "Alergia a sulfonamidas"],
-    "perlas": ["Posoperatorio con riesgo de sangrado: un coxib IV no altera la agregación."],
+    "esquema": {
+      "inicio": "En el posoperatorio.",
+      "titulacion": "—",
+      "duracion": "≤3 días.",
+      "fin": "Paso a VO.",
+      "via": "IV/IM.",
+      "monitorizacion": "Función renal, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV/IM; conversión en minutos.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4 y CYP2C9 (valdecoxib).",
+      "eliminacion": "Renal.",
+      "vida_media": "8 h (valdecoxib).",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Mitad en moderada.",
+      "interacciones": [
+        {
+          "con": "Fluconazol",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, hipertensión",
+        "Edemas"
+      ],
+      "graves": [
+        "Eventos cardiovasculares (tras bypass)",
+        "Reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Posoperatorio de bypass coronario",
+      "Cardiopatía isquémica, IC",
+      "Alergia a sulfonamidas"
+    ],
+    "perlas": [
+      "Posoperatorio con riesgo de sangrado: un coxib IV no altera la agregación."
+    ],
     "embarazo_lactancia": "Contraindicado.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -181,13 +514,59 @@
     "mecanismo": "Inhibe la recaptación de serotonina, noradrenalina y dopamina y modula canales de sodio y calcio a nivel central.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor agudo moderado (posoperatorio), como ahorrador de opioides", "dosis": "20 mg", "posologia": "Cada 4-6 h (máx. 120 mg/día)", "via": "IV / IM", "nota": "IV en infusión lenta (≥15 min)" }
+      {
+        "patologia": "Dolor agudo moderado (posoperatorio), como ahorrador de opioides",
+        "dosis": "20 mg",
+        "posologia": "Cada 4-6 h (máx. 120 mg/día)",
+        "via": "IV / IM",
+        "nota": "IV en infusión lenta (≥15 min)"
+      }
     ],
-    "esquema": { "inicio": "Infusión lenta.", "titulacion": "—", "duracion": "Corta.", "fin": "—", "via": "IV, IM (VO en algunos países).", "monitorizacion": "FC, retención urinaria." },
-    "farmacocinetica": { "absorcion": "IV/IM.", "distribucion": "SNC.", "metabolismo": "Hepático.", "eliminacion": "Renal.", "vida_media": "4-8 h.", "ajuste_renal": "Reducir.", "ajuste_hepatico": "Reducir.", "interacciones": [ { "con": "IMAO, tricíclicos, anticolinérgicos", "efecto": "Toxicidad anticolinérgica y serotoninérgica", "gravedad": "media", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Náuseas, sudoración", "Taquicardia, boca seca"], "graves": ["Convulsiones", "Retención urinaria", "Arritmias"] },
-    "contraindicaciones": ["Epilepsia", "Cardiopatía isquémica", "Glaucoma de ángulo cerrado", "Retención urinaria"],
-    "perlas": ["Su papel es ahorrar opioides en el posoperatorio cuando los AINE están contraindicados."],
+    "esquema": {
+      "inicio": "Infusión lenta.",
+      "titulacion": "—",
+      "duracion": "Corta.",
+      "fin": "—",
+      "via": "IV, IM (VO en algunos países).",
+      "monitorizacion": "FC, retención urinaria."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV/IM.",
+      "distribucion": "SNC.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "4-8 h.",
+      "ajuste_renal": "Reducir.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "IMAO, tricíclicos, anticolinérgicos",
+          "efecto": "Toxicidad anticolinérgica y serotoninérgica",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, sudoración",
+        "Taquicardia, boca seca"
+      ],
+      "graves": [
+        "Convulsiones",
+        "Retención urinaria",
+        "Arritmias"
+      ]
+    },
+    "contraindicaciones": [
+      "Epilepsia",
+      "Cardiopatía isquémica",
+      "Glaucoma de ángulo cerrado",
+      "Retención urinaria"
+    ],
+    "perlas": [
+      "Su papel es ahorrar opioides en el posoperatorio cuando los AINE están contraindicados."
+    ],
     "embarazo_lactancia": "No recomendado.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"
@@ -208,14 +587,64 @@
     "mecanismo": "Agonista mu débil.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor moderado", "dosis": "60-120 mg (retard)", "posologia": "Cada 12 h", "via": "VO", "nota": "Con laxante" },
-      { "patologia": "Tos seca refractaria", "dosis": "10-30 mg", "posologia": "Cada 8-12 h", "via": "VO", "nota": "Corto plazo" }
+      {
+        "patologia": "Dolor moderado",
+        "dosis": "60-120 mg (retard)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Con laxante"
+      },
+      {
+        "patologia": "Tos seca refractaria",
+        "dosis": "10-30 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Corto plazo"
+      }
     ],
-    "esquema": { "inicio": "Dosis baja.", "titulacion": "Según dolor.", "duracion": "Corta.", "fin": "Retirada gradual si >2 semanas.", "via": "VO.", "monitorizacion": "Sedación, estreñimiento." },
-    "farmacocinetica": { "absorcion": "20% (primer paso).", "distribucion": "SNC.", "metabolismo": "Hepático (parte por CYP2D6).", "eliminacion": "Renal.", "vida_media": "4 h.", "ajuste_renal": "Reducir; evitar en ERC grave.", "ajuste_hepatico": "Reducir.", "interacciones": [ { "con": "Benzodiacepinas, alcohol", "efecto": "Depresión respiratoria", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Estreñimiento", "Náuseas, somnolencia"], "graves": ["Depresión respiratoria", "Dependencia"] },
-    "contraindicaciones": ["<12 años", "Insuficiencia respiratoria grave", "Lactancia"],
-    "perlas": ["Alternativa a la codeína cuando se sospecha metabolizador lento."],
+    "esquema": {
+      "inicio": "Dosis baja.",
+      "titulacion": "Según dolor.",
+      "duracion": "Corta.",
+      "fin": "Retirada gradual si >2 semanas.",
+      "via": "VO.",
+      "monitorizacion": "Sedación, estreñimiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "20% (primer paso).",
+      "distribucion": "SNC.",
+      "metabolismo": "Hepático (parte por CYP2D6).",
+      "eliminacion": "Renal.",
+      "vida_media": "4 h.",
+      "ajuste_renal": "Reducir; evitar en ERC grave.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "Benzodiacepinas, alcohol",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento",
+        "Náuseas, somnolencia"
+      ],
+      "graves": [
+        "Depresión respiratoria",
+        "Dependencia"
+      ]
+    },
+    "contraindicaciones": [
+      "<12 años",
+      "Insuficiencia respiratoria grave",
+      "Lactancia"
+    ],
+    "perlas": [
+      "Alternativa a la codeína cuando se sospecha metabolizador lento."
+    ],
     "embarazo_lactancia": "Evitar.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 31"
@@ -236,13 +665,55 @@
     "mecanismo": "Agonista puro del receptor mu.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor crónico intenso (oncológico)", "dosis": "4-8 mg (OROS) y titular", "posologia": "Cada 24 h", "via": "VO", "nota": "Rescates con opioide de liberación rápida" }
+      {
+        "patologia": "Dolor crónico intenso (oncológico)",
+        "dosis": "4-8 mg (OROS) y titular",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Rescates con opioide de liberación rápida"
+      }
     ],
-    "esquema": { "inicio": "Dosis equianalgésica reducida un 25-50% al rotar.", "titulacion": "Cada 2-3 días.", "duracion": "Según evolución.", "fin": "Retirada gradual.", "via": "VO, SC, IV.", "monitorizacion": "Dolor, sedación, estreñimiento." },
-    "farmacocinetica": { "absorcion": "Biodisponibilidad 25%.", "distribucion": "—", "metabolismo": "Glucuronidación (H3G, poco activo).", "eliminacion": "Renal.", "vida_media": "2-3 h.", "ajuste_renal": "Reducir dosis.", "ajuste_hepatico": "Reducir dosis.", "interacciones": [ { "con": "Benzodiacepinas, alcohol, gabapentinoides", "efecto": "Depresión respiratoria", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Estreñimiento, náuseas, somnolencia"], "graves": ["Depresión respiratoria", "Neurotoxicidad (mioclonías) a dosis altas"] },
-    "contraindicaciones": ["Insuficiencia respiratoria grave", "Íleo paralítico"],
-    "perlas": ["Al rotar de morfina: 5 mg de morfina ≈ 1 mg de hidromorfona; reducir un 25-50% por tolerancia cruzada incompleta."],
+    "esquema": {
+      "inicio": "Dosis equianalgésica reducida un 25-50% al rotar.",
+      "titulacion": "Cada 2-3 días.",
+      "duracion": "Según evolución.",
+      "fin": "Retirada gradual.",
+      "via": "VO, SC, IV.",
+      "monitorizacion": "Dolor, sedación, estreñimiento."
+    },
+    "farmacocinetica": {
+      "absorcion": "Biodisponibilidad 25%.",
+      "distribucion": "—",
+      "metabolismo": "Glucuronidación (H3G, poco activo).",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Reducir dosis.",
+      "ajuste_hepatico": "Reducir dosis.",
+      "interacciones": [
+        {
+          "con": "Benzodiacepinas, alcohol, gabapentinoides",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento, náuseas, somnolencia"
+      ],
+      "graves": [
+        "Depresión respiratoria",
+        "Neurotoxicidad (mioclonías) a dosis altas"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave",
+      "Íleo paralítico"
+    ],
+    "perlas": [
+      "Al rotar de morfina: 5 mg de morfina ≈ 1 mg de hidromorfona; reducir un 25-50% por tolerancia cruzada incompleta."
+    ],
     "embarazo_lactancia": "Evitar.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 31"
@@ -264,14 +735,76 @@
     "mecanismo": "Agonista mu, antagonista NMDA e inhibidor de la recaptación de monoaminas.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Tratamiento de mantenimiento con agonistas en la dependencia de opioides", "dosis": "20-30 mg → 60-120 mg", "posologia": "Cada 24 h", "via": "VO", "nota": "Subir 5-10 mg cada 3-5 días" },
-      { "patologia": "Dolor oncológico refractario (equipos especializados)", "dosis": "2,5-5 mg", "posologia": "Cada 8-12 h", "via": "VO", "nota": "Conversión desde morfina con tablas específicas" }
+      {
+        "patologia": "Tratamiento de mantenimiento con agonistas en la dependencia de opioides",
+        "dosis": "20-30 mg → 60-120 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Subir 5-10 mg cada 3-5 días"
+      },
+      {
+        "patologia": "Dolor oncológico refractario (equipos especializados)",
+        "dosis": "2,5-5 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Conversión desde morfina con tablas específicas"
+      }
     ],
-    "esquema": { "inicio": "ECG (QT) basal; dosis baja.", "titulacion": "**Lenta (cada 3-5 días)**.", "duracion": "Prolongada.", "fin": "Retirada muy gradual.", "via": "VO.", "monitorizacion": "**QT**, sedación, interacciones." },
-    "farmacocinetica": { "absorcion": "80-90%.", "distribucion": "Gran volumen; depósito tisular.", "metabolismo": "**CYP3A4, CYP2B6.**", "eliminacion": "Renal y fecal.", "vida_media": "**15-60 h.**", "ajuste_renal": "Utilizable con precaución.", "ajuste_hepatico": "Reducir.", "interacciones": [ { "con": "Rifampicina, antirretrovirales inductores, carbamazepina", "efecto": "Abstinencia por caída de niveles", "gravedad": "alta", "manejo": "Aumentar dosis" }, { "con": "Fármacos que prolongan el QT, inhibidores del CYP3A4", "efecto": "Torsade de pointes, sobredosis", "gravedad": "alta", "manejo": "Evitar o ECG" }, { "con": "Benzodiacepinas", "efecto": "Depresión respiratoria", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Estreñimiento, sudoración", "Sedación"], "graves": ["**QT largo y torsade de pointes**", "Depresión respiratoria por acumulación", "Hipoglucemia"] },
-    "contraindicaciones": ["QT largo", "Insuficiencia respiratoria grave"],
-    "perlas": ["La sobredosis aparece típicamente en los días 3-7 tras iniciar o subir la dosis."],
+    "esquema": {
+      "inicio": "ECG (QT) basal; dosis baja.",
+      "titulacion": "**Lenta (cada 3-5 días)**.",
+      "duracion": "Prolongada.",
+      "fin": "Retirada muy gradual.",
+      "via": "VO.",
+      "monitorizacion": "**QT**, sedación, interacciones."
+    },
+    "farmacocinetica": {
+      "absorcion": "80-90%.",
+      "distribucion": "Gran volumen; depósito tisular.",
+      "metabolismo": "**CYP3A4, CYP2B6.**",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "**15-60 h.**",
+      "ajuste_renal": "Utilizable con precaución.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "Rifampicina, antirretrovirales inductores, carbamazepina",
+          "efecto": "Abstinencia por caída de niveles",
+          "gravedad": "alta",
+          "manejo": "Aumentar dosis"
+        },
+        {
+          "con": "Fármacos que prolongan el QT, inhibidores del CYP3A4",
+          "efecto": "Torsade de pointes, sobredosis",
+          "gravedad": "alta",
+          "manejo": "Evitar o ECG"
+        },
+        {
+          "con": "Benzodiacepinas",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Estreñimiento, sudoración",
+        "Sedación"
+      ],
+      "graves": [
+        "**QT largo y torsade de pointes**",
+        "Depresión respiratoria por acumulación",
+        "Hipoglucemia"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo",
+      "Insuficiencia respiratoria grave"
+    ],
+    "perlas": [
+      "La sobredosis aparece típicamente en los días 3-7 tras iniciar o subir la dosis."
+    ],
     "embarazo_lactancia": "Mantenimiento en la gestante dependiente (con buprenorfina); compatible con lactancia.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., caps. 31 y 32"
@@ -292,13 +825,64 @@
     "mecanismo": "Agonista mu e inhibidor de la recaptación de noradrenalina (vía inhibitoria descendente).",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Dolor crónico intenso, especialmente mixto o neuropático", "dosis": "50 mg → 100-250 mg (retard)", "posologia": "Cada 12 h", "via": "VO", "nota": "Máx. 500 mg/día" }
+      {
+        "patologia": "Dolor crónico intenso, especialmente mixto o neuropático",
+        "dosis": "50 mg → 100-250 mg (retard)",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Máx. 500 mg/día"
+      }
     ],
-    "esquema": { "inicio": "50 mg/12 h.", "titulacion": "Subir 50 mg cada 3 días.", "duracion": "Según evolución.", "fin": "Retirada gradual.", "via": "VO.", "monitorizacion": "Dolor, sedación." },
-    "farmacocinetica": { "absorcion": "32% (primer paso).", "distribucion": "—", "metabolismo": "**Glucuronidación, sin metabolitos activos.**", "eliminacion": "Renal.", "vida_media": "4-5 h.", "ajuste_renal": "Evitar con FG <30.", "ajuste_hepatico": "Reducir en moderada.", "interacciones": [ { "con": "IMAO", "efecto": "Crisis hipertensiva", "gravedad": "alta", "manejo": "Contraindicado" }, { "con": "Benzodiacepinas, alcohol", "efecto": "Depresión respiratoria", "gravedad": "alta", "manejo": "Evitar" } ] },
-    "efectos_adversos": { "frecuentes": ["Náuseas, mareo", "Somnolencia"], "graves": ["Depresión respiratoria", "Convulsiones", "Síndrome serotoninérgico (raro)"] },
-    "contraindicaciones": ["Uso de IMAO", "Insuficiencia respiratoria grave", "Epilepsia mal controlada"],
-    "perlas": ["Lumbociatalgia crónica intensa: el tapentadol cubre el componente nociceptivo y el neuropático."],
+    "esquema": {
+      "inicio": "50 mg/12 h.",
+      "titulacion": "Subir 50 mg cada 3 días.",
+      "duracion": "Según evolución.",
+      "fin": "Retirada gradual.",
+      "via": "VO.",
+      "monitorizacion": "Dolor, sedación."
+    },
+    "farmacocinetica": {
+      "absorcion": "32% (primer paso).",
+      "distribucion": "—",
+      "metabolismo": "**Glucuronidación, sin metabolitos activos.**",
+      "eliminacion": "Renal.",
+      "vida_media": "4-5 h.",
+      "ajuste_renal": "Evitar con FG <30.",
+      "ajuste_hepatico": "Reducir en moderada.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Benzodiacepinas, alcohol",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, mareo",
+        "Somnolencia"
+      ],
+      "graves": [
+        "Depresión respiratoria",
+        "Convulsiones",
+        "Síndrome serotoninérgico (raro)"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de IMAO",
+      "Insuficiencia respiratoria grave",
+      "Epilepsia mal controlada"
+    ],
+    "perlas": [
+      "Lumbociatalgia crónica intensa: el tapentadol cubre el componente nociceptivo y el neuropático."
+    ],
     "embarazo_lactancia": "Evitar.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 31"
@@ -306,7 +890,10 @@
   {
     "id": "REU-benzbromarona",
     "nombre": "Benzbromarona",
-    "sinonimos": ["Probenecid", "Lesinurad"],
+    "sinonimos": [
+      "Probenecid",
+      "Lesinurad"
+    ],
     "area": "REU",
     "nivel": 3,
     "clase": "Hipouricemiante",
@@ -319,13 +906,58 @@
     "mecanismo": "Inhibe el transportador URAT1 del túbulo proximal, reduciendo la reabsorción de urato.",
     "espectro": null,
     "indicaciones": [
-      { "patologia": "Gota con intolerancia o respuesta insuficiente a alopurinol y febuxostat", "dosis": "50-100 mg", "posologia": "Cada 24 h", "via": "VO", "dosis_objetivo": "Uricemia <6 mg/dL", "nota": "Sola o con alopurinol" }
+      {
+        "patologia": "Gota con intolerancia o respuesta insuficiente a alopurinol y febuxostat",
+        "dosis": "50-100 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "dosis_objetivo": "Uricemia <6 mg/dL",
+        "nota": "Sola o con alopurinol"
+      }
     ],
-    "esquema": { "inicio": "Descartar litiasis y hepatopatía; profilaxis con colchicina.", "titulacion": "Según uricemia.", "duracion": "Indefinida.", "fin": "Suspender ante elevación de transaminasas.", "via": "VO con abundante agua.", "monitorizacion": "**Transaminasas mensuales los primeros 6 meses**, uricemia." },
-    "farmacocinetica": { "absorcion": "50%.", "distribucion": "Unión a proteínas >99%.", "metabolismo": "CYP2C9.", "eliminacion": "Biliar.", "vida_media": "3 h (metabolitos más largos).", "ajuste_renal": "Útil hasta FG 30.", "ajuste_hepatico": "Contraindicada.", "interacciones": [ { "con": "Warfarina", "efecto": "Aumento del INR", "gravedad": "alta", "manejo": "Control estrecho" } ] },
-    "efectos_adversos": { "frecuentes": ["Diarrea", "Crisis de gota al inicio"], "graves": ["**Hepatitis fulminante**", "Litiasis úrica"] },
-    "contraindicaciones": ["Hepatopatía", "Litiasis úrica o hiperuricosuria", "FG <30"],
-    "perlas": ["Antes de un uricosúrico, medir el ácido úrico en orina de 24 h: si ya es alto, no está indicado."],
+    "esquema": {
+      "inicio": "Descartar litiasis y hepatopatía; profilaxis con colchicina.",
+      "titulacion": "Según uricemia.",
+      "duracion": "Indefinida.",
+      "fin": "Suspender ante elevación de transaminasas.",
+      "via": "VO con abundante agua.",
+      "monitorizacion": "**Transaminasas mensuales los primeros 6 meses**, uricemia."
+    },
+    "farmacocinetica": {
+      "absorcion": "50%.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "CYP2C9.",
+      "eliminacion": "Biliar.",
+      "vida_media": "3 h (metabolitos más largos).",
+      "ajuste_renal": "Útil hasta FG 30.",
+      "ajuste_hepatico": "Contraindicada.",
+      "interacciones": [
+        {
+          "con": "Warfarina",
+          "efecto": "Aumento del INR",
+          "gravedad": "alta",
+          "manejo": "Control estrecho"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Crisis de gota al inicio"
+      ],
+      "graves": [
+        "**Hepatitis fulminante**",
+        "Litiasis úrica"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía",
+      "Litiasis úrica o hiperuricosuria",
+      "FG <30"
+    ],
+    "perlas": [
+      "Antes de un uricosúrico, medir el ácido úrico en orina de 24 h: si ya es alto, no está indicado."
+    ],
     "embarazo_lactancia": "Contraindicada.",
     "micro_relacionado": [],
     "fuente": "Katzung 15.ª ed., cap. 36"

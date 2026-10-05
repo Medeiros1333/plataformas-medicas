@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "NEU-donepezilo",
+    "nombre": "Donepezilo",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antidemencia (IACE y memantina)",
+    "subclase": "Inhibidor selectivo de la acetilcolinesterasa",
+    "vs_clase": [
+      "**El IACE más usado: dosis ÚNICA diaria por la noche** y sin ajuste renal.",
+      "**Indicado en todas las fases** del Alzheimer (leve a grave).",
+      "**Pesadillas y sueños vívidos** (por eso a veces se pasa a la mañana); bradicardia y síncope."
+    ],
+    "mecanismo": "Inhibe de forma reversible la acetilcolinesterasa cerebral, aumentando la acetilcolina sináptica.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Enfermedad de Alzheimer leve, moderada o grave",
+        "dosis": "5 mg → 10 mg",
+        "posologia": "Cada 24 h, por la noche",
+        "via": "VO",
+        "nota": "Subir a las 4-6 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "ECG si bradicardia o trastorno de conducción.",
+      "titulacion": "5 → 10 mg a las 4-6 semanas.",
+      "duracion": "Mientras haya beneficio.",
+      "fin": "Retirada gradual (empeoramiento cognitivo de rebote).",
+      "via": "VO.",
+      "monitorizacion": "Cognición, FC, peso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Unión a proteínas 96%.",
+      "metabolismo": "CYP2D6 y CYP3A4.",
+      "eliminacion": "Renal y hepática.",
+      "vida_media": "**70 h.**",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes, digoxina, verapamilo",
+          "efecto": "Bradicardia y síncope",
+          "gravedad": "media",
+          "manejo": "Vigilar FC"
+        },
+        {
+          "con": "Anticolinérgicos (oxibutinina)",
+          "efecto": "Antagonismo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Succinilcolina",
+          "efecto": "Bloqueo neuromuscular prolongado",
+          "gravedad": "media",
+          "manejo": "Avisar en anestesia"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, diarrea, anorexia",
+        "**Insomnio, pesadillas**",
+        "Calambres"
+      ],
+      "graves": [
+        "Bradicardia, bloqueo AV, síncope",
+        "Úlcera péptica"
+      ]
+    },
+    "contraindicaciones": [
+      "Enfermedad del seno o bloqueo AV sin marcapasos (relativa)",
+      "Úlcera activa"
+    ],
+    "perlas": [
+      "Caídas o síncopes tras iniciar un IACE: hacer ECG."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 60"
+  },
+  {
+    "id": "NEU-rivastigmina",
+    "nombre": "Rivastigmina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antidemencia (IACE y memantina)",
+    "subclase": "Inhibidor de acetil y butirilcolinesterasa",
+    "vs_clase": [
+      "**PARCHE transdérmico**: menos efectos digestivos y útil si hay disfagia o mala adherencia.",
+      "**Indicado también en la DEMENCIA DE LA ENFERMEDAD DE PARKINSON** (y eficaz en cuerpos de Lewy).",
+      "**No se metaboliza por CYP** (esterasas): pocas interacciones."
+    ],
+    "mecanismo": "Inhibición pseudoirreversible de acetil y butirilcolinesterasa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Alzheimer leve-moderado y demencia asociada a Parkinson",
+        "dosis": "4,6 mg/24 h → 9,5 mg/24 h (máx. 13,3)",
+        "posologia": "Un parche cada 24 h",
+        "via": "transdérmica",
+        "nota": "Subir a las 4 semanas; rotar la zona"
+      }
+    ],
+    "esquema": {
+      "inicio": "Parche 4,6 mg.",
+      "titulacion": "A 9,5 mg tras 4 semanas.",
+      "duracion": "Mientras haya beneficio.",
+      "fin": "Si se interrumpe >3 días, reiniciar con 4,6 mg.",
+      "via": "Transdérmica (o VO 1,5 → 6 mg/12 h).",
+      "monitorizacion": "Peso, FC, irritación cutánea."
+    },
+    "farmacocinetica": {
+      "absorcion": "Transdérmica sostenida.",
+      "distribucion": "Atraviesa la barrera.",
+      "metabolismo": "**Colinesterasas (sin CYP).**",
+      "eliminacion": "Renal.",
+      "vida_media": "1-2 h (efecto 10 h).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Bradicardia",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        },
+        {
+          "con": "Metoclopramida",
+          "efecto": "Efectos extrapiramidales aditivos",
+          "gravedad": "media",
+          "manejo": "Evitar en Parkinson"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos (menos con parche)",
+        "Eritema cutáneo",
+        "Pérdida de peso"
+      ],
+      "graves": [
+        "Bradicardia",
+        "Empeoramiento del temblor parkinsoniano"
+      ]
+    },
+    "contraindicaciones": [
+      "Dermatitis de contacto previa al parche"
+    ],
+    "perlas": [
+      "Error típico: poner un parche nuevo sin retirar el anterior (sobredosis colinérgica)."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 60"
+  },
+  {
+    "id": "NEU-galantamina",
+    "nombre": "Galantamina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antidemencia (IACE y memantina)",
+    "subclase": "IACE con modulación alostérica nicotínica",
+    "vs_clase": [
+      "**Doble acción: inhibe la colinesterasa y potencia los receptores NICOTÍNICOS.**",
+      "**Requiere ajuste en insuficiencia renal y hepática** (a diferencia del donepezilo).",
+      "Forma de liberación prolongada diaria."
+    ],
+    "mecanismo": "Inhibidor competitivo reversible de la acetilcolinesterasa y modulador alostérico positivo de receptores nicotínicos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Alzheimer leve-moderado",
+        "dosis": "8 mg → 16-24 mg (retard)",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "Subir cada 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "8 mg.",
+      "titulacion": "Cada 4 semanas.",
+      "duracion": "Mientras haya beneficio.",
+      "fin": "Si interrupción >3 días, reiniciar a dosis baja.",
+      "via": "VO con comida.",
+      "monitorizacion": "FC, peso."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Baja unión a proteínas.",
+      "metabolismo": "CYP2D6 y CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "7 h.",
+      "ajuste_renal": "Máx. 16 mg en moderada; evitar con FG <9.",
+      "ajuste_hepatico": "Máx. 16 mg en moderada; evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Paroxetina, ketoconazol",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Ajustar"
+        },
+        {
+          "con": "Bradicardizantes",
+          "efecto": "Bradicardia",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, vómitos",
+        "Mareo, pérdida de peso"
+      ],
+      "graves": [
+        "Bradicardia, síncope",
+        "Reacciones cutáneas graves (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal o hepática grave"
+    ],
+    "perlas": [
+      "Ningún IACE es claramente superior: elegir por tolerancia y vía."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 60"
+  },
+  {
+    "id": "NEU-memantina",
+    "nombre": "Memantina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Antidemencia (IACE y memantina)",
+    "subclase": "Antagonista no competitivo del receptor NMDA",
+    "vs_clase": [
+      "**Mecanismo distinto: bloquea la EXCITOTOXICIDAD glutamatérgica** (no es colinérgica).",
+      "**Para la demencia MODERADA-GRAVE**, sola o **combinada con un IACE**.",
+      "**Sin efectos colinérgicos** (no bradicardia ni digestivos); eliminación renal (ajustar)."
+    ],
+    "mecanismo": "Antagonista NMDA de afinidad moderada y dependiente de voltaje.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Alzheimer moderado-grave",
+        "dosis": "5 mg → 20 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Subir 5 mg por semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/día.",
+      "titulacion": "Semanal hasta 20 mg.",
+      "duracion": "Mientras haya beneficio.",
+      "fin": "—",
+      "via": "VO.",
+      "monitorizacion": "Cognición, conducta."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "Baja unión.",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal.**",
+      "vida_media": "60-80 h.",
+      "ajuste_renal": "**FG 5-29: máx. 10 mg.**",
+      "ajuste_hepatico": "No precisa en leve-moderada.",
+      "interacciones": [
+        {
+          "con": "Amantadina, ketamina, dextrometorfano",
+          "efecto": "Psicosis por efecto NMDA aditivo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, cefalea",
+        "Estreñimiento",
+        "Somnolencia"
+      ],
+      "graves": [
+        "Agitación, alucinaciones",
+        "Convulsiones (raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Si el IACE no se tolera por bradicardia, la memantina es la alternativa."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 60"
+  },
+  {
+    "id": "NEU-gabapentina",
+    "nombre": "Gabapentina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Gabapentinoide (ligando alfa-2-delta)",
+    "subclase": "Gabapentinoide de absorción saturable",
+    "vs_clase": [
+      "**Absorción SATURABLE** (cinética no lineal): a dosis altas se absorbe proporcionalmente menos; **3 tomas al día** y titulación larga.",
+      "**Más barata**; indicada en dolor neuropático y epilepsia focal (coadyuvante).",
+      "**Sin interacciones por CYP**, eliminación renal (ajustar)."
+    ],
+    "mecanismo": "Se une a la subunidad alfa-2-delta de los canales de calcio presinápticos y reduce la liberación de glutamato y sustancia P.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor neuropático (neuralgia postherpética, neuropatía diabética)",
+        "dosis": "300 mg → 600-1.200 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Subir 300 mg cada 1-3 días; máx. 3.600 mg/día"
+      },
+      {
+        "patologia": "Epilepsia focal (coadyuvante)",
+        "dosis": "300-1.200 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "300 mg por la noche.",
+      "titulacion": "Lenta.",
+      "duracion": "Reevaluar cada 3-6 meses.",
+      "fin": "**Retirada gradual en ≥1 semana** (convulsiones, abstinencia).",
+      "via": "VO.",
+      "monitorizacion": "Sedación, mareo, edemas, abuso."
+    },
+    "farmacocinetica": {
+      "absorcion": "**Saturable (60% → 35% a dosis altas).**",
+      "distribucion": "No se une a proteínas.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "**Renal, inalterada.**",
+      "vida_media": "5-7 h.",
+      "ajuste_renal": "**Ajustar según FG.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Opioides, benzodiacepinas, alcohol",
+          "efecto": "**Depresión respiratoria**",
+          "gravedad": "alta",
+          "manejo": "Evitar o reducir dosis"
+        },
+        {
+          "con": "Antiácidos de Al/Mg",
+          "efecto": "Reducen su absorción",
+          "gravedad": "baja",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, mareo",
+        "Edemas periféricos",
+        "Aumento de peso"
+      ],
+      "graves": [
+        "Depresión respiratoria combinada",
+        "Abuso y dependencia",
+        "Ideación suicida"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "En ERC no ajustada, la acumulación produce somnolencia, mioclonías y caídas."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24"
+  },
+  {
+    "id": "NEU-pregabalina",
+    "nombre": "Pregabalina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 1,
+    "clase": "Gabapentinoide (ligando alfa-2-delta)",
+    "subclase": "Gabapentinoide de absorción lineal",
+    "vs_clase": [
+      "**Absorción LINEAL y completa (90%)**: dosis predecible, **2 tomas al día** y titulación rápida.",
+      "**Indicada también en el TRASTORNO DE ANSIEDAD GENERALIZADA** y la fibromialgia (según país).",
+      "**Mayor potencial de ABUSO** que la gabapentina (euforia)."
+    ],
+    "mecanismo": "Ligando de la subunidad alfa-2-delta de los canales de calcio dependientes de voltaje.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor neuropático periférico y central",
+        "dosis": "75 mg → 150-300 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Máx. 600 mg/día"
+      },
+      {
+        "patologia": "Trastorno de ansiedad generalizada",
+        "dosis": "75 mg → 150-300 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "75 mg/12 h (25-50 mg en ancianos).",
+      "titulacion": "Subir a la semana.",
+      "duracion": "Reevaluar periódicamente.",
+      "fin": "**Retirada gradual en ≥1 semana.**",
+      "via": "VO.",
+      "monitorizacion": "Sedación, edemas, peso, signos de abuso."
+    },
+    "farmacocinetica": {
+      "absorcion": "**90%, lineal.**",
+      "distribucion": "No se une a proteínas.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "6 h.",
+      "ajuste_renal": "**FG 30-60: mitad; 15-30: cuarta parte.**",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Opioides y benzodiacepinas",
+          "efecto": "Depresión respiratoria",
+          "gravedad": "alta",
+          "manejo": "Evitar o reducir"
+        },
+        {
+          "con": "Pioglitazona",
+          "efecto": "Edemas y aumento de peso",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo, somnolencia",
+        "Edemas",
+        "Aumento de peso, visión borrosa"
+      ],
+      "graves": [
+        "Depresión respiratoria combinada",
+        "Abuso",
+        "Angioedema"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Pacientes con antecedentes de adicción: preferir duloxetina o amitriptilina."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24"
+  },
+  {
+    "id": "NEU-mirogabalina",
+    "nombre": "Mirogabalina",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 3,
+    "clase": "Gabapentinoide (ligando alfa-2-delta)",
+    "subclase": "Gabapentinoide de disociación lenta de alfa-2-delta-1",
+    "vs_clase": [
+      "**Disociación más lenta de la subunidad alfa-2-delta-1** (analgesia) que de la 2-delta-2 (efectos centrales): **perfil de mareo y somnolencia algo menor**.",
+      "Indicada en el **dolor neuropático periférico**.",
+      "Ajuste renal obligatorio."
+    ],
+    "mecanismo": "Ligando selectivo de la subunidad alfa-2-delta de los canales de calcio.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor neuropático periférico (neuropatía diabética, neuralgia postherpética)",
+        "dosis": "5 mg → 15 mg",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Subir 5 mg por semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/12 h.",
+      "titulacion": "Semanal.",
+      "duracion": "Reevaluar.",
+      "fin": "Retirada gradual.",
+      "via": "VO.",
+      "monitorizacion": "Mareo, somnolencia, edemas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida, >90%.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "FG 30-59: mitad; 15-29: 7,5 mg/24 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Opioides, benzodiacepinas",
+          "efecto": "Depresión del SNC",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia, mareo",
+        "Edemas"
+      ],
+      "graves": [
+        "Depresión respiratoria combinada",
+        "Abuso (potencial)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Alternativa cuando la pregabalina es eficaz pero produce demasiado mareo."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Ficha técnica (EMA); Katzung 15.ª ed., cap. 24"
+  },
+  {
+    "id": "NEU-erenumab",
+    "nombre": "Erenumab",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Anticuerpo anti-CGRP (preventivo de la migraña)",
+    "subclase": "Anticuerpo frente al RECEPTOR del CGRP",
+    "vs_clase": [
+      "**El único de la clase que bloquea el RECEPTOR** (los demás, el ligando CGRP).",
+      "**ESTREÑIMIENTO** (a veces grave) e **HIPERTENSIÓN** más frecuentes que con los anti-ligando.",
+      "Mensual SC (70 o 140 mg)."
+    ],
+    "mecanismo": "Anticuerpo monoclonal humano que bloquea el receptor del péptido relacionado con el gen de la calcitonina, mediador de la vasodilatación meníngea y la sensibilización trigeminal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la migraña (≥4 días/mes) tras fracaso de ≥2-3 preventivos orales",
+        "dosis": "70-140 mg",
+        "posologia": "Cada 4 semanas",
+        "via": "SC",
+        "nota": "Valorar respuesta a los 3 meses (≥50% de reducción)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras fracaso de preventivos.",
+      "titulacion": "70 → 140 mg si respuesta parcial.",
+      "duracion": "12 meses y reevaluar.",
+      "fin": "Suspender si no hay respuesta a los 3-6 meses.",
+      "via": "SC.",
+      "monitorizacion": "Diario de cefaleas, PA, ritmo intestinal."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC 82%.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "28 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Estreñimiento**",
+        "Reacción local"
+      ],
+      "graves": [
+        "**Hipertensión**",
+        "Estreñimiento grave con complicaciones"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad (látex en algunas plumas)"
+    ],
+    "perlas": [
+      "Si el paciente es estreñido o hipertenso, elegir un anti-ligando."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de migraña; guías SEN"
+  },
+  {
+    "id": "NEU-galcanezumab",
+    "nombre": "Galcanezumab",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Anticuerpo anti-CGRP (preventivo de la migraña)",
+    "subclase": "Anticuerpo frente al ligando CGRP con dosis de carga",
+    "vs_clase": [
+      "**Dosis de CARGA de 240 mg** el primer mes: efecto desde la primera semana.",
+      "**Eficaz en la CEFALEA EN RACIMOS episódica** (300 mg mensual en el periodo de racimos).",
+      "Reacciones locales algo más frecuentes."
+    ],
+    "mecanismo": "Anticuerpo humanizado que se une al CGRP circulante.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la migraña episódica o crónica",
+        "dosis": "240 mg de carga, después 120 mg",
+        "posologia": "Mensual",
+        "via": "SC",
+        "nota": "Reevaluar a los 3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga de 240 mg.",
+      "titulacion": "—",
+      "duracion": "12 meses y reevaluar.",
+      "fin": "Suspender si no hay respuesta.",
+      "via": "SC.",
+      "monitorizacion": "Diario de cefaleas."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "27 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor y eritema local",
+        "Vértigo"
+      ],
+      "graves": [
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Útil cuando se necesita efecto rápido por la dosis de carga."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Guías SEN de cefaleas"
+  },
+  {
+    "id": "NEU-fremanezumab",
+    "nombre": "Fremanezumab",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Anticuerpo anti-CGRP (preventivo de la migraña)",
+    "subclase": "Anticuerpo frente al ligando CGRP con pauta trimestral",
+    "vs_clase": [
+      "**Pauta TRIMESTRAL posible (675 mg cada 3 meses)** además de la mensual (225 mg): máxima comodidad.",
+      "Anti-ligando: **menos estreñimiento e hipertensión** que el erenumab.",
+      "Eficaz en migraña crónica con abuso de medicación."
+    ],
+    "mecanismo": "Anticuerpo humanizado que neutraliza el CGRP.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Profilaxis de la migraña",
+        "dosis": "225 mg (o 675 mg)",
+        "posologia": "Mensual (o cada 3 meses)",
+        "via": "SC",
+        "nota": "Reevaluar a los 3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "225 mg mensual o 675 mg trimestral.",
+      "titulacion": "—",
+      "duracion": "12 meses y reevaluar.",
+      "fin": "—",
+      "via": "SC.",
+      "monitorizacion": "Diario de cefaleas."
+    },
+    "farmacocinetica": {
+      "absorcion": "SC.",
+      "distribucion": "Intravascular.",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "Proteólisis.",
+      "vida_media": "31 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Reacción local"
+      ],
+      "graves": [
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Ideal para el paciente que prefiere 4 inyecciones al año."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Guías SEN de cefaleas"
+  },
+  {
+    "id": "PSQ-zopiclona",
+    "nombre": "Zopiclona",
+    "sinonimos": [
+      "Eszopiclona"
+    ],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Hipnótico no benzodiacepínico",
+    "subclase": "Fármaco Z de vida media intermedia",
+    "vs_clase": [
+      "**Vida media más larga que el zolpidem (5-6 h)**: útil en el **insomnio de MANTENIMIENTO** (despertares), a costa de más somnolencia matutina.",
+      "**SABOR AMARGO/METÁLICO** muy característico.",
+      "Mismos riesgos de dependencia, caídas y conductas complejas del sueño."
+    ],
+    "mecanismo": "Agonista del receptor GABA-A en el sitio benzodiacepínico (ciclopirrolona).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insomnio de mantenimiento incapacitante (tratamiento breve)",
+        "dosis": "3,75-7,5 mg",
+        "posologia": "Al acostarse",
+        "via": "VO",
+        "nota": "Ancianos 3,75 mg; máx. 4 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis mínima.",
+      "titulacion": "—",
+      "duracion": "≤4 semanas.",
+      "fin": "Retirada gradual si uso prolongado.",
+      "via": "VO.",
+      "monitorizacion": "Somnolencia matutina, dependencia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Rápida.",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Renal.",
+      "vida_media": "5-6 h (más en ancianos).",
+      "ajuste_renal": "Iniciar con 3,75 mg.",
+      "ajuste_hepatico": "3,75 mg; evitar en grave.",
+      "interacciones": [
+        {
+          "con": "Alcohol, opioides",
+          "efecto": "Depresión del SNC",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Inhibidores del CYP3A4",
+          "efecto": "Sedación prolongada",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sabor metálico**",
+        "Somnolencia matutina"
+      ],
+      "graves": [
+        "Conductas complejas del sueño",
+        "Caídas",
+        "Dependencia"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia respiratoria grave, apnea del sueño",
+      "Miastenia gravis",
+      "Insuficiencia hepática grave"
+    ],
+    "perlas": [
+      "No conducir a la mañana siguiente si se ha tomado tarde."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22"
+  },
+  {
+    "id": "PSQ-melatonina",
+    "nombre": "Melatonina de liberación prolongada",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Hipnótico no benzodiacepínico",
+    "subclase": "Agonista de los receptores MT1/MT2 (cronobiótico)",
+    "vs_clase": [
+      "**SIN dependencia, sin caídas ni efecto resaca**: opción hipnótica más segura en ≥55 años.",
+      "**Efecto hipnótico MODESTO**; muy útil en **trastornos del ritmo circadiano** (jet lag, fase retrasada) y en el trastorno de conducta del sueño REM.",
+      "Se toma 1-2 h antes de acostarse."
+    ],
+    "mecanismo": "Agonista de los receptores de melatonina del núcleo supraquiasmático: regula el ritmo circadiano y facilita el inicio del sueño.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Insomnio primario en ≥55 años",
+        "dosis": "2 mg",
+        "posologia": "1-2 h antes de acostarse",
+        "via": "VO",
+        "nota": "Hasta 13 semanas"
+      },
+      {
+        "patologia": "Trastorno de conducta del sueño REM (alternativa a clonazepam)",
+        "dosis": "3-12 mg (liberación inmediata)",
+        "posologia": "Al acostarse",
+        "via": "VO",
+        "nota": "Uso fuera de ficha"
+      }
+    ],
+    "esquema": {
+      "inicio": "2 mg.",
+      "titulacion": "—",
+      "duracion": "Hasta 13 semanas (insomnio).",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Eficacia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación prolongada en 8-10 h.",
+      "distribucion": "—",
+      "metabolismo": "**CYP1A2.**",
+      "eliminacion": "Renal.",
+      "vida_media": "3,5-4 h (formulación).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Fluvoxamina (inhibidor CYP1A2)",
+          "efecto": "Multiplica sus niveles",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Somnolencia leve"
+      ],
+      "graves": [
+        "Raros"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía",
+      "Enfermedades autoinmunes (relativa)"
+    ],
+    "perlas": [
+      "En el anciano con insomnio, antes que benzodiacepinas: TCC-I y melatonina."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 22"
+  },
+  {
+    "id": "PSQ-bupropion",
+    "nombre": "Bupropión",
+    "sinonimos": [
+      "Naltrexona/bupropión (obesidad)"
+    ],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Antidepresivo (mecanismo no ISRS)",
+    "subclase": "Inhibidor de la recaptación de noradrenalina y dopamina (IRND)",
+    "vs_clase": [
+      "**Sin disfunción sexual ni aumento de peso**: alternativa cuando los ISRS causan estos efectos.",
+      "**Ayuda a DEJAR DE FUMAR** (doble indicación).",
+      "**BAJA EL UMBRAL CONVULSIVO** (contraindicado en epilepsia, bulimia, anorexia, abstinencia alcohólica) e **inhibe potentemente el CYP2D6**."
+    ],
+    "mecanismo": "Inhibe la recaptación de noradrenalina y dopamina; antagonista nicotínico débil.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Episodio depresivo mayor",
+        "dosis": "150 mg → 300 mg (liberación modificada)",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "—"
+      },
+      {
+        "patologia": "Deshabituación tabáquica",
+        "dosis": "150 mg/24 h 6 días, después 150 mg/12 h",
+        "posologia": "Cada 12 h (separar 8 h)",
+        "via": "VO",
+        "nota": "Fijar día de abandono en la 2.ª semana; 7-12 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "150 mg por la mañana.",
+      "titulacion": "Tras 1 semana.",
+      "duracion": "Depresión: 6-12 meses tras remisión; tabaco: 7-12 semanas.",
+      "fin": "Retirada directa o gradual.",
+      "via": "VO.",
+      "monitorizacion": "PA, insomnio, ideación suicida."
+    },
+    "farmacocinetica": {
+      "absorcion": "Buena.",
+      "distribucion": "—",
+      "metabolismo": "CYP2B6 a hidroxibupropión; **inhibe CYP2D6**.",
+      "eliminacion": "Renal.",
+      "vida_media": "21 h.",
+      "ajuste_renal": "Reducir dosis.",
+      "ajuste_hepatico": "Máx. 150 mg/día en cirrosis.",
+      "interacciones": [
+        {
+          "con": "Tramadol, antipsicóticos, teofilina",
+          "efecto": "Convulsiones",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Metoprolol, tamoxifeno, codeína (CYP2D6)",
+          "efecto": "Aumento de niveles o pérdida de eficacia",
+          "gravedad": "alta",
+          "manejo": "Evitar o ajustar"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Insomnio, boca seca",
+        "Cefalea, temblor"
+      ],
+      "graves": [
+        "**Convulsiones**",
+        "Hipertensión",
+        "Reacciones neuropsiquiátricas"
+      ]
+    },
+    "contraindicaciones": [
+      "Epilepsia o riesgo convulsivo",
+      "Bulimia o anorexia",
+      "Abstinencia de alcohol o benzodiacepinas",
+      "Uso de IMAO"
+    ],
+    "perlas": [
+      "Depresión en fumador con disfunción sexual por ISRS: bupropión cubre las tres cosas."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 30 y 32"
+  },
+  {
+    "id": "PSQ-vareniclina",
+    "nombre": "Vareniclina",
+    "sinonimos": [
+      "Citisiniclina (citisina)"
+    ],
+    "area": "PSQ",
+    "nivel": 1,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Agonista parcial del receptor nicotínico alfa-4-beta-2",
+    "vs_clase": [
+      "**El fármaco MÁS EFICAZ para dejar de FUMAR** (superior a bupropión y a la terapia sustitutiva sola).",
+      "**Agonista parcial**: reduce el craving y bloquea la recompensa del cigarrillo.",
+      "**Náuseas y sueños vívidos** frecuentes; seguridad neuropsiquiátrica demostrada (EAGLES); ajuste renal."
+    ],
+    "mecanismo": "Agonista parcial de receptores nicotínicos alfa-4-beta-2: libera dopamina en menor grado que la nicotina y compite con ella.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Deshabituación tabáquica",
+        "dosis": "0,5 mg/24 h (días 1-3), 0,5 mg/12 h (días 4-7), después 1 mg/12 h",
+        "posologia": "Cada 12 h",
+        "via": "VO",
+        "nota": "Día de abandono en la 2.ª semana; 12 semanas (+12 si éxito)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Titulación en 1 semana.",
+      "titulacion": "Fija.",
+      "duracion": "12-24 semanas.",
+      "fin": "Suspensión directa.",
+      "via": "VO con agua y comida.",
+      "monitorizacion": "Náuseas, estado de ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "**Renal, inalterada.**",
+      "vida_media": "24 h.",
+      "ajuste_renal": "FG <30: máx. 0,5 mg/12 h.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Terapia sustitutiva de nicotina",
+          "efecto": "Más náuseas y cefalea",
+          "gravedad": "baja",
+          "manejo": "Combinable en casos seleccionados"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas**",
+        "Insomnio, sueños vívidos",
+        "Cefalea"
+      ],
+      "graves": [
+        "Reacciones neuropsiquiátricas (raras)",
+        "Convulsiones (muy raras)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Tomarla con comida y un vaso de agua reduce mucho las náuseas."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 32"
+  },
+  {
+    "id": "PSQ-naltrexona",
+    "nombre": "Naltrexona",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Antagonista opioide oral",
+    "vs_clase": [
+      "**Reduce el CRAVING y los atracones de ALCOHOL** (bloquea el refuerzo mediado por opioides endógenos).",
+      "**Contraindicada en pacientes con OPIOIDES** (precipita abstinencia y bloquea la analgesia): verificar abstinencia de 7-10 días.",
+      "**Hepatotoxicidad** a dosis altas; evitar en hepatopatía avanzada (ahí, acamprosato)."
+    ],
+    "mecanismo": "Antagonista competitivo de los receptores mu (y kappa) de larga duración por VO.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Trastorno por consumo de alcohol (reducción o abstinencia)",
+        "dosis": "50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "3-12 meses; nalmefeno 18 mg a demanda como alternativa"
+      },
+      {
+        "patologia": "Prevención de recaídas en dependencia de opioides (tras desintoxicación)",
+        "dosis": "50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Tras 7-10 días sin opioides"
+      }
+    ],
+    "esquema": {
+      "inicio": "Transaminasas; comprobar ausencia de opioides.",
+      "titulacion": "—",
+      "duracion": "3-12 meses.",
+      "fin": "Suspensión directa (riesgo de sobredosis si recae en opioides por pérdida de tolerancia).",
+      "via": "VO.",
+      "monitorizacion": "Transaminasas, consumo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Completa (primer paso intenso).",
+      "distribucion": "—",
+      "metabolismo": "Hepático a 6-beta-naltrexol (activo).",
+      "eliminacion": "Renal.",
+      "vida_media": "4 h (metabolito 13 h).",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Evitar en insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Opioides (analgésicos, antitusígenos, antidiarreicos)",
+          "efecto": "Ineficacia y abstinencia",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, cefalea",
+        "Ansiedad, insomnio"
+      ],
+      "graves": [
+        "Hepatotoxicidad",
+        "Abstinencia precipitada",
+        "Sobredosis de opioides tras suspenderla"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso de opioides",
+      "Hepatitis aguda o insuficiencia hepática"
+    ],
+    "perlas": [
+      "Llevar tarjeta identificativa: si necesita analgesia urgente, los opioides no harán efecto."
+    ],
+    "embarazo_lactancia": "No recomendada.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 31 y 32"
+  },
+  {
+    "id": "PSQ-acamprosato",
+    "nombre": "Acamprosato",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Modulador glutamatérgico",
+    "vs_clase": [
+      "**Mantiene la ABSTINENCIA alcohólica** (no reduce el consumo como la naltrexona): se inicia tras la desintoxicación.",
+      "**Eliminación RENAL, sin metabolismo hepático**: de elección en la **hepatopatía alcohólica**.",
+      "**Sin interacción con opioides**; diarrea frecuente."
+    ],
+    "mecanismo": "Modula la hiperexcitabilidad glutamatérgica (NMDA) que persiste tras dejar el alcohol.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Mantenimiento de la abstinencia alcohólica",
+        "dosis": "666 mg (≥60 kg) o 666 + 333 + 333 mg (<60 kg)",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "12 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras la desintoxicación.",
+      "titulacion": "—",
+      "duracion": "12 meses (aunque recaiga).",
+      "fin": "Suspensión directa.",
+      "via": "VO.",
+      "monitorizacion": "Función renal, ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "11%.",
+      "distribucion": "—",
+      "metabolismo": "**No se metaboliza.**",
+      "eliminacion": "**Renal.**",
+      "vida_media": "20-33 h.",
+      "ajuste_renal": "FG 30-50: 333 mg/8 h; contraindicado con FG <30.",
+      "ajuste_hepatico": "No precisa (Child A-B).",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Diarrea**",
+        "Prurito"
+      ],
+      "graves": [
+        "Ideación suicida (vigilar)"
+      ]
+    },
+    "contraindicaciones": [
+      "FG <30",
+      "Hepatopatía grave (Child C)"
+    ],
+    "perlas": [
+      "Cirrótico alcohólico que quiere mantenerse abstinente: acamprosato (o baclofeno)."
+    ],
+    "embarazo_lactancia": "No recomendado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 23"
+  },
+  {
+    "id": "PSQ-disulfiram",
+    "nombre": "Disulfiram",
+    "sinonimos": [
+      "Cianamida cálcica"
+    ],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco de deshabituación (alcohol y tabaco)",
+    "subclase": "Interdictor (inhibidor de la aldehído deshidrogenasa)",
+    "vs_clase": [
+      "**INTERDICTOR**: no reduce el deseo; provoca una **reacción aversiva** (rubor, taquicardia, vómitos, hipotensión) si se bebe.",
+      "**Solo útil con motivación alta y toma SUPERVISADA**.",
+      "**La reacción puede ser grave** (arritmias, shock) y aparece hasta 2 semanas tras la última dosis; **hepatotoxicidad** y neuropatía."
+    ],
+    "mecanismo": "Inhibe irreversiblemente la aldehído deshidrogenasa: acumulación de acetaldehído al beber.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Mantenimiento de la abstinencia alcohólica (paciente motivado, toma supervisada)",
+        "dosis": "250 mg (125-500 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Iniciar ≥24 h tras el último consumo"
+      }
+    ],
+    "esquema": {
+      "inicio": "Consentimiento informado; transaminasas.",
+      "titulacion": "—",
+      "duracion": "Meses.",
+      "fin": "Efecto persiste 1-2 semanas.",
+      "via": "VO.",
+      "monitorizacion": "Transaminasas, neuropatía."
+    },
+    "farmacocinetica": {
+      "absorcion": "80%.",
+      "distribucion": "Lipófilo.",
+      "metabolismo": "Hepático; inhibe CYP2E1.",
+      "eliminacion": "Renal y pulmonar.",
+      "vida_media": "Efecto de días (inhibición irreversible).",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Evitar en hepatopatía.",
+      "interacciones": [
+        {
+          "con": "Alcohol (incluido en jarabes, colutorios, colonias)",
+          "efecto": "Reacción disulfiram",
+          "gravedad": "alta",
+          "manejo": "Evitar toda fuente de alcohol"
+        },
+        {
+          "con": "Metronidazol",
+          "efecto": "Psicosis aguda",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Warfarina, fenitoína",
+          "efecto": "Aumento de niveles",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sabor metálico, somnolencia"
+      ],
+      "graves": [
+        "**Reacción con alcohol grave**",
+        "Hepatitis",
+        "Neuropatía periférica y óptica",
+        "Psicosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía isquémica o arritmias",
+      "Psicosis",
+      "Consumo de alcohol en las últimas 24 h"
+    ],
+    "perlas": [
+      "Sin supervisión de la toma, la eficacia es nula: el paciente simplemente la deja."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 23"
+  }
+]
