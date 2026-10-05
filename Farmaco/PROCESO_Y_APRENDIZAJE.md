@@ -197,3 +197,18 @@ El generador construye además el **índice inverso** (`pat_por_farmaco`), de mo
 
 ### #34 — `sin_ficha` convierte la deuda de contenido en una lista auditable
 Escribir 88 patologías sacó a la luz, exactamente como predijo el hallazgo #27, fármacos de uso habitual que no tenían ficha (noradrenalina, tiamina, cloruro potásico, alteplasa, fidaxomicina…). Inventar una ficha a medias para cada uno habría bajado la calidad; omitirlos habría falseado las pautas. **Se adoptó el campo `"sin_ficha": true`**: la fila aparece completa en la patología (sin chip enlazable) y el validador solo avisa de las filas sin `ref` que NO lo declaran. La lista de estos 30 fármacos está en PROGRESO.md como deuda del próximo lote.
+
+### #35 — «Al menos 3 por clase» exige decidir qué cuenta como miembro
+Al convertir el encargo en una regla del validador apareció la pregunta que el encargo no respondía: una ficha como «Cisplatino, carboplatino y oxaliplatino» ¿es un miembro o tres? Contarla como tres habría dado la regla por cumplida sin escribir nada; contarla como uno dejaba una ficha valiosa (el resumen comparativo) compitiendo con las individuales.
+
+**Consecuencia adoptada:** las fichas agrupadas se marcan con `vision_clase: true`, pasan a la clase «Visión de clase: …» y **no cuentan** para el mínimo; el Hub las señala con su propia insignia y la lista las presenta como resumen. La regla solo cuenta **fichas individuales**. Con ese criterio, los avisos de clase bajaron de 118 a 0 a lo largo de 17 lotes por área, y la plataforma pasó de 281 a 529 fichas de adulto.
+
+### #36 — Una excepción a la regla solo es aceptable si se escribe su porqué
+Algunas familias tienen de verdad un único representante de uso real: litio, colchicina, oxígeno, emolientes. Rellenarlas con fármacos de nivel 3 o con presentaciones del mismo principio activo habría sido inflar el contenido para contentar al validador, el error que ya señaló el hallazgo #29.
+
+**Consecuencia adoptada:** el campo `clase_unica` exige un **texto con la justificación**, no un booleano. El validador acepta la clase de un solo miembro solo si lo declara así. Son 4 en toda la plataforma, y cada una dice por qué.
+
+### #37 — Ampliar una clase obliga a revisar su nombre y los enlaces que la apuntan
+Completar clases hizo visibles fronteras mal trazadas: los calcioantagonistas DHP y no DHP estaban en dos clases de un miembro cada una, igual que los ACOD y los AVK, y la gemcitabina no cabía en una clase llamada «fluoropirimidina». **Se fusionaron las familias que la práctica clínica compara entre sí** y se renombraron las que excluían a un hermano legítimo («Antimetabolito antineoplásico (análogo de pirimidina)»).
+
+Además, cada ficha nueva deja obsoletos los enlaces anteriores: 26 filas de patologías marcadas `sin_ficha` ya tenían ficha, y 56 apuntaban a una «Visión de clase» cuando la pauta citaba un fármaco concreto (labetalol, gliclazida, bilastina). **Tras cada ampliación hay que re-enlazar las patologías**; se hizo con un mapa explícito fila → ficha que aborta si un id no existe, y el validador detectó el único error de población (escabiosis infantil enlazada a la permetrina de adulto).

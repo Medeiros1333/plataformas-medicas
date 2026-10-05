@@ -25,7 +25,7 @@
           },
           {
             "nombre": "Antiácido o alginato",
-            "ref": "DIG-sucralfato-antiacidos",
+            "ref": "DIG-almagato",
             "dosis": "10-20 mL",
             "via": "VO",
             "intervalo": "A demanda, tras comidas y al acostarse",
@@ -85,12 +85,12 @@
           },
           {
             "nombre": "Eritromicina (procinético)",
-            "sin_ficha": true,
             "dosis": "250 mg",
             "via": "IV",
             "intervalo": "Dosis única 30-120 min antes de la endoscopia",
             "duracion": "Dosis única",
-            "nota": "Vacía el estómago de sangre y mejora la visión"
+            "nota": "Vacía el estómago de sangre y mejora la visión",
+            "ref": "INF-eritromicina"
           },
           {
             "nombre": "Pantoprazol oral",
@@ -140,12 +140,12 @@
           },
           {
             "nombre": "Subcitrato de bismuto + metronidazol + tetraciclina (cápsula combinada)",
-            "sin_ficha": true,
             "dosis": "3 cápsulas (140/125/125 mg)",
             "via": "VO",
             "intervalo": "Cada 6 h (tras comidas y al acostarse)",
             "duracion": "10 días",
-            "nota": "Heces negras; válida en alérgicos a penicilina"
+            "nota": "Heces negras; válida en alérgicos a penicilina",
+            "ref": "DIG-bismuto"
           }
         ]
       },
@@ -306,12 +306,12 @@
         "farmacos": [
           {
             "nombre": "Plantago ovata (fibra)",
-            "sin_ficha": true,
             "dosis": "3,5 g (1 sobre)",
             "via": "VO",
             "intervalo": "Cada 8-24 h con abundante agua",
             "duracion": "Continuo",
-            "nota": "No en estreñimiento por opioides ni en impactación"
+            "nota": "No en estreñimiento por opioides ni en impactación",
+            "ref": "DIG-plantago"
           },
           {
             "nombre": "Macrogol",
@@ -323,7 +323,7 @@
           },
           {
             "nombre": "Lactulosa",
-            "ref": "DIG-lactulosa-rifaximina",
+            "ref": "DIG-lactulosa",
             "dosis": "15-30 mL",
             "via": "VO",
             "intervalo": "Cada 12-24 h",
@@ -494,7 +494,7 @@
         "farmacos": [
           {
             "nombre": "Lactulosa",
-            "ref": "DIG-lactulosa-rifaximina",
+            "ref": "DIG-lactulosa",
             "dosis": "20-30 mL",
             "via": "VO",
             "intervalo": "Cada 8-12 h, ajustando a 2-3 deposiciones/día",
@@ -504,7 +504,7 @@
           },
           {
             "nombre": "Rifaximina",
-            "ref": "DIG-lactulosa-rifaximina",
+            "ref": "INF-rifaximina",
             "dosis": "550 mg",
             "via": "VO",
             "intervalo": "Cada 12 h",
@@ -541,7 +541,7 @@
         "farmacos": [
           {
             "nombre": "Terlipresina",
-            "ref": "DIG-terlipresina-octreotido",
+            "ref": "DIG-terlipresina",
             "dosis": "2 mg (1 mg si <50 kg) durante 48 h, después 1 mg",
             "via": "IV",
             "intervalo": "Cada 4 h",
@@ -569,7 +569,7 @@
           },
           {
             "nombre": "Lactulosa",
-            "ref": "DIG-lactulosa-rifaximina",
+            "ref": "DIG-lactulosa",
             "dosis": "20-30 mL",
             "via": "VO",
             "intervalo": "Cada 8-12 h",

@@ -180,6 +180,17 @@ Cada archivo es un **array** de fichas. Campos obligatorios marcados con ●.
 - **`**…**`** en cualquier texto de la ficha marca lo PROPIO del fármaco: el Hub lo resalta y Anki lo pone en negrita. El validador da error si un `**` queda desemparejado.
 - Cada elemento de `vs_clase` debe ser una diferencia real con los hermanos (farmacocinética, indicación propia, efecto adverso propio, interacción propia), no una propiedad de la clase.
 
+**Regla de tamaño de clase (≥3 fármacos individuales).** El validador avisa si una clase de adulto tiene 1 o 2 fármacos individuales. Hay tres salidas legítimas, y solo tres:
+
+```json
+{ "vision_clase": true,  "clase": "Visión de clase: antraciclinas" }   // ficha agrupada (varios fármacos en una): NO cuenta para la clase
+{ "clase_unica": "Justificación de por qué la familia tiene un solo fármaco de uso real" }  // p. ej. litio, colchicina, oxígeno
+```
+
+1. **Completar la clase** con fichas individuales de los fármacos más usados (lo normal).
+2. **Convertir la ficha agrupada en `vision_clase`**: se conserva como resumen comparativo («Visión de clase: …»), el Hub la marca con la insignia «Visión de clase» y deja de contar como miembro.
+3. **Declarar `clase_unica`** con su justificación cuando la familia, de verdad, tiene un único representante en la práctica.
+
 ### 4.4 Ficha de patología (`data/patologias/*.json`)
 
 ```json

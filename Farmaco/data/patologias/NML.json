@@ -2,7 +2,9 @@
   {
     "id": "PAT-asma-cronica",
     "nombre": "Asma bronquial: tratamiento de mantenimiento",
-    "sinonimos": ["Asma"],
+    "sinonimos": [
+      "Asma"
+    ],
     "area": "NML",
     "resumen": "**Todo asmático debe recibir corticoide inhalado (ICS)**: el SABA solo ya no se recomienda en adolescentes y adultos. Estrategia preferente (GINA): **budesonida-formoterol como rescate y, según escalón, también como mantenimiento (MART)**. Escalar si mal control; desescalar tras 3 meses de buen control. Antes de subir, revisar técnica inhalatoria, adherencia y desencadenantes.",
     "objetivo": "Control de síntomas (sin despertares, rescate ≤2 veces/semana), sin exacerbaciones, función pulmonar normal.",
@@ -10,32 +12,108 @@
       {
         "titulo": "Escalones 1-2: síntomas leves (a demanda)",
         "farmacos": [
-          { "nombre": "Budesonida-formoterol 160/4,5 µg", "ref": "NML-budesonida-formoterol", "dosis": "1 inhalación", "via": "inhalada", "intervalo": "A demanda (máx. 12 inhalaciones/día)", "duracion": "Continuo, según síntomas" }
+          {
+            "nombre": "Budesonida-formoterol 160/4,5 µg",
+            "ref": "NML-budesonida-formoterol",
+            "dosis": "1 inhalación",
+            "via": "inhalada",
+            "intervalo": "A demanda (máx. 12 inhalaciones/día)",
+            "duracion": "Continuo, según síntomas"
+          }
         ]
       },
       {
         "titulo": "Escalones 3-4: mantenimiento y rescate con el mismo inhalador (MART)",
         "farmacos": [
-          { "nombre": "Budesonida-formoterol 160/4,5 µg", "ref": "NML-budesonida-formoterol", "dosis": "1 inhalación (escalón 3) o 2 inhalaciones (escalón 4)", "via": "inhalada", "intervalo": "Cada 12 h + 1 inhalación a demanda", "duracion": "Mínimo 3 meses; después desescalar si control" },
-          { "nombre": "Fluticasona/salmeterol (alternativa sin MART)", "ref": "NML-fluticasona-salmeterol", "dosis": "50/250 µg (1 inhalación)", "via": "inhalada", "intervalo": "Cada 12 h", "duracion": "Igual", "alternativa": "o fluticasona furoato/vilanterol 92/22 µg cada 24 h", "nota": "Rescate con salbutamol aparte" },
-          { "nombre": "Salbutamol (rescate en la vía alternativa)", "ref": "NML-salbutamol", "dosis": "100-200 µg (1-2 pulsaciones)", "via": "inhalada", "intervalo": "A demanda", "duracion": "A demanda" }
+          {
+            "nombre": "Budesonida-formoterol 160/4,5 µg",
+            "ref": "NML-budesonida-formoterol",
+            "dosis": "1 inhalación (escalón 3) o 2 inhalaciones (escalón 4)",
+            "via": "inhalada",
+            "intervalo": "Cada 12 h + 1 inhalación a demanda",
+            "duracion": "Mínimo 3 meses; después desescalar si control"
+          },
+          {
+            "nombre": "Fluticasona/salmeterol (alternativa sin MART)",
+            "ref": "NML-fluticasona-salmeterol",
+            "dosis": "50/250 µg (1 inhalación)",
+            "via": "inhalada",
+            "intervalo": "Cada 12 h",
+            "duracion": "Igual",
+            "alternativa": "o fluticasona furoato/vilanterol 92/22 µg cada 24 h",
+            "nota": "Rescate con salbutamol aparte"
+          },
+          {
+            "nombre": "Salbutamol (rescate en la vía alternativa)",
+            "ref": "NML-salbutamol",
+            "dosis": "100-200 µg (1-2 pulsaciones)",
+            "via": "inhalada",
+            "intervalo": "A demanda",
+            "duracion": "A demanda"
+          }
         ]
       },
       {
         "titulo": "Escalón 5: asma grave no controlada",
         "farmacos": [
-          { "nombre": "Tiotropio (añadido)", "ref": "NML-tiotropio", "dosis": "2,5 µg × 2 pulsaciones (Respimat)", "via": "inhalada", "intervalo": "Cada 24 h", "duracion": "Indefinida" },
-          { "nombre": "Montelukast (añadido)", "ref": "NML-montelukast", "dosis": "10 mg", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Reevaluar a los 3 meses", "nota": "Útil con rinitis alérgica o asma por AAS; alerta neuropsiquiátrica" },
-          { "nombre": "Biológicos (omalizumab, mepolizumab, benralizumab, dupilumab)", "ref": "NML-biologicos-asma", "dosis": "Según fármaco (p. ej., mepolizumab 100 mg)", "via": "SC", "intervalo": "Cada 2-8 semanas según fármaco", "duracion": "Reevaluar a los 4-6 meses", "nota": "Fenotipo T2 (eosinófilos, IgE, FeNO) en unidad de asma grave" }
+          {
+            "nombre": "Tiotropio (añadido)",
+            "ref": "NML-tiotropio",
+            "dosis": "2,5 µg × 2 pulsaciones (Respimat)",
+            "via": "inhalada",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Montelukast (añadido)",
+            "ref": "NML-montelukast",
+            "dosis": "10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h, por la noche",
+            "duracion": "Reevaluar a los 3 meses",
+            "nota": "Útil con rinitis alérgica o asma por AAS; alerta neuropsiquiátrica"
+          },
+          {
+            "nombre": "Biológicos (omalizumab, mepolizumab, benralizumab, dupilumab)",
+            "ref": "NML-biologicos-asma",
+            "dosis": "Según fármaco (p. ej., mepolizumab 100 mg)",
+            "via": "SC",
+            "intervalo": "Cada 2-8 semanas según fármaco",
+            "duracion": "Reevaluar a los 4-6 meses",
+            "nota": "Fenotipo T2 (eosinófilos, IgE, FeNO) en unidad de asma grave"
+          }
         ]
       },
       {
         "titulo": "Asma infantil (fondo)",
         "poblacion": "Pediatría",
         "farmacos": [
-          { "nombre": "Budesonida inhalada", "ref": "PED-NML-budesonida-inhalada", "dosis": "100-200 µg (dosis baja)", "via": "inhalada", "intervalo": "Cada 12 h", "duracion": "Mínimo 3 meses y reevaluar", "nota": "Con cámara espaciadora (y mascarilla <4 años)" },
-          { "nombre": "Montelukast", "ref": "PED-NML-montelukast", "dosis": "4 mg (2-5 años), 5 mg (6-14 años)", "via": "VO", "intervalo": "Cada 24 h, por la noche", "duracion": "Reevaluar a los 3 meses", "nota": "Alternativa o añadido; vigilar alteraciones del sueño y conducta" },
-          { "nombre": "Salbutamol", "ref": "PED-NML-salbutamol", "dosis": "2-4 pulsaciones de 100 µg con cámara", "via": "inhalada", "intervalo": "A demanda", "duracion": "A demanda" }
+          {
+            "nombre": "Budesonida inhalada",
+            "ref": "PED-NML-budesonida-inhalada",
+            "dosis": "100-200 µg (dosis baja)",
+            "via": "inhalada",
+            "intervalo": "Cada 12 h",
+            "duracion": "Mínimo 3 meses y reevaluar",
+            "nota": "Con cámara espaciadora (y mascarilla <4 años)"
+          },
+          {
+            "nombre": "Montelukast",
+            "ref": "PED-NML-montelukast",
+            "dosis": "4 mg (2-5 años), 5 mg (6-14 años)",
+            "via": "VO",
+            "intervalo": "Cada 24 h, por la noche",
+            "duracion": "Reevaluar a los 3 meses",
+            "nota": "Alternativa o añadido; vigilar alteraciones del sueño y conducta"
+          },
+          {
+            "nombre": "Salbutamol",
+            "ref": "PED-NML-salbutamol",
+            "dosis": "2-4 pulsaciones de 100 µg con cámara",
+            "via": "inhalada",
+            "intervalo": "A demanda",
+            "duracion": "A demanda"
+          }
         ]
       }
     ],
@@ -54,7 +132,10 @@
   {
     "id": "PAT-crisis-asmatica",
     "nombre": "Crisis asmática (exacerbación del asma)",
-    "sinonimos": ["Agudización asmática", "Broncoespasmo"],
+    "sinonimos": [
+      "Agudización asmática",
+      "Broncoespasmo"
+    ],
     "area": "NML",
     "resumen": "Valorar gravedad (habla, FR, FC, SpO2, PEF). **Pilares: broncodilatador de acción corta repetido, corticoide sistémico precoz y oxígeno** controlado. En crisis graves: ipratropio y sulfato de magnesio IV. Signos de riesgo vital (tórax silente, cianosis, bradicardia, confusión): UCI.",
     "objetivo": "SpO2 93-95% (adultos) o 94-98% (niños); PEF >70% del teórico al alta.",
@@ -62,18 +143,65 @@
       {
         "titulo": "Adulto",
         "farmacos": [
-          { "nombre": "Salbutamol", "ref": "NML-salbutamol", "dosis": "4-10 pulsaciones de 100 µg con cámara, o 2,5-5 mg nebulizado", "via": "inhalada / nebulizada", "intervalo": "Cada 20 min durante la 1.ª hora, luego según respuesta", "duracion": "Hasta estabilización" },
-          { "nombre": "Bromuro de ipratropio", "ref": "NML-ipratropio", "dosis": "500 µg", "via": "nebulizada", "intervalo": "Cada 20 min, 3 dosis", "duracion": "1.ª hora", "nota": "Crisis moderada-grave, junto al salbutamol" },
-          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "40-50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5-7 días (sin pauta descendente)", "alternativa": "o metilprednisolona 40-80 mg IV si no tolera VO", "nota": "En la primera hora" },
-          { "nombre": "Sulfato de magnesio", "ref": "GIN-sulfato-magnesio", "dosis": "2 g", "via": "IV", "intervalo": "Dosis única en 20 min", "duracion": "Dosis única", "nota": "Crisis grave que no responde al tratamiento inicial" }
+          {
+            "nombre": "Salbutamol",
+            "ref": "NML-salbutamol",
+            "dosis": "4-10 pulsaciones de 100 µg con cámara, o 2,5-5 mg nebulizado",
+            "via": "inhalada / nebulizada",
+            "intervalo": "Cada 20 min durante la 1.ª hora, luego según respuesta",
+            "duracion": "Hasta estabilización"
+          },
+          {
+            "nombre": "Bromuro de ipratropio",
+            "ref": "NML-ipratropio",
+            "dosis": "500 µg",
+            "via": "nebulizada",
+            "intervalo": "Cada 20 min, 3 dosis",
+            "duracion": "1.ª hora",
+            "nota": "Crisis moderada-grave, junto al salbutamol"
+          },
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "40-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5-7 días (sin pauta descendente)",
+            "alternativa": "o metilprednisolona 40-80 mg IV si no tolera VO",
+            "nota": "En la primera hora"
+          },
+          {
+            "nombre": "Sulfato de magnesio",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "Dosis única en 20 min",
+            "duracion": "Dosis única",
+            "nota": "Crisis grave que no responde al tratamiento inicial"
+          }
         ]
       },
       {
         "titulo": "Niño",
         "poblacion": "Pediatría",
         "farmacos": [
-          { "nombre": "Salbutamol", "ref": "PED-NML-salbutamol", "dosis": "2-10 pulsaciones con cámara (o 0,15 mg/kg nebulizado, mín. 2,5 mg)", "via": "inhalada / nebulizada", "intervalo": "Cada 20 min durante la 1.ª hora", "duracion": "Hasta estabilización" },
-          { "nombre": "Dexametasona", "ref": "PED-NML-dexametasona", "dosis": "0,3-0,6 mg/kg (máx. 16 mg)", "via": "VO", "intervalo": "Dosis única (repetir a las 24 h si persiste)", "duracion": "1-2 dosis", "alternativa": "o prednisolona 1-2 mg/kg/día (máx. 40 mg) × 3-5 días" }
+          {
+            "nombre": "Salbutamol",
+            "ref": "PED-NML-salbutamol",
+            "dosis": "2-10 pulsaciones con cámara (o 0,15 mg/kg nebulizado, mín. 2,5 mg)",
+            "via": "inhalada / nebulizada",
+            "intervalo": "Cada 20 min durante la 1.ª hora",
+            "duracion": "Hasta estabilización"
+          },
+          {
+            "nombre": "Dexametasona",
+            "ref": "PED-NML-dexametasona",
+            "dosis": "0,3-0,6 mg/kg (máx. 16 mg)",
+            "via": "VO",
+            "intervalo": "Dosis única (repetir a las 24 h si persiste)",
+            "duracion": "1-2 dosis",
+            "alternativa": "o prednisolona 1-2 mg/kg/día (máx. 40 mg) × 3-5 días"
+          }
         ]
       }
     ],
@@ -92,7 +220,9 @@
   {
     "id": "PAT-epoc-estable",
     "nombre": "EPOC estable",
-    "sinonimos": ["Enfermedad pulmonar obstructiva crónica"],
+    "sinonimos": [
+      "Enfermedad pulmonar obstructiva crónica"
+    ],
     "area": "NML",
     "resumen": "**Los broncodilatadores de acción prolongada son la base**; la elección depende de síntomas (mMRC/CAT) y exacerbaciones (GOLD). LAMA + LABA para la mayoría de sintomáticos; añadir ICS (triple terapia) solo si exacerbaciones con **eosinófilos ≥300/µL** (o ≥100 con exacerbaciones graves). Dejar de fumar es la intervención que más modifica la evolución.",
     "objetivo": "Menos disnea y exacerbaciones; mejor tolerancia al ejercicio.",
@@ -100,32 +230,81 @@
       {
         "titulo": "Pocos síntomas y sin exacerbaciones (GOLD A)",
         "farmacos": [
-          { "nombre": "Tiotropio", "ref": "NML-tiotropio", "dosis": "2,5 µg × 2 pulsaciones (Respimat) o 18 µg (HandiHaler)", "via": "inhalada", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o umeclidinio 55 µg/24 h", "nota": "Un broncodilatador de larga acción" }
+          {
+            "nombre": "Tiotropio",
+            "ref": "NML-tiotropio",
+            "dosis": "2,5 µg × 2 pulsaciones (Respimat) o 18 µg (HandiHaler)",
+            "via": "inhalada",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "alternativa": "o umeclidinio 55 µg/24 h",
+            "nota": "Un broncodilatador de larga acción"
+          }
         ]
       },
       {
         "titulo": "Sintomático (GOLD B) o con exacerbaciones y eosinófilos <300 (GOLD E)",
         "farmacos": [
-          { "nombre": "Umeclidinio/vilanterol", "ref": "NML-umeclidinio", "dosis": "55/22 µg (1 inhalación)", "via": "inhalada", "intervalo": "Cada 24 h", "duracion": "Indefinida", "alternativa": "o tiotropio/olodaterol, glicopirronio/indacaterol", "nota": "LAMA + LABA en un dispositivo" }
+          {
+            "nombre": "Umeclidinio/vilanterol",
+            "ref": "NML-umeclidinio",
+            "dosis": "55/22 µg (1 inhalación)",
+            "via": "inhalada",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "alternativa": "o tiotropio/olodaterol, glicopirronio/indacaterol",
+            "nota": "LAMA + LABA en un dispositivo"
+          }
         ]
       },
       {
         "titulo": "Exacerbaciones con eosinófilos ≥300/µL (triple terapia)",
         "farmacos": [
-          { "nombre": "Fluticasona furoato/umeclidinio/vilanterol", "ref": "NML-fluticasona-furoato-vilanterol", "dosis": "92/55/22 µg (1 inhalación)", "via": "inhalada", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "Más neumonías por el ICS" }
+          {
+            "nombre": "Fluticasona furoato/umeclidinio/vilanterol",
+            "ref": "NML-fluticasona-furoato-vilanterol",
+            "dosis": "92/55/22 µg (1 inhalación)",
+            "via": "inhalada",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Más neumonías por el ICS"
+          }
         ]
       },
       {
         "titulo": "Exacerbaciones persistentes pese a triple terapia",
         "farmacos": [
-          { "nombre": "Roflumilast", "ref": "NML-roflumilast-mucoliticos", "dosis": "250 µg 4 semanas, después 500 µg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Indefinida", "nota": "FEV1 <50% con bronquitis crónica" },
-          { "nombre": "Azitromicina", "ref": "INF-azitromicina", "dosis": "250 mg (o 500 mg 3 días/semana)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Hasta 1 año y reevaluar", "nota": "Exfumadores; ECG (QT) y audiometría" }
+          {
+            "nombre": "Roflumilast",
+            "ref": "NML-roflumilast",
+            "dosis": "250 µg 4 semanas, después 500 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "FEV1 <50% con bronquitis crónica"
+          },
+          {
+            "nombre": "Azitromicina",
+            "ref": "INF-azitromicina",
+            "dosis": "250 mg (o 500 mg 3 días/semana)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta 1 año y reevaluar",
+            "nota": "Exfumadores; ECG (QT) y audiometría"
+          }
         ]
       },
       {
         "titulo": "Rescate",
         "farmacos": [
-          { "nombre": "Salbutamol", "ref": "NML-salbutamol", "dosis": "100-200 µg", "via": "inhalada", "intervalo": "A demanda", "duracion": "A demanda" }
+          {
+            "nombre": "Salbutamol",
+            "ref": "NML-salbutamol",
+            "dosis": "100-200 µg",
+            "via": "inhalada",
+            "intervalo": "A demanda",
+            "duracion": "A demanda"
+          }
         ]
       }
     ],
@@ -144,7 +323,9 @@
   {
     "id": "PAT-exacerbacion-epoc",
     "nombre": "Exacerbación de la EPOC",
-    "sinonimos": ["Agudización de EPOC"],
+    "sinonimos": [
+      "Agudización de EPOC"
+    ],
     "area": "NML",
     "resumen": "Empeoramiento agudo de disnea, tos o esputo. **Broncodilatadores de acción corta, corticoide sistémico corto y antibiótico si hay purulencia del esputo** (o ventilación mecánica). Oxígeno controlado (riesgo de hipercapnia). VMNI si acidosis respiratoria (pH <7,35 con PaCO2 >45).",
     "objetivo": "SpO2 88-92%; resolución en 7-10 días; prevenir la siguiente.",
@@ -152,11 +333,50 @@
       {
         "titulo": "Tratamiento",
         "farmacos": [
-          { "nombre": "Salbutamol", "ref": "NML-salbutamol", "dosis": "2,5-5 mg (o 4-8 pulsaciones con cámara)", "via": "nebulizada / inhalada", "intervalo": "Cada 4-6 h (más frecuente al inicio)", "duracion": "Hasta estabilización" },
-          { "nombre": "Bromuro de ipratropio", "ref": "NML-ipratropio", "dosis": "500 µg", "via": "nebulizada", "intervalo": "Cada 6-8 h", "duracion": "Hasta estabilización" },
-          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "5 días", "alternativa": "o metilprednisolona 40 mg IV" },
-          { "nombre": "Amoxicilina-clavulánico", "ref": "INF-amoxicilina-clavulanico", "dosis": "875/125 mg", "via": "VO", "intervalo": "Cada 8 h", "duracion": "5 días", "alternativa": "o levofloxacino 500 mg/24 h / moxifloxacino 400 mg/24 h", "nota": "Solo si esputo purulento" },
-          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "750 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "7-10 días", "nota": "Riesgo de Pseudomonas (FEV1 <30%, bronquiectasias, aislamientos previos)" }
+          {
+            "nombre": "Salbutamol",
+            "ref": "NML-salbutamol",
+            "dosis": "2,5-5 mg (o 4-8 pulsaciones con cámara)",
+            "via": "nebulizada / inhalada",
+            "intervalo": "Cada 4-6 h (más frecuente al inicio)",
+            "duracion": "Hasta estabilización"
+          },
+          {
+            "nombre": "Bromuro de ipratropio",
+            "ref": "NML-ipratropio",
+            "dosis": "500 µg",
+            "via": "nebulizada",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Hasta estabilización"
+          },
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5 días",
+            "alternativa": "o metilprednisolona 40 mg IV"
+          },
+          {
+            "nombre": "Amoxicilina-clavulánico",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "5 días",
+            "alternativa": "o levofloxacino 500 mg/24 h / moxifloxacino 400 mg/24 h",
+            "nota": "Solo si esputo purulento"
+          },
+          {
+            "nombre": "Ciprofloxacino",
+            "ref": "INF-ciprofloxacino",
+            "dosis": "750 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "7-10 días",
+            "nota": "Riesgo de Pseudomonas (FEV1 <30%, bronquiectasias, aislamientos previos)"
+          }
         ]
       }
     ],
@@ -174,7 +394,10 @@
   {
     "id": "PAT-bronquiolitis",
     "nombre": "Bronquiolitis aguda",
-    "sinonimos": ["VRS", "Bronquiolitis del lactante"],
+    "sinonimos": [
+      "VRS",
+      "Bronquiolitis del lactante"
+    ],
     "area": "NML",
     "resumen": "Primer episodio de sibilancias/crepitantes en <12-24 meses tras un cuadro catarral, sobre todo por VRS. **El tratamiento es de SOPORTE**: lavados nasales, hidratación y oxígeno si SpO2 <90-92%. **No se recomiendan de rutina broncodilatadores, corticoides ni antibióticos.** La prevención con nirsevimab ha reducido drásticamente los ingresos.",
     "objetivo": "Mantener oxigenación e hidratación; detectar signos de gravedad (apneas, dificultad respiratoria grave).",
@@ -183,15 +406,38 @@
         "titulo": "Prevención (inmunización pasiva frente al VRS)",
         "poblacion": "Pediatría (lactantes)",
         "farmacos": [
-          { "nombre": "Nirsevimab", "ref": "PED-INF-nirsevimab", "dosis": "50 mg (<5 kg) o 100 mg (≥5 kg); 200 mg en la 2.ª temporada de riesgo", "via": "IM", "intervalo": "Dosis única al inicio de la temporada (o al nacer en ella)", "duracion": "Protege ≥5 meses" }
+          {
+            "nombre": "Nirsevimab",
+            "ref": "PED-INF-nirsevimab",
+            "dosis": "50 mg (<5 kg) o 100 mg (≥5 kg); 200 mg en la 2.ª temporada de riesgo",
+            "via": "IM",
+            "intervalo": "Dosis única al inicio de la temporada (o al nacer en ella)",
+            "duracion": "Protege ≥5 meses"
+          }
         ]
       },
       {
         "titulo": "Tratamiento (casos seleccionados)",
         "poblacion": "Pediatría (lactantes)",
         "farmacos": [
-          { "nombre": "Salbutamol (prueba terapéutica)", "ref": "PED-NML-salbutamol", "dosis": "2-4 pulsaciones de 100 µg con cámara", "via": "inhalada", "intervalo": "Prueba única; mantener solo si respuesta clara", "duracion": "Según respuesta", "nota": "Mayores de 6-12 meses con antecedentes atópicos" },
-          { "nombre": "Suero salino hipertónico al 3%", "sin_ficha": true, "dosis": "4 mL", "via": "nebulizada", "intervalo": "Cada 6-8 h", "duracion": "Durante el ingreso", "nota": "Solo en hospitalizados; evidencia limitada" }
+          {
+            "nombre": "Salbutamol (prueba terapéutica)",
+            "ref": "PED-NML-salbutamol",
+            "dosis": "2-4 pulsaciones de 100 µg con cámara",
+            "via": "inhalada",
+            "intervalo": "Prueba única; mantener solo si respuesta clara",
+            "duracion": "Según respuesta",
+            "nota": "Mayores de 6-12 meses con antecedentes atópicos"
+          },
+          {
+            "nombre": "Suero salino hipertónico al 3%",
+            "sin_ficha": true,
+            "dosis": "4 mL",
+            "via": "nebulizada",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Durante el ingreso",
+            "nota": "Solo en hospitalizados; evidencia limitada"
+          }
         ]
       }
     ],
@@ -209,7 +455,10 @@
   {
     "id": "PAT-laringitis-crup",
     "nombre": "Laringitis aguda (crup)",
-    "sinonimos": ["Crup", "Laringotraqueítis"],
+    "sinonimos": [
+      "Crup",
+      "Laringotraqueítis"
+    ],
     "area": "NML",
     "resumen": "Tos perruna, estridor inspiratorio y disfonía en niños de 6 meses a 3 años, de predominio nocturno. **Dexametasona oral en dosis única para TODOS los grados**; adrenalina nebulizada si estridor en reposo (moderado-grave), con observación 3-4 h tras ella.",
     "objetivo": "Ausencia de estridor en reposo antes del alta.",
@@ -218,9 +467,33 @@
         "titulo": "Tratamiento",
         "poblacion": "Pediatría",
         "farmacos": [
-          { "nombre": "Dexametasona", "ref": "PED-NML-dexametasona", "dosis": "0,15-0,6 mg/kg (máx. 10-16 mg)", "via": "VO", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Igual de eficaz VO que IM" },
-          { "nombre": "Budesonida nebulizada", "ref": "PED-NML-budesonida-inhalada", "dosis": "2 mg", "via": "nebulizada", "intervalo": "Dosis única", "duracion": "Dosis única", "nota": "Si vomita o no tolera VO" },
-          { "nombre": "Adrenalina nebulizada", "ref": "PED-URG-adrenalina", "dosis": "0,5 mL/kg de la solución 1:1.000 (máx. 5 mL)", "via": "nebulizada", "intervalo": "Repetible cada 15-20 min si es necesario", "duracion": "Fase aguda", "nota": "Estridor en reposo; observar 3-4 h (efecto rebote)" }
+          {
+            "nombre": "Dexametasona",
+            "ref": "PED-NML-dexametasona",
+            "dosis": "0,15-0,6 mg/kg (máx. 10-16 mg)",
+            "via": "VO",
+            "intervalo": "Dosis única",
+            "duracion": "Dosis única",
+            "nota": "Igual de eficaz VO que IM"
+          },
+          {
+            "nombre": "Budesonida nebulizada",
+            "ref": "PED-NML-budesonida-inhalada",
+            "dosis": "2 mg",
+            "via": "nebulizada",
+            "intervalo": "Dosis única",
+            "duracion": "Dosis única",
+            "nota": "Si vomita o no tolera VO"
+          },
+          {
+            "nombre": "Adrenalina nebulizada",
+            "ref": "PED-URG-adrenalina",
+            "dosis": "0,5 mL/kg de la solución 1:1.000 (máx. 5 mL)",
+            "via": "nebulizada",
+            "intervalo": "Repetible cada 15-20 min si es necesario",
+            "duracion": "Fase aguda",
+            "nota": "Estridor en reposo; observar 3-4 h (efecto rebote)"
+          }
         ]
       }
     ],
