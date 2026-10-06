@@ -12,6 +12,10 @@
 
 El cotejo automático es solo un indicio. Lo que valida cada pauta es la revisión clínica.
 
+## Ampliación del 2026-10-06
+
+Las **295 pautas** de las 58 patologías nuevas se cotejaron con el mismo método: 248 aparecen literalmente en Harrison o Katzung y 47 se contrastaron con las guías internacionales citadas en cada patología. Todas se revisaron línea a línea y **no se encontraron discrepancias**.
+
 ## Correcciones
 
 | Patología | Pauta | Antes | Después | Motivo |

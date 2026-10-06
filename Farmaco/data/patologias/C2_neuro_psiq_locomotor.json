@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "PAT-cefalea-racimos",
+    "nombre": "Cefalea en racimos",
+    "sinonimos": [
+      "Cefalea de Horton",
+      "Cluster headache"
+    ],
+    "area": "NEU",
+    "resumen": "Dolor **unilateral orbitario muy intenso** de 15-180 min, con **lagrimeo, rinorrea, ptosis o miosis** del mismo lado e **inquietud** (el paciente no puede estarse quieto), en **racimos** de semanas, a menudo a la misma hora. Crisis: **oxígeno al 100%** y **sumatriptán SC**. Al empezar el racimo: **tratamiento de transición** con corticoide y **preventivo con verapamilo** (ECG por bloqueo AV). Neuroimagen en el primer episodio.",
+    "objetivo": "Abortar las crisis en minutos y acortar el racimo.",
+    "escenarios": [
+      {
+        "titulo": "Crisis aguda",
+        "farmacos": [
+          {
+            "nombre": "Oxígeno al 100%",
+            "ref": "NML-oxigenoterapia",
+            "dosis": "12-15 L/min con mascarilla sin reinhalación",
+            "via": "inhalada",
+            "intervalo": "15-20 min por crisis",
+            "duracion": "Por crisis",
+            "nota": "Sin efectos adversos; también en domicilio"
+          },
+          {
+            "nombre": "Sumatriptán",
+            "ref": "NEU-sumatriptan",
+            "dosis": "6 mg",
+            "via": "SC",
+            "intervalo": "Por crisis (máximo 2 al día)",
+            "duracion": "Por crisis",
+            "nota": "La vía oral es demasiado lenta"
+          },
+          {
+            "nombre": "Zolmitriptán nasal",
+            "ref": "NEU-zolmitriptan",
+            "dosis": "5-10 mg",
+            "via": "IN",
+            "intervalo": "Por crisis",
+            "duracion": "Por crisis",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Transición y prevención durante el racimo",
+        "farmacos": [
+          {
+            "nombre": "Prednisona (transición)",
+            "ref": "REU-prednisona",
+            "dosis": "60-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5 días y descenso en 2-3 semanas"
+          },
+          {
+            "nombre": "Verapamilo (preventivo)",
+            "ref": "CAR-verapamilo",
+            "dosis": "240 mg al inicio; hasta 480-960 mg/día",
+            "via": "VO",
+            "intervalo": "Repartido cada 8-12 h",
+            "duracion": "Hasta 2 semanas tras acabar el racimo",
+            "nota": "ECG antes de cada subida (bloqueo AV)"
+          },
+          {
+            "nombre": "Litio (refractaria o crónica)",
+            "ref": "PSQ-litio",
+            "dosis": "600-900 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Según evolución",
+            "nota": "Alternativa. Litemia 0,4-0,8"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar alcohol y siestas durante el racimo",
+      "RM craneal en el primer episodio o si hay atipias",
+      "Bloqueo del nervio occipital mayor como transición"
+    ],
+    "claves": [
+      "**Migraña: el paciente se queda quieto a oscuras; racimos: se mueve, camina, se golpea.**",
+      "Los triptanes orales y los analgésicos simples no sirven en las crisis."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cefalea; Katzung 15.ª ed., cap. 16",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 6 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-paralisis-bell",
+    "nombre": "Parálisis facial periférica idiopática (parálisis de Bell)",
+    "sinonimos": [
+      "Parálisis de Bell",
+      "Parálisis facial"
+    ],
+    "area": "NEU",
+    "resumen": "Debilidad de **toda la hemicara** (incluida la frente: si la frente se mueve, es **central** → ictus) de instauración en horas. **Corticoide en las primeras 72 h** mejora la recuperación; el antivírico añadido solo tiene un beneficio marginal (en casos graves). **Proteger el ojo** (lágrimas, pomada y oclusión nocturna). Descartar Ramsay Hunt (vesículas en el oído), Lyme, otitis y tumores. Recuperación completa en el 70-85%.",
+    "objetivo": "Mejorar la recuperación del nervio y evitar la queratitis por exposición.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento (primeras 72 h)",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "60 mg (o 50 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5 días y descenso en 5 días (o 50 mg durante 10 días)"
+          },
+          {
+            "nombre": "Valaciclovir (parálisis completa, o Ramsay Hunt)",
+            "ref": "INF-valaciclovir",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "7 días",
+            "nota": "Siempre junto al corticoide, nunca solo"
+          }
+        ]
+      },
+      {
+        "titulo": "Protección ocular",
+        "farmacos": [
+          {
+            "nombre": "Lágrimas artificiales (hialuronato)",
+            "ref": "OFT-hialuronato-sodico",
+            "dosis": "1 gota",
+            "via": "oftálmica",
+            "intervalo": "Cada 1-2 h durante el día",
+            "duracion": "Hasta recuperar el cierre palpebral"
+          },
+          {
+            "nombre": "Gel o pomada lubricante nocturna",
+            "ref": "OFT-carmelosa",
+            "dosis": "1 cm de gel",
+            "via": "oftálmica",
+            "intervalo": "Al acostarse, con oclusión del párpado",
+            "duracion": "Hasta recuperar el cierre palpebral"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Oclusión nocturna del ojo con esparadrapo o cámara húmeda; gafas de sol",
+      "Derivar si no hay mejoría a las 3 semanas, recurrencia o afectación de otros pares",
+      "Fisioterapia facial"
+    ],
+    "claves": [
+      "**Frente respetada = lesión central.**",
+      "Vesículas en el conducto auditivo con parálisis facial: Ramsay Hunt (peor pronóstico, antivírico)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de los nervios craneales",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-piernas-inquietas",
+    "nombre": "Síndrome de piernas inquietas",
+    "sinonimos": [
+      "Enfermedad de Willis-Ekbom"
+    ],
+    "area": "NEU",
+    "resumen": "Necesidad imperiosa de mover las piernas con sensaciones desagradables, **en reposo y por la tarde-noche**, que **mejora al moverse**. Medir **ferritina** (tratar con hierro si <75 µg/L) y revisar fármacos que lo empeoran (antihistamínicos, antidepresivos, antipsicóticos, metoclopramida). Hoy los **ligandos alfa-2-delta** son de primera línea porque los **agonistas dopaminérgicos** producen **aumentación** (empeoramiento a largo plazo).",
+    "objetivo": "Mejorar el sueño y los síntomas evitando la aumentación.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Sulfato ferroso (ferritina <75 µg/L)",
+            "ref": "HEM-sulfato-ferroso",
+            "dosis": "65 mg de hierro elemental (325 mg de sulfato)",
+            "via": "VO",
+            "intervalo": "Cada 24 h o días alternos, con vitamina C",
+            "duracion": "3 meses y control de ferritina"
+          },
+          {
+            "nombre": "Pregabalina",
+            "ref": "NEU-pregabalina",
+            "dosis": "75-300 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h, 1-3 h antes de acostarse",
+            "duracion": "Crónica, reevaluando"
+          },
+          {
+            "nombre": "Gabapentina",
+            "ref": "NEU-gabapentina",
+            "dosis": "300-1200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la tarde",
+            "duracion": "Crónica, reevaluando",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Pramipexol (síntomas intermitentes o sin respuesta)",
+            "ref": "NEU-pramipexol",
+            "dosis": "0,125-0,25 mg (máximo 0,5 mg)",
+            "via": "VO",
+            "intervalo": "2-3 h antes de acostarse",
+            "duracion": "Vigilar aumentación",
+            "nota": "Alternativa. Dosis bajas; control de impulsos"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Higiene del sueño, ejercicio moderado, evitar cafeína, alcohol y tabaco por la tarde",
+      "Masajes, baños calientes, actividad mental en los momentos de reposo"
+    ],
+    "claves": [
+      "**Aumentación: síntomas más tempranos e intensos con un agonista dopaminérgico → cambiar a alfa-2-delta.**",
+      "Hierro IV si la ferritina es baja y el hierro oral no se tolera o no sube."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del sueño; Katzung 15.ª ed., cap. 28",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-temblor-esencial",
+    "nombre": "Temblor esencial",
+    "sinonimos": [
+      "Temblor familiar",
+      "Temblor postural"
+    ],
+    "area": "NEU",
+    "resumen": "Temblor **postural y de acción**, bilateral, de manos (también cabeza y voz), a menudo **familiar**, que **mejora con el alcohol**. Diferenciar del Parkinson (temblor de reposo, unilateral, bradicinesia) y descartar causas secundarias (hipertiroidismo, cafeína, salbutamol, litio, valproato). Tratar solo si limita la vida diaria: **propranolol** o **primidona**.",
+    "objetivo": "Mejorar la función (escribir, comer, beber).",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Propranolol",
+            "ref": "CAR-propranolol",
+            "dosis": "40-80 mg/día al inicio; hasta 240-320 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h (o retard cada 24 h)",
+            "duracion": "Crónica",
+            "nota": "No en asma ni bradicardia"
+          },
+          {
+            "nombre": "Primidona",
+            "ref": "NEU-primidona",
+            "dosis": "25 mg al inicio; 50-250 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la noche",
+            "duracion": "Crónica",
+            "nota": "Reacción aguda a la primera dosis"
+          },
+          {
+            "nombre": "Topiramato (segunda línea)",
+            "ref": "NEU-topiramato",
+            "dosis": "25 mg → 100-200 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa. Parestesias, pérdida de peso, alteración cognitiva"
+          },
+          {
+            "nombre": "Propranolol a demanda (situaciones puntuales)",
+            "ref": "CAR-propranolol",
+            "dosis": "10-40 mg",
+            "via": "VO",
+            "intervalo": "1 h antes de la situación",
+            "duracion": "A demanda"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reducir cafeína; utensilios con peso, pulseras lastradas",
+      "Estimulación cerebral profunda o ultrasonido focal en casos incapacitantes refractarios"
+    ],
+    "claves": [
+      "**Temblor que mejora con el alcohol: esencial (pero no tratarlo con alcohol).**",
+      "Medir TSH y revisar fármacos antes de diagnosticarlo."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del movimiento; Katzung 15.ª ed., cap. 28",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-encefalitis-herpetica",
+    "nombre": "Encefalitis vírica (herpética)",
+    "sinonimos": [
+      "Encefalitis por VHS",
+      "Encefalitis aguda"
+    ],
+    "area": "INF",
+    "resumen": "Fiebre con **alteración del comportamiento, confusión, crisis o focalidad** (afectación temporal). **Aciclovir IV empírico de inmediato** ante la sospecha, sin esperar a la PCR del LCR (la mortalidad sin tratamiento supera el 70%). RM (lesión temporal) y punción lumbar (pleocitosis linfocitaria, PCR de VHS). Cubrir también la meningitis bacteriana si no puede descartarse.",
+    "objetivo": "Iniciar aciclovir en la primera hora de la sospecha.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Aciclovir",
+            "ref": "INF-aciclovir",
+            "dosis": "10 mg/kg (peso ideal)",
+            "via": "IV",
+            "intervalo": "Cada 8 h, en 1 h",
+            "duracion": "14-21 días",
+            "nota": "Hidratación abundante (nefrotoxicidad por cristales); ajustar a FG"
+          },
+          {
+            "nombre": "Levetiracetam (crisis)",
+            "ref": "NEU-levetiracetam",
+            "dosis": "Carga 60 mg/kg (máximo 4500 mg); después 500-1500 mg",
+            "via": "IV",
+            "intervalo": "Carga; después cada 12 h",
+            "duracion": "Según evolución"
+          },
+          {
+            "nombre": "Ceftriaxona + vancomicina + ampicilina (hasta descartar meningitis bacteriana)",
+            "ref": "INF-ceftriaxona",
+            "dosis": "Ceftriaxona 2 g",
+            "via": "IV",
+            "intervalo": "Cada 12 h",
+            "duracion": "Hasta resultado del LCR",
+            "nota": "Pauta completa en la patología de meningitis"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Punción lumbar (tras TC si hay focalidad, papiledema o coma) y RM",
+      "Repetir la PCR del LCR si la primera es negativa y la sospecha persiste",
+      "Descartar encefalitis autoinmune (anti-NMDA), sobre todo tras una encefalitis herpética"
+    ],
+    "claves": [
+      "**Fiebre + confusión o conducta extraña: aciclovir antes que cualquier prueba.**",
+      "Una PCR negativa en las primeras 72 h no descarta el VHS."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de meningitis y encefalitis víricas; Katzung 15.ª ed., cap. 49",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-tdah",
+    "nombre": "Trastorno por déficit de atención e hiperactividad (TDAH)",
+    "sinonimos": [
+      "TDAH",
+      "Hiperactividad",
+      "Déficit de atención"
+    ],
+    "area": "PSQ",
+    "resumen": "Inatención, hiperactividad e impulsividad persistentes, presentes **antes de los 12 años** y en **≥2 ámbitos** (casa, colegio, trabajo), con deterioro funcional. En el niño de 6 años en adelante y en el adulto, **estimulantes de primera línea** (metilfenidato; lisdexanfetamina como alternativa), junto a intervención conductual y psicoeducativa. **No estimulantes** (atomoxetina, guanfacina) si hay consumo de sustancias, tics, ansiedad o intolerancia. Antes de empezar: **PA, FC, peso, talla** y antecedentes cardiacos.",
+    "objetivo": "Mejorar el funcionamiento escolar, laboral y social.",
+    "escenarios": [
+      {
+        "titulo": "Niño (≥6 años) y adolescente",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Metilfenidato",
+            "ref": "PED-PSQ-metilfenidato",
+            "dosis": "0,5-1 mg/kg/día (liberación prolongada 18-54 mg; máximo 60 mg/día)",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana (inmediata: 2-3 tomas)",
+            "duracion": "Crónica, reevaluando cada año (vacaciones terapéuticas opcionales)"
+          },
+          {
+            "nombre": "Lisdexanfetamina",
+            "ref": "PSQ-lisdexanfetamina",
+            "dosis": "20-30 mg → 70 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Crónica",
+            "otra_poblacion": true,
+            "nota": "Alternativa si fracasa el metilfenidato"
+          },
+          {
+            "nombre": "Atomoxetina",
+            "ref": "PSQ-atomoxetina",
+            "dosis": "0,5 mg/kg/día → 1,2 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "otra_poblacion": true,
+            "nota": "Alternativa no estimulante; efecto en 4-6 semanas"
+          }
+        ]
+      },
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Metilfenidato de liberación prolongada",
+            "ref": "PSQ-metilfenidato",
+            "dosis": "18-36 mg → hasta 72-108 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Crónica"
+          },
+          {
+            "nombre": "Lisdexanfetamina",
+            "ref": "PSQ-lisdexanfetamina",
+            "dosis": "30 mg → 50-70 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Atomoxetina (consumo de sustancias)",
+            "ref": "PSQ-atomoxetina",
+            "dosis": "40 mg → 80-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Psicoeducación de la familia y entrenamiento parental (de primera línea en <6 años)",
+      "Adaptaciones escolares; terapia cognitivo-conductual en el adulto",
+      "Cribar comorbilidad: ansiedad, depresión, trastornos del aprendizaje, consumo de sustancias"
+    ],
+    "claves": [
+      "**Medir peso, talla y PA en cada revisión del niño con estimulantes.**",
+      "Síntomas que empiezan en la edad adulta sin historia infantil: buscar otra causa."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 9; guías NICE y AAP de TDAH",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 6 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-dependencia-opioides",
+    "nombre": "Dependencia de opioides y síndrome de abstinencia",
+    "sinonimos": [
+      "Trastorno por consumo de opioides",
+      "Heroína",
+      "Abstinencia de opioides"
+    ],
+    "area": "PSQ",
+    "resumen": "El tratamiento más eficaz es el **mantenimiento con agonistas** (**buprenorfina** o **metadona**): reduce la mortalidad por sobredosis a la mitad, el consumo, las infecciones y la delincuencia. La desintoxicación aislada tiene altas tasas de recaída y **riesgo de sobredosis al perder la tolerancia**. Entregar **naloxona** al paciente y su entorno. La naltrexona solo en pacientes muy motivados tras la desintoxicación completa.",
+    "objetivo": "Retención en el tratamiento y prevención de la sobredosis.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento de mantenimiento",
+        "farmacos": [
+          {
+            "nombre": "Buprenorfina (± naloxona)",
+            "ref": "REU-buprenorfina",
+            "dosis": "2-4 mg al inicio; mantenimiento 8-24 mg",
+            "via": "SL",
+            "intervalo": "Cada 24 h",
+            "duracion": "Prolongada (años)",
+            "nota": "Iniciar con abstinencia moderada (COWS ≥12) para evitar la abstinencia precipitada"
+          },
+          {
+            "nombre": "Metadona",
+            "ref": "REU-metadona",
+            "dosis": "20-30 mg al inicio; mantenimiento 60-120 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Prolongada",
+            "nota": "Subir despacio (acumulación); ECG por QT"
+          },
+          {
+            "nombre": "Naltrexona (tras desintoxicación completa, ≥7-10 días sin opioides)",
+            "ref": "PSQ-naltrexona",
+            "dosis": "50 mg (o depósito de 380 mg mensual)",
+            "via": "VO o IM",
+            "intervalo": "Cada 24 h (o mensual)",
+            "duracion": "Meses",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Síndrome de abstinencia (alivio sintomático)",
+        "farmacos": [
+          {
+            "nombre": "Clonidina",
+            "ref": "CAR-clonidina",
+            "dosis": "0,1-0,2 mg",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "5-7 días con descenso",
+            "nota": "Vigilar hipotensión"
+          },
+          {
+            "nombre": "Loperamida (diarrea)",
+            "ref": "DIG-loperamida",
+            "dosis": "4 mg; después 2 mg",
+            "via": "VO",
+            "intervalo": "Tras cada deposición (máximo 16 mg/día)",
+            "duracion": "Pocos días"
+          },
+          {
+            "nombre": "Ibuprofeno (mialgias)",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Pocos días"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención de la muerte por sobredosis",
+        "farmacos": [
+          {
+            "nombre": "Naloxona para llevar a casa",
+            "ref": "URG-naloxona",
+            "dosis": "4 mg intranasal (o 0,4 mg IM)",
+            "via": "IN o IM",
+            "intervalo": "Repetir cada 2-3 min si no responde",
+            "duracion": "A demanda"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Programas de reducción de daños: material estéril, salas de consumo supervisado",
+      "Cribado de VIH, VHC, VHB y tuberculosis; vacunación frente a VHB",
+      "Apoyo psicosocial; no condicionar el tratamiento a la abstinencia de otras sustancias"
+    ],
+    "claves": [
+      "**Tras una desintoxicación o la salida de prisión, el riesgo de sobredosis mortal es máximo.**",
+      "Buprenorfina en un paciente con opioides recientes: abstinencia precipitada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos por consumo de opioides; Katzung 15.ª ed., caps. 31 y 32",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 7,
+      "resultado": "Revisadas las 7 pautas (7 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-trastornos-conducta-alimentaria",
+    "nombre": "Trastornos de la conducta alimentaria (anorexia, bulimia, atracón)",
+    "sinonimos": [
+      "Anorexia nerviosa",
+      "Bulimia nerviosa",
+      "Trastorno por atracón",
+      "TCA"
+    ],
+    "area": "PSQ",
+    "resumen": "El tratamiento central es **psicológico** (terapia cognitivo-conductual, terapia familiar en adolescentes) y **nutricional**. Los fármacos tienen papel limitado: **bulimia → fluoxetina 60 mg**; **trastorno por atracón → lisdexanfetamina** o ISRS; **anorexia → ningún fármaco recupera el peso** (olanzapina a dosis bajas para la rigidez y la ansiedad). Vigilar complicaciones médicas: bradicardia, hipopotasemia, **síndrome de realimentación** (fosfato).",
+    "objetivo": "Normalizar la conducta alimentaria y el peso, y prevenir complicaciones médicas.",
+    "escenarios": [
+      {
+        "titulo": "Bulimia nerviosa",
+        "farmacos": [
+          {
+            "nombre": "Fluoxetina",
+            "ref": "PSQ-fluoxetina",
+            "dosis": "60 mg (empezar con 20 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "≥12 meses"
+          }
+        ]
+      },
+      {
+        "titulo": "Trastorno por atracón",
+        "farmacos": [
+          {
+            "nombre": "Lisdexanfetamina",
+            "ref": "PSQ-lisdexanfetamina",
+            "dosis": "30 mg → 50-70 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Según respuesta"
+          },
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50-200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según respuesta",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Anorexia nerviosa",
+        "farmacos": [
+          {
+            "nombre": "Olanzapina (ansiedad, rigidez cognitiva)",
+            "ref": "PSQ-olanzapina",
+            "dosis": "2,5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la noche",
+            "duracion": "Meses",
+            "nota": "Coadyuvante; no sustituye a la renutrición"
+          },
+          {
+            "nombre": "Tiamina y fosfato en la renutrición",
+            "ref": "HEM-tiamina",
+            "dosis": "100 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Primeros 10 días",
+            "nota": "Más fosfato, potasio y magnesio según analítica (síndrome de realimentación)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Terapia cognitivo-conductual; terapia familiar en adolescentes con anorexia",
+      "Ingreso si FC <40-50, PA <80/50, K <3, IMC muy bajo, ideación suicida o fracaso ambulatorio",
+      "Renutrición progresiva con control de fosfato los primeros días"
+    ],
+    "claves": [
+      "**Bupropión contraindicado en bulimia y anorexia (convulsiones).**",
+      "Hipopotasemia inexplicada en una mujer joven: pensar en vómitos o laxantes."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de la conducta alimentaria; Katzung 15.ª ed., cap. 30",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-toc-tept",
+    "nombre": "Trastorno obsesivo-compulsivo y trastorno de estrés postraumático",
+    "sinonimos": [
+      "TOC",
+      "TEPT",
+      "Estrés postraumático"
+    ],
+    "area": "PSQ",
+    "resumen": "**TOC**: obsesiones y compulsiones que consumen >1 h/día. **Terapia de exposición con prevención de respuesta** + **ISRS a dosis ALTAS** durante 8-12 semanas antes de considerarlo ineficaz; potenciar con antipsicótico a dosis baja si hay respuesta parcial. **TEPT**: reexperimentación, evitación e hiperactivación >1 mes tras un trauma. **Psicoterapia centrada en el trauma** de primera línea; ISRS o venlafaxina. **No usar benzodiacepinas** en el TEPT (empeoran la evolución).",
+    "objetivo": "Reducir los síntomas y recuperar el funcionamiento.",
+    "escenarios": [
+      {
+        "titulo": "Trastorno obsesivo-compulsivo",
+        "farmacos": [
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50 mg → 200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥12 meses tras la respuesta"
+          },
+          {
+            "nombre": "Fluoxetina",
+            "ref": "PSQ-fluoxetina",
+            "dosis": "20 mg → 60-80 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥12 meses tras la respuesta",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Aripiprazol (potenciación)",
+            "ref": "PSQ-aripiprazol",
+            "dosis": "2,5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según respuesta",
+            "nota": "Respuesta parcial al ISRS (o risperidona 0,5-2 mg)"
+          }
+        ]
+      },
+      {
+        "titulo": "Trastorno de estrés postraumático",
+        "farmacos": [
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50 mg → 200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥12 meses"
+          },
+          {
+            "nombre": "Paroxetina",
+            "ref": "PSQ-paroxetina",
+            "dosis": "20-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥12 meses",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Venlafaxina retard",
+            "ref": "PSQ-venlafaxina",
+            "dosis": "75-225 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥12 meses",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "TOC: terapia de exposición con prevención de respuesta",
+      "TEPT: terapia cognitivo-conductual centrada en el trauma o EMDR",
+      "Valorar riesgo suicida y consumo de alcohol"
+    ],
+    "claves": [
+      "**En el TOC se necesitan dosis más altas y más tiempo que en la depresión.**",
+      "Las benzodiacepinas no previenen el TEPT tras un trauma y pueden empeorarlo."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de ansiedad; Katzung 15.ª ed., cap. 30",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hombro-doloroso-tendinopatias",
+    "nombre": "Hombro doloroso, tendinopatías y bursitis",
+    "sinonimos": [
+      "Tendinitis del manguito rotador",
+      "Epicondilitis",
+      "Bursitis",
+      "Tendinopatía",
+      "Capsulitis adhesiva"
+    ],
+    "area": "REU",
+    "resumen": "Cuadros muy frecuentes en consulta: **tendinopatía del manguito rotador**, epicondilitis, tendinitis de De Quervain, bursitis trocantérea o subacromial, capsulitis adhesiva. Base: **reposo relativo, hielo, ejercicio terapéutico excéntrico y fisioterapia**. **AINE** oral o tópico durante periodos cortos. **Infiltración de corticoide** si persiste (alivio de semanas, no cura). Descartar rotura completa (debilidad marcada) y artritis.",
+    "objetivo": "Aliviar el dolor y recuperar la movilidad sin dañar el tendón.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Diclofenaco tópico",
+            "ref": "REU-diclofenaco-topico",
+            "dosis": "2-4 g de gel al 1%",
+            "via": "tópica",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "2-4 semanas",
+            "nota": "De elección en epicondilitis y tendones superficiales"
+          },
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h con comida",
+            "duracion": "≤2 semanas"
+          },
+          {
+            "nombre": "Naproxeno",
+            "ref": "REU-naproxeno",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "≤2 semanas",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Metilprednisolona acetato (infiltración subacromial o de bursa)",
+            "ref": "REU-metilprednisolona",
+            "dosis": "40 mg con lidocaína",
+            "via": "intraarticular (periarticular)",
+            "intervalo": "Dosis única; repetir solo si respuesta y ≥6 semanas después",
+            "duracion": "Máximo 3 al año",
+            "nota": "Nunca dentro del tendón de Aquiles ni rotuliano (rotura)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio terapéutico (excéntrico en tendinopatías) y fisioterapia: lo que más mejora a medio plazo",
+      "Ergonomía y modificación de la actividad; cinchas en la epicondilitis",
+      "Ecografía o RM si hay debilidad importante, traumatismo o falta de respuesta en 6-12 semanas"
+    ],
+    "claves": [
+      "**Las quinolonas aumentan el riesgo de rotura tendinosa, sobre todo con corticoides y en mayores.**",
+      "Capsulitis adhesiva: limitación pasiva global, frecuente en diabéticos; mejora en 1-2 años."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos periarticulares; Katzung 15.ª ed., cap. 36",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-espondiloartritis",
+    "nombre": "Espondiloartritis axial y artritis psoriásica",
+    "sinonimos": [
+      "Espondilitis anquilosante",
+      "Espondiloartropatía",
+      "Artritis psoriásica"
+    ],
+    "area": "REU",
+    "resumen": "**Lumbalgia inflamatoria** (<45 años de inicio, rigidez matutina >30 min, mejora con el ejercicio, despertar nocturno) con sacroileítis, HLA-B27, uveítis, entesitis o psoriasis. Primera línea: **AINE a dosis plenas** y **ejercicio**. Si no responden tras 2 AINE: **anti-TNF** o **anti-IL-17**; inhibidores de JAK como alternativa. Los FAME convencionales (metotrexato, sulfasalazina) **no sirven en la afectación axial**, solo en la periférica.",
+    "objetivo": "Controlar el dolor y la inflamación y preservar la movilidad de la columna.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          {
+            "nombre": "Naproxeno",
+            "ref": "REU-naproxeno",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Continuo si hay síntomas; prueba de 2-4 semanas"
+          },
+          {
+            "nombre": "Etoricoxib",
+            "ref": "REU-etoricoxib",
+            "dosis": "90 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo si hay síntomas",
+            "nota": "Alternativa; vigilar PA"
+          }
+        ]
+      },
+      {
+        "titulo": "Refractaria a 2 AINE",
+        "farmacos": [
+          {
+            "nombre": "Adalimumab (u otro anti-TNF)",
+            "ref": "INM-anti-tnf",
+            "dosis": "40 mg",
+            "via": "SC",
+            "intervalo": "Cada 2 semanas",
+            "duracion": "Indefinida si responde",
+            "nota": "De elección si hay uveítis o EII"
+          },
+          {
+            "nombre": "Secukinumab",
+            "ref": "INM-secukinumab",
+            "dosis": "150 mg (300 mg si hay psoriasis)",
+            "via": "SC",
+            "intervalo": "Semanal 4 semanas; después cada 4 semanas",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa. No en EII"
+          },
+          {
+            "nombre": "Upadacitinib",
+            "ref": "REU-upadacitinib",
+            "dosis": "15 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida si responde",
+            "nota": "Alternativa; advertencias de clase de los JAK"
+          }
+        ]
+      },
+      {
+        "titulo": "Artritis periférica (psoriásica)",
+        "farmacos": [
+          {
+            "nombre": "Metotrexato",
+            "ref": "REU-metotrexato",
+            "dosis": "15 mg → 20-25 mg/semana",
+            "via": "VO o SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Indefinida",
+            "nota": "Con ácido fólico"
+          },
+          {
+            "nombre": "Sulfasalazina",
+            "ref": "REU-sulfasalazina",
+            "dosis": "500 mg → 1 g",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Indefinida",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ejercicio diario de movilidad y fisioterapia; abandono del tabaco",
+      "Revisión oftalmológica urgente si ojo rojo doloroso (uveítis anterior)"
+    ],
+    "claves": [
+      "**Lumbalgia en joven que mejora con el ejercicio y empeora con el reposo: inflamatoria.**",
+      "Los corticoides sistémicos no tienen papel en la afectación axial."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de espondiloartritis; Katzung 15.ª ed., caps. 36 y 55",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 7 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-lupus",
+    "nombre": "Lupus eritematoso sistémico",
+    "sinonimos": [
+      "LES",
+      "Lupus"
+    ],
+    "area": "REU",
+    "resumen": "Enfermedad autoinmune multisistémica (artritis, exantema, serositis, citopenias, **nefritis**, afectación neurológica) con **ANA positivos** y anti-DNA. **Hidroxicloroquina para TODOS los pacientes** (reduce brotes, daño y mortalidad). **Corticoides** a la mínima dosis y el menor tiempo posible (objetivo ≤5 mg/día). Inmunosupresores según el órgano: micofenolato en la nefritis, azatioprina, metotrexato; biológicos (belimumab, anifrolumab) en refractarios. **Fotoprotección**.",
+    "objetivo": "Remisión o baja actividad con la menor dosis de corticoide.",
+    "escenarios": [
+      {
+        "titulo": "Base para todos",
+        "farmacos": [
+          {
+            "nombre": "Hidroxicloroquina",
+            "ref": "INF-cloroquina-hidroxicloroquina",
+            "dosis": "200-400 mg (≤5 mg/kg/día de peso real)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida (también en el embarazo)",
+            "nota": "Fondo de ojo basal y anual desde los 5 años"
+          }
+        ]
+      },
+      {
+        "titulo": "Brotes leves-moderados (cutáneo, articular, serositis)",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "5-20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Semanas con descenso hasta ≤5 mg"
+          },
+          {
+            "nombre": "Metotrexato (artritis o piel)",
+            "ref": "REU-metotrexato",
+            "dosis": "10-20 mg/semana",
+            "via": "VO o SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Prolongada",
+            "nota": "Ahorrador de corticoides"
+          },
+          {
+            "nombre": "Azatioprina",
+            "ref": "INM-azatioprina",
+            "dosis": "1-2,5 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Prolongada",
+            "nota": "Alternativa; compatible con el embarazo"
+          }
+        ]
+      },
+      {
+        "titulo": "Nefritis lúpica u órgano mayor",
+        "farmacos": [
+          {
+            "nombre": "Metilprednisolona (pulsos)",
+            "ref": "REU-metilprednisolona",
+            "dosis": "250-1000 mg",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "3 días; después prednisona 0,5 mg/kg con descenso rápido"
+          },
+          {
+            "nombre": "Micofenolato",
+            "ref": "INM-micofenolato",
+            "dosis": "2-3 g/día (inducción); 1-2 g/día (mantenimiento)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Inducción 6 meses; mantenimiento ≥3 años",
+            "nota": "Teratógeno"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fotoprotección estricta, abandono del tabaco, vacunación",
+      "Control de proteinuria, sedimento, PA, función renal, complemento y anti-DNA",
+      "Planificar el embarazo en remisión; anticuerpos antifosfolípido y anti-Ro"
+    ],
+    "claves": [
+      "**Nunca retirar la hidroxicloroquina en el embarazo (aumenta los brotes).**",
+      "Fiebre en un lupus con inmunosupresión: infección hasta demostrar lo contrario."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de lupus eritematoso sistémico; Katzung 15.ª ed., cap. 55",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-tunel-carpiano",
+    "nombre": "Síndrome del túnel carpiano",
+    "sinonimos": [
+      "Túnel carpiano",
+      "Neuropatía del mediano"
+    ],
+    "area": "REU",
+    "resumen": "Parestesias en los **3 primeros dedos**, de predominio **nocturno**, que mejoran al sacudir la mano; Tinel y Phalen positivos; atrofia tenar en casos avanzados. Asociado a embarazo, hipotiroidismo, diabetes, artritis reumatoide y trabajo manual. Leve-moderado: **férula nocturna** en posición neutra e **infiltración** o corticoide oral breve. **Cirugía** si hay déficit motor, atrofia o fracaso del tratamiento conservador.",
+    "objetivo": "Aliviar los síntomas y evitar el daño axonal permanente.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento conservador",
+        "farmacos": [
+          {
+            "nombre": "Metilprednisolona acetato (infiltración del túnel)",
+            "ref": "REU-metilprednisolona",
+            "dosis": "40 mg",
+            "via": "SC (infiltración local)",
+            "intervalo": "Dosis única; repetir una vez si recae",
+            "duracion": "Alivio de semanas-meses"
+          },
+          {
+            "nombre": "Prednisona (alternativa a la infiltración)",
+            "ref": "REU-prednisona",
+            "dosis": "20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "10 días (o 20 mg 1 semana y 10 mg 1 semana)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Férula de muñeca nocturna en posición neutra 6-12 semanas",
+      "Electromiograma si hay dudas o antes de la cirugía",
+      "Liberación quirúrgica si hay atrofia, debilidad o síntomas persistentes"
+    ],
+    "claves": [
+      "**Los AINE y los diuréticos no son eficaces en el túnel carpiano.**",
+      "Bilateral: descartar hipotiroidismo, diabetes, acromegalia y amiloidosis."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de neuropatías periféricas",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 2,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 2 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-esguince-contusion",
+    "nombre": "Esguinces, contusiones y dolor musculoesquelético agudo",
+    "sinonimos": [
+      "Esguince de tobillo",
+      "Torcedura",
+      "Contusión",
+      "Distensión muscular"
+    ],
+    "area": "REU",
+    "resumen": "Aplicar las **reglas de Ottawa** para decidir la radiografía (tobillo y rodilla). Tratamiento: **protección, reposo relativo, hielo 15-20 min, compresión y elevación** las primeras 48-72 h, y **movilización precoz** con carga progresiva. Analgesia con **AINE tópico** (eficaz y seguro) u oral breve, o paracetamol. Fisioterapia propioceptiva para evitar las recidivas.",
+    "objetivo": "Controlar el dolor y recuperar la función rápido sin recidivas.",
+    "escenarios": [
+      {
+        "titulo": "Analgesia",
+        "farmacos": [
+          {
+            "nombre": "Diclofenaco tópico",
+            "ref": "REU-diclofenaco-topico",
+            "dosis": "2-4 g de gel al 1%",
+            "via": "tópica",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "≤7-14 días"
+          },
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "3-7 días"
+          },
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "3-7 días",
+            "nota": "Alternativa si los AINE están contraindicados"
+          },
+          {
+            "nombre": "Tramadol (dolor intenso)",
+            "ref": "REU-tramadol",
+            "dosis": "50 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "≤3-5 días"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hielo envuelto 15-20 min cada 2-3 h; vendaje funcional o tobillera",
+      "Carga progresiva en cuanto el dolor lo permita; ejercicios de propiocepción",
+      "Radiografía según Ottawa (dolor óseo en maléolo posterior, base del 5.º metatarsiano, escafoides o incapacidad para 4 pasos)"
+    ],
+    "claves": [
+      "**La inmovilización prolongada empeora la recuperación del esguince de tobillo.**",
+      "Dolor desproporcionado y tenso tras un traumatismo: síndrome compartimental."
+    ],
+    "fuente": "Harrison 20.ª ed.; Katzung 15.ª ed., cap. 36",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-cervicalgia",
+    "nombre": "Cervicalgia mecánica y radiculopatía cervical",
+    "sinonimos": [
+      "Dolor cervical",
+      "Tortícolis",
+      "Cervicobraquialgia"
+    ],
+    "area": "REU",
+    "resumen": "La mayoría es **mecánica** y mejora en semanas. Signos de alarma: fiebre, pérdida de peso, cáncer previo, traumatismo, **mielopatía** (torpeza de manos, alteración de la marcha, signos piramidales), déficit motor progresivo. Sin alarma: mantenerse activo, calor, ejercicio y analgesia breve; sin collarín.",
+    "objetivo": "Aliviar el dolor y mantener la movilidad.",
+    "escenarios": [
+      {
+        "titulo": "Cervicalgia mecánica aguda",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "≤1-2 semanas"
+          },
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "≤1-2 semanas",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Ciclobenzaprina (contractura que impide dormir)",
+            "ref": "REU-ciclobenzaprina",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la noche",
+            "duracion": "≤1-2 semanas"
+          }
+        ]
+      },
+      {
+        "titulo": "Radiculopatía cervical",
+        "farmacos": [
+          {
+            "nombre": "Prednisona (dolor radicular intenso)",
+            "ref": "REU-prednisona",
+            "dosis": "40-60 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5-7 días con descenso"
+          },
+          {
+            "nombre": "Pregabalina (dolor neuropático persistente)",
+            "ref": "NEU-pregabalina",
+            "dosis": "75-150 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Prueba de 4-8 semanas"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Mantener la actividad, calor local, ejercicios de movilidad y fortalecimiento",
+      "RM urgente si hay mielopatía o déficit motor progresivo"
+    ],
+    "claves": [
+      "**Torpeza de manos y marcha inestable con cervicalgia: mielopatía cervical.**",
+      "El collarín prolongado retrasa la recuperación."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de dolor de espalda y cuello",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

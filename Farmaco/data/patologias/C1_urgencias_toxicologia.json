@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "PAT-parada-cardiorrespiratoria",
+    "nombre": "Parada cardiorrespiratoria (soporte vital avanzado)",
+    "sinonimos": [
+      "PCR",
+      "RCP",
+      "Reanimación cardiopulmonar",
+      "Fibrilación ventricular",
+      "Asistolia"
+    ],
+    "area": "URG",
+    "resumen": "Lo que más salva es la **RCP de calidad** (100-120 compresiones/min, 5-6 cm, mínimas interrupciones) y la **desfibrilación precoz** en los ritmos desfibrilables (FV y TV sin pulso). Los fármacos son secundarios. **Adrenalina**: lo antes posible en los no desfibrilables; tras el 3.er choque en los desfibrilables; después cada 3-5 min. **Amiodarona** tras el 3.er choque. Buscar y tratar las **causas reversibles (4H y 4T)**: hipoxia, hipovolemia, hipo/hiperpotasemia, hipotermia; neumotórax a tensión, taponamiento, tóxicos, trombosis (coronaria o pulmonar).",
+    "objetivo": "Recuperar la circulación espontánea con la menor lesión neurológica.",
+    "escenarios": [
+      {
+        "titulo": "Ritmos desfibrilables (FV y TV sin pulso)",
+        "farmacos": [
+          {
+            "nombre": "Adrenalina",
+            "ref": "URG-adrenalina",
+            "dosis": "1 mg",
+            "via": "IV o intraósea",
+            "intervalo": "Tras el 3.er choque; después cada 3-5 min (ciclos alternos)",
+            "duracion": "Hasta recuperar la circulación"
+          },
+          {
+            "nombre": "Amiodarona",
+            "ref": "CAR-amiodarona",
+            "dosis": "300 mg; 2.ª dosis de 150 mg",
+            "via": "IV o intraósea",
+            "intervalo": "Tras el 3.er choque; 150 mg tras el 5.º",
+            "duracion": "Después perfusión 900 mg/24 h si recupera"
+          },
+          {
+            "nombre": "Lidocaína",
+            "ref": "ANE-lidocaina",
+            "dosis": "1-1,5 mg/kg; después 0,5-0,75 mg/kg",
+            "via": "IV o intraósea",
+            "intervalo": "Si no hay amiodarona",
+            "duracion": "Máximo 3 mg/kg",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Ritmos no desfibrilables (asistolia, actividad eléctrica sin pulso)",
+        "farmacos": [
+          {
+            "nombre": "Adrenalina",
+            "ref": "URG-adrenalina",
+            "dosis": "1 mg",
+            "via": "IV o intraósea",
+            "intervalo": "Lo antes posible; después cada 3-5 min",
+            "duracion": "Hasta recuperar la circulación"
+          }
+        ]
+      },
+      {
+        "titulo": "Causas específicas",
+        "farmacos": [
+          {
+            "nombre": "Gluconato cálcico (hiperpotasemia, sobredosis de calcioantagonistas)",
+            "ref": "URG-gluconato-calcico",
+            "dosis": "30 mL al 10%",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Repetible"
+          },
+          {
+            "nombre": "Bicarbonato sódico (hiperpotasemia, intoxicación por tricíclicos)",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "50 mEq (50 mL al 8,4%)",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Repetible según gasometría",
+            "nota": "No de rutina"
+          },
+          {
+            "nombre": "Sulfato de magnesio (torsade de pointes)",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "En 1-2 min",
+            "duracion": "Dosis única, repetible"
+          },
+          {
+            "nombre": "Alteplasa (TEP masivo sospechado)",
+            "ref": "HEM-alteplasa",
+            "dosis": "50 mg en bolo",
+            "via": "IV",
+            "intervalo": "Bolo; repetir a los 15 min si no responde",
+            "duracion": "Continuar RCP 60-90 min tras la trombólisis"
+          },
+          {
+            "nombre": "Naloxona (parada por opioides)",
+            "ref": "URG-naloxona",
+            "dosis": "0,4-2 mg",
+            "via": "IV, IM o IN",
+            "intervalo": "Repetible",
+            "duracion": "Sin interrumpir la RCP"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "RCP 30:2 hasta vía aérea avanzada; después compresiones continuas y 10 ventilaciones/min",
+      "Capnografía: EtCO2 >10 mmHg indica RCP eficaz; subida brusca = recuperación de la circulación",
+      "Tras la recuperación: SatO2 94-98%, PAS >100, control de temperatura, coronariografía si IAM con elevación del ST"
+    ],
+    "claves": [
+      "**Cada minuto sin desfibrilar en FV reduce la supervivencia un 7-10%.**",
+      "No hay fármaco que aumente la supervivencia neurológica tanto como la RCP de calidad."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de parada cardiaca y muerte súbita; guías ERC/AHA de soporte vital avanzado",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 9,
+      "cotejadas_en_fuente": 9,
+      "resultado": "Revisadas las 9 pautas (9 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-taquicardia-ventricular",
+    "nombre": "Taquicardia de QRS ancho y taquicardia ventricular",
+    "sinonimos": [
+      "TV",
+      "Taquicardia ventricular",
+      "Torsade de pointes"
+    ],
+    "area": "CAR",
+    "resumen": "**Toda taquicardia de QRS ancho es ventricular hasta demostrar lo contrario**, sobre todo con cardiopatía estructural. **Inestable** (hipotensión, shock, dolor torácico, insuficiencia cardiaca, síncope) → **cardioversión eléctrica sincronizada**. **Estable** → amiodarona (o procainamida) y cardioversión si no cede. **Torsade de pointes** → magnesio, retirar fármacos que alargan el QT y corregir potasio. Evitar el verapamilo en las taquicardias de QRS ancho.",
+    "objetivo": "Terminar la arritmia, tratar la causa (isquemia, iones, fármacos) y prevenir la muerte súbita.",
+    "escenarios": [
+      {
+        "titulo": "TV monomorfa estable",
+        "farmacos": [
+          {
+            "nombre": "Amiodarona",
+            "ref": "CAR-amiodarona",
+            "dosis": "150-300 mg en 10-20 min; después 900 mg/24 h",
+            "via": "IV",
+            "intervalo": "Carga y perfusión",
+            "duracion": "24 h y paso a vía oral si hace falta"
+          },
+          {
+            "nombre": "Lidocaína (TV en isquemia aguda)",
+            "ref": "ANE-lidocaina",
+            "dosis": "1-1,5 mg/kg; perfusión 1-4 mg/min",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Fase aguda",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Torsade de pointes",
+        "farmacos": [
+          {
+            "nombre": "Sulfato de magnesio",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "2 g en 2-10 min; después 3-20 mg/min",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Hasta estabilizar el QT",
+            "nota": "Aunque el magnesio sea normal"
+          },
+          {
+            "nombre": "Isoprenalina (torsade dependiente de bradicardia)",
+            "ref": "CAR-isoprenalina",
+            "dosis": "1-10 µg/min",
+            "via": "IV",
+            "intervalo": "Perfusión titulada a FC >90",
+            "duracion": "Hasta marcapasos",
+            "nota": "Alternativa al marcapasos transitorio"
+          },
+          {
+            "nombre": "Cloruro potásico (objetivo K 4,5-5)",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "10-20 mEq/h",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "Hasta K 4,5-5 mEq/L"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención de recurrencias (además del DAI)",
+        "farmacos": [
+          {
+            "nombre": "Bisoprolol",
+            "ref": "CAR-bisoprolol",
+            "dosis": "2,5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Amiodarona",
+            "ref": "CAR-amiodarona",
+            "dosis": "200 mg (tras carga)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Controlar tiroides, hígado y pulmón"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Cardioversión sincronizada (100-200 J bifásico) si hay inestabilidad",
+      "DAI en prevención secundaria y en miocardiopatía con FEVI ≤35%",
+      "Ablación en la TV recurrente"
+    ],
+    "claves": [
+      "**Verapamilo en una TV mal diagnosticada de TSV puede provocar colapso: nunca en QRS ancho.**",
+      "Revisar fármacos que alargan el QT: macrólidos, quinolonas, antipsicóticos, ondansetrón, metadona."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de taquiarritmias ventriculares; Katzung 15.ª ed., cap. 14",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 7 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-secuencia-rapida-intubacion",
+    "nombre": "Secuencia rápida de intubación y sedación para procedimientos",
+    "sinonimos": [
+      "ISR",
+      "Intubación orotraqueal",
+      "Sedoanalgesia"
+    ],
+    "area": "URG",
+    "resumen": "**Secuencia rápida de intubación**: preoxigenar 3 min, **inductor** (etomidato o ketamina si hay inestabilidad; propofol si es estable) seguido de inmediato del **bloqueante neuromuscular** (rocuronio o succinilcolina), sin ventilar con bolsa salvo hipoxemia. Tener preparada la **reversión** (sugammadex) y la vía aérea difícil. **Sedación para procedimientos** (cardioversión, reducción de fracturas): ketamina o propofol con monitorización y oxígeno.",
+    "objetivo": "Asegurar la vía aérea al primer intento, sin hipoxia ni hipotensión.",
+    "escenarios": [
+      {
+        "titulo": "Inducción",
+        "farmacos": [
+          {
+            "nombre": "Etomidato",
+            "ref": "ANE-etomidato",
+            "dosis": "0,3 mg/kg",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Dosis única",
+            "nota": "Estabilidad hemodinámica; supresión suprarrenal transitoria"
+          },
+          {
+            "nombre": "Ketamina",
+            "ref": "ANE-ketamina",
+            "dosis": "1-2 mg/kg",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Dosis única",
+            "nota": "De elección en shock y broncoespasmo"
+          },
+          {
+            "nombre": "Propofol",
+            "ref": "ANE-propofol",
+            "dosis": "1-2 mg/kg (0,5-1 mg/kg en ancianos)",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Dosis única",
+            "nota": "Hipotensión: evitar en inestables"
+          }
+        ]
+      },
+      {
+        "titulo": "Bloqueo neuromuscular",
+        "farmacos": [
+          {
+            "nombre": "Rocuronio",
+            "ref": "ANE-rocuronio",
+            "dosis": "1-1,2 mg/kg",
+            "via": "IV",
+            "intervalo": "Bolo inmediatamente tras el inductor",
+            "duracion": "Dosis única",
+            "nota": "Reversible con sugammadex"
+          },
+          {
+            "nombre": "Succinilcolina",
+            "ref": "ANE-succinilcolina",
+            "dosis": "1-1,5 mg/kg",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Dosis única",
+            "nota": "NO en hiperpotasemia, quemados o inmovilizados >72 h, enfermedad neuromuscular"
+          },
+          {
+            "nombre": "Sugammadex (no intubable, no ventilable tras rocuronio)",
+            "ref": "ANE-sugammadex",
+            "dosis": "16 mg/kg",
+            "via": "IV",
+            "intervalo": "Bolo",
+            "duracion": "Dosis única"
+          }
+        ]
+      },
+      {
+        "titulo": "Sedación y analgesia tras la intubación o para procedimientos",
+        "farmacos": [
+          {
+            "nombre": "Fentanilo",
+            "ref": "REU-fentanilo",
+            "dosis": "1-2 µg/kg en bolo; perfusión 0,5-2 µg/kg/h",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Según necesidad"
+          },
+          {
+            "nombre": "Midazolam",
+            "ref": "PSQ-midazolam",
+            "dosis": "0,02-0,1 mg/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "Según necesidad"
+          },
+          {
+            "nombre": "Ketamina (sedación para procedimientos)",
+            "ref": "ANE-ketamina",
+            "dosis": "1 mg/kg IV (4 mg/kg IM)",
+            "via": "IV o IM",
+            "intervalo": "Bolo; repetir 0,5 mg/kg",
+            "duracion": "Durante el procedimiento"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Preoxigenación con mascarilla reservorio o alto flujo nasal; posición en olfateo",
+      "Comprobar con capnografía; plan B (dispositivo supraglótico) y plan C (cricotiroidotomía) preparados",
+      "Corregir la hipotensión antes de inducir (fluidos o vasopresor)"
+    ],
+    "claves": [
+      "**La hipotensión postintubación es frecuente: inductor a dosis reducida en el paciente inestable.**",
+      "Succinilcolina: hiperpotasemia letal en quemados, encamados y miopatías."
+    ],
+    "fuente": "Katzung 15.ª ed., caps. 25 y 27; Harrison 20.ª ed., cap. de abordaje del paciente crítico",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 9,
+      "cotejadas_en_fuente": 9,
+      "resultado": "Revisadas las 9 pautas (9 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-co-cianuro",
+    "nombre": "Intoxicación por monóxido de carbono y por cianuro (inhalación de humo)",
+    "sinonimos": [
+      "Monóxido de carbono",
+      "Cianuro",
+      "Inhalación de humo"
+    ],
+    "area": "URG",
+    "resumen": "**CO**: cefalea, náuseas, mareo y confusión en varias personas del mismo lugar (estufa, calentador, incendio). La pulsioximetría es **falsamente normal**: medir **carboxihemoglobina** (cooxímetro). Tratamiento: **oxígeno al 100%** y cámara hiperbárica en casos graves. **Cianuro** (incendios en espacios cerrados con plásticos): coma, convulsiones, shock y **láctico >8 mmol/L** → **hidroxocobalamina**.",
+    "objetivo": "Desplazar el CO de la hemoglobina y neutralizar el cianuro lo antes posible.",
+    "escenarios": [
+      {
+        "titulo": "Monóxido de carbono",
+        "farmacos": [
+          {
+            "nombre": "Oxígeno al 100%",
+            "ref": "NML-oxigenoterapia",
+            "dosis": "15 L/min con mascarilla reservorio",
+            "via": "inhalada",
+            "intervalo": "Continuo",
+            "duracion": "≥6 h o hasta COHb <3% y asintomático",
+            "nota": "Hiperbárica si coma, convulsiones, isquemia, embarazo o COHb >25%"
+          }
+        ]
+      },
+      {
+        "titulo": "Cianuro (inhalación de humo con acidosis láctica o shock)",
+        "farmacos": [
+          {
+            "nombre": "Hidroxocobalamina",
+            "ref": "URG-hidroxocobalamina-emulsion-lipidica",
+            "dosis": "5 g (70 mg/kg en niños)",
+            "via": "IV",
+            "intervalo": "En 15 min; repetir 5 g si persiste la inestabilidad",
+            "duracion": "1-2 dosis",
+            "nota": "Tiñe de rojo piel y orina (interfiere en analíticas colorimétricas)"
+          },
+          {
+            "nombre": "Oxígeno al 100%",
+            "ref": "NML-oxigenoterapia",
+            "dosis": "15 L/min",
+            "via": "inhalada",
+            "intervalo": "Continuo",
+            "duracion": "Hasta estabilizar"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar de la fuente; ventilar el domicilio; detector de CO",
+      "Valorar intubación precoz si hay quemadura de vía aérea",
+      "Seguimiento neurológico (síndrome neurológico tardío a las 2-6 semanas)"
+    ],
+    "claves": [
+      "**SatO2 normal no descarta intoxicación por CO.**",
+      "Incendio en espacio cerrado + acidosis láctica = cianuro hasta demostrar lo contrario."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., cap. 58",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 3 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-organofosforados",
+    "nombre": "Intoxicación por organofosforados y carbamatos",
+    "sinonimos": [
+      "Insecticidas",
+      "Síndrome colinérgico",
+      "Organofosforados"
+    ],
+    "area": "URG",
+    "resumen": "Inhibición de la acetilcolinesterasa → **síndrome colinérgico**: miosis, sialorrea, broncorrea, broncoespasmo, bradicardia, vómitos, diarrea, incontinencia (**muscarínico**), fasciculaciones y debilidad (**nicotínico**), convulsiones. Tratamiento: **descontaminación** (ropa y piel, con protección del personal), **atropina** titulada hasta **secar las secreciones bronquiales** (no hasta la midriasis ni la taquicardia), **pralidoxima** precoz en organofosforados y **benzodiacepinas** si hay convulsiones.",
+    "objetivo": "Secar la vía aérea, revertir la debilidad y evitar el fallo respiratorio.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Atropina",
+            "ref": "URG-atropina",
+            "dosis": "1-2 mg (0,02 mg/kg en niños), duplicando cada 5 min",
+            "via": "IV",
+            "intervalo": "Hasta secar las secreciones bronquiales; después perfusión del 10-20% de la dosis total por hora",
+            "duracion": "Días (según evolución)",
+            "nota": "Pueden necesitarse decenas de mg"
+          },
+          {
+            "nombre": "Pralidoxima",
+            "ref": "URG-pralidoxima",
+            "dosis": "30 mg/kg en 30 min; después 8-10 mg/kg/h",
+            "via": "IV",
+            "intervalo": "Carga y perfusión",
+            "duracion": "Hasta 24 h tras retirar la atropina",
+            "nota": "Útil antes del «envejecimiento» de la enzima"
+          },
+          {
+            "nombre": "Diazepam (convulsiones o agitación)",
+            "ref": "PSQ-diazepam",
+            "dosis": "10 mg",
+            "via": "IV",
+            "intervalo": "Repetible cada 5-10 min",
+            "duracion": "Según necesidad"
+          },
+          {
+            "nombre": "Midazolam (convulsiones sin vía IV)",
+            "ref": "PSQ-midazolam",
+            "dosis": "10 mg",
+            "via": "IM",
+            "intervalo": "Repetible",
+            "duracion": "Según necesidad",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Protección del personal; retirar la ropa y lavar la piel con agua y jabón",
+      "Vigilar el síndrome intermedio (debilidad respiratoria a las 24-96 h)",
+      "Evitar succinilcolina para la intubación (bloqueo prolongado)"
+    ],
+    "claves": [
+      "**Objetivo de la atropina: pulmón seco a la auscultación, no la frecuencia cardiaca.**",
+      "Miosis + secreciones + bradicardia en un agricultor confuso: organofosforados."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., caps. 7 y 58",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-salicilatos",
+    "nombre": "Intoxicación por salicilatos",
+    "sinonimos": [
+      "Intoxicación por aspirina",
+      "Salicilismo"
+    ],
+    "area": "URG",
+    "resumen": "Náuseas, **acúfenos**, hiperventilación (**alcalosis respiratoria**) seguida de **acidosis metabólica con anión gap elevado**, hipertermia, confusión y edema pulmonar. Medir niveles seriados (absorción errática). Tratamiento: **carbón activado**, **alcalinización de la orina con bicarbonato** (pH urinario 7,5-8), reponer potasio, glucosa si hay alteración neurológica y **hemodiálisis** en casos graves. Evitar la intubación si es posible (empeora la acidosis).",
+    "objetivo": "Reducir la absorción y acelerar la eliminación del salicilato.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Carbón activado",
+            "ref": "URG-carbon-activado",
+            "dosis": "1 g/kg (máximo 50 g)",
+            "via": "VO o por sonda",
+            "intervalo": "Dosis única; repetir si los niveles siguen subiendo",
+            "duracion": "1-2 dosis",
+            "nota": "Con vía aérea protegida"
+          },
+          {
+            "nombre": "Bicarbonato sódico",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "1-2 mEq/kg en bolo; después 150 mEq en 1 L de glucosado 5% a 1,5-2 veces el mantenimiento",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Hasta salicilemia <30-40 mg/dL y mejoría clínica",
+            "nota": "Objetivo pH urinario 7,5-8 y pH sanguíneo ≤7,55"
+          },
+          {
+            "nombre": "Cloruro potásico",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "20-40 mEq por litro",
+            "via": "IV",
+            "intervalo": "En los sueros",
+            "duracion": "Mientras dure la alcalinización",
+            "nota": "Sin potasio normal no se alcaliniza la orina"
+          },
+          {
+            "nombre": "Glucosado 5-10% (alteración neurológica)",
+            "ref": "NFR-glucosado",
+            "dosis": "100 mL/h (ajustar)",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "Mientras haya síntomas",
+            "nota": "Neuroglucopenia con glucemia normal"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hemodiálisis: salicilemia >90-100 mg/dL, acidosis grave, edema pulmonar, alteración neurológica o insuficiencia renal",
+      "Si hay que intubar, hiperventilar para mantener la alcalosis"
+    ],
+    "claves": [
+      "**Acúfenos + hiperventilación + acidosis con anión gap alto: salicilatos.**",
+      "Un nivel único no basta: repetir cada 2-4 h hasta que baje."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., cap. 58",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-cardiovascular",
+    "nombre": "Intoxicación por betabloqueantes, calcioantagonistas y digoxina",
+    "sinonimos": [
+      "Intoxicación digitálica",
+      "Sobredosis de betabloqueantes",
+      "Sobredosis de calcioantagonistas"
+    ],
+    "area": "URG",
+    "resumen": "**Betabloqueantes y calcioantagonistas**: bradicardia, bloqueo AV, hipotensión y shock (hiperglucemia en los calcioantagonistas). Tratamiento escalonado: fluidos y atropina → **calcio**, **glucagón**, **insulina a dosis altas con glucosa**, vasopresores, emulsión lipídica y ECMO. **Digoxina**: náuseas, visión amarilla, arritmias (bradicardia, extrasístoles, taquicardia auricular con bloqueo), **hiperpotasemia** → **anticuerpos antidigoxina**.",
+    "objetivo": "Recuperar la perfusión y el ritmo.",
+    "escenarios": [
+      {
+        "titulo": "Betabloqueantes y calcioantagonistas",
+        "farmacos": [
+          {
+            "nombre": "Gluconato cálcico",
+            "ref": "URG-gluconato-calcico",
+            "dosis": "30-60 mL al 10%",
+            "via": "IV",
+            "intervalo": "En 10 min; repetir cada 10-20 min (hasta 3-4 dosis) o perfusión",
+            "duracion": "Según respuesta"
+          },
+          {
+            "nombre": "Glucagón",
+            "ref": "URG-glucagon",
+            "dosis": "5-10 mg en bolo; después 3-5 mg/h",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Según respuesta",
+            "nota": "Sobre todo en betabloqueantes; vómitos frecuentes"
+          },
+          {
+            "nombre": "Insulina a dosis altas (con glucosa)",
+            "ref": "END-insulina-regular",
+            "dosis": "1 UI/kg en bolo; después 1-10 UI/kg/h",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "Hasta estabilizar",
+            "nota": "Glucosa al 10-50% para normoglucemia; controlar K"
+          },
+          {
+            "nombre": "Noradrenalina",
+            "ref": "CAR-noradrenalina",
+            "dosis": "0,05-1 µg/kg/min",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "Hasta estabilizar"
+          },
+          {
+            "nombre": "Emulsión lipídica al 20% (rescate)",
+            "ref": "URG-hidroxocobalamina-emulsion-lipidica",
+            "dosis": "1,5 mL/kg en bolo; después 0,25 mL/kg/min",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión",
+            "duracion": "30-60 min",
+            "nota": "Fármacos liposolubles (propranolol, verapamilo)"
+          }
+        ]
+      },
+      {
+        "titulo": "Digoxina",
+        "farmacos": [
+          {
+            "nombre": "Anticuerpos antidigoxina",
+            "ref": "URG-anticuerpos-antidigoxina",
+            "dosis": "Intoxicación crónica: 3-6 viales (40 mg); aguda grave o parada: 10-20 viales",
+            "via": "IV",
+            "intervalo": "En 30 min (bolo en la parada)",
+            "duracion": "Dosis única, repetible",
+            "nota": "Indicados en arritmias graves, K >5-6 o digoxinemia muy alta"
+          },
+          {
+            "nombre": "Atropina (bradicardia)",
+            "ref": "URG-atropina",
+            "dosis": "0,5-1 mg",
+            "via": "IV",
+            "intervalo": "Cada 3-5 min",
+            "duracion": "Máximo 3 mg"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Carbón activado si ingesta <1-2 h y vía aérea protegida; lavado intestinal en preparados retard",
+      "Marcapasos si no responde a fármacos",
+      "En digoxina: no dar calcio de forma rutinaria y corregir el magnesio"
+    ],
+    "claves": [
+      "**Calcioantagonista + hiperglucemia + shock: insulina a dosis altas.**",
+      "Intoxicación digitálica crónica: pensar en ella en el anciano con insuficiencia renal y náuseas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones; Katzung 15.ª ed., caps. 13 y 58",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 7 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-etilica",
+    "nombre": "Intoxicación etílica aguda y por alcoholes tóxicos (metanol, etilenglicol)",
+    "sinonimos": [
+      "Embriaguez",
+      "Metanol",
+      "Etilenglicol",
+      "Anticongelante"
+    ],
+    "area": "URG",
+    "resumen": "**Etanol**: tratamiento de soporte (vía aérea, posición lateral, glucemia, temperatura). **Tiamina** antes de la glucosa en alcohólicos o desnutridos. Buscar traumatismo craneal oculto, hipoglucemia y otras intoxicaciones. **Metanol o etilenglicol**: ebrio sin olor a alcohol, **acidosis metabólica con anión gap elevado** y **gap osmolar** aumentado, alteraciones visuales (metanol) o insuficiencia renal (etilenglicol) → **fomepizol** y hemodiálisis.",
+    "objetivo": "Mantener la vía aérea y evitar la lesión por metabolitos tóxicos.",
+    "escenarios": [
+      {
+        "titulo": "Intoxicación etílica",
+        "farmacos": [
+          {
+            "nombre": "Tiamina",
+            "ref": "HEM-tiamina",
+            "dosis": "100 mg",
+            "via": "IV o IM",
+            "intervalo": "Antes de la glucosa",
+            "duracion": "Dosis única (más si sospecha de Wernicke)"
+          },
+          {
+            "nombre": "Glucosado 10% (hipoglucemia)",
+            "ref": "NFR-glucosado",
+            "dosis": "250 mL (25 g)",
+            "via": "IV",
+            "intervalo": "Bolo; después perfusión",
+            "duracion": "Según glucemia"
+          },
+          {
+            "nombre": "Haloperidol (agitación peligrosa)",
+            "ref": "PSQ-haloperidol",
+            "dosis": "2,5-5 mg",
+            "via": "IM",
+            "intervalo": "Repetible a los 30-60 min",
+            "duracion": "Dosis puntual",
+            "nota": "Evitar benzodiacepinas a dosis altas (depresión respiratoria)"
+          }
+        ]
+      },
+      {
+        "titulo": "Metanol o etilenglicol",
+        "farmacos": [
+          {
+            "nombre": "Fomepizol",
+            "ref": "URG-fomepizol-etanol",
+            "dosis": "15 mg/kg; después 10 mg/kg",
+            "via": "IV",
+            "intervalo": "Carga; después cada 12 h (cada 4 h en hemodiálisis)",
+            "duracion": "Hasta niveles indetectables y pH normal",
+            "nota": "Si no hay fomepizol: etanol IV a etanolemia 100-150 mg/dL"
+          },
+          {
+            "nombre": "Bicarbonato sódico (pH <7,3)",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "1-2 mEq/kg",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión según gasometría",
+            "duracion": "Hasta pH >7,3"
+          },
+          {
+            "nombre": "Ácido fólico (metanol)",
+            "ref": "HEM-acido-folico",
+            "dosis": "50 mg (o ácido folínico 1 mg/kg)",
+            "via": "IV",
+            "intervalo": "Cada 4-6 h",
+            "duracion": "Mientras dure el tratamiento",
+            "nota": "Acelera la eliminación del ácido fórmico"
+          },
+          {
+            "nombre": "Tiamina y piridoxina (etilenglicol)",
+            "ref": "HEM-tiamina",
+            "dosis": "Tiamina 100 mg + piridoxina 50 mg",
+            "via": "IV",
+            "intervalo": "Cada 6 h",
+            "duracion": "Mientras dure el tratamiento"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Posición lateral de seguridad, vigilancia de vía aérea y temperatura",
+      "Hemodiálisis en el metanol o el etilenglicol con acidosis grave, alteraciones visuales o insuficiencia renal",
+      "Al alta: intervención breve sobre el consumo de alcohol"
+    ],
+    "claves": [
+      "**Un «borracho» que no mejora en 4-6 h no es solo alcohol: TC craneal, glucemia, otros tóxicos.**",
+      "Acidosis con gap osmolar alto: metanol o etilenglicol."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de alcohol y de intoxicaciones; Katzung 15.ª ed., caps. 23 y 58",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 7,
+      "resultado": "Revisadas las 7 pautas (7 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipotermia-golpe-calor",
+    "nombre": "Hipotermia accidental y golpe de calor",
+    "sinonimos": [
+      "Hipotermia",
+      "Golpe de calor",
+      "Hipertermia"
+    ],
+    "area": "URG",
+    "resumen": "**Hipotermia** (<35 °C): retirar ropa mojada, **recalentamiento** pasivo (leve), activo externo (moderada) o interno (grave, ECMO). Movilizar con cuidado (FV). En la parada: **«nadie está muerto hasta que está caliente y muerto»**. **Golpe de calor** (>40 °C con alteración neurológica): **enfriamiento inmediato** (inmersión en agua fría o evaporación), fluidos y benzodiacepinas para los escalofríos o convulsiones. **Los antipiréticos no sirven** (no es fiebre).",
+    "objetivo": "Normalizar la temperatura sin provocar arritmias ni sobrecarga.",
+    "escenarios": [
+      {
+        "titulo": "Hipotermia",
+        "farmacos": [
+          {
+            "nombre": "Suero salino 0,9% calentado a 40-42 °C",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "500-1000 mL",
+            "via": "IV",
+            "intervalo": "Bolos según volemia",
+            "duracion": "Hasta estabilizar",
+            "nota": "Evitar Ringer lactato (el hígado frío no metaboliza el lactato)"
+          },
+          {
+            "nombre": "Glucosado 10% (hipoglucemia)",
+            "ref": "NFR-glucosado",
+            "dosis": "250 mL (25 g)",
+            "via": "IV",
+            "intervalo": "Según glucemia",
+            "duracion": "Según glucemia"
+          },
+          {
+            "nombre": "Adrenalina en la parada con T <30 °C",
+            "ref": "URG-adrenalina",
+            "dosis": "1 mg",
+            "via": "IV",
+            "intervalo": "No administrar hasta >30 °C; entre 30-35 °C, cada 6-10 min",
+            "duracion": "Hasta recuperar la circulación"
+          }
+        ]
+      },
+      {
+        "titulo": "Golpe de calor",
+        "farmacos": [
+          {
+            "nombre": "Suero salino 0,9% (frío)",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1-2 L",
+            "via": "IV",
+            "intervalo": "En la primera hora; después según volemia",
+            "duracion": "Hasta estabilizar",
+            "nota": "Sin sobrecargar: riesgo de edema pulmonar"
+          },
+          {
+            "nombre": "Diazepam (escalofríos o convulsiones)",
+            "ref": "PSQ-diazepam",
+            "dosis": "5-10 mg",
+            "via": "IV",
+            "intervalo": "Repetible",
+            "duracion": "Según necesidad"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Golpe de calor: inmersión en agua fría hasta 38,5-39 °C («enfriar primero, trasladar después»)",
+      "Hipotermia: mantas, aire caliente forzado, líquidos calientes; ECMO en la parada hipotérmica",
+      "Vigilar rabdomiólisis, coagulación intravascular e insuficiencia renal"
+    ],
+    "claves": [
+      "**Paracetamol y AINE no bajan la temperatura en el golpe de calor.**",
+      "En la hipotermia profunda, la RCP prolongada puede tener buen pronóstico neurológico."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de hipotermia y de enfermedades por calor",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-estado-hiperosmolar",
+    "nombre": "Estado hiperglucémico hiperosmolar",
+    "sinonimos": [
+      "Síndrome hiperosmolar",
+      "Coma hiperosmolar"
+    ],
+    "area": "END",
+    "resumen": "Típico del **anciano con diabetes tipo 2** y un desencadenante (infección, fármacos, ictus): **glucemia >600 mg/dL**, **osmolalidad >320 mOsm/kg**, deshidratación profunda y alteración neurológica, **sin cetoacidosis significativa**. Lo principal es la **reposición de volumen** (déficit de 8-10 L); la insulina se inicia **después** de la hidratación inicial y a dosis bajas. Bajar la osmolalidad despacio (riesgo de edema cerebral). Mortalidad mayor que la cetoacidosis.",
+    "objetivo": "Corregir el volumen y la osmolalidad de forma gradual y tratar el desencadenante.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1-1,5 L en la 1.ª hora; después 250-500 mL/h",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "24-48 h (reponer la mitad del déficit en 12 h)",
+            "nota": "Salino 0,45% si el sodio corregido sube"
+          },
+          {
+            "nombre": "Insulina regular en perfusión",
+            "ref": "END-insulina-regular",
+            "dosis": "0,05-0,1 UI/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta glucemia <300 mg/dL y osmolalidad normalizándose",
+            "nota": "Iniciarla cuando la glucemia deje de bajar solo con fluidos; bajada objetivo 50-75 mg/dL/h"
+          },
+          {
+            "nombre": "Cloruro potásico",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "20-30 mEq por litro de suero",
+            "via": "IV",
+            "intervalo": "En los sueros si K <5,2",
+            "duracion": "Mientras dure la insulina",
+            "nota": "No iniciar insulina si K <3,3"
+          },
+          {
+            "nombre": "Enoxaparina (tromboprofilaxis)",
+            "ref": "HEM-enoxaparina",
+            "dosis": "40 mg",
+            "via": "SC",
+            "intervalo": "Cada 24 h",
+            "duracion": "Durante el ingreso",
+            "nota": "Alto riesgo trombótico por hiperviscosidad"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Buscar el desencadenante: infección, IAM, ictus, diuréticos, corticoides, antipsicóticos",
+      "Osmolalidad y sodio corregido cada 2-4 h; bajar la osmolalidad ≤3-8 mOsm/kg/h"
+    ],
+    "claves": [
+      "**Primero volumen, después insulina: la insulina sin volumen precipita el shock.**",
+      "Sodio corregido = Na + 1,6 × [(glucemia − 100)/100]."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diabetes (complicaciones agudas)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-neutropenia-febril",
+    "nombre": "Neutropenia febril",
+    "sinonimos": [
+      "Fiebre en el paciente neutropénico",
+      "Neutropenia posquimioterapia"
+    ],
+    "area": "INF",
+    "resumen": "Fiebre ≥38,3 °C (o ≥38 °C durante 1 h) con **neutrófilos <500/µL** (o previsiblemente <500). **Urgencia**: hemocultivos y **antibiótico de amplio espectro con actividad antipseudomónica en la primera hora**. Estratificar el riesgo (escala MASCC): los de bajo riesgo pueden tratarse por vía oral de forma ambulatoria. Añadir vancomicina solo si hay sospecha de infección por grampositivos (catéter, piel, inestabilidad, mucositis grave). Antifúngico empírico si persiste la fiebre a los 4-7 días.",
+    "objetivo": "Tratar en la primera hora y evitar la sepsis por gramnegativos.",
+    "escenarios": [
+      {
+        "titulo": "Alto riesgo (hospitalario)",
+        "farmacos": [
+          {
+            "nombre": "Cefepima",
+            "ref": "INF-cefepima",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta afebril 48 h y neutrófilos >500"
+          },
+          {
+            "nombre": "Piperacilina-tazobactam",
+            "ref": "INF-piperacilina-tazobactam",
+            "dosis": "4/0,5 g",
+            "via": "IV",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Igual que la anterior",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Meropenem (sepsis o colonización por BLEE)",
+            "ref": "INF-meropenem",
+            "dosis": "1 g",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "Igual que la anterior",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Vancomicina (si sospecha de grampositivo)",
+            "ref": "INF-vancomicina",
+            "dosis": "15-20 mg/kg",
+            "via": "IV",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "Retirar a las 48-72 h si cultivos negativos"
+          }
+        ]
+      },
+      {
+        "titulo": "Bajo riesgo (MASCC ≥21), oral",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico + ciprofloxacino",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg + ciprofloxacino 750 mg",
+            "via": "VO",
+            "intervalo": "Amoxicilina-clavulánico cada 8-12 h; ciprofloxacino cada 12 h",
+            "duracion": "Hasta resolución de la neutropenia",
+            "nota": "Primera dosis en el hospital y observación 4 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención (quimioterapia con riesgo ≥20%)",
+        "farmacos": [
+          {
+            "nombre": "Pegfilgrastim / filgrastim",
+            "ref": "ONC-filgrastim",
+            "dosis": "Pegfilgrastim 6 mg (dosis única) o filgrastim 5 µg/kg/día",
+            "via": "SC",
+            "intervalo": "24-72 h tras la quimioterapia",
+            "duracion": "Pegfilgrastim 1 dosis por ciclo; filgrastim hasta recuperar neutrófilos"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hemocultivos de vía periférica y de cada luz del catéter antes del antibiótico",
+      "No hacer tacto rectal; buscar foco (catéter, mucositis, perianal, pulmón)"
+    ],
+    "claves": [
+      "**El neutropénico puede no tener signos de infección (no hay pus ni infiltrado): la fiebre basta para tratar.**",
+      "Antibiótico en la primera hora: cada hora de retraso aumenta la mortalidad."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones en el paciente con cáncer; guías IDSA/ESMO de neutropenia febril",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 6 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-crisis-falciforme",
+    "nombre": "Drepanocitosis: crisis vasooclusiva y síndrome torácico agudo",
+    "sinonimos": [
+      "Anemia falciforme",
+      "Crisis drepanocítica",
+      "Síndrome torácico agudo"
+    ],
+    "area": "HEM",
+    "resumen": "**Crisis vasooclusiva**: dolor intenso óseo o abdominal → **analgesia opioide precoz** (en <60 min), hidratación y búsqueda de desencadenantes (infección, frío, deshidratación). **Síndrome torácico agudo** (dolor torácico, fiebre, infiltrado nuevo, hipoxemia): antibiótico que cubra atípicos, oxígeno, incentivador respiratorio y **transfusión**. Fiebre en drepanocítico = urgencia por **asplenia funcional**. Prevención: **hidroxiurea**, vacunas, penicilina profiláctica en niños, ácido fólico.",
+    "objetivo": "Controlar el dolor rápido y prevenir crisis y complicaciones.",
+    "escenarios": [
+      {
+        "titulo": "Crisis vasooclusiva",
+        "farmacos": [
+          {
+            "nombre": "Morfina",
+            "ref": "REU-morfina",
+            "dosis": "0,1 mg/kg (máximo 10 mg)",
+            "via": "IV o SC",
+            "intervalo": "Cada 15-30 min hasta control; después pautada o PCA",
+            "duracion": "Según dolor"
+          },
+          {
+            "nombre": "Ibuprofeno (asociado)",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Según dolor",
+            "nota": "Evitar si hay daño renal"
+          },
+          {
+            "nombre": "Suero salino 0,9% o glucosalino",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1,5 mL/kg/h (1-1,5 veces las necesidades basales)",
+            "via": "IV",
+            "intervalo": "Perfusión",
+            "duracion": "Hasta tolerar la vía oral",
+            "nota": "Evitar la sobrecarga (síndrome torácico)"
+          }
+        ]
+      },
+      {
+        "titulo": "Síndrome torácico agudo",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona + azitromicina",
+            "ref": "INF-ceftriaxona",
+            "dosis": "Ceftriaxona 2 g + azitromicina 500 mg",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "7-10 días"
+          },
+          {
+            "nombre": "Oxígeno",
+            "ref": "NML-oxigenoterapia",
+            "dosis": "Para SatO2 ≥95%",
+            "via": "inhalada",
+            "intervalo": "Continuo",
+            "duracion": "Hasta resolución"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención",
+        "farmacos": [
+          {
+            "nombre": "Hidroxiurea",
+            "ref": "HEM-hidroxiurea",
+            "dosis": "15 mg/kg/día → 20-35 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Ácido fólico",
+            "ref": "HEM-acido-folico",
+            "dosis": "1-5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Penicilina V profiláctica (niños)",
+            "ref": "INF-penicilina-v",
+            "dosis": "125 mg (<3 años) o 250 mg (≥3 años)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Hasta los 5 años",
+            "nota": "Más vacunas antineumocócica y antimeningocócica"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Transfusión simple o exanguinotransfusión en el síndrome torácico, el ictus y la anemia grave",
+      "Doppler transcraneal anual en niños (prevención del ictus)",
+      "Evitar frío, deshidratación y esfuerzos extremos"
+    ],
+    "claves": [
+      "**La crisis de dolor se trata como el dolor del cáncer: opioide precoz y a dosis suficiente.**",
+      "Fiebre ≥38,5 °C en drepanocítico: hemocultivo y ceftriaxona sin esperar."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hemoglobinopatías; Katzung 15.ª ed., cap. 33",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 8,
+      "cotejadas_en_fuente": 7,
+      "resultado": "Revisadas las 8 pautas (7 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-inr-elevado",
+    "nombre": "INR elevado sin hemorragia en pacientes con antivitamina K",
+    "sinonimos": [
+      "Sobredosificación de acenocumarol",
+      "Sobredosificación de warfarina",
+      "INR alto"
+    ],
+    "area": "HEM",
+    "resumen": "Sin sangrado, la mayoría se maneja **omitiendo dosis**. **INR 4,5-10**: omitir 1-2 dosis y reajustar; vitamina K oral solo si hay alto riesgo hemorrágico. **INR >10 sin sangrado**: **vitamina K oral 2-5 mg**. Con **hemorragia grave**: complejo protrombínico + vitamina K IV (ver hemorragia intracerebral). Buscar la causa: interacciones (antibióticos, amiodarona, azoles), cambios de dieta, enfermedad intercurrente.",
+    "objetivo": "Volver al rango terapéutico sin pasar a la trombosis.",
+    "escenarios": [
+      {
+        "titulo": "Sin hemorragia",
+        "farmacos": [
+          {
+            "nombre": "Vitamina K oral (INR >10, o >4,5 con alto riesgo de sangrado)",
+            "ref": "HEM-vitamina-k",
+            "dosis": "2-5 mg (1-2 mg con INR 4,5-10)",
+            "via": "VO",
+            "intervalo": "Dosis única; repetir si el INR sigue alto a las 24 h",
+            "duracion": "1-2 dosis",
+            "nota": "La ampolla IV puede tomarse por boca"
+          }
+        ]
+      },
+      {
+        "titulo": "Hemorragia mayor",
+        "farmacos": [
+          {
+            "nombre": "Complejo protrombínico",
+            "ref": "HEM-complejo-protrombinico",
+            "dosis": "25-50 UI/kg según INR",
+            "via": "IV",
+            "intervalo": "Dosis única",
+            "duracion": "Repetir según INR"
+          },
+          {
+            "nombre": "Vitamina K IV",
+            "ref": "HEM-vitamina-k",
+            "dosis": "10 mg",
+            "via": "IV",
+            "intervalo": "En 20-30 min",
+            "duracion": "Dosis única"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Control de INR a las 24-48 h y ajuste de la dosis semanal (10-15%)",
+      "Revisar interacciones nuevas y adherencia; educación del paciente"
+    ],
+    "claves": [
+      "**Dosis altas de vitamina K sin sangrado provocan resistencia al AVK durante días.**",
+      "Antibióticos, amiodarona, fluconazol y metronidazol son causas clásicas de INR alto."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de antitrombóticos; Katzung 15.ª ed., cap. 34",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-epistaxis",
+    "nombre": "Epistaxis",
+    "sinonimos": [
+      "Sangrado nasal",
+      "Hemorragia nasal"
+    ],
+    "area": "URG",
+    "resumen": "El 90% es **anterior** (área de Kiesselbach). Primero: **compresión bilateral de las alas nasales 10-15 min** con la cabeza inclinada hacia delante. Si no cede: **vasoconstrictor tópico**, cauterización del punto sangrante (nitrato de plata) o **taponamiento**. El **ácido tranexámico tópico** es tan eficaz como el taponamiento en muchos casos. Posterior o refractaria: taponamiento posterior y ORL. Revisar anticoagulantes, antiagregantes y PA.",
+    "objetivo": "Detener el sangrado y prevenir las recidivas.",
+    "escenarios": [
+      {
+        "titulo": "Epistaxis anterior",
+        "farmacos": [
+          {
+            "nombre": "Oximetazolina tópica",
+            "ref": "NML-oximetazolina",
+            "dosis": "2-3 pulverizaciones (0,05%) o algodón empapado",
+            "via": "IN",
+            "intervalo": "Antes de la compresión",
+            "duracion": "Dosis única"
+          },
+          {
+            "nombre": "Ácido tranexámico tópico",
+            "ref": "HEM-acido-tranexamico",
+            "dosis": "500 mg (5 mL de la ampolla IV) en algodón o pulverizado",
+            "via": "IN",
+            "intervalo": "10 min de aplicación",
+            "duracion": "Dosis única, repetible",
+            "nota": "Útil también en anticoagulados"
+          },
+          {
+            "nombre": "Lidocaína tópica (antes de cauterizar)",
+            "ref": "ANE-lidocaina",
+            "dosis": "Algodón con lidocaína al 4%",
+            "via": "IN",
+            "intervalo": "Dosis única",
+            "duracion": "5 min"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención de recidivas",
+        "farmacos": [
+          {
+            "nombre": "Mupirocina o vaselina nasal",
+            "ref": "DER-mupirocina",
+            "dosis": "1 aplicación de pomada al 2% en el vestíbulo nasal",
+            "via": "IN",
+            "intervalo": "Cada 12 h",
+            "duracion": "5-7 días",
+            "nota": "Hidrata la mucosa; tras cauterización o taponamiento"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Compresión 10-15 min sin soltar; cabeza hacia delante (no hacia atrás)",
+      "Cauterización química del punto visible; taponamiento con material reabsorbible o esponja",
+      "Humidificación ambiental, evitar rascado y sonarse fuerte"
+    ],
+    "claves": [
+      "**Epistaxis unilateral recurrente en un adolescente varón con obstrucción nasal: angiofibroma.**",
+      "La HTA rara vez causa la epistaxis, pero la mantiene: tratar la PA si está muy elevada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de nariz y senos; Katzung 15.ª ed., cap. 34",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

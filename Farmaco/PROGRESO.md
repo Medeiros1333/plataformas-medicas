@@ -2,7 +2,7 @@
 
 > Estado ejecutivo del proyecto. Una sesión nueva debe poder leer **solo este archivo** y el playbook para saber qué hacer a continuación.
 
-**Última actualización:** 2026-10-05 — **plan de mejoras para el médico general completado ([PLAN_MEJORAS.md](PLAN_MEJORAS.md)): 154 patologías, revisión de las 966 pautas, neutralidad de país y calculadoras clínicas**
+**Última actualización:** 2026-10-06 — **cierre de lagunas del médico general: 212 patologías (100% de la lista de referencia de 213 cuadros), 1.261 pautas revisadas**
 **Idioma del contenido:** español · **Ámbito:** farmacología general, sin país (principio 8 del playbook)
 **Metodología:** `00_Metodologia/PLAYBOOK_CONSTRUCCION_PLATAFORMA_FARMACO.md`
 
@@ -12,17 +12,18 @@
 
 | Bloque | Fichas | Estado |
 |---|---|---|
-| Fármacos (adulto) | **624** | ✅ 584 individuales + 40 «Visión de clase» |
-| Fármacos (pediatría) | **41** | ✅ |
+| Fármacos (adulto) | **643** | ✅ 603 individuales + 40 «Visión de clase» |
+| Fármacos (pediatría) | **43** | ✅ |
 | Patógenos (microbiología) | **86** | ✅ (+ Trypanosoma cruzi y Schistosoma) |
-| Patologías (tratamiento por cuadro clínico) | **154** | ✅ 966 pautas; **0 fármacos sin ficha**; todas con campo `revision` |
-| **TOTAL DE CONTENIDO** | **905** | ✅ |
-| Clases farmacológicas de adulto | **165** | Todas con ≥3 fármacos individuales (7 con `clase_unica` justificada) |
-| Fichas con `vs_clase` | **584** | Todas las clases con ≥2 miembros |
-| Enlaces de correlación fármaco ↔ patógeno | **437** | Simétricos y validados |
+| Patologías (tratamiento por cuadro clínico) | **212** | ✅ 1.261 pautas; **0 fármacos sin ficha**; todas con campo `revision` |
+| **TOTAL DE CONTENIDO** | **984** | ✅ |
+| Clases farmacológicas de adulto | **172** | Todas con ≥3 fármacos individuales (9 con `clase_unica` justificada) |
+| Fichas con `vs_clase` | **601** | Todas las clases con ≥2 miembros |
+| Enlaces de correlación fármaco ↔ patógeno | **438** | Simétricos y validados |
 | Vista **Calculadoras** | — | ✅ Función renal (Cockcroft-Gault, CKD-EPI 2021), dosis por peso, interacciones |
-| Revisión de pautas | **966/966** | ✅ 791 cotejadas en Harrison/Katzung, 4 correcciones ([REVISION_DOSIS.md](REVISION_DOSIS.md)) |
-| Tarjetas Anki generadas | **16 381** en 54 mazos | Automático |
+| Revisión de pautas | **1.261/1.261** | ✅ 1.039 cotejadas en Harrison/Katzung, 4 correcciones ([REVISION_DOSIS.md](REVISION_DOSIS.md)) |
+| Tarjetas Anki generadas | **17 228** en 54 mazos | Automático |
+| Cobertura de cuadros del médico general | **213/213** de la lista de referencia | Ver hallazgo #41 |
 | Errores / avisos de validación | **0 / 0** | ✔ |
 
 > **Qué significa «completo».** El alcance son los **niveles 1 y 2** (lo que un médico prescribe o ve prescribir de forma habitual) y los cuadros clínicos de **atención primaria y urgencias** de un médico general. Los fármacos de nivel 3 entran solo para completar una clase hasta 3 miembros.
@@ -37,23 +38,23 @@
 
 | Área | Fármacos adulto | Pediatría | Patologías |
 |---|---|---|---|
-| **INF** Antiinfecciosos | 108 | 5 | 36 |
-| **CAR** Cardiovascular | 63 | 2 | 14 |
-| **END** Endocrinología | 48 | 3 | 11 |
-| **DER** Dermatología | 45 | 3 | 10 |
-| **REU** Analgesia y antiinflamatorios | 39 | 3 | 10 |
-| **DIG** Digestivo | 37 | 4 | 17 |
-| **NML** Neumología | 36 | 6 | 8 |
-| **HEM** Hematología | 33 | 2 | 3 |
-| **NFR** Nefrología y urología | 32 | 2 | 8 |
-| **PSQ** Psiquiatría | 31 | 2 | 8 |
-| **NEU** Neurología | 28 | 4 | 11 |
-| **INM** Inmunología | 25 | 1 | 2 |
-| **GIN** Ginecología y obstetricia | 25 | 0 | 8 |
+| **INF** Antiinfecciosos | 108 | 5 | 46 |
+| **CAR** Cardiovascular | 63 | 2 | 15 |
+| **END** Endocrinología | 51 | 4 | 14 |
+| **DER** Dermatología | 48 | 3 | 15 |
+| **REU** Analgesia y antiinflamatorios | 39 | 3 | 16 |
+| **DIG** Digestivo | 37 | 5 | 20 |
+| **NML** Neumología | 36 | 6 | 10 |
+| **HEM** Hematología | 34 | 2 | 6 |
+| **PSQ** Psiquiatría | 34 | 2 | 12 |
+| **NFR** Nefrología y urología | 32 | 2 | 9 |
+| **NEU** Neurología | 29 | 4 | 15 |
+| **GIN** Ginecología y obstetricia | 29 | 0 | 12 |
+| **INM** Inmunología | 25 | 1 | 3 |
+| **OFT** Oftalmología | 25 | 0 | 4 |
 | **ONC** Oncología | 23 | 0 | 0 |
-| **OFT** Oftalmología | 21 | 0 | 2 |
 | **ANE** Anestesia | 15 | 1 | 0 |
-| **URG** Urgencias y toxicología | 15 | 3 | 6 |
+| **URG** Urgencias y toxicología | 15 | 3 | 15 |
 
 ## 3. Cobertura por grupo microbiológico
 
@@ -124,3 +125,4 @@ Para ver el Hub: abrir `hub/index.html` con doble clic (funciona sin servidor), 
 | 2026-10-05 | **Plan de mejoras C: neutralidad de país** | 59 textos: epidemiología por regiones, EMA/FDA en vez de agencia nacional, guías internacionales en vez de nacionales; principio 8 del playbook |
 | 2026-10-05 | **Plan de mejoras D: vista Calculadoras** | `hub/calculadoras.js`: función renal con ajuste resaltado por fármaco, dosis por peso con alerta de dosis máxima, verificador de interacciones |
 | 2026-10-05 | **Plan de mejoras B: revisión de las 966 pautas** | Cotejo automático con Harrison y Katzung + revisión clínica completa; 4 correcciones; campo `revision` en todas las patologías ([REVISION_DOSIS.md](REVISION_DOSIS.md)) |
+| 2026-10-06 | **Cierre de lagunas del médico general: 58 patologías** | PCR y TV, secuencia rápida de intubación, intoxicaciones (CO/cianuro, organofosforados, salicilatos, cardiovasculares, etílica), hipotermia y golpe de calor, estado hiperosmolar, neutropenia febril, crisis falciforme, INR alto, epistaxis; cefalea en racimos, Bell, piernas inquietas, temblor esencial, encefalitis; TDAH, dependencia de opioides, TCA, TOC/TEPT; hombro y tendinopatías, espondiloartritis, lupus, túnel carpiano, esguinces, cervicalgia; varicela, Lyme/rickettsiosis, EIP, profilaxis quirúrgica, epididimitis, abscesos; dermatitis de contacto, picaduras, alopecia, pitiriasis versicolor, intertrigo; candidiasis oral, aftas, ojo seco, blefaritis; bronquiectasias, tos crónica; MASLD, hiperprolactinemia, déficit de vitamina D; sangrado uterino, endometriosis, mastitis, aborto farmacológico; enuresis, cólico y reflujo del lactante, profilaxis de hierro y vitamina D, ITU febril infantil. 19 fichas nuevas. 295 pautas revisadas sin discrepancias |

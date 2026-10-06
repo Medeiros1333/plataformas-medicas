@@ -1,0 +1,159 @@
+[
+  {
+    "id": "PED-END-desmopresina",
+    "nombre": "Desmopresina (enuresis nocturna)",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Análogo de la vasopresina",
+    "subclase": "Agonista V2 antidiurético",
+    "mecanismo": "Agonista del receptor V2 renal: aumenta la reabsorción de agua y reduce el volumen de orina nocturna.",
+    "espectro": null,
+    "dosis_pediatrica_base": "120 µg (liofilizado sublingual) o 0,2 mg (comprimido) al acostarse; hasta 240 µg o 0,4 mg (dosis FIJA, no ponderal)",
+    "dosis_maxima": "240 µg sublingual o 0,4 mg oral por noche",
+    "presentaciones": [
+      "Liofilizado oral de 60, 120 y 240 µg",
+      "Comprimidos de 0,1 y 0,2 mg"
+    ],
+    "edad_minima": "5 años",
+    "franjas_edad": [
+      {
+        "franja": "≥5 años con enuresis monosintomática",
+        "ajuste": "120 µg al acostarse; 240 µg si no responde en 2 semanas"
+      }
+    ],
+    "peculiaridad_pediatrica": "Es el fármaco de la **enuresis con poliuria nocturna**. Riesgo de **HIPONATREMIA con intoxicación hídrica** (cefalea, vómitos, convulsiones): **restringir líquidos desde 1 h antes hasta 8 h después** de la dosis y no darla si hay vómitos o diarrea. La **alarma de enuresis** es igual o más eficaz a largo plazo; la desmopresina actúa rápido y sirve para campamentos o noches puntuales.",
+    "indicaciones": [
+      {
+        "patologia": "Enuresis nocturna monosintomática",
+        "dosis": "120-240 µg",
+        "posologia": "Al acostarse",
+        "via": "SL",
+        "nota": "Ciclos de 3 meses con descanso de 1 semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "Diario miccional y descartar diabetes, ITU, estreñimiento.",
+      "titulacion": "Subir a las 2 semanas si no responde.",
+      "duracion": "Ciclos de 3 meses.",
+      "fin": "Retirada estructurada (reducción gradual) para evitar la recaída.",
+      "via": "Sublingual u oral.",
+      "monitorizacion": "Síntomas de hiponatremia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sublingual u oral, baja.",
+      "distribucion": "—",
+      "metabolismo": "Mínimo.",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h.",
+      "ajuste_renal": "Contraindicada si FG <50.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "AINE, ISRS, carbamazepina",
+          "efecto": "Más riesgo de hiponatremia",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Dolor abdominal"
+      ],
+      "graves": [
+        "**Hiponatremia**, convulsiones"
+      ]
+    },
+    "contraindicaciones": [
+      "Polidipsia habitual o psicógena",
+      "Hiponatremia",
+      "Insuficiencia renal"
+    ],
+    "perlas": [
+      "Enuresis secundaria (tras ≥6 meses seco) o diurna: buscar causa (ITU, diabetes, estreñimiento, estrés, abuso)."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37; recomendaciones de la ICCS sobre enuresis"
+  },
+  {
+    "id": "PED-DIG-lactobacillus-reuteri",
+    "nombre": "Lactobacillus reuteri DSM 17938 (cólico del lactante)",
+    "sinonimos": [
+      "Probiótico"
+    ],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Probiótico",
+    "subclase": "Lactobacilo",
+    "mecanismo": "Modula la microbiota y la motilidad intestinal y reduce la hipersensibilidad visceral.",
+    "espectro": null,
+    "dosis_pediatrica_base": "5 gotas (10⁸ UFC) al día (dosis FIJA, no ponderal)",
+    "dosis_maxima": "5 gotas al día",
+    "presentaciones": [
+      "Gotas orales"
+    ],
+    "edad_minima": "Recién nacido a término",
+    "franjas_edad": [
+      {
+        "franja": "Lactante <3-4 meses con cólico",
+        "ajuste": "5 gotas al día durante 21 días"
+      }
+    ],
+    "peculiaridad_pediatrica": "El cólico del lactante es **benigno y autolimitado** (cede hacia los 3-4 meses). Ningún fármaco es claramente eficaz: **simeticona no supera al placebo** y los anticolinérgicos están **contraindicados** por su toxicidad. Este probiótico reduce el tiempo de llanto sobre todo en lactantes **con lactancia materna**. Lo fundamental es tranquilizar a la familia y descartar signos de alarma.",
+    "indicaciones": [
+      {
+        "patologia": "Cólico del lactante (lactancia materna)",
+        "dosis": "5 gotas (10⁸ UFC)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "21 días"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras descartar signos de alarma (fiebre, vómitos, estancamiento ponderal).",
+      "titulacion": "—",
+      "duracion": "21 días.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Tiempo de llanto."
+    },
+    "farmacocinetica": {
+      "absorcion": "No se absorbe.",
+      "distribucion": "Intestino.",
+      "metabolismo": "—",
+      "eliminacion": "Fecal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antibióticos",
+          "efecto": "Pueden reducir su viabilidad",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Ninguno relevante"
+      ],
+      "graves": [
+        "Bacteriemia en inmunodeprimidos o prematuros con catéter (excepcional)"
+      ]
+    },
+    "contraindicaciones": [
+      "Inmunodepresión grave",
+      "Prematuros con catéter central"
+    ],
+    "perlas": [
+      "Llanto excesivo con regurgitaciones y rechazo de tomas en lactancia artificial: valorar alergia a proteínas de leche de vaca."
+    ],
+    "embarazo_lactancia": "No aplicable.",
+    "micro_relacionado": [],
+    "fuente": "Revisiones Cochrane de probióticos en el cólico del lactante; guías ESPGHAN"
+  }
+]

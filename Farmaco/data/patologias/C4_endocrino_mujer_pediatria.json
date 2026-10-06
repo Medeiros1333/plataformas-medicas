@@ -1,0 +1,963 @@
+[
+  {
+    "id": "PAT-esteatosis-hepatica-metabolica",
+    "nombre": "Enfermedad hepática esteatósica asociada a disfunción metabólica (MASLD)",
+    "sinonimos": [
+      "Hígado graso",
+      "Esteatosis hepática",
+      "NAFLD",
+      "MASH",
+      "Esteatohepatitis"
+    ],
+    "area": "DIG",
+    "resumen": "La hepatopatía más frecuente: esteatosis con obesidad, diabetes tipo 2, dislipemia o HTA. Lo que importa es la **fibrosis**: estratificar con **FIB-4** y, si es intermedio o alto, elastografía. Tratamiento principal: **pérdida de peso del 7-10%** (revierte la esteatohepatitis y mejora la fibrosis), ejercicio y abstinencia de alcohol. Fármacos con beneficio: **agonistas de GLP-1** y **pioglitazona** (sobre todo con diabetes); **resmetirom** en la esteatohepatitis con fibrosis F2-F3 donde esté disponible. Controlar el riesgo cardiovascular (la principal causa de muerte); **las estatinas son seguras**.",
+    "objetivo": "Frenar la fibrosis y reducir el riesgo cardiovascular.",
+    "escenarios": [
+      {
+        "titulo": "Con obesidad o diabetes tipo 2",
+        "farmacos": [
+          {
+            "nombre": "Semaglutida",
+            "ref": "END-semaglutida",
+            "dosis": "0,25 mg → 2,4 mg (1-2 mg en diabetes)",
+            "via": "SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Crónica",
+            "nota": "Resuelve la esteatohepatitis en una proporción relevante"
+          },
+          {
+            "nombre": "Tirzepatida",
+            "ref": "END-tirzepatida",
+            "dosis": "2,5 mg → 5-15 mg",
+            "via": "SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Pioglitazona (diabetes y esteatohepatitis)",
+            "ref": "END-pioglitazona",
+            "dosis": "30-45 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa. Aumento de peso, edemas; no en insuficiencia cardiaca"
+          }
+        ]
+      },
+      {
+        "titulo": "Riesgo cardiovascular asociado",
+        "farmacos": [
+          {
+            "nombre": "Atorvastatina",
+            "ref": "CAR-atorvastatina",
+            "dosis": "20-80 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Segura aunque las transaminasas estén moderadamente elevadas"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pérdida de peso del 7-10% con dieta mediterránea y ejercicio (150-300 min/semana)",
+      "Abstinencia o consumo mínimo de alcohol; evitar bebidas azucaradas",
+      "FIB-4 <1,3: bajo riesgo; ≥1,3: elastografía; cirrosis: cribado de hepatocarcinoma y varices",
+      "Cirugía bariátrica en la obesidad grave"
+    ],
+    "claves": [
+      "**Transaminasas normales no descartan fibrosis avanzada: calcular FIB-4.**",
+      "No suspender estatinas por un hígado graso."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad hepática grasa no alcohólica; guías EASL-EASD-EASO 2024 sobre MASLD",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hiperprolactinemia",
+    "nombre": "Hiperprolactinemia y prolactinoma",
+    "sinonimos": [
+      "Prolactinoma",
+      "Galactorrea",
+      "Prolactina elevada"
+    ],
+    "area": "END",
+    "resumen": "Galactorrea, oligo-amenorrea, infertilidad, disfunción eréctil o baja libido. Antes de buscar un tumor: **descartar embarazo, hipotiroidismo, insuficiencia renal, fármacos** (antipsicóticos, metoclopramida, domperidona, ISRS, opiáceos) y **macroprolactina**. Prolactina muy alta (>200 ng/mL) suele indicar prolactinoma → **RM hipofisaria**. Tratamiento de elección: **cabergolina** (normaliza la prolactina y reduce el tumor, incluso macroadenomas con afectación visual). La hiperprolactinemia por antipsicóticos se maneja cambiando de fármaco (aripiprazol).",
+    "objetivo": "Normalizar la prolactina, la función gonadal y el tamaño tumoral.",
+    "escenarios": [
+      {
+        "titulo": "Prolactinoma o hiperprolactinemia idiopática sintomática",
+        "farmacos": [
+          {
+            "nombre": "Cabergolina",
+            "ref": "END-cabergolina",
+            "dosis": "0,25-0,5 mg (hasta 1-2 mg/semana)",
+            "via": "VO",
+            "intervalo": "1-2 veces por semana",
+            "duracion": "≥2 años; valorar retirada si prolactina normal y tumor no visible"
+          },
+          {
+            "nombre": "Bromocriptina (deseo de embarazo)",
+            "ref": "END-bromocriptina",
+            "dosis": "1,25 mg → 2,5-7,5 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h con comida",
+            "duracion": "Hasta la gestación",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Quinagolida (intolerancia a ergóticos)",
+            "ref": "END-quinagolida",
+            "dosis": "75-150 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h al acostarse",
+            "duracion": "Según respuesta",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Hiperprolactinemia por antipsicóticos",
+        "farmacos": [
+          {
+            "nombre": "Aripiprazol (cambio o añadido)",
+            "ref": "PSQ-aripiprazol",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según el tratamiento psiquiátrico",
+            "nota": "Agonista parcial D2: reduce la prolactina; no dar agonistas dopaminérgicos en la psicosis"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "RM hipofisaria y campimetría en el macroadenoma",
+      "Cirugía transesfenoidal si hay resistencia o intolerancia a los agonistas, o apoplejía",
+      "Microprolactinoma asintomático en posmenopáusica: puede solo vigilarse"
+    ],
+    "claves": [
+      "**Una macroprolactina o un fármaco explican muchas hiperprolactinemias «tumorales».**",
+      "Tumor grande con prolactina solo moderadamente alta: efecto tallo o efecto gancho (diluir la muestra)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de prolactinoma e hipopituitarismo; Katzung 15.ª ed., cap. 37",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-deficit-vitamina-d",
+    "nombre": "Déficit de vitamina D",
+    "sinonimos": [
+      "Hipovitaminosis D",
+      "Osteomalacia",
+      "Raquitismo"
+    ],
+    "area": "END",
+    "resumen": "**No se recomienda el cribado universal**: medir 25-OH-vitamina D solo en grupos de riesgo (osteoporosis, malabsorción, ERC, hepatopatía, fármacos inductores, institucionalizados, piel oscura con poca exposición solar). **Déficit**: <20 ng/mL (grave <10-12). Tratamiento con **colecalciferol** (dosis diaria o semanal mejor que megadosis espaciadas); el **calcifediol** es más potente y de acción más rápida (malabsorción, hepatopatía). El **calcitriol** solo en ERC avanzada o hipoparatiroidismo.",
+    "objetivo": "25-OH-vitamina D ≥20-30 ng/mL sin toxicidad.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento del déficit",
+        "farmacos": [
+          {
+            "nombre": "Colecalciferol",
+            "ref": "END-colecalciferol",
+            "dosis": "50.000 UI semanales 8 semanas (o 4.000-6.000 UI/día)",
+            "via": "VO",
+            "intervalo": "Semanal o diaria",
+            "duracion": "8-12 semanas; después mantenimiento 800-2.000 UI/día"
+          },
+          {
+            "nombre": "Calcifediol (malabsorción o hepatopatía)",
+            "ref": "END-calcifediol",
+            "dosis": "0,266 mg",
+            "via": "VO",
+            "intervalo": "Cada 1-2 semanas (déficit) o mensual (mantenimiento)",
+            "duracion": "Según niveles",
+            "nota": "Alternativa. Riesgo de sobredosificación si se confunde la frecuencia"
+          }
+        ]
+      },
+      {
+        "titulo": "ERC avanzada o hipoparatiroidismo",
+        "farmacos": [
+          {
+            "nombre": "Calcitriol",
+            "ref": "END-calcitriol",
+            "dosis": "0,25-0,5 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Control de calcio y fósforo"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis en el lactante",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Vitamina D3",
+            "ref": "PED-END-vitamina-d",
+            "dosis": "400 UI/día (dosis fija)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Primer año de vida (lactancia materna o <1 L de fórmula)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Exposición solar moderada, alimentos ricos o fortificados",
+      "Control de 25-OH-vitamina D a los 3 meses en el déficit grave",
+      "Asegurar calcio dietético (1.000-1.200 mg/día)"
+    ],
+    "claves": [
+      "**Las megadosis anuales (≥300.000 UI) aumentan las caídas y las fracturas.**",
+      "Hipercalcemia con calcifediol: casi siempre ampollas tomadas semanalmente en lugar de mensualmente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de vitamina D; Katzung 15.ª ed., cap. 42",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-sangrado-uterino-anormal",
+    "nombre": "Sangrado uterino anormal y sangrado menstrual abundante",
+    "sinonimos": [
+      "Menorragia",
+      "Metrorragia",
+      "Sangrado menstrual abundante",
+      "SUA"
+    ],
+    "area": "GIN",
+    "resumen": "Clasificar con **PALM-COEIN** (estructurales: pólipo, adenomiosis, mioma, malignidad; no estructurales: coagulopatía, ovulatoria, endometrial, iatrogénica). Siempre **test de embarazo** y **hemograma con ferritina**; ecografía transvaginal; **biopsia endometrial** si ≥45 años, factores de riesgo o fracaso del tratamiento. Médico: **DIU de levonorgestrel** (el más eficaz), **ácido tranexámico** o AINE durante la regla (no hormonales), anticonceptivos combinados o gestágenos. **Sangrado agudo intenso**: estrógenos o gestágenos a dosis altas, tranexámico IV.",
+    "objetivo": "Reducir el sangrado, corregir la anemia y descartar patología maligna.",
+    "escenarios": [
+      {
+        "titulo": "Sangrado menstrual abundante crónico",
+        "farmacos": [
+          {
+            "nombre": "DIU de levonorgestrel",
+            "ref": "GIN-diu-levonorgestrel",
+            "dosis": "52 mg",
+            "via": "intrauterina",
+            "intervalo": "Inserción única",
+            "duracion": "Hasta 8 años",
+            "nota": "Reduce el sangrado un 80-90%"
+          },
+          {
+            "nombre": "Ácido tranexámico",
+            "ref": "HEM-acido-tranexamico",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h durante la regla",
+            "duracion": "Máximo 5 días por ciclo",
+            "nota": "Reduce el sangrado un 40-50%; no en trombosis previa"
+          },
+          {
+            "nombre": "Naproxeno o ibuprofeno",
+            "ref": "REU-naproxeno",
+            "dosis": "500 mg (ibuprofeno 400-600 mg)",
+            "via": "VO",
+            "intervalo": "Cada 12 h (ibuprofeno cada 8 h) durante la regla",
+            "duracion": "3-5 días por ciclo",
+            "nota": "Reduce el sangrado un 20-40% y el dolor"
+          },
+          {
+            "nombre": "Anticonceptivo combinado",
+            "ref": "GIN-etinilestradiol-levonorgestrel",
+            "dosis": "30 µg/150 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Sangrado agudo intenso (estable hemodinámicamente)",
+        "farmacos": [
+          {
+            "nombre": "Ácido tranexámico IV",
+            "ref": "HEM-acido-tranexamico",
+            "dosis": "1 g (10 mg/kg)",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta controlar el sangrado (≤5 días)"
+          },
+          {
+            "nombre": "Anticonceptivo combinado a dosis alta",
+            "ref": "GIN-etinilestradiol-levonorgestrel",
+            "dosis": "30 µg/150 µg",
+            "via": "VO",
+            "intervalo": "Cada 8 h 7 días; después cada 24 h",
+            "duracion": "Pauta de descenso; después continuar 3 meses",
+            "nota": "Antiemético asociado; no si hay contraindicación de estrógenos"
+          }
+        ]
+      },
+      {
+        "titulo": "Anemia asociada",
+        "farmacos": [
+          {
+            "nombre": "Sulfato ferroso",
+            "ref": "HEM-sulfato-ferroso",
+            "dosis": "80-100 mg de hierro elemental",
+            "via": "VO",
+            "intervalo": "Días alternos o cada 24 h",
+            "duracion": "3 meses tras normalizar la Hb"
+          },
+          {
+            "nombre": "Hierro carboximaltosa (intolerancia o anemia grave)",
+            "ref": "HEM-hierro-carboximaltosa",
+            "dosis": "1.000 mg (20 mg/kg)",
+            "via": "IV",
+            "intervalo": "Dosis única; 2.ª a la semana si es necesario",
+            "duracion": "1-2 dosis",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ecografía transvaginal; biopsia endometrial en ≥45 años o con riesgo",
+      "Estudio de coagulopatía (von Willebrand) si sangrado abundante desde la menarquia",
+      "Histeroscopia, ablación endometrial, miomectomía o histerectomía según causa y deseo genésico"
+    ],
+    "claves": [
+      "**Sangrado posmenopáusico = cáncer de endometrio hasta demostrar lo contrario.**",
+      "Sangrado abundante desde la menarquia: buscar enfermedad de von Willebrand."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos menstruales; Katzung 15.ª ed., caps. 34 y 40; sistema PALM-COEIN de la FIGO",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 8,
+      "cotejadas_en_fuente": 7,
+      "resultado": "Revisadas las 8 pautas (7 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-endometriosis",
+    "nombre": "Endometriosis",
+    "sinonimos": [
+      "Endometrioma",
+      "Adenomiosis"
+    ],
+    "area": "GIN",
+    "resumen": "**Dismenorrea progresiva**, dispareunia profunda, dolor pélvico crónico, disquecia o infertilidad. El diagnóstico es clínico y por imagen (ecografía transvaginal, RM); no hace falta laparoscopia para empezar a tratar. **Primera línea**: AINE + **anticonceptivo combinado continuo** o **gestágeno** (dienogest, desogestrel, DIU de levonorgestrel). **Segunda línea**: análogos o antagonistas de GnRH (con add-back). Cirugía si fracasa el tratamiento médico, endometrioma grande o infertilidad.",
+    "objetivo": "Controlar el dolor y preservar la fertilidad.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          {
+            "nombre": "Naproxeno",
+            "ref": "REU-naproxeno",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Durante la regla o los días de dolor"
+          },
+          {
+            "nombre": "Anticonceptivo combinado en pauta continua",
+            "ref": "GIN-etinilestradiol-levonorgestrel",
+            "dosis": "30 µg/150 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h sin descanso",
+            "duracion": "Continuo"
+          },
+          {
+            "nombre": "Dienogest",
+            "ref": "GIN-dienogest",
+            "dosis": "2 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Prolongada"
+          },
+          {
+            "nombre": "DIU de levonorgestrel",
+            "ref": "GIN-diu-levonorgestrel",
+            "dosis": "52 mg",
+            "via": "intrauterina",
+            "intervalo": "Inserción única",
+            "duracion": "Hasta 8 años",
+            "nota": "Alternativa; muy útil en la adenomiosis"
+          },
+          {
+            "nombre": "Desogestrel (contraindicación de estrógenos)",
+            "ref": "GIN-desogestrel",
+            "dosis": "75 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h continuo",
+            "duracion": "Continuo",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Segunda línea (refractaria)",
+        "farmacos": [
+          {
+            "nombre": "Relugolix + estradiol + noretisterona",
+            "ref": "GIN-relugolix-combinado",
+            "dosis": "40/1/0,5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Prolongada con control óseo"
+          },
+          {
+            "nombre": "Leuprorelina + add-back",
+            "ref": "GIN-leuprorelina",
+            "dosis": "3,75 mg mensual o 11,25 mg trimestral",
+            "via": "IM o SC",
+            "intervalo": "Cada 4 o 12 semanas",
+            "duracion": "6 meses (más con add-back)",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ecografía transvaginal por personal experto; RM en la endometriosis profunda",
+      "Cirugía laparoscópica con extirpación de las lesiones si fracasa el tratamiento médico",
+      "Derivar a reproducción si hay infertilidad"
+    ],
+    "claves": [
+      "**Dismenorrea que no responde a AINE ni a anticonceptivos: endometriosis hasta demostrar lo contrario.**",
+      "El retraso diagnóstico medio es de 7-10 años: preguntar activamente por dispareunia y disquecia."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del aparato reproductor femenino; guías ESHRE de endometriosis (2022)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 7 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-mastitis-lactancia",
+    "nombre": "Mastitis puerperal e inhibición de la lactancia",
+    "sinonimos": [
+      "Mastitis",
+      "Absceso mamario",
+      "Ingurgitación mamaria",
+      "Supresión de la lactancia"
+    ],
+    "area": "GIN",
+    "resumen": "**Mastitis**: zona mamaria dolorosa, roja y caliente con fiebre y malestar en la lactancia, casi siempre por **S. aureus**. **No suspender la lactancia** (vaciar el pecho ayuda). Analgesia con ibuprofeno y frío; **antibiótico** si no mejora en 12-24 h o hay afectación general. Absceso (masa fluctuante): ecografía y drenaje. **Inhibición de la lactancia** (pérdida perinatal, contraindicación de lactar): **cabergolina** en dosis única.",
+    "objetivo": "Curar la mastitis manteniendo la lactancia, o suprimirla cuando está indicado.",
+    "escenarios": [
+      {
+        "titulo": "Mastitis",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Según síntomas",
+            "nota": "Compatible con la lactancia"
+          },
+          {
+            "nombre": "Cloxacilina",
+            "ref": "INF-cloxacilina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h, en ayunas",
+            "duracion": "10-14 días"
+          },
+          {
+            "nombre": "Cefalexina",
+            "ref": "INF-cefalexina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "10-14 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Clindamicina (alergia o riesgo de SARM)",
+            "ref": "INF-clindamicina",
+            "dosis": "300 mg",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "10-14 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Inhibición de la lactancia",
+        "farmacos": [
+          {
+            "nombre": "Cabergolina",
+            "ref": "END-cabergolina",
+            "dosis": "1 mg (si ya está establecida: 0,25 mg cada 12 h 2 días)",
+            "via": "VO",
+            "intervalo": "Dosis única en el primer día posparto",
+            "duracion": "1 día (o 2 días)",
+            "nota": "No en preeclampsia ni HTA posparto no controlada"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Vaciar el pecho con frecuencia (lactancia, sacaleches); corregir el agarre",
+      "Frío entre tomas; sujetador cómodo",
+      "Mastitis en mujer no lactante o que no se resuelve: descartar carcinoma inflamatorio"
+    ],
+    "claves": [
+      "**La mastitis no es motivo para suspender la lactancia.**",
+      "La bromocriptina ya no se usa para inhibir la lactancia (ictus, IAM, convulsiones)."
+    ],
+    "fuente": "Harrison 20.ª ed.; protocolos de la Academy of Breastfeeding Medicine; Katzung 15.ª ed., cap. 37",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-aborto-farmacologico",
+    "nombre": "Aborto espontáneo, aborto diferido e interrupción farmacológica del embarazo",
+    "sinonimos": [
+      "Aborto diferido",
+      "Aborto incompleto",
+      "Interrupción voluntaria del embarazo",
+      "Pérdida gestacional precoz"
+    ],
+    "area": "GIN",
+    "resumen": "Confirmar con **ecografía** la localización intrauterina (descartar **ectópico**) y la edad gestacional. Manejo **expectante, farmacológico o quirúrgico** según preferencia y estabilidad. Farmacológico (≤12 semanas): **mifepristona + misoprostol** (la combinación es más eficaz que el misoprostol solo). **Inmunoglobulina anti-D** en mujeres Rh negativas según edad gestacional y guía. Comprobar la expulsión completa.",
+    "objetivo": "Evacuación completa con la menor morbilidad.",
+    "escenarios": [
+      {
+        "titulo": "Aborto diferido o interrupción ≤12 semanas",
+        "farmacos": [
+          {
+            "nombre": "Mifepristona",
+            "ref": "GIN-mifepristona",
+            "dosis": "200 mg",
+            "via": "VO",
+            "intervalo": "Dosis única",
+            "duracion": "Día 1"
+          },
+          {
+            "nombre": "Misoprostol",
+            "ref": "GIN-misoprostol",
+            "dosis": "800 µg",
+            "via": "vaginal, bucal o SL",
+            "intervalo": "24-48 h tras la mifepristona; repetir 400 µg cada 3 h si no hay expulsión",
+            "duracion": "Hasta la expulsión"
+          },
+          {
+            "nombre": "Ibuprofeno (dolor)",
+            "ref": "REU-ibuprofeno",
+            "dosis": "600-800 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Según dolor",
+            "nota": "Puede tomarse con el misoprostol"
+          }
+        ]
+      },
+      {
+        "titulo": "Aborto incompleto",
+        "farmacos": [
+          {
+            "nombre": "Misoprostol",
+            "ref": "GIN-misoprostol",
+            "dosis": "600 µg VO o 400 µg SL",
+            "via": "VO o SL",
+            "intervalo": "Dosis única",
+            "duracion": "1 dosis"
+          }
+        ]
+      },
+      {
+        "titulo": "Mujer Rh negativa",
+        "farmacos": [
+          {
+            "nombre": "Inmunoglobulina anti-D",
+            "ref": "INM-inmunoglobulina-anti-d",
+            "dosis": "250-300 µg (50 µg antes de las 12 semanas en algunas guías)",
+            "via": "IM",
+            "intervalo": "Dosis única en <72 h",
+            "duracion": "1 dosis",
+            "nota": "Según la guía local (muchas ya no la indican <12 semanas en el aborto farmacológico)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ecografía para confirmar gestación intrauterina; β-hCG seriada si la localización es dudosa",
+      "Aspiración uterina si hay hemorragia importante, infección o preferencia",
+      "Control a las 2-3 semanas (prueba de embarazo de baja sensibilidad o ecografía); anticoncepción inmediata si se desea"
+    ],
+    "claves": [
+      "**Dolor y sangrado con β-hCG positiva y útero vacío: embarazo ectópico hasta demostrar lo contrario.**",
+      "Fiebre o dolor persistente tras un aborto: retención de restos o endometritis."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 40; guía de la OMS sobre atención para el aborto (2022)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-enuresis",
+    "nombre": "Enuresis nocturna",
+    "sinonimos": [
+      "Enuresis",
+      "Incontinencia nocturna infantil"
+    ],
+    "area": "NFR",
+    "resumen": "Escapes de orina durante el sueño en un niño **≥5 años**. **Monosintomática** (sin síntomas diurnos) y **primaria** en la mayoría: benigna, con resolución espontánea del 15% al año. Descartar ITU, diabetes, **estreñimiento** y apnea del sueño; si es **secundaria** (tras ≥6 meses seco) o hay síntomas diurnos, estudiar. Tratamiento desde los 6-7 años si preocupa: **alarma de enuresis** (más curación a largo plazo) o **desmopresina** (respuesta rápida); combinación si fracasan.",
+    "objetivo": "Noches secas sin culpabilizar al niño.",
+    "escenarios": [
+      {
+        "titulo": "Enuresis monosintomática",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Desmopresina",
+            "ref": "PED-END-desmopresina",
+            "dosis": "120 µg (liofilizado; hasta 240 µg)",
+            "via": "SL",
+            "intervalo": "Al acostarse",
+            "duracion": "Ciclos de 3 meses con retirada estructurada",
+            "nota": "Restringir líquidos 1 h antes y 8 h después"
+          },
+          {
+            "nombre": "Oxibutinina (síntomas diurnos o vejiga hiperactiva asociada)",
+            "ref": "NFR-oxibutinina",
+            "dosis": "2,5-5 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "3 meses y reevaluar",
+            "otra_poblacion": true,
+            "nota": "Añadida a la desmopresina si no responde; tratar antes el estreñimiento"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar que es involuntaria y frecuente; nunca castigar",
+      "Micciones regulares de día, no restringir líquidos de mañana, sí 1-2 h antes de dormir",
+      "Alarma de enuresis 2-3 meses (tratamiento de primera línea junto a la desmopresina)",
+      "Tratar el estreñimiento si existe"
+    ],
+    "claves": [
+      "**Enuresis secundaria: descartar diabetes, ITU, estreñimiento, apnea y abuso o estrés.**",
+      "Desmopresina con ingesta de agua abundante: riesgo de hiponatremia y convulsiones."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 37; recomendaciones de la ICCS sobre enuresis",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 2,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 2 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-colico-lactante",
+    "nombre": "Cólico del lactante",
+    "sinonimos": [
+      "Llanto excesivo del lactante",
+      "Cólico infantil"
+    ],
+    "area": "DIG",
+    "resumen": "Llanto inconsolable **>3 h al día, >3 días por semana** en un lactante sano de **<3-4 meses** que gana peso. Benigno y autolimitado. Lo esencial es **descartar signos de alarma** (fiebre, vómitos, rechazo de tomas, escaso aumento de peso, letargia, sangre en heces) y **apoyar a los padres** (riesgo de síndrome del bebé zarandeado). Ningún fármaco es claramente eficaz: **simeticona no supera al placebo**; los **anticolinérgicos están contraindicados**. Lactobacillus reuteri puede reducir el llanto en lactancia materna.",
+    "objetivo": "Tranquilizar a la familia y descartar causas orgánicas.",
+    "escenarios": [
+      {
+        "titulo": "Lactante con cólico",
+        "poblacion": "Pediatría (lactante)",
+        "farmacos": [
+          {
+            "nombre": "Lactobacillus reuteri DSM 17938",
+            "ref": "PED-DIG-lactobacillus-reuteri",
+            "dosis": "5 gotas (10⁸ UFC)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "21 días",
+            "nota": "Beneficio sobre todo con lactancia materna"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar el curso benigno (pico a las 6 semanas, resolución a los 3-4 meses)",
+      "Técnicas de calma: contacto, movimiento, ruido blanco; turnos entre cuidadores",
+      "Si hay sospecha de alergia a proteínas de leche de vaca: fórmula extensamente hidrolizada (o retirar lácteos de la madre) durante 2-4 semanas"
+    ],
+    "claves": [
+      "**Avisar a los padres: «si sientes que vas a perder el control, deja al bebé en la cuna y sal de la habitación».**",
+      "Llanto excesivo con fiebre o rechazo de tomas no es cólico."
+    ],
+    "fuente": "Guías ESPGHAN y NICE; revisiones Cochrane sobre el cólico del lactante",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 1,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 1 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-reflujo-lactante",
+    "nombre": "Reflujo gastroesofágico del lactante",
+    "sinonimos": [
+      "Regurgitaciones del lactante",
+      "ERGE del lactante",
+      "Lactante regurgitador"
+    ],
+    "area": "DIG",
+    "resumen": "La **regurgitación fisiológica** («lactante regurgitador feliz») es muy frecuente, empieza en las primeras semanas y se resuelve hacia los **12-18 meses**: **no necesita fármacos**, solo explicación. **ERGE** (reflujo con complicaciones: rechazo de tomas, irritabilidad intensa, escaso aumento de peso, esofagitis, síntomas respiratorios): medidas dietéticas, prueba con **fórmula hidrolizada** (alergia a proteínas de leche de vaca), y solo si persiste, **IBP** en prueba de 4-8 semanas. Signos de alarma: vómitos biliosos o en escopetazo, hematemesis, fiebre, abombamiento de fontanela.",
+    "objetivo": "Evitar tratamientos innecesarios y detectar la ERGE y sus imitadores.",
+    "escenarios": [
+      {
+        "titulo": "ERGE confirmada o muy probable que no responde a medidas",
+        "poblacion": "Pediatría (lactante)",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol",
+            "ref": "PED-DIG-omeprazol",
+            "dosis": "1 mg/kg/día (máximo 20 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h, 30 min antes de la toma",
+            "duracion": "Prueba de 4-8 semanas; retirar si no hay mejoría"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar la sobrealimentación; tomas más pequeñas y frecuentes",
+      "Espesantes de la fórmula (fórmula antirregurgitación) en lactancia artificial",
+      "Prueba de 2-4 semanas con fórmula extensamente hidrolizada o dieta materna sin lácteos",
+      "Dormir siempre boca arriba (no elevar ni poner de lado: riesgo de muerte súbita)"
+    ],
+    "claves": [
+      "**Los IBP no reducen el llanto ni las regurgitaciones del lactante sano y aumentan las infecciones.**",
+      "Vómitos en escopetazo a las 3-6 semanas: estenosis hipertrófica de píloro."
+    ],
+    "fuente": "Guías ESPGHAN/NASPGHAN de reflujo gastroesofágico pediátrico; Katzung 15.ª ed., cap. 62",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 1,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 1 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-profilaxis-lactante-hierro-vitd",
+    "nombre": "Profilaxis de vitamina D y de hierro en el lactante",
+    "sinonimos": [
+      "Suplementos del lactante",
+      "Prevención de anemia ferropénica infantil",
+      "Raquitismo"
+    ],
+    "area": "HEM",
+    "resumen": "**Vitamina D 400 UI/día** desde los primeros días hasta el año en lactancia materna exclusiva o mixta (o con <1 L/día de fórmula). **Hierro**: los **prematuros y los de bajo peso** necesitan suplementos desde las 2-4 semanas; los nacidos a término con lactancia materna exclusiva, en algunas guías desde los 4-6 meses hasta introducir alimentos ricos en hierro. Evitar la leche de vaca antes de los 12 meses y su exceso después (>500 mL/día).",
+    "objetivo": "Prevenir el raquitismo y la anemia ferropénica.",
+    "escenarios": [
+      {
+        "titulo": "Profilaxis",
+        "poblacion": "Pediatría (lactante)",
+        "farmacos": [
+          {
+            "nombre": "Vitamina D3",
+            "ref": "PED-END-vitamina-d",
+            "dosis": "400 UI/día (dosis fija; 800 UI en prematuros)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta el año (más si hay factores de riesgo)"
+          },
+          {
+            "nombre": "Hierro oral (prematuro o bajo peso)",
+            "ref": "PED-HEM-hierro-oral",
+            "dosis": "2-4 mg/kg/día de hierro elemental",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Desde las 2-4 semanas hasta los 6-12 meses"
+          },
+          {
+            "nombre": "Hierro oral (término con lactancia materna exclusiva, según guía)",
+            "ref": "PED-HEM-hierro-oral",
+            "dosis": "1 mg/kg/día de hierro elemental",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Desde los 4-6 meses hasta tomar alimentos ricos en hierro"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Alimentación complementaria rica en hierro desde los 6 meses (carne, legumbres, cereales fortificados)",
+      "Pinzamiento tardío del cordón al nacer",
+      "No dar leche de vaca entera antes de los 12 meses"
+    ],
+    "claves": [
+      "**Niño pequeño pálido que bebe mucha leche de vaca: anemia ferropénica.**",
+      "El hierro oral tiñe las heces de negro: avisar a la familia."
+    ],
+    "fuente": "Recomendaciones de la AAP y la ESPGHAN sobre vitamina D y hierro; Katzung 15.ª ed., caps. 33 y 42",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-itu-febril-nino",
+    "nombre": "Infección urinaria febril en el niño",
+    "sinonimos": [
+      "Pielonefritis infantil",
+      "ITU febril",
+      "Infección urinaria en lactante"
+    ],
+    "area": "INF",
+    "resumen": "Sospechar en todo **lactante con fiebre sin foco**. Recoger orina por **método fiable** (sondaje o punción suprapúbica en el que no controla esfínteres; las bolsas solo sirven para descartar) y **urocultivo** antes del antibiótico. **Ingreso** si <2-3 meses, mal estado, vómitos o intolerancia oral, uropatía conocida o sin seguimiento posible. La mayoría puede tratarse **por vía oral** desde el inicio. **Ecografía renal** tras la primera ITU febril en lactantes; cistografía solo si es recurrente o la ecografía es anormal.",
+    "objetivo": "Tratar precozmente para evitar las cicatrices renales.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento oral (buen estado, >2-3 meses)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico",
+            "ref": "PED-INF-amoxicilina-clavulanico",
+            "dosis": "40-50 mg/kg/día de amoxicilina",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "7-10 días",
+            "nota": "Según resistencias locales y urocultivo"
+          },
+          {
+            "nombre": "Cefixima",
+            "ref": "INF-cefixima",
+            "dosis": "8 mg/kg/día (máximo 400 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h (o repartida cada 12 h)",
+            "duracion": "7-10 días",
+            "otra_poblacion": true,
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Tratamiento intravenoso (lactante pequeño o mal estado)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "PED-INF-ceftriaxona",
+            "dosis": "50-75 mg/kg/día",
+            "via": "IV o IM",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta afebril 24-48 h; completar 7-10 días por vía oral"
+          },
+          {
+            "nombre": "Gentamicina (alternativa o asociada en el neonato)",
+            "ref": "INF-gentamicina",
+            "dosis": "5 mg/kg/día",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según evolución",
+            "otra_poblacion": true,
+            "nota": "En <1 mes: ampicilina + gentamicina (cubre Enterococcus)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ecografía renal y vesical tras la primera ITU febril en el lactante",
+      "Tratar el estreñimiento y la disfunción miccional en el niño mayor",
+      "Profilaxis antibiótica solo en casos seleccionados (reflujo vesicoureteral de alto grado)"
+    ],
+    "claves": [
+      "**Una orina recogida con bolsa positiva no confirma la ITU (contaminación frecuente).**",
+      "Fiebre sin foco en lactante <3 meses: valoración hospitalaria."
+    ],
+    "fuente": "Guías AAP y NICE de infección urinaria infantil; Katzung 15.ª ed., cap. 46",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

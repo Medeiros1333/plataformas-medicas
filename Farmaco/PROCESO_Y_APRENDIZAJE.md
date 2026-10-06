@@ -254,3 +254,15 @@ Dos errores aparecieron al probarlas con casos conocidos:
 2. **Faltaba la dosis diaria.** Una dosis «por toma» solo se compara con un máximo diario si se calcula el total del día con el intervalo.
 
 **Probar con casos cuyo resultado se conoce de antemano detectó lo que la revisión del código no había visto:** paracetamol con 80 kg, mujer de 78 años con creatinina 1,4, y sildenafilo con nitrato.
+
+### #41 — Medir la cobertura exige una lista de referencia escrita
+A la pregunta «¿qué porcentaje de la práctica del médico general cubre la plataforma?» no se puede responder contando patologías: 154 no dice nada sin un denominador. Se escribió una **lista de referencia de 213 cuadros tratados con fármacos** en atención primaria y urgencias, agrupados por área y con criterios de los motivos de consulta (tipo ICPC-2) y de los protocolos de urgencias.
+
+Con ella, la cobertura era del 73% (156/213), o de ~90% ponderando por frecuencia de consulta. Las lagunas tenían un patrón claro:
+- **urgencias específicas**: PCR, intubación, intoxicaciones;
+- **quejas comunes de consulta** que no parecen «enfermedades»: abscesos, ombro doloroso, epistaxis, ojo seco, aftas, sangrado uterino;
+- **pediatría del lactante**.
+
+El cierre añadió 58 patologías y llevó la lista al 100%.
+
+**Advertencia para el futuro:** el 100% es respecto a esa lista, no respecto a toda la medicina general. La lista es finita y propia. Cada hueco que aparezca al usar la plataforma se añade **a la lista y a la plataforma**, para que el porcentaje siga siendo honesto.

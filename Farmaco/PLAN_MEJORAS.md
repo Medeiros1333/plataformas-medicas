@@ -58,3 +58,4 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | 2026-10-05 | D: vista «Calculadoras» (hub/calculadoras.js): Cockcroft-Gault (peso real/ideal/ajustado) y CKD-EPI 2021 con resaltado del ajuste renal aplicable; dosis por peso con total diario y alerta de dosis máxima; verificador de interacciones agrupado por par y ordenado por gravedad | ✅ |
 | 2026-10-05 | B: 966 pautas revisadas (791 cotejadas en Harrison/Katzung, todas revisadas clínicamente), 4 correcciones, campo `revision` en las 154 patologías y aviso del validador si falta (REVISION_DOSIS.md) | ✅ |
 | 2026-10-05 | E: pipeline 0 errores/0 avisos, prueba headless, PROGRESO, PROCESO_Y_APRENDIZAJE (#38-40), README y playbook actualizados; publicado | ✅ |
+| 2026-10-06 | Cierre de lagunas: 58 patologías y 19 fichas; cobertura 213/213 de la lista de referencia (hallazgo #41) | ✅ |

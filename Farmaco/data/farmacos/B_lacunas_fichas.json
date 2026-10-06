@@ -1,0 +1,1437 @@
+[
+  {
+    "id": "DER-triamcinolona-orabase",
+    "nombre": "Triamcinolona acetónido en pasta oral (orabase)",
+    "sinonimos": [
+      "Corticoide tópico oral"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento tópico de la mucosa oral",
+    "subclase": "Corticoide en excipiente adhesivo",
+    "vs_clase": [
+      "**El único de la clase que trata la INFLAMACIÓN de la úlcera**: acorta la duración de las aftas si se aplica en el **pródromo**.",
+      "**Excipiente adhesivo** (orabase) que mantiene el corticoide sobre la mucosa húmeda.",
+      "Uso prolongado: **candidiasis oral** secundaria."
+    ],
+    "mecanismo": "Glucocorticoide de potencia media que reduce la inflamación linfocitaria de la úlcera aftosa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Aftas orales (estomatitis aftosa recurrente)",
+        "dosis": "1 aplicación de pasta al 0,1% sobre la lesión",
+        "posologia": "Cada 8-12 h (tras las comidas y al acostarse)",
+        "via": "bucal",
+        "nota": "Hasta la curación (5-7 días)"
+      }
+    ],
+    "esquema": {
+      "inicio": "En cuanto aparece el pródromo (escozor).",
+      "titulacion": "—",
+      "duracion": "5-7 días por brote.",
+      "fin": "—",
+      "via": "Bucal: secar la mucosa y aplicar sin frotar.",
+      "monitorizacion": "Úlcera >2 semanas: biopsia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local, mínima.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (lo absorbido).",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Ardor local transitorio"
+      ],
+      "graves": [
+        "Candidiasis oral con uso prolongado"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección oral herpética, fúngica o bacteriana no tratada"
+    ],
+    "perlas": [
+      "Aftas muy frecuentes, grandes o con síntomas sistémicos: buscar Behçet, celiaquía, Crohn, déficit de B12, hierro o folato, VIH."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 61; Harrison 20.ª ed., cap. de enfermedades de la boca"
+  },
+  {
+    "id": "DER-clorhexidina-colutorio",
+    "nombre": "Clorhexidina colutorio",
+    "sinonimos": [],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento tópico de la mucosa oral",
+    "subclase": "Antiséptico bucal",
+    "vs_clase": [
+      "**ANTISÉPTICO**: reduce la sobreinfección de las aftas y la placa; útil en **gingivitis** y tras cirugía oral.",
+      "**Tiñe los dientes de marrón** y altera el gusto con el uso prolongado.",
+      "Separar **30 min de la pasta de dientes** (el laurilsulfato la inactiva)."
+    ],
+    "mecanismo": "Biguanida catiónica que altera la membrana bacteriana y se une a la mucosa, con efecto residual de horas.",
+    "espectro": "Cubre: bacterias grampositivas y gramnegativas de la placa, Candida (parcial).",
+    "indicaciones": [
+      {
+        "patologia": "Aftas, gingivitis, higiene oral en pacientes con mucositis o tras cirugía oral",
+        "dosis": "15 mL al 0,12%",
+        "posologia": "Enjuague de 30 s cada 12 h",
+        "via": "bucal",
+        "nota": "No tragar"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "≤2 semanas (tinción).",
+      "fin": "—",
+      "via": "Bucal.",
+      "monitorizacion": "Tinción dental."
+    },
+    "farmacocinetica": {
+      "absorcion": "Despreciable.",
+      "distribucion": "Se fija a la mucosa y la placa.",
+      "metabolismo": "—",
+      "eliminacion": "Fecal (lo tragado).",
+      "vida_media": "Efecto residual de 8-12 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Pasta de dientes (laurilsulfato sódico)",
+          "efecto": "Inactivación",
+          "gravedad": "baja",
+          "manejo": "Separar 30 min"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Tinción parda de dientes y lengua**",
+        "Alteración del gusto"
+      ],
+      "graves": [
+        "Anafilaxia (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a la clorhexidina"
+    ],
+    "perlas": [
+      "La tinción se retira con limpieza dental profesional."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 50"
+  },
+  {
+    "id": "DER-bencidamina-colutorio",
+    "nombre": "Bencidamina colutorio",
+    "sinonimos": [
+      "Lidocaína viscosa"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Tratamiento tópico de la mucosa oral",
+    "subclase": "Antiinflamatorio y anestésico local bucal",
+    "vs_clase": [
+      "**ALIVIO DEL DOLOR** de aftas, faringitis y **mucositis por quimio o radioterapia** (antiinflamatorio local con efecto anestésico).",
+      "No acelera la curación; se usa **antes de las comidas** para poder comer.",
+      "La **lidocaína viscosa** es la alternativa anestésica pura (riesgo de aspiración y de toxicidad en niños)."
+    ],
+    "mecanismo": "Antiinflamatorio no esteroideo local que estabiliza membranas y bloquea canales de sodio de las terminaciones nerviosas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Dolor de aftas orales, mucositis, faringitis",
+        "dosis": "15 mL al 0,15%",
+        "posologia": "Enjuague de 30 s cada 3-6 h",
+        "via": "bucal",
+        "nota": "No tragar"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "≤7 días (más en mucositis).",
+      "fin": "—",
+      "via": "Bucal.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Entumecimiento, escozor"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Diluir a la mitad si escuece demasiado."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 36"
+  },
+  {
+    "id": "OFT-hialuronato-sodico",
+    "nombre": "Hialuronato sódico colirio (lágrima artificial)",
+    "sinonimos": [
+      "Lágrimas artificiales"
+    ],
+    "area": "OFT",
+    "nivel": 1,
+    "clase": "Lubricante y antiinflamatorio de la superficie ocular",
+    "subclase": "Lágrima artificial viscoelástica",
+    "vs_clase": [
+      "**De primera línea en el OJO SECO** y protección corneal (parálisis facial, lagoftalmos).",
+      "**Viscoelástico**: se espesa en reposo y se fluidifica al parpadear (mejor permanencia que el suero).",
+      "**Sin conservantes (monodosis)** si se usa >4-6 veces al día (el cloruro de benzalconio daña el epitelio)."
+    ],
+    "mecanismo": "Polímero que retiene agua y estabiliza la película lagrimal; favorece la cicatrización epitelial.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Ojo seco; protección corneal en la parálisis de Bell",
+        "dosis": "1 gota (0,1-0,3%)",
+        "posologia": "Cada 4-6 h o a demanda",
+        "via": "oftálmica",
+        "nota": "En la parálisis facial, más gel o pomada nocturna y oclusión"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "Aumentar frecuencia o viscosidad según síntomas.",
+      "duracion": "Crónica o mientras dure la causa.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula.",
+      "distribucion": "Superficie ocular.",
+      "metabolismo": "—",
+      "eliminacion": "Drenaje lagrimal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros colirios",
+          "efecto": "Lavado",
+          "gravedad": "baja",
+          "manejo": "Separar 5-10 min"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa transitoria"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Ojo seco con boca seca y artralgias: buscar síndrome de Sjögren."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares"
+  },
+  {
+    "id": "OFT-carmelosa",
+    "nombre": "Carmelosa (carboximetilcelulosa) colirio y geles oftálmicos",
+    "sinonimos": [
+      "Carbómero gel",
+      "Pomada oftálmica de vaselina"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Lubricante y antiinflamatorio de la superficie ocular",
+    "subclase": "Lágrima artificial celulósica y geles",
+    "vs_clase": [
+      "**Celulósica**: buena retención y precio bajo; alternativa al hialuronato.",
+      "Los **geles (carbómero) y pomadas** duran más pero **emborronan la visión**: de elección **por la noche**.",
+      "Útil en la **queratitis por exposición** (parálisis facial, coma, UCI)."
+    ],
+    "mecanismo": "Polímero que aumenta la viscosidad y el tiempo de permanencia de la película lagrimal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Ojo seco; queratitis por exposición",
+        "dosis": "1 gota (0,5-1%) o 1 cm de gel",
+        "posologia": "Cada 4-6 h (gel o pomada al acostarse)",
+        "via": "oftálmica",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "—",
+      "titulacion": "—",
+      "duracion": "Según la causa.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Nula.",
+      "distribucion": "Superficie ocular.",
+      "metabolismo": "—",
+      "eliminacion": "Drenaje lagrimal.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros colirios",
+          "efecto": "Lavado",
+          "gravedad": "baja",
+          "manejo": "Separar 5-10 min"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa (geles y pomadas)"
+      ],
+      "graves": [
+        "Excepcionales"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Ojo rojo con dolor y fotofobia en el ojo seco: descartar úlcera corneal."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares"
+  },
+  {
+    "id": "OFT-ciclosporina-oftalmica",
+    "nombre": "Ciclosporina oftálmica",
+    "sinonimos": [
+      "Lifitegrast"
+    ],
+    "area": "OFT",
+    "nivel": 3,
+    "clase": "Lubricante y antiinflamatorio de la superficie ocular",
+    "subclase": "Inmunomodulador tópico ocular",
+    "vs_clase": [
+      "**Trata la INFLAMACIÓN** del ojo seco moderado-grave (no solo lubrica): queratitis que persiste pese a lágrimas artificiales.",
+      "**Efecto lento (1-3 meses)**: hay que avisar para que no la abandonen.",
+      "**Escozor** al instilar, el efecto adverso más frecuente."
+    ],
+    "mecanismo": "Inhibidor de la calcineurina que reduce la activación de linfocitos T en la superficie ocular y aumenta la producción lagrimal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Ojo seco moderado-grave con queratitis",
+        "dosis": "1 gota (0,05-0,1%)",
+        "posologia": "Cada 12-24 h (según preparado)",
+        "via": "oftálmica",
+        "nota": "Evaluar a los 3 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras fracaso de lubricantes sin conservantes.",
+      "titulacion": "—",
+      "duracion": "Crónica si responde.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "Respuesta a los 3 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica indetectable.",
+      "distribucion": "Superficie ocular.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Escozor** al instilar",
+        "Hiperemia"
+      ],
+      "graves": [
+        "Infección ocular (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Infección ocular activa",
+      "Neoplasia de superficie ocular"
+    ],
+    "perlas": [
+      "Seguir con lágrimas artificiales mientras empieza a actuar."
+    ],
+    "embarazo_lactancia": "Usar si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 55"
+  },
+  {
+    "id": "OFT-eritromicina-pomada",
+    "nombre": "Eritromicina pomada oftálmica",
+    "sinonimos": [
+      "Azitromicina colirio"
+    ],
+    "area": "OFT",
+    "nivel": 2,
+    "clase": "Antiinfeccioso y antiinflamatorio ocular",
+    "subclase": "Macrólido tópico ocular",
+    "vs_clase": [
+      "**Pomada para el BORDE PALPEBRAL**: blefaritis estafilocócica, orzuelo con celulitis local y conjuntivitis en niños.",
+      "**Profilaxis de la oftalmía neonatal** en muchos países.",
+      "La **azitromicina colirio** (pariente) se usa 3 días en blefaritis y conjuntivitis bacteriana."
+    ],
+    "mecanismo": "Inhibe la síntesis proteica bacteriana (subunidad 50S).",
+    "espectro": "Cubre: Staphylococcus aureus, estreptococos, Chlamydia trachomatis, Neisseria (parcial). No cubre: Pseudomonas.",
+    "indicaciones": [
+      {
+        "patologia": "Blefaritis y orzuelo con componente infeccioso",
+        "dosis": "1 cm de pomada al 0,5% en el borde palpebral",
+        "posologia": "Cada 12-24 h (al acostarse)",
+        "via": "oftálmica",
+        "nota": "1-2 semanas, con higiene palpebral"
+      }
+    ],
+    "esquema": {
+      "inicio": "Tras la limpieza del borde palpebral.",
+      "titulacion": "—",
+      "duracion": "1-2 semanas.",
+      "fin": "—",
+      "via": "Oftálmica.",
+      "monitorizacion": "—"
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "Local.",
+      "metabolismo": "—",
+      "eliminacion": "—",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Visión borrosa transitoria"
+      ],
+      "graves": [
+        "Hipersensibilidad (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Alergia a macrólidos"
+    ],
+    "perlas": [
+      "Chalazión (nódulo indoloro) no es infeccioso: calor local; si persiste, infiltración o cirugía."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [
+      "BGP-staphylococcus-aureus"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. 44"
+  },
+  {
+    "id": "END-cabergolina",
+    "nombre": "Cabergolina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 2,
+    "clase": "Agonista dopaminérgico antiprolactínico",
+    "subclase": "Derivado ergótico de acción prolongada",
+    "vs_clase": [
+      "**De elección en la HIPERPROLACTINEMIA y el PROLACTINOMA** (incluido el macroadenoma: reduce el tumor); **más eficaz y mejor tolerada** que la bromocriptina.",
+      "**Dosis SEMANAL o bisemanal** (vida media larga); **inhibición de la lactancia** con 1 mg en dosis única.",
+      "**Valvulopatía** a dosis altas (Parkinson): ecocardiograma si dosis >2 mg/semana o uso prolongado."
+    ],
+    "mecanismo": "Agonista D2 potente sobre el lactotropo hipofisario: suprime la secreción de prolactina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperprolactinemia y prolactinoma",
+        "dosis": "0,25-0,5 mg (hasta 1-2 mg)",
+        "posologia": "Una o dos veces por semana",
+        "via": "VO",
+        "nota": "Subir cada 4 semanas según prolactina"
+      },
+      {
+        "patologia": "Inhibición de la lactancia",
+        "dosis": "1 mg (0,25 mg cada 12 h 2 días si ya está establecida)",
+        "posologia": "Dosis única el primer día posparto",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis baja con comida al acostarse.",
+      "titulacion": "Según prolactina cada 4 semanas.",
+      "duracion": "≥2 años en el prolactinoma; retirada si normoprolactinemia y tumor no visible.",
+      "fin": "Retirada gradual con control de prolactina.",
+      "via": "Oral.",
+      "monitorizacion": "Prolactina, RM, campo visual en macroadenoma; ecocardiograma si dosis altas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (hidrólisis).",
+      "eliminacion": "Biliar.",
+      "vida_media": "63-69 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Antipsicóticos y metoclopramida",
+          "efecto": "Antagonismo mutuo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Macrólidos",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, mareo, hipotensión ortostática",
+        "Cefalea"
+      ],
+      "graves": [
+        "**Valvulopatía y fibrosis** (dosis altas)",
+        "**Trastornos del control de impulsos** (juego, compras)",
+        "Psicosis"
+      ]
+    },
+    "contraindicaciones": [
+      "Valvulopatía o fibrosis previa",
+      "Preeclampsia o HTA posparto no controlada (inhibición de la lactancia)"
+    ],
+    "perlas": [
+      "Antes de tratar una hiperprolactinemia: descartar embarazo, hipotiroidismo, fármacos (antipsicóticos, metoclopramida) y macroprolactina."
+    ],
+    "embarazo_lactancia": "Suspender al confirmar el embarazo (salvo macroadenoma que crece). Inhibe la lactancia.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37; Harrison 20.ª ed., cap. de prolactinoma"
+  },
+  {
+    "id": "END-bromocriptina",
+    "nombre": "Bromocriptina",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Agonista dopaminérgico antiprolactínico",
+    "subclase": "Derivado ergótico de acción corta",
+    "vs_clase": [
+      "**Acción CORTA**: 2-3 tomas al día; **peor tolerada** (náuseas, hipotensión) que la cabergolina.",
+      "**Más experiencia en el EMBARAZO**: se prefiere si se busca gestación.",
+      "Ya no se recomienda para inhibir la lactancia (ictus, IAM, convulsiones posparto)."
+    ],
+    "mecanismo": "Agonista D2 que suprime la prolactina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperprolactinemia con deseo de embarazo",
+        "dosis": "1,25 mg al inicio; 2,5-7,5 mg/día",
+        "posologia": "Cada 8-12 h con comida",
+        "via": "VO",
+        "nota": "Subir cada semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "1,25 mg al acostarse con comida.",
+      "titulacion": "Semanal.",
+      "duracion": "Según respuesta.",
+      "fin": "Suspender al confirmar el embarazo.",
+      "via": "Oral.",
+      "monitorizacion": "Prolactina, PA."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (primer paso).",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Biliar.",
+      "vida_media": "3-8 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Antipsicóticos",
+          "efecto": "Antagonismo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Claritromicina, ritonavir",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Náuseas**, hipotensión ortostática",
+        "Congestión nasal"
+      ],
+      "graves": [
+        "Valvulopatía y fibrosis",
+        "Control de impulsos"
+      ]
+    },
+    "contraindicaciones": [
+      "HTA no controlada, preeclampsia",
+      "Cardiopatía isquémica"
+    ],
+    "perlas": [
+      "Si la intolerancia digestiva limita la dosis, la vía vaginal es una alternativa fuera de ficha."
+    ],
+    "embarazo_lactancia": "Más datos de seguridad en la concepción que la cabergolina.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37"
+  },
+  {
+    "id": "END-quinagolida",
+    "nombre": "Quinagolida",
+    "sinonimos": [],
+    "area": "END",
+    "nivel": 3,
+    "clase": "Agonista dopaminérgico antiprolactínico",
+    "subclase": "Agonista D2 no ergótico",
+    "vs_clase": [
+      "**NO ergótico**: sin riesgo de fibrosis valvular; alternativa si hay intolerancia o contraindicación a los ergóticos.",
+      "**Una toma diaria** por la noche.",
+      "Comercializada solo en algunos países; más efectos neuropsiquiátricos."
+    ],
+    "mecanismo": "Agonista selectivo D2 no ergótico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperprolactinemia",
+        "dosis": "25 µg 3 días, 50 µg 3 días; mantenimiento 75-150 µg",
+        "posologia": "Cada 24 h al acostarse",
+        "via": "VO",
+        "nota": "—"
+      }
+    ],
+    "esquema": {
+      "inicio": "Escalada en 1 semana.",
+      "titulacion": "Según prolactina.",
+      "duracion": "Según respuesta.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Prolactina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "17 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Antipsicóticos",
+          "efecto": "Antagonismo",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, cefalea, mareo"
+      ],
+      "graves": [
+        "Psicosis aguda (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia hepática o renal grave"
+    ],
+    "perlas": [
+      "Útil si la cabergolina causa valvulopatía."
+    ],
+    "embarazo_lactancia": "Suspender al confirmar el embarazo.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37"
+  },
+  {
+    "id": "PSQ-metilfenidato",
+    "nombre": "Metilfenidato (adulto)",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco para el TDAH",
+    "subclase": "Psicoestimulante (inhibidor de la recaptación de dopamina y noradrenalina)",
+    "vs_clase": [
+      "**Estimulante de PRIMERA línea** en niños y adultos con TDAH; respuesta en 70%.",
+      "**Liberación inmediata (3-4 h) o prolongada (8-12 h)**: la prolongada evita dosis escolares o laborales y reduce el abuso.",
+      "**Anorexia, insomnio, taquicardia y HTA**; potencial de abuso (sustancia controlada)."
+    ],
+    "mecanismo": "Bloquea los transportadores de dopamina y noradrenalina en la corteza prefrontal y el estriado.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "TDAH del adulto",
+        "dosis": "18-36 mg de liberación prolongada; hasta 72-108 mg/día",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "Subir cada semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA, FC, peso, antecedentes cardiacos y de abuso de sustancias.",
+      "titulacion": "Semanal hasta respuesta o efectos adversos.",
+      "duracion": "Crónica, reevaluando cada año.",
+      "fin": "Sin retirada gradual necesaria.",
+      "via": "Oral, por la mañana.",
+      "monitorizacion": "PA, FC, peso, sueño, ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Carboxilesterasa 1 (no CYP).",
+      "eliminacion": "Renal.",
+      "vida_media": "2-3 h (efecto según formulación).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Alcohol",
+          "efecto": "Aumenta la liberación de algunas formulaciones y la toxicidad",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Anorexia, pérdida de peso**",
+        "**Insomnio**",
+        "Cefalea, taquicardia"
+      ],
+      "graves": [
+        "HTA, arritmias",
+        "Psicosis, manía",
+        "Abuso"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía estructural grave o arritmias",
+      "Hipertiroidismo, glaucoma",
+      "Psicosis o bipolar no controlado",
+      "IMAO"
+    ],
+    "perlas": [
+      "En el adulto con TDAH y consumo de sustancias, preferir atomoxetina o formulaciones de liberación prolongada."
+    ],
+    "embarazo_lactancia": "Evitar si es posible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; guías NICE de TDAH"
+  },
+  {
+    "id": "PSQ-lisdexanfetamina",
+    "nombre": "Lisdexanfetamina",
+    "sinonimos": [],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco para el TDAH",
+    "subclase": "Profármaco de dextroanfetamina",
+    "vs_clase": [
+      "**PROFÁRMACO**: se activa en la sangre → efecto **suave y prolongado (hasta 13 h)** y **menos potencial de abuso** (no sirve esnifado ni inyectado).",
+      "Indicación propia: **trastorno por ATRACÓN** moderado-grave.",
+      "Segunda línea en niños si el metilfenidato falla; primera línea en adultos en algunas guías."
+    ],
+    "mecanismo": "La dextroanfetamina libera dopamina y noradrenalina e inhibe su recaptación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "TDAH (≥6 años y adultos)",
+        "dosis": "30 mg (20 mg en niños); hasta 70 mg",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "Subir 10-20 mg cada semana"
+      },
+      {
+        "patologia": "Trastorno por atracón",
+        "dosis": "30 mg → 50-70 mg",
+        "posologia": "Cada 24 h por la mañana",
+        "via": "VO",
+        "nota": "No es un fármaco para adelgazar"
+      }
+    ],
+    "esquema": {
+      "inicio": "PA, FC, peso.",
+      "titulacion": "Semanal.",
+      "duracion": "Crónica, reevaluando.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "PA, FC, peso, sueño."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral; hidrólisis en hematíes.",
+      "distribucion": "—",
+      "metabolismo": "Hidrólisis a dextroanfetamina.",
+      "eliminacion": "Renal (pH dependiente).",
+      "vida_media": "<1 h (profármaco); 10-12 h (activa).",
+      "ajuste_renal": "FG <30: máximo 50 mg.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "ISRS, tramadol",
+          "efecto": "Síndrome serotoninérgico",
+          "gravedad": "media",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Anorexia, insomnio",
+        "Boca seca, taquicardia"
+      ],
+      "graves": [
+        "HTA, arritmias",
+        "Psicosis",
+        "Dependencia"
+      ]
+    },
+    "contraindicaciones": [
+      "Cardiopatía grave",
+      "HTA no controlada",
+      "Hipertiroidismo, glaucoma",
+      "IMAO"
+    ],
+    "perlas": [
+      "Si el metilfenidato da efecto rebote al final del día, la lisdexanfetamina suele cubrir mejor la tarde."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 9; guías NICE de TDAH"
+  },
+  {
+    "id": "PSQ-atomoxetina",
+    "nombre": "Atomoxetina",
+    "sinonimos": [
+      "Guanfacina de liberación prolongada"
+    ],
+    "area": "PSQ",
+    "nivel": 2,
+    "clase": "Fármaco para el TDAH",
+    "subclase": "Inhibidor selectivo de la recaptación de noradrenalina (no estimulante)",
+    "vs_clase": [
+      "**NO ESTIMULANTE**: sin potencial de abuso → de elección si hay **consumo de sustancias, tics o ansiedad** comórbida.",
+      "**Efecto LENTO (4-6 semanas)** y menos eficaz que los estimulantes.",
+      "**Ideación suicida** en niños y adolescentes (alerta) y **hepatotoxicidad** rara; metabolismo **CYP2D6**."
+    ],
+    "mecanismo": "Inhibe la recaptación de noradrenalina (y de dopamina en la corteza prefrontal).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "TDAH (≥6 años y adultos)",
+        "dosis": "40 mg 1 semana; después 80 mg (máximo 100 mg); niños 0,5 → 1,2 mg/kg/día",
+        "posologia": "Cada 24 h (o repartida cada 12 h)",
+        "via": "VO",
+        "nota": "Evaluar a las 6-8 semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Avisar del efecto lento.",
+      "titulacion": "A la semana.",
+      "duracion": "Crónica, reevaluando.",
+      "fin": "Sin retirada gradual necesaria.",
+      "via": "Oral.",
+      "monitorizacion": "Ánimo e ideación suicida, PA, FC, transaminasas si síntomas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 63-94%.",
+      "distribucion": "—",
+      "metabolismo": "**CYP2D6**.",
+      "eliminacion": "Renal.",
+      "vida_media": "5 h (24 h en metabolizadores lentos).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Reducir a la mitad (moderada) o a un cuarto (grave).",
+      "interacciones": [
+        {
+          "con": "Fluoxetina, paroxetina, bupropión (inhibidores de CYP2D6)",
+          "efecto": "Niveles hasta 10 veces mayores",
+          "gravedad": "media",
+          "manejo": "Subir más despacio, máximo 80 mg"
+        },
+        {
+          "con": "IMAO",
+          "efecto": "Crisis hipertensiva",
+          "gravedad": "alta",
+          "manejo": "Contraindicado"
+        },
+        {
+          "con": "Salbutamol sistémico",
+          "efecto": "Taquicardia, HTA",
+          "gravedad": "baja",
+          "manejo": "Vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas, dolor abdominal, anorexia",
+        "Somnolencia o insomnio",
+        "Disfunción sexual"
+      ],
+      "graves": [
+        "**Ideación suicida**",
+        "Hepatotoxicidad",
+        "HTA, taquicardia"
+      ]
+    },
+    "contraindicaciones": [
+      "IMAO",
+      "Glaucoma de ángulo cerrado",
+      "Feocromocitoma",
+      "Cardiopatía grave"
+    ],
+    "perlas": [
+      "Guanfacina de liberación prolongada (agonista alfa-2A) es otra opción no estimulante, útil con tics; produce somnolencia e hipotensión."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed.; guías NICE de TDAH"
+  },
+  {
+    "id": "GIN-dienogest",
+    "nombre": "Dienogest",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Tratamiento hormonal de la endometriosis",
+    "subclase": "Gestágeno de 4.ª generación",
+    "vs_clase": [
+      "**De PRIMERA línea en la ENDOMETRIOSIS** (con AINE) cuando no basta el anticonceptivo combinado; eficacia similar a los análogos de GnRH **sin hipoestrogenismo**.",
+      "**Uso continuo prolongado** bien tolerado.",
+      "**Sangrado irregular** al inicio y empeoramiento del ánimo en mujeres con depresión previa; **no es anticonceptivo** a 2 mg."
+    ],
+    "mecanismo": "Gestágeno que decidualiza y atrofia el tejido endometriósico y reduce la producción ovárica de estradiol de forma moderada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Endometriosis (dolor pélvico)",
+        "dosis": "2 mg",
+        "posologia": "Cada 24 h sin descanso",
+        "via": "VO",
+        "nota": "Respuesta en 3-6 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Cualquier día del ciclo.",
+      "titulacion": "—",
+      "duracion": "Prolongada mientras sea eficaz.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Dolor, sangrado, ánimo; densidad ósea en uso muy prolongado en adolescentes."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 91%.",
+      "distribucion": "—",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Renal.",
+      "vida_media": "9-10 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en hepatopatía grave.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sangrado irregular**",
+        "Cefalea, mastalgia",
+        "Cambios de ánimo"
+      ],
+      "graves": [
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Trombosis venosa activa",
+      "Cáncer hormonodependiente",
+      "Hepatopatía grave",
+      "Sangrado vaginal no diagnosticado"
+    ],
+    "perlas": [
+      "Si la paciente necesita anticoncepción, añadir un método de barrera o usar un DIU de levonorgestrel."
+    ],
+    "embarazo_lactancia": "No indicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; guías ESHRE de endometriosis"
+  },
+  {
+    "id": "GIN-leuprorelina",
+    "nombre": "Leuprorelina (y otros análogos de GnRH)",
+    "sinonimos": [
+      "Triptorelina",
+      "Goserelina"
+    ],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Tratamiento hormonal de la endometriosis",
+    "subclase": "Agonista de GnRH de depósito",
+    "vs_clase": [
+      "**Supresión ovárica completa** (menopausia farmacológica reversible): endometriosis refractaria, miomas antes de la cirugía y, en el varón, **cáncer de próstata**.",
+      "**Efecto «FLARE»**: aumento inicial de hormonas las 2 primeras semanas (en el cáncer de próstata, cubrir con antiandrógeno).",
+      "**Pérdida ósea y sofocos**: añadir **terapia «add-back»** (estrógeno-gestágeno a dosis bajas) si se usa >6 meses."
+    ],
+    "mecanismo": "La estimulación continua del receptor de GnRH lo desensibiliza y suprime LH y FSH.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Endometriosis refractaria; miomas antes de la cirugía",
+        "dosis": "3,75 mg mensual o 11,25 mg trimestral",
+        "posologia": "Cada 4 o 12 semanas",
+        "via": "IM o SC",
+        "nota": "6 meses (más con add-back)"
+      },
+      {
+        "patologia": "Cáncer de próstata avanzado",
+        "dosis": "7,5 mg mensual, 22,5 mg trimestral o 45 mg semestral",
+        "posologia": "Según depósito",
+        "via": "IM o SC",
+        "nota": "Antiandrógeno las primeras semanas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Primera dosis en los días 1-3 del ciclo (endometriosis).",
+      "titulacion": "—",
+      "duracion": "6 meses; más con add-back.",
+      "fin": "La función ovárica vuelve en 2-3 meses.",
+      "via": "Depósito IM o SC.",
+      "monitorizacion": "Densidad ósea si uso prolongado; glucemia y riesgo CV en el varón."
+    },
+    "farmacocinetica": {
+      "absorcion": "Liberación sostenida del depósito.",
+      "distribucion": "—",
+      "metabolismo": "Peptidasas.",
+      "eliminacion": "Renal.",
+      "vida_media": "3 h (efecto por el depósito).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Fármacos que prolongan el QT",
+          "efecto": "La deprivación androgénica alarga el QT",
+          "gravedad": "media",
+          "manejo": "ECG en riesgo"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "**Sofocos**, sequedad vaginal",
+        "Cefalea, labilidad emocional"
+      ],
+      "graves": [
+        "**Pérdida de densidad ósea**",
+        "Síndrome metabólico y diabetes en el varón",
+        "Flare tumoral"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Osteoporosis grave (relativa)",
+      "Sangrado vaginal no diagnosticado"
+    ],
+    "perlas": [
+      "Seis meses de agonista de GnRH sin add-back es el límite habitual por la pérdida ósea."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., caps. 37 y 40"
+  },
+  {
+    "id": "GIN-relugolix-combinado",
+    "nombre": "Relugolix + estradiol + noretisterona",
+    "sinonimos": [
+      "Elagolix"
+    ],
+    "area": "GIN",
+    "nivel": 3,
+    "clase": "Tratamiento hormonal de la endometriosis",
+    "subclase": "Antagonista oral de GnRH con add-back incorporado",
+    "vs_clase": [
+      "**ANTAGONISTA ORAL de GnRH**: suprime en horas, **sin efecto flare**.",
+      "**Lleva el add-back incluido** (estradiol + noretisterona): permite uso prolongado con menos pérdida ósea y sofocos.",
+      "Indicado en **endometriosis** y **miomas con sangrado abundante**; contiene estrógeno → mismas contraindicaciones trombóticas."
+    ],
+    "mecanismo": "Bloqueo competitivo del receptor hipofisario de GnRH, con aporte hormonal mínimo que protege el hueso.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Endometriosis o miomas con sangrado menstrual abundante",
+        "dosis": "40/1/0,5 mg (1 comprimido)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Densitometría al año"
+      }
+    ],
+    "esquema": {
+      "inicio": "En los primeros 5 días de la regla.",
+      "titulacion": "—",
+      "duracion": "Prolongada (hasta 24 meses o más, con control óseo).",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "Densidad ósea, PA, ánimo."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral (sustrato de P-gp).",
+      "distribucion": "—",
+      "metabolismo": "CYP3A4.",
+      "eliminacion": "Fecal.",
+      "vida_media": "25 h (relugolix).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Evitar en insuficiencia grave.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de P-gp (eritromicina, amiodarona)",
+          "efecto": "Aumentan sus niveles",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Inductores (rifampicina)",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sofocos leves",
+        "Cefalea, alopecia leve"
+      ],
+      "graves": [
+        "Tromboembolia",
+        "Pérdida ósea",
+        "Depresión"
+      ]
+    },
+    "contraindicaciones": [
+      "Trombosis previa o trombofilia",
+      "Migraña con aura",
+      "Osteoporosis",
+      "Hepatopatía"
+    ],
+    "perlas": [
+      "No es anticonceptivo hasta pasado 1 mes de toma continua."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 37; guías ESHRE de endometriosis"
+  },
+  {
+    "id": "GIN-mifepristona",
+    "nombre": "Mifepristona",
+    "sinonimos": [],
+    "area": "GIN",
+    "nivel": 2,
+    "clase": "Antiprogestágeno",
+    "clase_unica": "La mifepristona es el único antagonista puro del receptor de progesterona de uso clínico; el ulipristal es un modulador selectivo que se usa como anticonceptivo de urgencia y figura en esa clase.",
+    "subclase": "Antagonista del receptor de progesterona",
+    "mecanismo": "Bloquea el receptor de progesterona: necrosis decidual, reblandecimiento cervical y aumento de la sensibilidad del miometrio a las prostaglandinas.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Interrupción farmacológica del embarazo (≤12 semanas) y aborto diferido",
+        "dosis": "200 mg",
+        "posologia": "Dosis única; misoprostol 24-48 h después",
+        "via": "VO",
+        "nota": "Según guía de la OMS"
+      }
+    ],
+    "esquema": {
+      "inicio": "Confirmar edad gestacional y localización intrauterina (ecografía).",
+      "titulacion": "—",
+      "duracion": "Dosis única.",
+      "fin": "Comprobar la expulsión (clínica, β-hCG o ecografía) a las 2-3 semanas.",
+      "via": "Oral.",
+      "monitorizacion": "Sangrado, dolor, fiebre."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, 69%.",
+      "distribucion": "Alta unión a proteínas.",
+      "metabolismo": "**CYP3A4**.",
+      "eliminacion": "Fecal.",
+      "vida_media": "18 h (fase terminal de días).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Inductores enzimáticos (rifampicina, carbamazepina)",
+          "efecto": "Menor eficacia",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Corticoides crónicos",
+          "efecto": "Antagoniza el receptor glucocorticoide: insuficiencia suprarrenal",
+          "gravedad": "alta",
+          "manejo": "Contraindicada en insuficiencia suprarrenal o corticoterapia crónica"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sangrado y dolor cólico (esperados tras el misoprostol)",
+        "Náuseas"
+      ],
+      "graves": [
+        "**Hemorragia** que requiere legrado",
+        "Aborto incompleto",
+        "Infección"
+      ]
+    },
+    "contraindicaciones": [
+      "**Embarazo ectópico** confirmado o sospechado",
+      "Insuficiencia suprarrenal o corticoterapia crónica",
+      "Porfiria",
+      "DIU colocado (retirar antes)",
+      "Anticoagulación o coagulopatía (relativa)"
+    ],
+    "perlas": [
+      "Mujer Rh negativa: inmunoglobulina anti-D en abortos ≥12 semanas (según guía)."
+    ],
+    "embarazo_lactancia": "Uso específico para interrumpir la gestación. Lactancia compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 40; guía de la OMS sobre atención para el aborto (2022)"
+  },
+  {
+    "id": "NEU-primidona",
+    "nombre": "Primidona",
+    "sinonimos": [],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiepiléptico",
+    "subclase": "Barbitúrico (profármaco del fenobarbital)",
+    "vs_clase": [
+      "**De primera línea en el TEMBLOR ESENCIAL** (junto al propranolol), a dosis muy inferiores a las antiepilépticas.",
+      "**Se metaboliza a FENOBARBITAL**: inductor enzimático potente (anticonceptivos, anticoagulantes).",
+      "**Reacción aguda a la primera dosis** (náuseas, mareo, ataxia): empezar con **25 mg por la noche**."
+    ],
+    "mecanismo": "Ella y sus metabolitos (fenobarbital y feniletilmalonamida) potencian el GABA-A y reducen la excitabilidad neuronal.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Temblor esencial",
+        "dosis": "25 mg al inicio; 50-250 mg/día (hasta 750 mg)",
+        "posologia": "Cada 24 h por la noche (o repartida)",
+        "via": "VO",
+        "nota": "Subir 25-50 mg cada semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "25 mg al acostarse.",
+      "titulacion": "Lenta, semanal.",
+      "duracion": "Crónica.",
+      "fin": "Retirada gradual.",
+      "via": "Oral.",
+      "monitorizacion": "Sedación, ataxia."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral.",
+      "distribucion": "—",
+      "metabolismo": "Hepático a fenobarbital (inductor de CYP3A4, 2C9, 1A2).",
+      "eliminacion": "Renal.",
+      "vida_media": "10-15 h (fenobarbital 80-100 h).",
+      "ajuste_renal": "Reducir.",
+      "ajuste_hepatico": "Reducir.",
+      "interacciones": [
+        {
+          "con": "Anticonceptivos hormonales, warfarina, ACOD",
+          "efecto": "Pérdida de eficacia por inducción",
+          "gravedad": "alta",
+          "manejo": "Método alternativo; vigilar INR; evitar ACOD"
+        },
+        {
+          "con": "Alcohol y depresores del SNC",
+          "efecto": "Sedación",
+          "gravedad": "media",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sedación, ataxia, mareo",
+        "**Reacción aguda a la primera dosis**"
+      ],
+      "graves": [
+        "Depresión",
+        "Reacciones cutáneas graves"
+      ]
+    },
+    "contraindicaciones": [
+      "Porfiria aguda",
+      "Hipersensibilidad a barbitúricos"
+    ],
+    "perlas": [
+      "Temblor que mejora con el alcohol y empeora con la intención: esencial. Temblor de reposo con bradicinesia: Parkinson."
+    ],
+    "embarazo_lactancia": "Evitar (teratógeno).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 24; Harrison 20.ª ed., cap. de trastornos del movimiento"
+  },
+  {
+    "id": "HEM-hidroxiurea",
+    "nombre": "Hidroxiurea (hidroxicarbamida)",
+    "sinonimos": [],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Inhibidor de la ribonucleótido reductasa",
+    "clase_unica": "La hidroxiurea es el único inhibidor de la ribonucleótido reductasa de uso clínico; su papel en la drepanocitosis (inducción de hemoglobina fetal) y en los síndromes mieloproliferativos no lo comparte ningún otro fármaco.",
+    "subclase": "Citorreductor oral",
+    "mecanismo": "Inhibe la ribonucleótido reductasa y la síntesis de ADN; en la drepanocitosis aumenta la hemoglobina fetal, reduce los neutrófilos y la adhesión celular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Drepanocitosis (prevención de crisis vasooclusivas y síndrome torácico agudo)",
+        "dosis": "15 mg/kg/día; subir 5 mg/kg cada 8 semanas hasta 20-35 mg/kg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Desde los 9 meses de edad"
+      },
+      {
+        "patologia": "Policitemia vera y trombocitemia esencial de alto riesgo",
+        "dosis": "500-1000 mg/día",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Ajustar a hematocrito o plaquetas"
+      }
+    ],
+    "esquema": {
+      "inicio": "Hemograma, reticulocitos, función renal y hepática; test de embarazo.",
+      "titulacion": "Hasta la dosis máxima tolerada sin mielotoxicidad (neutrófilos ≥1500-2000).",
+      "duracion": "Indefinida.",
+      "fin": "—",
+      "via": "Oral.",
+      "monitorizacion": "**Hemograma cada 2-4 semanas** al titular, después cada 2-3 meses."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral, completa.",
+      "distribucion": "Amplia (atraviesa la barrera hematoencefálica).",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal.",
+      "vida_media": "3-4 h.",
+      "ajuste_renal": "FG <60: reducir un 50%.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Otros mielotóxicos",
+          "efecto": "Mielosupresión aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar hemograma"
+        },
+        {
+          "con": "Vacunas vivas",
+          "efecto": "Infección por la vacuna",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Macrocitosis (esperada)",
+        "Hiperpigmentación cutánea y ungueal"
+      ],
+      "graves": [
+        "**Mielosupresión**",
+        "Úlceras en las piernas",
+        "Teratogenia"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Mielosupresión grave"
+    ],
+    "perlas": [
+      "La macrocitosis indica adherencia al tratamiento en la drepanocitosis."
+    ],
+    "embarazo_lactancia": "Contraindicada; anticoncepción eficaz.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. 54; Harrison 20.ª ed., cap. de hemoglobinopatías"
+  }
+]

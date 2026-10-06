@@ -1,0 +1,1583 @@
+[
+  {
+    "id": "PAT-varicela",
+    "nombre": "Varicela",
+    "sinonimos": [
+      "Varicela-zóster primaria"
+    ],
+    "area": "INF",
+    "resumen": "Exantema vesiculoso pruriginoso en **distintos estadios** con fiebre. En el **niño sano** es benigna: tratamiento sintomático (paracetamol, antihistamínico, cuidado de la piel). **Aciclovir oral en <24 h** en adolescentes, adultos, segundos casos domésticos, enfermedad cutánea o pulmonar crónica y tratamiento con corticoides o salicilatos. **IV** en inmunodeprimidos, neumonía, encefalitis o embarazo con complicaciones. **Nunca AAS** (síndrome de Reye); evitar ibuprofeno (sobreinfección estreptocócica grave).",
+    "objetivo": "Aliviar síntomas y prevenir complicaciones en los grupos de riesgo.",
+    "escenarios": [
+      {
+        "titulo": "Adolescente o adulto (≥13 años)",
+        "farmacos": [
+          {
+            "nombre": "Valaciclovir",
+            "ref": "INF-valaciclovir",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "5-7 días (iniciar en <24 h)"
+          },
+          {
+            "nombre": "Aciclovir",
+            "ref": "INF-aciclovir",
+            "dosis": "800 mg",
+            "via": "VO",
+            "intervalo": "5 veces al día",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "A demanda"
+          },
+          {
+            "nombre": "Hidroxizina (prurito)",
+            "ref": "INM-hidroxizina",
+            "dosis": "25 mg",
+            "via": "VO",
+            "intervalo": "Por la noche (hasta cada 8 h)",
+            "duracion": "A demanda"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Paracetamol",
+            "ref": "PED-REU-paracetamol",
+            "dosis": "15 mg/kg/dosis",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "A demanda",
+            "nota": "Nunca AAS"
+          },
+          {
+            "nombre": "Antihistamínico H1 (prurito)",
+            "ref": "PED-INM-antihistaminicos",
+            "dosis": "Cetirizina 2,5 mg/12 h (2-6 años) o 5 mg/12 h (6-12 años)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "A demanda"
+          },
+          {
+            "nombre": "Aciclovir oral (niño de riesgo)",
+            "ref": "INF-aciclovir",
+            "dosis": "20 mg/kg/dosis (máximo 800 mg)",
+            "via": "VO",
+            "intervalo": "4 veces al día",
+            "duracion": "5 días",
+            "otra_poblacion": true
+          }
+        ]
+      },
+      {
+        "titulo": "Inmunodeprimido o varicela complicada",
+        "farmacos": [
+          {
+            "nombre": "Aciclovir IV",
+            "ref": "INF-aciclovir",
+            "dosis": "10 mg/kg (500 mg/m² en niños)",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "7-10 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis postexposición en susceptible de alto riesgo (embarazada, inmunodeprimido, neonato)",
+        "farmacos": [
+          {
+            "nombre": "Inmunoglobulina antivaricela (hiperinmune)",
+            "ref": "INM-inmunoglobulina-antitetanica",
+            "dosis": "125 UI/10 kg (máximo 625 UI)",
+            "via": "IM",
+            "intervalo": "Dosis única en ≤10 días de la exposición",
+            "duracion": "1 dosis",
+            "nota": "La ficha enlazada agrupa las inmunoglobulinas hiperinmunes"
+          },
+          {
+            "nombre": "Aciclovir oral (alternativa)",
+            "ref": "INF-aciclovir",
+            "dosis": "800 mg (20 mg/kg en niños)",
+            "via": "VO",
+            "intervalo": "4 veces al día",
+            "duracion": "7 días, desde el día 7-10 tras la exposición"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Uñas cortas, baño diario, ropa fresca; aislamiento hasta que todas las lesiones estén en costra",
+      "Vacuna en susceptibles (2 dosis; postexposición en ≤3-5 días)"
+    ],
+    "claves": [
+      "**Varicela + AAS = síndrome de Reye.**",
+      "Fiebre que reaparece o lesión que se extiende y duele: sobreinfección por S. pyogenes (fascitis)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por virus varicela-zóster; Katzung 15.ª ed., cap. 49",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 10,
+      "cotejadas_en_fuente": 9,
+      "resultado": "Revisadas las 10 pautas (9 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-lyme-rickettsiosis",
+    "nombre": "Enfermedades transmitidas por garrapatas (Lyme y rickettsiosis)",
+    "sinonimos": [
+      "Enfermedad de Lyme",
+      "Fiebre botonosa",
+      "Fiebre de las Montañas Rocosas",
+      "Rickettsiosis",
+      "Picadura de garrapata"
+    ],
+    "area": "INF",
+    "resumen": "**Lyme**: **eritema migratorio** (lesión anular >5 cm que crece desde la picadura) días-semanas tras la garrapata; después artritis, parálisis facial, carditis. El eritema migratorio se trata **sin serología** (es diagnóstico clínico). **Rickettsiosis** (fiebre botonosa, fiebre de las Montañas Rocosas): fiebre, exantema maculopapular (palmas y plantas) y **escara de inoculación** («mancha negra»). **Doxiciclina para todas las edades**, sin esperar confirmación: el retraso aumenta la mortalidad.",
+    "objetivo": "Tratar precozmente y evitar las formas diseminadas y graves.",
+    "escenarios": [
+      {
+        "titulo": "Lyme precoz (eritema migratorio) y artritis de Lyme",
+        "farmacos": [
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg (niños 2,2 mg/kg)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "10 días (eritema migratorio); 28 días (artritis)"
+          },
+          {
+            "nombre": "Amoxicilina",
+            "ref": "INF-amoxicilina",
+            "dosis": "500 mg (niños 50 mg/kg/día en 3 tomas)",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "14 días",
+            "nota": "Alternativa (embarazo)"
+          },
+          {
+            "nombre": "Cefuroxima axetilo",
+            "ref": "INF-cefuroxima",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Lyme neurológico o carditis con bloqueo avanzado",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "14-21 días",
+            "nota": "La parálisis facial aislada puede tratarse con doxiciclina oral"
+          }
+        ]
+      },
+      {
+        "titulo": "Rickettsiosis",
+        "farmacos": [
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg (niños <45 kg: 2,2 mg/kg)",
+            "via": "VO o IV",
+            "intervalo": "Cada 12 h",
+            "duracion": "5-7 días (hasta 3 días afebril)",
+            "nota": "También en niños pequeños: ciclos cortos no tiñen los dientes"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis tras picadura de garrapata en zona de Lyme (garrapata adherida ≥36 h)",
+        "farmacos": [
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "200 mg (niños 4,4 mg/kg)",
+            "via": "VO",
+            "intervalo": "Dosis única en ≤72 h tras retirarla",
+            "duracion": "1 dosis"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar la garrapata con pinzas cerca de la piel, tracción continua, sin aceites ni calor",
+      "Repelentes, ropa larga, revisar la piel tras excursiones"
+    ],
+    "claves": [
+      "**Fiebre + exantema + escara tras estancia en el campo: doxiciclina ya.**",
+      "Serología de Lyme negativa en el eritema migratorio es lo esperado: no retrasa el tratamiento."
+    ],
+    "fuente": "Harrison 20.ª ed., caps. de enfermedad de Lyme y de rickettsiosis",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-enfermedad-inflamatoria-pelvica",
+    "nombre": "Enfermedad inflamatoria pélvica",
+    "sinonimos": [
+      "EIP",
+      "EPI",
+      "Salpingitis",
+      "Absceso tuboovárico"
+    ],
+    "area": "INF",
+    "resumen": "Dolor pélvico en mujer sexualmente activa con **dolor a la movilización cervical**, uterino o anexial. Umbral bajo para tratar (secuelas: infertilidad, embarazo ectópico, dolor crónico). Agentes: **N. gonorrhoeae, C. trachomatis**, anaerobios y flora vaginal → **cobertura triple**. Ingreso si gravedad, absceso, embarazo, intolerancia oral o fracaso a las 72 h. Tratar a la pareja y cribar otras ITS.",
+    "objetivo": "Curar la infección y prevenir la infertilidad.",
+    "escenarios": [
+      {
+        "titulo": "Ambulatoria",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "1 g (500 mg en algunas guías)",
+            "via": "IM",
+            "intervalo": "Dosis única",
+            "duracion": "1 dosis"
+          },
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días"
+          },
+          {
+            "nombre": "Metronidazol",
+            "ref": "INF-metronidazol",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Hospitalaria",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "1-2 g",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta 24-48 h de mejoría; completar 14 días VO con doxiciclina + metronidazol"
+          },
+          {
+            "nombre": "Clindamicina + gentamicina (alergia a betalactámicos)",
+            "ref": "INF-clindamicina",
+            "dosis": "Clindamicina 900 mg + gentamicina 5 mg/kg",
+            "via": "IV",
+            "intervalo": "Clindamicina cada 8 h; gentamicina cada 24 h",
+            "duracion": "Igual que la anterior",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Test de embarazo siempre; ecografía si se sospecha absceso",
+      "Retirar el DIU solo si no mejora en 48-72 h",
+      "Abstinencia sexual hasta completar el tratamiento de ambos miembros de la pareja"
+    ],
+    "claves": [
+      "**Dolor abdominal bajo en mujer joven: test de embarazo antes que nada (ectópico).**",
+      "Dolor en hipocondrio derecho con EIP: perihepatitis (Fitz-Hugh-Curtis)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de transmisión sexual; Katzung 15.ª ed., cap. 43",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-profilaxis-quirurgica",
+    "nombre": "Profilaxis antibiótica quirúrgica",
+    "sinonimos": [
+      "Profilaxis prequirúrgica",
+      "Antibioterapia profiláctica"
+    ],
+    "area": "INF",
+    "resumen": "Indicada en cirugía **limpia-contaminada** y en la limpia con implante o con consecuencias graves si se infecta. **Dosis única IV en los 60 min previos a la incisión** (vancomicina y quinolonas: 120 min). Redosificar si la cirugía dura más de 2 vidas medias (cefazolina: cada 4 h) o hay sangrado >1,5 L. **No prolongar más de 24 h**: no reduce infecciones y aumenta resistencias y C. difficile.",
+    "objetivo": "Reducir la infección del sitio quirúrgico sin generar resistencias.",
+    "escenarios": [
+      {
+        "titulo": "Mayoría de cirugías (piel, ortopedia, cardiaca, mama, hernia)",
+        "farmacos": [
+          {
+            "nombre": "Cefazolina",
+            "ref": "INF-cefazolina",
+            "dosis": "2 g (3 g si ≥120 kg)",
+            "via": "IV",
+            "intervalo": "30-60 min antes de la incisión; repetir cada 4 h de cirugía",
+            "duracion": "Dosis única (≤24 h)"
+          },
+          {
+            "nombre": "Clindamicina (alergia grave a betalactámicos)",
+            "ref": "INF-clindamicina",
+            "dosis": "900 mg",
+            "via": "IV",
+            "intervalo": "30-60 min antes; repetir cada 6 h",
+            "duracion": "Dosis única",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Vancomicina (colonización por SARM)",
+            "ref": "INF-vancomicina",
+            "dosis": "15 mg/kg",
+            "via": "IV",
+            "intervalo": "Iniciar 60-120 min antes",
+            "duracion": "Dosis única",
+            "nota": "Añadida a la cefazolina"
+          }
+        ]
+      },
+      {
+        "titulo": "Cirugía colorrectal, apendicectomía, ginecológica",
+        "farmacos": [
+          {
+            "nombre": "Cefazolina + metronidazol",
+            "ref": "INF-metronidazol",
+            "dosis": "Cefazolina 2 g + metronidazol 500 mg",
+            "via": "IV",
+            "intervalo": "30-60 min antes de la incisión",
+            "duracion": "Dosis única"
+          },
+          {
+            "nombre": "Cefoxitina",
+            "ref": "INF-cefoxitina",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "30-60 min antes; repetir cada 2 h",
+            "duracion": "Dosis única",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Cesárea",
+        "farmacos": [
+          {
+            "nombre": "Cefazolina",
+            "ref": "INF-cefazolina",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "Antes de la incisión (no tras pinzar el cordón)",
+            "duracion": "Dosis única",
+            "nota": "± azitromicina 500 mg en cesárea con trabajo de parto"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ducha prequirúrgica, no rasurar (cortar el vello), clorhexidina alcohólica en la piel",
+      "Normotermia y glucemia <180 mg/dL perioperatorias"
+    ],
+    "claves": [
+      "**El antibiótico debe estar en el tejido en el momento de la incisión, no después.**",
+      "Más de 24 h de «profilaxis» no es profilaxis: es exposición a resistencias."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones relacionadas con la asistencia sanitaria; Katzung 15.ª ed., cap. 51",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-epididimitis-orquitis",
+    "nombre": "Epididimitis y orquitis",
+    "sinonimos": [
+      "Orquiepididimitis",
+      "Epididimitis aguda"
+    ],
+    "area": "INF",
+    "resumen": "Dolor escrotal progresivo con epidídimo engrosado, a veces fiebre y síndrome miccional. **Descartar torsión testicular** (inicio brusco, reflejo cremastérico ausente, eco Doppler) en jóvenes. **<35 años o con riesgo de ITS**: C. trachomatis y N. gonorrhoeae → ceftriaxona + doxiciclina. **>35 años, sexo anal insertivo o manipulación urológica**: enterobacterias → quinolona. Orquitis aislada: pensar en **parotiditis**.",
+    "objetivo": "Curar la infección y no pasar por alto una torsión.",
+    "escenarios": [
+      {
+        "titulo": "Riesgo de ITS (habitualmente <35 años)",
+        "farmacos": [
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "500 mg-1 g",
+            "via": "IM",
+            "intervalo": "Dosis única",
+            "duracion": "1 dosis"
+          },
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "10 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Enterobacterias (>35 años, sexo anal insertivo, sondaje o cirugía urológica)",
+        "farmacos": [
+          {
+            "nombre": "Levofloxacino",
+            "ref": "INF-levofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "10-14 días",
+            "nota": "Si sexo anal insertivo: añadir ceftriaxona 500 mg IM"
+          },
+          {
+            "nombre": "Ciprofloxacino",
+            "ref": "INF-ciprofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "10-14 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Sintomático",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Según dolor"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Reposo, elevación escrotal (suspensorio), frío local",
+      "Eco Doppler urgente si hay duda de torsión (la torsión es quirúrgica en <6 h)",
+      "Tratar a las parejas sexuales en la epididimitis por ITS"
+    ],
+    "claves": [
+      "**Dolor testicular súbito en un adolescente = torsión hasta demostrar lo contrario.**",
+      "Masa escrotal que no mejora en 2 semanas: descartar tumor testicular."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de transmisión sexual; guías de ITS (CDC, IUSTI)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-foliculitis-absceso-cutaneo",
+    "nombre": "Foliculitis, forúnculo, ántrax y absceso cutáneo",
+    "sinonimos": [
+      "Forúnculo",
+      "Absceso",
+      "Foliculitis",
+      "Carbunco estafilocócico",
+      "Furunculosis recurrente"
+    ],
+    "area": "INF",
+    "resumen": "Infecciones por **S. aureus** (incluido el SARM comunitario). **Foliculitis** superficial: higiene y antiséptico o antibiótico tópico. **Forúnculo pequeño**: calor local. **Absceso**: el tratamiento principal es **incisión y drenaje**; añadir antibiótico si >2 cm, celulitis extensa, fiebre, inmunodepresión, localización facial o de manos, o fracaso del drenaje. **Recurrentes**: descolonización.",
+    "objetivo": "Drenar, curar y prevenir las recurrencias.",
+    "escenarios": [
+      {
+        "titulo": "Foliculitis superficial",
+        "farmacos": [
+          {
+            "nombre": "Mupirocina",
+            "ref": "DER-mupirocina",
+            "dosis": "1 aplicación de pomada al 2%",
+            "via": "tópica",
+            "intervalo": "Cada 8 h",
+            "duracion": "5-7 días"
+          },
+          {
+            "nombre": "Ácido fusídico",
+            "ref": "DER-acido-fusidico",
+            "dosis": "1 aplicación de crema al 2%",
+            "via": "tópica",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Absceso drenado que necesita antibiótico",
+        "farmacos": [
+          {
+            "nombre": "Cotrimoxazol (cubre SARM)",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "160/800 mg (1-2 comprimidos)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "5-7 días"
+          },
+          {
+            "nombre": "Cefalexina (SASM, sin riesgo de SARM)",
+            "ref": "INF-cefalexina",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Clindamicina",
+            "ref": "INF-clindamicina",
+            "dosis": "300-450 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Lidocaína (anestesia para el drenaje)",
+            "ref": "ANE-lidocaina",
+            "dosis": "Hasta 4,5 mg/kg al 1-2%",
+            "via": "Infiltración local (SC)",
+            "intervalo": "Dosis única",
+            "duracion": "Durante el drenaje"
+          }
+        ]
+      },
+      {
+        "titulo": "Forunculosis recurrente (descolonización)",
+        "farmacos": [
+          {
+            "nombre": "Mupirocina nasal",
+            "ref": "DER-mupirocina",
+            "dosis": "1 aplicación de pomada al 2% en cada fosa",
+            "via": "IN",
+            "intervalo": "Cada 12 h",
+            "duracion": "5 días al mes, varios meses",
+            "nota": "Más lavados corporales con clorhexidina y medidas para los convivientes"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Incisión y drenaje del absceso; cultivo del pus",
+      "Calor local en forúnculos pequeños; no exprimir los de la cara (triángulo nasolabial)",
+      "Higiene personal, no compartir toallas; descartar diabetes en la recurrencia"
+    ],
+    "claves": [
+      "**El antibiótico sin drenaje no cura un absceso.**",
+      "Forúnculo en el centro de la cara con fiebre y edema palpebral: tromboflebitis del seno cavernoso."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de piel, músculo y partes blandas; Katzung 15.ª ed., cap. 43",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 8,
+      "cotejadas_en_fuente": 7,
+      "resultado": "Revisadas las 8 pautas (7 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-dermatitis-contacto-eccema-manos",
+    "nombre": "Dermatitis de contacto y eccema de manos",
+    "sinonimos": [
+      "Dermatitis de contacto alérgica",
+      "Dermatitis irritativa",
+      "Eccema de manos"
+    ],
+    "area": "DER",
+    "resumen": "**Irritativa** (jabones, agua, disolventes; la más frecuente) o **alérgica** (níquel, perfumes, conservantes, cosméticos, gomas; requiere pruebas epicutáneas). Pilares: **evitar el agente**, **emolientes abundantes** y protección (guantes de algodón bajo los de nitrilo). Brotes: **corticoide tópico potente** en manos durante 2-4 semanas y después pauta intermitente. Extensa o grave: prednisona oral breve. Refractaria: fototerapia, alitretinoína, metotrexato o dupilumab.",
+    "objetivo": "Controlar los brotes e identificar y evitar el desencadenante.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Emolientes",
+            "ref": "DER-emolientes",
+            "dosis": "1 aplicación abundante",
+            "via": "tópica",
+            "intervalo": "Tras cada lavado y varias veces al día",
+            "duracion": "Continuo"
+          },
+          {
+            "nombre": "Clobetasol (manos, brote)",
+            "ref": "DER-clobetasol",
+            "dosis": "1 aplicación: capa fina al 0,05%",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "2-4 semanas; después 2 veces por semana"
+          },
+          {
+            "nombre": "Betametasona tópica (cuerpo)",
+            "ref": "DER-betametasona-topica",
+            "dosis": "1 aplicación: capa fina al 0,05-0,1%",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "1-2 semanas",
+            "nota": "En cara y pliegues, hidrocortisona"
+          },
+          {
+            "nombre": "Prednisona (extensa o grave, p. ej. por hiedra venenosa)",
+            "ref": "REU-prednisona",
+            "dosis": "0,5-1 mg/kg/día (40-60 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "2-3 semanas con descenso (pautas cortas causan rebote)"
+          },
+          {
+            "nombre": "Tacrolimus tópico (mantenimiento, cara)",
+            "ref": "DER-tacrolimus-topico",
+            "dosis": "1 aplicación: capa fina al 0,1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "Brotes; después 2 veces por semana",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pruebas epicutáneas (parches) si se sospecha alergia o el eccema es crónico",
+      "Guantes adecuados, lavados con agua tibia y sustitutos del jabón",
+      "Valorar origen laboral"
+    ],
+    "claves": [
+      "**Eccema de manos que no responde: sobreinfección, tiña (KOH) o psoriasis palmar.**",
+      "Los antihistamínicos no mejoran la dermatitis de contacto (salvo para dormir)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades eccematosas; Katzung 15.ª ed., cap. 61",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-picaduras-insectos",
+    "nombre": "Picaduras y mordeduras de insectos y reacciones locales",
+    "sinonimos": [
+      "Picadura de abeja",
+      "Picadura de avispa",
+      "Picaduras de mosquito",
+      "Reacción local extensa"
+    ],
+    "area": "INM",
+    "resumen": "**Reacción local** (pápula pruriginosa) o **local extensa** (>10 cm, 2-3 días): frío, antihistamínico y corticoide tópico; prednisona oral breve si es muy extensa. **No es infección** (no antibiótico salvo celulitis clara días después). **Reacción sistémica** (urticaria generalizada, disnea, hipotensión): anafilaxia → **adrenalina IM**. Tras una reacción sistémica a himenópteros: **autoinyector** y derivación para **inmunoterapia con veneno**.",
+    "objetivo": "Aliviar la reacción local y reconocer y prevenir la anafilaxia.",
+    "escenarios": [
+      {
+        "titulo": "Reacción local o local extensa",
+        "farmacos": [
+          {
+            "nombre": "Bilastina (o cetirizina)",
+            "ref": "INM-bilastina",
+            "dosis": "20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h en ayunas",
+            "duracion": "3-5 días"
+          },
+          {
+            "nombre": "Betametasona tópica",
+            "ref": "DER-betametasona-topica",
+            "dosis": "1 aplicación: capa fina al 0,05-0,1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "3-5 días"
+          },
+          {
+            "nombre": "Prednisona (reacción local muy extensa)",
+            "ref": "REU-prednisona",
+            "dosis": "30-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "3-5 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Reacción sistémica (anafilaxia)",
+        "farmacos": [
+          {
+            "nombre": "Adrenalina",
+            "ref": "URG-adrenalina",
+            "dosis": "0,5 mg (0,01 mg/kg en niños)",
+            "via": "IM",
+            "intervalo": "Cara anterolateral del muslo; repetir cada 5-15 min",
+            "duracion": "Hasta respuesta",
+            "nota": "Al alta, 2 autoinyectores y plan de acción"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar el aguijón de abeja raspando, frío local, elevar la extremidad",
+      "Repelentes, ropa clara, evitar perfumes en zonas con himenópteros",
+      "Derivar a alergología tras una reacción sistémica (inmunoterapia: eficacia >90%)"
+    ],
+    "claves": [
+      "**El eritema de una reacción local extensa a las 24 h no es celulitis: no da fiebre ni progresa tras 48 h.**",
+      "Múltiples picaduras (>50) pueden causar toxicidad directa (rabdomiólisis, hemólisis)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de picaduras y envenenamientos; Katzung 15.ª ed., cap. 16",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-alopecia",
+    "nombre": "Alopecia androgénica y alopecia areata",
+    "sinonimos": [
+      "Calvicie",
+      "Caída del cabello",
+      "Alopecia areata",
+      "Alopecia femenina"
+    ],
+    "area": "DER",
+    "resumen": "**Androgénica**: miniaturización progresiva (entradas y vértex en el varón; difusa central en la mujer). **Minoxidil** (tópico u oral a dosis baja) y, en el varón, **finasterida** o dutasterida; el efecto aparece a los **3-6 meses** y se pierde al suspender. **Areata**: placas redondas sin cicatriz con pelos «en signo de exclamación»; **corticoide intralesional** o tópico potente; extensa: inhibidores de JAK (baricitinib). Descartar déficit de hierro, hipotiroidismo y efluvio telógeno.",
+    "objetivo": "Frenar la pérdida y recuperar densidad capilar.",
+    "escenarios": [
+      {
+        "titulo": "Alopecia androgénica",
+        "farmacos": [
+          {
+            "nombre": "Minoxidil tópico",
+            "ref": "DER-minoxidil",
+            "dosis": "1 mL al 5% (al 2-5% en la mujer)",
+            "via": "tópica",
+            "intervalo": "Cada 12 h (espuma al 5%: cada 24 h en la mujer)",
+            "duracion": "Indefinida (evaluar a los 6 meses)"
+          },
+          {
+            "nombre": "Finasterida (varón)",
+            "ref": "DER-finasterida",
+            "dosis": "1 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida"
+          },
+          {
+            "nombre": "Minoxidil oral a dosis baja",
+            "ref": "DER-minoxidil-oral",
+            "dosis": "0,25-1 mg (mujer) o 1-5 mg (varón)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Alternativa; hipertricosis, edemas, taquicardia"
+          },
+          {
+            "nombre": "Dutasterida (varón, refractaria)",
+            "ref": "DER-dutasterida",
+            "dosis": "0,5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Indefinida",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Alopecia areata",
+        "farmacos": [
+          {
+            "nombre": "Corticoide intralesional (triamcinolona) o clobetasol tópico",
+            "ref": "DER-clobetasol",
+            "dosis": "1 aplicación: capa fina al 0,05% (o triamcinolona 2,5-10 mg/mL intralesional)",
+            "via": "tópica",
+            "intervalo": "Cada 24 h (intralesional cada 4-6 semanas)",
+            "duracion": "3-6 meses"
+          },
+          {
+            "nombre": "Baricitinib (areata grave >50% del cuero cabelludo)",
+            "ref": "REU-baricitinib",
+            "dosis": "4 mg (2 mg en algunos casos)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según respuesta",
+            "nota": "Advertencias de clase de los JAK"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Analítica: ferritina, TSH, vitamina D; en la mujer con hiperandrogenismo, estudio hormonal",
+      "Efluvio telógeno (caída difusa 2-3 meses tras fiebre, parto o estrés): se recupera solo",
+      "Microinjerto capilar en la androgénica estable"
+    ],
+    "claves": [
+      "**El minoxidil aumenta la caída las primeras semanas (efluvio inicial): avisar.**",
+      "Finasterida y dutasterida: contraindicadas en mujeres que puedan quedar embarazadas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de la piel; Katzung 15.ª ed., cap. 61",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-pitiriasis-versicolor",
+    "nombre": "Pitiriasis versicolor",
+    "sinonimos": [
+      "Tiña versicolor",
+      "Malassezia"
+    ],
+    "area": "DER",
+    "resumen": "Máculas hipo o hiperpigmentadas con **descamación fina** en tronco y hombros, por **Malassezia**, más visibles tras el sol. Tratamiento **tópico** (champú de ketoconazol o sulfuro de selenio sobre la piel); oral en formas extensas o recidivantes. **La despigmentación tarda meses en desaparecer** aunque el hongo esté curado. Recidiva frecuente: profilaxis mensual en verano.",
+    "objetivo": "Eliminar el hongo y prevenir recidivas.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Ketoconazol champú al 2% (sobre la piel)",
+            "ref": "DER-ketoconazol-topico",
+            "dosis": "1 aplicación de champú en todo el tronco (dejar 5 min)",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "3-5 días"
+          },
+          {
+            "nombre": "Fluconazol (extensa o recidivante)",
+            "ref": "INF-fluconazol",
+            "dosis": "300 mg",
+            "via": "VO",
+            "intervalo": "Una vez por semana",
+            "duracion": "2 semanas"
+          },
+          {
+            "nombre": "Itraconazol (alternativa oral)",
+            "ref": "INF-itraconazol",
+            "dosis": "200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5-7 días",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis de recidivas",
+        "farmacos": [
+          {
+            "nombre": "Ketoconazol champú al 2%",
+            "ref": "DER-ketoconazol-topico",
+            "dosis": "1 aplicación en el tronco",
+            "via": "tópica",
+            "intervalo": "Una vez al mes (o semanal en verano)",
+            "duracion": "Meses de calor"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Explicar que las manchas blancas tardan meses en repigmentarse",
+      "Lámpara de Wood (fluorescencia amarillo-verdosa) y KOH (imagen en «espaguetis con albóndigas»)"
+    ],
+    "claves": [
+      "**La terbinafina oral no es eficaz en la pitiriasis versicolor.**",
+      "Diferenciar del vitíligo (sin descamación, despigmentación total)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones fúngicas superficiales; Katzung 15.ª ed., cap. 48",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intertrigo-candidiasis-cutanea",
+    "nombre": "Intertrigo y candidiasis cutánea (incluida la dermatitis del pañal)",
+    "sinonimos": [
+      "Intertrigo candidiásico",
+      "Candidiasis cutánea",
+      "Dermatitis del pañal"
+    ],
+    "area": "DER",
+    "resumen": "Eritema brillante en **pliegues** (inframamario, inguinal, interglúteo) con **lesiones satélite** (Candida), favorecido por humedad, obesidad, diabetes y antibióticos. Tratamiento: **mantener la zona seca** y **antifúngico tópico**; si es muy inflamatorio, asociar hidrocortisona unos días. Oral si es extenso o recidivante. Dermatitis del pañal: pasta de óxido de zinc y antifúngico si hay satélites.",
+    "objetivo": "Curar la infección y evitar la maceración.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento",
+        "farmacos": [
+          {
+            "nombre": "Clotrimazol crema al 1%",
+            "ref": "DER-clotrimazol",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "2 semanas (1 semana tras la curación)"
+          },
+          {
+            "nombre": "Nistatina crema",
+            "ref": "DER-nistatina",
+            "dosis": "1 aplicación de crema (100.000 UI/g)",
+            "via": "tópica",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "2 semanas",
+            "nota": "Alternativa; útil en la dermatitis del pañal"
+          },
+          {
+            "nombre": "Hidrocortisona al 1% (muy inflamatorio)",
+            "ref": "DER-hidrocortisona-topica",
+            "dosis": "1 aplicación: capa fina",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "≤5-7 días, con el antifúngico"
+          },
+          {
+            "nombre": "Fluconazol (extensa o recidivante)",
+            "ref": "INF-fluconazol",
+            "dosis": "150 mg",
+            "via": "VO",
+            "intervalo": "Una vez por semana",
+            "duracion": "2-4 semanas"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Secar bien los pliegues, ropa de algodón, gasa o tejido absorbente entre los pliegues",
+      "Control glucémico y pérdida de peso"
+    ],
+    "claves": [
+      "**Candidiasis cutánea recurrente: buscar diabetes.**",
+      "Intertrigo con fluorescencia rojo-coral a la luz de Wood: eritrasma (bacteriano, eritromicina o ácido fusídico)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones fúngicas superficiales; Katzung 15.ª ed., cap. 48",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-candidiasis-oral",
+    "nombre": "Candidiasis orofaríngea y esofágica",
+    "sinonimos": [
+      "Muguet",
+      "Candidiasis oral",
+      "Candidiasis esofágica",
+      "Queilitis angular"
+    ],
+    "area": "INF",
+    "resumen": "Placas blanquecinas que se desprenden dejando base eritematosa (muguet). Factores: **corticoides inhalados** (enjuagarse tras usarlos), antibióticos, prótesis dentales, diabetes, inmunodepresión (**VIH**), xerostomía. Leve: **nistatina** o miconazol tópicos. Moderada-grave o inmunodeprimido: **fluconazol oral**. **Esofágica** (odinofagia): siempre sistémico y buscar inmunodepresión.",
+    "objetivo": "Curar la infección y corregir el factor predisponente.",
+    "escenarios": [
+      {
+        "titulo": "Orofaríngea leve",
+        "farmacos": [
+          {
+            "nombre": "Nistatina suspensión oral",
+            "ref": "DER-nistatina",
+            "dosis": "5 mL (500.000 UI)",
+            "via": "bucal",
+            "intervalo": "Cada 6 h, enjuagar y tragar",
+            "duracion": "7-14 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Orofaríngea moderada-grave",
+        "farmacos": [
+          {
+            "nombre": "Fluconazol",
+            "ref": "INF-fluconazol",
+            "dosis": "200 mg el primer día; después 100-200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "7-14 días"
+          }
+        ]
+      },
+      {
+        "titulo": "Esofágica",
+        "farmacos": [
+          {
+            "nombre": "Fluconazol",
+            "ref": "INF-fluconazol",
+            "dosis": "200-400 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "14-21 días"
+          },
+          {
+            "nombre": "Itraconazol solución (refractaria a fluconazol)",
+            "ref": "INF-itraconazol",
+            "dosis": "200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h en ayunas",
+            "duracion": "14-21 días",
+            "nota": "Alternativa; equinocandina IV si no responde"
+          }
+        ]
+      },
+      {
+        "titulo": "Lactante (muguet)",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Nistatina suspensión oral",
+            "ref": "DER-nistatina",
+            "dosis": "1-2 mL (100.000-200.000 UI) en cada lado de la boca",
+            "via": "bucal",
+            "intervalo": "Cada 6 h",
+            "duracion": "7-14 días (48 h tras desaparecer)",
+            "otra_poblacion": true,
+            "nota": "Tratar también el pezón materno si hay lactancia"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Enjuagarse la boca tras el corticoide inhalado; usar cámara",
+      "Retirar y limpiar las prótesis dentales por la noche",
+      "Candidiasis esofágica sin causa: serología de VIH"
+    ],
+    "claves": [
+      "**Fluconazol: revisar interacciones (warfarina, estatinas, QT).**",
+      "Placa blanca que NO se desprende: leucoplasia (biopsia)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de candidiasis; Katzung 15.ª ed., cap. 48",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-aftas-orales",
+    "nombre": "Aftas orales (estomatitis aftosa recurrente)",
+    "sinonimos": [
+      "Aftas",
+      "Úlceras orales",
+      "Estomatitis aftosa"
+    ],
+    "area": "DER",
+    "resumen": "Úlceras dolorosas redondas con halo eritematoso, que curan en 7-14 días sin cicatriz. Tratamiento **tópico**: corticoide en pasta adhesiva para acortar el brote, antiséptico y analgésico local. Úlcera **única de >2-3 semanas → biopsia** (carcinoma). Aftas frecuentes o grandes: descartar **déficit de hierro, B12 o folato, celiaquía, Crohn, Behçet (aftas genitales, uveítis), VIH** y fármacos (AINE, nicorandil, metotrexato).",
+    "objetivo": "Aliviar el dolor, acortar los brotes y no pasar por alto una enfermedad de base.",
+    "escenarios": [
+      {
+        "titulo": "Brote",
+        "farmacos": [
+          {
+            "nombre": "Triamcinolona en pasta oral",
+            "ref": "DER-triamcinolona-orabase",
+            "dosis": "1 aplicación de pasta al 0,1% sobre la lesión",
+            "via": "bucal",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "5-7 días"
+          },
+          {
+            "nombre": "Clorhexidina colutorio",
+            "ref": "DER-clorhexidina-colutorio",
+            "dosis": "15 mL al 0,12%",
+            "via": "bucal",
+            "intervalo": "Cada 12 h",
+            "duracion": "≤2 semanas"
+          },
+          {
+            "nombre": "Bencidamina colutorio (dolor)",
+            "ref": "DER-bencidamina-colutorio",
+            "dosis": "15 mL al 0,15%",
+            "via": "bucal",
+            "intervalo": "Cada 3-6 h, antes de las comidas",
+            "duracion": "A demanda"
+          }
+        ]
+      },
+      {
+        "titulo": "Aftosis recurrente grave",
+        "farmacos": [
+          {
+            "nombre": "Colchicina",
+            "ref": "REU-colchicina",
+            "dosis": "0,5 mg",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Meses",
+            "nota": "También en el Behçet mucocutáneo"
+          },
+          {
+            "nombre": "Prednisona (brote grave)",
+            "ref": "REU-prednisona",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5-7 días"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Evitar alimentos ácidos, picantes y traumatismos (cepillo blando)",
+      "Pasta dental sin laurilsulfato sódico",
+      "Hemograma, ferritina, B12, folato y serología de celiaquía si son recurrentes"
+    ],
+    "claves": [
+      "**Úlcera oral que no cura en 3 semanas: biopsia.**",
+      "Aftas orales y genitales recurrentes con uveítis: síndrome de Behçet."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades de la boca",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-ojo-seco",
+    "nombre": "Ojo seco",
+    "sinonimos": [
+      "Síndrome de ojo seco",
+      "Queratoconjuntivitis seca"
+    ],
+    "area": "OFT",
+    "resumen": "Sensación de arena, escozor, ojo rojo y visión fluctuante, que **empeora con pantallas, viento, aire acondicionado** y mejora al parpadear. Muy frecuente en mayores, mujeres posmenopáusicas, portadores de lentillas y con fármacos (**antihistamínicos, antidepresivos, isotretinoína, betabloqueantes tópicos**). Base: **lágrimas artificiales** (sin conservantes si se usan mucho) e **higiene palpebral**; moderado-grave: ciclosporina tópica. Buscar Sjögren si hay boca seca.",
+    "objetivo": "Aliviar los síntomas y proteger la superficie ocular.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento escalonado",
+        "farmacos": [
+          {
+            "nombre": "Hialuronato sódico colirio",
+            "ref": "OFT-hialuronato-sodico",
+            "dosis": "1 gota (0,1-0,3%)",
+            "via": "oftálmica",
+            "intervalo": "Cada 4-6 h o a demanda",
+            "duracion": "Crónica"
+          },
+          {
+            "nombre": "Carmelosa (o gel nocturno)",
+            "ref": "OFT-carmelosa",
+            "dosis": "1 gota (0,5%) o 1 cm de gel",
+            "via": "oftálmica",
+            "intervalo": "Cada 4-6 h; gel al acostarse",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Ciclosporina oftálmica (moderado-grave con queratitis)",
+            "ref": "OFT-ciclosporina-oftalmica",
+            "dosis": "1 gota (0,05-0,1%)",
+            "via": "oftálmica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Evaluar a los 3 meses"
+          },
+          {
+            "nombre": "Doxiciclina (disfunción de glándulas de Meibomio)",
+            "ref": "INF-doxiciclina",
+            "dosis": "40-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "6-12 semanas",
+            "nota": "Efecto antiinflamatorio"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Higiene palpebral con calor húmedo y masaje del borde del párpado",
+      "Pausas con pantallas (regla 20-20-20), humidificador, gafas envolventes",
+      "Revisar fármacos que secan; tapones lagrimales en casos graves"
+    ],
+    "claves": [
+      "**Ojo seco con dolor intenso, fotofobia o baja visión: descartar queratitis o uveítis.**",
+      "Las lágrimas con conservante usadas >4-6 veces al día empeoran el ojo seco."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-blefaritis-orzuelo",
+    "nombre": "Blefaritis, orzuelo y chalazión",
+    "sinonimos": [
+      "Blefaritis",
+      "Orzuelo",
+      "Chalazión",
+      "Disfunción de glándulas de Meibomio"
+    ],
+    "area": "OFT",
+    "resumen": "**Blefaritis**: borde palpebral enrojecido con costras o escamas, picor y sensación de cuerpo extraño; crónica, se controla pero no se cura. Base: **higiene palpebral diaria** (calor + masaje + limpieza). **Orzuelo**: absceso agudo doloroso de una glándula del borde → **calor local**; antibiótico tópico solo si hay celulitis local. **Chalazión**: nódulo indoloro crónico → calor; infiltración o cirugía si persiste. Celulitis preseptal → antibiótico oral.",
+    "objetivo": "Controlar los síntomas y prevenir recidivas.",
+    "escenarios": [
+      {
+        "titulo": "Blefaritis",
+        "farmacos": [
+          {
+            "nombre": "Eritromicina pomada oftálmica",
+            "ref": "OFT-eritromicina-pomada",
+            "dosis": "1 cm de pomada al 0,5% en el borde palpebral",
+            "via": "oftálmica",
+            "intervalo": "Cada 24 h al acostarse",
+            "duracion": "2-4 semanas"
+          },
+          {
+            "nombre": "Doxiciclina (blefaritis posterior o rosácea ocular)",
+            "ref": "INF-doxiciclina",
+            "dosis": "40-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "6-12 semanas"
+          },
+          {
+            "nombre": "Lágrimas artificiales",
+            "ref": "OFT-hialuronato-sodico",
+            "dosis": "1 gota",
+            "via": "oftálmica",
+            "intervalo": "Cada 4-6 h",
+            "duracion": "A demanda"
+          }
+        ]
+      },
+      {
+        "titulo": "Orzuelo con celulitis local o celulitis preseptal",
+        "farmacos": [
+          {
+            "nombre": "Eritromicina pomada (orzuelo con inflamación local)",
+            "ref": "OFT-eritromicina-pomada",
+            "dosis": "1 cm de pomada al 0,5%",
+            "via": "oftálmica",
+            "intervalo": "Cada 12 h",
+            "duracion": "7 días"
+          },
+          {
+            "nombre": "Amoxicilina-clavulánico (celulitis preseptal)",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "7-10 días",
+            "nota": "Dolor con los movimientos oculares, proptosis o baja visión: celulitis orbitaria (urgencia, IV)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Compresas calientes 5-10 min 2-4 veces al día con masaje del borde palpebral",
+      "Limpieza del borde con toallitas o champú infantil diluido",
+      "No exprimir el orzuelo; drenaje si no se resuelve"
+    ],
+    "claves": [
+      "**Chalazión que recidiva en el mismo sitio en un adulto: biopsia (carcinoma sebáceo).**",
+      "Celulitis orbitaria: proptosis, oftalmoplejía o dolor al mover el ojo → ingreso y antibiótico IV."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades oculares; Katzung 15.ª ed., cap. 44",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-bronquiectasias",
+    "nombre": "Bronquiectasias no debidas a fibrosis quística",
+    "sinonimos": [
+      "Bronquiectasias"
+    ],
+    "area": "NML",
+    "resumen": "Tos crónica con **expectoración diaria** e infecciones respiratorias de repetición, con dilatación bronquial en la TC. Pilares: **fisioterapia respiratoria** diaria, tratamiento de la causa (inmunodeficiencia, ABPA, micobacterias, reflujo) y **antibiótico en las exacerbaciones durante 14 días** según el cultivo previo de esputo. En ≥3 exacerbaciones/año: **macrólido a largo plazo** o antibiótico inhalado si hay Pseudomonas.",
+    "objetivo": "Reducir las exacerbaciones y frenar el deterioro de la función pulmonar.",
+    "escenarios": [
+      {
+        "titulo": "Exacerbación",
+        "farmacos": [
+          {
+            "nombre": "Amoxicilina-clavulánico (sin Pseudomonas)",
+            "ref": "INF-amoxicilina-clavulanico",
+            "dosis": "875/125 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "14 días"
+          },
+          {
+            "nombre": "Ciprofloxacino (Pseudomonas en cultivos previos)",
+            "ref": "INF-ciprofloxacino",
+            "dosis": "750 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "14 días"
+          },
+          {
+            "nombre": "Ceftazidima o piperacilina-tazobactam (grave)",
+            "ref": "INF-ceftazidima",
+            "dosis": "2 g",
+            "via": "IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "14 días",
+            "nota": "± aminoglucósido"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención (≥3 exacerbaciones al año)",
+        "farmacos": [
+          {
+            "nombre": "Azitromicina",
+            "ref": "INF-azitromicina",
+            "dosis": "250 mg diarios o 500 mg 3 veces por semana",
+            "via": "VO",
+            "intervalo": "Cada 24 h o 3 días/semana",
+            "duracion": "6-12 meses y reevaluar",
+            "nota": "ECG (QT), audiometría, descartar micobacterias no tuberculosas"
+          },
+          {
+            "nombre": "Tobramicina inhalada (infección crónica por Pseudomonas)",
+            "ref": "INF-tobramicina",
+            "dosis": "300 mg nebulizada",
+            "via": "inhalada",
+            "intervalo": "Cada 12 h, en ciclos de 28 días sí y 28 no",
+            "duracion": "Prolongada"
+          },
+          {
+            "nombre": "Suero salino hipertónico nebulizado (mucocinético)",
+            "ref": "PED-NML-salino-hipertonico-nebulizado",
+            "dosis": "4 mL al 7% (o 3%)",
+            "via": "nebulizada",
+            "intervalo": "Cada 12-24 h, tras salbutamol",
+            "duracion": "Prolongada",
+            "otra_poblacion": true
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fisioterapia respiratoria y drenaje de secreciones diarios; ejercicio",
+      "Cultivo de esputo en estabilidad y en cada exacerbación",
+      "Vacunación antigripal y antineumocócica; estudio etiológico"
+    ],
+    "claves": [
+      "**El primer aislamiento de Pseudomonas se intenta erradicar.**",
+      "Los corticoides inhalados no se recomiendan salvo asma o EPOC asociada."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de bronquiectasias; guías ERS de bronquiectasias",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 6 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-tos-cronica",
+    "nombre": "Tos crónica del adulto",
+    "sinonimos": [
+      "Tos persistente",
+      "Tos de más de 8 semanas"
+    ],
+    "area": "NML",
+    "resumen": "Tos >8 semanas con radiografía normal y sin fumar: las 3 causas más frecuentes son **goteo posnasal (síndrome de tos de vía aérea superior)**, **asma (o bronquitis eosinofílica)** y **reflujo gastroesofágico**; revisar **IECA** (retirarlo; la tos cede en hasta 4 semanas). Tratamiento empírico **secuencial** de cada causa. Refractaria: gabapentina o pregabalina a dosis bajas, logopedia.",
+    "objetivo": "Identificar y tratar la causa.",
+    "escenarios": [
+      {
+        "titulo": "Goteo posnasal",
+        "farmacos": [
+          {
+            "nombre": "Corticoide intranasal (mometasona)",
+            "ref": "NML-mometasona-nasal",
+            "dosis": "2 pulverizaciones (50 µg cada una) por fosa",
+            "via": "IN",
+            "intervalo": "Cada 24 h",
+            "duracion": "4-8 semanas de prueba"
+          },
+          {
+            "nombre": "Dexclorfeniramina (antihistamínico de 1.ª generación)",
+            "ref": "INM-dexclorfeniramina",
+            "dosis": "2 mg (6 mg retard)",
+            "via": "VO",
+            "intervalo": "Por la noche (hasta cada 8 h)",
+            "duracion": "2-3 semanas",
+            "nota": "Más eficaz que los de 2.ª generación en este caso"
+          }
+        ]
+      },
+      {
+        "titulo": "Asma o bronquitis eosinofílica",
+        "farmacos": [
+          {
+            "nombre": "Budesonida inhalada",
+            "ref": "NML-budesonida-inhalada",
+            "dosis": "200-400 µg",
+            "via": "inhalada",
+            "intervalo": "Cada 12 h",
+            "duracion": "4-8 semanas de prueba"
+          }
+        ]
+      },
+      {
+        "titulo": "Reflujo gastroesofágico",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol",
+            "ref": "DIG-omeprazol",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "8-12 semanas de prueba",
+            "nota": "Solo si hay síntomas de reflujo"
+          }
+        ]
+      },
+      {
+        "titulo": "Tos crónica refractaria",
+        "farmacos": [
+          {
+            "nombre": "Gabapentina",
+            "ref": "NEU-gabapentina",
+            "dosis": "300 mg → 900-1800 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Prueba de 8 semanas"
+          },
+          {
+            "nombre": "Pregabalina",
+            "ref": "NEU-pregabalina",
+            "dosis": "75-150 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Prueba de 8 semanas",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar IECA y tabaco; radiografía de tórax y espirometría con prueba broncodilatadora",
+      "TC si hay hemoptisis, pérdida de peso o radiografía alterada",
+      "Logopedia (terapia de supresión de la tos)"
+    ],
+    "claves": [
+      "**Tos con IECA: cambiar a ARA-II.**",
+      "Tos crónica en fumador con cambio reciente: radiografía y descartar cáncer."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de tos; guías ERS/ACCP de tos crónica",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 6 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]
