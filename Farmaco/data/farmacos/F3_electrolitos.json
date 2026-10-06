@@ -1,0 +1,326 @@
+[
+  {
+    "id": "NFR-fosfato-iv",
+    "nombre": "Fosfato intravenoso (fosfato potásico o sódico)",
+    "sinonimos": [
+      "Fosfato monopotásico IV",
+      "Glicerofosfato sódico",
+      "Reposición de fósforo IV"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Fluidoterapia y electrolitos intravenosos",
+    "subclase": "Reposición de fosfato",
+    "vs_clase": [
+      "**Se dosifica en MMOL de fosfato**, no en mEq: confundir las unidades es un error clásico.",
+      "**El fosfato POTÁSICO aporta además potasio** (~1,5 mmol de K por mmol de fosfato según el preparado): elegir el sódico si hay hiperpotasemia o insuficiencia renal.",
+      "**Infusión LENTA**: si se pasa rápido precipita con el calcio (hipocalcemia, calcificaciones, fracaso renal)."
+    ],
+    "mecanismo": "Aporta fosfato inorgánico para la síntesis de ATP y 2,3-DPG, la contracción muscular (incluido el diafragma) y la función celular.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipofosfatemia grave (<0,32 mmol/L o <1 mg/dL) o sintomática",
+        "dosis": "0,08-0,16 mmol/kg (hasta 0,32 mmol/kg si es muy grave)",
+        "posologia": "En 4-6 h; repetir según fosfatemia (máximo ~50 mmol por dosis)",
+        "via": "IV",
+        "nota": "Diluido en suero salino o glucosado; no en la misma vía que el calcio"
+      },
+      {
+        "patologia": "Síndrome de realimentación con hipofosfatemia",
+        "dosis": "0,3-0,6 mmol/kg/día",
+        "posologia": "Repartido en perfusión",
+        "via": "IV",
+        "nota": "Junto a tiamina, potasio y magnesio"
+      }
+    ],
+    "esquema": {
+      "inicio": "Determinar el fosfato, el calcio, el potasio y la función renal antes de empezar.",
+      "titulacion": "Repetir según el fosfato a las 6-12 h.",
+      "duracion": "Hasta fósforo >0,65 mmol/L (2 mg/dL) y tolerancia oral.",
+      "fin": "Pasar a fosfato oral.",
+      "via": "IV en perfusión lenta (≤7,5 mmol/h en vía periférica).",
+      "monitorizacion": "Fosfato, calcio, potasio y creatinina cada 6-12 h."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Intracelular (sobre todo en la realimentación).",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Reducir a la mitad y vigilar en insuficiencia renal (riesgo de hiperfosfatemia).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sales de calcio en la misma vía",
+          "efecto": "Precipitación de fosfato cálcico",
+          "gravedad": "alta",
+          "manejo": "Vías separadas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Flebitis",
+        "Hiperpotasemia (fosfato potásico)"
+      ],
+      "graves": [
+        "Hipocalcemia y tetania",
+        "Calcificación metastásica y fracaso renal agudo",
+        "Hiperfosfatemia"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperfosfatemia",
+      "Hipocalcemia no corregida",
+      "Hiperpotasemia (formulación potásica)"
+    ],
+    "perlas": [
+      "La hipofosfatemia grave típica aparece al REALIMENTAR (desnutrición, alcohol) o al tratar la cetoacidosis: detectarla evita insuficiencia respiratoria y cardiaca."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del calcio y del fósforo; Katzung 15.ª ed., cap. de fármacos del metabolismo mineral"
+  },
+  {
+    "id": "NFR-fosfato-oral",
+    "nombre": "Fosfato oral (sales de fosfato sódico o potásico)",
+    "sinonimos": [
+      "Suplemento de fósforo oral",
+      "Fosfato neutro"
+    ],
+    "area": "NFR",
+    "nivel": 3,
+    "clase": "Sal oral de electrolitos y alcalinizante urinario",
+    "subclase": "Suplemento de fosfato",
+    "vs_clase": [
+      "**Corrige la hipofosfatemia leve-moderada** (0,32-0,65 mmol/L) sin vía venosa.",
+      "**Diarrea dosis-dependiente**: repartir en 3-4 tomas.",
+      "Con la toma, **no tomar antiácidos de aluminio ni magnesio ni calcio** (quelan el fosfato)."
+    ],
+    "mecanismo": "Aporta fosfato que se absorbe en el intestino delgado (más con vitamina D activa).",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipofosfatemia leve-moderada",
+        "dosis": "30-60 mmol/día de fosfato (1-2 g de fósforo)",
+        "posologia": "Repartido en 3-4 tomas",
+        "via": "VO",
+        "nota": "Hasta normalizar"
+      },
+      {
+        "patologia": "Raquitismo hipofosfatémico ligado al X",
+        "dosis": "20-60 mg/kg/día de fósforo elemental",
+        "posologia": "Repartido en 4-5 tomas",
+        "via": "VO",
+        "nota": "Con calcitriol; hoy el burosumab es alternativa"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con las comidas.",
+      "titulacion": "Subir según tolerancia digestiva.",
+      "duracion": "Hasta normalizar el fosfato (o crónico en las formas genéticas).",
+      "fin": "Suspender al corregir la causa.",
+      "via": "Oral.",
+      "monitorizacion": "Fosfato, calcio, potasio, PTH y función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intestinal ~60-70%.",
+      "distribucion": "—",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Evitar en FG <30 mL/min.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Antiácidos de aluminio, magnesio o calcio, sevelámero",
+          "efecto": "Quelan el fosfato y anulan la absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Náuseas"
+      ],
+      "graves": [
+        "Hiperfosfatemia e hipocalcemia",
+        "Nefrocalcinosis con uso crónico"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave",
+      "Hiperfosfatemia"
+    ],
+    "perlas": [
+      "La leche desnatada aporta ~1 g de fósforo por litro: alternativa útil en la hipofosfatemia leve."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del calcio y del fósforo"
+  },
+  {
+    "id": "NFR-magnesio-oral",
+    "nombre": "Magnesio oral (óxido, cloruro, lactato o pidolato)",
+    "sinonimos": [
+      "Suplemento de magnesio",
+      "Sales de magnesio orales"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Sal oral de electrolitos y alcalinizante urinario",
+    "subclase": "Suplemento de magnesio",
+    "vs_clase": [
+      "**Reposición crónica** de la hipomagnesemia leve o por pérdidas mantenidas (IBP, diuréticos, diarrea).",
+      "**Se dosifica en mg o mmol de magnesio ELEMENTAL**: las sales tienen contenidos muy distintos.",
+      "**Diarrea** como límite de dosis (el óxido de magnesio es también laxante)."
+    ],
+    "mecanismo": "Aporta magnesio para las bombas Na/K-ATPasa, la secreción de PTH y la excitabilidad neuromuscular y cardiaca.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipomagnesemia leve o crónica",
+        "dosis": "240-720 mg/día de magnesio elemental (10-30 mmol/día)",
+        "posologia": "Repartido en 2-4 tomas",
+        "via": "VO",
+        "nota": "Las formas de liberación lenta producen menos diarrea"
+      },
+      {
+        "patologia": "Profilaxis de la migraña (coadyuvante)",
+        "dosis": "400-600 mg de magnesio elemental",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Evidencia moderada"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con las comidas.",
+      "titulacion": "Subir según tolerancia digestiva.",
+      "duracion": "Mientras persista la pérdida.",
+      "fin": "Retirar al corregir la causa (suspender el IBP si es posible).",
+      "via": "Oral.",
+      "monitorizacion": "Magnesio, potasio y calcio; función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intestinal ~30-40%.",
+      "distribucion": "Hueso y espacio intracelular.",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Evitar o reducir en FG <30 mL/min (hipermagnesemia).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Tetraciclinas, quinolonas, bisfosfonatos, levotiroxina",
+          "efecto": "Quelación y menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar 2-4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Diarrea",
+        "Molestias abdominales"
+      ],
+      "graves": [
+        "Hipermagnesemia en insuficiencia renal (hiporreflexia, bradicardia, depresión respiratoria)"
+      ]
+    },
+    "contraindicaciones": [
+      "Insuficiencia renal grave",
+      "Bloqueo AV"
+    ],
+    "perlas": [
+      "La hipopotasemia y la hipocalcemia no se corrigen hasta reponer el magnesio."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del magnesio; Katzung 15.ª ed., cap. de fármacos del metabolismo mineral"
+  },
+  {
+    "id": "NFR-citrato-potasico",
+    "nombre": "Citrato potásico",
+    "sinonimos": [
+      "Alcalinizante urinario",
+      "Citrato de potasio"
+    ],
+    "area": "NFR",
+    "nivel": 2,
+    "clase": "Sal oral de electrolitos y alcalinizante urinario",
+    "subclase": "Alcalinizante urinario y aporte de citrato",
+    "vs_clase": [
+      "**Prevención de la litiasis**: eleva el citrato urinario (inhibe la cristalización del oxalato cálcico) y el pH (disuelve el ácido úrico).",
+      "**Aporta potasio**: vigilar hiperpotasemia con IECA, ARA-II, espironolactona o insuficiencia renal.",
+      "**Se dosifica en mEq** de potasio/citrato."
+    ],
+    "mecanismo": "El citrato se metaboliza a bicarbonato: alcaliniza la orina, aumenta la excreción de citrato y forma complejos solubles con el calcio urinario.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Litiasis cálcica con hipocitraturia y litiasis de ácido úrico",
+        "dosis": "30-60 mEq/día",
+        "posologia": "Repartido en 2-3 tomas con las comidas",
+        "via": "VO",
+        "nota": "Objetivo: pH urinario 6-6,5 (ácido úrico) y citraturia normal"
+      },
+      {
+        "patologia": "Acidosis tubular renal distal",
+        "dosis": "1-2 mEq/kg/día",
+        "posologia": "Repartido en 2-3 tomas",
+        "via": "VO",
+        "nota": "Corrige la acidosis y la hipopotasemia"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con las comidas y abundante agua.",
+      "titulacion": "Ajustar según el pH y el citrato en orina de 24 h.",
+      "duracion": "Crónica.",
+      "fin": "—",
+      "via": "Oral (comprimidos de liberación prolongada o sobres).",
+      "monitorizacion": "Potasio, función renal, pH y citrato urinarios."
+    },
+    "farmacocinetica": {
+      "absorcion": "Intestinal buena.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (citrato a bicarbonato).",
+      "eliminacion": "Renal.",
+      "vida_media": "—",
+      "ajuste_renal": "Contraindicado en FG <30 mL/min o hiperpotasemia.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "IECA, ARA-II, antialdosterónicos, amilorida, AINE",
+          "efecto": "Hiperpotasemia",
+          "gravedad": "alta",
+          "manejo": "Control de potasio; evitar en insuficiencia renal"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Molestias digestivas",
+        "Diarrea"
+      ],
+      "graves": [
+        "Hiperpotasemia",
+        "Úlcera esofágica o gastrointestinal (comprimidos de cera)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hiperpotasemia",
+      "Insuficiencia renal grave",
+      "Infección urinaria por gérmenes ureolíticos (litiasis de estruvita)",
+      "Retraso del vaciamiento gástrico"
+    ],
+    "perlas": [
+      "El zumo de limón o naranja aporta citrato, pero en cantidad muy inferior a la dosis farmacológica."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de nefrolitiasis; guías EAU de urolitiasis"
+  }
+]

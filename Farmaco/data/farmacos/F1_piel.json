@@ -1,0 +1,532 @@
+[
+  {
+    "id": "DER-cantaridina",
+    "nombre": "Cantaridina tópica",
+    "sinonimos": [
+      "Cantaridina 0,7%",
+      "Cantaridina-podofilina-salicílico"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Vesicante",
+    "vs_clase": [
+      "**La única VESICANTE de la clase**: produce una ampolla intraepidérmica que arrastra la lesión, sin cicatriz.",
+      "**La aplica el profesional en consulta** y se lava a las 24 h (antes en la primera sesión); no es un tratamiento domiciliario.",
+      "**Indolora al aplicarla** (útil en niños con molusco), pero la ampolla duele a las 24 h."
+    ],
+    "mecanismo": "Inhibidor de la fosfodiesterasa extraída del escarabajo; provoca acantólisis y ampolla intraepidérmica que separa la lesión.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Molusco contagioso",
+        "dosis": "1 aplicación de solución al 0,7% sobre cada lesión (máximo ~20 lesiones por sesión)",
+        "posologia": "Cada 3 semanas; lavar a las 24 h (2-6 h en la primera sesión)",
+        "via": "tópica",
+        "nota": "No en cara, genitales ni pliegues"
+      },
+      {
+        "patologia": "Verrugas vulgares y plantares",
+        "dosis": "1 aplicación (cantaridina 1% ± podofilina y salicílico) ocluida 24 h",
+        "posologia": "Cada 2-4 semanas",
+        "via": "tópica",
+        "nota": "Solo en consulta"
+      }
+    ],
+    "esquema": {
+      "inicio": "En consulta, con palillo de madera sobre cada lesión.",
+      "titulacion": "Primera sesión con pocas lesiones para valorar la reacción.",
+      "duracion": "1-4 sesiones.",
+      "fin": "Al desaparecer las lesiones.",
+      "via": "Tópica; lavar con agua y jabón a las 24 h (2-6 h la primera vez; 24 h ocluida en verrugas).",
+      "monitorizacion": "Ampolla a las 24-48 h; vigilar sobreinfección."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local; tóxica por vía oral.",
+      "distribucion": "—",
+      "metabolismo": "No relevante por vía tópica.",
+      "eliminacion": "No relevante por vía tópica.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones sistémicas relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Ampolla dolorosa",
+        "Hiperpigmentación o hipopigmentación transitoria"
+      ],
+      "graves": [
+        "Verrugas en anillo alrededor de la ampolla",
+        "Ingesta accidental: toxicidad digestiva y renal grave"
+      ]
+    },
+    "contraindicaciones": [
+      "Cara, mucosas, genitales y zona del pañal",
+      "Piel inflamada o con eccema activo"
+    ],
+    "perlas": [
+      "El molusco se cura solo en 6-18 meses: tratar si hay muchas lesiones, prurito, contagio o deseo del paciente."
+    ],
+    "embarazo_lactancia": "Evitar (sin datos).",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones víricas cutáneas; guías europeas de dermatología pediátrica sobre molusco contagioso"
+  },
+  {
+    "id": "DER-hidroxido-potasio",
+    "nombre": "Hidróxido potásico tópico (KOH 5-10%)",
+    "sinonimos": [
+      "KOH tópico",
+      "Potasa cáustica tópica"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Álcali cáustico",
+    "vs_clase": [
+      "**Álcali que DISUELVE la queratina y destruye la lesión**: el único de la clase que se aplica en casa en el molusco.",
+      "**Suspender en cuanto la lesión se inflama** o ulcera: es la señal de que ha funcionado.",
+      "Irritación frecuente; **no en la cara**."
+    ],
+    "mecanismo": "Álcali fuerte que disuelve la queratina y destruye las células infectadas por el poxvirus.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Molusco contagioso",
+        "dosis": "1 aplicación de solución al 5% (10% en adultos) sobre cada lesión",
+        "posologia": "1-2 veces al día",
+        "via": "tópica",
+        "nota": "Hasta que la lesión se inflame (habitualmente 2-6 semanas)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con el aplicador, solo sobre la lesión, protegiendo la piel de alrededor con vaselina.",
+      "titulacion": "—",
+      "duracion": "Hasta inflamación o desaparición (máximo 12 semanas).",
+      "fin": "Suspender al aparecer enrojecimiento o costra.",
+      "via": "Tópica.",
+      "monitorizacion": "Irritación, erosión o cicatriz."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local.",
+      "distribucion": "—",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "No relevante.",
+      "vida_media": "—",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor y eritema",
+        "Hipopigmentación transitoria"
+      ],
+      "graves": [
+        "Úlcera y cicatriz si se aplica en exceso",
+        "Lesión ocular por salpicadura"
+      ]
+    },
+    "contraindicaciones": [
+      "Cara, párpados y mucosas",
+      "Piel con eccema activo"
+    ],
+    "perlas": [
+      "Alternativa domiciliaria a la crioterapia o el curetaje, que suelen ser mal tolerados por los niños."
+    ],
+    "embarazo_lactancia": "Compatible (acción local).",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones víricas cutáneas; revisiones sistemáticas Cochrane sobre molusco contagioso"
+  },
+  {
+    "id": "DER-tirbanibulina",
+    "nombre": "Tirbanibulina pomada",
+    "sinonimos": [
+      "Tirbanibulina 1%"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Queratolítico y antiverrugas tópico",
+    "subclase": "Antiproliferativo (inhibidor de tubulina y Src)",
+    "vs_clase": [
+      "**Tratamiento de la queratosis actínica en solo 5 DÍAS**: la pauta más corta de los tratamientos de campo.",
+      "**Reacción local leve** frente al 5-fluorouracilo y el imiquimod; mejor cumplimiento.",
+      "Limitada a un **campo de 25-100 cm²** de cara o cuero cabelludo."
+    ],
+    "mecanismo": "Inhibe la polimerización de la tubulina y la señalización de la cinasa Src; detiene la proliferación de queratinocitos atípicos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Queratosis actínica de cara o cuero cabelludo",
+        "dosis": "1 aplicación de pomada al 1% sobre el campo (hasta 100 cm²)",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "5 días consecutivos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Capa fina sobre todo el campo afectado; lavar las manos.",
+      "titulacion": "—",
+      "duracion": "5 días.",
+      "fin": "Revisar a las 8 semanas; repetir otras áreas si hace falta.",
+      "via": "Tópica.",
+      "monitorizacion": "Eritema y descamación (máximos al día 8)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica mínima.",
+      "distribucion": "—",
+      "metabolismo": "Hepático (CYP3A4) la fracción absorbida.",
+      "eliminacion": "Fecal.",
+      "vida_media": "~4 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes por vía tópica",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Eritema y descamación local",
+        "Costras y prurito leves"
+      ],
+      "graves": [
+        "Erosión o ulceración local (rara)"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipersensibilidad",
+      "Heridas abiertas en el campo"
+    ],
+    "perlas": [
+      "Lesión infiltrada, dolorosa, sangrante o que no responde: biopsia para descartar carcinoma epidermoide."
+    ],
+    "embarazo_lactancia": "Evitar (sin datos).",
+    "micro_relacionado": [],
+    "fuente": "Guías europeas (EDF/EADO) de queratosis actínica 2024; ficha técnica EMA de tirbanibulina"
+  },
+  {
+    "id": "DER-ruxolitinib-crema",
+    "nombre": "Ruxolitinib crema",
+    "sinonimos": [
+      "Ruxolitinib tópico 1,5%",
+      "Inhibidor JAK tópico"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Inmunomodulador tópico",
+    "subclase": "Inhibidor tópico de JAK1/JAK2",
+    "vs_clase": [
+      "**Primer fármaco autorizado para REPIGMENTAR el vitíligo no segmentario** (desde los 12 años).",
+      "**Inhibidor JAK tópico**: bloquea la vía del interferón gamma que destruye los melanocitos.",
+      "Respuesta **lenta (24-52 semanas)**; máximo el 10% de la superficie corporal."
+    ],
+    "mecanismo": "Inhibe JAK1 y JAK2 en la piel y bloquea la señalización del interferón gamma y de las citocinas que median la destrucción de melanocitos.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Vitíligo no segmentario con afectación facial",
+        "dosis": "1 aplicación de crema al 1,5% sobre las máculas (≤10% de superficie corporal)",
+        "posologia": "Cada 12 h",
+        "via": "tópica",
+        "nota": "Valorar a las 24 semanas; mantener hasta 52 semanas si hay respuesta"
+      },
+      {
+        "patologia": "Dermatitis atópica leve-moderada (≥12 años)",
+        "dosis": "1 aplicación de crema al 1,5%",
+        "posologia": "Cada 12 h",
+        "via": "tópica",
+        "nota": "Tandas cortas; máximo 60 g/semana"
+      }
+    ],
+    "esquema": {
+      "inicio": "Capa fina sobre las máculas despigmentadas.",
+      "titulacion": "—",
+      "duracion": "24-52 semanas para valorar la repigmentación.",
+      "fin": "Suspender si a las 24 semanas no hay respuesta.",
+      "via": "Tópica; no más de 100 g cada 2 semanas.",
+      "monitorizacion": "Acné en la zona y reacciones locales."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica baja (~6%).",
+      "distribucion": "—",
+      "metabolismo": "Hepático (CYP3A4).",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "~3 h (sistémica).",
+      "ajuste_renal": "No precisa por vía tópica.",
+      "ajuste_hepatico": "No precisa por vía tópica.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes de CYP3A4 (claritromicina, itraconazol)",
+          "efecto": "Aumento de la exposición sistémica",
+          "gravedad": "baja",
+          "manejo": "Limitar la superficie tratada"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Acné en la zona de aplicación",
+        "Eritema y prurito local"
+      ],
+      "graves": [
+        "Advertencias de los inhibidores JAK sistémicos (infección, trombosis): teóricas por vía tópica"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo y lactancia",
+      "Uso con inmunosupresores potentes o biológicos"
+    ],
+    "perlas": [
+      "Combinar con fototerapia UVB de banda estrecha acelera la repigmentación; manos y pies responden peor que la cara."
+    ],
+    "embarazo_lactancia": "Contraindicado.",
+    "micro_relacionado": [],
+    "fuente": "Guías europeas de vitíligo 2023; fichas técnicas EMA/FDA de ruxolitinib crema"
+  },
+  {
+    "id": "DER-cloruro-aluminio",
+    "nombre": "Cloruro de aluminio hexahidratado tópico",
+    "sinonimos": [
+      "Antitranspirante de aluminio",
+      "Cloruro de aluminio 20%"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento local de la hiperhidrosis",
+    "subclase": "Sal metálica antitranspirante",
+    "vs_clase": [
+      "**PRIMERA LÍNEA y la más barata**: tapona el conducto de la glándula ecrina.",
+      "**Aplicar de NOCHE sobre la piel totalmente seca** y lavar por la mañana: así irrita menos y funciona más.",
+      "Útil en axilas, palmas y plantas; **irritación** frecuente."
+    ],
+    "mecanismo": "Sal de aluminio que precipita en el conducto ecrino y forma un tapón que obstruye la salida del sudor.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperhidrosis focal primaria (axilar, palmar o plantar)",
+        "dosis": "1 aplicación de solución al 15-20% (hasta 30% en palmas)",
+        "posologia": "Cada noche hasta el control; después cada 1-3 semanas",
+        "via": "tópica",
+        "nota": "Mantenimiento indefinido"
+      }
+    ],
+    "esquema": {
+      "inicio": "Noche, sobre piel seca (no tras la ducha ni el afeitado).",
+      "titulacion": "Espaciar al conseguir respuesta (1-2 veces por semana).",
+      "duracion": "Crónica.",
+      "fin": "—",
+      "via": "Tópica; lavar por la mañana.",
+      "monitorizacion": "Irritación: espaciar o asociar hidrocortisona tópica."
+    },
+    "farmacocinetica": {
+      "absorcion": "Mínima.",
+      "distribucion": "—",
+      "metabolismo": "No se metaboliza.",
+      "eliminacion": "Renal (lo absorbido).",
+      "vida_media": "—",
+      "ajuste_renal": "Evitar en enfermedad renal avanzada (acumulación de aluminio).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Escozor, prurito e irritación"
+      ],
+      "graves": [
+        "Dermatitis de contacto irritativa intensa"
+      ]
+    },
+    "contraindicaciones": [
+      "Piel irritada o erosionada",
+      "Enfermedad renal avanzada"
+    ],
+    "perlas": [
+      "Hiperhidrosis generalizada, nocturna o de inicio en la edad adulta: buscar causa secundaria (hipertiroidismo, fármacos, infección, linfoma, menopausia)."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Guías internacionales de hiperhidrosis (International Hyperhidrosis Society); revisiones de dermatología basadas en la evidencia"
+  },
+  {
+    "id": "DER-glicopirronio-topico",
+    "nombre": "Glicopirronio tópico",
+    "sinonimos": [
+      "Glicopirronio crema 1%",
+      "Tosilato de glicopirronio en toallitas"
+    ],
+    "area": "DER",
+    "nivel": 3,
+    "clase": "Tratamiento local de la hiperhidrosis",
+    "subclase": "Anticolinérgico tópico",
+    "vs_clase": [
+      "**Anticolinérgico aplicado sobre la axila**: bloquea el receptor muscarínico de la glándula ecrina sin los efectos sistémicos del oral.",
+      "**Segunda línea** tras el cloruro de aluminio en la hiperhidrosis AXILAR.",
+      "Efectos anticolinérgicos leves: **sequedad de boca, midriasis si se toca el ojo**."
+    ],
+    "mecanismo": "Antagonista muscarínico cuaternario que bloquea la estimulación colinérgica de la glándula sudorípara ecrina.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperhidrosis axilar primaria grave",
+        "dosis": "1 aplicación de crema al 1% (o 1 toallita al 2,4%) en cada axila",
+        "posologia": "Cada 24 h",
+        "via": "tópica",
+        "nota": "Después, 2 veces por semana de mantenimiento"
+      }
+    ],
+    "esquema": {
+      "inicio": "Sobre piel seca de la axila; lavarse las manos inmediatamente.",
+      "titulacion": "Diario 4 semanas; después mínimo eficaz.",
+      "duracion": "Crónica.",
+      "fin": "—",
+      "via": "Tópica.",
+      "monitorizacion": "Efectos anticolinérgicos y retención urinaria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Sistémica baja (amonio cuaternario).",
+      "distribucion": "No atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Escaso.",
+      "eliminacion": "Renal.",
+      "vida_media": "~3-4 h (sistémica).",
+      "ajuste_renal": "Evitar en FG <30 mL/min.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros anticolinérgicos",
+          "efecto": "Suma de efectos anticolinérgicos",
+          "gravedad": "media",
+          "manejo": "Evitar la combinación"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Irritación local",
+        "Visión borrosa o midriasis unilateral si se toca el ojo"
+      ],
+      "graves": [
+        "Retención urinaria",
+        "Glaucoma de ángulo cerrado"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Retención urinaria u obstrucción prostática",
+      "Miastenia gravis"
+    ],
+    "perlas": [
+      "La oxibutinina oral (2,5-5 mg cada 12 h) es la alternativa sistémica en hiperhidrosis multifocal."
+    ],
+    "embarazo_lactancia": "Evitar (sin datos).",
+    "micro_relacionado": [],
+    "fuente": "Ficha técnica EMA/FDA del glicopirronio tópico; guías internacionales de hiperhidrosis"
+  },
+  {
+    "id": "DER-toxina-botulinica",
+    "nombre": "Toxina botulínica tipo A",
+    "sinonimos": [
+      "Onabotulinumtoxina A",
+      "Abobotulinumtoxina A",
+      "Bótox"
+    ],
+    "area": "DER",
+    "nivel": 2,
+    "clase": "Tratamiento local de la hiperhidrosis",
+    "subclase": "Neurotoxina que bloquea la liberación de acetilcolina",
+    "vs_clase": [
+      "**La más eficaz de la clase**: reduce el sudor axilar >80% durante **4-9 meses** por sesión.",
+      "**Inyección intradérmica** por profesional entrenado; las **unidades NO son intercambiables** entre marcas.",
+      "Otras indicaciones: **migraña crónica, espasticidad, blefaroespasmo, distonía cervical, vejiga hiperactiva**."
+    ],
+    "mecanismo": "Escinde SNAP-25 en la terminal colinérgica e impide la liberación de acetilcolina en la glándula sudorípara y en la placa motora.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hiperhidrosis axilar primaria",
+        "dosis": "50 U de onabotulinumtoxina A por axila, repartidas en 10-15 puntos",
+        "posologia": "Una sesión; repetir al reaparecer (cada 4-9 meses)",
+        "via": "intradérmica (SC superficial)",
+        "nota": "Palmas: 100 U por mano (más dolor; posible debilidad de la mano)"
+      },
+      {
+        "patologia": "Migraña crónica (profilaxis)",
+        "dosis": "155-195 U en 31-39 puntos de cabeza y cuello",
+        "posologia": "Cada 12 semanas",
+        "via": "IM",
+        "nota": "Valorar tras 2-3 ciclos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Delimitar la zona con la prueba de yodo-almidón (Minor).",
+      "titulacion": "—",
+      "duracion": "Efecto de 4-9 meses.",
+      "fin": "Repetir a demanda.",
+      "via": "Intradérmica (sudor) o IM (neurología).",
+      "monitorizacion": "Debilidad muscular local, sudoración compensadora."
+    },
+    "farmacocinetica": {
+      "absorcion": "Local; no se esperan niveles sistémicos a dosis terapéuticas.",
+      "distribucion": "Difusión local de 1-2 cm.",
+      "metabolismo": "Proteólisis.",
+      "eliminacion": "—",
+      "vida_media": "Efecto clínico de meses (hasta que regenera la terminal).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Aminoglucósidos y otros bloqueantes neuromusculares",
+          "efecto": "Potencian la debilidad muscular",
+          "gravedad": "media",
+          "manejo": "Evitar en las semanas de la inyección"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor en el punto de inyección",
+        "Sudoración compensadora en otras zonas"
+      ],
+      "graves": [
+        "Debilidad muscular a distancia (disfagia, disfonía) por difusión",
+        "Debilidad de la mano tras inyección palmar"
+      ]
+    },
+    "contraindicaciones": [
+      "Miastenia gravis, síndrome de Lambert-Eaton",
+      "Infección en el punto de inyección"
+    ],
+    "perlas": [
+      "Si fracasa: iontoforesis con agua del grifo (palmas y plantas), oxibutinina oral o simpatectomía torácica como último recurso."
+    ],
+    "embarazo_lactancia": "Evitar (sin datos).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de relajantes musculares; guías internacionales de hiperhidrosis"
+  }
+]

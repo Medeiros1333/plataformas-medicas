@@ -1,0 +1,697 @@
+[
+  {
+    "id": "DIG-aprepitant",
+    "nombre": "Aprepitant (y fosaprepitant IV)",
+    "sinonimos": [
+      "Antagonista NK1",
+      "Fosaprepitant",
+      "Netupitant/palonosetrón (afín)"
+    ],
+    "area": "DIG",
+    "nivel": 2,
+    "clase": "Antiemético",
+    "subclase": "Antagonista del receptor NK1 (sustancia P)",
+    "vs_clase": [
+      "**El único de la clase que bloquea la sustancia P (NK1)**: controla sobre todo la **emesis TARDÍA** (días 2-5) de la quimioterapia.",
+      "**Siempre en COMBINACIÓN** (con un anti-5-HT3 y dexametasona, ± olanzapina), nunca solo.",
+      "**Inhibidor moderado de CYP3A4**: reducir la dosis de dexametasona a la mitad; baja la eficacia de los anticonceptivos hasta 28 días."
+    ],
+    "mecanismo": "Antagonista selectivo del receptor de neurocinina 1 en el área postrema y el núcleo del tracto solitario.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Prevención de náuseas y vómitos por quimioterapia muy o moderadamente emetógena",
+        "dosis": "125 mg el día 1 y 80 mg los días 2 y 3",
+        "posologia": "1 h antes de la quimioterapia el día 1; por la mañana los días 2-3",
+        "via": "VO",
+        "nota": "Alternativa: fosaprepitant 150 mg IV dosis única el día 1"
+      },
+      {
+        "patologia": "Prevención de náuseas y vómitos posoperatorios (alto riesgo)",
+        "dosis": "40 mg",
+        "posologia": "Dosis única 3 h antes de la inducción",
+        "via": "VO",
+        "nota": "Junto a otros antieméticos"
+      }
+    ],
+    "esquema": {
+      "inicio": "Antes de la quimioterapia el día 1.",
+      "titulacion": "—",
+      "duracion": "3 días por ciclo.",
+      "fin": "Repetir en cada ciclo emetógeno.",
+      "via": "Oral (o fosaprepitant IV).",
+      "monitorizacion": "Interacciones con quimioterápicos metabolizados por CYP3A4; INR con warfarina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral ~60%.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático (CYP3A4); inhibe CYP3A4 e induce CYP2C9.",
+      "eliminacion": "Metabolitos por heces y orina.",
+      "vida_media": "~9-13 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución en insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Dexametasona y metilprednisolona",
+          "efecto": "Aumenta sus niveles",
+          "gravedad": "media",
+          "manejo": "Reducir la dosis oral de dexametasona ~50%"
+        },
+        {
+          "con": "Anticonceptivos hormonales",
+          "efecto": "Menor eficacia anticonceptiva",
+          "gravedad": "media",
+          "manejo": "Método de barrera durante el tratamiento y 1 mes después"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Descenso del INR (inducción de CYP2C9)",
+          "gravedad": "media",
+          "manejo": "INR a los 7-10 días"
+        },
+        {
+          "con": "Pimozida, ergotamina, quimioterápicos por CYP3A4 (docetaxel, vincristina)",
+          "efecto": "Aumento de su toxicidad",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Astenia",
+        "Hipo",
+        "Estreñimiento",
+        "Cefalea"
+      ],
+      "graves": [
+        "Reacción en el punto de infusión (fosaprepitant)",
+        "Hipersensibilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Uso con pimozida, terfenadina o cisaprida",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Las náuseas anticipatorias (antes del ciclo) no responden a los antieméticos: lorazepam y terapia conductual."
+    ],
+    "embarazo_lactancia": "Evitar (datos limitados).",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos digestivos (antieméticos); guías MASCC/ESMO y ASCO de antiemesis"
+  },
+  {
+    "id": "DIG-acido-obeticolico",
+    "nombre": "Ácido obeticólico",
+    "sinonimos": [
+      "Agonista FXR"
+    ],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Fármaco de segunda línea de la colangitis biliar primaria",
+    "subclase": "Agonista del receptor farnesoide X (FXR)",
+    "vs_clase": [
+      "**Agonista FXR** (no PPAR como los otros dos): primer fármaco de segunda línea que se usó en la CBP.",
+      "**Prurito** dosis-dependiente: el efecto adverso más frecuente, a menudo limitante.",
+      "**Descompensación hepática grave en la cirrosis avanzada**: la EMA retiró su autorización en 2024 y la FDA restringe su uso; queda como opción en sitios donde se mantiene y solo sin cirrosis descompensada."
+    ],
+    "mecanismo": "Agonista del receptor nuclear FXR: reduce la síntesis de ácidos biliares y aumenta su excreción, con efecto anticolestásico y antifibrótico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Colangitis biliar primaria con respuesta insuficiente o intolerancia al ácido ursodesoxicólico (sin cirrosis descompensada)",
+        "dosis": "5 mg → 10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Subir a los 6 meses si la fosfatasa alcalina no se controla"
+      }
+    ],
+    "esquema": {
+      "inicio": "5 mg/día asociado al ursodesoxicólico.",
+      "titulacion": "10 mg a los 6 meses si se tolera y hace falta.",
+      "duracion": "Crónica.",
+      "fin": "Suspender si hay descompensación hepática o progresión a cirrosis Child B-C.",
+      "via": "Oral.",
+      "monitorizacion": "Fosfatasa alcalina, bilirrubina, función hepática, lípidos (baja HDL) y prurito."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral; circulación enterohepática.",
+      "distribucion": "Unión a proteínas >99%.",
+      "metabolismo": "Conjugación hepática con glicina y taurina.",
+      "eliminacion": "Fecal.",
+      "vida_media": "Prolongada (circulación enterohepática).",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado en cirrosis descompensada (Child B-C) o con hipertensión portal.",
+      "interacciones": [
+        {
+          "con": "Colestiramina y otros secuestradores",
+          "efecto": "Reducen su absorción",
+          "gravedad": "media",
+          "manejo": "Separar ≥4 h"
+        },
+        {
+          "con": "Warfarina",
+          "efecto": "Descenso del INR",
+          "gravedad": "media",
+          "manejo": "Controlar el INR"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Prurito",
+        "Astenia",
+        "Descenso del HDL"
+      ],
+      "graves": [
+        "Descompensación e insuficiencia hepática en cirrosis avanzada"
+      ]
+    },
+    "contraindicaciones": [
+      "Cirrosis descompensada o con hipertensión portal",
+      "Obstrucción biliar completa"
+    ],
+    "perlas": [
+      "La respuesta al ursodesoxicólico se valora al año (fosfatasa alcalina <1,67 veces el límite y bilirrubina normal): si no se alcanza, añadir un fármaco de segunda línea."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Guías EASL de colangitis biliar primaria (actualización 2025); decisiones regulatorias de la EMA (2024) y la FDA"
+  },
+  {
+    "id": "DIG-elafibranor",
+    "nombre": "Elafibranor",
+    "sinonimos": [
+      "Agonista PPAR alfa/delta"
+    ],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Fármaco de segunda línea de la colangitis biliar primaria",
+    "subclase": "Agonista dual PPAR alfa/delta",
+    "vs_clase": [
+      "**Agonista PPAR alfa/delta**: normaliza la fosfatasa alcalina sin EMPEORAR el prurito.",
+      "**Una toma oral de 80 mg al día** asociada al ursodesoxicólico.",
+      "Efectos musculares (**mialgias, CK alta**) como los fibratos: cuidado con estatinas."
+    ],
+    "mecanismo": "Agonista de los receptores PPAR-alfa y PPAR-delta: reduce la síntesis y la toxicidad de los ácidos biliares y la inflamación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Colangitis biliar primaria con respuesta insuficiente o intolerancia al ácido ursodesoxicólico",
+        "dosis": "80 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Asociado al ursodesoxicólico (o solo si no lo tolera)"
+      }
+    ],
+    "esquema": {
+      "inicio": "80 mg/día.",
+      "titulacion": "—",
+      "duracion": "Crónica.",
+      "fin": "Suspender si no hay respuesta bioquímica o hay descompensación.",
+      "via": "Oral.",
+      "monitorizacion": "Fosfatasa alcalina, bilirrubina, transaminasas, CK y función renal."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral buena.",
+      "distribucion": "Unión a proteínas alta.",
+      "metabolismo": "Hepático a metabolito activo.",
+      "eliminacion": "Renal y fecal.",
+      "vida_media": "~70 h (metabolito activo).",
+      "ajuste_renal": "No precisa en leve-moderada.",
+      "ajuste_hepatico": "No recomendado en cirrosis descompensada.",
+      "interacciones": [
+        {
+          "con": "Estatinas",
+          "efecto": "Más riesgo de miopatía",
+          "gravedad": "media",
+          "manejo": "Vigilar CK y síntomas"
+        },
+        {
+          "con": "Anticonceptivos hormonales",
+          "efecto": "Puede reducir su eficacia",
+          "gravedad": "media",
+          "manejo": "Añadir método de barrera"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Dolor abdominal, diarrea, náuseas",
+        "Mialgias"
+      ],
+      "graves": [
+        "Miopatía y rabdomiólisis",
+        "Fracturas (señal en ensayos)",
+        "Lesión hepática"
+      ]
+    },
+    "contraindicaciones": [
+      "Embarazo",
+      "Cirrosis descompensada"
+    ],
+    "perlas": [
+      "Antes de añadir un segundo fármaco, confirmar adherencia al ursodesoxicólico y la dosis correcta de 13-15 mg/kg/día."
+    ],
+    "embarazo_lactancia": "Contraindicado en el embarazo (anticoncepción eficaz).",
+    "micro_relacionado": [],
+    "fuente": "Guías EASL de colangitis biliar primaria (actualización 2025); fichas técnicas EMA/FDA de elafibranor"
+  },
+  {
+    "id": "DIG-seladelpar",
+    "nombre": "Seladelpar",
+    "sinonimos": [
+      "Agonista PPAR delta"
+    ],
+    "area": "DIG",
+    "nivel": 3,
+    "clase": "Fármaco de segunda línea de la colangitis biliar primaria",
+    "subclase": "Agonista selectivo PPAR delta",
+    "vs_clase": [
+      "**Agonista PPAR delta selectivo**: además de la respuesta bioquímica, **reduce el PRURITO**.",
+      "**10 mg una vez al día**, asociado al ursodesoxicólico.",
+      "Tolerancia buena; vigilar **transaminasas** y fracturas."
+    ],
+    "mecanismo": "Agonista del receptor PPAR-delta: reduce la síntesis de ácidos biliares (vía FGF21 y CYP7A1) y la inflamación.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Colangitis biliar primaria con respuesta insuficiente o intolerancia al ácido ursodesoxicólico",
+        "dosis": "10 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Útil cuando el prurito es el problema principal"
+      }
+    ],
+    "esquema": {
+      "inicio": "10 mg/día.",
+      "titulacion": "—",
+      "duracion": "Crónica.",
+      "fin": "Suspender si no hay respuesta o hay descompensación.",
+      "via": "Oral.",
+      "monitorizacion": "Fosfatasa alcalina, bilirrubina, transaminasas."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral rápida.",
+      "distribucion": "Unión a proteínas alta.",
+      "metabolismo": "Hepático (CYP2C9, CYP2C8, CYP3A4).",
+      "eliminacion": "Renal (metabolitos).",
+      "vida_media": "~3-6 h.",
+      "ajuste_renal": "No precisa en leve-moderada.",
+      "ajuste_hepatico": "No recomendado en cirrosis descompensada.",
+      "interacciones": [
+        {
+          "con": "Inhibidores potentes de CYP2C9 o CYP3A4, rifampicina",
+          "efecto": "Cambios de exposición",
+          "gravedad": "media",
+          "manejo": "Evitar o vigilar"
+        },
+        {
+          "con": "Secuestradores de ácidos biliares",
+          "efecto": "Menor absorción",
+          "gravedad": "media",
+          "manejo": "Separar ≥4 h"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Cefalea",
+        "Dolor abdominal, náuseas, distensión"
+      ],
+      "graves": [
+        "Elevación de transaminasas",
+        "Fracturas (señal en ensayos)"
+      ]
+    },
+    "contraindicaciones": [
+      "Cirrosis descompensada",
+      "Obstrucción biliar completa"
+    ],
+    "perlas": [
+      "El prurito de la CBP no se correlaciona con la gravedad: tratarlo aunque la bioquímica esté controlada."
+    ],
+    "embarazo_lactancia": "Evitar.",
+    "micro_relacionado": [],
+    "fuente": "Guías EASL de colangitis biliar primaria (actualización 2025); fichas técnicas EMA/FDA de seladelpar"
+  },
+  {
+    "id": "INF-pirimetamina",
+    "nombre": "Pirimetamina",
+    "sinonimos": [
+      "Antifolato antiparasitario"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Sulfonamida y antifolato",
+    "subclase": "Inhibidor de la dihidrofolato reductasa del parásito",
+    "vs_clase": [
+      "**Pilar del tratamiento de la TOXOPLASMOSIS** (cerebral, ocular, congénita), siempre con una sulfonamida (sulfadiazina) o clindamicina.",
+      "**Mielotóxica**: se da SIEMPRE con **ácido FOLÍNICO** (no fólico, que el parásito sí aprovecha).",
+      "**Dosis de carga de 200 mg** el primer día."
+    ],
+    "mecanismo": "Inhibe la dihidrofolato reductasa del protozoo; sinergia con las sulfonamidas, que bloquean un paso previo de la síntesis de folato.",
+    "espectro": "Toxoplasma gondii; Plasmodium (en desuso por resistencias); Isospora/Cystoisospora (alternativa).",
+    "indicaciones": [
+      {
+        "patologia": "Toxoplasmosis cerebral en VIH (y otras formas graves)",
+        "dosis": "200 mg de carga; después 50 mg (<60 kg) o 75 mg (≥60 kg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Con sulfadiazina (o clindamicina) y ácido folínico 10-25 mg/día; ≥6 semanas"
+      },
+      {
+        "patologia": "Profilaxis secundaria de la toxoplasmosis",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Con sulfadiazina y ácido folínico hasta CD4 >200 durante ≥6 meses"
+      }
+    ],
+    "esquema": {
+      "inicio": "Carga de 200 mg.",
+      "titulacion": "—",
+      "duracion": "≥6 semanas de ataque; después mantenimiento.",
+      "fin": "Retirar el mantenimiento con reconstitución inmune estable.",
+      "via": "Oral.",
+      "monitorizacion": "Hemograma semanal al principio; función renal y cristaluria (sulfadiazina)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral buena.",
+      "distribucion": "Amplia, incluido el SNC.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "~80-95 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Otros antifolatos (cotrimoxazol, metotrexato) y zidovudina",
+          "efecto": "Mielosupresión aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar o vigilar hemograma"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Náuseas",
+        "Exantema",
+        "Anemia megaloblástica leve"
+      ],
+      "graves": [
+        "Pancitopenia",
+        "Síndrome de Stevens-Johnson (con sulfadiazina)"
+      ]
+    },
+    "contraindicaciones": [
+      "Anemia megaloblástica por déficit de folato",
+      "1.er trimestre del embarazo (se usa espiramicina)"
+    ],
+    "perlas": [
+      "Si no hay pirimetamina, el cotrimoxazol a dosis altas es una alternativa eficaz en la toxoplasmosis cerebral."
+    ],
+    "embarazo_lactancia": "Evitar en el 1.er trimestre; después, con ácido folínico.",
+    "micro_relacionado": [
+      "PAR-toxoplasma-gondii"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos antiprotozoarios; guías de infecciones oportunistas en VIH (NIH/CDC/IDSA y EACS)"
+  },
+  {
+    "id": "HEM-acido-folinico",
+    "nombre": "Ácido folínico (folinato cálcico, leucovorina)",
+    "sinonimos": [
+      "Leucovorina",
+      "Folinato cálcico",
+      "Levofolinato"
+    ],
+    "area": "HEM",
+    "nivel": 2,
+    "clase": "Vitamina del grupo B",
+    "subclase": "Folato reducido (rescate de antifolatos)",
+    "vs_clase": [
+      "**NO necesita la dihidrofolato reductasa**: por eso RESCATA de los antifolatos (metotrexato, pirimetamina) que la bloquean; el ácido fólico no sirve para eso.",
+      "**Potencia el 5-fluorouracilo** en la quimioterapia del cáncer colorrectal.",
+      "**No es un suplemento de rutina**: el déficit dietético se trata con ácido fólico."
+    ],
+    "mecanismo": "Forma reducida del folato que se incorpora directamente a la síntesis de purinas y timidina sin pasar por la dihidrofolato reductasa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Toxoplasmosis tratada con pirimetamina",
+        "dosis": "10-25 mg (hasta 50 mg)",
+        "posologia": "Cada 24 h",
+        "via": "VO",
+        "nota": "Durante todo el tratamiento con pirimetamina"
+      },
+      {
+        "patologia": "Rescate tras metotrexato a dosis altas o sobredosis de metotrexato",
+        "dosis": "15 mg/m² (o según nivel de metotrexato)",
+        "posologia": "Cada 6 h",
+        "via": "IV o VO",
+        "nota": "Empezar en las primeras 24-36 h; ajustar con niveles"
+      }
+    ],
+    "esquema": {
+      "inicio": "Con el antifolato o en las primeras horas tras el metotrexato.",
+      "titulacion": "Según niveles de metotrexato o hemograma.",
+      "duracion": "Mientras dure la exposición al antifolato.",
+      "fin": "Al bajar el nivel de metotrexato o terminar la pirimetamina.",
+      "via": "Oral, IM o IV (no intratecal).",
+      "monitorizacion": "Hemograma; niveles de metotrexato y creatinina."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral buena a dosis bajas (saturable).",
+      "distribucion": "Amplia.",
+      "metabolismo": "Hepático a 5-metiltetrahidrofolato.",
+      "eliminacion": "Renal.",
+      "vida_media": "~6 h (metabolito activo).",
+      "ajuste_renal": "No precisa (aumentar en el rescate si hay insuficiencia renal por metotrexato).",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "5-fluorouracilo",
+          "efecto": "Aumenta su eficacia y su toxicidad",
+          "gravedad": "media",
+          "manejo": "Uso protocolizado"
+        },
+        {
+          "con": "Cotrimoxazol en la neumonía por Pneumocystis",
+          "efecto": "Más fracasos del tratamiento",
+          "gravedad": "media",
+          "manejo": "No añadir folínico al cotrimoxazol"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Bien tolerado",
+        "Náuseas"
+      ],
+      "graves": [
+        "Reacciones alérgicas (raras)",
+        "Muerte por administración intratecal accidental"
+      ]
+    },
+    "contraindicaciones": [
+      "Anemia perniciosa o por déficit de B12 no tratada (enmascara el déficit)",
+      "Vía intratecal"
+    ],
+    "perlas": [
+      "Metotrexato semanal a dosis bajas (artritis): el suplemento habitual es ácido FÓLICO 5 mg semanal; el folínico se reserva para la sobredosis."
+    ],
+    "embarazo_lactancia": "Compatible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos hematopoyéticos y de quimioterapia; guías de infecciones oportunistas en VIH"
+  },
+  {
+    "id": "INF-pentamidina",
+    "nombre": "Pentamidina",
+    "sinonimos": [
+      "Isetionato de pentamidina",
+      "Pentamidina inhalada"
+    ],
+    "area": "INF",
+    "nivel": 3,
+    "clase": "Antileishmaniásico y antitripanosómico",
+    "subclase": "Diamidina aromática",
+    "vs_clase": [
+      "**Además de leishmaniasis y tripanosomiasis africana, trata y previene la neumonía por PNEUMOCYSTIS** cuando no puede usarse cotrimoxazol.",
+      "**Toxicidad IV importante**: **hipoglucemia (y después diabetes) por lesión pancreática**, hipotensión, nefrotoxicidad y QT largo.",
+      "**Forma INHALADA** mensual para la profilaxis de Pneumocystis (no protege fuera del pulmón)."
+    ],
+    "mecanismo": "Se une al ADN del cinetoplasto y altera la síntesis de ácidos nucleicos y proteínas del protozoo y de Pneumocystis.",
+    "espectro": "Pneumocystis jirovecii; Trypanosoma brucei gambiense (fase hemolinfática); Leishmania (formas cutáneas y viscerales seleccionadas).",
+    "indicaciones": [
+      {
+        "patologia": "Neumonía por Pneumocystis grave con intolerancia al cotrimoxazol",
+        "dosis": "4 mg/kg",
+        "posologia": "Cada 24 h en 60-90 min",
+        "via": "IV",
+        "nota": "21 días"
+      },
+      {
+        "patologia": "Profilaxis de Pneumocystis",
+        "dosis": "300 mg nebulizada",
+        "posologia": "Cada 4 semanas",
+        "via": "inhalada (nebulizador específico)",
+        "nota": "Alternativa si no se tolera cotrimoxazol ni dapsona"
+      }
+    ],
+    "esquema": {
+      "inicio": "Paciente en decúbito, infusión lenta.",
+      "titulacion": "—",
+      "duracion": "21 días en la neumonía.",
+      "fin": "Pasar a profilaxis secundaria.",
+      "via": "IV lenta o inhalada.",
+      "monitorizacion": "Glucemia diaria, presión arterial, creatinina, potasio, magnesio, ECG (QT), hemograma, amilasa."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV; inhalada con mínima absorción sistémica.",
+      "distribucion": "Se acumula en tejidos (riñón, hígado, bazo); no atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático parcial.",
+      "eliminacion": "Renal lenta.",
+      "vida_media": "~6-9 h inicial; semanas terminal.",
+      "ajuste_renal": "Ajustar intervalo en FG <10 mL/min.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Fármacos que alargan el QT (macrólidos, quinolonas, antipsicóticos)",
+          "efecto": "Torsade de pointes",
+          "gravedad": "alta",
+          "manejo": "Evitar; ECG"
+        },
+        {
+          "con": "Nefrotóxicos (aminoglucósidos, anfotericina, foscarnet)",
+          "efecto": "Nefrotoxicidad aditiva",
+          "gravedad": "alta",
+          "manejo": "Evitar combinaciones"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Hipotensión durante la infusión",
+        "Náuseas",
+        "Tos y broncoespasmo (inhalada)"
+      ],
+      "graves": [
+        "Hipoglucemia grave y diabetes posterior",
+        "Pancreatitis",
+        "Insuficiencia renal",
+        "QT largo y arritmias",
+        "Neutropenia"
+      ]
+    },
+    "contraindicaciones": [
+      "QT largo",
+      "Hipersensibilidad"
+    ],
+    "perlas": [
+      "Neumotórax en un paciente con VIH en profilaxis inhalada con pentamidina: pensar en Pneumocystis apical."
+    ],
+    "embarazo_lactancia": "Solo si no hay alternativa.",
+    "micro_relacionado": [
+      "HON-pneumocystis-jirovecii",
+      "PAR-leishmania"
+    ],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos antiprotozoarios; guías de infecciones oportunistas en VIH (NIH/CDC/IDSA y EACS)"
+  },
+  {
+    "id": "PSQ-clorpromazina",
+    "nombre": "Clorpromazina",
+    "sinonimos": [
+      "Fenotiazina de baja potencia"
+    ],
+    "area": "PSQ",
+    "nivel": 3,
+    "clase": "Antipsicótico",
+    "subclase": "Antipsicótico típico de baja potencia (fenotiazina alifática)",
+    "vs_clase": [
+      "**El ÚNICO fármaco autorizado para el HIPO persistente** e intratable.",
+      "**Baja potencia**: muy **sedante, hipotensor y anticolinérgico**, con menos efectos extrapiramidales que el haloperidol.",
+      "Hoy casi no se usa como antipsicótico; **fotosensibilidad** y depósitos oculares en uso prolongado."
+    ],
+    "mecanismo": "Antagonista D2 con fuerte bloqueo alfa-1, H1 y muscarínico; inhibe el arco reflejo del hipo a nivel central.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipo persistente o intratable",
+        "dosis": "25-50 mg",
+        "posologia": "Cada 6-8 h (VO); o 25-50 mg IV lenta diluidos en 500-1000 mL de salino",
+        "via": "VO o IV",
+        "nota": "IV con el paciente acostado (hipotensión)"
+      },
+      {
+        "patologia": "Náuseas y vómitos resistentes (cuidados paliativos)",
+        "dosis": "10-25 mg",
+        "posologia": "Cada 4-6 h",
+        "via": "VO o IM",
+        "nota": "Sedación"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis bajas en ancianos.",
+      "titulacion": "Según respuesta y presión arterial.",
+      "duracion": "Hipo: 7-10 días y reevaluar.",
+      "fin": "Retirar al cesar el hipo.",
+      "via": "Oral, IM o IV lenta diluida.",
+      "monitorizacion": "Presión arterial ortostática, sedación, ECG (QT)."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral irregular (primer paso).",
+      "distribucion": "Muy lipófila, amplia.",
+      "metabolismo": "Hepático (CYP2D6), muchos metabolitos.",
+      "eliminacion": "Renal y biliar.",
+      "vida_media": "~30 h.",
+      "ajuste_renal": "Precaución.",
+      "ajuste_hepatico": "Evitar en insuficiencia hepática grave.",
+      "interacciones": [
+        {
+          "con": "Depresores del SNC y alcohol",
+          "efecto": "Sedación y depresión respiratoria",
+          "gravedad": "media",
+          "manejo": "Reducir dosis"
+        },
+        {
+          "con": "Fármacos que alargan el QT",
+          "efecto": "Arritmias",
+          "gravedad": "alta",
+          "manejo": "Evitar"
+        },
+        {
+          "con": "Levodopa y agonistas dopaminérgicos",
+          "efecto": "Antagonismo mutuo",
+          "gravedad": "media",
+          "manejo": "Evitar en Parkinson"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sedación",
+        "Hipotensión ortostática",
+        "Sequedad de boca y estreñimiento"
+      ],
+      "graves": [
+        "Síndrome neuroléptico maligno",
+        "Agranulocitosis",
+        "Ictericia colestásica",
+        "QT largo",
+        "Convulsiones"
+      ]
+    },
+    "contraindicaciones": [
+      "Coma o depresión del SNC",
+      "Feocromocitoma",
+      "Enfermedad de Parkinson",
+      "Demencia con cuerpos de Lewy"
+    ],
+    "perlas": [
+      "En el anciano con hipo, el baclofeno o la gabapentina son alternativas mejor toleradas."
+    ],
+    "embarazo_lactancia": "Evitar salvo necesidad.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de antipsicóticos; Harrison 20.ª ed., cap. de hipo"
+  }
+]

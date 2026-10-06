@@ -1,0 +1,576 @@
+[
+  {
+    "id": "INM-ciproheptadina",
+    "nombre": "Ciproheptadina",
+    "sinonimos": [
+      "Antiserotoninérgico oral"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Antihistamínico H1",
+    "subclase": "Antihistamínico de 1.ª generación con acción antiserotoninérgica (5-HT2A)",
+    "vs_clase": [
+      "**El único de la clase que bloquea el receptor 5-HT2A**: antídoto oral del **síndrome serotoninérgico**.",
+      "**Solo existe por VÍA ORAL**: en el paciente intubado se tritura por sonda nasogástrica.",
+      "Sedante y anticolinérgico (1.ª generación); **aumenta el apetito** y el peso."
+    ],
+    "mecanismo": "Antagonista de los receptores H1 y 5-HT1A/5-HT2A, con efecto anticolinérgico.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Síndrome serotoninérgico moderado-grave",
+        "dosis": "12 mg de carga; después 2 mg cada 2 h mientras persistan síntomas",
+        "posologia": "Mantenimiento: 8 mg cada 6 h (máximo 32 mg/día)",
+        "via": "VO o por sonda nasogástrica",
+        "nota": "Junto a benzodiacepinas y medidas de soporte"
+      },
+      {
+        "patologia": "Urticaria por frío y prurito alérgico",
+        "dosis": "4 mg",
+        "posologia": "Cada 8 h",
+        "via": "VO",
+        "nota": "Sedación"
+      }
+    ],
+    "esquema": {
+      "inicio": "Dosis de carga de 12 mg en cuanto se sospecha el síndrome serotoninérgico.",
+      "titulacion": "2 mg cada 2 h hasta mejoría clínica.",
+      "duracion": "24-72 h (hasta que se elimine el serotoninérgico).",
+      "fin": "Retirar al desaparecer la clínica.",
+      "via": "Oral; triturada por sonda si el paciente no traga.",
+      "monitorizacion": "Temperatura, rigidez, clonus, frecuencia cardiaca y presión arterial."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral buena.",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático (glucuronidación).",
+      "eliminacion": "Renal.",
+      "vida_media": "~8 h (metabolitos más).",
+      "ajuste_renal": "Reducir la dosis en insuficiencia renal grave.",
+      "ajuste_hepatico": "Precaución en insuficiencia hepática.",
+      "interacciones": [
+        {
+          "con": "Depresores del SNC (alcohol, benzodiacepinas, opioides)",
+          "efecto": "Sedación aditiva",
+          "gravedad": "media",
+          "manejo": "Vigilar el nivel de conciencia"
+        },
+        {
+          "con": "ISRS (uso crónico)",
+          "efecto": "Puede reducir el efecto antidepresivo",
+          "gravedad": "baja",
+          "manejo": "Solo de forma puntual"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Somnolencia",
+        "Sequedad de boca",
+        "Aumento del apetito y del peso"
+      ],
+      "graves": [
+        "Retención urinaria",
+        "Confusión en ancianos (anticolinérgico)"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Retención urinaria",
+      "Recién nacidos y prematuros"
+    ],
+    "perlas": [
+      "No es imprescindible en el síndrome leve: retirar el fármaco y benzodiacepinas suelen bastar."
+    ],
+    "embarazo_lactancia": "Evitar en lactancia; en embarazo solo si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de histamina, serotonina y alcaloides del cornezuelo; Harrison 20.ª ed., cap. de intoxicaciones"
+  },
+  {
+    "id": "REU-dantroleno",
+    "nombre": "Dantroleno",
+    "sinonimos": [
+      "Dantroleno sódico"
+    ],
+    "area": "REU",
+    "nivel": 2,
+    "clase": "Relajante muscular de acción directa (antagonista del receptor de rianodina)",
+    "clase_unica": "El dantroleno es el único relajante muscular que actúa DENTRO de la fibra muscular, bloqueando la liberación de calcio del retículo sarcoplásmico (receptor de rianodina RyR1). Los demás relajantes clínicos actúan en el sistema nervioso central (baclofeno, tizanidina, ciclobenzaprina) o en la placa motora (bloqueantes neuromusculares), y ninguno sirve para la hipertermia maligna.",
+    "subclase": "Antídoto de la hipertermia maligna",
+    "mecanismo": "Antagonista del receptor de rianodina (RyR1): impide la salida de calcio del retículo sarcoplásmico y desacopla excitación y contracción del músculo esquelético.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Hipertermia maligna",
+        "dosis": "2,5 mg/kg en bolo",
+        "posologia": "Repetir 1 mg/kg cada 5-10 min hasta controlar; se pueden necesitar hasta 10 mg/kg (excepcionalmente más)",
+        "via": "IV",
+        "nota": "Después 1 mg/kg cada 4-6 h durante 24-48 h"
+      },
+      {
+        "patologia": "Síndrome neuroléptico maligno grave (rigidez e hipertermia)",
+        "dosis": "1-2,5 mg/kg",
+        "posologia": "Repetir cada 6 h; máximo 10 mg/kg/día",
+        "via": "IV",
+        "nota": "Pasar a oral 25-100 mg cada 6-8 h en la mejoría"
+      },
+      {
+        "patologia": "Espasticidad crónica",
+        "dosis": "25 mg → 100 mg",
+        "posologia": "Cada 6-8 h (máximo 400 mg/día)",
+        "via": "VO",
+        "nota": "Hepatotoxicidad dosis-dependiente"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo IV inmediato en la hipertermia maligna; el vial (20 mg) se reconstituye con 60 mL de agua estéril (presentaciones nuevas de 250 mg en 5 mL).",
+      "titulacion": "Repetir hasta normalizar rigidez, CO2 espirado y temperatura.",
+      "duracion": "24-48 h en la crisis.",
+      "fin": "Pasar a oral o suspender al resolverse.",
+      "via": "IV por vía de buen calibre (muy irritante); oral en espasticidad.",
+      "monitorizacion": "Temperatura, CK, potasio, función hepática, mioglobinuria y función respiratoria."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral ~70%.",
+      "distribucion": "Unión a albúmina alta.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal y biliar (metabolitos).",
+      "vida_media": "~9-12 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Contraindicado por vía oral en hepatopatía activa.",
+      "interacciones": [
+        {
+          "con": "Verapamilo y diltiazem IV",
+          "efecto": "Hiperpotasemia y colapso cardiovascular",
+          "gravedad": "alta",
+          "manejo": "No combinar; usar otros antiarrítmicos"
+        },
+        {
+          "con": "Benzodiacepinas y otros depresores",
+          "efecto": "Debilidad y depresión respiratoria",
+          "gravedad": "media",
+          "manejo": "Vigilancia respiratoria"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Debilidad muscular",
+        "Somnolencia y mareo",
+        "Flebitis en el punto de infusión"
+      ],
+      "graves": [
+        "Hepatotoxicidad (uso oral prolongado, >400 mg/día)",
+        "Insuficiencia respiratoria por debilidad"
+      ]
+    },
+    "contraindicaciones": [
+      "Hepatopatía activa (uso oral)",
+      "No hay contraindicación absoluta en la hipertermia maligna"
+    ],
+    "perlas": [
+      "Todo quirófano que use halogenados o succinilcolina debe tener dantroleno suficiente (10 mg/kg para un adulto) disponible de inmediato."
+    ],
+    "embarazo_lactancia": "En la hipertermia maligna, administrar sin dudar; evitar el uso crónico.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de relajantes del músculo esquelético; Harrison 20.ª ed., cap. de hipertermia"
+  },
+  {
+    "id": "NEU-biperideno",
+    "nombre": "Biperideno",
+    "sinonimos": [
+      "Anticolinérgico antiparkinsoniano",
+      "Trihexifenidilo (afín)",
+      "Benzatropina (afín)"
+    ],
+    "area": "NEU",
+    "nivel": 2,
+    "clase": "Antiparkinsoniano",
+    "subclase": "Anticolinérgico central",
+    "vs_clase": [
+      "**El único de la clase que es ANTICOLINÉRGICO**: de elección en la **distonía aguda** y el parkinsonismo por antipsicóticos, no en la enfermedad de Parkinson del anciano.",
+      "**Disponible IM/IV**: revierte la distonía aguda en minutos.",
+      "**Confusión, retención urinaria y estreñimiento**: evitar en mayores y con deterioro cognitivo."
+    ],
+    "mecanismo": "Antagonista muscarínico central que restablece el equilibrio dopamina-acetilcolina en el estriado cuando la dopamina está bloqueada.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Distonía aguda por fármacos (antipsicóticos, metoclopramida)",
+        "dosis": "2-5 mg",
+        "posologia": "Dosis única; repetir a los 30 min si no cede (máximo 4 dosis/día)",
+        "via": "IM o IV lenta",
+        "nota": "Continuar con 2 mg VO cada 8-12 h durante 2-3 días"
+      },
+      {
+        "patologia": "Parkinsonismo inducido por antipsicóticos",
+        "dosis": "2 mg",
+        "posologia": "Cada 8-12 h (máximo 16 mg/día)",
+        "via": "VO",
+        "nota": "Mejor reducir o cambiar el antipsicótico"
+      }
+    ],
+    "esquema": {
+      "inicio": "IM o IV en la distonía aguda.",
+      "titulacion": "Oral de mantenimiento si persiste el fármaco causante.",
+      "duracion": "2-3 días en la distonía; reevaluar a los 3 meses en el parkinsonismo.",
+      "fin": "Retirar de forma gradual (rebote colinérgico).",
+      "via": "IM, IV lenta o VO.",
+      "monitorizacion": "Confusión, retención urinaria, frecuencia cardiaca."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral ~30% (primer paso).",
+      "distribucion": "Atraviesa la barrera hematoencefálica.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "~18-24 h.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "Precaución.",
+      "interacciones": [
+        {
+          "con": "Otros anticolinérgicos (tricíclicos, antihistamínicos de 1.ª generación, oxibutinina)",
+          "efecto": "Síndrome anticolinérgico",
+          "gravedad": "media",
+          "manejo": "Evitar combinaciones"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Sequedad de boca",
+        "Visión borrosa",
+        "Estreñimiento",
+        "Somnolencia"
+      ],
+      "graves": [
+        "Delirium y alucinaciones (ancianos)",
+        "Retención urinaria",
+        "Glaucoma agudo de ángulo cerrado"
+      ]
+    },
+    "contraindicaciones": [
+      "Glaucoma de ángulo cerrado",
+      "Hiperplasia prostática con retención",
+      "Íleo, megacolon",
+      "Demencia"
+    ],
+    "perlas": [
+      "Potencial de abuso (euforia anticolinérgica) en pacientes psiquiátricos; no pautar de forma indefinida sin indicación."
+    ],
+    "embarazo_lactancia": "Evitar salvo necesidad.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos del parkinsonismo y otros trastornos del movimiento; Harrison 20.ª ed., cap. de trastornos del movimiento"
+  },
+  {
+    "id": "INM-antiveneno-ofidico",
+    "nombre": "Antiveneno ofídico (suero antiofídico)",
+    "sinonimos": [
+      "Suero antiofídico",
+      "Antiveneno de serpiente",
+      "Faboterápico polivalente"
+    ],
+    "area": "INM",
+    "nivel": 2,
+    "clase": "Inmunoglobulina",
+    "subclase": "Inmunoglobulina equina u ovina (IgG, F(ab')2 o Fab) frente a venenos",
+    "vs_clase": [
+      "**Inmunoglobulina HETERÓLOGA (de caballo u oveja)**: riesgo de **anafilaxia** y de **enfermedad del suero** a los 5-14 días.",
+      "**Específico de la REGIÓN y la familia de serpiente** (vipéridos o elápidos): usar el antiveneno local.",
+      "**La dosis NO depende del peso**: niños reciben la misma que los adultos (neutralizan la misma cantidad de veneno)."
+    ],
+    "mecanismo": "Anticuerpos que se unen a las toxinas del veneno circulante y las neutralizan antes de que lleguen a su diana.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Envenenamiento ofídico con afectación sistémica o local progresiva",
+        "dosis": "Viales según el producto y la gravedad (p. ej., 4-6 viales iniciales de Fab antiveneno de crotálidos; 5-10 viales de F(ab')2 en vipéridos europeos o africanos)",
+        "posologia": "Dosis inicial en 1 h; repetir hasta controlar coagulopatía, neurotoxicidad o progresión del edema",
+        "via": "IV",
+        "nota": "Misma dosis en niños; consultar con el centro de toxicología"
+      }
+    ],
+    "esquema": {
+      "inicio": "En cuanto hay coagulopatía, neurotoxicidad, hipotensión o edema que progresa; cuanto antes, mejor.",
+      "titulacion": "Repetir dosis si persisten los signos 1-2 h después.",
+      "duracion": "Hasta estabilizar la coagulación y la clínica.",
+      "fin": "Observación 24 h; control de la coagulación a los 2-3 días (recurrencia).",
+      "via": "IV en infusión de 30-60 min, con adrenalina preparada.",
+      "monitorizacion": "Coagulación (tiempo de coagulación en tubo de 20 min, fibrinógeno), plaquetas, CK, función renal, perímetro del miembro, anafilaxia."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Intravascular; los Fab difunden más a tejidos.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Fab renal (vida media corta: recurrencia de la coagulopatía); F(ab')2 e IgG más largos.",
+      "vida_media": "Fab ~15-20 h; F(ab')2 ~2-4 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Betabloqueantes",
+          "efecto": "Anafilaxia más grave y resistente a la adrenalina",
+          "gravedad": "media",
+          "manejo": "Tener glucagón disponible"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Urticaria y prurito durante la infusión",
+        "Fiebre"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Enfermedad del suero (5-14 días): fiebre, artralgias, exantema"
+      ]
+    },
+    "contraindicaciones": [
+      "Ninguna absoluta si el envenenamiento es grave; alergia previa a suero equino exige premedicación y vigilancia estrecha"
+    ],
+    "perlas": [
+      "Sin signos de envenenamiento a las 6-12 h (mordedura 'seca'): no se administra antiveneno."
+    ],
+    "embarazo_lactancia": "Administrar si está indicado: el envenenamiento es más peligroso para el feto.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de mordeduras de serpiente; guías de la OMS para el manejo de las mordeduras de serpiente"
+  },
+  {
+    "id": "INM-antiveneno-escorpion",
+    "nombre": "Antiveneno de escorpión (faboterápico antialacrán)",
+    "sinonimos": [
+      "Suero antiescorpiónico",
+      "Antialacrán",
+      "Fab antiveneno de Centruroides"
+    ],
+    "area": "INM",
+    "nivel": 3,
+    "clase": "Inmunoglobulina",
+    "subclase": "Fragmentos F(ab')2 equinos frente al veneno de escorpión",
+    "vs_clase": [
+      "**Útil en las especies NEUROTÓXICAS** (Centruroides de América; Androctonus, Leiurus y Mesobuthus de África, Oriente Medio y Asia).",
+      "**Indicado solo en el envenenamiento grave** (grado III): la mayoría de picaduras se tratan con analgesia.",
+      "**Niños pequeños**, los más graves: misma dosis que el adulto."
+    ],
+    "mecanismo": "Fragmentos de anticuerpo que neutralizan las toxinas de los canales de sodio y potasio del veneno.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Picadura de escorpión con envenenamiento grave (neurotoxicidad o tormenta autonómica)",
+        "dosis": "1-3 viales según el producto",
+        "posologia": "Dosis inicial; repetir a los 30-60 min si persisten los signos",
+        "via": "IV",
+        "nota": "Misma dosis en niños"
+      }
+    ],
+    "esquema": {
+      "inicio": "Signos sistémicos: movimientos oculares erráticos, fasciculaciones, sialorrea, dificultad respiratoria, shock o edema pulmonar.",
+      "titulacion": "Repetir según respuesta.",
+      "duracion": "Horas.",
+      "fin": "Al resolverse la neurotoxicidad.",
+      "via": "IV en 10-30 min.",
+      "monitorizacion": "Anafilaxia, función respiratoria, ECG."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV.",
+      "distribucion": "Extracelular.",
+      "metabolismo": "Catabolismo proteico.",
+      "eliminacion": "Renal y reticuloendotelial.",
+      "vida_media": "~1-3 días.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Sin interacciones farmacológicas relevantes",
+          "efecto": "—",
+          "gravedad": "baja",
+          "manejo": "—"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Exantema y prurito",
+        "Fiebre"
+      ],
+      "graves": [
+        "Anafilaxia",
+        "Enfermedad del suero"
+      ]
+    },
+    "contraindicaciones": [
+      "Ninguna absoluta en el envenenamiento grave"
+    ],
+    "perlas": [
+      "En las regiones de Mesobuthus tamulus (India), la prazosina es el tratamiento clave de la tormenta adrenérgica; el antiveneno se suma en los casos graves."
+    ],
+    "embarazo_lactancia": "Administrar si está indicado.",
+    "micro_relacionado": [],
+    "fuente": "Harrison 20.ª ed., cap. de picaduras y mordeduras de artrópodos; revisiones internacionales sobre escorpionismo"
+  },
+  {
+    "id": "CAR-fentolamina",
+    "nombre": "Fentolamina",
+    "sinonimos": [
+      "Alfabloqueante intravenoso"
+    ],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Alfabloqueante",
+    "subclase": "Alfabloqueante no selectivo (alfa-1 y alfa-2) de acción corta",
+    "vs_clase": [
+      "**El único IV y NO selectivo de la clase**: trata las **crisis hipertensivas por exceso de catecolaminas** (feocromocitoma, cocaína, IMAO con tiramina).",
+      "**Antídoto de la extravasación de vasopresores** (noradrenalina, dopamina) infiltrado SC.",
+      "**Taquicardia refleja** intensa (bloquea también alfa-2 presináptico)."
+    ],
+    "mecanismo": "Antagonista competitivo reversible de receptores alfa-1 y alfa-2: vasodilatación arterial y venosa.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Crisis hipertensiva por catecolaminas (feocromocitoma, cocaína, IMAO)",
+        "dosis": "1-5 mg",
+        "posologia": "Bolo; repetir cada 5-15 min según respuesta",
+        "via": "IV",
+        "nota": "Junto a benzodiacepinas en la cocaína; no betabloqueante antes del alfabloqueo"
+      },
+      {
+        "patologia": "Extravasación de noradrenalina u otro vasopresor",
+        "dosis": "5-10 mg diluidos en 10 mL de salino",
+        "posologia": "Infiltración única en la zona",
+        "via": "SC (infiltración local)",
+        "nota": "Lo antes posible (<12 h)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Bolo IV con monitorización continua.",
+      "titulacion": "Repetir según la presión arterial.",
+      "duracion": "Horas (acción de 10-30 min).",
+      "fin": "Pasar a fármacos orales (doxazosina en el feocromocitoma).",
+      "via": "IV o infiltración SC.",
+      "monitorizacion": "Presión arterial, frecuencia cardiaca, isquemia miocárdica."
+    },
+    "farmacocinetica": {
+      "absorcion": "IV inmediata.",
+      "distribucion": "—",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Renal.",
+      "vida_media": "~20 min.",
+      "ajuste_renal": "No precisa.",
+      "ajuste_hepatico": "No precisa.",
+      "interacciones": [
+        {
+          "con": "Otros antihipertensivos e inhibidores de la PDE5",
+          "efecto": "Hipotensión",
+          "gravedad": "media",
+          "manejo": "Vigilar la presión"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Taquicardia",
+        "Hipotensión",
+        "Congestión nasal"
+      ],
+      "graves": [
+        "Isquemia miocárdica y arritmias por taquicardia refleja"
+      ]
+    },
+    "contraindicaciones": [
+      "Infarto agudo o cardiopatía isquémica grave",
+      "Hipotensión"
+    ],
+    "perlas": [
+      "En la cocaína, el primer escalón son las benzodiacepinas; la fentolamina (o un nitrato) se añade si la hipertensión persiste."
+    ],
+    "embarazo_lactancia": "Solo si es imprescindible.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de antagonistas adrenérgicos; Harrison 20.ª ed., cap. de feocromocitoma"
+  },
+  {
+    "id": "CAR-prazosina",
+    "nombre": "Prazosina",
+    "sinonimos": [
+      "Alfabloqueante de acción corta"
+    ],
+    "area": "CAR",
+    "nivel": 3,
+    "clase": "Alfabloqueante",
+    "subclase": "Alfa-1 selectivo de acción corta",
+    "vs_clase": [
+      "**Acción corta (2-3 tomas al día)** frente a la doxazosina (una toma): hoy apenas se usa en la hipertensión.",
+      "**Nichos propios**: **pesadillas del estrés postraumático** y **picadura de escorpión** con tormenta adrenérgica.",
+      "**Efecto de primera dosis**: síncope ortostático; empezar con 1 mg al acostarse."
+    ],
+    "mecanismo": "Antagonista selectivo de los receptores alfa-1: vasodilatación arterial y venosa; reduce la hiperactividad noradrenérgica central.",
+    "espectro": null,
+    "indicaciones": [
+      {
+        "patologia": "Picadura de escorpión con tormenta adrenérgica (hipertensión, edema pulmonar)",
+        "dosis": "1 mg en adultos (30 µg/kg en niños)",
+        "posologia": "Cada 3-6 h hasta la mejoría",
+        "via": "VO o por sonda",
+        "nota": "Vigilar hipotensión"
+      },
+      {
+        "patologia": "Pesadillas del trastorno de estrés postraumático",
+        "dosis": "1 mg → 3-15 mg",
+        "posologia": "Al acostarse",
+        "via": "VO",
+        "nota": "Subir 1-2 mg cada pocos días"
+      },
+      {
+        "patologia": "Hipertensión arterial (resistente o con hiperplasia prostática)",
+        "dosis": "0,5-1 mg → 2-10 mg",
+        "posologia": "Cada 8-12 h",
+        "via": "VO",
+        "nota": "Preferir doxazosina (una toma)"
+      }
+    ],
+    "esquema": {
+      "inicio": "Primera dosis baja al acostarse.",
+      "titulacion": "Aumentar cada 3-7 días.",
+      "duracion": "Según la indicación.",
+      "fin": "Retirada gradual.",
+      "via": "Oral.",
+      "monitorizacion": "Presión arterial ortostática."
+    },
+    "farmacocinetica": {
+      "absorcion": "Oral ~60%.",
+      "distribucion": "Unión a proteínas alta.",
+      "metabolismo": "Hepático.",
+      "eliminacion": "Biliar.",
+      "vida_media": "~2-3 h.",
+      "ajuste_renal": "Empezar con dosis bajas.",
+      "ajuste_hepatico": "Reducir la dosis.",
+      "interacciones": [
+        {
+          "con": "Inhibidores de la PDE5, otros antihipertensivos",
+          "efecto": "Hipotensión ortostática",
+          "gravedad": "media",
+          "manejo": "Separar tomas; dosis bajas"
+        }
+      ]
+    },
+    "efectos_adversos": {
+      "frecuentes": [
+        "Mareo ortostático",
+        "Cefalea",
+        "Astenia"
+      ],
+      "graves": [
+        "Síncope de primera dosis",
+        "Síndrome del iris flácido en cirugía de cataratas"
+      ]
+    },
+    "contraindicaciones": [
+      "Hipotensión ortostática",
+      "Antecedente de síncope miccional"
+    ],
+    "perlas": [
+      "En la insuficiencia cardiaca no reduce la mortalidad: los alfabloqueantes no son antihipertensivos de primera línea."
+    ],
+    "embarazo_lactancia": "Compatible si es necesario.",
+    "micro_relacionado": [],
+    "fuente": "Katzung 15.ª ed., cap. de antagonistas adrenérgicos; Harrison 20.ª ed., cap. de picaduras de artrópodos"
+  }
+]

@@ -266,3 +266,13 @@ Con ella, la cobertura era del 73% (156/213), o de ~90% ponderando por frecuenci
 El cierre añadió 58 patologías y llevó la lista al 100%.
 
 **Advertencia para el futuro:** el 100% es respecto a esa lista, no respecto a toda la medicina general. La lista es finita y propia. Cada hueco que aparezca al usar la plataforma se añade **a la lista y a la plataforma**, para que el porcentaje siga siendo honesto.
+
+### #42 — Ampliar al catálogo amplio: casi todo lo nuevo es «nicho» y pide fichas nuevas
+El bloque F añadió 43 cuadros menos frecuentes (hidradenitis, escorpionismo, colangitis biliar primaria, hipo intratable…). A diferencia del cierre de lagunas, donde 58 patologías necesitaron solo 19 fichas, aquí 43 patologías pidieron **32 fichas y 5 clases nuevas**: los cuadros raros se tratan con fármacos que la plataforma no tenía (toxina botulínica, antivenenos, dantroleno, testosterona, agonistas PPAR).
+
+Tres decisiones que conviene repetir:
+- **Colocar el fármaco nuevo en una clase existente cuando su mecanismo lo permite** (ciproheptadina en antihistamínicos H1, pentamidina en antileishmaniásicos, dapoxetina en ISRS, pirimetamina en antifolatos) y decir en `vs_clase` por qué está ahí y qué lo distingue. Solo se crea una clase cuando hay tres fármacos reales que la llenen.
+- **No forzar un enlace para evitar `sin_ficha`**: la triamcinolona intralesional de la hidradenitis no se enlazó a la ficha de la pasta oral; pasó al texto no farmacológico.
+- **Los fármacos con situación regulatoria cambiante se describen sin país**: el ácido obeticólico se presenta con la retirada de la EMA (2024) y la restricción de la FDA, no con la decisión de una agencia nacional.
+
+El 100% de la lista de referencia y el ~95% del catálogo amplio siguen siendo medidas frente a listas escritas (hallazgo #41): un hueco detectado en el uso se añade a la lista y a la plataforma.

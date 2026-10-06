@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "PAT-colangitis-biliar-primaria",
+    "nombre": "Colangitis biliar primaria",
+    "sinonimos": [
+      "CBP",
+      "Cirrosis biliar primaria",
+      "Colestasis autoinmune"
+    ],
+    "area": "DIG",
+    "resumen": "Hepatopatía autoinmune que destruye los conductillos biliares, sobre todo en **mujeres de 40-60 años**. Sospechar ante **fosfatasa alcalina elevada** de forma persistente, con **astenia y prurito**. Diagnóstico: **anticuerpos antimitocondriales (AMA)** positivos (o ANA específicos sp100/gp210) + colestasis; la biopsia rara vez hace falta. Tratamiento de primera línea de por vida: **ácido ursodesoxicólico 13-15 mg/kg/día**. Valorar la respuesta **al año**: si la fosfatasa alcalina sigue >1,67 veces el límite (o no se normaliza) o la bilirrubina está alta, añadir **elafibranor** o **seladelpar** (o un fibrato). Tratar el **prurito**, la **osteoporosis** y el déficit de vitaminas liposolubles; cribado de hepatocarcinoma si hay cirrosis.",
+    "objetivo": "Normalizar la bioquímica para frenar la progresión a cirrosis y controlar el prurito y la astenia.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea (todos)",
+        "farmacos": [
+          {
+            "nombre": "Ácido ursodesoxicólico",
+            "ref": "DIG-acido-ursodesoxicolico",
+            "dosis": "13-15 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Repartido en 1-2 tomas",
+            "duracion": "De por vida",
+            "nota": "Separar 4 h de la colestiramina"
+          }
+        ]
+      },
+      {
+        "titulo": "Respuesta insuficiente al año (añadir)",
+        "farmacos": [
+          {
+            "nombre": "Elafibranor",
+            "ref": "DIG-elafibranor",
+            "dosis": "80 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Vigilar CK y mialgias"
+          },
+          {
+            "nombre": "Seladelpar",
+            "ref": "DIG-seladelpar",
+            "dosis": "10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa; además mejora el prurito"
+          },
+          {
+            "nombre": "Fenofibrato (fuera de indicación)",
+            "ref": "CAR-fenofibrato",
+            "dosis": "200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa barata (o bezafibrato 400 mg); no en cirrosis descompensada"
+          },
+          {
+            "nombre": "Ácido obeticólico",
+            "ref": "DIG-acido-obeticolico",
+            "dosis": "5 mg → 10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Solo donde siga autorizado y sin cirrosis descompensada; empeora el prurito"
+          }
+        ]
+      },
+      {
+        "titulo": "Prurito",
+        "farmacos": [
+          {
+            "nombre": "Colestiramina",
+            "ref": "DIG-colestiramina",
+            "dosis": "4 g",
+            "via": "VO",
+            "intervalo": "1-4 veces al día",
+            "duracion": "Mientras moleste",
+            "nota": "Primera línea del prurito"
+          },
+          {
+            "nombre": "Rifampicina",
+            "ref": "INF-rifampicina",
+            "dosis": "150-300 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras moleste",
+            "nota": "Segunda línea; transaminasas a las 2-6 semanas"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fosfatasa alcalina y bilirrubina cada 3-6 meses; elastografía para estadificar la fibrosis",
+      "Densitometría al diagnóstico y cada 2-4 años; calcio y vitamina D",
+      "Buscar otras enfermedades autoinmunes (Sjögren, tiroiditis, celiaquía) y dislipemia",
+      "Cirrosis: cribado de varices y de hepatocarcinoma; trasplante hepático en enfermedad terminal o prurito intratable"
+    ],
+    "claves": [
+      "**Mujer de mediana edad con fosfatasa alcalina alta y prurito: pedir AMA.**",
+      "El ácido ursodesoxicólico es para siempre; la dosis por peso importa.",
+      "Evaluar la respuesta al año: la falta de respuesta empeora el pronóstico y obliga a añadir otro fármaco."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cirrosis y sus complicaciones (colangitis biliar primaria); guías EASL de colangitis biliar primaria (actualización 2025)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 7 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-gastroparesia",
+    "nombre": "Gastroparesia",
+    "sinonimos": [
+      "Vaciamiento gástrico retardado",
+      "Gastroparesia diabética"
+    ],
+    "area": "DIG",
+    "resumen": "**Retraso del vaciamiento gástrico sin obstrucción mecánica**: náuseas, vómitos de alimentos ingeridos horas antes, **saciedad precoz**, plenitud y distensión. Causas: **diabetes** (mal control de años), **posquirúrgica** (vagotomía, funduplicatura), **posviral**, **fármacos** (opioides, **agonistas de GLP-1**, anticolinérgicos), Parkinson, esclerodermia; idiopática. Diagnóstico: **endoscopia** (descartar obstrucción) y **gammagrafía de vaciamiento a 4 h** (retención >10%). Tratamiento: **dieta** (comidas pequeñas, poca grasa y fibra, más líquida), **control de la glucemia**, retirar fármacos causantes, **procinéticos** (metoclopramida ≤12 semanas, domperidona, eritromicina) y **antieméticos**.",
+    "objetivo": "Reducir los síntomas, mantener el estado nutricional y controlar la glucemia.",
+    "escenarios": [
+      {
+        "titulo": "Procinéticos",
+        "farmacos": [
+          {
+            "nombre": "Metoclopramida",
+            "ref": "DIG-metoclopramida",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h, 15-30 min antes de las comidas",
+            "duracion": "≤12 semanas (riesgo de discinesia tardía)",
+            "nota": "Máximo 30 mg/día; en forma líquida si hay vómitos"
+          },
+          {
+            "nombre": "Domperidona",
+            "ref": "DIG-domperidona",
+            "dosis": "10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h antes de las comidas",
+            "duracion": "El menor tiempo posible",
+            "nota": "Alternativa. ECG (QT); no con inhibidores de CYP3A4; máximo 30 mg/día"
+          },
+          {
+            "nombre": "Eritromicina",
+            "ref": "INF-eritromicina",
+            "dosis": "125-250 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h antes de las comidas",
+            "duracion": "2-4 semanas (taquifilaxia)",
+            "nota": "Agonista de la motilina; IV 3 mg/kg en la reagudización"
+          }
+        ]
+      },
+      {
+        "titulo": "Náuseas",
+        "farmacos": [
+          {
+            "nombre": "Ondansetrón",
+            "ref": "DIG-ondansetron",
+            "dosis": "4-8 mg",
+            "via": "VO o SL",
+            "intervalo": "Cada 8 h a demanda",
+            "duracion": "A demanda",
+            "nota": "No acelera el vaciamiento; estreñimiento y QT"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "4-6 comidas pequeñas al día, pobres en grasa y fibra insoluble; más calorías líquidas; masticar bien y no acostarse tras comer",
+      "Optimizar la glucemia (la hiperglucemia enlentece el vaciamiento)",
+      "Retirar opioides, anticolinérgicos y, si es posible, agonistas de GLP-1",
+      "Refractaria: toxina botulínica pilórica, piloromiotomía endoscópica (G-POEM), estimulación eléctrica gástrica, nutrición por yeyunostomía"
+    ],
+    "claves": [
+      "**Diabético con vómitos de comida de horas antes y glucemias erráticas: gastroparesia.**",
+      "Antes del diagnóstico, descartar obstrucción con endoscopia.",
+      "Metoclopramida no más de 12 semanas: discinesia tardía."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de la motilidad gastrointestinal; guías ACG 2022 de gastroparesia",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-fenomeno-raynaud",
+    "nombre": "Fenómeno de Raynaud",
+    "sinonimos": [
+      "Raynaud",
+      "Síndrome de Raynaud",
+      "Vasoespasmo digital"
+    ],
+    "area": "CAR",
+    "resumen": "Episodios de **palidez → cianosis → rubor** de los dedos con el **frío o el estrés**. **Primario** (mujer joven, simétrico, sin úlceras, capilaroscopia y ANA normales): benigno. **Secundario**: inicio >30-40 años, asimétrico, **úlceras digitales o necrosis**, capilaroscopia patológica o ANA positivos → **esclerodermia** (95% lo tienen), lupus, Sjögren; también fármacos (betabloqueantes, ergóticos, quimioterapia), vibración laboral. Tratamiento: **evitar el frío** y el tabaco; si los episodios son frecuentes o hay úlceras: **calcioantagonista dihidropiridínico** (nifedipino), **inhibidores de la PDE5**, y en las graves iloprost IV (hospital).",
+    "objetivo": "Reducir la frecuencia y la gravedad de los episodios y prevenir las úlceras digitales.",
+    "escenarios": [
+      {
+        "titulo": "Episodios frecuentes o que limitan",
+        "farmacos": [
+          {
+            "nombre": "Nifedipino de liberación prolongada",
+            "ref": "CAR-nifedipino",
+            "dosis": "30-60 mg (hasta 120 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Invierno o crónica",
+            "nota": "Primera línea; edemas y cefalea",
+            "alternativa": "amlodipino 5-10 mg cada 24 h"
+          },
+          {
+            "nombre": "Sildenafilo",
+            "ref": "NFR-sildenafilo",
+            "dosis": "20-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Crónica",
+            "nota": "Si no responde o no tolera el calcioantagonista; útil en úlceras digitales (fuera de indicación)",
+            "alternativa": "tadalafilo 20 mg cada 24-48 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Isquemia digital crítica (hospital)",
+        "farmacos": [
+          {
+            "nombre": "Ácido acetilsalicílico",
+            "ref": "HEM-acido-acetilsalicilico",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica en el secundario con úlceras",
+            "nota": "Junto a iloprost IV y valoración por reumatología o cirugía vascular"
+          },
+          {
+            "nombre": "Nitroglicerina tópica",
+            "ref": "CAR-nitroglicerina",
+            "dosis": "1 aplicación de pomada al 0,2-2% en la base del dedo afectado",
+            "via": "tópica",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "Hasta la mejoría",
+            "nota": "Cefalea; no con inhibidores de la PDE5"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Mantener caliente todo el cuerpo (no solo las manos): guantes, capas, calentadores",
+      "Dejar de fumar; evitar betabloqueantes, ergóticos, descongestionantes y herramientas vibratorias",
+      "Capilaroscopia y ANA para distinguir primario y secundario",
+      "Úlceras: cura local, analgesia, antibiótico si se infectan; toxina botulínica o simpatectomía digital en refractarios"
+    ],
+    "claves": [
+      "**Raynaud con úlceras digitales, inicio tardío o capilaroscopia patológica: buscar esclerodermia.**",
+      "Los calcioantagonistas dihidropiridínicos son de elección (no verapamilo ni diltiazem).",
+      "No usar betabloqueantes en el Raynaud."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades vasculares de las extremidades y esclerosis sistémica; recomendaciones EULAR para esclerosis sistémica 2023",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-miocarditis",
+    "nombre": "Miocarditis aguda",
+    "sinonimos": [
+      "Miopericarditis",
+      "Inflamación miocárdica",
+      "Miocarditis vírica"
+    ],
+    "area": "CAR",
+    "resumen": "Inflamación del miocardio, casi siempre **vírica** (enterovirus, parvovirus B19, gripe, SARS-CoV-2), también **tóxica** (inmunoterapia con inhibidores del punto de control, cocaína), por **vacunas ARNm** (varones jóvenes), autoinmune o de células gigantes. Clínica: **dolor torácico** tras un cuadro viral con **troponina elevada** y ECG alterado y **coronarias normales**; o **insuficiencia cardiaca**, arritmias o muerte súbita. Diagnóstico: **resonancia magnética cardiaca** (criterios de Lake Louise); biopsia endomiocárdica en las graves. Tratamiento: **reposo deportivo 3-6 meses**, **tratamiento de la insuficiencia cardiaca** si hay disfunción, **evitar AINE** en la miocarditis pura, y **inmunosupresión** solo en formas específicas (células gigantes, eosinofílica, sarcoidosis, por inhibidores del punto de control).",
+    "objetivo": "Tratar la disfunción ventricular y las arritmias y evitar la muerte súbita durante la fase inflamatoria.",
+    "escenarios": [
+      {
+        "titulo": "Con disfunción ventricular o insuficiencia cardiaca",
+        "farmacos": [
+          {
+            "nombre": "Enalapril",
+            "ref": "CAR-enalapril",
+            "dosis": "2,5 mg → 10-20 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Hasta recuperar la función (mínimo 6-12 meses)",
+            "nota": "O sacubitrilo-valsartán según tolerancia"
+          },
+          {
+            "nombre": "Bisoprolol",
+            "ref": "CAR-bisoprolol",
+            "dosis": "1,25 mg → 10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta recuperar la función",
+            "nota": "Iniciar cuando esté estable (no en shock)"
+          },
+          {
+            "nombre": "Furosemida",
+            "ref": "CAR-furosemida",
+            "dosis": "20-40 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Mientras haya congestión",
+            "nota": "Ajustar según peso y diuresis"
+          }
+        ]
+      },
+      {
+        "titulo": "Formas específicas (células gigantes, eosinofílica, por inhibidores del punto de control)",
+        "farmacos": [
+          {
+            "nombre": "Metilprednisolona",
+            "ref": "REU-metilprednisolona",
+            "dosis": "500-1000 mg",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "3 días; después prednisona 1 mg/kg con descenso",
+            "nota": "Solo con diagnóstico histológico o miocarditis por inmunoterapia; en hospital"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ingreso con monitorización si hay troponina elevada, disfunción o arritmias; shock: soporte mecánico en centro especializado",
+      "Abstención de deporte de competición y ejercicio intenso 3-6 meses; volver tras RM, Holter y ergometría normales",
+      "Evitar AINE en la miocarditis sin pericarditis (aumentan el daño en modelos); evitar alcohol",
+      "Desfibrilador si hay arritmias ventriculares sostenidas o disfunción persistente"
+    ],
+    "claves": [
+      "**Joven con dolor torácico tras un cuadro viral, troponina alta y coronarias normales: miocarditis → resonancia cardiaca.**",
+      "Deporte prohibido 3-6 meses: riesgo de muerte súbita.",
+      "Miocarditis fulminante con bloqueo AV o arritmias ventriculares: pensar en células gigantes o sarcoidosis (biopsia)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de miocardiopatías y miocarditis; guías ESC 2025 de miocarditis y pericarditis",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-nauseas-vomitos-quimioterapia",
+    "nombre": "Náuseas y vómitos inducidos por quimioterapia (prevención)",
+    "sinonimos": [
+      "NVIQ",
+      "Emesis por quimioterapia",
+      "Antiemesis en oncología"
+    ],
+    "area": "ONC",
+    "resumen": "La **profilaxis se elige según el potencial emetógeno** del esquema. **Alto** (cisplatino, ciclofosfamida + antraciclina, carmustina): **cuádruple** con **antagonista NK1 + anti-5-HT3 + dexametasona + olanzapina**. **Moderado** (oxaliplatino, irinotecán, carboplatino): **anti-5-HT3 + dexametasona** (± NK1 con carboplatino). **Bajo**: dosis única de dexametasona o un anti-5-HT3. **Mínimo**: nada. Tipos: **aguda** (<24 h, serotonina), **tardía** (días 2-5, sustancia P), **anticipatoria** (condicionada: benzodiacepinas) y **refractaria**. La mejor prevención de la tardía y la anticipatoria es **controlar bien la aguda desde el primer ciclo**.",
+    "objetivo": "Prevenir completamente las náuseas y vómitos desde el primer ciclo.",
+    "escenarios": [
+      {
+        "titulo": "Quimioterapia altamente emetógena",
+        "farmacos": [
+          {
+            "nombre": "Aprepitant",
+            "ref": "DIG-aprepitant",
+            "dosis": "125 mg el día 1; 80 mg los días 2-3",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "3 días por ciclo",
+            "nota": "O fosaprepitant 150 mg IV el día 1"
+          },
+          {
+            "nombre": "Ondansetrón",
+            "ref": "DIG-ondansetron",
+            "dosis": "8-16 mg (VO) u 8 mg (IV)",
+            "via": "VO o IV",
+            "intervalo": "Día 1, antes de la quimioterapia",
+            "duracion": "Día 1",
+            "nota": "IV máximo 16 mg por dosis (QT); palonosetrón 0,25 mg IV es alternativa"
+          },
+          {
+            "nombre": "Dexametasona",
+            "ref": "REU-dexametasona",
+            "dosis": "12 mg el día 1 (con NK1); 8 mg los días 2-4",
+            "via": "VO o IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "4 días (solo día 1 con antraciclina + ciclofosfamida)",
+            "nota": "Dosis reducida por la interacción con aprepitant"
+          },
+          {
+            "nombre": "Olanzapina",
+            "ref": "PSQ-olanzapina",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la noche",
+            "duracion": "Días 1-4",
+            "nota": "Sedación; 5 mg en ancianos"
+          }
+        ]
+      },
+      {
+        "titulo": "Quimioterapia moderadamente emetógena",
+        "farmacos": [
+          {
+            "nombre": "Ondansetrón",
+            "ref": "DIG-ondansetron",
+            "dosis": "8 mg",
+            "via": "VO o IV",
+            "intervalo": "Día 1 antes de la quimioterapia (± cada 12 h días 2-3)",
+            "duracion": "1-3 días",
+            "nota": "Si se usa palonosetrón, no hace falta en días posteriores"
+          },
+          {
+            "nombre": "Dexametasona",
+            "ref": "REU-dexametasona",
+            "dosis": "8 mg",
+            "via": "VO o IV",
+            "intervalo": "Día 1 (± días 2-3)",
+            "duracion": "1-3 días",
+            "nota": "Con carboplatino AUC ≥4: añadir NK1"
+          }
+        ]
+      },
+      {
+        "titulo": "Anticipatoria o de rescate",
+        "farmacos": [
+          {
+            "nombre": "Lorazepam (anticipatoria)",
+            "ref": "PSQ-lorazepam",
+            "dosis": "0,5-1 mg",
+            "via": "VO o SL",
+            "intervalo": "La noche anterior y 1-2 h antes del ciclo",
+            "duracion": "Por ciclo",
+            "nota": "Junto a terapia conductual"
+          },
+          {
+            "nombre": "Metoclopramida (rescate)",
+            "ref": "DIG-metoclopramida",
+            "dosis": "10 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "Días con síntomas",
+            "nota": "Alternativa: olanzapina 10 mg si no la llevaba"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Clasificar el esquema por su potencial emetógeno en cada ciclo",
+      "Comidas pequeñas y frías, evitar olores fuertes; hidratación",
+      "Descartar otras causas de vómito en el paciente oncológico: obstrucción intestinal, hipercalcemia, metástasis cerebrales, opioides, uremia"
+    ],
+    "claves": [
+      "**Cisplatino = cuádruple: NK1 + 5-HT3 + dexametasona + olanzapina.**",
+      "La emesis tardía depende de la sustancia P: el anti-5-HT3 solo no basta.",
+      "Controlar bien el primer ciclo evita la emesis anticipatoria."
+    ],
+    "fuente": "Katzung 15.ª ed., cap. de fármacos digestivos (antieméticos); guías MASCC/ESMO 2023 y ASCO de antiemesis",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 8,
+      "cotejadas_en_fuente": 8,
+      "resultado": "Revisadas las 8 pautas (8 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-oportunistas-vih",
+    "nombre": "Infecciones oportunistas del VIH: neumonía por Pneumocystis y toxoplasmosis cerebral",
+    "sinonimos": [
+      "Neumocistosis",
+      "PCP",
+      "Neumonía por Pneumocystis jirovecii",
+      "Toxoplasmosis cerebral",
+      "Profilaxis de oportunistas"
+    ],
+    "area": "INF",
+    "resumen": "Aparecen con **CD4 <200/µL** (Pneumocystis) y **<100/µL** (toxoplasma). **Neumonía por Pneumocystis**: disnea progresiva en semanas, tos seca, **desaturación al esfuerzo**, **LDH alta**, infiltrados intersticiales bilaterales; diagnóstico en esputo inducido o lavado (PCR, inmunofluorescencia). **Toxoplasmosis cerebral**: cefalea, fiebre, focalidad o convulsiones con **lesiones con realce en anillo** en ganglios basales y serología IgG positiva; tratamiento empírico y RM a las 2 semanas. Ambas: iniciar **tratamiento antirretroviral en las primeras 2 semanas**. **Profilaxis primaria con cotrimoxazol** si CD4 <200 (Pneumocystis) o <100 con IgG de toxoplasma positiva.",
+    "objetivo": "Tratar la infección, reducir la mortalidad (corticoides en la neumonía con hipoxemia) y prevenir recaídas hasta la reconstitución inmune.",
+    "escenarios": [
+      {
+        "titulo": "Neumonía por Pneumocystis",
+        "farmacos": [
+          {
+            "nombre": "Cotrimoxazol",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "15-20 mg/kg/día de trimetoprim (p. ej., 2 comprimidos de 160/800 mg cada 8 h en 70-80 kg)",
+            "via": "VO o IV",
+            "intervalo": "Repartido cada 6-8 h",
+            "duracion": "21 días",
+            "nota": "Exantema, citopenias, hiperpotasemia; después profilaxis secundaria"
+          },
+          {
+            "nombre": "Prednisona (PaO2 <70 mmHg o gradiente A-a ≥35)",
+            "ref": "REU-prednisona",
+            "dosis": "40 mg cada 12 h (días 1-5), 40 mg cada 24 h (días 6-10), 20 mg cada 24 h (días 11-21)",
+            "via": "VO",
+            "intervalo": "Según la pauta descendente",
+            "duracion": "21 días",
+            "nota": "Empezar en las primeras 72 h del tratamiento; reduce la mortalidad"
+          },
+          {
+            "nombre": "Primaquina + clindamicina",
+            "ref": "INF-primaquina",
+            "dosis": "30 mg de primaquina base + 600 mg de clindamicina",
+            "via": "VO (clindamicina IV o VO)",
+            "intervalo": "Primaquina cada 24 h; clindamicina cada 8 h",
+            "duracion": "21 días",
+            "nota": "Alternativa. Descartar déficit de G6PD"
+          },
+          {
+            "nombre": "Pentamidina",
+            "ref": "INF-pentamidina",
+            "dosis": "4 mg/kg",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "21 días",
+            "nota": "Alternativa en la grave con intolerancia; hipoglucemia, nefrotoxicidad, QT"
+          }
+        ]
+      },
+      {
+        "titulo": "Toxoplasmosis cerebral",
+        "farmacos": [
+          {
+            "nombre": "Pirimetamina",
+            "ref": "INF-pirimetamina",
+            "dosis": "200 mg el día 1; después 50 mg (<60 kg) o 75 mg (≥60 kg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥6 semanas",
+            "nota": "Siempre con sulfadiazina (o clindamicina) y ácido folínico"
+          },
+          {
+            "nombre": "Sulfadiazina",
+            "ref": "INF-sulfadiazina",
+            "dosis": "1000 mg (<60 kg) o 1500 mg (≥60 kg)",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "≥6 semanas",
+            "nota": "Hidratación abundante (cristaluria); alergia: clindamicina 600 mg cada 6 h"
+          },
+          {
+            "nombre": "Ácido folínico",
+            "ref": "HEM-acido-folinico",
+            "dosis": "10-25 mg (hasta 50 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras dure la pirimetamina",
+            "nota": "Previene la mielotoxicidad"
+          },
+          {
+            "nombre": "Cotrimoxazol (alternativa)",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "5 mg/kg de trimetoprim",
+            "via": "VO o IV",
+            "intervalo": "Cada 12 h",
+            "duracion": "≥6 semanas",
+            "nota": "Si no hay pirimetamina; eficacia similar"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis (primaria y secundaria)",
+        "farmacos": [
+          {
+            "nombre": "Cotrimoxazol",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "160/800 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h (o 3 veces por semana)",
+            "duracion": "Hasta CD4 >200/µL durante ≥3 meses con TAR",
+            "nota": "Cubre Pneumocystis y toxoplasma"
+          },
+          {
+            "nombre": "Dapsona",
+            "ref": "INF-dapsona",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Igual que el cotrimoxazol",
+            "nota": "Alternativa frente a Pneumocystis; descartar déficit de G6PD; para toxoplasma añadir pirimetamina 50 mg semanal + folínico"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Iniciar tratamiento antirretroviral en las primeras 2 semanas del diagnóstico de la oportunista",
+      "Toxoplasmosis con efecto masa: dexametasona; anticonvulsivos solo si hay crisis",
+      "Sin respuesta clínica o radiológica a los 10-14 días: biopsia (linfoma primario del SNC)",
+      "Vigilar el síndrome inflamatorio de reconstitución inmune"
+    ],
+    "claves": [
+      "**Paciente con VIH, disnea progresiva, desaturación al esfuerzo y LDH alta: Pneumocystis.**",
+      "Corticoides si PaO2 <70 mmHg: reducen la mortalidad.",
+      "Lesiones en anillo + CD4 <100 + IgG de toxoplasma: tratar empíricamente y repetir RM a las 2 semanas."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedad por VIH (infecciones oportunistas); guías de infecciones oportunistas en VIH (NIH/CDC/IDSA) y EACS 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 10,
+      "cotejadas_en_fuente": 8,
+      "resultado": "Revisadas las 10 pautas (8 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipo-persistente",
+    "nombre": "Hipo persistente e intratable",
+    "sinonimos": [
+      "Singulto",
+      "Hipo crónico",
+      "Hipo intratable"
+    ],
+    "area": "NEU",
+    "resumen": "El hipo agudo (<48 h) es benigno y se trata con maniobras vagales. **Persistente (>48 h)** o **intratable (>1 mes)**: buscar causa, porque puede ser el síntoma de **reflujo gastroesofágico** (la más frecuente), lesión del **nervio frénico o vago** (tumor mediastínico, bocio, neumonía, pericarditis), **lesión del SNC** (ictus de tronco, esclerosis múltiple, tumor), causas **metabólicas** (uremia, hiponatremia, hipocalcemia) o **fármacos** (corticoides, benzodiacepinas, opioides, quimioterapia). Tratamiento: el de la causa (IBP de prueba) y farmacológico con **baclofeno**, **gabapentina**, **metoclopramida** o **clorpromazina** (la única con autorización específica).",
+    "objetivo": "Encontrar y tratar la causa y suprimir el hipo cuando altera el sueño, la alimentación o la calidad de vida.",
+    "escenarios": [
+      {
+        "titulo": "Persistente o intratable",
+        "farmacos": [
+          {
+            "nombre": "Omeprazol (prueba terapéutica)",
+            "ref": "DIG-omeprazol",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "4-8 semanas",
+            "nota": "El reflujo es la causa más frecuente"
+          },
+          {
+            "nombre": "Baclofeno",
+            "ref": "NEU-baclofeno",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta ceder el hipo",
+            "nota": "Primera línea farmacológica; somnolencia; ajustar en insuficiencia renal"
+          },
+          {
+            "nombre": "Gabapentina",
+            "ref": "NEU-gabapentina",
+            "dosis": "300-400 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta ceder el hipo",
+            "nota": "Alternativa, útil en causas centrales"
+          },
+          {
+            "nombre": "Metoclopramida",
+            "ref": "DIG-metoclopramida",
+            "dosis": "10 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 8 h",
+            "duracion": "≤5 días-12 semanas",
+            "nota": "Alternativa si hay distensión gástrica"
+          },
+          {
+            "nombre": "Clorpromazina",
+            "ref": "PSQ-clorpromazina",
+            "dosis": "25-50 mg",
+            "via": "VO o IV lenta diluida",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "7-10 días",
+            "nota": "Si fallan los anteriores; hipotensión y sedación (evitar en ancianos)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Agudo: apnea voluntaria, beber agua fría, maniobra de Valsalva, estimulación faríngea",
+      "Persistente: hemograma, función renal, iones (sodio, calcio), radiografía de tórax, ECG; endoscopia o TC/RM según sospecha",
+      "Revisar fármacos (dexametasona, benzodiacepinas, opioides)",
+      "Refractario: bloqueo del nervio frénico o estimulación vagal en centros especializados"
+    ],
+    "claves": [
+      "**Hipo de más de 48 h: no es banal, buscar causa (reflujo, tórax, SNC, uremia).**",
+      "Hipo con síntomas neurológicos: pensar en lesión de tronco (infarto bulbar lateral).",
+      "Hipo de inicio tras dexametasona en oncología: causa frecuente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipo; revisiones sistemáticas sobre tratamiento farmacológico del hipo persistente",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-neuralgia-trigemino",
+    "nombre": "Neuralgia del trigémino",
+    "sinonimos": [
+      "Tic doloroso",
+      "Neuralgia trigeminal",
+      "Prosopalgia"
+    ],
+    "area": "NEU",
+    "resumen": "**Dolor facial lancinante, como descargas eléctricas**, de **segundos**, unilateral en el territorio de **V2-V3**, desencadenado por estímulos leves (**masticar, hablar, lavarse la cara, el aire**) sobre **zonas gatillo**, con periodos refractarios y remisiones. La clásica se debe a **compresión vascular** de la raíz; sospechar **secundaria** (esclerosis múltiple, tumor del ángulo pontocerebeloso) si es **<40 años, bilateral, con déficit sensitivo** o pérdida del reflejo corneal → **RM**. Tratamiento de elección: **carbamazepina** (o **oxcarbazepina**); si no responde o no se tolera: lamotrigina, baclofeno, gabapentina o pregabalina; refractaria: **descompresión microvascular** o técnicas percutáneas o radiocirugía.",
+    "objetivo": "Controlar las crisis de dolor con la menor toxicidad y derivar a cirugía si fracasa el tratamiento médico.",
+    "escenarios": [
+      {
+        "titulo": "Primera línea",
+        "farmacos": [
+          {
+            "nombre": "Carbamazepina",
+            "ref": "NEU-carbamazepina",
+            "dosis": "100-200 mg → 400-800 mg/día (máximo 1200 mg)",
+            "via": "VO",
+            "intervalo": "Cada 12 h (o cada 8 h)",
+            "duracion": "Hasta 4-6 semanas sin dolor; después reducir lentamente",
+            "nota": "Respuesta en 24-48 h (casi diagnóstica); HLA-B*15:02 en personas de origen asiático; hemograma, sodio y función hepática"
+          },
+          {
+            "nombre": "Oxcarbazepina",
+            "ref": "NEU-carbamazepina",
+            "dosis": "150-300 mg → 600-1800 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Igual",
+            "nota": "Alternativa mejor tolerada; vigilar hiponatremia"
+          }
+        ]
+      },
+      {
+        "titulo": "Segunda línea o añadido",
+        "farmacos": [
+          {
+            "nombre": "Lamotrigina",
+            "ref": "NEU-lamotrigina",
+            "dosis": "25 mg → 200-400 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Crónica",
+            "nota": "Escalada lenta (riesgo de exantema grave)"
+          },
+          {
+            "nombre": "Baclofeno",
+            "ref": "NEU-baclofeno",
+            "dosis": "5-10 mg → 40-80 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Crónica",
+            "nota": "Útil en la secundaria a esclerosis múltiple"
+          },
+          {
+            "nombre": "Gabapentina",
+            "ref": "NEU-gabapentina",
+            "dosis": "300 mg → 900-3600 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa",
+            "alternativa": "pregabalina 75-300 mg cada 12 h"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "RM con secuencias para el trigémino en todos (compresión vascular o causa secundaria)",
+      "Exploración del reflejo corneal y la sensibilidad facial",
+      "Cirugía (descompresión microvascular) en refractarios o intolerantes jóvenes; rizotomía percutánea o radiocirugía en mayores",
+      "Diferenciar de dolor dental, neuralgia posherpética, cefalea en racimos y SUNCT"
+    ],
+    "claves": [
+      "**Descargas faciales de segundos al masticar o lavarse la cara: neuralgia del trigémino → carbamazepina.**",
+      "Joven, bilateral o con hipoestesia facial: RM para descartar esclerosis múltiple o tumor.",
+      "Una respuesta espectacular a la carbamazepina apoya el diagnóstico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de neuralgia del trigémino y otros trastornos de los nervios craneales; guías de la EAN 2019 de neuralgia del trigémino",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipertension-intracraneal-idiopatica",
+    "nombre": "Hipertensión intracraneal idiopática",
+    "sinonimos": [
+      "Pseudotumor cerebri",
+      "HII",
+      "Hipertensión intracraneal benigna"
+    ],
+    "area": "NEU",
+    "resumen": "Típica de **mujeres jóvenes con obesidad** (o aumento de peso reciente). **Cefalea** diaria que empeora al acostarse o con Valsalva, **acúfeno pulsátil**, **oscurecimientos visuales transitorios**, diplopía horizontal (paresia del VI par) y **papiledema bilateral**. Diagnóstico: **RM con venografía** (descartar masa y **trombosis de senos venosos**) y **punción lumbar** con **presión de apertura ≥25 cmH2O** y LCR normal. Causas secundarias: tetraciclinas, retinoides, exceso de vitamina A, retirada de corticoides, litio, hormona de crecimiento. El riesgo principal es la **pérdida visual permanente**: campimetría y fondo de ojo seriados. Tratamiento: **pérdida de peso** (5-15%), **acetazolamida**; **topiramato** si hay migraña; **cirugía urgente** si la visión se deteriora.",
+    "objetivo": "Preservar la visión y aliviar la cefalea bajando la presión intracraneal.",
+    "escenarios": [
+      {
+        "titulo": "Todos",
+        "farmacos": [
+          {
+            "nombre": "Acetazolamida",
+            "ref": "NFR-acetazolamida",
+            "dosis": "250-500 mg → 1-2 g/día (máximo 4 g/día)",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Meses, según papiledema y campimetría",
+            "nota": "Parestesias, disgeusia, litiasis renal, acidosis metabólica"
+          },
+          {
+            "nombre": "Topiramato",
+            "ref": "NEU-topiramato",
+            "dosis": "25 mg → 50 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Meses",
+            "nota": "Alternativa o si hay migraña asociada; ayuda a perder peso; teratógeno y reduce la eficacia anticonceptiva"
+          },
+          {
+            "nombre": "Semaglutida (obesidad)",
+            "ref": "END-semaglutida",
+            "dosis": "0,25 mg → 2,4 mg",
+            "via": "SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Crónica",
+            "nota": "Facilita la pérdida de peso, el tratamiento modificador de la enfermedad"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pérdida de peso del 5-15% (programa estructurado o cirugía bariátrica)",
+      "Fondo de ojo, agudeza visual y campimetría al diagnóstico y de forma seriada; tomografía de coherencia óptica",
+      "Pérdida visual progresiva o fulminante: derivación de LCR, fenestración de la vaina del nervio óptico o stent del seno venoso",
+      "Retirar fármacos causantes (tetraciclinas, retinoides, vitamina A)"
+    ],
+    "claves": [
+      "**Mujer joven con obesidad, cefalea y papiledema bilateral: RM con venografía y punción lumbar con presión de apertura.**",
+      "Antes de llamarla idiopática, descartar trombosis de senos venosos.",
+      "El dolor de cabeza no mide la gravedad: lo que importa es la visión."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cefalea y de trastornos del nervio óptico; consenso internacional (Mollan et al., 2018) sobre hipertensión intracraneal idiopática",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-urticaria-cronica",
+    "nombre": "Urticaria crónica",
+    "sinonimos": [
+      "Urticaria crónica espontánea",
+      "Urticaria inducible",
+      "Dermografismo",
+      "Urticaria crónica idiopática"
+    ],
+    "area": "INM",
+    "resumen": "**Habones (± angioedema) casi a diario durante más de 6 semanas**. **Espontánea** (la mayoría, a menudo autoinmune; se asocia a tiroiditis) o **inducible** (dermografismo, por frío, presión, colinérgica). **No suele tener causa alérgica**: no hacen falta pruebas de alergia, solo hemograma, PCR/VSG, IgE total y anti-TPO. Habones que duran >24 h, dejan pigmentación o duelen: **biopsia (vasculitis urticarial)**. Escalera: **antihistamínico H1 de 2.ª generación a dosis estándar → hasta 4 veces la dosis** → **omalizumab** → **ciclosporina**. Corticoides orales solo en ciclos cortos para brotes. Evitar AINE si los empeoran.",
+    "objetivo": "Control completo de habones y angioedema con la menor medicación posible.",
+    "escenarios": [
+      {
+        "titulo": "Escalón 1-2: antihistamínico de 2.ª generación",
+        "farmacos": [
+          {
+            "nombre": "Bilastina",
+            "ref": "INM-bilastina",
+            "dosis": "20 mg (subir hasta 80 mg si no se controla en 2-4 semanas)",
+            "via": "VO",
+            "intervalo": "Cada 24 h (o repartido hasta 4 veces al día)",
+            "duracion": "Al menos 3-6 meses tras el control; después bajar",
+            "nota": "En ayunas; no sedante"
+          },
+          {
+            "nombre": "Cetirizina",
+            "ref": "INM-cetirizina",
+            "dosis": "10 mg (hasta 40 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h (hasta 4 veces al día)",
+            "duracion": "Igual",
+            "nota": "Alternativa; algo más sedante a dosis altas"
+          },
+          {
+            "nombre": "Desloratadina",
+            "ref": "INM-desloratadina",
+            "dosis": "5 mg (hasta 20 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h (hasta 4 veces al día)",
+            "duracion": "Igual",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Escalón 3-4: refractaria a antihistamínicos a dosis cuádruple",
+        "farmacos": [
+          {
+            "nombre": "Omalizumab",
+            "ref": "NML-omalizumab",
+            "dosis": "300 mg (hasta 600 mg)",
+            "via": "SC",
+            "intervalo": "Cada 4 semanas (acortar a 2 semanas si es insuficiente)",
+            "duracion": "≥6 meses y reevaluar",
+            "nota": "No depende de la IgE ni del peso en la urticaria"
+          },
+          {
+            "nombre": "Ciclosporina",
+            "ref": "INM-anticalcineurinicos",
+            "dosis": "3-5 mg/kg/día",
+            "via": "VO",
+            "intervalo": "Repartido cada 12 h",
+            "duracion": "3-6 meses",
+            "nota": "Si falla el omalizumab; presión arterial y creatinina"
+          }
+        ]
+      },
+      {
+        "titulo": "Brote intenso",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≤10 días",
+            "nota": "No como tratamiento de mantenimiento"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Hemograma, PCR o VSG, anti-TPO e IgE total; nada más si la historia no sugiere otra cosa",
+      "Evitar AINE, alcohol, ropa ajustada (urticaria por presión) y desencadenantes físicos identificados",
+      "Diario de actividad de urticaria (UAS7) para valorar la respuesta",
+      "Angioedema SIN habones: pensar en angioedema por IECA o hereditario (no responde a antihistamínicos)"
+    ],
+    "claves": [
+      "**Urticaria crónica: casi nunca alérgica; las pruebas de alergia no ayudan.**",
+      "Subir el antihistamínico de 2.ª generación hasta 4 veces la dosis antes de pasar al omalizumab.",
+      "Habones de más de 24 h que dejan marca: biopsia (vasculitis urticarial)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de urticaria, angioedema y rinitis alérgica; guía internacional EAACI/GA²LEN/EuroGuiDerm/APAAACI 2022 de urticaria",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 6 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-rinosinusitis-cronica",
+    "nombre": "Rinosinusitis crónica (con y sin pólipos nasales)",
+    "sinonimos": [
+      "Sinusitis crónica",
+      "Poliposis nasal",
+      "Rinosinusitis crónica con pólipos"
+    ],
+    "area": "OFT",
+    "resumen": "**≥12 semanas** con dos o más síntomas: **obstrucción nasal** o **rinorrea** (anterior o posterior), más **dolor o presión facial** o **pérdida de olfato**, con signos en **endoscopia nasal o TC**. **Con pólipos** (inflamación tipo 2, eosinofílica; asociada a **asma** y a la **enfermedad respiratoria exacerbada por AINE**) o **sin pólipos**. Base del tratamiento: **lavados nasales con salino a gran volumen** y **corticoide intranasal** mantenido. Con pólipos: **ciclos cortos de corticoide oral** en las reagudizaciones; graves o recidivantes tras cirugía: **biológico** (dupilumab, omalizumab, mepolizumab). Cirugía endoscópica si fracasa el tratamiento médico. Los antibióticos no son tratamiento de mantenimiento.",
+    "objetivo": "Controlar la obstrucción, la rinorrea y la anosmia y reducir las cirugías y los corticoides orales.",
+    "escenarios": [
+      {
+        "titulo": "Todos (base)",
+        "farmacos": [
+          {
+            "nombre": "Mometasona intranasal",
+            "ref": "NML-mometasona-nasal",
+            "dosis": "2 pulverizaciones (50 µg/pulverización) por fosa",
+            "via": "IN",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Crónica (≥3 meses para valorar)",
+            "nota": "Técnica correcta: dirigir hacia fuera, cabeza inclinada",
+            "alternativa": "fluticasona 2 pulverizaciones por fosa cada 12-24 h"
+          },
+          {
+            "nombre": "Budesonida en irrigación nasal",
+            "ref": "NML-budesonida-nasal",
+            "dosis": "0,5-1 mg de budesonida en 240 mL de salino",
+            "via": "IN (irrigación)",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Crónica",
+            "nota": "Más eficaz tras la cirugía (fuera de indicación)"
+          }
+        ]
+      },
+      {
+        "titulo": "Con pólipos: reagudización o síntomas intensos",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "25-30 mg (0,5 mg/kg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "5-14 días",
+            "nota": "Máximo 1-2 ciclos al año (toxicidad acumulada)"
+          },
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h (200 mg el primer día)",
+            "duracion": "3 semanas",
+            "nota": "Efecto antiinflamatorio modesto sobre el tamaño de los pólipos"
+          }
+        ]
+      },
+      {
+        "titulo": "Con pólipos grave (tras cirugía o con asma)",
+        "farmacos": [
+          {
+            "nombre": "Dupilumab",
+            "ref": "NML-dupilumab",
+            "dosis": "300 mg",
+            "via": "SC",
+            "intervalo": "Cada 2 semanas",
+            "duracion": "Reevaluar a los 6-12 meses",
+            "nota": "Mejora el olfato y la obstrucción; conjuntivitis y eosinofilia transitoria"
+          },
+          {
+            "nombre": "Omalizumab",
+            "ref": "NML-omalizumab",
+            "dosis": "75-600 mg según IgE y peso",
+            "via": "SC",
+            "intervalo": "Cada 2-4 semanas",
+            "duracion": "Reevaluar a los 6-12 meses",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Mepolizumab",
+            "ref": "NML-mepolizumab",
+            "dosis": "100 mg",
+            "via": "SC",
+            "intervalo": "Cada 4 semanas",
+            "duracion": "Reevaluar a los 6-12 meses",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Lavados nasales con salino isotónico de gran volumen (≥150-240 mL por fosa) 1-2 veces al día",
+      "Endoscopia nasal y TC de senos para confirmar y planificar; descartar tumor si es unilateral o sangra",
+      "Valorar asma e intolerancia a AINE (enfermedad respiratoria exacerbada por AINE): desensibilización con aspirina en centros especializados",
+      "Cirugía endoscópica nasosinusal si fracasa el tratamiento médico adecuado"
+    ],
+    "claves": [
+      "**Pólipos + asma + intolerancia a AINE = enfermedad respiratoria exacerbada por AINE.**",
+      "Pólipo o síntomas unilaterales: endoscopia y descartar tumor.",
+      "Los antibióticos no son el tratamiento de la rinosinusitis crónica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones de vías respiratorias altas; guía europea EPOS 2020 y actualización 2023 sobre biológicos",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 7 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

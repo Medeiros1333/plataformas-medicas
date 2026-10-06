@@ -1,0 +1,767 @@
+[
+  {
+    "id": "PAT-hidradenitis-supurativa",
+    "nombre": "Hidradenitis supurativa",
+    "sinonimos": [
+      "Acné inverso",
+      "Hidrosadenitis",
+      "Hidradenitis"
+    ],
+    "area": "DER",
+    "resumen": "Enfermedad inflamatoria crónica del folículo en **axilas, ingles, región perianal y submamaria**: nódulos dolorosos recurrentes, abscesos estériles, **túneles (fístulas)** y cicatrices. **No es una infección** (los cultivos suelen ser estériles) aunque los antibióticos se usen por su efecto antiinflamatorio. Estadificar con **Hurley** (I nódulos aislados; II túneles separados; III afectación difusa). Leve: **clindamicina tópica**; moderada: **tetraciclina oral 12 semanas** o **clindamicina + rifampicina**; grave o refractaria: **adalimumab** (o secukinumab) y cirugía. Dejar de fumar y perder peso.",
+    "objetivo": "Reducir los brotes y el dolor y frenar la formación de túneles y cicatrices.",
+    "escenarios": [
+      {
+        "titulo": "Leve (Hurley I)",
+        "farmacos": [
+          {
+            "nombre": "Clindamicina tópica al 1%",
+            "ref": "DER-clindamicina-topica",
+            "dosis": "1 aplicación de solución o gel al 1% sobre las lesiones",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "12 semanas",
+            "nota": "Con antiséptico (clorhexidina) para lavado"
+          }
+        ]
+      },
+      {
+        "titulo": "Moderada (Hurley II)",
+        "farmacos": [
+          {
+            "nombre": "Doxiciclina",
+            "ref": "INF-doxiciclina",
+            "dosis": "100 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "12 semanas",
+            "nota": "Efecto antiinflamatorio; fotosensibilidad"
+          },
+          {
+            "nombre": "Clindamicina + rifampicina",
+            "ref": "INF-clindamicina",
+            "dosis": "300 mg de clindamicina + 300 mg de rifampicina",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "10-12 semanas",
+            "nota": "Si falla la tetraciclina. Rifampicina: inductor potente (anticonceptivos, anticoagulantes)",
+            "alternativa": "rifampicina 600 mg cada 24 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Grave o refractaria (Hurley II-III)",
+        "farmacos": [
+          {
+            "nombre": "Adalimumab",
+            "ref": "INM-anti-tnf",
+            "dosis": "160 mg la semana 0, 80 mg la semana 2 y después 40 mg",
+            "via": "SC",
+            "intervalo": "Cada semana (o 80 mg cada 2 semanas) desde la semana 4",
+            "duracion": "Valorar a las 12 semanas; crónico si responde",
+            "nota": "Cribar tuberculosis latente y hepatitis B antes de empezar"
+          },
+          {
+            "nombre": "Secukinumab",
+            "ref": "INM-secukinumab",
+            "dosis": "300 mg las semanas 0-4 y después 300 mg",
+            "via": "SC",
+            "intervalo": "Cada 2-4 semanas",
+            "duracion": "Crónica si responde",
+            "nota": "Alternativa al anti-TNF; vigilar candidiasis y enfermedad inflamatoria intestinal"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abandono del tabaco y pérdida de peso (mejoran la actividad)",
+      "Ropa holgada; evitar el afeitado irritante; lavado con antiséptico",
+      "Nódulo inflamatorio agudo: triamcinolona acetónido intralesional 10 mg/mL (0,2-1 mL), alivio en 24-48 h",
+      "Drenaje solo de abscesos fluctuantes; destechamiento (deroofing) de los túneles; escisión amplia en Hurley III",
+      "Analgesia (AINE, paracetamol) y apoyo psicológico: enfermedad con gran impacto en la calidad de vida"
+    ],
+    "claves": [
+      "**Abscesos recurrentes en axila o ingle con cultivo estéril: pensar en hidradenitis, no en forunculosis.**",
+      "El diagnóstico medio se retrasa 7-10 años: reconocerla pronto evita cicatrices.",
+      "Asociada a obesidad, síndrome metabólico, enfermedad de Crohn y depresión."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades cutáneas; guías europeas (EADV/EHSF) de hidradenitis supurativa 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-molusco-contagioso",
+    "nombre": "Molusco contagioso",
+    "sinonimos": [
+      "Molluscum contagiosum",
+      "Moluscos"
+    ],
+    "area": "DER",
+    "resumen": "Pápulas perladas **umbilicadas** de 2-5 mm por un poxvirus; muy frecuentes en **niños** (sobre todo con dermatitis atópica) y, en adultos, en genitales (transmisión sexual). **Se resuelven solas en 6-18 meses**: la abstención es una opción válida. Tratar si hay muchas lesiones, prurito, eccema alrededor, contagio a convivientes o lesiones genitales: **curetaje**, **crioterapia**, **hidróxido potásico** o **cantaridina** en consulta. Lesiones extensas, grandes o faciales en el adulto: **descartar VIH**.",
+    "objetivo": "Acortar la evolución cuando las lesiones molestan o se extienden, sin tratamientos agresivos.",
+    "escenarios": [
+      {
+        "titulo": "Niño con lesiones numerosas o molestas",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Hidróxido potásico al 5%",
+            "ref": "DER-hidroxido-potasio",
+            "otra_poblacion": true,
+            "dosis": "1 aplicación de solución al 5% sobre cada lesión",
+            "via": "tópica",
+            "intervalo": "1-2 veces al día",
+            "duracion": "Hasta que la lesión se inflame (2-6 semanas)",
+            "nota": "Desde los 2 años; proteger la piel sana con vaselina"
+          },
+          {
+            "nombre": "Cantaridina al 0,7% (en consulta)",
+            "ref": "DER-cantaridina",
+            "otra_poblacion": true,
+            "dosis": "1 aplicación sobre cada lesión (máximo ~20 por sesión)",
+            "via": "tópica",
+            "intervalo": "Lavar a las 24 h (2-6 h en la primera sesión para valorar la reacción); repetir cada 3 semanas",
+            "duracion": "1-4 sesiones",
+            "nota": "Indolora al aplicarla; no en cara ni genitales"
+          }
+        ]
+      },
+      {
+        "titulo": "Adulto (incluidas lesiones genitales)",
+        "farmacos": [
+          {
+            "nombre": "Hidróxido potásico al 10%",
+            "ref": "DER-hidroxido-potasio",
+            "dosis": "1 aplicación de solución al 10% sobre cada lesión",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "Hasta inflamación de la lesión",
+            "nota": "Alternativa al curetaje o la crioterapia"
+          },
+          {
+            "nombre": "Podofilotoxina al 0,5% (genital)",
+            "ref": "DER-podofilotoxina",
+            "dosis": "1 aplicación de solución al 0,5%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h 3 días seguidos y 4 de descanso",
+            "duracion": "Hasta 4 ciclos",
+            "nota": "No en el embarazo"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Abstención y explicación de la evolución natural (6-18 meses)",
+      "Curetaje con anestesia tópica (lidocaína-prilocaína) o crioterapia con nitrógeno líquido",
+      "No rascar ni afeitar la zona; no compartir toallas; tratar la dermatitis atópica asociada",
+      "En el adulto con lesiones genitales: cribado de otras ITS"
+    ],
+    "claves": [
+      "**Pápula perlada umbilicada en un niño = molusco; la abstención es correcta.**",
+      "Eccema alrededor o inflamación de una lesión suele anunciar su resolución (signo BOTE), no una infección.",
+      "Moluscos gigantes o faciales en un adulto: serología de VIH."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones por poxvirus; guías europeas de molusco contagioso (EADV/IUSTI)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): 1 corrección(es). Cantaridina al 0,7%: la ficha técnica aprobada indica lavar a las 24 h (no a las 2-6 h); las 2-6 h quedan para la primera sesión."
+    }
+  },
+  {
+    "id": "PAT-queratosis-actinica",
+    "nombre": "Queratosis actínica",
+    "sinonimos": [
+      "Queratosis solar",
+      "Daño actínico",
+      "Cancerización de campo"
+    ],
+    "area": "DER",
+    "resumen": "Lesiones **ásperas, eritematosas y descamativas** en zonas fotoexpuestas (cara, cuero cabelludo calvo, dorso de manos) de personas mayores con piel clara: **lesión precancerosa** (riesgo bajo pero real de **carcinoma epidermoide**). Lesiones aisladas: **crioterapia**. Varias lesiones o **cancerización de campo**: tratamiento de campo con **5-fluorouracilo**, **imiquimod**, **tirbanibulina**, **diclofenaco** o terapia fotodinámica. **Fotoprotección diaria** en todos. Lesión engrosada, dolorosa o que crece: biopsia.",
+    "objetivo": "Eliminar las lesiones y el daño de campo para reducir el riesgo de carcinoma epidermoide.",
+    "escenarios": [
+      {
+        "titulo": "Tratamiento de campo",
+        "farmacos": [
+          {
+            "nombre": "5-Fluorouracilo crema al 5%",
+            "ref": "DER-5-fluorouracilo-topico",
+            "dosis": "1 aplicación de crema al 5% sobre el campo",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "2-4 semanas",
+            "nota": "El más eficaz; reacción inflamatoria intensa esperable (al 0,5% con salicílico: cada 24 h, 6-12 semanas)"
+          },
+          {
+            "nombre": "Imiquimod crema al 5%",
+            "ref": "DER-imiquimod",
+            "dosis": "1 aplicación de crema al 5% (hasta 25 cm²)",
+            "via": "tópica",
+            "intervalo": "3 veces por semana (al acostarse)",
+            "duracion": "4 semanas; repetir 4 semanas si persiste",
+            "nota": "Alternativa. Al 3,75%: cada 24 h, 2 ciclos de 2 semanas"
+          },
+          {
+            "nombre": "Tirbanibulina al 1%",
+            "ref": "DER-tirbanibulina",
+            "dosis": "1 aplicación de pomada al 1% (hasta 100 cm²)",
+            "via": "tópica",
+            "intervalo": "Cada 24 h",
+            "duracion": "5 días",
+            "nota": "Alternativa. La pauta más corta y mejor tolerada"
+          },
+          {
+            "nombre": "Diclofenaco gel al 3% con hialuronato",
+            "ref": "REU-diclofenaco-topico",
+            "dosis": "1 aplicación de gel al 3%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "60-90 días",
+            "nota": "Alternativa. Menos eficaz pero muy bien tolerado (lesiones finas)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Crioterapia con nitrógeno líquido en lesiones aisladas",
+      "Terapia fotodinámica en campos extensos",
+      "Fotoprotección diaria (FPS ≥50) y ropa protectora; revisión anual de la piel",
+      "Biopsia si hay induración, dolor, sangrado, crecimiento rápido o falta de respuesta"
+    ],
+    "claves": [
+      "**Se palpa antes de verse: aspereza de lija en piel fotoexpuesta.**",
+      "Inmunodeprimidos (trasplantados): riesgo de carcinoma muy aumentado; tratar de forma más agresiva.",
+      "La inflamación del tratamiento de campo es esperable y temporal: avisar al paciente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cáncer de piel; guías europeas (EDF/EADO) de queratosis actínica 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-prurito-cronico",
+    "nombre": "Prurito crónico",
+    "sinonimos": [
+      "Picor crónico",
+      "Prurito sin lesiones",
+      "Prurito urémico",
+      "Prurito colestásico",
+      "Prurito senil"
+    ],
+    "area": "DER",
+    "resumen": "Picor de **más de 6 semanas**. Distinguir: **dermatológico** (con lesiones primarias: eccema, psoriasis, escabiosis, urticaria), **sistémico** (enfermedad renal crónica, **colestasis**, ferropenia, policitemia vera, linfoma de Hodgkin, hipertiroidismo, VIH), **neuropático** (prurito braquiorradial, notalgia parestésica), **psicógeno** y por **fármacos** (opioides, IECA, estatinas). Base para todos: **emolientes y piel bien hidratada**. Tratamiento según la causa: **colestiramina** en la colestasis, **gabapentinoides** en el urémico y el neuropático, **sertralina** o **mirtazapina** en el refractario. Los antihistamínicos solo sirven si hay mediación histamínica (urticaria) o para dormir.",
+    "objetivo": "Encontrar y tratar la causa y aliviar el picor para romper el ciclo picor-rascado.",
+    "escenarios": [
+      {
+        "titulo": "Base (todos) y prurito senil o por xerosis",
+        "farmacos": [
+          {
+            "nombre": "Emolientes",
+            "ref": "DER-emolientes",
+            "dosis": "1 aplicación generosa en todo el cuerpo",
+            "via": "tópica",
+            "intervalo": "1-2 veces al día (tras la ducha)",
+            "duracion": "Continua",
+            "nota": "Ducha corta y tibia; jabones syndet"
+          },
+          {
+            "nombre": "Hidroxizina (nocturna)",
+            "ref": "INM-hidroxizina",
+            "dosis": "10-25 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse",
+            "duracion": "Mientras moleste",
+            "nota": "Útil por la sedación; evitar en ancianos frágiles (anticolinérgico, caídas)"
+          }
+        ]
+      },
+      {
+        "titulo": "Prurito colestásico",
+        "farmacos": [
+          {
+            "nombre": "Colestiramina",
+            "ref": "DIG-colestiramina",
+            "dosis": "4 g",
+            "via": "VO",
+            "intervalo": "1-4 veces al día (antes y después del desayuno)",
+            "duracion": "Mientras dure la colestasis",
+            "nota": "Separar 4 h de otros fármacos"
+          },
+          {
+            "nombre": "Rifampicina",
+            "ref": "INF-rifampicina",
+            "dosis": "150-300 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras sea necesario",
+            "nota": "Segunda línea; vigilar transaminasas (hepatotoxicidad)"
+          },
+          {
+            "nombre": "Naltrexona",
+            "ref": "PSQ-naltrexona",
+            "dosis": "12,5 mg → 50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras sea necesario",
+            "nota": "Tercera línea; empezar bajo (síndrome de abstinencia opioide endógeno)"
+          }
+        ]
+      },
+      {
+        "titulo": "Prurito urémico o neuropático",
+        "farmacos": [
+          {
+            "nombre": "Gabapentina",
+            "ref": "NEU-gabapentina",
+            "dosis": "100 mg (FG <15 o diálisis) → 300 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h o tras cada diálisis",
+            "duracion": "Mientras sea necesario",
+            "nota": "Ajustar estrictamente a la función renal"
+          },
+          {
+            "nombre": "Pregabalina",
+            "ref": "NEU-pregabalina",
+            "dosis": "25-75 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras sea necesario",
+            "nota": "Alternativa. Dosis bajas en enfermedad renal"
+          }
+        ]
+      },
+      {
+        "titulo": "Prurito crónico refractario o de origen desconocido",
+        "farmacos": [
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50-100 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "≥3 meses",
+            "nota": "Útil también en el colestásico"
+          },
+          {
+            "nombre": "Mirtazapina",
+            "ref": "PSQ-mirtazapina",
+            "dosis": "15-30 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse",
+            "duracion": "≥3 meses",
+            "nota": "Alternativa. Útil con insomnio"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Estudio inicial: hemograma, ferritina, función renal y hepática, TSH, glucemia, VIH/VHC según riesgo, radiografía de tórax si hay síntomas B",
+      "Revisar fármacos de inicio reciente",
+      "Uñas cortas, ropa de algodón, ambiente fresco; compresas frías y lociones de mentol o polidocanol",
+      "Fototerapia UVB en el urémico y en el refractario"
+    ],
+    "claves": [
+      "**Prurito generalizado sin lesiones en un anciano: descartar causa sistémica antes de llamarlo senil.**",
+      "Prurito tras la ducha caliente (acuagénico): pensar en policitemia vera.",
+      "Prurito con sudoración nocturna, fiebre o pérdida de peso: linfoma."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de prurito y manifestaciones cutáneas de enfermedades sistémicas; guía europea (EDF) de prurito crónico",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 9,
+      "cotejadas_en_fuente": 8,
+      "resultado": "Revisadas las 9 pautas (8 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-quemadura-solar",
+    "nombre": "Quemadura solar",
+    "sinonimos": [
+      "Eritema solar",
+      "Insolación cutánea",
+      "Fotoquemadura"
+    ],
+    "area": "DER",
+    "resumen": "Eritema doloroso **a las 4-6 h** de la exposición, máximo a las 12-24 h, con o sin ampollas. Es una **quemadura superficial** por radiación ultravioleta B. Tratamiento sintomático: **frío local**, **emolientes**, **AINE** en las primeras horas (reduce el eritema y el dolor) e hidratación. **Corticoide tópico de baja-media potencia** solo alivia si se aplica pronto. Vigilar **signos de golpe de calor**, ampollas extensas (>10-15% de superficie) o afectación del estado general, que obligan a valoración urgente. **Causa principal prevenible del melanoma.**",
+    "objetivo": "Aliviar el dolor y la inflamación y prevenir nuevas quemaduras.",
+    "escenarios": [
+      {
+        "titulo": "Adulto",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "24-48 h",
+            "nota": "Mayor beneficio si se empieza pronto"
+          },
+          {
+            "nombre": "Emolientes (o gel de aloe sin perfume)",
+            "ref": "DER-emolientes",
+            "dosis": "1 aplicación generosa",
+            "via": "tópica",
+            "intervalo": "Varias veces al día",
+            "duracion": "Hasta la descamación",
+            "nota": "Evitar anestésicos tópicos (benzocaína: dermatitis de contacto)"
+          },
+          {
+            "nombre": "Hidrocortisona al 1%",
+            "ref": "DER-hidrocortisona-topica",
+            "dosis": "1 aplicación de crema al 1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "2-3 días",
+            "nota": "Beneficio modesto; no sobre ampollas rotas"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno (pediatría)",
+            "ref": "PED-REU-ibuprofeno",
+            "dosis": "10 mg/kg (máximo 400 mg)",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "24-48 h",
+            "nota": "Lactante <6 meses con quemadura solar: valoración médica"
+          },
+          {
+            "nombre": "Paracetamol (pediatría)",
+            "ref": "PED-REU-paracetamol",
+            "dosis": "15 mg/kg (máximo 1 g)",
+            "via": "VO",
+            "intervalo": "Cada 6 h",
+            "duracion": "24-48 h",
+            "nota": "Alternativa"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Compresas o duchas frías; ropa holgada; hidratación oral abundante",
+      "No romper las ampollas; las ampollas extensas se curan como una quemadura de 2.º grado",
+      "Evitar el sol hasta la curación; después, fotoprotección FPS ≥30-50 cada 2 h y tras el baño",
+      "Niños <6 meses: sin exposición solar directa"
+    ],
+    "claves": [
+      "**Fiebre, vómitos, cefalea o confusión tras una exposición solar: golpe de calor, no quemadura simple.**",
+      "Quemadura con poca exposición: revisar fármacos fotosensibilizantes (doxiciclina, tiazidas, amiodarona, AINE).",
+      "Cada quemadura solar con ampollas en la infancia aumenta el riesgo de melanoma."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de fotosensibilidad y otras reacciones a la luz; revisiones de dermatología de urgencias",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-vitiligo",
+    "nombre": "Vitíligo",
+    "sinonimos": [
+      "Leucodermia",
+      "Despigmentación adquirida"
+    ],
+    "area": "DER",
+    "resumen": "Máculas **acrómicas** (blanco tiza, se realzan con luz de Wood) por destrucción autoinmune de melanocitos, simétricas en cara, manos, periorificiales y zonas de roce (**no segmentario**) o en una franja unilateral (**segmentario**). Se asocia a **tiroiditis autoinmune** (TSH y anti-TPO), diabetes tipo 1, anemia perniciosa y alopecia areata. Tratamiento: **corticoide tópico potente** o **inhibidor de la calcineurina** (de elección en cara y pliegues), **ruxolitinib crema** y **fototerapia UVB de banda estrecha** si es extenso o progresa; minipulsos de **corticoide oral** para frenar la actividad rápida. La respuesta es lenta (meses).",
+    "objetivo": "Detener la progresión y repigmentar, con apoyo psicológico y fotoprotección.",
+    "escenarios": [
+      {
+        "titulo": "Localizado (<10% de superficie)",
+        "farmacos": [
+          {
+            "nombre": "Tacrolimus pomada al 0,1%",
+            "ref": "DER-tacrolimus-topico",
+            "dosis": "1 aplicación de pomada al 0,1%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "6-12 meses; después 2 veces por semana de mantenimiento",
+            "nota": "De elección en cara, cuello y pliegues (no atrofia)"
+          },
+          {
+            "nombre": "Clobetasol (o mometasona) tópico",
+            "ref": "DER-clobetasol",
+            "dosis": "1 aplicación de crema al 0,05%",
+            "via": "tópica",
+            "intervalo": "Cada 24 h, 2 semanas sí y 2 no (o 15 días al mes)",
+            "duracion": "Hasta 6 meses",
+            "nota": "En tronco y extremidades; vigilar atrofia"
+          },
+          {
+            "nombre": "Ruxolitinib crema al 1,5%",
+            "ref": "DER-ruxolitinib-crema",
+            "dosis": "1 aplicación de crema al 1,5%",
+            "via": "tópica",
+            "intervalo": "Cada 12 h",
+            "duracion": "24-52 semanas",
+            "nota": "Desde los 12 años; vitíligo no segmentario con afectación facial"
+          }
+        ]
+      },
+      {
+        "titulo": "Extenso o en progresión rápida",
+        "farmacos": [
+          {
+            "nombre": "Dexametasona en minipulsos orales",
+            "ref": "REU-dexametasona",
+            "dosis": "2,5-5 mg",
+            "via": "VO",
+            "intervalo": "2 días consecutivos por semana",
+            "duracion": "3-6 meses",
+            "nota": "Frena la actividad; asociar fototerapia UVB de banda estrecha"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Fototerapia UVB de banda estrecha 2-3 veces por semana (en extenso, o asociada a tópicos)",
+      "Fotoprotección de las máculas (se queman con facilidad) y maquillaje de camuflaje",
+      "TSH y anticuerpos antitiroideos al diagnóstico; apoyo psicológico",
+      "Injertos de melanocitos en el vitíligo segmentario estable"
+    ],
+    "claves": [
+      "**Mácula blanco tiza que se realza con luz de Wood: vitíligo; descartar tiroiditis.**",
+      "Cara y cuello repigmentan bien; manos y pies, mal.",
+      "Fenómeno de Koebner: aparece en zonas de roce o traumatismo."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de la pigmentación; guías europeas (EDF) de vitíligo 2023",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-liquen-plano",
+    "nombre": "Liquen plano",
+    "sinonimos": [
+      "Liquen plano oral",
+      "Liquen ruber planus",
+      "Liquen plano cutáneo"
+    ],
+    "area": "DER",
+    "resumen": "Las **6 P**: pápulas planas, poligonales, purpúricas (violáceas), pruriginosas, con **estrías de Wickham**, en muñecas, tobillos y región lumbar. Afecta a **mucosa oral** (reticular blanco o erosivo), genitales, uñas y cuero cabelludo (alopecia cicatricial). Pedir **serología de VHC**. Revisar fármacos (betabloqueantes, IECA, antipalúdicos, AINE: reacción liquenoide). Tratamiento: **corticoide tópico potente**; oral: corticoide en gel u orabase o **tacrolimus**; generalizado: **prednisona** corta, **acitretina** o fototerapia. El **liquen plano oral erosivo** requiere seguimiento (riesgo de carcinoma epidermoide).",
+    "objetivo": "Controlar el prurito y las erosiones y vigilar la transformación maligna oral.",
+    "escenarios": [
+      {
+        "titulo": "Cutáneo localizado",
+        "farmacos": [
+          {
+            "nombre": "Clobetasol al 0,05%",
+            "ref": "DER-clobetasol",
+            "dosis": "1 aplicación de crema o pomada al 0,05%",
+            "via": "tópica",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "2-4 semanas, después reducir",
+            "nota": "Ocluido en lesiones hipertróficas"
+          },
+          {
+            "nombre": "Hidroxizina (prurito)",
+            "ref": "INM-hidroxizina",
+            "dosis": "25 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse",
+            "duracion": "Mientras moleste",
+            "nota": "Coadyuvante"
+          }
+        ]
+      },
+      {
+        "titulo": "Oral",
+        "farmacos": [
+          {
+            "nombre": "Triamcinolona en orabase al 0,1%",
+            "ref": "DER-triamcinolona-orabase",
+            "dosis": "1 aplicación de pasta al 0,1% sobre las lesiones",
+            "via": "bucal",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "4-8 semanas",
+            "nota": "En reticular asintomático no hace falta tratar"
+          },
+          {
+            "nombre": "Tacrolimus pomada al 0,1% (erosivo refractario)",
+            "ref": "DER-tacrolimus-topico",
+            "dosis": "1 aplicación de pomada al 0,1%",
+            "via": "bucal",
+            "intervalo": "Cada 12 h",
+            "duracion": "4-8 semanas",
+            "nota": "Alternativa. Vigilar candidiasis"
+          }
+        ]
+      },
+      {
+        "titulo": "Generalizado o grave",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "0,5 mg/kg (30-60 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "2-6 semanas con descenso",
+            "nota": "Recidiva frecuente al retirar"
+          },
+          {
+            "nombre": "Acitretina",
+            "ref": "DER-acitretina",
+            "dosis": "25-30 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "8-12 semanas",
+            "nota": "Alternativa. Teratógeno: anticoncepción eficaz y 3 años después"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Serología de VHC; revisar fármacos (reacción liquenoide)",
+      "Liquen oral: higiene dental, evitar tabaco, alcohol, alimentos picantes; revisión anual (biopsia si cambia o hay úlcera persistente)",
+      "Fototerapia UVB de banda estrecha en el cutáneo generalizado"
+    ],
+    "claves": [
+      "**Pápula violácea poligonal pruriginosa en muñecas con estrías de Wickham = liquen plano.**",
+      "Liquen plano oral erosivo: riesgo de carcinoma epidermoide; seguimiento de por vida.",
+      "Asociación con hepatitis C: siempre serología."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades papuloescamosas; guías británicas y europeas de liquen plano",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 6 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hiperhidrosis",
+    "nombre": "Hiperhidrosis",
+    "sinonimos": [
+      "Sudoración excesiva",
+      "Hiperhidrosis axilar",
+      "Hiperhidrosis palmar"
+    ],
+    "area": "DER",
+    "resumen": "**Primaria focal**: sudoración excesiva bilateral y simétrica de axilas, palmas, plantas o cara, que empieza antes de los 25 años, **no ocurre durante el sueño** y tiene antecedentes familiares. **Secundaria**: generalizada, nocturna o de inicio adulto (hipertiroidismo, hipoglucemia, menopausia, infección, linfoma, feocromocitoma, fármacos como ISRS u opioides) → buscar la causa. Escalera de la primaria: **cloruro de aluminio** → **glicopirronio tópico** (axilar) o **iontoforesis** (palmoplantar) → **toxina botulínica** → **anticolinérgico oral** → cirugía.",
+    "objetivo": "Reducir la sudoración hasta un nivel tolerable con el menor efecto adverso.",
+    "escenarios": [
+      {
+        "titulo": "Primaria focal",
+        "farmacos": [
+          {
+            "nombre": "Cloruro de aluminio al 15-20%",
+            "ref": "DER-cloruro-aluminio",
+            "dosis": "1 aplicación de solución al 15-20% (hasta 30% en palmas)",
+            "via": "tópica",
+            "intervalo": "Cada noche; después cada 1-3 semanas",
+            "duracion": "Crónica",
+            "nota": "Primera línea; piel totalmente seca"
+          },
+          {
+            "nombre": "Glicopirronio tópico (axilar)",
+            "ref": "DER-glicopirronio-topico",
+            "dosis": "1 aplicación de crema al 1% en cada axila",
+            "via": "tópica",
+            "intervalo": "Cada 24 h; después 2 veces por semana",
+            "duracion": "Crónica",
+            "nota": "Segunda línea en la axilar grave"
+          },
+          {
+            "nombre": "Toxina botulínica A",
+            "ref": "DER-toxina-botulinica",
+            "dosis": "50 U de onabotulinumtoxina A por axila",
+            "via": "intradérmica (SC superficial)",
+            "intervalo": "Una sesión; repetir cada 4-9 meses",
+            "duracion": "A demanda",
+            "nota": "La más eficaz; en palmas 100 U por mano"
+          }
+        ]
+      },
+      {
+        "titulo": "Multifocal o refractaria",
+        "farmacos": [
+          {
+            "nombre": "Oxibutinina",
+            "ref": "NFR-oxibutinina",
+            "dosis": "2,5 mg → 5 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "Crónica",
+            "nota": "Sequedad de boca; evitar en mayores (efecto anticolinérgico cognitivo)"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Iontoforesis con agua del grifo en palmas y plantas (3 veces por semana, después mantenimiento)",
+      "Ropa transpirable, calcetines de algodón, plantillas absorbentes",
+      "Simpatectomía torácica endoscópica solo en palmar grave refractaria (sudoración compensadora frecuente)",
+      "Secundaria: TSH, glucemia, hemograma y revisión de fármacos"
+    ],
+    "claves": [
+      "**Sudoración nocturna o generalizada no es hiperhidrosis primaria: buscar causa.**",
+      "El cloruro de aluminio funciona si se aplica de noche sobre piel seca.",
+      "Unilateral o segmentaria: lesión neurológica."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del sistema nervioso autónomo; guías internacionales de hiperhidrosis (International Hyperhidrosis Society)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

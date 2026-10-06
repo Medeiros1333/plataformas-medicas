@@ -1,0 +1,364 @@
+[
+  {
+    "id": "PAT-hipocalcemia",
+    "nombre": "Hipocalcemia",
+    "sinonimos": [
+      "Calcio bajo",
+      "Tetania hipocalcémica",
+      "Hipoparatiroidismo"
+    ],
+    "area": "NFR",
+    "resumen": "Calcio corregido por albúmina <8,5 mg/dL (o **calcio iónico** <1,1 mmol/L). Causas: **hipoparatiroidismo** (sobre todo **tras tiroidectomía**), **déficit de vitamina D**, **hipomagnesemia**, enfermedad renal crónica, pancreatitis, transfusión masiva, fármacos (bisfosfonatos IV, denosumab, foscarnet). Clínica: **parestesias periorales y acras**, calambres, **Chvostek y Trousseau**, **tetania**, laringoespasmo, convulsiones y **QT largo**. **Sintomática o calcio <7,5 mg/dL: gluconato cálcico IV**. Leve o crónica: **calcio oral + vitamina D** (calcitriol si falta PTH). **Corregir siempre el magnesio**.",
+    "objetivo": "Controlar los síntomas con calcio IV y corregir la causa con calcio oral y vitamina D.",
+    "escenarios": [
+      {
+        "titulo": "Aguda sintomática o grave (calcio <7,5 mg/dL, QT largo)",
+        "farmacos": [
+          {
+            "nombre": "Gluconato cálcico al 10%",
+            "ref": "URG-gluconato-calcico",
+            "dosis": "10-20 mL (1-2 g = 90-180 mg de calcio elemental) diluidos",
+            "via": "IV",
+            "intervalo": "En 10-20 min; repetir si persisten los síntomas",
+            "duracion": "Bolo inicial",
+            "nota": "Monitorización ECG; vía periférica de buen calibre (necrosis si se extravasa)"
+          },
+          {
+            "nombre": "Gluconato cálcico en perfusión",
+            "ref": "URG-gluconato-calcico",
+            "dosis": "0,5-1,5 mg/kg/h de calcio elemental (p. ej., 100 mL al 10% en 1 L de glucosado al 5% a 50 mL/h)",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta que el calcio oral y la vitamina D hagan efecto",
+            "nota": "Ajustar con calcio cada 4-6 h; no mezclar con bicarbonato ni fosfato"
+          },
+          {
+            "nombre": "Sulfato de magnesio (si magnesio bajo)",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "2 g (8 mmol)",
+            "via": "IV",
+            "intervalo": "En 10-20 min",
+            "duracion": "Después según magnesemia",
+            "nota": "Sin corregir el magnesio, la PTH no responde"
+          }
+        ]
+      },
+      {
+        "titulo": "Leve o crónica (hipoparatiroidismo, déficit de vitamina D)",
+        "farmacos": [
+          {
+            "nombre": "Carbonato cálcico",
+            "ref": "NFR-carbonato-acetato-calcico",
+            "dosis": "500-1000 mg de calcio elemental (hasta 2-3 g/día)",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h con las comidas",
+            "duracion": "Crónica",
+            "nota": "Con IBP absorbe peor: usar citrato cálcico"
+          },
+          {
+            "nombre": "Calcitriol (hipoparatiroidismo)",
+            "ref": "END-calcitriol",
+            "dosis": "0,25-0,5 µg",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Crónica",
+            "nota": "Objetivo calcio en el límite bajo de la normalidad (8-8,5 mg/dL) para evitar hipercalciuria"
+          },
+          {
+            "nombre": "Colecalciferol (déficit de vitamina D)",
+            "ref": "END-colecalciferol",
+            "dosis": "1000-4000 UI/día (o 50.000 UI semanal 8 semanas)",
+            "via": "VO",
+            "intervalo": "Cada 24 h o semanal",
+            "duracion": "Hasta 25-OH-vitamina D >30 ng/mL",
+            "nota": "Después mantenimiento 800-2000 UI/día"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Medir calcio corregido o iónico, magnesio, fósforo, PTH, 25-OH-vitamina D y creatinina",
+      "Tras tiroidectomía: calcio a las 6 y 24 h; PTH baja precoz predice hipocalcemia",
+      "Hipoparatiroidismo crónico: calciuria de 24 h (riesgo de litiasis y nefrocalcinosis); PTH recombinante en casos refractarios",
+      "Revisar fármacos (denosumab y bisfosfonatos IV en déficit de vitamina D)"
+    ],
+    "claves": [
+      "**Parestesias periorales tras una tiroidectomía: calcio iónico ya.**",
+      "Hipocalcemia que no se corrige: mirar el magnesio.",
+      "El calcio IV no debe mezclarse con bicarbonato ni fosfato (precipita)."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipocalcemia y trastornos de las paratiroides; guías internacionales de hipoparatiroidismo 2022",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 6 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipomagnesemia",
+    "nombre": "Hipomagnesemia",
+    "sinonimos": [
+      "Magnesio bajo",
+      "Déficit de magnesio"
+    ],
+    "area": "NFR",
+    "resumen": "Magnesio <1,7 mg/dL (0,7 mmol/L). Causas: **alcoholismo**, desnutrición, **diarrea**, **IBP crónicos**, **diuréticos** (asa y tiazidas), aminoglucósidos, cisplatino, anfotericina, ciclosporina, diabetes descompensada. Casi siempre **acompañada de hipopotasemia e hipocalcemia refractarias**. Clínica: temblor, tetania, convulsiones y **arritmias** (QT largo, **torsade de pointes**). Grave (<1,2 mg/dL), sintomática o con arritmia: **sulfato de magnesio IV**. Leve: **magnesio oral** y retirar la causa.",
+    "objetivo": "Reponer el magnesio para controlar las arritmias y permitir corregir el potasio y el calcio.",
+    "escenarios": [
+      {
+        "titulo": "Grave, sintomática o con arritmia",
+        "farmacos": [
+          {
+            "nombre": "Sulfato de magnesio",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "1-2 g (4-8 mmol)",
+            "via": "IV",
+            "intervalo": "En 2-15 min (torsade de pointes: 2 g en 1-2 min)",
+            "duracion": "Bolo",
+            "nota": "Después perfusión"
+          },
+          {
+            "nombre": "Sulfato de magnesio en perfusión",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "4-8 g (16-32 mmol)",
+            "via": "IV",
+            "intervalo": "En 12-24 h",
+            "duracion": "1-3 días (la reposición del depósito es lenta)",
+            "nota": "Reducir 50% en insuficiencia renal; vigilar reflejos"
+          },
+          {
+            "nombre": "Cloruro potásico (hipopotasemia asociada)",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "10-20 mEq/h (máximo por vía periférica)",
+            "via": "IV",
+            "intervalo": "Según potasemia",
+            "duracion": "Hasta normalizar",
+            "nota": "No se corrige sin reponer antes el magnesio"
+          }
+        ]
+      },
+      {
+        "titulo": "Leve o crónica",
+        "farmacos": [
+          {
+            "nombre": "Magnesio oral",
+            "ref": "NFR-magnesio-oral",
+            "dosis": "240-720 mg/día de magnesio elemental",
+            "via": "VO",
+            "intervalo": "Repartido en 2-4 tomas",
+            "duracion": "Mientras persista la causa",
+            "nota": "Diarrea dosis-dependiente"
+          },
+          {
+            "nombre": "Amilorida (pérdida renal por diuréticos)",
+            "ref": "NFR-amilorida",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Ahorra magnesio y potasio; vigilar hiperpotasemia"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Suspender IBP, diuréticos u otros fármacos causantes si es posible",
+      "Magnesio, potasio, calcio y ECG (QT)",
+      "En el alcohólico: tiamina antes de la glucosa"
+    ],
+    "claves": [
+      "**Hipopotasemia que no sube con potasio: reponer el magnesio.**",
+      "IBP durante años + calambres o arritmia: medir magnesio.",
+      "Torsade de pointes: 2 g de sulfato de magnesio IV aunque el magnesio sea normal."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de líquidos y electrolitos; Katzung 15.ª ed., cap. de antiarrítmicos (magnesio)",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipernatremia",
+    "nombre": "Hipernatremia",
+    "sinonimos": [
+      "Sodio elevado",
+      "Deshidratación hipertónica",
+      "Diabetes insípida"
+    ],
+    "area": "NFR",
+    "resumen": "Sodio >145 mmol/L: siempre **déficit de agua** respecto al sodio. Ocurre en quien **no puede beber o acceder al agua** (ancianos dependientes, lactantes, pacientes intubados o con demencia), con **pérdidas** digestivas, renales (diuresis osmótica por glucosa, **diabetes insípida** central o nefrogénica: litio) o aporte de sodio. Clínica neurológica: letargia, irritabilidad, convulsiones, coma. Tratamiento: **reponer agua libre** (oral o por sonda, o **glucosado al 5%** IV), primero **salino 0,9%** si hay shock. **Corrección: ≤10 mmol/L en 24 h** en la crónica (>48 h) para evitar edema cerebral. Diabetes insípida central: **desmopresina**.",
+    "objetivo": "Reponer el déficit de agua a un ritmo seguro y tratar la causa.",
+    "escenarios": [
+      {
+        "titulo": "Hipernatremia hipovolémica o por déficit de agua",
+        "farmacos": [
+          {
+            "nombre": "Suero salino 0,9% (solo si hay shock)",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "500-1000 mL",
+            "via": "IV",
+            "intervalo": "En 30-60 min; repetir según respuesta",
+            "duracion": "Hasta estabilizar la hemodinámica",
+            "nota": "Después pasar a soluciones hipotónicas"
+          },
+          {
+            "nombre": "Suero glucosado al 5%",
+            "ref": "NFR-glucosado",
+            "dosis": "Déficit de agua (L) = 0,5 (mujeres y ancianos; 0,6 en varones jóvenes) × peso (kg) × (Na/140 − 1), más pérdidas en curso",
+            "via": "IV",
+            "intervalo": "Perfusión continua repartida en 48 h",
+            "duracion": "Hasta Na <145 mmol/L",
+            "nota": "Natremia cada 4-6 h; descenso ≤10 mmol/L/24 h (0,5 mmol/L/h)",
+            "dosis_objetivo": "Descenso de sodio ≤10 mmol/L en 24 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Diabetes insípida",
+        "farmacos": [
+          {
+            "nombre": "Desmopresina (central)",
+            "ref": "END-desmopresina",
+            "dosis": "1-2 µg IV/SC; 10-20 µg IN; 0,1-0,2 mg VO",
+            "via": "IV, SC, IN o VO",
+            "intervalo": "Cada 8-12 h según diuresis",
+            "duracion": "Crónica en la central",
+            "nota": "Riesgo de hiponatremia: dejar 'escapar' una dosis a la semana"
+          },
+          {
+            "nombre": "Hidroclorotiazida (nefrogénica)",
+            "ref": "NFR-hidroclorotiazida",
+            "dosis": "25 mg",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Crónica",
+            "nota": "Con dieta pobre en sal; con amilorida si es por litio"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Agua libre por boca o sonda nasogástrica siempre que sea posible (la vía más segura)",
+      "Osmolalidad urinaria: >600 mOsm/kg = pérdidas extrarrenales; <300 mOsm/kg = diabetes insípida",
+      "Asegurar acceso al agua en ancianos institucionalizados; revisar diuréticos osmóticos y aportes de sodio",
+      "Hipernatremia aguda (<48 h, p. ej., ingesta masiva de sal): se puede corregir más rápido"
+    ],
+    "claves": [
+      "**Anciano dependiente con fiebre y confusión: medir sodio (no bebe lo suficiente).**",
+      "Corregir demasiado rápido una hipernatremia crónica produce edema cerebral y convulsiones.",
+      "Poliuria con orina diluida tras traumatismo craneal o cirugía hipofisaria: diabetes insípida central."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de líquidos y electrolitos; guías europeas de hiponatremia e hipernatremia",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): 1 corrección(es). Fórmula del déficit de agua: se añade el factor 0,6 del agua corporal total en varones jóvenes."
+    }
+  },
+  {
+    "id": "PAT-hipofosfatemia",
+    "nombre": "Hipofosfatemia y síndrome de realimentación",
+    "sinonimos": [
+      "Fósforo bajo",
+      "Síndrome de realimentación",
+      "Refeeding syndrome"
+    ],
+    "area": "NFR",
+    "resumen": "Fósforo <2,5 mg/dL (0,8 mmol/L); grave <1 mg/dL (0,32 mmol/L). Causa más importante: **síndrome de realimentación** (al nutrir a un paciente desnutrido, alcohólico, con anorexia o tras ayuno prolongado, la insulina mete fósforo, potasio y magnesio en la célula). También **tratamiento de la cetoacidosis**, alcalosis respiratoria, quelantes de fósforo, hiperparatiroidismo, hierro carboximaltosa IV. Grave: **debilidad muscular, insuficiencia respiratoria** (no se desteta del respirador), insuficiencia cardiaca, rabdomiólisis, hemólisis, confusión. Tratamiento: **fosfato oral** en la leve-moderada, **IV** en la grave; en la realimentación, **empezar despacio** y reponer **tiamina, potasio y magnesio**.",
+    "objetivo": "Prevenir y corregir la hipofosfatemia grave, sobre todo al iniciar la nutrición.",
+    "escenarios": [
+      {
+        "titulo": "Grave (<1 mg/dL) o sintomática",
+        "farmacos": [
+          {
+            "nombre": "Fosfato intravenoso",
+            "ref": "NFR-fosfato-iv",
+            "dosis": "0,08-0,16 mmol/kg (hasta 0,32 mmol/kg si es muy grave)",
+            "via": "IV",
+            "intervalo": "En 4-6 h; repetir según fosfatemia",
+            "duracion": "Hasta fósforo >2 mg/dL",
+            "nota": "Fosfato sódico si hay hiperpotasemia o insuficiencia renal"
+          }
+        ]
+      },
+      {
+        "titulo": "Leve-moderada (1-2,5 mg/dL)",
+        "farmacos": [
+          {
+            "nombre": "Fosfato oral",
+            "ref": "NFR-fosfato-oral",
+            "dosis": "30-60 mmol/día de fosfato",
+            "via": "VO",
+            "intervalo": "Repartido en 3-4 tomas",
+            "duracion": "Hasta normalizar",
+            "nota": "Diarrea dosis-dependiente"
+          }
+        ]
+      },
+      {
+        "titulo": "Prevención del síndrome de realimentación",
+        "farmacos": [
+          {
+            "nombre": "Tiamina",
+            "ref": "HEM-tiamina",
+            "dosis": "100-300 mg",
+            "via": "VO o IV",
+            "intervalo": "Cada 24 h (antes de iniciar la nutrición)",
+            "duracion": "Los primeros 10 días",
+            "nota": "Previene la encefalopatía de Wernicke"
+          },
+          {
+            "nombre": "Magnesio oral",
+            "ref": "NFR-magnesio-oral",
+            "dosis": "240-480 mg/día de magnesio elemental",
+            "via": "VO",
+            "intervalo": "Repartido en 2-3 tomas",
+            "duracion": "Según magnesemia",
+            "nota": "IV si es grave"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pacientes de riesgo: empezar con 10-20 kcal/kg/día y subir en 4-7 días",
+      "Fósforo, potasio, magnesio y glucemia diarios durante la primera semana de nutrición",
+      "Retirar quelantes de fósforo y antiácidos si son la causa"
+    ],
+    "claves": [
+      "**Paciente desnutrido que empeora a los 2-4 días de empezar a comer: síndrome de realimentación.**",
+      "Imposibilidad de destetar del respirador: comprobar fósforo y magnesio.",
+      "La cetoacidosis tratada con insulina baja el fósforo, pero no se repone de rutina salvo <1 mg/dL."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del calcio y del fósforo y de nutrición enteral y parenteral; guías NICE/ASPEN de síndrome de realimentación",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 4 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

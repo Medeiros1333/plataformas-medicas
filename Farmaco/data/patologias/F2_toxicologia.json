@@ -1,0 +1,816 @@
+[
+  {
+    "id": "PAT-sindrome-serotoninergico",
+    "nombre": "Síndrome serotoninérgico",
+    "sinonimos": [
+      "Toxicidad serotoninérgica",
+      "Intoxicación serotoninérgica"
+    ],
+    "area": "URG",
+    "resumen": "Exceso de serotonina tras **iniciar, subir o combinar** serotoninérgicos (ISRS, IRSN, IMAO, tramadol, fentanilo, linezolid, triptanes, ondansetrón, MDMA, litio). Inicio **rápido (<24 h)**. Tríada: **alteración mental** (agitación), **hiperactividad autonómica** (taquicardia, hipertermia, diaforesis, midriasis, diarrea) y **neuromuscular**: **clonus inducible u ocular, hiperreflexia** de predominio en **miembros inferiores**. Criterios de **Hunter**. Tratamiento: **retirar todo serotoninérgico**, **benzodiacepinas**, soporte y **ciproheptadina** si es moderado; grave (>41 °C, rigidez): enfriamiento, sedación, intubación con relajante **no despolarizante**. Los antipiréticos **no sirven** (la fiebre es muscular).",
+    "objetivo": "Retirar la causa y controlar la agitación, la hipertermia y la rigidez antes de que aparezca rabdomiólisis o fallo multiorgánico.",
+    "escenarios": [
+      {
+        "titulo": "Leve-moderado",
+        "farmacos": [
+          {
+            "nombre": "Lorazepam",
+            "ref": "PSQ-lorazepam",
+            "dosis": "1-2 mg",
+            "via": "IV o VO",
+            "intervalo": "Cada 30 min-6 h según agitación",
+            "duracion": "24-72 h",
+            "nota": "Controla la agitación y la hiperactividad autonómica",
+            "alternativa": "diazepam 5-10 mg IV"
+          },
+          {
+            "nombre": "Ciproheptadina",
+            "ref": "INM-ciproheptadina",
+            "dosis": "12 mg de carga; después 2 mg",
+            "via": "VO o por sonda nasogástrica",
+            "intervalo": "2 mg cada 2 h hasta la mejoría; mantenimiento 8 mg cada 6 h",
+            "duracion": "24-72 h",
+            "nota": "Máximo 32 mg/día; solo oral"
+          }
+        ]
+      },
+      {
+        "titulo": "Grave (temperatura >41 °C, rigidez)",
+        "farmacos": [
+          {
+            "nombre": "Midazolam (sedación)",
+            "ref": "PSQ-midazolam",
+            "dosis": "2-5 mg en bolo, después 0,05-0,2 mg/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta controlar la hipertermia",
+            "nota": "Intubación con relajante no despolarizante (rocuronio); evitar succinilcolina (hiperpotasemia)"
+          },
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1-2 L, después según diuresis",
+            "via": "IV",
+            "intervalo": "Continuo",
+            "duracion": "Hasta estabilizar",
+            "nota": "Prevención del fracaso renal por rabdomiólisis"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Retirar TODOS los serotoninérgicos (revisar tramadol, linezolid, ondansetrón, triptanes, dextrometorfano)",
+      "Enfriamiento físico; no usar paracetamol para la fiebre",
+      "No sujeción física (empeora la hipertermia y la acidosis láctica)",
+      "Control de CK, función renal, potasio y coagulación (CID)",
+      "Antes de reintroducir un ISRS, esperar 2 semanas (5 semanas tras fluoxetina)"
+    ],
+    "claves": [
+      "**Clonus inducible u ocular tras subir un serotoninérgico = síndrome serotoninérgico.**",
+      "Serotoninérgico: inicio en horas, clonus e hiperreflexia. Neuroléptico maligno: inicio en días, rigidez en tubería de plomo, bradicinesia.",
+      "IMAO + cualquier serotoninérgico es la combinación más peligrosa."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones y sobredosis de fármacos; Katzung 15.ª ed., cap. de antidepresivos",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-sindrome-neuroleptico-maligno",
+    "nombre": "Síndrome neuroléptico maligno",
+    "sinonimos": [
+      "SNM",
+      "Hipertermia por antipsicóticos"
+    ],
+    "area": "URG",
+    "resumen": "Reacción idiosincrásica a **antagonistas dopaminérgicos** (antipsicóticos típicos y atípicos, metoclopramida, prometazina) o a la **retirada brusca de levodopa**. Evolución en **días**: **rigidez en tubería de plomo**, **hipertermia**, **alteración de la conciencia** y **disautonomía**, con **CK muy elevada**, leucocitosis y mioglobinuria. Mortalidad 5-10%. Tratamiento: **suspender el fármaco** (o reintroducir la levodopa), soporte intensivo y enfriamiento, **benzodiacepinas**; en los graves, **bromocriptina** y/o **dantroleno**; terapia electroconvulsiva si es refractario.",
+    "objetivo": "Retirar el antagonista dopaminérgico y controlar la hipertermia y la rigidez evitando la rabdomiólisis.",
+    "escenarios": [
+      {
+        "titulo": "Todos",
+        "farmacos": [
+          {
+            "nombre": "Lorazepam",
+            "ref": "PSQ-lorazepam",
+            "dosis": "1-2 mg",
+            "via": "IV",
+            "intervalo": "Cada 4-6 h",
+            "duracion": "Hasta la mejoría",
+            "nota": "De elección en el leve y si hay rasgos catatónicos"
+          },
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1-2 L, después según diuresis (objetivo >200 mL/h si hay mioglobinuria)",
+            "via": "IV",
+            "intervalo": "Continuo",
+            "duracion": "Hasta normalizar CK",
+            "nota": "Prevención del fracaso renal"
+          }
+        ]
+      },
+      {
+        "titulo": "Moderado-grave",
+        "farmacos": [
+          {
+            "nombre": "Bromocriptina",
+            "ref": "END-bromocriptina",
+            "dosis": "2,5 mg → hasta 40 mg/día",
+            "via": "VO o por sonda nasogástrica",
+            "intervalo": "Cada 8 h",
+            "duracion": "10 días tras la resolución, después retirada gradual",
+            "nota": "Agonista dopaminérgico; puede empeorar la psicosis"
+          },
+          {
+            "nombre": "Dantroleno",
+            "ref": "REU-dantroleno",
+            "dosis": "1-2,5 mg/kg",
+            "via": "IV",
+            "intervalo": "Cada 6 h",
+            "duracion": "Hasta controlar rigidez e hipertermia",
+            "nota": "Máximo 10 mg/kg/día; hepatotoxicidad"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Suspender el antipsicótico y la metoclopramida; en el parkinsoniano, reintroducir la levodopa",
+      "Ingreso en UCI si hay hipertermia >40 °C, rigidez intensa o inestabilidad",
+      "Enfriamiento físico; profilaxis de tromboembolismo",
+      "Terapia electroconvulsiva si no responde en 48-72 h",
+      "Reintroducir un antipsicótico solo tras ≥2 semanas, de baja potencia y a dosis bajas"
+    ],
+    "claves": [
+      "**Fiebre + rigidez + confusión + CK alta en un paciente con antipsicótico = neuroléptico maligno.**",
+      "Puede ocurrir con cualquier antipsicótico, también atípicos, y a dosis terapéuticas.",
+      "Retirar bruscamente la levodopa produce un cuadro idéntico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de hipertermia y de antipsicóticos; Katzung 15.ª ed., cap. de antipsicóticos",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-distonia-aguda-farmacos",
+    "nombre": "Distonía aguda y otros síntomas extrapiramidales por fármacos",
+    "sinonimos": [
+      "Reacción distónica aguda",
+      "Crisis oculógira",
+      "Acatisia",
+      "Parkinsonismo farmacológico",
+      "Síntomas extrapiramidales"
+    ],
+    "area": "NEU",
+    "resumen": "Efecto de **antipsicóticos** (sobre todo de alta potencia: haloperidol) y **antieméticos antidopaminérgicos** (metoclopramida, domperidona menos). **Distonía aguda** (primeras horas-días, jóvenes): tortícolis, **crisis oculógira**, trismo, protrusión lingual, opistótonos; puede comprometer la vía aérea (laringoespasmo). Responde en minutos a un **anticolinérgico IV/IM** (biperideno) o a un **antihistamínico** (difenhidramina, dexclorfeniramina). **Acatisia** (inquietud motora): reducir dosis, **propranolol** o benzodiacepina. **Parkinsonismo**: reducir o cambiar el fármaco; anticolinérgico oral si es necesario. **Discinesia tardía**: no usar anticolinérgicos.",
+    "objetivo": "Revertir la distonía en minutos y evitar recurrencias ajustando el fármaco causante.",
+    "escenarios": [
+      {
+        "titulo": "Distonía aguda en el adulto",
+        "farmacos": [
+          {
+            "nombre": "Biperideno",
+            "ref": "NEU-biperideno",
+            "dosis": "2-5 mg",
+            "via": "IM o IV lenta",
+            "intervalo": "Repetir a los 30 min si no cede",
+            "duracion": "Después 2 mg VO cada 8-12 h durante 2-3 días",
+            "nota": "Respuesta en 5-20 min"
+          },
+          {
+            "nombre": "Dexclorfeniramina",
+            "ref": "INM-dexclorfeniramina",
+            "dosis": "5 mg",
+            "via": "IV o IM",
+            "intervalo": "Dosis única; repetir si no cede",
+            "duracion": "Puntual",
+            "nota": "Alternativa (o difenhidramina 25-50 mg IV)"
+          },
+          {
+            "nombre": "Diazepam",
+            "ref": "PSQ-diazepam",
+            "dosis": "5-10 mg",
+            "via": "IV lenta",
+            "intervalo": "Dosis única",
+            "duracion": "Puntual",
+            "nota": "Si no responde al anticolinérgico"
+          }
+        ]
+      },
+      {
+        "titulo": "Distonía aguda en el niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Biperideno",
+            "ref": "NEU-biperideno",
+            "otra_poblacion": true,
+            "dosis": "0,04 mg/kg (máximo 2-5 mg)",
+            "via": "IM o IV lenta",
+            "intervalo": "Repetir a los 30 min si no cede",
+            "duracion": "Puntual",
+            "nota": "Causa típica: metoclopramida (contraindicada en <1 año)"
+          }
+        ]
+      },
+      {
+        "titulo": "Acatisia",
+        "farmacos": [
+          {
+            "nombre": "Propranolol",
+            "ref": "CAR-propranolol",
+            "dosis": "10-20 mg",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h",
+            "duracion": "Mientras persista",
+            "nota": "Además de reducir la dosis del antipsicótico"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Suspender o reducir el fármaco causante; preferir antipsicóticos de menor riesgo extrapiramidal (quetiapina, aripiprazol, clozapina)",
+      "Asegurar la vía aérea si hay distonía laríngea",
+      "Explicar al paciente: la distonía es alarmante pero benigna y reversible"
+    ],
+    "claves": [
+      "**Joven con tortícolis o crisis oculógira tras metoclopramida o haloperidol: biperideno IM/IV y se resuelve en minutos.**",
+      "Los anticolinérgicos empeoran la discinesia tardía: no usarlos en ella.",
+      "La acatisia se confunde con agitación psicótica: subir el antipsicótico la empeora."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del movimiento; Katzung 15.ª ed., cap. de antipsicóticos",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 5 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): 1 corrección(es). Biperideno pediátrico: se ajusta a la dosis de referencia de 0,04 mg/kg (se retira el rango hasta 0,1 mg/kg)."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-triciclicos",
+    "nombre": "Intoxicación por antidepresivos tricíclicos",
+    "sinonimos": [
+      "Intoxicación por amitriptilina",
+      "Sobredosis de tricíclicos",
+      "Intoxicación por bloqueantes de canales de sodio"
+    ],
+    "area": "URG",
+    "resumen": "Una de las intoxicaciones medicamentosas más letales: bloqueo de **canales de sodio** (QRS ancho, arritmias ventriculares), **anticolinérgico** (taquicardia, midriasis, piel seca, retención, delirium), **alfabloqueo** (hipotensión) y **convulsiones**. El deterioro puede ser **brusco en las primeras 6 h**. ECG: **QRS >100 ms** (riesgo de convulsiones) y **>160 ms** (riesgo de arritmias), **R terminal en aVR >3 mm**. Tratamiento: **bicarbonato sódico** (alcalinización y carga de sodio), **benzodiacepinas** para las convulsiones, carbón activado si llega pronto y la vía aérea está protegida, **noradrenalina** para la hipotensión refractaria y **emulsión lipídica** en la parada.",
+    "objetivo": "Estrechar el QRS, evitar arritmias y convulsiones y mantener la presión arterial.",
+    "escenarios": [
+      {
+        "titulo": "QRS >100 ms, arritmia o hipotensión",
+        "farmacos": [
+          {
+            "nombre": "Bicarbonato sódico 1 M (8,4%)",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "1-2 mEq/kg en bolo",
+            "via": "IV",
+            "intervalo": "Repetir cada 3-5 min hasta estrechar el QRS; después perfusión",
+            "duracion": "Objetivo pH 7,45-7,55 durante 12-24 h",
+            "nota": "Vigilar sodio y potasio (hipopotasemia)"
+          },
+          {
+            "nombre": "Noradrenalina",
+            "ref": "CAR-noradrenalina",
+            "dosis": "0,05-0,5 µg/kg/min",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta estabilizar",
+            "nota": "Si la hipotensión persiste tras volumen y bicarbonato"
+          },
+          {
+            "nombre": "Emulsión lipídica al 20% (refractaria o parada)",
+            "ref": "URG-hidroxocobalamina-emulsion-lipidica",
+            "dosis": "1,5 mL/kg en bolo, después 0,25 mL/kg/min",
+            "via": "IV",
+            "intervalo": "Bolo y perfusión de 30-60 min",
+            "duracion": "Puntual",
+            "nota": "Rescate cuando falla todo lo demás"
+          }
+        ]
+      },
+      {
+        "titulo": "Convulsiones y descontaminación",
+        "farmacos": [
+          {
+            "nombre": "Lorazepam",
+            "ref": "PSQ-lorazepam",
+            "dosis": "2-4 mg",
+            "via": "IV",
+            "intervalo": "Repetir a los 5-10 min",
+            "duracion": "Hasta ceder la crisis",
+            "nota": "No fenitoína (bloquea canales de sodio)",
+            "alternativa": "diazepam 5-10 mg IV"
+          },
+          {
+            "nombre": "Carbón activado",
+            "ref": "URG-carbon-activado",
+            "dosis": "50 g (1 g/kg en niños)",
+            "via": "VO o por sonda nasogástrica",
+            "intervalo": "Dosis única",
+            "duracion": "Puntual",
+            "nota": "Si llega en <1-2 h y la vía aérea está protegida"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "ECG seriados y monitorización continua al menos 6 h (24 h si hay alteraciones)",
+      "Intubar si baja el nivel de conciencia (ventilar para evitar acidosis respiratoria)",
+      "NO usar flumazenilo (convulsiones) ni fisostigmina; evitar antiarrítmicos de clase IA, IC y III",
+      "Asintomático con ECG normal a las 6 h: alta médica y valoración psiquiátrica"
+    ],
+    "claves": [
+      "**QRS >100 ms en una intoxicación: bicarbonato en bolo, sin esperar.**",
+      "R terminal en aVR >3 mm predice convulsiones y arritmias.",
+      "Otros bloqueantes de sodio con el mismo tratamiento: carbamazepina, difenhidramina, flecainida, cocaína."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones y sobredosis de fármacos; Katzung 15.ª ed., cap. de manejo del paciente intoxicado",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-litio",
+    "nombre": "Intoxicación por litio",
+    "sinonimos": [
+      "Litemia elevada",
+      "Toxicidad por litio"
+    ],
+    "area": "URG",
+    "resumen": "Tres formas: **aguda** (sobredosis sin tratamiento previo: digestiva primero, menos neurotóxica), **crónica** (la más frecuente y peligrosa: deshidratación, **diuréticos, IECA, ARA-II o AINE** que reducen su eliminación) y **aguda sobre crónica**. Clínica **neurológica**: temblor grosero, ataxia, disartria, confusión, mioclonías, convulsiones, coma; también bradicardia y QT largo. Tratamiento: **suero salino** (restaurar volemia y excreción), suspender los fármacos que lo retienen, **irrigación intestinal total** en las formas retard, y **hemodiálisis** si es grave. **El carbón activado no lo adsorbe.**",
+    "objetivo": "Restaurar la eliminación renal del litio y depurarlo con diálisis cuando hay toxicidad grave.",
+    "escenarios": [
+      {
+        "titulo": "Todos",
+        "farmacos": [
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "1-2 L, después 150-200 mL/h según diuresis y sodio",
+            "via": "IV",
+            "intervalo": "Continuo",
+            "duracion": "Hasta litemia <1 mEq/L y mejoría clínica",
+            "nota": "Vigilar hipernatremia (diabetes insípida nefrogénica)"
+          },
+          {
+            "nombre": "Polietilenglicol (irrigación intestinal total)",
+            "ref": "DIG-macrogol",
+            "dosis": "1,5-2 L/h (adultos)",
+            "via": "VO o por sonda nasogástrica",
+            "intervalo": "Continuo",
+            "duracion": "Hasta efluente rectal claro",
+            "nota": "Solo en sobredosis aguda de formas de liberación prolongada"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Litemia a las 6 h y repetir cada 4-6 h (puede subir por absorción tardía); función renal, sodio, ECG",
+      "Hemodiálisis (criterios EXTRIP): litemia >4 mEq/L con insuficiencia renal; o clínica neurológica grave (convulsiones, coma, arritmias) con cualquier nivel; considerar si >5 mEq/L, confusión o insuficiencia renal",
+      "Suspender diuréticos, IECA, ARA-II y AINE; no reiniciar el litio sin revisar la dosis",
+      "Rebote tras la diálisis: repetir litemia 6 h después"
+    ],
+    "claves": [
+      "**El carbón activado NO adsorbe el litio (ni el hierro, ni los alcoholes).**",
+      "La intoxicación crónica puede ser grave con litemias 'solo' moderadas: tratar la clínica, no el número.",
+      "Secuela posible: síndrome de neurotoxicidad irreversible (SILENT): ataxia cerebelosa persistente."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones y sobredosis de fármacos; recomendaciones del grupo EXTRIP sobre litio",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 2,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 2 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-hierro",
+    "nombre": "Intoxicación por hierro",
+    "sinonimos": [
+      "Sobredosis de sulfato ferroso",
+      "Intoxicación férrica"
+    ],
+    "area": "URG",
+    "resumen": "Causa clásica de intoxicación grave en **niños pequeños** (comprimidos de hierro de la madre). Toxicidad según la dosis de **hierro ELEMENTAL**: <20 mg/kg asintomático; 20-60 mg/kg digestiva; **>60 mg/kg** potencialmente grave. Fases: **digestiva** (vómitos, diarrea, hematemesis; 0-6 h) → **latente** engañosa (6-24 h) → **shock y acidosis metabólica** con fallo hepático → estenosis pilórica tardía. Tratamiento: soporte con volumen, **irrigación intestinal total** si hay comprimidos en la radiografía y **deferoxamina IV** si hay toxicidad sistémica o hierro sérico >500 µg/dL. **El carbón activado no adsorbe el hierro.**",
+    "objetivo": "Quelar el hierro libre circulante y sostener la volemia antes de que aparezcan shock y fallo hepático.",
+    "escenarios": [
+      {
+        "titulo": "Adulto con toxicidad sistémica",
+        "farmacos": [
+          {
+            "nombre": "Deferoxamina",
+            "ref": "URG-quelantes-metales",
+            "dosis": "15 mg/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta resolver la acidosis y la clínica (habitualmente ≤24 h)",
+            "nota": "Máximo ~6-8 g/día; hipotensión si se pasa rápido; orina 'vino rosado'"
+          },
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "20 mL/kg en bolo, repetir según respuesta",
+            "via": "IV",
+            "intervalo": "Según volemia",
+            "duracion": "Hasta estabilizar",
+            "nota": "Pérdidas digestivas importantes"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Deferoxamina",
+            "ref": "URG-quelantes-metales",
+            "otra_poblacion": true,
+            "dosis": "15 mg/kg/h",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "≤24 h (riesgo de SDRA si se prolonga)",
+            "nota": "Indicada con vómitos repetidos, shock, acidosis, letargia o hierro sérico >500 µg/dL"
+          },
+          {
+            "nombre": "Polietilenglicol (irrigación intestinal total)",
+            "ref": "PED-DIG-macrogol",
+            "dosis": "25 mL/kg/h (máximo 1-1,5 L/h)",
+            "via": "por sonda nasogástrica (VO si colabora)",
+            "intervalo": "Continuo",
+            "duracion": "Hasta efluente claro y radiografía sin comprimidos",
+            "nota": "Si hay comprimidos radiopacos en la radiografía"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Calcular la dosis de hierro ELEMENTAL ingerida (sulfato ferroso = 20% de hierro elemental)",
+      "Hierro sérico a las 4-6 h, gasometría, glucemia, función hepática y coagulación; radiografía de abdomen",
+      "Asintomático 6 h después de la ingesta: toxicidad grave muy improbable",
+      "Medicamentos con hierro fuera del alcance de los niños"
+    ],
+    "claves": [
+      "**Vómitos y diarrea en un niño pequeño con acceso a comprimidos de hierro: calcular mg/kg de hierro elemental.**",
+      "La mejoría a las 6-24 h puede ser una fase latente: no dar el alta precipitadamente si hubo síntomas.",
+      "Carbón activado inútil; la deferoxamina es el antídoto."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de intoxicaciones y sobredosis de fármacos; Katzung 15.ª ed., cap. de quelantes",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-intoxicacion-cocaina-anfetaminas",
+    "nombre": "Intoxicación por cocaína, anfetaminas y otros simpaticomiméticos",
+    "sinonimos": [
+      "Toxicidad por cocaína",
+      "Intoxicación por éxtasis (MDMA)",
+      "Intoxicación por metanfetamina",
+      "Síndrome simpaticomimético",
+      "Catinonas"
+    ],
+    "area": "URG",
+    "resumen": "**Síndrome simpaticomimético**: agitación, taquicardia, **hipertensión**, midriasis, **diaforesis** (a diferencia del anticolinérgico, con piel seca), **hipertermia**, convulsiones. Complicaciones: **síndrome coronario** (vasoespasmo y trombosis), disección aórtica, ictus, **rabdomiólisis**, arritmias; con cocaína además **QRS ancho** (bloqueo de sodio). **MDMA**: hiponatremia y síndrome serotoninérgico. Pilar del tratamiento: **benzodiacepinas** en dosis repetidas (controlan agitación, taquicardia, hipertensión e hipertermia), **enfriamiento** y fluidos. **Evitar betabloqueantes** en la fase aguda (alfa sin oposición). Dolor torácico: **AAS y nitratos**.",
+    "objetivo": "Controlar la agitación y la hipertermia y tratar las complicaciones cardiovasculares.",
+    "escenarios": [
+      {
+        "titulo": "Agitación, taquicardia e hipertensión",
+        "farmacos": [
+          {
+            "nombre": "Diazepam",
+            "ref": "PSQ-diazepam",
+            "dosis": "5-10 mg",
+            "via": "IV",
+            "intervalo": "Cada 5-10 min hasta la sedación",
+            "duracion": "Horas",
+            "nota": "Pueden necesitarse dosis acumuladas altas",
+            "alternativa": "lorazepam 2-4 mg IV o midazolam 5 mg IM si no hay vía"
+          },
+          {
+            "nombre": "Fentolamina (hipertensión persistente)",
+            "ref": "CAR-fentolamina",
+            "dosis": "1-5 mg",
+            "via": "IV",
+            "intervalo": "Cada 5-15 min",
+            "duracion": "Hasta controlar",
+            "nota": "Si persiste pese a benzodiacepinas"
+          }
+        ]
+      },
+      {
+        "titulo": "Dolor torácico asociado a cocaína",
+        "farmacos": [
+          {
+            "nombre": "Ácido acetilsalicílico",
+            "ref": "HEM-acido-acetilsalicilico",
+            "dosis": "160-325 mg",
+            "via": "VO (masticado)",
+            "intervalo": "Dosis única",
+            "duracion": "Puntual",
+            "nota": "Si no hay sospecha de disección o hemorragia"
+          },
+          {
+            "nombre": "Nitroglicerina",
+            "ref": "CAR-nitroglicerina",
+            "dosis": "0,4 mg (o 10-200 µg/min en perfusión)",
+            "via": "SL o IV",
+            "intervalo": "Cada 5 min (máximo 3 dosis SL)",
+            "duracion": "Hasta el control del dolor",
+            "nota": "Revierte el vasoespasmo coronario"
+          }
+        ]
+      },
+      {
+        "titulo": "QRS ancho (cocaína)",
+        "farmacos": [
+          {
+            "nombre": "Bicarbonato sódico 1 M (8,4%)",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "1-2 mEq/kg en bolo",
+            "via": "IV",
+            "intervalo": "Repetir hasta estrechar el QRS",
+            "duracion": "Puntual",
+            "nota": "Como en los tricíclicos"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Enfriamiento agresivo si la temperatura supera 40 °C; evitar la sujeción física",
+      "ECG, troponina, CK, función renal, sodio (MDMA) y glucemia",
+      "Body packers: radiografía o TC abdominal; cirugía si hay rotura o obstrucción",
+      "Evitar betabloqueantes en la fase aguda; si hacen falta, preferir labetalol o carvedilol tras la sedación"
+    ],
+    "claves": [
+      "**Benzodiacepinas primero: tratan la agitación, la taquicardia y la hipertensión a la vez.**",
+      "Dolor torácico en un joven tras cocaína: ECG y troponina (infarto aunque sea joven).",
+      "Diaforesis + midriasis = simpaticomimético; piel seca + midriasis = anticolinérgico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de cocaína y otros estimulantes y de intoxicaciones; guías AHA sobre dolor torácico asociado a cocaína",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-mordedura-serpiente",
+    "nombre": "Mordedura de serpiente (ofidismo)",
+    "sinonimos": [
+      "Ofidismo",
+      "Envenenamiento ofídico",
+      "Mordedura de víbora",
+      "Mordedura de cobra"
+    ],
+    "area": "URG",
+    "resumen": "Dos grandes síndromes: **vipéridos** (víboras, crótalos, Bothrops): **dolor y edema local progresivo**, necrosis, **coagulopatía** (sangrado, fibrinógeno bajo, tiempo de coagulación en tubo de 20 min alargado), shock, fracaso renal; **elápidos** (cobras, mambas, corales, kraits): **neurotoxicidad** con ptosis, diplopía, disfagia y **parálisis respiratoria**, a veces con poca lesión local. Hasta un 20-50% son **mordeduras secas**. Tratamiento: **inmovilizar**, trasladar, **antiveneno** específico de la región si hay envenenamiento sistémico o local progresivo, soporte (ventilación), analgesia y profilaxis antitetánica. **No** torniquete, incisión, succión ni hielo.",
+    "objetivo": "Neutralizar el veneno con el antiveneno adecuado a tiempo y sostener las funciones vitales.",
+    "escenarios": [
+      {
+        "titulo": "Envenenamiento sistémico o local progresivo",
+        "farmacos": [
+          {
+            "nombre": "Antiveneno ofídico regional",
+            "ref": "INM-antiveneno-ofidico",
+            "dosis": "Viales según el producto (p. ej., 4-6 viales iniciales de Fab de crotálidos)",
+            "via": "IV",
+            "intervalo": "Repetir a 1-2 h si persiste la coagulopatía o la progresión",
+            "duracion": "Hasta estabilizar",
+            "nota": "Misma dosis en niños; adrenalina preparada"
+          },
+          {
+            "nombre": "Adrenalina (anafilaxia al antiveneno)",
+            "ref": "URG-adrenalina",
+            "dosis": "0,5 mg (0,01 mg/kg en niños)",
+            "via": "IM",
+            "intervalo": "Repetir cada 5-15 min si es necesario",
+            "duracion": "Puntual",
+            "nota": "Detener la infusión del antiveneno y reanudarla más lenta al controlar"
+          }
+        ]
+      },
+      {
+        "titulo": "Analgesia y profilaxis",
+        "farmacos": [
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO o IV",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Mientras haya dolor",
+            "nota": "Evitar AINE (coagulopatía)"
+          },
+          {
+            "nombre": "Morfina",
+            "ref": "REU-morfina",
+            "dosis": "2-5 mg",
+            "via": "IV",
+            "intervalo": "Cada 5-10 min hasta controlar",
+            "duracion": "Mientras haya dolor intenso",
+            "nota": "Precaución si hay neurotoxicidad (depresión respiratoria)"
+          },
+          {
+            "nombre": "Vacuna antitetánica (Td)",
+            "ref": "INF-vacuna-td-dtpa",
+            "dosis": "0,5 mL",
+            "via": "IM",
+            "intervalo": "Dosis única si no está al día",
+            "duracion": "Puntual",
+            "nota": "Retrasar hasta corregir la coagulopatía"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Inmovilizar el miembro a la altura del corazón, retirar anillos, traslado urgente; vendaje compresivo-inmovilizador solo en elápidos neurotóxicos",
+      "NO torniquete, incisión, succión, hielo ni electricidad",
+      "Observación mínima 12-24 h aunque parezca una mordedura seca; tiempo de coagulación en tubo de 20 min, hemograma, fibrinógeno, CK, función renal",
+      "Antibiótico solo si hay infección establecida; fasciotomía solo con presión compartimental medida elevada"
+    ],
+    "claves": [
+      "**Sangre que no coagula en un tubo seco a los 20 minutos = coagulopatía por veneno: antiveneno.**",
+      "Ptosis y diplopía tras una mordedura: neurotoxicidad, riesgo de parada respiratoria.",
+      "El antiveneno debe ser el de la región y familia de la serpiente: consultar con el centro de toxicología."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de mordeduras de serpiente venenosa; guías de la OMS para el manejo de las mordeduras de serpiente",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-picadura-escorpion",
+    "nombre": "Picadura de escorpión (escorpionismo)",
+    "sinonimos": [
+      "Escorpionismo",
+      "Picadura de alacrán",
+      "Alacranismo"
+    ],
+    "area": "URG",
+    "resumen": "La mayoría producen solo **dolor local intenso** y parestesias (grado I). Las especies **neurotóxicas** (Centruroides en América; Androctonus, Leiurus y Mesobuthus en África, Oriente Medio e India; Tityus en Sudamérica) causan **tormenta autonómica**: sialorrea, sudoración, vómitos, priapismo, **hipertensión, arritmias, edema pulmonar y shock** (grado II-III), o **neurotoxicidad** con movimientos oculares erráticos, fasciculaciones y agitación (Centruroides). **Niños pequeños**: los más graves. Tratamiento: analgesia (con **anestésico local** en el punto), observación, **prazosina** en la tormenta adrenérgica y **antiveneno** en el grado III.",
+    "objetivo": "Controlar el dolor y detectar y tratar pronto la tormenta autonómica y la neurotoxicidad, sobre todo en niños.",
+    "escenarios": [
+      {
+        "titulo": "Grado I (solo local)",
+        "farmacos": [
+          {
+            "nombre": "Lidocaína al 1-2% (infiltración local)",
+            "ref": "ANE-lidocaina",
+            "dosis": "2-5 mL al 1-2%",
+            "via": "SC (infiltración local)",
+            "intervalo": "Dosis única; repetir si reaparece el dolor",
+            "duracion": "Puntual",
+            "nota": "Alivio inmediato del dolor"
+          },
+          {
+            "nombre": "Paracetamol",
+            "ref": "REU-paracetamol",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "24-48 h",
+            "nota": "Con frío local"
+          }
+        ]
+      },
+      {
+        "titulo": "Grado II-III (sistémico)",
+        "farmacos": [
+          {
+            "nombre": "Prazosina (tormenta adrenérgica)",
+            "ref": "CAR-prazosina",
+            "dosis": "1 mg",
+            "via": "VO o por sonda",
+            "intervalo": "Cada 3-6 h hasta la mejoría",
+            "duracion": "Horas-días",
+            "nota": "Mesobuthus, Androctonus, Tityus; vigilar hipotensión"
+          },
+          {
+            "nombre": "Antiveneno de escorpión",
+            "ref": "INM-antiveneno-escorpion",
+            "dosis": "1-3 viales según el producto",
+            "via": "IV",
+            "intervalo": "Repetir a los 30-60 min si persisten los signos",
+            "duracion": "Puntual",
+            "nota": "Grado III o neurotoxicidad (Centruroides)"
+          },
+          {
+            "nombre": "Midazolam (agitación y movimientos involuntarios)",
+            "ref": "PSQ-midazolam",
+            "dosis": "1-2 mg (0,05-0,1 mg/kg en niños)",
+            "via": "IV",
+            "intervalo": "Repetir a demanda",
+            "duracion": "Horas",
+            "nota": "Vigilar depresión respiratoria"
+          }
+        ]
+      },
+      {
+        "titulo": "Niño con envenenamiento sistémico",
+        "poblacion": "Pediatría",
+        "farmacos": [
+          {
+            "nombre": "Prazosina",
+            "ref": "CAR-prazosina",
+            "otra_poblacion": true,
+            "dosis": "30 µg/kg",
+            "via": "VO o por sonda",
+            "intervalo": "Cada 3-6 h",
+            "duracion": "Hasta la mejoría",
+            "nota": "Primera línea en la tormenta adrenérgica"
+          },
+          {
+            "nombre": "Antiveneno de escorpión",
+            "ref": "INM-antiveneno-escorpion",
+            "otra_poblacion": true,
+            "dosis": "1-3 viales (misma dosis que el adulto)",
+            "via": "IV",
+            "intervalo": "Repetir si persisten los signos",
+            "duracion": "Puntual",
+            "nota": "Ingreso en cuidados intensivos pediátricos"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Limpieza, frío local, inmovilización y observación 4-6 h (más en niños <6 años)",
+      "Grado II-III: monitorización, ECG, troponina, radiografía de tórax (edema pulmonar)",
+      "Profilaxis antitetánica si no está al día",
+      "Sacudir zapatos y ropa en zonas endémicas"
+    ],
+    "claves": [
+      "**Sialorrea, sudoración y vómitos tras una picadura de escorpión: tormenta autonómica, no reacción local.**",
+      "En niños pequeños, la gravedad puede progresar en pocas horas: observarlos siempre.",
+      "No usar opioides ni antihistamínicos de forma sistemática."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de picaduras y mordeduras de artrópodos; revisiones internacionales sobre escorpionismo",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 7 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]

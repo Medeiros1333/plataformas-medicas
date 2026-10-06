@@ -1,9 +1,9 @@
 # RETOMADA — dónde seguir en la próxima sesión
 
-**Estado (2026-10-06):** 643 fármacos de adulto, 43 pediátricos, 86 patógenos, **212 patologías** (1.261 pautas revisadas), vista Calculadoras, plataforma sin país. Validador 0 errores / 0 avisos. Todo publicado en GitHub (`Farmaco/hub/`).
+**Estado (2026-10-06):** 675 fármacos de adulto, 43 pediátricos, 86 patógenos, **255 patologías** (1.479 pautas revisadas), vista Calculadoras, plataforma sin país. Validador 0 errores / 0 avisos. Todo publicado en GitHub (`Farmaco/hub/`). **Bloque F completo** (~95% del catálogo amplio).
 
 ## Siguiente tarea
-**Bloque F de [PLAN_MEJORAS.md](PLAN_MEJORAS.md)**: ~40-60 patologías del catálogo amplio, por lotes F1-F6 (piel, toxicología, electrolitos, embarazo, endocrino-urología, otros). El usuario pidió continuarlo.
+Ninguna obligatoria: el plan de mejoras (A-F) está completo. Opciones si el usuario quiere seguir: (1) los ~15 cuadros restantes del catálogo amplio (p. ej. miastenia gravis, esclerosis múltiple, sarcoidosis, vasculitis sistémicas, esclerodermia, síndrome de Sjögren, porfiria); (2) ampliar las interacciones de las fichas antiguas para el verificador; (3) modo examen en el Hub. Ver «Qué queda por hacer» en PROGRESO.md.
 
 ## Cómo trabajar (resumen)
 1. Leer `PROGRESO.md`, `PLAN_MEJORAS.md` y el playbook (`00_Metodologia/`); copiar la `clase` de un hermano existente antes de crear fichas.

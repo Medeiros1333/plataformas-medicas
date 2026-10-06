@@ -16,6 +16,10 @@ El cotejo automático es solo un indicio. Lo que valida cada pauta es la revisi�
 
 Las **295 pautas** de las 58 patologías nuevas se cotejaron con el mismo método: 248 aparecen literalmente en Harrison o Katzung y 47 se contrastaron con las guías internacionales citadas en cada patología. Todas se revisaron línea a línea y **no se encontraron discrepancias**.
 
+## Bloque F (2026-10-06)
+
+Las **218 pautas** de las 43 patologías del catálogo amplio se cotejaron con el mismo método: **174** aparecen literalmente en Harrison o Katzung, 35 con el fármaco sin la cifra cerca y 9 sin el fármaco (tópicos, fármacos recientes como elafibranor, seladelpar o tirbanibulina, y combinaciones). Todas se revisaron línea a línea; las 44 no cotejadas, frente a las guías citadas en cada patología (EASL, EAU, MASCC/ESMO, NIH/EACS, EAACI, EPOS, OMS) y las fichas técnicas de la EMA y la FDA. Resultado: **3 correcciones** (tabla).
+
 ## Correcciones
 
 | Patología | Pauta | Antes | Después | Motivo |
@@ -24,6 +28,9 @@ Las **295 pautas** de las 58 patologías nuevas se cotejaron con el mismo métod
 | Neumonía adquirida en la comunidad (ingreso) | Levofloxacino | 500 mg cada 12 h el 1.er día, después cada 24 h | **750 mg cada 24 h** (o 500 mg cada 12 h el 1.er día) | Pauta de alta dosis estándar. |
 | Asma crónica | Fluticasona/salmeterol | 50/250 µg | **250/50 µg** de fluticasona/salmeterol | Orden invertido. |
 | Todas (cistitis del varón, celulitis, prostatitis…) | Cotrimoxazol | 800/160 mg en unas filas, 160/800 mg en otras | **160/800 mg** (trimetoprim/sulfametoxazol) | Notación unificada con el nombre del fármaco. |
+| Molusco contagioso | Cantaridina 0,7% | Lavar a las 2-6 h | **Lavar a las 24 h** (2-6 h en la primera sesión) | Tiempo de contacto de la ficha técnica aprobada. |
+| Distonía aguda (niño) | Biperideno | 0,04-0,1 mg/kg | **0,04 mg/kg** (máximo 2-5 mg) | Dosis pediátrica de referencia. |
+| Hipernatremia | Déficit de agua | Factor 0,5 para todos | **0,5 (mujeres y ancianos) o 0,6 (varones jóvenes)** | Agua corporal total según sexo y edad. |
 
 ## Mantenimiento
 

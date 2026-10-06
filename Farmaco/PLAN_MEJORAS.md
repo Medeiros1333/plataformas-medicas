@@ -59,12 +59,13 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | 2026-10-05 | B: 966 pautas revisadas (791 cotejadas en Harrison/Katzung, todas revisadas clínicamente), 4 correcciones, campo `revision` en las 154 patologías y aviso del validador si falta (REVISION_DOSIS.md) | ✅ |
 | 2026-10-05 | E: pipeline 0 errores/0 avisos, prueba headless, PROGRESO, PROCESO_Y_APRENDIZAJE (#38-40), README y playbook actualizados; publicado | ✅ |
 | 2026-10-06 | Cierre de lagunas: 58 patologías y 19 fichas; cobertura 213/213 de la lista de referencia (hallazgo #41) | ✅ |
+| 2026-10-06 | F1-F6: 43 patologías, 32 fichas, 5 clases nuevas; 218 pautas revisadas (174 cotejadas literalmente), 3 correcciones; validador 0/0; publicado (hallazgo #42) | ✅ |
 
 ---
 
-## F. Ampliación al catálogo amplio (~280 cuadros) — ⬜ PENDIENTE (próxima sesión)
+## F. Ampliación al catálogo amplio (~280 cuadros) — ✅ COMPLETO (2026-10-06)
 
-Cobertura actual estimada: 100% de la lista de referencia de 213 cuadros; ~97% ponderada por frecuencia; **~80% del catálogo amplio**. Objetivo del bloque F: ~95% del catálogo amplio con ~40-60 patologías nuevas.
+Cobertura antes del bloque: 100% de la lista de referencia de 213 cuadros; ~97% ponderada por frecuencia; ~80% del catálogo amplio. **Resultado: 43 patologías nuevas (los 43 cuadros de la tabla), 32 fichas, ~95% del catálogo amplio.**
 
 | Lote | Patologías pendientes | Fichas que probablemente exijan |
 |---|---|---|

@@ -1,0 +1,617 @@
+[
+  {
+    "id": "PAT-prediabetes",
+    "nombre": "Prediabetes",
+    "sinonimos": [
+      "Glucemia basal alterada",
+      "Intolerancia a la glucosa",
+      "Hiperglucemia intermedia"
+    ],
+    "area": "END",
+    "resumen": "**Glucemia en ayunas 100-125 mg/dL**, **HbA1c 5,7-6,4%** o glucemia a las 2 h de la sobrecarga 140-199 mg/dL (los umbrales de la OMS difieren algo: ayunas 110-125, HbA1c 6,0-6,4%). Riesgo de diabetes tipo 2 de **5-10% anual** y aumento del riesgo cardiovascular. El tratamiento de mayor eficacia es el **estilo de vida**: perder **≥7% del peso** y **150 min/semana** de actividad física reduce la progresión un **58%**. **Metformina** (reduce un 31%) en los de mayor riesgo: IMC ≥35, <60 años, diabetes gestacional previa o progresión de la glucemia. Controlar a la vez la presión, los lípidos y el tabaco.",
+    "objetivo": "Retrasar o evitar la diabetes tipo 2 y reducir el riesgo cardiovascular.",
+    "escenarios": [
+      {
+        "titulo": "Alto riesgo de progresión",
+        "farmacos": [
+          {
+            "nombre": "Metformina",
+            "ref": "END-metformina",
+            "dosis": "500 mg → 850 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h con las comidas",
+            "duracion": "Indefinida mientras se tolere",
+            "nota": "Vigilar vitamina B12 en uso prolongado"
+          }
+        ]
+      },
+      {
+        "titulo": "Prediabetes con obesidad (IMC ≥30, o ≥27 con comorbilidad)",
+        "farmacos": [
+          {
+            "nombre": "Semaglutida",
+            "ref": "END-semaglutida",
+            "dosis": "0,25 mg → 2,4 mg",
+            "via": "SC",
+            "intervalo": "Una vez por semana (subir cada 4 semanas)",
+            "duracion": "Crónica",
+            "nota": "Normaliza la glucemia en la mayoría; el peso se recupera al suspender"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Programa estructurado de estilo de vida: pérdida de ≥7% del peso, 150 min/semana de ejercicio, dieta mediterránea",
+      "HbA1c o glucemia en ayunas cada año",
+      "Cribado y control de hipertensión, dislipemia y tabaco",
+      "Valorar cirugía bariátrica en obesidad grave"
+    ],
+    "claves": [
+      "**El estilo de vida previene más diabetes que la metformina (58% frente a 31%).**",
+      "La prediabetes ya es un factor de riesgo cardiovascular: tratar la presión y los lípidos.",
+      "Antecedente de diabetes gestacional: cribado de por vida."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de diabetes mellitus: diagnóstico y prevención; estándares de la ADA y criterios de la OMS",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 2,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 2 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-tiroiditis-subaguda",
+    "nombre": "Tiroiditis subaguda (de De Quervain)",
+    "sinonimos": [
+      "Tiroiditis granulomatosa",
+      "Tiroiditis de De Quervain",
+      "Tiroiditis dolorosa",
+      "Tiroiditis posvírica"
+    ],
+    "area": "END",
+    "resumen": "Tras una infección vírica de vías altas: **dolor cervical anterior** que irradia a mandíbula u oído, **tiroides doloroso a la palpación**, fiebre, **VSG/PCR muy elevadas** y **tirotoxicosis** con **captación de yodo/tecnecio casi nula** (es destructiva: los antitiroideos NO sirven). Evolución trifásica: **hipertiroidismo** (2-8 semanas) → **hipotiroidismo** transitorio → recuperación (hipotiroidismo permanente en 5-15%). Tratamiento: **AINE** en la leve; **prednisona** si el dolor es intenso o no cede; **betabloqueante** para la tirotoxicosis; levotiroxina solo si el hipotiroidismo es sintomático.",
+    "objetivo": "Controlar el dolor y los síntomas adrenérgicos hasta la resolución espontánea.",
+    "escenarios": [
+      {
+        "titulo": "Dolor leve-moderado",
+        "farmacos": [
+          {
+            "nombre": "Ibuprofeno",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-800 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Hasta ceder el dolor (2-4 semanas)",
+            "nota": "Con protector gástrico si hay riesgo",
+            "alternativa": "naproxeno 500 mg cada 12 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Dolor intenso o sin respuesta a AINE",
+        "farmacos": [
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "1-2 semanas y descenso en 4-6 semanas",
+            "nota": "Mejoría espectacular en 24-48 h (ayuda al diagnóstico); recaídas al bajar rápido"
+          }
+        ]
+      },
+      {
+        "titulo": "Fase tirotóxica sintomática",
+        "farmacos": [
+          {
+            "nombre": "Propranolol",
+            "ref": "CAR-propranolol",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Hasta normalizar la T4 libre",
+            "nota": "No usar tionamidas (no hay hiperproducción)",
+            "alternativa": "atenolol 25-50 mg cada 24 h si hay asma leve"
+          }
+        ]
+      },
+      {
+        "titulo": "Fase hipotiroidea sintomática",
+        "farmacos": [
+          {
+            "nombre": "Levotiroxina",
+            "ref": "END-levotiroxina",
+            "dosis": "25-50 µg",
+            "via": "VO",
+            "intervalo": "Cada 24 h en ayunas",
+            "duracion": "6-12 semanas; retirar y comprobar TSH",
+            "nota": "Solo si hay síntomas o TSH >10 mUI/L"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "TSH, T4 libre, VSG/PCR; ecografía (áreas hipoecoicas mal definidas) o gammagrafía (captación baja) si hay duda",
+      "TSH cada 4-6 semanas hasta la normalización y a los 6-12 meses",
+      "Diagnóstico diferencial: hemorragia en un nódulo, tiroiditis aguda supurada (fiebre alta, absceso), Graves"
+    ],
+    "claves": [
+      "**Dolor cervical + tirotoxicosis + VSG alta + captación baja = tiroiditis subaguda.**",
+      "Los antitiroideos no sirven: la tirotoxicosis es por destrucción.",
+      "Respuesta rápida a la prednisona: si no hay mejoría en 72 h, replantear el diagnóstico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de tiroiditis; guías de la ATA sobre hipertiroidismo y otras causas de tirotoxicosis",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-hipogonadismo-masculino",
+    "nombre": "Hipogonadismo masculino (déficit de testosterona)",
+    "sinonimos": [
+      "Déficit de testosterona",
+      "Andropausia",
+      "Hipogonadismo de inicio tardío",
+      "Síndrome de Klinefelter"
+    ],
+    "area": "END",
+    "resumen": "Diagnóstico con **síntomas** (libido baja, disfunción eréctil, falta de erecciones matutinas, astenia, pérdida de masa muscular, osteoporosis, ginecomastia) **y** testosterona total **baja en dos determinaciones matinales** en ayunas (<300-350 ng/dL; libre si la SHBG está alterada). **LH/FSH** distinguen **primario** (testicular: Klinefelter, orquitis, quimioterapia; LH alta) de **secundario** (hipofisario-hipotalámico: prolactinoma, opioides, obesidad, diabetes, glucocorticoides; LH normal o baja → prolactina, ferritina y RM si testosterona <150 ng/dL). Tratamiento: corregir la causa (perder peso, retirar opioides) y **testosterona** si persiste; **contraindicada si se desea fertilidad**.",
+    "objetivo": "Mejorar los síntomas, la masa ósea y muscular con testosterona en rango medio-normal y sin eritrocitosis.",
+    "escenarios": [
+      {
+        "titulo": "Hipogonadismo confirmado sin deseo de fertilidad",
+        "farmacos": [
+          {
+            "nombre": "Testosterona en gel",
+            "ref": "END-testosterona-gel",
+            "dosis": "50 mg (40-100 mg)",
+            "via": "transdérmica",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Crónica; reevaluar beneficio a los 6-12 meses",
+            "nota": "Niveles estables; riesgo de transferencia por contacto"
+          },
+          {
+            "nombre": "Undecanoato de testosterona",
+            "ref": "END-testosterona-undecanoato",
+            "dosis": "1000 mg",
+            "via": "IM",
+            "intervalo": "Semana 0 y 6; después cada 10-14 semanas",
+            "duracion": "Crónica",
+            "nota": "Alternativa cómoda; observar 30 min tras la inyección"
+          },
+          {
+            "nombre": "Enantato o cipionato de testosterona",
+            "ref": "END-testosterona-enantato",
+            "dosis": "100-200 mg",
+            "via": "IM",
+            "intervalo": "Cada 1-3 semanas",
+            "duracion": "Crónica",
+            "nota": "Alternativa barata; más picos y eritrocitosis"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Pérdida de peso, ejercicio, sueño y control de la diabetes (elevan la testosterona en el hipogonadismo funcional)",
+      "Retirar opioides o glucocorticoides si es posible",
+      "Antes de empezar: hematocrito, PSA (>40 años) y tacto rectal, valorar apnea del sueño",
+      "Deseo de fertilidad: derivar (gonadotropinas, citrato de clomifeno) en vez de testosterona"
+    ],
+    "claves": [
+      "**Dos testosteronas matinales bajas y síntomas: sin las dos cosas no hay diagnóstico.**",
+      "La testosterona exógena causa infertilidad: preguntar siempre por el deseo de tener hijos.",
+      "Hematocrito >54% con el tratamiento: suspender o reducir."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos de los testículos y del aparato reproductor masculino; guías de la Endocrine Society 2018 y la EAU 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 3 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-prevencion-litiasis-renal",
+    "nombre": "Prevención de la litiasis renal recurrente",
+    "sinonimos": [
+      "Litiasis recurrente",
+      "Metafilaxis de la urolitiasis",
+      "Cálculos renales recurrentes",
+      "Hipercalciuria",
+      "Hiperuricosuria"
+    ],
+    "area": "NFR",
+    "resumen": "La mitad de los pacientes repite en 5-10 años. Para todos: **beber hasta orinar >2-2,5 L/día**, dieta con **calcio normal** (1000-1200 mg/día; restringirlo AUMENTA los cálculos de oxalato), **poca sal** (<5 g) y poca proteína animal. En recurrentes o de alto riesgo: **análisis del cálculo** y **orina de 24 h** (calcio, oxalato, citrato, ácido úrico, volumen). Según la alteración: **tiazida** (hipercalciuria), **citrato potásico** (hipocitraturia y litiasis úrica), **alopurinol** (hiperuricosuria con litiasis cálcica, o úrica que recidiva pese a la alcalinización).",
+    "objetivo": "Reducir la recurrencia de cálculos corrigiendo la alteración metabólica de cada paciente.",
+    "escenarios": [
+      {
+        "titulo": "Litiasis cálcica con hipercalciuria",
+        "farmacos": [
+          {
+            "nombre": "Hidroclorotiazida",
+            "ref": "NFR-hidroclorotiazida",
+            "dosis": "25 mg",
+            "via": "VO",
+            "intervalo": "Cada 12-24 h",
+            "duracion": "Crónica",
+            "nota": "Con dieta pobre en sal; vigilar potasio (añadir citrato potásico)",
+            "alternativa": "clortalidona 25 mg o indapamida 2,5 mg cada 24 h"
+          }
+        ]
+      },
+      {
+        "titulo": "Hipocitraturia o litiasis de ácido úrico",
+        "farmacos": [
+          {
+            "nombre": "Citrato potásico",
+            "ref": "NFR-citrato-potasico",
+            "dosis": "30-60 mEq/día",
+            "via": "VO",
+            "intervalo": "Repartido en 2-3 tomas con las comidas",
+            "duracion": "Crónica",
+            "nota": "Ácido úrico: objetivo pH urinario 6-6,5 (disuelve cálculos úricos)"
+          }
+        ]
+      },
+      {
+        "titulo": "Hiperuricosuria",
+        "farmacos": [
+          {
+            "nombre": "Alopurinol",
+            "ref": "REU-alopurinol",
+            "dosis": "100-300 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Ajustar a la función renal; HLA-B*58:01 en poblaciones de riesgo"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Agua hasta diuresis >2-2,5 L/día (orina clara); repartida a lo largo del día y la noche",
+      "Calcio de la dieta normal, sal <5 g/día, proteína animal moderada, frutas y verduras",
+      "Litiasis de oxalato: limitar espinacas, cacao, frutos secos y suplementos de vitamina C a dosis altas",
+      "Estudio metabólico (orina de 24 h y análisis del cálculo) en recurrentes, niños, monorrenos o cálculos no cálcicos; descartar hiperparatiroidismo"
+    ],
+    "claves": [
+      "**No restringir el calcio de la dieta: aumenta el oxalato urinario y los cálculos.**",
+      "El agua es el tratamiento más eficaz y barato.",
+      "Cálculos de estruvita (coraliformes): infección por gérmenes ureolíticos; precisan eliminación completa."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de nefrolitiasis; guías EAU de urolitiasis 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-itu-recurrente-profilaxis",
+    "nombre": "Infección urinaria recurrente en la mujer: profilaxis",
+    "sinonimos": [
+      "Cistitis recurrente",
+      "ITU recurrente",
+      "Profilaxis antibiótica urinaria"
+    ],
+    "area": "INF",
+    "resumen": "**≥2 infecciones en 6 meses o ≥3 en un año**, confirmadas con urocultivo. Descartar factores corregibles (residuo posmiccional, litiasis, malformación) solo si hay datos atípicos (varones, hematuria persistente, Proteus, pielonefritis recurrente). Escalera: **medidas generales** → **estrógeno vaginal** en la posmenopáusica → **metenamina** o **profilaxis antibiótica** (continua a dosis bajas nocturnas o **poscoital** si se relacionan con el coito) durante 6-12 meses → **autotratamiento** iniciado por la paciente. Otras opciones: arándano (evidencia modesta), D-manosa, vacuna bacteriana sublingual. **Bacteriuria asintomática: no tratar** (salvo embarazo o cirugía urológica).",
+    "objetivo": "Reducir el número de infecciones con la menor presión antibiótica posible.",
+    "escenarios": [
+      {
+        "titulo": "Sin antibiótico",
+        "farmacos": [
+          {
+            "nombre": "Estrógeno vaginal (posmenopáusica)",
+            "ref": "GIN-estradiol",
+            "dosis": "10 µg de estradiol (comprimido vaginal) o 0,5 mg de estriol en crema",
+            "via": "vaginal",
+            "intervalo": "Cada 24 h 2 semanas; después 2 veces por semana",
+            "duracion": "Continuo",
+            "nota": "Primera línea en la posmenopausia; no necesita gestágeno"
+          },
+          {
+            "nombre": "Hipurato de metenamina",
+            "ref": "INF-metenamina",
+            "dosis": "1 g",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "6-12 meses",
+            "nota": "Tan eficaz como la profilaxis antibiótica; no genera resistencias"
+          }
+        ]
+      },
+      {
+        "titulo": "Profilaxis antibiótica continua (6-12 meses)",
+        "farmacos": [
+          {
+            "nombre": "Nitrofurantoína",
+            "ref": "INF-nitrofurantoina",
+            "dosis": "50-100 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse",
+            "duracion": "6-12 meses",
+            "nota": "Vigilar toxicidad pulmonar y hepática en uso prolongado; evitar si FG <45 mL/min"
+          },
+          {
+            "nombre": "Fosfomicina trometamol",
+            "ref": "INF-fosfomicina",
+            "dosis": "3 g",
+            "via": "VO",
+            "intervalo": "Cada 10 días",
+            "duracion": "6-12 meses",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Cotrimoxazol",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "40/200 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse (o 3 veces por semana)",
+            "duracion": "6-12 meses",
+            "nota": "Alternativa si la resistencia local es baja"
+          },
+          {
+            "nombre": "Cefalexina",
+            "ref": "INF-cefalexina",
+            "dosis": "125-250 mg",
+            "via": "VO",
+            "intervalo": "Al acostarse",
+            "duracion": "6-12 meses",
+            "nota": "Alternativa (también en el embarazo)"
+          }
+        ]
+      },
+      {
+        "titulo": "Infecciones relacionadas con el coito",
+        "farmacos": [
+          {
+            "nombre": "Nitrofurantoína poscoital",
+            "ref": "INF-nitrofurantoina",
+            "dosis": "50-100 mg",
+            "via": "VO",
+            "intervalo": "Dosis única tras el coito (máximo 1 al día)",
+            "duracion": "6-12 meses",
+            "nota": "Alternativa: cotrimoxazol 40/200 mg o cefalexina 250 mg tras el coito"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Ingesta de líquidos de 1,5-2 L/día más de lo habitual (reduce un 50% los episodios)",
+      "Micción poscoital; evitar espermicidas y diafragma",
+      "Urocultivo en cada episodio para guiar el tratamiento; autotratamiento con urocultivo previo en pacientes seleccionadas",
+      "Cistoscopia o ecografía solo con factores de riesgo (hematuria, varón, pielonefritis recurrente, Proteus)"
+    ],
+    "claves": [
+      "**Mujer posmenopáusica con cistitis recurrente: estrógeno vaginal antes que antibiótico.**",
+      "La bacteriuria asintomática no se trata ni se busca (salvo embarazo y cirugía urológica).",
+      "Metenamina: profilaxis eficaz sin antibiótico."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias; guías EAU de infecciones urológicas 2024",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 7 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-eyaculacion-precoz",
+    "nombre": "Eyaculación precoz",
+    "sinonimos": [
+      "Eyaculación prematura",
+      "Eyaculación rápida"
+    ],
+    "area": "NFR",
+    "resumen": "Eyaculación que ocurre **siempre o casi siempre antes de ~1 minuto** de la penetración (primaria, de por vida) o con reducción notable y molesta del tiempo (adquirida, a menudo secundaria a **disfunción eréctil**, prostatitis o hipertiroidismo), con **falta de control** y **malestar** personal o de pareja. Es la disfunción sexual masculina más frecuente. Tratamiento: **terapia conductual** (parar-empezar, compresión) y psicoeducación de la pareja; **dapoxetina** a demanda, **ISRS diario** (paroxetina, sertralina) o **anestésico tópico** (lidocaína-prilocaína en aerosol). Si hay disfunción eréctil asociada, **tratarla primero** con un inhibidor de la PDE5.",
+    "objetivo": "Prolongar el tiempo hasta la eyaculación y mejorar el control y la satisfacción sexual.",
+    "escenarios": [
+      {
+        "titulo": "A demanda",
+        "farmacos": [
+          {
+            "nombre": "Dapoxetina",
+            "ref": "PSQ-dapoxetina",
+            "dosis": "30 mg (60 mg si no basta)",
+            "via": "VO",
+            "intervalo": "1-3 h antes del coito (máximo 1 al día)",
+            "duracion": "A demanda",
+            "nota": "Riesgo de síncope; no con otros serotoninérgicos ni cardiopatía"
+          },
+          {
+            "nombre": "Lidocaína-prilocaína en aerosol",
+            "ref": "ANE-lidocaina-prilocaina",
+            "dosis": "3 pulverizaciones sobre el glande",
+            "via": "tópica",
+            "intervalo": "5 min antes del coito",
+            "duracion": "A demanda",
+            "nota": "Hipoestesia del pene o de la pareja (retirar el exceso)"
+          }
+        ]
+      },
+      {
+        "titulo": "Tratamiento diario",
+        "farmacos": [
+          {
+            "nombre": "Paroxetina",
+            "ref": "PSQ-paroxetina",
+            "dosis": "10 mg → 20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica (efecto a las 1-2 semanas)",
+            "nota": "El ISRS con más efecto; disminución de la libido; retirada gradual"
+          },
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50-200 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          }
+        ]
+      },
+      {
+        "titulo": "Con disfunción eréctil asociada",
+        "farmacos": [
+          {
+            "nombre": "Tadalafilo",
+            "ref": "NFR-tadalafilo",
+            "dosis": "5 mg (diario) o 10-20 mg (a demanda)",
+            "via": "VO",
+            "intervalo": "Cada 24 h o antes del coito",
+            "duracion": "Crónica o a demanda",
+            "nota": "Tratar primero la disfunción eréctil; no con nitratos"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Psicoeducación y terapia sexual conductual (técnica de parar-empezar y de compresión), idealmente con la pareja",
+      "Preservativo (reduce la sensibilidad)",
+      "En la adquirida: buscar disfunción eréctil, prostatitis, hipertiroidismo y ansiedad"
+    ],
+    "claves": [
+      "**Si hay disfunción eréctil, tratarla primero: la eyaculación precoz puede ser secundaria.**",
+      "La dapoxetina es el único ISRS a demanda; los demás requieren toma diaria.",
+      "Retirar los ISRS de forma gradual (síndrome de discontinuación)."
+    ],
+    "fuente": "Guías EAU de salud sexual y reproductiva masculina 2024; Katzung 15.ª ed., cap. de antidepresivos",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 5 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  },
+  {
+    "id": "PAT-sindrome-premenstrual",
+    "nombre": "Síndrome premenstrual y trastorno disfórico premenstrual",
+    "sinonimos": [
+      "SPM",
+      "TDPM",
+      "Trastorno disfórico premenstrual",
+      "Tensión premenstrual"
+    ],
+    "area": "GIN",
+    "resumen": "Síntomas **físicos** (mastalgia, hinchazón, cefalea) y **emocionales** (irritabilidad, ansiedad, ánimo bajo, labilidad) que aparecen en la **fase lútea** y **desaparecen en los primeros días de la menstruación**, con un intervalo libre en la fase folicular, durante **≥2 ciclos registrados prospectivamente** en un diario. **TDPM**: forma grave con predominio emocional e impacto funcional. Tratamiento: estilo de vida y ejercicio en el leve; **ISRS** (continuo o **solo en fase lútea**: actúan en días) son de primera línea en el moderado-grave; **anticonceptivo con drospirenona en pauta 24/4 o continua**; calcio. Análogos de GnRH en casos refractarios.",
+    "objetivo": "Reducir los síntomas premenstruales y su impacto en la vida diaria.",
+    "escenarios": [
+      {
+        "titulo": "Moderado-grave o trastorno disfórico premenstrual",
+        "farmacos": [
+          {
+            "nombre": "Fluoxetina",
+            "ref": "PSQ-fluoxetina",
+            "dosis": "20 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h (continuo o solo desde la ovulación hasta la menstruación)",
+            "duracion": "≥3 ciclos y reevaluar",
+            "nota": "Respuesta en el primer ciclo (a diferencia de la depresión)"
+          },
+          {
+            "nombre": "Sertralina",
+            "ref": "PSQ-sertralina",
+            "dosis": "50-150 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h (continuo o fase lútea)",
+            "duracion": "≥3 ciclos y reevaluar",
+            "nota": "Alternativa",
+            "alternativa": "escitalopram 10-20 mg"
+          },
+          {
+            "nombre": "Etinilestradiol/drospirenona (24/4 o continuo)",
+            "ref": "GIN-etinilestradiol-drospirenona",
+            "dosis": "20 µg/3 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h (24 activos + 4 placebo, o sin descanso)",
+            "duracion": "Continuo si desea anticoncepción",
+            "nota": "Si además necesita anticoncepción; riesgo tromboembólico"
+          }
+        ]
+      },
+      {
+        "titulo": "Leve",
+        "farmacos": [
+          {
+            "nombre": "Carbonato cálcico",
+            "ref": "NFR-carbonato-acetato-calcico",
+            "dosis": "1200 mg/día de calcio elemental",
+            "via": "VO",
+            "intervalo": "Repartido en 2 tomas",
+            "duracion": "≥3 ciclos",
+            "nota": "Reduce síntomas físicos y emocionales leves"
+          },
+          {
+            "nombre": "Ibuprofeno (dolor y mastalgia)",
+            "ref": "REU-ibuprofeno",
+            "dosis": "400-600 mg",
+            "via": "VO",
+            "intervalo": "Cada 8 h",
+            "duracion": "Días sintomáticos",
+            "nota": "Alternativa: naproxeno 500 mg cada 12 h"
+          }
+        ]
+      }
+    ],
+    "no_farmacologico": [
+      "Diario de síntomas prospectivo de 2 ciclos para confirmar el patrón cíclico",
+      "Ejercicio aeróbico regular, sueño, reducir cafeína, alcohol y sal; terapia cognitivo-conductual",
+      "Descartar depresión o ansiedad que empeora antes de la regla (exacerbación premenstrual), hipotiroidismo y endometriosis"
+    ],
+    "claves": [
+      "**Si no hay una semana libre de síntomas tras la regla, no es síndrome premenstrual.**",
+      "Los ISRS funcionan en días en el TDPM: pueden tomarse solo en la fase lútea.",
+      "Los anticonceptivos con drospirenona en pauta continua o 24/4 son los que han demostrado beneficio."
+    ],
+    "fuente": "Harrison 20.ª ed., cap. de trastornos del aparato reproductor femenino; guías del RCOG y la ACOG sobre síndrome premenstrual; criterios DSM-5-TR",
+    "revision": {
+      "fecha": "2026-10-06",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 5 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
+  }
+]
