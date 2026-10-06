@@ -59,3 +59,20 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | 2026-10-05 | B: 966 pautas revisadas (791 cotejadas en Harrison/Katzung, todas revisadas clínicamente), 4 correcciones, campo `revision` en las 154 patologías y aviso del validador si falta (REVISION_DOSIS.md) | ✅ |
 | 2026-10-05 | E: pipeline 0 errores/0 avisos, prueba headless, PROGRESO, PROCESO_Y_APRENDIZAJE (#38-40), README y playbook actualizados; publicado | ✅ |
 | 2026-10-06 | Cierre de lagunas: 58 patologías y 19 fichas; cobertura 213/213 de la lista de referencia (hallazgo #41) | ✅ |
+
+---
+
+## F. Ampliación al catálogo amplio (~280 cuadros) — ⬜ PENDIENTE (próxima sesión)
+
+Cobertura actual estimada: 100% de la lista de referencia de 213 cuadros; ~97% ponderada por frecuencia; **~80% del catálogo amplio**. Objetivo del bloque F: ~95% del catálogo amplio con ~40-60 patologías nuevas.
+
+| Lote | Patologías pendientes | Fichas que probablemente exijan |
+|---|---|---|
+| F1 Piel | Hidradenitis supurativa · Molusco contagioso · Queratosis actínica · Prurito crónico · Quemadura solar · Vitíligo · Liquen plano · Hiperhidrosis | Toxina botulínica, cantaridina/KOH, glicopirronio tópico (o justificar `clase_unica`) |
+| F2 Toxicología y efectos de fármacos | Síndrome serotoninérgico · Síndrome neuroléptico maligno · Distonía aguda por fármacos · Intoxicación por tricíclicos · por litio · por hierro · por cocaína/anfetaminas · Mordedura de serpiente · Picadura de escorpión | Ciproheptadina, dantroleno, bromocriptina (ya existe), biperideno, deferoxamina (en quelantes), antiveneno |
+| F3 Electrolitos | Hipocalcemia · Hipomagnesemia · Hipernatremia · Hipofosfatemia | Fosfato IV/oral si hace falta |
+| F4 Embarazo | Diabetes gestacional · Colestasis gravídica · Anemia en el embarazo · Fármacos en embarazo y lactancia (vista general) | — (insulinas, ursodesoxicólico y hierro ya existen) |
+| F5 Endocrino y urología | Prediabetes · Tiroiditis subaguda · Hipogonadismo masculino · Prevención de litiasis renal · Profilaxis de ITU recurrente · Eyaculación precoz · Síndrome premenstrual | Testosterona (clase ≥3: gel, undecanoato, enantato), citrato potásico, dapoxetina |
+| F6 Otros | Colangitis biliar primaria · Gastroparesia · Fenómeno de Raynaud · Miocarditis · Náuseas y vómitos por quimioterapia · Infecciones oportunistas del VIH (Pneumocystis, toxoplasmosis) · Hipo persistente · Neuralgia del trigémino · Hipertensión intracraneal idiopática · Urticaria crónica · Sinusitis crónica | Aprepitant (antiemético NK1), ácido obeticólico/fibratos, clorpromazina |
+
+**Regla del bloque:** cada lote → fichas nuevas (≥3 por clase) → patologías con `revision` → cotejo con `scripts/herramientas/cotejar-pautas-bibliografia.js` + revisión clínica línea a línea → validar (0/0) → generar Hub y Anki → publicar → añadir los cuadros a la lista de referencia (hallazgo #41).
