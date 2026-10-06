@@ -2,7 +2,10 @@
   {
     "id": "PAT-obesidad",
     "nombre": "Obesidad",
-    "sinonimos": ["Sobrepeso", "Exceso de peso"],
+    "sinonimos": [
+      "Sobrepeso",
+      "Exceso de peso"
+    ],
     "area": "END",
     "resumen": "IMC ≥30 (≥27,5 en población asiática); perímetro de cintura como marcador de riesgo. Es una **enfermedad crónica** que aumenta la diabetes, la HTA, la apnea del sueño, la esteatosis hepática, la artrosis y algunos cánceres. Base: **dieta con déficit calórico, actividad física y terapia conductual**. Fármacos si IMC ≥30, o ≥27 con comorbilidad: **los agonistas de GLP-1 (semaglutida) y el doble agonista GIP/GLP-1 (tirzepatida)** son los más eficaces (15-20% de pérdida). Cirugía bariátrica si IMC ≥40, o ≥35 con comorbilidad.",
     "objetivo": "Pérdida mantenida ≥5-10% del peso, que ya mejora las comorbilidades.",
@@ -10,24 +13,88 @@
       {
         "titulo": "Primera línea farmacológica",
         "farmacos": [
-          { "nombre": "Semaglutida", "ref": "END-semaglutida", "dosis": "0,25 mg subiendo cada 4 semanas hasta 2,4 mg", "via": "SC", "intervalo": "Una vez por semana", "duracion": "Crónica (el peso se recupera al suspender)", "nota": "Reduce además eventos cardiovasculares (SELECT)" },
-          { "nombre": "Tirzepatida", "ref": "END-tirzepatida", "dosis": "2,5 mg subiendo 2,5 mg cada 4 semanas hasta 5-15 mg", "via": "SC", "intervalo": "Una vez por semana", "duracion": "Crónica", "nota": "La mayor pérdida de peso entre los fármacos" },
-          { "nombre": "Liraglutida", "ref": "END-liraglutida", "dosis": "0,6 mg subiendo 0,6 mg semanal hasta 3 mg", "via": "SC", "intervalo": "Cada 24 h", "duracion": "Crónica", "nota": "Alternativa" }
+          {
+            "nombre": "Semaglutida",
+            "ref": "END-semaglutida",
+            "dosis": "0,25 mg subiendo cada 4 semanas hasta 2,4 mg",
+            "via": "SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Crónica (el peso se recupera al suspender)",
+            "nota": "Reduce además eventos cardiovasculares (SELECT)"
+          },
+          {
+            "nombre": "Tirzepatida",
+            "ref": "END-tirzepatida",
+            "dosis": "2,5 mg subiendo 2,5 mg cada 4 semanas hasta 5-15 mg",
+            "via": "SC",
+            "intervalo": "Una vez por semana",
+            "duracion": "Crónica",
+            "nota": "La mayor pérdida de peso entre los fármacos"
+          },
+          {
+            "nombre": "Liraglutida",
+            "ref": "END-liraglutida",
+            "dosis": "0,6 mg subiendo 0,6 mg semanal hasta 3 mg",
+            "via": "SC",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Alternativa"
+          }
         ]
       },
       {
         "titulo": "Alternativas no incretínicas",
         "farmacos": [
-          { "nombre": "Naltrexona/bupropión", "ref": "END-naltrexona-bupropion", "dosis": "Hasta 16/180 mg", "via": "VO", "intervalo": "Cada 12 h (escalada en 4 semanas)", "duracion": "Suspender si <5% a las 16 semanas", "nota": "No con opioides ni en epilepsia" },
-          { "nombre": "Orlistat", "ref": "END-orlistat", "dosis": "120 mg", "via": "VO", "intervalo": "Con cada comida principal con grasa", "duracion": "Suspender si <5% a los 3 meses", "nota": "Alternativa" },
-          { "nombre": "Fentermina/topiramato", "ref": "END-fentermina-topiramato", "dosis": "3,75/23 mg; después 7,5/46 mg", "via": "VO", "intervalo": "Cada 24 h por la mañana", "duracion": "Según respuesta", "nota": "Alternativa. Teratógeno; disponibilidad según el país" }
+          {
+            "nombre": "Naltrexona/bupropión",
+            "ref": "END-naltrexona-bupropion",
+            "dosis": "Hasta 16/180 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h (escalada en 4 semanas)",
+            "duracion": "Suspender si <5% a las 16 semanas",
+            "nota": "No con opioides ni en epilepsia"
+          },
+          {
+            "nombre": "Orlistat",
+            "ref": "END-orlistat",
+            "dosis": "120 mg",
+            "via": "VO",
+            "intervalo": "Con cada comida principal con grasa",
+            "duracion": "Suspender si <5% a los 3 meses",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Fentermina/topiramato",
+            "ref": "END-fentermina-topiramato",
+            "dosis": "3,75/23 mg; después 7,5/46 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h por la mañana",
+            "duracion": "Según respuesta",
+            "nota": "Alternativa. Teratógeno; disponibilidad según el país"
+          }
         ]
       },
       {
         "titulo": "Obesidad con diabetes tipo 2",
         "farmacos": [
-          { "nombre": "Metformina", "ref": "END-metformina", "dosis": "500 mg al inicio; hasta 2000 mg/día", "via": "VO", "intervalo": "Cada 8-12 h con comidas", "duracion": "Crónica", "nota": "Neutra o favorable sobre el peso" },
-          { "nombre": "Empagliflozina", "ref": "END-empagliflozina", "dosis": "10-25 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Crónica", "nota": "Pérdida de 2-3 kg; protección cardiorrenal" }
+          {
+            "nombre": "Metformina",
+            "ref": "END-metformina",
+            "dosis": "500 mg al inicio; hasta 2000 mg/día",
+            "via": "VO",
+            "intervalo": "Cada 8-12 h con comidas",
+            "duracion": "Crónica",
+            "nota": "Neutra o favorable sobre el peso"
+          },
+          {
+            "nombre": "Empagliflozina",
+            "ref": "END-empagliflozina",
+            "dosis": "10-25 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Crónica",
+            "nota": "Pérdida de 2-3 kg; protección cardiorrenal"
+          }
         ]
       }
     ],
@@ -41,12 +108,26 @@
       "**El tratamiento farmacológico es crónico, como el de la HTA: al suspender se recupera el peso.**",
       "Los fármacos antiobesidad están contraindicados en el embarazo."
     ],
-    "fuente": "Harrison 20.ª ed., caps. de obesidad y de tratamiento de la obesidad; Katzung 15.ª ed., cap. 41"
+    "fuente": "Harrison 20.ª ed., caps. de obesidad y de tratamiento de la obesidad; Katzung 15.ª ed., cap. 41",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 8,
+      "cotejadas_en_fuente": 6,
+      "resultado": "Revisadas las 8 pautas (6 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-tabaquismo",
     "nombre": "Tabaquismo (deshabituación tabáquica)",
-    "sinonimos": ["Dejar de fumar", "Cesación tabáquica", "Dependencia de la nicotina"],
+    "sinonimos": [
+      "Dejar de fumar",
+      "Cesación tabáquica",
+      "Dependencia de la nicotina"
+    ],
     "area": "PSQ",
     "resumen": "Preguntar por el tabaco en **cada visita** y aconsejar dejarlo (consejo breve de 3 min ya aumenta las tasas de abandono). En quien quiere dejarlo: **fecha D** y **fármaco + apoyo conductual** (duplica o triplica el éxito). Fármacos de primera línea: **vareniclina** o **terapia sustitutiva con nicotina combinada**; alternativas: citisina, bupropión. Las recaídas son la norma: reintentar.",
     "objetivo": "Abstinencia mantenida (≥6-12 meses).",
@@ -54,15 +135,47 @@
       {
         "titulo": "Primera línea",
         "farmacos": [
-          { "nombre": "Vareniclina", "ref": "PSQ-vareniclina", "dosis": "0,5 mg días 1-3; 0,5 mg cada 12 h días 4-7; después 1 mg cada 12 h", "via": "VO", "intervalo": "Cada 12 h", "duracion": "12 semanas (otras 12 si ha dejado de fumar)", "nota": "Fecha D entre el día 8 y el 35; con comida y agua (náuseas)" },
-          { "nombre": "Terapia sustitutiva con nicotina combinada", "ref": "PSQ-terapia-sustitutiva-nicotina", "dosis": "Parche 21 mg/24 h + chicle o comprimido de 2-4 mg a demanda", "via": "transdérmica y bucal", "intervalo": "Parche cada 24 h; formas rápidas cada 1-2 h si hay deseo", "duracion": "8-12 semanas con descenso progresivo", "nota": "Desde el día D" }
+          {
+            "nombre": "Vareniclina",
+            "ref": "PSQ-vareniclina",
+            "dosis": "0,5 mg días 1-3; 0,5 mg cada 12 h días 4-7; después 1 mg cada 12 h",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "12 semanas (otras 12 si ha dejado de fumar)",
+            "nota": "Fecha D entre el día 8 y el 35; con comida y agua (náuseas)"
+          },
+          {
+            "nombre": "Terapia sustitutiva con nicotina combinada",
+            "ref": "PSQ-terapia-sustitutiva-nicotina",
+            "dosis": "Parche 21 mg/24 h + chicle o comprimido de 2-4 mg a demanda",
+            "via": "transdérmica y bucal",
+            "intervalo": "Parche cada 24 h; formas rápidas cada 1-2 h si hay deseo",
+            "duracion": "8-12 semanas con descenso progresivo",
+            "nota": "Desde el día D"
+          }
         ]
       },
       {
         "titulo": "Alternativas",
         "farmacos": [
-          { "nombre": "Citisina", "ref": "PSQ-citisina", "dosis": "1,5 mg: 6 comprimidos al día bajando hasta 1-2", "via": "VO", "intervalo": "Pauta descendente de 25 días", "duracion": "25 días", "nota": "La más barata" },
-          { "nombre": "Bupropión", "ref": "PSQ-bupropion", "dosis": "150 mg 6 días; después 150 mg cada 12 h", "via": "VO", "intervalo": "Cada 24 h la primera semana; después cada 12 h", "duracion": "7-12 semanas", "nota": "Fecha D en la 2.ª semana; contraindicado en epilepsia y trastornos alimentarios" }
+          {
+            "nombre": "Citisina",
+            "ref": "PSQ-citisina",
+            "dosis": "1,5 mg: 6 comprimidos al día bajando hasta 1-2",
+            "via": "VO",
+            "intervalo": "Pauta descendente de 25 días",
+            "duracion": "25 días",
+            "nota": "La más barata"
+          },
+          {
+            "nombre": "Bupropión",
+            "ref": "PSQ-bupropion",
+            "dosis": "150 mg 6 días; después 150 mg cada 12 h",
+            "via": "VO",
+            "intervalo": "Cada 24 h la primera semana; después cada 12 h",
+            "duracion": "7-12 semanas",
+            "nota": "Fecha D en la 2.ª semana; contraindicado en epilepsia y trastornos alimentarios"
+          }
         ]
       }
     ],
@@ -75,6 +188,16 @@
       "**Dejar de fumar sube los niveles de clozapina, olanzapina y teofilina (se pierde la inducción de CYP1A2 por el humo).**",
       "Los cigarrillos electrónicos no están validados como tratamiento de primera línea; si se usan para dejar el tabaco, que sea de forma completa y temporal."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de adicción a la nicotina; Katzung 15.ª ed., cap. 32"
+    "fuente": "Harrison 20.ª ed., cap. de adicción a la nicotina; Katzung 15.ª ed., cap. 32",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   }
 ]

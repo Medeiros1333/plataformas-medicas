@@ -212,3 +212,45 @@ Algunas familias tienen de verdad un único representante de uso real: litio, co
 Completar clases hizo visibles fronteras mal trazadas: los calcioantagonistas DHP y no DHP estaban en dos clases de un miembro cada una, igual que los ACOD y los AVK, y la gemcitabina no cabía en una clase llamada «fluoropirimidina». **Se fusionaron las familias que la práctica clínica compara entre sí** y se renombraron las que excluían a un hermano legítimo («Antimetabolito antineoplásico (análogo de pirimidina)»).
 
 Además, cada ficha nueva deja obsoletos los enlaces anteriores: 26 filas de patologías marcadas `sin_ficha` ya tenían ficha, y 56 apuntaban a una «Visión de clase» cuando la pauta citaba un fármaco concreto (labetalol, gliclazida, bilastina). **Tras cada ampliación hay que re-enlazar las patologías**; se hizo con un mapa explícito fila → ficha que aborta si un id no existe, y el validador detectó el único error de población (escabiosis infantil enlazada a la permetrina de adulto).
+
+---
+
+## Plan de mejoras para el médico general (octubre de 2026)
+
+### #38 — «Sin país» es una regla de redacción, no solo de contenido
+El encargo pidió una plataforma de farmacología general, sin vínculo con ningún país. Ya no había prácticamente nada clínico específico de un país. Sí quedaban **59 textos** que lo daban por supuesto sin decirlo:
+- **epidemiología local**: «resistencia a macrólidos del 25% en España»;
+- **agencias nacionales**: «alerta de la AEMPS»;
+- **guías nacionales**: GEMA, SEGO, AEP, guías SEN.
+
+Esos textos eran correctos, pero solo para un lector de ese país.
+
+**Consecuencia adoptada:**
+- la epidemiología se expresa por **condición**: «donde la resistencia a macrólidos es alta»;
+- las alertas, por la **EMA y la FDA**;
+- las guías, por las **internacionales**: GINA, OMS, FIGO, AAP, ILAE, Maastricht.
+
+Las enfermedades tropicales (dengue, Chagas, leishmaniasis, lepra, esquistosomiasis) entraron como **infectología general**, no como módulo de un país. La regla quedó escrita como principio 8 del playbook y como punto 9 del checklist.
+
+### #39 — Cotejar 966 pautas con la bibliografía: lo automático filtra, lo clínico valida
+Releer 966 pautas a mano sin ningún apoyo es lento y propenso a pasar cosas por alto. Fiarse solo de un cotejo automático no valida nada. Se combinaron las dos cosas:
+- **Cotejo automático.** `scripts/herramientas/cotejar-pautas-bibliografia.js` busca en el texto de Harrison y Katzung el nombre del fármaco, con variantes en portugués, y la cifra de la dosis a menos de 450 caracteres. Así se cotejaron 791 pautas.
+- **Revisión clínica.** Se revisaron las 966 pautas, empezando por las 175 no cotejadas.
+
+Los errores encontrados **no estaban donde el cotejo fallaba**. Estaban en pautas «cotejadas»: una nifedipina retard repetida cada 20 minutos y una combinación con la dosis en orden invertido. **La proximidad de una cifra en el libro no prueba que la pauta esté bien escrita.** El cotejo sirve para priorizar la lectura, no para darla por hecha.
+
+**Consecuencia adoptada:** cada patología lleva el campo `revision`, que el Hub muestra al pie, y el validador avisa si falta. El registro de cambios vive en `REVISION_DOSIS.md`.
+
+### #40 — Una calculadora clínica debe enseñar su fuente, no sustituirla
+Las tres herramientas de la vista Calculadoras **leen el texto de las fichas** en lugar de tener datos propios. Así no hay una segunda fuente de verdad que pueda desincronizarse:
+- **ajuste renal**: resalta el fragmento que aplica al filtrado calculado;
+- **dosis por peso**: multiplica cada «mg/kg» de la ficha y la compara con su dosis máxima;
+- **interacciones**: cruza el campo «con» de cada interacción con el nombre, los sinónimos y la clase del otro fármaco.
+
+El precio es que solo saben lo que dicen las fichas. Por eso cada resultado muestra el texto original y de qué ficha procede.
+
+Dos errores aparecieron al probarlas con casos conocidos:
+1. **El tope «60 mg/kg/día» se leía como «60 mg».** El analizador tuvo que ignorar los máximos expresados por kilo.
+2. **Faltaba la dosis diaria.** Una dosis «por toma» solo se compara con un máximo diario si se calcula el total del día con el intervalo.
+
+**Probar con casos cuyo resultado se conoce de antemano detectó lo que la revisión del código no había visto:** paracetamol con 80 kg, mujer de 78 años con creatinina 1,4, y sildenafilo con nitrato.

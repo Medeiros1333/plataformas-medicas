@@ -18,18 +18,19 @@ node scripts/servir-hub.js
 | Vista | Para qué sirve |
 |---|---|
 | **Panel** | Cobertura por área y por grupo, y por nivel de prioridad clínica |
-| **Patologías** | Busca el cuadro clínico (o un fármaco) y ve con qué se trata: fármaco, dosis, vía, cada cuántas horas y cuánto tiempo, por línea de tratamiento y población. Cada fármaco abre su ficha completa, que ofrece volver a la patología |
-| **Vademécum** | Ficha completa de cada fármaco de adulto (529; **cada clase con al menos 3 fármacos individuales**), con un recuadro de **qué lo distingue dentro de su clase**, los otros fármacos de su clase y las patologías en las que se usa. Las fichas «Visión de clase» resumen y comparan la familia entera |
+| **Patologías** | 154 cuadros de atención primaria y urgencias. Busca el cuadro clínico (o un fármaco) y ve con qué se trata: fármaco, dosis, vía, cada cuántas horas y cuánto tiempo, por línea de tratamiento y población. Cada fármaco abre su ficha completa, que ofrece volver a la patología |
+| **Vademécum** | Ficha completa de cada fármaco de adulto (624; **cada clase con al menos 3 fármacos individuales**), con un recuadro de **qué lo distingue dentro de su clase**, los otros fármacos de su clase y las patologías en las que se usa. Las fichas «Visión de clase» resumen y comparan la familia entera |
 | **Pediatría** | Sección independiente con los datos propios del niño |
 | **Microbiología** | Ficha completa de cada patógeno |
 | **Correlación** | Patógeno → antimicrobianos que lo cubren, y antimicrobiano → patógenos de su espectro |
 | **Comparar** | Tabla comparativa de hasta 10 fármacos de una misma clase, lado a lado, empezando por lo que distingue a cada uno |
+| **Calculadoras** | Función renal (Cockcroft-Gault y CKD-EPI 2021) con el ajuste de cada fármaco del paciente resaltado; dosis por peso con alerta de dosis máxima; verificador de interacciones entre la medicación del paciente |
 
 Buscador global (patología, fármaco o patógeno) y cuatro temas: automático, claro, oscuro y negro.
 
 ### Estructura de cada ficha de patología
 
-Cuándo y cómo tratar · objetivo terapéutico · escenarios (líneas de tratamiento, gravedad, población) con una tabla **fármaco · dosis · vía · cada cuánto · duración · nota** · medidas no farmacológicas · claves y errores frecuentes.
+Cuándo y cómo tratar · objetivo terapéutico · escenarios (líneas de tratamiento, gravedad, población) con una tabla **fármaco · dosis · vía · cada cuánto · duración · nota** · medidas no farmacológicas · claves y errores frecuentes · **revisión de la pauta** (fecha, fuentes y resultado; ver [REVISION_DOSIS.md](REVISION_DOSIS.md)).
 
 ### Estructura de cada ficha de fármaco
 

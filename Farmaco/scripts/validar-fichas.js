@@ -147,6 +147,8 @@ function validarPatologia(p, idsFarmacoTodos) {
   if (!AREAS[p.area]) err(p, `área desconocida: ${p.area}`);
   if (p.id && !p.id.startsWith('PAT-')) err(p, 'el id de una patología debe empezar por "PAT-"');
   if (!Array.isArray(p.escenarios) || !p.escenarios.length) { err(p, 'debe tener al menos un escenario de tratamiento'); return; }
+  // Toda patología debe registrar la revisión de sus pautas frente a la bibliografía (REVISION_DOSIS.md).
+  if (!p.revision || !noVacio(p.revision.fecha) || !noVacio(p.revision.resultado)) avi(p, 'sin campo "revision" (fecha, fuentes, resultado) de las pautas');
   p.escenarios.forEach((e, i) => {
     if (!noVacio(e.titulo)) err(p, `escenarios[${i}]: falta titulo`);
     if (!Array.isArray(e.farmacos) || !e.farmacos.length) { err(p, `escenarios[${i}] ("${e.titulo}"): sin fármacos`); return; }

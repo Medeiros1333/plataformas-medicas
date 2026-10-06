@@ -675,7 +675,11 @@ function renderFichaPatologia(p) {
 
   if ((p.no_farmacologico || []).length) html += seccion('Medidas no farmacológicas y de soporte', listaUl(p.no_farmacologico));
   if ((p.claves || []).length) html += seccion('Claves y errores frecuentes', `<div class="callout aviso">${listaUl(p.claves)}</div>`);
-  html += `<div class="fuente">Fuente: ${esc(p.fuente)}</div>`;
+  html += `<div class="fuente">Fuente: ${esc(p.fuente)}`;
+  if (p.revision) {
+    html += `<br>Pauta revisada (${esc(p.revision.fecha)}) con ${esc(p.revision.fuentes.join(', '))}: ${esc(p.revision.resultado)}`;
+  }
+  html += `</div>`;
   return html;
 }
 

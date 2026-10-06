@@ -36,7 +36,7 @@
           {
             "nombre": "Fluticasona/salmeterol (alternativa sin MART)",
             "ref": "NML-fluticasona-salmeterol",
-            "dosis": "50/250 µg (1 inhalación)",
+            "dosis": "250/50 µg de fluticasona/salmeterol (1 inhalación)",
             "via": "inhalada",
             "intervalo": "Cada 12 h",
             "duracion": "Igual",
@@ -127,7 +127,18 @@
       "**Nunca LABA sin corticoide** en el asma.",
       "Betabloqueantes no selectivos y AINE (en asma por AAS) pueden precipitar crisis."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de asma; Katzung 15.ª ed., cap. 20; GINA 2024"
+    "fuente": "Harrison 20.ª ed., cap. de asma; Katzung 15.ª ed., cap. 20; GINA 2024",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 10,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 10 pautas: 2 corrección(es). Dosis escrita en orden invertido (50/250): corregida a 250/50 µg de fluticasona/salmeterol. Dosis escrita en orden invertido (50/250): corregida a 250/50 µg de fluticasona/salmeterol."
+    }
   },
   {
     "id": "PAT-crisis-asmatica",
@@ -215,7 +226,18 @@
       "**Una PaCO2 normal en una crisis grave es mal signo** (agotamiento).",
       "Toda crisis que acude a urgencias debe salir con corticoide inhalado de mantenimiento."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de asma; GINA 2024"
+    "fuente": "Harrison 20.ª ed., cap. de asma; GINA 2024",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 6 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-epoc-estable",
@@ -318,7 +340,18 @@
       "Retirar el ICS si neumonías repetidas y eosinófilos <100.",
       "Elegir dispositivo según el flujo inspiratorio y la destreza del paciente."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de EPOC; Katzung 15.ª ed., cap. 20; GOLD 2024"
+    "fuente": "Harrison 20.ª ed., cap. de EPOC; Katzung 15.ª ed., cap. 20; GOLD 2024",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 2,
+      "resultado": "Revisadas las 6 pautas (2 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-exacerbacion-epoc",
@@ -389,7 +422,18 @@
       "**Oxígeno a alto flujo en el EPOC retenedor = narcosis hipercápnica.**",
       "5 días de corticoide son suficientes (REDUCE)."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de EPOC; GOLD 2024"
+    "fuente": "Harrison 20.ª ed., cap. de EPOC; GOLD 2024",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed.",
+        "guías internacionales citadas en la fuente"
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 5 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-bronquiolitis",
@@ -450,7 +494,17 @@
       "**Corticoides y antibióticos no son útiles en la bronquiolitis.**",
       "Los lactantes <6 semanas o prematuros pueden debutar con apneas."
     ],
-    "fuente": "AMIR Pediatría; Harrison 20.ª ed., cap. de VRS"
+    "fuente": "AMIR Pediatría; Harrison 20.ª ed., cap. de VRS",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 1,
+      "resultado": "Revisadas las 3 pautas (1 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-laringitis-crup",
@@ -506,6 +560,16 @@
       "**Fiebre alta, aspecto tóxico, babeo y postura en trípode: epiglotitis** → vía aérea en quirófano, no crup.",
       "La humedad ambiental no ha demostrado beneficio."
     ],
-    "fuente": "AMIR Pediatría; Katzung 15.ª ed., cap. 39"
+    "fuente": "AMIR Pediatría; Katzung 15.ª ed., cap. 39",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 3 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   }
 ]

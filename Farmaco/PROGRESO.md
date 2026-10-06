@@ -2,87 +2,82 @@
 
 > Estado ejecutivo del proyecto. Una sesión nueva debe poder leer **solo este archivo** y el playbook para saber qué hacer a continuación.
 
-**Última actualización:** 2026-10-05 — **segunda ampliación: todas las clases de adulto con ≥3 fármacos individuales (529 fichas) y patologías re-enlazadas a las fichas nuevas**
-**Idioma del contenido:** español
+**Última actualización:** 2026-10-05 — **plan de mejoras para el médico general completado ([PLAN_MEJORAS.md](PLAN_MEJORAS.md)): 154 patologías, revisión de las 966 pautas, neutralidad de país y calculadoras clínicas**
+**Idioma del contenido:** español · **Ámbito:** farmacología general, sin país (principio 8 del playbook)
 **Metodología:** `00_Metodologia/PLAYBOOK_CONSTRUCCION_PLATAFORMA_FARMACO.md`
 
 ---
 
 ## 1. Estado global
 
-| Bloque | Fichas | Objetivo | % | Estado |
-|---|---|---|---|---|
-| Fármacos (adulto) | **529** | 529 | **100 %** | ✅ COMPLETO (489 individuales + 40 «Visión de clase») |
-| Fármacos (pediatría) | **40** | 40 | **100 %** | ✅ COMPLETO |
-| Patógenos (microbiología) | **84** | 84 | **100 %** | ✅ COMPLETO |
-| Patologías (tratamiento por cuadro clínico) | **88** | 88 | **100 %** | ✅ 521 filas fármaco-pauta; solo 4 sin ficha propia, declaradas |
-| **TOTAL DE CONTENIDO** | **741** | **741** | **100 %** | ✅ |
-| Infraestructura | — | — | **100 %** | ✅ |
-| Clases farmacológicas de adulto | **137** | — | — | **Todas con ≥3 fármacos individuales** (4 con `clase_unica` justificada) |
-| Enlaces de correlación fármaco ↔ patógeno | **413** | — | — | Simétricos y validados |
-| Fichas con `vs_clase` (qué las distingue dentro de su clase) | **492** | — | — | Todas las clases con ≥2 miembros |
-| Tarjetas Anki generadas | **14 175** en 53 mazos | — | — | Automático |
-| Errores de validación | **0** | — | — | ✔ |
-| Avisos de validación | **0** | — | — | ✔ |
-| Enlaces rotos | **0** | — | — | ✔ |
+| Bloque | Fichas | Estado |
+|---|---|---|
+| Fármacos (adulto) | **624** | ✅ 584 individuales + 40 «Visión de clase» |
+| Fármacos (pediatría) | **41** | ✅ |
+| Patógenos (microbiología) | **86** | ✅ (+ Trypanosoma cruzi y Schistosoma) |
+| Patologías (tratamiento por cuadro clínico) | **154** | ✅ 966 pautas; **0 fármacos sin ficha**; todas con campo `revision` |
+| **TOTAL DE CONTENIDO** | **905** | ✅ |
+| Clases farmacológicas de adulto | **165** | Todas con ≥3 fármacos individuales (7 con `clase_unica` justificada) |
+| Fichas con `vs_clase` | **584** | Todas las clases con ≥2 miembros |
+| Enlaces de correlación fármaco ↔ patógeno | **437** | Simétricos y validados |
+| Vista **Calculadoras** | — | ✅ Función renal (Cockcroft-Gault, CKD-EPI 2021), dosis por peso, interacciones |
+| Revisión de pautas | **966/966** | ✅ 791 cotejadas en Harrison/Katzung, 4 correcciones ([REVISION_DOSIS.md](REVISION_DOSIS.md)) |
+| Tarjetas Anki generadas | **16 381** en 54 mazos | Automático |
+| Errores / avisos de validación | **0 / 0** | ✔ |
 
-> **Qué significa «completo».** El objetivo de cada área corresponde a la cobertura de **niveles 1 y 2**: lo que un médico prescribe o ve prescribir de forma habitual. Los fármacos de nivel 3 (raros, de prescripción hiperespecializada) quedan FUERA del alcance de forma deliberada. La plataforma está terminada respecto a ese alcance, no respecto al vademécum entero.
+> **Qué significa «completo».** El alcance son los **niveles 1 y 2** (lo que un médico prescribe o ve prescribir de forma habitual) y los cuadros clínicos de **atención primaria y urgencias** de un médico general. Los fármacos de nivel 3 entran solo para completar una clase hasta 3 miembros.
 
-**Reparto por nivel (fichas individuales):** 239 de nivel 1, 224 de nivel 2 y 26 de nivel 3. Los de nivel 3 entran solo para completar una clase hasta 3 miembros (p. ej. imipenem entre los carbapenémicos, daunorubicina entre las antraciclinas).
+**Reparto por nivel (fichas individuales):** 261 de nivel 1, 275 de nivel 2 y 48 de nivel 3.
 
-> **Ampliación de octubre de 2026.** Primera fase: los 3-5 fármacos más usados de cada clase que solo tenía un representante (estatinas, IECA, ARA-II, betabloqueantes, ACOD, IBP, ISRS…), cada uno con `vs_clase` y lo específico resaltado con `**…**`, y la sección de **patologías** (`data/patologias/`). Segunda fase: **regla de ≥3 fármacos individuales por clase** aplicada a las 17 áreas (cefalosporinas de 1.ª, 2.ª, 3.ª y 4.ª-5.ª generación por separado, aminoglucósidos, antigripales, platinos, antraciclinas, anti-VEGF, hipotensores oculares…). Las fichas antiguas que agrupaban varios fármacos se conservan como **«Visión de clase»** (`vision_clase: true`) y ya no cuentan como miembro.
+> **Ampliaciones de octubre de 2026.** (1) Los 3-5 fármacos más usados de cada clase, con `vs_clase` y lo específico resaltado con `**…**`, y la sección de **patologías**. (2) Regla de **≥3 fármacos individuales por clase** en las 17 áreas, con las fichas agrupadas conservadas como «Visión de clase». (3) **Plan de mejoras para el médico general**: 66 patologías nuevas de atención primaria y urgencias (incluidas enfermedades tropicales como infectología general), revisión de todas las pautas, eliminación de toda referencia a un país y vista de calculadoras.
 
 ---
 
-## 2. Cobertura por área de fármacos
+## 2. Cobertura por área
 
-| Área | Adulto | Pediatría | Estado |
+| Área | Fármacos adulto | Pediatría | Patologías |
 |---|---|---|---|
-| **INF** Antiinfecciosos | 92 | 5 | ✅ Penicilinas y cefalosporinas por generación, aminoglucósidos, MLS, tetraciclinas, antivíricos (gripe, VIH, VHB, VHC), antifúngicos, antiparasitarios |
-| **CAR** Cardiovascular | 58 | 2 | ✅ IC, antiarrítmicos, vasopresores e inotrópicos, nitratos, hipolipemiantes no estatínicos, antihipertensivos de todas las familias |
-| **END** Endocrinología | 43 | 3 | ✅ Antidiabéticos orales y todas las insulinas, tiroides y antitiroideos, hueso, vitamina D, corticoides |
-| **HEM** Hematología | 32 | 2 | ✅ Anticoagulantes y reversores, fibrinolíticos, vitaminas B, hierro, factores de crecimiento |
-| **REU** Analgesia y antiinflamatorios | 32 | 3 | ✅ AINE, coxibs, opioides menores y mayores, hipouricemiantes, FAME |
-| **DER** Dermatología | 32 | 3 | ✅ Retinoides, antiacneicos, corticoides tópicos, inmunomoduladores, escabicidas, alopecia |
-| **DIG** Digestivo | 31 | 4 | ✅ Laxantes, antidiarreicos, protectores, EII, ácidos biliares, somatostatina |
-| **PSQ** Psiquiatría | 28 | 2 | ✅ Antidepresivos, antipsicóticos, litio, hipnóticos, deshabituación |
-| **NFR** Nefrología | 27 | 2 | ✅ Diuréticos, quelantes de fósforo y potasio, fluidoterapia, eje de la vasopresina, urología |
-| **NML** Neumología | 27 | 5 | ✅ Broncodilatadores, corticoides inhalados, mucolíticos, biológicos del asma, oxígeno |
-| **NEU** Neurología | 24 | 4 | ✅ Antiepilépticos, migraña (incluido anti-CGRP), Parkinson, demencia, gabapentinoides |
-| **ONC** Oncología | 23 | 0 | ✅ Antimetabolitos, platinos, antraciclinas, inhibidores de checkpoint, hormonoterapia de mama, G-CSF |
-| **GIN** Ginecología y obstetricia | 20 | 0 | ✅ Anticoncepción combinada, de gestágeno y de urgencia, uterotónicos, parto pretérmino |
-| **OFT** Oftalmología | 17 | 0 | ✅ Hipotensores oculares, anti-VEGF, antiinfecciosos y corticoides, midriáticos |
-| **URG** Urgencias y toxicología | 15 | 3 | ✅ Antídotos de receptor y de tóxicos metabólicos |
-| **INM** Inmunología | 15 | 1 | ✅ Inmunosupresores, biológicos, inmunoglobulinas, antihistamínicos H1 |
-| **ANE** Anestesia | 13 | 1 | ✅ Hipnóticos IV, anestésicos locales, bloqueantes neuromusculares y reversores |
-
-> Las cifras de adulto incluyen las 40 fichas «Visión de clase» (resúmenes comparativos que ya no cuentan como miembro de su clase).
+| **INF** Antiinfecciosos | 108 | 5 | 36 |
+| **CAR** Cardiovascular | 63 | 2 | 14 |
+| **END** Endocrinología | 48 | 3 | 11 |
+| **DER** Dermatología | 45 | 3 | 10 |
+| **REU** Analgesia y antiinflamatorios | 39 | 3 | 10 |
+| **DIG** Digestivo | 37 | 4 | 17 |
+| **NML** Neumología | 36 | 6 | 8 |
+| **HEM** Hematología | 33 | 2 | 3 |
+| **NFR** Nefrología y urología | 32 | 2 | 8 |
+| **PSQ** Psiquiatría | 31 | 2 | 8 |
+| **NEU** Neurología | 28 | 4 | 11 |
+| **INM** Inmunología | 25 | 1 | 2 |
+| **GIN** Ginecología y obstetricia | 25 | 0 | 8 |
+| **ONC** Oncología | 23 | 0 | 0 |
+| **OFT** Oftalmología | 21 | 0 | 2 |
+| **ANE** Anestesia | 15 | 1 | 0 |
+| **URG** Urgencias y toxicología | 15 | 3 | 6 |
 
 ## 3. Cobertura por grupo microbiológico
 
-| Grupo | Patógenos | Estado |
-|---|---|---|
-| **BGN** Gramnegativos | 18 | ✅ Completo |
-| **VIR** Virus | 18 | ✅ Completo |
-| **PAR** Parásitos | 12 | ✅ Completo |
-| **BGP** Grampositivos | 9 | ✅ Completo |
-| **ATI** Atípicas y espiroquetas | 9 | ✅ Completo |
-| **HON** Hongos | 8 | ✅ Completo |
-| **ANA** Anaerobios | 6 | ✅ Completo |
-| **MYC** Micobacterias | 4 | ✅ Completo |
+| Grupo | Patógenos |
+|---|---|
+| **BGN** Gramnegativos | 18 |
+| **VIR** Virus | 18 |
+| **PAR** Parásitos | 14 |
+| **BGP** Grampositivos | 9 |
+| **ATI** Atípicas y espiroquetas | 9 |
+| **HON** Hongos | 8 |
+| **ANA** Anaerobios | 6 |
+| **MYC** Micobacterias | 4 |
 
 ---
 
 ## 4. Qué queda por hacer
 
-El contenido previsto está terminado. Lo que sigue no es construcción sino **mantenimiento y uso**:
+El plan de mejoras está completo. Lo que sigue es **mantenimiento y uso**:
 
-1. **Fármacos citados en las patologías sin ficha propia** (declarados con `"sin_ficha": true`): de 30 filas quedan **4**: glucosa oral (hipoglucemia), icatibant (angioedema hereditario), corticoides intranasales (rinitis) y salino hipertónico nebulizado (bronquiolitis). Basta con escribir la ficha y sustituir `sin_ficha` por `ref`.
-2. **Usar la plataforma y anotar los huecos que aparezcan al estudiarla.** El hallazgo #27 predice dónde estarán: en fichas ya escritas que nombran un fármaco o un patógeno sin ficha propia. Conviene releer las perlas buscando esos nombres.
-3. **Revisión clínica de contenido.** 741 fichas escritas de corrido merecen una lectura crítica por áreas, especialmente en dosis y en pautas, contrastándolas con la bibliografía de `01_Bibliografia`.
-4. **Actualización periódica.** Hay áreas que envejecen deprisa: oncología (inmunoterapia y terapias dirigidas), diabetes, insuficiencia cardiaca, VIH y hepatitis, y las resistencias antimicrobianas.
-5. **Ampliación a nivel 3 si el uso lo pide.** Solo si al estudiar aparecen carencias concretas; no como objetivo en sí mismo.
-6. **Mejoras del Hub.** Buscador por interacción, filtro por vía de administración y modo examen son las que más se han echado en falta.
+1. **Usar la plataforma y anotar los huecos.** Cada cuadro clínico que falte se añade con el esquema de `data/patologias/` y su campo `revision`.
+2. **Revisión periódica de las áreas que envejecen deprisa**: oncología, diabetes y obesidad, insuficiencia cardiaca, VIH y hepatitis, resistencias antimicrobianas, biológicos e inhibidores de JAK. Al cambiar una pauta, se anota en REVISION_DOSIS.md.
+3. **Interacciones de las fichas antiguas.** El verificador de la vista Calculadoras solo encuentra lo que está registrado en las fichas. Ampliar las interacciones de las fichas de la primera fase aumenta su sensibilidad.
+4. **Mejoras posibles del Hub**: modo examen y filtro por vía de administración.
 
 ---
 
@@ -125,3 +120,7 @@ Para ver el Hub: abrir `hub/index.html` con doble clic (funciona sin servidor), 
 | 2026-10-05 | **Patologías: 88 cuadros clínicos** | Nueva vista del Hub con la pauta por escenario (fármaco, dosis, vía, intervalo, duración), enlace a la ficha y botón de retorno; mazos Anki `Patologías::{Área}` |
 | 2026-10-05 | **Regla de ≥3 fármacos por clase: 248 fármacos más** | Las 17 áreas de adulto, por lotes: INF (cefalosporinas por generación, aminoglucósidos, MLS, tetraciclinas, antivíricos, antifúngicos), CAR, NFR, DIG, END, REU, HEM, NEU, PSQ, INM, NML, ANE, URG, DER, GIN, OFT y ONC. 40 fichas agrupadas convertidas en «Visión de clase»; 4 clases con `clase_unica` justificada; taxonomía unificada (p. ej. calcioantagonistas DHP y no DHP en una clase, ACOD y AVK en «Anticoagulante oral») |
 | 2026-10-05 | **Patologías re-enlazadas** | 82 filas: 26 que eran `sin_ficha` apuntan ya a su ficha y 56 que apuntaban a una «Visión de clase» apuntan al fármaco concreto (labetalol, gliclazida, bilastina, cefalexina…) |
+| 2026-10-05 | **Plan de mejoras A: 66 patologías nuevas** | Urgencias y cardiovascular, digestivo, locomotor y neurología, nefrourología, mujer y embarazo, respiratorio-ORL-ojo, piel, metabolismo y hábitos, infecciones (incluidas dengue, leishmaniasis, Chagas, esquistosomiasis, lepra, COVID-19). 95 fichas nuevas (vacunas del adulto, flebotónicos, PDE-5, anti-IL-17/23, JAK, antiparasitarios tropicales…) y 2 patógenos. 0 filas `sin_ficha` |
+| 2026-10-05 | **Plan de mejoras C: neutralidad de país** | 59 textos: epidemiología por regiones, EMA/FDA en vez de agencia nacional, guías internacionales en vez de nacionales; principio 8 del playbook |
+| 2026-10-05 | **Plan de mejoras D: vista Calculadoras** | `hub/calculadoras.js`: función renal con ajuste resaltado por fármaco, dosis por peso con alerta de dosis máxima, verificador de interacciones |
+| 2026-10-05 | **Plan de mejoras B: revisión de las 966 pautas** | Cotejo automático con Harrison y Katzung + revisión clínica completa; 4 correcciones; campo `revision` en todas las patologías ([REVISION_DOSIS.md](REVISION_DOSIS.md)) |

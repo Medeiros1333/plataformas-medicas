@@ -2,7 +2,11 @@
   {
     "id": "PAT-hiperplasia-benigna-prostata",
     "nombre": "Hiperplasia benigna de próstata",
-    "sinonimos": ["HBP", "Prostatismo", "Síntomas del tracto urinario inferior"],
+    "sinonimos": [
+      "HBP",
+      "Prostatismo",
+      "Síntomas del tracto urinario inferior"
+    ],
     "area": "NFR",
     "resumen": "Síntomas de vaciado (chorro débil, goteo, esfuerzo) y de llenado (nicturia, urgencia). Valorar con el IPSS, tacto rectal, PSA (si cambia la actitud), creatinina y orina. **Alfabloqueante** para un alivio rápido; **inhibidor de la 5-alfa-reductasa** si la próstata es >30-40 mL (reduce el tamaño, la retención aguda y la cirugía; efecto en 6 meses). Combinación en próstatas grandes con síntomas moderados-graves.",
     "objetivo": "Aliviar los síntomas y prevenir la retención urinaria y la cirugía.",
@@ -10,23 +14,78 @@
       {
         "titulo": "Síntomas moderados-graves",
         "farmacos": [
-          { "nombre": "Tamsulosina", "ref": "NFR-tamsulosina", "dosis": "0,4 mg", "via": "VO", "intervalo": "Cada 24 h tras la misma comida", "duracion": "Continuo", "nota": "Efecto en días; avisar al oftalmólogo antes de una cirugía de cataratas (iris flácido)" },
-          { "nombre": "Doxazosina", "ref": "CAR-doxazosina", "dosis": "4 mg (liberación prolongada; hasta 8 mg)", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo", "nota": "Alternativa. Más hipotensión ortostática; útil si además hay HTA" },
-          { "nombre": "Tadalafilo (con disfunción eréctil)", "ref": "NFR-tadalafilo", "dosis": "5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo", "nota": "Alternativa" }
+          {
+            "nombre": "Tamsulosina",
+            "ref": "NFR-tamsulosina",
+            "dosis": "0,4 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h tras la misma comida",
+            "duracion": "Continuo",
+            "nota": "Efecto en días; avisar al oftalmólogo antes de una cirugía de cataratas (iris flácido)"
+          },
+          {
+            "nombre": "Doxazosina",
+            "ref": "CAR-doxazosina",
+            "dosis": "4 mg (liberación prolongada; hasta 8 mg)",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa. Más hipotensión ortostática; útil si además hay HTA"
+          },
+          {
+            "nombre": "Tadalafilo (con disfunción eréctil)",
+            "ref": "NFR-tadalafilo",
+            "dosis": "5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa"
+          }
         ]
       },
       {
         "titulo": "Próstata >30-40 mL o PSA >1,5 ng/mL",
         "farmacos": [
-          { "nombre": "Dutasterida", "ref": "DER-dutasterida", "dosis": "0,5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo (efecto pleno a los 6 meses)", "nota": "Reduce el PSA a la mitad: multiplicar por 2 para interpretarlo" },
-          { "nombre": "Finasterida", "ref": "DER-finasterida", "dosis": "5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo", "nota": "Alternativa" }
+          {
+            "nombre": "Dutasterida",
+            "ref": "DER-dutasterida",
+            "dosis": "0,5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo (efecto pleno a los 6 meses)",
+            "nota": "Reduce el PSA a la mitad: multiplicar por 2 para interpretarlo"
+          },
+          {
+            "nombre": "Finasterida",
+            "ref": "DER-finasterida",
+            "dosis": "5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa"
+          }
         ]
       },
       {
         "titulo": "Predominio de síntomas de llenado (tras descartar residuo elevado)",
         "farmacos": [
-          { "nombre": "Mirabegrón (añadido al alfabloqueante)", "ref": "NFR-mirabegron", "dosis": "25-50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo" },
-          { "nombre": "Solifenacina (añadida al alfabloqueante)", "ref": "NFR-solifenacina", "dosis": "5 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Continuo", "nota": "Alternativa. Riesgo de retención si residuo >150-200 mL" }
+          {
+            "nombre": "Mirabegrón (añadido al alfabloqueante)",
+            "ref": "NFR-mirabegron",
+            "dosis": "25-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo"
+          },
+          {
+            "nombre": "Solifenacina (añadida al alfabloqueante)",
+            "ref": "NFR-solifenacina",
+            "dosis": "5 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Continuo",
+            "nota": "Alternativa. Riesgo de retención si residuo >150-200 mL"
+          }
         ]
       }
     ],
@@ -39,12 +98,26 @@
       "**Retención aguda: sondaje vesical y alfabloqueante antes de retirar la sonda.**",
       "Los inhibidores de la 5-alfa-reductasa tardan meses: no sirven para el alivio rápido."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de enfermedades benignas de la próstata; Katzung 15.ª ed., caps. 10 y 40"
+    "fuente": "Harrison 20.ª ed., cap. de enfermedades benignas de la próstata; Katzung 15.ª ed., caps. 10 y 40",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 7,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 7 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-vejiga-hiperactiva",
     "nombre": "Vejiga hiperactiva e incontinencia urinaria",
-    "sinonimos": ["Incontinencia de urgencia", "Incontinencia de esfuerzo", "Urgencia miccional"],
+    "sinonimos": [
+      "Incontinencia de urgencia",
+      "Incontinencia de esfuerzo",
+      "Urgencia miccional"
+    ],
     "area": "NFR",
     "resumen": "Distinguir: **de esfuerzo** (pérdidas con tos o esfuerzo) → suelo pélvico y cirugía, sin fármacos eficaces; **de urgencia / vejiga hiperactiva** (urgencia, frecuencia, nicturia) → medidas conductuales y fármacos; **por rebosamiento** (residuo alto) → no dar antimuscarínicos. Descartar infección, hiperglucemia, fármacos (diuréticos) y estreñimiento.",
     "objetivo": "Reducir los episodios de urgencia y de incontinencia.",
@@ -52,15 +125,47 @@
       {
         "titulo": "Vejiga hiperactiva",
         "farmacos": [
-          { "nombre": "Mirabegrón", "ref": "NFR-mirabegron", "dosis": "25-50 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a las 8-12 semanas", "nota": "De elección en ancianos o con deterioro cognitivo (sin carga anticolinérgica)" },
-          { "nombre": "Solifenacina", "ref": "NFR-solifenacina", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Reevaluar a las 8-12 semanas", "nota": "Más selectiva M3, menos efectos cognitivos que la oxibutinina" },
-          { "nombre": "Oxibutinina", "ref": "NFR-oxibutinina", "dosis": "2,5-5 mg (o parche 3,9 mg/24 h)", "via": "VO o transdérmica", "intervalo": "Cada 8-12 h (parche 2 veces por semana)", "duracion": "Reevaluar a las 8-12 semanas", "nota": "Alternativa. Evitar en ancianos frágiles (deterioro cognitivo)" }
+          {
+            "nombre": "Mirabegrón",
+            "ref": "NFR-mirabegron",
+            "dosis": "25-50 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Reevaluar a las 8-12 semanas",
+            "nota": "De elección en ancianos o con deterioro cognitivo (sin carga anticolinérgica)"
+          },
+          {
+            "nombre": "Solifenacina",
+            "ref": "NFR-solifenacina",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Reevaluar a las 8-12 semanas",
+            "nota": "Más selectiva M3, menos efectos cognitivos que la oxibutinina"
+          },
+          {
+            "nombre": "Oxibutinina",
+            "ref": "NFR-oxibutinina",
+            "dosis": "2,5-5 mg (o parche 3,9 mg/24 h)",
+            "via": "VO o transdérmica",
+            "intervalo": "Cada 8-12 h (parche 2 veces por semana)",
+            "duracion": "Reevaluar a las 8-12 semanas",
+            "nota": "Alternativa. Evitar en ancianos frágiles (deterioro cognitivo)"
+          }
         ]
       },
       {
         "titulo": "Mujer posmenopáusica con atrofia urogenital",
         "farmacos": [
-          { "nombre": "Estrógeno vaginal", "ref": "GIN-estradiol", "dosis": "10 µg (comprimido vaginal) o 0,5 mg de estriol en crema", "via": "vaginal", "intervalo": "Cada 24 h 2 semanas; después 2 veces por semana", "duracion": "Continuo", "nota": "Mejora la urgencia y reduce las infecciones urinarias recurrentes" }
+          {
+            "nombre": "Estrógeno vaginal",
+            "ref": "GIN-estradiol",
+            "dosis": "10 µg (comprimido vaginal) o 0,5 mg de estriol en crema",
+            "via": "vaginal",
+            "intervalo": "Cada 24 h 2 semanas; después 2 veces por semana",
+            "duracion": "Continuo",
+            "nota": "Mejora la urgencia y reduce las infecciones urinarias recurrentes"
+          }
         ]
       }
     ],
@@ -74,12 +179,24 @@
       "**Antes de un antimuscarínico, medir el residuo posmiccional si hay síntomas de vaciado.**",
       "La carga anticolinérgica acumulada se asocia a demencia: revisar toda la medicación del anciano."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de incontinencia urinaria; Katzung 15.ª ed., caps. 8 y 9"
+    "fuente": "Harrison 20.ª ed., cap. de incontinencia urinaria; Katzung 15.ª ed., caps. 8 y 9",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-prostatitis-aguda",
     "nombre": "Prostatitis bacteriana aguda y crónica",
-    "sinonimos": ["Prostatitis"],
+    "sinonimos": [
+      "Prostatitis"
+    ],
     "area": "INF",
     "resumen": "Fiebre, síndrome miccional, dolor perineal y **próstata muy dolorosa** al tacto (no masajear: riesgo de bacteriemia). Agentes: **E. coli** y otras enterobacterias (en <35 años con riesgo, considerar N. gonorrhoeae y C. trachomatis). Urocultivo y hemocultivos. Antibiótico con **buena penetración prostática** durante **2-4 semanas** (4-6 en la crónica).",
     "objetivo": "Curar la infección y evitar el absceso y la cronificación.",
@@ -87,22 +204,68 @@
       {
         "titulo": "Ambulatoria, sin sepsis",
         "farmacos": [
-          { "nombre": "Ciprofloxacino", "ref": "INF-ciprofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "2-4 semanas", "nota": "Si la resistencia local a quinolonas es baja" },
-          { "nombre": "Levofloxacino", "ref": "INF-levofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "2-4 semanas", "nota": "Alternativa" },
-          { "nombre": "Cotrimoxazol", "ref": "INF-cotrimoxazol", "dosis": "160/800 mg", "via": "VO", "intervalo": "Cada 12 h", "duracion": "2-4 semanas", "nota": "Alternativa. Según antibiograma" }
+          {
+            "nombre": "Ciprofloxacino",
+            "ref": "INF-ciprofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "2-4 semanas",
+            "nota": "Si la resistencia local a quinolonas es baja"
+          },
+          {
+            "nombre": "Levofloxacino",
+            "ref": "INF-levofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "2-4 semanas",
+            "nota": "Alternativa"
+          },
+          {
+            "nombre": "Cotrimoxazol",
+            "ref": "INF-cotrimoxazol",
+            "dosis": "160/800 mg",
+            "via": "VO",
+            "intervalo": "Cada 12 h",
+            "duracion": "2-4 semanas",
+            "nota": "Alternativa. Según antibiograma"
+          }
         ]
       },
       {
         "titulo": "Grave o con sepsis (hospitalaria)",
         "farmacos": [
-          { "nombre": "Ceftriaxona", "ref": "INF-ceftriaxona", "dosis": "1-2 g", "via": "IV", "intervalo": "Cada 24 h", "duracion": "Hasta mejoría; completar 2-4 semanas por vía oral según antibiograma" },
-          { "nombre": "Piperacilina-tazobactam (riesgo de Pseudomonas o manipulación urológica)", "ref": "INF-piperacilina-tazobactam", "dosis": "4/0,5 g", "via": "IV", "intervalo": "Cada 6-8 h", "duracion": "Igual que la anterior", "nota": "Alternativa" }
+          {
+            "nombre": "Ceftriaxona",
+            "ref": "INF-ceftriaxona",
+            "dosis": "1-2 g",
+            "via": "IV",
+            "intervalo": "Cada 24 h",
+            "duracion": "Hasta mejoría; completar 2-4 semanas por vía oral según antibiograma"
+          },
+          {
+            "nombre": "Piperacilina-tazobactam (riesgo de Pseudomonas o manipulación urológica)",
+            "ref": "INF-piperacilina-tazobactam",
+            "dosis": "4/0,5 g",
+            "via": "IV",
+            "intervalo": "Cada 6-8 h",
+            "duracion": "Igual que la anterior",
+            "nota": "Alternativa"
+          }
         ]
       },
       {
         "titulo": "Prostatitis bacteriana crónica",
         "farmacos": [
-          { "nombre": "Levofloxacino", "ref": "INF-levofloxacino", "dosis": "500 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "4-6 semanas" }
+          {
+            "nombre": "Levofloxacino",
+            "ref": "INF-levofloxacino",
+            "dosis": "500 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "4-6 semanas"
+          }
         ]
       }
     ],
@@ -115,12 +278,24 @@
       "**No hacer masaje prostático en la prostatitis aguda.**",
       "La fosfomicina y la nitrofurantoína no alcanzan niveles adecuados en la próstata."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias y prostatitis"
+    "fuente": "Harrison 20.ª ed., cap. de infecciones urinarias y prostatitis",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 6,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 6 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-disfuncion-erectil",
     "nombre": "Disfunción eréctil",
-    "sinonimos": ["Impotencia"],
+    "sinonimos": [
+      "Impotencia"
+    ],
     "area": "NFR",
     "resumen": "Es un **marcador de riesgo cardiovascular** (precede a la cardiopatía isquémica en 2-5 años): valorar PA, lípidos, glucemia, tabaco y testosterona si hay hipogonadismo. Revisar fármacos (tiazidas, betabloqueantes, ISRS, antiandrógenos). **Inhibidores de la PDE-5** de primera línea; **contraindicados con nitratos**.",
     "objetivo": "Recuperar una función sexual satisfactoria y controlar el riesgo cardiovascular.",
@@ -128,9 +303,33 @@
       {
         "titulo": "Primera línea",
         "farmacos": [
-          { "nombre": "Sildenafilo", "ref": "NFR-sildenafilo", "dosis": "50 mg (25-100 mg)", "via": "VO", "intervalo": "1 h antes de la relación (máximo 1 vez al día)", "duracion": "A demanda", "nota": "Menos eficaz tras una comida grasa" },
-          { "nombre": "Tadalafilo", "ref": "NFR-tadalafilo", "dosis": "10-20 mg a demanda o 5 mg diarios", "via": "VO", "intervalo": "A demanda o cada 24 h", "duracion": "A demanda o continuo", "nota": "Efecto hasta 36 h" },
-          { "nombre": "Vardenafilo", "ref": "NFR-vardenafilo", "dosis": "10 mg (5-20 mg)", "via": "VO", "intervalo": "25-60 min antes de la relación", "duracion": "A demanda", "nota": "Alternativa" }
+          {
+            "nombre": "Sildenafilo",
+            "ref": "NFR-sildenafilo",
+            "dosis": "50 mg (25-100 mg)",
+            "via": "VO",
+            "intervalo": "1 h antes de la relación (máximo 1 vez al día)",
+            "duracion": "A demanda",
+            "nota": "Menos eficaz tras una comida grasa"
+          },
+          {
+            "nombre": "Tadalafilo",
+            "ref": "NFR-tadalafilo",
+            "dosis": "10-20 mg a demanda o 5 mg diarios",
+            "via": "VO",
+            "intervalo": "A demanda o cada 24 h",
+            "duracion": "A demanda o continuo",
+            "nota": "Efecto hasta 36 h"
+          },
+          {
+            "nombre": "Vardenafilo",
+            "ref": "NFR-vardenafilo",
+            "dosis": "10 mg (5-20 mg)",
+            "via": "VO",
+            "intervalo": "25-60 min antes de la relación",
+            "duracion": "A demanda",
+            "nota": "Alternativa"
+          }
         ]
       }
     ],
@@ -143,12 +342,25 @@
       "**Nunca un inhibidor de PDE-5 con nitratos (ni en las 24-48 h previas).**",
       "Considerarlo fracaso solo tras 4-6 intentos bien hechos (con estimulación sexual)."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de disfunción sexual; Katzung 15.ª ed., cap. 12"
+    "fuente": "Harrison 20.ª ed., cap. de disfunción sexual; Katzung 15.ª ed., cap. 12",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 3,
+      "cotejadas_en_fuente": 0,
+      "resultado": "Revisadas las 3 pautas (0 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-hipopotasemia",
     "nombre": "Hipopotasemia",
-    "sinonimos": ["Hipokalemia", "Potasio bajo"],
+    "sinonimos": [
+      "Hipokalemia",
+      "Potasio bajo"
+    ],
     "area": "NFR",
     "resumen": "K <3,5 mEq/L. Causas más frecuentes: **diuréticos**, vómitos y diarrea. Gravedad por el nivel y por el **ECG** (ondas U, aplanamiento de T, arritmias). **Corregir el magnesio** (si no, la hipopotasemia es refractaria). Reposición oral si es leve-moderada; IV si es grave o hay arritmias, nunca en bolo.",
     "objetivo": "K >3,5 (≥4 en cardiópatas y con digoxina) sin hiperpotasemia de rebote.",
@@ -156,15 +368,46 @@
       {
         "titulo": "Leve-moderada (K 2,5-3,5) sin alteraciones en el ECG",
         "farmacos": [
-          { "nombre": "Cloruro potásico oral", "ref": "NFR-cloruro-potasico", "dosis": "40-80 mEq/día", "via": "VO", "intervalo": "Repartido en 2-4 tomas con comida", "duracion": "Hasta normalizar", "nota": "Cada 10 mEq suben el K ~0,1 mEq/L" },
-          { "nombre": "Amilorida (pérdida por diuréticos de asa o tiazidas)", "ref": "NFR-amilorida", "dosis": "5-10 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Mientras dure el diurético", "nota": "Alternativa. Espironolactona si hay insuficiencia cardiaca o hiperaldosteronismo" }
+          {
+            "nombre": "Cloruro potásico oral",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "40-80 mEq/día",
+            "via": "VO",
+            "intervalo": "Repartido en 2-4 tomas con comida",
+            "duracion": "Hasta normalizar",
+            "nota": "Cada 10 mEq suben el K ~0,1 mEq/L"
+          },
+          {
+            "nombre": "Amilorida (pérdida por diuréticos de asa o tiazidas)",
+            "ref": "NFR-amilorida",
+            "dosis": "5-10 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Mientras dure el diurético",
+            "nota": "Alternativa. Espironolactona si hay insuficiencia cardiaca o hiperaldosteronismo"
+          }
         ]
       },
       {
         "titulo": "Grave (K <2,5) o con arritmias",
         "farmacos": [
-          { "nombre": "Cloruro potásico IV", "ref": "NFR-cloruro-potasico", "dosis": "10-20 mEq/h", "via": "IV", "intervalo": "Perfusión diluida (máximo 40 mEq/L por vía periférica)", "duracion": "Hasta K >3 y paso a vía oral", "nota": "Monitorización ECG si >10 mEq/h; no diluir en glucosado" },
-          { "nombre": "Sulfato de magnesio (si Mg bajo)", "ref": "GIN-sulfato-magnesio", "dosis": "1-2 g", "via": "IV", "intervalo": "En 15-60 min; repetible", "duracion": "Hasta Mg >2 mg/dL" }
+          {
+            "nombre": "Cloruro potásico IV",
+            "ref": "NFR-cloruro-potasico",
+            "dosis": "10-20 mEq/h",
+            "via": "IV",
+            "intervalo": "Perfusión diluida (máximo 40 mEq/L por vía periférica)",
+            "duracion": "Hasta K >3 y paso a vía oral",
+            "nota": "Monitorización ECG si >10 mEq/h; no diluir en glucosado"
+          },
+          {
+            "nombre": "Sulfato de magnesio (si Mg bajo)",
+            "ref": "GIN-sulfato-magnesio",
+            "dosis": "1-2 g",
+            "via": "IV",
+            "intervalo": "En 15-60 min; repetible",
+            "duracion": "Hasta Mg >2 mg/dL"
+          }
         ]
       }
     ],
@@ -176,12 +419,24 @@
       "**El potasio IV nunca en bolo.**",
       "Hipopotasemia + HTA: pensar en hiperaldosteronismo primario."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de alteraciones de los líquidos y electrolitos"
+    "fuente": "Harrison 20.ª ed., cap. de alteraciones de los líquidos y electrolitos",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 4,
+      "resultado": "Revisadas las 4 pautas (4 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-hipercalcemia",
     "nombre": "Hipercalcemia",
-    "sinonimos": ["Calcio elevado"],
+    "sinonimos": [
+      "Calcio elevado"
+    ],
     "area": "END",
     "resumen": "El **90%** se debe a **hiperparatiroidismo primario** (ambulatorio, leve) o **neoplasia** (hospitalaria, grave). Medir PTH. Síntomas: poliuria, deshidratación, estreñimiento, confusión, QT corto. Grave (Ca >14 mg/dL o sintomática): **hidratación con salino**, **calcitonina** (efecto en horas) y **bisfosfonato IV** (efecto en 2-4 días). Corticoides si es por exceso de vitamina D (granulomatosis, linfoma).",
     "objetivo": "Bajar el calcio de forma segura y tratar la causa.",
@@ -189,16 +444,54 @@
       {
         "titulo": "Hipercalcemia grave o sintomática",
         "farmacos": [
-          { "nombre": "Suero salino 0,9%", "ref": "NFR-salino-isotonico", "dosis": "Bolo de 1-2 L; después 200-300 mL/h", "via": "IV", "intervalo": "Perfusión continua", "duracion": "Hasta euvolemia y diuresis 100-150 mL/h", "nota": "Furosemida solo si hay sobrecarga, una vez rehidratado" },
-          { "nombre": "Calcitonina", "ref": "END-calcitonina", "dosis": "4 UI/kg", "via": "SC o IM", "intervalo": "Cada 12 h", "duracion": "48 h (taquifilaxia)" },
-          { "nombre": "Ácido zoledrónico", "ref": "END-acido-zoledronico", "dosis": "4 mg", "via": "IV", "intervalo": "En ≥15 min", "duracion": "Dosis única (repetible a los 7 días si no responde)", "nota": "Ajustar a la función renal" },
-          { "nombre": "Denosumab (insuficiencia renal o refractaria)", "ref": "END-denosumab", "dosis": "120 mg", "via": "SC", "intervalo": "Semanal el primer mes; después cada 4 semanas", "duracion": "Según respuesta", "nota": "Alternativa. Riesgo de hipocalcemia" }
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "Bolo de 1-2 L; después 200-300 mL/h",
+            "via": "IV",
+            "intervalo": "Perfusión continua",
+            "duracion": "Hasta euvolemia y diuresis 100-150 mL/h",
+            "nota": "Furosemida solo si hay sobrecarga, una vez rehidratado"
+          },
+          {
+            "nombre": "Calcitonina",
+            "ref": "END-calcitonina",
+            "dosis": "4 UI/kg",
+            "via": "SC o IM",
+            "intervalo": "Cada 12 h",
+            "duracion": "48 h (taquifilaxia)"
+          },
+          {
+            "nombre": "Ácido zoledrónico",
+            "ref": "END-acido-zoledronico",
+            "dosis": "4 mg",
+            "via": "IV",
+            "intervalo": "En ≥15 min",
+            "duracion": "Dosis única (repetible a los 7 días si no responde)",
+            "nota": "Ajustar a la función renal"
+          },
+          {
+            "nombre": "Denosumab (insuficiencia renal o refractaria)",
+            "ref": "END-denosumab",
+            "dosis": "120 mg",
+            "via": "SC",
+            "intervalo": "Semanal el primer mes; después cada 4 semanas",
+            "duracion": "Según respuesta",
+            "nota": "Alternativa. Riesgo de hipocalcemia"
+          }
         ]
       },
       {
         "titulo": "Hipercalcemia mediada por vitamina D (granulomas, linfoma, intoxicación)",
         "farmacos": [
-          { "nombre": "Prednisona", "ref": "REU-prednisona", "dosis": "20-40 mg", "via": "VO", "intervalo": "Cada 24 h", "duracion": "Según respuesta (días-semanas)" }
+          {
+            "nombre": "Prednisona",
+            "ref": "REU-prednisona",
+            "dosis": "20-40 mg",
+            "via": "VO",
+            "intervalo": "Cada 24 h",
+            "duracion": "Según respuesta (días-semanas)"
+          }
         ]
       }
     ],
@@ -211,12 +504,26 @@
       "**Corregir el calcio por la albúmina: Ca corregido = Ca + 0,8 × (4 − albúmina).**",
       "PTH alta o normal con calcio alto = hiperparatiroidismo; PTH suprimida = buscar neoplasia."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de hipercalcemia; Katzung 15.ª ed., cap. 42"
+    "fuente": "Harrison 20.ª ed., cap. de hipercalcemia; Katzung 15.ª ed., cap. 42",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 5,
+      "cotejadas_en_fuente": 5,
+      "resultado": "Revisadas las 5 pautas (5 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   },
   {
     "id": "PAT-lesion-renal-aguda",
     "nombre": "Lesión renal aguda (fracaso renal agudo)",
-    "sinonimos": ["Insuficiencia renal aguda", "Fracaso renal agudo", "IRA"],
+    "sinonimos": [
+      "Insuficiencia renal aguda",
+      "Fracaso renal agudo",
+      "IRA"
+    ],
     "area": "NFR",
     "resumen": "Aumento de creatinina ≥0,3 mg/dL en 48 h o ≥1,5 veces en 7 días, u oliguria <0,5 mL/kg/h durante 6 h. Clasificar: **prerrenal** (hipovolemia, IC, cirrosis, fármacos), **renal** (necrosis tubular, nefritis intersticial, glomerulonefritis) y **posrenal** (obstrucción: ecografía). Lo principal: **restaurar la volemia, suspender nefrotóxicos y ajustar las dosis** de todos los fármacos.",
     "objetivo": "Recuperar la función renal y evitar las complicaciones (hiperpotasemia, sobrecarga, acidosis).",
@@ -224,20 +531,51 @@
       {
         "titulo": "Prerrenal por hipovolemia",
         "farmacos": [
-          { "nombre": "Cristaloide balanceado (Ringer lactato)", "ref": "NFR-ringer-lactato", "dosis": "500 mL", "via": "IV", "intervalo": "En 15-30 min; repetir según respuesta", "duracion": "Hasta euvolemia", "nota": "Reevaluar tras cada bolo (crepitantes, presión venosa)" },
-          { "nombre": "Suero salino 0,9%", "ref": "NFR-salino-isotonico", "dosis": "500 mL", "via": "IV", "intervalo": "En 15-30 min", "duracion": "Hasta euvolemia", "nota": "Alternativa. Volúmenes grandes producen acidosis hiperclorémica" }
+          {
+            "nombre": "Cristaloide balanceado (Ringer lactato)",
+            "ref": "NFR-ringer-lactato",
+            "dosis": "500 mL",
+            "via": "IV",
+            "intervalo": "En 15-30 min; repetir según respuesta",
+            "duracion": "Hasta euvolemia",
+            "nota": "Reevaluar tras cada bolo (crepitantes, presión venosa)"
+          },
+          {
+            "nombre": "Suero salino 0,9%",
+            "ref": "NFR-salino-isotonico",
+            "dosis": "500 mL",
+            "via": "IV",
+            "intervalo": "En 15-30 min",
+            "duracion": "Hasta euvolemia",
+            "nota": "Alternativa. Volúmenes grandes producen acidosis hiperclorémica"
+          }
         ]
       },
       {
         "titulo": "Sobrecarga de volumen",
         "farmacos": [
-          { "nombre": "Furosemida", "ref": "CAR-furosemida", "dosis": "40-80 mg (hasta 1-1,5 mg/kg)", "via": "IV", "intervalo": "Bolo; repetir o perfusión según diuresis", "duracion": "Mientras haya sobrecarga", "nota": "No mejora el pronóstico renal; solo para el volumen" }
+          {
+            "nombre": "Furosemida",
+            "ref": "CAR-furosemida",
+            "dosis": "40-80 mg (hasta 1-1,5 mg/kg)",
+            "via": "IV",
+            "intervalo": "Bolo; repetir o perfusión según diuresis",
+            "duracion": "Mientras haya sobrecarga",
+            "nota": "No mejora el pronóstico renal; solo para el volumen"
+          }
         ]
       },
       {
         "titulo": "Acidosis metabólica grave (pH <7,2) en espera de diálisis",
         "farmacos": [
-          { "nombre": "Bicarbonato sódico", "ref": "NFR-bicarbonato-sodico", "dosis": "1 mEq/kg (o 150 mEq en 1 L de glucosado 5%)", "via": "IV", "intervalo": "En 1-4 h según gravedad", "duracion": "Según gasometría" }
+          {
+            "nombre": "Bicarbonato sódico",
+            "ref": "NFR-bicarbonato-sodico",
+            "dosis": "1 mEq/kg (o 150 mEq en 1 L de glucosado 5%)",
+            "via": "IV",
+            "intervalo": "En 1-4 h según gravedad",
+            "duracion": "Según gasometría"
+          }
         ]
       }
     ],
@@ -250,6 +588,16 @@
       "**Recalcular la dosis de cada fármaco con la nueva función renal** (antibióticos, anticoagulantes, insulina, digoxina).",
       "Eosinofiluria, fiebre y exantema tras un fármaco nuevo: nefritis intersticial (suspender; valorar corticoide)."
     ],
-    "fuente": "Harrison 20.ª ed., cap. de lesión renal aguda"
+    "fuente": "Harrison 20.ª ed., cap. de lesión renal aguda",
+    "revision": {
+      "fecha": "2026-10-05",
+      "fuentes": [
+        "Harrison 20.ª ed.",
+        "Katzung 15.ª ed."
+      ],
+      "filas": 4,
+      "cotejadas_en_fuente": 3,
+      "resultado": "Revisadas las 4 pautas (3 cotejadas literalmente en la bibliografía; el resto, frente a las guías de referencia): sin discrepancias."
+    }
   }
 ]

@@ -22,7 +22,7 @@ Cada patología sigue el esquema de `data/patologias/` (escenarios con dosis, v�
 | A9 Infecciones | Pie diabético infectado · Osteomielitis y artritis séptica · Endocarditis infecciosa · COVID-19 · Dengue y otras arbovirosis · Leishmaniasis · Enfermedad de Chagas · Esquistosomiasis · Lepra · Parasitosis intestinales · Sífilis en el embarazo y congénita (escenarios nuevos) | Antileishmaniásicos y antitripanosómicos (antimoniato de meglumina, miltefosina, benznidazol, nifurtimox) · antimicobacterianos de segunda línea y antileprosos (dapsona, clofazimina, bedaquilina) · remdesivir |
 | A10 Deuda `sin_ficha` | Las 4 filas restantes | Glucosa oral · angioedema hereditario (icatibant, inhibidor de C1, lanadelumab) · corticoides intranasales (A6) · salino hipertónico nebulizado (pediatría) |
 
-## B. Revisión de dosis contra la bibliografía
+## B. Revisión de dosis contra la bibliografía ✅
 
 - Revisar **todas** las pautas de las patologías (las 88 previas y las nuevas) contra Harrison 20.ª ed. y Katzung 15.ª ed. (`01_Bibliografia/`, que NUNCA se publica).
 - Cada patología recibe un campo `revision` con fecha, fuentes consultadas (capítulo) y resultado; las discrepancias se corrigen y se anotan en `REVISION_DOSIS.md`.
@@ -40,7 +40,7 @@ Cada patología sigue el esquema de `data/patologias/` (escenarios con dosis, v�
 2. **Dosis por peso**: fármaco pediátrico + indicación + peso → dosis por toma y por día, con el tope de dosis máxima de la ficha.
 3. **Verificador de interacciones**: elegir varios fármacos → todas las interacciones registradas entre ellos (por nombre, sinónimo, clase o subclase), ordenadas por gravedad, con efecto y manejo.
 
-## E. Cierre
+## E. Cierre ✅
 
 Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.md, PROCESO_Y_APRENDIZAJE.md, README y playbook · publicación en GitHub tras cada bloque.
 
@@ -56,3 +56,5 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | 2026-10-05 | A8-A10: metabolismo y hábitos, infecciones (incluidas tropicales), deuda `sin_ficha` (12 patologías, 17 fichas, 2 patógenos); 0 filas `sin_ficha` | ✅ |
 | 2026-10-05 | C: 59 cadenas neutralizadas (epidemiología por regiones, EMA/FDA en lugar de agencia nacional, guías internacionales en lugar de nacionales); principio 8 del playbook | ✅ |
 | 2026-10-05 | D: vista «Calculadoras» (hub/calculadoras.js): Cockcroft-Gault (peso real/ideal/ajustado) y CKD-EPI 2021 con resaltado del ajuste renal aplicable; dosis por peso con total diario y alerta de dosis máxima; verificador de interacciones agrupado por par y ordenado por gravedad | ✅ |
+| 2026-10-05 | B: 966 pautas revisadas (791 cotejadas en Harrison/Katzung, todas revisadas clínicamente), 4 correcciones, campo `revision` en las 154 patologías y aviso del validador si falta (REVISION_DOSIS.md) | ✅ |
+| 2026-10-05 | E: pipeline 0 errores/0 avisos, prueba headless, PROGRESO, PROCESO_Y_APRENDIZAJE (#38-40), README y playbook actualizados; publicado | ✅ |

@@ -217,6 +217,7 @@ Cada archivo es un **array** de fichas. Campos obligatorios marcados con ●.
           "duracion": "Indefinida",            // ● durante cuánto
           "alternativa": "o enalapril 10-20 mg cada 12-24 h",
           "nota": "...",
+          "alternativa": "o empagliflozina 10 mg", // TEXTO (no booleano) que se pinta junto al nombre
           "sin_ficha": true,                   // SOLO si el fármaco aún no tiene ficha (deuda declarada, hallazgo #34)
           "otra_poblacion": true               // SOLO si se enlaza a sabiendas a la ficha de la otra población
         }
@@ -225,7 +226,13 @@ Cada archivo es un **array** de fichas. Campos obligatorios marcados con ●.
   ],
   "no_farmacologico": ["..."],
   "claves": ["..."],
-  "fuente": "Harrison 20.ª ed., cap. ..."     // ●
+  "fuente": "Harrison 20.ª ed., cap. ...",    // ●
+  "revision": {                                // ● (aviso si falta) — hallazgo #39, REVISION_DOSIS.md
+    "fecha": "2026-10-05",
+    "fuentes": ["Harrison 20.ª ed.", "Katzung 15.ª ed."],
+    "filas": 6, "cotejadas_en_fuente": 5,
+    "resultado": "Revisadas las 6 pautas: sin discrepancias."
+  }
 }
 ```
 
