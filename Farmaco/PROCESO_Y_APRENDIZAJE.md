@@ -260,7 +260,7 @@ A la pregunta «¿qué porcentaje de la práctica del médico general cubre la p
 
 Con ella, la cobertura era del 73% (156/213), o de ~90% ponderando por frecuencia de consulta. Las lagunas tenían un patrón claro:
 - **urgencias específicas**: PCR, intubación, intoxicaciones;
-- **quejas comunes de consulta** que no parecen «enfermedades»: abscesos, ombro doloroso, epistaxis, ojo seco, aftas, sangrado uterino;
+- **quejas comunes de consulta** que no parecen «enfermedades»: abscesos, hombro doloroso, epistaxis, ojo seco, aftas, sangrado uterino;
 - **pediatría del lactante**.
 
 El cierre añadió 58 patologías y llevó la lista al 100%.
