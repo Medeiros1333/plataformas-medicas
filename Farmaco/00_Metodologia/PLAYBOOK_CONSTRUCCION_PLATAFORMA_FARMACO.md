@@ -15,6 +15,7 @@ Deriva del `PLAYBOOK_CONSTRUCCION_PLATAFORMA.md` del proyecto [[MIR]] y comparte
 5. **Pediatría es una sección propia, no una nota al pie.** Se repite el fármaco completo con datos pediátricos (mg/kg, presentaciones, hitos de edad, contraindicaciones por edad). **La duplicación con la sección de adultos es deliberada y correcta** — no consolidar.
 6. **Datos estructurados, no prosa libre.** A diferencia del proyecto MIR (módulos `.md` parseados con regex), aquí la fuente de verdad es **JSON con esquema fijo** (sección 4). Esto permite validación mecánica fuerte, tablas comparativas automáticas y export a Anki sin ambigüedad de parseo.
 7. **Todo el contenido en español.**
+8. **Sin país.** La plataforma es de farmacología general: nada de sistemas sanitarios, financiación, agencias o guías de un país concreto. Las alertas regulatorias se citan de la EMA y la FDA; las guías, las internacionales (OMS, GINA, GOLD, KDIGO, ESC/AHA, Maastricht, FIGO, AAP…); la epidemiología se expresa por regiones («donde la resistencia a macrólidos es alta»), no por un país (hallazgo #38).
 
 ---
 
@@ -316,6 +317,7 @@ Antes de dar por cerrada una ficha, verificar:
 6. ¿Los ajustes **renal y hepático** están explícitos, aunque sea para decir «no precisa»?
 7. Si es antiinfeccioso: ¿el `espectro` está redactado como **cobertura clínica utilizable** (qué cubre / qué NO cubre), no como una lista taxonómica?
 8. ¿`fuente` cita libro + edición + capítulo?
+9. ¿Está libre de referencias a un país (agencia nacional, guía nacional, «en nuestro medio»)? Ver principio 8.
 
 ## 8.1 Checklist de calidad de una ficha de patógeno
 

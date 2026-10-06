@@ -276,3 +276,28 @@ table.tto .alt { display: block; font-size: .78rem; color: var(--text-muted); fo
 
 /* Fichas que resumen una familia entera (no un fármaco individual) */
 .badge.vision { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+
+/* ---------------- calculadoras ---------------- */
+.calc-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.2rem; box-shadow: var(--shadow); margin-bottom: 1.2rem; }
+.calc-card > h2 { margin: 0 0 .8rem; font-size: 1.05rem; color: var(--primary); }
+.calc-card .filters input[type="text"] { min-width: 120px; }
+.calc-cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; margin-bottom: .6rem; }
+.calc-nota { font-size: .84rem; color: var(--text-muted); margin: .4rem 0 .8rem; }
+.calc-nota-th { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.calc-vacio { color: var(--text-muted); font-size: .88rem; margin: .3rem 0; }
+.calc-tenue td, .calc-tenue { color: var(--text-muted); }
+.calc-sub { font-size: .78rem; color: var(--text-muted); margin-top: .15rem; }
+.calc-orig { font-size: .78rem; color: var(--text-muted); }
+.calc-alerta { display: inline-block; margin-top: .15rem; color: var(--danger); font-weight: 600; font-size: .84rem; }
+mark.aplica { background: var(--warning-bg); color: var(--text); border-bottom: 2px solid var(--warning); padding: 0 .15em; border-radius: 3px; font-weight: 600; }
+.chip.med b { margin-left: .25rem; opacity: .7; }
+.chip.med b:hover { opacity: 1; }
+.int-item { border: 1px solid var(--border); border-left-width: 4px; border-radius: var(--radius); padding: .6rem .8rem; margin-bottom: .6rem; background: var(--bg-card); }
+.int-item > div { margin-top: .2rem; font-size: .9rem; }
+.int-cab { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.int-cab .grav-alta, .int-cab .grav-media, .int-cab .grav-baja { margin-left: auto; font-size: .78rem; }
+.grav-borde-alta { border-left-color: var(--danger); background: var(--danger-bg); }
+.grav-borde-media { border-left-color: var(--warning); }
+.grav-borde-baja { border-left-color: var(--border); }
+@media (max-width: 620px) { .calc-card .filters label, .calc-card .filters input[type="text"], .calc-card .filters select { width: 100%; } }
+.int-reg + .int-reg { border-top: 1px dashed var(--border); margin-top: .45rem; padding-top: .4rem; }

@@ -27,6 +27,7 @@
     <button class="navbtn" data-view="microbiologia">Microbiología</button>
     <button class="navbtn" data-view="correlacion">Correlación</button>
     <button class="navbtn" data-view="comparar">Comparar</button>
+    <button class="navbtn" data-view="calculadoras">Calculadoras</button>
   </nav>
   <div class="busqueda-global">
     <input type="text" id="busqueda-input" placeholder="Buscar patología, fármaco o patógeno…" autocomplete="off">
@@ -178,6 +179,52 @@
     </div>
     <div class="cmp-wrap table-wrap" id="cmp-tabla"></div>
   </section>
+
+  <!-- ================= CALCULADORAS ================= -->
+  <section id="view-calculadoras" class="view hidden">
+    <h1>Calculadoras clínicas</h1>
+    <p class="sub">Función renal con el ajuste de cada fármaco, dosis por peso e interacciones entre la medicación del paciente. Cada resultado se muestra junto al texto original de la ficha: es una ayuda para leerla, no la sustituye.</p>
+
+    <div class="calc-card">
+      <h2>Medicación del paciente</h2>
+      <div class="filters">
+        <label>Añadir fármaco <input type="text" id="calc-med-input" list="calc-datalist" placeholder="Escribe y elige de la lista…"></label>
+        <button class="btn-secondary" id="calc-med-limpiar">Vaciar lista</button>
+      </div>
+      <datalist id="calc-datalist"></datalist>
+      <div class="chips" id="calc-meds"></div>
+    </div>
+
+    <div class="calc-card">
+      <h2>1 · Función renal y ajuste de dosis</h2>
+      <div class="filters">
+        <label>Edad (años) <input type="text" id="ren-edad" inputmode="decimal" placeholder="p. ej. 78"></label>
+        <label>Sexo <select id="ren-sexo"><option value="H">Hombre</option><option value="M">Mujer</option></select></label>
+        <label>Peso (kg) <input type="text" id="ren-peso" inputmode="decimal" placeholder="p. ej. 64"></label>
+        <label>Talla (cm, opcional) <input type="text" id="ren-talla" inputmode="decimal" placeholder="para peso ideal"></label>
+        <label>Creatinina <input type="text" id="ren-cr" inputmode="decimal" placeholder="p. ej. 1,4"></label>
+        <label>Unidad <select id="ren-cr-u"><option value="mgdl">mg/dL</option><option value="umol">µmol/L</option></select></label>
+        <label>Usar para los ajustes <select id="ren-usar"><option value="cg">Cockcroft-Gault</option><option value="epi">CKD-EPI 2021</option></select></label>
+      </div>
+      <div id="ren-resultado"></div>
+      <div class="filters"><label>Consultar otro fármaco <input type="text" id="ren-filtro" placeholder="si la lista del paciente está vacía"></label></div>
+      <div class="table-wrap" id="ren-tabla"></div>
+    </div>
+
+    <div class="calc-card">
+      <h2>2 · Dosis por peso</h2>
+      <div class="filters">
+        <label>Fármaco <select id="pes-farmaco"></select></label>
+        <label>Peso (kg) <input type="text" id="pes-peso" inputmode="decimal" placeholder="p. ej. 18"></label>
+      </div>
+      <div id="pes-resultado"></div>
+    </div>
+
+    <div class="calc-card">
+      <h2>3 · Interacciones entre la medicación del paciente</h2>
+      <div id="int-resultado"></div>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
@@ -188,5 +235,6 @@
 
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script src="calculadoras.js"></script>
 </body>
 </html>

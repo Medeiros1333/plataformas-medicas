@@ -28,13 +28,13 @@ Cada patología sigue el esquema de `data/patologias/` (escenarios con dosis, v�
 - Cada patología recibe un campo `revision` con fecha, fuentes consultadas (capítulo) y resultado; las discrepancias se corrigen y se anotan en `REVISION_DOSIS.md`.
 - El Hub muestra en cada patología «Pauta revisada con: …».
 
-## C. Neutralidad de país (sustituye a la «adaptación a un país»)
+## C. Neutralidad de país (sustituye a la «adaptación a un país») ✅
 
 - Eliminar o generalizar las referencias a un país concreto (≈50: «en España», AEMPS, financiación, receta): las alertas regulatorias pasan a «agencias reguladoras (EMA, FDA)» y la epidemiología local a «regiones con alta resistencia».
 - Las dosis siguen referencias internacionales (OMS, guías europeas y norteamericanas, Harrison, Katzung).
 - Las enfermedades tropicales del bloque A9 entran como infectología general, no como módulo de un país.
 
-## D. Herramientas clínicas del Hub (nueva vista «Calculadoras»)
+## D. Herramientas clínicas del Hub (nueva vista «Calculadoras») ✅
 
 1. **Función renal**: Cockcroft-Gault (aclaramiento de creatinina) y CKD-EPI 2021 (FGe); con el resultado, lista de los fármacos elegidos con su `ajuste_renal`.
 2. **Dosis por peso**: fármaco pediátrico + indicación + peso → dosis por toma y por día, con el tope de dosis máxima de la ficha.
@@ -54,3 +54,5 @@ Pipeline completo (0 errores, 0 avisos) · prueba headless del Hub · PROGRESO.m
 | 2026-10-05 | A1-A3: urgencias, cardiovascular, digestivo, locomotor y neurología (28 patologías, 38 fichas) | ✅ |
 | 2026-10-05 | A4-A7: nefrourología, mujer y embarazo, respiratorio-ORL-ojo, piel (34 patologías, 52 fichas) | ✅ |
 | 2026-10-05 | A8-A10: metabolismo y hábitos, infecciones (incluidas tropicales), deuda `sin_ficha` (12 patologías, 17 fichas, 2 patógenos); 0 filas `sin_ficha` | ✅ |
+| 2026-10-05 | C: 59 cadenas neutralizadas (epidemiología por regiones, EMA/FDA en lugar de agencia nacional, guías internacionales en lugar de nacionales); principio 8 del playbook | ✅ |
+| 2026-10-05 | D: vista «Calculadoras» (hub/calculadoras.js): Cockcroft-Gault (peso real/ideal/ajustado) y CKD-EPI 2021 con resaltado del ajuste renal aplicable; dosis por peso con total diario y alerta de dosis máxima; verificador de interacciones agrupado por par y ordenado por gravedad | ✅ |
