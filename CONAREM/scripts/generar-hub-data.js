@@ -8,21 +8,25 @@
 const fs = require('fs');
 const path = require('path');
 const { firma, jaccard, letraEquivalente } = require('./lib-similitud');
+const { AREAS: TAXO, ORDEN_TRONCALES } = require('./taxonomia');
+const { clasificar } = require('./lib-clasificar');
 
 const RAIZ = path.join(__dirname, '..');
 const leer = (...p) => JSON.parse(fs.readFileSync(path.join(RAIZ, ...p), 'utf8'));
 const existe = (...p) => fs.existsSync(path.join(RAIZ, ...p));
 
+// El Hub se organiza solo en las 5 troncales; las preguntas de subespecialidades se reparten entre ellas
+// por contenido y conservan su origen (area_origen) para poder filtrarlas aparte.
 const AREAS = {
-  CIR: { nombre: 'Cirugía General', corto: 'Cirugía' },
-  GO: { nombre: 'Ginecología y Obstetricia', corto: 'Gineco-Obst.' },
-  SP: { nombre: 'Salud Pública', corto: 'Salud Pública' },
-  MI: { nombre: 'Medicina Interna', corto: 'Med. Interna' },
+  MI: { nombre: 'Medicina Interna', corto: 'Med. Interna', clinica: 'Clínica Médica' },
   PED: { nombre: 'Pediatría', corto: 'Pediatría' },
-  CARDIO: { nombre: 'Cardiología', corto: 'Cardiología', sub: true },
-  TRAUMA: { nombre: 'Traumatología', corto: 'Traumatología', sub: true },
-  EM: { nombre: 'Emergentología', corto: 'Emergentología', sub: true },
-  MF: { nombre: 'Medicina Familiar', corto: 'Med. Familiar', sub: true }
+  CIR: { nombre: 'Cirugía General', corto: 'Cirugía', clinica: 'Clínica Quirúrgica' },
+  GO: { nombre: 'Ginecología y Obstetricia', corto: 'Gineco-Obst.' },
+  SP: { nombre: 'Salud Pública', corto: 'Salud Pública' }
+};
+const AREAS_ORIGEN = {
+  CIR: 'Cirugía General', GO: 'Gineco-Obstetricia', MI: 'Medicina Interna', PED: 'Pediatría', SP: 'Salud Pública',
+  CARDIO: 'Cardiología', TRAUMA: 'Traumatología', EM: 'Emergentología', MF: 'Medicina Familiar'
 };
 
 // Distribución del examen troncal según el formato más reciente (CONAREM 2026):
@@ -56,58 +60,35 @@ const PDF_OFICIAL = {
 };
 
 // ---------------------------------------------------------------------------
-// Temario oficial (texto extraído con pdftotext -layout de los PDF de bibliografía del INS)
+// Índice de los libros (data/privado/indice_libros.json, generado por indice-libros.js desde los PDF)
+// y capítulos por tema (data/referencias_libros.json)
 // ---------------------------------------------------------------------------
-function lineasTemario(nombre) {
-  const f = path.join(RAIZ, 'data', 'temario_txt', nombre + '.txt');
-  if (!fs.existsSync(f)) return [];
-  return fs.readFileSync(f, 'utf8').replace(/\r/g, '').split('\n').map(l => l.trim())
-    .filter(l => l && !/Avda\. Sant|Asunción, Paraguay|\(021\)/.test(l));
-}
-const limpiarTitulo = t => t.replace(/\s+/g, ' ').replace(/[.:;,]\s*$/, '').trim();
-
-function temarioCapitulos(nombre) {           // CIR y GO: "Capítulo N: título"
-  const out = [];
-  let seccion = '';
-  for (const l of lineasTemario(nombre)) {
-    let m;
-    if ((m = l.match(/^\d+\.\s*(SECCI[ÓO]N\s*\d+:\s*)?(.+)$/)) && !/Cap[ií]tulo/.test(l)) {
-      seccion = limpiarTitulo(m[2]);
-      continue;
-    }
-    if ((m = l.match(/Cap[ií]tulo\s*(\d+)\s*:\s*(.+)$/))) {
-      out.push({ grupo: seccion, titulo: `Cap. ${m[1]}: ${limpiarTitulo(m[2])}` });
-    }
-  }
-  return out;
-}
-
-function temarioNumerado(nombre, { profundidad = 2, excluir = /^$/ } = {}) {   // MI, PED, SP: "N.N. título"
-  const out = [];
-  let grupo = '';
-  for (const l of lineasTemario(nombre)) {
-    const m = l.match(/^(\d+(?:\.\d+)*)\.?\s+(.+)$/);
-    if (!m) continue;
-    const nivel = m[1].split('.').length;
-    const texto = limpiarTitulo(m[2].split(/:\s/)[0].split(/\.\s/)[0]);
-    if (nivel === 1) { grupo = limpiarTitulo(m[2].replace(/^Módulo\s*\d+:\s*/i, '')); continue; }
-    if (nivel > profundidad || excluir.test(texto) || texto.length < 3) continue;
-    out.push({ grupo, titulo: texto });
-  }
-  return out;
-}
-
-const TEMARIO = {
-  CIR: temarioCapitulos('CIRUGIA-GENERAL_Bibliografia_Temario_TRONCAL'),
-  GO: temarioCapitulos('GINECOBSTETRICIA_Bibliografia_Temario_TRONCAL'),
-  MI: temarioNumerado('MEDICINA-INTERNA_Bibliografia_Temario_TRONCAL'),
-  PED: temarioNumerado('PEDIATRIA_Bibliografia_Temario_TRONCAL', { profundidad: 3 }),
-  SP: temarioNumerado('SALUD-PUBLICA_Bibliografia_Temario_TRONCAL', { excluir: /^Referencias/i })
+const INDICE = existe('data', 'privado', 'indice_libros.json') ? leer('data', 'privado', 'indice_libros.json') : {};
+const REFS = existe('data', 'referencias_libros.json') ? leer('data', 'referencias_libros.json') : {};
+const LIBRO_CORTO = {
+  HARRISON20: 'Harrison 20ª ed.', SCHWARTZ11: 'Schwartz 11ª ed.', WILLIAMS_OBS26: 'Williams Obstetricia 26ª ed.',
+  WILLIAMS_GIN4: 'Williams Gynecology 4ª ed.', NELSON22: 'Nelson 22ª ed.', JOHNS_HOPKINS6: 'Manual Johns Hopkins 6ª ed.'
 };
+function capitulo(libro, n) {
+  const c = INDICE[libro] && INDICE[libro].capitulos.find(x => x.n === n);
+  return c ? { n, titulo: c.titulo, pagina: c.pagina } : { n };
+}
+function refsTema(clave) {
+  return (REFS[clave] || []).map(([libro, caps]) => ({ libro, caps: caps.map(n => capitulo(libro, n)) }));
+}
+// ítems del edital de CIR y GO que citan un capítulo ("Cap. 7: ...", "Ginecología cap. 37: ...")
+const SUB_GINECO = new Set(['GINEBEN', 'ENDOREP', 'UROGINE', 'ONCOGIN']);
+function refItem(area, sub, texto) {
+  const m = texto.match(/^(Ginecología )?[Cc]ap\. (\d+)/);
+  if (!m || !['CIR', 'GO'].includes(area)) return null;
+  const libro = area === 'CIR' ? 'SCHWARTZ11' : (m[1] || SUB_GINECO.has(sub) ? 'WILLIAMS_GIN4' : 'WILLIAMS_OBS26');
+  return { libro, cap: capitulo(libro, +m[2]) };
+}
 
 // ---------------------------------------------------------------------------
 const oficiales = leer('data', 'preguntas_oficiales.json');
 const conaflix = existe('data', 'conaflix_temas.json') ? leer('data', 'conaflix_temas.json') : [];
+const simuresi = existe('data', 'privado', 'simuresi_preguntas.json') ? leer('data', 'privado', 'simuresi_preguntas.json') : [];
 
 // Explicaciones propias (data/explicaciones/*.json: { id: { e: texto, r: referencia } })
 const explicaciones = {};
@@ -137,10 +118,57 @@ for (let i = 0; i < oficiales.length; i++) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Clasificación troncal -> contenido -> tema (todas las preguntas juntas: los vecinos ayudan a las dudosas)
+// ---------------------------------------------------------------------------
+const preguntasConaflixRaw = conaflix.flatMap(t => t.preguntas.map(q => ({ ...q, tema_titulo: t.titulo })));
+const manual = existe('data', 'clasificacion_manual.json') ? leer('data', 'clasificacion_manual.json') : {};
+const clasif = clasificar([...oficiales, ...preguntasConaflixRaw, ...simuresi], manual);
+function aplicarClasif(q) {
+  const c = clasif.get(q.id);
+  if (!c) return q;
+  if (q.area !== c.area) q.area_origen = q.area;
+  else if (q.tipo === 'SUB') q.area_origen = q.area;
+  q.area = c.area; q.sub = c.sub;
+  if (c.tema) q.tema = c.tema;
+  return q;
+}
+oficiales.forEach(aplicarClasif);
+preguntasConaflixRaw.forEach(aplicarClasif);
+simuresi.forEach(aplicarClasif);
+
+// Taxonomía pública con la frecuencia de cada contenido/tema en los exámenes oficiales
+const ANIOS = [...new Set(oficiales.map(p => p.anio))].sort();
+const taxonomia = {};
+for (const area of ORDEN_TRONCALES) {
+  const T = TAXO[area];
+  const delArea = oficiales.filter(p => p.area === area);
+  const tro = delArea.filter(p => p.tipo === 'TRO');
+  taxonomia[area] = {
+    nombre: T.nombre, libro: T.libro, total_tro: tro.length, total_sub: delArea.length - tro.length,
+    subareas: T.subareas.map(s => {
+      const qs = tro.filter(p => p.sub === s.id);
+      const porAnio = {};
+      ANIOS.forEach(a => { const n = qs.filter(p => p.anio === a).length; if (n) porAnio[a] = n; });
+      return {
+        id: s.id, nombre: s.nombre, ref: s.ref,
+        tro: qs.length, sub: delArea.filter(p => p.tipo === 'SUB' && p.sub === s.id).length, por_anio: porAnio,
+        edital: s.edital.map(t => { const r = refItem(area, s.id, t); return r ? { t, ref: r } : { t }; }),
+        temas: s.temas.map(t => ({
+          id: t.id, nombre: t.nombre,
+          tro: qs.filter(p => p.tema === t.id).length,
+          sub: delArea.filter(p => p.tipo === 'SUB' && p.sub === s.id && p.tema === t.id).length,
+          libros: refsTema(`${area}-${s.id}-${t.id}`)
+        }))
+      };
+    })
+  };
+}
+
 // Exámenes oficiales (para el modo "rendir el examen tal cual")
 const examenes = [];
 for (const p of oficiales) {
-  const clave = `${p.anio}-${p.tipo}-${p.tipo === 'TRO' ? p.bloque : p.area}`;
+  const clave = `${p.anio}-${p.tipo}-${p.tipo === 'TRO' ? p.bloque : (p.area_origen || p.area)}`;
   let ex = examenes.find(e => e.id === clave);
   if (!ex) {
     ex = { id: clave, titulo: p.examen.replace(/\s*\(Fila 1\)/, ''), anio: p.anio, tipo: p.tipo, bloque: p.bloque, pdf: PDF_OFICIAL[clave] || null, preguntas: [] };
@@ -151,17 +179,20 @@ for (const p of oficiales) {
 }
 examenes.sort((a, b) => b.anio - a.anio || a.tipo.localeCompare(b.tipo) || a.id.localeCompare(b.id));
 
-const preguntasConaflix = conaflix.flatMap(t => t.preguntas.map(q => ({ ...q, tema_titulo: t.titulo })));
+const preguntasConaflix = preguntasConaflixRaw;
 const temas = conaflix.map(({ preguntas, ...t }) => ({ ...t, preguntas: preguntas.map(q => q.id) }));
 
 const publico = {
   generado: new Date().toISOString().slice(0, 10),
   areas: AREAS,
+  areas_origen: AREAS_ORIGEN,
+  orden: ORDEN_TRONCALES,
   bloques: BLOQUES,
   examenes,
   preguntas: [...oficiales, ...preguntasConaflix],
   temas,
-  temario: TEMARIO,
+  taxonomia,
+  libros: Object.fromEntries(Object.entries(LIBRO_CORTO).map(([id, corto]) => [id, { corto, titulo: INDICE[id] ? INDICE[id].titulo : corto }])),
   bibliografia: leer('data', 'bibliografia.json')
 };
 
@@ -175,8 +206,8 @@ fs.writeFileSync(path.join(HUB, 'data.js'), cabecera + 'window.CONAREM_DATA = ' 
 // explicaciones para esas oficiales (remapeando letras, que pueden cambiar entre bancos).
 // ---------------------------------------------------------------------------
 let resumenPrivado = 'sin banco privado';
-if (existe('data', 'privado', 'simuresi_preguntas.json')) {
-  const sr = leer('data', 'privado', 'simuresi_preguntas.json');
+if (simuresi.length) {
+  const sr = simuresi;
   const flash = existe('data', 'privado', 'simuresi_flashcards.json') ? leer('data', 'privado', 'simuresi_flashcards.json') : [];
   const firmasSr = sr.map(firma);
   const usadas = new Set();
@@ -205,7 +236,14 @@ if (existe('data', 'privado', 'simuresi_preguntas.json')) {
   // si una pregunta de una serie quedó sin su enunciado base, la serie se rompe: se quita la marca
   const ids = new Set(extra.map(q => q.id));
   for (const q of extra) if (q.serie && !ids.has(q.serie) && !extra.some(o => o !== q && o.serie === q.serie)) delete q.serie;
-  const privado = { preguntas: extra, flashcards: flash, explicaciones_oficiales: explicacionesOficiales };
+  // enlaces a los PDF locales de los libros (el Hub abierto desde esta computadora los abre en el capítulo)
+  const libros = {};
+  for (const [id, lib] of Object.entries(INDICE)) {
+    if (id.startsWith('_') || !INDICE._carpeta) continue;
+    const ruta = path.join(INDICE._carpeta, lib.archivo);
+    if (fs.existsSync(ruta)) libros[id] = 'file:///' + encodeURI(ruta.replace(/\\/g, '/')).replace(/#/g, '%23');
+  }
+  const privado = { preguntas: extra, flashcards: flash, explicaciones_oficiales: explicacionesOficiales, libros };
   fs.writeFileSync(path.join(HUB, 'data_privado.js'), cabecera + '// USO PERSONAL — no se publica (ver publicar_github.ps1).\nwindow.CONAREM_PRIVADO = ' + JSON.stringify(privado) + ';\n');
   resumenPrivado = `${extra.length} preguntas SimuResi extra, ${flash.length} flashcards, ${Object.keys(explicacionesOficiales).length} explicaciones para oficiales (${discrepancias} con gabarito distinto, ignoradas)`;
 }
@@ -213,5 +251,8 @@ if (existe('data', 'privado', 'simuresi_preguntas.json')) {
 const conExpl = oficiales.filter(p => p.explicacion).length;
 const rep = oficiales.filter(p => p.repetida_en).length;
 console.log(`hub/data.js: ${oficiales.length} oficiales (${conExpl} con explicación propia, ${rep} repetidas entre años), ${preguntasConaflix.length} CONAFLIX, ${temas.length} temas, ${examenes.length} exámenes`);
-console.log('Temario:', Object.entries(TEMARIO).map(([a, t]) => `${a} ${t.length}`).join(', '));
+console.log('Contenidos:', ORDEN_TRONCALES.map(a => `${a} ${taxonomia[a].subareas.length} (${taxonomia[a].subareas.reduce((s, x) => s + x.edital.length, 0)} ítems del edital)`).join(', '));
+const metodos = {};
+for (const c of clasif.values()) metodos[c.metodo] = (metodos[c.metodo] || 0) + 1;
+console.log('Clasificación:', JSON.stringify(metodos));
 console.log('hub/data_privado.js:', resumenPrivado);

@@ -5,7 +5,7 @@
 
 const D = window.CONAREM_DATA || null;
 const P = window.CONAREM_PRIVADO || null;
-const TRONCALES = ['CIR', 'GO', 'SP', 'MI', 'PED'];
+const TRONCALES = (D && D.orden) || ['MI', 'PED', 'CIR', 'GO', 'SP'];
 const FUENTE_LABEL = { oficial: 'Oficial', conaflix: 'CONAFLIX', simuresi: 'Banco extra' };
 
 const state = {
@@ -60,6 +60,33 @@ function tomarN(pool, n) {
 }
 const areaNombre = a => (D.areas[a] && D.areas[a].nombre) || a;
 const areaCorto = a => (D.areas[a] && D.areas[a].corto) || a;
+const subareasDe = a => (D.taxonomia[a] && D.taxonomia[a].subareas) || [];
+const subObj = (a, s) => subareasDe(a).find(x => x.id === s) || null;
+const subNombre = (a, s) => { const o = subObj(a, s); return o ? o.nombre : (s || ''); };
+const temaObj = (a, s, t) => { const o = subObj(a, s); return o ? o.temas.find(x => x.id === t) || null : null; };
+// Las preguntas oficiales de subespecialidades se separan de las troncales (el resto del banco es troncal).
+const esSub = q => q.fuente === 'oficial' && q.tipo === 'SUB';
+function filtrarTipo(pool, tipo) {
+  if (tipo === 'SUB') return pool.filter(esSub);
+  if (tipo === 'TRO') return pool.filter(q => !esSub(q));
+  return pool;
+}
+// Incidencia de un contenido = % de las preguntas troncales oficiales del área que cayeron en él.
+function incidencia(area, n) {
+  const total = D.taxonomia[area] ? D.taxonomia[area].total_tro : 0;
+  const p = total ? 100 * n / total : 0;
+  if (!n) return { p: 0, nivel: 'nula', label: 'Aún no preguntado' };
+  if (p >= 10) return { p, nivel: 'alta', label: 'Alta incidencia' };
+  if (p >= 5) return { p, nivel: 'media', label: 'Incidencia media' };
+  return { p, nivel: 'baja', label: 'Baja incidencia' };
+}
+// Enlace a un capítulo de libro: abre el PDF local en la página (si el Hub se abre en esta computadora).
+function htmlCap(libro, c) {
+  const L = D.libros[libro] || { corto: libro };
+  const url = P && P.libros && P.libros[libro] && c.pagina ? `${P.libros[libro]}#page=${c.pagina}` : null;
+  const txt = `${L.corto} — cap. ${c.n}${c.titulo ? ': ' + c.titulo : ''}`;
+  return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener" title="Abrir el PDF en la página ${c.pagina}">📖 ${escapeHtml(txt)}</a>` : `📖 ${escapeHtml(txt)}`;
+}
 function fechaLocal(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
 function hoyLocal() { return fechaLocal(new Date()); }
 function sumarDias(iso, n) { const d = new Date(iso + 'T12:00:00'); d.setDate(d.getDate() + n); return fechaLocal(d); }
@@ -95,7 +122,7 @@ function cargarDatos() {
 const tieneExpl = q => !!(q.explicacion && q.explicacion.trim().length > 5);
 
 function etiquetaFuente(q) {
-  if (q.fuente === 'oficial') return `CONAREM ${q.anio} · ${q.tipo === 'TRO' ? 'Bloque ' + q.bloque : 'Sub ' + q.bloque} · #${q.numero}`;
+  if (q.fuente === 'oficial') return `CONAREM ${q.anio} · ${q.tipo === 'TRO' ? 'Troncal · Bloque ' + q.bloque : 'Subespecialidad ' + (D.areas_origen[q.area_origen] || q.bloque)} · #${q.numero}`;
   if (q.fuente === 'conaflix') return 'CONAFLIX · ' + (q.tema_titulo || '');
   return FUENTE_LABEL[q.fuente] || q.fuente;
 }
@@ -113,7 +140,7 @@ function setView(view) {
   document.getElementById('view-' + view).classList.remove('hidden');
   if (!state.progreso) return;
   if (view === 'dashboard') renderDashboard();
-  if (view === 'banco') renderBancoResumen();
+  if (view === 'banco') { renderBancoContenidos(); renderBancoResumen(); }
   if (view === 'simulacro' && !state.simulacro) renderSimConfig();
   if (view === 'repaso') renderRepaso();
   if (view === 'flashcards') renderFlashcards();
@@ -236,9 +263,11 @@ function actualizarBadgeRepaso() {
 // ------------------------------------------------------------------
 function htmlMeta(q, extra = '') {
   const pdf = q.fuente === 'oficial' ? (D.examenes.find(e => e.id === q.examen_id) || {}).pdf : null;
+  const t = temaObj(q.area, q.sub, q.tema);
   return `<div class="meta">
-      <span class="tag ${q.fuente === 'oficial' ? 'tag-oficial' : ''}">${escapeHtml(etiquetaFuente(q))}</span>
-      <span class="tag">${escapeHtml(areaNombre(q.area))}</span>
+      <span class="tag ${q.fuente === 'oficial' ? (esSub(q) ? 'tag-sub' : 'tag-oficial') : ''}">${escapeHtml(etiquetaFuente(q))}</span>
+      <span class="tag">${escapeHtml(areaNombre(q.area))}${q.sub ? ' › ' + escapeHtml(subNombre(q.area, q.sub)) : ''}</span>
+      ${t ? `<span class="tag tag-tema">${escapeHtml(t.nombre)}</span>` : ''}
       ${q.repetida_en ? `<span class="tag tag-repetida" title="${escapeHtml('También en: ' + q.repetida_en.join(', '))}">🔁 Repetida</span>` : ''}
       ${q.revision_incierta ? '<span class="tag tag-warning">⚠️ Gabarito en revisión</span>' : ''}
       ${extra}
@@ -271,6 +300,8 @@ function htmlExplicacion(q) {
     h += `<div class="nota-verif">Explicación aún no disponible. Respuesta según el gabarito oficial.</div>`;
   }
   if (q.referencia) h += `<div class="ref">📚 ${escapeHtml(q.referencia)}</div>`;
+  const t = temaObj(q.area, q.sub, q.tema);
+  if (t && t.libros.length) h += `<div class="ref ref-libros">Para repasar el tema: ${t.libros.map(l => l.caps.slice(0, 3).map(c => htmlCap(l.libro, c)).join(' · ')).join(' · ')}</div>`;
   if (q.repetida_en) h += `<div class="ref">🔁 También apareció en: ${escapeHtml(q.repetida_en.join(' · '))}</div>`;
   return h;
 }
@@ -311,18 +342,18 @@ function renderDashboard() {
   const intentos = resp.reduce((s, h) => s + h.n, 0);
   const aciertos = resp.reduce((s, h) => s + h.ok, 0);
   const pend = srsPendientes().length;
-  const temarioTotal = TRONCALES.reduce((s, a) => s + (D.temario[a] || []).length, 0);
-  const temarioHecho = Object.keys(state.progreso.temario).length;
+  const temarioTotal = itemsTemario().length;
+  const temarioHecho = itemsTemario().filter(it => state.progreso.temario[it.clave]).length;
   document.getElementById('dash-progreso').innerHTML = `
     ${pend ? `<div class="repaso-aviso"><span>🧠 Tienes <b>${pend}</b> pregunta${pend === 1 ? '' : 's'} para repasar hoy.</span>
       <button class="btn-primary" id="dash-ir-repaso">Repasar ahora</button></div>` : ''}`;
   const b = document.getElementById('dash-ir-repaso');
   if (b) b.addEventListener('click', () => setView('repaso'));
 
-  const oficiales = state.preguntas.filter(q => q.fuente === 'oficial').length;
+  const ofTro = state.preguntas.filter(q => q.fuente === 'oficial' && q.tipo === 'TRO').length;
   document.getElementById('stats-grid').innerHTML = [
-    ['Preguntas en el banco', state.preguntas.length.toLocaleString('es-PY')],
-    ['Oficiales (INS)', oficiales.toLocaleString('es-PY')],
+    ['Preguntas troncales', filtrarTipo(state.preguntas, 'TRO').length.toLocaleString('es-PY')],
+    ['Oficiales troncales (INS)', ofTro.toLocaleString('es-PY')],
     ['Respondidas', resp.length.toLocaleString('es-PY')],
     ['Acierto global', intentos ? pct(aciertos, intentos) + '%' : '—'],
     ['En el repaso', Object.keys(srs).length],
@@ -331,60 +362,146 @@ function renderDashboard() {
   ].map(([l, n]) => `<div class="stat-card"><div class="num">${n}</div><div class="label">${l}</div></div>`).join('');
 
   const est = estadisticasPorArea();
-  const areasConDatos = Object.keys(D.areas).filter(a => state.preguntas.some(q => q.area === a));
-  document.getElementById('dash-areas').innerHTML = areasConDatos.map(a => {
+  document.getElementById('dash-areas').innerHTML = TRONCALES.map(a => {
     const o = est[a];
     const p = o ? pct(o.ok, o.intentos) : 0;
     return `<div class="barra-area"><span>${escapeHtml(areaNombre(a))}${o ? ` <small style="color:var(--text-muted)">(${o.resp} resp.)</small>` : ''}</span>
       <div class="barra"><div style="width:${p}%"></div></div><span class="pct">${o ? p + '%' : '—'}</span></div>`;
   }).join('');
 
-  document.querySelector('#tabla-areas tbody').innerHTML = areasConDatos.map(a => {
+  // contenidos: los que más caen en el examen y los que peor te van
+  const porSub = {};
+  for (const [id, h] of Object.entries(state.progreso.historial)) {
+    const q = state.porId.get(id);
+    if (!q || !q.sub || esSub(q)) continue;
+    const k = q.area + '|' + q.sub;
+    const o = porSub[k] = porSub[k] || { n: 0, ok: 0 };
+    o.n += h.n; o.ok += h.ok;
+  }
+  const todos = TRONCALES.flatMap(a => subareasDe(a).map(s => ({ a, s, inc: incidencia(a, s.tro) })));
+  const top = todos.slice().sort((x, y) => y.inc.p - x.inc.p).slice(0, 8);
+  const debiles = Object.entries(porSub).filter(([, o]) => o.n >= 5).map(([k, o]) => {
+    const [a, s] = k.split('|');
+    return { a, s: subObj(a, s), p: pct(o.ok, o.n), n: o.n };
+  }).filter(x => x.s).sort((x, y) => x.p - y.p).slice(0, 6);
+  const chip = (a, s, extra) => `<button class="chip-contenido" data-area="${a}" data-sub="${s.id}"><b>${escapeHtml(s.nombre)}</b><span>${escapeHtml(areaCorto(a))} · ${extra}</span></button>`;
+  document.getElementById('dash-debiles').innerHTML = `
+    <p class="repaso-intro">Los contenidos que más preguntas tuvieron en los exámenes troncales oficiales (2022, 2024 y 2026)${debiles.length ? ' y los que peor te están yendo' : ''}. Toca uno para practicarlo.</p>
+    <div class="chips-contenidos">${top.map(x => chip(x.a, x.s, `${x.s.tro} preg. · ${Math.round(x.inc.p)}% de ${escapeHtml(areaCorto(x.a))}`)).join('')}</div>
+    ${debiles.length ? `<h3 style="margin-top:14px">Tus contenidos más débiles</h3><div class="chips-contenidos">${debiles.map(x => chip(x.a, x.s, `${x.p}% de acierto (${x.n} resp.)`)).join('')}</div>` : ''}`;
+  document.querySelectorAll('#dash-debiles .chip-contenido').forEach(b => b.addEventListener('click', () => irABanco(b.dataset.area, b.dataset.sub)));
+
+  document.querySelector('#tabla-areas tbody').innerHTML = TRONCALES.map(a => {
     const qs = state.preguntas.filter(q => q.area === a);
-    const of = qs.filter(q => q.fuente === 'oficial');
+    const tro = qs.filter(q => q.fuente === 'oficial' && q.tipo === 'TRO');
+    const sub = qs.filter(esSub);
     return `<tr class="fila-area" data-area="${a}" style="cursor:pointer" title="Estudiar ${escapeHtml(areaNombre(a))}">
-      <td>${escapeHtml(areaNombre(a))}${D.areas[a].sub ? ' <small style="color:var(--text-muted)">(sub)</small>' : ''}</td>
-      <td>${of.length}</td><td>${of.filter(tieneExpl).length}</td><td>${qs.length - of.length}</td><td>${qs.length}</td></tr>`;
+      <td>${escapeHtml(areaNombre(a))}</td>
+      <td>${tro.length}</td><td>${tro.filter(tieneExpl).length}</td><td>${sub.length}</td><td>${qs.length - tro.length - sub.length}</td><td>${qs.length}</td></tr>`;
   }).join('');
-  document.querySelectorAll('.fila-area').forEach(tr => tr.addEventListener('click', () => {
-    setView('banco');
-    document.getElementById('sel-area').value = tr.dataset.area;
-    renderBancoResumen();
-  }));
+  document.querySelectorAll('.fila-area').forEach(tr => tr.addEventListener('click', () => irABanco(tr.dataset.area)));
+}
+function irABanco(area, sub) {
+  setView('banco');
+  bancoSet({ area: area || 'troncales', sub: sub || 'todos', tema: 'todos' });
 }
 
 // ------------------------------------------------------------------
 // BANCO DE PREGUNTAS
 // ------------------------------------------------------------------
 function opcionesFuente() {
-  const o = [['todas', 'Todas las fuentes'], ['oficial', 'Exámenes oficiales (todos)'], ['oficial-TRO', 'Oficiales · troncales'], ['oficial-SUB', 'Oficiales · subespecialidades'], ['conaflix', 'CONAFLIX']];
+  const o = [['todas', 'Todas las fuentes'], ['oficial', 'Exámenes oficiales del INS'], ['conaflix', 'CONAFLIX']];
   if (P && P.preguntas && P.preguntas.length) o.push(['simuresi', 'Banco extra (uso personal)']);
   return o.map(([v, l]) => `<option value="${v}">${l}</option>`).join('');
 }
-function opcionesArea(incluirTroncales = true) {
-  const areas = Object.keys(D.areas).filter(a => state.preguntas.some(q => q.area === a));
-  return '<option value="todas">Todas las áreas</option>' +
-    (incluirTroncales ? '<option value="troncales">Las 5 troncales</option>' : '') +
-    areas.map(a => `<option value="${a}">${escapeHtml(areaNombre(a))} (${state.preguntas.filter(q => q.area === a).length})</option>`).join('');
+const cuenta = (pool, f) => pool.filter(f).length;
+function opcionesArea(pool) {
+  return `<option value="troncales">Las 5 troncales (${pool.length})</option>` +
+    TRONCALES.map(a => `<option value="${a}">${escapeHtml(areaNombre(a))} (${cuenta(pool, q => q.area === a)})</option>`).join('');
+}
+function opcionesSub(area, pool) {
+  if (!TRONCALES.includes(area)) return '<option value="todos">Elige una troncal</option>';
+  return '<option value="todos">Todos los contenidos</option>' + subareasDe(area).map(s =>
+    `<option value="${s.id}">${escapeHtml(s.nombre)} (${cuenta(pool, q => q.area === area && q.sub === s.id)})</option>`).join('');
+}
+function opcionesTema(area, sub, pool) {
+  const s = subObj(area, sub);
+  if (!s) return '<option value="todos">Todos los temas</option>';
+  return '<option value="todos">Todos los temas</option>' + s.temas.map(t =>
+    `<option value="${t.id}">${escapeHtml(t.nombre)} (${cuenta(pool, q => q.area === area && q.sub === sub && q.tema === t.id)})</option>`).join('');
 }
 function filtrarFuente(pool, f) {
-  if (f === 'todas') return pool;
-  if (f === 'oficial') return pool.filter(q => q.fuente === 'oficial');
-  if (f === 'oficial-TRO') return pool.filter(q => q.fuente === 'oficial' && q.tipo === 'TRO');
-  if (f === 'oficial-SUB') return pool.filter(q => q.fuente === 'oficial' && q.tipo === 'SUB');
+  if (!f || f === 'todas') return pool;
   return pool.filter(q => q.fuente === f);
 }
-function filtrarArea(pool, a) {
-  if (a === 'todas') return pool;
-  if (a === 'troncales') return pool.filter(q => TRONCALES.includes(q.area));
-  return pool.filter(q => q.area === a);
+function filtrarArea(pool, a, sub, tema) {
+  if (a && a !== 'troncales' && a !== 'todas') pool = pool.filter(q => q.area === a);
+  if (sub && sub !== 'todos') pool = pool.filter(q => q.sub === sub);
+  if (tema && tema !== 'todos') pool = pool.filter(q => q.tema === tema);
+  return pool;
+}
+const $v = id => document.getElementById(id).value;
+// preguntas del tipo y fuente elegidos, antes de filtrar por troncal/contenido (para los contadores)
+const poolBaseBanco = () => filtrarFuente(filtrarTipo(state.preguntas, state.bancoTipo), $v('sel-fuente'));
+function bancoSet({ area, sub, tema } = {}) {
+  const base = poolBaseBanco();
+  const selA = document.getElementById('sel-area'), selS = document.getElementById('sel-sub'), selT = document.getElementById('sel-tema');
+  const a = area || selA.value || 'troncales';
+  selA.innerHTML = opcionesArea(base); selA.value = a;
+  const s = sub || 'todos';
+  selS.innerHTML = opcionesSub(a, base); selS.value = subObj(a, s) ? s : 'todos'; selS.disabled = !TRONCALES.includes(a);
+  selT.innerHTML = opcionesTema(a, selS.value, base); selT.value = tema && temaObj(a, selS.value, tema) ? tema : 'todos'; selT.disabled = selS.value === 'todos';
+  const exAct = $v('sel-examen');
+  const examenes = D.examenes.filter(e => state.bancoTipo === 'todas' || e.tipo === state.bancoTipo);
+  document.getElementById('sel-examen').innerHTML = '<option value="todos">Todos</option>' +
+    examenes.map(e => `<option value="${e.id}">${escapeHtml(e.titulo)}</option>`).join('');
+  if (examenes.some(e => e.id === exAct)) document.getElementById('sel-examen').value = exAct;
+  renderBancoTroncales();
+  renderBancoContenidos();
+  renderBancoResumen();
+}
+function renderBancoTroncales() {
+  const a = $v('sel-area');
+  document.getElementById('banco-troncales').innerHTML = [['troncales', 'Las 5 troncales'], ...TRONCALES.map(x => [x, areaNombre(x)])]
+    .map(([id, n]) => `<button class="${id === a ? 'active' : ''}" data-area="${id}">${escapeHtml(n)}</button>`).join('');
+  document.querySelectorAll('#banco-troncales button').forEach(b => b.addEventListener('click', () => bancoSet({ area: b.dataset.area })));
+}
+function renderBancoContenidos() {
+  const a = $v('sel-area'), subAct = $v('sel-sub');
+  const cont = document.getElementById('banco-contenidos');
+  if (!TRONCALES.includes(a)) {
+    cont.innerHTML = '<p class="repaso-intro">Elige una especialidad troncal para seleccionar por contenido (los temas del edital CONAREM).</p>';
+    return;
+  }
+  const base = poolBaseBanco().filter(q => q.area === a);
+  const { historial } = state.progreso;
+  cont.innerHTML = `<div class="contenidos-titulo">Contenidos de ${escapeHtml(areaNombre(a))} <small>según el edital · la incidencia es la proporción de preguntas troncales oficiales 2022–2026</small></div>
+    <div class="contenidos-lista">${subareasDe(a).map(s => {
+      const qs = base.filter(q => q.sub === s.id);
+      const resp = qs.filter(q => historial[q.id]);
+      const ok = resp.filter(q => historial[q.id].correcta).length;
+      const inc = incidencia(a, s.tro);
+      return `<button class="contenido-card ${s.id === subAct ? 'active' : ''}" data-sub="${s.id}">
+        <span class="nombre">${escapeHtml(s.nombre)}</span>
+        <span class="inc inc-${inc.nivel}" title="${s.tro} preguntas en los exámenes troncales oficiales">${inc.nivel === 'nula' ? inc.label : `${inc.label} · ${Math.round(inc.p)}%`}</span>
+        <span class="datos">${qs.length} preguntas${resp.length ? ` · ${pct(ok, resp.length)}% acierto` : ''}</span></button>`;
+    }).join('')}</div>`;
+  cont.querySelectorAll('.contenido-card').forEach(b => b.addEventListener('click', () =>
+    bancoSet({ area: a, sub: b.dataset.sub === subAct ? 'todos' : b.dataset.sub })));
 }
 function initBanco() {
-  document.getElementById('sel-area').innerHTML = opcionesArea();
+  state.bancoTipo = 'TRO';
   document.getElementById('sel-fuente').innerHTML = opcionesFuente();
-  document.getElementById('sel-examen').innerHTML = '<option value="todos">Todos</option>' +
-    D.examenes.map(e => `<option value="${e.id}">${escapeHtml(e.titulo)}</option>`).join('');
-  ['sel-area', 'sel-fuente', 'sel-examen', 'sel-situacion', 'chk-repetidas'].forEach(id =>
+  document.querySelectorAll('#banco-tipo button').forEach(b => b.addEventListener('click', () => {
+    state.bancoTipo = b.dataset.tipo;
+    document.querySelectorAll('#banco-tipo button').forEach(x => x.classList.toggle('active', x === b));
+    bancoSet({ area: $v('sel-area'), sub: $v('sel-sub'), tema: $v('sel-tema') });
+  }));
+  document.getElementById('sel-area').addEventListener('change', () => bancoSet({ area: $v('sel-area') }));
+  document.getElementById('sel-sub').addEventListener('change', () => bancoSet({ area: $v('sel-area'), sub: $v('sel-sub') }));
+  document.getElementById('sel-tema').addEventListener('change', () => bancoSet({ area: $v('sel-area'), sub: $v('sel-sub'), tema: $v('sel-tema') }));
+  document.getElementById('sel-fuente').addEventListener('change', () => bancoSet({ area: $v('sel-area'), sub: $v('sel-sub'), tema: $v('sel-tema') }));
+  ['sel-examen', 'sel-situacion', 'chk-repetidas'].forEach(id =>
     document.getElementById(id).addEventListener('change', renderBancoResumen));
   document.getElementById('btn-iniciar-estudio').addEventListener('click', () => {
     const pool = preguntasFiltradasBanco();
@@ -393,14 +510,14 @@ function initBanco() {
   document.getElementById('btn-estudio-anterior').addEventListener('click', () => navegarEstudio(-1));
   document.getElementById('btn-estudio-siguiente').addEventListener('click', () => navegarEstudio(1));
   document.getElementById('btn-estudio-terminar').addEventListener('click', finalizarEstudio);
+  bancoSet({ area: 'troncales' });
 }
 function preguntasFiltradasBanco() {
-  let pool = filtrarArea(state.preguntas, document.getElementById('sel-area').value);
-  pool = filtrarFuente(pool, document.getElementById('sel-fuente').value);
-  const ex = document.getElementById('sel-examen').value;
+  let pool = filtrarArea(poolBaseBanco(), $v('sel-area'), $v('sel-sub'), $v('sel-tema'));
+  const ex = $v('sel-examen');
   if (ex !== 'todos') pool = pool.filter(q => q.examen_id === ex);
   if (document.getElementById('chk-repetidas').checked) pool = pool.filter(q => q.repetida_en);
-  const sit = document.getElementById('sel-situacion').value;
+  const sit = $v('sel-situacion');
   const { historial, srs } = state.progreso;
   if (sit === 'no') pool = pool.filter(q => !historial[q.id]);
   else if (sit === 'falladas') pool = pool.filter(q => historial[q.id] && !historial[q.id].correcta);
@@ -411,16 +528,19 @@ function renderBancoResumen() {
   const pool = preguntasFiltradasBanco();
   const conExpl = pool.filter(tieneExpl).length;
   const of = pool.filter(q => q.fuente === 'oficial').length;
+  const a = $v('sel-area'), s = $v('sel-sub'), t = $v('sel-tema');
+  const tema = temaObj(a, s, t);
+  const libros = tema ? tema.libros : [];
   document.getElementById('banco-resumen').innerHTML =
-    `<strong>${pool.length}</strong> pregunta${pool.length === 1 ? '' : 's'} en esta selección (${of} oficiales · ${conExpl} con explicación).`;
+    `<strong>${pool.length}</strong> pregunta${pool.length === 1 ? '' : 's'} en esta selección (${of} oficiales · ${conExpl} con explicación).` +
+    (libros.length ? `<div class="ref ref-libros" style="margin-top:6px">Para estudiar este tema: ${libros.map(l => l.caps.map(c => htmlCap(l.libro, c)).join(' · ')).join(' · ')}</div>` : '');
 }
 function iniciarSesionEstudio(pool) {
   if (!pool.length) { alert('No hay preguntas para esa combinación de filtros.'); return; }
   state.estudio = { preguntas: pool, idx: 0, respuestas: {} };
   document.getElementById('estudio-session').classList.remove('hidden');
   document.getElementById('estudio-resumen').classList.add('hidden');
-  document.getElementById('banco-filters').classList.add('hidden');
-  document.getElementById('banco-resumen').classList.add('hidden');
+  ['banco-filters', 'banco-resumen', 'banco-tipo', 'banco-troncales', 'banco-contenidos'].forEach(id => document.getElementById(id).classList.add('hidden'));
   renderTarjetaEstudio();
 }
 function renderTarjetaEstudio() {
@@ -453,8 +573,7 @@ function finalizarEstudio() {
   const respondidas = Object.keys(respuestas).length;
   const aciertos = preguntas.filter(q => respuestas[q.id] === q.respuesta_correcta).length;
   document.getElementById('estudio-session').classList.add('hidden');
-  document.getElementById('banco-filters').classList.remove('hidden');
-  document.getElementById('banco-resumen').classList.remove('hidden');
+  ['banco-filters', 'banco-resumen', 'banco-tipo', 'banco-troncales', 'banco-contenidos'].forEach(id => document.getElementById(id).classList.remove('hidden'));
   const r = document.getElementById('estudio-resumen');
   r.classList.remove('hidden');
   r.innerHTML = `
@@ -467,6 +586,7 @@ function finalizarEstudio() {
     </div>
     <button class="btn-primary" id="btn-cerrar-resumen">Cerrar resumen</button>`;
   document.getElementById('btn-cerrar-resumen').addEventListener('click', () => r.classList.add('hidden'));
+  renderBancoContenidos();
   renderBancoResumen();
 }
 
@@ -479,7 +599,18 @@ function initSimulacro() {
     document.querySelectorAll('#sim-modos button').forEach(x => x.classList.toggle('active', x === b));
     ['oficial', 'conarem', 'libre'].forEach(m => document.getElementById('sim-panel-' + m).classList.toggle('hidden', m !== state.simModo));
   }));
-  document.getElementById('sim-area').innerHTML = opcionesArea();
+  const simOpciones = () => {
+    const base = filtrarTipo(state.preguntas, $v('sim-tipo'));
+    const a = $v('sim-area') || 'troncales', s = $v('sim-sub');
+    document.getElementById('sim-area').innerHTML = opcionesArea(base);
+    document.getElementById('sim-area').value = a;
+    const selS = document.getElementById('sim-sub');
+    selS.innerHTML = opcionesSub(a, base);
+    selS.value = subObj(a, s) ? s : 'todos';
+    selS.disabled = !TRONCALES.includes(a);
+  };
+  ['sim-tipo', 'sim-area'].forEach(id => document.getElementById(id).addEventListener('change', simOpciones));
+  simOpciones();
   document.getElementById('sim-fuente').innerHTML = opcionesFuente();
   document.getElementById('btn-sim-conarem').addEventListener('click', iniciarSimConarem);
   document.getElementById('btn-sim-libre').addEventListener('click', iniciarSimLibre);
@@ -498,9 +629,11 @@ function renderSimConfig() {
     const r = sims.filter(s => s.examen_id === id);
     return r.length ? Math.max(...r.map(s => s.pct)) : null;
   };
-  document.getElementById('sim-examenes').innerHTML = D.examenes.map(e => {
+  const tarjeta = e => {
     const m = mejor(e.id);
-    const areas = [...new Set(e.preguntas.map(id => state.porId.get(id).area))].map(areaCorto).join(' · ');
+    const areas = e.tipo === 'TRO'
+      ? [...new Set(e.preguntas.map(id => state.porId.get(id).area))].map(areaCorto).join(' · ')
+      : 'Subespecialidad ' + (D.areas_origen[state.porId.get(e.preguntas[0]).area_origen] || '');
     return `<div class="examen-card">
       <b>${escapeHtml(e.titulo.replace('CONAREM ', ''))}</b>
       <span class="sub">${e.preguntas.length} preguntas · ${escapeHtml(areas)}</span>
@@ -509,7 +642,10 @@ function renderSimConfig() {
         <button class="btn-primary" data-examen="${e.id}">Rendir</button>
         ${e.pdf ? `<a class="link-pdf" href="${e.pdf}" target="_blank" rel="noopener">📄 PDF oficial</a>` : ''}
       </div></div>`;
-  }).join('');
+  };
+  const tro = D.examenes.filter(e => e.tipo === 'TRO'), sub = D.examenes.filter(e => e.tipo !== 'TRO');
+  document.getElementById('sim-examenes').innerHTML = `<h3 class="grupo-examenes">Especialidades troncales</h3><div class="examenes-grid">${tro.map(tarjeta).join('')}</div>
+    <details class="examenes-sub"><summary>Exámenes de subespecialidades (${sub.length})</summary><div class="examenes-grid">${sub.map(tarjeta).join('')}</div></details>`;
   document.querySelectorAll('#sim-examenes [data-examen]').forEach(b => b.addEventListener('click', () => {
     const e = D.examenes.find(x => x.id === b.dataset.examen);
     iniciarSimulacro({ titulo: e.titulo, examen_id: e.id, preguntas: e.preguntas.map(id => state.porId.get(id)), segundosPorPregunta: 90 });
@@ -527,7 +663,7 @@ function iniciarSimConarem() {
   const partes = bloque === 'I+II' ? [...D.bloques.I.partes, ...D.bloques.II.partes] : D.bloques[bloque].partes;
   let preguntas = [];
   for (const [area, n] of partes) {
-    let pool = state.preguntas.filter(q => q.area === area);
+    let pool = state.preguntas.filter(q => q.area === area && !esSub(q));
     if (fuente === 'oficial') pool = pool.filter(q => q.fuente === 'oficial' && q.tipo === 'TRO');
     if (fuente === 'no-vistas') {
       const nuevas = pool.filter(q => !state.progreso.historial[q.id]);
@@ -540,7 +676,7 @@ function iniciarSimConarem() {
 }
 function iniciarSimLibre() {
   const numSel = document.getElementById('sim-num').value;
-  let pool = filtrarFuente(filtrarArea(state.preguntas, document.getElementById('sim-area').value), document.getElementById('sim-fuente').value);
+  const pool = filtrarFuente(filtrarArea(filtrarTipo(state.preguntas, $v('sim-tipo')), $v('sim-area'), $v('sim-sub')), $v('sim-fuente'));
   const n = numSel === 'all' ? pool.length : Math.min(+numSel, pool.length);
   const preguntas = numSel === 'all' ? mezclar(pool) : tomarN(pool, n);
   iniciarSimulacro({ titulo: `Personalizado (${preguntas.length})`, preguntas, segundosPorPregunta: +document.getElementById('sim-tiempo').value });
@@ -602,16 +738,20 @@ function finalizarSimulacro() {
   clearInterval(s.intervalo);
   const segundos = Math.floor((Date.now() - s.inicio) / 1000);
   let aciertos = 0, fallos = 0, blancos = 0;
-  const porArea = {};
+  const porArea = {}, porSub = {};
   for (const q of s.preguntas) {
     const r = s.respuestas[q.id];
     const o = porArea[q.area] = porArea[q.area] || { aciertos: 0, fallos: 0, blancos: 0, total: 0 };
-    o.total++;
+    const ks = q.area + '|' + (q.sub || '');
+    const os = porSub[ks] = porSub[ks] || { aciertos: 0, total: 0 };
+    o.total++; os.total++;
     if (!r) { blancos++; o.blancos++; }
-    else if (r === q.respuesta_correcta) { aciertos++; o.aciertos++; }
+    else if (r === q.respuesta_correcta) { aciertos++; o.aciertos++; os.aciertos++; }
     else { fallos++; o.fallos++; }
     if (r) registrarRespuesta(q, r, { guardar: false });
   }
+  const filasSub = Object.entries(porSub).map(([k, o]) => { const [a, sb] = k.split('|'); return { a, sb, ...o, p: pct(o.aciertos, o.total) }; })
+    .sort((x, y) => x.p - y.p || y.total - x.total);
   const total = s.preguntas.length;
   state.progreso.simulacros.push({ fecha: hoyLocal(), titulo: s.titulo, examen_id: s.examen_id, n: total, aciertos, fallos, blancos, pct: pct(aciertos, total), segundos });
   guardarProgreso();
@@ -635,6 +775,11 @@ function finalizarSimulacro() {
       <thead><tr><th>Área</th><th>Aciertos</th><th>Fallos</th><th>Blancos</th><th>%</th></tr></thead>
       <tbody>${Object.entries(porArea).map(([a, o]) => `<tr><td>${escapeHtml(areaNombre(a))}</td><td>${o.aciertos}</td><td>${o.fallos}</td><td>${o.blancos}</td><td><b>${pct(o.aciertos, o.total)}%</b></td></tr>`).join('')}</tbody>
     </table></div>
+    <details class="desglose-contenido"><summary>Desglose por contenido (de peor a mejor)</summary>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Troncal</th><th>Contenido</th><th>Aciertos</th><th>%</th></tr></thead>
+        <tbody>${filasSub.map(x => `<tr><td>${escapeHtml(areaCorto(x.a))}</td><td>${escapeHtml(subNombre(x.a, x.sb))}</td><td>${x.aciertos}/${x.total}</td><td><b>${x.p}%</b></td></tr>`).join('')}</tbody>
+      </table></div></details>
     <p class="repaso-intro" style="margin-top:12px">El puntaje del examen CONAREM es el porcentaje de aciertos (no hay descuento por error). Las falladas ya están en tu repaso espaciado.</p>
     <div style="display:flex;gap:10px;flex-wrap:wrap">
       <button id="btn-revisar-sim" class="btn-secondary">Revisar todas las respuestas</button>
@@ -827,14 +972,17 @@ function importarProgreso(e) {
 // ------------------------------------------------------------------
 function construirMazos() {
   const mazos = [];
-  for (const a of TRONCALES.concat(Object.keys(D.areas).filter(x => !TRONCALES.includes(x)))) {
-    const cartas = state.preguntas.filter(q => q.fuente === 'oficial' && q.area === a).map(q => ({
-      id: 'FC-' + q.id, area: a,
-      frente: q.enunciado,
-      dorso: `${q.respuesta_correcta}) ${q.alternativas[q.respuesta_correcta]}` + (tieneExpl(q) ? '\n\n' + q.explicacion : '')
-    }));
-    if (cartas.length) mazos.push({ id: 'of-' + a, nombre: `Oficiales · ${areaNombre(a)}`, cartas });
+  const carta = q => ({
+    id: 'FC-' + q.id, area: q.area,
+    frente: q.enunciado,
+    dorso: `${q.respuesta_correcta}) ${q.alternativas[q.respuesta_correcta]}` + (tieneExpl(q) ? '\n\n' + q.explicacion : '')
+  });
+  for (const a of TRONCALES) {
+    const cartas = state.preguntas.filter(q => q.fuente === 'oficial' && q.tipo === 'TRO' && q.area === a).map(carta);
+    if (cartas.length) mazos.push({ id: 'of-' + a, nombre: `Oficiales troncales · ${areaNombre(a)}`, cartas });
   }
+  const sub = state.preguntas.filter(esSub).map(carta);
+  if (sub.length) mazos.push({ id: 'of-SUB', nombre: 'Oficiales · subespecialidades (todas)', cartas: sub });
   const pc = [];
   for (const t of D.temas) t.puntos_clave.forEach((p, i) => pc.push({ id: `FC-CF-${t.id}-${i}`, area: t.area, frente: `${t.icono} ${t.titulo} — punto clave ${i + 1}`, dorso: p }));
   if (pc.length) mazos.push({ id: 'conaflix', nombre: 'Puntos clave (CONAFLIX)', cartas: pc });
@@ -920,7 +1068,7 @@ function calificarFc(nota) {
 // ------------------------------------------------------------------
 // TEMARIO OFICIAL + RESÚMENES (CONAFLIX)
 // ------------------------------------------------------------------
-const claveTemario = (a, i) => a + '|' + i;
+const claveTemario = (a, s, i) => `${a}-${s}|${i}`;
 function sanearHtml(html) {
   const t = document.createElement('template');
   t.innerHTML = html;
@@ -951,27 +1099,61 @@ function renderTemario(temaAbierto) {
     return;
   }
   const hecho = state.progreso.temario;
+  const a = state.temarioArea = state.temarioArea || TRONCALES[0];
+  const orden = state.temarioOrden = state.temarioOrden || 'incidencia';
+  const T = D.taxonomia[a];
+  const subs = subareasDe(a).slice();
+  if (orden === 'incidencia') subs.sort((x, y) => y.tro - x.tro);
+  const anios = Object.keys(subs.reduce((o, s) => Object.assign(o, s.por_anio), {})).sort();
+  const resumenes = D.temas.filter(t => t.area === a);
+  const enBanco = (s, t) => state.preguntas.filter(q => q.area === a && q.sub === s && (!t || q.tema === t) && !esSub(q)).length;
   cont.innerHTML = `
-    ${D.temas.length ? `<h2 style="margin-top:0">Resúmenes de alto rendimiento</h2>
-    <div class="temas-grid">${D.temas.map(t => `<div class="tema-card" data-tema="${t.id}"><div class="ic">${escapeHtml(t.icono)}</div>
-      <b>${escapeHtml(t.titulo)}</b><div class="sub">${escapeHtml(areaNombre(t.area))}${t.frecuencia ? ' · frecuencia ' + t.frecuencia + '%' : ''}</div></div>`).join('')}</div>` : ''}
-    <h2>Temario oficial CONAREM (troncales)</h2>
-    <p class="repaso-intro">Temario aprobado por CONAREM para el concurso 2026 (fuente: INS). Marca lo que ya estudiaste: el avance se refleja en el Panel y en el Calendario.</p>
-    ${TRONCALES.map(a => {
-      const items = D.temario[a] || [];
-      const n = items.filter((_, i) => hecho[claveTemario(a, i)]).length;
-      const grupos = [];
-      items.forEach((it, i) => {
-        let g = grupos[grupos.length - 1];
-        if (!g || g.nombre !== it.grupo) { g = { nombre: it.grupo, items: [] }; grupos.push(g); }
-        g.items.push({ ...it, i });
-      });
-      return `<details class="temario-area"><summary>${escapeHtml(areaNombre(a))}<span class="pct">${n}/${items.length} · ${pct(n, items.length)}%</span></summary>
-        ${grupos.map(g => `<div class="temario-grupo">${g.nombre ? `<h4>${escapeHtml(g.nombre)}</h4>` : ''}
-          ${g.items.map(it => `<label class="temario-item ${hecho[claveTemario(a, it.i)] ? 'hecho' : ''}"><input type="checkbox" data-clave="${claveTemario(a, it.i)}" ${hecho[claveTemario(a, it.i)] ? 'checked' : ''}><span>${escapeHtml(it.titulo)}</span></label>`).join('')}
-        </div>`).join('')}
+    <div class="troncal-tabs" id="temario-tabs">${TRONCALES.map(x => `<button class="${x === a ? 'active' : ''}" data-area="${x}">${escapeHtml(areaNombre(x))}</button>`).join('')}</div>
+    <div class="temario-cabecera">
+      <div><b>${escapeHtml(T.nombre)}</b> — ${T.total_tro} preguntas troncales oficiales analizadas (${anios.join(', ')})${T.total_sub ? ` · ${T.total_sub} de subespecialidades aparte` : ''}<br>
+      <small>📚 Bibliografía oficial: ${escapeHtml(T.libro)}</small></div>
+      <label>Ordenar <select id="temario-orden">
+        <option value="incidencia" ${orden === 'incidencia' ? 'selected' : ''}>Por incidencia en el examen</option>
+        <option value="edital" ${orden === 'edital' ? 'selected' : ''}>Orden del edital</option>
+      </select></label>
+    </div>
+    <p class="repaso-intro">Contenidos del edital CONAREM (Acta 11/2025). La <b>incidencia</b> es el % de las preguntas troncales oficiales de ${escapeHtml(areaCorto(a))} que cayeron en cada contenido; abre uno para ver los temas, cuántas veces se preguntó cada uno, los capítulos de los libros y la lista de ítems del edital para marcar lo estudiado.</p>
+    ${subs.map(s => {
+      const inc = incidencia(a, s.tro);
+      const items = s.edital.map((it, i) => ({ ...it, clave: claveTemario(a, s.id, i) }));
+      const n = items.filter(it => hecho[it.clave]).length;
+      const temasOrd = s.temas.slice().sort((x, y) => orden === 'incidencia' ? (y.tro - x.tro) || (y.sub - x.sub) : 0);
+      return `<details class="temario-area contenido-det">
+        <summary><span class="t-nombre">${escapeHtml(s.nombre)}</span>
+          <span class="inc inc-${inc.nivel}">${inc.nivel === 'nula' ? inc.label : `${inc.label} · ${Math.round(inc.p)}%`}</span>
+          <span class="t-barra" title="${s.tro} de ${T.total_tro} preguntas"><span style="width:${Math.min(100, inc.p * 4)}%"></span></span>
+          <span class="t-anios">${anios.map(y => `<span title="${y}">${String(y).slice(2)}: <b>${s.por_anio[y] || 0}</b></span>`).join('')}</span>
+          <span class="pct">${n}/${items.length} · ${pct(n, items.length)}%</span></summary>
+        <div class="temario-grupo">
+          <div class="t-acciones"><button class="btn-primary" data-practicar="${s.id}">Practicar ${enBanco(s.id)} preguntas de este contenido</button>
+            ${s.sub ? `<span class="t-sub">${s.sub} preguntas de subespecialidades aparte</span>` : ''}</div>
+          <p class="t-ref">📚 ${escapeHtml(s.ref)}</p>
+          <h4>Temas (preguntas troncales oficiales · banco)</h4>
+          <div class="table-wrap"><table class="tabla-temas"><tbody>${temasOrd.map(t => `<tr>
+            <td><b>${escapeHtml(t.nombre)}</b>${t.libros.length ? `<div class="t-libros">${t.libros.map(l => l.caps.map(c => htmlCap(l.libro, c)).join('<br>')).join('<br>')}</div>` : ''}</td>
+            <td class="num" title="Preguntas en los exámenes troncales oficiales">${t.tro ? `<span class="badge-frec">${t.tro}×</span>` : '—'}</td>
+            <td class="num" title="Preguntas disponibles en el banco (troncales)">${enBanco(s.id, t.id)}</td>
+            <td><button class="btn-secondary btn-mini" data-practicar="${s.id}" data-tema-p="${t.id}">Practicar</button></td></tr>`).join('')}</tbody></table></div>
+          <h4>Ítems del edital</h4>
+          ${items.map(it => `<label class="temario-item ${hecho[it.clave] ? 'hecho' : ''}"><input type="checkbox" data-clave="${it.clave}" ${hecho[it.clave] ? 'checked' : ''}><span>${escapeHtml(it.t)}${it.ref ? ` <small class="t-cap">${htmlCap(it.ref.libro, it.ref.cap)}</small>` : ''}</span></label>`).join('')}
+        </div>
       </details>`;
-    }).join('')}`;
+    }).join('')}
+    ${resumenes.length ? `<h2>Resúmenes de alto rendimiento</h2>
+    <div class="temas-grid">${resumenes.map(t => `<div class="tema-card" data-tema="${t.id}"><div class="ic">${escapeHtml(t.icono)}</div>
+      <b>${escapeHtml(t.titulo)}</b><div class="sub">${escapeHtml(areaNombre(t.area))}${t.frecuencia ? ' · frecuencia ' + t.frecuencia + '%' : ''}</div></div>`).join('')}</div>` : ''}`;
+  cont.querySelectorAll('#temario-tabs button').forEach(b => b.addEventListener('click', () => { state.temarioArea = b.dataset.area; renderTemario(); }));
+  document.getElementById('temario-orden').addEventListener('change', e => { state.temarioOrden = e.target.value; renderTemario(); });
+  cont.querySelectorAll('[data-practicar]').forEach(b => b.addEventListener('click', e => {
+    e.preventDefault();
+    irABanco(a, b.dataset.practicar);
+    if (b.dataset.temaP) bancoSet({ area: a, sub: b.dataset.practicar, tema: b.dataset.temaP });
+  }));
   cont.querySelectorAll('[data-tema]').forEach(el => el.addEventListener('click', () => { renderTemario(el.dataset.tema); window.scrollTo(0, 0); }));
   cont.querySelectorAll('input[data-clave]').forEach(chk => chk.addEventListener('change', () => {
     marcarTemario(chk.dataset.clave, chk.checked);
@@ -981,6 +1163,11 @@ function renderTemario(temaAbierto) {
     const n = det.querySelectorAll('input[data-clave]:checked').length;
     det.querySelector('.pct').textContent = `${n}/${total} · ${pct(n, total)}%`;
   }));
+}
+// Todos los ítems del edital, por troncal y con los contenidos de mayor incidencia primero (calendario, panel).
+function itemsTemario(area) {
+  return (area ? [area] : TRONCALES).flatMap(a => subareasDe(a).slice().sort((x, y) => y.tro - x.tro)
+    .flatMap(s => s.edital.map((it, i) => ({ area: a, sub: s.id, titulo: `${s.nombre}: ${it.t}`, clave: claveTemario(a, s.id, i) }))));
 }
 function marcarTemario(clave, si) {
   if (si) state.progreso.temario[clave] = hoyLocal();
@@ -1021,7 +1208,7 @@ function generarCalendario() {
   const cursor = {};
   const semanas = [];
   secuencia.forEach((a, k) => {
-    const items = (D.temario[a] || []).map((it, i) => ({ ...it, clave: claveTemario(a, i) }));
+    const items = itemsTemario(a);
     const n = semanasArea[a];
     const idx = cursor[a] = (cursor[a] || 0) + 1;
     const desde = Math.floor(items.length * (idx - 1) / n), hasta = Math.floor(items.length * idx / n);
@@ -1076,11 +1263,7 @@ function renderCalendario() {
     marcarTemario(chk.dataset.clave, chk.checked);
     renderCalendario();
   }));
-  document.querySelectorAll('#calendario-lista .btn-ir-banco').forEach(b => b.addEventListener('click', () => {
-    setView('banco');
-    document.getElementById('sel-area').value = b.dataset.area;
-    renderBancoResumen();
-  }));
+  document.querySelectorAll('#calendario-lista .btn-ir-banco').forEach(b => b.addEventListener('click', () => irABanco(b.dataset.area)));
   document.querySelectorAll('#calendario-lista .btn-ir-sim').forEach(b => b.addEventListener('click', () => setView('simulacro')));
 }
 
@@ -1090,18 +1273,23 @@ function renderCalendario() {
 function renderBibliografia() {
   const B = D.bibliografia;
   const enlace = (t, u) => `<a href="${escapeHtml(u)}" target="_blank" rel="noopener">${escapeHtml(t)}</a>`;
+  const locales = P && P.libros ? Object.entries(P.libros) : [];
+  const troncales = TRONCALES.map(a => B.troncales.find(m => m.area === a)).filter(Boolean);
   document.getElementById('bibliografia-contenido').innerHTML = `
     <p class="repaso-intro">${escapeHtml(B.nota)} Página oficial: ${enlace('ins.gov.py/conarem', B.fuente)}. Los libros de texto son comerciales: suelen estar disponibles en AccessMedicina / ClinicalKey a través de la universidad u hospital.</p>
+    ${locales.length ? `<div class="biblio-area biblio-local"><h3>📖 Tus libros (PDF en esta computadora)</h3>
+      <p class="repaso-intro">En el Temario y en cada explicación, los capítulos abren el PDF directamente en la página del capítulo.</p>
+      <ul>${locales.map(([id, url]) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml((D.libros[id] || {}).titulo || id)}</a></li>`).join('')}</ul></div>` : ''}
     <h2>Especialidades troncales</h2>
-    ${B.troncales.map(m => `<div class="biblio-area"><h3>${escapeHtml(m.materia)}</h3>
+    ${troncales.map(m => `<div class="biblio-area"><h3>${escapeHtml(m.materia)}</h3>
       📄 ${enlace('Lista oficial y temario (PDF del INS)', m.temario)}
       <div class="etq">Libros</div><ul>${m.libros.map(l => `<li>${enlace(l.titulo, l.url)}</li>`).join('')}</ul>
       ${m.documentos.length ? `<div class="etq">Documentos oficiales gratuitos</div><ul>${m.documentos.map(l => `<li>${enlace(l.titulo, l.url)}</li>`).join('')}</ul>` : ''}
     </div>`).join('')}
-    <h2>Subespecialidades (derivadas)</h2>
+    <details class="examenes-sub"><summary>Subespecialidades (derivadas) — no es el foco</summary>
     ${B.subespecialidades.map(m => `<div class="biblio-area"><h3>${escapeHtml(m.materia)}</h3>
       📄 ${enlace('Lista oficial y temario (PDF del INS)', m.temario)}
-      <ul>${m.libros.map(l => `<li>${enlace(l.titulo, l.url)}</li>`).join('')}</ul></div>`).join('')}`;
+      <ul>${m.libros.map(l => `<li>${enlace(l.titulo, l.url)}</li>`).join('')}</ul></div>`).join('')}</details>`;
 }
 
 // ------------------------------------------------------------------
@@ -1115,7 +1303,7 @@ function initBusqueda() {
     const t = norm(input.value.trim());
     if (t.length < 3) { panel.classList.add('hidden'); return; }
     const res = state.preguntas.filter(q => norm(q.enunciado).includes(t)).slice(0, 12);
-    panel.innerHTML = res.length ? res.map(q => `<div class="busqueda-item" data-id="${q.id}"><span class="tag">${escapeHtml(q.fuente === 'oficial' ? q.anio + ' ' + q.area : areaCorto(q.area))}</span>${escapeHtml(q.enunciado.slice(0, 100))}${q.enunciado.length > 100 ? '…' : ''}</div>`).join('')
+    panel.innerHTML = res.length ? res.map(q => `<div class="busqueda-item" data-id="${q.id}"><span class="tag">${escapeHtml(q.fuente === 'oficial' ? q.anio + ' ' + (esSub(q) ? 'Sub ' : '') + areaCorto(q.area) : areaCorto(q.area))}</span>${escapeHtml(q.enunciado.slice(0, 100))}${q.enunciado.length > 100 ? '…' : ''}</div>`).join('')
       : '<div class="busqueda-vacia">Sin resultados.</div>';
     panel.classList.remove('hidden');
     panel.querySelectorAll('.busqueda-item').forEach(el => el.addEventListener('click', () => {

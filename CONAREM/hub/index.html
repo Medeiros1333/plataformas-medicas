@@ -46,12 +46,14 @@
     <div id="dash-cuenta"></div>
     <div id="dash-progreso"></div>
     <div class="stats-grid" id="stats-grid"></div>
-    <h2>Tu acierto por área</h2>
+    <h2>Tu acierto por especialidad troncal</h2>
     <div class="lista-barras" id="dash-areas"></div>
+    <h2>Contenidos a reforzar</h2>
+    <div id="dash-debiles"></div>
     <h2>Cobertura del banco</h2>
     <div class="table-wrap">
       <table id="tabla-areas">
-        <thead><tr><th>Área</th><th>Oficiales</th><th>Con explicación</th><th>Banco extra</th><th>Total</th></tr></thead>
+        <thead><tr><th>Troncal</th><th>Oficiales troncales</th><th>Con explicación</th><th>Oficiales subesp.</th><th>Banco extra</th><th>Total</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -60,8 +62,17 @@
   <!-- ================= BANCO ================= -->
   <section id="view-banco" class="view hidden">
     <h1>Banco de preguntas</h1>
+    <div class="seg-modos" id="banco-tipo">
+      <button class="active" data-tipo="TRO">Especialidades troncales</button>
+      <button data-tipo="SUB">Subespecialidades</button>
+      <button data-tipo="todas">Todas</button>
+    </div>
+    <div id="banco-troncales" class="troncal-tabs"></div>
+    <div id="banco-contenidos" class="contenidos-grid"></div>
     <div class="filters" id="banco-filters">
-      <label>Área <select id="sel-area"></select></label>
+      <label>Troncal <select id="sel-area"></select></label>
+      <label>Contenido <select id="sel-sub"></select></label>
+      <label>Tema <select id="sel-tema"></select></label>
       <label>Fuente <select id="sel-fuente"></select></label>
       <label>Examen <select id="sel-examen"></select></label>
       <label>Situación
@@ -104,7 +115,7 @@
       </div>
       <div id="sim-panel-oficial">
         <p class="repaso-intro">Rendí el examen tal cual se tomó, con el gabarito oficial del INS. Al terminar ves tu puntaje, el desglose por área y la corrección comentada.</p>
-        <div class="examenes-grid" id="sim-examenes"></div>
+        <div id="sim-examenes"></div>
       </div>
       <div id="sim-panel-conarem" class="hidden">
         <p class="repaso-intro">Arma un examen nuevo con la distribución del CONAREM troncal 2026: Bloque I = Cirugía 30 + Medicina Interna 30 + Salud Pública 20; Bloque II = Pediatría 30 + Gineco-Obstetricia 30.</p>
@@ -141,7 +152,15 @@
               <option value="100">100</option><option value="all">Todas las disponibles</option>
             </select>
           </label>
-          <label>Área <select id="sim-area"></select></label>
+          <label>Preguntas
+            <select id="sim-tipo">
+              <option value="TRO">Troncales</option>
+              <option value="SUB">Subespecialidades</option>
+              <option value="todas">Todas</option>
+            </select>
+          </label>
+          <label>Troncal <select id="sim-area"></select></label>
+          <label>Contenido <select id="sim-sub"></select></label>
           <label>Fuente <select id="sim-fuente"></select></label>
           <label>Tiempo
             <select id="sim-tiempo">
@@ -189,7 +208,7 @@
 
   <!-- ================= TEMARIO ================= -->
   <section id="view-temario" class="view hidden">
-    <h1>Temario oficial y resúmenes</h1>
+    <h1>Temario por especialidad troncal</h1>
     <div id="temario-contenido"></div>
   </section>
 

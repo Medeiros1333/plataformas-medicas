@@ -755,3 +755,68 @@ button {
 .flashcard { height: auto; min-height: 240px; }
 .flashcard-inner { min-height: 240px; }
 .flashcard-face { white-space: pre-wrap; overflow-y: auto; }
+
+/* ---------- Troncales, contenidos e incidencia ---------- */
+.troncal-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.troncal-tabs button {
+  background: var(--bg-card); border: 1px solid var(--border); color: var(--text);
+  padding: 7px 12px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.9rem;
+}
+.troncal-tabs button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.contenidos-grid { margin-bottom: 14px; }
+.contenidos-titulo { font-weight: 700; margin-bottom: 8px; }
+.contenidos-titulo small { font-weight: 400; color: var(--text-muted); margin-left: 6px; }
+.contenidos-lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px; }
+.contenido-card {
+  text-align: left; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 10px 12px; cursor: pointer; display: flex; flex-direction: column; gap: 4px; color: var(--text); font: inherit;
+}
+.contenido-card:hover { border-color: var(--primary); }
+.contenido-card.active { border: 2px solid var(--primary); background: color-mix(in srgb, var(--primary) 8%, var(--bg-card)); }
+.contenido-card .nombre { font-weight: 700; font-size: 0.9rem; }
+.contenido-card .datos { font-size: 0.78rem; color: var(--text-muted); }
+.inc { display: inline-block; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; width: fit-content; white-space: nowrap; }
+.inc-alta { background: var(--danger-bg); color: var(--danger); }
+.inc-media { background: var(--warning-bg); color: var(--warning); }
+.inc-baja { background: var(--success-bg); color: var(--success); }
+.inc-nula { background: var(--bg); color: var(--text-muted); border: 1px solid var(--border); }
+.chips-contenidos { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-contenido {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 12px;
+  cursor: pointer; display: flex; flex-direction: column; text-align: left; color: var(--text); font: inherit; gap: 2px;
+}
+.chip-contenido:hover { border-color: var(--primary); }
+.chip-contenido b { font-size: 0.88rem; }
+.chip-contenido span { font-size: 0.76rem; color: var(--text-muted); }
+.tag-sub { background: var(--text-muted) !important; color: var(--bg-card) !important; border-color: var(--text-muted) !important; }
+.tag-tema { font-style: italic; }
+.ref-libros a, .t-libros a, .t-cap a { color: var(--primary); }
+
+.temario-cabecera { display: flex; gap: 12px; justify-content: space-between; align-items: flex-end; flex-wrap: wrap;
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 10px; }
+.temario-cabecera small { color: var(--text-muted); }
+.contenido-det > summary { flex-wrap: wrap; }
+.contenido-det .t-nombre { min-width: 180px; }
+.t-barra { flex: 1 1 80px; max-width: 160px; height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+.t-barra span { display: block; height: 100%; background: var(--accent); }
+.t-anios { display: flex; gap: 8px; font-size: 0.78rem; color: var(--text-muted); font-weight: 500; }
+.t-acciones { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 4px 0 6px; }
+.t-sub { font-size: 0.8rem; color: var(--text-muted); }
+.t-ref { font-size: 0.85rem; color: var(--text-muted); margin: 6px 0; }
+.tabla-temas td { vertical-align: top; font-size: 0.88rem; }
+.tabla-temas td.num { text-align: center; white-space: nowrap; width: 60px; }
+.t-libros { font-size: 0.78rem; margin-top: 4px; line-height: 1.5; color: var(--text-muted); }
+.badge-frec { background: var(--accent); color: #fff; border-radius: 999px; padding: 1px 8px; font-weight: 700; font-size: 0.78rem; }
+.btn-mini { padding: 4px 10px !important; font-size: 0.8rem !important; }
+.t-cap { color: var(--text-muted); }
+.grupo-examenes { margin: 4px 0 10px; }
+.examenes-sub, .desglose-contenido { margin: 6px 0 18px; }
+.examenes-sub > summary, .desglose-contenido > summary { cursor: pointer; font-weight: 700; color: var(--text-muted); padding: 6px 0; }
+.biblio-local { border-left: 5px solid var(--primary); }
+@media (max-width: 600px) {
+  .t-barra { display: none; }
+  .contenidos-lista { grid-template-columns: 1fr 1fr; }
+}
+.contenido-det .t-nombre { flex: 0 0 250px; }
+.contenido-det > summary .inc { min-width: 150px; text-align: center; }
+@media (max-width: 600px) { .contenido-det .t-nombre { flex: 1 1 100%; } }
