@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1d4fb0">
+<title>CONAREM Hub · Exámenes oficiales, simulacros y repaso</title>
+<link rel="stylesheet" href="style.css">
+<script>
+// Aplicar el tema guardado ANTES de pintar la página, para evitar parpadeo.
+(function () {
+  try {
+    var t = localStorage.getItem('conaremhub-theme');
+    if (t) document.documentElement.setAttribute('data-theme', t);
+  } catch (e) { /* localStorage no disponible: se ignora */ }
+})();
+</script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">CONAREM<span>Hub</span> <small>PY</small></div>
+  <nav class="mainnav">
+    <button class="navbtn active" data-view="dashboard">Panel</button>
+    <button class="navbtn" data-view="banco">Banco</button>
+    <button class="navbtn" data-view="simulacro">Simulacro</button>
+    <button class="navbtn" data-view="repaso" id="nav-repaso">Repaso</button>
+    <button class="navbtn" data-view="flashcards">Flashcards</button>
+    <button class="navbtn" data-view="temario">Temario</button>
+    <button class="navbtn" data-view="calendario">Calendario</button>
+    <button class="navbtn" data-view="bibliografia">Bibliografía</button>
+  </nav>
+  <div class="busqueda-global">
+    <input type="text" id="busqueda-input" placeholder="Buscar preguntas…" autocomplete="off">
+    <div id="busqueda-resultados" class="busqueda-resultados hidden"></div>
+  </div>
+  <button id="btn-tema" class="btn-tema" title="Cambiar tema">🌗 Tema</button>
+</header>
+
+<main id="app">
+  <div id="loading" class="loading">Cargando banco de datos…</div>
+
+  <!-- ================= PANEL ================= -->
+  <section id="view-dashboard" class="view hidden">
+    <h1>Panel general</h1>
+    <div id="dash-cuenta"></div>
+    <div id="dash-progreso"></div>
+    <div class="stats-grid" id="stats-grid"></div>
+    <h2>Tu acierto por área</h2>
+    <div class="lista-barras" id="dash-areas"></div>
+    <h2>Cobertura del banco</h2>
+    <div class="table-wrap">
+      <table id="tabla-areas">
+        <thead><tr><th>Área</th><th>Oficiales</th><th>Con explicación</th><th>Banco extra</th><th>Total</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= BANCO ================= -->
+  <section id="view-banco" class="view hidden">
+    <h1>Banco de preguntas</h1>
+    <div class="filters" id="banco-filters">
+      <label>Área <select id="sel-area"></select></label>
+      <label>Fuente <select id="sel-fuente"></select></label>
+      <label>Examen <select id="sel-examen"></select></label>
+      <label>Situación
+        <select id="sel-situacion">
+          <option value="todas">Todas</option>
+          <option value="no">No respondidas</option>
+          <option value="falladas">Falladas (última vez)</option>
+          <option value="repaso">En el repaso</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="chk-repetidas"> Solo repetidas entre años</label>
+      <label class="check"><input type="checkbox" id="chk-orden"> En orden (sin mezclar)</label>
+      <button id="btn-iniciar-estudio" class="btn-primary">Estudiar esta selección</button>
+    </div>
+    <div id="banco-resumen" class="banco-resumen"></div>
+
+    <div id="estudio-session" class="hidden">
+      <div class="session-progress">
+        <span id="estudio-contador"></span>
+        <div class="progress-bar"><div id="estudio-progress-fill" class="progress-fill"></div></div>
+      </div>
+      <div id="estudio-tarjeta" class="tarjeta-pregunta"></div>
+      <div class="session-nav">
+        <button id="btn-estudio-anterior">← Anterior</button>
+        <button id="btn-estudio-siguiente">Siguiente →</button>
+        <button id="btn-estudio-terminar" class="btn-secondary">Terminar sesión</button>
+      </div>
+    </div>
+    <div id="estudio-resumen" class="hidden"></div>
+  </section>
+
+  <!-- ================= SIMULACRO ================= -->
+  <section id="view-simulacro" class="view hidden">
+    <h1>Simulacro</h1>
+    <div id="simulacro-config">
+      <div class="seg-modos" id="sim-modos">
+        <button class="active" data-modo="oficial">Rendir un examen oficial</button>
+        <button data-modo="conarem">Simulacro CONAREM (formato oficial)</button>
+        <button data-modo="libre">Personalizado</button>
+      </div>
+      <div id="sim-panel-oficial">
+        <p class="repaso-intro">Rendí el examen tal cual se tomó, con el gabarito oficial del INS. Al terminar ves tu puntaje, el desglose por área y la corrección comentada.</p>
+        <div class="examenes-grid" id="sim-examenes"></div>
+      </div>
+      <div id="sim-panel-conarem" class="hidden">
+        <p class="repaso-intro">Arma un examen nuevo con la distribución del CONAREM troncal 2026: Bloque I = Cirugía 30 + Medicina Interna 30 + Salud Pública 20; Bloque II = Pediatría 30 + Gineco-Obstetricia 30.</p>
+        <div class="filters">
+          <label>Bloque
+            <select id="sim-bloque">
+              <option value="I">Bloque I (80 preguntas)</option>
+              <option value="II">Bloque II (60 preguntas)</option>
+              <option value="I+II">Completo (140 preguntas)</option>
+            </select>
+          </label>
+          <label>Preguntas de
+            <select id="sim-fuente-conarem">
+              <option value="oficial">Solo exámenes oficiales</option>
+              <option value="todas">Todo el banco</option>
+              <option value="no-vistas">Priorizar no respondidas</option>
+            </select>
+          </label>
+          <label>Tiempo
+            <select id="sim-tiempo-conarem">
+              <option value="90">1,5 min por pregunta</option>
+              <option value="60">1 min por pregunta</option>
+              <option value="0">Sin límite</option>
+            </select>
+          </label>
+          <button id="btn-sim-conarem" class="btn-primary">Iniciar simulacro</button>
+        </div>
+      </div>
+      <div id="sim-panel-libre" class="hidden">
+        <div class="filters">
+          <label>Nº de preguntas
+            <select id="sim-num">
+              <option value="10">10</option><option value="25">25</option><option value="50">50</option>
+              <option value="100">100</option><option value="all">Todas las disponibles</option>
+            </select>
+          </label>
+          <label>Área <select id="sim-area"></select></label>
+          <label>Fuente <select id="sim-fuente"></select></label>
+          <label>Tiempo
+            <select id="sim-tiempo">
+              <option value="0">Sin límite</option>
+              <option value="90">1,5 min por pregunta</option>
+              <option value="60">1 min por pregunta</option>
+            </select>
+          </label>
+          <button id="btn-sim-libre" class="btn-primary">Iniciar simulacro</button>
+        </div>
+      </div>
+      <h2>Historial de simulacros</h2>
+      <div id="sim-historial"></div>
+    </div>
+
+    <div id="simulacro-session" class="hidden">
+      <div class="session-progress">
+        <span id="sim-contador"></span>
+        <span id="sim-cronometro">00:00</span>
+        <div class="progress-bar"><div id="sim-progress-fill" class="progress-fill"></div></div>
+      </div>
+      <div id="simulacro-tarjeta" class="tarjeta-pregunta"></div>
+      <div class="session-nav">
+        <button id="btn-sim-anterior">← Anterior</button>
+        <button id="btn-sim-siguiente">Siguiente →</button>
+        <button id="btn-sim-finalizar" class="btn-secondary">Finalizar y corregir</button>
+      </div>
+      <div id="sim-mapa-preguntas" class="mapa-preguntas"></div>
+    </div>
+
+    <div id="simulacro-resultado" class="hidden"></div>
+  </section>
+
+  <!-- ================= REPASO ================= -->
+  <section id="view-repaso" class="view hidden">
+    <h1>Repaso espaciado de las falladas</h1>
+    <div id="repaso-contenido"></div>
+  </section>
+
+  <!-- ================= FLASHCARDS ================= -->
+  <section id="view-flashcards" class="view hidden">
+    <h1>Flashcards</h1>
+    <div id="flashcards-contenido"></div>
+  </section>
+
+  <!-- ================= TEMARIO ================= -->
+  <section id="view-temario" class="view hidden">
+    <h1>Temario oficial y resúmenes</h1>
+    <div id="temario-contenido"></div>
+  </section>
+
+  <!-- ================= CALENDARIO ================= -->
+  <section id="view-calendario" class="view hidden">
+    <h1>Calendario de estudio</h1>
+    <div class="filters">
+      <label>Fecha del examen <input type="date" id="cfg-fecha-examen"></label>
+      <label>Inicio del plan <input type="date" id="cfg-fecha-inicio"></label>
+      <label>Semanas de repaso final <input type="number" id="cfg-repaso" min="0" max="8" value="2" style="width:80px"></label>
+      <label>Mostrar
+        <select id="sel-calendario-filtro">
+          <option value="pendientes">Desde esta semana</option>
+          <option value="todas">Todas las semanas</option>
+        </select>
+      </label>
+    </div>
+    <p id="calendario-periodo" class="calendario-periodo"></p>
+    <div id="calendario-lista" class="calendario-lista"></div>
+  </section>
+
+  <!-- ================= BIBLIOGRAFÍA ================= -->
+  <section id="view-bibliografia" class="view hidden">
+    <h1>Bibliografía oficial CONAREM</h1>
+    <div id="bibliografia-contenido"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  CONAREM Hub — exámenes oficiales del INS (2022, 2024, 2026) con su gabarito, simulacros, repaso espaciado y temario.
+  Tu progreso se guarda en este navegador, sin envío a servidores externos.
+</footer>
+
+<script src="data.js"></script>
+<script src="data_privado.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -9,21 +9,21 @@
 :root{
   --bg:#F7F8FA; --surface:#FFFFFF; --border:#DDE1E7;
   --text:#1A1D23; --muted:#5B6472;
-  --rev:#0F8F82; --mir:#B4441F; --far:#5B4BC4;
+  --rev:#0F8F82; --mir:#B4441F; --far:#5B4BC4; --con:#1D4FB0;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#0F1115; --surface:#171A21; --border:#2A2F3A;
     --text:#E6E8EB; --muted:#9AA3AF;
-    --rev:#4FD1C5; --mir:#F0906A; --far:#A99BFF;
+    --rev:#4FD1C5; --mir:#F0906A; --far:#A99BFF; --con:#7FA6FF;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#0F1115; --surface:#171A21; --border:#2A2F3A;
   --text:#E6E8EB; --muted:#9AA3AF;
-  --rev:#4FD1C5; --mir:#F0906A; --far:#A99BFF;
+  --rev:#4FD1C5; --mir:#F0906A; --far:#A99BFF; --con:#7FA6FF;
   color-scheme: dark;
 }
 *{box-sizing:border-box}
@@ -49,7 +49,7 @@ footer a{color:inherit}
 <body>
 <main>
   <h1>Plataformas de Estudo</h1>
-  <p class="sub">Revalida · MIR · Farmacologia</p>
+  <p class="sub">Revalida · MIR · Farmacologia · CONAREM</p>
 
   <a class="card" style="--c:var(--rev)" href="Revalida/hub/">
     <div class="ic">RV</div>
@@ -66,6 +66,12 @@ footer a{color:inherit}
   <a class="card" style="--c:var(--far)" href="Farmaco/hub/">
     <div class="ic">FX</div>
     <div><b>Farmaco Hub</b><span>Farmacoterapia, pediatría y microbiología</span></div>
+    <div class="arr">›</div>
+  </a>
+
+  <a class="card" style="--c:var(--con)" href="CONAREM/hub/">
+    <div class="ic">PY</div>
+    <div><b>CONAREM Hub</b><span>Exámenes oficiales INS 2022–2026 · simulacros · temario</span></div>
     <div class="arr">›</div>
   </a>
 

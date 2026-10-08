@@ -1,0 +1,434 @@
+[
+ {
+  "id": "cardio_001",
+  "area": "MI",
+  "materia": "Medicina Interna",
+  "submateria": "Cardiología",
+  "titulo": "Insuficiencia Cardíaca",
+  "icono": "🫀",
+  "dificultad": "intermedio",
+  "frecuencia": 92,
+  "minutos": 50,
+  "resumen_html": "<h3>Definición</h3>\n      <p>La <strong>insuficiencia cardíaca (IC)</strong> es un síndrome clínico caracterizado por síntomas típicos (disnea, fatiga, edemas) causados por una anomalía estructural o funcional del corazón que resulta en gasto cardíaco reducido o presiones de llenado elevadas en reposo o durante el ejercicio.</p>\n      <h3>Fisiopatología</h3>\n      <p>Ante la disfunción ventricular, se activan mecanismos compensadores: el <strong>sistema renina-angiotensina-aldosterona (SRAA)</strong> y el <strong>sistema nervioso simpático</strong>. A corto plazo son beneficiosos, pero crónicamente generan remodelado cardíaco patológico, retención de sodio/agua y mayor carga hemodinámica.</p>\n      <h3>Clasificación</h3>\n      <p><strong>Por FE:</strong> IC con FE reducida (FEr <40%), IC con FE levemente reducida (FEm 40-49%), IC con FE preservada (FEp ≥50%).<br>\n      <strong>Por síntomas (NYHA):</strong> Clase I (sin limitación), II (limitación ligera), III (limitación marcada), IV (síntomas en reposo).</p>\n      <h3>Diagnóstico</h3>\n      <p>Clínico: ortopnea, disnea paroxística nocturna, edemas en MI, ingurgitación yugular, crepitantes bibasales, S3. <strong>BNP >100 pg/mL o NT-proBNP >300 pg/mL</strong> orienta al diagnóstico. Ecocardiograma: estudio de elección.</p>\n      <h3>Tratamiento IC con FE reducida</h3>\n      <p>Los 4 pilares del tratamiento con beneficio en mortalidad: <strong>IECA/ARA-II o ARNI (sacubitrilo/valsartán)</strong>, <strong>betabloqueantes</strong> (carvedilol, bisoprolol, metoprolol succinato), <strong>ARM</strong> (espironolactona/eplerenona), <strong>iSGLT2</strong> (dapagliflozina/empagliflozina). Los diuréticos mejoran síntomas pero no reducen mortalidad.</p>",
+  "puntos_clave": [
+   "FE <40% = IC con FE reducida. Tratamiento: IECA + betabloqueante + ARM + iSGLT2",
+   "BNP >400 pg/mL confirma IC descompensada aguda. BNP <100 pg/mL prácticamente la descarta",
+   "Carvedilol, bisoprolol y metoprolol succinato son los únicos BB con beneficio demostrado en IC",
+   "Sacubitril/valsartán es superior a enalapril en reducción de mortalidad cardiovascular (estudio PARADIGM-HF)",
+   "IC aguda: posición sentada, O2, furosemida IV (0.5-1 mg/kg), nitratos si TAS>90",
+   "Los iSGLT2 reducen hospitalización por IC independientemente de si tienen diabetes"
+  ],
+  "mnemotecnia": "Los 4 pilares = BAIL: Beta-bloqueante, ARM (aldosterona), IECA/ARNI, iSGLT2 (la L de SGLT2)",
+  "bibliografia": "Harrison 21ª ed, Cap 252 (Insuficiencia Cardíaca), pág 1760-1790. Guías ESC 2021 IC.",
+  "preguntas": [
+   {
+    "id": "CF-cardio_001-1",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "cardio_001",
+    "enunciado": "Paciente de 68 años, HTA e ICFE reducida (FE 35%). Actualmente en NYHA II, con carvedilol 25 mg c/12h. Se decide agregar antagonista del receptor mineralocorticoide. ¿Cuál es la condición que CONTRAINDICA este fármaco?",
+    "alternativas": {
+     "A": "Creatinina 1.4 mg/dL",
+     "B": "Potasio sérico 5.5 mEq/L",
+     "C": "TFG 55 mL/min",
+     "D": "Sodio 138 mEq/L",
+     "E": "Presión arterial 100/70 mmHg"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "La espironolactona/eplerenona está contraindicada con K+ ≥5 mEq/L o TFG <30 mL/min por riesgo de hiperpotasemia grave con potencial arritmia fatal.",
+    "por_que_no": {
+     "A": "Cr 1.4 no es contraindicación absoluta; se debe monitorizar función renal y electrolitos.",
+     "C": "TFG 55 permite el uso de ARM con monitoreo renal. La contraindicación es TFG <30.",
+     "D": "La natremia normal no contraindica ARM.",
+     "E": "Aunque TAS baja requiere precaución, no es contraindicación absoluta para ARM."
+    },
+    "perla": "Clinical Pearl: Siempre verificar K+ y TFG antes de iniciar ARM. Si K+ >5 o TFG <30: NO iniciar. Educación al paciente: evitar sustitutos de sal con K+.",
+    "referencia": "Harrison 21ª ed, Cap 252, pág 1775"
+   },
+   {
+    "id": "CF-cardio_001-2",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "cardio_001",
+    "enunciado": "Mujer de 72 años con IC aguda descompensada. TAS 80 mmHg, FC 120 lpm, sat O2 88%, rales crepitantes bibasales, ingurgitación yugular ++. ¿Cuál es el tratamiento PRIORITARIO?",
+    "alternativas": {
+     "A": "Furosemida IV 80 mg en bolo",
+     "B": "Nitroglicerina IV en infusión",
+     "C": "Dobutamina IV + O2 suplementario",
+     "D": "Metoprolol IV 5 mg",
+     "E": "Captopril 25 mg sublingual"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "Con TAS <90 mmHg (shock cardiogénico), los nitratos y diuréticos enérgicos están contraindicados por riesgo de hipotensión severa. La dobutamina (inotrópico) más O2 es la conducta correcta en IC con bajo gasto.",
+    "por_que_no": {
+     "A": "Furosemida en bolo está indicada en IC con congestión y TAS normal; con hipotensión profunda, la vasodilatación adicional puede ser letal.",
+     "B": "Nitroglicerina IV está contraindicada si TAS <90 mmHg.",
+     "D": "Los betabloqueantes están absolutamente contraindicados en IC aguda descompensada con bajo gasto.",
+     "E": "IECA están contraindicados en shock cardiogénico agudo."
+    },
+    "perla": "Clinical Pearl: Clasifica siempre IC aguda en Wet/Dry y Warm/Cold. Wet-Cold = congestión + hipoperfusión = inotrópico + considerar balón de contrapulsación.",
+    "referencia": "Guías ESC IC Aguda 2021; Tintinalli 9ª ed, Cap 53"
+   },
+   {
+    "id": "CF-cardio_001-3",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "cardio_001",
+    "enunciado": "Hombre 58a, IC con FEr=30%, ya en IECA + carvedilol + espironolactona. Se quiere mejorar pronóstico. ¿Qué fármaco agrega el mayor beneficio adicional según evidencia actual?",
+    "alternativas": {
+     "A": "Digoxina",
+     "B": "Ivabradina",
+     "C": "Sacubitrilo/valsartán (suspendiendo IECA)",
+     "D": "Amlodipino",
+     "E": "Hidralazina + nitrato"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "El estudio PARADIGM-HF demostró que sacubitril/valsartán (ARNI) reduce mortalidad CV en 20% vs enalapril. Las guías recomiendan reemplazar el IECA por ARNI en pacientes que toleran IECA (esperar 36h entre el último IECA y el ARNI para evitar angioedema).",
+    "por_que_no": {
+     "A": "Digoxina reduce hospitalizaciones pero no mortalidad. Tiene índice terapéutico estrecho.",
+     "B": "Ivabradina útil si FC >70 con betabloqueante a dosis máxima, no es prioridad aquí.",
+     "D": "Amlodipino puede usarse para HTA o angina; sin beneficio específico en IC.",
+     "E": "Hidralazina+nitrato se reserva para intolerantes a IECA/ARA-II (especialmente en pacientes afroamericanos)."
+    },
+    "perla": "Clinical Pearl: La secuencia ideal en IC FEr = IECA → ARNI. Siempre esperar al menos 36 horas entre el último IECA y la primera dosis de sacubitril/valsartán.",
+    "referencia": "Harrison 21ª ed, pág 1776; PARADIGM-HF NEJM 2014"
+   }
+  ]
+ },
+ {
+  "id": "neumo_001",
+  "area": "MI",
+  "materia": "Medicina Interna",
+  "submateria": "Neumología",
+  "titulo": "EPOC: Diagnóstico y Manejo",
+  "icono": "🫁",
+  "dificultad": "intermedio",
+  "frecuencia": 88,
+  "minutos": 45,
+  "resumen_html": "<h3>Definición</h3>\n      <p>La <strong>EPOC</strong> es una enfermedad frecuente, prevenible y tratable, caracterizada por síntomas respiratorios persistentes y limitación crónica al flujo aéreo debida a anomalías de la vía aérea o alveolares, generalmente causada por exposición significativa a gases o partículas nocivas.</p>\n      <h3>Diagnóstico</h3>\n      <p>Espirometría post-broncodilatador: <strong>FEV1/FVC <0.70</strong> confirma limitación al flujo persistente. Clasificación GOLD por FEV1: GOLD 1 (≥80%), GOLD 2 (50-79%), GOLD 3 (30-49%), GOLD 4 (<30%).</p>\n      <h3>Tratamiento según GOLD 2023</h3>\n      <p><strong>Grupo A:</strong> un broncodilatador de acción larga. <strong>Grupo B:</strong> LABA+LAMA. <strong>Grupo E (alta exacerbación):</strong> LABA+LAMA ± ICS si eosinófilos ≥300. Los ICS no son de primera línea excepto por eosinofilia o historia de asma.</p>\n      <h3>Exacerbación aguda</h3>\n      <p>Leve: ambulatorio, salbutamol + ipratropio inhalados + antibiótico si cambio en esputo. Moderada/grave: hospitalización, broncodilatadores nebulizados, corticosteroides sistémicos (prednisona 40 mg/d × 5 días), antibióticos (amoxicilina-clavulanato o levofloxacino), O2 controlado (sat 88-92%), VNIPP si pH<7.35.</p>",
+  "puntos_clave": [
+   "Diagnóstico de EPOC: espirometría post-BD con FEV1/FVC <0.70 (criterio GOLD)",
+   "Principal factor de riesgo: tabaquismo (>90% de casos). También: biomasa, ocupacional",
+   "GOLD A→ 1 LABA o LAMA. GOLD B→ LABA+LAMA. GOLD E→ LABA+LAMA±ICS",
+   "En exacerbación: corticoide sistémico 40mg/d × 5 días (no más) + antibiótico",
+   "O2 controlado en EPOC: objetivo SAT 88-92%, no hipercorregir (riesgo hipercapnia)",
+   "VNIPP indicada si pH<7.35 y PaCO2>45 a pesar de tratamiento"
+  ],
+  "mnemotecnia": "GOLD grupos por síntomas: A=Asintomático, B=Breathless (sintomático), E=Exacerbador frecuente",
+  "bibliografia": "Harrison 21ª ed, Cap 290 (EPOC), pág 1980-2012. GOLD Report 2023.",
+  "preguntas": [
+   {
+    "id": "CF-neumo_001-1",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "neumo_001",
+    "enunciado": "Mujer de 65 años, fumadora 40 paq/año. FEV1 48%, FEV1/FVC 0.61 post-BD. 2 exacerbaciones el año pasado que requirieron corticoides sistémicos. mMRC=2. ¿Cuál es el tratamiento inicial más apropiado?",
+    "alternativas": {
+     "A": "Salbutamol inhalado según necesidad",
+     "B": "LABA solo (formoterol)",
+     "C": "LABA+LAMA (indacaterol+glicopirronio)",
+     "D": "ICS+LABA (budesonida+formoterol)",
+     "E": "LABA+LAMA+ICS triple terapia"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "Esta paciente es GOLD 3, Grupo E (≥2 exacerbaciones). El tratamiento inicial según GOLD 2023 para Grupo E es LABA+LAMA. Los ICS se agregan si eosinófilos ≥300 cel/µL o asma concomitante, dato no disponible en este caso.",
+    "por_que_no": {
+     "A": "SABA solo es manejo de rescate, insuficiente para Grupo E con GOLD 3.",
+     "B": "LABA solo es para Grupo A o B sin exacerbaciones frecuentes.",
+     "D": "ICS+LABA ya no es de primera línea para EPOC puro; LABA+LAMA es superior por eficacia y menor riesgo de neumonía.",
+     "E": "Triple terapia se reserva si LABA+LAMA es insuficiente, con eosinófilos elevados o asma."
+    },
+    "perla": "Clinical Pearl: GOLD 2023 eliminó el Grupo C y D. Ahora Grupos A, B, E. El Grupo E incluye ≥2 exacerbaciones moderadas o ≥1 grave (hospitalización) el año previo.",
+    "referencia": "GOLD 2023 Report, Cap 4; Harrison 21ª pág 1998"
+   }
+  ]
+ },
+ {
+  "id": "ped_001",
+  "area": "PED",
+  "materia": "Pediatría",
+  "submateria": "Neonatología",
+  "titulo": "Síndrome de Distress Respiratorio Neonatal",
+  "icono": "👶",
+  "dificultad": "avanzado",
+  "frecuencia": 80,
+  "minutos": 40,
+  "resumen_html": "<h3>Definición</h3>\n      <p>El <strong>Síndrome de Distress Respiratorio (SDR)</strong> o Enfermedad de Membrana Hialina es la causa más frecuente de insuficiencia respiratoria en el prematuro. Se debe a <strong>déficit de surfactante pulmonar</strong>, que se produce desde las 24 semanas pero alcanza niveles funcionales a las 34-36 semanas.</p>\n      <h3>Factores de riesgo</h3>\n      <p>Prematuridad (principal), sexo masculino, diabetes gestacional, cesárea sin trabajo de parto, asfixia perinatal. <strong>Factores protectores:</strong> corticosteroides antenatales (betametasona), sexo femenino, hipertensión materna.</p>\n      <h3>Clínica y diagnóstico</h3>\n      <p>Taquipnea, quejido espiratorio, aleteo nasal, tiraje intercostal/subcostal, cianosis. Aparece en las primeras 4-6 horas de vida. Rx tórax: <strong>patrón reticulogranular difuso bilateral + broncograma aéreo</strong> (pulmón \"en vidrio esmerilado\"). Curva de lecitina/esfingomielina (L/E) >2 indica madurez pulmonar.</p>\n      <h3>Tratamiento</h3>\n      <p><strong>Surfactante exógeno</strong> (beractant/poractant): administrar temprano (primeras 2 horas). Técnica INSURE (Intubación-Surfactante-Extubación a CPAP). <strong>CPAP nasal</strong> como soporte respiratorio no invasivo preferido. Corticoides antenatales si parto pretérmino inminente.</p>",
+  "puntos_clave": [
+   "SDR = déficit de surfactante pulmonar. Más frecuente en <32 semanas",
+   "Rx: patrón reticulogranular + broncograma aéreo = clásico de EMH",
+   "Tratamiento: surfactante exógeno intratraqueal + soporte respiratorio (CPAP)",
+   "Betametasona materna 24mg IM (2 dosis c/24h) si parto <34 semanas: acelera madurez pulmonar",
+   "L/E >2 indica madurez pulmonar (fosfatidilglicerol confirma madurez)",
+   "Complicaciones: neumotórax, hemorragia pulmonar, displasia broncopulmonar"
+  ],
+  "mnemotecnia": "CPAP primero, luego Surfactante si empeora. Recuerda: 'Primero CPAP, después Surfactante'",
+  "bibliografia": "Nelson 21ª ed, Cap 117 (SDR Neonatal), pág 895-910.",
+  "preguntas": [
+   {
+    "id": "CF-ped_001-1",
+    "fuente": "conaflix",
+    "area": "PED",
+    "tema_conaflix": "ped_001",
+    "enunciado": "RN prematuro de 29 semanas, nace sin corticoides antenatales. A los 30 min presenta quejido, tiraje intercostal y sat O2 82%. Rx: infiltrado reticulogranular bilateral con broncograma aéreo. ¿Cuál es la conducta INMEDIATA más apropiada?",
+    "alternativas": {
+     "A": "Intubar y ventilar mecánicamente",
+     "B": "CPAP nasal con FiO2 0.4",
+     "C": "Surfactante + CPAP (técnica INSURE)",
+     "D": "O2 suplementario por cánula nasal",
+     "E": "Dexametasona IV"
+    },
+    "respuesta_correcta": "C",
+    "explicacion": "La técnica INSURE (Intubación-Surfactante-Extubación a CPAP) es el estándar actual en SDR confirmado. La administración temprana de surfactante (<2h) reduce la mortalidad y la DBP. Luego se extuba a CPAP nasal.",
+    "por_que_no": {
+     "A": "VMC puede ser necesaria si fracasa CPAP o INSURE, pero no es el primer paso.",
+     "B": "El CPAP solo sin surfactante en <32 semanas sin corticoides antenatales es insuficiente si hay SDR confirmado por Rx.",
+     "D": "O2 por cánula es insuficiente para SDR moderado-severo en 29 semanas.",
+     "E": "Los corticoides postnatales no tienen indicación en SDR agudo. Los antenatales son los indicados."
+    },
+    "perla": "Clinical Pearl: La ventana terapéutica del surfactante es <2 horas. Administrarlo después de 4-6 horas reduce su efectividad. LISA (Less Invasive Surfactant Administration) es la técnica más moderna: surfactante sin intubación formal.",
+    "referencia": "Nelson 21ª ed, Cap 117, pág 902"
+   }
+  ]
+ },
+ {
+  "id": "gine_001",
+  "area": "GO",
+  "materia": "Ginecología",
+  "submateria": "Obstetricia",
+  "titulo": "Preeclampsia y Eclampsia",
+  "icono": "🤰",
+  "dificultad": "avanzado",
+  "frecuencia": 90,
+  "minutos": 45,
+  "resumen_html": "<h3>Definición</h3>\n      <p><strong>Preeclampsia:</strong> HTA de novo ≥20 semanas (TAS ≥140 o TAD ≥90 mmHg en dos tomas) + proteinuria ≥300mg/24h o relación proteína/creatinina ≥0.3, o en ausencia de proteinuria con criterios de severidad.</p>\n      <h3>Preeclampsia con criterios de severidad</h3>\n      <p>TAS ≥160 o TAD ≥110, plaquetas <100.000, Cr >1.1, transaminasas ≥2x normal, edema pulmonar, síntomas neurológicos (cefalea intensa, escotomas), dolor epigástrico.</p>\n      <h3>Síndrome HELLP</h3>\n      <p><strong>H</strong>emolysis, <strong>E</strong>levated <strong>L</strong>iver enzymes, <strong>L</strong>ow <strong>P</strong>latelets. Complicación grave de la preeclampsia. Puede presentarse sin HTA o proteinuria. Tratamiento definitivo: parto.</p>\n      <h3>Tratamiento</h3>\n      <p><strong>Antihipertensivos agudos:</strong> labetalol IV, hidralazina IV, o nifedipino oral (TAS ≥160/TAD ≥110). <strong>Prevención de convulsiones:</strong> sulfato de magnesio IV (dosis: 4-6g en 20 min, luego 1-2g/h). <strong>Tratamiento definitivo:</strong> PARTO. Maduracion fetal con betametasona si <34 semanas y hay tiempo.</p>",
+  "puntos_clave": [
+   "Preeclampsia: HTA ≥20 sem + proteinuria. Con severidad: TAS≥160, TAD≥110, plaq<100k",
+   "Sulfato de Mg: previene/trata convulsiones en preeclampsia/eclampsia. Antídoto: gluconato de Ca",
+   "HELLP: hemólisis + TGO/TGP elevadas + plaquetas <100.000. No siempre hay HTA",
+   "Antídoto MgSO4: gluconato cálcico 1g IV en 10 min (toxicidad: pérdida de reflejos, paro resp)",
+   "Tratamiento DEFINITIVO: interrumpir embarazo (parto)",
+   "Labetalol IV o hidralazina IV: primera línea en crisis hipertensiva obstétrica"
+  ],
+  "mnemotecnia": "HELLP: Hemólisis, Enzimas Hepáticas elevadas, Low Plaquetas. Para MgSO4: 4-1-1 (4g bolo, 1-2g/h mantenimiento, 1g Ca antídoto)",
+  "bibliografia": "Williams Obstetricia 26ª ed, Cap 40 (Preeclampsia), pág 710-750.",
+  "preguntas": [
+   {
+    "id": "CF-gine_001-1",
+    "fuente": "conaflix",
+    "area": "GO",
+    "tema_conaflix": "gine_001",
+    "enunciado": "Paciente de 32 semanas, TAS 168/112 mmHg. Cefalea intensa, escotomas. Plaquetas 88.000. TGO 3x normal. ¿Cuál es la conducta MÁS apropiada?",
+    "alternativas": {
+     "A": "Reposo en cama, control ambulatorio",
+     "B": "Hospitalizar, sulfato de Mg, antihipertensivo IV, betametasona y parto diferido",
+     "C": "Nifedipino oral 30 mg y alta",
+     "D": "Diazepam IV para prevenir convulsiones",
+     "E": "Hospitalizar, madurar pulmones e interrumpir a las 34 semanas"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Preeclampsia con criterios de severidad + HELLP incipiente. Manejo: hospitalización inmediata, MgSO4 IV (4-6g bolo + 1-2g/h), antihipertensivo IV (labetalol), betametasona (madurez pulmonar, <34 sem), y parto una vez estabilizada (no diferir más de 48h).",
+    "por_que_no": {
+     "A": "Conducta ambulatoria inaceptable con criterios de severidad y plaquetas en descenso.",
+     "C": "Nifedipino oral puede usarse, pero no es suficiente manejo para esta situación sin hospitalización y MgSO4.",
+     "D": "El diazepam no es el fármaco de elección para prevención de convulsiones en preeclampsia; el MgSO4 es el estándar.",
+     "E": "Con HELLP, diferir el parto hasta 34 semanas no es seguro. Tras estabilización y betametasona, el parto se programa en 24-48h."
+    },
+    "perla": "Clinical Pearl: El sulfato de Mg NO es antihipertensivo. Es anticonvulsivante. Siempre agregar antihipertensivo IV si TAS≥160 o TAD≥110. MgSO4 continúa 24-48h post-parto.",
+    "referencia": "Williams Obstetricia 26ª ed, Cap 40, pág 730"
+   }
+  ]
+ },
+ {
+  "id": "cir_001",
+  "area": "CIR",
+  "materia": "Cirugía",
+  "submateria": "Abdomen agudo",
+  "titulo": "Apendicitis Aguda",
+  "icono": "🔪",
+  "dificultad": "basico",
+  "frecuencia": 85,
+  "minutos": 30,
+  "resumen_html": "<h3>Definición</h3>\n      <p>Inflamación aguda del apéndice vermiforme. Causa más frecuente de abdomen agudo quirúrgico. Incidencia máxima: 10-30 años. Fisiopatología: obstrucción de la luz apendicular (fecalito, hiperplasia linfoide) → distensión → isquemia → perforación.</p>\n      <h3>Clínica</h3>\n      <p>Dolor abdominal inicialmente periumbilical que migra a <strong>fosa ilíaca derecha (FID)</strong>, anorexia, náuseas/vómitos, fiebre baja. Signos: <strong>McBurney</strong> (punto entre 1/3 externo y 2/3 interno de la línea espinoumbilical), <strong>Blumberg</strong> (rebote en FID), <strong>Rovsing</strong> (dolor en FID al comprimir FII), <strong>Psoas</strong> (dolor al extender cadera derecha).</p>\n      <h3>Diagnóstico</h3>\n      <p>Clínico. Score de Alvarado: ≥7 = alta probabilidad. Leucocitosis con desviación izquierda. ECO abdominal (primera línea en embarazo y niños). TC abdomen con contraste: gold standard si duda diagnóstica (sensibilidad >95%).</p>\n      <h3>Tratamiento</h3>\n      <p>Apendicectomía (laparoscópica o abierta). Antibióticos preoperatorios: cefazolina + metronidazol. En apendicitis perforada: antibióticos más prolongados (ampicilina + gentamicina + metronidazol).</p>",
+  "puntos_clave": [
+   "Dolor que migra de periumbilical a FID + anorexia + fiebre baja = apendicitis hasta demostrar lo contrario",
+   "Signo de McBurney, Blumberg, Rovsing y Psoas son los más evaluados en CONAREM",
+   "Score de Alvarado ≥7 = alta probabilidad de apendicitis",
+   "TC de abdomen: gold standard si hay duda diagnóstica (sens >95%)",
+   "Tratamiento: apendicectomía + ATB profiláctico (cefazolina+metronidazol)",
+   "Apendicitis perforada: peritonitis. Abdomen en tabla. Cirugía de emergencia"
+  ],
+  "mnemotecnia": "Score MANTRELS (Alvarado): Migration, Anorexia, Nausea, Tenderness RLQ, Rebound, Elevated temp, Leukocytosis, Shift left",
+  "bibliografia": "Sabiston 21ª ed, Cap 51 (Apéndice), pág 1296-1315.",
+  "preguntas": [
+   {
+    "id": "CF-cir_001-1",
+    "fuente": "conaflix",
+    "area": "CIR",
+    "tema_conaflix": "cir_001",
+    "enunciado": "Hombre de 22 años, 18 horas de dolor en FID, anorexia, T° 38.1°C, leucocitos 14.500. Signo de Blumberg (+). Score de Alvarado 8. ¿Cuál es la conducta correcta?",
+    "alternativas": {
+     "A": "Observación hospitalaria 24h",
+     "B": "ECO abdominal urgente y si negativo alta",
+     "C": "TC abdominal con contraste",
+     "D": "Apendicectomía de urgencia",
+     "E": "Antibióticos IV y reevaluación en 6h"
+    },
+    "respuesta_correcta": "D",
+    "explicacion": "Score de Alvarado ≥7 + clínica típica indica alta probabilidad de apendicitis. No se requieren más estudios: se procede a apendicectomía. Demorar la cirugía aumenta el riesgo de perforación.",
+    "por_que_no": {
+     "A": "Con Alvarado ≥7, la observación sin tratamiento quirúrgico aumenta riesgo de perforación.",
+     "B": "La ECO es primera línea en casos dudosos. Con Alvarado 8 y clínica típica, no se necesita imagenología para operar.",
+     "C": "TC está indicada si hay duda diagnóstica (Alvarado 4-6). Con Alvarado 8, es innecesaria y demora el tratamiento.",
+     "E": "El tratamiento antibiótico como alternativa a cirugía es experimental y no el estándar en apendicitis aguda típica."
+    },
+    "perla": "Clinical Pearl: Alvarado ≥7 en hombres → cirugía directa. En mujeres en edad fértil (DD con embarazo ectópico, quiste ovárico), se prefiere ECO o TC antes de operar con Alvarado intermedio.",
+    "referencia": "Sabiston 21ª ed, Cap 51, pág 1302"
+   }
+  ]
+ },
+ {
+  "id": "psiq_001",
+  "area": "MI",
+  "materia": "Psiquiatría",
+  "submateria": "Trastornos del ánimo",
+  "titulo": "Trastorno Depresivo Mayor",
+  "icono": "🧠",
+  "dificultad": "basico",
+  "frecuencia": 75,
+  "minutos": 35,
+  "resumen_html": "<h3>Criterios DSM-5</h3>\n      <p>≥5 síntomas durante ≥2 semanas, incluyendo obligatoriamente <strong>ánimo deprimido</strong> o <strong>anhedonia</strong>: ánimo deprimido, anhedonia, cambios de peso/apetito, insomnio/hipersomnia, agitación/enlentecimiento psicomotor, fatiga, culpa/inutilidad, dificultad para concentrarse, pensamientos de muerte.</p>\n      <h3>Tratamiento farmacológico</h3>\n      <p><strong>Primera línea:</strong> ISRS (fluoxetina, sertralina, escitalopram, paroxetina). <strong>Alternativas:</strong> IRSN (venlafaxina, duloxetina), bupropión (evitar si riesgo de convulsiones), mirtazapina. Los antidepresivos tardan <strong>2-4 semanas</strong> en mostrar efecto.</p>\n      <h3>Duración del tratamiento</h3>\n      <p>Primer episodio: mínimo 6-12 meses post-remisión. Segundo episodio: 2 años. Tercer episodio o factores de riesgo: tratamiento indefinido.</p>",
+  "puntos_clave": [
+   "Diagnóstico TDM: ≥5 síntomas por ≥2 semanas; OBLIGATORIO: ánimo deprimido O anhedonia",
+   "Primer episodio leve-moderado: psicoterapia (TCC) ± ISRS. Grave: siempre farmacoterapia",
+   "ISRS: primera línea. Fluoxetina (vida media larga = menor síndrome de discontinuación)",
+   "Antidepresivos: inicio de acción 2-4 semanas. Ensayo adecuado: 6-8 semanas a dosis terapéutica",
+   "Riesgo suicida: mayor al inicio del tratamiento (recupera energía antes que el ánimo)",
+   "Bupropión: contraindicado en anorexia/bulimia y riesgo de convulsiones"
+  ],
+  "mnemotecnia": "Síntomas depresión: SIGECAPS (Sleep, Interest, Guilt, Energy, Concentration, Appetite, Psychomotor, Suicidal) + ánimo deprimido",
+  "bibliografia": "Kaplan & Sadock 12ª ed, Cap 8 (Trastornos del Ánimo), pág 320-380. DSM-5-TR.",
+  "preguntas": [
+   {
+    "id": "CF-psiq_001-1",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "psiq_001",
+    "enunciado": "Mujer de 35 años con ánimo deprimido, anhedonia, insomnio y fatiga por 3 semanas. Sin antecedentes psiquiátricos. Funcionalidad deteriorada. ¿Cuál es el tratamiento de primera línea?",
+    "alternativas": {
+     "A": "Amitriptilina (ATC)",
+     "B": "Sertralina (ISRS)",
+     "C": "Haloperidol",
+     "D": "Alprazolam",
+     "E": "Litio"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea en TDM por su eficacia demostrada y mejor perfil de seguridad vs antidepresivos más antiguos. Sertralina tiene buena tolerabilidad y bajo potencial de interacciones.",
+    "por_que_no": {
+     "A": "Los ATC tienen eficacia similar pero mayor toxicidad (anticolinérgicos, cardiotoxicidad en sobredosis). Son segunda o tercera línea.",
+     "C": "Los antipsicóticos no son el tratamiento primario del TDM no psicótico.",
+     "D": "Las benzodiacepinas no son antidepresivos; solo tratan la ansiedad y el insomnio de forma sintomática.",
+     "E": "El litio se usa como estabilizador del ánimo en TAB o como augmentation en depresión resistente."
+    },
+    "perla": "Clinical Pearl: Al iniciar ISRS, siempre advertir al paciente que el efecto antidepresivo tarda 2-4 semanas. En las primeras 2 semanas puede haber mayor ansiedad antes de mejorar el ánimo.",
+    "referencia": "Kaplan & Sadock 12ª ed, pág 342"
+   }
+  ]
+ },
+ {
+  "id": "urg_001",
+  "area": "MI",
+  "materia": "Urgencias",
+  "submateria": "ACLS",
+  "titulo": "Fibrilación Ventricular y PCR",
+  "icono": "⚡",
+  "dificultad": "avanzado",
+  "frecuencia": 88,
+  "minutos": 40,
+  "resumen_html": "<h3>Algoritmo PCR - ACLS 2020</h3>\n      <p>Ante PCR: activar sistema de emergencias, iniciar <strong>RCP de alta calidad</strong> (30:2, compresiones ≥5cm, frecuencia 100-120/min, permitir retroceso completo, mínimas interrupciones). Conectar DEA lo antes posible.</p>\n      <h3>Ritmos desfibrilables: FV y TV sin pulso</h3>\n      <p><strong>Secuencia:</strong> 1 descarga → RCP 2min → verificar ritmo. Si persiste FV/TV: descarga → RCP 2min → adrenalina 1mg IV → RCP 2min → descarga → amiodarona 300mg IV → RCP 2min... Adrenalina cada 3-5 min. Amiodarona segunda dosis: 150mg.</p>\n      <h3>Ritmos no desfibrilables: AESP y Asistolia</h3>\n      <p>RCP continuo + adrenalina 1mg IV cada 3-5 min. Buscar y tratar causas reversibles: <strong>5H y 5T</strong>: Hipovolemia, Hipoxia, Hidrogenión (acidosis), Hipo/Hiperpotasemia, Hipotermia; Neumotórax a Tensión, Taponamiento, Tóxicos, Trombosis coronaria, Trombosis pulmonar.</p>",
+  "puntos_clave": [
+   "RCP: 30 compresiones : 2 ventilaciones, 100-120/min, ≥5cm profundidad, mínimas pausas",
+   "FV/TV sin pulso: DESFIBRILAR inmediatamente. Energía bifásica: 120-200J (monofásica: 360J)",
+   "Adrenalina 1mg IV cada 3-5 min en todo ritmo. Primera dosis: después de 2° ciclo si FV/TV",
+   "Amiodarona 300mg IV en FV/TV refractaria. Segunda dosis 150mg. Alternativa: lidocaína",
+   "5H y 5T: causas reversibles de PCR a buscar SIEMPRE en AESP/Asistolia",
+   "Después de RCE: cuidados post-resucitación: O2, ECG, PCI si SCA, control de temperatura"
+  ],
+  "mnemotecnia": "5H: Hipovolemia, Hipoxia, H+ (acidosis), Hiper/HipoK+, Hipotermia. 5T: Tensión (neumotórax), Taponamiento, Tóxicos, Trombosis coronaria, Trombosis pulmonar",
+  "bibliografia": "AHA ACLS Guidelines 2020; Tintinalli 9ª ed, Cap 9.",
+  "preguntas": [
+   {
+    "id": "CF-urg_001-1",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "urg_001",
+    "enunciado": "Paciente en PCR, monitor muestra FV. Se realizan 2 ciclos de RCP (4 min). Se dan 2 descargas. Sigue en FV. ¿Cuál es el siguiente paso?",
+    "alternativas": {
+     "A": "Amiodarona 300mg IV + continuar RCP",
+     "B": "Adrenalina 1mg IV + continuar RCP",
+     "C": "Atropina 1mg IV + continuar RCP",
+     "D": "Lidocaína 1.5 mg/kg + desfibrilar",
+     "E": "Suspender maniobras"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "Según algoritmo ACLS 2020: después del 2° ciclo de RCP con FV persistente → descarga → RCP 2min → ADRENALINA 1mg IV. La amiodarona se da después de la 3ª descarga (en el 3er ciclo). Adrenalina es el primer fármaco.",
+    "por_que_no": {
+     "A": "La amiodarona 300mg se indica DESPUÉS de la 3ª descarga (3er ciclo), no del 2°.",
+     "C": "La atropina NO tiene indicación en FV ni TV sin pulso. Solo en bradicardia con pulso.",
+     "D": "Lidocaína es alternativa a amiodarona, no se usa antes de adrenalina.",
+     "E": "La PCR presenciada en FV es uno de los casos con mayor potencial de RCE; no suspender."
+    },
+    "perla": "Clinical Pearl: Secuencia fármacos en FV/TV: 1° Adrenalina (post 2° ciclo), luego Amiodarona (post 3° ciclo). Regla nemotécnica: A-A = Adrenalina primero, Amiodarona segundo.",
+    "referencia": "AHA ACLS 2020, Cardiac Arrest Circular; Tintinalli pág 82"
+   }
+  ]
+ },
+ {
+  "id": "nefro_001",
+  "area": "MI",
+  "materia": "Medicina Interna",
+  "submateria": "Nefrología",
+  "titulo": "Insuficiencia Renal Aguda",
+  "icono": "🫘",
+  "dificultad": "intermedio",
+  "frecuencia": 82,
+  "minutos": 40,
+  "resumen_html": "<h3>Definición KDIGO</h3>\n      <p>Aumento de creatinina sérica ≥0.3 mg/dL en 48h, o ≥1.5x el valor basal en 7 días, o diuresis <0.5 mL/kg/h por ≥6h.</p>\n      <h3>Clasificación etiológica</h3>\n      <p><strong>Prerrenal (55-60%):</strong> hipoperfusión (hipovolemia, bajo gasto cardíaco). FeNa <1%, osmolaridad urinaria >500. <strong>Intrarenal (35-40%):</strong> NTA isquémica o nefrotóxica. FeNa >2%, cilindros granulosos en orina. <strong>Postrenal (5%):</strong> obstrucción. ECO: hidronefrosis.</p>\n      <h3>Tratamiento</h3>\n      <p>Prerrenal: reposición de volumen (SSN 0.9%). Renal: eliminar nefrotóxicos, optimizar hemodinamia. Postrenal: aliviar obstrucción. Diálisis si: K+ >6.5 refractario, acidosis grave, sobrecarga de volumen refractaria, uremia sintomática.</p>",
+  "puntos_clave": [
+   "Prerrenal: FeNa <1%, BUN/Cr >20, orina concentrada, responde a fluidos",
+   "NTA: FeNa >2%, cilindros granulosos pardos, no responde a fluidos",
+   "Diálisis urgente: K+ >6.5, acidosis severa, sobrecarga volumen, encefalopatía urémica",
+   "Principales nefrotóxicos: AINEs, aminoglucósidos, contraste yodado, IECA en estenosis AR bilateral",
+   "ECO renal: siempre en IRA de causa no clara (descarta obstrucción)",
+   "Síndrome cardiorrenal tipo 1: IC aguda → IRA"
+  ],
+  "mnemotecnia": "FeNa <1% = Feliz (prerenal, riñón OK conservando Na). FeNa >2% = Feo (lesión tubular, riñón pierde Na)",
+  "bibliografia": "Harrison 21ª ed, Cap 308 (IRA), pág 2100-2125. KDIGO AKI Guidelines 2012.",
+  "preguntas": [
+   {
+    "id": "CF-nefro_001-1",
+    "fuente": "conaflix",
+    "area": "MI",
+    "tema_conaflix": "nefro_001",
+    "enunciado": "Hombre 70a, HTA en IECA. Postoperatorio de cirugía abdominal mayor: creatinina basal 1.0, ahora 2.8 mg/dL. FeNa 0.4%, BUN/Cr 24. Sin obstrucción en ECO. ¿Diagnóstico más probable?",
+    "alternativas": {
+     "A": "NTA por sepsis",
+     "B": "IRA prerrenal",
+     "C": "Nefritis intersticial aguda",
+     "D": "Glomerulonefritis aguda",
+     "E": "NTA nefrotóxica por IECA"
+    },
+    "respuesta_correcta": "B",
+    "explicacion": "FeNa <1% (0.4%) + BUN/Cr >20 + contexto postquirúrgico (hipovolemia, bajo gasto) indica IRA prerrenal. El riñón está funcionalmente normal, conservando sodio. Tratamiento: reposición de volumen.",
+    "por_que_no": {
+     "A": "La NTA por sepsis da FeNa >2% con cilindros granulosos. Sin evidencia de sepsis aquí.",
+     "C": "La NIA generalmente tiene eosinofiluria, eosinofilia, asociada a fármacos. FeNa suele ser >2%.",
+     "D": "La GNA se presenta con hematuria, proteinuria y cilindros eritrocitarios.",
+     "E": "Los IECA pueden causar IRA funcional (prerrenal) por reducir presión de filtración, especialmente con hipovolemia o estenosis de arteria renal. Pero la FeNa <1% confirma prerrenal, no NTA."
+    },
+    "perla": "Clinical Pearl: IECA + hipovolemia = IRA prerrenal funcional. El IECA dilata la arteriola eferente, reduciendo la TFG cuando la presión de perfusión es baja. Solución: suspender IECA + reponer volumen.",
+    "referencia": "Harrison 21ª ed, pág 2107; KDIGO 2012"
+   }
+  ]
+ }
+]
