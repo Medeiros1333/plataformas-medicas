@@ -1,13 +1,12 @@
 # Plataformas de Estudo
 
-Cinco plataformas estáticas de estudo médico, publicadas via GitHub Pages:
+Quatro plataformas estáticas de estudo médico, publicadas via GitHub Pages:
 
 | Plataforma | Conteúdo | Hub |
 |---|---|---|
 | **Revalida** | Banco de questões INEP 2011–2026 + módulos comentados | `Revalida/hub/` |
 | **MIR** | Banco de preguntas MIR + calendario de estudio | `MIR/hub/` |
 | **Farmaco** | Farmacoterapia, pediatría y microbiología | `Farmaco/hub/` |
-| **ECOE** | Simulacro das 4 estações do ECOE (Clínica Médica II): anamnese com paciente simulado, laboratório, diagnóstico e tratamento, exame físico | `ECOE/` |
 | **CONAREM** | Exámenes oficiales CONAREM (Paraguay) 2022–2026 + simulacros, repaso y temario | `CONAREM/hub/` |
 
 Este repositório é um espelho gerado por `publicar_github.ps1` (na pasta de trabalho
