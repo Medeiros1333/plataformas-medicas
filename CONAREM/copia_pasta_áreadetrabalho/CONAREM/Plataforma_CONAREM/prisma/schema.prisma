@@ -1,0 +1,191 @@
+generator client {
+  provider      = "prisma-client-js"
+  // node:20-alpine ships OpenSSL 3.x; without this, Prisma defaults to an
+  // openssl-1.1.x engine binary that fails to load at runtime with
+  // "Error loading shared library libssl.so.1.1: No such file or directory".
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum PlanStatus {
+  TRIAL
+  ACTIVE
+  EXPIRED
+  CANCELED
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  passwordHash  String
+  name          String?
+  role          Role     @default(USER)
+  createdAt     DateTime @default(now())
+
+  planStatus    PlanStatus @default(TRIAL)
+  trialEndsAt   DateTime
+  planEndsAt    DateTime?
+  planUpdatedAt DateTime   @default(now())
+  planUpdatedBy String?
+
+  examAttempts  ExamAttempt[]
+  srsStates     FlashcardSrsState[]
+  gamify        GamifyState?
+  leagueResults LeagueWeekResult[]
+  payments      Payment[]
+  resetTokens   PasswordResetToken[]
+  questionProgress QuestionProgress[]
+  trailState    TrailState?
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+}
+
+model ExamAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  date        DateTime @default(now())
+  mode        String
+  modeLabel   String
+  total       Int
+  answered    Int
+  correct     Int
+  usedSeconds Int
+  timeBudget  Int
+  exitedEarly Boolean  @default(false)
+  isSimulacro Boolean
+  byArea      Json
+  createdAt   DateTime @default(now())
+
+  @@index([userId, date])
+}
+
+model FlashcardSrsState {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cardId    String
+  box       Int      @default(0)
+  due       DateTime @default(now())
+  reps      Int      @default(0)
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, cardId])
+  @@index([userId, due])
+}
+
+model GamifyState {
+  userId               String   @id
+  user                 User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  xp                   Int      @default(0)
+  lastXpDate           String?
+  streakCurrent        Int      @default(0)
+  streakLongest        Int      @default(0)
+  streakLastActiveDate String?
+  streakFreezes        Int      @default(1)
+  tierIndex            Int      @default(0)
+  weekKey              String?
+  weekXp               Int      @default(0)
+  updatedAt            DateTime @updatedAt
+}
+
+/// One durable row per (user, week) so a "you were promoted/demoted" banner
+/// stays queryable even after tierIndex has since moved on.
+model LeagueWeekResult {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  weekKey     String
+  tierIndex   Int
+  weekXp      Int
+  rank        Int?
+  totalInTier Int?
+  promoted    Boolean  @default(false)
+  demoted     Boolean  @default(false)
+  seen        Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@unique([userId, weekKey])
+  @@index([weekKey, tierIndex])
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  CANCELED
+}
+
+model Payment {
+  id            String        @id @default(cuid())
+  orderNumber   Int           @unique @default(autoincrement())
+  userId        String
+  user          User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  planCode      String
+  months        Int
+  amount        Int
+  status        PaymentStatus @default(PENDING)
+  pagoparHash   String?       @unique
+  paymentMethod String?
+  note          String?
+  createdBy     String?
+  paidAt        DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  @@index([userId, createdAt])
+}
+
+model Setting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+// Per-user, per-question learning state used by the adaptive study trail
+// (beta). "dueAt" drives the spaced repetition: a wrong answer makes the
+// question due immediately, a correct one pushes it out by a growing interval.
+model QuestionProgress {
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId  String
+  area        String
+  attempts    Int      @default(0)
+  wrong       Int      @default(0)
+  streak      Int      @default(0)
+  lastCorrect Boolean  @default(false)
+  lastSeenAt  DateTime @default(now())
+  dueAt       DateTime @default(now())
+
+  @@id([userId, questionId])
+  @@index([userId, dueAt])
+}
+
+// One row per user: which trail missions are completed (with score/stars) and
+// the question set drawn for the mission currently in progress.
+model TrailState {
+  userId    String   @id
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  completed Json     @default("{}")
+  active    Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

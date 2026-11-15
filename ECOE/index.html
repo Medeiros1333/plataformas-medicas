@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0F1115">
+<title>Estaciones ECOE</title>
+<style>
+:root{
+  --bg:#F4F5F7; --surface:#FFFFFF; --surface2:#F8F9FB; --border:#DCE0E6; --border2:#C9CFD8;
+  --text:#191C22; --muted:#5A6270; --faint:#8A919C;
+  --s1:#0F7F73; --s2:#3A55B8; --s3:#A35C0B; --s4:#B0365A;
+  --warn:#B7791F; --over:#C0392B; --ok:#1E7F4F;
+  --shadow:0 1px 2px rgba(20,24,32,.06),0 8px 28px rgba(20,24,32,.08);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1115; --surface:#171A21; --surface2:#1C2029; --border:#2A2F3A; --border2:#3A4150;
+    --text:#E6E8EB; --muted:#A0A8B4; --faint:#6F7784;
+    --s1:#4FD1C5; --s2:#8EA6FF; --s3:#F0B35E; --s4:#F08AA8;
+    --warn:#F0B35E; --over:#FF7A6B; --ok:#5DD39E;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1115; --surface:#171A21; --surface2:#1C2029; --border:#2A2F3A; --border2:#3A4150;
+  --text:#E6E8EB; --muted:#A0A8B4; --faint:#6F7784;
+  --s1:#4FD1C5; --s2:#8EA6FF; --s3:#F0B35E; --s4:#F08AA8;
+  --warn:#F0B35E; --over:#FF7A6B; --ok:#5DD39E;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+button,input,textarea,select{font:inherit;color:inherit}
+.serif{font-family:ui-serif,Georgia,"Times New Roman",serif}
+
+/* ---------- barra superior ---------- */
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.top-in{max-width:980px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px}
+.brand{font:600 1.05rem/1.1 ui-serif,Georgia,serif;white-space:nowrap;text-decoration:none;color:inherit}
+.brand small{display:block;font:500 .72rem/1.3 -apple-system,system-ui,sans-serif;color:var(--muted);letter-spacing:.02em}
+.steps{display:flex;gap:6px;list-style:none;margin:0 auto;padding:0}
+.steps li{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--faint);white-space:nowrap}
+.steps li b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;
+  border:1.5px solid var(--border2);font-size:.78rem}
+.steps li.on{color:var(--text)} .steps li.on b{border-color:var(--c);background:var(--c);color:var(--surface)}
+.steps li.done b{border-color:var(--c);color:var(--c)}
+.steps li+li::before{content:"";width:14px;height:1.5px;background:var(--border2);margin-right:2px}
+.timer{font:600 1.35rem/1 ui-monospace,"SF Mono",Consolas,monospace;font-variant-numeric:tabular-nums;
+  padding:7px 12px;border-radius:10px;border:1px solid var(--border);background:var(--surface);min-width:92px;text-align:center}
+.timer.idle{color:var(--faint)}
+.timer.warn{color:var(--warn);border-color:var(--warn)}
+.timer.over{color:#fff;background:var(--over);border-color:var(--over);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.75}}
+.icon-btn{width:40px;height:40px;border-radius:10px;border:1px solid var(--border);background:var(--surface);
+  cursor:pointer;display:grid;place-items:center;flex:none}
+.icon-btn:hover{border-color:var(--border2)}
+.icon-btn svg{width:19px;height:19px}
+
+main{max-width:860px;margin:0 auto;padding:28px 16px 120px}
+
+/* ---------- inicio ---------- */
+.hero h1{font:600 clamp(1.7rem,4vw,2.3rem)/1.15 ui-serif,Georgia,serif;margin:6px 0 8px}
+.hero p{color:var(--muted);margin:0 0 22px;max-width:60ch}
+.plan{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 22px}
+.plan div{background:var(--surface);border:1px solid var(--border);border-top:4px solid var(--c);border-radius:12px;padding:14px}
+.plan b{display:block;font:600 .98rem/1.25 ui-serif,Georgia,serif;margin:4px 0}
+.plan span{font-size:.84rem;color:var(--muted)}
+.plan i{font-style:normal;font-size:.75rem;font-weight:600;color:var(--c);letter-spacing:.04em;text-transform:uppercase}
+details.pick{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin-bottom:22px}
+details.pick summary{cursor:pointer;font-weight:600;font-size:.95rem}
+.pick-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 14px;margin-top:12px}
+.pick-grid label{font-size:.82rem;color:var(--muted);display:grid;gap:4px}
+select{padding:8px 10px;border-radius:8px;border:1px solid var(--border2);background:var(--surface2)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:12px;padding:13px 22px;cursor:pointer;
+  font-weight:600;background:var(--text);color:var(--bg);font-size:1rem}
+.btn:hover{opacity:.9}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--border2)}
+.note{font-size:.82rem;color:var(--muted);margin-top:14px}
+
+/* ---------- tarjeta (flashcard) ---------- */
+.st-head{display:flex;align-items:baseline;gap:10px;margin:0 0 12px;color:var(--muted);font-size:.86rem}
+.st-head b{color:var(--c);font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:.76rem}
+.scene{perspective:1600px}
+.card{display:grid;position:relative;transition:transform .7s cubic-bezier(.2,.75,.25,1);transform-style:preserve-3d}
+.card.flip{transform:rotateY(180deg)}
+.face{grid-area:1/1;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;
+  background:var(--surface);border:1px solid var(--border);box-shadow:var(--shadow)}
+.front{min-height:380px;align-self:start;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  cursor:pointer;padding:32px 20px;border-top:6px solid var(--c);
+  background:radial-gradient(120% 90% at 50% 0%,color-mix(in srgb,var(--c) 7%,var(--surface)),var(--surface))}
+.front:focus-visible{outline:3px solid var(--c);outline-offset:3px}
+.front .num{font:600 5.2rem/1 ui-serif,Georgia,serif;color:var(--c)}
+.front h2{font:600 1.5rem/1.2 ui-serif,Georgia,serif;margin:10px 0 6px}
+.front p{color:var(--muted);margin:0}
+.front .tap{margin-top:26px;display:inline-flex;align-items:center;gap:8px;font-size:.9rem;font-weight:600;
+  border:1px solid var(--border2);border-radius:999px;padding:8px 16px}
+.front .tap svg{width:16px;height:16px}
+.back{transform:rotateY(180deg);padding:22px 22px 20px;border-top:6px solid var(--c);min-width:0}
+.card:not(.flip) .back{visibility:hidden}
+.card.flip .front{pointer-events:none}
+.back h3{font:600 1.15rem/1.3 ui-serif,Georgia,serif;margin:0 0 12px}
+.label{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:16px 0 6px}
+.label:first-child{margin-top:0}
+.tarjeta{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;background:var(--surface2);border:1px solid var(--border);
+  border-radius:12px;padding:12px 14px;font-size:.94rem}
+.tarjeta dt{font-weight:600;color:var(--muted);font-size:.84rem;padding-top:1px}
+.tarjeta dd{margin:0}
+.consigna{border-left:3px solid var(--c);padding:8px 12px;background:color-mix(in srgb,var(--c) 7%,transparent);border-radius:0 10px 10px 0;margin-top:14px;font-size:.95rem}
+.caso{font-size:.98rem}
+.labs{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.labs li{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:9px 12px;font-size:.93rem;
+  font-variant-numeric:tabular-nums}
+
+/* chat del paciente */
+.chat{margin-top:16px;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--surface2)}
+.chat-h{display:flex;align-items:center;gap:8px;padding:9px 12px;border-bottom:1px solid var(--border);font-size:.84rem;color:var(--muted)}
+.chat-h .dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
+.log{height:260px;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px;scroll-behavior:smooth}
+.log .hint{color:var(--faint);font-size:.88rem;text-align:center;margin:auto 0}
+.msg{max-width:84%;padding:8px 12px;border-radius:14px;font-size:.94rem;line-height:1.45}
+.msg.q{align-self:flex-end;background:var(--c);color:var(--surface);border-bottom-right-radius:4px}
+.msg.a{align-self:flex-start;background:var(--surface);border:1px solid var(--border);border-bottom-left-radius:4px}
+.msg.a small{display:block;font-size:.7rem;font-weight:700;color:var(--muted);letter-spacing:.03em;margin-bottom:1px}
+.msg.typing{color:var(--faint)}
+.ask{display:flex;gap:8px;padding:10px;border-top:1px solid var(--border);background:var(--surface)}
+.ask input{flex:1;min-width:0;padding:10px 12px;border-radius:10px;border:1px solid var(--border2);background:var(--surface2)}
+.ask input:focus{outline:2px solid var(--c);outline-offset:-1px;border-color:transparent}
+.ask button{border:0;border-radius:10px;padding:0 16px;background:var(--c);color:var(--surface);font-weight:600;cursor:pointer}
+
+/* ---------- campos de respuesta ---------- */
+.resp{margin-top:22px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px 20px;
+  animation:rise .45s ease both .35s}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+.resp h3{font:600 1.1rem/1.3 ui-serif,Georgia,serif;margin:0 0 4px}
+.resp .sub{color:var(--muted);font-size:.85rem;margin:0 0 14px}
+.row{display:grid;grid-template-columns:230px 1fr;gap:6px 16px;padding:10px 0;border-top:1px dashed var(--border)}
+.row:first-of-type{border-top:0}
+.row>label{font-weight:600;font-size:.92rem;padding-top:9px}
+.row>label small{display:block;font-weight:400;color:var(--muted);font-size:.78rem}
+textarea,.resp input[type=text]{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--border2);
+  background:var(--surface2);line-height:1.5;resize:vertical}
+textarea:focus,.resp input[type=text]:focus{outline:2px solid var(--c);outline-offset:-1px;border-color:transparent}
+.multi{display:grid;gap:6px}
+.multi .it{display:flex;gap:8px;align-items:center}
+.multi .it span{width:20px;text-align:right;color:var(--faint);font-size:.85rem;font-variant-numeric:tabular-nums}
+.add{justify-self:start;border:1px dashed var(--border2);background:transparent;border-radius:8px;padding:5px 12px;
+  font-size:.84rem;color:var(--muted);cursor:pointer}
+.add:hover{color:var(--text);border-color:var(--text)}
+
+/* ---------- botón próxima estación ---------- */
+.next{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:30;
+  display:inline-flex;align-items:center;gap:8px;border:0;border-radius:14px;padding:14px 20px;font-weight:700;
+  background:var(--c,var(--text));color:var(--surface);box-shadow:0 8px 24px rgba(0,0,0,.22);cursor:pointer}
+.next svg{width:18px;height:18px}
+.next[hidden]{display:none}
+.toast{position:fixed;left:50%;top:76px;transform:translateX(-50%);z-index:40;background:var(--over);color:#fff;
+  padding:10px 18px;border-radius:12px;font-weight:700;box-shadow:var(--shadow);animation:rise .3s ease both}
+
+/* ---------- final ---------- */
+.fin h1{font:600 2rem/1.15 ui-serif,Georgia,serif;margin:0 0 6px}
+.fin>p{color:var(--muted);margin:0 0 20px}
+details.res{background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--c);border-radius:14px;margin-bottom:12px}
+details.res>summary{cursor:pointer;padding:14px 16px;font-weight:600;list-style:none;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+details.res>summary::-webkit-details-marker{display:none}
+details.res>summary::before{content:"›";color:var(--c);font-size:1.2rem;transition:transform .2s;display:inline-block}
+details.res[open]>summary::before{transform:rotate(90deg)}
+details.res>summary span{font-weight:400;color:var(--muted);font-size:.88rem}
+.res-b{padding:0 16px 16px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.box{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:12px 14px;font-size:.92rem;min-width:0}
+.box h4{margin:0 0 8px;font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.box ul{margin:0;padding-left:18px} .box li{margin:3px 0}
+.box .k{font-weight:600}
+.box .empty{color:var(--faint);font-style:italic}
+.box pre{white-space:pre-wrap;font:inherit;margin:0 0 8px}
+.ef{display:grid;gap:8px}
+.ef div{border-top:1px dashed var(--border);padding-top:7px}
+.ef div:first-child{border-top:0;padding-top:0}
+.tag{font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.tag.n{color:var(--ok)} .tag.p{color:var(--over)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+
+@media (max-width:760px){
+  .steps li span{display:none}
+  .steps li+li::before{width:8px}
+  .plan{grid-template-columns:1fr 1fr}
+  .row{grid-template-columns:1fr}
+  .row>label{padding-top:0}
+  .cols{grid-template-columns:1fr}
+  .brand small{display:none}
+}
+@media (max-width:480px){
+  .top-in{gap:8px;padding:8px 12px}
+  .steps{gap:3px} .steps li+li::before{display:none}
+  .steps li b{width:21px;height:21px;font-size:.72rem}
+  .timer{min-width:74px;font-size:1.1rem;padding:6px 8px}
+  .brand{font-size:.95rem}
+  .back{padding:18px 14px}
+  .tarjeta{grid-template-columns:1fr} .tarjeta dt{padding-top:6px}
+  .front{min-height:330px}
+  .pick-grid{grid-template-columns:1fr}
+  .resp{padding:16px 14px}
+}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.resp,.toast{animation:none}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="./">ECOE<small>Clínica Médica II · estaciones</small></a>
+    <ol class="steps" id="steps"></ol>
+    <div class="timer idle" id="timer" aria-live="off">8:00</div>
+    <button class="icon-btn" id="theme" title="Cambiar tema claro / oscuro" aria-label="Cambiar tema claro u oscuro">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+<main id="app"></main>
+<button class="next" id="next" hidden></button>
+<script src="data.js"></script>
+<script src="motor.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

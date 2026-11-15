@@ -1,0 +1,144 @@
+require("dotenv").config();
+
+const path = require("path");
+const express = require("express");
+const helmet = require("helmet");
+const cookieParser = require("cookie-parser");
+const session = require("express-session");
+const pgSession = require("connect-pg-simple")(session);
+const { Pool } = require("pg");
+
+const config = require("./config");
+
+const app = express();
+
+// Traefik terminates TLS in front of this app -- without trust proxy,
+// express-session would never see the request as "secure" and would refuse
+// to set the secure cookie.
+app.set("trust proxy", 1);
+
+// The frontend is a single-file-style app (all logic in inline <script>
+// blocks, no bundler/build step) -- helmet's default CSP (script-src 'self'
+// with no 'unsafe-inline') silently blocks every inline script, which broke
+// all interactivity on both pages. There's no third-party script inclusion
+// risk here (no CDN scripts, first-party HTML only), so allowing inline
+// scripts is an acceptable, deliberate trade-off for this app's shape.
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+        "script-src": ["'self'", "'unsafe-inline'"],
+        "script-src-attr": null,
+      },
+    },
+  })
+);
+app.use(express.json({ limit: "256kb" }));
+app.use(cookieParser());
+
+const sessionPool = new Pool({ connectionString: config.databaseUrl });
+
+app.use(
+  session({
+    store: new pgSession({ pool: sessionPool, tableName: "session", createTableIfMissing: true }),
+    secret: config.sessionSecret,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: config.nodeEnv === "production",
+      sameSite: "lax",
+      maxAge: 30 * 24 * 60 * 60 * 1000,
+    },
+  })
+);
+
+const { gamifyRouter, leagueRouter } = require("./routes/gamify");
+const { getQuestionStats } = require("./services/questionStats");
+const emailSettings = require("./services/emailSettings");
+
+// Public: powers the "N preguntas" counters on the landing page. Computed
+// once at server start from the real question bank (frontend/app.html), not
+// hardcoded -- see src/services/questionStats.js.
+app.get("/api/stats/questions", (req, res) => {
+  const stats = getQuestionStats();
+  if (!stats) return res.status(503).json({ error: "stats_unavailable" });
+  res.json(stats);
+});
+
+// Public: the contact addresses shown on the landing page footer, editable
+// from the admin dashboard (Configurações) without a redeploy.
+app.get("/api/contact", async (req, res, next) => {
+  try {
+    const e = await emailSettings.get();
+    res.json({ supportEmail: e.supportEmail, paymentsEmail: e.paymentsEmail });
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.use("/api/auth", require("./routes/auth"));
+app.use("/api/history", require("./routes/history"));
+app.use("/api/srs", require("./routes/srs"));
+app.use("/api/gamify", gamifyRouter);
+app.use("/api/league", leagueRouter);
+app.use("/api/admin", require("./routes/admin"));
+app.use("/api/trail", require("./routes/trail")); // beta, admin-only
+app.use("/api/billing", require("./routes/billing"));
+
+const frontendDir = path.join(__dirname, "..", "frontend");
+
+// Serve static assets (nothing sensitive lives outside index.html/app.html,
+// but keep this before the guarded routes below so e.g. shared CSS/JS files
+// -- if any get added later -- aren't accidentally gated).
+app.use(express.static(frontendDir, { index: false }));
+
+app.get("/", (req, res) => {
+  if (req.session && req.session.userId) {
+    return res.redirect("/app");
+  }
+  const isLandingHost = config.landingHosts.includes(String(req.hostname || "").toLowerCase());
+  res.sendFile(path.join(frontendDir, isLandingHost ? "landing.html" : "index.html"));
+});
+
+app.get("/login", (req, res) => {
+  if (req.session && req.session.userId) {
+    return res.redirect("/app");
+  }
+  res.sendFile(path.join(frontendDir, "index.html"));
+});
+
+// Public legal pages (no auth gate -- linked from the landing footer).
+["terminos", "propiedad-intelectual", "responsabilidad", "privacidad"].forEach((slug) => {
+  app.get(`/${slug}`, (req, res) => res.sendFile(path.join(frontendDir, `${slug}.html`)));
+});
+
+app.get("/admin", async (req, res) => {
+  if (!req.session || !req.session.userId) return res.redirect("/");
+  const prisma = require("./db");
+  const user = await prisma.user.findUnique({ where: { id: req.session.userId }, select: { role: true } });
+  if (!user || user.role !== "ADMIN") return res.redirect("/app");
+  res.sendFile(path.join(frontendDir, "admin.html"));
+});
+
+app.get("/app", (req, res) => {
+  if (!req.session || !req.session.userId) {
+    return res.redirect("/");
+  }
+  res.sendFile(path.join(frontendDir, "app.html"));
+});
+
+app.use((req, res) => {
+  res.status(404).json({ error: "not_found" });
+});
+
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ error: "internal_error" });
+});
+
+app.listen(config.port, () => {
+  console.log(`conarem-app listening on :${config.port} (${config.nodeEnv})`);
+});

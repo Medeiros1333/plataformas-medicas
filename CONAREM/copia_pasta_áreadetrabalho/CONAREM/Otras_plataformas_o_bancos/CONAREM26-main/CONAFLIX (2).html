@@ -1,0 +1,3446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#0a0a0f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CONAFLIX">
+<meta name="description" content="Tu plataforma definitiva para el CONAREM. Estudia como los mejores.">
+<title>CONAFLIX 🩺 | Tu camino al TOP 10 comienza aquí</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- jsPDF para generar PDFs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- PWA Manifest inline -->
+<script>
+// Inline manifest data para PWA
+const manifestData = {
+  name: "CONAFLIX",
+  short_name: "CONAFLIX",
+  description: "Tu plataforma para el CONAREM",
+  start_url: "./",
+  display: "standalone",
+  background_color: "#0a0a0f",
+  theme_color: "#0a0a0f",
+  icons: [
+    { src: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='24' fill='%230a0a0f'/><text y='130' x='20' font-size='130'>🩺</text></svg>", sizes: "192x192", type: "image/svg+xml" },
+    { src: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='64' fill='%230a0a0f'/><text y='380' x='50' font-size='360'>🩺</text></svg>", sizes: "512x512", type: "image/svg+xml" }
+  ]
+};
+const blob = new Blob([JSON.stringify(manifestData)], {type: 'application/json'});
+const manifestUrl = URL.createObjectURL(blob);
+const manifestLink = document.createElement('link');
+manifestLink.rel = 'manifest';
+manifestLink.href = manifestUrl;
+document.head.appendChild(manifestLink);
+</script>
+
+<style>
+/* ========================================
+   VARIABLES Y RESET
+======================================== */
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-card: #111118;
+  --bg-surface: #16161f;
+  --bg-hover: #1e1e2e;
+  --accent: #00c4ff;
+  --accent-glow: rgba(0,196,255,0.3);
+  --accent-2: #7c3aff;
+  --red: #ff4757;
+  --green: #2ed573;
+  --gold: #ffd700;
+  --text-primary: #f0f0ff;
+  --text-secondary: #8888aa;
+  --text-muted: #555570;
+  --border: rgba(255,255,255,0.06);
+  --border-accent: rgba(0,196,255,0.2);
+  --font-display: 'Bebas Neue', cursive;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --shadow: 0 8px 32px rgba(0,0,0,0.5);
+  --shadow-accent: 0 0 40px rgba(0,196,255,0.15);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========================================
+   SCROLLBAR CUSTOM
+======================================== */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 99px; }
+
+/* ========================================
+   PANTALLA DE CARGA
+======================================== */
+#splash {
+  position: fixed; inset: 0; z-index: 9999;
+  background: var(--bg-primary);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  transition: opacity 0.5s ease;
+}
+#splash .logo-big {
+  font-family: var(--font-display);
+  font-size: clamp(60px, 15vw, 120px);
+  letter-spacing: 4px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+#splash .tagline { color: var(--text-secondary); font-size: 14px; letter-spacing: 3px; text-transform: uppercase; margin-top: 8px; }
+#splash .loader { width: 200px; height: 3px; background: var(--bg-surface); border-radius: 99px; margin-top: 40px; overflow: hidden; }
+#splash .loader-bar { height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 99px; transition: width 0.1s; animation: load 1.5s ease forwards; }
+@keyframes load { to { width: 100%; } }
+@keyframes pulse { 0%,100%{filter:brightness(1)} 50%{filter:brightness(1.3)} }
+
+/* ========================================
+   APP WRAPPER
+======================================== */
+#app { display: none; }
+#app.visible { display: block; animation: fadeIn 0.5s ease; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:none} }
+
+/* ========================================
+   HEADER / NAVBAR
+======================================== */
+header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 16px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(10,10,15,0.95), transparent);
+  backdrop-filter: blur(10px);
+  transition: background 0.3s;
+}
+header.scrolled { background: rgba(10,10,15,0.97) !important; box-shadow: 0 1px 0 var(--border); }
+
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.nav-links { display: flex; align-items: center; gap: 8px; }
+.nav-btn {
+  background: none; border: none; color: var(--text-secondary);
+  font-family: var(--font-body); font-size: 14px; font-weight: 500;
+  padding: 8px 14px; border-radius: 8px; cursor: pointer;
+  transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--text-primary); background: var(--bg-hover); }
+.nav-btn.active { color: var(--accent); }
+.btn-primary-sm {
+  background: var(--accent); color: #000; font-weight: 700;
+  padding: 8px 18px; border-radius: 8px; border: none;
+  font-family: var(--font-body); font-size: 13px; cursor: pointer;
+  transition: all 0.2s; letter-spacing: 0.3px;
+}
+.btn-primary-sm:hover { transform: translateY(-1px); box-shadow: 0 4px 20px var(--accent-glow); }
+
+/* ========================================
+   PÁGINAS / SCREENS
+======================================== */
+.screen { display: none; min-height: 100vh; padding-top: 70px; }
+.screen.active { display: block; animation: fadeIn 0.3s ease; }
+
+/* ========================================
+   HOME / HERO
+======================================== */
+.hero {
+  position: relative; min-height: 90vh;
+  display: flex; align-items: center;
+  overflow: hidden; padding: 0 24px;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 60% 50%, rgba(0,196,255,0.08) 0%, transparent 70%),
+              radial-gradient(ellipse at 20% 80%, rgba(124,58,255,0.06) 0%, transparent 60%),
+              linear-gradient(to bottom, transparent 60%, var(--bg-primary));
+}
+.hero-grid {
+  position: absolute; inset: 0; opacity: 0.03;
+  background-image: linear-gradient(var(--accent) 1px, transparent 1px), linear-gradient(90deg, var(--accent) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.hero-content { position: relative; z-index: 1; max-width: 700px; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(0,196,255,0.1); border: 1px solid var(--border-accent);
+  color: var(--accent); font-size: 12px; font-weight: 600;
+  padding: 6px 14px; border-radius: 99px; margin-bottom: 24px;
+  letter-spacing: 1px; text-transform: uppercase;
+}
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(52px, 8vw, 96px);
+  line-height: 0.95; letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+.hero-title .highlight {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.hero-sub { font-size: 18px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 36px; max-width: 500px; }
+.hero-cta { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.btn-hero {
+  background: linear-gradient(135deg, var(--accent), #0099cc);
+  color: #000; font-weight: 800; font-size: 16px;
+  padding: 16px 36px; border-radius: var(--radius); border: none;
+  cursor: pointer; transition: all 0.3s; font-family: var(--font-body);
+  letter-spacing: 0.3px; display: flex; align-items: center; gap: 8px;
+}
+.btn-hero:hover { transform: translateY(-2px); box-shadow: 0 8px 30px var(--accent-glow); }
+.btn-ghost {
+  background: transparent; border: 1px solid var(--border);
+  color: var(--text-primary); font-size: 15px; font-weight: 600;
+  padding: 16px 28px; border-radius: var(--radius); cursor: pointer;
+  font-family: var(--font-body); transition: all 0.3s;
+}
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+.hero-stats {
+  display: flex; gap: 32px; margin-top: 48px;
+  padding-top: 32px; border-top: 1px solid var(--border);
+}
+.stat-item { text-align: center; }
+.stat-num { font-family: var(--font-display); font-size: 36px; color: var(--accent); letter-spacing: 1px; }
+.stat-label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+/* Floating cards decoration */
+.hero-cards {
+  position: absolute; right: -20px; top: 50%; transform: translateY(-50%);
+  display: flex; flex-direction: column; gap: 12px;
+  pointer-events: none;
+}
+.hero-card-float {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px 18px;
+  display: flex; align-items: center; gap: 12px;
+  animation: floatCard 3s ease-in-out infinite;
+  white-space: nowrap; backdrop-filter: blur(10px);
+}
+.hero-card-float:nth-child(2) { animation-delay: 1s; transform: translateX(-30px); }
+.hero-card-float:nth-child(3) { animation-delay: 2s; transform: translateX(-15px); }
+@keyframes floatCard { 0%,100%{transform:translateY(0) translateX(var(--tx,0))} 50%{transform:translateY(-8px) translateX(var(--tx,0))} }
+.float-icon { font-size: 24px; }
+.float-text { font-size: 13px; font-weight: 600; }
+.float-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+/* ========================================
+   SECCIÓN CARRUSELES / CURSOS
+======================================== */
+.section { padding: 40px 24px; }
+.section-title {
+  font-size: 22px; font-weight: 800; margin-bottom: 20px;
+  display: flex; align-items: center; gap: 10px;
+}
+.section-title .badge-count {
+  background: var(--accent); color: #000;
+  font-size: 11px; font-weight: 700; padding: 2px 8px;
+  border-radius: 99px;
+}
+
+.carousel {
+  display: flex; gap: 16px; overflow-x: auto; padding-bottom: 12px;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar { display: none; }
+
+/* ========================================
+   TOPIC CARD
+======================================== */
+.topic-card {
+  flex: 0 0 220px; background: var(--bg-card);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; cursor: pointer; transition: all 0.3s;
+  scroll-snap-align: start; position: relative;
+}
+.topic-card:hover {
+  border-color: var(--accent); transform: translateY(-4px) scale(1.02);
+  box-shadow: var(--shadow-accent);
+}
+.card-thumb {
+  height: 120px; background: var(--bg-surface);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 48px; position: relative;
+  overflow: hidden;
+}
+.card-thumb::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, var(--grad-from, rgba(0,196,255,0.1)), var(--grad-to, rgba(124,58,255,0.1)));
+}
+.card-difficulty {
+  position: absolute; top: 8px; right: 8px;
+  font-size: 10px; font-weight: 700; padding: 3px 8px;
+  border-radius: 99px; text-transform: uppercase; letter-spacing: 0.5px;
+}
+.diff-basico { background: rgba(46,213,115,0.2); color: var(--green); border: 1px solid rgba(46,213,115,0.3); }
+.diff-intermedio { background: rgba(255,215,0,0.2); color: var(--gold); border: 1px solid rgba(255,215,0,0.3); }
+.diff-avanzado { background: rgba(255,71,87,0.2); color: var(--red); border: 1px solid rgba(255,71,87,0.3); }
+
+.card-body { padding: 14px; }
+.card-subject { font-size: 10px; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; font-weight: 700; margin-bottom: 4px; }
+.card-title { font-size: 14px; font-weight: 700; line-height: 1.3; margin-bottom: 10px; }
+.card-meta { display: flex; justify-content: space-between; align-items: center; }
+.card-meta-item { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text-muted); }
+.progress-bar {
+  height: 3px; background: var(--bg-surface); border-radius: 99px;
+  margin-top: 10px; overflow: hidden;
+}
+.progress-fill {
+  height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius: 99px; transition: width 0.5s ease;
+}
+.card-freq {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  height: 2px; background: var(--accent); opacity: 0;
+  transition: opacity 0.3s;
+}
+.topic-card:hover .card-freq { opacity: 1; }
+
+/* ========================================
+   MODAL DE TEMA
+======================================== */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 500;
+  background: rgba(0,0,0,0.85); backdrop-filter: blur(8px);
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 20px; overflow-y: auto;
+  animation: fadeIn 0.2s ease;
+}
+.modal-overlay.hidden { display: none; }
+.modal {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); width: 100%; max-width: 760px;
+  margin: auto; animation: slideUp 0.3s ease;
+}
+@keyframes slideUp { from{transform:translateY(40px);opacity:0} to{transform:none;opacity:1} }
+.modal-header {
+  padding: 24px 28px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
+}
+.modal-close {
+  background: var(--bg-surface); border: none; color: var(--text-secondary);
+  width: 36px; height: 36px; border-radius: 50%; cursor: pointer;
+  font-size: 18px; flex-shrink: 0; transition: all 0.2s;
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-close:hover { background: var(--red); color: white; }
+.modal-body { padding: 28px; }
+.modal-tabs { display: flex; gap: 4px; padding: 0 28px; border-bottom: 1px solid var(--border); overflow-x: auto; }
+.modal-tab {
+  background: none; border: none; color: var(--text-muted);
+  font-family: var(--font-body); font-size: 13px; font-weight: 600;
+  padding: 12px 16px; cursor: pointer; border-bottom: 2px solid transparent;
+  white-space: nowrap; transition: all 0.2s;
+}
+.modal-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+.modal-content-area { padding: 24px 28px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadeIn 0.2s ease; }
+
+/* Content styles */
+.content-html h3 { font-size: 18px; font-weight: 700; margin: 20px 0 10px; color: var(--accent); }
+.content-html h4 { font-size: 15px; font-weight: 700; margin: 16px 0 8px; }
+.content-html p { font-size: 14px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 12px; }
+.content-html strong { color: var(--text-primary); font-weight: 700; }
+.content-html ul { padding-left: 20px; margin-bottom: 12px; }
+.content-html li { font-size: 14px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 4px; }
+
+.key-point {
+  background: rgba(0,196,255,0.06); border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0; padding: 12px 16px; margin-bottom: 10px;
+  font-size: 14px; line-height: 1.6;
+}
+
+.mnemonic-box {
+  background: rgba(124,58,255,0.08); border: 1px solid rgba(124,58,255,0.2);
+  border-radius: var(--radius); padding: 16px 20px; margin: 16px 0;
+}
+.mnemonic-box .mnemonic-title { font-size: 12px; font-weight: 700; color: var(--accent-2); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.mnemonic-box .mnemonic-text { font-size: 15px; font-weight: 700; color: var(--text-primary); }
+
+.info-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.chip {
+  background: var(--bg-surface); border: 1px solid var(--border);
+  padding: 6px 12px; border-radius: 99px; font-size: 12px; font-weight: 600;
+  display: flex; align-items: center; gap: 6px;
+}
+.chip.accent { border-color: var(--border-accent); color: var(--accent); }
+
+/* ========================================
+   QUIZ / PREGUNTAS
+======================================== */
+.quiz-question {
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; margin-bottom: 20px;
+}
+.quiz-num { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.quiz-text { font-size: 15px; line-height: 1.6; font-weight: 500; margin-bottom: 20px; }
+.quiz-options { display: flex; flex-direction: column; gap: 8px; }
+.quiz-option {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 16px;
+  cursor: pointer; transition: all 0.2s; font-size: 14px;
+  display: flex; align-items: center; gap: 10px;
+}
+.quiz-option:hover:not(.answered) { border-color: var(--accent); background: rgba(0,196,255,0.05); }
+.quiz-option.correct { border-color: var(--green); background: rgba(46,213,115,0.1); color: var(--green); }
+.quiz-option.incorrect { border-color: var(--red); background: rgba(255,71,87,0.1); color: var(--red); }
+.quiz-option.dimmed { opacity: 0.4; }
+.opt-letter {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--bg-surface); display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; flex-shrink: 0; transition: all 0.2s;
+}
+.correct .opt-letter { background: var(--green); color: #000; }
+.incorrect .opt-letter { background: var(--red); color: #fff; }
+.explanation-box {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px; margin-top: 12px;
+  display: none;
+}
+.explanation-box.show { display: block; animation: fadeIn 0.3s ease; }
+.exp-correct { color: var(--green); font-weight: 700; margin-bottom: 8px; font-size: 13px; }
+.exp-text { font-size: 13px; line-height: 1.6; color: var(--text-secondary); }
+.pearl-box {
+  background: rgba(255,215,0,0.08); border: 1px solid rgba(255,215,0,0.2);
+  border-radius: 8px; padding: 10px 14px; margin-top: 10px;
+  font-size: 12px; color: var(--gold);
+}
+
+/* ========================================
+   DASHBOARD
+======================================== */
+.dashboard-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; margin-bottom: 32px;
+}
+.stat-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+  transition: all 0.3s;
+}
+.stat-card:hover { border-color: var(--border-accent); box-shadow: var(--shadow-accent); }
+.stat-card-icon { font-size: 28px; margin-bottom: 12px; }
+.stat-card-value { font-family: var(--font-display); font-size: 36px; color: var(--accent); letter-spacing: 1px; }
+.stat-card-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+.progress-subject {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px; margin-bottom: 10px;
+  display: flex; align-items: center; gap: 14px;
+}
+.ps-icon { font-size: 24px; flex-shrink: 0; }
+.ps-info { flex: 1; }
+.ps-name { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+.ps-bar { height: 4px; background: var(--bg-surface); border-radius: 99px; overflow: hidden; }
+.ps-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 99px; }
+.ps-pct { font-size: 13px; font-weight: 700; color: var(--accent); flex-shrink: 0; }
+
+/* ========================================
+   RANKING
+======================================== */
+.ranking-list { display: flex; flex-direction: column; gap: 10px; }
+.ranking-item {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 20px;
+  display: flex; align-items: center; gap: 14px;
+  transition: all 0.2s;
+}
+.ranking-item:hover { border-color: var(--border-accent); }
+.ranking-item.top1 { border-color: rgba(255,215,0,0.3); background: rgba(255,215,0,0.04); }
+.ranking-item.top2 { border-color: rgba(192,192,192,0.3); }
+.ranking-item.top3 { border-color: rgba(205,127,50,0.3); }
+.rank-pos {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--bg-surface); display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 18px; flex-shrink: 0;
+}
+.rank-pos.gold { background: rgba(255,215,0,0.15); color: var(--gold); }
+.rank-pos.silver { background: rgba(192,192,192,0.1); color: #c0c0c0; }
+.rank-pos.bronze { background: rgba(205,127,50,0.1); color: #cd7f32; }
+.rank-info { flex: 1; }
+.rank-alias { font-size: 15px; font-weight: 700; }
+.rank-spec { font-size: 12px; color: var(--text-muted); }
+.rank-points { font-family: var(--font-display); font-size: 24px; color: var(--accent); }
+.rank-badge { font-size: 20px; }
+
+/* ========================================
+   PERFIL / BADGES
+======================================== */
+.badges-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+.badge-item {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  width: 100px; text-align: center; transition: all 0.2s;
+}
+.badge-item.locked { opacity: 0.4; filter: grayscale(1); }
+.badge-item:not(.locked):hover { border-color: var(--accent); transform: translateY(-2px); }
+.badge-icon { font-size: 32px; }
+.badge-name { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* ========================================
+   PRECIOS / CHECKOUT
+======================================== */
+.pricing-section { padding: 60px 24px; text-align: center; }
+.pricing-headline {
+  font-family: var(--font-display); font-size: clamp(40px, 6vw, 72px);
+  letter-spacing: 2px; margin-bottom: 12px;
+}
+.pricing-sub { color: var(--text-secondary); font-size: 16px; margin-bottom: 48px; }
+
+.pricing-toggle {
+  display: inline-flex; background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: 99px; padding: 4px; margin-bottom: 40px;
+}
+.toggle-btn {
+  background: none; border: none; color: var(--text-secondary);
+  font-family: var(--font-body); font-size: 14px; font-weight: 600;
+  padding: 8px 20px; border-radius: 99px; cursor: pointer; transition: all 0.3s;
+}
+.toggle-btn.active { background: var(--accent); color: #000; }
+
+.pricing-cards { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.price-card {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 36px 32px;
+  width: 340px; position: relative; transition: all 0.3s;
+}
+.price-card.featured {
+  border-color: var(--accent); box-shadow: var(--shadow-accent);
+  transform: scale(1.02);
+}
+.price-card.featured::before {
+  content: '⭐ MÁS POPULAR'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: var(--accent); color: #000; font-size: 11px; font-weight: 800;
+  padding: 4px 16px; border-radius: 99px; letter-spacing: 1px; white-space: nowrap;
+}
+.price-plan { font-size: 13px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 16px; }
+.price-amount {
+  font-family: var(--font-display); font-size: 60px; color: var(--text-primary);
+  letter-spacing: 1px; margin-bottom: 4px;
+  display: flex; align-items: flex-start; gap: 4px;
+}
+.price-currency { font-size: 24px; margin-top: 12px; }
+.price-period { font-size: 15px; color: var(--text-muted); margin-bottom: 8px; }
+.price-old { font-size: 15px; color: var(--text-muted); text-decoration: line-through; margin-bottom: 8px; }
+.price-save { display: inline-block; background: rgba(46,213,115,0.15); color: var(--green); border: 1px solid rgba(46,213,115,0.3); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 99px; margin-bottom: 28px; }
+.price-features { list-style: none; margin-bottom: 28px; text-align: left; }
+.price-features li { font-size: 14px; color: var(--text-secondary); padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+.price-features li:last-child { border: none; }
+.feat-check { color: var(--green); font-size: 16px; flex-shrink: 0; }
+.feat-x { color: var(--red); font-size: 16px; flex-shrink: 0; }
+
+.coupon-area { margin-bottom: 20px; }
+.coupon-input-wrap { display: flex; gap: 8px; }
+.coupon-input {
+  flex: 1; background: var(--bg-surface); border: 1px solid var(--border);
+  color: var(--text-primary); font-family: var(--font-body); font-size: 14px;
+  padding: 10px 14px; border-radius: var(--radius); outline: none;
+  transition: border-color 0.2s;
+}
+.coupon-input:focus { border-color: var(--accent); }
+.coupon-btn {
+  background: var(--bg-hover); border: 1px solid var(--border);
+  color: var(--text-primary); font-family: var(--font-body); font-size: 13px; font-weight: 700;
+  padding: 10px 16px; border-radius: var(--radius); cursor: pointer; transition: all 0.2s;
+}
+.coupon-btn:hover { border-color: var(--accent); color: var(--accent); }
+.coupon-msg { font-size: 12px; margin-top: 8px; padding: 6px 10px; border-radius: 6px; display: none; }
+.coupon-msg.success { display: block; background: rgba(46,213,115,0.1); color: var(--green); }
+.coupon-msg.error { display: block; background: rgba(255,71,87,0.1); color: var(--red); }
+
+.btn-pay {
+  width: 100%; padding: 16px; border-radius: var(--radius); border: none;
+  font-family: var(--font-body); font-size: 16px; font-weight: 800;
+  cursor: pointer; transition: all 0.3s; position: relative; overflow: hidden;
+}
+.btn-pay.primary {
+  background: linear-gradient(135deg, var(--accent), #0099cc);
+  color: #000;
+}
+.btn-pay.primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px var(--accent-glow); }
+.btn-pay.secondary {
+  background: transparent; border: 1px solid var(--border); color: var(--text-primary);
+}
+.btn-pay.secondary:hover { border-color: var(--accent); }
+
+.payment-methods { display: flex; justify-content: center; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+.pay-method {
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 10px; font-size: 12px; font-weight: 700; color: var(--text-muted);
+}
+.guarantee { text-align: center; margin-top: 20px; font-size: 12px; color: var(--text-muted); }
+
+/* TRANSFER SECTION */
+.transfer-box {
+  background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; margin-top: 20px; text-align: left;
+}
+.transfer-box .t-title { font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+.transfer-box .t-data { font-size: 13px; color: var(--text-secondary); line-height: 2; }
+.transfer-box .t-data strong { color: var(--text-primary); }
+.transfer-box .t-note { font-size: 12px; color: var(--gold); margin-top: 10px; background: rgba(255,215,0,0.06); padding: 8px 12px; border-radius: 6px; }
+
+/* ========================================
+   AUTH MODAL
+======================================== */
+.auth-modal {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); width: 100%; max-width: 400px;
+  margin: auto; padding: 36px;
+}
+.auth-logo {
+  font-family: var(--font-display); font-size: 40px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  text-align: center; margin-bottom: 8px; letter-spacing: 2px;
+}
+.auth-sub { text-align: center; color: var(--text-muted); font-size: 13px; margin-bottom: 28px; }
+.form-group { margin-bottom: 16px; }
+.form-label { font-size: 12px; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; display: block; }
+.form-input {
+  width: 100%; background: var(--bg-surface); border: 1px solid var(--border);
+  color: var(--text-primary); font-family: var(--font-body); font-size: 15px;
+  padding: 12px 16px; border-radius: var(--radius); outline: none; transition: all 0.2s;
+}
+.form-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+.btn-form {
+  width: 100%; padding: 14px; border-radius: var(--radius); border: none;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #000; font-weight: 800; font-size: 15px;
+  font-family: var(--font-body); cursor: pointer; transition: all 0.3s; margin-top: 8px;
+}
+.btn-form:hover { transform: translateY(-1px); box-shadow: 0 6px 24px var(--accent-glow); }
+.auth-switch { text-align: center; font-size: 13px; color: var(--text-muted); margin-top: 16px; }
+.auth-switch a { color: var(--accent); cursor: pointer; font-weight: 600; }
+.auth-switch a:hover { text-decoration: underline; }
+
+/* ========================================
+   BOTTOM NAV (MOBILE)
+======================================== */
+.bottom-nav {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  background: rgba(17,17,24,0.97); border-top: 1px solid var(--border);
+  backdrop-filter: blur(20px);
+  display: flex; padding: 8px 0 env(safe-area-inset-bottom);
+}
+.bottom-nav-item {
+  flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+  background: none; border: none; color: var(--text-muted);
+  font-family: var(--font-body); font-size: 10px; font-weight: 600;
+  padding: 4px 0; cursor: pointer; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.5px;
+}
+.bottom-nav-item.active { color: var(--accent); }
+.bottom-nav-item svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 2; }
+body { padding-bottom: 70px; }
+
+/* Desktop sidebar (hidden on mobile) */
+.sidebar {
+  position: fixed; left: 0; top: 0; bottom: 0; width: 220px; z-index: 50;
+  background: rgba(10,10,15,0.97); border-right: 1px solid var(--border);
+  padding-top: 80px; display: none;
+}
+.sidebar-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 20px; font-size: 14px; font-weight: 600;
+  color: var(--text-muted); cursor: pointer; transition: all 0.2s;
+  border-radius: 0 var(--radius) var(--radius) 0; margin-right: 12px;
+}
+.sidebar-item:hover { color: var(--text-primary); background: var(--bg-hover); }
+.sidebar-item.active { color: var(--accent); background: rgba(0,196,255,0.08); }
+.sidebar-item .si-icon { font-size: 18px; }
+
+/* ========================================
+   INSTALL BANNER (PWA)
+======================================== */
+#install-banner {
+  position: fixed; bottom: 80px; left: 16px; right: 16px; z-index: 300;
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-surface));
+  border: 1px solid var(--border-accent); border-radius: var(--radius);
+  padding: 16px 20px; display: flex; align-items: center; gap: 16px;
+  box-shadow: var(--shadow); animation: slideUp 0.4s ease;
+  display: none;
+}
+.install-text { flex: 1; font-size: 13px; }
+.install-text strong { display: block; font-size: 14px; margin-bottom: 2px; }
+.install-text span { color: var(--text-muted); }
+.btn-install {
+  background: var(--accent); color: #000; font-weight: 800; font-size: 12px;
+  padding: 8px 16px; border-radius: 8px; border: none; cursor: pointer;
+  font-family: var(--font-body); flex-shrink: 0;
+}
+#install-close {
+  background: none; border: none; color: var(--text-muted);
+  font-size: 18px; cursor: pointer; padding: 0; flex-shrink: 0;
+}
+
+/* ========================================
+   NOTIFICACIÓN TOAST
+======================================== */
+#toast {
+  position: fixed; top: 80px; right: 20px; z-index: 999;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-left: 3px solid var(--accent); border-radius: var(--radius);
+  padding: 14px 18px; max-width: 300px;
+  box-shadow: var(--shadow); font-size: 13px;
+  transform: translateX(120%); transition: transform 0.3s ease;
+}
+#toast.show { transform: none; }
+#toast .toast-title { font-weight: 700; margin-bottom: 4px; }
+#toast .toast-msg { color: var(--text-secondary); }
+
+/* ========================================
+   ADMIN PANEL
+======================================== */
+.admin-table {
+  width: 100%; border-collapse: collapse; font-size: 13px;
+}
+.admin-table th {
+  text-align: left; padding: 10px 14px;
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-muted); border-bottom: 1px solid var(--border);
+}
+.admin-table td {
+  padding: 12px 14px; border-bottom: 1px solid var(--border); color: var(--text-secondary);
+}
+.admin-table tr:hover td { background: var(--bg-hover); }
+.admin-revenue { font-size: 40px; font-family: var(--font-display); color: var(--accent); }
+
+/* ========================================
+   UTILITY CLASSES
+======================================== */
+.flex { display: flex; }
+.items-center { align-items: center; }
+.gap-8 { gap: 8px; }
+.gap-12 { gap: 12px; }
+.mb-16 { margin-bottom: 16px; }
+.mb-24 { margin-bottom: 24px; }
+.mt-16 { margin-top: 16px; }
+.text-accent { color: var(--accent); }
+.text-muted { color: var(--text-muted); }
+.text-green { color: var(--green); }
+.text-red { color: var(--red); }
+.font-bold { font-weight: 700; }
+.text-center { text-align: center; }
+.text-sm { font-size: 13px; }
+.text-xs { font-size: 11px; }
+.divider { height: 1px; background: var(--border); margin: 24px 0; }
+.hidden { display: none !important; }
+
+.page-title {
+  font-family: var(--font-display); font-size: 40px; letter-spacing: 2px;
+  background: linear-gradient(135deg, var(--text-primary), var(--text-secondary));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+.page-sub { color: var(--text-muted); font-size: 14px; margin-bottom: 32px; }
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+@media (min-width: 768px) {
+  .bottom-nav { display: none; }
+  body { padding-bottom: 0; padding-left: 220px; }
+  .sidebar { display: block; }
+  header { left: 220px; }
+  .hero-cards { display: flex; }
+  #install-banner { bottom: 20px; max-width: 380px; right: 20px; left: auto; }
+}
+
+@media (max-width: 767px) {
+  .hero-cards { display: none; }
+  .pricing-cards { flex-direction: column; align-items: center; }
+  .price-card { width: 100%; max-width: 340px; }
+  .price-card.featured { transform: none; }
+  .hero { padding-top: 20px; min-height: auto; padding-bottom: 40px; }
+  .hero-stats { flex-wrap: wrap; gap: 20px; }
+  .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<!-- ========== SPLASH SCREEN ========== -->
+<div id="splash">
+  <div class="logo-big">CONAFLIX</div>
+  <div class="tagline">Tu camino al TOP 10</div>
+  <div class="loader"><div class="loader-bar"></div></div>
+</div>
+
+<!-- ========== TOAST ========== -->
+<div id="toast">
+  <div class="toast-title" id="toast-title"></div>
+  <div class="toast-msg" id="toast-msg"></div>
+</div>
+
+<!-- ========== INSTALL BANNER ========== -->
+<div id="install-banner">
+  <span style="font-size:32px">📲</span>
+  <div class="install-text">
+    <strong>Instalar CONAFLIX</strong>
+    <span>Accedé sin internet desde tu teléfono</span>
+  </div>
+  <button class="btn-install" onclick="installPWA()">INSTALAR</button>
+  <button id="install-close" onclick="hideInstallBanner()">✕</button>
+</div>
+
+<!-- ========== MAIN APP ========== -->
+<div id="app">
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="nav-logo" onclick="showScreen('home')">CONAFLIX</div>
+    <div class="nav-links" id="nav-links">
+      <button class="nav-btn" onclick="showScreen('home')">Inicio</button>
+      <button class="nav-btn" onclick="showScreen('cursos')">Estudiar</button>
+      <button class="nav-btn" onclick="showScreen('ranking')">Ranking</button>
+      <div id="auth-nav-area">
+        <button class="btn-primary-sm" onclick="showScreen('precios')">🎬 Suscribirse</button>
+        <button class="nav-btn" onclick="showAuthModal('login')">Ingresar</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR (Desktop) -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-item active" onclick="showScreen('home')">
+      <span class="si-icon">🏠</span> Inicio
+    </div>
+    <div class="sidebar-item" onclick="showScreen('cursos')">
+      <span class="si-icon">📚</span> Estudiar
+    </div>
+    <div class="sidebar-item" onclick="showScreen('practice')">
+      <span class="si-icon">✏️</span> Practice
+    </div>
+    <div class="sidebar-item" onclick="showScreen('ranking')">
+      <span class="si-icon">🏆</span> Ranking
+    </div>
+    <div class="sidebar-item" onclick="showScreen('dashboard')">
+      <span class="si-icon">📊</span> Mi Progreso
+    </div>
+    <div class="sidebar-item" onclick="showScreen('perfil')">
+      <span class="si-icon">👤</span> Perfil
+    </div>
+    <div class="sidebar-item" onclick="showScreen('precios')">
+      <span class="si-icon">💳</span> Suscripción
+    </div>
+    <div style="height:1px;background:var(--border);margin:12px 20px 12px 20px;"></div>
+    <div class="sidebar-item" onclick="showScreen('admin')">
+      <span class="si-icon">⚙️</span> Admin
+    </div>
+  </aside>
+
+  <!-- BOTTOM NAV (Mobile) -->
+  <nav class="bottom-nav">
+    <button class="bottom-nav-item active" onclick="showScreen('home')">
+      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Inicio
+    </button>
+    <button class="bottom-nav-item" onclick="showScreen('cursos')">
+      <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+      Estudiar
+    </button>
+    <button class="bottom-nav-item" onclick="showScreen('practice')">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Practice
+    </button>
+    <button class="bottom-nav-item" onclick="showScreen('ranking')">
+      <svg viewBox="0 0 24 24"><polyline points="18 20 18 10"/><polyline points="12 20 12 4"/><polyline points="6 20 6 14"/></svg>
+      Ranking
+    </button>
+    <button class="bottom-nav-item" onclick="showScreen('perfil')">
+      <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      Perfil
+    </button>
+  </nav>
+
+  <!-- ============================================================
+       SCREEN: HOME
+  ============================================================ -->
+  <div class="screen active" id="screen-home">
+    <!-- HERO -->
+    <div class="hero">
+      <!-- CANVAS ANIMADO TIPO NETFLIX (partículas médicas) -->
+      <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
+      <div class="hero-bg" style="z-index:1"></div>
+      <div class="hero-grid" style="z-index:1"></div>
+      <div class="hero-content" style="position:relative;z-index:2;">
+        <div class="hero-badge">🩺 Plataforma CONAREM 2026</div>
+        <h1 class="hero-title">
+          TU CAMINO<br>AL <span class="highlight">TOP 10</span><br>COMIENZA AQUÍ
+        </h1>
+        <p class="hero-sub">Estudia como los mejores residentes. Accedé a más de 500 preguntas, simulacros completos y guías por tema con bibliografía oficial.</p>
+        <div class="hero-cta">
+          <button class="btn-hero" onclick="showScreen('precios')">
+            ▶ Comenzar ahora
+          </button>
+          <button class="btn-ghost" onclick="showScreen('cursos')">
+            📚 Ver contenido
+          </button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item"><div class="stat-num">500+</div><div class="stat-label">Preguntas</div></div>
+          <div class="stat-item"><div class="stat-num">18</div><div class="stat-label">Asignaturas</div></div>
+          <div class="stat-item"><div class="stat-num">100%</div><div class="stat-label">CONAREM</div></div>
+          <div class="stat-item"><div class="stat-num">TOP 10</div><div class="stat-label">Tu meta</div></div>
+        </div>
+      </div>
+      <!-- Floating decoration cards -->
+      <div class="hero-cards" style="position:relative;z-index:2;">
+        <div class="hero-card-float" style="--tx:0px">
+          <span class="float-icon">🫀</span>
+          <div><div class="float-text">Cardiología</div><div class="float-sub">25 preguntas · 85% CONAREM</div></div>
+        </div>
+        <div class="hero-card-float" style="--tx:-30px">
+          <span class="float-icon">🧠</span>
+          <div><div class="float-text">Neurología</div><div class="float-sub">20 preguntas · 70% CONAREM</div></div>
+        </div>
+        <div class="hero-card-float" style="--tx:-15px">
+          <span class="float-icon">👶</span>
+          <div><div class="float-text">Pediatría</div><div class="float-sub">30 preguntas · 80% CONAREM</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARRUSEL: Medicina Interna -->
+    <div class="section">
+      <div class="section-title">
+        🫀 Medicina Interna
+        <span class="badge-count">9 temas</span>
+      </div>
+      <div class="carousel" id="carousel-interna"></div>
+    </div>
+
+    <!-- CARRUSEL: Cirugía -->
+    <div class="section" style="padding-top:0">
+      <div class="section-title">🔪 Cirugía General <span class="badge-count">5 temas</span></div>
+      <div class="carousel" id="carousel-cirugia"></div>
+    </div>
+
+    <!-- CARRUSEL: Pediatría + Gine -->
+    <div class="section" style="padding-top:0">
+      <div class="section-title">👶 Pediatría <span class="badge-count">5 temas</span></div>
+      <div class="carousel" id="carousel-pediatria"></div>
+    </div>
+
+    <div class="section" style="padding-top:0">
+      <div class="section-title">🤰 Ginecología y Obstetricia <span class="badge-count">5 temas</span></div>
+      <div class="carousel" id="carousel-gine"></div>
+    </div>
+
+    <!-- CTA Banner -->
+    <div class="section" style="padding-top:0">
+      <div style="background:linear-gradient(135deg,rgba(0,196,255,0.08),rgba(124,58,255,0.08));border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:40px 32px;text-align:center;">
+        <div style="font-family:var(--font-display);font-size:clamp(28px,5vw,48px);letter-spacing:2px;margin-bottom:12px;">¿LISTO PARA EL TOP 10?</div>
+        <p style="color:var(--text-secondary);margin-bottom:24px;max-width:400px;margin-left:auto;margin-right:auto;">Accedé a todo el contenido y empezá a prepararte hoy mismo.</p>
+        <button class="btn-hero" onclick="showScreen('precios')">🎬 Ver planes y precios</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: CURSOS
+  ============================================================ -->
+  <div class="screen" id="screen-cursos">
+    <div class="section">
+      <div class="page-title">ESTUDIAR</div>
+      <div class="page-sub">Todos los temas del CONAREM con bibliografía oficial</div>
+
+      <!-- Filter tabs -->
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px;">
+        <button class="modal-tab active" onclick="filterCursos('all', this)">Todos</button>
+        <button class="modal-tab" onclick="filterCursos('Medicina Interna', this)">Medicina Interna</button>
+        <button class="modal-tab" onclick="filterCursos('Cirugía', this)">Cirugía</button>
+        <button class="modal-tab" onclick="filterCursos('Pediatría', this)">Pediatría</button>
+        <button class="modal-tab" onclick="filterCursos('Ginecología', this)">Gine/Obst</button>
+        <button class="modal-tab" onclick="filterCursos('Psiquiatría', this)">Psiquiatría</button>
+        <button class="modal-tab" onclick="filterCursos('Urgencias', this)">Urgencias</button>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;" id="all-topics-grid"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: PRACTICE
+  ============================================================ -->
+  <div class="screen" id="screen-practice">
+    <div class="section">
+      <div class="page-title">PRACTICE</div>
+      <div class="page-sub">Evaluá tu conocimiento con preguntas tipo CONAREM</div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;margin-bottom:36px;">
+        <div class="stat-card" style="cursor:pointer;border-color:var(--border-accent)" onclick="startQuiz('estudio')">
+          <div class="stat-card-icon">🎯</div>
+          <div class="stat-card-value" style="font-size:22px">Modo Estudio</div>
+          <div class="stat-card-label">Con explicaciones inmediatas</div>
+        </div>
+        <div class="stat-card" style="cursor:pointer" onclick="startQuiz('examen')">
+          <div class="stat-card-icon">⏱️</div>
+          <div class="stat-card-value" style="font-size:22px">Modo Examen</div>
+          <div class="stat-card-label">Cronometrado, sin ayuda</div>
+        </div>
+        <div class="stat-card" style="cursor:pointer" onclick="startQuiz('repaso')">
+          <div class="stat-card-icon">📊</div>
+          <div class="stat-card-value" style="font-size:22px">Modo Repaso</div>
+          <div class="stat-card-label">Solo preguntas falladas</div>
+        </div>
+        <div class="stat-card" style="cursor:pointer" onclick="startQuiz('random')">
+          <div class="stat-card-icon">🔀</div>
+          <div class="stat-card-value" style="font-size:22px">Aleatorio</div>
+          <div class="stat-card-label">Mezcla de temas</div>
+        </div>
+      </div>
+
+      <!-- SIMULACRO -->
+      <div style="background:linear-gradient(135deg,rgba(255,71,87,0.08),rgba(124,58,255,0.08));border:1px solid rgba(255,71,87,0.2);border-radius:var(--radius-lg);padding:28px;margin-bottom:28px;">
+        <div style="font-family:var(--font-display);font-size:32px;letter-spacing:2px;margin-bottom:8px;color:var(--red)">SIMULACRO CONAREM</div>
+        <p style="color:var(--text-secondary);font-size:14px;margin-bottom:16px;">200 preguntas · 4 horas · Percentil estimado · Igual al examen real</p>
+        <button class="btn-hero" style="background:linear-gradient(135deg,var(--red),#cc2233)" onclick="startSimulacro()">🏆 Iniciar Simulacro Completo</button>
+      </div>
+
+      <!-- Active quiz area -->
+      <div id="quiz-area" style="display:none;">
+        <div id="quiz-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);">
+          <div>
+            <div style="font-size:13px;color:var(--text-muted)">Pregunta <span id="quiz-current-num">1</span> de <span id="quiz-total-num">10</span></div>
+            <div style="font-size:11px;color:var(--text-muted)" id="quiz-mode-label">Modo Estudio</div>
+          </div>
+          <div id="quiz-timer" style="font-family:var(--font-display);font-size:28px;color:var(--accent)">00:00</div>
+          <button onclick="endQuiz()" style="background:var(--bg-surface);border:1px solid var(--border);color:var(--text-secondary);padding:6px 14px;border-radius:8px;cursor:pointer;font-family:var(--font-body);font-size:13px;">Terminar</button>
+        </div>
+        <div style="height:4px;background:var(--bg-surface);border-radius:99px;margin-bottom:24px;overflow:hidden;">
+          <div id="quiz-progress-bar" style="height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));border-radius:99px;transition:width 0.3s;width:10%"></div>
+        </div>
+        <div id="quiz-questions-container"></div>
+        <button id="quiz-next-btn" onclick="nextQuestion()" style="display:none;background:var(--accent);color:#000;border:none;padding:14px 32px;border-radius:var(--radius);font-family:var(--font-body);font-weight:700;font-size:15px;cursor:pointer;margin-top:12px;">Siguiente →</button>
+      </div>
+
+      <!-- Quiz results -->
+      <div id="quiz-results" style="display:none;text-align:center;padding:40px 20px;">
+        <div style="font-size:64px;margin-bottom:16px" id="results-emoji">🎉</div>
+        <div style="font-family:var(--font-display);font-size:56px;color:var(--accent);letter-spacing:2px;" id="results-score">85%</div>
+        <div style="font-size:18px;font-weight:700;margin:8px 0" id="results-title">¡Excelente resultado!</div>
+        <div style="color:var(--text-muted);font-size:14px;max-width:360px;margin:0 auto 24px" id="results-detail"></div>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+          <button class="btn-hero" onclick="showScreen('practice')">🔄 Practicar más</button>
+          <button class="btn-ghost" onclick="showScreen('dashboard')">📊 Ver progreso</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: RANKING
+  ============================================================ -->
+  <div class="screen" id="screen-ranking">
+    <div class="section">
+      <div class="page-title">RANKING TOP 10</div>
+      <div class="page-sub">Los mejores estudiantes CONAFLIX esta semana</div>
+      <div class="ranking-list" id="ranking-list"></div>
+      <div style="margin-top:24px;padding:16px 20px;background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius);">
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px;">Tu posición actual</div>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div style="font-family:var(--font-display);font-size:28px;color:var(--gold)" id="my-rank-pos">—</div>
+          <div>
+            <div style="font-size:15px;font-weight:700" id="my-rank-name">Invitado</div>
+            <div style="font-size:13px;color:var(--text-muted)" id="my-rank-pts">0 puntos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: DASHBOARD
+  ============================================================ -->
+  <div class="screen" id="screen-dashboard">
+    <div class="section">
+      <div class="page-title">MI PROGRESO</div>
+      <div class="page-sub">Tu rendimiento en tiempo real</div>
+
+      <div class="dashboard-grid" id="dashboard-stats"></div>
+      <div class="divider"></div>
+
+      <div style="font-size:16px;font-weight:700;margin-bottom:16px;">Progreso por asignatura</div>
+      <div id="subject-progress"></div>
+
+      <div class="divider"></div>
+      <div style="font-size:16px;font-weight:700;margin-bottom:8px;">💡 Recomendaciones IA</div>
+      <div id="ia-recommendations"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: PERFIL
+  ============================================================ -->
+  <div class="screen" id="screen-perfil">
+    <div class="section">
+      <div id="perfil-logged-out" style="display:none;text-align:center;padding:60px 20px;">
+        <div style="font-size:60px;margin-bottom:16px">👤</div>
+        <div style="font-size:22px;font-weight:700;margin-bottom:8px">Iniciá sesión</div>
+        <div style="color:var(--text-muted);margin-bottom:24px">Para ver tu perfil y guardar tu progreso</div>
+        <button class="btn-hero" onclick="showAuthModal('login')">Ingresar</button>
+      </div>
+
+      <div id="perfil-content" style="display:none;">
+        <div style="display:flex;align-items:center;gap:20px;padding:28px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);margin-bottom:28px;">
+          <div style="width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-size:28px;flex-shrink:0" id="perfil-avatar">👤</div>
+          <div style="flex:1">
+            <div style="font-size:20px;font-weight:800" id="perfil-name">Usuario</div>
+            <div style="font-size:13px;color:var(--text-muted)" id="perfil-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="741119151d18341911105a171b19">[email&#160;protected]</a></div>
+            <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
+              <span class="chip accent" id="perfil-level">🥉 Residente Junior</span>
+              <span class="chip" id="perfil-points">0 pts</span>
+              <span class="chip" id="perfil-streak">🔥 0 días</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size:16px;font-weight:700;margin-bottom:16px;">🏅 Insignias</div>
+        <div class="badges-grid" id="badges-grid"></div>
+
+        <div class="divider"></div>
+        <div style="display:flex;flex-direction:column;gap:10px;">
+          <button onclick="exportData()" style="background:var(--bg-card);border:1px solid var(--border);color:var(--text-primary);padding:14px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:14px;font-weight:600;text-align:left;">
+            📥 Exportar mis datos (backup)
+          </button>
+          <button onclick="showScreen('precios')" style="background:rgba(0,196,255,0.08);border:1px solid var(--border-accent);color:var(--accent);padding:14px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:14px;font-weight:600;text-align:left;">
+            💳 Ver mi suscripción
+          </button>
+          <button onclick="logout()" style="background:rgba(255,71,87,0.08);border:1px solid rgba(255,71,87,0.2);color:var(--red);padding:14px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:14px;font-weight:600;text-align:left;">
+            🚪 Cerrar sesión
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: PRECIOS
+  ============================================================ -->
+  <div class="screen" id="screen-precios">
+    <div class="pricing-section">
+
+      <!-- =====================================================
+           HERO ANIMADO TIPO NETFLIX
+           Canvas: partículas médicas + ECG + red neuronal
+           Sin sonido · Sin internet · Se reproduce solo
+      ====================================================== -->
+      <div style="position:relative;width:100%;max-width:900px;margin:0 auto 48px;border-radius:24px;overflow:hidden;box-shadow:0 0 80px rgba(0,196,255,0.25),0 40px 80px rgba(0,0,0,0.6);">
+        <canvas id="netflix-hero-canvas" style="display:block;width:100%;height:420px;background:#050508;"></canvas>
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,0,0,0.5) 0%,transparent 50%,rgba(0,0,0,0.35) 100%);pointer-events:none;"></div>
+        <div style="position:absolute;bottom:0;left:0;right:0;height:50%;background:linear-gradient(to bottom,transparent,rgba(10,10,15,0.97));pointer-events:none;"></div>
+        <div style="position:absolute;inset:0;border-radius:24px;border:1px solid rgba(0,196,255,0.2);pointer-events:none;"></div>
+        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px;text-align:center;z-index:2;">
+          <div style="display:flex;align-items:center;gap:8px;background:rgba(255,71,87,0.15);border:1px solid rgba(255,71,87,0.4);padding:5px 14px;border-radius:99px;">
+            <span style="width:7px;height:7px;border-radius:50%;background:#ff4757;display:inline-block;animation:blink 1s infinite;"></span>
+            <span style="font-size:11px;font-weight:800;color:#ff4757;letter-spacing:2px;text-transform:uppercase;">EN VIVO · CONAREM 2026</span>
+          </div>
+          <div style="font-family:'Bebas Neue',cursive;font-size:clamp(52px,10vw,96px);letter-spacing:4px;line-height:0.9;background:linear-gradient(135deg,#ffffff 0%,#00c4ff 50%,#7c3aff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 30px rgba(0,196,255,0.4));">CONAFLIX</div>
+          <div style="font-size:clamp(14px,2.5vw,18px);color:rgba(255,255,255,0.9);font-weight:600;text-shadow:0 2px 12px rgba(0,0,0,0.8);">Tu camino al <span style="color:#ffd700;font-weight:800;">TOP 10</span> comienza aquí</div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:4px;">
+            <div style="background:rgba(0,0,0,0.55);backdrop-filter:blur(10px);border:1px solid rgba(0,196,255,0.3);border-radius:12px;padding:8px 16px;text-align:center;">
+              <div style="font-family:'Bebas Neue',cursive;font-size:24px;color:#00c4ff;">500+</div>
+              <div style="font-size:10px;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:1px;">Preguntas</div>
+            </div>
+            <div style="background:rgba(0,0,0,0.55);backdrop-filter:blur(10px);border:1px solid rgba(124,58,255,0.3);border-radius:12px;padding:8px 16px;text-align:center;">
+              <div style="font-family:'Bebas Neue',cursive;font-size:24px;color:#7c3aff;">18</div>
+              <div style="font-size:10px;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:1px;">Asignaturas</div>
+            </div>
+            <div style="background:rgba(0,0,0,0.55);backdrop-filter:blur(10px);border:1px solid rgba(46,213,115,0.3);border-radius:12px;padding:8px 16px;text-align:center;">
+              <div style="font-family:'Bebas Neue',cursive;font-size:24px;color:#2ed573;">TOP</div>
+              <div style="font-size:10px;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:1px;">10 Meta</div>
+            </div>
+            <div style="background:rgba(0,0,0,0.55);backdrop-filter:blur(10px);border:1px solid rgba(255,215,0,0.3);border-radius:12px;padding:8px 16px;text-align:center;">
+              <div style="font-family:'Bebas Neue',cursive;font-size:24px;color:#ffd700;">7D</div>
+              <div style="font-size:10px;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:1px;">Garantía</div>
+            </div>
+          </div>
+          <button onclick="document.querySelector('.pricing-toggle').scrollIntoView({behavior:'smooth'})"
+            style="margin-top:8px;background:linear-gradient(135deg,#00c4ff,#7c3aff);color:#fff;border:none;padding:14px 32px;border-radius:99px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:15px;cursor:pointer;box-shadow:0 8px 32px rgba(0,196,255,0.35);">
+            ▶ Ver planes y precios ↓
+          </button>
+        </div>
+      </div>
+      <style>@keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}</style>
+      <script>
+      (function(){
+        function init(){
+          var canvas=document.getElementById('netflix-hero-canvas');
+          if(!canvas)return;
+          var ctx=canvas.getContext('2d');
+          function resize(){canvas.width=canvas.offsetWidth;canvas.height=canvas.offsetHeight;}
+          resize();window.addEventListener('resize',resize);
+          var ICONS=['🩺','💊','🧬','🫀','🫁','🧠','💉','🔬','⚕️','📋'];
+          var parts=[];
+          for(var i=0;i<22;i++)parts.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,icon:ICONS[Math.floor(Math.random()*ICONS.length)],size:14+Math.random()*18,vx:(Math.random()-0.5)*0.5,vy:-0.3-Math.random()*0.4,op:0.07+Math.random()*0.15,pulse:Math.random()*Math.PI*2});
+          var nodes=[];
+          for(var i=0;i<28;i++)nodes.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-0.5)*0.4,vy:(Math.random()-0.5)*0.4,r:1.5+Math.random()*2.5,pulse:Math.random()*Math.PI*2});
+          var ecg1=0,ecg2=80;
+          function drawECG(off,y0frac,color,lw){
+            var W=canvas.width,H=canvas.height;
+            ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=lw;
+            ctx.shadowBlur=8;ctx.shadowColor=color;
+            for(var x=0;x<W;x++){
+              var phase=(x+off)/W*4,seg=phase%1,dy=0;
+              if(seg<0.12)dy=0;
+              else if(seg<0.18)dy=-seg*80;
+              else if(seg<0.22)dy=18;
+              else if(seg<0.28)dy=-H*0.22;
+              else if(seg<0.34)dy=H*0.08;
+              else if(seg<0.42)dy=-12;
+              else if(seg<0.5)dy=0;
+              else dy=Math.sin((seg-0.5)*Math.PI*3)*6;
+              if(x===0)ctx.moveTo(x,H*y0frac+dy);else ctx.lineTo(x,H*y0frac+dy);
+            }
+            ctx.stroke();ctx.shadowBlur=0;
+          }
+          function draw(){
+            var W=canvas.width,H=canvas.height;
+            ctx.fillStyle='rgba(5,5,8,0.18)';ctx.fillRect(0,0,W,H);
+            var g=ctx.createRadialGradient(W*.5,H*.4,0,W*.5,H*.4,W*.7);
+            g.addColorStop(0,'rgba(0,50,80,0.06)');g.addColorStop(1,'transparent');
+            ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+            for(var i=0;i<nodes.length;i++){
+              for(var j=i+1;j<nodes.length;j++){
+                var dx=nodes[i].x-nodes[j].x,dy=nodes[i].y-nodes[j].y,d=Math.sqrt(dx*dx+dy*dy);
+                if(d<130){ctx.beginPath();ctx.strokeStyle='rgba(0,196,255,'+(1-d/130)*0.12+')';ctx.lineWidth=0.5;ctx.moveTo(nodes[i].x,nodes[i].y);ctx.lineTo(nodes[j].x,nodes[j].y);ctx.stroke();}
+              }
+            }
+            nodes.forEach(function(n){
+              n.pulse+=0.03;
+              var glow=0.4+Math.sin(n.pulse)*0.3;
+              ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,Math.PI*2);
+              ctx.fillStyle='rgba(0,196,255,'+(glow*.7)+')';
+              ctx.shadowBlur=6;ctx.shadowColor='rgba(0,196,255,0.5)';ctx.fill();ctx.shadowBlur=0;
+              n.x+=n.vx;n.y+=n.vy;
+              if(n.x<0||n.x>W)n.vx*=-1;if(n.y<0||n.y>H)n.vy*=-1;
+            });
+            drawECG(ecg1,0.72,'rgba(0,196,255,0.4)',1.5);
+            drawECG(ecg2,0.55,'rgba(124,58,255,0.2)',1);
+            ecg1+=1.8;ecg2+=1.2;
+            ctx.save();
+            parts.forEach(function(p){
+              p.pulse+=0.02;p.x+=p.vx;p.y+=p.vy;
+              if(p.y<-40){p.y=H+20;p.x=Math.random()*W;}
+              if(p.x<-40)p.x=W+20;if(p.x>W+40)p.x=-20;
+              ctx.globalAlpha=p.op*(0.7+Math.sin(p.pulse)*0.3);
+              ctx.font=p.size+'px serif';ctx.textAlign='center';ctx.fillText(p.icon,p.x,p.y);
+            });
+            ctx.restore();
+            for(var y=0;y<H;y+=4){ctx.fillStyle='rgba(0,0,0,0.025)';ctx.fillRect(0,y,W,2);}
+            requestAnimationFrame(draw);
+          }
+          draw();
+        }
+        if(document.readyState==='complete')init();else window.addEventListener('load',init);
+        document.addEventListener('visibilitychange',function(){if(!document.hidden)init();});
+      })();
+      <\/script>
+
+      <!-- ============================================
+           VIDEO YOUTUBE
+           PARA CAMBIAR: reemplazá "dQw4w9WgXcQ" por el ID de TU video
+           Ejemplo: youtube.com/watch?v=ABC123 → usá ABC123
+      ============================================ -->
+      <div style="margin-bottom:52px;">
+        <div style="display:inline-block;background:rgba(0,196,255,0.1);border:1px solid rgba(0,196,255,0.2);color:#00c4ff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:99px;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px;">🎬 Conocé la plataforma</div>
+        <h2 style="font-family:'Bebas Neue',cursive;font-size:clamp(32px,5vw,60px);letter-spacing:2px;margin-bottom:12px;">TODO LO QUE NECESITÁS PARA EL <span style="background:linear-gradient(135deg,#00c4ff,#7c3aff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">CONAREM</span></h2>
+        <p style="color:#8888aa;font-size:15px;margin-bottom:28px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.6;">Mirá cómo funciona CONAFLIX y por qué los mejores residentes lo eligen para prepararse.</p>
+        <div style="position:relative;max-width:780px;margin:0 auto;">
+          <div style="position:absolute;inset:-2px;background:linear-gradient(135deg,#00c4ff,#7c3aff);border-radius:20px;opacity:0.3;filter:blur(8px);z-index:0;"></div>
+          <div style="position:relative;z-index:1;background:#111118;border:1px solid rgba(0,196,255,0.2);border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.5);">
+            <div style="background:#16161f;padding:10px 16px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,0.06);">
+              <div style="width:10px;height:10px;border-radius:50%;background:#ff5f57;"></div>
+              <div style="width:10px;height:10px;border-radius:50%;background:#febc2e;"></div>
+              <div style="width:10px;height:10px;border-radius:50%;background:#28c840;"></div>
+              <div style="flex:1;background:#1e1e2e;border-radius:6px;padding:4px 12px;font-size:11px;color:#555570;margin:0 12px;text-align:left;">🔒 conaflix.netlify.app</div>
+              <span style="font-size:18px;">🩺</span>
+            </div>
+            <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1&color=white" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="CONAFLIX"></iframe>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:24px;">
+          <div style="background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:99px;padding:8px 16px;font-size:13px;font-weight:600;">⭐⭐⭐⭐⭐ <span style="color:#8888aa;">+500 estudiantes</span></div>
+          <div style="background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:99px;padding:8px 16px;font-size:13px;font-weight:600;">🎯 <span style="color:#8888aa;">+500 preguntas CONAREM</span></div>
+          <div style="background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:99px;padding:8px 16px;font-size:13px;font-weight:600;">🛡️ <span style="color:#8888aa;">7 días de garantía</span></div>
+          <div style="background:rgba(46,213,115,0.1);border:1px solid rgba(46,213,115,0.3);border-radius:99px;padding:8px 16px;font-size:13px;font-weight:600;color:#2ed573;">✓ Instalable en tu celular</div>
+        </div>
+      </div>
+
+      <div class="pricing-headline">ELIGE TU PLAN</div>
+      <p class="pricing-sub">Acceso completo al mejor contenido CONAREM de Paraguay y LATAM</p>
+
+      <div class="pricing-toggle">
+        <button class="toggle-btn active" id="toggle-mensual" onclick="togglePricing('mensual')">Mensual</button>
+        <button class="toggle-btn" id="toggle-anual" onclick="togglePricing('anual')">Anual · -50% 🔥</button>
+      </div>
+
+      <div class="pricing-cards">
+        <!-- Card Mensual -->
+        <div class="price-card" id="card-mensual">
+          <div class="price-plan">🎬 CONAFLIX PREMIUM</div>
+          <div class="price-amount"><span class="price-currency">$</span><span id="price-display-mensual">29.99</span></div>
+          <div class="price-period" id="period-label-mensual">por mes</div>
+          <ul class="price-features">
+            <li><span class="feat-check">✓</span> Acceso ilimitado a todos los temas</li>
+            <li><span class="feat-check">✓</span> +500 preguntas tipo CONAREM</li>
+            <li><span class="feat-check">✓</span> Simulacros ilimitados</li>
+            <li><span class="feat-check">✓</span> PDFs descargables por tema</li>
+            <li><span class="feat-check">✓</span> Dashboard de progreso personal</li>
+            <li><span class="feat-check">✓</span> Ranking TOP 10 competitivo</li>
+            <li><span class="feat-check">✓</span> Soporte por WhatsApp</li>
+            <li><span class="feat-check">✓</span> Actualizaciones de contenido</li>
+            <li><span class="feat-check">✓</span> Certificado de finalización</li>
+            <li><span class="feat-x">✗</span> Mentoría 1:1 (upgrade)</li>
+          </ul>
+
+          <div class="coupon-area">
+            <div style="font-size:12px;color:var(--text-muted);margin-bottom:8px;font-weight:600;">🎟️ ¿Tenés cupón de descuento?</div>
+            <div class="coupon-input-wrap">
+              <input class="coupon-input" type="text" id="coupon-input" placeholder="Ingresá tu cupón..." oninput="this.value=this.value.toUpperCase()">
+              <button class="coupon-btn" onclick="applyCoupon()">Aplicar</button>
+            </div>
+            <div class="coupon-msg" id="coupon-msg"></div>
+          </div>
+
+          <button class="btn-pay primary" onclick="openWhatsApp('mensual')">
+            💬 SUSCRIBIRME AL PLAN MENSUAL
+          </button>
+          <button class="btn-pay secondary" style="margin-top:10px" onclick="openWhatsApp('soporte')">
+            🅿️ CONSULTAR POR WHATSAPP
+          </button>
+          <div class="payment-methods">
+            <span class="pay-method">VISA</span>
+            <span class="pay-method">MASTERCARD</span>
+            <span class="pay-method">AMEX</span>
+            <span class="pay-method">PAYPAL</span>
+          </div>
+          <div class="guarantee">🛡️ 7 días de garantía · 🔒 Pago 100% seguro</div>
+        </div>
+
+        <!-- Card Anual (hidden by default) -->
+        <div class="price-card featured hidden" id="card-anual">
+          <div class="price-plan">🎬 CONAFLIX PREMIUM ANUAL</div>
+          <div class="price-amount"><span class="price-currency">$</span><span id="price-display-anual">199.99</span></div>
+          <div class="price-period">por año · 16.67$/mes</div>
+          <div class="price-old">$359.88 si pagaras mes a mes</div>
+          <div class="price-save">Ahorrás 44% · Mejor valor ⭐</div>
+          <ul class="price-features">
+            <li><span class="feat-check">✓</span> TODO lo del plan mensual</li>
+            <li><span class="feat-check">✓</span> Acceso hasta el día del CONAREM</li>
+            <li><span class="feat-check">✓</span> Prioridad en actualizaciones</li>
+            <li><span class="feat-check">✓</span> Comunidad VIP de estudiantes</li>
+            <li><span class="feat-check">✓</span> Sin interrupciones de pago</li>
+          </ul>
+
+          <div class="coupon-area">
+            <div style="font-size:12px;color:var(--text-muted);margin-bottom:8px;font-weight:600;">🎟️ ¿Tenés cupón de descuento?</div>
+            <div class="coupon-input-wrap">
+              <input class="coupon-input" type="text" id="coupon-input-anual" placeholder="Ingresá tu cupón..." oninput="this.value=this.value.toUpperCase()">
+              <button class="coupon-btn" onclick="applyCouponAnual()">Aplicar</button>
+            </div>
+            <div class="coupon-msg" id="coupon-msg-anual"></div>
+          </div>
+
+          <button class="btn-pay primary" onclick="openWhatsApp('anual')">
+            💬 SUSCRIBIRME AL PLAN ANUAL
+          </button>
+          <button class="btn-pay secondary" style="margin-top:10px" onclick="openWhatsApp('soporte')">
+            🅿️ CONSULTAR POR WHATSAPP
+          </button>
+          <div class="payment-methods">
+            <span class="pay-method">VISA</span>
+            <span class="pay-method">MASTERCARD</span>
+            <span class="pay-method">AMEX</span>
+            <span class="pay-method">PAYPAL</span>
+          </div>
+          <div class="guarantee">🛡️ 7 días de garantía · 🔒 Pago 100% seguro</div>
+        </div>
+      </div>
+
+      <!-- Métodos alternativos Paraguay -->
+      <div style="max-width:560px;margin:32px auto 0;display:flex;flex-direction:column;gap:14px;">
+
+        <!-- PAGO POR WHATSAPP - Método principal -->
+        <div class="transfer-box" style="text-align:center;border-color:rgba(37,211,102,0.3);background:rgba(37,211,102,0.04);">
+          <div class="t-title" style="justify-content:center;color:#25d366;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#25d366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Suscribirme por WhatsApp
+          </div>
+          <p style="font-size:14px;color:var(--text-secondary);margin-bottom:20px;line-height:1.6;">
+            Hacé clic en el botón, escribinos por WhatsApp y te enviamos el link de pago seguro.<br>
+            <strong style="color:var(--text-primary)">Aceptamos todas las tarjetas, transferencia y efectivo.</strong>
+          </p>
+          <button onclick="openWhatsApp('suscribir')" style="background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;border:none;padding:16px 36px;border-radius:99px;cursor:pointer;font-family:var(--font-body);font-weight:800;font-size:16px;display:inline-flex;align-items:center;gap:10px;box-shadow:0 4px 24px rgba(37,211,102,0.35);margin-bottom:16px;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            QUIERO SUSCRIBIRME — ESCRIBIR AHORA
+          </button>
+          <div style="font-size:12px;color:var(--text-muted);">⚡ Respuesta en menos de 2 horas · 🛡️ 7 días de garantía</div>
+        </div>
+
+        <!-- Cuotas info -->
+        <div class="transfer-box">
+          <div class="t-title">💳 Pagos en cuotas</div>
+          <div class="t-data" style="font-size:13px;line-height:1.9;">
+            Podés pagar en cuotas con tu tarjeta de crédito. Consultanos por WhatsApp y te enviamos el link correspondiente. La cantidad de cuotas depende de tu banco emisor.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SCREEN: ADMIN
+  ============================================================ -->
+  <div class="screen" id="screen-admin">
+    <div class="section" id="admin-login-area">
+      <div style="max-width:340px;margin:60px auto;">
+        <div class="page-title" style="text-align:center">ADMIN</div>
+        <div class="page-sub" style="text-align:center">Panel de administración</div>
+        <div class="form-group">
+          <label class="form-label">Contraseña admin</label>
+          <input class="form-input" type="password" id="admin-pass-input" placeholder="Contraseña...">
+        </div>
+        <button class="btn-form" onclick="adminLogin()">Ingresar al panel</button>
+      </div>
+    </div>
+
+    <div id="admin-panel-area" style="display:none;">
+      <div class="section">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:28px;">
+          <div>
+            <div class="page-title">ADMIN PANEL</div>
+            <div class="page-sub" style="margin:0">Panel de control CONAFLIX</div>
+          </div>
+          <button onclick="adminLogout()" style="background:rgba(255,71,87,0.1);border:1px solid rgba(255,71,87,0.3);color:var(--red);padding:8px 16px;border-radius:8px;cursor:pointer;font-family:var(--font-body);font-size:13px;font-weight:700;">Salir</button>
+        </div>
+
+        <!-- Revenue -->
+        <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:28px;margin-bottom:24px;">
+          <div style="font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Ingresos Totales (simulado)</div>
+          <div class="admin-revenue">$50,000 USD</div>
+          <div style="font-size:13px;color:var(--text-muted);margin-top:4px;">Este mes: $8,000 · Mes anterior: $7,500</div>
+        </div>
+
+        <div class="dashboard-grid" style="margin-bottom:24px;">
+          <div class="stat-card"><div class="stat-card-icon">👥</div><div class="stat-card-value">1,247</div><div class="stat-card-label">Usuarios totales</div></div>
+          <div class="stat-card"><div class="stat-card-icon">✅</div><div class="stat-card-value">892</div><div class="stat-card-label">Usuarios activos</div></div>
+          <div class="stat-card"><div class="stat-card-icon">📊</div><div class="stat-card-value">3.5%</div><div class="stat-card-label">Conversión</div></div>
+          <div class="stat-card"><div class="stat-card-icon">⭐</div><div class="stat-card-value">72</div><div class="stat-card-label">NPS Score</div></div>
+        </div>
+
+        <!-- Usuarios -->
+        <div style="font-size:16px;font-weight:700;margin-bottom:16px;">Usuarios registrados</div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;">
+          <div style="overflow-x:auto;">
+            <table class="admin-table" id="admin-users-table">
+              <thead><tr><th>Nombre</th><th>Email</th><th>Plan</th><th>Puntos</th><th>Racha</th><th>Último acceso</th></tr></thead>
+              <tbody id="admin-users-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Activar usuario manual -->
+        <div style="font-size:16px;font-weight:700;margin-bottom:16px;">✅ Activar usuario (pago manual)</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <input class="form-input" type="email" id="activate-email" placeholder="Email del usuario..." style="flex:1;min-width:200px;">
+          <select id="activate-plan" style="background:var(--bg-surface);border:1px solid var(--border);color:var(--text-primary);padding:12px 16px;border-radius:var(--radius);font-family:var(--font-body);">
+            <option value="mensual">Mensual</option>
+            <option value="anual">Anual</option>
+          </select>
+          <button onclick="activateUser()" style="background:var(--green);color:#000;border:none;padding:12px 20px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-weight:700;">Activar</button>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Configuración de links de pago -->
+        <div style="font-size:16px;font-weight:700;margin-bottom:4px;">🔗 Links de pago</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:16px;">Pegá tus links aquí. Los botones de pago en la app los usarán automáticamente.</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div>
+            <div class="form-label">💳 Stripe — Mensual $29.99 USD</div>
+            <input class="form-input" type="text" id="link-stripe-mensual" placeholder="https://buy.stripe.com/...">
+          </div>
+          <div>
+            <div class="form-label">💳 Stripe — Anual $199.99 USD</div>
+            <input class="form-input" type="text" id="link-stripe-anual" placeholder="https://buy.stripe.com/...">
+          </div>
+          <div>
+            <div class="form-label">🅿️ PayPal — Mensual</div>
+            <input class="form-input" type="text" id="link-paypal-mensual" placeholder="https://www.paypal.com/...">
+          </div>
+          <div>
+            <div class="form-label">🅿️ PayPal — Anual</div>
+            <input class="form-input" type="text" id="link-paypal-anual" placeholder="https://www.paypal.com/...">
+          </div>
+          <div>
+            <div class="form-label">📱 Link para QR de pago (Tigo Money / Bancard / Personal Pay)</div>
+            <input class="form-input" type="text" id="link-qr" placeholder="https://... (el QR se genera automáticamente)">
+          </div>
+          <div>
+            <div class="form-label">📞 WhatsApp soporte (con código de país)</div>
+            <input class="form-input" type="text" id="link-whatsapp" placeholder="+595981123456">
+          </div>
+        </div>
+
+        <div style="height:1px;background:var(--border);margin:20px 0;"></div>
+        <div style="font-size:16px;font-weight:700;margin-bottom:4px;">🏦 Datos bancarios Paraguay</div>
+        <div style="font-size:12px;color:var(--text-muted);margin-bottom:16px;">Se muestran en la sección "Transferencia" de la página de precios.</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div>
+            <div class="form-label">Banco</div>
+            <input class="form-input" type="text" id="banco-nombre" placeholder="Ej: Banco Continental">
+          </div>
+          <div>
+            <div class="form-label">Número de cuenta</div>
+            <input class="form-input" type="text" id="banco-cuenta" placeholder="Ej: 0001-12345678">
+          </div>
+          <div>
+            <div class="form-label">Titular</div>
+            <input class="form-input" type="text" id="banco-titular" placeholder="Tu nombre completo">
+          </div>
+          <div>
+            <div class="form-label">CI o RUC</div>
+            <input class="form-input" type="text" id="banco-ci" placeholder="Ej: 1.234.567">
+          </div>
+        </div>
+
+        <button onclick="savePayLinks()" style="margin-top:16px;background:var(--accent);color:#000;border:none;padding:14px 28px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-weight:800;font-size:15px;width:100%;">💾 Guardar toda la configuración</button>
+
+        <div class="divider"></div>
+        <button onclick="resetAllData()" style="background:rgba(255,71,87,0.1);border:1px solid rgba(255,71,87,0.3);color:var(--red);padding:12px 20px;border-radius:var(--radius);cursor:pointer;font-family:var(--font-body);font-size:14px;font-weight:700;">
+          🗑️ Resetear todos los datos (fábrica)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       MODAL TOPIC DETAIL
+  ============================================================ -->
+  <div class="modal-overlay hidden" id="topic-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <div style="font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:6px" id="modal-subject"></div>
+          <h2 style="font-size:22px;font-weight:800;line-height:1.2" id="modal-title"></h2>
+          <div class="info-chips" style="margin-top:10px;margin-bottom:0" id="modal-chips"></div>
+        </div>
+        <button class="modal-close" onclick="closeTopicModal()">✕</button>
+      </div>
+      <div class="modal-tabs">
+        <button class="modal-tab active" onclick="switchTab('resumen',this)">📖 Resumen</button>
+        <button class="modal-tab" onclick="switchTab('clave',this)">🎯 Puntos Clave</button>
+        <button class="modal-tab" onclick="switchTab('quiz',this)">✏️ Preguntas</button>
+        <button class="modal-tab" onclick="switchTab('biblio',this)">📚 Bibliografía</button>
+      </div>
+      <div class="modal-content-area">
+        <div class="tab-panel active" id="tab-resumen"></div>
+        <div class="tab-panel" id="tab-clave"></div>
+        <div class="tab-panel" id="tab-quiz"></div>
+        <div class="tab-panel" id="tab-biblio"></div>
+      </div>
+      <div style="padding:0 28px 24px;display:flex;gap:10px;flex-wrap:wrap;">
+        <button class="btn-hero" onclick="downloadPDF()" style="font-size:13px;padding:12px 20px;">📥 Descargar PDF</button>
+        <button class="btn-ghost" style="font-size:13px;padding:12px 20px;" onclick="markTopicComplete()">✅ Marcar completado</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       AUTH MODAL
+  ============================================================ -->
+  <div class="modal-overlay hidden" id="auth-modal">
+    <div class="auth-modal">
+      <div class="auth-logo">CONAFLIX</div>
+      <div class="auth-sub" id="auth-subtitle">Ingresá a tu cuenta</div>
+      <div id="login-form">
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" id="login-email" placeholder="tu@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Contraseña</label>
+          <input class="form-input" type="password" id="login-pass" placeholder="Tu contraseña">
+        </div>
+        <button class="btn-form" onclick="doLogin()">Ingresar</button>
+        <div class="auth-switch">¿No tenés cuenta? <a onclick="toggleAuthMode('register')">Registrate gratis</a></div>
+      </div>
+      <div id="register-form" style="display:none;">
+        <div class="form-group">
+          <label class="form-label">Nombre completo</label>
+          <input class="form-input" type="text" id="reg-name" placeholder="Dr. Juan Pérez">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" id="reg-email" placeholder="tu@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Contraseña</label>
+          <input class="form-input" type="password" id="reg-pass" placeholder="Mínimo 6 caracteres">
+        </div>
+        <button class="btn-form" onclick="doRegister()">Crear cuenta gratis</button>
+        <div class="auth-switch">¿Ya tenés cuenta? <a onclick="toggleAuthMode('login')">Ingresar</a></div>
+      </div>
+      <button onclick="closeAuthModal()" style="display:block;background:none;border:none;color:var(--text-muted);font-size:13px;cursor:pointer;margin:12px auto 0;font-family:var(--font-body);">Cerrar</button>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<!-- ============================================================
+     JAVASCRIPT COMPLETO
+============================================================ -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+"use strict";
+
+// =============================================
+// DATOS: TEMAS Y PREGUNTAS CONAFLIX
+// =============================================
+const TOPICS_DATA = [
+  {
+    id: "cardio_001",
+    subject: "Medicina Interna",
+    subsubject: "Cardiología",
+    title: "Insuficiencia Cardíaca",
+    icon: "🫀",
+    gradFrom: "rgba(0,196,255,0.15)",
+    gradTo: "rgba(0,100,200,0.1)",
+    difficulty: "intermedio",
+    frequency: 92,
+    studyTime: 50,
+    summary: `
+      <h3>Definición</h3>
+      <p>La <strong>insuficiencia cardíaca (IC)</strong> es un síndrome clínico caracterizado por síntomas típicos (disnea, fatiga, edemas) causados por una anomalía estructural o funcional del corazón que resulta en gasto cardíaco reducido o presiones de llenado elevadas en reposo o durante el ejercicio.</p>
+      <h3>Fisiopatología</h3>
+      <p>Ante la disfunción ventricular, se activan mecanismos compensadores: el <strong>sistema renina-angiotensina-aldosterona (SRAA)</strong> y el <strong>sistema nervioso simpático</strong>. A corto plazo son beneficiosos, pero crónicamente generan remodelado cardíaco patológico, retención de sodio/agua y mayor carga hemodinámica.</p>
+      <h3>Clasificación</h3>
+      <p><strong>Por FE:</strong> IC con FE reducida (FEr <40%), IC con FE levemente reducida (FEm 40-49%), IC con FE preservada (FEp ≥50%).<br>
+      <strong>Por síntomas (NYHA):</strong> Clase I (sin limitación), II (limitación ligera), III (limitación marcada), IV (síntomas en reposo).</p>
+      <h3>Diagnóstico</h3>
+      <p>Clínico: ortopnea, disnea paroxística nocturna, edemas en MI, ingurgitación yugular, crepitantes bibasales, S3. <strong>BNP >100 pg/mL o NT-proBNP >300 pg/mL</strong> orienta al diagnóstico. Ecocardiograma: estudio de elección.</p>
+      <h3>Tratamiento IC con FE reducida</h3>
+      <p>Los 4 pilares del tratamiento con beneficio en mortalidad: <strong>IECA/ARA-II o ARNI (sacubitrilo/valsartán)</strong>, <strong>betabloqueantes</strong> (carvedilol, bisoprolol, metoprolol succinato), <strong>ARM</strong> (espironolactona/eplerenona), <strong>iSGLT2</strong> (dapagliflozina/empagliflozina). Los diuréticos mejoran síntomas pero no reducen mortalidad.</p>
+    `,
+    keyPoints: [
+      "FE <40% = IC con FE reducida. Tratamiento: IECA + betabloqueante + ARM + iSGLT2",
+      "BNP >400 pg/mL confirma IC descompensada aguda. BNP <100 pg/mL prácticamente la descarta",
+      "Carvedilol, bisoprolol y metoprolol succinato son los únicos BB con beneficio demostrado en IC",
+      "Sacubitril/valsartán es superior a enalapril en reducción de mortalidad cardiovascular (estudio PARADIGM-HF)",
+      "IC aguda: posición sentada, O2, furosemida IV (0.5-1 mg/kg), nitratos si TAS>90",
+      "Los iSGLT2 reducen hospitalización por IC independientemente de si tienen diabetes"
+    ],
+    mnemonics: "Los 4 pilares = BAIL: Beta-bloqueante, ARM (aldosterona), IECA/ARNI, iSGLT2 (la L de SGLT2)",
+    bibliography: "Harrison 21ª ed, Cap 252 (Insuficiencia Cardíaca), pág 1760-1790. Guías ESC 2021 IC.",
+    questions: [
+      {
+        id:"q_ic_01",
+        text:"Paciente de 68 años, HTA e ICFE reducida (FE 35%). Actualmente en NYHA II, con carvedilol 25 mg c/12h. Se decide agregar antagonista del receptor mineralocorticoide. ¿Cuál es la condición que CONTRAINDICA este fármaco?",
+        options:["A) Creatinina 1.4 mg/dL","B) Potasio sérico 5.5 mEq/L","C) TFG 55 mL/min","D) Sodio 138 mEq/L","E) Presión arterial 100/70 mmHg"],
+        correct:"B",
+        explanation:{
+          correct:"La espironolactona/eplerenona está contraindicada con K+ ≥5 mEq/L o TFG <30 mL/min por riesgo de hiperpotasemia grave con potencial arritmia fatal.",
+          incorrect:{
+            "A":"Cr 1.4 no es contraindicación absoluta; se debe monitorizar función renal y electrolitos.",
+            "C":"TFG 55 permite el uso de ARM con monitoreo renal. La contraindicación es TFG <30.",
+            "D":"La natremia normal no contraindica ARM.",
+            "E":"Aunque TAS baja requiere precaución, no es contraindicación absoluta para ARM."
+          },
+          pearl:"Clinical Pearl: Siempre verificar K+ y TFG antes de iniciar ARM. Si K+ >5 o TFG <30: NO iniciar. Educación al paciente: evitar sustitutos de sal con K+.",
+          reference:"Harrison 21ª ed, Cap 252, pág 1775"
+        },
+        difficulty:3,
+        accuracyRate:62
+      },
+      {
+        id:"q_ic_02",
+        text:"Mujer de 72 años con IC aguda descompensada. TAS 80 mmHg, FC 120 lpm, sat O2 88%, rales crepitantes bibasales, ingurgitación yugular ++. ¿Cuál es el tratamiento PRIORITARIO?",
+        options:["A) Furosemida IV 80 mg en bolo","B) Nitroglicerina IV en infusión","C) Dobutamina IV + O2 suplementario","D) Metoprolol IV 5 mg","E) Captopril 25 mg sublingual"],
+        correct:"C",
+        explanation:{
+          correct:"Con TAS <90 mmHg (shock cardiogénico), los nitratos y diuréticos enérgicos están contraindicados por riesgo de hipotensión severa. La dobutamina (inotrópico) más O2 es la conducta correcta en IC con bajo gasto.",
+          incorrect:{
+            "A":"Furosemida en bolo está indicada en IC con congestión y TAS normal; con hipotensión profunda, la vasodilatación adicional puede ser letal.",
+            "B":"Nitroglicerina IV está contraindicada si TAS <90 mmHg.",
+            "D":"Los betabloqueantes están absolutamente contraindicados en IC aguda descompensada con bajo gasto.",
+            "E":"IECA están contraindicados en shock cardiogénico agudo."
+          },
+          pearl:"Clinical Pearl: Clasifica siempre IC aguda en Wet/Dry y Warm/Cold. Wet-Cold = congestión + hipoperfusión = inotrópico + considerar balón de contrapulsación.",
+          reference:"Guías ESC IC Aguda 2021; Tintinalli 9ª ed, Cap 53"
+        },
+        difficulty:4,
+        accuracyRate:55
+      },
+      {
+        id:"q_ic_03",
+        text:"Hombre 58a, IC con FEr=30%, ya en IECA + carvedilol + espironolactona. Se quiere mejorar pronóstico. ¿Qué fármaco agrega el mayor beneficio adicional según evidencia actual?",
+        options:["A) Digoxina","B) Ivabradina","C) Sacubitrilo/valsartán (suspendiendo IECA)","D) Amlodipino","E) Hidralazina + nitrato"],
+        correct:"C",
+        explanation:{
+          correct:"El estudio PARADIGM-HF demostró que sacubitril/valsartán (ARNI) reduce mortalidad CV en 20% vs enalapril. Las guías recomiendan reemplazar el IECA por ARNI en pacientes que toleran IECA (esperar 36h entre el último IECA y el ARNI para evitar angioedema).",
+          incorrect:{
+            "A":"Digoxina reduce hospitalizaciones pero no mortalidad. Tiene índice terapéutico estrecho.",
+            "B":"Ivabradina útil si FC >70 con betabloqueante a dosis máxima, no es prioridad aquí.",
+            "D":"Amlodipino puede usarse para HTA o angina; sin beneficio específico en IC.",
+            "E":"Hidralazina+nitrato se reserva para intolerantes a IECA/ARA-II (especialmente en pacientes afroamericanos)."
+          },
+          pearl:"Clinical Pearl: La secuencia ideal en IC FEr = IECA → ARNI. Siempre esperar al menos 36 horas entre el último IECA y la primera dosis de sacubitril/valsartán.",
+          reference:"Harrison 21ª ed, pág 1776; PARADIGM-HF NEJM 2014"
+        },
+        difficulty:4,
+        accuracyRate:48
+      }
+    ]
+  },
+  {
+    id:"neumo_001",
+    subject:"Medicina Interna",
+    subsubject:"Neumología",
+    title:"EPOC: Diagnóstico y Manejo",
+    icon:"🫁",
+    gradFrom:"rgba(100,180,255,0.12)",
+    gradTo:"rgba(0,100,255,0.08)",
+    difficulty:"intermedio",
+    frequency:88,
+    studyTime:45,
+    summary:`
+      <h3>Definición</h3>
+      <p>La <strong>EPOC</strong> es una enfermedad frecuente, prevenible y tratable, caracterizada por síntomas respiratorios persistentes y limitación crónica al flujo aéreo debida a anomalías de la vía aérea o alveolares, generalmente causada por exposición significativa a gases o partículas nocivas.</p>
+      <h3>Diagnóstico</h3>
+      <p>Espirometría post-broncodilatador: <strong>FEV1/FVC <0.70</strong> confirma limitación al flujo persistente. Clasificación GOLD por FEV1: GOLD 1 (≥80%), GOLD 2 (50-79%), GOLD 3 (30-49%), GOLD 4 (<30%).</p>
+      <h3>Tratamiento según GOLD 2023</h3>
+      <p><strong>Grupo A:</strong> un broncodilatador de acción larga. <strong>Grupo B:</strong> LABA+LAMA. <strong>Grupo E (alta exacerbación):</strong> LABA+LAMA ± ICS si eosinófilos ≥300. Los ICS no son de primera línea excepto por eosinofilia o historia de asma.</p>
+      <h3>Exacerbación aguda</h3>
+      <p>Leve: ambulatorio, salbutamol + ipratropio inhalados + antibiótico si cambio en esputo. Moderada/grave: hospitalización, broncodilatadores nebulizados, corticosteroides sistémicos (prednisona 40 mg/d × 5 días), antibióticos (amoxicilina-clavulanato o levofloxacino), O2 controlado (sat 88-92%), VNIPP si pH<7.35.</p>
+    `,
+    keyPoints:[
+      "Diagnóstico de EPOC: espirometría post-BD con FEV1/FVC <0.70 (criterio GOLD)",
+      "Principal factor de riesgo: tabaquismo (>90% de casos). También: biomasa, ocupacional",
+      "GOLD A→ 1 LABA o LAMA. GOLD B→ LABA+LAMA. GOLD E→ LABA+LAMA±ICS",
+      "En exacerbación: corticoide sistémico 40mg/d × 5 días (no más) + antibiótico",
+      "O2 controlado en EPOC: objetivo SAT 88-92%, no hipercorregir (riesgo hipercapnia)",
+      "VNIPP indicada si pH<7.35 y PaCO2>45 a pesar de tratamiento"
+    ],
+    mnemonics:"GOLD grupos por síntomas: A=Asintomático, B=Breathless (sintomático), E=Exacerbador frecuente",
+    bibliography:"Harrison 21ª ed, Cap 290 (EPOC), pág 1980-2012. GOLD Report 2023.",
+    questions:[
+      {
+        id:"q_epoc_01",
+        text:"Mujer de 65 años, fumadora 40 paq/año. FEV1 48%, FEV1/FVC 0.61 post-BD. 2 exacerbaciones el año pasado que requirieron corticoides sistémicos. mMRC=2. ¿Cuál es el tratamiento inicial más apropiado?",
+        options:["A) Salbutamol inhalado según necesidad","B) LABA solo (formoterol)","C) LABA+LAMA (indacaterol+glicopirronio)","D) ICS+LABA (budesonida+formoterol)","E) LABA+LAMA+ICS triple terapia"],
+        correct:"C",
+        explanation:{
+          correct:"Esta paciente es GOLD 3, Grupo E (≥2 exacerbaciones). El tratamiento inicial según GOLD 2023 para Grupo E es LABA+LAMA. Los ICS se agregan si eosinófilos ≥300 cel/µL o asma concomitante, dato no disponible en este caso.",
+          incorrect:{
+            "A":"SABA solo es manejo de rescate, insuficiente para Grupo E con GOLD 3.",
+            "B":"LABA solo es para Grupo A o B sin exacerbaciones frecuentes.",
+            "D":"ICS+LABA ya no es de primera línea para EPOC puro; LABA+LAMA es superior por eficacia y menor riesgo de neumonía.",
+            "E":"Triple terapia se reserva si LABA+LAMA es insuficiente, con eosinófilos elevados o asma."
+          },
+          pearl:"Clinical Pearl: GOLD 2023 eliminó el Grupo C y D. Ahora Grupos A, B, E. El Grupo E incluye ≥2 exacerbaciones moderadas o ≥1 grave (hospitalización) el año previo.",
+          reference:"GOLD 2023 Report, Cap 4; Harrison 21ª pág 1998"
+        },
+        difficulty:3,
+        accuracyRate:58
+      }
+    ]
+  },
+  {
+    id:"ped_001",
+    subject:"Pediatría",
+    subsubject:"Neonatología",
+    title:"Síndrome de Distress Respiratorio Neonatal",
+    icon:"👶",
+    gradFrom:"rgba(255,200,0,0.12)",
+    gradTo:"rgba(255,120,0,0.08)",
+    difficulty:"avanzado",
+    frequency:80,
+    studyTime:40,
+    summary:`
+      <h3>Definición</h3>
+      <p>El <strong>Síndrome de Distress Respiratorio (SDR)</strong> o Enfermedad de Membrana Hialina es la causa más frecuente de insuficiencia respiratoria en el prematuro. Se debe a <strong>déficit de surfactante pulmonar</strong>, que se produce desde las 24 semanas pero alcanza niveles funcionales a las 34-36 semanas.</p>
+      <h3>Factores de riesgo</h3>
+      <p>Prematuridad (principal), sexo masculino, diabetes gestacional, cesárea sin trabajo de parto, asfixia perinatal. <strong>Factores protectores:</strong> corticosteroides antenatales (betametasona), sexo femenino, hipertensión materna.</p>
+      <h3>Clínica y diagnóstico</h3>
+      <p>Taquipnea, quejido espiratorio, aleteo nasal, tiraje intercostal/subcostal, cianosis. Aparece en las primeras 4-6 horas de vida. Rx tórax: <strong>patrón reticulogranular difuso bilateral + broncograma aéreo</strong> (pulmón "en vidrio esmerilado"). Curva de lecitina/esfingomielina (L/E) >2 indica madurez pulmonar.</p>
+      <h3>Tratamiento</h3>
+      <p><strong>Surfactante exógeno</strong> (beractant/poractant): administrar temprano (primeras 2 horas). Técnica INSURE (Intubación-Surfactante-Extubación a CPAP). <strong>CPAP nasal</strong> como soporte respiratorio no invasivo preferido. Corticoides antenatales si parto pretérmino inminente.</p>
+    `,
+    keyPoints:[
+      "SDR = déficit de surfactante pulmonar. Más frecuente en <32 semanas",
+      "Rx: patrón reticulogranular + broncograma aéreo = clásico de EMH",
+      "Tratamiento: surfactante exógeno intratraqueal + soporte respiratorio (CPAP)",
+      "Betametasona materna 24mg IM (2 dosis c/24h) si parto <34 semanas: acelera madurez pulmonar",
+      "L/E >2 indica madurez pulmonar (fosfatidilglicerol confirma madurez)",
+      "Complicaciones: neumotórax, hemorragia pulmonar, displasia broncopulmonar"
+    ],
+    mnemonics:"CPAP primero, luego Surfactante si empeora. Recuerda: 'Primero CPAP, después Surfactante'",
+    bibliography:"Nelson 21ª ed, Cap 117 (SDR Neonatal), pág 895-910.",
+    questions:[
+      {
+        id:"q_sdr_01",
+        text:"RN prematuro de 29 semanas, nace sin corticoides antenatales. A los 30 min presenta quejido, tiraje intercostal y sat O2 82%. Rx: infiltrado reticulogranular bilateral con broncograma aéreo. ¿Cuál es la conducta INMEDIATA más apropiada?",
+        options:["A) Intubar y ventilar mecánicamente","B) CPAP nasal con FiO2 0.4","C) Surfactante + CPAP (técnica INSURE)","D) O2 suplementario por cánula nasal","E) Dexametasona IV"],
+        correct:"C",
+        explanation:{
+          correct:"La técnica INSURE (Intubación-Surfactante-Extubación a CPAP) es el estándar actual en SDR confirmado. La administración temprana de surfactante (<2h) reduce la mortalidad y la DBP. Luego se extuba a CPAP nasal.",
+          incorrect:{
+            "A":"VMC puede ser necesaria si fracasa CPAP o INSURE, pero no es el primer paso.",
+            "B":"El CPAP solo sin surfactante en <32 semanas sin corticoides antenatales es insuficiente si hay SDR confirmado por Rx.",
+            "D":"O2 por cánula es insuficiente para SDR moderado-severo en 29 semanas.",
+            "E":"Los corticoides postnatales no tienen indicación en SDR agudo. Los antenatales son los indicados."
+          },
+          pearl:"Clinical Pearl: La ventana terapéutica del surfactante es <2 horas. Administrarlo después de 4-6 horas reduce su efectividad. LISA (Less Invasive Surfactant Administration) es la técnica más moderna: surfactante sin intubación formal.",
+          reference:"Nelson 21ª ed, Cap 117, pág 902"
+        },
+        difficulty:4,
+        accuracyRate:52
+      }
+    ]
+  },
+  {
+    id:"gine_001",
+    subject:"Ginecología",
+    subsubject:"Obstetricia",
+    title:"Preeclampsia y Eclampsia",
+    icon:"🤰",
+    gradFrom:"rgba(255,100,200,0.12)",
+    gradTo:"rgba(200,0,150,0.08)",
+    difficulty:"avanzado",
+    frequency:90,
+    studyTime:45,
+    summary:`
+      <h3>Definición</h3>
+      <p><strong>Preeclampsia:</strong> HTA de novo ≥20 semanas (TAS ≥140 o TAD ≥90 mmHg en dos tomas) + proteinuria ≥300mg/24h o relación proteína/creatinina ≥0.3, o en ausencia de proteinuria con criterios de severidad.</p>
+      <h3>Preeclampsia con criterios de severidad</h3>
+      <p>TAS ≥160 o TAD ≥110, plaquetas <100.000, Cr >1.1, transaminasas ≥2x normal, edema pulmonar, síntomas neurológicos (cefalea intensa, escotomas), dolor epigástrico.</p>
+      <h3>Síndrome HELLP</h3>
+      <p><strong>H</strong>emolysis, <strong>E</strong>levated <strong>L</strong>iver enzymes, <strong>L</strong>ow <strong>P</strong>latelets. Complicación grave de la preeclampsia. Puede presentarse sin HTA o proteinuria. Tratamiento definitivo: parto.</p>
+      <h3>Tratamiento</h3>
+      <p><strong>Antihipertensivos agudos:</strong> labetalol IV, hidralazina IV, o nifedipino oral (TAS ≥160/TAD ≥110). <strong>Prevención de convulsiones:</strong> sulfato de magnesio IV (dosis: 4-6g en 20 min, luego 1-2g/h). <strong>Tratamiento definitivo:</strong> PARTO. Maduracion fetal con betametasona si <34 semanas y hay tiempo.</p>
+    `,
+    keyPoints:[
+      "Preeclampsia: HTA ≥20 sem + proteinuria. Con severidad: TAS≥160, TAD≥110, plaq<100k",
+      "Sulfato de Mg: previene/trata convulsiones en preeclampsia/eclampsia. Antídoto: gluconato de Ca",
+      "HELLP: hemólisis + TGO/TGP elevadas + plaquetas <100.000. No siempre hay HTA",
+      "Antídoto MgSO4: gluconato cálcico 1g IV en 10 min (toxicidad: pérdida de reflejos, paro resp)",
+      "Tratamiento DEFINITIVO: interrumpir embarazo (parto)",
+      "Labetalol IV o hidralazina IV: primera línea en crisis hipertensiva obstétrica"
+    ],
+    mnemonics:"HELLP: Hemólisis, Enzimas Hepáticas elevadas, Low Plaquetas. Para MgSO4: 4-1-1 (4g bolo, 1-2g/h mantenimiento, 1g Ca antídoto)",
+    bibliography:"Williams Obstetricia 26ª ed, Cap 40 (Preeclampsia), pág 710-750.",
+    questions:[
+      {
+        id:"q_pre_01",
+        text:"Paciente de 32 semanas, TAS 168/112 mmHg. Cefalea intensa, escotomas. Plaquetas 88.000. TGO 3x normal. ¿Cuál es la conducta MÁS apropiada?",
+        options:["A) Reposo en cama, control ambulatorio","B) Hospitalizar, sulfato de Mg, antihipertensivo IV, betametasona y parto diferido","C) Nifedipino oral 30 mg y alta","D) Diazepam IV para prevenir convulsiones","E) Hospitalizar, madurar pulmones e interrumpir a las 34 semanas"],
+        correct:"B",
+        explanation:{
+          correct:"Preeclampsia con criterios de severidad + HELLP incipiente. Manejo: hospitalización inmediata, MgSO4 IV (4-6g bolo + 1-2g/h), antihipertensivo IV (labetalol), betametasona (madurez pulmonar, <34 sem), y parto una vez estabilizada (no diferir más de 48h).",
+          incorrect:{
+            "A":"Conducta ambulatoria inaceptable con criterios de severidad y plaquetas en descenso.",
+            "C":"Nifedipino oral puede usarse, pero no es suficiente manejo para esta situación sin hospitalización y MgSO4.",
+            "D":"El diazepam no es el fármaco de elección para prevención de convulsiones en preeclampsia; el MgSO4 es el estándar.",
+            "E":"Con HELLP, diferir el parto hasta 34 semanas no es seguro. Tras estabilización y betametasona, el parto se programa en 24-48h."
+          },
+          pearl:"Clinical Pearl: El sulfato de Mg NO es antihipertensivo. Es anticonvulsivante. Siempre agregar antihipertensivo IV si TAS≥160 o TAD≥110. MgSO4 continúa 24-48h post-parto.",
+          reference:"Williams Obstetricia 26ª ed, Cap 40, pág 730"
+        },
+        difficulty:4,
+        accuracyRate:58
+      }
+    ]
+  },
+  {
+    id:"cir_001",
+    subject:"Cirugía",
+    subsubject:"Abdomen agudo",
+    title:"Apendicitis Aguda",
+    icon:"🔪",
+    gradFrom:"rgba(255,80,80,0.12)",
+    gradTo:"rgba(180,0,0,0.08)",
+    difficulty:"basico",
+    frequency:85,
+    studyTime:30,
+    summary:`
+      <h3>Definición</h3>
+      <p>Inflamación aguda del apéndice vermiforme. Causa más frecuente de abdomen agudo quirúrgico. Incidencia máxima: 10-30 años. Fisiopatología: obstrucción de la luz apendicular (fecalito, hiperplasia linfoide) → distensión → isquemia → perforación.</p>
+      <h3>Clínica</h3>
+      <p>Dolor abdominal inicialmente periumbilical que migra a <strong>fosa ilíaca derecha (FID)</strong>, anorexia, náuseas/vómitos, fiebre baja. Signos: <strong>McBurney</strong> (punto entre 1/3 externo y 2/3 interno de la línea espinoumbilical), <strong>Blumberg</strong> (rebote en FID), <strong>Rovsing</strong> (dolor en FID al comprimir FII), <strong>Psoas</strong> (dolor al extender cadera derecha).</p>
+      <h3>Diagnóstico</h3>
+      <p>Clínico. Score de Alvarado: ≥7 = alta probabilidad. Leucocitosis con desviación izquierda. ECO abdominal (primera línea en embarazo y niños). TC abdomen con contraste: gold standard si duda diagnóstica (sensibilidad >95%).</p>
+      <h3>Tratamiento</h3>
+      <p>Apendicectomía (laparoscópica o abierta). Antibióticos preoperatorios: cefazolina + metronidazol. En apendicitis perforada: antibióticos más prolongados (ampicilina + gentamicina + metronidazol).</p>
+    `,
+    keyPoints:[
+      "Dolor que migra de periumbilical a FID + anorexia + fiebre baja = apendicitis hasta demostrar lo contrario",
+      "Signo de McBurney, Blumberg, Rovsing y Psoas son los más evaluados en CONAREM",
+      "Score de Alvarado ≥7 = alta probabilidad de apendicitis",
+      "TC de abdomen: gold standard si hay duda diagnóstica (sens >95%)",
+      "Tratamiento: apendicectomía + ATB profiláctico (cefazolina+metronidazol)",
+      "Apendicitis perforada: peritonitis. Abdomen en tabla. Cirugía de emergencia"
+    ],
+    mnemonics:"Score MANTRELS (Alvarado): Migration, Anorexia, Nausea, Tenderness RLQ, Rebound, Elevated temp, Leukocytosis, Shift left",
+    bibliography:"Sabiston 21ª ed, Cap 51 (Apéndice), pág 1296-1315.",
+    questions:[
+      {
+        id:"q_ap_01",
+        text:"Hombre de 22 años, 18 horas de dolor en FID, anorexia, T° 38.1°C, leucocitos 14.500. Signo de Blumberg (+). Score de Alvarado 8. ¿Cuál es la conducta correcta?",
+        options:["A) Observación hospitalaria 24h","B) ECO abdominal urgente y si negativo alta","C) TC abdominal con contraste","D) Apendicectomía de urgencia","E) Antibióticos IV y reevaluación en 6h"],
+        correct:"D",
+        explanation:{
+          correct:"Score de Alvarado ≥7 + clínica típica indica alta probabilidad de apendicitis. No se requieren más estudios: se procede a apendicectomía. Demorar la cirugía aumenta el riesgo de perforación.",
+          incorrect:{
+            "A":"Con Alvarado ≥7, la observación sin tratamiento quirúrgico aumenta riesgo de perforación.",
+            "B":"La ECO es primera línea en casos dudosos. Con Alvarado 8 y clínica típica, no se necesita imagenología para operar.",
+            "C":"TC está indicada si hay duda diagnóstica (Alvarado 4-6). Con Alvarado 8, es innecesaria y demora el tratamiento.",
+            "E":"El tratamiento antibiótico como alternativa a cirugía es experimental y no el estándar en apendicitis aguda típica."
+          },
+          pearl:"Clinical Pearl: Alvarado ≥7 en hombres → cirugía directa. En mujeres en edad fértil (DD con embarazo ectópico, quiste ovárico), se prefiere ECO o TC antes de operar con Alvarado intermedio.",
+          reference:"Sabiston 21ª ed, Cap 51, pág 1302"
+        },
+        difficulty:2,
+        accuracyRate:75
+      }
+    ]
+  },
+  {
+    id:"psiq_001",
+    subject:"Psiquiatría",
+    subsubject:"Trastornos del ánimo",
+    title:"Trastorno Depresivo Mayor",
+    icon:"🧠",
+    gradFrom:"rgba(150,100,255,0.12)",
+    gradTo:"rgba(80,0,200,0.08)",
+    difficulty:"basico",
+    frequency:75,
+    studyTime:35,
+    summary:`
+      <h3>Criterios DSM-5</h3>
+      <p>≥5 síntomas durante ≥2 semanas, incluyendo obligatoriamente <strong>ánimo deprimido</strong> o <strong>anhedonia</strong>: ánimo deprimido, anhedonia, cambios de peso/apetito, insomnio/hipersomnia, agitación/enlentecimiento psicomotor, fatiga, culpa/inutilidad, dificultad para concentrarse, pensamientos de muerte.</p>
+      <h3>Tratamiento farmacológico</h3>
+      <p><strong>Primera línea:</strong> ISRS (fluoxetina, sertralina, escitalopram, paroxetina). <strong>Alternativas:</strong> IRSN (venlafaxina, duloxetina), bupropión (evitar si riesgo de convulsiones), mirtazapina. Los antidepresivos tardan <strong>2-4 semanas</strong> en mostrar efecto.</p>
+      <h3>Duración del tratamiento</h3>
+      <p>Primer episodio: mínimo 6-12 meses post-remisión. Segundo episodio: 2 años. Tercer episodio o factores de riesgo: tratamiento indefinido.</p>
+    `,
+    keyPoints:[
+      "Diagnóstico TDM: ≥5 síntomas por ≥2 semanas; OBLIGATORIO: ánimo deprimido O anhedonia",
+      "Primer episodio leve-moderado: psicoterapia (TCC) ± ISRS. Grave: siempre farmacoterapia",
+      "ISRS: primera línea. Fluoxetina (vida media larga = menor síndrome de discontinuación)",
+      "Antidepresivos: inicio de acción 2-4 semanas. Ensayo adecuado: 6-8 semanas a dosis terapéutica",
+      "Riesgo suicida: mayor al inicio del tratamiento (recupera energía antes que el ánimo)",
+      "Bupropión: contraindicado en anorexia/bulimia y riesgo de convulsiones"
+    ],
+    mnemonics:"Síntomas depresión: SIGECAPS (Sleep, Interest, Guilt, Energy, Concentration, Appetite, Psychomotor, Suicidal) + ánimo deprimido",
+    bibliography:"Kaplan & Sadock 12ª ed, Cap 8 (Trastornos del Ánimo), pág 320-380. DSM-5-TR.",
+    questions:[
+      {
+        id:"q_tdm_01",
+        text:"Mujer de 35 años con ánimo deprimido, anhedonia, insomnio y fatiga por 3 semanas. Sin antecedentes psiquiátricos. Funcionalidad deteriorada. ¿Cuál es el tratamiento de primera línea?",
+        options:["A) Amitriptilina (ATC)","B) Sertralina (ISRS)","C) Haloperidol","D) Alprazolam","E) Litio"],
+        correct:"B",
+        explanation:{
+          correct:"Los ISRS (sertralina, fluoxetina, escitalopram) son la primera línea en TDM por su eficacia demostrada y mejor perfil de seguridad vs antidepresivos más antiguos. Sertralina tiene buena tolerabilidad y bajo potencial de interacciones.",
+          incorrect:{
+            "A":"Los ATC tienen eficacia similar pero mayor toxicidad (anticolinérgicos, cardiotoxicidad en sobredosis). Son segunda o tercera línea.",
+            "C":"Los antipsicóticos no son el tratamiento primario del TDM no psicótico.",
+            "D":"Las benzodiacepinas no son antidepresivos; solo tratan la ansiedad y el insomnio de forma sintomática.",
+            "E":"El litio se usa como estabilizador del ánimo en TAB o como augmentation en depresión resistente."
+          },
+          pearl:"Clinical Pearl: Al iniciar ISRS, siempre advertir al paciente que el efecto antidepresivo tarda 2-4 semanas. En las primeras 2 semanas puede haber mayor ansiedad antes de mejorar el ánimo.",
+          reference:"Kaplan & Sadock 12ª ed, pág 342"
+        },
+        difficulty:2,
+        accuracyRate:80
+      }
+    ]
+  },
+  {
+    id:"urg_001",
+    subject:"Urgencias",
+    subsubject:"ACLS",
+    title:"Fibrilación Ventricular y PCR",
+    icon:"⚡",
+    gradFrom:"rgba(255,200,0,0.15)",
+    gradTo:"rgba(255,100,0,0.1)",
+    difficulty:"avanzado",
+    frequency:88,
+    studyTime:40,
+    summary:`
+      <h3>Algoritmo PCR - ACLS 2020</h3>
+      <p>Ante PCR: activar sistema de emergencias, iniciar <strong>RCP de alta calidad</strong> (30:2, compresiones ≥5cm, frecuencia 100-120/min, permitir retroceso completo, mínimas interrupciones). Conectar DEA lo antes posible.</p>
+      <h3>Ritmos desfibrilables: FV y TV sin pulso</h3>
+      <p><strong>Secuencia:</strong> 1 descarga → RCP 2min → verificar ritmo. Si persiste FV/TV: descarga → RCP 2min → adrenalina 1mg IV → RCP 2min → descarga → amiodarona 300mg IV → RCP 2min... Adrenalina cada 3-5 min. Amiodarona segunda dosis: 150mg.</p>
+      <h3>Ritmos no desfibrilables: AESP y Asistolia</h3>
+      <p>RCP continuo + adrenalina 1mg IV cada 3-5 min. Buscar y tratar causas reversibles: <strong>5H y 5T</strong>: Hipovolemia, Hipoxia, Hidrogenión (acidosis), Hipo/Hiperpotasemia, Hipotermia; Neumotórax a Tensión, Taponamiento, Tóxicos, Trombosis coronaria, Trombosis pulmonar.</p>
+    `,
+    keyPoints:[
+      "RCP: 30 compresiones : 2 ventilaciones, 100-120/min, ≥5cm profundidad, mínimas pausas",
+      "FV/TV sin pulso: DESFIBRILAR inmediatamente. Energía bifásica: 120-200J (monofásica: 360J)",
+      "Adrenalina 1mg IV cada 3-5 min en todo ritmo. Primera dosis: después de 2° ciclo si FV/TV",
+      "Amiodarona 300mg IV en FV/TV refractaria. Segunda dosis 150mg. Alternativa: lidocaína",
+      "5H y 5T: causas reversibles de PCR a buscar SIEMPRE en AESP/Asistolia",
+      "Después de RCE: cuidados post-resucitación: O2, ECG, PCI si SCA, control de temperatura"
+    ],
+    mnemonics:"5H: Hipovolemia, Hipoxia, H+ (acidosis), Hiper/HipoK+, Hipotermia. 5T: Tensión (neumotórax), Taponamiento, Tóxicos, Trombosis coronaria, Trombosis pulmonar",
+    bibliography:"AHA ACLS Guidelines 2020; Tintinalli 9ª ed, Cap 9.",
+    questions:[
+      {
+        id:"q_acls_01",
+        text:"Paciente en PCR, monitor muestra FV. Se realizan 2 ciclos de RCP (4 min). Se dan 2 descargas. Sigue en FV. ¿Cuál es el siguiente paso?",
+        options:["A) Amiodarona 300mg IV + continuar RCP","B) Adrenalina 1mg IV + continuar RCP","C) Atropina 1mg IV + continuar RCP","D) Lidocaína 1.5 mg/kg + desfibrilar","E) Suspender maniobras"],
+        correct:"B",
+        explanation:{
+          correct:"Según algoritmo ACLS 2020: después del 2° ciclo de RCP con FV persistente → descarga → RCP 2min → ADRENALINA 1mg IV. La amiodarona se da después de la 3ª descarga (en el 3er ciclo). Adrenalina es el primer fármaco.",
+          incorrect:{
+            "A":"La amiodarona 300mg se indica DESPUÉS de la 3ª descarga (3er ciclo), no del 2°.",
+            "C":"La atropina NO tiene indicación en FV ni TV sin pulso. Solo en bradicardia con pulso.",
+            "D":"Lidocaína es alternativa a amiodarona, no se usa antes de adrenalina.",
+            "E":"La PCR presenciada en FV es uno de los casos con mayor potencial de RCE; no suspender."
+          },
+          pearl:"Clinical Pearl: Secuencia fármacos en FV/TV: 1° Adrenalina (post 2° ciclo), luego Amiodarona (post 3° ciclo). Regla nemotécnica: A-A = Adrenalina primero, Amiodarona segundo.",
+          reference:"AHA ACLS 2020, Cardiac Arrest Circular; Tintinalli pág 82"
+        },
+        difficulty:4,
+        accuracyRate:50
+      }
+    ]
+  },
+  {
+    id:"nefro_001",
+    subject:"Medicina Interna",
+    subsubject:"Nefrología",
+    title:"Insuficiencia Renal Aguda",
+    icon:"🫘",
+    gradFrom:"rgba(0,200,150,0.12)",
+    gradTo:"rgba(0,150,100,0.08)",
+    difficulty:"intermedio",
+    frequency:82,
+    studyTime:40,
+    summary:`
+      <h3>Definición KDIGO</h3>
+      <p>Aumento de creatinina sérica ≥0.3 mg/dL en 48h, o ≥1.5x el valor basal en 7 días, o diuresis <0.5 mL/kg/h por ≥6h.</p>
+      <h3>Clasificación etiológica</h3>
+      <p><strong>Prerrenal (55-60%):</strong> hipoperfusión (hipovolemia, bajo gasto cardíaco). FeNa <1%, osmolaridad urinaria >500. <strong>Intrarenal (35-40%):</strong> NTA isquémica o nefrotóxica. FeNa >2%, cilindros granulosos en orina. <strong>Postrenal (5%):</strong> obstrucción. ECO: hidronefrosis.</p>
+      <h3>Tratamiento</h3>
+      <p>Prerrenal: reposición de volumen (SSN 0.9%). Renal: eliminar nefrotóxicos, optimizar hemodinamia. Postrenal: aliviar obstrucción. Diálisis si: K+ >6.5 refractario, acidosis grave, sobrecarga de volumen refractaria, uremia sintomática.</p>
+    `,
+    keyPoints:[
+      "Prerrenal: FeNa <1%, BUN/Cr >20, orina concentrada, responde a fluidos",
+      "NTA: FeNa >2%, cilindros granulosos pardos, no responde a fluidos",
+      "Diálisis urgente: K+ >6.5, acidosis severa, sobrecarga volumen, encefalopatía urémica",
+      "Principales nefrotóxicos: AINEs, aminoglucósidos, contraste yodado, IECA en estenosis AR bilateral",
+      "ECO renal: siempre en IRA de causa no clara (descarta obstrucción)",
+      "Síndrome cardiorrenal tipo 1: IC aguda → IRA"
+    ],
+    mnemonics:"FeNa <1% = Feliz (prerenal, riñón OK conservando Na). FeNa >2% = Feo (lesión tubular, riñón pierde Na)",
+    bibliography:"Harrison 21ª ed, Cap 308 (IRA), pág 2100-2125. KDIGO AKI Guidelines 2012.",
+    questions:[
+      {
+        id:"q_ira_01",
+        text:"Hombre 70a, HTA en IECA. Postoperatorio de cirugía abdominal mayor: creatinina basal 1.0, ahora 2.8 mg/dL. FeNa 0.4%, BUN/Cr 24. Sin obstrucción en ECO. ¿Diagnóstico más probable?",
+        options:["A) NTA por sepsis","B) IRA prerrenal","C) Nefritis intersticial aguda","D) Glomerulonefritis aguda","E) NTA nefrotóxica por IECA"],
+        correct:"B",
+        explanation:{
+          correct:"FeNa <1% (0.4%) + BUN/Cr >20 + contexto postquirúrgico (hipovolemia, bajo gasto) indica IRA prerrenal. El riñón está funcionalmente normal, conservando sodio. Tratamiento: reposición de volumen.",
+          incorrect:{
+            "A":"La NTA por sepsis da FeNa >2% con cilindros granulosos. Sin evidencia de sepsis aquí.",
+            "C":"La NIA generalmente tiene eosinofiluria, eosinofilia, asociada a fármacos. FeNa suele ser >2%.",
+            "D":"La GNA se presenta con hematuria, proteinuria y cilindros eritrocitarios.",
+            "E":"Los IECA pueden causar IRA funcional (prerrenal) por reducir presión de filtración, especialmente con hipovolemia o estenosis de arteria renal. Pero la FeNa <1% confirma prerrenal, no NTA."
+          },
+          pearl:"Clinical Pearl: IECA + hipovolemia = IRA prerrenal funcional. El IECA dilata la arteriola eferente, reduciendo la TFG cuando la presión de perfusión es baja. Solución: suspender IECA + reponer volumen.",
+          reference:"Harrison 21ª ed, pág 2107; KDIGO 2012"
+        },
+        difficulty:3,
+        accuracyRate:64
+      }
+    ]
+  }
+];
+
+// =============================================
+// ESTADO GLOBAL
+// =============================================
+let currentUser = null;
+let currentTopic = null;
+let currentQuizMode = null;
+let currentQuizQuestions = [];
+let currentQuizIndex = 0;
+let currentQuizAnswered = [];
+let quizTimer = null;
+let quizSeconds = 0;
+let deferredInstallPrompt = null;
+let adminLoggedIn = false;
+
+// Cupones válidos
+const COUPONS = {
+  "EARLYBIRD": { discount: 0.20, description: "20% OFF - Primeros usuarios" },
+  "CONAREM2026": { discount: 0.15, description: "15% OFF - Especial CONAREM" },
+  "MEDICO10": { discount: 0.10, description: "10% OFF - Médicos" },
+  "GRUPO5": { discount: 0.25, description: "25% OFF - Grupos de 5+" },
+  "REFERIDO": { discount: 0.30, description: "30% OFF - Por referido" }
+};
+
+// =============================================
+// INICIALIZACIÓN
+// =============================================
+window.addEventListener('load', () => {
+  // Simular carga
+  setTimeout(() => {
+    const splash = document.getElementById('splash');
+    splash.style.opacity = '0';
+    setTimeout(() => {
+      splash.style.display = 'none';
+      document.getElementById('app').classList.add('visible');
+      initApp();
+    }, 500);
+  }, 1800);
+});
+
+function initApp() {
+  // Cargar usuario guardado
+  const saved = localStorage.getItem('conaflix_session');
+  if (saved) {
+    currentUser = JSON.parse(saved);
+    updateNavForUser();
+  }
+
+  // Render carruseles
+  renderCarousel('carousel-interna', TOPICS_DATA.filter(t => t.subject === 'Medicina Interna'));
+  renderCarousel('carousel-cirugia', TOPICS_DATA.filter(t => t.subject === 'Cirugía'));
+  renderCarousel('carousel-pediatria', TOPICS_DATA.filter(t => t.subject === 'Pediatría'));
+  renderCarousel('carousel-gine', TOPICS_DATA.filter(t => t.subject === 'Ginecología'));
+
+  // Render all topics
+  renderAllTopics();
+  renderRanking();
+  renderDashboard();
+  renderPerfil();
+
+  // Cargar links de pago guardados
+  loadPayLinks();
+
+  // Inicializar QR canvas (ocultarlo hasta que haya link)
+  const qrCanvas = document.getElementById('qr-canvas');
+  if (qrCanvas) qrCanvas.style.display = 'none';
+
+  // Header scroll effect
+  window.addEventListener('scroll', () => {
+    const h = document.getElementById('main-header');
+    if (window.scrollY > 50) h.classList.add('scrolled');
+    else h.classList.remove('scrolled');
+  });
+
+  // PWA install prompt
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    // Mostrar banner después de 3 segundos
+    setTimeout(showInstallBanner, 3000);
+  });
+}
+
+// =============================================
+// NAVEGACIÓN
+// =============================================
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  const target = document.getElementById('screen-' + name);
+  if (target) {
+    target.classList.add('active');
+    window.scrollTo(0,0);
+  }
+
+  // Update sidebar
+  document.querySelectorAll('.sidebar-item').forEach(item => item.classList.remove('active'));
+  document.querySelectorAll('.bottom-nav-item').forEach(item => item.classList.remove('active'));
+
+  if (name === 'dashboard') renderDashboard();
+  if (name === 'perfil') renderPerfil();
+  if (name === 'ranking') renderRanking();
+  if (name === 'admin') renderAdminUsers();
+  if (name === 'precios') setTimeout(() => initCanvasAnimation('pricing-canvas'), 100);
+}
+
+// =============================================
+// RENDER CARRUSEL
+// =============================================
+function renderCarousel(containerId, topics) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = '';
+  topics.forEach(topic => {
+    container.appendChild(createTopicCard(topic));
+  });
+}
+
+function renderAllTopics(filter = 'all') {
+  const grid = document.getElementById('all-topics-grid');
+  if (!grid) return;
+  const filtered = filter === 'all' ? TOPICS_DATA : TOPICS_DATA.filter(t => t.subject.includes(filter) || t.subsubject.includes(filter));
+  grid.innerHTML = '';
+  filtered.forEach(topic => grid.appendChild(createTopicCard(topic)));
+}
+
+function filterCursos(filter, btn) {
+  document.querySelectorAll('#screen-cursos .modal-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  renderAllTopics(filter);
+}
+
+function createTopicCard(topic) {
+  const div = document.createElement('div');
+  div.className = 'topic-card';
+  const progress = getUserTopicProgress(topic.id);
+  div.innerHTML = `
+    <div class="card-thumb" style="--grad-from:${topic.gradFrom};--grad-to:${topic.gradTo}">
+      <span style="font-size:48px;position:relative;z-index:1">${topic.icon}</span>
+      <span class="card-difficulty diff-${topic.difficulty}">${topic.difficulty}</span>
+    </div>
+    <div class="card-body">
+      <div class="card-subject">${topic.subsubject}</div>
+      <div class="card-title">${topic.title}</div>
+      <div class="card-meta">
+        <span class="card-meta-item">⏱ ${topic.studyTime}min</span>
+        <span class="card-meta-item">📊 ${topic.frequency}% CONAREM</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${progress}%"></div></div>
+    </div>
+    <div class="card-freq"></div>
+  `;
+  div.onclick = () => openTopicModal(topic);
+  return div;
+}
+
+function getUserTopicProgress(topicId) {
+  if (!currentUser) return 0;
+  const users = getUsers();
+  const user = users.find(u => u.id === currentUser.id);
+  if (!user) return 0;
+  return user.completedTopics?.includes(topicId) ? 100 : 0;
+}
+
+// =============================================
+// MODAL DE TEMA
+// =============================================
+function openTopicModal(topic) {
+  currentTopic = topic;
+  document.getElementById('modal-subject').textContent = `${topic.subject} · ${topic.subsubject}`;
+  document.getElementById('modal-title').textContent = topic.title;
+  document.getElementById('modal-chips').innerHTML = `
+    <span class="chip accent">⏱ ${topic.studyTime} min</span>
+    <span class="chip">📊 ${topic.frequency}% CONAREM</span>
+    <span class="chip diff-${topic.difficulty} card-difficulty" style="border-radius:99px;padding:6px 12px;">${topic.difficulty}</span>
+    <span class="chip">📚 ${topic.bibliography.split(',')[0]}</span>
+  `;
+
+  // Resumen tab
+  document.getElementById('tab-resumen').innerHTML = `<div class="content-html">${topic.summary}</div>
+    ${topic.mnemonics ? `<div class="mnemonic-box"><div class="mnemonic-title">🧠 Mnemotecnia</div><div class="mnemonic-text">${topic.mnemonics}</div></div>` : ''}`;
+
+  // Puntos clave tab
+  document.getElementById('tab-clave').innerHTML = `<div style="margin-bottom:16px;font-size:14px;color:var(--text-muted)">Lo más preguntado en CONAREM:</div>` +
+    topic.keyPoints.map((kp, i) => `<div class="key-point"><strong>${i+1}.</strong> ${kp}</div>`).join('');
+
+  // Quiz tab
+  renderModalQuiz(topic);
+
+  // Bibliografía tab
+  document.getElementById('tab-biblio').innerHTML = `
+    <div class="content-html">
+      <h3>Referencia principal</h3>
+      <p><strong>${topic.bibliography}</strong></p>
+      <h4>Bibliografía complementaria CONAREM</h4>
+      <ul>
+        <li>Guías clínicas internacionales actualizadas (${new Date().getFullYear()})</li>
+        <li>Resúmenes CONAFLIX por docentes especializados</li>
+      </ul>
+      <div class="mnemonic-box" style="margin-top:20px">
+        <div class="mnemonic-title">📥 Material descargable</div>
+        <div class="mnemonic-text" style="font-size:14px;font-weight:400;margin-top:8px">Descargá el resumen completo de este tema en PDF con bibliografía y puntos clave para imprimir o estudiar offline.</div>
+      </div>
+    </div>`;
+
+  // Activar primera tab
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('tab-resumen').classList.add('active');
+  document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+  document.querySelector('.modal-tab').classList.add('active');
+
+  document.getElementById('topic-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeTopicModal() {
+  document.getElementById('topic-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+  currentTopic = null;
+}
+
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+// =============================================
+// QUIZ EN MODAL
+// =============================================
+function renderModalQuiz(topic) {
+  const container = document.getElementById('tab-quiz');
+  if (!topic.questions || topic.questions.length === 0) {
+    container.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted)">Preguntas próximamente...</div>';
+    return;
+  }
+
+  container.innerHTML = topic.questions.map((q, idx) => `
+    <div class="quiz-question" id="modal-q-${idx}">
+      <div class="quiz-num">Pregunta ${idx+1} de ${topic.questions.length} · ⭐ Dificultad ${q.difficulty}/5 · 📊 ${q.accuracyRate}% de acierto histórico</div>
+      <div class="quiz-text">${q.text}</div>
+      <div class="quiz-options">
+        ${q.options.map((opt, oi) => {
+          const letter = ['A','B','C','D','E'][oi];
+          return `<div class="quiz-option" id="modal-opt-${idx}-${letter}" onclick="answerModalQuestion(${idx},'${letter}','${q.correct}')">
+            <span class="opt-letter">${letter}</span>
+            <span>${opt}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      <div class="explanation-box" id="modal-exp-${idx}">
+        <div class="exp-correct">✓ Respuesta correcta: ${q.correct}) ${q.options[['A','B','C','D','E'].indexOf(q.correct)]}</div>
+        <div class="exp-text"><strong>¿Por qué es correcta?</strong><br>${q.explanation.correct}</div>
+        ${q.explanation.pearl ? `<div class="pearl-box">💎 ${q.explanation.pearl}</div>` : ''}
+        <div class="exp-text" style="margin-top:12px"><strong>📚 Referencia:</strong> ${q.explanation.reference}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function answerModalQuestion(idx, selected, correct) {
+  const q = currentTopic.questions[idx];
+  const letters = ['A','B','C','D','E'];
+
+  // Mark options
+  letters.forEach((l, li) => {
+    const optEl = document.getElementById(`modal-opt-${idx}-${l}`);
+    if (!optEl) return;
+    optEl.classList.add('answered');
+    if (l === correct) optEl.classList.add('correct');
+    else if (l === selected && selected !== correct) optEl.classList.add('incorrect');
+    else optEl.classList.add('dimmed');
+    optEl.style.pointerEvents = 'none';
+  });
+
+  // Show explanation
+  document.getElementById(`modal-exp-${idx}`).classList.add('show');
+
+  // Award points
+  if (currentUser && selected === correct) {
+    awardPoints(5, '¡Respuesta correcta! +5 puntos');
+  } else if (currentUser) {
+    awardPoints(1, 'Seguí intentando +1 punto');
+  }
+}
+
+// =============================================
+// QUIZ MODO PRACTICE
+// =============================================
+function startQuiz(mode) {
+  currentQuizMode = mode;
+  currentQuizQuestions = [];
+  currentQuizIndex = 0;
+  currentQuizAnswered = [];
+  quizSeconds = 0;
+
+  // Recopilar preguntas de todos los temas
+  let allQuestions = [];
+  TOPICS_DATA.forEach(t => {
+    if (t.questions) t.questions.forEach(q => allQuestions.push({...q, topicTitle: t.title}));
+  });
+
+  // Shuffle
+  allQuestions = allQuestions.sort(() => Math.random() - 0.5);
+  currentQuizQuestions = allQuestions.slice(0, Math.min(10, allQuestions.length));
+
+  document.getElementById('quiz-area').style.display = 'block';
+  document.getElementById('quiz-results').style.display = 'none';
+
+  const modeLabels = {estudio:'🎯 Modo Estudio', examen:'⏱️ Modo Examen', repaso:'📊 Modo Repaso', random:'🔀 Aleatorio'};
+  document.getElementById('quiz-mode-label').textContent = modeLabels[mode] || mode;
+  document.getElementById('quiz-total-num').textContent = currentQuizQuestions.length;
+
+  // Timer
+  if (quizTimer) clearInterval(quizTimer);
+  quizTimer = setInterval(() => {
+    quizSeconds++;
+    const m = Math.floor(quizSeconds/60).toString().padStart(2,'0');
+    const s = (quizSeconds%60).toString().padStart(2,'0');
+    const timerEl = document.getElementById('quiz-timer');
+    if (timerEl) timerEl.textContent = `${m}:${s}`;
+  }, 1000);
+
+  renderCurrentQuestion();
+}
+
+function renderCurrentQuestion() {
+  const q = currentQuizQuestions[currentQuizIndex];
+  if (!q) { endQuiz(); return; }
+
+  document.getElementById('quiz-current-num').textContent = currentQuizIndex + 1;
+  const pct = ((currentQuizIndex + 1) / currentQuizQuestions.length) * 100;
+  document.getElementById('quiz-progress-bar').style.width = pct + '%';
+  document.getElementById('quiz-next-btn').style.display = 'none';
+
+  const container = document.getElementById('quiz-questions-container');
+  container.innerHTML = `
+    <div class="quiz-question">
+      <div class="quiz-num">Pregunta ${currentQuizIndex+1} · ${q.topicTitle}</div>
+      <div class="quiz-text">${q.text}</div>
+      <div class="quiz-options">
+        ${q.options.map((opt, oi) => {
+          const letter = ['A','B','C','D','E'][oi];
+          return `<div class="quiz-option" id="pq-opt-${letter}" onclick="answerPracticeQuestion('${letter}','${q.correct}')">
+            <span class="opt-letter">${letter}</span>
+            <span>${opt}</span>
+          </div>`;
+        }).join('')}
+      </div>
+      <div class="explanation-box" id="pq-exp">
+        <div class="exp-correct">✓ Correcta: ${q.correct}) ${q.options[['A','B','C','D','E'].indexOf(q.correct)]}</div>
+        <div class="exp-text">${q.explanation.correct}</div>
+        ${q.explanation.pearl ? `<div class="pearl-box">💎 ${q.explanation.pearl}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+function answerPracticeQuestion(selected, correct) {
+  const letters = ['A','B','C','D','E'];
+  letters.forEach(l => {
+    const el = document.getElementById(`pq-opt-${l}`);
+    if (!el) return;
+    el.classList.add('answered');
+    if (l === correct) el.classList.add('correct');
+    else if (l === selected && selected !== correct) el.classList.add('incorrect');
+    else el.classList.add('dimmed');
+    el.style.pointerEvents = 'none';
+  });
+
+  currentQuizAnswered.push({ selected, correct, isCorrect: selected === correct });
+
+  if (currentQuizMode === 'estudio') {
+    document.getElementById('pq-exp').classList.add('show');
+  }
+
+  if (currentUser) {
+    awardPoints(selected === correct ? 5 : 1, selected === correct ? '¡Correcto! +5pts' : '+1pt por intentar');
+  }
+
+  document.getElementById('quiz-next-btn').style.display = 'inline-block';
+}
+
+function nextQuestion() {
+  currentQuizIndex++;
+  if (currentQuizIndex >= currentQuizQuestions.length) {
+    endQuiz();
+  } else {
+    renderCurrentQuestion();
+  }
+}
+
+function endQuiz() {
+  if (quizTimer) { clearInterval(quizTimer); quizTimer = null; }
+  document.getElementById('quiz-area').style.display = 'none';
+
+  const correct = currentQuizAnswered.filter(a => a.isCorrect).length;
+  const total = currentQuizAnswered.length || 1;
+  const pct = Math.round((correct / total) * 100);
+
+  const emojis = pct >= 90 ? '🏆' : pct >= 70 ? '🎉' : pct >= 50 ? '😊' : '💪';
+  const titles = pct >= 90 ? '¡Excelente! Estás listo para el CONAREM' : pct >= 70 ? '¡Muy buen resultado!' : pct >= 50 ? 'Buen esfuerzo, seguí practicando' : 'Necesitás repasar más este tema';
+
+  document.getElementById('results-emoji').textContent = emojis;
+  document.getElementById('results-score').textContent = pct + '%';
+  document.getElementById('results-title').textContent = titles;
+  document.getElementById('results-detail').textContent = `${correct} de ${total} preguntas correctas · Tiempo: ${Math.floor(quizSeconds/60)}min ${quizSeconds%60}s`;
+  document.getElementById('quiz-results').style.display = 'block';
+
+  if (pct >= 80 && currentUser) awardPoints(20, `¡Simulacro >80%! +20 puntos`);
+}
+
+function startSimulacro() {
+  showToast('🏆 Simulacro', 'Iniciando 10 preguntas demo (el real tiene 200)');
+  startQuiz('examen');
+}
+
+// =============================================
+// RANKING
+// =============================================
+function renderRanking() {
+  const list = document.getElementById('ranking-list');
+  if (!list) return;
+
+  const rankData = [
+    { pos:1, alias:"DrCardio_PY", pts:5820, spec:"Cardiología", badge:"🏅" },
+    { pos:2, alias:"MedResidente22", pts:5210, spec:"Medicina Interna", badge:"🥇" },
+    { pos:3, alias:"TopPediatría", pts:4990, spec:"Pediatría", badge:"🥈" },
+    { pos:4, alias:"FutureCirujano", pts:4750, spec:"Cirugía", badge:"🥉" },
+    { pos:5, alias:"GineExpert_PY", pts:4320, spec:"Ginecología", badge:"⭐" },
+    { pos:6, alias:"NeuroMedic", pts:3980, spec:"Neurología", badge:"⭐" },
+    { pos:7, alias:"PsiqMaster", pts:3720, spec:"Psiquiatría", badge:"⭐" },
+    { pos:8, alias:"UrgenciasPro", pts:3450, spec:"Urgencias", badge:"⭐" },
+    { pos:9, alias:"InfernoDoc", pts:3200, spec:"Medicina Familiar", badge:"⭐" },
+    { pos:10, alias:"CONAREM2026", pts:2980, spec:"Salud Pública", badge:"⭐" }
+  ];
+
+  // Add current user if logged in
+  if (currentUser) {
+    const users = getUsers();
+    const user = users.find(u => u.id === currentUser.id);
+    if (user) {
+      document.getElementById('my-rank-pos').textContent = '#' + (rankData.length + 1);
+      document.getElementById('my-rank-name').textContent = user.name || 'Tú';
+      document.getElementById('my-rank-pts').textContent = (user.points || 0) + ' puntos';
+    }
+  }
+
+  list.innerHTML = rankData.map(r => {
+    const posClass = r.pos === 1 ? 'gold' : r.pos === 2 ? 'silver' : r.pos === 3 ? 'bronze' : '';
+    const cardClass = r.pos === 1 ? 'top1' : r.pos === 2 ? 'top2' : r.pos === 3 ? 'top3' : '';
+    return `
+      <div class="ranking-item ${cardClass}">
+        <div class="rank-pos ${posClass}">${r.pos === 1 ? '👑' : r.pos}</div>
+        <div class="rank-info">
+          <div class="rank-alias">${r.alias}</div>
+          <div class="rank-spec">${r.spec}</div>
+        </div>
+        <div class="rank-points">${r.pts.toLocaleString()}</div>
+        <div class="rank-badge">${r.badge}</div>
+      </div>`;
+  }).join('');
+}
+
+// =============================================
+// DASHBOARD
+// =============================================
+function renderDashboard() {
+  const statsEl = document.getElementById('dashboard-stats');
+  const subjectEl = document.getElementById('subject-progress');
+  const iaEl = document.getElementById('ia-recommendations');
+  if (!statsEl) return;
+
+  const users = getUsers();
+  const user = currentUser ? users.find(u => u.id === currentUser.id) : null;
+  const pts = user?.points || 0;
+  const streak = user?.streak || 0;
+  const completed = user?.completedTopics?.length || 0;
+
+  const daysLeft = getDaysToExam();
+
+  statsEl.innerHTML = `
+    <div class="stat-card"><div class="stat-card-icon">🏆</div><div class="stat-card-value">${pts}</div><div class="stat-card-label">Puntos totales</div></div>
+    <div class="stat-card"><div class="stat-card-icon">🔥</div><div class="stat-card-value">${streak}</div><div class="stat-card-label">Días de racha</div></div>
+    <div class="stat-card"><div class="stat-card-icon">✅</div><div class="stat-card-value">${completed}</div><div class="stat-card-label">Temas completados</div></div>
+    <div class="stat-card"><div class="stat-card-icon">📅</div><div class="stat-card-value">${daysLeft}</div><div class="stat-card-label">Días al CONAREM</div></div>
+  `;
+
+  const subjects = [
+    { icon:"🫀", name:"Medicina Interna", pct: user ? 35 : 0 },
+    { icon:"🔪", name:"Cirugía General", pct: user ? 20 : 0 },
+    { icon:"👶", name:"Pediatría", pct: user ? 50 : 0 },
+    { icon:"🤰", name:"Ginecología/Obs", pct: user ? 15 : 0 },
+    { icon:"🧠", name:"Psiquiatría", pct: user ? 60 : 0 },
+    { icon:"⚡", name:"Urgencias", pct: user ? 40 : 0 },
+    { icon:"🏥", name:"Salud Pública", pct: user ? 25 : 0 },
+  ];
+
+  subjectEl.innerHTML = subjects.map(s => `
+    <div class="progress-subject">
+      <div class="ps-icon">${s.icon}</div>
+      <div class="ps-info">
+        <div class="ps-name">${s.name}</div>
+        <div class="ps-bar"><div class="ps-fill" style="width:${s.pct}%"></div></div>
+      </div>
+      <div class="ps-pct">${s.pct}%</div>
+    </div>
+  `).join('');
+
+  const recs = user ? [
+    '💡 Cardiología es tu asignatura más fuerte. ¡Seguí así!',
+    '⚠️ Dedicá más tiempo a Ginecología/Obstetricia esta semana (15% completado)',
+    `🎯 Tu puntaje estimado CONAREM: ${Math.min(95, 50 + Math.floor(pts/50))}%`,
+    `📅 Quedan ${daysLeft} días. Estudiá al menos 2 temas por día para llegar al 100%`
+  ] : [
+    '🔐 Iniciá sesión para ver tus recomendaciones personalizadas',
+    '📚 Completá al menos 3 temas para que la IA genere tu plan de estudio'
+  ];
+
+  iaEl.innerHTML = recs.map(r => `<div class="key-point" style="margin-bottom:10px">${r}</div>`).join('');
+}
+
+// =============================================
+// PERFIL
+// =============================================
+function renderPerfil() {
+  const loggedOut = document.getElementById('perfil-logged-out');
+  const content = document.getElementById('perfil-content');
+  if (!loggedOut || !content) return;
+
+  if (!currentUser) {
+    loggedOut.style.display = 'block';
+    content.style.display = 'none';
+    return;
+  }
+
+  loggedOut.style.display = 'none';
+  content.style.display = 'block';
+
+  const users = getUsers();
+  const user = users.find(u => u.id === currentUser.id) || currentUser;
+
+  document.getElementById('perfil-name').textContent = user.name || 'Usuario';
+  document.getElementById('perfil-email').textContent = user.email || '';
+  document.getElementById('perfil-level').textContent = getLevel(user.points || 0);
+  document.getElementById('perfil-points').textContent = (user.points || 0) + ' pts';
+  document.getElementById('perfil-streak').textContent = `🔥 ${user.streak || 0} días`;
+
+  // Badges
+  const allBadges = [
+    { icon:"📚", name:"Lector", desc:"20 temas", earned: (user.completedTopics?.length || 0) >= 20 },
+    { icon:"🎯", name:"Precisión", desc:"90%+ simulacro", earned: false },
+    { icon:"🔥", name:"Racha 30d", desc:"30 días", earned: (user.streak || 0) >= 30 },
+    { icon:"💪", name:"Resiliente", desc:"Regresó", earned: false },
+    { icon:"🏅", name:"TOP 10", desc:"Ranking top", earned: false },
+    { icon:"⚡", name:"Velocista", desc:"100q en 1h", earned: false },
+    { icon:"🧠", name:"Maestro", desc:"95%+ 5 temas", earned: false },
+    { icon:"📖", name:"Bibliófilo", desc:"Toda la biblio", earned: false },
+    { icon:"🤝", name:"Mentor", desc:"10 referidos", earned: false },
+    { icon:"🎓", name:"Graduado", desc:"100% contenido", earned: (user.completedTopics?.length || 0) >= TOPICS_DATA.length }
+  ];
+
+  document.getElementById('badges-grid').innerHTML = allBadges.map(b => `
+    <div class="badge-item ${b.earned ? '' : 'locked'}">
+      <div class="badge-icon">${b.icon}</div>
+      <div class="badge-name">${b.name}</div>
+      <div style="font-size:10px;color:var(--text-muted)">${b.desc}</div>
+    </div>
+  `).join('');
+}
+
+function getLevel(points) {
+  if (points >= 5001) return '🏅 TOP 10';
+  if (points >= 3001) return '👑 Fellow';
+  if (points >= 1501) return '🥇 Especialista';
+  if (points >= 501) return '🥈 Residente Senior';
+  return '🥉 Residente Junior';
+}
+
+// =============================================
+// AUTENTICACIÓN
+// =============================================
+function showAuthModal(mode) {
+  document.getElementById('auth-modal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  toggleAuthMode(mode);
+}
+
+function closeAuthModal() {
+  document.getElementById('auth-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+function toggleAuthMode(mode) {
+  const loginForm = document.getElementById('login-form');
+  const regForm = document.getElementById('register-form');
+  const subtitle = document.getElementById('auth-subtitle');
+  if (mode === 'login') {
+    loginForm.style.display = 'block';
+    regForm.style.display = 'none';
+    subtitle.textContent = 'Ingresá a tu cuenta';
+  } else {
+    loginForm.style.display = 'none';
+    regForm.style.display = 'block';
+    subtitle.textContent = 'Creá tu cuenta gratis';
+  }
+}
+
+function doLogin() {
+  const email = document.getElementById('login-email').value.trim();
+  const pass = document.getElementById('login-pass').value;
+  if (!email || !pass) { showToast('Error', 'Completá todos los campos', true); return; }
+
+  const users = getUsers();
+  const user = users.find(u => u.email === email && u.password === btoa(pass));
+
+  if (!user) {
+    showToast('Error', 'Email o contraseña incorrectos', true);
+    return;
+  }
+
+  // Update streak
+  const today = new Date().toDateString();
+  const lastLogin = user.lastLogin ? new Date(user.lastLogin).toDateString() : null;
+  if (lastLogin !== today) {
+    user.streak = (user.streak || 0) + 1;
+    user.lastLogin = new Date().toISOString();
+    saveUsers(users);
+  }
+
+  currentUser = user;
+  localStorage.setItem('conaflix_session', JSON.stringify(user));
+  closeAuthModal();
+  updateNavForUser();
+  renderDashboard();
+  renderPerfil();
+  showToast('¡Bienvenido!', `Hola, ${user.name} 👋`);
+}
+
+function doRegister() {
+  const name = document.getElementById('reg-name').value.trim();
+  const email = document.getElementById('reg-email').value.trim();
+  const pass = document.getElementById('reg-pass').value;
+
+  if (!name || !email || !pass) { showToast('Error', 'Completá todos los campos', true); return; }
+  if (pass.length < 6) { showToast('Error', 'La contraseña debe tener al menos 6 caracteres', true); return; }
+
+  const users = getUsers();
+  if (users.find(u => u.email === email)) {
+    showToast('Error', 'Ese email ya está registrado', true); return;
+  }
+
+  const newUser = {
+    id: 'user_' + Date.now(),
+    name, email,
+    password: btoa(pass),
+    isPremium: false,
+    points: 0, streak: 1,
+    completedTopics: [], quizScores: [], badges: [],
+    lastLogin: new Date().toISOString()
+  };
+
+  users.push(newUser);
+  saveUsers(users);
+  currentUser = newUser;
+  localStorage.setItem('conaflix_session', JSON.stringify(newUser));
+  closeAuthModal();
+  updateNavForUser();
+  showToast('¡Cuenta creada!', `Bienvenido ${name} 🎉 +10 pts por registrarte`);
+  awardPoints(10, 'Registro completado');
+  renderPerfil();
+}
+
+function logout() {
+  currentUser = null;
+  localStorage.removeItem('conaflix_session');
+  updateNavForUser();
+  renderPerfil();
+  renderDashboard();
+  showScreen('home');
+  showToast('Hasta luego', 'Tu sesión fue cerrada correctamente');
+}
+
+function updateNavForUser() {
+  const area = document.getElementById('auth-nav-area');
+  if (currentUser) {
+    area.innerHTML = `<button class="nav-btn" onclick="showScreen('dashboard')">📊</button>
+      <button class="btn-primary-sm" onclick="showScreen('perfil')">${currentUser.name?.split(' ')[0] || 'Mi cuenta'}</button>`;
+  } else {
+    area.innerHTML = `<button class="btn-primary-sm" onclick="showScreen('precios')">🎬 Suscribirse</button>
+      <button class="nav-btn" onclick="showAuthModal('login')">Ingresar</button>`;
+  }
+}
+
+// =============================================
+// STORAGE HELPERS
+// =============================================
+function getUsers() {
+  return JSON.parse(localStorage.getItem('conaflix_users') || '[]');
+}
+function saveUsers(users) {
+  localStorage.setItem('conaflix_users', JSON.stringify(users));
+}
+
+function getPayLinks() {
+  return JSON.parse(localStorage.getItem('conaflix_paylinks') || '{}');
+}
+
+// =============================================
+// PUNTOS Y GAMIFICACIÓN
+// =============================================
+function awardPoints(pts, msg) {
+  if (!currentUser) return;
+  const users = getUsers();
+  const idx = users.findIndex(u => u.id === currentUser.id);
+  if (idx === -1) return;
+  users[idx].points = (users[idx].points || 0) + pts;
+  currentUser.points = users[idx].points;
+  saveUsers(users);
+  localStorage.setItem('conaflix_session', JSON.stringify(currentUser));
+  showToast('🎯 ' + msg, `Total: ${currentUser.points} pts`);
+}
+
+function markTopicComplete() {
+  if (!currentUser) { showAuthModal('login'); return; }
+  if (!currentTopic) return;
+  const users = getUsers();
+  const idx = users.findIndex(u => u.id === currentUser.id);
+  if (idx === -1) return;
+  if (!users[idx].completedTopics.includes(currentTopic.id)) {
+    users[idx].completedTopics.push(currentTopic.id);
+    saveUsers(users);
+    currentUser = users[idx];
+    localStorage.setItem('conaflix_session', JSON.stringify(currentUser));
+    awardPoints(10, `Tema completado: ${currentTopic.title}`);
+    showToast('✅ Tema completado', `+10 puntos · ${currentTopic.title}`);
+  } else {
+    showToast('ℹ️ Ya completado', 'Este tema ya está marcado como completado');
+  }
+  closeTopicModal();
+}
+
+// =============================================
+// PRECIOS Y CUPONES
+// =============================================
+let currentPricingMode = 'mensual';
+let appliedDiscount = 0;
+const PRICES = { mensual: 29.99, anual: 199.99 };
+
+function togglePricing(mode) {
+  currentPricingMode = mode;
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById(`toggle-${mode}`).classList.add('active');
+
+  if (mode === 'mensual') {
+    document.getElementById('card-mensual').classList.remove('hidden');
+    document.getElementById('card-anual').classList.add('hidden');
+  } else {
+    document.getElementById('card-mensual').classList.add('hidden');
+    document.getElementById('card-anual').classList.remove('hidden');
+  }
+}
+
+function applyCoupon() {
+  const code = document.getElementById('coupon-input').value.trim().toUpperCase();
+  const msgEl = document.getElementById('coupon-msg');
+  applyCouponLogic(code, msgEl, 'mensual');
+}
+
+function applyCouponAnual() {
+  const code = document.getElementById('coupon-input-anual').value.trim().toUpperCase();
+  const msgEl = document.getElementById('coupon-msg-anual');
+  applyCouponLogic(code, msgEl, 'anual');
+}
+
+function applyCouponLogic(code, msgEl, plan) {
+  if (!code) return;
+  const coupon = COUPONS[code];
+  if (!coupon) {
+    msgEl.className = 'coupon-msg error';
+    msgEl.textContent = '❌ Cupón inválido o expirado';
+    return;
+  }
+  appliedDiscount = coupon.discount;
+  const originalPrice = PRICES[plan];
+  const newPrice = (originalPrice * (1 - appliedDiscount)).toFixed(2);
+  msgEl.className = 'coupon-msg success';
+  msgEl.textContent = `✅ ${coupon.description} — Nuevo precio: $${newPrice} USD`;
+
+  if (plan === 'mensual') document.getElementById('price-display-mensual').textContent = newPrice;
+  else document.getElementById('price-display-anual').textContent = newPrice;
+}
+
+function openPayment(type) {
+  const links = getPayLinks();
+  let url = '';
+  if (type === 'stripe') url = links.stripeMensual || '';
+  else if (type === 'stripe-anual') url = links.stripeAnual || '';
+  else if (type === 'paypal') url = links.paypalMensual || '';
+  else if (type === 'paypal-anual') url = links.paypalAnual || '';
+
+  if (!url) {
+    showToast('⚙️ Sin configurar', 'Este método de pago aún no fue configurado. Contactá al soporte por WhatsApp o usá la transferencia bancaria.');
+    return;
+  }
+  window.open(url, '_blank');
+}
+
+function openWhatsApp(tipo) {
+  // Número fijo de WhatsApp Business CONAFLIX
+  const WS_NUMBER = '5516988489395';
+
+  let msg = 'Hola! Me interesa suscribirme a CONAFLIX. ¿Me pueden dar más información?';
+  if (tipo === 'suscribir') {
+    msg = '¡Hola CONAFLIX! 🩺 Quiero suscribirme. ¿Pueden enviarme el link de pago? Gracias!';
+  } else if (tipo === 'soporte') {
+    msg = '¡Hola CONAFLIX! Necesito ayuda con mi cuenta. 🙏';
+  } else if (tipo === 'mensual') {
+    msg = '¡Hola CONAFLIX! 🩺 Quiero el plan MENSUAL ($29.99 USD). ¿Me envían el link de pago?';
+  } else if (tipo === 'anual') {
+    msg = '¡Hola CONAFLIX! 🩺 Quiero el plan ANUAL ($199.99 USD). ¿Me envían el link de pago?';
+  }
+
+  const url = `https://wa.me/${WS_NUMBER}?text=${encodeURIComponent(msg)}`;
+  window.open(url, '_blank');
+}
+
+// Genera QR visual usando canvas (algoritmo simplificado para URLs)
+function generateQR(text, canvas) {
+  if (!canvas || !text) return;
+  const ctx = canvas.getContext('2d');
+  const size = canvas.width;
+  // Generar patrón QR simplificado (para demo visual)
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0,0,size,size);
+  ctx.fillStyle = '#000000';
+
+  // Usar hash del texto para generar patrón visual consistente
+  const hash = Array.from(text).reduce((a,c) => ((a<<5)-a)+c.charCodeAt(0)|0, 0);
+  const modules = 21;
+  const cellSize = Math.floor(size / modules);
+
+  // Finder patterns (esquinas)
+  const drawFinder = (x,y) => {
+    ctx.fillRect(x*cellSize,y*cellSize,7*cellSize,7*cellSize);
+    ctx.fillStyle='#fff'; ctx.fillRect((x+1)*cellSize,(y+1)*cellSize,5*cellSize,5*cellSize);
+    ctx.fillStyle='#000'; ctx.fillRect((x+2)*cellSize,(y+2)*cellSize,3*cellSize,3*cellSize);
+  };
+  drawFinder(0,0); drawFinder(14,0); drawFinder(0,14);
+
+  // Data modules basados en hash + texto
+  const seed = Math.abs(hash);
+  let s = seed;
+  for(let r=0;r<modules;r++) {
+    for(let c=0;c<modules;c++) {
+      if((r<9&&c<9)||(r<9&&c>12)||(r>12&&c<9)) continue; // saltar finder patterns
+      s = (s * 1103515245 + 12345) & 0x7fffffff;
+      const charCode = text.charCodeAt((r*modules+c) % text.length) || 65;
+      if((s ^ charCode) % 3 !== 0) {
+        ctx.fillStyle='#000';
+        ctx.fillRect(c*cellSize, r*cellSize, cellSize, cellSize);
+      }
+    }
+  }
+
+  // Centro con logo CONAFLIX
+  const cx = size/2 - 12; const cy = size/2 - 8;
+  ctx.fillStyle='#fff'; ctx.fillRect(cx-4, cy-4, 32, 24);
+  ctx.fillStyle='#000'; ctx.font='bold 9px Arial'; ctx.fillText('CNX', cx, cy+12);
+}
+
+// =============================================
+// ADMIN
+// =============================================
+function adminLogin() {
+  const pass = document.getElementById('admin-pass-input').value;
+  const savedPass = localStorage.getItem('conaflix_admin_pass') || 'admin123';
+  if (pass === savedPass) {
+    adminLoggedIn = true;
+    document.getElementById('admin-login-area').style.display = 'none';
+    document.getElementById('admin-panel-area').style.display = 'block';
+    renderAdminUsers();
+    loadPayLinks();
+  } else {
+    showToast('Error', 'Contraseña incorrecta', true);
+  }
+}
+
+function adminLogout() {
+  adminLoggedIn = false;
+  document.getElementById('admin-login-area').style.display = 'block';
+  document.getElementById('admin-panel-area').style.display = 'none';
+  document.getElementById('admin-pass-input').value = '';
+}
+
+function renderAdminUsers() {
+  if (!adminLoggedIn) return;
+  const users = getUsers();
+  const tbody = document.getElementById('admin-users-body');
+  if (!tbody) return;
+
+  if (users.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted)">Sin usuarios registrados aún</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = users.map(u => `
+    <tr>
+      <td>${u.name || '—'}</td>
+      <td>${u.email}</td>
+      <td><span class="chip ${u.isPremium ? 'accent' : ''}">${u.isPremium ? '✅ Premium' : '🆓 Free'}</span></td>
+      <td>${u.points || 0}</td>
+      <td>🔥 ${u.streak || 0} días</td>
+      <td>${u.lastLogin ? new Date(u.lastLogin).toLocaleDateString('es') : '—'}</td>
+    </tr>
+  `).join('');
+}
+
+function activateUser() {
+  const email = document.getElementById('activate-email').value.trim();
+  const plan = document.getElementById('activate-plan').value;
+  if (!email) { showToast('Error', 'Ingresá el email del usuario', true); return; }
+
+  const users = getUsers();
+  const idx = users.findIndex(u => u.email === email);
+  if (idx === -1) { showToast('Error', 'Usuario no encontrado', true); return; }
+
+  users[idx].isPremium = true;
+  users[idx].plan = plan;
+  users[idx].purchaseDate = new Date().toISOString();
+  saveUsers(users);
+  renderAdminUsers();
+  showToast('✅ Activado', `Usuario ${email} activado con plan ${plan}`);
+}
+
+function savePayLinks() {
+  const links = {
+    stripeMensual: document.getElementById('link-stripe-mensual')?.value.trim() || '',
+    stripeAnual: document.getElementById('link-stripe-anual')?.value.trim() || '',
+    paypalMensual: document.getElementById('link-paypal-mensual')?.value.trim() || '',
+    paypalAnual: document.getElementById('link-paypal-anual')?.value.trim() || '',
+    qrLink: document.getElementById('link-qr')?.value.trim() || '',
+    whatsapp: document.getElementById('link-whatsapp')?.value.trim() || '',
+    bancoBanco: document.getElementById('banco-nombre')?.value.trim() || '',
+    bancoCuenta: document.getElementById('banco-cuenta')?.value.trim() || '',
+    bancoTitular: document.getElementById('banco-titular')?.value.trim() || '',
+    bancoCI: document.getElementById('banco-ci')?.value.trim() || ''
+  };
+  localStorage.setItem('conaflix_paylinks', JSON.stringify(links));
+  updatePreciosFromLinks(links);
+  showToast('💾 Guardado', 'Configuración de pagos actualizada correctamente');
+}
+
+function loadPayLinks() {
+  const links = getPayLinks();
+  const setVal = (id, val) => { const el=document.getElementById(id); if(el&&val) el.value=val; };
+  setVal('link-stripe-mensual', links.stripeMensual);
+  setVal('link-stripe-anual', links.stripeAnual);
+  setVal('link-paypal-mensual', links.paypalMensual);
+  setVal('link-paypal-anual', links.paypalAnual);
+  setVal('link-qr', links.qrLink);
+  setVal('link-whatsapp', links.whatsapp);
+  setVal('banco-nombre', links.bancoBanco);
+  setVal('banco-cuenta', links.bancoCuenta);
+  setVal('banco-titular', links.bancoTitular);
+  setVal('banco-ci', links.bancoCI);
+  updatePreciosFromLinks(links);
+}
+
+function updatePreciosFromLinks(links) {
+  // Actualizar datos de transferencia en pantalla de precios
+  const setText = (id, val, fallback) => { const el=document.getElementById(id); if(el) el.textContent=val||fallback; };
+  setText('td-banco', links.bancoBanco, '[configurar en Admin]');
+  setText('td-cuenta', links.bancoCuenta, '[configurar en Admin]');
+  setText('td-titular', links.bancoTitular, '[configurar en Admin]');
+  setText('td-ci', links.bancoCI, '[configurar en Admin]');
+
+  const ws = links.whatsapp || '[TU NÚMERO]';
+  const wsEls = ['ws-num-qr','ws-num-transfer'];
+  wsEls.forEach(id => { const el=document.getElementById(id); if(el) el.textContent=ws; });
+
+  // Generar QR si hay link
+  const qrCanvas = document.getElementById('qr-canvas');
+  const qrPlaceholder = document.getElementById('qr-placeholder');
+  if (links.qrLink && qrCanvas) {
+    qrCanvas.style.display = 'block';
+    if(qrPlaceholder) qrPlaceholder.style.display = 'none';
+    generateQR(links.qrLink, qrCanvas);
+  } else if (qrCanvas) {
+    qrCanvas.style.display = 'none';
+    if(qrPlaceholder) qrPlaceholder.style.display = 'flex';
+  }
+}
+
+function resetAllData() {
+  if (!confirm('⚠️ ¿Seguro que querés borrar TODOS los datos? Esta acción no se puede deshacer.')) return;
+  if (!confirm('🛑 Última advertencia: todos los usuarios y datos serán eliminados permanentemente.')) return;
+  localStorage.clear();
+  currentUser = null;
+  showToast('✅ Reset completado', 'Todos los datos fueron eliminados');
+  adminLogout();
+  updateNavForUser();
+}
+
+// =============================================
+// PDF GENERACIÓN (jsPDF)
+// =============================================
+function downloadPDF() {
+  if (!currentTopic) return;
+
+  try {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: 'a4' });
+
+    const pageW = doc.internal.pageSize.getWidth();
+    const pageH = doc.internal.pageSize.getHeight();
+    const margin = 20;
+    let y = margin;
+
+    // Header
+    doc.setFillColor(0, 196, 255);
+    doc.rect(0, 0, pageW, 30, 'F');
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(22);
+    doc.setFont('helvetica', 'bold');
+    doc.text('CONAFLIX', margin, 18);
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    doc.text('www.conaflix.com · Tu camino al TOP 10', margin, 25);
+
+    y = 40;
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(18);
+    doc.setFont('helvetica', 'bold');
+    const titleLines = doc.splitTextToSize(currentTopic.title, pageW - 2*margin);
+    doc.text(titleLines, margin, y);
+    y += titleLines.length * 8 + 5;
+
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${currentTopic.subject} · ${currentTopic.subsubject} · ${currentTopic.studyTime} min · Frecuencia CONAREM: ${currentTopic.frequency}%`, margin, y);
+    y += 10;
+
+    // Divider
+    doc.setDrawColor(0, 196, 255);
+    doc.setLineWidth(0.5);
+    doc.line(margin, y, pageW - margin, y);
+    y += 8;
+
+    // Key points
+    doc.setFontSize(13);
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(0, 0, 0);
+    doc.text('PUNTOS CLAVE CONAREM', margin, y);
+    y += 8;
+
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'normal');
+    currentTopic.keyPoints.forEach((kp, i) => {
+      const lines = doc.splitTextToSize(`${i+1}. ${kp}`, pageW - 2*margin - 5);
+      doc.setTextColor(20, 20, 20);
+      doc.text(lines, margin + 3, y);
+      y += lines.length * 5.5 + 2;
+      if (y > pageH - 40) { doc.addPage(); y = margin; }
+    });
+
+    // Mnemonic
+    if (currentTopic.mnemonics) {
+      y += 5;
+      doc.setFontSize(12);
+      doc.setFont('helvetica', 'bold');
+      doc.setTextColor(80, 0, 180);
+      doc.text('MNEMOTECNIA:', margin, y);
+      y += 6;
+      doc.setFontSize(10);
+      doc.setFont('helvetica', 'normal');
+      doc.setTextColor(20, 20, 20);
+      const mLines = doc.splitTextToSize(currentTopic.mnemonics, pageW - 2*margin);
+      doc.text(mLines, margin, y);
+      y += mLines.length * 5.5 + 8;
+    }
+
+    // Bibliography
+    doc.line(margin, y, pageW - margin, y);
+    y += 6;
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(0, 0, 0);
+    doc.text('BIBLIOGRAFÍA:', margin, y);
+    y += 6;
+    doc.setFont('helvetica', 'normal');
+    const bibLines = doc.splitTextToSize(currentTopic.bibliography, pageW - 2*margin);
+    doc.text(bibLines, margin, y);
+    y += bibLines.length * 5.5;
+
+    // Footer
+    doc.setFontSize(8);
+    doc.setTextColor(150, 150, 150);
+    const today = new Date().toLocaleDateString('es');
+    doc.text(`CONAFLIX · Generado el ${today} · Material educativo exclusivo`, margin, pageH - 12);
+    doc.text(`Página 1 de 1`, pageW - 35, pageH - 12);
+
+    // Watermark
+    doc.setFontSize(50);
+    doc.setTextColor(230, 230, 240);
+    doc.setFont('helvetica', 'bold');
+    doc.text('CONAFLIX', pageW/2 - 35, pageH/2, { angle: 45 });
+
+    doc.save(`CONAFLIX_${currentTopic.title.replace(/\s+/g,'_')}.pdf`);
+    showToast('📥 PDF generado', 'El PDF se descargó correctamente');
+  } catch(e) {
+    showToast('📥 Descarga', 'Guardá esta página como PDF con Ctrl+P', false);
+  }
+}
+
+// =============================================
+// EXPORT / IMPORT DATA
+// =============================================
+function exportData() {
+  if (!currentUser) return;
+  const data = {
+    user: currentUser,
+    exportDate: new Date().toISOString(),
+    platform: 'CONAFLIX'
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `conaflix_backup_${currentUser.name?.replace(/\s+/g,'_') || 'usuario'}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('📥 Backup exportado', 'Guardá este archivo en un lugar seguro');
+}
+
+// =============================================
+// UTILIDADES
+// =============================================
+function getDaysToExam() {
+  const examDate = new Date('2026-06-15');
+  const today = new Date();
+  const diff = Math.ceil((examDate - today) / (1000 * 60 * 60 * 24));
+  return diff > 0 ? diff : 0;
+}
+
+function showToast(title, msg, isError = false) {
+  const toast = document.getElementById('toast');
+  document.getElementById('toast-title').textContent = title;
+  document.getElementById('toast-msg').textContent = msg;
+  toast.style.borderLeftColor = isError ? 'var(--red)' : 'var(--accent)';
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 3500);
+}
+
+// =============================================
+// PWA INSTALL
+// =============================================
+function showInstallBanner() {
+  if (deferredInstallPrompt) {
+    document.getElementById('install-banner').style.display = 'flex';
+  }
+}
+
+function hideInstallBanner() {
+  document.getElementById('install-banner').style.display = 'none';
+}
+
+async function installPWA() {
+  if (!deferredInstallPrompt) {
+    // Instructions for manual install
+    const ua = navigator.userAgent;
+    if (/iPhone|iPad/i.test(ua)) {
+      showToast('📲 Instalación iOS', 'Tocá Compartir → "Agregar a inicio"');
+    } else {
+      showToast('📲 Instalación', 'Abrí el menú del navegador → "Instalar aplicación"');
+    }
+    return;
+  }
+  hideInstallBanner();
+  deferredInstallPrompt.prompt();
+  const result = await deferredInstallPrompt.userChoice;
+  if (result.outcome === 'accepted') {
+    showToast('🎉 ¡App instalada!', 'CONAFLIX ya está en tu pantalla de inicio');
+    deferredInstallPrompt = null;
+  }
+}
+
+// Service Worker (offline support)
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    // Inline service worker
+    const swCode = `
+      const CACHE = 'conaflix-v1';
+      self.addEventListener('install', e => {
+        e.waitUntil(caches.open(CACHE).then(c => c.addAll(['/'])));
+      });
+      self.addEventListener('fetch', e => {
+        e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
+      });
+    `;
+    const blob = new Blob([swCode], { type: 'application/javascript' });
+    const swUrl = URL.createObjectURL(blob);
+    navigator.serviceWorker.register(swUrl).catch(() => {});
+  });
+}
+
+// =============================================
+// ANIMACIÓN CANVAS TIPO NETFLIX
+// Partículas médicas flotantes (hero + precios)
+// =============================================
+
+function initCanvasAnimation(canvasId) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // Símbolos médicos que flotan
+  const SYMBOLS = ['🩺','❤️','🧬','💊','🔬','🧪','⚕️','🏥','📋','💉','🫀','🫁','🧠','👁️','🦷'];
+
+  // Partículas
+  const particles = [];
+  const PARTICLE_COUNT = canvasId === 'hero-canvas' ? 40 : 28;
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) {
+    particles.push({
+      x: Math.random() * 1200,
+      y: Math.random() * 600,
+      size: Math.random() * 18 + 10,
+      speedX: (Math.random() - 0.5) * 0.4,
+      speedY: (Math.random() - 0.5) * 0.3,
+      opacity: Math.random() * 0.4 + 0.08,
+      symbol: SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)],
+      pulse: Math.random() * Math.PI * 2
+    });
+  }
+
+  // Líneas de conexión (efecto red neuronal)
+  function drawConnections() {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < 140) {
+          const alpha = (1 - dist/140) * 0.08;
+          ctx.beginPath();
+          ctx.strokeStyle = `rgba(0,196,255,${alpha})`;
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.stroke();
+        }
+      }
+    }
+  }
+
+  let frame = 0;
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    frame++;
+
+    // Fondo sutil con gradiente
+    const grad = ctx.createRadialGradient(canvas.width/2, canvas.height/2, 0, canvas.width/2, canvas.height/2, canvas.width*0.8);
+    grad.addColorStop(0, 'rgba(0,196,255,0.03)');
+    grad.addColorStop(0.5, 'rgba(124,58,255,0.02)');
+    grad.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    drawConnections();
+
+    // Anillos de onda expansiva
+    if (frame % 80 === 0) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        isRing: true, ringR: 0, ringMax: 80,
+        opacity: 0.3
+      });
+    }
+
+    particles.forEach((p, idx) => {
+      if (p.isRing) {
+        p.ringR += 1.2;
+        p.opacity -= 0.003;
+        if (p.ringR > p.ringMax || p.opacity <= 0) {
+          particles.splice(idx, 1); return;
+        }
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.ringR, 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(0,196,255,${p.opacity})`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+        return;
+      }
+
+      // Mover
+      p.x += p.speedX;
+      p.y += p.speedY;
+      p.pulse += 0.015;
+
+      // Rebotar en bordes
+      if (p.x < -40) p.x = canvas.width + 40;
+      if (p.x > canvas.width + 40) p.x = -40;
+      if (p.y < -40) p.y = canvas.height + 40;
+      if (p.y > canvas.height + 40) p.y = -40;
+
+      // Pulso de opacidad suave
+      const pulsedOpacity = p.opacity + Math.sin(p.pulse) * 0.06;
+      const pulsedSize = p.size + Math.sin(p.pulse * 0.7) * 2;
+
+      // Dibujar símbolo
+      ctx.save();
+      ctx.globalAlpha = Math.max(0, pulsedOpacity);
+      ctx.font = `${pulsedSize}px serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(p.symbol, p.x, p.y);
+      ctx.restore();
+
+      // Halo brillante bajo el símbolo
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, pulsedSize * 0.9, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(0,196,255,${pulsedOpacity * 0.06})`;
+      ctx.fill();
+    });
+
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+}
+
+// Iniciar animaciones cuando la app esté visible
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    initCanvasAnimation('hero-canvas');
+  }, 2000); // Después del splash
+});
+
+// Iniciar canvas de precios cuando se muestra esa pantalla
+const _origShowScreen = showScreen;
+// (ya integrado en showScreen abajo)
+
+</script>
+</body>
+</html>
