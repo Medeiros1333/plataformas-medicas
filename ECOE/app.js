@@ -349,9 +349,27 @@
     pararReloj();
     st.usado = st.inicio ? Math.min(MIN, Date.now() - st.inicio) : 0;
     st.porTiempo = !!porTiempo;
-    if (S.i < 3) { S.i++; estacion(); } else final();
+    revision();
   }
-  next.onclick = () => avanzar(false);
+  function continuar() { S.fase = ''; if (S.i < 3) { S.i++; estacion(); } else final(); }
+  next.onclick = () => (S && S.fase === 'rev' ? continuar() : avanzar(false));
+
+  // ---------- respuesta completa al terminar cada estación ----------
+  function revision() {
+    pararReloj(); reloj(); S.fase = 'rev';
+    const i = S.i, e = EST[i], st = S.est[i], [sub, suyo, ref] = partes(i);
+    acento(e.c);
+    const sig = i < 3 ? `Continuar a la estación ${i + 2}` : 'Ver resumen final';
+    next.innerHTML = sig + I.next; next.hidden = false;
+    app.innerHTML = `
+      <div class="st-bar">
+        <div><span class="kicker">Estación ${e.n} de 4 · terminada · ${tiempoDe(st)}</span><h1>Respuesta completa</h1><p>${esc(e.t)} — ${esc(sub)}</p></div>
+        <div class="st-actions"><button class="btn sm" id="cont">${sig} ${I.next}</button></div>
+      </div>
+      <div class="res-b rev"><div class="box"><h4>Lo que usted escribió</h4>${suyo}</div><div class="box ref"><h4>Respuesta completa (documentos)</h4>${ref}</div></div>`;
+    $('#cont').onclick = continuar;
+    window.scrollTo(0, 0);
+  }
 
   // ---------- final ----------
   const vacio = '<span class="empty">(vacío)</span>';
@@ -359,30 +377,40 @@
   const lista = a => { const x = (a || []).filter(s => s && s.trim()); return x.length ? `<ol>${x.map(s => `<li>${esc(s)}</li>`).join('')}</ol>` : vacio; };
   const ul = a => `<ul>${a.map(s => `<li>${md(s)}</li>`).join('')}</ul>`;
   const kv = (k, v) => `<div class="k">${k}</div>${v}`;
+  const tiempoDe = st => !st.inicio ? 'no iniciada' : st.porTiempo ? 'tiempo agotado' : fmt(st.usado) + ' usados';
+  // [subtítulo, lo que escribió el estudiante, respuesta completa de los documentos] de la estación i.
+  function partes(i) {
+    const st = S.est[i], r = st.r;
+    if (i === 0) {
+      const chat = st.log.length ? `<ul>${st.log.map(([p, a, w]) => `<li><b>${esc(p)}</b><br>${esc(w)}: ${esc(a)}</li>`).join('')}</ul>` : vacio;
+      return [st.caso.titulo,
+        kv('Preguntas al paciente', chat) + kv('Merecen fe', val(r.fe)) + kv('Motivo de consulta', val(r.mc)) + kv('Motivo de ingreso', val(r.mi)) + kv('Antecedentes remotos de la enfermedad actual', val(r.area)) + kv('Antecedentes patológicos personales', val(r.app)),
+        kv('Historia clínica completa', ul(st.caso.hc.filter(h => !/no realizado/.test(h)))) + kv('Qué había que preguntar (y la síntesis)', ul(st.caso.claves)) + kv('Lo que el paciente tenía para contar', ul(st.caso.guion))];
+    }
+    if (i === 1) return [st.caso.titulo,
+      kv('Descripción', val(r.desc)) + kv('Sindromáticos', lista(r.sind)) + kv('Diferenciales', lista(r.dif)) + kv('Presuntivo', val(r.pres)),
+      kv('Descripción e interpretación del laboratorio', ul(st.caso.labRes)) + kv('Diagnósticos sindromáticos, diferenciales y presuntivo', ul(st.caso.dxRes))];
+    if (i === 2) { const q = st.esq; return [q.nombre,
+      kv('Comunicación', val(r.com)) + kv('Esquema', val(r.esq)),
+      kv('Cómo comunicar el diagnóstico', `<p>${md(q.dx)}</p>`) + kv('Cómo explicarle el esquema al paciente', ul(q.paciente)) + kv('Esquema de tratamiento (técnico)', ul(q.esquema)) + (q.alarma ? kv('Signos de alarma', `<p>${md(q.alarma)}</p>`) : '')]; }
+    const x = st.ex;
+    const ef = x.pasos.map(p => `<div><b>${md(p.t)}</b><br>${md(p.como)}<br><span class="tag n">Normal</span> ${md(p.normal)}${p.patologico ? `<br><span class="tag p">Patológico</span> ${md(p.patologico)}` : ''}</div>`).join('');
+    const man = (x.maniobras || []).map(m => `<div><b>Maniobra: ${md(m.nombre)}</b><ol>${m.pasos.map(s => `<li>${md(s)}</li>`).join('')}</ol>${m.interpretacion ? md(m.interpretacion) : ''}</div>`).join('');
+    return [x.titulo, val(r.ef), `<div class="ef">${ef}${man}</div>`];
+  }
   function final() {
     pararReloj(); reloj(); pasos(4); next.hidden = true; document.body.style.removeProperty('--c');
-    const [a, b, c, d] = S.est;
-    const tiempo = st => !st.inicio ? 'no iniciada' : st.porTiempo ? 'tiempo agotado' : fmt(st.usado) + ' usados';
-    const chat = a.log.length ? `<ul>${a.log.map(([p, r, w]) => `<li><b>${esc(p)}</b><br>${esc(w)}: ${esc(r)}</li>`).join('')}</ul>` : vacio;
-    const ef = d.ex.pasos.map(p => `<div><b>${md(p.t)}</b><br>${md(p.como)}<br><span class="tag n">Normal</span> ${md(p.normal)}${p.patologico ? `<br><span class="tag p">Patológico</span> ${md(p.patologico)}` : ''}</div>`).join('');
-    const man = (d.ex.maniobras || []).map(m => `<div><b>Maniobra: ${md(m.nombre)}</b><ol>${m.pasos.map(s => `<li>${md(s)}</li>`).join('')}</ol>${m.interpretacion ? md(m.interpretacion) : ''}</div>`).join('');
-    const bloque = (i, sub, suyo, ref) => `
-      <details class="res" style="--c:var(--${EST[i].c})" ${i === 0 ? 'open' : ''}>
-        <summary><span class="badge">${i + 1}</span><span class="tt"><b>${esc(EST[i].t)}</b><span>${esc(sub)} · ${tiempo(S.est[i])}</span></span>${I.chev}</summary>
-        <div class="res-b"><div class="box"><h4>Lo que usted escribió</h4>${suyo}</div><div class="box"><h4>Referencia de los documentos</h4>${ref}</div></div>
-      </details>`;
+    const bloque = i => { const [sub, suyo, ref] = partes(i); return `
+      <details class="res" style="--c:var(--${EST[i].c})">
+        <summary><span class="badge">${i + 1}</span><span class="tt"><b>${esc(EST[i].t)}</b><span>${esc(sub)} · ${tiempoDe(S.est[i])}</span></span>${I.chev}</summary>
+        <div class="res-b"><div class="box"><h4>Lo que usted escribió</h4>${suyo}</div><div class="box"><h4>Respuesta completa (documentos)</h4>${ref}</div></div>
+      </details>`; };
     app.innerHTML = `
       <div class="fin-h">
-        <div><span class="eyebrow"><b></b>Simulacro ${nSim} de esta sesión</span><h1>Simulacro terminado</h1><p>Compare lo que escribió con la referencia. No hay nota: es para ver qué salió de memoria y qué faltó.</p></div>
+        <div><span class="eyebrow"><b></b>Simulacro ${nSim} de esta sesión</span><h1>Simulacro terminado</h1><p>Resumen de las 4 estaciones: abra cada una para ver lo que escribió y la respuesta completa.</p></div>
         <div class="st-actions"><button class="btn" id="otra">Nuevo simulacro ${I.next}</button><button class="btn ghost" id="ini">Inicio</button></div>
       </div>
-      ${bloque(0, a.caso.titulo, kv('Preguntas al paciente', chat) + kv('Merecen fe', val(a.r.fe)) + kv('Motivo de consulta', val(a.r.mc)) + kv('Motivo de ingreso', val(a.r.mi)) + kv('Antecedentes remotos de la enfermedad actual', val(a.r.area)) + kv('Antecedentes patológicos personales', val(a.r.app)),
-        kv('Historia clínica modelo', ul(a.caso.hc.filter(h => !/no realizado/.test(h)))) + kv('Qué había que preguntar', ul(a.caso.claves)))}
-      ${bloque(1, b.caso.titulo, kv('Descripción', val(b.r.desc)) + kv('Sindromáticos', lista(b.r.sind)) + kv('Diferenciales', lista(b.r.dif)) + kv('Presuntivo', val(b.r.pres)),
-        kv('Lectura del laboratorio', ul(b.caso.labRes)) + kv('Diagnósticos', ul(b.caso.dxRes)))}
-      ${bloque(2, c.esq.nombre, kv('Comunicación', val(c.r.com)) + kv('Esquema', val(c.r.esq)),
-        kv('Cómo decir el diagnóstico', `<p>${md(c.esq.dx)}</p>`) + kv('Cómo explicarle el esquema', ul(c.esq.paciente)) + kv('Esquema (técnico)', ul(c.esq.esquema)) + (c.esq.alarma ? kv('Signos de alarma', `<p>${md(c.esq.alarma)}</p>`) : ''))}
-      ${bloque(3, d.ex.titulo, val(d.r.ef), `<div class="ef">${ef}${man}</div>`)}`;
+      ${[0, 1, 2, 3].map(bloque).join('')}`;
     $('#otra').onclick = () => { S = sortear(); estacion(); };
     $('#ini').onclick = inicio;
     S.terminado = true;
